@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 66, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
+- Active Team: Blastoise (SHELDON) Lv 67, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
 - Money: ¥77972 [Turn 24649]
 - Pokédex: 15 Caught / 50+ Seen
@@ -145,6 +145,7 @@
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
 - [x] Arrive at Indigo Plateau and enter Pok�mon League Headquarters [Turn 24505]
+- [x] Enter Lorelei's Chamber and challenge the Elite Four [Turn 24668]
 
 
 <hr>
@@ -3849,12 +3850,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (18, 9) [Uncollected; Bag was 20/20 full when attempted Turn 16265; verified Turn 16361].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
-## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Boulder 3: Located at Switch Plate A (1, 16), depressing the switch plate. Plateau Barrier at (7, 8)-(7, 9) is LOWERED [Turn 24199].
-- Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076; Visually confirmed LOWERED Turn 24097].
-- Boulder 1: Starts at (5, 5) [Reset Turn 24156]. Wedges if pushed North into (5, 3) against rock wall (5, 2).
-- Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
-- Switch Plate B: Located at (9, 16) in southwest lower corridor. DEPRESSED by fallen boulder from 3F [Turn 24445]! Exit Barrier at (23, 14) is now LOWERED.
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
@@ -3945,7 +3940,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells supplies [Inventory pending in-game verification]. Accessed from (13, 7) facing North.
 - Mart Display Windows: Located at (2..3, 0..1) in the northern wall featuring 'SALE' signs and display cases [Corrected Turn 24659].
 - Lobby NPC / Guide: Located at (5, 1) facing South [Visually verified Turn 24656].
-- Northern Doorway: Sighted doorway with ascending stairs at (8, 0) in northern wall [Visual observation Turn 24659; physical traversal and warp trigger pending verification].
+- Northern Doorway: Entrance to Elite Four at (8, 0) in northern wall. Stepping North warps directly into Lorelei's chamber [Empirically verified Turn 24667].
 
 
 <hr>
@@ -3976,7 +3971,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Opponent Pokémon 2: CLOYSTER Lv 53 (Water/Ice)
 - Sheldon HP: 213/213 (Lv 67)
-- Strategy: Cloyster has 205 Defense vs 110 Special. Using Surf (STAB Special) to bypass massive physical defense.
+- Strategy: Cloyster possesses base 180 Defense vs base 85 Special. Using Surf (STAB Special) or Body Slam (neutral physical with 30% paralysis chance) to target its lower Special and status vulnerability.
 
 
 <hr>
