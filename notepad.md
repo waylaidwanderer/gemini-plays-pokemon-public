@@ -4102,5 +4102,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25064: Confirmed (10, 32) fence gap. Riding Up x5 along col 10 to (10, 30) on Route 1.
 - Turn 25067: In wild battle vs Pidgey. Pressing B x3 to advance intro text safely to the main battle menu.
 - Turn 25069: Battle menu confirmed on FIGHT. Pressing Down, Right, A, B to select RUN and escape.
+- Turn 25071: Player at (10, 32) on Bicycle facing North. Riding Up x4 along col 10 dirt path to (10, 28).
 
 <hr>
