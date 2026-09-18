@@ -21,10 +21,10 @@
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Subterranean Lake at (28, 8) Surfing on Sheldon.
-- Active Navigation: Surfing south and west across lake via (28, 9..10) -> (25, 10) -> (24, 11) to dismount at shoreline (24, 12). Then walking west along Western Cavern Corridor (Rows 14..16) to Staircase (17, 15).
-- Step 1: Surfing Down x2 to (28, 10), then Left x3 to (25, 10).
-- Objective: Land at (24, 12) and explore southwest cavern toward Staircase (17, 15) to locate B1F descent to Mewtwo.
+- Current Location: Cerulean Cave 1F Subterranean Lake at (25, 10) Surfing on Sheldon.
+- Active Navigation: Landing ashore at (24, 12) into entrance cavern corridor (24, 14), then proceeding west along Western Cavern Corridor (Rows 14..16) straight to Staircase (17, 15).
+- Step 1: Left to (24, 10), Down to (24, 11), Down to dismount at (24, 12), and Down x2 to (24, 14).
+- Objective: Ascend Staircase (17, 15) to access southwest upper terrace and locate B1F descent to Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
