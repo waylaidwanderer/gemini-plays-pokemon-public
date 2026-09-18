@@ -22,12 +22,12 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (7, 16) on foot.
-- Item Ball (4, 15) Access Route Verified [Turn 25974]:
-  - (6, 16) is a solid rock wall blocking direct westward passage along Row 16 from (7, 16).
-  - Open route to (4, 15) identified via visual inspection of full tile grid:
-    (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (8, 14) -> (8, 13) -> (7, 13) -> (6, 13) -> (5, 13) -> (5, 14) -> (5, 15) -> face Left to (4, 15).
-- Active Plan: Step Right x2, Up x2, Left, Up to waypoint (8, 13), then follow Row 13 west to (5, 15) and retrieve the item.
+- Current Location: Cerulean Cave 2F at (8, 16) on foot.
+- Item Ball (4, 15) Access Route Refined [Turn 25982]:
+  - (9, 15) is a solid rock wall. Passage north from Row 16 is via Column 10!
+  - Fully verified open route:
+    (8, 16) -> (9, 16) -> (10, 16) -> (10, 15) -> (10, 14) -> (9, 14) -> (8, 14) -> (8, 13) -> (7, 13) -> (6, 13) -> (5, 13) -> (5, 14) -> (5, 15) -> face Left to (4, 15).
+- Active Plan: Step Right x2, Up x2, Left x2, Up to reach waypoint (8, 13), then follow Row 13 west to (5, 15) and retrieve the Item Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
