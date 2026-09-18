@@ -4238,7 +4238,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
-- Rhydon [Encountered 2F Turn 25585]
+- Rhydon: Lv 52 [Encountered 2F Turn 25585]
 
 
 <hr>
