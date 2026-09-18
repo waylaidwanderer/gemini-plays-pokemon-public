@@ -54,3 +54,4 @@
 - Turn 25188: Player at (7, 11) on Bicycle facing South. Riding Down x7 along col 7 west-central corridor to (7, 18) clear ground crossroads.
 - Turn 25190: Player at (7, 18) on Bicycle facing South. Divider wall terminates at row 21. Riding Down x4 to (7, 22), then Left x5 through row 22 breach into Exit Avenue at (2, 22).
 - Turn 25191: Player at (2, 22) on Bicycle facing West. Stepping Left to col 1 and riding Up x7 to bypass Bug Catcher (2, 18) toward gatehouse at (1, 15).
+- Turn 25193: Player at (1, 15) on Bicycle facing North. Riding Up x8 along col 1 Exit Avenue toward gatehouse at (1, 7).
