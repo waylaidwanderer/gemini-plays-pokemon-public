@@ -11,3 +11,4 @@
 - Lorelei: Located at (5, 2) facing South.
   - Specializes in Ice/Water Pokémon.
   - Team: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
+  - Defeated Turn 24759 by Sheldon Lv 67 (89/213 HP). Northern exit doorway unlocked.

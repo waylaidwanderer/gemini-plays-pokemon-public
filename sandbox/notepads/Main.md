@@ -144,3 +144,4 @@
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
 - [x] Arrive at Indigo Plateau and enter Pok�mon League Headquarters [Turn 24505]
 - [x] Enter Lorelei's Chamber and challenge the Elite Four [Turn 24668]
+- [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
