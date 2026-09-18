@@ -68,3 +68,4 @@
 - Turn 25128: Player at (7, 62) on Bicycle. Ramp confirmed at (7, 61). Riding Up x5 through ramp onto highway at (7, 57).
 - Turn 25130: Player at (7, 57) on Bicycle facing North. Riding Left x3 to (4, 57), then Up x2 along col 4 western corridor to (4, 55).
 - Turn 25132: Player at (4, 54) on Bicycle facing North. Riding Up x2 to (4, 52), then Right x3 along row 52 lawn to (7, 52) to line up with col 8 passage.
+- Turn 25134: Player at (7, 52) on Bicycle. Shifting Right to (8, 52) lawn, then riding Up x4 along col 8 to (8, 48) toward row 47 passage.
