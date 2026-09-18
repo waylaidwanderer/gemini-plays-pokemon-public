@@ -4166,10 +4166,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Staircase at (1, 13) on foot.
-- Empirical Physical Discovery: Staircase (1, 13) successfully ascended. Cave ladder sprite visually confirmed at (3, 11) on western elevated terrace.
-- Routing Plan: Step Up onto terrace at (1, 12), walk east along Row 12 to Column 3, and step onto Ladder (3, 11) to determine floor destination.
-- Next Step: Step Up to (1, 12), Right x2 to (3, 12), and Up onto Ladder (3, 11).
+- Current Location: Cerulean Cave 2F Western Pocket at (3, 11) on foot.
+- Empirical Physical Discovery: Ladder (3, 11) leads from 1F western terrace to 2F Western Pocket! Sighted Item Ball on ground at (4, 15).
+- Routing Plan: Survey Western Pocket corridors {(3, 11), (2, 11), (2, 10), (3, 10), (3, 9)} to check for passable tiles or branches, and locate passage toward Row 7 and Ladder (1, 3).
+- Next Step: Step Up x2 to (3, 9) to survey northern boundary.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4177,6 +4177,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
+| (3, 11) | (3, 11) | CONFIRMED 2-WAY | 1F western terrace to 2F western secluded pocket |
 
 <hr>
 
@@ -4232,8 +4233,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
+- Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Western Pocket (Cols 2..3, Rows 9..11): Secluded corridor pocket enclosing Ladder (3, 11). Visually overlooks an Item Ball at (4, 15) behind rock barrier. [Physically verified Turn 25867]
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
