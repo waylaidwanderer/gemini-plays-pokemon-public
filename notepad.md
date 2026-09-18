@@ -4124,5 +4124,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25254: Fled Zubat cleanly at (5, 21). Walking Down x4 to (5, 25), then Right x6 along row 25 toward (11, 25) Main Cavern Junction.
 - Turn 25255: Wild encounter triggered at (8, 25) in Western Passage. Pressing B x6 to advance intro text to battle menu.
 - Turn 25256: Wild Zubat Lv 8 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
+- Turn 25257: Fled Zubat cleanly at (8, 25). Walking Right x8 along row 25 toward (16, 25) southern bypass to Eastern Avenue.
 
 <hr>
