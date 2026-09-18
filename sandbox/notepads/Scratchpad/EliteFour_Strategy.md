@@ -60,3 +60,4 @@
   5. Dragonite Lv 62 (Dragon/Flying, Lance's ace) -> ICE BEAM (4X ICE WEAKNESS! Massive OHKO!)
 - Total Ice Beams required: Exactly 4. Ice Beam PP available: 5/10!
 - Supplies: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POKé FLUTE.
+- Turn 24857: Sighted Lance at (6, 1) facing South. Player at (6, 3). Opening Bag menu to heal Sheldon from 194 to 216 HP with Full Restore.
