@@ -4165,5 +4165,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25401: Fled Zubat cleanly at (12, 12). Player at (12, 12) on foot facing North. Walking Up x3 along column 12 to (12, 10) and testing entrance into Fossil Chamber at (12, 9).
 - Turn 25404: Arrived at (12, 9) facing North directly in front of Super Nerd Miguel (12, 8). Pressing A to speak with Miguel and test passage into Fossil Chamber.
 - Turn 25406: Miguel dialogue confirmed ('Far away, on CINNABAR ISLAND...'). Pressing B x2 to close textbox and Right to test step into (13, 9) to bypass Miguel.
+- Turn 25407: Stepped onto (13, 9) successfully bypassing Miguel! Wild Zubat battle triggered at (13, 9). Pressing B x6 to advance transition to battle menu.
 
 <hr>
