@@ -3984,6 +3984,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24977: Party screen open with cursor locked on Sheldon (44/222 HP). Pressing A to apply Full Restore (10 remaining after use) and restore Sheldon to full 222/222 HP.
 - Turn 24978: Sheldon recovered 178 HP to full 222/222 HP via Full Restore (10 remaining). Pressing B x5 to dismiss message, weather Venusaur's turn, and reach main battle menu.
 - Turn 24979: Main battle menu open with cursor on ITEM facing charging Venusaur Lv 65 (~20-25% HP). Sheldon active at full 222/222 HP. Pressing Up to highlight FIGHT and A to execute championship-winning Struggle!
+- Turn 24980: Struggle hit Venusaur down to a microscopic red sliver (~1 HP)! Sheldon at 222/222 HP facing Solarbeam. Advancing text through recoil and Solarbeam with B x5 to reach battle menu for the final strike.
 
 <hr>
 
