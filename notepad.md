@@ -4020,6 +4020,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24805: Bag menu open on POK� FLUTE. Playing Pok� Flute to wake Sheldon and advance turn with B.
 - Turn 24806: Pok� Flute woke Sheldon! Gengar used Confuse Ray (Sheldon confused, HP 216/216). Dismissing text and opening FIGHT menu to verify move cursor for Surf.
 - Turn 24807: Bag menu was open. Pressing B to close bag, Up to FIGHT, and A to open move menu to select Surf.
+- Turn 24808: Move menu verified on SURF (4/15 PP). Executing Surf against Gengar Lv 56 (~40 HP remaining). Advancing with B to resolve KO and decline switch.
 
 
 <hr>
