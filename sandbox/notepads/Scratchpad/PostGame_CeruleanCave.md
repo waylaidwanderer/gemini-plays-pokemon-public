@@ -40,3 +40,4 @@
 - Turn 25263: Wild encounter triggered at (15, 25) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
 - Turn 25264: Wild Zubat Lv 10 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
 - Turn 25265: Fled Zubat cleanly at (15, 25). Walking Right x8 along row 25 toward (23, 25) Eastern Avenue entrance.
+- Turn 25266: Player at (16, 25). Bug Catcher at (16, 24) triggered dialogue. Pressing B x4 to dismiss textbox and stunning NPC.
