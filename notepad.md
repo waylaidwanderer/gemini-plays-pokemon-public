@@ -166,7 +166,6 @@
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - TM43 (SKY ATTACK) x1 [Obtained Turn 15496 at Victory Road 1F (11, 0)]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
-- SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 - TM38 (FIRE BLAST) x1 [Received Turn 14806 from Gym Leader Blaine]
 - TM27 (FISSURE) x1 [Received Turn 15114 from Gym Leader Giovanni]
 - TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
@@ -175,7 +174,7 @@
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 11 / 20 [Turn 24561]
+- Total Slots Used: 10 / 20 [Turn 24565]
 - Complete Top-to-Bottom Slot Order:
   1. BICYCLE
   3. POKé FLUTE
@@ -183,7 +182,6 @@
   6. MAX POTION x1
   7. REVIVE x5
   8. FULL HEAL x6
-  15. SECRET KEY
   16. TM38 (FIRE BLAST) x1
   17. TM27 (FISSURE) x1
   18. TM43 (SKY ATTACK) x1
@@ -191,6 +189,7 @@
   20. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
+- SECRET KEY x1 (PC) [Stored Turn 24565]
 - TM22 (SOLARBEAM) x1 (PC) [Stored Turn 24561]
 - TM14 (BLIZZARD) x1 (PC) [Stored Turn 24557]
 - CARBOS x1 (PC) [Stored Turn 24553]
@@ -4061,7 +4060,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - [x] ESCAPE ROPE [Turn 24548]
   - [x] TM14 (BLIZZARD) [Turn 24557]
   - [x] TM22 (SOLARBEAM) [Turn 24561]
-  - [ ] SECRET KEY
+  - [x] SECRET KEY [Turn 24565]
   - [ ] TM38 (FIRE BLAST)
   - [ ] TM27 (FISSURE)
   - [ ] TM43 (SKY ATTACK)
