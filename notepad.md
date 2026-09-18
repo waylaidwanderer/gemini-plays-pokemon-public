@@ -4156,5 +4156,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25391: Player at (11, 28) on foot facing North. Western Cavern Highway confirmed wide open across cols 7..11. Walking Up x5 along col 11 toward (11, 23).
 - Turn 25392: Player at (11, 23) on foot facing North. Walking Left to (10, 23) and Up x4 along column 10 to (10, 19).
 - Turn 25393: Player at (10, 19) on foot facing North. Defeated Grunt sighted at (11, 16). Cols 12..13 confirmed open at row 15. Walking Up x2 to (10, 17), Right x2 to (12, 17), and Up to (12, 16) into Fossil Approach Corridor.
+- Turn 25394: Wild Clefairy encountered at (11, 17) in Mt. Moon B2F. Pressing B x6 to advance intro text to battle menu.
 
 <hr>
