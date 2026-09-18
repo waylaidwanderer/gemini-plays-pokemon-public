@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥107771 [Turn 24983]
+- Money: ¥107981 [Turn 25269]
 - Pokédex: 17 Caught / 124 Seen
 
 ## Milestones
@@ -4103,11 +4103,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Route 4 west and entered Mt. Moon 1F at (18, 5) [Turns 25242-25244]
 
 ## Active Route & Next Steps
-- Current Location: Mt. Moon 1F at (10, 12) on foot facing North (in battle with wild Zubat Lv 10).
-- Main Cavern Junction to Eastern Avenue: Walk east along rows 25..27 past column 16 to Eastern Avenue at columns 24..27.
-- Eastern Avenue to Northern Highway: Walk north along Eastern Avenue (cols 24..27) from row 27 to row 10, then through col 30 passage to Northern Highway (rows 6..7).
-- Northern Highway to Ladder (5, 5): Walk west along rows 6..7 across to the northwest corner at (5, 5).
-- Descent to B1F/B2F: Descend ladder (5, 5) to B1F, take ladder (21, 17) to B2F, navigate to Route 4 Exit Chamber, climb ladder (5, 7) to B1F (27, 3), and ascend to 1F Route 4 East exit.
+- Current Location: Mt. Moon B2F at (35, 24) on foot facing West in Southern Avenue.
+- Southern Avenue to Southern Corridor: Walk south down cols 32..34 from row 24 to row 31.
+- Southern Corridor to Western Highway: Walk west along rows 31..32 from col 33 to col 11.
+- Western Highway to Route 4 Exit: Walk north along cols 7..11 past Fossil Chamber to Route 4 Exit Chamber at (5, 7).
+- Ascend Ladders: Take B2F ladder (5, 7) to B1F (23, 3), then ladder (27, 3) to 1F Route 4 East exit.
 
 - Turn 25262: Player at (12, 25) on foot facing East. Walking Right x8 along row 25 toward (20, 25) Eastern Avenue corridor.
 - Turn 25263: Wild encounter triggered at (15, 25) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
@@ -4140,29 +4140,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25316: Player at (10, 12) on foot. Screen black transition indicates wild battle triggered. Pressing B x4 to advance transition and battle intro text.
 - Turn 25317: Wild Zubat appeared at (10, 12). Pressing B x6 to advance intro text to battle menu.
 - Turn 25319: Wild Zubat Lv 10 in battle at (10, 12). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25324: Fled Zubat cleanly. Player at (10, 12) on foot facing North. Walking Up x6 along column 10 toward (10, 6) near northwest ladder.
-- Turn 25325: Player at (10, 6) on foot facing North. Walking Up to (10, 5) and Left x4 to (6, 5) directly adjacent to Northwest Ladder (5, 5).
-- Turn 25327: Player arrived at (6, 5) facing West. Northwest Ladder visually confirmed at (5, 5) with defeated Hiker at (5, 6). Stepping Left onto ladder (5, 5) to descend to B1F.
-- Turn 25329: Stepped onto Ladder (5, 5) and arrived on Mt. Moon B1F Northwest Transit Corridor at (5, 5) facing South. Walking Down x6 along column 5 toward row 16.
-- Turn 25331: Player at (5, 11) on foot facing South in B1F corridor. Walking Down x5 to row 16 bend at (5, 16).
-- Turn 25333: Player arrived at (5, 16) on foot facing South. Visual confirms rows 16..17 form a clear east-west corridor extending east past col 10. Walking Right x6 along row 16 toward ladder (21, 17).
-- Turn 25334: Player at (10, 16) on foot. Screen black transition indicates wild battle triggered. Pressing B x6 to advance transition and battle intro text.
-- Turn 25335: Wild Zubat Lv 7 in battle at (10, 16). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25337: Fled Zubat cleanly at (10, 16). Player at (10, 16) on foot facing East. Walking Right x6 along row 16 toward ladder (21, 17).
-- Turn 25339: Player at (16, 16) on foot facing East. Ladder (21, 17) visually confirmed on screen. Walking Right x5 to (21, 16) directly above ladder.
-- Turn 25341: Arrived at (21, 16) directly above Ladder (21, 17). Stepping Down onto ladder to descend to B2F Main Cavern.
-- Turn 25344: Arrived on Mt. Moon B2F Main Cavern at (21, 17) facing South. Walking Up x3 to (21, 14) and Right x3 along Central Cross Corridor toward Eastern Cavern Highway.
-- Turn 25347: Player at (24, 14) on foot facing East. Central Cross Corridor dead-ends at col 29 rock wall. Walking Right x2 to (26, 14) and hopping south over ledge (26, 15) into Southern Cavern Corridor at (26, 16).
-- Turn 25349: Player at (26, 15) landing on ledge. Pressing Down to (26, 16) and walking Right x4 along row 16 toward Breakthrough Passage at (33, 15).
-- Turn 25360: Player at (30, 16) on foot facing South. Walking Right x3 to (33, 16) and pressing Up to empirically test northward traversal through (33, 15).
-- Turn 25362: Wild Geodude encountered at (31, 16) in Mt. Moon B2F. Pressing B x6 to advance intro text to battle menu.
-- Turn 25364: Battle menu active vs Geodude Lv 10 at (31, 16). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25366: Fled Geodude cleanly. Player at (31, 16) on foot facing North. Walking Right x2 to (33, 16) and pressing Up to empirically test northward traversal through (33, 15).
-- Turn 25368: Player at (33, 15) on foot facing North. Breakthrough Passage at (33, 15) empirically verified passable northward! Stepping Up x2 to (33, 13) and Right x3 to enter Eastern Cavern Highway at (36, 13).
-- Turn 25370: Player at (33, 13) on foot. Screen black transition indicates wild battle triggered. Pressing B x6 to advance transition and battle intro text.
-- Turn 25372: Wild Zubat Lv 11 in battle at (33, 13). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25374: Fled Zubat cleanly at (33, 13). Player at (33, 13) on foot. Walking Right x3 through (35, 13) gateway into Eastern Cavern Highway at (36, 13) and Down x2 to (36, 15).
-- Turn 25376: Arrived on Eastern Cavern Highway at (36, 15) facing South. Walking Down x5 along column 36 toward row 24.
-- Turn 25378: Player at (36, 20) on foot facing South. Visual confirms rows 22..24 open west into Southern Avenue. Walking Down x4 to (36, 24) and Left to (35, 24).
+- Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
+- Turns 25331-25342: Traversed B1F Northwest Transit Corridor south along col 5 to row 16, fled wild Zubat at (10, 16), walked east to (21, 16), and descended ladder (21, 17) to B2F Main Cavern.
+- Turns 25343-25355: Arrived on B2F at (21, 17), walked to (26, 14), hopped south over ledge (26, 15) into Southern Cavern Corridor, and walked east to (30, 16).
+- Turns 25356-25368: Tested Breakthrough Passage at (33, 15), fled wild Geodude at (31, 16), and empirically verified (33, 15) is fully passable northward into row 14!
+- Turns 25369-25380: Fled wild Zubat at (33, 13), traversed row 13 gateway into Eastern Cavern Highway at (36, 13), followed highway south to row 24, and turned west into Southern Avenue at (35, 24).
 
 <hr>
