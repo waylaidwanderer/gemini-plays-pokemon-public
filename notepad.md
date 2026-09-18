@@ -4042,6 +4042,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24934: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 4/15) facing Gyarados Lv 61. Pressing A to execute Double-Edge.
 - Turn 24935: Double-Edge hit Gyarados Lv 61 for 92 damage (~45% HP remaining). Sheldon took 23 recoil to 119/222 HP. Double-Edge PP now 3/15. Advancing text through Gyarados counter with B x5.
 - Turn 24936: Gyarados used Leer (Sheldon Defense fell, zero damage taken). Sheldon active at 119/222 HP. Gyarados at ~45% HP. Main battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 3/15).
+- Turn 24937: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 3/15) facing Gyarados Lv 61 (~45% HP). Pressing A to execute Double-Edge and KO Gyarados.
 
 <hr>
 
