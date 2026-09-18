@@ -1,1 +1,2 @@
 - Turn 24941: Arcanine Lv 63 confirmed on field (5/6). FIGHT menu open with cursor on Slot 1 (Double-Edge, PP 2/15). Pressing A to execute Double-Edge.
+- Turn 24943: Double-Edge dealt 92 damage to Arcanine Lv 63 (~55% HP remaining). Sheldon at 71/222 HP. Arcanine used Leer (zero damage). Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 1/15).

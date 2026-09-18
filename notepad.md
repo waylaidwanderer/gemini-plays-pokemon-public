@@ -222,7 +222,7 @@
   - Status: Healthy
   - HP: 71 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 2/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
+  - Moves: Double-Edge (PP 1/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3960,6 +3960,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 <h1><code>Scratchpad/EliteFour_Strategy</code></h1>
 
 - Turn 24941: Arcanine Lv 63 confirmed on field (5/6). FIGHT menu open with cursor on Slot 1 (Double-Edge, PP 2/15). Pressing A to execute Double-Edge.
+- Turn 24943: Double-Edge dealt 92 damage to Arcanine Lv 63 (~55% HP remaining). Sheldon at 71/222 HP. Arcanine used Leer (zero damage). Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 1/15).
 
 <hr>
 
