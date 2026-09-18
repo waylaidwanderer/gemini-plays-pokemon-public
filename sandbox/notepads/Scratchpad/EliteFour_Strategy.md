@@ -30,3 +30,4 @@
 - Turn 12: Body Slam reduced Slowbro to 1 HP and inflicted Paralysis! Sheldon HP: 136/213. Queued finishing blow.
 - Turn 13: Battle menu open on FIGHT. Slowbro at 1 HP and paralyzed. Sheldon executing Body Slam to finish off Slowbro.
 - Turn 13 result: Lorelei burned a Super Potion on Slowbro! Slowbro regained 50 HP (~30% HP total) and remains paralyzed. Sheldon HP: 136/213.
+- Turn 14: Double-Edge hit Slowbro down to ~10% HP (Sheldon HP 132/213, 4 recoil). Slowbro paralyzed. Executing Double-Edge to KO Slowbro.
