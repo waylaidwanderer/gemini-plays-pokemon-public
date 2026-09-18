@@ -2,7 +2,7 @@
 
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
-  - HP: 194 / 216 (Confused)
+  - HP: 216 / 216 (Healthy, Full Health)
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 6/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166
 - Support Pivots:
@@ -12,7 +12,7 @@
   - SANDMAN (Drowzee Lv 9)
 
 ## Verified Active Bag Supplies
-- FULL RESTORE x15 [Purchased Turn 24635, 1 used post-Lorelei]
+- FULL RESTORE x14 [Purchased Turn 24635, 1 used post-Lorelei]
 - REVIVE x15
 - MAX POTION x1
 - MAX REVIVE x1
@@ -59,5 +59,6 @@
   4. Aerodactyl Lv 60 (Rock/Flying) -> ICE BEAM (2x Ice weakness vs base 60 Special, guaranteed OHKO!)
   5. Dragonite Lv 62 (Dragon/Flying, Lance's ace) -> ICE BEAM (4X ICE WEAKNESS! Massive OHKO!)
 - Total Ice Beams required: Exactly 4. Ice Beam PP available: 5/10!
-- Supplies: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POKé FLUTE.
+- Supplies: FULL RESTORE x14, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POKé FLUTE.
 - Turn 24857: Sighted Lance at (6, 1) facing South. Player at (6, 3). Opening Bag menu to heal Sheldon from 194 to 216 HP with Full Restore.
+- Turn 24860: Full Restore used on Sheldon (healed from 194 to 216/216 HP). Full Restore count: 14. Closing menus to challenge Lance.
