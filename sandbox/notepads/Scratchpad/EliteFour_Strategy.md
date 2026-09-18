@@ -17,20 +17,20 @@
 - MAX POTION x1
 - MAX REVIVE x1
 - FULL HEAL x6
-- POKé FLUTE
+- POKï¿½ FLUTE
 
 ## Elite Four Battle 1: Lorelei [Cleared Turn 24759]
-- Outcome: Victory! All 5 Pokémon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
-- Prize Money: ¥5544 (New total: ¥83516).
+- Outcome: Victory! All 5 Pokï¿½mon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
+- Prize Money: ï¿½5544 (New total: ï¿½83516).
 - Sheldon post-battle healed with Full Restore to 213/213 HP.
 
 ## Elite Four Battle 2: Bruno [Cleared Turn 24791]
-- Outcome: FLAWLESS VICTORY! All 5 Pokémon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
-- Defeated Pokémon: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
-- Prize Money: ¥5742 (New total: ¥89258).
+- Outcome: FLAWLESS VICTORY! All 5 Pokï¿½mon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
+- Defeated Pokï¿½mon: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
+- Prize Money: ï¿½5742 (New total: ï¿½89258).
 
 ## Elite Four Battle 3: Agatha [In Progress Turn 24841]
-- Defeated Pokémon:
+- Defeated Pokï¿½mon:
   1. Gengar Lv 56 [2HKO'd with Surf]
   2. Golbat Lv 56 [OHKO'd with Ice Beam critical hit]
   3. Haunter Lv 55 [2HKO'd with Surf, burned Agatha Super Potion #1]
