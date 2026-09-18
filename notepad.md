@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 70 (HP 46/222)
+- Active Team: Blastoise (SHELDON) Lv 70 (HP 184/222)
 
 - Money: ¥101336 [Turn 24904]
 - Pokédex: 15 Caught / 50+ Seen
@@ -159,7 +159,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x13 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
+- FULL RESTORE x12 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -171,7 +171,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x13
+  2. FULL RESTORE x12
   3. MAX POTION x1
   4. REVIVE x15
   5. FULL HEAL x6
@@ -220,7 +220,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 46 / 222
+  - HP: 184 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3960,6 +3960,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 <h1><code>Scratchpad/EliteFour_Strategy</code></h1>
 
 - Turn 24949: Party menu open with cursor on Sheldon (46/222 HP). Pressing A to apply Full Restore (12 remaining) and restore Sheldon to full 222/222 HP against Venusaur Lv 65.
+- Turn 24950: Full Restore applied! Sheldon HP recovered by 176 to full 222/222 HP (12 Full Restores remaining). Pressing B x5 to dismiss message, weather Venusaur's move, and reach main battle menu.
+- Turn 24951: Venusaur Lv 65 used Mega Drain for 38 damage. Sheldon active at 184/222 HP (12 Full Restores remaining). Advancing text with B x3 to reach the main battle menu.
 
 <hr>
 
