@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (26, 9) facing North.
-- Active Navigation: Walking Left to (25, 9) and North up Column 25 (25, 8..7) to junction at (25, 7).
-- Objective: Explore northern corridor network (Rows 5..7) and scout passages heading west toward Ladder (19, 7).
+- Current Location: Cerulean Cave 2F at (25, 7) facing North.
+- Active Navigation: Walking Right x2 to (27, 7), Up to (27, 6), and Right x2 to (29, 6), then North up Column 29 toward (29, 3).
+- Objective: Traverse northern highway (Rows 1..3) west toward Ladder (19, 7) and northwest sector.
 
 - Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
 
@@ -4228,6 +4228,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Visually observed open eastward to (22, 13), where it turns south into Column 22.
 - Row 17 Southern Thoroughfare (Cols 21..27, Row 17): 1-tile wide corridor running east-west along southern rock boundary (row 18). Connects Column 21 at (21, 17) to Column 27 at (27, 17). [Physically verified (21..23, 17)]
 - Northern Chamber & Corridors (Cols 24..29, Rows 5..7): Broad northern corridor network accessible from Column 26 via (25, 7..9). Extends west along Row 5 past Column 24 toward the Ladder (19, 7) northwest sector. [Visually verified Rows 5..7]
+- Northeast Loop & Column 29 (Cols 27..29, Rows 3..7): From (25, 7), passage leads east to (27, 7), north to (27, 6), east to (29, 6), and north up Column 29 through rows 5, 4, 3. At (29, 3), turns west into (28, 3) leading toward the northern transit corridor. [Visually verified]
+- Northwest Upper Corridors (Cols 21..24, Rows 3..5): Corridors at (24, 3..5) and (21..22, 3..5) lead west, connecting directly toward the Ladder (19, 7) sector. [Visually verified]
 - Column 26 Corridor (Col 26, Rows 9..14): 1-tile wide vertical corridor running north from Row 14 at (26, 14) to (26, 9). Bounded by solid rock walls at Col 25 (west) and Col 27 (east). At (26, 9), turns west to (25, 9) to access the northern network.
 - Column 27/28 Southeast Corridor: From (27, 17), leads north to (27, 16) where (27, 15) is blocked by rock wall. Steps east to (28, 16) and runs north along Column 28 through (28, 15) to (28, 14). [Physically verified (27, 17..16)]
 - Row 14 East-West Branch: At (28, 14), connects west to (27, 14) and (26, 14), and east to (29, 14). [Visually verified]
