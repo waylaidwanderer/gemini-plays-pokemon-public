@@ -19,7 +19,7 @@
 - POKÃ© FLUTE (infinite sleep cure)
 
 ## Matchup Progress & Live Combat Log - Lorelei
-- Defeated Pokémon:
+- Defeated Pokï¿½mon:
   1. Dewgong Lv 54 [KO'd Turn 2 with Body Slam, Sheldon 209/209 HP, 0 damage taken]
   2. Cloyster Lv 53 [KO'd Turn 7 with Body Slam, Sheldon 147/213 HP, cured of confusion]
   3. Slowbro Lv 54 [KO'd Turn 19 with Double-Edge Critical Hit, burned both Lorelei Super Potions]
@@ -29,4 +29,4 @@
 - Turn 19: Double-Edge scored a Critical Hit! Slowbro fainted! Sheldon took 8 recoil to 101/213 HP. Gained 1897 EXP. Declined switch.
 - Turn 20: Jynx Lv 56 sent out. Selected Surf from move menu.
 - Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Declined switch.
-- Turn 22: Lapras Lv 56 sent out. Sheldon HP 101/213. Opening FIGHT to select Surf.
+- Turn 22: Lapras Lv 56 sent out. Cursor verified on SURF (14/15 PP). Executing Surf against Lapras.
