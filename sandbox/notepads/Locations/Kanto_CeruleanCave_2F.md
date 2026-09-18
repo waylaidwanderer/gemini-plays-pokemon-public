@@ -1,11 +1,10 @@
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives at (22, 6).
+- Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (23, 7).
 
 ## Layout & Corridors
-- Arrival Corridor (Col 22, Rows 2..7): 1-tile wide north-south corridor between col 21 rock wall and col 23 rock wall.
-- Row 5 Crossover (Cols 19..22, Row 5): East-west open passage connecting col 22 corridor west to ladder (19, 7).
-- Ladder Pocket (Cols 18..20, Rows 5..7): Open floor area enclosing Ladder (19, 7).
-- Northern Cross Corridor (Row 2, Cols 18..24): East-west open passage across row 2 connecting northern corridor ends.
-- Southward Branch (Col 23, Rows 7..10+): North-south open corridor running south past row 7 east of col 22.
+- Spawn Alcove (22, 6): Player arrives at (22, 6) facing North. Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7).
+- Tile (22, 7): Open floor connecting east to (23, 7).
+- Column 23 Corridor (Col 23, Rows 7..10+): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south toward the southern sector of 2F.
+- Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from spawn alcove by rock walls at (20..21, 7).

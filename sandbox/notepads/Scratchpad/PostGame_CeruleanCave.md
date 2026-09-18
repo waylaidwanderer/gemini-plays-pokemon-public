@@ -55,3 +55,4 @@
 
 - Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.- Turn 25517: Arrived at (21, 12) facing North. Visually identified Ladder (18, 9), Staircase (21, 11), Staircase (17, 15), and Staircase (25, 9). Ascending (21, 11) to scout elevated terrace.
 - Turn 25522: Ascended Ladder (23, 7) on 1F and arrived on Cerulean Cave 2F at (22, 6) facing North. Ladder (19, 7) confirmed to connect to 1F (23, 7). Scouting 2F northern corridor along col 22.
+- Turn 25526: Verified (22, 5) is solid rock wall. (22, 6) only exits South to (22, 7), which connects east to Column 23 corridor running south.
