@@ -4230,7 +4230,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
-- Southwest Lower Corridor (Cols 11..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open horizontal thoroughfare extending west past Column 11 toward the southwest corner. [Physically verified Turn 25847]
+- Southwest Lower Corridor (Cols 1..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open continuous horizontal thoroughfare spanning from Column 17 west all the way to Column 1 at (1, 16..17), where Staircase (1, 13) ascends north to the western elevated terrace. [Physically verified Turns 25847-25864, 26061-26064]
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
 
 ## Wild Pok�mon (Empirically Verified)
