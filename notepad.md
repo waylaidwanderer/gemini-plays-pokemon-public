@@ -164,7 +164,6 @@
 - FULL RESTORE x1 [Safari Zone Area 1 Turn 7647; Mansion B1F (1, 22) Turn 14575]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
-- MASTER BALL x1 [Received Turn 13053 from Silph Co President]
 - MOON STONE x1 [Verified Turn 13828]
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - TM43 (SKY ATTACK) x1 [Obtained Turn 15496 at Victory Road 1F (11, 0)]
@@ -181,7 +180,7 @@
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20 [Turn 24531]
+- Total Slots Used: 16 / 20 [Turn 24535]
 - Complete Top-to-Bottom Slot Order:
   1. BICYCLE
   3. POKé FLUTE
@@ -189,8 +188,7 @@
   6. MAX POTION x1
   7. REVIVE x5
   8. FULL HEAL x6
-  9. MASTER BALL x1
-  10. MOON STONE x1
+  7. MOON STONE x1
   11. ESCAPE ROPE x1
   12. CARBOS x1
   13. TM14 (BLIZZARD) x1
@@ -203,6 +201,7 @@
   20. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
+- MASTER BALL x1 (PC) [Stored Turn 24535]
 - SUPER ROD x1 (PC) [Stored Turn 24531]
 - BICYCLE x1 (PC) [Stored Turn 24529]
 - HM01 (CUT) x1 (PC) [Stored Turn 24526]
