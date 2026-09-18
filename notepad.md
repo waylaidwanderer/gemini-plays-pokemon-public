@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 14) surfing.
+- Current Location: Cerulean Cave 1F at (14, 7) surfing.
 - Physical Traversal Milestones [Turns 26068-26096]:
   - Traversed Row 17 east to (16, 17), climbed Staircase (17, 15) onto Central-Western Terrace at (17, 14).
   - Crossed terrace via Row 18/9 to Staircase (11, 13), descended to water, and launched HM03 SURF on Sheldon.
