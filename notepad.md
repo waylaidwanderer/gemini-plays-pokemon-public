@@ -4170,12 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Route 4 East at (54, 10) mounted on Bicycle facing East.
-- Route 4 East to Cerulean City: Riding east along Row 10 Corridor (rows 10..12) toward col 61 gap to bypass col 62 tree line onto row 8.
+- Current Location: Route 4 East at (79, 10) mounted on Bicycle facing East.
+- Route 4 East to Cerulean City: Riding east across row 10-11 bridge into Cerulean City (col 80+).
 - Cerulean City to Cerulean Cave: Traverse north to Route 24 river, Surf southwest to Cerulean Cave entrance, and verify guard departure.
-- Turn 25447: Player hopped over column 45 ledge and landed at (46, 6) mounted on Bicycle facing East.
-- Turn 25456: Reached (49, 6); col 50 ridge verified impassable eastward from row 6; took column 49 south gap to row 10.
-- Turn 25459: Player reached (54, 10) on Bicycle in Row 10 Corridor heading East.
 
 - Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
 - Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
@@ -4186,15 +4183,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25383-25392: Traversed Southern Corridor west to col 11 junction, ascended Western Cavern Highway north along col 10/11, and cleanly fled wild Zubat at (28, 31).
 - Turns 25393-25403: Bypassed defeated Grunt (11, 16) into Fossil Approach Corridor (col 12), fled wild Clefairy at (11, 17) and Zubat at (12, 12), and reached Miguel approach at (12, 9).
 - Turns 25404-25410: Spoke with Miguel, verified bypass via (13, 9) into Fossil Chamber, fled wild Zubat at (13, 9), and walked north along col 13 into Northern Exit Corridor at (13, 4).
-- Turn 25413: Player at (8, 4) on foot facing West. Ladder (5, 7) visually confirmed on screen in Southern Alcove. Walking Left x5 along row 4 toward ledge approach at (3, 4).
-- Turn 25414: Player at (3, 4) on foot facing West. Hopping south over ledge (3, 5) and walking to Ladder (5, 7) to ascend to B1F.
-- Turn 25415: Landed at (3, 6) facing South. Walking Right x2 to (5, 6) and Down onto Ladder (5, 7) to ascend to B1F.
-- Turn 25416: Arrived on B1F at (23, 3) facing South. Ladder (27, 3) in sight. Walking Right x4 along row 3 onto ladder to ascend to 1F Route 4 exit.
-- Turn 25420: Player arrived outside on Route 4 East at (24, 6) on foot facing South. Opening Bag to mount Bicycle for eastern traversal to Cerulean City.
-- Turn 25432: Mounted Bicycle at (24, 6) on Route 4 East.
-- Turn 25435: Rode Bicycle East along row 6 to (32, 6).
-- Turn 25463: Player reached (61, 8) on Row 8 Bypass mounted on Bicycle. Heading east along row 8 corridor toward Cerulean City.
-- Turn 25467: Player reached (71, 8) on Bicycle facing East. Paved path opens ahead to the east.
-- Turn 25468: Player at (76, 8) on Bicycle facing East. Row 8 ends at stone post (80, 8); row 9 ledge connects directly south to row 10-11 bridge.
+- Turns 25413-25420: Ascended B2F northern ladder, traversed B1F transit corridor, and exited Mt. Moon onto Route 4 East at (24, 6).
+- Turns 25420-25468: Mounted Bicycle on Route 4 East, rode east along row 6, hopped col 45 ledge into central corridor, navigated col 49 gap to row 10 corridor, bypassed col 62 trees via row 8 corridor, and hopped row 9 ledge onto row 10-11 bridge at (79, 10).
 
 <hr>
