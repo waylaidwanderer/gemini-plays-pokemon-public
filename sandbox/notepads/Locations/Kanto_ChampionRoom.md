@@ -9,4 +9,4 @@
 
 ## Champion
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
-- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated). Remaining 2 bench Pok�mon unrevealed in-game.
+- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Active). Remaining 1 bench Pokémon unrevealed in-game.
