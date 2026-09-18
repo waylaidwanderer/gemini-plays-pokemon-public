@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Pocket at (19, 7) on foot facing North.
-- Active Navigation: Walking North to (19, 6) and scouting northwest passages toward B1F ladder.
-- Objective: Explore 2F northwest sector to find the descending ladder leading to B1F (Mewtwo).
+- Current Location: Cerulean Cave 2F Northwest Sector at (19, 7) on foot facing North.
+- Active Navigation: Walking Up x2 to (19, 5), Right x2 to (21, 5), and Up to (21, 4) along the winding corridor.
+- Objective: Follow winding northwest corridor into upper rows (Rows 3..4) to locate the descending ladder to B1F (Mewtwo).
 
 - Turn 25650: Ascended 1F Ladder (18, 9) and arrived directly on 2F Ladder (19, 7) in the secluded northwest sector!
 
