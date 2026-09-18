@@ -18,3 +18,4 @@
 
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
+- Magneton [Encountered 1F Turn 25520]
