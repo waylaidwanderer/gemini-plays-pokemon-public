@@ -22,16 +22,12 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (7, 9) on foot.
-- Western Perimeter Probing & Physical Discoveries [Turn 25951]:
-  - (1, 10): Solid rock wall blocking westward movement from (2, 10).
-  - (2, 9): Solid rock wall blocking northward movement from (2, 10).
-  - (2, 11): Open floor leading east to Ladder (3, 11) and dead-ending south at (2, 12) rock wall.
-  - Thus (2, 10..11) is a dead-end spur off (3, 10); no westward passage into Column 0/1 exists from here.
-- Visual Discoveries from (7, 9) [Turn 25956]:
-  - Row 9 is an open horizontal corridor spanning (3, 9) through at least (12, 9).
-  - Column 12 contains an open vertical corridor spanning south from (12, 9) through (12, 10..13).
-- Active Plan: Traverse east along Row 9 from (7, 9) to (12, 9) to investigate Column 12 southern corridor and eastern Row 9 continuation.
+- Current Location: Cerulean Cave 2F at (12, 9) on foot.
+- Physical & Visual Discoveries at (12, 9) [Turn 25961]:
+  - Row 9 East Bypass: (13, 9) connects north to (13, 8) -> (14, 8) -> (15, 8) -> (15, 9), bypassing rock wall (14, 9) to continue east along Row 9.
+  - Column 12 South Corridor: Open vertical corridor spanning south through (12, 10), (12, 11), (12, 12), (12, 13).
+  - Row 12 East Corridor: At (12, 12), open horizontal corridor extends east across cols 13..17.
+- Active Plan: Step south down Column 12 from (12, 9) to (12, 13) to scout southern connections to Row 14 and route west toward Item Ball at (4, 15).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
