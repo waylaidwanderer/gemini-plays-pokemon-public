@@ -8,6 +8,7 @@
 - Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
+- Tile (16, 12): Empirically verified impassable elevation cliff from (16, 11) facing South with 0 movement delta [Turn 24130].
 - Tile (15, 1): Empirically verified open dark checkerboard floor from (16, 1) facing West [Turn 24123]. Column 14 remains solid rock wall.
 - Column 16 Highway [Verified Turn 23114]: Column 16 is an open north-south corridor connecting Row 11 at (16, 11) all the way north to Row 1 at (16, 1). Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3), completely bypassing the Row 4 rock wall (cols 18-24). Row 3 is blocked by Advice NPC at (26, 3). Row 6 is solid rock wall across cols 24-29 and Col 29 is solid rock wall across rows 0-6, so Northern Plateau cannot access Ladder (27, 7).
 - Wall at (15, 11): Solid rock wall directly west of (16, 11) terminating Row 11 eastward corridor at column 16 [Empirically verified Turn 22174].
