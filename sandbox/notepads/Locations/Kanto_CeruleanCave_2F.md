@@ -19,6 +19,7 @@
   - Visually observed open eastward to (22, 13), where it turns south into Column 22.
 - Row 17 Southern Thoroughfare (Cols 21..27, Row 17): 1-tile wide corridor running east-west along southern rock boundary (row 18). Connects Column 21 at (21, 17) to Column 27 at (27, 17). [Physically verified (21..23, 17)]
 - Northern Chamber & Corridors (Cols 24..29, Rows 5..7): Broad northern corridor network accessible from Column 26 via (25, 7..9). Extends west along Row 5 past Column 24 toward the Ladder (19, 7) northwest sector. [Visually verified Rows 5..7]
+- Column 26 Corridor (Col 26, Rows 9..14): 1-tile wide vertical corridor running north from Row 14 at (26, 14) to (26, 9). Bounded by solid rock walls at Col 25 (west) and Col 27 (east). At (26, 9), turns west to (25, 9) to access the northern network.
 - Column 27/28 Southeast Corridor: From (27, 17), leads north to (27, 16) where (27, 15) is blocked by rock wall. Steps east to (28, 16) and runs north along Column 28 through (28, 15) to (28, 14). [Physically verified (27, 17..16)]
 - Row 14 East-West Branch: At (28, 14), connects west to (27, 14) and (26, 14), and east to (29, 14). [Visually verified]
 - Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Ground Item at (29, 9). [Visually verified]
