@@ -4004,6 +4004,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
   - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
 - Turn 24846: Gengar Lv 60 officially fainted! Gained 2442 EXP. Agatha sending in final Pok�mon Arbok Lv 58. Declining switch with B.
+- Turn 24848: Battle menu open on FIGHT facing Arbok Lv 58 (~65 HP remaining). Move cursor on ICE BEAM (Slot 4, PP 6/10). Firing Ice Beam to KO Arbok and defeat Agatha!
 
 
 <hr>

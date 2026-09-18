@@ -146,3 +146,4 @@
 - [x] Enter Lorelei's Chamber and challenge the Elite Four [Turn 24668]
 - [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
+- [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]

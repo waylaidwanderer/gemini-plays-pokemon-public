@@ -29,7 +29,7 @@
 - Defeated Pokï¿½mon: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
 - Prize Money: ï¿½5742 (New total: ï¿½89258).
 
-## Elite Four Battle 3: Agatha [In Progress Turn 24841]
+## Elite Four Battle 3: Agatha [Cleared Turn 24849]
 - Defeated Pokï¿½mon:
   1. Gengar Lv 56 [2HKO'd with Surf]
   2. Golbat Lv 56 [OHKO'd with Ice Beam critical hit]
@@ -45,3 +45,18 @@
   - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
 - Turn 24846: Gengar Lv 60 officially fainted! Gained 2442 EXP. Agatha sending in final Pokémon Arbok Lv 58. Declining switch with B.
 - Turn 24848: Battle menu open on FIGHT facing Arbok Lv 58 (~65 HP remaining). Move cursor on ICE BEAM (Slot 4, PP 6/10). Firing Ice Beam to KO Arbok and defeat Agatha!
+
+## Agatha Battle Summary
+- Outcome: Victory! All 5 Pokémon defeated (Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Gengar Lv 60, Arbok Lv 58).
+- Sheldon Status: Healthy, Lv 68, HP 194/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 5/10).
+
+# Elite Four Matchup 4: Lance Strategy [Upcoming]
+- Lance specializes in Dragon and Flying Pokémon.
+- Verified Typings & Targets:
+  1. Gyarados Lv 58 (Water/Flying) -> BODY SLAM / DOUBLE-EDGE (high physical Attack vs 79 Defense)
+  2. Dragonair Lv 56 (Dragon) -> ICE BEAM (2x Ice weakness, guaranteed OHKO!)
+  3. Dragonair Lv 56 (Dragon) -> ICE BEAM (2x Ice weakness, guaranteed OHKO!)
+  4. Aerodactyl Lv 60 (Rock/Flying) -> ICE BEAM (2x Ice weakness vs base 60 Special, guaranteed OHKO!)
+  5. Dragonite Lv 62 (Dragon/Flying, Lance's ace) -> ICE BEAM (4X ICE WEAKNESS! Massive OHKO!)
+- Total Ice Beams required: Exactly 4. Ice Beam PP available: 5/10!
+- Supplies: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POKé FLUTE.
