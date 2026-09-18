@@ -3828,9 +3828,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24184]:
-- Floor reset via ladder (0, 8): Boulder 1 is at (5, 5), Boulder 3 is at (4, 14).
-- Switch Plate A at (1, 16) is unpressed; Plateau Barrier at (7, 8)-(7, 9) is currently RAISED.
+## Current Verified State [Turn 24199]:
+- Boulder 3 successfully pushed onto Switch Plate A at (1, 16) [Solved Turn 24199]!
+- Switch Plate A at (1, 16) is DEPRESSED; Plateau Barrier at (7, 8)-(7, 9) is LOWERED.
 - Strength is active (cast by Rocky Turn 24160).
 - Northwest Chamber entrance at (5, 4): (4, 4) and (6, 4) are rock walls; pushing Boulder 1 north into (5, 3) blocks (5, 4) against rock wall (5, 2). Access to Ladder (1, 1) is via Northern Highway (Rows 0-1) from eastern sector.
 
@@ -3961,7 +3961,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Boulder 3: Starts at (4, 14). Depresses Switch Plate A at (1, 16) to lower Plateau Barrier Block at (7, 8)-(7, 9) [Solved Turn 24093].
+- Boulder 3: Pushed onto Switch Plate A at (1, 16) via Col 3 and Row 16 runway, actively depressing Switch Plate A [Turn 24199]. Plateau Barrier at (7, 8)-(7, 9) is LOWERED.
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076; Visually confirmed LOWERED Turn 24097].
 - Boulder 1: Starts at (5, 5) [Reset Turn 24156]. Wedges if pushed North into (5, 3) against rock wall (5, 2); Northwest Chamber access is via Northern Highway from eastern sector.
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
