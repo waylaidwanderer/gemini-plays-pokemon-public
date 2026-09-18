@@ -4181,7 +4181,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Current Location: Cerulean Cave 1F at (1, 14) on foot.
 - Physical Traversal Milestone [Turn 26061]:
   - Successfully descended Staircase (1, 13) onto 1F lower landing at (1, 14).
-- Active Plan: Step Down x3 to (1, 17), then march east along Row 17 through (2..17, 17) to Staircase (17, 15) to climb onto the central-western terrace and access the lake at (11, 13).
+- Active Plan: Step Down x2 to (1, 16), then march east along Row 16 through (2..17, 16) to Staircase (17, 15) to climb onto the central-western terrace and access the lake at (11, 13).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
