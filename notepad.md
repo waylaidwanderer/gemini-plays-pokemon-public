@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 70
 
-- Money: ¥101336 [Turn 24904]
+- Money: ¥107771 [Turn 24904]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -215,7 +215,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥101336 [Turn 24904]
+- ¥107771 [Turn 24904]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
@@ -3976,6 +3976,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - BLUE is the new POKÉMON LEAGUE CHAMPION!
 
 - Turn 24983: Prize money received: ¥6435 (New total: ¥107771). Battle ended! Overworld cutscene in Champion's Room: RED acknowledging defeat ("You're the new POKéMON LEAGUE champion!"). Advancing dialogue with B x5 for Professor Oak's entrance.
+- Turn 24985: Professor Oak entered Champion's Room at (3, 2). Dialogue: 'OAK: So, you won! Congratulations!'. Advancing cutscene with B x5 to follow Oak into the Hall of Fame.
 
 <hr>
 

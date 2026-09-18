@@ -15,3 +15,4 @@
 - BLUE is the new POKÉMON LEAGUE CHAMPION!
 
 - Turn 24983: Prize money received: ¥6435 (New total: ¥107771). Battle ended! Overworld cutscene in Champion's Room: RED acknowledging defeat ("You're the new POKéMON LEAGUE champion!"). Advancing dialogue with B x5 for Professor Oak's entrance.
+- Turn 24985: Professor Oak entered Champion's Room at (3, 2). Dialogue: 'OAK: So, you won! Congratulations!'. Advancing cutscene with B x5 to follow Oak into the Hall of Fame.
