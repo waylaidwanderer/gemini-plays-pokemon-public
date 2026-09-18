@@ -3,3 +3,4 @@
 - Turn 24951: Venusaur Lv 65 used Mega Drain for 38 damage. Sheldon active at 184/222 HP (12 Full Restores remaining). Advancing text with B x3 to reach the main battle menu.
 - Turn 24952: Main battle menu open with cursor on ITEM facing Venusaur Lv 65. Sheldon active at 184/222 HP (0 PP). Pressing Up to highlight FIGHT and A to initiate Struggle attack sequence.
 - Turn 24953: Selecting FIGHT with 0 PP automatically triggered Struggle! 'SHELDON has no moves left! SHELDON used STRUGGLE!'. Advancing text through Struggle damage, recoil, and Venusaur's turn with B x5.
+- Turn 24954: Struggle dealt ~45 damage to Venusaur Lv 65. Sheldon took 25 recoil to 159 HP. Venusaur countered with Mega Drain for 44 damage, putting Sheldon at 115/222 HP. Advancing text with B x3 to reach the main battle menu.
