@@ -4048,7 +4048,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South: Exit doors at (7..8, 11) leading out to Route 23 / Indigo Plateau exterior.
 
 ## Services & Points of Interest
-- Pok�mon Center Counter / Nurse Joy: Location TBD (setting warp anchor is mandatory).
+- Pok�mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Interacted from (7, 7) facing North [Turn 24507] to heal party and register permanent Indigo Plateau warp anchor.
 - PC Terminal: Location TBD (inventory cleanup / deposit items).
 - Pok� Mart Counter: Location TBD (stock up on Full Restores, Revives, Max Potions with �134,927).
 - Elite Four Entrance: Guarded passage leading to Lorelei (Elite Four Member 1).
