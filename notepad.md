@@ -4036,6 +4036,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24828: Ice Beam hit Arbok down to ~40% HP! Agatha withdrew Arbok and sent in Gengar Lv 60 (Agatha's ace). Advancing text with B to reach battle menu.
 - Turn 24830: Battle menu open on FIGHT facing Gengar Lv 60 (Agatha's ace). Sheldon at 216/216 HP. Navigating Up from Ice Beam to Surf (Slot 3, final PP) to blast Gengar.
 - Turn 24832: Final Surf executed against Gengar Lv 60. Advancing turn text with B to resolve damage and Gengar's response.
+- Turn 24833: Surf brought Gengar Lv 60 to ~45% HP. Gengar used Confuse Ray (Sheldon confused, HP 216/216). Navigating Down from Surf to Ice Beam (Slot 4, PP 8/10) to attack Gengar.
 
 
 <hr>
