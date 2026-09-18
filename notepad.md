@@ -3927,66 +3927,64 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Locations/Kanto_IndigoPlateau</code></h1>
 
-# Indigo Plateau (Pok�mon League Headquarters)
+# Indigo Plateau (Pokémon League Headquarters)
 
 ## Overview & Geography
-- Headquarters of the Pok�mon League, located at the northern terminus of Route 23.
+- Headquarters of the Pokémon League, located at the northern terminus of Route 23.
 - Entrance doormat: Located at (7..8, 11) inside lobby.
 - South exit: Doors at (7..8, 11) lead out to Route 23 / Indigo Plateau exterior.
 
 ## Services & Points of Interest
-- Pok�mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pok�mon League.
-- PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby. Functional terminal accessed from (15, 8) facing North.
-- Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells supplies [Inventory pending in-game verification]. Accessed from (13, 7) facing North.
+- Pokémon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pokémon League [Turn 24508].
+- PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby. Functional terminal accessed from (15, 8) facing North [Turn 24518].
+- Cable Club Counter: Located at (13, 6) with receptionist behind counter. Accessed from (13, 7) facing North. Dialogue: 'This area is reserved for 2 friends who are linked by cable.' [Empirically verified Turn 24605].
+- Poké Mart Counter: Located in the western wing at (1, 6) with clerk behind counter at (0, 5). Accessed from (0, 7) facing North [Empirically verified Turn 24620].
+  - Verified Merchandise Catalog (Complete) [Turn 24642]:
+    - ULTRA BALL: ¥1200 [Verified Turn 24622]
+    - GREAT BALL: ¥600 [Verified Turn 24622]
+    - FULL RESTORE: ¥3000 [Verified Turn 24622]
+    - MAX POTION: ¥2500 [Verified Turn 24622]
+    - FULL HEAL: ¥600 [Verified Turn 24639]
+    - REVIVE: ¥1500 [Verified Turn 24639]
+    - MAX REPEL: ¥700 [Verified Turn 24642]
 - Mart Display Windows: Located at (2..3, 0..1) in the northern wall featuring 'SALE' signs and display cases [Corrected Turn 24659].
 - Lobby NPC / Guide: Located at (5, 1) facing South [Visually verified Turn 24656].
-- Northern Doorway: Entrance to Elite Four at (8, 0) in northern wall. Stepping North warps directly into Lorelei's chamber [Empirically verified Turn 24667].
-
-
-<hr>
-
-<h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
-
-# Victory Road Master Routing & Active Testing
-
-## VICTORY ROAD COMPLETED! [Turn 24494]
-- Victory Road 1F, 2F, and 3F are 100% cleared!
-- Exit Doorway: Located on 2F at (29, 7) in the eastern chamber.
-- Emerged onto Route 23 North at (14, 31) / (14, 32).
-- Immediate Destination: Walk North on Route 23 to INDIGO PLATEAU!
+- Northern Doorway (Elite Four Entrance): Located at (8, 0) in the northern wall. Stepping North into (8, 0) triggers map transition directly into Lorelei's chamber [Empirically verified Turn 24667].
 
 
 <hr>
 
 <h1><code>Scratchpad/EliteFour_Strategy</code></h1>
 
+# Elite Four Preparation & Strategy [Updated Turn 24721]
 
-## Live Battle Log - Lorelei [Turn 24675]
-- Lead: SHELDON Lv 66 (Blastoise) [HP 209/209]
-- Opponent Lead: DEWGONG Lv 54 (Water/Ice)
-- Strategy: Use Body Slam / Double-Edge to bypass Water/Ice resistances. 2HKO.
-- Turn 1: Sheldon used Body Slam on Dewgong Lv 54! Critical hit! Dewgong HP dropped to ~15%. Sheldon HP: 209/209.
-- Turn 2: Cursor on Body Slam (PP 14/15). Executing Body Slam to KO Dewgong Lv 54. Sheldon HP: 209/209.
-- Turn 2 result: Body Slam KO'd Dewgong Lv 54! Dewgong fainted. Sheldon HP: 209/209 (100% full health). Dewgong defeated with zero damage taken!
+## Active Party Status
+- Lead: SHELDON (Blastoise Lv 67) [HP 136/213, Attack 157, Defense 183, Speed 157, Special 163]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 5/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Current Status: In combat with Lorelei, healthy (cured of confusion), at -3 Attack from Slowbro's Growls.
+- Support Pivots:
+  - ROCKY (Geodude Lv 8) [Strength]
+  - DUX (Farfetch'd Lv 5) [Cut]
+  - DIGBY (Diglett Lv 19) [Dig]
+  - SANDMAN (Drowzee Lv 9) [Flash]
 
-- Opponent Pokémon 2: CLOYSTER Lv 53 (Water/Ice)
-- Sheldon HP: 213/213 (Lv 67)
-- Strategy: Cloyster possesses base 180 Defense vs base 85 Special. Using Surf (STAB Special) or Body Slam (neutral physical with 30% paralysis chance) to target its lower Special and status vulnerability.
-- Turn 3: Sheldon used Body Slam on Cloyster Lv 53! Critical hit! Cloyster HP dropped to ~35%. Sheldon HP: 213/213.
-- Turn 4: Cloyster used Spike Cannon (hit 3 times, Sheldon at 195/213 HP). Sheldon executing Body Slam to KO Cloyster.
-- Sheldon snapped out of confusion! Sheldon HP: 169/213. Body Slam executing to finish off Cloyster.
-- Turn 5: Body Slam brought Cloyster to 1 pixel HP and paralyzed it! Sheldon HP: 169/213 (cured of confusion). Finishing blow queued.
-- Turn 6: Cloyster used Spike Cannon (Sheldon at 158/213 HP). Cloyster at 1 HP. Sheldon executing Body Slam to finish off Cloyster.
-- Turn 7: Battle menu open on FIGHT. Sheldon (HP 147/213) executing Body Slam to KO 1-HP paralyzed Cloyster.
-- Turn 7 result: Body Slam scored a Critical Hit! Cloyster fainted!
-- Lorelei's defeated Pokémon: Dewgong Lv 54 [Turn 2], Cloyster Lv 53 [Turn 7].
-- Sheldon Status: HP 147/213 (Lv 67), Healthy.
-- Opponent Pokémon 3: SLOWBRO Lv 54 (Water/Psychic).
-  - Tactics: Slowbro uses Amnesia (Special boost). Physical moves (Double-Edge / Body Slam) target its physical Defense and bypass Amnesia completely. 2HKO.
-- Turn 8: Sheldon used Body Slam on Slowbro Lv 54 (Slowbro HP ~65%). Slowbro used Growl (Sheldon HP 147/213). Sheldon executing Body Slam.
-- Turn 9: Sheldon used Body Slam on Slowbro Lv 54 (Slowbro HP ~35%). Slowbro used Growl (Sheldon HP 147/213). Sheldon executing Body Slam.
-- Turn 10: Slowbro HP ~25%. Sheldon HP 147/213. Executing Body Slam to push Slowbro to faint/critical.
-- Turn 11: Slowbro used Water Gun (11 dmg, Sheldon HP 136/213). Slowbro at ~10% HP. Sheldon executing Body Slam to KO Slowbro.
+## Verified Active Bag Supplies
+- FULL RESTORE x16 [Purchased Turn 24635]
+- REVIVE x15 [Purchased Turn 24648]
+- MAX POTION x1
+- MAX REVIVE x1
+- FULL HEAL x6
+- POKé FLUTE (infinite sleep cure)
+
+## Matchup Progress & Live Combat Log - Lorelei
+- Defeated Pokémon:
+  1. Dewgong Lv 54 [KO'd Turn 2 with Body Slam, Sheldon 209/209 HP, 0 damage taken]
+  2. Cloyster Lv 53 [KO'd Turn 7 with Body Slam, Sheldon 147/213 HP, cured of confusion]
+- Current Opponent:
+  3. Slowbro Lv 54 [HP ~15% remaining, used Growl x3, Amnesia x1, Water Gun x1]
+- Backline Opponents (Movesets Hypothesized / Pending Direct Observation):
+  4. Jynx Lv 56 [Hypothesized: Ice/Psychic, fragile physical defense]
+  5. Lapras Lv 56 [Hypothesized: Water/Ice, Lorelei's ace]
 
 
 <hr>
