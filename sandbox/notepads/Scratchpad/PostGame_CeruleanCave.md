@@ -45,3 +45,4 @@
 - Turn 25081: Battle menu confirmed on FIGHT vs Rattata. Pressing Down, Right, A, B to select RUN and escape.
 - Turn 25083: Player at (13, 23) facing North on Bicycle. Riding Up x3 along col 13 to row 20 dirt road at (13, 20).
 - Turn 25085: Player at (13, 20) on Bicycle. Riding Left x4 along row 20 dirt road to (9, 20), then Up through ledge gap at (9, 19).
+- Turn 25087: Player at (9, 18) on Bicycle facing North. Riding Up x2 to row 16 dirt road, then Right x3 along row 16 to (12, 16).
