@@ -95,3 +95,4 @@
 - Turn 24924: RED sent out Alakazam Lv 59 (2/6). Sheldon active at 174/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 5/15).
 - Turn 24925: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 5/15) facing Alakazam Lv 59. Pressing A to execute Double-Edge.
 - Turn 24926: Double-Edge OHKO'd Alakazam Lv 59 (2/6)! Alakazam fainted. Sheldon took 35 recoil to 139/219 HP. Double-Edge PP now 4/15. Advancing text through fainting, EXP, and switch prompt with B x5.
+- Turn 24927: RED is about to use Rhydon Lv 61 (3/6). Sheldon active at 139/219 HP. Strategy confirmed: decline switch, target Rhydon's 75 Special with final Ice Beam (Slot 4, 1 PP). Pressing B x5 to reach battle menu.
