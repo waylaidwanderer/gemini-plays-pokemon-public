@@ -30,4 +30,5 @@
 - Turn 20: Jynx Lv 56 sent out. Selected Surf from move menu.
 - Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Declined switch.
 - Turn 22: Surf scored a CRITICAL HIT on Lapras! Lapras down to ~55% HP! Lapras used Body Slam (Sheldon took only 12 damage to 89/213 HP, no paralysis).
-- Turn 23: 2nd Surf executed against Lapras. Advancing turn text to resolve damage and Lapras's response.
+- Turn 23: 2nd Surf hit Lapras down into the RED zone (~15-20% HP)! Lapras used Confuse Ray (Sheldon confused, HP 89/213).
+- Turn 24: Battle menu open on FIGHT. Move cursor on SURF. Firing Surf to finish Lapras and defeat Lorelei!
