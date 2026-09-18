@@ -39,3 +39,10 @@
   5. Climb SW Ladder (3, 11) to 2F SW Sector.
   6. Walk north along Col 1 to Ladder A at (1, 3).
   7. Descend Ladder A into B1F Mewtwo's Chamber!
+## Verified 1F Water Network & Shoreline Access (Turn 53541)
+- Upper terrace (Row 6) is an elevated cliff above Row 5 water.
+- Ground level shoreline is at (24..25, 11) facing water basin at (24..25, 10).
+- Access to ground level: from upper terrace, walk south to (21, 11) and hop down ledge to (21, 12) -> (24, 12) -> (24, 11).
+- From (24, 10), water canal spans east to cols 28-29, which run north to Row 5 northern lake.
+- Row 5 northern lake extends west across the entire cave to cols 2-3, connecting south to SW Ladder at (3, 11).
+- SW Ladder (3, 11) leads directly to 2F SW Sector -> Ladder A (1, 3) -> B1F Mewtwo!
