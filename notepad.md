@@ -4162,5 +4162,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25370: Player at (33, 13) on foot. Screen black transition indicates wild battle triggered. Pressing B x6 to advance transition and battle intro text.
 - Turn 25372: Wild Zubat Lv 11 in battle at (33, 13). Selecting RUN via Down, Right, A, B x2 to return to overworld.
 - Turn 25374: Fled Zubat cleanly at (33, 13). Player at (33, 13) on foot. Walking Right x3 through (35, 13) gateway into Eastern Cavern Highway at (36, 13) and Down x2 to (36, 15).
+- Turn 25376: Arrived on Eastern Cavern Highway at (36, 15) facing South. Walking Down x5 along column 36 toward row 24.
 
 <hr>
