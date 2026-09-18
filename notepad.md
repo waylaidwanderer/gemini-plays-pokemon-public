@@ -4103,5 +4103,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25067: In wild battle vs Pidgey. Pressing B x3 to advance intro text safely to the main battle menu.
 - Turn 25069: Battle menu confirmed on FIGHT. Pressing Down, Right, A, B to select RUN and escape.
 - Turn 25071: Player at (10, 32) on Bicycle facing North. Riding Up x4 along col 10 dirt path to (10, 28).
+- Turn 25073: Player at (10, 28) facing North. Bypassing row 27 ledge: riding Left x2 to (8, 28), then Up x2 to (8, 26) in row 26 corridor.
 
 <hr>
