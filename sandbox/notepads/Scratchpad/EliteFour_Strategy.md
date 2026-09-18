@@ -75,3 +75,4 @@
 - Turn 24827: Battle menu open on FIGHT facing Arbok Lv 58. Sheldon healthy at 216/216 HP. Navigating Down from Surf to Ice Beam (Slot 4, PP 9/10) to 2HKO Arbok.
 - Turn 24828: Ice Beam hit Arbok down to ~40% HP! Agatha withdrew Arbok and sent in Gengar Lv 60 (Agatha's ace). Advancing text with B to reach battle menu.
 - Turn 24830: Battle menu open on FIGHT facing Gengar Lv 60 (Agatha's ace). Sheldon at 216/216 HP. Navigating Up from Ice Beam to Surf (Slot 3, final PP) to blast Gengar.
+- Turn 24832: Final Surf executed against Gengar Lv 60. Advancing turn text with B to resolve damage and Gengar's response.
