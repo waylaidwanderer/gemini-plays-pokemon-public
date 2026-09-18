@@ -15,3 +15,4 @@
    - Navigate to Cerulean Cave (Unknown Dungeon) entrance northwest of Cerulean City.
    - Guard is now gone because BLUE is the Pokémon League Champion!
 5. Explore Cerulean Cave, reach B1F, and capture legendary MEWTWO (Lv 70) with Master Ball!
+- Turn 25004: Reached (6, 7) in Player's House 1F. Navigating Up x3 to (6, 4), turning Left, and talking to Mom at (5, 4) to rest and fully heal party.
