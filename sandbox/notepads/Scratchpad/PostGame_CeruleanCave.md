@@ -44,3 +44,4 @@
 - Turn 25173: Player at (31, 18) on Bicycle facing North. Riding Left x5 along row 18 to (26, 18) at Northern Avenue entrance.
 - Turn 25174: Player at (26, 18) on Bicycle facing West. Stepping Left to (25, 18), then riding Up x5 along col 25 to (25, 14) in Northern Avenue.
 - Turn 25175: Player at (25, 13) on Bicycle facing North. Riding Up x4 along col 25 to (25, 9) at northern opening.
+- Turn 25178: Player at (25, 9) on Bicycle facing North. North blocked by row 7 tree wall. Riding Left x6 along row 9 corridor toward (19, 9).

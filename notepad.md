@@ -487,7 +487,8 @@
 - West-Central Corridor (Cols 11..13, Rows 12..19): Northbound corridor bounded by column 9-10 stone posts on the west and column 14-15 trees on the east, connected to the north-central avenue via row 16-17 clear grass.
 - Northern Exit Gatehouse (Cols 1..3, Rows 0..2): Visually confirmed gatehouse building structure at the northwest corner of the map. Accessible via the column 2 avenue.
 - West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
-- Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
+- Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 21..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 21..29). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 21..23 (tall grass) leading toward the west-central sector.
+
 
 <hr>
 
@@ -4111,5 +4112,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25173: Player at (31, 18) on Bicycle facing North. Riding Left x5 along row 18 to (26, 18) at Northern Avenue entrance.
 - Turn 25174: Player at (26, 18) on Bicycle facing West. Stepping Left to (25, 18), then riding Up x5 along col 25 to (25, 14) in Northern Avenue.
 - Turn 25175: Player at (25, 13) on Bicycle facing North. Riding Up x4 along col 25 to (25, 9) at northern opening.
+- Turn 25178: Player at (25, 9) on Bicycle facing North. North blocked by row 7 tree wall. Riding Left x6 along row 9 corridor toward (19, 9).
 
 <hr>
