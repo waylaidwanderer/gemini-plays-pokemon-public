@@ -3987,7 +3987,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 19: Double-Edge scored a Critical Hit! Slowbro fainted! Sheldon took 8 recoil to 101/213 HP. Gained 1897 EXP. Declined switch.
 - Turn 20: Jynx Lv 56 sent out. Selected Surf from move menu.
 - Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Declined switch.
-- Turn 22: Lapras Lv 56 sent out. Cursor verified on SURF (14/15 PP). Executing Surf against Lapras.
+- Turn 22: Surf scored a CRITICAL HIT on Lapras! Cut Lapras's HP in half (down to ~55% HP)! Sheldon HP 101/213. Advancing turn through Lapras's attack to return to battle menu.
 
 <hr>
 
