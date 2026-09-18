@@ -4127,5 +4127,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25193: Player at (1, 15) on Bicycle facing North. Riding Up x8 along col 1 Exit Avenue toward gatehouse at (1, 7).
 - Turn 25194: Wild encounter triggered at (1, 14) in Viridian Forest Exit Avenue. Pressing B x6 to advance intro text to battle menu.
 - Turn 25195: Wild Caterpie Lv 3 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
+- Turn 25196: Fled Caterpie cleanly; player at (1, 14) on Bicycle facing North. Riding Up x8 along col 1 Exit Avenue toward (1, 6).
 
 <hr>
