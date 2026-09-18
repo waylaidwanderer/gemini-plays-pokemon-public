@@ -4211,5 +4211,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25393-25403: Bypassed defeated Grunt (11, 16) into Fossil Approach Corridor (col 12), fled wild Clefairy at (11, 17) and Zubat at (12, 12), and reached Miguel approach at (12, 9).
 - Turns 25404-25410: Spoke with Miguel, verified bypass via (13, 9) into Fossil Chamber, fled wild Zubat at (13, 9), and walked north along col 13 into Northern Exit Corridor at (13, 4).
 - Turn 25413: Player at (8, 4) on foot facing West. Ladder (5, 7) visually confirmed on screen in Southern Alcove. Walking Left x5 along row 4 toward ledge approach at (3, 4).
+- Turn 25414: Player at (3, 4) on foot facing West. Hopping south over ledge (3, 5) and walking to Ladder (5, 7) to ascend to B1F.
 
 <hr>
