@@ -3989,7 +3989,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Declined switch.
 - Turn 22: Surf scored a CRITICAL HIT on Lapras! Lapras down to ~55% HP! Lapras used Body Slam (Sheldon took only 12 damage to 89/213 HP, no paralysis).
 - Turn 23: 2nd Surf hit Lapras down into the RED zone (~15-20% HP)! Lapras used Confuse Ray (Sheldon confused, HP 89/213).
-- Turn 24: Battle menu open on FIGHT. Move cursor on SURF. Firing Surf to finish Lapras and defeat Lorelei!
+- Turn 24: Sheldon fired Surf (12/15 PP), confusion prompt on screen. Advancing turn text to resolve attack.
 
 <hr>
 
