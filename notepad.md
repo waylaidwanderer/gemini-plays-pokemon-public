@@ -3972,6 +3972,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Strategy: Use Body Slam / Double-Edge to bypass Water/Ice resistances. 2HKO.
 - Turn 1: Sheldon used Body Slam on Dewgong Lv 54! Critical hit! Dewgong HP dropped to ~15%. Sheldon HP: 209/209.
 - Turn 2: Cursor on Body Slam (PP 14/15). Executing Body Slam to KO Dewgong Lv 54. Sheldon HP: 209/209.
+- Turn 2 result: Body Slam KO'd Dewgong Lv 54! Dewgong fainted. Sheldon HP: 209/209 (100% full health). Dewgong defeated with zero damage taken!
 
 
 <hr>
