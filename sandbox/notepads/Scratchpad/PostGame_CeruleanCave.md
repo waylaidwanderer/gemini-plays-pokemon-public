@@ -34,11 +34,10 @@
   - 2F southwest corridors dead-end completely. Central/eastern 2F is also exhausted.
   - Hypothesis (Unverified): Candidate Ladder (1, 3) sighted from afar on Turn 25702 is hypothesized to lead to the isolated northwest of 1F or B1F. However, ground access on 2F is blocked by barriers.
   - Actionable Route: Backtrack through Column 13 bypass to Column 12, ascend to Row 9 at (12, 9), traverse west along Row 9 to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
-- Current Location: Cerulean Cave 1F at (3, 11) on foot.
-- Physical Traversal Milestone [Turn 26059]:
-  - Descended Ladder (3, 11) from 2F to 1F western terrace at (3, 11).
-  - 1F water and Staircase (1, 13) confirmed in view.
-- Active Plan: Step Down to (3, 12), Left x2 to (1, 12), descend Staircase (1, 13) to (1, 14), then follow Row 17 east to Staircase (17, 15) to reach central terrace and re-enter the subterranean lake at (11, 13).
+- Current Location: Cerulean Cave 1F at (1, 14) on foot.
+- Physical Traversal Milestone [Turn 26061]:
+  - Successfully descended Staircase (1, 13) onto 1F lower landing at (1, 14).
+- Active Plan: Step Down x3 to (1, 17), then march east along Row 17 through (2..17, 17) to Staircase (17, 15) to climb onto the central-western terrace and access the lake at (11, 13).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
