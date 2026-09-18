@@ -4193,6 +4193,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25504: Successfully landed ashore at (5, 12) on foot facing West! Cobblestone shore empirically verified. Stepping Left to (4, 12) and Up into (4, 11) to enter Cerulean Cave!- Turn 25505: Entered Cerulean Cave 1F at (24, 17) on foot facing North.
 - Turn 25510: Pre-swapped Master Ball to Slot 1 in Bag for safe 100% instant capture execution on Mewtwo.
 
+- Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.
 
 <hr>
 
