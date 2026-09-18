@@ -29,3 +29,13 @@
 - Row 10 is a solid horizontal rock barrier across cols 10-19.
 - Southern Bypass Route: From (14, 13) -> Right to (15, 13) -> Down col 15 to (15, 17) -> West row 17 to (11, 17) -> Up to (11, 16) -> Left to (10, 16) -> Up to (10, 14).
 - From (10, 14), path leads west into the Southwest Sector towards SW Ladder (3, 11) and Ladder A (1, 3) to B1F Mewtwo!
+## Verified 1F Surf Route to SW Ladder & Mewtwo (Turn 53525)
+- 2F East Sector is completely isolated from West Sector (Y=15 is bottom map boundary, Row 10 is solid rock).
+- The true canonical route to Mewtwo:
+  1. Take Ladder B at (22, 6) down to 1F (23, 7).
+  2. Walk north to 1F lake at Row 5.
+  3. Use Surf to travel west across 1F lake to cols 1-3.
+  4. Surf south along the western channel to SW landing at (3, 11).
+  5. Climb SW Ladder (3, 11) to 2F SW Sector.
+  6. Walk north along Col 1 to Ladder A at (1, 3).
+  7. Descend Ladder A into B1F Mewtwo's Chamber!
