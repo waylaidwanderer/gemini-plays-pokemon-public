@@ -3828,10 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24091]:
-- 1F Master Clear Complete: Boulder 1 pushed onto Switch Plate (17, 13), Barrier (9, 12) lowered, Cooltrainer Female defeated, ascended ladder (1, 1) to 2F.
-- Boulder 3 pushed onto Switch Plate A at (1, 16) [Turn 24093]! Switch Plate A is depressed and Plateau Barrier at (7, 8)-(7, 9) is lowered.
-- Depressing Switch Plate A lowers Plateau Barrier at (7, 8)-(7, 9), unlocking passage to eastern plateau, Column 16 Highway, Row 1, and Northwest ladder (1, 1).
+## Current Verified State [Turn 24151]:
+- Plateau Barrier (7, 8)-(7, 9) lowered via Switch Plate A (1, 16).
+- Boulder 1 at (5, 3) blocks doorway (5, 4) against rock wall (5, 2).
+- Row 8 cliff and Column 14 wall confirmed continuous.
+- Taking ladder (0, 8) to 1F and back will reset Boulder 1.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -3881,6 +3882,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
+- Tile (14, 7): Empirically verified solid rock wall from (15, 7) facing West with 0 movement delta [Turn 24125].
+- Tile (13, 7): Empirically verified impassable elevation cliff from (13, 8) facing North with 0 movement delta [Turn 24137].
+- Tile (11, 7): Empirically verified impassable elevation cliff from (11, 8) facing North with 0 movement delta [Turn 24139].
+- Tile (10, 7): Empirically verified impassable elevation cliff from (10, 8) facing North with 0 movement delta [Turn 24142].
 - Tile (16, 12): Empirically verified impassable elevation cliff from (16, 11) facing South with 0 movement delta [Turn 24130].
 - Tile (15, 1): Empirically verified open dark checkerboard floor from (16, 1) facing West [Turn 24123]. Column 14 remains solid rock wall.
 - Column 16 Highway [Verified Turn 23114]: Column 16 is an open north-south corridor connecting Row 11 at (16, 11) all the way north to Row 1 at (16, 1). Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3), completely bypassing the Row 4 rock wall (cols 18-24). Row 3 is blocked by Advice NPC at (26, 3). Row 6 is solid rock wall across cols 24-29 and Col 29 is solid rock wall across rows 0-6, so Northern Plateau cannot access Ladder (27, 7).
@@ -3899,7 +3904,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spans rows 2 through 7 (tile 8, 2 is confirmed solid wall Turn 20413-20414). Rows 0 and 1 across Column 8 (8, 0 and 8, 1) are verified 100% open dark checkerboard floor connecting the Northern Highway directly into columns 6-7 [Verified Turns 20427-20431].
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
-- Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]; tile (7, 8) impassable from (7, 7) facing South with 0 movement delta [Turn 24056]). Descent from row 8 is via wooden staircase at (5, 10).
+- Row 8 Northern Boundary: Empirically verified continuous impassable elevation cliff across cols 5-14 (tested with 0 movement delta: (5, 8) [Turn 16474], (7, 8) [Turn 24056], (10, 8) [Turn 24142], (11, 8) [Turn 24139], (13, 8) [Turn 24137]). Descent from row 8 is via wooden staircase at (5, 10).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
 - Row 10 Eastern Barrier: Fully audited and confirmed 100% solid rock wall across entire breadth (cols 24-30). Tested with 0 movement delta: (25, 10) [Turn 23428], (26, 10) [Turn 23433], (27, 10) [Turn 23433], (28, 10) [Turn 23434], (29, 10) [Turn 23434]. Access to Northeast Ladder chamber from Row 11 is completely blocked.
 - Wall at (24, 9): Solid rock wall directly east of (23, 9) [Empirically verified Turn 23426 with 0 movement delta].
@@ -3956,7 +3961,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Boulder 3: Starts at (4, 14) in southwest lower corridor. Pushed west into (3, 14), south down Column 3 into (3, 16), and west along Row 16 onto Switch Plate A at (1, 16) to lower the Plateau Barrier Block at (7, 8)-(7, 9) [Turn 24082-24091].
+- Boulder 3: Starts at (4, 14). Depresses Switch Plate A at (1, 16) to lower Plateau Barrier Block at (7, 8)-(7, 9) [Solved Turn 24093].
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076; Visually confirmed LOWERED Turn 24097].
 - Boulder 1: Starts at (5, 5). Pushed north into (5, 4) and (5, 3), wedged in doorway (5, 4) against rock wall (5, 2), blocking northern entry into Northwest Chamber [Tested Turns 24024-24040].
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
