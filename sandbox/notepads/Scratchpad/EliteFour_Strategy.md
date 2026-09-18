@@ -72,3 +72,4 @@
 - Turn 24910: Sheldon restored to 219/219 HP via Full Restore (13 remaining). Dismissing menus to return to overworld at (6, 2).
 - Turn 24911: Full Restore x13 and Sheldon 219/219 HP verified. Overworld at (6, 2). Walking Left, Up, Up into northern doorway at (5, 0) to enter Champion's chamber.
 - Turn 24912: Arrived in Champion's Room at (4, 3). Confronted Champion Rival RED at (4, 2). Dialogue triggered: 'RED: Hey!'. Advancing pre-battle dialogue with B to initiate final battle.
+- Turn 24913: Advancing RED's pre-battle speech ('While working on POKéDEX...'). Pressing B x5 to advance toward battle start.
