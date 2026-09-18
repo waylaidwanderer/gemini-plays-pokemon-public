@@ -3828,11 +3828,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24026]:
+## Current Verified State [Turn 24064]:
 - 1F Master Clear Complete: Boulder 1 pushed onto Switch Plate (17, 13), Barrier (9, 12) lowered, Cooltrainer Female defeated, ascended ladder (1, 1) to 2F.
-- Player is on Victory Road 2F at (5, 6) on foot with Strength actively enabled.
-- Boulder 1 on 2F has been pushed from (5, 5) north into doorway (5, 4).
-- Next immediate step: Push Boulder 1 from (5, 4) north into (5, 3), enter Northwest Chamber, and climb ladder (1, 1) to 3F.
+- Player is on Victory Road 2F at (5, 9) on the elevated plateau (ascended via wooden staircase at 5, 10).
+- Boulder 1 on 2F at (5, 3) confirmed impassable northward (wedged against rock wall 5, 2).
+- Boundary at (7, 8) confirmed impassable elevation cliff from the north.
+- Current Route: Walk east across the plateau to Column 9/10, north along Column 9/10 to Row 1, and west along Row 1 Northern Highway to Northwest ladder (1, 1).
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
