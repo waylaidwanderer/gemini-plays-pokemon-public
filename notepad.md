@@ -3828,12 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24440]:
-- Landed on Victory Road 2F at (22, 16) beside fallen boulder at (23, 16) [Turn 24436]!
-- Cast HM04 Strength with Geodude (ROCKY) [Turn 24438].
-- Circumnavigated boulder via Row 17 bypass corridor to position east of boulder at (24, 16) [Turn 24439].
-- Immediate task: Push boulder at (23, 16) WEST along Row 16 all the way to Switch Plate B at (9, 16) to lower Exit Barrier at (23, 14)!
-- Plateau Barrier at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16).
+## Current Verified State [Turn 24445]:
+- Boulder successfully pushed onto Switch Plate B at (9, 16) [Turn 24445], depressing Switch Plate B!
+- Exit Barrier at (23, 14) is now LOWERED!
+- Player is at (10, 16) facing West.
+- Immediate task: Walk East along Row 16 to (21, 16), ascend staircase at (21, 15) to Row 14, walk East past lowered barrier (23, 14) to Exit Ladder at (25, 14), and exit to INDIGO PLATEAU!
 
 ## Active Execution Blueprint:
 1. Victory Road 3F (Switch Activation & Terrace Traversal):
