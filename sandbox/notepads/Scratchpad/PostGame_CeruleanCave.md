@@ -64,3 +64,4 @@
 - Turn 25201: Player at (1, 5) on Bicycle facing North on clear ground apron. Gatehouse entrance visible at (2, 1). Riding Right to (2, 5) and Up x5 through doorway into Northern Gatehouse.
 - Turn 25205: Player at (2, 2) facing signpost at (2, 1). Stepping Left to (1, 2) and riding Up x3 into row 0 north exit warp.
 - Turn 25206: Arrived inside Viridian Forest Northern Gatehouse at (4, 7) facing North on red mat. Walking Up x7 along col 4 to exit onto Route 2 North.
+- Turn 25208: Player at (4, 1) facing North. Doorway at (5, 0). Stepping Right to (5, 1) and Up x2 through doorway onto Route 2 North.

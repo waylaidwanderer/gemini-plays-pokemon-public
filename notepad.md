@@ -491,6 +491,7 @@
 - Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
 - West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
 - Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
+- Northern Gatehouse Interior (Audited Turn 25207): South entrance at cols 4..5, row 7 with red doormats (arriving from forest at (4, 7)). North exit doorway at (5, 0) leading to Route 2 North. NPC stationed at (2, 5).
 
 
 <hr>
@@ -4135,5 +4136,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25201: Player at (1, 5) on Bicycle facing North on clear ground apron. Gatehouse entrance visible at (2, 1). Riding Right to (2, 5) and Up x5 through doorway into Northern Gatehouse.
 - Turn 25205: Player at (2, 2) facing signpost at (2, 1). Stepping Left to (1, 2) and riding Up x3 into row 0 north exit warp.
 - Turn 25206: Arrived inside Viridian Forest Northern Gatehouse at (4, 7) facing North on red mat. Walking Up x7 along col 4 to exit onto Route 2 North.
+- Turn 25208: Player at (4, 1) facing North. Doorway at (5, 0). Stepping Right to (5, 1) and Up x2 through doorway onto Route 2 North.
 
 <hr>
