@@ -2831,23 +2831,7 @@
 
 <h1><code>Locations/CeruleanCave1F</code></h1>
 
-# Cerulean Cave (Unknown Dungeon) 1F - Layout & Topology
 
-## Overview
-- Main entrance floor of Cerulean Cave.
-- Entrance basin located in southeast at (25, 17) / (24, 11).
-- Features extensive water channels, elevated ledges, and multiple ladders connecting to 2F.
-
-## Verified Ladders (1F <-> 2F)
-1. **Ladder B**: Located at (23, 7) <-> 2F (22, 6). Accessible via central terrace.
-2. **Ladder C**: Located at (18, 9) <-> 2F (19, 7). Accessible via central terrace.
-3. **Ladder D**: Located at (27, 1) <-> 2F (29, 1). Located in isolated northeast water pool.
-4. **Ladder E**: Located at (7, 1) <-> 2F (9, 1). Located in northwest water channel.
-5. **SW Ladder**: Located at (3, 11) <-> 2F (3, 11). Located in southwest sector.
-
-## Access Protocol
-- Surfing south along the Route 24 canal into Cerulean City's northwest pool leads to the 1F cave entrance.
-- Board the water with SURF at (24, 11) to access all main waterways.
 
 <hr>
 
