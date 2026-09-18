@@ -4032,6 +4032,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24820: Surf hit Haunter down to ~15 HP in the red! Agatha burned a Super Potion on Haunter (restored to ~65 HP). Sheldon at 216/216 HP. Advancing text to battle menu to finish Haunter with Surf.
 - Turn 24821: Battle menu open on FIGHT. Haunter at ~65 HP. Move cursor on SURF (Slot 3). Executing Surf to KO Haunter.
 - Turn 24822: Sheldon snapped out of confusion ('SHELDON's confused no more!') and executed Surf to KO Haunter. Advancing text with B to decline switch and face Arbok Lv 58.
+- Turn 24827: Battle menu open on FIGHT facing Arbok Lv 58. Sheldon healthy at 216/216 HP. Navigating Down from Surf to Ice Beam (Slot 4, PP 9/10) to 2HKO Arbok.
 
 
 <hr>
