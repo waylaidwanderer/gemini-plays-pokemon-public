@@ -29,3 +29,4 @@
 ## Wild Pokémon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
+- Rhydon [Encountered 2F Turn 25585]
