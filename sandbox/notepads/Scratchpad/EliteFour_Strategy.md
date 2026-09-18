@@ -90,3 +90,4 @@
 - Turn 24919: Double-Edge hit Pidgeot Lv 61 into yellow (~35% HP). Sheldon took 23 recoil to 196/219 HP. Double-Edge PP now 6/15. Advancing text through Pidgeot's turn with B x5.
 - Turn 24920: Pidgeot Lv 61 used Whirlwind (failed). Main battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 6/15).
 - Turn 24921: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 6/15). Pidgeot at ~35% HP. Pressing A to execute Double-Edge and KO Pidgeot.
+- Turn 24922: Double-Edge scored a CRITICAL HIT and KO'd Pidgeot Lv 61 (1/6)! Pidgeot fainted. Double-Edge PP now 5/15. Advancing text through recoil, fainting, and EXP gain with B x5.
