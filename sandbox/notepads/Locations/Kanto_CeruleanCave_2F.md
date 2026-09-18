@@ -15,3 +15,4 @@
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
 ## Wild Pokémon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
+- Kadabra [Encountered 2F Turn 25541]
