@@ -5,7 +5,7 @@
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Northeast Ladder: Sighted at (27, 7) with light blue vertical rails and horizontal rungs; situated in eastern chamber (rows 7-9, cols 26-28). Hypothesized to connect to 3F Ladder at (26, 8) [Unclimbed; cross-floor warp unverified]. Direct ground access from northern terrace (row 6) and southern hall (row 10) previously tested impassable.
 - Descent Arrival from 3F: Located at (23, 7) in eastern sector.
-- Northwest Chamber: Contains Pokémaniac trainer at (4, 2) facing South. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
+- Northwest Chamber: Contains Pokï¿½maniac trainer at (4, 2) facing South. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
 - Tile (14, 7): Empirically verified solid rock wall from (15, 7) facing West with 0 movement delta [Turn 24125].
