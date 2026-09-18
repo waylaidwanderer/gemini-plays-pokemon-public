@@ -3834,22 +3834,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Player is at (10, 16) facing West.
 - Immediate task: Walk East along Row 16 to (21, 16), ascend staircase at (21, 15) to Row 14, walk East past lowered barrier (23, 14) to Exit Ladder at (25, 14), and exit to INDIGO PLATEAU!
 
-## Active Execution Blueprint:
-1. Victory Road 3F (Switch Activation & Terrace Traversal):
-   - Complete Boulder 1 maneuver to depress Switch Plate (3, 5).
-   - Walk to Row 10 terrace via staircase (17, 5) and verify whether Barrier Block (7, 10) is lowered.
-   - Walk west past (7, 10) to Column 1, walk north to Row 8, west to (1, 8), and descend wooden staircase (1, 9) into Southwest Basin at (1, 10).
-   - Walk south to Row 16, east along Row 16 Highway to (21, 16), and up to (21, 15).
-   - Cast Strength with Rocky.
-   - Push Boulder (22, 15) East into Pit Hole (23, 15).
-   - Step East into Pit Hole (23, 15) to fall to 2F!
-2. Victory Road 2F (Final Exit Sequence):
-   - Land at (22, 16) with fallen boulder adjacent at (23, 16).
-   - Cast Strength with Rocky.
-   - Position east of boulder at (24, 16) (or verify bypass path via Row 15/17) and push boulder WEST along Row 16 onto Switch Plate B at (9, 16).
-   - Switch Plate B depresses, lowering Barrier Block at (23, 14).
-   - Ascend wooden stairs (21, 15) to Row 14, walk east past lowered barrier (23, 14), and climb Exit Ladder at (25, 14) to INDIGO PLATEAU!
-
 
 <hr>
 
@@ -3910,7 +3894,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block at (23, 14): Raised barrier block with blue/white checkerboard pattern. Located at (23, 14) on Row 14, completely blocking access to Exit Ladder at (25, 14) [Empirically re-verified Turn 23749: 0 movement delta facing East from (22, 14); confirmed raised despite 3F Switch (3, 5) depression].
+- Barrier Block at (23, 14): LOWERED [Visually confirmed Turn 24448]. Depressing Switch Plate B at (9, 16) with the fallen boulder from 3F permanently lowered this barrier, opening unobstructed access to Exit Ladder at (25, 14).
 - Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
@@ -3987,7 +3971,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - One-way return ledge: Tile (1, 7) functions as a northbound one-way ledge jumping down to (1, 6), providing a fast exit from the terrace back to the Northwest Ladder (2, 0) and Switch (3, 5).
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
-  - Boulder at (22, 15): Confirmed orange round boulder sitting directly adjacent west of the pit hole at (23, 15). Pushing East from (21, 15) will drop this boulder directly into the pit hole!
+  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and dropped down to 2F (arriving at 23, 16).
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
