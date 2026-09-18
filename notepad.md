@@ -4124,5 +4124,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25275: Fled Zubat cleanly at (21, 18). Walking Up x8 along col 21 toward row 10 cross-corridor at (21, 10).
 - Turn 25276: Wild encounter triggered at (21, 11) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
 - Turn 25277: Wild Zubat Lv 8 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
+- Turn 25278: Fled Zubat cleanly at (21, 11). Stepping Up to (21, 10), then walking Right x9 along row 10 to (30, 10) passage toward Northern Highway.
 
 <hr>
