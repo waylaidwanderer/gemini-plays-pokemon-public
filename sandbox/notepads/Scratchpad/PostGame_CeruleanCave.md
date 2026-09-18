@@ -24,3 +24,4 @@
 - Turn 25028: Cursor confirmed on MASTER BALL x 1. Pressing A x2 to select and confirm withdrawal into Bag (8/20 slots used).
 - Turn 25029: Master Ball withdrawn! Both Bicycle and Master Ball secured in Bag (8/20 slots). Pressing B x4 to log off PC and return to 2F overworld.
 - Turn 25034: Player at (0, 2). Moving east 5 steps along row 2 toward the staircase.
+- Turn 25036: Player at (5, 2). Stairs confirmed at (7, 1). Stepping Right, Right, Up onto stairs to descend to 1F.
