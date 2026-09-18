@@ -24,10 +24,9 @@
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (23, 3) on foot (Staircase 23, 3, facing lake water at 23, 4).
-- Traversal Verification [Turn 26135]: Tile (27, 3) and (28, 4) are physically verified to be SOLID ROCK WALLS. Ladder (29, 1) corridor at (28, 1..3) connects east to Column 29 at (29, 3), leading south down Column 29.
 - Active Strategy & Frontier:
   - [x] Ladder (29, 1) Enclave Surveyed [Turn 26143]: Enclave spanning (27..29, 0..6) is 100% enclosed dead-end. Zero ground access to 2F main network.
-  - Actionable Route: Backtrack via Ladder (29, 1) down to 1F (27, 1), dismount into water at Staircase (23, 3), surf to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor into the Upper Northwest Corridors toward Candidate Ladder (1, 3).
+  - Actionable Route: Surf from Staircase (23, 3) east and south to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor to reach Candidate Ladder (1, 3).
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
