@@ -25,13 +25,14 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Alcove (10, 12) on foot.
-- Strategic Pivot (Overwatch Audit): Terminating backtracking toward exhausted central/eastern 2F network. Pivoting route back west to thoroughly explore unvisited western sector (Columns 1..8, Rows 7..15) and retrieve Item Ball at (4, 15).
-- Route Analysis: Visual inspection and collision testing confirm Column 12 leads south into the central/eastern network rather than west toward (4, 15). Western corridors remain the active frontier.
-- Strategic Route: Standing at (5, 9). Stepping south into unvisited Column 5 corridor at (5, 10..11) to break Row 9 oscillation and explore toward Item Ball (4, 15).
-- Empirical Discovery: Column 10 (10, 11..15) is an open vertical passage connecting Row 11 south to Row 14. Row 14 runs west continuously to Column 5, providing direct access to Item Ball at (4, 15).
-- Physical Discovery: Tile (10, 13) is a solid rock wall. Alcove (10, 12) is a dead end.
-- Next Step: Step Up to (10, 11), then Left x4 along Row 11 to (6, 11).
+- Current Location: Cerulean Cave 2F at (6, 11) on foot.
+- Western Exploration Plan: Navigating west from (6, 11) via (5, 11) -> (5, 10) -> (5, 9) -> (3, 9) -> (3, 10) -> (2, 10) to map out Column 1-2 western edge and search for routes to the Item Ball at (4, 15) and unexplored sectors.
+- Western Corridors Status:
+  - Row 11: Connects (5, 11) through (10, 11). (10, 12) is a 1-tile dead-end alcove.
+  - Row 9: Open horizontal corridor connecting (3, 9) through (11, 9).
+  - Column 5: Connects Row 9 at (5, 9) to Row 11 at (5, 11).
+  - Ladder (3, 11): Connects to 1F western elevated terrace; path north via (3, 10) connects directly to Row 9.
+  - Item Ball at (4, 15): Visually sighted. Adjacent to open floor at (5, 15). Direct access from north blocked by rock wall at (4..5, 12..13). Access via lower rows/columns under active investigation.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
