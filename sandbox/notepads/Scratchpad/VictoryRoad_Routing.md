@@ -16,9 +16,8 @@
    - Push Boulder 3 onto Switch Plate A at (1, 16) to lower Plateau Barrier at (7, 8)-(7, 9).
    - Return via Row 11 to wooden staircase at (5, 10), ascend to elevated plateau at (5, 9).
    - Walk east across lowered barrier (7, 8)-(7, 9) onto eastern plateau.
-   - Walk east and north past Moltres (11, 5) to Column 16 Highway.
-   - Ascend Column 16 Highway north to Row 1 Northern Highway.
-   - Ascend Northwest ladder at (1, 1) to Victory Road 3F (2, 0).
+   - Walk south along Col 14 to Row 12, then east along Row 12 to the eastern sector.
+   - Take Ladder at (23, 7) up to Victory Road 3F (or systematically solve Boulder 1 at 5, 4 to access ladder 1, 1).
 4. Victory Road 3F:
    - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
    - Ascend wooden staircase (17, 5) to terrace (17, 4).

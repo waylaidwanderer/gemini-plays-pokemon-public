@@ -52,7 +52,7 @@
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
 - Lower Corridor (Row 16): Divided into two separate sections by solid rock walls at column 5 and column 8: western section spans cols 1-4, eastern section spans cols 9-29 [Empirically verified Turns 16006, 16347, 16384].
-- Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
+- Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784, re-verified visually Turn 24215]. Traversal east from Col 14 is via Row 12.
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
