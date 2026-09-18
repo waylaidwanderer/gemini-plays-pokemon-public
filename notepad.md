@@ -3974,6 +3974,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 2: Cursor on Body Slam (PP 14/15). Executing Body Slam to KO Dewgong Lv 54. Sheldon HP: 209/209.
 - Turn 2 result: Body Slam KO'd Dewgong Lv 54! Dewgong fainted. Sheldon HP: 209/209 (100% full health). Dewgong defeated with zero damage taken!
 
+- Opponent Pokémon 2: CLOYSTER Lv 53 (Water/Ice)
+- Sheldon HP: 213/213 (Lv 67)
+- Strategy: Cloyster has 205 Defense vs 110 Special. Using Surf (STAB Special) to bypass massive physical defense.
+
 
 <hr>
 
