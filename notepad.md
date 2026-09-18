@@ -222,7 +222,7 @@
   - Status: Healthy
   - HP: 216 / 216
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 1/15), Surf (PP 0/15), Ice Beam (PP 6/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3964,7 +3964,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 216 / 216 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 1/15), Surf (PP 0/15), Ice Beam (PP 5/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 5/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -4002,6 +4002,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Plan:
   - Gyarados: Use Double-Edge / Body Slam to finish off low 79 Defense.
   - Dragonair x2, Aerodactyl, Dragonite: Sweep all 4 with Ice Beam (4 Ice Beams needed).
+- Turn 24874: Body Slam hit Gyarados into the red! Lance burned a Hyper Potion on Gyarados. Sheldon at 216/216 HP. Advancing text with B to battle menu.
 
 
 <hr>
