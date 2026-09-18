@@ -4020,6 +4020,7 @@ Supplies in bag: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX 
 - Turn 24770: Battle animation initiated! Facing Elite Four Bruno. Advancing intro text to battle menu.
 - Turn 24771: Battle menu open on FIGHT. Onix Lv 53 active. Sheldon leads at 213/213 HP. Navigating to Surf (Slot 3) to OHKO Onix.
 - Turn 24772: Surf executed against Onix. Advancing text with B to resolve OHKO, EXP, and decline switch prompt.
+- Turn 24773: Onix Lv 53 OHKO'd by Surf! Gained 1225 EXP. Bruno sending in Hitmonchan Lv 55. Declining switch with B.
 
 
 <hr>
