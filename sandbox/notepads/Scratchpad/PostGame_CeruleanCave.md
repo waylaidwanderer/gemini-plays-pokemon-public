@@ -53,3 +53,5 @@
 - Turn 25255: Wild encounter triggered at (8, 25) in Western Passage. Pressing B x6 to advance intro text to battle menu.
 - Turn 25256: Wild Zubat Lv 8 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
 - Turn 25257: Fled Zubat cleanly at (8, 25). Walking Right x8 along row 25 toward (16, 25) southern bypass to Eastern Avenue.
+- Turn 25258: Wild encounter triggered at (12, 25) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
+- Turn 25259: Wild Zubat Lv 8 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
