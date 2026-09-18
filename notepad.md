@@ -4157,6 +4157,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
 ## Completed Milestones
+- [x] Discovered deep northwest Ladder (9, 1) on Cerulean Cave 2F [Turn 25677]
 - [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
 - [x] Overworld Overland Transit: Pallet Town -> Viridian City -> Viridian Forest -> Pewter City -> Route 3 -> Mt. Moon [Turns 25055-25245]
 - [x] Mt. Moon Underground Transit: Traversed 1F, B1F, B2F via breakthrough passage, emerged Route 4 East [Turns 25262-25417]
@@ -4170,9 +4171,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Sector at (16, 1) on foot facing West.
-- Active Navigation: Walking Left x4 along Row 1 corridor (15..12, 1) toward (12, 1).
-- Objective: Follow Row 1 west into deep northwest chambers to locate descending ladder to B1F (Mewtwo).
+- Current Location: Cerulean Cave 2F Northwest Sector at (13, 1) on foot facing West.
+- Active Navigation: Walking Down x4 down Column 13 (13, 2..5) and West along Row 5 toward Column 9 and Ladder (9, 1).
+- Objective: Reach and descend Ladder (9, 1) to enter B1F and capture Legendary Pok�mon Mewtwo.
 
 - Turn 25650: Ascended 1F Ladder (18, 9) and arrived directly on 2F Ladder (19, 7) in the secluded northwest sector!
 
@@ -4185,7 +4186,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
-| B1F Ladder (?) | ? | TARGET (MEWTWO) | Search ongoing via 1F subterranean waterways |
+| ? | (9, 1) | CONFIRMED VISUALLY | Deep northwest 2F ladder connecting to B1F Mewtwo route |
+| B1F Ladder (?) | ? | TARGET (MEWTWO) | Approaching via 2F Ladder (9, 1) |
 
 - Turn 25661: Encountered wild Ditto at (18, 3). Fleeing battle to resume navigating northern corridor toward (18, 1).
 - Turn 25667: Encountered wild Dodrio at (16, 1). Fleeing battle to resume navigating Row 1 west toward (15, 1).
@@ -4237,6 +4239,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (9, 1): Descending cave ladder located in the deep northwest corner at (9, 1). Accessible via Column 13 corridor (13, 1..5), Row 5 horizontal corridor (13..9, 5), and Column 9 corridor (9, 5..1). [Visually confirmed Turn 25677]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
