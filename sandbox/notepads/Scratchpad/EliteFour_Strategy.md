@@ -12,7 +12,8 @@
 
 ## Matchup Tactics (Evaluated by elite_four_strategist)
 1. Lorelei (Ice/Water):
-   - Dewgong, Cloyster, Lapras resist Surf/Ice Beam; rely on Body Slam and Double-Edge for physical damage.
+   - Dewgong and Lapras: Rely on Body Slam and Double-Edge for physical damage.
+   - Cloyster: Base 180 Defense vs base 85 Special. Even with Water/Ice resistance, Cloyster's monstrous 180 Defense blunts physical attacks heavily. Special moves (Surf) may deal comparable or better damage despite resistance, or use Special attacks.
    - Slowbro and Jynx: Body Slam/Double-Edge.
    - Use Pok� Flute immediately if put to sleep by Rest/Sing; cure confusion with Full Heals.
 2. Bruno (Fighting/Rock):

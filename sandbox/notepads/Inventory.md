@@ -14,18 +14,17 @@
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 9 / 20 [Turn 24569]
-- Complete Top-to-Bottom Slot Order:
-  1. BICYCLE
-  3. POKé FLUTE
+- Total Slots Used: 9 / 20 [Turn 24571]
+- Verified Active Bag Items (9 items):
+  1. POK� FLUTE
   2. FULL RESTORE x1
-  6. MAX POTION x1
-  7. REVIVE x5
-  8. FULL HEAL x6
-  17. TM27 (FISSURE) x1
-  18. TM43 (SKY ATTACK) x1
-  19. MAX REVIVE x1
-  20. TM17 (SUBMISSION) x1
+  3. MAX POTION x1
+  4. REVIVE x5
+  5. FULL HEAL x6
+  6. TM27 (FISSURE) x1
+  7. TM43 (SKY ATTACK) x1
+  8. MAX REVIVE x1
+  9. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
 - TM38 (FIRE BLAST) x1 (PC) [Stored Turn 24569]
