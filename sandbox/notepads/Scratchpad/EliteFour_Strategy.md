@@ -43,7 +43,7 @@
   - [x] BICYCLE [Turn 24529]
   - [x] SUPER ROD [Turn 24532]
   - [x] MASTER BALL [Turn 24537]
-  - [ ] MOON STONE
+  - [x] MOON STONE [Turn 24545]
   - [ ] ESCAPE ROPE
   - [ ] TM14 (BLIZZARD)
   - [ ] TM22 (SOLARBEAM)

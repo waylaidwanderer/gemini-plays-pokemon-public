@@ -20,7 +20,7 @@
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 16 / 20 [Turn 24541]
+- Total Slots Used: 15 / 20 [Turn 24545]
 - Complete Top-to-Bottom Slot Order:
   1. BICYCLE
   3. POKé FLUTE
@@ -28,7 +28,6 @@
   6. MAX POTION x1
   7. REVIVE x5
   8. FULL HEAL x6
-  7. MOON STONE x1
   11. ESCAPE ROPE x1
   12. CARBOS x1
   13. TM14 (BLIZZARD) x1
@@ -58,7 +57,7 @@
 - OLD ROD x1 (PC) [Stored Turn 12567]
 - TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
 - TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
-- MOON STONE x1 (PC) [Stored Turn 12205]
+- MOON STONE x2 (PC) [Stored Turn 12205, Turn 24545]
 - RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
 - TM24 (THUNDERBOLT) x1 (PC) [Stored Turn 6585]
