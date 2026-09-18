@@ -3,7 +3,7 @@
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 216 / 216 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 10/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -17,38 +17,38 @@
 - MAX POTION x1
 - MAX REVIVE x1
 - FULL HEAL x6
-- POKé FLUTE
+- POKï¿½ FLUTE
 
 ## Elite Four Battle 1: Lorelei [Cleared Turn 24759]
-- Outcome: Victory! All 5 Pokémon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
-- Prize Money: ¥5544 (New total: ¥83516).
+- Outcome: Victory! All 5 Pokï¿½mon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
+- Prize Money: ï¿½5544 (New total: ï¿½83516).
 - Sheldon post-battle healed with Full Restore to 213/213 HP.
 
 ## Elite Four Battle 2: Bruno [Cleared Turn 24791]
-- Defeated Pokémon:
+- Defeated Pokï¿½mon:
   1. Onix Lv 53 [OHKO'd with Surf, gained 1225 EXP]
   2. Hitmonchan Lv 55 [OHKO'd with Surf, gained 1650 EXP]
   3. Hitmonlee Lv 55 [OHKO'd with Surf, gained 1638 EXP]
   4. Onix Lv 56 [OHKO'd with Surf]
   5. Machamp Lv 58 [2HKO'd with Surf, Bruno defeated!]
-- Outcome: Victory! All 5 Pokémon swept by Sheldon Lv 68 (flawless 216/216 HP, zero damage taken).
+- Outcome: Victory! All 5 Pokï¿½mon swept by Sheldon Lv 68 (flawless 216/216 HP, zero damage taken).
 - Turn 24788: Surf executing against Machamp Lv 58. Advancing turn text with B to resolve damage and turn.
 - Turn 24789: Surf brought Machamp into the red (~15 HP). Bruno used X Defend (ineffective vs Special). Sheldon at 216/216 HP. Firing final Surf to KO Machamp and defeat Bruno!
 
 ## Bruno Battle Summary
-- Outcome: FLAWLESS VICTORY! All 5 Pokémon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
-- Prize Money: ¥5742 (New total: ¥89258).
-- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10).
+- Outcome: FLAWLESS VICTORY! All 5 Pokï¿½mon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
+- Prize Money: ï¿½5742 (New total: ï¿½89258).
+- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 10/10).
 
 # Elite Four Matchup 3: Agatha Strategy [Upcoming]
-- Agatha specializes in Ghost and Poison Pokémon.
+- Agatha specializes in Ghost and Poison Pokï¿½mon.
 - Verified Typings & Targets:
   1. Gengar Lv 56 (Ghost/Poison) -> SURF (Normal deals 0 damage!)
   2. Golbat Lv 56 (Poison/Flying) -> ICE BEAM (4x/2x Ice weakness, guaranteed OHKO!)
   3. Haunter Lv 55 (Ghost/Poison) -> SURF (Normal deals 0 damage!)
   4. Arbok Lv 58 (Poison) -> SURF / ICE BEAM
   5. Gengar Lv 60 (Ghost/Poison) -> SURF
-- Defense against Status: POKé FLUTE in active bag wakes Sheldon up instantly if put to sleep by Hypnosis! Full Restores cure Confuse Ray / Toxic.
+- Defense against Status: POKï¿½ FLUTE in active bag wakes Sheldon up instantly if put to sleep by Hypnosis! Full Restores cure Confuse Ray / Toxic.
 - Turn 24796: Entered Agatha's chamber at (4, 5). Advancing to (5, 3) facing Agatha at (5, 2) to initiate dialogue.
 - Turn 24798: Dialogue initiated with Agatha at (5, 3). 'I am AGATHA of the ELITE FOUR!' on screen. Advancing dialogue to trigger battle.
 - Turn 24799: Agatha dialogue progressing ('handsome! That was decades ago!'). Advancing dialogue to battle start.
@@ -56,7 +56,9 @@
 - Turn 24801: Battle started! 'AGATHA wants to fight!' on screen. Advancing intro text to battle menu.
 - Turn 24802: Battle menu open on FIGHT facing Gengar Lv 56. Sheldon at 216/216 HP. Navigating to Surf (Slot 3) to 2HKO Gengar (avoiding Normal moves).
 - Turn 24803: Surf executing against Gengar Lv 56. Advancing turn text with B to resolve damage and Gengar's response.
-- Turn 24804: Surf hit Gengar Lv 56 down to ~35% HP (~40 HP). Gengar used Hypnosis; Sheldon fell asleep (HP 216/216). Opening ITEM menu to use Poké Flute.
-- Turn 24805: Bag menu open on POKé FLUTE. Playing Poké Flute to wake Sheldon and advance turn with B.
-- Turn 24806: Poké Flute woke Sheldon! Gengar used Confuse Ray (Sheldon confused, HP 216/216). Dismissing text and opening FIGHT menu to verify move cursor for Surf.
+- Turn 24804: Surf hit Gengar Lv 56 down to ~35% HP (~40 HP). Gengar used Hypnosis; Sheldon fell asleep (HP 216/216). Opening ITEM menu to use Pokï¿½ Flute.
+- Turn 24805: Bag menu open on POKï¿½ FLUTE. Playing Pokï¿½ Flute to wake Sheldon and advance turn with B.
+- Turn 24806: Pokï¿½ Flute woke Sheldon! Gengar used Confuse Ray (Sheldon confused, HP 216/216). Dismissing text and opening FIGHT menu to verify move cursor for Surf.
 - Turn 24807: Bag menu was open. Pressing B to close bag, Up to FIGHT, and A to open move menu to select Surf.
+- Turn 24808: Move menu verified on SURF (4/15 PP). Executing Surf against Gengar Lv 56 (~40 HP remaining). Advancing with B to resolve KO and decline switch.
+- Turn 24809: Sheldon pushed through confusion and landed Surf! Gengar Lv 56 fainted! Sheldon at 216/216 HP. Advancing text with B to decline switch and face Golbat Lv 56.
