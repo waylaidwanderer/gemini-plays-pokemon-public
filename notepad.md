@@ -4194,5 +4194,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25432: Mounted Bicycle at (24, 6) on Route 4 East.
 - Turn 25435: Rode Bicycle East along row 6 to (32, 6).
 - Turn 25463: Player reached (61, 8) on Row 8 Bypass mounted on Bicycle. Heading east along row 8 corridor toward Cerulean City.
+- Turn 25467: Player reached (71, 8) on Bicycle facing East. Paved path opens ahead to the east.
 
 <hr>
