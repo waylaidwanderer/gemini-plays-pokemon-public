@@ -50,7 +50,7 @@
 - Outcome: Victory! All 5 Pokémon defeated (Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Gengar Lv 60, Arbok Lv 58).
 - Sheldon Status: Healthy, Lv 68, HP 194/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 5/10).
 
-# Elite Four Matchup 4: Lance Strategy [Upcoming]
+## Elite Four Battle 4: Lance [In Progress Turn 24866]
 - Lance specializes in Dragon and Flying Pokémon.
 - Verified Typings & Targets:
   1. Gyarados Lv 58 (Water/Flying) -> BODY SLAM / DOUBLE-EDGE (high physical Attack vs 79 Defense)
@@ -63,3 +63,4 @@
 - Turn 24857: Sighted Lance at (6, 1) facing South. Player at (6, 3). Opening Bag menu to heal Sheldon from 194 to 216 HP with Full Restore.
 - Turn 24860: Full Restore used on Sheldon (healed from 194 to 216/216 HP). Full Restore count: 14. Closing menus to challenge Lance.
 - Turn 24864: Lance pre-battle dialogue on screen ('Well, are you ready to lose?'). Advancing dialogue to start battle against Gyarados Lv 58.
+- Turn 24866: Battle started facing Gyarados Lv 58. Sheldon at 216/216 HP. Navigating Down to Body Slam (Slot 2, PP 5/15) to attack Gyarados.
