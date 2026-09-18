@@ -74,3 +74,4 @@
 - Turn 25331: Player at (5, 11) on foot facing South in B1F corridor. Walking Down x5 to row 16 bend at (5, 16).
 - Turn 25333: Player arrived at (5, 16) on foot facing South. Visual confirms rows 16..17 form a clear east-west corridor extending east past col 10. Walking Right x6 along row 16 toward ladder (21, 17).
 - Turn 25334: Player at (10, 16) on foot. Screen black transition indicates wild battle triggered. Pressing B x6 to advance transition and battle intro text.
+- Turn 25335: Wild Zubat Lv 7 in battle at (10, 16). Selecting RUN via Down, Right, A, B x2 to return to overworld.
