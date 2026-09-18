@@ -29,12 +29,12 @@
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (13, 9) on foot facing East.
-- Active Navigation: Walking Right x5 along Row 9 (14..18, 9) straight onto Ladder (18, 9).
-- Objective: Ascend Ladder (18, 9) to access 2F secluded northwest pocket and locate route to B1F (Mewtwo).
+- Current Location: Cerulean Cave 2F Northwest Pocket at (19, 7) on foot facing North.
+- Active Navigation: Walking North to (19, 6) and scouting northwest passages toward B1F ladder.
+- Objective: Explore 2F northwest sector to find the descending ladder leading to B1F (Mewtwo).
 
-- Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
-- Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
+- Turn 25650: Ascended 1F Ladder (18, 9) and arrived directly on 2F Ladder (19, 7) in the secluded northwest sector!
+
 
 
 
@@ -43,6 +43,5 @@
 |:---:|:---:|:---:|:---|
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
-| (18, 9) | ? | UNVERIFIED SIGHTING | Western 1F passage |
-| ? | (19, 7) | UNVERIFIED SIGHTING | 2F northwest secluded pocket |
+| (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
 | B1F Ladder (?) | ? | TARGET (MEWTWO) | Search ongoing via 1F subterranean waterways |
