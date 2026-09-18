@@ -36,3 +36,4 @@
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
 - Ditto: Lv 55 [Encountered 2F Turn 25661]
 - Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
+- Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
