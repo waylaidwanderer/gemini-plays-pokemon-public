@@ -28,3 +28,4 @@
 - Turn 25040: Player at (7, 1) on 1F. Moving Down x4 along col 7 to (7, 5) to reveal south room layout and exit door.
 - Turn 25043: Player at (7, 5) on 1F. Stepping Down to (7, 6), Left x4 to (3, 6), then Down to (3, 7) onto exit doormat.
 - Turn 25045: Player at (3, 7) on 1F exit mat. Stepping Down to exit to Pallet Town.
+- Turn 25049: Player outside in Pallet Town at (5, 6). Opening Start menu -> ITEM to access Bag and equip Bicycle.
