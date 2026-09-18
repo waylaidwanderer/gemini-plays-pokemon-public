@@ -8,6 +8,10 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
+  - Row 17 Southern Thoroughfare terminates west at (1, 17), bounded by solid rock walls at (0, 17) and (1, 18).
+  - Column 1 Spur: (1, 16..15) is a 2-tile dead-end alcove branching north from (1, 17), bounded by solid rock walls at (0, 15..16), (2, 15..16), and (1, 14).
+  - Enclosed Upper Western Enclave: The area at (0..2, 12..14) is completely walled off from Row 17 and Column 1 by solid rock barriers (0..1, 14) and (2, 15). [Physically verified Turns 26030-26036]
 - Lower Southwest Corridor Network (Cols 4..13, Rows 13..17):
   - Row 13 West: Open horizontal corridor spanning (5..8, 13). (4, 13) and (9..11, 13) are solid rock walls.
   - Column 5 South: Open vertical corridor spanning (5, 13..15). Connects directly east of Item Ball (4, 15).
