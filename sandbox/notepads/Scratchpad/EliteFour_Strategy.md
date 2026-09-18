@@ -54,3 +54,5 @@
 - Turn 24886: Dragonair Lv 56 (Lance 2/5) active on field. Move cursor on Double-Edge (Slot 1). Navigating Down x3 to Ice Beam (Slot 4, PP 5/10) to OHKO Dragonair.
 
 - Turn 24889: Ice Beam OHKO'd Lance's first Dragonair Lv 56! Ice Beam PP now 5/10. Sheldon at 123/219 HP. Advancing fainting text and declining switch.
+- Turn 24891: Lance sent out second Dragonair Lv 56 (3/5). Sheldon active at 123/219 HP. Battle menu open on FIGHT. Opening FIGHT menu to execute Ice Beam.
+- Turn 24892: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 4/10). Pressing A to attack second Dragonair Lv 56.
