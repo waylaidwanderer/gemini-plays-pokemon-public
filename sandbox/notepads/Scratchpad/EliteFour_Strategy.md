@@ -66,3 +66,5 @@
 - Turn 24813: Battle menu open on FIGHT facing Golbat Lv 56. Sheldon at 216/216 HP. Navigating Down from Surf to Ice Beam (Slot 4, PP 10/10) to OHKO Golbat.
 - Turn 24814: Ice Beam selected against Golbat Lv 56. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / faint.
 - Turn 24815: Ice Beam scored a CRITICAL HIT on Golbat Lv 56! Instant OHKO! Golbat fainted. Advancing text with B to decline switch and face Haunter Lv 55.
+- Turn 24818: Battle menu open on FIGHT facing Haunter Lv 55. Move cursor on Ice Beam (Slot 4). Navigating Up to Surf (Slot 3, PP 3/15) to attack Haunter.
+- Turn 24819: Surf confirmed against Haunter Lv 55. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / Haunter's response.
