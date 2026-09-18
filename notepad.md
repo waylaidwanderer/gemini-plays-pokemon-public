@@ -4002,12 +4002,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Elite Four Matchup 3: Agatha Strategy [Upcoming]
 - Agatha specializes in Ghost and Poison Pok�mon.
-- Verified Typings & Targets:
-  1. Gengar Lv 56 (Ghost/Poison) -> SURF (Normal deals 0 damage!)
-  2. Golbat Lv 56 (Poison/Flying) -> ICE BEAM (4x/2x Ice weakness, guaranteed OHKO!)
-  3. Haunter Lv 55 (Ghost/Poison) -> SURF (Normal deals 0 damage!)
-  4. Arbok Lv 58 (Poison) -> SURF / ICE BEAM
-  5. Gengar Lv 60 (Ghost/Poison) -> SURF
+- Defeated Pok�mon:
+  1. Gengar Lv 56 [2HKO'd by Surf]
+  2. Golbat Lv 56 [OHKO'd by Ice Beam critical hit]
+  3. Haunter Lv 55 [2HKO'd by Surf, burned Agatha Super Potion]
+- Upcoming Opponents:
+  4. Arbok Lv 58 (Poison) -> ICE BEAM (clean 2HKO, saves Surf PP)
+  5. Gengar Lv 60 (Ghost/Poison) -> SURF (1 PP remaining)
 - Defense against Status: POK� FLUTE in active bag wakes Sheldon up instantly if put to sleep by Hypnosis! Full Restores cure Confuse Ray / Toxic.
 - Turn 24796: Entered Agatha's chamber at (4, 5). Advancing to (5, 3) facing Agatha at (5, 2) to initiate dialogue.
 - Turn 24798: Dialogue initiated with Agatha at (5, 3). 'I am AGATHA of the ELITE FOUR!' on screen. Advancing dialogue to trigger battle.
