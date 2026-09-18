@@ -4161,5 +4161,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25396: Fled Clefairy cleanly. Player at (11, 17) on foot facing North. Walking Right to (12, 17) and Up x4 along column 12 through Fossil Approach Corridor toward (12, 13).
 - Turn 25398: Player at (12, 13) on foot facing North. Walking Up x4 along column 12 into Fossil Chamber toward (12, 9).
 - Turn 25399: Wild encounter triggered at (12, 12) in Fossil Approach Corridor. Pressing B x6 to advance transition to battle menu.
+- Turn 25400: Battle menu active vs wild Zubat Lv 11 at (12, 12). Selecting RUN via Down, Right, A, B x2 to return to overworld.
 
 <hr>
