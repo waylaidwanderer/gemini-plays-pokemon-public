@@ -23,9 +23,9 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (13, 16) on foot.
-- Strategic Pivot: Reversing through Column 12/13 bypass toward Row 17 to access the far western margin (Cols 0..1, Rows 7..17) and investigate access to candidate Ladder (1, 3) in the northwest.
-- Active Plan: Step Down to (13, 17), Left x2 to (11, 17), Up to (11, 16), and Left x2 along Row 16 to (9, 16).
+- Current Location: Cerulean Cave 2F at (12, 17) on foot.
+- Strategic Pivot: Reversing through Row 17 and Row 16 bypass toward (7, 17) to access the far western margin (Cols 0..1, Rows 7..17) and investigate access to candidate Ladder (1, 3) in the northwest.
+- Active Plan: Step Left to (11, 17), Up to (11, 16), and Left x4 along Row 16 to (7, 16), then Down to (7, 17) and west to Column 1.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
