@@ -27,3 +27,4 @@
 - Backline Opponents (Movesets Hypothesized / Pending Direct Observation):
   4. Jynx Lv 56 [Hypothesized: Ice/Psychic, fragile physical defense]
   5. Lapras Lv 56 [Hypothesized: Water/Ice, Lorelei's ace]
+- Turn 12: Body Slam reduced Slowbro to 1 HP and inflicted Paralysis! Sheldon HP: 136/213. Queued finishing blow.
