@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 68 (HP 216/216)
+- Active Team: Blastoise (SHELDON) Lv 69 (HP 123/219)
 
 - Money: ¥95198 [Turn 24851]
 - Pokédex: 15 Caught / 50+ Seen
@@ -218,10 +218,10 @@
 - ¥95198 [Turn 24851]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 68, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 69, Water]
   - Status: Healthy
-  - HP: 120 / 216
-  - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
+  - HP: 123 / 219
+  - Stats: Attack 163, Defense 189, Speed 163, Special 168 [Verified Lv 69 Turn 24884]
   - Moves: Double-Edge (PP 7/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
