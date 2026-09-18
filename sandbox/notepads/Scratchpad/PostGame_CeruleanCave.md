@@ -89,3 +89,4 @@
 - Turn 25398: Player at (12, 13) on foot facing North. Walking Up x4 along column 12 into Fossil Chamber toward (12, 9).
 - Turn 25399: Wild encounter triggered at (12, 12) in Fossil Approach Corridor. Pressing B x6 to advance transition to battle menu.
 - Turn 25400: Battle menu active vs wild Zubat Lv 11 at (12, 12). Selecting RUN via Down, Right, A, B x2 to return to overworld.
+- Turn 25401: Fled Zubat cleanly at (12, 12). Player at (12, 12) on foot facing North. Walking Up x3 along column 12 to (12, 10) and testing entrance into Fossil Chamber at (12, 9).
