@@ -4100,5 +4100,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25146: Standing at (4, 2). Stepping Up to (4, 1), Right to (5, 1), and Up into doorway at (5, 0) to enter Viridian Forest.
 - Turn 25148: Arrived in Viridian Forest at (17, 47) on foot facing North. Opening Start menu -> ITEM to access Bag and equip Bicycle.
 - Turn 25150: Bag menu confirmed open. Cursor on Item 1 (POKé FLUTE). Scrolling Down x6 to reach BICYCLE.
+- Turn 25152: Cursor confirmed on BICYCLE in Bag menu. Pressing A x2 to USE, then B x2 to dismiss text and return to overworld mounted on Bicycle.
 
 <hr>
