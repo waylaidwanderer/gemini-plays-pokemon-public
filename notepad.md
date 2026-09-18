@@ -4145,5 +4145,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25343-25355: Arrived on B2F at (21, 17), walked to (26, 14), hopped south over ledge (26, 15) into Southern Cavern Corridor, and walked east to (30, 16).
 - Turns 25356-25368: Tested Breakthrough Passage at (33, 15), fled wild Geodude at (31, 16), and empirically verified (33, 15) is fully passable northward into row 14!
 - Turns 25369-25380: Fled wild Zubat at (33, 13), traversed row 13 gateway into Eastern Cavern Highway at (36, 13), followed highway south to row 24, and turned west into Southern Avenue at (35, 24).
+- Turn 25383: Player at (33, 27) on foot facing South. Visual confirms Southern Corridor opens west at row 31. Walking Down x4 to (33, 31) and Left to (32, 31).
 
 <hr>
