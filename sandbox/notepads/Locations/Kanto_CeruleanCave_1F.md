@@ -6,7 +6,11 @@
 ## Layout & Corridors
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
 - Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
-- Northern Water Pool (Cols 24..25, Row 13+): Underground water pool directly north of entrance corridor at row 13.
-- Central Eastern Pillar (Col 26, Rows 13..17): Rock formation separating entrance area from eastern corridor.
-- Eastern Corridor (Cols 27..28, Rows 13..16): Open 2-tile wide north-south passage east of pillar.
-- Western Cavern (Cols 0..23, Rows 14..17+): Wide open cavern expanding to the west.
+- Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
+- Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
+- Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
+- Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
+- Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
+
+## Wild Pokémon (Empirically Verified)
+- Golbat: Lv 50+ [Encountered 1F Turn 25514]
