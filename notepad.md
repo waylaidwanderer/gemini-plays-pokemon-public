@@ -4166,11 +4166,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Row 9 at (10, 9) on foot.
+- Current Location: Cerulean Cave 2F Western Sector at (5, 9) on foot.
 - Strategic Pivot (Overwatch Audit): Terminating backtracking toward exhausted central/eastern 2F network. Pivoting route back west to thoroughly explore unvisited western sector (Columns 1..8, Rows 7..15) and retrieve Item Ball at (4, 15).
-- Visual Route Confirmation: Column 12 (12, 9..13) is a wide open vertical corridor connecting Row 9 directly down to Row 13. Row 13/14 connects west all the way to Item Ball at (4, 15).
 - Empirical Discovery: Column 12 is walled off from Columns 8..11 by solid rock barriers (11, 12..15). It connects only to the central/eastern network.
-- Next Step: Step Left x5 along Row 9 corridor to (5, 9) returning to western sector junction.
+- Strategic Route: Returned to western sector at (5, 9). Now exploring Column 5 and Row 11 south toward Item Ball at (4, 15).
+- Next Step: Step Down x2 through (5, 10..11), then Right x2 along Row 11 to (7, 11).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
