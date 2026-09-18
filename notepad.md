@@ -4156,5 +4156,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25349: Player at (26, 15) landing on ledge. Pressing Down to (26, 16) and walking Right x4 along row 16 toward Breakthrough Passage at (33, 15).
 - Turn 25360: Player at (30, 16) on foot facing South. Walking Right x3 to (33, 16) and pressing Up to empirically test northward traversal through (33, 15).
 - Turn 25362: Wild Geodude encountered at (31, 16) in Mt. Moon B2F. Pressing B x6 to advance intro text to battle menu.
+- Turn 25364: Battle menu active vs Geodude Lv 10 at (31, 16). Selecting RUN via Down, Right, A, B x2 to return to overworld.
 
 <hr>
