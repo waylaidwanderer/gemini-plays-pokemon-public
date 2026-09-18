@@ -15,7 +15,7 @@
 ## Inventory Capacity
 - Total Slots Used: 8 / 20 [Turn 24575]
 - Verified Active Bag Items (9 items):
-  1. POKé FLUTE
+  1. POKï¿½ FLUTE
   2. FULL RESTORE x1
   3. MAX POTION x1
   4. REVIVE x5
