@@ -35,6 +35,7 @@
 - **Discrete Inputs vs Buffered Strides:** Depending on input timing and buffering, bicycle locomotion may advance 1 or 2 grid tiles per directional input. Chained inputs frequently buffer continuous 2-tile strides.
 - **Precision Alignment & Navigation:** When navigating tight single-tile gaps or aligning with precision between obstacles, dismounting the Bicycle to foot locomotion guarantees strict 1-tile step precision.
 - **Collision Truncation:** Riding into a collision boundary truncates movement immediately at the obstacle boundary.
+- **Bicycle State Preservation Across Map Warps:** In Generation 1 retail, mounting the Bicycle outdoors sets an internal riding state. Entering an indoor area, gatehouse, or cave where cycling is prohibited forces the on-foot walking sprite, but the mounted bicycle status is preserved in memory. Upon exiting back outdoors to an area where cycling is permitted, the player automatically resumes riding the Bicycle without needing to re-select it from the Bag. Using the Bicycle from the Bag immediately upon exiting will dismount it ('BLUE got off the BICYCLE.') rather than mount it. [Empirically confirmed Turns 25420-25432 on Route 4 exit]
 
 ## HM03 SURF Mechanics & Empirical Findings
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
