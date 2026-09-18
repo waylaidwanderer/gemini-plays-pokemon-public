@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Central-Western Land Terrace at (11, 12) on foot facing North.
-- Active Navigation: Walking North up Column 11 (11, 11..9) and East along Row 9 (12..13, 9) toward Ladder (18, 9).
-- Objective: Reach and ascend Ladder (18, 9) to access 2F secluded northwest sector and locate B1F Mewtwo route.
+- Current Location: Cerulean Cave 1F at (13, 9) on foot facing East.
+- Active Navigation: Walking Right x5 along Row 9 (14..18, 9) straight onto Ladder (18, 9).
+- Objective: Ascend Ladder (18, 9) to access 2F secluded northwest pocket and locate route to B1F (Mewtwo).
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
@@ -4216,7 +4216,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
-- Ladder (18, 9): Ascending cave ladder sighted at (18, 9) in western passage [Unverified sighting from afar].
+- Ladder (18, 9): Ascending cave ladder located at (18, 9) on the central-western elevated land terrace. Accessible via Row 9 horizontal corridor. [Physically verified Turn 25648]
 - Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (22, 6).
 - Staircase (17, 15): Wooden staircase sighted at (17, 15) ascending west to upper elevation [Unverified sighting from afar].
 - Staircase (25, 9): Wooden staircase sighted at (25, 9) situated adjacent to the subterranean lake [Unverified sighting from afar].
