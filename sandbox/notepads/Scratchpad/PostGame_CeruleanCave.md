@@ -29,3 +29,5 @@
 - Gatehouse Exit: Walk north along column 4 to exit at (4..5, 0) into Viridian Forest.
 - Viridian Forest: Mount Bicycle and ride eastern perimeter corridor north to northern gatehouse.
 - Route 2 North / Pewter City: Traverse northern sector to Pewter City, then Route 4 east to Cerulean City.
+
+- Turn 25146: Standing at (4, 2). Stepping Up to (4, 1), Right to (5, 1), and Up into doorway at (5, 0) to enter Viridian Forest.
