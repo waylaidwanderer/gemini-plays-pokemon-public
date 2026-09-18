@@ -7,3 +7,4 @@
 - Turn 24955: Main battle menu open with cursor on FIGHT facing Venusaur Lv 65 (~75% HP). Sheldon active at 115/222 HP (12 Full Restores ready). Pressing A to execute Struggle.
 - Turn 24956: Struggle dealt ~58 damage to Venusaur Lv 65, bringing Venusaur down to ~50% HP. Sheldon took 29 recoil to 86/222 HP. Advancing text through Venusaur's counter with B x5.
 - Turn 24957: Venusaur Lv 65 used Mega Drain for 37 damage. Sheldon at 49/222 HP (yellow bar). Main battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu and use Full Restore on Sheldon.
+- Turn 24958: Bag menu open with cursor confirmed directly on FULL RESTORE x12. Pressing A to select Full Restore and open party screen.
