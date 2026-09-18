@@ -54,3 +54,5 @@
 - Turn 24799: Agatha dialogue progressing ('handsome! That was decades ago!'). Advancing dialogue to battle start.
 - Turn 24800: Agatha dialogue finishing ('BLUE! I'll show you how a real trainer fights!'). Advancing into battle vs Gengar Lv 56.
 - Turn 24801: Battle started! 'AGATHA wants to fight!' on screen. Advancing intro text to battle menu.
+- Turn 24802: Battle menu open on FIGHT facing Gengar Lv 56. Sheldon at 216/216 HP. Navigating to Surf (Slot 3) to 2HKO Gengar (avoiding Normal moves).
+- Turn 24803: Surf executing against Gengar Lv 56. Advancing turn text with B to resolve damage and Gengar's response.
