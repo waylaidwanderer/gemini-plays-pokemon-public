@@ -3882,7 +3882,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (15, 11): Solid rock wall directly west of (16, 11) terminating Row 11 eastward corridor at column 16 [Empirically verified Turn 22174].
 - Tile (21, 11): Impassable elevation cliff / wall from (20, 11) facing East [Tested Turn 20392].
 - Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
-- Wall at (25, 6): Solid rock wall directly south of (25, 5) [Empirically verified Turn 18314 via bump test].
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
@@ -3952,6 +3951,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
+- Boulder 1: Starts at (5, 5). Pushed north into (5, 4) and (5, 3), wedged in doorway (5, 4) against rock wall (5, 2), blocking northern entry into Northwest Chamber [Tested Turns 24024-24040].
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
 - Switch Plate B: Located at (9, 16) in southwest lower corridor [Visually confirmed empty Turn 23764]. Controls Exit Barrier at (23, 14). Accessible via Row 16 from the east.
 
