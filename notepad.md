@@ -167,9 +167,10 @@
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
+- BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Total Slots Used: 6 / 20 [Turn 24594]
+- Total Slots Used: 7 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
   2. FULL RESTORE x10
@@ -190,7 +191,6 @@
 - ESCAPE ROPE x1 (PC) [Stored Turn 24548]
 - MASTER BALL x1 (PC) [Stored Turn 24535]
 - SUPER ROD x1 (PC) [Stored Turn 24531]
-- BICYCLE x1 (PC) [Stored Turn 24529]
 - HM01 (CUT) x1 (PC) [Stored Turn 24526]
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
 - CARD KEY x1 (PC) [Stored Turn 13305]
@@ -4079,5 +4079,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status.
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
+- Turn 25022: Withdrew BICYCLE into Bag (7/20 slots used). Pressing A to clear confirmation message and view updated PC withdraw list to retrieve Master Ball.
+- Turn 25023: Withdrawing Bicycle reset PC list back to Item 1 (TM34). Scrolling Down x5 toward Master Ball.
 
 <hr>

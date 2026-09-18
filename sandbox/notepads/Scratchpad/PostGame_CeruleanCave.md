@@ -16,3 +16,4 @@
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
 - Turn 25022: Withdrew BICYCLE into Bag (7/20 slots used). Pressing A to clear confirmation message and view updated PC withdraw list to retrieve Master Ball.
+- Turn 25023: Withdrawing Bicycle reset PC list back to Item 1 (TM34). Scrolling Down x5 toward Master Ball.
