@@ -94,3 +94,4 @@
 - Turn 24923: Pidgeot fainted! Sheldon gained 2247 EXP. Sheldon HP at 174/219. RED is about to use 2nd Pokémon. Pressing B x5 to advance text, decline switch, and reach main battle menu.
 - Turn 24924: RED sent out Alakazam Lv 59 (2/6). Sheldon active at 174/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 5/15).
 - Turn 24925: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 5/15) facing Alakazam Lv 59. Pressing A to execute Double-Edge.
+- Turn 24926: Double-Edge OHKO'd Alakazam Lv 59 (2/6)! Alakazam fainted. Sheldon took 35 recoil to 139/219 HP. Double-Edge PP now 4/15. Advancing text through fainting, EXP, and switch prompt with B x5.

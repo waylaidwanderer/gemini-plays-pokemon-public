@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 69 (HP 174/219)
+- Active Team: Blastoise (SHELDON) Lv 69 (HP 139/219)
 
 - Money: ¥101336 [Turn 24904]
 - Pokédex: 15 Caught / 50+ Seen
@@ -220,7 +220,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 69, Water]
   - Status: Healthy
-  - HP: 174 / 219
+  - HP: 139 / 219
   - Stats: Attack 163, Defense 189, Speed 163, Special 168 [Verified Lv 69 Turn 24884]
   - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 1/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -4055,6 +4055,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24923: Pidgeot fainted! Sheldon gained 2247 EXP. Sheldon HP at 174/219. RED is about to use 2nd Pokémon. Pressing B x5 to advance text, decline switch, and reach main battle menu.
 - Turn 24924: RED sent out Alakazam Lv 59 (2/6). Sheldon active at 174/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 5/15).
 - Turn 24925: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 5/15) facing Alakazam Lv 59. Pressing A to execute Double-Edge.
+- Turn 24926: Double-Edge OHKO'd Alakazam Lv 59 (2/6)! Alakazam fainted. Sheldon took 35 recoil to 139/219 HP. Double-Edge PP now 4/15. Advancing text through fainting, EXP, and switch prompt with B x5.
 
 <hr>
 
