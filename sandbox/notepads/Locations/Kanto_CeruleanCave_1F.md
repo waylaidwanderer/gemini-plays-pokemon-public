@@ -24,9 +24,10 @@
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
 - Staircase (17, 15): Wooden staircase sighted at (17, 15) ascending west to upper elevation [Unverified sighting from afar].
-- Staircase (25, 9): Wooden staircase sighted at (25, 9) situated adjacent to the subterranean lake [Unverified sighting from afar].
+- Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
 
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
+- Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). West of Column 26 pillar, (24..25, 12) provides a clear land dismount directly into the entrance cavern. [Physically verified Turn 25804]
