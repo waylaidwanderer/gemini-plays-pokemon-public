@@ -59,3 +59,4 @@ Supplies in bag: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX 
 
 - Turn 24768: Engaged Bruno at (5, 2) in dialogue. Pre-battle dialogue active. Advancing dialogue to trigger battle.
 - Turn 24770: Battle animation initiated! Facing Elite Four Bruno. Advancing intro text to battle menu.
+- Turn 24771: Battle menu open on FIGHT. Onix Lv 53 active. Sheldon leads at 213/213 HP. Navigating to Surf (Slot 3) to OHKO Onix.
