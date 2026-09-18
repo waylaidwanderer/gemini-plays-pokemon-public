@@ -82,3 +82,4 @@
 - Turn 25390: Player at (13, 31) on foot facing West. Visual confirms cols 9..11 open north into Western Cavern Highway. Walking Left x2 to (11, 31) and Up x3 to (11, 28).
 - Turn 25391: Player at (11, 28) on foot facing North. Western Cavern Highway confirmed wide open across cols 7..11. Walking Up x5 along col 11 toward (11, 23).
 - Turn 25392: Player at (11, 23) on foot facing North. Walking Left to (10, 23) and Up x4 along column 10 to (10, 19).
+- Turn 25393: Player at (10, 19) on foot facing North. Defeated Grunt sighted at (11, 16). Cols 12..13 confirmed open at row 15. Walking Up x2 to (10, 17), Right x2 to (12, 17), and Up to (12, 16) into Fossil Approach Corridor.
