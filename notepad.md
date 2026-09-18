@@ -4199,6 +4199,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25529: Arrived at Row 11 junction at (23, 11). Confirmed (22, 6) is the ladder to 1F (23, 7). South is blocked by (23, 12) wall. Heading East to (24, 11) and South down Column 24 corridor.
 
 - Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
+- Turn 25537: Fled wild Dodrio Lv 51 cleanly. Player at (19, 11) facing West. Walking Left x4 along Row 11 corridor to (15, 11).
 
 <hr>
 
@@ -4243,7 +4244,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11).
 - Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Empirically verified to dead-end at (24, 15) with solid rock wall at (24, 16). No items or branches.
 - Ground Item (29, 9): Poké Ball item visually confirmed at (29, 9) in eastern corridor.
-- Row 11 West Corridor (Cols 19..22, Row 11): 1-tile wide horizontal corridor visible running west between row 10 wall and row 12 wall.
+- Row 11 West Corridor (Cols 15..23, Row 11): 1-tile wide horizontal corridor confirmed open from (23, 11) west past (15, 11), with a south branch at (17, 12).
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
 ## Wild Pokémon (Empirically Verified)
 - Dodrio [Encountered 2F Turn 25536]

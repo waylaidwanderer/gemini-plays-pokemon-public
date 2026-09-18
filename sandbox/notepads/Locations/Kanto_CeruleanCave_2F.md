@@ -11,7 +11,7 @@
 - Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11).
 - Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Empirically verified to dead-end at (24, 15) with solid rock wall at (24, 16). No items or branches.
 - Ground Item (29, 9): Poké Ball item visually confirmed at (29, 9) in eastern corridor.
-- Row 11 West Corridor (Cols 19..22, Row 11): 1-tile wide horizontal corridor visible running west between row 10 wall and row 12 wall.
+- Row 11 West Corridor (Cols 15..23, Row 11): 1-tile wide horizontal corridor confirmed open from (23, 11) west past (15, 11), with a south branch at (17, 12).
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
 ## Wild Pokémon (Empirically Verified)
 - Dodrio [Encountered 2F Turn 25536]

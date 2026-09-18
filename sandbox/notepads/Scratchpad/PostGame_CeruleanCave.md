@@ -59,3 +59,4 @@
 - Turn 25529: Arrived at Row 11 junction at (23, 11). Confirmed (22, 6) is the ladder to 1F (23, 7). South is blocked by (23, 12) wall. Heading East to (24, 11) and South down Column 24 corridor.
 
 - Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
+- Turn 25537: Fled wild Dodrio Lv 51 cleanly. Player at (19, 11) facing West. Walking Left x4 along Row 11 corridor to (15, 11).
