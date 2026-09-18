@@ -11,4 +11,4 @@
 - Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells supplies [Inventory pending in-game verification]. Accessed from (13, 7) facing North.
 - Mart Display Windows: Located at (2..3, 0..1) in the northern wall featuring 'SALE' signs and display cases [Corrected Turn 24659].
 - Lobby NPC / Guide: Located at (5, 1) facing South [Visually verified Turn 24656].
-- Elite Four Entrance: Located at (8, 0) in the northern wall. A doorway with stairs leading north into the Elite Four chambers [Visually verified Turn 24659].
+- Northern Doorway: Sighted doorway with ascending stairs at (8, 0) in northern wall [Visual observation Turn 24659; physical traversal and warp trigger pending verification].
