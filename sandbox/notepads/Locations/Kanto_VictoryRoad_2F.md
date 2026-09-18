@@ -54,7 +54,7 @@
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Barrier Block at (23, 14): LOWERED [Visually confirmed Turn 24448]. Depressing Switch Plate B at (9, 16) with the fallen boulder from 3F permanently lowered this barrier, opening unobstructed access to Exit Ladder at (25, 14).
-- Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
+- Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed connection up to Victory Road 3F eastern corridor at (27, 15) [Empirically verified Turns 24453-24454].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
 - Row 4 Barrier: Solid rock wall along row 4 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629, (4, 4) confirmed solid Turn 18106). Doorway at (5, 4) connects to (5, 3), but northern progression is blocked from the south by Boulder 1 wedged at (5, 3) against rock wall (5, 2) [Empirically verified Turns 24024-24040].

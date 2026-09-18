@@ -3,7 +3,8 @@
 ## Connections
 - Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber at 1, 1) [Arrived Turn 20452].
 - Ladder to 2F: Located at (23, 7); verified two-way connection to 2F (23, 7) [Turn 20613].
-- Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8) [Sighted Turn 20475].
+- Northeast Ladder 2: Located at (26, 8) in eastern corridor; confirmed two-way connection to 2F Northeast Ladder at (27, 7) [Empirically verified Turns 24464, 24473].
+- Southeast Ladder: Located at (27, 15); confirmed ascent arrival from 2F plateau ladder (25, 14) [Empirically verified Turn 24454].
 
 ## Layout & Mechanics
 - Row 16 Highway [Verified Turns 23846-23850]: Continuous open walkable floor connecting Columns 2 through 21 across rows 15-16, providing an unobstructed passage from the Southwest Basin directly to the Pit Hole at (23, 15) and Boulder at (22, 15).
@@ -50,31 +51,4 @@
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
-- Tile (0, 7): Empirically verified solid rock boundary from (0, 6) facing South with 0 movement delta [Turn 23816].
-- Tile (1, 7): Empirically re-verified impassable northbound cliff boundary from (1, 6) facing South with 0 movement delta [Turn 23814].
-- Tile (6, 7): Empirically verified impassable elevation boundary from (6, 6) facing South with 0 movement delta [Turn 23807].
-- Tile (26, 3): Empirically verified solid blue rock wall from (25, 3) facing East with 0 movement delta [Turn 23787].
-- Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23734].
-- Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23729].
-- Tile (24, 7): Empirically verified solid rock wall from (23, 7) facing East with 0 movement delta [Turn 23615].
-- Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta with Switch (3, 5) depressed [Turn 23548].
-- Tile (21, 11): Empirically verified solid rock wall from (20, 11) facing East with 0 movement delta with Switch (3, 5) depressed [Turn 23497].
-- Column 25 Barrier: Tiles (25, 4), (25, 5), and (25, 6) are confirmed solid rock walls; northern access into Column 25 from Row 3 is completely blocked [Visually verified Turn 22546].
-- Tile (14, 12): Empirically verified solid rock wall from (14, 11) facing South with 0 movement delta [Turn 22536].
-- Tile (15, 12): Empirically verified solid rock wall from (15, 11) facing South with 0 movement delta [Turn 22536].
-- Tile (16, 12): Empirically verified solid rock wall from (16, 11) facing South with 0 movement delta [Turn 22541].
-- Tile (17, 12): Empirically verified solid rock wall from (17, 11) facing South with 0 movement delta [Turn 22541].
-- Tile (18, 12): Empirically verified solid rock wall from (18, 11) facing South with 0 movement delta [Turn 22541].
-- Tile (19, 12): Empirically verified solid rock wall / elevation boundary from (19, 11) facing South with 0 movement delta [Turn 22543].
-- Tile (19, 2): Empirically verified solid rock wall from (18, 2) facing East with 0 movement delta [Turn 22551].
-- Tile (24, 6): Empirically verified solid rock wall from (23, 6) facing East with 0 movement delta [Turn 22124].
-- Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
-- Tile (6, 9): Confirmed impassable elevation cliff / wall from (6, 10) facing North with 0 movement delta [Turn 20720].
-- Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
-- Tile (10, 1): Confirmed impassable elevation cliff from (10, 2) facing North with 0 movement delta [Turn 20527].
-- Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
-- Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
-- Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370; re-verified Turn 23549 with Switch (3, 5) depressed].
-- Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
-- Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
-- Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
+- Verified impassable rock barriers and elevation cliffs across Row 6 (cols 24-29), Row 9 (cols 21-24), Row 10 (cols 24-30), Row 12 (cols 14-21), and Column 19/24 dividers.
