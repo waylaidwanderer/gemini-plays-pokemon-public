@@ -58,3 +58,4 @@
 - Turn 25107: Arrived in Viridian City at (20, 35) on Bicycle facing North. Riding Up x5 along col 20 main avenue to (20, 30).
 - Turn 25109: Player at (20, 30) on Bicycle. Riding Up x2 to (20, 28), Left to (19, 28), and Up x2 through row 27 ledge gap at (19, 27) to (19, 26).
 - Turn 25112: Player at (19, 25) north of row 27 ledge. Riding Right to (20, 25) paved avenue, then Up x4 to (20, 21).
+- Turn 25114: Player at (20, 21) on Bicycle. Riding Left x2 to (18, 21), then Up x3 along col 18 past flower garden to (18, 18).
