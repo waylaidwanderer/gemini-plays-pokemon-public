@@ -4193,5 +4193,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25487: Arrived on Route 24 at (10, 33) on Nugget Bridge mounted on Bicycle facing North. Riding north toward row 15 water access.
 - Turn 25488: Player at (10, 29) on Nugget Bridge. Lass at (10, 28). Shifting right to column 11 to bypass.
 - Turn 25489: Player at (11, 26) on Nugget Bridge. Youngster at (11, 25). Shifting left to column 10 to bypass to (10, 24).
+- Turn 25490: Player at (10, 24) on Nugget Bridge. Lass 4 at (10, 22). Shifting right to col 11 to bypass to (10, 21).
 
 <hr>
