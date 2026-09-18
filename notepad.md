@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 68 (HP 194/216), Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
+- Active Team: Blastoise (SHELDON) Lv 68 (HP 216/216), Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
 - Money: ¥77972 [Turn 24649]
 - Pokédex: 15 Caught / 50+ Seen
@@ -159,7 +159,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x15 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
+- FULL RESTORE x14 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -171,7 +171,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x15
+  2. FULL RESTORE x14
   3. MAX POTION x1
   4. REVIVE x15
   5. FULL HEAL x6
@@ -220,7 +220,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 68, Water]
   - Status: Healthy
-  - HP: 194 / 216
+  - HP: 216 / 216
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3963,7 +3963,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
-  - HP: 194 / 216 (Confused)
+  - HP: 216 / 216 (Healthy, Full Health)
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 6/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166
 - Support Pivots:
@@ -3973,7 +3973,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - SANDMAN (Drowzee Lv 9)
 
 ## Verified Active Bag Supplies
-- FULL RESTORE x15 [Purchased Turn 24635, 1 used post-Lorelei]
+- FULL RESTORE x14 [Purchased Turn 24635, 1 used post-Lorelei]
 - REVIVE x15
 - MAX POTION x1
 - MAX REVIVE x1
@@ -4020,8 +4020,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Aerodactyl Lv 60 (Rock/Flying) -> ICE BEAM (2x Ice weakness vs base 60 Special, guaranteed OHKO!)
   5. Dragonite Lv 62 (Dragon/Flying, Lance's ace) -> ICE BEAM (4X ICE WEAKNESS! Massive OHKO!)
 - Total Ice Beams required: Exactly 4. Ice Beam PP available: 5/10!
-- Supplies: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POK� FLUTE.
+- Supplies: FULL RESTORE x14, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POK� FLUTE.
 - Turn 24857: Sighted Lance at (6, 1) facing South. Player at (6, 3). Opening Bag menu to heal Sheldon from 194 to 216 HP with Full Restore.
+- Turn 24860: Full Restore used on Sheldon (healed from 194 to 216/216 HP). Full Restore count: 14. Closing menus to challenge Lance.
 
 
 <hr>
