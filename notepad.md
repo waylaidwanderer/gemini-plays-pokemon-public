@@ -4170,9 +4170,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave Terrace overlooking Subterranean Lake at (27, 1) facing South.
-- Active Navigation: Walking Down to (27, 2) and Left x4 to (23, 2) at the top of Staircase (23, 3).
-- Objective: Descend Staircase (23, 3) to water at (23, 4), launch Surf with Sheldon, and scout waterways toward Mewtwo.
+- Current Location: Cerulean Cave 1F Northern Terrace at (23, 2) facing West.
+- Active Navigation: Stepping Down onto Staircase (23, 3) and executing SURF with Sheldon into subterranean lake at (23, 4).
+- Objective: Launch Surf, collect Ground Item at (19, 3), and explore subterranean waterways toward B1F/Mewtwo.
+
+- Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
+- Turn 25609: Arrived at (23, 2) above Staircase (23, 3); visually confirmed Ground Item at (19, 3) on lake ledge.
 
 - Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
 
@@ -4184,9 +4187,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 1F Geography & Exploration
 
 ## Connections
+- Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
+- Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
+- Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
+- Ground Item (19, 3): Pok� Ball item visually confirmed on rock ledge bordering subterranean water at (19, 3).
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
 - Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
@@ -4210,7 +4217,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Accessible from (28, 1) via East step or (29, 0) via South step. [Physically sighted Turn 25602]
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Sighted Ladder (19, 7): Cave ladder visually sighted at (19, 7) across western rock partition; direct connectivity/accessibility not yet physically tested.
 
