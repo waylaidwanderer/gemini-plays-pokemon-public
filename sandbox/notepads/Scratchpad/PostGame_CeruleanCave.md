@@ -11,7 +11,7 @@
 
 ## Post-Game Routing Plan
 1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC. [Completed]
-2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [In Progress - in Mt. Moon B2F Northern Exit Corridor]
+2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [In Progress - on Route 4 East approaching Cerulean City]
 3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status.
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
@@ -31,41 +31,14 @@
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Route 4 East at (24, 6) on foot facing South.
-- Route 4 East to Cerulean City: Mount Bicycle, ride east along middle corridor (rows 6..8) past col 45 ledge to Cerulean City (col 80+).
+- Current Location: Route 4 East at (54, 10) mounted on Bicycle facing East.
+- Route 4 East to Cerulean City: Riding east along Row 10 Corridor (rows 10..12) toward col 61 gap to bypass col 62 tree line onto row 8.
 - Cerulean City to Cerulean Cave: Traverse north to Route 24 river, Surf southwest to Cerulean Cave entrance, and verify guard departure.
+- Turn 25447: Player hopped over column 45 ledge and landed at (46, 6) mounted on Bicycle facing East.
+- Turn 25456: Reached (49, 6); col 50 ridge verified impassable eastward from row 6; took column 49 south gap to row 10.
+- Turn 25459: Player reached (54, 10) on Bicycle in Row 10 Corridor heading East.
 
-- Turn 25262: Player at (12, 25) on foot facing East. Walking Right x8 along row 25 toward (20, 25) Eastern Avenue corridor.
-- Turn 25263: Wild encounter triggered at (15, 25) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
-- Turn 25264: Wild Zubat Lv 10 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
-- Turn 25265: Fled Zubat cleanly at (15, 25). Walking Right x8 along row 25 toward (23, 25) Eastern Avenue entrance.
-- Turn 25266: Player at (16, 25). Bug Catcher at (16, 24) triggered dialogue. Pressing B x4 to dismiss textbox and stunning NPC.
-- Turn 25267: Undefeated Lass initiated battle at (16, 25). Advancing dialogue and selecting FIGHT -> Double-Edge with Sheldon Lv 70.
-- Turn 25268: Clefairy OHKO'd by Sheldon's Double-Edge. Pressing B x8 to clear fainting, EXP, and prize money text.
-- Turn 25269: Defeated Lass (won ¥210). Player at (16, 25) in overworld. Walking Right x8 along row 25 into Eastern Avenue at (24, 25).
-- Turn 25271: Player at (21, 25) on foot facing East. Walking Down to (21, 26), Right x4 to (25, 26), and Up x5 along Eastern Avenue to (25, 21).
-- Turn 25272: Player at (21, 19) on foot facing North in Eastern Avenue corridor. Walking Up x9 along col 21 toward row 10 cross-corridor at (21, 10).
-- Turn 25273: Wild encounter triggered at (21, 18) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
-- Turn 25274: Wild Zubat Lv 6 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
-- Turn 25275: Fled Zubat cleanly at (21, 18). Walking Up x8 along col 21 toward row 10 cross-corridor at (21, 10).
-- Turn 25276: Wild encounter triggered at (21, 11) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
-- Turn 25277: Wild Zubat Lv 8 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
-- Turn 25278: Fled Zubat cleanly at (21, 11). Stepping Up to (21, 10), then walking Right x9 along row 10 to (30, 10) passage toward Northern Highway.
-- Turn 25279: Player at (30, 10) on foot. Walking Up x4 to (30, 6) Northern Highway, then Left x6 along row 6 toward northwest ladder.
-- Turn 25281: Wild Zubat encountered at (24, 6) on Northern Highway. Pressing B x6 to advance intro text to battle menu.
-- Turn 25282: Wild Zubat Lv 10 in battle at (24, 6). Selecting RUN via Down, Right, A and B x2 to return to overworld.
-- Turn 25284: Fled Zubat cleanly at (24, 6). Walking Up x4 to (24, 2) northern perimeter highway, then Left x6 along row 2 toward northwest ladder (5, 5).
-- Turn 25286: Player at (17, 2) on foot facing West. Walking Left x10 along row 2 crossway toward northwest ladder (5, 5).
-- Turn 25290: Player at (14, 2) on foot facing West. Screen confirms cols 12..13 are solid vertical rock wall extending continuously south from northern boundary (rows 0..1) past row 6. Row 2 does not cross west to northwest ladder (5, 5). Moving south along col 14 toward rows 14..16 crossover corridor.
-- Turn 25299: Wild Geodude encountered at (14, 6) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
-- Turn 25302: Wild Geodude Lv 10 in battle at (14, 6). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25304: Fled Geodude cleanly. Player at (14, 6) on foot facing South. Moving south along col 14 between col 12..13 wall and col 18..19 pillar toward row 14..16 crossover.
-- Turn 25307: Player at (14, 12) on foot facing South. Verified col 14 is open to row 16; defeated Youngster is stationed at (12, 16). Dividing wall terminates at row 14/15. Walking Down x5 to (14, 17) to bypass Youngster and enter western corridor at row 17.
-- Turn 25311: Player at (14, 17) on foot facing South. Visual confirms row 17 is completely clear across cols 10..14 below Youngster (12, 16). Walking Left x4 along row 17 to enter western corridor at (10, 17).
-- Turn 25314: Player at (10, 17) on foot facing West. Successfully crossed over into western corridor. Walking North along column 10 toward rows 5..6 to access Northwest Ladder (5, 5).
-- Turn 25316: Player at (10, 12) on foot. Screen black transition indicates wild battle triggered. Pressing B x4 to advance transition and battle intro text.
-- Turn 25317: Wild Zubat appeared at (10, 12). Pressing B x6 to advance intro text to battle menu.
-- Turn 25319: Wild Zubat Lv 10 in battle at (10, 12). Selecting RUN via Down, Right, A, B x2 to return to overworld.
+- Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
 - Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
 - Turns 25331-25342: Traversed B1F Northwest Transit Corridor south along col 5 to row 16, fled wild Zubat at (10, 16), walked east to (21, 16), and descended ladder (21, 17) to B2F Main Cavern.
 - Turns 25343-25355: Arrived on B2F at (21, 17), walked to (26, 14), hopped south over ledge (26, 15) into Southern Cavern Corridor, and walked east to (30, 16).
