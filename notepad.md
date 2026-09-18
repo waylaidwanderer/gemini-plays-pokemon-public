@@ -215,7 +215,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥95198 [Turn 24851]
+- ¥101336 [Turn 24904]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 69, Water]
@@ -4112,5 +4112,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Aerodactyl: Ice Beam (2x weakness, OHKO).
     - Dragonite: Ice Beam (4x weakness, OHKO).
 
+- Defeated Turn 24903 by Sheldon Lv 69 (123/219 HP). Prize: ¥6138. Northern door unlocked.
 
 <hr>

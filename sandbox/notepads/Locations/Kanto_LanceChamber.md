@@ -16,3 +16,5 @@
     - Dragonair x2: Ice Beam (2x weakness, OHKO).
     - Aerodactyl: Ice Beam (2x weakness, OHKO).
     - Dragonite: Ice Beam (4x weakness, OHKO).
+
+- Defeated Turn 24903 by Sheldon Lv 69 (123/219 HP). Prize: ¥6138. Northern door unlocked.
