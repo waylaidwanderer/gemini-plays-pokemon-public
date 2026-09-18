@@ -1,0 +1,1 @@
+- Turn 24941: Arcanine Lv 63 confirmed on field (5/6). FIGHT menu open with cursor on Slot 1 (Double-Edge, PP 2/15). Pressing A to execute Double-Edge.
