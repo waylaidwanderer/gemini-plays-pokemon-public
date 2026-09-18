@@ -4039,6 +4039,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24833: Surf brought Gengar Lv 60 to ~45% HP. Gengar used Confuse Ray (Sheldon confused, HP 216/216). Navigating Down from Surf to Ice Beam (Slot 4, PP 8/10) to attack Gengar.
 - Turn 24834: Ice Beam selected against Gengar Lv 60. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / faint.
 - Turn 24836: Sheldon took 22 confusion self-damage (194/216 HP). Gengar used Confuse Ray (failed). Opening FIGHT menu to verify Ice Beam selection.
+- Turn 24839: Move menu verified on ICE BEAM (8/10 PP). Executing Ice Beam against Gengar Lv 60 (~60 HP remaining). Advancing with B.
 
 
 <hr>
