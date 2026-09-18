@@ -4123,5 +4123,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25187: Player at (7, 3) on Bicycle facing West. Riding Down x8 along col 7 west-central corridor toward (7, 11).
 - Turn 25188: Player at (7, 11) on Bicycle facing South. Riding Down x7 along col 7 west-central corridor to (7, 18) clear ground crossroads.
 - Turn 25190: Player at (7, 18) on Bicycle facing South. Divider wall terminates at row 21. Riding Down x4 to (7, 22), then Left x5 through row 22 breach into Exit Avenue at (2, 22).
+- Turn 25191: Player at (2, 22) on Bicycle facing West. Stepping Left to col 1 and riding Up x7 to bypass Bug Catcher (2, 18) toward gatehouse at (1, 15).
 
 <hr>
