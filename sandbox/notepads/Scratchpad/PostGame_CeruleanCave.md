@@ -76,3 +76,4 @@
 - Turn 25384: Player at (32, 31) on foot facing West. Southern Corridor confirmed clear across rows 31..32. Walking Left x5 along row 31 toward (27, 31).
 - Turn 25385: Wild battle triggered at (28, 31) in Southern Corridor. Pressing B x6 to advance transition to battle menu.
 - Turn 25386: Battle menu active vs wild Zubat Lv 11 at (28, 31). Selecting RUN via Down, Right, A, B x2 to return to overworld.
+- Turn 25387: Fled Zubat cleanly. Player at (28, 31) on foot facing West. Walking Left x5 along row 31 toward (23, 31).
