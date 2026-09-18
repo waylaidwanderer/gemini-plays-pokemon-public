@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (28, 2) facing North.
-- Active Navigation: Stepping Up to (28, 1) and Right onto newly discovered Ladder (29, 1).
-- Objective: Test Ladder (29, 1) destination to determine connectivity to 1F/B1F route.
+- Current Location: Cerulean Cave Terrace overlooking Subterranean Lake at (27, 1) facing South.
+- Active Navigation: Walking Down to (27, 2) and Left x4 to (23, 2) at the top of Staircase (23, 3).
+- Objective: Descend Staircase (23, 3) to water at (23, 4), launch Surf with Sheldon, and scout waterways toward Mewtwo.
 
 - Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
 
