@@ -3959,21 +3959,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <hr>
 
-<h1><code>Scratchpad/EliteFour_Strategy</code></h1>
-
-# Elite Four & Champion Battle Strategy
-
-## Pokémon League Gauntlet: VICTORY!
-- Lorelei: Cleared Turn 24759
-- Bruno: Cleared Turn 24791
-- Agatha: Cleared Turn 24849
-- Lance: Cleared Turn 24903
-- Champion RED: Cleared Turn 24981
-- Active Status: Inducted into Hall of Fame [Turn 24991]!
-
-
-<hr>
-
 <h1><code>Locations/Kanto_LoreleiChamber</code></h1>
 
 # Indigo Plateau - Lorelei's Chamber (Elite Four Room 1)

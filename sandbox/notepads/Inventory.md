@@ -2,7 +2,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x10 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
+- FULL RESTORE x10 [Purchased 15 Turn 24635, 5 used during Elite Four/Champion gauntlet]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
