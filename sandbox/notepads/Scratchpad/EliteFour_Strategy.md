@@ -85,3 +85,4 @@
   - Arcanine Lv 65: Double-Edge.
   - Venusaur Lv 65: Double-Edge / pivot switches / Full Restores.
 - Turn 24916: Battle initiated! 'RED wants to fight!'. Advancing text with B x5 to reach the main battle menu.
+- Turn 24917: Champion battle commenced! Enemy Pidgeot Lv 61 on field. Sheldon active at 219/219 HP. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Slot 1 (Double-Edge, PP 7/15).
