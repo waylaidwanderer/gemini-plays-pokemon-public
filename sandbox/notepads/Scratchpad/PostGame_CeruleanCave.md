@@ -25,8 +25,8 @@
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F at (17, 11) on foot (Row 11 West Corridor).
 - Active Strategy & Frontier:
-  - [x] Ladder (29, 1) Enclave Surveyed [Turn 26143]: Enclave spanning (27..29, 0..6) is 100% enclosed dead-end. Zero ground access to 2F main network.
-  - Actionable Route: Surf from Staircase (23, 3) east and south to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor to reach Candidate Ladder (1, 3).
+  - [x] Master Topological Deduction [Turn 26193]: Ladders (22, 6) and (29, 1) on 2F are BOTH verified isolated pockets! Ladder (19, 7) (accessed via 1F Ladder 18, 9) is the EXCLUSIVE gateway to 2F northern corridors and Candidate Ladder (1, 3).
+  - Master Plan: Backtrack via Ladder (22, 6) to 1F (23, 7), surf to Staircase (11, 13) on Central-Western Terrace, ascend Ladder (18, 9) to 2F Ladder (19, 7), and enter the northwest sector to reach Candidate Ladder (1, 3) and B1F!
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
