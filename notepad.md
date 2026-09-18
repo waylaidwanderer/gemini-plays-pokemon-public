@@ -3844,9 +3844,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Push Boulder 3 onto Switch Plate A at (1, 16) to lower Plateau Barrier at (7, 8)-(7, 9).
    - Return via Row 11 to wooden staircase at (5, 10), ascend to elevated plateau at (5, 9).
    - Walk east across lowered barrier (7, 8)-(7, 9) onto eastern plateau.
-   - Walk east and north past Moltres (11, 5) to Column 16 Highway.
-   - Ascend Column 16 Highway north to Row 1 Northern Highway.
-   - Ascend Northwest ladder at (1, 1) to Victory Road 3F (2, 0).
+   - Walk south along Col 14 to Row 12, then east along Row 12 to the eastern sector.
+   - Take Ladder at (23, 7) up to Victory Road 3F (or systematically solve Boulder 1 at 5, 4 to access ladder 1, 1).
 4. Victory Road 3F:
    - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
    - Ascend wooden staircase (17, 5) to terrace (17, 4).
@@ -3926,7 +3925,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
 - Lower Corridor (Row 16): Divided into two separate sections by solid rock walls at column 5 and column 8: western section spans cols 1-4, eastern section spans cols 9-29 [Empirically verified Turns 16006, 16347, 16384].
-- Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
+- Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784, re-verified visually Turn 24215]. Traversal east from Col 14 is via Row 12.
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
