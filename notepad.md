@@ -4169,8 +4169,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F at (17, 11) on foot (Row 11 West Corridor).
 - Active Strategy & Frontier:
-  - [x] Ladder (29, 1) Enclave Surveyed [Turn 26143]: Enclave spanning (27..29, 0..6) is 100% enclosed dead-end. Zero ground access to 2F main network.
-  - Actionable Route: Surf from Staircase (23, 3) east and south to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor to reach Candidate Ladder (1, 3).
+  - [x] Master Topological Deduction [Turn 26193]: Ladders (22, 6) and (29, 1) on 2F are BOTH verified isolated pockets! Ladder (19, 7) (accessed via 1F Ladder 18, 9) is the EXCLUSIVE gateway to 2F northern corridors and Candidate Ladder (1, 3).
+  - Master Plan: Backtrack via Ladder (22, 6) to 1F (23, 7), surf to Staircase (11, 13) on Central-Western Terrace, ascend Ladder (18, 9) to 2F Ladder (19, 7), and enter the northwest sector to reach Candidate Ladder (1, 3) and B1F!
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
@@ -4178,6 +4178,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | 1F western terrace to 2F western secluded pocket |
+
 
 <hr>
 
@@ -4293,6 +4294,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
+
+## Cerulean Cave 2F Master Topological Analysis [Turn 26193]
+- Ladder (22, 6) Enclosed Pocket: Bounded by solid rock walls on all sides. Only contains Column 23 (rows 7..11), Column 24 (rows 11..15 dead-end), Row 11 (cols 14..23 dead-end at 14, 11 and 17, 10), and Row 13 (cols 17..22 dead-ending at 22, 15 and 21, 15). ZERO ground access to the rest of 2F!
+- Ladder (29, 1) Enclosed Pocket: Bounded by rock walls cols 27..29, rows 0..6. ZERO ground access to the rest of 2F!
+- Ladder (3, 11) Southwest Pocket: Connects to Row 17 West and Column 12/13, but blocked from Candidate Ladder (1, 3).
+- Ladder (19, 7) (from 1F Ladder 18, 9): THE ONLY LADDER connecting to the central and northwest 2F corridors (Row 7, Row 8, Row 9) and leading to Candidate Ladder (1, 3)!
 
 
 <hr>
