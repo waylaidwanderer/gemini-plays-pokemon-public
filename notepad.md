@@ -4108,5 +4108,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25164: Player at (26, 35) on Bicycle facing North. Riding Up x3 to (26, 32), then Right x5 along row 32 to (31, 32) in Eastern Perimeter Corridor.
 - Turn 25165: Player at (31, 32) on Bicycle facing East. Riding Up x8 along col 31 Eastern Perimeter Corridor toward (31, 24).
 - Turn 25170: Player at (31, 24) on Bicycle facing North. Riding Up x6 along col 31 to Eastern Clearing at (31, 18).
+- Turn 25173: Player at (31, 18) on Bicycle facing North. Riding Left x5 along row 18 to (26, 18) at Northern Avenue entrance.
 
 <hr>
