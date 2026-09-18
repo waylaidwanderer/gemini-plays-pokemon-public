@@ -32,4 +32,4 @@
   4. Onix Lv 56 [OHKO'd with Surf]
 - Final Opponent:
   5. Machamp Lv 58 (Bruno's ace)
-- Strategy: Surf deals ~140 damage (clean 2HKO or OHKO on crit). Sheldon at 213/213 HP outspeeds. Fissure fails vs Lv 67 Sheldon.
+- Strategy: Surf deals ~140 damage (clean 2HKO or OHKO on crit). Sheldon at 216/216 HP (Lv 68) outspeeds. Fissure fails vs Lv 68 Sheldon.

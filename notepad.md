@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 67 (HP 213/213), Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
+- Active Team: Blastoise (SHELDON) Lv 68 (HP 216/216), Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
 - Money: ¥77972 [Turn 24649]
 - Pokédex: 15 Caught / 50+ Seen
@@ -216,11 +216,11 @@
 - ¥83516 [Turn 24760]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 67, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 68, Water]
   - Status: Healthy
-  - HP: 213 / 213
-  - Stats: Attack 157, Defense 183, Speed 157, Special 163 [Verified Lv 67 Turn 24686]
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 12/15), Ice Beam (PP 10/10)
+  - HP: 216 / 216
+  - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 7/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3960,10 +3960,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Elite Four Preparation & Strategy [Updated Turn 24781]
 
 ## Active Party Status
-- Lead: SHELDON (Blastoise Lv 67, Water)
-  - HP: 213 / 213 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 8/15), Ice Beam (PP 10/10)
-  - Stats: Attack 157, Defense 183, Speed 157, Special 163
+- Lead: SHELDON (Blastoise Lv 68, Water)
+  - HP: 216 / 216 (Healthy, Full Health)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 7/15), Ice Beam (PP 10/10)
+  - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
   - DUX (Farfetch'd Lv 5)
