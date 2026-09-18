@@ -178,12 +178,11 @@
 - TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
 
 ## Key Items & HMs
-- BICYCLE [Verified Turn 11080]
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 [Turn 24526]
+- Total Slots Used: 18 / 20 [Turn 24529]
 - Complete Top-to-Bottom Slot Order:
   1. BICYCLE
   3. POKé FLUTE
@@ -206,6 +205,7 @@
   20. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
+- BICYCLE x1 (PC) [Stored Turn 24529]
 - HM01 (CUT) x1 (PC) [Stored Turn 24526]
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
 - CARD KEY x1 (PC) [Stored Turn 13305]
