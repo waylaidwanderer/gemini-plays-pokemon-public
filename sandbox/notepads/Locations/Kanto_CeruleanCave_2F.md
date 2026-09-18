@@ -35,3 +35,4 @@
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
 - Ditto: Lv 55 [Encountered 2F Turn 25661]
+- Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
