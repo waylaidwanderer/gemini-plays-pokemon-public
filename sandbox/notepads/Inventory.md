@@ -2,7 +2,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x16 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
+- FULL RESTORE x15 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -14,7 +14,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x16
+  2. FULL RESTORE x15
   3. MAX POTION x1
   4. REVIVE x15
   5. FULL HEAL x6
@@ -63,7 +63,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 67, Water]
   - Status: Healthy
-  - HP: 89 / 213
+  - HP: 213 / 213
   - Stats: Attack 157, Defense 183, Speed 157, Special 163 [Verified Lv 67 Turn 24686]
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
