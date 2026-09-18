@@ -4054,6 +4054,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24922: Double-Edge scored a CRITICAL HIT and KO'd Pidgeot Lv 61 (1/6)! Pidgeot fainted. Double-Edge PP now 5/15. Advancing text through recoil, fainting, and EXP gain with B x5.
 - Turn 24923: Pidgeot fainted! Sheldon gained 2247 EXP. Sheldon HP at 174/219. RED is about to use 2nd Pokémon. Pressing B x5 to advance text, decline switch, and reach main battle menu.
 - Turn 24924: RED sent out Alakazam Lv 59 (2/6). Sheldon active at 174/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 5/15).
+- Turn 24925: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 5/15) facing Alakazam Lv 59. Pressing A to execute Double-Edge.
 
 <hr>
 
