@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 68 (HP 216/216)
+- Active Team: Blastoise (SHELDON) Lv 69 (HP 123/219)
 
 - Money: ¥95198 [Turn 24851]
 - Pokédex: 15 Caught / 50+ Seen
