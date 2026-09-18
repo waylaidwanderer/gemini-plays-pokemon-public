@@ -4003,6 +4003,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Gengar Lv 60: Took Super Potion to ~60 HP. Sheldon snapped out of confusion ('SHELDON's confused no more!') and Ice Beam is executing (PP 6/10).
   - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
   - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
+- Turn 24846: Gengar Lv 60 officially fainted! Gained 2442 EXP. Agatha sending in final Pok�mon Arbok Lv 58. Declining switch with B.
 
 
 <hr>
