@@ -50,4 +50,4 @@
 - Row 54: HP Up previously collected at (13, 54) [Turn 3860].
 - Row 61: South-facing ledge spanning cols 14 and 16..19, with passable tan ramp at (15, 61). Tree at (13, 61).
 - Rows 62..68: Flower garden pocket spanning cols 13..19.
-- Row 69: Solid trees block south across cols 10..22.
+- Row 69: Solid trees block south across cols 10..22.- Northern Avenue & Diglett's Cave Connection (Cols 8..14, Rows 5..9): Diglett's Cave northern cave entrance located at (12, 9) in the brown mountain rock wall spanning cols 10..14, rows 6..9. Cols 8..9 form a clear 2-tile wide paved and open ground avenue running north past the cave toward Pewter City.
