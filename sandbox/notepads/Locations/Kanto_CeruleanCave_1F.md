@@ -35,3 +35,4 @@
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
+- Venomoth: Lv 49 [Encountered 1F Turn 26123]
