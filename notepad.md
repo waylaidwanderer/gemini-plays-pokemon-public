@@ -490,6 +490,7 @@
 - Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 21..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 21..29). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 21..23 (tall grass) leading toward the west-central sector.
 - Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
 - West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
+- Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
 
 
 <hr>
@@ -4132,5 +4133,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25198: Wild Metapod Lv 4 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
 - Turn 25199: Fled Metapod cleanly; player at (1, 11) on Bicycle facing North. Riding Up x6 along col 1 Exit Avenue toward gatehouse at (1, 5).
 - Turn 25201: Player at (1, 5) on Bicycle facing North on clear ground apron. Gatehouse entrance visible at (2, 1). Riding Right to (2, 5) and Up x5 through doorway into Northern Gatehouse.
+- Turn 25205: Player at (2, 2) facing signpost at (2, 1). Stepping Left to (1, 2) and riding Up x3 into row 0 north exit warp.
 
 <hr>
