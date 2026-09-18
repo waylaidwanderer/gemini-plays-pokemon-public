@@ -53,4 +53,3 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East into (29, 7) exits Victory Road onto Route 23 North at (14, 31) [Empirically verified Turn 24494].

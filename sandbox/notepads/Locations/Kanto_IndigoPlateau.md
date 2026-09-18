@@ -9,4 +9,4 @@
 - Pok�mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pok�mon League.
 - PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby. Functional terminal accessed from (15, 8) facing North.
 - Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells supplies [Inventory pending in-game verification]. Accessed from (13, 7) facing North.
-- Elite Four Entrance: Doorway leading to the first Elite Four chamber (Lorelei).
+- Elite Four Passage: Northern doorway / passage [Exact coordinates, guard, and sequence pending visual exploration].

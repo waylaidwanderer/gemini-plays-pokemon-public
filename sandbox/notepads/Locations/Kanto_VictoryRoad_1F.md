@@ -21,7 +21,6 @@
 - Trainer: Cooltrainer ♂ at (3, 3) [Defeated Turn 15531; Team: Ivysaur Lv 42, Wartortle Lv 42, Charmeleon Lv 42, Charizard Lv 42; Prize: ¥1470].
 
 ## Items
-- Items: TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
 
 ## Wild Encounters
 - Onix (observed Turn 15367).
