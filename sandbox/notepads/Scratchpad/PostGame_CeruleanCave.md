@@ -34,10 +34,15 @@
   - 2F southwest corridors dead-end completely. Central/eastern 2F is also exhausted.
   - Hypothesis (Unverified): Candidate Ladder (1, 3) sighted from afar on Turn 25702 is hypothesized to lead to the isolated northwest of 1F or B1F. However, ground access on 2F is blocked by barriers.
   - Actionable Route: Backtrack through Column 13 bypass to Column 12, ascend to Row 9 at (12, 9), traverse west along Row 9 to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
-- Current Location: Cerulean Cave 1F at (10, 17) on foot.
-- Physical Traversal Milestone [Turn 26066]:
-  - Traversed (5, 16) -> (5, 17) -> (10, 17) along Row 17 southern thoroughfare.
-- Active Plan: March east along Row 17 through (11..16, 17) toward Staircase (17, 15) to climb onto the central-western terrace and access the lake at (11, 13).
+- Current Location: Cerulean Cave 1F at (17, 14) on foot (post-ascent of Staircase 17, 15).
+- Physical Traversal Milestone [Turn 26068]:
+  - Traversed Row 17 to (16, 17), stepped Up to (16, 16), Right to (17, 16), and ascended Staircase (17, 15) to Central-Western Terrace at (17, 14).
+  - 2F southwest corridor fully surveyed and exhausted (Ultra Ball acquired).
+- Active Strategy & Frontier:
+  - Climb onto Central-Western Terrace (17, 14), navigate west along Row 14/13 to Staircase (11, 13).
+  - Descend Staircase (11, 13) directly into subterranean lake at (11, 14).
+  - Launch HM03 SURF with Blastoise (SHELDON).
+  - Navigate northwest subterranean waterways of 1F to discover the descent to B1F and encounter Legendary Pokémon Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
