@@ -10,3 +10,4 @@
   - Use healthy pivots (Rocky, Dux, Digby, Sandman) if free switch-in/healing turns are required.
 
 - Turn 24964: Sheldon fainted to critical Solarbeam. Venusaur at ~25% HP. Executing Pivot Revive Strategy: advancing text with B x3 to send in pivot, then using Max Revive on Sheldon to return at full HP and win.
+- Turn 24966: Rocky Lv 8 sent out as pivot. Battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu to select Max Revive/Revive for Sheldon.

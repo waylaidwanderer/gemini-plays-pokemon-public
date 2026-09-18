@@ -218,8 +218,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
-  - Status: Healthy
-  - HP: 222 / 222
+  - Status: Fainted
+  - HP: 0 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3970,6 +3970,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Use healthy pivots (Rocky, Dux, Digby, Sandman) if free switch-in/healing turns are required.
 
 - Turn 24964: Sheldon fainted to critical Solarbeam. Venusaur at ~25% HP. Executing Pivot Revive Strategy: advancing text with B x3 to send in pivot, then using Max Revive on Sheldon to return at full HP and win.
+- Turn 24966: Rocky Lv 8 sent out as pivot. Battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu to select Max Revive/Revive for Sheldon.
 
 <hr>
 
