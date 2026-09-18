@@ -219,7 +219,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥107771 [Turn 24904]
+- ¥107981 [Turn 25269]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
@@ -731,8 +731,6 @@
 
 - Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: Oddish Lv 11, Bellsprout Lv 11. Status: Defeated. Yielded ¥165.
 
-- Vertical Wall Partition (Cols 12..13, Rows 3..11+): 2-tile wide vertical rock wall separating north-central corridor (cols 14-17) from northwest corridor (cols 10-11).
-
 - Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
 
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
@@ -744,7 +742,8 @@
 - Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: ¥350.
 - Ladder (5, 5): Descending ladder in the northwest corner of 1F.
 - Central Rock Wall & Southern Bypass Verification (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
-- Vertical Rock Wall Partition (Cols 12..13, Rows 0..12+): Solid vertical rock wall running continuously from row 0 south past row 6 (empirically confirmed solid wall at (12..13, 2)), separating the north-central cavern (cols 14..17) from the northwest corridor (cols 10..11). Corridor crossover is located to the south around rows 15..16 near defeated Youngster.
+- Vertical Rock Wall Partition (Cols 12..13, Rows 0..12+): Solid vertical rock wall running continuously from row 0 south past row 6 (empirically confirmed solid wall at (12..13, 2)), separating the north-central cavern (cols 14..17) from the northwest corridor (cols 10..11). Corridor crossover is located to the south around rows 15..16 near defeated Youngster.- Lass (16, 24..25): Defeated (Clefairy Lv 14). Line of sight triggered at (16, 25). Dialogue: "Wow! You're really good!". Prize: �210. Stationed near central junction passage.
+
 
 <hr>
 
