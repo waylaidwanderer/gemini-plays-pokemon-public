@@ -56,3 +56,4 @@
 - Turn 25191: Player at (2, 22) on Bicycle facing West. Stepping Left to col 1 and riding Up x7 to bypass Bug Catcher (2, 18) toward gatehouse at (1, 15).
 - Turn 25193: Player at (1, 15) on Bicycle facing North. Riding Up x8 along col 1 Exit Avenue toward gatehouse at (1, 7).
 - Turn 25194: Wild encounter triggered at (1, 14) in Viridian Forest Exit Avenue. Pressing B x6 to advance intro text to battle menu.
+- Turn 25195: Wild Caterpie Lv 3 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
