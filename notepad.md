@@ -4170,8 +4170,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (29, 14) facing South.
-- Active Navigation: Walking West along Row 14 (28..26, 14) into Column 26, then North up Column 26 (26, 13..9) toward (25, 9..7).
+- Current Location: Cerulean Cave 2F at (26, 14) facing North.
+- Active Navigation: Walking North up Column 26 (26, 13..9) to (26, 9), then West into (25, 9) toward the northern network.
 - Objective: Navigate Column 26 north into Rows 5..7 northern corridor network to access Ladder (19, 7) and northwest sector.
 
 - Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
