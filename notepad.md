@@ -3959,12 +3959,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/EliteFour_Strategy</code></h1>
 
-- Turn 24941: Arcanine Lv 63 confirmed on field (5/6). FIGHT menu open with cursor on Slot 1 (Double-Edge, PP 2/15). Pressing A to execute Double-Edge.
-- Turn 24943: Double-Edge dealt 92 damage to Arcanine Lv 63 (~55% HP remaining). Sheldon at 71/222 HP. Arcanine used Leer (zero damage). Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 1/15).
-- Turn 24944: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 1/15) facing Arcanine Lv 63 (~55% HP). Pressing A to execute Double-Edge.
-- Turn 24945: Double-Edge KO'd Arcanine Lv 63 (5/6)! Arcanine fainted. Sheldon took 25 recoil to 46/222 HP. Double-Edge PP now 0/15. RED has only 1 Pok�mon remaining! Advancing text with B x5 to reveal RED's 6th and final Pok�mon.
-- Turn 24946: RED is about to use Venusaur (6/6)! Entire Champion roster empirically confirmed! Arcanine defeated. Sheldon active at 46/222 HP. Double-Edge PP 0/15. Declining switch with B x5 to reach main battle menu.
-- Turn 24947: Venusaur Lv 65 confirmed on field (6/6). RED's final Pokémon! Sheldon active at 46/222 HP (0 PP). Battle menu open on FIGHT. Navigating Down to ITEM to open Bag and use Full Restore on Sheldon.
+- Turn 24949: Party menu open with cursor on Sheldon (46/222 HP). Pressing A to apply Full Restore (12 remaining) and restore Sheldon to full 222/222 HP against Venusaur Lv 65.
 
 <hr>
 
@@ -4064,6 +4059,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Champion
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
-- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated). Remaining 1 bench Pokémon unrevealed in-game.
+- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated), Venusaur Lv 65 (Active). Complete Champion roster verified!
 
 <hr>
