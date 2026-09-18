@@ -3983,6 +3983,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sheldon Status: HP 147/213 (Lv 67), Healthy.
 - Opponent Pokémon 3: SLOWBRO Lv 54 (Water/Psychic).
   - Tactics: Slowbro uses Amnesia (Special boost). Physical moves (Double-Edge / Body Slam) target its physical Defense and bypass Amnesia completely. 2HKO.
+- Turn 8: Sheldon used Body Slam on Slowbro Lv 54 (Slowbro HP ~65%). Slowbro used Growl (Sheldon HP 147/213). Sheldon executing Body Slam.
 
 
 <hr>
