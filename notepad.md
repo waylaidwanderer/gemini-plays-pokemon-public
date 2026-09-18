@@ -3866,7 +3866,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Northeast Ladder: Sighted at (27, 7) with light blue vertical rails and horizontal rungs; situated in eastern chamber (rows 7-9, cols 26-28). Hypothesized to connect to 3F Ladder at (26, 8) [Unclimbed; cross-floor warp unverified]. Direct ground access from northern terrace (row 6) and southern hall (row 10) previously tested impassable.
 - Descent Arrival from 3F: Located at (23, 7) in eastern sector.
-- Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
+- Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
 - Tile (14, 7): Empirically verified solid rock wall from (15, 7) facing West with 0 movement delta [Turn 24125].
@@ -3984,7 +3984,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Plateau Barrier Block at (7, 10): Raised barrier block with blue/white checkerboard pattern. Blocks westward traversal across Row 10 terrace from (8, 10) to (6, 10) [Empirically verified raised Turn 24254]. Hypothesized to be lowered by depressing Switch Plate (3, 5).
-- Boulder 1: Starts at (22, 3) along the Northern Highway. Can be pushed west along Row 1 to Column 6, south to Row 2, west to Column 2, and south down Column 2 toward Switch Plate (3, 5) [Path verified Turns 23668-23711].
+- Boulder 1: Successfully pushed onto Switch Plate (3, 5), actively depressing the switch [Turn 24359]! Route: pushed west along Row 1 Northern Highway from (22, 3) to (6, 1), south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), and east from (1, 5) onto (3, 5).
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
   - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
