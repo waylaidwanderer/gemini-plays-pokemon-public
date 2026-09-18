@@ -160,7 +160,7 @@
 
 - FULL RESTORE x11 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
-- REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
+- REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
 ## Key Items & HMs
@@ -172,7 +172,7 @@
   1. POKé FLUTE
   2. FULL RESTORE x11
   3. MAX POTION x1
-  4. REVIVE x15
+  4. REVIVE x14
   5. FULL HEAL x6
   6. MAX REVIVE x1
 
@@ -218,8 +218,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
-  - Status: Fainted
-  - HP: 0 / 222
+  - Status: Healthy
+  - HP: 111 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3973,6 +3973,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24966: Rocky Lv 8 sent out as pivot. Battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu to select Max Revive/Revive for Sheldon.
 - Turn 24967: Bag menu open with cursor on FULL RESTORE x11. Navigating Down x2 to REVIVE x15 and pressing A to open party screen to revive Sheldon.
 - Turn 24968: Party screen open with cursor on Rocky. Pressing Up to target Sheldon (Slot 1, FNT 0/222) and A to apply Revive and restore Sheldon to 111/222 HP.
+- Turn 24969: Sheldon revitalized to 111/222 HP via Revive (14 Revives remaining). Pressing B x5 to dismiss message, weather Venusaur's turn against Rocky, and send Sheldon back in to finish the battle.
 
 <hr>
 
