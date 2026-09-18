@@ -144,6 +144,7 @@
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
+- [x] Arrive at Indigo Plateau and enter Pok�mon League Headquarters [Turn 24505]
 - [x] Enter Victory Road 1F from Route 23 [Turn 15359]
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
 - [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 16426]
@@ -4033,6 +4034,31 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 - Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
+
+
+<hr>
+
+<h1><code>Locations/Kanto_IndigoPlateau</code></h1>
+
+# Indigo Plateau (Pok�mon League Headquarters)
+
+## Overview & Geography
+- Arrived at Indigo Plateau [Turn 24505] via Route 23 North and entered the Pok�mon League Headquarters!
+- Entrance doormat: Located at (7..8, 11) inside lobby.
+- South: Exit doors at (7..8, 11) leading out to Route 23 / Indigo Plateau exterior.
+
+## Services & Points of Interest
+- Pok�mon Center Counter / Nurse Joy: Location TBD (setting warp anchor is mandatory).
+- PC Terminal: Location TBD (inventory cleanup / deposit items).
+- Pok� Mart Counter: Location TBD (stock up on Full Restores, Revives, Max Potions with �134,927).
+- Elite Four Entrance: Guarded passage leading to Lorelei (Elite Four Member 1).
+
+## Elite Four Lineup (Gen 1 Retail)
+1. Lorelei (Ice/Water): Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
+2. Bruno (Fighting/Rock): Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
+3. Agatha (Ghost/Poison): Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60.
+4. Lance (Dragon/Flying): Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
+5. Champion RED: Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Exeggutor Lv 63, Gyarados Lv 61, Venusaur Lv 65.
 
 
 <hr>
