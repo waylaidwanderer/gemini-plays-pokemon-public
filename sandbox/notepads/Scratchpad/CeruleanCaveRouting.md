@@ -47,3 +47,7 @@
 - 1F (20, 6) is solid rock collision.
 - 2F Row 16 has solid rock barriers at (12, 16), (14..19, 16).
 - Current physical position: 2F (18, 11). Testing step-by-step connections.
+## 2F Central Bypass Verified (Turn 53583)
+- From (17, 11), walk Left to (14, 11) -> Down to (14, 12) -> Left to (13, 12) -> Left to (12, 12).
+- Up Column 12: (12, 11) -> (12, 10) -> (12, 9).
+- From (12, 9), Row 9 continues straight west to (3, 9) -> Ladder A at (1, 3) to B1F Mewtwo!
