@@ -1,1 +1,2 @@
 - Turn 24949: Party menu open with cursor on Sheldon (46/222 HP). Pressing A to apply Full Restore (12 remaining) and restore Sheldon to full 222/222 HP against Venusaur Lv 65.
+- Turn 24950: Full Restore applied! Sheldon HP recovered by 176 to full 222/222 HP (12 Full Restores remaining). Pressing B x5 to dismiss message, weather Venusaur's move, and reach main battle menu.
