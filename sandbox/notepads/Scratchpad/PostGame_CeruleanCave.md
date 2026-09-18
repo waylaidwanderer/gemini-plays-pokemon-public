@@ -19,3 +19,4 @@
 - Turn 25023: Withdrawing Bicycle reset PC list back to Item 1 (TM34). Scrolling Down x5 toward Master Ball.
 - Turn 25024: Cursor reached S.S. TICKET (Item 6). Continuing to scroll Down x5 toward Master Ball.
 - Turn 25025: Cursor reached OLD ROD (Item 11). Continuing to scroll Down x5 toward Master Ball.
+- Turn 25026: Cursor reached LIFT KEY (Item 16). Continuing to scroll Down x5 toward Master Ball.
