@@ -37,3 +37,4 @@
 - Turn 25155: Player at (17, 47) on Bicycle facing North. Riding Up x4 along col 17 to (17, 43), then Right to (18, 43) into eastern cross-corridor.
 - Turn 25157: Player at (18, 43) on Bicycle facing East. Riding Right x5 along row 43 cross-corridor to (23, 43) toward Eastern Avenue.
 - Turn 25159: Player at (23, 43) on Bicycle facing East. Riding Right x3 to (26, 43) Eastern Avenue, then Up x2 along col 26 to (26, 41).
+- Turn 25163: Player at (26, 41) on Bicycle facing North. Riding Up x6 along col 26 Eastern Avenue to (26, 35).
