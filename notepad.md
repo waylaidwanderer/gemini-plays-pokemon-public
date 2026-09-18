@@ -4189,5 +4189,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25483: Player reached (8, 13) on Northern District Street. Visual confirmation: Cerulean Cave entrance at (4, 11) is OPEN and the guard at (4, 12) has departed! Riding east along row 13 toward col 20 to access Route 24 river.
 - Turn 25484: Player at (15, 13) on Bicycle facing East. Turning north at col 20 avenue toward Route 24.
 - Turn 25485: Player reached (20, 9) on Bicycle facing North on Route 24 Avenue. Riding north along col 20 toward Route 24 to Surf into Cerulean Cave.
+- Turn 25486: Player reached (20, 1) at northern boundary of Cerulean City. Crossing into Route 24.
 
 <hr>
