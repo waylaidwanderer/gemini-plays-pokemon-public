@@ -48,3 +48,4 @@
 - Turn 25250: Player at (8, 25) facing West in Western Passage. Walking Left x3 to (5, 25), then Up x6 along col 5 toward ladder (5, 5).
 - Turn 25251: Player at (5, 20) in southwest pocket. Rows 18-19 solid wall confirmed. Returning south to (5, 25) and east toward Main Cavern Junction.
 - Turn 25253: Wild Zubat encountered at (5, 21) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
+- Turn 25253: Wild Zubat Lv 10 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
