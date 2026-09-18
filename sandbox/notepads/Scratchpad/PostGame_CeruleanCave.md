@@ -25,10 +25,10 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Staircase at (1, 13) on foot.
-- Empirical Physical Discovery: Staircase (1, 13) successfully ascended. Cave ladder sprite visually confirmed at (3, 11) on western elevated terrace.
-- Routing Plan: Step Up onto terrace at (1, 12), walk east along Row 12 to Column 3, and step onto Ladder (3, 11) to determine floor destination.
-- Next Step: Step Up to (1, 12), Right x2 to (3, 12), and Up onto Ladder (3, 11).
+- Current Location: Cerulean Cave 2F Western Pocket at (3, 11) on foot.
+- Empirical Physical Discovery: Ladder (3, 11) leads from 1F western terrace to 2F Western Pocket! Sighted Item Ball on ground at (4, 15).
+- Routing Plan: Survey Western Pocket corridors {(3, 11), (2, 11), (2, 10), (3, 10), (3, 9)} to check for passable tiles or branches, and locate passage toward Row 7 and Ladder (1, 3).
+- Next Step: Step Up x2 to (3, 9) to survey northern boundary.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -36,3 +36,4 @@
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
+| (3, 11) | (3, 11) | CONFIRMED 2-WAY | 1F western terrace to 2F western secluded pocket |

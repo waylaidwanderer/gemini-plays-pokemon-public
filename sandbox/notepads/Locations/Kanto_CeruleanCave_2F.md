@@ -5,8 +5,10 @@
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
+- Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Western Pocket (Cols 2..3, Rows 9..11): Secluded corridor pocket enclosing Ladder (3, 11). Visually overlooks an Item Ball at (4, 15) behind rock barrier. [Physically verified Turn 25867]
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
