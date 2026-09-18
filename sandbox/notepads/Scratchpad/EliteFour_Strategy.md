@@ -12,3 +12,4 @@
 - Turn 24964: Sheldon fainted to critical Solarbeam. Venusaur at ~25% HP. Executing Pivot Revive Strategy: advancing text with B x3 to send in pivot, then using Max Revive on Sheldon to return at full HP and win.
 - Turn 24966: Rocky Lv 8 sent out as pivot. Battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu to select Max Revive/Revive for Sheldon.
 - Turn 24967: Bag menu open with cursor on FULL RESTORE x11. Navigating Down x2 to REVIVE x15 and pressing A to open party screen to revive Sheldon.
+- Turn 24968: Party screen open with cursor on Rocky. Pressing Up to target Sheldon (Slot 1, FNT 0/222) and A to apply Revive and restore Sheldon to 111/222 HP.
