@@ -2,7 +2,6 @@
 
 ## Current Verified State [Turn 24091]:
 - 1F Master Clear Complete: Boulder 1 pushed onto Switch Plate (17, 13), Barrier (9, 12) lowered, Cooltrainer Female defeated, ascended ladder (1, 1) to 2F.
-- Player is on Victory Road 2F at (3, 14) in southwest lower corridor.
 - Boulder 3 pushed onto Switch Plate A at (1, 16) [Turn 24093]! Switch Plate A is depressed and Plateau Barrier at (7, 8)-(7, 9) is lowered.
 - Depressing Switch Plate A lowers Plateau Barrier at (7, 8)-(7, 9), unlocking passage to eastern plateau, Column 16 Highway, Row 1, and Northwest ladder (1, 1).
 
@@ -18,7 +17,6 @@
    - Walk east across lowered barrier (7, 8)-(7, 9) onto eastern plateau.
    - Walk east and north past Moltres (11, 5) to Column 16 Highway.
    - Ascend Column 16 Highway north to Row 1 Northern Highway.
-   - Walk west along Row 1 through Column 8 corridor into Northwest Chamber.
    - Ascend Northwest ladder at (1, 1) to Victory Road 3F (2, 0).
 4. Victory Road 3F:
    - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
