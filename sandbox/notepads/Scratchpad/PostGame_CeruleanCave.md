@@ -25,9 +25,9 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (13, 9) on foot.
+- Current Location: Cerulean Cave 2F at (8, 9) in wild battle with Wigglytuff.
 - Strategic Pivot (Overwatch Audit): Terminating backtracking toward exhausted central/eastern 2F network. Pivoting route back west to thoroughly explore unvisited western sector (Columns 1..8, Rows 7..15) and retrieve Item Ball at (4, 15).
-- Next Step: Step Left x5 along Row 9 corridor to (8, 9) en route to Column 5 and Item Ball (4, 15).
+- Next Step: Advance dialogue with B, select RUN to escape, then step Left x3 along Row 9 to (5, 9).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
