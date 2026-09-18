@@ -3,7 +3,7 @@
 ## Current Verified State [Turn 24091]:
 - 1F Master Clear Complete: Boulder 1 pushed onto Switch Plate (17, 13), Barrier (9, 12) lowered, Cooltrainer Female defeated, ascended ladder (1, 1) to 2F.
 - Player is on Victory Road 2F at (3, 14) in southwest lower corridor.
-- Boulder 3 pushed to (3, 16). Currently executing final westward push onto Switch Plate A at (1, 16).
+- Boulder 3 pushed onto Switch Plate A at (1, 16) [Turn 24093]! Switch Plate A is depressed and Plateau Barrier at (7, 8)-(7, 9) is lowered.
 - Depressing Switch Plate A lowers Plateau Barrier at (7, 8)-(7, 9), unlocking passage to eastern plateau, Column 16 Highway, Row 1, and Northwest ladder (1, 1).
 
 ## Execution Blueprint & Active Hypotheses:
