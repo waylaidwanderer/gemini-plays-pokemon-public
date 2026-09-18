@@ -2899,5 +2899,8 @@
   4. Climb SW Ladder (3, 11) to 2F SW Sector.
   5. On 2F, walk north along Column 0/1 to Ladder A (1, 3).
   6. Descend Ladder A into B1F Mewtwo's Chamber!
+## Row 9 Bypass Route Verified (Turn 53520)
+- The rock at (14, 9) blocking Row 9 is bypassed via: (18, 11) -> Up to (18, 9) -> West to (15, 9) -> Up to (15, 8) -> West to (13, 8) -> Down to (13, 9).
+- From (13, 9), Row 9 continues straight west across cols 13..3 into the Southwest Sector towards Ladder A at (1, 3) leading to B1F Mewtwo!
 
 <hr>
