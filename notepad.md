@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 66, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥129917 [Turn 16571]
+- Money: ¥137972 [Turn 24622]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -3796,7 +3796,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Cooltrainer ♂ at (3, 3) [Defeated Turn 15531; Team: Ivysaur Lv 42, Wartortle Lv 42, Charmeleon Lv 42, Charizard Lv 42; Prize: ¥1470].
 
 ## Items
-- Items: TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
 
 ## Wild Encounters
 - Onix (observed Turn 15367).
@@ -3866,7 +3865,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East into (29, 7) exits Victory Road onto Route 23 North at (14, 31) [Empirically verified Turn 24494].
 
 
 <hr>
@@ -3944,7 +3942,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pok�mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pok�mon League.
 - PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby. Functional terminal accessed from (15, 8) facing North.
 - Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells supplies [Inventory pending in-game verification]. Accessed from (13, 7) facing North.
-- Elite Four Entrance: Doorway leading to the first Elite Four chamber (Lorelei).
+- Elite Four Passage: Northern doorway / passage [Exact coordinates, guard, and sequence pending visual exploration].
 
 
 <hr>
