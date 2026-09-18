@@ -48,7 +48,7 @@
   - [x] TM14 (BLIZZARD) [Turn 24557]
   - [x] TM22 (SOLARBEAM) [Turn 24561]
   - [x] SECRET KEY [Turn 24565]
-  - [ ] TM38 (FIRE BLAST)
+  - [x] TM38 (FIRE BLAST) [Turn 24569]
   - [ ] TM27 (FISSURE)
   - [ ] TM43 (SKY ATTACK)
   - [ ] TM17 (SUBMISSION)
