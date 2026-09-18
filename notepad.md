@@ -3992,7 +3992,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 15: Lorelei burned her 2nd Super Potion on Slowbro! Slowbro restored ~50 HP (to ~30% HP), still paralyzed.
 - Turn 16: Double-Edge hit Slowbro down to ~5% HP (Sheldon took 3 recoil down to 115/213 HP). Slowbro used Growl (Sheldon at -4 Attack).
 - Turn 17: Double-Edge hit Slowbro down to ~8 HP (Sheldon took 3 recoil down to 112/213 HP). Slowbro used Amnesia (+2 Special).
-- Turn 18: Double-Edge hit Slowbro down to ~3 HP (Sheldon took 3 recoil down to 109/213 HP). Slowbro paralyzed with ~3 HP. Advancing battle text to return to battle menu.
+- Turn 18: Double-Edge hit Slowbro down to ~3 HP (Sheldon took 3 recoil down to 109/213 HP). Slowbro used Amnesia again.
+- Turn 19: Battle menu open on FIGHT. Slowbro at ~3 HP and paralyzed. Executing Double-Edge to deliver final blow.
 
 <hr>
 
