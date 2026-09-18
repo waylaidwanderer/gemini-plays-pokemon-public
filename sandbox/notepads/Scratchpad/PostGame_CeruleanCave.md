@@ -33,3 +33,4 @@
 - Turn 25055: Cursor confirmed on BICYCLE in Bag menu. Pressing A x2 to USE, B x2 to dismiss text and close to overworld.
 - Turn 25058: Mounted on Bicycle at (5, 6). Riding Right x5 along row 6 to (10, 6).
 - Turn 25059: Player at (10, 6) on Bicycle. Riding Up x5 along column 10 to (10, 1) toward Route 1.
+- Turn 25061: Player at (10, 1) on Bicycle facing North. Pressing Up x2 to enter Route 1 at (10, 35).
