@@ -29,9 +29,9 @@
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 14) surfing facing East.
-- Active Navigation: Stepping Up x2 onto Staircase (11, 13) to land ashore on foot at (11, 12).
-- Objective: Traverse central-western elevated terrace east across rows 12..9 to reach Ladder (18, 9).
+- Current Location: Cerulean Cave 1F Central-Western Land Terrace at (11, 12) on foot facing North.
+- Active Navigation: Walking North up Column 11 (11, 11..9) and East along Row 9 (12..13, 9) toward Ladder (18, 9).
+- Objective: Reach and ascend Ladder (18, 9) to access 2F secluded northwest sector and locate B1F Mewtwo route.
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.

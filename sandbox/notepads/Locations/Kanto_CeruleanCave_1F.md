@@ -10,6 +10,7 @@
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
 - Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
+- Central-Western Elevated Land Terrace (Cols 11..18, Rows 8..13): Elevated plateau accessed via Staircase (11, 13). Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12)]
 - Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..13). [Visually confirmed Turn 25637]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7. At (8..9, 6..7), turns south down Columns 8..9 into a vertical water highway heading toward the southern cavern. [Physically verified]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (15, 4). At (15, 4), connects north to Staircase (15, 3) and south down Column 15.
