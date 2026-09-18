@@ -39,3 +39,4 @@
 - Turn 25159: Player at (23, 43) on Bicycle facing East. Riding Right x3 to (26, 43) Eastern Avenue, then Up x2 along col 26 to (26, 41).
 - Turn 25163: Player at (26, 41) on Bicycle facing North. Riding Up x6 along col 26 Eastern Avenue to (26, 35).
 - Turn 25164: Player at (26, 35) on Bicycle facing North. Riding Up x3 to (26, 32), then Right x5 along row 32 to (31, 32) in Eastern Perimeter Corridor.
+- Turn 25165: Player at (31, 32) on Bicycle facing East. Riding Up x8 along col 31 Eastern Perimeter Corridor toward (31, 24).
