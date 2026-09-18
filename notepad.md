@@ -4166,10 +4166,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Column 1 Lower Corridor at (1, 16) on foot.
-- Empirical Physical Discovery: Row 17 corridor successfully traversed west to Column 1. Wooden staircase sprite visually confirmed at (1, 13).
-- Routing Plan: Step north up Column 1 through (1, 15..14) and step onto Staircase (1, 13) to empirically test its passability and discover where it leads.
-- Next Step: Step Up x2 through (1, 15..14), then step Up onto Staircase (1, 13).
+- Current Location: Cerulean Cave 1F Staircase at (1, 13) on foot.
+- Empirical Physical Discovery: Staircase (1, 13) successfully ascended. Cave ladder sprite visually confirmed at (3, 11) on western elevated terrace.
+- Routing Plan: Step Up onto terrace at (1, 12), walk east along Row 12 to Column 3, and step onto Ladder (3, 11) to determine floor destination.
+- Next Step: Step Up to (1, 12), Right x2 to (3, 12), and Up onto Ladder (3, 11).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4212,7 +4212,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
 - Southwest Lower Corridor (Cols 11..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open horizontal thoroughfare extending west past Column 11 toward the southwest corner. [Physically verified Turn 25847]
-- Staircase (1, 13): Wooden staircase located at (1, 13) at the western end of the lower corridor. [Visually confirmed sprite presence at (1, 13), passability and destination terrain unverified]
+- Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
+- Ladder (3, 11): Cave ladder located at (3, 11) on western elevated terrace. [Visually confirmed Turn 25864, destination unverified]
 
 ## Wild Pok�mon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
