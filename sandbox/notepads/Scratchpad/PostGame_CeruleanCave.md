@@ -50,3 +50,4 @@
 - Turn 25091: Player at (15, 14) facing North. Navigating Right to (16, 14) tall grass, then Up x4 along col 16 past clerk to (16, 10) dirt path.
 - Turn 25093: Wild Pidgey battle active at (15, 14). Pressing B x3 to advance intro text safely to the main battle menu.
 - Turn 25094: Battle menu confirmed on FIGHT vs Pidgey. Pressing Down, Right, A, B to select RUN and escape to overworld.
+- Turn 25096: Player at (15, 14) on Bicycle facing North. Riding Right to (16, 14), then Up x4 along col 16 to (16, 10) dirt path.
