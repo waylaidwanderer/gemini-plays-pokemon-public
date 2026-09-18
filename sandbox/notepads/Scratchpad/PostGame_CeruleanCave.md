@@ -42,7 +42,7 @@
   - Climb onto Central-Western Terrace (17, 14), navigate west along Row 14/13 to Staircase (11, 13).
   - Descend Staircase (11, 13) directly into subterranean lake at (11, 14).
   - Launch HM03 SURF with Blastoise (SHELDON).
-  - Navigate northwest subterranean waterways of 1F to discover the descent to B1F and encounter Legendary Pokémon Mewtwo.
+  - Navigate northwest subterranean waterways of 1F to discover the descent to B1F and encounter Legendary Pokï¿½mon Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
