@@ -4178,11 +4178,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - 2F southwest corridors dead-end completely. Central/eastern 2F is also exhausted.
   - Hypothesis (Unverified): Candidate Ladder (1, 3) sighted from afar on Turn 25702 is hypothesized to lead to the isolated northwest of 1F or B1F. However, ground access on 2F is blocked by barriers.
   - Actionable Route: Backtrack through Column 13 bypass to Column 12, ascend to Row 9 at (12, 9), traverse west along Row 9 to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
-- Current Location: Cerulean Cave 1F at (5, 16) on foot.
-- Physical Traversal Milestone [Turn 26064]:
-  - Traversed (1, 14) -> (1, 16) -> (5, 16) along lower corridor.
-  - (7, 16) is a rock wall; Row 17 (Cols 2..17, 17) is the open continuous southern thoroughfare.
-- Active Plan: Step Down to (5, 17) and march east along Row 17 through (6..17, 17) to Staircase (17, 15) to climb onto the central-western terrace and access lake at (11, 13).
+- Current Location: Cerulean Cave 1F at (10, 17) on foot.
+- Physical Traversal Milestone [Turn 26066]:
+  - Traversed (5, 16) -> (5, 17) -> (10, 17) along Row 17 southern thoroughfare.
+- Active Plan: March east along Row 17 through (11..16, 17) toward Staircase (17, 15) to climb onto the central-western terrace and access the lake at (11, 13).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
