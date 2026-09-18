@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Northern Terrace at (23, 2) facing West.
-- Active Navigation: Stepping Down onto Staircase (23, 3) and executing SURF with Sheldon into subterranean lake at (23, 4).
-- Objective: Launch Surf, collect Ground Item at (19, 3), and explore subterranean waterways toward B1F/Mewtwo.
+- Current Location: Cerulean Cave 1F Staircase at (23, 3) facing South.
+- Active Navigation: Launching Surf with Sheldon onto water at (23, 4), then surfing West along row 4 to retrieve Ground Item at (19, 3).
+- Objective: Retrieve Ground Item at (19, 3) and scout subterranean waterways toward B1F/Mewtwo.
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); visually confirmed Ground Item at (19, 3) on lake ledge.
