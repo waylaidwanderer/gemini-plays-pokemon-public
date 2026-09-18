@@ -1,10 +1,10 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24151]:
-- Plateau Barrier (7, 8)-(7, 9) lowered via Switch Plate A (1, 16).
-- Boulder 1 at (5, 3) blocks doorway (5, 4) against rock wall (5, 2).
-- Row 8 cliff and Column 14 wall confirmed continuous.
-- Taking ladder (0, 8) to 1F and back will reset Boulder 1.
+## Current Verified State [Turn 24184]:
+- Floor reset via ladder (0, 8): Boulder 1 is at (5, 5), Boulder 3 is at (4, 14).
+- Switch Plate A at (1, 16) is unpressed; Plateau Barrier at (7, 8)-(7, 9) is currently RAISED.
+- Strength is active (cast by Rocky Turn 24160).
+- Northwest Chamber entrance at (5, 4): (4, 4) and (6, 4) are rock walls; pushing Boulder 1 north into (5, 3) blocks (5, 4) against rock wall (5, 2). Access to Ladder (1, 1) is via Northern Highway (Rows 0-1) from eastern sector.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
