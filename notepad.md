@@ -4151,5 +4151,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25339: Player at (16, 16) on foot facing East. Ladder (21, 17) visually confirmed on screen. Walking Right x5 to (21, 16) directly above ladder.
 - Turn 25341: Arrived at (21, 16) directly above Ladder (21, 17). Stepping Down onto ladder to descend to B2F Main Cavern.
 - Turn 25344: Arrived on Mt. Moon B2F Main Cavern at (21, 17) facing South. Walking Up x3 to (21, 14) and Right x3 along Central Cross Corridor toward Eastern Cavern Highway.
+- Turn 25347: Player at (24, 14) on foot facing East. Central Cross Corridor dead-ends at col 29 rock wall. Walking Right x2 to (26, 14) and hopping south over ledge (26, 15) into Southern Cavern Corridor at (26, 16).
 
 <hr>
