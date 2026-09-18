@@ -4118,5 +4118,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25268: Clefairy OHKO'd by Sheldon's Double-Edge. Pressing B x8 to clear fainting, EXP, and prize money text.
 - Turn 25269: Defeated Lass (won ¥210). Player at (16, 25) in overworld. Walking Right x8 along row 25 into Eastern Avenue at (24, 25).
 - Turn 25271: Player at (21, 25) on foot facing East. Walking Down to (21, 26), Right x4 to (25, 26), and Up x5 along Eastern Avenue to (25, 21).
+- Turn 25272: Player at (21, 19) on foot facing North in Eastern Avenue corridor. Walking Up x9 along col 21 toward row 10 cross-corridor at (21, 10).
 
 <hr>
