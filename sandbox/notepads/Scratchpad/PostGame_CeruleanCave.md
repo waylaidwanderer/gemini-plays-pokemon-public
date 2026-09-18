@@ -39,3 +39,4 @@
 - Turn 25236: Player at (42, 5) on Bicycle facing East. Riding Right x7 along row 5 Far Eastern Highway to (49, 5) above mountain spur ramp.
 - Turn 25237: Player at (49, 5) on Bicycle. Riding Down x5 via ramp (49, 7) to row 10 southern bypass, then Right x5 to (54, 10) past mountain spur.
 - Turn 25238: Player at (54, 10) on Bicycle. Riding Right x3 to (57, 10), Up x2 to (57, 8), Right x2 to (59, 8), and Up x2 via ramp (59, 7) to elevated terrace at (59, 6).
+- Turn 25239: Player at (60, 8) on Bicycle facing North. Riding Left to (59, 8), Up x2 via ramp (59, 7) to (59, 6), Left x2 to (57, 6), and Up x5 along Northern Highway toward Route 4.
