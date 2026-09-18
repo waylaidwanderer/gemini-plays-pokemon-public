@@ -9,4 +9,5 @@
 
 ## Champion
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
-- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated), Venusaur Lv 65 (Active). Complete Champion roster verified!
+- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated), Venusaur Lv 65 (Defeated).
+- Outcome: DEFEATED! BLUE defeated Champion RED on Turn 24981. Sheldon Lv 70 victorious at 198/222 HP.
