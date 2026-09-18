@@ -4175,9 +4175,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Objective: Ascend Staircase (15, 3) onto northwest terrace to search for the descending ladder to B1F (Mewtwo).
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
-- Turn 25609: Arrived at (23, 2) above Staircase (23, 3); visually confirmed Ground Item at (19, 3) on lake ledge.
+- Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
 
-- Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
+
+
+## Cerulean Cave Multi-Floor Ladder Topology
+| 1F Coordinate | 2F Coordinate | Verified Status | Notes |
+|:---:|:---:|:---:|:---|
+| (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
+| (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
+| (18, 9) | ? | UNVERIFIED SIGHTING | Western 1F passage |
+| ? | (19, 7) | UNVERIFIED SIGHTING | 2F northwest secluded pocket |
+| B1F Ladder (?) | ? | TARGET (MEWTWO) | Search ongoing via 1F subterranean waterways |
 
 
 <hr>
@@ -4203,10 +4212,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
-- Ladder (18, 9): Ascending cave ladder located at (18, 9) in western passage. Accessible via col 18 corridor.
+- Ladder (18, 9): Ascending cave ladder sighted at (18, 9) in western passage [Unverified sighting from afar].
 - Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (22, 6).
-- Staircase (17, 15): Wooden staircase at (17, 15) ascending west to upper elevation.
-- Staircase (25, 9): Wooden staircase at (25, 9) situated adjacent to the subterranean lake.
+- Staircase (17, 15): Wooden staircase sighted at (17, 15) ascending west to upper elevation [Unverified sighting from afar].
+- Staircase (25, 9): Wooden staircase sighted at (25, 9) situated adjacent to the subterranean lake [Unverified sighting from afar].
 
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
@@ -4243,7 +4252,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 26 Corridor (Col 26, Rows 9..14): 1-tile wide vertical corridor running north from Row 14 at (26, 14) to (26, 9). Bounded by solid rock walls at Col 25 (west) and Col 27 (east). At (26, 9), turns west to (25, 9) to access the northern network.
 - Column 27/28 Southeast Corridor: From (27, 17), leads north to (27, 16) where (27, 15) is blocked by rock wall. Steps east to (28, 16) and runs north along Column 28 through (28, 15) to (28, 14). [Physically verified (27, 17..16)]
 - Row 14 East-West Branch: At (28, 14), connects west to (27, 14) and (26, 14), and east to (29, 14). [Visually verified]
-- Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Ground Item at (29, 9). [Visually verified]
+- Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Alcove (29, 9). [Physically verified]
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Sighted Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Sighted Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7). Physical route to this pocket remains to be explored.
 
