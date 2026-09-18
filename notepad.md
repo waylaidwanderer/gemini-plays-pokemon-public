@@ -3975,6 +3975,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sheldon Lv 70 survived standing tall at 198/222 HP!
 - BLUE is the new POKÉMON LEAGUE CHAMPION!
 
+- Turn 24983: Prize money received: ¥6435 (New total: ¥107771). Battle ended! Overworld cutscene in Champion's Room: RED acknowledging defeat ("You're the new POKéMON LEAGUE champion!"). Advancing dialogue with B x5 for Professor Oak's entrance.
 
 <hr>
 
