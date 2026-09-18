@@ -4195,6 +4195,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.- Turn 25517: Arrived at (21, 12) facing North. Visually identified Ladder (18, 9), Staircase (21, 11), Staircase (17, 15), and Staircase (25, 9). Ascending (21, 11) to scout elevated terrace.
 - Turn 25522: Ascended Ladder (23, 7) on 1F and arrived on Cerulean Cave 2F at (22, 6) facing North. Ladder (19, 7) confirmed to connect to 1F (23, 7). Scouting 2F northern corridor along col 22.
+- Turn 25526: Verified (22, 5) is solid rock wall. (22, 6) only exits South to (22, 7), which connects east to Column 23 corridor running south.
 
 
 <hr>
@@ -4230,14 +4231,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives at (22, 6).
+- Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (23, 7).
 
 ## Layout & Corridors
-- Arrival Corridor (Col 22, Rows 2..7): 1-tile wide north-south corridor between col 21 rock wall and col 23 rock wall.
-- Row 5 Crossover (Cols 19..22, Row 5): East-west open passage connecting col 22 corridor west to ladder (19, 7).
-- Ladder Pocket (Cols 18..20, Rows 5..7): Open floor area enclosing Ladder (19, 7).
-- Northern Cross Corridor (Row 2, Cols 18..24): East-west open passage across row 2 connecting northern corridor ends.
-- Southward Branch (Col 23, Rows 7..10+): North-south open corridor running south past row 7 east of col 22.
+- Spawn Alcove (22, 6): Player arrives at (22, 6) facing North. Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7).
+- Tile (22, 7): Open floor connecting east to (23, 7).
+- Column 23 Corridor (Col 23, Rows 7..10+): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south toward the southern sector of 2F.
+- Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from spawn alcove by rock walls at (20..21, 7).
 
 
 <hr>
