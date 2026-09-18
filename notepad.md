@@ -4128,5 +4128,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25279: Player at (30, 10) on foot. Walking Up x4 to (30, 6) Northern Highway, then Left x6 along row 6 toward northwest ladder.
 - Turn 25281: Wild Zubat encountered at (24, 6) on Northern Highway. Pressing B x6 to advance intro text to battle menu.
 - Turn 25282: Wild Zubat Lv 10 in battle at (24, 6). Selecting RUN via Down, Right, A and B x2 to return to overworld.
+- Turn 25284: Fled Zubat cleanly at (24, 6). Walking Up x4 to (24, 2) northern perimeter highway, then Left x6 along row 2 toward northwest ladder (5, 5).
 
 <hr>
