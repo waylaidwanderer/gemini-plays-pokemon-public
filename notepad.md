@@ -223,8 +223,8 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Healthy [Healed Turn 15136 at Viridian Center]
-  - HP: 26 / 26
+  - Status: Fainted
+  - HP: 0 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
@@ -3974,6 +3974,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24967: Bag menu open with cursor on FULL RESTORE x11. Navigating Down x2 to REVIVE x15 and pressing A to open party screen to revive Sheldon.
 - Turn 24968: Party screen open with cursor on Rocky. Pressing Up to target Sheldon (Slot 1, FNT 0/222) and A to apply Revive and restore Sheldon to 111/222 HP.
 - Turn 24969: Sheldon revitalized to 111/222 HP via Revive (14 Revives remaining). Pressing B x5 to dismiss message, weather Venusaur's turn against Rocky, and send Sheldon back in to finish the battle.
+- Turn 24970: Rocky fainted to Razor Leaf after successfully giving us the pivot turn to revive Sheldon. Advancing fainting text with B x3 to reach the party selection screen and bring Sheldon (111/222 HP) in for the championship victory.
+- Turn 24971: Party replacement screen open with cursor locked on Sheldon (Slot 1, 111/222 HP). Pressing A to send Sheldon out, then B x2 to reach the main battle menu facing Venusaur.
 
 <hr>
 
