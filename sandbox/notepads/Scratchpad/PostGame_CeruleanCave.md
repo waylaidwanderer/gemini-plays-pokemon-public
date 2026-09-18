@@ -69,3 +69,4 @@
 - Turn 25211: Bag menu open with cursor on Item 1 (POKé FLUTE). Scrolling Down x6 to select BICYCLE.
 - Turn 25212: Cursor confirmed on BICYCLE in Bag menu. Pressing A x2 to USE, then B x2 to dismiss text and return to overworld mounted on Bicycle.
 - Turn 25215: Mounted on Bicycle at (3, 11) facing North. Riding Up x2 to (3, 9) paved avenue, then Right x6 toward Pewter City entrance at (9, 9).
+- Turn 25217: Player at (9, 9) on Bicycle facing East. Sighted Diglett's Cave at (12, 9). Riding Up x8 along col 9 northbound avenue toward Pewter City.
