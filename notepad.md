@@ -4188,6 +4188,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | B1F Ladder (?) | ? | TARGET (MEWTWO) | Search ongoing via 1F subterranean waterways |
 
 - Turn 25661: Encountered wild Ditto at (18, 3). Fleeing battle to resume navigating northern corridor toward (18, 1).
+- Turn 25667: Encountered wild Dodrio at (16, 1). Fleeing battle to resume navigating Row 1 west toward (15, 1).
 
 
 <hr>
