@@ -4102,7 +4102,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Route 4 west and entered Mt. Moon 1F at (18, 5) [Turns 25242-25244]
 
 ## Active Route & Next Steps
-- Current Location: Mt. Moon 1F at (12, 25) on foot facing East.
+- Current Location: Mt. Moon 1F at (10, 12) on foot facing North (in battle with wild Zubat Lv 10).
 - Main Cavern Junction to Eastern Avenue: Walk east along rows 25..27 past column 16 to Eastern Avenue at columns 24..27.
 - Eastern Avenue to Northern Highway: Walk north along Eastern Avenue (cols 24..27) from row 27 to row 10, then through col 30 passage to Northern Highway (rows 6..7).
 - Northern Highway to Ladder (5, 5): Walk west along rows 6..7 across to the northwest corner at (5, 5).
