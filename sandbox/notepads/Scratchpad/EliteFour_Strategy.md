@@ -44,7 +44,7 @@
   - [x] SUPER ROD [Turn 24532]
   - [x] MASTER BALL [Turn 24537]
   - [x] MOON STONE [Turn 24545]
-  - [ ] ESCAPE ROPE
+  - [x] ESCAPE ROPE [Turn 24548]
   - [ ] TM14 (BLIZZARD)
   - [ ] TM22 (SOLARBEAM)
   - [ ] SECRET KEY
