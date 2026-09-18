@@ -143,6 +143,7 @@
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
+- [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
 - [x] Enter Victory Road 1F from Route 23 [Turn 15359]
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
 - [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 16426]
@@ -3783,6 +3784,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier at Row 43 (Cols 8..17): Empirically verified Turn 15351 that (12, 43) is solid barrier wall; entire row 43 across cols 9-17 is impassable. Wall terminates at col 8 pillar/statue. Bypass route: backtrack south to row 48 lawn, then proceed west to cols 4..8.
 - Western Corridor (Cols 6..7, Rows 48..36): Open 2-tile wide lawn avenue running north along cols 6-7, completely bypassing the row 41-43 barrier (which lies east at cols 8-17). Wide open lawn extends across cols 3..7 through row 36, passing west of statue at (8, 37).
 - Signpost at (9, 115): Attached to pillar at (9, 115) facing South. Reads: "The ultimate goal of trainers! POKéMON LEAGUE HQ" [Read Turns 23908-23909].
+## Northern Sector & Victory Road Exit [Turn 24494]
+- Victory Road Exit Doorway: Located at (14, 31). Player emerges at (14, 32) facing South.
+- Route 23 North Corridor: Columns 14-19 between water at west (cols 10-12) and hedges/lawn at east. Connects north toward Indigo Plateau entrance.
+
 
 <hr>
 
@@ -3828,16 +3833,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24481]:
-- Plateau Barrier on 2F at (7, 8)-(7, 9) is permanently lowered by Boulder 3 on Switch Plate A (1, 16).
-- Switch Plate B at (9, 16) on 2F is depressed by the fallen boulder from 3F (23, 15).
-- Exit Barrier at (23, 14) on 2F was lowered, revealing the plateau ladder that ascended to 3F at (27, 15).
-- On 3F: Eastern sector consists of Columns 25-28 (rows 7-15).
-- Ladder at (26, 8) on 3F connects two-way to 2F Northeast Ladder at (27, 7) [Empirically verified Turns 24464, 24473].
-- Boulder 2 is located at (24, 10), positioned between Columns 22-23 and Column 25.
-- Another Boulder is sighted at (22, 3) in the northern corridor.
-- Player is currently on 3F at (26, 7) facing North.
-- Immediate task: Position east of Boulder 2 at (25, 10), activate Strength if needed, and push Boulder 2 to explore the western corridor (Cols 22-23) and northern area toward (22, 3).
+## VICTORY ROAD COMPLETED! [Turn 24494]
+- Victory Road 1F, 2F, and 3F are 100% cleared!
+- Exit Doorway: Located on 2F at (29, 7) in the eastern chamber.
+- Emerged onto Route 23 North at (14, 31) / (14, 32).
+- Immediate Destination: Walk North on Route 23 to INDIGO PLATEAU!
 
 
 <hr>
@@ -3946,6 +3946,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+- Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East into (29, 7) exits Victory Road onto Route 23 North at (14, 31) [Empirically verified Turn 24494].
+
 
 <hr>
 
