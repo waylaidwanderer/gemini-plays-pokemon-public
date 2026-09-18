@@ -1,8 +1,7 @@
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (9, 1): Descending cave ladder located at (9, 1). Reached via Row 3 corridor to (3, 3), north to (3, 1), and east along Row 1 runway (3..8, 1). [Physically verified pathway Turn 25703]
-- Ladder (1, 3): Sighted cave ladder at (1, 3) in far northwest corner pocket. Separated from Column 3 by solid rock wall at Column 2. [Visually confirmed Turn 25702]
+- Ladder (1, 3): Sighted descending cave ladder at (1, 3) in far northwest corner pocket. [Visually confirmed Turn 25702]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]

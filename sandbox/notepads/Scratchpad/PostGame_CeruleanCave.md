@@ -16,7 +16,6 @@
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
 ## Completed Milestones
-- [x] Discovered deep northwest Ladder (9, 1) on Cerulean Cave 2F [Turn 25677]
 - [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
 - [x] Overworld Overland Transit: Pallet Town -> Viridian City -> Viridian Forest -> Pewter City -> Route 3 -> Mt. Moon [Turns 25055-25245]
 - [x] Mt. Moon Underground Transit: Traversed 1F, B1F, B2F via breakthrough passage, emerged Route 4 East [Turns 25262-25417]
@@ -31,8 +30,6 @@
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F Northwest Sector at (3, 1) on foot facing North.
-- Active Navigation: Walking Right x6 along Row 1 from (3, 1) directly onto Ladder (9, 1) to descend.
-- Objective: Reach and descend Ladder (9, 1) to enter B1F and capture Legendary Pokémon Mewtwo.
 
 - Turn 25650: Ascended 1F Ladder (18, 9) and arrived directly on 2F Ladder (19, 7) in the secluded northwest sector!
 
@@ -45,9 +42,3 @@
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
-| ? | (9, 1) | CONFIRMED VISUALLY | Deep northwest 2F ladder connecting to B1F Mewtwo route |
-| B1F Ladder (?) | ? | TARGET (MEWTWO) | Approaching via 2F Ladder (9, 1) |
-
-- Turn 25661: Encountered wild Ditto at (18, 3). Fleeing battle to resume navigating northern corridor toward (18, 1).
-- Turn 25667: Encountered wild Dodrio at (16, 1). Fleeing battle to resume navigating Row 1 west toward (15, 1).
-- Turn 25672: Encountered wild Dodrio at (13, 1). Fleeing battle to resume navigating Row 1 west toward (12, 1).
