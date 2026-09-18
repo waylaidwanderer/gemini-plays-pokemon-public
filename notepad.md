@@ -2923,24 +2923,8 @@
 - 1F (20, 6) is solid rock collision.
 - 2F Row 16 has solid rock barriers at (12, 16), (14..19, 16).
 - Current physical position: 2F (18, 11). Testing step-by-step connections.
-## 2F Central Bypass Verified (Turn 53583)
-- From (17, 11), walk Left to (14, 11) -> Down to (14, 12) -> Left to (13, 12) -> Left to (12, 12).
-- Up Column 12: (12, 11) -> (12, 10) -> (12, 9).
-- From (12, 9), Row 9 continues straight west to (3, 9) -> Ladder A at (1, 3) to B1F Mewtwo!
-## The Master Route to Mewtwo (Turn 53593)
-- On 1F, tile (23, 3) is a one-way ledge hopping SOUTH directly into the northern lake at (23, 4)!
-- Tile (23, 3) is accessed from Ladder D at (27, 1) on 1F.
-- Ladder D connects to 2F at (29, 1) in the northeast corridor.
-- Execution steps:
-  1. From 2F (22, 6), walk to Column 23 and north to Row 1 (23, 1).
-  2. Walk East along Row 1 to Ladder D at (29, 1).
-  3. Descend Ladder D to 1F (27, 1).
-  4. Walk West along Row 2 to (23, 2) and hop South over ledge at (23, 3) into the lake at (23, 4)!
-  5. Surf West across northern lake to Column 2/3.
-  6. Surf South to SW Ladder at (3, 11).
-  7. Climb SW Ladder to 2F SW Sector.
-  8. Walk North along Column 1 to Ladder A at (1, 3).
-  9. Descend Ladder A to B1F Mewtwo's Chamber!
-  10. Throw Master Ball on Turn 1 to capture Mewtwo!
+## Live Routing Notes (Turn 53611)
+- Current position: 1F (21, 6) facing North toward water at (21, 5).
+- Objective: Test Surf activation directly at (21, 5) or navigate via verified 1F ladders.
 
 <hr>
