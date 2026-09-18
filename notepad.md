@@ -4150,7 +4150,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Post-Game Routing Plan
 1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC. [Completed]
-2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [In Progress - on Route 4 East approaching Cerulean City]
+2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [Completed - Turn 25476 arrived in Cerulean City]
 3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status.
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
@@ -4170,8 +4170,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Route 4 East at (79, 10) mounted on Bicycle facing East.
-- Route 4 East to Cerulean City: Riding east across row 10-11 bridge into Cerulean City (col 80+).
+- Current Location: Cerulean City at (8, 18) mounted on Bicycle facing East.
+- Cerulean City to Cerulean Cave: Ascending (8, 15) ramp north into Northern District Street, then riding east and north to Route 24 to Surf southwest into Cerulean Cave.
 - Cerulean City to Cerulean Cave: Traverse north to Route 24 river, Surf southwest to Cerulean Cave entrance, and verify guard departure.
 
 - Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
