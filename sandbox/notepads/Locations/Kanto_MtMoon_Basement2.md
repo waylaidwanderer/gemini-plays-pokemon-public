@@ -36,6 +36,7 @@
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
 - Super Nerd Miguel: Defeated (Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12). Stationed at (12, 8) facing South down column 12.
+- Eastern Bypass Passage (13, 9): Empirically verified open passable tile allowing player to step north around Miguel (12, 8) directly into the Fossil Chamber without obstacle collision [Verified Turn 25407].
 - Ground Artifact (13, 6): HELIX FOSSIL (Claimed by player).
 - Ground Artifact (12, 6): DOME FOSSIL (Claimed by Super Nerd Miguel).
 
