@@ -75,3 +75,4 @@
 - Turn 25221: Player at (18, 23) on Bicycle. Stepping Right to (19, 23) to bypass central fence, then riding Up x5 along col 19 to (19, 18) at Route 3 exit avenue.
 - Turn 25222: Player at (19, 17) on Bicycle between Gym and Mart. Riding Down to (19, 18) plaza, then Right x7 along row 18 toward Route 3 exit at (26, 18).
 - Turn 25224: Player at (27, 18) on Bicycle facing East. Row 18 is wide open corridor to col 32+ exit. Riding Right x10 along row 18 toward Route 3.
+- Turn 25225: Player at (37, 18) on Bicycle facing East. Riding Right x8 along row 18 corridor across border into Route 3.
