@@ -4152,5 +4152,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25226: Arrived on Route 3 at (5, 10) on Bicycle. Riding Up x2 to row 8 to bypass shrub (9, 10), Right x6 to (11, 8), and Up x2 via ramp (11, 7) to Upper Tier at (11, 6).
 - Turn 25227: Player at (11, 5) on Bicycle on Upper Tier. Riding Right x6 along row 5 past Youngster (14, 4) toward col 17 passage.
 - Turn 25228: Player at (17, 5) on Bicycle facing East. Riding Right to (18, 5), Down to (18, 6), Right x4 along row 6 bypass to (22, 6), and Up to (22, 5).
+- Turn 25229: Player at (22, 4) on Bicycle. Riding Down to (22, 5), Right x5 to (27, 5), and Down x3 via ramp (27, 7) to Eastern Road at (27, 8).
 
 <hr>
