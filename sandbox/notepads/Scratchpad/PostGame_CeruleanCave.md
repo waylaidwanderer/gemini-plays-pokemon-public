@@ -65,3 +65,4 @@
 
 - Turn 25547: Wild Dodrio appeared at (15, 15). Selecting RUN to flee cleanly and resume backtracking to Row 11.
 - Turn 25548: Fled wild Dodrio cleanly. Player at (15, 15) facing North. Backtracking via (15, 13) and (14, 13) north to Row 11 at (14, 11).
+- Turn 25557: Wild Kadabra Lv 51 appeared at (19, 13). Fleeing battle to resume scouting Row 13 east corridor.
