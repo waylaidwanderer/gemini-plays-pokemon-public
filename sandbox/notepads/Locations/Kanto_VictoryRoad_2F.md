@@ -84,7 +84,7 @@
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Boulder 3: Pushed onto Switch Plate A at (1, 16) via Col 3 and Row 16 runway, actively depressing Switch Plate A [Turn 24199]. Plateau Barrier at (7, 8)-(7, 9) is LOWERED.
+- Boulder 3: Located at Switch Plate A (1, 16), depressing the switch plate. Plateau Barrier at (7, 8)-(7, 9) is LOWERED [Turn 24199].
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076; Visually confirmed LOWERED Turn 24097].
 - Boulder 1: Starts at (5, 5) [Reset Turn 24156]. Wedges if pushed North into (5, 3) against rock wall (5, 2); Northwest Chamber access is via Northern Highway from eastern sector.
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
