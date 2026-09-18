@@ -49,3 +49,4 @@
 - Turn 25181: Player at (17, 13) on Bicycle facing South. Riding Down x3 to (17, 16), then Left x3 through clear passage to (14, 16).
 - Turn 25183: Player at (14, 16) on Bicycle facing West. Riding Left x2 to (12, 16), then Up x5 along col 12 West-Central Corridor toward (12, 11).
 - Turn 25184: Player at (12, 11) on Bicycle facing North. Riding Up x6 along col 12 West-Central Corridor toward (12, 5) to locate westward breach.
+- Turn 25185: Player at (12, 5) on Bicycle facing North. Stone posts end at row 4. Riding Up x2 to (12, 3), then Left x5 along row 3 clear cross-corridor to (7, 3).
