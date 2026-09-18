@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 70 (HP 115/222)
+- Active Team: Blastoise (SHELDON) Lv 70 (HP 86/222)
 
 - Money: ¥101336 [Turn 24904]
 - Pokédex: 15 Caught / 50+ Seen
@@ -220,7 +220,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 115 / 222
+  - HP: 86 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3966,6 +3966,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24953: Selecting FIGHT with 0 PP automatically triggered Struggle! 'SHELDON has no moves left! SHELDON used STRUGGLE!'. Advancing text through Struggle damage, recoil, and Venusaur's turn with B x5.
 - Turn 24954: Struggle dealt ~45 damage to Venusaur Lv 65. Sheldon took 25 recoil to 159 HP. Venusaur countered with Mega Drain for 44 damage, putting Sheldon at 115/222 HP. Advancing text with B x3 to reach the main battle menu.
 - Turn 24955: Main battle menu open with cursor on FIGHT facing Venusaur Lv 65 (~75% HP). Sheldon active at 115/222 HP (12 Full Restores ready). Pressing A to execute Struggle.
+- Turn 24956: Struggle dealt ~58 damage to Venusaur Lv 65, bringing Venusaur down to ~50% HP. Sheldon took 29 recoil to 86/222 HP. Advancing text through Venusaur's counter with B x5.
 
 <hr>
 
