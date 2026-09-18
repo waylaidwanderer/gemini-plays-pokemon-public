@@ -35,3 +35,4 @@
 - Mt. Moon & Route 4: Ascend to northern highway (57, 0) into Route 4, traverse Mt. Moon to Route 4 East, and arrive in Cerulean City.
 
 - Turn 25234: Player at (27, 8) on Bicycle facing South. Turning East and riding Right x10 along row 8 Eastern Road to (37, 8).
+- Turn 25235: Player at (37, 8) on Bicycle facing East. Ascending ramp (37, 7) via Up x3 to (37, 5), then riding Right x5 along row 5 Far Eastern Highway to (42, 5).
