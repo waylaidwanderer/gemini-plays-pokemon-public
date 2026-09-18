@@ -42,3 +42,4 @@
   - Gyarados: Use Double-Edge / Body Slam to finish off low 79 Defense.
   - Dragonair x2, Aerodactyl, Dragonite: Sweep all 4 with Ice Beam (4 Ice Beams needed).
 - Turn 24874: Body Slam hit Gyarados into the red! Lance burned a Hyper Potion on Gyarados. Sheldon at 216/216 HP. Advancing text with B to battle menu.
+- Turn 24876: Battle menu open on FIGHT. Gyarados at full HP after Hyper Potion. Navigating Up from Body Slam to Double-Edge (Slot 1, PP 9/15) to hit Gyarados.
