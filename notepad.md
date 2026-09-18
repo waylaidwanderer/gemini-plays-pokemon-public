@@ -3969,6 +3969,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Maintain Sheldon's HP above 50 HP using Full Restore (heals 222 HP).
   - Use healthy pivots (Rocky, Dux, Digby, Sandman) if free switch-in/healing turns are required.
 
+- Turn 24964: Sheldon fainted to critical Solarbeam. Venusaur at ~25% HP. Executing Pivot Revive Strategy: advancing text with B x3 to send in pivot, then using Max Revive on Sheldon to return at full HP and win.
 
 <hr>
 
