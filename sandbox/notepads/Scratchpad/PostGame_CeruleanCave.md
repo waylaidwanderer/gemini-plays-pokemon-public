@@ -61,3 +61,4 @@
 - Turn 25114: Player at (20, 21) on Bicycle. Riding Left x2 to (18, 21), then Up x3 along col 18 past flower garden to (18, 18).
 - Turn 25116: Player at (18, 17) on Bicycle facing North. Riding Up x5 along col 18 through row 13 fence passage to (18, 12).
 - Turn 25118: Player at (18, 12) on Bicycle facing North. Riding Up x5 along col 18 past girl NPC at (17, 9) to (18, 7) on North-South Avenue.
+- Turn 25119: Stunned wandering NPC at (21, 5). Player at (18, 7) on Bicycle facing North. Riding Up x5 along col 18 to (18, 2) toward Route 2.
