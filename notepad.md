@@ -3986,6 +3986,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 8: Sheldon used Body Slam on Slowbro Lv 54 (Slowbro HP ~65%). Slowbro used Growl (Sheldon HP 147/213). Sheldon executing Body Slam.
 - Turn 9: Sheldon used Body Slam on Slowbro Lv 54 (Slowbro HP ~35%). Slowbro used Growl (Sheldon HP 147/213). Sheldon executing Body Slam.
 - Turn 10: Slowbro HP ~25%. Sheldon HP 147/213. Executing Body Slam to push Slowbro to faint/critical.
+- Turn 11: Slowbro used Water Gun (11 dmg, Sheldon HP 136/213). Slowbro at ~10% HP. Sheldon executing Body Slam to KO Slowbro.
 
 
 <hr>
