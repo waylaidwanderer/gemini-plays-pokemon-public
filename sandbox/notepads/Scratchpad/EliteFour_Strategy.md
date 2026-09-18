@@ -25,7 +25,8 @@
   3. Slowbro Lv 54 [KO'd Turn 19 with Double-Edge Critical Hit, burned both Lorelei Super Potions]
   4. Jynx Lv 56 [OHKO'd Turn 21 with Surf! Sheldon 101/213 HP, 0 damage taken]
 - Final Opponent:
-  5. Lapras Lv 56 [Water/Ice, Lorelei's ace]
+  5. Lapras Lv 56 [Water/Ice, Lorelei's ace, active on field]
 - Turn 19: Double-Edge scored a Critical Hit! Slowbro fainted! Sheldon took 8 recoil to 101/213 HP. Gained 1897 EXP. Declined switch.
 - Turn 20: Jynx Lv 56 sent out. Selected Surf from move menu.
-- Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Advancing text to face Lapras.
+- Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Declined switch.
+- Turn 22: Lapras Lv 56 sent out. Sheldon HP 101/213. Opening FIGHT to select Surf.
