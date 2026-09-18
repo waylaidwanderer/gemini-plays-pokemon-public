@@ -3801,16 +3801,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate: Located at (17, 13) in eastern wing.
 - Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau. Lowered/removed by placing Boulder 1 on switch plate at (17, 13) [Verified Turn 15465].
 - Plateau Access: Stairs/ladder at (5, 13) connects lower floor (5, 14) to elevated plateau (5, 12).
-- Boulder 1 (Entrance Boulder): Starts at (5, 15). Verified execution to (16, 14) [Turns 23944-23967]:
-  1. [Verified] Walk via col 4 to (5, 14), push South to (5, 16).
-  2. [Verified] Walk around via (4, 16), push East along row 16 to (8, 16). (Do not push north at col 7 because (6, 15) is rock and blocks east pushing).
-  3. [Verified] Walk around via row 17 to (8, 17), push North to (8, 15).
-  4. [Verified] Walk around to (7, 15), push East to (9, 15). (Note: (10, 15) is blocked by blue rock rubble).
-  5. [Verified] Walk around via (8, 16) to (9, 16), push North onto Row 14 at (9, 14).
-  6. [Verified] Walk around via (8, 15) to (8, 14), push East along Row 14 to (16, 14). (Note: (17, 14) is confirmed solid purple rock wall).
-  7. [Verified] From (16, 14), pushed North into (16, 13), then North into (16, 12) [Turns 23973-23976].
-  8. [Verified] Looped via col 14 to (15, 12), pushed East into (17, 12) [Turn 23977].
-  9. [Verified] From (15, 12), walked to (17, 11), pushed South onto Switch Plate at (17, 13) [Turn 23980]! Switch Plate depressed, lowering Plateau Barrier Block at (9, 12)!
+- Boulder 1 (Entrance Boulder): Solved [Turn 23980]. Pushed onto switch plate at (17, 13) via Row 16, Row 14, and Row 12, depressing the switch and permanently lowering Plateau Barrier Block at (9, 12).
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
@@ -3837,11 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23980]:
-- Player is inside Victory Road 1F at (17, 11) on foot with Strength actively enabled.
-- Boulder 1 has been pushed South onto Switch Plate 1 at (17, 13), successfully depressing the switch!
-- Plateau Barrier Block at (9, 12) is now lowered!
-- Next immediate step: Walk west along Row 11/14 to stairs at (5, 13), ascend to plateau (5, 12), cross lowered barrier at (9, 12), and navigate to northwest ladder (1, 1) to ascend to 2F.
+## Current Verified State [Turn 24001]:
+- Player is at (9, 5) on Victory Road 1F engaged in battle with Cooltrainer Female at (8, 5).
+- Boulder 1 has been pushed onto Switch Plate at (17, 13), depressing the switch and lowering the Plateau Barrier Block at (9, 12).
+- Elevated plateau and northern corridor successfully traversed from (5, 12) across (9, 12) to (12, 6) and (9, 5).
+- Next immediate step: Defeat Cooltrainer Female, proceed west along row 5 to Western Corridor (cols 2-3), and ascend ladder (1, 1) to 2F.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -4059,5 +4050,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 - Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
+
 
 <hr>
