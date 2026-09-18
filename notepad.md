@@ -3942,8 +3942,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pok�mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pok�mon League.
 - PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby. Functional terminal accessed from (15, 8) facing North.
 - Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells supplies [Inventory pending in-game verification]. Accessed from (13, 7) facing North.
-- Elite Four Entrance: Located at (2..3, 0..1) in the northern wall. A wide double-width arched passage with red threshold markers leading north to the Elite Four chambers [Visually verified Turn 24656].
+- Mart Display Windows: Located at (2..3, 0..1) in the northern wall featuring 'SALE' signs and display cases [Corrected Turn 24659].
 - Lobby NPC / Guide: Located at (5, 1) facing South [Visually verified Turn 24656].
+- Elite Four Entrance: Located at (8, 0) in the northern wall. A doorway with stairs leading north into the Elite Four chambers [Visually verified Turn 24659].
 
 
 <hr>
