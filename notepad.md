@@ -4186,5 +4186,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25413-25420: Ascended B2F northern ladder, traversed B1F transit corridor, and exited Mt. Moon onto Route 4 East at (24, 6).
 - Turns 25420-25468: Mounted Bicycle on Route 4 East, rode east along row 6, hopped col 45 ledge into central corridor, navigated col 49 gap to row 10 corridor, bypassed col 62 trees via row 8 corridor, and hopped row 9 ledge onto row 10-11 bridge at (79, 10).
 - Turn 25475: Player reached (85, 10) on Bicycle on eastern bridge approach. Riding east into Cerulean City.
+- Turn 25483: Player reached (8, 13) on Northern District Street. Visual confirmation: Cerulean Cave entrance at (4, 11) is OPEN and the guard at (4, 12) has departed! Riding east along row 13 toward col 20 to access Route 24 river.
 
 <hr>
