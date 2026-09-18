@@ -31,9 +31,9 @@
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (23, 11) facing South.
-- Active Navigation: Heading East to (24, 11) and navigating South down Column 24 corridor.
-- Objective: Explore 2F corridors and locate ladders connecting to B1F route.
+- Current Location: Cerulean Cave 2F at (19, 15) facing East.
+- Active Navigation: Backtracking west along Row 15 to (15, 13), north to Row 11 at (14, 11), and east to (17, 11) to take the south branch (17, 12..13).
+- Objective: Explore Row 13 / Row 17 southern corridors to locate ladders connecting to B1F route.
 
 - Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
 - Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
@@ -61,4 +61,4 @@
 - Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
 - Turn 25537: Fled wild Dodrio Lv 51 cleanly. Player at (19, 11) facing West. Walking Left x4 along Row 11 corridor to (15, 11).
 - Turn 25541: Wild Kadabra appeared at (14, 13). Selecting RUN to flee cleanly.
-- Turn 25542: Fled wild Kadabra Lv 51 cleanly. Player at (14, 13) facing East. Walking Right to (15, 13) and Down x2 to (15, 15) to enter Row 15 southern corridor.
+- Turn 25542: Fled wild Kadabra Lv 51 cleanly. Player at (14, 13) facing East. Walking Right to (15, 13) and Down x2 to (15, 15) to enter Row 15 southern corridor.- Turn 25545: Reached (19, 15); verified Row 15 terminates at (19, 15) dead end. Backtracking west along Row 15 to (15, 13) and north to Row 11.
