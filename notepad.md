@@ -148,6 +148,7 @@
 - [x] Enter Lorelei's Chamber and challenge the Elite Four [Turn 24668]
 - [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
+- [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
 
 
 <hr>
@@ -3989,7 +3990,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Defeated Pok�mon: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
 - Prize Money: �5742 (New total: �89258).
 
-## Elite Four Battle 3: Agatha [In Progress Turn 24841]
+## Elite Four Battle 3: Agatha [Cleared Turn 24849]
 - Defeated Pok�mon:
   1. Gengar Lv 56 [2HKO'd with Surf]
   2. Golbat Lv 56 [OHKO'd with Ice Beam critical hit]
@@ -4005,6 +4006,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
 - Turn 24846: Gengar Lv 60 officially fainted! Gained 2442 EXP. Agatha sending in final Pok�mon Arbok Lv 58. Declining switch with B.
 - Turn 24848: Battle menu open on FIGHT facing Arbok Lv 58 (~65 HP remaining). Move cursor on ICE BEAM (Slot 4, PP 6/10). Firing Ice Beam to KO Arbok and defeat Agatha!
+
+## Agatha Battle Summary
+- Outcome: Victory! All 5 Pok�mon defeated (Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Gengar Lv 60, Arbok Lv 58).
+- Sheldon Status: Healthy, Lv 68, HP 194/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 5/10).
+
+# Elite Four Matchup 4: Lance Strategy [Upcoming]
+- Lance specializes in Dragon and Flying Pok�mon.
+- Verified Typings & Targets:
+  1. Gyarados Lv 58 (Water/Flying) -> BODY SLAM / DOUBLE-EDGE (high physical Attack vs 79 Defense)
+  2. Dragonair Lv 56 (Dragon) -> ICE BEAM (2x Ice weakness, guaranteed OHKO!)
+  3. Dragonair Lv 56 (Dragon) -> ICE BEAM (2x Ice weakness, guaranteed OHKO!)
+  4. Aerodactyl Lv 60 (Rock/Flying) -> ICE BEAM (2x Ice weakness vs base 60 Special, guaranteed OHKO!)
+  5. Dragonite Lv 62 (Dragon/Flying, Lance's ace) -> ICE BEAM (4X ICE WEAKNESS! Massive OHKO!)
+- Total Ice Beams required: Exactly 4. Ice Beam PP available: 5/10!
+- Supplies: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POK� FLUTE.
 
 
 <hr>
@@ -4059,17 +4075,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Entered from Bruno's chamber via northern doorway at (4..5, 0) [Turn 24795].
 - Player arrives at (4, 11) and auto-walks forward to (4, 5) facing North. Entrance gate locks behind player at (3, 8)-(3, 9).
 - Room layout: Tombstone/graveyard arena surrounded by headstones, open central corridor cols 4-5.
-- Northern exit: Doorway at the north end of the chamber, unlocks upon Agatha's defeat.
+- Northern exit: Doorway at the north end of the chamber, unlocks upon Agatha's defeat [Turn 24849].
 
 ## Elite Four Member
 - Agatha: Located at (5, 2) facing South.
   - Specializes in Ghost and Poison Pok�mon.
   - Team: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60.
-  - Battle Notes:
-    - Normal moves (Double-Edge, Body Slam) deal 0 damage to Ghost Pok�mon (Gengar, Haunter).
-    - Golbat Lv 56 has 2x Ice weakness: OHKO'd by Ice Beam.
-    - Sleep inflicted by Hypnosis is cured by POK� FLUTE (infinite uses).
-    - Confusion / Toxic cured by Full Restore.
+  - Defeated Turn 24849 by Sheldon Lv 68 (194/216 HP).
+  - Northern exit doorway unlocked!
 
 
 <hr>
