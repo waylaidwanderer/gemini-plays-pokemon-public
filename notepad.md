@@ -4216,5 +4216,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25415: Landed at (3, 6) facing South. Walking Right x2 to (5, 6) and Down onto Ladder (5, 7) to ascend to B1F.
 - Turn 25416: Arrived on B1F at (23, 3) facing South. Ladder (27, 3) in sight. Walking Right x4 along row 3 onto ladder to ascend to 1F Route 4 exit.
 - Turn 25420: Player arrived outside on Route 4 East at (24, 6) on foot facing South. Opening Bag to mount Bicycle for eastern traversal to Cerulean City.
+- Turn 25432: Mounted Bicycle at (24, 6) on Route 4 East.
+- Turn 25435: Rode Bicycle East along row 6 to (32, 6).
 
 <hr>
