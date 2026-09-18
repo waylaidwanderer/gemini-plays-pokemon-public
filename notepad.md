@@ -4163,13 +4163,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (12, 13) on foot.
-- Visual Layout of Lower South Sector (Rows 13-17) [Turn 25965]:
-  - Column 12 South: (12, 14..15) is open floor; (12, 16) is a solid rock wall.
-  - Column 13 Bypass: (13, 15), (13, 16), (13, 17) are open floor, connecting Row 15 directly to Row 17.
-  - Row 17: Open floor at (11..17, 17). (10, 17) is a rock wall.
-  - Row 16 West Corridor: Open floor at (8..11, 16)! Connects directly north of (11, 17) to provide a westward thoroughfare into the southwest sector toward Item Ball at (4, 15).
-- Active Plan: Traverse (12, 14) -> (12, 15) -> (13, 15) -> (13, 16) -> (13, 17) -> (12, 17) -> (11, 17), then step Up to (11, 16) and head west into Row 16 toward (4, 15).
+- Current Location: Cerulean Cave 2F at (11, 17) on foot.
+- Physical Traversal Discoveries [Turn 25967]:
+  - (12, 14..15): Open floor verified.
+  - (13, 15..17): Open floor bypass verified.
+  - (12, 17) & (11, 17): Open floor verified.
+  - (10, 17) & (11, 18): Solid rock walls physically confirmed visually.
+  - (11, 16): Open floor connecting north from (11, 17) into Row 16 highway.
+  - Row 16 (Cols 7..11): Continuous open horizontal thoroughfare leading west toward Column 5 and Item Ball (4, 15).
+- Active Plan: Step Up to (11, 16), then Left x4 along Row 16 through (10, 16), (9, 16), (8, 16) to (7, 16) heading toward (4, 15).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
