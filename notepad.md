@@ -4220,6 +4220,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
-- Magneton [Encountered 1F Turn 25520]
+- Magneton: Lv 46 [Encountered 1F Turn 25520]
 
 <hr>
