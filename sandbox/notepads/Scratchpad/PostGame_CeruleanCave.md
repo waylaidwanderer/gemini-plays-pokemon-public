@@ -66,3 +66,4 @@
 - Turn 25314: Player at (10, 17) on foot facing West. Successfully crossed over into western corridor. Walking North along column 10 toward rows 5..6 to access Northwest Ladder (5, 5).
 - Turn 25316: Player at (10, 12) on foot. Screen black transition indicates wild battle triggered. Pressing B x4 to advance transition and battle intro text.
 - Turn 25317: Wild Zubat appeared at (10, 12). Pressing B x6 to advance intro text to battle menu.
+- Turn 25319: Wild Zubat Lv 10 in battle at (10, 12). Selecting RUN via Down, Right, A, B x2 to return to overworld.
