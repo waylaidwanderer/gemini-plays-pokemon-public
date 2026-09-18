@@ -4162,11 +4162,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Central-Western Terrace at (17, 14) on foot.
+- Current Location: Cerulean Cave 1F Staircase (17, 15) on foot.
 - Empirical Physical Discovery: Column 19 is a solid rock wall from Row 8 to Row 16, and Row 16 is a solid southern cliff barrier. The entrance cavern (Cols 20..25, Rows 12..17) has NO westward passage to Columns 17..18.
 - Staircase (17, 15) and Ladder (18, 9) reside on the Central-Western Terrace (Cols 11..18).
 - Routing Plan: Descend Staircase (17, 15) south into lower landing at (17, 16) and explore the southwest lower corridor (Cols 13..16, Rows 16..17) to locate the B1F descent to Mewtwo.
-- Next Step: Step Down onto Staircase (17, 15), Down to (17, 16), and Left to (16, 16).
+- Next Step: Dismiss battle text with B, then step Down to (17, 16) and Left x2 to (15, 16).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
