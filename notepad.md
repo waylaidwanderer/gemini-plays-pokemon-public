@@ -3969,6 +3969,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24956: Struggle dealt ~58 damage to Venusaur Lv 65, bringing Venusaur down to ~50% HP. Sheldon took 29 recoil to 86/222 HP. Advancing text through Venusaur's counter with B x5.
 - Turn 24957: Venusaur Lv 65 used Mega Drain for 37 damage. Sheldon at 49/222 HP (yellow bar). Main battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu and use Full Restore on Sheldon.
 - Turn 24958: Bag menu open with cursor confirmed directly on FULL RESTORE x12. Pressing A to select Full Restore and open party screen.
+- Turn 24959: Party menu open with cursor locked on Sheldon (49/222 HP). Pressing A to apply Full Restore (11 remaining after use) and restore Sheldon to 222/222 HP.
 
 <hr>
 
