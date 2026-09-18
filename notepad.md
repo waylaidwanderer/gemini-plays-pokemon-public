@@ -222,7 +222,7 @@
   - Status: Healthy
   - HP: 139 / 219
   - Stats: Attack 163, Defense 189, Speed 163, Special 168 [Verified Lv 69 Turn 24884]
-  - Moves: Double-Edge (PP 4/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 1/10)
+  - Moves: Double-Edge (PP 4/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -4058,6 +4058,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24926: Double-Edge OHKO'd Alakazam Lv 59 (2/6)! Alakazam fainted. Sheldon took 35 recoil to 139/219 HP. Double-Edge PP now 4/15. Advancing text through fainting, EXP, and switch prompt with B x5.
 - Turn 24927: RED is about to use Rhydon Lv 61 (3/6). Sheldon active at 139/219 HP. Strategy confirmed: decline switch, target Rhydon's 75 Special with final Ice Beam (Slot 4, 1 PP). Pressing B x5 to reach battle menu.
 - Turn 24928: RED sent out Rhydon Lv 61 (3/6). Sheldon active at 139/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu and navigating Down x3 to Slot 4 (Ice Beam, PP 1/10).
+- Turn 24929: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 1/10) facing Rhydon Lv 61. Pressing A to execute 2x super-effective Ice Beam.
 
 <hr>
 
