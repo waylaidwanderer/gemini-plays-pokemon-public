@@ -1,10 +1,10 @@
 # Elite Four Preparation & Strategy [Updated Turn 24781]
 
 ## Active Party Status
-- Lead: SHELDON (Blastoise Lv 67, Water)
-  - HP: 213 / 213 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 8/15), Ice Beam (PP 10/10)
-  - Stats: Attack 157, Defense 183, Speed 157, Special 163
+- Lead: SHELDON (Blastoise Lv 68, Water)
+  - HP: 216 / 216 (Healthy, Full Health)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 7/15), Ice Beam (PP 10/10)
+  - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
   - DUX (Farfetch'd Lv 5)
