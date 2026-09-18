@@ -3828,11 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24359]:
-- Boulder 1 successfully pushed onto Switch Plate (3, 5), actively depressing the switch [Turn 24359]!
-- Player is at (1, 5) facing East directly west of Boulder 1 at (3, 5).
-- Route taken from (6, 1): Pushed south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), circled via (1, 3)-(1, 4)-(1, 5), and pushed east onto (3, 5).
-- Heading east via Row 4/Row 2 corridor and Northern Highway to wooden staircase (17, 5) to ascend terrace and verify Barrier Block (7, 10).
+## Current Verified State [Turn 24391]:
+- Boulder 1 is at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
+- Player is on Victory Road 3F at (20, 6) facing South.
+- Heading west along Row 6 to (17, 6), then stepping Up x2 via staircase (17, 5) to ascend onto elevated terrace at (17, 4).
+- Immediate task: Walk across terrace to Row 10 at (7, 10) to visually and physically test/verify whether Barrier Block (7, 10) is lowered.
 - Switch Plate & Barrier Testing Hypothesis:
   - Depressing Switch Plate (3, 5) with Boulder 1 is hypothesized to lower Barrier Block (7, 10) on the Row 10 terrace.
   - Active requirement: Visually and physically verify whether Barrier Block (7, 10) is lowered before recording as confirmed fact.
@@ -3947,7 +3947,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
 - Boulder 3: Located at Switch Plate A (1, 16), depressing the switch plate. Plateau Barrier at (7, 8)-(7, 9) is LOWERED [Turn 24199].
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076; Visually confirmed LOWERED Turn 24097].
-- Boulder 1: Starts at (5, 5) [Reset Turn 24156]. Wedges if pushed North into (5, 3) against rock wall (5, 2); Northwest Chamber access is via Northern Highway from eastern sector.
+- Boulder 1: Starts at (5, 5) [Reset Turn 24156]. Wedges if pushed North into (5, 3) against rock wall (5, 2).
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
 - Switch Plate B: Located at (9, 16) in southwest lower corridor [Visually confirmed empty Turn 23764]. Controls Exit Barrier at (23, 14). Accessible via Row 16 from the east.
 
@@ -3984,7 +3984,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Plateau Barrier Block at (7, 10): Raised barrier block with blue/white checkerboard pattern. Blocks westward traversal across Row 10 terrace from (8, 10) to (6, 10) [Empirically verified raised Turn 24254]. Hypothesized to be lowered by depressing Switch Plate (3, 5).
-- Boulder 1: Successfully pushed onto Switch Plate (3, 5), actively depressing the switch [Turn 24359]! Route: pushed west along Row 1 Northern Highway from (22, 3) to (6, 1), south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), and east from (1, 5) onto (3, 5).
+- Boulder 1: Located at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
   - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
