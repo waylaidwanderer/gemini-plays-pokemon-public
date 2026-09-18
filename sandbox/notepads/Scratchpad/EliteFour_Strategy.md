@@ -22,3 +22,4 @@
 - Opponent Pokémon 3: SLOWBRO Lv 54 (Water/Psychic).
   - Tactics: Slowbro uses Amnesia (Special boost). Physical moves (Double-Edge / Body Slam) target its physical Defense and bypass Amnesia completely. 2HKO.
 - Turn 8: Sheldon used Body Slam on Slowbro Lv 54 (Slowbro HP ~65%). Slowbro used Growl (Sheldon HP 147/213). Sheldon executing Body Slam.
+- Turn 9: Sheldon used Body Slam on Slowbro Lv 54 (Slowbro HP ~35%). Slowbro used Growl (Sheldon HP 147/213). Sheldon executing Body Slam.
