@@ -51,3 +51,5 @@
 - Turn 25484: Player at (15, 13) on Bicycle facing East. Turning north at col 20 avenue toward Route 24.
 - Turn 25485: Player reached (20, 9) on Bicycle facing North on Route 24 Avenue. Riding north along col 20 toward Route 24 to Surf into Cerulean Cave.
 - Turn 25486: Player reached (20, 1) at northern boundary of Cerulean City. Crossing into Route 24.
+- Turn 25487: Arrived on Route 24 at (10, 33) on Nugget Bridge mounted on Bicycle facing North. Riding north toward row 15 water access.
+- Turn 25488: Player at (10, 29) on Nugget Bridge. Lass at (10, 28). Shifting right to column 11 to bypass.
