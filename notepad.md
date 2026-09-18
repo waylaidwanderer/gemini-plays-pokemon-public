@@ -3978,6 +3978,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 5: Body Slam brought Cloyster to 1 pixel HP and paralyzed it! Sheldon HP: 169/213 (cured of confusion). Finishing blow queued.
 - Turn 6: Cloyster used Spike Cannon (Sheldon at 158/213 HP). Cloyster at 1 HP. Sheldon executing Body Slam to finish off Cloyster.
 - Turn 7: Battle menu open on FIGHT. Sheldon (HP 147/213) executing Body Slam to KO 1-HP paralyzed Cloyster.
+- Turn 7 result: Body Slam scored a Critical Hit! Cloyster fainted!
+- Lorelei's defeated Pokémon: Dewgong Lv 54 [Turn 2], Cloyster Lv 53 [Turn 7].
+- Sheldon Status: HP 147/213 (Lv 67), Healthy.
+- Opponent Pokémon 3: SLOWBRO Lv 54 (Water/Psychic).
+  - Tactics: Slowbro uses Amnesia (Special boost). Physical moves (Double-Edge / Body Slam) target its physical Defense and bypass Amnesia completely. 2HKO.
 
 
 <hr>
