@@ -4114,5 +4114,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25265: Fled Zubat cleanly at (15, 25). Walking Right x8 along row 25 toward (23, 25) Eastern Avenue entrance.
 - Turn 25266: Player at (16, 25). Bug Catcher at (16, 24) triggered dialogue. Pressing B x4 to dismiss textbox and stunning NPC.
 - Turn 25267: Undefeated Lass initiated battle at (16, 25). Advancing dialogue and selecting FIGHT -> Double-Edge with Sheldon Lv 70.
+- Turn 25268: Clefairy OHKO'd by Sheldon's Double-Edge. Pressing B x8 to clear fainting, EXP, and prize money text.
 
 <hr>
