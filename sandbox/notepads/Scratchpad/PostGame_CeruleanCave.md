@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (23, 2) on foot (Northern Elevated Terrace).
+- Current Location: Cerulean Cave 1F at (27, 2) (Northern Elevated Terrace, wild battle vs Venomoth).
 - Physical Traversal Milestones [Turns 26068-26096]:
   - Traversed Row 17 east to (16, 17), climbed Staircase (17, 15) onto Central-Western Terrace at (17, 14).
   - Crossed terrace via Row 18/9 to Staircase (11, 13), descended to water, and launched HM03 SURF on Sheldon.
