@@ -89,3 +89,4 @@
 - Turn 24918: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 7/15). Pressing A to execute Double-Edge on Pidgeot Lv 61.
 - Turn 24919: Double-Edge hit Pidgeot Lv 61 into yellow (~35% HP). Sheldon took 23 recoil to 196/219 HP. Double-Edge PP now 6/15. Advancing text through Pidgeot's turn with B x5.
 - Turn 24920: Pidgeot Lv 61 used Whirlwind (failed). Main battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 6/15).
+- Turn 24921: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 6/15). Pidgeot at ~35% HP. Pressing A to execute Double-Edge and KO Pidgeot.
