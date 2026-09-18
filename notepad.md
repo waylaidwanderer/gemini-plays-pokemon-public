@@ -4225,6 +4225,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
+- Venomoth: Lv 49 [Encountered 1F Turn 26123]
 
 
 <hr>
