@@ -3828,44 +3828,36 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24272]:
-- Player is on Victory Road 3F at (17, 6) descending wooden staircase (17, 5).
-- Raised Barrier Block at (7, 10) discovered on Row 10 terrace [Turn 24254], blocking westward traversal toward Southwest Basin.
-- Active Hypothesis: Depressing Switch Plate (3, 5) with Boulder 1 from (22, 3) will lower Barrier (7, 10).
-- Plateau Barrier on 2F at (7, 8)-(7, 9) remains depressed/lowered by Boulder 3 on Switch Plate A (1, 16).
-- Heading east via Row 7 to Column 20/22 to test/execute Boulder 1 manipulation.
+## Current Verified State [Turn 24326]:
+- Player is on Victory Road 3F at (7, 1) facing West / stepping north toward (7, 0).
+- Boulder 1 successfully pushed from (22, 3) along Row 1 Northern Highway to Column 6 junction at (6, 1) [Turns 24294-24326].
+- Column 6 Maneuver Sequence:
+  1. Step Up from (7, 1) to (7, 0).
+  2. Step Left from (7, 0) to (6, 0).
+  3. Push Down from (6, 0) into Boulder 1 at (6, 1), pushing it south to (6, 2).
+  4. Step around via (7, 0) -> (7, 1) -> (7, 2) to face West at (7, 2).
+  5. Push Boulder 1 west along Row 2 from (6, 2) to Column 2/3.
+  6. Push Boulder 1 south onto Switch Plate (3, 5).
+- Switch Plate & Barrier Testing Hypothesis:
+  - Depressing Switch Plate (3, 5) with Boulder 1 is hypothesized to lower Barrier Block (7, 10) on the Row 10 terrace.
+  - Active requirement: Visually and physically verify whether Barrier Block (7, 10) is lowered before recording as confirmed fact.
+- Plateau Barrier on 2F at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16).
 
-## Execution Blueprint & Active Hypotheses:
-1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
-2. Victory Road 1F:
-   - Cast Strength with Rocky (Geodude).
-   - Push entrance boulder onto switch (17, 13).
-   - Walk across plateau to ladder (1, 1) and ascend to 2F.
-3. Victory Road 2F (Transit):
-   - Push Boulder 3 onto Switch Plate A at (1, 16) to lower Plateau Barrier at (7, 8)-(7, 9).
-   - Return via Row 11 to wooden staircase at (5, 10), ascend to elevated plateau at (5, 9).
-   - Walk east across lowered barrier (7, 8)-(7, 9) onto eastern plateau.
-   - Walk south along Col 14 to Row 12, then east along Row 12 to the eastern sector.
-   - Take Ladder at (23, 7) up to Victory Road 3F (or systematically solve Boulder 1 at 5, 4 to access ladder 1, 1).
-4. Victory Road 3F:
-   - Arrived via Ladder (23, 7) at (23, 7) [Turn 24237], walked west along Row 7 to (17, 6) [Turn 24240].
-   - Ascend wooden staircase (17, 5) to terrace (17, 4).
-   - Walk west across terrace to Col 10, south to Row 10, west to (5, 10), north to Row 8, west to (1, 8).
-   - Descend wooden staircase (1, 9) into Southwest Basin at (1, 10).
+## Active Execution Blueprint:
+1. Victory Road 3F (Switch Activation & Terrace Traversal):
+   - Complete Boulder 1 maneuver to depress Switch Plate (3, 5).
+   - Walk to Row 10 terrace via staircase (17, 5) and verify whether Barrier Block (7, 10) is lowered.
+   - Walk west past (7, 10) to Column 1, walk north to Row 8, west to (1, 8), and descend wooden staircase (1, 9) into Southwest Basin at (1, 10).
    - Walk south to Row 16, east along Row 16 Highway to (21, 16), and up to (21, 15).
    - Cast Strength with Rocky.
    - Push Boulder (22, 15) East into Pit Hole (23, 15).
    - Step East into Pit Hole (23, 15) to fall to 2F!
-5. Victory Road 2F (Final Clear - Verified Routing & Mechanics):
-   - Land at (22, 16) with fallen boulder at (23, 16).
+2. Victory Road 2F (Final Exit Sequence):
+   - Land at (22, 16) with fallen boulder adjacent at (23, 16).
    - Cast Strength with Rocky.
-   - Note on boulder geometry: Player lands at (22, 16) west of boulder (23, 16).
-     To push boulder WEST toward Switch Plate B at (9, 16), player must position EAST of the boulder.
-     Test bypass: test whether Row 17 (south of boulder at 22..24, 17) or Row 15 allows walking east to (24, 16).
-     If Row 16 is single-tile and non-bypassable locally, verify if there is an alternate path or if pushing boulder initiates from a specific orientation.
-   - Once positioned at (24, 16), push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
-   - Switch Plate B depresses, lowering the barrier at (23, 14).
-   - Ascend wooden stairs (21, 15) to Row 14, walk east past lowered barrier (23, 14), and climb Exit Ladder (25, 14) to INDIGO PLATEAU!
+   - Position east of boulder at (24, 16) (or verify bypass path via Row 15/17) and push boulder WEST along Row 16 onto Switch Plate B at (9, 16).
+   - Switch Plate B depresses, lowering Barrier Block at (23, 14).
+   - Ascend wooden stairs (21, 15) to Row 14, walk east past lowered barrier (23, 14), and climb Exit Ladder at (25, 14) to INDIGO PLATEAU!
 
 
 <hr>
@@ -3958,7 +3950,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Boulder 3: Pushed onto Switch Plate A at (1, 16) via Col 3 and Row 16 runway, actively depressing Switch Plate A [Turn 24199]. Plateau Barrier at (7, 8)-(7, 9) is LOWERED.
+- Boulder 3: Located at Switch Plate A (1, 16), depressing the switch plate. Plateau Barrier at (7, 8)-(7, 9) is LOWERED [Turn 24199].
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076; Visually confirmed LOWERED Turn 24097].
 - Boulder 1: Starts at (5, 5) [Reset Turn 24156]. Wedges if pushed North into (5, 3) against rock wall (5, 2); Northwest Chamber access is via Northern Highway from eastern sector.
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
