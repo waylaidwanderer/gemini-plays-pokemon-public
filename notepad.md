@@ -4097,5 +4097,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25005: Mom dialogue in progress ('BLUE! You should take a quick rest.'). Resting to fully heal party HP and restore all move PP. Advancing text with B x5.
 - Turn 25006: Mom dialogue concluding ('looking great! Take care now!'). Party fully healed and all PP restored. Advancing text with B x4 to close text box and prepare to head upstairs.
 - Turn 25007: Overworld control restored at (6, 4). Navigating Up x3 to (6, 1) and Right into stairs at (7, 1) to ascend to 2F bedroom.
+- Turn 25009: Arrived on 2F bedroom at stairs (7, 1). Moving Left x5 toward PC at (0, 1) to withdraw Master Ball and Bicycle.
 
 <hr>
