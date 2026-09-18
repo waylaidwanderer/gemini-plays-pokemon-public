@@ -221,7 +221,7 @@
   - Status: Healthy
   - HP: 216 / 216
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3963,7 +3963,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 216 / 216 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 10/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -3998,7 +3998,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Bruno Battle Summary
 - Outcome: FLAWLESS VICTORY! All 5 Pok�mon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
 - Prize Money: �5742 (New total: �89258).
-- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10).
+- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 10/10).
 
 # Elite Four Matchup 3: Agatha Strategy [Upcoming]
 - Agatha specializes in Ghost and Poison Pok�mon.
@@ -4021,6 +4021,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24806: Pok� Flute woke Sheldon! Gengar used Confuse Ray (Sheldon confused, HP 216/216). Dismissing text and opening FIGHT menu to verify move cursor for Surf.
 - Turn 24807: Bag menu was open. Pressing B to close bag, Up to FIGHT, and A to open move menu to select Surf.
 - Turn 24808: Move menu verified on SURF (4/15 PP). Executing Surf against Gengar Lv 56 (~40 HP remaining). Advancing with B to resolve KO and decline switch.
+- Turn 24809: Sheldon pushed through confusion and landed Surf! Gengar Lv 56 fainted! Sheldon at 216/216 HP. Advancing text with B to decline switch and face Golbat Lv 56.
 
 
 <hr>
