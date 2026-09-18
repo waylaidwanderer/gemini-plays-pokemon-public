@@ -179,15 +179,13 @@
 
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
-- SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 [Turn 24529]
+- Total Slots Used: 17 / 20 [Turn 24531]
 - Complete Top-to-Bottom Slot Order:
   1. BICYCLE
   3. POKé FLUTE
-  4. SUPER ROD
-  5. FULL RESTORE x1
+  2. FULL RESTORE x1
   6. MAX POTION x1
   7. REVIVE x5
   8. FULL HEAL x6
@@ -205,6 +203,7 @@
   20. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
+- SUPER ROD x1 (PC) [Stored Turn 24531]
 - BICYCLE x1 (PC) [Stored Turn 24529]
 - HM01 (CUT) x1 (PC) [Stored Turn 24526]
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
