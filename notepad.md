@@ -4199,5 +4199,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25495: Launched SURF with Sheldon at (8, 16) on Route 24 river! Surfing south down the river corridor toward Cerulean City canal and Cerulean Cave.
 - Turn 25496: Player surfing at (8, 24) on Route 24 river facing South. River is completely open heading south toward Cerulean City boundary.
 - Turn 25497: Player at (8, 34) surfing south toward Cerulean City boundary. Surfing south into Cerulean City canal.
+- Turn 25498: Arrived in Cerulean City canal at (18, 0) surfing on Sheldon. Navigating canal south toward cave landing bank at (5, 12).
 
 <hr>

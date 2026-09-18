@@ -60,3 +60,5 @@
 - Turn 25495: Launched SURF with Sheldon at (8, 16) on Route 24 river! Surfing south down the river corridor toward Cerulean City canal and Cerulean Cave.
 - Turn 25496: Player surfing at (8, 24) on Route 24 river facing South. River is completely open heading south toward Cerulean City boundary.
 - Turn 25497: Player at (8, 34) surfing south toward Cerulean City boundary. Surfing south into Cerulean City canal.
+- Turn 25498: Arrived in Cerulean City canal at (18, 0) surfing on Sheldon. Navigating canal south toward cave landing bank at (5, 12).
+- Turn 25499: Player reached (18, 5) in Cerulean canal. Row 6 tree line borders south; canal turns west along rows 4..5 toward column 6.
