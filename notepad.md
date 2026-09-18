@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (27, 16) facing North.
-- Active Navigation: Stepping East to (28, 16), North to (28, 14), East to (29, 14), and North along Column 29 toward (29, 12) and Ground Item (29, 9).
-- Objective: Navigate Column 28/29 eastern corridor to scout northeast chambers and retrieve Ground Item (29, 9).
+- Current Location: Cerulean Cave 2F at (29, 12) facing North.
+- Active Navigation: Stepping Left to (28, 12) and North along Column 28 to (28, 9) to retrieve Ground Item at (29, 9).
+- Objective: Retrieve Ground Item at (29, 9) and scout remaining 2F corridors/ladders.
 
 
 <hr>
