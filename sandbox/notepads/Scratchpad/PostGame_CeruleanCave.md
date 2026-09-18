@@ -23,7 +23,8 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (27, 2) on foot (Northern Elevated Terrace, facing Ladder 27, 1).
+- Current Location: Cerulean Cave 2F at (29, 1) on foot (Ladder 29, 1).
+- Traversal Breakthrough [Turn 26133]: Tile (27, 3) and (27, 2) are confirmed OPEN floor connecting Ladder (29, 1) at (28, 1..3) directly south to (27, 4) and west into the Upper Northwest Corridor (24..26, 4), disproving the old Turn 25768 assumption!
 - Active Strategy & Frontier:
   - [x] 1F Waterway Survey Completed [Turn 26112]: Visually audited northern/western water boundary at (9, 7). Confirmed Column 7 is solid rock (rows 4..15) and Rows 4..5 are solid rock (cols 6..13). 1F subterranean lake is 100% proven to be a closed loop with ZERO water passages to the northwest or B1F.
   - 2F Investigation: Navigate to the Northern Transit Corridor at (28, 3) and physically explore Row 3 westward to reach Candidate Ladder (1, 3) in the northwest corner.
