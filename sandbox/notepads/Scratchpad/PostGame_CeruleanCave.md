@@ -44,3 +44,4 @@
 - Turn 25267: Undefeated Lass initiated battle at (16, 25). Advancing dialogue and selecting FIGHT -> Double-Edge with Sheldon Lv 70.
 - Turn 25268: Clefairy OHKO'd by Sheldon's Double-Edge. Pressing B x8 to clear fainting, EXP, and prize money text.
 - Turn 25269: Defeated Lass (won ¥210). Player at (16, 25) in overworld. Walking Right x8 along row 25 into Eastern Avenue at (24, 25).
+- Turn 25271: Player at (21, 25) on foot facing East. Walking Down to (21, 26), Right x4 to (25, 26), and Up x5 along Eastern Avenue to (25, 21).
