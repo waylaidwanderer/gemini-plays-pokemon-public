@@ -4110,5 +4110,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Turn 25262: Player at (12, 25) on foot facing East. Walking Right x8 along row 25 toward (20, 25) Eastern Avenue corridor.
 - Turn 25263: Wild encounter triggered at (15, 25) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
+- Turn 25264: Wild Zubat Lv 10 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
 
 <hr>
