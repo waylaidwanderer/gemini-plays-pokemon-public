@@ -4111,5 +4111,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25083: Player at (13, 23) facing North on Bicycle. Riding Up x3 along col 13 to row 20 dirt road at (13, 20).
 - Turn 25085: Player at (13, 20) on Bicycle. Riding Left x4 along row 20 dirt road to (9, 20), then Up through ledge gap at (9, 19).
 - Turn 25087: Player at (9, 18) on Bicycle facing North. Riding Up x2 to row 16 dirt road, then Right x3 along row 16 to (12, 16).
+- Turn 25089: Stunned wandering Mart clerk at (15, 13). Riding Up x2 along col 12 dirt path to row 14, Right x2 to (14, 14), and Up to (14, 13) past row 13 hedge.
 
 <hr>
