@@ -4167,15 +4167,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Sector at (9, 3) on foot facing Down.
-- Active Navigation: Routing to Ladder (1, 3) via southern highway:
-  1. South down Column 9 to Row 5: (9, 3..5).
-  2. East along Row 5 (10..13, 5) to Column 13.
-  3. South down Column 13 (13, 6..9) to Row 9 southern highway.
-  4. West along Row 9 to western sector and Column 0.
-  5. North up Column 0 to (0, 3) to enter Ladder (1, 3).
-- Step 1: Walking Down x2 to (9, 5), then Right x2 along Row 5 to (11, 5).
-- Objective: Traverse southern network to reach and descend Ladder (1, 3) to B1F.
+- Current Location: Cerulean Cave 2F Northwest Sector at (16, 5) on foot facing East.
+- Active Navigation: Verified (16, 5) dead-ends east and (16, 7) dead-ends south. Navigating west along Row 5 to (13, 5) and north up Column 13 toward Row 1 (13..18, 1) to explore eastern passage connecting to Ladder (19, 7) and central 2F network.
+- Step 1: Walking Left x3 to (13, 5), then Up x2 up Column 13 to (13, 3).
+- Objective: Connect to central 2F network / Ladder (19, 7) and determine true route to B1F.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4264,5 +4259,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
 - Ditto: Lv 55 [Encountered 2F Turn 25661]
 - Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
+- Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
 
 <hr>
