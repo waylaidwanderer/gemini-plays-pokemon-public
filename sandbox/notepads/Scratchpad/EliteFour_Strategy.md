@@ -3,7 +3,7 @@
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 216 / 216 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 6/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 1/15), Surf (PP 0/15), Ice Beam (PP 6/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -48,7 +48,7 @@
 
 ## Agatha Battle Summary
 - Outcome: Victory! All 5 Pokémon defeated (Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Gengar Lv 60, Arbok Lv 58).
-- Sheldon Status: Healthy, Lv 68, HP 194/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 5/10).
+- Sheldon Status: Healthy, Lv 68, HP 194/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 1/15), Surf (PP 0/15), Ice Beam (PP 5/10).
 
 ## Elite Four Battle 4: Lance [In Progress Turn 24866]
 - Lance specializes in Dragon and Flying Pokémon.
@@ -64,3 +64,4 @@
 - Turn 24860: Full Restore used on Sheldon (healed from 194 to 216/216 HP). Full Restore count: 14. Closing menus to challenge Lance.
 - Turn 24864: Lance pre-battle dialogue on screen ('Well, are you ready to lose?'). Advancing dialogue to start battle against Gyarados Lv 58.
 - Turn 24866: Battle started facing Gyarados Lv 58. Sheldon at 216/216 HP. Navigating Down to Body Slam (Slot 2, PP 5/15) to attack Gyarados.
+- Turn 24867: Body Slam hit Gyarados down to ~65% HP (~135 HP remaining). Gyarados used Leer (failed). Sheldon at 216/216 HP. Advancing text to battle menu.
