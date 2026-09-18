@@ -3988,11 +3988,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   1. Onix Lv 53 [OHKO'd with Surf, gained 1225 EXP]
   2. Hitmonchan Lv 55 [OHKO'd with Surf, gained 1650 EXP]
   3. Hitmonlee Lv 55 [OHKO'd with Surf, gained 1638 EXP]
-- Current Opponent:
-  4. Onix Lv 56 (Rock/Ground) [Active on field]
-- Backline:
-  5. Machamp (Bruno's ace)
-- Strategy: Surf OHKOs Onix Lv 56 with 4x STAB weakness. Move cursor is on Surf.
+  4. Onix Lv 56 [OHKO'd with Surf]
+- Final Opponent:
+  5. Machamp Lv 58 (Bruno's ace)
+- Strategy: Surf deals ~140 damage (clean 2HKO or OHKO on crit). Sheldon at 213/213 HP outspeeds. Fissure fails vs Lv 67 Sheldon.
 
 
 <hr>
