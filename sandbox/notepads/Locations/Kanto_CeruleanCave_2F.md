@@ -9,6 +9,7 @@
 - Tile (22, 7): Open floor connecting east to (23, 7).
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11).
 - Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11).
-- Column 24 South Corridor (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Visual line-of-sight shows open floor across rows 11..15.
+- Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Empirically verified to dead-end at (24, 15) with solid rock wall at (24, 16). No items or branches.
+- Ground Item (29, 9): Poké Ball item visually confirmed at (29, 9) in eastern corridor.
 - Row 11 West Corridor (Cols 19..22, Row 11): 1-tile wide horizontal corridor visible running west between row 10 wall and row 12 wall.
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
