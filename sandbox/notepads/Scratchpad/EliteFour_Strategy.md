@@ -50,3 +50,4 @@
   5. Gengar Lv 60 (Ghost/Poison) -> SURF
 - Defense against Status: POKé FLUTE in active bag wakes Sheldon up instantly if put to sleep by Hypnosis! Full Restores cure Confuse Ray / Toxic.
 - Turn 24796: Entered Agatha's chamber at (4, 5). Advancing to (5, 3) facing Agatha at (5, 2) to initiate dialogue.
+- Turn 24798: Dialogue initiated with Agatha at (5, 3). 'I am AGATHA of the ELITE FOUR!' on screen. Advancing dialogue to trigger battle.
