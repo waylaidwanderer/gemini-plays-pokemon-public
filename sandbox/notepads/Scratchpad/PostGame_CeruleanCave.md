@@ -67,3 +67,4 @@
 - Turn 25208: Player at (4, 1) facing North. Doorway at (5, 0). Stepping Right to (5, 1) and Up x2 through doorway onto Route 2 North.
 - Turn 25210: Emerged onto Route 2 North at (3, 11) facing North. Opening Start menu -> ITEM to equip Bicycle.
 - Turn 25211: Bag menu open with cursor on Item 1 (POKé FLUTE). Scrolling Down x6 to select BICYCLE.
+- Turn 25212: Cursor confirmed on BICYCLE in Bag menu. Pressing A x2 to USE, then B x2 to dismiss text and return to overworld mounted on Bicycle.
