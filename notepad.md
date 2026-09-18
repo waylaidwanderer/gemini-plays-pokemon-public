@@ -4245,5 +4245,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ground Item (29, 9): Poké Ball item visually confirmed at (29, 9) in eastern corridor.
 - Row 11 West Corridor (Cols 19..22, Row 11): 1-tile wide horizontal corridor visible running west between row 10 wall and row 12 wall.
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
+## Wild Pokémon (Empirically Verified)
+- Dodrio [Encountered 2F Turn 25536]
 
 <hr>
