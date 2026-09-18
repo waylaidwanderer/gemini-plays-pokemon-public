@@ -2920,5 +2920,11 @@
 - From (24, 10), water canal spans east to cols 28-29, which run north to Row 5 northern lake.
 - Row 5 northern lake extends west across the entire cave to cols 2-3, connecting south to SW Ladder at (3, 11).
 - SW Ladder (3, 11) leads directly to 2F SW Sector -> Ladder A (1, 3) -> B1F Mewtwo!
+## 1F Upper Highway Verified (Turn 53558)
+- (21, 11) is fully passable.
+- From (21, 11), walk north to Row 6 (21, 6).
+- Row 6 is a continuous open floor highway running west across the entire 1F map to Column 3 (3, 6).
+- From (3, 6), walk south down Column 3 directly to SW Ladder at (3, 11).
+- Climb SW Ladder (3, 11) to 2F SW Sector -> Ladder A (1, 3) -> B1F Mewtwo!
 
 <hr>
