@@ -222,7 +222,7 @@
   - Status: Healthy
   - HP: 123 / 219
   - Stats: Attack 163, Defense 189, Speed 163, Special 168 [Verified Lv 69 Turn 24884]
-  - Moves: Double-Edge (PP 7/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 3/10)
+  - Moves: Double-Edge (PP 7/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 2/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -4020,6 +4020,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24893: Ice Beam scored a CRITICAL HIT and OHKO'd Lance's second Dragonair Lv 56! Dragonair fainted. Lance has 2 Pokémon left (Aerodactyl Lv 60, Dragonite Lv 62). Advancing text and switch prompt.
 - Turn 24895: Lance sent out Aerodactyl Lv 60 (4/5). Sheldon active at 123/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Ice Beam.
 - Turn 24896: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 3/10). Pressing A to execute Ice Beam on Aerodactyl Lv 60.
+- Turn 24897: Ice Beam OHKO'd Lance's Aerodactyl Lv 60 (4/5)! Lance has only 1 Pokémon remaining: Dragonite Lv 62. Ice Beam PP now 2/10. Sheldon at 123/219 HP. Advancing text to face Dragonite.
 
 <hr>
 
