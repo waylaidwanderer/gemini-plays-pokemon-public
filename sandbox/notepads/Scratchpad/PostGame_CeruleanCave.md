@@ -29,9 +29,9 @@
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (12, 6) surfing facing West.
-- Active Navigation: Surfing West along Row 6 water channel to (8, 6) at the western junction.
-- Objective: Scout western waterway (Cols 0..8) and southern water highway (Cols 8..9, Rows 8..10+) toward B1F ladder and Ladder (18, 9).
+- Current Location: Cerulean Cave 1F at (8, 6) surfing facing West.
+- Active Navigation: Surfing South down Column 8 water highway (8, 7..10) toward southern cavern expanse.
+- Objective: Follow Column 8..9 water highway south to locate shores, B1F ladder, and Ladder (18, 9) approach.
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
