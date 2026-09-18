@@ -3,7 +3,7 @@
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 194 / 216 (Confused)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 6/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -40,5 +40,6 @@
   4. Arbok Lv 58 [Withdrawn by Agatha on Turn 24828 at ~40% HP, ~65 HP remaining]
 - Agatha Supplies: Both Super Potions burned! Agatha has 0 potions remaining.
 - Strategy:
-  - Gengar Lv 60: Finish with 1-2 hits of Ice Beam (Slot 4, PP 7/10).
+  - Gengar Lv 60: Took Super Potion to ~60 HP. Sheldon snapped out of confusion ('SHELDON's confused no more!') and Ice Beam is executing (PP 6/10).
+  - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
   - Arbok Lv 58: OHKO upon re-entry with 1 Ice Beam (~95 damage vs ~65 HP).
