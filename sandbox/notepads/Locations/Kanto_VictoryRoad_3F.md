@@ -15,7 +15,7 @@
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
-- Plateau Barrier Block at (7, 10): Raised barrier block with blue/white checkerboard pattern. Blocks westward traversal across Row 10 terrace from (8, 10) to (6, 10) [Empirically verified raised Turn 24254]. Hypothesized to be lowered by depressing Switch Plate (3, 5).
+- Plateau Barrier Block at (7, 10): Lowered/removed by placing Boulder 1 on Switch Plate (3, 5) [Visually confirmed lowered Turn 24406; empirically verified raised Turn 24254 before switch depression]. Westward traversal across Row 10 terrace from (8, 10) to (6, 10) is now open.
 - Boulder 1: Located at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
