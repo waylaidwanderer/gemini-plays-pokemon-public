@@ -3977,6 +3977,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sheldon snapped out of confusion! Sheldon HP: 169/213. Body Slam executing to finish off Cloyster.
 - Turn 5: Body Slam brought Cloyster to 1 pixel HP and paralyzed it! Sheldon HP: 169/213 (cured of confusion). Finishing blow queued.
 - Turn 6: Cloyster used Spike Cannon (Sheldon at 158/213 HP). Cloyster at 1 HP. Sheldon executing Body Slam to finish off Cloyster.
+- Turn 7: Battle menu open on FIGHT. Sheldon (HP 147/213) executing Body Slam to KO 1-HP paralyzed Cloyster.
 
 
 <hr>
