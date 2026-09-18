@@ -4166,7 +4166,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Empirical Physical Discovery: Column 19 is a solid rock wall from Row 8 to Row 16, and Row 16 is a solid southern cliff barrier. The entrance cavern (Cols 20..25, Rows 12..17) has NO westward passage to Columns 17..18.
 - Staircase (17, 15) and Ladder (18, 9) reside on the Central-Western Terrace (Cols 11..18).
 - Routing Plan: Ascend Staircase (21, 11) back to entrance terrace, cross east to Staircase (25, 9), Surf through subterranean lake to Staircase (11, 13), ascend onto Central-Western Terrace, and head south to explore Staircase (17, 15) and locate descent to B1F.
-- Next Step: Step Up x4 through Staircase (21, 11) to (21, 8), Right x4 to (25, 8), Down to (25, 9), and Surf onto (25, 10).
+- Next Step: Step Left x7 along Row 4 to (15, 4), then Down x2 to (15, 6).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4193,27 +4193,27 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
 - Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
-- Central-Western Elevated Land Terrace (Cols 11..18, Rows 8..13): Elevated plateau accessed via Staircase (11, 13). Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12)]
-- Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..13). [Visually confirmed Turn 25637]
+- Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..14). [Visually confirmed Turn 25637]
+- Central-Western Terrace (Cols 11..18, Rows 8..14): Elevated plateau accessed via Staircase (11, 13) or 2F Ladder (19, 7). Contains Ladder (18, 9) leading to 2F. Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12) and (18, 9)]
+- Staircase (17, 15): Wooden staircase at (17, 15) positioned at southern tip of Central-Western Terrace. [Visually sighted from across Column 19, physical traversal and descent direction unverified]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7. At (8..9, 6..7), turns south down Columns 8..9 into a vertical water highway heading toward the southern cavern. [Physically verified]
+- Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (15, 4). At (15, 4), connects north to Staircase (15, 3) and south down Column 15.
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
 - Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
+- Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
-- Central-Western Terrace (Cols 11..18, Rows 8..14): Contains Ladder (18, 9) leading to 2F and Staircase (17, 15) at its southern tip. Accessed via Staircase (11, 13) from subterranean water or via 2F Ladder (19, 7).
-- Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14).
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
 
-## Wild Pokémon (Empirically Verified)
+## Wild Pok�mon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
-- Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
-- Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
+
 
 <hr>
 
@@ -4250,8 +4250,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Alcove (29, 9). [Physically verified]
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Sighted Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Sighted Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7). Physical route to this pocket remains to be explored.
+- Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
+- Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
+- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4), dead-ending against rock walls (27, 3), (28, 4), and (27, 5). [Physically verified Turns 25768-25769]
 
-## Wild Pokémon (Empirically Verified)
+## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
@@ -4259,8 +4262,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
 - Venomoth: Lv 51 [Encountered 2F Turn 25775]
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
-- Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
-- Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
-- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4), dead-ending against rock walls (27, 3), (28, 4), and (27, 5). [Physically verified Turns 25768-25769]
+
 
 <hr>
