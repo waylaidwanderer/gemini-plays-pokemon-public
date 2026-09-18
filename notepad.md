@@ -2841,7 +2841,7 @@
 ## Verified Sector Structure
 - Southwest Sector (SW Ladder 3, 11): Contains horizontal corridors at Row 9 (3..20, 9) and Row 11 (5..24, 11), with southern maze (Rows 12-15).
 - East Sector (Ladder B 22, 6 / Ladder C 19, 7): Column 23 connects (23, 11) up to (23, 5).
-- Northwest Sector (Ladder E 9, 1): Spans rows 1-5, cols 3-9, connects to Ladder A (1, 3).
+- Northwest Sector (Ladder E 9, 1): Spans rows 1-5, cols 3-9. Isolated by solid rock barriers along Column 2 and Row 4; does NOT connect to Ladder A. Access to Ladder A (1, 3) requires SW Ladder (3, 11) via 1F.
 
 <hr>
 
