@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (29, 6) facing East.
-- Active Navigation: Walking North up Column 29 (29, 5..3), Left to (28, 3), and North to (28, 2) on the upper transit route.
-- Objective: Traverse upper northern corridors (Rows 1..3) west toward Ladder (19, 7) and northwest sector.
+- Current Location: Cerulean Cave 2F at (28, 2) facing North.
+- Active Navigation: Stepping Up to (28, 1) and Right onto newly discovered Ladder (29, 1).
+- Objective: Test Ladder (29, 1) destination to determine connectivity to 1F/B1F route.
 
 - Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
 
@@ -4210,6 +4210,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Accessible from (28, 1) via East step or (29, 0) via South step. [Physically sighted Turn 25602]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Sighted Ladder (19, 7): Cave ladder visually sighted at (19, 7) across western rock partition; direct connectivity/accessibility not yet physically tested.
 
