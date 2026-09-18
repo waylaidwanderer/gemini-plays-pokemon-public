@@ -22,8 +22,9 @@
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
-- Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
-- Staircase (17, 15): Wooden staircase sighted at (17, 15) ascending west to upper elevation [Unverified sighting from afar].
+- Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
+- Central-Western Terrace (Cols 11..18, Rows 8..14): Contains Ladder (18, 9) leading to 2F and Staircase (17, 15) at its southern tip. Accessed via Staircase (11, 13) from subterranean water or via 2F Ladder (19, 7).
+- Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14).
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
 
 ## Wild Pokémon (Empirically Verified)
