@@ -218,10 +218,10 @@
 - ¥101336 [Turn 24904]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 69, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 139 / 219
-  - Stats: Attack 163, Defense 189, Speed 163, Special 168 [Verified Lv 69 Turn 24884]
+  - HP: 142 / 222
+  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 4/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
@@ -4061,6 +4061,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24929: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 1/10) facing Rhydon Lv 61. Pressing A to execute 2x super-effective Ice Beam.
 - Turn 24931: Ice Beam OHKO'd Rhydon Lv 61 (3/6)! Rhydon fainted. 3 of RED's Pokémon defeated. Sheldon at 139/219 HP. Advancing text through fainting, EXP, and switch prompt with B x5 to reveal RED's 4th Pokémon.
 - Turn 24932: Sheldon grew to Level 70! Stats: HP 142/222, Attack 166, Defense 191, Speed 165, Special 171. Rhydon defeated (3/6). Pressing B x5 to dismiss stat window, advance text, and decline switch for RED's 4th Pokémon.
+- Turn 24933: RED sent out Gyarados Lv 61 (4/6). Sheldon active at Level 70 (142/222 HP). Declined switch. Battle menu open on FIGHT. Opening FIGHT menu and navigating Up x3 to Slot 1 (Double-Edge, PP 4/15).
+- Turn 24934: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 4/15) facing Gyarados Lv 61. Pressing A to execute Double-Edge.
 
 <hr>
 
@@ -4141,11 +4143,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Lance: Located at (6, 1) facing South [Turn 24857]. Dragon Master of the Elite Four.
   - Specializes in Dragon and Flying Pok�mon.
   - Team: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
-  - Strategy:
-    - Gyarados: Body Slam / Double-Edge (high physical attack vs 79 Defense).
-    - Dragonair x2: Ice Beam (2x weakness, OHKO).
-    - Aerodactyl: Ice Beam (2x weakness, OHKO).
-    - Dragonite: Ice Beam (4x weakness, OHKO).
+
 
 - Defeated Turn 24903 by Sheldon Lv 69 (123/219 HP). Prize: ¥6138. Northern door unlocked.
 
@@ -4164,6 +4162,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Champion
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
-- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated). Remaining 3 bench Pokémon unrevealed in-game.
+- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Active). Remaining 2 bench Pok�mon unrevealed in-game.
 
 <hr>
