@@ -150,7 +150,8 @@
 - [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
 - [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
 - [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
-- [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
+- [x] Inducted into Pokémon Hall of Fame! [Turn 24994]- [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
+
 
 <hr>
 
@@ -172,16 +173,16 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Total Slots Used: 8 / 20 [Audited Turn 25144]
+- Total Slots Used: 8 / 20 [Audited Turn 25510]
 - Verified Active Bag Items (8 items):
-  1. POKé FLUTE
-  2. FULL RESTORE x10
+  1. MASTER BALL x1 [Pre-swapped to Slot 1 Turn 25510]
+  2. POKé FLUTE
   3. MAX POTION x1
   4. REVIVE x14
   5. FULL HEAL x6
   6. MAX REVIVE x1
   7. BICYCLE
-  8. MASTER BALL x1
+  8. FULL RESTORE x10
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -4189,6 +4190,26 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25483-25499: Traversed Cerulean City from Route 4 bridge to Northern District Street, visually verified guard at (4, 12) departed, navigated north through cols 20..21 to Route 24, bypassed defeated bridge trainers on col 10/11, launched SURF with Sheldon at (8, 16) on Route 24 river, and surfed south down river corridor into Cerulean City canal at (18, 0) through (10, 5).
 - Turn 25502: Player at (10, 5) surfing facing West. Navigating Left x4 to (6, 5) channel and Down x4 to (6, 9) toward Cerulean Cave at (4, 11).
 - Turn 25503: Player at (6, 9) surfing facing South in canal. Visual confirmation: cave mouth at (4, 11), cobblestone bank at (5, 12) and (4, 12). Surfing Down x3 to (6, 12) and stepping Left onto shore at (5, 12).
-- Turn 25504: Successfully landed ashore at (5, 12) on foot facing West! Cobblestone shore empirically verified. Stepping Left to (4, 12) and Up into (4, 11) to enter Cerulean Cave!
+- Turn 25504: Successfully landed ashore at (5, 12) on foot facing West! Cobblestone shore empirically verified. Stepping Left to (4, 12) and Up into (4, 11) to enter Cerulean Cave!- Turn 25505: Entered Cerulean Cave 1F at (24, 17) on foot facing North.
+- Turn 25510: Pre-swapped Master Ball to Slot 1 in Bag for safe 100% instant capture execution on Mewtwo.
+
+
+<hr>
+
+<h1><code>Locations/Kanto_CeruleanCave_1F</code></h1>
+
+# Cerulean Cave 1F Geography & Exploration
+
+## Connections
+- South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
+
+## Layout & Corridors
+- Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
+- Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
+- Northern Water Pool (Cols 24..25, Row 13+): Underground water pool directly north of entrance corridor at row 13.
+- Central Eastern Pillar (Col 26, Rows 13..17): Rock formation separating entrance area from eastern corridor.
+- Eastern Corridor (Cols 27..28, Rows 13..16): Open 2-tile wide north-south passage east of pillar.
+- Western Cavern (Cols 0..23, Rows 14..17+): Wide open cavern expanding to the west.
+
 
 <hr>
