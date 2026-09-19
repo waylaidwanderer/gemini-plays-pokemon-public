@@ -4159,7 +4159,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at Ladder (22, 6).
+- Current Location: Cerulean Cave 2F Row 13 at (17, 13).
 - Active Route:
   1. Descend Column 23 south from (23, 7) to Row 11 Junction at (23, 11).
   2. Explore 2F Master Network branches:
