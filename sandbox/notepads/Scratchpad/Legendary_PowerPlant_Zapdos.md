@@ -11,7 +11,7 @@
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
 
 ## Capture Strategy & Preparation
-- Current Ball Inventory: ULTRA BALL x21 (expended 16 balls across Turns 29000-29052, 21 remaining).
+- Current Ball Inventory: ULTRA BALL x20 (expended 17 balls across Turns 29000-29054, 20 remaining).
 - Mathematical Damage & Catch Analysis:
   - Wild Zapdos Lv 50: Max HP 150-165, Defense 90-105.
   - Mewtwo Lv 70 (Attack 167) Swift (Power 60) damage rolls:
