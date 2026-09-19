@@ -3137,7 +3137,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron Gym (Sabrina), Fighting Dojo, Copycat's house, Mr. Psychic's house, and connections to Routes 5 (North), 6 (South), 7 (West), and 8 (East).
 
 ## Connections
-- West: Route 7 via West Gatehouse. Map transition at col 0, rows 17..18 connecting to Route 7.
+- West: Route 7 via West Gatehouse [Verified Turn 28737]. Stepping West from (0, 17) warps directly to Route 7 at (19, 9) facing West, east of the Saffron West Gatehouse.
 - East: Route 8 via East Gatehouse located at cols 38..42, rows 16..19; signpost at (39, 19) [Sighted Turn 12679].
 - North: Route 5 via North Gatehouse [Verified Turn 28728]. Emerges at (20, 0) facing South onto the 4-tile wide avenue (cols 18..21) west of Fighting Dojo.
 - South: Route 6 via Southern Boulevard exit across rows 35..36.
