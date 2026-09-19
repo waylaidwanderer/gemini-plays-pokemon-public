@@ -10,7 +10,7 @@
 
 ## Layout & Corridors
 - Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. (2, 3) is solid rock. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
-- Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects directly south into the Row 5 Northwest Highway spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access between Row 3/Row 1 and Row 5/Ladder (1, 3) is south of Row 5 via Row 6/7. [Visually verified Turn 26889]
+- Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access route into this enclave from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south, and Row 8 blocks from the south.
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]
@@ -31,9 +31,9 @@
   - Row 17 Southern Thoroughfare West: Open horizontal corridor spanning (3..7, 17) and (11..17, 17). (8..10, 17) is a rock barrier.
   - Column 13 Bypass: Open vertical corridor at (13, 15..17) connecting Row 17 north to Row 15, stepping west to Column 12 at (12, 15).
   - Column 12 Vertical Highway: Open vertical passage spanning (12, 9..15) connecting Row 9 directly south to the lower southwest network.
-- Row 9 East Bypass (Cols 13..15, Rows 8..9):
-  - (14, 9) is a solid rock wall blocking direct east-west traversal along Row 9.
-  - Bypass route: (13, 9) -> (13, 8) -> (14, 8) -> (15, 8) -> (15, 9). [Physically verified Turns 26008-26009]
+- Row 9 East Bypass & Terminus (Cols 13..21, Rows 8..10):
+  - (14, 9) is a solid rock wall blocking direct east-west traversal along Row 9. Bypass route: (13, 9) -> (13, 8) -> (14, 8) -> (15, 8) -> (15, 9). [Physically verified Turns 26008-26009]
+  - East Terminus: Row 9 extends east from (15, 9) through (16..20, 9) [physically traversed] to an enclosed dead-end alcove at (21, 9) [visually verified]. Bounded north by solid rock wall across Row 8 (16..22, 8), east by solid rock wall at (22, 9), and south by solid rock wall across Row 10 (16..22, 10). Row 9 has ZERO connection to Column 23, Row 11, or Ladder (22, 6). [Verified Turns 26991-26997]
 - Alcove (10, 12): 1-tile dead-end alcove off Row 11 at (10, 11), bounded south by rock wall at (10, 13). [Physically verified Turn 25934]
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
@@ -80,4 +80,4 @@
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
-- Row 9 East Terminus (Cols 16..21, Rows 8..10): Row 9 extends east through (16..20, 9) to an enclosed dead-end alcove at (21, 9). Bounded north by solid rock wall across Row 8 (16..22, 8), east by solid rock wall at (22, 9), and south by solid rock wall across Row 10 (16..22, 10). Row 9 has ZERO connection to Column 23, Row 11, or Ladder (22, 6). [Empirically verified Turns 26991-26997]
+
