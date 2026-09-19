@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (6, 17) on foot facing Right.
+- Current Location: Cerulean Cave 1F at (10, 17) in wild battle with Golbat.
 - Completed Audit of Row 8 (Cols 1..6) [Turn 26379-26381]: Moving Up against Row 7 is 100% blocked across all columns 1..6 (cliff ledge at cols 1..4, rock walls at (5, 7) and (6, 7)). Moving east into (7, 8) is blocked.
 - Conclusion: Direct ground access to Ladder (0, 6) from the Western Terrace is physically impossible.
 - Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
