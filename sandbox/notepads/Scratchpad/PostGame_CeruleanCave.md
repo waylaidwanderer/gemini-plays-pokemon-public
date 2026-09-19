@@ -8,13 +8,14 @@
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (24, 4) (Surfing in subterranean waterway).
-- Entrance Cavern (21, 11) Audit Conclusion: Staircase (21, 11) was verified as the ground-to-terrace entrance staircase traversed on Turn 25522 from entrance mat (24, 17) to Ladder (23, 7). It contains zero unexplored paths or B1F descent.
+- Strategic Realization: Staircase (21, 11) in Entrance Cavern is the original entrance stairs to Entrance Terrace / Ladder (23, 7). Ladder (3, 11) on Western Terrace is the ONLY ladder providing access to 2F Western Network and Row 9.
 - Active Plan:
-  1. From (24, 4), navigate to the nearest accessible ladder to 2F (Ladder 23, 7 via Staircase 25, 9; or Ladder 3, 11).
-  2. Ascend to 2F.
-  3. Navigate to 2F Row 9 (Cols 4..12).
-  4. Systematically collision-test every northward step from Row 9 (Cols 4..11) into Row 8 to find the open passage into Rows 8, 7, 6 and access Northwest Enclave / Ladder (1, 3).
-  5. Enter Northwest Enclave, reach Ladder (1, 3), and take it to discover B1F (Mewtwo's lair).
+  1. Surf west along Row 4 to (15, 4), south down Column 15 to (15, 7), west along Row 7 to Column 9, south to (9, 14), and east to Staircase (11, 13).
+  2. Dismount at Staircase (11, 13), cross Central-Western Terrace to Staircase (17, 15).
+  3. Traverse Southwest Lower Corridor along Row 17 and Column 2 to Staircase (1, 13), ascending to Western Terrace.
+  4. Ascend Ladder (3, 11) to 2F.
+  5. On 2F, walk north from (3, 11) to (3, 9), and systematically collision-test each column (4..11) along Row 9 stepping North into Row 8 to locate the passage into Rows 8, 7, 6.
+  6. Enter Northwest Enclave, reach Ladder (1, 3), and take it to discover B1F (Mewtwo's lair).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
