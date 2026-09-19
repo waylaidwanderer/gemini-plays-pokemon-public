@@ -12,3 +12,6 @@
    - Walk south to shoreline at (24, 9)/(25, 9) facing South.
    - Activate SURF with HYDROS onto 1F water basin.
    - Navigate 1F water channel west and north to reach all isolated 1F shores and ladders (including SW Ladder at (3, 11) and NW sector).
+3. **1F Northern Landmass**:
+   - Dock at (15, 3) allows disembarking north from the central water channel onto Row 0-2 open floor (cols 11-16+).
+   - Northern Highway leads west towards (7, 1) Ladder E and the western corridors.
