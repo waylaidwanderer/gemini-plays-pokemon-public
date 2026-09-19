@@ -1601,7 +1601,7 @@
 ## Connections
 - West: Route 9 (connects at cols 0..1, rows 6..9 to Route 9 (59..60, 6..9); Route 9 (59, 8) <-> Route 10 (0, 8) [Turn 4517]).
 - South: Lavender Town (via Rock Tunnel).
-- North: Power Plant (via water canal, requires Surf).
+- North: Power Plant (accessed via northern water canal at (2..15, 3..4); gateway at cols 2..3 row 5 connects Central Lawn to row 4 shoreline apron [Turn 28525]).
 
 ## Geography & Layout
 - Western Entrance (Cols 0..1, Rows 6..9): Wide open pale mint paved avenue connecting from Route 9.
@@ -4398,8 +4398,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 3. Traverse Diglett's Cave to Route 11 / Vermilion City. [DONE - Turn 28406]
 4. Traverse Route 6 -> Underground Path (Route 6 - Route 5) -> Route 5 -> Cerulean City. [DONE - Turn 28456]
 5. Heal team at Cerulean City Pok�mon Center and set warp anchor. [DONE - Turn 28476]
-6. Traverse Route 9 East (Cut tree at entrance with DUX). [ACTIVE]
-7. Arrive at Route 10 North, surf south along the canal to Power Plant.
+6. Traverse Route 9 East (Cut tree at entrance with DUX). [DONE - Turn 28496]
+7. Arrive at Route 10 North, surf south along the canal to Power Plant. [ACTIVE]
 8. Explore Power Plant interior and capture legendary Zapdos!
 
 ## Power Plant Intelligence
