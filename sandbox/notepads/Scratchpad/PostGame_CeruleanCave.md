@@ -7,13 +7,14 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (14, 7) (Surfing in subterranean waterway).
+- Current Location: Cerulean Cave 1F at (24, 4) (Surfing in subterranean waterway).
+- Entrance Cavern (21, 11) Audit Conclusion: Staircase (21, 11) was verified as the ground-to-terrace entrance staircase traversed on Turn 25522 from entrance mat (24, 17) to Ladder (23, 7). It contains zero unexplored paths or B1F descent.
 - Active Plan:
-  1. Surf east to Column 15, north to Row 4 at (15, 4), then east along Row 4 waterway.
-  2. Surf south from Column 23 into Northern Subterranean Lake toward Staircase (25, 9).
-  3. Surf east across the subterranean waterway to Entrance Cavern / Staircase (25, 9).
-  4. Navigate to Wooden Staircase (21, 11) in Entrance Cavern.
-  5. Ascend Staircase (21, 11) onto the elevated terrace at (21..22, 10) to physically survey and collision-test its boundaries and connections.
+  1. From (24, 4), navigate to the nearest accessible ladder to 2F (Ladder 23, 7 via Staircase 25, 9; or Ladder 3, 11).
+  2. Ascend to 2F.
+  3. Navigate to 2F Row 9 (Cols 4..12).
+  4. Systematically collision-test every northward step from Row 9 (Cols 4..11) into Row 8 to find the open passage into Rows 8, 7, 6 and access Northwest Enclave / Ladder (1, 3).
+  5. Enter Northwest Enclave, reach Ladder (1, 3), and take it to discover B1F (Mewtwo's lair).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
