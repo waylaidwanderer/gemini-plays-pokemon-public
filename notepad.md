@@ -4492,8 +4492,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball 4 at (21, 14) [Sighted Turn 28599]: Visible at (21, 14) south of twin-dial generator at (21, 13) and west of vertical wall at (22, 13..15). Accessible from south/west. Identity unverified.
 - Trap at (21, 25) [Cleared Turn 28625]: Voltorb Lv 40 trap. Interacted from (21, 26) facing North; fled safely. Trap entity permanently despawned; tile (21, 25) is now clear floor.
 - Item Ball 6 at (20, 32) [Sighted Turn 28616]: Visible at (20, 32) in southern machine corridor, south of generator at (20, 31). Accessible from west via (18..19, 32). Identity unverified.
-## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 28..38) [Sighted From Afar - Unverified]
-- Row 14 Highway: Visually sighted across cols 28..38 above row 15 wall from row 16; appears to connect to outer eastern corridor (cols 37-38). Unverified until traversed.
+## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 28..38)
+- Row 14 Highway: Physically traversed across cols 34..38 [Turn 28638]. Confirmed wide open horizontal highway connecting outer eastern corridor (cols 37-38) west across (36, 14).
 - Gateway at (30..31, 13): Sighted 2-tile wide gap through row 13 wall connecting row 14 toward row 12. Unverified until traversed.
 - Row 12 Concourse: Open tiles sighted north of row 13 wall heading west toward northern chambers. Unverified until traversed.
 ## Sector 4 Audit Findings & Loop Geography
