@@ -9,7 +9,11 @@
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
-- Row 8 Cliff Barrier (Cols 1..4, Row 8): Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face. [Physically verified Turns 26306-26307]
+- Row 8 Cliff Barrier (Cols 1..6, Row 8):
+  - Cols 1..4: Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face / south-facing ledge [Verified Turns 26306-26307].
+  - Cols 5..6: Stepping Up into Row 7 from (5, 8) and (6, 8) is blocked by solid rock walls at (5, 7) and (6, 7) [Empirically tested Turn 26379].
+  - Col 6 East: Stepping Right from (6, 8) into (7, 8) is blocked by rock/cliff barrier [Empirically tested Turn 26379].
+  - Definitive Conclusion: The Western Terrace has ZERO ground passage into the elevated northwest alcove enclosing Ladder (0, 6). The Row 8 cliff is an impassable barrier from the south.
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
