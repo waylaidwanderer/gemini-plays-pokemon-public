@@ -4534,7 +4534,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Status: Doorway reached at (4, 6); un-traversed tiles across rows 7..11 remain unverified sightings until physically explored during final capture expedition.
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
-- Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24.
+- Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656, 28965]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24. Tile (22, 14) is a solid vertical dividing wall. Columns 23-24 form an open 2-tile wide vertical concourse ascending North past row 10 toward the northern foyer.
 - Gateway at (30..31, 13) [Traversed Turn 28640]: 2-tile wide open north-south passage through row 13 wall connecting Row 14 Highway to Row 12 Concourse.
 - Row 12 Concourse [Traversed Turns 28641, 28647]: Open horizontal avenue running across cols 26..38 north of row 13 wall.
 
@@ -4548,7 +4548,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trap at (26, 28) [Cleared Turn 28630]: Voltorb Lv 40 trap. Interacted from (25, 28) facing East; fled safely. Trap entity permanently despawned; tile (26, 28) is now clear floor.
 - Item Ball 8 at (26, 32) [Sighted Turn 28627]: Visible at (26, 32) in southern machine corridor, bounded west by (25, 32) and east by terminal at (27, 32). Identity unverified.
 - Item Ball 9 at (28, 3) [Collected Turn 28644]: HP UP! Interacted from (28, 4) facing North. Collected into bag; tile (28, 3) is now clear floor.
-
 
 <hr>
 
