@@ -28,3 +28,9 @@
   - Northern hallway runs straight west along row 2 (cols 0..7).
   - Occupants: NPC at (4, 3), guard at (4, 5).
   - West exit at row 2 leads out to Route 16 West and the Secret House.
+
+- Route 16 West (Audited Turn 28781):
+  - West Gatehouse Exit: Emerges at (17, 4) facing Left from gatehouse door at (18, 4..5).
+  - Paved Corridor (Rows 4..5, Cols 12..17): 2-tile wide pale mint roadway running west toward the Secret House.
+  - North Boundary: Green lawn at rows 2..3 fronted by stone fence posts at row 1.
+  - South Boundary: Green lawn at rows 6..7 separating corridor from lower Cycling Road (row 8+).
