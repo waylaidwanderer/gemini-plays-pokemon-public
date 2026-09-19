@@ -14,7 +14,8 @@
 6. **Ladder A (to B1F Mewtwo)**: Descending ladder to B1F located in western corridor at (1, 3). Accessible via Western Corridor (cols 0-1).
 
 ## Verified Sector Structure & Collisions (2F)
-- **Northwest Plateau (Ladder E 9, 1)**: Spans rows 0-5, cols 3-18. Blocked from Western Corridor by rock divider at (2, 1..3) and (8, 5).
+- **Northwest Plateau (Ladder E 9, 1)**: Spans rows 0-5, cols 3-18.
+- **Path to Ladder A (1, 3)**: From Northwest Plateau, route is (9, 1) -> west along Row 1 to (5, 1) -> (5, 3) -> (6, 3..5) -> Row 5 west through (6..0, 5) -> Column 0 north through (0, 5..3) -> Right onto Ladder A at (1, 3) [Empirically Verified Turn 55198].
 - **Eastern Corridor (Ladder D 29, 1)**: Runs south through (29, 1..6) -> (27, 6..7) -> (25, 7..9) -> (26, 9..14) -> (28, 14..16) -> (27, 16..17).
 - **Southern Crossover (Rows 11-17)**: (27, 17) -> (21, 17) -> (21, 15) -> (22, 13) -> (17, 13) -> (17, 11) -> (16, 11).
 - **Northeast Sector (Ladder D 29, 1)**: Connects down to 1F Northern Mainland at (27, 1). Note: (28, 4) and (29, 2) are solid barriers; movement west across the upper rows is blocked on 2F.
