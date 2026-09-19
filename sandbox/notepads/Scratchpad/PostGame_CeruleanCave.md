@@ -28,5 +28,5 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Explore western terrace (Cols 0..4, Rows 9..13) from (4, 9) to locate empirical descent/staircase to lower cavern and waterways. [ACTIVE]
-  2. Navigate waterways to Mewtwo's platform and capture Mewtwo with the Master Ball.
+  1. Navigate Column 2 artery south: (0, 12) -> (2, 12) -> (2, 15) to reach subterranean waterways. [ACTIVE]
+  2. Launch Surf on waterways and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
