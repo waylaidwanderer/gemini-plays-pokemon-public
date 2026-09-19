@@ -171,7 +171,7 @@
 3. REVIVE x14
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
-6. BICYCLE [Key Item - Mounted Turn 28750]
+6. BICYCLE [Key Item]
 7. FULL RESTORE x12
 (Remaining lower items: PP UP, MAX ELIXER, NUGGET, ULTRA BALL x2, HP UP)
 
@@ -2005,7 +2005,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 ## Connections
 - East: Route 7 connection avenue (cols 49..54, rows 10..11) <-> Route 7 (cols 0..1, rows 2..3) [Verified arrival Turn 28748 at (49, 11)].
-- West: Cols 2..8, rows 10..23 western avenue terminates at Celadon Gym (rows 24..26); impassable obstacles confirmed at (1, 14) and (1, 20); fence at (1, 18..19). Dept Store side door at (8, 13).
+- West: Cols 2..8, rows 10..23 western avenue terminates at Celadon Gym (rows 24..26); impassable obstacles confirmed at (1, 14) and (1, 20); wooden bollards at (1, 19); open paved road at (1, 18) connecting west to Route 16. Dept Store side door at (8, 13).
 
 ## Geography & Layout
 - Eastern Entrance Avenue: Paved east-west avenue spanning rows 10..11, bounded by tree borders along rows 7..9 (north) and rows 12..14 (south).
@@ -4542,16 +4542,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections
 - East: Celadon City western border at (40..42, 10) [Verified Turn 28769].
-- West: Route 17 (Cycling Road) via southern gatehouse; Secret House via northern path.
 
 ## Geography & Layout
-- Main Eastern Avenue (Row 10, Cols 34..42): Paved road leading west from Celadon City. Bounded south by wooden bollards at row 11 and trees at rows 12..14.
-- Cuttable Tree (34, 9) [Audited Turn 28769]: Small bushy cuttable tree located in the row 9 tree line directly north of (34, 10). Chopping it down opens access to the northern secret corridor (rows 6..7).
-- Northern Secret Path (Rows 6..7, Cols 0..35): Isolated corridor running west above the trees and gatehouse leading directly to the Secret House.
-- Points of Interest:
-  - Cuttable Tree at (34, 9).
-  - Secret House (contains HM02 Fly).
-  - Sleeping Snorlax (blocks southern main road).
+- Main Road (Row 10, Cols 30..42): 1-tile wide paved highway leading west from Celadon City [Audited Turn 28769].
+- Southern Barrier: Wooden bollards along row 11 (cols 30..41) with dense forest trees at rows 12..14 [Audited Turn 28769].
+- Northern Tree Line: Solid forest trees along row 9 across cols 30..33 and cols 35..39 [Audited Turn 28769].
+- Cuttable Tree (34, 9) [Audited Turn 28769]: Small cuttable tree located at (34, 9) in the row 9 tree line, directly north of (34, 10).
+- Northern Corridor Sighting: Green lawn visible at (30..35, 8) and paved roadway visible at (30..35, 6..7) north of the tree line [Sighted Turn 28771].
 
 
 <hr>
