@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (18, 1) completing S-bypass into Row 1.
+- Current Location: Cerulean Cave 2F at (11, 3) in battle with wild Dodrio.
 - Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
   2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
@@ -31,7 +31,7 @@
   4. Ladder (29, 1) connects to (28, 1..3). At (28, 3), West (27, 3) and South (28, 4) are physically confirmed solid rock walls [Turn 26489].
   5. The only exit from (28, 3) is East into Column 29 at (29, 3).
   6. Column 29 runs south through rows 3, 4, 5, 6, 7 toward Row 14 and Column 26.
-- Next Objective: Step Right to (29, 3) and navigate south down Column 29 toward Row 14 and Column 26 to access the northern chamber and B1F path.
+- Next Objective: Flee from wild Dodrio, navigate to newly sighted Candidate Ladder (9, 1) via (10, 3) -> (9, 3) -> (9, 2) -> (9, 1), and test its destination.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |

@@ -1,6 +1,7 @@
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (9, 1): Cave ladder visually sighted at (9, 1) from (11, 3). Physical ground access and destination unverified. [Visually confirmed Turn 26519]
 - Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
@@ -59,7 +60,10 @@
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
 - Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
-
+- Row 0 Northern Enclosure (Cols 21..24, Row 0): Enclosed pocket spanning (21..24, 0) and (20..22, 1). (22, 1) is solid rock, preventing direct northbound traversal from (22, 2). (16..20, 0) are solid rock walls. [Physically verified Turns 26513-26514]
+- Column 21/22 & Row 3/4 Junctions: Tile (21, 3) is solid rock blocking direct northbound access from (21, 4) [Turn 26417]. Passage to Row 2 bypasses east via (22, 4) -> (22, 3..2). Tile (19, 4) is solid rock blocking direct north access from (19, 5) [Turn 26509]. Tile (25, 3) is solid rock blocking east movement from (24, 3) [Turn 26419].
+- Western Arteries (Cols 14..16, Rows 1..5): Columns 14 and 15 form a broad 2-tile wide vertical corridor connecting Row 1 down through Row 5. Row 1 connects directly from (18, 1) through (17, 1), (16, 1), (15, 1) into (14, 1). [Visually verified Turn 26517]
+- Row 1 West Terminus & Column 11 Highway (Cols 10..14, Rows 1..5): Row 1 extends west from (14, 1) through (13, 1), (12, 1) to (11, 1), visually bounded west by rock at (10, 1) [physical collision pending]. Column 11 and Column 12 run south through rows 1..5. Row 3, Row 4, and Row 5 are open horizontal thoroughfares extending west past Column 10 toward Column 1. [Visually verified Turn 26518]
 
 ## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
@@ -71,11 +75,3 @@
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
-
-- Tile (21, 3): Empirically verified solid rock wall blocking direct northbound access from (21, 4) [Turn 26417]. Passage to Row 2 bypasses east via (22, 4) -> (22, 3..2).
-
-- Tile (25, 3): Empirically verified solid rock wall blocking eastward movement from (24, 3) [Turn 26419]. Ladder (19, 7) sector is bounded east by rock wall (25, 0..3).
-- Tile (19, 4): Empirically verified solid rock wall blocking direct northbound access from (19, 5) [Turn 26509]. Bypass route east: (19, 5) -> (20..21, 5) -> (21, 4) -> (22, 4) -> (22, 3..2).
-- Row 0 Northern Enclosure (Cols 21..24, Row 0): Enclosed pocket spanning (21..24, 0) and (20..22, 1). (22, 1) is solid rock, preventing direct northbound traversal from (22, 2). (16..20, 0) are solid rock walls. [Physically verified Turn 26513-26514]
-- Western Arteries (Cols 14..16, Rows 1..5): Columns 14 and 15 form a broad 2-tile wide vertical corridor connecting Row 1 down through Row 5. Row 1 connects directly from (18, 1) through (17, 1), (16, 1), (15, 1) into (14, 1). [Visually verified Turn 26517]
-- Row 1 West Terminus & Column 11 Highway (Cols 10..14, Rows 1..5): Row 1 extends west from (14, 1) through (13, 1), (12, 1) to (11, 1), bounded west by solid rock at (10, 1). Column 11 and Column 12 run south through rows 1..5. Row 3, Row 4, and Row 5 are open horizontal thoroughfares extending west past Column 10 toward Column 1. [Visually verified Turn 26518]
