@@ -6,12 +6,19 @@
 - Hypothesis 4 (Unverified): 2F Northwest Enclave (Cols 0..2, Rows 1..4) is accessible via physical bump testing along Columns 3..2 on Rows 1..3.
 
 ## Post-Game Routing Strategy: Systematic 2F Row 8 Breakthrough
-1. Definitive 1F & 2F Findings:
-   - 1F Northern Terrace (Cols 5..16, Rows 0..2) is 100% enclosed by solid walls on Column 4 and Row 3. Connects strictly to Staircase (15, 3) and Ladder (7, 1).
-   - 2F Sector A is 100% enclosed on Column 2 and Row 4. Connects strictly to 1F Ladder (7, 1).
-   - 2F Northwest Enclave (Cols 0..7, Rows 2..7) containing Ladder (1, 3) is connected directly to Row 7 (Cols 1..11) via gap (6, 6) and Row 5 West.
-2. The Breakthrough Target: On 2F, Row 7 lies directly north of Row 9 separated by Row 8. Only (4, 8) and (9, 8) were bump-tested. Columns 5, 6, 7, 8, 10, 11, 12 along Row 8 remain to be systematically bump-tested from Row 9 to locate the passable tile into Row 7.
-3. Active Navigation: Return to 1F water via Staircase (15, 3), traverse waterways and Southwest Lower Corridor to Ladder (3, 11), ascend to 2F, and systematically bump-test Row 8 from Row 9.
+1. Definitive 2F Row 8 & Row 7 Map Findings [Turns 27506-27520]:
+   - Row 8 is 100% solid boulders from Column 2 to Column 12.
+   - Row 7 spans Columns 1 to 11 and dead-ends east at (11, 7) enclosed by boulders (11, 6), (12, 7), (11, 8).
+   - Row 6 has only ONE passage at (6, 6) connecting Row 7 to Row 5 West.
+   - Row 5 has boulder (8, 5) separating Row 5 West (Cols 0..7) from Row 5 East (Cols 9..16).
+   - Row 9 and 2F Western Network have ZERO passage into Row 7.
+2. The Sector A Breakthrough Target:
+   - On 2F, Sector A has Row 3 running west to (3, 3).
+   - Directly south of (3, 3) is (3, 4), and south of that is (3, 5) on Row 5 West!
+   - Tile (3, 4) was NEVER bump-tested from (3, 3).
+   - In Sector A, test tile (3, 4) from (3, 3) to enter Row 5 West and reach Ladder (1, 3).
+3. Active Navigation:
+   - Return via Ladder (3, 11) to 1F, traverse Southwest Lower Corridor to 1F water, surf to Northern Terrace (15, 3), ascend Ladder (7, 1) to 2F Sector A, and test (3, 4) from (3, 3).
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (11, 13) on Wooden Staircase (on foot).
