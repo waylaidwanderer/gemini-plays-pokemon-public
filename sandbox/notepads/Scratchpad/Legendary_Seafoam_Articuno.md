@@ -5,7 +5,9 @@
 - [x] Locate Seafoam Islands western entrance at (58, 9) via dock at (58, 10..11) [Turn 29158]
 - [x] Infiltrate Seafoam Islands 1F via western entrance at (58, 9) to (26, 17) [Turn 29159]
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
-- [ ] Descend SW ladder at (23, 15) to Seafoam Islands B1F
+- [x] Descend SW ladder at (23, 15) to Seafoam Islands B1F [Turn 29168]
+- [ ] Scout B1F ladders at (19, 15) and (25, 11)
+- [ ] Ascend ladder to 1F boulder chamber (18, 10) to push boulder into hole
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
