@@ -14,7 +14,7 @@
 3. Active Navigation: Return to 1F water via Staircase (15, 3), traverse waterways and Southwest Lower Corridor to Ladder (3, 11), ascend to 2F, and systematically bump-test Row 8 from Row 9.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (15, 4) (Surfing in subterranean waterway).
+- Current Location: Cerulean Cave 1F at (11, 13) on Wooden Staircase (on foot).
 - Active Plan:
   1. Walk east along Row 2 to (15, 2) and descend Staircase (15, 3) into water at (15, 4).
   2. Surf to Staircase (11, 13) and cross Central-Western Terrace to Staircase (17, 15).
