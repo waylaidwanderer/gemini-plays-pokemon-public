@@ -1560,7 +1560,7 @@
 - East: Route 10 (leading to Rock Tunnel & Pokémon Center; Route 9 (59, 8) <-> Route 10 (0, 8) [Turn 4517]).
 
 ## Geography & Layout
-- Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south). Tile (5, 8) is the Cut tree blocking Route 9 (cleared Turn 4085, re-cleared with DUX on Turns 28496, 28886).
+- Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south). Tile (5, 8) is the Cut tree blocking Route 9.
 - Main Highway (Rows 10..11): Wide open gravel avenue spanning east from col 20.
 - Western Pocket / Southern Highway (Rows 14..15): Gravel corridor spanning cols 10..23 with TM30 Teleport at (10, 15) and Hiker Jeremy at (15, 15).
 - Tile (19, 13) Ramp: Walkable ramp connecting southern highway (rows 14-15) north into row 12 and main highway [Turn 4146].
@@ -4418,26 +4418,29 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
 
 ## Capture Strategy & Preparation
-- Current Ball Inventory: ULTRA BALL x37 [Restocked 35 at Indigo Plateau Turn 28845].
-- Mathematical Risk Analysis: Catch Rate 3 for Lv 50 Zapdos with an Ultra Ball at 1 HP + Sleep is ~12-15% per throw. With only 2 Ultra Balls, failure probability exceeds 75-80%!
-- Critical Permanence Warning:
-  - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
-  - RESTOCK PREREQUISITE: We MUST NOT initiate the Zapdos battle with only 2 Ultra Balls! After completing full layout survey and item gathering in Power Plant, use Dig (DIGBY) to warp outside to Cerulean, obtain HM02 Fly on Route 16, purchase 30+ Ultra Balls at Indigo Plateau or Fuchsia Mart (funds: ¥107,981), fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf, navigate directly to Zapdos, execute manual SAVE in front of Zapdos, and guarantee capture!
-- Combat Protocol (Post-Restock):
-  1. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234) [already set to Slot 1 lead Turn 28575]. Mewtwo resists nothing but takes neutral damage from Electric, possesses massive Special bulk, and has Recover (PP 20/20). DO NOT lead with Blastoise (Water-type takes 2x super-effective Electric damage).
-  2. Chip Zapdos carefully using Mewtwo's Swift (60 power physical, non-fatal) into red HP.
-  3. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
-  4. Throw Ultra Balls from our 30+ ball stockpile until caught!
-## Sighting & Route Audit (Turn 28558)
-- Zapdos Location: Sighted at (4, 9) in northern enclosed room.
-- Route: Separated from western approach by row 12 solid wall. Must be accessed via eastern concourse loop.
-## Restock & Capture Execution Plan [Updated Turn 28711]
-- Power Plant northern approach, Sector 6, and Row 3 Highway mapped; Zapdos sighted at (4, 9) from doorway (4, 6).
-- Un-traversed tiles of Zapdos chamber to be confirmed upon return.
-- Active Plan:
-  1. [x] Fly to Indigo Plateau Mart, buy 35 Ultra Balls (verified 37 Ultra Balls in bag, funds: ¥65,981) [Turn 28845].
-  2. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.
-  3. Re-enter Power Plant, walk directly to Zapdos at (4, 9), SAVE game, and capture!
+- Current Ball Inventory: ULTRA BALL x37 [Restocked Turn 28845].
+- Mathematical Damage & Catch Analysis:
+  - Wild Zapdos Lv 50: Max HP 150-165, Defense 90-105.
+  - Mewtwo Lv 70 (Attack 167) Swift (Power 60) damage rolls:
+    - Normal hit: 51 - 70 HP damage.
+    - Critical hit (~25.4% chance at Speed 130): 95 - 131 HP damage!
+    - Risk: If Zapdos has low HP DV or takes multiple hits, a critical hit risks fainting Zapdos and permanently despawning it!
+  - 100% Safe Zero-Damage Capture Protocol:
+    - Catch rate of Lv 50 Zapdos at 100% HP with Sleep status using an Ultra Ball is ~6.25% per ball.
+    - Cumulative catch probability with 37 Ultra Balls and Sleep: 1 - (1 - 0.0625)^37 = ~90.9% (at full HP), or ~99.5% if chipped once.
+    - Given the despawn permanence of Zapdos, DO NOT risk multiple attacks. Prioritize inflicting Sleep via Drowzee (SANDMAN Lv 9, Hypnosis PP 20) and throwing Ultra Balls continuously.
+    - If chipping is used, use at most ONE Swift, or skip damage entirely and rely on our 37 Ultra Balls under Sleep!
+- Permanence Warning:
+  - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Stand directly adjacent at (4, 8) and SAVE before pressing 'A'!
+
+## Active Execution Plan
+1. Traverse Route 9 eastward on foot to Route 10 North.
+2. Enter Route 10 canal at (2..3, 4) using Surf with Blastoise (SHELDON).
+3. Surf south to Power Plant entrance at (6, 39) and enter facility.
+4. Walk through surveyed Sector 6 concourse to Zapdos at (4, 9).
+5. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
+6. Initiate battle, put Zapdos to Sleep with Hypnosis, and capture with 37 Ultra Balls!
+
 
 
 <hr>
