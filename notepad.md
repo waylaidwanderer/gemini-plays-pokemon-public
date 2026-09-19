@@ -4233,7 +4233,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections & Ladders
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Directly accessible from (8, 1) stepping East. Visually confirmed with blue ladder rungs [Turn 26646]. Connects to 1F.
 - Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south. [Verified Turns 26594, 26599]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Open corridor exits West via (28..27, 1), South down Column 27 (27, 2..4), and West along Row 4 (26..24, 4) directly into Column 24 and the Row 2 Northern Highway. Does NOT dead-end; connects directly to 2F Sector A! [Empirically verified Turn 27040]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Connects ONLY to an isolated 7-tile secluded pocket spanning (18..20, 5..7). Bounded on ALL sides by solid rock walls: North at (18, 5), (19..20, 4); East at (21, 5..6), (20, 7); South at (18..19, 8); West at (17, 5..7). Has ZERO connection to Row 2, Row 3, Column 24, or the rest of 2F. [Empirically verified Turns 27015-27023]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
@@ -4310,7 +4310,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
-
-
 
 <hr>
