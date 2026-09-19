@@ -20,3 +20,5 @@
 - Northern Exit to Viridian City:
   - Row 1: Wall structure blocks columns 12..18.
   - Columns 10..11: Open 2-tile road corridor leading directly north into Viridian City.
+## Verified Navigation Corridors (Turn 28319)
+- Row 27-28 Ledge Bypass: Row 27 ledge spans columns 10..17. Columns 6..9 at row 28 are tall grass (passable, triggers wild encounters). Route north: from (10, 28), step west to (9, 28) tall grass, then (8, 28), then north into row 27 open road at (8, 27).
