@@ -2,7 +2,7 @@
 
 ## Quest Objectives & Routing
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28540]
-- [ ] Explore Power Plant interior, audit facility, and capture legendary Zapdos [ACTIVE]
+- [x] Explore Power Plant interior, audit facility, and capture legendary Zapdos [Turn 29075, COMPLETED!]
 
 ## Power Plant Intelligence
 - Location: Route 10 North water canal, accessed via Surf.
@@ -39,7 +39,7 @@
   - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
 
 ## Active Execution Plan
-- Ball Expenditure & Stockpile: 22 Ultra Balls expended across Turns 29000-29067; 15 Ultra Balls remaining.
-- Combat Loop: OMEGA tanks at 234/234 HP. Dismiss text, select ITEM, and throw Ultra Balls continuously.
-- Health Fail-Safe: Execute Recover (PP 13/20) whenever HP drops below 140.
-- Reload Contingency: If all 15 remaining Ultra Balls fail without capture (stockpile reaches 0), immediately soft reset and reload manual save from Turn 28993 at (4, 8) to restore full 37-ball supply.
+- [x] Manual pre-battle SAVE executed at (4, 8) [Turn 28993].
+- [x] Swift delivered! Zapdos chipped safely to ~65% HP [Turn 28996].
+- [x] Legendary ZAPDOS captured with Ultra Ball #23 on Turn 29075! (14 Ultra Balls remaining in bag).
+- STATUS: QUEST ACCOMPLISHED!

@@ -7,7 +7,7 @@
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
 - Money: ¥67481 [Turn 28927]
-- Pokédex: 18 Caught / 127 Seen
+- Pokédex: 19 Caught / 128 Seen
 
 ## Milestones
 
@@ -154,5 +154,5 @@
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
-- [ ] Return to Power Plant and capture Legendary ZAPDOS
+- [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO

@@ -48,7 +48,7 @@
   - West: Column 0 continuous solid outer wall. No back door exists in retail Gen 1 Red/Blue.
   - East: Column 8 solid dividing wall.
   - Gateway: 2-tile open doorway at (4..5, 6) connecting northern foyer (rows 3..5) south into Zapdos' hall (rows 7..11).
-  - High-Value Target: Stationary Legendary Bird ZAPDOS at (4, 9) [Engaged Turn 28994]. Level 50, Electric/Flying. Known moves: Thundershock, Drill Peck.
+  - High-Value Target: Stationary Legendary Bird ZAPDOS at (4, 9) [Captured Turn 29075]. Level 50, Electric/Flying. Successfully caught with Ultra Ball!
   - Status: Doorway verified at (4..5, 6); Northern Foyer connects east via Row 3 at (6..8, 3) through Column 8 dividing wall [Empirically verified Turn 28983].
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
