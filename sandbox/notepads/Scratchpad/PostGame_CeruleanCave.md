@@ -3,7 +3,7 @@
 ## Definitive Dungeon Architecture & Verified Facts
 1. 2F Layout & Boundary Audits:
    - Row 8: 100% physically bump-tested solid boulders from Col 2 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
-   - Sector A: Row 4 (Cols 2..8) is 100% solid boulders [tested (3, 4) Turn 27545]. Column 2 is solid rock. Boulder (8, 5) separates Row 5 West from East.
+   - Sector A: Only (3, 4) was tested [Turn 27545]. Row 4 (Cols 4..8) remains unverified and is the primary candidate corridor to Northwest Enclave. Column 2 is solid rock. Boulder (8, 5) separates Row 5 West from East.
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
 2. 1F Layout & Boundary Audits:
    - Western Terrace: Bump-test confirmed (0, 8) is solid rock [Turn 27805], (1, 8) Up is blocked by south-facing jump ledge [Turn 27806]. Visual audit of entire 1F Northwest sector (Cols 0..6, Rows 4..12) confirms Northwest Corridor is 100% enclosed on 1F with zero walkable ground/water entrance. Ladder (0, 6) is an ascending ladder connecting to 2F, and the one-way ledge at Row 7 is exclusively an exit.
