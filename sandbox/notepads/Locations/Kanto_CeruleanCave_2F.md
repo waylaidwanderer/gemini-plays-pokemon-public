@@ -2,7 +2,7 @@
 
 ## Connections & Ladders
 - Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Bounded by solid rock walls cols 27..29, rows 0..6 per physical audit Turn 26143.
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Open passages: Exits West to (28, 1) and (27, 1); Column 27/28 connect south to Row 3 (27..29, 3); from (27, 3), connects south to Row 4 (25..27, 4) leading west into northern chambers; from (29, 3), connects south down Column 29 (rows 3..6+) leading to southeast corridors. [Visually verified Turn 26489]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
