@@ -15,3 +15,4 @@
 - Ladder 2 (East): Located at (25, 14), descends to B1F [Verified Turn 29174].
 - Wooden Stairs: Located at (23, 9), connects northern corridor to elevated plateau.
 - Northern Corridor: Rows 7..8 form a continuous open hallway across cols 21..28, providing direct access west into the boulder chamber at (18, 10) [Verified Turn 29174].
+- Krabby (Lv 31) [Encountered Turn 29175].
