@@ -4439,7 +4439,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Restock & Capture Execution Plan [Updated Turn 28711]
 - Power Plant northern approach, Sector 6, and Row 3 Highway mapped; Zapdos sighted at (4, 9) from doorway (4, 6).
 - Un-traversed tiles of Zapdos chamber to be confirmed upon return.
-- Dig executed on Turn 28686 to Cerulean City Pokémon Center.
 - Active Plan:
   1. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (funds: ¥107,981).
   2. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.
@@ -4558,12 +4557,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Tree Line: Solid forest trees along row 9 across cols 30..33 and cols 35..39 [Audited Turn 28769].
 - Cuttable Tree (34, 9) [Audited Turn 28769]: Chopped down by DUX on Turn 28775, clearing passage from row 10 north through (34, 9) and (34, 8) onto the northern highway (rows 6..7).
 - Northern Highway (Rows 6..7, Cols 30..35+) [Audited Turn 28776]:
-  - 2-tile wide paved roadway spanning rows 6..7, paved roadway (encounter rate unverified), heading continuously west.
+  - 2-tile wide paved roadway spanning rows 6..7 (encounter rate unverified), heading continuously west.
   - Bounded south by lawn at row 8 and tree line at row 9.
   - Bounded north by a tall grass field spanning cols 30..35+ at rows 3..5.
   - Accessed via the cleared Cut tree at (34, 9) and lawn at (34, 8) [Traversed Turn 28776].
 
-- Sleeping Snorlax [Sighted Turn 28777]: Stationed at (26, 10) blocking the lower main road, separated from the northern highway by the row 9 tree line.
 - Northern Plaza (Rows 4..5, Cols 25..27) [Audited Turn 28777]: Paved plaza north of the highway; tall grass terminates east of col 28.
 - Highway Continuation: Rows 6..7 continue west through cols 25..28 toward the gatehouse and Secret House.
 
