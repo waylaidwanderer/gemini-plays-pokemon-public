@@ -29,7 +29,7 @@
     - Tile (0, 12) to (0, 13): Physical bump test [Turn 28178] confirmed (0, 13) is a solid boulder.
     - Path turns east along Row 12 through (1, 12) to (2, 12).
   - Southern Cavern & Row 16 East Highway (Cols 0..9+, Rows 14..18):
-    - Column 2 vertical artery connects south: (2, 12) -> (2, 13) -> (2, 14) -> (2, 15) -> (2, 16). [Traversed Turn 28182]
+    - Column 2 vertical artery connects south: (2, 12) -> (2, 13) -> (2, 14) -> (2, 15) -> (2, 16).
     - Western water at (0..1, 15..17) is an enclosed shoreline basin bounded by wall at Col -1, boulder (1, 14), and southern wall at Row 18.
     - Row 16 spans (2..7, 16) open floor. Boulder (8, 16) blocks eastward continuation along Row 16.
     - Northern Bypass to Staircase: from (6, 16), step north through (6, 15) into Row 14 at (6, 14), then east through (7..9, 14).
@@ -38,11 +38,11 @@
   - Row 12 Shoreline Corridor: Open purple floor spanning (13..16, 12) connecting Column 16 directly west to Staircase (13, 13).
   - Staircase (19, 11): 1-tile wide wooden staircase at (19, 11) at the southern end of Eastern Chamber (Cols 19..20, Rows 6..10).
   - Eastern Chamber (Cols 19..21, Rows 6..10): Open purple floor corridor flanking eastern side of central cavern, leading south to Staircase (19, 11).
-  - Main Subterranean Lake: Expansive water body launched via Staircase (13, 13) at (13, 14) [Surfing initiated Turn 28197]!
+  - Main Subterranean Lake: Expansive water body launched via Staircase (13, 13) at (13, 14)
     - Water covers (12..15, 14..15), wrapping south of central boulder (16..17, 14..15) into an open 5-tile wide water highway across Rows 16..17 (Cols 14..18+).
-    - Eastern channel runs north along Column 18 (Rows 12..17+) heading into the eastern lake toward Mewtwo's platform.
+    - Eastern channel runs north along Column 18 (Rows 12..17+) heading into the eastern lake.
   - Central Purple Cavern Floor (Cols 9..14+, Rows 6..12):
-    - Arrived onto purple floor via Staircase (9, 13) at (9, 12), advancing north through (9, 11..10) [Traversed Turn 28190].
+    - Arrived onto purple floor via Staircase (9, 13) at (9, 12).
     - Broad open purple chamber spans Rows 6, 7, 8 across Columns 9 through 14+.
     - Central boulder cluster occupies (10..12, 9..12).
     - Column 13 vertical corridor runs south from Row 6 down through Row 12 to Staircase (13, 13).
@@ -51,7 +51,7 @@
     - Southern cave boundary wall confirmed at Row 18 (Cols 0..9+).
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..12+): Lower cavern floor accessed via Staircase (9, 13).
-  - Ground Item Ball at (16, 9) successfully retrieved [Turn 28193]!
+  - Ground Item Ball at (16, 9): ULTRA BALL x1 [Retrieved Turn 28193]!
   - Column 16 open purple floor runs south through (16, 8..12) directly to the lake shoreline at (17..18, 12).
   - Subterranean water confirmed at (18..19, 12) with Staircase (19, 11) descending directly into water!
 - Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) (MAX REVIVE, retrieved Turn 28145).

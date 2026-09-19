@@ -11,7 +11,7 @@
 - PP UP x1 [Obtained Cerulean Cave 2F]
 - MAX ELIXER x1 [Obtained Cerulean Cave 2F]
 - NUGGET x1 [Obtained Cerulean Cave 2F]
-- ULTRA BALL x1 [Obtained Cerulean Cave 2F (4, 15) Turn 25986]
+- ULTRA BALL x2 [Cerulean Cave 2F (4, 15) Turn 25986; Cerulean Cave B1F (16, 9) Turn 28193]
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - BICYCLE [Withdrawn from PC Turn 25022]
@@ -29,7 +29,7 @@
   9. PP UP x1 [Acquired Cerulean Cave 2F]
   10. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
   11. NUGGET x1 [Acquired Cerulean Cave 2F]
-  12. ULTRA BALL x1 [Acquired Cerulean Cave 2F (4, 15)]
+  12. ULTRA BALL x2 [Acquired Cerulean Cave 2F (4, 15) & B1F (16, 9)]
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
