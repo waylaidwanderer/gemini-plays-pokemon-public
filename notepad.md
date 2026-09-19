@@ -180,19 +180,7 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Active Bag Items (11 items) [Updated Turn 28235 post-Mewtwo catch]:
-  1. POKé FLUTE
-  2. MAX POTION x1
-  3. REVIVE x14
-  4. FULL HEAL x6
-  5. MAX REVIVE x2 [Acquired B1F (18, 1) Turn 28145]
-  6. BICYCLE
-  7. FULL RESTORE x12 [Acquired +2 in Cerulean Cave 2F]
-  8. PP UP x1 [Acquired Cerulean Cave 2F]
-  9. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
-  10. NUGGET x1 [Acquired Cerulean Cave 2F]
-  11. ULTRA BALL x2 [Acquired Cerulean Cave 2F (4, 15) & B1F (16, 9)]
-
+- Active Bag Items: 11 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -236,7 +224,7 @@
   - Status: Healthy
   - HP: 222 / 222 [Healed Turn 28476 at Cerulean Center]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15) [Used Turn 28526], Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -248,7 +236,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 28/30) [Used Turns 28464, 28495]
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
@@ -1630,6 +1618,12 @@
 - Western Tall Grass Field (Rows 60..63, Cols 2..7): Tall grass corridor before Lavender Town.
 - Cliff Wall (Row 64, Cols 2..7): Solid mountain cliff bounding south side of western tall grass.
 - Eastern South Avenue (Cols 10..11, Rows 62..67): Open avenue through tall grass between cliff (west, cols 4..8) and Lavender Town building (east, cols 12..13, rows 66+). Runs directly South past row 67 into Lavender Town!
+
+## Water Canal & Power Plant Approach (Audited Turns 28525-28531)
+- Northern Launch Apron: Located at (2..3, 4), accessible from Central Lawn via gateway at (2..3, 5). Water entry facing North into (2, 3) [Turn 28526].
+- Northern River Channel (Rows 2..3, Cols 2..16): 2-tile wide east-west water channel bounded north by mountain cliff at row 1 and south by shoreline apron at row 4. Connects east to Column 16.
+- Canal Turn: Located at (16, 3), where the northern river turns 90 degrees south into the eastern canal [Turn 28528].
+- Eastern Canal (Cols 16..17, Rows 4..50+): Continuous 2-tile wide north-south water canal heading south toward the Power Plant. Bounded on the west by stone bollards along Column 15 and on the east by continuous mountain cliffs along Column 18+. Traversed south past (16, 8) [Turn 28531].
 
 
 <hr>
@@ -4411,11 +4405,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Capture Strategy & Preparation
 - Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
 - Target: ZAPDOS Lv 50 (Electric/Flying). Catch rate: 3.
+- Critical Permanence Warning:
+  - In Generation 1 retail, stationary legendary Pok�mon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
+  - MANDATORY PROTOCOL: Stand directly in front of Zapdos and execute a manual SAVE before pressing 'A' to interact!
 - Combat Protocol:
-  1. Lead with Blastoise (SHELDON Lv 70) or Mewtwo (OMEGA Lv 70) to absorb hits and chip Zapdos into red HP (Surf / Swift / Double-Edge).
-  2. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
-  3. Throw Ultra Balls while Zapdos is asleep at low HP.
-  4. Contingency: If Zapdos breaks out of both Ultra Balls, note that �107,981 cash is available; balls can be purchased at Indigo Plateau Mart (Ultra Ball �1200) or Celadon Dept Store (Great Ball �600) if a restock is required.
+  1. DO NOT lead with Blastoise (SHELDON)! Blastoise is Water-type and takes 2x super-effective STAB damage from Zapdos's Electric attacks (Thunder/Thunderbolt).
+  2. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234). Mewtwo takes standard neutral damage from Electric and resists nothing, has massive Special bulk, and possesses Recover (PP 20/20).
+  3. Chip Zapdos carefully using Mewtwo's Swift (Normal physical, 60 power, never misses, non-fatal chip damage) into red HP.
+  4. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20). (Digby/Rocky can also absorb Electric moves with Ground immunity if needed).
+  5. Throw Ultra Balls while Zapdos is asleep at low red HP.
 - Flash Requirement Hypothesis:
   - Hypothesis: Power Plant may be naturally lit or dark. To be empirically verified upon entering the facility. Sandman has HM05 Flash ready if illumination is needed.
 
