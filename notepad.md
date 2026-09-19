@@ -4246,14 +4246,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections & Ladders
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Connects to 1F Ladder (7, 1). [Physically verified Turn 26574]
-- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Column 0 runs south to (0, 7) on the Row 7 Southern Highway, which connects east to Column 9 (9, 7) and Row 3 (9, 3). [Visually confirmed Turn 26594]
+- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south. [Verified Turns 26594, 26599]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
-- Row 7 Southern Highway & Column 0 Passage (Cols 0..9, Rows 3..7): Column 9 connects Row 3 at (9, 3) south through (9, 4..7) to Row 7 Highway. Row 7 is a continuous horizontal thoroughfare from (9, 7) west to Column 0 at (0, 7). Column 0 runs north from (0, 7) through (0, 6..3), directly accessing Ladder (1, 3) from (0, 3) facing East. (7, 4) empirically verified solid rock [Turn 26557]. [Visually and physically verified Turn 26558]
+- Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]
 - Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Encloses Ladder (9, 1) at (9, 1) connecting to 1F Ladder (7, 1). Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
