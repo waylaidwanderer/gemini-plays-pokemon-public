@@ -40,18 +40,24 @@ def walk_to_target(target_x, target_y):
             step("Up")
     return False
 
-print("Starting route to Ladder A from:", mgba.get_coordinates())
+print("Starting route from:", mgba.get_coordinates())
 
-# Segment 1: (24, 4) -> (24, 2) -> (22, 2) -> (22, 4) -> (21, 4) -> (21, 5) -> (20, 5) -> (20, 6) -> (22, 7) -> (22, 8) -> (27, 8)
-walk_to_target(24, 2)
-walk_to_target(22, 2)
+# Segment 1: (21, 4) -> (22, 4) -> (22, 2) -> (21, 2) -> (21, 1) -> (21, 0)
 walk_to_target(22, 4)
-walk_to_target(21, 4)
-walk_to_target(21, 5)
-walk_to_target(20, 5)
-walk_to_target(20, 6)
-walk_to_target(22, 7)
-walk_to_target(22, 8)
-walk_to_target(27, 8)
+walk_to_target(22, 2)
+walk_to_target(21, 2)
+walk_to_target(21, 0)
 
-print("Pos after reaching Eastern Corridor (27, 8):", mgba.get_coordinates())
+# Segment 2: Walk East along Row 0 to (24, 0) -> (27, 0) -> (29, 0)
+walk_to_target(24, 0)
+walk_to_target(27, 0)
+walk_to_target(29, 0)
+
+# Segment 3: Ascend down Eastern Corridor (29, 0) -> (29, 6) -> (27, 6) -> (25, 7) -> (29, 8)
+walk_to_target(29, 6)
+walk_to_target(27, 6)
+walk_to_target(27, 7)
+walk_to_target(25, 7)
+walk_to_target(29, 8)
+
+print("Pos after reaching Eastern Corridor (29, 8):", mgba.get_coordinates())
