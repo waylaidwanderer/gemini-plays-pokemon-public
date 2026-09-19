@@ -7,7 +7,7 @@
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
-- MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
+- MAX REVIVE x2 [Victory Road 2F Turn 16064; Cerulean Cave B1F (18, 1) Turn 28145]
 - PP UP x1 [Obtained Cerulean Cave 2F]
 - MAX ELIXER x1 [Obtained Cerulean Cave 2F]
 - NUGGET x1 [Obtained Cerulean Cave 2F]
@@ -17,15 +17,19 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Verified Active Bag Items (8 items):
+- Verified Active Bag Items (12 items) [Audited Turn 28173]:
   1. MASTER BALL x1 [Pre-swapped to Slot 1 Turn 25510]
   2. POKé FLUTE
   3. MAX POTION x1
   4. REVIVE x14
   5. FULL HEAL x6
-  6. MAX REVIVE x1
+  6. MAX REVIVE x2 [Acquired B1F (18, 1) Turn 28145]
   7. BICYCLE
-  8. FULL RESTORE x10
+  8. FULL RESTORE x12 [Acquired +2 in Cerulean Cave 2F]
+  9. PP UP x1 [Acquired Cerulean Cave 2F]
+  10. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
+  11. NUGGET x1 [Acquired Cerulean Cave 2F]
+  12. ULTRA BALL x1 [Acquired Cerulean Cave 2F (4, 15)]
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
