@@ -6,7 +6,7 @@
 3. REVIVE x14
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
-6. BICYCLE [Key Item - Mounted Turn 28750]
+6. BICYCLE [Key Item]
 7. FULL RESTORE x12
 (Remaining lower items: PP UP, MAX ELIXER, NUGGET, ULTRA BALL x2, HP UP)
 

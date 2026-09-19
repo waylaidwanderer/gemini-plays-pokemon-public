@@ -2,13 +2,10 @@
 
 ## Connections
 - East: Celadon City western border at (40..42, 10) [Verified Turn 28769].
-- West: Route 17 (Cycling Road) via southern gatehouse; Secret House via northern path.
 
 ## Geography & Layout
-- Main Eastern Avenue (Row 10, Cols 34..42): Paved road leading west from Celadon City. Bounded south by wooden bollards at row 11 and trees at rows 12..14.
-- Cuttable Tree (34, 9) [Audited Turn 28769]: Small bushy cuttable tree located in the row 9 tree line directly north of (34, 10). Chopping it down opens access to the northern secret corridor (rows 6..7).
-- Northern Secret Path (Rows 6..7, Cols 0..35): Isolated corridor running west above the trees and gatehouse leading directly to the Secret House.
-- Points of Interest:
-  - Cuttable Tree at (34, 9).
-  - Secret House (contains HM02 Fly).
-  - Sleeping Snorlax (blocks southern main road).
+- Main Road (Row 10, Cols 30..42): 1-tile wide paved highway leading west from Celadon City [Audited Turn 28769].
+- Southern Barrier: Wooden bollards along row 11 (cols 30..41) with dense forest trees at rows 12..14 [Audited Turn 28769].
+- Northern Tree Line: Solid forest trees along row 9 across cols 30..33 and cols 35..39 [Audited Turn 28769].
+- Cuttable Tree (34, 9) [Audited Turn 28769]: Small cuttable tree located at (34, 9) in the row 9 tree line, directly north of (34, 10).
+- Northern Corridor Sighting: Green lawn visible at (30..35, 8) and paved roadway visible at (30..35, 6..7) north of the tree line [Sighted Turn 28771].
