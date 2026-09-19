@@ -16,3 +16,13 @@
    - 1F (7, 1) <-> 2F (9, 1) [2-way confirmed]
    - 1F (3, 11) <-> 2F (3, 11) [2-way confirmed]
    - Unverified Candidate: 1F (0, 6) and 2F (1, 3) [Neither stepped on; correlation is a working hypothesis]
+
+## Active Breakthrough Strategy & Routing Protocol
+- Empirical Finding: 2F comprises isolated subgraphs:
+  - Sector A (9, 1): 100% enclosed by Row 0 ceiling, Row 4 boulders, and (8, 5) boulder.
+  - Southwest Sector (3, 11): 100% enclosed by solid boulders on west ((1, 10..11), (4, 13), (0..1, 14), (2, 15), (3..5, 16)).
+  - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
+- Working Hypothesis: The true descent to B1F lies in the segregated 1F Northwest Corridor (0, 6) which connects to 2F Ladder (1, 3).
+- Active Protocol:
+  1. On 2F at (27, 6): Move through (27, 7) -> (25, 7) to inspect whether (24..27, 4) or any passage connects westward into the northern perimeter.
+  2. If 2F eastern transit is fully confirmed closed, immediately pivot to 1F ground-level waterways to test the western water boundaries along Row 7/8 for an unverified access point into the Northwest Corridor.

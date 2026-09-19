@@ -17,7 +17,6 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Total Slots Used: 8 / 20 [Audited Turn 25510]
 - Verified Active Bag Items (8 items):
   1. MASTER BALL x1 [Pre-swapped to Slot 1 Turn 25510]
   2. POKé FLUTE
