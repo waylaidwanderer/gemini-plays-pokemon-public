@@ -4161,14 +4161,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Empirical Finding: 2F comprises isolated subgraphs:
-  - Sector A (9, 1): 100% enclosed by Row 0 ceiling, Row 4 boulders, and (8, 5) boulder.
+  - Sector A (9, 1): 100% enclosed by Row 0 ceiling, Row 4 boulders (Cols 3..8), Column 2 boulders (Rows 1..4), and (8, 5) boulder.
   - Southwest Sector (3, 11): 100% enclosed by solid boulders on west ((1, 10..11), (4, 13), (0..1, 14), (2, 15), (3..5, 16)).
   - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
-- Working Hypothesis: The true descent to B1F lies in the segregated 1F Northwest Corridor (0, 6) which connects to 2F Ladder (1, 3).
+- Working Hypothesis: Descent to B1F connects via Ladder (1, 3) in Northwest Enclave.
 - Active Protocol:
-  1. Flee wild Rhydon at (24, 11) on 2F.
-  2. Follow 2F transit highway: Column 24 south to (24, 14) -> Row 14 east to (26, 14) -> Column 26 north to (25, 7) -> Column 29 north to (29, 4) -> Column 24 north to Row 2 -> S-bypass to Sector A (Cols 3..9, Rows 1..5).
-  3. In Sector A, physically test every tile along Row 4 (Cols 4..8) from Row 3 to locate the genuine opening into the Northwest Enclave and descent to B1F.
+  1. Step Down x2 to (3, 3) to pan camera south and audit Rows 6 and 7 below Row 5 (Cols 0..7).
+  2. Determine how Row 5 (Cols 0..7) and Ladder (1, 3) connect to the 2F corridor network.
 
 - Southeast Network Audit [Turn 27755]: Cols 25..29, Rows 6..14 is 100% physically and visually confirmed as a closed loop connecting between Column 29, (27, 6..7), and Column 26. Completely bounded by solid boulders on west (Col 24) and north (Row 6). Zero exit to Sector A or western 2F.
 
