@@ -7,7 +7,7 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Southwest Lower Corridor at (6, 17).
+- Current Location: Cerulean Cave 1F at (1, 14) below Staircase (1, 13).
 - Active Route:
   1. Traverse 1F Southwest Corridor (Row 17) to Western Terrace at (1..5, 9..12).
   2. Methodically test 1F Column 0 and Row 8 boundary for any physical passage to Ladder (0, 6).
