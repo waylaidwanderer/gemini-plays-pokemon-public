@@ -167,7 +167,7 @@
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
-- MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
+- MAX REVIVE x2 [Victory Road 2F Turn 16064; Cerulean Cave B1F (18, 1) Turn 28145]
 - PP UP x1 [Obtained Cerulean Cave 2F]
 - MAX ELIXER x1 [Obtained Cerulean Cave 2F]
 - NUGGET x1 [Obtained Cerulean Cave 2F]
@@ -177,15 +177,19 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Verified Active Bag Items (8 items):
+- Verified Active Bag Items (12 items) [Audited Turn 28173]:
   1. MASTER BALL x1 [Pre-swapped to Slot 1 Turn 25510]
   2. POKé FLUTE
   3. MAX POTION x1
   4. REVIVE x14
   5. FULL HEAL x6
-  6. MAX REVIVE x1
+  6. MAX REVIVE x2 [Acquired B1F (18, 1) Turn 28145]
   7. BICYCLE
-  8. FULL RESTORE x10
+  8. FULL RESTORE x12 [Acquired +2 in Cerulean Cave 2F]
+  9. PP UP x1 [Acquired Cerulean Cave 2F]
+  10. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
+  11. NUGGET x1 [Acquired Cerulean Cave 2F]
+  12. ULTRA BALL x1 [Acquired Cerulean Cave 2F (4, 15)]
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -4356,7 +4360,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Tile (4, 9) to (4, 10): Physical bump test [Turn 28170] confirmed stepping Down from (4, 9) into (4, 10) is blocked by the cliff edge. Direct southern descent from (4, 9) into (4, 10) is impassable.
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..9+): Lower cavern floor visible below Row 5 cliff. Ground Item Ball sighted at (16, 9) [Turn 28130]; route of access to this lower floor remains to be physically tested.
-- Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) [Retrieved Turn 28145].
+- Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) (MAX REVIVE, retrieved Turn 28145).
 
 ## Wild Pok�mon
 - Ditto: Wild encounter [Encountered Turn 28113]
