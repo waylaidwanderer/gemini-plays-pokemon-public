@@ -470,7 +470,6 @@
 - Row 61: South-facing ledge spanning cols 14 and 16..19, with passable tan ramp at (15, 61). Tree at (13, 61).
 - Rows 62..68: Flower garden pocket spanning cols 13..19.
 - Row 69: Solid trees block south across cols 10..22.
-- Northern Avenue & Diglett's Cave Connection (Cols 8..14, Rows 5..9): Diglett's Cave northern cave entrance located at (12, 9) in the brown mountain rock wall spanning cols 10..14, rows 6..9. Cols 8..9 form a clear 2-tile wide paved and open ground avenue running north past the cave toward Pewter City.
 
 
 <hr>
@@ -1126,8 +1125,8 @@
 # Route 6 Geography & Points of Interest
 
 ## Connections
-- North: Underground Path entrance building at (17, 13); Saffron City southern gatehouse at (10, 8) [Verified Turn 13480].
-- South: Vermilion City northern entrance.
+- North: Underground Path entrance building at (17, 13) [Door at (17, 13) transitions to interior mat at (3, 7), Turn 28439]; Saffron City southern gatehouse at northern border.
+- South: Vermilion City northern entrance. Stepping South from (8..9, 35) connects to Vermilion City (18..19, 0) [Turn 28425].
 
 ## Geography & Layout
 - Underground Path Entrance Building (Cols 16..19, Rows 10..13): Front door at (17, 13) leading north into Underground Path to Route 5.
@@ -1154,7 +1153,7 @@
 # Vermilion City Geography & Points of Interest
 
 ## Connections
-- North: Route 6 northern entrance at (18..19, 0).
+- North: Route 6 northern entrance at (18..19, 0). Stepping North from (19, 0) arrives at Route 6 (9, 35) [Turn 28425].
 - South: Harbor & S.S. Anne docks.
 - East: Route 11 border connection at (39..40, 14..15) [Verified Turn 28410].
 
@@ -4430,13 +4429,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Target: ZAPDOS (Electric/Flying, Level 50).
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
 
-## Current Party Status
-- SHELDON (Blastoise) Lv 70 - Active Leader / Surf
-- ROCKY (Geodude) Lv 8 - Strength
-- DUX (Farfetch'd) Lv 5 - Cut
-- DIGBY (Diglett) Lv 19 - Dig
-- SANDMAN (Drowzee) Lv 9 - Flash
-- OMEGA (Mewtwo) Lv 70 - Psychic Sweeper / Backup
 
 <hr>
 
