@@ -5,7 +5,7 @@
    - Row 8: 100% physically bump-tested solid boulders from Col 3 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
    - Sector A: Visual audit [Turns 27926-27935] confirms Row 4 (Cols 3..8) are 100% solid boulders. Column 2 (Rows 1..4) are solid boulders. Boulder (8, 5) separates Row 5 West from East. Sector A is completely enclosed with zero passage into Row 5 or the Northwest Enclave.
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
-   - Northwest Enclave Isolation [Turn 28011-28015]: Row 7 is an unbroken horizontal corridor spanning Columns 1 through 11 ((1..11, 7)). Row 6 has (6, 6) as the sole connector to Row 5 (0..7, 5) and Ladder (1, 3). Row 8 has solid boulders across (2..12, 8). (1, 8) connects south to (1, 9) alcove, and (13, 8) connects south to Row 9. The Northwest Enclave on 2F is 100% completely isolated with zero entrance from 2F. It must be entered via Ladder (1, 3) from 1F!
+   - Northwest Enclave Isolation [Turn 28011-28015]: Row 7 is an unbroken horizontal corridor spanning Columns 1 through 11 ((1..11, 7)). Row 6 has (6, 6) as the sole connector to Row 5 (0..7, 5) and Ladder (1, 3). Row 8 has solid boulders across (2..12, 8). (1, 8) connects south to (1, 9) alcove, and (13, 8) connects south to Row 9. The Northwest Enclave on 2F connection to the southern network remains unverified; physical testing of western boundaries is required.
 2. 1F Layout & Breakthrough Strategy:
    - Northwest Corridor on 1F (Cols 0..5, Rows 3..7) contains Ladder (0, 6) and a south-facing jump ledge at Row 7 (one-way exit).
    - Working Breakthrough Hypothesis: The northern water canal on Row 4 was traced to (14, 4). Tile (13, 4) was never physically bump-tested and is the primary candidate water channel connecting west into (5, 4) in the Northwest Corridor!
@@ -19,7 +19,5 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Flee wild Marowak battle on 2F at (9, 9).
-  2. Step Left x6 along Row 9 to (3, 9), then Down x2 onto Ladder (3, 11) to descend to 1F Western Terrace.
-  3. Step Down through Staircase (1, 13) to Row 17 lower corridor, walk east along Row 17 to Staircase (17, 15), and ascend to Central-Western Terrace.
-  4. Launch Surf from Staircase (11, 13) or (15, 3), sail west along Row 4 northern water canal past (14, 4), and probe (13, 4) to enter the Northwest Corridor and access B1F descent to Mewtwo!
+  1. Flee wild Marowak battle.
+  2. Systematically explore and test 2F boundaries and corridors.
