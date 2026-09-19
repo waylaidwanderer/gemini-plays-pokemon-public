@@ -15,12 +15,13 @@
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Row 3 at (6, 3).
+- Current Location: Cerulean Cave 1F Staircase at (11, 13) facing South.
 - Active Route:
-  1. Flee wild battle at (6, 3).
-  2. Walk west along Row 3 to (3, 3).
-  3. Inspect junctions at (3, 3) / Row 1 to find the path into Column 1 and Candidate Ladder (1, 3).
-  4. Descend Ladder (1, 3) to 1F isolated northwest terrace and proceed to B1F.
+  1. Launch Surf from Staircase (11, 13) into subterranean water at (11, 14).
+  2. Navigate waterway north to Northern Terrace enclosing Ladder (7, 1).
+  3. Ascend Ladder (7, 1) to 2F Ladder (9, 1).
+  4. Follow 2F Western Row 1 through (8..1, 1) into northwest enclave to Candidate Ladder (1, 3).
+  5. Descend Ladder (1, 3) to 1F isolated northwest platform and enter B1F.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
