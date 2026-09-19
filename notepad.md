@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (20, 5) on foot facing Left.
+- Current Location: Cerulean Cave 1F at (16, 9) in wild battle with Hypno.
 
 - Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
 - Conclusion: Candidate Ladder (1, 3) must be accessed via 1F (likely corresponding to 1F Ladder (0, 6)).
@@ -4182,10 +4182,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 19..27, Rows 0..7) |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
 
-- MAJOR BREAKTHROUGH [Turn 26417]: Visual evidence at (21, 4) reveals (25, 3..5) and (26, 3..5) are WIDE OPEN FLOOR!
-  - The old claim that Column 24 dead-ended against rock wall (25, 5) is completely DISPROVEN.
-  - Ladder (19, 7) connects seamlessly via (22, 2..4) -> (24..26, 3..5) directly into Column 26 and the Northern Chamber!
-  - Active Route: Advance from (21, 4) -> (22, 4..2) -> (24, 2) -> (26, 3) to enter Column 26 / Northern Chamber!
+
 
 - CRITICAL TOPOLOGICAL CORRECTION [Turn 26419]:
   - Tested (24, 3) -> (25, 3): BLOCKED! Tile (25, 3) is a solid rock wall. Ladder (19, 7) pocket is enclosed on the east.
@@ -4257,7 +4254,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections & Ladders
 - Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Open corridor runs south via (28, 1..3) and (29, 3..6) into the Northeast Loop (cols 27..29, rows 3..7), Northern Chamber (cols 25..29, rows 5..7), and Column 26 Corridor! [Visually confirmed Turn 26419; prior claim of dead-end enclave is DISPROVEN].
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Bounded by solid rock walls cols 27..29, rows 0..6 per physical audit Turn 26143.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
@@ -4314,7 +4311,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
 - Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
-- Column 24-26 Open East-West Transit: Empirically verified Turn 26417 that (25, 3..5) and (26, 3..5) are OPEN SPECKLED FLOOR! Column 24 connects seamlessly east through Column 25 into Column 26, linking the Ladder (19, 7) sector directly into the entire Northern Chamber and Eastern 2F network! Prior claims that (25, 5) was a solid rock wall are completely DISPROVEN.
+
 
 ## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
