@@ -957,7 +957,7 @@
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
 - Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
-- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28) blocking direct southern access to Route 5 without HM01 Cut.
+- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28). Cut tree at (19, 28) chopped down by DUX on Turn 28465, opening direct passage between southern Route 5 approach and Cerulean Pok�mon Center avenue.
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
 
 ## Key Buildings & Facilities
@@ -4428,6 +4428,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Field Moves Required: HM03 SURF (SHELDON), HM05 FLASH (SANDMAN - optional if lit), HM01 CUT (DUX).
 - Target: ZAPDOS (Electric/Flying, Level 50).
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
+
+## Capture Strategy & Preparation
+- Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
+- Target: ZAPDOS Lv 50 (Electric/Flying). Catch rate: 3.
+- Combat Protocol:
+  1. Lead with Blastoise (SHELDON Lv 70) or Mewtwo (OMEGA Lv 70) to absorb hits and chip Zapdos into red HP (Surf / Swift / Double-Edge).
+  2. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
+  3. Throw Ultra Balls while Zapdos is asleep at low HP.
+  4. Contingency: If Zapdos breaks out of both Ultra Balls, note that �107,981 cash is available; balls can be purchased at Indigo Plateau Mart (Ultra Ball �1200) or Celadon Dept Store (Great Ball �600) if a restock is required.
+- Flash Requirement Hypothesis:
+  - Hypothesis: Power Plant may be naturally lit or dark. To be empirically verified upon entering the facility. Sandman has HM05 Flash ready if illumination is needed.
 
 
 <hr>
