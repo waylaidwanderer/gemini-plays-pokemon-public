@@ -2815,6 +2815,7 @@
 
 ## Verified Docks & Waterway Routing
 - **North Dock**: Located at (15, 3). Connects Northern Mainland (Row 1) to Central Waterway at (15, 4).
+- **Northeast Dock Ramp**: Located at (23, 3). Connects Northern Mainland at (23, 1..2) directly south into Central Waterway at (23, 4) [Verified Turn 55175].
 - **South Shore**: Located at (15, 8). Direct Surf launch is blocked by elevation.
 - **Central Island Dock**: Located at (11, 13).
 - **Northern Mainland**: Spans rows 0-2 from (15, 1) west to Ladder E at (7, 1). Open passable horizontal highway.
