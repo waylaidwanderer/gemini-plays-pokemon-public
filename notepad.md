@@ -8,7 +8,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
-- Money: ¥107981 [Turn 25269]
+- Money: ¥65981 [Turn 28845]
 - Pokédex: 18 Caught / 127 Seen
 
 ## Milestones
@@ -156,7 +156,7 @@
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
-- [ ] Restock 35 Ultra Balls at Indigo Plateau Mart
+- [x] Restock 35 Ultra Balls at Indigo Plateau Mart (Total: 37 Ultra Balls, Funds: ¥65981) [Turn 28845]
 - [ ] Return to Power Plant and capture Legendary ZAPDOS
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
 
@@ -174,7 +174,7 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x12
-(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x2, CARBOS x1, HP UP x1, HM02)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x37, CARBOS x1, HP UP x1, HM02)
 
 ## Inventory Capacity
 - Active Bag Items: 14 / 20 capacity used.
@@ -214,7 +214,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥107981 [Turn 25269]
+- ¥65981 [Turn 28845]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
@@ -4419,7 +4419,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
 
 ## Capture Strategy & Preparation
-- Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
+- Current Ball Inventory: ULTRA BALL x37 [Restocked 35 at Indigo Plateau Turn 28845].
 - Mathematical Risk Analysis: Catch Rate 3 for Lv 50 Zapdos with an Ultra Ball at 1 HP + Sleep is ~12-15% per throw. With only 2 Ultra Balls, failure probability exceeds 75-80%!
 - Critical Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
@@ -4436,7 +4436,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Power Plant northern approach, Sector 6, and Row 3 Highway mapped; Zapdos sighted at (4, 9) from doorway (4, 6).
 - Un-traversed tiles of Zapdos chamber to be confirmed upon return.
 - Active Plan:
-  1. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (funds: ¥107,981).
+  1. [x] Fly to Indigo Plateau Mart, buy 35 Ultra Balls (verified 37 Ultra Balls in bag, funds: ¥65,981) [Turn 28845].
   2. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.
   3. Re-enter Power Plant, walk directly to Zapdos at (4, 9), SAVE game, and capture!
 
