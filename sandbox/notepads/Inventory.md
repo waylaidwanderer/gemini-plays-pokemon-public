@@ -100,7 +100,7 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
-- MEWTWO [Lv 70, Psychic]
+- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - Moves: Psychic, Barrier, Swift, Recover
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
