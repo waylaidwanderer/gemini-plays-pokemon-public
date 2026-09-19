@@ -177,7 +177,6 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Total Slots Used: 8 / 20 [Audited Turn 25510]
 - Verified Active Bag Items (8 items):
   1. MASTER BALL x1 [Pre-swapped to Slot 1 Turn 25510]
   2. POKé FLUTE
@@ -4161,6 +4160,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - 1F (3, 11) <-> 2F (3, 11) [2-way confirmed]
    - Unverified Candidate: 1F (0, 6) and 2F (1, 3) [Neither stepped on; correlation is a working hypothesis]
 
+## Active Breakthrough Strategy & Routing Protocol
+- Empirical Finding: 2F comprises isolated subgraphs:
+  - Sector A (9, 1): 100% enclosed by Row 0 ceiling, Row 4 boulders, and (8, 5) boulder.
+  - Southwest Sector (3, 11): 100% enclosed by solid boulders on west ((1, 10..11), (4, 13), (0..1, 14), (2, 15), (3..5, 16)).
+  - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
+- Working Hypothesis: The true descent to B1F lies in the segregated 1F Northwest Corridor (0, 6) which connects to 2F Ladder (1, 3).
+- Active Protocol:
+  1. On 2F at (27, 6): Move through (27, 7) -> (25, 7) to inspect whether (24..27, 4) or any passage connects westward into the northern perimeter.
+  2. If 2F eastern transit is fully confirmed closed, immediately pivot to 1F ground-level waterways to test the western water boundaries along Row 7/8 for an unverified access point into the Northwest Corridor.
+
 
 <hr>
 
@@ -4225,7 +4234,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections & Ladders
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Directly accessible from (8, 1) stepping East. Visually confirmed with blue ladder rungs [Turn 26646]. Connects to 1F.
-- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south. [Verified Turns 26594, 26599]
+- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south.
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Exits West to (28, 1), South down Column 28 through (28, 2..3), East to (29, 3), and South down Column 29 through (29, 4..6). At (29, 6), turns West to (27, 6..7) and (25, 7), connecting south into Sector B (closed loop with Ladder 22, 6). Does NOT connect to Sector A.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Connects ONLY to an isolated 7-tile secluded pocket spanning (18..20, 5..7). Bounded on ALL sides by solid rock walls: North at (18, 5), (19..20, 4); East at (21, 5..6), (20, 7); South at (18..19, 8); West at (17, 5..7). Has ZERO connection to Row 2, Row 3, Column 24, or the rest of 2F. [Empirically verified Turns 27015-27023]
