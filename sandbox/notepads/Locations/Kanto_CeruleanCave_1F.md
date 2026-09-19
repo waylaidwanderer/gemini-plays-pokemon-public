@@ -14,7 +14,7 @@
 - Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
   - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
   - Cols 3..6: Solid rock walls at (3..6, 7).
-  - Definitive Conclusion: The Western Terrace has zero northward passage into Row 7. Ladder (0, 6) must be accessed from the north via the Northern Terrace and Column 5.
+  - Definitive Conclusion: The Western Terrace has zero northward passage into Row 7.
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
