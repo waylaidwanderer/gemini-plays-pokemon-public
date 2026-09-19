@@ -4696,6 +4696,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sighted Boulder at (18, 10): Located in adjacent western chamber across col 20 wall; inaccessible directly from 1F entrance enclosure [Sighted Turn 29164].
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
-- Krabby [Encountered Turn 29165].
+- Krabby (Lv 28) [Encountered Turn 29165].
 
 <hr>
