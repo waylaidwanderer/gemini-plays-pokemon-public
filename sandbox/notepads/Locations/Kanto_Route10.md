@@ -23,7 +23,7 @@
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
 - Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
-- Pokémaniac at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Intro: 'Wow, are you a POKéMANIAC too? Want to see my collection?'.
+- Pokémaniac at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Intro: 'Wow, are you a POKéMANIAC too? Want to see my collection?'. Team: Rhyhorn Lv 30 (defeated Turn 28923), [Pokemon 2].
 
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
