@@ -4299,5 +4299,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (29, 1) Enclosed Pocket: Bounded by rock walls cols 27..29, rows 0..6. ZERO ground access to the rest of 2F!
 - Ladder (3, 11) Southwest Pocket: Connects to Row 17 West and Column 12/13, but blocked from Candidate Ladder (1, 3).
 - Ladder (19, 7) (from 1F Ladder 18, 9): Descending cave ladder connecting to 1F Ladder (18, 9). Winding passage leads through (19, 6..5) -> (20, 5) -> (21, 5) -> (21, 4) -> (22, 4) -> (22, 3), connecting directly to the northern corridor network! [Physically verified Turns 26221-26229]
+## Corridor Discoveries [Turn 26242]
+- Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
+- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24! [Visually verified Turn 26242]
 
 <hr>
