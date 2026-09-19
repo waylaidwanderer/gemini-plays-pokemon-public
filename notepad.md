@@ -4613,7 +4613,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Quest Objectives & Routing
 - [x] Exit Power Plant via Diglett's Dig to Cerulean City [Turn 29085]
 - [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
-- [ ] Exit Indigo Plateau building to outdoor entrance
+- [x] Exit Indigo Plateau building to outdoor entrance [Turn 29109]
 - [ ] Fly to Cinnabar Island
 - [ ] Surf Route 20 east to Seafoam Islands
 - [ ] Infiltrate Seafoam Islands (Route 20)
