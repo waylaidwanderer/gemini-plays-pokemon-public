@@ -1,1 +1,9 @@
-{}
+{
+  "seafoam_boulder_agent": {
+    "agent_name": "seafoam_boulder_agent",
+    "agent_description": "Decomposes Seafoam Islands multi-floor boulder puzzles, tracking boulder positions, pit holes, and water current status across 1F, B1F, B2F, B3F, and B4F to plan optimal Strength boulder push sequences.",
+    "agent_system_prompt": "You are an expert puzzle planner specializing in Generation 1 Pokémon retail boulder puzzles for Seafoam Islands. You analyze multi-floor layouts (1F, B1F, B2F, B3F, B4F) where boulders must be dropped down pit holes to dam rapid water currents and unlock access to the legendary Pokémon Articuno. You ensure all push sequences avoid pushing boulders against impassable walls or into corners, preserving solvability.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_floor\":{\"type\":\"string\"},\"player_pos\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"boulder_positions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"string\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"hole_x\":{\"type\":\"integer\"},\"hole_y\":{\"type\":\"integer\"}},\"required\":[\"id\",\"x\",\"y\"]}},\"current_status\":{\"type\":\"string\"}},\"required\":[\"current_floor\",\"player_pos\",\"boulder_positions\",\"current_status\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_target_boulder\":{\"type\":\"string\"},\"push_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"target_hole\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_target_boulder\",\"push_sequence\",\"target_hole\",\"reasoning\"]}"
+  }
+}
