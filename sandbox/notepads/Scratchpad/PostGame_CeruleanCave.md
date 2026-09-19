@@ -28,5 +28,5 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Step west along Row 12 to Staircase (13, 13): (16, 12) -> (13, 12) -> (13, 13) to reach Surf launch site. [ACTIVE]
-  2. Launch Surf facing south into (13, 14) and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
+  1. Surf along Subterranean Lake: (13, 14) -> (15, 14) -> (15, 16) -> (18, 16) -> navigate eastern lake north toward Mewtwo's platform. [ACTIVE]
+  2. Approach Mewtwo, initiate battle, and capture Mewtwo with the Master Ball (Slot 1).

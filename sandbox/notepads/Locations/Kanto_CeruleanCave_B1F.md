@@ -38,7 +38,9 @@
   - Row 12 Shoreline Corridor: Open purple floor spanning (13..16, 12) connecting Column 16 directly west to Staircase (13, 13).
   - Staircase (19, 11): 1-tile wide wooden staircase at (19, 11) at the southern end of Eastern Chamber (Cols 19..20, Rows 6..10).
   - Eastern Chamber (Cols 19..21, Rows 6..10): Open purple floor corridor flanking eastern side of central cavern, leading south to Staircase (19, 11).
-  - Main Subterranean Lake: Confirmed water expanse spanning Columns 12..14+ across Rows 14..17+, accessible via Staircase (13, 13) and waterways!
+  - Main Subterranean Lake: Expansive water body launched via Staircase (13, 13) at (13, 14) [Surfing initiated Turn 28197]!
+    - Water covers (12..15, 14..15), wrapping south of central boulder (16..17, 14..15) into an open 5-tile wide water highway across Rows 16..17 (Cols 14..18+).
+    - Eastern channel runs north along Column 18 (Rows 12..17+) heading into the eastern lake toward Mewtwo's platform.
   - Central Purple Cavern Floor (Cols 9..14+, Rows 6..12):
     - Arrived onto purple floor via Staircase (9, 13) at (9, 12), advancing north through (9, 11..10) [Traversed Turn 28190].
     - Broad open purple chamber spans Rows 6, 7, 8 across Columns 9 through 14+.
