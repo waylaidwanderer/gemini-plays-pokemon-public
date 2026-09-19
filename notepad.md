@@ -4170,6 +4170,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   1. On 2F at (27, 6): Move through (27, 7) -> (25, 7) to inspect whether (24..27, 4) or any passage connects westward into the northern perimeter.
   2. If 2F eastern transit is fully confirmed closed, immediately pivot to 1F ground-level waterways to test the western water boundaries along Row 7/8 for an unverified access point into the Northwest Corridor.
 
+- Southeast Network Audit [Turn 27755]: Cols 25..29, Rows 6..14 is 100% physically and visually confirmed as a closed loop connecting between Column 29, (27, 6..7), and Column 26. Completely bounded by solid boulders on west (Col 24) and north (Row 6). Zero exit to Sector A or western 2F.
+
 
 <hr>
 
