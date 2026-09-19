@@ -73,4 +73,4 @@
 - Electrode: Lv 55 [Encountered Turn 28187]
 
 ## Objectives & High-Value Targets
-- Mewtwo: Confirmed at (27, 13) on B1F platform! Confronted at (27, 14) with 'Mew!' dialogue active [Turn 28231]. Battle initiated for Master Ball capture!
+- Mewtwo: CAPTURED with Master Ball on Turn 28234 at (27, 13) [Lv 70]! Ultimate legendary quest complete!

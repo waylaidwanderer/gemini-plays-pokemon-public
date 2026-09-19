@@ -7,7 +7,7 @@
 - Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: ¥107981 [Turn 25269]
-- Pokédex: 17 Caught / 124 Seen
+- Pokédex: 18 Caught / 125 Seen
 
 ## Milestones
 
@@ -150,3 +150,4 @@
 - [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
 - [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
+- [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
