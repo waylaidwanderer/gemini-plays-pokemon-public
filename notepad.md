@@ -2046,7 +2046,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Western Avenue Corridor: Spans columns 2..5 as a continuous 4-tile wide yellow brick road from row 10 south past row 19.
 - Eastern Boundary: Department Store west wall and curb along column 6 (rows 7..13).
 - Northern Boundary: Building facade along row 9 (cols 2..5) with solid wall at (2..5, 9).
-- Western Boundary: Continuous line of border trees along column 1 (rows 7..17), transitioning to concrete curb at (1, 18) and wooden fence posts at (1, 19).
+- Western Boundary: Continuous line of border trees along column 1 (rows 7..17), opening at (1, 18) as a paved passage between trees at (1, 17) and wooden bollards at (1, 19) leading west onto Route 16 [Verified Turn 28767].
 
 ## Northern Bypass / Rooftop Corridor Entrance (Verified Turn 13406)
 - Eastern Gap (Cols 44..45): Continuous 2-tile wide paved yellow brick road spanning north from row 10 up past row 6 between the Pokémon Center east wall (col 43) and the eastern border trees (col 46).
