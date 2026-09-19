@@ -27,7 +27,7 @@
 ## Sector 3: Central Wing & Sub-Concourse (Rows 15..23, Cols 9..17)
 - Sub-Concourse (Row 21, Cols 9..17): Open east-west corridor running from cleared trap at (9, 20) east through column 15 gateway to columns 16-17.
 - Column 13 Corridor (Rows 16..19, Col 13): Single-tile wide north-south passage between rubble fields (cols 11..12 and cols 14).
-- Northern Corridor Sighting (Row 11, Cols 11..16): Visually sighted from afar at (11, 15); open tiles visible above row 12 wall, unvisited and unverified until traversed.
+- Northern Gateway at (15, 11) [Verified Turn 28976]: Open 1-tile wide east-west passage through the Column 15 dividing wall, connecting the eastern concourse (cols 16..18) directly into the western central wing (cols 12..14).
 - Eastern Junction (Cols 15..19, Rows 20..22): Open gap at (15, 21) connects into columns 16-17. Green machinery monitors at (18..19, 21) split corridor into northern avenue (row 20) and southern avenue (row 22). Rubble at (16..17, 18) blocks direct northward travel.
 
 ## Sector 4: Computer Terminal Hall & Eastern Avenue (Rows 16..24, Cols 18..38)
