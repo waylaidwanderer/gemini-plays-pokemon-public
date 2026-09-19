@@ -1073,9 +1073,7 @@
   - Gatehouse Interior (Audited Turn 28723): North mat at (3..4, 0), central green-checkered corridor across cols 3..4 (rows 1..6), guard at (1, 3) behind west counter, south exit mat at (3..4, 7). Guard allows free passage.
   - South Exit Door: Located at (10, 33) facing south onto row 34 courtyard.
   - Row 33 Barrier: Continuous collision boundary across row 33 consisting of wooden bollards at (2..5, 33) [Confirmed solid Turn 28720], the gatehouse south wall (cols 6..13), and bollards at (14..17, 33). Passing to row 34 requires walking through the gatehouse interior.
-  - Building structure spanning cols 6..13 with yellow diamond lattice roof at rows 30..31.
   - Bounded on north by decorative bollards at (8, 28..29) and (11, 28..29).
-  - Eastern flank bounded by bollards at (14..17, 33).
 - Western Boulevard Bypass (Cols 2..5, Rows 23..31+) [Audited Turn 28718]:
   - 4-tile wide open pale mint paved boulevard running north-south along the western edge of Route 5.
   - Bounded on west by column 1 tall grass/hedge border.
@@ -1516,7 +1514,7 @@
     - The destination list wraps around continuously (pressing Up at the top wraps to the bottom, and vice versa).
     - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
     - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
-  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or within caves. Attempting to use Fly indoors yields '[POKéMON] can't FLY here.' [Empirically verified Turn 28857 in Indigo Plateau lobby]. The player must exit outdoors to an open-sky exterior map before using Fly.
+  - Outdoor Restriction: HM02 Fly cannot be cast indoors or inside buildings (attempting to use Fly inside Indigo Plateau lobby yields '[POKéMON] can't FLY here.' [Empirically verified Turn 28857]; cave restriction unverified). The player must exit outdoors to an open-sky exterior map before using Fly.
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).
@@ -4560,8 +4558,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Accessed via the cleared Cut tree at (34, 9) and lawn at (34, 8) [Traversed Turn 28776].
 
 - Northern Plaza (Rows 4..5, Cols 25..27) [Audited Turn 28777]: Paved plaza north of the highway; tall grass terminates east of col 28.
-- Highway Continuation: Rows 6..7 continue west through cols 25..28 toward the gatehouse and Secret House.
-
 - Route 16 Gatehouse (Cols 20..23, Rows 3..11) [Audited Turn 28778]:
   - Large 2-story gatehouse building spanning cols 20..23.
   - Eastern approach from northern highway: Paved plaza across rows 4..5 (cols 24..27) leads directly to the eastern facade of the gatehouse at (23, 4..5).
