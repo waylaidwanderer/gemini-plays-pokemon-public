@@ -4166,10 +4166,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
 - Working Hypothesis: Descent to B1F connects via Ladder (1, 3) in Northwest Enclave.
 - Active Protocol:
-  1. Step Down x2 to (3, 3) to pan camera south and audit Rows 6 and 7 below Row 5 (Cols 0..7).
   2. Determine how Row 5 (Cols 0..7) and Ladder (1, 3) connect to the 2F corridor network.
 
-- Southeast Network Audit [Turn 27755]: Cols 25..29, Rows 6..14 is 100% physically and visually confirmed as a closed loop connecting between Column 29, (27, 6..7), and Column 26. Completely bounded by solid boulders on west (Col 24) and north (Row 6). Zero exit to Sector A or western 2F.
 
 <hr>
 
