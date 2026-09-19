@@ -33,7 +33,7 @@
 - Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9).
   - Row 8 Barrier: (2..12, 8) is a continuous solid rock wall blocking all northward access from Row 9. (3, 8) visually verified solid rock [Turn 26362].
   - Column 2 Barrier: (2, 8..13) is a continuous solid rock wall separating the Ladder (3, 11) network from Column 1.
-  - Complete Isolation of Northwest Enclave: Rows 5 and 7 (cols 1..8) and Candidate Ladder (1, 3) are completely walled off from the rest of 2F by solid rock barriers (Row 8, Column 2, (17..18, 5), and (20, 17)). ZERO ground access exists on 2F to Candidate Ladder (1, 3) [Empirically verified Turn 26362].
+  - Northwest Enclave Observation: Rows 5 and 7 (cols 1..8) and Candidate Ladder (1, 3) are bounded south by solid rock walls at (3, 8) and (2, 8..13), and bounded east by rock walls at (17..18, 5) and (20, 17). Ground traversal from (3, 9) north is physically blocked by rock wall (3, 8) [Turn 26362]. Candidate Ladder (1, 3) access requires further empirical testing.
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
