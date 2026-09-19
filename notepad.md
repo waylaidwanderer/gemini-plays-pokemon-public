@@ -4734,5 +4734,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Shoreline launch at (7, 6): dry floor at (7..8, 6) faces north directly into water at (7, 5).
   - Dock at (7, 3): wooden dock connects water at (7, 4) north onto dry floor at (7, 2).
   - Rock divider at col 6: rows 7..10 divide western water (cols 4..5) from eastern dry floor (cols 7..13).
+- Rapid Current Verification [Audited Turn 29196]:
+  - Attempting to Surf north from (7, 6) into canal at (7, 5) yields 'No SURFing on SHELDON here!'.
+  - Confirms active rapid water currents in northwest canal block water traversal to Articuno.
+  - Boulders must be dropped from upper floors (B3F) to dam the currents.
+  - Ladder at (11, 7) is the direct ascent route to B3F puzzle chamber.
 
 <hr>
