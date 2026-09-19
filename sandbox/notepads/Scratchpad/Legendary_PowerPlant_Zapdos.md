@@ -38,5 +38,5 @@
 2. [x] Follow surveyed transit route through Power Plant via (15, 11) gateway to (12, 7) [Turn 28979].
 3. [x] Ascended to Row 3, traversed northern foyer, entered doorway at (4, 6), and arrived at (4, 8) facing Zapdos [Turn 28991].
 4. [x] Executed manual SAVE directly in front of Zapdos at (4, 8) [Turn 28993].
-5. Initiate encounter with 'A', chip safely with ONE Swift using Mewtwo, sustain with Recover, and capture with 37 Ultra Balls! [ACTIVE]
-
+5. [x] Swift delivered! Zapdos chipped to ~65% HP. Mewtwo at 219/234 HP [Turn 28996].
+6. Throwing Ultra Balls from 37-ball stockpile until Zapdos is caught! [ACTIVE]
