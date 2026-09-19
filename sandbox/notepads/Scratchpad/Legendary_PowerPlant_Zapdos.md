@@ -11,7 +11,7 @@
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
 
 ## Capture Strategy & Preparation
-- Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
+- Current Ball Inventory: ULTRA BALL x37 [Restocked 35 at Indigo Plateau Turn 28845].
 - Mathematical Risk Analysis: Catch Rate 3 for Lv 50 Zapdos with an Ultra Ball at 1 HP + Sleep is ~12-15% per throw. With only 2 Ultra Balls, failure probability exceeds 75-80%!
 - Critical Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
@@ -28,6 +28,6 @@
 - Power Plant northern approach, Sector 6, and Row 3 Highway mapped; Zapdos sighted at (4, 9) from doorway (4, 6).
 - Un-traversed tiles of Zapdos chamber to be confirmed upon return.
 - Active Plan:
-  1. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (funds: ¥107,981).
+  1. [x] Fly to Indigo Plateau Mart, buy 35 Ultra Balls (verified 37 Ultra Balls in bag, funds: ¥65,981) [Turn 28845].
   2. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.
   3. Re-enter Power Plant, walk directly to Zapdos at (4, 9), SAVE game, and capture!

@@ -6,7 +6,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
-- Money: ¥107981 [Turn 25269]
+- Money: ¥65981 [Turn 28845]
 - Pokédex: 18 Caught / 127 Seen
 
 ## Milestones
@@ -154,6 +154,6 @@
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
-- [ ] Restock 35 Ultra Balls at Indigo Plateau Mart
+- [x] Restock 35 Ultra Balls at Indigo Plateau Mart (Total: 37 Ultra Balls, Funds: ¥65981) [Turn 28845]
 - [ ] Return to Power Plant and capture Legendary ZAPDOS
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO

@@ -8,7 +8,7 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x12
-(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x2, CARBOS x1, HP UP x1, HM02)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x37, CARBOS x1, HP UP x1, HM02)
 
 ## Inventory Capacity
 - Active Bag Items: 14 / 20 capacity used.
@@ -48,7 +48,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥107981 [Turn 25269]
+- ¥65981 [Turn 28845]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
