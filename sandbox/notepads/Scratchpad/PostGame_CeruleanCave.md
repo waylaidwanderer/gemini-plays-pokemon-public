@@ -23,12 +23,22 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (6, 9) on foot facing Right.
-- Active Strategy & Frontier:
-  - [x] Master Topological Audit [Turn 26248]: 2F eastern ladders (22, 6), (29, 1), and (19, 7) are verified isolated pockets.
-  - [x] Sighted Ladder (0, 6) in 1F northwest alcove [Turn 26304].
-  - [x] Verified Row 8 Cliff Barrier: (1..4, 8) cannot step Up into Row 7 [Turns 26306-26307].
-  - Active Plan: Flee Golbat battle at (4, 8). Complete audit of 1F Western Terrace at Columns 5..6 on Row 8. If blocked, ascend Ladder (3, 11) to 2F and explore north along Column 3 toward Candidate Ladder (1, 3).
+- Current Location: Cerulean Cave 2F at (11, 9) on foot facing Right.
+- Master Highway Solution [SOLVED Turn 26328]:
+  - Sighted Row 5 Northern Highway spanning (3..16, 5) and connecting via (6, 6) into Row 7 Highway (1..11, 7)!
+  - Row 7 connects directly at (1, 7) north up Column 1 to Candidate Ladder (1, 3)!
+  - Access to Row 5 is from the east via Column 26 -> (25, 7..9) -> (24..29, 5).
+  - Complete 2F Master Circuit:
+    1. (11, 9) -> Col 12 south to (12, 15)
+    2. Col 13 Bypass south to (13, 17) on Row 17
+    3. Row 17 east to (27, 17)
+    4. Col 28 north to (28, 14) -> Col 26 north to (26, 9)
+    5. Step west to (25, 9..7) into Northern Chamber
+    6. Row 5 west across map from (24, 5) to (6, 5)
+    7. Step south through (6, 6) into Row 7 at (6, 7)
+    8. Row 7 west to (1, 7), then north up Column 1 to Candidate Ladder (1, 3)!
+    9. Descend to B1F and catch Mewtwo with Master Ball!
+
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
