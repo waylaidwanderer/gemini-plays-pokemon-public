@@ -22,5 +22,6 @@
   - Dry floor continues west across cols 9..18 along rows 14..16.
 
 ## Wild Encounters
+- Staryu [Encountered Turn 29256].
 - Psyduck (Lv 31) [Encountered Turn 29207].
 - Krabby (Lv 31) [Encountered Turn 29244].
