@@ -15,9 +15,9 @@
 - Mathematical Risk Analysis: Catch Rate 3 for Lv 50 Zapdos with an Ultra Ball at 1 HP + Sleep is ~12-15% per throw. With only 2 Ultra Balls, failure probability exceeds 75-80%!
 - Critical Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
-  - RESTOCK PREREQUISITE: We MUST NOT initiate the Zapdos battle with only 2 Ultra Balls! After completing full layout survey and item gathering in Power Plant, use Dig (DIGBY) to warp outside to Cerulean, obtain HM02 Fly on Route 16, purchase 30+ Ultra Balls at Indigo Plateau or Fuchsia Mart (funds: ¥107,981), fly back to Route 10, navigate directly to Zapdos, execute manual SAVE in front of Zapdos, and guarantee capture!
+  - RESTOCK PREREQUISITE: We MUST NOT initiate the Zapdos battle with only 2 Ultra Balls! After completing full layout survey and item gathering in Power Plant, use Dig (DIGBY) to warp outside to Cerulean, obtain HM02 Fly on Route 16, purchase 30+ Ultra Balls at Indigo Plateau or Fuchsia Mart (funds: ¥107,981), fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf, navigate directly to Zapdos, execute manual SAVE in front of Zapdos, and guarantee capture!
 - Combat Protocol (Post-Restock):
-  1. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234) swapped to Slot 1 before the battle. Mewtwo resists nothing but takes neutral damage from Electric, possesses massive Special bulk, and has Recover (PP 20/20). DO NOT lead with Blastoise (Water-type takes 2x super-effective Electric damage).
+  1. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234) [already set to Slot 1 lead Turn 28575]. Mewtwo resists nothing but takes neutral damage from Electric, possesses massive Special bulk, and has Recover (PP 20/20). DO NOT lead with Blastoise (Water-type takes 2x super-effective Electric damage).
   2. Chip Zapdos carefully using Mewtwo's Swift (60 power physical, non-fatal) into red HP.
   3. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
   4. Throw Ultra Balls from our 30+ ball stockpile until caught!
