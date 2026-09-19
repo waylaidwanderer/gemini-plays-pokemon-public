@@ -34,3 +34,9 @@
   - Paved Corridor (Rows 4..5, Cols 12..17): 2-tile wide pale mint roadway running west toward the Secret House.
   - North Boundary: Green lawn at rows 2..3 fronted by stone fence posts at row 1.
   - South Boundary: Green lawn at rows 6..7 separating corridor from lower Cycling Road (row 8+).
+
+- Secret House (Cols 6..9, Rows 2..5) [Audited Turn 28782]:
+  - Small cottage located north of the paved corridor.
+  - Green gabled roof at rows 2..4, yellow windows at row 5.
+  - Front apron along row 6 (cols 6..11) is paved with pale mint pavement.
+  - House entrance accessed from row 6.
