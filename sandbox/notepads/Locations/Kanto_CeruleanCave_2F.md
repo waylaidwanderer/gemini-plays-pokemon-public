@@ -10,7 +10,7 @@
 
 ## Layout & Corridors
 - Row 8 Collision Tests from Row 9: Bump tests confirmed (4, 8) [Turn 27414] and (9, 8) [Turn 27415] are solid rock boulders blocking northward passage from Row 9.
-- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. (2, 3) is solid rock. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
+- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. Tile (2, 3) was assumed solid from visual layout but has not been definitively bump-tested from (3, 3). From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
 - Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5) (empirically confirmed via physical bump test from (9, 5) on Turns 27083-27084: pressing Left resulted in wall collision). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access route into this enclave from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south, and Row 8 blocks from the south.
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
@@ -41,7 +41,7 @@
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9). Connects west via (3, 10) -> (2, 10) -> (2, 11) -> (3, 11) loop.
   - Bump Tests & Boundaries: Physical collision tests confirmed (3, 8) [Turn 26973], (2, 9) [Turn 26973], and (1, 10) [Turn 27321] are solid rock walls. Tile (1, 10) blocks passage west from (2, 10) into Column 1.
-  - Visual Sightings (Unverified Hypotheses): From (2, 10) and (3, 9), floor-like tiles are visually sighted on Row 7 (Cols 1..7), Row 6 at (6, 6), and Row 8 at (1, 8). Row 8 tiles (4..8, 8) visually appear as rock wall but remain untested by collision.
+  - Visual Sightings (Unverified Hypotheses): From (2, 10) and (3, 9), floor-like tiles are visually sighted on Row 7 (Cols 1..7), Row 6 at (6, 6), and Row 8 at (1, 8). Row 8 tiles (5..8, 8) visually appear as rock wall boulders.
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
