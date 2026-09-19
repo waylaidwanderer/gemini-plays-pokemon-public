@@ -80,3 +80,4 @@
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
+- Row 9 East Terminus (Cols 16..21, Rows 8..10): Row 9 extends east through (16..20, 9) to an enclosed dead-end alcove at (21, 9). Bounded north by solid rock wall across Row 8 (16..22, 8), east by solid rock wall at (22, 9), and south by solid rock wall across Row 10 (16..22, 10). Row 9 has ZERO connection to Column 23, Row 11, or Ladder (22, 6). [Empirically verified Turns 26991-26997]
