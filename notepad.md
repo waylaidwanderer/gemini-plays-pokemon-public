@@ -4614,9 +4614,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Locate Seafoam Islands western entrance at (58, 9) via dock at (58, 10..11) [Turn 29158]
 - [x] Infiltrate Seafoam Islands 1F via western entrance at (58, 9) to (26, 17) [Turn 29159]
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
-- [x] Descend SW ladder at (23, 15) to Seafoam Islands B1F [Turn 29168]
-- [x] Scout B1F: ladder (19, 15) walled off from east; ladder (25, 11) wide open [Turn 29169]
-- [ ] Ascend wall ladder at (25, 11) to 1F upper plateau to access boulder (18, 10)
+- [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
+- [ ] Navigate northern corridor (rows 7..8) west to boulder at (18, 10)
+- [ ] Cast Strength with Geodude (ROCKY) and push boulder (18, 10) into hole
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
@@ -4699,26 +4699,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
 - Krabby (Lv 28) [Encountered Turn 29165].
-
-<hr>
-
-<h1><code>Locations/Kanto_SeafoamIslands_B1F</code></h1>
-
-# Seafoam Islands B1F Geography & Layout
-
-## Overview
-- First subterranean basement level of Seafoam Islands.
-- Arrived via SW ladder at (23, 15) descending from 1F [Turn 29168].
-
-## Key Landmarks & Ladders
-- Ladder 1 (SW / Arrival from 1F): Located at (23, 15).
-- Ladder 2 (NE): Located at (25, 11). Accessible via open corridor at row 12.
-- Ladder 3 (West): Located at (19, 15) in western pocket; blocked from east by rocks at (19..20, 13..15). Wooden stairs sighted at (17, 13).
-- Ladder 2 (Ascending to 1F): Located at (25, 11). Wall ladder ascending to 1F upper plateau per seafoam_boulder_agent. Climbed by pressing Up into (25, 11).
-- Ladder 4 (Descending to B2F): Located at (25, 14). Floor ladder descending to B2F.
-- Topography:
-  - Eastern wall at col 28 (rows 10..18).
-  - Southern wall at row 16 (cols 19..28).
-  - Row 11 open corridor spans cols 20..25.
+- Ladder 2 (East): Located at (25, 14), descends to B1F [Verified Turn 29174].
+- Wooden Stairs: Located at (23, 9), connects northern corridor to elevated plateau.
+- Northern Corridor: Rows 7..8 form a continuous open hallway across cols 21..28, providing direct access west into the boulder chamber at (18, 10) [Verified Turn 29174].
 
 <hr>
