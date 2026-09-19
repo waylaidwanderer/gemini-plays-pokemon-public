@@ -73,3 +73,6 @@
 ## Corridor Discoveries [Turn 26242]
 - Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24! [Visually verified Turn 26242]
+
+## Master Floor Topology
+- Ladder (19, 7) Isolated Pocket (Verified Turn 26248): Ladder (19, 7) connects strictly to an enclosed network: (19, 5..7), (20..22, 3..5), (20..24, Rows 0..2), (24, 3..5), and (25..27, 4 dead end). Bounded on all sides by solid rock walls. ZERO ground connection to the rest of 2F!
