@@ -4612,7 +4612,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Quest Objectives & Routing
 - [x] Transit & Prep: Power Plant -> Indigo Plateau (54 Ultra Balls) -> Cinnabar -> Route 20 to Seafoam Islands entrance at (34, 9) [Turns 29085-29131]
-- [x] Infiltrate Seafoam Islands 1F via western entrance at (34, 9) [Turn 29135]
+- [ ] Continue East on Route 20 to locate Seafoam Islands western entrance
+- [ ] Infiltrate Seafoam Islands 1F
 - [ ] Survey Seafoam Islands 1F layout, boulders, holes, and ladders
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
@@ -4654,7 +4655,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Landmarks & Layout
 - Western Boundary: Shoreline at x=0, rows 8..14. Cinnabar Island is visible to the west.
 - Open Water Channel: Navigated corridor along rows 11-13 from col 0 to col 31. Bounded south by rock barrier at row 17 across cols 10..27 [Verified Turns 29120-29131].
-- Seafoam Islands (Western Mound): Western island cliff face visible cols 32..35, rows 8..9. Western cave entrance located at (34, 9) with shoreline dock approach at (34, 10) [Visually verified Turn 29131].
+- Isolated Reef: 4x2 rock reef at cols 32..35, rows 8..9 with fence at row 10 (falsely suspected as entrance due to sprite overlay). Surrounded by open water [Audited Turn 29137].
+- Swimmer at (38, 13) [Sighted Turn 29137]: Positioned in southern water channel facing North.
 
 ## Trainers & Encounters
 - Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
