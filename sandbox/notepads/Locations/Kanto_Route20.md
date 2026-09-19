@@ -12,3 +12,4 @@
 
 ## Trainers & Encounters
 - Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
+- Swimmer at (24, 12) [Sighted Turn 29124]: Positioned in mid water channel facing South (sight line down col 24, rows 13..16). Northern corridor at row 11 passes cleanly behind him [Verified Turn 29125].

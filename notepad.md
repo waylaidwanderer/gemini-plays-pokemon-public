@@ -4657,7 +4657,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Landmarks & Layout
 - Western Boundary: Shoreline at x=0, rows 8..14. Cinnabar Island is visible to the west.
-- Open Water Channel: Rows 8..16 confirmed completely clear across columns 0 to 10 [Verified Turn 29121].
+- Open Water Channel: Rows 8..16 confirmed completely clear across columns 0 to 19, bounded south by rock barrier at row 17 [Verified Turn 29123].
 - Seafoam Islands: Dual island cavern complex located along the route to the east.
 
 ## Trainers & Encounters
