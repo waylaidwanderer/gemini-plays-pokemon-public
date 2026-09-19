@@ -4169,8 +4169,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (4, 8) in wild battle with Golbat.
 - Active Strategy & Frontier:
-  - [x] Master Topological Deduction [Turn 26248]: Ladders (22, 6), (29, 1), and (19, 7) are ALL verified isolated pockets on 2F! Candidate Ladder (1, 3) must be accessed via Western Ladder (3, 11).
-  - Master Plan: Backtrack via Ladder (19, 7) to 1F (18, 9), walk down to 1F lower corridor (Row 17) to Western Terrace, ascend Ladder (3, 11) to 2F, and explore north along Column 3 toward Candidate Ladder (1, 3)!
+  - [x] Master Topological Audit [Turn 26248]: 2F eastern ladders (22, 6), (29, 1), and (19, 7) are verified isolated pockets.
+  - [x] Sighted Ladder (0, 6) in 1F northwest alcove [Turn 26304].
+  - [x] Verified Row 8 Cliff Barrier: (1..4, 8) cannot step Up into Row 7 [Turns 26306-26307].
+  - Active Plan: Flee Golbat battle at (4, 8). Complete audit of 1F Western Terrace at Columns 5..6 on Row 8. If blocked, ascend Ladder (3, 11) to 2F and explore north along Column 3 toward Candidate Ladder (1, 3).
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
@@ -4190,11 +4192,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
-- Ladder (0, 6): Descending cave ladder located in northwest alcove at (0, 6). Accessed via (1, 7) -> (0, 7) -> (0, 6). Descends to B1F! [Visually verified Turn 26304]
+- Ladder (0, 6): Cave ladder located in northwest alcove at (0, 6). Visually sighted from (1, 8); access route and destination unverified. [Visually verified Turn 26304]
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
+- Row 8 Cliff Barrier (Cols 1..4, Row 8): Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face. [Physically verified Turns 26306-26307]
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
