@@ -4466,5 +4466,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Floor Layout & Survey
 - Entrance Foyer (Cols 1..7, Rows 31..35): Wide open starting hall. South exit mat at (4..5, 35). West wall at Column 0. Rubble piles at (5..7, 31), (7, 32..33), and (9, 32..33). Generator with twin dials at (9, 31). Open hallway extends north past row 31 through columns 2..4.
+## Audited Layout & Features (Turn 28542)
+- Entrance Corridor (Rows 27..34, Cols 3..5): Clear north-south passage between rubble piles at (1..2, 28..31) and (6..7, 28..31).
+- Wall Partition & Doorway (Row 26): Horizontal dividing wall across row 26, with an open 2-tile doorway at (4..5, 26).
+- Northern Corridor (Row 25): Open horizontal hall across columns 1 through 6.
+- Item Ball 1 (7, 25): Sitting at (7, 25) east of the row 25 corridor (unverified: real item or Voltorb trap).
 
 <hr>
