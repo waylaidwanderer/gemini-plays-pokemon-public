@@ -43,4 +43,4 @@
 ## Item Balls & Traps Audit
 - Trap at (9, 20) [Cleared Turn 28573]: Voltorb Lv 40 trap. Fled safely; item ball permanently despawned, tile (9, 20) is now empty floor.
 - Item Ball 2 at (25, 18) [Sighted Turn 28582]: Visible in an alcove surrounded by green monitor terminals at (24, 18), (26, 18), and (25, 19). Accessible from the north via (25, 17) and row 16. Identity unverified.
-- Trap at (32, 18) [Engaged Turn 28589]: Voltorb Lv 40 trap. Interacted from (33, 18) facing West. Currently resolving.
+- Trap at (32, 18) [Cleared Turn 28592]: Voltorb Lv 40 trap. Interacted from (33, 18) facing West; fled safely. Trap entity permanently despawned; tile (32, 18) is now clear floor.

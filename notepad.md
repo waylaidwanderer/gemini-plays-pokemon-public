@@ -4406,9 +4406,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Mathematical Risk Analysis: Catch Rate 3 for Lv 50 Zapdos with an Ultra Ball at 1 HP + Sleep is ~12-15% per throw. With only 2 Ultra Balls, failure probability exceeds 75-80%!
 - Critical Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
-  - RESTOCK PREREQUISITE: We MUST NOT initiate the Zapdos battle with only 2 Ultra Balls! After completing full layout survey and item gathering in Power Plant, use Dig (DIGBY) to warp outside to Cerulean, obtain HM02 Fly on Route 16, purchase 30+ Ultra Balls at Indigo Plateau or Fuchsia Mart (funds: ¥107,981), fly back to Route 10, navigate directly to Zapdos, execute manual SAVE in front of Zapdos, and guarantee capture!
+  - RESTOCK PREREQUISITE: We MUST NOT initiate the Zapdos battle with only 2 Ultra Balls! After completing full layout survey and item gathering in Power Plant, use Dig (DIGBY) to warp outside to Cerulean, obtain HM02 Fly on Route 16, purchase 30+ Ultra Balls at Indigo Plateau or Fuchsia Mart (funds: ¥107,981), fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf, navigate directly to Zapdos, execute manual SAVE in front of Zapdos, and guarantee capture!
 - Combat Protocol (Post-Restock):
-  1. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234) swapped to Slot 1 before the battle. Mewtwo resists nothing but takes neutral damage from Electric, possesses massive Special bulk, and has Recover (PP 20/20). DO NOT lead with Blastoise (Water-type takes 2x super-effective Electric damage).
+  1. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234) [already set to Slot 1 lead Turn 28575]. Mewtwo resists nothing but takes neutral damage from Electric, possesses massive Special bulk, and has Recover (PP 20/20). DO NOT lead with Blastoise (Water-type takes 2x super-effective Electric damage).
   2. Chip Zapdos carefully using Mewtwo's Swift (60 power physical, non-fatal) into red HP.
   3. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
   4. Throw Ultra Balls from our 30+ ball stockpile until caught!
@@ -4452,32 +4452,43 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Environment: Fully and naturally lit interior (HM05 Flash is NOT required). Abandoned industrial facility with pink/white checkered floors, machinery, generators, and scrap rubble.
 
 ## Encounters & Mechanics
-- Wild Pokémon: Voltorb (Lv 21, encountered Turn 28543), Magnemite, Magneton, Pikachu, Electabuzz, Grimer, Muk.
-- High-Value Target: Legendary Bird ZAPDOS (Lv 50, Electric/Flying) located at the deep terminus of the plant.
-- Traps: Multiple item balls are disguise Voltorb / Electrode traps that initiate wild combat when interacted with.
+- Wild Pokémon: Voltorb (Lv 21, Lv 40), Magnemite, Magneton, Pikachu, Electabuzz, Grimer, Muk.
+- High-Value Target: Legendary Bird ZAPDOS (Lv 50, Electric/Flying) located at (4, 9) in northern chamber.
+- Traps: Multiple item balls are disguise Voltorb / Electrode traps that initiate wild combat when interacted with. Fleeing or defeating them permanently removes the trap ball from the floor.
 - Permanence: Fleeing from or defeating Zapdos permanently despawns it. Stand directly adjacent and SAVE before pressing 'A'!
 
-## Floor Layout & Survey
-- Entrance Foyer (Cols 1..7, Rows 31..35): Wide open starting hall. South exit mat at (4..5, 35). West wall at Column 0. Rubble piles at (5..7, 31), (7, 32..33), and (9, 32..33). Generator with twin dials at (9, 31). Open hallway extends north past row 31 through columns 2..4.
-## Audited Layout & Features (Turn 28542)
+## Sector 1: Entrance Foyer & Southern Corridor (Rows 25..35, Cols 1..7)
+- South Exit Mat: Located at (4..5, 35) leading out to Route 10.
 - Entrance Corridor (Rows 27..34, Cols 3..5): Clear north-south passage between rubble piles at (1..2, 28..31) and (6..7, 28..31).
 - Wall Partition & Doorway (Row 26): Horizontal dividing wall across row 26, with an open 2-tile doorway at (4..5, 26).
-- Corridor (Row 25, Cols 2..7): Open horizontal hallway. Tile (7, 25) verified to be empty checkered floor (no item ball). Terminated east by rubble at (8..10, 25).
-- Western Passage (Col 2, Rows 21..25): Open north-south corridor connecting row 25 north past rubble at (3, 22..23) to row 21.
-- Northern Hallway (Row 21, Cols 2..7): Open east-west corridor extending east to column 7, bounded south by generators/walls at rows 22-23 and east by wall at column 8.
-- Corridor & Gateway (Rows 18..21, Cols 2..7) [Audited Turn 28551]: West wall at Column 0. Generators at (1, 21), (1..3, 19). Wall partition at (1..4, 18). Wide open passage at cols 5..7 through row 18 connects north into row 17 corridor (cols 2..7). Rubble at (1, 17).
-- Trap at (9, 20) [Cleared Turn 28573]: Interacted from (9, 21) facing North. Triggered "Bzzzt!" Lv 40 Voltorb trap encounter; fled safely. Item ball sprite permanently despawned; tile (9, 20) is now clear checkered floor.
-- East-West Passage (Rows 15..16, Col 8): Open floor gap through column 8 dividing wall, connecting western corridor (cols 2..7) to eastern wing (cols 9..11+).
-- Northern Corridor Funnel (Rows 13..14, Cols 6..7): Bounded west by rubble at (2..5, 13) and east by wall at (8, 13..14). Open corridor heads north through (6..7, 13) toward northern facility.
-- Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Row 12 is a solid dividing wall. Western corridor terminates at (6..7, 13). Access route must loop through the eastern wing via (8, 15..16).
-- Column 13 Corridor (Rows 16..19, Col 13) [Audited Turn 28558]: Single-tile wide north-south passage between rubble fields (cols 11..12 and cols 14), leading south toward the lower concourse and the (9, 20) item ball.
-- Column 15 Wall: Vertical barrier running rows 13..19+ along column 15.
-- Northern Corridor (Row 11, Cols 11..16): Visually sighted from afar at (11, 15); open tiles visible above row 12 wall, unvisited and unverified until traversed.
-- Eastern Junction (Cols 15..19, Rows 20..22) [Audited Turn 28580]: Open gap at (15, 21) connects to columns 16-17. Green machinery monitors at (18..19, 21) split corridor into northern avenue (row 20) and southern avenue (row 22). Rubble at (16..17, 18) blocks northward travel from cols 16-17.
-- Computer Terminal Hall (Rows 17..22, Cols 18..23+) [Audited Turn 28581]: Row 20 is an open horizontal concourse between large banks of green computer terminals (north at rows 17-19, south at row 21). Extends east past col 23. Row 22 is a parallel concourse south of row 21. Sighted entity at (21, 25) in southern pocket.
-- Item Ball 2 at (25, 18) [Sighted Turn 28582]: Visible in an alcove surrounded by green monitor terminals at (24, 18), (26, 18), and (25, 19). Accessible from the north via (25, 17) and row 16.
-- Row 16 Avenue (Cols 24..28+): Open horizontal avenue running east above the monitor bank.
-- Trap at (32, 18) [Verified Turn 28588]: Interacted from (33, 18) facing West. Triggered "Bzzzt!" trap encounter (Voltorb/Electrode).
-- Eastern Avenue & Facility Boundary (Cols 34..36, Rows 16..22+) [Audited Turn 28586]: Column 36 is the solid outer eastern facility wall. Columns 34-35 form a 2-tile wide open north-south avenue connecting rows 16, 18, 20, and 22. Item Ball 3 at (32, 18) is accessible from this avenue via (33, 18).
+- Row 25 Corridor (Cols 2..7): Horizontal hallway bounded south by row 26 wall and east by rubble at (8..10, 25).
+
+## Sector 2: Western Concourse & Northern Funnel (Rows 12..25, Cols 1..8)
+- Western Passage (Col 2, Rows 21..25): Open north-south corridor connecting row 25 north past rubble at (3, 22..23) to row 21. West outer wall at Column 0.
+- Horizontal Concourse (Rows 20..21, Cols 2..7): Open avenue bounded south by generators/walls at rows 22-23 and east by vertical dividing wall along Column 8.
+- Row 18 Gateway (Cols 5..7, Row 18): Wide open passage through row 18 wall connecting row 20 north into row 17 corridor.
+- Northern Funnel (Rows 13..14, Cols 6..7): Bounded west by rubble at (2..5, 13) and east by wall at (8, 13..14). Dead-ends north at row 12 horizontal wall.
+- Column 8 Dividing Wall: Vertical wall along Column 8 with an open east-west passage at (8, 15..16) connecting western and eastern sectors.
+
+## Sector 3: Central Wing & Sub-Concourse (Rows 15..23, Cols 9..17)
+- Sub-Concourse (Row 21, Cols 9..17): Open east-west corridor running from cleared trap at (9, 20) east through column 15 gateway to columns 16-17.
+- Column 13 Corridor (Rows 16..19, Col 13): Single-tile wide north-south passage between rubble fields (cols 11..12 and cols 14).
+- Northern Corridor Sighting (Row 11, Cols 11..16): Visually sighted from afar at (11, 15); open tiles visible above row 12 wall, unvisited and unverified until traversed.
+- Eastern Junction (Cols 15..19, Rows 20..22): Open gap at (15, 21) connects into columns 16-17. Green machinery monitors at (18..19, 21) split corridor into northern avenue (row 20) and southern avenue (row 22). Rubble at (16..17, 18) blocks direct northward travel.
+
+## Sector 4: Computer Terminal Hall & Eastern Avenue (Rows 16..24, Cols 18..36)
+- Terminal Concourse (Row 20, Cols 18..33): Open horizontal concourse bounded north by green computer terminals (rows 17-19) and south by terminals (row 21).
+- Parallel Southern Concourse (Row 22, Cols 18..33): Open horizontal concourse south of row 21 terminals.
+- Row 16 Avenue (Cols 24..35): Open horizontal avenue running east above the monitor bank.
+- Eastern Avenue (Cols 34..35, Rows 16..22+): Wide 2-tile open vertical concourse along the eastern perimeter connecting rows 16, 18, 20, and 22.
+- Facility Outer Wall: Column 36 is the solid outer eastern facility wall.
+
+## Sector 5: Northern Enclosed Chamber (Zapdos Sighting)
+- Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Separated from western approach by solid wall at row 12.
+
+## Item Balls & Traps Audit
+- Trap at (9, 20) [Cleared Turn 28573]: Voltorb Lv 40 trap. Fled safely; item ball permanently despawned, tile (9, 20) is now empty floor.
+- Item Ball 2 at (25, 18) [Sighted Turn 28582]: Visible in an alcove surrounded by green monitor terminals at (24, 18), (26, 18), and (25, 19). Accessible from the north via (25, 17) and row 16. Identity unverified.
+- Trap at (32, 18) [Cleared Turn 28592]: Voltorb Lv 40 trap. Interacted from (33, 18) facing West; fled safely. Trap entity permanently despawned; tile (32, 18) is now clear floor.
 
 <hr>
