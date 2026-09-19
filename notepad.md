@@ -1073,7 +1073,11 @@
 - Pokémon Day Care (West Side): Building structure at cols 13..14, rows 16..23.
 - Underground Path Entrance Building (Cols 16..19, Rows 24..27): 4-tile wide building with yellow lattice roof (rows 24..25), upper windows (row 26), and front entrance door at (17, 27) facing south. Accessible via west side corridor (cols 13..15, rows 23..27+).
 - Signpost (17, 29): Signpost located directly south of the Underground Path entrance building apron.
-- Day Care Building (Cols 6..13, Rows 30..33) [Audited Turns 28715-28718]:
+- Saffron City North Gatehouse (Cols 6..13, Rows 30..33) [Audited Turns 28715-28720]:
+  - Structure spanning cols 6..13, rows 30..33.
+  - North Entrance: Located at (10, 30) / (9, 30), entered from north via the 2-tile wide paved chute (cols 9..10, rows 28..29) flanked by bollards at col 8 and col 11.
+  - South Exit Door: Located at (10, 33) facing south onto row 34 courtyard.
+  - Row 33 Barrier: Continuous collision boundary across row 33 consisting of wooden bollards at (2..5, 33) [Confirmed solid Turn 28720], the gatehouse south wall (cols 6..13), and bollards at (14..17, 33). Passing to row 34 requires walking through the gatehouse interior.
   - Building structure spanning cols 6..13 with yellow diamond lattice roof at rows 30..31.
   - Bounded on north by decorative bollards at (8, 28..29) and (11, 28..29).
   - Eastern flank bounded by bollards at (14..17, 33).
