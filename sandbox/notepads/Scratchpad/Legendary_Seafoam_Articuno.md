@@ -1,8 +1,8 @@
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Strategy & Objectives
-- [x] Transited via Fly to Cinnabar Island outside Pokémon Center [Turn 29281]
-- [x] Healed at Cinnabar Pokémon Center with Nurse Joy; warp anchor set to Cinnabar [Turn 29290]
+- [x] Transited via Fly to Cinnabar Island outside Pokï¿½mon Center [Turn 29281]
+- [x] Healed at Cinnabar Pokï¿½mon Center with Nurse Joy; warp anchor set to Cinnabar [Turn 29290]
 - [ ] Surf East across Route 20 to Seafoam Islands Western Entrance at (58, 9)
 - [ ] Infiltrate Seafoam Islands 1F and systematically map unexplored corridors
 - [ ] Locate and verify pushable boulders and pit holes
@@ -16,6 +16,6 @@
 - TM28 DIG: Diglett (DIGBY) - dungeon exit / emergency escape to warp anchor
 
 ## Mechanics & Findings
-- Warp Anchor: Dig warps to the last Pokémon Center where Nurse Joy healed the party.
+- Warp Anchor: Dig warps to the last Pokï¿½mon Center where Nurse Joy healed the party.
 - Seafoam lower floor water currents block Surfing until boulders are dropped through holes to create a dam.
 - Signposts: (9, 15) 'Boulders might change the flow of water!'; (23, 1) 'DANGER / Fast current!'.
