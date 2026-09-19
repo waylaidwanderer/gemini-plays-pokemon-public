@@ -4167,7 +4167,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (1, 12) on foot facing Up.
+- Current Location: Cerulean Cave 1F at (6, 8) on foot facing Right.
+- Completed Audit of Row 8 (Cols 1..6) [Turn 26379-26381]: Moving Up against Row 7 is 100% blocked across all columns 1..6 (cliff ledge at cols 1..4, rock walls at (5, 7) and (6, 7)). Moving east into (7, 8) is blocked.
+- Conclusion: Direct ground access to Ladder (0, 6) from the Western Terrace is physically impossible.
 - Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
 - Conclusion: Candidate Ladder (1, 3) must be accessed via 1F (likely corresponding to 1F Ladder (0, 6)).
 - Active Plan: Descend Ladder (3, 11) to 1F and audit all 1F pathways to reach the northwest sector or B1F.
@@ -4204,7 +4206,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
-- Row 8 Cliff Barrier (Cols 1..4, Row 8): Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face. [Physically verified Turns 26306-26307]
+- Row 8 Cliff Barrier (Cols 1..6, Row 8):
+  - Cols 1..4: Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face / south-facing ledge [Verified Turns 26306-26307].
+  - Cols 5..6: Stepping Up into Row 7 from (5, 8) and (6, 8) is blocked by solid rock walls at (5, 7) and (6, 7) [Empirically tested Turn 26379].
+  - Col 6 East: Stepping Right from (6, 8) into (7, 8) is blocked by rock/cliff barrier [Empirically tested Turn 26379].
+  - Definitive Conclusion: The Western Terrace has ZERO ground passage into the elevated northwest alcove enclosing Ladder (0, 6). The Row 8 cliff is an impassable barrier from the south.
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
