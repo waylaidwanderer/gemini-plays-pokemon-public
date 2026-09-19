@@ -4159,15 +4159,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (19, 7) secluded pocket. Stepping Up/Down to return to 1F (18, 9).
-- Strategic Finding [Turn 26666]: Visual audit of 2F (19, 7) confirmed it is a 5-tile isolated cul-de-sac bounded by solid rock walls on all sides.
-- Target Route: Return to 1F (18, 9), walk to Staircase (11, 13), surf east across lake to Staircase (25, 9) onto Entrance Terrace, and ascend Ladder (23, 7) to reach 2F Master Network at Ladder (22, 6).
+- Current Location: Cerulean Cave 1F Central-Western Terrace at (11, 12).
+- Critical Correction [Turn 26671]: (19, 7) on 2F connects north to (21, 5) -> (21, 4) -> (22, 2) [previously traversed Turns 26416-26418]. It is NOT a dead end!
+- Immediate Route: Return to Ladder (18, 9), re-ascend to 2F (19, 7), step north through (19, 5) -> (21, 5) -> (21, 4) -> (22, 2) -> Row 2 corridor to explore the unvisited eastern corridors.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
-| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Secluded Pocket (Dead End) |
+| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Central Network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Eastern/Northern Sector |
 | (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Northern Corridor |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
@@ -4245,7 +4245,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Layout & Corridors
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]
-- Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Floor tested at (7..9, 1); no ladder present at (9, 1) [Empirically verified Turn 26633-26638]. Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
+- Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
 - Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
