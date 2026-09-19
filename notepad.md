@@ -4473,5 +4473,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 13 Corridor (Rows 16..19, Col 13) [Audited Turn 28558]: Single-tile wide north-south passage between rubble fields (cols 11..12 and cols 14), leading south toward the lower concourse and the (9, 20) item ball.
 - Column 15 Wall: Vertical barrier running rows 13..19+ along column 15.
 - Northern Corridor (Row 11, Cols 11..16): Visually sighted from afar at (11, 15); open tiles visible above row 12 wall, unvisited and unverified until traversed.
+- Eastern Junction (Cols 15..19, Rows 20..22) [Audited Turn 28580]: Open gap at (15, 21) connects to columns 16-17. Green machinery monitors at (18..19, 21) split corridor into northern avenue (row 20) and southern avenue (row 22). Rubble at (16..17, 18) blocks northward travel from cols 16-17.
 
 <hr>
