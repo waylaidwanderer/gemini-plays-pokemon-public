@@ -1,13 +1,8 @@
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Quest Objectives & Routing
-- [x] Exit Power Plant via Diglett's Dig to Cerulean City [Turn 29085]
-- [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
-- [x] Exit Indigo Plateau building to outdoor entrance [Turn 29109]
-- [x] Fly to Cinnabar Island [Turn 29115]
-- [x] Launch Surf on Route 20 at (0, 12) [Turn 29120]
-- [x] Surf Route 20 east to Seafoam Islands western entrance at (32, 10) [Turn 29129]
-- [ ] Infiltrate Seafoam Islands (Route 20)
+- [x] Transit & Prep: Power Plant -> Indigo Plateau (54 Ultra Balls) -> Cinnabar -> Route 20 to Seafoam Islands entrance at (34, 9) [Turns 29085-29131]
+- [ ] Infiltrate Seafoam Islands 1F via western entrance at (34, 9)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
