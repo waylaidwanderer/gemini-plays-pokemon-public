@@ -37,7 +37,13 @@
   - Staircase (13, 13): 1-tile wide wooden staircase at (13, 13) descending south directly into subterranean lake water at (13, 14) (Surf launch site)!
   - Row 12 Shoreline Corridor: Open purple floor spanning (13..16, 12) connecting Column 16 directly west to Staircase (13, 13).
   - Staircase (19, 11): 1-tile wide wooden staircase at (19, 11) at the southern end of Eastern Chamber (Cols 19..20, Rows 6..10).
-  - Eastern Land Terrace & Northeast Highway (Cols 19..24+, Rows 2..10):
+  - Eastern Land Terrace & Northeast Highway (Cols 19..27+, Rows 2..10):
+    - Ascended via Staircase (19, 11) onto open purple floor at (19, 10).
+    - Row 5 is blocked by boulders across (18..22, 5).
+    - Row 8 forms an open east-west corridor spanning Columns 19 through 24+.
+    - Columns 23 and 24 form a 2-tile wide open vertical highway running north from Row 8 through Rows 2..7 into the northern reaches of B1F!
+    - Staircase (27, 7): Wooden staircase at (27, 7) descending south from (27, 6) into water at (27, 8).
+    - Water borders to the east at Columns 22..24 (Rows 10..15) and Columns 26..27 (Rows 8..11).
     - Ascended via Staircase (19, 11) onto open purple floor at (19, 10).
     - Row 5 is blocked by boulders across (18..22, 5).
     - Row 8 forms an open east-west corridor spanning Columns 19 through 24+.

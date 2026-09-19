@@ -4149,9 +4149,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Ascend Staircase (19, 11): (18, 13) -> (18, 12) -> (19, 12) -> (19, 11) -> (19, 10) to reach the eastern land terrace (Cols 19-20). [ACTIVE]
-  2. Navigate eastern land corridor north toward the upper lake where Mewtwo resides.
-  3. Launch Surf, approach Mewtwo, initiate battle, and capture Mewtwo with the Master Ball (Slot 1).
+  1. Navigate Row 8 East to Column 24: (19, 6) -> (19, 8) -> (24, 8) to access the Northeast Highway (Cols 23-24) heading north. [ACTIVE]
+  2. Advance north along Columns 23-24 into the northern chamber / upper lake where Mewtwo resides.
+  3. Approach Mewtwo, initiate battle, and capture Mewtwo with the Master Ball (Slot 1).
 
 
 <hr>
@@ -4347,10 +4347,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Staircase (13, 13): 1-tile wide wooden staircase at (13, 13) descending south directly into subterranean lake water at (13, 14) (Surf launch site)!
   - Row 12 Shoreline Corridor: Open purple floor spanning (13..16, 12) connecting Column 16 directly west to Staircase (13, 13).
   - Staircase (19, 11): 1-tile wide wooden staircase at (19, 11) at the southern end of Eastern Chamber (Cols 19..20, Rows 6..10).
-  - Eastern Land Terrace (Cols 19..24+, Rows 6..10):
+  - Eastern Land Terrace & Northeast Highway (Cols 19..24+, Rows 2..10):
     - Ascended via Staircase (19, 11) onto open purple floor at (19, 10).
-    - Broad open terrace spans Columns 19..24 across Rows 6..8.
-    - Column 19 forms an open vertical highway running north from (19, 10) through (19, 6..9).
+    - Row 5 is blocked by boulders across (18..22, 5).
+    - Row 8 forms an open east-west corridor spanning Columns 19 through 24+.
+    - Columns 23 and 24 form a 2-tile wide open vertical highway running north from Row 8 through Rows 2..7 into the northern reaches of B1F!
     - Water borders to the east at Columns 22..24 (Rows 10..15).
   - Main Subterranean Lake: Expansive water body launched via Staircase (13, 13) at (13, 14)
     - Water covers (12..15, 14..15), wrapping south of central boulder (16..17, 14..15) into an open 5-tile wide water highway across Rows 16..17 (Cols 14..18+).
