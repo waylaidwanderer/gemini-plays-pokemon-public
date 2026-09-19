@@ -155,7 +155,8 @@
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
-- [ ] Obtain HM02 Fly on Route 16 and restock 35 Ultra Balls
+- [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
+- [ ] Restock 35 Ultra Balls at Indigo Plateau Mart
 - [ ] Return to Power Plant and capture Legendary ZAPDOS
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
 
@@ -166,6 +167,7 @@
 # Inventory Log
 
 ## Bag Items (Empirically Verified Turns 28749-28750)
+- HM02 (FLY) [Key Item - Obtained Turn 28787]
 1. POKé FLUTE [Key Item]
 2. MAX POTION x 1
 3. REVIVE x14
@@ -1508,6 +1510,11 @@
   6. The move animation executes in the overworld, clearing or affecting the target obstacle, and the menu closes automatically.
 
 ## Registered Field Moves & Party Users
+- **HM02 FLY:**
+  - Badge Requirement: Thunderbadge (Lt. Surge) - earned Turn 3632.
+  - Obtained: From girl in Route 16 Secret House [Turn 28787].
+  - Function: Warps player instantly to any previously visited Pokémon Center town across Kanto.
+  - Designated User: Farfetch'd (DUX).
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).
@@ -4586,6 +4593,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Occupants: Girl NPC at (2, 3), Fearow at (6..7, 3..4).
   - Furniture: Central table at (3..4, 3..4) with chairs at (2, 4) and (5, 3..4). Potted plants at corners.
   - Approach: Column 1 is open from row 7 up to row 3, allowing player to stand at (1, 3) facing East to speak with the girl.
+
+- HM02 FLY Claimed [Turn 28787]: Spoke with girl at (2, 3) in the Secret House; received HM02 Fly!
 
 
 <hr>
