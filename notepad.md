@@ -338,7 +338,7 @@
   - Row 1: Wall structure blocks columns 12..18.
   - Columns 10..11: Open 2-tile road corridor leading directly north into Viridian City.
 ## Verified Navigation Corridors (Turn 28319)
-- Row 27-28 Ledge Bypass: Row 27 ledge spans columns 10..17. Tile (9, 28) is verified tall grass (passable, wild Rattata encountered Turn 28319). Columns 6..8 at row 28 remain to be empirically tested.
+- Row 27-28 Ledge Bypass: Row 27 ledge spans columns 10..17. Tiles (9, 28) and (8, 28) are verified passable tall grass (empirically traversed Turns 28319, 28326). Tile (8, 27) is open road connecting directly north into row 26 road corridor.
 
 <hr>
 
@@ -668,7 +668,7 @@
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Cave & Landmarks
-- Mt. Moon Cave Entrance: Located in northern cliff face outside Mt. Moon (approached from Route 3 / Route 4 west). Note: Collision confirmed at (18, 2) facing North on Turn 28266 when tested during Pallet Town misidentification.
+- Mt. Moon Cave Entrance: Located in northern cliff face outside Mt. Moon (approached from Route 3 / Route 4 west).
 - Route 4 Signpost: Located at (17, 7).
 
 ## Eastern Section (Mt. Moon Exit to Cerulean City)
@@ -4408,8 +4408,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Legendary Electric Bird Zapdos & Kanto Power Plant
 
 ## Quest Objectives & Routing
-1. Traverse Route 1 North from Pallet Town to Viridian City. [ACTIVE]
-2. Traverse Route 2 North to Diglett's Cave (Cut tree at 12, 52 and gatehouse).
+1. Traverse Route 1 North from Pallet Town to Viridian City. [DONE - Turn 28350]
+2. Traverse Route 2 North to Diglett's Cave (Cut tree at 12, 52 and gatehouse). [ACTIVE]
 3. Traverse Diglett's Cave to Route 11 / Vermilion City.
 4. Ride through Vermilion -> Route 6 -> Saffron City -> Route 5 -> Cerulean City.
 5. Heal team at Cerulean City Pokémon Center and set warp anchor.
@@ -4452,7 +4452,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Interior: Prof. Oak, Pokédex research, starter table, 2 research aides.
 - Signpost (7, 9): Located at (7, 9) south of Red's house. Text: "PALLET TOWN / Shades of your journey awaits!" [Verified Turn 28298].
 - Courtyard / Avenues:
-  - Central North-South Avenue: Columns 8..9 connecting Route 1 (0..1) south through town.
+  - Central North-South Avenue: Columns 10..11 connecting Route 1 (0..1) south between Red's and Daisy's houses.
   - Crossways: Rows 6..7 open between houses.
   - Water Shoreline: Along rows 12..13 at southern boundary.
 
