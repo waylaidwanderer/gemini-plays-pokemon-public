@@ -15,6 +15,3 @@
    - Ledge at (17, 15) hops south into (17, 16) -> (16, 17) -> open corridor leading west to SW Ladder (3, 11).
 4. **Target Destination**:
    - SW Ladder at 1F (3, 11) <-> 2F (3, 11) -> Ladder A at (1, 3) -> B1F Mewtwo.
-
-## Current Objective
-- From 2F (23, 8), navigate down Column 23 and explore eastern connections (Col 24-27) to reach Ladder C (19, 7) or verify remaining 2F pathways.
