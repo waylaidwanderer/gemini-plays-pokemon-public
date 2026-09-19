@@ -4300,5 +4300,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11) Southwest Pocket: Connects to Row 17 West and Column 12/13, but blocked from Candidate Ladder (1, 3).
 - Ladder (19, 7) (from 1F Ladder 18, 9): THE ONLY LADDER connecting to the central and northwest 2F corridors (Row 7, Row 8, Row 9) and leading to Candidate Ladder (1, 3)!
 
+## Ladder (19, 7) Winding Gateway
+- Ladder (19, 7) Exit Corridor: From (19, 7), open floor leads north through (19, 6) and (19, 5), east through (20, 5) and (21, 5), north through (21, 4), and east into (22, 4) and (22, 3), connecting directly to the northern corridor network! [Visually verified Turn 26219]
 
 <hr>
