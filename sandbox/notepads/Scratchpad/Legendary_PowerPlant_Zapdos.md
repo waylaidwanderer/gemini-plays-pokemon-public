@@ -32,7 +32,7 @@
   1. Traverse south along Route 5 through Saffron City North Gatehouse.
   2. Cross Saffron City to West Gatehouse, enter Route 7, and reach Celadon City.
   3. Proceed west onto Route 16, cut northern tree, and obtain HM02 FLY from secret house.
-  4. Teach HM02 FLY to Farfetch'd (DUX).
+  4. Teach HM02 FLY to Farfetch'd (DUX) [COMPLETED Turn 28797 - DUX learned FLY into Slot 4!].
   5. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (funds: ¥107,981).
   6. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.
   7. Re-enter Power Plant, walk directly to Zapdos at (4, 9), SAVE game, and capture!
