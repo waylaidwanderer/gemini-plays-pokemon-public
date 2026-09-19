@@ -4345,6 +4345,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Wild Pok�mon
 - Ditto: Wild encounter [Encountered Turn 28113]
+- Rhydon: Lv 55 [Encountered Turn 28118]
 
 ## Objectives & High-Value Targets
 - Mewtwo: Legendary psychic Pok�mon residing on B1F. Target for Master Ball capture.
