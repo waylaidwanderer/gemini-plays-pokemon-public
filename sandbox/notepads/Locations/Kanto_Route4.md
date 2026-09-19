@@ -61,3 +61,4 @@
 - Row 2 Corridor (Cols 6..15, Row 2): Open pale mint ground passage running east-west north of the buildings. Bounded north by rock boulders at (6..9, 1) and (12..15, 1), and tree canopy at (10..11, 1).
 - Central Avenue (Cols 8..10, Rows 2..7): Open ground corridor connecting the courtyard between the Rest House (Cols 4..7) and Pokémon Center (Cols 12..15) north to Row 2.
 - Signpost (7, 9): Located south of the Rest House in the lower courtyard.
+- Western Pocket (Cols 2..3, Rows 2..7): Passage west of Rest House. Blocked to south by green NPC at (2, 6) and bin at (3, 5). North access connects to Row 2 at (2..3, 2).
