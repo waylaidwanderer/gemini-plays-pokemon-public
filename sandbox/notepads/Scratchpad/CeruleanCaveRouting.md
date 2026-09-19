@@ -1,17 +1,17 @@
 # Scratchpad: Cerulean Cave Routing & Empirical Frontier
 
-## Verified Sector Boundaries (2F)
-1. **2F East Sector (cols 14-29, rows 3-17)**:
-   - Ladder B at (22, 6) <-> 1F (23, 7).
-   - Ladder C at (19, 7) <-> 1F (18, 9).
-   - Ladder D at (29, 1) <-> 1F (27, 1). Located in dead-end northeast alcove; solid rock at (27, 3) blocks passage west.
-   - Row 17 Southern corridor: (21, 17) to (27, 17) is floor. West of column 21 (cols 17-20 on rows 14-18) is SOLID ROCK.
-   - East Sector does NOT connect directly on 2F to the western sectors.
-2. **Current Strategy - 1F Waterway Navigation**:
-   - Descend Ladder B (22, 6) to 1F (23, 7).
-   - Walk south to shoreline at (24, 9)/(25, 9) facing South.
-   - Activate SURF with HYDROS onto 1F water basin.
-   - Navigate 1F water channel west and north to reach all isolated 1F shores and ladders (including SW Ladder at (3, 11) and NW sector).
-3. **1F Northern Landmass**:
-   - Dock at (15, 3) allows disembarking north from the central water channel onto Row 0-2 open floor (cols 11-16+).
-   - Northern Highway leads west towards (7, 1) Ladder E and the western corridors.
+## Verified Sector Boundaries & Connectivity (2F)
+1. **2F Northwest Sector (Ladder E 9, 1 <-> Ladder A 1, 3)**:
+   - Ladder E at (9, 1) on 2F connects to 1F (7, 1).
+   - Ladder A at (1, 3) on 2F descends directly to Cerulean Cave B1F (Mewtwo)!
+   - Verified path from (3, 3) to Ladder A (1, 3):
+     1. Walk East along Row 3 to (9, 3): `Right` x6.
+     2. Walk South down Column 9 to (9, 7): `Down` x4.
+     3. Walk West along Row 7 to Column 6: `Left` x3 to (6, 7).
+     4. Walk North up Column 6 to Row 5: `Up` x2 via (6, 6) floor to (6, 5).
+     5. Walk West along Row 5 to Column 1: `Left` x5 to (1, 5).
+     6. Walk North up Column 1 directly into Ladder A at (1, 3): `Up` x2 via (1, 4) to (1, 3)!
+2. **Current Objective**:
+   - Descend Ladder A at (1, 3) to Cerulean Cave B1F.
+   - Navigate B1F chamber to Mewtwo.
+   - Throw Master Ball (Bag Slot 18) and capture Mewtwo!
