@@ -28,5 +28,5 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Navigate Column 2 artery south: (0, 12) -> (2, 12) -> (2, 15) to reach subterranean waterways. [ACTIVE]
-  2. Launch Surf on waterways and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
+  1. Traverse Row 16 East Highway: (2, 16) -> (7, 16) to reach the central lower cavern and main subterranean lake. [ACTIVE]
+  2. Launch Surf on lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
