@@ -657,12 +657,7 @@
 - Row 11 Ledge: South-facing ledge spanning columns 7..11. Passable corridor around it is through column 12+ to the east.
 - Corridor (Cols 12..13, Rows 9..13): Open unobstructed passage bypassing the row 11 ledge to the north.
 ## Key Buildings
-- Route 4 Rest House: Located at columns 4..7, rows 4..5. Door at (5, 5). Contains PC and Magikarp salesman.
 - Mt. Moon Pokémon Center: Located at columns 12..15, rows 4..5.
-  - Entrance Door: Located at (13, 5).
-  - "POKé" Sign: Located at (11, 5).
-  - Courtyard: Clear open ground at rows 6..7, columns 10..15.
-  - Exterior NPC: Cooltrainer F around (10, 7).
 ## Mt. Moon Pokémon Center Interior
 - Entrance Mat: (3..4, 7). Exits south to Route 4.
 - Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
@@ -673,7 +668,7 @@
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Cave & Landmarks
-- Mt. Moon Cave Entrance: Located at (18, 1). Cave mouth set into the north cliff face, approached from south via Column 18 grass path (18, 2..5).
+- Mt. Moon Cave Entrance: Located in northern cliff face outside Mt. Moon (approached from Route 3 / Route 4 west). Note: Collision confirmed at (18, 2) facing North on Turn 28266 when tested during Pallet Town misidentification.
 - Route 4 Signpost: Located at (17, 7).
 
 ## Eastern Section (Mt. Moon Exit to Cerulean City)
@@ -694,19 +689,7 @@
 - Lower Corridor (Cols 42..61, Rows 14..15): Bounded by row 13 south-facing ledge to the north. Walkable red flower bed at cols 42..47, open grass at cols 48..61.
 - Row 8 Bypass: Open grass path at row 8 bypassing the col 62 tree line (which only blocks rows 9..15).
 - Lower Corridor Boundaries: Solid rock wall at col 41; solid water/shoreline at row 16; column 75 tree line extends rows 9..13 only (rows 14..15 are completely open grass connecting the bridge pocket to the western lower corridor).
-## Route 4 Rest House Interior (Door at 5, 5)
-- Entrance Mat: (2..3, 7). Exits south to Route 4 courtyard at (5, 6).
-- PC: Located at (3, 1) on northern wall.
-- Waiting Table: (3..4, 4..5) wooden table with flowers and surrounding chairs.
-- Magikarp Salesman: NPC sitting at (5, 4).
-- Note: This building contains a PC terminal and rest area, but NO Nurse Joy healing counter.
 
-
-## Western Section Exploration & Geography (Turn 28279)
-- Row 2 Corridor (Cols 6..15, Row 2): Open pale mint ground passage running east-west north of the buildings. Bounded north by rock boulders at (6..9, 1) and (12..15, 1), and tree canopy at (10..11, 1).
-- Central Avenue (Cols 8..10, Rows 2..7): Open ground corridor connecting the courtyard between the Rest House (Cols 4..7) and Pokémon Center (Cols 12..15) north to Row 2.
-- Signpost (7, 9): Located south of the Rest House in the lower courtyard.
-- Western Pocket (Cols 2..3, Rows 2..7): Passage west of Rest House. Blocked to south by green NPC at (2, 6) and bin at (3, 5). North access connects to Row 2 at (2..3, 2).
 
 <hr>
 
