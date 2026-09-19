@@ -68,7 +68,7 @@
 - Western Arteries (Cols 14..16, Rows 1..5): Columns 14 and 15 form a broad 2-tile wide vertical corridor connecting Row 1 down through Row 5. Row 1 connects directly from (18, 1) through (17, 1), (16, 1), (15, 1) into (14, 1). [Visually verified Turn 26517]
 - Column 13 Vertical Highway & Row 5 Bypass (Cols 9..14, Rows 1..6): Row 1 runs west from (14, 1) through (13, 1) to (11, 1). (10, 1) is solid rock. Column 11 runs south to (11, 3) but dead-ends against solid rock at (11, 4). Column 13 is the true vertical highway connecting Row 1 (13, 1) south through (13, 2..5) to Row 5. Row 5 runs west through (12..9, 5). At (9, 5), Column 9 runs north through (9, 4) to (9, 3), connecting directly west into Row 3 (8..7, 3). [Empirically verified Turn 26751]
 
-## Wild Pokémon (Empirically Verified)
+## Wild Pokï¿½mon (Empirically Verified)
 - Magneton: Wild encounter [Encountered 2F Turn 26570]
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
