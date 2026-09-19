@@ -18,14 +18,14 @@
    - Ladder (1, 3) is the sole entrance/exit for this enclave.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 13) on Wooden Staircase (on foot).
-- Working Hypothesis: Western Terrace Column 4 connects north through Row 8..7 into Rows 6..4 and the Northwest Corridor.
+- Current Location: Cerulean Cave 1F at (4, 8) on Western Terrace.
+- Findings: Bump test confirmed 1F (4, 7) is solid rock boulder [Turn 27580]. Ladder at 1F (0, 6) confirmed. Northwest corridor on 1F is an exit-only loop terminating at the Row 7 jump ledge.
+- Breakthrough Strategy: 2F Ladder (1, 3) must be reached from 2F. Row 8 on 2F has untested columns (6, 7, 8, 10, 12).
 - Active Plan:
-  1. From (11, 13), cross Central-Western Terrace via Row 9 and Column 18 south to Staircase (17, 15).
-  2. Descend Staircase (17, 15) and traverse Southwest Lower Corridor (Row 17) to Staircase (1, 13).
-  3. Ascend Staircase (1, 13) to Western Terrace at (1, 12).
-  4. Walk east across Western Terrace to Column 4 (e.g. (4, 10)/(4, 9)).
-  5. Systematically bump-test northward along Column 4 ((4, 8), (4, 7), etc.) to physically verify if passage into Row 6..4 exists.
+  1. Take Ladder (3, 11) up to 2F.
+  2. Walk to (6, 9) on Row 9.
+  3. Physically bump-test tile (6, 8) stepping North from (6, 9).
+  4. If solid, systematically test columns 7, 8, 10, 12 along Row 8.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
