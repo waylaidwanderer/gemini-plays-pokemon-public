@@ -4,7 +4,7 @@
 1. HYDROS (Blastoise) - Lv 96
    - Stats: Max HP 336, Attack 238, Defense 261, Speed 244, Special 254
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (0/10), Bite (25/25), Surf (14/15)
+   - Moves: Double-Edge, Ice Beam, Bite, Surf
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 18
    - Stats: Max HP 59 (HP: 59/59)
@@ -19,17 +19,17 @@
 4. ZEPHYR (Pidgey) - Lv 21
    - Stats: Max HP 61 (HP: 61/61)
    - Type: Normal / Flying
-   - Moves: Fly (15/15), Sand-Attack, Quick Attack (30/30), Whirlwind
+   - Moves: Fly, Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
    - Stats: Max HP 63 (HP: 63/63)
    - Type: Normal
-   - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
+   - Moves: Tackle, Sand-Attack, Double Team
    - Role: Evasion stall (Slot 5)
 6. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46)
    - Type: Grass / Poison
-   - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
+   - Moves: PoisonPowder, Rest, Wrap, Cut
    - Role: Wrap utility (Slot 6)
 
 ## Verified Bag Inventory (Turn 40060 Empirical Audit)
@@ -45,7 +45,7 @@
 - Slot 10: GUARD SPEC. x1
 - Slot 11: POTION x1
 - Slot 12: TM05 x1 (Mega Kick)
-- Slot 13: POK� BALL x1
+- Slot 13: POK BALL x1
 - Slot 14: PP UP x1
 - Slot 15: FULL RESTORE x1
 - Slot 16: NUGGET x1
