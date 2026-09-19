@@ -4151,7 +4151,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Row 1 at (3, 1).
+- Current Location: Cerulean Cave 2F Row 3 at (9, 3).
 - Verified Status: Arrived in Sector A via 1F Ladder (7, 1) -> 2F Ladder (9, 1) -> Row 1 west to (3, 1). Ladder (1, 3) is visually confirmed in northwest enclave at (1, 3).
 - Active Route:
   1. Navigate from (3, 1) through Row 3 (3..9, 3) and Column 9 to access Row 5 (0..7, 5) and reach Ladder (1, 3).
@@ -4163,7 +4163,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 |:---:|:---:|:---:|:---|
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Secluded Pocket (Dead End) |
-| (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Eastern/Northern Sector |
+| (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Sector B loop (no Sector A access) |
 | (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Northern Corridor |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
 | (0, 6) | (1, 3)? | TARGET ROUTE | 2F Ladder (1, 3) candidate descent to 1F northwest isolated enclave / B1F |
@@ -4185,6 +4185,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
+- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Visual scan from (7, 2) indicates rock walls at (3..4, 0..3) bounding the terrace on the west. Access to (0, 6) remains unvisited on ground.
 - Row 8 Cliff Barrier (Cols 1..6, Row 8):
   - Cols 1..4: Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face / south-facing ledge [Verified Turns 26306-26307].
   - Cols 5..6: Stepping Up into Row 7 from (5, 8) and (6, 8) is blocked by solid rock walls at (5, 7) and (6, 7) [Empirically tested Turn 26379].
@@ -4222,7 +4223,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
-- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Visual scan from (7, 2) indicates rock walls at (3..4, 0..3) bounding the terrace on the west. Access to (0, 6) remains unvisited on ground.
 
 <hr>
 
@@ -4240,7 +4240,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Layout & Corridors
 - Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. (2, 3) is solid rock. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
-- Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access route into this enclave from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south, and Row 8 blocks from the south.
+- Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5) (empirically confirmed via physical bump test from (9, 5) on Turns 27083-27084: pressing Left resulted in wall collision). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access route into this enclave from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south, and Row 8 blocks from the south.
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]

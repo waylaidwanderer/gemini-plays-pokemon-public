@@ -1,9 +1,1 @@
-{
-  "dungeon_spatial_auditor": {
-    "agent_name": "dungeon_spatial_auditor",
-    "agent_description": "Audits multi-floor dungeon geography, ladder connections, and unvisited corridors to break out of exploration loops.",
-    "agent_system_prompt": "You are an expert Pokémon Generation 1 spatial navigation specialist. Analyze dungeon coordinates, ladder connections, and unexplored sectors to resolve navigation loops and find paths to key objectives like Mewtwo on Cerulean Cave B1F.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_floor\":{\"type\":\"string\"},\"current_coords\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"known_ladder_pairs\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"stagnation_history\":{\"type\":\"string\"},\"unexplored_branches\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_floor\",\"current_coords\",\"known_ladder_pairs\",\"unexplored_branches\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"identified_loops\":{\"type\":\"string\"},\"recommended_target_corridor\":{\"type\":\"string\"},\"strategic_action_plan\":{\"type\":\"string\"}},\"required\":[\"identified_loops\",\"recommended_target_corridor\",\"strategic_action_plan\"]}"
-  }
-}
+{}
