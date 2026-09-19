@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (3, 1) facing Up. Stepping East x6 along Row 1 into Ladder (9, 1) to descend to 1F (7, 1).
+- Current Location: Cerulean Cave 2F at (9, 1) facing Left. Verified (9, 1) and (7, 1) are regular floor tiles, not ladders.
 - Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
 - Next Objective: Find entrance to Column 0 / Row 5 / Row 7 western pocket on 2F to reach Ladder (1, 3).
@@ -34,6 +34,5 @@
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Central Network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Eastern/Northern Sector |
-| (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Northwest Sector |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
 | (0, 6) | (1, 3)? | TARGET ROUTE | 1F (7, 1) connects west along northern terrace to 1F (0, 6) descent to B1F |
