@@ -4662,5 +4662,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Trainers & Encounters
 - Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
+- Swimmer at (24, 12) [Sighted Turn 29124]: Positioned in mid water channel.
 
 <hr>
