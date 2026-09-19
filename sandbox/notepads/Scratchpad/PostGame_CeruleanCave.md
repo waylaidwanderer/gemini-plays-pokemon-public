@@ -15,7 +15,7 @@
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (8, 1) facing Right, exiting northwest pocket.
+- Current Location: Cerulean Cave 1F Northern Terrace at (7, 1) facing Right. Walking east to Staircase (15, 3) to Surf.
 - Strategic Pivot [Turn 26644]: Spatial audit confirmed 2F Cols 3..9, Rows 1..5 is an isolated cul-de-sac with no walkmesh connection to (1, 3).
 - New Plan: Route east via Row 1 to Ladder (19, 7), descend to 1F (18, 9), and deploy Surf from Staircase (11, 13) to explore the northern/northwestern waterways toward Ladder (0, 6).
 
