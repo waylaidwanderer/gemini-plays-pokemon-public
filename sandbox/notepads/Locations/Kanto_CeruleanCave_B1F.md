@@ -22,9 +22,7 @@
     - From (7, 7), turns west into (6, 7), south into (6, 8), west through (5, 8) to (4, 8), and south into (4, 9).
     - Boulders block (4..5, 7), (7..8, 8), and (5..8, 9).
   - Southwest Descent & Row 11 Lower Thoroughfare (Cols 0..9+, Rows 9..12):
-    - (4, 8) connects south through (4, 9) directly onto the lower purple floor at (4, 10) and (4, 11).
-    - Row 11 is an extensive east-west highway of open purple floor spanning Columns 2 through 9+ (and beyond).
-    - Row 9 also connects west across Columns 0..4 into the far western pocket.
+    - Tile (4, 9) to (4, 10): Physical bump test [Turn 28170] confirmed stepping Down from (4, 9) into (4, 10) is blocked by the cliff edge. Direct southern descent from (4, 9) into (4, 10) is impassable.
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..9+): Lower cavern floor visible below Row 5 cliff. Ground Item Ball sighted at (16, 9) [Turn 28130]; route of access to this lower floor remains to be physically tested.
 - Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) [Retrieved Turn 28145].
