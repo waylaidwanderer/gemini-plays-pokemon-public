@@ -4403,19 +4403,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Capture Strategy & Preparation
 - Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
-- Target: ZAPDOS Lv 50 (Electric/Flying). Catch rate: 3.
+- Mathematical Risk Analysis: Catch Rate 3 for Lv 50 Zapdos with an Ultra Ball at 1 HP + Sleep is ~12-15% per throw. With only 2 Ultra Balls, failure probability exceeds 75-80%!
 - Critical Permanence Warning:
-  - In Generation 1 retail, stationary legendary Pok�mon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
-  - MANDATORY PROTOCOL: Stand directly in front of Zapdos and execute a manual SAVE before pressing 'A' to interact!
-- Combat Protocol:
-  1. DO NOT lead with Blastoise (SHELDON)! Blastoise is Water-type and takes 2x super-effective STAB damage from Zapdos's Electric attacks (Thunder/Thunderbolt).
-  2. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234). Mewtwo takes standard neutral damage from Electric and resists nothing, has massive Special bulk, and possesses Recover (PP 20/20).
-  3. Chip Zapdos carefully using Mewtwo's Swift (Normal physical, 60 power, never misses, non-fatal chip damage) into red HP.
-  4. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20). (Digby/Rocky can also absorb Electric moves with Ground immunity if needed).
-  5. Throw Ultra Balls while Zapdos is asleep at low red HP.
-- Flash Requirement Hypothesis:
-  - Hypothesis: Power Plant may be naturally lit or dark. To be empirically verified upon entering the facility. Sandman has HM05 Flash ready if illumination is needed.
-
+  - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
+  - RESTOCK PREREQUISITE: We MUST NOT initiate the Zapdos battle with only 2 Ultra Balls! After completing full layout survey and item gathering in Power Plant, use Dig (DIGBY) to warp outside to Cerulean, obtain HM02 Fly on Route 16, purchase 30+ Ultra Balls at Indigo Plateau or Fuchsia Mart (funds: ¥107,981), fly back to Route 10, navigate directly to Zapdos, execute manual SAVE in front of Zapdos, and guarantee capture!
+- Combat Protocol (Post-Restock):
+  1. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234) swapped to Slot 1 before the battle. Mewtwo resists nothing but takes neutral damage from Electric, possesses massive Special bulk, and has Recover (PP 20/20). DO NOT lead with Blastoise (Water-type takes 2x super-effective Electric damage).
+  2. Chip Zapdos carefully using Mewtwo's Swift (60 power physical, non-fatal) into red HP.
+  3. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
+  4. Throw Ultra Balls from our 30+ ball stockpile until caught!
 ## Sighting & Route Audit (Turn 28558)
 - Zapdos Location: Sighted at (4, 9) in northern enclosed room.
 - Route: Separated from western approach by row 12 solid wall. Must be accessed via eastern concourse loop.
