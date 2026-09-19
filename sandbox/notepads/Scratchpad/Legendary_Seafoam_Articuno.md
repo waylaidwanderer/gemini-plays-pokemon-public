@@ -1,12 +1,6 @@
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Strategy & Objectives
-- [x] Transited via Fly to Cinnabar Island outside Pok�mon Center [Turn 29281]
-- [x] Healed at Cinnabar Pok�mon Center with Nurse Joy; warp anchor set to Cinnabar [Turn 29290]
-- [x] Surfed East across Route 20 and defeated Swimmer at (38, 13) [Turn 29315]
-- [x] Entered Seafoam Islands 1F via western entrance at (26, 17) [Turn 29323]
-- [x] Activated HM04 Strength with Geodude (ROCKY) on 1F [Turn 29326]
-- [x] Descended Ladder 1 at (23, 15) from 1F down to B1F [Turn 29335]
 - [ ] Survey B1F layout, activate Strength upon locating boulders, and identify pit holes
 - [ ] Execute boulder puzzle to stop subterranean water currents
 - [ ] Navigate to Articuno's chamber on lowest floor and capture Articuno (Lv 50) with Ultra Ball

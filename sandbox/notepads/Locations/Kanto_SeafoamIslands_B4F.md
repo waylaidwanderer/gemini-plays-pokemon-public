@@ -27,3 +27,4 @@
   - Ladder at (8, 6) [Corrected Turn 29201]: Primary ascent ladder to B3F puzzle chamber.
 ## Wild Encounters
 - Staryu [Encountered Turn 29202].
+- Seel (Lv 31) [Encountered Turn 29420].

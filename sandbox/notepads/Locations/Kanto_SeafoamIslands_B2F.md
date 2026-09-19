@@ -7,7 +7,7 @@
 ## Key Landmarks & Layout
 - Isolated Northeast Terrace [Fully Surveyed Turns 29263-29267]:
   - Enclosed platform spanning cols 21..28 and rows 0..4.
-  - Ladder (NE): Located at (25, 5) [Confirmed Turn 29429] [Descends to B3F NE hall at (25, 4)].
+  -  [Descends to B3F NE hall at (25, 4)].
   - Completely bounded by solid rock walls: North (row -1), South (row 5 cliff), West (col 20), East (col 29).
   - Contains NO items, boulders, holes, or NPCs.
 - Central & Southern Chambers:
