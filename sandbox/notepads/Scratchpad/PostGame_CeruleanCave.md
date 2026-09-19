@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (19, 5) in wild battle with Kadabra.
+- Current Location: Cerulean Cave 2F at (22, 3) in wild battle with Marowak.
 - Active Strategy & Frontier:
   - [x] Master Topological Deduction [Turn 26193]: Ladders (22, 6) and (29, 1) on 2F are BOTH verified isolated pockets! Ladder (19, 7) (accessed via 1F Ladder 18, 9) is the EXCLUSIVE gateway to 2F northern corridors and Candidate Ladder (1, 3).
   - Master Plan: Backtrack via Ladder (22, 6) to 1F (23, 7), surf to Staircase (11, 13) on Central-Western Terrace, ascend Ladder (18, 9) to 2F Ladder (19, 7), and enter the northwest sector to reach Candidate Ladder (1, 3) and B1F!
