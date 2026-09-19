@@ -4146,22 +4146,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Hypotheses to Empirically Verify
 - Hypothesis 2: Legendary Pok�mon Mewtwo resides within Cerulean Cave B1F at Level 70.
+- Hypothesis 3 (Unverified): 1F Ladder (0, 6) connects to 2F Ladder (1, 3); corridor (5, 4..5) hypothesized to connect to B1F descent.
+- Hypothesis 4 (Unverified): 2F Northwest Enclave (Cols 0..2, Rows 1..4) is accessible via physical bump testing along Columns 3..2 on Rows 1..3.
 
-## Post-Game Routing Plan: The True Mewtwo Highway
-1. Reconstruct topology: 1F and 2F each possess exactly 6 ladders. Five pairs are verified 2-way connections. The 6th pair is 1F (0, 6) <---> 2F (1, 3).
-2. 1F Ladder (0, 6) has a south-facing exit ledge hopping into Row 8, proving it is an arrival/exit point. Its secluded northern corridor (5, 4..5) houses the true descent to B1F.
-3. 2F Ladder (1, 3) in Northwest Enclave is accessed via 2F Sector A (Ladder 9, 1) along the Row 1 / Row 2 / Row 3 western boundary (Cols 3..1).
-4. Current Action: Exit 2F Western Network via Ladder (3, 11), return to 1F Staircase (15, 3), ascend Northern Terrace to Ladder (7, 1) -> 2F Ladder (9, 1), and breach the Northwest Enclave to reach Ladder (1, 3).
+## Post-Game Routing Strategy: 2F Sector A & Northwest Enclave
+1. Reconstructed topology: 1F and 2F each possess 6 ladders. Five pairs verified 2-way connections. The 6th pair is hypothesized 1F (0, 6) <---> 2F (1, 3).
+2. Physical Goal: Reach 2F Ladder (9, 1) via 1F Northern Terrace Ladder (7, 1).
+3. Collision Testing: Rigorously collision-test every western step along Rows 1, 2, and 3 from Column 3 into Column 2 to locate the physical opening into the Northwest Enclave and Ladder (1, 3).
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 13) on Wooden Staircase (facing water).
+- Current Location: Cerulean Cave 1F at (15, 2) on Northern Terrace.
 - Active Plan:
-  1. Walk Left x10 along Row 9 to (3, 9), Down x2 onto Ladder (3, 11) to descend to 1F.
-  2. Traverse 1F Western Terrace and Southwest Corridor to Staircase (17, 15).
-  3. Cross Central-Western Terrace to Staircase (11, 13) and Surf to Staircase (15, 3).
-  4. Ascend Staircase (15, 3) onto Northern Terrace and take Ladder (7, 1) to 2F (9, 1).
-  5. On 2F, navigate west along Row 1 to (3, 1..3) and access the Northwest Enclave / Ladder (1, 3).
-  6. Descend to 1F (0, 6), follow corridor to B1F ladder, and capture Mewtwo with Master Ball!
+  1. Walk west across Northern Terrace along Row 2 to (7, 2), then step North onto Ladder (7, 1).
+  2. Ascend Ladder (7, 1) to arrive at 2F Ladder (9, 1).
+  3. On 2F, walk west along Row 1 to (3, 1).
+  4. Systematically bump-test stepping Left into Column 2 at (3, 1) [testing tile 2, 1], (3, 2) [testing tile 2, 2], and (3, 3) [testing tile 2, 3].
+  5. Once opening is found, enter Northwest Enclave and reach Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4246,7 +4246,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Layout & Corridors
 - Row 8 Collision Tests from Row 9: Bump tests confirmed (4, 8) [Turn 27414] and (9, 8) [Turn 27415] are solid rock boulders blocking northward passage from Row 9.
-- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. (2, 3) is solid rock. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
+- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. Tile (2, 3) was assumed solid from visual layout but has not been definitively bump-tested from (3, 3). From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
 - Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5) (empirically confirmed via physical bump test from (9, 5) on Turns 27083-27084: pressing Left resulted in wall collision). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access route into this enclave from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south, and Row 8 blocks from the south.
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
@@ -4277,7 +4277,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9). Connects west via (3, 10) -> (2, 10) -> (2, 11) -> (3, 11) loop.
   - Bump Tests & Boundaries: Physical collision tests confirmed (3, 8) [Turn 26973], (2, 9) [Turn 26973], and (1, 10) [Turn 27321] are solid rock walls. Tile (1, 10) blocks passage west from (2, 10) into Column 1.
-  - Visual Sightings (Unverified Hypotheses): From (2, 10) and (3, 9), floor-like tiles are visually sighted on Row 7 (Cols 1..7), Row 6 at (6, 6), and Row 8 at (1, 8). Row 8 tiles (4..8, 8) visually appear as rock wall but remain untested by collision.
+  - Visual Sightings (Unverified Hypotheses): From (2, 10) and (3, 9), floor-like tiles are visually sighted on Row 7 (Cols 1..7), Row 6 at (6, 6), and Row 8 at (1, 8). Row 8 tiles (5..8, 8) visually appear as rock wall boulders.
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
