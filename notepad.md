@@ -655,10 +655,11 @@
 - Row 11 Ledge: South-facing ledge spanning columns 7..11. Passable corridor around it is through column 12+ to the east.
 - Corridor (Cols 12..13, Rows 9..13): Open unobstructed passage bypassing the row 11 ledge to the north.
 ## Key Buildings
-- Mt. Moon Pokémon Center: Located at columns 10..13, rows 4..5.
-  - Entrance Door: Located at (11, 5).
-  - "POKé" Sign: Located at (12, 5).
-  - Courtyard: Clear open ground at rows 6..8, columns 11..13.
+- Route 4 Rest House: Located at columns 4..7, rows 4..5. Door at (5, 5). Contains PC and Magikarp salesman.
+- Mt. Moon Pokémon Center: Located at columns 12..15, rows 4..5.
+  - Entrance Door: Located at (13, 5).
+  - "POKé" Sign: Located at (11, 5).
+  - Courtyard: Clear open ground at rows 6..7, columns 10..15.
   - Exterior NPC: Cooltrainer F around (10, 7).
 ## Mt. Moon Pokémon Center Interior
 - Entrance Mat: (3..4, 7). Exits south to Route 4.
