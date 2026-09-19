@@ -2,7 +2,7 @@
 
 ## Connections & Ladders
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Connects to 1F Ladder (7, 1). [Physically verified Turn 26574]
-- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Empirically confirmed physically sealed on 2F by rock walls at (2, 2..3), Row 4 (1..8, 4), and Row 1 (0..2, 1). Ground access via Column 0/Row 5 pending further testing. [Verified Turn 26577: Column 2 (rows 2..3) solid rock]
+- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Column 0 runs south to (0, 7) on the Row 7 Southern Highway, which connects east to Column 9 (9, 7) and Row 3 (9, 3). [Visually confirmed Turn 26594]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
