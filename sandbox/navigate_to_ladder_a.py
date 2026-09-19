@@ -42,8 +42,9 @@ def walk_to_target(target_x, target_y):
 
 print("Starting route to Ladder A from:", mgba.get_coordinates())
 
-# Segment 1: (16, 6) -> (16, 1) -> (18, 1) -> (18, 3) -> (20, 3) -> (20, 5) -> (21, 5) -> (21, 9)
-walk_to_target(16, 1)
+# Segment 1: (16, 3) -> (15, 3) -> (15, 1) -> (18, 1) -> (18, 3) -> (20, 3) -> (20, 5) -> (21, 5) -> (21, 9)
+walk_to_target(15, 3)
+walk_to_target(15, 1)
 walk_to_target(18, 1)
 walk_to_target(18, 3)
 walk_to_target(20, 3)
