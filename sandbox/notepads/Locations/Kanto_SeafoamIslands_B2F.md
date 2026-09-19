@@ -7,7 +7,7 @@
 ## Key Landmarks & Layout
 - Isolated Northeast Terrace [Fully Surveyed Turns 29263-29267]:
   - Enclosed platform spanning cols 21..28 and rows 0..4.
-  - Ladder (NE): Located at (25, 3) [Descends to B3F NE hall at (25, 4)].
+  - Ladder (NE): Located at (25, 5) [Confirmed Turn 29429] [Descends to B3F NE hall at (25, 4)].
   - Completely bounded by solid rock walls: North (row -1), South (row 5 cliff), West (col 20), East (col 29).
   - Contains NO items, boulders, holes, or NPCs.
 - Central & Southern Chambers:
@@ -15,4 +15,4 @@
 
 ## Empirical Floor Proof (B2F vs B3F)
 - B3F (Lower): Has signpost at (23, 1) ('DANGER / Fast current!'), wooden dock at (23, 5), fast water current at rows 6..7.
-- B2F: Empty floor at (23, 1), rock wall at (23, 5), dry cave floor at rows 6..8.
+- B2F: Rock wall at (23, 0..1), cliff at row 5, dry cave floor at rows 6..8.
