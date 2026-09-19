@@ -6,7 +6,7 @@
 - Environment: Fully and naturally lit interior (HM05 Flash is NOT required). Abandoned industrial facility with pink/white checkered floors, machinery, generators, and scrap rubble.
 
 ## Encounters & Mechanics
-- Wild Pokémon: Voltorb (Lv 21, Lv 40), Magnemite, Magneton, Pikachu, Electabuzz, Grimer, Muk.
+- Wild Pokémon: Voltorb (Lv 21, Lv 40), Magnemite (Lv 21), Magneton (Lv 35), Pikachu, Electabuzz, Grimer, Muk.
 - High-Value Target: Legendary Bird ZAPDOS (Lv 50, Electric/Flying) located at (4, 9) in northern chamber.
 - Traps: Multiple item balls are disguise Voltorb / Electrode traps that initiate wild combat when interacted with. Fleeing or defeating them permanently removes the trap ball from the floor.
 - Permanence: Fleeing from or defeating Zapdos permanently despawns it. Stand directly adjacent and SAVE before pressing 'A'!
@@ -35,7 +35,6 @@
 - Parallel Southern Concourse (Row 22, Cols 18..33): Open horizontal concourse south of row 21 terminals.
 - Row 16 Avenue (Cols 24..35): Open horizontal avenue running east above the monitor bank.
 - Eastern Avenue (Cols 34..35, Rows 16..22+): Wide 2-tile open vertical concourse along the eastern perimeter connecting rows 16, 18, 20, and 22.
-- Facility Outer Wall: Column 36 is the solid outer eastern facility wall.
 
 ## Sector 5: Northern Enclosed Chamber (Zapdos Sighting)
 - Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Separated from western approach by solid wall at row 12.
@@ -43,16 +42,16 @@
 ## Item Balls & Traps Audit
 - Trap at (9, 20) [Cleared Turn 28573]: Voltorb Lv 40 trap. Fled safely; item ball permanently despawned, tile (9, 20) is now empty floor.
 - Trap at (25, 18) [Cleared Turn 28601]: Electrode Lv 43 trap. Interacted from (25, 17) facing South; fled safely. Trap entity permanently despawned; tile (25, 18) is now clear floor.
-- Item Ball 4 at (21, 14) [Sighted Turn 28599]: Visible at (21, 14) south of twin-dial generator at (21, 13) and west of vertical wall at (22, 13..15). Accessible from south/west. Identity unverified.
 - Trap at (32, 18) [Cleared Turn 28592]: Voltorb Lv 40 trap. Interacted from (33, 18) facing West; fled safely. Trap entity permanently despawned; tile (32, 18) is now clear floor.
-## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 28..38)
-- Row 14 Highway: Wide continuous open horizontal hallway spanning cols 28..38 above row 15 wall, connecting to outer eastern corridor (cols 37-38).
-- Gateway at (30..31, 13): 2-tile wide open north-south passage through row 13 wall connecting row 14 to row 12 concourse.
-- Row 12 Concourse: Open horizontal avenue running west towards the northern chambers.
+- Item Ball 4 at (21, 14) [Sighted Turn 28599]: Visible at (21, 14) south of twin-dial generator at (21, 13) and west of vertical wall at (22, 13..15). Accessible from south/west. Identity unverified.
+- Trap at (21, 25) [Engaged Turn 28621]: Interacted from (21, 26) facing North. Triggered "Bzzzt!" trap encounter. Currently resolving.
+- Item Ball 6 at (20, 32) [Sighted Turn 28616]: Visible at (20, 32) in southern machine corridor, south of generator at (20, 31). Accessible from west via (18..19, 32). Identity unverified.
+## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 28..38) [Sighted From Afar - Unverified]
+- Row 14 Highway: Visually sighted across cols 28..38 above row 15 wall from row 16; appears to connect to outer eastern corridor (cols 37-38). Unverified until traversed.
+- Gateway at (30..31, 13): Sighted 2-tile wide gap through row 13 wall connecting row 14 toward row 12. Unverified until traversed.
+- Row 12 Concourse: Open tiles sighted north of row 13 wall heading west toward northern chambers. Unverified until traversed.
 ## Sector 4 Audit Findings & Loop Geography
 - Terminal Hall Dead-End Confirmed [Turn 28606]: Columns 34-35 terminate at row 22 against row 23 wall. No southern passage from cols 34-35 to row 25.
 - Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
-- Item Ball 5 at (21, 25) [Sighted Turn 28608]: Visually verified Poké Ball sprite at (21, 25) in southern corridor, bounded north by (21, 24) and south by (21, 26). Identity unverified.
 - Southern Chute (Cols 9..11, Rows 21..24) [Audited Turn 28611]: Open passage south through (9..10, 22) into row 23 corridor (cols 8..11), connecting south through (11, 24) to the southern highway (rows 24-26).
 - Southern Bypass Avenue (Rows 27..29, Cols 10..17) [Audited Turn 28613]: Row 28-29 is an open avenue connecting cols 10..17 beneath the column 14-15 obstacles. Column 16 connects north through row 27 into the Row 26 eastern highway.
-- Item Ball 6 at (20, 32) [Sighted Turn 28616]: Visible at (20, 32) in southern machine corridor, south of generator at (20, 31). Accessible from west via (18..19, 32). Identity unverified.
