@@ -4155,7 +4155,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 3. 1F Southern Boundary Testing: Navigate to (5, 2) on 1F Northern Terrace and systematically test stepping South into Row 3 (Cols 5..7) to locate the jump ledge / staircase into the secluded corridor leading to Ladder (0, 6).
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (3, 1) on Row 1.
+- Current Location: Cerulean Cave 1F at (7, 1) on Ladder (Northern Terrace).
 - Active Plan:
   1. Walk Right x6 along Row 1 onto Ladder (9, 1) to descend to 1F Northern Terrace at Ladder (7, 1).
   2. Walk south to (7, 2) and west to (5, 2) on 1F Northern Terrace.
