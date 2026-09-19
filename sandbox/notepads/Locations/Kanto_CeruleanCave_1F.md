@@ -5,17 +5,16 @@
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
-- Ladder (0, 6): Cave ladder located in northwest alcove at (0, 6). Visually sighted from (1, 8); access route and destination unverified. [Visually verified Turn 26304]
+- Ladder (0, 6): Confirmed cave ladder located at (0, 6) leading to B1F. Approach corridor runs from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), north through (5, 5..4) connecting to Northern Terrace. Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8. [Physically inspected Turns 27140-27143]
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
 - Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Visual scan from (7, 2) indicates rock walls at (3..4, 0..3) bounding the terrace on the west. Access to (0, 6) remains unvisited on ground.
-- Row 8 Cliff Barrier (Cols 1..6, Row 8):
-  - Cols 1..4: Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face / south-facing ledge [Verified Turns 26306-26307].
-  - Cols 5..6: Stepping Up into Row 7 from (5, 8) and (6, 8) is blocked by solid rock walls at (5, 7) and (6, 7) [Empirically tested Turn 26379].
-  - Col 6 East: Stepping Right from (6, 8) into (7, 8) is blocked by rock/cliff barrier [Empirically tested Turn 26379].
-  - Definitive Conclusion: The Western Terrace has ZERO ground passage into the elevated northwest alcove enclosing Ladder (0, 6). The Row 8 cliff is an impassable barrier from the south.
+- Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
+  - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
+  - Cols 3..6: Solid rock walls at (3..6, 7).
+  - Definitive Conclusion: The Western Terrace has zero northward passage into Row 7. Ladder (0, 6) must be accessed from the north via the Northern Terrace and Column 5.
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
