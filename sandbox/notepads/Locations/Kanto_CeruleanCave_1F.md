@@ -4,6 +4,7 @@
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
+- Ladder (0, 6): Descending cave ladder located in northwest alcove at (0, 6). Accessed via (1, 7) -> (0, 7) -> (0, 6). Descends to B1F! [Visually verified Turn 26304]
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
