@@ -27,7 +27,6 @@
 ## Restock & Capture Execution Plan [Updated Turn 28711]
 - Power Plant northern approach, Sector 6, and Row 3 Highway mapped; Zapdos sighted at (4, 9) from doorway (4, 6).
 - Un-traversed tiles of Zapdos chamber to be confirmed upon return.
-- Dig executed on Turn 28686 to Cerulean City Pokémon Center.
 - Active Plan:
   1. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (funds: ¥107,981).
   2. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.

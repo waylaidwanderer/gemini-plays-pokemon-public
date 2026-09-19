@@ -1514,6 +1514,12 @@
   - Obtained: From girl in Route 16 Secret House [Turn 28787].
   - Function: Warps player instantly to any previously visited Pokémon Center town across Kanto.
   - Designated User: Farfetch'd (DUX).
+  - Fly Map Navigation Controls & Mechanics:
+    - When using HM02 Fly from the party Pokémon menu, the Kanto regional map appears with a list of previously visited Pokémon Centers / destinations.
+    - Cycling through destinations is controlled via Up and Down directional inputs. Up moves to the previous destination in the list, and Down advances to the next destination.
+    - The destination list wraps around continuously (pressing Up at the top wraps to the bottom, and vice versa).
+    - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
+    - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).
@@ -4047,6 +4053,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Headquarters of the Pokémon League, located at the northern terminus of Route 23.
 - Entrance doormat: Located at (7..8, 11) inside lobby.
 - South exit: Doors at (7..8, 11) lead out to Route 23 / Indigo Plateau exterior.
+- Exterior & Fly Arrival: Flying to Indigo Plateau lands at coordinates (9, 6) facing North directly outside the entrance doors at (9, 5) and (10, 5) [Empirically verified Turn 28811]. Statues flank the doors at (8, 6) and (11, 6). Stepping North into (9..10, 5) triggers map transition into the interior lobby entrance mat at (7..8, 11) [Verified Turn 28814].
 
 ## Services & Points of Interest
 - Pokémon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pokémon League [Turn 24508].
