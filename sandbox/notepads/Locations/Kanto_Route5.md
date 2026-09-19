@@ -12,7 +12,11 @@
 - Pokémon Day Care (West Side): Building structure at cols 13..14, rows 16..23.
 - Underground Path Entrance Building (Cols 16..19, Rows 24..27): 4-tile wide building with yellow lattice roof (rows 24..25), upper windows (row 26), and front entrance door at (17, 27) facing south. Accessible via west side corridor (cols 13..15, rows 23..27+).
 - Signpost (17, 29): Signpost located directly south of the Underground Path entrance building apron.
-- Saffron City Gatehouse (Cols 11..13+, Rows 30+): Located southwest of the Underground Path building.
+- Saffron City North Gatehouse (Cols 9..13, Rows 30..33) [Audited Turn 28715]:
+  - Yellow lattice roof across (9..13, 30..31), upper facade with windows at row 32.
+  - Front entrance door located at (10, 33) facing south onto row 34 apron.
+  - Eastern flank bounded by bollards at (14..17, 33); north-central approach bounded by bollards at (11, 28..29).
+  - Open bypass corridor along row 27 (cols 9..15) connects around the bollards to the western approach (cols 8..10).
 - Northward Passage (Col 15, Rows 6..24): A continuous 1-tile wide strip of tall grass along column 15 (bounded by western stone fence at col 14 and central avenue bollards at col 16) that allows walking north from Underground Path to Cerulean City, bypassing the one-way south-jumping ledges of the central avenue.
 - Points of Interest:
   - Pokémon Day Care house (west side at rows 16..23).
