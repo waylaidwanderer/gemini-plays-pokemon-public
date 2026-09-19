@@ -7,7 +7,7 @@
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
 - [x] Descend SW ladder at (23, 15) to Seafoam Islands B1F [Turn 29168]
 - [x] Scout B1F: ladder (19, 15) walled off from east; ladder (25, 11) wide open [Turn 29169]
-- [ ] Ascend ladder at (25, 14) to 1F upper plateau to access boulder (18, 10)
+- [ ] Ascend wall ladder at (25, 11) to 1F upper plateau to access boulder (18, 10)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
