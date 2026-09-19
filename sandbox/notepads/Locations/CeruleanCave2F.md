@@ -6,25 +6,20 @@
 - Contains descending Ladder A to B1F (Mewtwo) located in the Western Sector at (1, 3).
 
 ## Verified Landmarks & Ladders (2F)
-1. **Ladder E**: Located at (9, 1) <-> 1F (7, 1). Northwest elevated plateau (rows 0-5, cols 3-10).
-2. **Ladder A (to B1F Mewtwo)**: Descending ladder to B1F located at (1, 3).
+1. **Ladder E**: Located at (9, 1) <-> 1F (7, 1). Northwest isolated plateau (rows 1-7, cols 3-16). Bounded by walls on all sides; no foot access to other sectors.
+2. **Ladder D**: Located at (29, 1) <-> 1F (27, 1). Northeast corridor leading south to the eastern crossway and central sector.
 3. **Ladder B**: Located at (22, 6) <-> 1F (23, 7). Central sector.
 4. **Ladder C**: Located at (19, 7) <-> 1F (18, 9). Central sector.
-5. **Ladder D**: Located at (29, 1) <-> 1F (27, 1). Northeast corridor.
-6. **SW Ladder**: Located at (3, 11) <-> 1F (3, 11). Southwest Sector.
+5. **SW Ladder**: Located at (3, 11) <-> 1F (3, 11). Southwest Sector & Western Corridor (cols 0-1) leading north to Ladder A.
+6. **Ladder A (to B1F Mewtwo)**: Located at (1, 3). Descends directly to Cerulean Cave B1F (Mewtwo). Accessible ONLY via the SW Ladder (3, 11) -> Western Corridor (Column 0).
 
-## Verified Northwest Plateau Topology & Route to Ladder A (Empirically Verified Turn 55261)
-- **Ladder E**: (9, 1)
-- **Row 1**: (9..3, 1) open floor; (2..1, 1) purple rock wall.
-- **Row 2**: (3, 2) open floor; (4..10, 2) purple rock wall; (1, 2) open floor.
-- **Row 3**: (3..9, 3) open floor; (2, 3) purple rock wall; (1, 3) Ladder A to B1F!
-- **Row 4**: (9, 4) open floor; (1..8, 4) purple rock wall.
-- **Row 5**: (1..7, 5) and (9..10, 5) open floor; (8, 5) purple rock wall.
-- **Route from Ladder E (9, 1) to Ladder A (1, 3)**:
-  1. (9, 1) -> Walk West along Row 1 to (3, 1).
-  2. Walk South through (3, 2) to (3, 3).
-  3. Walk East along Row 3 to (9, 3).
-  4. Walk South through (9, 4) to (9, 5).
-  5. Walk West along Row 5 across (7..1, 5) to (0, 5).
-  6. Walk North along Column 0 to (0, 3) / (0, 2).
-  7. Walk East onto Ladder A at (1, 3) to descend to B1F!
+## Verified Master Route to Mewtwo (B1F)
+1. **From 2F Northwest Plateau (9, 1)**: Descend Ladder E to 1F (7, 1).
+2. **On 1F Northern Mainland**: Walk east across rows 0-2 from (7, 1) to (27, 1) [Ladder D].
+3. **Take Ladder D at (27, 1) up to 2F (29, 1)**: Traverse the Eastern Corridor south and through the crossover to Ladder C (19, 7) or Ladder B (22, 6).
+4. **Descend Ladder C to 1F Central Island (18, 9)**: Walk to (11, 13).
+5. **On 1F Central Island at (11, 13)**: Face South towards (11, 14) and use SURF.
+6. **Surf West and North along the western channel**: (11, 14) -> (8, 14) -> (8, 11).
+7. **Dismount Left onto Southwest Shore at (7, 11)**: Walk west to SW Ladder (3, 11).
+8. **Ascend SW Ladder to 2F (3, 11)**: Walk west to Column 0 (0, 11) and north to (0, 3).
+9. **Step East onto Ladder A at (1, 3)**: Descend to Cerulean Cave B1F to capture Mewtwo with the Master Ball!
