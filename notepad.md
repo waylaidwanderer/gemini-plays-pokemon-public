@@ -4149,19 +4149,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Hypothesis 3 (Unverified): 1F Ladder (0, 6) connects to 2F Ladder (1, 3); corridor (5, 4..5) hypothesized to connect to B1F descent.
 - Hypothesis 4 (Unverified): 2F Northwest Enclave (Cols 0..2, Rows 1..4) is accessible via physical bump testing along Columns 3..2 on Rows 1..3.
 
-## Post-Game Routing Strategy: 2F Sector A & Northwest Enclave
-1. Reconstructed topology: 1F and 2F each possess 6 ladders. Five pairs verified 2-way connections. The 6th pair is hypothesized 1F (0, 6) <---> 2F (1, 3).
-2. Physical Goal: Reach 2F Ladder (9, 1) via 1F Northern Terrace Ladder (7, 1).
-3. Collision Testing: Rigorously collision-test every western step along Rows 1, 2, and 3 from Column 3 into Column 2 to locate the physical opening into the Northwest Enclave and Ladder (1, 3).
+## Post-Game Routing Strategy: 1F Secluded Corridor & B1F Access
+1. Definitive 2F Findings: Exhaustive physical bump tests proved (2, 1..3) and (4..7, 4) are completely solid boulder walls. The 2F Northwest Enclave (Cols 0..7, Rows 2..7) containing Ladder (1, 3) has zero ground access from the rest of 2F and must be accessed via 1F Ladder (0, 6).
+2. Physical Goal: Return to 1F Northern Terrace via Ladder (9, 1) -> Ladder (7, 1).
+3. 1F Southern Boundary Testing: Navigate to (5, 2) on 1F Northern Terrace and systematically test stepping South into Row 3 (Cols 5..7) to locate the jump ledge / staircase into the secluded corridor leading to Ladder (0, 6).
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (9, 1) on Ladder (Sector A).
+- Current Location: Cerulean Cave 2F at (3, 1) on Row 1.
 - Active Plan:
-  1. Walk west across Northern Terrace along Row 2 to (7, 2), then step North onto Ladder (7, 1).
-  2. Ascend Ladder (7, 1) to arrive at 2F Ladder (9, 1).
-  3. On 2F, walk west along Row 1 to (3, 1).
-  4. Systematically bump-test stepping Left into Column 2 at (3, 1) [testing tile 2, 1], (3, 2) [testing tile 2, 2], and (3, 3) [testing tile 2, 3].
-  5. Once opening is found, enter Northwest Enclave and reach Ladder (1, 3).
+  1. Walk Right x6 along Row 1 onto Ladder (9, 1) to descend to 1F Northern Terrace at Ladder (7, 1).
+  2. Walk south to (7, 2) and west to (5, 2) on 1F Northern Terrace.
+  3. Directionally test stepping South into (5, 3) and (6, 3) to locate the passage into the Ladder (0, 6) corridor.
+  4. Reach Ladder (0, 6), ascend to 2F Ladder (1, 3), traverse NW Enclave, and locate the B1F descent to capture Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
