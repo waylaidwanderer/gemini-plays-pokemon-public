@@ -66,9 +66,3 @@
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
-
-## Cerulean Cave 2F Master Topological Analysis [Turn 26193]
-- Ladder (22, 6) Enclosed Pocket: Bounded by solid rock walls on all sides. Only contains Column 23 (rows 7..11), Column 24 (rows 11..15 dead-end), Row 11 (cols 14..23 dead-end at 14, 11 and 17, 10), and Row 13 (cols 17..22 dead-ending at 22, 15 and 21, 15). ZERO ground access to the rest of 2F!
-- Ladder (29, 1) Enclosed Pocket: Bounded by rock walls cols 27..29, rows 0..6. ZERO ground access to the rest of 2F!
-- Ladder (3, 11) Western Network: Connects to Row 17 West, Column 12/13, and Row 9 (3..15). Passage north of (3, 9) along Column 3 toward Candidate Ladder (1, 3) is UNTESTED frontier.
-- Ladder (19, 7) (from 1F Ladder 18, 9): Descending cave ladder connecting to 1F Ladder (18, 9). Connects via winding passage (20..22, 3..5) to Row 2 and Column 24 network, but bounded from eastern and western 2F by solid rock barriers. [Physically verified Turns 26221-26248]

@@ -23,21 +23,14 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (11, 9) on foot facing Right.
-- Master Highway Solution [SOLVED Turn 26328]:
-  - Sighted Row 5 Northern Highway spanning (3..16, 5) and connecting via (6, 6) into Row 7 Highway (1..11, 7)!
-  - Row 7 connects directly at (1, 7) north up Column 1 to Candidate Ladder (1, 3)!
-  - Access to Row 5 is from the east via Column 26 -> (25, 7..9) -> (24..29, 5).
-  - Complete 2F Master Circuit:
-    1. (11, 9) -> Col 12 south to (12, 15)
-    2. Col 13 Bypass south to (13, 17) on Row 17
-    3. Row 17 east to (27, 17)
-    4. Col 28 north to (28, 14) -> Col 26 north to (26, 9)
-    5. Step west to (25, 9..7) into Northern Chamber
-    6. Row 5 west across map from (24, 5) to (6, 5)
-    7. Step south through (6, 6) into Row 7 at (6, 7)
-    8. Row 7 west to (1, 7), then north up Column 1 to Candidate Ladder (1, 3)!
-    9. Descend to B1F and catch Mewtwo with Master Ball!
+- Current Location: Cerulean Cave 2F at (12, 15) on foot facing Down.
+- Hypothesis: 2F Master Circuit to Candidate Ladder (1, 3) [UNVERIFIED]:
+  - Sighted Row 5 Northern Highway spanning (3..16, 5) and connecting via (6, 6) into Row 7 Highway (1..11, 7).
+  - Row 7 connects at (1, 7) north up Column 1 to Candidate Ladder (1, 3).
+  - Caveat & Physical Barrier: Turn 25760 notes confirm Row 5 terminates east at (16, 5) against rock wall (17..18, 5). Column 24 dead-ends at (24, 5). Physical cross-connection across (17..23, 5) is NOT verified and may be blocked.
+  - Verification Plan:
+    1. Check Row 17 east through (13..17, 17) toward Column 21..27 to determine if eastern 2F connects to western 2F via Row 17.
+    2. If Row 17 is blocked east of (17, 17), audit Column 3 from (3, 9) north on western 2F, or audit Ladder (0, 6) on 1F.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
