@@ -4159,13 +4159,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Staircase at (11, 13) facing South.
+- Current Location: Cerulean Cave 1F Subterranean Water at (28, 7).
 - Active Route:
-  1. Launch Surf from Staircase (11, 13) into subterranean water at (11, 14).
-  2. Navigate waterway north to Northern Terrace enclosing Ladder (7, 1).
-  3. Ascend Ladder (7, 1) to 2F Ladder (9, 1).
-  4. Follow 2F Western Row 1 through (8..1, 1) into northwest enclave to Candidate Ladder (1, 3).
-  5. Descend Ladder (1, 3) to 1F isolated northwest platform and enter B1F.
+  1. Surf south along Column 28 to Row 10, then west to (25, 10).
+  2. Ascend Staircase (25, 9) onto the 1F Entrance Terrace.
+  3. Walk to Ladder (23, 7) and climb to 2F Ladder (22, 6).
+  4. Explore the 2F Master Network branches (Column 23, Row 11, Row 13, Column 26) to find the downward passage to B1F.
+  5. Descend to B1F and capture Mewtwo with the Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
