@@ -232,7 +232,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 222 / 222
+  - HP: 211 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -691,6 +691,13 @@
 - Lower Corridor (Cols 42..61, Rows 14..15): Bounded by row 13 south-facing ledge to the north. Walkable red flower bed at cols 42..47, open grass at cols 48..61.
 - Row 8 Bypass: Open grass path at row 8 bypassing the col 62 tree line (which only blocks rows 9..15).
 - Lower Corridor Boundaries: Solid rock wall at col 41; solid water/shoreline at row 16; column 75 tree line extends rows 9..13 only (rows 14..15 are completely open grass connecting the bridge pocket to the western lower corridor).
+## Route 4 Rest House Interior (Door at 5, 5)
+- Entrance Mat: (2..3, 7). Exits south to Route 4 courtyard at (5, 6).
+- PC: Located at (3, 1) on northern wall.
+- Waiting Table: (3..4, 4..5) wooden table with flowers and surrounding chairs.
+- Magikarp Salesman: NPC sitting at (5, 4).
+- Note: This building contains a PC terminal and rest area, but NO Nurse Joy healing counter.
+
 
 <hr>
 
@@ -4379,6 +4386,27 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Objectives & High-Value Targets
 - Mewtwo: CAPTURED with Master Ball on Turn 28234 at (27, 13) [Lv 70]! Ultimate legendary quest complete!
+
+
+<hr>
+
+<h1><code>Scratchpad/PostGame_CeruleanCave</code></h1>
+
+# Post-Game: Cerulean Cave & Mewtwo Master Strategy
+
+## Active Breakthrough Strategy & Routing Protocol
+- Protocol:
+  1. MEWTWO LOCATED at (27, 13) on elevated platform! [DONE]
+  2. Battle initiated against Wild Mewtwo Lv 70! [DONE]
+  3. Master Ball used on Turn 1! [DONE]
+  4. Mewtwo captured successfully! [DONE]
+  5. Pokédex data registered for No. 150 MEWTWO! [DONE]
+  6. Nicknamed OMEGA! [DONE]
+  7. OMEGA inspected in active party (HP 234, Attack 167, Defense 152, Speed 195, Special 231, Swift/Psychic/Barrier/Recover)! [DONE]
+  8. Exfiltrated Cerulean Cave via DIG to Route 4! [DONE]
+  9. Permanent game save completed and confirmed to battery-backed SRAM! [DONE - Turn 28256]
+
+## Journey Status: 100% COMPLETE!
 
 
 <hr>
