@@ -4167,7 +4167,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (9, 9) on foot facing Left.
+- Current Location: Cerulean Cave 2F at (3, 9) on foot facing Left.
+- Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
+- Conclusion: Candidate Ladder (1, 3) must be accessed via 1F (likely corresponding to 1F Ladder (0, 6)).
+- Active Plan: Descend Ladder (3, 11) to 1F and audit all 1F pathways to reach the northwest sector or B1F.
 - Empirical Finding [Turn 26347]: Tile (20, 17) is a solid rock wall! Row 17 terminates east at (19, 17). Direct access from western 2F to eastern 2F via Row 17 is physically IMPOSSIBLE. The proposed 2F Master Circuit via Row 17 is completely DISPROVEN.
 - Hypothesis: 2F Master Circuit to Candidate Ladder (1, 3) [UNVERIFIED]:
   - Sighted Row 5 Northern Highway spanning (3..16, 5) and connecting via (6, 6) into Row 7 Highway (1..11, 7).
@@ -4272,7 +4275,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Alcove (10, 12): 1-tile dead-end alcove off Row 11 at (10, 11), bounded south by rock wall at (10, 13). [Physically verified Turn 25934]
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
-- Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9). Spur at (2, 10..11) dead-ends against rock walls at (1, 10), (1, 11), (2, 9), and (2, 12). [Physically verified Turn 25951]
+- Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9).
+  - Row 8 Barrier: (2..12, 8) is a continuous solid rock wall blocking all northward access from Row 9. (3, 8) visually verified solid rock [Turn 26362].
+  - Column 2 Barrier: (2, 8..13) is a continuous solid rock wall separating the Ladder (3, 11) network from Column 1.
+  - Complete Isolation of Northwest Enclave: Rows 5 and 7 (cols 1..8) and Candidate Ladder (1, 3) are completely walled off from the rest of 2F by solid rock barriers (Row 8, Column 2, (17..18, 5), and (20, 17)). ZERO ground access exists on 2F to Candidate Ladder (1, 3) [Empirically verified Turn 26362].
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
