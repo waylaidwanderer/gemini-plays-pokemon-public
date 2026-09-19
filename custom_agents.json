@@ -1,1 +1,9 @@
-{}
+{
+  "gen1_capture_tactician": {
+    "agent_name": "gen1_capture_tactician",
+    "agent_description": "Calculates Generation 1 catch probabilities, status effects, and optimal ball requirements for stationary legendary encounters.",
+    "agent_system_prompt": "You are an expert on Generation 1 retail Pokémon battle algorithms. You analyze catch rates, HP thresholds, status multipliers, and ball counts to formulate risk-minimized capture plans.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"target_pokemon\": {\"type\": \"string\"}, \"target_level\": {\"type\": \"integer\"}, \"catch_rate\": {\"type\": \"integer\"}, \"hp_status\": {\"type\": \"string\"}, \"ball_type\": {\"type\": \"string\"}, \"ball_count\": {\"type\": \"integer\"}}, \"required\": [\"target_pokemon\", \"target_level\", \"catch_rate\", \"hp_status\", \"ball_type\", \"ball_count\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"per_throw_success_rate\": {\"type\": \"number\"}, \"cumulative_success_rate\": {\"type\": \"number\"}, \"recommended_ball_stock\": {\"type\": \"integer\"}, \"strategic_advice\": {\"type\": \"string\"}}, \"required\": [\"per_throw_success_rate\", \"cumulative_success_rate\", \"recommended_ball_stock\", \"strategic_advice\"]}"
+  }
+}
