@@ -4158,7 +4158,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 3. Active Navigation: Return to 1F water via Staircase (15, 3), traverse waterways and Southwest Lower Corridor to Ladder (3, 11), ascend to 2F, and systematically bump-test Row 8 from Row 9.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (5, 0) on Northern Terrace.
+- Current Location: Cerulean Cave 1F at (15, 3) on Wooden Staircase (facing water).
 - Active Plan:
   1. Walk east along Row 2 to (15, 2) and descend Staircase (15, 3) into water at (15, 4).
   2. Surf to Staircase (11, 13) and cross Central-Western Terrace to Staircase (17, 15).
