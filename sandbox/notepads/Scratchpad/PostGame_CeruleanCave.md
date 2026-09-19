@@ -42,3 +42,10 @@
   - The old claim that Column 24 dead-ended against rock wall (25, 5) is completely DISPROVEN.
   - Ladder (19, 7) connects seamlessly via (22, 2..4) -> (24..26, 3..5) directly into Column 26 and the Northern Chamber!
   - Active Route: Advance from (21, 4) -> (22, 4..2) -> (24, 2) -> (26, 3) to enter Column 26 / Northern Chamber!
+
+- CRITICAL TOPOLOGICAL CORRECTION [Turn 26419]:
+  - Tested (24, 3) -> (25, 3): BLOCKED! Tile (25, 3) is a solid rock wall. Ladder (19, 7) pocket is enclosed on the east.
+  - MAJOR DISCOVERY FROM SCREEN VISUALS: Ladder (29, 1) is NOT an enclosed dead-end!
+    Tiles (28, 1..3) and (29, 3..6) form a continuous open highway connecting directly into the Northeast Loop (27..29, 3..7), Northern Chamber (25..29, 5..7), and Column 26!
+    The prior note declaring Ladder (29, 1) a 'dead-end enclave' was completely FALSE.
+  - Active Route: Retrace via (22, 2..4) -> Ladder (19, 7), descend to 1F, surf to Staircase (23, 3) -> Ladder (27, 1), and ascend to 2F Ladder (29, 1) to explore the Northern Chamber!
