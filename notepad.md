@@ -4187,6 +4187,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Ladder (19, 7) connects seamlessly via (22, 2..4) -> (24..26, 3..5) directly into Column 26 and the Northern Chamber!
   - Active Route: Advance from (21, 4) -> (22, 4..2) -> (24, 2) -> (26, 3) to enter Column 26 / Northern Chamber!
 
+- CRITICAL TOPOLOGICAL CORRECTION [Turn 26419]:
+  - Tested (24, 3) -> (25, 3): BLOCKED! Tile (25, 3) is a solid rock wall. Ladder (19, 7) pocket is enclosed on the east.
+  - MAJOR DISCOVERY FROM SCREEN VISUALS: Ladder (29, 1) is NOT an enclosed dead-end!
+    Tiles (28, 1..3) and (29, 3..6) form a continuous open highway connecting directly into the Northeast Loop (27..29, 3..7), Northern Chamber (25..29, 5..7), and Column 26!
+    The prior note declaring Ladder (29, 1) a 'dead-end enclave' was completely FALSE.
+  - Active Route: Retrace via (22, 2..4) -> Ladder (19, 7), descend to 1F, surf to Staircase (23, 3) -> Ladder (27, 1), and ascend to 2F Ladder (29, 1) to explore the Northern Chamber!
+
 
 <hr>
 
@@ -4250,7 +4257,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections & Ladders
 - Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Completely enclosed, secluded dead-end enclave spanning cols 27..29, rows 0..6 with ZERO ground exit to the rest of 2F. (29, 7), (28, 4..7), and (27, 3) are all solid rock walls. [Physically verified Turn 26143]
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Open corridor runs south via (28, 1..3) and (29, 3..6) into the Northeast Loop (cols 27..29, rows 3..7), Northern Chamber (cols 25..29, rows 5..7), and Column 26 Corridor! [Visually confirmed Turn 26419; prior claim of dead-end enclave is DISPROVEN].
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
@@ -4321,6 +4328,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
 
 - Tile (21, 3): Empirically verified solid rock wall blocking direct northbound access from (21, 4) [Turn 26417]. Passage to Row 2 bypasses east via (22, 4) -> (22, 3..2).
+
+- Tile (25, 3): Empirically verified solid rock wall blocking eastward movement from (24, 3) [Turn 26419]. Ladder (19, 7) sector is bounded east by rock wall (25, 0..3).
 
 
 <hr>
