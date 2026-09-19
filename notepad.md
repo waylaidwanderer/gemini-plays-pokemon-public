@@ -4223,6 +4223,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
+- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Confirmed ZERO ground passage exists west of Column 5 on 1F toward Ladder (0, 6); Ladder (0, 6) must be accessed from 2F (1, 3)! [Empirically verified Turn 27057]
 
 <hr>
 
