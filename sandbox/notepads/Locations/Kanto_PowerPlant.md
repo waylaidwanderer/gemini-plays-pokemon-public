@@ -44,3 +44,7 @@
 - Trap at (9, 20) [Cleared Turn 28573]: Voltorb Lv 40 trap. Fled safely; item ball permanently despawned, tile (9, 20) is now empty floor.
 - Item Ball 2 at (25, 18) [Sighted Turn 28582]: Visible in an alcove surrounded by green monitor terminals at (24, 18), (26, 18), and (25, 19). Accessible from the north via (25, 17) and row 16. Identity unverified.
 - Trap at (32, 18) [Cleared Turn 28592]: Voltorb Lv 40 trap. Interacted from (33, 18) facing West; fled safely. Trap entity permanently despawned; tile (32, 18) is now clear floor.
+## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 28..38)
+- Row 14 Highway: Wide continuous open horizontal hallway spanning cols 28..38 above row 15 wall, connecting to outer eastern corridor (cols 37-38).
+- Gateway at (30..31, 13): 2-tile wide open north-south passage through row 13 wall connecting row 14 to row 12 concourse.
+- Row 12 Concourse: Open horizontal avenue running west towards the northern chambers.
