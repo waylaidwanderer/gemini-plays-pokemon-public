@@ -22,3 +22,8 @@
 - Psyduck (Lv 30) [Encountered Turn 29161].
 - Krabby (Lv 28) [Encountered Turn 29165].
 - Krabby (Lv 31) [Encountered Turn 29175].
+
+## Rapid Water Current Mechanic [Empirically Verified Turns 29185, 29413]
+- Tile (15, 8) in front of dock (15, 7) triggers an automatic rapid water current forced movement script.
+- Scripted Trajectory: (15, 8) -> South along col 15 to (15, 11) -> East along row 11 to (20, 11) -> South down col 20 to (20, 16) -> Drops over waterfall into B4F subterranean lake at (20, 15).
+- Dock at (15, 7) cannot be boarded from the south water canal while the upper current is active.
