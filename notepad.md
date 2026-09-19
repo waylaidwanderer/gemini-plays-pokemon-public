@@ -4167,17 +4167,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (2, 17) on foot.
+- Current Location: Cerulean Cave 1F at (2, 17) in battle exit screen ('Got away safely!').
 - Active Strategy & Frontier:
   - [x] Master Topological Deduction [Turn 26248]: Ladders (22, 6), (29, 1), and (19, 7) are ALL verified isolated pockets on 2F! Candidate Ladder (1, 3) must be accessed via Western Ladder (3, 11).
   - Master Plan: Backtrack via Ladder (19, 7) to 1F (18, 9), walk down to 1F lower corridor (Row 17) to Western Terrace, ascend Ladder (3, 11) to 2F, and explore north along Column 3 toward Candidate Ladder (1, 3)!
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
-| (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
-| (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
-| (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
-| (3, 11) | (3, 11) | CONFIRMED 2-WAY | 1F western terrace to 2F western secluded pocket |
+| (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 22..24, Rows 7..15) |
+| (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 27..29, Rows 0..6) |
+| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 19..27, Rows 0..7) |
+| (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
 
 
 <hr>
@@ -4200,6 +4200,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
 - Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..14). [Visually confirmed Turn 25637]
+- Rock Barrier (16..17, 12..13): Solid rock obstacle on Central-Western Terrace between rows 12..13. Bypassed on the east via Column 18 (18, 11..14).
 - Central-Western Terrace (Cols 11..18, Rows 8..14): Elevated plateau accessed via Staircase (11, 13) or 2F Ladder (19, 7). Contains Ladder (18, 9) leading to 2F. Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12) and (18, 9)]
 - Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14) to lower landing (17, 16). [Physically verified 2-way access Turn 26068]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7 (tested at (9, 7) Turn 26112: col 7 solid rows 4..8, rows 4..5 solid cols 6..13 visible in viewport). 1F water confirmed 100% closed loop to Staircase (25, 9). No B1F descent exists in 1F water.
@@ -4226,8 +4227,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
 
-## Central-Western Terrace Navigation [Turn 26257]
-- Rock barrier at (16..17, 12..13): Traversal south from (17, 11) to Staircase (17, 15) requires routing east via Column 18: (17, 11) -> (18, 11..14) -> (17, 14) -> Staircase (17, 15). [Physically verified Turn 26257]
 
 <hr>
 
@@ -4243,6 +4242,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
+- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
 - Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
   - Row 17 Southern Thoroughfare terminates west at (1, 17), bounded by solid rock walls at (0, 17) and (1, 18).
   - Column 1 Spur: (1, 16..15) is a 2-tile dead-end alcove branching north from (1, 17), bounded by solid rock walls at (0, 15..16), (2, 15..16), and (1, 14).
@@ -4303,13 +4304,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Cerulean Cave 2F Master Topological Analysis [Turn 26193]
 - Ladder (22, 6) Enclosed Pocket: Bounded by solid rock walls on all sides. Only contains Column 23 (rows 7..11), Column 24 (rows 11..15 dead-end), Row 11 (cols 14..23 dead-end at 14, 11 and 17, 10), and Row 13 (cols 17..22 dead-ending at 22, 15 and 21, 15). ZERO ground access to the rest of 2F!
 - Ladder (29, 1) Enclosed Pocket: Bounded by rock walls cols 27..29, rows 0..6. ZERO ground access to the rest of 2F!
-- Ladder (3, 11) Southwest Pocket: Connects to Row 17 West and Column 12/13, but blocked from Candidate Ladder (1, 3).
+- Ladder (3, 11) Western Network: Connects to Row 17 West, Column 12/13, and Row 9 (3..15). Passage north of (3, 9) along Column 3 toward Candidate Ladder (1, 3) is UNTESTED frontier.
 - Ladder (19, 7) (from 1F Ladder 18, 9): Descending cave ladder connecting to 1F Ladder (18, 9). Connects via winding passage (20..22, 3..5) to Row 2 and Column 24 network, but bounded from eastern and western 2F by solid rock barriers. [Physically verified Turns 26221-26248]
-## Corridor Discoveries [Turn 26242]
-- Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
-- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24! [Visually verified Turn 26242]
-
-
 
 
 <hr>
