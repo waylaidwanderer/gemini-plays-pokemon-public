@@ -4660,4 +4660,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Open Water Channel: Rows 8..16 confirmed completely clear across columns 0 to 10 [Verified Turn 29121].
 - Seafoam Islands: Dual island cavern complex located along the route to the east.
 
+## Trainers & Encounters
+- Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
+
 <hr>
