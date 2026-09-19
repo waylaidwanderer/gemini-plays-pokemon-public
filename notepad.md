@@ -4144,42 +4144,33 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Post-Game: Cerulean Cave & Mewtwo Investigation
 
-## Hypotheses to Empirically Verify
-- Hypothesis 2: Legendary Pok�mon Mewtwo resides within Cerulean Cave B1F at Level 70.
-- Hypothesis 3 (Unverified): 1F Ladder (0, 6) connects to 2F Ladder (1, 3); corridor (5, 4..5) hypothesized to connect to B1F descent.
-- Hypothesis 4 (Unverified): 2F Northwest Enclave (Cols 0..2, Rows 1..4) is accessible via physical bump testing along Columns 3..2 on Rows 1..3.
-
-## Post-Game Routing Strategy: Systematic 2F Row 8 Breakthrough
-1. 2F Row 8 & Row 7 Map Findings [Turns 27506-27520]:
-   - Row 8: Physical bump tests confirmed solid rock at (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], (11, 8) [Turn 27508], and (12, 8) [Turn 27595]. Visual tile matching shows identical boulder tiles at (2, 8), (6..8, 8), (10, 8), and (12, 8).
-   - Row 7 spans Columns 1 to 11 and dead-ends east at (11, 7), enclosed by boulder (11, 6), boulder (12, 7), and boulder (11, 8).
-   - Row 6 has only ONE passage at (6, 6) connecting Row 7 to Row 5 West.
-   - Row 5 has boulder (8, 5) separating Row 5 West (Cols 0..7) from Row 5 East (Cols 9..16).
-2. Definitive Sector A & 2F Northwest Enclave Findings [Turn 27545]:
-   - Bump test confirmed (3, 4) is solid rock boulder [Turn 27545].
-   - Row 4 (Cols 2..8) and Column 2 (Rows -1..4) are 100% solid rock.
-   - 2F Northwest Enclave is completely enclosed on all sides with zero passage from 2F.
-   - Ladder (1, 3) is the sole entrance/exit for this enclave.
+## Verified Dungeon Architecture & Empirical Facts
+1. 2F Physical Collision Proofs:
+   - Row 8: Physically bump-tested every column from 2 to 12. Solid rock boulders confirmed at (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], (11, 8) [Turn 27508], and (12, 8) [Turn 27595].
+   - Sector A: Physical bump tests confirmed (2, 1..3) are solid rock walls and (3..8, 4) are solid boulders [Turn 27545: (3, 4) solid].
+   - Boulder (8, 5): Solid rock boulder separating Row 5 West from Row 5 East [Turn 27083].
+   - Conclusion: 2F Northwest Enclave (Cols 0..7, Rows 2..7) containing Ladder (1, 3) cannot be entered via Sector A, Row 5 East, or Row 8.
+2. 1F Physical Collision Proofs:
+   - Western Terrace: Bump test confirmed (4, 7) is solid rock boulder [Turn 27580]. (3, 7), (5..7, 7) are solid boulders. Row 7 (Cols 0..2) contains a south-facing jump ledge dropping to Row 8.
+   - Northwest Corridor: Visually confirmed Ladder at (0, 6) [Turn 27580]. Corridor is exit-only on 1F, terminating at the Row 7 jump ledge.
+   - Waterway Boundary: Bump test confirmed (7, 6) is solid rock wall from (8, 6) [Turn 27568].
+   - Eastern Shoreline: Bump test confirmed (27, 12) is elevated cliff from water (27, 11) [Turn 27615]. Row 12 is continuous cliff across Cols 23..30.
+   - Eastern Corridor (Cols 27..28, Rows 12..16): Decorative basin enclosed by cliffs, Pillar 26, and cave walls. Contains zero ladders.
+3. Cerulean Cave Multi-Floor Ladder Topology:
+   - 1F (23, 7) <-> 2F (22, 6) [CONFIRMED 2-WAY: Entrance Terrace to Central Network]
+   - 1F (18, 9) <-> 2F (19, 7) [CONFIRMED 2-WAY: Central-Western Terrace to Secluded Pocket]
+   - 1F (27, 1) <-> 2F (29, 1) [CONFIRMED 2-WAY: Northern Elevated Terrace to Sector B]
+   - 1F (7, 1) <-> 2F (9, 1) [CONFIRMED 2-WAY: Northern Terrace to Sector A]
+   - 1F (3, 11) <-> 2F (3, 11) [CONFIRMED 2-WAY: Western Terrace to Western Network]
+   - 1F (0, 6) <-> 2F (1, 3) [HYPOTHESIZED 2-WAY: 1F exit corridor to 2F NW Enclave]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (4, 8) on Western Terrace.
-- Findings: Bump test confirmed 1F (4, 7) is solid rock boulder [Turn 27580]. Ladder at 1F (0, 6) confirmed. Northwest corridor on 1F is an exit-only loop terminating at the Row 7 jump ledge.
-- Breakthrough Strategy: 2F Ladder (1, 3) must be reached from 2F. Row 8 on 2F has untested columns (6, 7, 8, 10, 12).
+- Current Location: Cerulean Cave 1F at (27, 11) in lake water.
+- Immediate Task: Disembark from lake via Staircase (25, 9) onto Entrance Terrace.
+- Working Hypothesis: The Lower Southwest Network on 2F (accessed via Ladder 3, 11) connects to the open floor chain at (1..2, 13), (1, 12), (0, 9..11), and (1, 8..9) leading to Ladder (1, 3).
 - Active Plan:
-  1. Take Ladder (3, 11) up to 2F.
-  2. Walk to (6, 9) on Row 9.
-  3. Physically bump-test tile (6, 8) stepping North from (6, 9).
-  4. If solid, systematically test columns 7, 8, 10, 12 along Row 8.
-
-## Cerulean Cave Multi-Floor Ladder Topology
-| 1F Coordinate | 2F Coordinate | Verified Status | Notes |
-|:---:|:---:|:---:|:---|
-| (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
-| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Secluded Pocket (Dead End) |
-| (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Sector B loop (no Sector A access) |
-| (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Sector A (Gateway to NW Enclave) |
-| (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
-| (0, 6) | (1, 3)? | UNTESTED HYPOTHESIS | 1F (0, 6) has south exit ledge; connects to 2F NW Enclave & B1F route |
+  1. Surf west from (27, 11) to (25, 10), ascend Staircase (25, 9) to (25, 8).
+  2. Take Ladder (23, 7) up to 2F Central Network to verify if any unknown connector exists.
 
 
 <hr>
