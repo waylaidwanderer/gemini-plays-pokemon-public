@@ -17,5 +17,3 @@
 - B3F (Lower): Has signpost at (23, 1) ('DANGER / Fast current!'), wooden dock at (23, 5), fast water current at rows 6..7.
 - B2F (Current): Empty floor at (23, 1), rock wall at (23, 5), dry cave floor at rows 6..8.
 
-## Boulders & Pit Holes
-- Main B2F chamber remains to be accessed via upper floor ladders (from 1F / B1F).

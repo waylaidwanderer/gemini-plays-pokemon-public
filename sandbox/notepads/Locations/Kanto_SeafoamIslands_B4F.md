@@ -3,7 +3,6 @@
 ## Overview
 - Subterranean lake level of Seafoam Islands cavern complex (hypothesized B4F / terminal floor, pending empirical ladder elevation verification).
 - Arrived via rapid water current drop from upper map at (20, 16) into (20, 15) [Turn 29186].
-- Current status: Rapid current stopped upon entering lake; full navigation restored.
 
 ## Key Landmarks & Layout
 - Subterranean Ocean / Lake: Massive body of water spanning rows 6..15 across cols 18..25+.
