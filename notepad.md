@@ -4145,19 +4145,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Post-Game: Cerulean Cave & Mewtwo Investigation
 
 ## Status & Progression
-- Champion Gauntlet: Completed Turn 24981
-- Hall of Fame Induction: Completed Turn 24994
-- Post-Game Start: Pallet Town [Turn 25002]
 
 ## Hypotheses to Empirically Verify
-- Hypothesis 1: Cerulean Cave entrance guard (northwest of Cerulean City across Route 24 river) has departed following Champion induction. [CONFIRMED - Turn 25483: guard at (4, 12) absent, cave mouth (4, 11) unobstructed]
 - Hypothesis 2: Legendary Pokémon Mewtwo resides within Cerulean Cave B1F at Level 70.
 
 ## Post-Game Routing Plan
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Row 1 at (16, 1).
+- Current Location: Cerulean Cave 2F at (12, 1).
 - Active Route:
   1. Follow Row 1 west to (14, 1) and onto the Northern Elevated Plateau (Cols 5..12, Rows 0..2).
   2. Explore west from Column 5 along Rows 0..2 toward Column 1 to locate access to northwest enclave Ladder (1, 3).
@@ -4243,7 +4239,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
-- Row 3 West Boundary: Row 3 terminates west at (3, 3), blocked by solid rock wall at (2, 3) with solid rock north (3, 2) and south (3, 4). [Empirically verified Turn 26764]
+- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turn 26622]. (2, 3) is solid rock. Passage north through (3, 2) leads directly into the northwest sector toward Ladder (1, 3).
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]
