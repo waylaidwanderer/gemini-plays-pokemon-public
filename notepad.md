@@ -4149,18 +4149,23 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Hypothesis 3 (Unverified): 1F Ladder (0, 6) connects to 2F Ladder (1, 3); corridor (5, 4..5) hypothesized to connect to B1F descent.
 - Hypothesis 4 (Unverified): 2F Northwest Enclave (Cols 0..2, Rows 1..4) is accessible via physical bump testing along Columns 3..2 on Rows 1..3.
 
-## Post-Game Routing Strategy: 1F Secluded Corridor & B1F Access
-1. Definitive 2F Findings: Exhaustive physical bump tests proved (2, 1..3) and (4..7, 4) are completely solid boulder walls. The 2F Northwest Enclave (Cols 0..7, Rows 2..7) containing Ladder (1, 3) has zero ground access from the rest of 2F and must be accessed via 1F Ladder (0, 6).
-2. Physical Goal: Return to 1F Northern Terrace via Ladder (9, 1) -> Ladder (7, 1).
-3. 1F Southern Boundary Testing: Navigate to (5, 2) on 1F Northern Terrace and systematically test stepping South into Row 3 (Cols 5..7) to locate the jump ledge / staircase into the secluded corridor leading to Ladder (0, 6).
+## Post-Game Routing Strategy: Systematic 2F Row 8 Breakthrough
+1. Definitive 1F & 2F Findings:
+   - 1F Northern Terrace (Cols 5..16, Rows 0..2) is 100% enclosed by solid walls on Column 4 and Row 3. Connects strictly to Staircase (15, 3) and Ladder (7, 1).
+   - 2F Sector A is 100% enclosed on Column 2 and Row 4. Connects strictly to 1F Ladder (7, 1).
+   - 2F Northwest Enclave (Cols 0..7, Rows 2..7) containing Ladder (1, 3) is connected directly to Row 7 (Cols 1..11) via gap (6, 6) and Row 5 West.
+2. The Breakthrough Target: On 2F, Row 7 lies directly north of Row 9 separated by Row 8. Only (4, 8) and (9, 8) were bump-tested. Columns 5, 6, 7, 8, 10, 11, 12 along Row 8 remain to be systematically bump-tested from Row 9 to locate the passable tile into Row 7.
+3. Active Navigation: Return to 1F water via Staircase (15, 3), traverse waterways and Southwest Lower Corridor to Ladder (3, 11), ascend to 2F, and systematically bump-test Row 8 from Row 9.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (5, 2) on Northern Terrace.
-- Verified 1F Boundaries: Physical bump test from (5, 2) confirmed (5, 3) is solid rock wall [Turn 27478].
+- Current Location: Cerulean Cave 1F at (5, 0) on Northern Terrace.
 - Active Plan:
-  1. Directionally bump-test western boundary of 1F Northern Terrace along Column 4 at (4, 2), (4, 1), and (4, 0).
-  2. If Column 4 is completely solid, the Northern Terrace is verified as containing strictly Staircase (15, 3) and Ladder (7, 1).
-  3. Determine the true access route to Ladder (1, 3).
+  1. Walk east along Row 2 to (15, 2) and descend Staircase (15, 3) into water at (15, 4).
+  2. Surf to Staircase (11, 13) and cross Central-Western Terrace to Staircase (17, 15).
+  3. Traverse Southwest Lower Corridor to Staircase (1, 13) and ascend to Western Terrace.
+  4. Take Ladder (3, 11) up to 2F.
+  5. Systematically bump-test Columns 5, 6, 7, 8, 10, 11 along Row 8 stepping North from Row 9 to enter Row 7.
+  6. From Row 7, step through (6, 6) into Row 5 West, reach Ladder (1, 3), and take it to discover B1F!
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
