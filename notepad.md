@@ -2014,7 +2014,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Celadon Mansion (Condominiums): Front entrance door at (24, 9); spans rows 7..9, cols 23..27+ [Turn 5488].
 - North Courtyard: Spans cols 20..21 (rows 7..9) with statue at (21, 9) [Turn 5489].
 - Main Avenue: Continuous paved east-west boulevard across rows 10..13 [Turn 5488].
-- Western Avenue Obstacles: Tile (4, 9) is an impassable building wall north of (4, 10) [Turn 12595].
+- Western Avenue Obstacles: Building spans cols 2..5, rows 6..9 with solid brick wall and windows [Turn 28765]. Department Store west wall lines column 6 (rows 6..12); no northern passage exists at column 6.
 - Town Signpost at (19, 15): "CELADON CITY / The City of Rainbow Dreams" [Turn 5495].
 - Southbound Central Avenue: Paved avenue at cols 16..17 (rows 10..15+) leading south toward southern district [Turn 5489].
 - Celadon Department Store: Large multi-story MART building at rows 7..13; 'MART' sign at (12, 13); front entrance door at (10, 13) [Turn 5498].
