@@ -4321,5 +4321,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (21, 3): Empirically verified solid rock wall blocking direct northbound access from (21, 4) [Turn 26417]. Passage to Row 2 bypasses east via (22, 4) -> (22, 3..2).
 
 - Tile (25, 3): Empirically verified solid rock wall blocking eastward movement from (24, 3) [Turn 26419]. Ladder (19, 7) sector is bounded east by rock wall (25, 0..3).
+- Tile (19, 4): Empirically verified solid rock wall blocking direct northbound access from (19, 5) [Turn 26509]. Bypass route east: (19, 5) -> (20..21, 5) -> (21, 4) -> (22, 4) -> (22, 3..2).
 
 <hr>
