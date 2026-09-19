@@ -14,7 +14,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Celadon Mansion (Condominiums): Front entrance door at (24, 9); spans rows 7..9, cols 23..27+ [Turn 5488].
 - North Courtyard: Spans cols 20..21 (rows 7..9) with statue at (21, 9) [Turn 5489].
 - Main Avenue: Continuous paved east-west boulevard across rows 10..13 [Turn 5488].
-- Western Avenue Obstacles: Tile (4, 9) is an impassable building wall north of (4, 10) [Turn 12595].
+- Western Avenue Obstacles: Building spans cols 2..5, rows 6..9 with solid brick wall and windows [Turn 28765]. Department Store west wall lines column 6 (rows 6..12); no northern passage exists at column 6.
 - Town Signpost at (19, 15): "CELADON CITY / The City of Rainbow Dreams" [Turn 5495].
 - Southbound Central Avenue: Paved avenue at cols 16..17 (rows 10..15+) leading south toward southern district [Turn 5489].
 - Celadon Department Store: Large multi-story MART building at rows 7..13; 'MART' sign at (12, 13); front entrance door at (10, 13) [Turn 5498].
@@ -46,7 +46,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Western Avenue Corridor: Spans columns 2..5 as a continuous 4-tile wide yellow brick road from row 10 south past row 19.
 - Eastern Boundary: Department Store west wall and curb along column 6 (rows 7..13).
 - Northern Boundary: Building facade along row 9 (cols 2..5) with solid wall at (2..5, 9).
-- Western Boundary: Continuous line of border trees along column 1 (rows 7..17), transitioning to concrete curb at (1, 18) and wooden fence posts at (1, 19).
+- Western Boundary: Continuous line of border trees along column 1 (rows 7..17), opening at (1, 18) as a paved passage between trees at (1, 17) and wooden bollards at (1, 19) leading west onto Route 16 [Verified Turn 28767].
 
 ## Northern Bypass / Rooftop Corridor Entrance (Verified Turn 13406)
 - Eastern Gap (Cols 44..45): Continuous 2-tile wide paved yellow brick road spanning north from row 10 up past row 6 between the Pokémon Center east wall (col 43) and the eastern border trees (col 46).
