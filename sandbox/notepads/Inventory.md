@@ -17,19 +17,7 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Active Bag Items (11 items) [Updated Turn 28235 post-Mewtwo catch]:
-  1. POKé FLUTE
-  2. MAX POTION x1
-  3. REVIVE x14
-  4. FULL HEAL x6
-  5. MAX REVIVE x2 [Acquired B1F (18, 1) Turn 28145]
-  6. BICYCLE
-  7. FULL RESTORE x12 [Acquired +2 in Cerulean Cave 2F]
-  8. PP UP x1 [Acquired Cerulean Cave 2F]
-  9. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
-  10. NUGGET x1 [Acquired Cerulean Cave 2F]
-  11. ULTRA BALL x2 [Acquired Cerulean Cave 2F (4, 15) & B1F (16, 9)]
-
+- Active Bag Items: 11 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -73,7 +61,7 @@
   - Status: Healthy
   - HP: 222 / 222 [Healed Turn 28476 at Cerulean Center]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15) [Used Turn 28526], Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -85,7 +73,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 28/30) [Used Turns 28464, 28495]
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy

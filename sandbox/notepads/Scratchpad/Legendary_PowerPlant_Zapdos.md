@@ -19,10 +19,14 @@
 ## Capture Strategy & Preparation
 - Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
 - Target: ZAPDOS Lv 50 (Electric/Flying). Catch rate: 3.
+- Critical Permanence Warning:
+  - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
+  - MANDATORY PROTOCOL: Stand directly in front of Zapdos and execute a manual SAVE before pressing 'A' to interact!
 - Combat Protocol:
-  1. Lead with Blastoise (SHELDON Lv 70) or Mewtwo (OMEGA Lv 70) to absorb hits and chip Zapdos into red HP (Surf / Swift / Double-Edge).
-  2. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
-  3. Throw Ultra Balls while Zapdos is asleep at low HP.
-  4. Contingency: If Zapdos breaks out of both Ultra Balls, note that ¥107,981 cash is available; balls can be purchased at Indigo Plateau Mart (Ultra Ball ¥1200) or Celadon Dept Store (Great Ball ¥600) if a restock is required.
+  1. DO NOT lead with Blastoise (SHELDON)! Blastoise is Water-type and takes 2x super-effective STAB damage from Zapdos's Electric attacks (Thunder/Thunderbolt).
+  2. Lead with Mewtwo (OMEGA Lv 70, Special 231, HP 234/234). Mewtwo takes standard neutral damage from Electric and resists nothing, has massive Special bulk, and possesses Recover (PP 20/20).
+  3. Chip Zapdos carefully using Mewtwo's Swift (Normal physical, 60 power, never misses, non-fatal chip damage) into red HP.
+  4. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20). (Digby/Rocky can also absorb Electric moves with Ground immunity if needed).
+  5. Throw Ultra Balls while Zapdos is asleep at low red HP.
 - Flash Requirement Hypothesis:
   - Hypothesis: Power Plant may be naturally lit or dark. To be empirically verified upon entering the facility. Sandman has HM05 Flash ready if illumination is needed.
