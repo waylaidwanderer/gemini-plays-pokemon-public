@@ -15,13 +15,14 @@
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Subterranean Water at (28, 7).
+- Current Location: Cerulean Cave 2F at Ladder (22, 6).
 - Active Route:
-  1. Surf south along Column 28 to Row 10, then west to (25, 10).
-  2. Ascend Staircase (25, 9) onto the 1F Entrance Terrace.
-  3. Walk to Ladder (23, 7) and climb to 2F Ladder (22, 6).
-  4. Explore the 2F Master Network branches (Column 23, Row 11, Row 13, Column 26) to find the downward passage to B1F.
-  5. Descend to B1F and capture Mewtwo with the Master Ball.
+  1. Descend Column 23 south from (23, 7) to Row 11 Junction at (23, 11).
+  2. Explore 2F Master Network branches:
+     - Branch A: Row 11 West -> South at (17, 11) into Row 13 Central / Southern thoroughfares.
+     - Branch B: Row 11 East -> Column 26 Corridor (26, 14..9) and Eastern/Northern chambers (Cols 24..29).
+  3. Locate the true descending ladder to B1F.
+  4. Descend to B1F and capture Mewtwo with the Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
