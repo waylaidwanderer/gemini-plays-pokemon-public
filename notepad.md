@@ -4159,7 +4159,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Central-Western Terrace at (18, 14) facing Down. Descending Staircase (17, 15) to Row 17.
+- Current Location: Cerulean Cave 1F Southwest Lower Corridor at (16, 16) facing Left. Navigating west along Row 17 to Staircase (1, 13) and Ladder (3, 11).
 - Strategic Route [Turn 26704]: Navigating entirely on foot via Staircase (17, 15) -> Row 17 Southwest Lower Corridor -> Staircase (1, 13) -> Western Terrace Ladder (3, 11).
 - Target: Ascend Ladder (3, 11) to enter 2F Western Network directly adjacent to Candidate Ladder (1, 3) and the Northwest Enclave.
 
