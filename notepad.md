@@ -4342,8 +4342,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Exit: Wide open north exit into Row 1 & Row 2 corridor.
 - Northern Horizontal Artery (Cols 1..8+, Rows 0..2): Broad 3-tile high open horizontal thoroughfare running east above the starting chamber, bounded north by cavern wall at Row -1.
 - Staircase (13, 3): 1-tile wide wooden staircase descending south from upper terrace at (13, 2) onto lower elevation reddish-brown cave floor at (13, 4). Flanked by purple boulders at (12, 3) and (14, 3).
-- Lower Area (Cols 7..14+, Rows 4..5+): Lower elevation dark reddish-brown cave floor accessed via Staircase (13, 3).
-- Lower Southern Corridor (Rows 7..10): Reddish-brown cave floor visible south of Row 7 boulders.
+- Staircase (19, 3): 1-tile wide wooden staircase ascending north from lower floor at (19, 4) onto isolated northeast terrace at (19, 2).
+- Isolated Northeast Terrace (Cols 17..19+, Rows 0..2): Contains Ground Item Ball at (18, 1)! Separated from northwestern upper terrace by boulder wall at Column 16 (16, 0..3). Accessible exclusively via Staircase (19, 3).
+- Lower Elevation Thoroughfare (Cols 7..19+, Rows 4..5+): Broad reddish-brown cave floor spanning between Staircase (13, 3) and Staircase (19, 3), connecting south into B1F cavern networks.
 
 ## Wild Pok�mon
 - Ditto: Wild encounter [Encountered Turn 28113]
