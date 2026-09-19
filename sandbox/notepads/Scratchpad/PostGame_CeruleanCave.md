@@ -24,7 +24,7 @@
   - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
 - Working Hypothesis: The true descent to B1F lies in the segregated 1F Northwest Corridor (0, 6) which connects to 2F Ladder (1, 3).
 - Active Protocol:
-  1. Systematically navigate 1F subterranean waterways to test unverified boundaries without shuttling back into known 2F enclosures.
-  2. Investigate Column 14/15 water boundaries and western water channels along Rows 4..8.
+  1. Break the macro-shuttling loop: Conduct an exhaustive boundary and passage audit on 2F without prematurely assuming paths are closed.
+  2. Test all unverified avenues on 2F (e.g., Column 13 South, Row 3/4 branches, Column 10/11) to locate the genuine opening to Mewtwo / B1F.
 
 - Southeast Network Audit [Turn 27755]: Cols 25..29, Rows 6..14 is 100% physically and visually confirmed as a closed loop connecting between Column 29, (27, 6..7), and Column 26. Completely bounded by solid boulders on west (Col 24) and north (Row 6). Zero exit to Sector A or western 2F.
