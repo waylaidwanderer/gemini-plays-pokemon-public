@@ -1,21 +1,14 @@
 # Inventory Log
 
-## Regular Items
-
-- MASTER BALL x0 [Used on Turn 28234 to capture MEWTWO!]
-- FULL RESTORE x12 [Acquired +2 in Cerulean Cave; 10 from prior gauntlet]
-- MAX POTION x1 [Safari Zone Area 2 Turn 8448]
-- REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
-- FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
-- MAX REVIVE x2 [Victory Road 2F Turn 16064; Cerulean Cave B1F (18, 1) Turn 28145]
-- PP UP x1 [Obtained Cerulean Cave 2F]
-- MAX ELIXER x1 [Obtained Cerulean Cave 2F]
-- NUGGET x1 [Obtained Cerulean Cave 2F]
-- ULTRA BALL x2 [Cerulean Cave 2F (4, 15) Turn 25986; Cerulean Cave B1F (16, 9) Turn 28193]
-- HP UP x1 [Power Plant (28, 3) Turn 28644]
-## Key Items & HMs
-- POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
-- BICYCLE [Withdrawn from PC Turn 25022]
+## Bag Items (Empirically Verified Turns 28749-28750)
+1. POKé FLUTE [Key Item]
+2. MAX POTION x 1
+3. REVIVE x14
+4. FULL HEAL x 6
+5. MAX REVIVE x 2
+6. BICYCLE [Key Item - Mounted Turn 28750]
+7. FULL RESTORE x12
+(Remaining lower items: PP UP, MAX ELIXER, NUGGET, ULTRA BALL x2, HP UP)
 
 ## Inventory Capacity
 - Active Bag Items: 12 / 20 capacity used.
