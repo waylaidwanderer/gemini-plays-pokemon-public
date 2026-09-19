@@ -1,17 +1,14 @@
 # Scratchpad: Cerulean Cave Routing & Empirical Frontier
 
-## Verified Sector Boundaries
-1. **2F East Sector (cols 14-27, rows 6-15)**:
+## Verified Sector Boundaries (2F)
+1. **2F East Sector (cols 14-29, rows 3-17)**:
    - Ladder B at (22, 6) <-> 1F (23, 7).
    - Ladder C at (19, 7) <-> 1F (18, 9).
-   - Isolated to west by rock walls along Col 13/14 and Row 10.
-2. **1F East / Entrance Sector (cols 20-25)**:
-   - Ladder B at (23, 7) <-> 2F (22, 6).
-   - Row 6 is an elevated terrace overlooking Row 5 water (cannot Surf directly off cliff).
-   - Ledge at (21, 11) connects down to (21, 12).
-   - Column 19 is a solid rock wall dividing East Sector from Central Corridor (cols 16-18).
-3. **1F Central Corridor (cols 16-18)**:
-   - Ladder C at (18, 9) <-> 2F (19, 7).
-   - Ledge at (17, 15) hops south into (17, 16) -> (16, 17) -> open corridor leading west to SW Ladder (3, 11).
-4. **Target Destination**:
-   - SW Ladder at 1F (3, 11) <-> 2F (3, 11) -> Ladder A at (1, 3) -> B1F Mewtwo.
+   - Ladder D at (29, 1) <-> 1F (27, 1). Located in dead-end northeast alcove; solid rock at (27, 3) blocks passage west.
+   - Row 17 Southern corridor: (21, 17) to (27, 17) is floor. West of column 21 (cols 17-20 on rows 14-18) is SOLID ROCK.
+   - East Sector does NOT connect directly on 2F to the western sectors.
+2. **Current Strategy - 1F Waterway Navigation**:
+   - Descend Ladder B (22, 6) to 1F (23, 7).
+   - Walk south to shoreline at (24, 9)/(25, 9) facing South.
+   - Activate SURF with HYDROS onto 1F water basin.
+   - Navigate 1F water channel west and north to reach all isolated 1F shores and ladders (including SW Ladder at (3, 11) and NW sector).
