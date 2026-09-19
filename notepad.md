@@ -4167,8 +4167,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
 - Working Hypothesis: The true descent to B1F lies in the segregated 1F Northwest Corridor (0, 6) which connects to 2F Ladder (1, 3).
 - Active Protocol:
-  1. Systematically navigate 1F subterranean waterways to test unverified boundaries without shuttling back into known 2F enclosures.
-  2. Investigate Column 14/15 water boundaries and western water channels along Rows 4..8.
+  1. Break the macro-shuttling loop: Conduct an exhaustive boundary and passage audit on 2F without prematurely assuming paths are closed.
+  2. Test all unverified avenues on 2F (e.g., Column 13 South, Row 3/4 branches, Column 10/11) to locate the genuine opening to Mewtwo / B1F.
 
 - Southeast Network Audit [Turn 27755]: Cols 25..29, Rows 6..14 is 100% physically and visually confirmed as a closed loop connecting between Column 29, (27, 6..7), and Column 26. Completely bounded by solid boulders on west (Col 24) and north (Row 6). Zero exit to Sector A or western 2F.
 
@@ -4191,7 +4191,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Layout & Corridors
 - Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by solid continuous rock wall across Row 3 (Cols 4..16, bypassed only via Staircase 15, 3 from subterranean water), and on the west by solid rock wall at Column 4 (Rows 0..3) [Visually and physically confirmed Turn 27179-27181]. Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Physical bump tests confirmed (5, 3) [Turn 27478], (4, 2) [Turn 27483], (4, 1) [Turn 27483], and (4, 0) [Turn 27483] are all solid rock walls, proving the Northern Terrace (Cols 5..16, Rows 0..2) is completely enclosed and connects strictly to water via Staircase (15, 3) and 2F via Ladder (7, 1).
 - Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
-  - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
+  - Cols 0..2: Row 7 contains dark reddish elevated floor. Physical bump tests confirmed (0, 8) is solid rock wall corner from (1, 8) [Turn 27805], and stepping Up from (1, 8) into (1, 7) is blocked by a south-facing jump ledge [Turn 27806] (re-verified after Turns 27141-27143). Row 7 ledge is strictly a one-way exit hopping south into Row 8.
   - Cols 3..7: Solid rock boulder wall across Row 7. Physical bump test confirmed (4, 7) is solid rock boulder [Turn 27580]. Visual audit confirmed (3, 7), (5, 7), (6, 7), (7, 7) are solid rock boulders [Turn 27580].
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
@@ -4244,13 +4244,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Layout & Corridors
 
-- Definitive Sector A & Central Network Western Boundary Audit [Turn 27714]:
-  - Row 0 (Cols 0..6): Cavern ceiling runs continuously from (0, 0) to (6, 0). (7..9, 0) are open floor alcoves terminating west at (7, 0). Zero passage to northwest.
-  - Row 4 (Cols 1..8): Solid rock boulders completely separate Row 3 from Row 5 across columns 1 through 8.
-  - Row 5 East: Boulder (8, 5) completely separates Northwest Enclave (0..7, 5) from eastern Row 5 (9..11, 5).
-  - Row 6 (Cols 7..12): Solid boulders across all columns between Column 7 and Column 12. Tile (13, 6) is open floor, but bounded south by solid boulder (13, 7).
-  - Row 7 East (Cols 12..14): Solid boulders block eastward traversal from Row 7 (Cols 1..11) into Column 12/13.
-  - Definitive Conclusion: Sector A and Central Network on 2F are 100% physically and visually enclosed on the west. Zero passage exists into the Northwest Enclave from the north or east.
 - Row 8 Collision Tests from Row 9: Physical bump tests confirmed (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], (11, 8) [Turn 27508], and (12, 8) [Turn 27595] are solid rock boulders completely blocking northward passage from Row 9 across all columns.
 - Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. Physical bump test from (3, 1) confirmed (2, 1) is solid rock wall [Turn 27454]. Physical bump tests confirmed (2, 1) [Turn 27454], (2, 2) [Turn 27459], and (2, 3) [Turn 27459] are all solid rock boulder walls, proving Column 2 is completely impassable from Sector A. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
 - Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5) (empirically confirmed via physical bump test from (9, 5) on Turns 27083-27084: pressing Left resulted in wall collision). Row 4 rock wall (2..8, 4) completely separates Row 3 from Row 5; physical bump test confirmed (3, 4) is solid rock boulder [Turn 27545]. Column 2 (Rows -1..4) is solid rock. The Northwest Enclave (Cols 0..7, Rows 2..7) is 100% physically enclosed on 2F with zero walkable passage from Sector A, Central Network, or Western Network. Ladder (1, 3) is the sole access into/out of this enclave.
