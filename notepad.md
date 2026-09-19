@@ -4151,10 +4151,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (9, 1) at Ladder (9, 1).
+- Current Location: Cerulean Cave 2F at (18, 1).
 - Verified Status: Confirmed Northern Terrace is fully bounded on south (Row 3 rock wall) and west (Column 4 rock wall) with zero connection to Row 4. 1F ground routes to Ladder (0, 6) are completely exhausted. Access to B1F must proceed through 2F Sector A to locate the passage to Ladder (1, 3).
 - Active Route:
-  1. Ascend Ladder (7, 1) to 2F Ladder (9, 1).
   2. Systematically explore 2F Sector A corridors (Row 1, Row 3, Row 5, Column 9, Column 13, and untested branches) to locate access into the northwest enclave enclosing Ladder (1, 3).
   3. Take Ladder (1, 3) to descend into B1F (or the isolated 1F enclave at Ladder 0, 6).
   4. Locate and capture Mewtwo on B1F using the Master Ball.
@@ -4167,7 +4166,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Sector B loop (no Sector A access) |
 | (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Northern Corridor |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
-| (0, 6) | (1, 3)? | TARGET ROUTE | 2F Ladder (1, 3) candidate descent to 1F northwest isolated enclave / B1F |
+| (0, 6) | (1, 3)? | UNTESTED HYPOTHESIS | Destination and floor connectivity unverified; neither ladder has been stepped on |
 
 
 <hr>
@@ -4181,7 +4180,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
-- Ladder (0, 6): Cave ladder visually sighted at (0, 6) from (1, 8) and (2, 8) across the south-facing ledge [Turns 27140-27143]. Visual corridor extends from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), and north through (5, 5..4); candidate connection to Northern Terrace via Column 5 remains an active hypothesis until physically verified. Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8 (blocked from south).
+- Ladder (0, 6): Cave ladder visually sighted at (0, 6) from (1, 8) and (2, 8) across the south-facing ledge [Turns 27140-27143]. Visual corridor extends from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), and north through (5, 5..4). Access route from other floors remains an unverified hypothesis until physically tested. Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8 (blocked from south).
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
