@@ -8,7 +8,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
-- Money: ¥65981 [Turn 28845]
+- Money: ¥67481 [Turn 28927]
 - Pokédex: 18 Caught / 127 Seen
 
 ## Milestones
@@ -214,7 +214,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥65981 [Turn 28845]
+- ¥67481 [Turn 28927]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
@@ -223,7 +223,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 28245]
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 28245]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -1624,7 +1624,7 @@
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
 - Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
-- Pokémaniac at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Intro: 'Wow, are you a POKéMANIAC too? Want to see my collection?'. Team: Rhyhorn Lv 30 (defeated Turn 28923), [Pokemon 2].
+- Pokémaniac at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Intro: 'Wow, are you a POKéMANIAC too? Want to see my collection?'. Defeat: 'Humph. I'm not angry!'. Team: Rhyhorn Lv 30, Lickitung Lv 30. Prize: ¥1500. Defeated Turn 28927.
 
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
