@@ -167,7 +167,6 @@
 # Inventory Log
 
 ## Bag Items (Empirically Verified Turns 28749-28750)
-- HM02 (FLY) [Key Item - Obtained Turn 28787]
 1. POKé FLUTE [Key Item]
 2. MAX POTION x 1
 3. REVIVE x14
@@ -178,7 +177,7 @@
 (Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x2, CARBOS x1, HP UP x1, HM02)
 
 ## Inventory Capacity
-- Active Bag Items: 12 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -4435,13 +4434,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Un-traversed tiles of Zapdos chamber to be confirmed upon return.
 - Dig executed on Turn 28686 to Cerulean City Pokémon Center.
 - Active Plan:
-  1. Traverse south along Route 5 through Saffron City North Gatehouse.
-  2. Cross Saffron City to West Gatehouse, enter Route 7, and reach Celadon City.
-  3. Proceed west onto Route 16, cut northern tree, and obtain HM02 FLY from secret house.
-  4. Teach HM02 FLY to Farfetch'd (DUX) [COMPLETED Turn 28797 - DUX learned FLY into Slot 4!].
-  5. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (funds: ¥107,981).
-  6. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.
-  7. Re-enter Power Plant, walk directly to Zapdos at (4, 9), SAVE game, and capture!
+  1. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (funds: ¥107,981).
+  2. Fly back to Cerulean City, traverse Route 9 and Route 10 canal via Surf.
+  3. Re-enter Power Plant, walk directly to Zapdos at (4, 9), SAVE game, and capture!
 
 
 <hr>
@@ -4556,7 +4551,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Tree Line: Solid forest trees along row 9 across cols 30..33 and cols 35..39 [Audited Turn 28769].
 - Cuttable Tree (34, 9) [Audited Turn 28769]: Chopped down by DUX on Turn 28775, clearing passage from row 10 north through (34, 9) and (34, 8) onto the northern highway (rows 6..7).
 - Northern Highway (Rows 6..7, Cols 30..35+) [Audited Turn 28776]:
-  - 2-tile wide paved roadway spanning rows 6..7, clear of wild encounters, heading continuously west.
+  - 2-tile wide paved roadway spanning rows 6..7, paved roadway (encounter rate unverified), heading continuously west.
   - Bounded south by lawn at row 8 and tree line at row 9.
   - Bounded north by a tall grass field spanning cols 30..35+ at rows 3..5.
   - Accessed via the cleared Cut tree at (34, 9) and lawn at (34, 8) [Traversed Turn 28776].
@@ -4580,7 +4575,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - West Gatehouse Exit: Emerges at (17, 4) facing Left from gatehouse door at (18, 4..5).
   - Paved Corridor (Rows 4..5, Cols 12..17): 2-tile wide pale mint roadway running west toward the Secret House.
   - North Boundary: Green lawn at rows 2..3 fronted by stone fence posts at row 1.
-  - South Boundary: Green lawn at rows 6..7 separating corridor from lower Cycling Road (row 8+).
+  - South Boundary: Green lawn at rows 6..7 separating corridor from lower roadway (row 8+).
 
 - Secret House (Cols 6..9, Rows 2..5) [Audited Turn 28782]:
   - Small cottage located north of the paved corridor.
