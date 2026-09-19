@@ -22,6 +22,11 @@
 - Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Stand directly adjacent at (4, 8) and SAVE before pressing 'A'!
 
+- Remaining Odds & Decision Boundary:
+  - Un-statused Ultra Ball catch probability at ~65% HP: ~1.63% per throw.
+  - Cumulative catch probability for remaining 15 balls: 1 - (1 - 0.0163)^15 = ~21.9%.
+  - Decision Boundary: Hard stop at 0 Ultra Balls -> Reload manual save at (4, 8).
+
 ## Tactical Combat & Capture Protocol [Overhauled Turn 28921]
 - Speed & Survival Audit:
   - Wild Zapdos Lv 50 Speed stat: ~115-130. Level 9 Drowzee (SANDMAN) Speed: ~18, HP: 30. Zapdos outspeeds Drowzee 100% and lethal Drill Peck (80 base + STAB) deals 380+ damage, guaranteeing an instant one-shot knockout before Hypnosis can execute. DO NOT switch Drowzee in raw against an active, unsilenced Zapdos!
@@ -34,9 +39,7 @@
   - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
 
 ## Active Execution Plan
-1. [x] Defeat Pokémaniac on approach lawn and enter Power Plant front door at (6, 39) [Turn 28928].
-2. [x] Follow surveyed transit route through Power Plant via (15, 11) gateway to (12, 7) [Turn 28979].
-3. [x] Ascended to Row 3, traversed northern foyer, entered doorway at (4, 6), and arrived at (4, 8) facing Zapdos [Turn 28991].
-4. [x] Executed manual SAVE directly in front of Zapdos at (4, 8) [Turn 28993].
-5. [x] Swift delivered! Zapdos chipped to ~65% HP. Mewtwo at 219/234 HP [Turn 28996].
-6. Throwing Ultra Balls from 33-ball stockpile until Zapdos is caught! [ACTIVE]
+- Ball Expenditure & Stockpile: 22 Ultra Balls expended across Turns 29000-29067; 15 Ultra Balls remaining.
+- Combat Loop: OMEGA tanks at 234/234 HP. Dismiss text, select ITEM, and throw Ultra Balls continuously.
+- Health Fail-Safe: Execute Recover (PP 13/20) whenever HP drops below 140.
+- Reload Contingency: If all 15 remaining Ultra Balls fail without capture (stockpile reaches 0), immediately soft reset and reload manual save from Turn 28993 at (4, 8) to restore full 37-ball supply.
