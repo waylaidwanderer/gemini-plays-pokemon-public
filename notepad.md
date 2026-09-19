@@ -1625,6 +1625,11 @@
 - Canal Turn: Located at (16, 3), where the northern river turns 90 degrees south into the eastern canal [Turn 28528].
 - Eastern Canal (Cols 16..17, Rows 4..50+): Continuous 2-tile wide north-south water canal heading south toward the Power Plant. Bounded on the west by stone bollards along Column 15 and on the east by continuous mountain cliffs along Column 18+. Traversed south past (16, 8) [Turn 28531].
 
+## Power Plant Exterior (Audited Turn 28540)
+- Location: Southwest peninsula of Route 10 at cols 2..8, rows 34..46.
+- Power Plant Building: Facade across rows 38..39 with yellow windows. Front entrance door located at (6, 39).
+- Exterior Signpost: Located at (5, 41) on the front lawn.
+- Approach Lawn: Open green lawn spanning cols 2..7, rows 40..45, accessible directly from the southern water channel at (2, 46).
 
 <hr>
 
