@@ -16,8 +16,3 @@
    - 1F (7, 1) <-> 2F (9, 1) [2-way confirmed]
    - 1F (3, 11) <-> 2F (3, 11) [2-way confirmed]
    - Unverified Candidate: 1F (0, 6) and 2F (1, 3) [Neither stepped on; correlation is a working hypothesis]
-
-## Working Hypothesis: Westward Gateway Survey
-- Hypothesis: Testing whether Lower Southwest Network (Cols 4..13, Rows 13..17) has any unverified breach into Columns 0..2 to access the northwest enclave.
-- Counter-Evidence & Collision Audits: Previous physical tests recorded solid boundaries at (4, 13), (0..1, 14), (2, 15), and (3..5, 16).
-
