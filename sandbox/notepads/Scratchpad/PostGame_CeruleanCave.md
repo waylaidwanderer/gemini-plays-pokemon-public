@@ -6,7 +6,7 @@
    - Sector A: Only (3, 4) was tested [Turn 27545]. Row 4 (Cols 4..8) remains unverified and is the primary candidate corridor to Northwest Enclave. Column 2 is solid rock. Boulder (8, 5) separates Row 5 West from East.
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
 2. 1F Layout & Boundary Audits:
-   - Western Terrace: Bump-test confirmed (0, 8) is solid rock [Turn 27805], (1, 8) Up is blocked by south-facing jump ledge [Turn 27806]. Visual audit of entire 1F Northwest sector (Cols 0..6, Rows 4..12) confirms Northwest Corridor is 100% enclosed on 1F with zero walkable ground/water entrance. Ladder (0, 6) is an ascending ladder connecting to 2F, and the one-way ledge at Row 7 is exclusively an exit.
+   - Western Terrace: Bump-test confirmed (0, 8) is solid rock [Turn 27805], (1, 8) Up is blocked by south-facing jump ledge [Turn 27806]. Visual audit of entire 1F Northwest sector (Cols 0..6, Rows 4..12) confirms Northwest Corridor is 100% enclosed on 1F with zero walkable ground/water entrance. Ladder (0, 6) destination remains unverified (candidate descent to B1F or ladder to 2F), and the one-way ledge at Row 7 is exclusively an exit.
    - Eastern Corridor (Cols 27..28, Rows 12..16): Decorative basin enclosed by Row 12 cliff (tested from water Turn 27615), Pillar 26, and cave walls. Zero ladders.
    - Waterways: 100% surveyed. Boundary (7, 6) is solid rock wall [Turn 27568].
 3. Ladder Pairings (6 Pairs):
