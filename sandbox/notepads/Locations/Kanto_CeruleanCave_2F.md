@@ -42,7 +42,7 @@
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9). Connects west via (3, 10) -> (2, 10) -> (2, 11) -> (3, 11) loop.
   - Bump Tests & Boundaries: Physical collision tests confirmed (3, 8) [Turn 26973], (2, 9) [Turn 26973], and (1, 10) [Turn 27321] are solid rock walls. Tile (1, 10) blocks passage west from (2, 10) into Column 1.
-  - Visual Sightings (Unverified Hypotheses): From (2, 10) and (3, 9), floor-like tiles are visually sighted on Row 7 (Cols 1..7), Row 6 at (6, 6), and Row 8 at (1, 8). Row 8 tiles (5..8, 8) visually appear as rock wall boulders.
+
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]

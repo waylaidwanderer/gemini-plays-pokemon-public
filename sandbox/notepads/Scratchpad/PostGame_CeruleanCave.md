@@ -12,11 +12,11 @@
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (5, 2) on Northern Terrace.
+- Verified 1F Boundaries: Physical bump test from (5, 2) confirmed (5, 3) is solid rock wall [Turn 27478].
 - Active Plan:
-  1. Walk Right x6 along Row 1 onto Ladder (9, 1) to descend to 1F Northern Terrace at Ladder (7, 1).
-  2. Walk south to (7, 2) and west to (5, 2) on 1F Northern Terrace.
-  3. Directionally test stepping South into (5, 3) and (6, 3) to locate the passage into the Ladder (0, 6) corridor.
-  4. Reach Ladder (0, 6), ascend to 2F Ladder (1, 3), traverse NW Enclave, and locate the B1F descent to capture Mewtwo.
+  1. Directionally bump-test western boundary of 1F Northern Terrace along Column 4 at (4, 2), (4, 1), and (4, 0).
+  2. If Column 4 is completely solid, the Northern Terrace is verified as containing strictly Staircase (15, 3) and Ladder (7, 1).
+  3. Determine the true access route to Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
