@@ -40,24 +40,25 @@ def walk_to_target(target_x, target_y):
             step("Up")
     return False
 
-print("Starting route from:", mgba.get_coordinates())
+print("Starting route to Ladder A from:", mgba.get_coordinates())
 
-# Segment 1: (21, 4) -> (22, 4) -> (22, 2) -> (21, 2) -> (21, 1) -> (21, 0)
-walk_to_target(22, 4)
-walk_to_target(22, 2)
-walk_to_target(21, 2)
-walk_to_target(21, 0)
+# Segment 1: (5, 3) -> (9, 3) -> (9, 5) -> (16, 5)
+walk_to_target(9, 3)
+walk_to_target(9, 5)
+walk_to_target(16, 5)
 
-# Segment 2: Walk East along Row 0 to (24, 0) -> (27, 0) -> (29, 0)
-walk_to_target(24, 0)
-walk_to_target(27, 0)
-walk_to_target(29, 0)
+# Segment 2: (16, 5) -> (16, 7) -> (18, 7) -> (18, 9)
+walk_to_target(16, 7)
+walk_to_target(18, 7)
+walk_to_target(18, 9)
 
-# Segment 3: Ascend down Eastern Corridor (29, 0) -> (29, 6) -> (27, 6) -> (25, 7) -> (29, 8)
-walk_to_target(29, 6)
-walk_to_target(27, 6)
-walk_to_target(27, 7)
-walk_to_target(25, 7)
-walk_to_target(29, 8)
+# Segment 3: Sprint West along Row 9 all the way to Column 0 at (0, 9)
+walk_to_target(0, 9)
 
-print("Pos after reaching Eastern Corridor (29, 8):", mgba.get_coordinates())
+# Segment 4: Ascend Column 0 North to (0, 3)
+walk_to_target(0, 3)
+
+# Segment 5: Step Right onto Ladder A at (1, 3)!
+step("Right")
+
+print("Final position:", mgba.get_coordinates())
