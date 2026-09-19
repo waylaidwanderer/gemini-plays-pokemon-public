@@ -4565,8 +4565,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Surfed East across Route 20 and defeated Swimmer at (38, 13) [Turn 29315]
 - [x] Entered Seafoam Islands 1F via western entrance at (26, 17) [Turn 29323]
 - [x] Activated HM04 Strength with Geodude (ROCKY) on 1F [Turn 29326]
-- [ ] Systematically map 1F corridors and locate boulders and pit holes
-- [ ] Locate and verify pushable boulders and pit holes
+- [x] Descended Ladder 1 at (23, 15) from 1F down to B1F [Turn 29335]
+- [ ] Survey B1F layout, activate Strength upon locating boulders, and identify pit holes
 - [ ] Execute boulder puzzle to stop subterranean water currents
 - [ ] Navigate to Articuno's chamber on lowest floor and capture Articuno (Lv 50) with Ultra Ball
 
@@ -4642,9 +4642,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Col 20 dividing rock wall extends rows 2..9 and 12..15.
 - Central Subterranean Waterway [Audited Turn 29184]:
   - Open water canal spanning cols 15..23, rows 8..11 (and cols 18..19, rows 6..7).
-  - (18, 10) is open water, NOT a boulder (prior sighting audited as water tile).
-  - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
-  - Western Dock: Wooden stairs at (15, 7) exits water onto dry floor at (15, 6), accessing unexplored western half of 1F (cols 0..15).
+    - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
+  - Central Waterway: Water canal spanning cols 15..23, rows 8..11, leading into rapid subterranean current.
 
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
@@ -4757,13 +4756,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Key Landmarks & Layout
 - Arrival Tile / Ladder Warp: (23, 15).
-- Ladder (Ascending): Located at (25, 11) [Sighted Turn 29336]. Leads up to 1F.
 - Ladder (West): Located at (19, 15) [Sighted Turn 29336].
 - Southeast Chamber: Open floor spanning cols 21..27, rows 11..15. Bounded east by col 28 rock wall and south by row 16 rock wall.
 - Northern Corridors: Chamber opens north past row 11 into main B1F puzzle chambers.
-
-## Boulders & Pit Holes
-- To be surveyed.
 
 ## Wild Encounters
 - Shellder [Encountered Turn 29338].
