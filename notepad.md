@@ -4369,6 +4369,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Row 16 spans (2..7, 16) open floor. Boulder (8, 16) blocks eastward continuation along Row 16.
     - Northern Bypass to Staircase: from (6, 16), step north through (6, 15) into Row 14 at (6, 14), then east through (7..9, 14).
     - Staircase (9, 13): 1-tile wide wooden staircase at (9, 13) ascending north from southern floor at (9, 14) onto the central purple cavern floor at (9, 12)!
+  - Staircase (13, 13): 1-tile wide wooden staircase at (13, 13) descending south toward the subterranean lake at (13, 14).
+  - Main Subterranean Lake: Confirmed water expanse spanning Columns 12..14+ across Rows 14..17+, accessible via Staircase (13, 13) and waterways!
+  - Central Purple Cavern Thoroughfare: Column 9 runs north from Staircase (9, 13) through (9, 12), (9, 11), and (9, 10) into the central chamber.
     - Row 17 open floor at (3..6, 17); boulders block (2, 17) and (7..9, 17).
     - Southern cave boundary wall confirmed at Row 18 (Cols 0..9+).
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
