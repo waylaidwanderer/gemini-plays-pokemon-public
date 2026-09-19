@@ -48,3 +48,9 @@
 - Lower Corridor (Cols 42..61, Rows 14..15): Bounded by row 13 south-facing ledge to the north. Walkable red flower bed at cols 42..47, open grass at cols 48..61.
 - Row 8 Bypass: Open grass path at row 8 bypassing the col 62 tree line (which only blocks rows 9..15).
 - Lower Corridor Boundaries: Solid rock wall at col 41; solid water/shoreline at row 16; column 75 tree line extends rows 9..13 only (rows 14..15 are completely open grass connecting the bridge pocket to the western lower corridor).
+## Route 4 Rest House Interior (Door at 5, 5)
+- Entrance Mat: (2..3, 7). Exits south to Route 4 courtyard at (5, 6).
+- PC: Located at (3, 1) on northern wall.
+- Waiting Table: (3..4, 4..5) wooden table with flowers and surrounding chairs.
+- Magikarp Salesman: NPC sitting at (5, 4).
+- Note: This building contains a PC terminal and rest area, but NO Nurse Joy healing counter.
