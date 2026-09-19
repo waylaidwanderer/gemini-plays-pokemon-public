@@ -4169,8 +4169,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F at (22, 3) on foot, advancing west along Row 3 toward Candidate Ladder (1, 3).
 - Active Strategy & Frontier:
-  - [x] Master Topological Deduction [Turn 26193]: Ladders (22, 6) and (29, 1) on 2F are BOTH verified isolated pockets! Ladder (19, 7) (accessed via 1F Ladder 18, 9) is the EXCLUSIVE gateway to 2F northern corridors and Candidate Ladder (1, 3).
-  - Master Plan: Backtrack via Ladder (22, 6) to 1F (23, 7), surf to Staircase (11, 13) on Central-Western Terrace, ascend Ladder (18, 9) to 2F Ladder (19, 7), and enter the northwest sector to reach Candidate Ladder (1, 3) and B1F!
+  - [x] Master Topological Deduction [Turn 26248]: Ladders (22, 6), (29, 1), and (19, 7) are ALL verified isolated pockets on 2F! Candidate Ladder (1, 3) must be accessed via Western Ladder (3, 11).
+  - Master Plan: Backtrack via Ladder (19, 7) to 1F (18, 9), walk down to 1F lower corridor (Row 17) to Western Terrace, ascend Ladder (3, 11) to 2F, and explore north along Column 3 toward Candidate Ladder (1, 3)!
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
@@ -4302,5 +4302,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Corridor Discoveries [Turn 26242]
 - Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24! [Visually verified Turn 26242]
+
+## Master Floor Topology
+- Ladder (19, 7) Isolated Pocket (Verified Turn 26248): Ladder (19, 7) connects strictly to an enclosed network: (19, 5..7), (20..22, 3..5), (20..24, Rows 0..2), (24, 3..5), and (25..27, 4 dead end). Bounded on all sides by solid rock walls. ZERO ground connection to the rest of 2F!
+
 
 <hr>
