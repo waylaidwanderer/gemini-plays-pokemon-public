@@ -37,3 +37,8 @@
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 27..29, Rows 0..6) |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 19..27, Rows 0..7) |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
+
+- MAJOR BREAKTHROUGH [Turn 26417]: Visual evidence at (21, 4) reveals (25, 3..5) and (26, 3..5) are WIDE OPEN FLOOR!
+  - The old claim that Column 24 dead-ended against rock wall (25, 5) is completely DISPROVEN.
+  - Ladder (19, 7) connects seamlessly via (22, 2..4) -> (24..26, 3..5) directly into Column 26 and the Northern Chamber!
+  - Active Route: Advance from (21, 4) -> (22, 4..2) -> (24, 2) -> (26, 3) to enter Column 26 / Northern Chamber!

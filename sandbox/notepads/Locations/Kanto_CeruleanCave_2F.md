@@ -59,7 +59,7 @@
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
 - Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
-- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4) and dead-ends against rock walls (27, 3), (28, 4), and (27, 5) [Verified Turn 25768, 26135]. Tile (27, 3) and (28, 4) are solid rock walls. Ladder (29, 1) connects via (28, 1..3) east directly into Column 29 at (29, 3).
+- Column 24-26 Open East-West Transit: Empirically verified Turn 26417 that (25, 3..5) and (26, 3..5) are OPEN SPECKLED FLOOR! Column 24 connects seamlessly east through Column 25 into Column 26, linking the Ladder (19, 7) sector directly into the entire Northern Chamber and Eastern 2F network! Prior claims that (25, 5) was a solid rock wall are completely DISPROVEN.
 
 ## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
@@ -71,3 +71,5 @@
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
+
+- Tile (21, 3): Empirically verified solid rock wall blocking direct northbound access from (21, 4) [Turn 26417]. Passage to Row 2 bypasses east via (22, 4) -> (22, 3..2).
