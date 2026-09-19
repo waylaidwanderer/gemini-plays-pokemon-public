@@ -4169,6 +4169,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Central Network |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Eastern/Northern Sector |
+| (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Northern Corridor |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
 | (0, 6) | (1, 3)? | TARGET ROUTE | 1F (7, 1) connects west along northern terrace to 1F (0, 6) descent to B1F |
 
@@ -4234,6 +4235,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Directly accessible from (8, 1) stepping East. Visually confirmed with blue ladder rungs [Turn 26646]. Connects to 1F.
 - Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south. [Verified Turns 26594, 26599]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
