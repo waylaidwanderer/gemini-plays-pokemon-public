@@ -28,5 +28,5 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Traverse Row 16 East Highway: (2, 16) -> (7, 16) to reach the central lower cavern and main subterranean lake. [ACTIVE]
-  2. Launch Surf on lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
+  1. Navigate to Staircase (9, 13): (4, 16) -> (6, 16) -> (6, 14) -> (9, 14) -> Staircase (9, 13) to ascend onto central purple cavern floor. [ACTIVE]
+  2. Launch Surf on subterranean lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
