@@ -9,6 +9,7 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Row 7 Southern Highway & Column 0 Passage (Cols 0..9, Rows 3..7): Column 9 connects Row 3 at (9, 3) south through (9, 4..7) to Row 7 Highway. Row 7 is a continuous horizontal thoroughfare from (9, 7) west to Column 0 at (0, 7). Column 0 runs north from (0, 7) through (0, 6..3), directly accessing Ladder (1, 3) from (0, 3) facing East. (7, 4) empirically verified solid rock [Turn 26557]. [Visually and physically verified Turn 26558]
 - Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Contains NO ladders ((7, 1) and (9, 1) confirmed ordinary floor). Bounded south by solid rock wall at Row 3. [Physically verified Turns 26535-26544]
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
