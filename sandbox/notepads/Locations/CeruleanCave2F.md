@@ -12,7 +12,11 @@
 5. **SW Ladder**: Located at (3, 11) <-> 1F (3, 11). Entrance to Southwest Sector.
 6. **Ladder A (to B1F Mewtwo)**: Descending ladder to B1F located in western corridor at (1, 3).
 
-## Verified Sector Structure
-- Southwest Sector (SW Ladder 3, 11): Contains horizontal corridors at Row 9 (3..20, 9) and Row 11 (5..24, 11), with southern maze (Rows 12-15).
-- East Sector (Ladder B 22, 6 / Ladder C 19, 7): Column 23 connects (23, 11) up to (23, 5).
-- Northwest Sector (Ladder E 9, 1): Spans rows 1-5, cols 3-9. Isolated by solid rock barriers along Column 2 and Row 4; does NOT connect to Ladder A. Access to Ladder A (1, 3) requires SW Ladder (3, 11) via 1F.
+## Verified Sector Structure & Navigation
+- **Southern Highway (Row 17)**: Spans across rows 17-18 connecting southwest sector to eastern sector (cols 15-27). Central bypass around rocks at (19, 15) connects via (19, 13) -> (22, 13) -> (22, 15) -> (21, 15) -> (21, 17) -> (27, 17).
+- **East Sector & Northeast Loop**:
+  - From (27, 17), ascend via (28, 16..14) -> (26, 14..9) -> (25, 9..7) -> (27..29, 6) -> (29, 5..3).
+  - From (29, 3), traverse west via (27..26, 3) -> (26, 4) -> (25, 4) -> (24, 4).
+  - From (24, 4), ascend to Row 2 -> (22, 2) -> (22, 3..5) -> (19, 5) -> (19, 6) -> (19, 7) Ladder C!
+- **Northwest Sector (Ladder E 9, 1)**: Spans rows 1-5, cols 3-9. Isolated by solid rock barriers along Column 2 and Row 4; does NOT connect to Ladder A.
+- **Southwest Sector (SW Ladder 3, 11)**: Reached via 1F Central Corridor (Ladder C 18, 9 -> hop ledge 17, 15 -> walk west to SW Ladder 3, 11). Connects directly to Ladder A (1, 3) for Mewtwo.
