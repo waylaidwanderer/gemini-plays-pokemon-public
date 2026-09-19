@@ -57,3 +57,4 @@
 - Southern Bypass Avenue (Rows 27..29, Cols 10..17) [Audited Turn 28613]: Row 28-29 is an open avenue connecting cols 10..17 beneath the column 14-15 obstacles. Column 16 connects north through row 27 into the Row 26 eastern highway.
 - Trap at (26, 28) [Cleared Turn 28630]: Voltorb Lv 40 trap. Interacted from (25, 28) facing East; fled safely. Trap entity permanently despawned; tile (26, 28) is now clear floor.
 - Item Ball 8 at (26, 32) [Sighted Turn 28627]: Visible at (26, 32) in southern machine corridor, bounded west by (25, 32) and east by terminal at (27, 32). Identity unverified.
+- South Wrap to Outer Eastern Corridor [Audited Turn 28636]: Row 27 connects east to (36, 27). Column 36 connects north through (36, 25..24). Tile (37, 24) connects directly into the outer eastern corridor (cols 37-38), running continuously north to row 14.
