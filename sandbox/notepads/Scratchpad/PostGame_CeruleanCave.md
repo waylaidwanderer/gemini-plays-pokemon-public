@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (1, 12) in wild battle with Venomoth.
+- Current Location: Cerulean Cave 1F at (1, 12) in battle exit screen ('Got away safely!').
 - Active Strategy & Frontier:
   - [x] Master Topological Deduction [Turn 26248]: Ladders (22, 6), (29, 1), and (19, 7) are ALL verified isolated pockets on 2F! Candidate Ladder (1, 3) must be accessed via Western Ladder (3, 11).
   - Master Plan: Backtrack via Ladder (19, 7) to 1F (18, 9), walk down to 1F lower corridor (Row 17) to Western Terrace, ascend Ladder (3, 11) to 2F, and explore north along Column 3 toward Candidate Ladder (1, 3)!
