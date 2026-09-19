@@ -4615,7 +4615,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Infiltrate Seafoam Islands 1F via western entrance at (58, 9) to (26, 17) [Turn 29159]
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
 - [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
-- [ ] Navigate northern corridor (rows 7..8) west to boulder at (18, 10)
+- [x] Survey 1F: confirmed wooden stairs at (23, 9) ascends to elevated plateau containing boulder (18, 10) [Turn 29178]
+- [ ] Ascend stairs at (23, 9) and walk West along row 10 to boulder at (18, 10)
 - [ ] Cast Strength with Geodude (ROCKY) and push boulder (18, 10) into hole
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
@@ -4708,5 +4709,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Upper corridor at rows 3..4 across cols 21..28 with ladder at (25, 3..4).
   - Dividing horizontal rock wall at row 5 across cols 20..28.
   - Mid corridor at row 6 passes west through (20, 6) into western boulder chamber (cols 17..19, rows 6..15) [Verified Turn 29177].
+- Elevated Plateau & Boulder Access [Audited Turn 29178]:
+  - Col 20 is solid rock wall from row 2 down to row 9.
+  - Wooden stairs at (23, 9) connects northern floor at (23, 8) south onto elevated plateau at row 10.
+  - Elevated plateau at row 10 spans continuously from col 23 west through col 17.
+  - Boulder at (18, 10) rests directly on this plateau; approached from (23, 10) walking West along row 10 to (19, 10).
 
 <hr>
