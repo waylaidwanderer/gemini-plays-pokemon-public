@@ -21,4 +21,4 @@
   - Row 1: Wall structure blocks columns 12..18.
   - Columns 10..11: Open 2-tile road corridor leading directly north into Viridian City.
 ## Verified Navigation Corridors (Turn 28319)
-- Row 27-28 Ledge Bypass: Row 27 ledge spans columns 10..17. Columns 6..9 at row 28 are tall grass (passable, triggers wild encounters). Route north: from (10, 28), step west to (9, 28) tall grass, then (8, 28), then north into row 27 open road at (8, 27).
+- Row 27-28 Ledge Bypass: Row 27 ledge spans columns 10..17. Tile (9, 28) is verified tall grass (passable, wild Rattata encountered Turn 28319). Columns 6..8 at row 28 remain to be empirically tested.
