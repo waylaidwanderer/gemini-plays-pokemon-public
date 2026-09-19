@@ -4151,13 +4151,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (3, 11) on Western Terrace.
+- Current Location: Cerulean Cave 1F at (11, 9) on Central-Western Terrace.
 - Active Plan:
-  1. Descend Staircase (1, 13) to Row 17 at (2, 17).
-  2. Follow Row 17 east to landing (17, 16) and ascend Staircase (17, 15) to Central-Western Terrace.
-  3. Bypass rock barrier via Column 18 to Staircase (11, 13) and Surf east across water to Entrance Cavern.
-  4. Navigate to Wooden Staircase & Terrace at (21, 11) in Entrance Cavern.
-  5. Ascend Staircase (21, 11) onto the unexplored elevated terrace at (21..22, 10) and survey for B1F descent to reach Mewtwo.
+  1. Descend Column 11 south through (11, 10..12) to Wooden Staircase at (11, 13).
+  2. Use Surf from Staircase (11, 13) into the subterranean waterway at (11, 14).
+  3. Surf east across the subterranean waterway to Entrance Cavern / Staircase (25, 9).
+  4. Navigate to Wooden Staircase (21, 11) in Entrance Cavern.
+  5. Ascend Staircase (21, 11) onto the elevated terrace at (21..22, 10) to physically survey and collision-test its boundaries and connections.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
