@@ -3,8 +3,9 @@
 ## Quest Objectives & Routing
 - [x] Exit Power Plant via Diglett's Dig to Cerulean City [Turn 29085]
 - [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
-- [ ] Fly to Fuchsia City (or Cinnabar Island)
-- [ ] Surf Route 19 south to Route 20, or Route 20 east from Cinnabar Island
+- [ ] Exit Indigo Plateau building to outdoor entrance
+- [ ] Fly to Cinnabar Island
+- [ ] Surf Route 20 east to Seafoam Islands
 - [ ] Infiltrate Seafoam Islands (Route 20)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
