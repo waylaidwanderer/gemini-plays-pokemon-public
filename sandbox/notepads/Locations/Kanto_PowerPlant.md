@@ -49,3 +49,6 @@
 - Row 14 Highway: Wide continuous open horizontal hallway spanning cols 28..38 above row 15 wall, connecting to outer eastern corridor (cols 37-38).
 - Gateway at (30..31, 13): 2-tile wide open north-south passage through row 13 wall connecting row 14 to row 12 concourse.
 - Row 12 Concourse: Open horizontal avenue running west towards the northern chambers.
+## Sector 4 Audit Findings & Loop Geography
+- Terminal Hall Dead-End Confirmed [Turn 28606]: Columns 34-35 terminate at row 22 against row 23 wall. No southern passage from cols 34-35 to row 25.
+- Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
