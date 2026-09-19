@@ -5,7 +5,7 @@
 - East: Route 10 (leading to Rock Tunnel & Pokémon Center; Route 9 (59, 8) <-> Route 10 (0, 8) [Turn 4517]).
 
 ## Geography & Layout
-- Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south). Tile (5, 8) is the Cut tree blocking Route 9 (cleared Turn 4085, re-cleared with DUX on Turns 28496, 28886).
+- Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south). Tile (5, 8) is the Cut tree blocking Route 9.
 - Main Highway (Rows 10..11): Wide open gravel avenue spanning east from col 20.
 - Western Pocket / Southern Highway (Rows 14..15): Gravel corridor spanning cols 10..23 with TM30 Teleport at (10, 15) and Hiker Jeremy at (15, 15).
 - Tile (19, 13) Ramp: Walkable ramp connecting southern highway (rows 14-15) north into row 12 and main highway [Turn 4146].
