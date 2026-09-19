@@ -1,7 +1,7 @@
 # Post-Game: Cerulean Cave & Mewtwo Investigation
 
 ## Hypotheses to Empirically Verify
-- Hypothesis 2: Legendary Pokémon Mewtwo resides within Cerulean Cave B1F at Level 70.
+- Hypothesis 2: Legendary Pokï¿½mon Mewtwo resides within Cerulean Cave B1F at Level 70.
 
 ## Post-Game Routing Plan: The True Mewtwo Highway
 1. Reconstruct topology: 1F and 2F each possess exactly 6 ladders. Five pairs are verified 2-way connections. The 6th pair is 1F (0, 6) <---> 2F (1, 3).
