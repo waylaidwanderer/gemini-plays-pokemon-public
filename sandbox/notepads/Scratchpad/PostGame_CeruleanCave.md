@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 9) on Central-Western Terrace heading East to Ladder (18, 9).
+- Current Location: Cerulean Cave 2F at (19, 7) heading north up Column 19 toward Row 2.
 - Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
   2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
