@@ -30,14 +30,24 @@
 - Northern Corridor Sighting (Row 11, Cols 11..16): Visually sighted from afar at (11, 15); open tiles visible above row 12 wall, unvisited and unverified until traversed.
 - Eastern Junction (Cols 15..19, Rows 20..22): Open gap at (15, 21) connects into columns 16-17. Green machinery monitors at (18..19, 21) split corridor into northern avenue (row 20) and southern avenue (row 22). Rubble at (16..17, 18) blocks direct northward travel.
 
-## Sector 4: Computer Terminal Hall & Eastern Avenue (Rows 16..24, Cols 18..36)
+## Sector 4: Computer Terminal Hall & Eastern Avenue (Rows 16..24, Cols 18..38)
 - Terminal Concourse (Row 20, Cols 18..33): Open horizontal concourse bounded north by green computer terminals (rows 17-19) and south by terminals (row 21).
 - Parallel Southern Concourse (Row 22, Cols 18..33): Open horizontal concourse south of row 21 terminals.
 - Row 16 Avenue (Cols 24..35): Open horizontal avenue running east above the monitor bank.
 - Eastern Avenue (Cols 34..35, Rows 16..22+): Wide 2-tile open vertical concourse along the eastern perimeter connecting rows 16, 18, 20, and 22.
+- Terminal Hall Dead-End Confirmed [Turn 28606]: Columns 34-35 terminate at row 22 against row 23 wall. No southern passage from cols 34-35 to row 25.
+- Southern Chute (Cols 9..11, Rows 21..24) [Audited Turn 28611]: Open passage south through (9..10, 22) into row 23 corridor (cols 8..11), connecting south through (11, 24) to the southern highway (rows 24-26).
+- Southern Bypass Avenue (Rows 27..29, Cols 10..17) [Audited Turn 28613]: Row 28-29 is an open avenue connecting cols 10..17 beneath the column 14-15 obstacles. Column 16 connects north through row 27 into the Row 26 eastern highway.
+- South Wrap to Outer Eastern Corridor [Audited Turn 28636]: Row 27 connects east to (36, 27). Column 36 connects north through (36, 25..24). Tile (37, 24) connects directly into the outer eastern corridor (cols 37-38), running continuously north to row 14 highway.
+- Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
 
 ## Sector 5: Northern Enclosed Chamber (Zapdos Sighting)
 - Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Separated from western approach by solid wall at row 12.
+
+## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
+- Row 14 Highway: Physically traversed across cols 34..38 [Turn 28638]. Wide continuous open horizontal hallway connecting outer eastern corridor (cols 37-38) west across (36, 14).
+- Gateway at (30..31, 13) [Traversed Turn 28640]: 2-tile wide open north-south passage through row 13 wall connecting Row 14 Highway to Row 12 Concourse.
+- Row 12 Concourse [Traversed Turns 28641, 28647]: Open horizontal avenue running across cols 26..38 north of row 13 wall.
 
 ## Item Balls & Traps Audit
 - Trap at (9, 20) [Cleared Turn 28573]: Voltorb Lv 40 trap. Fled safely; item ball permanently despawned, tile (9, 20) is now empty floor.
@@ -46,16 +56,6 @@
 - Item Ball 4 at (21, 14) [Sighted Turn 28599]: Visible at (21, 14) south of twin-dial generator at (21, 13) and west of vertical wall at (22, 13..15). Accessible from south/west. Identity unverified.
 - Trap at (21, 25) [Cleared Turn 28625]: Voltorb Lv 40 trap. Interacted from (21, 26) facing North; fled safely. Trap entity permanently despawned; tile (21, 25) is now clear floor.
 - Item Ball 6 at (20, 32) [Sighted Turn 28616]: Visible at (20, 32) in southern machine corridor, south of generator at (20, 31). Accessible from west via (18..19, 32). Identity unverified.
-## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 28..38)
-- Row 14 Highway: Physically traversed across cols 34..38 [Turn 28638]. Confirmed wide open horizontal highway connecting outer eastern corridor (cols 37-38) west across (36, 14).
-- Gateway at (30..31, 13): Sighted 2-tile wide gap through row 13 wall connecting row 14 toward row 12. Unverified until traversed.
-- Row 12 Concourse: Open tiles sighted north of row 13 wall heading west toward northern chambers. Unverified until traversed.
-## Sector 4 Audit Findings & Loop Geography
-- Terminal Hall Dead-End Confirmed [Turn 28606]: Columns 34-35 terminate at row 22 against row 23 wall. No southern passage from cols 34-35 to row 25.
-- Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
-- Southern Chute (Cols 9..11, Rows 21..24) [Audited Turn 28611]: Open passage south through (9..10, 22) into row 23 corridor (cols 8..11), connecting south through (11, 24) to the southern highway (rows 24-26).
-- Southern Bypass Avenue (Rows 27..29, Cols 10..17) [Audited Turn 28613]: Row 28-29 is an open avenue connecting cols 10..17 beneath the column 14-15 obstacles. Column 16 connects north through row 27 into the Row 26 eastern highway.
 - Trap at (26, 28) [Cleared Turn 28630]: Voltorb Lv 40 trap. Interacted from (25, 28) facing East; fled safely. Trap entity permanently despawned; tile (26, 28) is now clear floor.
 - Item Ball 8 at (26, 32) [Sighted Turn 28627]: Visible at (26, 32) in southern machine corridor, bounded west by (25, 32) and east by terminal at (27, 32). Identity unverified.
-- South Wrap to Outer Eastern Corridor [Audited Turn 28636]: Row 27 connects east to (36, 27). Column 36 connects north through (36, 25..24). Tile (37, 24) connects directly into the outer eastern corridor (cols 37-38), running continuously north to row 14.
 - Item Ball 9 at (28, 3) [Collected Turn 28644]: HP UP! Interacted from (28, 4) facing North. Collected into bag; tile (28, 3) is now clear floor.
