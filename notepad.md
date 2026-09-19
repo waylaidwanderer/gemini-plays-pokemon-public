@@ -4189,7 +4189,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
   - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
   - Cols 3..6: Solid rock walls at (3..6, 7).
-  - Definitive Conclusion: The Western Terrace has zero northward passage into Row 7. Ladder (0, 6) must be accessed from the north via the Northern Terrace and Column 5.
+  - Definitive Conclusion: The Western Terrace has zero northward passage into Row 7.
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
@@ -4287,7 +4287,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Eastern Row 17 Spur: Dead-end landing at (27, 17) accessed from (27, 16). Rock walls block (22..26, 17) and (28..29, 17). Tile (21, 17) is an isolated single-tile cavity enclosed by rock walls. [Visually verified Turns 26468-26475]
 - Northern Chamber Pocket (Cols 24..27, Rows 4..5): Enclosed 4x2 dead-end room accessed from (24, 2) via Column 24 (24, 3..4). Bounded north by solid rock wall at (25..27, 3), east by solid rock wall at (28, 4..5), and south by solid rock wall across Row 6 at (23..28, 6). Has ZERO passage to Row 7, Column 26, or Column 28/29. [Empirically verified Turns 26858-26860]
 - Northeast Loop & Column 29 (Cols 27..29, Rows 3..7): From (25, 7), passage leads east to (27, 7), north to (27, 6), east to (29, 6), and north up Column 29 through rows 5, 4, 3. At (29, 3), turns west into (28, 3) leading toward the northern transit corridor. [Visually verified]
-- Northwest Upper Corridors (Cols 21..24, Rows 3..5): Corridors at (24, 3..5) and (21..22, 3..5) lead west, connecting directly toward the Ladder (19, 7) sector. [Visually verified]
 - Column 26 Corridor (Col 26, Rows 9..14): 1-tile wide vertical corridor running north from Row 14 at (26, 14) to (26, 9). Bounded by solid rock walls at Col 25 (west) and Col 27 (east). At (26, 9), turns west to (25, 9) to access the northern network.
 - Column 27/28 Southeast Corridor: From (27, 17), leads north to (27, 16) where (27, 15) is blocked by rock wall. Steps east to (28, 16) and runs north along Column 28 through (28, 15) to (28, 14). [Physically verified (27, 17..16)]
 - Row 14 East-West Branch: At (28, 14), connects west to (27, 14) and (26, 14), and east to (29, 14). [Visually verified]
