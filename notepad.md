@@ -4171,9 +4171,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Flee wild Chansey and return to overworld at (1, 12).
-  2. Rigorously test local boundaries at (1, 12) and (0, 12): physically bump-test stepping Up into (1, 11) and (0, 11), Left into (-1, 12), and check for hidden items.
-  3. Determine whether (0..1, 12) is an enclosed pocket or possesses northern passability; if blocked, evaluate alternate untested connectors without jumping to unverified conclusions.
+  1. Operating on B1F: Ascend Staircase (19, 3) to (19, 2), step to (19, 1), face west, and retrieve Ground Item Ball at (18, 1).
+  2. Descend Staircase (19, 3) back to intermediate terrace (Rows 4..5).
+  3. Explore west across Rows 4..5 toward Columns 5..10 to identify tested physical descents into the lower purple cavern and subterranean waterways.
+  4. Navigate waterways to Mewtwo's platform and capture Mewtwo with the Master Ball.
+
 
 <hr>
 
