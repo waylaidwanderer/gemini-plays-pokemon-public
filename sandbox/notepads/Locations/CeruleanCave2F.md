@@ -17,5 +17,5 @@
 - **Northwest Plateau (Ladder E 9, 1)**: Spans rows 0-5, cols 3-18. Blocked from Western Corridor by rock divider at (2, 1..3) and (8, 5).
 - **Eastern Corridor (Ladder D 29, 1)**: Runs south through (29, 1..6) -> (27, 6..7) -> (25, 7..9) -> (26, 9..14) -> (28, 14..16) -> (27, 16..17).
 - **Southern Crossover (Rows 11-17)**: (27, 17) -> (21, 17) -> (21, 15) -> (22, 13) -> (17, 13) -> (17, 11) -> (16, 11).
-- **Northern Highway (Rows 2-5)**: Accessible via (29, 4) in Eastern Corridor, running west across rows 2-5 towards Western Corridor.
+- **Northeast Sector (Ladder D 29, 1)**: Connects down to 1F Northern Mainland at (27, 1). Note: (28, 4) and (29, 2) are solid barriers; movement west across the upper rows is blocked on 2F.
 - **Verified Barriers**: (20, 14..17) prevents direct westward passage along Row 17; routing requires looping through (22, 13) and Row 9.
