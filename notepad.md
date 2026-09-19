@@ -213,7 +213,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥67481 [Turn 28927]
+- ¥19481 [Turn 29106]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
@@ -4612,7 +4612,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Quest Objectives & Routing
 - [x] Exit Power Plant via Diglett's Dig to Cerulean City [Turn 29085]
-- [ ] Fly to Indigo Plateau to purchase ~40 Ultra Balls (stockpile >= 50 Ultra Balls)
+- [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
 - [ ] Fly to Fuchsia City (or Cinnabar Island)
 - [ ] Surf Route 19 south to Route 20, or Route 20 east from Cinnabar Island
 - [ ] Infiltrate Seafoam Islands (Route 20)
