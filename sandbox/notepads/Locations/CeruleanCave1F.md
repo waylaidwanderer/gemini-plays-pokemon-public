@@ -10,7 +10,8 @@
   - (21, 14) - (25, 14): Flat walkable cave ground.
   - (21, 15) - (25, 15): Flat walkable cave ground.
 - **Ladders**:
-  - **Ladder at (21, 11)**: Accessible by walking north from (21, 12).
+  - **Ladder B**: Located at (23, 7) <-> 2F (22, 6). Central elevated sector.
+  - **Ladder C**: Located at (18, 9) <-> 2F (19, 7). Central elevated sector.
   - **Ladder at (17, 15)**: Located at the west end of the south corridor.
   - **Ladder D**: Located at (27, 1) <-> 2F (29, 1).
   - **Ladder E**: Located at (7, 1) <-> 2F (9, 1).
