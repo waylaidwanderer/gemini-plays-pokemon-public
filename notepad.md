@@ -4416,6 +4416,19 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Sighting & Route Audit (Turn 28558)
 - Zapdos Location: Sighted at (4, 9) in northern enclosed room.
 - Route: Separated from western approach by row 12 solid wall. Must be accessed via eastern concourse loop.
+## Survey Completed & Restock Execution Plan [Turn 28683]
+- Power Plant northern approach, Sector 6, Row 3 Highway, and Sector 5 Zapdos Chamber 100% mapped and verified.
+- Zapdos confirmed stationary at (4, 9). No battle triggered without pressing 'A'.
+- No back door exit exists in Gen 1 retail (FRLG only).
+- Action upon escaping battle:
+  1. Stand at (4, 8) facing Zapdos for final visual record.
+  2. Cast DIG with DIGBY (Diglett) to warp directly to Cerulean City Pokémon Center!
+  3. Head west to Route 16 to obtain HM02 FLY from the secret retreat house.
+  4. Teach HM02 FLY to Farfetch'd (DUX).
+  5. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (cost: ¥42,000, current money: ¥107,981).
+  6. Fly back to Cerulean City, take Route 9, surf Route 10 canal to Power Plant.
+  7. Walk the cleared path directly to (4, 8), SAVE game, initiate battle with 'A', and capture Zapdos!
+
 
 <hr>
 
@@ -4488,8 +4501,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South Wrap to Outer Eastern Corridor [Audited Turn 28636]: Row 27 connects east to (36, 27). Column 36 connects north through (36, 25..24). Tile (37, 24) connects directly into the outer eastern corridor (cols 37-38), running continuously north to row 14 highway.
 - Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
 
-## Sector 5: Northern Enclosed Chamber (Zapdos Sighting)
-- Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Separated from western approach by solid wall at row 12.
+## Sector 5: Northern Enclosed Chamber (Zapdos Chamber)
+- Sighting & Full Survey [Audited Turns 28553, 28680]: Enclosed chamber spanning cols 1..7, rows 1..11.
+  - North: Row 0 wall, row 1 generators (cols 2..7).
+  - West: Column 0 continuous solid outer wall. No back door exists in retail Gen 1 Red/Blue.
+  - East: Column 8 solid dividing wall.
+  - Gateway: 2-tile open doorway at (4..5, 6) connecting northern foyer (rows 3..5) south into Zapdos' hall (rows 7..11).
+  - High-Value Target: Stationary Legendary Bird ZAPDOS at (4, 9). No battle triggers unless spoken to with 'A'.
+  - No item balls in this chamber. Facility exit requires Dig/Escape Rope or walking back to southern entrance at (4..5, 35).
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
 - Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24.
