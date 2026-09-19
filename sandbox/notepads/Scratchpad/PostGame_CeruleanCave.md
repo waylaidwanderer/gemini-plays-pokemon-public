@@ -23,26 +23,20 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (28, 9) in Surfing state facing South.
-
-- Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
-- Conclusion: Candidate Ladder (1, 3) must be accessed via 1F (likely corresponding to 1F Ladder (0, 6)).
-
-- Empirical Finding [Turn 26347]: Tile (20, 17) is a solid rock wall! Row 17 terminates east at (19, 17). Direct access from western 2F to eastern 2F via Row 17 is physically IMPOSSIBLE. The proposed 2F Master Circuit via Row 17 is completely DISPROVEN.
+- Current Location: Cerulean Cave 1F at (25, 9) on Staircase facing South toward water at (25, 10).
+- Empirical Findings [Turns 26460-26479]:
+  1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
+  2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
+  3. Row 16 is solid rock from Col 20 to Col 26, walling off the south.
+  4. This combined network is an overland bridge between 1F Entrance Terrace and 1F Central-Western Terrace.
+  5. The Eastern Sector (Cols 26..29, Rows 1..17) connects to 2F Ladder (29, 1).
+- Next Objective: Launch Surf at (25, 10), surf north across subterranean lake to Staircase (23, 3), ascend to Northern Terrace, and climb Ladder (27, 1) to access 2F Ladder (29, 1) to explore the Eastern/Northern 2F complex toward B1F!
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
-| (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 22..24, Rows 7..15) |
-| (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 27..29, Rows 0..6) |
-| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 19..27, Rows 0..7) |
+| (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
+| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Central Network |
+| (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Eastern/Northern Sector |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
-
-
-
-- Definitive Multi-Floor Topological Analysis [Turn 26437]:
-  - 2F Western Network (Ladder 3, 11): Enclosed pocket bounded by solid Row 8 rock wall (2..12, 8).
-  - 2F Northwest Network (Ladder 19, 7): Enclosed pocket bounded by solid rock wall at Column 25 (tested at 25, 3) and Column 19.
-  - 2F Northeast Enclave (Ladder 29, 1): Enclosed enclave bounded by solid rock walls (verified Turn 26143).
-  - 2F Main Network: Connected to Ladder (22, 6) from 1F Entrance Terrace Ladder (23, 7)! This network contains Column 26, Column 28, Row 14, and the Northern Chamber (Cols 24..29, Rows 5..7).
-  - Active Route: Navigate from (16, 9) -> Staircase (11, 13), surf east across lake to Staircase (25, 9), ascend to Entrance Terrace Ladder (23, 7), and climb to 2F (22, 6) to explore the Northern Chamber toward B1F!
+| (0, 6) | (1, 3)? | UNVERIFIED DESTINATION | 1F Northwest Alcove (behind Row 8 cliff) / 2F Northwest Alcove |
