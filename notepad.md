@@ -4149,7 +4149,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Sector A: Visual audit [Turns 27926-27935] confirms Row 4 (Cols 3..8) are 100% solid boulders. Column 2 (Rows 1..4) are solid boulders. Boulder (8, 5) separates Row 5 West from East. Sector A is completely enclosed with zero passage into Row 5 or the Northwest Enclave.
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
    - Northwest Enclave Structure [Turns 28011-28045]: Row 7 is an unbroken horizontal corridor spanning Columns 1 through 11 ((1..11, 7)). Row 6 has (6, 6) as the sole connector to Row 5 (0..7, 5) and Ladder (1, 3). (1, 8) and (1, 9) are open floor connecting south from (1, 7).
-   - Southwest Outer Corridors [Audited Turns 28042-28046]: (1, 12) and (1, 13) are verified open floor tiles. (1, 10), (1, 11), and (1, 14) are solid purple boulders. This indicates Column 0 along the western boundary is the primary candidate vertical transit artery linking Row 17 up into Row 7 and the Northwest Enclave.
+   - Southwest Outer Corridors Breakthrough [Turn 28076]: (1, 14) is indeed a boulder, BUT Column 2 forms the bypass! (2, 15), (2, 14), (2, 13), and (1, 13) are 100% verified open floor tiles! The passage curves: (1, 15) -> (2, 15) -> (2, 14) -> (2, 13) -> (1, 13) -> (1, 12), completely bypassing boulder (1, 14) and connecting the lower network to the upper western corridor!
 2. 1F Layout & Verified Facts:
    - Northwest Corridor on 1F (Cols 0..5, Rows 3..7) contains Ladder (0, 6) and a south-facing jump ledge at Row 7 (one-way exit).
    - Northern Subterranean Waterway on Row 4 was physically tested: (13, 4) is an impassable solid rock wall [Turn 27908].
