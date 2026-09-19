@@ -1,6 +1,7 @@
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (9, 1): Cave ladder confirmed at (9, 1). Connected to Row 1 corridor spanning (5..9, 1). Bounded east by rock (10, 1) and south by rock (9, 2). Destination currently being tested. [Visually confirmed Turn 26541]
 - Ladder (7, 1): Cave ladder confirmed at (7, 1) in northern enclave. Surrounded by open floor (5..10, 0..2). Destination currently being tested. [Visually confirmed Turn 26537]
 - Ladder (1, 3): Cave ladder confirmed at (1, 3). Bounded east by rock (2, 3), south by rock (1, 4); accessed from west via Column 0 (0, 3) and north via (1, 2). Connected to Row 5 via Column 0 (0, 3..5). [Visually confirmed Turn 26530]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
