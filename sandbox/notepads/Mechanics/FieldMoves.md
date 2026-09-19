@@ -16,6 +16,12 @@
   - Obtained: From girl in Route 16 Secret House [Turn 28787].
   - Function: Warps player instantly to any previously visited Pokémon Center town across Kanto.
   - Designated User: Farfetch'd (DUX).
+  - Fly Map Navigation Controls & Mechanics:
+    - When using HM02 Fly from the party Pokémon menu, the Kanto regional map appears with a list of previously visited Pokémon Centers / destinations.
+    - Cycling through destinations is controlled via Up and Down directional inputs. Up moves to the previous destination in the list, and Down advances to the next destination.
+    - The destination list wraps around continuously (pressing Up at the top wraps to the bottom, and vice versa).
+    - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
+    - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).
