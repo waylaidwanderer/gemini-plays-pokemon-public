@@ -16,3 +16,8 @@
 - **South Shore**: Located at (15, 8). Allows launching Surf north into (15, 7) to reach North Dock (15, 3).
 - **Central Island Dock**: Located at (11, 13).
 - **Northern Mainland**: Spans rows 0-2 from (15, 1) west to Ladder E at (7, 1). Open passable horizontal highway.
+## Verified Central Plateau & Southern Waterway (1F)
+- **Central Plateau**: Spans rows 6-10, cols 21-25 with Ladder B at (23, 7).
+- **South Ramp**: Located at (21, 11) descending south to lower floor at (21, 12).
+- **Lower Floor Corridor**: Spans rows 12-16 across cols 20-25.
+- **Southern Water Dock**: Located at (25, 16). Allows launching Surf south into the main southern water canal at (25, 17) to traverse west directly towards the Southwest Sector and SW Ladder at (3, 11).
