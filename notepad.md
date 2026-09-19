@@ -4349,10 +4349,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Intermediate Terrace (Cols 7..19, Rows 4..5): Reddish-brown cave floor connecting Staircase (13, 3) landing to Staircase (19, 3).
   - Row 4 boulders at (8, 4) and (9, 4); open at (7, 4) and (10..19, 4).
   - Row 5 open thoroughfare from (7, 5) through (17, 5).
-  - Column 7 Corridor & West Continuation (Cols 5..7, Rows 4..8):
+  - Column 7 Corridor & Southwest Artery (Cols 4..7, Rows 4..9):
     - Row 5 ends west at (7, 5); boulder (6, 5) blocks direct west transit.
-    - Path turns south down Column 7 through (7, 6) and (7, 7).
-    - At (7, 7), turns west into (6, 7), south into (6, 8), and west into (5, 8) toward the western cavern.
+    - Path turns south down Column 7 through (7, 6) to (7, 7).
+    - From (7, 7), turns west into (6, 7), south into (6, 8), west through (5, 8) to (4, 8), and south into (4, 9).
+    - Boulders block (4..5, 7), (7..8, 8), and (5..8, 9).
+    - Column 4 (Rows 8..9+) opens south/west toward the lower cavern and waterways.
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..9+): Lower cavern floor visible below Row 5 cliff. Ground Item Ball sighted at (16, 9) [Turn 28130]; route of access to this lower floor remains to be physically tested.
 - Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) [Retrieved Turn 28145].
