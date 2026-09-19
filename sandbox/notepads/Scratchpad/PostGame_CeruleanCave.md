@@ -23,14 +23,15 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (12, 15) on foot facing Down.
+- Current Location: Cerulean Cave 2F at (17, 17) on foot facing Right.
+- Empirical Finding [Turn 26347]: Tile (20, 17) is a solid rock wall! Row 17 terminates east at (19, 17). Direct access from western 2F to eastern 2F via Row 17 is physically IMPOSSIBLE. The proposed 2F Master Circuit via Row 17 is completely DISPROVEN.
 - Hypothesis: 2F Master Circuit to Candidate Ladder (1, 3) [UNVERIFIED]:
   - Sighted Row 5 Northern Highway spanning (3..16, 5) and connecting via (6, 6) into Row 7 Highway (1..11, 7).
   - Row 7 connects at (1, 7) north up Column 1 to Candidate Ladder (1, 3).
   - Caveat & Physical Barrier: Turn 25760 notes confirm Row 5 terminates east at (16, 5) against rock wall (17..18, 5). Column 24 dead-ends at (24, 5). Physical cross-connection across (17..23, 5) is NOT verified and may be blocked.
   - Verification Plan:
-    1. Check Row 17 east through (13..17, 17) toward Column 21..27 to determine if eastern 2F connects to western 2F via Row 17.
-    2. If Row 17 is blocked east of (17, 17), audit Column 3 from (3, 9) north on western 2F, or audit Ladder (0, 6) on 1F.
+    1. [DISPROVEN Turn 26347] Row 17 is blocked at (20, 17).
+    2. Active Route: Retrace west via Row 17 -> Col 13/12 -> Row 9 west to (3, 9). Audit northern passages along Column 3 / Column 4 / Column 5 on western 2F toward Candidate Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
