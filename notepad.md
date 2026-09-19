@@ -9,7 +9,7 @@
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
 - Money: ¥67481 [Turn 28927]
-- Pokédex: 18 Caught / 127 Seen
+- Pokédex: 19 Caught / 128 Seen
 
 ## Milestones
 
@@ -156,7 +156,7 @@
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
-- [ ] Return to Power Plant and capture Legendary ZAPDOS
+- [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
 
 <hr>
@@ -257,6 +257,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
+- ZAPDOS [Lv 50, Electric/Flying]
+  - Status: Healthy
+  - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
+  - Transferred to PC Box 1 (Active Party full)
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]
@@ -4406,7 +4410,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Quest Objectives & Routing
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28540]
-- [ ] Explore Power Plant interior, audit facility, and capture legendary Zapdos [ACTIVE]
+- [x] Explore Power Plant interior, audit facility, and capture legendary Zapdos [Turn 29075, COMPLETED!]
 
 ## Power Plant Intelligence
 - Location: Route 10 North water canal, accessed via Surf.
@@ -4443,10 +4447,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
 
 ## Active Execution Plan
-- Ball Expenditure & Stockpile: 22 Ultra Balls expended across Turns 29000-29067; 15 Ultra Balls remaining.
-- Combat Loop: OMEGA tanks at 234/234 HP. Dismiss text, select ITEM, and throw Ultra Balls continuously.
-- Health Fail-Safe: Execute Recover (PP 13/20) whenever HP drops below 140.
-- Reload Contingency: If all 15 remaining Ultra Balls fail without capture (stockpile reaches 0), immediately soft reset and reload manual save from Turn 28993 at (4, 8) to restore full 37-ball supply.
+- [x] Manual pre-battle SAVE executed at (4, 8) [Turn 28993].
+- [x] Swift delivered! Zapdos chipped safely to ~65% HP [Turn 28996].
+- [x] Legendary ZAPDOS captured with Ultra Ball #23 on Turn 29075! (14 Ultra Balls remaining in bag).
+- STATUS: QUEST ACCOMPLISHED!
 
 <hr>
 
@@ -4526,7 +4530,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - West: Column 0 continuous solid outer wall. No back door exists in retail Gen 1 Red/Blue.
   - East: Column 8 solid dividing wall.
   - Gateway: 2-tile open doorway at (4..5, 6) connecting northern foyer (rows 3..5) south into Zapdos' hall (rows 7..11).
-  - High-Value Target: Stationary Legendary Bird ZAPDOS at (4, 9) [Engaged Turn 28994]. Level 50, Electric/Flying. Known moves: Thundershock, Drill Peck.
+  - High-Value Target: Stationary Legendary Bird ZAPDOS at (4, 9) [Captured Turn 29075]. Level 50, Electric/Flying. Successfully caught with Ultra Ball!
   - Status: Doorway verified at (4..5, 6); Northern Foyer connects east via Row 3 at (6..8, 3) through Column 8 dividing wall [Empirically verified Turn 28983].
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
