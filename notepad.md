@@ -4175,7 +4175,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Surf along Subterranean Lake: (13, 14) -> (15, 14) -> (15, 16) -> (18, 16) -> navigate eastern lake north toward Mewtwo's platform. [ACTIVE]
+  1. Surf along Subterranean Lake: (16, 16) -> (18, 16) -> north along Column 18 through (18, 13..12) into the eastern lake toward Mewtwo's platform. [ACTIVE]
   2. Approach Mewtwo, initiate battle, and capture Mewtwo with the Master Ball (Slot 1).
 
 
