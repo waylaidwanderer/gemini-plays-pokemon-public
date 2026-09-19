@@ -2842,7 +2842,7 @@
 3. **Ladder D**: Located at (29, 1) <-> 1F (27, 1). Northeast alcove / Eastern corridor.
 4. **Ladder E**: Located at (9, 1) <-> 1F (7, 1). Northwest elevated plateau (rows 0-5, cols 3-18).
 5. **SW Ladder**: Located at (3, 11) <-> 1F (3, 11). Southwest Sector entrance leading to Western Corridor.
-6. **Ladder A (to B1F Mewtwo)**: Descending ladder to B1F located in western corridor at (1, 3). Accessible via Southwest Sector / Western Corridor (cols 0-1) connected from Row 5 (0, 5) and Column 6 (6, 5).
+6. **Ladder A (to B1F Mewtwo)**: Descending ladder to B1F located in western corridor at (1, 3). Accessible via Western Corridor (cols 0-1).
 
 ## Verified Sector Structure & Collisions (2F)
 - **Northwest Plateau (Ladder E 9, 1)**: Spans rows 0-5, cols 3-18. Blocked from Western Corridor by rock divider at (2, 1..3) and (8, 5).
