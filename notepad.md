@@ -4756,6 +4756,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Arrived via ladder at (8, 6) on B4F, which ascends to arrival tile at (11, 7) on B3F [Turn 29205].
 
 ## Key Landmarks & Layout
+- Ladder (NE): Located at (25, 4) [Sighted Turn 29244].
+- Signpost (NE): Located at (23, 1) [Sighted Turn 29244].
+- Northern Dock: Wooden stairs at (23, 5), enters water at (23, 6) [Sighted Turn 29244].
+- Northeast Hall: Rows 0..4 span wide open dry floor across cols 15..25+.
 - Central Passage (Row 6): Dry corridor at (13..16, 6) connects western ladder area to eastern sector.
 - Northeast Corridor: Rows 3..4 (cols 15..18+) form wide open dry passage heading east into unexplored chambers.
 - Canal: Rows 4..5 (cols 7..13) open water, bounded north by rock wall at row 3 (cols 9..11).
