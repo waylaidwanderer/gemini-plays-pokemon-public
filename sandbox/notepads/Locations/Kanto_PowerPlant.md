@@ -55,5 +55,5 @@
 - Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
 - Southern Chute (Cols 9..11, Rows 21..24) [Audited Turn 28611]: Open passage south through (9..10, 22) into row 23 corridor (cols 8..11), connecting south through (11, 24) to the southern highway (rows 24-26).
 - Southern Bypass Avenue (Rows 27..29, Cols 10..17) [Audited Turn 28613]: Row 28-29 is an open avenue connecting cols 10..17 beneath the column 14-15 obstacles. Column 16 connects north through row 27 into the Row 26 eastern highway.
-- Trap at (26, 28) [Verified Turn 28628]: Interacted from (25, 28) facing East. Triggered "Bzzzt!" trap encounter (Voltorb/Electrode). Currently resolving.
+- Trap at (26, 28) [Cleared Turn 28630]: Voltorb Lv 40 trap. Interacted from (25, 28) facing East; fled safely. Trap entity permanently despawned; tile (26, 28) is now clear floor.
 - Item Ball 8 at (26, 32) [Sighted Turn 28627]: Visible at (26, 32) in southern machine corridor, bounded west by (25, 32) and east by terminal at (27, 32). Identity unverified.
