@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (4, 8) in battle exit screen ('Got away safely!').
+- Current Location: Cerulean Cave 1F at (4, 8) on foot facing North.
 - Active Strategy & Frontier:
   - [x] Master Topological Audit [Turn 26248]: 2F eastern ladders (22, 6), (29, 1), and (19, 7) are verified isolated pockets.
   - [x] Sighted Ladder (0, 6) in 1F northwest alcove [Turn 26304].
