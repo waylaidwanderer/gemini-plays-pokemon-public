@@ -36,6 +36,7 @@
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
 - Venomoth: Lv 49 [Encountered 1F Turn 26123]
+- Raichu: [Encountered 1F Turn 26258]
 
 ## Central-Western Terrace Navigation [Turn 26257]
 - Rock barrier at (16..17, 12..13): Traversal south from (17, 11) to Staircase (17, 15) requires routing east via Column 18: (17, 11) -> (18, 11..14) -> (17, 14) -> Staircase (17, 15). [Physically verified Turn 26257]
