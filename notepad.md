@@ -4617,7 +4617,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
 - [x] Washed down rapid current into B4F subterranean lake at (20, 15) [Turn 29186]
 - [x] Landed on northern dock (23, 5); verified dry terrace (rows 1..4) extending west toward Articuno [Turn 29189]
-- [ ] Scout west along rows 1..4 to locate Articuno chamber in northwest B4F
+- [ ] Scout west past col 11 to locate Articuno chamber or island
+- [ ] Test ladder at (11, 7) or canal to verify elevation / route
 - [ ] Save directly in front of Articuno
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
@@ -4634,7 +4635,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 5 Floors: 1F, B1F, B2F, B3F, B4F.
 - Rapid water currents on B3F and B4F drag the player uncontrollably unless specific boulders are dropped from upper floors into holes to dam/block the water current.
 - Articuno is stationary at B4F.
-
 
 <hr>
 
