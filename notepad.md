@@ -4224,6 +4224,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
+- Kadabra: Lv 49 [Encountered 1F Turn 27129]
 
 <hr>
 
