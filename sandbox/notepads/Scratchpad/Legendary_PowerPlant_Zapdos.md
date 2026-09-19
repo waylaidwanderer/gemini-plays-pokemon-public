@@ -15,3 +15,14 @@
 - Field Moves Required: HM03 SURF (SHELDON), HM05 FLASH (SANDMAN - optional if lit), HM01 CUT (DUX).
 - Target: ZAPDOS (Electric/Flying, Level 50).
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
+
+## Capture Strategy & Preparation
+- Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
+- Target: ZAPDOS Lv 50 (Electric/Flying). Catch rate: 3.
+- Combat Protocol:
+  1. Lead with Blastoise (SHELDON Lv 70) or Mewtwo (OMEGA Lv 70) to absorb hits and chip Zapdos into red HP (Surf / Swift / Double-Edge).
+  2. Switch to Drowzee (SANDMAN) to inflict Sleep via Hypnosis (PP 20/20).
+  3. Throw Ultra Balls while Zapdos is asleep at low HP.
+  4. Contingency: If Zapdos breaks out of both Ultra Balls, note that ¥107,981 cash is available; balls can be purchased at Indigo Plateau Mart (Ultra Ball ¥1200) or Celadon Dept Store (Great Ball ¥600) if a restock is required.
+- Flash Requirement Hypothesis:
+  - Hypothesis: Power Plant may be naturally lit or dark. To be empirically verified upon entering the facility. Sandman has HM05 Flash ready if illumination is needed.
