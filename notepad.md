@@ -222,7 +222,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 17/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 13/20)
+  - Moves: Swift (PP 16/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 13/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -4676,6 +4676,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Shoreline landing dock at (57, 12) directly south of cave door.
   - Approach corridor via southern channel: cols 55..57, row 14, stepping North up col 57.
 - Col 55 Rock Peninsula [Audited Turn 29145]: Vertical rock reef extends from row 10 down through row 14, blocking row 14 at (55, 14). Channel passes underneath via open water at rows 15-16 into col 57.
-- Jr. Trainer ♀ at (56, 14) [Encountered Turn 29146]: Guarding entrance approach channel at (57, 14). Line: 'Are you on vacation too?'. Team: Tentacool Lv 30, Horsea, [3rd unrevealed] [Verified Turns 29147-29150].
+- Jr. Trainer ♀ at (56, 14) [Encountered Turn 29146]: Guarding entrance approach channel at (57, 14). Line: 'Are you on vacation too?'. Team (Complete): Tentacool Lv 30, Horsea Lv 30, Seel Lv 30 [Verified Turns 29147-29154].
 
 <hr>
