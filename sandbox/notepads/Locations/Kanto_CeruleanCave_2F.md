@@ -77,3 +77,4 @@
 - Tile (25, 3): Empirically verified solid rock wall blocking eastward movement from (24, 3) [Turn 26419]. Ladder (19, 7) sector is bounded east by rock wall (25, 0..3).
 - Tile (19, 4): Empirically verified solid rock wall blocking direct northbound access from (19, 5) [Turn 26509]. Bypass route east: (19, 5) -> (20..21, 5) -> (21, 4) -> (22, 4) -> (22, 3..2).
 - Row 0 Northern Enclosure (Cols 21..24, Row 0): Enclosed pocket spanning (21..24, 0) and (20..22, 1). (22, 1) is solid rock, preventing direct northbound traversal from (22, 2). (16..20, 0) are solid rock walls. [Physically verified Turn 26513-26514]
+- Western Arteries (Cols 14..16, Rows 1..5): Columns 14 and 15 form a broad 2-tile wide vertical corridor connecting Row 1 down through Row 5. Row 1 connects directly from (18, 1) through (17, 1), (16, 1), (15, 1) into (14, 1). [Visually verified Turn 26517]
