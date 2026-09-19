@@ -9,6 +9,8 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Row 3 West Boundary: Row 3 terminates west at (3, 3), blocked by solid rock wall at (2, 3) with solid rock north (3, 2) and south (3, 4). [Empirically verified Turn 26764]
+- Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]
 - Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
@@ -48,7 +50,6 @@
   - South Junction at (17, 11): Connects south through (17, 12..13) into Row 13 east-west corridor. [Physically verified]
   - West End at (14, 11): Blocked to the west by (13, 11) rock wall. [Physically verified]
 - Row 13 Central Corridor (Cols 17..22, Row 13):
-  - Traversed (17, 13) through (19, 13) [Physically verified].
   - Turns south into (22, 14..15) and (21, 15), but dead-ends against solid Row 16 rock wall (cols 15..24 solid). Does NOT connect to Row 17. [Verified Turn 26186]
 - Row 17 Southern Thoroughfare Partition: Row 17 does NOT connect across the map!
   - Western Row 17: Spans (11..19, 17) and dead-ends at (19, 17) against solid rock wall at (20, 17). North wall (17..20, 16) and south wall (13..22, 18) are solid rock. [Visually verified Turn 26347].

@@ -12,17 +12,14 @@
 ## Post-Game Routing Plan
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
-## Completed Milestones
-
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F Row 13 at (17, 13).
 - Active Route:
-  1. Descend Column 23 south from (23, 7) to Row 11 Junction at (23, 11).
-  2. Explore 2F Master Network branches:
-     - Branch A: Row 11 West -> South at (17, 11) into Row 13 Central / Southern thoroughfares.
-     - Branch B: Row 11 East -> Column 26 Corridor (26, 14..9) and Eastern/Northern chambers (Cols 24..29).
-  3. Locate the true descending ladder to B1F.
-  4. Descend to B1F and capture Mewtwo with the Master Ball.
+  1. Reverse north out of Row 13 to Row 11 at (17, 11).
+  2. Walk east along Row 11 to Row 11 Junction at (23, 11).
+  3. Explore the eastern branch: Column 24/26 corridors and the unvisited Northern Chamber (Cols 24..29, Rows 5..7).
+  4. Locate the true descending ladder to B1F.
+  5. Descend to B1F and capture Mewtwo with the Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
