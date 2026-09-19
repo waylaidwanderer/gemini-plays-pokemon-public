@@ -5,7 +5,8 @@
 - [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
 - [x] Exit Indigo Plateau building to outdoor entrance [Turn 29109]
 - [x] Fly to Cinnabar Island [Turn 29115]
-- [ ] Surf Route 20 east to Seafoam Islands
+- [x] Launch Surf on Route 20 at (0, 12) [Turn 29120]
+- [ ] Surf Route 20 east to Seafoam Islands western entrance
 - [ ] Infiltrate Seafoam Islands (Route 20)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F

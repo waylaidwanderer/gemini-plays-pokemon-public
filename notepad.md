@@ -4615,7 +4615,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
 - [x] Exit Indigo Plateau building to outdoor entrance [Turn 29109]
 - [x] Fly to Cinnabar Island [Turn 29115]
-- [ ] Surf Route 20 east to Seafoam Islands
+- [x] Launch Surf on Route 20 at (0, 12) [Turn 29120]
+- [ ] Surf Route 20 east to Seafoam Islands western entrance
 - [ ] Infiltrate Seafoam Islands (Route 20)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
@@ -4642,5 +4643,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Surf distance: ~30-35 tiles straight east along Route 20.
   - Directional turns: 0 turns (pure straight eastward surf).
 - **Decision:** Route Option 2 (Cinnabar Island) is selected. It offers significantly shorter land travel to water launch, a pure linear eastward surf vector, and enters Seafoam Islands via the western entrance.
+
+<hr>
+
+<h1><code>Locations/Kanto_Route20</code></h1>
+
+# Route 20 Geography & Points of Interest
+
+## Overview
+- Ocean route connecting Cinnabar Island (west) to Seafoam Islands and Route 19 (east).
+- Traversed exclusively via HM03 Surf.
+- Western entry: Border with Cinnabar Island at row 12 (player enters water at (0, 12) from Cinnabar (19, 12)) [Turn 29120].
+
+## Landmarks & Layout
+- Western Boundary: Shoreline at x=0, rows 8..14. Cinnabar Island is visible to the west.
+- Open Water Channel: Rows 8..13 spanning eastward from column 1.
+- Seafoam Islands: Dual island cavern complex located along the route to the east.
 
 <hr>
