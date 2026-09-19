@@ -4171,9 +4171,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Operating on B1F: Ascend Staircase (19, 3) to (19, 2), step to (19, 1), face west, and retrieve Ground Item Ball at (18, 1).
-  2. Descend Staircase (19, 3) back to intermediate terrace (Rows 4..5).
-  3. Explore west across Rows 4..5 toward Columns 5..10 to identify tested physical descents into the lower purple cavern and subterranean waterways.
+  1. Operating on B1F: Ascend Staircase (19, 3) to (19, 2), step to (19, 1), face west, and retrieve Ground Item Ball at (18, 1). [DONE - Retrieved Turn 28145]
+  2. Descend Staircase (19, 3) back to intermediate terrace (Rows 4..5). [DONE - Arrived (16, 5) Turn 28156]
+  3. Explore west across Rows 4..5 toward Columns 5..10 to identify tested physical descents into the lower purple cavern and subterranean waterways. [ACTIVE - At (9, 5), opening at Column 7 discovered]
   4. Navigate waterways to Mewtwo's platform and capture Mewtwo with the Master Ball.
 
 
@@ -4346,7 +4346,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Staircase (13, 3): 1-tile wide wooden staircase descending south from upper terrace at (13, 2) onto lower elevation reddish-brown cave floor at (13, 4). Flanked by purple boulders at (12, 3) and (14, 3).
 - Staircase (19, 3): 1-tile wide wooden staircase ascending north from lower floor at (19, 4) onto isolated northeast terrace at (19, 2).
 - Isolated Northeast Terrace (Cols 17..19+, Rows 0..2): Contains Ground Item Ball at (18, 1)! Separated from northwestern upper terrace by boulder wall at Column 16 (16, 0..3). Accessible exclusively via Staircase (19, 3).
-- Intermediate Terrace (Cols 10..19, Rows 4..5): Reddish-brown cave floor connecting Staircase (13, 3) landing to Staircase (19, 3).
+- Intermediate Terrace (Cols 7..19, Rows 4..5): Reddish-brown cave floor connecting Staircase (13, 3) landing to Staircase (19, 3).
+  - Row 4 boulders at (8, 4) and (9, 4); open at (7, 4) and (10..19, 4).
+  - Row 5 open thoroughfare from (7, 5) through (17, 5).
+  - Column 7 Corridor (Cols 7, Rows 4..7): Open vertical passage extending south through (7, 6) and (7, 7), flanked east by boulders at (8, 4) and (8, 7..9), and south by (7, 8) boulder.
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..9+): Lower cavern floor visible below Row 5 cliff. Ground Item Ball sighted at (16, 9) [Turn 28130]; route of access to this lower floor remains to be physically tested.
 - Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) [Retrieved Turn 28145].
