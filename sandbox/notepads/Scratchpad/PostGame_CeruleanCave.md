@@ -5,19 +5,23 @@
    - Row 8: 100% physically bump-tested solid boulders from Col 3 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
    - Sector A: Visual audit [Turns 27926-27935] confirms Row 4 (Cols 3..8) are 100% solid boulders. Column 2 (Rows 1..4) are solid boulders. Boulder (8, 5) separates Row 5 West from East. Sector A is completely enclosed with zero passage into Row 5 or the Northwest Enclave.
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
-   - Northwest Enclave Isolation [Turn 28011-28015]: Row 7 is an unbroken horizontal corridor spanning Columns 1 through 11 ((1..11, 7)). Row 6 has (6, 6) as the sole connector to Row 5 (0..7, 5) and Ladder (1, 3). Row 8 has solid boulders across (2..12, 8). (1, 8) connects south to (1, 9) alcove, and (13, 8) connects south to Row 9. The Northwest Enclave on 2F connection to the southern network remains unverified; physical testing of western boundaries is required.
-2. 1F Layout & Breakthrough Strategy:
+   - Northwest Enclave Structure [Turns 28011-28045]: Row 7 is an unbroken horizontal corridor spanning Columns 1 through 11 ((1..11, 7)). Row 6 has (6, 6) as the sole connector to Row 5 (0..7, 5) and Ladder (1, 3). (1, 8) and (1, 9) are open floor connecting south from (1, 7).
+   - Southwest Outer Corridors [Audited Turns 28042-28046]: (1, 12) and (1, 13) are verified open floor tiles. (1, 10), (1, 11), and (1, 14) are solid purple boulders. This indicates Column 0 along the western boundary is the primary candidate vertical transit artery linking Row 17 up into Row 7 and the Northwest Enclave.
+2. 1F Layout & Verified Facts:
    - Northwest Corridor on 1F (Cols 0..5, Rows 3..7) contains Ladder (0, 6) and a south-facing jump ledge at Row 7 (one-way exit).
-   - Working Breakthrough Hypothesis: The northern water canal on Row 4 was traced to (14, 4). Tile (13, 4) was never physically bump-tested and is the primary candidate water channel connecting west into (5, 4) in the Northwest Corridor!
+   - Northern Subterranean Waterway on Row 4 was physically tested: (13, 4) is an impassable solid rock wall [Turn 27908].
+   - Western Subterranean Waterway: Physical bump tests from (8, 6) confirmed (8, 5) and (7, 6) are 100% impassable solid rock walls [Turn 27986]. Zero entrance exists from 1F water into the Northwest Corridor.
 3. Ladder Pairings:
    - 1F (23, 7) <-> 2F (22, 6) [2-way confirmed]
    - 1F (18, 9) <-> 2F (19, 7) [2-way confirmed]
    - 1F (27, 1) <-> 2F (29, 1) [2-way confirmed]
    - 1F (7, 1) <-> 2F (9, 1) [2-way confirmed]
    - 1F (3, 11) <-> 2F (3, 11) [2-way confirmed]
-   - Unverified Candidate: 1F (0, 6) and 2F (1, 3) [Candidate descent to B1F]
+   - Candidate Pair: 1F (0, 6) and 2F (1, 3) [Descent to B1F or reciprocal passage]
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Flee wild Marowak battle.
-  2. Systematically explore and test 2F boundaries and corridors.
+  1. Dismiss battle text and return to overworld at (10, 11).
+  2. Navigate Column 10 South -> Row 16 West -> Row 17 West to (1, 17).
+  3. Physically bump-test Column 0 boundaries: test stepping west from (1, 17) into (0, 17), and north through (1, 16..15) into (0, 16) and (0, 15) to locate the western transit highway leading up to (0, 12)-(0, 13) and (1, 7)-(1, 9).
+  4. Ascend into Row 7, take (6, 6) -> (6, 5) -> (1, 5) to Ladder (1, 3), and conquer B1F / Mewtwo.
