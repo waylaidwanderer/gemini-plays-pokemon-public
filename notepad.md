@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Mewtwo Lv 70
+- Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Mewtwo (OMEGA) Lv 70
 
 - Money: ¥107981 [Turn 25269]
 - Pokédex: 18 Caught / 125 Seen
@@ -261,7 +261,7 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
-- MEWTWO [Lv 70, Psychic]
+- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - Moves: Psychic, Barrier, Swift, Recover
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
@@ -4156,7 +4156,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   1. MEWTWO LOCATED at (27, 13) on elevated platform! [DONE]
   2. Battle initiated against Wild Mewtwo Lv 70! [DONE]
   3. Master Ball used on Turn 1! [DONE]
-  4. Mewtwo captured successfully! [ACTIVE - Finalizing catch sequence, Pokédex registration, and nicknaming]
+  4. Mewtwo captured successfully! [DONE]
+  5. Pokédex data registered for No. 150 MEWTWO! [DONE]
+  6. Nicknamed OMEGA! [DONE]
+  7. Post-game legendary capture quest 100% COMPLETE!
 
 
 <hr>
