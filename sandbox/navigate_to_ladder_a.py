@@ -42,23 +42,23 @@ def walk_to_target(target_x, target_y):
 
 print("Starting route to Ladder A from:", mgba.get_coordinates())
 
-# Segment 1: (3, 3) -> (9, 3) -> (9, 5) -> (16, 5)
-walk_to_target(9, 3)
-walk_to_target(9, 5)
+# Segment 1: (16, 7) -> (16, 5) -> (16, 1) -> (18, 1) -> (18, 3) -> (20, 3) -> (20, 5) -> (21, 5) -> (21, 9)
 walk_to_target(16, 5)
+walk_to_target(16, 1)
+walk_to_target(18, 1)
+walk_to_target(18, 3)
+walk_to_target(20, 3)
+walk_to_target(20, 5)
+walk_to_target(21, 5)
+walk_to_target(21, 9)
 
-# Segment 2: (16, 5) -> (16, 7) -> (18, 7) -> (18, 9)
-walk_to_target(16, 7)
-walk_to_target(18, 7)
-walk_to_target(18, 9)
-
-# Segment 3: Sprint West along Row 9 all the way to Column 0 at (0, 9)
+# Segment 2: Sprint West along Row 9 all the way to Column 0 at (0, 9)
 walk_to_target(0, 9)
 
-# Segment 4: Ascend Column 0 North to (0, 3)
+# Segment 3: Ascend Column 0 North to (0, 3)
 walk_to_target(0, 3)
 
-# Segment 5: Step Right onto Ladder A at (1, 3)!
+# Segment 4: Step Right onto Ladder A at (1, 3)!
 step("Right")
 
 print("Final position:", mgba.get_coordinates())
