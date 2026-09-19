@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (3, 3) routing through (7, 3..5) to Row 5 toward Ladder (1, 3).
+- Current Location: Cerulean Cave 2F at (7, 3) navigating via Column 9 to Row 7 Highway.
 - Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
   2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
@@ -4175,7 +4175,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Ladder (29, 1) connects to (28, 1..3). At (28, 3), West (27, 3) and South (28, 4) are physically confirmed solid rock walls [Turn 26489].
   5. The only exit from (28, 3) is East into Column 29 at (29, 3).
   6. Column 29 runs south through rows 3, 4, 5, 6, 7 toward Row 14 and Column 26.
-- Next Objective: Step Down x2 to (3, 3), Right x4 to (7, 3), Down x2 to (7, 5), Left x7 to (0, 5), Up x2 to (0, 3), Right into Ladder (1, 3).
+- Next Objective: Step Right x2 to (9, 3), Down x4 to (9, 7) on Row 7 Highway, then follow Row 7 west to Column 0 and north to Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4256,6 +4256,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Row 7 Southern Highway & Column 0 Passage (Cols 0..9, Rows 3..7): Column 9 connects Row 3 at (9, 3) south through (9, 4..7) to Row 7 Highway. Row 7 is a continuous horizontal thoroughfare from (9, 7) west to Column 0 at (0, 7). Column 0 runs north from (0, 7) through (0, 6..3), directly accessing Ladder (1, 3) from (0, 3) facing East. (7, 4) empirically verified solid rock [Turn 26557]. [Visually and physically verified Turn 26558]
 - Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Contains NO ladders ((7, 1) and (9, 1) confirmed ordinary floor). Bounded south by solid rock wall at Row 3. [Physically verified Turns 26535-26544]
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
