@@ -9,6 +9,14 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+
+- Definitive Sector A & Central Network Western Boundary Audit [Turn 27714]:
+  - Row 0 (Cols 0..6): Cavern ceiling runs continuously from (0, 0) to (6, 0). (7..9, 0) are open floor alcoves terminating west at (7, 0). Zero passage to northwest.
+  - Row 4 (Cols 1..8): Solid rock boulders completely separate Row 3 from Row 5 across columns 1 through 8.
+  - Row 5 East: Boulder (8, 5) completely separates Northwest Enclave (0..7, 5) from eastern Row 5 (9..11, 5).
+  - Row 6 (Cols 7..12): Solid boulders across all columns between Column 7 and Column 12. Tile (13, 6) is open floor, but bounded south by solid boulder (13, 7).
+  - Row 7 East (Cols 12..14): Solid boulders block eastward traversal from Row 7 (Cols 1..11) into Column 12/13.
+  - Definitive Conclusion: Sector A and Central Network on 2F are 100% physically and visually enclosed on the west. Zero passage exists into the Northwest Enclave from the north or east.
 - Row 4 Collision Tests from Row 3: Physical bump tests from Row 3 confirmed (4, 4) [Turn 27462], (5, 4) [Turn 27466], (6, 4) [Turn 27466], and (7, 4) [Turn 27466] are all solid rock boulder walls.
 - Row 8 Collision Tests from Row 9: Physical bump tests confirmed (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], (11, 8) [Turn 27508], and (12, 8) [Turn 27595] are solid rock boulders completely blocking northward passage from Row 9 across all columns.
 - Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. Physical bump test from (3, 1) confirmed (2, 1) is solid rock wall [Turn 27454]. Physical bump tests confirmed (2, 1) [Turn 27454], (2, 2) [Turn 27459], and (2, 3) [Turn 27459] are all solid rock boulder walls, proving Column 2 is completely impassable from Sector A. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
