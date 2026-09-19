@@ -220,11 +220,14 @@
 - ¥107981 [Turn 25269]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
+- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 222 / 222 [Healed Turn 28476 at Cerulean Center]
-  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
+  - HP: 234 / 234 [Verified Turn 28243]
+  - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 28245]
+  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -251,14 +254,11 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
-- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
+- BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 234 / 234 [Verified Turn 28243]
-  - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 28245]
-  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
+  - HP: 222 / 222 [Healed Turn 28476 at Cerulean Center]
+  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
