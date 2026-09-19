@@ -2,7 +2,7 @@
 
 ## Connections & Ladders
 - Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Open corridor runs south via (28, 1..3) and (29, 3..6) into the Northeast Loop (cols 27..29, rows 3..7), Northern Chamber (cols 25..29, rows 5..7), and Column 26 Corridor! [Visually confirmed Turn 26419; prior claim of dead-end enclave is DISPROVEN].
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Bounded by solid rock walls cols 27..29, rows 0..6 per physical audit Turn 26143.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
@@ -59,7 +59,7 @@
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
 - Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
-- Column 24-26 Open East-West Transit: Empirically verified Turn 26417 that (25, 3..5) and (26, 3..5) are OPEN SPECKLED FLOOR! Column 24 connects seamlessly east through Column 25 into Column 26, linking the Ladder (19, 7) sector directly into the entire Northern Chamber and Eastern 2F network! Prior claims that (25, 5) was a solid rock wall are completely DISPROVEN.
+
 
 ## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]

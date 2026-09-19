@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (20, 5) on foot facing Left.
+- Current Location: Cerulean Cave 1F at (16, 9) in wild battle with Hypno.
 
 - Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
 - Conclusion: Candidate Ladder (1, 3) must be accessed via 1F (likely corresponding to 1F Ladder (0, 6)).
@@ -38,10 +38,7 @@
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects to 2F isolated pocket (Cols 19..27, Rows 0..7) |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
 
-- MAJOR BREAKTHROUGH [Turn 26417]: Visual evidence at (21, 4) reveals (25, 3..5) and (26, 3..5) are WIDE OPEN FLOOR!
-  - The old claim that Column 24 dead-ended against rock wall (25, 5) is completely DISPROVEN.
-  - Ladder (19, 7) connects seamlessly via (22, 2..4) -> (24..26, 3..5) directly into Column 26 and the Northern Chamber!
-  - Active Route: Advance from (21, 4) -> (22, 4..2) -> (24, 2) -> (26, 3) to enter Column 26 / Northern Chamber!
+
 
 - CRITICAL TOPOLOGICAL CORRECTION [Turn 26419]:
   - Tested (24, 3) -> (25, 3): BLOCKED! Tile (25, 3) is a solid rock wall. Ladder (19, 7) pocket is enclosed on the east.
