@@ -4765,5 +4765,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Wild Encounters
 - Psyduck (Lv 31) [Encountered Turn 29207].
+- Eastern Pool & Dead-End [Audited Turn 29210]:
+  - Row 14 corridor ends east at col 19 rock wall.
+  - Water pool spans cols 16..23, rows 10..15.
+  - Dry floor continues west across cols 9..18 along rows 14..16.
 
 <hr>
