@@ -8,9 +8,10 @@
 ## Landmarks & Layout
 - Western Boundary: Shoreline at x=0, rows 8..14. Cinnabar Island is visible to the west.
 - Open Water Channel: Rows 8..16 confirmed completely clear across columns 0 to 19, bounded south by rock barrier at row 17 [Verified Turn 29123].
-- Seafoam Islands: Dual island cavern complex located along the route to the east.
+- Seafoam Islands (Western Mound): Dual island cavern complex. Western island cliff face at col 32, rows 8..9, with western cave entrance located at (32, 10) [Sighted Turn 29129].
 
 ## Trainers & Encounters
 - Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
 - Swimmer at (24, 12) [Sighted Turn 29124]: Positioned in mid water channel facing South (sight line down col 24, rows 13..16). Northern corridor at row 11 passes cleanly behind him [Verified Turn 29125].
 - Wild Encounters: Tentacool (water) [Encountered Turn 29126].
+- Swimmer at (25, 7) [Sighted Turn 29128]: Positioned in northern water channel.
