@@ -25,8 +25,10 @@
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (4, 8) in wild battle with Golbat.
 - Active Strategy & Frontier:
-  - [x] Master Topological Deduction [Turn 26248]: Ladders (22, 6), (29, 1), and (19, 7) are ALL verified isolated pockets on 2F! Candidate Ladder (1, 3) must be accessed via Western Ladder (3, 11).
-  - Master Plan: Backtrack via Ladder (19, 7) to 1F (18, 9), walk down to 1F lower corridor (Row 17) to Western Terrace, ascend Ladder (3, 11) to 2F, and explore north along Column 3 toward Candidate Ladder (1, 3)!
+  - [x] Master Topological Audit [Turn 26248]: 2F eastern ladders (22, 6), (29, 1), and (19, 7) are verified isolated pockets.
+  - [x] Sighted Ladder (0, 6) in 1F northwest alcove [Turn 26304].
+  - [x] Verified Row 8 Cliff Barrier: (1..4, 8) cannot step Up into Row 7 [Turns 26306-26307].
+  - Active Plan: Flee Golbat battle at (4, 8). Complete audit of 1F Western Terrace at Columns 5..6 on Row 8. If blocked, ascend Ladder (3, 11) to 2F and explore north along Column 3 toward Candidate Ladder (1, 3).
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
