@@ -5,7 +5,7 @@
 2. Traverse Route 2 North to Diglett's Cave (Cut tree at 12, 52 and gatehouse). [DONE - Turn 28381]
 3. Traverse Diglett's Cave to Route 11 / Vermilion City. [DONE - Turn 28406]
 4. Traverse Route 6 -> Underground Path (Route 6 - Route 5) -> Route 5 -> Cerulean City. [DONE - Turn 28456]
-5. Heal team at Cerulean City Pokémon Center and set warp anchor. [DONE - Turn 28476]
+5. Heal team at Cerulean City Pokï¿½mon Center and set warp anchor. [DONE - Turn 28476]
 6. Traverse Route 9 East (Cut tree at entrance with DUX). [DONE - Turn 28496]
 7. Arrive at Route 10 North, surf south along the canal to Power Plant. [DONE - Turn 28540]
 8. Explore Power Plant interior and capture legendary Zapdos! [ACTIVE]
@@ -20,7 +20,7 @@
 - Current Ball Inventory: ULTRA BALL x2 [Acquired Cerulean Cave 2F & B1F].
 - Target: ZAPDOS Lv 50 (Electric/Flying). Catch rate: 3.
 - Critical Permanence Warning:
-  - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
+  - In Generation 1 retail, stationary legendary Pokï¿½mon (Zapdos) NEVER respawn if defeated or fled from. Fleeing or running out of balls causes Zapdos to permanently despawn.
   - MANDATORY PROTOCOL: Stand directly in front of Zapdos and execute a manual SAVE before pressing 'A' to interact!
 - Combat Protocol:
   1. DO NOT lead with Blastoise (SHELDON)! Blastoise is Water-type and takes 2x super-effective STAB damage from Zapdos's Electric attacks (Thunder/Thunderbolt).
@@ -30,3 +30,7 @@
   5. Throw Ultra Balls while Zapdos is asleep at low red HP.
 - Flash Requirement Hypothesis:
   - Hypothesis: Power Plant may be naturally lit or dark. To be empirically verified upon entering the facility. Sandman has HM05 Flash ready if illumination is needed.
+
+## Sighting & Route Audit (Turn 28558)
+- Zapdos Location: Sighted at (4, 9) in northern enclosed room.
+- Route: Separated from western approach by row 12 solid wall. Must be accessed via eastern concourse loop.

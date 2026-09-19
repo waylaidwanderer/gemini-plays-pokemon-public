@@ -4422,6 +4422,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Flash Requirement Hypothesis:
   - Hypothesis: Power Plant may be naturally lit or dark. To be empirically verified upon entering the facility. Sandman has HM05 Flash ready if illumination is needed.
 
+## Sighting & Route Audit (Turn 28558)
+- Zapdos Location: Sighted at (4, 9) in northern enclosed room.
+- Route: Separated from western approach by row 12 solid wall. Must be accessed via eastern concourse loop.
 
 <hr>
 
