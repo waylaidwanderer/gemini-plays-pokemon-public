@@ -2875,5 +2875,7 @@
 6. **2F Northwest Sector to Ladder A (1, 3) & B1F Mewtwo**:
    - Follow western corridor directly to Ladder A at (1, 3) to descend to B1F Mewtwo!
 
+## Verified Northwest Sector Bypass to Ladder A (1, 3) -> B1F Mewtwo:
+- From (4, 3) on 2F: Walk Right 3 to (7, 3) -> Down 2 to (7, 5) -> Left 7 to (0, 5) -> Up 2 to (0, 3) -> Right 1 onto Ladder A at (1, 3) to descend directly to Cerulean Cave B1F!
 
 <hr>
