@@ -37,7 +37,7 @@
 - Northern Launch Apron: Located at (2..3, 4), accessible from Central Lawn via gateway at (2..3, 5). Water entry facing North into (2, 3) [Turn 28526].
 - Northern River Channel (Rows 2..3, Cols 2..16): 2-tile wide east-west water channel bounded north by mountain cliff at row 1 and south by shoreline apron at row 4. Connects east to Column 16.
 - Canal Turn: Located at (16, 3), where the northern river turns 90 degrees south into the eastern canal [Turn 28528].
-- Eastern Canal (Cols 16..17, Rows 4..50+): Continuous 2-tile wide north-south water canal heading south toward the Power Plant. Bounded on the west by stone bollards along Column 15 and on the east by continuous mountain cliffs along Column 18+. Traversed south past (16, 8) [Turn 28531].
+- Eastern Canal (Cols 16..17, Rows 4..50+): Continuous 2-tile wide north-south water canal heading south toward the Power Plant. Bounded on the west by stone bollards along Column 15 and on the east by continuous mountain cliffs along Column 18+.
 
 ## Power Plant Exterior (Audited Turn 28540)
 - Location: Southwest peninsula of Route 10 at cols 2..8, rows 34..46.
