@@ -14,6 +14,6 @@
   - Interior: Prof. Oak, Pokédex research, starter table, 2 research aides.
 - Signpost (7, 9): Located at (7, 9) south of Red's house. Text: "PALLET TOWN / Shades of your journey awaits!" [Verified Turn 28298].
 - Courtyard / Avenues:
-  - Central North-South Avenue: Columns 8..9 connecting Route 1 (0..1) south through town.
+  - Central North-South Avenue: Columns 10..11 connecting Route 1 (0..1) south between Red's and Daisy's houses.
   - Crossways: Rows 6..7 open between houses.
   - Water Shoreline: Along rows 12..13 at southern boundary.

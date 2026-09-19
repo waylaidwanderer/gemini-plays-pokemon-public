@@ -23,7 +23,7 @@
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Cave & Landmarks
-- Mt. Moon Cave Entrance: Located in northern cliff face outside Mt. Moon (approached from Route 3 / Route 4 west). Note: Collision confirmed at (18, 2) facing North on Turn 28266 when tested during Pallet Town misidentification.
+- Mt. Moon Cave Entrance: Located in northern cliff face outside Mt. Moon (approached from Route 3 / Route 4 west).
 - Route 4 Signpost: Located at (17, 7).
 
 ## Eastern Section (Mt. Moon Exit to Cerulean City)
