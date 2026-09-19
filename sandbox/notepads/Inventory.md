@@ -48,7 +48,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥19481 [Turn 29106]
+- ¥20081 [Turn 29156]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]

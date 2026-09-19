@@ -8,7 +8,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
-- Money: ¥19481 [Turn 29106]
+- Money: ¥20081 [Turn 29156]
 - Pokédex: 19 Caught / 128 Seen
 
 ## Milestones
@@ -213,7 +213,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥19481 [Turn 29106]
+- ¥20081 [Turn 29156]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
