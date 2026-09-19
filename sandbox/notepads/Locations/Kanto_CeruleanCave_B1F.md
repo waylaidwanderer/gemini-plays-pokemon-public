@@ -43,7 +43,11 @@
     - Row 8 forms an open east-west corridor spanning Columns 19 through 24+.
     - Columns 23 and 24 form a 2-tile wide open vertical highway running north from Row 8 through Rows 1..7 into the northern reaches of B1F!
     - Row 1 opens east into a broad northern chamber spanning Columns 23 through 28.
-    - Staircase (27, 7): Wooden staircase at (27, 7) descending south from (27, 6) into water at (27, 8).
+    - Staircase (27, 7): Wooden staircase at (27, 7) descending south from (27, 6) into water at (27, 8) (Surf launch site)!
+  - Eastern Water Channel & Island (Cols 23..27, Rows 8..15+):
+    - Launched Surf from Staircase (27, 7) onto (27, 8).
+    - Water spans (26..27, 8..9) and broadens across (23..27, 10..11).
+    - Island / platform sighted at Columns 24..27 across Rows 12..16+.
     - Water borders to the east at Columns 22..24 (Rows 10..15) and Columns 26..27 (Rows 8..11).
     - Ascended via Staircase (19, 11) onto open purple floor at (19, 10).
     - Row 5 is blocked by boulders across (18..22, 5).
