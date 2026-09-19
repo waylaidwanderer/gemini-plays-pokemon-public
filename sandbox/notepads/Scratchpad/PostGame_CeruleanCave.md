@@ -16,8 +16,8 @@
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F Central-Western Terrace at (11, 12).
-- Critical Correction [Turn 26671]: (19, 7) on 2F connects north to (21, 5) -> (21, 4) -> (22, 2) [previously traversed Turns 26416-26418]. It is NOT a dead end!
-- Immediate Route: Return to Ladder (18, 9), re-ascend to 2F (19, 7), step north through (19, 5) -> (21, 5) -> (21, 4) -> (22, 2) -> Row 2 corridor to explore the unvisited eastern corridors.
+- Strategic Route [Turn 26704]: Navigating entirely on foot via Staircase (17, 15) -> Row 17 Southwest Lower Corridor -> Staircase (1, 13) -> Western Terrace Ladder (3, 11).
+- Target: Ascend Ladder (3, 11) to enter 2F Western Network directly adjacent to Candidate Ladder (1, 3) and the Northwest Enclave.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
