@@ -4616,7 +4616,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Exit Indigo Plateau building to outdoor entrance [Turn 29109]
 - [x] Fly to Cinnabar Island [Turn 29115]
 - [x] Launch Surf on Route 20 at (0, 12) [Turn 29120]
-- [ ] Surf Route 20 east to Seafoam Islands western entrance
+- [x] Surf Route 20 east to Seafoam Islands western entrance at (32, 10) [Turn 29129]
 - [ ] Infiltrate Seafoam Islands (Route 20)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
@@ -4658,7 +4658,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Landmarks & Layout
 - Western Boundary: Shoreline at x=0, rows 8..14. Cinnabar Island is visible to the west.
 - Open Water Channel: Rows 8..16 confirmed completely clear across columns 0 to 19, bounded south by rock barrier at row 17 [Verified Turn 29123].
-- Seafoam Islands: Dual island cavern complex located along the route to the east.
+- Seafoam Islands (Western Mound): Dual island cavern complex. Western island cliff face at col 32, rows 8..9, with western cave entrance located at (32, 10) [Sighted Turn 29129].
 
 ## Trainers & Encounters
 - Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
