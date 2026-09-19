@@ -10,4 +10,8 @@
 - Southern Cavern Chamber: Wide open floor spanning cols 7..14, rows 7..10.
 - Northern Water Canal: Rows 4..5 spanning cols 7..13, bounded north by rocks at row 3 with wooden dock at (7, 3).
 - Southern Boundary: Row 11 has rocks at cols 8..12, wooden dock at (7, 11), and eastern opening at cols 13..14.
-- Eastern Sector: Open passage at cols 13..14 extending east into unexplored chambers.
+- Eastern Sector: Open passage at cols 13..14 extending east into unexplored chambers.- Ladder 2 (SW): Located at (9, 15) [Sighted Turn 29207].
+- Southern Chamber: Rows 14..15 span wide open floor across cols 9..18+.
+
+## Wild Encounters
+- Psyduck [Encountered Turn 29207].
