@@ -21,3 +21,8 @@
   - Upper corridor at rows 3..4 across cols 21..28 with ladder at (25, 3..4).
   - Dividing horizontal rock wall at row 5 across cols 20..28.
   - Mid corridor at row 6 passes west through (20, 6) into western boulder chamber (cols 17..19, rows 6..15) [Verified Turn 29177].
+- Elevated Plateau & Boulder Access [Audited Turn 29178]:
+  - Col 20 is solid rock wall from row 2 down to row 9.
+  - Wooden stairs at (23, 9) connects northern floor at (23, 8) south onto elevated plateau at row 10.
+  - Elevated plateau at row 10 spans continuously from col 23 west through col 17.
+  - Boulder at (18, 10) rests directly on this plateau; approached from (23, 10) walking West along row 10 to (19, 10).
