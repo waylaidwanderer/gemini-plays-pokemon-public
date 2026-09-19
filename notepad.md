@@ -1084,7 +1084,7 @@
   - Pokémon Day Care house (west side at rows 16..23).
   - Underground Path Entrance Building (cols 16..19, rows 24..27, door at (17, 27)).
   - Underground Path Signpost (17, 29).
-  - Saffron City Gatehouse (southwest at row 30+).
+
 
 <hr>
 
