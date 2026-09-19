@@ -38,5 +38,11 @@
 - Secret House (Cols 6..9, Rows 2..5) [Audited Turn 28782]:
   - Small cottage located north of the paved corridor.
   - Green gabled roof at rows 2..4, yellow windows at row 5.
-  - Front apron along row 6 (cols 6..11) is paved with pale mint pavement.
-  - House entrance accessed from row 6.
+  - Front entrance door located at (7, 5) facing south onto row 6 apron at (7, 6) [Verified Turn 28783].
+  - Windows at (8, 5). House spans cols 6..9, rows 2..5.
+
+- Secret House Interior (Audited Turn 28784):
+  - Entrance mat at (2..3, 7) facing north.
+  - Occupants: Girl NPC at (2, 3), Fearow at (6..7, 3..4).
+  - Furniture: Central table at (3..4, 3..4) with chairs at (2, 4) and (5, 3..4). Potted plants at corners.
+  - Approach: Column 1 is open from row 7 up to row 3, allowing player to stand at (1, 3) facing East to speak with the girl.
