@@ -4151,15 +4151,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (3, 11) on Ladder (Western Network).
-- Strategic Realization: Staircase (21, 11) in Entrance Cavern is the original entrance stairs to Entrance Terrace / Ladder (23, 7). Ladder (3, 11) on Western Terrace is the ONLY ladder providing access to 2F Western Network and Row 9.
+- Current Location: Cerulean Cave 2F at (9, 9) on Row 9.
+- Verified Row 8 Boundaries: (4, 8) and (9, 8) are verified solid boulders.
+- Active Hypotheses (Unverified):
+  - Tile (6, 6) visually appears as floor gap between boulders at (5, 6) and (7, 6).
+  - Access to Row 7 (1..11, 7) or Northwest Enclave remains to be found.
 - Active Plan:
-  1. Surf west along Row 4 to (15, 4), south down Column 15 to (15, 7), west along Row 7 to Column 9, south to (9, 14), and east to Staircase (11, 13).
-  2. Dismount at Staircase (11, 13), cross Central-Western Terrace to Staircase (17, 15).
-  3. Traverse Southwest Lower Corridor along Row 17 and Column 2 to Staircase (1, 13), ascending to Western Terrace.
-  4. Ascend Ladder (3, 11) to 2F.
-  5. On 2F, walk north from (3, 11) to (3, 9), and systematically collision-test each column (4..11) along Row 9 stepping North into Row 8 to locate the passage into Rows 8, 7, 6.
-  6. Enter Northwest Enclave, reach Ladder (1, 3), and take it to discover B1F (Mewtwo's lair).
+  1. From (9, 9), walk east to Column 12 / 13 along Row 9.
+  2. Test passage south via Column 12 (12, 10..15) or east via Row 8 bypass (13..15, 8).
+  3. Explore Column 12 Vertical Highway to see if it connects to the western lower network or other branches.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4243,12 +4243,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Row 8 Collision Tests from Row 9: Bump tests confirmed (4, 8) [Turn 27414] and (9, 8) [Turn 27415] are solid rock boulders blocking northward passage from Row 9.
 - Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. (2, 3) is solid rock. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
 - Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5) (empirically confirmed via physical bump test from (9, 5) on Turns 27083-27084: pressing Left resulted in wall collision). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access route into this enclave from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south, and Row 8 blocks from the south.
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
-- Column 9 Southern Passage to Row 7 (Cols 8..10, Rows 7..9): Physical bump test from (4, 9) confirmed (4, 8) is solid rock wall [Turn 27414]. Visual and coordinate audit confirmed (9, 8) and (9, 7) form an open 1-tile wide vertical passage connecting Row 9 directly north into Row 7.
-- Column 6 Transit Gap (6, 6): Tile (6, 6) is an open floor gap through the Row 6 boulder line, connecting Row 7 north into the Row 5 Northwest corridor spanning (0..7, 5).
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). Physical bump test from (10, 5) confirmed (10, 6) is solid rock wall, blocking south access to Row 6/7. [Empirically verified Turn 27246]
 - Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
