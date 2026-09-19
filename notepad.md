@@ -4473,5 +4473,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Passage (Col 2, Rows 21..25): Open north-south corridor connecting row 25 north past rubble at (3, 22..23) to row 21.
 - Northern Hallway (Row 21, Cols 2..7): Open east-west corridor extending east to column 7, bounded south by generators/walls at rows 22-23 and east by wall at column 8.
 - Corridor & Gateway (Rows 18..21, Cols 2..7) [Audited Turn 28551]: West wall at Column 0. Generators at (1, 21), (1..3, 19). Wall partition at (1..4, 18). Wide open passage at cols 5..7 through row 18 connects north into row 17 corridor (cols 2..7). Rubble at (1, 17).
+- Item Ball at (9, 20) [Discovered Turn 28552]: Visible at (9, 20) in an alcove surrounded by rubble at (9, 18..19), (10..11, 18..20), and wall at (8, 20). Accessible only from the south via (9, 21). Unverified whether item or Voltorb trap.
+- East-West Passage (Rows 15..16, Col 8): Open floor gap through column 8 dividing wall, connecting western corridor (cols 2..7) to eastern wing (cols 9..11+).
+- Northern Corridor Funnel (Rows 13..14, Cols 6..7): Bounded west by rubble at (2..5, 13) and east by wall at (8, 13..14). Open corridor heads north through (6..7, 13) toward northern facility.
 
 <hr>
