@@ -4492,7 +4492,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Separated from western approach by solid wall at row 12.
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
-- Row 14 Highway: Physically traversed across cols 34..38 [Turn 28638]. Wide continuous open horizontal hallway connecting outer eastern corridor (cols 37-38) west across (36, 14).
+- Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24.
 - Gateway at (30..31, 13) [Traversed Turn 28640]: 2-tile wide open north-south passage through row 13 wall connecting Row 14 Highway to Row 12 Concourse.
 - Row 12 Concourse [Traversed Turns 28641, 28647]: Open horizontal avenue running across cols 26..38 north of row 13 wall.
 
