@@ -1,7 +1,7 @@
 # Vermilion City Geography & Points of Interest
 
 ## Connections
-- North: Route 6 northern entrance at (18..19, 0).
+- North: Route 6 northern entrance at (18..19, 0). Stepping North from (19, 0) arrives at Route 6 (9, 35) [Turn 28425].
 - South: Harbor & S.S. Anne docks.
 - East: Route 11 border connection at (39..40, 14..15) [Verified Turn 28410].
 

@@ -1,8 +1,8 @@
 # Route 6 Geography & Points of Interest
 
 ## Connections
-- North: Underground Path entrance building at (17, 13); Saffron City southern gatehouse at (10, 8) [Verified Turn 13480].
-- South: Vermilion City northern entrance.
+- North: Underground Path entrance building at (17, 13) [Door at (17, 13) transitions to interior mat at (3, 7), Turn 28439]; Saffron City southern gatehouse at northern border.
+- South: Vermilion City northern entrance. Stepping South from (8..9, 35) connects to Vermilion City (18..19, 0) [Turn 28425].
 
 ## Geography & Layout
 - Underground Path Entrance Building (Cols 16..19, Rows 10..13): Front door at (17, 13) leading north into Underground Path to Route 5.
