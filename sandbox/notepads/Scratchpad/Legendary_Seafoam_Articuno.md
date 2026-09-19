@@ -2,9 +2,10 @@
 
 ## Quest Objectives & Routing
 - [x] Transit & Prep: Power Plant -> Indigo Plateau (54 Ultra Balls) -> Cinnabar -> Route 20 to Seafoam Islands entrance at (34, 9) [Turns 29085-29131]
-- [x] Locate Seafoam Islands western entrance at (57, 11) [Turn 29144]
-- [x] Land at (57, 12) and enter Seafoam Islands 1F via (57, 11) [Turn 29157]
+- [x] Locate Seafoam Islands western entrance at (58, 9) via dock at (58, 10..11) [Turn 29158]
+- [ ] Enter Seafoam Islands 1F via (58, 9)
 - [ ] Survey Seafoam Islands 1F layout, boulders, holes, and ladders
+- [ ] Invoke seafoam_boulder_agent to plan 1F boulder puzzle
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
