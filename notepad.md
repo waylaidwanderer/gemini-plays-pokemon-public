@@ -4459,7 +4459,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Environment: Fully and naturally lit interior (HM05 Flash is NOT required). Abandoned industrial facility with pink/white checkered floors, machinery, generators, and scrap rubble.
 
 ## Encounters & Mechanics
-- Wild Pokémon: Voltorb (encountered Turn 28543), Magnemite, Magneton, Pikachu, Electabuzz, Grimer, Muk.
+- Wild Pokémon: Voltorb (Lv 21, encountered Turn 28543), Magnemite, Magneton, Pikachu, Electabuzz, Grimer, Muk.
 - High-Value Target: Legendary Bird ZAPDOS (Lv 50, Electric/Flying) located at the deep terminus of the plant.
 - Traps: Multiple item balls are disguise Voltorb / Electrode traps that initiate wild combat when interacted with.
 - Permanence: Fleeing from or defeating Zapdos permanently despawns it. Stand directly adjacent and SAVE before pressing 'A'!
