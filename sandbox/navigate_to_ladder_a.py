@@ -22,7 +22,7 @@ def step(d):
     return after
 
 def walk_to(target_x, target_y):
-    max_steps = 20
+    max_steps = 25
     for _ in range(max_steps):
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
@@ -41,29 +41,10 @@ def walk_to(target_x, target_y):
 
 print("Starting from:", mgba.get_coordinates())
 
-# Waypoint 1: (16, 3) -> (16, 5)
-walk_to(16, 3)
-walk_to(16, 5)
+# Segment 1: (16, 5) -> (16, 6) -> (20, 6) -> (20, 5) -> (21, 5)
+walk_to(16, 6)
+walk_to(20, 6)
+walk_to(20, 5)
+walk_to(21, 5)
 
-# Waypoint 2: (9, 5)
-walk_to(9, 5)
-
-# Waypoint 3: (9, 3)
-walk_to(9, 3)
-
-# Waypoint 4: (5, 3)
-walk_to(5, 3)
-
-# Waypoint 5: (5, 5)
-walk_to(5, 5)
-
-# Waypoint 6: (0, 5)
-walk_to(0, 5)
-
-# Waypoint 7: (0, 3)
-walk_to(0, 3)
-
-# Waypoint 8: Step Right onto Ladder A at (1, 3)
-step("Right")
-
-print("Final position:", mgba.get_coordinates())
+print("Pos after Segment 1:", mgba.get_coordinates())
