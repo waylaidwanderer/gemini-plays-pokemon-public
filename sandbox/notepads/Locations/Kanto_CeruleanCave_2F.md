@@ -8,7 +8,7 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
-- Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
+- Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
 - Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
   - Row 17 Southern Thoroughfare terminates west at (1, 17), bounded by solid rock walls at (0, 17) and (1, 18).
@@ -76,3 +76,4 @@
 
 - Tile (25, 3): Empirically verified solid rock wall blocking eastward movement from (24, 3) [Turn 26419]. Ladder (19, 7) sector is bounded east by rock wall (25, 0..3).
 - Tile (19, 4): Empirically verified solid rock wall blocking direct northbound access from (19, 5) [Turn 26509]. Bypass route east: (19, 5) -> (20..21, 5) -> (21, 4) -> (22, 4) -> (22, 3..2).
+- Row 0 Northern Enclosure (Cols 21..24, Row 0): Enclosed pocket spanning (21..24, 0) and (20..22, 1). (22, 1) is solid rock, preventing direct northbound traversal from (22, 2). (16..20, 0) are solid rock walls. [Physically verified Turn 26513-26514]

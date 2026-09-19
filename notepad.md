@@ -4322,5 +4322,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Tile (25, 3): Empirically verified solid rock wall blocking eastward movement from (24, 3) [Turn 26419]. Ladder (19, 7) sector is bounded east by rock wall (25, 0..3).
 - Tile (19, 4): Empirically verified solid rock wall blocking direct northbound access from (19, 5) [Turn 26509]. Bypass route east: (19, 5) -> (20..21, 5) -> (21, 4) -> (22, 4) -> (22, 3..2).
+- Row 0 Northern Highway (Cols 18..24, Row 0): Continuous horizontal thoroughfare spanning across the north of the cavern, connecting Column 24 and Column 22 directly west past Column 18 toward the northwest enclave. Bypasses the Column 19 rock barrier via (19, 0). [Visually verified Turn 26512]
+- Column 22 Thoroughfare (Col 22, Rows 0..4): Open vertical passage connecting Row 4 and Row 2 directly north to the Row 0 Northern Highway at (22, 0). [Visually verified Turn 26512]
 
 <hr>
