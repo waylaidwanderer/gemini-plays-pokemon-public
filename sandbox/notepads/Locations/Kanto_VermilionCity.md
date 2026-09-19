@@ -3,7 +3,7 @@
 ## Connections
 - North: Route 6 northern entrance at (18..19, 0).
 - South: Harbor & S.S. Anne docks.
-- East: Route 11 entrance.
+- East: Route 11 border connection at (39..40, 14..15) [Verified Turn 28410].
 
 ## Geography & Landmarks
 - Northern Entrance: Paved street at (18..19, 0..3) entering south from Route 6.
