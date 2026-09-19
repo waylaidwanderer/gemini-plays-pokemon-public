@@ -11,11 +11,11 @@
    - Row 7 spans Columns 1 to 11 and dead-ends east at (11, 7), enclosed by boulder (11, 6), boulder (12, 7), and boulder (11, 8).
    - Row 6 has only ONE passage at (6, 6) connecting Row 7 to Row 5 West.
    - Row 5 has boulder (8, 5) separating Row 5 West (Cols 0..7) from Row 5 East (Cols 9..16).
-2. The Sector A Breakthrough Target:
-   - On 2F, Sector A has Row 3 running west to (3, 3).
-   - Directly south of (3, 3) is tile (3, 4), and south of (3, 4) is (3, 5) on Row 5 West.
-   - Tile (3, 4) was omitted during prior Row 4 tests and remains physically unverified.
-   - In Sector A, bump-test tile (3, 4) from (3, 3) to verify if it connects into Row 5 West and Ladder (1, 3).
+2. Definitive Sector A & 2F Northwest Enclave Findings [Turn 27545]:
+   - Bump test confirmed (3, 4) is solid rock boulder [Turn 27545].
+   - Row 4 (Cols 2..8) and Column 2 (Rows -1..4) are 100% solid rock.
+   - 2F Northwest Enclave is completely enclosed on all sides with zero passage from 2F.
+   - Ladder (1, 3) is the sole entrance/exit for this enclave.
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (11, 2) on Northern Terrace.
