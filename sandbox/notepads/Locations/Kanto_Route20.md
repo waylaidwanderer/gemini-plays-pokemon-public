@@ -22,3 +22,5 @@
   - Rock boundary at col 43, rows 7..12 and row 13, cols 43..47.
   - Southern open water corridor at row 14, cols 42..47 passes south of rock barrier.
   - Green island grass sighted at cols 46..47, rows 7..9.
+- Southern Channel: Rows 14..16 confirmed open water across cols 40..49, bounded north by rock reef at row 13 and south by rock wall at row 17 [Verified Turn 29140].
+- Islet / Promontory: Grass at cols 46..47, rows 7..9 with southern shoreline at row 10; channel opens back up to water at cols 48..49 [Audited Turn 29140].
