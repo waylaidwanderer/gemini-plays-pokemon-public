@@ -8,7 +8,7 @@
 1. **Ladder B**: Located at (23, 7) <-> 2F (22, 6).
 2. **Ladder C**: Located at (18, 9) <-> 2F (19, 7).
 3. **Ladder D**: Located at (27, 1) <-> 2F (29, 1) in northeast alcove.
-4. **Ladder E**: Located at (7, 1) <-> 2F (9, 1) in northwest sector. Leads directly to 2F Northwest Sector and Ladder A (1, 3) to B1F Mewtwo!
+4. **Ladder E**: Located at (7, 1) <-> 2F (9, 1) in northwest sector.
 5. **Cave Entrance / Exit**: Located in the south leading out to Cerulean City canal.
 
 ## Verified Docks & Waterway Routing
