@@ -218,11 +218,11 @@
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 220 / 234 [Verified Turn 29084]
+  - HP: 234 / 234 [Healed Turn 29289]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 16/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 13/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -254,7 +254,7 @@
   - Status: Healthy
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
@@ -4613,7 +4613,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Swimmer at (24, 12) [Sighted Turn 29124]: Positioned in mid water channel facing South (sight line down col 24, rows 13..16). Northern corridor at row 11 passes cleanly behind him [Verified Turn 29125].
 - Wild Encounters: Tentacool (water) [Encountered Turn 29126].
 - Swimmer at (25, 7) [Sighted Turn 29128]: Positioned in northern water channel.
-- Swimmer at (38, 13) [Engaged Turn 29308]: Facing North. Opening line: 'Check out my buff physique!'.
+- Swimmer at (38, 13) [Engaged Turn 29308]: Facing South. Engaged from (38, 14). Opening line: 'Check out my buff physique!'.
 - Swimmer at (45, 10) [Sighted Turn 29139]: Located in channel west of island.
 - Jr. Trainer ♀ at (56, 14) [Encountered Turn 29146]: Guarding entrance approach channel at (57, 14). Line: 'Are you on vacation too?'. Team (Complete): Tentacool Lv 30, Horsea Lv 30, Seel Lv 30 [Verified Turns 29147-29154].
 
