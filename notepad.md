@@ -4371,7 +4371,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rhydon: Lv 55 [Encountered Turn 28118]
 - Raichu: Lv 64 [Encountered Turn 28134]
 - Sandslash: Lv 57 [Encountered Turn 28163]
-- Chansey: Wild encounter [Encountered Turn 28175]
+- Chansey: Lv 64 [Encountered Turn 28175]
 
 ## Objectives & High-Value Targets
 - Mewtwo: Legendary psychic Pok�mon residing on B1F. Target for Master Ball capture.
