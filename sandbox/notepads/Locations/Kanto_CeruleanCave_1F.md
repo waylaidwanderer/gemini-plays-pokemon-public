@@ -10,6 +10,7 @@
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
+- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Visual scan from (7, 2) indicates rock walls at (3..4, 0..3) bounding the terrace on the west. Access to (0, 6) remains unvisited on ground.
 - Row 8 Cliff Barrier (Cols 1..6, Row 8):
   - Cols 1..4: Stepping Up into Row 7 from (1, 8), (2, 8), (3, 8), and (4, 8) is completely blocked by an elevation cliff face / south-facing ledge [Verified Turns 26306-26307].
   - Cols 5..6: Stepping Up into Row 7 from (5, 8) and (6, 8) is blocked by solid rock walls at (5, 7) and (6, 7) [Empirically tested Turn 26379].
@@ -47,4 +48,3 @@
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
-- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Visual scan from (7, 2) indicates rock walls at (3..4, 0..3) bounding the terrace on the west. Access to (0, 6) remains unvisited on ground.
