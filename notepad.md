@@ -242,7 +242,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 28/30)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 27/30)
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
@@ -948,7 +948,7 @@
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
 - Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
-- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28). Cut tree at (19, 28) chopped down by DUX on Turn 28465, opening direct passage between southern Route 5 approach and Cerulean Pok�mon Center avenue.
+- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28). Cut tree at (19, 28) chopped down by DUX on Turn 28465 and re-cleared Turn 28696, opening direct passage between southern Route 5 approach and Cerulean Pok�mon Center avenue.
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
 
 ## Key Buildings & Facilities
