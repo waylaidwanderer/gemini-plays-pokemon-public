@@ -9,7 +9,7 @@
   - Bounded east by solid purple boulders at Column 5 (Rows 3..6).
   - Bounded south by solid purple boulders across Row 7 (Cols 0..5).
   - Exit: Wide open north exit into Row 1 & Row 2 corridor.
-- Northern Horizontal Artery (Cols 1..8, Rows 1..2): Broad 2-tile wide open horizontal corridor running east above the starting chamber.
+- Northern Horizontal Artery (Cols 1..8+, Rows 0..2): Broad 3-tile high open horizontal thoroughfare running east above the starting chamber, bounded north by cavern wall at Row -1.
 - Lower Southern Corridor (Rows 7..10): Reddish-brown cave floor visible south of Row 7 boulders.
 
 ## Wild Pok�mon
