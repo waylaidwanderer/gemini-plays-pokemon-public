@@ -5,7 +5,7 @@
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
-- Ladder (1, 3): Cave ladder visually confirmed at (1, 3) [Turn 27479]. Located in isolated northwest corridor (Cols 1..5, Rows 3..6). Visual corridor extends from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), and north through (5, 5..4). Access route from other floors remains an unverified hypothesis until physically tested. Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8 (blocked from south).
+- Northwest Corridor Ladder: Visually sighted at (0, 6) [Turn 27580] (initially estimated at (1, 3) Turn 27479). Located in isolated northwest corridor (Cols 0..5, Rows 3..7). Visual corridor extends from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), and north through (5, 5..4). Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8 (one-way exit).
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
@@ -32,7 +32,7 @@
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
 - Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
-- Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
+- Eastern Corridor (Cols 27..28, Rows 12..16): Decorative basin enclosed by Row 12 cliff (tested from water Turn 27615), Pillar 26, and cave walls. Zero ladders.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
