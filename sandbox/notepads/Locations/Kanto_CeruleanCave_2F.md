@@ -3,7 +3,7 @@
 ## Connections & Ladders
 - Ladder (7, 1): Cave ladder confirmed at (7, 1). Accessed from (7, 0) stepping Down into (7, 1). Connected to open room (5..12, 0..2). [Visually confirmed Turn 26570]
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Connects to 1F Ladder (7, 1). [Physically verified Turn 26574]
-- Ladder (1, 3): Cave ladder confirmed at (1, 3) in far northwest corner. Accessed via Column 0 at (0, 3) facing East. 100% verified route: (3, 1) -> (3, 3) -> Row 3 east to (7, 3) -> south to (7, 5) -> Row 5 west to (0, 5) -> north up Column 0 to (0, 3) -> East into (1, 3). [Visually and geometrically verified Turn 26554]
+- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Empirically confirmed physically sealed on 2F by rock walls at (2, 2..3), Row 4 (1..8, 4), and Row 1 (0..2, 1). Has zero ground access from the rest of 2F; accessed exclusively via 1F Ladder (0, 6). [Empirically verified Turn 26577]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
