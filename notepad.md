@@ -4501,5 +4501,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball 5 at (21, 25) [Sighted Turn 28608]: Visually verified Poké Ball sprite at (21, 25) in southern corridor, bounded north by (21, 24) and south by (21, 26). Identity unverified.
 - Southern Chute (Cols 9..11, Rows 21..24) [Audited Turn 28611]: Open passage south through (9..10, 22) into row 23 corridor (cols 8..11), connecting south through (11, 24) to the southern highway (rows 24-26).
 - Southern Bypass Avenue (Rows 27..29, Cols 10..17) [Audited Turn 28613]: Row 28-29 is an open avenue connecting cols 10..17 beneath the column 14-15 obstacles. Column 16 connects north through row 27 into the Row 26 eastern highway.
+- Item Ball 6 at (20, 32) [Sighted Turn 28616]: Visible at (20, 32) in southern machine corridor, south of generator at (20, 31). Accessible from west via (18..19, 32). Identity unverified.
 
 <hr>
