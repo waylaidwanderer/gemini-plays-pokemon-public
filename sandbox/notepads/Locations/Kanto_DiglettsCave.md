@@ -22,3 +22,10 @@
 ## Wild Encounters
 - Diglett: Lv 15-22 observed throughout main tunnel.
 - Diglett: Lv 18 caught [Turn 3507], nicknamed DIGBY.
+
+## Route 2 Entrance Room (North Building - Audited Turn 28381)
+- Room Bounds: Walls enclose room across rows 3..7, cols 1..5.
+- South Exit Mat: (2..3, 7) facing South exits outside to Route 2 East at (12, 9).
+- NPC at (3, 3): Trainer with orange hat and blue shirt facing South.
+- Ladder Down: Located at (4, 4) leading down into the main tunnel at (5, 5).
+- Floor: Open dirt cave floor across cols 1..5, rows 4..6.

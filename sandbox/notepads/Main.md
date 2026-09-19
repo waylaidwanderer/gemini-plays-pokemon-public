@@ -151,3 +151,5 @@
 - [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
+- [ ] Infiltrate Kanto Power Plant via Route 10 canal and capture Legendary ZAPDOS
+- [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO

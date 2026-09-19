@@ -2,8 +2,8 @@
 
 ## Quest Objectives & Routing
 1. Traverse Route 1 North from Pallet Town to Viridian City. [DONE - Turn 28350]
-2. Traverse Route 2 North to Diglett's Cave (Cut tree at 12, 52 and gatehouse). [ACTIVE]
-3. Traverse Diglett's Cave to Route 11 / Vermilion City.
+2. Traverse Route 2 North to Diglett's Cave (Cut tree at 12, 52 and gatehouse). [DONE - Turn 28381]
+3. Traverse Diglett's Cave to Route 11 / Vermilion City. [ACTIVE]
 4. Ride through Vermilion -> Route 6 -> Saffron City -> Route 5 -> Cerulean City.
 5. Heal team at Cerulean City Pokémon Center and set warp anchor.
 6. Traverse Route 9 East (Cut tree at entrance with DUX).
