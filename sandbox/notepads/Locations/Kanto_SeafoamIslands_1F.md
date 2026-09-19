@@ -17,7 +17,6 @@
 - Central Subterranean Waterway [Audited Turn 29184]:
   - Open water canal spanning cols 15..23, rows 8..11 (and cols 18..19, rows 6..7).
     - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
-  - Central Waterway: Water canal spanning cols 15..23, rows 8..11, leading into rapid subterranean current.
 
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
