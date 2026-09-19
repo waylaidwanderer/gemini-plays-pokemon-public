@@ -4166,7 +4166,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - 1F (27, 1) <-> 2F (29, 1) [2-way confirmed]
    - 1F (7, 1) <-> 2F (9, 1) [2-way confirmed]
    - 1F (3, 11) <-> 2F (3, 11) [2-way confirmed]
-   - Candidate Pair: 1F (0, 6) and 2F (1, 3) [Descent to B1F or reciprocal passage]
+   - Verified Pair: 2F (1, 3) <-> 1F (1, 3) [Arrived 1F Turn 28101!]
+   - Destination Ladder: 1F (0, 6) descends directly to B1F (Mewtwo)!
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
