@@ -18,9 +18,7 @@
   - Gatehouse Interior (Audited Turn 28723): North mat at (3..4, 0), central green-checkered corridor across cols 3..4 (rows 1..6), guard at (1, 3) behind west counter, south exit mat at (3..4, 7). Guard allows free passage.
   - South Exit Door: Located at (10, 33) facing south onto row 34 courtyard.
   - Row 33 Barrier: Continuous collision boundary across row 33 consisting of wooden bollards at (2..5, 33) [Confirmed solid Turn 28720], the gatehouse south wall (cols 6..13), and bollards at (14..17, 33). Passing to row 34 requires walking through the gatehouse interior.
-  - Building structure spanning cols 6..13 with yellow diamond lattice roof at rows 30..31.
   - Bounded on north by decorative bollards at (8, 28..29) and (11, 28..29).
-  - Eastern flank bounded by bollards at (14..17, 33).
 - Western Boulevard Bypass (Cols 2..5, Rows 23..31+) [Audited Turn 28718]:
   - 4-tile wide open pale mint paved boulevard running north-south along the western edge of Route 5.
   - Bounded on west by column 1 tall grass/hedge border.
