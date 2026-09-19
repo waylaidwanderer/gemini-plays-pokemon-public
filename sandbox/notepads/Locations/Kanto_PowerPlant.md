@@ -16,5 +16,7 @@
 ## Audited Layout & Features (Turn 28542)
 - Entrance Corridor (Rows 27..34, Cols 3..5): Clear north-south passage between rubble piles at (1..2, 28..31) and (6..7, 28..31).
 - Wall Partition & Doorway (Row 26): Horizontal dividing wall across row 26, with an open 2-tile doorway at (4..5, 26).
-- Northern Corridor (Row 25): Open horizontal hall across columns 1 through 6.
-- Item Ball 1 (7, 25): Sitting at (7, 25) east of the row 25 corridor (unverified: real item or Voltorb trap).
+- Corridor (Row 25, Cols 2..7): Open horizontal hallway. Tile (7, 25) verified to be empty checkered floor (no item ball). Terminated east by rubble at (8..10, 25).
+- Western Passage (Col 2, Rows 21..25): Open north-south corridor connecting row 25 north past rubble at (3, 22..23) to row 21.
+- Northern Hallway (Row 21, Cols 2..7): Open east-west corridor extending east to column 7, bounded south by generators/walls at rows 22-23 and east by wall at column 8.
+- Corridor & Gateway (Rows 18..21, Cols 2..7) [Audited Turn 28551]: West wall at Column 0. Generators at (1, 21), (1..3, 19). Wall partition at (1..4, 18). Wide open passage at cols 5..7 through row 18 connects north into row 17 corridor (cols 2..7). Rubble at (1, 17).
