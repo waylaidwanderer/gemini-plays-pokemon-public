@@ -13,7 +13,7 @@
 
 ## Verified Docks & Waterway Routing
 - **North Dock**: Located at (15, 3). Connects Northern Mainland (Row 1) to Central Waterway at (15, 4).
-- **South Shore**: Located at (15, 8). Allows launching Surf north into (15, 7) to reach North Dock (15, 3).
+- **South Shore**: Located at (15, 8). Direct Surf launch is blocked by elevation.
 - **Central Island Dock**: Located at (11, 13).
 - **Northern Mainland**: Spans rows 0-2 from (15, 1) west to Ladder E at (7, 1). Open passable horizontal highway.
 ## Verified Central Plateau & Southern Waterway (1F)
