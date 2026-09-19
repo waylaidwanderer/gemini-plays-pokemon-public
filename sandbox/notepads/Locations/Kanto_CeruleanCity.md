@@ -4,7 +4,7 @@
 - South: Route 5 border connection at (25..27, 36) and tall grass strip warp at Cerulean (25, 35) <-> Route 5 (15, 0).
 - West: Route 4 eastern bridge at (0, 18..19).
 - North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
-- East: Route 9 entrance (step East from (37, 16) onto (38, 16) warps to Route 9 (0, 8)).
+- East: Route 9 entrance. Stepping East from (39, 16) onto column 40 warps to Route 9 (0, 8) [Turn 28491]. (Note: (38, 16) is internal grass path).
 
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
@@ -46,5 +46,5 @@
 - Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
   - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
-- Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North.
+- Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North. Backyard path along rows 8..9 dead-ends east against trees at col 34; the true transit corridor turns south down Column 33 through rows 10..15 to access the Route 9 entrance [Verified Turn 28489].
 - Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the Poké Mart (cols 24..27).
