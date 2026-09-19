@@ -9,7 +9,7 @@
 - Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: ¥107981 [Turn 25269]
-- Pokédex: 17 Caught / 124 Seen
+- Pokédex: 18 Caught / 125 Seen
 
 ## Milestones
 
@@ -152,6 +152,7 @@
 - [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
 - [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
+- [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 
 
 <hr>
@@ -4151,7 +4152,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Protocol:
   1. MEWTWO LOCATED at (27, 13) on elevated platform! [DONE]
   2. Battle initiated against Wild Mewtwo Lv 70! [DONE]
-  3. Select ITEM -> Select MASTER BALL (Slot 1) -> USE to capture Mewtwo! [ACTIVE]
+  3. Master Ball used on Turn 1! [DONE]
+  4. Mewtwo captured successfully! [ACTIVE - Finalizing catch sequence, Pokédex registration, and nicknaming]
 
 
 <hr>
@@ -4383,7 +4385,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Electrode: Lv 55 [Encountered Turn 28187]
 
 ## Objectives & High-Value Targets
-- Mewtwo: Confirmed at (27, 13) on B1F platform! Confronted at (27, 14) with 'Mew!' dialogue active [Turn 28231]. Battle initiated for Master Ball capture!
+- Mewtwo: CAPTURED with Master Ball on Turn 28234 at (27, 13) [Lv 70]! Ultimate legendary quest complete!
 
 
 <hr>
