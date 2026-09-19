@@ -2828,6 +2828,9 @@
 - **Southern Highway (Row 17)**: Open passage running west from (27, 17) across rows 16-17 towards the western sector.
 - **Western Corridor (Ladder A 1, 3)**: Isolated western corridor containing Ladder A at (1, 3) to B1F Mewtwo.
 
+## Verified Empirical Collisions (2F)
+- Rocks / Impassable boundaries: (14, 2..4), (15, 4), (15, 6..7), (16, 2), (16, 8), (17, 2..8), (18, 4..5), (18, 8), (19, 1..2), (19, 4), (19, 8), (20, 4), (20, 7..8), (21, 3), (21, 6..8), (27, 3), (7, 4), (8, 5).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave1F.md</code></h1>
