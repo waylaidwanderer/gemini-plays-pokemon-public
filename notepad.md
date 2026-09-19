@@ -266,7 +266,8 @@
   - HP: 234 / 234 [Verified Turn 28243]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Psychic, Barrier, Swift, Recover
+  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 28245]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
 ## PC Box 1 Pokémon
