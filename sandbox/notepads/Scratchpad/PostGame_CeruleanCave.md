@@ -6,29 +6,24 @@
 - Hypothesis 4 (Unverified): 2F Northwest Enclave (Cols 0..2, Rows 1..4) is accessible via physical bump testing along Columns 3..2 on Rows 1..3.
 
 ## Post-Game Routing Strategy: Systematic 2F Row 8 Breakthrough
-1. Definitive 2F Row 8 & Row 7 Map Findings [Turns 27506-27520]:
-   - Row 8 is 100% solid boulders from Column 2 to Column 12.
-   - Row 7 spans Columns 1 to 11 and dead-ends east at (11, 7) enclosed by boulders (11, 6), (12, 7), (11, 8).
+1. 2F Row 8 & Row 7 Map Findings [Turns 27506-27520]:
+   - Row 8: Physical bump tests confirmed solid rock at (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (9, 8) [Turn 27415], and (11, 8) [Turn 27508]. Visual tile matching shows identical boulder tiles at (2, 8), (6..8, 8), (10, 8), and (12, 8).
+   - Row 7 spans Columns 1 to 11 and dead-ends east at (11, 7), enclosed by boulder (11, 6), boulder (12, 7), and boulder (11, 8).
    - Row 6 has only ONE passage at (6, 6) connecting Row 7 to Row 5 West.
    - Row 5 has boulder (8, 5) separating Row 5 West (Cols 0..7) from Row 5 East (Cols 9..16).
-   - Row 9 and 2F Western Network have ZERO passage into Row 7.
 2. The Sector A Breakthrough Target:
    - On 2F, Sector A has Row 3 running west to (3, 3).
-   - Directly south of (3, 3) is (3, 4), and south of that is (3, 5) on Row 5 West!
-   - Tile (3, 4) was NEVER bump-tested from (3, 3).
-   - In Sector A, test tile (3, 4) from (3, 3) to enter Row 5 West and reach Ladder (1, 3).
-3. Active Navigation:
-   - Return via Ladder (3, 11) to 1F, traverse Southwest Lower Corridor to 1F water, surf to Northern Terrace (15, 3), ascend Ladder (7, 1) to 2F Sector A, and test (3, 4) from (3, 3).
+   - Directly south of (3, 3) is tile (3, 4), and south of (3, 4) is (3, 5) on Row 5 West.
+   - Tile (3, 4) was omitted during prior Row 4 tests and remains physically unverified.
+   - In Sector A, bump-test tile (3, 4) from (3, 3) to verify if it connects into Row 5 West and Ladder (1, 3).
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 13) on Wooden Staircase (on foot).
+- Current Location: Cerulean Cave 1F at (11, 2) on Northern Terrace.
 - Active Plan:
-  1. Walk east along Row 2 to (15, 2) and descend Staircase (15, 3) into water at (15, 4).
-  2. Surf to Staircase (11, 13) and cross Central-Western Terrace to Staircase (17, 15).
-  3. Traverse Southwest Lower Corridor to Staircase (1, 13) and ascend to Western Terrace.
-  4. Take Ladder (3, 11) up to 2F.
-  5. Systematically bump-test Columns 5, 6, 7, 8, 10, 11 along Row 8 stepping North from Row 9 to enter Row 7.
-  6. From Row 7, step through (6, 6) into Row 5 West, reach Ladder (1, 3), and take it to discover B1F!
+  1. Walk Left x4 along Row 2 to (7, 2).
+  2. Ascend Ladder (7, 1) to 2F Sector A at (9, 1).
+  3. Walk west through Row 1 to (3, 1), south to (3, 3).
+  4. Physically bump-test tile (3, 4) stepping South from (3, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
