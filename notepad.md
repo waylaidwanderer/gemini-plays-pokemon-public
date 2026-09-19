@@ -2805,18 +2805,20 @@
 ## Overview
 - Ground floor of Cerulean Cave with waterways, elevated shoreline terraces, one-way ledges, and multiple ladders leading to 2F.
 
-## Verified Ladders & Entrances
+## Verified Ladders, Docks & Entrances
 1. **Cave Entrance**: Archway at (25, 17) / (24, 17) connecting to Cerulean City northwest canal.
-2. **Ladder B**: Located at (23, 7) <-> 2F (22, 6). Accessible via elevated shoreline terrace; Row 6 is an elevated cliff overlooking Row 5 water.
-3. **Ladder C**: Located at (18, 9) <-> 2F (19, 7). Descends into Central Corridor.
-4. **Ladder D**: Located at (27, 1) <-> 2F (29, 1). Isolated northeast alcove.
-5. **Ladder E**: Located at (7, 1) <-> 2F (9, 1). Northwest sector.
-6. **SW Ladder**: Located at (3, 11) <-> 2F (3, 11).
+2. **Ladder B**: Located at (23, 7) <-> 2F (22, 6). Accessible via elevated shoreline terrace.
+3. **Ladder C**: Located at (18, 9) <-> 2F (19, 7). Connects to Central Corridor on 1F.
+4. **Ladder D**: Located at (27, 1) <-> 2F (29, 1). Located in isolated northeast water alcove.
+5. **Ladder E**: Located at (7, 1) <-> 2F (9, 1). Northwest sector mainland.
+6. **SW Ladder**: Located at (3, 11) <-> 2F (3, 11). Southwest enclosed sector.
+7. **Dock / North Shore**: Located at (15, 3) / (15, 4). Connects northern mainland (rows 0-2) to central water channel.
 
 ## Verified Topology & Navigation Routes
 - **Entrance Basin**: Water channel across cols 23-25 (rows 12-16) leading to shoreline at (23, 8) / (23, 7).
-- **East Sector Ledges**: Ledge at (21, 11) hops down to (21, 12). Column 19 is a solid rock wall separating East Sector from Central Corridor.
-- **Central Corridor**: Accessible via Ladder C at (18, 9).
+- **Central Waterway**: Water channel on rows 4-7 spanning cols 11-25. Connects via (15, 4) dock to northern mainland, and east to Ladder D (27, 1).
+- **Northern Mainland (Rows 0-2)**: Open brown floor spanning cols 5-16. Contains Ladder E at (7, 1) and dock at (15, 3).
+- **Southwest Sector**: Enclosed land sector on cols 1-6 (rows 4-15) containing SW Ladder at (3, 11).
 
 <hr>
 
@@ -2837,12 +2839,11 @@
 6. **Ladder A (to B1F Mewtwo)**: Descending ladder to B1F located in western corridor at (1, 3).
 
 ## Verified Sector Structure & Navigation
-- **Southern Highway (Row 17)**: Spans across rows 17-18 connecting southwest sector to eastern sector (cols 15-27). Central bypass around rocks at (19, 15) connects via (19, 13) -> (22, 13) -> (22, 15) -> (21, 15) -> (21, 17) -> (27, 17).
-- **East Sector & Northeast Loop**:
-  - From (27, 17), ascend via (28, 16..14) -> (26, 14..9) -> (25, 9..7) -> (27..29, 6) -> (29, 5..3).
-  - Northeast corridor terminates at (28, 3) and (29, 1) Ladder D alcove; solid rock at (27, 3) blocks west passage.
-- **Northwest Sector (Ladder E 9, 1)**: Spans rows 1-5, cols 3-9. Isolated by solid rock barriers along Column 2 and Row 4; does NOT connect to Ladder A.
-- **Southwest Sector (SW Ladder 3, 11)**: Entrance to western sector containing Ladder A (1, 3) to B1F.
+- **Northwest Sector (Ladder E 9, 1)**: Spans rows 0-5, cols 3-13. Connects via (9, 5) -> (13, 5) -> (13, 1) -> (18, 1) to central bypass.
+- **Central Bypass (18, 1 <-> 21, 1)**: Bypasses rock at (19, 1) via (18, 3) -> (20, 3) -> (20, 1) -> (21, 1).
+- **Northeast Alcove (Ladder D 29, 1)**: Accessible from 1F water (27, 1). Connects via (29, 1) -> (28, 3) -> (29, 6) -> (27, 6) into Eastern Corridor.
+- **Eastern Corridor (cols 25-28)**: Runs south from (27, 6) through (25, 7..9) -> (26, 9..14) -> (28, 14..16) towards southern floor.
+- **Western Corridor (Ladder A 1, 3)**: Isolated western corridor containing Ladder A at (1, 3) to B1F Mewtwo, connected to SW Ladder (3, 11).
 
 <hr>
 

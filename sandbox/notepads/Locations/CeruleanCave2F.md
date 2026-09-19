@@ -13,9 +13,8 @@
 6. **Ladder A (to B1F Mewtwo)**: Descending ladder to B1F located in western corridor at (1, 3).
 
 ## Verified Sector Structure & Navigation
-- **Southern Highway (Row 17)**: Spans across rows 17-18 connecting southwest sector to eastern sector (cols 15-27). Central bypass around rocks at (19, 15) connects via (19, 13) -> (22, 13) -> (22, 15) -> (21, 15) -> (21, 17) -> (27, 17).
-- **East Sector & Northeast Loop**:
-  - From (27, 17), ascend via (28, 16..14) -> (26, 14..9) -> (25, 9..7) -> (27..29, 6) -> (29, 5..3).
-  - Northeast corridor terminates at (28, 3) and (29, 1) Ladder D alcove; solid rock at (27, 3) blocks west passage.
-- **Northwest Sector (Ladder E 9, 1)**: Spans rows 1-5, cols 3-9. Isolated by solid rock barriers along Column 2 and Row 4; does NOT connect to Ladder A.
-- **Southwest Sector (SW Ladder 3, 11)**: Entrance to western sector containing Ladder A (1, 3) to B1F.
+- **Northwest Sector (Ladder E 9, 1)**: Spans rows 0-5, cols 3-13. Connects via (9, 5) -> (13, 5) -> (13, 1) -> (18, 1) to central bypass.
+- **Central Bypass (18, 1 <-> 21, 1)**: Bypasses rock at (19, 1) via (18, 3) -> (20, 3) -> (20, 1) -> (21, 1).
+- **Northeast Alcove (Ladder D 29, 1)**: Accessible from 1F water (27, 1). Connects via (29, 1) -> (28, 3) -> (29, 6) -> (27, 6) into Eastern Corridor.
+- **Eastern Corridor (cols 25-28)**: Runs south from (27, 6) through (25, 7..9) -> (26, 9..14) -> (28, 14..16) towards southern floor.
+- **Western Corridor (Ladder A 1, 3)**: Isolated western corridor containing Ladder A at (1, 3) to B1F Mewtwo, connected to SW Ladder (3, 11).
