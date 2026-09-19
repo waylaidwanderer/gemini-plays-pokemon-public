@@ -4477,5 +4477,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Computer Terminal Hall (Rows 17..22, Cols 18..23+) [Audited Turn 28581]: Row 20 is an open horizontal concourse between large banks of green computer terminals (north at rows 17-19, south at row 21). Extends east past col 23. Row 22 is a parallel concourse south of row 21. Sighted entity at (21, 25) in southern pocket.
 - Item Ball 2 at (25, 18) [Sighted Turn 28582]: Visible in an alcove surrounded by green monitor terminals at (24, 18), (26, 18), and (25, 19). Accessible from the north via (25, 17) and row 16.
 - Row 16 Avenue (Cols 24..28+): Open horizontal avenue running east above the monitor bank.
+- Item Ball 3 at (32, 18) [Sighted Turn 28583]: Visible in an alcove at (32, 18) bordered west by green monitors and east by open floor at (33, 18).
 
 <hr>
