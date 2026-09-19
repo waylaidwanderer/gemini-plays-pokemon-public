@@ -38,7 +38,7 @@
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
 - Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11). [Physically verified]
-- Column 24 Thoroughfare (Col 24, Rows 11..17): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall from Row 11 down through (24, 16) into Eastern Row 17 at (24, 17). [Visually and physically verified Turn 26467]
+- Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south from (24, 11) to (24, 15), bounded west by col 23 rock wall, east by col 25 rock wall, and south by solid rock wall at (24, 16). Empirically verified dead end at (24, 15). [Verified Turns 26468-26474]
 - Alcove (29, 9): 1-tile dead-end alcove at (29, 9) off Column 28 corridor. Physically inspected Turn 25578; no ground item or hidden item present.
 - Row 11 West Corridor (Cols 14..23, Row 11): 1-tile wide horizontal corridor running west from (23, 11) to (14, 11). [Physically verified]
   - South Junction at (17, 11): Connects south through (17, 12..13) into Row 13 east-west corridor. [Physically verified]
