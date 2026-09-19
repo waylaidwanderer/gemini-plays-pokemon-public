@@ -6,7 +6,7 @@
 
 ## Key Landmarks & Layout
 - Ladder (NE): Located at (25, 4) [Sighted Turn 29244]. Ascending ladder mounted against northern rock barrier.
-- Signpost (NE): Located at (23, 1) [Sighted Turn 29244].
+- Signpost (NE): Located at (23, 1) [Inspected Turn 29253]. Text: 'DANGER / Fast current!'
 - Northern Dock: Wooden stairs at (23, 5), enters water channel at (23, 6) [Sighted Turn 29244].
 - Northeast Hall: Rows 0..4 span wide open dry floor across cols 15..26+.
 - Central Passage (Row 6): Dry corridor at (13..16, 6) connects western ladder area to eastern sector.

@@ -4613,17 +4613,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Transit & Prep: Power Plant -> Indigo Plateau (54 Ultra Balls) -> Cinnabar -> Route 20 to Seafoam Islands entrance at (34, 9) [Turns 29085-29131]
 - [x] Locate Seafoam Islands western entrance at (58, 9) via dock at (58, 10..11) [Turn 29158]
 - [x] Infiltrate Seafoam Islands 1F via western entrance at (58, 9) to (26, 17) [Turn 29159]
-- [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
-- [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
-- [x] Washed down rapid current into B4F subterranean lake at (20, 15) [Turn 29186]
+- [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western chambers [Turn 29174]
+- [x] Traversed rapid water current drop into lower subterranean lake level [Turn 29186]
 - [x] Landed on northern dock (23, 5); verified dry terrace (rows 1..4) extending west toward Articuno [Turn 29189]
 - [x] Scouted northwest canal at (7, 6): rapid current blocks Surf ('No SURFing on SHELDON here!') [Turn 29196]
-- [ ] Ascend ladder at (8, 6) to B3F to solve boulder current-damming puzzle
-- [x] Surveyed B3F Northeast Sector: discovered signpost at (23, 1), dock at (23, 5), and ladder at (25, 4) [Turn 29249]
-- [ ] Inspect signpost at (23, 1) for clues
+- [x] Ascended ladder to upper floor (elevation designated B3F) [Turn 29205]
+- [x] Discovered signpost at (9, 15): 'Boulders might change the flow of water!' [Turn 29230]
+- [x] Surveyed Northeast Sector: discovered signpost at (23, 1), dock at (23, 5), and ladder at (25, 4) [Turn 29244]
+- [ ] Inspect signpost at (23, 1) for navigation/puzzle clues
 - [ ] Ascend ladder at (25, 4) to upper floor (B2F) to locate boulders and holes
-- [ ] Drop boulders into holes on B3F to dam subterranean water currents
-- [ ] Return to B4F via ladder (8, 6), surf across calmed waters to Articuno island
+- [ ] Push boulders into holes to dam subterranean water currents
+- [ ] Return to lower lake floor, surf across calmed waters to Articuno island
 - [ ] Save directly in front of Articuno
 - [ ] Battle, chip safely, and capture Legendary Articuno (Lv 50) with Ultra Ball!
 
@@ -4635,8 +4635,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Seafoam Islands Mechanics (Gen 1 Retail)
 - 5 Floors: 1F, B1F, B2F, B3F, B4F.
-- Rapid water currents on B3F and B4F drag the player uncontrollably unless specific boulders are dropped from upper floors into holes to dam/block the water current.
-- Articuno is stationary at B4F.
+- Rapid water currents on lower floors drag the player uncontrollably unless specific boulders are dropped from upper floors into holes to dam/block the water current.
+- Articuno is stationary on an isolated island on the lower subterranean lake level.
 
 
 <hr>
@@ -4731,7 +4731,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Sector & Canal [Sighted Turn 29192]:
   - Col 14 rock wall spans rows 0..5; corridor passes underneath via row 6.
   - Water canal located at cols 12..13 (rows 0..5) and col 11 (rows 4..5).
-  - Ladder located at (11, 7) directly south of row 6 corridor.
 - Northwest Water Channel & Shoreline [Audited Turn 29194]:
   - Rows 4..5 form open water canal across cols 4..13, extending west into the extreme northwest corner.
   - Shoreline launch at (7, 6): dry floor at (7..8, 6) faces north directly into water at (7, 5).
@@ -4753,30 +4752,29 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Seafoam Islands B3F Geography & Layout
 
 ## Overview
-- Third subterranean basement level of Seafoam Islands cavern complex.
-- Key puzzle floor: contains boulders and pit holes that must be dropped to dam the rapid water currents on B4F.
-- Arrived via ladder at (8, 6) on B4F, which ascends to arrival tile at (11, 7) on B3F [Turn 29205].
+- Cavern level of Seafoam Islands complex (elevation designated B3F, adjacent to lower lake).
+- Contains signposts, water channels, docks, and ladder connections.
 
 ## Key Landmarks & Layout
-- Ladder (NE): Located at (25, 4) [Sighted Turn 29244].
+- Ladder (NE): Located at (25, 4) [Sighted Turn 29244]. Ascending ladder mounted against northern rock barrier.
 - Signpost (NE): Located at (23, 1) [Sighted Turn 29244].
-- Northern Dock: Wooden stairs at (23, 5), enters water at (23, 6) [Sighted Turn 29244].
-- Northeast Hall: Rows 0..4 span wide open dry floor across cols 15..25+.
+- Northern Dock: Wooden stairs at (23, 5), enters water channel at (23, 6) [Sighted Turn 29244].
+- Northeast Hall: Rows 0..4 span wide open dry floor across cols 15..26+.
 - Central Passage (Row 6): Dry corridor at (13..16, 6) connects western ladder area to eastern sector.
-- Northeast Corridor: Rows 3..4 (cols 15..18+) form wide open dry passage heading east into unexplored chambers.
-- Canal: Rows 4..5 (cols 7..13) open water, bounded north by rock wall at row 3 (cols 9..11).
-- Arrival Ladder / Warp: Located at (11, 7).
+- Northern Water Canal: Rows 4..5 (cols 7..13) open water, bounded north by rock wall at row 3 (cols 9..11).
+- Western Ladder / Warp: Located at (11, 7) (descends toward B4F).
 - Southern Cavern Chamber: Wide open floor spanning cols 7..14, rows 7..10.
-- Northern Water Canal: Rows 4..5 spanning cols 7..13, bounded north by rocks at row 3 with wooden dock at (7, 3).
-- Southern Boundary: Row 11 has rocks at cols 8..12, wooden dock at (7, 11), and eastern opening at cols 13..14.
-- Eastern Sector: Open passage at cols 13..14 extending east into unexplored chambers.- Signpost (SW): Located at (9, 15) [Discovered Turn 29230]. Text: 'Boulders might change the flow of water!'
-- Southern Chamber: Rows 14..15 span wide open floor across cols 9..18+.
-
-## Wild Encounters
-- Psyduck (Lv 31) [Encountered Turn 29207].
+- Signpost (SW): Located at (9, 15) [Discovered Turn 29230]. Text: 'Boulders might change the flow of water!'
+- SW Chamber: Bounded west by col 6 rock wall; dry floor spanning cols 7..13, rows 14..16, with water barrier to north at rows 12..13.
+- Eastern Sector Corridor: Open passage at cols 13..14 (rows 11..16) connecting southern and northern chambers.
 - Eastern Pool & Dead-End [Audited Turn 29210]:
   - Row 14 corridor ends east at col 19 rock wall.
   - Water pool spans cols 16..23, rows 10..15.
   - Dry floor continues west across cols 9..18 along rows 14..16.
+
+## Wild Encounters
+- Psyduck (Lv 31) [Encountered Turn 29207].
+- Krabby (Lv 31) [Encountered Turn 29244].
+
 
 <hr>

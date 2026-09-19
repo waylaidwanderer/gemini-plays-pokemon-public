@@ -11,7 +11,7 @@
 - [x] Ascended ladder to upper floor (elevation designated B3F) [Turn 29205]
 - [x] Discovered signpost at (9, 15): 'Boulders might change the flow of water!' [Turn 29230]
 - [x] Surveyed Northeast Sector: discovered signpost at (23, 1), dock at (23, 5), and ladder at (25, 4) [Turn 29244]
-- [ ] Inspect signpost at (23, 1) for navigation/puzzle clues
+- [x] Inspect signpost at (23, 1): reads 'DANGER / Fast current!' [Turn 29253]
 - [ ] Ascend ladder at (25, 4) to upper floor (B2F) to locate boulders and holes
 - [ ] Push boulders into holes to dam subterranean water currents
 - [ ] Return to lower lake floor, surf across calmed waters to Articuno island
