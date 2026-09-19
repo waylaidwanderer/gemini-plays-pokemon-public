@@ -4616,7 +4616,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
 - [x] Descend SW ladder at (23, 15) to Seafoam Islands B1F [Turn 29168]
 - [x] Scout B1F: ladder (19, 15) walled off from east; ladder (25, 11) wide open [Turn 29169]
-- [ ] Ascend ladder at (25, 11) to 1F upper plateau to access boulder (18, 10)
+- [ ] Ascend ladder at (25, 14) to 1F upper plateau to access boulder (18, 10)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
@@ -4714,7 +4714,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder 1 (SW / Arrival from 1F): Located at (23, 15).
 - Ladder 2 (NE): Located at (25, 11). Accessible via open corridor at row 12.
 - Ladder 3 (West): Located at (19, 15) in western pocket; blocked from east by rocks at (19..20, 13..15). Wooden stairs sighted at (17, 13).
-- Ladder 2 (NE): Located at (25, 11). Wide open corridor along row 11 (cols 20..25). Ascends to 1F upper plateau per seafoam_boulder_agent.
+- Ladder 2: Located at (25, 14) [Corrected Turn 29172; previously misidentified as (25, 11)]. Accessible via col 25 corridor (rows 11..14). Ascends to 1F upper plateau per seafoam_boulder_agent.
 - Topography:
   - Eastern wall at col 28 (rows 10..18).
   - Southern wall at row 16 (cols 19..28).
