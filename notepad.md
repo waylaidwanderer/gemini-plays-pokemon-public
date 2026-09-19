@@ -4727,27 +4727,20 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Overview
 - Cavern level of Seafoam Islands complex (elevation designated B2F).
-- Arrived via ladder descent from B1F at (25, 11) [Turn 29364].
-- Also accessible via ladder ascent from B3F at (25, 4) [Turn 29262].
+- Accessible via ladder ascent from B3F at (25, 4) [Turn 29262].
 
 ## Key Landmarks & Layout
-- Isolated Southeast Terrace [Discovered Turn 29364]:
-  - Enclosed platform spanning cols 23..26, rows 10..14.
-  - Ladder (North): (25, 11) [Ascends to B1F arrival enclosure].
-  - Ladder (South): (25, 14) [Leads to B3F or connecting corridor].
-  - Bounded north by row 10 cliff edge overlooking lower cave floor at rows 7..9 (cols 22..27).
-  - Bounded west by col 22 rock wall, east by col 27 rock wall, south by row 15 rock wall.
 - Isolated Northeast Terrace [Fully Surveyed Turns 29263-29267]:
   - Enclosed platform spanning cols 21..28 and rows 0..4.
   - Ladder (NE): Located at (25, 3) [Descends to B3F NE hall at (25, 4)].
   - Completely bounded by solid rock walls: North (row -1), South (row 5 cliff), West (col 20), East (col 29).
   - Contains NO items, boulders, holes, or NPCs.
 - Central & Southern Chambers:
-  - Rows 6..9 across cols 21..27 are confirmed dry cave floor, visible below the row 5 cliff and above the row 10 terrace.
+  - Rows 6..9 across cols 21..27 are confirmed dry cave floor, visible below the row 5 cliff. (Access route from upper floors under investigation).
 
 ## Empirical Floor Proof (B2F vs B3F)
 - B3F (Lower): Has signpost at (23, 1) ('DANGER / Fast current!'), wooden dock at (23, 5), fast water current at rows 6..7.
-- B2F (Current): Empty floor at (23, 1), rock wall at (23, 5), dry cave floor at rows 6..8.
+- B2F: Empty floor at (23, 1), rock wall at (23, 5), dry cave floor at rows 6..8.
 
 
 <hr>
@@ -4758,18 +4751,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Overview
 - First basement floor of Seafoam Islands cavern complex.
-- Arrived via Ladder 1 at (23, 15) on 1F, landing at (23, 15) on B1F [Turn 29336].
+- Arrived via Ladder 1 on 1F [Turn 29336].
 
 ## Key Landmarks & Layout
-- Arrival Tile / Ladder Warp: (23, 15) [Ascends to 1F].
-- Ladder (East): Located at (25, 11) [Descends to B2F].
-- Ladder (West): Located at (19, 15) [Accessible only from western corridor].
-- Southeast Enclosure: Open floor spanning cols 20..27, rows 10..15. Bounded:
-  - North: One-way south ledge along row 9 (cols 20..27).
-  - West: Solid rock wall along col 19 (tile (19, 10) confirmed solid wall Turn 29359) and rock block at (20, 14..15).
-  - South: Row 16 cave wall.
-  - East: Col 28 cave wall.
-- Navigation Note: To bypass the row 9 ledge and access the rest of B1F, must descend Ladder (25, 11) to B2F.
+- Southeast Area [Surveyed Turns 29345-29374]:
+  - Open cave floor spanning cols 24..28, rows 10..14.
+  - Boundary walls: East at cols 29..30, South at row 15.
+  - Tile (25, 11), (25, 14), (23, 15) confirmed ordinary floor/wall, NOT ladders [Audited Turn 29371-29374].
+  - West barrier: Solid wall / divider at col 19-21 (tile (19, 10) confirmed solid wall Turn 29359).
+  - North: Row 9 ledge facing south across cols 20..25. Cols 26..28 under investigation.
 
 ## Wild Encounters
 - Shellder [Encountered Turn 29338].
