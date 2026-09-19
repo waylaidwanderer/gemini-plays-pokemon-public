@@ -2,7 +2,7 @@ import mgba
 import time
 
 def flee_battle():
-    print("Wild battle! Fleeing...")
+    print("Wild battle encountered! Escaping...")
     mgba.press_buttons([
         "Down", "sleep 150",
         "Right", "sleep 150",
@@ -39,17 +39,28 @@ def walk_to_target(target_x, target_y):
             step("Up")
     return False
 
-print("Starting route from:", mgba.get_coordinates())
+print("Starting route to Ladder A from:", mgba.get_coordinates())
 
-# Waypoint 1: (9, 3)
+# Segment 1: (3, 3) -> (9, 3) -> (9, 5) -> (13, 5) -> (13, 6) -> (12, 6)
 walk_to_target(9, 3)
-
-# Waypoint 2: (9, 5)
 walk_to_target(9, 5)
-
-# Waypoint 3: (13, 5) -> (13, 6) -> (12, 6)
 walk_to_target(13, 5)
 walk_to_target(13, 6)
 walk_to_target(12, 6)
 
-print("Pos after reaching (12, 6):", mgba.get_coordinates())
+# Segment 2: (12, 6) -> (11, 7) -> (6, 7)
+walk_to_target(11, 7)
+walk_to_target(6, 7)
+
+# Segment 3: (6, 7) -> (6, 6) -> (6, 5)
+walk_to_target(6, 6)
+walk_to_target(6, 5)
+
+# Segment 4: (6, 5) -> (0, 5) -> (0, 3)
+walk_to_target(0, 5)
+walk_to_target(0, 3)
+
+# Segment 5: Step Right onto Ladder A at (1, 3)!
+step("Right")
+
+print("Final position:", mgba.get_coordinates())
