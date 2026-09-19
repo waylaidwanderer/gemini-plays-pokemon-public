@@ -16,3 +16,8 @@
 - Wooden Stairs: Located at (23, 9), connects northern corridor to elevated plateau.
 - Northern Corridor: Rows 7..8 form a continuous open hallway across cols 21..28, providing direct access west into the boulder chamber at (18, 10) [Verified Turn 29174].
 - Krabby (Lv 31) [Encountered Turn 29175].
+- Ladder 3 (North): Located at (25, 3..4) in northern corridor [Sighted Turn 29177].
+- Northern Corridors & Geography:
+  - Upper corridor at rows 3..4 across cols 21..28 with ladder at (25, 3..4).
+  - Dividing horizontal rock wall at row 5 across cols 20..28.
+  - Mid corridor at row 6 passes west through (20, 6) into western boulder chamber (cols 17..19, rows 6..15) [Verified Turn 29177].
