@@ -16,9 +16,8 @@
   - Col 20 dividing rock wall extends rows 2..9 and 12..15.
 - Central Subterranean Waterway [Audited Turn 29184]:
   - Open water canal spanning cols 15..23, rows 8..11 (and cols 18..19, rows 6..7).
-  - (18, 10) is open water, NOT a boulder (prior sighting audited as water tile).
-  - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
-  - Western Dock: Wooden stairs at (15, 7) exits water onto dry floor at (15, 6), accessing unexplored western half of 1F (cols 0..15).
+    - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
+  - Central Waterway: Water canal spanning cols 15..23, rows 8..11, leading into rapid subterranean current.
 
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].

@@ -4766,7 +4766,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - To be surveyed.
 
 ## Wild Encounters
-- To be recorded.
+- Shellder [Encountered Turn 29338].
 
 
 <hr>
