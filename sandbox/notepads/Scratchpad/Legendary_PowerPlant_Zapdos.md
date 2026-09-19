@@ -36,7 +36,7 @@
 ## Active Execution Plan
 1. [x] Defeat Pokémaniac on approach lawn and enter Power Plant front door at (6, 39) [Turn 28928].
 2. [x] Follow surveyed transit route through Power Plant via (15, 11) gateway to (12, 7) [Turn 28979].
-3. Ascend to Row 3 via (11, 4) doorway and explore Row 3 corridor westward toward Sector 5 [ACTIVE].
-4. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
-5. Initiate encounter, chip safely with ONE Swift using Mewtwo, sustain with Recover, and capture with 37 Ultra Balls!
+3. [x] Ascended to Row 3, traversed northern foyer, entered doorway at (4, 6), and arrived at (4, 8) facing Zapdos [Turn 28991].
+4. [x] Executed manual SAVE directly in front of Zapdos at (4, 8) [Turn 28993].
+5. Initiate encounter with 'A', chip safely with ONE Swift using Mewtwo, sustain with Recover, and capture with 37 Ultra Balls! [ACTIVE]
 
