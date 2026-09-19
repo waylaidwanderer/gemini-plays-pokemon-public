@@ -43,6 +43,7 @@
 - Raichu: Lv 64 [Encountered Turn 28134]
 - Sandslash: Lv 57 [Encountered Turn 28163]
 - Chansey: Lv 64 [Encountered Turn 28175]
+- Marowak: Wild encounter [Encountered Turn 28179]
 
 ## Objectives & High-Value Targets
 - Mewtwo: Legendary psychic Pok�mon residing on B1F. Target for Master Ball capture.
