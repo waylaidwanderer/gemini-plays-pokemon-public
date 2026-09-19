@@ -4634,16 +4634,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 5 Floors: 1F, B1F, B2F, B3F, B4F.
 - Rapid water currents on B3F and B4F drag the player uncontrollably unless specific boulders are dropped from upper floors into holes to dam/block the water current.
 - Articuno is stationary at B4F.
-## Route Approach Comparison & Strategic Decision
-- **Route Option 1: Fuchsia City via Route 19 South -> Route 20 West**
-  - Walk to water: ~15 steps south through Fuchsia gatehouse to Route 19 beach.
-  - Surf distance: ~35 tiles south on Route 19 + ~10 tiles west on Route 20 = ~45 water tiles.
-  - Directional turns: 90-degree corner turn south-to-west.
-- **Route Option 2: Cinnabar Island via Route 20 East**
-  - Walk to water: ~6 steps east from Cinnabar Pokémon Center directly to eastern shoreline.
-  - Surf distance: ~30-35 tiles straight east along Route 20.
-  - Directional turns: 0 turns (pure straight eastward surf).
-- **Decision:** Route Option 2 (Cinnabar Island) is selected. It offers significantly shorter land travel to water launch, a pure linear eastward surf vector, and enters Seafoam Islands via the western entrance.
+
 
 <hr>
 
@@ -4696,14 +4687,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Key Landmarks & Layout
 - Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
-- Ladder (SW): Located at (23, 15), descends to B1F. Sole progression route out of entrance enclosure [Audited Turn 29164].
-## Wild Encounters
-- Psyduck (Lv 30) [Encountered Turn 29161].
-- Krabby (Lv 28) [Encountered Turn 29165].
-- Krabby (Lv 31) [Encountered Turn 29175].
-
-## Key Landmarks & Layout
-- Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
 - Ladder 1 (SW): Located at (23, 15), descends to B1F.
 - Ladder 2 (East): Located at (25, 14), descends to B1F.
 - Ladder 3 (North): Located at (25, 3..4), descends to B1F.
@@ -4717,25 +4700,34 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
   - Western Dock: Wooden stairs at (15, 7) exits water onto dry floor at (15, 6), accessing unexplored western half of 1F (cols 0..15).
 
+## Wild Encounters
+- Psyduck (Lv 30) [Encountered Turn 29161].
+- Krabby (Lv 28) [Encountered Turn 29165].
+- Krabby (Lv 31) [Encountered Turn 29175].
+
+
 <hr>
 
 <h1><code>Locations/Kanto_SeafoamIslands_B4F</code></h1>
 
-# Seafoam Islands B4F Geography & Layout
+# Seafoam Islands Subterranean Lake / Lower Floor Geography & Layout
 
 ## Overview
-- Bottom subterranean level of Seafoam Islands cavern complex.
-- Legendary bird Pokémon ARTICUNO resides on this floor in the northwest.
-- Arrived via rapid water current drop from B3F into (20, 15) [Turn 29186].
+- Subterranean lake level of Seafoam Islands cavern complex (hypothesized B4F / terminal floor, pending empirical ladder elevation verification).
+- Arrived via rapid water current drop from upper map at (20, 16) into (20, 15) [Turn 29186].
+- Current status: Rapid current stopped upon entering lake; full navigation restored.
 
 ## Key Landmarks & Layout
-- Subterranean Ocean / Lake: Massive body of water spanning rows 7..15 across cols 16..25+.
+- Subterranean Ocean / Lake: Massive body of water spanning rows 6..15 across cols 18..25+.
 - Western Dry Bank: Shoreline at row 14, with dry cave floor at cols 16..18, rows 14..16.
-- Northern Waters: Open water corridor extending north past row 7 toward Articuno chamber.
-- North Dock: Located at (23, 5), connects subterranean lake to northern dry terrace.
-- Ladder (North): Located at (25, 4) on northern dry terrace.
-- Northern Dry Terrace: Rows 3..4 form a dry path spanning cols 16..25+, extending west into the northwest quadrant.
-- Northern Structure: Located at (23, 1).
-- Dry Highway: Rows 1..4 form an open corridor spanning west into the northwest quadrant toward Articuno chamber.
+- North Dock: Wooden stairs at (23, 5), connects subterranean lake to northern dry terrace.
+- Ladder (North): Located at (25, 4) on northern dry terrace. Elevation destination unverified.
+- Northern Structure: Located at (23, 1) in northern boundary wall.
+- Northern Dry Terrace: Rows 0..4 form an open corridor spanning cols 16..25+, extending west into unexplored western quadrant.
+
+- Western Sector & Canal [Sighted Turn 29192]:
+  - Col 14 rock wall spans rows 0..5; corridor passes underneath via row 6.
+  - Water canal located at cols 12..13 (rows 0..5) and col 11 (rows 4..5).
+  - Ladder located at (11, 7) directly south of row 6 corridor.
 
 <hr>
