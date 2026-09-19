@@ -13,19 +13,9 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Completed Milestones
-- [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
-- [x] Cerulean Cave Entry: Entered 1F at (24, 17), pre-swapped Master Ball to Slot 1 [Turns 25505-25510]
-- [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
-- [x] Descended Ladder (19, 7) on 2F to 1F Central-Western Terrace at (18, 9) [Turn 25783]
-- [x] Traversed 1F subterranean lake from Staircase (25, 9) to Staircase (11, 13) [Turns 25825-25837]
-- [x] Physically descended Staircase (17, 15) to lower southwest corridor [Turns 25841-25846]
-- [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
-- [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F at (9, 1) facing Left. Verified (9, 1) and (7, 1) are regular floor tiles, not ladders.
-- Empirical Findings [Turns 26460-26491]:
-  1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
 - Next Objective: Find entrance to Column 0 / Row 5 / Row 7 western pocket on 2F to reach Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
