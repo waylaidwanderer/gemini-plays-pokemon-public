@@ -4,7 +4,7 @@
 Major metropolis in central-western Kanto. Features Celadon Department Store, Rocket Game Corner (Hideout), Celadon Mansion, Celadon Hotel, and Celadon Gym (Erika).
 
 ## Connections
-- East: Route 7 connection avenue (cols 49..54, rows 10..11) <-> Route 7 (cols 0..1, rows 2..3).
+- East: Route 7 connection avenue (cols 49..54, rows 10..11) <-> Route 7 (cols 0..1, rows 2..3) [Verified arrival Turn 28748 at (49, 11)].
 - West: Cols 2..8, rows 10..23 western avenue terminates at Celadon Gym (rows 24..26); impassable obstacles confirmed at (1, 14) and (1, 20); fence at (1, 18..19). Dept Store side door at (8, 13).
 
 ## Geography & Layout
