@@ -3,7 +3,7 @@
 ## Connections
 - West: Route 9 (connects at cols 0..1, rows 6..9 to Route 9 (59..60, 6..9); Route 9 (59, 8) <-> Route 10 (0, 8) [Turn 4517]).
 - South: Lavender Town (via Rock Tunnel).
-- North: Power Plant (via water canal, requires Surf).
+- North: Power Plant (accessed via northern water canal at (2..15, 3..4); gateway at cols 2..3 row 5 connects Central Lawn to row 4 shoreline apron [Turn 28525]).
 
 ## Geography & Layout
 - Western Entrance (Cols 0..1, Rows 6..9): Wide open pale mint paved avenue connecting from Route 9.

@@ -6,8 +6,8 @@
 3. Traverse Diglett's Cave to Route 11 / Vermilion City. [DONE - Turn 28406]
 4. Traverse Route 6 -> Underground Path (Route 6 - Route 5) -> Route 5 -> Cerulean City. [DONE - Turn 28456]
 5. Heal team at Cerulean City Pokémon Center and set warp anchor. [DONE - Turn 28476]
-6. Traverse Route 9 East (Cut tree at entrance with DUX). [ACTIVE]
-7. Arrive at Route 10 North, surf south along the canal to Power Plant.
+6. Traverse Route 9 East (Cut tree at entrance with DUX). [DONE - Turn 28496]
+7. Arrive at Route 10 North, surf south along the canal to Power Plant. [ACTIVE]
 8. Explore Power Plant interior and capture legendary Zapdos!
 
 ## Power Plant Intelligence
