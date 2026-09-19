@@ -1081,10 +1081,6 @@
   - Bounded on west by column 1 tall grass/hedge border.
   - Terminates south at row 33 against solid wooden bollards at (2..5, 33) [Confirmed Turn 28720]. Southern access to Saffron City requires entering the North Gatehouse via the column 9-10 chute at (10, 30).
 - Northward Passage (Col 15, Rows 6..24): A continuous 1-tile wide strip of tall grass along column 15 (bounded by western stone fence at col 14 and central avenue bollards at col 16) that allows walking north from Underground Path to Cerulean City, bypassing the one-way south-jumping ledges of the central avenue.
-- Points of Interest:
-  - Pokémon Day Care house (west side at rows 16..23).
-  - Underground Path Entrance Building (cols 16..19, rows 24..27, door at (17, 27)).
-  - Underground Path Signpost (17, 29).
 
 
 <hr>
