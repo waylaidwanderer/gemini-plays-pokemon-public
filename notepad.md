@@ -4349,7 +4349,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Intermediate Terrace (Cols 10..19, Rows 4..5): Reddish-brown cave floor connecting Staircase (13, 3) landing to Staircase (19, 3).
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..9+): Lower cavern floor visible below Row 5 cliff. Ground Item Ball sighted at (16, 9) [Turn 28130]; route of access to this lower floor remains to be physically tested.
-- Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) [Sighted Turn 28127].
+- Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) [Retrieved Turn 28145].
 
 ## Wild Pok�mon
 - Ditto: Wild encounter [Encountered Turn 28113]
