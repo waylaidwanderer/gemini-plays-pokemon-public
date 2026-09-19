@@ -10,7 +10,7 @@
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
-- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by solid continuous rock wall across Row 3 (Cols 4..16, bypassed only via Staircase 15, 3 from subterranean water), and on the west by solid rock wall at Column 4 (Rows 0..3) [Visually and physically confirmed Turn 27179-27181]. Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Physical bump test from (5, 2) confirmed (5, 3) is solid rock wall [Turn 27479].
+- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by solid continuous rock wall across Row 3 (Cols 4..16, bypassed only via Staircase 15, 3 from subterranean water), and on the west by solid rock wall at Column 4 (Rows 0..3) [Visually and physically confirmed Turn 27179-27181]. Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Physical bump tests confirmed (5, 3) [Turn 27478], (4, 2) [Turn 27483], (4, 1) [Turn 27483], and (4, 0) [Turn 27483] are all solid rock walls, proving the Northern Terrace (Cols 5..16, Rows 0..2) is completely enclosed and connects strictly to water via Staircase (15, 3) and 2F via Ladder (7, 1).
 - Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
   - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
   - Cols 3..6: Solid rock walls at (3..6, 7).
