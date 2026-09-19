@@ -4474,5 +4474,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 15 Wall: Vertical barrier running rows 13..19+ along column 15.
 - Northern Corridor (Row 11, Cols 11..16): Visually sighted from afar at (11, 15); open tiles visible above row 12 wall, unvisited and unverified until traversed.
 - Eastern Junction (Cols 15..19, Rows 20..22) [Audited Turn 28580]: Open gap at (15, 21) connects to columns 16-17. Green machinery monitors at (18..19, 21) split corridor into northern avenue (row 20) and southern avenue (row 22). Rubble at (16..17, 18) blocks northward travel from cols 16-17.
+- Computer Terminal Hall (Rows 17..22, Cols 18..23+) [Audited Turn 28581]: Row 20 is an open horizontal concourse between large banks of green computer terminals (north at rows 17-19, south at row 21). Extends east past col 23. Row 22 is a parallel concourse south of row 21. Sighted entity at (21, 25) in southern pocket.
 
 <hr>
