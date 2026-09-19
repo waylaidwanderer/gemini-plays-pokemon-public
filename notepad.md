@@ -4157,13 +4157,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Central-Western Terrace at (15, 9).
+- Current Location: Cerulean Cave 2F Row 1 at (16, 1).
 - Active Route:
-  1. Walk east along Row 9 to Ladder (18, 9) and ascend to 2F Ladder (19, 7).
-  2. From 2F Ladder (19, 7), walk north to (22, 4), then east via (24, 4..5) into the unvisited Northern Chamber (Cols 24..29, Rows 5..7).
-  3. Traverse south from the Northern Chamber through (25, 9) into Column 26 Corridor (26, 9..14).
-  4. Locate the true descending ladder to B1F.
-  5. Descend to B1F and capture Mewtwo with the Master Ball.
+  1. Follow Row 1 west to (14, 1) and onto the Northern Elevated Plateau (Cols 5..12, Rows 0..2).
+  2. Explore west from Column 5 along Rows 0..2 toward Column 1 to locate access to northwest enclave Ladder (1, 3).
+  3. Descend Ladder (1, 3) to 1F northwest enclave, access descending ladder to B1F, and capture Mewtwo with the Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
