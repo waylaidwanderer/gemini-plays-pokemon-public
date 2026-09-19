@@ -4498,5 +4498,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Sector 4 Audit Findings & Loop Geography
 - Terminal Hall Dead-End Confirmed [Turn 28606]: Columns 34-35 terminate at row 22 against row 23 wall. No southern passage from cols 34-35 to row 25.
 - Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
+- Item Ball 5 at (21, 25) [Sighted Turn 28608]: Visually verified Poké Ball sprite at (21, 25) in southern corridor, bounded north by (21, 24) and south by (21, 26). Identity unverified.
 
 <hr>
