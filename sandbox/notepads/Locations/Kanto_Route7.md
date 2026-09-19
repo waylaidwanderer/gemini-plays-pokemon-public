@@ -20,7 +20,7 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Saffron West Gatehouse (cols 12..17, rows 8..11):
   - West entrance door from Route 7 at (12, 10) [Verified Turn 12616].
   - Fronted by vertical fence posts at (11, 8) and (11, 9).
-  - Interior: Guard counter in center. Giving Fresh Water unlocks passage east to Saffron City [Turn 12619].
+  - Interior (Audited Turn 28739): East entrance mat at (5, 3..4). Central corridor runs across rows 3..4 (cols 1..4). Guard at (3, 1) behind north counter allows free passage. West exit doorway at (0, 3..4) exits to Route 7 proper at (11, 10).
   - East exit onto Route 7 eastern border at (18, 10) [Turn 12624].
   - Saffron City Map Transition: Stepping east across col 20 at row 18 warps into Saffron City at (0, 18) [Verified Turn 12629].
 - Ledge System:
