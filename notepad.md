@@ -4615,10 +4615,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Infiltrate Seafoam Islands 1F via western entrance at (58, 9) to (26, 17) [Turn 29159]
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
 - [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
-- [x] Survey 1F: confirmed dock at (23, 9) connects to subterranean waterway at row 10 [Turn 29180]
-- [x] Launch Surf south from dock at (23, 9) into water at (23, 10) [Turn 29183]
-- [ ] Surf West along row 10 to reach boulder at (18, 10)
-- [ ] Cast Strength with Geodude (ROCKY) and push boulder (18, 10) into hole
+- [x] Launch Surf at eastern dock (23, 9) into subterranean waterway [Turn 29183]
+- [x] Survey waterway: (18, 10) audited as open water; sighted western dock at (15, 7) [Turn 29184]
+- [ ] Surf to western dock at (15, 7) and land ashore on (15, 6)
+- [ ] Explore western sector (cols 0..15) to locate 1F boulders and pit holes
+- [ ] Cast Strength with Geodude (ROCKY) and push boulder into hole
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
@@ -4697,27 +4698,24 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Key Landmarks & Layout
 - Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
 - Ladder (SW): Located at (23, 15), descends to B1F. Sole progression route out of entrance enclosure [Audited Turn 29164].
-- Sighted Boulder at (18, 10): Located in adjacent western chamber across col 20 wall; inaccessible directly from 1F entrance enclosure [Sighted Turn 29164].
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
 - Krabby (Lv 28) [Encountered Turn 29165].
-- Ladder 2 (East): Located at (25, 14), descends to B1F [Verified Turn 29174].
-- Wooden Stairs: Located at (23, 9), connects northern corridor to elevated plateau.
-- Northern Corridor: Rows 7..8 form a continuous open hallway across cols 21..28, providing direct access west into the boulder chamber at (18, 10) [Verified Turn 29174].
 - Krabby (Lv 31) [Encountered Turn 29175].
-- Ladder 3 (North): Located at (25, 3..4) in northern corridor [Sighted Turn 29177].
-- Northern Corridors & Geography:
-  - Upper corridor at rows 3..4 across cols 21..28 with ladder at (25, 3..4).
-  - Dividing horizontal rock wall at row 5 across cols 20..28.
-  - Mid corridor at row 6 passes west through (20, 6) into western boulder chamber (cols 17..19, rows 6..15) [Verified Turn 29177].
-- Elevated Plateau & Boulder Access [Audited Turn 29178]:
-  - Col 20 is solid rock wall from row 2 down to row 9.
-  - Wooden stairs at (23, 9) connects northern floor at (23, 8) south onto elevated plateau at row 10.
-  - Elevated plateau at row 10 spans continuously from col 23 west through col 17.
-  - Boulder at (18, 10) rests directly on this plateau; approached from (23, 10) walking West along row 10 to (19, 10).
-- Subterranean Waterway [Audited Turn 29180]:
-  - Cols 19..23, rows 10..11 are water tiles, not dry plateau.
-  - Wooden dock at (23, 9) is a water launch pier.
-  - Launching HM03 Surf south into (23, 10) allows water navigation west toward (18, 10).
+
+## Key Landmarks & Layout
+- Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
+- Ladder 1 (SW): Located at (23, 15), descends to B1F.
+- Ladder 2 (East): Located at (25, 14), descends to B1F.
+- Ladder 3 (North): Located at (25, 3..4), descends to B1F.
+- Eastern Docks & Corridors:
+  - Northern open hallway at rows 7..8 (cols 21..28).
+  - Dividing rock wall at row 5 (cols 20..28).
+  - Col 20 dividing rock wall extends rows 2..9 and 12..15.
+- Central Subterranean Waterway [Audited Turn 29184]:
+  - Open water canal spanning cols 15..23, rows 8..11 (and cols 18..19, rows 6..7).
+  - (18, 10) is open water, NOT a boulder (prior sighting audited as water tile).
+  - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
+  - Western Dock: Wooden stairs at (15, 7) exits water onto dry floor at (15, 6), accessing unexplored western half of 1F (cols 0..15).
 
 <hr>
