@@ -1,0 +1,18 @@
+# Cerulean Cave (Unknown Dungeon) 1F - Layout & Topology
+
+## Overview
+- Ground floor of Cerulean Cave (Unknown Dungeon).
+- Connects to Cerulean City waterway entrance in the south and features a large central canal network connecting to various elevated sectors and upper-floor ladders.
+
+## Verified Ladders & Transitions
+1. **Ladder B**: Located at (23, 7) <-> 2F (22, 6).
+2. **Ladder C**: Located at (18, 9) <-> 2F (19, 7).
+3. **Ladder D**: Located at (27, 1) <-> 2F (29, 1) in northeast alcove.
+4. **Ladder E**: Located at (7, 1) <-> 2F (9, 1) in northwest sector. Leads directly to 2F Northwest Sector and Ladder A (1, 3) to B1F Mewtwo!
+5. **Cave Entrance / Exit**: Located in the south leading out to Cerulean City canal.
+
+## Verified Docks & Waterway Routing
+- **North Dock**: Located at (15, 3). Connects Northern Mainland (Row 1) to Central Waterway at (15, 4).
+- **South Shore**: Located at (15, 8). Allows launching Surf north into (15, 7) to reach North Dock (15, 3).
+- **Central Island Dock**: Located at (11, 13).
+- **Northern Mainland**: Spans rows 0-2 from (15, 1) west to Ladder E at (7, 1). Open passable horizontal highway.
