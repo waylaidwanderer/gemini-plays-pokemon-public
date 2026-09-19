@@ -4560,12 +4560,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Strategy & Objectives
-- [x] Transited via Fly to Cinnabar Island outside Pok�mon Center [Turn 29281]
-- [x] Healed at Cinnabar Pok�mon Center with Nurse Joy; warp anchor set to Cinnabar [Turn 29290]
-- [x] Surfed East across Route 20 and defeated Swimmer at (38, 13) [Turn 29315]
-- [x] Entered Seafoam Islands 1F via western entrance at (26, 17) [Turn 29323]
-- [x] Activated HM04 Strength with Geodude (ROCKY) on 1F [Turn 29326]
-- [x] Descended Ladder 1 at (23, 15) from 1F down to B1F [Turn 29335]
 - [ ] Survey B1F layout, activate Strength upon locating boulders, and identify pit holes
 - [ ] Execute boulder puzzle to stop subterranean water currents
 - [ ] Navigate to Articuno's chamber on lowest floor and capture Articuno (Lv 50) with Ultra Ball
@@ -4688,6 +4682,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Ladder at (8, 6) [Corrected Turn 29201]: Primary ascent ladder to B3F puzzle chamber.
 ## Wild Encounters
 - Staryu [Encountered Turn 29202].
+- Seel (Lv 31) [Encountered Turn 29420].
 
 
 <hr>
@@ -4736,7 +4731,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Key Landmarks & Layout
 - Isolated Northeast Terrace [Fully Surveyed Turns 29263-29267]:
   - Enclosed platform spanning cols 21..28 and rows 0..4.
-  - Ladder (NE): Located at (25, 5) [Confirmed Turn 29429] [Descends to B3F NE hall at (25, 4)].
+  -  [Descends to B3F NE hall at (25, 4)].
   - Completely bounded by solid rock walls: North (row -1), South (row 5 cliff), West (col 20), East (col 29).
   - Contains NO items, boulders, holes, or NPCs.
 - Central & Southern Chambers:
