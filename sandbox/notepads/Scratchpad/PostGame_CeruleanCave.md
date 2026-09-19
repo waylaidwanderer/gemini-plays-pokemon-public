@@ -2,7 +2,7 @@
 
 ## Definitive Dungeon Architecture & Verified Facts
 1. 2F Layout & Boundary Audits:
-   - Row 8: 100% physically bump-tested solid boulders from Col 2 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
+   - Row 8: 100% physically bump-tested solid boulders from Col 3 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
    - Sector A: Visual audit [Turns 27926-27935] confirms Row 4 (Cols 3..8) are 100% solid boulders. Column 2 (Rows 1..4) are solid boulders. Boulder (8, 5) separates Row 5 West from East. Sector A is completely enclosed with zero passage into Row 5 or the Northwest Enclave.
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
 2. 1F Layout & Boundary Audits:
@@ -17,10 +17,9 @@
    - Unverified Candidate: 1F (0, 6) and 2F (1, 3) [Neither stepped on; correlation is a working hypothesis]
 
 ## Active Breakthrough Strategy & Routing Protocol
-- Empirical Finding: 2F comprises isolated subgraphs:
-  - Sector A (9, 1): 100% enclosed by Row 0 ceiling, Row 4 boulders (Cols 3..8), Column 2 boulders (Rows 1..4), and (8, 5) boulder.
-  - Southwest Sector (3, 11): 100% enclosed by solid boulders on west ((1, 10..11), (4, 13), (0..1, 14), (2, 15), (3..5, 16)).
-  - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
 - Working Hypothesis: Descent to B1F connects via Ladder (1, 3) in Northwest Enclave.
 - Active Protocol:
-  2. Determine how Row 5 (Cols 0..7) and Ladder (1, 3) connect to the 2F corridor network.
+  1. Dismount via Staircase (11, 13) onto Central-Western Terrace.
+  2. Cross terrace and take Staircase (17, 15) to lower corridor.
+  3. Traverse lower corridor west to Staircase (1, 13) and ascend to Ladder (3, 11).
+  4. Ascend to 2F Southwest, test Column 2/1/0 across Row 8 to link into Row 7 (1..6, 7), traverse to (6, 6) -> Row 5 -> Ladder (1, 3), and descend to B1F.
