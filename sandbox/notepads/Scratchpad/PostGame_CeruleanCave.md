@@ -9,7 +9,7 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (16, 5).
+- Current Location: Cerulean Cave 2F at (18, 1).
 - Active Route:
   1. Navigate to 2F Ladder (19, 7) via Row 1 and Row 2 connectors.
   2. Descend Ladder (19, 7) to 1F (18, 9).
