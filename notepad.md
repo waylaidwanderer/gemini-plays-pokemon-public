@@ -4162,14 +4162,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Ladder (1, 3) is the sole entrance/exit for this enclave.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 13) on Wooden Staircase (on foot).
-- Working Hypothesis: Western Terrace Column 4 connects north through Row 8..7 into Rows 6..4 and the Northwest Corridor.
+- Current Location: Cerulean Cave 1F at (4, 8) on Western Terrace.
+- Findings: Bump test confirmed 1F (4, 7) is solid rock boulder [Turn 27580]. Ladder at 1F (0, 6) confirmed. Northwest corridor on 1F is an exit-only loop terminating at the Row 7 jump ledge.
+- Breakthrough Strategy: 2F Ladder (1, 3) must be reached from 2F. Row 8 on 2F has untested columns (6, 7, 8, 10, 12).
 - Active Plan:
-  1. From (11, 13), cross Central-Western Terrace via Row 9 and Column 18 south to Staircase (17, 15).
-  2. Descend Staircase (17, 15) and traverse Southwest Lower Corridor (Row 17) to Staircase (1, 13).
-  3. Ascend Staircase (1, 13) to Western Terrace at (1, 12).
-  4. Walk east across Western Terrace to Column 4 (e.g. (4, 10)/(4, 9)).
-  5. Systematically bump-test northward along Column 4 ((4, 8), (4, 7), etc.) to physically verify if passage into Row 6..4 exists.
+  1. Take Ladder (3, 11) up to 2F.
+  2. Walk to (6, 9) on Row 9.
+  3. Physically bump-test tile (6, 8) stepping North from (6, 9).
+  4. If solid, systematically test columns 7, 8, 10, 12 along Row 8.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4201,8 +4201,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by solid continuous rock wall across Row 3 (Cols 4..16, bypassed only via Staircase 15, 3 from subterranean water), and on the west by solid rock wall at Column 4 (Rows 0..3) [Visually and physically confirmed Turn 27179-27181]. Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Physical bump tests confirmed (5, 3) [Turn 27478], (4, 2) [Turn 27483], (4, 1) [Turn 27483], and (4, 0) [Turn 27483] are all solid rock walls, proving the Northern Terrace (Cols 5..16, Rows 0..2) is completely enclosed and connects strictly to water via Staircase (15, 3) and 2F via Ladder (7, 1).
 - Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
   - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
-  - Cols 3..6: Visual inspection from water (Turn 27569) shows potential open floor along Columns 4..5 on Rows 8..10 and Rows 4..6. Tile (5, 7) appears to be a rock boulder, while tile (4, 7) remains physically untested.
-  - Hypothesis: Western Terrace Columns 4..5 may provide an unprobed northward avenue into Rows 6..4 and the Northwest Corridor.
+  - Cols 3..7: Solid rock boulder wall across Row 7. Physical bump test confirmed (4, 7) is solid rock boulder [Turn 27580]. Visual audit confirmed (3, 7), (5, 7), (6, 7), (7, 7) are solid rock boulders [Turn 27580].
+  - Northwest Corridor Ladder (0, 6): Visually confirmed cave ladder at (0, 6) [Turn 27580]. Connects to corridor running through (0..2, 7) south to the jump ledge. 1F corridor has zero entrance from 1F; strictly entered via ladder.
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
