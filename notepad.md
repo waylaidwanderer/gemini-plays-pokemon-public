@@ -4175,7 +4175,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Explore Central Purple Cavern East across Rows 6-8 toward Column 16 (Item Ball at 16, 9) and the eastern lake. [ACTIVE]
+  1. Advance south along Column 16: (16, 8) -> (16, 12) to reach the subterranean lake shoreline. [ACTIVE]
   2. Launch Surf on subterranean lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
 
 
@@ -4382,7 +4382,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Row 17 open floor at (3..6, 17); boulders block (2, 17) and (7..9, 17).
     - Southern cave boundary wall confirmed at Row 18 (Cols 0..9+).
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
-- Lower Purple Floor (Rows 6..9+): Lower cavern floor visible below Row 5 cliff. Ground Item Ball sighted at (16, 9) [Turn 28130]; route of access to this lower floor remains to be physically tested.
+- Lower Purple Floor (Rows 6..12+): Lower cavern floor accessed via Staircase (9, 13).
+  - Ground Item Ball at (16, 9) successfully retrieved [Turn 28193]!
+  - Column 16 open purple floor runs south through (16, 8..12) directly to the lake shoreline at (17..18, 12).
+  - Subterranean water confirmed at (18..19, 12) with Staircase (19, 11) descending directly into water!
 - Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) (MAX REVIVE, retrieved Turn 28145).
 
 ## Wild Pok�mon
