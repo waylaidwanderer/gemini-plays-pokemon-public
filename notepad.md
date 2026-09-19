@@ -4186,7 +4186,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
-- Northwest Corridor Ladder: Visually sighted at (0, 6) [Turn 27580] (initially estimated at (1, 3) Turn 27479). Located in isolated northwest corridor (Cols 0..5, Rows 3..7). Visual corridor extends from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), and north through (5, 5..4). Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8 (one-way exit).
+- Northwest Corridor & B1F Descent [Physically verified Turn 28101-28106]:
+  - Enclosed corridor accessed exclusively from 2F via Ladder (1, 3).
+  - Arrival at (1, 3). Path loops: (1, 3) -> (2, 3) -> (2, 4) -> (5, 4) -> (5, 6) -> (2, 6) -> (2, 7) -> (0, 7) -> (0, 6).
+  - Ladder (0, 6): Descending cave ladder leading directly to B1F (Mewtwo)!
+  - Exit Ledge: South-facing jump ledge along Row 7 (Cols 0..2) allows one-way hopping south into Row 8 to exit the corridor.
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
