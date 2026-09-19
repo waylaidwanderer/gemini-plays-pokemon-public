@@ -7,12 +7,13 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (7, 1) [Returned from 2F via Ladder (9, 1) -> Ladder (7, 1)].
+- Current Location: Cerulean Cave 1F at (17, 10) on Central-Western Terrace.
 - Active Plan:
-  1. Walk east across Northern Terrace from (7, 1) to Staircase (15, 3).
-  2. Use Surf at Staircase (15, 3) to enter the subterranean waterway at (15, 4).
-  3. Systematically test waterways and passages toward Column 5 / Ladder (0, 6) to reach B1F.
-  4. Descend to B1F and capture Mewtwo with Master Ball.
+  1. Step Right to (18, 10), descend Column 18 to (18, 14), step Left to (17, 14), and descend Staircase (17, 15) to landing (17, 16).
+  2. Follow Southwest Lower Corridor (Row 17) west to Column 2, step north to (1, 14), and ascend Staircase (1, 13) to Western Terrace.
+  3. Climb Ladder (3, 11) to 2F.
+  4. From 2F (3, 9), test unverified passages along Row 8/9 (specifically Cols 4..5) to investigate access into the Northwest Enclave and Ladder (1, 3).
+  5. Test ladder connectivity (Ladder 1, 3 / Ladder 0, 6) to access B1F and capture Mewtwo with Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
