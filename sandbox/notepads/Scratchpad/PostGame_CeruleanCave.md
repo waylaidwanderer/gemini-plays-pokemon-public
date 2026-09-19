@@ -9,9 +9,9 @@
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F at (3, 11) on Ladder (3, 11).
 - Active Route:
-  1. Traverse 1F Southwest Corridor (Row 17) to Western Terrace at (1..5, 9..12).
-  2. Methodically test 1F Column 0 and Row 8 boundary for any physical passage to Ladder (0, 6).
-  3. Ascend Ladder (3, 11) to 2F (3, 11), navigate to (3, 9), and physically test (3, 8) and Column 2 (2, 9) to verify if a northward passage into the Northwest Enclave exists.
+  1. Physically collision-test (3, 8) and (2, 9) from (3, 9) on 2F to complete empirical barrier verification of Row 8 and Column 2.
+  2. Traverse 2F Row 9 east to Column 23 and Ladder (22, 6), descending to 1F (23, 7).
+  3. Surf to the northern terrace at 1F (7, 1) and systematically survey its perimeter to locate the passage to B1F.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |

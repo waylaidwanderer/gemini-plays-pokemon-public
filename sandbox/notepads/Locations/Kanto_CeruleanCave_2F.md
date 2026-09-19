@@ -38,9 +38,8 @@
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9).
-  - Row 8 Boundary: Bounded north of (13, 9) by rock at (13, 7..8). Columns 5..12 at Row 8 verified solid rock from (9, 5) viewport [Turn 26903]. Tile (3, 8) visually appeared rock [Turn 26362], but Columns 1, 2, and 4 across Row 8 have not been physically collision-tested from Row 9.
-  - Column 2 Barrier: (2, 8..13) is a continuous solid rock wall separating the Ladder (3, 11) network from Column 1.
-  - Northwest Enclave Observation: Rows 5 and 7 (cols 1..8) and Candidate Ladder (1, 3) are bounded south by solid rock walls at (3, 8) and (2, 8..13), and bounded east by rock walls at (17..18, 5) and (20, 17). Ground traversal from (3, 9) north is physically blocked by rock wall (3, 8) [Turn 26362]. Candidate Ladder (1, 3) access requires further empirical testing.
+  - Row 8 & Column 2 Physical Barriers: Tile (3, 8) and tile (2, 9) visually and physically verified solid rock [Turn 26971]. Column 1 (1, 8..9) has purple floor but is segregated from Column 3 by solid rock wall (2, 8..9) and rock (1..2, 10..11). Row 8 across columns 2..12 forms an unbroken rock barrier separating Row 9 from Row 7.
+  - Definitive Conclusion: The Western Pocket on 2F has zero ground passage north or west into the Northwest Enclave. The Northwest Enclave has no ground entrance from any part of 2F.
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
