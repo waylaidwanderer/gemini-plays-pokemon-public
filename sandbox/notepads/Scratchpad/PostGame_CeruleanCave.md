@@ -23,20 +23,12 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (10, 17) on foot facing Right.
-- Completed Audit of Row 8 (Cols 1..6) [Turn 26379-26381]: Moving Up against Row 7 is 100% blocked across all columns 1..6 (cliff ledge at cols 1..4, rock walls at (5, 7) and (6, 7)). Moving east into (7, 8) is blocked.
-- Conclusion: Direct ground access to Ladder (0, 6) from the Western Terrace is physically impossible.
+- Current Location: Cerulean Cave 1F at (16, 17) on foot facing Right.
+
 - Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
 - Conclusion: Candidate Ladder (1, 3) must be accessed via 1F (likely corresponding to 1F Ladder (0, 6)).
-- Active Plan: Descend Ladder (3, 11) to 1F and audit all 1F pathways to reach the northwest sector or B1F.
+
 - Empirical Finding [Turn 26347]: Tile (20, 17) is a solid rock wall! Row 17 terminates east at (19, 17). Direct access from western 2F to eastern 2F via Row 17 is physically IMPOSSIBLE. The proposed 2F Master Circuit via Row 17 is completely DISPROVEN.
-- Hypothesis: 2F Master Circuit to Candidate Ladder (1, 3) [UNVERIFIED]:
-  - Sighted Row 5 Northern Highway spanning (3..16, 5) and connecting via (6, 6) into Row 7 Highway (1..11, 7).
-  - Row 7 connects at (1, 7) north up Column 1 to Candidate Ladder (1, 3).
-  - Caveat & Physical Barrier: Turn 25760 notes confirm Row 5 terminates east at (16, 5) against rock wall (17..18, 5). Column 24 dead-ends at (24, 5). Physical cross-connection across (17..23, 5) is NOT verified and may be blocked.
-  - Verification Plan:
-    1. [DISPROVEN Turn 26347] Row 17 is blocked at (20, 17).
-    2. Active Route: Retrace west via Row 17 -> Col 13/12 -> Row 9 west to (3, 9). Audit northern passages along Column 3 / Column 4 / Column 5 on western 2F toward Candidate Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
