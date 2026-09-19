@@ -4175,7 +4175,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Navigate to Staircase (9, 13): (4, 16) -> (6, 16) -> (6, 14) -> (9, 14) -> Staircase (9, 13) to ascend onto central purple cavern floor. [ACTIVE]
+  1. Explore Central Purple Cavern East across Rows 6-8 toward Column 16 (Item Ball at 16, 9) and the eastern lake. [ACTIVE]
   2. Launch Surf on subterranean lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
 
 
@@ -4371,7 +4371,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Staircase (9, 13): 1-tile wide wooden staircase at (9, 13) ascending north from southern floor at (9, 14) onto the central purple cavern floor at (9, 12)!
   - Staircase (13, 13): 1-tile wide wooden staircase at (13, 13) descending south toward the subterranean lake at (13, 14).
   - Main Subterranean Lake: Confirmed water expanse spanning Columns 12..14+ across Rows 14..17+, accessible via Staircase (13, 13) and waterways!
-  - Central Purple Cavern Thoroughfare: Column 9 runs north from Staircase (9, 13) through (9, 12), (9, 11), and (9, 10) into the central chamber.
+  - Central Purple Cavern Floor (Cols 9..14+, Rows 6..12):
+    - Arrived onto purple floor via Staircase (9, 13) at (9, 12), advancing north through (9, 11..10) [Traversed Turn 28190].
+    - Broad open purple chamber spans Rows 6, 7, 8 across Columns 9 through 14+.
+    - Central boulder cluster occupies (10..12, 9..12).
+    - Column 13 vertical corridor runs south from Row 6 down through Row 12 to Staircase (13, 13).
+    - Rows 6 and 7 continue East past Column 14 toward the eastern cavern and subterranean lake.
     - Row 17 open floor at (3..6, 17); boulders block (2, 17) and (7..9, 17).
     - Southern cave boundary wall confirmed at Row 18 (Cols 0..9+).
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
