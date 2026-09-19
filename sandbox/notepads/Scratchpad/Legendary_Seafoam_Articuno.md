@@ -1,7 +1,7 @@
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Quest Objectives & Routing
-- [ ] Exit Power Plant via Diglett's Dig to Cerulean City
+- [x] Exit Power Plant via Diglett's Dig to Cerulean City [Turn 29085]
 - [ ] Fly to Indigo Plateau to purchase ~40 Ultra Balls (stockpile >= 50 Ultra Balls)
 - [ ] Fly to Fuchsia City (or Cinnabar Island)
 - [ ] Surf Route 19 south to Route 20, or Route 20 east from Cinnabar Island
