@@ -11,7 +11,7 @@
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
 
 ## Capture Strategy & Preparation
-- Current Ball Inventory: ULTRA BALL x37 [Restocked Turn 28845].
+- Current Ball Inventory: ULTRA BALL x33 (expended 4 balls across Turns 29000-29009, 33 remaining).
 - Mathematical Damage & Catch Analysis:
   - Wild Zapdos Lv 50: Max HP 150-165, Defense 90-105.
   - Mewtwo Lv 70 (Attack 167) Swift (Power 60) damage rolls:
@@ -30,7 +30,7 @@
   - Zapdos offensive moves (Thundershock / Drill Peck) deal minor chipped damage to Mewtwo (~15-40 damage).
   - Mewtwo possesses Recover (PP 20/20, restoring 117 HP per cast) and Barrier (PP 30/30, +2 Defense stages), allowing Mewtwo to tank indefinitely.
   - Chipping Protocol: Deliver exactly ONE Swift from Mewtwo (~55-70 damage non-crit, ~110-130 damage max crit, leaving Zapdos at ~35-100 HP with zero faint risk).
-  - Ball Throwing: Once chipped, Mewtwo tanks continuously, using Recover whenever HP drops below 140, and throws Ultra Balls continuously from our 37-ball stockpile until Zapdos is caught!
+  - Ball Throwing: Once chipped, Mewtwo tanks continuously, using Recover whenever HP drops below 140, and throws Ultra Balls continuously from our 33-ball stockpile until Zapdos is caught!
   - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
 
 ## Active Execution Plan
@@ -39,4 +39,4 @@
 3. [x] Ascended to Row 3, traversed northern foyer, entered doorway at (4, 6), and arrived at (4, 8) facing Zapdos [Turn 28991].
 4. [x] Executed manual SAVE directly in front of Zapdos at (4, 8) [Turn 28993].
 5. [x] Swift delivered! Zapdos chipped to ~65% HP. Mewtwo at 219/234 HP [Turn 28996].
-6. Throwing Ultra Balls from 37-ball stockpile until Zapdos is caught! [ACTIVE]
+6. Throwing Ultra Balls from 33-ball stockpile until Zapdos is caught! [ACTIVE]

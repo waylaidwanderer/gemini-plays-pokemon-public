@@ -8,7 +8,7 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x12
-(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x37, CARBOS x1, HP UP x1, HM02)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x33, CARBOS x1, HP UP x1, HM02)
 
 ## Inventory Capacity
 - Active Bag Items: 14 / 20 capacity used.
@@ -57,7 +57,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 28245]
+  - Moves: Swift (PP 19/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 19/20) [Verified Turn 28245]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy

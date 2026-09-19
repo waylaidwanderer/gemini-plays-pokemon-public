@@ -27,6 +27,7 @@
 ## Sector 3: Central Wing & Sub-Concourse (Rows 15..23, Cols 9..17)
 - Sub-Concourse (Row 21, Cols 9..17): Open east-west corridor running from cleared trap at (9, 20) east through column 15 gateway to columns 16-17.
 - Column 13 Corridor (Rows 16..19, Col 13): Single-tile wide north-south passage between rubble fields (cols 11..12 and cols 14).
+- Northern Concourse Transit Route (Rows 3..11, Cols 8..15) [Traversed Turns 28976-28983]: From (15, 11) gateway, Column 12 provides a clear north-south corridor (rows 5..11). Tile (11, 4) is an open 1-tile doorway through the row 4 wall connecting row 5 north into Row 3. Row 3 runs continuously west across columns 12..8 through the Column 8 dividing wall into the Northern Foyer (cols 4..7, rows 3..5), leading directly to the Zapdos chamber doorway at (4..5, 6).
 - Northern Gateway at (15, 11) [Verified Turn 28976]: Open 1-tile wide east-west passage through the Column 15 dividing wall, connecting the eastern concourse (cols 16..18) directly into the western central wing (cols 12..14).
 - Eastern Junction (Cols 15..19, Rows 20..22): Open gap at (15, 21) connects into columns 16-17. Green machinery monitors at (18..19, 21) split corridor into northern avenue (row 20) and southern avenue (row 22). Rubble at (16..17, 18) blocks direct northward travel.
 
@@ -48,7 +49,7 @@
   - East: Column 8 solid dividing wall.
   - Gateway: 2-tile open doorway at (4..5, 6) connecting northern foyer (rows 3..5) south into Zapdos' hall (rows 7..11).
   - High-Value Target: Stationary Legendary Bird ZAPDOS sighted at (4, 9). Does not initiate battle unless talked to with 'A'.
-  - Status: Doorway verified at (4..5, 6); Northern Foyer connects east via Row 3 at (6..8, 3) to central concourse [Empirically verified Turn 28983]. Approaching Zapdos at (4, 8) for capture.
+  - Status: Doorway verified at (4..5, 6); Northern Foyer connects east via Row 3 at (6..8, 3) through Column 8 dividing wall [Empirically verified Turn 28983].
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
 - Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656, 28965]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24. Tile (22, 14) is a solid vertical dividing wall. Columns 23-24 form an open 2-tile wide vertical concourse ascending North past row 10 toward the northern foyer.
