@@ -8,7 +8,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
-- Money: ¥67481 [Turn 28927]
+- Money: ¥19481 [Turn 29106]
 - Pokédex: 19 Caught / 128 Seen
 
 ## Milestones
@@ -4611,13 +4611,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Quest Objectives & Routing
-- [x] Exit Power Plant via Diglett's Dig to Cerulean City [Turn 29085]
-- [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
-- [x] Exit Indigo Plateau building to outdoor entrance [Turn 29109]
-- [x] Fly to Cinnabar Island [Turn 29115]
-- [x] Launch Surf on Route 20 at (0, 12) [Turn 29120]
-- [x] Surf Route 20 east to Seafoam Islands western entrance at (32, 10) [Turn 29129]
-- [ ] Infiltrate Seafoam Islands (Route 20)
+- [x] Transit & Prep: Power Plant -> Indigo Plateau (54 Ultra Balls) -> Cinnabar -> Route 20 to Seafoam Islands entrance at (34, 9) [Turns 29085-29131]
+- [ ] Infiltrate Seafoam Islands 1F via western entrance at (34, 9)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
@@ -4657,8 +4652,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Landmarks & Layout
 - Western Boundary: Shoreline at x=0, rows 8..14. Cinnabar Island is visible to the west.
-- Open Water Channel: Rows 8..16 confirmed completely clear across columns 0 to 19, bounded south by rock barrier at row 17 [Verified Turn 29123].
-- Seafoam Islands (Western Mound): Dual island cavern complex. Western island cliff face at col 32, rows 8..9, with western cave entrance located at (32, 10) [Sighted Turn 29129].
+- Open Water Channel: Navigated corridor along rows 11-13 from col 0 to col 31. Bounded south by rock barrier at row 17 across cols 10..27 [Verified Turns 29120-29131].
+- Seafoam Islands (Western Mound): Western island cliff face visible cols 32..35, rows 8..9. Western cave entrance located at (34, 9) with shoreline dock approach at (34, 10) [Visually verified Turn 29131].
 
 ## Trainers & Encounters
 - Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
