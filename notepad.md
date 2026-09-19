@@ -222,7 +222,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 19/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 14/20) [Verified Turn 28245]
+  - Moves: Swift (PP 19/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 13/20) [Verified Turn 28245]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -941,7 +941,7 @@
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
 - Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
-- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28). Cut tree at (19, 28) chopped down by DUX on Turn 28465 and re-cleared Turn 28696, opening direct passage between southern Route 5 approach and Cerulean Pok�mon Center avenue.
+- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28).
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
 
 ## Key Buildings & Facilities
@@ -968,6 +968,7 @@
   - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
 - Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North. Backyard path along rows 8..9 dead-ends east against trees at col 34; the true transit corridor turns south down Column 33 through rows 10..15 to access the Route 9 entrance [Verified Turn 28489].
 - Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the Poké Mart (cols 24..27).
+
 
 <hr>
 
@@ -1614,12 +1615,7 @@
 - Eastern Tall Grass Strip (Cols 4..5+, Rows 6..10): Tall grass field on eastern perimeter.
 - Corridor (Rows 12..13, Cols 2..7+): East-west open green lawn passage bounded north by row 11 south-facing ledge and south by row 14 cliff wall. Leads east toward the Pokémon Center and Rock Tunnel [Turn 4519].
 - Cliff Line (Row 14, Cols 2..7+): Impassable southern mountain cliff bounding the row 12-13 corridor [Turn 4519].
-- Pokémon Center (Exterior): Roof visible at rows 16+ across cols 10..13, with open lawn approach at cols 10..13, rows 12..15 [Sighted Turn 4520].
-- Eastern Canal: Water canal running north-south along cols 16..17, bounded on the west by stone bollards along col 15 [Sighted Turn 4521].
-- Eastern Flank Corridor (Col 14, Rows 12..16+): Open north-south lawn passage between Pokémon Center (cols 10..13) and canal bollards (col 15), leading to front entrance [Turn 4521].
 - Route 10 Pokémon Center: Located at cols 10..13, rows 16..19. Front entrance door at (11, 19), "POKé" sign at (12, 19). Front paved avenue along rows 20..21 [Turn 4523].
-- Rock Tunnel Entrance (8, 17): Dark cave mouth in northern cliff [Sighted Turn 4529].
-- Signpost (7, 19): Rock Tunnel entrance signpost [Sighted Turn 4529].
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
 - Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
@@ -1645,6 +1641,7 @@
 - Power Plant Building: Facade across rows 38..39 with yellow windows. Front entrance door located at (6, 39).
 - Exterior Signpost: Located at (5, 41) on the front lawn.
 - Approach Lawn: Open green lawn spanning cols 2..7, rows 40..45, accessible directly from the southern water channel at (2, 46).
+
 
 <hr>
 
@@ -4429,6 +4426,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Stand directly adjacent at (4, 8) and SAVE before pressing 'A'!
 
+- Remaining Odds & Decision Boundary:
+  - Un-statused Ultra Ball catch probability at ~65% HP: ~1.63% per throw.
+  - Cumulative catch probability for remaining 15 balls: 1 - (1 - 0.0163)^15 = ~21.9%.
+  - Decision Boundary: Hard stop at 0 Ultra Balls -> Reload manual save at (4, 8).
+
 ## Tactical Combat & Capture Protocol [Overhauled Turn 28921]
 - Speed & Survival Audit:
   - Wild Zapdos Lv 50 Speed stat: ~115-130. Level 9 Drowzee (SANDMAN) Speed: ~18, HP: 30. Zapdos outspeeds Drowzee 100% and lethal Drill Peck (80 base + STAB) deals 380+ damage, guaranteeing an instant one-shot knockout before Hypnosis can execute. DO NOT switch Drowzee in raw against an active, unsilenced Zapdos!
@@ -4441,12 +4443,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
 
 ## Active Execution Plan
-1. [x] Defeat Pokémaniac on approach lawn and enter Power Plant front door at (6, 39) [Turn 28928].
-2. [x] Follow surveyed transit route through Power Plant via (15, 11) gateway to (12, 7) [Turn 28979].
-3. [x] Ascended to Row 3, traversed northern foyer, entered doorway at (4, 6), and arrived at (4, 8) facing Zapdos [Turn 28991].
-4. [x] Executed manual SAVE directly in front of Zapdos at (4, 8) [Turn 28993].
-5. [x] Swift delivered! Zapdos chipped to ~65% HP. Mewtwo at 219/234 HP [Turn 28996].
-6. Throwing Ultra Balls from 33-ball stockpile until Zapdos is caught! [ACTIVE]
+- Ball Expenditure & Stockpile: 22 Ultra Balls expended across Turns 29000-29067; 15 Ultra Balls remaining.
+- Combat Loop: OMEGA tanks at 234/234 HP. Dismiss text, select ITEM, and throw Ultra Balls continuously.
+- Health Fail-Safe: Execute Recover (PP 13/20) whenever HP drops below 140.
+- Reload Contingency: If all 15 remaining Ultra Balls fail without capture (stockpile reaches 0), immediately soft reset and reload manual save from Turn 28993 at (4, 8) to restore full 37-ball supply.
 
 <hr>
 
