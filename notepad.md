@@ -2842,7 +2842,7 @@
   - From (27, 17), ascend via (28, 16..14) -> (26, 14..9) -> (25, 9..7) -> (27..29, 6) -> (29, 5..3).
   - Northeast corridor terminates at (28, 3) and (29, 1) Ladder D alcove; solid rock at (27, 3) blocks west passage.
 - **Northwest Sector (Ladder E 9, 1)**: Spans rows 1-5, cols 3-9. Isolated by solid rock barriers along Column 2 and Row 4; does NOT connect to Ladder A.
-- **Southwest Sector (SW Ladder 3, 11)**: Reached via 1F Central Corridor (Ladder C 18, 9 -> hop ledge 17, 15 -> walk west to SW Ladder 3, 11). Connects directly to Ladder A (1, 3) for Mewtwo.
+- **Southwest Sector (SW Ladder 3, 11)**: Entrance to western sector containing Ladder A (1, 3) to B1F.
 
 <hr>
 
