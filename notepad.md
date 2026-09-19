@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (1, 8) in battle exit screen ('Got away safely!').
+- Current Location: Cerulean Cave 1F at (1, 8) facing North. Sighted Ladder (0, 6) leading to B1F!
 - Active Strategy & Frontier:
   - [x] Master Topological Deduction [Turn 26248]: Ladders (22, 6), (29, 1), and (19, 7) are ALL verified isolated pockets on 2F! Candidate Ladder (1, 3) must be accessed via Western Ladder (3, 11).
   - Master Plan: Backtrack via Ladder (19, 7) to 1F (18, 9), walk down to 1F lower corridor (Row 17) to Western Terrace, ascend Ladder (3, 11) to 2F, and explore north along Column 3 toward Candidate Ladder (1, 3)!
@@ -4190,6 +4190,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
+- Ladder (0, 6): Descending cave ladder located in northwest alcove at (0, 6). Accessed via (1, 7) -> (0, 7) -> (0, 6). Descends to B1F! [Visually verified Turn 26304]
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
