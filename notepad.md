@@ -4151,13 +4151,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Row 9 at (17, 9).
-- Verified Finding: Row 9 dead-ends at (21, 9). No passage exists east from Row 9 to Column 23 or Ladder (22, 6).
+- Current Location: Cerulean Cave 2F Row 1 at (3, 1).
+- Verified Status: Arrived in Sector A via 1F Ladder (7, 1) -> 2F Ladder (9, 1) -> Row 1 west to (3, 1). Ladder (1, 3) is visually confirmed in northwest enclave at (1, 3).
 - Active Route:
-  1. Return west along Row 9 to Ladder (3, 11) at (3, 11) and descend to 1F.
-  2. From 1F (3, 11), take lower corridor Row 17 east to Staircase (17, 15) onto Central-Western Terrace.
-  3. Enter water via Staircase (11, 13) or take Ladder (18, 9) to 2F Northern Network (Ladder 19, 7) to locate the B1F descent.
-  4. Capture Mewtwo with Master Ball on B1F.
+  1. Navigate from (3, 1) through Row 3 (3..9, 3) and Column 9 to access Row 5 (0..7, 5) and reach Ladder (1, 3).
+  2. Descend Ladder (1, 3) to 1F northwest enclave / B1F.
+  3. Locate and capture Mewtwo on B1F with Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4223,7 +4222,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
-- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Confirmed ZERO ground passage exists west of Column 5 on 1F toward Ladder (0, 6); Ladder (0, 6) must be accessed from 2F (1, 3)! [Empirically verified Turn 27057]
+- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Visual scan from (7, 2) indicates rock walls at (3..4, 0..3) bounding the terrace on the west. Access to (0, 6) remains unvisited on ground.
 
 <hr>
 
@@ -4234,7 +4233,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections & Ladders
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Directly accessible from (8, 1) stepping East. Visually confirmed with blue ladder rungs [Turn 26646]. Connects to 1F.
 - Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south. [Verified Turns 26594, 26599]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Exits West to (28, 1), South down Column 28 through (28, 2..3), East to (29, 3), and South down Column 29 through (29, 4..6). At (29, 6), turns West to (27, 6..7) and (25, 7), connecting north up Column 25 into Column 24 and the Row 2 Northern Highway! Connects directly to 2F Sector A via the Northeast Loop. [Empirically verified Turn 27044]
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Exits West to (28, 1), South down Column 28 through (28, 2..3), East to (29, 3), and South down Column 29 through (29, 4..6). At (29, 6), turns West to (27, 6..7) and (25, 7), connecting south into Sector B (closed loop with Ladder 22, 6). Does NOT connect to Sector A.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Connects ONLY to an isolated 7-tile secluded pocket spanning (18..20, 5..7). Bounded on ALL sides by solid rock walls: North at (18, 5), (19..20, 4); East at (21, 5..6), (20, 7); South at (18..19, 8); West at (17, 5..7). Has ZERO connection to Row 2, Row 3, Column 24, or the rest of 2F. [Empirically verified Turns 27015-27023]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
