@@ -4691,12 +4691,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South exit: Leads out to Route 20 western pier at (58, 9).
 
 ## Key Landmarks & Layout
-- Southwest Chamber: Open floor spanning cols 22..27, rows 13..15.
-- Ladder (SW): Located at (23, 15), descends to B1F [Sighted Turn 29159].
-- Bounded east by rock wall at col 28, rows 13..17.
-- Elevated Plateau Cliff: Horizontal rock wall at row 11 spanning cols 22..27, with elevated plateau at rows 9..10.
-- Corridors: Rows 12..14 form an open east-west corridor spanning cols 22..27, leading west into the western cavern sector.
-- Eastern Boundary: Solid rock wall at col 28, rows 9..17.
+- Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
+- Ladder (SW): Located at (23, 15), descends to B1F. Sole progression route out of entrance enclosure [Audited Turn 29164].
+- Sighted Boulder at (18, 10): Located in adjacent western chamber across col 20 wall; inaccessible directly from 1F entrance enclosure [Sighted Turn 29164].
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
 
