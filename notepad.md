@@ -173,7 +173,7 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x12
-(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x14, CARBOS x1, HP UP x1, HM02)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x54, CARBOS x1, HP UP x1, HM02)
 
 ## Inventory Capacity
 - Active Bag Items: 14 / 20 capacity used.
@@ -4613,8 +4613,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Quest Objectives & Routing
 - [x] Exit Power Plant via Diglett's Dig to Cerulean City [Turn 29085]
 - [x] Fly to Indigo Plateau and purchase 40 Ultra Balls (stockpile >= 50 Ultra Balls) [Turn 29106]
-- [ ] Fly to Fuchsia City (or Cinnabar Island)
-- [ ] Surf Route 19 south to Route 20, or Route 20 east from Cinnabar Island
+- [ ] Exit Indigo Plateau building to outdoor entrance
+- [ ] Fly to Cinnabar Island
+- [ ] Surf Route 20 east to Seafoam Islands
 - [ ] Infiltrate Seafoam Islands (Route 20)
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
