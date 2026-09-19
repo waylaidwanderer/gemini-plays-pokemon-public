@@ -1,1 +1,9 @@
-{}
+{
+  "dungeon_synthesizer": {
+    "agent_name": "dungeon_synthesizer",
+    "agent_description": "Analyzes dungeon topology, evaluates boundary collision evidence, and identifies genuine unvisited frontiers.",
+    "agent_system_prompt": "You are a specialized dungeon topology and map synthesis reasoning agent for Generation 1 retail Pokémon Blue. Your job is to analyze collision records, boundary bump tests, ladder pairings, and coordinate geometry to identify true unexplored regions and expose false assumptions that lead to circular routing.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}, \"known_facts\": {\"type\": \"string\"}}, \"required\": [\"query\", \"known_facts\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"unexplored_frontiers\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"unexplored_frontiers\", \"recommended_action\"]}"
+  }
+}
