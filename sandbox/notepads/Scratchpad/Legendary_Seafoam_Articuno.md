@@ -3,8 +3,10 @@
 ## Strategy & Objectives
 - [x] Transited via Fly to Cinnabar Island outside Pok�mon Center [Turn 29281]
 - [x] Healed at Cinnabar Pok�mon Center with Nurse Joy; warp anchor set to Cinnabar [Turn 29290]
-- [ ] Surf East across Route 20 to Seafoam Islands Western Entrance at (58, 9)
-- [ ] Infiltrate Seafoam Islands 1F and systematically map unexplored corridors
+- [x] Surfed East across Route 20 and defeated Swimmer at (38, 13) [Turn 29315]
+- [x] Entered Seafoam Islands 1F via western entrance at (26, 17) [Turn 29323]
+- [x] Activated HM04 Strength with Geodude (ROCKY) on 1F [Turn 29326]
+- [ ] Systematically map 1F corridors and locate boulders and pit holes
 - [ ] Locate and verify pushable boulders and pit holes
 - [ ] Execute boulder puzzle to stop subterranean water currents
 - [ ] Navigate to Articuno's chamber on lowest floor and capture Articuno (Lv 50) with Ultra Ball
