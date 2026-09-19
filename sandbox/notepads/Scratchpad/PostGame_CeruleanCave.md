@@ -7,7 +7,7 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (24, 4) (Surfing in subterranean waterway).
+- Current Location: Cerulean Cave 2F at (3, 11) on Ladder (Western Network).
 - Strategic Realization: Staircase (21, 11) in Entrance Cavern is the original entrance stairs to Entrance Terrace / Ladder (23, 7). Ladder (3, 11) on Western Terrace is the ONLY ladder providing access to 2F Western Network and Row 9.
 - Active Plan:
   1. Surf west along Row 4 to (15, 4), south down Column 15 to (15, 7), west along Row 7 to Column 9, south to (9, 14), and east to Staircase (11, 13).
