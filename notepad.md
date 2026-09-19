@@ -4244,6 +4244,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]
 - Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
