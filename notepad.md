@@ -4167,14 +4167,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (25, 9) on Staircase facing South toward water at (25, 10).
-- Empirical Findings [Turns 26460-26479]:
+- Current Location: Cerulean Cave 2F at (28, 3) facing Left.
+- Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
   2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
   3. Row 16 is solid rock from Col 20 to Col 26, walling off the south.
-  4. This combined network is an overland bridge between 1F Entrance Terrace and 1F Central-Western Terrace.
-  5. The Eastern Sector (Cols 26..29, Rows 1..17) connects to 2F Ladder (29, 1).
-- Next Objective: Launch Surf at (25, 10), surf north across subterranean lake to Staircase (23, 3), ascend to Northern Terrace, and climb Ladder (27, 1) to access 2F Ladder (29, 1) to explore the Eastern/Northern 2F complex toward B1F!
+  4. Ladder (29, 1) connects to (28, 1..3). At (28, 3), West (27, 3) and South (28, 4) are physically confirmed solid rock walls [Turn 26489].
+  5. The only exit from (28, 3) is East into Column 29 at (29, 3).
+  6. Column 29 runs south through rows 3, 4, 5, 6, 7 toward Row 14 and Column 26.
+- Next Objective: Step Right to (29, 3) and navigate south down Column 29 toward Row 14 and Column 26 to access the northern chamber and B1F path.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4248,7 +4249,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections & Ladders
 - Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Open passages: Exits West to (28, 1) and (27, 1); Column 27/28 connect south to Row 3 (27..29, 3); from (27, 3), connects south to Row 4 (25..27, 4) leading west into northern chambers; from (29, 3), connects south down Column 29 (rows 3..6+) leading to southeast corridors. [Visually verified Turn 26489]
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Open passages: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are physically confirmed solid rock walls [Turn 26489]. Exit is East to (29, 3), leading south down Column 29 toward Row 14 and Column 26.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
