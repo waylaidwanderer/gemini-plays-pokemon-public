@@ -4664,5 +4664,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wild Encounters: Tentacool (water) [Encountered Turn 29126].
 - Swimmer at (25, 7) [Sighted Turn 29128]: Positioned in northern water channel.
 - Seafoam Islands (Western Landmass): Massive mountain cliff face sighted at col 43, spanning rows 7..13 [Sighted Turn 29138]. Open water approach across cols 39..42, rows 7..15.
+- Swimmer at (45, 10) [Sighted Turn 29139]: Located in channel west of island.
+- Seafoam Island Western Landmass & Southern Channel [Audited Turn 29139]:
+  - Rock boundary at col 43, rows 7..12 and row 13, cols 43..47.
+  - Southern open water corridor at row 14, cols 42..47 passes south of rock barrier.
+  - Green island grass sighted at cols 46..47, rows 7..9.
 
 <hr>
