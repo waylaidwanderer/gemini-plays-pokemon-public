@@ -47,6 +47,7 @@
 - Sandslash: Lv 57 [Encountered Turn 28163]
 - Chansey: Lv 64 [Encountered Turn 28175]
 - Marowak: Lv 55 [Encountered Turn 28179]
+- Electrode: Wild encounter [Encountered Turn 28187]
 
 ## Objectives & High-Value Targets
 - Mewtwo: Legendary psychic Pok�mon residing on B1F. Target for Master Ball capture.
