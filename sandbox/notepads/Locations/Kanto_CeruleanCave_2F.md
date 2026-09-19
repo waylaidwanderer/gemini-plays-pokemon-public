@@ -38,7 +38,7 @@
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9).
-  - Row 8 Barrier: (2..12, 8) is a continuous solid rock wall blocking all northward access from Row 9. (3, 8) visually verified solid rock [Turn 26362].
+  - Row 8 Boundary: Bounded north of (13, 9) by rock at (13, 7..8). Columns 5..12 at Row 8 verified solid rock from (9, 5) viewport [Turn 26903]. Tile (3, 8) visually appeared rock [Turn 26362], but Columns 1, 2, and 4 across Row 8 have not been physically collision-tested from Row 9.
   - Column 2 Barrier: (2, 8..13) is a continuous solid rock wall separating the Ladder (3, 11) network from Column 1.
   - Northwest Enclave Observation: Rows 5 and 7 (cols 1..8) and Candidate Ladder (1, 3) are bounded south by solid rock walls at (3, 8) and (2, 8..13), and bounded east by rock walls at (17..18, 5) and (20, 17). Ground traversal from (3, 9) north is physically blocked by rock wall (3, 8) [Turn 26362]. Candidate Ladder (1, 3) access requires further empirical testing.
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
