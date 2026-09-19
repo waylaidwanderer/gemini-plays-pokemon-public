@@ -4500,7 +4500,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trap at (9, 20) [Cleared Turn 28573]: Voltorb Lv 40 trap. Fled safely; item ball permanently despawned, tile (9, 20) is now empty floor.
 - Trap at (25, 18) [Cleared Turn 28601]: Electrode Lv 43 trap. Interacted from (25, 17) facing South; fled safely. Trap entity permanently despawned; tile (25, 18) is now clear floor.
 - Trap at (32, 18) [Cleared Turn 28592]: Voltorb Lv 40 trap. Interacted from (33, 18) facing West; fled safely. Trap entity permanently despawned; tile (32, 18) is now clear floor.
-- Item Ball 4 at (21, 14) [Sighted Turn 28599]: Visible at (21, 14) south of twin-dial generator at (21, 13) and west of vertical wall at (22, 13..15). Accessible from south/west. Identity unverified.
+- Trap at (21, 14) [Verified Turn 28669]: Interacted from (20, 14) facing East. Triggered "Bzzzt!" trap encounter (Voltorb/Electrode). Currently resolving.
 - Trap at (21, 25) [Cleared Turn 28625]: Voltorb Lv 40 trap. Interacted from (21, 26) facing North; fled safely. Trap entity permanently despawned; tile (21, 25) is now clear floor.
 - Item Ball 6 at (20, 32) [Sighted Turn 28616]: Visible at (20, 32) in southern machine corridor, south of generator at (20, 31). Accessible from west via (18..19, 32). Identity unverified.
 - Trap at (26, 28) [Cleared Turn 28630]: Voltorb Lv 40 trap. Interacted from (25, 28) facing East; fled safely. Trap entity permanently despawned; tile (26, 28) is now clear floor.
