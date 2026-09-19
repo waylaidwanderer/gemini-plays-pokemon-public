@@ -4528,7 +4528,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - East: Column 8 solid dividing wall.
   - Gateway: 2-tile open doorway at (4..5, 6) connecting northern foyer (rows 3..5) south into Zapdos' hall (rows 7..11).
   - High-Value Target: Stationary Legendary Bird ZAPDOS sighted at (4, 9). Does not initiate battle unless talked to with 'A'.
-  - Status: Doorway reached at (4, 6); un-traversed tiles across rows 7..11 remain unverified sightings until physically explored during final capture expedition.
+  - Status: Doorway verified at (4..5, 6); Northern Foyer connects east via Row 3 at (6..8, 3) to central concourse [Empirically verified Turn 28983]. Approaching Zapdos at (4, 8) for capture.
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
 - Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656, 28965]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24. Tile (22, 14) is a solid vertical dividing wall. Columns 23-24 form an open 2-tile wide vertical concourse ascending North past row 10 toward the northern foyer.
