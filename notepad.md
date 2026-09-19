@@ -2820,6 +2820,7 @@
 - **Northern Mainland**: Spans rows 0-2 from (15, 1) west to Ladder E at (7, 1). Open passable horizontal highway.
 ## Verified Central Plateau & Southern Waterway (1F)
 - **Central Plateau**: Spans rows 6-10, cols 21-25 with Ladder B at (23, 7).
+- **North Shore (23, 5..6)**: Elevated cliff edge; prevents direct Surf launch into northern water canal (Verified Turn 55104).
 - **South Ramp**: Located at (21, 11) descending south to lower floor at (21, 12).
 - **Lower Floor Corridor**: Spans rows 12-16 across cols 20-25.
 - **Southern Water Shore**: (25, 16) is blocked by cliff/rock elevation preventing direct Surf launch.
