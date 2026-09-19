@@ -4175,8 +4175,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Traverse Row 16 East Highway: (2, 16) -> (7, 16) to reach the central lower cavern and main subterranean lake. [ACTIVE]
-  2. Launch Surf on lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
+  1. Navigate to Staircase (9, 13): (4, 16) -> (6, 16) -> (6, 14) -> (9, 14) -> Staircase (9, 13) to ascend onto central purple cavern floor. [ACTIVE]
+  2. Launch Surf on subterranean lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
 
 
 <hr>
@@ -4363,12 +4363,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Bypass around boulder (1, 11): from (1, 9), step south to (1, 10), west to (0, 10), south through (0, 11) to (0, 12) [Physically verified Turn 28178].
     - Tile (0, 12) to (0, 13): Physical bump test [Turn 28178] confirmed (0, 13) is a solid boulder.
     - Path turns east along Row 12 through (1, 12) to (2, 12).
-  - Southern Cavern & Row 16 East Highway (Cols 0..7+, Rows 14..18):
+  - Southern Cavern & Row 16 East Highway (Cols 0..9+, Rows 14..18):
     - Column 2 vertical artery connects south: (2, 12) -> (2, 13) -> (2, 14) -> (2, 15) -> (2, 16). [Traversed Turn 28182]
     - Western water at (0..1, 15..17) is an enclosed shoreline basin bounded by wall at Col -1, boulder (1, 14), and southern wall at Row 18.
-    - Row 16 forms a broad open horizontal highway spanning (2..7+, 16) leading East into the central/eastern lower cavern.
-    - Row 17 open floor at (3..6, 17); boulders block (2, 17) and (7, 17).
-    - Southern cave boundary wall confirmed at Row 18 (Cols 0..7+).
+    - Row 16 spans (2..7, 16) open floor. Boulder (8, 16) blocks eastward continuation along Row 16.
+    - Northern Bypass to Staircase: from (6, 16), step north through (6, 15) into Row 14 at (6, 14), then east through (7..9, 14).
+    - Staircase (9, 13): 1-tile wide wooden staircase at (9, 13) ascending north from southern floor at (9, 14) onto the central purple cavern floor at (9, 12)!
+    - Row 17 open floor at (3..6, 17); boulders block (2, 17) and (7..9, 17).
+    - Southern cave boundary wall confirmed at Row 18 (Cols 0..9+).
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..9+): Lower cavern floor visible below Row 5 cliff. Ground Item Ball sighted at (16, 9) [Turn 28130]; route of access to this lower floor remains to be physically tested.
 - Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) (MAX REVIVE, retrieved Turn 28145).
