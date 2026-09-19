@@ -11,7 +11,7 @@
 3. Collision Testing: Rigorously collision-test every western step along Rows 1, 2, and 3 from Column 3 into Column 2 to locate the physical opening into the Northwest Enclave and Ladder (1, 3).
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (15, 2) on Northern Terrace.
+- Current Location: Cerulean Cave 2F at (9, 1) on Ladder (Sector A).
 - Active Plan:
   1. Walk west across Northern Terrace along Row 2 to (7, 2), then step North onto Ladder (7, 1).
   2. Ascend Ladder (7, 1) to arrive at 2F Ladder (9, 1).
