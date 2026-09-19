@@ -4616,7 +4616,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
 - [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
 - [x] Survey 1F: confirmed dock at (23, 9) connects to subterranean waterway at row 10 [Turn 29180]
-- [ ] Launch Surf south from dock at (23, 9) into water at (23, 10)
+- [x] Launch Surf south from dock at (23, 9) into water at (23, 10) [Turn 29183]
 - [ ] Surf West along row 10 to reach boulder at (18, 10)
 - [ ] Cast Strength with Geodude (ROCKY) and push boulder (18, 10) into hole
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
