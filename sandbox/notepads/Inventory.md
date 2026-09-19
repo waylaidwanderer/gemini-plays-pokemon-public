@@ -1,7 +1,6 @@
 # Inventory Log
 
 ## Bag Items (Empirically Verified Turns 28749-28750)
-- HM02 (FLY) [Key Item - Obtained Turn 28787]
 1. POKé FLUTE [Key Item]
 2. MAX POTION x 1
 3. REVIVE x14
@@ -12,7 +11,7 @@
 (Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x2, CARBOS x1, HP UP x1, HM02)
 
 ## Inventory Capacity
-- Active Bag Items: 12 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]

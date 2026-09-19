@@ -9,7 +9,7 @@
 - Northern Tree Line: Solid forest trees along row 9 across cols 30..33 and cols 35..39 [Audited Turn 28769].
 - Cuttable Tree (34, 9) [Audited Turn 28769]: Chopped down by DUX on Turn 28775, clearing passage from row 10 north through (34, 9) and (34, 8) onto the northern highway (rows 6..7).
 - Northern Highway (Rows 6..7, Cols 30..35+) [Audited Turn 28776]:
-  - 2-tile wide paved roadway spanning rows 6..7, clear of wild encounters, heading continuously west.
+  - 2-tile wide paved roadway spanning rows 6..7, paved roadway (encounter rate unverified), heading continuously west.
   - Bounded south by lawn at row 8 and tree line at row 9.
   - Bounded north by a tall grass field spanning cols 30..35+ at rows 3..5.
   - Accessed via the cleared Cut tree at (34, 9) and lawn at (34, 8) [Traversed Turn 28776].
@@ -33,7 +33,7 @@
   - West Gatehouse Exit: Emerges at (17, 4) facing Left from gatehouse door at (18, 4..5).
   - Paved Corridor (Rows 4..5, Cols 12..17): 2-tile wide pale mint roadway running west toward the Secret House.
   - North Boundary: Green lawn at rows 2..3 fronted by stone fence posts at row 1.
-  - South Boundary: Green lawn at rows 6..7 separating corridor from lower Cycling Road (row 8+).
+  - South Boundary: Green lawn at rows 6..7 separating corridor from lower roadway (row 8+).
 
 - Secret House (Cols 6..9, Rows 2..5) [Audited Turn 28782]:
   - Small cottage located north of the paved corridor.
