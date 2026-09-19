@@ -15,7 +15,7 @@
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Central-Western Terrace at (11, 12).
+- Current Location: Cerulean Cave 1F Central-Western Terrace at (18, 14) facing Down. Descending Staircase (17, 15) to Row 17.
 - Strategic Route [Turn 26704]: Navigating entirely on foot via Staircase (17, 15) -> Row 17 Southwest Lower Corridor -> Staircase (1, 13) -> Western Terrace Ladder (3, 11).
 - Target: Ascend Ladder (3, 11) to enter 2F Western Network directly adjacent to Candidate Ladder (1, 3) and the Northwest Enclave.
 
