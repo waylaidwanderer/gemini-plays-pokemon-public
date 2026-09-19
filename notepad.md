@@ -171,7 +171,7 @@
 - PP UP x1 [Obtained Cerulean Cave 2F]
 - MAX ELIXER x1 [Obtained Cerulean Cave 2F]
 - NUGGET x1 [Obtained Cerulean Cave 2F]
-- ULTRA BALL x1 [Obtained Cerulean Cave 2F (4, 15) Turn 25986]
+- ULTRA BALL x2 [Cerulean Cave 2F (4, 15) Turn 25986; Cerulean Cave B1F (16, 9) Turn 28193]
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - BICYCLE [Withdrawn from PC Turn 25022]
@@ -189,7 +189,7 @@
   9. PP UP x1 [Acquired Cerulean Cave 2F]
   10. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
   11. NUGGET x1 [Acquired Cerulean Cave 2F]
-  12. ULTRA BALL x1 [Acquired Cerulean Cave 2F (4, 15)]
+  12. ULTRA BALL x2 [Acquired Cerulean Cave 2F (4, 15) & B1F (16, 9)]
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -4147,36 +4147,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Post-Game: Cerulean Cave & Mewtwo Master Strategy
 
-## Definitive Dungeon Architecture & Verified Facts
-1. 2F Layout & Boundary Audits:
-   - Row 8: 100% physically bump-tested solid boulders from Col 3 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
-   - Sector A: Visual audit [Turns 27926-27935] confirms Row 4 (Cols 3..8) are 100% solid boulders. Column 2 (Rows 1..4) are solid boulders. Boulder (8, 5) separates Row 5 West from East. Sector A is completely enclosed with zero passage into Row 5 or the Northwest Enclave.
-   - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
-   - Northwest Enclave Structure [Turns 28011-28093]: Direct visual confirmation of Ladder (1, 3)!
-     - Ladder (1, 3) has blue rungs at (1, 3), accessible via (0, 3) stepping East.
-     - Column 0 runs south from (0, 3) through (0, 4) into Row 5 at (0, 5).
-     - Row 5 spans (0..7, 5) open floor.
-     - (6, 6) is the sole open connector linking Row 5 (6, 5) south into Row 7 (6, 7).
-     - Row 7 spans (1..11, 7) open floor.
-     - Complete physical circuit from 2F entrance to Ladder (1, 3) is 100% verified!
-   - Southwest Outer Corridors Breakthrough [Turn 28076]: (1, 14) is indeed a boulder, BUT Column 2 forms the bypass! (2, 15), (2, 14), (2, 13), and (1, 13) are 100% verified open floor tiles! The passage curves: (1, 15) -> (2, 15) -> (2, 14) -> (2, 13) -> (1, 13) -> (1, 12), completely bypassing boulder (1, 14) and connecting the lower network to the upper western corridor!
-2. 1F Layout & Verified Facts:
-   - Northwest Corridor on 1F (Cols 0..5, Rows 3..7) contains Ladder (0, 6) and a south-facing jump ledge at Row 7 (one-way exit).
-   - Northern Subterranean Waterway on Row 4 was physically tested: (13, 4) is an impassable solid rock wall [Turn 27908].
-   - Western Subterranean Waterway: Physical bump tests from (8, 6) confirmed (8, 5) and (7, 6) are 100% impassable solid rock walls [Turn 27986]. Zero entrance exists from 1F water into the Northwest Corridor.
-3. Ladder Pairings:
-   - 1F (23, 7) <-> 2F (22, 6) [2-way confirmed]
-   - 1F (18, 9) <-> 2F (19, 7) [2-way confirmed]
-   - 1F (27, 1) <-> 2F (29, 1) [2-way confirmed]
-   - 1F (7, 1) <-> 2F (9, 1) [2-way confirmed]
-   - 1F (3, 11) <-> 2F (3, 11) [2-way confirmed]
-   - Verified Pair: 2F (1, 3) <-> 1F (1, 3) [Arrived 1F Turn 28101!]
-   - Destination Ladder: 1F (0, 6) descends directly to B1F (Mewtwo)!
-
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Surf along Subterranean Lake: (16, 16) -> (18, 16) -> north along Column 18 through (18, 13..12) into the eastern lake toward Mewtwo's platform. [ACTIVE]
-  2. Approach Mewtwo, initiate battle, and capture Mewtwo with the Master Ball (Slot 1).
+  1. Ascend Staircase (19, 11): (18, 13) -> (18, 12) -> (19, 12) -> (19, 11) -> (19, 10) to reach the eastern land terrace (Cols 19-20). [ACTIVE]
+  2. Navigate eastern land corridor north toward the upper lake where Mewtwo resides.
+  3. Launch Surf, approach Mewtwo, initiate battle, and capture Mewtwo with the Master Ball (Slot 1).
 
 
 <hr>
@@ -4364,7 +4339,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Tile (0, 12) to (0, 13): Physical bump test [Turn 28178] confirmed (0, 13) is a solid boulder.
     - Path turns east along Row 12 through (1, 12) to (2, 12).
   - Southern Cavern & Row 16 East Highway (Cols 0..9+, Rows 14..18):
-    - Column 2 vertical artery connects south: (2, 12) -> (2, 13) -> (2, 14) -> (2, 15) -> (2, 16). [Traversed Turn 28182]
+    - Column 2 vertical artery connects south: (2, 12) -> (2, 13) -> (2, 14) -> (2, 15) -> (2, 16).
     - Western water at (0..1, 15..17) is an enclosed shoreline basin bounded by wall at Col -1, boulder (1, 14), and southern wall at Row 18.
     - Row 16 spans (2..7, 16) open floor. Boulder (8, 16) blocks eastward continuation along Row 16.
     - Northern Bypass to Staircase: from (6, 16), step north through (6, 15) into Row 14 at (6, 14), then east through (7..9, 14).
@@ -4373,11 +4348,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Row 12 Shoreline Corridor: Open purple floor spanning (13..16, 12) connecting Column 16 directly west to Staircase (13, 13).
   - Staircase (19, 11): 1-tile wide wooden staircase at (19, 11) at the southern end of Eastern Chamber (Cols 19..20, Rows 6..10).
   - Eastern Chamber (Cols 19..21, Rows 6..10): Open purple floor corridor flanking eastern side of central cavern, leading south to Staircase (19, 11).
-  - Main Subterranean Lake: Expansive water body launched via Staircase (13, 13) at (13, 14) [Surfing initiated Turn 28197]!
+  - Main Subterranean Lake: Expansive water body launched via Staircase (13, 13) at (13, 14)
     - Water covers (12..15, 14..15), wrapping south of central boulder (16..17, 14..15) into an open 5-tile wide water highway across Rows 16..17 (Cols 14..18+).
-    - Eastern channel runs north along Column 18 (Rows 12..17+) heading into the eastern lake toward Mewtwo's platform.
+    - Eastern channel runs north along Column 18 (Rows 12..17+) heading into the eastern lake.
   - Central Purple Cavern Floor (Cols 9..14+, Rows 6..12):
-    - Arrived onto purple floor via Staircase (9, 13) at (9, 12), advancing north through (9, 11..10) [Traversed Turn 28190].
+    - Arrived onto purple floor via Staircase (9, 13) at (9, 12).
     - Broad open purple chamber spans Rows 6, 7, 8 across Columns 9 through 14+.
     - Central boulder cluster occupies (10..12, 9..12).
     - Column 13 vertical corridor runs south from Row 6 down through Row 12 to Staircase (13, 13).
@@ -4386,7 +4361,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Southern cave boundary wall confirmed at Row 18 (Cols 0..9+).
   - Row 5 Cliff Barrier: South edge of Row 5 (Cols 12..17) is an elevated cliff barrier. Attempting to step south into Row 6 from (13, 5) resulted in collision [Turn 28131]. Direct southern descent from Row 5 is blocked.
 - Lower Purple Floor (Rows 6..12+): Lower cavern floor accessed via Staircase (9, 13).
-  - Ground Item Ball at (16, 9) successfully retrieved [Turn 28193]!
+  - Ground Item Ball at (16, 9): ULTRA BALL x1 [Retrieved Turn 28193]!
   - Column 16 open purple floor runs south through (16, 8..12) directly to the lake shoreline at (17..18, 12).
   - Subterranean water confirmed at (18..19, 12) with Staircase (19, 11) descending directly into water!
 - Isolated Northeast Terrace (Cols 17..21+, Rows 0..2): Accessible via Staircase (19, 3). Contains Ground Item Ball at (18, 1) (MAX REVIVE, retrieved Turn 28145).
