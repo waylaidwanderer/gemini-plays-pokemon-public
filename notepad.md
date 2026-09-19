@@ -8,7 +8,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
 
-- Money: ¥20081 [Turn 29156]
+- Money: ¥20256 [Turn 29315]
 - Pokédex: 19 Caught / 128 Seen
 
 ## Milestones
@@ -213,7 +213,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥20081 [Turn 29156]
+- ¥20256 [Turn 29315]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
@@ -4613,7 +4613,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Swimmer at (24, 12) [Sighted Turn 29124]: Positioned in mid water channel facing South (sight line down col 24, rows 13..16). Northern corridor at row 11 passes cleanly behind him [Verified Turn 29125].
 - Wild Encounters: Tentacool (water) [Encountered Turn 29126].
 - Swimmer at (25, 7) [Sighted Turn 29128]: Positioned in northern water channel.
-- Swimmer at (38, 13) [Engaged Turn 29308]: Facing South. Engaged from (38, 14). Opening line: 'Check out my buff physique!'.
+- Swimmer at (38, 13) [Defeated Turn 29315]: Facing South. Opening line: 'Check out my buff physique!'. Team: Staryu Lv 35. Prize: �175.
 - Swimmer at (45, 10) [Sighted Turn 29139]: Located in channel west of island.
 - Jr. Trainer ♀ at (56, 14) [Encountered Turn 29146]: Guarding entrance approach channel at (57, 14). Line: 'Are you on vacation too?'. Team (Complete): Tentacool Lv 30, Horsea Lv 30, Seel Lv 30 [Verified Turns 29147-29154].
 
