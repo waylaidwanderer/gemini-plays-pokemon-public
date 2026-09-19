@@ -2864,6 +2864,6 @@
 - **1F Northern Mainland**: Continuous 3-tile high highway (rows 0-2) spanning from (27, 1) [Ladder D] west past (23, 3) [Northeast Dock] and (15, 3) [North Dock] to (7, 1) [Ladder E].
 - **2F Northwest Plateau**: (9, 1) connects west to (5, 1) -> (5, 3) -> (3, 3).
 - **2F Western Corridor & Ladder A**: Ladder A is at (1, 3). Rock wall at column 2 (2, 1..4) separates (3, 1..3) from (1, 3). Column 0 (0, 3..5) and Row 5 (0..7, 5) connect to Ladder A at (1, 3).
-- **Master Strategy**: Navigate 2F via Row 9/Row 11 or connecting crossways to reach Column 0 and step onto Ladder A (1, 3) to descend to B1F and capture Mewtwo with the Master Ball!
+- **Route Note**: SW Ladder (3, 11) on 1F ascends to 2F Southwest Sector, connecting directly north along Column 0 to Ladder A (1, 3) to descend to B1F Mewtwo.
 
 <hr>
