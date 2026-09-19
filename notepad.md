@@ -4298,9 +4298,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (22, 6) Enclosed Pocket: Bounded by solid rock walls on all sides. Only contains Column 23 (rows 7..11), Column 24 (rows 11..15 dead-end), Row 11 (cols 14..23 dead-end at 14, 11 and 17, 10), and Row 13 (cols 17..22 dead-ending at 22, 15 and 21, 15). ZERO ground access to the rest of 2F!
 - Ladder (29, 1) Enclosed Pocket: Bounded by rock walls cols 27..29, rows 0..6. ZERO ground access to the rest of 2F!
 - Ladder (3, 11) Southwest Pocket: Connects to Row 17 West and Column 12/13, but blocked from Candidate Ladder (1, 3).
-- Ladder (19, 7) (from 1F Ladder 18, 9): THE ONLY LADDER connecting to the central and northwest 2F corridors (Row 7, Row 8, Row 9) and leading to Candidate Ladder (1, 3)!
-
-## Ladder (19, 7) Winding Gateway
-- Ladder (19, 7) Exit Corridor: From (19, 7), open floor leads north through (19, 6) and (19, 5), east through (20, 5) and (21, 5), north through (21, 4), and east into (22, 4) and (22, 3), connecting directly to the northern corridor network! [Visually verified Turn 26219]
+- Ladder (19, 7) (from 1F Ladder 18, 9): Descending cave ladder connecting to 1F Ladder (18, 9). Leads north through (19, 6) and (19, 5) toward eastern passage [Physically verified Turn 26221].
 
 <hr>
