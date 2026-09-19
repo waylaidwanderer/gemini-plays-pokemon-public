@@ -2,7 +2,7 @@
 
 ## Strategy & Objectives
 - [x] Transited via Fly to Cinnabar Island outside Pokémon Center [Turn 29281]
-- [ ] Enter Cinnabar Pokémon Center and heal with Nurse Joy to set warp anchor
+- [x] Healed at Cinnabar Pokémon Center with Nurse Joy; warp anchor set to Cinnabar [Turn 29290]
 - [ ] Surf East across Route 20 to Seafoam Islands Western Entrance at (58, 9)
 - [ ] Infiltrate Seafoam Islands 1F and systematically map unexplored corridors
 - [ ] Locate and verify pushable boulders and pit holes
