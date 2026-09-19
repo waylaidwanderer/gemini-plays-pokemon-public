@@ -4478,5 +4478,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball 2 at (25, 18) [Sighted Turn 28582]: Visible in an alcove surrounded by green monitor terminals at (24, 18), (26, 18), and (25, 19). Accessible from the north via (25, 17) and row 16.
 - Row 16 Avenue (Cols 24..28+): Open horizontal avenue running east above the monitor bank.
 - Item Ball 3 at (32, 18) [Sighted Turn 28583]: Visible in an alcove at (32, 18) bordered west by green monitors and east by open floor at (33, 18).
+- Eastern Avenue & Facility Boundary (Cols 34..36, Rows 16..22+) [Audited Turn 28586]: Column 36 is the solid outer eastern facility wall. Columns 34-35 form a 2-tile wide open north-south avenue connecting rows 16, 18, 20, and 22. Item Ball 3 at (32, 18) is accessible from this avenue via (33, 18).
 
 <hr>
