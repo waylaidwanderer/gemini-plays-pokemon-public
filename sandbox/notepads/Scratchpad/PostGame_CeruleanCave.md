@@ -2,7 +2,8 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. MEWTWO LOCATED at (27, 13) on elevated platform!
-  2. Arrived at Staircase (27, 15) [Turn 28226].
-  3. Step Up to (27, 14) facing Mewtwo, press A to initiate battle. [ACTIVE]
-  4. In battle: Select ITEM (Down from FIGHT) -> Select MASTER BALL (Slot 1) -> Capture Mewtwo!
+  1. MEWTWO LOCATED at (27, 13) on elevated platform! [DONE]
+  2. Arrived at (27, 14) directly facing Mewtwo. [DONE]
+  3. Pressed A, 'Mew!' dialogue displayed [Turn 28231]. [DONE]
+  4. Advance dialogue to start battle. [ACTIVE]
+  5. In battle: Select ITEM (Down from FIGHT) -> Select MASTER BALL (Slot 1) -> Capture Mewtwo!
