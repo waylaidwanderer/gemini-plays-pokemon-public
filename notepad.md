@@ -4509,5 +4509,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Collision Confirmed at (25, 12) [Audited Turn 28654]: Bump test from (26, 12) facing West confirmed solid wall collision. Row 12 does not connect west through column 25.
 - Entry Route to Zapdos Chamber [Audited Turns 28674-28675]: From Row 11, Column 12 runs north to (12, 7). Column 11 connects north through the open gateway at (11, 4) into the Row 3 Highway. Row 3 runs continuously west across columns 11..4, connecting directly south into the Zapdos chamber at (4, 9).
+- Row 3 Corridor & Northern Chamber Approach [Audited Turns 28677-28678]: Row 3 is an open corridor connecting (11, 3) west past column 8 bottleneck (8, 3) into an open hall across cols 3..7, rows 3..5. Generators line row 1 (cols 3..7). Rubble at (3..5, 2) and (4..5, 3). Gateway at (4..5, 6) opens south between walls (3, 6) and (6..7, 6) directly into the Zapdos chamber (cols 3..7, rows 7..11).
 
 <hr>
