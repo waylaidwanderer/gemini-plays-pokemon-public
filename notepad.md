@@ -175,12 +175,13 @@
 - MAX ELIXER x1 [Obtained Cerulean Cave 2F]
 - NUGGET x1 [Obtained Cerulean Cave 2F]
 - ULTRA BALL x2 [Cerulean Cave 2F (4, 15) Turn 25986; Cerulean Cave B1F (16, 9) Turn 28193]
+- HP UP x1 [Power Plant (28, 3) Turn 28644]
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Active Bag Items: 11 / 20 capacity used.
+- Active Bag Items: 12 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -4504,6 +4505,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trap at (26, 28) [Cleared Turn 28630]: Voltorb Lv 40 trap. Interacted from (25, 28) facing East; fled safely. Trap entity permanently despawned; tile (26, 28) is now clear floor.
 - Item Ball 8 at (26, 32) [Sighted Turn 28627]: Visible at (26, 32) in southern machine corridor, bounded west by (25, 32) and east by terminal at (27, 32). Identity unverified.
 - South Wrap to Outer Eastern Corridor [Audited Turn 28636]: Row 27 connects east to (36, 27). Column 36 connects north through (36, 25..24). Tile (37, 24) connects directly into the outer eastern corridor (cols 37-38), running continuously north to row 14.
-- Item Ball 9 at (28, 3) [Sighted Turn 28644]: Visible at (28, 3) in northern pocket, bordered north by monitor (28, 2), east by monitor (29, 3), west by rubble (27, 3), and south by (28, 4). Identity unverified.
+- Item Ball 9 at (28, 3) [Collected Turn 28644]: HP UP! Interacted from (28, 4) facing North. Collected into bag; tile (28, 3) is now clear floor.
 
 <hr>
