@@ -16,5 +16,6 @@
 - **Northwest Sector (Ladder E 9, 1)**: Spans rows 0-5, cols 3-13. Connects via (9, 5) -> (13, 5) -> (13, 1) -> (18, 1) to central bypass.
 - **Central Bypass (18, 1 <-> 21, 1)**: Bypasses rock at (19, 1) via (18, 3) -> (20, 3) -> (20, 1) -> (21, 1).
 - **Northeast Alcove (Ladder D 29, 1)**: Accessible from 1F water (27, 1). Connects via (29, 1) -> (28, 3) -> (29, 6) -> (27, 6) into Eastern Corridor.
-- **Eastern Corridor (cols 25-28)**: Runs south from (27, 6) through (25, 7..9) -> (26, 9..14) -> (28, 14..16) towards southern floor.
-- **Western Corridor (Ladder A 1, 3)**: Isolated western corridor containing Ladder A at (1, 3) to B1F Mewtwo, connected to SW Ladder (3, 11).
+- **Eastern Corridor (cols 25-29)**: Runs south from (27, 6) through (25, 7..9) -> (26, 9..14) -> (28, 14..16) -> (27, 16) into Row 17 Southern Highway.
+- **Southern Highway (Row 17)**: Open passage running west from (27, 17) across rows 16-17 towards the western sector.
+- **Western Corridor (Ladder A 1, 3)**: Isolated western corridor containing Ladder A at (1, 3) to B1F Mewtwo (active exploration target via Row 17).
