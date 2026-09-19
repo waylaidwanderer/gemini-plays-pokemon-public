@@ -4159,17 +4159,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - 1F (27, 1) <-> 2F (29, 1) [2-way confirmed]
    - 1F (7, 1) <-> 2F (9, 1) [2-way confirmed]
    - 1F (3, 11) <-> 2F (3, 11) [2-way confirmed]
-   - 1F (0, 6) <-> 2F (1, 3) [Key connection to Northwest Corridor / B1F descent route]
+   - 1F (0, 6) <-> 2F (1, 3) [Northwest Corridor ladder leading toward B1F descent]
 
-## The Master Breakthrough Strategy: 2F West Coast Artery
-- Empirical Finding: A continuous chain of open floor exists along Columns 0..2 on 2F:
-  (1..2, 13) -> (1, 12) -> (0, 9..11) -> (1, 8..9) -> (1..7, 7) -> gap (6, 6) -> (0..7, 5) -> Ladder (1, 3)!
-- Target: The Lower Southwest Network on 2F (Cols 4..13, Rows 13..17, accessed via Ladder 3, 11) contains the gateway connecting west into this West Coast artery.
-- Action Plan:
-  1. Descend Ladder (22, 6) to 1F (23, 7).
-  2. Surf across 1F waterways to Western Terrace and ascend Ladder (3, 11) to 2F.
-  3. Navigate through Column 12 to 2F Lower Southwest Network (Rows 13..17).
-  4. Systematically test westward connectors into Columns 0..2 to enter the West Coast artery and reach Ladder (1, 3).
+## Working Hypothesis: Westward Gateway Survey
+- Hypothesis: Testing whether Lower Southwest Network (Cols 4..13, Rows 13..17) has any unverified breach into Columns 0..2 to access the northwest enclave.
+- Counter-Evidence & Collision Audits: Previous physical tests recorded solid boundaries at (4, 13), (0..1, 14), (2, 15), and (3..5, 16).
+- Immediate Objective: Finalize audit of Lower Southwest Network boundary. If confirmed fully sealed, pivot immediately to re-examine Sector A and 1F northwest configurations.
 
 
 <hr>
