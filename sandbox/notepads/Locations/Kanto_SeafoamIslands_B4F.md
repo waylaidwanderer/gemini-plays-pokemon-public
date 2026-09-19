@@ -12,3 +12,5 @@
 - North Dock: Located at (23, 5), connects subterranean lake to northern dry terrace.
 - Ladder (North): Located at (25, 4) on northern dry terrace.
 - Northern Dry Terrace: Rows 3..4 form a dry path spanning cols 16..25+, extending west into the northwest quadrant.
+- Northern Structure: Located at (23, 1).
+- Dry Highway: Rows 1..4 form an open corridor spanning west into the northwest quadrant toward Articuno chamber.

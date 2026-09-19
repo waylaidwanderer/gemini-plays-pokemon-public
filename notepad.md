@@ -4616,8 +4616,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
 - [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
 - [x] Washed down rapid current into B4F subterranean lake at (20, 15) [Turn 29186]
-- [ ] Scout northern waters of B4F toward Articuno chamber in northwest
-- [ ] If blocked by current, land on western bank (18, 14) to ascend ladder and dam currents
+- [x] Landed on northern dock (23, 5); verified dry terrace (rows 1..4) extending west toward Articuno [Turn 29189]
+- [ ] Scout west along rows 1..4 to locate Articuno chamber in northwest B4F
 - [ ] Save directly in front of Articuno
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
@@ -4735,5 +4735,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - North Dock: Located at (23, 5), connects subterranean lake to northern dry terrace.
 - Ladder (North): Located at (25, 4) on northern dry terrace.
 - Northern Dry Terrace: Rows 3..4 form a dry path spanning cols 16..25+, extending west into the northwest quadrant.
+- Northern Structure: Located at (23, 1).
+- Dry Highway: Rows 1..4 form an open corridor spanning west into the northwest quadrant toward Articuno chamber.
 
 <hr>
