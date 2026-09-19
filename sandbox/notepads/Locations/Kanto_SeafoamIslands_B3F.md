@@ -14,4 +14,4 @@
 - Southern Chamber: Rows 14..15 span wide open floor across cols 9..18+.
 
 ## Wild Encounters
-- Psyduck [Encountered Turn 29207].
+- Psyduck (Lv 31) [Encountered Turn 29207].
