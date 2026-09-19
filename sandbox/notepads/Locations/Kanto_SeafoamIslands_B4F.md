@@ -27,3 +27,5 @@
   - Confirms active rapid water currents in northwest canal block water traversal to Articuno.
   - Boulders must be dropped from upper floors (B3F) to dam the currents.
   - Ladder at (8, 6) [Corrected Turn 29201]: Primary ascent ladder to B3F puzzle chamber.
+## Wild Encounters
+- Staryu [Encountered Turn 29202].

@@ -8,11 +8,11 @@
 - [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
 - [x] Washed down rapid current into B4F subterranean lake at (20, 15) [Turn 29186]
 - [x] Landed on northern dock (23, 5); verified dry terrace (rows 1..4) extending west toward Articuno [Turn 29189]
-- [x] Scouted northwest canal at (7, 6) facing water at (7, 5) leading into Articuno quadrant [Turn 29194]
-- [ ] Launch Surf at (7, 6) north into (7, 5) and surf west toward Articuno island
-- [ ] Save directly in front of Articuno
-- [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
-- [ ] Reach Articuno chamber on Seafoam Islands B4F
+- [x] Scouted northwest canal at (7, 6): rapid current blocks Surf ('No SURFing on SHELDON here!') [Turn 29196]
+- [ ] Ascend ladder at (8, 6) to B3F to solve boulder current-damming puzzle
+- [ ] Survey B3F layout, boulders, and holes, and invoke seafoam_boulder_agent
+- [ ] Drop boulders into holes on B3F to dam subterranean water currents
+- [ ] Return to B4F via ladder (8, 6), surf across calmed waters to Articuno island
 - [ ] Save directly in front of Articuno
 - [ ] Battle, chip safely, and capture Legendary Articuno (Lv 50) with Ultra Ball!
 
