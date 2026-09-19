@@ -2817,6 +2817,7 @@
 - **Entrance Basin**: Water channel across cols 23-25 (rows 12-16) leading to shoreline at (23, 8) / (23, 7).
 - **East Sector Ledges**: Ledge at (21, 11) hops down to (21, 12). Column 19 is a solid rock wall separating East Sector from Central Corridor.
 - **Central Corridor**: Accessible via Ladder C at (18, 9).
+- Ladder at (9, 1) on 1F <-> 2F (7, 1) [Verified Turn 53887].
 
 <hr>
 
