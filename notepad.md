@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 13) mounting Surf into (11, 14).
+- Current Location: Cerulean Cave 1F at (11, 14) in Surfing state facing South.
 
 - Empirical Proof [Turn 26362]: Inspected (3, 9). (3, 8) is a solid rock wall! (2, 8..13) is solid rock! Row 5/7 and Candidate Ladder (1, 3) are 100% isolated on 2F with zero ground connection from any 2F ladder.
 - Conclusion: Candidate Ladder (1, 3) must be accessed via 1F (likely corresponding to 1F Ladder (0, 6)).
@@ -4190,7 +4190,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - 2F Northeast Enclave (Ladder 29, 1): Enclosed enclave bounded by solid rock walls (verified Turn 26143).
   - 2F Main Network: Connected to Ladder (22, 6) from 1F Entrance Terrace Ladder (23, 7)! This network contains Column 26, Column 28, Row 14, and the Northern Chamber (Cols 24..29, Rows 5..7).
   - Active Route: Navigate from (16, 9) -> Staircase (11, 13), surf east across lake to Staircase (25, 9), ascend to Entrance Terrace Ladder (23, 7), and climb to 2F (22, 6) to explore the Northern Chamber toward B1F!
-
 
 <hr>
 
