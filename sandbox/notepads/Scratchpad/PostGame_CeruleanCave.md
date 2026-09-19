@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (13, 3) navigating south down Column 13 to Row 5.
+- Current Location: Cerulean Cave 2F at (11, 5) in battle with wild Electrode on Row 5.
 - Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
   2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
