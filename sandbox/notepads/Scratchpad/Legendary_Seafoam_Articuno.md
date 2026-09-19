@@ -21,3 +21,13 @@
 - 5 Floors: 1F, B1F, B2F, B3F, B4F.
 - Rapid water currents on B3F and B4F drag the player uncontrollably unless specific boulders are dropped from upper floors into holes to dam/block the water current.
 - Articuno is stationary at B4F.
+## Route Approach Comparison & Strategic Decision
+- **Route Option 1: Fuchsia City via Route 19 South -> Route 20 West**
+  - Walk to water: ~15 steps south through Fuchsia gatehouse to Route 19 beach.
+  - Surf distance: ~35 tiles south on Route 19 + ~10 tiles west on Route 20 = ~45 water tiles.
+  - Directional turns: 90-degree corner turn south-to-west.
+- **Route Option 2: Cinnabar Island via Route 20 East**
+  - Walk to water: ~6 steps east from Cinnabar Pokémon Center directly to eastern shoreline.
+  - Surf distance: ~30-35 tiles straight east along Route 20.
+  - Directional turns: 0 turns (pure straight eastward surf).
+- **Decision:** Route Option 2 (Cinnabar Island) is selected. It offers significantly shorter land travel to water launch, a pure linear eastward surf vector, and enters Seafoam Islands via the western entrance.

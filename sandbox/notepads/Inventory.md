@@ -1,6 +1,6 @@
 # Inventory Log
 
-## Bag Items (Empirically Verified Turns 28749-28750)
+## Bag Items
 1. POKé FLUTE [Key Item]
 2. MAX POTION x 1
 3. REVIVE x14
@@ -57,7 +57,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 19/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 13/20) [Verified Turn 28245]
+  - Moves: Swift (PP 19/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 13/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
