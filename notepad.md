@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (19, 5) in wild battle with Kadabra.
+- Current Location: Cerulean Cave 2F at (22, 3) in wild battle with Marowak.
 - Active Strategy & Frontier:
   - [x] Master Topological Deduction [Turn 26193]: Ladders (22, 6) and (29, 1) on 2F are BOTH verified isolated pockets! Ladder (19, 7) (accessed via 1F Ladder 18, 9) is the EXCLUSIVE gateway to 2F northern corridors and Candidate Ladder (1, 3).
   - Master Plan: Backtrack via Ladder (22, 6) to 1F (23, 7), surf to Staircase (11, 13) on Central-Western Terrace, ascend Ladder (18, 9) to 2F Ladder (19, 7), and enter the northwest sector to reach Candidate Ladder (1, 3) and B1F!
@@ -4298,6 +4298,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (22, 6) Enclosed Pocket: Bounded by solid rock walls on all sides. Only contains Column 23 (rows 7..11), Column 24 (rows 11..15 dead-end), Row 11 (cols 14..23 dead-end at 14, 11 and 17, 10), and Row 13 (cols 17..22 dead-ending at 22, 15 and 21, 15). ZERO ground access to the rest of 2F!
 - Ladder (29, 1) Enclosed Pocket: Bounded by rock walls cols 27..29, rows 0..6. ZERO ground access to the rest of 2F!
 - Ladder (3, 11) Southwest Pocket: Connects to Row 17 West and Column 12/13, but blocked from Candidate Ladder (1, 3).
-- Ladder (19, 7) (from 1F Ladder 18, 9): Descending cave ladder connecting to 1F Ladder (18, 9). Leads north through (19, 6) and (19, 5) toward eastern passage [Physically verified Turn 26221].
+- Ladder (19, 7) (from 1F Ladder 18, 9): Descending cave ladder connecting to 1F Ladder (18, 9). Winding passage leads through (19, 6..5) -> (20, 5) -> (21, 5) -> (21, 4) -> (22, 4) -> (22, 3), connecting directly to the northern corridor network! [Physically verified Turns 26221-26229]
 
 <hr>
