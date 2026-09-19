@@ -51,7 +51,7 @@
   - Status: Doorway reached at (4, 6); un-traversed tiles across rows 7..11 remain unverified sightings until physically explored during final capture expedition.
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
-- Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24.
+- Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656, 28965]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24. Tile (22, 14) is a solid vertical dividing wall. Columns 23-24 form an open 2-tile wide vertical concourse ascending North past row 10 toward the northern foyer.
 - Gateway at (30..31, 13) [Traversed Turn 28640]: 2-tile wide open north-south passage through row 13 wall connecting Row 14 Highway to Row 12 Concourse.
 - Row 12 Concourse [Traversed Turns 28641, 28647]: Open horizontal avenue running across cols 26..38 north of row 13 wall.
 
