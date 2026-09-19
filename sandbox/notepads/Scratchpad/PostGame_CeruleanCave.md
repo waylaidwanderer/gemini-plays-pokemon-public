@@ -15,8 +15,9 @@
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (9, 1) facing Left. Verified (9, 1) and (7, 1) are regular floor tiles, not ladders.
-- Next Objective: Find entrance to Column 0 / Row 5 / Row 7 western pocket on 2F to reach Ladder (1, 3).
+- Current Location: Cerulean Cave 2F at (8, 1) facing Right, exiting northwest pocket.
+- Strategic Pivot [Turn 26644]: Spatial audit confirmed 2F Cols 3..9, Rows 1..5 is an isolated cul-de-sac with no walkmesh connection to (1, 3).
+- New Plan: Route east via Row 1 to Ladder (19, 7), descend to 1F (18, 9), and deploy Surf from Staircase (11, 13) to explore the northern/northwestern waterways toward Ladder (0, 6).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
