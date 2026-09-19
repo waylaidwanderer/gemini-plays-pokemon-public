@@ -4151,12 +4151,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (18, 1).
-- Verified Status: Confirmed Northern Terrace is fully bounded on south (Row 3 rock wall) and west (Column 4 rock wall) with zero connection to Row 4. 1F ground routes to Ladder (0, 6) are completely exhausted. Access to B1F must proceed through 2F Sector A to locate the passage to Ladder (1, 3).
+- Current Location: Cerulean Cave 2F at (27, 4).
+- Verified Status: Sector A corridors (Row 1, 3, 5, Col 9, 13, 16, 24, Row 4) fully surveyed; Row 4 dead-ends at Alcove (27, 4) with solid rock at (28, 4). Sector A is completely isolated on 2F with no ground access to Sector B or the Northwest Enclave. The unvisited territory on 2F lies north of Row 9 (Cols 4..12, Rows 6..8) accessed via Ladder (3, 11).
 - Active Route:
-  2. Systematically explore 2F Sector A corridors (Row 1, Row 3, Row 5, Column 9, Column 13, and untested branches) to locate access into the northwest enclave enclosing Ladder (1, 3).
-  3. Take Ladder (1, 3) to descend into B1F (or the isolated 1F enclave at Ladder 0, 6).
-  4. Locate and capture Mewtwo on B1F using the Master Ball.
+  1. Return west to Ladder (9, 1) via Row 4 west, Row 2 west, S-bypass, and Row 1.
+  2. Descend Ladder (9, 1) to 1F Northern Terrace at Ladder (7, 1).
+  3. Surf via Staircase (15, 3) to Staircase (11, 13) and traverse Row 17 to Staircase (1, 13).
+  4. Climb Ladder (3, 11) to 2F Western Pocket at (3, 11) and access Row 9 at (3, 9).
+  5. Systematically test northward passages from Row 9 (Cols 4..12) into Rows 8, 7, 6 to enter Row 5 West and reach Ladder (1, 3).
+  6. Descend Ladder (1, 3) to B1F and capture Mewtwo with Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
