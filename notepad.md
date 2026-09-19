@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (5, 1) stepping onto Ladder (9, 1).
+- Current Location: Cerulean Cave 2F at (8, 0) in battle with wild Magneton, adjacent to Ladder (7, 1).
 - Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
   2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
@@ -4175,7 +4175,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Ladder (29, 1) connects to (28, 1..3). At (28, 3), West (27, 3) and South (28, 4) are physically confirmed solid rock walls [Turn 26489].
   5. The only exit from (28, 3) is East into Column 29 at (29, 3).
   6. Column 29 runs south through rows 3, 4, 5, 6, 7 toward Row 14 and Column 26.
-- Next Objective: Step Right x4 along Row 1 through (6..8, 1) directly onto Ladder (9, 1) to test warp destination.
+- Next Objective: Flee from Magneton, step Left to (7, 0), step Down onto Ladder (7, 1) to test destination warp.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4248,6 +4248,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (7, 1): Cave ladder confirmed at (7, 1). Accessed from (7, 0) stepping Down into (7, 1). Connected to open room (5..12, 0..2). [Visually confirmed Turn 26570]
 - Ladder (9, 1): Cave ladder confirmed at (9, 1) on Row 1. Accessed from Row 0 via (7..9, 0) stepping Down into (9, 1). Connected west along Row 1 to Column 3. [Visually verified Turn 26563]
 - Ladder (1, 3): Cave ladder confirmed at (1, 3) in far northwest corner. Accessed via Column 0 at (0, 3) facing East. 100% verified route: (3, 1) -> (3, 3) -> Row 3 east to (7, 3) -> south to (7, 5) -> Row 5 west to (0, 5) -> north up Column 0 to (0, 3) -> East into (1, 3). [Visually and geometrically verified Turn 26554]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
@@ -4314,7 +4315,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Arteries (Cols 14..16, Rows 1..5): Columns 14 and 15 form a broad 2-tile wide vertical corridor connecting Row 1 down through Row 5. Row 1 connects directly from (18, 1) through (17, 1), (16, 1), (15, 1) into (14, 1). [Visually verified Turn 26517]
 - Row 1 West Terminus & Column 11 Highway (Cols 10..14, Rows 1..5): Row 1 extends west from (14, 1) through (13, 1), (12, 1) to (11, 1), visually bounded west by rock at (10, 1) [physical collision pending]. Column 11 and Column 12 run south through rows 1..5. Row 3, Row 4, and Row 5 are open horizontal thoroughfares extending west past Column 10 toward Column 1. [Visually verified Turn 26518]
 
-## Wild Pok�mon (Empirically Verified)
+## Wild
+- Magneton: Wild encounter [Encountered 2F Turn 26570] Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
