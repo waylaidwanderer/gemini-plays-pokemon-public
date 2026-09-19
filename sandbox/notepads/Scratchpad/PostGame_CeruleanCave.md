@@ -15,15 +15,15 @@
 ## Completed Milestones
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Northern Terrace at (7, 1) facing Right. Walking east to Staircase (15, 3) to Surf.
-- Strategic Pivot [Turn 26644]: Spatial audit confirmed 2F Cols 3..9, Rows 1..5 is an isolated cul-de-sac with no walkmesh connection to (1, 3).
-- New Plan: Route east via Row 1 to Ladder (19, 7), descend to 1F (18, 9), and deploy Surf from Staircase (11, 13) to explore the northern/northwestern waterways toward Ladder (0, 6).
+- Current Location: Cerulean Cave 2F at (19, 7) secluded pocket. Stepping Up/Down to return to 1F (18, 9).
+- Strategic Finding [Turn 26666]: Visual audit of 2F (19, 7) confirmed it is a 5-tile isolated cul-de-sac bounded by solid rock walls on all sides.
+- Target Route: Return to 1F (18, 9), walk to Staircase (11, 13), surf east across lake to Staircase (25, 9) onto Entrance Terrace, and ascend Ladder (23, 7) to reach 2F Master Network at Ladder (22, 6).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
-| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Central Network |
+| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Secluded Pocket (Dead End) |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Eastern/Northern Sector |
 | (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Northern Corridor |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
