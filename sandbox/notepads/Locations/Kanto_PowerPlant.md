@@ -23,3 +23,4 @@
 - Item Ball at (9, 20) [Discovered Turn 28552]: Visible at (9, 20) in an alcove surrounded by rubble at (9, 18..19), (10..11, 18..20), and wall at (8, 20). Accessible only from the south via (9, 21). Unverified whether item or Voltorb trap.
 - East-West Passage (Rows 15..16, Col 8): Open floor gap through column 8 dividing wall, connecting western corridor (cols 2..7) to eastern wing (cols 9..11+).
 - Northern Corridor Funnel (Rows 13..14, Cols 6..7): Bounded west by rubble at (2..5, 13) and east by wall at (8, 13..14). Open corridor heads north through (6..7, 13) toward northern facility.
+- Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Row 12 is a solid dividing wall. Western corridor terminates at (6..7, 13). Access route must loop through the eastern wing via (8, 15..16).
