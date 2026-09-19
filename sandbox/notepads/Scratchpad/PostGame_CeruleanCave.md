@@ -28,7 +28,7 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Operating on B1F: Ascend Staircase (19, 3) to (19, 2), step to (19, 1), face west, and retrieve Ground Item Ball at (18, 1).
-  2. Descend Staircase (19, 3) back to intermediate terrace (Rows 4..5).
-  3. Explore west across Rows 4..5 toward Columns 5..10 to identify tested physical descents into the lower purple cavern and subterranean waterways.
+  1. Operating on B1F: Ascend Staircase (19, 3) to (19, 2), step to (19, 1), face west, and retrieve Ground Item Ball at (18, 1). [DONE - Retrieved Turn 28145]
+  2. Descend Staircase (19, 3) back to intermediate terrace (Rows 4..5). [DONE - Arrived (16, 5) Turn 28156]
+  3. Explore west across Rows 4..5 toward Columns 5..10 to identify tested physical descents into the lower purple cavern and subterranean waterways. [ACTIVE - At (9, 5), opening at Column 7 discovered]
   4. Navigate waterways to Mewtwo's platform and capture Mewtwo with the Master Ball.
