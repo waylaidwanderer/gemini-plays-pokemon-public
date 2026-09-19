@@ -153,6 +153,8 @@
 - [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
+- [ ] Infiltrate Kanto Power Plant via Route 10 canal and capture Legendary ZAPDOS
+- [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
 
 
 <hr>
@@ -467,7 +469,8 @@
 - Row 54: HP Up previously collected at (13, 54) [Turn 3860].
 - Row 61: South-facing ledge spanning cols 14 and 16..19, with passable tan ramp at (15, 61). Tree at (13, 61).
 - Rows 62..68: Flower garden pocket spanning cols 13..19.
-- Row 69: Solid trees block south across cols 10..22.- Northern Avenue & Diglett's Cave Connection (Cols 8..14, Rows 5..9): Diglett's Cave northern cave entrance located at (12, 9) in the brown mountain rock wall spanning cols 10..14, rows 6..9. Cols 8..9 form a clear 2-tile wide paved and open ground avenue running north past the cave toward Pewter City.
+- Row 69: Solid trees block south across cols 10..22.
+- Northern Avenue & Diglett's Cave Connection (Cols 8..14, Rows 5..9): Diglett's Cave northern cave entrance located at (12, 9) in the brown mountain rock wall spanning cols 10..14, rows 6..9. Cols 8..9 form a clear 2-tile wide paved and open ground avenue running north past the cave toward Pewter City.
 
 
 <hr>
@@ -1458,6 +1461,13 @@
 - Diglett: Lv 15-22 observed throughout main tunnel.
 - Diglett: Lv 18 caught [Turn 3507], nicknamed DIGBY.
 
+## Route 2 Entrance Room (North Building - Audited Turn 28381)
+- Room Bounds: Walls enclose room across rows 3..7, cols 1..5.
+- South Exit Mat: (2..3, 7) facing South exits outside to Route 2 East at (12, 9).
+- NPC at (3, 3): Trainer with orange hat and blue shirt facing South.
+- Ladder Down: Located at (4, 4) leading down into the main tunnel at (5, 5).
+- Floor: Open dirt cave floor across cols 1..5, rows 4..6.
+
 
 <hr>
 
@@ -1616,15 +1626,12 @@
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
 - Signpost at (9, 55): Read from (8, 55) facing East. Text: "ROCK TUNNEL" [Turn 4790].
-- Jr. Trainer ♀ at (7, 54): Triggered at (7, 56) facing South. Pre-battle dialogue: "I'm feeling a bit faint from this tough hike." Team: Pidgey Lv 21, Pidgeotto Lv 21. Prize: ¥420. Defeated Turn 4799. Defeat dialogue: "I'm not up to it!".
 - Southern Geography: Cols 5..12 terminated at row 58 by cliff wall; passage continues south/west through col 4 and cols 0..3 toward Lavender Town.
 - Ledge (Row 59, Cols 2..3): South-facing one-way jumping ledge from row 58 to row 60.
 - Western Tall Grass Field (Rows 60..63, Cols 2..7): Tall grass corridor before Lavender Town.
 - Cliff Wall (Row 64, Cols 2..7): Solid mountain cliff bounding south side of western tall grass.
-- Hiker at (3, 57): Triggered at (3, 56) facing North. Pre-battle dialogue: "Ha-hahah-ah-ha!". Team: Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4811. Defeat dialogue: "Ha-haha! Not laughing! Ha-hay fever! Haha-ha-choo!".
-- Hiker at (3, 61): Triggered at (3, 63) facing South. Pre-battle dialogue: "Ah! This mountain air is delicious!". Team: Onix Lv 19, Graveler Lv 19. Prize: ¥665. Defeated Turn 4824. Defeat quote: "That cleared my head!".
-- Pokémaniac at (11, 64): Stationed at (11, 64) facing West. Pre-battle dialogue: "Hi kid, want to see my POKéMON?". Team: Cubone Lv 20, Slowpoke Lv 20. Prize: ¥1000. Defeated Turn 4832.
 - Eastern South Avenue (Cols 10..11, Rows 62..67): Open avenue through tall grass between cliff (west, cols 4..8) and Lavender Town building (east, cols 12..13, rows 66+). Runs directly South past row 67 into Lavender Town!
+
 
 <hr>
 
@@ -4409,8 +4416,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Quest Objectives & Routing
 1. Traverse Route 1 North from Pallet Town to Viridian City. [DONE - Turn 28350]
-2. Traverse Route 2 North to Diglett's Cave (Cut tree at 12, 52 and gatehouse). [ACTIVE]
-3. Traverse Diglett's Cave to Route 11 / Vermilion City.
+2. Traverse Route 2 North to Diglett's Cave (Cut tree at 12, 52 and gatehouse). [DONE - Turn 28381]
+3. Traverse Diglett's Cave to Route 11 / Vermilion City. [ACTIVE]
 4. Ride through Vermilion -> Route 6 -> Saffron City -> Route 5 -> Cerulean City.
 5. Heal team at Cerulean City Pokémon Center and set warp anchor.
 6. Traverse Route 9 East (Cut tree at entrance with DUX).
