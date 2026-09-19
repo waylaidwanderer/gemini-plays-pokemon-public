@@ -4746,3 +4746,27 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 <hr>
+
+<h1><code>Locations/Kanto_SeafoamIslands_B1F</code></h1>
+
+# Seafoam Islands B1F Geography & Layout
+
+## Overview
+- First basement floor of Seafoam Islands cavern complex.
+- Arrived via Ladder 1 at (23, 15) on 1F, landing at (23, 15) on B1F [Turn 29336].
+
+## Key Landmarks & Layout
+- Arrival Tile / Ladder Warp: (23, 15).
+- Ladder (Ascending): Located at (25, 11) [Sighted Turn 29336]. Leads up to 1F.
+- Ladder (West): Located at (19, 15) [Sighted Turn 29336].
+- Southeast Chamber: Open floor spanning cols 21..27, rows 11..15. Bounded east by col 28 rock wall and south by row 16 rock wall.
+- Northern Corridors: Chamber opens north past row 11 into main B1F puzzle chambers.
+
+## Boulders & Pit Holes
+- To be surveyed.
+
+## Wild Encounters
+- To be recorded.
+
+
+<hr>

@@ -15,4 +15,4 @@
 - To be surveyed.
 
 ## Wild Encounters
-- To be recorded.
+- Shellder [Encountered Turn 29338].
