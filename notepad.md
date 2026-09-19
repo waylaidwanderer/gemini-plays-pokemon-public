@@ -4167,8 +4167,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
 - Working Hypothesis: The true descent to B1F lies in the segregated 1F Northwest Corridor (0, 6) which connects to 2F Ladder (1, 3).
 - Active Protocol:
-  1. On 2F at (27, 6): Move through (27, 7) -> (25, 7) to inspect whether (24..27, 4) or any passage connects westward into the northern perimeter.
-  2. If 2F eastern transit is fully confirmed closed, immediately pivot to 1F ground-level waterways to test the western water boundaries along Row 7/8 for an unverified access point into the Northwest Corridor.
+  1. Systematically navigate 1F subterranean waterways to test unverified boundaries without shuttling back into known 2F enclosures.
+  2. Investigate Column 14/15 water boundaries and western water channels along Rows 4..8.
 
 - Southeast Network Audit [Turn 27755]: Cols 25..29, Rows 6..14 is 100% physically and visually confirmed as a closed loop connecting between Column 29, (27, 6..7), and Column 26. Completely bounded by solid boulders on west (Col 24) and north (Row 6). Zero exit to Sector A or western 2F.
 
