@@ -42,7 +42,7 @@
 
 ## Item Balls & Traps Audit
 - Trap at (9, 20) [Cleared Turn 28573]: Voltorb Lv 40 trap. Fled safely; item ball permanently despawned, tile (9, 20) is now empty floor.
-- Trap at (25, 18) [Verified Turn 28600]: Interacted from (25, 17) facing South. Triggered "Bzzzt!" Electrode trap encounter. Currently resolving.
+- Trap at (25, 18) [Cleared Turn 28601]: Electrode Lv 43 trap. Interacted from (25, 17) facing South; fled safely. Trap entity permanently despawned; tile (25, 18) is now clear floor.
 - Item Ball 4 at (21, 14) [Sighted Turn 28599]: Visible at (21, 14) south of twin-dial generator at (21, 13) and west of vertical wall at (22, 13..15). Accessible from south/west. Identity unverified.
 - Trap at (32, 18) [Cleared Turn 28592]: Voltorb Lv 40 trap. Interacted from (33, 18) facing West; fled safely. Trap entity permanently despawned; tile (32, 18) is now clear floor.
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 28..38)
