@@ -11,3 +11,4 @@
 - Sighted Boulder at (18, 10): Located in adjacent western chamber across col 20 wall; inaccessible directly from 1F entrance enclosure [Sighted Turn 29164].
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
+- Krabby [Encountered Turn 29165].
