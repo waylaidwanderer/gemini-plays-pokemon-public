@@ -6,11 +6,10 @@
 - [x] Infiltrate Seafoam Islands 1F via western entrance at (58, 9) to (26, 17) [Turn 29159]
 - [x] Survey SW enclosure: sighted boulder at (18, 10) and invoked seafoam_boulder_agent [Turn 29164]
 - [x] Survey 1F layout: discovered northern corridor at rows 7..8 connecting east corridor to western boulder chamber [Turn 29174]
-- [x] Launch Surf at eastern dock (23, 9) into subterranean waterway [Turn 29183]
-- [x] Survey waterway: (18, 10) audited as open water; sighted western dock at (15, 7) [Turn 29184]
-- [ ] Surf to western dock at (15, 7) and land ashore on (15, 6)
-- [ ] Explore western sector (cols 0..15) to locate 1F boulders and pit holes
-- [ ] Cast Strength with Geodude (ROCKY) and push boulder into hole
+- [x] Washed down rapid current into B4F subterranean lake at (20, 15) [Turn 29186]
+- [ ] Scout northern waters of B4F toward Articuno chamber in northwest
+- [ ] If blocked by current, land on western bank (18, 14) to ascend ladder and dam currents
+- [ ] Save directly in front of Articuno
 - [ ] Solve Boulder / Strength puzzles across 1F, B1F, B2F, B3F, B4F to block rapid water currents
 - [ ] Reach Articuno chamber on Seafoam Islands B4F
 - [ ] Save directly in front of Articuno
