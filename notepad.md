@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Mewtwo Lv 70
 
 - Money: ¥107981 [Turn 25269]
 - Pokédex: 18 Caught / 125 Seen
@@ -163,7 +163,7 @@
 
 ## Regular Items
 
-- MASTER BALL x1 [Withdrawn from PC Turn 25028]
+- MASTER BALL x0 [Used on Turn 28234 to capture MEWTWO!]
 - FULL RESTORE x12 [Acquired +2 in Cerulean Cave; 10 from prior gauntlet]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
@@ -178,19 +178,18 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Verified Active Bag Items (12 items) [Audited Turn 28173]:
-  1. MASTER BALL x1 [Pre-swapped to Slot 1 Turn 25510]
-  2. POKé FLUTE
-  3. MAX POTION x1
-  4. REVIVE x14
-  5. FULL HEAL x6
-  6. MAX REVIVE x2 [Acquired B1F (18, 1) Turn 28145]
-  7. BICYCLE
-  8. FULL RESTORE x12 [Acquired +2 in Cerulean Cave 2F]
-  9. PP UP x1 [Acquired Cerulean Cave 2F]
-  10. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
-  11. NUGGET x1 [Acquired Cerulean Cave 2F]
-  12. ULTRA BALL x2 [Acquired Cerulean Cave 2F (4, 15) & B1F (16, 9)]
+- Active Bag Items (11 items) [Updated Turn 28235 post-Mewtwo catch]:
+  1. POKé FLUTE
+  2. MAX POTION x1
+  3. REVIVE x14
+  4. FULL HEAL x6
+  5. MAX REVIVE x2 [Acquired B1F (18, 1) Turn 28145]
+  6. BICYCLE
+  7. FULL RESTORE x12 [Acquired +2 in Cerulean Cave 2F]
+  8. PP UP x1 [Acquired Cerulean Cave 2F]
+  9. MAX ELIXER x1 [Acquired Cerulean Cave 2F]
+  10. NUGGET x1 [Acquired Cerulean Cave 2F]
+  11. ULTRA BALL x2 [Acquired Cerulean Cave 2F (4, 15) & B1F (16, 9)]
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -262,6 +261,10 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
+- MEWTWO [Lv 70, Psychic]
+  - Status: Healthy
+  - Moves: Psychic, Barrier, Swift, Recover
+  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
 ## PC Box 1 Pokémon
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
