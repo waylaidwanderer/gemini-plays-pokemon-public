@@ -12,8 +12,8 @@
 - Northern Horizontal Artery (Cols 1..8, Rows 1..2): Broad 2-tile wide open horizontal corridor running east above the starting chamber.
 - Lower Southern Corridor (Rows 7..10): Reddish-brown cave floor visible south of Row 7 boulders.
 
-## Wild Pokémon
+## Wild Pokï¿½mon
 - Ditto: Wild encounter [Encountered Turn 28113]
 
 ## Objectives & High-Value Targets
-- Mewtwo: Legendary psychic Pokémon residing on B1F. Target for Master Ball capture.
+- Mewtwo: Legendary psychic Pokï¿½mon residing on B1F. Target for Master Ball capture.
