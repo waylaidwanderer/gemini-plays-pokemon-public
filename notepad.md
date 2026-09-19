@@ -4163,7 +4163,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
 | (23, 7) | (22, 6) | CONFIRMED 2-WAY | Connects 1F Entrance Terrace to 2F Central Network |
-| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Central Network |
+| (18, 9) | (19, 7) | CONFIRMED 2-WAY | Connects 1F Central-Western Terrace to 2F Secluded Pocket (Dead End) |
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Eastern/Northern Sector |
 | (7, 1) | (9, 1) | CONFIRMED 2-WAY | Connects 1F Northern Terrace to 2F Northern Corridor |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | Connects 1F Western Terrace to 2F Western Network |
@@ -4235,7 +4235,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed; (9, 6) is solid rock blocking Column 9 south. [Verified Turns 26594, 26599]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
-- Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
+- Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Connects ONLY to an isolated 7-tile secluded pocket spanning (18..20, 5..7). Bounded on ALL sides by solid rock walls: North at (18, 5), (19..20, 4); East at (21, 5..6), (20, 7); South at (18..19, 8); West at (17, 5..7). Has ZERO connection to Row 2, Row 3, Column 24, or the rest of 2F. [Empirically verified Turns 27015-27023]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
@@ -4246,7 +4246,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). [Empirically verified Turn 26599]
 - Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
-- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
+- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2); connects west to S-bypass and east to Column 24. Solid rock at (20, 4) prevents any southern connection to Ladder (19, 7). [Empirically verified Turn 27023]
 - Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
   - Row 17 Southern Thoroughfare terminates west at (1, 17), bounded by solid rock walls at (0, 17) and (1, 18).
   - Column 1 Spur: (1, 16..15) is a 2-tile dead-end alcove branching north from (1, 17), bounded by solid rock walls at (0, 15..16), (2, 15..16), and (1, 14).
