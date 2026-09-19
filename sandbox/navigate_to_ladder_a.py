@@ -2,8 +2,8 @@ import mgba
 import time
 
 def flee_battle():
-    # If a wild battle triggers, select RUN
-    print("Wild encounter! Escaping...")
+    # Down -> Right -> A, wait, B, B
+    print("Wild battle encountered! Escaping...")
     mgba.press_buttons([
         "Down", "sleep 150",
         "Right", "sleep 150",
@@ -23,12 +23,12 @@ def step(d):
     return after
 
 def walk_to_target(target_x, target_y):
-    max_steps = 30
+    max_steps = 25
     for _ in range(max_steps):
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
         if cx == target_x and cy == target_y:
-            print(f"Arrived at waypoint ({target_x}, {target_y})")
+            print(f"Reached waypoint ({target_x}, {target_y})")
             return True
         if cx < target_x:
             step("Right")
@@ -42,16 +42,13 @@ def walk_to_target(target_x, target_y):
 
 print("Starting route from:", mgba.get_coordinates())
 
-# Waypoint 1: (16, 5)
-walk_to_target(16, 5)
+# Segment 1: Walk Left along Row 5 to (9, 5)
+walk_to_target(9, 5)
 
-# Waypoint 2: (16, 7)
-walk_to_target(16, 7)
+# Segment 2: Walk Up to (9, 3)
+walk_to_target(9, 3)
 
-# Waypoint 3: (18, 7)
-walk_to_target(18, 7)
+# Segment 3: Walk Left along Row 3 to (3, 3)
+walk_to_target(3, 3)
 
-# Waypoint 4: (18, 9)
-walk_to_target(18, 9)
-
-print("Pos at Row 9 highway entrance:", mgba.get_coordinates())
+print("Pos at (3, 3):", mgba.get_coordinates())
