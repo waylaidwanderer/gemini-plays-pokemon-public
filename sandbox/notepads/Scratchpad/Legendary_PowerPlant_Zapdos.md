@@ -18,11 +18,7 @@
     - Normal hit: 51 - 70 HP damage.
     - Critical hit (~25.4% chance at Speed 130): 95 - 131 HP damage!
     - Risk: If Zapdos has low HP DV or takes multiple hits, a critical hit risks fainting Zapdos and permanently despawning it!
-  - 100% Safe Zero-Damage Capture Protocol:
-    - Catch rate of Lv 50 Zapdos at 100% HP with Sleep status using an Ultra Ball is ~6.25% per ball.
-    - Cumulative catch probability with 37 Ultra Balls and Sleep: 1 - (1 - 0.0625)^37 = ~90.9% (at full HP), or ~99.5% if chipped once.
-    - Given the despawn permanence of Zapdos, DO NOT risk multiple attacks. Prioritize inflicting Sleep via Drowzee (SANDMAN Lv 9, Hypnosis PP 20) and throwing Ultra Balls continuously.
-    - If chipping is used, use at most ONE Swift, or skip damage entirely and rely on our 37 Ultra Balls under Sleep!
+
 - Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Stand directly adjacent at (4, 8) and SAVE before pressing 'A'!
 
@@ -38,8 +34,9 @@
   - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
 
 ## Active Execution Plan
-1. Defeat Pokémaniac on approach lawn and enter Power Plant front door at (6, 39).
-2. Follow surveyed transit route through Power Plant to Zapdos chamber at (4, 9).
-3. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
-4. Initiate encounter, chip safely with ONE Swift using Mewtwo, sustain with Recover, and capture with 37 Ultra Balls!
+1. [x] Defeat Pokémaniac on approach lawn and enter Power Plant front door at (6, 39) [Turn 28928].
+2. [x] Follow surveyed transit route through Power Plant via (15, 11) gateway to (12, 7) [Turn 28979].
+3. Ascend to Row 3 via (11, 4) doorway and explore Row 3 corridor westward toward Sector 5 [ACTIVE].
+4. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
+5. Initiate encounter, chip safely with ONE Swift using Mewtwo, sustain with Recover, and capture with 37 Ultra Balls!
 
