@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (5, 2) stepping onto Ladder (7, 1).
+- Current Location: Cerulean Cave 2F at (5, 1) stepping onto Ladder (9, 1).
 - Empirical Findings [Turns 26460-26491]:
   1. Ladder (22, 6) and Ladder (19, 7) on 2F are directly connected via Column 19 and Row 11.
   2. Column 24 dead-ends at (24, 15) with solid rock at (24, 16).
@@ -4175,7 +4175,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Ladder (29, 1) connects to (28, 1..3). At (28, 3), West (27, 3) and South (28, 4) are physically confirmed solid rock walls [Turn 26489].
   5. The only exit from (28, 3) is East into Column 29 at (29, 3).
   6. Column 29 runs south through rows 3, 4, 5, 6, 7 toward Row 14 and Column 26.
-- Next Objective: Step Right x2, Up onto Ladder (7, 1) to test destination warp (B1F or 1F). Ladder (1, 3) is also visually confirmed at (1, 3) in adjacent lower room.
+- Next Objective: Step Right x4 onto confirmed Ladder (9, 1) to test destination warp (B1F or 1F). Ladder (1, 3) also visually confirmed at (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4247,6 +4247,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (9, 1): Cave ladder confirmed at (9, 1). Connected to Row 1 corridor spanning (5..9, 1). Bounded east by rock (10, 1) and south by rock (9, 2). Destination currently being tested. [Visually confirmed Turn 26541]
 - Ladder (7, 1): Cave ladder confirmed at (7, 1) in northern enclave. Surrounded by open floor (5..10, 0..2). Destination currently being tested. [Visually confirmed Turn 26537]
 - Ladder (1, 3): Cave ladder confirmed at (1, 3). Bounded east by rock (2, 3), south by rock (1, 4); accessed from west via Column 0 (0, 3) and north via (1, 2). Connected to Row 5 via Column 0 (0, 3..5). [Visually confirmed Turn 26530]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Confirmed isolated dead-end pocket: Exits West to (28, 1); Column 28 connects south through (28, 2) to (28, 3). At (28, 3), West (27, 3) and South (28, 4) are solid rock walls; exit East to (29, 3) leads south through (29, 4..6) to dead-end against solid rock wall at (29, 7) [Verified Turns 26489-26493]. Has no passage to the rest of 2F.
