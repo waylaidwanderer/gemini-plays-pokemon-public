@@ -4578,8 +4578,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Secret House (Cols 6..9, Rows 2..5) [Audited Turn 28782]:
   - Small cottage located north of the paved corridor.
   - Green gabled roof at rows 2..4, yellow windows at row 5.
-  - Front apron along row 6 (cols 6..11) is paved with pale mint pavement.
-  - House entrance accessed from row 6.
+  - Front entrance door located at (7, 5) facing south onto row 6 apron at (7, 6) [Verified Turn 28783].
+  - Windows at (8, 5). House spans cols 6..9, rows 2..5.
 
 
 <hr>
