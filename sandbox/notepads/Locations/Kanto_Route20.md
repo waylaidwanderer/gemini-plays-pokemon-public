@@ -29,4 +29,4 @@
   - Shoreline landing dock at (57, 12) directly south of cave door.
   - Approach corridor via southern channel: cols 55..57, row 14, stepping North up col 57.
 - Col 55 Rock Peninsula [Audited Turn 29145]: Vertical rock reef extends from row 10 down through row 14, blocking row 14 at (55, 14). Channel passes underneath via open water at rows 15-16 into col 57.
-- Jr. Trainer ♀ at (56, 14) [Encountered Turn 29146]: Guarding entrance approach channel at (57, 14). Line: 'Are you on vacation too?'. Team: 3 Pokémon [Verified Turn 29147].
+- Jr. Trainer ♀ at (56, 14) [Encountered Turn 29146]: Guarding entrance approach channel at (57, 14). Line: 'Are you on vacation too?'. Team: Tentacool Lv 30, Horsea, [3rd unrevealed] [Verified Turns 29147-29150].
