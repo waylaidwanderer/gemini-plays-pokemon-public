@@ -156,7 +156,6 @@
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
-- [x] Restock 35 Ultra Balls at Indigo Plateau Mart (Total: 37 Ultra Balls, Funds: ¥65981) [Turn 28845]
 - [ ] Return to Power Plant and capture Legendary ZAPDOS
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
 
@@ -232,7 +231,7 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy [Healed Turn 15136 at Viridian Center]
+  - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
@@ -242,18 +241,18 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Healed Turn 15136 at Viridian Center]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy [Healed Turn 15136 at Viridian Center]
+  - Status: Healthy
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 222 / 222 [Healed Turn 28476 at Cerulean Center]
+  - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 
@@ -1624,7 +1623,7 @@
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
 - Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
-- Pokémaniac at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Intro: 'Wow, are you a POKéMANIAC too? Want to see my collection?'. Defeat: 'Humph. I'm not angry!'. Team: Rhyhorn Lv 30, Lickitung Lv 30. Prize: ¥1500. Defeated Turn 28927.
+- Pokémaniac at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Team: Rhyhorn Lv 30, Lickitung Lv 30. Prize: ¥1500. Defeated Turn 28927.
 
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
@@ -4527,7 +4526,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - West: Column 0 continuous solid outer wall. No back door exists in retail Gen 1 Red/Blue.
   - East: Column 8 solid dividing wall.
   - Gateway: 2-tile open doorway at (4..5, 6) connecting northern foyer (rows 3..5) south into Zapdos' hall (rows 7..11).
-  - High-Value Target: Stationary Legendary Bird ZAPDOS sighted at (4, 9). Does not initiate battle unless talked to with 'A'.
+  - High-Value Target: Stationary Legendary Bird ZAPDOS at (4, 9) [Engaged Turn 28994]. Level 50, Electric/Flying. Known moves: Thundershock, Drill Peck.
   - Status: Doorway verified at (4..5, 6); Northern Foyer connects east via Row 3 at (6..8, 3) through Column 8 dividing wall [Empirically verified Turn 28983].
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
