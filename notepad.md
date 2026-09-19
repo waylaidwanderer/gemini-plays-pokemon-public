@@ -4620,7 +4620,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended ladder to upper floor (elevation designated B3F) [Turn 29205]
 - [x] Discovered signpost at (9, 15): 'Boulders might change the flow of water!' [Turn 29230]
 - [x] Surveyed Northeast Sector: discovered signpost at (23, 1), dock at (23, 5), and ladder at (25, 4) [Turn 29244]
-- [ ] Inspect signpost at (23, 1) for navigation/puzzle clues
+- [x] Inspect signpost at (23, 1): reads 'DANGER / Fast current!' [Turn 29253]
 - [ ] Ascend ladder at (25, 4) to upper floor (B2F) to locate boulders and holes
 - [ ] Push boulders into holes to dam subterranean water currents
 - [ ] Return to lower lake floor, surf across calmed waters to Articuno island
@@ -4757,7 +4757,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Key Landmarks & Layout
 - Ladder (NE): Located at (25, 4) [Sighted Turn 29244]. Ascending ladder mounted against northern rock barrier.
-- Signpost (NE): Located at (23, 1) [Sighted Turn 29244].
+- Signpost (NE): Located at (23, 1) [Inspected Turn 29253]. Text: 'DANGER / Fast current!'
 - Northern Dock: Wooden stairs at (23, 5), enters water channel at (23, 6) [Sighted Turn 29244].
 - Northeast Hall: Rows 0..4 span wide open dry floor across cols 15..26+.
 - Central Passage (Row 6): Dry corridor at (13..16, 6) connects western ladder area to eastern sector.
