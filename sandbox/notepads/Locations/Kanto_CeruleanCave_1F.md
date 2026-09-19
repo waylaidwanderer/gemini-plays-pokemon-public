@@ -18,7 +18,7 @@
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
-- Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
+- Staircase (15, 3): Wooden staircase ascending north from subterranean water at (15, 4) onto the massive Northern Terrace at (15, 2). (15, 2) is wide open floor connecting west across Rows 0..2 (Cols 7..16) directly toward Ladder (7, 1)! Prior dead-end note was an empirical error. [Verified Turn 27055]
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
 - Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..14). [Visually confirmed Turn 25637]
 - Rock Barrier (16..17, 12..13): Solid rock obstacle on Central-Western Terrace between rows 12..13. Bypassed on the east via Column 18 (18, 11..14).
