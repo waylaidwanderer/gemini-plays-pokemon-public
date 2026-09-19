@@ -10,7 +10,7 @@
 4. Current Action: Exit 2F Western Network via Ladder (3, 11), return to 1F Staircase (15, 3), ascend Northern Terrace to Ladder (7, 1) -> 2F Ladder (9, 1), and breach the Northwest Enclave to reach Ladder (1, 3).
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (13, 9) on Row 9.
+- Current Location: Cerulean Cave 1F at (11, 13) on Wooden Staircase (facing water).
 - Active Plan:
   1. Walk Left x10 along Row 9 to (3, 9), Down x2 onto Ladder (3, 11) to descend to 1F.
   2. Traverse 1F Western Terrace and Southwest Corridor to Staircase (17, 15).
