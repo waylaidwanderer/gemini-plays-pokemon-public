@@ -41,14 +41,14 @@
 - South Wrap to Outer Eastern Corridor [Audited Turn 28636]: Row 27 connects east to (36, 27). Column 36 connects north through (36, 25..24). Tile (37, 24) connects directly into the outer eastern corridor (cols 37-38), running continuously north to row 14 highway.
 - Outer Eastern Corridor (Cols 37-38): Runs north-south from row 25 up to row 14 highway. Accessible via the southern Row 25 highway from the central concourse.
 
-## Sector 5: Northern Enclosed Chamber (Zapdos Chamber)
-- Sighting & Full Survey [Audited Turns 28553, 28680]: Enclosed chamber spanning cols 1..7, rows 1..11.
+## Sector 5: Northern Enclosed Chamber (Zapdos Sighting & Partial Survey)
+- Sighting & Partial Survey [Audited Turns 28553, 28680]: Enclosed chamber visible across cols 1..7, rows 1..11 from northern approach and doorway at (4..5, 6).
   - North: Row 0 wall, row 1 generators (cols 2..7).
   - West: Column 0 continuous solid outer wall. No back door exists in retail Gen 1 Red/Blue.
   - East: Column 8 solid dividing wall.
   - Gateway: 2-tile open doorway at (4..5, 6) connecting northern foyer (rows 3..5) south into Zapdos' hall (rows 7..11).
-  - High-Value Target: Stationary Legendary Bird ZAPDOS at (4, 9). No battle triggers unless spoken to with 'A'.
-  - No item balls in this chamber. Facility exit requires Dig/Escape Rope or walking back to southern entrance at (4..5, 35).
+  - High-Value Target: Stationary Legendary Bird ZAPDOS sighted at (4, 9). Does not initiate battle unless talked to with 'A'.
+  - Status: Doorway reached at (4, 6); un-traversed tiles across rows 7..11 remain unverified sightings until physically explored during final capture expedition.
 
 ## Sector 6: Northern Concourse & Highway (Rows 12..15, Cols 26..38)
 - Row 14 Highway: Physically traversed across cols 23..38 [Turns 28638, 28656]. Wide continuous open horizontal highway connecting outer eastern corridor (cols 37-38) west across column 25 to columns 23-24.
@@ -65,7 +65,3 @@
 - Trap at (26, 28) [Cleared Turn 28630]: Voltorb Lv 40 trap. Interacted from (25, 28) facing East; fled safely. Trap entity permanently despawned; tile (26, 28) is now clear floor.
 - Item Ball 8 at (26, 32) [Sighted Turn 28627]: Visible at (26, 32) in southern machine corridor, bounded west by (25, 32) and east by terminal at (27, 32). Identity unverified.
 - Item Ball 9 at (28, 3) [Collected Turn 28644]: HP UP! Interacted from (28, 4) facing North. Collected into bag; tile (28, 3) is now clear floor.
-
-- Collision Confirmed at (25, 12) [Audited Turn 28654]: Bump test from (26, 12) facing West confirmed solid wall collision. Row 12 does not connect west through column 25.
-- Entry Route to Zapdos Chamber [Audited Turns 28674-28675]: From Row 11, Column 12 runs north to (12, 7). Column 11 connects north through the open gateway at (11, 4) into the Row 3 Highway. Row 3 runs continuously west across columns 11..4, connecting directly south into the Zapdos chamber at (4, 9).
-- Row 3 Corridor & Northern Chamber Approach [Audited Turns 28677-28678]: Row 3 is an open corridor connecting (11, 3) west past column 8 bottleneck (8, 3) into an open hall across cols 3..7, rows 3..5. Generators line row 1 (cols 3..7). Rubble at (3..5, 2) and (4..5, 3). Gateway at (4..5, 6) opens south between walls (3, 6) and (6..7, 6) directly into the Zapdos chamber (cols 3..7, rows 7..11).

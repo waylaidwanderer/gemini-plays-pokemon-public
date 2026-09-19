@@ -2,7 +2,7 @@
 
 ## Connections
 - North: Cerulean City southern gateway at (16..17, 0) [connects to Cerulean (26..27, 36)], and tall grass corridor warp at (15, 0) <-> Cerulean City (25, 35).
-- South: Saffron City northern gatehouse (inaccessible; guards thirsty) and Underground Path to Route 6 / Vermilion City.
+- South: Saffron City northern gatehouse (accessible; guard satisfied with Fresh Water on Turn 12619) and Underground Path to Route 6 / Vermilion City.
 
 ## Geography & Layout
 - Northern Gateway Corridor (Cols 16..17, Rows 0..5+): 2-tile wide pale mint avenue heading straight south from Cerulean City.
