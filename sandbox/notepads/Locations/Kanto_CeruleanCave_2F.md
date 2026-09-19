@@ -38,7 +38,7 @@
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9).
-  - Row 8 & Column 2 Physical Barriers: Tile (3, 8) and tile (2, 9) visually and physically verified solid rock [Turn 26971]. Column 1 (1, 8..9) has purple floor but is segregated from Column 3 by solid rock wall (2, 8..9) and rock (1..2, 10..11). Row 8 across columns 2..12 forms an unbroken rock barrier separating Row 9 from Row 7.
+  - Row 8 & Column 2 Physical Bump Tests: Physically collision-tested (3, 8) and (2, 9) from (3, 9) on Turn 26973; both inputs resulted in immediate wall bumps, empirically confirming (3, 8) and (2, 9) are solid rock walls. Column 1 (1, 8..9) is segregated from Column 3 by solid rock wall (2, 8..9). Row 8 across columns 2..12 is an unbroken solid rock barrier separating Row 9 from Row 7.
   - Definitive Conclusion: The Western Pocket on 2F has zero ground passage north or west into the Northwest Enclave. The Northwest Enclave has no ground entrance from any part of 2F.
 - Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
 - Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]

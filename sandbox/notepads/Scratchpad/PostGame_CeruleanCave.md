@@ -7,11 +7,11 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (3, 11) on Ladder (3, 11).
+- Current Location: Cerulean Cave 2F Row 9 at (3, 9).
 - Active Route:
-  1. Physically collision-test (3, 8) and (2, 9) from (3, 9) on 2F to complete empirical barrier verification of Row 8 and Column 2.
-  2. Traverse 2F Row 9 east to Column 23 and Ladder (22, 6), descending to 1F (23, 7).
-  3. Surf to the northern terrace at 1F (7, 1) and systematically survey its perimeter to locate the passage to B1F.
+  1. Traverse 2F Row 9 east to Column 23 and Ladder (22, 6), descending to 1F (23, 7).
+  2. Surf to the northern terrace at 1F (7, 1) and systematically survey its perimeter to locate the passage to B1F.
+  3. Locate descending ladder to B1F and capture Mewtwo with Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
