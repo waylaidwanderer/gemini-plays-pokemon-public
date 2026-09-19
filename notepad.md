@@ -4163,7 +4163,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Mewtwo captured successfully! [DONE]
   5. Pokédex data registered for No. 150 MEWTWO! [DONE]
   6. Nicknamed OMEGA! [DONE]
-  7. Post-game legendary capture quest 100% COMPLETE!
+  7. OMEGA inspected in active party (HP 234, Attack 167, Defense 152, Speed 195, Special 231, Swift/Psychic/Barrier/Recover)! [DONE]
+  8. Exfiltrated Cerulean Cave via DIG to Route 4! [DONE]
+  9. Permanent game save completed and confirmed to battery-backed SRAM! [DONE - Turn 28256]
+
+## Journey Status: 100% COMPLETE!
 
 
 <hr>
