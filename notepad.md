@@ -4508,5 +4508,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball 9 at (28, 3) [Collected Turn 28644]: HP UP! Interacted from (28, 4) facing North. Collected into bag; tile (28, 3) is now clear floor.
 
 - Collision Confirmed at (25, 12) [Audited Turn 28654]: Bump test from (26, 12) facing West confirmed solid wall collision. Row 12 does not connect west through column 25.
+- Entry Route to Zapdos Chamber [Audited Turn 28674]: Row 11 connects west to column 12. Column 12 runs north through (12, 8..11) to Row 7. Row 7 connects west over rubble at (9..10, 8..11) directly into Zapdos chamber (cols 2..7, rows 9..11).
 
 <hr>
