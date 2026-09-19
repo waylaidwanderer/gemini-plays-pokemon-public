@@ -4145,7 +4145,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Definitive Dungeon Architecture & Verified Facts
 1. 2F Layout & Boundary Audits:
-   - Row 8: 100% physically bump-tested solid boulders from Col 2 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
+   - Row 8: 100% physically bump-tested solid boulders from Col 3 to Col 12: (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8). Zero passage between Row 9 and Row 7.
    - Sector A: Visual audit [Turns 27926-27935] confirms Row 4 (Cols 3..8) are 100% solid boulders. Column 2 (Rows 1..4) are solid boulders. Boulder (8, 5) separates Row 5 West from East. Sector A is completely enclosed with zero passage into Row 5 or the Northwest Enclave.
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
 2. 1F Layout & Boundary Audits:
@@ -4160,13 +4160,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Unverified Candidate: 1F (0, 6) and 2F (1, 3) [Neither stepped on; correlation is a working hypothesis]
 
 ## Active Breakthrough Strategy & Routing Protocol
-- Empirical Finding: 2F comprises isolated subgraphs:
-  - Sector A (9, 1): 100% enclosed by Row 0 ceiling, Row 4 boulders (Cols 3..8), Column 2 boulders (Rows 1..4), and (8, 5) boulder.
-  - Southwest Sector (3, 11): 100% enclosed by solid boulders on west ((1, 10..11), (4, 13), (0..1, 14), (2, 15), (3..5, 16)).
-  - Central/Eastern Sector (22, 6 / 29, 1): Loops between Column 29, (27, 6..7), and (25, 7..10).
 - Working Hypothesis: Descent to B1F connects via Ladder (1, 3) in Northwest Enclave.
 - Active Protocol:
-  2. Determine how Row 5 (Cols 0..7) and Ladder (1, 3) connect to the 2F corridor network.
+  1. Dismount via Staircase (11, 13) onto Central-Western Terrace.
+  2. Cross terrace and take Staircase (17, 15) to lower corridor.
+  3. Traverse lower corridor west to Staircase (1, 13) and ascend to Ladder (3, 11).
+  4. Ascend to 2F Southwest, test Column 2/1/0 across Row 8 to link into Row 7 (1..6, 7), traverse to (6, 6) -> Row 5 -> Ladder (1, 3), and descend to B1F.
 
 
 <hr>
@@ -4240,7 +4239,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Layout & Corridors
 
-- Row 8 Collision Tests from Row 9: Physical bump tests confirmed (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], (11, 8) [Turn 27508], and (12, 8) [Turn 27595] are solid rock boulders completely blocking northward passage from Row 9 across all columns.
+- Row 8 Collision Tests from Row 9: Physical bump tests confirmed (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], (11, 8) [Turn 27508], and (12, 8) [Turn 27595] are solid rock boulders completely blocking northward passage from Row 9 across columns 3 through 12 (columns 0..2 remain unverified from Row 9).
 - Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. Physical bump tests confirmed (2, 1) is solid rock wall [Turn 27454, 27849], (2, 2) is solid rock boulder [Turn 27459, 27850], and (2, 3) is solid rock boulder [Turn 27459, 27851], proving Column 2 (Rows 1..3) is completely impassable from Sector A. Row 2 Boulders [Audited Turn 27956]: Boulders block (4..10, 2) and (12, 2). Tile (9, 2) is a solid boulder, blocking direct north-south transit between (9, 1) and (9, 3); transit between Row 1 and Row 3 connects exclusively through (3, 2).
 - Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..7): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5). Row 4 Boulders [Audited Turn 27927]: (3..8, 4) are 100% solid purple boulders across Columns 3 through 8. The ONLY open tile on Row 4 in this sector is (9, 4), which connects down to (9, 5). Boulder (8, 5) separates (9, 5) from (7, 5). Rows 6..7 Audit [Turn 27948]: (6, 6) is open floor connecting Row 5 south into Row 7! Row 7 contains an open horizontal corridor spanning (1..6, 7). Bounded by boulders at (0..5, 6), (7..8, 6), (0, 7), and (7..8, 7).
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
@@ -4312,5 +4311,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
 - Electrode: Lv 52 [Encountered 2F Turn 25976]
 - Marowak: Lv 52 [Encountered 2F Turn 26054]
+
 
 <hr>
