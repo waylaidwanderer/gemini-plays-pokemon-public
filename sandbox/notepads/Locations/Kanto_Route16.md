@@ -17,3 +17,14 @@
 - Sleeping Snorlax [Sighted Turn 28777]: Stationed at (26, 10) blocking the lower main road, separated from the northern highway by the row 9 tree line.
 - Northern Plaza (Rows 4..5, Cols 25..27) [Audited Turn 28777]: Paved plaza north of the highway; tall grass terminates east of col 28.
 - Highway Continuation: Rows 6..7 continue west through cols 25..28 toward the gatehouse and Secret House.
+
+- Route 16 Gatehouse (Cols 20..23, Rows 3..11) [Audited Turn 28778]:
+  - Large 2-story gatehouse building spanning cols 20..23.
+  - Eastern approach from northern highway: Paved plaza across rows 4..5 (cols 24..27) leads directly to the eastern facade of the gatehouse at (23, 4..5).
+  - Southern road entrance on row 10 blocked by sleeping Snorlax at (26, 10).
+
+- Northern Gatehouse Interior (Audited Turn 28779):
+  - Arrives at (7, 2) facing Left on east red welcome mat.
+  - Northern hallway runs straight west along row 2 (cols 0..7).
+  - Occupants: NPC at (4, 3), guard at (4, 5).
+  - West exit at row 2 leads out to Route 16 West and the Secret House.

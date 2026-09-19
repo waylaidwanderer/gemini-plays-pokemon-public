@@ -4554,5 +4554,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Bounded north by a tall grass field spanning cols 30..35+ at rows 3..5.
   - Accessed via the cleared Cut tree at (34, 9) and lawn at (34, 8) [Traversed Turn 28776].
 
+- Sleeping Snorlax [Sighted Turn 28777]: Stationed at (26, 10) blocking the lower main road, separated from the northern highway by the row 9 tree line.
+- Northern Plaza (Rows 4..5, Cols 25..27) [Audited Turn 28777]: Paved plaza north of the highway; tall grass terminates east of col 28.
+- Highway Continuation: Rows 6..7 continue west through cols 25..28 toward the gatehouse and Secret House.
+
 
 <hr>
