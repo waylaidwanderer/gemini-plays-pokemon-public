@@ -14,6 +14,7 @@
 - Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
 - Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..14). [Visually confirmed Turn 25637]
+- Rock Barrier (16..17, 12..13): Solid rock obstacle on Central-Western Terrace between rows 12..13. Bypassed on the east via Column 18 (18, 11..14).
 - Central-Western Terrace (Cols 11..18, Rows 8..14): Elevated plateau accessed via Staircase (11, 13) or 2F Ladder (19, 7). Contains Ladder (18, 9) leading to 2F. Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12) and (18, 9)]
 - Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14) to lower landing (17, 16). [Physically verified 2-way access Turn 26068]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7 (tested at (9, 7) Turn 26112: col 7 solid rows 4..8, rows 4..5 solid cols 6..13 visible in viewport). 1F water confirmed 100% closed loop to Staircase (25, 9). No B1F descent exists in 1F water.
@@ -39,6 +40,3 @@
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
-
-## Central-Western Terrace Navigation [Turn 26257]
-- Rock barrier at (16..17, 12..13): Traversal south from (17, 11) to Staircase (17, 15) requires routing east via Column 18: (17, 11) -> (18, 11..14) -> (17, 14) -> Staircase (17, 15). [Physically verified Turn 26257]

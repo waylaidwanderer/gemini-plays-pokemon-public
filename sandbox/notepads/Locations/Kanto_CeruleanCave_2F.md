@@ -8,6 +8,8 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
+- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24. [Visually verified Turn 26242]
 - Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
   - Row 17 Southern Thoroughfare terminates west at (1, 17), bounded by solid rock walls at (0, 17) and (1, 18).
   - Column 1 Spur: (1, 16..15) is a 2-tile dead-end alcove branching north from (1, 17), bounded by solid rock walls at (0, 15..16), (2, 15..16), and (1, 14).
@@ -68,10 +70,5 @@
 ## Cerulean Cave 2F Master Topological Analysis [Turn 26193]
 - Ladder (22, 6) Enclosed Pocket: Bounded by solid rock walls on all sides. Only contains Column 23 (rows 7..11), Column 24 (rows 11..15 dead-end), Row 11 (cols 14..23 dead-end at 14, 11 and 17, 10), and Row 13 (cols 17..22 dead-ending at 22, 15 and 21, 15). ZERO ground access to the rest of 2F!
 - Ladder (29, 1) Enclosed Pocket: Bounded by rock walls cols 27..29, rows 0..6. ZERO ground access to the rest of 2F!
-- Ladder (3, 11) Southwest Pocket: Connects to Row 17 West and Column 12/13, but blocked from Candidate Ladder (1, 3).
+- Ladder (3, 11) Western Network: Connects to Row 17 West, Column 12/13, and Row 9 (3..15). Passage north of (3, 9) along Column 3 toward Candidate Ladder (1, 3) is UNTESTED frontier.
 - Ladder (19, 7) (from 1F Ladder 18, 9): Descending cave ladder connecting to 1F Ladder (18, 9). Connects via winding passage (20..22, 3..5) to Row 2 and Column 24 network, but bounded from eastern and western 2F by solid rock barriers. [Physically verified Turns 26221-26248]
-## Corridor Discoveries [Turn 26242]
-- Alcove (18, 3): 1-tile dead-end alcove branching west from (19, 3), bounded north, west, and south by solid rock walls (18, 2), (17, 3), and (18, 4). [Visually verified Turn 26242]
-- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2), linking Ladder (19, 7) passage directly to Column 24! [Visually verified Turn 26242]
-
-
