@@ -92,7 +92,7 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
-- ZAPDOS [Lv 50, Electric/Flying]
+- ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
   - Transferred to PC Box 1 (Active Party full)
