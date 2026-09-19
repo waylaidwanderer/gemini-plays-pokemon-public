@@ -4151,12 +4151,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (16, 9) on Central-Western Terrace.
-- Verified Status: Surfed across 1F subterranean lake from Staircase (15, 3) to Staircase (11, 13) and mounted Central-Western Terrace.
+- Current Location: Cerulean Cave 1F at (2, 17) in Southwest Lower Corridor.
+- Verified Status: Western Terrace survey complete; confirmed Row 7 ledge blocks northern access from (1..2, 8). Ladder (0, 6) visually sighted at (0, 6) with corridor heading north toward Column 5 / Northern Terrace.
 - Active Route:
-  1. Descend Staircase (17, 15) to Southwest Lower Corridor (17, 16).
-  2. Follow Row 17 west to Column 2, north to (2, 14), west to (1, 14).
-  3. Investigate (0, 14) / Staircase (1, 13) to access Ladder (0, 6) in the northwest.
+  1. Follow Row 17 east to Staircase (17, 15), ascend to Central-Western Terrace.
+  2. Cross to Staircase (11, 13), launch Surf, and navigate to Staircase (15, 3).
+  3. Ascend to Northern Terrace, explore Columns 5..7 west/south toward Row 4 to reach Ladder (0, 6).
   4. Descend Ladder (0, 6) to B1F, locate Mewtwo, and capture with Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
@@ -4181,12 +4181,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
-- Ladder (0, 6): Confirmed cave ladder located at (0, 6) leading to B1F. Approach corridor runs from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), north through (5, 5..4) connecting to Northern Terrace. Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8. [Physically inspected Turns 27140-27143]
+- Ladder (0, 6): Cave ladder visually sighted at (0, 6) from (1, 8) and (2, 8) across the south-facing ledge [Turns 27140-27143]. Visual corridor extends from (0, 6) south to (0, 7), east through (1..2, 7), north to (2, 6), east through (3..5, 6), and north through (5, 5..4); candidate connection to Northern Terrace via Column 5 remains an active hypothesis until physically verified. Exit ledge: south-facing ledge along Row 7 (Cols 0..2) drops south into Row 8 (blocked from south).
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
-- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Visual scan from (7, 2) indicates rock walls at (3..4, 0..3) bounding the terrace on the west. Access to (0, 6) remains unvisited on ground.
+- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). West boundary along Columns 3..5 requires physical survey from Northern Terrace to test hypothesis of southward connection to Row 4.
 - Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
   - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
   - Cols 3..6: Solid rock walls at (3..6, 7).
