@@ -4398,8 +4398,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 4. Traverse Route 6 -> Underground Path (Route 6 - Route 5) -> Route 5 -> Cerulean City. [DONE - Turn 28456]
 5. Heal team at Cerulean City Pok�mon Center and set warp anchor. [DONE - Turn 28476]
 6. Traverse Route 9 East (Cut tree at entrance with DUX). [DONE - Turn 28496]
-7. Arrive at Route 10 North, surf south along the canal to Power Plant. [ACTIVE]
-8. Explore Power Plant interior and capture legendary Zapdos!
+7. Arrive at Route 10 North, surf south along the canal to Power Plant. [DONE - Turn 28540]
+8. Explore Power Plant interior and capture legendary Zapdos! [ACTIVE]
 
 ## Power Plant Intelligence
 - Location: Route 10 North water canal, accessed via Surf.
@@ -4446,5 +4446,25 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Central North-South Avenue: Columns 10..11 connecting Route 1 (0..1) south between Red's and Daisy's houses.
   - Crossways: Rows 6..7 open between houses.
   - Water Shoreline: Along rows 12..13 at southern boundary.
+
+<hr>
+
+<h1><code>Locations/Kanto_PowerPlant</code></h1>
+
+# Kanto Power Plant (Abandoned)
+
+## Overview & Connections
+- Exterior Entrance: Located on Route 10 at (6, 39), accessed via Surf along the Route 10 canal.
+- Interior Arrival / Exit Mat: Arrives at (4..5, 35) facing North [Turn 28541]. Stepping Down off row 35 exits back onto Route 10 at (6, 40).
+- Environment: Fully and naturally lit interior (HM05 Flash is NOT required). Abandoned industrial facility with pink/white checkered floors, machinery, generators, and scrap rubble.
+
+## Encounters & Mechanics
+- Wild Pokémon: Voltorb, Magnemite, Magneton, Pikachu, Electabuzz, Grimer, Muk.
+- High-Value Target: Legendary Bird ZAPDOS (Lv 50, Electric/Flying) located at the deep terminus of the plant.
+- Traps: Multiple item balls are disguise Voltorb / Electrode traps that initiate wild combat when interacted with.
+- Permanence: Fleeing from or defeating Zapdos permanently despawns it. Stand directly adjacent and SAVE before pressing 'A'!
+
+## Floor Layout & Survey
+- Entrance Foyer (Cols 1..7, Rows 31..35): Wide open starting hall. South exit mat at (4..5, 35). West wall at Column 0. Rubble piles at (5..7, 31), (7, 32..33), and (9, 32..33). Generator with twin dials at (9, 31). Open hallway extends north past row 31 through columns 2..4.
 
 <hr>
