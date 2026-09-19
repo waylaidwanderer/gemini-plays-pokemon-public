@@ -7,10 +7,10 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 14) (Surfing in subterranean waterway).
+- Current Location: Cerulean Cave 1F at (14, 7) (Surfing in subterranean waterway).
 - Active Plan:
-  1. Surf west to Column 9 and north toward Row 6/7 water channel.
-  2. Surf east across the subterranean waterway to Entrance Cavern / Staircase (25, 9).
+  1. Surf east to Column 15, north to Row 4 at (15, 4), then east along Row 4 waterway.
+  2. Surf south from Column 23 into Northern Subterranean Lake toward Staircase (25, 9).
   3. Surf east across the subterranean waterway to Entrance Cavern / Staircase (25, 9).
   4. Navigate to Wooden Staircase (21, 11) in Entrance Cavern.
   5. Ascend Staircase (21, 11) onto the elevated terrace at (21..22, 10) to physically survey and collision-test its boundaries and connections.
