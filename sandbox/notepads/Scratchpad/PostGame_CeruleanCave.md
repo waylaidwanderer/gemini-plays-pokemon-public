@@ -7,15 +7,13 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (9, 3).
-- Verified Status: Sector A corridors (Row 1, 3, 5, Col 9, 13, 16, 24, Row 4) fully surveyed; Row 4 dead-ends at Alcove (27, 4) with solid rock at (28, 4). Sector A is completely isolated on 2F with no ground access to Sector B or the Northwest Enclave. The unvisited territory on 2F lies north of Row 9 (Cols 4..12, Rows 6..8) accessed via Ladder (3, 11).
+- Current Location: Cerulean Cave 2F at (10, 5).
+- Verified Status: Sector A corridors (Rows 1..5, Cols 3..27) fully surveyed. Physical bump tests confirmed (10, 6) is solid rock and Row 6 blocks all south passage from Row 5. Row 7 is an enclosed pocket.
 - Active Route:
-  1. Return west to Ladder (9, 1) via Row 4 west, Row 2 west, S-bypass, and Row 1.
+  1. Return west along Row 3 to (3, 3), ascend to Row 1, and step east to Ladder (9, 1).
   2. Descend Ladder (9, 1) to 1F Northern Terrace at Ladder (7, 1).
-  3. Surf via Staircase (15, 3) to Staircase (11, 13) and traverse Row 17 to Staircase (1, 13).
-  4. Climb Ladder (3, 11) to 2F Western Pocket at (3, 11) and access Row 9 at (3, 9).
-  5. Systematically test northward passages from Row 9 (Cols 4..12) into Rows 8, 7, 6 to enter Row 5 West and reach Ladder (1, 3).
-  6. Descend Ladder (1, 3) to B1F and capture Mewtwo with Master Ball.
+  3. Explore 1F subterranean waterways and corridors for the descent to B1F (testing water west of Staircase 15, 3 toward Column 5 / Ladder 0, 6).
+  4. Descend to B1F and capture Mewtwo with Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
