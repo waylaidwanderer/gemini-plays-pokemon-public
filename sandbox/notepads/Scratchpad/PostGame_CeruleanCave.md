@@ -7,7 +7,7 @@
    - Central Network: 100% explored. Loops between Ladder (22, 6), Sector B (Ladder 29, 1), and Sector A (Ladder 9, 1). Zero descent to B1F.
 2. 1F Layout & Boundary Audits:
    - Western Terrace: Bump-test confirmed (0, 8) is solid rock [Turn 27805], (1, 8) Up is blocked by south-facing jump ledge [Turn 27806]. Visual audit of entire 1F Northwest sector (Cols 0..6, Rows 4..12) confirms Northwest Corridor is 100% enclosed on 1F with zero walkable ground/water entrance. Ladder (0, 6) destination remains unverified (candidate descent to B1F or ladder to 2F), and the one-way ledge at Row 7 is exclusively an exit.
-   - Waterways: 100% surveyed. Boundary (7, 6) is solid rock wall [Turn 27568].
+   - Waterways: 100% surveyed. Visual audit [Turn 27911-27913] confirms (7..13, 5) and (7, 6..10) are solid continuous rock walls. Water at (8, 6) dead-ends against rock wall (7, 6). Zero entrance exists from 1F water into the Northwest Corridor. Northwest Corridor (Cols 0..5, Rows 3..7) is an isolated 1F pocket that can ONLY be entered by descending from 2F Ladder (1, 3)!
 3. Ladder Pairings (6 Pairs):
    - 1F (23, 7) <-> 2F (22, 6) [2-way confirmed]
    - 1F (18, 9) <-> 2F (19, 7) [2-way confirmed]
