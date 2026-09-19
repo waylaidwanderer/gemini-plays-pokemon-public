@@ -224,7 +224,7 @@
   - Status: Healthy
   - HP: 222 / 222 [Healed Turn 28476 at Cerulean Center]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15) [Used Turn 28526], Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -236,7 +236,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 28/30) [Used Turns 28464, 28495]
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 28/30)
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
@@ -1623,7 +1623,7 @@
 - Northern Launch Apron: Located at (2..3, 4), accessible from Central Lawn via gateway at (2..3, 5). Water entry facing North into (2, 3) [Turn 28526].
 - Northern River Channel (Rows 2..3, Cols 2..16): 2-tile wide east-west water channel bounded north by mountain cliff at row 1 and south by shoreline apron at row 4. Connects east to Column 16.
 - Canal Turn: Located at (16, 3), where the northern river turns 90 degrees south into the eastern canal [Turn 28528].
-- Eastern Canal (Cols 16..17, Rows 4..50+): Continuous 2-tile wide north-south water canal heading south toward the Power Plant. Bounded on the west by stone bollards along Column 15 and on the east by continuous mountain cliffs along Column 18+. Traversed south past (16, 8) [Turn 28531].
+- Eastern Canal (Cols 16..17, Rows 4..50+): Continuous 2-tile wide north-south water canal heading south toward the Power Plant. Bounded on the west by stone bollards along Column 15 and on the east by continuous mountain cliffs along Column 18+.
 
 ## Power Plant Exterior (Audited Turn 28540)
 - Location: Southwest peninsula of Route 10 at cols 2..8, rows 34..46.
@@ -4482,6 +4482,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sighting: Legendary Bird ZAPDOS at (4, 9) [Audited Turn 28553]: Visually verified stationary bird sprite at (4, 9) inside northern enclosed chamber (cols 2..7, rows 9..11). Row 12 is a solid dividing wall. Western corridor terminates at (6..7, 13). Access route must loop through the eastern wing via (8, 15..16).
 - Column 13 Corridor (Rows 16..19, Col 13) [Audited Turn 28558]: Single-tile wide north-south passage between rubble fields (cols 11..12 and cols 14), leading south toward the lower concourse and the (9, 20) item ball.
 - Column 15 Wall: Vertical barrier running rows 13..19+ along column 15.
-- Northern Corridor (Row 11, Cols 11..16): Open hallway running above row 12 wall, part of the northern loop.
+- Northern Corridor (Row 11, Cols 11..16): Visually sighted from afar at (11, 15); open tiles visible above row 12 wall, unvisited and unverified until traversed.
 
 <hr>
