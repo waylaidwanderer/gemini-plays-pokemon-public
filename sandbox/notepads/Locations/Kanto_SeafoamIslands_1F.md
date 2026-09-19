@@ -26,3 +26,7 @@
   - Wooden stairs at (23, 9) connects northern floor at (23, 8) south onto elevated plateau at row 10.
   - Elevated plateau at row 10 spans continuously from col 23 west through col 17.
   - Boulder at (18, 10) rests directly on this plateau; approached from (23, 10) walking West along row 10 to (19, 10).
+- Subterranean Waterway [Audited Turn 29180]:
+  - Cols 19..23, rows 10..11 are water tiles, not dry plateau.
+  - Wooden dock at (23, 9) is a water launch pier.
+  - Launching HM03 Surf south into (23, 10) allows water navigation west toward (18, 10).
