@@ -4419,7 +4419,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Encounters: Voltorb, Electrode, Magneton, Pikachu, Electabuzz.
 
 ## Capture Strategy & Preparation
-- Current Ball Inventory: ULTRA BALL x31 (expended 6 balls across Turns 29000-29014, 31 remaining).
+- Current Ball Inventory: ULTRA BALL x30 (expended 7 balls across Turns 29000-29016, 30 remaining).
 - Mathematical Damage & Catch Analysis:
   - Wild Zapdos Lv 50: Max HP 150-165, Defense 90-105.
   - Mewtwo Lv 70 (Attack 167) Swift (Power 60) damage rolls:
