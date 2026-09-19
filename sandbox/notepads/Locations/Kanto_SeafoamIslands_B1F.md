@@ -2,18 +2,15 @@
 
 ## Overview
 - First basement floor of Seafoam Islands cavern complex.
-- Arrived via Ladder 1 at (23, 15) on 1F, landing at (23, 15) on B1F [Turn 29336].
+- Arrived via Ladder 1 on 1F [Turn 29336].
 
 ## Key Landmarks & Layout
-- Arrival Tile / Ladder Warp: (23, 15) [Ascends to 1F].
-- Ladder (East): Located at (25, 11) [Descends to B2F].
-- Ladder (West): Located at (19, 15) [Accessible only from western corridor].
-- Southeast Enclosure: Open floor spanning cols 20..27, rows 10..15. Bounded:
-  - North: One-way south ledge along row 9 (cols 20..27).
-  - West: Solid rock wall along col 19 (tile (19, 10) confirmed solid wall Turn 29359) and rock block at (20, 14..15).
-  - South: Row 16 cave wall.
-  - East: Col 28 cave wall.
-- Navigation Note: To bypass the row 9 ledge and access the rest of B1F, must descend Ladder (25, 11) to B2F.
+- Southeast Area [Surveyed Turns 29345-29374]:
+  - Open cave floor spanning cols 24..28, rows 10..14.
+  - Boundary walls: East at cols 29..30, South at row 15.
+  - Tile (25, 11), (25, 14), (23, 15) confirmed ordinary floor/wall, NOT ladders [Audited Turn 29371-29374].
+  - West barrier: Solid wall / divider at col 19-21 (tile (19, 10) confirmed solid wall Turn 29359).
+  - North: Row 9 ledge facing south across cols 20..25. Cols 26..28 under investigation.
 
 ## Wild Encounters
 - Shellder [Encountered Turn 29338].
