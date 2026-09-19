@@ -18,8 +18,8 @@
   - Designated User: Farfetch'd (DUX).
   - Fly Map Navigation Controls & Mechanics:
     - When using HM02 Fly from the party Pokémon menu, the Kanto regional map appears with a list of previously visited Pokémon Centers / destinations.
-    - Cycling through destinations is controlled via Up and Down directional inputs. Up moves to the previous destination in the list, and Down advances to the next destination.
-    - The destination list wraps around continuously (pressing Up at the top wraps to the bottom, and vice versa).
+    - Cycling through destinations is controlled via Up and Down directional inputs. Pressing Up advances forward cyclically through the destination list (Pallet -> Viridian -> Pewter -> Cerulean -> Lavender -> Vermilion -> Celadon -> Fuchsia -> Cinnabar -> Indigo -> Saffron -> Pallet), while pressing Down cycles backward in reverse order.
+    - The destination list wraps around continuously in both directions.
     - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
     - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
   - Outdoor Restriction: HM02 Fly cannot be cast indoors or inside buildings (attempting to use Fly inside Indigo Plateau lobby yields '[POKéMON] can't FLY here.' [Empirically verified Turn 28857]; cave restriction unverified). The player must exit outdoors to an open-sky exterior map before using Fly.

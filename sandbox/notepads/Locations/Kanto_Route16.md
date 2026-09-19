@@ -44,4 +44,3 @@
   - Furniture: Central table at (3..4, 3..4) with chairs at (2, 4) and (5, 3..4). Potted plants at corners.
   - Approach: Column 1 is open from row 7 up to row 3, allowing player to stand at (1, 3) facing East to speak with the girl.
 
-- HM02 FLY Claimed [Turn 28787]: Spoke with girl at (2, 3) in the Secret House; received HM02 Fly!

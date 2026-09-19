@@ -26,11 +26,20 @@
 - Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Stand directly adjacent at (4, 8) and SAVE before pressing 'A'!
 
+## Tactical Combat & Capture Protocol [Overhauled Turn 28921]
+- Speed & Survival Audit:
+  - Wild Zapdos Lv 50 Speed stat: ~115-130. Level 9 Drowzee (SANDMAN) Speed: ~18, HP: 30. Zapdos outspeeds Drowzee 100% and lethal Drill Peck (80 base + STAB) deals 380+ damage, guaranteeing an instant one-shot knockout before Hypnosis can execute. DO NOT switch Drowzee in raw against an active, unsilenced Zapdos!
+- Mewtwo Wall & Sustained Catch Strategy:
+  - Mewtwo (OMEGA Lv 70, Speed 195, Special 231, Defense 152, HP 234/234) guarantees outspeeding Zapdos 100% of turns.
+  - Zapdos offensive moves (Thundershock / Drill Peck) deal minor chipped damage to Mewtwo (~15-40 damage).
+  - Mewtwo possesses Recover (PP 20/20, restoring 117 HP per cast) and Barrier (PP 30/30, +2 Defense stages), allowing Mewtwo to tank indefinitely.
+  - Chipping Protocol: Deliver exactly ONE Swift from Mewtwo (~55-70 damage non-crit, ~110-130 damage max crit, leaving Zapdos at ~35-100 HP with zero faint risk).
+  - Ball Throwing: Once chipped, Mewtwo tanks continuously, using Recover whenever HP drops below 140, and throws Ultra Balls continuously from our 37-ball stockpile until Zapdos is caught!
+  - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
+
 ## Active Execution Plan
-1. Traverse Route 9 eastward on foot to Route 10 North.
-2. Enter Route 10 canal at (2..3, 4) using Surf with Blastoise (SHELDON).
-3. Surf south to Power Plant entrance at (6, 39) and enter facility.
-4. Walk through surveyed Sector 6 concourse to Zapdos at (4, 9).
-5. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
-6. Initiate battle, put Zapdos to Sleep with Hypnosis, and capture with 37 Ultra Balls!
+1. Defeat Pokémaniac on approach lawn and enter Power Plant front door at (6, 39).
+2. Follow surveyed transit route through Power Plant to Zapdos chamber at (4, 9).
+3. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
+4. Initiate encounter, chip safely with ONE Swift using Mewtwo, sustain with Recover, and capture with 37 Ultra Balls!
 
