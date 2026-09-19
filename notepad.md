@@ -4619,7 +4619,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Landed on northern dock (23, 5); verified dry terrace (rows 1..4) extending west toward Articuno [Turn 29189]
 - [x] Scouted northwest canal at (7, 6): rapid current blocks Surf ('No SURFing on SHELDON here!') [Turn 29196]
 - [ ] Ascend ladder at (8, 6) to B3F to solve boulder current-damming puzzle
-- [ ] Survey B3F layout, boulders, and holes, and invoke seafoam_boulder_agent
+- [x] Surveyed B3F Northeast Sector: discovered signpost at (23, 1), dock at (23, 5), and ladder at (25, 4) [Turn 29249]
+- [ ] Inspect signpost at (23, 1) for clues
+- [ ] Ascend ladder at (25, 4) to upper floor (B2F) to locate boulders and holes
 - [ ] Drop boulders into holes on B3F to dam subterranean water currents
 - [ ] Return to B4F via ladder (8, 6), surf across calmed waters to Articuno island
 - [ ] Save directly in front of Articuno

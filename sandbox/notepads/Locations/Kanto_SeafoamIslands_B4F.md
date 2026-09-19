@@ -16,7 +16,6 @@
 - Western Sector & Canal [Sighted Turn 29192]:
   - Col 14 rock wall spans rows 0..5; corridor passes underneath via row 6.
   - Water canal located at cols 12..13 (rows 0..5) and col 11 (rows 4..5).
-  - Ladder located at (11, 7) directly south of row 6 corridor.
 - Northwest Water Channel & Shoreline [Audited Turn 29194]:
   - Rows 4..5 form open water canal across cols 4..13, extending west into the extreme northwest corner.
   - Shoreline launch at (7, 6): dry floor at (7..8, 6) faces north directly into water at (7, 5).
