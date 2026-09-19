@@ -7,14 +7,6 @@
 
 ## Key Landmarks & Layout
 - Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
-- Ladder (SW): Located at (23, 15), descends to B1F. Sole progression route out of entrance enclosure [Audited Turn 29164].
-## Wild Encounters
-- Psyduck (Lv 30) [Encountered Turn 29161].
-- Krabby (Lv 28) [Encountered Turn 29165].
-- Krabby (Lv 31) [Encountered Turn 29175].
-
-## Key Landmarks & Layout
-- Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
 - Ladder 1 (SW): Located at (23, 15), descends to B1F.
 - Ladder 2 (East): Located at (25, 14), descends to B1F.
 - Ladder 3 (North): Located at (25, 3..4), descends to B1F.
@@ -27,3 +19,8 @@
   - (18, 10) is open water, NOT a boulder (prior sighting audited as water tile).
   - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
   - Western Dock: Wooden stairs at (15, 7) exits water onto dry floor at (15, 6), accessing unexplored western half of 1F (cols 0..15).
+
+## Wild Encounters
+- Psyduck (Lv 30) [Encountered Turn 29161].
+- Krabby (Lv 28) [Encountered Turn 29165].
+- Krabby (Lv 31) [Encountered Turn 29175].
