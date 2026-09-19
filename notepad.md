@@ -4151,13 +4151,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (2, 17) in Southwest Lower Corridor.
-- Verified Status: Western Terrace survey complete; confirmed Row 7 ledge blocks northern access from (1..2, 8). Ladder (0, 6) visually sighted at (0, 6) with corridor heading north toward Column 5 / Northern Terrace.
+- Current Location: Cerulean Cave 1F at (8, 2) on Northern Terrace.
+- Verified Status: Confirmed Northern Terrace is fully bounded on south (Row 3 rock wall) and west (Column 4 rock wall) with zero connection to Row 4. 1F ground routes to Ladder (0, 6) are completely exhausted. Access to B1F must proceed through 2F Sector A to locate the passage to Ladder (1, 3).
 - Active Route:
-  1. Follow Row 17 east to Staircase (17, 15), ascend to Central-Western Terrace.
-  2. Cross to Staircase (11, 13), launch Surf, and navigate to Staircase (15, 3).
-  3. Ascend to Northern Terrace, explore Columns 5..7 west/south toward Row 4 to reach Ladder (0, 6).
-  4. Descend Ladder (0, 6) to B1F, locate Mewtwo, and capture with Master Ball.
+  1. Ascend Ladder (7, 1) to 2F Ladder (9, 1).
+  2. Systematically explore 2F Sector A corridors (Row 1, Row 3, Row 5, Column 9, Column 13, and untested branches) to locate access into the northwest enclave enclosing Ladder (1, 3).
+  3. Take Ladder (1, 3) to descend into B1F (or the isolated 1F enclave at Ladder 0, 6).
+  4. Locate and capture Mewtwo on B1F using the Master Ball.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4186,7 +4186,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
-- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by elevation cliff at Row 3 (bypassed via Staircase 15, 3 from the water), and on the west by solid continuous rock wall at Columns 3..4 (rows 0..6). Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). West boundary along Columns 3..5 requires physical survey from Northern Terrace to test hypothesis of southward connection to Row 4.
+- Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by solid continuous rock wall across Row 3 (Cols 4..16, bypassed only via Staircase 15, 3 from subterranean water), and on the west by solid rock wall at Column 4 (Rows 0..3) [Visually and physically confirmed Turn 27179-27181]. Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Definitive Conclusion: The Northern Terrace has zero ground connection to the dark red corridor at Row 4 or Ladder (0, 6).
 - Row 7 South-Facing Ledge & Barrier (Cols 0..6, Row 7..8):
   - Cols 0..2: Row 7 contains dark reddish elevated floor. Stepping Up from (1, 8) and (2, 8) into Row 7 is blocked by a south-facing jump ledge [Verified Turns 27141-27143]. This is a one-way exit ledge hopping south from Row 7 to Row 8.
   - Cols 3..6: Solid rock walls at (3..6, 7).
