@@ -154,7 +154,9 @@
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
-- [ ] Explore Power Plant and capture Legendary ZAPDOS
+- [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
+- [ ] Obtain HM02 Fly on Route 16 and restock 35 Ultra Balls
+- [ ] Return to Power Plant and capture Legendary ZAPDOS
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
 
 <hr>
