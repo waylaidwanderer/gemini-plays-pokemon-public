@@ -20,10 +20,11 @@
 - Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
 - Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2); connects west to S-bypass and east to Column 24. Solid rock at (20, 4) prevents any southern connection to Ladder (19, 7). [Empirically verified Turn 27023]
 - Column 24 & Row 4 Transit (Cols 24..29, Rows 2..6): Column 24 runs south from (24, 2) to (24, 5) and dead-ends south against rock wall at (24, 6..10). At (24, 4), corridor connects east through (25..29, 4) directly into Column 29 vertical transit artery. [Empirically verified Turn 27222]
-- Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
-  - Row 17 Southern Thoroughfare terminates west at (1, 17), bounded by solid rock walls at (0, 17) and (1, 18).
-  - Column 1 Spur: (1, 16..15) is a 2-tile dead-end alcove branching north from (1, 17), bounded by solid rock walls at (0, 15..16), (2, 15..16), and (1, 14).
-  - Enclosed Upper Western Enclave: The area at (0..2, 12..14) is completely walled off from Row 17 and Column 1 by solid rock barriers (0..1, 14) and (2, 15). [Physically verified Turns 26030-26036]
+- Western Bypass Corridor & Southwest Boundary [Turns 28074-28081]:
+  - Row 17 Southern Thoroughfare West: Open horizontal corridor spanning (1..6, 17) and (11..17, 17). Boulder barrier spans (7..10, 17) [bump-tested at (7, 17) Turn 28074]. Bypass between eastern and western Row 17 connects via Column 6: (6, 16) <-> (6, 17).
+  - Western Outer Bypass: From (1, 17), corridor runs north through (1, 16) to (1, 15), then bypasses boulder (1, 14) via Column 2: stepping east to (2, 15), north through (2, 14) and (2, 13), west to (1, 13), and north to (1, 12) [Physically traversed Turns 28076-28080].
+  - Boulders block (1, 14), (2, 16), (2, 12), and (0, 13..17).
+  - Pocket at (0..1, 12): (1, 12) and (0, 12) are open floor. Northern boundaries (0..1, 11) and passability toward Rows 8-10 require physical testing.
 - Lower Southwest Corridor Network (Cols 4..13, Rows 13..17):
   - Row 13 West: Open horizontal corridor spanning (5..8, 13). (4, 13) and (9..11, 13) are solid rock walls.
   - Column 5 South: Open vertical corridor spanning (5, 13..15). Connects directly east of Item Ball (4, 15).

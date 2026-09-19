@@ -21,7 +21,6 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Dismiss battle text and return to overworld at (10, 11).
-  2. Navigate Column 10 South -> Row 16 West -> Row 17 West to (1, 17).
-  3. Physically bump-test Column 0 boundaries: test stepping west from (1, 17) into (0, 17), and north through (1, 16..15) into (0, 16) and (0, 15) to locate the western transit highway leading up to (0, 12)-(0, 13) and (1, 7)-(1, 9).
-  4. Ascend into Row 7, take (6, 6) -> (6, 5) -> (1, 5) to Ladder (1, 3), and conquer B1F / Mewtwo.
+  1. Flee wild Chansey and return to overworld at (1, 12).
+  2. Rigorously test local boundaries at (1, 12) and (0, 12): physically bump-test stepping Up into (1, 11) and (0, 11), Left into (-1, 12), and check for hidden items.
+  3. Determine whether (0..1, 12) is an enclosed pocket or possesses northern passability; if blocked, evaluate alternate untested connectors without jumping to unverified conclusions.
