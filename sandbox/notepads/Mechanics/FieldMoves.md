@@ -11,6 +11,11 @@
   6. The move animation executes in the overworld, clearing or affecting the target obstacle, and the menu closes automatically.
 
 ## Registered Field Moves & Party Users
+- **HM02 FLY:**
+  - Badge Requirement: Thunderbadge (Lt. Surge) - earned Turn 3632.
+  - Obtained: From girl in Route 16 Secret House [Turn 28787].
+  - Function: Warps player instantly to any previously visited Pokémon Center town across Kanto.
+  - Designated User: Farfetch'd (DUX).
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).

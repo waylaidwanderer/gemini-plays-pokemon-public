@@ -153,6 +153,7 @@
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
-- [ ] Obtain HM02 Fly on Route 16 and restock 35 Ultra Balls
+- [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
+- [ ] Restock 35 Ultra Balls at Indigo Plateau Mart
 - [ ] Return to Power Plant and capture Legendary ZAPDOS
 - [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO

@@ -1,6 +1,7 @@
 # Inventory Log
 
 ## Bag Items (Empirically Verified Turns 28749-28750)
+- HM02 (FLY) [Key Item - Obtained Turn 28787]
 1. POKé FLUTE [Key Item]
 2. MAX POTION x 1
 3. REVIVE x14
