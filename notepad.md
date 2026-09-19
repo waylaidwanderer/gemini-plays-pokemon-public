@@ -4370,6 +4370,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Northern Bypass to Staircase: from (6, 16), step north through (6, 15) into Row 14 at (6, 14), then east through (7..9, 14).
     - Staircase (9, 13): 1-tile wide wooden staircase at (9, 13) ascending north from southern floor at (9, 14) onto the central purple cavern floor at (9, 12)!
   - Staircase (13, 13): 1-tile wide wooden staircase at (13, 13) descending south toward the subterranean lake at (13, 14).
+  - Staircase (19, 11): 1-tile wide wooden staircase at (19, 11) at the southern end of Eastern Chamber (Cols 19..20, Rows 6..10).
+  - Eastern Chamber (Cols 19..21, Rows 6..10): Open purple floor corridor flanking eastern side of central cavern, leading south to Staircase (19, 11).
   - Main Subterranean Lake: Confirmed water expanse spanning Columns 12..14+ across Rows 14..17+, accessible via Staircase (13, 13) and waterways!
   - Central Purple Cavern Floor (Cols 9..14+, Rows 6..12):
     - Arrived onto purple floor via Staircase (9, 13) at (9, 12), advancing north through (9, 11..10) [Traversed Turn 28190].

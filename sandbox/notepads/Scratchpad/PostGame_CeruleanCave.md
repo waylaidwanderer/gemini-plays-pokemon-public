@@ -28,5 +28,5 @@
 
 ## Active Breakthrough Strategy & Routing Protocol
 - Protocol:
-  1. Explore Central Purple Cavern East across Rows 6-8 toward Column 16 (Item Ball at 16, 9) and the eastern lake. [ACTIVE]
+  1. Advance south along Column 16: (16, 8) -> (16, 12) to reach the subterranean lake shoreline. [ACTIVE]
   2. Launch Surf on subterranean lake and navigate to Mewtwo's platform to capture Mewtwo with the Master Ball.
