@@ -23,7 +23,7 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (17, 17) on foot facing Right.
+- Current Location: Cerulean Cave 2F at (12, 13) on foot facing Up.
 - Empirical Finding [Turn 26347]: Tile (20, 17) is a solid rock wall! Row 17 terminates east at (19, 17). Direct access from western 2F to eastern 2F via Row 17 is physically IMPOSSIBLE. The proposed 2F Master Circuit via Row 17 is completely DISPROVEN.
 - Hypothesis: 2F Master Circuit to Candidate Ladder (1, 3) [UNVERIFIED]:
   - Sighted Row 5 Northern Highway spanning (3..16, 5) and connecting via (6, 6) into Row 7 Highway (1..11, 7).
