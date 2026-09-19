@@ -24,3 +24,7 @@
   - Green island grass sighted at cols 46..47, rows 7..9.
 - Southern Channel: Rows 14..16 confirmed open water across cols 40..49, bounded north by rock reef at row 13 and south by rock wall at row 17 [Verified Turn 29140].
 - Islet / Promontory: Grass at cols 46..47, rows 7..9 with southern shoreline at row 10; channel opens back up to water at cols 48..49 [Audited Turn 29140].
+- Seafoam Islands Western Entrance [Confirmed Turn 29144]:
+  - Cave entrance doorway located at (57, 11).
+  - Shoreline landing dock at (57, 12) directly south of cave door.
+  - Approach corridor via southern channel: cols 55..57, row 14, stepping North up col 57.
