@@ -24,3 +24,15 @@
 ## Sighting & Route Audit (Turn 28558)
 - Zapdos Location: Sighted at (4, 9) in northern enclosed room.
 - Route: Separated from western approach by row 12 solid wall. Must be accessed via eastern concourse loop.
+## Survey Completed & Restock Execution Plan [Turn 28683]
+- Power Plant northern approach, Sector 6, Row 3 Highway, and Sector 5 Zapdos Chamber 100% mapped and verified.
+- Zapdos confirmed stationary at (4, 9). No battle triggered without pressing 'A'.
+- No back door exit exists in Gen 1 retail (FRLG only).
+- Action upon escaping battle:
+  1. Stand at (4, 8) facing Zapdos for final visual record.
+  2. Cast DIG with DIGBY (Diglett) to warp directly to Cerulean City Pokémon Center!
+  3. Head west to Route 16 to obtain HM02 FLY from the secret retreat house.
+  4. Teach HM02 FLY to Farfetch'd (DUX).
+  5. Fly to Indigo Plateau Mart, buy 35 Ultra Balls (cost: ¥42,000, current money: ¥107,981).
+  6. Fly back to Cerulean City, take Route 9, surf Route 10 canal to Power Plant.
+  7. Walk the cleared path directly to (4, 8), SAVE game, initiate battle with 'A', and capture Zapdos!
