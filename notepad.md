@@ -445,7 +445,7 @@
 - Rock Barrier at Row 15: Solid rock/monument structures span cols 8..13 at row 15.
 - Eastern Bypass: Cols 14..17 are open grass lawn bypassing the rock barrier on the east.
 - Building at Cols 14..17, Rows 18+: House with green roof directly south of the eastern lawn bypass.
-- Cut Tree at (15, 22): [CHOPPED DOWN, Turn 3829] Unlocked southern passage.
+- Cut Tree at (15, 22): [CHOPPED DOWN, Turn 3829, Re-cleared Turn 28374] Unlocked southern passage.
 - Row 23..26 Lawn: Open grass spanning cols 14..19.
 - Row 27 Ledge & Ramp: South-facing ledge spans cols 14..16 and 18..19. Passable two-way ramp at (17, 27) connects north and south.
 - Rows 28..30+ Lawn: Open path continuing south towards the gatehouse. Flower patch at (18..19, 28..29).
@@ -1156,7 +1156,7 @@
 ## Connections
 - North: Route 6 northern entrance at (18..19, 0).
 - South: Harbor & S.S. Anne docks.
-- East: Route 11 entrance.
+- East: Route 11 border connection at (39..40, 14..15) [Verified Turn 28410].
 
 ## Geography & Landmarks
 - Northern Entrance: Paved street at (18..19, 0..3) entering south from Route 6.
