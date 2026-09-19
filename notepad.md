@@ -340,6 +340,7 @@
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles.
 - **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
+- **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
 - **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
 - **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
@@ -356,7 +357,6 @@
 
 ## Verified Battle Mechanics & Engine Findings
 - **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
-
 
 <hr>
 
