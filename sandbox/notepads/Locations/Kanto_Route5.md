@@ -14,7 +14,8 @@
 - Signpost (17, 29): Signpost located directly south of the Underground Path entrance building apron.
 - Saffron City North Gatehouse (Cols 6..13, Rows 30..33) [Audited Turns 28715-28720]:
   - Structure spanning cols 6..13, rows 30..33.
-  - North Entrance: Located at (10, 30) / (9, 30), entered from north via the 2-tile wide paved chute (cols 9..10, rows 28..29) flanked by bollards at col 8 and col 11.
+  - North Entrance: Located at (10, 30), entered from north via the 2-tile wide paved chute (cols 9..10, rows 28..29) flanked by bollards at col 8 and col 11 [Verified Turn 28723]. Warps to interior mat at (4, 0) facing South.
+  - Gatehouse Interior (Audited Turn 28723): North mat at (3..4, 0), central green-checkered corridor across cols 3..4 (rows 1..6), guard at (1, 3) behind west counter, south exit mat at (3..4, 7). Guard allows free passage.
   - South Exit Door: Located at (10, 33) facing south onto row 34 courtyard.
   - Row 33 Barrier: Continuous collision boundary across row 33 consisting of wooden bollards at (2..5, 33) [Confirmed solid Turn 28720], the gatehouse south wall (cols 6..13), and bollards at (14..17, 33). Passing to row 34 requires walking through the gatehouse interior.
   - Building structure spanning cols 6..13 with yellow diamond lattice roof at rows 30..31.
