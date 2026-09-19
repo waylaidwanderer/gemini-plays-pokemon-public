@@ -4622,7 +4622,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Surveyed Northeast Sector: discovered signpost at (23, 1), dock at (23, 5), and ladder at (25, 4) [Turn 29244]
 - [x] Inspect signpost at (23, 1): reads 'DANGER / Fast current!' [Turn 29253]
 - [ ] Ascend ladder at (25, 4) to upper floor (B2F) to locate boulders and holes
-- [ ] Push boulders into holes to dam subterranean water currents
+- [x] Diglett used Dig to escape lower floors to surface (Fuchsia City Center) [Turn 29271]
+- [ ] Heal at Pok�mon Center and Fly to Cinnabar Island
+- [ ] Re-enter Seafoam Islands 1F via western entrance
+- [ ] Solve 1F boulder puzzle with Geodude (ROCKY) using HM04 Strength
+- [ ] Descend ladders systematically (B1F -> B2F -> B3F) pushing boulders into pit holes
+- [ ] Dam the subterranean water currents on B4F
+- [ ] Surf to Articuno's island on B4F and capture Legendary Articuno (Lv 50)
 - [ ] Return to lower lake floor, surf across calmed waters to Articuno island
 - [ ] Save directly in front of Articuno
 - [ ] Battle, chip safely, and capture Legendary Articuno (Lv 50) with Ultra Ball!
