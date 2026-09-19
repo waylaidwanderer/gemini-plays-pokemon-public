@@ -264,6 +264,8 @@
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Verified Turn 28243]
+  - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
+  - OT: BLUE (IDNo. 04620)
   - Moves: Psychic, Barrier, Swift, Recover
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
