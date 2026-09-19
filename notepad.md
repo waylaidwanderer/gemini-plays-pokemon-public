@@ -1536,13 +1536,12 @@
   - Designated User: Diglett (DIGBY).
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
 
-## Bicycle Locomotion Physics
-- **Perpendicular Turn Mechanics & Input Buffering:** When mounted on the Bicycle, a single isolated directional input while facing a perpendicular direction turns the player in place without advancing a step (empirically confirmed Turns 4046-4054). However, chaining directional inputs in a multi-button sequence buffers continuous locomotion, overriding turn-in-place mechanics and immediately advancing full strides into the perpendicular direction (empirically confirmed Turn 13078: ['Right' x4, 'Up'] advanced 2 tiles north across the perpendicular input to (37, 29)).
-
 ## Field Items (Poké Flute)
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
-## Bicycle Stride & Parity Mechanics
+
+## Bicycle Physics & Locomotion Mechanics
 - **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
+- **Perpendicular Turn Mechanics & Input Buffering:** When mounted on the Bicycle, a single isolated directional input while facing a perpendicular direction turns the player in place without advancing a step (empirically confirmed Turns 4046-4054). However, chaining directional inputs in a multi-button sequence buffers continuous locomotion, overriding turn-in-place mechanics and immediately advancing full strides into the perpendicular direction (empirically confirmed Turn 13078: ['Right' x4, 'Up'] advanced 2 tiles north across the perpendicular input to (37, 29)).
 - **Discrete Inputs vs Buffered Strides:** Depending on input timing and buffering, bicycle locomotion may advance 1 or 2 grid tiles per directional input. Chained inputs frequently buffer continuous 2-tile strides.
 - **Precision Alignment & Navigation:** When navigating tight single-tile gaps or aligning with precision between obstacles, dismounting the Bicycle to foot locomotion guarantees strict 1-tile step precision.
 - **Collision Truncation:** Riding into a collision boundary truncates movement immediately at the obstacle boundary.
@@ -4657,27 +4656,28 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Boundary: Shoreline at x=0, rows 8..14. Cinnabar Island is visible to the west.
 - Open Water Channel: Navigated corridor along rows 11-13 from col 0 to col 31. Bounded south by rock barrier at row 17 across cols 10..27 [Verified Turns 29120-29131].
 - Isolated Reef: 4x2 rock reef at cols 32..35, rows 8..9 with fence at row 10 (falsely suspected as entrance due to sprite overlay). Surrounded by open water [Audited Turn 29137].
-- Swimmer at (38, 13) [Sighted Turn 29137]: Positioned in southern water channel facing North.
-
-## Trainers & Encounters
-- Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
-- Swimmer at (24, 12) [Sighted Turn 29124]: Positioned in mid water channel facing South (sight line down col 24, rows 13..16). Northern corridor at row 11 passes cleanly behind him [Verified Turn 29125].
-- Wild Encounters: Tentacool (water) [Encountered Turn 29126].
-- Swimmer at (25, 7) [Sighted Turn 29128]: Positioned in northern water channel.
 - Seafoam Islands (Western Landmass): Massive mountain cliff face sighted at col 43, spanning rows 7..13 [Sighted Turn 29138]. Open water approach across cols 39..42, rows 7..15.
-- Swimmer at (45, 10) [Sighted Turn 29139]: Located in channel west of island.
 - Seafoam Island Western Landmass & Southern Channel [Audited Turn 29139]:
   - Rock boundary at col 43, rows 7..12 and row 13, cols 43..47.
   - Southern open water corridor at row 14, cols 42..47 passes south of rock barrier.
   - Green island grass sighted at cols 46..47, rows 7..9.
 - Southern Channel: Rows 14..16 confirmed open water across cols 40..49, bounded north by rock reef at row 13 and south by rock wall at row 17 [Verified Turn 29140].
 - Islet / Promontory: Grass at cols 46..47, rows 7..9 with southern shoreline at row 10; channel opens back up to water at cols 48..49 [Audited Turn 29140].
+- Col 55 Rock Peninsula [Audited Turn 29145]: Vertical rock reef extends from row 10 down through row 14, blocking row 14 at (55, 14). Channel passes underneath via open water at rows 15-16 into col 57.
 - Seafoam Islands Western Entrance [Confirmed Turn 29158]:
   - Cave entrance doorway located at (58, 9).
   - Wooden pier dock at cols 58..59, rows 10..11.
   - Water approach at (58, 12) directly south of pier; pier leads north into cave door at (58, 9).
-- Col 55 Rock Peninsula [Audited Turn 29145]: Vertical rock reef extends from row 10 down through row 14, blocking row 14 at (55, 14). Channel passes underneath via open water at rows 15-16 into col 57.
+
+## Trainers & Encounters
+- Swimmer at (15, 8) [Sighted Turn 29122]: Positioned in northern water channel.
+- Swimmer at (24, 12) [Sighted Turn 29124]: Positioned in mid water channel facing South (sight line down col 24, rows 13..16). Northern corridor at row 11 passes cleanly behind him [Verified Turn 29125].
+- Wild Encounters: Tentacool (water) [Encountered Turn 29126].
+- Swimmer at (25, 7) [Sighted Turn 29128]: Positioned in northern water channel.
+- Swimmer at (38, 13) [Sighted Turn 29137]: Positioned in southern water channel facing North.
+- Swimmer at (45, 10) [Sighted Turn 29139]: Located in channel west of island.
 - Jr. Trainer ♀ at (56, 14) [Encountered Turn 29146]: Guarding entrance approach channel at (57, 14). Line: 'Are you on vacation too?'. Team (Complete): Tentacool Lv 30, Horsea Lv 30, Seel Lv 30 [Verified Turns 29147-29154].
+
 
 <hr>
 
@@ -4695,5 +4695,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (SW): Located at (23, 15), descends to B1F [Sighted Turn 29159].
 - Bounded east by rock wall at col 28, rows 13..17.
 - Corridor extends north past row 13.
+## Wild Encounters
+- Psyduck (Lv 30) [Encountered Turn 29161].
 
 <hr>
