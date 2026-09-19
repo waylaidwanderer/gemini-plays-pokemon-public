@@ -7,7 +7,7 @@
 
 ## Post-Game Routing Strategy: Systematic 2F Row 8 Breakthrough
 1. 2F Row 8 & Row 7 Map Findings [Turns 27506-27520]:
-   - Row 8: Physical bump tests confirmed solid rock at (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], and (11, 8) [Turn 27508]. Visual tile matching shows identical boulder tiles at (2, 8), (6..8, 8), (10, 8), and (12, 8).
+   - Row 8: Physical bump tests confirmed solid rock at (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], and (11, 8) [Turn 27508]. Visual tile matching shows identical boulder tiles at (2, 8), (6..8, 8), (10, 8), and (12, 8).
    - Row 7 spans Columns 1 to 11 and dead-ends east at (11, 7), enclosed by boulder (11, 6), boulder (12, 7), and boulder (11, 8).
    - Row 6 has only ONE passage at (6, 6) connecting Row 7 to Row 5 West.
    - Row 5 has boulder (8, 5) separating Row 5 West (Cols 0..7) from Row 5 East (Cols 9..16).
