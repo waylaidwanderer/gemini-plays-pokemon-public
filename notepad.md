@@ -4756,6 +4756,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Arrived via ladder at (8, 6) on B4F, which ascends to arrival tile at (11, 7) on B3F [Turn 29205].
 
 ## Key Landmarks & Layout
+- Central Passage (Row 6): Dry corridor at (13..16, 6) connects western ladder area to eastern sector.
+- Northeast Corridor: Rows 3..4 (cols 15..18+) form wide open dry passage heading east into unexplored chambers.
+- Canal: Rows 4..5 (cols 7..13) open water, bounded north by rock wall at row 3 (cols 9..11).
 - Arrival Ladder / Warp: Located at (11, 7).
 - Southern Cavern Chamber: Wide open floor spanning cols 7..14, rows 7..10.
 - Northern Water Canal: Rows 4..5 spanning cols 7..13, bounded north by rocks at row 3 with wooden dock at (7, 3).
