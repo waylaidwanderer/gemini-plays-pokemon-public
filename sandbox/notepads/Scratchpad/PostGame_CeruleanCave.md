@@ -9,7 +9,7 @@
 1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (12, 1).
+- Current Location: Cerulean Cave 2F Row 1 at (3, 1).
 - Active Route:
   1. Follow Row 1 west to (14, 1) and onto the Northern Elevated Plateau (Cols 5..12, Rows 0..2).
   2. Explore west from Column 5 along Rows 0..2 toward Column 1 to locate access to northwest enclave Ladder (1, 3).

@@ -9,7 +9,7 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
-- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. (2, 3) is solid rock. From (3, 1), Row 1 connects east through (4..8, 1) to Ladder (9, 1) [Traversed Turn 26884].
+- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. (2, 3) is solid rock. From (3, 1), Row 1 extends east through (4..8, 1) toward Ladder (9, 1) [Visually sighted].
 - Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..5): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects directly south into the Row 5 Northwest Highway spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5). Row 4 rock wall (3..8, 4) separates Row 3 from Row 5. Access between Row 3/Row 1 and Row 5/Ladder (1, 3) is south of Row 5 via Row 6/7. [Visually verified Turn 26889]
 - Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
 - Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
