@@ -236,7 +236,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 26/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
@@ -1510,8 +1510,8 @@
   - Designated User: Farfetch'd (DUX).
   - Fly Map Navigation Controls & Mechanics:
     - When using HM02 Fly from the party Pokémon menu, the Kanto regional map appears with a list of previously visited Pokémon Centers / destinations.
-    - Cycling through destinations is controlled via Up and Down directional inputs. Up moves to the previous destination in the list, and Down advances to the next destination.
-    - The destination list wraps around continuously (pressing Up at the top wraps to the bottom, and vice versa).
+    - Cycling through destinations is controlled via Up and Down directional inputs. Pressing Up advances forward cyclically through the destination list (Pallet -> Viridian -> Pewter -> Cerulean -> Lavender -> Vermilion -> Celadon -> Fuchsia -> Cinnabar -> Indigo -> Saffron -> Pallet), while pressing Down cycles backward in reverse order.
+    - The destination list wraps around continuously in both directions.
     - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
     - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
   - Outdoor Restriction: HM02 Fly cannot be cast indoors or inside buildings (attempting to use Fly inside Indigo Plateau lobby yields '[POKéMON] can't FLY here.' [Empirically verified Turn 28857]; cave restriction unverified). The player must exit outdoors to an open-sky exterior map before using Fly.
@@ -1624,7 +1624,7 @@
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
 - Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
-- Pokémaniac Mark at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Intro: 'Wow, are you a POKéMANIAC too? Want to see my collection?'.
+- Pokémaniac at (7, 44): Challenged Turn 28916 on Power Plant approach lawn. Intro: 'Wow, are you a POKéMANIAC too? Want to see my collection?'.
 
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
@@ -4434,13 +4434,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Permanence Warning:
   - In Generation 1 retail, stationary legendary Pokémon (Zapdos) NEVER respawn if defeated or fled from. Stand directly adjacent at (4, 8) and SAVE before pressing 'A'!
 
+## Tactical Combat & Capture Protocol [Overhauled Turn 28921]
+- Speed & Survival Audit:
+  - Wild Zapdos Lv 50 Speed stat: ~115-130. Level 9 Drowzee (SANDMAN) Speed: ~18, HP: 30. Zapdos outspeeds Drowzee 100% and lethal Drill Peck (80 base + STAB) deals 380+ damage, guaranteeing an instant one-shot knockout before Hypnosis can execute. DO NOT switch Drowzee in raw against an active, unsilenced Zapdos!
+- Mewtwo Wall & Sustained Catch Strategy:
+  - Mewtwo (OMEGA Lv 70, Speed 195, Special 231, Defense 152, HP 234/234) guarantees outspeeding Zapdos 100% of turns.
+  - Zapdos offensive moves (Thundershock / Drill Peck) deal minor chipped damage to Mewtwo (~15-40 damage).
+  - Mewtwo possesses Recover (PP 20/20, restoring 117 HP per cast) and Barrier (PP 30/30, +2 Defense stages), allowing Mewtwo to tank indefinitely.
+  - Chipping Protocol: Deliver exactly ONE Swift from Mewtwo (~55-70 damage non-crit, ~110-130 damage max crit, leaving Zapdos at ~35-100 HP with zero faint risk).
+  - Ball Throwing: Once chipped, Mewtwo tanks continuously, using Recover whenever HP drops below 140, and throws Ultra Balls continuously from our 37-ball stockpile until Zapdos is caught!
+  - Fail-Safe: Stand at (4, 8) directly in front of Zapdos and execute a manual SAVE before pressing 'A'.
+
 ## Active Execution Plan
-1. Traverse Route 9 eastward on foot to Route 10 North.
-2. Enter Route 10 canal at (2..3, 4) using Surf with Blastoise (SHELDON).
-3. Surf south to Power Plant entrance at (6, 39) and enter facility.
-4. Walk through surveyed Sector 6 concourse to Zapdos at (4, 9).
-5. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
-6. Initiate battle, put Zapdos to Sleep with Hypnosis, and capture with 37 Ultra Balls!
+1. Defeat Pokémaniac on approach lawn and enter Power Plant front door at (6, 39).
+2. Follow surveyed transit route through Power Plant to Zapdos chamber at (4, 9).
+3. Stand at (4, 8) facing Zapdos and execute a manual SAVE.
+4. Initiate encounter, chip safely with ONE Swift using Mewtwo, sustain with Recover, and capture with 37 Ultra Balls!
 
 
 
@@ -4591,7 +4600,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Furniture: Central table at (3..4, 3..4) with chairs at (2, 4) and (5, 3..4). Potted plants at corners.
   - Approach: Column 1 is open from row 7 up to row 3, allowing player to stand at (1, 3) facing East to speak with the girl.
 
-- HM02 FLY Claimed [Turn 28787]: Spoke with girl at (2, 3) in the Secret House; received HM02 Fly!
 
 
 <hr>
