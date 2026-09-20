@@ -3,9 +3,9 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Nidorina (QUEENIE) Lv 33, Venonat (RADAR) Lv 22
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Nidoqueen (QUEENIE) Lv 33, Venonat (RADAR) Lv 22
 - Money: ¥2,906 [Turn 31089]
-- Pokédex: 23 Caught / 136 Seen [Verified In-Game Turn 31147]
+- Pokédex: 24 Caught / 136 Seen [Turn 31184]
 
 ## Milestones
 
@@ -45,3 +45,4 @@
 - [x] Revive Helix Fossil into Omanyte (NAUTILUS) and Old Amber into Aerodactyl (PTERA) at Cinnabar Lab [Turn 30951]
 - [x] Evolve Eevee (VEE) into Jolteon with Thunderstone in Celadon City [Turn 31098]
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
+- [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]

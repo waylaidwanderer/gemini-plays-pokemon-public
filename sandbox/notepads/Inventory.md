@@ -83,11 +83,10 @@
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- NIDORINA (Nickname: QUEENIE) [Lv 33, Poison]
+- NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
-  - HP: 88 / 88
   - Moves: Growl, Scratch, Poison Sting, Body Slam
-  - Withdrawn from PC Box 1 [Turn 31161]
+  - Evolved from Nidorina via Moon Stone [Turn 31184]
 - VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
   - Status: Healthy
   - HP: 60 / 60
