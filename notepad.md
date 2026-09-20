@@ -258,6 +258,12 @@
   - Status: Healthy
   - Deposited from active party [Turn 13315]
 
+## PC Box 2 PokÃ©mon
+- TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
+  - Status: Healthy
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
+  - Transferred to PC Box 2 (1/20)
+
 <hr>
 
 <h1><code>Locations/Kanto_Route1</code></h1>
