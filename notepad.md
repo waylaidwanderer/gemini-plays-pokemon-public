@@ -153,6 +153,8 @@
   - HP: 90 / 90
   - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
+  - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 
 ## PC Box 1 Pokémon
