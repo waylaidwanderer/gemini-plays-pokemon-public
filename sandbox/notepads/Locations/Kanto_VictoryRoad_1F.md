@@ -18,7 +18,7 @@
     3. Player steps to (9, 17), faces North, and pushes Boulder 1 north along col 9: (9, 16) -> (9, 15) -> (9, 14) onto Row 14.
     4. Player loops via col 8 to (8, 14), faces East, and pushes Boulder 1 east along Row 14: (9, 14) -> (10, 14) -> (11, 14) -> (12, 14) -> (13, 14) -> (14, 14) -> (15, 14) -> (16, 14).
     5. Player steps to (16, 15), faces North, and pushes Boulder 1 north along col 16: (16, 14) -> (16, 13) -> (16, 12) onto Row 12.
-    6. Next: Player loops via (15, 12) to push Boulder 1 East into (17, 12), then loops to (17, 11) to push South onto Switch Plate (17, 13).
+    6. Player loops via (15, 12), pushes Boulder 1 East into (17, 12), loops to (17, 11), and pushes South onto Switch Plate at (17, 13) [Solved Turn 30397]. Switch depressed, lowering Plateau Barrier Block at (9, 12)!
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
