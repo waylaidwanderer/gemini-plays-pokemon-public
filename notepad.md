@@ -272,6 +272,11 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Transferred to PC Box 2 (6/20)
+- VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
+  - Transferred to PC Box 2 (7/20)
+
 
 <hr>
 
@@ -3576,7 +3581,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 12 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 13 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
