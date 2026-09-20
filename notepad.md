@@ -890,7 +890,6 @@
 ## Key Buildings & Facilities
 - Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
   - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
-  - Customer at (1, 3): Dialogue - bicycles are cool but way too expensive.
 - Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
   - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
   - Resident 1 at (5, 4): Kid in blue overalls.
@@ -4882,19 +4881,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target 1: Poliwhirl (Lv 23)
   - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
   - Location: Route 10 waterway (east of Cerulean City via Route 9). Recommended by postgame_planner agent [Turn 31472].
-  - Note: Cerulean Gym pool yielded exclusively Lv 15 Psyduck (caught #054) and Lv 15 Krabby (caught #098). Poliwhirl does not spawn in the gym pool.
+  - Hypothesis: Cerulean Gym pool yielded exclusively Lv 15 Psyduck (#054) and Lv 15 Krabby (#098) in 4 trials. Poliwhirl encounter presence in gym pool remains unverified; prioritizing Route 10's verified encounter table.
 - Target 2: Goldeen (#118)
   - Available in Route 10 / Route 24 / Route 25 waterways via Super Rod.
 
-## Party Logistics Strategy
-1. Swap Super Rod to Bag Slot 2 using Select.
-2. Inspect Psyduck (MIGRAINE) stats from Start menu and record in Inventory.md.
-3. Exit Cerulean Gym to Cerulean City.
-4. Visit Cerulean Pokémon Center (19, 17).
-5. Access Bill's PC and deposit 1 Pokémon (party size 5/6).
-6. Travel to Route 10 waterway to fish for Lv 23 Poliwhirl with Super Rod.
-7. Catch Poliwhirl directly into party (6/6).
-8. Return to Cerulean Northwest House (13, 15) and complete Jynx trade without PC detour.
+## Remaining Strategy Steps
+1. Cut tree at (5, 8) on Route 9 with DUX.
+2. Travel east across Route 9 to Route 10 waterway.
+3. Fish for Lv 23 Poliwhirl with Super Rod (Bag Slot 2).
+4. Catch Poliwhirl directly into party (party size currently 5/6 -> 6/6).
+5. Fly back to Cerulean City with DUX.
+6. Enter Northwest House (13, 15) and complete Jynx trade with Resident 2 at (1, 2).
 
 
 <hr>
