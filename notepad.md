@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Tangela (CRINKLES) Lv 22, Jolteon (VEE) Lv 25
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party, 1 open slot)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 25 Caught / 136 Seen [Turn 31251]
 
@@ -139,14 +139,6 @@
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
-  - Status: Healthy
-  - HP: 62 / 62
-  - Stats: Attack 32, Defense 59, Speed 37, Special 50 [Verified Lv 22 Turn 31246]
-  - OT: TRAINER (IDNo. 37480, Boosted EXP)
-  - EXP: 10648 (1519 to Lv 23) [Verified Turn 31249]
-  - Moves: Constrict (PP 35/35), Bind (PP 20/20) [Verified Turn 31249]
-  - Received: Cinnabar Lab Meeting Room in-game trade for Venonat (RADAR) [Turn 31235]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -155,6 +147,13 @@
 
 
 ## PC Box 1 Pokémon
+- TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
+  - Status: Healthy
+  - HP: 62 / 62
+  - Stats: Attack 32, Defense 59, Speed 37, Special 50
+  - OT: TRAINER (IDNo. 37480, Boosted EXP)
+  - Moves: Constrict (PP 35/35), Bind (PP 20/20)
+  - Deposited Cinnabar PC Box 1 [Turn 31307]
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam

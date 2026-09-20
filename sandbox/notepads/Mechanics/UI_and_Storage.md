@@ -9,3 +9,11 @@
 - **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
 - **Party Space Prerequisite:** In BILL's PC, selecting WITHDRAW PKMN when the active party is full (6 Pokémon) displays 'Your party is full!' and denies withdrawal. The player must use DEPOSIT PKMN first to free party slots.
 - **Batched Operations:** PC sessions can seamlessly transition between BILL's PC and BLUE's PC by pressing B to back out to the main PC menu ('BILL's PC', 'BLUE's PC', 'PROF. OAK's PC', 'LOG OFF') without needing to exit to the overworld between operations.
+
+## PC Deposit Sub-Menu Mechanics (Generation 1 Retail)
+- In Generation 1 retail, selecting a Pokémon in the PC DEPOSIT menu does not immediately store it. It opens a secondary sub-menu:
+  - `DEPOSIT` (default cursor)
+  - `STATS`
+  - `CANCEL`
+- Pressing A on `DEPOSIT` confirms the deposit and stores the Pokémon into the active box.
+- Pressing B dismisses the sub-menu without depositing [Empirically verified Turn 31307].
