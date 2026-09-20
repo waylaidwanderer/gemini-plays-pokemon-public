@@ -3581,7 +3581,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 13 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 14 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
@@ -4993,6 +4993,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 11 | GRIMER (#088) | 35 | (7, 9) | Turn 32495 | Fled (Duplicate species) |
 | 12 | GRIMER (#088) | 35 | (8, 9) | Turn 32498 | Fled (Duplicate species) |
 | 13 | VULPIX (#037) | 33 | (8, 9) | Turn 32504 | CAUGHT! (Turn 32507, 1 Ultra Ball, KITSUNE) |
-| 14 | VULPIX (#037) | ? | (20, 4) | Turn 32532 | In Progress (Turn 32532) |
+| 14 | VULPIX (#037) | 32 | (20, 4) | Turn 32532 | Fled (Duplicate species) |
 
 <hr>
