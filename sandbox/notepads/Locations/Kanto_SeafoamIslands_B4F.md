@@ -29,3 +29,8 @@
 - Staryu [Encountered Turn 29202].
 - Seel (Lv 31) [Encountered Turn 29420].
 - Staryu (Lv 31) [Encountered Turn 29649].
+## Subterranean Dam & Calm Currents (Audited Turn 29728)
+- Boulders Dropped from B3F: Two boulders fell through holes (3, 16) and (6, 16) and landed at (4, 15) and (5, 15).
+- Rapid Currents Dammed: The boulders form a complete barrier, halting all rapid water currents in the northwest canal.
+- Hole Drop: Stepping into Pit Hole 2 (6, 16) on B3F drops player directly into water at (5, 14) on B4F in calm water.
+- Path to Articuno: Surfing north along cols 4..5 leads directly into the northwest lagoon where Articuno is located.
