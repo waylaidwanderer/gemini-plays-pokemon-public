@@ -60,3 +60,4 @@
   - Obstacles & Boundaries:
     - Rock obstacles at (7, 14), (4, 15), (4, 16), (9, 16).
     - Signpost at (9, 15): 'Boulders might change the flow of water!'
+- Tile (4, 13) Collision (Audited Turn 29676): Empirically verified solid rock wall collision from north at (4, 12). Row 13 across cols 0..7 is an impassable solid cliff boundary. The lower puzzle chamber (rows 14..16) is accessed via the Eastern Sector Corridor (cols 13..14, rows 11..14) turning west into rows 14..16.
