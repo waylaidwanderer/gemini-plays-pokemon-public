@@ -63,7 +63,7 @@
 9. GUARD SPEC. x 1
 10. MAX POTION x 1
 11. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-12. ULTRA BALL x 9
+12. ULTRA BALL x 8
 
 ## Inventory Capacity
 - Active Bag Items: 12 / 20 capacity used.
@@ -3568,16 +3568,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
-## Wild Encounters (Preliminary Observations)
-- Grimer (Lv 28-30) [Observed 1 trial, Turns 31332-31348].
-- Vulpix (Lv 30-32) [Observed 4 trials, Turns 31332-31348].
-- Note: Sample size (5 battles) is insufficient to determine full encounter tables or rule out rare spawns.
+## Wild Encounters (Verified Species & Level Bands)
+- Grimer (Lv 28-31) [Common]
+- Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
+- Ponyta (Lv 36) [Uncommon]
+- Note: Magmar (#126) remains unverified on 2F across 10 observed encounters; B1F survey recommended if not found here.
 
-- Grimer (Lv 31) [Encountered Turn 32427 at (8, 11)].
-- Grimer (Lv 31) [Encountered Turn 32441 at (7, 9)].
-- Vulpix (Lv 33) [Encountered Turn 32448 at (5, 9); broke out of Ultra Ball, used Roar].
-- Ponyta (Lv 36) [Encountered Turn 32455 at (9, 9)].
-- Vulpix [Encountered Turn 32459 at (7, 8)].
 
 <hr>
 
@@ -4963,13 +4959,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Next Hunting Target: Pokémon Mansion (Cinnabar Island)
 - Target 3: Cinnabar Pokémon Mansion Wild Captures
-  - Target Species (Unverified Hypotheses across Mansion floors): Magmar (#126), Koffing (#109), Weezing (#110), Vulpix (#037)
-  - Location: Pokémon Mansion (Survey B1F, 2F, 3F; 1F empirical trials 1-9 yielded exclusively Grimer, Ponyta, Muk)
-  - Party Status: 6/6 (Slot 6 filled by SLUDGE Lv 37. Future wild captures transfer automatically to active PC Box 2: 5/20 used, 15 free slots)
-  - Resources: 3 Ultra Balls in Bag
+  - Target Species: Vulpix (#037, active battle!), Magmar (#126, unverified on 2F; survey B1F if absent), Koffing (#109), Weezing (#110)
+  - Location: Pokémon Mansion (Currently 2F; 1F empirical trials 1-9 yielded Grimer, Ponyta, Muk)
+  - Party Status: 6/6 (Box 2: 5/20 used, 15 free slots)
+  - Resources: 8 Ultra Balls in Bag (after current throw)
   - Execution Plan:
-    1. Restock Ultra Balls at Cinnabar Poké Mart (sell Max Revives/Full Restores).
-    2. Survey Pokémon Mansion B1F, 2F, and 3F to identify encounter tables and locate Magmar, Koffing, and Vulpix (candidates unverified on 1F).
+    1. Capture wild Vulpix on 2F (active battle Turn 32462).
+    2. Survey 2F / B1F for Magmar (#126).
+
 ### Pokémon Mansion 1F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
 |---|---|---|---|---|---|
@@ -4982,6 +4979,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 7 | GRIMER (#088) | 30 | (6, 21) | Turn 32329 | Fled (Duplicate species) |
 | 8 | GRIMER (#088) | 32 | (6, 19) | Turn 32338 | Fled (Duplicate species) |
 | 9 | PONYTA (#077) | 32 | (6, 25) | Turn 32351 | Fled (Duplicate species) |
-| 10 | GRIMER (#088) | 31 | (8, 11) | Turn 32427 | Fled (Duplicate species) |
+
+### Pokémon Mansion 2F Empirical Encounter Log
+| Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
+|---|---|---|---|---|---|
+| 1 | GRIMER (#088) | 31 | (8, 11) | Turn 32427 | Fled (Duplicate species) |
+| 2 | GRIMER (#088) | 31 | (7, 9) | Turn 32441 | Fled (Duplicate species) |
+| 3 | VULPIX (#037) | 33 | (5, 9) | Turn 32448 | Broke out 1 Ultra Ball; used Roar |
+| 4 | PONYTA (#077) | 36 | (9, 9) | Turn 32455 | Fled (Duplicate species) |
+| 5 | VULPIX (#037) | 33 | (7, 8) | Turn 32459 | In Progress (Turn 32462) |
+
 
 <hr>
