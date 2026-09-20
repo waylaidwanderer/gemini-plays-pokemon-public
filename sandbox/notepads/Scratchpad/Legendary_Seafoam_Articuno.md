@@ -12,4 +12,4 @@
 - **Ultra Ball Stock:** 32 Ultra Balls remaining in Bag (Slot 11).
 - **Damage Restriction:** Do NOT attack with Swift or any damaging moves (risk of fainting Articuno). Rely strictly on Ultra Balls.
 - **Mewtwo Sustain Protocol:** Mewtwo HP is 176/234. Peck deals 12-14 damage, Ice Beam deals 31-35 damage. If Mewtwo HP drops below 80 HP, use Recover (Slot 4 in move menu) or Full Restore (Slot 7 in Bag, 11 available).
-- **Current Battle Phase:** Launching Ultra Ball at weakened Articuno from active command menu.
+- **Current Battle Phase:** Clearing 'You missed the POKéMON!' prompt and advancing past Articuno's counterattack to return to command menu.
