@@ -8,7 +8,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70 (2 open slots for fossil revival)
 
-- Money: ¥56 [Turn 29995]
+- Money: ¥6 [Turn 30688]
 - Pokédex: 19 Caught / 128 Seen
 
 ## Milestones
