@@ -75,7 +75,7 @@
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x20)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x19)
 
 ## Inventory Capacity
 - Active Bag Items: 13 / 20 capacity used.
@@ -4783,5 +4783,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Diglett (DIGBY Lv 19): Dig escape if extraction needed.
 
 - [Turn 30538] Threw Ultra Ball #1 at wild Moltres (HP ~75%). Ball missed. 20 Ultra Balls remaining.
+- [Turn 30542] Threw Ultra Ball #2 at wild Moltres (HP ~75%). Ball missed. 19 Ultra Balls remaining.
 
 <hr>
