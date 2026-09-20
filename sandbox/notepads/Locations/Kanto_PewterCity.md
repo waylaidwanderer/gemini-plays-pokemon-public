@@ -67,4 +67,4 @@
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
 - PokÃ©mon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Route 3 Border Connection
-- Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge. At column 27 (rows 6-7), there is a distinct tree graphic interrupting the brown ledge. Attempting CUT while facing north from (27, 8) yielded 'There isn't anything to CUT!' [Turn 30721], indicating the tree at (27, 7) is not a cuttable tree from the south, or requires different alignment/investigation.
+- Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge, but tile (31, 7) is a passable brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into row 6 northern courtyard without needing Cut! Trees at (27, 6..7) are decorative obstacles, not cuttable trees.
