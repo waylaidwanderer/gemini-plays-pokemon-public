@@ -7,7 +7,7 @@
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Psyduck (MIGRAINE) Lv 15 (6 in party)
 - Money: ¥3,506 [Turn 31292]
-- Pokédex: 29 Caught / 136 Seen [Turn 31512]
+- Pokédex: 28 Caught / 136 Seen [Turn 31512]
 
 ## Milestones
 
@@ -859,9 +859,9 @@
 - East: Route 9 entrance. Stepping East from (39, 16) onto column 40 warps to Route 9 (0, 8) [Turn 28491]. (Note: (38, 16) is internal grass path).
 
 ## Geography & Layout
-- Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between PokÃ©mon Center and Gym.
-- Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to PokÃ©mon Center (cols 18..21, rows 14..17) with no gap between buildings.
-- Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and PokÃ©mon Center roofs.
+- Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
+- Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
+- Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
 - Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11, but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street.
 - Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
 - Canal Northern Bank Landmark (4, 11): Cerulean Cave mouth structure at (4, 11). Formerly guarded by green-haired NPC at (4, 12); visually verified departed post-Champion induction [Turn 25483].
@@ -885,21 +885,21 @@
   - Resident 1 at (5, 4): Kid in blue overalls.
   - Resident 2 at (1, 2): Trader (offers JYNX for player's POLIWHIRL).
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
-- Cerulean PokÃ©mon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKÃ©" sign at (20, 17).
+- Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKÃ©" sign at (20, 17).
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
     - PC Terminal: Located on east wall at (13, 3..4). Accessible by standing at (13, 4) facing North at monitor (13, 3), or at (12, 3) facing East.
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKÃ©MON GYM / LEADER: MISTY".
-- Central pool spanning rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool ('BLUE used SUPER ROD! / Not even a nibble!'). Indoor fishing is 100% permitted by the Gen 1 engine. Wild encounter verified Turn 31489: Psyduck (Lv 15) hooked via Super Rod in Gym pool!
-  - Gym Guide Advice: Leader Misty specializes in Water-type PokÃ©mon; recommends Grass (plant) and Electric types as counters.
+- Central pool spanning rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounter verified Turn 31489: Psyduck (Lv 15) hooked via Super Rod in Gym pool.
+  - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
   - Gym Trainers:
-    - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: Â¥80. Defeated Turn 2005.
-    - Jr. Trainer â™€ on northern platform at (4, 3): Goldeen Lv 19 (451 EXP). Prize: Â¥380. Defeated Turn 2016.
-    - Gym Leader Misty at (4, 2): Staryu Lv 18 (408 EXP), Starmie Lv 21 (931 EXP). Prize: Â¥2079, CASCADEBADGE, TM11 (BUBBLEBEAM). Defeated Turn 2077.
-- Cerulean PokÃ© Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with PokÃ©mon at (28, 26).
+    - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
+    - Jr. Trainer ♀ on northern platform at (4, 3): Goldeen Lv 19 (451 EXP). Prize: ¥380. Defeated Turn 2016.
+    - Gym Leader Misty at (4, 2): Staryu Lv 18 (408 EXP), Starmie Lv 21 (931 EXP). Prize: ¥2079, CASCADEBADGE, TM11 (BUBBLEBEAM). Defeated Turn 2077.
+- Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
-  - Catalog Items: POKÃ© BALL (Â¥200), POTION (Â¥300), REPEL (Â¥350), ANTIDOTE (Â¥100).
+  - Catalog Items: POKÃ© BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
 - Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North. Backyard path along rows 8..9 dead-ends east against trees at col 34; the true transit corridor turns south down Column 33 through rows 10..15 to access the Route 9 entrance [Verified Turn 28489].
-- Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the PokÃ© Mart (cols 24..27).
+- Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the Poké Mart (cols 24..27).
 
 
 <hr>
@@ -1484,7 +1484,7 @@
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
 - **Strength Status Reset on Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength [Empirically verified Turns 20452, 20525, 20559, 30447].
 ## Fishing Mechanics & Indoor Gym Pool Verification
-- **Indoor Gym Pool Fishing Permitted:** In retail Generation 1 Pokémon Blue, fishing rods (e.g. Super Rod) CAN be successfully cast indoors into the Cerulean Gym pool water tiles (e.g. from pier edge (4, 9) facing West into (3, 9)). Professor Oak does NOT prohibit it; the fishing line casts into the pool and generates wild encounter rolls [Empirically verified Turn 31481].
+- **Cerulean Gym Pool Fishing Permitted:** In retail Generation 1 Pokémon Blue, the Super Rod can be successfully cast into the Cerulean Gym pool water tiles (from pier edge (4, 9) facing West into (3, 9)), generating wild encounter rolls [Empirically verified Turn 31481]. General indoor water fishing across other buildings remains unverified.
 
 
 <hr>
@@ -4822,13 +4822,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Facility Rooms
 ### Meeting Room (Rows 0..7, Cols 0..7)
-First door along hallway at (8, 4), entrance mat at (2..3, 7) [Entered Turn 31215].
+First door along hallway at (8, 4), entrance mat at (2..3, 7).
   - Layout: Large wooden conference table at cols 3..5, rows 3..4 with chairs.
   - Old Man Trade NPC: Located at (1, 4) facing South; trades RAICHU for ELECTRODE (DORIS, #101) [Verified Turn 31218].
   - Boy NPC: Seated at table at (3, 2).
   - Girl Trade NPC: Seated at table at (5, 5); trades VENONAT for TANGELA (CRINKLES, #114).
 ### R&D Room (Rows 0..7, Cols 0..7)
-Second door along hallway at (12, 4), entrance mat at (2..3, 7) [Entered Turn 31206].
+Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Metronome Researcher: Stationed at (7, 2) in front of computer terminal; gave TM35 (Metronome) [Turn 31210].
   - Eevee Evolution Researcher: Wanders rows 2..3 (cols 0..5); discusses Eevee evolutions [Turn 31212].
 ### Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
