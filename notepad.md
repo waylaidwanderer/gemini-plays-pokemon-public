@@ -4993,5 +4993,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 11 | GRIMER (#088) | 35 | (7, 9) | Turn 32495 | Fled (Duplicate species) |
 | 12 | GRIMER (#088) | 35 | (8, 9) | Turn 32498 | Fled (Duplicate species) |
 | 13 | VULPIX (#037) | 33 | (8, 9) | Turn 32504 | CAUGHT! (Turn 32507, 1 Ultra Ball, KITSUNE) |
+| 14 | VULPIX (#037) | ? | (20, 4) | Turn 32532 | In Progress (Turn 32532) |
 
 <hr>
