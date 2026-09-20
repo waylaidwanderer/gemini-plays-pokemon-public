@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Tangela (CRINKLES) Lv 22, Jolteon (VEE) Lv 25
-- Money: ¥17,906 [Turn 31282]
+- Money: ¥3,506 [Turn 31292]
 - Pokédex: 25 Caught / 136 Seen [Turn 31251]
 
 ## Milestones
@@ -74,8 +74,9 @@
 14. GUARD SPEC. x1
 15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
 16. TM35 (METRONOME) x1 [Received Cinnabar Lab R&D Room Turn 31210]
+17. ULTRA BALL x 12 [Purchased Cinnabar Poké Mart Turn 31292]
 ## Inventory Capacity
-- Active Bag Items: 16 / 20 capacity used.
+- Active Bag Items: 17 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -109,7 +110,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥17,906 [Turn 31282]
+- ¥3,506 [Turn 31292]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
