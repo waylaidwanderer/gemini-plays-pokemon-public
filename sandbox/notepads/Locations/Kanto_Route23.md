@@ -38,3 +38,7 @@
 ## Northern Sector & Victory Road Exit [Turn 24494]
 - Victory Road Exit Doorway: Located at (14, 31). Player emerges at (14, 32) facing South.
 - Route 23 North Corridor: Columns 14-19 between water at west (cols 10-12) and hedges/lawn at east. Connects north toward Indigo Plateau entrance.
+
+## North Water Pool & Walkway Bypass (Audited Turn 30017)
+- Water Pool (Rows 24..27, Cols 10..16): Water blocks column 14 south of row 23.
+- Eastern Walkway Bypass: Columns 17..19 form a continuous dry walkway running south past the pool (paved walkway at col 17, lawn at cols 18..19) connecting row 23 south toward row 31.
