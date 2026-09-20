@@ -29,3 +29,4 @@
 | 12 | GRIMER (#088) | 35 | (8, 9) | Turn 32498 | Fled (Duplicate species) |
 | 13 | VULPIX (#037) | 33 | (8, 9) | Turn 32504 | CAUGHT! (Turn 32507, 1 Ultra Ball, KITSUNE) |
 | 14 | VULPIX (#037) | 32 | (20, 4) | Turn 32532 | Fled (Duplicate species) |
+| 15 | GRIMER (#088) | ? | (12, 10) | Turn 32543 | In Progress (Turn 32543) |
