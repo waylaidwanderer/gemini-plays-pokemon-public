@@ -363,21 +363,6 @@
 
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
-## Generation 1 Capture Formula & Engine Mechanics
-- **3-Step Capture Evaluation Process:**
-  1. **Status Condition Check:**
-     - If the wild Pokémon has a major status condition, the engine performs an initial RNG roll: `R1 = random(0, 255)`.
-     - `status_bonus`: Sleep / Freeze = 25 (~9.76% flat chance); Paralysis / Burn / Poison = 12 (~4.68% flat chance).
-     - If `R1 < status_bonus`, the Pokémon is **instantly captured**, completely bypassing all subsequent HP, ball factor, and catch rate checks!
-  2. **Ball Factor & HP Factor Check:**
-     - Ball Factor thresholds: Ultra Ball = 150, Great Ball = 200, Poké Ball = 255.
-     - `hp_factor = min(255, (max_hp * 255) // (ball_factor * max(1, cur_hp // 4)))` (for Ultra/Great Ball).
-     - Engine rolls `R2 = random(0, 255)`. If `R2 > hp_factor`, the ball misses entirely ("You missed the POKéMON!").
-     - At 100% HP with Ultra Ball, `hp_factor` is only ~6/255 (~2.3% chance to hit). Reducing HP increases `hp_factor` (at ~65% HP, `hp_factor` ~10; at ~30% HP, `hp_factor` ~23).
-  3. **Catch Rate Threshold Check:**
-     - Engine rolls `R3 = random(0, 255)`.
-     - If `R3 <= catch_rate`, the Pokémon is captured! For legendaries (Articuno, Zapdos, Moltres, Mewtwo), `catch_rate = 3` (approx 1.56% threshold).
-     - If `R3 > catch_rate`, the ball shakes 1, 2, or 3 times and the Pokémon breaks free.
 
 
 <hr>
@@ -4586,24 +4571,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Initiate battle with Articuno [Turn 29745]!
 - [ ] Capture Articuno (Lv 50) with Ultra Ball
 
-## Required Field Moves & Party Roles
-- HM03 SURF: Blastoise (SHELDON) - water navigation
-- HM04 STRENGTH: Geodude (ROCKY) - boulder puzzles to halt rapid water currents
-- HM02 FLY: Farfetch'd (DUX) - rapid regional transit
-- TM28 DIG: Diglett (DIGBY) - dungeon exit / emergency escape to warp anchor
-
-## Mechanics & Findings
-- Warp Anchor: Dig warps to the last Pokémon Center where Nurse Joy healed the party.
-- Seafoam lower floor water currents block Surfing until boulders are dropped through holes to create a dam.
-- Signposts: (9, 15) 'Boulders might change the flow of water!'; (23, 1) 'DANGER / Fast current!'.
-## Operational Capture Thresholds & Contingency Plan
-- **Current Combat State:** Articuno weakened to ~65% HP. Mewtwo at 221/234 HP, healthy and unfrozen.
-- **Damage Restriction:** Do NOT attack with Swift or any moves. Rely strictly on Ultra Balls.
-- **Ultra Ball Stock:** 42 Ultra Balls remaining (Slot 11 in Item Bag).
-- **Mewtwo Sustain & Health Status [Turn 29812]:**
-  - Full Restore applied! Mewtwo restored to full health (221/234 HP) and Freeze cured. Full Restores: 11.
-  - Current priority: Open Bag, navigate to Slot 11 (Ultra Ball x42), and throw Ultra Balls consecutively.
-  - If Mewtwo HP drops below 80 HP in future turns, use Recover (or Full Restore).
+## Operational Capture Thresholds & Live Combat Status [Turn 29821]
+- **Opponent State:** Wild ARTICUNO (Lv 50) weakened to ~65% HP.
+- **Active Pokémon:** OMEGA (Mewtwo Lv 70) HP: 176 / 234, healthy and unfrozen.
+- **Ultra Ball Stock:** 39 Ultra Balls remaining in Bag (Slot 11).
+- **Damage Restriction:** Do NOT attack with Swift or any damaging moves (risk of fainting Articuno). Rely strictly on Ultra Balls.
+- **Mewtwo Sustain Protocol:** Mewtwo HP is 176/234. Peck deals 12-14 damage, Ice Beam deals 31-35 damage. If Mewtwo HP drops below 80 HP, use Recover (Slot 4 in move menu) or Full Restore (Slot 7 in Bag, 11 available).
+- **Current Battle Phase:** Clearing 'You missed the POKéMON! ▼' prompt and advancing past Articuno's counterattack to return to the battle command menu.
 
 
 <hr>
