@@ -27,3 +27,18 @@
 
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
+## Generation 1 Capture Formula & Engine Mechanics
+- **3-Step Capture Evaluation Process:**
+  1. **Status Condition Check:**
+     - If the wild Pokémon has a major status condition, the engine performs an initial RNG roll: `R1 = random(0, 255)`.
+     - `status_bonus`: Sleep / Freeze = 25 (~9.76% flat chance); Paralysis / Burn / Poison = 12 (~4.68% flat chance).
+     - If `R1 < status_bonus`, the Pokémon is **instantly captured**, completely bypassing all subsequent HP, ball factor, and catch rate checks!
+  2. **Ball Factor & HP Factor Check:**
+     - Ball Factor thresholds: Ultra Ball = 150, Great Ball = 200, Poké Ball = 255.
+     - `hp_factor = min(255, (max_hp * 255) // (ball_factor * max(1, cur_hp // 4)))` (for Ultra/Great Ball).
+     - Engine rolls `R2 = random(0, 255)`. If `R2 > hp_factor`, the ball misses entirely ("You missed the POKéMON!").
+     - At 100% HP with Ultra Ball, `hp_factor` is only ~6/255 (~2.3% chance to hit). Reducing HP increases `hp_factor` (at ~65% HP, `hp_factor` ~10; at ~30% HP, `hp_factor` ~23).
+  3. **Catch Rate Threshold Check:**
+     - Engine rolls `R3 = random(0, 255)`.
+     - If `R3 <= catch_rate`, the Pokémon is captured! For legendaries (Articuno, Zapdos, Moltres, Mewtwo), `catch_rate = 3` (approx 1.56% threshold).
+     - If `R3 > catch_rate`, the ball shakes 1, 2, or 3 times and the Pokémon breaks free.
