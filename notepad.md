@@ -4566,7 +4566,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Strategy & Objectives
 - [x] Execute boulder puzzle to stop subterranean water currents [Completed Turn 29724 - both boulders dropped to B4F]!
-- [ ] Navigate to Articuno's chamber on B4F and capture Articuno (Lv 50) with Ultra Ball
+- [ ] Navigate to Articuno's chamber on B4F and capture Articuno (Lv 50) with Ultra Ball [Initiated Turn 29728]
 
 ## Required Field Moves & Party Roles
 - HM03 SURF: Blastoise (SHELDON) - water navigation
@@ -4677,7 +4677,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Staryu (Lv 31) [Encountered Turn 29649].
 ## Subterranean Dam & Calm Currents (Audited Turn 29728)
 - Boulders Dropped from B3F: Two boulders fell through holes (3, 16) and (6, 16) and landed at (4, 15) and (5, 15).
-- Rapid Currents Dammed: The boulders form a complete barrier, halting all rapid water currents in the northwest canal.
+- Rapid Currents Dammed: Subterranean water channel between (5, 14) and (5, 10) empirically confirmed calm with zero forced current movement [Turn 29731].
 - Hole Drop: Stepping into Pit Hole 2 (6, 16) on B3F drops player directly into water at (5, 14) on B4F in calm water.
 - Path to Articuno: Surfing north along cols 4..5 leads directly into the northwest lagoon where Articuno is located.
 
@@ -4748,10 +4748,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Rock obstacles at (7, 14), (4, 15), (4, 16), (9, 16).
     - Signpost at (9, 15): 'Boulders might change the flow of water!'
 - Tile (4, 13) Collision (Audited Turn 29676): Empirically verified solid rock wall collision from north at (4, 12). Row 13 across cols 0..7 is an impassable solid cliff boundary. The lower puzzle chamber (rows 14..16) is accessed via the Eastern Sector Corridor (cols 13..14, rows 11..14) turning west into rows 14..16.
-- Boulder 2 Displacements (Audited Turns 29700-29703): Boulder 2 pushed west from (5, 14) to (4, 14) [Turn 29700], then to (3, 14) [Turn 29703]. Vacating row 14 passage to access Boulder 1 (3, 15).
 - Boulder Puzzle Progress (Turns 29707-29717):
   - Pit Hole 1 at (3, 16): FILLED! Boulder 1 pushed south from (3, 15) into hole [Turn 29707].
-  - Boulder 3: Displaced from (8, 14) -> (8, 15) -> (7, 15) -> (6, 15) [Turns 29715-29717]. Perfectly aligned directly north of Pit Hole 2 (6, 16). Looping to (6, 14) to push it down into hole.
+  - Boulder 3: Displaced from (8, 14) -> (8, 15) -> (7, 15) -> (6, 15) [Turns 29715-29717]. Perfectly aligned directly north of Pit Hole 2 (6, 16).
   - Pit Hole 2 at (6, 16): FILLED! Boulder 3 pushed south from (6, 15) into hole [Turn 29724].
   - PUZZLE SOLVED: Both boulders dropped through B3F pit holes (3, 16) and (6, 16) to dam the B4F rapid currents.
 
