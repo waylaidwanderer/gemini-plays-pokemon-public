@@ -42,4 +42,4 @@
 ## North Water Pool & Walkway Bypass (Audited Turn 30017)
 - Water Pool (Rows 24..27, Cols 10..16): Water blocks column 14 south of row 23.
 - Eastern Walkway Bypass: Columns 17..19 form a continuous dry walkway running south past the pool (paved walkway at col 17, lawn at cols 18..19) connecting row 23 south toward row 31.
-- Route 22 Access Note: Wall at (17, 23) blocks East access on row 23. Cross East via row 22 (16, 22 -> 17, 22 -> 18, 22) to reach the uninterrupted cols 18-19 lawn highway running south to row 31 [Turn 30018].
+- North Sector Pool Bypass Note: Wall at (17, 23) blocks East access on row 23. Cross East via row 22 (16, 22 -> 17, 22 -> 18, 22) to reach the uninterrupted cols 18-19 lawn highway running south to row 31 [Turn 30018].
