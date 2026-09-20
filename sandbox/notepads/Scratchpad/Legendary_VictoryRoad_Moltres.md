@@ -9,7 +9,9 @@
 - [x] Ascend to 3F, activate Strength, and push Boulder (22, 15) into Pit Hole (23, 15) [Turns 30044, 30154]
 - [x] Drop through Pit Hole (23, 15) to 2F at (22, 16) [Turn 30159]
 - [x] Navigate 2F terrace via (21, 15) north and west to (14, 8) in visual contact with Moltres at (11, 5) [Turn 30181]
-- [ ] Approach and engage Legendary Bird MOLTRES
+- [x] Empirically verify 2F terrace northern edge (row 8 cliff) and western Plateau Barrier (7, 8) are impassable to Moltres chamber from this terrace [Turns 30183, 30186]
+- [ ] Use Dig to warp outside, Fly to Indigo Plateau, and enter 2F main floor via 3F Ladder (23, 7)
+- [ ] Approach and engage Legendary Bird MOLTRES at (11, 5)
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
