@@ -6,21 +6,10 @@
 - [x] Initiate battle with Articuno [Turn 29745]!
 - [ ] Capture Articuno (Lv 50) with Ultra Ball
 
-## Required Field Moves & Party Roles
-- HM03 SURF: Blastoise (SHELDON) - water navigation
-- HM04 STRENGTH: Geodude (ROCKY) - boulder puzzles to halt rapid water currents
-- HM02 FLY: Farfetch'd (DUX) - rapid regional transit
-- TM28 DIG: Diglett (DIGBY) - dungeon exit / emergency escape to warp anchor
-
-## Mechanics & Findings
-- Warp Anchor: Dig warps to the last Pokémon Center where Nurse Joy healed the party.
-- Seafoam lower floor water currents block Surfing until boulders are dropped through holes to create a dam.
-- Signposts: (9, 15) 'Boulders might change the flow of water!'; (23, 1) 'DANGER / Fast current!'.
-## Operational Capture Thresholds & Contingency Plan
-- **Current Combat State:** Articuno weakened to ~65% HP. Mewtwo at 221/234 HP, healthy and unfrozen.
-- **Damage Restriction:** Do NOT attack with Swift or any moves. Rely strictly on Ultra Balls.
-- **Ultra Ball Stock:** 42 Ultra Balls remaining (Slot 11 in Item Bag).
-- **Mewtwo Sustain & Health Status [Turn 29812]:**
-  - Full Restore applied! Mewtwo restored to full health (221/234 HP) and Freeze cured. Full Restores: 11.
-  - Current priority: Open Bag, navigate to Slot 11 (Ultra Ball x42), and throw Ultra Balls consecutively.
-  - If Mewtwo HP drops below 80 HP in future turns, use Recover (or Full Restore).
+## Operational Capture Thresholds & Live Combat Status [Turn 29821]
+- **Opponent State:** Wild ARTICUNO (Lv 50) weakened to ~65% HP.
+- **Active Pokémon:** OMEGA (Mewtwo Lv 70) HP: 176 / 234, healthy and unfrozen.
+- **Ultra Ball Stock:** 39 Ultra Balls remaining in Bag (Slot 11).
+- **Damage Restriction:** Do NOT attack with Swift or any damaging moves (risk of fainting Articuno). Rely strictly on Ultra Balls.
+- **Mewtwo Sustain Protocol:** Mewtwo HP is 176/234. Peck deals 12-14 damage, Ice Beam deals 31-35 damage. If Mewtwo HP drops below 80 HP, use Recover (Slot 4 in move menu) or Full Restore (Slot 7 in Bag, 11 available).
+- **Current Battle Phase:** Clearing 'You missed the POKéMON! ▼' prompt and advancing past Articuno's counterattack to return to the battle command menu.
