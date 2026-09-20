@@ -16,7 +16,6 @@
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
 ## Inventory Capacity
-## Inventory Capacity
 - Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
