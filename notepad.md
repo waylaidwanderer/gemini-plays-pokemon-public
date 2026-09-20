@@ -3571,9 +3571,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-31) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
-- Ponyta (Lv 36) [Uncommon]
+- Ponyta (Lv 32-36) [Uncommon]
 - Note: Magmar (#126) remains unverified on 2F across 10 observed encounters; B1F survey recommended if not found here.
-
 
 <hr>
 
@@ -4988,6 +4987,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 3 | VULPIX (#037) | 33 | (5, 9) | Turn 32448 | Broke out 1 Ultra Ball; used Roar |
 | 4 | PONYTA (#077) | 36 | (9, 9) | Turn 32455 | Fled (Duplicate species) |
 | 5 | VULPIX (#037) | 33 | (7, 8) | Turn 32459 | Broke out 1 Ultra Ball; used Roar |
-| 6 | PONYTA (#077) | ? | (7, 9) | Turn 32465 | In Progress (Turn 32465) |
+| 6 | PONYTA (#077) | 32 | (7, 9) | Turn 32465 | Fled (Duplicate species) |
 
 <hr>

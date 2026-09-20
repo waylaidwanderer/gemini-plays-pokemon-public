@@ -57,5 +57,5 @@
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-31) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
-- Ponyta (Lv 36) [Uncommon]
+- Ponyta (Lv 32-36) [Uncommon]
 - Note: Magmar (#126) remains unverified on 2F across 10 observed encounters; B1F survey recommended if not found here.
