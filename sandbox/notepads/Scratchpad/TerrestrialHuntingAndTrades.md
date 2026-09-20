@@ -1,14 +1,14 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Next Hunting Target: Pokémon Mansion (Cinnabar Island)
-- Target 3: Cinnabar Pokémon Mansion Wild Captures
+## Next Hunting Target: Pokï¿½mon Mansion (Cinnabar Island)
+- Target 3: Cinnabar Pokï¿½mon Mansion Wild Captures
   - Target Species: Magmar (#126 on B1F), Weezing (#110 on B1F)
   - Completed Mansion Captures:
     - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
     - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
     - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
     - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
-  - Location: Pokémon Mansion (Currently 1F; returning to 2F in active State B)
+  - Location: Pokï¿½mon Mansion (Currently 1F; returning to 2F in active State B)
   - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
   - Switch Status: Switch State B is ALREADY ACTIVE (toggled Turn 32780). Shutter (18-19, 8) on 2F and East Shutter (15, 10-11) on 3F are OPEN.
