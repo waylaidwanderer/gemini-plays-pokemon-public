@@ -4944,5 +4944,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Viridian City Freshwater Pond Super Rod Trials
 - Trial 1 [Turn 31871]: Not even a nibble.
+- Trial 2 [Turn 31873]: Not even a nibble.
 
 <hr>
