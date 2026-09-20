@@ -150,7 +150,7 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
-- OMANYTE (Nickname: Pending NAUTILUS) [Lv 30, Rock/Water]
+- OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
   - Status: Healthy
   - HP: Full
   - Moves: Water Gun, Withdraw, Horn Attack
@@ -4743,8 +4743,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Enter Cinnabar Pokémon Lab Testing Room at (16, 4) and speak with fossil scientist at (7, 2) [Completed Turn 30845]
 - [x] Submit HELIX FOSSIL to scientist [Completed Turn 30867]
 - [x] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [Completed Turn 30898]
-- [ ] Nickname Omanyte as NAUTILUS [In Progress]
-- [ ] Submit OLD AMBER to scientist [Pending]
+- [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
+- [ ] Submit OLD AMBER to scientist [In Progress]
 - [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Pending]
 
 ## Party & Inventory Logistics
