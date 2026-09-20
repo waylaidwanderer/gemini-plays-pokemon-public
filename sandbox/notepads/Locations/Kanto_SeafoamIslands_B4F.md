@@ -34,3 +34,8 @@
 - Rapid Currents Dammed: Subterranean water channel between (5, 14) and (5, 10) empirically confirmed calm with zero forced current movement [Turn 29731].
 - Hole Drop: Stepping into Pit Hole 2 (6, 16) on B3F drops player directly into water at (5, 14) on B4F in calm water.
 - Path to Articuno: Surfing north along cols 4..5 leads directly into the northwest lagoon where Articuno is located.
+## Legendary Bird Articuno Sighting & Platform (Turn 29735)
+- Platform: Dry cavern terrace across cols 5..10, rows 0..2.
+- Access: Wooden dock stairs at (7, 3) connecting water at (7, 4) up to terrace at (7, 2).
+- Entity: Stationary Legendary Bird ARTICUNO located at (6, 1).
+- Approach: From (5, 4), surf east to (7, 4), walk up stairs at (7, 3) to (7, 2), step left to (6, 2) facing north to engage.
