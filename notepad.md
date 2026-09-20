@@ -4942,4 +4942,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Trial 3 [Turn 31796]: Not even a nibble!
 - Trial 4 [Turn 31798-31824]: Hooked and caught wild POLIWAG Lv 15 with Ultra Ball (slept with Lola's Lovely Kiss, chipped with Pound). Nicknaming RIPPLE. Transferred to Box 2.
 
+## Viridian City Freshwater Pond Super Rod Trials
+- Trial 1 [Turn 31871]: Not even a nibble.
+
 <hr>
