@@ -3414,6 +3414,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 
 - Enclosed B1F Staircase Chamber (cols 12-26, rows 17-26): B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564]. Shutter 2 at (20-21, 17) is hypothesized OPEN in State B (bypassed via balcony drop). Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
+## Wild Encounters (Empirically Verified)
+- Ponyta (Lv 32) encountered in central corridor at (5, 16) [Turn 31364].
+
 
 <hr>
 
@@ -3475,6 +3478,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
+## Wild Encounters (Empirically Verified)
+- Grimer (Lv 28-30) [Turns 31332-31348].
+- Vulpix (Lv 30-32) [Turns 31332-31348].
+
 
 <hr>
 
