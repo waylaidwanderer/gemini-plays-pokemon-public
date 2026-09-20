@@ -2,7 +2,7 @@
 
 ## Strategy & Objectives
 - [x] Execute boulder puzzle to stop subterranean water currents [Completed Turn 29724 - both boulders dropped to B4F]!
-- [ ] Navigate to Articuno's chamber on B4F and capture Articuno (Lv 50) with Ultra Ball
+- [ ] Navigate to Articuno's chamber on B4F and capture Articuno (Lv 50) with Ultra Ball [Initiated Turn 29728]
 
 ## Required Field Moves & Party Roles
 - HM03 SURF: Blastoise (SHELDON) - water navigation
