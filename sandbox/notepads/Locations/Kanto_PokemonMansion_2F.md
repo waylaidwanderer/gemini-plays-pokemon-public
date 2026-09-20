@@ -1,8 +1,8 @@
 # Pokémon Mansion 2F Geography & Landmarks
 
 ## Overview & Arrival
-- Staircase down to 1F: Located at (5, 10) [Verified visually Turn 31357].
-- Landing: Arriving from 1F places player in central starting hall.
+- Staircase down to 1F: Located at (7, 10), arrived at (7, 11) facing Up [Verified Turn 32966].
+- Landing: Arriving from 1F places player at (7, 11) in central starting hall.
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
 - Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15) and (6-10, 16-17). South boundary wall at row 17 across columns 1-5.
@@ -10,8 +10,8 @@
 - Pokémon Mansion Diary: Located at (6, 12) on a book pedestal [Verified Turn 13813].
 - Rubble Obstacles: Massive rubble field blocks columns 3-4 (rows 7-15) and (8-10, 12-15).
 - North Corridor: Open floor across rows 8-10 at columns 5-9 wraps around the staircase north into rows 8-9.
-- Shutter Door: Spans (8-10, 8) dividing the starting area from the northern/eastern section. Empirically confirmed CLOSED in Switch State B [Turn 13832 bump test].
-- Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
+- Shutter Door: Spans (8-10, 8) dividing the starting area from the northern/eastern section. Empirically confirmed CLOSED in Switch State A [Turn 32976 bump test]. OPEN in Switch State B, providing sole access from Starting Hall into North Hall (cols 10-14, rows 1-7).
+- Secret Switch Statue at (10, 5): Located at junction between North Hall and Central Divider, facing South, interacted from (10, 6) facing North [Sighted Turn 32981]. Used to toggle from State B to State A while on the north side of row 8 shutter to open Northwest Bedroom shutter (9, 4-5).
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
