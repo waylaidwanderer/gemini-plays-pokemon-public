@@ -3990,7 +3990,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
-- Plateau Barrier Block at (7, 10): Lowered/removed by placing Boulder 1 on Switch Plate (3, 5) [Visually confirmed lowered Turn 24406; empirically verified raised Turn 24254 before switch depression]. Westward traversal across Row 10 terrace from (8, 10) to (6, 10) is now open.
+- Plateau Barrier Block at (7, 10): Raised and blocking eastward passage on terrace [Visually confirmed Turn 30127]. Lowered only when Boulder 1 is placed on Switch Plate (3, 5). Col 6 has solid rock walls across rows 7-9, confirming southwest terrace (cols 1-6, rows 7-10) is completely enclosed and connects exclusively to the Southwest Basin via wooden staircase (1, 9).
 - Boulder 1: Located at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
