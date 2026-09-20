@@ -3924,7 +3924,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Column 16 Highway: Open north-south corridor connecting Row 11 north to Row 1.
   - Lower Corridor (Row 16): Divided into western section (cols 1-4) and eastern section (cols 9-29) by rock barriers.
   - Wooden Staircases: (5, 10) connects row 8/9 plateau to row 11; (15, 15) connects row 14 to row 16; (21, 15) connects row 16 to row 14 plateau.
-  - Central Terrace Highway: Columns 13-14 form a continuous elevated terrace avenue (rows 8-14) connecting Row 12 directly north past Blackbelt (12, 9) onto the northern plateau where Moltres resides at (11, 5) [Turn 30174].
+  - Central Terrace: Rows 12-14 connect west across row 12 into column 13-14 terrace avenue (rows 8-14). Row 8 northern edge is an impassable elevation cliff separating the terrace from the lower Moltres chamber (row 7) [Empirically verified Turn 30183]. Plateau Barrier at (7, 8)-(7, 9) is raised and impassable [Empirically verified Turn 30186].
+  - Moltres Chamber Access: Moltres is stationed at (11, 5) on the main lower cavern floor, which is accessible from rows 0-3 via Column 16 Highway, connecting directly to Ladder (23, 7) from 3F.
 - Boulders & Switch Plates:
   - Boulder 3 on Switch Plate A (1, 16) permanently lowers Plateau Barrier at (7, 8)-(7, 9) [Turn 24199].
   - Boulder from 3F dropped through Pit Hole (23, 15) down to 2F at (23, 16). Pushed onto Switch Plate B at (9, 16) [Turn 24445], permanently lowering Barrier Block at (23, 14) and opening access to Exit Ladder at (25, 14).
@@ -4808,7 +4809,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascend to 3F, activate Strength, and push Boulder (22, 15) into Pit Hole (23, 15) [Turns 30044, 30154]
 - [x] Drop through Pit Hole (23, 15) to 2F at (22, 16) [Turn 30159]
 - [x] Navigate 2F terrace via (21, 15) north and west to (14, 8) in visual contact with Moltres at (11, 5) [Turn 30181]
-- [ ] Approach and engage Legendary Bird MOLTRES
+- [x] Empirically verify 2F terrace northern edge (row 8 cliff) and western Plateau Barrier (7, 8) are impassable to Moltres chamber from this terrace [Turns 30183, 30186]
+- [ ] Use Dig to warp outside, Fly to Indigo Plateau, and enter 2F main floor via 3F Ladder (23, 7)
+- [ ] Approach and engage Legendary Bird MOLTRES at (11, 5)
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
