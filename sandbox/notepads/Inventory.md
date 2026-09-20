@@ -19,7 +19,6 @@
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
-- HELIX FOSSIL handed to Cinnabar Lab scientist for revival into Omanyte [Turn 30867]
 ## Stored / PC Items
 - NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -142,3 +141,5 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
+## Fossil Revival Status
+- HELIX FOSSIL: Handed to Cinnabar Lab scientist for revival into Omanyte [Turn 30867]

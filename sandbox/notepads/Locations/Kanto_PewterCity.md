@@ -16,16 +16,16 @@
 - Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flower patches.
 
 ## Key Buildings
-- PokÃ©mon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKÃ©" sign at (14, 25).
-- PokÃ© Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
-  - Verified Pewter PokÃ© Mart Stock:
-    - POKÃ© BALL: Â¥200
-    - POTION: Â¥300
-    - ESCAPE ROPE: Â¥550
-    - ANTIDOTE: Â¥100
-    - BURN HEAL: Â¥250
-    - AWAKENING: Â¥200
-    - PARLYZ HEAL: Â¥200
+- Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKÃ©" sign at (14, 25).
+- Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
+  - Verified Pewter Poké Mart Stock:
+    - POKÃ© BALL: ¥200
+    - POTION: ¥300
+    - ESCAPE ROPE: ¥550
+    - ANTIDOTE: ¥100
+    - BURN HEAL: ¥250
+    - AWAKENING: ¥200
+    - PARLYZ HEAL: ¥200
 - Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
 - Pewter Museum: Main entrance door at (14, 7) approached from (14, 8). Side/back entrance door at (19, 5) approached from row 6 courtyard behind row 7 ledge.
 
@@ -37,7 +37,7 @@
 - Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÃ©MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
-- Center Exterior NPC: Stationed at (17, 25) outside the PokÃ©mon Center.
+- Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
 - Garden Resident: Wandering inside the fenced flower garden (rows 24..26).
 - Mart Exterior Youngster: Standing at (27, 17) just east of the Mart.
 - Western Pewter NPC: Stationed at (8, 15) in the western residential area.
@@ -57,15 +57,15 @@
 - Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6).
 - Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2).
 
-## Pewter PokÃ©mon Center Interior
+## Pewter Pokémon Center Interior
 - Entrance Mat: (3..4, 7). Exits south to Pewter City at (13, 26).
-- Counter: Extends across row 2 (cols 0..7). PokÃ© Ball healing tray at (3, 2).
+- Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North to heal party.
 - Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKÃ© BALLs set in my belt."
 - Youngster: Stationed at (7, 3).
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
-- PokÃ©mon (1, 3): Jigglypuff standing next to trainer at (0, 4).
+- Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Museum Perimeter, Ledges & Cuttable Tree
 - Row 7 Jump Ledge: Spans across columns 18..34 as a south-facing jump ledge. Tile (31, 7) is an open brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into the northern perimeter lawn (rows 2..4) without needing Cut.
 - Decorative Obstacles: Tile (27, 7) is a solid tree obstacle [Turn 30711]; tile (27, 6) is a solid tree obstacle, empirically tested with CUT facing West from (28, 6) yielding 'There isn't anything to CUT!' [Turn 30743]. Neither is cuttable.
