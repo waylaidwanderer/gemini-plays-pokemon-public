@@ -3916,7 +3916,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East exits onto Route 23 North at (14, 31) [Turn 24494].
 
 ## Legendary Pokémon
-- Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually re-confirmed Turn 20249/20253 from (15, 7); prior (7, 7) claim was erroneous].
+- Moltres: Legendary bird sprite located at (11, 5) on main lower cavern floor [Visually re-confirmed Turn 20249/20253 from (15, 7); verified lower floor Turn 30188].
 
 ## Trainers
 - Trainer: Juggler at (23, 2) [Defeated Turn 16570; Team: Mr. Mime Lv 48; Prize: ¥1680].
@@ -3943,7 +3943,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-
 
 <hr>
 
