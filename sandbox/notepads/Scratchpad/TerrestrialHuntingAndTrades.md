@@ -21,3 +21,4 @@
 | 7 | GRIMER (#088) | 30 | (6, 21) | Turn 32329 | Fled (Duplicate species) |
 | 8 | GRIMER (#088) | 32 | (6, 19) | Turn 32338 | Fled (Duplicate species) |
 | 9 | PONYTA (#077) | 32 | (6, 25) | Turn 32351 | Fled (Duplicate species) |
+| 10 | GRIMER (#088) | 31 | (8, 11) | Turn 32427 | Fled (Duplicate species) |
