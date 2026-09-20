@@ -36,4 +36,4 @@
 
 ## Wild Pokémon & Fishing Trials
 - Viridian City Freshwater Pond (14, 26) facing West into (13, 26) [Super Rod]:
-  - Conducting Super Rod trials to survey encounter distribution (testing for Goldeen #118 and Poliwag #060).
+  - Empirical Encounter Table: Poliwag (#060) and Tentacool (#072) verified. 2-species table matches Pallet Town/Route 21 group and is exhausted.
