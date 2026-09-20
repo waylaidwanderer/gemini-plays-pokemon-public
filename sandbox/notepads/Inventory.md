@@ -58,7 +58,7 @@
 - ¥3,506 [Turn 31292]
 
 ## Party Pokémon
-- SLOWPOKE (Nickname: pending) [Lv 15, Water/Psychic]
+- SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
