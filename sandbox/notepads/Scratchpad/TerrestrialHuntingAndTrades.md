@@ -14,14 +14,7 @@
     - Northwest Shutter at (9, 4-5) is CLOSED in current Switch State B.
     - Ascending staircase to 3F is clearly visible at (6, 1) inside Northwest Bedroom!
   - Master Execution Plan:
-    1. Descend to 1F via (7, 10) staircase.
-    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) back to State B (opening 2F row 8 shutter).
-    3. Return to 1F staircase at (7, 10) and ascend to 2F.
-    4. On 2F, pass through OPEN row 8 shutter (8-10, 8) into North Hall to (10, 6).
-    5. Face North and toggle secret switch at (10, 5) from State B to State A (opening Northwest Bedroom shutter at (9, 4-5)).
-    6. Pass through now-OPEN Northwest Shutter at (9, 4-5) into Northwest Bedroom.
-    7. Step onto ascending staircase at (6, 1) to reach 3F.
-    8. On 3F Northwest Starting Chamber, activate statue switch at (10, 4-5) to State B.
-    9. Walk east to East Shutter at (15, 10-11) (now OPEN in State B) into Southern Balcony Chamber.
-    10. Drop down West Balcony Gap at (17, 14) to land directly in 1F enclosed chamber.
-    11. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
+    1. Pass through East Shutter (15, 10) into Southern Balcony Chamber (currently at (15, 10)).
+    2. Drop down West Balcony Gap at (17, 14) to land directly in 1F enclosed chamber at (16, 14).
+    3. On 1F, navigate south down column 13 to row 20, then east to column 21.
+    4. Descend B1F staircase at (21, 23) and survey for Magmar (#126) and Weezing (#110).

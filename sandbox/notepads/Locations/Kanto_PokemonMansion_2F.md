@@ -11,7 +11,7 @@
 - Rubble Obstacles: Massive rubble field blocks columns 3-4 (rows 7-15) and (8-10, 12-15).
 - North Corridor: Open floor across rows 8-10 at columns 5-9 wraps around the staircase north into rows 8-9.
 - Shutter Door: Spans (8-10, 8) dividing the starting area from the northern/eastern section. Empirically confirmed CLOSED in Switch State A [Turn 32976 bump test]. OPEN in Switch State B, providing sole access from Starting Hall into North Hall (cols 10-14, rows 1-7).
-- Secret Switch Statue at (10, 5): Located at junction between North Hall and Central Divider, facing South, interacted from (10, 6) facing North [Sighted Turn 32981]. Used to toggle from State B to State A while on the north side of row 8 shutter to open Northwest Bedroom shutter (9, 4-5).
+- Visual Feature at (10, 5): Pokmon statue sighted visually at (10, 5) [Turn 32981]; interactive switch function unverified.
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
@@ -20,7 +20,7 @@
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Staircase graphic observed at (6, 1) [Visually sighted Turn 32911; functional warp unverified]. Doorway at (9, 4-5) contains Northwest Shutter (OPEN in State A, CLOSED in State B; confirmed CLOSED in State B Turn 32911).
+- Northwest Bedroom (cols 0-8, rows 0-9): Staircase to 3F located at (6, 1) [Verified Turn 32993, stepping onto (6, 1) warped to 3F (6, 2)]. Northwest Shutter doorway at (9, 4-5) confirmed OPEN in Switch State A [Verified Turn 32992].
 - Shutter Door at (18-19, 8): Empirically verified OPEN in Switch State B [Turn 32799]. Provides open passage south from row 7 into columns 18-21 toward Southeast Chamber (25, 14).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
@@ -56,7 +56,7 @@
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: Audited on Turn 32896. Direct visual scan from (20, 14) confirms column 22 is an unbroken vertical barrier of solid rubble across all rows 10-15, and row 16 is a continuous solid southern wall across columns 18-25. Ground-level 2F access into the Southeast Chamber is completely blocked by rubble and walls; the player previously arrived here from 3F descent. Ground ascent to 3F is accessed via the Northwest Bedroom staircase at (6, 1) in Switch State A.
+- Access Investigation: Audited on Turn 32896. Direct visual scan from (20, 14) confirms column 22 is an unbroken vertical barrier of solid rubble across all rows 10-15, and row 16 is a continuous solid southern wall across columns 18-25. Ground-level 2F access into the Southeast Chamber is completely blocked by rubble and walls; the player previously arrived here from 3F descent. 
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
