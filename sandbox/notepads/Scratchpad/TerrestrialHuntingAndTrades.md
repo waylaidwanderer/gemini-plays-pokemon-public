@@ -30,4 +30,4 @@
 | 2 | GRIMER (#088) | 31 | (7, 9) | Turn 32441 | Fled (Duplicate species) |
 | 3 | VULPIX (#037) | 33 | (5, 9) | Turn 32448 | Broke out 1 Ultra Ball; used Roar |
 | 4 | PONYTA (#077) | 36 | (9, 9) | Turn 32455 | Fled (Duplicate species) |
-| 5 | VULPIX (#037) | 33 | (7, 8) | Turn 32459 | In Progress (Turn 32462) |
+| 5 | VULPIX (#037) | 33 | (7, 8) | Turn 32459 | Broke out 1 Ultra Ball; used Roar |
