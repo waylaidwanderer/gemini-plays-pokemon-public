@@ -76,7 +76,6 @@
 
 - [x] Arrive in Lavender Town [Turn 4839]
 
-- [x] Defeat Rival RED on Pok��mon Tower 2F [Turn 4940]
 - [x] Enter Celadon City via Route 7 [Turn 5434]
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
