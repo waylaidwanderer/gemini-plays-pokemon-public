@@ -15,4 +15,4 @@
 ### Pokémon Mansion 1F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
 |---|---|---|---|---|---|
-| 1 | MUK (#089) | 37 | (5, 23) | Turn 32251 | In Progress (Throwing Ultra Ball) |
+| 1 | MUK (#089) | 37 | (5, 23) | Turn 32251 | CAUGHT! (Turn 32261, 2 Ultra Balls) |

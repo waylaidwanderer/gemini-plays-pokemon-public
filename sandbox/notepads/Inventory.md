@@ -15,7 +15,7 @@
 12. GUARD SPEC. x 1
 13. MAX POTION x 1
 14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 6 [1 used Pikachu Turn 32090, 1 used Muk Turn 32256, 6 remaining]
+15. ULTRA BALL x 5 [1 used Pikachu Turn 32090, 2 used Muk Turns 32256/32259, 5 remaining]
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
@@ -87,6 +87,10 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- MUK [Lv 37, Poison]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32261]
+  - Moves / Stats: To be inspected via party menu.
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
