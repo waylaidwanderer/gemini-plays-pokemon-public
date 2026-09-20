@@ -57,6 +57,7 @@
 - [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
 - [x] Catch wild Tentacool on Pallet Town shoreline with Ultra Ball [Turn 31782]
+- [x] Catch wild Poliwag on Pallet Town shoreline with Ultra Ball [Turn 31824]
 
 <hr>
 
