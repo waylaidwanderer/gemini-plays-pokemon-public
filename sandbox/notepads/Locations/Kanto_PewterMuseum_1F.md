@@ -8,13 +8,13 @@
 ## Layout & Architecture
 - Floor: Pink and white checkered marble floor.
 - Reception Counter: Spans row 5 across columns 11..13 with turnstiles at (12, 2..3). Ticket window operated at (11, 4) from west side (10, 4).
-- Admission: ¥50 per child's ticket [Paid Turn 30688].
-- Receptionist NPC: Stationed at (12, 4) facing West. Dialogue: "It's ¥50 for a child's ticket. Would you like to come in?" -> "Right, ¥50! Thank you!". If approached from south (12, 6): "Please go to the other side!".
+- Admission: Â¥50 per child's ticket.
+- Receptionist NPC: Stationed at (12, 4) facing West. Dialogue: "It's Â¥50 for a child's ticket. Would you like to come in?" -> "Right, Â¥50! Thank you!". If approached from south (12, 6): "Please go to the other side!".
 - Western Exhibit Hall: Open gallery spanning columns 6..10 across rows 1..4. Displays and framed wall pictures at rows 0..1.
 - Partition Wall: Continuous solid wall along column 11 (rows 0..5) and column 14 (rows 5..7) completely isolates the western lobby/gallery from the eastern research chamber. There is ZERO passable connection between the western exhibit hall and the eastern chamber inside 1F [Verified Turn 30691].
 
 ## Eastern Research Chamber (Fossil Study Room)
 - Access: Accessed exclusively via exterior side door at Pewter City (19, 5) leading to interior mat at (16..17, 7).
 - Pedestal Landmark: Located at (16, 2), holding the display artifact: OLD AMBER!
-- Scientist 1 (Fossil Researcher): Stationed at (15, 2) facing East toward the Old Amber pedestal. Target NPC who rewards player with the OLD AMBER!
+- Scientist 1: Stationed at (15, 2) facing East toward the Old Amber pedestal.
 - Scientist 2: Stationed at (17, 4) in southeast area of chamber.

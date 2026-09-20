@@ -16,27 +16,28 @@
 - Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flower patches.
 
 ## Key Buildings
-- Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKé" sign at (14, 25).
-- Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
-  - Verified Pewter Poké Mart Stock:
-    - POKé BALL: ¥200
-    - POTION: ¥300
-    - ESCAPE ROPE: ¥550
-    - ANTIDOTE: ¥100
-    - BURN HEAL: ¥250
-    - AWAKENING: ¥200
-    - PARLYZ HEAL: ¥200
+- PokÃ©mon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKÃ©" sign at (14, 25).
+- PokÃ© Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
+  - Verified Pewter PokÃ© Mart Stock:
+    - POKÃ© BALL: Â¥200
+    - POTION: Â¥300
+    - ESCAPE ROPE: Â¥550
+    - ANTIDOTE: Â¥100
+    - BURN HEAL: Â¥250
+    - AWAKENING: Â¥200
+    - PARLYZ HEAL: Â¥200
 - Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
 - Pewter Museum: Main entrance door at (14, 7) approached from (14, 8). Side/back entrance door at (19, 5) approached from row 6 courtyard behind row 7 ledge.
 
 ## Signposts & Points of Interest
+- Museum Signpost: Located at (15, 9) outside main entrance. Reads: "PEWTER MUSEUM OF SCIENCE" [Read Turn 30683].
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
 - Garden Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
 - Western Signpost: Located at (11, 17) outside the western entrance to the Gym courtyard.
-- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKéMON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
+- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÃ©MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
-- Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
+- Center Exterior NPC: Stationed at (17, 25) outside the PokÃ©mon Center.
 - Garden Resident: Wandering inside the fenced flower garden (rows 24..26).
 - Mart Exterior Youngster: Standing at (27, 17) just east of the Mart.
 - Western Pewter NPC: Stationed at (8, 15) in the western residential area.
@@ -56,15 +57,14 @@
 - Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6).
 - Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2).
 
-## Pewter Pokémon Center Interior
+## Pewter PokÃ©mon Center Interior
 - Entrance Mat: (3..4, 7). Exits south to Pewter City at (13, 26).
-- Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
+- Counter: Extends across row 2 (cols 0..7). PokÃ© Ball healing tray at (3, 2).
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North to heal party.
-- Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKé BALLs set in my belt."
+- Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKÃ© BALLs set in my belt."
 - Youngster: Stationed at (7, 3).
 - PC: Located at (10, 0) in the northeast alcove.
-- Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
-- Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
+- Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
+- PokÃ©mon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Route 3 Border Connection
-- Eastern Exit Corridor (Rows 16..19, Cols 32..39): 4-tile wide east-west thoroughfare connecting directly to Route 3. Passes the notice signpost at (33, 19). Fully passable at (32..33, 18).
-- Museum Side Ledge & Cuttable Tree: Row 7 across columns 18..34 is a south-facing jump ledge blocking direct northbound access from rows 8+ into row 6, with a single 1-tile gap at (27, 7) blocked by a cuttable tree [Discovered Turn 30707]. Cutting the tree at (27, 7) opens access into row 6 lawn, which leads west all the way to the Museum side door at (19, 5). Leaving the side entrance area can be done simply by hopping south over the row 7 ledge back to rows 8-9.
+- Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge. At column 27 (rows 6-7), there is a distinct tree graphic interrupting the brown ledge. Attempting CUT while facing north from (27, 8) yielded 'There isn't anything to CUT!' [Turn 30721], indicating the tree at (27, 7) is not a cuttable tree from the south, or requires different alignment/investigation.
