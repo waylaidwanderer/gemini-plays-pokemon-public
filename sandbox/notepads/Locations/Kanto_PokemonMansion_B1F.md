@@ -71,5 +71,9 @@
 - West Wing fully surveyed: B1F exploration 100% complete!
 
 ## Wild Encounters (Verified Species & Level Bands)
-- Grimer [Verified Turn 33020 at (25, 26)]
-- Vulpix [Verified Turn 33012 at (24, 24)]
+- Encounter Trial Tracker (Total B1F Encounters Observed: 4):
+  - Grimer (Lv 33): 2 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25)]
+  - Vulpix (Lv 33-35): 2 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25)]
+- Unverified Target Species (Pending Capture):
+  - Magmar (#126) [Blue exclusive, rare]
+  - Weezing (#110) [Evolution of Koffing, rare]
