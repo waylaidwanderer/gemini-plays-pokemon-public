@@ -2,7 +2,7 @@
 
 ## Connections
 - North: Route 1 entrance via 2-tile wide corridor at (10..11, 0..1) flanked by stone fences at col 9 and col 12 [Empirically verified Turn 28312].
-- South: Route 21 water (Surf required) at (8..9, 12).
+- South: Route 21 water (Surf required) at southern shoreline. Water tile is at (7, 15) accessible from shoreline at (8, 15) [Turn 31774].
 
 ## Geography & Layout
 - Red's House (Player's House): Northwest building at cols 2..7, rows 2..5. Front door at (5, 5).
