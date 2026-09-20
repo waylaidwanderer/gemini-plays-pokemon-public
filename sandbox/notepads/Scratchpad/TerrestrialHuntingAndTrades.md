@@ -6,7 +6,7 @@
   - Sector Testing & Partitioning:
     - Sector A (Avenue Corridor, Rows 36-37, Col 18): 3 trials recorded.
     - Sector B (South-Central Field, Rows 40-41, Cols 18-23): 4 trials recorded.
-    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 3 trials recorded.
+    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 5 trials recorded.
   - Empirical Sample Scope & Methodology:
     - Comparative Sector Survey: Rather than rigid single-sector N=30 saturation, conduct comparative exploratory surveys across distinct forest sectors (Sector A: Avenue Corridor, Sector B: South-Central Field, Sector C: Southwest Grass Pocket) to observe species distributions and encounter frequencies.
     - Sector B paused at N=4 trials (1 Metapod, 3 Caterpie) after low encounter yield (~1 encounter per 14 turns) to evaluate Sector C.
@@ -31,6 +31,7 @@
       - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (fled)
       - Trial 10 [Turn 32032]: Wild Metapod Lv 5 (fled)
       - Trial 11 [Turn 32038]: Wild Caterpie Lv 4 (fled)
+      - Trial 12 [Turn 32043]: Wild Caterpie Lv 3 (fled)
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
