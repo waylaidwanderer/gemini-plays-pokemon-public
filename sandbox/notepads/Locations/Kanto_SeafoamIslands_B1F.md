@@ -16,10 +16,6 @@
 
 - Row 9 Dividing Rock Wall: Horizontal rock wall along row 9 (cols 20..27), separating lower arrival basin from northern chamber.
 - Tile (19, 10) Collision: Empirically verified impassable rock wall collision from east at (20, 10) [Turn 29602 bump test]. Direct eastern access to row 9 bypass is blocked at (19, 10).
-- Northern Chamber & Pit Hole (Sighted Turn 29579):
-  - Open floor visible across cols 21..27 across rows 6..8.
-  - Pit Hole at (23, 6): 16x16 black pit hole in cavern floor.
-
 ## Northern Cavern & Dual Pit Holes (Audited Turn 29599)
 - Dual Pit Holes: Two 16x16 black pit holes in northern cavern floor:
   - Western Pit Hole: Located at (18, 6).
