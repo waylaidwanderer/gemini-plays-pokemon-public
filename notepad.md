@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Nidorina (QUEENIE) Lv 33
 - Money: ¥2,906 [Turn 31089]
 - Pokédex: 23 Caught / 136 Seen [Verified In-Game Turn 31147]
 
@@ -135,6 +135,11 @@
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- NIDORINA (Nickname: QUEENIE) [Lv 33, Poison]
+  - Status: Healthy
+  - HP: 88 / 88
+  - Moves: Growl, Scratch, Poison Sting, Body Slam
+  - Withdrawn from PC Box 1 [Turn 31161]
 
 
 ## PC Box 1 Pokémon
@@ -181,10 +186,6 @@
   - Status: Healthy
   - HP: Full
   - Caught: Route 11 tall grass [Turn 3751]
-- NIDORINA (Nickname: QUEENIE) [Lv 33, Poison]
-  - Status: Healthy
-  - Caught: Safari Zone Area 1 tall grass [Turn 7549]
-  - Transferred to PC Box 1 (Active Party full)
 - VENONAT (RADAR) [Lv 22, Bug/Poison]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 7581]
