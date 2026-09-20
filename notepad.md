@@ -120,7 +120,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥56 [Turn 29995]
+- ¥6 [Turn 30688]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
@@ -485,7 +485,7 @@
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Route 3 Border Connection
 - Eastern Exit Corridor (Rows 16..19, Cols 32..39): 4-tile wide east-west thoroughfare connecting directly to Route 3. Passes the notice signpost at (33, 19). Fully passable at (32..33, 18).
-- Museum Side Ledge: Row 7 across columns 18..24 is an impassable south-facing jump ledge blocking direct northbound access to Museum side door at (19, 5) [Empirically verified Turn 30673]. Access requires bypassing east via rows 10-11 avenue to the northeast cuttable tree corridor.
+- Museum Side Ledge: Row 7 across columns 18..24 is an impassable south-facing jump ledge blocking direct northbound access to Museum side door at (19, 5) [Empirically verified Turn 30673].
 
 <hr>
 
@@ -4743,5 +4743,31 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Designated deposits to PC Box 1: Drowzee (SANDMAN Lv 9), Diglett (DIGBY Lv 19).
 - Key items needed in Bag: HELIX FOSSIL (withdrawing from PC), OLD AMBER (obtaining in Pewter Museum).
 - Field moves required: HM02 FLY (DUX), HM01 CUT (DUX). Both known by Farfetch'd.
+
+<hr>
+
+<h1><code>Locations/Kanto_PewterMuseum_1F</code></h1>
+
+# Pewter Museum 1F Geography & Points of Interest
+
+## Connections
+- South Entrance/Exit Door: Located at (10..11, 7) with red entrance mat; stepping South triggers exit warp to Pewter City outside (14, 8) [Turn 30684].
+- Stairs to 2F: Located at (7, 7) in southwest alcove leading up to 2F space exhibits.
+- Eastern Chamber Doorway: Located at (16..17, 7) with red entrance mat; leads out to Pewter City side entrance (19, 5).
+
+## Layout & Architecture
+- Floor: Pink and white checkered marble floor.
+- Reception Counter: Spans row 5 across columns 11..13 with turnstiles at (12, 2..3). Ticket window operated at (11, 4) from west side (10, 4).
+- Admission: �50 per child's ticket [Paid Turn 30688].
+- Receptionist NPC: Stationed at (12, 4) facing West. Dialogue: "It's �50 for a child's ticket. Would you like to come in?" -> "Right, �50! Thank you!". If approached from south (12, 6): "Please go to the other side!".
+- Western Exhibit Hall: Open gallery spanning columns 6..10 across rows 1..4. Displays and framed wall pictures at rows 0..1.
+- Partition Wall: Continuous solid wall along column 11 (rows 0..5) and column 14 (rows 5..7) completely isolates the western lobby/gallery from the eastern research chamber. There is ZERO passable connection between the western exhibit hall and the eastern chamber inside 1F [Verified Turn 30691].
+
+## Eastern Research Chamber (Fossil Study Room)
+- Access: Accessed exclusively via exterior side door at Pewter City (19, 5) leading to interior mat at (16..17, 7).
+- Pedestal Landmark: Located at (16, 2), holding the display artifact: OLD AMBER!
+- Scientist 1 (Fossil Researcher): Stationed at (15, 2) facing East toward the Old Amber pedestal. Target NPC who rewards player with the OLD AMBER!
+- Scientist 2: Stationed at (17, 4) in southeast area of chamber.
+
 
 <hr>
