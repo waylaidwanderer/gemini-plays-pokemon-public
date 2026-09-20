@@ -24,3 +24,4 @@
 - Trial 2 [Turn 31873]: Not even a nibble.
 - Trial 3 [Turn 31875]: Not even a nibble.
 - Trial 4 [Turn 31878]: Hooked wild POLIWAG (duplicate, fleeing to conserve balls).
+- Trial 5 [Turn 31883]: Not even a nibble.
