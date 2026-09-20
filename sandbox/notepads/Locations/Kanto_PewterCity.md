@@ -66,5 +66,4 @@
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
 - PokÃ©mon (1, 3): Jigglypuff standing next to trainer at (0, 4).
-## Route 3 Border Connection
-- Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge, but tile (31, 7) is a passable brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into row 6 northern courtyard without needing Cut! Trees at (27, 6..7) are decorative obstacles, not cuttable trees.
+## Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge, but tile (31, 7) is a passable brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into row 6 northern courtyard without needing Cut! Trees at (27, 6..7) are decorative obstacles, not cuttable trees.

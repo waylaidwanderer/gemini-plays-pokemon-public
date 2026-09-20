@@ -6,7 +6,7 @@
 - [x] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Completed Turn 30654]
 - [x] Exit Indigo Plateau lobby to exterior map (9, 6) [Completed Turn 30657]
 - [x] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Completed Turn 30666]
-- [ ] In Pewter City, navigate north to Museum side entrance, use Cut with Farfetch'd to bypass tree obstacle, and obtain OLD AMBER from scientist [Pending]
+- [ ] In Pewter City, navigate via (31, 7) ramp to (27, 4), cut tree at (26, 4) with DUX, enter side door at (19, 5), and receive OLD AMBER [In Progress]
 - [ ] Cast HM02 FLY to travel to Cinnabar Island [Pending]
 - [ ] Enter Cinnabar Pokémon Lab, proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [Pending]
 - [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE and AERODACTYL, registering both in the Pokédex! [Pending]
