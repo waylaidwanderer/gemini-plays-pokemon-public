@@ -50,7 +50,6 @@
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
-- [x] Catch wild PIKACHU in Viridian Forest with Ultra Ball [Turn 32090]
 
 <hr>
 
@@ -458,11 +457,22 @@
 - West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
 - Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
 - Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 18..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 20..28). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 18..23 (tall grass corridor connecting to the western field). Connects to Northern Avenue at col 24.
-- Northern Tall Grass Field (Sector D, Rows 6..13, Cols 16..23): Large contiguous tall grass zone comprising: (1) An east-west corridor across rows 8..9 spanning columns 18..23, passing through a gap in the stone posts at (19, 8..9); (2) A western tall grass pocket spanning columns 16..18 from row 6 down to at least row 13, bounded by clear ground at rows 4..5 to the north, column 14..15 tree wall to the west, and column 19 stone posts (rows 4..7, 10..12) to the east.
+- Northern Tall Grass Field (Sector D, Rows 6..14, Cols 16..23): Contiguous tall grass zone comprising:
+  - Connecting East-West Corridor: Rows 8..9 across columns 18..23, connecting Northern Avenue (Col 24) through stone post gap at (19, 8..9) to the western field. Empirically traversed and verified.
+  - Western Field: Columns 16..18. Empirically traversed and sampled from row 6 to row 10 (wild Pikachu encountered at (16, 10) Turn 32076). Visually observed continuing south to row 14 (bounded by tree wall at cols 14..15 to west, stone posts at col 19 to east, and clear ground at rows 4..5 to north).
 - Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
 - West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
 - Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
 - Northern Gatehouse Interior (Audited Turn 25207): South entrance at cols 4..5, row 7 with red doormats (arriving from forest at (4, 7)). North exit doorway at (5, 0) leading to Route 2 North. NPC stationed at (2, 5).
+
+## Wild Pok�mon & Encounters (Empirical Survey)
+- Total Trials Recorded: 17 trials across Sectors A, B, C, and D.
+- Species Identified & Levels:
+  - Caterpie: Common (Lv 3, 4, 5 observed; Sectors B, C).
+  - Metapod: Common (Lv 4, 5, 6 observed; Sectors A, B, C, D).
+  - Weedle: Uncommon (Lv 3 observed; Sector C).
+  - Kakuna: Uncommon (Lv 4 observed; Sectors A, C).
+  - Pikachu: Rare (Lv 3 encountered in Sector D at (16, 10) Turn 32076; captured with Ultra Ball Turn 32090, nicknamed SPARK).
 
 
 <hr>
@@ -4938,53 +4948,31 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Targets & Hypotheses
-- Target 1: Pikachu (#025)
-  - Hypothesis: Spawns as a rare wild encounter in Viridian Forest tall grass.
-  - Sector Testing & Partitioning:
-    - Sector A (Avenue Corridor, Rows 36-37, Col 18): 3 trials recorded.
-    - Sector B (South-Central Field, Rows 40-41, Cols 18-23): 4 trials recorded.
-    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 6 trials recorded.
-    - Sector D (Northern Grass Patches, Rows 6-9, Cols 16-23): 4 trials recorded.
-  - Empirical Sample Scope & Methodology:
-    - Comparative Sector Survey: Rather than rigid single-sector N=30 saturation, conduct comparative exploratory surveys across distinct forest sectors (Sector A: Avenue Corridor, Sector B: South-Central Field, Sector C: Southwest Grass Pocket) to observe species distributions and encounter frequencies.
-    - Sector B paused at N=4 trials (1 Metapod, 3 Caterpie) after low encounter yield (~1 encounter per 14 turns) to evaluate Sector C.
-    - Sector C paused at N=6 trials after extended encounter dry spell (135+ steps). Transitioning to Sector D (Northern Grass Patches, rows 8-9, cols 21-23) to survey northern forest distribution.
-  - Operational Capture Protocol:
-    - With only 8 Ultra Balls held, balls must be conserved.
-    - Turn 1: Switch to Lola (Jynx Lv 23, Slot 6).
-    - Turn 2: Cast Lovely Kiss (induces Sleep, 0 damage, prevents wild attacks/escapes).
-    - Turn 3+: Throw Ultra Ball from Bag until caught.
-  - Empirical Encounter Log by Sector:
-    - Sector A (Avenue Corridor, Rows 36-37, Col 18):
-      - Trial 1 [Turn 31903]: Wild Metapod (fled)
-      - Trial 2 [Turn 31908]: Wild Metapod Lv 5 (fled)
-      - Trial 3 [Turn 31912]: Wild Kakuna Lv 4 (fled)
-    - Sector B (South-Central Field, Rows 40-41, Cols 18-23):
-      - Trial 4 [Turn 31928]: Wild Metapod Lv 5 (fled)
-      - Trial 5 [Turn 31942]: Wild Caterpie Lv 5 (fled)
-      - Trial 6 [Turn 31947]: Wild Caterpie Lv 4 (fled)
-      - Trial 7 [Turn 31976]: Wild Caterpie Lv 4 (fled)
-    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5):
-      - Trial 8 [Turn 32003]: Wild Weedle Lv 3 (fled)
-      - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (fled)
-      - Trial 10 [Turn 32032]: Wild Metapod Lv 5 (fled)
-      - Trial 11 [Turn 32038]: Wild Caterpie Lv 4 (fled)
-      - Trial 12 [Turn 32043]: Wild Caterpie Lv 3 (fled)
-      - Trial 13 [Turn 32046]: Wild Caterpie Lv 4 (fled)
-    - Sector D (Northern Grass Patches, Rows 6-9, Cols 16-23):
-      - Trial 14 [Turn 32066]: Wild Metapod Lv 6 (fled)
-      - Trial 15 [Turn 32071]: Wild Metapod Lv 5 (fled)
-      - Trial 16 [Turn 32074]: Wild Metapod Lv 5 (fled)
-      - Trial 17 [Turn 32076]: Wild Pikachu Lv 3 appeared! Caught with Ultra Ball [Turn 32090]!
+## Completed Targets
+- Target 1: Pikachu (#025) - COMPLETED [Turn 32090]
+  - Captured: Wild Pikachu Lv 3 in Sector D at (16, 10) using Lovely Kiss (Sleep) + Ultra Ball.
+  - Nickname: SPARK [Turn 32099].
+  - Storage Location: PC Box 2 (Slot 3, 3/20 capacity).
+  - Pok�dex Status: Registered as #025 (35 Caught / 136 Seen).
+  - Empirical Survey Summary: Completed 17 trials across 4 sectors; full data consolidated in Locations/Kanto_ViridianForest.md.
 
-- Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
-  - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
-  - Verification: NPC trade offer empirically verified in Cinnabar Lab Meeting Room [Turn 31218: Old man offers his Electrode for a Raichu].
-  - Thunder Stone Acquisition & Funding Plan:
-    - Purchase location: Celadon Department Store 4F (Price: ¥2,100).
-    - Current cash on hand: ¥706 (Deficit: ¥1,394).
-    - Designated liquidation asset: Sell 2x Revive (sell price ¥750 each = ¥1,500 total, bringing cash to ¥2,206) or 1x Rare Candy (sell price ¥2,400, bringing cash to ¥3,106) at the 4F or 2F counter before purchasing the Thunder Stone. We hold 4 Revives in Bag and 5 Rare Candies (1 Bag, 4 PC).
-  - Status: Prerequisite Pikachu capture pending.
+## Active Targets & Strategy
+- Target 2: Evolve Pikachu (SPARK) -> Raichu (#026) -> Trade for Electrode (#101)
+  - Goal: Evolve Pikachu to Raichu with Thunder Stone, then trade Raichu for Electrode in Cinnabar Lab Meeting Room (NPC trade verified Turn 31218).
+  - Required Pre-Trade Execution Pipeline:
+    1. PC Party Management (Prerequisite):
+       - SPARK is currently in PC Box 2. Evolution stones and NPC trades REQUIRE the Pok�mon to be in the active party.
+       - Active party is full (6/6). Must access a PC (Pewter City or Celadon City), deposit 1 benched party member (LOLA the Jynx, who is healthy and not needed for field moves), and withdraw SPARK (Pikachu Lv 3) into active party.
+    2. Thunder Stone Acquisition & Funding:
+       - Purchase location: Celadon Department Store 4F (Price: �2,100).
+       - Current cash: �706 (Deficit: �1,394).
+       - Liquidation: Sell 2x Revive (�750 each = �1,500) or 1x Rare Candy (�2,400) at Celadon Dept Store counter before buying stone. We hold 4 Revives in Bag and 5 Rare Candies (1 Bag, 4 PC).
+    3. Evolution Execution:
+       - Use Thunder Stone from Bag on SPARK in party -> evolves into Raichu (#026)!
+    4. Trade Execution:
+       - Fly to Cinnabar Island. Enter Pok�mon Lab Meeting Room.
+       - Trade Raichu for Electrode (#101, DORIS)!
+  - Status: Prerequisite Pikachu captured and stored in PC Box 2. Next step: Access PC to withdraw SPARK into party.
+
 
 <hr>
