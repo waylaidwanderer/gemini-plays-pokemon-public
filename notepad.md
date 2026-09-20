@@ -7,7 +7,7 @@
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party, 1 open slot)
 - Money: ¥3,506 [Turn 31292]
-- Pokédex: 25 Caught / 136 Seen [Turn 31251]
+- Pokédex: 26 Caught / 136 Seen [Turn 31386]
 
 ## Milestones
 
@@ -49,6 +49,7 @@
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
 - [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
+- [x] Catch wild Ponyta on Pokémon Mansion 1F with Ultra Ball [Turn 31386]
 
 
 <hr>
@@ -74,7 +75,7 @@
 14. GUARD SPEC. x 1
 15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 10 [Purchased Cinnabar Poké Mart Turn 31292]
+17. ULTRA BALL x 9 [Purchased Cinnabar Poké Mart Turn 31292]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
