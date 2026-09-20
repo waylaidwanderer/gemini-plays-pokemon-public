@@ -30,6 +30,7 @@
 
 ## Items
 - TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
+- Rare Candy collected at (9, 2) at terminus of northern trench [Turn 30434].
 
 ## Wild Encounters
 - Onix (observed Turn 15367).

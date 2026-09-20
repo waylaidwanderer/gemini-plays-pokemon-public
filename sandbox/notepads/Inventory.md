@@ -8,6 +8,7 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
+8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
 (Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x21)
 
 ## Inventory Capacity
