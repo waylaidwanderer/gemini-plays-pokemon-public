@@ -3576,7 +3576,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
-- Note: Magmar (#126) remains unverified on 2F across 11 observed encounters; B1F survey recommended if not found here.
+- Muk (Lv 40) [Rare]
+- Note: Magmar (#126) remains unverified on 2F across 12 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
