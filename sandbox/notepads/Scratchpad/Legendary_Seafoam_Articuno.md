@@ -17,8 +17,9 @@
 - Seafoam lower floor water currents block Surfing until boulders are dropped through holes to create a dam.
 - Signposts: (9, 15) 'Boulders might change the flow of water!'; (23, 1) 'DANGER / Fast current!'.
 ## Operational Capture Thresholds & Contingency Plan
-- **Current Combat State:** Articuno weakened to ~65% HP via Mewtwo's Swift (non-lethal).
-- **Damage Restriction:** Do NOT attack with Swift again. From ~65% HP, a critical hit Swift could deal 112+ damage and faint Articuno. Rely strictly on Ultra Balls.
+- **Current Combat State:** Articuno weakened to ~65% HP. Mewtwo at 159/234 HP, currently inflicted with FRZ (frozen solid).
+- **Damage Restriction:** Do NOT attack with Swift or any moves. Rely strictly on Ultra Balls.
 - **Ultra Ball Stock:** 46 Ultra Balls remaining (Slot 11 in Item Bag).
-- **Mewtwo Sustain Status [Turn 29791]:** Mewtwo HP is 76/234 (CRITICAL SUSTAIN THRESHOLD TRIGGERED: <80 HP).
-- **Immediate Mandatory Action:** Cast `RECOVER` (Slot 4 in FIGHT move menu) to restore 117 HP back to 193 HP before resuming Ultra Ball throws.
+- **Mewtwo Sustain & Freeze Protocol [Turn 29796]:**
+  - While Mewtwo HP > 80 (currently 159 HP), throw Ultra Balls consecutively.
+  - If Mewtwo HP drops below 80 HP, use FULL RESTORE (Slot 7 in Item Bag, 12 available) to simultaneously restore HP to 234/234 and cure the FRZ status!
