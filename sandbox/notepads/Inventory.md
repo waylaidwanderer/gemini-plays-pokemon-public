@@ -17,7 +17,7 @@
 14. GUARD SPEC. x 1
 15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 7 [Purchased Cinnabar Poké Mart Turn 31292]
+17. ULTRA BALL x 6 [Purchased Cinnabar Poké Mart Turn 31292]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
@@ -89,6 +89,9 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- PSYDUCK (Nickname: pending) [Lv 15, Water]
+  - Status: Healthy
+  - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
 
 ## PC Box 1 Pokémon
 - SEEL (Nickname: SAILOR) [Lv 32, Water]
