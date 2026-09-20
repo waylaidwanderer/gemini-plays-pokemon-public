@@ -4809,7 +4809,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ride south down Route 23 North to Victory Road entrance at (14, 31) [Turn 30233]
 - [x] Ascend to 3F (26, 8) and activate Strength with Geodude (ROCKY) [Turns 30235, 30239]
 - [x] Push Boulder 2 at (24, 10) west to (22, 10) to clear Column 23 [Turn 30243]
-- [ ] Take Ladder (23, 7) down to 2F main floor
+- [x] Discover 3F Ladder (23, 7) is enclosed and severed from south by row 9 wall; Victory Road is designed forward-only [Turn 30260]
+- [ ] Use Dig to warp to Indigo Plateau, Fly to Viridian City, enter Victory Road 1F from Route 23 South
+- [ ] Solve 1F Boulder 1 to lower barrier (9, 12), take Ladder (1, 1) to 2F (0, 8)
+- [ ] From 2F (0, 8), walk north along Western Highway (cols 2-3) to Northwest Chamber (4, 2), east across rows 1-3 to (13, 3), and south to Moltres at (11, 5)
 - [ ] Approach and engage Legendary Bird MOLTRES at (11, 5)
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
@@ -4832,5 +4835,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ultra Ball Arsenal: 21 Ultra Balls ready in Bag.
 - Geodude (ROCKY Lv 8): Active Strength user for boulder clearance.
 - Diglett (DIGBY Lv 19): Dig escape if extraction needed.
+
 
 <hr>
