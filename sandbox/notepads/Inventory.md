@@ -18,7 +18,7 @@
 15. ULTRA BALL x 8 [Purchased 8 at Cinnabar Mart Turn 31852 for ¥9,600]
 
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 16 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -53,7 +53,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥2,206 [Turn 32167]
+- ¥106 [Turn 32170]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
