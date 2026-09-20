@@ -66,7 +66,7 @@
 12. GUARD SPEC. x 1
 13. MAX POTION x 1
 14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 8 [Purchased 8 at Cinnabar Mart Turn 31852 for ¥9,600]
+15. ULTRA BALL x 7 [1 used on Pikachu Turn 32090, 7 remaining]
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
@@ -4955,25 +4955,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Targets & Strategy
-- Target 2: Evolve Pikachu (SPARK) -> Raichu (#026) -> Trade for Electrode (#101)
-  - Goal: Evolve Pikachu to Raichu with Thunderstone, then trade Raichu for Electrode in Cinnabar Lab Meeting Room (NPC trade verified Turn 31218).
-  - Required Pre-Trade Execution Pipeline:
-    1. PC Party Management (Complete):
-       - Lola (Jynx Lv 23) successfully deposited into PC Box 2 [Turn 32128]. Active party reduced to 5/6.
-       - SPARK (Pikachu Lv 3) withdrawn into party slot 6 [Turn 32134].
-    2. Thunderstone Acquisition & Funding (Complete):
-       - Purchase location: Celadon Department Store 4F (Price: ¥2,100).
-       - Sold 2x Revive for ¥1,500 [Turn 32167].
-       - Purchased Thunderstone for ¥2,100 [Turn 32170].
-    3. Evolution Execution (Complete):
-       - Used Thunderstone on SPARK (Slot 6) [Turn 32180].
-       - SPARK evolved into Raichu (#026) [Turn 32181]!
-    4. Trade Execution (Complete):
-       - Traded Raichu (SPARK) to Old Man in Cinnabar Lab Meeting Room [Turn 32218].
-       - Received ELECTRODE (#101, DORIS, OT: TRAINER, IDNo. 47899)!
-       - Pokédex count: 37 Caught / 136 Seen.
-
-
 ## Next Hunting Target: Pokémon Mansion (Cinnabar Island)
 - Target 3: Cinnabar Pokémon Mansion Wild Captures
   - Target Species: Grimer (#088), Muk (#089), Koffing (#109), Weezing (#110), Vulpix (#037)
@@ -4985,5 +4966,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     2. Walk north/west to Pokémon Mansion entrance at (6, 3).
     3. Patrol 1F hallway/rooms for wild encounters.
     4. Weaken / catch wild Grimer, Koffing, or Vulpix with Ultra Ball!
+### Pokémon Mansion 1F Empirical Encounter Log
+| Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
+|---|---|---|---|---|---|
+| 1 | MUK (#089) | TBD | (5, 23) | Turn 32251 | In Progress |
+
 
 <hr>
