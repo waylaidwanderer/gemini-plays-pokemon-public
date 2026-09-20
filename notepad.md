@@ -3325,7 +3325,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
 - Eastern Shoreline: Column 20 is the eastern cliff/water boundary connecting to Route 20 [Verified Turn 13682].
 - Cinnabar Pokémon Center: Located at columns 10 to 13, rows 8 to 11, marked with "POKé" on facade at (12, 11). Entrance door at (11, 11) [Verified Turn 13684].
-- Southwest Facility (Candidate Pokémon Lab): Building occupying columns 4 to 9, rows 8 to 9. Exterior entrance door located at (6, 9) approached from south via row 10..12 grass [Visually confirmed Turn 30808]. Interior identity pending map transition.
+- Cinnabar Pokémon Lab: Building occupying columns 4 to 9, rows 8 to 9. Exterior entrance door located at (6, 9) approached from south via row 10..12 grass. Enters interior entrance hallway at (2, 7) [Empirically verified Turn 30813].
 
 <hr>
 
