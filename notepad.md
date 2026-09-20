@@ -84,7 +84,6 @@
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
-- HELIX FOSSIL handed to Cinnabar Lab scientist for revival into Omanyte [Turn 30867]
 ## Stored / PC Items
 - NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -207,6 +206,9 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
+## Fossil Revival Status
+- HELIX FOSSIL: Handed to Cinnabar Lab scientist for revival into Omanyte [Turn 30867]
+
 
 <hr>
 
@@ -435,16 +437,16 @@
 - Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flower patches.
 
 ## Key Buildings
-- PokÃ©mon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKÃ©" sign at (14, 25).
-- PokÃ© Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
-  - Verified Pewter PokÃ© Mart Stock:
-    - POKÃ© BALL: Â¥200
-    - POTION: Â¥300
-    - ESCAPE ROPE: Â¥550
-    - ANTIDOTE: Â¥100
-    - BURN HEAL: Â¥250
-    - AWAKENING: Â¥200
-    - PARLYZ HEAL: Â¥200
+- Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKÃ©" sign at (14, 25).
+- Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
+  - Verified Pewter Poké Mart Stock:
+    - POKÃ© BALL: ¥200
+    - POTION: ¥300
+    - ESCAPE ROPE: ¥550
+    - ANTIDOTE: ¥100
+    - BURN HEAL: ¥250
+    - AWAKENING: ¥200
+    - PARLYZ HEAL: ¥200
 - Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
 - Pewter Museum: Main entrance door at (14, 7) approached from (14, 8). Side/back entrance door at (19, 5) approached from row 6 courtyard behind row 7 ledge.
 
@@ -456,7 +458,7 @@
 - Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÃ©MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
-- Center Exterior NPC: Stationed at (17, 25) outside the PokÃ©mon Center.
+- Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
 - Garden Resident: Wandering inside the fenced flower garden (rows 24..26).
 - Mart Exterior Youngster: Standing at (27, 17) just east of the Mart.
 - Western Pewter NPC: Stationed at (8, 15) in the western residential area.
@@ -476,15 +478,15 @@
 - Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6).
 - Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2).
 
-## Pewter PokÃ©mon Center Interior
+## Pewter Pokémon Center Interior
 - Entrance Mat: (3..4, 7). Exits south to Pewter City at (13, 26).
-- Counter: Extends across row 2 (cols 0..7). PokÃ© Ball healing tray at (3, 2).
+- Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North to heal party.
 - Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKÃ© BALLs set in my belt."
 - Youngster: Stationed at (7, 3).
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
-- PokÃ©mon (1, 3): Jigglypuff standing next to trainer at (0, 4).
+- Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Museum Perimeter, Ledges & Cuttable Tree
 - Row 7 Jump Ledge: Spans across columns 18..34 as a south-facing jump ledge. Tile (31, 7) is an open brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into the northern perimeter lawn (rows 2..4) without needing Cut.
 - Decorative Obstacles: Tile (27, 7) is a solid tree obstacle [Turn 30711]; tile (27, 6) is a solid tree obstacle, empirically tested with CUT facing West from (28, 6) yielding 'There isn't anything to CUT!' [Turn 30743]. Neither is cuttable.
@@ -4733,12 +4735,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Strategic Objectives
 - [x] Receive OLD AMBER from scientist in Pewter Museum eastern research chamber [Completed Turn 30788]
 - [x] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [Completed Turn 30806]
-- [ ] Enter Cinnabar Pokémon Lab via door at (6, 9), proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [In Progress]
-- [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE and AERODACTYL, registering both in the Pokédex! [Pending]
+- [x] Enter Cinnabar Pokémon Lab Testing Room at (16, 4) and speak with fossil scientist at (7, 2) [Completed Turn 30845]
+- [x] Submit HELIX FOSSIL to scientist [Completed Turn 30867]
+- [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [In Progress]
+- [ ] Submit OLD AMBER to scientist [Pending]
+- [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Pending]
 
 ## Party & Inventory Logistics
 - Party status: 4 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70), 2 open party slots ready for revived Pokémon.
-- Bag key items: HELIX FOSSIL in bag (Slot 15); OLD AMBER in bag (Slot 16).
+- Bag key items: OLD AMBER in bag (Slot 15); HELIX FOSSIL with scientist.
 - Required Field Moves: HM02 FLY known by Farfetch'd (DUX).
 
 
@@ -4785,8 +4790,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Rooms (Pending Traversal)
 - Meeting Room: First door along hallway, entrance located at (8, 4) with sign at (9, 4) [Verified Turn 30819].
 - R&D Room: Second door along hallway, entrance located at (12, 4) with sign at (13, 4) [Verified Turn 30822].
-- Testing Room (Fossil Revival Lab): Third door along hallway, entrance located at (16, 4) with sign at (17, 4) [Verified Turn 30827].
-
 ## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Open checkered floor across row 6 (cols 0..6), row 7 (cols 0..7), and northern aisle (cols 4..5, rows 2..5).
