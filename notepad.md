@@ -77,7 +77,7 @@
 14. GUARD SPEC. x 1
 15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 6 [Purchased Cinnabar Poké Mart Turn 31292]
+17. ULTRA BALL x 5 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
