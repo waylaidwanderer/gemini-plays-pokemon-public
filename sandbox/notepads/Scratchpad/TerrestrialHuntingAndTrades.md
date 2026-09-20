@@ -12,6 +12,7 @@
     - Trial 2 [Turn 31908]: Wild Metapod Lv 5 (fled)
     - Trial 3 [Turn 31912]: Wild Kakuna Lv 4 (fled)
     - Trial 4 [Turn 31928]: Wild Metapod (fled)
+    - Trial 5 [Turn 31942]: Wild Caterpie (fled)
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
