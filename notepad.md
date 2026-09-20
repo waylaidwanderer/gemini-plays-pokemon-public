@@ -3580,7 +3580,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
-- Ponyta (Lv 32-36) [Uncommon]
+- Ponyta (Lv 28-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
 - Note: Magmar (#126) remains unverified on 2F across 22 observed encounters; B1F survey recommended if not found here.
