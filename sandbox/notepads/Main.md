@@ -20,13 +20,11 @@
 
 - [x] Reach Viridian City via Route 1 [Turn 132]
 
-- [x] Visit Viridian City Pok�� Mart [Turn 169]
 
 
 - [x] Obtain Pok��dex from Prof. Oak [Turn 214]
 
 
-- [x] Return to Viridian City, heal team & purchase Pok�� Ball [Turn 284]
 
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 
