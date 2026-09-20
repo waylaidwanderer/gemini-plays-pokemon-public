@@ -16,9 +16,8 @@
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
 ## Inventory Capacity
-15. TM24 (THUNDERBOLT) x1 [Withdrawn Celadon PC Turn 31124]
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -94,7 +93,7 @@
   - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Verified Turn 31102]
   - OT: BLUE (IDNo. 04620)
   - EXP: 15625 (1951 to Lv 26) [Verified Turn 31104]
-  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15) [Verified Turn 31104]
+  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15) [Learned via TM24 Turn 31132]
   - Obtained: Celadon Mansion rooftop [Turn 31043], evolved via Thunderstone [Turn 31098]
 
 ## PC Box 1 Pokémon

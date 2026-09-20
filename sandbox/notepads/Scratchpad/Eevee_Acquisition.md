@@ -17,4 +17,7 @@
   - Verified Jolteon Stats (Lv 25): HP 68/68, Attack 40, Defense 37, Speed 72, Special 62, Type: Electric [Turn 31102]
   - Moves: Tackle, Sand-Attack [Turn 31104]
 - [x] Retrieve TM24 (THUNDERBOLT) from Celadon PC [Turn 31124]
-- [ ] Teach TM24 (THUNDERBOLT) to JOLTEON (VEE)
+- [x] Teach TM24 (THUNDERBOLT) to JOLTEON (VEE) [Turn 31132]
+
+## Quest Status: COMPLETE!
+- Jolteon (VEE) is Lv 25 with Thunderbolt (95 BP STAB) ready for post-game battles!
