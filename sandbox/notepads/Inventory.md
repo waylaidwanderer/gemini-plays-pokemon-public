@@ -81,11 +81,6 @@
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
-- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy
-  - HP: 30 / 30
-  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
-  - Caught: Route 11 tall grass [Turn 3721]
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 222 / 222
@@ -97,6 +92,12 @@
   - Status: Healthy
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
   - Transferred to PC Box 1 (Active Party full)
+- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
+  - Status: Healthy
+  - HP: 30 / 30
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
+  - Caught: Route 11 tall grass [Turn 3721]
+  - Deposited to PC Box 1 [Turn 30640]
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]
