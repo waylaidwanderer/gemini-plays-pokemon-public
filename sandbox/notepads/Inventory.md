@@ -87,15 +87,6 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
-  - Status: Healthy
-  - HP: 17 / 17
-  - Stats: Attack 8, Defense 9, Speed 13, Special 9 [Verified Lv 3 Turn 32225]
-  - OT: TRAINER (IDNo. 47899, Boosted EXP)
-  - EXP: 27 (37 to Lv 4) [Verified Turn 32225]
-  - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
-  - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
-
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
@@ -201,3 +192,12 @@
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
   - Transferred to PC Box 2 (2/20)
+- ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
+  - Status: Healthy
+  - HP: 17 / 17
+  - Stats: Attack 8, Defense 9, Speed 13, Special 9 [Verified Lv 3 Turn 32225]
+  - OT: TRAINER (IDNo. 47899, Boosted EXP)
+  - EXP: 27 (37 to Lv 4) [Verified Turn 32225]
+  - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
+  - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
+  - Deposited: Cinnabar PC Box 2 (4/20) [Turn 32238]
