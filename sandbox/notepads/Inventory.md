@@ -55,7 +55,7 @@
 ## Money
 - ¥706 [Turn 31852]
 
-## Party PokÃ©mon
+## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
@@ -96,7 +96,7 @@
   - Moves: Pound (PP 35/35), Lovely Kiss (PP 10/10), Lick (PP 30/30), Doubleslap (PP 10/10) [Verified Turn 31730]
   - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
 
-## PC Box 1 PokÃ©mon
+## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
@@ -192,7 +192,7 @@
   - Status: Healthy
   - Deposited from active party [Turn 13315]
 
-## PC Box 2 PokÃ©mon
+## PC Box 2 Pokémon
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
