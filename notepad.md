@@ -4898,6 +4898,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Trial 5 [Turn 31699]: Not even a nibble! (1 bite / 5 casts).
     - Trial 6 [Turn 31700]: Not even a nibble! (1 bite / 6 casts).
     - Trial 7 [Turn 31701]: Not even a nibble! (1 bite / 7 casts).
+    - Trial 8 [Turn 31702]: Not even a nibble! (1 bite / 8 casts).
   - Hypothesis Update [Turn 31699]: Slowpoke hooked on Trial 2 confirms the Blue encounter table (counterpart to Red's Psyduck/Poliwhirl). Poliwhirl is expected in this group. Continuing trials (Trials 6-10).
   - Route 10 Super Rod Trial Summary [Turns 31609-31658]: 2 out of 2 bites yielded wild Slowpoke Lv 15 (Turns 31624, 31650). Slowpoke is confirmed present; Poliwhirl was unobserved in this small sample.
 - Target 2: Goldeen (#118)
