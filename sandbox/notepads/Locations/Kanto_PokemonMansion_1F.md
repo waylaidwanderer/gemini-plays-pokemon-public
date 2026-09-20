@@ -53,6 +53,6 @@
 - B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564]. Shutter 2 at (20-21, 17) is hypothesized OPEN in State B (bypassed via balcony drop). Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 30-32) [Common]
-- Ponyta (Lv 32-34) [Common]
+- Ponyta (Lv 30-34) [Common]
 - Muk (Lv 37) [Rare]
 - Vulpix (Lv 34) [Verified Turn 32848]
