@@ -11,7 +11,7 @@
 - Switch Plate: Located at (17, 13) in eastern wing.
 - Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau. Lowered/removed by placing Boulder 1 on switch plate at (17, 13) [Verified Turn 15465].
 - Plateau Access: Stairs/ladder at (5, 13) connects lower floor (5, 14) to elevated plateau (5, 12).
-- Boulder 1 (Entrance Boulder): Solved [Turn 23980]. Pushed onto switch plate at (17, 13) via Row 16, Row 14, and Row 12, depressing the switch and permanently lowering Plateau Barrier Block at (9, 12).
+- Boulder 1 (Entrance Boulder): Resets to (5, 15) upon entering/reloading 1F. Pushing onto switch plate at (17, 13) via Row 16, Row 14, and Row 12 temporarily lowers Plateau Barrier Block at (9, 12) for the current session. Plateau Barrier Block is raised by default on map load [Verified Turn 30356].
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.

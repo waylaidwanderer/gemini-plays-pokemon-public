@@ -6,7 +6,7 @@
 - [ ] Ride west along Route 22 to Pokémon League Reception Gate
 - [ ] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17)
 - [ ] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8)
-- [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and investigate passage to Moltres at (11, 5)
+- [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
@@ -22,8 +22,7 @@
   - Capture Protocol:
     - Primary: Use Mewtwo's Swift (non-crit 44-62 HP, crit max 118 HP vs Moltres Def 100-120, max HP 150-165) 1-2 times to safely weaken Moltres to yellow/red HP with 0% risk of 1HKO.
     - Sustain: Deploy Barrier (+2 Def) to tank Peck and Recover (100% first-move sustain with 195 Speed), throwing Ultra Balls each turn.
-    - Optional Status Risk/Reward: Blastoise's Body Slam has a 30% Paralysis rate. Non-crit deals 61-86 HP (safe), but critical hit (15.2% chance) deals 138-165 HP (risks 1HKO). If attempting Body Slam for Paralysis, only use when Moltres is at 100% HP and accept crit risk; otherwise stick strictly to Mewtwo Swift weakening + Ultra Ball attrition.
-- Blastoise (SHELDON Lv 70): Emergency tank (resists Fire Spin). Do NOT attack with Body Slam (crit risks 1HKO at 165 HP).
+- Blastoise (SHELDON Lv 70): Emergency defensive tank (resists Fire Spin). Do NOT attack with Body Slam (crit risks lethal 1HKO on Moltres). Capture protocol relies strictly on Mewtwo Swift weakening + Ultra Ball attrition.
 - Drowzee (SANDMAN Lv 9): Do NOT switch in (instantly faints to Moltres STAB).
 - Ultra Ball Arsenal: 21 Ultra Balls ready in Bag.
 - Geodude (ROCKY Lv 8): Active Strength user for boulder clearance.

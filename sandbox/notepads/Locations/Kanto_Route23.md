@@ -24,7 +24,7 @@
 - Water Lake Channel: Open water extends north from row 103 through row 99 between boundary posts at (7, 99) and (14, 99).
 - Row 92 Barrier: Brown wall/statues span columns 7..10 across the water, with open water bypass channels on the east (cols 11..13) and west (col 6).
 - Central Lawn Island: Rows 90..91, cols 8..9 feature a green lawn island bounded by walls at col 10 and ledge at col 7, surrounded by water.
-- Mid-Lake Island: Rows 80..81, cols 8..12 feature a small island/statue peninsula; wide open water resumes north of row 80 spanning cols 3..12+.
+- Mid-Lake Island: Rows 80..83 feature an island with solid dirt bank across cols 9..13 at row 83 blocking northbound surfing [Turn 30348]. Bypass route: surf west along row 84 to column 6, then head north through wide open water (cols 2..7) spanning north of row 80.
 - West Barrier Structure: Rows 73..75, cols 3..5 feature brown walls and a statue at (5, 73); open water channel continues north through cols 6..12+.
 - Northern Shoreline & Mountain Divider: Row 72 marks the north end of the lake. Cols 6-7 rows 68..71 form a solid mountain cliff dividing the western walkway from the eastern grass field. Landing onto land occurs via the eastern grass field at cols 8..12 (e.g. col 9).
 - Northern Sector Grass Field: Land dismount successfully verified at (9, 71). Lawn spans cols 8..13 across rows 71..68; mountain cliff blocks cols 6-7 (ends at row 68); rock block at (11, 67).
