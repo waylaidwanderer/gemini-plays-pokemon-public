@@ -3545,7 +3545,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
-- Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11). Statue at (13, 11) tested from (13, 12) facing North on Turn 32546; confirmed NO switch.
+- Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11). Both tested: statue at (13, 11) confirmed NO switch [Turn 32546]; statue at (13, 9) confirmed NO switch [Turn 32771].
 - Open corridors span columns 18-21 across rows 3, 4, 6, 7, 9, 10, 11 [Verified Turn 13851].
 - Display tables at (20-21, 5) and (20-21, 8).
 - Rubble barrier along columns 22-23 (rows 4-5, 8-11).
