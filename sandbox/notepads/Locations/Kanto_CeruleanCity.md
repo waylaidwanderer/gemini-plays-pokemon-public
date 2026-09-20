@@ -27,7 +27,6 @@
 ## Key Buildings & Facilities
 - Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
   - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
-  - Customer at (1, 3): Dialogue - bicycles are cool but way too expensive.
 - Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
   - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
   - Resident 1 at (5, 4): Kid in blue overalls.
