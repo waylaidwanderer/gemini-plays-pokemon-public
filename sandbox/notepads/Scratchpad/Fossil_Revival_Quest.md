@@ -6,8 +6,8 @@
 - [x] Enter Cinnabar Pokémon Lab Testing Room at (16, 4) and speak with fossil scientist at (7, 2) [Completed Turn 30845]
 - [x] Submit HELIX FOSSIL to scientist [Completed Turn 30867]
 - [x] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [Completed Turn 30898]
-- [ ] Nickname Omanyte as NAUTILUS [In Progress]
-- [ ] Submit OLD AMBER to scientist [Pending]
+- [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
+- [ ] Submit OLD AMBER to scientist [In Progress]
 - [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Pending]
 
 ## Party & Inventory Logistics
