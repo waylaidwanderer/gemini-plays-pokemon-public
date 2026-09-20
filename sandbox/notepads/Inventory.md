@@ -17,7 +17,7 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 6 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 from prior reserve]
+17. ULTRA BALL x 5 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 used to catch Tentacool Turn 31782]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
@@ -97,7 +97,6 @@
   - EXP: 12167 (1657 to Lv 24) [Verified Turn 31730]
   - Moves: Pound (PP 35/35), Lovely Kiss (PP 10/10), Lick (PP 30/30), Doubleslap (PP 10/10) [Verified Turn 31730]
   - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
-
 
 ## PC Box 1 PokÃ©mon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
