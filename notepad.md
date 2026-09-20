@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥206 [Turn 32406]
-- Pokédex: 41 Caught / 136 Seen [Turn 32507]
+- Pokédex: 42 Caught / 136 Seen [Turn 33049] [Turn 32507]
 
 ## Milestones
 
@@ -276,6 +276,11 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
   - Transferred to PC Box 2 (7/20)
+
+- MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
+  - Status: Healthy
+  - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
+  - Transferred to PC Box 2 (8/20)
 
 
 <hr>
@@ -3727,11 +3732,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Wild Encounters (Verified Species & Level Bands)
 - Encounter Trial Tracker (Total B1F Encounters Observed: 5):
-  - Magmar (Lv 38): 1 encounter [Turn 33033 at (22, 26) - ACTIVE BATTLE]
+  - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
   - Grimer (Lv 33): 2 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25)]
   - Vulpix (Lv 33-35): 2 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25)]
 - Unverified Target Species (Pending Capture):
-  - Magmar (#126) [Blue exclusive, rare - ENCOUNTERED Turn 33033]
+  - Magmar (#126) [CAUGHT Turn 33046, VULCAN Lv 38 in Box 2]
   - Weezing (#110) [Evolution of Koffing, rare]
 
 
@@ -4980,17 +4985,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Hunting Target: Pokémon Mansion B1F (Cinnabar Island)
 - Target Species:
-  - Magmar (#126 on B1F) - Rare Fire-type, Blue exclusive
-  - Weezing (#110 on B1F) - Poison-type evolution of Koffing
+  - Weezing (#110 on B1F) - Poison-type evolution of Koffing (Magmar #126 CAUGHT!)
 - Completed Mansion Captures:
   - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
   - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
   - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
   - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
+  - Magmar (#126 Lv 38 VULCAN) [Caught Turn 33046, Box 2]
 - Inventory & Storage Status:
   - Resources: 3 Ultra Balls in Bag
   - Party Status: 6/6 (Lead: Mewtwo Lv 70 OMEGA)
-  - PC Box 2 Status: 7/20 used (13 free slots)
+  - PC Box 2 Status: 8/20 used (12 free slots)
 - Active B1F Execution Plan:
   1. Patrol open Southeast Chamber (rows 24-26, cols 21-27) to roll for wild encounters.
   2. Flee immediately from duplicates (Grimer, Koffing, Muk, Ponyta, Rapidash, Vulpix) using Mewtwo Lv 70 (guaranteed first-turn flee).
