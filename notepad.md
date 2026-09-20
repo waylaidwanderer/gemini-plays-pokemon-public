@@ -1977,6 +1977,12 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Northern Rooftop Corridor: Paved 2-tile wide yellow brick road along rows 4..5 spanning west from col 45 to col 28 behind the Pokémon Center and adjacent commercial buildings [Verified Turn 31015]. Dead-ends at column 28 against Celadon Mansion east roof wall (27, 4..5).
 - Northern Tree Gap: Passable 2-tile wide opening at (32..33, 3) connects row 4 paved corridor north into the Northern Lawn (rows 1..2) running west behind Celadon Mansion.
 
+## Celadon Mansion Rear Entrance & Staircases (Discovered Turn 31018)
+- Back Door Exterior: Located at (24, 4), entered from northern lawn (24, 3) stepping South.
+- 1F Rear Corridor: Isolated hallway along row 1 (cols 2..4), separated from main 1F room by solid wall across row 2.
+- 1F North Exit Door: (4, 0), entered from (4, 1) facing North.
+- 1F Ascent Stairs: Located at (2, 1), ascends to 2F.
+
 <hr>
 
 <h1><code>Locations/Kanto_CeladonDepartmentStore</code></h1>
