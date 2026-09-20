@@ -4978,6 +4978,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
 |---|---|---|---|---|---|
 | 1 | MUK (#089) | 37 | (5, 23) | Turn 32251 | CAUGHT! (Turn 32261, 2 Ultra Balls) |
+| 2 | PONYTA (#077) | 32 | (5, 17) | Turn 32276 | Fled (Duplicate species) |
 
 
 <hr>
