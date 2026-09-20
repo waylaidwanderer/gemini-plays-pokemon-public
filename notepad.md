@@ -3532,7 +3532,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rubble Obstacles: Massive rubble field blocks columns 3-4 (rows 7-15) and (8-10, 12-15).
 - North Corridor: Open floor across rows 8-10 at columns 5-9 wraps around the staircase north into rows 8-9.
 - Shutter Door: Spans (8-10, 8) dividing the starting area from the northern/eastern section. Empirically confirmed CLOSED in Switch State A [Turn 32976 bump test]. OPEN in Switch State B, providing sole access from Starting Hall into North Hall (cols 10-14, rows 1-7).
-- Secret Switch Statue at (10, 5): Located at junction between North Hall and Central Divider, facing South, interacted from (10, 6) facing North [Sighted Turn 32981]. Used to toggle from State B to State A while on the north side of row 8 shutter to open Northwest Bedroom shutter (9, 4-5).
+- Visual Feature at (10, 5): Pokmon statue sighted visually at (10, 5) [Turn 32981]; interactive switch function unverified.
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
@@ -3541,7 +3541,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Staircase graphic observed at (6, 1) [Visually sighted Turn 32911; functional warp unverified]. Doorway at (9, 4-5) contains Northwest Shutter (OPEN in State A, CLOSED in State B; confirmed CLOSED in State B Turn 32911).
+- Northwest Bedroom (cols 0-8, rows 0-9): Staircase to 3F located at (6, 1) [Verified Turn 32993, stepping onto (6, 1) warped to 3F (6, 2)]. Northwest Shutter doorway at (9, 4-5) confirmed OPEN in Switch State A [Verified Turn 32992].
 - Shutter Door at (18-19, 8): Empirically verified OPEN in Switch State B [Turn 32799]. Provides open passage south from row 7 into columns 18-21 toward Southeast Chamber (25, 14).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
@@ -3577,7 +3577,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: Audited on Turn 32896. Direct visual scan from (20, 14) confirms column 22 is an unbroken vertical barrier of solid rubble across all rows 10-15, and row 16 is a continuous solid southern wall across columns 18-25. Ground-level 2F access into the Southeast Chamber is completely blocked by rubble and walls; the player previously arrived here from 3F descent. Ground ascent to 3F is accessed via the Northwest Bedroom staircase at (6, 1) in Switch State A.
+- Access Investigation: Audited on Turn 32896. Direct visual scan from (20, 14) confirms column 22 is an unbroken vertical barrier of solid rubble across all rows 10-15, and row 16 is a continuous solid southern wall across columns 18-25. Ground-level 2F access into the Southeast Chamber is completely blocked by rubble and walls; the player previously arrived here from 3F descent. 
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
@@ -3600,7 +3600,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Floor: Open pink checkerboard floor across columns 1-5 (rows 1-3) and columns 3-8 (rows 1-5).
 - Staircase down to 2F: Located at (6, 1) [Verified Turn 13997].
 - South boundary: Fully audited on Turn 14196 via direct visual scan at (3, 3). Continuous impassable rubble wall completely blocks rows 6-7 across columns 1-8, with additional rubble at (1-2, 4-5). Absolutely NO southern exit exists from this chamber into the Southwest sector.
-- Secret Switch Statue: Located at (10, 4-5) [Empirically verified Turn 14404]. Interacting from (10, 6) facing North triggers 'A secret switch!'. Selecting YES toggles the global Mansion switch state (A <-> B), opening the East Shutter at (15, 10-11).
+- Secret Switch Statue: Located at (10, 4-5) [Empirically verified Turn 14404, re-verified Turn 32998-32999]. Interacting from (10, 6) facing North triggers 'A secret switch!'. Selecting YES toggles the global Mansion switch state (A <-> B). Toggled to State B on Turn 32999, confirming East Shutter at (15, 10) opened.
 - East Exit: Row 3 connects east to columns 10-11, wrapping south down column 11 around the display case past row 6 rubble.
 
 ## Central North Hall & East Passage (cols 10-15, rows 1-7)
@@ -4983,17 +4983,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Northwest Shutter at (9, 4-5) is CLOSED in current Switch State B.
     - Ascending staircase to 3F is clearly visible at (6, 1) inside Northwest Bedroom!
   - Master Execution Plan:
-    1. Descend to 1F via (7, 10) staircase.
-    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) back to State B (opening 2F row 8 shutter).
-    3. Return to 1F staircase at (7, 10) and ascend to 2F.
-    4. On 2F, pass through OPEN row 8 shutter (8-10, 8) into North Hall to (10, 6).
-    5. Face North and toggle secret switch at (10, 5) from State B to State A (opening Northwest Bedroom shutter at (9, 4-5)).
-    6. Pass through now-OPEN Northwest Shutter at (9, 4-5) into Northwest Bedroom.
-    7. Step onto ascending staircase at (6, 1) to reach 3F.
-    8. On 3F Northwest Starting Chamber, activate statue switch at (10, 4-5) to State B.
-    9. Walk east to East Shutter at (15, 10-11) (now OPEN in State B) into Southern Balcony Chamber.
-    10. Drop down West Balcony Gap at (17, 14) to land directly in 1F enclosed chamber.
-    11. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
+    1. Pass through East Shutter (15, 10) into Southern Balcony Chamber (currently at (15, 10)).
+    2. Drop down West Balcony Gap at (17, 14) to land directly in 1F enclosed chamber at (16, 14).
+    3. On 1F, navigate south down column 13 to row 20, then east to column 21.
+    4. Descend B1F staircase at (21, 23) and survey for Magmar (#126) and Weezing (#110).
 
 
 <hr>
