@@ -1595,7 +1595,7 @@
 - Approach Lawn: Open green lawn spanning cols 2..7, rows 40..45, accessible directly from the southern water channel at (2, 46).
 
 ## Fishing & Water Trials (Empirical Testing)
-- Super Rod Shoreline Trials [Turns 31609-31624]: Casts from northern launch apron at (2, 4) facing North into water tile (2, 3). Turns 31609-31618 yielded 4x 'Not even a nibble!'. Turn 31624 hooked wild SLOWPOKE (Empirically verified Route 10 Super Rod encounter!).
+- Super Rod Shoreline Trials [Turns 31609-31658]: Casts from northern launch apron at (2, 4) facing North into water tile (2, 3). Turns 31609-31618 yielded 4x 'Not even a nibble!'. Turn 31624 hooked wild SLOWPOKE Lv 15 (#079, caught). Turn 31650 hooked wild SLOWPOKE Lv 15 (fled). Both bites (2/2) yielded Slowpoke. Slowpoke is confirmed present; Poliwhirl was unobserved in this sample.
 
 
 <hr>
@@ -4851,7 +4851,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Northern aisle spans horizontally across row 2 (cols 0..7) and connects to vertical central aisles (cols 4..5, rows 2..7) and southern open floor on rows 6..7.
-- Trader NPC: Stationed at (7, 6) in front of eastern terminal; traded his SEEL (SAILOR) for player's PONYTA (BLAZE) [Completed Turn 31425].
+- Trader NPC: Stationed at (7, 6) in front of eastern terminal; trades SEEL (SAILOR) for player's PONYTA (BLAZE) [Trade executed Turn 31425].
 - Fossil Revival Scientist: Wanders along the northern aisle (row 2, cols 0..7). Talk to him to revive prehistoric fossils into Pokémon!
 
 <hr>
@@ -4889,23 +4889,22 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target 1: Poliwhirl (Lv 23)
   - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
   - Location: Celadon City pond (cols 21..24, rows 19..21).
-  - Empirical Route 10 Super Rod Test [Turns 31609-31658]: 2 out of 2 bites yielded wild Slowpoke Lv 15 (Turns 31624, 31650). Route 10 Super Rod is verified as Slowpoke. Poliwhirl is absent from Route 10.
-  - New Target: Celadon City pond with Super Rod (Poliwhirl Lv 23).
+  - Hypothesis Status: UNVERIFIED HYPOTHESIS to be tested with N>=5 Super Rod casts.
+  - Route 10 Super Rod Trial Summary [Turns 31609-31658]: 2 out of 2 bites yielded wild Slowpoke Lv 15 (Turns 31624, 31650). Slowpoke is confirmed present; Poliwhirl was unobserved in this small sample.
 - Target 2: Goldeen (#118)
   - Status: Available in various Kanto waterways (e.g. Route 22).
 
-## Party & Inventory Status [Turn 31659]
+## Party & Inventory Status [Turn 31682]
 - Party: 5/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25). Slot 6 open for Poliwhirl!
 - PC Box 1: 19/20 capacity (Slowpoke DOPEY deposited Celadon PC Turn 31675).
 - Balls: 2 Ultra Balls in Bag.
-- Money: ¥3,506.
+- Money: �3,506.
 
 ## Strategy & Action Plan
-1. Open Fly map with Farfetch'd (DUX) and fly to Celadon City.
-2. Enter Celadon Pokémon Center at (41, 9), access PC, and deposit Slowpoke (DOPEY) to free a party slot (5/6).
-3. Walk to Celadon pond at (21..24, 19..21) and fish with Super Rod for wild Poliwhirl.
-4. Catch Poliwhirl with Ultra Ball (enters active party 6/6).
-5. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
+1. Walk west along Main Avenue in Celadon City to Courtyard Pond at (21..24, 19..21).
+2. Cast Super Rod into pond for N>=5 trials to empirically test for wild Poliwhirl.
+3. If Poliwhirl is hooked, catch with Ultra Ball (enters active party 6/6).
+4. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
 
 
 <hr>
