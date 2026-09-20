@@ -3,7 +3,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Poliwhirl Lv 23 (6 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 30 Caught / 136 Seen [Turn 31637]
 
@@ -52,3 +52,4 @@
 - [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 - [x] Catch wild Krabby in Cerulean Gym pool with Ultra Ball [Turn 31540]
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
+- [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]

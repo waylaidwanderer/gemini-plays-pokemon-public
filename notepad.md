@@ -1994,6 +1994,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 - Gym Courtyard Fence Opening: Located at (5, 31) between fence posts at (4, 31) and (6, 31). Connects the Celadon Gym courtyard (rows 28..30) south into the Southern Garden Corridor (rows 32..34) [Verified Turn 6822].
 - Courtyard Pond: Water spanning cols 21..24, rows 19..21 south of Game Corner, flanked by statues at (20, 20..21) and (25, 20..21) [Turn 6840].
+  - Super Rod Empirical Trials [Turns 31690-31704]: Casts from southern apron at (21, 22) facing North into water tile (21, 21). Turn 31694 (Trial 2) hooked wild SLOWPOKE Lv 15. Turn 31704 (Trial 9) hooked wild POLIWHIRL Lv 23. Empirically confirms Slowpoke and Poliwhirl in Celadon Courtyard Pond Super Rod encounter table.
 
 ## Department Store District & Thoroughfares (Verified Turn 13371)
 - Department Store East Wall: Located at column 13 across rows 7..13, terminating the row 10..13 Main Avenue at column 14.
@@ -4912,10 +4913,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Money: �3,506.
 
 ## Strategy & Action Plan
-1. Walk west along Main Avenue in Celadon City to Courtyard Pond at (21..24, 19..21).
-2. Cast Super Rod into pond for N>=5 trials to empirically test for wild Poliwhirl.
-3. If Poliwhirl is hooked, catch with Ultra Ball (enters active party 6/6).
-4. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
+1. Catch wild Poliwhirl with Ultra Ball (enters active party Slot 6: 6/6).
+2. Nickname Poliwhirl.
+3. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
 
 
 <hr>
