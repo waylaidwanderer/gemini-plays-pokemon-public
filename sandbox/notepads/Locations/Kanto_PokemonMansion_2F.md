@@ -63,3 +63,4 @@
 - Grimer (Lv 31) [Encountered Turn 32441 at (7, 9)].
 - Vulpix (Lv 33) [Encountered Turn 32448 at (5, 9); broke out of Ultra Ball, used Roar].
 - Ponyta (Lv 36) [Encountered Turn 32455 at (9, 9)].
+- Vulpix [Encountered Turn 32459 at (7, 8)].
