@@ -81,11 +81,10 @@
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
+- TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
   - Status: Healthy
-  - HP: 60 / 60
-  - Moves: Tackle, Disable, Poisonpowder, Leech Life
-  - Withdrawn from PC Box 1 [Turn 31166]
+  - OT: TRAINER (IDNo. 37480, Boosted EXP)
+  - Received: Cinnabar Lab Meeting Room in-game trade for Venonat (RADAR) [Turn 31235]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
