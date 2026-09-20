@@ -889,7 +889,7 @@
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
     - PC Terminal: Located on east wall at (13, 3..4). Accessible by standing at (13, 4) facing North at monitor (13, 3), or at (12, 3) facing East.
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKÃ©MON GYM / LEADER: MISTY".
-- Central pool spanning rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounter verified Turn 31489: Psyduck (Lv 15) hooked via Super Rod in Gym pool.
+- Central pool spanning rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounters verified via Super Rod: Psyduck (Lv 15, Turn 31489) and Krabby (Turn 31536).
   - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
   - Gym Trainers:
     - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
@@ -900,7 +900,6 @@
   - Catalog Items: POKÃ© BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
 - Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North. Backyard path along rows 8..9 dead-ends east against trees at col 34; the true transit corridor turns south down Column 33 through rows 10..15 to access the Route 9 entrance [Verified Turn 28489].
 - Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the Poké Mart (cols 24..27).
-
 
 <hr>
 
