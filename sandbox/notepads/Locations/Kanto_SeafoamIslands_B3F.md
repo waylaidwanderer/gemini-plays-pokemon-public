@@ -38,9 +38,7 @@
 - Southeast Ladder: Located at (25, 14), ascending to B2F ladder (25, 14). Confirms continuous vertical shaft from 1F (23, 15) -> B1F (25, 11) -> B2F (25, 14) -> B3F (25, 14).
 - Southeast Dry Corridor: Cols 25..28, rows 10..14. Bounded south by solid rock wall at row 15, east by rock wall at col 29, and west by eastern pool at cols 21..23.
 - Corridor extends north toward Northeast Hall (rows 0..4) and Central Passage (row 6).
-## Eastern Pool Docks & Boundaries (Audited Turns 29633-29635)
-- Water Pool Extent: Cols 14..23, rows 8..11 form an open, calm water pool with no rapid currents.
-- East Dock: Located at (23, 9), wooden stairs leading south into water (23, 10).
-- West Dock: Located at (15, 7), wooden stairs leading north onto dry cavern floor at (15, 6).
-- Row 12 Cliff: Impassable cliff elevation boundary separates water (row 11) from southern terrace (rows 12..14). Disembarking must be done via dock (15, 7).
-- Southern Docks: Wooden stairs visible at (16, 15) and (17, 15).
+## Eastern Pool Docks & Rapid Current Intake (Audited Turns 29633-29637)
+- East Dock: Located at (23, 9), wooden stairs leading south into water (23, 10). Calm water across cols 18..23 along rows 9..11.
+- Rapid Current Waterfall Intake at (15, 8): Stepping onto (15, 8) triggers an automated forced water current script that sweeps the player south to row 11, east to col 20, and south down the waterfall drop at (20, 16) into B4F subterranean lake at (20, 15) [Empirically verified Turn 29637]. Dock (15, 7) cannot be reached from the pool while this current is active.
+- Row 12 Cliff: Impassable cliff elevation boundary separates water (row 11) from southern terrace (rows 12..14).
