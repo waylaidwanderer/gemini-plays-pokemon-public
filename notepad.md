@@ -4930,5 +4930,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Pallet Town Super Rod Empirical Trials
 - Trial 1 [Turn 31778-31782]: Hooked and caught wild TENTACOOL Lv 15 with 1 Ultra Ball! (Registered Pokédex species #072). Nicknaming STINGER. Transferring to Box 2.
 - Trial 2 [Turn 31793]: Not even a nibble!
+- Trial 3 [Turn 31796]: Not even a nibble!
 
 <hr>
