@@ -19,7 +19,7 @@
 ## Operational Capture Thresholds & Contingency Plan
 - **Current Combat State:** Articuno weakened to ~65% HP. Mewtwo at 159/234 HP, currently inflicted with FRZ (frozen solid).
 - **Damage Restriction:** Do NOT attack with Swift or any moves. Rely strictly on Ultra Balls.
-- **Ultra Ball Stock:** 46 Ultra Balls remaining (Slot 11 in Item Bag).
-- **Mewtwo Sustain & Freeze Protocol [Turn 29796]:**
-  - While Mewtwo HP > 80 (currently 159 HP), throw Ultra Balls consecutively.
-  - If Mewtwo HP drops below 80 HP, use FULL RESTORE (Slot 7 in Item Bag, 12 available) to simultaneously restore HP to 234/234 and cure the FRZ status!
+- **Ultra Ball Stock:** 42 Ultra Balls remaining (Slot 11 in Item Bag).
+- **Mewtwo Sustain & Freeze Protocol [Turn 29807]:**
+  - Mewtwo HP is 72/234 (<80 HP sustain threshold, FRZ).
+  - EXECUTING FULL RESTORE: Opening Bag, scrolling from Slot 11 (Ultra Ball) up to Slot 7 (Full Restore x12), and applying to Mewtwo to restore 234/234 HP and cure Freeze!
