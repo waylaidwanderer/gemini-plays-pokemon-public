@@ -5,9 +5,9 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Slowpoke (pending) Lv 15 (6 in party)
 - Money: ¥3,506 [Turn 31292]
-- Pokédex: 29 Caught / 136 Seen [Turn 31541]
+- Pokédex: 30 Caught / 136 Seen [Turn 31637]
 
 ## Milestones
 
@@ -53,6 +53,7 @@
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
 - [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 - [x] Catch wild Krabby in Cerulean Gym pool with Ultra Ball [Turn 31540]
+- [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
 
 
 <hr>
@@ -78,7 +79,7 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 3 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539, 2 used on Slowpoke Turns 31626/31630]
+17. ULTRA BALL x 2 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539, 3 used on Slowpoke Turns 31626/31630/31636]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
@@ -119,6 +120,9 @@
 - ¥3,506 [Turn 31292]
 
 ## Party Pokémon
+- SLOWPOKE (Nickname: pending) [Lv 15, Water/Psychic]
+  - Status: Healthy
+  - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
@@ -4885,7 +4889,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
   - Location: Route 10 waterway (accessible east of Cerulean City via Route 9).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS proposed by custom agent. Empirical presence of Poliwhirl in Route 10 waterway is untested.
-  - Empirical Route 10 Fishing Trials [Turns 31609-31624]: Cast 5 on Turn 31624 hooked wild SLOWPOKE (#079)! Route 10 water encounter verified.
+  - Empirical Route 10 Fishing Trials [Turns 31609-31624]: Cast 5 on Turn 31624 hooked wild SLOWPOKE (#079)! Caught on Turn 31637 with Ultra Ball (3rd ball)! Pokédex now 30 Caught.
 - Target 2: Goldeen (#118)
   - Status: Unverified in Route 10. Available in various Kanto waterways.
 
