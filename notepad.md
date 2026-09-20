@@ -4723,6 +4723,20 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Highway: Cols 1..4 form an expansive open purple floor corridor spanning rows 4..12+.
 - Ladder at (5, 12): Ladder mounted at (5, 12).
 - Sunken Ladder Trench (Rows 6..7): Enclosed landing around ladder (8, 6); row 8 is an impassable south-facing cliff. Exited via wooden stairs at (6..7, 5) onto upper terrace (row 4).
+## Southwest Boulder Puzzle Baseline (Audited Turn 29667)
+- Chamber Layout (Rows 13..16, Cols 0..9):
+  - Row 13: Impassable rock wall / southern cliff boundary across cols 0..7. Passage from upper terrace into lower puzzle chamber connects via open dark brown floor at cols 8..9 (rows 12..13).
+  - Pit Holes:
+    - Pit Hole 1: Located at (3, 16).
+    - Pit Hole 2: Located at (6, 16).
+  - Initial Boulder Coordinates:
+    - Boulder 1: Located at (3, 15), directly 1 tile north of Pit Hole 1 (3, 16).
+    - Boulder 2: Located at (5, 14).
+    - Boulder 3: Located at (8, 14).
+    - Boulder 4: Located at (9, 14).
+  - Obstacles & Boundaries:
+    - Rock obstacles at (7, 14), (4, 15), (4, 16), (9, 16).
+    - Signpost at (9, 15): 'Boulders might change the flow of water!'
 
 <hr>
 
