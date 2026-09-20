@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Aerodactyl (PTERA) Lv 30, Eevee (VEE) Lv 25
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Aerodactyl (PTERA) Lv 30, Jolteon (VEE) Lv 25
 
 - Money: ¥2,906 [Turn 31089]
 - Pokédex: 22 Caught / 129 Seen
@@ -59,6 +59,7 @@
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
 - [x] Infiltrate Victory Road 2F and battle Legendary MOLTRES (21 Ultra Balls exhausted; fled safely) [Turn 30607]
 - [x] Revive Helix Fossil into Omanyte (NAUTILUS) and Old Amber into Aerodactyl (PTERA) at Cinnabar Lab [Turn 30951]
+- [x] Evolve Eevee (VEE) into Jolteon with Thunderstone in Celadon City [Turn 31098]
 
 <hr>
 
@@ -81,9 +82,8 @@
 12. HP UP x1
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
-15. THUNDERSTONE x1 [Purchased Celadon Dept Store 4F Turn 31089]
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -154,14 +154,14 @@
   - HP: 91 / 91
   - Moves: Wing Attack, Agility, Supersonic
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
-- EEVEE (Nickname: VEE) [Lv 25, Normal]
+- JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
-  - HP: 63 / 63 [Verified Turn 31061]
-  - Stats: Attack 35, Defense 32, Speed 35, Special 39 [Verified Turn 31061]
+  - HP: 68 / 68 [Verified Turn 31102]
+  - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Verified Turn 31102]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 15625 (1951 to Lv 26) [Verified Turn 31062]
-  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15) [Verified Turn 31062]
-  - Obtained: Celadon Mansion rooftop penthouse [Turn 31043]
+  - EXP: 15625 (1951 to Lv 26) [Verified Turn 31104]
+  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15) [Verified Turn 31104]
+  - Obtained: Celadon Mansion rooftop [Turn 31043], evolved via Thunderstone [Turn 31098]
 
 ## PC Box 1 Pokémon
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
@@ -4826,6 +4826,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [ ] Visit Celadon Department Store:
   - [x] Sell NUGGET to clerk for ¥5,000 [Turn 31085]
   - [x] Purchased THUNDERSTONE for ¥2,100 [Turn 31089]
-- [ ] Use THUNDERSTONE on VEE to evolve into JOLTEON
+- [x] Use THUNDERSTONE on VEE to evolve into JOLTEON [Turn 31098]
+  - Verified Jolteon Stats (Lv 25): HP 68/68, Attack 40, Defense 37, Speed 72, Special 62, Type: Electric [Turn 31102]
+  - Moves: Tackle, Sand-Attack [Turn 31104]
+- [ ] Retrieve TM24 (THUNDERBOLT) from Celadon PC and teach to JOLTEON (VEE)
 
 <hr>
