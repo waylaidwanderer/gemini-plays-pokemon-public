@@ -4761,7 +4761,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Open cavern floor across cols 21..27 (rows 11..15) connects north to row 10.
 
 - Row 9 Dividing Rock Wall: Horizontal rock wall along row 9 (cols 20..27), separating lower arrival basin from northern chamber.
-- Column 19 / Western Boundary: Tile (19, 10) visually borders rock wall to the west. Passability through (19, 9..10) is unverified pending physical collision testing.
+- Tile (19, 10) Collision: Empirically verified impassable rock wall collision from east at (20, 10) [Turn 29602 bump test]. Direct eastern access to row 9 bypass is blocked at (19, 10).
 - Northern Chamber & Pit Hole (Sighted Turn 29579):
   - Open floor visible across cols 21..27 across rows 6..8.
   - Pit Hole at (23, 6): 16x16 black pit hole in cavern floor.
