@@ -3510,6 +3510,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Muk (Lv 37) encountered in central corridor at (5, 23) [Turn 32251]; caught with Ultra Ball [Turn 32261].
 - Ponyta (Lv 32) encountered in central corridor at (5, 17) [Turn 32276]; fled successfully.
 
+- Grimer (Lv 30) encountered in central corridor at (6, 19) [Turn 32296]; caught with Ultra Ball [Turn 32303].
 
 <hr>
 
