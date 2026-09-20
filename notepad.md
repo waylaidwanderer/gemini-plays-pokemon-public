@@ -3725,6 +3725,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball at (5, 13): SECRET KEY collected [Turn 14678].
 - West Wing fully surveyed: B1F exploration 100% complete!
 
+## Wild Encounters (Verified Species & Level Bands)
+- Vulpix [Verified Turn 33012 at (24, 24)]
+
 
 <hr>
 
