@@ -5,7 +5,7 @@
 - Contains signposts, water channels, docks, and ladder connections.
 
 ## Key Landmarks & Layout
-- Southwest Ladder: Located at (5, 12) in the southwest corridor (cols 1..6, rows 11..12). Connects vertically to upper/lower elevation [Discovered Turn 29514].
+- Southwest Ledge & Stairs: South-facing jump ledge at (5, 11..12) hops down into lower basin (rows 12..15). Wooden stairs at (6..7, 11) provide two-way access between upper terrace (rows 9..10) and lower basin (rows 12..15) [Verified Turn 29518].
 - Ladder (NE): Located at (25, 4) [Sighted Turn 29244]. Ascending ladder mounted against northern rock barrier.
 - Signpost (NE): Located at (23, 1) [Inspected Turn 29253]. Text: 'DANGER / Fast current!'
 - Northern Dock: Wooden stairs at (23, 5), enters water channel at (23, 6) [Sighted Turn 29244].
