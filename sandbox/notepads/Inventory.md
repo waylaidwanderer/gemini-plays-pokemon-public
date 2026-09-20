@@ -86,6 +86,8 @@
   - HP: 62 / 62
   - Stats: Attack 32, Defense 59, Speed 37, Special 50 [Verified Lv 22 Turn 31246]
   - OT: TRAINER (IDNo. 37480, Boosted EXP)
+  - EXP: 10648 (1519 to Lv 23) [Verified Turn 31249]
+  - Moves: Constrict (PP 35/35), Bind (PP 20/20) [Verified Turn 31249]
   - Received: Cinnabar Lab Meeting Room in-game trade for Venonat (RADAR) [Turn 31235]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
