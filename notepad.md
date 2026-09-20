@@ -3541,7 +3541,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Staircase up to 3F located at (6, 1) against north wall (6, 0).
+- Northwest Bedroom (cols 0-8, rows 0-9): Tile (6, 1) is the arrival landing from 3F descent [Turn 13997]; tested Up from (6, 1) into (6, 0) on Turn 32557 (impassable north wall, no ascending warp). Ascending staircase to 3F is located at (25, 14) in the Southeast Chamber.
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
