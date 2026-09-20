@@ -1554,6 +1554,11 @@
 
 ## Map Transition Mechanics
 - **Strength Status Reset on Map/Floor Change:** In retail Generation 1 Pokémon, changing floors via ladders, stairs, or map transitions immediately resets the active field move status of HM04 Strength to inactive. Strength must be re-cast from the party Pokémon menu on the new floor before boulders can be pushed [Empirically verified Turns 20452, 20525, 20559].
+## HM04 STRENGTH Mechanics (Generation 1 Retail)
+- **Badge Requirement:** Rainbowbadge (Erika) - earned Turn 6800.
+- **Designated User:** Geodude (ROCKY).
+- **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
+- **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
 
 <hr>
 
