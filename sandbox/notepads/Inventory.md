@@ -88,6 +88,12 @@
   - HP: 91 / 91
   - Moves: Wing Attack, Agility, Supersonic
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
+- EEVEE (Nickname: VEE) [Lv 25, Normal]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Tackle, Sand-Attack, Quick Attack
+  - Obtained: Celadon Mansion rooftop penthouse [Turn 31043]
+
 ## PC Box 1 Pokémon
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
