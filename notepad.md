@@ -66,7 +66,7 @@
 12. GUARD SPEC. x 1
 13. MAX POTION x 1
 14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 3 [1 used Pikachu Turn 32090, 2 used Muk Turns 32256/32259, 2 used Grimer Turns 32299/32301, 3 remaining]
+15. ULTRA BALL x 3
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
@@ -3428,7 +3428,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Landmarks & Layout
 - Northern Dock: Wooden pier providing direct landing from Route 21 into the north edge of Cinnabar Island at columns 10-11, connecting south into row 0 [Verified Turns 13675, 13676].
 - Pokémon Mansion: Large building in northwest occupying columns 4 to 9, rows 0 to 3, with entrance door at (6, 3) [Verified Turns 13676, 13678].
-- Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Entrance door unlocked with Secret Key [Turn 14686].
+- Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Entrance door unlocked with Secret Key [Turn 14686]. Note: Storing Secret Key in PC causes entrance door to re-lock with 'The door is locked..' [Empirically verified Turns 32246, 32364].
 - Thoroughfare & Connections: Eastern avenue along columns 18..19 connects southern town plaza (row 12) north to northern plaza (Gym at cols 14..18 and Mansion at cols 4..9, rows 0..3). Central northern plaza spans columns 10 to 13, rows 0 to 7.
 - Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
   - Clerk Inventory [Audited Turn 31285]:
@@ -4979,14 +4979,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Next Hunting Target: Pokémon Mansion (Cinnabar Island)
 - Target 3: Cinnabar Pokémon Mansion Wild Captures
-  - Target Species: Magmar (#126), Koffing (#109), Weezing (#110), Vulpix (#037)
-  - Location: Pokémon Mansion 1F (northwest Cinnabar Island, door at (6, 3))
+  - Target Species (Unverified Hypotheses across Mansion floors): Magmar (#126), Koffing (#109), Weezing (#110), Vulpix (#037)
+  - Location: Pokémon Mansion (Survey B1F, 2F, 3F; 1F empirical trials 1-9 yielded exclusively Grimer, Ponyta, Muk)
   - Party Status: 6/6 (Slot 6 filled by SLUDGE Lv 37. Future wild captures transfer automatically to active PC Box 2: 5/20 used, 15 free slots)
   - Resources: 3 Ultra Balls in Bag
   - Execution Plan:
-    1. Flee duplicate Grimer on 1F.
-    2. Restock Ultra Balls at Cinnabar Poké Mart (sell Max Revives/Full Restores).
-    3. Explore Pokémon Mansion B1F or upper floors for Magmar, Koffing, Vulpix.
+    1. Restock Ultra Balls at Cinnabar Poké Mart (sell Max Revives/Full Restores).
+    2. Survey Pokémon Mansion B1F, 2F, and 3F to identify encounter tables and locate Magmar, Koffing, and Vulpix (candidates unverified on 1F).
 ### Pokémon Mansion 1F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
 |---|---|---|---|---|---|
