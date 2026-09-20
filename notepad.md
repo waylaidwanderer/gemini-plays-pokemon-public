@@ -4711,6 +4711,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder at (8, 6): Mounted on rock wall; connects to lower floor ladder at (11, 7).
 - Western South Corridor: Cols 1..4, rows 6..7+ run south toward southern chamber, bounded west by col 0 wall and east by col 5 rock divider.
 
+## Southeast Sector & B2F Connection (Discovered Turn 29613)
+- Southeast Ladder: Located at (25, 14), ascending to B2F ladder (25, 14). Confirms continuous vertical shaft from 1F (23, 15) -> B1F (25, 11) -> B2F (25, 14) -> B3F (25, 14).
+- Southeast Dry Corridor: Cols 25..28, rows 10..14. Bounded south by solid rock wall at row 15, east by rock wall at col 29, and west by eastern pool at cols 21..23.
+- Corridor extends north toward Northeast Hall (rows 0..4) and Central Passage (row 6).
 
 <hr>
 
