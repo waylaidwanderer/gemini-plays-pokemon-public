@@ -75,7 +75,7 @@
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x4)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x3)
 
 ## Inventory Capacity
 - Active Bag Items: 13 / 20 capacity used.
@@ -4799,5 +4799,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [Turn 30589] Threw Ultra Ball #15 at wild Moltres (HP ~58%). Ball missed. 6 Ultra Balls remaining.
 - [Turn 30591] Threw Ultra Ball #16 at wild Moltres (HP ~58%). Ball missed. 5 Ultra Balls remaining.
 - [Turn 30593] Threw Ultra Ball #17 at wild Moltres (HP ~58%). Ball missed. 4 Ultra Balls remaining.
+- [Turn 30595] Threw Ultra Ball #18 at wild Moltres (HP ~58%). Ball missed. 3 Ultra Balls remaining.
 
 <hr>
