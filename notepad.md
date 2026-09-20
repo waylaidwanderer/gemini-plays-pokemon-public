@@ -4964,7 +4964,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     4. Trade Execution:
        - Fly to Cinnabar Island. Enter Pok�mon Lab Meeting Room.
        - Trade Raichu for Electrode (#101, DORIS)!
-  - Status: Lola deposited [Turn 32128]; Box 2 active [Turn 32131]. Next step: Withdraw SPARK.
+  - Status: Lola deposited [Turn 32128]; SPARK successfully withdrawn into party slot 6 [Turn 32134]. Next step: Exit Pok�mon Center, head to Celadon Dept Store 4F, sell 2x Revive, buy Thunder Stone, and evolve SPARK into Raichu!
 
 
 <hr>
