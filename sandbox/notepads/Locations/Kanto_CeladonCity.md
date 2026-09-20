@@ -57,4 +57,4 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Back Door Exterior: Located at (24, 4), entered from northern lawn (24, 3) stepping South.
 - 1F Rear Corridor: Isolated hallway along row 1 (cols 2..4), separated from main 1F room by solid wall across row 2.
 - 1F North Exit Door: (4, 0), entered from (4, 1) facing North.
-- 1F Ascent Stairs: Located at (2, 1), ascends to 2F.
+- 1F Rear Corridor: Isolated hallway along row 1 (cols 2..7), separated from main 1F room by solid wall across row 2. North exit door at (4, 0). Western dead-end at (2, 1). Eastern corridor extends through (5, 1) to (6..7, 1).
