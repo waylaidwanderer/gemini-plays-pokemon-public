@@ -15,9 +15,8 @@
 12. HP UP x1
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
-15. THUNDERSTONE x1 [Purchased Celadon Dept Store 4F Turn 31089]
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -88,14 +87,14 @@
   - HP: 91 / 91
   - Moves: Wing Attack, Agility, Supersonic
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
-- EEVEE (Nickname: VEE) [Lv 25, Normal]
+- JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
-  - HP: 63 / 63 [Verified Turn 31061]
-  - Stats: Attack 35, Defense 32, Speed 35, Special 39 [Verified Turn 31061]
+  - HP: 68 / 68 [Verified Turn 31102]
+  - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Verified Turn 31102]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 15625 (1951 to Lv 26) [Verified Turn 31062]
-  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15) [Verified Turn 31062]
-  - Obtained: Celadon Mansion rooftop penthouse [Turn 31043]
+  - EXP: 15625 (1951 to Lv 26) [Verified Turn 31104]
+  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15) [Verified Turn 31104]
+  - Obtained: Celadon Mansion rooftop [Turn 31043], evolved via Thunderstone [Turn 31098]
 
 ## PC Box 1 Pokémon
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
