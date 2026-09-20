@@ -4457,7 +4457,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Courtyard / Avenues:
   - Central North-South Avenue: Columns 10..11 connecting Route 1 (0..1) south between Red's and Daisy's houses.
   - Crossways: Rows 6..7 open between houses.
-  - Water Shoreline: Along rows 12..13 at southern boundary.
+  - Water Shoreline: Open ground extends south to row 15. The water shoreline is located at (8, 15) facing west into water tile (7, 15) [Verified Turn 31774].
+
+## Wild Pokémon & Fishing Trials
+- Pallet Town Southern Shoreline (8, 15) facing West into (7, 15) [Super Rod Trials, Turns 31778-31799]:
+  - Trial 1 [Turn 31778-31782]: Wild Tentacool Lv 15 (#072) caught with Ultra Ball.
+  - Trial 2 [Turn 31793]: Not even a nibble.
+  - Trial 3 [Turn 31796]: Not even a nibble.
+  - Trial 4 [Turn 31798-31799]: Wild Poliwag Lv 15 (#060) hooked.
 
 <hr>
 
