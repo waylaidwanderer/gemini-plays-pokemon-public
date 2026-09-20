@@ -66,7 +66,7 @@
 12. GUARD SPEC. x 1
 13. MAX POTION x 1
 14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 5 [1 used Pikachu Turn 32090, 2 used Muk Turns 32256/32259, 5 remaining]
+15. ULTRA BALL x 4 [1 used Pikachu Turn 32090, 2 used Muk Turns 32256/32259, 1 used Grimer Turn 32299, 4 remaining]
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
@@ -4990,7 +4990,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 2 | PONYTA (#077) | 32 | (5, 17) | Turn 32276 | Fled (Duplicate species) |
 | 3 | PONYTA (#077) | 34 | (6, 12) | Turn 32284 | Fled (Duplicate species) |
 | 4 | PONYTA (#077) | 32 | (6, 22) | Turn 32290 | Fled (Duplicate species) |
-| 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | In Progress (Throwing Ultra Ball) |
+| 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | In Progress (1 Ultra Ball used, broke out after 3 wobbles) |
 
 
 <hr>
