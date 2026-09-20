@@ -34,4 +34,4 @@
 | 6 | PONYTA (#077) | 32 | (7, 9) | Turn 32465 | Fled (Duplicate species) |
 | 7 | KOFFING (#109) | 34 | (6, 9) | Turn 32471 | CAUGHT! (Turn 32474, 1 Ultra Ball) |
 | 8 | GRIMER (#088) | 31 | (5, 8) | Turn 32482 | Fled (Duplicate species) |
-| 9 | MUK (#089) | ? | (6, 8) | Turn 32486 | In Progress (Turn 32486) |
+| 9 | MUK (#089) | 40 | (6, 8) | Turn 32486 | Fled (Duplicate species) |
