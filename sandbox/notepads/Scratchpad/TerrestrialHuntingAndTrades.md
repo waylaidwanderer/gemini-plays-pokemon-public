@@ -14,8 +14,7 @@
     3. Evolution Execution (Complete):
        - Used Thunderstone on SPARK (Slot 6) [Turn 32180].
        - SPARK evolved into Raichu (#026) [Turn 32181]!
-    4. Trade Execution:
-       - Exit Celadon Dept Store to outdoor Celadon City.
-       - Use Fly (Farfetch'd DUX) to Cinnabar Island.
-       - Enter Pokémon Lab Meeting Room (far right room).
-       - Speak to old man to trade Raichu for Electrode (#101, DORIS)!
+    4. Trade Execution (Complete):
+       - Traded Raichu (SPARK) to Old Man in Cinnabar Lab Meeting Room [Turn 32218].
+       - Received ELECTRODE (#101, DORIS, OT: TRAINER, IDNo. 47899)!
+       - Pokédex count: 37 Caught / 136 Seen.

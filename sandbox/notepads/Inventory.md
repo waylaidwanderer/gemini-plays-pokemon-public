@@ -87,12 +87,11 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- RAICHU (Nickname: SPARK) [Lv 3, Electric]
+- ELECTRODE (Nickname: DORIS) [Electric]
   - Status: Healthy
-  - Caught: Viridian Forest Lv 3 [Turn 32090]
-  - Evolved: Via Thunderstone at Celadon Dept Store [Turn 32180]
-  - Moves: Thundershock, Growl
-  - Destination: Trade for Electrode (DORIS) at Cinnabar Lab Meeting Room!
+  - OT: TRAINER (IDNo. 47899, Boosted EXP)
+  - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
+  - Telemetry (Stats & Moveset): To be inspected via party menu.
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
