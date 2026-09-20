@@ -33,3 +33,7 @@
   - Western approach along row 8 is blocked by stationary Gym fan NPC at (30, 8).
   - True entrance route: From col 18, take row 4 east to col 24, step up to rows 2-3 (open 2-tile road running east above the Gym roof), follow rows 2-3 east to col 34, descend col 34 south to row 8, then walk west along row 8 through (33, 8) to (32, 8) in front of the Gym door.
 - Viridian Gym: Northeast quadrant, building facade at columns 27..34, rows 4..7. Signpost at (27, 7). Entrance door at (32, 7), approached from (32, 8). Unlocked after 7 badges ("VIRIDIAN GYM's LEADER returned!").
+
+## Wild Pokémon & Fishing Trials
+- Viridian City Freshwater Pond (14, 26) facing West into (13, 26) [Super Rod]:
+  - Conducting Super Rod trials to survey encounter distribution (testing for Goldeen #118 and Poliwag #060).
