@@ -15,7 +15,7 @@
   - Lower Corridor (Row 16): Divided into western section (cols 1-4) and eastern section (cols 9-29) by rock barriers.
   - Wooden Staircases: (5, 10) connects row 8/9 plateau to row 11; (15, 15) connects row 14 to row 16; (21, 15) connects row 16 to row 14 plateau.
   - Central Terrace: Rows 12-14 connect west across row 12 into column 13-14 terrace avenue (rows 8-14). Row 8 northern edge is an impassable elevation cliff separating the terrace from the lower Moltres chamber (row 7) [Empirically verified Turn 30183]. Plateau Barrier at (7, 8)-(7, 9) is raised and impassable [Empirically verified Turn 30186].
-  - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 wall, opening north into rows 0-3 [Visually verified Turn 30188]. Direct ground routing from Ladder (23, 7) remains an active hypothesis under investigation.
+  - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 continuous rock wall (rows 0-7), opening exclusively northwest into rows 0-3 of the Northwest Chamber. Direct ground routing from eastern sector (cols 15-29) is blocked by the col 14 divider [Disproved Turns 30499-30501]. Access requires descending from 3F Northwest Ladder (2, 0) into 2F Northwest Chamber (1, 1).
 - Boulders & Switch Plates:
   - Boulder 3 on Switch Plate A (1, 16): Temporarily lowers Plateau Barrier at (7, 8)-(7, 9) for current session (resets upon leaving/reloading 2F).
   - Negative Collision at (1, 13): Solid rock wall blocks north-to-south pushing along column 1; pushing boulder west along row 14 to (1, 14) traps it in corner [Verified Turn 30459].
@@ -54,3 +54,8 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+## Verified Negative Collision Boundaries
+- Cliff at (19, 11): Impassable elevation cliff blocks north progression from row 12 terrace into row 11 lower floor [Turn 30494].
+- Column 14 Rock Divider: Continuous solid rock wall along column 14 (rows 0-7) completely separates eastern sector from Moltres chamber [Turns 30499-30501].
+- Row 6 Barrier at (27, 6): Solid rock wall along row 6 blocks northern ground access to Northeast Chamber and ladder (27, 7) [Turn 30504].
+- Row 4 Barrier at (21, 4): Solid rock wall along row 4 blocks column 21 progression south of row 3 [Turn 30509]. Column 17 provides the open corridor connecting row 3 south to row 7.
