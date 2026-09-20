@@ -4919,6 +4919,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS.
 
 ## Pallet Town Super Rod Empirical Trials
-- Trial 1 [Turn 31778]: Hooked wild TENTACOOL! (Unregistered Pokédex species #072). Catching with Ultra Ball.
+- Trial 1 [Turn 31778]: Hooked wild TENTACOOL! (Unregistered Pokédex species #072). Catching with Ultra Ball (planned nickname: STINGER).
 
 <hr>
