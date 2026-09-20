@@ -158,6 +158,8 @@
   - HP: 68 / 68
   - Stats: Attack 30, Defense 27, Speed 53, Special 53 [Verified Lv 23 Turn 31729]
   - OT: TRAINER (IDNo. 22074, Boosted EXP)
+  - EXP: 12167 (1657 to Lv 24) [Verified Turn 31730]
+  - Moves: Pound (PP 35/35), Lovely Kiss (PP 10/10), Lick (PP 30/30), Doubleslap (PP 10/10) [Verified Turn 31730]
   - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
 
 
