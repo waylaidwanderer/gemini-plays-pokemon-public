@@ -4627,9 +4627,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Key Landmarks & Layout
 - Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
-- Ladder 1 (SW): Located at (23, 15), descends to B1F.
-- Ladder 2 (East): Located at (25, 14), descends to B1F.
-- Ladder 3 (North): Located at (25, 3..4), descends to B1F.
 - Eastern Docks & Corridors:
   - Northern open hallway at rows 7..8 (cols 21..28).
   - Dividing rock wall at row 5 (cols 20..28).
@@ -4734,8 +4731,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   -  [Descends to B3F NE hall at (25, 4)].
   - Completely bounded by solid rock walls: North (row -1), South (row 5 cliff), West (col 20), East (col 29).
   - Contains NO items, boulders, holes, or NPCs.
-- Central & Southern Chambers:
-  - Rows 6..9 across cols 21..27 are confirmed dry cave floor, visible below the row 5 cliff. (Access route from upper floors under investigation).
+
 
 ## Empirical Floor Proof (B2F vs B3F)
 - B3F (Lower): Has signpost at (23, 1) ('DANGER / Fast current!'), wooden dock at (23, 5), fast water current at rows 6..7.
