@@ -271,8 +271,6 @@
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
 
-## Verified Battle Mechanics & Engine Findings
-- **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
 
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
@@ -441,10 +439,10 @@
 - Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flower patches.
 
 ## Key Buildings
-- Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKÃ©" sign at (14, 25).
+- Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKé" sign at (14, 25).
 - Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
   - Verified Pewter Poké Mart Stock:
-    - POKÃ© BALL: ¥200
+    - POKé BALL: ¥200
     - POTION: ¥300
     - ESCAPE ROPE: ¥550
     - ANTIDOTE: ¥100
@@ -459,13 +457,12 @@
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
 - Garden Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
 - Western Signpost: Located at (11, 17) outside the western entrance to the Gym courtyard.
-- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÃ©MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
+- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKéMON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
 - Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
 - Garden Resident: Wandering inside the fenced flower garden (rows 24..26).
 - Mart Exterior Youngster: Standing at (27, 17) just east of the Mart.
-- Western Pewter NPC: Stationed at (8, 15) in the western residential area.
 
 
 ## Pewter Gym Interior Layout & Landmarks
@@ -486,10 +483,7 @@
 - Entrance Mat: (3..4, 7). Exits south to Pewter City at (13, 26).
 - Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North to heal party.
-- Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKÃ© BALLs set in my belt."
-- Youngster: Stationed at (7, 3).
 - PC: Located at (10, 0) in the northeast alcove.
-- Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Museum Perimeter, Ledges & Cuttable Tree
 - Row 7 Jump Ledge: Spans across columns 18..34 as a south-facing jump ledge. Tile (31, 7) is an open brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into the northern perimeter lawn (rows 2..4) without needing Cut.
@@ -4745,10 +4739,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
 - [x] Submit OLD AMBER to scientist [Completed Turn 30922]
 - [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [In Progress]
+- [ ] Nickname Aerodactyl as PTERA [Pending]
 
 ## Party & Inventory Logistics
-- Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, OMANYTE Lv 30), 1 open party slot ready for Aerodactyl.
-- Bag key items: OLD AMBER in bag (Slot 15).
+- Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30), 1 open party slot ready for Aerodactyl.
+- Bag fossils: 0 (Both Helix Fossil and Old Amber surrendered to scientist).
 - Required Field Moves: HM02 FLY known by Farfetch'd (DUX).
 
 
@@ -4789,7 +4784,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Entrance Lobby (Rows 2..7, Cols 0..7)
 - Layout: Blue and white checkered floor with potted plants at (0, 3) and (5, 3). Framed picture on north wall at (3, 2).
-- Reception NPC: Stationed at (1, 3) facing South.
 - Main Corridor: 3-tile wide hallway spanning rows 5..7 extending east past column 7 toward the facility's research rooms.
 
 ## Facility Rooms
@@ -4797,8 +4791,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - R&D Room: Second door along hallway, entrance located at (12, 4) with sign at (13, 4) [Verified Turn 30822].
 ## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
-- Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Open checkered floor across row 6 (cols 0..6), row 7 (cols 0..7), and northern aisle (cols 4..5, rows 2..5).
+- Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Northern aisle spans horizontally across row 2 (cols 0..7) and connects to vertical central aisles (cols 4..5, rows 2..7) and southern open floor on rows 6..7.
 - Trader NPC: Stationed at (7, 6) in front of eastern terminal (seeks Ponyta for trade).
 - Fossil Revival Scientist: Wanders along the northern aisle (row 2, cols 0..7). Talk to him to revive prehistoric fossils into Pokémon!
+
+<hr>
+
+<h1><code>Scratchpad/Mechanics_Theories</code></h1>
+
+# Combat Mechanics Hypotheses (Unverified)
+
+## Verified Battle Mechanics & Engine Findings
+- **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
+
 
 <hr>
