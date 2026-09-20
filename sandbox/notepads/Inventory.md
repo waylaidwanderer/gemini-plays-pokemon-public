@@ -218,3 +218,7 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
   - Transferred to PC Box 2 (5/20)
+- KOFFING (Nickname: SMOGGY) [Lv 34, Poison]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
+  - Transferred to PC Box 2 (6/20)
