@@ -199,3 +199,7 @@
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
   - Transferred to PC Box 2 (1/20)
+- POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
+  - Status: Healthy
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
+  - Transferred to PC Box 2 (2/20)

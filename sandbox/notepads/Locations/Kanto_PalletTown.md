@@ -23,4 +23,4 @@
   - Trial 1 [Turn 31778-31782]: Wild Tentacool Lv 15 (#072) caught with Ultra Ball.
   - Trial 2 [Turn 31793]: Not even a nibble.
   - Trial 3 [Turn 31796]: Not even a nibble.
-  - Trial 4 [Turn 31798-31799]: Wild Poliwag Lv 15 (#060) hooked.
+  - Trial 4 [Turn 31798-31824]: Wild Poliwag Lv 15 (#060) caught with Ultra Ball (slept with Lola's Lovely Kiss, chipped with Pound).
