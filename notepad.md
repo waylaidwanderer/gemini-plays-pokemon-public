@@ -6,10 +6,10 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte Lv 30 (1 open slot for Aerodactyl revival)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte (NAUTILUS) Lv 30, Aerodactyl Lv 30
 
 - Money: ¥6 [Turn 30688]
-- Pokédex: 20 Caught / 128 Seen
+- Pokédex: 21 Caught / 129 Seen
 
 ## Milestones
 
@@ -153,6 +153,11 @@
   - HP: Full
   - Moves: Water Gun, Withdraw, Horn Attack
   - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
+- AERODACTYL (Nickname: Pending PTERA) [Lv 30, Rock/Flying]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Wing Attack, Agility, Supersonic
+  - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 ## PC Box 1 Pokémon
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
@@ -4738,8 +4743,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [Completed Turn 30898]
 - [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
 - [x] Submit OLD AMBER to scientist [Completed Turn 30922]
-- [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [In Progress]
-- [ ] Nickname Aerodactyl as PTERA [Pending]
+- [x] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Completed Turn 30947]
+- [ ] Nickname Aerodactyl as PTERA [In Progress]
 
 ## Party & Inventory Logistics
 - Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30), 1 open party slot ready for Aerodactyl.
