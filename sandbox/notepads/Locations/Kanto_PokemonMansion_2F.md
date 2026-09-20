@@ -60,3 +60,4 @@
 - Note: Sample size (5 battles) is insufficient to determine full encounter tables or rule out rare spawns.
 
 - Grimer (Lv 31) [Encountered Turn 32427 at (8, 11)].
+- Grimer (Lv 31) [Encountered Turn 32441 at (7, 9)].
