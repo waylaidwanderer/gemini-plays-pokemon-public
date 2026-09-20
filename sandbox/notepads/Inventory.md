@@ -83,10 +83,6 @@
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
-  - Status: Healthy
-  - Moves: Growl, Scratch, Poison Sting, Body Slam
-  - Evolved from Nidorina via Moon Stone [Turn 31184]
 - VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
   - Status: Healthy
   - HP: 60 / 60
@@ -95,6 +91,10 @@
 
 
 ## PC Box 1 Pokémon
+- NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
+  - Status: Healthy
+  - Moves: Growl, Scratch, Poison Sting, Body Slam
+  - Evolved from Nidorina via Moon Stone [Turn 31184], Deposited Celadon PC [Turn 31187]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
