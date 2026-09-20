@@ -83,6 +83,8 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
   - Status: Healthy
+  - HP: 62 / 62
+  - Stats: Attack 32, Defense 59, Speed 37, Special 50 [Verified Lv 22 Turn 31246]
   - OT: TRAINER (IDNo. 37480, Boosted EXP)
   - Received: Cinnabar Lab Meeting Room in-game trade for Venonat (RADAR) [Turn 31235]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
