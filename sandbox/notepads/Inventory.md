@@ -3,7 +3,7 @@
 ## Bag Items
 1. POKé FLUTE [Key Item]
 2. MAX POTION x 1
-3. REVIVE x14
+3. REVIVE x 4
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
@@ -52,7 +52,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥2,906 [Turn 31089]
+- ¥10,406 [Turn 31274]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
