@@ -16,7 +16,9 @@
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+15. MOON STONE x1 [Withdrawn Celadon PC Turn 31173]
+## Inventory Capacity
+- Active Bag Items: 15 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -42,7 +44,7 @@
 - OLD ROD x1 (PC) [Stored Turn 12567]
 - TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
 - TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
-- MOON STONE x2 (PC) [Stored Turn 12205, Turn 24545]
+- MOON STONE x1 (PC) [Stored Turn 12205, Turn 24545]
 - RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
 - ELIXER x1 (PC) [Stored Turn 6588]
