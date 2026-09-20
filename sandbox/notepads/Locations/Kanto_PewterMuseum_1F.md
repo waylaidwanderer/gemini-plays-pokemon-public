@@ -15,6 +15,6 @@
 
 ## Eastern Research Chamber (Fossil Study Room)
 - Access: Accessed exclusively via exterior side door at Pewter City (19, 5) leading to interior mat at (16..17, 7).
-- Pedestal Landmark: Located at (16, 2), holding the display artifact: OLD AMBER!
-- Scientist 1: Stationed at (15, 2) facing East toward the Old Amber pedestal.
+- Pedestal Landmark: Located at (16, 2), display pedestal for OLD AMBER. Pedestal becomes empty once Old Amber is collected [Turn 30788].
+- Scientist 1: Stationed at (15, 2). Confides that amber contains Pokémon DNA and gives player OLD AMBER [Turn 30788] to have it examined at Cinnabar Pokémon Lab.
 - Scientist 2: Stationed at (17, 4) in southeast area of chamber.

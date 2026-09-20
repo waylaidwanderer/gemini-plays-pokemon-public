@@ -16,9 +16,10 @@
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
 15. HELIX FOSSIL [Key Item]
+16. OLD AMBER [Key Item, Received Pewter Museum 1F Turn 30788]
 
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 16 / 20 capacity used.
 ## Stored / PC Items
 - NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]

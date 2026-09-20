@@ -1,8 +1,8 @@
 # Quest Log: Prehistoric Fossil Revival (Omanyte & Aerodactyl)
 
 ## Strategic Objectives
-- [ ] Receive OLD AMBER from scientist in Pewter Museum eastern research chamber [In Progress]
-- [ ] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [Pending]
+- [x] Receive OLD AMBER from scientist in Pewter Museum eastern research chamber [Completed Turn 30788]
+- [ ] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [In Progress]
 - [ ] Enter Cinnabar Pokémon Lab, proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [Pending]
 - [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE and AERODACTYL, registering both in the Pokédex! [Pending]
 
