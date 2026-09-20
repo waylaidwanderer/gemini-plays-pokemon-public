@@ -151,12 +151,12 @@
 
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
   - Status: Healthy
-  - HP: Full
+  - HP: 67 / 67
   - Moves: Water Gun, Withdraw, Horn Attack
   - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
-  - HP: Full
+  - HP: 91 / 91
   - Moves: Wing Attack, Agility, Supersonic
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 ## PC Box 1 Pokémon
