@@ -6,7 +6,10 @@
 - [x] Purchase 21 Ultra Balls (¥1,200 each, total ¥25,200) [Turn 29994]
 - [x] Fly to Indigo Plateau via Farfetch'd (DUX) [Turn 30006]
 - [x] Enter Victory Road 2F via Route 23 North cave entrance at (14, 31) [Turn 30024]
-- [ ] Infiltrate Victory Road 2F and navigate to Moltres plateau (previously sighted Turns 15533, 16069, 17798, 19831)
+- [x] Ascend to 3F, activate Strength, and push Boulder (22, 15) into Pit Hole (23, 15) [Turns 30044, 30154]
+- [x] Drop through Pit Hole (23, 15) to 2F at (22, 16) [Turn 30159]
+- [x] Navigate 2F terrace via (21, 15) north and west to (14, 8) in visual contact with Moltres at (11, 5) [Turn 30181]
+- [ ] Approach and engage Legendary Bird MOLTRES
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)

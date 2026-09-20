@@ -17,14 +17,13 @@
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Plateau Barrier Block at (7, 10): Raised and blocking eastward passage on terrace [Visually confirmed Turn 30127]. Lowered only when Boulder 1 is placed on Switch Plate (3, 5). Col 6 has solid rock walls across rows 7-9, confirming southwest terrace (cols 1-6, rows 7-10) is completely enclosed and connects exclusively to the Southwest Basin via wooden staircase (1, 9).
-- Boulder 1: Located at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
   - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
   - North Terrace Cliff: Tile (1, 7) to (1, 6) is an impassable elevation cliff; player cannot jump down to (1, 6) from the terrace [Empirically verified Turn 30101].
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
-  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and dropped down to 2F (arriving at 23, 16).
+  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and re-executed Turn 30154, dropping down to 2F (arriving at 23, 16) [Turns 30154-30155].
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
 - Boulder 2: Initial position at (24, 10) in 1-tile choke point between Columns 22-23 and Ladder (26, 8) chamber. Can be displaced west to (22, 10) to open Column 23.

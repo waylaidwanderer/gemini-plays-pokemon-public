@@ -36,8 +36,6 @@
 
 - [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
 
-- [x] Catch wild Geodude in Mt. Moon [Turn 1197]
-
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 
 - [x] Exit Mt. Moon to Route 4 [Turn 1865]
@@ -70,8 +68,6 @@
 
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 
-- [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
-
 - [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
 
 
@@ -79,12 +75,8 @@
 
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 
-- [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
-
 
 - [x] Traverse Route 9 and reach Route 10 [Turn 4517]
-
-- [x] Enter Rock Tunnel on Route 10 [Turn 4547]
 
 - [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
 
@@ -126,7 +118,6 @@
 - [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
-- [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
