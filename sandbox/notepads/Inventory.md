@@ -226,3 +226,8 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
   - Transferred to PC Box 2 (7/20)
+
+- MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
+  - Status: Healthy
+  - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
+  - Transferred to PC Box 2 (8/20)

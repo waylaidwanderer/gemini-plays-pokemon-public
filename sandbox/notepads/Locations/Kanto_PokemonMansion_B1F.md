@@ -72,9 +72,9 @@
 
 ## Wild Encounters (Verified Species & Level Bands)
 - Encounter Trial Tracker (Total B1F Encounters Observed: 5):
-  - Magmar (Lv 38): 1 encounter [Turn 33033 at (22, 26) - ACTIVE BATTLE]
+  - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
   - Grimer (Lv 33): 2 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25)]
   - Vulpix (Lv 33-35): 2 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25)]
 - Unverified Target Species (Pending Capture):
-  - Magmar (#126) [Blue exclusive, rare - ENCOUNTERED Turn 33033]
+  - Magmar (#126) [CAUGHT Turn 33046, VULCAN Lv 38 in Box 2]
   - Weezing (#110) [Evolution of Koffing, rare]
