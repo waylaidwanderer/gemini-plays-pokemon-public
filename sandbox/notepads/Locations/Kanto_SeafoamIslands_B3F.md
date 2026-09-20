@@ -41,7 +41,6 @@
 - Row 12 Cliff: Impassable cliff elevation boundary separates water (row 11) from southern terrace (rows 12..14).
 ## Western Corridor & Ladder (5, 12) (Audited Turn 29665)
 - Western Highway: Cols 1..4 form an expansive open purple floor corridor spanning rows 4..12+.
-- Ladder at (5, 12): Ladder mounted at (5, 12).
 - Sunken Ladder Trench (Rows 6..7): Enclosed landing around ladder (8, 6); row 8 is an impassable south-facing cliff. Exited via wooden stairs at (6..7, 5) onto upper terrace (row 4).
 ## Southwest Boulder Puzzle Baseline (Audited Turn 29667)
 - Chamber Layout (Rows 13..16, Cols 0..9):
@@ -60,6 +59,5 @@
 - Tile (4, 13) Collision (Audited Turn 29676): Empirically verified solid rock wall collision from north at (4, 12). Row 13 across cols 0..7 is an impassable solid cliff boundary. The lower puzzle chamber (rows 14..16) is accessed via the Eastern Sector Corridor (cols 13..14, rows 11..14) turning west into rows 14..16.
 - Boulder Puzzle Progress (Turns 29707-29717):
   - Pit Hole 1 at (3, 16): FILLED! Boulder 1 pushed south from (3, 15) into hole [Turn 29707].
-  - Boulder 3: Displaced from (8, 14) -> (8, 15) -> (7, 15) -> (6, 15) [Turns 29715-29717]. Perfectly aligned directly north of Pit Hole 2 (6, 16).
-  - Pit Hole 2 at (6, 16): FILLED! Boulder 3 pushed south from (6, 15) into hole [Turn 29724].
+    - Pit Hole 2 at (6, 16): FILLED! Boulder 3 pushed south from (6, 15) into hole [Turn 29724].
   - PUZZLE SOLVED: Both boulders dropped through B3F pit holes (3, 16) and (6, 16) to dam the B4F rapid currents.

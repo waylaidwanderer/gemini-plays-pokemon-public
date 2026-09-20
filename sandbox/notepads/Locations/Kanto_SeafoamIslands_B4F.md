@@ -33,7 +33,6 @@
 - Boulders Dropped from B3F: Two boulders fell through holes (3, 16) and (6, 16) and landed at (4, 15) and (5, 15).
 - Rapid Currents Dammed: Subterranean water channel between (5, 14) and (5, 10) empirically confirmed calm with zero forced current movement [Turn 29731].
 - Hole Drop: Stepping into Pit Hole 2 (6, 16) on B3F drops player directly into water at (5, 14) on B4F in calm water.
-- Path to Articuno: Surfing north along cols 4..5 leads directly into the northwest lagoon where Articuno is located.
 ## Legendary Bird Articuno Sighting & Platform (Turn 29735)
 - Platform: Dry cavern terrace across cols 5..10, rows 0..2.
 - Access: Wooden dock stairs at (7, 3) connecting water at (7, 4) up to terrace at (7, 2).
