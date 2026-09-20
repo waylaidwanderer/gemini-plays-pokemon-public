@@ -6,10 +6,10 @@
 - [x] Initiate battle with Articuno [Turn 29745]!
 - [ ] Capture Articuno (Lv 50) with Ultra Ball
 
-## Operational Capture Thresholds & Live Combat Status [Turn 29821]
+## Operational Capture Thresholds & Live Combat Status [Turn 29912]
 - **Opponent State:** Wild ARTICUNO (Lv 50) weakened to ~65% HP.
-- **Active PokÃ©mon:** OMEGA (Mewtwo Lv 70) HP: 177 / 234, healthy and unfrozen.
+- **Active Pokémon:** OMEGA (Mewtwo Lv 70) HP: 113 / 234, healthy and unfrozen.
 - **Ultra Ball Stock:** 19 Ultra Balls remaining in Bag (Slot 11).
-- **Damage Restriction:** Do NOT attack with Swift or any damaging moves (risk of fainting Articuno). Rely strictly on Ultra Balls.
-- **Mewtwo Sustain Protocol:** Mewtwo HP is 176/234. Peck deals 12-14 damage, Ice Beam deals 31-35 damage. If Mewtwo HP drops below 80 HP, use Recover (Slot 4 in move menu) or Full Restore (Slot 7 in Bag, 11 available).
-- **Current Battle Phase:** Executing Recover to heal Mewtwo to ~190 HP before resuming Ultra Ball capture.
+- **Damage Restriction:** Swift deals 44-52 damage (crit 88-104 damage). Currently Articuno has ~105-115 HP, so a crit Swift could faint it! Rely strictly on Ultra Balls unless calculated otherwise.
+- **Mewtwo Sustain Protocol:** Mewtwo HP is 113/234. Peck deals 12-14 damage (crit 24-28), Ice Beam deals 31-35 damage (crit 63-70). Because a critical hit Ice Beam can inflict up to 70 damage, sustain threshold is 100 HP. If Mewtwo HP drops below 100 HP, use Recover (Slot 4 in move menu, 18/20 PP) or Full Restore (Slot 7 in Bag, 9 available).
+- **Current Battle Phase:** Throwing Ultra Ball from Bag menu (Slot 11).
