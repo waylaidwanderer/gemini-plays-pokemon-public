@@ -47,7 +47,5 @@
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
 - [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
-- [x] Catch wild Ponyta on Pokémon Mansion 1F with Ultra Ball [Turn 31386]
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
-- [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
