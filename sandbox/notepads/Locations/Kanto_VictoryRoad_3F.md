@@ -23,7 +23,7 @@
   - North Terrace Cliff: Tile (1, 7) to (1, 6) is an impassable elevation cliff; player cannot jump down to (1, 6) from the terrace [Empirically verified Turn 30101].
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
-  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and re-executed Turn 30154, dropping down to 2F (arriving at 23, 16) [Turns 30154-30155].
+  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15), dropping down to 2F (arriving at 23, 16).
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
 - Boulder 2: Initial position at (24, 10) in 1-tile choke point between Columns 22-23 and Ladder (26, 8) chamber. Can be displaced west to (22, 10) to open Column 23.
