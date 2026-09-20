@@ -484,8 +484,7 @@
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
 - PokÃ©mon (1, 3): Jigglypuff standing next to trainer at (0, 4).
-## Route 3 Border Connection
-- Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge, but tile (31, 7) is a passable brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into row 6 northern courtyard without needing Cut! Trees at (27, 6..7) are decorative obstacles, not cuttable trees.
+## Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge, but tile (31, 7) is a passable brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into row 6 northern courtyard without needing Cut! Trees at (27, 6..7) are decorative obstacles, not cuttable trees.
 
 <hr>
 
@@ -4732,7 +4731,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Completed Turn 30654]
 - [x] Exit Indigo Plateau lobby to exterior map (9, 6) [Completed Turn 30657]
 - [x] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Completed Turn 30666]
-- [ ] In Pewter City, navigate north to Museum side entrance, use Cut with Farfetch'd to bypass tree obstacle, and obtain OLD AMBER from scientist [Pending]
+- [ ] In Pewter City, navigate via (31, 7) ramp to (27, 4), cut tree at (26, 4) with DUX, enter side door at (19, 5), and receive OLD AMBER [In Progress]
 - [ ] Cast HM02 FLY to travel to Cinnabar Island [Pending]
 - [ ] Enter Cinnabar Pokémon Lab, proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [Pending]
 - [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE and AERODACTYL, registering both in the Pokédex! [Pending]
