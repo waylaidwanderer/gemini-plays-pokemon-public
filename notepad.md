@@ -3583,7 +3583,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 28-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 22 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 23 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
@@ -4990,7 +4990,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Magmar: 0 encounters across 22 trials on 2F; B1F primary habitat.
+- Magmar: 0 encounters across 23 trials on 2F; B1F primary habitat.
 
 
 <hr>
