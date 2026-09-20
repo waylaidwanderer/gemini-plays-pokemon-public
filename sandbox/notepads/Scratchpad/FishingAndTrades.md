@@ -20,7 +20,3 @@
 ## Viridian City Freshwater Pond Super Rod Trials
 - Trial 1 [Turn 31871]: Not even a nibble.
 - Trial 2 [Turn 31873]: Not even a nibble.
-- Trial 3 [Turn 31875]: Not even a nibble.
-- Trial 4 [Turn 31878]: Hooked wild POLIWAG (duplicate, fleeing to conserve balls).
-- Trial 5 [Turn 31883]: Not even a nibble.
-- Trial 6 [Turn 31886]: Hooked wild TENTACOOL (duplicate, fleeing). Table confirmed: Poliwag & Tentacool (exhausted).
