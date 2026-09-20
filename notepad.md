@@ -3871,7 +3871,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Lower Corridor (Row 16): Divided into western section (cols 1-4) and eastern section (cols 9-29) by rock barriers.
   - Wooden Staircases: (5, 10) connects row 8/9 plateau to row 11; (15, 15) connects row 14 to row 16; (21, 15) connects row 16 to row 14 plateau.
   - Central Terrace: Rows 12-14 connect west across row 12 into column 13-14 terrace avenue (rows 8-14). Row 8 northern edge is an impassable elevation cliff separating the terrace from the lower Moltres chamber (row 7) [Empirically verified Turn 30183]. Plateau Barrier at (7, 8)-(7, 9) is raised and impassable [Empirically verified Turn 30186].
-  - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 wall, opening north into rows 0-3 [Visually verified Turn 30188]. Direct ground routing from Ladder (23, 7) remains an active hypothesis under investigation.
+  - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 continuous rock wall (rows 0-7), opening exclusively northwest into rows 0-3 of the Northwest Chamber. Direct ground routing from eastern sector (cols 15-29) is blocked by the col 14 divider [Disproved Turns 30499-30501]. Access requires descending from 3F Northwest Ladder (2, 0) into 2F Northwest Chamber (1, 1).
 - Boulders & Switch Plates:
   - Boulder 3 on Switch Plate A (1, 16): Temporarily lowers Plateau Barrier at (7, 8)-(7, 9) for current session (resets upon leaving/reloading 2F).
   - Negative Collision at (1, 13): Solid rock wall blocks north-to-south pushing along column 1; pushing boulder west along row 14 to (1, 14) traps it in corner [Verified Turn 30459].
@@ -3910,6 +3910,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+## Verified Negative Collision Boundaries
+- Cliff at (19, 11): Impassable elevation cliff blocks north progression from row 12 terrace into row 11 lower floor [Turn 30494].
+- Column 14 Rock Divider: Continuous solid rock wall along column 14 (rows 0-7) completely separates eastern sector from Moltres chamber [Turns 30499-30501].
+- Row 6 Barrier at (27, 6): Solid rock wall along row 6 blocks northern ground access to Northeast Chamber and ladder (27, 7) [Turn 30504].
+- Row 4 Barrier at (21, 4): Solid rock wall along row 4 blocks column 21 progression south of row 3 [Turn 30509]. Column 17 provides the open corridor connecting row 3 south to row 7.
 
 <hr>
 
@@ -4753,8 +4758,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Strategic Objectives
 - [x] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8) [Completed Turn 30447]
 - [x] Solve Switch Plate A puzzle: pushed Boulder (4, 14) south to row 16, then west onto Switch Plate A (1, 16), lowering Plateau Barrier at (7, 8)-(7, 9) [Completed Turn 30476]
-- [ ] Ascend wooden staircase (5, 10) onto plateau (5, 9), walk east across lowered barrier (7, 8)-(7, 9) into eastern sector
-- [ ] Traverse Column 16 Highway north to Row 1, walk west to Moltres at (11, 5)
+- [x] Ascend wooden staircase (5, 10) onto plateau (5, 9) and cross lowered barrier (7, 8)-(7, 9) into eastern sector [Turn 30483]
+- [ ] Navigate via Column 17 to Ladder (23, 7) and ascend to 3F
+- [ ] On 3F, traverse Northern Highway (rows 0-1) west to Northwest Ladder (2, 0)
+- [ ] Descend to 2F Northwest Chamber (1, 1) and walk east across rows 1-3 straight to Moltres at (11, 5)
+- [ ] Weaken Moltres with Swift and capture with Ultra Balls
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
