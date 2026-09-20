@@ -50,7 +50,6 @@
 
 - [x] Obtain Bike Voucher from Pok��mon Fan Club Chairman in Vermilion City [Turn 2796]
 
-- [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 
 
 
@@ -67,8 +66,6 @@
 
 
 
-- [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
-- [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
 - [x] Rescue Mr. Fuji from Pok�mon Tower and obtain Pok� Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
@@ -76,11 +73,9 @@
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
-- [x] Obtain Card Key on Silph Co 5F [Turn 12763]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
-- [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
@@ -3857,6 +3852,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau. Lowered/removed by placing Boulder 1 on switch plate at (17, 13) [Verified Turn 15465].
 - Plateau Access: Stairs/ladder at (5, 13) connects lower floor (5, 14) to elevated plateau (5, 12).
 - Boulder 1 (Entrance Boulder): Resets to (5, 15) upon entering/reloading 1F. Pushing onto switch plate at (17, 13) via Row 16, Row 14, and Row 12 temporarily lowers Plateau Barrier Block at (9, 12) for the current session. Plateau Barrier Block is raised by default on map load [Verified Turn 30356].
+  - Verified Step-by-Step Displacement Sequence [Turns 30371-30391]:
+    1. Player loops via col 4 to (5, 14), faces South, and pushes Boulder 1 from (5, 15) down to (5, 16) on Row 16.
+    2. Player loops to (4, 16), faces East, and pushes Boulder 1 east along Row 16: (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16).
+    3. Player steps to (9, 17), faces North, and pushes Boulder 1 north along col 9: (9, 16) -> (9, 15) -> (9, 14) onto Row 14.
+    4. Player loops via col 8 to (8, 14), faces East, and pushes Boulder 1 east along Row 14: (9, 14) -> (10, 14) -> (11, 14) -> (12, 14) -> (13, 14) -> (14, 14) -> (15, 14) -> (16, 14).
+    5. Player steps to (16, 15), faces North, and pushes Boulder 1 north along col 16: (16, 14) -> (16, 13) -> (16, 12) onto Row 12.
+    6. Next: Player loops via (15, 12) to push Boulder 1 East into (17, 12), then loops to (17, 11) to push South onto Switch Plate (17, 13).
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
@@ -3875,7 +3877,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Graveler (observed Turn 15389).
 - Geodude (observed Turn 15408).
 - Machop (observed Turn 15442).
-
 
 <hr>
 
@@ -3901,7 +3902,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 wall, opening north into rows 0-3 [Visually verified Turn 30188]. Direct ground routing from Ladder (23, 7) remains an active hypothesis under investigation.
 - Boulders & Switch Plates:
   - Boulder 3 on Switch Plate A (1, 16) permanently lowers Plateau Barrier at (7, 8)-(7, 9) [Turn 24199].
-  - Boulder from 3F dropped through Pit Hole (23, 15) down to 2F at (23, 16). Pushed onto Switch Plate B at (9, 16) [Turn 24445], permanently lowering Barrier Block at (23, 14) and opening access to Exit Ladder at (25, 14).
+  - Boulder from 3F dropped through Pit Hole (23, 15) down to 2F at (23, 16). Pushed onto Switch Plate B at (9, 16) [Turn 24445], temporarily lowering Barrier Block at (23, 14) for the current session (resets upon leaving/re-entering 2F) and opening access to Exit Ladder at (25, 14).
 - Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East exits onto Route 23 North at (14, 31) [Turn 24494].
 
 ## Legendary Pokémon
@@ -4773,10 +4774,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Legendary Fire Bird Moltres & Victory Road 2F
 
 ## Active Strategic Objectives
-- [x] Warped to Viridian City with full health and 21 Ultra Balls [Turn 30268]
-- [x] Mount Bicycle in Viridian City [Turn 30275]
-- [ ] Ride west along Route 22 to Pokémon League Reception Gate
-- [ ] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17)
+- [x] HM04 Strength active on Victory Road 1F [Cast Turn 30364 by ROCKY]
+- [x] Ride west along Route 22 to Pokémon League Reception Gate [Turn 30325]
+- [x] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17) [Turn 30356]
 - [ ] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8)
 - [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
