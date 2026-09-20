@@ -44,3 +44,4 @@
 - [Turn 30586] Mewtwo (93/234 HP) selected Recover to safely restore health to ~210 HP.
 - [Turn 30589] Threw Ultra Ball #15 at wild Moltres (HP ~58%). Ball missed. 6 Ultra Balls remaining.
 - [Turn 30591] Threw Ultra Ball #16 at wild Moltres (HP ~58%). Ball missed. 5 Ultra Balls remaining.
+- [Turn 30593] Threw Ultra Ball #17 at wild Moltres (HP ~58%). Ball missed. 4 Ultra Balls remaining.
