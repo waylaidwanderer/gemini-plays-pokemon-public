@@ -4681,6 +4681,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Staryu [Encountered Turn 29202].
 - Seel (Lv 31) [Encountered Turn 29420].
 
+## Eastern Chamber Architecture [Verified Turn 29473]
+- Eastern Elevated Terrace: Cols 23..26, rows 3..5. Ladder mounted at (25, 3).
+- Wooden Stairs: Located at (25, 5), provides two-way passage between terrace (row 4) and central basin (row 6).
+- Central Basin: Open cave floor spanning cols 22..27, rows 6..9.
+- Black Tunnel Openings: Doorway at (22, 6) connects through col 20-21 rock divider to reciprocal opening at (19, 6).
+- Lower Plateau: Cols 23..26, rows 10..13 with ladder at (25, 11).
+- Western Corridors: Cols 18..21 at rows 3..5 open west toward primary ascent ladder at (8, 6).
+
 
 <hr>
 
