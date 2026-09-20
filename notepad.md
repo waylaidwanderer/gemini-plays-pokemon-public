@@ -149,7 +149,7 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- PSYDUCK (Nickname: pending) [Lv 15, Water]
+- PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
 
@@ -231,7 +231,6 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
-
 
 <hr>
 
