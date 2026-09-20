@@ -3325,7 +3325,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
 - Eastern Shoreline: Column 20 is the eastern cliff/water boundary connecting to Route 20 [Verified Turn 13682].
 - Cinnabar Pokémon Center: Located at columns 10 to 13, rows 8 to 11, marked with "POKé" on facade at (12, 11). Entrance door at (11, 11) [Verified Turn 13684].
-- Pokémon Lab: Located in southwest at columns 4 to 9, rows 8 to 9. Entrance door at (6, 9) approached from south via row 10..12 grass [Verified Turn 30808].
+- Southwest Facility (Candidate Pokémon Lab): Building occupying columns 4 to 9, rows 8 to 9. Exterior entrance door located at (6, 9) approached from south via row 10..12 grass [Visually confirmed Turn 30808]. Interior identity pending map transition.
 
 <hr>
 
@@ -4732,13 +4732,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Strategic Objectives
 - [x] Receive OLD AMBER from scientist in Pewter Museum eastern research chamber [Completed Turn 30788]
-- [ ] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [In Progress]
-- [ ] Enter Cinnabar Pokémon Lab, proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [Pending]
+- [x] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [Completed Turn 30806]
+- [ ] Enter Cinnabar Pokémon Lab via door at (6, 9), proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [In Progress]
 - [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE and AERODACTYL, registering both in the Pokédex! [Pending]
 
 ## Party & Inventory Logistics
 - Party status: 4 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70), 2 open party slots ready for revived Pokémon.
-- Bag key items: HELIX FOSSIL in bag; OLD AMBER receiving now.
+- Bag key items: HELIX FOSSIL in bag (Slot 15); OLD AMBER in bag (Slot 16).
 - Required Field Moves: HM02 FLY known by Farfetch'd (DUX).
 
 
