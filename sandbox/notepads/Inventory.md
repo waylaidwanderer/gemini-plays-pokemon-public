@@ -85,6 +85,11 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
+- OMANYTE (Nickname: Pending NAUTILUS) [Lv 30, Rock/Water]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Water Gun, Withdraw, Horn Attack
+  - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
 ## PC Box 1 Pokémon
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy

@@ -8,11 +8,11 @@
 - Reception NPC: Stationed at (1, 3) facing South.
 - Main Corridor: 3-tile wide hallway spanning rows 5..7 extending east past column 7 toward the facility's research rooms.
 
-## Rooms (Pending Traversal)
+## Facility Rooms
 - Meeting Room: First door along hallway, entrance located at (8, 4) with sign at (9, 4) [Verified Turn 30819].
 - R&D Room: Second door along hallway, entrance located at (12, 4) with sign at (13, 4) [Verified Turn 30822].
 ## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Open checkered floor across row 6 (cols 0..6), row 7 (cols 0..7), and northern aisle (cols 4..5, rows 2..5).
 - Trader NPC: Stationed at (7, 6) in front of eastern terminal (seeks Ponyta for trade).
-- Fossil Revival Scientist: Wandering along row 2 (cols 3..7), currently at (7, 2). Talk from (6, 2) facing East or (7, 3) facing North to revive fossils!
+- Fossil Revival Scientist: Wanders along the northern aisle (row 2, cols 0..7). Talk to him to revive prehistoric fossils into Pokémon!
