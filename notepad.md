@@ -65,17 +65,20 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x 4
-8. PP UP x1
-9. MAX ELIXER x1
-10. CARBOS x1
-11. HP UP x1
+8. PP UP x 1
+9. MAX ELIXER x 1
+10. CARBOS x 1
+11. HP UP x 1
 12. HM02 [Key Item]
-13. GUARD SPEC. x1
-14. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
-15. TM35 (METRONOME) x1 [Received Cinnabar Lab R&D Room Turn 31210]
-16. ULTRA BALL x 12 [Purchased Cinnabar Poké Mart Turn 31292]
+13. RARE CANDY x 1
+14. GUARD SPEC. x 1
+15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
+16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+17. ULTRA BALL x 12 [Purchased Cinnabar Poké Mart Turn 31292]
+
 ## Inventory Capacity
-- Active Bag Items: 16 / 20 capacity used.
+- Active Bag Items: 17 / 20 capacity used.
+
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -133,7 +136,7 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
   - EXP: 125 (91 to Lv 6)
-- BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
+- BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
@@ -143,7 +146,6 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-
 
 ## PC Box 1 Pokémon
 - TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
