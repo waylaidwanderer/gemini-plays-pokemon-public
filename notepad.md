@@ -4988,6 +4988,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 4 | PONYTA (#077) | 36 | (9, 9) | Turn 32455 | Fled (Duplicate species) |
 | 5 | VULPIX (#037) | 33 | (7, 8) | Turn 32459 | Broke out 1 Ultra Ball; used Roar |
 | 6 | PONYTA (#077) | 32 | (7, 9) | Turn 32465 | Fled (Duplicate species) |
-| 7 | KOFFING (#109) | ? | (6, 9) | Turn 32471 | In Progress (Turn 32471) |
+| 7 | KOFFING (#109) | 34 | (6, 9) | Turn 32471 | In Progress (Turn 32471) |
 
 <hr>
