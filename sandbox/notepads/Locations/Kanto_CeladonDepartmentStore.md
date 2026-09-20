@@ -12,11 +12,12 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Structure to west: Panel at (11, 2..3) (possible elevator).
 
 ## 2F: Trainer's Market
-- Stairs down to 1F: Located at (12, 1).
-- Floor Sign: Located at (14, 1) on north wall.
-- Stairs up to 3F: Located at (16, 1).
+- Floor Sign: Located at (14, 1) on north wall ("2F: TRAINER'S MARKET - Top Grade Items for Trainers!").
+- Escalators / Stairs: Structures at (12, 1) and (16, 1) along row 1. Stepping north from row 2 resulted in solid collision [Turns 32145, 32152], indicating down-escalator landings or directional barriers.
+- Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks at (5, 3) and (6, 3) facing South, operated from row 5 facing North [Observed Turn 32154].
 - Aisles & Shelves: Glass display cases at rows 3..4 and row 6 (cols 10..13 and 16..17).
-- Walkways: Main aisle across row 2; center walkway across cols 14..15.
+- Walkways: Main upper aisle across row 2; center walkway across cols 14..15; lower aisle along row 5.
+- Elevator: Entrance at (1, 1) with call button at (2, 1).
 - NPC: Trainer at (14, 3) facing right.
 
 ## 3F: TV Game Shop
@@ -71,8 +72,11 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Rooftop Railing: South border along row 7.
 - Sky Border: Deep blue open sky along north and east edges.
 
-## Elevator
-- Location: Column 1, Row 1 across all floors.
-- Call Panel: Located at (2, 1) on north wall.
-- Entrance: Stepping North from (1, 2) into (1, 1) enters the elevator cabin.
-- Destination Floors: 1F, 2F, 3F, 4F, 5F [Verified Turn 32155].
+## Elevator Telemetry & Mechanics
+- Floor Doorways: Located at (1, 1) across floors 1F through 5F on the far western wall.
+- External Call Panel: Located at (2, 1) on north wall.
+- Cabin Interior:
+  - Dimensions: Cols 0..3, Rows 1..3 with blue-and-white checkered floor.
+  - Control Panel: Mounted at (3, 0) on north wall, operated from (3, 1) facing North.
+  - Destination Floors: 1F, 2F, 3F, 4F, 5F [Verified Turn 32158].
+  - Exit Doorway: Red doormat at (2, 3), stepping South warps player to (1, 2) on the destination floor [Verified Turn 32160].
