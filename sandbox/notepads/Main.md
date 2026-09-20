@@ -1,19 +1,19 @@
-# Pokémon Blue - Journey Log
+# PokÃ©mon Blue - Journey Log
 
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Jynx (LOLA) Lv 23 (6 in party)
-- Money: ¥3,506 [Turn 31292]
-- Pokédex: 30 Caught / 136 Seen [Turn 31637]
+- Money: ¥506 [Turn 31760]
+- PokÃ©dex: 30 Caught / 136 Seen [Turn 31637]
 
 ## Milestones
 
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
-- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
+- [x] Receive Starter PokÃ©mon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 - [x] Reach Viridian City via Route 1 [Turn 132]
-- [x] Obtain Pokédex from Prof. Oak [Turn 214]
+- [x] Obtain PokÃ©dex from Prof. Oak [Turn 214]
 - [x] Reach Pewter City [Turn 495]
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
@@ -21,7 +21,7 @@
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 - [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
-- [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
+- [x] Rescue Mr. Fuji from PokÃ©mon Tower and obtain PokÃ© Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
@@ -35,9 +35,9 @@
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
 - [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
 - [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
-- [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
-- [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
-- [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
+- [x] Defeat PokÃ©mon Champion RED and become PokÃ©mon League Champion! [Turn 24981]
+- [x] Inducted into PokÃ©mon Hall of Fame! [Turn 24994]
+- [x] Catch legendary PokÃ©mon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
@@ -47,7 +47,7 @@
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
 - [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
-- [x] Catch wild Ponyta on Pokémon Mansion 1F with Ultra Ball [Turn 31386]
+- [x] Catch wild Ponyta on PokÃ©mon Mansion 1F with Ultra Ball [Turn 31386]
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
 - [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 - [x] Catch wild Krabby in Cerulean Gym pool with Ultra Ball [Turn 31540]

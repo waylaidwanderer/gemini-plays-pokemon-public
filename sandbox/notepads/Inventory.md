@@ -1,13 +1,13 @@
 # Inventory Log
 
 ## Bag Items
-1. POKé FLUTE [Key Item]
+1. POKÃ© FLUTE [Key Item]
 2. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177, swapped to Slot 2 Turn 31561]
 3. REVIVE x 4
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
-7. FULL RESTORE x 2 [Sold 2 at Cinnabar Mart Turn 31753 for �3,000]
+7. FULL RESTORE x 2 [Sold 2 at Cinnabar Mart Turn 31753 for ¥3,000]
 8. PP UP x 1
 9. MAX ELIXER x 1
 10. CARBOS x 1
@@ -17,7 +17,7 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 2 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539, 3 used on Slowpoke Turns 31626/31630/31636]
+17. ULTRA BALL x 6 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 from prior reserve]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
@@ -55,9 +55,9 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥3,506 [Turn 31292]
+- Â¥3,506 [Turn 31292]
 
-## Party Pokémon
+## Party PokÃ©mon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
@@ -99,7 +99,7 @@
   - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
 
 
-## PC Box 1 Pokémon
+## PC Box 1 PokÃ©mon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
