@@ -3540,7 +3540,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Tile (6, 1) is the arrival landing from 3F descent [Turn 13997]; tested Up from (6, 1) into (6, 0) on Turn 32557 (impassable north wall, no ascending warp). Ascending staircase to 3F is located at (25, 14) in the Southeast Chamber.
+- Northwest Bedroom (cols 0-8, rows 0-9): Tile (6, 1) is the arrival landing from 3F descent [Turn 13997]; tested Up from (6, 1) into (6, 0) on Turn 32557 (impassable north wall, no ascending warp).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
@@ -3583,7 +3583,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 16 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 19 observed encounters (Turn 32553 Grimer Lv 28, Turn 32558 Ponyta Lv 32, Turn 32636 Grimer Lv 34); B1F survey recommended if not found here.
 
 <hr>
 
