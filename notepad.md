@@ -3736,7 +3736,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Muk (Lv 40): 1 encounter [Turn 33067 at (22, 26)]
   - Ponyta (Lv 32): 1 encounter [Turn 33057 at (24, 25)]
   - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
-  - Grimer (Lv 33): 5 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25), Turn 33063 at (22, 26), Turn 33075 at (22, 26), Turn 33081 at (25, 25) - ACTIVE FLEE]
+  - Grimer (Lv 31-33): 5 encounters [Turn 33020 Lv 33 at (25, 26), Turn 33023 Lv 33 at (25, 25), Turn 33063 Lv 33 at (22, 26), Turn 33075 Lv 33 at (22, 26), Turn 33081 Lv 31 at (25, 25)]
   - Vulpix (Lv 33-35): 2 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25)]
 - Unverified Target Species (Pending Capture):
   - Weezing (#110) [Evolution of Koffing, rare]
