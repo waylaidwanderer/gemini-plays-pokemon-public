@@ -4946,5 +4946,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Trial 1 [Turn 31871]: Not even a nibble.
 - Trial 2 [Turn 31873]: Not even a nibble.
 - Trial 3 [Turn 31875]: Not even a nibble.
+- Trial 4 [Turn 31878]: Hooked wild POLIWAG (duplicate, fleeing to conserve balls).
 
 <hr>
