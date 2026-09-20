@@ -23,7 +23,7 @@
   - Attempting to Surf north from (7, 6) into canal at (7, 5) yields 'No SURFing on SHELDON here!'.
   - Confirms active rapid water currents in northwest canal block water traversal to Articuno.
   - Boulders must be dropped from upper floors (B3F) to dam the currents.
-  - Ladder at (8, 6) [Corrected Turn 29201]: Primary ascent ladder to B3F puzzle chamber.
+  - Ladder at (11, 7) [Audited Turn 29647]: Ascent ladder to B3F puzzle chamber, located at (11, 7) directly south of row 6 corridor.
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29464]
 - Staryu [Encountered Turn 29202].
