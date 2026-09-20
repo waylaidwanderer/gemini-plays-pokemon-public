@@ -37,7 +37,7 @@
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
     - PC Terminal: Located on east wall at (13, 3..4). Accessible by standing at (13, 4) facing North at monitor (13, 3), or at (12, 3) facing East.
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKÃ©MON GYM / LEADER: MISTY".
-- Central pool spanning rows 9..11 with central pier at cols 4..5. Stationed at pier edge (4, 9) facing West into pool water at (3, 9). Empirically verified Turn 31481: Super Rod casts successfully into Gym pool ('BLUE used SUPER ROD! / Not even a nibble!'). Indoor fishing is 100% permitted by the Gen 1 engine.
+- Central pool spanning rows 9..11 with central pier at cols 4..5. Stationed at pier edge (4, 9) facing West into pool water at (3, 9). Empirically verified Turn 31481: Super Rod casts successfully into Gym pool ('BLUE used SUPER ROD! / Not even a nibble!'). Indoor fishing is 100% permitted by the Gen 1 engine. Wild encounter verified Turn 31489: Psyduck (Lv 15) hooked via Super Rod in Gym pool!
   - Gym Guide Advice: Leader Misty specializes in Water-type PokÃ©mon; recommends Grass (plant) and Electric types as counters.
   - Gym Trainers:
     - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: Â¥80. Defeated Turn 2005.
