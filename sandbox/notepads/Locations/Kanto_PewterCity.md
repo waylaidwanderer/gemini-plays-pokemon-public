@@ -66,3 +66,4 @@
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Route 3 Border Connection
 - Eastern Exit Corridor (Rows 16..19, Cols 32..39): 4-tile wide east-west thoroughfare connecting directly to Route 3. Passes the notice signpost at (33, 19). Fully passable at (32..33, 18).
+- Museum Side Ledge: Row 7 across columns 18..24 is an impassable south-facing jump ledge blocking direct northbound access to Museum side door at (19, 5) [Empirically verified Turn 30673]. Access requires bypassing east via rows 10-11 avenue to the northeast cuttable tree corridor.
