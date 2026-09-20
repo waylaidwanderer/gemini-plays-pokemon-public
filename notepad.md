@@ -3933,6 +3933,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Column 16 Highway: Open north-south corridor connecting Row 11 north to Row 1.
   - Lower Corridor (Row 16): Divided into western section (cols 1-4) and eastern section (cols 9-29) by rock barriers.
   - Wooden Staircases: (5, 10) connects row 8/9 plateau to row 11; (15, 15) connects row 14 to row 16; (21, 15) connects row 16 to row 14 plateau.
+  - Central Terrace Highway: Columns 13-14 form a continuous elevated terrace avenue (rows 8-14) connecting Row 12 directly north past Blackbelt (12, 9) onto the northern plateau where Moltres resides at (11, 5) [Turn 30174].
 - Boulders & Switch Plates:
   - Boulder 3 on Switch Plate A (1, 16) permanently lowers Plateau Barrier at (7, 8)-(7, 9) [Turn 24199].
   - Boulder from 3F dropped through Pit Hole (23, 15) down to 2F at (23, 16). Pushed onto Switch Plate B at (9, 16) [Turn 24445], permanently lowering Barrier Block at (23, 14) and opening access to Exit Ladder at (25, 14).
