@@ -3545,7 +3545,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
-- Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11) (neither contains a switch, tested Turns 13838-13841), plants at (13, 8) and (13, 10), wall dividing at column 14 (rows 8-11), tables/desks at (15-17, 5) and (15-17, 8-10), machine at (15, 11), and open east corridors along rows 6-7 connecting into columns 18-19 [Verified Turn 13849].
+- Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11). Statue at (13, 11) tested from (13, 12) facing North on Turn 32546; confirmed NO switch.
 - Open corridors span columns 18-21 across rows 3, 4, 6, 7, 9, 10, 11 [Verified Turn 13851].
 - Display tables at (20-21, 5) and (20-21, 8).
 - Rubble barrier along columns 22-23 (rows 4-5, 8-11).
@@ -3581,7 +3581,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 15 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 16 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
@@ -4995,5 +4995,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 13 | VULPIX (#037) | 33 | (8, 9) | Turn 32504 | CAUGHT! (Turn 32507, 1 Ultra Ball, KITSUNE) |
 | 14 | VULPIX (#037) | 32 | (20, 4) | Turn 32532 | Fled (Duplicate species) |
 | 15 | GRIMER (#088) | 30 | (12, 10) | Turn 32543 | Fled (Duplicate species) |
+| 16 | VULPIX (#037) | ? | (10, 14) | Turn 32548 | In Progress (Turn 32548) |
 
 <hr>
