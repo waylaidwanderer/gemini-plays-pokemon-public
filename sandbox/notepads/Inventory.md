@@ -8,10 +8,10 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
-(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, CARBOS x1, HP UP x1, HM02)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x21)
 
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+- Active Bag Items: 13 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -53,7 +53,7 @@
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Turn 29289]
+  - HP: 234 / 234 [Healed Turn 29983]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
@@ -112,7 +112,7 @@
   - Status: Healthy
   - Caught: Safari Zone Area 1 tall grass [Turn 7549]
   - Transferred to PC Box 1 (Active Party full)
-- VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
+- VENONAT (RADAR) [Lv 22, Bug/Poison]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 7581]
   - Transferred to PC Box 1 (Active Party full)
