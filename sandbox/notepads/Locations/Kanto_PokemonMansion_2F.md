@@ -54,6 +54,7 @@
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
-## Wild Encounters (Empirically Verified)
-- Grimer (Lv 28-30) [Turns 31332-31348].
-- Vulpix (Lv 30-32) [Turns 31332-31348].
+## Wild Encounters (Preliminary Observations)
+- Grimer (Lv 28-30) [Observed 1 trial, Turns 31332-31348].
+- Vulpix (Lv 30-32) [Observed 4 trials, Turns 31332-31348].
+- Note: Sample size (5 battles) is insufficient to determine full encounter tables or rule out rare spawns.

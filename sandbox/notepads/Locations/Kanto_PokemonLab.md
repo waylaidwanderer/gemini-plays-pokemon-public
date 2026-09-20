@@ -8,15 +8,17 @@
 - Main Corridor: 3-tile wide hallway spanning rows 5..7 extending east past column 7 toward the facility's research rooms.
 
 ## Facility Rooms
-- Meeting Room (Rows 0..7, Cols 0..7): First door along hallway at (8, 4), entrance mat at (2..3, 7) [Entered Turn 31215].
+### Meeting Room (Rows 0..7, Cols 0..7)
+First door along hallway at (8, 4), entrance mat at (2..3, 7) [Entered Turn 31215].
   - Layout: Large wooden conference table at cols 3..5, rows 3..4 with chairs.
   - Old Man Trade NPC: Located at (1, 4) facing South; trades RAICHU for ELECTRODE (DORIS, #101) [Verified Turn 31218].
   - Boy NPC: Seated at table at (3, 2).
   - Girl Trade NPC: Seated at table at (5, 5); trades VENONAT for TANGELA (CRINKLES, #114).
-- R&D Room (Rows 0..7, Cols 0..7): Second door along hallway at (12, 4), entrance mat at (2..3, 7) [Entered Turn 31206].
+### R&D Room (Rows 0..7, Cols 0..7)
+Second door along hallway at (12, 4), entrance mat at (2..3, 7) [Entered Turn 31206].
   - Metronome Researcher: Stationed at (7, 2) in front of computer terminal; gave TM35 (Metronome) [Turn 31210].
   - Eevee Evolution Researcher: Wanders rows 2..3 (cols 0..5); discusses Eevee evolutions [Turn 31212].
-## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
+### Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Northern aisle spans horizontally across row 2 (cols 0..7) and connects to vertical central aisles (cols 4..5, rows 2..7) and southern open floor on rows 6..7.
 - Trader NPC: Stationed at (7, 6) in front of eastern terminal; traded his SEEL (SAILOR) for player's PONYTA (BLAZE) [Completed Turn 31425].
