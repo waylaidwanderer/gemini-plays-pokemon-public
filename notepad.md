@@ -273,6 +273,13 @@
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
 
+## PC Storage & Menu Mechanics (Generation 1 Retail)
+- **Chronological Storage Order:** In Gen 1 retail, items deposited into the player's PC (BLUE's PC) and Pokémon deposited into BILL's PC boxes are appended to the list in strictly chronological order of deposit.
+- **Item Storage Withdrawal:** When withdrawing items from BLUE's PC, single-quantity items withdraw immediately upon confirmation, while stacked items prompt for quantity (x01..x99). Withdrawn items are placed into the next available Bag slot.
+- **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
+- **Party Space Prerequisite:** In BILL's PC, selecting WITHDRAW PKMN when the active party is full (6 Pokémon) displays 'Your party is full!' and denies withdrawal. The player must use DEPOSIT PKMN first to free party slots.
+- **Batched Operations:** PC sessions can seamlessly transition between BILL's PC and BLUE's PC by pressing B to back out to the main PC menu ('BILL's PC', 'BLUE's PC', 'PROF. OAK's PC', 'LOG OFF') without needing to exit to the overworld between operations.
+
 
 <hr>
 
@@ -1954,7 +1961,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Prize Exchange: Located at cols 32..35, rows 14..19. Front entrance door at (33, 19), signpost at (33, 21) [Turn 5598].
 - Courtyard Entrance: Open avenue at col 36 connects row 22 to row 20 patio, bypassing fence posts [Turn 5598].
 - Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5600].
-- Southern Tree Border: Row 32 tree at (22, 32) is a standard non-cuttable border tree (tested with Cut: "There isn't anything to CUT!" [Turn 6694]). Rows 33..34 lawn south of row 32 is an enclosed/decorative area inaccessible from the South Plaza.
+- Southern Tree Border: Row 32 is an impassable border tree line. Rows 33..34 lawn south of row 32 is an enclosed decorative area inaccessible from the South Plaza.
 - Cuttable Tree (Southern Garden Entrance): Located at (35, 32) directly south of Celadon Hotel entrance at (35, 27). Cut down on Turn 6713 to access the Southern Garden Corridor.
 
 - Gym Courtyard Fence Opening: Located at (5, 31) between fence posts at (4, 31) and (6, 31). Connects the Celadon Gym courtyard (rows 28..30) south into the Southern Garden Corridor (rows 32..34) [Verified Turn 6822].
@@ -1983,7 +1990,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Arrives at (2, 7) on red exit mat via 2F (2, 7) warp.
   - Table at (3..4, 3..4) holds Pok� Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
   - NPC at (2, 2) shares Pok�mon tips.
-  - Tile (7, 1) is a solid rooftop structure (bump test confirmed Turn 31047, not a staircase).
+  - Tile (7, 1) is a solid rooftop chimney/structure.
   - Exit Doorway: Red mat at (2..3, 7), stepping South into row 8 warps down to 2F.
 
 
@@ -4789,15 +4796,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Northern aisle spans horizontally across row 2 (cols 0..7) and connects to vertical central aisles (cols 4..5, rows 2..7) and southern open floor on rows 6..7.
 - Trader NPC: Stationed at (7, 6) in front of eastern terminal (seeks Ponyta for trade).
 - Fossil Revival Scientist: Wanders along the northern aisle (row 2, cols 0..7). Talk to him to revive prehistoric fossils into Pokémon!
-
-<hr>
-
-<h1><code>Scratchpad/Mechanics_Theories</code></h1>
-
-# Combat Mechanics Hypotheses (Unverified)
-
-## Verified Battle Mechanics & Engine Findings
-- **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
-
 
 <hr>
