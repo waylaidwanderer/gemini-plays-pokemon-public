@@ -27,7 +27,6 @@
 - Money: ¥3,506.
 
 ## Strategy & Action Plan
-1. Walk west along Main Avenue in Celadon City to Courtyard Pond at (21..24, 19..21).
-2. Cast Super Rod into pond for N>=5 trials to empirically test for wild Poliwhirl.
-3. If Poliwhirl is hooked, catch with Ultra Ball (enters active party 6/6).
-4. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
+1. Catch wild Poliwhirl with Ultra Ball (enters active party Slot 6: 6/6).
+2. Nickname Poliwhirl.
+3. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).

@@ -35,6 +35,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 - Gym Courtyard Fence Opening: Located at (5, 31) between fence posts at (4, 31) and (6, 31). Connects the Celadon Gym courtyard (rows 28..30) south into the Southern Garden Corridor (rows 32..34) [Verified Turn 6822].
 - Courtyard Pond: Water spanning cols 21..24, rows 19..21 south of Game Corner, flanked by statues at (20, 20..21) and (25, 20..21) [Turn 6840].
+  - Super Rod Empirical Trials [Turns 31690-31704]: Casts from southern apron at (21, 22) facing North into water tile (21, 21). Turn 31694 (Trial 2) hooked wild SLOWPOKE Lv 15. Turn 31704 (Trial 9) hooked wild POLIWHIRL Lv 23. Empirically confirms Slowpoke and Poliwhirl in Celadon Courtyard Pond Super Rod encounter table.
 
 ## Department Store District & Thoroughfares (Verified Turn 13371)
 - Department Store East Wall: Located at column 13 across rows 7..13, terminating the row 10..13 Main Avenue at column 14.
