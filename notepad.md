@@ -4830,7 +4830,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Legendary Fire Bird Moltres & Victory Road 2F
 
 ## Strategic Roadmap & Objectives
-- [ ] Heal team at Cinnabar Pokémon Center (cure Mewtwo FRZ, restore HP/PP)
+- [x] Heal team at Cinnabar Pokémon Center (cure Mewtwo FRZ, restore HP/PP) [Turn 29983]
 - [ ] Visit Cinnabar Poké Mart: sell Nugget (+¥5,000) and purchase ~20 Ultra Balls (¥1,200 each)
 - [ ] Fly to Indigo Plateau / Victory Road via Farfetch'd (DUX)
 - [ ] Infiltrate Victory Road 2F and navigate to Moltres plateau (previously sighted Turns 15533, 16069, 17798, 19831)
@@ -4843,6 +4843,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Farfetch'd (DUX Lv 5): Field transport (Fly).
 - Geodude (ROCKY Lv 8): Field obstacle clearing (Strength).
 - Diglett (DIGBY Lv 19): Cave escape (Dig).
-
 
 <hr>
