@@ -3477,7 +3477,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Divided from central corridor to the south by solid horizontal wall (1-7, 9) [Verified Turn 13754].
 - Rubble blocks columns 1-3 at rows 2-3, and column 1 at rows 4-5.
 - Large 2x2 table at (6-7, 4-5).
-- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Activated switch on Turn 13757. Re-activated switch on Turn 32603, toggling Mansion global switch state to State B ('Who wouldn't?').
+- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Switch history: Activated Turn 13757 (State B); re-activated Turn 32603 (State B); toggled to State A Turn 32722 ('Who wouldn't?'); toggled to State B Turn 32780 ('Who wouldn't?'). Current state: State B.
 - Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).
 
 ## Northern Hallway (Row 1 Superhighway)
@@ -3522,7 +3522,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Overview & Arrival
 - Staircase down to 1F: Located at (5, 10) [Verified visually Turn 31357].
-- Staircase up to 3F: Located at (25, 14) in Southeast Chamber [Verified Turn 13868]. (Note: (6, 1) in NW Bedroom is arrival landing from 3F descent only).
 - Landing: Arriving from 1F places player in central starting hall.
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
@@ -4979,12 +4978,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Location: Pokémon Mansion (Currently 2F; ascending to 3F to drop to B1F)
   - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
-  - Execution Plan:
-    1. [Completed Turn 32700] Descended to 1F via stairs at (5, 10).
-    2. [Completed Turn 32722] Toggled Northwest statue switch at (2, 5) back to State A ('Who wouldn't?').
-    3. Traverse 2F Eastern Wing via row 10/11 to Southeast Chamber at (25, 14) and ascend staircase to 3F.
-    4. On 3F, toggle switch at (10, 4-5) to State B, pass open East Shutter to Southern Balcony, drop down West Gap at (17, 14) to 1F enclosed chamber.
-    5. Descend B1F stairs at (21, 23) and capture Magmar (#126) and Weezing (#110).
+  - Execution Plan (Switch State B Active):
+    1. Ascend to 2F via stairs at (5, 10).
+    2. Pass open Shutter (18-19, 8) on 2F, traverse Central-South corridor and audit access to Southeast Chamber staircase at (25, 14) to ascend to 3F.
+    3. On 3F, pass open East Shutter at (15, 10-11) to Southern Balcony, drop down West Gap at (17, 14) directly into 1F enclosed chamber.
+    4. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
 
 ### Pokémon Mansion 2F Verified Wild Encounter Summary
 - Grimer (Lv 28-35) [Common]
