@@ -1,10 +1,9 @@
 # Quest Log: Legendary Fire Bird Moltres & Victory Road 2F
 
 ## Active Strategic Objectives
-- [x] Warped to Viridian City with full health and 21 Ultra Balls [Turn 30268]
-- [x] Mount Bicycle in Viridian City [Turn 30275]
-- [ ] Ride west along Route 22 to Pokémon League Reception Gate
-- [ ] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17)
+- [x] HM04 Strength active on Victory Road 1F [Cast Turn 30364 by ROCKY]
+- [x] Ride west along Route 22 to Pokémon League Reception Gate [Turn 30325]
+- [x] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17) [Turn 30356]
 - [ ] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8)
 - [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
