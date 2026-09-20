@@ -4566,7 +4566,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Strategy & Objectives
 - [x] Execute boulder puzzle to stop subterranean water currents [Completed Turn 29724 - both boulders dropped to B4F]!
-- [ ] Navigate to Articuno's chamber on B4F and capture Articuno (Lv 50) with Ultra Ball [Initiated Turn 29728]
+- [x] Navigate to Articuno's chamber and platform on B4F [Arrived Turn 29741]!
+- [ ] Initiate battle and capture Articuno (Lv 50) with Ultra Ball
 
 ## Required Field Moves & Party Roles
 - HM03 SURF: Blastoise (SHELDON) - water navigation
@@ -4578,7 +4579,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Warp Anchor: Dig warps to the last Pokémon Center where Nurse Joy healed the party.
 - Seafoam lower floor water currents block Surfing until boulders are dropped through holes to create a dam.
 - Signposts: (9, 15) 'Boulders might change the flow of water!'; (23, 1) 'DANGER / Fast current!'.
-
 
 <hr>
 
