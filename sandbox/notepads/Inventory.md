@@ -16,8 +16,9 @@
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
 15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
+16. TM35 (METRONOME) x1 [Received Cinnabar Lab R&D Room Turn 31210]
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 16 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
