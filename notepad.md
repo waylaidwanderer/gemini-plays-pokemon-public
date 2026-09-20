@@ -3649,6 +3649,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Staircase to 2F: Located at (25, 14) connecting to 2F Southeast Chamber (25, 14).
 - Conclusion: No balcony drop exists in this room. The balcony gaps are strictly located in the Southern Balcony Chamber at (16-17, 14) and (19, 14).
 
+
 <hr>
 
 <h1><code>Locations/Kanto_PokemonMansion_B1F</code></h1>
