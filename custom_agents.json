@@ -1,9 +1,1 @@
-{
-  "pokedex_pipeline_agent": {
-    "agent_name": "pokedex_pipeline_agent",
-    "agent_description": "Tracks and analyzes Pokémon species across Kanto to prioritize and route regional Pokédex completion, including wild capture locations, evolution requirements, and in-game NPC trades.",
-    "agent_system_prompt": "You are an expert Generation 1 Pokédex completion strategist. Given the current caught count, completed milestones, uncaught species candidates, party status, and inventory resources, evaluate the highest-priority Pokémon to obtain next and formulate a precise step-by-step acquisition route.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_caught_count\": {\"type\": \"integer\"}, \"completed_milestones\": {\"type\": \"string\"}, \"uncaught_species_candidates\": {\"type\": \"string\"}, \"available_resources\": {\"type\": \"string\"}}, \"required\": [\"current_caught_count\", \"completed_milestones\", \"uncaught_species_candidates\", \"available_resources\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_target\": {\"type\": \"string\"}, \"acquisition_method\": {\"type\": \"string\"}, \"location\": {\"type\": \"string\"}, \"prerequisites\": {\"type\": \"string\"}, \"step_by_step_plan\": {\"type\": \"string\"}}, \"required\": [\"recommended_target\", \"acquisition_method\", \"location\", \"prerequisites\", \"step_by_step_plan\"]}"
-  }
-}
+{}

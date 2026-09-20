@@ -20,7 +20,7 @@
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Audited Turn 32517-32521: Tile (6, 1) is ordinary floor with north boundary wall at (6, 0); no ascending staircase exists at (6, 1).
+- Northwest Bedroom (cols 0-8, rows 0-9): Staircase up to 3F located at (6, 1) against north wall (6, 0).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
@@ -31,6 +31,9 @@
 - Open passage east at (22-23, 3) and (22, 6-7).
 - Structure at (18-19, 3): Brown wooden fixture with horizontal bars, bordered by open floor at (16-17, 3) and (20-23, 3) [Verified Turn 13851].
 - Pokémon Mansion Diary #2: Located on desk at (18, 2), front face at (18-19, 3). Interacting from (18, 4) facing North across the desk does not trigger text (requires standing adjacent at (17, 2) or (18, 1)) [Verified Turns 13852-13853].
+
+
+- Shutter/Counter Boundary (15, 8): Stepping South from (15, 7) into (15, 8) confirmed impassable solid counter/wall collision [Turn 32542].
 
 ## Far Eastern Wing & Chute (cols 24-29, rows 0-8)
 - Row 3 open corridor spans (22-27, 3); rubble at (28, 3); east wall at col 29 [Verified Turn 13858].
