@@ -364,7 +364,7 @@
 
 ## Wild Pokémon & Fishing Trials
 - Viridian City Freshwater Pond (14, 26) facing West into (13, 26) [Super Rod]:
-  - Empirical Encounter Table: Poliwag (#060) and Tentacool (#072) verified. 2-species table matches Pallet Town/Route 21 group and is exhausted.
+  - Empirical Fishing Trials (N=6 Super Rod casts): Hooked Poliwag (#060) [Turn 31878] and Tentacool (#072) [Turn 31886]. Additional potential encounter slots unobserved.
 
 <hr>
 
@@ -4936,8 +4936,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Pallet Town Super Rod Empirical Trials
 - Trial 1 [Turn 31778-31782]: Hooked and caught wild TENTACOOL Lv 15 with 1 Ultra Ball! (Registered Pokédex species #072). Nicknaming STINGER. Transferring to Box 2.
-- Trial 2 [Turn 31793]: Not even a nibble!
-- Trial 3 [Turn 31796]: Not even a nibble!
-- Trial 4 [Turn 31798-31824]: Hooked and caught wild POLIWAG Lv 15 with Ultra Ball (slept with Lola's Lovely Kiss, chipped with Pound). Nicknaming RIPPLE. Transferred to Box 2.
 
 <hr>
