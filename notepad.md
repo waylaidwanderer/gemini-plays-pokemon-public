@@ -4986,6 +4986,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 10 | PONYTA (#077) | 32 | (7, 8) | Turn 32491 | Fled (Duplicate species) |
 | 11 | GRIMER (#088) | 35 | (7, 9) | Turn 32495 | Fled (Duplicate species) |
 | 12 | GRIMER (#088) | 35 | (8, 9) | Turn 32498 | Fled (Duplicate species) |
-| 13 | VULPIX (#037) | ? | (8, 9) | Turn 32504 | In Progress (Turn 32504) |
+| 13 | VULPIX (#037) | 33 | (8, 9) | Turn 32504 | In Progress (Turn 32504) |
 
 <hr>
