@@ -7,7 +7,7 @@
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
-7. FULL RESTORE x9
+7. FULL RESTORE x 4
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
 9. PP UP x1
 10. MAX ELIXER x1
@@ -52,7 +52,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥10,406 [Turn 31274]
+- ¥17,906 [Turn 31282]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
