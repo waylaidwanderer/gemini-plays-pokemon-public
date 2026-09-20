@@ -10,7 +10,7 @@
 ## Facility Rooms
 - Meeting Room (Rows 0..7, Cols 0..7): First door along hallway at (8, 4), entrance mat at (2..3, 7) [Entered Turn 31215].
   - Layout: Large wooden conference table at cols 3..5, rows 3..4 with chairs.
-  - Old Man Trade NPC: Located at (1, 4) facing South [Turn 31216].
+  - Old Man Trade NPC: Located at (1, 4) facing South; trades RAICHU for ELECTRODE (DORIS, #101) [Verified Turn 31218].
   - Boy NPC: Seated at table at (3, 2).
   - Girl Trade NPC: Seated at table at (5, 5).
 - R&D Room (Rows 0..7, Cols 0..7): Second door along hallway at (12, 4), entrance mat at (2..3, 7) [Entered Turn 31206].
