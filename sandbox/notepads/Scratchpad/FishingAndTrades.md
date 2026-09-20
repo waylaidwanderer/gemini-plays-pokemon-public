@@ -10,8 +10,8 @@
   - Status: Available in various Kanto waterways (e.g. Route 22).
 
 ## Party & Inventory Status [Turn 31659]
-- Party: 6/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25, Slowpoke Lv 15).
-- PC Box 1: 18/20 capacity.
+- Party: 5/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25). Slot 6 open for Poliwhirl!
+- PC Box 1: 19/20 capacity (Slowpoke DOPEY deposited Celadon PC Turn 31675).
 - Balls: 2 Ultra Balls in Bag.
 - Money: ¥3,506.
 
