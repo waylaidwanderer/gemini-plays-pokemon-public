@@ -66,7 +66,7 @@
 12. GUARD SPEC. x 1
 13. MAX POTION x 1
 14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 4 [1 used Pikachu Turn 32090, 2 used Muk Turns 32256/32259, 1 used Grimer Turn 32299, 4 remaining]
+15. ULTRA BALL x 3 [1 used Pikachu Turn 32090, 2 used Muk Turns 32256/32259, 2 used Grimer Turns 32299/32301, 3 remaining]
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.

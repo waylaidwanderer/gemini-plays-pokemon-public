@@ -18,4 +18,4 @@
 | 2 | PONYTA (#077) | 32 | (5, 17) | Turn 32276 | Fled (Duplicate species) |
 | 3 | PONYTA (#077) | 34 | (6, 12) | Turn 32284 | Fled (Duplicate species) |
 | 4 | PONYTA (#077) | 32 | (6, 22) | Turn 32290 | Fled (Duplicate species) |
-| 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | In Progress (1 Ultra Ball used, broke out after 3 wobbles) |
+| 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | CAUGHT! (Turn 32303, 2 Ultra Balls) |

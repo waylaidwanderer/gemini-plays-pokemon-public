@@ -217,3 +217,7 @@
   - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
   - Deposited: Cinnabar PC Box 2 (4/20) [Turn 32238]
+- GRIMER (Nickname: GOOP) [Lv 30, Poison]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
+  - Transferred to PC Box 2 (5/20)
