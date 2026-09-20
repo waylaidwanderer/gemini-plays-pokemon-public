@@ -6,10 +6,10 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70 (2 open slots for fossil revival)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte Lv 30 (1 open slot for Aerodactyl revival)
 
 - Money: ¥6 [Turn 30688]
-- Pokédex: 19 Caught / 128 Seen
+- Pokédex: 20 Caught / 128 Seen
 
 ## Milestones
 
@@ -150,6 +150,11 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
+- OMANYTE (Nickname: Pending NAUTILUS) [Lv 30, Rock/Water]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Water Gun, Withdraw, Horn Attack
+  - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
 ## PC Box 1 Pokémon
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
@@ -490,7 +495,7 @@
 ## Museum Perimeter, Ledges & Cuttable Tree
 - Row 7 Jump Ledge: Spans across columns 18..34 as a south-facing jump ledge. Tile (31, 7) is an open brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into the northern perimeter lawn (rows 2..4) without needing Cut.
 - Decorative Obstacles: Tile (27, 7) is a solid tree obstacle [Turn 30711]; tile (27, 6) is a solid tree obstacle, empirically tested with CUT facing West from (28, 6) yielding 'There isn't anything to CUT!' [Turn 30743]. Neither is cuttable.
-- Cuttable Tree: Located at (26, 4) between (27, 4) and (25, 4) [Visually confirmed Turn 30752]. Successfully cut down with HM01 Cut by Farfetch'd (DUX) [Turn 30761], permanently clearing the row 4 passageway into the western courtyard (rows 4..6, cols 19..25) and granting direct access to the Museum side door at (19, 5).
+- Cuttable Tree: Located at (26, 4) between (27, 4) and (25, 4) [Visually confirmed Turn 30752]. Successfully cut down with HM01 Cut by Farfetch'd (DUX) [Turn 30761], clearing the row 4 passageway into the western courtyard (respawns upon map reload) (rows 4..6, cols 19..25) and granting direct access to the Museum side door at (19, 5).
 
 <hr>
 
@@ -4737,13 +4742,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [Completed Turn 30806]
 - [x] Enter Cinnabar Pokémon Lab Testing Room at (16, 4) and speak with fossil scientist at (7, 2) [Completed Turn 30845]
 - [x] Submit HELIX FOSSIL to scientist [Completed Turn 30867]
-- [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [In Progress]
+- [x] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [Completed Turn 30898]
+- [ ] Nickname Omanyte as NAUTILUS [In Progress]
 - [ ] Submit OLD AMBER to scientist [Pending]
 - [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Pending]
 
 ## Party & Inventory Logistics
-- Party status: 4 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70), 2 open party slots ready for revived Pokémon.
-- Bag key items: OLD AMBER in bag (Slot 15); HELIX FOSSIL with scientist.
+- Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, OMANYTE Lv 30), 1 open party slot ready for Aerodactyl.
+- Bag key items: OLD AMBER in bag (Slot 15).
 - Required Field Moves: HM02 FLY known by Farfetch'd (DUX).
 
 
@@ -4787,13 +4793,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Reception NPC: Stationed at (1, 3) facing South.
 - Main Corridor: 3-tile wide hallway spanning rows 5..7 extending east past column 7 toward the facility's research rooms.
 
-## Rooms (Pending Traversal)
+## Facility Rooms
 - Meeting Room: First door along hallway, entrance located at (8, 4) with sign at (9, 4) [Verified Turn 30819].
 - R&D Room: Second door along hallway, entrance located at (12, 4) with sign at (13, 4) [Verified Turn 30822].
 ## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Open checkered floor across row 6 (cols 0..6), row 7 (cols 0..7), and northern aisle (cols 4..5, rows 2..5).
 - Trader NPC: Stationed at (7, 6) in front of eastern terminal (seeks Ponyta for trade).
-- Fossil Revival Scientist: Wandering along row 2 (cols 3..7), currently at (7, 2). Talk from (6, 2) facing East or (7, 3) facing North to revive fossils!
+- Fossil Revival Scientist: Wanders along the northern aisle (row 2, cols 0..7). Talk to him to revive prehistoric fossils into Pokémon!
 
 <hr>
