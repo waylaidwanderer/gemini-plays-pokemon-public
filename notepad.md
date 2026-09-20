@@ -4924,16 +4924,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Fishing & In-Game Trade Planning
 
 ## Active Hypotheses & Targets
-- Target 1: Goldeen (#118)
-  - Goal: Register Goldeen (#118) via water fishing.
-  - Location: Viridian City freshwater pond at (14, 26) facing West into (13, 26).
-  - Hypothesis Status: UNVERIFIED HYPOTHESIS. Pallet Town was saltwater (Tentacool/Poliwag). Testing Viridian City enclosed freshwater pond for Goldeen.
-  - High-level Plan: 1. Walk to Viridian City pond at (14, 26) facing West. 2. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
+- Target 1: Pikachu (#025)
+  - Goal: Encounter and catch wild Pikachu (#025) in Viridian Forest tall grass.
+  - Location: Viridian Forest (Route 2 north of Viridian City).
+  - High-level Plan: 1. Walk north through Viridian City onto Route 2 into Viridian Forest. 2. Patrol tall grass. 3. Sleep with Lola's Lovely Kiss and catch with Ultra Ball into Box 2.
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
-  - Goal: Acquire Pikachu, evolve to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
+  - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
   - Verification: NPC trade offer empirically verified in Cinnabar Lab Meeting Room [Turn 31218: Old man offers his Electrode for a Raichu].
-  - Location for Pikachu: Power Plant (tall grass / floor) or Viridian Forest.
   - Hypothesis Status: Trade offer VERIFIED [Turn 31218]; Pikachu capture pending.
 
 ## Pallet Town Super Rod Empirical Trials
