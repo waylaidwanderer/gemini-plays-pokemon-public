@@ -4,20 +4,19 @@
 - Target 1: Poliwhirl (Lv 23)
   - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
   - Location: Celadon City pond (cols 21..24, rows 19..21).
-  - Empirical Route 10 Super Rod Test [Turns 31609-31658]: 2 out of 2 bites yielded wild Slowpoke Lv 15 (Turns 31624, 31650). Route 10 Super Rod is verified as Slowpoke. Poliwhirl is absent from Route 10.
-  - New Target: Celadon City pond with Super Rod (Poliwhirl Lv 23).
+  - Hypothesis Status: UNVERIFIED HYPOTHESIS to be tested with N>=5 Super Rod casts.
+  - Route 10 Super Rod Trial Summary [Turns 31609-31658]: 2 out of 2 bites yielded wild Slowpoke Lv 15 (Turns 31624, 31650). Slowpoke is confirmed present; Poliwhirl was unobserved in this small sample.
 - Target 2: Goldeen (#118)
   - Status: Available in various Kanto waterways (e.g. Route 22).
 
-## Party & Inventory Status [Turn 31659]
+## Party & Inventory Status [Turn 31682]
 - Party: 5/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25). Slot 6 open for Poliwhirl!
 - PC Box 1: 19/20 capacity (Slowpoke DOPEY deposited Celadon PC Turn 31675).
 - Balls: 2 Ultra Balls in Bag.
-- Money: ¥3,506.
+- Money: �3,506.
 
 ## Strategy & Action Plan
-1. Open Fly map with Farfetch'd (DUX) and fly to Celadon City.
-2. Enter Celadon Pokémon Center at (41, 9), access PC, and deposit Slowpoke (DOPEY) to free a party slot (5/6).
-3. Walk to Celadon pond at (21..24, 19..21) and fish with Super Rod for wild Poliwhirl.
-4. Catch Poliwhirl with Ultra Ball (enters active party 6/6).
-5. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
+1. Walk west along Main Avenue in Celadon City to Courtyard Pond at (21..24, 19..21).
+2. Cast Super Rod into pond for N>=5 trials to empirically test for wild Poliwhirl.
+3. If Poliwhirl is hooked, catch with Ultra Ball (enters active party 6/6).
+4. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).

@@ -42,4 +42,4 @@
 - Approach Lawn: Open green lawn spanning cols 2..7, rows 40..45, accessible directly from the southern water channel at (2, 46).
 
 ## Fishing & Water Trials (Empirical Testing)
-- Super Rod Shoreline Trials [Turns 31609-31624]: Casts from northern launch apron at (2, 4) facing North into water tile (2, 3). Turns 31609-31618 yielded 4x 'Not even a nibble!'. Turn 31624 hooked wild SLOWPOKE (Empirically verified Route 10 Super Rod encounter!).
+- Super Rod Shoreline Trials [Turns 31609-31658]: Casts from northern launch apron at (2, 4) facing North into water tile (2, 3). Turns 31609-31618 yielded 4x 'Not even a nibble!'. Turn 31624 hooked wild SLOWPOKE Lv 15 (#079, caught). Turn 31650 hooked wild SLOWPOKE Lv 15 (fled). Both bites (2/2) yielded Slowpoke. Slowpoke is confirmed present; Poliwhirl was unobserved in this sample.
