@@ -8,18 +8,17 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x 4
-8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-9. PP UP x1
-10. MAX ELIXER x1
-11. CARBOS x1
-12. HP UP x1
-13. HM02 [Key Item]
-14. GUARD SPEC. x1
-15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
-16. TM35 (METRONOME) x1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 12 [Purchased Cinnabar Poké Mart Turn 31292]
+8. PP UP x1
+9. MAX ELIXER x1
+10. CARBOS x1
+11. HP UP x1
+12. HM02 [Key Item]
+13. GUARD SPEC. x1
+14. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
+15. TM35 (METRONOME) x1 [Received Cinnabar Lab R&D Room Turn 31210]
+16. ULTRA BALL x 12 [Purchased Cinnabar Poké Mart Turn 31292]
 ## Inventory Capacity
-- Active Bag Items: 17 / 20 capacity used.
+- Active Bag Items: 16 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
