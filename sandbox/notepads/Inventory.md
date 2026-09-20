@@ -3,19 +3,16 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �¥1,500]
-4. FULL HEAL x 6
-5. MAX REVIVE x 2
-6. BICYCLE [Key Item]
-7. FULL RESTORE x 2
-8. PP UP x 1
-9. MAX ELIXER x 1
-10. HM02 [Key Item]
-11. RARE CANDY x 1
-12. GUARD SPEC. x 1
-13. MAX POTION x 1
-14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 3
+3. FULL HEAL x 6
+4. BICYCLE [Key Item]
+5. PP UP x 1
+6. MAX ELIXER x 1
+7. HM02 [Key Item]
+8. RARE CANDY x 1
+9. GUARD SPEC. x 1
+10. MAX POTION x 1
+11. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+12. ULTRA BALL x 3
 
 ## Inventory Capacity
 - Active Bag Items: 12 / 20 capacity used.
