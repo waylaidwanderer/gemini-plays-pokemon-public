@@ -17,3 +17,6 @@
   - Bounded west by rock wall at col 22 and east by rock wall at col 27 (rows 11..15).
   - Bounded south by rock wall at row 15.
   - North boundary: Row 9 brown cavern floor visible across cols 22..27.
+- Row 10 Northern Cliff: Empirically confirmed impassable from south at (25, 10) [Turn 29589 bump test]. Elevation prevents walking north into row 9 cavern floor.
+- Pit Hole at (22, 6): Black pit hole visible in northern cavern floor at row 6.
+- Conclusion: Southeast Terrace is an enclosed transit corridor connecting B1F ladder (25, 11) to descending ladder (25, 14).
