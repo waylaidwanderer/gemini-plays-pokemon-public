@@ -16,4 +16,5 @@
 - [x] Use THUNDERSTONE on VEE to evolve into JOLTEON [Turn 31098]
   - Verified Jolteon Stats (Lv 25): HP 68/68, Attack 40, Defense 37, Speed 72, Special 62, Type: Electric [Turn 31102]
   - Moves: Tackle, Sand-Attack [Turn 31104]
-- [ ] Retrieve TM24 (THUNDERBOLT) from Celadon PC and teach to JOLTEON (VEE)
+- [x] Retrieve TM24 (THUNDERBOLT) from Celadon PC [Turn 31124]
+- [ ] Teach TM24 (THUNDERBOLT) to JOLTEON (VEE)

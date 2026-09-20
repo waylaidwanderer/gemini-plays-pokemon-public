@@ -16,7 +16,9 @@
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+15. TM24 (THUNDERBOLT) x1 [Withdrawn Celadon PC Turn 31124]
+## Inventory Capacity
+- Active Bag Items: 15 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -45,7 +47,6 @@
 - MOON STONE x2 (PC) [Stored Turn 12205, Turn 24545]
 - RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
-- TM24 (THUNDERBOLT) x1 (PC) [Stored Turn 6585]
 - ELIXER x1 (PC) [Stored Turn 6588]
 - TM34 (BIDE) x1 (PC)
 - TM12 (WATER GUN) x1 (PC)
