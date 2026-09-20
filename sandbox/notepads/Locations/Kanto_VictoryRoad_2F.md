@@ -38,7 +38,7 @@
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Items
-- Item Ball: Located at (11, 0) [Uncollected; Bag 20/20 full, confirmed Turn 22996].
+- Item Ball: Located at (11, 0) [Collected Turn 30609: GUARD SPEC.].
 - Item Ball: Located at (27, 5) [Collected Turn 16758: TM17 (SUBMISSION)].
 - Item Ball: Located at (18, 9) [Uncollected; Bag was 20/20 full when attempted Turn 16265; verified Turn 16361].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
