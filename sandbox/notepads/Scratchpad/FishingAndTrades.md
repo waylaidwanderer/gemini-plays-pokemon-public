@@ -11,3 +11,6 @@
   - Goal: Acquire Pikachu, evolve to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
   - Location: Power Plant (tall grass / floor) or Viridian Forest.
   - Hypothesis Status: UNVERIFIED HYPOTHESIS.
+
+## Pallet Town Super Rod Empirical Trials
+- Trial 1 [Turn 31778]: Hooked wild TENTACOOL! (Unregistered Pokédex species #072). Catching with Ultra Ball.
