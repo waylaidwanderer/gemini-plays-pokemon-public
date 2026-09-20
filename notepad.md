@@ -9,7 +9,7 @@
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Aerodactyl (PTERA) Lv 30, Eevee (VEE) Lv 25
 
 - Money: ¥6 [Turn 30688]
-- Pokédex: 21 Caught / 129 Seen
+- Pokédex: 22 Caught / 129 Seen
 
 ## Milestones
 
@@ -164,6 +164,11 @@
   - Obtained: Celadon Mansion rooftop penthouse [Turn 31043]
 
 ## PC Box 1 Pokémon
+- OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
+  - Status: Healthy
+  - HP: 67 / 67
+  - Moves: Water Gun, Withdraw, Horn Attack
+  - Revived from Helix Fossil [Turn 30898], Deposited Celadon PC [Turn 31003]
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
