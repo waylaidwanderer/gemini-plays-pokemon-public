@@ -4788,6 +4788,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [Turn 30548] Threw Ultra Ball #4 at wild Moltres (HP ~75%). Ball missed. 17 Ultra Balls remaining.
 - [Turn 30551] Threw Ultra Ball #5 at wild Moltres (HP ~75%). Ball missed. 16 Ultra Balls remaining.
 - [Turn 30554] Threw Ultra Ball #6 at wild Moltres (HP ~75%). Ball missed. 15 Ultra Balls remaining.
-- [Turn 30557] Throwing Ultra Ball #7 at wild Moltres (HP ~75%). 14 Ultra Balls remaining.
+- [Turn 30558] Threw Ultra Ball #7 at wild Moltres (HP ~75%). Ball missed. 14 Ultra Balls remaining.
 
 <hr>
