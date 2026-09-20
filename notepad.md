@@ -340,7 +340,7 @@
 - Row 27 Ledge: Pond occupies rows 26-27 (columns 9-13); passable gap at (19, 27) leads to row 26.
 - Mid-City Street (Row 16): Striped road running east-west south of the house at (21..23, 14..15), connecting column 25 to columns 18-21.
 - Mid-City Flower Garden: Rows 18-19, columns 20-23 feature a flower garden enclosed on north by row 17 fence (cols 20-23). Passable north-south corridors run along columns 18-19 (west) and columns 24-25 (east).
-- Row 13 Passage: Fence spans columns 20..30 (east) and column 16 (west); columns 17..19 form an open 3-tile north-south corridor connecting row 16 to row 12.
+- Row 13 Passage: Fence spans columns 20..30 (east) and column 16 (west); obstacle boundary verified at (17, 17) [Turn 31888]; columns 18..19 form an open north-south corridor connecting row 16 to row 12.
 
 ## Key Buildings
 - Pokémon Center: Located at (22..25, 24..25) with entrance door at (23, 25) and sign at (24, 25).
@@ -4939,9 +4939,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Trial 2 [Turn 31793]: Not even a nibble!
 - Trial 3 [Turn 31796]: Not even a nibble!
 - Trial 4 [Turn 31798-31824]: Hooked and caught wild POLIWAG Lv 15 with Ultra Ball (slept with Lola's Lovely Kiss, chipped with Pound). Nicknaming RIPPLE. Transferred to Box 2.
-
-## Viridian City Freshwater Pond Super Rod Trials
-- Trial 1 [Turn 31871]: Not even a nibble.
-- Trial 2 [Turn 31873]: Not even a nibble.
 
 <hr>
