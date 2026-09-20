@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Poliwhirl Lv 23 (6 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Jynx Lv 23 (6 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 30 Caught / 136 Seen [Turn 31637]
 
@@ -55,6 +55,7 @@
 - [x] Catch wild Krabby in Cerulean Gym pool with Ultra Ball [Turn 31540]
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
 - [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
+- [x] Traded Poliwhirl (SWIRLY) for Jynx with Resident 2 in Cerulean City [Turn 31724]
 
 
 <hr>
@@ -152,10 +153,10 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- POLIWHIRL (Nickname: SWIRLY) [Lv 23, Water]
+- JYNX [Lv 23, Ice/Psychic]
   - Status: Healthy
-  - Caught: Celadon Courtyard Pond with Ultra Ball [Turn 31712]
-  - Note: Prepared for Jynx in-game trade in Cerulean City
+  - OT: TRAINER (IDNo. 22074, Boosted EXP)
+  - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
 
 
 ## PC Box 1 Pokémon
@@ -904,7 +905,7 @@
 - Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
   - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
   - Resident 1 at (5, 4): Kid in blue overalls.
-  - Resident 2 at (1, 2): Trader (offers JYNX for player's POLIWHIRL).
+  - Resident 2 at (1, 2): Trader (traded her JYNX for player's POLIWHIRL SWIRLY [Turn 31724]).
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
 - Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
@@ -4893,8 +4894,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Fishing & In-Game Trade Planning
 
 ## Active Hypotheses & Targets
-- Target 1: Poliwhirl (Lv 23)
-  - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
+- Target 1: Poliwhirl & Jynx (COMPLETE [Turn 31724]!)
+  - Goal: Trade for Jynx (#124) with Resident 2 in Cerulean City Northwest House - COMPLETED!
   - Location: Celadon City pond (cols 21..24, rows 19..21).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS to be tested with N>=5 Super Rod casts.
   - Empirical Celadon Pond Fishing Trials:
@@ -4918,10 +4919,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Balls: 1 Ultra Ball in Bag.
 - Money: �3,506.
 
-## Strategy & Action Plan
-1. Catch wild Poliwhirl with Ultra Ball (enters active party Slot 6: 6/6).
-2. Nicknamed Poliwhirl SWIRLY [Turn 31715].
-3. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
+## Completed Objectives
+- Caught wild Poliwhirl Lv 23 in Celadon Courtyard Pond [Turn 31712].
+- Traded Poliwhirl for Jynx (OT TRAINER, ID 22074) with Resident 2 in Cerulean City [Turn 31724]!
+- Pok�dex expanded to 32 Caught / 136 Seen!
+
+## Next Hypotheses & Targets
+- Target 2: Goldeen (#118) via fishing (Route 22 Super Rod).
+- Target 3: Pikachu (#025) in Viridian Forest / Power Plant, evolve into Raichu (#026) with Thunder Stone, then trade for Electrode with Scientist in Cinnabar Lab Meeting Room.
 
 
 <hr>
