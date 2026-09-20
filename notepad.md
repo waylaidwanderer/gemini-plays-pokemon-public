@@ -3508,7 +3508,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 
 ## Enclosed B1F Staircase Chamber (cols 12-26, rows 17-26)
-- B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564]. Shutter 2 at (20-21, 17) is hypothesized OPEN in State B (bypassed via balcony drop). Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
+- B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564, 33009]. Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 30-32) [Common]
 - Ponyta (Lv 28-34) [Common]
@@ -3522,8 +3522,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Pokémon Mansion 2F Geography & Landmarks
 
 ## Overview & Arrival
-- Staircase down to 1F: Located at (7, 10), arrived at (7, 11) facing Up [Verified Turn 32966].
-- Landing: Arriving from 1F places player at (7, 11) in central starting hall.
+- Staircase down to 1F: Descent warp tile located at (5, 10) [Verified Turns 32830, 32917].
+- 1F Ascent Arrival: Arriving from 1F ascent places player at (7, 11) facing Up [Verified Turn 32966]. Note: stepping onto (7, 10) from 2F does not trigger a descent warp.
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
 - Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15) and (6-10, 16-17). South boundary wall at row 17 across columns 1-5.
@@ -3726,8 +3726,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West Wing fully surveyed: B1F exploration 100% complete!
 
 ## Wild Encounters (Verified Species & Level Bands)
-- Grimer [Verified Turn 33020 at (25, 26)]
-- Vulpix [Verified Turn 33012 at (24, 24)]
+- Encounter Trial Tracker (Total B1F Encounters Observed: 4):
+  - Grimer (Lv 33): 2 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25)]
+  - Vulpix (Lv 33-35): 2 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25)]
+- Unverified Target Species (Pending Capture):
+  - Magmar (#126) [Blue exclusive, rare]
+  - Weezing (#110) [Evolution of Koffing, rare]
 
 
 <hr>
@@ -4973,24 +4977,24 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Next Hunting Target: Pokmon Mansion (Cinnabar Island)
-- Target 3: Cinnabar Pokmon Mansion Wild Captures
-  - Target Species: Magmar (#126 on B1F), Weezing (#110 on B1F)
-  - Completed Mansion Captures:
-    - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
-    - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
-    - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
-    - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
-    - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
+## Active Hunting Target: Pokémon Mansion B1F (Cinnabar Island)
+- Target Species:
+  - Magmar (#126 on B1F) - Rare Fire-type, Blue exclusive
+  - Weezing (#110 on B1F) - Poison-type evolution of Koffing
+- Completed Mansion Captures:
+  - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
+  - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
+  - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
+  - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
+- Inventory & Storage Status:
   - Resources: 6 Ultra Balls in Bag
-  - Visual Audit Result [Turn 32911]:
-    - Northwest Shutter at (9, 4-5) is CLOSED in current Switch State B.
-    - Ascending staircase to 3F is clearly visible at (6, 1) inside Northwest Bedroom!
-  - Master Execution Plan:
-    1. Pass through East Shutter (15, 10) into Southern Balcony Chamber (currently at (15, 10)).
-    2. Drop down West Balcony Gap at (17, 14) to land directly in 1F enclosed chamber at (16, 14).
-    3. On 1F, navigate south down column 13 to row 20, then east to column 21.
-    4. Descend B1F staircase at (21, 23) and survey for Magmar (#126) and Weezing (#110).
+  - Party Status: 6/6 (Lead: Mewtwo Lv 70 OMEGA)
+  - PC Box 2 Status: 7/20 used (13 free slots)
+- Active B1F Execution Plan:
+  1. Patrol open Southeast Chamber (rows 24-26, cols 21-27) to roll for wild encounters.
+  2. Flee immediately from duplicates (Grimer, Koffing, Muk, Ponyta, Rapidash, Vulpix) using Mewtwo Lv 70 (guaranteed first-turn flee).
+  3. When Magmar (#126) or Weezing (#110) appears, immediately throw Ultra Ball (Slot 12).
+  4. Nickname new capture creatively and record Pokédex data.
 
 
 <hr>
