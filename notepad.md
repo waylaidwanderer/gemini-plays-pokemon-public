@@ -4969,7 +4969,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Pokémon Mansion 1F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
 |---|---|---|---|---|---|
-| 1 | MUK (#089) | TBD | (5, 23) | Turn 32251 | In Progress |
+| 1 | MUK (#089) | 37 | (5, 23) | Turn 32251 | In Progress (Throwing Ultra Ball) |
 
 
 <hr>
