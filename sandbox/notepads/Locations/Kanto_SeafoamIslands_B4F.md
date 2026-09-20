@@ -38,4 +38,3 @@
 - Platform: Dry cavern terrace across cols 5..10, rows 0..2.
 - Access: Wooden dock stairs at (7, 3) connecting water at (7, 4) up to terrace at (7, 2).
 - Entity: Stationary Legendary Bird ARTICUNO located at (6, 1).
-- Approach: From (5, 4), surf east to (7, 4), walk up stairs at (7, 3) to (7, 2), step left to (6, 2) facing north to engage.
