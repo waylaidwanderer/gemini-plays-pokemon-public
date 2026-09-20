@@ -50,4 +50,5 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 ## Northern Bypass / Rooftop Corridor Entrance (Verified Turn 13406)
 - Eastern Gap (Cols 44..45): Continuous 2-tile wide paved yellow brick road spanning north from row 10 up past row 6 between the Pokémon Center east wall (col 43) and the eastern border trees (col 46).
-- Northern Rooftop Corridor: Paved 2-tile wide yellow brick road along rows 4..5 spanning west from col 45 to col 37 behind the Pokémon Center and adjacent commercial buildings [Verified Turns 13406-13411].
+- Northern Rooftop Corridor: Paved 2-tile wide yellow brick road along rows 4..5 spanning west from col 45 to col 28 behind the Pokémon Center and adjacent commercial buildings [Verified Turn 31015]. Dead-ends at column 28 against Celadon Mansion east roof wall (27, 4..5).
+- Northern Tree Gap: Passable 2-tile wide opening at (32..33, 3) connects row 4 paved corridor north into the Northern Lawn (rows 1..2) running west behind Celadon Mansion.
