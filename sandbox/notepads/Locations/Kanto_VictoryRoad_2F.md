@@ -17,7 +17,12 @@
   - Central Terrace: Rows 12-14 connect west across row 12 into column 13-14 terrace avenue (rows 8-14). Row 8 northern edge is an impassable elevation cliff separating the terrace from the lower Moltres chamber (row 7) [Empirically verified Turn 30183]. Plateau Barrier at (7, 8)-(7, 9) is raised and impassable [Empirically verified Turn 30186].
   - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 wall, opening north into rows 0-3 [Visually verified Turn 30188]. Direct ground routing from Ladder (23, 7) remains an active hypothesis under investigation.
 - Boulders & Switch Plates:
-  - Boulder 3 on Switch Plate A (1, 16) permanently lowers Plateau Barrier at (7, 8)-(7, 9) [Turn 24199].
+  - Boulder 3 on Switch Plate A (1, 16): Temporarily lowers Plateau Barrier at (7, 8)-(7, 9) for current session (resets upon leaving/reloading 2F).
+  - Negative Collision at (1, 13): Solid rock wall blocks north-to-south pushing along column 1; pushing boulder west along row 14 to (1, 14) traps it in corner [Verified Turn 30459].
+  - Verified Displacement Sequence [Solved Turn 30476]:
+    1. Player moves to (5, 14), faces West, and pushes boulder west along row 14 from (4, 14) to (3, 14).
+    2. Player loops via (4, 13) to (3, 13), faces South, and pushes boulder south along col 3: (3, 14) -> (3, 15) -> (3, 16).
+    3. Player loops via (4, 15) to (4, 16), faces West, and pushes boulder west along row 16: (3, 16) -> (2, 16) -> (1, 16) directly onto Switch Plate A! Switch depressed, lowering Plateau Barrier at (7, 8)-(7, 9)!
   - Boulder from 3F dropped through Pit Hole (23, 15) down to 2F at (23, 16). Pushed onto Switch Plate B at (9, 16) [Turn 24445], temporarily lowering Barrier Block at (23, 14) for the current session (resets upon leaving/re-entering 2F) and opening access to Exit Ladder at (25, 14).
 - Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East exits onto Route 23 North at (14, 31) [Turn 24494].
 

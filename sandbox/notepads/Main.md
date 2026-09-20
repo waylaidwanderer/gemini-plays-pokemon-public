@@ -13,56 +13,25 @@
 
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
-
 - [x] Receive Starter Pok��mon from Professor Oak (Squirtle) [Turn 40]
 
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 
 - [x] Reach Viridian City via Route 1 [Turn 132]
 
-
-
 - [x] Obtain Pok��dex from Prof. Oak [Turn 214]
-
-
-
 
 - [x] Reach Pewter City [Turn 495]
 
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
 
-
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 
-
-
 - [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
-
-
-
-- [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
-
-
-
-
-
-- [x] Obtain Bike Voucher from Pok��mon Fan Club Chairman in Vermilion City [Turn 2796]
-
-
-
 
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 
 - [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
-
-
-
-
-- [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
-
-
-
-
 
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
 - [x] Rescue Mr. Fuji from Pok�mon Tower and obtain Pok� Flute in Lavender Town [Turn 6599]
@@ -72,11 +41,9 @@
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
-- [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
-- [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
 - [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
