@@ -152,7 +152,7 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- POLIWHIRL [Lv 23, Water]
+- POLIWHIRL (Nickname: SWIRLY) [Lv 23, Water]
   - Status: Healthy
   - Caught: Celadon Courtyard Pond with Ultra Ball [Turn 31712]
   - Note: Prepared for Jynx in-game trade in Cerulean City
@@ -4913,14 +4913,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Status: Available in various Kanto waterways (e.g. Route 22).
 
 ## Party & Inventory Status [Turn 31682]
-- Party: 6/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25, Poliwhirl Lv 23).
+- Party: 6/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25, Poliwhirl SWIRLY Lv 23).
 - PC Box 1: 19/20 capacity (Slowpoke DOPEY deposited Celadon PC Turn 31675).
 - Balls: 1 Ultra Ball in Bag.
 - Money: �3,506.
 
 ## Strategy & Action Plan
 1. Catch wild Poliwhirl with Ultra Ball (enters active party Slot 6: 6/6).
-2. Nickname Poliwhirl.
+2. Nicknamed Poliwhirl SWIRLY [Turn 31715].
 3. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
 
 
