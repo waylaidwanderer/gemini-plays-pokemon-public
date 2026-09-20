@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9, Blastoise (SHELDON) Lv 70
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70 (2 open slots for fossil revival)
 
 - Money: ¥56 [Turn 29995]
 - Pokédex: 19 Caught / 128 Seen
