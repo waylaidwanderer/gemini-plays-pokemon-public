@@ -56,7 +56,7 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-3. REVIVE x 4
+3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �1,500]
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
@@ -106,7 +106,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥706 [Turn 31852]
+- ¥2,206 [Turn 32167]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
