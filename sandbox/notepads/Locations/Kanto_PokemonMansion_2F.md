@@ -58,4 +58,5 @@
 - Grimer (Lv 28-31) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
 - Ponyta (Lv 32-36) [Uncommon]
-- Note: Magmar (#126) remains unverified on 2F across 10 observed encounters; B1F survey recommended if not found here.
+- Koffing (Lv 34) [Uncommon]
+- Note: Magmar (#126) remains unverified on 2F across 11 observed encounters; B1F survey recommended if not found here.

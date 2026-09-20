@@ -5,7 +5,7 @@
   - Target Species: Vulpix (#037, active battle!), Magmar (#126, unverified on 2F; survey B1F if absent), Koffing (#109), Weezing (#110)
   - Location: Pokémon Mansion (Currently 2F; 1F empirical trials 1-9 yielded Grimer, Ponyta, Muk)
   - Party Status: 6/6 (Box 2: 5/20 used, 15 free slots)
-  - Resources: 8 Ultra Balls in Bag (after current throw)
+  - Resources: 7 Ultra Balls in Bag (after current throw)
   - Execution Plan:
     1. Capture wild Vulpix on 2F (active battle Turn 32462).
     2. Survey 2F / B1F for Magmar (#126).
