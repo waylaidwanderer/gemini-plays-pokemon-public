@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Poliwhirl Lv 23 (6 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 30 Caught / 136 Seen [Turn 31637]
 
@@ -54,6 +54,7 @@
 - [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 - [x] Catch wild Krabby in Cerulean Gym pool with Ultra Ball [Turn 31540]
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
+- [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
 
 
 <hr>
@@ -151,6 +152,11 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- POLIWHIRL [Lv 23, Water]
+  - Status: Healthy
+  - Caught: Celadon Courtyard Pond with Ultra Ball [Turn 31712]
+  - Note: Prepared for Jynx in-game trade in Cerulean City
+
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
@@ -4900,16 +4906,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Trial 6 [Turn 31700]: Not even a nibble! (1 bite / 6 casts).
     - Trial 7 [Turn 31701]: Not even a nibble! (1 bite / 7 casts).
     - Trial 8 [Turn 31702]: Not even a nibble! (1 bite / 8 casts).
-    - Trial 9 [Turn 31704]: Hooked wild POLIWHIRL! Hypothesis CONFIRMED! Celadon Courtyard Pond Super Rod table yields Poliwhirl. In battle, preparing to catch with Ultra Ball into party Slot 6.
+    - Trial 9 [Turn 31704]: Hooked wild POLIWHIRL! Caught on Turn 31712 with Ultra Ball! Hypothesis CONFIRMED! Poliwhirl entered active party Slot 6 (6/6).
   - Hypothesis Update [Turn 31699]: Slowpoke hooked on Trial 2 confirms the Blue encounter table (counterpart to Red's Psyduck/Poliwhirl). Poliwhirl is expected in this group. Continuing trials (Trials 6-10).
   - Route 10 Super Rod Trial Summary [Turns 31609-31658]: 2 out of 2 bites yielded wild Slowpoke Lv 15 (Turns 31624, 31650). Slowpoke is confirmed present; Poliwhirl was unobserved in this small sample.
 - Target 2: Goldeen (#118)
   - Status: Available in various Kanto waterways (e.g. Route 22).
 
 ## Party & Inventory Status [Turn 31682]
-- Party: 5/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25). Slot 6 open for Poliwhirl!
+- Party: 6/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25, Poliwhirl Lv 23).
 - PC Box 1: 19/20 capacity (Slowpoke DOPEY deposited Celadon PC Turn 31675).
-- Balls: 2 Ultra Balls in Bag.
+- Balls: 1 Ultra Ball in Bag.
 - Money: �3,506.
 
 ## Strategy & Action Plan
