@@ -4796,7 +4796,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Strategic Objectives
 - [x] Warped to Viridian City with full health and 21 Ultra Balls [Turn 30268]
-- [ ] Mount Bicycle in Viridian City
+- [x] Mount Bicycle in Viridian City [Turn 30275]
 - [ ] Ride west along Route 22 to Pokémon League Reception Gate
 - [ ] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17)
 - [ ] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8)
