@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Jynx (LOLA) Lv 23 (6 in party)
-- Money: ¥5,406 [Turn 31843]
+- Money: ¥10,306 [Turn 31848]
 - Pokédex: 34 Caught / 136 Seen [Turn 31824]
 
 ## Milestones
@@ -75,15 +75,14 @@
 7. FULL RESTORE x 2
 8. PP UP x 1
 9. MAX ELIXER x 1
-10. HP UP x 1
-11. HM02 [Key Item]
-12. RARE CANDY x 1
-13. GUARD SPEC. x 1
-14. MAX POTION x 1
-15. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+10. HM02 [Key Item]
+11. RARE CANDY x 1
+12. GUARD SPEC. x 1
+13. MAX POTION x 1
+14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
 
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
