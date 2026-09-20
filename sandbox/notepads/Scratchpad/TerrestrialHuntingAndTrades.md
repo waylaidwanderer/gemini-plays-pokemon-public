@@ -23,4 +23,4 @@
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Magmar: 0 encounters across 22 trials on 2F; B1F primary habitat.
+- Magmar: 0 encounters across 23 trials on 2F; B1F primary habitat.
