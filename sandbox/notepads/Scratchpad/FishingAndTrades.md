@@ -7,7 +7,7 @@
   - Hypothesis Status: UNVERIFIED HYPOTHESIS to be tested with N>=5 Super Rod casts.
   - Empirical Celadon Pond Fishing Trials:
     - Trial 1 [Turn 31690]: Not even a nibble! (0 bites / 1 cast).
-    - Trial 2 [Turn 31693]: Hooked a bite! Entering battle to identify species.
+    - Trial 2 [Turn 31694]: Hooked wild SLOWPOKE (duplicate, fleeing). (1 bite / 2 casts: Slowpoke).
   - Route 10 Super Rod Trial Summary [Turns 31609-31658]: 2 out of 2 bites yielded wild Slowpoke Lv 15 (Turns 31624, 31650). Slowpoke is confirmed present; Poliwhirl was unobserved in this small sample.
 - Target 2: Goldeen (#118)
   - Status: Available in various Kanto waterways (e.g. Route 22).
