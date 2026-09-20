@@ -4721,7 +4721,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Prehistoric Fossil Revival (Omanyte & Aerodactyl)
 
 ## Strategic Objectives
-- [ ] At Indigo Plateau PC: Deposit 2 Pokémon (Drowzee & Diglett) into Box 1 to free 2 party slots [In Progress Turn 30633]
+- [x] At Indigo Plateau PC: Deposit SANDMAN into Box 1 [Completed Turn 30640]
+- [ ] At Indigo Plateau PC: Deposit DIGBY into Box 1 [In Progress Turn 30644]
 - [ ] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Pending]
 - [ ] Exit Indigo Plateau lobby to exterior map (9, 6) [Pending]
 - [ ] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Pending]
