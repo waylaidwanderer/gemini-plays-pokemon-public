@@ -71,4 +71,5 @@
 - West Wing fully surveyed: B1F exploration 100% complete!
 
 ## Wild Encounters (Verified Species & Level Bands)
+- Grimer [Verified Turn 33020 at (25, 26)]
 - Vulpix [Verified Turn 33012 at (24, 24)]
