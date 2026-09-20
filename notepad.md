@@ -3579,7 +3579,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
+- Access Investigation: North approach via row 8 is blocked by wall at (24-25, 8) and chute (28, 7) is a dead end. Passage into Southeast Chamber remains to be audited via the southern approach through open Shutter (18-19, 8) along rows 14-16. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
@@ -4971,25 +4971,25 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Next Hunting Target: Pokémon Mansion (Cinnabar Island)
-- Target 3: Cinnabar Pokémon Mansion Wild Captures
+## Next Hunting Target: Pok�mon Mansion (Cinnabar Island)
+- Target 3: Cinnabar Pok�mon Mansion Wild Captures
   - Target Species: Magmar (#126 on B1F), Weezing (#110 on B1F)
   - Completed Mansion Captures:
     - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
     - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
     - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
     - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
-  - Location: Pokémon Mansion (Currently 2F; ascending to 3F to drop to B1F)
+  - Location: Pok�mon Mansion (Currently 1F; returning to 2F in active State B)
   - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
+  - Switch Status: Switch State B is ALREADY ACTIVE (toggled Turn 32780). Shutter (18-19, 8) on 2F and East Shutter (15, 10-11) on 3F are OPEN.
   - Execution Plan:
-    1. Audited 2F Far Eastern chute at (28, 7) [Turn 32818]: row 8 is solid wall, proving Southeast Chamber is completely enclosed on 2F ground. (25, 14) is arrival landing only.
-    2. Ascending to 3F is achieved via Northwest Bedroom stairs at (6, 1) in Switch State A (Northwest Shutter at 9, 4-5 is open in State A).
-    3. On 3F Northwest chamber, activate secret switch statue at (10, 4-5) to toggle to State B, opening 3F East Shutter at (15, 10-11).
-    4. Pass through East Shutter to Southern Balcony, drop down West Gap at (17, 14) to 1F enclosed chamber.
-    5. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
-
-
+    1. Flee wild battle on 1F (12, 6) and return west to (5, 10) staircase up to 2F.
+    2. On 2F, walk east past row 10 into Eastern Main Wing, pass through open Shutter at (18-19, 8) into Central-South Corridor (cols 18-22, rows 11-16).
+    3. Explore south along rows 14-16 to locate the connecting eastward passage into the Southeast Chamber (cols 23-28, rows 9-16).
+    4. Ascend staircase at (25, 14) to 3F.
+    5. On 3F, with State B active, East Shutter at (15, 10-11) is already open; enter Southern Balcony Chamber and drop down West Gap at (17, 14) to 1F enclosed chamber.
+    6. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
 
 
 <hr>
