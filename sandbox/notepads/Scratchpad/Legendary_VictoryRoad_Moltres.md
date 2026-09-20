@@ -4,7 +4,8 @@
 - [x] HM04 Strength active on Victory Road 1F [Cast Turn 30364 by ROCKY]
 - [x] Ride west along Route 22 to Pokémon League Reception Gate [Turn 30325]
 - [x] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17) [Turn 30356]
-- [ ] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8)
+- [x] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8) [Completed Turn 30447]
+- [ ] Push Boulder (5, 5) North to clear row 3 corridor to Moltres (11, 5)
 - [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
