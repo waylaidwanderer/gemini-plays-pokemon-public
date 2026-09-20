@@ -15,10 +15,8 @@
 12. HP UP x1
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
-15. OLD AMBER [Key Item, Received Pewter Museum 1F Turn 30788]
-
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -148,3 +146,4 @@
   - Deposited from active party [Turn 13315]
 ## Fossil Revival Status
 - HELIX FOSSIL: Handed to Cinnabar Lab scientist for revival into Omanyte [Turn 30867]
+- OLD AMBER: Handed to Cinnabar Lab scientist for revival into Aerodactyl [Turn 30922]

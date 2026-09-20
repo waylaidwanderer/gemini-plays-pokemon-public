@@ -7,8 +7,8 @@
 - [x] Submit HELIX FOSSIL to scientist [Completed Turn 30867]
 - [x] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [Completed Turn 30898]
 - [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
-- [ ] Submit OLD AMBER to scientist [In Progress]
-- [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Pending]
+- [x] Submit OLD AMBER to scientist [Completed Turn 30922]
+- [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [In Progress]
 
 ## Party & Inventory Logistics
 - Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, OMANYTE Lv 30), 1 open party slot ready for Aerodactyl.
