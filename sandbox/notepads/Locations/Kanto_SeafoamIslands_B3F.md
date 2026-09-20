@@ -25,3 +25,10 @@
 - Staryu [Encountered Turn 29256].
 - Psyduck (Lv 31) [Encountered Turn 29207].
 - Krabby (Lv 31) [Encountered Turn 29244].
+
+## Northwest Sector (Audited Turn 29511)
+- Northwest Elevated Terrace: Cols 1..8, rows 0..5. Completely open cave floor; no boulders, pit holes, or items.
+- Outer Boundaries: North rock ceiling at row -1; West rock wall at col 0; East rock wall at col 9 (rows 0..4).
+- Wooden Stairs: (6..7, 5) connect northern terrace to dock apron at (6..9, 6..7).
+- Ladder at (8, 6): Mounted on rock wall; connects to lower floor ladder at (11, 7).
+- Western South Corridor: Cols 1..4, rows 6..7+ run south toward southern chamber, bounded west by col 0 wall and east by col 5 rock divider.
