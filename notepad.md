@@ -1559,6 +1559,7 @@
 - **Designated User:** Geodude (ROCKY).
 - **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
+- **Strength Persistence Across Wild Battles:** In retail Generation 1 Pokémon, encountering and fleeing from a wild Pokémon battle does NOT reset the active status of HM04 Strength. Strength remains active in the overworld after battle, allowing boulders to continue being pushed without re-casting from the menu [Empirically verified Turns 30048-30058 on Victory Road 3F].
 
 <hr>
 
