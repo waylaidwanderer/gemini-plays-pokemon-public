@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Ponyta (BLAZE) Lv 32 (6 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Seel (SAILOR) Lv 32 (6 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 27 Caught / 136 Seen [Turn 31428]
 
@@ -3347,10 +3347,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Landmarks & Layout
 - Northern Dock: Wooden pier providing direct landing from Route 21 into the north edge of Cinnabar Island at columns 10-11, connecting south into row 0 [Verified Turns 13675, 13676].
-- Pokéémon Mansion: Large building in northwest occupying columns 4 to 9, rows 0 to 3, with entrance door at (6, 3) [Verified Turns 13676, 13678].
+- Pokémon Mansion: Large building in northwest occupying columns 4 to 9, rows 0 to 3, with entrance door at (6, 3) [Verified Turns 13676, 13678].
 - Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Entrance door unlocked with Secret Key [Turn 14686].
 - Thoroughfare & Connections: Eastern avenue along columns 18..19 connects southern town plaza (row 12) north to northern plaza (Gym at cols 14..18 and Mansion at cols 4..9, rows 0..3). Central northern plaza spans columns 10 to 13, rows 0 to 7.
-- Cinnabar Pokéé Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
+- Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
   - Clerk Inventory [Audited Turn 31285]:
     - ULTRA BALL: ¥1,200
     - GREAT BALL: ¥600
@@ -3360,13 +3360,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - FULL HEAL: ¥600
     - REVIVE: ¥1,500
 - Eastern Shoreline: Column 20 is the eastern cliff/water boundary connecting to Route 20 [Verified Turn 13682].
-- Cinnabar Pokéémon Center: Located at columns 10 to 13, rows 8 to 11, marked with "POKé" on facade at (12, 11). Entrance door at (11, 11) [Verified Turn 13684].
+- Cinnabar Pokémon Center: Located at columns 10 to 13, rows 8 to 11, marked with "POKé" on facade at (12, 11). Entrance door at (11, 11) [Verified Turn 13684].
   - Interior Layout [Verified Turns 31298-31312]:
     - Entrance mat at (3..4, 7), door exit warps south to (11, 12) exterior.
     - Nurse Joy counter at (3, 2).
     - PC terminal located at (13, 3), operated from (13, 4) facing North.
     - Hallway aisle along row 5 connects entrance mat (3, 5) directly east to PC (13, 5).
-- Cinnabar Pokéémon Lab: Building occupying columns 4 to 9, rows 8 to 9. Exterior entrance door located at (6, 9) approached from south via row 10..12 grass. Enters interior entrance hallway at (2, 7) [Empirically verified Turn 30813].
+- Cinnabar Pokémon Lab: Building occupying columns 4 to 9, rows 8 to 9. Exterior entrance door located at (6, 9) approached from south via row 10..12 grass. Enters interior entrance hallway at (2, 7) [Empirically verified Turn 30813].
 
 <hr>
 
@@ -3488,9 +3488,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
-## Wild Encounters (Empirically Verified)
-- Grimer (Lv 28-30) [Turns 31332-31348].
-- Vulpix (Lv 30-32) [Turns 31332-31348].
+## Wild Encounters (Preliminary Observations)
+- Grimer (Lv 28-30) [Observed 1 trial, Turns 31332-31348].
+- Vulpix (Lv 30-32) [Observed 4 trials, Turns 31332-31348].
+- Note: Sample size (5 battles) is insufficient to determine full encounter tables or rule out rare spawns.
 
 
 <hr>
@@ -4812,15 +4813,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Main Corridor: 3-tile wide hallway spanning rows 5..7 extending east past column 7 toward the facility's research rooms.
 
 ## Facility Rooms
-- Meeting Room (Rows 0..7, Cols 0..7): First door along hallway at (8, 4), entrance mat at (2..3, 7) [Entered Turn 31215].
+### Meeting Room (Rows 0..7, Cols 0..7)
+First door along hallway at (8, 4), entrance mat at (2..3, 7) [Entered Turn 31215].
   - Layout: Large wooden conference table at cols 3..5, rows 3..4 with chairs.
   - Old Man Trade NPC: Located at (1, 4) facing South; trades RAICHU for ELECTRODE (DORIS, #101) [Verified Turn 31218].
   - Boy NPC: Seated at table at (3, 2).
   - Girl Trade NPC: Seated at table at (5, 5); trades VENONAT for TANGELA (CRINKLES, #114).
-- R&D Room (Rows 0..7, Cols 0..7): Second door along hallway at (12, 4), entrance mat at (2..3, 7) [Entered Turn 31206].
+### R&D Room (Rows 0..7, Cols 0..7)
+Second door along hallway at (12, 4), entrance mat at (2..3, 7) [Entered Turn 31206].
   - Metronome Researcher: Stationed at (7, 2) in front of computer terminal; gave TM35 (Metronome) [Turn 31210].
   - Eevee Evolution Researcher: Wanders rows 2..3 (cols 0..5); discusses Eevee evolutions [Turn 31212].
-## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
+### Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Northern aisle spans horizontally across row 2 (cols 0..7) and connects to vertical central aisles (cols 4..5, rows 2..7) and southern open floor on rows 6..7.
 - Trader NPC: Stationed at (7, 6) in front of eastern terminal; traded his SEEL (SAILOR) for player's PONYTA (BLAZE) [Completed Turn 31425].
