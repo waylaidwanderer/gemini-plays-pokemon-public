@@ -4988,5 +4988,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 3 | VULPIX (#037) | 33 | (5, 9) | Turn 32448 | Broke out 1 Ultra Ball; used Roar |
 | 4 | PONYTA (#077) | 36 | (9, 9) | Turn 32455 | Fled (Duplicate species) |
 | 5 | VULPIX (#037) | 33 | (7, 8) | Turn 32459 | Broke out 1 Ultra Ball; used Roar |
+| 6 | PONYTA (#077) | ? | (7, 9) | Turn 32465 | In Progress (Turn 32465) |
 
 <hr>
