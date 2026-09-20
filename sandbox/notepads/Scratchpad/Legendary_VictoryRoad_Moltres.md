@@ -40,3 +40,4 @@
 - [Turn 30577] Threw Ultra Ball #11 at wild Moltres (HP ~58%). Ball missed. 10 Ultra Balls remaining.
 - [Turn 30579] Threw Ultra Ball #12 at wild Moltres (HP ~58%). Ball missed. 9 Ultra Balls remaining.
 - [Turn 30581] Threw Ultra Ball #13 at wild Moltres (HP ~58%). Ball missed. 8 Ultra Balls remaining.
+- [Turn 30583] Threw Ultra Ball #14 at wild Moltres (HP ~58%). Ball missed. 7 Ultra Balls remaining.
