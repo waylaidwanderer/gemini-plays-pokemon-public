@@ -28,7 +28,7 @@
 
 ## Completed Objectives
 - Caught wild Poliwhirl Lv 23 in Celadon Courtyard Pond [Turn 31712].
-- Traded Poliwhirl for Jynx (OT TRAINER, ID 22074) with Resident 2 in Cerulean City [Turn 31724]!
+- Traded Poliwhirl for Jynx (LOLA, OT TRAINER, ID 22074) with Resident 2 in Cerulean City [Turn 31724]!
 - Pokédex expanded to 32 Caught / 136 Seen!
 
 ## Next Hypotheses & Targets
