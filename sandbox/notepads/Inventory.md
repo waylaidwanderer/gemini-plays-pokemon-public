@@ -200,6 +200,14 @@
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
   - Transferred to PC Box 2 (2/20)
+- JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
+  - Status: Healthy
+  - HP: 65 / 65
+  - Stats: Attack 32, Defense 26, Speed 56, Special 56 [Verified Lv 23 Turn 31735]
+  - OT: DONA (IDNo. 19854, Boosted EXP)
+  - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
+  - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
+  - Deposited: Celadon PC Box 2 (3/20) [Turn 32128]
 - ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
   - Status: Healthy
   - HP: 17 / 17

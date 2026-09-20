@@ -3,7 +3,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Money: ¥706 [Turn 31852]
+- Money: ¥106 [Turn 32170]
 - Pokédex: 38 Caught / 136 Seen [Turn 32261]
 
 ## Milestones
@@ -41,4 +41,3 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
-- [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]

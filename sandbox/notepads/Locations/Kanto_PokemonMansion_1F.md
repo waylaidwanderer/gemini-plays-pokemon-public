@@ -53,3 +53,5 @@
 - B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564]. Shutter 2 at (20-21, 17) is hypothesized OPEN in State B (bypassed via balcony drop). Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
 ## Wild Encounters (Empirically Verified)
 - Ponyta (Lv 32) encountered in central corridor at (5, 16) [Turn 31364].
+- Muk (Lv 37) encountered in central corridor at (5, 23) [Turn 32251]; caught with Ultra Ball [Turn 32261].
+- Ponyta (Lv 32) encountered in central corridor at (5, 17) [Turn 32276]; fled successfully.
