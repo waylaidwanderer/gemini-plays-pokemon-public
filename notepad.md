@@ -3513,6 +3513,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Grimer (Lv 30-32) [Common]
 - Ponyta (Lv 32-34) [Common]
 - Muk (Lv 37) [Rare]
+- Vulpix (Lv 34) [Verified Turn 32848]
 
 <hr>
 

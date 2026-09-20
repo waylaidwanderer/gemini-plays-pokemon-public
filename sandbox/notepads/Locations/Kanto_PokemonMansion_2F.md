@@ -58,7 +58,7 @@
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
+- Access Investigation: North approach via row 8 is blocked by wall at (24-25, 8) and chute (28, 7) is a dead end. Passage into Southeast Chamber remains to be audited via the southern approach through open Shutter (18-19, 8) along rows 14-16. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
