@@ -19,8 +19,7 @@
   - Water Shoreline: Open ground extends south to row 15. The water shoreline is located at (8, 15) facing west into water tile (7, 15) [Verified Turn 31774].
 
 ## Wild Pokémon & Fishing Trials
-- Pallet Town Southern Shoreline (8, 15) facing West into (7, 15) [Super Rod Trials, Turns 31778-31799]:
-  - Trial 1 [Turn 31778-31782]: Wild Tentacool Lv 15 (#072) caught with Ultra Ball.
-  - Trial 2 [Turn 31793]: Not even a nibble.
-  - Trial 3 [Turn 31796]: Not even a nibble.
-  - Trial 4 [Turn 31798-31824]: Wild Poliwag Lv 15 (#060) caught with Ultra Ball (slept with Lola's Lovely Kiss, chipped with Pound).
+- Pallet Town Southern Shoreline (8, 15) facing West into (7, 15) [Super Rod, Turns 31778-31824]:
+  - Wild Tentacool Lv 15 (#072) caught with Ultra Ball [Turn 31782].
+  - Wild Poliwag Lv 15 (#060) caught with Ultra Ball (slept, chipped with Pound) [Turn 31824].
+  - Encounter Table: Tentacool and Poliwag (2-species table exhausted).

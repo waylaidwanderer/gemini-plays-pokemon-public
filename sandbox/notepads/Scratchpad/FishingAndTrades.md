@@ -3,10 +3,9 @@
 ## Active Hypotheses & Targets
 - Target 1: Goldeen (#118)
   - Goal: Register Goldeen (#118) via water fishing.
-  - Prerequisite: Replenish Poké/Ultra Balls at Poké Mart before fishing.
-  - Location: Pallet Town southern shoreline at (8, 15) facing West into water tile (7, 15).
-  - Hypothesis Status: UNVERIFIED HYPOTHESIS to be empirically tested with Super Rod casts once balls are replenished.
-  - High-level Plan: 1. Fly to Mart, sell excess items, purchase Ultra Balls. 2. Return to Pallet Town shoreline. 3. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
+  - Location: Route 22 freshwater pond (Route 22, west of Viridian City).
+  - Hypothesis Status: UNVERIFIED HYPOTHESIS. Pallet Town's 2-species table (Tentacool & Poliwag) is exhausted. Testing un-surveyed Route 22 freshwater pond.
+  - High-level Plan: 1. Fly to Viridian City. 2. Walk west to Route 22 pond. 3. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Acquire Pikachu, evolve to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.

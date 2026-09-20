@@ -56,8 +56,6 @@
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
 - [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
-- [x] Catch wild Tentacool on Pallet Town shoreline with Ultra Ball [Turn 31782]
-- [x] Catch wild Poliwag on Pallet Town shoreline with Ultra Ball [Turn 31824]
 
 <hr>
 
@@ -4463,11 +4461,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Water Shoreline: Open ground extends south to row 15. The water shoreline is located at (8, 15) facing west into water tile (7, 15) [Verified Turn 31774].
 
 ## Wild Pokémon & Fishing Trials
-- Pallet Town Southern Shoreline (8, 15) facing West into (7, 15) [Super Rod Trials, Turns 31778-31799]:
-  - Trial 1 [Turn 31778-31782]: Wild Tentacool Lv 15 (#072) caught with Ultra Ball.
-  - Trial 2 [Turn 31793]: Not even a nibble.
-  - Trial 3 [Turn 31796]: Not even a nibble.
-  - Trial 4 [Turn 31798-31824]: Wild Poliwag Lv 15 (#060) caught with Ultra Ball (slept with Lola's Lovely Kiss, chipped with Pound).
+- Pallet Town Southern Shoreline (8, 15) facing West into (7, 15) [Super Rod, Turns 31778-31824]:
+  - Wild Tentacool Lv 15 (#072) caught with Ultra Ball [Turn 31782].
+  - Wild Poliwag Lv 15 (#060) caught with Ultra Ball (slept, chipped with Pound) [Turn 31824].
+  - Encounter Table: Tentacool and Poliwag (2-species table exhausted).
 
 <hr>
 
@@ -4925,10 +4922,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Hypotheses & Targets
 - Target 1: Goldeen (#118)
   - Goal: Register Goldeen (#118) via water fishing.
-  - Prerequisite: Replenish Poké/Ultra Balls at Poké Mart before fishing.
-  - Location: Pallet Town southern shoreline at (8, 15) facing West into water tile (7, 15).
-  - Hypothesis Status: UNVERIFIED HYPOTHESIS to be empirically tested with Super Rod casts once balls are replenished.
-  - High-level Plan: 1. Fly to Mart, sell excess items, purchase Ultra Balls. 2. Return to Pallet Town shoreline. 3. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
+  - Location: Route 22 freshwater pond (Route 22, west of Viridian City).
+  - Hypothesis Status: UNVERIFIED HYPOTHESIS. Pallet Town's 2-species table (Tentacool & Poliwag) is exhausted. Testing un-surveyed Route 22 freshwater pond.
+  - High-level Plan: 1. Fly to Viridian City. 2. Walk west to Route 22 pond. 3. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Acquire Pikachu, evolve to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
