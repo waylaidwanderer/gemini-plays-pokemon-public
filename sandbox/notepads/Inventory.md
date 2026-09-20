@@ -85,6 +85,11 @@
   - HP: 88 / 88
   - Moves: Growl, Scratch, Poison Sting, Body Slam
   - Withdrawn from PC Box 1 [Turn 31161]
+- VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
+  - Status: Healthy
+  - HP: 60 / 60
+  - Moves: Tackle, Disable, Poisonpowder, Leech Life
+  - Withdrawn from PC Box 1 [Turn 31166]
 
 
 ## PC Box 1 Pokémon
@@ -131,10 +136,6 @@
   - Status: Healthy
   - HP: Full
   - Caught: Route 11 tall grass [Turn 3751]
-- VENONAT (RADAR) [Lv 22, Bug/Poison]
-  - Status: Healthy
-  - Caught: Safari Zone Center Area tall grass [Turn 7581]
-  - Transferred to PC Box 1 (Active Party full)
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
   - Status: Healthy
   - Caught: Safari Zone Area 2 tall grass [Turn 8384]
