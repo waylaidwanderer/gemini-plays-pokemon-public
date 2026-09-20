@@ -3,7 +3,7 @@
 ## Strategic Objectives
 - [x] Exit Cinnabar Pokémon Lab to outside Cinnabar Island [Turn 30969]
 - [x] Cast HM02 FLY to Celadon City [Turn 30984]
-- [ ] Enter Celadon Pokémon Center at (41, 9)
+- [x] Enter Celadon Pokémon Center at (41, 9) [Turn 30985]
 - [ ] Access PC:
   - Withdraw NUGGET to sell for cash
   - Deposit 1 party Pokémon (e.g. NAUTILUS or ROCKY) into PC Box 1 to free up a party slot for nicknaming Eevee

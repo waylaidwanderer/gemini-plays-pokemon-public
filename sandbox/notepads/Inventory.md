@@ -149,6 +149,3 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
-## Fossil Revival Status
-- HELIX FOSSIL: Handed to Cinnabar Lab scientist for revival into Omanyte [Turn 30867]
-- OLD AMBER: Handed to Cinnabar Lab scientist for revival into Aerodactyl [Turn 30922]
