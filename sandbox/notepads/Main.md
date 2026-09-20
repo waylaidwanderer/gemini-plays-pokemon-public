@@ -54,3 +54,4 @@
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
 - [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
+- [x] Catch wild Tentacool on Pallet Town shoreline with Ultra Ball [Turn 31782]

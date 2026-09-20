@@ -13,4 +13,4 @@
   - Hypothesis Status: UNVERIFIED HYPOTHESIS.
 
 ## Pallet Town Super Rod Empirical Trials
-- Trial 1 [Turn 31778]: Hooked wild TENTACOOL! (Unregistered Pokédex species #072). Catching with Ultra Ball (planned nickname: STINGER).
+- Trial 1 [Turn 31778-31782]: Hooked and caught wild TENTACOOL Lv 15 with 1 Ultra Ball! (Registered Pokédex species #072). Nicknaming STINGER. Transferring to Box 2.

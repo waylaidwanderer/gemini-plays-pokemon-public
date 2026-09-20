@@ -56,6 +56,7 @@
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
 - [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
+- [x] Catch wild Tentacool on Pallet Town shoreline with Ultra Ball [Turn 31782]
 
 <hr>
 
@@ -4918,6 +4919,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS.
 
 ## Pallet Town Super Rod Empirical Trials
-- Trial 1 [Turn 31778]: Hooked wild TENTACOOL! (Unregistered Pokédex species #072). Catching with Ultra Ball (planned nickname: STINGER).
+- Trial 1 [Turn 31778-31782]: Hooked and caught wild TENTACOOL Lv 15 with 1 Ultra Ball! (Registered Pokédex species #072). Nicknaming STINGER. Transferring to Box 2.
 
 <hr>
