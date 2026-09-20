@@ -155,4 +155,5 @@
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
-- [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
+- [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
+- [ ] Infiltrate Victory Road 2F and capture Legendary MOLTRES

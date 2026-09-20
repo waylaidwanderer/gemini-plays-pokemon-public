@@ -157,7 +157,8 @@
 - [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
-- [ ] Traverse Seafoam Islands B4F and capture Legendary ARTICUNO
+- [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
+- [ ] Infiltrate Victory Road 2F and capture Legendary MOLTRES
 
 <hr>
 
@@ -4569,17 +4570,27 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Execute boulder puzzle to stop subterranean water currents [Completed Turn 29724 - both boulders dropped to B4F]!
 - [x] Navigate to Articuno's chamber and platform on B4F [Arrived Turn 29741]!
 - [x] Initiate battle with Articuno [Turn 29745]!
-- [ ] Conclude battle with Articuno (Lv 50)
+- [x] Conclude battle with Articuno (Lv 50) [Escaped safely Turn 29975]!
 
-## Operational Capture Thresholds & Live Combat Status [Turn 29974]
-- **Opponent State:** Wild ARTICUNO (Lv 50) HP: ~65% (~100/158 HP).
-- **Active Pok�mon:** OMEGA (Mewtwo Lv 70) HP: 133 / 234, Status: FROZEN (FRZ).
-- **Ultra Ball Stock:** 0 Ultra Balls remaining in Bag. Entire ball supply exhausted.
-- **Inventory State:** 0 Ultra Balls, 0 Great Balls, 0 Pok� Balls across Bag and PC.
-- **Battle Resolution Strategy:**
-  Since 0 balls remain in inventory, capturing Articuno in this battle is mechanically impossible.
-  In Generation 1 retail, stationary legendary encounter scripts (e.g. Snorlax, Zapdos, Articuno):
-  Let's evaluate whether fleeing, blacking out, or fainting Articuno is the proper outcome.
+## Post-Battle Status & Empirical Findings [Turn 29975]
+- **Battle Outcome:** Fled battle safely on Turn 29975 after consuming all 54 Ultra Balls without a capture.
+- **Overworld State:** Articuno's stationary sprite has despawned from platform (6, 1) on Seafoam Islands B4F.
+- **Active Team Status:**
+  - Mewtwo (OMEGA Lv 70): HP 98 / 234, Status: FROZEN (FRZ). Needs Pokémon Center heal.
+  - Blastoise (SHELDON Lv 70): HP 222 / 222 (Healthy).
+  - Geodude (ROCKY Lv 8): HP 26 / 26 (Knows Strength).
+  - Farfetch'd (DUX Lv 5): HP 20 / 20 (Knows Cut, Fly).
+  - Diglett (DIGBY Lv 19): HP 38 / 38 (Knows Dig).
+  - Drowzee (SANDMAN Lv 9): HP 30 / 30 (Knows Flash, Hypnosis).
+- **Inventory & Funds:**
+  - Ultra Balls: 0 remaining in Bag.
+  - Money: ¥20,256 + Nugget (worth ¥5,000) = ¥25,256 available purchasing power (~21 Ultra Balls).
+- **Next Tactical Steps:**
+  1. Cast Diglett's DIG to warp immediately from B4F to Cinnabar Island Pokémon Center.
+  2. Heal team with Nurse Joy (cures Mewtwo's FRZ and restores all HP/PP).
+  3. Visit Poké Mart, sell Nugget, and buy 20+ Ultra Balls.
+  4. Fly to Indigo Plateau / Victory Road to locate and capture Legendary Fire Bird MOLTRES!
+
 
 <hr>
 
