@@ -3477,7 +3477,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Divided from central corridor to the south by solid horizontal wall (1-7, 9) [Verified Turn 13754].
 - Rubble blocks columns 1-3 at rows 2-3, and column 1 at rows 4-5.
 - Large 2x2 table at (6-7, 4-5).
-- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Activated switch on Turn 13757.
+- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Activated switch on Turn 13757. Re-activated switch on Turn 32603, toggling Mansion global switch state to State B ('Who wouldn't?').
 - Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).
 
 ## Northern Hallway (Row 1 Superhighway)
@@ -3513,7 +3513,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Grimer (Lv 30-32) [Common]
 - Ponyta (Lv 32-34) [Common]
 - Muk (Lv 37) [Rare]
-
 
 <hr>
 
