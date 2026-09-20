@@ -3852,6 +3852,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate: Located at (17, 13) in eastern wing.
 - Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau. Lowered/removed by placing Boulder 1 on switch plate at (17, 13) [Verified Turn 15465].
 - Plateau Access: Stairs/ladder at (5, 13) connects lower floor (5, 14) to elevated plateau (5, 12).
+- Western Plateau Staircase: Located at (7, 7), connects elevated plateau (7, 6) down to western corridor lower floor at (7, 8) [Turn 30444], leading directly to Western Corridor (cols 2-3) and Ladder (1, 1).
 - Boulder 1 (Entrance Boulder): Resets to (5, 15) upon entering/reloading 1F. Pushing onto switch plate at (17, 13) via Row 16, Row 14, and Row 12 temporarily lowers Plateau Barrier Block at (9, 12) for the current session. Plateau Barrier Block is raised by default on map load [Verified Turn 30356].
   - Verified Step-by-Step Displacement Sequence [Turns 30371-30391]:
     1. Player loops via col 4 to (5, 14), faces South, and pushes Boulder 1 from (5, 15) down to (5, 16) on Row 16.
@@ -3861,7 +3862,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     5. Player steps to (16, 15), faces North, and pushes Boulder 1 north along col 16: (16, 14) -> (16, 13) -> (16, 12) onto Row 12.
     6. Player loops via (15, 12), pushes Boulder 1 East into (17, 12), loops to (17, 11), and pushes South onto Switch Plate at (17, 13) [Solved Turn 30397]. Switch depressed, lowering Plateau Barrier Block at (9, 12)!
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
-- Boulder 3 (Northern Trench Boulder): Initial position at (14, 2). Pushed West along row 2 into (11, 2), then pushed North into (11, 1) alcove to permanently open row 2 highway west toward Ladder (1, 1) [Turns 30430-30431].
+- Boulder 3 (Northern Trench Boulder): Initial position at (14, 2). Pushed West along row 2 into (11, 2), then pushed North into (11, 1) alcove to open access to Rare Candy at (9, 2) [Turns 30430-30434]. Note: Northern trench terminates at column 8 rock wall and does NOT connect to Ladder (1, 1).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
 
@@ -4781,7 +4782,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] HM04 Strength active on Victory Road 1F [Cast Turn 30364 by ROCKY]
 - [x] Ride west along Route 22 to Pokémon League Reception Gate [Turn 30325]
 - [x] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17) [Turn 30356]
-- [ ] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8)
+- [x] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8) [Completed Turn 30447]
+- [ ] Push Boulder (5, 5) North to clear row 3 corridor to Moltres (11, 5)
 - [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
