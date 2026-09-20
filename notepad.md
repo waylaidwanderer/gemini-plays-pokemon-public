@@ -3880,6 +3880,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Graveler (observed Turn 15389).
 - Geodude (observed Turn 15408).
 - Machop (observed Turn 15442).
+- Marowak (observed Turn 30438).
 
 <hr>
 
