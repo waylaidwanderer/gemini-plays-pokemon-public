@@ -22,7 +22,7 @@
     - The destination list wraps around continuously in both directions.
     - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
     - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pok√©mon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
-  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POKÈMON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POKÈMON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
+  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POKÔøΩMON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POKÔøΩMON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).

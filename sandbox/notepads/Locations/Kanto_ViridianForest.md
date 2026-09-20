@@ -40,7 +40,7 @@
 - Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
 - Northern Gatehouse Interior (Audited Turn 25207): South entrance at cols 4..5, row 7 with red doormats (arriving from forest at (4, 7)). North exit doorway at (5, 0) leading to Route 2 North. NPC stationed at (2, 5).
 
-## Wild Pokémon & Encounters (Empirical Survey)
+## Wild Pokï¿½mon & Encounters (Empirical Survey)
 - Total Trials Recorded: 17 trials across Sectors A, B, C, and D.
 - Species Identified & Levels:
   - Caterpie: Common (Lv 3, 4, 5 observed; Sectors B, C).

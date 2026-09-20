@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥706 [Turn 31852]
-- Pokédex: 34 Caught / 136 Seen [Turn 31824]
+- Pokédex: 36 Caught / 136 Seen [Turn 32180]
 
 ## Milestones
 
@@ -43,8 +43,6 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
-- [x] Revive Helix Fossil into Omanyte (NAUTILUS) and Old Amber into Aerodactyl (PTERA) at Cinnabar Lab [Turn 30951]
-- [x] Evolve Eevee (VEE) into Jolteon with Thunderstone in Celadon City [Turn 31098]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
 
 <hr>
@@ -71,7 +69,7 @@
 15. ULTRA BALL x 8 [Purchased 8 at Cinnabar Mart Turn 31852 for ¥9,600]
 
 ## Inventory Capacity
-- Active Bag Items: 16 / 20 capacity used.
+- Active Bag Items: 15 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -140,6 +138,12 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- RAICHU (Nickname: SPARK) [Lv 3, Electric]
+  - Status: Healthy
+  - Caught: Viridian Forest Lv 3 [Turn 32090]
+  - Evolved: Via Thunderstone at Celadon Dept Store [Turn 32180]
+  - Moves: Thundershock, Growl
+  - Destination: Trade for Electrode (DORIS) at Cinnabar Lab Meeting Room!
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
@@ -4958,9 +4962,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
        - Purchase location: Celadon Department Store 4F (Price: ¥2,100).
        - Sold 2x Revive for ¥1,500 [Turn 32167].
        - Purchased Thunderstone for ¥2,100 [Turn 32170].
-    3. Evolution Execution (In Progress):
+    3. Evolution Execution (Complete):
        - Used Thunderstone on SPARK (Slot 6) [Turn 32180].
-       - Evolving into Raichu (#026)!
+       - SPARK evolved into Raichu (#026) [Turn 32181]!
     4. Trade Execution:
        - Exit Celadon Dept Store to outdoor Celadon City.
        - Use Fly (Farfetch'd DUX) to Cinnabar Island.
