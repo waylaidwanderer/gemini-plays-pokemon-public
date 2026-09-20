@@ -12,4 +12,4 @@
 - [x] Received EEVEE (Lv 25, nicknamed VEE) from Celadon Mansion rooftop [Turn 31043]
 - [ ] Visit Celadon Department Store:
   - [x] Sell NUGGET to clerk for ¥5,000 [Turn 31085]
-  - [ ] Optionally purchase evolution stone (Water, Thunder, or Fire Stone for ¥2,100)
+  - [x] Purchased THUNDERSTONE for ¥2,100 [Turn 31089]
