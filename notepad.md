@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Money: ¥706 [Turn 31852]
+- Money: ¥106 [Turn 32170]
 - Pokédex: 38 Caught / 136 Seen [Turn 32261]
 
 ## Milestones
@@ -43,7 +43,7 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
-- [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
+
 
 <hr>
 
@@ -251,6 +251,14 @@
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
   - Transferred to PC Box 2 (2/20)
+- JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
+  - Status: Healthy
+  - HP: 65 / 65
+  - Stats: Attack 32, Defense 26, Speed 56, Special 56 [Verified Lv 23 Turn 31735]
+  - OT: DONA (IDNo. 19854, Boosted EXP)
+  - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
+  - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
+  - Deposited: Celadon PC Box 2 (3/20) [Turn 32128]
 - ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
   - Status: Healthy
   - HP: 17 / 17
@@ -3495,6 +3503,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564]. Shutter 2 at (20-21, 17) is hypothesized OPEN in State B (bypassed via balcony drop). Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
 ## Wild Encounters (Empirically Verified)
 - Ponyta (Lv 32) encountered in central corridor at (5, 16) [Turn 31364].
+- Muk (Lv 37) encountered in central corridor at (5, 23) [Turn 32251]; caught with Ultra Ball [Turn 32261].
+- Ponyta (Lv 32) encountered in central corridor at (5, 17) [Turn 32276]; fled successfully.
 
 
 <hr>
@@ -4962,12 +4972,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Targets & Strategy
 ## Next Hunting Target: Pokémon Mansion (Cinnabar Island)
 - Target 3: Cinnabar Pokémon Mansion Wild Captures
   - Target Species: Grimer (#088), Muk (#089), Koffing (#109), Weezing (#110), Vulpix (#037)
   - Location: Pokémon Mansion 1F (northwest Cinnabar Island, door at (6, 3))
-  - Party Status: 5/6 (Slot 6 open, allowing direct wild capture into party or PC Box 2)
+  - Party Status: 6/6 (Slot 6 filled by SLUDGE Lv 37. Future wild captures transfer automatically to active PC Box 2: 4/20 used, 16 free slots)
   - Resources: 7 Ultra Balls in Bag
   - Execution Plan:
     1. Exit Cinnabar Pokémon Center to outside (11, 12).
