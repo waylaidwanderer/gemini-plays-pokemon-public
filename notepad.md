@@ -75,7 +75,7 @@
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x21)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x20)
 
 ## Inventory Capacity
 - Active Bag Items: 13 / 20 capacity used.
@@ -1463,7 +1463,7 @@
 - **Designated User:** Geodude (ROCKY).
 - **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
-- **Strength Status Reset on Battles and Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength. Furthermore, entering any wild or trainer battle resets temporary overworld field move flags including Strength, requiring HM04 Strength to be re-cast from the party Pokémon menu before boulders can be pushed [Empirically verified Turns 30422, 30460, 30472].
+- **Strength Status Reset on Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength [Empirically verified Turns 20452, 20525, 20559, 30447]. Note: Whether entering/fleeing battles resets Strength in the overworld remains an unverified hypothesis (failed pushes on Turn 30422 were confounded by destination wall collision at (14, 1); isolated testing on an open tile without re-casting is pending).
 
 <hr>
 
@@ -4759,11 +4759,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8) [Completed Turn 30447]
 - [x] Solve Switch Plate A puzzle: pushed Boulder (4, 14) south to row 16, then west onto Switch Plate A (1, 16), lowering Plateau Barrier at (7, 8)-(7, 9) [Completed Turn 30476]
 - [x] Ascend wooden staircase (5, 10) onto plateau (5, 9) and cross lowered barrier (7, 8)-(7, 9) into eastern sector [Turn 30483]
-- [ ] Navigate via Column 17 to Ladder (23, 7) and ascend to 3F
 - [x] On 3F, traverse Northern Highway (rows 0-1) west to Northwest Ladder (2, 0) [Completed Turn 30524]
 - [x] Descend to 2F Northwest Chamber (1, 1) and walk east across rows 1-3 straight to Moltres at (11, 5) [Completed Turn 30530]
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls [In Progress Turn 30530]
-- [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
 - Wild Moltres Lv 50 Moves: Peck (Flying physical STAB, 35 power), Fire Spin (Fire special trapping, 15 power).
