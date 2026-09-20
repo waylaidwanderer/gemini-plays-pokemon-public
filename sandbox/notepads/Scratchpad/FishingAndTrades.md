@@ -10,6 +10,3 @@
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
   - Verification: NPC trade offer empirically verified in Cinnabar Lab Meeting Room [Turn 31218: Old man offers his Electrode for a Raichu].
   - Hypothesis Status: Trade offer VERIFIED [Turn 31218]; Pikachu capture pending.
-
-## Pallet Town Super Rod Empirical Trials
-- Trial 1 [Turn 31778-31782]: Hooked and caught wild TENTACOOL Lv 15 with 1 Ultra Ball! (Registered Pokédex species #072). Nicknaming STINGER. Transferring to Box 2.
