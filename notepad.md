@@ -156,8 +156,11 @@
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 - EEVEE (Nickname: VEE) [Lv 25, Normal]
   - Status: Healthy
-  - HP: Full
-  - Moves: Tackle, Sand-Attack, Quick Attack
+  - HP: 63 / 63 [Verified Turn 31061]
+  - Stats: Attack 35, Defense 32, Speed 35, Special 39 [Verified Turn 31061]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 15625 (1951 to Lv 26) [Verified Turn 31062]
+  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15) [Verified Turn 31062]
   - Obtained: Celadon Mansion rooftop penthouse [Turn 31043]
 
 ## PC Box 1 Pokémon

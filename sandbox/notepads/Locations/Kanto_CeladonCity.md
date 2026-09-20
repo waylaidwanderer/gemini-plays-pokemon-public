@@ -55,14 +55,11 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 ## Celadon Mansion Rear Entrance & Staircases (Discovered Turn 31018)
 - Back Door Exterior: Located at (24, 4), entered from northern lawn (24, 3) stepping South.
-- 1F Rear Corridor: Isolated hallway along row 1 (cols 2..4), separated from main 1F room by solid wall across row 2.
-- 1F North Exit Door: (4, 0), entered from (4, 1) facing North.
-- 1F Rear Corridor: Isolated hallway along row 1 (cols 2..7), separated from main 1F room by solid wall across row 2. North exit door at (4, 0). Western dead-end at (2, 1). Eastern corridor extends through (5, 1) to (6..7, 1).
-- 1F Ascent Stairs: Located at (2, 1), ascends to 2F at (2, 2) [Verified Turn 31027].
-- 2F Rear Corridor: Arrives at (2, 2) facing South with stairs down at (2, 1). Corridor spans east to column 4, and south down column 4 across rows 2..6+.
+- 1F Rear Corridor: Isolated hallway along row 1 spanning cols 2..4 (col 5 is solid vertical divider). Ascent stairs to 2F located at (2, 1). North exit door with green frame located at (4, 0) entered from (4, 1) facing North.
+- 2F Rear Corridor: Arrives at (2, 2) facing South with stairs down at (2, 1). Corridor spans east to column 4, and south down column 4 across rows 2..8. Staircase warp at (2, 7) leads up to Rooftop.
 - Rooftop Penthouse (Discovered Turn 31032):
   - Arrives at (2, 7) on red exit mat via 2F (2, 7) warp.
-  - Table at (3..4, 3..4) holds PokÃ© Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
-  - NPC at (2, 2) shares PokÃ©mon tips.
+  - Table at (3..4, 3..4) holds Poké Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
+  - NPC at (2, 2) shares Pokémon tips.
   - Tile (7, 1) is a solid rooftop structure (bump test confirmed Turn 31047, not a staircase).
   - Exit Doorway: Red mat at (2..3, 7), stepping South into row 8 warps down to 2F.
