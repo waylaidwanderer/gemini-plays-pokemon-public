@@ -4783,7 +4783,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Main Corridor: 3-tile wide hallway spanning rows 5..7 extending east past column 7 toward the facility's research rooms.
 
 ## Rooms (Pending Traversal)
-- Meeting Room: First door along hallway.
+- Meeting Room: First door along hallway, entrance located at (8, 4) with sign at (9, 4) [Verified Turn 30819].
 - R&D Room: Second door along hallway.
 - Testing Room (Fossil Revival Lab): Eastmost room along hallway, home of the fossil resurrection scientist.
 
