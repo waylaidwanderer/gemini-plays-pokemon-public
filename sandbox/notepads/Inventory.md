@@ -15,7 +15,7 @@
 12. GUARD SPEC. x 1
 13. MAX POTION x 1
 14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 8 [Purchased 8 at Cinnabar Mart Turn 31852 for ¥9,600]
+15. ULTRA BALL x 7 [1 used on Pikachu Turn 32090, 7 remaining]
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
