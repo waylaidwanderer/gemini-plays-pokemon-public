@@ -88,6 +88,11 @@
   - HP: 60 / 60
   - Moves: Tackle, Disable, Poisonpowder, Leech Life
   - Withdrawn from PC Box 1 [Turn 31166]
+- JOLTEON (Nickname: VEE) [Lv 25, Electric]
+  - Status: Healthy
+  - HP: 68 / 68
+  - Moves: Tackle, Sand-Attack, Thunderbolt
+  - Withdrawn from PC Box 1 [Turn 31191]
 
 
 ## PC Box 1 Pokémon
@@ -95,11 +100,6 @@
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
   - Evolved from Nidorina via Moon Stone [Turn 31184], Deposited Celadon PC [Turn 31187]
-- JOLTEON (Nickname: VEE) [Lv 25, Electric]
-  - Status: Healthy
-  - HP: 68 / 68
-  - Moves: Tackle, Sand-Attack, Thunderbolt
-  - Deposited to PC Box 1 [Turn 31157]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
