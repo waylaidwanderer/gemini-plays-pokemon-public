@@ -71,7 +71,7 @@
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
-7. FULL RESTORE x 4
+7. FULL RESTORE x 2 [Sold 2 at Cinnabar Mart Turn 31753 for �3,000]
 8. PP UP x 1
 9. MAX ELIXER x 1
 10. CARBOS x 1
