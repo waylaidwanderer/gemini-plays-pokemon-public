@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Venonat (RADAR) Lv 22
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Venonat (RADAR) Lv 22, Jolteon (VEE) Lv 25
 - Money: ¥2,906 [Turn 31089]
 - Pokédex: 24 Caught / 136 Seen [Turn 31184]
 
@@ -144,6 +144,11 @@
   - HP: 60 / 60
   - Moves: Tackle, Disable, Poisonpowder, Leech Life
   - Withdrawn from PC Box 1 [Turn 31166]
+- JOLTEON (Nickname: VEE) [Lv 25, Electric]
+  - Status: Healthy
+  - HP: 68 / 68
+  - Moves: Tackle, Sand-Attack, Thunderbolt
+  - Withdrawn from PC Box 1 [Turn 31191]
 
 
 ## PC Box 1 Pokémon
@@ -151,11 +156,6 @@
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
   - Evolved from Nidorina via Moon Stone [Turn 31184], Deposited Celadon PC [Turn 31187]
-- JOLTEON (Nickname: VEE) [Lv 25, Electric]
-  - Status: Healthy
-  - HP: 68 / 68
-  - Moves: Tackle, Sand-Attack, Thunderbolt
-  - Deposited to PC Box 1 [Turn 31157]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
