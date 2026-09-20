@@ -4577,7 +4577,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - **Ultra Ball Stock:** 31 Ultra Balls remaining in Bag (Slot 11).
 - **Damage Restriction:** Do NOT attack with Swift or any damaging moves (risk of fainting Articuno). Rely strictly on Ultra Balls.
 - **Mewtwo Sustain Protocol:** Mewtwo HP is 176/234. Peck deals 12-14 damage, Ice Beam deals 31-35 damage. If Mewtwo HP drops below 80 HP, use Recover (Slot 4 in move menu) or Full Restore (Slot 7 in Bag, 11 available).
-- **Current Battle Phase:** Applying Full Restore to OMEGA to restore 234/234 HP and advance past Articuno's counterattack.
+- **Current Battle Phase:** Clearing Full Restore dialogue and advancing past Articuno's counterattack to return to command menu.
 
 
 <hr>
