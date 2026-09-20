@@ -4,10 +4,10 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte Lv 30 (1 open slot for Aerodactyl revival)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte (NAUTILUS) Lv 30, Aerodactyl Lv 30
 
 - Money: ¥6 [Turn 30688]
-- Pokédex: 20 Caught / 128 Seen
+- Pokédex: 21 Caught / 129 Seen
 
 ## Milestones
 

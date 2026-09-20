@@ -88,6 +88,11 @@
   - HP: Full
   - Moves: Water Gun, Withdraw, Horn Attack
   - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
+- AERODACTYL (Nickname: Pending PTERA) [Lv 30, Rock/Flying]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Wing Attack, Agility, Supersonic
+  - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 ## PC Box 1 Pokémon
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy

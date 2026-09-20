@@ -8,8 +8,8 @@
 - [x] Exit and re-enter Pokémon Lab to receive revived OMANYTE into open party slot [Completed Turn 30898]
 - [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
 - [x] Submit OLD AMBER to scientist [Completed Turn 30922]
-- [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [In Progress]
-- [ ] Nickname Aerodactyl as PTERA [Pending]
+- [x] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Completed Turn 30947]
+- [ ] Nickname Aerodactyl as PTERA [In Progress]
 
 ## Party & Inventory Logistics
 - Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30), 1 open party slot ready for Aerodactyl.
