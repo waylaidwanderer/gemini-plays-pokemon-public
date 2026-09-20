@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Venonat (RADAR) Lv 22, Jolteon (VEE) Lv 25
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Tangela (CRINKLES) Lv 22, Jolteon (VEE) Lv 25
 - Money: ¥2,906 [Turn 31089]
 - Pokédex: 24 Caught / 136 Seen [Turn 31184]
 
@@ -48,6 +48,7 @@
 - [x] Evolve Eevee (VEE) into Jolteon with Thunderstone in Celadon City [Turn 31098]
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
 - [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
+- [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
 
 
 <hr>
@@ -137,11 +138,10 @@
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
+- TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
   - Status: Healthy
-  - HP: 60 / 60
-  - Moves: Tackle, Disable, Poisonpowder, Leech Life
-  - Withdrawn from PC Box 1 [Turn 31166]
+  - OT: TRAINER (IDNo. 37480, Boosted EXP)
+  - Received: Cinnabar Lab Meeting Room in-game trade for Venonat (RADAR) [Turn 31235]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
