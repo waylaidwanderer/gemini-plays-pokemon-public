@@ -5,9 +5,9 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Nidorina (QUEENIE) Lv 33, Venonat (RADAR) Lv 22
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Nidoqueen (QUEENIE) Lv 33, Venonat (RADAR) Lv 22
 - Money: ¥2,906 [Turn 31089]
-- Pokédex: 23 Caught / 136 Seen [Verified In-Game Turn 31147]
+- Pokédex: 24 Caught / 136 Seen [Turn 31184]
 
 ## Milestones
 
@@ -47,6 +47,7 @@
 - [x] Revive Helix Fossil into Omanyte (NAUTILUS) and Old Amber into Aerodactyl (PTERA) at Cinnabar Lab [Turn 30951]
 - [x] Evolve Eevee (VEE) into Jolteon with Thunderstone in Celadon City [Turn 31098]
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
+- [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
 
 
 <hr>
@@ -138,11 +139,10 @@
   - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- NIDORINA (Nickname: QUEENIE) [Lv 33, Poison]
+- NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
-  - HP: 88 / 88
   - Moves: Growl, Scratch, Poison Sting, Body Slam
-  - Withdrawn from PC Box 1 [Turn 31161]
+  - Evolved from Nidorina via Moon Stone [Turn 31184]
 - VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
   - Status: Healthy
   - HP: 60 / 60
