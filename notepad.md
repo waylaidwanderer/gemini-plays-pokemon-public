@@ -3541,9 +3541,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Ascending staircase to 3F located at (6, 1) [Visually confirmed on Turn 32911]. Doorway at (9, 4-5) contains Northwest Shutter (OPEN in State A, CLOSED in State B; visually confirmed CLOSED in State B on Turn 32911).
-- ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
-
+- Northwest Bedroom (cols 0-8, rows 0-9): Staircase graphic observed at (6, 1) [Visually sighted Turn 32911; functional warp unverified]. Doorway at (9, 4-5) contains Northwest Shutter (OPEN in State A, CLOSED in State B; confirmed CLOSED in State B Turn 32911).
 - Shutter Door at (18-19, 8): Empirically verified OPEN in Switch State B [Turn 32799]. Provides open passage south from row 7 into columns 18-21 toward Southeast Chamber (25, 14).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
@@ -4979,16 +4977,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
     - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
     - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
-  - Location: Pok�mon Mansion (Currently 2F North Hall at (10, 5))
-  - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
+    - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
   - Visual Audit Result [Turn 32911]:
     - Northwest Shutter at (9, 4-5) is CLOSED in current Switch State B.
     - Ascending staircase to 3F is clearly visible at (6, 1) inside Northwest Bedroom!
   - Master Execution Plan:
-    1. Walk south from (10, 5) to row 10, then west to (5, 10) staircase down to 1F. [Completed Turn 32918]
-    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) to State A. [Completed Turn 32937]
-    3. Return to 1F staircase at (5, 10) and ascend to 2F. [CURRENT STEP]
+    1. Walk south from (10, 5) to row 10, then west to (5, 10) staircase down to 1F.
+    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) to State A.
+    3. Return to 1F staircase at (5, 10) and ascend to 2F.
     4. On 2F, walk north into North Hall, pass through now-OPEN Northwest Shutter at (9, 4-5).
     5. Enter Northwest Bedroom and step onto ascending staircase at (6, 1) to reach 3F.
     6. On 3F Northwest Starting Chamber, activate statue switch at (10, 4-5) to State B.
