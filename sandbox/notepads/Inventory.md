@@ -15,10 +15,10 @@
 12. HP UP x1
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
+15. NUGGET x1 [Withdrawn Celadon PC Turn 31009]
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+- Active Bag Items: 15 / 20 capacity used.
 ## Stored / PC Items
-- NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
 - TM27 (FISSURE) x1 (PC) [Stored Turn 24575]
