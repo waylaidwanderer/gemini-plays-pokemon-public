@@ -94,6 +94,10 @@
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
 
 ## PC Box 1 Pokémon
+- KRABBY (Nickname: PINCHY) [Lv 15, Water]
+  - Status: Healthy
+  - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
+  - Transferred to PC Box 1 (Active party full: 17/20)
 - SEEL (Nickname: SAILOR) [Lv 32, Water]
   - Status: Healthy
   - HP: 90 / 90
