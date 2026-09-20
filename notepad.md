@@ -81,7 +81,7 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 3 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 used for Tentacool Turn 31782, 2 used for Poliwag Turns 31803/31806]
+17. ULTRA BALL x 2 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 used for Tentacool Turn 31782, 3 used for Poliwag Turns 31803/31806/31808]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
