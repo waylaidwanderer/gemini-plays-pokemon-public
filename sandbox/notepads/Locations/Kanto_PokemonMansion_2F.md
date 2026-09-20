@@ -54,13 +54,8 @@
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
-## Wild Encounters (Preliminary Observations)
-- Grimer (Lv 28-30) [Observed 1 trial, Turns 31332-31348].
-- Vulpix (Lv 30-32) [Observed 4 trials, Turns 31332-31348].
-- Note: Sample size (5 battles) is insufficient to determine full encounter tables or rule out rare spawns.
-
-- Grimer (Lv 31) [Encountered Turn 32427 at (8, 11)].
-- Grimer (Lv 31) [Encountered Turn 32441 at (7, 9)].
-- Vulpix (Lv 33) [Encountered Turn 32448 at (5, 9); broke out of Ultra Ball, used Roar].
-- Ponyta (Lv 36) [Encountered Turn 32455 at (9, 9)].
-- Vulpix [Encountered Turn 32459 at (7, 8)].
+## Wild Encounters (Verified Species & Level Bands)
+- Grimer (Lv 28-31) [Common]
+- Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
+- Ponyta (Lv 36) [Uncommon]
+- Note: Magmar (#126) remains unverified on 2F across 10 observed encounters; B1F survey recommended if not found here.
