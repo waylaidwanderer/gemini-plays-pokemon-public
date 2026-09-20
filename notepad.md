@@ -3543,6 +3543,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Bedroom (cols 0-8, rows 0-9): Tile (6, 1) is the arrival landing from 3F descent [Turn 13997]; tested Up from (6, 1) into (6, 0) on Turn 32557 (impassable north wall, no ascending warp).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
+- Shutter Door at (18-19, 8): Empirically verified OPEN in Switch State B [Turn 32799]. Provides open passage south from row 7 into columns 18-21 toward Southeast Chamber (25, 14).
+
 ## Eastern Main Wing (cols 15-23, rows 1-13)
 - Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11). Both tested: statue at (13, 11) confirmed NO switch [Turn 32546]; statue at (13, 9) confirmed NO switch [Turn 32771].
 - Open corridors span columns 18-21 across rows 3, 4, 6, 7, 9, 10, 11 [Verified Turn 13851].
