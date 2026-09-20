@@ -445,6 +445,7 @@
     - AWAKENING: ¥200
     - PARLYZ HEAL: ¥200
 - Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
+- Pewter Museum: Main entrance door at (14, 7) approached from (14, 8). Side/back entrance door at (19, 5) approached from row 6 courtyard behind row 7 ledge.
 
 ## Signposts & Points of Interest
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
