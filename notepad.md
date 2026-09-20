@@ -4906,6 +4906,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   6. Navigating to the desired box and pressing A initiates the save routine ('Saving... DON'T TURN OFF THE POWER.').
   7. Upon save completion, prints '[PLAYER] changed the POK�MON BOX!' and returns to Bill's PC menu with the newly active box displayed.
 
+## Overworld Bag Cursor Memory
+- Across overworld menu sessions without an intervening battle, the Bag menu retains the last highlighted item position (empirically confirmed Turn 31795: after casting Super Rod and receiving 'Not even a nibble!', reopening the Bag placed the cursor directly on Slot 2 SUPER ROD without resetting to Slot 1).
+
 <hr>
 
 <h1><code>Scratchpad/FishingAndTrades</code></h1>
