@@ -1,21 +1,21 @@
 <h1><code>Main</code></h1>
 
-# Pokémon Blue - Journey Log
+# PokÃ©mon Blue - Journey Log
 
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Jynx (LOLA) Lv 23 (6 in party)
-- Money: ¥3,506 [Turn 31292]
-- Pokédex: 30 Caught / 136 Seen [Turn 31637]
+- Money: ¥506 [Turn 31760]
+- PokÃ©dex: 30 Caught / 136 Seen [Turn 31637]
 
 ## Milestones
 
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
-- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
+- [x] Receive Starter PokÃ©mon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 - [x] Reach Viridian City via Route 1 [Turn 132]
-- [x] Obtain Pokédex from Prof. Oak [Turn 214]
+- [x] Obtain PokÃ©dex from Prof. Oak [Turn 214]
 - [x] Reach Pewter City [Turn 495]
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
@@ -23,7 +23,7 @@
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 - [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
-- [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
+- [x] Rescue Mr. Fuji from PokÃ©mon Tower and obtain PokÃ© Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
@@ -37,9 +37,9 @@
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
 - [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
 - [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
-- [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
-- [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
-- [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
+- [x] Defeat PokÃ©mon Champion RED and become PokÃ©mon League Champion! [Turn 24981]
+- [x] Inducted into PokÃ©mon Hall of Fame! [Turn 24994]
+- [x] Catch legendary PokÃ©mon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
@@ -49,14 +49,13 @@
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
 - [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
-- [x] Catch wild Ponyta on Pokémon Mansion 1F with Ultra Ball [Turn 31386]
+- [x] Catch wild Ponyta on PokÃ©mon Mansion 1F with Ultra Ball [Turn 31386]
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
 - [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 - [x] Catch wild Krabby in Cerulean Gym pool with Ultra Ball [Turn 31540]
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
 - [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
-
 
 <hr>
 
@@ -65,13 +64,13 @@
 # Inventory Log
 
 ## Bag Items
-1. POKé FLUTE [Key Item]
+1. POKÃ© FLUTE [Key Item]
 2. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177, swapped to Slot 2 Turn 31561]
 3. REVIVE x 4
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
-7. FULL RESTORE x 2 [Sold 2 at Cinnabar Mart Turn 31753 for �3,000]
+7. FULL RESTORE x 2 [Sold 2 at Cinnabar Mart Turn 31753 for ¥3,000]
 8. PP UP x 1
 9. MAX ELIXER x 1
 10. CARBOS x 1
@@ -81,7 +80,7 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 2 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539, 3 used on Slowpoke Turns 31626/31630/31636]
+17. ULTRA BALL x 6 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 from prior reserve]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
@@ -119,9 +118,9 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥3,506 [Turn 31292]
+- Â¥3,506 [Turn 31292]
 
-## Party Pokémon
+## Party PokÃ©mon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
@@ -163,7 +162,7 @@
   - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
 
 
-## PC Box 1 Pokémon
+## PC Box 1 PokÃ©mon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
@@ -4908,21 +4907,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Fishing & In-Game Trade Planning
 
 ## Active Hypotheses & Targets
-- Target 1: Goldeen (#118) & Poliwag (#060)
-  - Goal: Register Goldeen (#118) and Poliwag (#060) via Route 22 water fishing.
-  - Location: Route 22 waterway (west of Viridian City).
+- Target 1: Poliwag (#060) & Goldeen (#118)
+  - Goal: Register Poliwag (#060) and Goldeen (#118) via water fishing.
+  - Location: Pallet Town southern shoreline at (8, 15) facing West into water tile (7, 15).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS to be empirically tested with N>=5 Super Rod casts.
-  - High-level Plan: 1. Switch PC to Box 2. 2. Restock Pok� Balls (Ultra Balls/Great Balls). 3. Fly to Viridian City and fish Route 22.
+  - High-level Plan: 1. Position at (8, 15) facing West. 2. Conduct N>=5 empirical Super Rod trials to test encounter distribution for Poliwag (#060) and Goldeen (#118). 3. If encountered, use Lovely Kiss with Lola to sleep and catch with Ultra Ball into Box 2.
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Acquire Pikachu, evolve to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
   - Location: Power Plant (tall grass / floor) or Viridian Forest.
   - Hypothesis Status: UNVERIFIED HYPOTHESIS.
-
-## Completed Objectives
-- Caught wild Poliwhirl Lv 23 in Celadon Courtyard Pond [Turn 31712].
-- Traded Poliwhirl for Jynx (LOLA, OT TRAINER, ID 22074) with Resident 2 in Cerulean City [Turn 31724]!
-- Pok�dex expanded to 32 Caught / 136 Seen!
 
 
 <hr>
