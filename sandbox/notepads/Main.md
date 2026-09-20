@@ -101,7 +101,6 @@
 - [x] Enter Celadon City via Route 7 [Turn 5434]
 - [x] Purchase drinks (Fresh Water, Soda Pop, Lemonade) on Celadon Dept. Store Roof [Turn 5522]
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
-- [x] Teach TM13 Ice Beam to Blastoise (SHELDON) over Water Gun [Turn 5556]
 - [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Reach Rocket Hideout B4F [Turn 6050]
@@ -111,7 +110,6 @@
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
-- [x] Push boulder in Warden's house and obtain Rare Candy [Turn 12025]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
@@ -152,7 +150,6 @@
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 - [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
-- [x] Survey Power Plant interior and Zapdos chamber at (4, 9) [Turn 28680]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
