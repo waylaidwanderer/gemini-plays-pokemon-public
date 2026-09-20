@@ -30,7 +30,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Prize Exchange: Located at cols 32..35, rows 14..19. Front entrance door at (33, 19), signpost at (33, 21) [Turn 5598].
 - Courtyard Entrance: Open avenue at col 36 connects row 22 to row 20 patio, bypassing fence posts [Turn 5598].
 - Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5600].
-- Southern Tree Border: Row 32 tree at (22, 32) is a standard non-cuttable border tree (tested with Cut: "There isn't anything to CUT!" [Turn 6694]). Rows 33..34 lawn south of row 32 is an enclosed/decorative area inaccessible from the South Plaza.
+- Southern Tree Border: Row 32 is an impassable border tree line. Rows 33..34 lawn south of row 32 is an enclosed decorative area inaccessible from the South Plaza.
 - Cuttable Tree (Southern Garden Entrance): Located at (35, 32) directly south of Celadon Hotel entrance at (35, 27). Cut down on Turn 6713 to access the Southern Garden Corridor.
 
 - Gym Courtyard Fence Opening: Located at (5, 31) between fence posts at (4, 31) and (6, 31). Connects the Celadon Gym courtyard (rows 28..30) south into the Southern Garden Corridor (rows 32..34) [Verified Turn 6822].
@@ -59,5 +59,5 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Arrives at (2, 7) on red exit mat via 2F (2, 7) warp.
   - Table at (3..4, 3..4) holds Pok� Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
   - NPC at (2, 2) shares Pok�mon tips.
-  - Tile (7, 1) is a solid rooftop structure (bump test confirmed Turn 31047, not a staircase).
+  - Tile (7, 1) is a solid rooftop chimney/structure.
   - Exit Doorway: Red mat at (2..3, 7), stepping South into row 8 warps down to 2F.
