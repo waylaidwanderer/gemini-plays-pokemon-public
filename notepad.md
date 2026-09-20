@@ -40,15 +40,12 @@
 
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 
-- [x] Exit Mt. Moon to Route 4 [Turn 1865]
 
 - [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
 
 - [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
 
-- [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
 
-- [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
 
 - [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
 
@@ -62,7 +59,6 @@
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 
 
-- [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 
@@ -92,14 +88,11 @@
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Obtain Card Key on Silph Co 5F [Turn 12763]
-- [x] Defeat Rival RED in Silph Co [Turn 12851]
-- [x] Receive gift Lapras (NESSY) from Silph Co employee [Turn 12858]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
-- [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
