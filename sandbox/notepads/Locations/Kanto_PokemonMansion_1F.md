@@ -19,7 +19,7 @@
 - Divided from central corridor to the south by solid horizontal wall (1-7, 9) [Verified Turn 13754].
 - Rubble blocks columns 1-3 at rows 2-3, and column 1 at rows 4-5.
 - Large 2x2 table at (6-7, 4-5).
-- PokÃ©mon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Switch history: Activated Turn 13757 (State B); re-activated Turn 32603 (State B); toggled to State A Turn 32722 ('Who wouldn't?'); toggled to State B Turn 32780 ('Who wouldn't?'). Current state: State B.
+- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Toggles global Mansion shutter states (State A <-> State B).
 - Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).
 
 ## Northern Hallway (Row 1 Superhighway)
