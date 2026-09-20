@@ -81,9 +81,10 @@
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
 15. HELIX FOSSIL [Key Item]
+16. OLD AMBER [Key Item, Received Pewter Museum 1F Turn 30788]
 
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 16 / 20 capacity used.
 ## Stored / PC Items
 - NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -4729,8 +4730,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Prehistoric Fossil Revival (Omanyte & Aerodactyl)
 
 ## Strategic Objectives
-- [ ] Receive OLD AMBER from scientist in Pewter Museum eastern research chamber [In Progress]
-- [ ] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [Pending]
+- [x] Receive OLD AMBER from scientist in Pewter Museum eastern research chamber [Completed Turn 30788]
+- [ ] Exit Museum side door to Pewter City exterior and cast HM02 FLY to Cinnabar Island [In Progress]
 - [ ] Enter Cinnabar Pokémon Lab, proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [Pending]
 - [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE and AERODACTYL, registering both in the Pokédex! [Pending]
 
@@ -4761,8 +4762,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Eastern Research Chamber (Fossil Study Room)
 - Access: Accessed exclusively via exterior side door at Pewter City (19, 5) leading to interior mat at (16..17, 7).
-- Pedestal Landmark: Located at (16, 2), holding the display artifact: OLD AMBER!
-- Scientist 1: Stationed at (15, 2) facing East toward the Old Amber pedestal.
+- Pedestal Landmark: Located at (16, 2), display pedestal for OLD AMBER. Pedestal becomes empty once Old Amber is collected [Turn 30788].
+- Scientist 1: Stationed at (15, 2). Confides that amber contains Pokémon DNA and gives player OLD AMBER [Turn 30788] to have it examined at Cinnabar Pokémon Lab.
 - Scientist 2: Stationed at (17, 4) in southeast area of chamber.
 
 
