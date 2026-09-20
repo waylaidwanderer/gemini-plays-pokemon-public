@@ -107,6 +107,7 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
+8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
 (Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x21)
 
 ## Inventory Capacity
@@ -3870,6 +3871,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Items
 - TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
+- Rare Candy collected at (9, 2) at terminus of northern trench [Turn 30434].
 
 ## Wild Encounters
 - Onix (observed Turn 15367).
