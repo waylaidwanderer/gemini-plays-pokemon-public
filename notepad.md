@@ -3576,7 +3576,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Grimer (Lv 31) [Encountered Turn 32427 at (8, 11)].
 - Grimer (Lv 31) [Encountered Turn 32441 at (7, 9)].
 - Vulpix (Lv 33) [Encountered Turn 32448 at (5, 9); broke out of Ultra Ball, used Roar].
-- Ponyta [Encountered Turn 32455 at (9, 9)].
+- Ponyta (Lv 36) [Encountered Turn 32455 at (9, 9)].
 
 <hr>
 
