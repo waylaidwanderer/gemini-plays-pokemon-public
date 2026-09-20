@@ -6,7 +6,7 @@
 - [x] Enter Celadon Pokémon Center at (41, 9) [Turn 30985]
 - [ ] Access PC:
   - Withdraw NUGGET to sell for cash
-  - Deposit 1 party Pokémon (e.g. NAUTILUS or ROCKY) into PC Box 1 to free up a party slot for nicknaming Eevee
+  - [x] Deposit 1 party Pokémon (NAUTILUS) into PC Box 1 [Turn 31003]
 - [ ] Navigate behind Celadon buildings via eastern gap (cols 44..45) to northern rooftop corridor (rows 4..5)
 - [ ] Enter Celadon Mansion back door and climb to rooftop penthouse
 - [ ] Take Poké Ball on table to receive EEVEE (Lv 25) and nickname it

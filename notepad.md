@@ -149,11 +149,6 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
-- OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
-  - Status: Healthy
-  - HP: 67 / 67
-  - Moves: Water Gun, Withdraw, Horn Attack
-  - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
@@ -4797,7 +4792,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Enter Celadon Pokémon Center at (41, 9) [Turn 30985]
 - [ ] Access PC:
   - Withdraw NUGGET to sell for cash
-  - Deposit 1 party Pokémon (e.g. NAUTILUS or ROCKY) into PC Box 1 to free up a party slot for nicknaming Eevee
+  - [x] Deposit 1 party Pokémon (NAUTILUS) into PC Box 1 [Turn 31003]
 - [ ] Navigate behind Celadon buildings via eastern gap (cols 44..45) to northern rooftop corridor (rows 4..5)
 - [ ] Enter Celadon Mansion back door and climb to rooftop penthouse
 - [ ] Take Poké Ball on table to receive EEVEE (Lv 25) and nickname it
