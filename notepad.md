@@ -4729,7 +4729,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] At Indigo Plateau PC: Deposit DIGBY into Box 1 [Completed Turn 30646]
 - [x] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Completed Turn 30654]
 - [x] Exit Indigo Plateau lobby to exterior map (9, 6) [Completed Turn 30657]
-- [ ] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [In Progress Turn 30657]
+- [x] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Completed Turn 30666]
 - [ ] In Pewter City, navigate north to Museum side entrance, use Cut with Farfetch'd to bypass tree obstacle, and obtain OLD AMBER from scientist [Pending]
 - [ ] Cast HM02 FLY to travel to Cinnabar Island [Pending]
 - [ ] Enter Cinnabar Pokémon Lab, proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [Pending]
