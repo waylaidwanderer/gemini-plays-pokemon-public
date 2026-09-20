@@ -5,9 +5,9 @@
 - [x] Solve Switch Plate A puzzle: pushed Boulder (4, 14) south to row 16, then west onto Switch Plate A (1, 16), lowering Plateau Barrier at (7, 8)-(7, 9) [Completed Turn 30476]
 - [x] Ascend wooden staircase (5, 10) onto plateau (5, 9) and cross lowered barrier (7, 8)-(7, 9) into eastern sector [Turn 30483]
 - [ ] Navigate via Column 17 to Ladder (23, 7) and ascend to 3F
-- [ ] On 3F, traverse Northern Highway (rows 0-1) west to Northwest Ladder (2, 0)
-- [ ] Descend to 2F Northwest Chamber (1, 1) and walk east across rows 1-3 straight to Moltres at (11, 5)
-- [ ] Weaken Moltres with Swift and capture with Ultra Balls
+- [x] On 3F, traverse Northern Highway (rows 0-1) west to Northwest Ladder (2, 0) [Completed Turn 30524]
+- [x] Descend to 2F Northwest Chamber (1, 1) and walk east across rows 1-3 straight to Moltres at (11, 5) [Completed Turn 30530]
+- [ ] Weaken Moltres with Swift and capture with Ultra Balls [In Progress Turn 30530]
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
