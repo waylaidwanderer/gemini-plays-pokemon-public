@@ -15,9 +15,10 @@
 12. GUARD SPEC. x 1
 13. MAX POTION x 1
 14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+15. ULTRA BALL x 8 [Purchased 8 at Cinnabar Mart Turn 31852 for ¥9,600]
 
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+- Active Bag Items: 15 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
