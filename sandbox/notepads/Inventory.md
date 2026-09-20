@@ -3,7 +3,7 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �1,500]
+3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �¥1,500]
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
