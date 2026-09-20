@@ -32,7 +32,7 @@
   - Obtained: From Prof. Oak's Aide in Route 2 eastern gatehouse [Turn 3846].
   - Function: Illuminates pitch-black caves (specifically Rock Tunnel).
   - Designated User: Drowzee (SANDMAN).
-  - Empirical Compatibility Proof (Turn 4021): Party compatibility screen confirmed Slots 1-5 (Digby, Rocky, Fungi, Dux, Sheldon) are NOT ABLE; Drowzee (SANDMAN) is ABLE. Taught HM05 Flash into Move Slot 3 (PP 20/20).
+  - Compatibility: Psychic, Electric, and select Normal-type Pokémon can learn HM05 Flash.
 - **TM28 DIG:**
   - Designated User: Diglett (DIGBY).
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
