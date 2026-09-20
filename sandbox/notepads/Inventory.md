@@ -89,10 +89,10 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- POLIWHIRL (Nickname: SWIRLY) [Lv 23, Water]
+- JYNX [Lv 23, Ice/Psychic]
   - Status: Healthy
-  - Caught: Celadon Courtyard Pond with Ultra Ball [Turn 31712]
-  - Note: Prepared for Jynx in-game trade in Cerulean City
+  - OT: TRAINER (IDNo. 22074, Boosted EXP)
+  - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
 
 
 ## PC Box 1 Pokémon

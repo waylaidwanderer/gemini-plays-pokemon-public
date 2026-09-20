@@ -30,7 +30,7 @@
 - Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
   - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
   - Resident 1 at (5, 4): Kid in blue overalls.
-  - Resident 2 at (1, 2): Trader (offers JYNX for player's POLIWHIRL).
+  - Resident 2 at (1, 2): Trader (traded her JYNX for player's POLIWHIRL SWIRLY [Turn 31724]).
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
 - Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).

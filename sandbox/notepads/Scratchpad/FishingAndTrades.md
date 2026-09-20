@@ -1,8 +1,8 @@
 # Scratchpad: Fishing & In-Game Trade Planning
 
 ## Active Hypotheses & Targets
-- Target 1: Poliwhirl (Lv 23)
-  - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
+- Target 1: Poliwhirl & Jynx (COMPLETE [Turn 31724]!)
+  - Goal: Trade for Jynx (#124) with Resident 2 in Cerulean City Northwest House - COMPLETED!
   - Location: Celadon City pond (cols 21..24, rows 19..21).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS to be tested with N>=5 Super Rod casts.
   - Empirical Celadon Pond Fishing Trials:
@@ -26,7 +26,11 @@
 - Balls: 1 Ultra Ball in Bag.
 - Money: ¥3,506.
 
-## Strategy & Action Plan
-1. Catch wild Poliwhirl with Ultra Ball (enters active party Slot 6: 6/6).
-2. Nicknamed Poliwhirl SWIRLY [Turn 31715].
-3. Fly to Cerulean City with DUX, enter Northwest House (13, 15), and trade Poliwhirl for Jynx (ZYNC, #124).
+## Completed Objectives
+- Caught wild Poliwhirl Lv 23 in Celadon Courtyard Pond [Turn 31712].
+- Traded Poliwhirl for Jynx (OT TRAINER, ID 22074) with Resident 2 in Cerulean City [Turn 31724]!
+- Pokédex expanded to 32 Caught / 136 Seen!
+
+## Next Hypotheses & Targets
+- Target 2: Goldeen (#118) via fishing (Route 22 Super Rod).
+- Target 3: Pikachu (#025) in Viridian Forest / Power Plant, evolve into Raichu (#026) with Thunder Stone, then trade for Electrode with Scientist in Cinnabar Lab Meeting Room.
