@@ -1,8 +1,8 @@
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Strategy & Objectives
-- [ ] Execute boulder puzzle to stop subterranean water currents
-- [ ] Navigate to Articuno's chamber on lowest floor and capture Articuno (Lv 50) with Ultra Ball
+- [x] Execute boulder puzzle to stop subterranean water currents [Completed Turn 29724 - both boulders dropped to B4F]!
+- [ ] Navigate to Articuno's chamber on B4F and capture Articuno (Lv 50) with Ultra Ball
 
 ## Required Field Moves & Party Roles
 - HM03 SURF: Blastoise (SHELDON) - water navigation
