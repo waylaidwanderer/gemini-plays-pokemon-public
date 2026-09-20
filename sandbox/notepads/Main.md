@@ -6,7 +6,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Aerodactyl (PTERA) Lv 30, Eevee (VEE) Lv 25
 
-- Money: ¥6 [Turn 30688]
+- Money: ¥5,006 [Turn 31085]
 - Pokédex: 22 Caught / 129 Seen
 
 ## Milestones

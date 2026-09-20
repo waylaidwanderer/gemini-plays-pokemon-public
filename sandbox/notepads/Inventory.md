@@ -15,9 +15,8 @@
 12. HP UP x1
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
-15. NUGGET x1 [Withdrawn Celadon PC Turn 31009]
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+- Active Bag Items: 14 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -53,7 +52,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥6 [Turn 30688]
+- ¥5,006 [Turn 31085]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]

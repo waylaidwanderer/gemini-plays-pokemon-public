@@ -4824,7 +4824,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Climb Celadon Mansion rear stairs to rooftop penthouse [Reached Rooftop Turn 31032]
 - [x] Received EEVEE (Lv 25, nicknamed VEE) from Celadon Mansion rooftop [Turn 31043]
 - [ ] Visit Celadon Department Store:
-  - Sell NUGGET to clerk for ¥5,000
-  - Optionally purchase evolution stone (Water, Thunder, or Fire Stone for ¥2,100)
+  - [x] Sell NUGGET to clerk for ¥5,000 [Turn 31085]
+  - [ ] Optionally purchase evolution stone (Water, Thunder, or Fire Stone for ¥2,100)
 
 <hr>
