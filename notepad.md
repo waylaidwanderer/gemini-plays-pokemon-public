@@ -3563,7 +3563,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Open room across (25-28, 4-5).
 - Rubble barriers at (26-28, 1-2), (22-24, 4-5), and (23-27, 6-7).
 - Southern chute down column 28: open floor at (28, 4-6) leading to Item Ball at (28, 7) containing CALCIUM x1 [Obtained Turn 13858, Verified Turn 13863].
-- Column 28 Cul-de-sac: Confirmed dead end at (28, 7) bounded by solid wall at row 8 and rubble at (28, 9) [Verified Turn 13881]. Does NOT connect to lower section (rows 9-15).
+- Column 28 Cul-de-sac: Confirmed dead end at (28, 7) bounded by solid wall at row 8 and rubble at (28, 9) [Verified Turn 13881, re-verified Turn 32818]. Row 8 is a continuous solid horizontal wall across all columns (24-28, 8), completely separating the Far Eastern Wing from the Southeast Chamber below.
 
 ## Central-South Corridor (cols 18-22, rows 11-14)
 - Open pink floor across columns 18-21 (rows 11-12, 14) and columns 20-21 (row 13) [Verified Turn 13866].
