@@ -52,19 +52,15 @@
 
 - [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
 
-- [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
 
 - [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
 
-- [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
 
-- [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 
 - [x] Obtain Bike Voucher from Pok��mon Fan Club Chairman in Vermilion City [Turn 2796]
 
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 
-- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
 
 - [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 
@@ -94,8 +90,6 @@
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
-- [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
-- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 11176]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Obtain Card Key on Silph Co 5F [Turn 12763]
 - [x] Defeat Rival RED in Silph Co [Turn 12851]
@@ -103,7 +97,6 @@
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
-- [x] Defeat Fighting Dojo trainers and Master Koichi, and claim Hitmonlee (BRUCE) [Turn 13254]
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
@@ -124,6 +117,7 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
 - [ ] Infiltrate Victory Road 2F and capture Legendary MOLTRES
+
 
 <hr>
 
@@ -3925,7 +3919,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Lower Corridor (Row 16): Divided into western section (cols 1-4) and eastern section (cols 9-29) by rock barriers.
   - Wooden Staircases: (5, 10) connects row 8/9 plateau to row 11; (15, 15) connects row 14 to row 16; (21, 15) connects row 16 to row 14 plateau.
   - Central Terrace: Rows 12-14 connect west across row 12 into column 13-14 terrace avenue (rows 8-14). Row 8 northern edge is an impassable elevation cliff separating the terrace from the lower Moltres chamber (row 7) [Empirically verified Turn 30183]. Plateau Barrier at (7, 8)-(7, 9) is raised and impassable [Empirically verified Turn 30186].
-  - Moltres Chamber Access: Moltres is stationed at (11, 5) on the main lower cavern floor, which is accessible from rows 0-3 via Column 16 Highway, connecting directly to Ladder (23, 7) from 3F.
+  - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 wall, opening north into rows 0-3 [Visually verified Turn 30188]. Direct ground routing from Ladder (23, 7) remains an active hypothesis under investigation.
 - Boulders & Switch Plates:
   - Boulder 3 on Switch Plate A (1, 16) permanently lowers Plateau Barrier at (7, 8)-(7, 9) [Turn 24199].
   - Boulder from 3F dropped through Pit Hole (23, 15) down to 2F at (23, 16). Pushed onto Switch Plate B at (9, 16) [Turn 24445], permanently lowering Barrier Block at (23, 14) and opening access to Exit Ladder at (25, 14).
@@ -3985,8 +3979,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Plateau Barrier Block at (7, 10): Raised and blocking eastward passage on terrace [Visually confirmed Turn 30127]. Lowered only when Boulder 1 is placed on Switch Plate (3, 5). Col 6 has solid rock walls across rows 7-9, confirming southwest terrace (cols 1-6, rows 7-10) is completely enclosed and connects exclusively to the Southwest Basin via wooden staircase (1, 9).
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
-- Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
-  - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
+- Terrace Highway & Southwest Staircase [Reconciled Turns 23842, 30127]:
+  - Conditional elevated connector: When Plateau Barrier at (7, 10) is lowered (via Boulder 1 placed on Switch Plate at 3, 5), an unbroken elevated route exists from wooden staircase at (17, 5) west across row 4 to col 10, south to row 10, west across row 10 past lowered barrier (7, 10) to (5, 10), north to row 8, west to (1, 8), and down staircase at (1, 9) into Southwest Basin (1, 10). Note: Upon entering/reloading the map, Plateau Barrier (7, 10) is raised by default, severing this terrace connector until Boulder 1 is repositioned.
   - North Terrace Cliff: Tile (1, 7) to (1, 6) is an impassable elevation cliff; player cannot jump down to (1, 6) from the terrace [Empirically verified Turn 30101].
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
