@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÃ© FLUTE [Key Item]
+1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. REVIVE x 4
 4. FULL HEAL x 6
