@@ -3541,7 +3541,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Staircase to 3F: Located at (6, 1) in northwest bedroom.
+- Northwest Bedroom (cols 0-8, rows 0-9): Audited Turn 32517-32521: Tile (6, 1) is ordinary floor with north boundary wall at (6, 0); no ascending staircase exists at (6, 1).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
@@ -4970,11 +4970,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target Species: Vulpix (#037 on 2F), Magmar (#126 on B1F), Weezing (#110 on B1F)
   - Completed Mansion Captures: Muk (#089 Lv 37 SLUDGE), Grimer (#088 Lv 30 GOOP), Koffing (#109 Lv 34 SMOGGY)
   - Location: Pokémon Mansion (Currently 2F; survey B1F after Vulpix)
-  - Party Status: 6/6 (Box 2: 6/20 used, 14 free slots)
+  - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
   - Execution Plan:
-    1. Flee duplicate Ponyta and continue 2F patrol for wild Vulpix (#037).
-    2. After capturing Vulpix, descend to B1F to hunt for wild Magmar (#126) and Weezing (#110).
+    1. Explore 2F East Wing to access 3F stairs.
+    2. Ascend to 3F, drop down western balcony gap to 1F enclosed chamber, descend to B1F.
+    3. Capture Magmar (#126) and Weezing (#110).
 
 ### Pokémon Mansion 2F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
