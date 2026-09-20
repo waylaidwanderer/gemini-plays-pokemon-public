@@ -3466,7 +3466,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Overview & Mechanics
 - Abandoned, burned-down mansion on Cinnabar Island.
 - South entrance at (5, 27) leads outside to Cinnabar Island (6, 3) [Verified Turn 13698].
-- Staircase to 2F: Located at (7, 10) on 1F, entered from south at (7, 11) [Verified Turn 32966]. Connects to 2F (7, 10).
+- Staircase to 2F (Ascent): Trigger tile located at (7, 10) on 1F, entered from south at (7, 11) [Verified Turn 32966]. Warps to 2F arrival landing at (7, 11).
+- Descent Landing from 2F: Descending staircase from 2F (5, 10) places player at (5, 10) on 1F [Verified Turns 32830, 32917].
 - Switch Mechanics: Pokémon statues contain secret switches that toggle iron shutter doors. Empirical test (Turn 13756-13788): Activating switch at (2, 5) toggled Shutter 1 at (16-17, 7) from CLOSED to OPEN, while toggling Shutter (24-25, 13) from OPEN to CLOSED.
 
 ## Entrance Hall & Central Corridor (cols 4-7, rows 10-27)
@@ -3527,8 +3528,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Pokémon Mansion 2F Geography & Landmarks
 
 ## Overview & Arrival
-- Staircase down to 1F: Descent warp tile located at (5, 10) [Verified Turns 32830, 32917].
-- 1F Ascent Arrival: Arriving from 1F ascent places player at (7, 11) facing Up [Verified Turn 32966]. Note: stepping onto (7, 10) from 2F does not trigger a descent warp.
+- Staircase down to 1F (Descent): Trigger warp tile located at (5, 10) [Verified Turns 32830, 32917]. Warps to 1F landing at (5, 10).
+- 1F Ascent Arrival: Arriving from 1F ascent places player at (7, 11) facing Up [Verified Turn 32966]. Stepping onto (7, 10) from 2F does not trigger a descent warp.
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
 - Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15) and (6-10, 16-17). South boundary wall at row 17 across columns 1-5.
@@ -3737,7 +3738,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Grimer (Lv 33): 2 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25)]
   - Vulpix (Lv 33-35): 2 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25)]
 - Unverified Target Species (Pending Capture):
-  - Magmar (#126) [CAUGHT Turn 33046, VULCAN Lv 38 in Box 2]
   - Weezing (#110) [Evolution of Koffing, rare]
 
 
@@ -5000,8 +5000,19 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Active B1F Execution Plan:
   1. Patrol open Southeast Chamber (rows 24-26, cols 21-27) to roll for wild encounters.
   2. Flee immediately from duplicates (Grimer, Koffing, Muk, Ponyta, Rapidash, Vulpix) using Mewtwo Lv 70 (guaranteed first-turn flee).
-  3. When Magmar (#126) or Weezing (#110) appears, immediately throw Ultra Ball (Slot 12).
+  3. When Weezing (#110) appears, immediately throw Ultra Ball (Slot 12).
   4. Nickname new capture creatively and record Pokédex data.
+
+## Resource & Catch Probability Analysis: Weezing (#110)
+- Target: Weezing (#110, Poison-type evolution of Koffing, Lv 34-42)
+  - Base Catch Rate: 60 (Gen 1)
+  - Ultra Ball multiplier: 2.0x
+  - Catch probability at full HP per Ultra Ball: ~25.4%
+  - Cumulative catch probability with 3 Ultra Balls at full HP: ~58.7%
+- Contingency Plan if 3 Ultra Balls fail:
+  1. Diglett (DIGBY) uses Dig to exit dungeon to Cinnabar Pokémon Center.
+  2. Visit Cinnabar Poké Mart to liquidate surplus items: PP UP (¥4,900), GUARD SPEC. (¥350), MAX POTION (¥1,250), MAX ELIXER (¥2,250). Total revenue: >¥8,700 (enough for 7+ Ultra Balls at ¥1,200 each).
+  3. Re-enter Mansion, ascend via Northwest Bedroom to 3F, drop to 1F enclosed chamber, and return to B1F with refreshed Ultra Ball stock.
 
 
 <hr>
