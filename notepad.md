@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥206 [Turn 32406]
-- Pokédex: 40 Caught / 136 Seen [Turn 32474]
+- Pokédex: 41 Caught / 136 Seen [Turn 32507]
 
 ## Milestones
 
@@ -62,7 +62,7 @@
 9. GUARD SPEC. x 1
 10. MAX POTION x 1
 11. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-12. ULTRA BALL x 7
+12. ULTRA BALL x 6
 
 ## Inventory Capacity
 - Active Bag Items: 12 / 20 capacity used.
@@ -4966,7 +4966,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Completed Mansion Captures: Muk (#089 Lv 37 SLUDGE), Grimer (#088 Lv 30 GOOP), Koffing (#109 Lv 34 SMOGGY)
   - Location: Pokémon Mansion (Currently 2F; survey B1F after Vulpix)
   - Party Status: 6/6 (Box 2: 6/20 used, 14 free slots)
-  - Resources: 7 Ultra Balls in Bag
+  - Resources: 6 Ultra Balls in Bag
   - Execution Plan:
     1. Flee duplicate Ponyta and continue 2F patrol for wild Vulpix (#037).
     2. After capturing Vulpix, descend to B1F to hunt for wild Magmar (#126) and Weezing (#110).
@@ -4986,6 +4986,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 10 | PONYTA (#077) | 32 | (7, 8) | Turn 32491 | Fled (Duplicate species) |
 | 11 | GRIMER (#088) | 35 | (7, 9) | Turn 32495 | Fled (Duplicate species) |
 | 12 | GRIMER (#088) | 35 | (8, 9) | Turn 32498 | Fled (Duplicate species) |
-| 13 | VULPIX (#037) | 33 | (8, 9) | Turn 32504 | In Progress (Turn 32504) |
+| 13 | VULPIX (#037) | 33 | (8, 9) | Turn 32504 | CAUGHT! (Turn 32507, 1 Ultra Ball, KITSUNE) |
 
 <hr>

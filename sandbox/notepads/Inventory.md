@@ -222,3 +222,7 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Transferred to PC Box 2 (6/20)
+- VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
+  - Transferred to PC Box 2 (7/20)
