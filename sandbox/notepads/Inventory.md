@@ -91,6 +91,11 @@
   - Withdrawn from PC Box 1 [Turn 31191]
 - PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy
+  - HP: 42 / 42
+  - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Verified Lv 15 Turn 31564]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 3375 (721 to Lv 16) [Verified Turn 31565]
+  - Moves: Scratch (PP 35/35) [Verified Turn 31565]
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
 
 ## PC Box 1 Pokémon
