@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte (NAUTILUS) Lv 30, Aerodactyl Lv 30
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte (NAUTILUS) Lv 30, Aerodactyl (PTERA) Lv 30
 
 - Money: ¥6 [Turn 30688]
 - Pokédex: 21 Caught / 129 Seen
@@ -56,3 +56,4 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
 - [x] Infiltrate Victory Road 2F and battle Legendary MOLTRES (21 Ultra Balls exhausted; fled safely) [Turn 30607]
+- [x] Revive Helix Fossil into Omanyte (NAUTILUS) and Old Amber into Aerodactyl (PTERA) at Cinnabar Lab [Turn 30951]

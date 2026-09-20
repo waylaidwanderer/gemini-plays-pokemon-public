@@ -9,7 +9,12 @@
 - [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
 - [x] Submit OLD AMBER to scientist [Completed Turn 30922]
 - [x] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Completed Turn 30947]
-- [ ] Nickname Aerodactyl as PTERA [In Progress]
+- [x] Nickname Aerodactyl as PTERA [Completed Turn 30951]
+
+## Quest Completion
+- Both prehistoric fossils (Helix Fossil -> Omanyte, Old Amber -> Aerodactyl) successfully revived and nicknamed!
+- Party is now at 6 members: OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30, PTERA Lv 30.
+- Pokédex updated: 21 Caught / 129 Seen.
 
 ## Party & Inventory Logistics
 - Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30), 1 open party slot ready for Aerodactyl.
