@@ -11,9 +11,9 @@
        - Purchase location: Celadon Department Store 4F (Price: ¥2,100).
        - Sold 2x Revive for ¥1,500 [Turn 32167].
        - Purchased Thunderstone for ¥2,100 [Turn 32170].
-    3. Evolution Execution (In Progress):
+    3. Evolution Execution (Complete):
        - Used Thunderstone on SPARK (Slot 6) [Turn 32180].
-       - Evolving into Raichu (#026)!
+       - SPARK evolved into Raichu (#026) [Turn 32181]!
     4. Trade Execution:
        - Exit Celadon Dept Store to outdoor Celadon City.
        - Use Fly (Farfetch'd DUX) to Cinnabar Island.

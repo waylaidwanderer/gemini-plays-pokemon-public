@@ -33,7 +33,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Stairs down to 3F: Located at (12, 1).
 - Floor Sign: Located at (14, 1) on north wall.
 - Stairs up to 5F: Located at (16, 1).
-- Display Shelves: Located along rows 3..4 (cols 2..7), inspecting displays "Wow! Tons of POK�MON stuff!" [Verified Turn 32163].
+- Display Shelves: Located along rows 3..4 (cols 2..7), inspecting displays "Wow! Tons of POK�MON stuff!" [Verified Turn 32163].
 - Shop Counter: Located along row 6 (cols 0..8), clerk stationed at (5, 7) facing North. Player shops from (5, 5) facing South [Corrected Turn 32163].
   - Clerk Stock / Prices:
     - POKé DOLL: ¥1,000

@@ -3,7 +3,7 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �1,500]
+3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �1,500]
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
@@ -18,7 +18,7 @@
 15. ULTRA BALL x 8 [Purchased 8 at Cinnabar Mart Turn 31852 for ¥9,600]
 
 ## Inventory Capacity
-- Active Bag Items: 16 / 20 capacity used.
+- Active Bag Items: 15 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -87,6 +87,12 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- RAICHU (Nickname: SPARK) [Lv 3, Electric]
+  - Status: Healthy
+  - Caught: Viridian Forest Lv 3 [Turn 32090]
+  - Evolved: Via Thunderstone at Celadon Dept Store [Turn 32180]
+  - Moves: Thundershock, Growl
+  - Destination: Trade for Electrode (DORIS) at Cinnabar Lab Meeting Room!
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
