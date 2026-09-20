@@ -1,7 +1,7 @@
 # Pokémon Mansion 2F Geography & Landmarks
 
 ## Overview & Arrival
-- Staircase down to 1F: Located at (5, 10) [Verified visually Turn 31357]. Tile (6, 10) and (7, 10) are open pink floor.
+- Staircase down to 1F: Located at (7, 10) [Verified visually Turn 31357]. Tiles (5, 10) and (6, 10) are open pink floor.
 - Landing: Arriving from 1F places player in central starting hall.
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
