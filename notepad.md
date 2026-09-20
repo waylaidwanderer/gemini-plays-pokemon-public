@@ -4687,7 +4687,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Signpost (NE): Located at (23, 1) [Inspected Turn 29253]. Text: 'DANGER / Fast current!'
 - Northern Dock: Wooden stairs at (23, 5), enters water channel at (23, 6) [Sighted Turn 29244].
 - Northeast Hall: Rows 0..4 span wide open dry floor across cols 15..26+.
-- Row 6 Canal & Shoreline (Audited Turn 29624): Dry corridor does NOT span across row 6. Water canal at cols 18..19 separates eastern sector (col 20 alcove) from western dry floor at (17, 6). Row 5 is solid rock wall across cols 20..26. Dock stairs at (23, 9) lead south into the water pool.
+- Row 6 Canal & Shoreline (Audited Turn 29624-29626): Tile (20, 6) is solid rock (empirically confirmed Turn 29626 bump test). Column 20 is a continuous solid rock wall from row 2 through row 9 separating the eastern sector from western cavern. Dock stairs at (23, 9) lead south into the water pool (cols 16..23, rows 10..15).
 - Northern Water Canal: Rows 4..5 (cols 7..13) open water, bounded north by rock wall at row 3 (cols 9..11).
 - Western Ladder / Warp: Located at (11, 7) (descends toward B4F).
 - Southern Cavern Chamber: Wide open floor spanning cols 7..14, rows 7..10.
