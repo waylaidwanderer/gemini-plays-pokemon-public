@@ -4784,5 +4784,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Geodude (ROCKY Lv 8): Active Strength user for boulder clearance.
 - Diglett (DIGBY Lv 19): Dig escape if extraction needed.
 
+- [Turn 30538] Threw Ultra Ball #1 at wild Moltres (HP ~75%). Ball missed. 20 Ultra Balls remaining.
 
 <hr>
