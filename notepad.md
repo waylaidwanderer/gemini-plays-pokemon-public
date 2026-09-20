@@ -4719,6 +4719,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - East Dock: Located at (23, 9), wooden stairs leading south into water (23, 10). Calm water across cols 18..23 along rows 9..11.
 - Rapid Current Waterfall Intake at (15, 8): Stepping onto (15, 8) triggers an automated forced water current script that sweeps the player south to row 11, east to col 20, and south down the waterfall drop at (20, 16) into B4F subterranean lake at (20, 15) [Empirically verified Turn 29637]. Dock (15, 7) cannot be reached from the pool while this current is active.
 - Row 12 Cliff: Impassable cliff elevation boundary separates water (row 11) from southern terrace (rows 12..14).
+## Western Corridor & Ladder (5, 12) (Audited Turn 29665)
+- Western Highway: Cols 1..4 form an expansive open purple floor corridor spanning rows 4..12+.
+- Ladder at (5, 12): Ladder mounted at (5, 12).
+- Sunken Ladder Trench (Rows 6..7): Enclosed landing around ladder (8, 6); row 8 is an impassable south-facing cliff. Exited via wooden stairs at (6..7, 5) onto upper terrace (row 4).
 
 <hr>
 
