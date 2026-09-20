@@ -4738,6 +4738,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Rock obstacles at (7, 14), (4, 15), (4, 16), (9, 16).
     - Signpost at (9, 15): 'Boulders might change the flow of water!'
 - Tile (4, 13) Collision (Audited Turn 29676): Empirically verified solid rock wall collision from north at (4, 12). Row 13 across cols 0..7 is an impassable solid cliff boundary. The lower puzzle chamber (rows 14..16) is accessed via the Eastern Sector Corridor (cols 13..14, rows 11..14) turning west into rows 14..16.
+- Boulder 2 Displacements (Audited Turns 29700-29703): Boulder 2 pushed west from (5, 14) to (4, 14) [Turn 29700], then to (3, 14) [Turn 29703]. Vacating row 14 passage to access Boulder 1 (3, 15).
 
 <hr>
 
@@ -4789,10 +4790,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Row 9 Dividing Rock Wall: Horizontal rock wall along row 9 (cols 20..27), separating lower arrival basin from northern chamber.
 - Tile (19, 10) Collision: Empirically verified impassable rock wall collision from east at (20, 10) [Turn 29602 bump test]. Direct eastern access to row 9 bypass is blocked at (19, 10).
-- Northern Chamber & Pit Hole (Sighted Turn 29579):
-  - Open floor visible across cols 21..27 across rows 6..8.
-  - Pit Hole at (23, 6): 16x16 black pit hole in cavern floor.
-
 ## Northern Cavern & Dual Pit Holes (Audited Turn 29599)
 - Dual Pit Holes: Two 16x16 black pit holes in northern cavern floor:
   - Western Pit Hole: Located at (18, 6).
