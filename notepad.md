@@ -4795,5 +4795,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [Turn 30579] Threw Ultra Ball #12 at wild Moltres (HP ~58%). Ball missed. 9 Ultra Balls remaining.
 - [Turn 30581] Threw Ultra Ball #13 at wild Moltres (HP ~58%). Ball missed. 8 Ultra Balls remaining.
 - [Turn 30583] Threw Ultra Ball #14 at wild Moltres (HP ~58%). Ball missed. 7 Ultra Balls remaining.
+- [Turn 30586] Mewtwo (93/234 HP) selected Recover to safely restore health to ~210 HP.
 
 <hr>
