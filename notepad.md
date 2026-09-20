@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Jynx Lv 23 (6 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Jynx (LOLA) Lv 23 (6 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 30 Caught / 136 Seen [Turn 31637]
 
@@ -55,7 +55,7 @@
 - [x] Catch wild Krabby in Cerulean Gym pool with Ultra Ball [Turn 31540]
 - [x] Catch wild Slowpoke in Route 10 waterway with Ultra Ball [Turn 31637]
 - [x] Catch wild Poliwhirl in Celadon Courtyard Pond with Ultra Ball [Turn 31712]
-- [x] Traded Poliwhirl (SWIRLY) for Jynx with Resident 2 in Cerulean City [Turn 31724]
+- [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
 
 
 <hr>
@@ -153,7 +153,8 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- JYNX [Lv 23, Ice/Psychic]
+- JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
+  - HP: 68 / 68
   - Status: Healthy
   - OT: TRAINER (IDNo. 22074, Boosted EXP)
   - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
@@ -4921,7 +4922,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Completed Objectives
 - Caught wild Poliwhirl Lv 23 in Celadon Courtyard Pond [Turn 31712].
-- Traded Poliwhirl for Jynx (OT TRAINER, ID 22074) with Resident 2 in Cerulean City [Turn 31724]!
+- Traded Poliwhirl for Jynx (LOLA, OT TRAINER, ID 22074) with Resident 2 in Cerulean City [Turn 31724]!
 - Pok�dex expanded to 32 Caught / 136 Seen!
 
 ## Next Hypotheses & Targets

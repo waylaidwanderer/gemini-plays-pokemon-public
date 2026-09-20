@@ -90,8 +90,9 @@
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
 - JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
-  - HP: 68 / 68
   - Status: Healthy
+  - HP: 68 / 68
+  - Stats: Attack 30, Defense 27, Speed 53, Special 53 [Verified Lv 23 Turn 31729]
   - OT: TRAINER (IDNo. 22074, Boosted EXP)
   - Received: Traded for Poliwhirl (SWIRLY) with Resident 2 in Cerulean City [Turn 31724]
 
