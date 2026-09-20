@@ -886,7 +886,7 @@
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
     - PC Terminal: Located on east wall at (13, 3..4). Accessible by standing at (13, 4) facing North at monitor (13, 3), or at (12, 3) facing East.
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKÃ©MON GYM / LEADER: MISTY".
-- Central pool spanning rows 9..11 with central pier at cols 4..5. Stationed at pier edge (4, 9) facing West into pool water at (3, 9) to test Super Rod fishing [Turn 31477].
+- Central pool spanning rows 9..11 with central pier at cols 4..5. Stationed at pier edge (4, 9) facing West into pool water at (3, 9). Empirically verified Turn 31481: Super Rod casts successfully into Gym pool ('BLUE used SUPER ROD! / Not even a nibble!'). Indoor fishing is 100% permitted by the Gen 1 engine.
   - Gym Guide Advice: Leader Misty specializes in Water-type PokÃ©mon; recommends Grass (plant) and Electric types as counters.
   - Gym Trainers:
     - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: Â¥80. Defeated Turn 2005.
@@ -1480,6 +1480,9 @@
 - **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
 - **Strength Status Reset on Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength [Empirically verified Turns 20452, 20525, 20559, 30447].
+## Fishing Mechanics & Indoor Gym Pool Verification
+- **Indoor Gym Pool Fishing Permitted:** In retail Generation 1 Pokémon Blue, fishing rods (e.g. Super Rod) CAN be successfully cast indoors into the Cerulean Gym pool water tiles (e.g. from pier edge (4, 9) facing West into (3, 9)). Professor Oak does NOT prohibit it; the fishing line casts into the pool and generates wild encounter rolls [Empirically verified Turn 31481].
+
 
 <hr>
 
