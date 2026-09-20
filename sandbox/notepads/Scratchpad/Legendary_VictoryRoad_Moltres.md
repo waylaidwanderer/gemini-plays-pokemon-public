@@ -10,7 +10,10 @@
 - [x] Drop through Pit Hole (23, 15) to 2F at (22, 16) [Turn 30159]
 - [x] Navigate 2F terrace via (21, 15) north and west to (14, 8) in visual contact with Moltres at (11, 5) [Turn 30181]
 - [x] Empirically verify 2F terrace northern edge (row 8 cliff) and western Plateau Barrier (7, 8) are impassable to Moltres chamber from this terrace [Turns 30183, 30186]
-- [ ] Use Dig to warp outside, Fly to Indigo Plateau, and enter 2F main floor via 3F Ladder (23, 7)
+- [x] Use Dig to warp outside, Fly to Indigo Plateau [Turns 30195-30205]
+- [ ] Heal with Nurse Joy at Indigo Plateau to set warp anchor
+- [ ] Ride south down Route 23 North to Victory Road entrance at (14, 31)
+- [ ] Ascend to 3F (26, 8), push Boulder 2 at (24, 10), and take Ladder (23, 7) to 2F main floor
 - [ ] Approach and engage Legendary Bird MOLTRES at (11, 5)
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
