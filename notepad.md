@@ -3454,7 +3454,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Overview & Mechanics
 - Abandoned, burned-down mansion on Cinnabar Island.
 - South entrance at (5, 27) leads outside to Cinnabar Island (6, 3) [Verified Turn 13698].
-- Staircase to 2F: Located at (5, 10) on 1F [Verified Turn 31361, Turn 32416]. Connects to 2F (5, 10).
+- Staircase to 2F: Located at (5, 10) on 1F [Verified Turn 31361]. Connects to 2F (5, 10).
 - Switch Mechanics: Pokémon statues contain secret switches that toggle iron shutter doors. Empirical test (Turn 13756-13788): Activating switch at (2, 5) toggled Shutter 1 at (16-17, 7) from CLOSED to OPEN, while toggling Shutter (24-25, 13) from OPEN to CLOSED.
 
 ## Entrance Hall & Central Corridor (cols 4-7, rows 10-27)
@@ -3574,7 +3574,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Vulpix (Lv 30-32) [Observed 4 trials, Turns 31332-31348].
 - Note: Sample size (5 battles) is insufficient to determine full encounter tables or rule out rare spawns.
 
-- Grimer (Lv 31) [Encountered Turn 32427 at (8, 11)].
 
 <hr>
 
@@ -4979,5 +4978,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 7 | GRIMER (#088) | 30 | (6, 21) | Turn 32329 | Fled (Duplicate species) |
 | 8 | GRIMER (#088) | 32 | (6, 19) | Turn 32338 | Fled (Duplicate species) |
 | 9 | PONYTA (#077) | 32 | (6, 25) | Turn 32351 | Fled (Duplicate species) |
+| 10 | GRIMER (#088) | 31 | (8, 11) | Turn 32427 | Fled (Duplicate species) |
 
 <hr>
