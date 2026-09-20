@@ -22,13 +22,11 @@
 
 - [x] Reach Viridian City via Route 1 [Turn 132]
 
-- [x] Visit Viridian City Pok�� Mart [Turn 169]
 
 
 - [x] Obtain Pok��dex from Prof. Oak [Turn 214]
 
 
-- [x] Return to Viridian City, heal team & purchase Pok�� Ball [Turn 284]
 
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 
@@ -3769,7 +3767,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Terminus: Rows 14-15 corridor bounded by solid mountain cliff at col 1.
 - Row 13 Ledge: South-facing ledge verified at cols 2, 6-25, 30-32, 34-37. Open northbound ramp verified at (33, 13) connecting rows 14-15 to row 12.
 - Row 16 Ledge: South-facing ledge spanning cols 2..37. Cannot be hopped south due to solid mountain cliff at rows 17-18.
-- Upper Lawn (Row 12): Extends across cols 30..37. Bounded by mountain cliff at col 29.
+- Upper Lawn (Row 12): Eastern sector extends across cols 30..37 (bounded by mountain cliff at col 29). Western corridor (cols 2..24, row 12) is continuous open green lawn passing under the col 15 statues (statues occupy col 15, rows 4..11 only; row 12 is clear). Cols 2..5 on row 11 connect directly north between row 12 lawn and row 10 approach road with no fence (fence starts at col 6) [Empirically verified Turns 30321-30323].
 - Column 30 North-South Corridor: Open walkable avenue running north from (30, 12) through (30, 11), (30, 10), (30, 9) to (30, 8). Bounded on west by mountain ridge (col 29). Triggers wild encounters in tall grass tiles.
 - Northern Highway (Rows 4-5): Paved road with white bricks spanning cols 27..35. Bounded by mountain cliff at col 36.
 
