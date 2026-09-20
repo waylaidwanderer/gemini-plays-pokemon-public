@@ -21,7 +21,7 @@
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
   - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
-  - One-way return ledge: Tile (1, 7) functions as a northbound one-way ledge jumping down to (1, 6), providing a fast exit from the terrace back to the Northwest Ladder (2, 0) and Switch (3, 5).
+  - North Terrace Cliff: Tile (1, 7) to (1, 6) is an impassable elevation cliff; player cannot jump down to (1, 6) from the terrace [Empirically verified Turn 30101].
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
   - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and dropped down to 2F (arriving at 23, 16).
