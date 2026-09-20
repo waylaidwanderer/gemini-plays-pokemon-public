@@ -7,7 +7,10 @@
     - Sector A (Avenue Corridor, Rows 36-37, Col 18): 3 trials recorded.
     - Sector B (South-Central Field, Rows 40-41, Cols 18-23): 4 trials recorded.
     - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 2 trials recorded.
-  - Empirical Sample Scope & Stopping Condition: N=30 wild trials per sub-sector. If Pikachu is not encountered in Sector B within N=30 trials (or if encounter rate is low), survey Sector C (Southwest Pocket) or northern corridors (Rows 8-9).
+  - Empirical Sample Scope & Methodology:
+    - Comparative Sector Survey: Rather than rigid single-sector N=30 saturation, conduct comparative exploratory surveys across distinct forest sectors (Sector A: Avenue Corridor, Sector B: South-Central Field, Sector C: Southwest Grass Pocket) to observe species distributions and encounter frequencies.
+    - Sector B paused at N=4 trials (1 Metapod, 3 Caterpie) after low encounter yield (~1 encounter per 14 turns) to evaluate Sector C.
+    - Sector C Target: Conduct comparative sample of N=10 trials in Southwest Grass Pocket (cols 1-5, rows 40-43) before evaluating northern corridor sectors (rows 8-9).
   - Operational Capture Protocol:
     - With only 8 Ultra Balls held, balls must be conserved.
     - Turn 1: Switch to Lola (Jynx Lv 23, Slot 6).
@@ -25,7 +28,7 @@
       - Trial 7 [Turn 31976]: Wild Caterpie Lv 4 (fled)
     - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5):
       - Trial 8 [Turn 32003]: Wild Weedle Lv 3 (fled)
-      - Trial 9 [Turn 32008]: Wild Kakuna (fled)
+      - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (battle active)
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.

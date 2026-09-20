@@ -44,7 +44,6 @@
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
 - [x] Revive Helix Fossil into Omanyte (NAUTILUS) and Old Amber into Aerodactyl (PTERA) at Cinnabar Lab [Turn 30951]
 - [x] Evolve Eevee (VEE) into Jolteon with Thunderstone in Celadon City [Turn 31098]
-- [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
 - [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
