@@ -23,4 +23,4 @@
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Magmar: 0 encounters across 19 trials on 2F (Turn 32553 Grimer Lv 28, Turn 32558 Ponyta Lv 32, Turn 32636 Grimer Lv 34; B1F primary habitat).
+- Magmar: 0 encounters across 20 trials on 2F (Turn 32553 Grimer Lv 28, Turn 32558 Ponyta Lv 32, Turn 32636 Grimer Lv 34, Turn 32661 Grimer Lv 30; B1F primary habitat).
