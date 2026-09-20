@@ -8,7 +8,7 @@
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
 7. FULL RESTORE x10
-(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x36, CARBOS x1, HP UP x1, HM02)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, NUGGET x1, ULTRA BALL x35, CARBOS x1, HP UP x1, HM02)
 
 ## Inventory Capacity
 - Active Bag Items: 14 / 20 capacity used.
