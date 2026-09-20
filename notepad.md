@@ -456,7 +456,8 @@
 - Northern Exit Gatehouse (Cols 1..3, Rows 0..2): Visually confirmed gatehouse building structure at the northwest corner of the map. Accessible via the column 2 avenue.
 - West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
 - Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
-- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 18..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 20..28). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 18..23 (continuous 6x2 tall grass strip, Sector D). Column 18 connects further north and south into western corridors.
+- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 18..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 20..28). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 18..23 (tall grass corridor connecting to the western field). Connects to Northern Avenue at col 24.
+- Northern Tall Grass Field (Sector D, Rows 6..13, Cols 16..23): Large contiguous tall grass zone comprising: (1) An east-west corridor across rows 8..9 spanning columns 18..23, passing through a gap in the stone posts at (19, 8..9); (2) A western tall grass pocket spanning columns 16..18 from row 6 down to at least row 13, bounded by clear ground at rows 4..5 to the north, column 14..15 tree wall to the west, and column 19 stone posts (rows 4..7, 10..12) to the east.
 - Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
 - West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
 - Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
@@ -4943,7 +4944,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Sector A (Avenue Corridor, Rows 36-37, Col 18): 3 trials recorded.
     - Sector B (South-Central Field, Rows 40-41, Cols 18-23): 4 trials recorded.
     - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 6 trials recorded.
-    - Sector D (Northern Grass Patches, Rows 8-9, Cols 18-23): 1 trial recorded.
+    - Sector D (Northern Grass Patches, Rows 6-9, Cols 16-23): 2 trials recorded.
   - Empirical Sample Scope & Methodology:
     - Comparative Sector Survey: Rather than rigid single-sector N=30 saturation, conduct comparative exploratory surveys across distinct forest sectors (Sector A: Avenue Corridor, Sector B: South-Central Field, Sector C: Southwest Grass Pocket) to observe species distributions and encounter frequencies.
     - Sector B paused at N=4 trials (1 Metapod, 3 Caterpie) after low encounter yield (~1 encounter per 14 turns) to evaluate Sector C.
@@ -4970,8 +4971,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Trial 11 [Turn 32038]: Wild Caterpie Lv 4 (fled)
       - Trial 12 [Turn 32043]: Wild Caterpie Lv 3 (fled)
       - Trial 13 [Turn 32046]: Wild Caterpie Lv 4 (fled)
-    - Sector D (Northern Grass Patches, Rows 8-9, Cols 18-23):
+    - Sector D (Northern Grass Patches, Rows 6-9, Cols 16-23):
       - Trial 14 [Turn 32066]: Wild Metapod Lv 6 (fled)
+      - Trial 15 [Turn 32071]: Wild Metapod Lv 5 (fled)
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
