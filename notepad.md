@@ -4628,23 +4628,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 11 Cliff Boundary: Empirically confirmed impassable from south at (26, 11) [Turn 29573 bump test]. South-facing ledge prevents northward passage; Ladder (23, 15) is the sole forward progression route from the Southwest Entrance Enclosure.
 - Southwest Ladder: Located at (23, 15) in entrance enclosure, descending to B1F [Verified Turn 29568].
 - Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
-- Eastern Docks & Corridors:
-  - Northern open hallway at rows 7..8 (cols 21..28).
-  - Dividing rock wall at row 5 (cols 20..28).
-  - Col 20 dividing rock wall extends rows 2..9 and 12..15.
-- Central Subterranean Waterway [Audited Turn 29184]:
-  - Open water canal spanning cols 15..23, rows 8..11 (and cols 18..19, rows 6..7).
-    - Eastern Dock: Wooden stairs at (23, 9) enters water at (23, 10).
 
 ## Wild Encounters
 - Psyduck (Lv 30) [Encountered Turn 29161].
 - Krabby (Lv 28) [Encountered Turn 29165].
 - Krabby (Lv 31) [Encountered Turn 29175].
-
-## Rapid Water Current Mechanic [Empirically Verified Turns 29185, 29413]
-- Tile (15, 8) in front of dock (15, 7) triggers an automatic rapid water current forced movement script.
-- Scripted Trajectory: (15, 8) -> South along col 15 to (15, 11) -> East along row 11 to (20, 11) -> South down col 20 to (20, 16) -> Drops over waterfall into B4F subterranean lake at (20, 15).
-- Dock at (15, 7) cannot be boarded from the south water canal while the upper current is active.
 
 
 <hr>
@@ -4759,12 +4747,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Rock formation at (20, 14..15).
   - Bounded south by solid rock wall across row 16 (cols 19..28).
   - Bounded east by solid rock wall at col 28 (rows 11..16).
-  - Open cavern floor across cols 21..27 (rows 11..15) connects north past row 11 into northern corridors.
+  - Open cavern floor across cols 21..27 (rows 11..15) connects north to row 10.
 
 - Row 9 Dividing Rock Wall: Horizontal rock wall along row 9 (cols 20..27), separating lower arrival basin from northern chamber.
-- Column 19 Bypass Aisle: Continuous vertical passage along col 19 connecting row 10 north through (19, 9) into northern chamber (rows 6..8).
-- Northern Chamber & Pit Hole (Audited Turn 29579):
-  - Open floor spans cols 21..27 across rows 6..8.
+- Column 19 / Western Boundary: Tile (19, 10) visually borders rock wall to the west. Passability through (19, 9..10) is unverified pending physical collision testing.
+- Northern Chamber & Pit Hole (Sighted Turn 29579):
+  - Open floor visible across cols 21..27 across rows 6..8.
   - Pit Hole at (23, 6): 16x16 black pit hole in cavern floor.
 
 
