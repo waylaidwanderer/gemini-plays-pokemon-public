@@ -4997,5 +4997,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 4 | PONYTA (#077) | 32 | (6, 22) | Turn 32290 | Fled (Duplicate species) |
 | 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | CAUGHT! (Turn 32303, 2 Ultra Balls) |
 | 6 | GRIMER (#088) | 30 | (6, 16) | Turn 32319 | Fled (Duplicate species) |
+| 7 | GRIMER (#088) | 30 | (6, 21) | Turn 32329 | Fled (Duplicate species) |
 
 <hr>
