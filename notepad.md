@@ -74,11 +74,18 @@
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, GUARD SPEC. x1, HELIX FOSSIL [Key Item])
+9. PP UP x1
+10. MAX ELIXER x1
+11. CARBOS x1
+12. HP UP x1
+13. HM02 [Key Item]
+14. GUARD SPEC. x1
+15. HELIX FOSSIL [Key Item]
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
 ## Stored / PC Items
+- NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
 - TM27 (FISSURE) x1 (PC) [Stored Turn 24575]
@@ -1457,7 +1464,7 @@
 - **Designated User:** Geodude (ROCKY).
 - **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
-- **Strength Status Reset on Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength [Empirically verified Turns 20452, 20525, 20559, 30447]. Note: Whether entering/fleeing battles resets Strength in the overworld remains an unverified hypothesis (failed pushes on Turn 30422 were confounded by destination wall collision at (14, 1); isolated testing on an open tile without re-casting is pending).
+- **Strength Status Reset on Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength [Empirically verified Turns 20452, 20525, 20559, 30447].
 
 <hr>
 
@@ -3865,7 +3872,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Lower Corridor (Row 16): Divided into western section (cols 1-4) and eastern section (cols 9-29) by rock barriers.
   - Wooden Staircases: (5, 10) connects row 8/9 plateau to row 11; (15, 15) connects row 14 to row 16; (21, 15) connects row 16 to row 14 plateau.
   - Central Terrace: Rows 12-14 connect west across row 12 into column 13-14 terrace avenue (rows 8-14). Row 8 northern edge is an impassable elevation cliff separating the terrace from the lower Moltres chamber (row 7) [Empirically verified Turn 30183]. Plateau Barrier at (7, 8)-(7, 9) is raised and impassable [Empirically verified Turn 30186].
-  - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 continuous rock wall (rows 0-7), opening exclusively northwest into rows 0-3 of the Northwest Chamber. Direct ground routing from eastern sector (cols 15-29) is blocked by the col 14 divider [Disproved Turns 30499-30501]. Access requires descending from 3F Northwest Ladder (2, 0) into 2F Northwest Chamber (1, 1).
+  - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 continuous rock wall (rows 0-7), opening exclusively northwest into rows 0-3 of the Northwest Chamber. 
 - Boulders & Switch Plates:
   - Boulder 3 on Switch Plate A (1, 16): Temporarily lowers Plateau Barrier at (7, 8)-(7, 9) for current session (resets upon leaving/reloading 2F).
   - Negative Collision at (1, 13): Solid rock wall blocks north-to-south pushing along column 1; pushing boulder west along row 14 to (1, 14) traps it in corner [Verified Turn 30459].
