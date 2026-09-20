@@ -66,4 +66,7 @@
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
 - PokÃ©mon (1, 3): Jigglypuff standing next to trainer at (0, 4).
-## Museum Perimeter & Row 7 Ledge: Row 7 across columns 18..34 features a south-facing jump ledge, but tile (31, 7) is a passable brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into row 6 northern courtyard without needing Cut! Trees at (27, 6..7) are decorative obstacles, not cuttable trees.
+## Museum Perimeter, Ledges & Cuttable Tree
+- Row 7 Jump Ledge: Spans across columns 18..34 as a south-facing jump ledge. Tile (31, 7) is an open brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into the northern perimeter lawn (rows 2..4) without needing Cut.
+- Decorative Obstacles: Tile (27, 7) is a solid tree obstacle [Turn 30711]; tile (27, 6) is a solid tree obstacle, empirically tested with CUT facing West from (28, 6) yielding 'There isn't anything to CUT!' [Turn 30743]. Neither is cuttable.
+- Cuttable Tree: Located at (26, 4) between (27, 4) and (25, 4) [Visually confirmed Turn 30752]. Successfully cut down with HM01 Cut by Farfetch'd (DUX) [Turn 30761], permanently clearing the row 4 passageway into the western courtyard (rows 4..6, cols 19..25) and granting direct access to the Museum side door at (19, 5).
