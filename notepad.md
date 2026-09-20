@@ -4818,7 +4818,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Northern aisle spans horizontally across row 2 (cols 0..7) and connects to vertical central aisles (cols 4..5, rows 2..7) and southern open floor on rows 6..7.
-- Trader NPC: Stationed at (7, 6) in front of eastern terminal (seeks Ponyta for trade).
+- Trader NPC: Stationed at (7, 6) in front of eastern terminal; offered to trade his SEEL for PONYTA [Verified Turn 31417].
 - Fossil Revival Scientist: Wanders along the northern aisle (row 2, cols 0..7). Talk to him to revive prehistoric fossils into Pokémon!
 
 <hr>
