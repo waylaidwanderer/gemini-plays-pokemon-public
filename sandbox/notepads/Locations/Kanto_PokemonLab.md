@@ -12,3 +12,8 @@
 - Meeting Room: First door along hallway, entrance located at (8, 4) with sign at (9, 4) [Verified Turn 30819].
 - R&D Room: Second door along hallway, entrance located at (12, 4) with sign at (13, 4) [Verified Turn 30822].
 - Testing Room (Fossil Revival Lab): Third door along hallway, entrance located at (16, 4) with sign at (17, 4) [Verified Turn 30827].
+
+## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
+- Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
+- Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Open checkered floor across row 6 (cols 0..6) and row 7 (cols 0..7).
+- Scientist NPC: Stationed at (7, 6) in front of the eastern computer terminal.
