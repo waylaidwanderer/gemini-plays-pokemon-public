@@ -8,16 +8,15 @@
     - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
     - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
     - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
-  - Location: Pokémon Mansion (Currently 2F North Hall at (10, 5))
-  - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
+    - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
   - Visual Audit Result [Turn 32911]:
     - Northwest Shutter at (9, 4-5) is CLOSED in current Switch State B.
     - Ascending staircase to 3F is clearly visible at (6, 1) inside Northwest Bedroom!
   - Master Execution Plan:
-    1. Walk south from (10, 5) to row 10, then west to (5, 10) staircase down to 1F. [Completed Turn 32918]
-    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) to State A. [Completed Turn 32937]
-    3. Return to 1F staircase at (5, 10) and ascend to 2F. [CURRENT STEP]
+    1. Walk south from (10, 5) to row 10, then west to (5, 10) staircase down to 1F.
+    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) to State A.
+    3. Return to 1F staircase at (5, 10) and ascend to 2F.
     4. On 2F, walk north into North Hall, pass through now-OPEN Northwest Shutter at (9, 4-5).
     5. Enter Northwest Bedroom and step onto ascending staircase at (6, 1) to reach 3F.
     6. On 3F Northwest Starting Chamber, activate statue switch at (10, 4-5) to State B.

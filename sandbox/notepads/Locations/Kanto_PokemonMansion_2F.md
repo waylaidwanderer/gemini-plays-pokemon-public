@@ -20,9 +20,7 @@
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Ascending staircase to 3F located at (6, 1) [Visually confirmed on Turn 32911]. Doorway at (9, 4-5) contains Northwest Shutter (OPEN in State A, CLOSED in State B; visually confirmed CLOSED in State B on Turn 32911).
-- ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
-
+- Northwest Bedroom (cols 0-8, rows 0-9): Staircase graphic observed at (6, 1) [Visually sighted Turn 32911; functional warp unverified]. Doorway at (9, 4-5) contains Northwest Shutter (OPEN in State A, CLOSED in State B; confirmed CLOSED in State B Turn 32911).
 - Shutter Door at (18-19, 8): Empirically verified OPEN in Switch State B [Turn 32799]. Provides open passage south from row 7 into columns 18-21 toward Southeast Chamber (25, 14).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
