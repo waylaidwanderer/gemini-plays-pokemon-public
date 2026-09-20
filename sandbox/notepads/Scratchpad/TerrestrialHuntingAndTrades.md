@@ -12,9 +12,11 @@
   - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
   - Execution Plan:
-    1. Navigate to 2F (6, 1) staircase and press Up into (6, 0) to ascend to 3F.
-    2. On 3F, drop down western balcony gap at (17, 14) to 1F enclosed chamber.
-    3. Descend B1F stairs at (21, 23) and capture Magmar (#126) and Weezing (#110).
+    1. Dismiss dialogue at (2, 6) on 1F (Switch State B confirmed Turn 32603).
+    2. Exit Northwest room to Row 1, head east to column 12, south to Row 11, west to 2F stairs at (5, 10).
+    3. Ascend to 2F, traverse east to 3F stairs at (25, 14), ascend to 3F.
+    4. On 3F, pass opened shutter (15, 10) to Southern Balcony, drop down western balcony gap at (17, 14) to 1F enclosed chamber.
+    5. Descend B1F stairs at (21, 23) and capture Magmar (#126) and Weezing (#110).
 
 ### Pokémon Mansion 2F Verified Wild Encounter Summary
 - Grimer (Lv 28-35) [Common]
