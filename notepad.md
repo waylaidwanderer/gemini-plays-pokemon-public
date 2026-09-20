@@ -4574,7 +4574,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Operational Capture Thresholds & Live Combat Status [Turn 29821]
 - **Opponent State:** Wild ARTICUNO (Lv 50) weakened to ~65% HP.
 - **Active Pokémon:** OMEGA (Mewtwo Lv 70) HP: 99 / 234, healthy and unfrozen.
-- **Ultra Ball Stock:** 21 Ultra Balls remaining in Bag (Slot 11).
+- **Ultra Ball Stock:** 20 Ultra Balls remaining in Bag (Slot 11).
 - **Damage Restriction:** Do NOT attack with Swift or any damaging moves (risk of fainting Articuno). Rely strictly on Ultra Balls.
 - **Mewtwo Sustain Protocol:** Mewtwo HP is 176/234. Peck deals 12-14 damage, Ice Beam deals 31-35 damage. If Mewtwo HP drops below 80 HP, use Recover (Slot 4 in move menu) or Full Restore (Slot 7 in Bag, 11 available).
 - **Current Battle Phase:** Executing Recover to heal Mewtwo to 172 HP before resuming Ultra Ball capture.
