@@ -63,4 +63,4 @@
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 21 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 22 observed encounters; B1F survey recommended if not found here.
