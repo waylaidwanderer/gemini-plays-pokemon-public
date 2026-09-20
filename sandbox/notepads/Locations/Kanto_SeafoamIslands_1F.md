@@ -7,9 +7,6 @@
 
 ## Key Landmarks & Layout
 - Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
-- Ladder 1 (SW): Located at (23, 15), descends to B1F.
-- Ladder 2 (East): Located at (25, 14), descends to B1F.
-- Ladder 3 (North): Located at (25, 3..4), descends to B1F.
 - Eastern Docks & Corridors:
   - Northern open hallway at rows 7..8 (cols 21..28).
   - Dividing rock wall at row 5 (cols 20..28).
