@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥206 [Turn 32406]
-- Pokédex: 39 Caught / 136 Seen [Turn 32303]
+- Pokédex: 40 Caught / 136 Seen [Turn 32474]
 
 ## Milestones
 
@@ -44,7 +44,6 @@
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
 
-
 <hr>
 
 <h1><code>Inventory</code></h1>
@@ -63,7 +62,7 @@
 9. GUARD SPEC. x 1
 10. MAX POTION x 1
 11. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-12. ULTRA BALL x 8
+12. ULTRA BALL x 7
 
 ## Inventory Capacity
 - Active Bag Items: 12 / 20 capacity used.
@@ -3572,7 +3571,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Grimer (Lv 28-31) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
 - Ponyta (Lv 32-36) [Uncommon]
-- Note: Magmar (#126) remains unverified on 2F across 10 observed encounters; B1F survey recommended if not found here.
+- Koffing (Lv 34) [Uncommon]
+- Note: Magmar (#126) remains unverified on 2F across 11 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
@@ -4961,7 +4961,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target Species: Vulpix (#037, active battle!), Magmar (#126, unverified on 2F; survey B1F if absent), Koffing (#109), Weezing (#110)
   - Location: Pokémon Mansion (Currently 2F; 1F empirical trials 1-9 yielded Grimer, Ponyta, Muk)
   - Party Status: 6/6 (Box 2: 5/20 used, 15 free slots)
-  - Resources: 8 Ultra Balls in Bag (after current throw)
+  - Resources: 7 Ultra Balls in Bag (after current throw)
   - Execution Plan:
     1. Capture wild Vulpix on 2F (active battle Turn 32462).
     2. Survey 2F / B1F for Magmar (#126).
@@ -4988,6 +4988,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 4 | PONYTA (#077) | 36 | (9, 9) | Turn 32455 | Fled (Duplicate species) |
 | 5 | VULPIX (#037) | 33 | (7, 8) | Turn 32459 | Broke out 1 Ultra Ball; used Roar |
 | 6 | PONYTA (#077) | 32 | (7, 9) | Turn 32465 | Fled (Duplicate species) |
-| 7 | KOFFING (#109) | 34 | (6, 9) | Turn 32471 | In Progress (Turn 32471) |
+| 7 | KOFFING (#109) | 34 | (6, 9) | Turn 32471 | CAUGHT! (Turn 32474, 1 Ultra Ball) |
 
 <hr>
