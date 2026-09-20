@@ -4981,19 +4981,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Location: Pokémon Mansion (Currently 2F; ascending to 3F to drop to B1F)
   - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
-  - Execution Plan (Switch State B Active):
-    1. Ascend to 2F via stairs at (5, 10).
-    2. [In Progress Turn 32802] Shutter (18-19, 8) passed! Staircase up to 3F visually confirmed at (25, 14). Navigating down column 20 to row 15/16 bypass to enter Southeast Chamber and ascend to 3F.
-    3. On 3F, pass open East Shutter at (15, 10-11) to Southern Balcony, drop down West Gap at (17, 14) directly into 1F enclosed chamber.
-    4. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
+  - Execution Plan:
+    1. Audited 2F Far Eastern chute at (28, 7) [Turn 32818]: row 8 is solid wall, proving Southeast Chamber is completely enclosed on 2F ground. (25, 14) is arrival landing only.
+    2. Ascending to 3F is achieved via Northwest Bedroom stairs at (6, 1) in Switch State A (Northwest Shutter at 9, 4-5 is open in State A).
+    3. On 3F Northwest chamber, activate secret switch statue at (10, 4-5) to toggle to State B, opening 3F East Shutter at (15, 10-11).
+    4. Pass through East Shutter to Southern Balcony, drop down West Gap at (17, 14) to 1F enclosed chamber.
+    5. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
 
-### Pokémon Mansion 2F Verified Wild Encounter Summary
-- Grimer (Lv 28-35) [Common]
-- Vulpix (Lv 30-33) [Common, Blue exclusive]
-- Ponyta (Lv 32-36) [Uncommon]
-- Koffing (Lv 34) [Uncommon]
-- Muk (Lv 40) [Rare]
-- Magmar: 0 encounters across 23 trials on 2F; B1F primary habitat.
+
 
 
 <hr>
