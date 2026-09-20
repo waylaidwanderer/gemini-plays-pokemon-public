@@ -9,8 +9,9 @@
 - [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
 - [x] Submit OLD AMBER to scientist [Completed Turn 30922]
 - [ ] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [In Progress]
+- [ ] Nickname Aerodactyl as PTERA [Pending]
 
 ## Party & Inventory Logistics
-- Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, OMANYTE Lv 30), 1 open party slot ready for Aerodactyl.
-- Bag key items: OLD AMBER in bag (Slot 15).
+- Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30), 1 open party slot ready for Aerodactyl.
+- Bag fossils: 0 (Both Helix Fossil and Old Amber surrendered to scientist).
 - Required Field Moves: HM02 FLY known by Farfetch'd (DUX).

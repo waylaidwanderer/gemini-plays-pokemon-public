@@ -16,10 +16,10 @@
 - Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flower patches.
 
 ## Key Buildings
-- Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKÃ©" sign at (14, 25).
+- Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKé" sign at (14, 25).
 - Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
   - Verified Pewter Poké Mart Stock:
-    - POKÃ© BALL: ¥200
+    - POKé BALL: ¥200
     - POTION: ¥300
     - ESCAPE ROPE: ¥550
     - ANTIDOTE: ¥100
@@ -34,13 +34,12 @@
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
 - Garden Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
 - Western Signpost: Located at (11, 17) outside the western entrance to the Gym courtyard.
-- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÃ©MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
+- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKéMON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
 - Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
 - Garden Resident: Wandering inside the fenced flower garden (rows 24..26).
 - Mart Exterior Youngster: Standing at (27, 17) just east of the Mart.
-- Western Pewter NPC: Stationed at (8, 15) in the western residential area.
 
 
 ## Pewter Gym Interior Layout & Landmarks
@@ -61,10 +60,7 @@
 - Entrance Mat: (3..4, 7). Exits south to Pewter City at (13, 26).
 - Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North to heal party.
-- Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKÃ© BALLs set in my belt."
-- Youngster: Stationed at (7, 3).
 - PC: Located at (10, 0) in the northeast alcove.
-- Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKÃ©MON get drowsy...".
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Museum Perimeter, Ledges & Cuttable Tree
 - Row 7 Jump Ledge: Spans across columns 18..34 as a south-facing jump ledge. Tile (31, 7) is an open brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into the northern perimeter lawn (rows 2..4) without needing Cut.
