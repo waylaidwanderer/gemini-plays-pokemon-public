@@ -18,8 +18,8 @@
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Plateau Barrier Block at (7, 10): Raised and blocking eastward passage on terrace [Visually confirmed Turn 30127]. Lowered only when Boulder 1 is placed on Switch Plate (3, 5). Col 6 has solid rock walls across rows 7-9, confirming southwest terrace (cols 1-6, rows 7-10) is completely enclosed and connects exclusively to the Southwest Basin via wooden staircase (1, 9).
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
-- Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
-  - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
+- Terrace Highway & Southwest Staircase [Reconciled Turns 23842, 30127]:
+  - Conditional elevated connector: When Plateau Barrier at (7, 10) is lowered (via Boulder 1 placed on Switch Plate at 3, 5), an unbroken elevated route exists from wooden staircase at (17, 5) west across row 4 to col 10, south to row 10, west across row 10 past lowered barrier (7, 10) to (5, 10), north to row 8, west to (1, 8), and down staircase at (1, 9) into Southwest Basin (1, 10). Note: Upon entering/reloading the map, Plateau Barrier (7, 10) is raised by default, severing this terrace connector until Boulder 1 is repositioned.
   - North Terrace Cliff: Tile (1, 7) to (1, 6) is an impassable elevation cliff; player cannot jump down to (1, 6) from the terrace [Empirically verified Turn 30101].
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.

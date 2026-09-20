@@ -50,19 +50,15 @@
 
 - [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
 
-- [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
 
 - [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
 
-- [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
 
-- [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 
 - [x] Obtain Bike Voucher from Pok��mon Fan Club Chairman in Vermilion City [Turn 2796]
 
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 
-- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
 
 - [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 
@@ -92,8 +88,6 @@
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
-- [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
-- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 11176]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Obtain Card Key on Silph Co 5F [Turn 12763]
 - [x] Defeat Rival RED in Silph Co [Turn 12851]
@@ -101,7 +95,6 @@
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
-- [x] Defeat Fighting Dojo trainers and Master Koichi, and claim Hitmonlee (BRUCE) [Turn 13254]
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
