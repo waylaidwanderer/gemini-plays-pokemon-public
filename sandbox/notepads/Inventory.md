@@ -9,11 +9,18 @@
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, GUARD SPEC. x1, HELIX FOSSIL [Key Item])
+9. PP UP x1
+10. MAX ELIXER x1
+11. CARBOS x1
+12. HP UP x1
+13. HM02 [Key Item]
+14. GUARD SPEC. x1
+15. HELIX FOSSIL [Key Item]
 
 ## Inventory Capacity
 - Active Bag Items: 15 / 20 capacity used.
 ## Stored / PC Items
+- NUGGET x1 (PC) [Verified in PC Turn 30652]
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
 - TM27 (FISSURE) x1 (PC) [Stored Turn 24575]
