@@ -6,7 +6,7 @@
   - Completed Mansion Captures: Muk (#089 Lv 37 SLUDGE), Grimer (#088 Lv 30 GOOP), Koffing (#109 Lv 34 SMOGGY)
   - Location: Pokémon Mansion (Currently 2F; survey B1F after Vulpix)
   - Party Status: 6/6 (Box 2: 6/20 used, 14 free slots)
-  - Resources: 7 Ultra Balls in Bag
+  - Resources: 6 Ultra Balls in Bag
   - Execution Plan:
     1. Flee duplicate Ponyta and continue 2F patrol for wild Vulpix (#037).
     2. After capturing Vulpix, descend to B1F to hunt for wild Magmar (#126) and Weezing (#110).
