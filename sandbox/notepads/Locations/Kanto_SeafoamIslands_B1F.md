@@ -19,3 +19,11 @@
 - Northern Chamber & Pit Hole (Sighted Turn 29579):
   - Open floor visible across cols 21..27 across rows 6..8.
   - Pit Hole at (23, 6): 16x16 black pit hole in cavern floor.
+
+## Northern Cavern & Dual Pit Holes (Audited Turn 29599)
+- Dual Pit Holes: Two 16x16 black pit holes in northern cavern floor:
+  - Western Pit Hole: Located at (18, 6).
+  - Eastern Pit Hole: Located at (23, 6).
+- Column 20 Rock Divider: 1-tile wide blue rock wall along col 20 (rows 6..9) separating western pit hole area from eastern pit hole area.
+- Western Hallway: Cols 16..19 across rows 6..9 form an expansive open cavern floor surrounding pit hole (18, 6).
+- Western Elevated Terrace: Cols 16..18, rows 10..12 with wooden stairs at (17, 13) connecting lower basin to western hallway (rows 6..9).
