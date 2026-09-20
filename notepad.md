@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Seel (SAILOR) Lv 32 (6 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party, 1 open slot)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 27 Caught / 136 Seen [Turn 31428]
 
@@ -148,6 +148,8 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+
+## PC Box 1 Pokémon
 - SEEL (Nickname: SAILOR) [Lv 32, Water]
   - Status: Healthy
   - HP: 90 / 90
@@ -156,8 +158,7 @@
   - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
-
-## PC Box 1 Pokémon
+  - Deposited: Cinnabar PC Box 1 [Turn 31456]
 - TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
   - Status: Healthy
   - HP: 62 / 62
