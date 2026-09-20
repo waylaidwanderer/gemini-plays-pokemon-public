@@ -20,8 +20,6 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Celadon Department Store: Large multi-story MART building at rows 7..13; 'MART' sign at (12, 13); front entrance door at (10, 13) [Turn 5498].
 - South Commercial Complex: Buildings spanning rows 24..27+ across cols 14..17 and cols 18..21; accessible via wide southbound passage across cols 22..25 (rows 23..27+) between buildings [Verified Turn 6837].
 - South Commercial Building (Diner): Spans cols 26..33+, rows 24..27; front entrance door at (31, 27) [Turn 5573].
-  - Patron at (1, 4): "Psst! There's a basement under the GAME CORNER." [Turn 5575].
-  - Gambler at (0, 1): Broke gambler gives the COIN CASE [Turn 5577].
 - South Plaza: Paved walkway spanning rows 28..31 between southern building row (row 27) and southern tree barrier (row 32) [Turn 5583].
 - Adjacent Building East: Entrance door at (35, 27) [Turn 5583].
 - Celadon Gym: Spans cols 8..13, rows 24..27. 'GYM' lettering at (8..11, 26), front entrance door at (12, 27) [Turn 5589].
@@ -59,7 +57,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - 2F Rear Corridor: Arrives at (2, 2) facing South with stairs down at (2, 1). Corridor spans east to column 4, and south down column 4 across rows 2..8. Staircase warp at (2, 7) leads up to Rooftop.
 - Rooftop Penthouse (Discovered Turn 31032):
   - Arrives at (2, 7) on red exit mat via 2F (2, 7) warp.
-  - Table at (3..4, 3..4) holds Poké Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
-  - NPC at (2, 2) shares Pokémon tips.
+  - Table at (3..4, 3..4) holds Pokï¿½ Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
+  - NPC at (2, 2) shares Pokï¿½mon tips.
   - Tile (7, 1) is a solid rooftop structure (bump test confirmed Turn 31047, not a staircase).
   - Exit Doorway: Red mat at (2..3, 7), stepping South into row 8 warps down to 2F.

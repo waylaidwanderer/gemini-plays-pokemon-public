@@ -2041,9 +2041,18 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Stairs down to 3F: Located at (12, 1).
 - Floor Sign: Located at (14, 1) on north wall.
 - Stairs up to 5F: Located at (16, 1).
+- Shop Counter: Located along row 4 (cols 2..8), clerk stationed at (5, 4) facing South. Player shops from (5, 5) facing North [Verified Turns 31081-31089].
+  - Clerk Stock / Prices:
+    - POKé DOLL: ¥1,000
+    - FIRE STONE: ¥2,100
+    - THUNDER STONE: ¥2,100
+    - WATER STONE: ¥2,100
+    - LEAF STONE: ¥2,100
 - Aisles & Shelves: Glass display shelves at rows 3..4 and row 6.
 - Walkways: Main aisle across row 2; vertical aisle across cols 10..11; lower aisle along row 5.
-- NPC: Shopper at (16, 5).
+- NPCs:
+  - Shopper at (16, 5).
+  - Youngster wandering aisle across row 2 (cols 7..10) [Verified Turn 31106].
 
 ## 5F: Drug Store
 - Stairs down to 4F: Located at (16, 1).
