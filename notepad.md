@@ -4982,7 +4982,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Resources: 6 Ultra Balls in Bag
   - Execution Plan (Switch State B Active):
     1. Ascend to 2F via stairs at (5, 10).
-    2. Pass open Shutter (18-19, 8) on 2F, traverse Central-South corridor and audit access to Southeast Chamber staircase at (25, 14) to ascend to 3F.
+    2. [In Progress Turn 32802] Shutter (18-19, 8) passed! Staircase up to 3F visually confirmed at (25, 14). Navigating down column 20 to row 15/16 bypass to enter Southeast Chamber and ascend to 3F.
     3. On 3F, pass open East Shutter at (15, 10-11) to Southern Balcony, drop down West Gap at (17, 14) directly into 1F enclosed chamber.
     4. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
 
