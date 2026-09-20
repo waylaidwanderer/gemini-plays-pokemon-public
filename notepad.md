@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Slowpoke (DOPEY) Lv 15 (6 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 30 Caught / 136 Seen [Turn 31637]
 
@@ -120,9 +120,6 @@
 - ¥3,506 [Turn 31292]
 
 ## Party Pokémon
-- SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
-  - Status: Healthy
-  - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
@@ -156,6 +153,10 @@
   - Withdrawn from PC Box 1 [Turn 31191]
 
 ## PC Box 1 Pokémon
+- SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
+  - Status: Healthy
+  - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
+  - Deposited: Celadon PC Box 1 (19/20) [Turn 31675]
 - PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy
   - HP: 42 / 42
@@ -4894,8 +4895,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Status: Available in various Kanto waterways (e.g. Route 22).
 
 ## Party & Inventory Status [Turn 31659]
-- Party: 6/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25, Slowpoke Lv 15).
-- PC Box 1: 18/20 capacity.
+- Party: 5/6 (Mewtwo Lv 70, Geodude Lv 8, Farfetch'd Lv 5, Blastoise Lv 70, Jolteon Lv 25). Slot 6 open for Poliwhirl!
+- PC Box 1: 19/20 capacity (Slowpoke DOPEY deposited Celadon PC Turn 31675).
 - Balls: 2 Ultra Balls in Bag.
 - Money: ¥3,506.
 
