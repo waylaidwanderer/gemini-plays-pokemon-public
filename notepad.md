@@ -4979,11 +4979,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
   - Execution Plan:
-    1. Dismiss dialogue at (2, 6) on 1F (Switch State B confirmed Turn 32603).
-    2. Exit Northwest room to Row 1, head east to column 12, south to Row 11, west to 2F stairs at (5, 10).
-    3. Ascend to 2F, traverse east to 3F stairs at (25, 14), ascend to 3F.
-    4. On 3F, pass opened shutter (15, 10) to Southern Balcony, drop down western balcony gap at (17, 14) to 1F enclosed chamber.
-    5. Descend B1F stairs at (21, 23) and capture Magmar (#126) and Weezing (#110).
+    1. From 2F (19, 7), walk south down columns 19-21 to rows 12-16 to survey corridor connectivity to Southeast Chamber (25, 14).
+    2. Ascend to 3F via stairs (25, 14).
+    3. On 3F, pass opened shutter (15, 10) to Southern Balcony, drop down western balcony gap at (17, 14) to 1F enclosed chamber.
+    4. Descend B1F stairs at (21, 23) and capture Magmar (#126) and Weezing (#110).
 
 ### Pokémon Mansion 2F Verified Wild Encounter Summary
 - Grimer (Lv 28-35) [Common]
@@ -4991,7 +4990,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Magmar: 0 encounters across 16 trials on 2F (B1F primary habitat).
+- Magmar: 0 encounters across 19 trials on 2F (Turn 32553 Grimer Lv 28, Turn 32558 Ponyta Lv 32, Turn 32636 Grimer Lv 34; B1F primary habitat).
 
 
 <hr>
