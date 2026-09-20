@@ -38,8 +38,6 @@
 
 - [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
 
-- [x] Catch wild Geodude in Mt. Moon [Turn 1197]
-
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 
 - [x] Exit Mt. Moon to Route 4 [Turn 1865]
@@ -72,8 +70,6 @@
 
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 
-- [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
-
 - [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
 
 
@@ -81,12 +77,8 @@
 
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 
-- [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
-
 
 - [x] Traverse Route 9 and reach Route 10 [Turn 4517]
-
-- [x] Enter Rock Tunnel on Route 10 [Turn 4547]
 
 - [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
 
@@ -128,7 +120,6 @@
 - [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
 - [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
-- [x] Infiltrate Kanto Power Plant via Route 10 canal [Turn 28541]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
@@ -3920,7 +3911,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 2F Points of Interest & Geography
 
 ## Connections
-- Pit Hole Drop Arrival [Verified Turn 23855]: Stepping into 3F Pit Hole (23, 15) drops player to 2F at (22, 16), with the fallen boulder arriving directly adjacent at (23, 16).
+- Pit Hole Drop Arrival [Verified Turns 23855, 30159]: Stepping into 3F Pit Hole (23, 15) drops player to 2F at (22, 16), with the fallen boulder arriving directly adjacent at (23, 16).
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Northeast Ladder: Located at (27, 7) in eastern chamber (rows 7-9, cols 25-28). Confirmed two-way connection to 3F Ladder at (26, 8) [Empirically verified Turns 24464, 24473]. Direct ground access to northern terrace (row 6) and southern hall (row 10) blocked by solid rock walls.
 - Descent Arrival from 3F: Located at (23, 7) in eastern sector.
@@ -3992,14 +3983,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Plateau Barrier Block at (7, 10): Raised and blocking eastward passage on terrace [Visually confirmed Turn 30127]. Lowered only when Boulder 1 is placed on Switch Plate (3, 5). Col 6 has solid rock walls across rows 7-9, confirming southwest terrace (cols 1-6, rows 7-10) is completely enclosed and connects exclusively to the Southwest Basin via wooden staircase (1, 9).
-- Boulder 1: Located at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
   - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
   - North Terrace Cliff: Tile (1, 7) to (1, 6) is an impassable elevation cliff; player cannot jump down to (1, 6) from the terrace [Empirically verified Turn 30101].
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
-  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and dropped down to 2F (arriving at 23, 16).
+  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and re-executed Turn 30154, dropping down to 2F (arriving at 23, 16) [Turns 30154-30155].
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
 - Boulder 2: Initial position at (24, 10) in 1-tile choke point between Columns 22-23 and Ladder (26, 8) chamber. Can be displaced west to (22, 10) to open Column 23.
@@ -4815,7 +4805,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Purchase 21 Ultra Balls (¥1,200 each, total ¥25,200) [Turn 29994]
 - [x] Fly to Indigo Plateau via Farfetch'd (DUX) [Turn 30006]
 - [x] Enter Victory Road 2F via Route 23 North cave entrance at (14, 31) [Turn 30024]
-- [ ] Infiltrate Victory Road 2F and navigate to Moltres plateau (previously sighted Turns 15533, 16069, 17798, 19831)
+- [x] Ascend to 3F, activate Strength, and push Boulder (22, 15) into Pit Hole (23, 15) [Turns 30044, 30154]
+- [x] Drop through Pit Hole (23, 15) to 2F at (22, 16) [Turn 30159]
+- [x] Navigate 2F terrace via (21, 15) north and west to (14, 8) in visual contact with Moltres at (11, 5) [Turn 30181]
+- [ ] Approach and engage Legendary Bird MOLTRES
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
