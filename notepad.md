@@ -4783,7 +4783,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ride west along Route 22 to Pokémon League Reception Gate [Turn 30325]
 - [x] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17) [Turn 30356]
 - [x] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8) [Completed Turn 30447]
-- [ ] Push Boulder (5, 5) North to clear row 3 corridor to Moltres (11, 5)
+- [x] Solve Switch Plate A puzzle: pushed Boulder (4, 14) south to row 16, then west onto Switch Plate A (1, 16), lowering Plateau Barrier at (7, 8)-(7, 9) [Completed Turn 30476]
+- [ ] Ascend wooden staircase (5, 10) onto plateau (5, 9), walk east across lowered barrier (7, 8)-(7, 9) into eastern sector
+- [ ] Traverse Column 16 Highway north to Row 1, walk west to Moltres at (11, 5)
 - [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
