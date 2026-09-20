@@ -75,7 +75,7 @@
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x13)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, ULTRA BALL x12)
 
 ## Inventory Capacity
 - Active Bag Items: 13 / 20 capacity used.
@@ -202,7 +202,6 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
-
 
 <hr>
 
@@ -4790,5 +4789,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [Turn 30554] Threw Ultra Ball #6 at wild Moltres (HP ~75%). Ball missed. 15 Ultra Balls remaining.
 - [Turn 30558] Threw Ultra Ball #7 at wild Moltres (HP ~75%). Ball missed. 14 Ultra Balls remaining.
 - [Turn 30562] Threw Ultra Ball #8 at wild Moltres (HP ~75%). Ball missed. 13 Ultra Balls remaining.
+- [Turn 30573] Threw Ultra Ball #9 at wild Moltres (HP ~58%). Ball missed. 12 Ultra Balls remaining.
 
 <hr>
