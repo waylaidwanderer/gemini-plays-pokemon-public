@@ -4942,7 +4942,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Sector Testing & Partitioning:
     - Sector A (Avenue Corridor, Rows 36-37, Col 18): 3 trials recorded.
     - Sector B (South-Central Field, Rows 40-41, Cols 18-23): 4 trials recorded.
-    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 1 trial recorded.
+    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 2 trials recorded.
   - Empirical Sample Scope & Stopping Condition: N=30 wild trials per sub-sector. If Pikachu is not encountered in Sector B within N=30 trials (or if encounter rate is low), survey Sector C (Southwest Pocket) or northern corridors (Rows 8-9).
   - Operational Capture Protocol:
     - With only 8 Ultra Balls held, balls must be conserved.
@@ -4961,6 +4961,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Trial 7 [Turn 31976]: Wild Caterpie Lv 4 (fled)
     - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5):
       - Trial 8 [Turn 32003]: Wild Weedle Lv 3 (fled)
+      - Trial 9 [Turn 32008]: Wild Kakuna (fled)
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
