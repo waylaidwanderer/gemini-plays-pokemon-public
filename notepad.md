@@ -274,18 +274,6 @@
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
 
-
-## Poké Mart & Shop UI Mechanics
-- **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
-
-## PC Storage & Menu Mechanics (Generation 1 Retail)
-- **Chronological Storage Order:** In Gen 1 retail, items deposited into the player's PC (BLUE's PC) and Pokémon deposited into BILL's PC boxes are appended to the list in strictly chronological order of deposit.
-- **Item Storage Withdrawal:** When withdrawing items from BLUE's PC, single-quantity items withdraw immediately upon confirmation, while stacked items prompt for quantity (x01..x99). Withdrawn items are placed into the next available Bag slot.
-- **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
-- **Party Space Prerequisite:** In BILL's PC, selecting WITHDRAW PKMN when the active party is full (6 Pokémon) displays 'Your party is full!' and denies withdrawal. The player must use DEPOSIT PKMN first to free party slots.
-- **Batched Operations:** PC sessions can seamlessly transition between BILL's PC and BLUE's PC by pressing B to back out to the main PC menu ('BILL's PC', 'BLUE's PC', 'PROF. OAK's PC', 'LOG OFF') without needing to exit to the overworld between operations.
-
-
 <hr>
 
 <h1><code>Locations/Kanto_ViridianCity</code></h1>
@@ -3352,6 +3340,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Entrance door unlocked with Secret Key [Turn 14686].
 - Central Corridor: Open grass path spanning columns 10 to 13 connecting northern dock to southern town plaza [Verified Turn 13678].
 - Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
+  - Clerk Inventory [Audited Turn 31285]:
+    - ULTRA BALL: ¥1,200
+    - GREAT BALL: ¥600
+    - HYPER POTION: ¥1,500
+    - MAX REPEL: ¥700
+    - ESCAPE ROPE: ¥550
+    - FULL HEAL: ¥600
+    - REVIVE: ¥1,500
 - Eastern Shoreline: Column 20 is the eastern cliff/water boundary connecting to Route 20 [Verified Turn 13682].
 - Cinnabar Pokémon Center: Located at columns 10 to 13, rows 8 to 11, marked with "POKé" on facade at (12, 11). Entrance door at (11, 11) [Verified Turn 13684].
 - Cinnabar Pokémon Lab: Building occupying columns 4 to 9, rows 8 to 9. Exterior entrance door located at (6, 9) approached from south via row 10..12 grass. Enters interior entrance hallway at (2, 7) [Empirically verified Turn 30813].
@@ -4806,5 +4802,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Northern aisle spans horizontally across row 2 (cols 0..7) and connects to vertical central aisles (cols 4..5, rows 2..7) and southern open floor on rows 6..7.
 - Trader NPC: Stationed at (7, 6) in front of eastern terminal (seeks Ponyta for trade).
 - Fossil Revival Scientist: Wanders along the northern aisle (row 2, cols 0..7). Talk to him to revive prehistoric fossils into Pokémon!
+
+<hr>
+
+<h1><code>Mechanics/UI_and_Storage</code></h1>
+
+# UI & Storage Mechanics (Generation 1 Retail)
+
+## Poké Mart & Shop UI Mechanics
+- **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
+
+## PC Storage & Menu Mechanics (Generation 1 Retail)
+- **Chronological Storage Order:** In Gen 1 retail, items deposited into the player's PC (BLUE's PC) and Pokémon deposited into BILL's PC boxes are appended to the list in strictly chronological order of deposit.
+- **Item Storage Withdrawal:** When withdrawing items from BLUE's PC, single-quantity items withdraw immediately upon confirmation, while stacked items prompt for quantity (x01..x99). Withdrawn items are placed into the next available Bag slot.
+- **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
+- **Party Space Prerequisite:** In BILL's PC, selecting WITHDRAW PKMN when the active party is full (6 Pokémon) displays 'Your party is full!' and denies withdrawal. The player must use DEPOSIT PKMN first to free party slots.
+- **Batched Operations:** PC sessions can seamlessly transition between BILL's PC and BLUE's PC by pressing B to back out to the main PC menu ('BILL's PC', 'BLUE's PC', 'PROF. OAK's PC', 'LOG OFF') without needing to exit to the overworld between operations.
+
 
 <hr>

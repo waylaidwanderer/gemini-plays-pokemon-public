@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Tangela (CRINKLES) Lv 22, Jolteon (VEE) Lv 25
-- Money: ¥17,906 [Turn 31282]
+- Money: ¥3,506 [Turn 31292]
 - Pokédex: 25 Caught / 136 Seen [Turn 31251]
 
 ## Milestones
