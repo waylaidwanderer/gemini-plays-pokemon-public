@@ -1454,8 +1454,6 @@
 - **Direct Surf from Bicycle:** In retail Pokémon Blue, the player can initiate the field move SURF directly from the party menu while mounted on the Bicycle. The game does not prompt or require manual dismounting beforehand; executing SURF transitions the player directly into the Surfing state. [Empirically confirmed Turns 13644-13645]
 - **East Shoreline Launch:** Surfing can be initiated facing west into an eastern shoreline tile (empirically confirmed Turn 13645 at Pallet Town (8, 15) facing (7, 15)).
 
-## Map Transition Mechanics
-- **Strength Status Reset on Map/Floor Change:** In retail Generation 1 Pokémon, changing floors via ladders, stairs, or map transitions immediately resets the active field move status of HM04 Strength to inactive. Strength must be re-cast from the party Pokémon menu on the new floor before boulders can be pushed [Empirically verified Turns 20452, 20525, 20559].
 ## HM04 STRENGTH Mechanics (Generation 1 Retail)
 - **Badge Requirement:** Rainbowbadge (Erika) - earned Turn 6800.
 - **Designated User:** Geodude (ROCKY).
@@ -4717,58 +4715,25 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <hr>
 
-<h1><code>Scratchpad/Legendary_VictoryRoad_Moltres</code></h1>
+<h1><code>Scratchpad/Fossil_Revival_Quest</code></h1>
 
-# Quest Log: Legendary Fire Bird Moltres & Victory Road 2F
+# Quest Log: Prehistoric Fossil Revival (Omanyte & Aerodactyl)
 
-## Active Strategic Objectives
-- [x] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8) [Completed Turn 30447]
-- [x] Solve Switch Plate A puzzle: pushed Boulder (4, 14) south to row 16, then west onto Switch Plate A (1, 16), lowering Plateau Barrier at (7, 8)-(7, 9) [Completed Turn 30476]
-- [x] Ascend wooden staircase (5, 10) onto plateau (5, 9) and cross lowered barrier (7, 8)-(7, 9) into eastern sector [Turn 30483]
-- [x] On 3F, traverse Northern Highway (rows 0-1) west to Northwest Ladder (2, 0) [Completed Turn 30524]
-- [x] Descend to 2F Northwest Chamber (1, 1) and walk east across rows 1-3 straight to Moltres at (11, 5) [Completed Turn 30530]
-- [x] Weaken Moltres with Swift and battle with Ultra Balls [Concluded Turn 30607: 21 Ultra Balls exhausted; fled safely]
+## Strategic Objectives
+- [ ] At Indigo Plateau PC: Deposit 2 Pokémon (Drowzee & Diglett) into Box 1 to free 2 party slots [In Progress Turn 30633]
+- [ ] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Pending]
+- [ ] Exit Indigo Plateau lobby to exterior map (9, 6) [Pending]
+- [ ] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Pending]
+- [ ] In Pewter City, navigate north to Museum side entrance, use Cut with Farfetch'd to bypass tree obstacle, and obtain OLD AMBER from scientist [Pending]
+- [ ] Cast HM02 FLY to travel to Cinnabar Island [Pending]
+- [ ] Enter Cinnabar Pokémon Lab, proceed to Research Room, and submit HELIX FOSSIL and OLD AMBER to scientist [Pending]
+- [ ] Exit and re-enter Pokémon Lab to receive revived OMANYTE and AERODACTYL, registering both in the Pokédex! [Pending]
 
-## Party Preparation & Tactics (Audited Turn 30066)
-- Wild Moltres Lv 50 Moves: Peck (Flying physical STAB, 35 power), Fire Spin (Fire special trapping, 15 power).
-- Mewtwo (OMEGA Lv 70): Primary combatant & tank with 234 HP, 195 Speed, Recover (100% first-move sustain), Barrier (+2 Defense), and Swift (60 BP physical).
-  - Empirical Damage Calculation vs Moltres (Lv 50, Def 100-120, HP 150-165):
-    - Swift Non-Crit: Deals 44 to 62 HP (~28-38% of max HP).
-    - Swift Crit: Deals 98 to 118 HP (max 118 HP leaves at least 32+ HP remaining). Zero risk of 1HKO!
-  - Retail Gen 1 Capture Formula & Status Math:
-    - Non-statused target: Ultra Ball generates R1 in [0, 150]. If target has no status, Step 2 requires R1 <= CatchRate (Moltres CatchRate = 3). Thus, if R1 > 3 (147/151 values), the ball misses immediately regardless of HP! The non-statused catch probability has an absolute mathematical ceiling of 4/151 (~2.65%) per Ultra Ball at red HP.
-    - Statused target (PAR/BRN/PSN): Status bonus = 12. If R1 <= 12 (13/151 values = ~8.61%), the target is caught immediately in Step 1 prior to CatchRate/HP checks! Combined with the remaining checks at red HP, catch rate reaches ~11-12% per Ultra Ball.
-    - Statused target (SLP): Status bonus = 25. Instant capture rate is 26/151 (~17.22%)!
-  - Capture Protocol:
-    - Primary: Use Mewtwo's Swift (non-crit 44-62 HP, crit max 118 HP vs Moltres Def 100-120, max HP 150-165) 1-2 times to safely weaken Moltres to yellow/red HP with 0% risk of 1HKO.
-    - Sustain: Deploy Barrier (+2 Def) to tank Peck and Recover (100% first-move sustain with 195 Speed), throwing Ultra Balls each turn.
-- Blastoise (SHELDON Lv 70): Emergency defensive tank (resists Fire Spin). Do NOT attack with Body Slam (crit risks lethal 1HKO on Moltres). Capture protocol relies strictly on Mewtwo Swift weakening + Ultra Ball attrition.
-- Drowzee (SANDMAN Lv 9): Do NOT switch in (instantly faints to Moltres STAB).
-- Ultra Ball Arsenal: 21 Ultra Balls ready in Bag.
-- Geodude (ROCKY Lv 8): Active Strength user for boulder clearance.
-- Diglett (DIGBY Lv 19): Dig escape if extraction needed.
-
-- [Turn 30538] Threw Ultra Ball #1 at wild Moltres (HP ~75%). Ball missed. 20 Ultra Balls remaining.
-- [Turn 30542] Threw Ultra Ball #2 at wild Moltres (HP ~75%). Ball missed. 19 Ultra Balls remaining.
-- [Turn 30545] Threw Ultra Ball #3 at wild Moltres (HP ~75%). Ball missed. 18 Ultra Balls remaining.
-- [Turn 30548] Threw Ultra Ball #4 at wild Moltres (HP ~75%). Ball missed. 17 Ultra Balls remaining.
-- [Turn 30551] Threw Ultra Ball #5 at wild Moltres (HP ~75%). Ball missed. 16 Ultra Balls remaining.
-- [Turn 30554] Threw Ultra Ball #6 at wild Moltres (HP ~75%). Ball missed. 15 Ultra Balls remaining.
-- [Turn 30558] Threw Ultra Ball #7 at wild Moltres (HP ~75%). Ball missed. 14 Ultra Balls remaining.
-- [Turn 30562] Threw Ultra Ball #8 at wild Moltres (HP ~75%). Ball missed. 13 Ultra Balls remaining.
-- [Turn 30573] Threw Ultra Ball #9 at wild Moltres (HP ~58%). Ball missed. 12 Ultra Balls remaining.
-- [Turn 30575] Threw Ultra Ball #10 at wild Moltres (HP ~58%). Ball missed. 11 Ultra Balls remaining.
-- [Turn 30577] Threw Ultra Ball #11 at wild Moltres (HP ~58%). Ball missed. 10 Ultra Balls remaining.
-- [Turn 30579] Threw Ultra Ball #12 at wild Moltres (HP ~58%). Ball missed. 9 Ultra Balls remaining.
-- [Turn 30581] Threw Ultra Ball #13 at wild Moltres (HP ~58%). Ball missed. 8 Ultra Balls remaining.
-- [Turn 30583] Threw Ultra Ball #14 at wild Moltres (HP ~58%). Ball missed. 7 Ultra Balls remaining.
-- [Turn 30586] Mewtwo (93/234 HP) selected Recover to safely restore health to ~210 HP.
-- [Turn 30589] Threw Ultra Ball #15 at wild Moltres (HP ~58%). Ball missed. 6 Ultra Balls remaining.
-- [Turn 30591] Threw Ultra Ball #16 at wild Moltres (HP ~58%). Ball missed. 5 Ultra Balls remaining.
-- [Turn 30593] Threw Ultra Ball #17 at wild Moltres (HP ~58%). Ball missed. 4 Ultra Balls remaining.
-- [Turn 30595] Threw Ultra Ball #18 at wild Moltres (HP ~58%). Ball missed. 3 Ultra Balls remaining.
-- [Turn 30597] Threw Ultra Ball #19 at wild Moltres (HP ~58%). Ball missed. 2 Ultra Balls remaining.
-- [Turn 30598] Threw Ultra Ball #20 at wild Moltres (HP ~58%). Ball missed. 1 Ultra Ball remaining.
-- [Turn 30604] Threw Ultra Ball #21 at wild Moltres (HP ~58%). Ball missed. 0 Ultra Balls remaining. All 21 Ultra Balls exhausted; preparing safe retreat.
+## Party & Inventory Logistics
+- Party requirements: Must have at least 2 empty slots (max party size 4 before claiming revived Pokémon).
+  - Designated retainers: Mewtwo (OMEGA Lv 70, bodyguard), Blastoise (SHELDON Lv 70, backup), Geodude (ROCKY Lv 8, Strength), Farfetch'd (DUX Lv 5, Cut & Fly).
+  - Designated deposits to PC Box 1: Drowzee (SANDMAN Lv 9), Diglett (DIGBY Lv 19).
+- Key items needed in Bag: HELIX FOSSIL (withdrawing from PC), OLD AMBER (obtaining in Pewter Museum).
+- Field moves required: HM02 FLY (DUX), HM01 CUT (DUX). Both known by Farfetch'd.
 
 <hr>
