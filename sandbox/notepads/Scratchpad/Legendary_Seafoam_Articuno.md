@@ -4,12 +4,14 @@
 - [x] Execute boulder puzzle to stop subterranean water currents [Completed Turn 29724 - both boulders dropped to B4F]!
 - [x] Navigate to Articuno's chamber and platform on B4F [Arrived Turn 29741]!
 - [x] Initiate battle with Articuno [Turn 29745]!
-- [ ] Capture Articuno (Lv 50) with Ultra Ball
+- [ ] Conclude battle with Articuno (Lv 50)
 
-## Operational Capture Thresholds & Live Combat Status [Turn 29967]
-- **Opponent State:** Wild ARTICUNO (Lv 50) weakened to ~65% HP.
-- **Active Pokï¿½mon:** OMEGA (Mewtwo Lv 70) HP: 113 / 234, healthy and unfrozen.
-- **Ultra Ball Stock:** 1 Ultra Ball remaining in Bag (Slot 11).
-- **Damage Restriction:** Swift deals 44-52 damage (crit 88-104 damage). Currently Articuno has ~105-115 HP, so a crit Swift could faint it! Rely strictly on Ultra Balls unless calculated otherwise.
-- **Mewtwo Sustain Protocol:** Mewtwo HP is 113/234. Peck deals 12-14 damage (crit 24-28), Ice Beam deals 31-35 damage (crit 63-70). Because a critical hit Ice Beam can inflict up to 70 damage, sustain threshold is 100 HP. If Mewtwo HP drops below 100 HP, use Recover (Slot 4 in move menu, 18/20 PP) or Full Restore (Slot 7 in Bag, 9 available).
-- **Current Battle Phase:** Executing Recover to heal Mewtwo to ~212 HP before resuming Ultra Ball capture.
+## Operational Capture Thresholds & Live Combat Status [Turn 29971]
+- **Opponent State:** Wild ARTICUNO (Lv 50) HP: ~65% (~100/158 HP).
+- **Active Pokémon:** OMEGA (Mewtwo Lv 70) HP: 133 / 234, Status: FROZEN (FRZ).
+- **Ultra Ball Stock:** 0 Ultra Balls remaining in Bag. Entire ball supply exhausted.
+- **Inventory State:** 0 Ultra Balls, 0 Great Balls, 0 Poké Balls across Bag and PC.
+- **Battle Resolution Strategy:**
+  Since 0 balls remain in inventory, capturing Articuno in this battle is mechanically impossible.
+  In Generation 1 retail, stationary legendary encounter scripts (e.g. Snorlax, Zapdos, Articuno):
+  Let's evaluate whether fleeing, blacking out, or fainting Articuno is the proper outcome.
