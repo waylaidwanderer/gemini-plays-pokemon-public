@@ -10,7 +10,7 @@
   - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
   - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
 - Inventory & Storage Status:
-  - Resources: 6 Ultra Balls in Bag
+  - Resources: 5 Ultra Balls in Bag
   - Party Status: 6/6 (Lead: Mewtwo Lv 70 OMEGA)
   - PC Box 2 Status: 7/20 used (13 free slots)
 - Active B1F Execution Plan:
