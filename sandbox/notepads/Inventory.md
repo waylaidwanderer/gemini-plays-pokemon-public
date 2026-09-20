@@ -83,11 +83,6 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
-- OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
-  - Status: Healthy
-  - HP: 67 / 67
-  - Moves: Water Gun, Withdraw, Horn Attack
-  - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
