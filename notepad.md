@@ -49,9 +49,7 @@
 - [x] Teach TM24 (Thunderbolt) to Jolteon (VEE) [Turn 31132]
 - [x] Evolve Nidorina (QUEENIE) into Nidoqueen with Moon Stone in Celadon City [Turn 31184]
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
-- [x] Catch wild Ponyta on Pokémon Mansion 1F with Ultra Ball [Turn 31386]
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
-- [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 - [x] Traded Poliwhirl (SWIRLY) for Jynx (LOLA) with Resident 2 in Cerulean City [Turn 31724]
 
 <hr>
@@ -457,7 +455,8 @@
 - West-Central Corridor (Cols 11..13, Rows 12..19): Northbound corridor bounded by column 9-10 stone posts on the west and column 14-15 trees on the east, connected to the north-central avenue via row 16-17 clear grass.
 - Northern Exit Gatehouse (Cols 1..3, Rows 0..2): Visually confirmed gatehouse building structure at the northwest corner of the map. Accessible via the column 2 avenue.
 - West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
-- Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 21..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 21..29). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 21..23 (tall grass) leading toward the west-central sector.
+- Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
+- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 21..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 21..29). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 21..23 (tall grass) leading toward the west-central sector.
 - Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
 - West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
 - Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
@@ -4941,10 +4940,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target 1: Pikachu (#025)
   - Hypothesis: Spawns as a rare wild encounter in Viridian Forest tall grass.
   - Sector: South-central grass patch (rows 40-41, cols 18-23).
-  - Protocol: Continuous patrol route across rows 40-41 (cols 18..23).
+  - Protocol: Continuous 10-step patrol loop across rows 40-41 (cols 19..23).
   - Capture Plan: Switch to Lola (Jynx Lv 23) -> use Lovely Kiss to induce Sleep -> throw Ultra Ball (conserves our 8 Ultra Balls).
-  - Stopping Condition / Sample Size Threshold: If Pikachu is not encountered within 30 wild trials in this sector, evaluate alternative sectors (e.g. northern forest patches) or alternative locations (e.g. Power Plant).
-  - Empirical Encounter Log (Viridian Forest Tall Grass):
+  - Empirical Sample Scope & Stopping Condition: If Pikachu is not encountered within N=30 wild trials in this specific south-central sector, restrict conclusion strictly to this sector, then evaluate other sectors (e.g. northern forest patches, rows 8-9 cols 21-23) or alternative locations (e.g. Power Plant).
+  - Empirical Encounter Log (Viridian Forest Tall Grass, South-Central Sector):
     - Trial 1 [Turn 31903]: Wild Metapod (fled)
     - Trial 2 [Turn 31908]: Wild Metapod Lv 5 (fled)
     - Trial 3 [Turn 31912]: Wild Kakuna Lv 4 (fled)
@@ -4955,6 +4954,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
   - Verification: NPC trade offer empirically verified in Cinnabar Lab Meeting Room [Turn 31218: Old man offers his Electrode for a Raichu].
+  - Thunder Stone Acquisition & Funding Plan:
+    - Purchase location: Celadon Department Store 4F (Price: ¥2,100).
+    - Current cash on hand: ¥706 (Deficit: ¥1,394).
+    - Designated liquidation asset: Sell 2x Revive (sell price ¥750 each = ¥1,500 total, bringing cash to ¥2,206) or 1x Rare Candy (sell price ¥2,400, bringing cash to ¥3,106) at the 4F or 2F counter before purchasing the Thunder Stone. We hold 4 Revives in Bag and 5 Rare Candies (1 Bag, 4 PC).
   - Status: Prerequisite Pikachu capture pending.
+
 
 <hr>
