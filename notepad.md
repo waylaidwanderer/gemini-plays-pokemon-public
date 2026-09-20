@@ -4975,7 +4975,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Trial 14 [Turn 32066]: Wild Metapod Lv 6 (fled)
       - Trial 15 [Turn 32071]: Wild Metapod Lv 5 (fled)
       - Trial 16 [Turn 32074]: Wild Metapod Lv 5 (fled)
-      - Trial 17 [Turn 32076]: Wild Pikachu Lv 3 appeared! (Engaged in capture)
+      - Trial 17 [Turn 32076]: Wild Pikachu Lv 3 appeared! Caught with Ultra Ball [Turn 32090]!
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
