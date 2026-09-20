@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte (NAUTILUS) Lv 30, Aerodactyl Lv 30
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Omanyte (NAUTILUS) Lv 30, Aerodactyl (PTERA) Lv 30
 
 - Money: ¥6 [Turn 30688]
 - Pokédex: 21 Caught / 129 Seen
@@ -58,6 +58,7 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
 - [x] Infiltrate Victory Road 2F and battle Legendary MOLTRES (21 Ultra Balls exhausted; fled safely) [Turn 30607]
+- [x] Revive Helix Fossil into Omanyte (NAUTILUS) and Old Amber into Aerodactyl (PTERA) at Cinnabar Lab [Turn 30951]
 
 <hr>
 
@@ -153,7 +154,7 @@
   - HP: Full
   - Moves: Water Gun, Withdraw, Horn Attack
   - Revived from Helix Fossil at Cinnabar Lab [Turn 30898]
-- AERODACTYL (Nickname: Pending PTERA) [Lv 30, Rock/Flying]
+- AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: Full
   - Moves: Wing Attack, Agility, Supersonic
@@ -4744,7 +4745,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Nickname Omanyte as NAUTILUS [Completed Turn 30905]
 - [x] Submit OLD AMBER to scientist [Completed Turn 30922]
 - [x] Exit and re-enter Pokémon Lab to receive revived AERODACTYL into open party slot [Completed Turn 30947]
-- [ ] Nickname Aerodactyl as PTERA [In Progress]
+- [x] Nickname Aerodactyl as PTERA [Completed Turn 30951]
+
+## Quest Completion
+- Both prehistoric fossils (Helix Fossil -> Omanyte, Old Amber -> Aerodactyl) successfully revived and nicknamed!
+- Party is now at 6 members: OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30, PTERA Lv 30.
+- Pokédex updated: 21 Caught / 129 Seen.
 
 ## Party & Inventory Logistics
 - Party status: 5 members (OMEGA Lv 70, ROCKY Lv 8, DUX Lv 5, SHELDON Lv 70, NAUTILUS Lv 30), 1 open party slot ready for Aerodactyl.
