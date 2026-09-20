@@ -1590,7 +1590,7 @@
 - Approach Lawn: Open green lawn spanning cols 2..7, rows 40..45, accessible directly from the southern water channel at (2, 46).
 
 ## Fishing & Water Trials (Empirical Testing)
-- Super Rod Shoreline Trials [Turns 31609-31618]: 4 casts from northern launch apron at (2, 4) facing North into water tile (2, 3) resulted in 4x 'Not even a nibble!' (0 bites). Bite presence and encounter table remain unverified.
+- Super Rod Shoreline Trials [Turns 31609-31624]: Casts from northern launch apron at (2, 4) facing North into water tile (2, 3). Turns 31609-31618 yielded 4x 'Not even a nibble!'. Turn 31624 hooked wild SLOWPOKE (Empirically verified Route 10 Super Rod encounter!).
 
 
 <hr>
@@ -4885,7 +4885,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
   - Location: Route 10 waterway (accessible east of Cerulean City via Route 9).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS proposed by custom agent. Empirical presence of Poliwhirl in Route 10 waterway is untested.
-  - Empirical Route 10 Fishing Trials [Turns 31609-31618]: 4 consecutive casts with Super Rod from shore tile (2, 4) facing water tile (2, 3) yielded 4x 'Not even a nibble!' (0 bites / 4 trials).
+  - Empirical Route 10 Fishing Trials [Turns 31609-31624]: Cast 5 on Turn 31624 hooked wild SLOWPOKE (#079)! Route 10 water encounter verified.
 - Target 2: Goldeen (#118)
   - Status: Unverified in Route 10. Available in various Kanto waterways.
 
