@@ -4824,7 +4824,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Strategic Objectives
 - [x] Exit Cinnabar Pokémon Lab to outside Cinnabar Island [Turn 30969]
-- [ ] Cast HM02 FLY to Celadon City
+- [x] Cast HM02 FLY to Celadon City [Turn 30984]
 - [ ] Enter Celadon Pokémon Center at (41, 9)
 - [ ] Access PC:
   - Withdraw NUGGET to sell for cash
