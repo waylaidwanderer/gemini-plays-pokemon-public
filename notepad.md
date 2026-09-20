@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Money: ¥106 [Turn 32170]
+- Money: ¥8,606 [Turn 32394]
 - Pokédex: 39 Caught / 136 Seen [Turn 32303]
 
 ## Milestones
@@ -54,19 +54,16 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �¥1,500]
-4. FULL HEAL x 6
-5. MAX REVIVE x 2
-6. BICYCLE [Key Item]
-7. FULL RESTORE x 2
-8. PP UP x 1
-9. MAX ELIXER x 1
-10. HM02 [Key Item]
-11. RARE CANDY x 1
-12. GUARD SPEC. x 1
-13. MAX POTION x 1
-14. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-15. ULTRA BALL x 3
+3. FULL HEAL x 6
+4. BICYCLE [Key Item]
+5. PP UP x 1
+6. MAX ELIXER x 1
+7. HM02 [Key Item]
+8. RARE CANDY x 1
+9. GUARD SPEC. x 1
+10. MAX POTION x 1
+11. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+12. ULTRA BALL x 3
 
 ## Inventory Capacity
 - Active Bag Items: 12 / 20 capacity used.
@@ -3428,7 +3425,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Landmarks & Layout
 - Northern Dock: Wooden pier providing direct landing from Route 21 into the north edge of Cinnabar Island at columns 10-11, connecting south into row 0 [Verified Turns 13675, 13676].
 - Pokémon Mansion: Large building in northwest occupying columns 4 to 9, rows 0 to 3, with entrance door at (6, 3) [Verified Turns 13676, 13678].
-- Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Entrance door unlocked with Secret Key [Turn 14686]. Note: Storing Secret Key in PC causes entrance door to re-lock with 'The door is locked..' [Empirically verified Turns 32246, 32364].
+- Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Entrance door unlocked with Secret Key [Turn 14686]. Note: Door displays 'The door is locked..' when interacted from outside [Verified Turns 32246, 32364].
 - Thoroughfare & Connections: Eastern avenue along columns 18..19 connects southern town plaza (row 12) north to northern plaza (Gym at cols 14..18 and Mansion at cols 4..9, rows 0..3). Central northern plaza spans columns 10 to 13, rows 0 to 7.
 - Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
   - Clerk Inventory [Audited Turn 31285]:
