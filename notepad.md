@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Tangela (CRINKLES) Lv 22, Jolteon (VEE) Lv 25
-- Money: ¥10,406 [Turn 31274]
+- Money: ¥17,906 [Turn 31282]
 - Pokédex: 25 Caught / 136 Seen [Turn 31251]
 
 ## Milestones
@@ -64,7 +64,7 @@
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
-7. FULL RESTORE x9
+7. FULL RESTORE x 4
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
 9. PP UP x1
 10. MAX ELIXER x1
@@ -109,7 +109,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥10,406 [Turn 31274]
+- ¥17,906 [Turn 31282]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
