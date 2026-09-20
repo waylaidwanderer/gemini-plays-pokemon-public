@@ -27,7 +27,7 @@
   - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and dropped down to 2F (arriving at 23, 16).
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
-- Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
+- Boulder 2: Originally at (24, 10), displaced West to (23, 10) on Turn 30058.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
