@@ -4986,9 +4986,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Northwest Shutter at (9, 4-5) is CLOSED in current Switch State B.
     - Ascending staircase to 3F is clearly visible at (6, 1) inside Northwest Bedroom!
   - Master Execution Plan:
-    1. Walk south from (10, 5) to row 10, then west to (5, 10) staircase down to 1F.
-    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) to State A.
-    3. Return to 1F staircase at (5, 10) and ascend to 2F.
+    1. Walk south from (10, 5) to row 10, then west to (5, 10) staircase down to 1F. [Completed Turn 32918]
+    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) to State A. [Completed Turn 32937]
+    3. Return to 1F staircase at (5, 10) and ascend to 2F. [CURRENT STEP]
     4. On 2F, walk north into North Hall, pass through now-OPEN Northwest Shutter at (9, 4-5).
     5. Enter Northwest Bedroom and step onto ascending staircase at (6, 1) to reach 3F.
     6. On 3F Northwest Starting Chamber, activate statue switch at (10, 4-5) to State B.
