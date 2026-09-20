@@ -11,6 +11,6 @@
 - TM28 DIG: Diglett (DIGBY) - dungeon exit / emergency escape to warp anchor
 
 ## Mechanics & Findings
-- Warp Anchor: Dig warps to the last Pok�mon Center where Nurse Joy healed the party.
+- Warp Anchor: Dig warps to the last Pokémon Center where Nurse Joy healed the party.
 - Seafoam lower floor water currents block Surfing until boulders are dropped through holes to create a dam.
 - Signposts: (9, 15) 'Boulders might change the flow of water!'; (23, 1) 'DANGER / Fast current!'.
