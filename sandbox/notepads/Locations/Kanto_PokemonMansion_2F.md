@@ -58,11 +58,11 @@
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: North approach via row 8 is blocked by wall at (24-25, 8) and chute (28, 7) is a dead end. Passage into Southeast Chamber remains to be audited via the southern approach through open Shutter (18-19, 8) along rows 14-16. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
+- Access Investigation: North approach via row 8 is blocked by wall at (24-25, 8) and chute (28, 7) is a dead end. Passage into Southeast Chamber remains to be audited via the southern approach through open Shutter (18-19, 8) along rows 14-16. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
 - Ponyta (Lv 28-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 23 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 35 observed encounters; B1F survey recommended if not found here.

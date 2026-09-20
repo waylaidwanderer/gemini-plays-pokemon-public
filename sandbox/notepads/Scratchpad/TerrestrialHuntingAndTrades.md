@@ -13,8 +13,7 @@
   - Resources: 6 Ultra Balls in Bag
   - Switch Status: Switch State B is ALREADY ACTIVE (toggled Turn 32780). Shutter (18-19, 8) on 2F and East Shutter (15, 10-11) on 3F are OPEN.
   - Execution Plan:
-    1. Flee wild battle on 1F (12, 6) and return west to (5, 10) staircase up to 2F.
-    2. On 2F, walk east past row 10 into Eastern Main Wing, pass through open Shutter at (18-19, 8) into Central-South Corridor (cols 18-22, rows 11-16).
+    1. Pass through open Shutter at (18-19, 8) into Central-South Corridor (cols 18-22, rows 11-16) [Completed Turn 32876].
     3. Explore south along rows 14-16 to locate the connecting eastward passage into the Southeast Chamber (cols 23-28, rows 9-16).
     4. Ascend staircase at (25, 14) to 3F.
     5. On 3F, with State B active, East Shutter at (15, 10-11) is already open; enter Southern Balcony Chamber and drop down West Gap at (17, 14) to 1F enclosed chamber.
