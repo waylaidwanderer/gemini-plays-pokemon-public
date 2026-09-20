@@ -3569,6 +3569,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rubble barrier at columns 14-17 (rows 12-14) and column 22 (rows 10-14).
 - Column 20-21 corridor continues unobstructed south past row 14.
 - Drop Landing Tile: Landing at (18, 14) facing Down occurs when stepping off 3F balcony gap at (19, 14) [Verified Turn 14421].
+- Corridor Barrier Survey [Turn 32652]: Direct visual audit of rows 7-15 across columns 15-24 confirmed column 22 is unbroken solid rubble from row 8 through row 15. Column 23 has rubble at rows 14-15 with row 16 being the solid south wall. Columns 18-21 (rows 11-15) are a dead end to the south and east with zero ground-level connection into the Southeast Chamber.
 
 ## Southeast Staircase Chamber (cols 23-28, rows 9-16)
 - Staircase up to 3F located at (25, 14) [Verified Turn 13868].
