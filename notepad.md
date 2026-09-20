@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Slowpoke (pending) Lv 15 (6 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Slowpoke (DOPEY) Lv 15 (6 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 30 Caught / 136 Seen [Turn 31637]
 
@@ -120,7 +120,7 @@
 - ¥3,506 [Turn 31292]
 
 ## Party Pokémon
-- SLOWPOKE (Nickname: pending) [Lv 15, Water/Psychic]
+- SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
