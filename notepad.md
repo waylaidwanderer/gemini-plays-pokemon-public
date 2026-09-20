@@ -74,10 +74,10 @@
 6. BICYCLE [Key Item]
 7. FULL RESTORE x9
 8. RARE CANDY x1 [Collected VR 1F (9, 2) Turn 30434]
-(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, GUARD SPEC. x1)
+(Remaining lower items: PP UP x1, MAX ELIXER x1, CARBOS x1, HP UP x1, HM02, GUARD SPEC. x1, HELIX FOSSIL [Key Item])
 
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+- Active Bag Items: 15 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -110,7 +110,6 @@
 - ELIXER x1 (PC) [Stored Turn 6588]
 - TM34 (BIDE) x1 (PC)
 - TM12 (WATER GUN) x1 (PC)
-- HELIX FOSSIL x1 (PC)
 - TOWN MAP x1 (PC)
 
 ## Money
@@ -4721,8 +4720,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Strategic Objectives
 - [x] At Indigo Plateau PC: Deposit SANDMAN into Box 1 [Completed Turn 30640]
 - [x] At Indigo Plateau PC: Deposit DIGBY into Box 1 [Completed Turn 30646]
-- [ ] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [In Progress Turn 30646]
-- [ ] Exit Indigo Plateau lobby to exterior map (9, 6) [Pending]
+- [x] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Completed Turn 30654]
+- [ ] Exit Indigo Plateau lobby to exterior map (9, 6) [In Progress Turn 30654]
 - [ ] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Pending]
 - [ ] In Pewter City, navigate north to Museum side entrance, use Cut with Farfetch'd to bypass tree obstacle, and obtain OLD AMBER from scientist [Pending]
 - [ ] Cast HM02 FLY to travel to Cinnabar Island [Pending]
