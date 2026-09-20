@@ -3731,7 +3731,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West Wing fully surveyed: B1F exploration 100% complete!
 
 ## Wild Encounters (Verified Species & Level Bands)
-- Encounter Trial Tracker (Total B1F Encounters Observed: 5):
+- Encounter Trial Tracker (Total B1F Encounters Observed: 6):
+  - Ponyta: 1 encounter [Turn 33057 at (24, 25) - ACTIVE FLEE]
   - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
   - Grimer (Lv 33): 2 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25)]
   - Vulpix (Lv 33-35): 2 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25)]
