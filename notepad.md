@@ -15,56 +15,25 @@
 
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
-
 - [x] Receive Starter Pok��mon from Professor Oak (Squirtle) [Turn 40]
 
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 
 - [x] Reach Viridian City via Route 1 [Turn 132]
 
-
-
 - [x] Obtain Pok��dex from Prof. Oak [Turn 214]
-
-
-
 
 - [x] Reach Pewter City [Turn 495]
 
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
 
-
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 
-
-
 - [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
-
-
-
-- [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
-
-
-
-
-
-- [x] Obtain Bike Voucher from Pok��mon Fan Club Chairman in Vermilion City [Turn 2796]
-
-
-
 
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 
 - [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
-
-
-
-
-- [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
-
-
-
-
 
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
 - [x] Rescue Mr. Fuji from Pok�mon Tower and obtain Pok� Flute in Lavender Town [Turn 6599]
@@ -74,11 +43,9 @@
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
-- [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
-- [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
 - [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
@@ -1496,7 +1463,7 @@
 - **Designated User:** Geodude (ROCKY).
 - **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
-- **Strength Persistence Across Wild Battles:** In retail Generation 1 Pokémon, encountering and fleeing from a wild Pokémon battle does NOT reset the active status of HM04 Strength. Strength remains active in the overworld after battle, allowing boulders to continue being pushed without re-casting from the menu [Empirically verified Turns 30048-30058 on Victory Road 3F].
+- **Strength Status Reset on Battles and Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength. Furthermore, entering any wild or trainer battle resets temporary overworld field move flags including Strength, requiring HM04 Strength to be re-cast from the party Pokémon menu before boulders can be pushed [Empirically verified Turns 30422, 30460, 30472].
 
 <hr>
 
@@ -3906,7 +3873,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Central Terrace: Rows 12-14 connect west across row 12 into column 13-14 terrace avenue (rows 8-14). Row 8 northern edge is an impassable elevation cliff separating the terrace from the lower Moltres chamber (row 7) [Empirically verified Turn 30183]. Plateau Barrier at (7, 8)-(7, 9) is raised and impassable [Empirically verified Turn 30186].
   - Moltres Chamber Topology: Moltres is stationed at (11, 5) on the main lower cavern floor (rows 4-7, cols 9-13). Rows 4-7 are bounded south by row 8 cliff, west by col 8 wall, and east by col 14 wall, opening north into rows 0-3 [Visually verified Turn 30188]. Direct ground routing from Ladder (23, 7) remains an active hypothesis under investigation.
 - Boulders & Switch Plates:
-  - Boulder 3 on Switch Plate A (1, 16) permanently lowers Plateau Barrier at (7, 8)-(7, 9) [Turn 24199].
+  - Boulder 3 on Switch Plate A (1, 16): Temporarily lowers Plateau Barrier at (7, 8)-(7, 9) for current session (resets upon leaving/reloading 2F).
+  - Negative Collision at (1, 13): Solid rock wall blocks north-to-south pushing along column 1; pushing boulder west along row 14 to (1, 14) traps it in corner [Verified Turn 30459].
+  - Verified Displacement Sequence [Solved Turn 30476]:
+    1. Player moves to (5, 14), faces West, and pushes boulder west along row 14 from (4, 14) to (3, 14).
+    2. Player loops via (4, 13) to (3, 13), faces South, and pushes boulder south along col 3: (3, 14) -> (3, 15) -> (3, 16).
+    3. Player loops via (4, 15) to (4, 16), faces West, and pushes boulder west along row 16: (3, 16) -> (2, 16) -> (1, 16) directly onto Switch Plate A! Switch depressed, lowering Plateau Barrier at (7, 8)-(7, 9)!
   - Boulder from 3F dropped through Pit Hole (23, 15) down to 2F at (23, 16). Pushed onto Switch Plate B at (9, 16) [Turn 24445], temporarily lowering Barrier Block at (23, 14) for the current session (resets upon leaving/re-entering 2F) and opening access to Exit Ladder at (25, 14).
 - Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East exits onto Route 23 North at (14, 31) [Turn 24494].
 
@@ -4779,14 +4751,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Quest Log: Legendary Fire Bird Moltres & Victory Road 2F
 
 ## Active Strategic Objectives
-- [x] HM04 Strength active on Victory Road 1F [Cast Turn 30364 by ROCKY]
-- [x] Ride west along Route 22 to Pokémon League Reception Gate [Turn 30325]
-- [x] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17) [Turn 30356]
 - [x] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8) [Completed Turn 30447]
 - [x] Solve Switch Plate A puzzle: pushed Boulder (4, 14) south to row 16, then west onto Switch Plate A (1, 16), lowering Plateau Barrier at (7, 8)-(7, 9) [Completed Turn 30476]
 - [ ] Ascend wooden staircase (5, 10) onto plateau (5, 9), walk east across lowered barrier (7, 8)-(7, 9) into eastern sector
 - [ ] Traverse Column 16 Highway north to Row 1, walk west to Moltres at (11, 5)
-- [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
