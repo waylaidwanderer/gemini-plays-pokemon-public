@@ -4963,7 +4963,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Trial 7 [Turn 31976]: Wild Caterpie Lv 4 (fled)
     - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5):
       - Trial 8 [Turn 32003]: Wild Weedle Lv 3 (fled)
-      - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (battle active)
+      - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (fled)
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
@@ -4973,6 +4973,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Current cash on hand: ¥706 (Deficit: ¥1,394).
     - Designated liquidation asset: Sell 2x Revive (sell price ¥750 each = ¥1,500 total, bringing cash to ¥2,206) or 1x Rare Candy (sell price ¥2,400, bringing cash to ¥3,106) at the 4F or 2F counter before purchasing the Thunder Stone. We hold 4 Revives in Bag and 5 Rare Candies (1 Bag, 4 PC).
   - Status: Prerequisite Pikachu capture pending.
-
 
 <hr>

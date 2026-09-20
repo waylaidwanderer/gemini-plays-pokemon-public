@@ -28,7 +28,7 @@
       - Trial 7 [Turn 31976]: Wild Caterpie Lv 4 (fled)
     - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5):
       - Trial 8 [Turn 32003]: Wild Weedle Lv 3 (fled)
-      - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (battle active)
+      - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (fled)
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
