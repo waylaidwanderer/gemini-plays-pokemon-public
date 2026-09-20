@@ -43,8 +43,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Walkways: Main aisle across row 2; vertical aisle across cols 10..11; lower aisle along row 5.
 - NPCs:
   - Shopper at (16, 5).
-  - Youngster wandering aisle across row 2 (cols 7..10) [Verified Turn 31106].
-
+  
 ## 5F: Drug Store
 - Stairs down to 4F: Located at (16, 1).
 - Floor Sign: Located at (14, 1) on north wall (unprobed).
