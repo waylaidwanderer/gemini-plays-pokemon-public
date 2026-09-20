@@ -57,8 +57,7 @@
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Traverse Seafoam Islands B4F and battle Legendary ARTICUNO (54 Ultra Balls exhausted; fled safely) [Turn 29975]
-- [ ] Infiltrate Victory Road 2F and capture Legendary MOLTRES
-
+- [x] Infiltrate Victory Road 2F and battle Legendary MOLTRES (21 Ultra Balls exhausted; fled safely) [Turn 30607]
 
 <hr>
 
@@ -4728,7 +4727,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascend wooden staircase (5, 10) onto plateau (5, 9) and cross lowered barrier (7, 8)-(7, 9) into eastern sector [Turn 30483]
 - [x] On 3F, traverse Northern Highway (rows 0-1) west to Northwest Ladder (2, 0) [Completed Turn 30524]
 - [x] Descend to 2F Northwest Chamber (1, 1) and walk east across rows 1-3 straight to Moltres at (11, 5) [Completed Turn 30530]
-- [ ] Weaken Moltres with Swift and capture with Ultra Balls [In Progress Turn 30530]
+- [x] Weaken Moltres with Swift and battle with Ultra Balls [Concluded Turn 30607: 21 Ultra Balls exhausted; fled safely]
 
 ## Party Preparation & Tactics (Audited Turn 30066)
 - Wild Moltres Lv 50 Moves: Peck (Flying physical STAB, 35 power), Fire Spin (Fire special trapping, 15 power).

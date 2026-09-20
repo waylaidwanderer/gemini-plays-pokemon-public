@@ -6,7 +6,7 @@
 - [x] Ascend wooden staircase (5, 10) onto plateau (5, 9) and cross lowered barrier (7, 8)-(7, 9) into eastern sector [Turn 30483]
 - [x] On 3F, traverse Northern Highway (rows 0-1) west to Northwest Ladder (2, 0) [Completed Turn 30524]
 - [x] Descend to 2F Northwest Chamber (1, 1) and walk east across rows 1-3 straight to Moltres at (11, 5) [Completed Turn 30530]
-- [ ] Weaken Moltres with Swift and capture with Ultra Balls [In Progress Turn 30530]
+- [x] Weaken Moltres with Swift and battle with Ultra Balls [Concluded Turn 30607: 21 Ultra Balls exhausted; fled safely]
 
 ## Party Preparation & Tactics (Audited Turn 30066)
 - Wild Moltres Lv 50 Moves: Peck (Flying physical STAB, 35 power), Fire Spin (Fire special trapping, 15 power).
