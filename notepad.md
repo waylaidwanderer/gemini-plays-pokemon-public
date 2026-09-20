@@ -3860,6 +3860,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     5. Player steps to (16, 15), faces North, and pushes Boulder 1 north along col 16: (16, 14) -> (16, 13) -> (16, 12) onto Row 12.
     6. Player loops via (15, 12), pushes Boulder 1 East into (17, 12), loops to (17, 11), and pushes South onto Switch Plate at (17, 13) [Solved Turn 30397]. Switch depressed, lowering Plateau Barrier Block at (9, 12)!
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
+- Boulder 3 (Northern Trench Boulder): Initial position at (14, 2). Pushed West along row 2 into (11, 2), then pushed North into (11, 1) alcove to permanently open row 2 highway west toward Ladder (1, 1) [Turns 30430-30431].
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
 
