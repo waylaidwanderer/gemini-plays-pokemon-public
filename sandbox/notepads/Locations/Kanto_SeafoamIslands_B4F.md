@@ -36,4 +36,4 @@
 ## Legendary Bird Articuno Sighting & Platform (Turn 29735)
 - Platform: Dry cavern terrace across cols 5..10, rows 0..2.
 - Access: Wooden dock stairs at (7, 3) connecting water at (7, 4) up to terrace at (7, 2).
-- Entity: Stationary Legendary Bird ARTICUNO located at (6, 1).
+- Entity: Stationary Legendary Bird ARTICUNO located at (6, 1) [Encountered Turn 29745, fled Turn 29975; sprite permanently despawned].
