@@ -28,18 +28,15 @@
 
 
 
-- [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 
 - [x] Reach Pewter City [Turn 495]
 
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
 
-- [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
 
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 
 
-- [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
 
 - [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
 
@@ -48,7 +45,6 @@
 - [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
 
 
-- [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
 
 
 
@@ -68,13 +64,9 @@
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 
 
-- [x] Traverse Route 9 and reach Route 10 [Turn 4517]
 
-- [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
 
-- [x] Arrive in Lavender Town [Turn 4839]
 
-- [x] Enter Celadon City via Route 7 [Turn 5434]
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
@@ -88,20 +80,17 @@
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
-- [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
-- [x] Arrive at Indigo Plateau and enter Pok�mon League Headquarters [Turn 24505]
 - [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
 - [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
 - [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
 - [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
 - [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
-- [x] Enter Cerulean Cave post-Champion induction [Turn 25505]
 - [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
 - [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
@@ -3830,7 +3819,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Water Lake Channel: Open water extends north from row 103 through row 99 between boundary posts at (7, 99) and (14, 99).
 - Row 92 Barrier: Brown wall/statues span columns 7..10 across the water, with open water bypass channels on the east (cols 11..13) and west (col 6).
 - Central Lawn Island: Rows 90..91, cols 8..9 feature a green lawn island bounded by walls at col 10 and ledge at col 7, surrounded by water.
-- Mid-Lake Island: Rows 80..81, cols 8..12 feature a small island/statue peninsula; wide open water resumes north of row 80 spanning cols 3..12+.
+- Mid-Lake Island: Rows 80..83 feature an island with solid dirt bank across cols 9..13 at row 83 blocking northbound surfing [Turn 30348]. Bypass route: surf west along row 84 to column 6, then head north through wide open water (cols 2..7) spanning north of row 80.
 - West Barrier Structure: Rows 73..75, cols 3..5 feature brown walls and a statue at (5, 73); open water channel continues north through cols 6..12+.
 - Northern Shoreline & Mountain Divider: Row 72 marks the north end of the lake. Cols 6-7 rows 68..71 form a solid mountain cliff dividing the western walkway from the eastern grass field. Landing onto land occurs via the eastern grass field at cols 8..12 (e.g. col 9).
 - Northern Sector Grass Field: Land dismount successfully verified at (9, 71). Lawn spans cols 8..13 across rows 71..68; mountain cliff blocks cols 6-7 (ends at row 68); rock block at (11, 67).
@@ -3867,7 +3856,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate: Located at (17, 13) in eastern wing.
 - Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau. Lowered/removed by placing Boulder 1 on switch plate at (17, 13) [Verified Turn 15465].
 - Plateau Access: Stairs/ladder at (5, 13) connects lower floor (5, 14) to elevated plateau (5, 12).
-- Boulder 1 (Entrance Boulder): Solved [Turn 23980]. Pushed onto switch plate at (17, 13) via Row 16, Row 14, and Row 12, depressing the switch and permanently lowering Plateau Barrier Block at (9, 12).
+- Boulder 1 (Entrance Boulder): Resets to (5, 15) upon entering/reloading 1F. Pushing onto switch plate at (17, 13) via Row 16, Row 14, and Row 12 temporarily lowers Plateau Barrier Block at (9, 12) for the current session. Plateau Barrier Block is raised by default on map load [Verified Turn 30356].
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
@@ -4789,7 +4778,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [ ] Ride west along Route 22 to Pokémon League Reception Gate
 - [ ] Pass through Reception Gate and traverse Route 23 South to Victory Road 1F entrance (8, 17)
 - [ ] Enter Victory Road 1F, solve Boulder 1 puzzle to lower barrier (9, 12), and take Ladder (1, 1) to 2F (0, 8)
-- [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and investigate passage to Moltres at (11, 5)
+- [ ] From 2F (0, 8), navigate north toward Northwest Chamber (4, 2) and empirically test unverified hypothesis: whether an open eastward corridor connects (4, 2) across rows 0-3 to (13, 3) and Moltres at (11, 5)
 - [ ] Weaken Moltres with Swift and capture with Ultra Balls
 
 ## Party Preparation & Tactics (Audited Turn 30066)
@@ -4805,8 +4794,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Capture Protocol:
     - Primary: Use Mewtwo's Swift (non-crit 44-62 HP, crit max 118 HP vs Moltres Def 100-120, max HP 150-165) 1-2 times to safely weaken Moltres to yellow/red HP with 0% risk of 1HKO.
     - Sustain: Deploy Barrier (+2 Def) to tank Peck and Recover (100% first-move sustain with 195 Speed), throwing Ultra Balls each turn.
-    - Optional Status Risk/Reward: Blastoise's Body Slam has a 30% Paralysis rate. Non-crit deals 61-86 HP (safe), but critical hit (15.2% chance) deals 138-165 HP (risks 1HKO). If attempting Body Slam for Paralysis, only use when Moltres is at 100% HP and accept crit risk; otherwise stick strictly to Mewtwo Swift weakening + Ultra Ball attrition.
-- Blastoise (SHELDON Lv 70): Emergency tank (resists Fire Spin). Do NOT attack with Body Slam (crit risks 1HKO at 165 HP).
+- Blastoise (SHELDON Lv 70): Emergency defensive tank (resists Fire Spin). Do NOT attack with Body Slam (crit risks lethal 1HKO on Moltres). Capture protocol relies strictly on Mewtwo Swift weakening + Ultra Ball attrition.
 - Drowzee (SANDMAN Lv 9): Do NOT switch in (instantly faints to Moltres STAB).
 - Ultra Ball Arsenal: 21 Ultra Balls ready in Bag.
 - Geodude (ROCKY Lv 8): Active Strength user for boulder clearance.
