@@ -25,4 +25,4 @@
 | 9 | MUK (#089) | 40 | (6, 8) | Turn 32486 | Fled (Duplicate species) |
 | 10 | PONYTA (#077) | 32 | (7, 8) | Turn 32491 | Fled (Duplicate species) |
 | 11 | GRIMER (#088) | 35 | (7, 9) | Turn 32495 | Fled (Duplicate species) |
-| 12 | GRIMER (#088) | ? | (8, 9) | Turn 32498 | In Progress (Turn 32498) |
+| 12 | GRIMER (#088) | 35 | (8, 9) | Turn 32498 | Fled (Duplicate species) |

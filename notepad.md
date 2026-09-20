@@ -3576,7 +3576,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 32-36) [Uncommon]
 - Koffing (Lv 34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 11 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 12 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
@@ -4985,6 +4985,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 9 | MUK (#089) | 40 | (6, 8) | Turn 32486 | Fled (Duplicate species) |
 | 10 | PONYTA (#077) | 32 | (7, 8) | Turn 32491 | Fled (Duplicate species) |
 | 11 | GRIMER (#088) | 35 | (7, 9) | Turn 32495 | Fled (Duplicate species) |
-| 12 | GRIMER (#088) | ? | (8, 9) | Turn 32498 | In Progress (Turn 32498) |
+| 12 | GRIMER (#088) | 35 | (8, 9) | Turn 32498 | Fled (Duplicate species) |
 
 <hr>
