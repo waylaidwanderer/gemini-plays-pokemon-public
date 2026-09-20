@@ -20,7 +20,7 @@
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Staircase to 3F: Located at (6, 1) in northwest bedroom.
+- Northwest Bedroom (cols 0-8, rows 0-9): Audited Turn 32517-32521: Tile (6, 1) is ordinary floor with north boundary wall at (6, 0); no ascending staircase exists at (6, 1).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)

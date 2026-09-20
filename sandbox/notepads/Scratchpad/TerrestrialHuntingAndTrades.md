@@ -5,11 +5,12 @@
   - Target Species: Vulpix (#037 on 2F), Magmar (#126 on B1F), Weezing (#110 on B1F)
   - Completed Mansion Captures: Muk (#089 Lv 37 SLUDGE), Grimer (#088 Lv 30 GOOP), Koffing (#109 Lv 34 SMOGGY)
   - Location: Pokémon Mansion (Currently 2F; survey B1F after Vulpix)
-  - Party Status: 6/6 (Box 2: 6/20 used, 14 free slots)
+  - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
   - Execution Plan:
-    1. Flee duplicate Ponyta and continue 2F patrol for wild Vulpix (#037).
-    2. After capturing Vulpix, descend to B1F to hunt for wild Magmar (#126) and Weezing (#110).
+    1. Explore 2F East Wing to access 3F stairs.
+    2. Ascend to 3F, drop down western balcony gap to 1F enclosed chamber, descend to B1F.
+    3. Capture Magmar (#126) and Weezing (#110).
 
 ### Pokémon Mansion 2F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
