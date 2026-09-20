@@ -4694,6 +4694,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Contains signposts, water channels, docks, and ladder connections.
 
 ## Key Landmarks & Layout
+- Southwest Ladder: Located at (5, 12) in the southwest corridor (cols 1..6, rows 11..12). Connects vertically to upper/lower elevation [Discovered Turn 29514].
 - Ladder (NE): Located at (25, 4) [Sighted Turn 29244]. Ascending ladder mounted against northern rock barrier.
 - Signpost (NE): Located at (23, 1) [Inspected Turn 29253]. Text: 'DANGER / Fast current!'
 - Northern Dock: Wooden stairs at (23, 5), enters water channel at (23, 6) [Sighted Turn 29244].
