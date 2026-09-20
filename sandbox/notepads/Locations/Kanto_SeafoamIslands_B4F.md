@@ -28,3 +28,4 @@
 - Psyduck (Lv 30) [Encountered Turn 29464]
 - Staryu [Encountered Turn 29202].
 - Seel (Lv 31) [Encountered Turn 29420].
+- Staryu (Lv 31) [Encountered Turn 29649].

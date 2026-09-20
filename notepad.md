@@ -4669,6 +4669,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Psyduck (Lv 30) [Encountered Turn 29464]
 - Staryu [Encountered Turn 29202].
 - Seel (Lv 31) [Encountered Turn 29420].
+- Staryu (Lv 31) [Encountered Turn 29649].
 
 <hr>
 
