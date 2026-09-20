@@ -4831,7 +4831,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Heal team at Cinnabar Pokémon Center (cure Mewtwo FRZ, restore HP/PP) [Turn 29983]
 - [x] Sell Nugget at Cinnabar Poké Mart for ¥5,000 (Wallet: ¥25,256) [Turn 29990]
 - [x] Purchase 21 Ultra Balls (¥1,200 each, total ¥25,200) [Turn 29994]
-- [ ] Fly to Indigo Plateau / Victory Road via Farfetch'd (DUX)
+- [x] Fly to Indigo Plateau via Farfetch'd (DUX) [Turn 30006]
+- [ ] Enter Victory Road 2F via Route 23 North cave entrance at (14, 31)
 - [ ] Infiltrate Victory Road 2F and navigate to Moltres plateau (previously sighted Turns 15533, 16069, 17798, 19831)
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
@@ -4844,6 +4845,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Farfetch'd (DUX Lv 5): Transport (Fly).
 - Geodude (ROCKY Lv 8): Boulder clearing (Strength).
 - Diglett (DIGBY Lv 19): Cave extraction (Dig).
-
 
 <hr>
