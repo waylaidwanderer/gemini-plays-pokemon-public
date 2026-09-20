@@ -65,3 +65,5 @@
 - Boulder Puzzle Progress (Turns 29707-29717):
   - Pit Hole 1 at (3, 16): FILLED! Boulder 1 pushed south from (3, 15) into hole [Turn 29707].
   - Boulder 3: Displaced from (8, 14) -> (8, 15) -> (7, 15) -> (6, 15) [Turns 29715-29717]. Perfectly aligned directly north of Pit Hole 2 (6, 16). Looping to (6, 14) to push it down into hole.
+  - Pit Hole 2 at (6, 16): FILLED! Boulder 3 pushed south from (6, 15) into hole [Turn 29724].
+  - PUZZLE SOLVED: Both boulders dropped through B3F pit holes (3, 16) and (6, 16) to dam the B4F rapid currents.
