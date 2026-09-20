@@ -3733,7 +3733,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Wild Encounters (Verified Species & Level Bands)
 - Encounter Trial Tracker (Total B1F Encounters Observed: 8):
-  - Muk: 1 encounter [Turn 33067 at (22, 26) - ACTIVE FLEE]
+  - Muk (Lv 40): 1 encounter [Turn 33067 at (22, 26)]
   - Ponyta (Lv 32): 1 encounter [Turn 33057 at (24, 25)]
   - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
   - Grimer (Lv 33): 3 encounters [Turn 33020 at (25, 26), Turn 33023 at (25, 25), Turn 33063 at (22, 26)]
