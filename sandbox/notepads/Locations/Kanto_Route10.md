@@ -40,3 +40,6 @@
 - Power Plant Building: Facade across rows 38..39 with yellow windows. Front entrance door located at (6, 39).
 - Exterior Signpost: Located at (5, 41) on the front lawn.
 - Approach Lawn: Open green lawn spanning cols 2..7, rows 40..45, accessible directly from the southern water channel at (2, 46).
+
+## Fishing & Water Trials (Empirical Testing)
+- Super Rod Shoreline Trials [Turns 31609-31618]: 4 casts from northern launch apron at (2, 4) facing North into water tile (2, 3) resulted in 4x 'Not even a nibble!' (0 bites). Bite presence and encounter table remain unverified.
