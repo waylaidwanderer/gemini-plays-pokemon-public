@@ -10,7 +10,7 @@
   - Empirical Sample Scope & Methodology:
     - Comparative Sector Survey: Rather than rigid single-sector N=30 saturation, conduct comparative exploratory surveys across distinct forest sectors (Sector A: Avenue Corridor, Sector B: South-Central Field, Sector C: Southwest Grass Pocket) to observe species distributions and encounter frequencies.
     - Sector B paused at N=4 trials (1 Metapod, 3 Caterpie) after low encounter yield (~1 encounter per 14 turns) to evaluate Sector C.
-    - Sector C Target: Conduct comparative sample of N=10 trials in Southwest Grass Pocket (cols 1-5, rows 40-43) before evaluating northern corridor sectors (rows 8-9).
+    - Sector C paused at N=6 trials after extended encounter dry spell (135+ steps). Transitioning to Sector D (Northern Grass Patches, rows 8-9, cols 21-23) to survey northern forest distribution.
   - Operational Capture Protocol:
     - With only 8 Ultra Balls held, balls must be conserved.
     - Turn 1: Switch to Lola (Jynx Lv 23, Slot 6).
