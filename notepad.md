@@ -4793,7 +4793,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Access PC:
   - [x] Withdraw NUGGET to sell for cash [Turn 31009]
   - [x] Deposit 1 party Pokémon (NAUTILUS) into PC Box 1 [Turn 31003]
-- [ ] Navigate behind Celadon buildings via eastern gap (cols 44..45) to northern rooftop corridor (rows 4..5)
+- [x] Navigate behind Celadon buildings via eastern gap (cols 44..45) to northern rooftop corridor (rows 4..5) [Turn 31013]
 - [ ] Enter Celadon Mansion back door and climb to rooftop penthouse
 - [ ] Take Poké Ball on table to receive EEVEE (Lv 25) and nickname it
 - [ ] Visit Celadon Department Store:
