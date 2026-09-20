@@ -78,7 +78,7 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 5 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539]
+17. ULTRA BALL x 4 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539, 1 used on Slowpoke Turn 31626]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
