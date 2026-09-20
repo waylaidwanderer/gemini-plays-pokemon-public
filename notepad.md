@@ -5,9 +5,9 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party, 1 open slot)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Psyduck Lv 15 (6 in party)
 - Money: ¥3,506 [Turn 31292]
-- Pokédex: 27 Caught / 136 Seen [Turn 31428]
+- Pokédex: 28 Caught / 136 Seen [Turn 31502]
 
 ## Milestones
 
@@ -51,6 +51,7 @@
 - [x] Traded Venonat (RADAR) for Tangela (CRINKLES) at Cinnabar Lab [Turn 31235]
 - [x] Catch wild Ponyta on Pokémon Mansion 1F with Ultra Ball [Turn 31386]
 - [x] Traded Ponyta (BLAZE) for Seel at Cinnabar Lab [Turn 31425]
+- [x] Catch wild Psyduck in Cerulean Gym pool with Ultra Ball [Turn 31502]
 
 
 <hr>
@@ -76,7 +77,7 @@
 14. GUARD SPEC. x 1
 15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 7 [Purchased Cinnabar Poké Mart Turn 31292]
+17. ULTRA BALL x 6 [Purchased Cinnabar Poké Mart Turn 31292]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
@@ -148,6 +149,9 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- PSYDUCK (Nickname: pending) [Lv 15, Water]
+  - Status: Healthy
+  - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
 
 ## PC Box 1 Pokémon
 - SEEL (Nickname: SAILOR) [Lv 32, Water]
