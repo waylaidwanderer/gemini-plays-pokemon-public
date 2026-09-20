@@ -2,7 +2,7 @@
 
 ## Bag Items
 1. POKé FLUTE [Key Item]
-2. MAX POTION x 1
+2. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177, swapped to Slot 2 Turn 31561]
 3. REVIVE x 4
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
@@ -15,7 +15,7 @@
 12. HM02 [Key Item]
 13. RARE CANDY x 1
 14. GUARD SPEC. x 1
-15. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
+15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
 17. ULTRA BALL x 5 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539]
 

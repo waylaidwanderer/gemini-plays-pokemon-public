@@ -890,11 +890,11 @@
   - Resident 1 at (5, 4): Kid in blue overalls.
   - Resident 2 at (1, 2): Trader (offers JYNX for player's POLIWHIRL).
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
-- Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKÃ©" sign at (20, 17).
+- Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
     - PC Terminal: Located on east wall at (13, 3..4). Accessible by standing at (13, 4) facing North at monitor (13, 3), or at (12, 3) facing East.
-- Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKÃ©MON GYM / LEADER: MISTY".
-- Central pool spanning rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounters verified via Super Rod: Psyduck (Lv 15, Turn 31489) and Krabby (Turn 31536).
+- Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
+  - Central pool: Spans rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounters verified: Psyduck (Lv 15, Turn 31489) and Krabby (Lv 15, Turn 31536).
   - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
   - Gym Trainers:
     - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
@@ -902,7 +902,7 @@
     - Gym Leader Misty at (4, 2): Staryu Lv 18 (408 EXP), Starmie Lv 21 (931 EXP). Prize: ¥2079, CASCADEBADGE, TM11 (BUBBLEBEAM). Defeated Turn 2077.
 - Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
-  - Catalog Items: POKÃ© BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
+  - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
 - Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North. Backyard path along rows 8..9 dead-ends east against trees at col 34; the true transit corridor turns south down Column 33 through rows 10..15 to access the Route 9 entrance [Verified Turn 28489].
 - Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the Poké Mart (cols 24..27).
 
@@ -4864,6 +4864,31 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - `CANCEL`
 - Pressing A on `DEPOSIT` confirms the deposit and stores the Pokémon into the active box.
 - Pressing B dismisses the sub-menu without depositing [Empirically verified Turn 31307].
+
+
+<hr>
+
+<h1><code>Scratchpad/FishingAndTrades</code></h1>
+
+# Scratchpad: Fishing & In-Game Trade Planning
+
+## Active Hypotheses & Targets
+- Target 1: Poliwhirl (Lv 23)
+  - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
+  - Location: Route 10 waterway (east of Cerulean City via Route 9). Recommended by postgame_planner agent [Turn 31472].
+  - Note: Cerulean Gym pool yielded exclusively Lv 15 Psyduck (caught #054) and Lv 15 Krabby (caught #098). Poliwhirl does not spawn in the gym pool.
+- Target 2: Goldeen (#118)
+  - Available in Route 10 / Route 24 / Route 25 waterways via Super Rod.
+
+## Party Logistics Strategy
+1. Swap Super Rod to Bag Slot 2 using Select.
+2. Inspect Psyduck (MIGRAINE) stats from Start menu and record in Inventory.md.
+3. Exit Cerulean Gym to Cerulean City.
+4. Visit Cerulean Pokémon Center (19, 17).
+5. Access Bill's PC and deposit 1 Pokémon (party size 5/6).
+6. Travel to Route 10 waterway to fish for Lv 23 Poliwhirl with Super Rod.
+7. Catch Poliwhirl directly into party (6/6).
+8. Return to Cerulean Northwest House (13, 15) and complete Jynx trade without PC detour.
 
 
 <hr>
