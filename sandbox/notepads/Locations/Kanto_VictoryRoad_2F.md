@@ -27,7 +27,7 @@
 - Exit Doorway to Route 23 North: Located at (29, 7) in the eastern chamber. Stepping East exits onto Route 23 North at (14, 31) [Turn 24494].
 
 ## Legendary Pokémon
-- Moltres: Legendary bird sprite located at (11, 5) on main lower cavern floor [Visually re-confirmed Turn 20249/20253 from (15, 7); verified lower floor Turn 30188].
+- Moltres: Legendary bird sprite was located at (11, 5); engaged Turn 30531, 21 Ultra Balls exhausted, fled Turn 30607; sprite despawned [Verified Turn 30608].
 
 ## Trainers
 - Trainer: Juggler at (23, 2) [Defeated Turn 16570; Team: Mr. Mime Lv 48; Prize: ¥1680].
