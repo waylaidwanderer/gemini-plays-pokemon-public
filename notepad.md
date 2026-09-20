@@ -101,7 +101,6 @@
 
 - [x] Defeat Rival RED on Pok��mon Tower 2F [Turn 4940]
 - [x] Enter Celadon City via Route 7 [Turn 5434]
-- [x] Purchase drinks (Fresh Water, Soda Pop, Lemonade) on Celadon Dept. Store Roof [Turn 5522]
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
 - [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
@@ -120,7 +119,6 @@
 - [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]
-- [x] Purchase Fresh Water on Celadon Dept. Store Roof [Turn 12585]
 - [x] Give Fresh Water to Saffron Gatehouse guard and unlock Saffron City [Turn 12619]
 - [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]
 - [x] Receive TM29 (Psychic) from Mr. Psychic in Saffron City [Turn 12671]
@@ -131,13 +129,10 @@
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
 - [x] Defeat Fighting Dojo trainers and Master Koichi, and claim Hitmonlee (BRUCE) [Turn 13254]
-- [x] Return to Pallet Town via Diglett's Cave, Route 2, and Route 1 [Turn 13636]
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
-- [x] Heal at Cinnabar Island Pokémon Center and register warp anchor [Turn 13690]
 - [x] Reach Pokémon Mansion B1F via 3F western balcony drop to 1F enclosed chamber [Turn 14565]
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
-- [x] Solve Quiz Machines 1, 2, 3, 4, 5, and 6 in Cinnabar Gym [Turns 14705-14775]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
@@ -4024,7 +4019,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and dropped down to 2F (arriving at 23, 16).
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
-- Boulder 2: Originally at (24, 10), displaced West to (23, 10) on Turn 30058.
+- Boulder 2: Initial position at (24, 10) in 1-tile choke point between Columns 22-23 and Ladder (26, 8) chamber. Can be displaced west to (22, 10) to open Column 23.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
@@ -4836,7 +4831,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Sell Nugget at Cinnabar Poké Mart for ¥5,000 (Wallet: ¥25,256) [Turn 29990]
 - [x] Purchase 21 Ultra Balls (¥1,200 each, total ¥25,200) [Turn 29994]
 - [x] Fly to Indigo Plateau via Farfetch'd (DUX) [Turn 30006]
-- [ ] Enter Victory Road 2F via Route 23 North cave entrance at (14, 31)
+- [x] Enter Victory Road 2F via Route 23 North cave entrance at (14, 31) [Turn 30024]
 - [ ] Infiltrate Victory Road 2F and navigate to Moltres plateau (previously sighted Turns 15533, 16069, 17798, 19831)
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
 
@@ -4846,8 +4841,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Empirical Damage Calculation vs Moltres (Lv 50, Def 100-120, HP 150-165):
     - Swift Non-Crit: Deals 44 to 62 HP (~28-38% of max HP).
     - Swift Crit: Deals 98 to 118 HP (max 118 HP leaves at least 32+ HP remaining). Zero risk of 1HKO!
-  - Optimal Weakening Protocol: Use Swift 1-2 times to reduce Moltres safely into the yellow/red health threshold (HP < 33%). At red HP, Ultra Ball catch rate increases dramatically from ~0.5% to ~8-12% per ball!
-  - Sustain Protocol: Once weakened to yellow/red, use Barrier to neutralize physical Peck damage and Recover to stay above 150 HP, throwing Ultra Balls each turn.
+  - Retail Gen 1 Capture Formula & Status Math:
+    - Non-statused target: Ultra Ball generates R1 in [0, 150]. If target has no status, Step 2 requires R1 <= CatchRate (Moltres CatchRate = 3). Thus, if R1 > 3 (147/151 values), the ball misses immediately regardless of HP! The non-statused catch probability has an absolute mathematical ceiling of 4/151 (~2.65%) per Ultra Ball at red HP.
+    - Statused target (PAR/BRN/PSN): Status bonus = 12. If R1 <= 12 (13/151 values = ~8.61%), the target is caught immediately in Step 1 prior to CatchRate/HP checks! Combined with the remaining checks at red HP, catch rate reaches ~11-12% per Ultra Ball.
+    - Statused target (SLP): Status bonus = 25. Instant capture rate is 26/151 (~17.22%)!
+  - Capture Protocol:
+    - Primary: Use Mewtwo's Swift (non-crit 44-62 HP, crit max 118 HP vs Moltres Def 100-120, max HP 150-165) 1-2 times to safely weaken Moltres to yellow/red HP with 0% risk of 1HKO.
+    - Sustain: Deploy Barrier (+2 Def) to tank Peck and Recover (100% first-move sustain with 195 Speed), throwing Ultra Balls each turn.
+    - Optional Status Risk/Reward: Blastoise's Body Slam has a 30% Paralysis rate. Non-crit deals 61-86 HP (safe), but critical hit (15.2% chance) deals 138-165 HP (risks 1HKO). If attempting Body Slam for Paralysis, only use when Moltres is at 100% HP and accept crit risk; otherwise stick strictly to Mewtwo Swift weakening + Ultra Ball attrition.
 - Blastoise (SHELDON Lv 70): Emergency tank (resists Fire Spin). Do NOT attack with Body Slam (crit risks 1HKO at 165 HP).
 - Drowzee (SANDMAN Lv 9): Do NOT switch in (instantly faints to Moltres STAB).
 - Ultra Ball Arsenal: 21 Ultra Balls ready in Bag.
