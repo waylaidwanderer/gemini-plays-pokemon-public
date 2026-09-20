@@ -14,7 +14,7 @@
   - Execution Plan:
     1. [Completed Turn 32700] Descended to 1F via stairs at (5, 10).
     2. [Completed Turn 32722] Toggled Northwest statue switch at (2, 5) back to State A ('Who wouldn't?').
-    3. Ascend to 2F via stairs at (5, 10), pass open Northwest Shutter at (9, 4-5) into Northwest Bedroom to 3F stairs at (6, 1).
+    3. Traverse 2F Eastern Wing via row 10/11 to Southeast Chamber at (25, 14) and ascend staircase to 3F.
     4. On 3F, toggle switch at (10, 4-5) to State B, pass open East Shutter to Southern Balcony, drop down West Gap at (17, 14) to 1F enclosed chamber.
     5. Descend B1F stairs at (21, 23) and capture Magmar (#126) and Weezing (#110).
 

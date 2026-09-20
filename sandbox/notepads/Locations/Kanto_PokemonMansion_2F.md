@@ -2,7 +2,7 @@
 
 ## Overview & Arrival
 - Staircase down to 1F: Located at (5, 10) [Verified visually Turn 31357].
-- Staircase up to 3F: Located at (7, 10) [Empirically verified Turn 32738].
+- Staircase up to 3F: Located at (25, 14) in Southeast Chamber [Verified Turn 13868]. (Note: (6, 1) in NW Bedroom is arrival landing from 3F descent only).
 - Landing: Arriving from 1F places player in central starting hall.
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
