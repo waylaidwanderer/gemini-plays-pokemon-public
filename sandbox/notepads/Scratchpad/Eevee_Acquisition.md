@@ -9,7 +9,7 @@
   - [x] Deposit 1 party Pokémon (NAUTILUS) into PC Box 1 [Turn 31003]
 - [x] Navigate behind Celadon buildings via eastern gap (cols 44..45) to northern rooftop corridor (rows 4..5) [Turn 31013]
 - [x] Climb Celadon Mansion rear stairs to rooftop penthouse [Reached Rooftop Turn 31032]
-- [/] Received EEVEE (Lv 25) from table! Nicknaming in progress [Turn 31041]
+- [x] Received EEVEE (Lv 25, nicknamed VEE) from Celadon Mansion rooftop [Turn 31043]
 - [ ] Visit Celadon Department Store:
   - Sell NUGGET to clerk for ¥5,000
   - Optionally purchase evolution stone (Water, Thunder, or Fire Stone for ¥2,100)
