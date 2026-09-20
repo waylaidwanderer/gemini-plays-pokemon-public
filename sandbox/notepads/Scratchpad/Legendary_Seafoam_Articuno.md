@@ -6,7 +6,7 @@
 - [x] Initiate battle with Articuno [Turn 29745]!
 - [ ] Capture Articuno (Lv 50) with Ultra Ball
 
-## Operational Capture Thresholds & Live Combat Status [Turn 29938]
+## Operational Capture Thresholds & Live Combat Status [Turn 29942]
 - **Opponent State:** Wild ARTICUNO (Lv 50) weakened to ~65% HP.
 - **Active Pok�mon:** OMEGA (Mewtwo Lv 70) HP: 113 / 234, healthy and unfrozen.
 - **Ultra Ball Stock:** 11 Ultra Balls remaining in Bag (Slot 11).
