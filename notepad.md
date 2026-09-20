@@ -363,6 +363,22 @@
 
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
+## Generation 1 Capture Formula & Engine Mechanics
+- **3-Step Capture Evaluation Process:**
+  1. **Status Condition Check:**
+     - If the wild Pokémon has a major status condition, the engine performs an initial RNG roll: `R1 = random(0, 255)`.
+     - `status_bonus`: Sleep / Freeze = 25 (~9.76% flat chance); Paralysis / Burn / Poison = 12 (~4.68% flat chance).
+     - If `R1 < status_bonus`, the Pokémon is **instantly captured**, completely bypassing all subsequent HP, ball factor, and catch rate checks!
+  2. **Ball Factor & HP Factor Check:**
+     - Ball Factor thresholds: Ultra Ball = 150, Great Ball = 200, Poké Ball = 255.
+     - `hp_factor = min(255, (max_hp * 255) // (ball_factor * max(1, cur_hp // 4)))` (for Ultra/Great Ball).
+     - Engine rolls `R2 = random(0, 255)`. If `R2 > hp_factor`, the ball misses entirely ("You missed the POKéMON!").
+     - At 100% HP with Ultra Ball, `hp_factor` is only ~6/255 (~2.3% chance to hit). Reducing HP increases `hp_factor` (at ~65% HP, `hp_factor` ~10; at ~30% HP, `hp_factor` ~23).
+  3. **Catch Rate Threshold Check:**
+     - Engine rolls `R3 = random(0, 255)`.
+     - If `R3 <= catch_rate`, the Pokémon is captured! For legendaries (Articuno, Zapdos, Moltres, Mewtwo), `catch_rate = 3` (approx 1.56% threshold).
+     - If `R3 > catch_rate`, the ball shakes 1, 2, or 3 times and the Pokémon breaks free.
+
 
 <hr>
 
@@ -4580,6 +4596,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Warp Anchor: Dig warps to the last Pokémon Center where Nurse Joy healed the party.
 - Seafoam lower floor water currents block Surfing until boulders are dropped through holes to create a dam.
 - Signposts: (9, 15) 'Boulders might change the flow of water!'; (23, 1) 'DANGER / Fast current!'.
+## Operational Capture Thresholds & Contingency Plan
+- **Current Combat State:** Articuno weakened to ~65% HP via Mewtwo's Swift (non-lethal, cannot KO even on crit).
+- **Damage Restriction:** Do NOT attack with Swift again. From ~65% HP, a critical hit Swift could deal 112+ damage and faint Articuno. Rely strictly on Ultra Balls.
+- **Ultra Ball Stock:** 53 Ultra Balls remaining (Slot 11 in Item Bag).
+- **Mewtwo Sustain Threshold:** Mewtwo HP is 207/234. Peck deals 13-14 damage, Ice Beam deals 15-20 damage. Mewtwo can safely tank 10+ turns of continuous attacks. If Mewtwo drops below 80 HP, use `RECOVER` (Slot 4 in move menu, restores 117 HP) or Full Restore.
+
 
 <hr>
 
@@ -4700,14 +4722,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southwest Ledge & Stairs: South-facing jump ledge at (5, 11..12) hops down into lower basin (rows 12..15). Wooden stairs at (6..7, 11) provide two-way access between upper terrace (rows 9..10) and lower basin (rows 12..15) [Verified Turn 29518].
 - Ladder (NE): Located at (25, 4) [Sighted Turn 29244]. Ascending ladder mounted against northern rock barrier.
 - Signpost (NE): Located at (23, 1) [Inspected Turn 29253]. Text: 'DANGER / Fast current!'
-- Northern Dock: Wooden stairs at (23, 5), enters water channel at (23, 6) [Sighted Turn 29244].
 - Northeast Hall: Rows 0..4 span wide open dry floor across cols 15..26+.
 - Row 6 Canal & Shoreline (Audited Turn 29624-29626): Tile (20, 6) is solid rock (empirically confirmed Turn 29626 bump test). Column 20 is a continuous solid rock wall from row 2 through row 9 separating the eastern sector from western cavern. Dock stairs at (23, 9) lead south into the water pool (cols 16..23, rows 10..15).
 - Northern Water Canal: Rows 4..5 (cols 7..13) open water, bounded north by rock wall at row 3 (cols 9..11).
-- Western Ladder / Warp: Located at (11, 7) (descends toward B4F).
 - Southern Cavern Chamber: Wide open floor spanning cols 7..14, rows 7..10.
 - Signpost (SW): Located at (9, 15) [Discovered Turn 29230]. Text: 'Boulders might change the flow of water!'
-- SW Chamber: Bounded west by col 6 rock wall; dry floor spanning cols 7..13, rows 14..16, with water barrier to north at rows 12..13.
 - Eastern Sector Corridor: Open passage at cols 13..14 (rows 11..16) connecting southern and northern chambers.
 - Eastern Pool & Dead-End [Audited Turn 29210]:
   - Row 14 corridor ends east at col 19 rock wall.
