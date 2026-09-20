@@ -67,12 +67,12 @@
 
 ## Bag Items
 1. POKÃ© FLUTE [Key Item]
-2. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177, swapped to Slot 2 Turn 31561]
+2. SUPER ROD [Key Item]
 3. REVIVE x 4
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
-7. FULL RESTORE x 2 [Sold 2 at Cinnabar Mart Turn 31753 for ¥3,000]
+7. FULL RESTORE x 2
 8. PP UP x 1
 9. MAX ELIXER x 1
 10. CARBOS x 1
@@ -82,10 +82,9 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 0 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 used for Tentacool Turn 31782, 5 used for Poliwag Turns 31803/31806/31808/31817/31822]
 
 ## Inventory Capacity
-- Active Bag Items: 17 / 20 capacity used.
+- Active Bag Items: 16 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -4925,16 +4924,18 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Fishing & In-Game Trade Planning
 
 ## Active Hypotheses & Targets
-- Target 1: Poliwag (#060) & Goldeen (#118)
-  - Goal: Register Poliwag (#060) and Goldeen (#118) via water fishing.
+- Target 1: Goldeen (#118)
+  - Goal: Register Goldeen (#118) via water fishing.
+  - Prerequisite: Replenish Poké/Ultra Balls at Poké Mart before fishing.
   - Location: Pallet Town southern shoreline at (8, 15) facing West into water tile (7, 15).
-  - Hypothesis Status: UNVERIFIED HYPOTHESIS to be empirically tested with N>=5 Super Rod casts.
-  - High-level Plan: 1. Position at (8, 15) facing West. 2. Conduct N>=5 empirical Super Rod trials to test encounter distribution for Poliwag (#060) and Goldeen (#118). 3. If encountered, use Lovely Kiss with Lola to sleep and catch with Ultra Ball into Box 2.
+  - Hypothesis Status: UNVERIFIED HYPOTHESIS to be empirically tested with Super Rod casts once balls are replenished.
+  - High-level Plan: 1. Fly to Mart, sell excess items, purchase Ultra Balls. 2. Return to Pallet Town shoreline. 3. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Acquire Pikachu, evolve to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
-  - Location: Power Plant (tall grass / floor) or Viridian Forest.
-  - Hypothesis Status: UNVERIFIED HYPOTHESIS.
+  - Verification: NPC trade offer empirically verified in Cinnabar Lab Meeting Room [Turn 31218: Old man offers his Electrode for a Raichu].
+  - Location for Pikachu: Power Plant (tall grass / floor) or Viridian Forest.
+  - Hypothesis Status: Trade offer VERIFIED [Turn 31218]; Pikachu capture pending.
 
 ## Pallet Town Super Rod Empirical Trials
 - Trial 1 [Turn 31778-31782]: Hooked and caught wild TENTACOOL Lv 15 with 1 Ultra Ball! (Registered Pokédex species #072). Nicknaming STINGER. Transferring to Box 2.

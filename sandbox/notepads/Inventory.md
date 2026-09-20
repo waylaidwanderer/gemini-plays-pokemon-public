@@ -2,12 +2,12 @@
 
 ## Bag Items
 1. POKÃ© FLUTE [Key Item]
-2. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177, swapped to Slot 2 Turn 31561]
+2. SUPER ROD [Key Item]
 3. REVIVE x 4
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
-7. FULL RESTORE x 2 [Sold 2 at Cinnabar Mart Turn 31753 for ¥3,000]
+7. FULL RESTORE x 2
 8. PP UP x 1
 9. MAX ELIXER x 1
 10. CARBOS x 1
@@ -17,10 +17,9 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 0 [Purchased 5 at Cinnabar Mart Turn 31760 for ¥6,000, 1 used for Tentacool Turn 31782, 5 used for Poliwag Turns 31803/31806/31808/31817/31822]
 
 ## Inventory Capacity
-- Active Bag Items: 17 / 20 capacity used.
+- Active Bag Items: 16 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
