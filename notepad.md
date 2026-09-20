@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70
 - Money: ¥2,906 [Turn 31089]
 - Pokédex: 23 Caught / 136 Seen [Verified In-Game Turn 31147]
 
@@ -136,16 +136,13 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
-- JOLTEON (Nickname: VEE) [Lv 25, Electric]
-  - Status: Healthy
-  - HP: 68 / 68 [Verified Turn 31102]
-  - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Verified Turn 31102]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 15625 (1951 to Lv 26) [Verified Turn 31104]
-  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15) [Learned via TM24 Turn 31132]
-  - Obtained: Celadon Mansion rooftop [Turn 31043], evolved via Thunderstone [Turn 31098]
 
 ## PC Box 1 Pokémon
+- JOLTEON (Nickname: VEE) [Lv 25, Electric]
+  - Status: Healthy
+  - HP: 68 / 68
+  - Moves: Tackle, Sand-Attack, Thunderbolt
+  - Deposited to PC Box 1 [Turn 31157]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
