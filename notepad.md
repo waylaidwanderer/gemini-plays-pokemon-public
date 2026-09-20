@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Aerodactyl (PTERA) Lv 30, Jolteon (VEE) Lv 25
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25
 - Money: ¥2,906 [Turn 31089]
 - Pokédex: 23 Caught / 136 Seen [Verified In-Game Turn 31147]
 
@@ -136,11 +136,6 @@
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
-- AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
-  - Status: Healthy
-  - HP: 91 / 91
-  - Moves: Wing Attack, Agility, Supersonic
-  - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68 [Verified Turn 31102]
@@ -151,6 +146,11 @@
   - Obtained: Celadon Mansion rooftop [Turn 31043], evolved via Thunderstone [Turn 31098]
 
 ## PC Box 1 Pokémon
+- AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
+  - Status: Healthy
+  - HP: 91 / 91
+  - Moves: Wing Attack, Agility, Supersonic
+  - Revived from Old Amber at Cinnabar Lab [Turn 30947], Deposited Celadon PC [Turn 31154]
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
   - Status: Healthy
   - HP: 67 / 67
