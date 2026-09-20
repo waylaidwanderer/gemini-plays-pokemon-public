@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25, Psyduck (MIGRAINE) Lv 15 (6 in party)
+- Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Jolteon (VEE) Lv 25 (5 in party)
 - Money: ¥3,506 [Turn 31292]
 - Pokédex: 29 Caught / 136 Seen [Turn 31541]
 
@@ -150,6 +150,8 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+
+## PC Box 1 Pokémon
 - PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy
   - HP: 42 / 42
@@ -158,8 +160,7 @@
   - EXP: 3375 (721 to Lv 16) [Verified Turn 31565]
   - Moves: Scratch (PP 35/35) [Verified Turn 31565]
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
-
-## PC Box 1 Pokémon
+  - Deposited: Cerulean PC Box 1 (18/20) [Turn 31576]
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
