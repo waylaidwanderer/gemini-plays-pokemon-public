@@ -54,7 +54,7 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �1,500]
+3. REVIVE x 2 [Sold 2 at Celadon Dept Store Turn 32167 for �¥1,500]
 4. FULL HEAL x 6
 5. MAX REVIVE x 2
 6. BICYCLE [Key Item]
@@ -4984,10 +4984,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Party Status: 6/6 (Slot 6 filled by SLUDGE Lv 37. Future wild captures transfer automatically to active PC Box 2: 5/20 used, 15 free slots)
   - Resources: 3 Ultra Balls in Bag
   - Execution Plan:
-    1. Exit Cinnabar Pokémon Center to outside (11, 12).
-    2. Walk north/west to Pokémon Mansion entrance at (6, 3).
-    3. Patrol 1F hallway/rooms for wild encounters.
-    4. Weaken / catch wild Grimer, Koffing, or Vulpix with Ultra Ball!
+    1. Flee duplicate Grimer on 1F.
+    2. Restock Ultra Balls at Cinnabar Poké Mart (sell Max Revives/Full Restores).
+    3. Explore Pokémon Mansion B1F or upper floors for Magmar, Koffing, Vulpix.
 ### Pokémon Mansion 1F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
 |---|---|---|---|---|---|
@@ -4998,6 +4997,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | CAUGHT! (Turn 32303, 2 Ultra Balls) |
 | 6 | GRIMER (#088) | 30 | (6, 16) | Turn 32319 | Fled (Duplicate species) |
 | 7 | GRIMER (#088) | 30 | (6, 21) | Turn 32329 | Fled (Duplicate species) |
-| 8 | GRIMER (#088) | 30 | (6, 19) | Turn 32338 | Fled (Duplicate species) |
+| 8 | GRIMER (#088) | 32 | (6, 19) | Turn 32338 | Fled (Duplicate species) |
 
 <hr>
