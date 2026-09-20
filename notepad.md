@@ -73,7 +73,9 @@
 ## Inventory Capacity
 15. MOON STONE x1 [Withdrawn Celadon PC Turn 31173]
 ## Inventory Capacity
-- Active Bag Items: 15 / 20 capacity used.
+16. SUPER ROD [Key Item / Withdrawn Celadon PC Turn 31177]
+## Inventory Capacity
+- Active Bag Items: 16 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -84,7 +86,6 @@
 - TM14 (BLIZZARD) x1 (PC) [Stored Turn 24557]
 - CARBOS x1 (PC) [Stored Turn 24553]
 - ESCAPE ROPE x1 (PC) [Stored Turn 24548]
-- SUPER ROD x1 (PC) [Stored Turn 24531]
 - HM01 (CUT) x1 (PC) [Stored Turn 24526]
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
 - CARD KEY x1 (PC) [Stored Turn 13305]
