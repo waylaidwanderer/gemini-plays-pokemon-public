@@ -24,7 +24,7 @@
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
-- Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11) (neither contains a switch, tested Turns 13838-13841), plants at (13, 8) and (13, 10), wall dividing at column 14 (rows 8-11), tables/desks at (15-17, 5) and (15-17, 8-10), machine at (15, 11), and open east corridors along rows 6-7 connecting into columns 18-19 [Verified Turn 13849].
+- Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11). Statue at (13, 11) tested from (13, 12) facing North on Turn 32546; confirmed NO switch.
 - Open corridors span columns 18-21 across rows 3, 4, 6, 7, 9, 10, 11 [Verified Turn 13851].
 - Display tables at (20-21, 5) and (20-21, 8).
 - Rubble barrier along columns 22-23 (rows 4-5, 8-11).
