@@ -15,5 +15,6 @@
 
 ## Testing Room (Fossil Revival Lab) (Rows 0..7, Cols 0..7)
 - Entrance Mat: (2..3, 7). Exits South to Lab hallway at (16, 5).
-- Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Open checkered floor across row 6 (cols 0..6) and row 7 (cols 0..7).
-- Scientist NPC: Stationed at (7, 6) in front of the eastern computer terminal.
+- Layout: Machines and computer terminals along row 5 at (0, 5), (2, 5), and (6..7, 5). Open checkered floor across row 6 (cols 0..6), row 7 (cols 0..7), and northern aisle (cols 4..5, rows 2..5).
+- Trader NPC: Stationed at (7, 6) in front of eastern terminal (seeks Ponyta for trade).
+- Fossil Revival Scientist: Stationed at (4, 2) in northern area. Talk from (4, 3) facing North or (5, 2) facing West to revive fossils!
