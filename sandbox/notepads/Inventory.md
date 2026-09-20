@@ -18,7 +18,7 @@
 15. ULTRA BALL x 3
 
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+- Active Bag Items: 13 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -53,7 +53,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥1,606 [Turn 32380]
+- ¥5,606 [Turn 32387]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
