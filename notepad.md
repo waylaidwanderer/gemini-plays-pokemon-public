@@ -3574,6 +3574,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Vulpix (Lv 30-32) [Observed 4 trials, Turns 31332-31348].
 - Note: Sample size (5 battles) is insufficient to determine full encounter tables or rule out rare spawns.
 
+- Grimer (Lv 31) [Encountered Turn 32427 at (8, 11)].
 
 <hr>
 
