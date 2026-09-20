@@ -148,10 +148,12 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- PONYTA (Nickname: BLAZE) [Lv 32, Fire]
+- SEEL (Nickname: SAILOR) [Lv 32, Water]
   - Status: Healthy
-  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 31386]
-  - Nicknamed: BLAZE [Turn 31399]
+  - HP: 90 / 90
+  - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
+  - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 
 ## PC Box 1 Pokémon
 - TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
