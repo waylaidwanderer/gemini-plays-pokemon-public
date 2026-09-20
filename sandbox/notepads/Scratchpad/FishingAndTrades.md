@@ -5,7 +5,7 @@
   - Goal: Trade for Jynx (ZYNC, #124) with Resident 2 at (1, 2) in Cerulean City Northwest House.
   - Location: Route 10 waterway (accessible east of Cerulean City via Route 9).
   - Hypothesis Status: UNVERIFIED HYPOTHESIS proposed by custom agent. Empirical presence of Poliwhirl in Route 10 waterway is untested.
-  - Empirical Route 10 Fishing Trials [Turns 31609-31624]: Cast 5 on Turn 31624 hooked wild SLOWPOKE (#079)! Route 10 water encounter verified.
+  - Empirical Route 10 Fishing Trials [Turns 31609-31624]: Cast 5 on Turn 31624 hooked wild SLOWPOKE (#079)! Caught on Turn 31637 with Ultra Ball (3rd ball)! Pokédex now 30 Caught.
 - Target 2: Goldeen (#118)
   - Status: Unverified in Route 10. Available in various Kanto waterways.
 

@@ -17,7 +17,7 @@
 14. GUARD SPEC. x 1
 15. MAX POTION x 1
 16. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-17. ULTRA BALL x 3 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539, 2 used on Slowpoke Turns 31626/31630]
+17. ULTRA BALL x 2 [Purchased Cinnabar Poké Mart Turn 31292, 1 used on Krabby Turn 31539, 3 used on Slowpoke Turns 31626/31630/31636]
 
 ## Inventory Capacity
 - Active Bag Items: 17 / 20 capacity used.
@@ -58,6 +58,9 @@
 - ¥3,506 [Turn 31292]
 
 ## Party Pokémon
+- SLOWPOKE (Nickname: pending) [Lv 15, Water/Psychic]
+  - Status: Healthy
+  - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
