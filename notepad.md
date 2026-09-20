@@ -3541,7 +3541,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
-- Northwest Bedroom (cols 0-8, rows 0-9): Tile (6, 1) is the arrival landing from 3F descent [Turn 13997]; tested Up from (6, 1) into (6, 0) on Turn 32557 (impassable north wall, no ascending warp).
+- Northwest Bedroom (cols 0-8, rows 0-9): Ascending staircase to 3F located at (6, 1) [Visually confirmed on Turn 32911]. Doorway at (9, 4-5) contains Northwest Shutter (OPEN in State A, CLOSED in State B; visually confirmed CLOSED in State B on Turn 32911).
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
 
 - Shutter Door at (18-19, 8): Empirically verified OPEN in Switch State B [Turn 32799]. Provides open passage south from row 7 into columns 18-21 toward Southeast Chamber (25, 14).
@@ -3574,19 +3574,19 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Drop Landing Tile: Landing at (18, 14) facing Down occurs when stepping off 3F balcony gap at (19, 14) [Verified Turn 14421].
 
 ## Southeast Staircase Chamber (cols 23-28, rows 9-16)
-- Staircase up to 3F located at (25, 14) [Verified Turn 13868].
+- Staircase graphic at (25, 14) connects between 2F and 3F [Verified Turn 13868, 14545].
 - Open pink floor across columns 24-25 from row 9 down to row 15 [Verified Turn 13873].
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: Audited and disproven on Turn 32896. Direct visual scan from (20, 14) confirms column 22 is an unbroken vertical barrier of solid rubble across all rows 10-15, and row 16 is a continuous solid southern wall across columns 18-25. The Southeast Chamber is completely sealed off from the Central-South corridor on 2F ground level. Combined with the solid wall at row 8 blocking northern access, the Southeast Chamber cannot be entered from the ground of 2F in either Switch State. The staircase at (25, 14) is strictly an arrival landing from 3F descent. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber.
+- Access Investigation: Audited on Turn 32896. Direct visual scan from (20, 14) confirms column 22 is an unbroken vertical barrier of solid rubble across all rows 10-15, and row 16 is a continuous solid southern wall across columns 18-25. Ground-level 2F access into the Southeast Chamber is completely blocked by rubble and walls; the player previously arrived here from 3F descent. Ground ascent to 3F is accessed via the Northwest Bedroom staircase at (6, 1) in Switch State A.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
 - Ponyta (Lv 28-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 35 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 36 observed encounters (including Turn 32898 Grimer at (20, 11)); B1F survey recommended if not found here.
 
 <hr>
 
@@ -4979,16 +4979,22 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
     - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
     - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
-  - Location: Pok�mon Mansion (Currently 1F; returning to 2F in active State B)
+  - Location: Pok�mon Mansion (Currently 2F North Hall at (10, 5))
   - Party Status: 6/6 (Box 2: 7/20 used, 13 free slots)
   - Resources: 6 Ultra Balls in Bag
-  - Switch Status: Switch State B is ALREADY ACTIVE (toggled Turn 32780). Shutter (18-19, 8) on 2F and East Shutter (15, 10-11) on 3F are OPEN.
-  - Execution Plan:
-    1. Pass through open Shutter at (18-19, 8) into Central-South Corridor (cols 18-22, rows 11-16) [Completed Turn 32876].
-    3. Explore south along rows 14-16 to locate the connecting eastward passage into the Southeast Chamber (cols 23-28, rows 9-16).
-    4. Ascend staircase at (25, 14) to 3F.
-    5. On 3F, with State B active, East Shutter at (15, 10-11) is already open; enter Southern Balcony Chamber and drop down West Gap at (17, 14) to 1F enclosed chamber.
-    6. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
+  - Visual Audit Result [Turn 32911]:
+    - Northwest Shutter at (9, 4-5) is CLOSED in current Switch State B.
+    - Ascending staircase to 3F is clearly visible at (6, 1) inside Northwest Bedroom!
+  - Master Execution Plan:
+    1. Walk south from (10, 5) to row 10, then west to (5, 10) staircase down to 1F.
+    2. On 1F, navigate to Northwest Statue Room and toggle switch at (2, 5) to State A.
+    3. Return to 1F staircase at (5, 10) and ascend to 2F.
+    4. On 2F, walk north into North Hall, pass through now-OPEN Northwest Shutter at (9, 4-5).
+    5. Enter Northwest Bedroom and step onto ascending staircase at (6, 1) to reach 3F.
+    6. On 3F Northwest Starting Chamber, activate statue switch at (10, 4-5) to State B.
+    7. Walk east to East Shutter at (15, 10-11) (now OPEN in State B) into Southern Balcony Chamber.
+    8. Drop down West Balcony Gap at (17, 14) to land directly in 1F enclosed chamber.
+    9. Descend B1F staircase at (21, 23) and capture Magmar (#126) and Weezing (#110).
 
 
 <hr>
