@@ -6,6 +6,7 @@
 - South exit: Leads out to Route 20 western pier at (58, 9).
 
 ## Key Landmarks & Layout
+- Southwest Ladder: Located at (23, 15) in entrance enclosure, descending to B1F [Verified Turn 29568].
 - Southwest Entrance Enclosure: Cols 21..27, rows 12..16. Enclosed by row 11 cliff (north), col 28 wall (east), row 16 wall (south), and col 20 dividing wall (west).
 - Eastern Docks & Corridors:
   - Northern open hallway at rows 7..8 (cols 21..28).
