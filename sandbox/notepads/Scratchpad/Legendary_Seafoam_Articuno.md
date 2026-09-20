@@ -1,7 +1,7 @@
 # Quest Log: Legendary Ice Bird Articuno & Seafoam Islands
 
 ## Strategy & Objectives
-- [ ] Survey B1F layout, activate Strength upon locating boulders, and identify pit holes
+- [ ] Navigate west through northern hallway to locate puzzle boulders and dam subterranean currents
 - [ ] Execute boulder puzzle to stop subterranean water currents
 - [ ] Navigate to Articuno's chamber on lowest floor and capture Articuno (Lv 50) with Ultra Ball
 
