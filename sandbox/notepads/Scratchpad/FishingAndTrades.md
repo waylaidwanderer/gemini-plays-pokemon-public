@@ -3,9 +3,9 @@
 ## Active Hypotheses & Targets
 - Target 1: Goldeen (#118)
   - Goal: Register Goldeen (#118) via water fishing.
-  - Location: Route 22 freshwater pond (Route 22, west of Viridian City).
-  - Hypothesis Status: UNVERIFIED HYPOTHESIS. Pallet Town's 2-species table (Tentacool & Poliwag) is exhausted. Testing un-surveyed Route 22 freshwater pond.
-  - High-level Plan: 1. Fly to Viridian City. 2. Walk west to Route 22 pond. 3. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
+  - Location: Viridian City freshwater pond at (14, 26) facing West into (13, 26).
+  - Hypothesis Status: UNVERIFIED HYPOTHESIS. Pallet Town was saltwater (Tentacool/Poliwag). Testing Viridian City enclosed freshwater pond for Goldeen.
+  - High-level Plan: 1. Walk to Viridian City pond at (14, 26) facing West. 2. Fish with Super Rod, sleep target with Lola's Lovely Kiss, and catch.
 
 - Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
   - Goal: Acquire Pikachu, evolve to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
