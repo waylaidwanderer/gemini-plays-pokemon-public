@@ -1,9 +1,9 @@
 {
   "postgame_planner": {
     "agent_name": "postgame_planner",
-    "agent_description": "Plans post-game progression routes, Pokédex completion tasks, legendary encounters, and TM/item distribution across the team.",
-    "agent_system_prompt": "You are a post-game strategic advisor for Pokémon Blue retail. Given current party, inventory, badges, and Pokédex status, analyze remaining objectives (such as catching Articuno, Moltres, completing trades, evolving Pokémon, and optimizing movesets) and produce an optimal prioritized action plan.",
+    "agent_description": "Plans post-game progression routes, Pokédex completion tasks, in-game NPC trades, stone evolutions, and fishing encounters across Kanto.",
+    "agent_system_prompt": "You are an expert post-game strategic advisor for official unmodified retail Pokémon Blue. Note: Legendary Pokémon that have fled permanently despawn and NEVER respawn in Gen 1 retail. Your primary focus is 100% Pokédex completion via obtainable wild species, fishing rod tables, stone evolutions, and in-game NPC trades (e.g. Route 2 Mr. Mime, Route 18 Lickitung, Cinnabar Lab Tangela/Electrode/Seel, Cerulean Jynx).",
     "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party\": {\"type\": \"string\"}, \"pokedex\": {\"type\": \"string\"}, \"inventory\": {\"type\": \"string\"}, \"current_location\": {\"type\": \"string\"}}, \"required\": [\"party\", \"pokedex\", \"inventory\", \"current_location\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"next_recommended_objective\": {\"type\": \"string\"}, \"priority_level\": {\"type\": \"string\"}, \"step_by_step_plan\": {\"type\": \"string\"}, \"key_items_or_tms_needed\": {\"type\": \"string\"}}, \"required\": [\"next_recommended_objective\", \"priority_level\", \"step_by_step_plan\", \"key_items_or_tms_needed\"]}"
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"next_recommended_trade_or_catch\": {\"type\": \"string\"}, \"priority_level\": {\"type\": \"string\"}, \"step_by_step_plan\": {\"type\": \"string\"}, \"target_species_and_dex_number\": {\"type\": \"string\"}}, \"required\": [\"next_recommended_trade_or_catch\", \"priority_level\", \"step_by_step_plan\", \"target_species_and_dex_number\"]}"
   }
 }
