@@ -3579,14 +3579,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: North approach via row 8 is blocked by wall at (24-25, 8) and chute (28, 7) is a dead end. Passage into Southeast Chamber remains to be audited via the southern approach through open Shutter (18-19, 8) along rows 14-16. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.
+- Access Investigation: North approach via row 8 is blocked by wall at (24-25, 8) and chute (28, 7) is a dead end. Passage into Southeast Chamber remains to be audited via the southern approach through open Shutter (18-19, 8) along rows 14-16. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 28-35) [Common]
 - Vulpix (Lv 30-33) [Common, Blue exclusive; knows Roar at Lv 33]
 - Ponyta (Lv 28-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 23 observed encounters; B1F survey recommended if not found here.
+- Note: Magmar (#126) remains unverified on 2F across 35 observed encounters; B1F survey recommended if not found here.
 
 <hr>
 
@@ -4984,8 +4984,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Resources: 6 Ultra Balls in Bag
   - Switch Status: Switch State B is ALREADY ACTIVE (toggled Turn 32780). Shutter (18-19, 8) on 2F and East Shutter (15, 10-11) on 3F are OPEN.
   - Execution Plan:
-    1. Flee wild battle on 1F (12, 6) and return west to (5, 10) staircase up to 2F.
-    2. On 2F, walk east past row 10 into Eastern Main Wing, pass through open Shutter at (18-19, 8) into Central-South Corridor (cols 18-22, rows 11-16).
+    1. Pass through open Shutter at (18-19, 8) into Central-South Corridor (cols 18-22, rows 11-16) [Completed Turn 32876].
     3. Explore south along rows 14-16 to locate the connecting eastward passage into the Southeast Chamber (cols 23-28, rows 9-16).
     4. Ascend staircase at (25, 14) to 3F.
     5. On 3F, with State B active, East Shutter at (15, 10-11) is already open; enter Southern Balcony Chamber and drop down West Gap at (17, 14) to 1F enclosed chamber.
