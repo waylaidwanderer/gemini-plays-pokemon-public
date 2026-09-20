@@ -13,3 +13,4 @@
 - [ ] Visit Celadon Department Store:
   - [x] Sell NUGGET to clerk for ¥5,000 [Turn 31085]
   - [x] Purchased THUNDERSTONE for ¥2,100 [Turn 31089]
+- [ ] Use THUNDERSTONE on VEE to evolve into JOLTEON

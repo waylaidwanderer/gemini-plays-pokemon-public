@@ -8,7 +8,7 @@
 
 - Active Team: Mewtwo (OMEGA) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Blastoise (SHELDON) Lv 70, Aerodactyl (PTERA) Lv 30, Eevee (VEE) Lv 25
 
-- Money: ¥5,006 [Turn 31085]
+- Money: ¥2,906 [Turn 31089]
 - Pokédex: 22 Caught / 129 Seen
 
 ## Milestones
@@ -81,8 +81,9 @@
 12. HP UP x1
 13. HM02 [Key Item]
 14. GUARD SPEC. x1
+15. THUNDERSTONE x1 [Purchased Celadon Dept Store 4F Turn 31089]
 ## Inventory Capacity
-- Active Bag Items: 14 / 20 capacity used.
+- Active Bag Items: 15 / 20 capacity used.
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
 - TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
@@ -118,7 +119,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥5,006 [Turn 31085]
+- ¥2,906 [Turn 31089]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
@@ -4824,6 +4825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Received EEVEE (Lv 25, nicknamed VEE) from Celadon Mansion rooftop [Turn 31043]
 - [ ] Visit Celadon Department Store:
   - [x] Sell NUGGET to clerk for ¥5,000 [Turn 31085]
-  - [ ] Optionally purchase evolution stone (Water, Thunder, or Fire Stone for ¥2,100)
+  - [x] Purchased THUNDERSTONE for ¥2,100 [Turn 31089]
+- [ ] Use THUNDERSTONE on VEE to evolve into JOLTEON
 
 <hr>
