@@ -4808,7 +4808,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Heal with Nurse Joy at Indigo Plateau to set warp anchor [Turn 30215]
 - [x] Ride south down Route 23 North to Victory Road entrance at (14, 31) [Turn 30233]
 - [x] Ascend to 3F (26, 8) and activate Strength with Geodude (ROCKY) [Turns 30235, 30239]
-- [ ] Push Boulder 2 at (24, 10) west to (22, 10) to clear Column 23
+- [x] Push Boulder 2 at (24, 10) west to (22, 10) to clear Column 23 [Turn 30243]
 - [ ] Take Ladder (23, 7) down to 2F main floor
 - [ ] Approach and engage Legendary Bird MOLTRES at (11, 5)
 - [ ] Capture Legendary Bird MOLTRES using Ultra Balls
