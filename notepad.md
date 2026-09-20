@@ -2120,6 +2120,12 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Rooftop Railing: South border along row 7.
 - Sky Border: Deep blue open sky along north and east edges.
 
+## Elevator
+- Location: Column 1, Row 1 across all floors.
+- Call Panel: Located at (2, 1) on north wall.
+- Entrance: Stepping North from (1, 2) into (1, 1) enters the elevator cabin.
+- Destination Floors: 1F, 2F, 3F, 4F, 5F [Verified Turn 32155].
+
 
 <hr>
 
