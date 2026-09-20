@@ -138,14 +138,6 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
   - EXP: 125 (91 to Lv 6)
-- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
-  - Status: Healthy
-  - HP: 38 / 38
-  - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 7376
-  - OT: BLUE (IDNo. 04620)
-  - Caught: Diglett's Cave [Turn 3507]
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 222 / 222
@@ -163,6 +155,12 @@
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
   - Deposited to PC Box 1 [Turn 30640]
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+  - Status: Healthy
+  - HP: 38 / 38
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - Caught: Diglett's Cave [Turn 3507]
+  - Deposited to PC Box 1 [Turn 30645]
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]
@@ -4722,8 +4720,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Strategic Objectives
 - [x] At Indigo Plateau PC: Deposit SANDMAN into Box 1 [Completed Turn 30640]
-- [ ] At Indigo Plateau PC: Deposit DIGBY into Box 1 [In Progress Turn 30644]
-- [ ] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Pending]
+- [x] At Indigo Plateau PC: Deposit DIGBY into Box 1 [Completed Turn 30646]
+- [ ] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [In Progress Turn 30646]
 - [ ] Exit Indigo Plateau lobby to exterior map (9, 6) [Pending]
 - [ ] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Pending]
 - [ ] In Pewter City, navigate north to Museum side entrance, use Cut with Farfetch'd to bypass tree obstacle, and obtain OLD AMBER from scientist [Pending]

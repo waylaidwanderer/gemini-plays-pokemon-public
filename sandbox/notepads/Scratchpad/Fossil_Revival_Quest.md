@@ -2,8 +2,8 @@
 
 ## Strategic Objectives
 - [x] At Indigo Plateau PC: Deposit SANDMAN into Box 1 [Completed Turn 30640]
-- [ ] At Indigo Plateau PC: Deposit DIGBY into Box 1 [In Progress Turn 30644]
-- [ ] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [Pending]
+- [x] At Indigo Plateau PC: Deposit DIGBY into Box 1 [Completed Turn 30646]
+- [ ] At Indigo Plateau PC: Withdraw HELIX FOSSIL from BLUE's PC item storage into Bag [In Progress Turn 30646]
 - [ ] Exit Indigo Plateau lobby to exterior map (9, 6) [Pending]
 - [ ] Cast HM02 FLY with Farfetch'd (DUX) to travel to Pewter City [Pending]
 - [ ] In Pewter City, navigate north to Museum side entrance, use Cut with Farfetch'd to bypass tree obstacle, and obtain OLD AMBER from scientist [Pending]
