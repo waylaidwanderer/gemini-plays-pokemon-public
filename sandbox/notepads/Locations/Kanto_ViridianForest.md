@@ -32,8 +32,19 @@
 - West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
 - Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
 - Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 18..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 20..28). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 18..23 (tall grass corridor connecting to the western field). Connects to Northern Avenue at col 24.
-- Northern Tall Grass Field (Sector D, Rows 6..13, Cols 16..23): Large contiguous tall grass zone comprising: (1) An east-west corridor across rows 8..9 spanning columns 18..23, passing through a gap in the stone posts at (19, 8..9); (2) A western tall grass pocket spanning columns 16..18 from row 6 down to at least row 13, bounded by clear ground at rows 4..5 to the north, column 14..15 tree wall to the west, and column 19 stone posts (rows 4..7, 10..12) to the east.
+- Northern Tall Grass Field (Sector D, Rows 6..14, Cols 16..23): Contiguous tall grass zone comprising:
+  - Connecting East-West Corridor: Rows 8..9 across columns 18..23, connecting Northern Avenue (Col 24) through stone post gap at (19, 8..9) to the western field. Empirically traversed and verified.
+  - Western Field: Columns 16..18. Empirically traversed and sampled from row 6 to row 10 (wild Pikachu encountered at (16, 10) Turn 32076). Visually observed continuing south to row 14 (bounded by tree wall at cols 14..15 to west, stone posts at col 19 to east, and clear ground at rows 4..5 to north).
 - Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
 - West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
 - Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
 - Northern Gatehouse Interior (Audited Turn 25207): South entrance at cols 4..5, row 7 with red doormats (arriving from forest at (4, 7)). North exit doorway at (5, 0) leading to Route 2 North. NPC stationed at (2, 5).
+
+## Wild Pokémon & Encounters (Empirical Survey)
+- Total Trials Recorded: 17 trials across Sectors A, B, C, and D.
+- Species Identified & Levels:
+  - Caterpie: Common (Lv 3, 4, 5 observed; Sectors B, C).
+  - Metapod: Common (Lv 4, 5, 6 observed; Sectors A, B, C, D).
+  - Weedle: Uncommon (Lv 3 observed; Sector C).
+  - Kakuna: Uncommon (Lv 4 observed; Sectors A, C).
+  - Pikachu: Rare (Lv 3 encountered in Sector D at (16, 10) Turn 32076; captured with Ultra Ball Turn 32090, nicknamed SPARK).

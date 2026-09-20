@@ -1,50 +1,27 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Targets & Hypotheses
-- Target 1: Pikachu (#025)
-  - Hypothesis: Spawns as a rare wild encounter in Viridian Forest tall grass.
-  - Sector Testing & Partitioning:
-    - Sector A (Avenue Corridor, Rows 36-37, Col 18): 3 trials recorded.
-    - Sector B (South-Central Field, Rows 40-41, Cols 18-23): 4 trials recorded.
-    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5): 6 trials recorded.
-    - Sector D (Northern Grass Patches, Rows 6-9, Cols 16-23): 4 trials recorded.
-  - Empirical Sample Scope & Methodology:
-    - Comparative Sector Survey: Rather than rigid single-sector N=30 saturation, conduct comparative exploratory surveys across distinct forest sectors (Sector A: Avenue Corridor, Sector B: South-Central Field, Sector C: Southwest Grass Pocket) to observe species distributions and encounter frequencies.
-    - Sector B paused at N=4 trials (1 Metapod, 3 Caterpie) after low encounter yield (~1 encounter per 14 turns) to evaluate Sector C.
-    - Sector C paused at N=6 trials after extended encounter dry spell (135+ steps). Transitioning to Sector D (Northern Grass Patches, rows 8-9, cols 21-23) to survey northern forest distribution.
-  - Operational Capture Protocol:
-    - With only 8 Ultra Balls held, balls must be conserved.
-    - Turn 1: Switch to Lola (Jynx Lv 23, Slot 6).
-    - Turn 2: Cast Lovely Kiss (induces Sleep, 0 damage, prevents wild attacks/escapes).
-    - Turn 3+: Throw Ultra Ball from Bag until caught.
-  - Empirical Encounter Log by Sector:
-    - Sector A (Avenue Corridor, Rows 36-37, Col 18):
-      - Trial 1 [Turn 31903]: Wild Metapod (fled)
-      - Trial 2 [Turn 31908]: Wild Metapod Lv 5 (fled)
-      - Trial 3 [Turn 31912]: Wild Kakuna Lv 4 (fled)
-    - Sector B (South-Central Field, Rows 40-41, Cols 18-23):
-      - Trial 4 [Turn 31928]: Wild Metapod Lv 5 (fled)
-      - Trial 5 [Turn 31942]: Wild Caterpie Lv 5 (fled)
-      - Trial 6 [Turn 31947]: Wild Caterpie Lv 4 (fled)
-      - Trial 7 [Turn 31976]: Wild Caterpie Lv 4 (fled)
-    - Sector C (Southwest Grass Pocket, Rows 40-43, Cols 1-5):
-      - Trial 8 [Turn 32003]: Wild Weedle Lv 3 (fled)
-      - Trial 9 [Turn 32008]: Wild Kakuna Lv 4 (fled)
-      - Trial 10 [Turn 32032]: Wild Metapod Lv 5 (fled)
-      - Trial 11 [Turn 32038]: Wild Caterpie Lv 4 (fled)
-      - Trial 12 [Turn 32043]: Wild Caterpie Lv 3 (fled)
-      - Trial 13 [Turn 32046]: Wild Caterpie Lv 4 (fled)
-    - Sector D (Northern Grass Patches, Rows 6-9, Cols 16-23):
-      - Trial 14 [Turn 32066]: Wild Metapod Lv 6 (fled)
-      - Trial 15 [Turn 32071]: Wild Metapod Lv 5 (fled)
-      - Trial 16 [Turn 32074]: Wild Metapod Lv 5 (fled)
-      - Trial 17 [Turn 32076]: Wild Pikachu Lv 3 appeared! Caught with Ultra Ball [Turn 32090]!
+## Completed Targets
+- Target 1: Pikachu (#025) - COMPLETED [Turn 32090]
+  - Captured: Wild Pikachu Lv 3 in Sector D at (16, 10) using Lovely Kiss (Sleep) + Ultra Ball.
+  - Nickname: SPARK [Turn 32099].
+  - Storage Location: PC Box 2 (Slot 3, 3/20 capacity).
+  - Pokédex Status: Registered as #025 (35 Caught / 136 Seen).
+  - Empirical Survey Summary: Completed 17 trials across 4 sectors; full data consolidated in Locations/Kanto_ViridianForest.md.
 
-- Target 2: Pikachu (#025) -> Raichu (#026) -> Electrode (#101)
-  - Goal: Evolve Pikachu to Raichu with Thunder Stone, and trade for Electrode in Cinnabar Lab Meeting Room.
-  - Verification: NPC trade offer empirically verified in Cinnabar Lab Meeting Room [Turn 31218: Old man offers his Electrode for a Raichu].
-  - Thunder Stone Acquisition & Funding Plan:
-    - Purchase location: Celadon Department Store 4F (Price: Â¥2,100).
-    - Current cash on hand: Â¥706 (Deficit: Â¥1,394).
-    - Designated liquidation asset: Sell 2x Revive (sell price Â¥750 each = Â¥1,500 total, bringing cash to Â¥2,206) or 1x Rare Candy (sell price Â¥2,400, bringing cash to Â¥3,106) at the 4F or 2F counter before purchasing the Thunder Stone. We hold 4 Revives in Bag and 5 Rare Candies (1 Bag, 4 PC).
-  - Status: Prerequisite Pikachu capture pending.
+## Active Targets & Strategy
+- Target 2: Evolve Pikachu (SPARK) -> Raichu (#026) -> Trade for Electrode (#101)
+  - Goal: Evolve Pikachu to Raichu with Thunder Stone, then trade Raichu for Electrode in Cinnabar Lab Meeting Room (NPC trade verified Turn 31218).
+  - Required Pre-Trade Execution Pipeline:
+    1. PC Party Management (Prerequisite):
+       - SPARK is currently in PC Box 2. Evolution stones and NPC trades REQUIRE the Pokémon to be in the active party.
+       - Active party is full (6/6). Must access a PC (Pewter City or Celadon City), deposit 1 benched party member (LOLA the Jynx, who is healthy and not needed for field moves), and withdraw SPARK (Pikachu Lv 3) into active party.
+    2. Thunder Stone Acquisition & Funding:
+       - Purchase location: Celadon Department Store 4F (Price: ¥2,100).
+       - Current cash: ¥706 (Deficit: ¥1,394).
+       - Liquidation: Sell 2x Revive (¥750 each = ¥1,500) or 1x Rare Candy (¥2,400) at Celadon Dept Store counter before buying stone. We hold 4 Revives in Bag and 5 Rare Candies (1 Bag, 4 PC).
+    3. Evolution Execution:
+       - Use Thunder Stone from Bag on SPARK in party -> evolves into Raichu (#026)!
+    4. Trade Execution:
+       - Fly to Cinnabar Island. Enter Pokémon Lab Meeting Room.
+       - Trade Raichu for Electrode (#101, DORIS)!
+  - Status: Prerequisite Pikachu captured and stored in PC Box 2. Next step: Access PC to withdraw SPARK into party.
