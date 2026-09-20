@@ -3,7 +3,7 @@
 ## Overview & Mechanics
 - Abandoned, burned-down mansion on Cinnabar Island.
 - South entrance at (5, 27) leads outside to Cinnabar Island (6, 3) [Verified Turn 13698].
-- Staircase to 2F: Located at (5, 10) on 1F [Verified Turn 31361]. Connects to 2F (5, 10).
+- Staircase to 2F: Located at (7, 10) on 1F, entered from south at (7, 11) [Verified Turn 32966]. Connects to 2F (7, 10).
 - Switch Mechanics: PokÃ©mon statues contain secret switches that toggle iron shutter doors. Empirical test (Turn 13756-13788): Activating switch at (2, 5) toggled Shutter 1 at (16-17, 7) from CLOSED to OPEN, while toggling Shutter (24-25, 13) from OPEN to CLOSED.
 
 ## Entrance Hall & Central Corridor (cols 4-7, rows 10-27)
@@ -19,7 +19,7 @@
 - Divided from central corridor to the south by solid horizontal wall (1-7, 9) [Verified Turn 13754].
 - Rubble blocks columns 1-3 at rows 2-3, and column 1 at rows 4-5.
 - Large 2x2 table at (6-7, 4-5).
-- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Toggles global Mansion shutter states (State A <-> State B).
+- Pokï¿½mon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Toggles global Mansion shutter states (State A <-> State B).
 - Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).
 
 ## Northern Hallway (Row 1 Superhighway)
