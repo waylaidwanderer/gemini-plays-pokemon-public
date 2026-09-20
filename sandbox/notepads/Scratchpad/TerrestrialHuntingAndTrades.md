@@ -2,14 +2,13 @@
 
 ## Next Hunting Target: Pokémon Mansion (Cinnabar Island)
 - Target 3: Cinnabar Pokémon Mansion Wild Captures
-  - Target Species: Magmar (#126), Koffing (#109), Weezing (#110), Vulpix (#037)
-  - Location: Pokémon Mansion 1F (northwest Cinnabar Island, door at (6, 3))
+  - Target Species (Unverified Hypotheses across Mansion floors): Magmar (#126), Koffing (#109), Weezing (#110), Vulpix (#037)
+  - Location: Pokémon Mansion (Survey B1F, 2F, 3F; 1F empirical trials 1-9 yielded exclusively Grimer, Ponyta, Muk)
   - Party Status: 6/6 (Slot 6 filled by SLUDGE Lv 37. Future wild captures transfer automatically to active PC Box 2: 5/20 used, 15 free slots)
   - Resources: 3 Ultra Balls in Bag
   - Execution Plan:
-    1. Flee duplicate Grimer on 1F.
-    2. Restock Ultra Balls at Cinnabar Poké Mart (sell Max Revives/Full Restores).
-    3. Explore Pokémon Mansion B1F or upper floors for Magmar, Koffing, Vulpix.
+    1. Restock Ultra Balls at Cinnabar Poké Mart (sell Max Revives/Full Restores).
+    2. Survey Pokémon Mansion B1F, 2F, and 3F to identify encounter tables and locate Magmar, Koffing, and Vulpix (candidates unverified on 1F).
 ### Pokémon Mansion 1F Empirical Encounter Log
 | Trial | Species | Level | Coordinates | Encounter Turn | Outcome |
 |---|---|---|---|---|---|
