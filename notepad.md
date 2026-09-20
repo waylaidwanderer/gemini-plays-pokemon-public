@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥106 [Turn 32170]
-- Pokédex: 38 Caught / 136 Seen [Turn 32261]
+- Pokédex: 39 Caught / 136 Seen [Turn 32303]
 
 ## Milestones
 
@@ -268,6 +268,10 @@
   - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
   - Deposited: Cinnabar PC Box 2 (4/20) [Turn 32238]
+- GRIMER (Nickname: GOOP) [Lv 30, Poison]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
+  - Transferred to PC Box 2 (5/20)
 
 
 <hr>
@@ -4990,7 +4994,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | 2 | PONYTA (#077) | 32 | (5, 17) | Turn 32276 | Fled (Duplicate species) |
 | 3 | PONYTA (#077) | 34 | (6, 12) | Turn 32284 | Fled (Duplicate species) |
 | 4 | PONYTA (#077) | 32 | (6, 22) | Turn 32290 | Fled (Duplicate species) |
-| 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | In Progress (1 Ultra Ball used, broke out after 3 wobbles) |
+| 5 | GRIMER (#088) | 30 | (6, 19) | Turn 32296 | CAUGHT! (Turn 32303, 2 Ultra Balls) |
 
 
 <hr>
