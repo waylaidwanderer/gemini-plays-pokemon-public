@@ -49,7 +49,7 @@
 ## Party Pokémon
 - Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 8, Water]
   - Status: Healthy
-  - HP: Healthy [Verified Lv 8 Turn 35049]
+  - HP: 21 / 21 [Verified Lv 8 Turn 35055]
   - Stats: Attack 7, Defense 14, Speed 19, Special 9 [Verified Lv 8 Turn 35049]
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
