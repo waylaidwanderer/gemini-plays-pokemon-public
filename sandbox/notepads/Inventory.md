@@ -47,14 +47,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 19, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 20, Bug/Grass]
   - Status: Healthy
-  - HP: 47 / 47 [Verified Lv 19 Turn 35681]
-  - Stats: Attack 37, Defense 27, Speed 18, Special 31 [Verified Lv 19 Turn 35671]
+  - HP: 49 / 49
+  - Stats: Attack 39, Defense 29, Speed 18, Special 33 [Verified Lv 20 Turn 35695]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7802 [Verified Lv 19 Turn 35685]
-  - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
+  - EXP: 8327 [Verified Lv 20 Turn 35695]
+  - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
@@ -70,7 +70,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 72 / 243 [Verified Turn 35691]
+  - HP: 44 / 243 [Verified Turn 35695]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
