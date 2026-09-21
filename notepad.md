@@ -111,7 +111,7 @@
   - Stats: Attack 35, Defense 26, Speed 17, Special 30 [Verified Lv 18 Turn 35647]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 5853 (Target 13,824 for Lv 24 Parasect #047, remaining 7,971, 1006 to Lv 19) [Verified Turn 35647]
+  - EXP: 6314 (Target 13,824 for Lv 24 Parasect #047, remaining 7,510, 545 to Lv 19) [Verified Turn 35654]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -128,10 +128,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 119 / 243
+  - HP: 90 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -4983,5 +4983,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Current State: Paras Lv 17 (5,349 EXP, +4,349 EXP gained across 8 battles). Remaining to Lv 24: 8,475 EXP (483 to Lv 18).
   - Current Sweeper Status: Blastoise HP 153/225, Surf PP 11/15; Mewtwo HP 119/243 (PSN), Psychic PP 5/10, Swift PP 19/20, Recover PP 20/20.
 - Battle 9 [Turn 35647]: Wild Kadabra Lv 49. Switched Paras -> Blastoise. Kadabra used Reflect. Blastoise used Surf (Crit OHKO). Total EXP 1008. Paras gained 504 EXP -> grew to Lv 18! (EXP: 5853 / 13824, remaining: 7971, 1006 to Lv 19). Stats at Lv 18: Atk 35, Def 26, Spd 17, Spc 30. Blastoise HP: 153/225, Surf PP: 10/15.
+- Battle 10 [Turn 35654]: Wild Raichu Lv 53. Switched Paras -> Mewtwo. Raichu used Thundershock (12 dmg). Mewtwo took poison (15 dmg) to 90 HP, used Psychic (OHKO). Total EXP 922. Paras gained 461 EXP (EXP: 6314 / 13824, remaining: 7510, 545 to Lv 19). Mewtwo HP: 90/243 (PSN), Psychic PP: 4/10.
+
 
 <hr>
