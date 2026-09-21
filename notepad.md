@@ -119,12 +119,12 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
-  - Status: Paralyzed (PAR)
-  - HP: 54 / 234
+  - Status: Healthy
+  - HP: 234 / 234 [Healed Cerulean Center Turn 33972]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -137,10 +137,10 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
-  - Status: Paralyzed (PAR)
-  - HP: 79 / 225 [Verified Lv 71 Turn 33955]
+  - Status: Healthy
+  - HP: 225 / 225 [Healed Cerulean Center Turn 33972]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 7/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
@@ -5020,10 +5020,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 79 / 225 (Paralyzed). Moves: Surf (PP 7/15), Ice Beam (PP 9/10), Body Slam (PP 13/15), Double-Edge (PP 15/15).
-- Mewtwo (OMEGA Lv 70, Slot 3): HP 54 / 234 (Paralyzed). Moves: Psychic (PP 4/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 225 / 225 (Healthy, Paralysis Cured!). Moves: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
+- Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Healthy, Paralysis Cured!). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
-- Contingency & Health Management: Both high-level battlers are paralyzed with reduced HP thresholds. Fast electric foes (e.g. wild Raichu Lv 53) pose a lethal threat to Sheldon at 79 HP if full paralysis occurs. If Sheldon's HP drops below 50 or after completing this switch-training stretch, utilize Bag Max Potion or navigate to Cerulean City Pok�mon Center via South Exit mat (24, 17) and HM02 Fly to completely restore HP, PP, and cure paralysis.
+- Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+- Full Restoration: Team fully healed and paralysis cured at Cerulean Pok�mon Center Turn 33972. Sheldon has full 168 Speed and outspeeds wild spawns, eliminating any risk from Raichu Lv 53.
 
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
