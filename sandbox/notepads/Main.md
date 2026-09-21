@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥256 [Turn 33350]
-- Pokédex: 44 Caught / 136 Seen [Turn 33363]
+- Pokédex: 45 Caught / 136 Seen [Turn 33659]
 
 ## Milestones
 
@@ -43,5 +43,4 @@
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
 - [x] Evolve Koffing into Weezing (#110) [Turn 33242]
 - [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
-- [x] Evolve Seel into Dewgong (#087) [Turn 33656]
 - [x] Evolve Seel into Dewgong (#087) [Turn 33656]
