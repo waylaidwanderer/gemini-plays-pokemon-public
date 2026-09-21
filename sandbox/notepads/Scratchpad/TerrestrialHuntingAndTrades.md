@@ -1,11 +1,11 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
-- Target: Sandshrew (PANGO Lv 16)
+- Target: Sandshrew (PANGO Lv 17)
 - Target Level: Lv 22 (Sandslash #028, 10,648 EXP)
-- Current EXP: 4,416 EXP (497 to Lv 17; 6,232 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34751]
-- Battles Completed: 2 (Golbat Lv 46: +558, Venomoth Lv 49: +483)
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 238/243, Psychic 8/10, Swift 20/20)
+- Current EXP: 4,941 EXP (972 to Lv 18; 5,707 to Lv 22 Sandslash) [After Magneton Lv 46 Turn 34772]
+- Battles Completed: 3 (Golbat Lv 46: +558, Venomoth Lv 49: +483, Magneton Lv 46: +525)
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 225/243, Psychic 7/10, Swift 20/20)
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pok�dex: 48 Caught!
