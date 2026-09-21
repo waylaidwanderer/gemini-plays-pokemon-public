@@ -104,13 +104,8 @@
 ## Party Pokémon
 - POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
   - Status: Healthy
-  - HP: 37 / 37 [Full Health post-Nurse Joy Heal Turn 33713]
+  - HP: 37 / 37
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
-- BLASTOISE (SHELDON) [Lv 70, Water]
-  - Status: Healthy
-  - HP: 222 / 222 [Full Health post-Nurse Joy Heal Turn 33713]
-  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 33713]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -136,6 +131,11 @@
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
+- BLASTOISE (SHELDON) [Lv 70, Water]
+  - Status: Healthy
+  - HP: 222 / 222
+  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 33713]
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
@@ -926,7 +926,7 @@
 - Northern Connection: Enters from Route 24 waterway boundary at (18, 0).
 - East-West Channel: Traversable water canal spanning columns 6..18 across rows 4..5.
 - Column 6 Chute: Vertical water chute flowing south from row 5 down column 6 to row 12, landing on the Cerulean Cave western apron at (5, 12) directly adjacent to cave entrance (4, 11).
-- Southern River: Expands into broader water basin across columns 0..6, rows 14..16, bounded south by stone fence posts at row 17 with an eastern opening at columns 8..9.
+- Southern River: Expands into broader water basin across columns 0..6, rows 14..16, bounded south by stone fence posts at row 17 with an eastern opening at columns 8..9. (Note: Northern connectivity from southern river to row 12 is unverified; standard transit to Cerulean Cave uses Route 24 canal entrance).
 
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
@@ -5000,16 +5000,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Pokédex advanced to 45 Caught / 136 Seen.
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 15, PC Box 2) to Level 25 -> Poliwhirl (#061).
+- Target 1: Train Poliwag (RIPPLE Lv 15, Slot 1) to Level 25 -> Poliwhirl (#061).
 - Target 2: Use Water Stone (purchased Celadon Dept Store 4F) -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
-- Immediate Steps:
-  1. Exit Cerulean Cave 1F south mat at (24, 17).
-  2. Surf south to Cerulean City.
-  3. Enter Cerulean Pokémon Center to heal party and access PC.
-  4. Deposit Dewgong (SAILOR) into PC Box.
-  5. Change Box to Box 2 and withdraw Poliwag (RIPPLE Lv 15).
-  6. Return to Cerulean Cave 1F (or Celadon Dept Store for Water Stone).
+- Immediate Routing Steps:
+  1. Walk west along Row 18 to Column 8, north through Ramp (8, 15) to Northern District Street.
+  2. Walk east to Column 20, north to Route 24 boundary at (20..21, 0).
+  3. On Route 24: traverse Nugget Bridge to (10, 31..32) and launch Surf into canal.
+  4. Surf down canal chute to Cerulean Cave entrance apron at (5, 12), enter cave at (4, 11).
+  5. In Cerulean Cave 1F: switch-train Poliwag (Slot 1) to Level 25 -> Poliwhirl (#061).
+  6. Fly to Celadon City, buy Water Stone at Dept Store 4F, evolve to Poliwrath (#062).
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
