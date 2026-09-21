@@ -105,12 +105,15 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
-  - HP: 26 / 26
-  - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
-  - Caught: Mt. Moon 1F [Turn 1197]
+  - HP: 29 / 29 [Verified Lv 10 Turn 35441]
+  - Stats: Attack 21, Defense 16, Speed 11, Special 18 [Verified Lv 10 Turn 35441]
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - EXP: 1000 (331 to Lv 11, Target 13,824 for Lv 24 Parasect #047) [Verified Turn 35442]
+  - Moves: Scratch (PP 35/35) [Verified Turn 35442]
+  - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy [Healed Turn 35403]
   - HP: 225 / 225 [Turn 35403]
@@ -134,15 +137,12 @@
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 6: PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+- Slot 6: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
-  - HP: 29 / 29 [Verified Lv 10 Turn 35441]
-  - Stats: Attack 21, Defense 16, Speed 11, Special 18 [Verified Lv 10 Turn 35441]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 1000 (331 to Lv 11, Target 13,824 for Lv 24 Parasect #047) [Verified Turn 35442]
-  - Moves: Scratch (PP 35/35) [Verified Turn 35442]
-  - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
+  - HP: 26 / 26
+  - Stats: Attack 19, Defense 22, Speed 9, Special 11
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
+  - Caught: Mt. Moon 1F [Turn 1197]
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
