@@ -1,18 +1,24 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Dewgong (#087) via Seel Evolution
-- Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) currently stored in PC Box 1.
+- Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
+- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in.
 - Evolves at Lv 34 (only 2 levels, boosted EXP!).
-- EXP to Lv 33: 3,169 EXP; EXP to Lv 34: ~3,300 EXP.
-- Plan:
-  1. Defeat 2-3 wild Pok�mon with Mewtwo to level Seel to Lv 34.
-  2. Evolve Seel into Dewgong (#087) and register in Pok�dex.
+- Current EXP: 33,555 EXP.
+- EXP to Lv 33: 2,382 EXP.
+- EXP to Lv 34: ~5,680 EXP total.
+- Switch-training strategy:
+  1. Wild battle starts with Sailor (Seel).
+  2. Switch to Sheldon on turn 1 (Seel takes 0 damage).
+  3. Sheldon KOs with Surf / Ice Beam / Body Slam.
+  4. Sailor earns ~750-1200 boosted EXP per battle!
+  5. Upon reaching Lv 34, Seel evolves into Dewgong (#087) -> Pokédex 45 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL).
   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC).
 - Water Stone / Leaf Stone Evolutions:
-  - Celadon 4F sells Water Stone and Leaf Stone (�2,100 each).
+  - Celadon 4F sells Water Stone and Leaf Stone (¥2,100 each).
   - Poliwag (RIPPLE Lv 15) -> Poliwhirl Lv 25 -> Poliwrath (#062) via Water Stone.
   - Weepinbell / Victreebel (#071) via Leaf Stone.
