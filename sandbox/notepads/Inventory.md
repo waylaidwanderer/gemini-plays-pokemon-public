@@ -59,7 +59,7 @@
   - Withdrawn from PC Box 1 [Turn 33429]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 222 / 222 [Healed Turn 33538 at Cerulean Center]
+  - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -71,7 +71,7 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Turn 33538 at Cerulean Center]
+  - HP: 234 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]

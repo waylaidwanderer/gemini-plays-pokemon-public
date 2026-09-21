@@ -20,3 +20,11 @@
 
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
+
+## Experience Distribution & Traded Pokémon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all participants who did not faint during the battle.
+- **Traded Pokémon Boost (OT Multiplier):** Traded Pokémon (different Original Trainer / ID) receive a 1.5x multiplier (boosted EXP) on their earned share.
+- **Empirical EXP Verification (Cerulean Cave 1F Wild Battles):**
+  - Turn 33501: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Total EXP ~1,049 split 2 ways (524 base each). Sailor earned 787 boosted EXP (524 * 1.5 = 786). Omega earned 525 EXP.
+  - Turn 33519: Wild Lv 46 Golbat defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,116 split 2 ways (558 base each). Sailor earned 837 boosted EXP (558 * 1.5 = 837). Sheldon earned 558 EXP.
+  - Turn 33530: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Sailor earned 787 boosted EXP. Omega earned 525 EXP.
