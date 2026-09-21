@@ -183,9 +183,11 @@
   - EXP: 125 (91 to Lv 6)
 - Slot 6: SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
   - Status: Healthy [Withdrawn Turn 34616]
-  - HP: Full
+  - HP: 41 / 41 [Verified Lv 15 Turn 34631]
+  - Stats: Attack 27, Defense 30, Speed 21, Special 15 [Verified Lv 15 Turn 34631]
+  - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 3375 (10,648 to Lv 22 Sandslash)
+  - EXP: 3375 (10,648 to Lv 22 Sandslash) [Pending Page 2 check]
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 
 ## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
