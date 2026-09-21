@@ -63,7 +63,7 @@
 
 
 ## Inventory Capacity
-- Active Bag Items: 8 / 20 capacity used.
+- Active Bag Items: 9 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -97,7 +97,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥2,356 [Turn 33346]
+- ¥256 [Turn 33350]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
