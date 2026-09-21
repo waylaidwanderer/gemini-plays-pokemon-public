@@ -104,14 +104,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 9, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 11, Water]
   - Status: Healthy
-  - HP: 22 / 22 [Verified Lv 9 Turn 35065]
-  - Stats: Attack 7, Defense 15, Speed 21, Special 10 [Verified Lv 9 Turn 35062]
+  - HP: Healthy [Verified Lv 11 Turn 35070]
+  - Stats: Attack 8, Defense 17, Speed 25, Special 11 [Verified Lv 11 Turn 35070]
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 1232 (8,768 to Lv 20 Gyarados) [Turn 35060]
+  - EXP: 1770 (8,230 to Lv 20 Gyarados) [Turn 35071]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -123,7 +123,7 @@
   - Status: Poisoned (PSN)
   - HP: 163 / 225 [Verified Turn 35068]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -5041,40 +5041,36 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 1,232 EXP (Lv 9, Delta to Gyarados: 8,768 EXP, ~16 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 211/225, PSN, Surf 13/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
+- Current EXP: 1,770 EXP (Lv 11, Delta to Gyarados: 8,230 EXP, ~15 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 163/225, PSN, Surf 12/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
 
-### Battle Log:
-- Battle 1 [Turn 35048]: Wild Hypno Lv 46. Lead TSUNAMI -> switch to SHELDON -> Surf OHKO (Crit). TSUNAMI earned 538 EXP (156 -> 694 EXP, grew to Lv 8!). Sheldon Surf PP: 14/15.
-- Battle 2 [Turn 35060]: Wild Hypno Lv 46. Lead TSUNAMI -> switch to SHELDON -> Surf 2HKO (Hypno used Poison Gas; Sheldon poisoned, HP 211/225). TSUNAMI earned 538 EXP (694 -> 1,232 EXP, grew to Lv 9!). Sheldon Surf PP: 13/15.
+### Switch-Training Progress:
+- Completed Battles: 3 Battles Won (all Wild Hypno Lv 46)
+- EXP Gained: +1,614 EXP (156 -> 1,770 EXP, grew from Lv 5 to Lv 11)
+- Remaining Delta to Lv 20 Gyarados: 8,230 EXP (~15 battles)
 
 ### Rigorous Candidate Decision Matrix
-1. MAGIKARP (TSUNAMI Lv 5, Box 1 Slot 7):
-   - Growth Group: Slow (EXP = 1.25 * Level^3)
-   - Starting EXP: 156 EXP (Lv 5)
-   - Target EXP: 10,000 EXP (Lv 20 Gyarados #130)
-   - Net Delta: 9,844 EXP (~18 Cerulean Cave battles) -> SELECTED (Lowest delta of all candidates!)
-2. PARAS (FUNGI Lv 10, Box 1 Slot 7):
+1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 1,000 EXP (Lv 10)
    - Target EXP: 13,824 EXP (Lv 24 Parasect #047)
    - Net Delta: 12,824 EXP (~23 battles)
-3. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
+2. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 3,375 EXP (Lv 15)
    - Target EXP: 21,952 EXP (Lv 28 Kingler #099)
    - Net Delta: 18,577 EXP (~34 battles)
-4. PSYDUCK (MIGRAINE Lv 15, Box 2):
+3. PSYDUCK (MIGRAINE Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 3,375 EXP (Lv 15)
    - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
    - Net Delta: 32,562 EXP (~59 battles)
-5. SLOWPOKE (DOPEY Lv 15, Box 2):
+4. SLOWPOKE (DOPEY Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 3,375 EXP (Lv 15)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
    - Net Delta: 47,278 EXP (~86 battles)
-6. In-Game Trades:
+5. In-Game Trades:
    - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 
