@@ -24,7 +24,7 @@
 - Mewtwo Swift vs Hypno Lv 46: Empirically verified ~55-60% HP per hit (reliable 2-hit KO, observed Battles 10, 11, 12, 14).
 - Mewtwo Psychic vs Golbat Lv 46: Empirically verified 100% OHKO via 2x super-effective STAB (observed Battle 13 Turn 34459).
 - Mewtwo Psychic vs Venomoth Lv 49: Bug/Poison type is 2x weak to Psychic; guaranteed OHKO via STAB Psychic.
-- Poison Mechanics: Mewtwo poisoned in Battle 14; HP reduced by 1/16 max HP per battle turn and 1 HP per 4 overworld steps. HP to be audited on party screen.
+- Poison Mechanics: Empirically verified in-battle poison damage = 14 HP per turn (floor(234/16) = 14, observed Turn 34475: 96 -> 82 HP; Turn 34486: 73 -> 59 HP). Overworld poison damage = 1 HP per 4 steps (observed Turn 34473: 97 -> 96 HP over 5 steps; Turn 34484: 82 -> 73 HP over 36 steps, exactly 9 HP loss).
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
