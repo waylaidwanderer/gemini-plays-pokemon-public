@@ -154,7 +154,6 @@
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
-  - Transferred to PC Box 1 (Active party full: 17/20)
 - TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
   - Status: Healthy
   - HP: 62 / 62
@@ -178,7 +177,6 @@
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
-  - Transferred to PC Box 1 (Active Party full)
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
   - HP: 30 / 30
@@ -192,7 +190,6 @@
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]
-  - Transferred to PC Box 1 (Active Party full)
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
@@ -204,19 +201,15 @@
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
   - Status: Healthy
   - Caught: Safari Zone Area 2 tall grass [Turn 8384]
-  - Transferred to PC Box 1 (Active Party full)
 - KANGASKHAN (Nickname: MATILDA) [Lv 25, Normal]
   - Status: Healthy
   - Caught: Safari Zone Area 1 tall grass [Turn 9001]
-  - Transferred to PC Box 1 (Active Party full)
 - LAPRAS (Nickname: NESSY) [Lv 15, Water/Ice]
   - Status: Healthy
   - Received: Silph Co employee gift [Turn 12858, Verified Turn 12865]
-  - Transferred to PC Box 1 (Active Party full)
 - HITMONLEE (Nickname: BRUCE) [Lv 30, Fighting]
   - Status: Healthy
   - Received: Fighting Dojo prize [Turn 13254]
-  - Transferred to PC Box 1 (Active Party full)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
 
@@ -224,11 +217,9 @@
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
-  - Transferred to PC Box 2 (1/20)
 - POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
-  - Transferred to PC Box 2 (2/20)
 - JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
   - Status: Healthy
   - HP: 65 / 65
@@ -247,11 +238,9 @@
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
-  - Transferred to PC Box 2 (5/20)
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
-  - Transferred to PC Box 2 (8/20)
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
@@ -4325,16 +4314,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
 
 ## Wild Pok�mon (Empirically Verified)
-- Golbat: Lv 46 [Encountered 1F Turn 25514; base EXP ~1116, yields 837 boosted EXP in 2-way split, Turn 33519]
-- Magneton: Lv 46 [Encountered 1F Turn 25520; base EXP ~1049, yields 787 boosted EXP in 2-way split, Turns 33501, 33530]
+- Golbat: Lv 46 [Encountered 1F Turn 25514]
+- Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
 - Venomoth: Lv 49 [Encountered 1F Turn 26123]
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
-- Hypno: Lv 46 [Encountered 1F Turn 26276; base EXP ~1076, yields 807 boosted EXP in 2-way split, Turn 33579]
-- Kadabra: Lv 49 [Encountered 1F Turn 27129; base EXP ~1008, yields 756 boosted EXP in 2-way split, Turn 33589]
+- Hypno: Lv 46 [Encountered 1F Turn 26276]
+- Kadabra: Lv 49 [Encountered 1F Turn 27129]
 - Parasect: Lv 52 [Encountered 1F Turn 27400
-- Ditto: Lv 53 [Encountered 1F Turn 33610; base EXP ~454, yields 340 boosted EXP in 2-way split, Turn 33621]]
+- Ditto: Lv 53 [Encountered 1F Turn 33610]]
 
 <hr>
 
