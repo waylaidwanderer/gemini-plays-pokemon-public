@@ -48,12 +48,12 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 21, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 22, Water]
   - Status: Healthy
-  - HP: 49 / 49 [Verified Lv 21 Turn 33911]
-  - Stats: Attack 28, Defense 28, Speed 48, Special 23 [Verified Lv 21 Turn 33906]
+  - HP: Full (Lv 22)
+  - Stats: Attack 29, Defense 29, Speed 50, Special 24 [Verified Lv 22 Turn 33937]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 7530 [Turn 33925]
+  - EXP: 8013 [Turn 33937]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
@@ -84,9 +84,9 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Paralyzed (PAR)
-  - HP: 140 / 225 [Verified Lv 71 Turn 33917]
+  - HP: 120 / 225 [Verified Lv 71 Turn 33937]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 10/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 9/15), Ice Beam (PP 9/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
