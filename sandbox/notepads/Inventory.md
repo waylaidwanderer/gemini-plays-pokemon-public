@@ -56,7 +56,7 @@
   - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
-  - Withdrawn from PC Box 1 [Turn 33429], Lead slot [Turn 33440]
+  - Withdrawn from PC Box 1 [Turn 33429]
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 33286 at Cinnabar Island]

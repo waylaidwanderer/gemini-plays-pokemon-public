@@ -5,11 +5,8 @@
 - Evolves at Lv 34 (only 2 levels, boosted EXP!).
 - EXP to Lv 33: 3,169 EXP; EXP to Lv 34: ~3,300 EXP.
 - Plan:
-  1. Withdraw Seel (SAILOR) from PC Box 1 into party (party 6/6).
-  2. Lead with Seel in Slot 1, switch to Mewtwo in Slot 2.
-  3. Fly to Cerulean City and enter Cerulean Cave 1F.
-  4. Defeat 2-3 wild Pok�mon with Mewtwo to level Seel to Lv 34.
-  5. Evolve Seel into Dewgong (#087) and register in Pok�dex.
+  1. Defeat 2-3 wild Pok�mon with Mewtwo to level Seel to Lv 34.
+  2. Evolve Seel into Dewgong (#087) and register in Pok�dex.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:

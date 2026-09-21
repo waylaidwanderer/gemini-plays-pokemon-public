@@ -21,3 +21,9 @@
 - Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
 - Item Ball at (10, 5): Pok¥ Ball item visible on western elevated plateau north of row 7 ridge.
+
+## Western Canal & Water Access (Verified Turn 33478)
+- Western Canal Shoreline: Located at (8, 15) on grass, directly adjacent to water shoreline at (8, 16).
+- Accessible from Northern Avenue by walking west through open grass at (9..8, 14..15) north of the Nugget Bridge stone railing.
+- Surfing Launch: Facing South from grass at (8, 15) into water tile (8, 16) launches Surfing directly into the north-south canal.
+- Canal Route: Columns 6..8 form an open north-south waterway flowing south from Route 24 (rows 16..36) directly into Cerulean City canal (rows 0..16), providing direct water transit to the Cerulean Cave entrance landing at (5, 12).
