@@ -7,13 +7,12 @@
 5. PP UP x 1
 6. MAX ELIXER x 1
 7. HM02 [Key Item]
-8. GUARD SPEC. x 1
 9. MAX POTION x 1
 10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
 
 
 ## Inventory Capacity
-- Active Bag Items: 9 / 20 capacity used.
+- Active Bag Items: 8 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -47,7 +46,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥2,006 [Turn 33341]
+- ¥2,356 [Turn 33346]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
