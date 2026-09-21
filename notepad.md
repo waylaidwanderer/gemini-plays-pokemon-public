@@ -104,14 +104,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 8, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 9, Water]
   - Status: Healthy
-  - HP: 21 / 21 [Verified Lv 8 Turn 35055]
-  - Stats: Attack 7, Defense 14, Speed 19, Special 9 [Verified Lv 8 Turn 35049]
+  - HP: Healthy [Verified Lv 9 Turn 35060]
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 694 (9,306 to Lv 20 Gyarados) [Turn 35049]
+  - EXP: 1232 (8,768 to Lv 20 Gyarados) [Turn 35060]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -120,10 +119,10 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - EXP: 314 (105 to Lv 9)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
-  - Status: Healthy
-  - HP: 225 / 225
+  - Status: Poisoned (PSN)
+  - HP: 211 / 225 [Verified Turn 35059]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -5041,11 +5040,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 694 EXP (Lv 8, Delta to Gyarados: 9,306 EXP, ~17 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Surf 14/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
+- Current EXP: 1,232 EXP (Lv 9, Delta to Gyarados: 8,768 EXP, ~16 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 211/225, PSN, Surf 13/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
 
 ### Battle Log:
 - Battle 1 [Turn 35048]: Wild Hypno Lv 46. Lead TSUNAMI -> switch to SHELDON -> Surf OHKO (Crit). TSUNAMI earned 538 EXP (156 -> 694 EXP, grew to Lv 8!). Sheldon Surf PP: 14/15.
+- Battle 2 [Turn 35060]: Wild Hypno Lv 46. Lead TSUNAMI -> switch to SHELDON -> Surf 2HKO (Hypno used Poison Gas; Sheldon poisoned, HP 211/225). TSUNAMI earned 538 EXP (694 -> 1,232 EXP, grew to Lv 9!). Sheldon Surf PP: 13/15.
 
 ### Rigorous Candidate Decision Matrix
 1. MAGIKARP (TSUNAMI Lv 5, Box 1 Slot 7):
