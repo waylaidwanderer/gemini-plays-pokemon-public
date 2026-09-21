@@ -111,7 +111,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 8716 (1,284 to Lv 20 Gyarados) [Verified Turn 35307, Level 19]
+  - EXP: 9317 (683 to Lv 20 Gyarados) [Verified Turn 35331, Level 19]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -121,9 +121,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Poisoned (PSN) [Turn 35305]
-  - HP: 215 / 225 [Turn 35305]
+  - HP: 162 / 225 [Turn 35331]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -5025,12 +5025,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Evolve Magikarp (TSUNAMI) into Gyarados (#130)
 - Target: Level 20 (10,000 EXP, Pokédex #130)
-- Current EXP: 8,716 EXP (Lv 19, Remaining Delta: 1,284 EXP, ~2-3 battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 215/225, PSN, Surf 14/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35307]
+- Current EXP: 9,317 EXP (Lv 19, Remaining Delta: 683 EXP, ~1-2 battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 162/225, PSN, Surf 13/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35331]
 
 ### Switch-Training Session Progress:
-- Completed Battles: 16 Battles Won (5 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 2 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
-- Total Session EXP Gained: +8,560 EXP (from base 156 EXP)
+- Completed Battles: 17 Battles Won (5 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 3 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
+- Total Session EXP Gained: +9,161 EXP (from base 156 EXP)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -5046,8 +5046,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP.
-- Magikarp (TSUNAMI Lv 19, 8,716 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 1,284 EXP.
-- Exact projected battles remaining: ceil(1284 / 530) = **2.4 (~2-3 battles)**.
+- Magikarp (TSUNAMI Lv 19, 9,317 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 683 EXP.
+- Exact projected battles remaining: ceil(683 / 530) = **1.3 (~1-2 battles)**.
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
@@ -5078,7 +5078,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Magikarp (TSUNAMI Lv 19, HP 37/37) has Splash/Tackle, but cannot survive high-level Cerulean Cave attacks.
 - Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
 - Switch Target Choice:
-  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 215/225, PSN, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
+  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 162/225, PSN, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
   - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton, Hypno, Raichu): Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep with STAB Psychic / Swift.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
