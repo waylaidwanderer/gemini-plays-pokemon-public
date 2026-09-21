@@ -4,7 +4,7 @@
 - Current Status: Level 25 (16,900 EXP, 676 to Lv 26) [Verified Battle 17 Turn 34499].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
 - Remaining Delta: 17,576 - 16,900 = 676 EXP (~1-2 Cerulean Cave battles).
-- Switch-Training Sweepers: Mewtwo (OMEGA Lv 70, 42/234 HP, PSN, Swift 9/20, Psychic 5/10), Blastoise (SHELDON Lv 71, 114/225 HP).
+- Switch-Training Sweepers: Mewtwo (OMEGA Lv 70, 234/234 HP, Healthy, Swift 20/20, Psychic 10/10), Blastoise (SHELDON Lv 71, 225/225 HP). [Fully Healed Turn 34507]
 - Progress Summary: 17 battles completed (+9,218 EXP gained).
   - Milestones: Lv 20 reached Battle 1, Lv 21 reached Battle 3, Lv 22 reached Battle 6, Lv 23 reached Battle 9, Lv 24 reached Battle 12 (learned Sand-Attack), Lv 25 reached Battle 15.
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
@@ -18,12 +18,15 @@
 
 ### Active Battle Log (Cerulean Cave 1F):
 - Battle 17 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached 16,900 EXP (676 to Lv 26).
-- Next Action: Dig to Cerulean Center to heal poison/HP, then return for the final 676 EXP to evolve into Dugtrio (#051).
+- Battle 18 Active: Wild Venomoth Lv 49 appeared [Turn 34529].
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46: Empirically verified ~55-60% HP per hit (reliable 2-hit KO, observed Battles 10, 11, 12, 14).
 - Mewtwo Psychic vs Golbat Lv 46: Empirically verified 100% OHKO via 2x super-effective STAB (observed Battle 13 Turn 34459).
-- Mewtwo Psychic vs Venomoth Lv 49: Bug/Poison type is 2x weak to Psychic; guaranteed OHKO via STAB Psychic.
+- Mewtwo Psychic vs Venomoth Lv 49: Empirically verified 100% OHKO via 2x super-effective STAB (observed Battle 15 Turn 34476).
+- Blastoise Double-Edge vs Hypno Lv 46: Deals ~132 damage, verified 33 HP recoil (observed Battle 17 Turn 34496: 216 -> 183 HP).
+- Blastoise Body Slam vs Hypno Lv 46: 0 recoil, 100% accuracy finishing KO (observed Battle 17 Turn 34499).
+- Hypno Psychic vs Blastoise Lv 71 (Critical Hit): Verified 69 damage (observed Battle 17 Turn 34497: 183 -> 114 HP).
 - Poison Mechanics: Empirically verified in-battle poison damage = 14 HP per turn (floor(234/16) = 14, observed Turn 34475: 96 -> 82 HP; Turn 34486: 73 -> 59 HP). Overworld poison damage = 1 HP per 4 steps (observed Turn 34473: 97 -> 96 HP over 5 steps; Turn 34484: 82 -> 73 HP over 36 steps, exactly 9 HP loss).
 
 ## Future Strategic Horizons & Candidates
