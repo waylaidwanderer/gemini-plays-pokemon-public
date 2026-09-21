@@ -102,7 +102,7 @@
 ## Party Pokémon
 - SEEL (Nickname: SAILOR) [Lv 33, Water]
   - Status: Healthy
-  - HP: 90 / 90
+  - HP: 93 / 93 [Verified Lv 33 Turn 33583]
   - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
   - EXP: 35986 (3318 to Lv 34) [Verified Turn 33579]
