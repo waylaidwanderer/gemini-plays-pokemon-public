@@ -54,7 +54,7 @@
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 2853 (7,147 to Lv 20 Gyarados) [Turn 35090]
+  - EXP: 3378 (52 to Lv 14, 6,622 to Lv 20 Gyarados) [Turn 35111]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -64,7 +64,7 @@
   - EXP: 314 (105 to Lv 9)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Poisoned (PSN)
-  - HP: 158 / 225 [Verified Turn 35087]
+  - HP: 146 / 225 [Verified Turn 35106]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -75,11 +75,11 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - EXP: 125 (91 to Lv 6)
 - Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Healthy
-  - HP: 231 / 243 [Verified Turn 35078]
+  - Status: Paralyzed (PAR)
+  - HP: 231 / 243 [Verified Turn 35111]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
