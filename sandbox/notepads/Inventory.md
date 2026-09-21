@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÉ FLUTE [Key Item]
+1. POKÃ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -44,9 +44,9 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥3056 [Turn 34152]
+- Â¥3056 [Turn 34152]
 
-## Party Pokémon
+## Party PokÃ©mon
 - Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 18, Water]
   - Status: Healthy
   - HP: 36 / 36 [Verified Lv 18 Turn 35219]
@@ -54,7 +54,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 7653 (920 to Lv 19, 2,347 to Lv 20 Gyarados) [Turn 35215] [Turn 35207] [Turn 35184]
+  - EXP: 7653 (920 to Lv 19, 2,347 to Lv 20 Gyarados) [Turn 35215]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -79,14 +79,14 @@
   - HP: 11 / 243 [Verified Turn 35219]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 18/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
 
-## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
+## PC Box 1 PokÃ©mon (Contiguous Slot Order - 13 PokÃ©mon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
 - Slot 2: ZAPDOS (THUNDER) [Lv 50]
 - Slot 3: HITMONLEE (BRUCE) [Lv 30]
@@ -101,7 +101,7 @@
 - Slot 12: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 - Slot 13: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 
-### Detailed Stats for Box 1 Pokémon:
+### Detailed Stats for Box 1 PokÃ©mon:
 - SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
   - Status: Healthy
   - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
@@ -164,7 +164,7 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
 
-## PC Box 2 Pok�mon
+## PC Box 2 Pokémon
 - POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
   - Status: Healthy
   - HP: 70 / 70 [Verified Lv 25 Turn 34075]
@@ -194,10 +194,10 @@
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
   - Status: Healthy
-  - Caught: Pok�mon Mansion 1F with Ultra Ball [Turn 32303]
+  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
-  - Caught: Pok�mon Mansion B1F with Ultra Ball [Turn 33046]
+  - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
@@ -206,7 +206,7 @@
   - Stats: Attack 85, Defense 108, Speed 60, Special 83 [Verified Turn 33278]
   - EXP: 59319 (Medium Fast, Lv 39) [Verified Turn 33278]
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
-  - Caught: Pok�mon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
 - NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
   - HP: 95 / 95
