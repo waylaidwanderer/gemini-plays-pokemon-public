@@ -48,15 +48,14 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 24, Water]
+- POLIWHIRL (Nickname: RIPPLE) [Lv 25, Water]
   - Status: Healthy
-  - HP: Full (Lv 24)
-  - Stats: Attack 32, Defense 32, Speed 54, Special 26 [Verified Lv 24 Turn 34029]
+  - HP: Full (Lv 25)
   - OT: BLUE (IDNo. 04620)
-  - EXP: 11559 [Turn 34059, +538 from Hypno Lv 46 #2]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 176 EXP needed)
-  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25)
-  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
+  - EXP: 12020 [Turn 34071, +461 from Raichu Lv 53]
+  - Growth Group: Medium Slow (1,391 EXP to Lv 26)
+  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -66,11 +65,11 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234
+  - HP: 208 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 429211 (18177 to Lv 71) [Turn 34071, +461 from Raichu Lv 53]
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy

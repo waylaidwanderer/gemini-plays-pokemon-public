@@ -2,10 +2,8 @@
 
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 24 (11,559 EXP, +538 from Hypno Lv 46 #2 [Turn 34059]). Stats: Attack 32, Defense 32, Speed 54, Special 26. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
-  - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 11,559 = 176 EXP (1 battle to Lv 25 Poliwhirl!).
+- [x] Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061) [ACHIEVED Turn 34072!].
+  - Status: Poliwhirl Lv 25 (12,020 EXP). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
