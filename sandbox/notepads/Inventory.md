@@ -53,7 +53,7 @@
   - Stats: Attack 37, Defense 42, Speed 29, Special 20 [Verified Lv 21 Turn 34896]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 9799 (849 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34915]
+  - EXP: 10357 (291 to Lv 22 Sandslash) [After Golbat Lv 46 Turn 34927]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
@@ -70,7 +70,7 @@
   - Status: Healthy
   - HP: 210 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
 - Slot 5: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
