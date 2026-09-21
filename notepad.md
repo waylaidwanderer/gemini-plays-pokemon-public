@@ -5082,9 +5082,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Diglett Progress: 8,778 + 538 = 9,316 EXP.
   - LEVEL UP: Diglett reached Level 21! Stats: Attack 32, Defense 18, Speed 50, Special 28 [Verified Turn 34326].
   - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 8,260 EXP (~15 Cerulean Cave battles remaining).
-- Battle 4 (Turn 34329): Wild Sandslash Lv 52
-  - Status: Encountered on Row 14 at (23, 14).
-  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic OHKO (231 Spc vs ~75 Spc).
-  - Expected EXP: 601 EXP for Diglett (Lv 52 Sandslash yields 1,202 total / 2 = 601).
+- Battle 4 (Turn 34329-34334): Wild Sandslash Lv 52
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Sandslash Swift dealt 18 dmg; Mewtwo took 14 PSN dmg to 98 HP). Turn 2 Mewtwo Psychic OHKO.
+  - EXP Yield: 1,202 total -> Base share: 601 EXP to Diglett.
+  - Diglett Progress: 9,316 + 601 = 9,917 EXP (731 to Lv 22).
+  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 7,659 EXP (~13-14 Cerulean Cave battles remaining).
 
 <hr>
