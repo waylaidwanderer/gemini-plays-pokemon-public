@@ -8,13 +8,16 @@
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 15, Slot 1) to Level 25 -> Poliwhirl (#061).
+  - Baseline: Lv 15 (2,035 EXP, 500 to Lv 16). HP 37/37, Atk 21, Def 21, Spd 35, Spc 17. Moves: Bubble (PP 30/30).
+  - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
+  - Total EXP Needed: 11,735 - 2,035 = 9,700 EXP (~18 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
 ### Immediate Routing & Action Steps:
 1. Surf west along row 5 channel to col 6, then south down chute to cave landing at (5, 12).
 2. Disembark and enter Cerulean Cave 1F at (4, 11).
-3. Open party menu in Cerulean Cave 1F to inspect and record Poliwag's exact baseline EXP, Level Up requirement, and moves/PP.
+3. Baseline inspected & logged: 2,035 EXP, 500 to Lv 16, Bubble PP 30/30 [Turn 33759].
 4. Switch-train Poliwag (Slot 1) against wild Pokémon in Cerulean Cave 1F to Level 25 -> Poliwhirl (#061).
 5. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) to clerk, purchase 1 Water Stone (¥2,100) at 4F, and evolve Poliwhirl into Poliwrath (#062).
 
