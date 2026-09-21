@@ -133,7 +133,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Asleep (SLP) [Spore Turn 35193]
-  - HP: 145 / 243 [Verified Turn 35195]
+  - HP: 128 / 243 [Verified Turn 35199]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 18/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
