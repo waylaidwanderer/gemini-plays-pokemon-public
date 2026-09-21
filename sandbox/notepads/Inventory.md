@@ -11,7 +11,6 @@
 8. GUARD SPEC. x 1
 9. MAX POTION x 1
 10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-11. RARE CANDY x 1 [Withdrawn from PC Turn 33252]
 
 
 ## Inventory Capacity
@@ -219,11 +218,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Transferred to PC Box 2 (6/20)
-- VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
-  - Status: Healthy
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
-  - Withdrawn to active party [Turn 33297]
-
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
@@ -238,5 +232,5 @@
   - Stats: Attack 81, Defense 105, Speed 54, Special 77 [Verified Lv 39 Turn 33277]
   - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33277]
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
   - Deposited: Cinnabar PC Box 2 (10/20) [Turn 33294]

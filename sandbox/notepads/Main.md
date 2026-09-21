@@ -41,4 +41,4 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
-- [x] Evolve Koffing into Weezing (#110) [Turn 33277]
+- [x] Evolve Koffing into Weezing (#110) [Turn 33242]

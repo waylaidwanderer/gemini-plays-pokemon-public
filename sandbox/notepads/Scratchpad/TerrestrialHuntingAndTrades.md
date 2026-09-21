@@ -8,14 +8,18 @@
   - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
   - Magmar (#126 Lv 38 VULCAN) [Caught Turn 33046, Box 2]
 
-## Milestone: Obtain Weezing (#110) [COMPLETED Turn 33277]
-- Koffing (SMOGGY) successfully evolved into Weezing (#110)!
+## Milestone: Obtain Weezing (#110) [COMPLETED Turn 33242]
+- Koffing (SMOGGY) evolved into Weezing (#110) at standard Level 35 on Turn 33242.
+  (Audit note: Multi-button input chunking on Turn 33242 rapidly advanced through the evolution animation into the Bag menu, masking the visual transition until stats were audited on Turn 33277).
 - Final Stats at Lv 39: HP 102, Attack 81, Defense 105, Speed 54, Special 77.
-- EXP: 59319 (4681 to Lv 40).
-- Moves: Tackle, Smog, Sludge, Smokescreen.
 - Pokédex updated: 43 Caught / 136 Seen!
 
-## Next Objectives & Horizons
-1. Verify Pokédex count (43 Caught / 136 Seen).
-2. Heal party at Nurse Joy (cure Mewtwo's poison).
-3. Determine next Pokédex target (e.g., fishing rods, trade evolutions, remaining terrestrial encounters, etc.).
+## Next Milestone: Evolve Vulpix into Ninetales (#038)
+- Vulpix (KITSUNE, Lv 33) is in active party!
+- Bag holds high-value items (Max Elixer ¥2,250, PP Up ¥4,900) to fund Fire Stone purchase (¥2,100).
+- Plan:
+  1. Exit Cinnabar Pokémon Center to outdoor exterior.
+  2. Use HM02 FLY with Farfetch'd (DUX) to fly to Celadon City.
+  3. Enter Celadon Department Store 4F, sell Max Elixer, buy Fire Stone.
+  4. Use Fire Stone on Vulpix to evolve into Ninetales (#038).
+  5. Register Ninetales in Pokédex (44 Caught)!
