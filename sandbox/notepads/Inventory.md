@@ -88,7 +88,6 @@
   - HP: 100 / 100
   - Stats: Attack 79, Defense 103, Speed 53, Special 75 [Verified Lv 38 Turn 33268]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
-  - Leveled to Lv 35 via Rare Candy [Turn 33240]
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
@@ -229,6 +228,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
   - Transferred to PC Box 2 (8/20)
-- MUK (Nickname: SLUDGE) [Lv 38, Poison]
+- MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
   - Deposited from active party into PC Box 2 (9/20) [Turn 33226]
