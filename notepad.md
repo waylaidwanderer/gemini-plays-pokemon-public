@@ -109,7 +109,7 @@
   - Status: Healthy
   - HP: 69 / 69 [Verified Lv 20 Gyarados Turn 35416]
   - Stats: Attack 58, Defense 38, Speed 43, Special 49 [Verified Lv 20 Gyarados Turn 35416]
-  - Moves: Splash, Tackle, Bite
+  - Moves: Splash (PP 40/40), Tackle (PP 35/35), Bite (PP 25/25)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
   - EXP: 10338 (Level 20 - Evolved from Magikarp #129 into Gyarados #130!) [Turn 35366]
