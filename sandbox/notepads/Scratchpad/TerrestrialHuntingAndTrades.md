@@ -1,10 +1,5 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Completed Goals
-- Dewgong (#087) via Seel Evolution [Turn 33656]:
-  - Evolved Sailor (Seel -> Dewgong) at Level 34 (39,512 EXP).
-  - Stats: HP 113/113, Attack 56, Defense 67, Speed 59, Special 79.
-  - Pokédex advanced to 45 Caught / 136 Seen.
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 18, Slot 1) to Level 25 -> Poliwhirl (#061).
