@@ -119,12 +119,12 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
-  - Status: Healthy
-  - HP: 234 / 234
+  - Status: Asleep (SLP)
+  - HP: 85 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 33713]
+  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -334,13 +334,13 @@
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native: Poliwag/Omega). Boosted yield = `787` (traded: Sailor) [Turns 33501, 33530].
-  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558` (native: Poliwag/Omega) [Turns 33789, 33802]. Boosted yield = `837` (traded: Sailor) [Turns 33519, 33656].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native). Boosted yield = `807` (traded) [Turn 33579].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native). Boosted yield = `756` (traded) [Turns 33589, 33601].
-  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native). Boosted yield = `340` (traded) [Turn 33620].
-  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native). Boosted yield = `691` (traded) [Turn 33668].
-  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native: Poliwag/Omega) [Turn 33775].
+  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native), boosted = `787` (traded).
+  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558` (native), boosted = `837` (traded).
+  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native), boosted = `807` (traded).
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native), boosted = `756` (traded).
+  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
+  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
+  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native).
 
 
 <hr>
@@ -4343,8 +4343,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
 - Kadabra: Lv 49 [Encountered 1F Turn 27129]
-- Parasect: Lv 52 [Encountered 1F Turn 27400
-- Ditto: Lv 53 [Encountered 1F Turn 33610]]
+- Parasect: Lv 52 [Encountered 1F Turn 27400]
+- Ditto: Lv 53 [Encountered 1F Turn 33610]
 
 
 <hr>
