@@ -58,6 +58,11 @@
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
 
+
+### In-Battle Sustain & Secondary Move Protocol
+- Mewtwo Recover (PP 20/20): Restores 50% max HP (up to 121 HP). Use against non-threatening turns (e.g. Hypno Meditate, Poison Gas, or status turns) to sustain Mewtwo HP and eliminate poison attrition without retreating.
+- Secondary Attacks: Mewtwo Swift (PP 19/20) and Blastoise Ice Beam (PP 10/10) provide 29 additional high-yield attacks, extending grinding expeditions far beyond primary STAB moves alone.
+
 ### Battle Log:
 - Battle 1 [Turn 35552]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 11! (EXP: 1601 / 13824, remaining: 12223). Stats at Lv 11: Atk 23, Def 17, Spd 12, Spc 19. Blastoise HP: 188/225, Surf PP: 14/15.
 - Battle 2 [Turn 35570]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Swift + Psychic (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 12! (EXP: 2139 / 13824, remaining: 11685). Mewtwo HP: 231/243 (PSN), Psychic PP: 9/10, Swift PP: 19/20.
