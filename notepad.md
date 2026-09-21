@@ -165,17 +165,17 @@
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
-  - Evolved from Nidorina via Moon Stone [Turn 31184], Deposited Celadon PC [Turn 31187]
+  - Evolved from Nidorina via Moon Stone [Turn 31184]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
   - Moves: Wing Attack, Agility, Supersonic
-  - Revived from Old Amber at Cinnabar Lab [Turn 30947], Deposited Celadon PC [Turn 31154]
+  - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
   - Status: Healthy
   - HP: 67 / 67
   - Moves: Water Gun, Withdraw, Horn Attack
-  - Revived from Helix Fossil [Turn 30898], Deposited Celadon PC [Turn 31003]
+  - Revived from Helix Fossil [Turn 30898]
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
@@ -920,6 +920,13 @@
 - North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
 - East: Route 9 entrance. Stepping East from (39, 16) onto column 40 warps to Route 9 (0, 8) [Turn 28491]. (Note: (38, 16) is internal grass path).
 
+
+## Cerulean City Canal Waterway Topology [Verified Turns 33486-33565]
+- Northern Connection: Enters from Route 24 waterway boundary at (18, 0).
+- East-West Channel: Traversable water canal spanning columns 6..18 across rows 4..5.
+- Column 6 Chute: Vertical water chute flowing south from row 5 down column 6 to row 12, landing on the Cerulean Cave western apron at (5, 12) directly adjacent to cave entrance (4, 11).
+- Southern River: Expands into broader water basin across columns 0..6, rows 14..16, bounded south by stone fence posts at row 17 with an eastern opening at columns 8..9.
+
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
 - Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
@@ -1495,7 +1502,7 @@
 - **No Direct 'A' Interaction:** In retail Pokémon Red/Blue, pressing 'A' while facing a cuttable tree, boulder, or dark cave does NOT prompt the player to use field moves. Field moves MUST be manually selected through the party Pokémon menu.
 - **Menu Execution Sequence:**
   1. Press `Start` to open the Start menu.
-  2. Select `POKéMON` (2nd option from top).
+  2. Select `POKEéMON` (2nd option from top).
   3. Navigate to the party member knowing the desired field move.
   4. Press `A` to open the Pokémon's command menu.
   5. Select the field move (e.g. `CUT`, `FLASH`, `SURF`, `STRENGTH`, `DIG`, `TELEPORT`) at the top of the menu above STATS / SWITCH.
@@ -1513,7 +1520,7 @@
     - The destination list wraps around continuously in both directions.
     - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
     - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
-  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POK�MON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POK�MON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
+  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POKEeMON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POKEeMON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).
@@ -1529,7 +1536,7 @@
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
 
 ## Field Items (Poké Flute)
-- **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
+- **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKEéMON blocks the way!" and closes without prompting to play the flute. The POKEé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKEé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 
 ## Bicycle Physics & Locomotion Mechanics
 - **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
@@ -4972,12 +4979,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Selecting `CHANGE BOX` in Bill's PC does NOT immediately open the box list.
 - Exact Menu & Dialogue Flow:
   1. Select `CHANGE BOX` (Slot 4 in Bill's PC menu).
-  2. Dialogue prints: 'When you change a POK�MON BOX, data will be saved. Is that OK?'
+  2. Dialogue prints: 'When you change a POKEeMON BOX, data will be saved. Is that OK?'
   3. A `YES / NO` selection prompt appears (cursor defaults to `YES`).
   4. Selecting `NO` (or pressing B) cancels the operation and returns to Bill's PC menu without saving.
   5. Selecting `YES` opens the 'Choose a PKMN BOX' list (`BOX 1` through `BOX 12`), with cursor initializing on the current active box.
   6. Navigating to the desired box and pressing A initiates the save routine ('Saving... DON'T TURN OFF THE POWER.').
-  7. Upon save completion, prints '[PLAYER] changed the POK�MON BOX!' and returns to Bill's PC menu with the newly active box displayed.
+  7. Upon save completion, prints '[PLAYER] changed the POKEeMON BOX!' and returns to Bill's PC menu with the newly active box displayed.
 
 <hr>
 
