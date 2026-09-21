@@ -15,9 +15,10 @@
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 4/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
-- Blastoise (SHELDON Lv 70, Slot 6): Surf PP 13/15, Ice Beam PP 10/10.
-- Contingency: If Mewtwo's Psychic reaches <= 2 PP, switch lead switch-in to Sheldon (Surf/Ice Beam OHKOs most 1F spawns) or use Swift on lower-defense targets.
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 79 / 225 (Paralyzed). Moves: Surf (PP 7/15), Ice Beam (PP 9/10), Body Slam (PP 13/15), Double-Edge (PP 15/15).
+- Mewtwo (OMEGA Lv 70, Slot 3): HP 54 / 234 (Paralyzed). Moves: Psychic (PP 4/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
+- Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
+- Contingency & Health Management: Both high-level battlers are paralyzed with reduced HP thresholds. Fast electric foes (e.g. wild Raichu Lv 53) pose a lethal threat to Sheldon at 79 HP if full paralysis occurs. If Sheldon's HP drops below 50 or after completing this switch-training stretch, utilize Bag Max Potion or navigate to Cerulean City Pok�mon Center via cave entrance (4, 11) and HM02 Fly to completely restore HP, PP, and cure paralysis.
 
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
