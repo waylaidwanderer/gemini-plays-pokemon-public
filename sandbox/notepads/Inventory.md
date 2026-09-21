@@ -47,13 +47,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 18, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 19, Bug/Grass]
   - Status: Healthy
-  - HP: 44 / 44
-  - Stats: Attack 35, Defense 26, Speed 17, Special 30 [Verified Lv 18 Turn 35647]
+  - HP: 46 / 46
+  - Stats: Attack 37, Defense 27, Speed 18, Special 31 [Verified Lv 19 Turn 35671]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 6852 (Target 13,824 for Lv 24 Parasect #047, remaining 6,972, 7 to Lv 19) [Verified Turn 35662]
+  - EXP: 7327 [Verified Lv 19 Turn 35671]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
