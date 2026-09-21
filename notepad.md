@@ -136,11 +136,11 @@
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
-- BLASTOISE (SHELDON) [Lv 70, Water]
-  - Status: Healthy
-  - HP: 180 / 222
-  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
+- BLASTOISE (SHELDON) [Lv 71, Water]
+  - Status: Paralyzed (PAR)
+  - HP: 140 / 225 [Verified Lv 71 Turn 33917]
+  - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
