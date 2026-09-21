@@ -175,20 +175,20 @@
   - Status: Healthy
   - HP: 225 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Fully Restored Turn 34579]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 5: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) [Fully Restored Turn 34579]
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - EXP: 125 (91 to Lv 6)
 - Slot 6: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
   - HP: 144 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34579]
+  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
 ## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
@@ -206,8 +206,6 @@
 - Slot 6: CHANSEY (LUCKY) [Lv 26]
 
 - Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
-
-
 - Slot 9: PARAS (FUNGI) [Lv 10]
 
 - Slot 10: DROWZEE (SANDMAN) [Lv 9]
@@ -5178,15 +5176,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battles Completed: 8
 - Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 144/243, Psychic 2/10, Swift 20/20)
 
-### Active Battle Log (Cerulean Cave 1F - Sandshrew)
-- Battle 1 [Turn 34723]: Wild Golbat Lv 46. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 558 EXP (3,375 -> 3,933). OMEGA: Psychic 9/10, HP 243/243.
-- Battle 2 [Turn 34750]: Wild Venomoth Lv 49. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 483 EXP (3,933 -> 4,416) -> Grew to Lv 16! (Atk 29, Def 32, Spd 22, Spc 16). OMEGA: took Psybeam (-5 HP), Psychic 8/10, HP 238/243.
-- Battle 3 [Turn 34771]: Wild Magneton Lv 46. PANGO (Slot 1 -> switch) + OMEGA (Psychic crit OHKO). PANGO gained 525 EXP (4,416 -> 4,941) -> Grew to Lv 17! (Atk 30, Def 34, Spd 24, Spc 17, learned Slash!). OMEGA: took Thundershock (-13 HP), Psychic 7/10, HP 225/243.
-- Battle 4 [Turn 34799]: Wild Sandslash Lv 52. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 601 EXP (4,941 -> 5,542, 290 to Lv 18). OMEGA: took Slash crit (-40 HP), Psychic 6/10, HP 185/243.
-- Battle 5 [Turn 34814]: Wild Sandslash Lv 52. PANGO (Slot 1 -> switch) + OMEGA (Psychic crit OHKO). PANGO gained 601 EXP (5,542 -> 6,143) -> Grew to Lv 18! OMEGA: took Fury Swipes (-15 HP), Psychic 5/10, HP 170/243.
-- Battle 6 [Turn 34826]: Wild Golbat Lv 46. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 558 EXP (6,143 -> 6,701, 158 to Lv 19). OMEGA: took Wing Attack crit (-21 HP), Psychic 4/10, HP 149/243.
-- Battle 7 [Turn 34841]: Wild Golbat Lv 46. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 558 EXP (6,701 -> 7,259) -> Grew to Lv 19! (Atk 34, Def 38, Spd 26, Spc 18). OMEGA: took Haze (0 dmg), Psychic 3/10, HP 149/243.
-- Battle 8 [Turn 34856]: Wild Venomoth Lv 49. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 483 EXP (7,259 -> 7,742, 258 to Lv 20). OMEGA: took Psybeam (-5 HP), Psychic 2/10, HP 144/243.
+### Completed Switch-Training Battles (Battles 1-8 Aggregate)
+- Battles Won: 8 (Golbat x3, Venomoth x2, Sandslash x2, Magneton x1)
+- Total EXP Gained by PANGO: 4,367 EXP (grew Lv 15 -> Lv 19; Atk 34, Def 38, Spd 26, Spc 18, HP 51/51)
+- Progress: 7,742 / 10,648 EXP (258 to Lv 20; 2,906 to Lv 22 Sandslash)
+- Active Sweepers & Resources:
+  - Mewtwo (OMEGA Lv 71): HP 144/243, Psychic 2/10, Swift 20/20, Recover 20/20
+  - Blastoise (SHELDON Lv 71): HP 225/225, Surf 15/15, Ice Beam 10/10 (Full Backup Sweeper)
+- Safety & Retreat Route: Physical cave exit warp is at Cerulean Cave 1F (24, 17) [3 tiles south of patrol area]. Exit leads directly outside to Cerulean canal -> Surf/Fly to Cerulean Pokémon Center.
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pok�dex: 48 Caught!
