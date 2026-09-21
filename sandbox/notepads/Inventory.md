@@ -58,7 +58,7 @@
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PSN
-  - HP: ~82-96 / 234 (Poisoned; audit in battle/party menu)
+  - HP: 96 / 234 [Verified Turn 34473]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 435787 (11601 to Lv 71) [Turn 34468]
