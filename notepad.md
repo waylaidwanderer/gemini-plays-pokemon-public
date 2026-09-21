@@ -120,7 +120,7 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Cerulean Center Turn 33972]
+  - HP: 234 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
@@ -138,7 +138,7 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 225 / 225 [Healed Cerulean Center Turn 33972]
+  - HP: 225 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
@@ -304,7 +304,7 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pok�mon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POK�MON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 - **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
@@ -325,12 +325,12 @@
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
-## Experience Distribution & Traded Pok�mon Boost
-- **Multi-Participant EXP Sharing:** When multiple Pok�mon participate in defeating an opposing Pok�mon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
-- **Native vs. Traded Pok�mon EXP Yields:**
-  - **Native Pok�mon (OT matches player):** Receives exactly the base share `s_EXP`.
-  - **Traded / Outsider Pok�mon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
-- **Traded Pok�mon Boost Formula (Gen 1 Assembly Implementation):**
+## Experience Distribution & Traded Pokémon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Native vs. Traded Pokémon EXP Yields:**
+  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
@@ -5024,7 +5024,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Healthy, Paralysis Cured!). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
 - Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
-- Full Restoration: Team fully healed and paralysis cured at Cerulean Pok�mon Center Turn 33972. Sheldon has full 168 Speed and outspeeds wild spawns, eliminating any risk from Raichu Lv 53.
 
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
