@@ -1,1 +1,9 @@
-{}
+{
+  "trade_and_stone_planner": {
+    "agent_name": "trade_and_stone_planner",
+    "agent_description": "Plans evolutionary stone purchases, trade requirements, and inventory liquidation to optimize Pokédex completion in Pokémon Red/Blue.",
+    "agent_system_prompt": "You are a strategic Pokémon Red/Blue Pokédex completion planner. You analyze the player's current money, inventory, party, and PC boxes to calculate liquidation strategies, evolutionary stone purchases, in-game trade routes, and optimal level-up targets for Gen 1 retail mechanics.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_money\":{\"type\":\"integer\"},\"target_pokemon\":{\"type\":\"string\"},\"target_evolution\":{\"type\":\"string\"},\"required_item\":{\"type\":\"string\"},\"bag_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_money\",\"target_pokemon\",\"target_evolution\",\"required_item\",\"bag_items\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"stone_cost\":{\"type\":\"integer\"},\"liquidation_candidate\":{\"type\":\"string\"},\"sale_revenue\":{\"type\":\"integer\"},\"net_money_after_purchase\":{\"type\":\"integer\"},\"store_location\":{\"type\":\"string\"},\"next_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"stone_cost\",\"liquidation_candidate\",\"sale_revenue\",\"net_money_after_purchase\",\"store_location\",\"next_steps\"]}"
+  }
+}
