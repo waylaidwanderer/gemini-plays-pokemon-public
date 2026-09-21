@@ -111,7 +111,7 @@
   - Stats: Attack 35, Defense 26, Speed 17, Special 30 [Verified Lv 18 Turn 35647]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 6314 (Target 13,824 for Lv 24 Parasect #047, remaining 7,510, 545 to Lv 19) [Verified Turn 35654]
+  - EXP: 6852 (Target 13,824 for Lv 24 Parasect #047, remaining 6,972, 7 to Lv 19) [Verified Turn 35662]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -4984,6 +4984,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Current Sweeper Status: Blastoise HP 153/225, Surf PP 11/15; Mewtwo HP 119/243 (PSN), Psychic PP 5/10, Swift PP 19/20, Recover PP 20/20.
 - Battle 9 [Turn 35647]: Wild Kadabra Lv 49. Switched Paras -> Blastoise. Kadabra used Reflect. Blastoise used Surf (Crit OHKO). Total EXP 1008. Paras gained 504 EXP -> grew to Lv 18! (EXP: 5853 / 13824, remaining: 7971, 1006 to Lv 19). Stats at Lv 18: Atk 35, Def 26, Spd 17, Spc 30. Blastoise HP: 153/225, Surf PP: 10/15.
 - Battle 10 [Turn 35654]: Wild Raichu Lv 53. Switched Paras -> Mewtwo. Raichu used Thundershock (12 dmg). Mewtwo took poison (15 dmg) to 90 HP, used Psychic (OHKO). Total EXP 922. Paras gained 461 EXP (EXP: 6314 / 13824, remaining: 7510, 545 to Lv 19). Mewtwo HP: 90/243 (PSN), Psychic PP: 4/10.
+- Battle 11 [Turn 35662]: Wild Hypno Lv 46. Switched Paras -> Blastoise. Blastoise took Headbutt (12 dmg), used Double-Edge (recoil 33 dmg to 108 HP), took Headbutt (10 dmg to 98 HP), used Body Slam (KO). Total EXP 1076. Paras gained 538 EXP (EXP: 6852 / 13824, remaining: 6972, 7 to Lv 19). Blastoise HP: 98/225, Body Slam PP: 14/15.
 
 
 <hr>
