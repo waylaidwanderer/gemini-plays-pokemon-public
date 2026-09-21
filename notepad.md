@@ -337,6 +337,7 @@
   - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504`. Boosted yield = `504 + 252 = 756` [Turns 33589, 33601].
   - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227`. Boosted yield = `227 + 113 = 340` [Turn 33620].
   - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461`. Boosted yield = `461 + 230 = 691` [Turn 33668].
+  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` [Turn 33775].
 
 
 <hr>
