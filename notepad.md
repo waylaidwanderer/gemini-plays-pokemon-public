@@ -135,7 +135,7 @@
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
-  - HP: 19 / 19
+  - HP: 17 / 17 [Verified Turn 34996]
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
