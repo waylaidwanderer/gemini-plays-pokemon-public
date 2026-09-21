@@ -97,11 +97,11 @@
 ## Party Pokémon
 - Slot 1: SANDSHREW (Nickname: PANGO) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 50 / 50 [Verified Lv 19 Turn 34841]
+  - HP: 51 / 51 [Verified Lv 19 Turn 34849]
   - Stats: Attack 34, Defense 38, Speed 26, Special 18 [Verified Lv 19 Turn 34841]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7259 (741 to Lv 20; 3,389 to Lv 22 Sandslash) [After Golbat Lv 46 Turn 34841]
+  - EXP: 7742 (258 to Lv 20; 2,906 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34856]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
@@ -128,10 +128,10 @@
   - EXP: 125 (91 to Lv 6)
 - Slot 6: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
-  - HP: 149 / 243
+  - HP: 144 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34579]
+  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34579]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
 ## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
