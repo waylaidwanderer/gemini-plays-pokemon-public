@@ -1,1 +1,9 @@
-{}
+{
+  "evolution_evaluator": {
+    "agent_name": "evolution_evaluator",
+    "agent_description": "Evaluates Pokémon candidates for leveling and evolution based on EXP growth rates, delta EXP required, and switch-training efficiency.",
+    "agent_system_prompt": "You are an expert Pokémon Gen 1 analyst. Given a Pokémon's current level, current EXP, target evolution level, and growth group, calculate the exact remaining EXP delta and projected number of Cerulean Cave 1F battles required.",
+    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"species\": {\"type\": \"string\"},\n    \"current_level\": {\"type\": \"integer\"},\n    \"current_exp\": {\"type\": \"integer\"},\n    \"target_level\": {\"type\": \"integer\"},\n    \"growth_group\": {\"type\": \"string\"}\n  },\n  \"required\": [\"species\", \"current_level\", \"current_exp\", \"target_level\", \"growth_group\"]\n}",
+    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"target_exp\": {\"type\": \"integer\"},\n    \"exp_delta\": {\"type\": \"integer\"},\n    \"projected_battles\": {\"type\": \"integer\"},\n    \"recommendation\": {\"type\": \"string\"}\n  },\n  \"required\": [\"target_exp\", \"exp_delta\", \"projected_battles\", \"recommendation\"]\n}"
+  }
+}
