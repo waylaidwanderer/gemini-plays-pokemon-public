@@ -23,9 +23,6 @@
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 8 (Turn 34398-34405): Wild Magneton Lv 46
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Magneton moved). Turn 2 Mewtwo fully paralyzed; Magneton Swift dealt 10 dmg (Mewtwo to 199 HP). Turn 3 Magneton Supersonic failed; Mewtwo Psychic scored Critical hit OHKO.
-  - EXP Share: 525 EXP to Diglett (reached 12,106 EXP, 61 to Lv 23).
 - Battle 9 (Active, Turn 34408-current): Wild Hypno Lv 46
   - Status: Encountered on Row 15 at (23, 15).
   - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2-3 Mewtwo Swift (2-hit KO). PAR grants immunity to Hypnosis/Poison Gas.
