@@ -46,8 +46,8 @@
 ## Money
 - ¥3056 [Turn 34152]
 
-## Party Pokémon
-- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+## Party Pokémon (Audited & Healed Turn 34261)
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
   - HP: 38 / 38 [Verified Lv 19 Turn 34246]
   - Stats: Attack 30, Defense 16, Speed 45, Special 26 [Verified Lv 19 Turn 34246]
@@ -57,36 +57,36 @@
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34247]
   - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), EXP Delta: 9,894 EXP (~18-19 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
-- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+- Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 20 / 20
-  - Stats: Attack 12, Defense 11, Speed 11, Special 11
-  - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15)
-  - EXP: 125 (91 to Lv 6)
-- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
-  - Status: Healthy
-  - HP: 208 / 234
+  - HP: 234 / 234 [Fully Healed Turn 34261]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 429211 (18177 to Lv 71) [Turn 34071]
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34261]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
-- JOLTEON (Nickname: VEE) [Lv 25, Electric]
+- Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
-  - HP: 68 / 68
+  - HP: 68 / 68 [Fully Healed Turn 34261]
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+- Slot 4: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
-  - HP: 26 / 26
+  - HP: 26 / 26 [Fully Healed Turn 34261]
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - EXP: 314 (105 to Lv 9)
-- BLASTOISE (SHELDON) [Lv 71, Water]
-  - Status: Paralyzed (PAR)
-  - HP: 77 / 225
+- Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
+  - Status: Healthy [Paralysis Cured Turn 34261]
+  - HP: 225 / 225 [Fully Healed Turn 34261]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 11/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Fully Restored Turn 34261]
+- Slot 6: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+  - Status: Healthy
+  - HP: 20 / 20 [Fully Healed Turn 34261]
+  - Stats: Attack 12, Defense 11, Speed 11, Special 11
+  - OT: TRAINER (IDNo. 24460, Boosted EXP)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) [Fully Restored Turn 34261]
+  - EXP: 125 (91 to Lv 6)
 
 ## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
@@ -155,16 +155,6 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
-- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
-  - Status: Healthy
-  - HP: 38 / 38 [Verified Lv 19 Turn 34246]
-  - Stats: Attack 30, Defense 16, Speed 45, Special 26 [Verified Lv 19 Turn 34246]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 7682 (318 to Lv 20) [Verified Turn 34247]
-  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 7682 + 318 = 8000 = 20^3)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34247]
-  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), EXP Delta: 9,894 EXP (~18-19 Cerulean Cave battles)
-  - Caught: Diglett's Cave [Turn 3507]
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]

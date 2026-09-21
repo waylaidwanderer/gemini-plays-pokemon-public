@@ -20,21 +20,19 @@
   - Projected Battle Count: ~18 - 19 battles to reach Lv 26.
 
 ### Immediate Routing & Action Steps:
-1. In Bill's PC Box 1 WITHDRAW menu:
-   - Scroll down to locate Diglett (DIGBY Lv 19).
-   - Withdraw DIGBY into party and log off PC.
-   - Check DIGBY's STATS screen in Party menu to empirically verify starting EXP and growth group.
-2. Heal party at Nurse Joy counter (restore HP/PP and cure Sheldon's paralysis).
-3. Switch Diglett to Party Slot 1.
-4. Exit Pokémon Center, walk north through Route 24 canal, Surf to Cerulean Cave 1F.
-5. Switch-train Diglett with Mewtwo to Level 26 -> Evolve into Dugtrio (#051)!
+1. Exit Cerulean Pokémon Center door to Cerulean City (3, 8).
+2. Walk north past Cerulean Gym to Route 24 entrance (20, 0).
+3. Walk north to Route 24 canal shore (10, 31), cast SURF from Sheldon.
+4. Surf south down canal into Cerulean City chute (col 6, row 12) to cave entrance (4, 11).
+5. Enter Cerulean Cave 1F and switch-train Diglett (Slot 1) with Mewtwo (Slot 2) to Level 26 -> Dugtrio (#051)!
 
-### Battler PP Stamina & Contingency Plan:
-- Farfetch'd (DUX Lv 5, Slot 2): HP 20 / 20. Moves: Peck, Sand-Attack, Cut, Fly.
-- Mewtwo (OMEGA Lv 70, Slot 3): HP 208 / 234 (Healthy). Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20).
-- Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
-- Geodude (ROCKY Lv 8, Slot 5): HP 26 / 26. Moves: Tackle, Rock Slide, Strength.
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 77 / 225 (Paralyzed). Moves: Surf (PP 11/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
+### Battler PP Stamina & Contingency Plan (Fully Healed Turn 34261):
+- Diglett (DIGBY Lv 19, Slot 1): HP 38 / 38 (Healthy). Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10). Lead switch-training target!
+- Mewtwo (OMEGA Lv 70, Slot 2): HP 234 / 234 (Healthy). Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20). Main sweeper!
+- Jolteon (VEE Lv 25, Slot 3): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
+- Geodude (ROCKY Lv 8, Slot 4): HP 26 / 26 (Healthy). Moves: Tackle, Rock Slide, Strength.
+- Sheldon (BLASTOISE Lv 71, Slot 5): HP 225 / 225 (Healthy, Paralysis Cured!). Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10).
+- Farfetch'd (DUX Lv 5, Slot 6): HP 20 / 20 (Healthy). Moves: Peck, Sand-Attack, Cut, Fly.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
