@@ -29,6 +29,10 @@
 - Battle 8 (Turn 34398-34405): Wild Magneton Lv 46
   - Combat Flow: Turn 1 Diglett switched to Mewtwo (Magneton moved). Turn 2 Mewtwo fully paralyzed; Magneton Swift dealt 10 dmg (Mewtwo to 199 HP). Turn 3 Magneton Supersonic failed; Mewtwo Psychic scored Critical hit OHKO.
   - EXP Share: 525 EXP to Diglett (reached 12,106 EXP, 61 to Lv 23).
+- Battle 9 (Active, Turn 34408-current): Wild Hypno Lv 46
+  - Status: Encountered on Row 15 at (23, 15).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2-3 Mewtwo Swift (2-hit KO). PAR grants immunity to Hypnosis/Poison Gas.
+  - Expected EXP Share: 538 EXP for Diglett (crosses 12,167 threshold -> Diglett will grow to Level 23!).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
