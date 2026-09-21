@@ -118,20 +118,20 @@
   - Status: Healthy
   - HP: 225 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Fully Restored Turn 34579]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 5: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) [Fully Restored Turn 34579]
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - EXP: 125 (91 to Lv 6)
 - Slot 6: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
   - HP: 144 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34579]
+  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
 ## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
@@ -149,8 +149,6 @@
 - Slot 6: CHANSEY (LUCKY) [Lv 26]
 
 - Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
-
-
 - Slot 9: PARAS (FUNGI) [Lv 10]
 
 - Slot 10: DROWZEE (SANDMAN) [Lv 9]
