@@ -61,7 +61,7 @@
 8. GUARD SPEC. x 1
 9. MAX POTION x 1
 10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-11. RARE CANDY x 4 [Withdrawn from PC Turn 33252]
+11. RARE CANDY x 3 [Withdrawn from PC Turn 33252]
 
 
 ## Inventory Capacity
@@ -133,10 +133,10 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- KOFFING (Nickname: SMOGGY) [Lv 35, Poison]
+- KOFFING (Nickname: SMOGGY) [Lv 36, Poison]
   - Status: Healthy
-  - HP: 75 / 75
-  - Stats: Attack 56, Defense 77, Speed 32, Special 52 [Verified Lv 35 Turn 33241]
+  - HP: 95 / 95
+  - Stats: Attack 75, Defense 97, Speed 51, Special 71 [Verified Lv 36 Turn 33260]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Leveled to Lv 35 via Rare Candy [Turn 33240]
 
@@ -4994,13 +4994,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Magmar (#126 Lv 38 VULCAN) [Caught Turn 33046, Box 2]
 
 ## Immediate Milestone: Evolve Koffing into Weezing (#110)
-- Koffing (SMOGGY) was leveled to Lv 35 via 1 Rare Candy [Turn 33240], but did NOT evolve!
-- Koffing's evolution level into Weezing is > 35 (likely 36, 37, 38, or 40).
-- BLUE's PC contains RARE CANDY x4 [Stored Turn 12203], now withdrawn to Bag [Turn 33252].
+- Koffing (SMOGGY) tested:
+  - Lv 35: did NOT evolve [Turn 33240]
+  - Lv 36: did NOT evolve [Turn 33260] (Stats at Lv 36: HP 95, Atk 75, Def 97, Spd 51, Spc 71)
+- Evolution level is > 36 (testing Lv 37, 38, or 40).
+- Remaining in Bag: RARE CANDY x 3 [Turn 33261].
 - Strategy:
-  1. Exit PC to overworld.
-  2. Open Bag -> USE RARE CANDY on Koffing (SMOGGY).
-  3. Apply Rare Candies one by one until evolution triggers into Weezing (#110).
+  1. USE RARE CANDY on Koffing (SMOGGY) to reach Lv 37.
+  2. Test for evolution into Weezing (#110).
+  3. If not evolved, use next Candy to reach Lv 38.
   4. Register Weezing in Pokédex.
 
 
