@@ -111,7 +111,6 @@
   - EXP: 10518 (130 to Lv 22) [Verified Turn 34342]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
-  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), Remaining Delta: 7,058 EXP (~12 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
@@ -5004,37 +5003,36 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Complete Next Dex Milestones (Pokédex: 47 Caught / 136 Seen)
-- [x] Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061) [ACHIEVED Turn 34072!].
-- [x] Target 2: Liquidate CARBOS x1 for ¥4,900, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062) [ACHIEVED Turn 34159!].
-  - Status: Poliwrath Lv 25 (Water/Fighting). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
-  - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught: Poliwhirl #061, Poliwrath #062).
-- [ ] Target 3: Train Diglett (DIGBY, in Party) to Level 26 -> Dugtrio (#051).
-  - Current Status: Level 21 (10,518 EXP, 130 to Lv 22) [Audited Turn 34342].
-  - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-  - Remaining Delta: 17,576 - 10,518 = 7,058 EXP (~12 Cerulean Cave battles).
-  - Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 234/234 HP, all PP 100% full).
-  - Battles Completed: 5 battles (Hypno Lv 46, Golbat Lv 46, Hypno Lv 46, Sandslash Lv 52, Sandslash Lv 52; +2,836 EXP gained).
-  - EXP Yield per Wild Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
-    - Magneton Lv 46: 525 EXP
-    - Golbat Lv 46: 558 EXP
-    - Hypno Lv 46: 538 EXP
-    - Kadabra Lv 49: 504 EXP
-    - Raichu Lv 53: 461 EXP
-    - Sandslash Lv 52: 601 EXP
+## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
+- Current Status: Level 21 (10,518 EXP, 130 to Lv 22) [Audited Turn 34342].
+- Target EXP (Lv 26): 26^3 = 17,576 EXP.
+- Remaining Delta: 17,576 - 10,518 = 7,058 EXP (~12 Cerulean Cave battles).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 234/234 HP, all PP 100% full).
+- Progress Summary: 5 battles completed (+2,836 EXP gained).
+  - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
+  - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
+  - Battle 3: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 21.
+  - Battle 4: Sandslash Lv 52 (+601 EXP) -> Diglett reached 9,917 EXP.
+  - Battle 5: Sandslash Lv 52 (+601 EXP) -> Diglett reached 10,518 EXP.
+- Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
+  - Magneton Lv 46: 525 EXP
+  - Golbat Lv 46: 558 EXP
+  - Hypno Lv 46: 538 EXP
+  - Kadabra Lv 49: 504 EXP
+  - Raichu Lv 53: 461 EXP
+  - Sandslash Lv 52: 601 EXP
 
-### Empirical Damage Telemetry (Hypno Lv 46 vs Mewtwo Lv 70):
-- Mewtwo Swift (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
-- Mewtwo Psychic (90 BP STAB special, Spc 231 vs Hypno Spc ~115, 0.5x resisted): Base ~105 * 1.5 STAB * 0.5 resist = ~78 dmg * (0.85..1.0) = ~66-78 dmg.
-- Strategic Conclusion: Swift deals equal or superior damage against pure Psychic Hypno while preserving limited 10 PP Psychic for 4x effective targets (Golbat OHKO).
+### Active Battle Log (Cerulean Cave 1F):
+- Battle 6 (Active, Turn 34379-current): Wild Magneton Lv 46
+  - Status: Encountered on Row 14 at (24, 14).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic (hypothesized OHKO; empirical testing pending).
+  - Expected EXP Share: 525 EXP for Diglett (Lv 46 Magneton yields 1,050 total / 2 = 525).
+  - Level Up Milestone: 10,518 + 525 = 11,043 EXP (> 10,648 threshold) -> Diglett will grow to Level 22!
 
-### Switch-Training Battle Log (Cerulean Cave 1F):
-- Battle 1 (Turn 34285-34292): Wild Hypno Lv 46
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno used Poison Gas, Mewtwo PSN). Turn 2 Mewtwo Swift dealt ~50% HP. Turn 3 Mewtwo Swift KOed Hypno.
-  - Damage Telemetry: Mewtwo Swift (60 BP Normal physical, Atk 167) deals ~50% to Hypno Lv 46 (2-hit KO).
-  - Total EXP: 1,076 -> Base share: 538 EXP each.
-  - Diglett Progress: 7,682 + 538 = 8,220 EXP. Level 19 -> Level 20 achieved! (8,000 EXP threshold crossed).
-  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 9,356 EXP (~17 battles remaining).
+### Empirical Damage Telemetry:
+- Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
+- Mewtwo Psychic vs Hypno Lv 46 (90 BP STAB special, Spc 231 vs Hypno Spc ~115, 0.5x resisted): Base ~105 * 1.5 STAB * 0.5 resist = ~78 dmg * (0.85..1.0) = ~66-78 dmg.
+- Strategic Finding: Swift deals equal or superior damage against pure Psychic Hypno while preserving limited 10 PP Psychic for 4x effective targets (Golbat OHKO).
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
@@ -5051,31 +5049,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
   - Liquidate Carbos to fund stones & Ultra Balls.
 
-- Battle 2 (Turn 34305-34312): Wild Golbat Lv 46
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo. Turn 2 Mewtwo Psychic super-effective OHKO.
-  - EXP Yield: 1,116 total -> Base share: 558 EXP to Diglett.
-  - Diglett Progress: 8,220 + 558 = 8,778 EXP (483 to Lv 21).
-  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 8,798 EXP (~16 battles remaining).
-- Battle 3 (Turn 34316-34326): Wild Hypno Lv 46
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno Meditate). Turn 2 Mewtwo Swift scored Critical hit; Hypno Psychic dealt 12 dmg. Turn 3 Mewtwo Swift KOed Hypno.
-  - Total EXP: 1,076 -> Base share: 538 EXP each.
-  - Diglett Progress: 8,778 + 538 = 9,316 EXP.
-  - LEVEL UP: Diglett reached Level 21! Stats: Attack 32, Defense 18, Speed 50, Special 28 [Verified Turn 34326].
-  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 8,260 EXP (~15 Cerulean Cave battles remaining).
-- Battle 4 (Turn 34329-34334): Wild Sandslash Lv 52
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Sandslash Swift dealt 18 dmg; Mewtwo took 14 PSN dmg to 98 HP). Turn 2 Mewtwo Psychic OHKO.
-  - EXP Yield: 1,202 total -> Base share: 601 EXP to Diglett.
-  - Diglett Progress: 9,316 + 601 = 9,917 EXP (731 to Lv 22).
-  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 7,659 EXP (~13-14 Cerulean Cave battles remaining).
-- Battle 5 (Turn 34336-34341): Wild Sandslash Lv 52
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Sandslash Slash crit dealt 41 dmg; Mewtwo took 14 PSN dmg to 41 HP). Turn 2 Mewtwo Psychic OHKO.
-  - EXP Yield: 1,202 total -> Base share: 601 EXP to Diglett.
-  - Diglett Progress: 9,917 + 601 = 10,518 EXP (130 to Lv 22).
-  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 7,058 EXP (~12 Cerulean Cave battles remaining).
-- Battle 6 (Turn 34379): Wild Magneton Lv 46
-  - Status: Encountered on Row 14 at (24, 14).
-  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic OHKO (157 dmg vs ~110 HP).
-  - Expected EXP: 525 EXP for Diglett (Lv 46 Magneton yields 1,050 total / 2 = 525).
-  - Level Up Milestone: 10,518 + 525 = 11,043 EXP (> 10,648 threshold) -> DIGLETT LEVEL 22!
 
 <hr>
