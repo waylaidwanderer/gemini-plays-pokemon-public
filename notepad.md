@@ -111,7 +111,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 5481 (660 to Lv 17, 4,519 to Lv 20 Gyarados) [Turn 35158] [Turn 35149] [Turn 35128]
+  - EXP: 5481 (660 to Lv 17, 4,519 to Lv 20 Gyarados) [Turn 35158]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -136,7 +136,7 @@
   - HP: 231 / 243 [Verified Turn 35111]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -221,17 +221,14 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
 
-## PC Box 2 Pokémon
+## PC Box 2 Pok�mon
 - POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
   - Status: Healthy
   - HP: 70 / 70 [Verified Lv 25 Turn 34075]
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 58, Defense 59, Speed 47, Special 48 [Verified Lv 25 Turn 34075]
   - OT: BLUE (IDNo. 04620)
-
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Turn 34071]
+  - EXP: 14062 (Medium Slow, Lv 25) [Turn 34071]
   - Growth Group: Medium Slow
-
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072], Evolved to Poliwrath (#062) via Water Stone [Turn 34159]
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
@@ -240,51 +237,42 @@
 - JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
   - Status: Healthy
   - HP: 65 / 65
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 33, Defense 26, Speed 56, Special 59 [Verified Turn 31735]
   - OT: DONA (IDNo. 19854, Boosted EXP)
-
   - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
   - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
 - ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
   - Status: Healthy
   - HP: 17 / 17
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 9, Defense 11, Speed 14, Special 12 [Verified Turn 32225]
   - OT: TRAINER (IDNo. 47899, Boosted EXP)
-
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Verified Turn 32225]
+  - EXP: 27 (Medium Fast, Lv 3) [Verified Turn 32225]
   - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
-
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
   - Status: Healthy
-  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
+  - Caught: Pok�mon Mansion 1F with Ultra Ball [Turn 32303]
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
-  - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
+  - Caught: Pok�mon Mansion B1F with Ultra Ball [Turn 33046]
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
   - Status: Healthy
   - HP: 102 / 102
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Verified Turn 33278]
-
+  - Stats: Attack 85, Defense 108, Speed 60, Special 83 [Verified Turn 33278]
+  - EXP: 59319 (Medium Fast, Lv 39) [Verified Turn 33278]
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
+  - Caught: Pok�mon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
 - NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
   - HP: 95 / 95
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Verified Turn 33364]
-
+  - Stats: Attack 62, Defense 64, Speed 81, Special 81 [Verified Turn 33364]
+  - EXP: 35937 (Medium Fast, Lv 33) [Verified Turn 33364]
   - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
   - OT: BLUE (IDNo. 04620)
-
   - Evolved from Vulpix via Fire Stone [Turn 33357]
+
 
 <hr>
 
@@ -5042,12 +5030,28 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
 - Current EXP: 5,481 EXP (Lv 16, Delta to Gyarados: 4,519 EXP, ~8 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 87/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, PAR, Swift 20/20, Psychic 4/10)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 87/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, PAR, Swift 20/20, Swift 19/20, Psychic 5/10)
 
 ### Switch-Training Progress:
 - Completed Battles: 10 Battles Won (3 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 2 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53)
 - EXP Gained: +5,325 EXP (156 -> 5,481 EXP, Lv 16, 660 to Lv 17)
 - Remaining Delta to Lv 20 Gyarados: 4,519 EXP (~8 battles)
+
+### Empirical Cerulean Cave 1F Switch-Training EXP Yield Table (2 Participants)
+| Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Raichu** | 53 | 922 | **461 EXP** | 691 EXP | Mewtwo (Swift / Psychic) |
+| **Venomoth** | 49 | 966 | **483 EXP** | 724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Magneton** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Hypno** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
+| **Golbat** | 46 | 1,116 | **558 EXP** | 837 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Sandslash** | 52 | 1,202 | **601 EXP** | 901 EXP | Blastoise (STAB Surf 2x SE OHKO) |
+| **Dodrio** | 49 | 1,242 | **621 EXP** | 931 EXP | Blastoise (Ice Beam 2x SE OHKO) / Mewtwo |
+| **Ditto** | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
+
+- Average Yield per Cerulean Cave 1F battle: ~530 EXP.
+- Magikarp (TSUNAMI Lv 16, 5,481 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 4,519 EXP.
+- Exact projected battles remaining: ceil(4519 / 530) = **8.5 (~8-9 battles)**.
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
