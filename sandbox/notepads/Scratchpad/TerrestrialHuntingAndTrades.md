@@ -1,13 +1,19 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Evolve Magikarp (TSUNAMI) into Gyarados (#130)
-- Target: Level 20 (10,000 EXP, PokÃ©dex #130) - ACHIEVED!
-- Current EXP: 10,338 EXP (Lv 20 - EVOLVING INTO GYARADOS #130!)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 132/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, Healthy, Swift 20/20, Psychic 8/10) [Turn 35363]
+## Active Goal: Evolve Paras (FUNGI) into Parasect (#047)
+- Target: Level 24 (13,824 EXP, Pokédex #047)
+- Starting State: Level 10 (1,000 EXP, Box 1 Slot 7)
+- Net EXP Needed: 12,824 EXP (~23-24 Cerulean Cave 1F battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71) / Mewtwo (OMEGA Lv 71)
 
-### Switch-Training Session Progress:
-- Completed Battles: 19 Battles Won (6 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 3 Sandslash Lv 52, 2 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
-- Total Session EXP Gained: +10,182 EXP (from base 156 EXP)
+### Previous Evolutions Completed:
+- Magikarp -> Gyarados (#130): Completed Turn 35366 at Lv 20 (10,338 EXP, +10,182 EXP across 19 battles)
+- Sandshrew -> Sandslash (#028): Completed Turn 34938 at Lv 22
+- Diglett -> Dugtrio (#051): Completed Turn 34568 at Lv 26
+- Poliwag -> Poliwhirl (#061) -> Poliwrath (#062): Completed Turn 34159
+- Seel -> Dewgong (#087): Completed Turn 33656 at Lv 34
+- Vulpix -> Ninetales (#038): Completed Turn 33357 via Fire Stone
+- Koffing -> Weezing (#110): Completed Turn 33242 at Lv 39
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
