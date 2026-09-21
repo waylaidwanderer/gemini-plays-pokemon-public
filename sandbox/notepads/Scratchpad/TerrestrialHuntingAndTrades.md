@@ -58,3 +58,8 @@
 - Stone Evolutions:
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
   - Liquidate Carbos to fund stones & Ultra Balls.
+
+- Battle 2 (Turn 34305): Wild Golbat
+  - Status: Encountered on Row 14 at (22, 14).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic/Swift for KO.
+  - Expected EXP: 558 EXP for Diglett (Lv 46 Golbat yields 1,116 total / 2 = 558).
