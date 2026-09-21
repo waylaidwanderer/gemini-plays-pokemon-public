@@ -116,9 +116,9 @@
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 82 / 225 [Verified Turn 35683]
+  - HP: 225 / 225 [Fully Healed Turn 35703]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 14/15), Surf (PP 10/15), Ice Beam (PP 8/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -127,12 +127,11 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Poisoned (PSN)
-  - HP: 44 / 243 [Verified Turn 35695]
+  - Status: Healthy
+  - HP: 243 / 243 [Fully Healed & Cured Turn 35703]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
-  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -4929,7 +4928,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Golbat*** | 46 | 1,116 | **558 EXP** | 837 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
 | **Sandslash*** | 52 | 1,202 | **601 EXP** | 901 EXP | Blastoise (STAB Surf 2x SE OHKO) |
 | **Kadabra*** | 49 | 1,008 | **504 EXP** | 756 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
-| **Parasect*** | 52 | 950 | **475 EXP** | 712 EXP | Blastoise (Ice Beam 4x SE OHKO) |
+| **Parasect*** | 52 | 950 | **475 EXP** | 712 EXP | Blastoise (Ice Beam 2x SE OHKO) |
 | **Dodrio** (Historical) | 49 | 1,242 | **621 EXP** | 931 EXP | Blastoise (Ice Beam 2x SE OHKO) / Mewtwo |
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
@@ -4941,13 +4940,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Hypno Contingency: While Mewtwo is the primary Special counter, Blastoise is deployed to mitigate Mewtwo PSN attrition and preserve Psychic PP. Blastoise must use Surf or Body Slam (avoid Double-Edge to eliminate recoil damage).
-  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 71). High Defense (194) absorbs physical hits effortlessly; retaliates with STAB Surf / 4x Ice Beam.
+  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 71). High Defense (194) absorbs physical hits effortlessly; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
   - Blastoise (SHELDON Lv 71): Surf 15 PP, Ice Beam 10 PP, Body Slam 15 PP, Double-Edge 15 PP (total 55 PP).
   - Mewtwo (OMEGA Lv 71): Psychic 10 PP, Swift 20 PP, Recover 20 PP (total 50 PP).
   - Combined High-Yield SE PP: 25 moves (Surf + Ice Beam) on Blastoise, 10 moves (Psychic) on Mewtwo = 35 primary OHKO moves.
   - Safe Grinding Window: ~18-20 battles per expedition before primary STAB PP runs low.
-  - Pit-Stop Retreat Threshold: If Blastoise Surf <= 3 PP AND Mewtwo Psychic <= 2 PP, or any sweeper HP < 60:
+  - Pit-Stop Retreat Threshold: Sweeper HP < 60 (independent retreat trigger); OR Blastoise Surf <= 3 PP AND Mewtwo Psychic <= 2 PP (compound PP depletion trigger).
     1. Walk South to (24..25, 17) and step onto warp to exit Cerulean Cave onto canal apron at (4, 12).
     2. Open party menu -> Farfetch'd (DUX) -> FLY -> Cerulean City.
     3. Enter Pokémon Center, heal with Nurse Joy, return north via Route 24 canal.
@@ -4974,21 +4973,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
 
+### Grinding Notes
+- Ice Beam Typing: Bug is damaged normally (1x) by Ice in Gen 1, while Grass is weak (2x), making Ice Beam 2x Super Effective vs Parasect.
+- Input Buffering Caution: Rapidly buffering consecutive 'A' presses across menu transitions can trigger unintentional move selections (e.g., Slot 1 Double-Edge). Chunk inputs cleanly with 'B' or pauses to verify menu states.
 
-### In-Battle Sustain & Secondary Move Protocol
-- Mewtwo Recover (PP 20/20): Restores 50% max HP (up to 121 HP). Use against non-threatening turns (e.g. Hypno Meditate, Poison Gas, or status turns) to sustain Mewtwo HP and eliminate poison attrition without retreating.
-- Secondary Attacks: Mewtwo Swift (PP 19/20) and Blastoise Ice Beam (PP 10/10) provide 29 additional high-yield attacks, extending grinding expeditions far beyond primary STAB moves alone.
-
-### Battle Log (Battles 1-8 Aggregated Summary):
-- Battles 1-8 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x3, Venomoth Lv 49, Magneton Lv 46 x2.
+### Battle Log (Expeditions 1-14 Aggregated Summary):
+- Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
   - Starting State: Paras Lv 10 (1,000 EXP).
-  - Current State: Paras Lv 17 (5,349 EXP, +4,349 EXP gained across 8 battles). Remaining to Lv 24: 8,475 EXP (483 to Lv 18).
-- Battle 9 [Turn 35647]: Wild Kadabra Lv 49. Switched Paras -> Blastoise. Kadabra used Reflect. Blastoise used Surf (Crit OHKO). Total EXP 1008. Paras gained 504 EXP -> grew to Lv 18! (EXP: 5853 / 13824, remaining: 7971, 1006 to Lv 19). Stats at Lv 18: Atk 35, Def 26, Spd 17, Spc 30. Blastoise HP: 153/225, Surf PP: 10/15.
-- Battle 10 [Turn 35654]: Wild Raichu Lv 53. Switched Paras -> Mewtwo. Raichu used Thundershock (12 dmg). Mewtwo took poison (15 dmg) to 90 HP, used Psychic (OHKO). Total EXP 922. Paras gained 461 EXP (EXP: 6314 / 13824, remaining: 7510, 545 to Lv 19). Mewtwo HP: 90/243 (PSN), Psychic PP: 4/10.
-- Battle 11 [Turn 35662]: Wild Hypno Lv 46. Switched Paras -> Blastoise. Blastoise took Headbutt (12 dmg), used Double-Edge (recoil 33 dmg to 108 HP), took Headbutt (10 dmg to 98 HP), used Body Slam (KO). Total EXP 1076. Paras gained 538 EXP (EXP: 6852 / 13824, remaining: 6972, 7 to Lv 19). Blastoise HP: 98/225, Body Slam PP: 14/15.
-- Battle 12 [Turn 35669]: Wild Parasect Lv 52. Switched Paras -> Blastoise. Parasect used Growth. Blastoise used Ice Beam (2x SE OHKO). Total EXP 950. Paras gained 475 EXP -> grew to Lv 19! (EXP: 7327 / 13824, remaining: 6497, 673 to Lv 20). Stats at Lv 19: Atk 37, Def 27, Spd 18, Spc 31. Blastoise HP: 98/225, Ice Beam PP: 9/10.
-- Battle 13 [Turn 35685]: Wild Parasect Lv 52. Switched Paras -> Blastoise. Blastoise took Slash (16 dmg to 82 HP), used Ice Beam (Crit OHKO). Total EXP 950. Paras gained 475 EXP (EXP: 7802 / 13824, remaining: 6022, 198 to Lv 20). Blastoise HP: 82/225, Ice Beam PP: 8/10.
-- Battle 14 [Turn 35695]: Wild Magneton Lv 46. Switched Paras -> Mewtwo. Magneton used Thundershock (13 dmg). Mewtwo took poison (15 dmg) to 44 HP, used Psychic (Crit OHKO). Total EXP 1050. Paras gained 525 EXP -> grew to Lv 20! (EXP: 8327 / 13824, remaining: 5497, 934 to Lv 21). Learned Leech Life! Stats at Lv 20: Atk 39, Def 29, Spd 18, Spc 33. Mewtwo HP: 44/243 (PSN), Psychic PP: 3/10.
+  - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
+  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 5,497 EXP (934 to Lv 21).
+  - Expedition 1 Conclusion: Successfully pit-stopped at Cerulean Pokémon Center to cure Mewtwo's poison and restore all sweeper PP to 100%.
 
 
 <hr>
