@@ -19,7 +19,6 @@
 - Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Healthy, Paralysis Cured!). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
 - Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
-- Full Restoration: Team fully healed and paralysis cured at Cerulean Pokémon Center Turn 33972. Sheldon has full 168 Speed and outspeeds wild spawns, eliminating any risk from Raichu Lv 53.
 
 ### Financial Liquidation Budget:
 - Current Wallet: Â¥256.

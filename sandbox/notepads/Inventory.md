@@ -66,7 +66,7 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Cerulean Center Turn 33972]
+  - HP: 234 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
@@ -84,7 +84,7 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 225 / 225 [Healed Cerulean Center Turn 33972]
+  - HP: 225 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
