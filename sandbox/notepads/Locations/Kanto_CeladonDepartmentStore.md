@@ -4,7 +4,8 @@
 Massive multi-story department store (largest shop in Kanto) located in northwestern Celadon City at rows 7..13, cols 8..13. Front entrance door at (10, 13) with 'MART' sign at (12, 13).
 
 ## 1F: Service Counter
-- Entrance Mat: Cols 16..17, Row 7. Exits south to Celadon City at (10, 13).
+- Front Entrance Mat: Cols 16..17, Row 7. Exits south to Celadon City front entrance at (10, 13).
+- West Entrance Mat: Cols 2..3, Row 7. Exits south to Celadon City side door at (8, 13) [Empirically verified Turn 34183].
 - Service Counter: Rows 1..2, Cols 16..17 (houses registers/equipment).
 - Floor Sign: Located at (14, 1) on north wall. Text confirmed: "1F: SERVICE COUNTER" [Turn 5502].
 - Stairs to 2F: Classic escalator/staircase at (12, 1).
