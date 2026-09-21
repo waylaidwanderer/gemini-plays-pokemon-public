@@ -131,8 +131,8 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - EXP: 314 (105 to Lv 9)
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
-  - Status: Healthy [Paralysis Cured Turn 34261]
-  - HP: 114 / 225 [Verified Turn 34497]
+  - Status: Healthy
+  - HP: 225 / 225 [Fully Healed Turn 34507]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Fully Restored Turn 34261]
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
