@@ -229,7 +229,7 @@
 
   - Status: Healthy
 
-  - HP: Full
+  - HP: 46 / 46 [Verified Lv 17 Turn 34788]
 
   - Caught: Route 11 with Old Rod [Turn 3694]
 
