@@ -114,12 +114,12 @@
   - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), Remaining Delta: 7,058 EXP (~12 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
-  - Status: PSN
-  - HP: 41 / 234 [Verified Turn 34342]
+  - Status: Healthy
+  - HP: 234 / 234 [Fully Healed Turn 34347]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 430951 (16437 to Lv 71) [Turn 34342]
-  - Moves: Swift (PP 16/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34347]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
