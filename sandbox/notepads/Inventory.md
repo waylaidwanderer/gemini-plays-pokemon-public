@@ -98,15 +98,6 @@
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
   - Transferred to PC Box 1 (Active party full: 17/20)
-- SEEL (Nickname: SAILOR) [Lv 32, Water]
-  - Status: Healthy
-  - HP: 90 / 90
-  - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
-  - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
-  - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
-  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
-  - Deposited: Cinnabar PC Box 1 [Turn 31456]
 - TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
   - Status: Healthy
   - HP: 62 / 62
@@ -230,4 +221,14 @@
   - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
   - OT: BLUE (IDNo. 04620)
   - Evolved from Vulpix via Fire Stone [Turn 33357]
-  - Deposited: Celadon PC Box 2 (11/20) [Turn 33408]
+  - Deposited: Celadon PC Box 2 (11/20) [Turn 33408]- SEEL (Nickname: SAILOR) [Lv 32, Water]
+  - Status: Healthy
+  - HP: 90 / 90
+  - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
+  - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
+  - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
+  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
+  - Withdrawn from PC Box 1 [Turn 33429]
+
+
