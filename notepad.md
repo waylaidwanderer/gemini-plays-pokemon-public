@@ -135,6 +135,8 @@
   - Status: Healthy
   - HP: 95 / 95
   - Stats: Attack 55, Defense 57, Speed 76, Special 79 [Verified Lv 33 Turn 33363]
+  - EXP: 35937 (3367 to Lv 34) [Verified Turn 33364]
+  - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
   - OT: BLUE (IDNo. 04620)
   - Evolved from Vulpix via Fire Stone [Turn 33357]
 
