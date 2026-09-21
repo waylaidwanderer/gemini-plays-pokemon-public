@@ -109,7 +109,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 10915 (1,252 to Lv 23) [After Golbat Lv 46 Turn 34937]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
-  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976; pending slot verification in WITHDRAW menu]
+  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976, Slot 13]
 - DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
   - HP: 62 / 62 [Verified Lv 26 Turn 34568]
