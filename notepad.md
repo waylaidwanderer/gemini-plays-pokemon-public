@@ -46,6 +46,7 @@
 - [x] Evolve Koffing into Weezing (#110) [Turn 33242]
 - [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
 - [x] Evolve Seel into Dewgong (#087) [Turn 33656]
+- [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
 
 
 <hr>
@@ -102,15 +103,14 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 24, Water]
+- POLIWHIRL (Nickname: RIPPLE) [Lv 25, Water]
   - Status: Healthy
-  - HP: Full (Lv 24)
-  - Stats: Attack 32, Defense 32, Speed 54, Special 26 [Verified Lv 24 Turn 34029]
+  - HP: Full (Lv 25)
   - OT: BLUE (IDNo. 04620)
-  - EXP: 11559 [Turn 34059, +538 from Hypno Lv 46 #2]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 176 EXP needed)
-  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25)
-  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
+  - EXP: 12020 [Turn 34071, +461 from Raichu Lv 53]
+  - Growth Group: Medium Slow (1,391 EXP to Lv 26)
+  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -120,11 +120,11 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234
+  - HP: 208 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 429211 (18177 to Lv 71) [Turn 34071, +461 from Raichu Lv 53]
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5010,10 +5010,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 24 (11,559 EXP, +538 from Hypno Lv 46 #2 [Turn 34059]). Stats: Attack 32, Defense 32, Speed 54, Special 26. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
-  - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 11,559 = 176 EXP (1 battle to Lv 25 Poliwhirl!).
+- [x] Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061) [ACHIEVED Turn 34072!].
+  - Status: Poliwhirl Lv 25 (12,020 EXP). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
