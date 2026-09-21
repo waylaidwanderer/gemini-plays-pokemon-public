@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## PokÈmon Mansion Campaign Complete
+## Pok√©mon Mansion Campaign Complete
 - Completed Mansion Captures:
   - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
   - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
@@ -9,13 +9,11 @@
   - Magmar (#126 Lv 38 VULCAN) [Caught Turn 33046, Box 2]
 
 ## Immediate Milestone: Evolve Koffing into Weezing (#110)
-- Koffing (SMOGGY) is Level 34 stored in PC Box 2.
-- Koffing evolves into Weezing at Level 35.
-- Bag contains RARE CANDY x1 (Slot 8).
+- Koffing (SMOGGY) was leveled to Lv 35 via 1 Rare Candy [Turn 33240], but did NOT evolve!
+- Koffing's evolution level into Weezing is > 35 (likely 36, 37, 38, or 40).
+- BLUE's PC contains RARE CANDY x4 [Stored Turn 12203], now withdrawn to Bag [Turn 33252].
 - Strategy:
-  1. Navigate through 1F to exit at (5, 27) into Cinnabar Island.
-  2. Visit Cinnabar PokÈmon Center PC.
-  3. Deposit Muk (SLUDGE) to free a party slot.
-  4. Withdraw Koffing (SMOGGY) from PC Box 2.
-  5. Use RARE CANDY on Koffing to level to 35 -> evolves into Weezing (#110)!
-  6. Register Weezing (#110) in PokÈdex.
+  1. Exit PC to overworld.
+  2. Open Bag -> USE RARE CANDY on Koffing (SMOGGY).
+  3. Apply Rare Candies one by one until evolution triggers into Weezing (#110).
+  4. Register Weezing in Pok√©dex.
