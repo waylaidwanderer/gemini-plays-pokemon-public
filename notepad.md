@@ -104,14 +104,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 17, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 18, Water]
   - Status: Healthy
   - HP: 34 / 34 [Verified Lv 17 Turn 35189]
   - Stats: Attack 10, Defense 25, Speed 37, Special 15 [Verified Lv 17 Turn 35186]
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 7052 (238 to Lv 18, 2,948 to Lv 20 Gyarados) [Turn 35207] [Turn 35184]
+  - EXP: 7653 (920 to Lv 19, 2,347 to Lv 20 Gyarados) [Turn 35215] [Turn 35207] [Turn 35184]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -136,7 +136,7 @@
   - HP: 11 / 243 [Verified Turn 35213]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 17/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5029,13 +5029,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 6,577 EXP (Lv 17, Delta to Gyarados: 3,423 EXP, ~6-7 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 66/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 71/243, Healthy, Swift 18/20, Psychic 2/10)
+- Current EXP: 7,653 EXP (Lv 18, Delta to Gyarados: 2,347 EXP, ~4-5 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 66/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 11/243, Healthy, Swift 18/20, Psychic 1/10)
 
 ### Switch-Training Progress:
-- Completed Battles: 13 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 3 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53, 1 Wild Parasect Lv 52)
-- EXP Gained: +6,896 EXP (156 -> 7,052 EXP, Lv 17, 238 to Lv 18)
-- Remaining Delta to Lv 20 Gyarados: 3,423 EXP (~6-7 battles)
+- Completed Battles: 14 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 3 Wild Golbat Lv 46, 2 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53, 1 Wild Parasect Lv 52)
+- EXP Gained: +7,497 EXP (156 -> 7,653 EXP, Lv 18, 920 to Lv 19)
+- Remaining Delta to Lv 20 Gyarados: 2,347 EXP (~4-5 battles)
 
 ### Empirical Cerulean Cave 1F Switch-Training EXP Yield Table (2 Participants)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -5083,7 +5083,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
 - Switch Target Choice:
   - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 225/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
-  - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 71/243) can safely sweep.
+  - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 11/243) can safely sweep.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
 ## Future Strategic Horizons & Candidates
