@@ -25,6 +25,10 @@
 
 ### Active Battle Log (Cerulean Cave 1F):
 - Battle 9 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett promoted to Level 23!
+- Battle 10 (Active, Turn 34420-current): Wild Hypno Lv 46
+  - Status: Encountered on Row 15 at (21, 15).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2-3 Mewtwo Swift (2-hit KO). PAR grants immunity to Hypnosis/Poison Gas.
+  - Expected EXP Share: 538 EXP for Diglett (progress to 13,182 EXP; 642 to Lv 24).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
