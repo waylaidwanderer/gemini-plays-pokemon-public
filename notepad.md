@@ -54,16 +54,15 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-4. BICYCLE [Key Item]
-5. PP UP x 1
-6. MAX ELIXER x 1
-7. HM02 [Key Item]
-9. MAX POTION x 1
-10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-
+3. BICYCLE [Key Item]
+4. PP UP x 1
+5. MAX ELIXER x 1
+6. HM02 [Key Item]
+7. MAX POTION x 1
+8. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
 
 ## Inventory Capacity
-- Active Bag Items: 9 / 20 capacity used.
+- Active Bag Items: 8 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -263,7 +262,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
   - Transferred to PC Box 2 (5/20)
-  - Transferred to PC Box 2 (6/20)
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
@@ -4998,14 +4996,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex updated: 43 Caught / 136 Seen!
 
 ## Next Milestone: Evolve Vulpix into Ninetales (#038)
-- Vulpix (KITSUNE, Lv 33) is in active party!
-- Bag holds high-value items (Max Elixer ¥2,250, PP Up ¥4,900) to fund Fire Stone purchase (¥2,100).
-- Plan:
-  1. Inside elevator, select 4F (Wiseman Gifts).
-  2. Walk to shop counter at (5, 5) facing South.
-  3. Sell Max Elixer for ¥2,250, buy Fire Stone for ¥2,100.
-  4. Use Fire Stone on Vulpix to evolve into Ninetales (#038).
-  5. Register Ninetales in Pokédex (44 Caught)!
+- Vulpix (KITSUNE, Lv 33) in party evolved via Fire Stone (bought for ¥2,100 on 4F after selling Full Heal x6 for ¥1,800 and Guard Spec for ¥350).
+- Verifying species and stats on STATS screen [Turn 33361].
+- Register Ninetales (#038) in Pokédex (44 Caught)!
 
 
 <hr>
