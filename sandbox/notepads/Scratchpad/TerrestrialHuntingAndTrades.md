@@ -1,16 +1,17 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
-- Current Status: Level 21 (10,518 EXP, 130 to Lv 22) [Audited Turn 34342].
+- Current Status: Level 22 (11,043 EXP, 1,124 to Lv 23) [Audited Turn 34387].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-- Remaining Delta: 17,576 - 10,518 = 7,058 EXP (~12 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 234/234 HP, all PP 100% full).
-- Progress Summary: 5 battles completed (+2,836 EXP gained).
+- Remaining Delta: 17,576 - 11,043 = 6,533 EXP (~11 Cerulean Cave battles).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 234/234 HP, PAR).
+- Progress Summary: 6 battles completed (+3,361 EXP gained).
   - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
   - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
   - Battle 3: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 21.
   - Battle 4: Sandslash Lv 52 (+601 EXP) -> Diglett reached 9,917 EXP.
   - Battle 5: Sandslash Lv 52 (+601 EXP) -> Diglett reached 10,518 EXP.
+  - Battle 6: Magneton Lv 46 (+525 EXP) -> Diglett reached Lv 22!
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
   - Golbat Lv 46: 558 EXP
