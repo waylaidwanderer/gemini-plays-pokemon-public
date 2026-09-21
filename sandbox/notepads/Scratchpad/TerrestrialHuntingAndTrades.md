@@ -4,9 +4,9 @@
 - Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
 - Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in.
 - Evolves at Lv 34 (only 2 levels, boosted EXP!).
-- Current EXP: 33,555 EXP.
-- EXP to Lv 33: 2,382 EXP.
-- EXP to Lv 34: ~5,680 EXP total.
+- Current EXP: 34,392 EXP.
+- EXP to Lv 33: 1,545 EXP (~1-2 battles).
+- EXP to Lv 34: ~4,845 EXP total (~4-5 battles).
 - Switch-training strategy:
   1. Wild battle starts with Sailor (Seel).
   2. Switch to Sheldon on turn 1 (Seel takes 0 damage).
