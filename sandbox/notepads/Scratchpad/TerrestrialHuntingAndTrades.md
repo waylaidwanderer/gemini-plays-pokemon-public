@@ -3,12 +3,28 @@
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
 - Current EXP: 5,481 EXP (Lv 16, Delta to Gyarados: 4,519 EXP, ~8 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 87/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, PAR, Swift 20/20, Psychic 4/10)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 87/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, PAR, Swift 20/20, Swift 19/20, Psychic 5/10)
 
 ### Switch-Training Progress:
 - Completed Battles: 10 Battles Won (3 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 2 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53)
 - EXP Gained: +5,325 EXP (156 -> 5,481 EXP, Lv 16, 660 to Lv 17)
 - Remaining Delta to Lv 20 Gyarados: 4,519 EXP (~8 battles)
+
+### Empirical Cerulean Cave 1F Switch-Training EXP Yield Table (2 Participants)
+| Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Raichu** | 53 | 922 | **461 EXP** | 691 EXP | Mewtwo (Swift / Psychic) |
+| **Venomoth** | 49 | 966 | **483 EXP** | 724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Magneton** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Hypno** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
+| **Golbat** | 46 | 1,116 | **558 EXP** | 837 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Sandslash** | 52 | 1,202 | **601 EXP** | 901 EXP | Blastoise (STAB Surf 2x SE OHKO) |
+| **Dodrio** | 49 | 1,242 | **621 EXP** | 931 EXP | Blastoise (Ice Beam 2x SE OHKO) / Mewtwo |
+| **Ditto** | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
+
+- Average Yield per Cerulean Cave 1F battle: ~530 EXP.
+- Magikarp (TSUNAMI Lv 16, 5,481 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 4,519 EXP.
+- Exact projected battles remaining: ceil(4519 / 530) = **8.5 (~8-9 battles)**.
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):

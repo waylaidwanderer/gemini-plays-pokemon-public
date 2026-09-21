@@ -54,7 +54,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 5481 (660 to Lv 17, 4,519 to Lv 20 Gyarados) [Turn 35158] [Turn 35149] [Turn 35128]
+  - EXP: 5481 (660 to Lv 17, 4,519 to Lv 20 Gyarados) [Turn 35158]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -79,7 +79,7 @@
   - HP: 231 / 243 [Verified Turn 35111]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -164,17 +164,14 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
 
-## PC Box 2 PokÃ©mon
+## PC Box 2 Pokémon
 - POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
   - Status: Healthy
   - HP: 70 / 70 [Verified Lv 25 Turn 34075]
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 58, Defense 59, Speed 47, Special 48 [Verified Lv 25 Turn 34075]
   - OT: BLUE (IDNo. 04620)
-
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Turn 34071]
+  - EXP: 14062 (Medium Slow, Lv 25) [Turn 34071]
   - Growth Group: Medium Slow
-
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072], Evolved to Poliwrath (#062) via Water Stone [Turn 34159]
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
@@ -183,48 +180,38 @@
 - JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
   - Status: Healthy
   - HP: 65 / 65
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 33, Defense 26, Speed 56, Special 59 [Verified Turn 31735]
   - OT: DONA (IDNo. 19854, Boosted EXP)
-
   - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
   - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
 - ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
   - Status: Healthy
   - HP: 17 / 17
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 9, Defense 11, Speed 14, Special 12 [Verified Turn 32225]
   - OT: TRAINER (IDNo. 47899, Boosted EXP)
-
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Verified Turn 32225]
+  - EXP: 27 (Medium Fast, Lv 3) [Verified Turn 32225]
   - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
-
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
   - Status: Healthy
-  - Caught: PokÃ©mon Mansion 1F with Ultra Ball [Turn 32303]
+  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
-  - Caught: PokÃ©mon Mansion B1F with Ultra Ball [Turn 33046]
+  - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
   - Status: Healthy
   - HP: 102 / 102
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Verified Turn 33278]
-
+  - Stats: Attack 85, Defense 108, Speed 60, Special 83 [Verified Turn 33278]
+  - EXP: 59319 (Medium Fast, Lv 39) [Verified Turn 33278]
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
-  - Caught: PokÃ©mon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
 - NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
   - HP: 95 / 95
-
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Verified Turn 33364]
-
+  - Stats: Attack 62, Defense 64, Speed 81, Special 81 [Verified Turn 33364]
+  - EXP: 35937 (Medium Fast, Lv 33) [Verified Turn 33364]
   - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
   - OT: BLUE (IDNo. 04620)
-
   - Evolved from Vulpix via Fire Stone [Turn 33357]
