@@ -1,34 +1,21 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## PokÃ©mon Mansion Campaign Complete
-- Completed Mansion Captures:
-  - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
-  - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
-  - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
-  - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
-  - Magmar (#126 Lv 38 VULCAN) [Caught Turn 33046, Box 2]
+## Active Goal: Dewgong (#087) via Seel Evolution
+- Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) currently stored in PC Box 1.
+- Evolves at Lv 34 (only 2 levels, boosted EXP!).
+- EXP to Lv 33: 3,169 EXP; EXP to Lv 34: ~3,300 EXP.
+- Plan:
+  1. Withdraw Seel (SAILOR) from PC Box 1 into party (party 6/6).
+  2. Lead with Seel in Slot 1, switch to Mewtwo in Slot 2.
+  3. Fly to Cerulean City and enter Cerulean Cave 1F.
+  4. Defeat 2-3 wild Pokémon with Mewtwo to level Seel to Lv 34.
+  5. Evolve Seel into Dewgong (#087) and register in Pokédex.
 
-## Milestone: Obtain Weezing (#110) [COMPLETED Turn 33242]
-- Koffing (SMOGGY) evolved into Weezing (#110) at standard Level 35 on Turn 33242.
-- Final Stats at Lv 39: HP 102, Attack 81, Defense 105, Speed 54, Special 77.
-- PokÃ©dex updated: 43 Caught / 136 Seen!
-
-## Milestone: Evolve Vulpix into Ninetales (#038) [COMPLETED Turn 33357]
-- Vulpix (KITSUNE, Lv 33) successfully evolved into Ninetales (#038) via Fire Stone!
-- Verified Stats on Turn 33363:
-  - HP: 95 / 95
-  - Attack: 55, Defense: 57, Speed: 76, Special: 79
-  - OT: BLUE (IDNo. 04620)
-- PokÃ©dex updated: 44 Caught / 136 Seen!
-
-## Next Strategic Horizons & Candidates
-- Dewgong (#087):
-  - Seel (SAILOR, Lv 32 with boosted EXP) in PC Box 1.
-  - Evolves at Lv 34 (only 2 levels, boosted EXP!).
+## Future Strategic Horizons & Candidates
 - In-Game Trades:
   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL).
   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC).
 - Water Stone / Leaf Stone Evolutions:
-  - Celadon 4F sells Water Stone and Leaf Stone (Â¥2,100 each).
+  - Celadon 4F sells Water Stone and Leaf Stone (¥2,100 each).
   - Poliwag (RIPPLE Lv 15) -> Poliwhirl Lv 25 -> Poliwrath (#062) via Water Stone.
   - Weepinbell / Victreebel (#071) via Leaf Stone.
