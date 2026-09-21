@@ -5009,11 +5009,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - [x] Target 2: Liquidate CARBOS x1 for ¥4,900, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062) [ACHIEVED Turn 34159!].
   - Status: Poliwrath Lv 25 (Water/Fighting). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
   - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught: Poliwhirl #061, Poliwrath #062).
-- [ ] Target 3: Train Diglett (DIGBY Lv 19, in Party) to Level 26 -> Dugtrio (#051).
-  - Growth Rate: Medium Fast (EXP = Level^3, empirically verified Turn 34247: 7,682 + 318 = 8,000 = 20^3).
-  - Starting EXP (Lv 19): 7,682 EXP [Verified Turn 34247].
+- [ ] Target 3: Train Diglett (DIGBY, in Party) to Level 26 -> Dugtrio (#051).
+  - Current Status: Level 21 (10,518 EXP, 130 to Lv 22) [Audited Turn 34342].
   - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-  - Required EXP Delta: 17,576 - 7,682 = 9,894 EXP.
+  - Remaining Delta: 17,576 - 10,518 = 7,058 EXP (~12 Cerulean Cave battles).
+  - Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 234/234 HP, all PP 100% full).
+  - Battles Completed: 5 battles (Hypno Lv 46, Golbat Lv 46, Hypno Lv 46, Sandslash Lv 52, Sandslash Lv 52; +2,836 EXP gained).
   - EXP Yield per Wild Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
     - Magneton Lv 46: 525 EXP
     - Golbat Lv 46: 558 EXP
@@ -5021,7 +5022,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Kadabra Lv 49: 504 EXP
     - Raichu Lv 53: 461 EXP
     - Sandslash Lv 52: 601 EXP
-  - Projected Battle Count: ~18 - 19 battles to reach Lv 26.
 
 ### Empirical Damage Telemetry (Hypno Lv 46 vs Mewtwo Lv 70):
 - Mewtwo Swift (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
