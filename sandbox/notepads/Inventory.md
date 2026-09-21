@@ -49,7 +49,7 @@
 ## Party Pokémon
 - Slot 1: PARAS (Nickname: FUNGI) [Lv 15, Bug/Grass]
   - Status: Healthy
-  - HP: 39 / 39 [Verified Lv 15 Turn 35604]
+  - HP: 38 / 38 [Verified Lv 15 Turn 35613]
   - Stats: Attack 30, Defense 22, Speed 15, Special 25 [Verified Lv 15 Turn 35604]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
