@@ -1570,10 +1570,6 @@
 - **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
 - **Strength Status Reset on Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength [Empirically verified Turns 20452, 20525, 20559, 30447].
-## Fishing Mechanics & Indoor Gym Pool Verification
-- **Cerulean Gym Pool Fishing Permitted:** In retail Generation 1 Pokémon Blue, the Super Rod can be successfully cast into the Cerulean Gym pool water tiles (from pier edge (4, 9) facing West into (3, 9)), generating wild encounter rolls [Empirically verified Turn 31481]. General indoor water fishing across other buildings remains unverified.
-
-
 ## Overworld SURF PP Retention [Empirically Verified Turn 34016]
 - Overworld SURF Field Execution: Executing SURF from the party Pokémon menu in the overworld does NOT consume move PP. Empirically confirmed Turn 34016: Sheldon's Surf displayed 15/15 PP in battle after navigating the Cerulean City canal via overworld Surf. (Note: Other field moves such as Cut, Flash, Strength, and Dig remain empirically untested for overworld PP retention).
 
