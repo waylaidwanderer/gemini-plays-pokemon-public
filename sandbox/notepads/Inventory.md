@@ -47,13 +47,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 11, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 12, Bug/Grass]
   - Status: Healthy
-  - HP: 31 / 31 [Verified Lv 11 Turn 35552]
-  - Stats: Attack 23, Defense 17, Speed 12, Special 19 [Verified Lv 11 Turn 35552]
+  - HP: 33 / 33 [Verified Lv 12 Turn 35571]
+  - Stats: Attack 25, Defense 18, Speed 12, Special 21 [Verified Lv 12 Turn 35571]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 1601 (Target 13,824 for Lv 24 Parasect #047, remaining 12,223) [Verified Turn 35552]
+  - EXP: 2139 (Target 13,824 for Lv 24 Parasect #047, remaining 11,685) [Verified Turn 35571]
   - Moves: Scratch (PP 35/35) [Verified Turn 35442]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -69,11 +69,11 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Healthy
+  - Status: Poisoned (PSN)
   - HP: 231 / 243 [Turn 35564]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
