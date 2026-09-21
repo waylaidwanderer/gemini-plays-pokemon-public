@@ -53,7 +53,7 @@
   - HP: 47 / 47 [Verified Lv 20 Turn 33889]
   - Stats: Attack 27, Defense 27, Speed 46, Special 22 [Verified Lv 20 Turn 33884]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 5695 [Turn 33882]
+  - EXP: 5922 [Turn 33897]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
