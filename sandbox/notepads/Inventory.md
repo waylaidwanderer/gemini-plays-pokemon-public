@@ -11,7 +11,7 @@
 8. GUARD SPEC. x 1
 9. MAX POTION x 1
 10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-11. RARE CANDY x 2 [Withdrawn from PC Turn 33252]
+11. RARE CANDY x 1 [Withdrawn from PC Turn 33252]
 
 
 ## Inventory Capacity
@@ -83,10 +83,10 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- KOFFING (Nickname: SMOGGY) [Lv 37, Poison]
+- KOFFING (Nickname: SMOGGY) [Lv 38, Poison]
   - Status: Healthy
-  - HP: 98 / 98
-  - Stats: Attack 77, Defense 100, Speed 52, Special 73 [Verified Lv 37 Turn 33264]
+  - HP: 100 / 100
+  - Stats: Attack 79, Defense 103, Speed 53, Special 75 [Verified Lv 38 Turn 33268]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Leveled to Lv 35 via Rare Candy [Turn 33240]
 
@@ -229,6 +229,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
   - Transferred to PC Box 2 (8/20)
-- MUK (Nickname: SLUDGE) [Lv 37, Poison]
+- MUK (Nickname: SLUDGE) [Lv 38, Poison]
   - Status: Healthy
   - Deposited from active party into PC Box 2 (9/20) [Turn 33226]

@@ -13,9 +13,10 @@
   - Lv 35: did NOT evolve [Turn 33240]
   - Lv 36: did NOT evolve [Turn 33260] (Stats at Lv 36: HP 95, Atk 75, Def 97, Spd 51, Spc 71)
   - Lv 37: did NOT evolve [Turn 33264] (Stats at Lv 37: HP 98, Atk 77, Def 100, Spd 52, Spc 73)
-- Evolution level is >= 38 (testing Lv 38, matching Grimer -> Muk threshold).
-- Remaining in Bag: RARE CANDY x 2 [Turn 33265].
+  - Lv 38: did NOT evolve [Turn 33268] (Stats at Lv 38: HP 100, Atk 79, Def 103, Spd 53, Spc 75)
+- Evolution level is >= 39 (testing Lv 39, matching Mansion wild Weezing level).
+- Remaining in Bag: RARE CANDY x 1 [Turn 33269].
 - Strategy:
-  1. USE RARE CANDY on Koffing (SMOGGY) to reach Lv 38.
+  1. USE RARE CANDY on Koffing (SMOGGY) to reach Lv 39.
   2. Test for evolution into Weezing (#110).
   3. Register Weezing in Pokédex.
