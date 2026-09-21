@@ -52,6 +52,7 @@
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 - **Direct Surf from Bicycle:** In retail Pokémon Blue, the player can initiate the field move SURF directly from the party menu while mounted on the Bicycle. The game does not prompt or require manual dismounting beforehand; executing SURF transitions the player directly into the Surfing state. [Empirically confirmed Turns 13644-13645]
 - **East Shoreline Launch:** Surfing can be initiated facing west into an eastern shoreline tile (empirically confirmed Turn 13645 at Pallet Town (8, 15) facing (7, 15)).
+- **Overworld Surf Zero PP Consumption:** In retail Pokémon Blue, surfing in the overworld does not consume move PP (empirically confirmed Turn 34016).
 
 ## HM04 STRENGTH Mechanics (Generation 1 Retail)
 - **Badge Requirement:** Rainbowbadge (Erika) - earned Turn 6800.
