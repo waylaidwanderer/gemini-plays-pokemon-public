@@ -101,9 +101,9 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- Â¥3056 [Turn 34152]
+- ¥3056 [Turn 34152]
 
-## Party PokÃ©mon
+## Party Pokémon
 - Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 18, Water]
   - Status: Healthy
   - HP: 36 / 36 [Verified Lv 18 Turn 35219]
@@ -143,7 +143,7 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
 
-## PC Box 1 PokÃ©mon (Contiguous Slot Order - 13 PokÃ©mon)
+## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
 - Slot 2: ZAPDOS (THUNDER) [Lv 50]
 - Slot 3: HITMONLEE (BRUCE) [Lv 30]
@@ -158,7 +158,7 @@
 - Slot 12: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 - Slot 13: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 
-### Detailed Stats for Box 1 PokÃ©mon:
+### Detailed Stats for Box 1 Pokémon:
 - SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
   - Status: Healthy
   - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
@@ -183,18 +183,15 @@
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
-
   - Evolved from Nidorina via Moon Stone [Turn 31184]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
-
   - Moves: Wing Attack, Agility, Supersonic
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
   - Status: Healthy
   - HP: 67 / 67
-
   - Moves: Water Gun, Withdraw, Horn Attack
   - Revived from Helix Fossil [Turn 30898]
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
@@ -203,7 +200,6 @@
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
   - HP: 30 / 30
-
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
@@ -5030,7 +5026,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
 - Current EXP: 7,653 EXP (Lv 18, Delta to Gyarados: 2,347 EXP, ~4-5 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 63/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 11/243, Healthy, Swift 18/20, Psychic 1/10)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Healthy, Surf 15/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 10/10) [Fully Healed Turn 35234]
 
 ### Switch-Training Progress:
 - Completed Battles: 14 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 3 Wild Golbat Lv 46, 2 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53, 1 Wild Parasect Lv 52)
@@ -5046,12 +5042,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Hypno** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
 | **Golbat** | 46 | 1,116 | **558 EXP** | 837 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
 | **Sandslash** | 52 | 1,202 | **601 EXP** | 901 EXP | Blastoise (STAB Surf 2x SE OHKO) |
+| **Parasect** | 52 | 950 | **475 EXP** | 712 EXP | Blastoise (Ice Beam 4x SE OHKO) |
 | **Dodrio** | 49 | 1,242 | **621 EXP** | 931 EXP | Blastoise (Ice Beam 2x SE OHKO) / Mewtwo |
 | **Ditto** | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP.
 - Magikarp (TSUNAMI Lv 18, 7,653 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 2,347 EXP.
-- Exact projected battles remaining: ceil(2347 / 530) = **4.4 (~4-5 battles)**. = **8.5 (~8-9 battles)**.
+- Exact projected battles remaining: ceil(2347 / 530) = **4.4 (~4-5 battles)**.
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
@@ -5082,9 +5079,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Magikarp (TSUNAMI Lv 5, HP 17/17) has Splash (0 damage) and cannot survive any Lv 40+ Cerulean Cave attacks.
 - Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
 - Switch Target Choice:
-  - If opposing PokÃ©mon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 63/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
-  - If opposing PokÃ©mon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 11/243) can safely sweep.
-- Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean PokÃ©mon Center to heal.
+  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 63/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
+  - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 11/243) can safely sweep.
+- Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
 ## Future Strategic Horizons & Candidates
 - Additional Level Evolutions in PC:
@@ -5093,6 +5090,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Psyduck (MIGRAINE Lv 15, Box 2) -> Golduck (#055) at Lv 33.
   - Slowpoke (DOPEY Lv 15, Box 2) -> Slowbro (#080) at Lv 37.
 - Stone Evolutions:
-  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (Â¥2,100 each).
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
 
 <hr>
