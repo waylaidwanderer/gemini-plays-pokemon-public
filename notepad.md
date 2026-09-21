@@ -3520,6 +3520,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 28-34) [Common]
 - Muk (Lv 37) [Rare]
 - Vulpix (Lv 34) [Verified Turn 32848]
+- Weezing (Encountered Turn 33164 at (20, 20)) [Very Rare]
 
 <hr>
 
