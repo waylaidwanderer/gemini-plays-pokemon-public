@@ -47,10 +47,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: JOLTEON (Nickname: VEE) [Lv 25, Electric]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
-  - HP: 68 / 68
-  - Moves: Tackle, Sand-Attack, Thunderbolt
+  - HP: 17 / 17 [Verified Turn 34996]
+  - Moves: Splash (PP 40/40)
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Slow (EXP = 1.25 * Level^3)
+  - EXP: 156 (9,844 to Lv 20 Gyarados) [Turn 34991]
+  - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -76,14 +80,10 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
-- Slot 6: MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
+- Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
-  - HP: 17 / 17 [Verified Turn 34996]
-  - Moves: Splash (PP 40/40)
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 156 (9,844 to Lv 20 Gyarados) [Turn 34991]
-  - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
+  - HP: 68 / 68
+  - Moves: Tackle, Sand-Attack, Thunderbolt
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
