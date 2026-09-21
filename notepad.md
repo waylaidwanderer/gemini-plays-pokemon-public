@@ -103,12 +103,12 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 24, Ground]
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 25, Ground]
   - Status: Healthy
-  - HP: 46 / 46 [Verified Lv 24 Turn 34454]
-  - Stats: Attack 37, Defense 20, Speed 57, Special 32 [Verified Lv 24 Turn 34451]
+  - HP: Full [Verified Lv 25 Turn 34478]
+  - Stats: Attack 38, Defense 21, Speed 59, Special 34 [Verified Lv 25 Turn 34478]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 15354 [Verified Turn 34468]
+  - EXP: 15837 [Verified Turn 34478]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15) [Learned Lv 24 Turn 34452]
   - Caught: Diglett's Cave [Turn 3507]
@@ -117,8 +117,8 @@
   - HP: 82 / 234 [Verified Turn 34475]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 435787 (11601 to Lv 71) [Turn 34468]
-  - Moves: Swift (PP 9/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 436270 (11118 to Lv 71) [Turn 34478]
+  - Moves: Swift (PP 9/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5004,13 +5004,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
-- Current Status: Level 24 (15,354 EXP, 271 to Lv 25, 2,222 to Lv 26) [Verified Battle 14 Turn 34468].
+- Current Status: Level 25 (15,837 EXP, 1,739 to Lv 26) [Verified Battle 15 Turn 34478].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-- Remaining Delta: 17,576 - 15,354 = 2,222 EXP (~4 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 82/234 HP, PSN, Swift 9/20, Psychic 7/10).
-- Progress Summary: 14 battles completed (+7,672 EXP gained).
-  - Milestones: Lv 20 reached Battle 1, Lv 21 reached Battle 3, Lv 22 reached Battle 6, Lv 23 reached Battle 9, Lv 24 reached Battle 12 (learned Sand-Attack).
-  - Current Delta: 271 EXP to Lv 25 (15,625 EXP), 2,222 EXP to Lv 26 (17,576 EXP, Dugtrio evolution).
+- Remaining Delta: 17,576 - 15,837 = 1,739 EXP (~3 Cerulean Cave battles).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 82/234 HP, PSN, Swift 9/20, Psychic 6/10).
+- Progress Summary: 15 battles completed (+8,155 EXP gained).
+  - Milestones: Lv 20 reached Battle 1, Lv 21 reached Battle 3, Lv 22 reached Battle 6, Lv 23 reached Battle 9, Lv 24 reached Battle 12 (learned Sand-Attack), Lv 25 reached Battle 15.
+  - Current Delta: 1,739 EXP to Lv 26 (17,576 EXP, Dugtrio evolution).
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
   - Golbat Lv 46: 558 EXP
@@ -5021,7 +5021,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Venomoth Lv 49: 483 EXP (total 966 EXP / 2 participants = 483 EXP)
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 15 Active: Wild Venomoth appeared [Turn 34471].
+- Battle 15 Concluded: Wild Venomoth Lv 49 OHKOed with Psychic (+483 EXP). Diglett reached Level 25 (15,837 EXP). Stats: Atk 38, Def 21, Spd 59, Spc 34.
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46: Empirically verified ~55-60% HP per hit (reliable 2-hit KO, observed Battles 10, 11, 12, 14).

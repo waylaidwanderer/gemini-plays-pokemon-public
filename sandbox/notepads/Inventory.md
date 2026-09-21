@@ -47,12 +47,12 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 24, Ground]
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 25, Ground]
   - Status: Healthy
-  - HP: 46 / 46 [Verified Lv 24 Turn 34454]
-  - Stats: Attack 37, Defense 20, Speed 57, Special 32 [Verified Lv 24 Turn 34451]
+  - HP: Full [Verified Lv 25 Turn 34478]
+  - Stats: Attack 38, Defense 21, Speed 59, Special 34 [Verified Lv 25 Turn 34478]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 15354 [Verified Turn 34468]
+  - EXP: 15837 [Verified Turn 34478]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15) [Learned Lv 24 Turn 34452]
   - Caught: Diglett's Cave [Turn 3507]
@@ -61,8 +61,8 @@
   - HP: 82 / 234 [Verified Turn 34475]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 435787 (11601 to Lv 71) [Turn 34468]
-  - Moves: Swift (PP 9/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 436270 (11118 to Lv 71) [Turn 34478]
+  - Moves: Swift (PP 9/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
