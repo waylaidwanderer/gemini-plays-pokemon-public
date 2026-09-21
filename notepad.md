@@ -105,10 +105,11 @@
 ## Party Pokémon
 - POLIWHIRL (Nickname: RIPPLE) [Lv 25, Water]
   - Status: Healthy
-  - HP: Full (Lv 25)
+  - HP: 70 / 70 [Verified Lv 25 Turn 34075]
+  - Stats: Attack 33, Defense 33, Speed 57, Special 27 [Verified Lv 25 Turn 34070]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 12020 [Turn 34071, +461 from Raichu Lv 53]
-  - Growth Group: Medium Slow (1,391 EXP to Lv 26)
+  - EXP: 12020 (1,391 to Lv 26) [Turn 34071]
+  - Growth Group: Medium Slow
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -116,14 +117,14 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15)
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 208 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 429211 (18177 to Lv 71) [Turn 34071, +461 from Raichu Lv 53]
+  - EXP: 429211 (18177 to Lv 71) [Turn 34071]
   - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
@@ -134,7 +135,7 @@
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Paralyzed (PAR)
@@ -5021,10 +5022,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 77 / 225 (Paralyzed). Moves: Surf (PP 11/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
-- Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Paralyzed). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
+- Poliwhirl (RIPPLE Lv 25, Slot 1): HP 70 / 70 (Healthy). Stats: Atk 33, Def 33, Spd 57, Spc 27. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10).
+- Farfetch'd (DUX Lv 5, Slot 2): HP 20 / 20. Moves: Peck, Sand-Attack, Cut, Fly.
+- Mewtwo (OMEGA Lv 70, Slot 3): HP 208 / 234 (Healthy). Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
-- Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+- Geodude (ROCKY Lv 8, Slot 5): HP 26 / 26. Moves: Tackle, Rock Slide, Strength.
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 77 / 225 (Paralyzed). Moves: Surf (PP 11/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
 
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
