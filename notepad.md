@@ -105,18 +105,15 @@
   - HP: 90 / 90
   - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
+  - EXP: 33555 (2382 to Lv 33) [Verified Turn 33505]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
   - Withdrawn from PC Box 1 [Turn 33429]
-- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
+- BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Turn 33286 at Cinnabar Island]
-  - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
-  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
+  - HP: 222 / 222
+  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -124,11 +121,14 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
   - EXP: 125 (91 to Lv 6)
-- BLASTOISE (SHELDON) [Lv 70, Water]
-  - Status: Healthy
-  - HP: 222 / 222
-  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
+  - Status: Paralyzed
+  - HP: 224 / 234
+  - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -4993,19 +4993,25 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Dewgong (#087) via Seel Evolution
-- Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) currently stored in PC Box 1.
+- Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
+- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in.
 - Evolves at Lv 34 (only 2 levels, boosted EXP!).
-- EXP to Lv 33: 3,169 EXP; EXP to Lv 34: ~3,300 EXP.
-- Plan:
-  1. Defeat 2-3 wild Pok�mon with Mewtwo to level Seel to Lv 34.
-  2. Evolve Seel into Dewgong (#087) and register in Pok�dex.
+- Current EXP: 33,555 EXP.
+- EXP to Lv 33: 2,382 EXP.
+- EXP to Lv 34: ~5,680 EXP total.
+- Switch-training strategy:
+  1. Wild battle starts with Sailor (Seel).
+  2. Switch to Sheldon on turn 1 (Seel takes 0 damage).
+  3. Sheldon KOs with Surf / Ice Beam / Body Slam.
+  4. Sailor earns ~750-1200 boosted EXP per battle!
+  5. Upon reaching Lv 34, Seel evolves into Dewgong (#087) -> Pokédex 45 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL).
   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC).
 - Water Stone / Leaf Stone Evolutions:
-  - Celadon 4F sells Water Stone and Leaf Stone (�2,100 each).
+  - Celadon 4F sells Water Stone and Leaf Stone (¥2,100 each).
   - Poliwag (RIPPLE Lv 15) -> Poliwhirl Lv 25 -> Poliwrath (#062) via Water Stone.
   - Weepinbell / Victreebel (#071) via Leaf Stone.
 
