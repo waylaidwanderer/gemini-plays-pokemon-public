@@ -111,14 +111,14 @@
   - Stats: Attack 37, Defense 27, Speed 18, Special 31 [Verified Lv 19 Turn 35671]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7327 [Verified Lv 19 Turn 35671]
+  - EXP: 7802 [Verified Lv 19 Turn 35685]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
   - HP: 82 / 225 [Verified Turn 35683]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 14/15), Surf (PP 10/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 14/15), Surf (PP 10/15), Ice Beam (PP 8/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -4987,6 +4987,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 10 [Turn 35654]: Wild Raichu Lv 53. Switched Paras -> Mewtwo. Raichu used Thundershock (12 dmg). Mewtwo took poison (15 dmg) to 90 HP, used Psychic (OHKO). Total EXP 922. Paras gained 461 EXP (EXP: 6314 / 13824, remaining: 7510, 545 to Lv 19). Mewtwo HP: 90/243 (PSN), Psychic PP: 4/10.
 - Battle 11 [Turn 35662]: Wild Hypno Lv 46. Switched Paras -> Blastoise. Blastoise took Headbutt (12 dmg), used Double-Edge (recoil 33 dmg to 108 HP), took Headbutt (10 dmg to 98 HP), used Body Slam (KO). Total EXP 1076. Paras gained 538 EXP (EXP: 6852 / 13824, remaining: 6972, 7 to Lv 19). Blastoise HP: 98/225, Body Slam PP: 14/15.
 - Battle 12 [Turn 35669]: Wild Parasect Lv 52. Switched Paras -> Blastoise. Parasect used Growth. Blastoise used Ice Beam (2x SE OHKO). Total EXP 950. Paras gained 475 EXP -> grew to Lv 19! (EXP: 7327 / 13824, remaining: 6497, 673 to Lv 20). Stats at Lv 19: Atk 37, Def 27, Spd 18, Spc 31. Blastoise HP: 98/225, Ice Beam PP: 9/10.
+- Battle 13 [Turn 35685]: Wild Parasect Lv 52. Switched Paras -> Blastoise. Blastoise took Slash (16 dmg to 82 HP), used Ice Beam (Crit OHKO). Total EXP 950. Paras gained 475 EXP (EXP: 7802 / 13824, remaining: 6022, 198 to Lv 20). Blastoise HP: 82/225, Ice Beam PP: 8/10.
 
 
 <hr>
