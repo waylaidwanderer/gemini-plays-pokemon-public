@@ -6,20 +6,8 @@
 - Remaining Delta: 17,576 - 15,354 = 2,222 EXP (~4 Cerulean Cave battles).
 - Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 97/234 HP, PSN, Swift 9/20, Psychic 7/10).
 - Progress Summary: 14 battles completed (+7,672 EXP gained).
-  - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
-  - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
-  - Battle 3: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 21.
-  - Battle 4: Sandslash Lv 52 (+601 EXP) -> Diglett reached 9,917 EXP.
-  - Battle 5: Sandslash Lv 52 (+601 EXP) -> Diglett reached 10,518 EXP.
-  - Battle 6: Magneton Lv 46 (+525 EXP) -> Diglett reached Lv 22!
-  - Battle 7: Hypno Lv 46 (+538 EXP) -> Diglett reached 11,581 EXP.
-  - Battle 8: Magneton Lv 46 (+525 EXP) -> Diglett reached 12,106 EXP.
-  - Battle 9: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 23!
-  - Battle 10: Hypno Lv 46 (+538 EXP) -> Diglett reached 13,182 EXP.
-  - Battle 11: Hypno Lv 46 (+538 EXP) -> Diglett reached 13,720 EXP.
-  - Battle 12: Hypno Lv 46 (+538 EXP) -> Diglett reached Level 24 (14,258 EXP)!
-  - Battle 13: Golbat Lv 46 (+558 EXP) -> Diglett reached 14,816 EXP.
-  - Battle 14: Hypno Lv 46 (+538 EXP) -> Diglett reached 15,354 EXP.
+  - Milestones: Lv 20 reached Battle 1, Lv 21 reached Battle 3, Lv 22 reached Battle 6, Lv 23 reached Battle 9, Lv 24 reached Battle 12 (learned Sand-Attack).
+  - Current Delta: 271 EXP to Lv 25 (15,625 EXP), 2,222 EXP to Lv 26 (17,576 EXP, Dugtrio evolution).
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
   - Golbat Lv 46: 558 EXP
@@ -27,14 +15,16 @@
   - Kadabra Lv 49: 504 EXP
   - Raichu Lv 53: 461 EXP
   - Sandslash Lv 52: 601 EXP
+  - Venomoth Lv 49: 483 EXP (total 966 EXP / 2 participants = 483 EXP)
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 14 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached 15,354 EXP (271 to Lv 25, 2,222 to Lv 26).
+- Battle 15 Active: Wild Venomoth appeared [Turn 34471].
 
 ### Empirical Damage Telemetry:
-- Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
-- Mewtwo Psychic vs Hypno Lv 46 (90 BP STAB special, Spc 231 vs Hypno Spc ~115, 0.5x resisted): Base ~105 * 1.5 STAB * 0.5 resist = ~78 dmg * (0.85..1.0) = ~66-78 dmg.
-- Strategic Finding: Swift deals equal or superior damage against pure Psychic Hypno while preserving limited 10 PP Psychic for 2x super-effective targets (Golbat OHKO).
+- Mewtwo Swift vs Hypno Lv 46: Empirically verified ~55-60% HP per hit (reliable 2-hit KO, observed Battles 10, 11, 12, 14).
+- Mewtwo Psychic vs Golbat Lv 46: Empirically verified 100% OHKO via 2x super-effective STAB (observed Battle 13 Turn 34459).
+- Mewtwo Psychic vs Venomoth Lv 49: Bug/Poison type is 2x weak to Psychic; guaranteed OHKO via STAB Psychic.
+- Poison Mechanics: Mewtwo poisoned in Battle 14; HP reduced by 1/16 max HP per battle turn and 1 HP per 4 overworld steps. HP to be audited on party screen.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
