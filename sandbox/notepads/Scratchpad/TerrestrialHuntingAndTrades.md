@@ -34,6 +34,15 @@
 - Sheldon (BLASTOISE Lv 71, Slot 5): HP 225 / 225 (Healthy, Paralysis Cured!). Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10).
 - Farfetch'd (DUX Lv 5, Slot 6): HP 20 / 20 (Healthy). Moves: Peck, Sand-Attack, Cut, Fly.
 
+
+### Switch-Training Battle Log (Cerulean Cave 1F):
+- Battle 1 (Turn 34285-34292): Wild Hypno Lv 46
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno used Poison Gas, Mewtwo PSN). Turn 2 Mewtwo Swift dealt ~50% HP. Turn 3 Mewtwo Swift KOed Hypno.
+  - Damage Telemetry: Mewtwo Swift (60 BP Normal physical, Atk 167) deals ~50% to Hypno Lv 46 (2-hit KO).
+  - Total EXP: 1,076 -> Base share: 538 EXP each.
+  - Diglett Progress: 7,682 + 538 = 8,220 EXP. Level 19 -> Level 20 achieved! (8,000 EXP threshold crossed).
+  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 9,356 EXP (~17 battles remaining).
+
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
