@@ -53,7 +53,7 @@
   - Stats: Attack 32, Defense 23, Speed 15, Special 27 [Verified Lv 16 Turn 35618]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4286 (Target 13,824 for Lv 24 Parasect #047, remaining 9,538) [Verified Turn 35618]
+  - EXP: 4811 (Target 13,824 for Lv 24 Parasect #047, remaining 9,013) [Verified Turn 35618]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -73,7 +73,7 @@
   - HP: 119 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
