@@ -44,9 +44,9 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- Â¥3056 [Turn 34152]
+- ¥3056 [Turn 34152]
 
-## Party PokÃ©mon
+## Party Pokémon
 - Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 18, Water]
   - Status: Healthy
   - HP: 36 / 36 [Verified Lv 18 Turn 35219]
@@ -86,7 +86,7 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
 
-## PC Box 1 PokÃ©mon (Contiguous Slot Order - 13 PokÃ©mon)
+## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
 - Slot 2: ZAPDOS (THUNDER) [Lv 50]
 - Slot 3: HITMONLEE (BRUCE) [Lv 30]
@@ -101,7 +101,7 @@
 - Slot 12: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 - Slot 13: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 
-### Detailed Stats for Box 1 PokÃ©mon:
+### Detailed Stats for Box 1 Pokémon:
 - SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
   - Status: Healthy
   - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
@@ -126,18 +126,15 @@
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
-
   - Evolved from Nidorina via Moon Stone [Turn 31184]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
-
   - Moves: Wing Attack, Agility, Supersonic
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
   - Status: Healthy
   - HP: 67 / 67
-
   - Moves: Water Gun, Withdraw, Horn Attack
   - Revived from Helix Fossil [Turn 30898]
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
@@ -146,7 +143,6 @@
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
   - HP: 30 / 30
-
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
