@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥256 [Turn 33350]
-- Pokédex: 45 Caught / 136 Seen [Turn 33659]
+- Pokédex: 46 Caught / 136 Seen [Turn 34072]
 
 ## Milestones
 
@@ -2138,7 +2138,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Stairs down to 3F: Located at (12, 1).
 - Floor Sign: Located at (14, 1) on north wall.
 - Stairs up to 5F: Located at (16, 1).
-- Display Shelves: Located along rows 3..4 (cols 2..7), inspecting displays "Wow! Tons of POK¥MON stuff!" [Verified Turn 32163].
+- Display Shelves: Located along rows 3..4 (cols 2..7), inspecting displays "Wow! Tons of POKéMON stuff!" [Verified Turn 32163].
 - Shop Counter: Located along row 6 (cols 0..8), clerk stationed at (5, 7) facing North. Player shops from (5, 5) facing South [Corrected Turn 32163].
   - Clerk Stock / Prices:
     - POKé DOLL: ¥1,000
@@ -5002,6 +5002,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   5. Selecting `YES` opens the 'Choose a PKMN BOX' list (`BOX 1` through `BOX 12`), with cursor initializing on the current active box.
   6. Navigating to the desired box and pressing A initiates the save routine ('Saving... DON'T TURN OFF THE POWER.').
   7. Upon save completion, prints '[PLAYER] changed the POKEeMON BOX!' and returns to Bill's PC menu with the newly active box displayed.
+## Poké Mart Selling Mechanics & Constraints (Generation 1 Retail)
+- **Standard Sell Price Ratio:** Standard purchasable restorative items and vitamins sell for exactly 50% of their retail purchase price (e.g., Max Potion buys for ¥2,500 and sells for ¥1,250 [Empirically verified Turn 34106]; Vitamins buy for ¥9,800 on 5F and sell for ¥4,900).
+- **PP UP Sell Price Anomaly:** In Generation 1 retail, PP UP has a base sell price of ¥0 (`x01 ¥0`), yielding zero revenue upon sale [Empirically verified Turn 34100].
+- **Unsellable Items ('I can't put a price on that'):**
+  - Key Items (Poké Flute, Super Rod, Bicycle, HM02) cannot be sold.
+  - Max Elixer cannot be sold ('I can't put a price on that.') [Empirically verified Turn 34101].
+  - Technical Machines (TMs) and Hidden Machines (HMs) cannot be sold to Mart clerks in Generation 1 retail; attempting to sell TMs (e.g. TM35) or HMs prompts 'I can't put a price on that.' and denies the transaction [Empirically verified Turn 34107].
+
 
 <hr>
 
@@ -5017,7 +5025,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
 ### Immediate Routing & Action Steps:
-1. Switch-train Poliwag (Slot 1) on Cerulean Cave 1F (patrolling rows 14-15) to Level 25 -> Poliwhirl (#061).
 2. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) at Dept Store 4F.
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
@@ -5033,9 +5040,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Current Wallet: ¥256.
 - Stone Cost: Water Stone = ¥2,100.
 - Target Inventory to Liquidate:
-  - PP UP x1 (Bag): Sell price = ¥4,900 (Surplus funds: ¥4,900 + ¥256 = ¥5,156, leaving ¥3,056 after stone for Ultra Balls).
-  - Alternative: MAX ELIXER x1 (Bag): Sell price = ¥2,250 (Surplus funds: ¥2,250 + ¥256 = ¥2,506, leaving ¥406).
-- Vendor: Celadon Department Store 4F Clerk.
+    - Vendor: Celadon Department Store 4F Clerk.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
