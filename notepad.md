@@ -128,7 +128,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 189 / 243 [Turn 35583]
+  - HP: 170 / 243 [Turn 35591]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
