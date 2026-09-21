@@ -48,12 +48,12 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 20, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 21, Water]
   - Status: Healthy
-  - HP: 47 / 47 [Verified Lv 20 Turn 33889]
-  - Stats: Attack 27, Defense 27, Speed 46, Special 22 [Verified Lv 20 Turn 33884]
+  - HP: Full (Lv 21)
+  - Stats: Attack 28, Defense 28, Speed 48, Special 23 [Verified Lv 21 Turn 33906]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 5922 [Turn 33897]
+  - EXP: 6480 [Turn 33906]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
