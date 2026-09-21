@@ -102,14 +102,6 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
-  - Status: Healthy
-  - HP: 113 / 113 [Verified Lv 34 Turn 33657]
-  - Stats: Attack 56, Defense 67, Speed 59, Special 79 [Verified Lv 34 Turn 33657]
-  - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 40203 (2672 to Lv 35) [Verified Turn 33669]
-  - Moves: Headbutt (PP 14/15), Growl (PP 40/40) [Verified Turn 33639]
-  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 81 / 222 [Verified Turn 33657]
@@ -142,6 +134,14 @@
   - EXP: 314 (105 to Lv 9)
 
 ## PC Box 1 Pokémon
+- DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
+  - Status: Healthy
+  - HP: 113 / 113 [Verified Lv 34 Turn 33657]
+  - Stats: Attack 56, Defense 67, Speed 59, Special 79 [Verified Lv 34 Turn 33657]
+  - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - EXP: 40203 (2672 to Lv 35) [Verified Turn 33669]
+  - Moves: Headbutt (PP 14/15), Growl (PP 40/40) [Verified Turn 33639]
+  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425], Evolved Turn 33656
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
