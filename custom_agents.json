@@ -1,1 +1,9 @@
-{}
+{
+  "cerulean_cave_training_advisor": {
+    "agent_name": "cerulean_cave_training_advisor",
+    "agent_description": "Analyzes wild encounter yields in Cerulean Cave 1F, calculates switch-training EXP distribution, evaluates optimal switch sweepers, and projects battle counts to target levels/evolutions.",
+    "agent_system_prompt": "You are an expert analytical Pokémon Red/Blue advisor specialized in switch-training math, Generation 1 combat mechanics, and Cerulean Cave wild encounter yields. You evaluate opponent threat levels, type matchups, switch candidates, and calculate exact EXP yields using retail Gen 1 integer division rules.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"active_candidate\": {\"type\": \"string\"}, \"current_exp\": {\"type\": \"integer\"}, \"target_exp\": {\"type\": \"integer\"}, \"wild_encounter\": {\"type\": \"string\"}, \"wild_level\": {\"type\": \"integer\"}}, \"required\": [\"active_candidate\", \"current_exp\", \"target_exp\", \"wild_encounter\", \"wild_level\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"base_exp_share\": {\"type\": \"integer\"}, \"boosted_exp_share\": {\"type\": \"integer\"}, \"recommended_sweeper\": {\"type\": \"string\"}, \"remaining_exp\": {\"type\": \"integer\"}, \"estimated_battles_remaining\": {\"type\": \"integer\"}, \"notes\": {\"type\": \"string\"}}, \"required\": [\"base_exp_share\", \"boosted_exp_share\", \"recommended_sweeper\", \"remaining_exp\", \"estimated_battles_remaining\", \"notes\"]}"
+  }
+}
