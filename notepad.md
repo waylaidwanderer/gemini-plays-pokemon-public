@@ -104,44 +104,36 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
-  - Status: Healthy
-  - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
-  - Stats: Attack 50, Defense 54, Speed 41, Special 32 [Verified Lv 22 Sandslash Turn 34941]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 10915 (1,252 to Lv 23) [After Golbat Lv 46 Turn 34937]
-  - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
-  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941]
-- Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
+- Slot 1: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 3: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+- Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - EXP: 314 (105 to Lv 9)
-- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
+- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
   - HP: 225 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 5: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - EXP: 125 (91 to Lv 6)
-- Slot 6: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
+- Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
   - HP: 243 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
+- Slot 6: [EMPTY - Sandslash deposited Turn 34976; pending Magikarp withdrawal]
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
@@ -159,6 +151,15 @@
 - Slot 13: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 
 ### Detailed Stats for Box 1 Pokémon:
+- SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
+  - Status: Healthy
+  - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
+  - Stats: Attack 50, Defense 54, Speed 41, Special 32 [Verified Lv 22 Sandslash Turn 34941]
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - EXP: 10915 (1,252 to Lv 23) [After Golbat Lv 46 Turn 34937]
+  - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
+  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976; pending slot verification in WITHDRAW menu]
 - DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
   - HP: 62 / 62 [Verified Lv 26 Turn 34568]
@@ -983,6 +984,7 @@
   - Resident 2 at (1, 2): Trader (traded her JYNX for player's POLIWHIRL SWIRLY [Turn 31724]).
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
 - Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
+  - Interior Topology [Verified Turns 34952-34966]: Entrance mat at (3, 7). Counter & Nurse Joy at (3, 2), interact from (3, 3) facing North. PC terminal monitor at (13, 3), operated from (13, 4) facing North. Facing East from (12, 3) fails to interact with PC.
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
   - Central pool: Spans rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounters verified: Psyduck (Lv 15, Turn 31489) and Krabby (Lv 15, Turn 31536).
   - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
@@ -5020,6 +5022,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Max Elixer cannot be sold ('I can't put a price on that.') [Empirically verified Turn 34101].
   - Technical Machines (TMs) and Hidden Machines (HMs) cannot be sold to Mart clerks in Generation 1 retail; attempting to sell TMs (e.g. TM35) or HMs prompts 'I can't put a price on that.' and denies the transaction [Empirically verified Turn 34107].
 
+## PC Interaction Geometry & Orientation Mechanics [Empirically Verified Turns 34960-34966]
+- In Pokémon Centers, the PC terminal monitor is positioned at (13, 3) above the keyboard counter at (13, 4).
+- The player MUST stand at (13, 4) facing North to boot up the PC terminal.
+- Attempting to interact with the PC monitor from the side at (12, 3) facing East produces no effect and does not open dialogue or boot the system.
+
 
 <hr>
 
@@ -5064,19 +5071,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
    - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 
-### Sweeper & Recovery Protocol
-- Recover Threshold: Use Recover when Mewtwo's HP drops below 100 HP (restores 121 HP back to ~200+ HP).
-- Sweeper Transition: With Mewtwo's Psychic at 0 PP, deploy Blastoise (SHELDON Lv 71, Surf 14/15 PP, Ice Beam 8/10 PP) as primary switch sweeper against bulky targets (Hypno, Sandslash), or use Mewtwo's Swift (18/20 PP) against frail targets.
-- Retreat Threshold: If Blastoise Surf/Ice Beam or Mewtwo Swift runs low, walk 3 tiles south to (24, 17) to exit to Cerulean canal and Fly/Surf to Cerulean Pokémon Center.
-
-### Completed Switch-Training Battles (Battles 1-14 Aggregate)
-- Battles Won: 14 (Golbat x5, Venomoth x4, Sandslash x2, Magneton x1, Hypno x1, Dodrio x1)
-- Total EXP Gained by PANGO: 7,540 EXP (grew Lv 15 -> Lv 22; Atk 39, Def 43, Spd 30, Spc 21)
-- Progress: 10,915 / 10,648 EXP (Level 22 reached! Evolving!)
-- Active Sweepers & Resources:
-  - Blastoise (SHELDON Lv 71): HP 210/225, Surf 14/15, Ice Beam 8/10 (Primary Sweeper)
-  - Mewtwo (OMEGA Lv 71): HP 75/243, Swift 18/20, Recover 20/20 (Backup Sweeper)
-- Safety & Retreat Route: Physical cave exit warp is at Cerulean Cave 1F (24, 17) [3 tiles south of patrol area]. Exit leads directly outside to Cerulean canal -> Surf/Fly to Cerulean Pokémon Center.
+### Magikarp Switch-Training Combat Protocol
+- Magikarp (TSUNAMI Lv 5, HP ~15-20) has Splash (0 damage) and cannot survive any Lv 40+ Cerulean Cave attacks.
+- Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
+- Switch Target Choice:
+  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 225/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
+  - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep.
+- Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pokédex: 48 Caught!
