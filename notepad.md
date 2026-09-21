@@ -102,13 +102,11 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 17, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 18, Water]
   - Status: Healthy
-  - HP: 41 / 41
-  - Stats: Attack 23, Defense 23, Speed 39, Special 19 [Verified Lv 17 Turn 33789]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 3752 (46 to Lv 18) [Turn 33801]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 7,983 EXP needed)
+  - EXP: 4310 [Turn 33818]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 7,425 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -5010,10 +5008,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Pokédex advanced to 45 Caught / 136 Seen.
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 17, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 17 (3,752 EXP, 46 to Lv 18). HP 41/41, Atk 23, Def 23, Spd 39, Spc 19. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20).
+- Target 1: Train Poliwag (RIPPLE Lv 18, Slot 1) to Level 25 -> Poliwhirl (#061).
+  - Status: Lv 18 (4,310 EXP, Lv 18 reached Turn 33818). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 3,752 = 7,983 EXP (~13 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 4,310 = 7,425 EXP (~12 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
@@ -5023,7 +5021,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (�2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 6/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
+- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 5/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
 - Blastoise (SHELDON Lv 70, Slot 6): Surf PP 15/15, Ice Beam PP 10/10.
 - Contingency: If Mewtwo's Psychic reaches <= 2 PP, switch lead switch-in to Sheldon (Surf/Ice Beam OHKOs most 1F spawns) or use Swift on lower-defense targets.
 
