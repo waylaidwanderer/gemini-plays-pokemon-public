@@ -48,6 +48,7 @@
 - [x] Evolve Seel into Dewgong (#087) [Turn 33656]
 - [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
 - [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
+- [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
 
 
 <hr>
@@ -103,15 +104,15 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 26, Ground]
+- Slot 1: DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
-  - HP: Full [Verified Lv 26 Turn 34558]
-  - Stats: Attack 40, Defense 22, Speed 61, Special 35 [Verified Lv 26 Turn 34558]
+  - HP: 62 / 62 [Verified Lv 26 Turn 34568]
+  - Stats: Attack 53, Defense 35, Speed 74, Special 48 [Verified Lv 26 Turn 34568]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 17866 [Verified Turn 34556]
-  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15) [Learned Lv 24 Turn 34452]
-  - Caught: Diglett's Cave [Turn 3507]
+  - EXP: 17866 (1817 to Lv 27) [Verified Turn 34570]
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15)
+  - Caught: Diglett's Cave [Turn 3507], Evolved to Dugtrio (#051) [Turn 34560, Verified Turn 34568]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: PAR [Stun Spore Turn 34553]
   - HP: 238 / 243 [Verified Lv 71 Turn 34559]
