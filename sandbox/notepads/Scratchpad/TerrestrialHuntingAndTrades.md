@@ -26,7 +26,15 @@
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Hypno, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 71). High Defense (194) absorbs physical hits effortlessly; retaliates with STAB Surf / 4x Ice Beam.
-- Emergency / HP Check: If sweepers drop below safe thresholds or run low on PP, retreat south to (24, 17) and Fly to Cerulean Pok�mon Center to heal.
+- PP Budget & Pit-Stop Protocol:
+  - Blastoise (SHELDON Lv 71): Surf 15 PP, Ice Beam 10 PP, Body Slam 15 PP, Double-Edge 15 PP (total 55 PP).
+  - Mewtwo (OMEGA Lv 71): Psychic 10 PP, Swift 20 PP, Recover 20 PP (total 50 PP).
+  - Combined High-Yield SE PP: 25 moves (Surf + Ice Beam) on Blastoise, 10 moves (Psychic) on Mewtwo = 35 primary OHKO moves.
+  - Safe Grinding Window: ~18-20 battles per expedition before primary STAB PP runs low.
+  - Pit-Stop Retreat Threshold: If Blastoise Surf <= 3 PP AND Mewtwo Psychic <= 2 PP, or any sweeper HP < 60:
+    1. Walk South to (24..25, 17) and step onto warp to exit Cerulean Cave onto canal apron at (4, 12).
+    2. Open party menu -> Farfetch'd (DUX) -> FLY -> Cerulean City.
+    3. Enter Pokémon Center, heal with Nurse Joy, return north via Route 24 canal.
 
 ### Other Post-Game Evolution Candidates
 1. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
