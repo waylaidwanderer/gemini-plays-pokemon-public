@@ -52,17 +52,17 @@
   - HP: 43 / 43 [Verified Lv 22 Turn 34390]
   - Stats: Attack 34, Defense 19, Speed 52, Special 29 [Verified Lv 22 Turn 34387]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 11043 (1124 to Lv 23) [Verified Turn 34387]
+  - EXP: 11581 (586 to Lv 23) [Verified Turn 34396]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PAR
-  - HP: 234 / 234 [Verified Turn 34387]
+  - HP: 209 / 234 [Verified Turn 34396]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 431476 (15912 to Lv 71) [Turn 34387]
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 432014 (15374 to Lv 71) [Turn 34396]
+  - Moves: Swift (PP 18/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy

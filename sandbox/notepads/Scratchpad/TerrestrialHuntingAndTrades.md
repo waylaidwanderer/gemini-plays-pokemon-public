@@ -1,17 +1,18 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
-- Current Status: Level 22 (11,043 EXP, 1,124 to Lv 23) [Audited Turn 34387].
+- Current Status: Level 22 (11,581 EXP, 586 to Lv 23) [Audited Turn 34396].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-- Remaining Delta: 17,576 - 11,043 = 6,533 EXP (~11 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 234/234 HP, PAR).
-- Progress Summary: 6 battles completed (+3,361 EXP gained).
+- Remaining Delta: 17,576 - 11,581 = 5,995 EXP (~10 Cerulean Cave battles).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 209/234 HP, PAR).
+- Progress Summary: 7 battles completed (+3,899 EXP gained).
   - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
   - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
   - Battle 3: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 21.
   - Battle 4: Sandslash Lv 52 (+601 EXP) -> Diglett reached 9,917 EXP.
   - Battle 5: Sandslash Lv 52 (+601 EXP) -> Diglett reached 10,518 EXP.
   - Battle 6: Magneton Lv 46 (+525 EXP) -> Diglett reached Lv 22!
+  - Battle 7: Hypno Lv 46 (+538 EXP) -> Diglett reached 11,581 EXP.
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
   - Golbat Lv 46: 558 EXP
@@ -24,10 +25,9 @@
 - Battle 6 (Turn 34379-34386): Wild Magneton Lv 46
   - Combat Flow: Turn 1 Diglett switched to Mewtwo (Thunder Wave PAR). Turn 2 Mewtwo Psychic OHKO.
   - EXP Share: 525 EXP to Diglett -> Diglett grew to Level 22! (11,043 EXP).
-- Battle 7 (Active, Turn 34389-current): Wild Hypno Lv 46
-  - Status: Encountered on Row 15 at (24, 15).
-  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2-3 Mewtwo Swift (2-hit KO). Mewtwo's PAR grants immunity to Hypnosis and Poison Gas!
-  - Expected EXP Share: 538 EXP for Diglett (progress to 11,581 EXP; 586 to Lv 23).
+- Battle 7 (Turn 34389-34396): Wild Hypno Lv 46
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno Meditate). Turn 2 Mewtwo fully paralyzed; Hypno Meditate. Turn 3 Hypno Headbutt dealt 25 dmg (Mewtwo to 209 HP); Mewtwo Swift dealt ~60% dmg. Turn 4 Mewtwo Swift crit KOed Hypno.
+  - EXP Share: 538 EXP to Diglett (reached 11,581 EXP, 586 to Lv 23).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
