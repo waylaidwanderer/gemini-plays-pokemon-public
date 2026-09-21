@@ -15,11 +15,6 @@
 - Pokédex updated: 43 Caught / 136 Seen!
 
 ## Next Milestone: Evolve Vulpix into Ninetales (#038)
-- Vulpix (KITSUNE, Lv 33) is in active party!
-- Bag holds high-value items (Max Elixer ¥2,250, PP Up ¥4,900) to fund Fire Stone purchase (¥2,100).
-- Plan:
-  1. Inside elevator, select 4F (Wiseman Gifts).
-  2. Walk to shop counter at (5, 5) facing South.
-  3. Sell Max Elixer for ¥2,250, buy Fire Stone for ¥2,100.
-  4. Use Fire Stone on Vulpix to evolve into Ninetales (#038).
-  5. Register Ninetales in Pokédex (44 Caught)!
+- Vulpix (KITSUNE, Lv 33) in party evolved via Fire Stone (bought for ¥2,100 on 4F after selling Full Heal x6 for ¥1,800 and Guard Spec for ¥350).
+- Verifying species and stats on STATS screen [Turn 33361].
+- Register Ninetales (#038) in Pokédex (44 Caught)!

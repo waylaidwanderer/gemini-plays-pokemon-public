@@ -3,16 +3,15 @@
 ## Bag Items
 1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
-4. BICYCLE [Key Item]
-5. PP UP x 1
-6. MAX ELIXER x 1
-7. HM02 [Key Item]
-9. MAX POTION x 1
-10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-
+3. BICYCLE [Key Item]
+4. PP UP x 1
+5. MAX ELIXER x 1
+6. HM02 [Key Item]
+7. MAX POTION x 1
+8. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
 
 ## Inventory Capacity
-- Active Bag Items: 9 / 20 capacity used.
+- Active Bag Items: 8 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -212,7 +211,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
   - Transferred to PC Box 2 (5/20)
-  - Transferred to PC Box 2 (6/20)
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
