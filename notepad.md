@@ -160,25 +160,6 @@
 - Slot 13: NIDOQUEEN (QUEENIE) [Lv 33]
 
 ### Detailed Stats for Box 1 Pokémon:
-- DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
-  - Status: Healthy
-  - HP: 113 / 113 [Verified Lv 34 Turn 33657]
-  - Stats: Attack 56, Defense 67, Speed 59, Special 79 [Verified Lv 34 Turn 33657]
-  - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 40203 (2672 to Lv 35) [Verified Turn 33669]
-  - Moves: Headbutt (PP 14/15), Growl (PP 40/40) [Verified Turn 33639]
-  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
-- SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
-  - Status: Healthy
-  - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
-- PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
-  - Status: Healthy
-  - HP: 42 / 42
-  - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Verified Lv 15 Turn 31564]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 3375 (721 to Lv 16) [Verified Turn 31565]
-  - Moves: Scratch (PP 35/35) [Verified Turn 31565]
-  - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
@@ -5061,7 +5042,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
 - Additional Level Evolutions in PC:
   - Sandshrew (PANGO Lv 15) -> Sandslash (#028) at Lv 22 (only 7 levels!).
-  - Diglett (DIGBY Lv 19) -> Dugtrio (#051) at Lv 26 (only 7 levels!).
   - Krabby (PINCHY Lv 15) -> Kingler (#099) at Lv 28.
   - Paras (FUNGI Lv 10) -> Parasect (#047) at Lv 24.
   - Psyduck (MIGRAINE Lv 15) -> Golduck (#055) at Lv 33.
