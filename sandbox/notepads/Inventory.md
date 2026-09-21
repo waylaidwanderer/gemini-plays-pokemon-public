@@ -48,14 +48,13 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 18, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 19, Water]
   - Status: Healthy
-  - HP: 43 / 43
-  - Stats: Attack 24, Defense 24, Speed 41, Special 20 [Verified Lv 18 Turn 33820]
+  - Stats: Attack 26, Defense 26, Speed 43, Special 21 [Verified Lv 19 Turn 33856]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 4310 [Turn 33818]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 7,425 EXP needed)
-  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20)
+  - EXP: 4632 [Turn 33856]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 7,103 EXP needed)
+  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
@@ -84,9 +83,9 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 222 / 222
+  - HP: 190 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 33713]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
