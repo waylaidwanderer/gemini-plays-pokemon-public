@@ -138,7 +138,7 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 171 / 225
+  - HP: 160 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 
@@ -5023,7 +5023,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 171 / 225 (Healthy, Paralysis Cured!). Moves: Surf (PP 14/15), Ice Beam (PP 10/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 160 / 225 (Healthy, Paralysis Cured!). Moves: Surf (PP 14/15), Ice Beam (PP 10/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
 - Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Healthy, Paralysis Cured!). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
 - Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
