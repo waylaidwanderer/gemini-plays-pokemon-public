@@ -47,20 +47,20 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 11, Bug/Grass]
   - Status: Healthy
-  - HP: 29 / 29 [Verified Lv 10 Turn 35441]
-  - Stats: Attack 21, Defense 16, Speed 11, Special 18 [Verified Lv 10 Turn 35441]
+  - HP: 31 / 31 [Verified Lv 11 Turn 35552]
+  - Stats: Attack 23, Defense 17, Speed 12, Special 19 [Verified Lv 11 Turn 35552]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 1000 (331 to Lv 11, Target 13,824 for Lv 24 Parasect #047) [Verified Turn 35442]
+  - EXP: 1601 (Target 13,824 for Lv 24 Parasect #047, remaining 12,223) [Verified Turn 35552]
   - Moves: Scratch (PP 35/35) [Verified Turn 35442]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
-  - Status: Healthy [Healed Turn 35403]
-  - HP: 225 / 225 [Turn 35403]
+  - Status: Healthy
+  - HP: 188 / 225 [Turn 35552]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -119,7 +119,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 11206 (Medium Fast, Lv 22, 1,029 to Lv 23) [Verified Turn 34941]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
-  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976, Slot 13]
+  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976, Slot 12]
 - DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
   - HP: 62 / 62 [Verified Lv 26 Turn 34568]
