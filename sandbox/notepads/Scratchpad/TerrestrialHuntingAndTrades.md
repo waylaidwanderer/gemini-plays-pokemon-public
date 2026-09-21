@@ -22,7 +22,7 @@
 - Safety & Retreat Route: Physical cave exit warp is at Cerulean Cave 1F (24, 17) [3 tiles south of patrol area]. Exit leads directly outside to Cerulean canal -> Surf/Fly to Cerulean Pokémon Center.
 
 ## Completed Evolutions:
-- Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pok�dex: 48 Caught!
+- Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pokédex: 48 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
