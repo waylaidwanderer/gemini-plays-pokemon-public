@@ -105,7 +105,7 @@
   - HP: 93 / 93 [Verified Lv 33 Turn 33583]
   - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 35986 (3318 to Lv 34) [Verified Turn 33579]
+  - EXP: 36742 (2562 to Lv 34) [Verified Turn 33589]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
   - Withdrawn from PC Box 1 [Turn 33429]
@@ -113,7 +113,7 @@
   - Status: Healthy
   - HP: 141 / 222 [Turn 33579]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 13/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -348,6 +348,7 @@
   - Turn 33519: Wild Lv 46 Golbat defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,116 split 2 ways (558 base each). Sailor earned 837 boosted EXP (558 * 1.5 = 837). Sheldon earned 558 EXP.
   - Turn 33530: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Sailor earned 787 boosted EXP. Omega earned 525 EXP.
   - Turn 33579: Wild Lv 46 Hypno defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,076 split 2 ways (538 base each). Sailor earned 807 boosted EXP. Sheldon earned 538 EXP.
+  - Turn 33589: Wild Lv 49 Kadabra defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,008 split 2 ways (504 base each). Sailor earned 756 boosted EXP. Sheldon earned 504 EXP.
 
 
 <hr>
@@ -4342,7 +4343,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276; base EXP ~1076, yields 807 boosted EXP in 2-way split, Turn 33579]
-- Kadabra: Lv 49 [Encountered 1F Turn 27129]
+- Kadabra: Lv 49 [Encountered 1F Turn 27129; base EXP ~1008, yields 756 boosted EXP in 2-way split, Turn 33589]
 - Parasect: Lv 52 [Encountered 1F Turn 27400]
 
 <hr>
@@ -5011,8 +5012,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 141/222 HP, Ice Beam 10/10, Surf 15/15).
 - Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
 - Evolves at Lv 34 (only 1 level remaining, boosted EXP!).
-- Current EXP: 35,986 EXP [Verified Turn 33579].
-- EXP to Lv 34: 3,318 EXP (~4 battles).
+- Current EXP: 36,742 EXP [Verified Turn 33589].
+- EXP to Lv 34: 2,562 EXP (~3 battles).
 - Strategy:
   1. Patrol row 14 for wild encounters in Cerulean Cave 1F.
   2. Switch to Sheldon on turn 1 (or Omega against Electric types).
