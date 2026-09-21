@@ -103,22 +103,22 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (Audited & Healed Turn 34261)
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 22, Ground]
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 23, Ground]
   - Status: Healthy
   - HP: 43 / 43 [Verified Lv 22 Turn 34390]
-  - Stats: Attack 34, Defense 19, Speed 52, Special 29 [Verified Lv 22 Turn 34387]
+  - Stats: Attack 35, Defense 20, Speed 54, Special 31 [Verified Lv 23 Turn 34418]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 12106 (61 to Lv 23) [Verified Turn 34405]
-  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648)
+  - EXP: 12644 (1180 to Lv 24) [Verified Turn 34418]
+  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PAR
-  - HP: 199 / 234 [Verified Turn 34405]
+  - HP: 155 / 234 [Verified Turn 34418]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 432539 (14849 to Lv 71) [Turn 34405]
-  - Moves: Swift (PP 18/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 433077 (14311 to Lv 71) [Turn 34418]
+  - Moves: Swift (PP 17/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5004,11 +5004,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
-- Current Status: Level 22 (12,106 EXP, 61 to Lv 23) [Audited Turn 34405].
+- Current Status: Level 23 (12,644 EXP, 1,180 to Lv 24) [Audited Turn 34418].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-- Remaining Delta: 17,576 - 12,106 = 5,470 EXP (~9 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 199/234 HP, PAR).
-- Progress Summary: 8 battles completed (+4,424 EXP gained).
+- Remaining Delta: 17,576 - 12,644 = 4,932 EXP (~9 Cerulean Cave battles).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 155/234 HP, PAR).
+- Progress Summary: 9 battles completed (+4,962 EXP gained).
   - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
   - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
   - Battle 3: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 21.
@@ -5017,6 +5017,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 6: Magneton Lv 46 (+525 EXP) -> Diglett reached Lv 22!
   - Battle 7: Hypno Lv 46 (+538 EXP) -> Diglett reached 11,581 EXP.
   - Battle 8: Magneton Lv 46 (+525 EXP) -> Diglett reached 12,106 EXP.
+  - Battle 9: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 23!
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
   - Golbat Lv 46: 558 EXP
@@ -5026,10 +5027,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 9 (Active, Turn 34408-current): Wild Hypno Lv 46
-  - Status: Encountered on Row 15 at (23, 15).
-  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2-3 Mewtwo Swift (2-hit KO). PAR grants immunity to Hypnosis/Poison Gas.
-  - Expected EXP Share: 538 EXP for Diglett (crosses 12,167 threshold -> Diglett will grow to Level 23!).
+- Battle 9 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett promoted to Level 23!
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).

@@ -47,22 +47,22 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (Audited & Healed Turn 34261)
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 22, Ground]
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 23, Ground]
   - Status: Healthy
   - HP: 43 / 43 [Verified Lv 22 Turn 34390]
-  - Stats: Attack 34, Defense 19, Speed 52, Special 29 [Verified Lv 22 Turn 34387]
+  - Stats: Attack 35, Defense 20, Speed 54, Special 31 [Verified Lv 23 Turn 34418]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 12106 (61 to Lv 23) [Verified Turn 34405]
-  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648)
+  - EXP: 12644 (1180 to Lv 24) [Verified Turn 34418]
+  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PAR
-  - HP: 199 / 234 [Verified Turn 34405]
+  - HP: 155 / 234 [Verified Turn 34418]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 432539 (14849 to Lv 71) [Turn 34405]
-  - Moves: Swift (PP 18/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 433077 (14311 to Lv 71) [Turn 34418]
+  - Moves: Swift (PP 17/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
