@@ -4983,7 +4983,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Starting State: Paras Lv 10 (1,000 EXP).
   - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 5,497 EXP (934 to Lv 21).
-  - Expedition 1 Conclusion: Successfully pit-stopped at Cerulean Pokémon Center to cure Mewtwo's poison and restore all sweeper PP to 100%.
 
 
 <hr>

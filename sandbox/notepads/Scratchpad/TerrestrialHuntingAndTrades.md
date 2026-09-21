@@ -65,7 +65,7 @@
 - Input Buffering Caution: Rapidly buffering consecutive 'A' presses across menu transitions can trigger unintentional move selections (e.g., Slot 1 Double-Edge). Chunk inputs cleanly with 'B' or pauses to verify menu states.
 
 ### Battle Log (Expeditions 1-14 Aggregated Summary):
-- Pit-Stop Correction [Turn 35722]: Empirical inspection of Mewtwo stats screen revealed party was NOT healed on Turn 35705 because 'B' button cancelled the HEAL/CANCEL prompt. Mewtwo currently at 25/243 HP (PSN), Blastoise at 82/225 HP. Returning to Cerulean Pokémon Center to properly execute the heal with 'A' confirmation.
+- Pit-Stop Verification [Turn 35734]: Properly confirmed HEAL with Nurse Joy. Mandatory verification checkpoint in Party Menu empirically confirmed 100% full restoration: Mewtwo 243/243 HP (PSN CURED, Psychic 10/10), Blastoise 225/225 HP (Surf 15/15, Ice Beam 10/10), Paras 49/49 HP. Ready for Expedition 2!
 - Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
   - Starting State: Paras Lv 10 (1,000 EXP).
   - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
