@@ -47,44 +47,44 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: GYARADOS (Nickname: TSUNAMI) [Lv 20, Water/Flying]
-  - Status: Healthy
-  - HP: 69 / 69 [Verified Lv 20 Gyarados Turn 35416]
-  - Stats: Attack 58, Defense 38, Speed 43, Special 49 [Verified Lv 20 Gyarados Turn 35416]
-  - Moves: Splash (PP 40/40), Tackle (PP 35/35), Bite (PP 25/25)
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 10338 (Level 20 - Evolved from Magikarp #129 into Gyarados #130!) [Turn 35366]
-  - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
-- Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+- Slot 1: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - Caught: Mt. Moon 1F [Turn 1197]
-- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
+- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy [Healed Turn 35403]
   - HP: 225 / 225 [Turn 35403]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
-- Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
+- Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy [Healed Turn 35403]
   - HP: 243 / 243 [Turn 35403]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
-- Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
+- Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
+- Slot 6: PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+  - Status: Healthy
+  - HP: 29 / 29 [Verified Lv 10 Turn 35441]
+  - Stats: Attack 21, Defense 16, Speed 11, Special 18 [Verified Lv 10 Turn 35441]
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - EXP: 1000 (331 to Lv 11, Target 13,824 for Lv 24 Parasect #047) [Verified Turn 35442]
+  - Moves: Scratch (PP 35/35) [Verified Turn 35442]
+  - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
@@ -93,15 +93,24 @@
 - Slot 4: LAPRAS (NESSY) [Lv 15]
 - Slot 5: KANGASKHAN (MATILDA) [Lv 25]
 - Slot 6: CHANSEY (LUCKY) [Lv 26]
-- Slot 7: PARAS (FUNGI) [Lv 10]
-- Slot 8: DROWZEE (SANDMAN) [Lv 9]
-- Slot 9: OMANYTE (NAUTILUS) [Lv 30]
-- Slot 10: AERODACTYL (PTERA) [Lv 30]
-- Slot 11: NIDOQUEEN (QUEENIE) [Lv 33]
-- Slot 12: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
-- Slot 13: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
+- Slot 7: DROWZEE (SANDMAN) [Lv 9]
+- Slot 8: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 9: AERODACTYL (PTERA) [Lv 30]
+- Slot 10: NIDOQUEEN (QUEENIE) [Lv 33]
+- Slot 11: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
+- Slot 12: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
+- Slot 13: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
 
 ### Detailed Stats for Box 1 Pokémon:
+- GYARADOS (Nickname: TSUNAMI) [Lv 20, Water/Flying]
+  - Status: Healthy
+  - HP: 69 / 69 [Verified Lv 20 Gyarados Turn 35416]
+  - Stats: Attack 58, Defense 38, Speed 43, Special 49 [Verified Lv 20 Gyarados Turn 35416]
+  - Moves: Splash (PP 40/40), Tackle (PP 35/35), Bite (PP 25/25)
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Slow (EXP = 1.25 * Level^3)
+  - EXP: 10338 (Level 20 - Evolved from Magikarp #129 into Gyarados #130!) [Turn 35366]
+  - Caught: Route 11 with Old Rod [Turn 3694], Deposited into Box 1 [Turn 35436, Slot 13]
 - SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
   - Status: Healthy
   - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
@@ -157,8 +166,6 @@
 - HITMONLEE (Nickname: BRUCE) [Lv 30, Fighting]
   - Status: Healthy
   - Received: Fighting Dojo prize [Turn 13254]
-- PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
-  - Status: Healthy
 
 ## PC Box 2 Pokémon
 - POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
