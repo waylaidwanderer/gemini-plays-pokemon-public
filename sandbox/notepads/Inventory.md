@@ -79,14 +79,6 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
-  - Status: Healthy
-  - HP: 95 / 95
-  - Stats: Attack 55, Defense 57, Speed 76, Special 79 [Verified Lv 33 Turn 33363]
-  - EXP: 35937 (3367 to Lv 34) [Verified Turn 33364]
-  - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
-  - OT: BLUE (IDNo. 04620)
-  - Evolved from Vulpix via Fire Stone [Turn 33357]
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
@@ -230,3 +222,12 @@
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
   - Deposited: Cinnabar PC Box 2 (10/20) [Turn 33294]
+- NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
+  - Status: Healthy
+  - HP: 95 / 95
+  - Stats: Attack 55, Defense 57, Speed 76, Special 79 [Verified Lv 33 Turn 33363]
+  - EXP: 35937 (3367 to Lv 34) [Verified Turn 33364]
+  - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
+  - OT: BLUE (IDNo. 04620)
+  - Evolved from Vulpix via Fire Stone [Turn 33357]
+  - Deposited: Celadon PC Box 2 (11/20) [Turn 33408]
