@@ -1,7 +1,5 @@
 # Inventory Log
 
-
-
 ## Bag Items
 
 1. POKÉ FLUTE [Key Item]
@@ -20,13 +18,9 @@
 
 8. TM35 (METRONOME) x 1
 
-
-
 ## Inventory Capacity
 
 - Active Bag Items: 8 / 20 capacity used.
-
-
 
 ## Stored / PC Items
 
@@ -86,13 +80,9 @@
 
 - TOWN MAP x1 (PC)
 
-
-
 ## Money
 
 - ¥3056 [Turn 34152]
-
-
 
 ## Party Pokémon
 - Slot 1: SANDSHREW (Nickname: PANGO) [Lv 19, Ground]
@@ -128,7 +118,7 @@
   - EXP: 125 (91 to Lv 6)
 - Slot 6: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
-  - HP: 144 / 243
+  - HP: 120 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -159,8 +149,6 @@
 
 - Slot 13: NIDOQUEEN (QUEENIE) [Lv 33]
 - Slot 14: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
-
-
 
 ### Detailed Stats for Box 1 Pokémon:
 
@@ -228,7 +216,6 @@
 
   - Status: Healthy
 
-
   - Caught: Route 11 with Old Rod [Turn 3694]
 
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
@@ -258,8 +245,6 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
 
   - Status: Healthy
-
-
 
 ## PC Box 2 Pokémon
 
