@@ -105,14 +105,14 @@
   - HP: 93 / 93 [Verified Lv 33 Turn 33583]
   - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 36742 (2562 to Lv 34) [Verified Turn 33589]
+  - EXP: 37498 (1806 to Lv 34) [Verified Turn 33602]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 141 / 222 [Turn 33579]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 13/15), Body Slam (PP 13/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -5001,8 +5001,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 141/222 HP, Ice Beam 10/10, Surf 15/15).
 - Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
 - Evolves at Lv 34 (only 1 level remaining, boosted EXP!).
-- Current EXP: 36,742 EXP [Verified Turn 33589].
-- EXP to Lv 34: 2,562 EXP (~3 battles).
+- Current EXP: 37,498 EXP [Verified Turn 33602].
+- EXP to Lv 34: 1,806 EXP (~2 battles!).
 - Strategy:
   1. Patrol row 14 for wild encounters in Cerulean Cave 1F.
   2. Switch to Sheldon on turn 1 (or Omega against Electric types).
