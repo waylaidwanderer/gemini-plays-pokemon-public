@@ -105,15 +105,15 @@
   - HP: 90 / 90
   - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 33555 (2382 to Lv 33) [Verified Turn 33505]
+  - EXP: 34392 (1545 to Lv 33) [Verified Turn 33519]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
   - Withdrawn from PC Box 1 [Turn 33429]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 222 / 222
+  - HP: 178 / 222 [Verified Turn 33519]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -4996,9 +4996,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
 - Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in.
 - Evolves at Lv 34 (only 2 levels, boosted EXP!).
-- Current EXP: 33,555 EXP.
-- EXP to Lv 33: 2,382 EXP.
-- EXP to Lv 34: ~5,680 EXP total.
+- Current EXP: 34,392 EXP.
+- EXP to Lv 33: 1,545 EXP (~1-2 battles).
+- EXP to Lv 34: ~4,845 EXP total (~4-5 battles).
 - Switch-training strategy:
   1. Wild battle starts with Sailor (Seel).
   2. Switch to Sheldon on turn 1 (Seel takes 0 damage).
