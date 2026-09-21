@@ -55,7 +55,6 @@
   - EXP: 10518 (130 to Lv 22) [Verified Turn 34342]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
-  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), Remaining Delta: 7,058 EXP (~12 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
