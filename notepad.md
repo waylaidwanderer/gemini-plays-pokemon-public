@@ -108,18 +108,18 @@
   - HP: 41 / 41 [Verified Lv 21 Turn 34330]
   - Stats: Attack 32, Defense 18, Speed 50, Special 28 [Verified Lv 21 Turn 34326]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 9316 (1332 to Lv 22) [Verified Turn 34326]
+  - EXP: 9917 (731 to Lv 22) [Verified Turn 34335]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
-  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), Remaining Delta: 8,260 EXP (~15 Cerulean Cave battles)
+  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), Remaining Delta: 7,659 EXP (~13-14 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PSN
-  - HP: 131 / 234 [Verified Turn 34326]
+  - HP: 98 / 234 [Verified Turn 34335]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 429749 (17639 to Lv 71) [Turn 34326]
-  - Moves: Swift (PP 16/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 430350 (17038 to Lv 71) [Turn 34335]
+  - Moves: Swift (PP 16/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
