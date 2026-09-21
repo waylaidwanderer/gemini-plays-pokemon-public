@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Money: ¥5156 [Turn 34148]
+- Money: ¥3056 [Turn 34152]
 - Pokédex: 46 Caught / 136 Seen [Turn 34072]
 
 ## Milestones
@@ -64,9 +64,10 @@
 6. HM02 [Key Item]
 7. MAX POTION x 1
 8. TM35 (METRONOME) x 1
+9. WATER STONE x 1
 
 ## Inventory Capacity
-- Active Bag Items: 8 / 20 capacity used.
+- Active Bag Items: 9 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC)
@@ -99,7 +100,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥5156 [Turn 34148]
+- ¥3056 [Turn 34152]
 
 ## Party Pokémon
 - POLIWHIRL (Nickname: RIPPLE) [Lv 25, Water]
@@ -5032,7 +5033,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Sheldon (BLASTOISE Lv 71, Slot 6): HP 77 / 225 (Paralyzed). Moves: Surf (PP 11/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
 
 ### Financial Liquidation Budget:
-- Current Wallet: ¥5156 [Turn 34148].
+- Current Wallet: ¥3056 [Turn 34152]. Water Stone purchased!
 - Stone Cost: Water Stone = ¥2,100.
     - Vendor: Celadon Department Store 4F Clerk.
 
