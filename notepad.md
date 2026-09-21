@@ -133,7 +133,14 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
-- Slot 6: [EMPTY - Sandslash deposited Turn 34976; pending Magikarp withdrawal]
+- Slot 6: MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
+  - Status: Healthy
+  - HP: 19 / 19
+  - Moves: Splash (PP 40/40)
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Slow (EXP = 1.25 * Level^3)
+  - EXP: 156 (9,844 to Lv 20 Gyarados) [Turn 34991]
+  - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
@@ -142,13 +149,13 @@
 - Slot 4: LAPRAS (NESSY) [Lv 15]
 - Slot 5: KANGASKHAN (MATILDA) [Lv 25]
 - Slot 6: CHANSEY (LUCKY) [Lv 26]
-- Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
-- Slot 8: PARAS (FUNGI) [Lv 10]
-- Slot 9: DROWZEE (SANDMAN) [Lv 9]
-- Slot 10: OMANYTE (NAUTILUS) [Lv 30]
-- Slot 11: AERODACTYL (PTERA) [Lv 30]
-- Slot 12: NIDOQUEEN (QUEENIE) [Lv 33]
-- Slot 13: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
+- Slot 7: PARAS (FUNGI) [Lv 10]
+- Slot 8: DROWZEE (SANDMAN) [Lv 9]
+- Slot 9: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 10: AERODACTYL (PTERA) [Lv 30]
+- Slot 11: NIDOQUEEN (QUEENIE) [Lv 33]
+- Slot 12: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
+- Slot 13: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 
 ### Detailed Stats for Box 1 Pokémon:
 - SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
