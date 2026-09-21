@@ -103,14 +103,14 @@
 
 ## Party Pokémon
 - POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
-  - Status: Asleep (SLP) [Verified Turn 33707]
-  - HP: 23 / 37 [Verified Lv 15 Turn 33707]
+  - Status: Healthy
+  - HP: 37 / 37 [Full Health post-Nurse Joy Heal Turn 33713]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 81 / 222 [Verified Turn 33657]
+  - HP: 222 / 222 [Full Health post-Nurse Joy Heal Turn 33713]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 12/15), Surf (PP 15/15), Ice Beam (PP 8/10) [Verified Turn 33657]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 33713]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -124,7 +124,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 33669]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 33713]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
