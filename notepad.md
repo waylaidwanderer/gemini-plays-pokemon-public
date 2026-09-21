@@ -107,6 +107,8 @@
 ## Party Pokémon
 - Slot 1: GYARADOS (Nickname: TSUNAMI) [Lv 20, Water/Flying]
   - Status: Healthy
+  - HP: 69 / 69 [Verified Lv 20 Gyarados Turn 35416]
+  - Stats: Attack 58, Defense 38, Speed 43, Special 49 [Verified Lv 20 Gyarados Turn 35416]
   - Moves: Splash, Tackle, Bite
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
