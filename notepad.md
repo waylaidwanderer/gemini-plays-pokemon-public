@@ -58,10 +58,10 @@
 5. PP UP x 1
 6. MAX ELIXER x 1
 7. HM02 [Key Item]
-8. RARE CANDY x 1
-9. GUARD SPEC. x 1
-10. MAX POTION x 1
-11. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+8. GUARD SPEC. x 1
+9. MAX POTION x 1
+10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+11. RARE CANDY x 4 [Withdrawn from PC Turn 33252]
 
 
 ## Inventory Capacity
@@ -92,7 +92,6 @@
 - TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
 - TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
 - MOON STONE x1 (PC) [Stored Turn 12205, Turn 24545]
-- RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
 - ELIXER x1 (PC) [Stored Turn 6588]
 - TM34 (BIDE) x1 (PC)
@@ -134,10 +133,12 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- KOFFING (Nickname: SMOGGY) [Lv 34, Poison]
+- KOFFING (Nickname: SMOGGY) [Lv 35, Poison]
   - Status: Healthy
-  - Caught: Pok�mon Mansion 2F with Ultra Ball [Turn 32474]
-  - Withdrawn from PC Box 2 [Turn 33229]
+  - HP: 75 / 75
+  - Stats: Attack 56, Defense 77, Speed 32, Special 52 [Verified Lv 35 Turn 33241]
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
+  - Leveled to Lv 35 via Rare Candy [Turn 33240]
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
