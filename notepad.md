@@ -148,7 +148,7 @@
   - Stats: Attack 35, Defense 40, Speed 27, Special 19 [Verified Lv 20 Turn 34873]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 8280 (981 to Lv 21; 2,368 to Lv 22 Sandslash) [After Hypno Lv 46 Turn 34873]
+  - EXP: 8833 (428 to Lv 21; 1,815 to Lv 22 Sandslash) [After Dodrio Lv 49 Turn 34884]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
@@ -5157,16 +5157,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
 - Target: Sandshrew (PANGO Lv 20)
 - Target Level: Lv 22 (Sandslash #028, 10,648 EXP)
-- Current EXP: 8,280 EXP (981 to Lv 21; 2,368 to Lv 22 Sandslash) [After Hypno Lv 46 Turn 34873]
-- Battles Completed: 9
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 109/243, Psychic 2/10, Swift 18/20)
+- Current EXP: 8,833 EXP (428 to Lv 21; 1,815 to Lv 22 Sandslash) [After Dodrio Lv 49 Turn 34884]
+- Battles Completed: 10
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 79/243, Psychic 1/10, Swift 18/20)
 
-### Completed Switch-Training Battles (Battles 1-9 Aggregate)
-- Battles Won: 9 (Golbat x3, Venomoth x2, Sandslash x2, Magneton x1, Hypno x1)
-- Total EXP Gained by PANGO: 4,905 EXP (grew Lv 15 -> Lv 20; Atk 35, Def 40, Spd 27, Spc 19)
-- Progress: 8,280 / 10,648 EXP (981 to Lv 21; 2,368 to Lv 22 Sandslash)
+### Completed Switch-Training Battles (Battles 1-10 Aggregate)
+- Battles Won: 10 (Golbat x3, Venomoth x2, Sandslash x2, Magneton x1, Hypno x1, Dodrio x1)
+- Total EXP Gained by PANGO: 5,458 EXP (grew Lv 15 -> Lv 20; Atk 35, Def 40, Spd 27, Spc 19)
+- Progress: 8,833 / 10,648 EXP (428 to Lv 21; 1,815 to Lv 22 Sandslash)
 - Active Sweepers & Resources:
-  - Mewtwo (OMEGA Lv 71): HP 109/243, Psychic 2/10, Swift 18/20, Recover 20/20
+  - Mewtwo (OMEGA Lv 71): HP 79/243, Psychic 1/10, Swift 18/20, Recover 20/20
   - Blastoise (SHELDON Lv 71): HP 225/225, Surf 15/15, Ice Beam 10/10 (Full Backup Sweeper)
 - Safety & Retreat Route: Physical cave exit warp is at Cerulean Cave 1F (24, 17) [3 tiles south of patrol area]. Exit leads directly outside to Cerulean canal -> Surf/Fly to Cerulean Pokémon Center.
 
