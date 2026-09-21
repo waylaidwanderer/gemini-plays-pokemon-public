@@ -114,7 +114,7 @@
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PSN
-  - HP: 82 / 234 [Verified Turn 34475]
+  - HP: 73 / 234 [Verified Turn 34484]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 436270 (11118 to Lv 71) [Turn 34478]
@@ -5007,7 +5007,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Current Status: Level 25 (15,837 EXP, 1,739 to Lv 26) [Verified Battle 15 Turn 34478].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
 - Remaining Delta: 17,576 - 15,837 = 1,739 EXP (~3 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 82/234 HP, PSN, Swift 9/20, Psychic 6/10).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 73/234 HP, PSN, Swift 9/20, Psychic 6/10).
 - Progress Summary: 15 battles completed (+8,155 EXP gained).
   - Milestones: Lv 20 reached Battle 1, Lv 21 reached Battle 3, Lv 22 reached Battle 6, Lv 23 reached Battle 9, Lv 24 reached Battle 12 (learned Sand-Attack), Lv 25 reached Battle 15.
   - Current Delta: 1,739 EXP to Lv 26 (17,576 EXP, Dugtrio evolution).
