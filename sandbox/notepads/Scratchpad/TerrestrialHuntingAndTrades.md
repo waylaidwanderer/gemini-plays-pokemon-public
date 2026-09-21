@@ -7,6 +7,11 @@
 - Battles Completed: 10
 - Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 79/243, Psychic 1/10, Swift 18/20)
 
+### Sweeper & Recovery Protocol
+- Recover Threshold: Use Recover when Mewtwo's HP drops below 100 HP (restores 121 HP back to ~200+ HP).
+- Sweeper Transition: With Mewtwo's Psychic at 1/10 PP, use the final Psychic against Poison-types (Venomoth/Golbat). Once Psychic reaches 0 PP, deploy Blastoise (SHELDON Lv 71, Surf 15/15 PP, Ice Beam 10/10 PP) as primary switch sweeper against bulky targets (Hypno, Sandslash), or use Mewtwo's Swift (18/20 PP) against frail targets.
+- Retreat Threshold: If Blastoise Surf/Ice Beam or Mewtwo Swift runs low, walk 3 tiles south to (24, 17) to exit to Cerulean canal and Fly/Surf to Cerulean Pokémon Center.
+
 ### Completed Switch-Training Battles (Battles 1-10 Aggregate)
 - Battles Won: 10 (Golbat x3, Venomoth x2, Sandslash x2, Magneton x1, Hypno x1, Dodrio x1)
 - Total EXP Gained by PANGO: 5,458 EXP (grew Lv 15 -> Lv 20; Atk 35, Def 40, Spd 27, Spc 19)
@@ -18,11 +23,6 @@
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pok�dex: 48 Caught!
-- Poliwrath (#062): RIPPLE evolved via Water Stone [Turn 34159].
-- Poliwhirl (#061): RIPPLE evolved at Lv 25 [Turn 34072].
-- Dewgong (#087): SAILOR evolved at Lv 34 [Turn 33656].
-- Ninetales (#038): KITSUNE evolved via Fire Stone [Turn 33357].
-- Weezing (#110): SMOGGY evolved at Lv 39 [Turn 33242].
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
@@ -35,4 +35,4 @@
   - Slowpoke (DOPEY Lv 15) -> Slowbro (#080) at Lv 37.
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
-  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (�¥2,100 each).
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).

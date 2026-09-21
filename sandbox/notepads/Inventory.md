@@ -124,31 +124,21 @@
   - Moves: Swift (PP 18/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
-## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
+## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 
 - Slot 1: KRABBY (PINCHY) [Lv 15]
-
 - Slot 2: ZAPDOS (THUNDER) [Lv 50]
-
 - Slot 3: HITMONLEE (BRUCE) [Lv 30]
-
 - Slot 4: LAPRAS (NESSY) [Lv 15]
-
 - Slot 5: KANGASKHAN (MATILDA) [Lv 25]
-
 - Slot 6: CHANSEY (LUCKY) [Lv 26]
-
 - Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
-- Slot 9: PARAS (FUNGI) [Lv 10]
-
-- Slot 10: DROWZEE (SANDMAN) [Lv 9]
-
-- Slot 11: OMANYTE (NAUTILUS) [Lv 30]
-
-- Slot 12: AERODACTYL (PTERA) [Lv 30]
-
-- Slot 13: NIDOQUEEN (QUEENIE) [Lv 33]
-- Slot 14: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
+- Slot 8: PARAS (FUNGI) [Lv 10]
+- Slot 9: DROWZEE (SANDMAN) [Lv 9]
+- Slot 10: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 11: AERODACTYL (PTERA) [Lv 30]
+- Slot 12: NIDOQUEEN (QUEENIE) [Lv 33]
+- Slot 13: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 
 ### Detailed Stats for Box 1 Pokémon:
 
