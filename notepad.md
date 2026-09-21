@@ -105,8 +105,13 @@
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 38 / 38
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - HP: 38 / 38 [Verified Lv 19 Turn 34246]
+  - Stats: Attack 30, Defense 16, Speed 45, Special 26 [Verified Lv 19 Turn 34246]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 7682 (318 to Lv 20) [Verified Turn 34247]
+  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 7682 + 318 = 8000 = 20^3)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34247]
+  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), EXP Delta: 9,894 EXP (~18-19 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
@@ -208,8 +213,13 @@
   - Caught: Route 11 tall grass [Turn 3721]
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 38 / 38
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - HP: 38 / 38 [Verified Lv 19 Turn 34246]
+  - Stats: Attack 30, Defense 16, Speed 45, Special 26 [Verified Lv 19 Turn 34246]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 7682 (318 to Lv 20) [Verified Turn 34247]
+  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 7682 + 318 = 8000 = 20^3)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34247]
+  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), EXP Delta: 9,894 EXP (~18-19 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy

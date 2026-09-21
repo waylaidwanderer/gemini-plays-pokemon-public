@@ -1,15 +1,15 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Complete Next Dex Milestones (Pokédex: 47 Caught / 136 Seen)
+## Active Goal: Complete Next Dex Milestones (PokÃ©dex: 47 Caught / 136 Seen)
 - [x] Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061) [ACHIEVED Turn 34072!].
-- [x] Target 2: Liquidate CARBOS x1 for ¥4,900, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062) [ACHIEVED Turn 34159!].
+- [x] Target 2: Liquidate CARBOS x1 for Â¥4,900, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062) [ACHIEVED Turn 34159!].
   - Status: Poliwrath Lv 25 (Water/Fighting). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
-  - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught: Poliwhirl #061, Poliwrath #062).
-- [ ] Target 3: Train Diglett (DIGBY Lv 19, in PC Box 1) to Level 26 -> Dugtrio (#051).
-  - Growth Rate: Medium Fast (EXP = Level^3).
-  - Starting EXP (Lv 19): 19^3 = 6,859 EXP.
+  - Net Gain: +2 PokÃ©dex Caught entries (45 -> 47 Caught: Poliwhirl #061, Poliwrath #062).
+- [ ] Target 3: Train Diglett (DIGBY Lv 19, in Party) to Level 26 -> Dugtrio (#051).
+  - Growth Rate: Medium Fast (EXP = Level^3, empirically verified Turn 34247: 7,682 + 318 = 8,000 = 20^3).
+  - Starting EXP (Lv 19): 7,682 EXP [Verified Turn 34247].
   - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-  - Required EXP Delta: 17,576 - 6,859 = 10,717 EXP.
+  - Required EXP Delta: 17,576 - 7,682 = 9,894 EXP.
   - EXP Yield per Wild Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
     - Magneton Lv 46: 525 EXP
     - Golbat Lv 46: 558 EXP
@@ -17,7 +17,7 @@
     - Kadabra Lv 49: 504 EXP
     - Raichu Lv 53: 461 EXP
     - Sandslash Lv 52: 601 EXP
-  - Projected Battle Count: ~19 - 21 battles to reach Lv 26.
+  - Projected Battle Count: ~18 - 19 battles to reach Lv 26.
 
 ### Immediate Routing & Action Steps:
 1. In Bill's PC Box 1 WITHDRAW menu:
@@ -26,7 +26,7 @@
    - Check DIGBY's STATS screen in Party menu to empirically verify starting EXP and growth group.
 2. Heal party at Nurse Joy counter (restore HP/PP and cure Sheldon's paralysis).
 3. Switch Diglett to Party Slot 1.
-4. Exit Pokémon Center, walk north through Route 24 canal, Surf to Cerulean Cave 1F.
+4. Exit PokÃ©mon Center, walk north through Route 24 canal, Surf to Cerulean Cave 1F.
 5. Switch-train Diglett with Mewtwo to Level 26 -> Evolve into Dugtrio (#051)!
 
 ### Battler PP Stamina & Contingency Plan:
@@ -49,5 +49,5 @@
   - Slowpoke (DOPEY Lv 15) -> Slowbro (#080) at Lv 37.
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
-  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (Â¥2,100 each).
   - Liquidate Carbos to fund stones & Ultra Balls.
