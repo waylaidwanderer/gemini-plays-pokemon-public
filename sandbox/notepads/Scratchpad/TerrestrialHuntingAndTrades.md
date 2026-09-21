@@ -52,10 +52,10 @@
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 
 ### Magikarp Switch-Training Combat Protocol
-- Magikarp (TSUNAMI Lv 18, HP 36/36) has Splash/Tackle, but cannot survive high-level Cerulean Cave attacks.
+- Magikarp (TSUNAMI Lv 19, HP 37/37) has Splash/Tackle, but cannot survive high-level Cerulean Cave attacks.
 - Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
 - Switch Target Choice:
-  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 225/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
+  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 215/225, PSN, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
   - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton, Hypno, Raichu): Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep with STAB Psychic / Swift.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 

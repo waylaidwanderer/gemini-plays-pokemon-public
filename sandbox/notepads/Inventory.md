@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÃ FLUTE [Key Item]
+1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -49,6 +49,8 @@
 ## Party Pokémon
 - Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 19, Water]
   - Status: Healthy
+  - HP: 37 / 37 [Verified Lv 19 Turn 35309]
+  - Stats: Attack 11, Defense 27, Speed 41, Special 16 [Verified Lv 19 Turn 35309]
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
