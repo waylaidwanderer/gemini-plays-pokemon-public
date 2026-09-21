@@ -3738,8 +3738,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
   - Grimer (Lv 31-33): 10 encounters [Turn 33020 Lv 33 at (25, 26), Turn 33023 Lv 33 at (25, 25), Turn 33063 Lv 33 at (22, 26), Turn 33075 Lv 33 at (22, 26), Turn 33081 Lv 31 at (25, 25), Turn 33086 Lv 33 at (23, 25), Turn 33098 Lv 31 at (21, 26), Turn 33107 Lv 33 at (27, 25), Turn 33110 Lv 33 at (27, 25), Turn 33114 Lv 31 at (21, 26)]
   - Vulpix (Lv 33-35): 4 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25), Turn 33094 Lv 35 at (21, 26), Turn 33117 Lv 35 at (27, 25)]
-- Unverified Target Species (Pending Capture):
-  - Weezing (#110) [Evolution of Koffing, rare]
 
 
 <hr>
@@ -4985,35 +4983,26 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Hunting Target: Pokémon Mansion B1F (Cinnabar Island)
-- Target Species:
-  - Weezing (#110 on B1F) - Poison-type evolution of Koffing (Magmar #126 CAUGHT!)
+## Pok�mon Mansion Campaign Complete
 - Completed Mansion Captures:
   - Muk (#089 Lv 37 SLUDGE) [Caught Turn 32261]
   - Grimer (#088 Lv 30 GOOP) [Caught Turn 32303, Box 2]
   - Koffing (#109 Lv 34 SMOGGY) [Caught Turn 32474, Box 2]
   - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
   - Magmar (#126 Lv 38 VULCAN) [Caught Turn 33046, Box 2]
-- Inventory & Storage Status:
-  - Resources: 3 Ultra Balls in Bag
-  - Party Status: 6/6 (Lead: Mewtwo Lv 70 OMEGA)
-  - PC Box 2 Status: 8/20 used (12 free slots)
-- Active B1F Execution Plan:
-  1. Patrol open Southeast Chamber (rows 24-26, cols 21-27) to roll for wild encounters.
-  2. Flee immediately from duplicates (Grimer, Koffing, Muk, Ponyta, Rapidash, Vulpix) using Mewtwo Lv 70 (guaranteed first-turn flee).
-  3. When Weezing (#110) appears, immediately throw Ultra Ball (Slot 12).
-  4. Nickname new capture creatively and record Pokédex data.
 
-## Resource & Catch Probability Analysis: Weezing (#110)
-- Target: Weezing (#110, Poison-type evolution of Koffing, Lv 34-42)
-  - Base Catch Rate: 60 (Gen 1)
-  - Ultra Ball multiplier: 2.0x
-  - Catch probability at full HP per Ultra Ball: ~25.4%
-  - Cumulative catch probability with 3 Ultra Balls at full HP: ~58.7%
-- Contingency Plan if 3 Ultra Balls fail:
-  1. Diglett (DIGBY) uses Dig to exit dungeon to Cinnabar Pokémon Center.
-  2. Visit Cinnabar Poké Mart to liquidate surplus items: PP UP (¥4,900), GUARD SPEC. (¥350), MAX POTION (¥1,250), MAX ELIXER (¥2,250). Total revenue: >¥8,700 (enough for 7+ Ultra Balls at ¥1,200 each).
-  3. Re-enter Mansion, ascend via Northwest Bedroom to 3F, drop to 1F enclosed chamber, and return to B1F with refreshed Ultra Ball stock.
+## Immediate Milestone: Evolve Koffing into Weezing (#110)
+- Koffing (SMOGGY) is Level 34 stored in PC Box 2.
+- Koffing evolves into Weezing at Level 35.
+- Bag contains RARE CANDY x1 (Slot 8).
+- Strategy:
+  1. Exit Mansion B1F via staircase at (23, 22).
+  2. Navigate through 1F to exit at (5, 27) into Cinnabar Island.
+  3. Visit Cinnabar Pok�mon Center PC.
+  4. Deposit Muk (SLUDGE) to free a party slot.
+  5. Withdraw Koffing (SMOGGY) from PC Box 2.
+  6. Use RARE CANDY on Koffing to level to 35 -> evolves into Weezing (#110)!
+  7. Register Weezing (#110) in Pok�dex.
 
 
 <hr>
