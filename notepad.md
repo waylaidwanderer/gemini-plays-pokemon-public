@@ -113,12 +113,12 @@
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15) [Learned Lv 24 Turn 34452]
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
-  - Status: PSN
-  - HP: 42 / 234 [Verified Turn 34492]
+  - Status: Healthy [Poison Cured Turn 34507]
+  - HP: 234 / 234 [Fully Healed Turn 34507]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 436795 (10593 to Lv 71) [Turn 34488]
-  - Moves: Swift (PP 9/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
