@@ -104,14 +104,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 16, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 17, Water]
   - Status: Healthy
   - HP: 33 / 33 [Verified Lv 16 Turn 35167]
   - Stats: Attack 10, Defense 24, Speed 35, Special 14 [Verified Lv 16 Turn 35159]
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 6019 (122 to Lv 17, 3,981 to Lv 20 Gyarados) [Turn 35173] [Turn 35158]
+  - EXP: 6577 (713 to Lv 18, 3,423 to Lv 20 Gyarados) [Turn 35184] [Turn 35173] [Turn 35158]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -132,11 +132,11 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Paralyzed (PAR) [Thunder Wave Turn 35155]
-  - HP: 192 / 243 [Verified Turn 35183]
+  - Status: Healthy [Haze cured PAR Turn 35184]
+  - HP: 164 / 243 [Verified Turn 35184]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 18/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 18/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5030,11 +5030,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
 - Current EXP: 6,019 EXP (Lv 16, Delta to Gyarados: 3,981 EXP, ~7-8 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 87/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, PAR, Swift 18/20, Swift 18/20, Psychic 5/10)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 87/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 164/243, Healthy, Swift 18/20, Swift 18/20, Psychic 3/10)
 
 ### Switch-Training Progress:
-- Completed Battles: 11 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 2 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53)
-- EXP Gained: +5,863 EXP (156 -> 6,019 EXP, Lv 16, 122 to Lv 17)
+- Completed Battles: 12 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 3 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53)
+- EXP Gained: +6,421 EXP (156 -> 6,577 EXP, Lv 17, 713 to Lv 18)
 - Remaining Delta to Lv 20 Gyarados: 3,981 EXP (~7-8 battles)
 
 ### Empirical Cerulean Cave 1F Switch-Training EXP Yield Table (2 Participants)
