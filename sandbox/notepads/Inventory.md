@@ -96,7 +96,7 @@
 
 ## Party Pokémon
 - Slot 1: SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
-  - Status: Healthy [Withdrawn Turn 34616, Moved to Lead Slot Turn 34638]
+  - Status: Healthy
   - HP: 41 / 41 [Verified Lv 15 Turn 34631]
   - Stats: Attack 27, Defense 30, Speed 21, Special 15 [Verified Lv 15 Turn 34631]
   - OT: BLUE (IDNo. 04620)
@@ -150,7 +150,6 @@
 
 - Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
 
-- Slot 8: [WITHDRAWN Turn 34616]
 
 - Slot 9: PARAS (FUNGI) [Lv 10]
 

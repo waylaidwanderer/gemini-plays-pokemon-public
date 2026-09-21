@@ -21,7 +21,6 @@
   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
 - Additional Level Evolutions in PC:
-  - Sandshrew (PANGO Lv 15) -> Sandslash (#028) at Lv 22 (ACTIVE).
   - Krabby (PINCHY Lv 15) -> Kingler (#099) at Lv 28.
   - Paras (FUNGI Lv 10) -> Parasect (#047) at Lv 24.
   - Psyduck (MIGRAINE Lv 15) -> Golduck (#055) at Lv 33.
