@@ -9,7 +9,7 @@
 - Switch-Training Sweeper: Mewtwo (OMEGA Lv 71) / Blastoise (SHELDON Lv 71)
 
 ## Completed Evolutions:
-- Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pokédex: 48 Caught!
+- Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pokï¿½dex: 48 Caught!
 - Poliwrath (#062): RIPPLE evolved via Water Stone [Turn 34159].
 - Poliwhirl (#061): RIPPLE evolved at Lv 25 [Turn 34072].
 - Dewgong (#087): SAILOR evolved at Lv 34 [Turn 33656].
@@ -28,5 +28,5 @@
   - Slowpoke (DOPEY Lv 15) -> Slowbro (#080) at Lv 37.
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
-  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (ï¿½Â¥2,100 each).
   - Liquidate Carbos to fund stones & Ultra Balls.
