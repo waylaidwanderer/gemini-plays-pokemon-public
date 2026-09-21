@@ -5090,5 +5090,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
 
+### Battle Log:
+- Battle 1 [Turn 35552]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 11! (EXP: 1601 / 13824, remaining: 12223). Stats at Lv 11: Atk 23, Def 17, Spd 12, Spc 19. Blastoise HP: 188/225, Surf PP: 14/15.
 
 <hr>
