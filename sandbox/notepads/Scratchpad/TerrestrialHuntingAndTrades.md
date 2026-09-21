@@ -1,11 +1,11 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
-- Target: Sandshrew (PANGO Lv 18)
+- Target: Sandshrew (PANGO Lv 18, HP 48/48)
 - Target Level: Lv 22 (Sandslash #028, 10,648 EXP)
-- Current EXP: 6,143 EXP (716 to Lv 19; 4,505 to Lv 22 Sandslash) [After Sandslash Lv 52 Turn 34815]
-- Battles Completed: 5
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 170/243, Psychic 5/10, Swift 20/20)
+- Current EXP: 6,701 EXP (158 to Lv 19; 3,947 to Lv 22 Sandslash) [After Golbat Lv 46 Turn 34827]
+- Battles Completed: 6
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 149/243, Psychic 4/10, Swift 20/20)
 
 ### Active Battle Log (Cerulean Cave 1F - Sandshrew)
 - Battle 1 [Turn 34723]: Wild Golbat Lv 46. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 558 EXP (3,375 -> 3,933). OMEGA: Psychic 9/10, HP 243/243.
@@ -13,6 +13,7 @@
 - Battle 3 [Turn 34771]: Wild Magneton Lv 46. PANGO (Slot 1 -> switch) + OMEGA (Psychic crit OHKO). PANGO gained 525 EXP (4,416 -> 4,941) -> Grew to Lv 17! (Atk 30, Def 34, Spd 24, Spc 17, learned Slash!). OMEGA: took Thundershock (-13 HP), Psychic 7/10, HP 225/243.
 - Battle 4 [Turn 34799]: Wild Sandslash Lv 52. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 601 EXP (4,941 -> 5,542, 290 to Lv 18). OMEGA: took Slash crit (-40 HP), Psychic 6/10, HP 185/243.
 - Battle 5 [Turn 34814]: Wild Sandslash Lv 52. PANGO (Slot 1 -> switch) + OMEGA (Psychic crit OHKO). PANGO gained 601 EXP (5,542 -> 6,143) -> Grew to Lv 18! OMEGA: took Fury Swipes (-15 HP), Psychic 5/10, HP 170/243.
+- Battle 6 [Turn 34826]: Wild Golbat Lv 46. PANGO (Slot 1 -> switch) + OMEGA (Psychic OHKO). PANGO gained 558 EXP (6,143 -> 6,701, 158 to Lv 19). OMEGA: took Wing Attack crit (-21 HP), Psychic 4/10, HP 149/243.
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pok�dex: 48 Caught!
