@@ -62,10 +62,10 @@
 9. GUARD SPEC. x 1
 10. MAX POTION x 1
 11. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-12. ULTRA BALL x 1
+
 
 ## Inventory Capacity
-- Active Bag Items: 12 / 20 capacity used.
+- Active Bag Items: 11 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
