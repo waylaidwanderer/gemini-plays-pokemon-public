@@ -71,11 +71,11 @@
 - West Wing fully surveyed: B1F exploration 100% complete!
 
 ## Wild Encounters (Verified Species & Level Bands)
-- Encounter Trial Tracker (Total B1F Encounters Observed: 12):
+- Encounter Trial Tracker (Total B1F Encounters Observed: 13):
   - Muk (Lv 40): 1 encounter [Turn 33067 at (22, 26)]
   - Ponyta (Lv 32): 1 encounter [Turn 33057 at (24, 25)]
   - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
-  - Grimer (Lv 31-33): 6 encounters [Turn 33020 Lv 33 at (25, 26), Turn 33023 Lv 33 at (25, 25), Turn 33063 Lv 33 at (22, 26), Turn 33075 Lv 33 at (22, 26), Turn 33081 Lv 31 at (25, 25), Turn 33086 Lv 33 at (23, 25)]
+  - Grimer (Lv 31-33): 7 encounters [Turn 33020 Lv 33 at (25, 26), Turn 33023 Lv 33 at (25, 25), Turn 33063 Lv 33 at (22, 26), Turn 33075 Lv 33 at (22, 26), Turn 33081 Lv 31 at (25, 25), Turn 33086 Lv 33 at (23, 25), Turn 33098 Lv 31 at (21, 26)]
   - Vulpix (Lv 33-35): 3 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25), Turn 33094 Lv 35 at (21, 26)]
 - Unverified Target Species (Pending Capture):
   - Weezing (#110) [Evolution of Koffing, rare]
