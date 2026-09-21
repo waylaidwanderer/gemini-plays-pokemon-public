@@ -49,7 +49,8 @@
 
 ## Party Pokémon
 - POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
-  - Status: Healthy
+  - Status: Asleep (SLP) [Verified Turn 33707]
+  - HP: 23 / 37 [Verified Lv 15 Turn 33707]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
