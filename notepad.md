@@ -105,20 +105,20 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 11, Bug/Grass]
   - Status: Healthy
-  - HP: 29 / 29 [Verified Lv 10 Turn 35441]
-  - Stats: Attack 21, Defense 16, Speed 11, Special 18 [Verified Lv 10 Turn 35441]
+  - HP: 31 / 31 [Verified Lv 11 Turn 35552]
+  - Stats: Attack 23, Defense 17, Speed 12, Special 19 [Verified Lv 11 Turn 35552]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 1000 (331 to Lv 11, Target 13,824 for Lv 24 Parasect #047) [Verified Turn 35442]
+  - EXP: 1601 (Target 13,824 for Lv 24 Parasect #047, remaining 12,223) [Verified Turn 35552]
   - Moves: Scratch (PP 35/35) [Verified Turn 35442]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
-  - Status: Healthy [Healed Turn 35403]
-  - HP: 225 / 225 [Turn 35403]
+  - Status: Healthy
+  - HP: 188 / 225 [Turn 35552]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -177,7 +177,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 11206 (Medium Fast, Lv 22, 1,029 to Lv 23) [Verified Turn 34941]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
-  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976, Slot 13]
+  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976, Slot 12]
 - DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
   - HP: 62 / 62 [Verified Lv 26 Turn 34568]
@@ -4339,7 +4339,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (14, 4) [Verified Turn 27908: (13, 4) is solid rock boundary]. At (15, 4), connects north to Staircase (15, 3) and south down Column 15 into Row 6 waterway.
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
-- Entrance Mat: Spans (24..25, 16..17). Stepping south from (24..25, 17) warps outside to exterior landing at (4, 11) [Verified Turn 35382].
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
 - Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
