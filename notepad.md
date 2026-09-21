@@ -107,6 +107,7 @@
   - HP: 113 / 113 [Verified Lv 34 Turn 33657]
   - Stats: Attack 56, Defense 67, Speed 59, Special 79 [Verified Lv 34 Turn 33657]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - EXP: 40203 (2672 to Lv 35) [Verified Turn 33669]
   - Moves: Headbutt (PP 14/15), Growl (PP 40/40) [Verified Turn 33639]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 - BLASTOISE (SHELDON) [Lv 70, Water]
@@ -127,7 +128,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 33669]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -329,6 +330,7 @@
   - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538`. Boosted yield = `538 + 269 = 807` [Turn 33579].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504`. Boosted yield = `504 + 252 = 756` [Turns 33589, 33601].
   - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227`. Boosted yield = `227 + 113 = 340` [Turn 33620].
+  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461`. Boosted yield = `461 + 230 = 691` [Turn 33668].
 
 
 <hr>
