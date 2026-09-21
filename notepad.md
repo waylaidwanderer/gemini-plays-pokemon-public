@@ -107,7 +107,7 @@
   - HP: 49 / 49 [Verified Lv 21 Turn 33911]
   - Stats: Attack 28, Defense 28, Speed 48, Special 23 [Verified Lv 21 Turn 33906]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 6480 [Turn 33906]
+  - EXP: 7005 [Turn 33916]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
@@ -140,7 +140,7 @@
   - Status: Healthy
   - HP: 180 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
@@ -5007,9 +5007,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 21, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 21 (6,480 EXP, Lv 21 reached Turn 33906, +558 from Golbat Lv 46). Stats: Attack 28, Defense 28, Speed 48, Special 23. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+  - Status: Lv 21 (7,005 EXP, Lv 21 reached Turn 33906, +525 from Magneton Lv 46 Turn 33916). Stats: Attack 28, Defense 28, Speed 48, Special 23. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 6,480 = 5,255 EXP (~7-8 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 7,005 = 4,730 EXP (~7 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
