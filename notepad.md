@@ -134,7 +134,23 @@
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 
-## PC Box 1 Pokémon
+## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
+- Slot 1: KRABBY (PINCHY) [Lv 15]
+- Slot 2: ZAPDOS (THUNDER) [Lv 50]
+- Slot 3: HITMONLEE (BRUCE) [Lv 30]
+- Slot 4: LAPRAS (NESSY) [Lv 15]
+- Slot 5: KANGASKHAN (MATILDA) [Lv 25]
+- Slot 6: CHANSEY (LUCKY) [Lv 26]
+- Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
+- Slot 8: SANDSHREW (PANGO) [Lv 15]
+- Slot 9: PARAS (FUNGI) [Lv 10]
+- Slot 10: DROWZEE (SANDMAN) [Lv 9]
+- Slot 11: DIGLETT (DIGBY) [Lv 19] -> Active withdrawal target!
+- Slot 12: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 13: AERODACTYL (PTERA) [Lv 30]
+- Slot 14: NIDOQUEEN (QUEENIE) [Lv 33]
+
+### Detailed Stats for Box 1 Pokémon:
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
   - Status: Healthy
   - HP: 113 / 113 [Verified Lv 34 Turn 33657]
