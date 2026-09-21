@@ -134,13 +134,6 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
-  - Status: Healthy
-  - HP: 102 / 102
-  - Stats: Attack 81, Defense 105, Speed 54, Special 77 [Verified Lv 39 Turn 33277]
-  - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
-  - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33277]
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
@@ -284,6 +277,15 @@
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
   - Deposited from active party into PC Box 2 (9/20) [Turn 33226]
+
+- WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
+  - Status: Healthy
+  - HP: 102 / 102
+  - Stats: Attack 81, Defense 105, Speed 54, Special 77 [Verified Lv 39 Turn 33277]
+  - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
+  - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33277]
+  - Deposited: Cinnabar PC Box 2 (10/20) [Turn 33294]
 
 
 <hr>
