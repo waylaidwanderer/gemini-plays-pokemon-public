@@ -104,6 +104,7 @@
 ## Party Pokémon
 - POLIWAG (Nickname: RIPPLE) [Lv 20, Water]
   - Status: Healthy
+  - Stats: Attack 27, Defense 27, Speed 46, Special 22 [Verified Lv 20 Turn 33884]
   - OT: BLUE (IDNo. 04620)
   - EXP: 5695 [Turn 33882]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
@@ -138,7 +139,7 @@
   - Status: Healthy
   - HP: 180 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
