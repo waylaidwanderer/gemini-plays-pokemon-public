@@ -46,3 +46,4 @@
 - [x] Evolve Seel into Dewgong (#087) [Turn 33656]
 - [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
 - [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
+- [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
