@@ -85,13 +85,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: SANDSHREW (Nickname: PANGO) [Lv 20, Ground]
+- Slot 1: SANDSHREW (Nickname: PANGO) [Lv 21, Ground]
   - Status: Healthy
-  - HP: 53 / 53 [Verified Lv 20 Turn 34873]
-  - Stats: Attack 35, Defense 40, Speed 27, Special 19 [Verified Lv 20 Turn 34873]
+  - HP: 55 / 55 [Verified Lv 21 Turn 34896]
+  - Stats: Attack 37, Defense 42, Speed 29, Special 20 [Verified Lv 21 Turn 34896]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 8833 (428 to Lv 21; 1,815 to Lv 22 Sandslash) [After Dodrio Lv 49 Turn 34884]
+  - EXP: 9316 (1,332 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34896]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
