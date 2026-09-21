@@ -17,7 +17,7 @@
 - Sheldon (BLASTOISE Lv 71, Slot 6): HP 77 / 225 (Paralyzed). Moves: Surf (PP 11/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
 
 ### Financial Liquidation Budget:
-- Current Wallet: ¥256.
+- Current Wallet: ¥5156 [Turn 34148].
 - Stone Cost: Water Stone = ¥2,100.
     - Vendor: Celadon Department Store 4F Clerk.
 
