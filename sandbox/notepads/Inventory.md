@@ -102,7 +102,6 @@
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
-  - Transferred to PC Box 1 (Active party full: 17/20)
 - TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
   - Status: Healthy
   - HP: 62 / 62
@@ -126,7 +125,6 @@
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
-  - Transferred to PC Box 1 (Active Party full)
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
   - HP: 30 / 30
@@ -140,7 +138,6 @@
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]
-  - Transferred to PC Box 1 (Active Party full)
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
@@ -152,19 +149,15 @@
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
   - Status: Healthy
   - Caught: Safari Zone Area 2 tall grass [Turn 8384]
-  - Transferred to PC Box 1 (Active Party full)
 - KANGASKHAN (Nickname: MATILDA) [Lv 25, Normal]
   - Status: Healthy
   - Caught: Safari Zone Area 1 tall grass [Turn 9001]
-  - Transferred to PC Box 1 (Active Party full)
 - LAPRAS (Nickname: NESSY) [Lv 15, Water/Ice]
   - Status: Healthy
   - Received: Silph Co employee gift [Turn 12858, Verified Turn 12865]
-  - Transferred to PC Box 1 (Active Party full)
 - HITMONLEE (Nickname: BRUCE) [Lv 30, Fighting]
   - Status: Healthy
   - Received: Fighting Dojo prize [Turn 13254]
-  - Transferred to PC Box 1 (Active Party full)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
 
@@ -172,11 +165,9 @@
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
-  - Transferred to PC Box 2 (1/20)
 - POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
-  - Transferred to PC Box 2 (2/20)
 - JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
   - Status: Healthy
   - HP: 65 / 65
@@ -195,11 +186,9 @@
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
-  - Transferred to PC Box 2 (5/20)
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
-  - Transferred to PC Box 2 (8/20)
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]

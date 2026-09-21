@@ -43,13 +43,13 @@
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
 
 ## Wild Pok�mon (Empirically Verified)
-- Golbat: Lv 46 [Encountered 1F Turn 25514; base EXP ~1116, yields 837 boosted EXP in 2-way split, Turn 33519]
-- Magneton: Lv 46 [Encountered 1F Turn 25520; base EXP ~1049, yields 787 boosted EXP in 2-way split, Turns 33501, 33530]
+- Golbat: Lv 46 [Encountered 1F Turn 25514]
+- Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
 - Venomoth: Lv 49 [Encountered 1F Turn 26123]
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
-- Hypno: Lv 46 [Encountered 1F Turn 26276; base EXP ~1076, yields 807 boosted EXP in 2-way split, Turn 33579]
-- Kadabra: Lv 49 [Encountered 1F Turn 27129; base EXP ~1008, yields 756 boosted EXP in 2-way split, Turn 33589]
+- Hypno: Lv 46 [Encountered 1F Turn 26276]
+- Kadabra: Lv 49 [Encountered 1F Turn 27129]
 - Parasect: Lv 52 [Encountered 1F Turn 27400
-- Ditto: Lv 53 [Encountered 1F Turn 33610; base EXP ~454, yields 340 boosted EXP in 2-way split, Turn 33621]]
+- Ditto: Lv 53 [Encountered 1F Turn 33610]]
