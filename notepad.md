@@ -49,6 +49,7 @@
 - [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
 - [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
 - [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
+- [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 
 <hr>
 
