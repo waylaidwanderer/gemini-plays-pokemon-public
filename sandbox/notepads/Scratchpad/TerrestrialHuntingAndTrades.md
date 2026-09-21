@@ -11,8 +11,8 @@
 
 ### Immediate Routing & Action Steps:
 1. Switch-train Poliwag (Slot 1) on Cerulean Cave 1F (patrolling rows 14-15) to Level 25 -> Poliwhirl (#061).
-2. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) at Dept Store 4F.
-3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
+2. Fly to Celadon City, sell 1 PP Up (yields Â¥4,900) or 1 Max Elixer (yields Â¥2,250) at Dept Store 4F.
+3. Purchase 1 Water Stone (Â¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
 - Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 5/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.

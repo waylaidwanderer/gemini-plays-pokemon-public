@@ -1,7 +1,7 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÉMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokï¿½mon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKï¿½MON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 - **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÃ©MON causes the Start menu to re-open on POKÃ©MON on the next press).
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy PokÃ©mon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 - **Shift Style Prompt:** When an opposing PokÃ©mon faints in trainer battles, the game asks "Will BLUE change POKÃ©MON?". Default cursor is YES. Pressing B automatically selects NO and retains current PokÃ©mon.
@@ -22,12 +22,12 @@
 ## Obedience
 - **Original Trainer PokÃ©mon:** Starter PokÃ©mon and PokÃ©mon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider PokÃ©mon.
 
-## Experience Distribution & Traded Pokémon Boost
-- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
-- **Native vs. Traded Pokémon EXP Yields:**
-  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
-  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
-- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
+## Experience Distribution & Traded Pokï¿½mon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pokï¿½mon participate in defeating an opposing Pokï¿½mon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Native vs. Traded Pokï¿½mon EXP Yields:**
+  - **Native Pokï¿½mon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Traded / Outsider Pokï¿½mon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+- **Traded Pokï¿½mon Boost Formula (Gen 1 Assembly Implementation):**
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
