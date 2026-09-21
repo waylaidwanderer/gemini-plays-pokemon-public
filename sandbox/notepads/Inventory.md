@@ -47,44 +47,36 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
-  - Status: Healthy
-  - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
-  - Stats: Attack 50, Defense 54, Speed 41, Special 32 [Verified Lv 22 Sandslash Turn 34941]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 10915 (1,252 to Lv 23) [After Golbat Lv 46 Turn 34937]
-  - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
-  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941]
-- Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
+- Slot 1: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 3: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+- Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - EXP: 314 (105 to Lv 9)
-- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
+- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
   - HP: 225 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 5: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - EXP: 125 (91 to Lv 6)
-- Slot 6: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
+- Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
   - HP: 243 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
+- Slot 6: [EMPTY - Sandslash deposited Turn 34976; pending Magikarp withdrawal]
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
@@ -102,6 +94,15 @@
 - Slot 13: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 
 ### Detailed Stats for Box 1 Pokémon:
+- SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
+  - Status: Healthy
+  - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
+  - Stats: Attack 50, Defense 54, Speed 41, Special 32 [Verified Lv 22 Sandslash Turn 34941]
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - EXP: 10915 (1,252 to Lv 23) [After Golbat Lv 46 Turn 34937]
+  - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
+  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976; pending slot verification in WITHDRAW menu]
 - DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
   - HP: 62 / 62 [Verified Lv 26 Turn 34568]

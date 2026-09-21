@@ -44,6 +44,7 @@
   - Resident 2 at (1, 2): Trader (traded her JYNX for player's POLIWHIRL SWIRLY [Turn 31724]).
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
 - Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
+  - Interior Topology [Verified Turns 34952-34966]: Entrance mat at (3, 7). Counter & Nurse Joy at (3, 2), interact from (3, 3) facing North. PC terminal monitor at (13, 3), operated from (13, 4) facing North. Facing East from (12, 3) fails to interact with PC.
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
   - Central pool: Spans rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounters verified: Psyduck (Lv 15, Turn 31489) and Krabby (Lv 15, Turn 31536).
   - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.

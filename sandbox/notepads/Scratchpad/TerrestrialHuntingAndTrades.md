@@ -37,19 +37,13 @@
    - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 
-### Sweeper & Recovery Protocol
-- Recover Threshold: Use Recover when Mewtwo's HP drops below 100 HP (restores 121 HP back to ~200+ HP).
-- Sweeper Transition: With Mewtwo's Psychic at 0 PP, deploy Blastoise (SHELDON Lv 71, Surf 14/15 PP, Ice Beam 8/10 PP) as primary switch sweeper against bulky targets (Hypno, Sandslash), or use Mewtwo's Swift (18/20 PP) against frail targets.
-- Retreat Threshold: If Blastoise Surf/Ice Beam or Mewtwo Swift runs low, walk 3 tiles south to (24, 17) to exit to Cerulean canal and Fly/Surf to Cerulean Pokémon Center.
-
-### Completed Switch-Training Battles (Battles 1-14 Aggregate)
-- Battles Won: 14 (Golbat x5, Venomoth x4, Sandslash x2, Magneton x1, Hypno x1, Dodrio x1)
-- Total EXP Gained by PANGO: 7,540 EXP (grew Lv 15 -> Lv 22; Atk 39, Def 43, Spd 30, Spc 21)
-- Progress: 10,915 / 10,648 EXP (Level 22 reached! Evolving!)
-- Active Sweepers & Resources:
-  - Blastoise (SHELDON Lv 71): HP 210/225, Surf 14/15, Ice Beam 8/10 (Primary Sweeper)
-  - Mewtwo (OMEGA Lv 71): HP 75/243, Swift 18/20, Recover 20/20 (Backup Sweeper)
-- Safety & Retreat Route: Physical cave exit warp is at Cerulean Cave 1F (24, 17) [3 tiles south of patrol area]. Exit leads directly outside to Cerulean canal -> Surf/Fly to Cerulean Pokémon Center.
+### Magikarp Switch-Training Combat Protocol
+- Magikarp (TSUNAMI Lv 5, HP ~15-20) has Splash (0 damage) and cannot survive any Lv 40+ Cerulean Cave attacks.
+- Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
+- Switch Target Choice:
+  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 225/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
+  - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep.
+- Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pokédex: 48 Caught!
