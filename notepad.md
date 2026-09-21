@@ -103,15 +103,6 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
-  - Status: Healthy
-  - HP: 70 / 70 [Verified Lv 25 Turn 34075]
-  - Stats: Attack 33, Defense 33, Speed 57, Special 27 [Verified Lv 25 Turn 34070]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 12020 (1,391 to Lv 26) [Turn 34071]
-  - Growth Group: Medium Slow
-  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
-  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072], Evolved to Poliwrath (#062) via Water Stone [Turn 34159]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -226,6 +217,15 @@
   - Status: Healthy
 
 ## PC Box 2 Pokémon
+- POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
+  - Status: Healthy
+  - HP: 70 / 70 [Verified Lv 25 Turn 34075]
+  - Stats: Attack 33, Defense 33, Speed 57, Special 27 [Verified Lv 25 Turn 34070]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 12020 (1,391 to Lv 26) [Turn 34071]
+  - Growth Group: Medium Slow
+  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072], Evolved to Poliwrath (#062) via Water Stone [Turn 34159]
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
