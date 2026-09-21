@@ -63,4 +63,3 @@
 - Ponyta (Lv 28-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 36 observed encounters (including Turn 32898 Grimer at (20, 11)); B1F survey recommended if not found here.
