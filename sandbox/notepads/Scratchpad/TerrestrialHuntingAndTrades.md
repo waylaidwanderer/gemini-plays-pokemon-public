@@ -2,12 +2,12 @@
 
 ## Active Goal: Evolve Magikarp (TSUNAMI) into Gyarados (#130)
 - Target: Level 20 (10,000 EXP, Pokédex #130)
-- Current EXP: 8,716 EXP (Lv 19, Remaining Delta: 1,284 EXP, ~2-3 battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 215/225, PSN, Surf 14/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35307]
+- Current EXP: 9,317 EXP (Lv 19, Remaining Delta: 683 EXP, ~1-2 battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 162/225, PSN, Surf 13/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35331]
 
 ### Switch-Training Session Progress:
-- Completed Battles: 16 Battles Won (5 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 2 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
-- Total Session EXP Gained: +8,560 EXP (from base 156 EXP)
+- Completed Battles: 17 Battles Won (5 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 3 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
+- Total Session EXP Gained: +9,161 EXP (from base 156 EXP)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -23,8 +23,8 @@
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP.
-- Magikarp (TSUNAMI Lv 19, 8,716 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 1,284 EXP.
-- Exact projected battles remaining: ceil(1284 / 530) = **2.4 (~2-3 battles)**.
+- Magikarp (TSUNAMI Lv 19, 9,317 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 683 EXP.
+- Exact projected battles remaining: ceil(683 / 530) = **1.3 (~1-2 battles)**.
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
@@ -55,7 +55,7 @@
 - Magikarp (TSUNAMI Lv 19, HP 37/37) has Splash/Tackle, but cannot survive high-level Cerulean Cave attacks.
 - Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
 - Switch Target Choice:
-  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 215/225, PSN, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
+  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 162/225, PSN, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
   - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton, Hypno, Raichu): Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep with STAB Psychic / Swift.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 

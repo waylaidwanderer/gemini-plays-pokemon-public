@@ -54,7 +54,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 8716 (1,284 to Lv 20 Gyarados) [Verified Turn 35307, Level 19]
+  - EXP: 9317 (683 to Lv 20 Gyarados) [Verified Turn 35331, Level 19]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -64,9 +64,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Poisoned (PSN) [Turn 35305]
-  - HP: 215 / 225 [Turn 35305]
+  - HP: 162 / 225 [Turn 35331]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
