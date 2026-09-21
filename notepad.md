@@ -325,9 +325,10 @@
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
   - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525`. Boosted yield = `525 + 262 = 787` [Turns 33501, 33530].
-  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558`. Boosted yield = `558 + 279 = 837` [Turn 33519].
+  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558`. Boosted yield = `558 + 279 = 837` [Turns 33519, 33656].
   - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538`. Boosted yield = `538 + 269 = 807` [Turn 33579].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504`. Boosted yield = `504 + 252 = 756` [Turns 33589, 33601].
+  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227`. Boosted yield = `227 + 113 = 340` [Turn 33620].
 
 
 <hr>
@@ -4982,32 +4983,39 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Completed Goal: Dewgong (#087) via Seel Evolution [Turn 33656]
-- Training Campaign Started: Turn 33493
-- Initial EXP: 32,768 EXP (Lv 32)
-- LEVEL 33 ACHIEVED: Turn 33579!
-- Seel (SAILOR, Lv 33 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
-  - Status: Healthy, 90+ HP.
-  - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579].
-- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 141/222 HP, Ice Beam 10/10, Surf 15/15).
-- Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
-- EVOLVED INTO DEWGONG (#087) at Level 34! Pok�dex: 45 Caught / 136 Seen.
-- Current EXP: 38,675 EXP [Verified Turn 33634].
-- Final EXP: 39,512 EXP (Level 34). HP 113/113, Attack 56, Defense 67, Speed 59, Special 79.
-- Strategy:
-  1. Patrol row 14 for wild encounters in Cerulean Cave 1F.
-  2. Switch to Sheldon on turn 1 (or Omega against Electric types).
-  3. KO wild Pokémon to award Sailor ~800 boosted EXP per battle.
-  4. At Lv 34, Seel evolves into Dewgong (#087) -> Pokédex 45 Caught!
+## Completed Goals
+- Dewgong (#087) via Seel Evolution [Turn 33656]:
+  - Evolved Sailor (Seel -> Dewgong) at Level 34 (39,512 EXP).
+  - Stats: HP 113/113, Attack 56, Defense 67, Speed 59, Special 79.
+  - Pokédex advanced to 45 Caught / 136 Seen.
+
+## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
+- Target 1: Train Poliwag (RIPPLE Lv 15, PC Box 2) to Level 25 -> Poliwhirl (#061).
+- Target 2: Use Water Stone (purchased Celadon Dept Store 4F) -> Poliwrath (#062).
+- Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
+- Immediate Steps:
+  1. Exit Cerulean Cave 1F south mat at (24, 17).
+  2. Surf south to Cerulean City.
+  3. Enter Cerulean Pokémon Center to heal party and access PC.
+  4. Deposit Dewgong (SAILOR) into PC Box.
+  5. Change Box to Box 2 and withdraw Poliwag (RIPPLE Lv 15).
+  6. Return to Cerulean Cave 1F (or Celadon Dept Store for Water Stone).
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
-  - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL).
-  - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC).
-- Water Stone / Leaf Stone Evolutions:
-  - Celadon 4F sells Water Stone and Leaf Stone (¥2,100 each).
-  - Poliwag (RIPPLE Lv 15) -> Poliwhirl Lv 25 -> Poliwrath (#062) via Water Stone.
-  - Weepinbell / Victreebel (#071) via Leaf Stone.
+  - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
+  - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
+- Additional Level Evolutions in PC:
+  - Sandshrew (PANGO Lv 15) -> Sandslash (#028) at Lv 22 (only 7 levels!).
+  - Diglett (DIGBY Lv 19) -> Dugtrio (#051) at Lv 26 (only 7 levels!).
+  - Krabby (PINCHY Lv 15) -> Kingler (#099) at Lv 28.
+  - Paras (FUNGI Lv 10) -> Parasect (#047) at Lv 24.
+  - Psyduck (MIGRAINE Lv 15) -> Golduck (#055) at Lv 33.
+  - Slowpoke (DOPEY Lv 15) -> Slowbro (#080) at Lv 37.
+  - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
+- Stone Evolutions:
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
+  - Sell surplus items (Carbos, PP Up, Max Elixer, TMs) for >¥15,000 to fund stones & Ultra Balls.
 
 
 <hr>
