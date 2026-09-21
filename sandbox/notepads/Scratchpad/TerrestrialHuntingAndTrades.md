@@ -2,40 +2,36 @@
 
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 1,232 EXP (Lv 9, Delta to Gyarados: 8,768 EXP, ~16 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 211/225, PSN, Surf 13/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
+- Current EXP: 1,770 EXP (Lv 11, Delta to Gyarados: 8,230 EXP, ~15 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 163/225, PSN, Surf 12/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
 
-### Battle Log:
-- Battle 1 [Turn 35048]: Wild Hypno Lv 46. Lead TSUNAMI -> switch to SHELDON -> Surf OHKO (Crit). TSUNAMI earned 538 EXP (156 -> 694 EXP, grew to Lv 8!). Sheldon Surf PP: 14/15.
-- Battle 2 [Turn 35060]: Wild Hypno Lv 46. Lead TSUNAMI -> switch to SHELDON -> Surf 2HKO (Hypno used Poison Gas; Sheldon poisoned, HP 211/225). TSUNAMI earned 538 EXP (694 -> 1,232 EXP, grew to Lv 9!). Sheldon Surf PP: 13/15.
+### Switch-Training Progress:
+- Completed Battles: 3 Battles Won (all Wild Hypno Lv 46)
+- EXP Gained: +1,614 EXP (156 -> 1,770 EXP, grew from Lv 5 to Lv 11)
+- Remaining Delta to Lv 20 Gyarados: 8,230 EXP (~15 battles)
 
 ### Rigorous Candidate Decision Matrix
-1. MAGIKARP (TSUNAMI Lv 5, Box 1 Slot 7):
-   - Growth Group: Slow (EXP = 1.25 * Level^3)
-   - Starting EXP: 156 EXP (Lv 5)
-   - Target EXP: 10,000 EXP (Lv 20 Gyarados #130)
-   - Net Delta: 9,844 EXP (~18 Cerulean Cave battles) -> SELECTED (Lowest delta of all candidates!)
-2. PARAS (FUNGI Lv 10, Box 1 Slot 7):
+1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 1,000 EXP (Lv 10)
    - Target EXP: 13,824 EXP (Lv 24 Parasect #047)
    - Net Delta: 12,824 EXP (~23 battles)
-3. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
+2. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 3,375 EXP (Lv 15)
    - Target EXP: 21,952 EXP (Lv 28 Kingler #099)
    - Net Delta: 18,577 EXP (~34 battles)
-4. PSYDUCK (MIGRAINE Lv 15, Box 2):
+3. PSYDUCK (MIGRAINE Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 3,375 EXP (Lv 15)
    - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
    - Net Delta: 32,562 EXP (~59 battles)
-5. SLOWPOKE (DOPEY Lv 15, Box 2):
+4. SLOWPOKE (DOPEY Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Starting EXP: 3,375 EXP (Lv 15)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
    - Net Delta: 47,278 EXP (~86 battles)
-6. In-Game Trades:
+5. In-Game Trades:
    - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 

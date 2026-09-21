@@ -47,14 +47,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 9, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 11, Water]
   - Status: Healthy
-  - HP: 22 / 22 [Verified Lv 9 Turn 35065]
-  - Stats: Attack 7, Defense 15, Speed 21, Special 10 [Verified Lv 9 Turn 35062]
+  - HP: Healthy [Verified Lv 11 Turn 35070]
+  - Stats: Attack 8, Defense 17, Speed 25, Special 11 [Verified Lv 11 Turn 35070]
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 1232 (8,768 to Lv 20 Gyarados) [Turn 35060]
+  - EXP: 1770 (8,230 to Lv 20 Gyarados) [Turn 35071]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -66,7 +66,7 @@
   - Status: Poisoned (PSN)
   - HP: 163 / 225 [Verified Turn 35068]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
