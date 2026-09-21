@@ -84,6 +84,11 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- KOFFING (Nickname: SMOGGY) [Lv 34, Poison]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
+  - Withdrawn from PC Box 2 [Turn 33229]
+
 ## PC Box 1 PokÃ©mon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
