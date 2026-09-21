@@ -108,17 +108,17 @@
   - HP: 43 / 43 [Verified Lv 22 Turn 34390]
   - Stats: Attack 34, Defense 19, Speed 52, Special 29 [Verified Lv 22 Turn 34387]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 11581 (586 to Lv 23) [Verified Turn 34396]
+  - EXP: 12106 (61 to Lv 23) [Verified Turn 34405]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PAR
-  - HP: 209 / 234 [Verified Turn 34396]
+  - HP: 199 / 234 [Verified Turn 34405]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 432014 (15374 to Lv 71) [Turn 34396]
-  - Moves: Swift (PP 18/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 432539 (14849 to Lv 71) [Turn 34405]
+  - Moves: Swift (PP 18/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5004,11 +5004,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
-- Current Status: Level 22 (11,581 EXP, 586 to Lv 23) [Audited Turn 34396].
+- Current Status: Level 22 (12,106 EXP, 61 to Lv 23) [Audited Turn 34405].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-- Remaining Delta: 17,576 - 11,581 = 5,995 EXP (~10 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 209/234 HP, PAR).
-- Progress Summary: 7 battles completed (+3,899 EXP gained).
+- Remaining Delta: 17,576 - 12,106 = 5,470 EXP (~9 Cerulean Cave battles).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 199/234 HP, PAR).
+- Progress Summary: 8 battles completed (+4,424 EXP gained).
   - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
   - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
   - Battle 3: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 21.
@@ -5016,6 +5016,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 5: Sandslash Lv 52 (+601 EXP) -> Diglett reached 10,518 EXP.
   - Battle 6: Magneton Lv 46 (+525 EXP) -> Diglett reached Lv 22!
   - Battle 7: Hypno Lv 46 (+538 EXP) -> Diglett reached 11,581 EXP.
+  - Battle 8: Magneton Lv 46 (+525 EXP) -> Diglett reached 12,106 EXP.
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
   - Golbat Lv 46: 558 EXP
@@ -5025,16 +5026,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 6 (Turn 34379-34386): Wild Magneton Lv 46
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Thunder Wave PAR). Turn 2 Mewtwo Psychic OHKO.
-  - EXP Share: 525 EXP to Diglett -> Diglett grew to Level 22! (11,043 EXP).
 - Battle 7 (Turn 34389-34396): Wild Hypno Lv 46
   - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno Meditate). Turn 2 Mewtwo fully paralyzed; Hypno Meditate. Turn 3 Hypno Headbutt dealt 25 dmg (Mewtwo to 209 HP); Mewtwo Swift dealt ~60% dmg. Turn 4 Mewtwo Swift crit KOed Hypno.
   - EXP Share: 538 EXP to Diglett (reached 11,581 EXP, 586 to Lv 23).
-- Battle 8 (Active, Turn 34398-current): Wild Magneton Lv 46
-  - Status: Encountered on Row 15 at (21, 15).
-  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic OHKO (empirically confirmed in Battle 6).
-  - Expected EXP Share: 525 EXP for Diglett (progress to 12,106 EXP; 61 to Lv 23).
+- Battle 8 (Turn 34398-34405): Wild Magneton Lv 46
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Magneton moved). Turn 2 Mewtwo fully paralyzed; Magneton Swift dealt 10 dmg (Mewtwo to 199 HP). Turn 3 Magneton Supersonic failed; Mewtwo Psychic scored Critical hit OHKO.
+  - EXP Share: 525 EXP to Diglett (reached 12,106 EXP, 61 to Lv 23).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
