@@ -3507,7 +3507,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Southern Hall & Southeast Cul-de-sac (cols 21-29, rows 14-27)
 - Wide hallway spanning rows 14-16 (cols 12-27).
-- Shutter Door 2: Located at (20-21, 17) leading south. Confirmed CLOSED in Switch State A [Verified Turn 14121]. Solid wall at (18, 16) blocks row 16 westward [Verified Turn 14130].
+- Row 17 Doorway: Located at (20-21, 17) leading south into the B1F staircase chamber. Solid wall at (18, 16) blocks row 16 westward [Verified Turn 14130]. (Note: previous claim of shutter barrier at (20-21, 17) disproven by direct visual survey).
 - Southeast cul-de-sac: Enclosed room at columns 26-28 (rows 19-27) entered via doorway (24-25, 17). Fully surveyed Turn 14142: closed shutter door at (26-27, 27) along south wall; continuous barrier of wall at column 24 (rows 19-23) and rubble at columns 24-25 (rows 24-27) blocks all western passage to (21, 23). Dead-end with no switches or items.
 
 ## Southwest Wing (cols 1-3, rows 10-27) [Explored]
@@ -3590,7 +3590,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ponyta (Lv 28-36) [Uncommon]
 - Koffing (Lv 30-34) [Uncommon]
 - Muk (Lv 40) [Rare]
-- Note: Magmar (#126) remains unverified on 2F across 36 observed encounters (including Turn 32898 Grimer at (20, 11)); B1F survey recommended if not found here.
+
 
 <hr>
 
@@ -3732,11 +3732,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West Wing fully surveyed: B1F exploration 100% complete!
 
 ## Wild Encounters (Verified Species & Level Bands)
-- Encounter Trial Tracker (Total B1F Encounters Observed: 18):
+- Encounter Trial Tracker (Total B1F Encounters Observed: 20):
   - Muk (Lv 40): 1 encounter [Turn 33067 at (22, 26)]
-  - Ponyta (Lv 32): 2 encounters [Turn 33057 at (24, 25), Turn 33103 at (25, 25)]
+  - Ponyta (Lv 32): 3 encounters [Turn 33057 at (24, 25), Turn 33103 at (25, 25), Turn 33144 at (23, 17)]
   - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
-  - Grimer (Lv 31-33): 10 encounters [Turn 33020 Lv 33 at (25, 26), Turn 33023 Lv 33 at (25, 25), Turn 33063 Lv 33 at (22, 26), Turn 33075 Lv 33 at (22, 26), Turn 33081 Lv 31 at (25, 25), Turn 33086 Lv 33 at (23, 25), Turn 33098 Lv 31 at (21, 26), Turn 33107 Lv 33 at (27, 25), Turn 33110 Lv 33 at (27, 25), Turn 33114 Lv 31 at (21, 26)]
+  - Grimer (Lv 31-33): 11 encounters [Turn 33020 Lv 33 at (25, 26), Turn 33023 Lv 33 at (25, 25), Turn 33063 Lv 33 at (22, 26), Turn 33075 Lv 33 at (22, 26), Turn 33081 Lv 31 at (25, 25), Turn 33086 Lv 33 at (23, 25), Turn 33098 Lv 31 at (21, 26), Turn 33107 Lv 33 at (27, 25), Turn 33110 Lv 33 at (27, 25), Turn 33114 Lv 31 at (21, 26), Turn 33148 Lv 31 at (15, 23)]
   - Vulpix (Lv 33-35): 4 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25), Turn 33094 Lv 35 at (21, 26), Turn 33117 Lv 35 at (27, 25)]
 
 
