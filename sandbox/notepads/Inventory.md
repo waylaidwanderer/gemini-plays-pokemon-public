@@ -48,14 +48,14 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 16, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 17, Water]
   - Status: Healthy
-  - HP: 39 / 39
-  - Stats: Attack 22, Defense 22, Speed 37, Special 18 [Verified Lv 16 Turn 33775]
+  - HP: 41 / 41
+  - Stats: Attack 23, Defense 23, Speed 39, Special 19 [Verified Lv 17 Turn 33789]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 2636 [Turn 33775]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 9,099 EXP needed)
-  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20) [Learned Turn 33775]
+  - EXP: 3194 [Turn 33789]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 8,541 EXP needed)
+  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy

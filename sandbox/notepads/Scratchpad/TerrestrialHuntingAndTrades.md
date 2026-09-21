@@ -7,10 +7,10 @@
   - Pokédex advanced to 45 Caught / 136 Seen.
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 16, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 16 (2,636 EXP, Lv 16 reached Turn 33775). HP 39/39, Atk 22, Def 22, Spd 37, Spc 18. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20).
+- Target 1: Train Poliwag (RIPPLE Lv 17, Slot 1) to Level 25 -> Poliwhirl (#061).
+  - Status: Lv 17 (3,194 EXP, Lv 17 reached Turn 33789). HP 41/41, Atk 23, Def 23, Spd 39, Spc 19. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 2,636 = 9,099 EXP (~15 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 3,194 = 8,541 EXP (~14 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
