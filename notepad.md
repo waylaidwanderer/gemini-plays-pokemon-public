@@ -5173,12 +5173,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
-- Target: Sandshrew (PANGO Lv 15, 41/41 HP, Atk 27, Def 30, Spd 21, Spc 15, Scratch 35/35, Sand-Attack 15/15) [Verified Turn 34633]
-- Target Level: Lv 22 (Sandslash #028)
-- Target EXP: 22^3 = 10,648 EXP
-- Starting EXP (Lv 15): 3,375 EXP (721 to Lv 16) [Verified Turn 34633]
-- Total Delta: 7,273 EXP (~13-14 Cerulean Cave 1F switch battles)
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71) / Blastoise (SHELDON Lv 71)
+- Target: Sandshrew (PANGO Lv 15, 41/41 HP)
+- Target Level: Lv 22 (Sandslash #028, 10,648 EXP)
+- Current EXP: 3,933 EXP (163 to Lv 16; 6,715 to Lv 22 Sandslash) [After Golbat Lv 46 Turn 34730]
+- Battles Completed: 1 (Golbat Lv 46: +558 EXP)
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, Psychic 9/10, Swift 20/20)
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pok�dex: 48 Caught!
