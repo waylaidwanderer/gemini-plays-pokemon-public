@@ -5072,5 +5072,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - EXP Yield: 1,202 total -> Base share: 601 EXP to Diglett.
   - Diglett Progress: 9,917 + 601 = 10,518 EXP (130 to Lv 22).
   - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 7,058 EXP (~12 Cerulean Cave battles remaining).
+- Battle 6 (Turn 34379): Wild Magneton Lv 46
+  - Status: Encountered on Row 14 at (24, 14).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic OHKO (157 dmg vs ~110 HP).
+  - Expected EXP: 525 EXP for Diglett (Lv 46 Magneton yields 1,050 total / 2 = 525).
+  - Level Up Milestone: 10,518 + 525 = 11,043 EXP (> 10,648 threshold) -> DIGLETT LEVEL 22!
 
 <hr>
