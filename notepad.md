@@ -134,14 +134,6 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- MUK (Nickname: SLUDGE) [Lv 37, Poison]
-  - Status: Healthy
-  - HP: 132 / 132
-  - Stats: Attack 90, Defense 63, Speed 42, Special 53 [Verified Lv 37 Turn 32268]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 50653 (4219 to Lv 38) [Verified Turn 32269]
-  - Moves: Disable (PP 20/20), Poison Gas (PP 40/40), Minimize (PP 20/20), Sludge (PP 20/20) [Verified Turn 32269]
-  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32261]
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
@@ -281,6 +273,9 @@
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
   - Transferred to PC Box 2 (8/20)
+- MUK (Nickname: SLUDGE) [Lv 37, Poison]
+  - Status: Healthy
+  - Deposited from active party into PC Box 2 (9/20) [Turn 33226]
 
 
 <hr>
