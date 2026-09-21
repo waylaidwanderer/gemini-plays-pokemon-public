@@ -49,7 +49,7 @@
 ## Party Pokémon (Audited & Healed Turn 34261)
 - Slot 1: DIGLETT (Nickname: DIGBY) [Lv 22, Ground]
   - Status: Healthy
-  - HP: 42 / 42 [Verified Lv 22 Turn 34387]
+  - HP: 43 / 43 [Verified Lv 22 Turn 34390]
   - Stats: Attack 34, Defense 19, Speed 52, Special 29 [Verified Lv 22 Turn 34387]
   - OT: BLUE (IDNo. 04620)
   - EXP: 11043 (1124 to Lv 23) [Verified Turn 34387]
