@@ -107,8 +107,8 @@
   - HP: Full (Lv 24)
   - Stats: Attack 32, Defense 32, Speed 54, Special 26 [Verified Lv 24 Turn 34029]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 11021 [Turn 34045, +538 from Hypno Lv 46]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 714 EXP needed)
+  - EXP: 11559 [Turn 34059, +538 from Hypno Lv 46 #2]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 176 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -138,9 +138,9 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Paralyzed (PAR)
-  - HP: 111 / 225
+  - HP: 77 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
@@ -5011,9 +5011,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 24 (11,021 EXP, +538 from Hypno Lv 46 [Turn 34045]). Stats: Attack 32, Defense 32, Speed 54, Special 26. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+  - Status: Lv 24 (11,559 EXP, +538 from Hypno Lv 46 #2 [Turn 34059]). Stats: Attack 32, Defense 32, Speed 54, Special 26. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 11,021 = 714 EXP (~1 Cerulean Cave wild battle).
+  - Remaining EXP Needed: 11,735 - 11,559 = 176 EXP (1 battle to Lv 25 Poliwhirl!).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
@@ -5023,7 +5023,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 111 / 225 (Paralyzed). Moves: Surf (PP 13/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 77 / 225 (Paralyzed). Moves: Surf (PP 11/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
 - Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Paralyzed). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
 - Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
