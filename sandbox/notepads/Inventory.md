@@ -231,4 +231,46 @@
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
   - Withdrawn from PC Box 1 [Turn 33429]
 
+## Party Pokémon
+- SEEL (Nickname: SAILOR) [Lv 32, Water]
+  - Status: Healthy
+  - HP: 90 / 90
+  - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
+  - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
+  - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
+  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
+  - Withdrawn from PC Box 1 [Turn 33429], Lead slot [Turn 33440]
+- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
+  - Status: Healthy
+  - HP: 234 / 234 [Healed Turn 33286 at Cinnabar Island]
+  - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
+- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+  - Status: Healthy
+  - HP: 20 / 20
+  - Stats: Attack 12, Defense 11, Speed 11, Special 11
+  - OT: TRAINER (IDNo. 24460, Boosted EXP)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
+  - EXP: 125 (91 to Lv 6)
+- BLASTOISE (SHELDON) [Lv 70, Water]
+  - Status: Healthy
+  - HP: 222 / 222
+  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- JOLTEON (Nickname: VEE) [Lv 25, Electric]
+  - Status: Healthy
+  - HP: 68 / 68
+  - Moves: Tackle, Sand-Attack, Thunderbolt
+  - Withdrawn from PC Box 1 [Turn 31191]
+- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+  - Status: Healthy
+  - HP: 26 / 26
+  - Stats: Attack 19, Defense 22, Speed 9, Special 11
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
+  - EXP: 314 (105 to Lv 9)
+
 
