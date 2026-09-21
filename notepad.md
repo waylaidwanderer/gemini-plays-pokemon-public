@@ -103,23 +103,23 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (Audited & Healed Turn 34261)
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 20, Ground]
   - Status: Healthy
-  - HP: 38 / 38 [Verified Lv 19 Turn 34246]
-  - Stats: Attack 30, Defense 16, Speed 45, Special 26 [Verified Lv 19 Turn 34246]
+  - HP: 40 / 40 [Verified Lv 20 Turn 34299]
+  - Stats: Attack 31, Defense 17, Speed 48, Special 27 [Verified Lv 20 Turn 34299]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 7682 (318 to Lv 20) [Verified Turn 34247]
-  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 7682 + 318 = 8000 = 20^3)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34247]
-  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), EXP Delta: 9,894 EXP (~18-19 Cerulean Cave battles)
+  - EXP: 8778 (483 to Lv 21) [Verified Turn 34313]
+  - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
+  - Target: Lv 26 (17,576 EXP) -> Dugtrio (#051), Remaining Delta: 8,798 EXP (~16 Cerulean Cave battles)
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
-  - Status: Healthy
-  - HP: 234 / 234 [Fully Healed Turn 34261]
+  - Status: PSN
+  - HP: 157 / 234 [Verified Turn 34321]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 429211 (18177 to Lv 71) [Turn 34071]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34261]
+  - Moves: Swift (PP 18/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -155,10 +155,9 @@
 - Slot 8: SANDSHREW (PANGO) [Lv 15]
 - Slot 9: PARAS (FUNGI) [Lv 10]
 - Slot 10: DROWZEE (SANDMAN) [Lv 9]
-- Slot 11: [Withdrawn Turn 34238 - DIGLETT (DIGBY) Lv 19]
-- Slot 12: OMANYTE (NAUTILUS) [Lv 30]
-- Slot 13: AERODACTYL (PTERA) [Lv 30]
-- Slot 14: NIDOQUEEN (QUEENIE) [Lv 33]
+- Slot 11: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 12: AERODACTYL (PTERA) [Lv 30]
+- Slot 13: NIDOQUEEN (QUEENIE) [Lv 33]
 
 ### Detailed Stats for Box 1 Pokémon:
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
@@ -5044,21 +5043,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Sandslash Lv 52: 601 EXP
   - Projected Battle Count: ~18 - 19 battles to reach Lv 26.
 
-### Immediate Routing & Action Steps:
-1. Exit Cerulean Pokémon Center door to Cerulean City (3, 8).
-2. Walk north past Cerulean Gym to Route 24 entrance (20, 0).
-3. Walk north to Route 24 canal shore (10, 31), cast SURF from Sheldon.
-4. Surf south down canal into Cerulean City chute (col 6, row 12) to cave entrance (4, 11).
-5. Enter Cerulean Cave 1F and switch-train Diglett (Slot 1) with Mewtwo (Slot 2) to Level 26 -> Dugtrio (#051)!
-
-### Battler PP Stamina & Contingency Plan (Fully Healed Turn 34261):
-- Diglett (DIGBY Lv 19, Slot 1): HP 38 / 38 (Healthy). Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10). Lead switch-training target!
-- Mewtwo (OMEGA Lv 70, Slot 2): HP 234 / 234 (Healthy). Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20). Main sweeper!
-- Jolteon (VEE Lv 25, Slot 3): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
-- Geodude (ROCKY Lv 8, Slot 4): HP 26 / 26 (Healthy). Moves: Tackle, Rock Slide, Strength.
-- Sheldon (BLASTOISE Lv 71, Slot 5): HP 225 / 225 (Healthy, Paralysis Cured!). Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10).
-- Farfetch'd (DUX Lv 5, Slot 6): HP 20 / 20 (Healthy). Moves: Peck, Sand-Attack, Cut, Fly.
-
+### Empirical Damage Telemetry (Hypno Lv 46 vs Mewtwo Lv 70):
+- Mewtwo Swift (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
+- Mewtwo Psychic (90 BP STAB special, Spc 231 vs Hypno Spc ~115, 0.5x resisted): Base ~105 * 1.5 STAB * 0.5 resist = ~78 dmg * (0.85..1.0) = ~66-78 dmg.
+- Strategic Conclusion: Swift deals equal or superior damage against pure Psychic Hypno while preserving limited 10 PP Psychic for 4x effective targets (Golbat OHKO).
 
 ### Switch-Training Battle Log (Cerulean Cave 1F):
 - Battle 1 (Turn 34285-34292): Wild Hypno Lv 46
