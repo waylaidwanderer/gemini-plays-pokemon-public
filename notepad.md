@@ -111,7 +111,7 @@
   - Stats: Attack 32, Defense 23, Speed 15, Special 27 [Verified Lv 16 Turn 35618]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4286 (Target 13,824 for Lv 24 Parasect #047, remaining 9,538) [Verified Turn 35618]
+  - EXP: 4811 (Target 13,824 for Lv 24 Parasect #047, remaining 9,013) [Verified Turn 35618]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -131,7 +131,7 @@
   - HP: 119 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -4984,6 +4984,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 4 [Turn 35592]: Wild Venomoth Lv 49. Switched Paras -> Mewtwo. Mewtwo used Psychic (Critical OHKO). Total EXP 966. Paras gained 483 EXP -> grew to Lv 14! (EXP: 3160 / 13824, remaining: 10664). Stats at Lv 14: Atk 28, Def 21, Spd 14, Spc 24. Mewtwo HP: 170/243 (PSN), Psychic PP: 7/10.
 - Battle 5 [Turn 35603]: Wild Magneton Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic (Critical OHKO). Total EXP 1050. Paras gained 525 EXP -> grew to Lv 15! (EXP: 3685 / 13824, remaining: 10139). Stats at Lv 15: Atk 30, Def 22, Spd 15, Spc 25. Mewtwo HP: 144/243 (PSN), Psychic PP: 6/10.
 - Battle 6 [Turn 35617]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 16! (EXP: 4286 / 13824, remaining: 9538). Stats at Lv 16: Atk 32, Def 23, Spd 15, Spc 27. Blastoise HP: 173/225, Surf PP: 13/15.
+- Battle 7 [Turn 35628]: Wild Magneton Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic (OHKO). Total EXP 1050. Paras gained 525 EXP (EXP: 4811 / 13824, remaining: 9013, 102 EXP to Lv 17). Mewtwo HP: 119/243 (PSN), Psychic PP: 5/10.
 
 
 <hr>
