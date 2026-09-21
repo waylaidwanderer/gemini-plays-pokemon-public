@@ -128,7 +128,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 204 / 243 [Turn 35579] [Turn 35564]
+  - HP: 204 / 243 [Turn 35579]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -347,11 +347,11 @@
 - **Empirically Verified Battle EXP Calculations:**
   - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native), boosted = `787` (traded).
   - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558` (native), boosted = `837` (traded).
-  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native), boosted = `807` (traded).
+  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native), boosted = `807` (traded) [Empirically verified Turn 35570].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native), boosted = `756` (traded).
   - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
   - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
-  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native).
+  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native) [Empirically verified Turn 35552].
   - Parasect Lv 52: Total EXP 950. 2 participants -> Base share `s_EXP = 475` (native) [Empirically verified Turn 35207].
   - Venomoth Lv 49: Total EXP 966. 3 participants -> Base share `s_EXP = floor(966 / 3) = 322` [Empirically verified Turn 33856].
   - Venomoth Lv 49: Total EXP 966. 2 participants -> Base share `s_EXP = 483` (native) [Empirically verified Turn 35362].
@@ -1578,6 +1578,7 @@
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 - **Direct Surf from Bicycle:** In retail Pokémon Blue, the player can initiate the field move SURF directly from the party menu while mounted on the Bicycle. The game does not prompt or require manual dismounting beforehand; executing SURF transitions the player directly into the Surfing state. [Empirically confirmed Turns 13644-13645]
 - **East Shoreline Launch:** Surfing can be initiated facing west into an eastern shoreline tile (empirically confirmed Turn 13645 at Pallet Town (8, 15) facing (7, 15)).
+- **Overworld Surf Zero PP Consumption:** In retail Pokémon Blue, surfing in the overworld does not consume move PP (empirically confirmed Turn 34016).
 
 ## HM04 STRENGTH Mechanics (Generation 1 Retail)
 - **Badge Requirement:** Rainbowbadge (Erika) - earned Turn 6800.
