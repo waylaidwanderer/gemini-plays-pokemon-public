@@ -104,14 +104,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 19, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 20, Water]
   - Status: Healthy
-  - HP: 38 / 38 [Verified Lv 19 Turn 35322]
-  - Stats: Attack 11, Defense 27, Speed 41, Special 16 [Verified Lv 19 Turn 35309]
+  - Stats: Attack 12, Defense 29, Speed 43, Special 17 [Verified Lv 20 Turn 35363]
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 9855 (145 to Lv 20 Gyarados) [Verified Turn 35344, Level 19]
+  - EXP: 10338 (Level 20 - Evolving to Gyarados #130!) [Verified Turn 35363]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -136,7 +135,7 @@
   - HP: 231 / 243 [Turn 35358]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5025,13 +5024,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Evolve Magikarp (TSUNAMI) into Gyarados (#130)
-- Target: Level 20 (10,000 EXP, Pokédex #130)
-- Current EXP: 9,855 EXP (Lv 19, Remaining Delta: 145 EXP, FINAL BATTLE!)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 138/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35344]
+- Target: Level 20 (10,000 EXP, Pokédex #130) - ACHIEVED!
+- Current EXP: 10,338 EXP (Lv 20 - EVOLVING INTO GYARADOS #130!)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 132/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, Healthy, Swift 20/20, Psychic 8/10) [Turn 35363]
 
 ### Switch-Training Session Progress:
-- Completed Battles: 18 Battles Won (6 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 3 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
-- Total Session EXP Gained: +9,699 EXP (from base 156 EXP)
+- Completed Battles: 19 Battles Won (6 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 3 Sandslash Lv 52, 2 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
+- Total Session EXP Gained: +10,182 EXP (from base 156 EXP)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -5047,8 +5046,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP.
-- Magikarp (TSUNAMI Lv 19, 9,855 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 145 EXP.
-- Exact projected battles remaining: **1 battle** (ANY Cerulean Cave wild encounter yields >= 227 EXP).
+- Magikarp (TSUNAMI Lv 20, 10,338 EXP): TARGET REACHED! Evolving into Gyarados (#130)!
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
