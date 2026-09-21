@@ -101,7 +101,7 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 4941 (972 to Lv 18; 5,707 to Lv 22 Sandslash) [After Magneton Lv 46 Turn 34775]
-  - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Poison Sting (PP 35/35)
+  - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
