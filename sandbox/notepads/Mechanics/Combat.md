@@ -22,11 +22,13 @@
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
 ## Experience Distribution & Traded Pokémon Boost
-- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all participants who did not faint during the battle.
-- **Traded Pokémon Boost (OT Multiplier):** Traded Pokémon (different Original Trainer / ID) receive a 1.5x multiplier (boosted EXP) on their earned share.
-- **Empirical EXP Verification (Cerulean Cave 1F Wild Battles):**
-  - Turn 33501: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Total EXP ~1,049 split 2 ways (524 base each). Sailor earned 787 boosted EXP (524 * 1.5 = 786). Omega earned 525 EXP.
-  - Turn 33519: Wild Lv 46 Golbat defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,116 split 2 ways (558 base each). Sailor earned 837 boosted EXP (558 * 1.5 = 837). Sheldon earned 558 EXP.
-  - Turn 33530: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Sailor earned 787 boosted EXP. Omega earned 525 EXP.
-  - Turn 33579: Wild Lv 46 Hypno defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,076 split 2 ways (538 base each). Sailor earned 807 boosted EXP. Sheldon earned 538 EXP.
-  - Turn 33589: Wild Lv 49 Kadabra defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,008 split 2 ways (504 base each). Sailor earned 756 boosted EXP. Sheldon earned 504 EXP.
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
+  - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
+    `boosted_EXP = s_EXP + floor(s_EXP / 2)`
+  - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
+- **Empirically Verified Battle EXP Calculations:**
+  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525`. Boosted yield = `525 + 262 = 787` [Turns 33501, 33530].
+  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558`. Boosted yield = `558 + 279 = 837` [Turn 33519].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538`. Boosted yield = `538 + 269 = 807` [Turn 33579].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504`. Boosted yield = `504 + 252 = 756` [Turns 33589, 33601].

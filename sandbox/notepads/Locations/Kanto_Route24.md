@@ -20,7 +20,7 @@
 - Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+).
 - Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
-- Item Ball at (10, 5): Pok¥ Ball item visible on western elevated plateau north of row 7 ridge.
+- Item Ball at (10, 5): Poké Ball item visible on western elevated plateau north of row 7 ridge.
 
 ## Western Canal & Water Access (Verified Turn 33478)
 - Western Canal Shoreline: Located at (8, 15) on grass, directly adjacent to water shoreline at (8, 16).

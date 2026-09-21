@@ -56,7 +56,6 @@
   - EXP: 36742 (2562 to Lv 34) [Verified Turn 33589]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
-  - Withdrawn from PC Box 1 [Turn 33429]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 141 / 222 [Turn 33579]
@@ -81,7 +80,6 @@
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-  - Withdrawn from PC Box 1 [Turn 31191]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -93,7 +91,6 @@
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
-  - Deposited: Celadon PC Box 1 (19/20) [Turn 31675]
 - PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy
   - HP: 42 / 42
@@ -102,7 +99,6 @@
   - EXP: 3375 (721 to Lv 16) [Verified Turn 31565]
   - Moves: Scratch (PP 35/35) [Verified Turn 31565]
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
-  - Deposited: Cerulean PC Box 1 (18/20) [Turn 31576]
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
@@ -113,7 +109,6 @@
   - Stats: Attack 32, Defense 59, Speed 37, Special 50
   - OT: TRAINER (IDNo. 37480, Boosted EXP)
   - Moves: Constrict (PP 35/35), Bind (PP 20/20)
-  - Deposited Cinnabar PC Box 1 [Turn 31307]
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
@@ -137,13 +132,11 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
-  - Deposited to PC Box 1 [Turn 30640]
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
   - HP: 38 / 38
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - Caught: Diglett's Cave [Turn 3507]
-  - Deposited to PC Box 1 [Turn 30645]
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]
@@ -174,7 +167,6 @@
   - Transferred to PC Box 1 (Active Party full)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
-  - Deposited from active party [Turn 13315]
 
 ## PC Box 2 Pokémon
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
@@ -192,7 +184,6 @@
   - OT: DONA (IDNo. 19854, Boosted EXP)
   - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
   - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
-  - Deposited: Celadon PC Box 2 (3/20) [Turn 32128]
 - ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
   - Status: Healthy
   - HP: 17 / 17
@@ -201,7 +192,6 @@
   - EXP: 27 (37 to Lv 4) [Verified Turn 32225]
   - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
-  - Deposited: Cinnabar PC Box 2 (4/20) [Turn 32238]
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
@@ -212,7 +202,6 @@
   - Transferred to PC Box 2 (8/20)
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
-  - Deposited from active party into PC Box 2 (9/20) [Turn 33226]
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
   - Status: Healthy
   - HP: 102 / 102
@@ -220,7 +209,6 @@
   - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
-  - Deposited: Cinnabar PC Box 2 (10/20) [Turn 33294]
 - NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
   - HP: 95 / 95
@@ -229,4 +217,3 @@
   - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
   - OT: BLUE (IDNo. 04620)
   - Evolved from Vulpix via Fire Stone [Turn 33357]
-  - Deposited: Celadon PC Box 2 (11/20) [Turn 33408]
