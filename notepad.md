@@ -64,9 +64,10 @@
 6. HM02 [Key Item]
 7. MAX POTION x 1
 8. TM35 (METRONOME) x 1
+9. CARBOS x 1
 
 ## Inventory Capacity
-- Active Bag Items: 8 / 20 capacity used.
+- Active Bag Items: 9 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC)
@@ -76,7 +77,6 @@
 - SECRET KEY x1 (PC)
 - TM22 (SOLARBEAM) x1 (PC)
 - TM14 (BLIZZARD) x1 (PC)
-- CARBOS x1 (PC)
 - ESCAPE ROPE x1 (PC)
 - HM01 (CUT) x1 (PC)
 - TM46 (PSYWAVE) x1 (PC)
