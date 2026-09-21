@@ -104,7 +104,7 @@
 ## Party Pokémon
 - POLIWAG (Nickname: RIPPLE) [Lv 21, Water]
   - Status: Healthy
-  - HP: Full (Lv 21)
+  - HP: 49 / 49 [Verified Lv 21 Turn 33911]
   - Stats: Attack 28, Defense 28, Speed 48, Special 23 [Verified Lv 21 Turn 33906]
   - OT: BLUE (IDNo. 04620)
   - EXP: 6480 [Turn 33906]
