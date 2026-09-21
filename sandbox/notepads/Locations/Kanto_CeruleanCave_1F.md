@@ -42,7 +42,7 @@
 - Southwest Lower Corridor: Lower-level corridor accessed via Staircase (17, 15) to landing (17, 16). (17, 17) is rock wall; corridor steps west through (16..15, 16) into Row 17. (14..11, 16) is rock wall bounding Row 17 on the north. Row 17 runs west to Column 2 at (2, 17); (1, 17) is solid rock. From (2, 17), turn north up Column 2 through (2, 16..14). (2, 13) is solid rock. Path to Staircase (1, 13) steps West to (1, 14) and North onto Staircase (1, 13), ascending to the western elevated terrace. [Physically verified Turn 26725, 27127]
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
 
-## Wild Pok�mon (Empirically Verified)
+## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]

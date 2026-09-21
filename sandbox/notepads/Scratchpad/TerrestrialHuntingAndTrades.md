@@ -59,11 +59,5 @@
   - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton, Hypno, Raichu): Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep with STAB Psychic / Swift.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
-## Future Strategic Horizons & Candidates
-- Additional Level Evolutions in PC:
-  - Paras (FUNGI Lv 10, Box 1 Slot 7) -> Parasect (#047) at Lv 24.
-  - Krabby (PINCHY Lv 15, Box 1 Slot 1) -> Kingler (#099) at Lv 28.
-  - Psyduck (MIGRAINE Lv 15, Box 2) -> Golduck (#055) at Lv 33.
-  - Slowpoke (DOPEY Lv 15, Box 2) -> Slowbro (#080) at Lv 37.
 - Stone Evolutions:
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
