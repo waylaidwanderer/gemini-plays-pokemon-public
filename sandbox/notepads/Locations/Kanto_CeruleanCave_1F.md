@@ -50,5 +50,5 @@
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276; base EXP ~1076, yields 807 boosted EXP in 2-way split, Turn 33579]
-- Kadabra: Lv 49 [Encountered 1F Turn 27129]
+- Kadabra: Lv 49 [Encountered 1F Turn 27129; base EXP ~1008, yields 756 boosted EXP in 2-way split, Turn 33589]
 - Parasect: Lv 52 [Encountered 1F Turn 27400]

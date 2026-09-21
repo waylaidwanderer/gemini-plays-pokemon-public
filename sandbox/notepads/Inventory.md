@@ -53,7 +53,7 @@
   - HP: 93 / 93 [Verified Lv 33 Turn 33583]
   - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 35986 (3318 to Lv 34) [Verified Turn 33579]
+  - EXP: 36742 (2562 to Lv 34) [Verified Turn 33589]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
   - Withdrawn from PC Box 1 [Turn 33429]
@@ -61,7 +61,7 @@
   - Status: Healthy
   - HP: 141 / 222 [Turn 33579]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 13/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20

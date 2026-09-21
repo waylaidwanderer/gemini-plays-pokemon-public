@@ -29,3 +29,4 @@
   - Turn 33519: Wild Lv 46 Golbat defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,116 split 2 ways (558 base each). Sailor earned 837 boosted EXP (558 * 1.5 = 837). Sheldon earned 558 EXP.
   - Turn 33530: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Sailor earned 787 boosted EXP. Omega earned 525 EXP.
   - Turn 33579: Wild Lv 46 Hypno defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,076 split 2 ways (538 base each). Sailor earned 807 boosted EXP. Sheldon earned 538 EXP.
+  - Turn 33589: Wild Lv 49 Kadabra defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,008 split 2 ways (504 base each). Sailor earned 756 boosted EXP. Sheldon earned 504 EXP.

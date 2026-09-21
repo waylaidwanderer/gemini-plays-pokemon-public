@@ -10,8 +10,8 @@
 - Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 141/222 HP, Ice Beam 10/10, Surf 15/15).
 - Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
 - Evolves at Lv 34 (only 1 level remaining, boosted EXP!).
-- Current EXP: 35,986 EXP [Verified Turn 33579].
-- EXP to Lv 34: 3,318 EXP (~4 battles).
+- Current EXP: 36,742 EXP [Verified Turn 33589].
+- EXP to Lv 34: 2,562 EXP (~3 battles).
 - Strategy:
   1. Patrol row 14 for wild encounters in Cerulean Cave 1F.
   2. Switch to Sheldon on turn 1 (or Omega against Electric types).
