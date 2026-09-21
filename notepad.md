@@ -105,14 +105,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 12, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 13, Bug/Grass]
   - Status: Healthy
-  - HP: 33 / 33 [Verified Lv 12 Turn 35571]
-  - Stats: Attack 25, Defense 18, Speed 12, Special 21 [Verified Lv 12 Turn 35571]
+  - HP: 35 / 35 [Verified Lv 13 Turn 35585]
+  - Stats: Attack 26, Defense 20, Speed 13, Special 22 [Verified Lv 13 Turn 35585]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 2139 (Target 13,824 for Lv 24 Parasect #047, remaining 11,685) [Verified Turn 35571]
-  - Moves: Scratch (PP 35/35) [Verified Turn 35442]
+  - EXP: 2677 (Target 13,824 for Lv 24 Parasect #047, remaining 11,147) [Verified Turn 35585]
+  - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
@@ -5093,5 +5093,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Battle Log:
 - Battle 1 [Turn 35552]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 11! (EXP: 1601 / 13824, remaining: 12223). Stats at Lv 11: Atk 23, Def 17, Spd 12, Spc 19. Blastoise HP: 188/225, Surf PP: 14/15.
 - Battle 2 [Turn 35570]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Swift + Psychic (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 12! (EXP: 2139 / 13824, remaining: 11685). Mewtwo HP: 231/243 (PSN), Psychic PP: 9/10, Swift PP: 19/20.
+- Battle 3 [Turn 35585]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic x2 (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 13! (EXP: 2677 / 13824, remaining: 11147). Learned Stun Spore. Stats at Lv 13: Atk 26, Def 20, Spd 13, Spc 22. Mewtwo HP: 189/243 (PSN), Psychic PP: 8/10.
+
 
 <hr>
