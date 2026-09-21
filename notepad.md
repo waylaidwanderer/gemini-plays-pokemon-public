@@ -109,7 +109,7 @@
   - OT: BLUE (IDNo. 04620)
   - EXP: 10008 [Turn 34016]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 1,727 EXP needed)
-  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
+  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
@@ -137,7 +137,7 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
-  - Status: Healthy
+  - Status: Paralyzed (PAR)
   - HP: 160 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 10/10)
@@ -1573,8 +1573,8 @@
 - **Cerulean Gym Pool Fishing Permitted:** In retail Generation 1 Pokémon Blue, the Super Rod can be successfully cast into the Cerulean Gym pool water tiles (from pier edge (4, 9) facing West into (3, 9)), generating wild encounter rolls [Empirically verified Turn 31481]. General indoor water fishing across other buildings remains unverified.
 
 
-## Overworld Field Move PP Retention [Empirically Verified Turn 34016]
-- Overworld SURF Field Execution: Executing SURF from the party Pokémon menu in the overworld does NOT consume move PP. Empirically confirmed Turn 34016: Sheldon's Surf displayed 15/15 PP in battle after navigating the Cerulean City canal via overworld Surf.
+## Overworld SURF PP Retention [Empirically Verified Turn 34016]
+- Overworld SURF Field Execution: Executing SURF from the party Pokémon menu in the overworld does NOT consume move PP. Empirically confirmed Turn 34016: Sheldon's Surf displayed 15/15 PP in battle after navigating the Cerulean City canal via overworld Surf. (Note: Other field moves such as Cut, Flash, Strength, and Dig remain empirically untested for overworld PP retention).
 
 <hr>
 
@@ -5023,8 +5023,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 160 / 225 (Healthy, Paralysis Cured!). Moves: Surf (PP 14/15), Ice Beam (PP 10/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
-- Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Healthy, Paralysis Cured!). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 160 / 225 (Paralyzed). Moves: Surf (PP 14/15), Ice Beam (PP 10/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
+- Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Paralyzed). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
 - Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
 
