@@ -37,7 +37,7 @@
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
 - Mewtwo Psychic vs Hypno Lv 46 (90 BP STAB special, Spc 231 vs Hypno Spc ~115, 0.5x resisted): Base ~105 * 1.5 STAB * 0.5 resist = ~78 dmg * (0.85..1.0) = ~66-78 dmg.
-- Strategic Finding: Swift deals equal or superior damage against pure Psychic Hypno while preserving limited 10 PP Psychic for 4x effective targets (Golbat OHKO).
+- Strategic Finding: Swift deals equal or superior damage against pure Psychic Hypno while preserving limited 10 PP Psychic for 2x super-effective targets (Golbat OHKO).
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
