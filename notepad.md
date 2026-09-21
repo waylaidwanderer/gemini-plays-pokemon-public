@@ -5027,7 +5027,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Evolve Paras (FUNGI) into Parasect (#047)
 - Target: Level 24 (13,824 EXP, Pok�dex #047)
-- Planned Starting State: Box 1 (Verify exact Lv, EXP, HP, and stats upon withdrawal)
+- Verified Starting State: Lv 10, HP 29/29, Atk 21, Def 16, Spd 11, Spc 18, EXP 1000, Move: Scratch (PP 35/35) [Turn 35442]
 - Switch Sweepers: Blastoise (SHELDON Lv 71) / Mewtwo (OMEGA Lv 71)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
