@@ -102,14 +102,14 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 16, Water]
   - Status: Healthy
-  - HP: 37 / 37
-  - Stats: Attack 21, Defense 21, Speed 35, Special 17 [Verified Lv 15 Turn 33759]
+  - HP: 39 / 39
+  - Stats: Attack 22, Defense 22, Speed 37, Special 18 [Verified Lv 16 Turn 33775]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 2035 (500 to Lv 16) [Verified Turn 33759]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 9,700 EXP needed)
-  - Moves: Bubble (PP 30/30) [Verified Turn 33759]
+  - EXP: 2636 [Turn 33775]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 9,099 EXP needed)
+  - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20) [Learned Turn 33775]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
@@ -5009,10 +5009,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Pokédex advanced to 45 Caught / 136 Seen.
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 15, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Baseline: Lv 15 (2,035 EXP, 500 to Lv 16). HP 37/37, Atk 21, Def 21, Spd 35, Spc 17. Moves: Bubble (PP 30/30).
+- Target 1: Train Poliwag (RIPPLE Lv 16, Slot 1) to Level 25 -> Poliwhirl (#061).
+  - Status: Lv 16 (2,636 EXP, Lv 16 reached Turn 33775). HP 39/39, Atk 22, Def 22, Spd 37, Spc 18. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Total EXP Needed: 11,735 - 2,035 = 9,700 EXP (~18 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 2,636 = 9,099 EXP (~15 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
