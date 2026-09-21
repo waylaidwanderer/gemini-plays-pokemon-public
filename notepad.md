@@ -2105,7 +2105,8 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 Massive multi-story department store (largest shop in Kanto) located in northwestern Celadon City at rows 7..13, cols 8..13. Front entrance door at (10, 13) with 'MART' sign at (12, 13).
 
 ## 1F: Service Counter
-- Entrance Mat: Cols 16..17, Row 7. Exits south to Celadon City at (10, 13).
+- Front Entrance Mat: Cols 16..17, Row 7. Exits south to Celadon City front entrance at (10, 13).
+- West Entrance Mat: Cols 2..3, Row 7. Exits south to Celadon City side door at (8, 13) [Empirically verified Turn 34183].
 - Service Counter: Rows 1..2, Cols 16..17 (houses registers/equipment).
 - Floor Sign: Located at (14, 1) on north wall. Text confirmed: "1F: SERVICE COUNTER" [Turn 5502].
 - Stairs to 2F: Classic escalator/staircase at (12, 1).
@@ -5012,14 +5013,36 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-
-## Active Goal: Complete Next Dex Milestones (Pokédex: 47 Caught / 136 Seen)
+## Active Goal: Complete Next Dex Milestones (Pok�dex: 47 Caught / 136 Seen)
 - [x] Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061) [ACHIEVED Turn 34072!].
-- [x] Target 2: Liquidate CARBOS x1 for ¥4,900, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062) [ACHIEVED Turn 34159!].
+- [x] Target 2: Liquidate CARBOS x1 for �4,900, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062) [ACHIEVED Turn 34159!].
   - Status: Poliwrath Lv 25 (Water/Fighting). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
-  - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught: Poliwhirl #061, Poliwrath #062).
+  - Net Gain: +2 Pok�dex Caught entries (45 -> 47 Caught: Poliwhirl #061, Poliwrath #062).
+- [ ] Target 3: Train Diglett (DIGBY Lv 19, in PC Box 1) to Level 26 -> Dugtrio (#051).
+  - Growth Rate: Medium Fast (EXP = Level^3).
+  - Starting EXP (Lv 19): 19^3 = 6,859 EXP.
+  - Target EXP (Lv 26): 26^3 = 17,576 EXP.
+  - Required EXP Delta: 17,576 - 6,859 = 10,717 EXP.
+  - EXP Yield per Wild Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
+    - Magneton Lv 46: 525 EXP
+    - Golbat Lv 46: 558 EXP
+    - Hypno Lv 46: 538 EXP
+    - Kadabra Lv 49: 504 EXP
+    - Raichu Lv 53: 461 EXP
+    - Sandslash Lv 52: 601 EXP
+  - Projected Battle Count: ~19 - 21 battles to reach Lv 26.
 
 ### Immediate Routing & Action Steps:
+1. At Cerulean Pok�mon Center PC (12, 4):
+   - Step Right to (13, 4), face North (Up) at PC monitor (13, 3), press A to access PC.
+   - Bill's PC -> DEPOSIT PKMN -> Deposit Poliwrath (RIPPLE Lv 25) into Box 2.
+   - Bill's PC -> CHANGE BOX -> Switch active box to BOX 1 (confirm save prompt).
+   - Bill's PC -> WITHDRAW PKMN -> Withdraw Diglett (DIGBY Lv 19) into Party.
+   - Bill's PC -> LOG OFF.
+2. Heal party at Nurse Joy counter (restore HP/PP and cure Sheldon's paralysis).
+3. Switch Diglett to Party Slot 1.
+4. Exit Pok�mon Center, walk north through Route 24 canal, Surf to Cerulean Cave 1F.
+5. Switch-train Diglett with Mewtwo to Level 26 -> Evolve into Dugtrio (#051)!
 
 ### Battler PP Stamina & Contingency Plan:
 - Poliwrath (RIPPLE Lv 25, Slot 1): HP 70 / 70 (Healthy, Water/Fighting). Stats: Atk 33, Def 33, Spd 57, Spc 27. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10). Evolved Turn 34159 via Water Stone!
@@ -5028,11 +5051,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
 - Geodude (ROCKY Lv 8, Slot 5): HP 26 / 26. Moves: Tackle, Rock Slide, Strength.
 - Sheldon (BLASTOISE Lv 71, Slot 6): HP 77 / 225 (Paralyzed). Moves: Surf (PP 11/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
-
-### Financial Liquidation Budget:
-- Current Wallet: ¥3056 [Turn 34152]. Water Stone purchased!
-- Stone Cost: Water Stone = ¥2,100.
-    - Vendor: Celadon Department Store 4F Clerk.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
@@ -5047,7 +5065,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Slowpoke (DOPEY Lv 15) -> Slowbro (#080) at Lv 37.
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
-  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (�2,100 each).
   - Liquidate Carbos to fund stones & Ultra Balls.
 
 
