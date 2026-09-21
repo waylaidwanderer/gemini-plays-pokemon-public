@@ -119,7 +119,7 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 85 / 234
+  - HP: 74 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
