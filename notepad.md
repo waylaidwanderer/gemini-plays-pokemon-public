@@ -116,9 +116,9 @@
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 225 / 225 [Fully Healed Turn 35703]
+  - HP: 82 / 225 [Verified Turn 35722]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 14/15), Surf (PP 10/15), Ice Beam (PP 8/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -127,11 +127,11 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Healthy
-  - HP: 243 / 243 [Fully Healed & Cured Turn 35703]
+  - Status: Poisoned (PSN)
+  - HP: 25 / 243 [Verified Turn 35722]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -4978,6 +4978,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Input Buffering Caution: Rapidly buffering consecutive 'A' presses across menu transitions can trigger unintentional move selections (e.g., Slot 1 Double-Edge). Chunk inputs cleanly with 'B' or pauses to verify menu states.
 
 ### Battle Log (Expeditions 1-14 Aggregated Summary):
+- Pit-Stop Correction [Turn 35722]: Empirical inspection of Mewtwo stats screen revealed party was NOT healed on Turn 35705 because 'B' button cancelled the HEAL/CANCEL prompt. Mewtwo currently at 25/243 HP (PSN), Blastoise at 82/225 HP. Returning to Cerulean Pokémon Center to properly execute the heal with 'A' confirmation.
 - Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
   - Starting State: Paras Lv 10 (1,000 EXP).
   - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
