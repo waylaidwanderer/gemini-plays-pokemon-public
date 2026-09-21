@@ -53,7 +53,7 @@
   - Stats: Attack 35, Defense 26, Speed 17, Special 30 [Verified Lv 18 Turn 35647]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 6314 (Target 13,824 for Lv 24 Parasect #047, remaining 7,510, 545 to Lv 19) [Verified Turn 35654]
+  - EXP: 6852 (Target 13,824 for Lv 24 Parasect #047, remaining 6,972, 7 to Lv 19) [Verified Turn 35662]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
