@@ -2,13 +2,13 @@
 
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 6,577 EXP (Lv 17, Delta to Gyarados: 3,423 EXP, ~6-7 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 66/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 71/243, Healthy, Swift 18/20, Psychic 2/10)
+- Current EXP: 7,653 EXP (Lv 18, Delta to Gyarados: 2,347 EXP, ~4-5 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 66/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 11/243, Healthy, Swift 18/20, Psychic 1/10)
 
 ### Switch-Training Progress:
-- Completed Battles: 13 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 3 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53, 1 Wild Parasect Lv 52)
-- EXP Gained: +6,896 EXP (156 -> 7,052 EXP, Lv 17, 238 to Lv 18)
-- Remaining Delta to Lv 20 Gyarados: 3,423 EXP (~6-7 battles)
+- Completed Battles: 14 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 3 Wild Golbat Lv 46, 2 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53, 1 Wild Parasect Lv 52)
+- EXP Gained: +7,497 EXP (156 -> 7,653 EXP, Lv 18, 920 to Lv 19)
+- Remaining Delta to Lv 20 Gyarados: 2,347 EXP (~4-5 battles)
 
 ### Empirical Cerulean Cave 1F Switch-Training EXP Yield Table (2 Participants)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -56,7 +56,7 @@
 - Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
 - Switch Target Choice:
   - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 225/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
-  - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 71/243) can safely sweep.
+  - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton): Blastoise or Mewtwo (OMEGA Lv 71, HP 11/243) can safely sweep.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
 ## Future Strategic Horizons & Candidates

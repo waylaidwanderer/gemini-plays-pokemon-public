@@ -47,14 +47,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 17, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 18, Water]
   - Status: Healthy
   - HP: 34 / 34 [Verified Lv 17 Turn 35189]
   - Stats: Attack 10, Defense 25, Speed 37, Special 15 [Verified Lv 17 Turn 35186]
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 7052 (238 to Lv 18, 2,948 to Lv 20 Gyarados) [Turn 35207] [Turn 35184]
+  - EXP: 7653 (920 to Lv 19, 2,347 to Lv 20 Gyarados) [Turn 35215] [Turn 35207] [Turn 35184]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -79,7 +79,7 @@
   - HP: 11 / 243 [Verified Turn 35213]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 17/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
