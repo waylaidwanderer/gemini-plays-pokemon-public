@@ -1,9 +1,12 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Withdraw & Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
+## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 156 EXP (Delta to Gyarados: 9,844 EXP, ~18 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Surf 15/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
+- Current EXP: 694 EXP (Lv 8, Delta to Gyarados: 9,306 EXP, ~17 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Surf 14/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
+
+### Battle Log:
+- Battle 1 [Turn 35048]: Wild Hypno Lv 46. Lead TSUNAMI -> switch to SHELDON -> Surf OHKO (Crit). TSUNAMI earned 538 EXP (156 -> 694 EXP, grew to Lv 8!). Sheldon Surf PP: 14/15.
 
 ### Rigorous Candidate Decision Matrix
 1. MAGIKARP (TSUNAMI Lv 5, Box 1 Slot 7):
