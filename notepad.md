@@ -153,7 +153,7 @@
 
 ## Party Pokémon
 - Slot 1: SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
-  - Status: Healthy [Withdrawn Turn 34616, Moved to Lead Slot Turn 34638]
+  - Status: Healthy
   - HP: 41 / 41 [Verified Lv 15 Turn 34631]
   - Stats: Attack 27, Defense 30, Speed 21, Special 15 [Verified Lv 15 Turn 34631]
   - OT: BLUE (IDNo. 04620)
@@ -207,7 +207,6 @@
 
 - Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
 
-- Slot 8: [WITHDRAWN Turn 34616]
 
 - Slot 9: PARAS (FUNGI) [Lv 10]
 
@@ -5189,7 +5188,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
 - Additional Level Evolutions in PC:
-  - Sandshrew (PANGO Lv 15) -> Sandslash (#028) at Lv 22 (ACTIVE).
   - Krabby (PINCHY Lv 15) -> Kingler (#099) at Lv 28.
   - Paras (FUNGI Lv 10) -> Parasect (#047) at Lv 24.
   - Psyduck (MIGRAINE Lv 15) -> Golduck (#055) at Lv 33.
