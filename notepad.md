@@ -61,7 +61,7 @@
 8. GUARD SPEC. x 1
 9. MAX POTION x 1
 10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-11. RARE CANDY x 3 [Withdrawn from PC Turn 33252]
+11. RARE CANDY x 2 [Withdrawn from PC Turn 33252]
 
 
 ## Inventory Capacity
@@ -133,10 +133,10 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- KOFFING (Nickname: SMOGGY) [Lv 36, Poison]
+- KOFFING (Nickname: SMOGGY) [Lv 37, Poison]
   - Status: Healthy
-  - HP: 95 / 95
-  - Stats: Attack 75, Defense 97, Speed 51, Special 71 [Verified Lv 36 Turn 33260]
+  - HP: 98 / 98
+  - Stats: Attack 77, Defense 100, Speed 52, Special 73 [Verified Lv 37 Turn 33264]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Leveled to Lv 35 via Rare Candy [Turn 33240]
 
@@ -4997,13 +4997,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Koffing (SMOGGY) tested:
   - Lv 35: did NOT evolve [Turn 33240]
   - Lv 36: did NOT evolve [Turn 33260] (Stats at Lv 36: HP 95, Atk 75, Def 97, Spd 51, Spc 71)
-- Evolution level is > 36 (testing Lv 37, 38, or 40).
-- Remaining in Bag: RARE CANDY x 3 [Turn 33261].
+  - Lv 37: did NOT evolve [Turn 33264] (Stats at Lv 37: HP 98, Atk 77, Def 100, Spd 52, Spc 73)
+- Evolution level is >= 38 (testing Lv 38, matching Grimer -> Muk threshold).
+- Remaining in Bag: RARE CANDY x 2 [Turn 33265].
 - Strategy:
-  1. USE RARE CANDY on Koffing (SMOGGY) to reach Lv 37.
+  1. USE RARE CANDY on Koffing (SMOGGY) to reach Lv 38.
   2. Test for evolution into Weezing (#110).
-  3. If not evolved, use next Candy to reach Lv 38.
-  4. Register Weezing in Pokédex.
+  3. Register Weezing in Pokédex.
 
 
 <hr>
