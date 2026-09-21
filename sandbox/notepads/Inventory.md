@@ -53,7 +53,7 @@
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
+  - HP: 234 / 234 [Healed Turn 33286 at Cinnabar Island]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
@@ -214,9 +214,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
   - Transferred to PC Box 2 (5/20)
-- KOFFING (Nickname: SMOGGY) [Lv 34, Poison]
-  - Status: Healthy
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Transferred to PC Box 2 (6/20)
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy

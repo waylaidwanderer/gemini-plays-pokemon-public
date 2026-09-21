@@ -18,8 +18,8 @@
 - Vulpix (KITSUNE, Lv 33) is in active party!
 - Bag holds high-value items (Max Elixer ¥2,250, PP Up ¥4,900) to fund Fire Stone purchase (¥2,100).
 - Plan:
-  1. Exit Cinnabar Pokémon Center to outdoor exterior.
-  2. Use HM02 FLY with Farfetch'd (DUX) to fly to Celadon City.
-  3. Enter Celadon Department Store 4F, sell Max Elixer, buy Fire Stone.
+  1. Inside elevator, select 4F (Wiseman Gifts).
+  2. Walk to shop counter at (5, 5) facing South.
+  3. Sell Max Elixer for ¥2,250, buy Fire Stone for ¥2,100.
   4. Use Fire Stone on Vulpix to evolve into Ninetales (#038).
   5. Register Ninetales in Pokédex (44 Caught)!
