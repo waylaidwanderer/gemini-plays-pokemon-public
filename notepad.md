@@ -324,20 +324,23 @@
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
-## Experience Distribution & Traded Pokémon Boost
-- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
-- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
+## Experience Distribution & Traded Pok�mon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pok�mon participate in defeating an opposing Pok�mon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Native vs. Traded Pok�mon EXP Yields:**
+  - **Native Pok�mon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Traded / Outsider Pok�mon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+- **Traded Pok�mon Boost Formula (Gen 1 Assembly Implementation):**
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525`. Boosted yield = `525 + 262 = 787` [Turns 33501, 33530].
-  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558`. Boosted yield = `558 + 279 = 837` [Turns 33519, 33656].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538`. Boosted yield = `538 + 269 = 807` [Turn 33579].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504`. Boosted yield = `504 + 252 = 756` [Turns 33589, 33601].
-  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227`. Boosted yield = `227 + 113 = 340` [Turn 33620].
-  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461`. Boosted yield = `461 + 230 = 691` [Turn 33668].
-  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` [Turn 33775].
+  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native: Poliwag/Omega). Boosted yield = `787` (traded: Sailor) [Turns 33501, 33530].
+  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558` (native: Poliwag/Omega) [Turns 33789, 33802]. Boosted yield = `837` (traded: Sailor) [Turns 33519, 33656].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native). Boosted yield = `807` (traded) [Turn 33579].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native). Boosted yield = `756` (traded) [Turns 33589, 33601].
+  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native). Boosted yield = `340` (traded) [Turn 33620].
+  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native). Boosted yield = `691` (traded) [Turn 33668].
+  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native: Poliwag/Omega) [Turn 33775].
 
 
 <hr>
@@ -5015,11 +5018,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
 ### Immediate Routing & Action Steps:
-1. Surf west along row 5 channel to col 6, then south down chute to cave landing at (5, 12).
-2. Disembark and enter Cerulean Cave 1F at (4, 11).
-3. Baseline inspected & logged: 2,035 EXP, 500 to Lv 16, Bubble PP 30/30 [Turn 33759].
-4. Switch-train Poliwag (Slot 1) against wild Pokémon in Cerulean Cave 1F to Level 25 -> Poliwhirl (#061).
-5. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) to clerk, purchase 1 Water Stone (¥2,100) at 4F, and evolve Poliwhirl into Poliwrath (#062).
+1. Switch-train Poliwag (Slot 1) on Cerulean Cave 1F (patrolling rows 14-15) to Level 25 -> Poliwhirl (#061).
+2. Fly to Celadon City, sell 1 PP Up (yields �4,900) or 1 Max Elixer (yields �2,250) at Dept Store 4F.
+3. Purchase 1 Water Stone (�2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
+
+### Battler PP Stamina & Contingency Plan:
+- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 6/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
+- Blastoise (SHELDON Lv 70, Slot 6): Surf PP 15/15, Ice Beam PP 10/10.
+- Contingency: If Mewtwo's Psychic reaches <= 2 PP, switch lead switch-in to Sheldon (Surf/Ice Beam OHKOs most 1F spawns) or use Swift on lower-defense targets.
 
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
