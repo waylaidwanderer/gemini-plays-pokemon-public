@@ -19,21 +19,10 @@
     - Sandslash Lv 52: 601 EXP
   - Projected Battle Count: ~18 - 19 battles to reach Lv 26.
 
-### Immediate Routing & Action Steps:
-1. Exit Cerulean Pokémon Center door to Cerulean City (3, 8).
-2. Walk north past Cerulean Gym to Route 24 entrance (20, 0).
-3. Walk north to Route 24 canal shore (10, 31), cast SURF from Sheldon.
-4. Surf south down canal into Cerulean City chute (col 6, row 12) to cave entrance (4, 11).
-5. Enter Cerulean Cave 1F and switch-train Diglett (Slot 1) with Mewtwo (Slot 2) to Level 26 -> Dugtrio (#051)!
-
-### Battler PP Stamina & Contingency Plan (Fully Healed Turn 34261):
-- Diglett (DIGBY Lv 19, Slot 1): HP 38 / 38 (Healthy). Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10). Lead switch-training target!
-- Mewtwo (OMEGA Lv 70, Slot 2): HP 234 / 234 (Healthy). Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20). Main sweeper!
-- Jolteon (VEE Lv 25, Slot 3): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
-- Geodude (ROCKY Lv 8, Slot 4): HP 26 / 26 (Healthy). Moves: Tackle, Rock Slide, Strength.
-- Sheldon (BLASTOISE Lv 71, Slot 5): HP 225 / 225 (Healthy, Paralysis Cured!). Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10).
-- Farfetch'd (DUX Lv 5, Slot 6): HP 20 / 20 (Healthy). Moves: Peck, Sand-Attack, Cut, Fly.
-
+### Empirical Damage Telemetry (Hypno Lv 46 vs Mewtwo Lv 70):
+- Mewtwo Swift (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
+- Mewtwo Psychic (90 BP STAB special, Spc 231 vs Hypno Spc ~115, 0.5x resisted): Base ~105 * 1.5 STAB * 0.5 resist = ~78 dmg * (0.85..1.0) = ~66-78 dmg.
+- Strategic Conclusion: Swift deals equal or superior damage against pure Psychic Hypno while preserving limited 10 PP Psychic for 4x effective targets (Golbat OHKO).
 
 ### Switch-Training Battle Log (Cerulean Cave 1F):
 - Battle 1 (Turn 34285-34292): Wild Hypno Lv 46
