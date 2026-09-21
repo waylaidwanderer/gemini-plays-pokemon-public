@@ -65,7 +65,7 @@
 
 
 ## Inventory Capacity
-- Active Bag Items: 11 / 20 capacity used.
+- Active Bag Items: 10 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -133,10 +133,10 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- KOFFING (Nickname: SMOGGY) [Lv 38, Poison]
+- KOFFING (Nickname: SMOGGY) [Lv 39, Poison]
   - Status: Healthy
-  - HP: 100 / 100
-  - Stats: Attack 79, Defense 103, Speed 53, Special 75 [Verified Lv 38 Turn 33268]
+  - HP: 102 / 102
+  - Stats: Attack 81, Defense 105, Speed 54, Special 77 [Verified Lv 39 Turn 33273]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
 
 ## PC Box 1 Pokémon
