@@ -47,10 +47,10 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 25, Ground]
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
-  - HP: 48 / 48 [Verified Lv 25 Turn 34483]
-  - Stats: Attack 38, Defense 21, Speed 59, Special 34 [Verified Lv 25 Turn 34478]
+  - HP: Full [Verified Lv 26 Turn 34558]
+  - Stats: Attack 40, Defense 22, Speed 61, Special 35 [Verified Lv 26 Turn 34558]
   - OT: BLUE (IDNo. 04620)
   - EXP: 17866 [Verified Turn 34556]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)

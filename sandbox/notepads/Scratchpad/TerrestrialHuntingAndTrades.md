@@ -17,7 +17,7 @@
   - Venomoth Lv 49: 483 EXP (total 966 EXP / 2 participants = 483 EXP)
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 19 Concluded: Wild Venomoth Lv 49 OHKOed with Psychic (+483 EXP). Diglett reached 17,866 EXP and leveled up to Level 26! Evolution into Dugtrio (#051) initiated!
+- Battle 19 Concluded: Wild Venomoth Lv 49 OHKOed with Psychic (+483 EXP). Diglett reached 17,866 EXP and leveled up to Level 26! Evolution into Dugtrio (#051) initiated! Stats: Atk 40, Def 22, Spd 61, Spc 35.
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46: Empirically verified ~55-60% HP per hit (reliable 2-hit KO, observed Battles 10, 11, 12, 14).

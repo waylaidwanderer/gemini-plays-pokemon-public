@@ -103,10 +103,10 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 25, Ground]
+- Slot 1: DIGLETT (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
-  - HP: 48 / 48 [Verified Lv 25 Turn 34483]
-  - Stats: Attack 38, Defense 21, Speed 59, Special 34 [Verified Lv 25 Turn 34478]
+  - HP: Full [Verified Lv 26 Turn 34558]
+  - Stats: Attack 40, Defense 22, Speed 61, Special 35 [Verified Lv 26 Turn 34558]
   - OT: BLUE (IDNo. 04620)
   - EXP: 17866 [Verified Turn 34556]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
@@ -5020,7 +5020,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Venomoth Lv 49: 483 EXP (total 966 EXP / 2 participants = 483 EXP)
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 19 Concluded: Wild Venomoth Lv 49 OHKOed with Psychic (+483 EXP). Diglett reached 17,866 EXP and leveled up to Level 26! Evolution into Dugtrio (#051) initiated!
+- Battle 19 Concluded: Wild Venomoth Lv 49 OHKOed with Psychic (+483 EXP). Diglett reached 17,866 EXP and leveled up to Level 26! Evolution into Dugtrio (#051) initiated! Stats: Atk 40, Def 22, Spd 61, Spc 35.
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46: Empirically verified ~55-60% HP per hit (reliable 2-hit KO, observed Battles 10, 11, 12, 14).
