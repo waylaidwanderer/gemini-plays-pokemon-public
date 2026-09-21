@@ -61,3 +61,4 @@
 ### Battle Log:
 - Battle 1 [Turn 35552]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 11! (EXP: 1601 / 13824, remaining: 12223). Stats at Lv 11: Atk 23, Def 17, Spd 12, Spc 19. Blastoise HP: 188/225, Surf PP: 14/15.
 - Battle 2 [Turn 35570]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Swift + Psychic (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 12! (EXP: 2139 / 13824, remaining: 11685). Mewtwo HP: 231/243 (PSN), Psychic PP: 9/10, Swift PP: 19/20.
+- Battle 3 [Turn 35585]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic x2 (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 13! (EXP: 2677 / 13824, remaining: 11147). Learned Stun Spore. Stats at Lv 13: Atk 26, Def 20, Spd 13, Spc 22. Mewtwo HP: 189/243 (PSN), Psychic PP: 8/10.
