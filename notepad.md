@@ -5026,9 +5026,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 7 (Turn 34389-34396): Wild Hypno Lv 46
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno Meditate). Turn 2 Mewtwo fully paralyzed; Hypno Meditate. Turn 3 Hypno Headbutt dealt 25 dmg (Mewtwo to 209 HP); Mewtwo Swift dealt ~60% dmg. Turn 4 Mewtwo Swift crit KOed Hypno.
-  - EXP Share: 538 EXP to Diglett (reached 11,581 EXP, 586 to Lv 23).
 - Battle 8 (Turn 34398-34405): Wild Magneton Lv 46
   - Combat Flow: Turn 1 Diglett switched to Mewtwo (Magneton moved). Turn 2 Mewtwo fully paralyzed; Magneton Swift dealt 10 dmg (Mewtwo to 199 HP). Turn 3 Magneton Supersonic failed; Mewtwo Psychic scored Critical hit OHKO.
   - EXP Share: 525 EXP to Diglett (reached 12,106 EXP, 61 to Lv 23).
