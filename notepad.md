@@ -145,7 +145,7 @@
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
   - EXP: 40203 (2672 to Lv 35) [Verified Turn 33669]
   - Moves: Headbutt (PP 14/15), Growl (PP 40/40) [Verified Turn 33639]
-  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425], Evolved Turn 33656
+  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
@@ -4336,6 +4336,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Kadabra: Lv 49 [Encountered 1F Turn 27129]
 - Parasect: Lv 52 [Encountered 1F Turn 27400
 - Ditto: Lv 53 [Encountered 1F Turn 33610]]
+## Wild Encounters
+- Wild Raichu (Lv 53): Defeated Turn 33668 (EXP awarded: 461 base to Omega, 691 boosted to Sailor). Confirmed rare terrestrial spawn on 1F.
+
 
 <hr>
 
@@ -5001,15 +5004,23 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 15, Slot 1) to Level 25 -> Poliwhirl (#061).
-- Target 2: Use Water Stone (purchased Celadon Dept Store 4F) -> Poliwrath (#062).
+- Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
-- Immediate Routing Steps:
-  1. Walk west along Row 18 to Column 8, north through Ramp (8, 15) to Northern District Street.
-  2. Walk east to Column 20, north to Route 24 boundary at (20..21, 0).
-  3. On Route 24: traverse Nugget Bridge to (10, 31..32) and launch Surf into canal.
-  4. Surf down canal chute to Cerulean Cave entrance apron at (5, 12), enter cave at (4, 11).
-  5. In Cerulean Cave 1F: switch-train Poliwag (Slot 1) to Level 25 -> Poliwhirl (#061).
-  6. Fly to Celadon City, buy Water Stone at Dept Store 4F, evolve to Poliwrath (#062).
+
+### Immediate Routing & Action Steps:
+1. Surf west along row 5 channel to col 6, then south down chute to cave landing at (5, 12).
+2. Disembark and enter Cerulean Cave 1F at (4, 11).
+3. Open party menu in Cerulean Cave 1F to inspect and record Poliwag's exact baseline EXP, Level Up requirement, and moves/PP.
+4. Switch-train Poliwag (Slot 1) against wild Pokémon in Cerulean Cave 1F to Level 25 -> Poliwhirl (#061).
+5. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) to clerk, purchase 1 Water Stone (¥2,100) at 4F, and evolve Poliwhirl into Poliwrath (#062).
+
+### Financial Liquidation Budget:
+- Current Wallet: ¥256.
+- Stone Cost: Water Stone = ¥2,100.
+- Target Inventory to Liquidate:
+  - PP UP x1 (Bag): Sell price = ¥4,900 (Surplus funds: ¥4,900 + ¥256 = ¥5,156, leaving ¥3,056 after stone for Ultra Balls).
+  - Alternative: MAX ELIXER x1 (Bag): Sell price = ¥2,250 (Surplus funds: ¥2,250 + ¥256 = ¥2,506, leaving ¥406).
+- Vendor: Celadon Department Store 4F Clerk.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
@@ -5025,7 +5036,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
-  - Sell surplus items (Carbos, PP Up, Max Elixer, TMs) for >¥15,000 to fund stones & Ultra Balls.
+  - Liquidate Carbos/PP Up to fund stones & Ultra Balls.
 
 
 <hr>
