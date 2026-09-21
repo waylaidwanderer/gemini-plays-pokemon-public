@@ -111,7 +111,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 6577 (713 to Lv 18, 3,423 to Lv 20 Gyarados) [Turn 35184] [Turn 35173] [Turn 35158]
+  - EXP: 6577 (713 to Lv 18, 3,423 to Lv 20 Gyarados) [Turn 35184]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -121,7 +121,7 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Poisoned (PSN)
-  - HP: 70 / 225 [Verified Turn 35187]
+  - HP: 66 / 225 [Verified Turn 35191]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -5029,13 +5029,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 6,019 EXP (Lv 16, Delta to Gyarados: 3,981 EXP, ~7-8 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 87/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 164/243, Healthy, Swift 18/20, Swift 18/20, Psychic 3/10)
+- Current EXP: 6,577 EXP (Lv 17, Delta to Gyarados: 3,423 EXP, ~6-7 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 66/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 164/243, Healthy, Swift 18/20, Psychic 3/10)
 
 ### Switch-Training Progress:
 - Completed Battles: 12 Battles Won (4 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 3 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49, 1 Wild Raichu Lv 53)
 - EXP Gained: +6,421 EXP (156 -> 6,577 EXP, Lv 17, 713 to Lv 18)
-- Remaining Delta to Lv 20 Gyarados: 3,981 EXP (~7-8 battles)
+- Remaining Delta to Lv 20 Gyarados: 3,423 EXP (~6-7 battles)
 
 ### Empirical Cerulean Cave 1F Switch-Training EXP Yield Table (2 Participants)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
