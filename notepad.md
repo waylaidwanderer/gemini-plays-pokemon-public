@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥206 [Turn 32406]
-- Pokédex: 43 Caught / 136 Seen [Turn 33278]
+- Pokédex: 44 Caught / 136 Seen [Turn 33363]
 
 ## Milestones
 
@@ -44,6 +44,7 @@
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
 - [x] Evolve Koffing into Weezing (#110) [Turn 33242]
+- [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
 
 <hr>
 
@@ -130,11 +131,12 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
+- NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
-  - HP: Full
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
-  - Withdrawn from PC Box 2 [Turn 33297]
+  - HP: 95 / 95
+  - Stats: Attack 55, Defense 57, Speed 76, Special 79 [Verified Lv 33 Turn 33363]
+  - OT: BLUE (IDNo. 04620)
+  - Evolved from Vulpix via Fire Stone [Turn 33357]
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
@@ -4991,14 +4993,28 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Milestone: Obtain Weezing (#110) [COMPLETED Turn 33242]
 - Koffing (SMOGGY) evolved into Weezing (#110) at standard Level 35 on Turn 33242.
-  (Audit note: Multi-button input chunking on Turn 33242 rapidly advanced through the evolution animation into the Bag menu, masking the visual transition until stats were audited on Turn 33277).
 - Final Stats at Lv 39: HP 102, Attack 81, Defense 105, Speed 54, Special 77.
 - Pokédex updated: 43 Caught / 136 Seen!
 
-## Next Milestone: Evolve Vulpix into Ninetales (#038)
-- Vulpix (KITSUNE, Lv 33) in party evolved via Fire Stone (bought for ¥2,100 on 4F after selling Full Heal x6 for ¥1,800 and Guard Spec for ¥350).
-- Verifying species and stats on STATS screen [Turn 33361].
-- Register Ninetales (#038) in Pokédex (44 Caught)!
+## Milestone: Evolve Vulpix into Ninetales (#038) [COMPLETED Turn 33357]
+- Vulpix (KITSUNE, Lv 33) successfully evolved into Ninetales (#038) via Fire Stone!
+- Verified Stats on Turn 33363:
+  - HP: 95 / 95
+  - Attack: 55, Defense: 57, Speed: 76, Special: 79
+  - OT: BLUE (IDNo. 04620)
+- Pokédex updated: 44 Caught / 136 Seen!
+
+## Next Strategic Horizons & Candidates
+- Dewgong (#087):
+  - Seel (SAILOR, Lv 32 with boosted EXP) in PC Box 1.
+  - Evolves at Lv 34 (only 2 levels, boosted EXP!).
+- In-Game Trades:
+  - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL).
+  - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC).
+- Water Stone / Leaf Stone Evolutions:
+  - Celadon 4F sells Water Stone and Leaf Stone (¥2,100 each).
+  - Poliwag (RIPPLE Lv 15) -> Poliwhirl Lv 25 -> Poliwrath (#062) via Water Stone.
+  - Weepinbell / Victreebel (#071) via Leaf Stone.
 
 
 <hr>
