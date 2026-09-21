@@ -51,5 +51,5 @@
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
 - Hypno: Lv 46 [Encountered 1F Turn 26276]
 - Kadabra: Lv 49 [Encountered 1F Turn 27129]
-- Parasect: Lv 52 [Encountered 1F Turn 27400
-- Ditto: Lv 53 [Encountered 1F Turn 33610]]
+- Parasect: Lv 52 [Encountered 1F Turn 27400]
+- Ditto: Lv 53 [Encountered 1F Turn 33610]

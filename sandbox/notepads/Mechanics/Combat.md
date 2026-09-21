@@ -31,10 +31,10 @@
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native: Poliwag/Omega). Boosted yield = `787` (traded: Sailor) [Turns 33501, 33530].
-  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558` (native: Poliwag/Omega) [Turns 33789, 33802]. Boosted yield = `837` (traded: Sailor) [Turns 33519, 33656].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native). Boosted yield = `807` (traded) [Turn 33579].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native). Boosted yield = `756` (traded) [Turns 33589, 33601].
-  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native). Boosted yield = `340` (traded) [Turn 33620].
-  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native). Boosted yield = `691` (traded) [Turn 33668].
-  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native: Poliwag/Omega) [Turn 33775].
+  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native), boosted = `787` (traded).
+  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558` (native), boosted = `837` (traded).
+  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native), boosted = `807` (traded).
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native), boosted = `756` (traded).
+  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
+  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
+  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native).
