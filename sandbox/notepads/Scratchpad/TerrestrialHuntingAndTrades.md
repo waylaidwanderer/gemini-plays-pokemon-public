@@ -53,8 +53,9 @@
   - EXP Yield: 1,116 total -> Base share: 558 EXP to Diglett.
   - Diglett Progress: 8,220 + 558 = 8,778 EXP (483 to Lv 21).
   - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 8,798 EXP (~16 battles remaining).
-- Battle 3 (Turn 34316): Wild Hypno Lv 46
-  - Status: Encountered on Row 15 at (22, 15).
-  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2+ Mewtwo attacks with Swift.
-  - Expected EXP: 538 EXP for Diglett.
-  - Level Up Milestone: 8,778 + 538 = 9,316 EXP (> 9,261 threshold) -> DIGLETT LEVEL 21!
+- Battle 3 (Turn 34316-34326): Wild Hypno Lv 46
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno Meditate). Turn 2 Mewtwo Swift scored Critical hit; Hypno Psychic dealt 12 dmg. Turn 3 Mewtwo Swift KOed Hypno.
+  - Total EXP: 1,076 -> Base share: 538 EXP each.
+  - Diglett Progress: 8,778 + 538 = 9,316 EXP.
+  - LEVEL UP: Diglett reached Level 21! Stats: Attack 32, Defense 18, Speed 50, Special 28 [Verified Turn 34326].
+  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 8,260 EXP (~15 Cerulean Cave battles remaining).
