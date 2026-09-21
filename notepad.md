@@ -169,167 +169,113 @@
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15)
   - Caught: Diglett's Cave [Turn 3507], Evolved to Dugtrio (#051) [Turn 34560, Verified Turn 34568], Deposited to Box 1 [Turn 34596]
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
-
   - Status: Healthy
-
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
-
   - Status: Healthy
-
   - Moves: Growl, Scratch, Poison Sting, Body Slam
 
   - Evolved from Nidorina via Moon Stone [Turn 31184]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
-
   - Status: Healthy
-
   - HP: 91 / 91
 
   - Moves: Wing Attack, Agility, Supersonic
-
   - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
-
   - Status: Healthy
-
   - HP: 67 / 67
 
   - Moves: Water Gun, Withdraw, Horn Attack
-
   - Revived from Helix Fossil [Turn 30898]
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
-
   - Status: Healthy
-
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-
   - Status: Healthy
-
   - HP: 30 / 30
 
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
-
   - Caught: Route 11 tall grass [Turn 3721]
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
-
   - Status: Healthy
-
   - Caught: Route 11 with Old Rod [Turn 3694]
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
-
   - Status: Healthy
-
   - Caught: Safari Zone Area 2 tall grass [Turn 8384]
 - KANGASKHAN (Nickname: MATILDA) [Lv 25, Normal]
-
   - Status: Healthy
-
   - Caught: Safari Zone Area 1 tall grass [Turn 9001]
 - LAPRAS (Nickname: NESSY) [Lv 15, Water/Ice]
-
   - Status: Healthy
-
   - Received: Silph Co employee gift [Turn 12858, Verified Turn 12865]
 - HITMONLEE (Nickname: BRUCE) [Lv 30, Fighting]
-
   - Status: Healthy
-
   - Received: Fighting Dojo prize [Turn 13254]
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
-
   - Status: Healthy
 
 ## PC Box 2 Pokémon
 - POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
-
   - Status: Healthy
-
   - HP: 70 / 70 [Verified Lv 25 Turn 34075]
 
   - Stats: Attack 33, Defense 33, Speed 57, Special 27 [Verified Lv 25 Turn 34070]
-
   - OT: BLUE (IDNo. 04620)
 
   - EXP: 12020 (1,391 to Lv 26) [Turn 34071]
-
   - Growth Group: Medium Slow
 
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
-
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072], Evolved to Poliwrath (#062) via Water Stone [Turn 34159]
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
-
   - Status: Healthy
-
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
 - JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
-
   - Status: Healthy
-
   - HP: 65 / 65
 
   - Stats: Attack 32, Defense 26, Speed 56, Special 56 [Verified Lv 23 Turn 31735]
-
   - OT: DONA (IDNo. 19854, Boosted EXP)
 
   - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
-
   - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
 - ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
-
   - Status: Healthy
-
   - HP: 17 / 17
 
   - Stats: Attack 8, Defense 9, Speed 13, Special 9 [Verified Lv 3 Turn 32225]
-
   - OT: TRAINER (IDNo. 47899, Boosted EXP)
 
   - EXP: 27 (37 to Lv 4) [Verified Turn 32225]
-
   - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
 
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
-
   - Status: Healthy
-
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
-
   - Status: Healthy
-
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
-
   - Status: Healthy
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
-
   - Status: Healthy
-
   - HP: 102 / 102
 
   - Stats: Attack 81, Defense 105, Speed 54, Special 77 [Verified Lv 39 Turn 33277]
-
   - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
 
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
-
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
 - NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
-
   - Status: Healthy
-
   - HP: 95 / 95
 
   - Stats: Attack 55, Defense 57, Speed 76, Special 79 [Verified Lv 33 Turn 33363]
-
   - EXP: 35937 (3367 to Lv 34) [Verified Turn 33364]
 
   - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
-
   - OT: BLUE (IDNo. 04620)
 
   - Evolved from Vulpix via Fire Stone [Turn 33357]
@@ -5081,12 +5027,42 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
-- Target: Sandshrew (PANGO Lv 22 -> Sandslash #028)
-- Target Level: Lv 22 (Sandslash #028, 10,648 EXP) - REACHED!
-- Current EXP: 10,915 EXP (Reached Lv 22! Evolving into Sandslash!) [After Golbat Lv 46 Turn 34937]
-- Battles Completed: 14
-- Switch-Training Sweeper: Blastoise (SHELDON Lv 71, HP 210/225, Surf 14/15, Ice Beam 8/10) / Mewtwo (OMEGA Lv 71, HP 75/243, Swift 18/20)
+## Active Goal: Withdraw & Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
+- Target: Magikarp (TSUNAMI Lv 5, Box 1 Slot 7)
+- Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
+- Current EXP: 156 EXP (Delta to Gyarados: 9,844 EXP, ~18 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, Surf 14/15, Ice Beam 8/10) / Mewtwo (OMEGA Lv 71, HP 75/243, Swift 18/20)
+- Immediate Step: Heal party at Nurse Joy, deposit Sandslash (PANGO), withdraw Magikarp (TSUNAMI).
+
+### Rigorous Candidate Decision Matrix
+1. MAGIKARP (TSUNAMI Lv 5, Box 1 Slot 7):
+   - Growth Group: Slow (EXP = 1.25 * Level^3)
+   - Starting EXP: 156 EXP (Lv 5)
+   - Target EXP: 10,000 EXP (Lv 20 Gyarados #130)
+   - Net Delta: 9,844 EXP (~18 Cerulean Cave battles) -> SELECTED (Lowest delta of all candidates!)
+2. PARAS (FUNGI Lv 10, Box 1 Slot 8):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 1,000 EXP (Lv 10)
+   - Target EXP: 13,824 EXP (Lv 24 Parasect #047)
+   - Net Delta: 12,824 EXP (~23 battles)
+3. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 3,375 EXP (Lv 15)
+   - Target EXP: 21,952 EXP (Lv 28 Kingler #099)
+   - Net Delta: 18,577 EXP (~34 battles)
+4. PSYDUCK (MIGRAINE Lv 15, Box 2):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 3,375 EXP (Lv 15)
+   - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
+   - Net Delta: 32,562 EXP (~59 battles)
+5. SLOWPOKE (DOPEY Lv 15, Box 2):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 3,375 EXP (Lv 15)
+   - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
+   - Net Delta: 47,278 EXP (~86 battles)
+6. In-Game Trades:
+   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
+   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 
 ### Sweeper & Recovery Protocol
 - Recover Threshold: Use Recover when Mewtwo's HP drops below 100 HP (restores 121 HP back to ~200+ HP).
