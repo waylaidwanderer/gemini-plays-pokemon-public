@@ -3,7 +3,7 @@
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 23, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 23 (9,021 EXP, Lv 23 reached Turn 33957, +525 from Magneton Lv 46). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+  - Status: Lv 23 (9,021 EXP, Lv 23 reached Turn 33957, +525 from Magneton Lv 46). Stats: Attack 30, Defense 30, Speed 52, Special 25. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
   - Remaining EXP Needed: 11,735 - 9,021 = 2,714 EXP (~4-5 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).

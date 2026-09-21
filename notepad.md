@@ -102,12 +102,11 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 22, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 23, Water]
   - Status: Healthy
-  - HP: 51 / 51 [Verified Lv 22 Turn 33941]
-  - Stats: Attack 29, Defense 29, Speed 50, Special 24 [Verified Lv 22 Turn 33937]
+  - HP: Full (Lv 23)
   - OT: BLUE (IDNo. 04620)
-  - EXP: 8496 [Turn 33946]
+  - EXP: 9021 [Turn 33957]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
@@ -138,9 +137,9 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Paralyzed (PAR)
-  - HP: 110 / 225 [Verified Lv 71 Turn 33946]
+  - HP: 79 / 225 [Verified Lv 71 Turn 33955]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 8/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 7/15), Ice Beam (PP 9/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
@@ -5006,10 +5005,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 22, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 22 (8,496 EXP, Lv 22 reached Turn 33937, +483 from Venomoth Lv 49 Turn 33946). Stats: Attack 29, Defense 29, Speed 50, Special 24. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+- Target 1: Train Poliwag (RIPPLE Lv 23, Slot 1) to Level 25 -> Poliwhirl (#061).
+  - Status: Lv 23 (9,021 EXP, Lv 23 reached Turn 33957, +525 from Magneton Lv 46). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 8,496 = 3,239 EXP (~5-6 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 9,021 = 2,714 EXP (~4-5 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 

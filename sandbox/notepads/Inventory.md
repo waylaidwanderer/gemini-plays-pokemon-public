@@ -51,6 +51,7 @@
 - POLIWAG (Nickname: RIPPLE) [Lv 23, Water]
   - Status: Healthy
   - HP: Full (Lv 23)
+  - Stats: Attack 30, Defense 30, Speed 52, Special 25 [Verified Lv 23 Turn 33958]
   - OT: BLUE (IDNo. 04620)
   - EXP: 9021 [Turn 33957]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
