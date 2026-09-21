@@ -47,14 +47,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 16, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 17, Water]
   - Status: Healthy
   - HP: 33 / 33 [Verified Lv 16 Turn 35167]
   - Stats: Attack 10, Defense 24, Speed 35, Special 14 [Verified Lv 16 Turn 35159]
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 6019 (122 to Lv 17, 3,981 to Lv 20 Gyarados) [Turn 35173] [Turn 35158]
+  - EXP: 6577 (713 to Lv 18, 3,423 to Lv 20 Gyarados) [Turn 35184] [Turn 35173] [Turn 35158]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -75,11 +75,11 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Paralyzed (PAR) [Thunder Wave Turn 35155]
-  - HP: 192 / 243 [Verified Turn 35183]
+  - Status: Healthy [Haze cured PAR Turn 35184]
+  - HP: 164 / 243 [Verified Turn 35184]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 18/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 18/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
