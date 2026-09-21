@@ -3,9 +3,9 @@
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 24 (10,483 EXP, Lv 24 reached Turn 34028, +475 from Parasect Lv 52). Stats: Attack 32, Defense 32, Speed 54, Special 26. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+  - Status: Lv 24 (11,021 EXP, +538 from Hypno Lv 46 [Turn 34045]). Stats: Attack 32, Defense 32, Speed 54, Special 26. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 10,483 = 1,252 EXP (~2 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 11,021 = 714 EXP (~1 Cerulean Cave wild battle).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
@@ -15,7 +15,7 @@
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 146 / 225 (Paralyzed). Moves: Surf (PP 14/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 111 / 225 (Paralyzed). Moves: Surf (PP 13/15), Ice Beam (PP 9/10), Body Slam (PP 14/15), Double-Edge (PP 15/15).
 - Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Paralyzed). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
 - Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
