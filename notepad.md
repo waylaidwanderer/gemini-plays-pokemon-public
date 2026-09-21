@@ -3475,7 +3475,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Terminus: Red carpet corridor terminates at solid dividing wall at (5, 9) [Verified Turn 13708].
 - Flanking Columns: Display tables line columns 3 and 8 at even rows (14, 16, 18, 20, 22, 24).
 - Open Passages: Row 11 provides open crossways west into columns 1-3 and east into columns 8-10 [Verified Turn 13708].
-- East Side Corridor (cols 9-10): Open floor from row 10 down to row 26, bounded on the east by solid vertical wall along column 11 (rows 13-27) [Verified Turn 14300]. No southern bypass exists into the B1F chamber.
+- East Side Corridor (cols 9-10): Open floor from row 10 down to row 26, bounded on the east by solid vertical wall along column 11 (rows 13-27) [Empirically re-verified Turn 33192: col 11 tested solid wall down to row 27]. No southern bypass exists into the B1F chamber.
 - Column 12 North Bypass: Column 12 is an open north-south corridor across rows 7-12. Row 6 connects east across (12-16, 6) to bypass the (13-15, 7) wall and enter Shutter 1 at (16-17, 7), which is confirmed OPEN in State B [Verified Turn 14308].
 
 ## Northwest Statue Room (cols 0-8, rows 1-8)
@@ -3517,7 +3517,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564, 33009]. Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 30-32) [Common]
-- Ponyta (Lv 28-34) [Common]
+- Ponyta (Lv 28-34) [Common, Verified Turn 33194 Lv 28 at (21, 26)]
 - Muk (Lv 37) [Rare, Verified Turn 33189 at (16, 26)]
 - Vulpix (Lv 34) [Verified Turn 32848]
 - Weezing (Lv 39) [Verified Turn 33164 at (20, 20)] [Very Rare]
