@@ -111,7 +111,7 @@
   - Withdrawn from PC Box 1 [Turn 33429]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 222 / 222 [Healed Turn 33538 at Cerulean Center]
+  - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -123,7 +123,7 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Turn 33538 at Cerulean Center]
+  - HP: 234 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
@@ -339,6 +339,14 @@
 
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
+
+## Experience Distribution & Traded Pokémon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all participants who did not faint during the battle.
+- **Traded Pokémon Boost (OT Multiplier):** Traded Pokémon (different Original Trainer / ID) receive a 1.5x multiplier (boosted EXP) on their earned share.
+- **Empirical EXP Verification (Cerulean Cave 1F Wild Battles):**
+  - Turn 33501: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Total EXP ~1,049 split 2 ways (524 base each). Sailor earned 787 boosted EXP (524 * 1.5 = 786). Omega earned 525 EXP.
+  - Turn 33519: Wild Lv 46 Golbat defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,116 split 2 ways (558 base each). Sailor earned 837 boosted EXP (558 * 1.5 = 837). Sheldon earned 558 EXP.
+  - Turn 33530: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Sailor earned 787 boosted EXP. Omega earned 525 EXP.
 
 
 <hr>
@@ -4326,8 +4334,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
 
 ## Wild Pok�mon (Empirically Verified)
-- Golbat: Lv 46 [Encountered 1F Turn 25514]
-- Magneton: Lv 46 [Encountered 1F Turn 25520]
+- Golbat: Lv 46 [Encountered 1F Turn 25514; base EXP ~1116, yields 837 boosted EXP in 2-way split, Turn 33519]
+- Magneton: Lv 46 [Encountered 1F Turn 25520; base EXP ~1049, yields 787 boosted EXP in 2-way split, Turns 33501, 33530]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
 - Venomoth: Lv 49 [Encountered 1F Turn 26123]
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
@@ -4994,18 +5002,19 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Dewgong (#087) via Seel Evolution
 - Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
-- Current Status: 7/90 HP (PAR).
-- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (178/222 HP).
-- Omega (Mewtwo Lv 70) in Slot 4 (224/234 HP PAR, Psychic 8/10).
+  - Status: Healthy, 90/90 HP.
+- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 222/222 HP).
+- Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
 - Evolves at Lv 34 (only 2 levels, boosted EXP!).
 - Current EXP: 35,179 EXP.
 - EXP to Lv 33: 758 EXP (only 1 battle!).
 - EXP to Lv 34: ~4,058 EXP total (~3-4 battles).
-- Plan right now:
-  1. Step south out of Cerulean Cave to canal.
-  2. Fly to Cerulean Pokémon Center to heal Sailor & Omega (curing paralysis and restoring full HP).
-  3. Return to Cerulean Cave to finish Lv 33 and Lv 34!
-  4. Dewgong (#087) -> Pokédex 45 Caught!
+- Plan:
+  1. Exit Cerulean Pokémon Center.
+  2. Travel north to Route 24 and surf into the canal.
+  3. Enter Cerulean Cave 1F.
+  4. Switch-train Sailor with Sheldon/Omega to reach Lv 33 and Lv 34.
+  5. Dewgong (#087) -> Pokédex 45 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
