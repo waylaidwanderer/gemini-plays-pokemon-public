@@ -8,15 +8,23 @@
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 15, Slot 1) to Level 25 -> Poliwhirl (#061).
-- Target 2: Use Water Stone (purchased Celadon Dept Store 4F) -> Poliwrath (#062).
+- Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
-- Immediate Routing Steps:
-  1. Walk west along Row 18 to Column 8, north through Ramp (8, 15) to Northern District Street.
-  2. Walk east to Column 20, north to Route 24 boundary at (20..21, 0).
-  3. On Route 24: traverse Nugget Bridge to (10, 31..32) and launch Surf into canal.
-  4. Surf down canal chute to Cerulean Cave entrance apron at (5, 12), enter cave at (4, 11).
-  5. In Cerulean Cave 1F: switch-train Poliwag (Slot 1) to Level 25 -> Poliwhirl (#061).
-  6. Fly to Celadon City, buy Water Stone at Dept Store 4F, evolve to Poliwrath (#062).
+
+### Immediate Routing & Action Steps:
+1. Surf west along row 5 channel to col 6, then south down chute to cave landing at (5, 12).
+2. Disembark and enter Cerulean Cave 1F at (4, 11).
+3. Open party menu in Cerulean Cave 1F to inspect and record Poliwag's exact baseline EXP, Level Up requirement, and moves/PP.
+4. Switch-train Poliwag (Slot 1) against wild Pokémon in Cerulean Cave 1F to Level 25 -> Poliwhirl (#061).
+5. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) to clerk, purchase 1 Water Stone (¥2,100) at 4F, and evolve Poliwhirl into Poliwrath (#062).
+
+### Financial Liquidation Budget:
+- Current Wallet: ¥256.
+- Stone Cost: Water Stone = ¥2,100.
+- Target Inventory to Liquidate:
+  - PP UP x1 (Bag): Sell price = ¥4,900 (Surplus funds: ¥4,900 + ¥256 = ¥5,156, leaving ¥3,056 after stone for Ultra Balls).
+  - Alternative: MAX ELIXER x1 (Bag): Sell price = ¥2,250 (Surplus funds: ¥2,250 + ¥256 = ¥2,506, leaving ¥406).
+- Vendor: Celadon Department Store 4F Clerk.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
@@ -32,4 +40,4 @@
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
-  - Sell surplus items (Carbos, PP Up, Max Elixer, TMs) for >¥15,000 to fund stones & Ultra Balls.
+  - Liquidate Carbos/PP Up to fund stones & Ultra Balls.
