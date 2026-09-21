@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Evolve Paras (FUNGI) into Parasect (#047)
-- Target: Level 24 (13,824 EXP, Pokédex #047)
+- Target: Level 24 (13,824 EXP, Pokï¿½dex #047)
 - Verified Starting State: Lv 10, HP 29/29, Atk 21, Def 16, Spd 11, Spc 18, EXP 1000, Move: Scratch (PP 35/35) [Turn 35442]
 - Switch Sweepers: Blastoise (SHELDON Lv 71) / Mewtwo (OMEGA Lv 71)
 
@@ -21,23 +21,31 @@
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP (~23-24 battles to Lv 24 Parasect).
 
 ### Paras Switch-Training Combat Protocol
-- Vulnerability Profile: Paras (Bug/Grass) suffers a catastrophic 4x weakness to Flying (Dodrio, Golbat) and 2x weaknesses to Fire, Poison, Bug, and Rock. At low levels, ANY attack from Cerulean Cave wild Pokémon will instantly OHKO Paras.
+- Vulnerability Profile: Paras (Bug/Grass) suffers a catastrophic 4x weakness to Flying (Dodrio, Golbat) and 2x weaknesses to Fire, Poison, Bug, and Rock. At low levels, ANY attack from Cerulean Cave wild Pokï¿½mon will instantly OHKO Paras.
 - Turn 1 Rule: NEVER attack with Paras. Immediately switch out to the designated sweeper on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Hypno, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 71). High Defense (194) absorbs physical hits effortlessly; retaliates with STAB Surf / 4x Ice Beam.
-- Emergency / HP Check: If sweepers drop below safe thresholds or run low on PP, retreat south to (24, 17) and Fly to Cerulean Pokémon Center to heal.
+- Emergency / HP Check: If sweepers drop below safe thresholds or run low on PP, retreat south to (24, 17) and Fly to Cerulean Pokï¿½mon Center to heal.
 
 ### Other Post-Game Evolution Candidates
 1. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 21,952 EXP (Lv 28 Kingler #099)
+   - Prerequisite Status: Caught, stored in Box 1 Slot 1.
 2. PSYDUCK (MIGRAINE Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
+   - Prerequisite Status: Caught, stored in Box 2.
 3. SLOWPOKE (DOPEY Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
+   - Prerequisite Status: Caught, stored in Box 2.
 4. In-Game Trades:
-   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
-   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
+   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
+     - Prerequisite Status: Wild Abra NOT yet caught (unobtained asset). Needs hunting on Route 24 or Route 8.
+   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
+     - Prerequisite Status: Slowpoke owned (Box 2), but not yet evolved into Slowbro (unobtained asset).
+5. Evolution Stones:
+   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for Â¥2,100 each.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: Â¥3,056.
