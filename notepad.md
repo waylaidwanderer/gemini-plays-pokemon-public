@@ -116,9 +116,9 @@
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 153 / 225
+  - HP: 108 / 225
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 10/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 10/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
