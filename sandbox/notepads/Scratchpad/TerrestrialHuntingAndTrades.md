@@ -2,12 +2,12 @@
 
 ## Active Goal: Evolve Magikarp (TSUNAMI) into Gyarados (#130)
 - Target: Level 20 (10,000 EXP, Pokédex #130)
-- Current EXP: 8,178 EXP (Lv 18, 395 to Lv 19, Remaining Delta: 1,822 EXP, ~3-4 battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Healthy, Surf 15/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35292]
+- Current EXP: 8,716 EXP (Lv 19, Remaining Delta: 1,284 EXP, ~2-3 battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 215/225, PSN, Surf 14/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35307]
 
 ### Switch-Training Session Progress:
-- Completed Battles: 15 Battles Won (4 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 2 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
-- Total Session EXP Gained: +8,022 EXP (from base 156 EXP)
+- Completed Battles: 16 Battles Won (5 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 2 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
+- Total Session EXP Gained: +8,560 EXP (from base 156 EXP)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -23,8 +23,8 @@
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP.
-- Magikarp (TSUNAMI Lv 18, 8,178 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 1,822 EXP.
-- Exact projected battles remaining: ceil(1822 / 530) = **3.4 (~3-4 battles)**.
+- Magikarp (TSUNAMI Lv 19, 8,716 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 1,284 EXP.
+- Exact projected battles remaining: ceil(1284 / 530) = **2.4 (~2-3 battles)**.
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
