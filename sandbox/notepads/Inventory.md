@@ -9,9 +9,10 @@
 6. HM02 [Key Item]
 7. MAX POTION x 1
 8. TM35 (METRONOME) x 1
+9. WATER STONE x 1
 
 ## Inventory Capacity
-- Active Bag Items: 8 / 20 capacity used.
+- Active Bag Items: 9 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC)
@@ -44,7 +45,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥5156 [Turn 34148]
+- ¥3056 [Turn 34152]
 
 ## Party Pokémon
 - POLIWHIRL (Nickname: RIPPLE) [Lv 25, Water]
