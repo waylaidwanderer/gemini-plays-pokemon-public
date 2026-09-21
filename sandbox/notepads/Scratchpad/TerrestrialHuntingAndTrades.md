@@ -1,11 +1,41 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
-- Target: Sandshrew (PANGO Lv 22 -> Sandslash #028)
-- Target Level: Lv 22 (Sandslash #028, 10,648 EXP) - REACHED!
-- Current EXP: 10,915 EXP (Reached Lv 22! Evolving into Sandslash!) [After Golbat Lv 46 Turn 34937]
-- Battles Completed: 14
-- Switch-Training Sweeper: Blastoise (SHELDON Lv 71, HP 210/225, Surf 14/15, Ice Beam 8/10) / Mewtwo (OMEGA Lv 71, HP 75/243, Swift 18/20)
+## Active Goal: Withdraw & Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
+- Target: Magikarp (TSUNAMI Lv 5, Box 1 Slot 7)
+- Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
+- Current EXP: 156 EXP (Delta to Gyarados: 9,844 EXP, ~18 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, Surf 14/15, Ice Beam 8/10) / Mewtwo (OMEGA Lv 71, HP 75/243, Swift 18/20)
+- Immediate Step: Heal party at Nurse Joy, deposit Sandslash (PANGO), withdraw Magikarp (TSUNAMI).
+
+### Rigorous Candidate Decision Matrix
+1. MAGIKARP (TSUNAMI Lv 5, Box 1 Slot 7):
+   - Growth Group: Slow (EXP = 1.25 * Level^3)
+   - Starting EXP: 156 EXP (Lv 5)
+   - Target EXP: 10,000 EXP (Lv 20 Gyarados #130)
+   - Net Delta: 9,844 EXP (~18 Cerulean Cave battles) -> SELECTED (Lowest delta of all candidates!)
+2. PARAS (FUNGI Lv 10, Box 1 Slot 8):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 1,000 EXP (Lv 10)
+   - Target EXP: 13,824 EXP (Lv 24 Parasect #047)
+   - Net Delta: 12,824 EXP (~23 battles)
+3. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 3,375 EXP (Lv 15)
+   - Target EXP: 21,952 EXP (Lv 28 Kingler #099)
+   - Net Delta: 18,577 EXP (~34 battles)
+4. PSYDUCK (MIGRAINE Lv 15, Box 2):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 3,375 EXP (Lv 15)
+   - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
+   - Net Delta: 32,562 EXP (~59 battles)
+5. SLOWPOKE (DOPEY Lv 15, Box 2):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Starting EXP: 3,375 EXP (Lv 15)
+   - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
+   - Net Delta: 47,278 EXP (~86 battles)
+6. In-Game Trades:
+   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
+   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 
 ### Sweeper & Recovery Protocol
 - Recover Threshold: Use Recover when Mewtwo's HP drops below 100 HP (restores 121 HP back to ~200+ HP).
