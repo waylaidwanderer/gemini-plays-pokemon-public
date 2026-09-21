@@ -3,20 +3,20 @@
 ## Active Goal: Dewgong (#087) via Seel Evolution
 - Training Campaign Started: Turn 33493
 - Initial EXP: 32,768 EXP (Lv 32)
-- Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
-  - Status: Healthy, 90/90 HP.
-- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 222/222 HP).
+- LEVEL 33 ACHIEVED: Turn 33579!
+- Seel (SAILOR, Lv 33 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
+  - Status: Healthy, 90+ HP.
+  - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579].
+- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 141/222 HP, Ice Beam 10/10, Surf 15/15).
 - Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
-- Evolves at Lv 34 (only 2 levels, boosted EXP!).
-- Current EXP: 35,179 EXP [Verified Turn 33530].
-- EXP to Lv 33: 758 EXP (only 1 battle!).
-- EXP to Lv 34: ~4,058 EXP total (~3-4 battles).
-- Active Battle: Wild Hypno (Lv 46) on Cerulean Cave 1F.
-- Battle Plan:
-  1. Switch to Sheldon on turn 1 (Seel takes 0 damage).
-  2. Sheldon defeats Hypno with Double-Edge/Surf.
-  3. Sailor earns boosted EXP and reaches Lv 33!
-  4. Continue switch-training until Lv 34 -> Dewgong (#087) -> Pokédex 45 Caught!
+- Evolves at Lv 34 (only 1 level remaining, boosted EXP!).
+- Current EXP: 35,986 EXP [Verified Turn 33579].
+- EXP to Lv 34: 3,318 EXP (~4 battles).
+- Strategy:
+  1. Patrol row 14 for wild encounters in Cerulean Cave 1F.
+  2. Switch to Sheldon on turn 1 (or Omega against Electric types).
+  3. KO wild Pokémon to award Sailor ~800 boosted EXP per battle.
+  4. At Lv 34, Seel evolves into Dewgong (#087) -> Pokédex 45 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
