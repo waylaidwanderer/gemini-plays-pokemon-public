@@ -54,7 +54,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128]
+  - EXP: 5020 (100 to Lv 16, 4,980 to Lv 20 Gyarados) [Turn 35149] [Turn 35128]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -79,7 +79,7 @@
   - HP: 231 / 243 [Verified Turn 35111]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy

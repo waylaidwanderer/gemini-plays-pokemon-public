@@ -3,10 +3,10 @@
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
 - Current EXP: 4,537 EXP (Lv 15, Delta to Gyarados: 5,463 EXP, ~10 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 119/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, Healthy, Swift 20/20, Psychic 6/10)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 97/225, PSN, Surf 11/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, Healthy, Swift 20/20, Psychic 5/10)
 
 ### Switch-Training Progress:
-- Completed Battles: 8 Battles Won (3 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 2 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52)
+- Completed Battles: 9 Battles Won (3 Wild Hypno Lv 46, 2 Wild Magneton Lv 46, 2 Wild Golbat Lv 46, 1 Wild Sandslash Lv 52, 1 Wild Venomoth Lv 49)
 - EXP Gained: +4,381 EXP (156 -> 4,537 EXP, Lv 15, 583 to Lv 16)
 - Remaining Delta to Lv 20 Gyarados: 5,463 EXP (~10 battles)
 
