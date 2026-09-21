@@ -53,8 +53,8 @@
   - HP: 41 / 41
   - Stats: Attack 23, Defense 23, Speed 39, Special 19 [Verified Lv 17 Turn 33789]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 3194 [Turn 33789]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 8,541 EXP needed)
+  - EXP: 3752 (46 to Lv 18) [Turn 33801]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 7,983 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20)
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
