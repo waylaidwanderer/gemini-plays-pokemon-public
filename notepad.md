@@ -62,7 +62,7 @@
 5. MAX ELIXER x 1
 6. HM02 [Key Item]
 7. MAX POTION x 1
-8. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
+8. TM35 (METRONOME) x 1
 
 ## Inventory Capacity
 - Active Bag Items: 8 / 20 capacity used.
@@ -108,7 +108,7 @@
   - Stats: Attack 30, Defense 30, Speed 52, Special 25 [Verified Lv 23 Turn 33958]
   - OT: BLUE (IDNo. 04620)
   - EXP: 9021 [Turn 33957]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 2,714 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -342,6 +342,7 @@
   - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
   - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
   - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native).
+  - Venomoth Lv 49: Total EXP 966. 3 participants -> Base share `s_EXP = floor(966 / 3) = 322` [Empirically verified Turn 33856].
 
 
 <hr>
@@ -5019,9 +5020,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 4/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
-- Blastoise (SHELDON Lv 70, Slot 6): Surf PP 13/15, Ice Beam PP 10/10.
-- Contingency: If Mewtwo's Psychic reaches <= 2 PP, switch lead switch-in to Sheldon (Surf/Ice Beam OHKOs most 1F spawns) or use Swift on lower-defense targets.
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 79 / 225 (Paralyzed). Moves: Surf (PP 7/15), Ice Beam (PP 9/10), Body Slam (PP 13/15), Double-Edge (PP 15/15).
+- Mewtwo (OMEGA Lv 70, Slot 3): HP 54 / 234 (Paralyzed). Moves: Psychic (PP 4/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
+- Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
+- Contingency & Health Management: Both high-level battlers are paralyzed with reduced HP thresholds. Fast electric foes (e.g. wild Raichu Lv 53) pose a lethal threat to Sheldon at 79 HP if full paralysis occurs. If Sheldon's HP drops below 50 or after completing this switch-training stretch, utilize Bag Max Potion or navigate to Cerulean City Pok�mon Center via cave entrance (4, 11) and HM02 Fly to completely restore HP, PP, and cure paralysis.
 
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
