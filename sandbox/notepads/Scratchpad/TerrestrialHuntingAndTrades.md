@@ -20,19 +20,16 @@
   - Projected Battle Count: ~19 - 21 battles to reach Lv 26.
 
 ### Immediate Routing & Action Steps:
-1. At Cerulean Pokémon Center PC (12, 4):
-   - Step Right to (13, 4), face North (Up) at PC monitor (13, 3), press A to access PC.
-   - Bill's PC -> DEPOSIT PKMN -> Deposit Poliwrath (RIPPLE Lv 25) into Box 2.
-   - Bill's PC -> CHANGE BOX -> Switch active box to BOX 1 (confirm save prompt).
-   - Bill's PC -> WITHDRAW PKMN -> Withdraw Diglett (DIGBY Lv 19) into Party.
-   - Bill's PC -> LOG OFF.
+1. In Bill's PC Box 1 WITHDRAW menu:
+   - Scroll down to locate Diglett (DIGBY Lv 19).
+   - Withdraw DIGBY into party and log off PC.
+   - Check DIGBY's STATS screen in Party menu to empirically verify starting EXP and growth group.
 2. Heal party at Nurse Joy counter (restore HP/PP and cure Sheldon's paralysis).
 3. Switch Diglett to Party Slot 1.
 4. Exit Pokémon Center, walk north through Route 24 canal, Surf to Cerulean Cave 1F.
 5. Switch-train Diglett with Mewtwo to Level 26 -> Evolve into Dugtrio (#051)!
 
 ### Battler PP Stamina & Contingency Plan:
-- Poliwrath (RIPPLE Lv 25, Slot 1): HP 70 / 70 (Healthy, Water/Fighting). Stats: Atk 33, Def 33, Spd 57, Spc 27. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10). Evolved Turn 34159 via Water Stone!
 - Farfetch'd (DUX Lv 5, Slot 2): HP 20 / 20. Moves: Peck, Sand-Attack, Cut, Fly.
 - Mewtwo (OMEGA Lv 70, Slot 3): HP 208 / 234 (Healthy). Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
