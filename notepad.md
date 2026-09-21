@@ -221,6 +221,16 @@
 
 ### Detailed Stats for Box 1 Pokémon:
 
+- DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
+  - Status: Healthy
+  - HP: 62 / 62 [Verified Lv 26 Turn 34568]
+  - Stats: Attack 53, Defense 35, Speed 74, Special 48 [Verified Lv 26 Turn 34568]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 17866 (1817 to Lv 27) [Verified Turn 34570]
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15)
+  - Caught: Diglett's Cave [Turn 3507], Evolved to Dugtrio (#051) [Turn 34560, Verified Turn 34568], Deposited to Box 1 [Turn 34596]
+
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
 
   - Status: Healthy
@@ -278,14 +288,6 @@
   - HP: Full
 
   - Caught: Route 11 with Old Rod [Turn 3694]
-
-- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
-
-  - Status: Healthy
-
-  - HP: Full
-
-  - Caught: Route 11 tall grass [Turn 3751]
 
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
 
@@ -5191,7 +5193,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Slowpoke (DOPEY Lv 15) -> Slowbro (#080) at Lv 37.
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
-  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (�2,100 each).
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (�¥2,100 each).
   - Liquidate Carbos to fund stones & Ultra Balls.
 
 
