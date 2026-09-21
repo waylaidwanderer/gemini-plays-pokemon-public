@@ -64,3 +64,8 @@
   - EXP Yield: 1,202 total -> Base share: 601 EXP to Diglett.
   - Diglett Progress: 9,316 + 601 = 9,917 EXP (731 to Lv 22).
   - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 7,659 EXP (~13-14 Cerulean Cave battles remaining).
+- Battle 5 (Turn 34336): Wild Sandslash Lv 52
+  - Status: Encountered on Row 14 at (24, 14).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic OHKO.
+  - Expected EXP: 601 EXP for Diglett (Lv 52 Sandslash yields 1,202 total / 2 = 601).
+  - Progress: 9,917 + 601 = 10,518 EXP (130 to Lv 22).
