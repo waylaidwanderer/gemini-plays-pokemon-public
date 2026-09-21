@@ -5031,6 +5031,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 7 (Turn 34389-34396): Wild Hypno Lv 46
   - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno Meditate). Turn 2 Mewtwo fully paralyzed; Hypno Meditate. Turn 3 Hypno Headbutt dealt 25 dmg (Mewtwo to 209 HP); Mewtwo Swift dealt ~60% dmg. Turn 4 Mewtwo Swift crit KOed Hypno.
   - EXP Share: 538 EXP to Diglett (reached 11,581 EXP, 586 to Lv 23).
+- Battle 8 (Active, Turn 34398-current): Wild Magneton Lv 46
+  - Status: Encountered on Row 15 at (21, 15).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic OHKO (empirically confirmed in Battle 6).
+  - Expected EXP Share: 525 EXP for Diglett (progress to 12,106 EXP; 61 to Lv 23).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
