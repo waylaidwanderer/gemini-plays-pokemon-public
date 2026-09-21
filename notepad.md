@@ -108,7 +108,6 @@
   - EXP: 36742 (2562 to Lv 34) [Verified Turn 33589]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
-  - Withdrawn from PC Box 1 [Turn 33429]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 141 / 222 [Turn 33579]
@@ -133,7 +132,6 @@
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-  - Withdrawn from PC Box 1 [Turn 31191]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -145,7 +143,6 @@
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
   - Status: Healthy
   - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
-  - Deposited: Celadon PC Box 1 (19/20) [Turn 31675]
 - PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy
   - HP: 42 / 42
@@ -154,7 +151,6 @@
   - EXP: 3375 (721 to Lv 16) [Verified Turn 31565]
   - Moves: Scratch (PP 35/35) [Verified Turn 31565]
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
-  - Deposited: Cerulean PC Box 1 (18/20) [Turn 31576]
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
@@ -165,7 +161,6 @@
   - Stats: Attack 32, Defense 59, Speed 37, Special 50
   - OT: TRAINER (IDNo. 37480, Boosted EXP)
   - Moves: Constrict (PP 35/35), Bind (PP 20/20)
-  - Deposited Cinnabar PC Box 1 [Turn 31307]
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
@@ -189,13 +184,11 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
-  - Deposited to PC Box 1 [Turn 30640]
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
   - HP: 38 / 38
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - Caught: Diglett's Cave [Turn 3507]
-  - Deposited to PC Box 1 [Turn 30645]
 - PINSIR (Nickname: PINCER) [Lv 23, Bug]
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 10141]
@@ -226,7 +219,6 @@
   - Transferred to PC Box 1 (Active Party full)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
-  - Deposited from active party [Turn 13315]
 
 ## PC Box 2 Pokémon
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
@@ -244,7 +236,6 @@
   - OT: DONA (IDNo. 19854, Boosted EXP)
   - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
   - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
-  - Deposited: Celadon PC Box 2 (3/20) [Turn 32128]
 - ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
   - Status: Healthy
   - HP: 17 / 17
@@ -253,7 +244,6 @@
   - EXP: 27 (37 to Lv 4) [Verified Turn 32225]
   - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
   - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
-  - Deposited: Cinnabar PC Box 2 (4/20) [Turn 32238]
 - GRIMER (Nickname: GOOP) [Lv 30, Poison]
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
@@ -264,7 +254,6 @@
   - Transferred to PC Box 2 (8/20)
 - MUK (Nickname: SLUDGE) [Lv 37, Poison]
   - Status: Healthy
-  - Deposited from active party into PC Box 2 (9/20) [Turn 33226]
 - WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
   - Status: Healthy
   - HP: 102 / 102
@@ -272,7 +261,6 @@
   - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
-  - Deposited: Cinnabar PC Box 2 (10/20) [Turn 33294]
 - NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
   - HP: 95 / 95
@@ -281,7 +269,6 @@
   - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
   - OT: BLUE (IDNo. 04620)
   - Evolved from Vulpix via Fire Stone [Turn 33357]
-  - Deposited: Celadon PC Box 2 (11/20) [Turn 33408]
 
 
 <hr>
@@ -341,14 +328,16 @@
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
 ## Experience Distribution & Traded Pokémon Boost
-- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all participants who did not faint during the battle.
-- **Traded Pokémon Boost (OT Multiplier):** Traded Pokémon (different Original Trainer / ID) receive a 1.5x multiplier (boosted EXP) on their earned share.
-- **Empirical EXP Verification (Cerulean Cave 1F Wild Battles):**
-  - Turn 33501: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Total EXP ~1,049 split 2 ways (524 base each). Sailor earned 787 boosted EXP (524 * 1.5 = 786). Omega earned 525 EXP.
-  - Turn 33519: Wild Lv 46 Golbat defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,116 split 2 ways (558 base each). Sailor earned 837 boosted EXP (558 * 1.5 = 837). Sheldon earned 558 EXP.
-  - Turn 33530: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Sailor earned 787 boosted EXP. Omega earned 525 EXP.
-  - Turn 33579: Wild Lv 46 Hypno defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,076 split 2 ways (538 base each). Sailor earned 807 boosted EXP. Sheldon earned 538 EXP.
-  - Turn 33589: Wild Lv 49 Kadabra defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,008 split 2 ways (504 base each). Sailor earned 756 boosted EXP. Sheldon earned 504 EXP.
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
+  - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
+    `boosted_EXP = s_EXP + floor(s_EXP / 2)`
+  - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
+- **Empirically Verified Battle EXP Calculations:**
+  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525`. Boosted yield = `525 + 262 = 787` [Turns 33501, 33530].
+  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558`. Boosted yield = `558 + 279 = 837` [Turn 33519].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538`. Boosted yield = `538 + 269 = 807` [Turn 33579].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504`. Boosted yield = `504 + 252 = 756` [Turns 33589, 33601].
 
 
 <hr>
@@ -1006,7 +995,7 @@
 - Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+).
 - Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
-- Item Ball at (10, 5): Pok¥ Ball item visible on western elevated plateau north of row 7 ridge.
+- Item Ball at (10, 5): Poké Ball item visible on western elevated plateau north of row 7 ridge.
 
 ## Western Canal & Water Access (Verified Turn 33478)
 - Western Canal Shoreline: Located at (8, 15) on grass, directly adjacent to water shoreline at (8, 16).
