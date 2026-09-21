@@ -4,7 +4,7 @@
 - **No Direct 'A' Interaction:** In retail Pokémon Red/Blue, pressing 'A' while facing a cuttable tree, boulder, or dark cave does NOT prompt the player to use field moves. Field moves MUST be manually selected through the party Pokémon menu.
 - **Menu Execution Sequence:**
   1. Press `Start` to open the Start menu.
-  2. Select `POKéMON` (2nd option from top).
+  2. Select `POKEéMON` (2nd option from top).
   3. Navigate to the party member knowing the desired field move.
   4. Press `A` to open the Pokémon's command menu.
   5. Select the field move (e.g. `CUT`, `FLASH`, `SURF`, `STRENGTH`, `DIG`, `TELEPORT`) at the top of the menu above STATS / SWITCH.
@@ -22,7 +22,7 @@
     - The destination list wraps around continuously in both directions.
     - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
     - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
-  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POK�MON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POK�MON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
+  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POKEeMON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POKEeMON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).
@@ -38,7 +38,7 @@
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
 
 ## Field Items (Poké Flute)
-- **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
+- **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKEéMON blocks the way!" and closes without prompting to play the flute. The POKEé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKEé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 
 ## Bicycle Physics & Locomotion Mechanics
 - **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).

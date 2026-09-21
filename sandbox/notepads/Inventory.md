@@ -111,17 +111,17 @@
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
-  - Evolved from Nidorina via Moon Stone [Turn 31184], Deposited Celadon PC [Turn 31187]
+  - Evolved from Nidorina via Moon Stone [Turn 31184]
 - AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
   - Status: Healthy
   - HP: 91 / 91
   - Moves: Wing Attack, Agility, Supersonic
-  - Revived from Old Amber at Cinnabar Lab [Turn 30947], Deposited Celadon PC [Turn 31154]
+  - Revived from Old Amber at Cinnabar Lab [Turn 30947]
 - OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
   - Status: Healthy
   - HP: 67 / 67
   - Moves: Water Gun, Withdraw, Horn Attack
-  - Revived from Helix Fossil [Turn 30898], Deposited Celadon PC [Turn 31003]
+  - Revived from Helix Fossil [Turn 30898]
 - ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
   - Status: Healthy
   - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]

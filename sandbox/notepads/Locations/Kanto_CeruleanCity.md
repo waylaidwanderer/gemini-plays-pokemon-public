@@ -6,6 +6,13 @@
 - North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
 - East: Route 9 entrance. Stepping East from (39, 16) onto column 40 warps to Route 9 (0, 8) [Turn 28491]. (Note: (38, 16) is internal grass path).
 
+
+## Cerulean City Canal Waterway Topology [Verified Turns 33486-33565]
+- Northern Connection: Enters from Route 24 waterway boundary at (18, 0).
+- East-West Channel: Traversable water canal spanning columns 6..18 across rows 4..5.
+- Column 6 Chute: Vertical water chute flowing south from row 5 down column 6 to row 12, landing on the Cerulean Cave western apron at (5, 12) directly adjacent to cave entrance (4, 11).
+- Southern River: Expands into broader water basin across columns 0..6, rows 14..16, bounded south by stone fence posts at row 17 with an eastern opening at columns 8..9.
+
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
 - Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.

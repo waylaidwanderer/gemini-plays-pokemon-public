@@ -22,9 +22,9 @@
 - Selecting `CHANGE BOX` in Bill's PC does NOT immediately open the box list.
 - Exact Menu & Dialogue Flow:
   1. Select `CHANGE BOX` (Slot 4 in Bill's PC menu).
-  2. Dialogue prints: 'When you change a POK�MON BOX, data will be saved. Is that OK?'
+  2. Dialogue prints: 'When you change a POKEeMON BOX, data will be saved. Is that OK?'
   3. A `YES / NO` selection prompt appears (cursor defaults to `YES`).
   4. Selecting `NO` (or pressing B) cancels the operation and returns to Bill's PC menu without saving.
   5. Selecting `YES` opens the 'Choose a PKMN BOX' list (`BOX 1` through `BOX 12`), with cursor initializing on the current active box.
   6. Navigating to the desired box and pressing A initiates the save routine ('Saving... DON'T TURN OFF THE POWER.').
-  7. Upon save completion, prints '[PLAYER] changed the POK�MON BOX!' and returns to Bill's PC menu with the newly active box displayed.
+  7. Upon save completion, prints '[PLAYER] changed the POKEeMON BOX!' and returns to Bill's PC menu with the newly active box displayed.
