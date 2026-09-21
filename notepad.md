@@ -105,20 +105,20 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 16, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 17, Bug/Grass]
   - Status: Healthy
-  - HP: 40 / 40 [Verified Lv 16 Turn 35618]
-  - Stats: Attack 32, Defense 23, Speed 15, Special 27 [Verified Lv 16 Turn 35618]
+  - HP: 42 / 42
+  - Stats: Attack 33, Defense 25, Speed 16, Special 28 [Verified Lv 17 Turn 35639]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4811 (Target 13,824 for Lv 24 Parasect #047, remaining 9,013) [Verified Turn 35618]
+  - EXP: 5349 (Target 13,824 for Lv 24 Parasect #047, remaining 8,475, 483 to Lv 18) [Verified Turn 35639]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 173 / 225
+  - HP: 153 / 225
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -4977,15 +4977,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Mewtwo Recover (PP 20/20): Restores 50% max HP (up to 121 HP). Use against non-threatening turns (e.g. Hypno Meditate, Poison Gas, or status turns) to sustain Mewtwo HP and eliminate poison attrition without retreating.
 - Secondary Attacks: Mewtwo Swift (PP 19/20) and Blastoise Ice Beam (PP 10/10) provide 29 additional high-yield attacks, extending grinding expeditions far beyond primary STAB moves alone.
 
-### Battle Log:
-- Battle 1 [Turn 35552]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 11! (EXP: 1601 / 13824, remaining: 12223). Stats at Lv 11: Atk 23, Def 17, Spd 12, Spc 19. Blastoise HP: 188/225, Surf PP: 14/15.
-- Battle 2 [Turn 35570]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Swift + Psychic (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 12! (EXP: 2139 / 13824, remaining: 11685). Mewtwo HP: 231/243 (PSN), Psychic PP: 9/10, Swift PP: 19/20.
-- Battle 3 [Turn 35585]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic x2 (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 13! (EXP: 2677 / 13824, remaining: 11147). Learned Stun Spore. Stats at Lv 13: Atk 26, Def 20, Spd 13, Spc 22. Mewtwo HP: 189/243 (PSN), Psychic PP: 8/10.
-- Battle 4 [Turn 35592]: Wild Venomoth Lv 49. Switched Paras -> Mewtwo. Mewtwo used Psychic (Critical OHKO). Total EXP 966. Paras gained 483 EXP -> grew to Lv 14! (EXP: 3160 / 13824, remaining: 10664). Stats at Lv 14: Atk 28, Def 21, Spd 14, Spc 24. Mewtwo HP: 170/243 (PSN), Psychic PP: 7/10.
-- Battle 5 [Turn 35603]: Wild Magneton Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic (Critical OHKO). Total EXP 1050. Paras gained 525 EXP -> grew to Lv 15! (EXP: 3685 / 13824, remaining: 10139). Stats at Lv 15: Atk 30, Def 22, Spd 15, Spc 25. Mewtwo HP: 144/243 (PSN), Psychic PP: 6/10.
-- Battle 6 [Turn 35617]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 16! (EXP: 4286 / 13824, remaining: 9538). Stats at Lv 16: Atk 32, Def 23, Spd 15, Spc 27. Blastoise HP: 173/225, Surf PP: 13/15.
-- Battle 7 [Turn 35628]: Wild Magneton Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic (OHKO). Total EXP 1050. Paras gained 525 EXP (EXP: 4811 / 13824, remaining: 9013, 102 EXP to Lv 17). Mewtwo HP: 119/243 (PSN), Psychic PP: 5/10.
-
-- Battle 8 [Turn 35638]: Wild Hypno Lv 46. Switched Paras -> Blastoise. Blastoise took Headbutt (20 dmg, crit), used Surf x2 (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 17! (EXP: 5349 / 13824, remaining: 8475, 483 EXP to Lv 18). Blastoise HP: 153/225, Surf PP: 11/15.
+### Battle Log (Battles 1-8 Aggregated Summary):
+- Battles 1-8 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x3, Venomoth Lv 49, Magneton Lv 46 x2.
+  - Starting State: Paras Lv 10 (1,000 EXP).
+  - Current State: Paras Lv 17 (5,349 EXP, +4,349 EXP gained across 8 battles). Remaining to Lv 24: 8,475 EXP (483 to Lv 18).
+  - Current Sweeper Status: Blastoise HP 153/225, Surf PP 11/15; Mewtwo HP 119/243 (PSN), Psychic PP 5/10, Swift PP 19/20, Recover PP 20/20.
+- Battle 9 [Turn 35641]: Wild Kadabra Lv 49 encountered.
 
 <hr>
