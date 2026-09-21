@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥3056 [Turn 34152]
-- Pokédex: 46 Caught / 136 Seen [Turn 34072]
+- Pokédex: 47 Caught / 136 Seen [Turn 34159]
 
 ## Milestones
 
@@ -45,3 +45,4 @@
 - [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
 - [x] Evolve Seel into Dewgong (#087) [Turn 33656]
 - [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
+- [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
