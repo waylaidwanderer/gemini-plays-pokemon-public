@@ -4,12 +4,9 @@
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - [x] Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061) [ACHIEVED Turn 34072!].
   - Status: Poliwhirl Lv 25 (12,020 EXP). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
-- Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
 ### Immediate Routing & Action Steps:
-2. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) at Dept Store 4F.
-3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
 - Poliwhirl (RIPPLE Lv 25, Slot 1): HP 70 / 70 (Healthy). Stats: Atk 33, Def 33, Spd 57, Spc 27. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10).
@@ -22,7 +19,6 @@
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
 - Stone Cost: Water Stone = ¥2,100.
-- Target Inventory to Liquidate:
     - Vendor: Celadon Department Store 4F Clerk.
 
 ## Future Strategic Horizons & Candidates
@@ -39,4 +35,4 @@
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
-  - Liquidate Carbos/PP Up to fund stones & Ultra Balls.
+  - Liquidate Carbos to fund stones & Ultra Balls.
