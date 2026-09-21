@@ -53,7 +53,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÃ FLUTE [Key Item]
+1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -97,7 +97,191 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- Â¥256 [Turn 33350]
+- ¥256 [Turn 33350]
+
+## Party Pokémon
+- SEEL (Nickname: SAILOR) [Lv 32, Water]
+  - Status: Healthy
+  - HP: 90 / 90
+  - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
+  - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
+  - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
+  - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
+  - Withdrawn from PC Box 1 [Turn 33429], Lead slot [Turn 33440]
+- MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
+  - Status: Healthy
+  - HP: 234 / 234 [Healed Turn 33286 at Cinnabar Island]
+  - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
+- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+  - Status: Healthy
+  - HP: 20 / 20
+  - Stats: Attack 12, Defense 11, Speed 11, Special 11
+  - OT: TRAINER (IDNo. 24460, Boosted EXP)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
+  - EXP: 125 (91 to Lv 6)
+- BLASTOISE (SHELDON) [Lv 70, Water]
+  - Status: Healthy
+  - HP: 222 / 222
+  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- JOLTEON (Nickname: VEE) [Lv 25, Electric]
+  - Status: Healthy
+  - HP: 68 / 68
+  - Moves: Tackle, Sand-Attack, Thunderbolt
+  - Withdrawn from PC Box 1 [Turn 31191]
+- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+  - Status: Healthy
+  - HP: 26 / 26
+  - Stats: Attack 19, Defense 22, Speed 9, Special 11
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
+  - EXP: 314 (105 to Lv 9)
+
+## PC Box 1 Pokémon
+- SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
+  - Status: Healthy
+  - Caught: Route 10 waterway with Ultra Ball [Turn 31637]
+  - Deposited: Celadon PC Box 1 (19/20) [Turn 31675]
+- PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
+  - Status: Healthy
+  - HP: 42 / 42
+  - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Verified Lv 15 Turn 31564]
+  - OT: BLUE (IDNo. 04620)
+  - EXP: 3375 (721 to Lv 16) [Verified Turn 31565]
+  - Moves: Scratch (PP 35/35) [Verified Turn 31565]
+  - Caught: Cerulean Gym pool with Ultra Ball [Turn 31502]
+  - Deposited: Cerulean PC Box 1 (18/20) [Turn 31576]
+- KRABBY (Nickname: PINCHY) [Lv 15, Water]
+  - Status: Healthy
+  - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
+  - Transferred to PC Box 1 (Active party full: 17/20)
+- TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
+  - Status: Healthy
+  - HP: 62 / 62
+  - Stats: Attack 32, Defense 59, Speed 37, Special 50
+  - OT: TRAINER (IDNo. 37480, Boosted EXP)
+  - Moves: Constrict (PP 35/35), Bind (PP 20/20)
+  - Deposited Cinnabar PC Box 1 [Turn 31307]
+- NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
+  - Status: Healthy
+  - Moves: Growl, Scratch, Poison Sting, Body Slam
+  - Evolved from Nidorina via Moon Stone [Turn 31184], Deposited Celadon PC [Turn 31187]
+- AERODACTYL (Nickname: PTERA) [Lv 30, Rock/Flying]
+  - Status: Healthy
+  - HP: 91 / 91
+  - Moves: Wing Attack, Agility, Supersonic
+  - Revived from Old Amber at Cinnabar Lab [Turn 30947], Deposited Celadon PC [Turn 31154]
+- OMANYTE (Nickname: NAUTILUS) [Lv 30, Rock/Water]
+  - Status: Healthy
+  - HP: 67 / 67
+  - Moves: Water Gun, Withdraw, Horn Attack
+  - Revived from Helix Fossil [Turn 30898], Deposited Celadon PC [Turn 31003]
+- ZAPDOS (Nickname: THUNDER) [Lv 50, Electric/Flying]
+  - Status: Healthy
+  - Caught: Kanto Power Plant with Ultra Ball [Turn 29075]
+  - Transferred to PC Box 1 (Active Party full)
+- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
+  - Status: Healthy
+  - HP: 30 / 30
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
+  - Caught: Route 11 tall grass [Turn 3721]
+  - Deposited to PC Box 1 [Turn 30640]
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+  - Status: Healthy
+  - HP: 38 / 38
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - Caught: Diglett's Cave [Turn 3507]
+  - Deposited to PC Box 1 [Turn 30645]
+- PINSIR (Nickname: PINCER) [Lv 23, Bug]
+  - Status: Healthy
+  - Caught: Safari Zone Center Area tall grass [Turn 10141]
+  - Transferred to PC Box 1 (Active Party full)
+- MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
+  - Status: Healthy
+  - HP: Full
+  - Caught: Route 11 with Old Rod [Turn 3694]
+- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
+  - Status: Healthy
+  - HP: Full
+  - Caught: Route 11 tall grass [Turn 3751]
+- CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
+  - Status: Healthy
+  - Caught: Safari Zone Area 2 tall grass [Turn 8384]
+  - Transferred to PC Box 1 (Active Party full)
+- KANGASKHAN (Nickname: MATILDA) [Lv 25, Normal]
+  - Status: Healthy
+  - Caught: Safari Zone Area 1 tall grass [Turn 9001]
+  - Transferred to PC Box 1 (Active Party full)
+- LAPRAS (Nickname: NESSY) [Lv 15, Water/Ice]
+  - Status: Healthy
+  - Received: Silph Co employee gift [Turn 12858, Verified Turn 12865]
+  - Transferred to PC Box 1 (Active Party full)
+- HITMONLEE (Nickname: BRUCE) [Lv 30, Fighting]
+  - Status: Healthy
+  - Received: Fighting Dojo prize [Turn 13254]
+  - Transferred to PC Box 1 (Active Party full)
+- PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+  - Status: Healthy
+  - Deposited from active party [Turn 13315]
+
+## PC Box 2 Pokémon
+- TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
+  - Status: Healthy
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
+  - Transferred to PC Box 2 (1/20)
+- POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
+  - Status: Healthy
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
+  - Transferred to PC Box 2 (2/20)
+- JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
+  - Status: Healthy
+  - HP: 65 / 65
+  - Stats: Attack 32, Defense 26, Speed 56, Special 56 [Verified Lv 23 Turn 31735]
+  - OT: DONA (IDNo. 19854, Boosted EXP)
+  - Moves: Pounds (PP 35/35), Lick (PP 30/30), Lovely Kiss (PP 10/10) [Verified Turn 31735]
+  - Received: Traded for Poliwhirl (SWIRLY) in Cerulean City [Turn 31724]
+  - Deposited: Celadon PC Box 2 (3/20) [Turn 32128]
+- ELECTRODE (Nickname: DORIS) [Lv 3, Electric]
+  - Status: Healthy
+  - HP: 17 / 17
+  - Stats: Attack 8, Defense 9, Speed 13, Special 9 [Verified Lv 3 Turn 32225]
+  - OT: TRAINER (IDNo. 47899, Boosted EXP)
+  - EXP: 27 (37 to Lv 4) [Verified Turn 32225]
+  - Moves: Tackle (PP 35/35), Screech (PP 40/40), Sonicboom (PP 20/20) [Verified Turn 32225]
+  - Received: Traded for Raichu (SPARK) in Cinnabar Lab Meeting Room [Turn 32218]
+  - Deposited: Cinnabar PC Box 2 (4/20) [Turn 32238]
+- GRIMER (Nickname: GOOP) [Lv 30, Poison]
+  - Status: Healthy
+  - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
+  - Transferred to PC Box 2 (5/20)
+- MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
+  - Status: Healthy
+  - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
+  - Transferred to PC Box 2 (8/20)
+- MUK (Nickname: SLUDGE) [Lv 37, Poison]
+  - Status: Healthy
+  - Deposited from active party into PC Box 2 (9/20) [Turn 33226]
+- WEEZING (Nickname: SMOGGY) [Lv 39, Poison]
+  - Status: Healthy
+  - HP: 102 / 102
+  - Stats: Attack 81, Defense 105, Speed 54, Special 77 [Verified Lv 39 Turn 33277]
+  - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
+  - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
+  - Deposited: Cinnabar PC Box 2 (10/20) [Turn 33294]
+- NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
+  - Status: Healthy
+  - HP: 95 / 95
+  - Stats: Attack 55, Defense 57, Speed 76, Special 79 [Verified Lv 33 Turn 33363]
+  - EXP: 35937 (3367 to Lv 34) [Verified Turn 33364]
+  - Moves: Tail Whip (PP 30/30), Quick Attack (PP 30/30), Roar (PP 20/20), Confuse Ray (PP 10/10) [Verified Turn 33364]
+  - OT: BLUE (IDNo. 04620)
+  - Evolved from Vulpix via Fire Stone [Turn 33357]
+  - Deposited: Celadon PC Box 2 (11/20) [Turn 33408]
 
 
 <hr>
@@ -4770,6 +4954,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
 
 ## PC Storage & Menu Mechanics (Generation 1 Retail)
+- **Pokémon Box Storage Indexing:** Empirically confirmed Turn 33419: in Box 1, Krabby (PINCHY, caught Turn 31540) was listed at Slot 1 ahead of Zapdos (THUNDER, caught Turn 29075), disproving strict chronological box index ordering.
 - **Chronological Storage Order:** In Gen 1 retail, items deposited into the player's PC (BLUE's PC) and Pokémon deposited into BILL's PC boxes are appended to the list in strictly chronological order of deposit.
 - **Item Storage Withdrawal:** When withdrawing items from BLUE's PC, single-quantity items withdraw immediately upon confirmation, while stacked items prompt for quantity (x01..x99). Withdrawn items are placed into the next available Bag slot.
 - **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
