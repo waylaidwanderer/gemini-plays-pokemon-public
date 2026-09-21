@@ -68,32 +68,32 @@
 - Active Bag Items: 8 / 20 capacity used.
 
 ## Stored / PC Items
-- TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
-- TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
-- TM27 (FISSURE) x1 (PC) [Stored Turn 24575]
-- TM38 (FIRE BLAST) x1 (PC) [Stored Turn 24569]
-- SECRET KEY x1 (PC) [Stored Turn 24565]
-- TM22 (SOLARBEAM) x1 (PC) [Stored Turn 24561]
-- TM14 (BLIZZARD) x1 (PC) [Stored Turn 24557]
-- CARBOS x1 (PC) [Stored Turn 24553]
-- ESCAPE ROPE x1 (PC) [Stored Turn 24548]
-- HM01 (CUT) x1 (PC) [Stored Turn 24526]
-- TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
-- CARD KEY x1 (PC) [Stored Turn 13305]
-- TM29 (PSYCHIC) x1 (PC) [Stored Turn 13303]
-- GOOD ROD x1 (PC) [Stored Turn 13300]
-- HM03 (SURF) x1 (PC) [Stored Turn 13298]
-- HM04 (STRENGTH) x1 (PC) [Stored Turn 13296]
-- SILPH SCOPE x1 (PC) [Stored Turn 13294]
-- LIFT KEY x1 (PC) [Stored Turn 13292]
-- COIN CASE x1 (PC) [Stored Turn 13288]
-- HM05 (FLASH) x1 (PC) [Stored Turn 13286]
-- OLD ROD x1 (PC) [Stored Turn 12567]
-- TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
-- TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
-- MOON STONE x1 (PC) [Stored Turn 12205, Turn 24545]
-- S.S. TICKET x1 (PC) [Stored Turn 6582]
-- ELIXER x1 (PC) [Stored Turn 6588]
+- TM17 (SUBMISSION) x1 (PC)
+- TM43 (SKY ATTACK) x1 (PC)
+- TM27 (FISSURE) x1 (PC)
+- TM38 (FIRE BLAST) x1 (PC)
+- SECRET KEY x1 (PC)
+- TM22 (SOLARBEAM) x1 (PC)
+- TM14 (BLIZZARD) x1 (PC)
+- CARBOS x1 (PC)
+- ESCAPE ROPE x1 (PC)
+- HM01 (CUT) x1 (PC)
+- TM46 (PSYWAVE) x1 (PC)
+- CARD KEY x1 (PC)
+- TM29 (PSYCHIC) x1 (PC)
+- GOOD ROD x1 (PC)
+- HM03 (SURF) x1 (PC)
+- HM04 (STRENGTH) x1 (PC)
+- SILPH SCOPE x1 (PC)
+- LIFT KEY x1 (PC)
+- COIN CASE x1 (PC)
+- HM05 (FLASH) x1 (PC)
+- OLD ROD x1 (PC)
+- TM21 (MEGA DRAIN) x1 (PC)
+- TM06 (TOXIC) x1 (PC)
+- MOON STONE x1 (PC)
+- S.S. TICKET x1 (PC)
+- ELIXER x1 (PC)
 - TM34 (BIDE) x1 (PC)
 - TM12 (WATER GUN) x1 (PC)
 - TOWN MAP x1 (PC)
@@ -104,6 +104,7 @@
 ## Party Pokémon
 - POLIWAG (Nickname: RIPPLE) [Lv 19, Water]
   - Status: Healthy
+  - HP: 45 / 45 [Verified Lv 19 Turn 33863]
   - Stats: Attack 26, Defense 26, Speed 43, Special 21 [Verified Lv 19 Turn 33856]
   - OT: BLUE (IDNo. 04620)
   - EXP: 4632 [Turn 33856]
@@ -118,7 +119,7 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30), Fly (PP 15/15) [Learned HM02 Turn 28796]
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
-  - Status: Healthy
+  - Status: Paralyzed (PAR)
   - HP: 74 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
@@ -5014,8 +5015,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ### Immediate Routing & Action Steps:
 1. Switch-train Poliwag (Slot 1) on Cerulean Cave 1F (patrolling rows 14-15) to Level 25 -> Poliwhirl (#061).
-2. Fly to Celadon City, sell 1 PP Up (yields �4,900) or 1 Max Elixer (yields �2,250) at Dept Store 4F.
-3. Purchase 1 Water Stone (�2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
+2. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) at Dept Store 4F.
+3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
 - Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 5/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
