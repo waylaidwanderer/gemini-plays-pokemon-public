@@ -37,6 +37,6 @@
   - Technical Machines (TMs) and Hidden Machines (HMs) cannot be sold to Mart clerks in Generation 1 retail; attempting to sell TMs (e.g. TM35) or HMs prompts 'I can't put a price on that.' and denies the transaction [Empirically verified Turn 34107].
 
 ## PC Interaction Geometry & Orientation Mechanics [Empirically Verified Turns 34960-34966]
-- In Pokémon Centers, the PC terminal monitor is positioned at (13, 3) above the keyboard counter at (13, 4).
+- In Pokémon Centers, the PC terminal monitor is positioned at (13, 3). Tile (13, 4) is the open floor tile directly in front of the terminal.
 - The player MUST stand at (13, 4) facing North to boot up the PC terminal.
 - Attempting to interact with the PC monitor from the side at (12, 3) facing East produces no effect and does not open dialogue or boot the system.

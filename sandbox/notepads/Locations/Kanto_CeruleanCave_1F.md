@@ -11,7 +11,7 @@
   - Ladder (0, 6): Descending cave ladder leading directly to B1F (Mewtwo)!
   - Exit Ledge: South-facing jump ledge along Row 7 (Cols 0..2) allows one-way hopping south into Row 8 to exit the corridor.
 - Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
-- South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
+- South Exit: Warp threshold spanning (24..25, 17) leading outside to Cerulean City canal [Verified Turn 35382].
 
 ## Layout & Corridors
 - Northern Terrace Full Survey (Cols 5..16, Rows 0..2): Elevated plateau spanning Columns 5 through 16 across Rows 0..2. Bounded on the north by cavern ceiling at Row -1, on the south by solid continuous rock wall across Row 3 (Cols 4..16, bypassed only via Staircase 15, 3 from subterranean water), and on the west by solid rock wall at Column 4 (Rows 0..3) [Visually and physically confirmed Turn 27179-27181]. Contains Ladder (7, 1) at (7, 1) ascending to 2F (9, 1). Physical bump tests confirmed (5, 3) [Turn 27478], (4, 2) [Turn 27483], (4, 1) [Turn 27483], and (4, 0) [Turn 27483] are all solid rock walls, proving the Northern Terrace (Cols 5..16, Rows 0..2) is completely enclosed and connects strictly to water via Staircase (15, 3) and 2F via Ladder (7, 1).
@@ -31,7 +31,7 @@
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (14, 4) [Verified Turn 27908: (13, 4) is solid rock boundary]. At (15, 4), connects north to Staircase (15, 3) and south down Column 15 into Row 6 waterway.
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
-- Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
+- Entrance Mat: Spans (24..25, 16..17). Stepping south from (24..25, 17) warps outside to exterior landing at (4, 11) [Verified Turn 35382].
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
 - Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
