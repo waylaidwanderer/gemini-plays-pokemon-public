@@ -4986,5 +4986,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 6 [Turn 35617]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 16! (EXP: 4286 / 13824, remaining: 9538). Stats at Lv 16: Atk 32, Def 23, Spd 15, Spc 27. Blastoise HP: 173/225, Surf PP: 13/15.
 - Battle 7 [Turn 35628]: Wild Magneton Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic (OHKO). Total EXP 1050. Paras gained 525 EXP (EXP: 4811 / 13824, remaining: 9013, 102 EXP to Lv 17). Mewtwo HP: 119/243 (PSN), Psychic PP: 5/10.
 
+- Battle 8 [Turn 35638]: Wild Hypno Lv 46. Switched Paras -> Blastoise. Blastoise took Headbutt (20 dmg, crit), used Surf x2 (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 17! (EXP: 5349 / 13824, remaining: 8475, 483 EXP to Lv 18). Blastoise HP: 153/225, Surf PP: 11/15.
 
 <hr>
