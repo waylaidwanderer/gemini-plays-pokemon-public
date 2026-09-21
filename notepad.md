@@ -3518,7 +3518,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Wild Encounters (Verified Species & Level Bands)
 - Grimer (Lv 30-32) [Common]
 - Ponyta (Lv 28-34) [Common]
-- Muk (Lv 37) [Rare]
+- Muk (Lv 37) [Rare, Verified Turn 33189 at (16, 26)]
 - Vulpix (Lv 34) [Verified Turn 32848]
 - Weezing (Lv 39) [Verified Turn 33164 at (20, 20)] [Very Rare]
 
