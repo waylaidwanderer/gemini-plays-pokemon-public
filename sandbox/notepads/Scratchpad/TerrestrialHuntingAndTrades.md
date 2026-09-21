@@ -1,11 +1,11 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
-- Target: Sandshrew (PANGO Lv 15, Box 1 Slot 8)
+- Target: Sandshrew (PANGO Lv 15, 41/41 HP, Atk 27, Def 30, Spd 21, Spc 15, Scratch 35/35, Sand-Attack 15/15) [Verified Turn 34633]
 - Target Level: Lv 22 (Sandslash #028)
 - Target EXP: 22^3 = 10,648 EXP
-- Starting EXP (Lv 15): 15^3 = 3,375 EXP
-- Total Delta: ~7,273 EXP (~13-14 Cerulean Cave 1F switch battles)
+- Starting EXP (Lv 15): 3,375 EXP (721 to Lv 16) [Verified Turn 34633]
+- Total Delta: 7,273 EXP (~13-14 Cerulean Cave 1F switch battles)
 - Switch-Training Sweeper: Mewtwo (OMEGA Lv 71) / Blastoise (SHELDON Lv 71)
 
 ## Completed Evolutions:
