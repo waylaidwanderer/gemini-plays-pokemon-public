@@ -75,5 +75,5 @@
   - Muk (Lv 40): 1 encounter [Turn 33067 at (22, 26)]
   - Ponyta (Lv 32): 3 encounters [Turn 33057 at (24, 25), Turn 33103 at (25, 25), Turn 33144 at (23, 17)]
   - Magmar (Lv 38): 1 encounter [CAUGHT with Ultra Ball Turn 33046, nicknamed VULCAN, Box 2]
-  - Grimer (Lv 31-33): 11 encounters [Turn 33020 Lv 33 at (25, 26), Turn 33023 Lv 33 at (25, 25), Turn 33063 Lv 33 at (22, 26), Turn 33075 Lv 33 at (22, 26), Turn 33081 Lv 31 at (25, 25), Turn 33086 Lv 33 at (23, 25), Turn 33098 Lv 31 at (21, 26), Turn 33107 Lv 33 at (27, 25), Turn 33110 Lv 33 at (27, 25), Turn 33114 Lv 31 at (21, 26), Turn 33148 Lv 31 at (15, 23), Turn 33203 Lv 33 at (16, 26), Turn 33206 Lv 33 at (15, 19)]
+  - Grimer (Lv 31-33): 13 encounters documented across B1F survey [Turns 33020-33206]
   - Vulpix (Lv 33-35): 4 encounters [Turn 33012 Lv 33 at (24, 24), Turn 33028 Lv 35 at (22, 25), Turn 33094 Lv 35 at (21, 26), Turn 33117 Lv 35 at (27, 25)]

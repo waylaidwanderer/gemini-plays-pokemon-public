@@ -13,10 +13,9 @@
 - Koffing evolves into Weezing at Level 35.
 - Bag contains RARE CANDY x1 (Slot 8).
 - Strategy:
-  1. Exit Mansion B1F via staircase at (23, 22).
-  2. Navigate through 1F to exit at (5, 27) into Cinnabar Island.
-  3. Visit Cinnabar Pokémon Center PC.
-  4. Deposit Muk (SLUDGE) to free a party slot.
-  5. Withdraw Koffing (SMOGGY) from PC Box 2.
-  6. Use RARE CANDY on Koffing to level to 35 -> evolves into Weezing (#110)!
-  7. Register Weezing (#110) in Pokédex.
+  1. Navigate through 1F to exit at (5, 27) into Cinnabar Island.
+  2. Visit Cinnabar Pokémon Center PC.
+  3. Deposit Muk (SLUDGE) to free a party slot.
+  4. Withdraw Koffing (SMOGGY) from PC Box 2.
+  5. Use RARE CANDY on Koffing to level to 35 -> evolves into Weezing (#110)!
+  6. Register Weezing (#110) in Pokédex.
