@@ -304,6 +304,7 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pok�mon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POK�MON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 - **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
