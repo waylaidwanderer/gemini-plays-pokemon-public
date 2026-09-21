@@ -50,6 +50,7 @@
 - Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 13, Water]
   - Status: Healthy
   - HP: Healthy [Verified Lv 13 Turn 35090]
+  - Stats: Attack 9, Defense 20, Speed 29, Special 12 [Verified Lv 13 Turn 35091]
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)

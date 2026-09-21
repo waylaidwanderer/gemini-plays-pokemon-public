@@ -104,14 +104,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 12, Water]
+- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 13, Water]
   - Status: Healthy
-  - HP: 27 / 27 [Verified Lv 12 Turn 35086]
-  - Stats: Attack 8, Defense 19, Speed 27, Special 11 [Verified Lv 12 Turn 35080]
+  - HP: Healthy [Verified Lv 13 Turn 35090]
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 2295 (7,705 to Lv 20 Gyarados) [Turn 35079]
+  - EXP: 2853 (7,147 to Lv 20 Gyarados) [Turn 35090]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -136,7 +135,7 @@
   - HP: 231 / 243 [Verified Turn 35078]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5041,13 +5040,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
-- Current EXP: 2,295 EXP (Lv 12, Delta to Gyarados: 7,705 EXP, ~14 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 162/225, PSN, Surf 12/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, Swift 20/20, Psychic 9/10)
+- Current EXP: 2,853 EXP (Lv 13, Delta to Gyarados: 7,147 EXP, ~13 switch-training battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 158/225, PSN, Surf 12/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 231/243, Swift 20/20, Psychic 8/10)
 
 ### Switch-Training Progress:
-- Completed Battles: 4 Battles Won (3 Wild Hypno Lv 46, 1 Wild Magneton Lv 46)
-- EXP Gained: +2,139 EXP (156 -> 2,295 EXP, grew from Lv 5 to Lv 12)
-- Remaining Delta to Lv 20 Gyarados: 7,705 EXP (~14 battles)
+- Completed Battles: 5 Battles Won (3 Wild Hypno Lv 46, 1 Wild Magneton Lv 46, 1 Wild Golbat Lv 46)
+- EXP Gained: +2,697 EXP (156 -> 2,853 EXP, grew from Lv 5 to Lv 13)
+- Remaining Delta to Lv 20 Gyarados: 7,147 EXP (~13 battles)
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
