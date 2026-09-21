@@ -121,7 +121,7 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Poisoned (PSN)
-  - HP: 97 / 225 [Verified Turn 35146]
+  - HP: 87 / 225 [Verified Turn 35154]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
