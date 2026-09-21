@@ -1,11 +1,11 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
-- Current Status: Level 25 (16,900 EXP, 676 to Lv 26) [Verified Battle 17 Turn 34499].
+- Current Status: Level 25 (17,383 EXP, 193 to Lv 26) [Verified Battle 18 Turn 34535].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-- Remaining Delta: 17,576 - 16,900 = 676 EXP (~1-2 Cerulean Cave battles).
-- Switch-Training Sweepers: Mewtwo (OMEGA Lv 70, 234/234 HP, Healthy, Swift 20/20, Psychic 10/10), Blastoise (SHELDON Lv 71, 225/225 HP). [Fully Healed Turn 34507]
-- Progress Summary: 17 battles completed (+9,218 EXP gained).
+- Remaining Delta: 17,576 - 17,383 = 193 EXP (~1 battle to Dugtrio evolution!).
+- Switch-Training Sweepers: Mewtwo (OMEGA Lv 70, 229/234 HP, Healthy, Swift 20/20, Psychic 9/10), Blastoise (SHELDON Lv 71, 225/225 HP).
+- Progress Summary: 18 battles completed (+9,701 EXP gained).
   - Milestones: Lv 20 reached Battle 1, Lv 21 reached Battle 3, Lv 22 reached Battle 6, Lv 23 reached Battle 9, Lv 24 reached Battle 12 (learned Sand-Attack), Lv 25 reached Battle 15.
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
@@ -17,8 +17,7 @@
   - Venomoth Lv 49: 483 EXP (total 966 EXP / 2 participants = 483 EXP)
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 17 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached 16,900 EXP (676 to Lv 26).
-- Battle 18 Active: Wild Venomoth Lv 49 appeared [Turn 34529].
+- Battle 18 Concluded: Wild Venomoth Lv 49 OHKOed with Psychic (+483 EXP). Diglett reached 17,383 EXP (only 193 to Lv 26!). Next battle triggers Dugtrio (#051) evolution!
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46: Empirically verified ~55-60% HP per hit (reliable 2-hit KO, observed Battles 10, 11, 12, 14).
