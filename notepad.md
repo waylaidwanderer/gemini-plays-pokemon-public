@@ -111,7 +111,7 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 7653 (920 to Lv 19, 2,347 to Lv 20 Gyarados) [Turn 35215]
+  - EXP: 8178 (395 to Lv 19, 1,822 to Lv 20 Gyarados) [Verified Turn 35292]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -136,7 +136,7 @@
   - HP: 243 / 243 [Healed Turn 35234]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 6: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5025,12 +5025,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Evolve Magikarp (TSUNAMI) into Gyarados (#130)
 - Target: Level 20 (10,000 EXP, Pokédex #130)
-- Current EXP: 7,653 EXP (Lv 18, 920 to Lv 19, Remaining Delta: 2,347 EXP, ~4-5 battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Healthy, Surf 15/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 10/10) [Fully Healed Turn 35234]
+- Current EXP: 8,178 EXP (Lv 18, 395 to Lv 19, Remaining Delta: 1,822 EXP, ~3-4 battles)
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Healthy, Surf 15/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Healthy, Swift 20/20, Psychic 9/10) [Turn 35292]
 
 ### Switch-Training Session Progress:
-- Completed Battles: 14 Battles Won (4 Hypno Lv 46, 2 Magneton Lv 46, 3 Golbat Lv 46, 2 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
-- Total Session EXP Gained: +7,497 EXP (from base 156 EXP)
+- Completed Battles: 15 Battles Won (4 Hypno Lv 46, 3 Magneton Lv 46, 3 Golbat Lv 46, 2 Sandslash Lv 52, 1 Venomoth Lv 49, 1 Raichu Lv 53, 1 Parasect Lv 52)
+- Total Session EXP Gained: +8,022 EXP (from base 156 EXP)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -5046,8 +5046,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP.
-- Magikarp (TSUNAMI Lv 18, 7,653 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 2,347 EXP.
-- Exact projected battles remaining: ceil(2347 / 530) = **4.4 (~4-5 battles)**.
+- Magikarp (TSUNAMI Lv 18, 8,178 EXP): Delta to Lv 20 Gyarados (10,000 EXP) = 1,822 EXP.
+- Exact projected battles remaining: ceil(1822 / 530) = **3.4 (~3-4 battles)**.
 
 ### Rigorous Candidate Decision Matrix
 1. PARAS (FUNGI Lv 10, Box 1 Slot 7):
