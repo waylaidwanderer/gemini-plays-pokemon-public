@@ -3,22 +3,22 @@
 ## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
 - Target: Sandshrew (PANGO Lv 21)
 - Target Level: Lv 22 (Sandslash #028, 10,648 EXP)
-- Current EXP: 9,316 EXP (1,332 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34896]
-- Battles Completed: 11
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 75/243, Psychic 0/10, Swift 18/20) / Blastoise (SHELDON Lv 71, HP 225/225, Surf 15/15, Ice Beam 10/10)
+- Current EXP: 9,799 EXP (849 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34915]
+- Battles Completed: 12
+- Switch-Training Sweeper: Blastoise (SHELDON Lv 71, HP 219/225, Surf 14/15) / Mewtwo (OMEGA Lv 71, HP 75/243, Swift 18/20)
 
 ### Sweeper & Recovery Protocol
 - Recover Threshold: Use Recover when Mewtwo's HP drops below 100 HP (restores 121 HP back to ~200+ HP).
-- Sweeper Transition: With Mewtwo's Psychic at 1/10 PP, use the final Psychic against Poison-types (Venomoth/Golbat). Once Psychic reaches 0 PP, deploy Blastoise (SHELDON Lv 71, Surf 15/15 PP, Ice Beam 10/10 PP) as primary switch sweeper against bulky targets (Hypno, Sandslash), or use Mewtwo's Swift (18/20 PP) against frail targets.
+- Sweeper Transition: With Mewtwo's Psychic at 0 PP, deploy Blastoise (SHELDON Lv 71, Surf 14/15 PP, Ice Beam 10/10 PP) as primary switch sweeper against bulky targets (Hypno, Sandslash), or use Mewtwo's Swift (18/20 PP) against frail targets.
 - Retreat Threshold: If Blastoise Surf/Ice Beam or Mewtwo Swift runs low, walk 3 tiles south to (24, 17) to exit to Cerulean canal and Fly/Surf to Cerulean Pokémon Center.
 
-### Completed Switch-Training Battles (Battles 1-11 Aggregate)
-- Battles Won: 11 (Golbat x3, Venomoth x3, Sandslash x2, Magneton x1, Hypno x1, Dodrio x1)
-- Total EXP Gained by PANGO: 5,941 EXP (grew Lv 15 -> Lv 21; Atk 37, Def 42, Spd 29, Spc 20)
-- Progress: 9,316 / 10,648 EXP (1,332 to Lv 22 Sandslash)
+### Completed Switch-Training Battles (Battles 1-12 Aggregate)
+- Battles Won: 12 (Golbat x3, Venomoth x4, Sandslash x2, Magneton x1, Hypno x1, Dodrio x1)
+- Total EXP Gained by PANGO: 6,424 EXP (grew Lv 15 -> Lv 21; Atk 37, Def 42, Spd 29, Spc 20)
+- Progress: 9,799 / 10,648 EXP (849 to Lv 22 Sandslash)
 - Active Sweepers & Resources:
-  - Mewtwo (OMEGA Lv 71): HP 75/243, Psychic 0/10, Swift 18/20, Recover 20/20
-  - Blastoise (SHELDON Lv 71): HP 225/225, Surf 15/15, Ice Beam 10/10 (Full Backup Sweeper)
+  - Blastoise (SHELDON Lv 71): HP 219/225, Surf 14/15, Ice Beam 10/10 (Primary Sweeper)
+  - Mewtwo (OMEGA Lv 71): HP 75/243, Swift 18/20, Recover 20/20 (Backup Sweeper)
 - Safety & Retreat Route: Physical cave exit warp is at Cerulean Cave 1F (24, 17) [3 tiles south of patrol area]. Exit leads directly outside to Cerulean canal -> Surf/Fly to Cerulean Pokémon Center.
 
 ## Completed Evolutions:

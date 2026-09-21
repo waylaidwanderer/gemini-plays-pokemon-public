@@ -91,7 +91,7 @@
   - Stats: Attack 37, Defense 42, Speed 29, Special 20 [Verified Lv 21 Turn 34896]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 9316 (1,332 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34896]
+  - EXP: 9799 (849 to Lv 22 Sandslash) [After Venomoth Lv 49 Turn 34915]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
