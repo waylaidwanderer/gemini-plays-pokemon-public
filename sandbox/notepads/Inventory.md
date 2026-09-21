@@ -54,18 +54,18 @@
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Turn 35111]
+  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119]
+  - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Poisoned (PSN)
   - HP: 119 / 225 [Verified Turn 35124]
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
@@ -73,11 +73,11 @@
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119]
+  - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 5: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Paralyzed (PAR)
+  - Status: Healthy [Haze cured PAR Turn 35126]
   - HP: 231 / 243 [Verified Turn 35111]
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
@@ -108,15 +108,15 @@
   - Stats: Attack 50, Defense 54, Speed 41, Special 32 [Verified Lv 22 Sandslash Turn 34941]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [After Golbat Lv 46 Turn 34937]
+  - EXP: 11206 (Medium Fast, Lv 22, 1,029 to Lv 23) [Verified Turn 34941]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941], Deposited into Box 1 [Turn 34976, Slot 13]
 - DUGTRIO (Nickname: DIGBY) [Lv 26, Ground]
   - Status: Healthy
   - HP: 62 / 62 [Verified Lv 26 Turn 34568]
-  - Stats: Attack 9, Defense 22, Speed 33, Special 13 [Verified Lv 15 Turn 35128]
+  - Stats: Attack 57, Defense 38, Speed 78, Special 48 [Verified Lv 26 Turn 34568]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 4537 (583 to Lv 16, 5,463 to Lv 20 Gyarados) [Turn 35128] [Turn 35119] [Verified Turn 34570]
+  - EXP: 17576 (Medium Fast, Lv 26) [Verified Turn 34570]
   - Growth Group: Medium Fast (EXP = Level^3)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15)
   - Caught: Diglett's Cave [Turn 3507], Evolved to Dugtrio (#051) [Turn 34560, Verified Turn 34568], Deposited to Box 1 [Turn 34596]
