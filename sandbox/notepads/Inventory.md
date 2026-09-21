@@ -47,13 +47,12 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 20, Water]
+- Slot 1: GYARADOS (Nickname: TSUNAMI) [Lv 20, Water/Flying]
   - Status: Healthy
-  - Stats: Attack 12, Defense 29, Speed 43, Special 17 [Verified Lv 20 Turn 35363]
-  - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
+  - Moves: Splash, Tackle, Bite
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
-  - EXP: 10338 (Level 20 - Evolving to Gyarados #130!) [Verified Turn 35363]
+  - EXP: 10338 (Level 20 - Evolved from Magikarp #129 into Gyarados #130!) [Turn 35366]
   - Caught: Route 11 with Old Rod [Turn 3694], Withdrawn from Box 1 [Turn 34991]
 - Slot 2: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
