@@ -58,7 +58,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÃ FLUTE [Key Item]
+1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -106,6 +106,8 @@
 ## Party Pokémon
 - Slot 1: MAGIKARP (Nickname: TSUNAMI) [Lv 19, Water]
   - Status: Healthy
+  - HP: 37 / 37 [Verified Lv 19 Turn 35309]
+  - Stats: Attack 11, Defense 27, Speed 41, Special 16 [Verified Lv 19 Turn 35309]
   - Moves: Splash (PP 40/40), Tackle (PP 35/35) [Learned Tackle Lv 15 Turn 35128]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Slow (EXP = 1.25 * Level^3)
@@ -5073,10 +5075,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
 
 ### Magikarp Switch-Training Combat Protocol
-- Magikarp (TSUNAMI Lv 18, HP 36/36) has Splash/Tackle, but cannot survive high-level Cerulean Cave attacks.
+- Magikarp (TSUNAMI Lv 19, HP 37/37) has Splash/Tackle, but cannot survive high-level Cerulean Cave attacks.
 - Turn 1 of battle: Immediately switch Magikarp out to Sweeper (Blastoise / Mewtwo).
 - Switch Target Choice:
-  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 225/225, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
+  - If opposing Pokémon is fast physical attacker (Dodrio, Sandslash) or bulky (Hypno): Switch to Blastoise (SHELDON Lv 71, HP 215/225, PSN, Defense 194). Blastoise easily tanks hits and OHKOs with Surf/Ice Beam.
   - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton, Hypno, Raichu): Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep with STAB Psychic / Swift.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
