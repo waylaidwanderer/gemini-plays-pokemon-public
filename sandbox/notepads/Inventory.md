@@ -53,6 +53,7 @@
   - HP: 113 / 113 [Verified Lv 34 Turn 33657]
   - Stats: Attack 56, Defense 67, Speed 59, Special 79 [Verified Lv 34 Turn 33657]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
+  - EXP: 40203 (2672 to Lv 35) [Verified Turn 33669]
   - Moves: Headbutt (PP 14/15), Growl (PP 40/40) [Verified Turn 33639]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 - BLASTOISE (SHELDON) [Lv 70, Water]
@@ -73,7 +74,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 33669]
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
