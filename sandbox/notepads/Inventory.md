@@ -47,6 +47,11 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+  - Status: Healthy
+  - HP: 38 / 38
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - Caught: Diglett's Cave [Turn 3507]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -89,7 +94,7 @@
 - Slot 8: SANDSHREW (PANGO) [Lv 15]
 - Slot 9: PARAS (FUNGI) [Lv 10]
 - Slot 10: DROWZEE (SANDMAN) [Lv 9]
-- Slot 11: DIGLETT (DIGBY) [Lv 19] -> Active withdrawal target!
+- Slot 11: [Withdrawn Turn 34238 - DIGLETT (DIGBY) Lv 19]
 - Slot 12: OMANYTE (NAUTILUS) [Lv 30]
 - Slot 13: AERODACTYL (PTERA) [Lv 30]
 - Slot 14: NIDOQUEEN (QUEENIE) [Lv 33]
