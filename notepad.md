@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥3056 [Turn 34152]
-- Pokédex: 46 Caught / 136 Seen [Turn 34072]
+- Pokédex: 47 Caught / 136 Seen [Turn 34159]
 
 ## Milestones
 
@@ -47,6 +47,7 @@
 - [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
 - [x] Evolve Seel into Dewgong (#087) [Turn 33656]
 - [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
+- [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
 
 
 <hr>
@@ -64,10 +65,9 @@
 6. HM02 [Key Item]
 7. MAX POTION x 1
 8. TM35 (METRONOME) x 1
-9. WATER STONE x 1
 
 ## Inventory Capacity
-- Active Bag Items: 9 / 20 capacity used.
+- Active Bag Items: 8 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC)
@@ -103,7 +103,7 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- POLIWHIRL (Nickname: RIPPLE) [Lv 25, Water]
+- POLIWRATH (Nickname: RIPPLE) [Lv 25, Water/Fighting]
   - Status: Healthy
   - HP: 70 / 70 [Verified Lv 25 Turn 34075]
   - Stats: Attack 33, Defense 33, Speed 57, Special 27 [Verified Lv 25 Turn 34070]
@@ -111,7 +111,7 @@
   - EXP: 12020 (1,391 to Lv 26) [Turn 34071]
   - Growth Group: Medium Slow
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10)
-  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072]
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824], Evolved to Poliwhirl (#061) [Turn 34072], Evolved to Poliwrath (#062) via Water Stone [Turn 34159]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
