@@ -5,7 +5,7 @@
 ## Status
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Money: ¥206 [Turn 32406]
+- Money: ¥256 [Turn 33350]
 - Pokédex: 44 Caught / 136 Seen [Turn 33363]
 
 ## Milestones
@@ -108,7 +108,7 @@
   - EXP: 32768 (3169 to Lv 33) [Verified Turn 31435]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
-  - Withdrawn from PC Box 1 [Turn 33429], Lead slot [Turn 33440]
+  - Withdrawn from PC Box 1 [Turn 33429]
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
   - HP: 234 / 234 [Healed Turn 33286 at Cinnabar Island]
@@ -997,6 +997,13 @@
 - Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
 - Item Ball at (10, 5): Pok¥ Ball item visible on western elevated plateau north of row 7 ridge.
+
+## Western Canal & Water Access (Verified Turn 33478)
+- Western Canal Shoreline: Located at (8, 15) on grass, directly adjacent to water shoreline at (8, 16).
+- Accessible from Northern Avenue by walking west through open grass at (9..8, 14..15) north of the Nugget Bridge stone railing.
+- Surfing Launch: Facing South from grass at (8, 15) into water tile (8, 16) launches Surfing directly into the north-south canal.
+- Canal Route: Columns 6..8 form an open north-south waterway flowing south from Route 24 (rows 16..36) directly into Cerulean City canal (rows 0..16), providing direct water transit to the Cerulean Cave entrance landing at (5, 12).
+
 
 <hr>
 
@@ -4955,7 +4962,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## PC Storage & Menu Mechanics (Generation 1 Retail)
 - **Pokémon Box Storage Indexing:** Empirically confirmed Turn 33419: in Box 1, Krabby (PINCHY, caught Turn 31540) was listed at Slot 1 ahead of Zapdos (THUNDER, caught Turn 29075), disproving strict chronological box index ordering.
-- **Chronological Storage Order:** In Gen 1 retail, items deposited into the player's PC (BLUE's PC) and Pokémon deposited into BILL's PC boxes are appended to the list in strictly chronological order of deposit.
 - **Item Storage Withdrawal:** When withdrawing items from BLUE's PC, single-quantity items withdraw immediately upon confirmation, while stacked items prompt for quantity (x01..x99). Withdrawn items are placed into the next available Bag slot.
 - **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
 - **Party Space Prerequisite:** In BILL's PC, selecting WITHDRAW PKMN when the active party is full (6 Pokémon) displays 'Your party is full!' and denies withdrawal. The player must use DEPOSIT PKMN first to free party slots.
@@ -4991,11 +4997,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Evolves at Lv 34 (only 2 levels, boosted EXP!).
 - EXP to Lv 33: 3,169 EXP; EXP to Lv 34: ~3,300 EXP.
 - Plan:
-  1. Withdraw Seel (SAILOR) from PC Box 1 into party (party 6/6).
-  2. Lead with Seel in Slot 1, switch to Mewtwo in Slot 2.
-  3. Fly to Cerulean City and enter Cerulean Cave 1F.
-  4. Defeat 2-3 wild Pok�mon with Mewtwo to level Seel to Lv 34.
-  5. Evolve Seel into Dewgong (#087) and register in Pok�dex.
+  1. Defeat 2-3 wild Pok�mon with Mewtwo to level Seel to Lv 34.
+  2. Evolve Seel into Dewgong (#087) and register in Pok�dex.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
