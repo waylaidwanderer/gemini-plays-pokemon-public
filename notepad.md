@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥3056 [Turn 34152]
-- Pokédex: 47 Caught / 136 Seen [Turn 34159]
+- Pokédex: 48 Caught / 136 Seen [Turn 34568]
 
 ## Milestones
 
@@ -181,31 +181,21 @@
   - Moves: Swift (PP 18/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 
-## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
+## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 
 - Slot 1: KRABBY (PINCHY) [Lv 15]
-
 - Slot 2: ZAPDOS (THUNDER) [Lv 50]
-
 - Slot 3: HITMONLEE (BRUCE) [Lv 30]
-
 - Slot 4: LAPRAS (NESSY) [Lv 15]
-
 - Slot 5: KANGASKHAN (MATILDA) [Lv 25]
-
 - Slot 6: CHANSEY (LUCKY) [Lv 26]
-
 - Slot 7: MAGIKARP (TSUNAMI) [Lv 5]
-- Slot 9: PARAS (FUNGI) [Lv 10]
-
-- Slot 10: DROWZEE (SANDMAN) [Lv 9]
-
-- Slot 11: OMANYTE (NAUTILUS) [Lv 30]
-
-- Slot 12: AERODACTYL (PTERA) [Lv 30]
-
-- Slot 13: NIDOQUEEN (QUEENIE) [Lv 33]
-- Slot 14: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
+- Slot 8: PARAS (FUNGI) [Lv 10]
+- Slot 9: DROWZEE (SANDMAN) [Lv 9]
+- Slot 10: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 11: AERODACTYL (PTERA) [Lv 30]
+- Slot 12: NIDOQUEEN (QUEENIE) [Lv 33]
+- Slot 13: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 
 ### Detailed Stats for Box 1 Pokémon:
 
@@ -5161,6 +5151,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battles Completed: 10
 - Switch-Training Sweeper: Mewtwo (OMEGA Lv 71, HP 79/243, Psychic 1/10, Swift 18/20)
 
+### Sweeper & Recovery Protocol
+- Recover Threshold: Use Recover when Mewtwo's HP drops below 100 HP (restores 121 HP back to ~200+ HP).
+- Sweeper Transition: With Mewtwo's Psychic at 1/10 PP, use the final Psychic against Poison-types (Venomoth/Golbat). Once Psychic reaches 0 PP, deploy Blastoise (SHELDON Lv 71, Surf 15/15 PP, Ice Beam 10/10 PP) as primary switch sweeper against bulky targets (Hypno, Sandslash), or use Mewtwo's Swift (18/20 PP) against frail targets.
+- Retreat Threshold: If Blastoise Surf/Ice Beam or Mewtwo Swift runs low, walk 3 tiles south to (24, 17) to exit to Cerulean canal and Fly/Surf to Cerulean Pokémon Center.
+
 ### Completed Switch-Training Battles (Battles 1-10 Aggregate)
 - Battles Won: 10 (Golbat x3, Venomoth x2, Sandslash x2, Magneton x1, Hypno x1, Dodrio x1)
 - Total EXP Gained by PANGO: 5,458 EXP (grew Lv 15 -> Lv 20; Atk 35, Def 40, Spd 27, Spc 19)
@@ -5172,11 +5167,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pok�dex: 48 Caught!
-- Poliwrath (#062): RIPPLE evolved via Water Stone [Turn 34159].
-- Poliwhirl (#061): RIPPLE evolved at Lv 25 [Turn 34072].
-- Dewgong (#087): SAILOR evolved at Lv 34 [Turn 33656].
-- Ninetales (#038): KITSUNE evolved via Fire Stone [Turn 33357].
-- Weezing (#110): SMOGGY evolved at Lv 39 [Turn 33242].
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
@@ -5189,6 +5179,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Slowpoke (DOPEY Lv 15) -> Slowbro (#080) at Lv 37.
   - Magikarp (TSUNAMI Lv 5) -> Gyarados (#130) at Lv 20.
 - Stone Evolutions:
-  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (�¥2,100 each).
+  - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
 
 <hr>
