@@ -104,7 +104,7 @@
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Healthy
-  - HP: 234 / 234 [Healed Turn 30625 at Indigo Plateau]
+  - HP: 234 / 234 [Healed Turn 33286 at Cinnabar Island]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
@@ -265,9 +265,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 1F with Ultra Ball [Turn 32303]
   - Transferred to PC Box 2 (5/20)
-- KOFFING (Nickname: SMOGGY) [Lv 34, Poison]
-  - Status: Healthy
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Transferred to PC Box 2 (6/20)
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
@@ -2119,7 +2116,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Stairs down to 3F: Located at (12, 1).
 - Floor Sign: Located at (14, 1) on north wall.
 - Stairs up to 5F: Located at (16, 1).
-- Display Shelves: Located along rows 3..4 (cols 2..7), inspecting displays "Wow! Tons of POK�MON stuff!" [Verified Turn 32163].
+- Display Shelves: Located along rows 3..4 (cols 2..7), inspecting displays "Wow! Tons of POK¥MON stuff!" [Verified Turn 32163].
 - Shop Counter: Located along row 6 (cols 0..8), clerk stationed at (5, 7) facing North. Player shops from (5, 5) facing South [Corrected Turn 32163].
   - Clerk Stock / Prices:
     - POKé DOLL: ¥1,000
@@ -5006,9 +5003,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Vulpix (KITSUNE, Lv 33) is in active party!
 - Bag holds high-value items (Max Elixer ¥2,250, PP Up ¥4,900) to fund Fire Stone purchase (¥2,100).
 - Plan:
-  1. Exit Cinnabar Pokémon Center to outdoor exterior.
-  2. Use HM02 FLY with Farfetch'd (DUX) to fly to Celadon City.
-  3. Enter Celadon Department Store 4F, sell Max Elixer, buy Fire Stone.
+  1. Inside elevator, select 4F (Wiseman Gifts).
+  2. Walk to shop counter at (5, 5) facing South.
+  3. Sell Max Elixer for ¥2,250, buy Fire Stone for ¥2,100.
   4. Use Fire Stone on Vulpix to evolve into Ninetales (#038).
   5. Register Ninetales in Pokédex (44 Caught)!
 
