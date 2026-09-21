@@ -100,20 +100,20 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- SEEL (Nickname: SAILOR) [Lv 32, Water]
+- SEEL (Nickname: SAILOR) [Lv 33, Water]
   - Status: Healthy
   - HP: 90 / 90
-  - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
+  - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 35179 (758 to Lv 33) [Verified Turn 33530]
+  - EXP: 35986 (3318 to Lv 34) [Verified Turn 33579]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
   - Withdrawn from PC Box 1 [Turn 33429]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 222 / 222
+  - HP: 141 / 222 [Turn 33579]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 13/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -347,6 +347,7 @@
   - Turn 33501: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Total EXP ~1,049 split 2 ways (524 base each). Sailor earned 787 boosted EXP (524 * 1.5 = 786). Omega earned 525 EXP.
   - Turn 33519: Wild Lv 46 Golbat defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,116 split 2 ways (558 base each). Sailor earned 837 boosted EXP (558 * 1.5 = 837). Sheldon earned 558 EXP.
   - Turn 33530: Wild Lv 46 Magneton defeated by Sailor (traded Seel) + Omega (Mewtwo). Sailor earned 787 boosted EXP. Omega earned 525 EXP.
+  - Turn 33579: Wild Lv 46 Hypno defeated by Sailor (traded Seel) + Sheldon (Blastoise). Total EXP ~1,076 split 2 ways (538 base each). Sailor earned 807 boosted EXP. Sheldon earned 538 EXP.
 
 
 <hr>
@@ -4340,7 +4341,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Venomoth: Lv 49 [Encountered 1F Turn 26123]
 - Raichu: Lv 53 [Encountered 1F Turn 26258]
 - Sandslash: Lv 52 [Encountered 1F Turn 26270]
-- Hypno: Lv 46 [Encountered 1F Turn 26276]
+- Hypno: Lv 46 [Encountered 1F Turn 26276; base EXP ~1076, yields 807 boosted EXP in 2-way split, Turn 33579]
 - Kadabra: Lv 49 [Encountered 1F Turn 27129]
 - Parasect: Lv 52 [Encountered 1F Turn 27400]
 
@@ -5003,20 +5004,20 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Goal: Dewgong (#087) via Seel Evolution
 - Training Campaign Started: Turn 33493
 - Initial EXP: 32,768 EXP (Lv 32)
-- Seel (SAILOR, Lv 32 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
-  - Status: Healthy, 90/90 HP.
-- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 222/222 HP).
+- LEVEL 33 ACHIEVED: Turn 33579!
+- Seel (SAILOR, Lv 33 with boosted EXP, OT: TRAINER ID: 25337) in Slot 1 of active party.
+  - Status: Healthy, 90+ HP.
+  - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579].
+- Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 141/222 HP, Ice Beam 10/10, Surf 15/15).
 - Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
-- Evolves at Lv 34 (only 2 levels, boosted EXP!).
-- Current EXP: 35,179 EXP [Verified Turn 33530].
-- EXP to Lv 33: 758 EXP (only 1 battle!).
-- EXP to Lv 34: ~4,058 EXP total (~3-4 battles).
-- Active Battle: Wild Hypno (Lv 46) on Cerulean Cave 1F.
-- Battle Plan:
-  1. Switch to Sheldon on turn 1 (Seel takes 0 damage).
-  2. Sheldon defeats Hypno with Double-Edge/Surf.
-  3. Sailor earns boosted EXP and reaches Lv 33!
-  4. Continue switch-training until Lv 34 -> Dewgong (#087) -> Pokédex 45 Caught!
+- Evolves at Lv 34 (only 1 level remaining, boosted EXP!).
+- Current EXP: 35,986 EXP [Verified Turn 33579].
+- EXP to Lv 34: 3,318 EXP (~4 battles).
+- Strategy:
+  1. Patrol row 14 for wild encounters in Cerulean Cave 1F.
+  2. Switch to Sheldon on turn 1 (or Omega against Electric types).
+  3. KO wild Pokémon to award Sailor ~800 boosted EXP per battle.
+  4. At Lv 34, Seel evolves into Dewgong (#087) -> Pokédex 45 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
