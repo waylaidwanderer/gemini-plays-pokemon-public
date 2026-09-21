@@ -187,7 +187,8 @@
   - Stats: Attack 27, Defense 30, Speed 21, Special 15 [Verified Lv 15 Turn 34631]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 3375 (10,648 to Lv 22 Sandslash) [Pending Page 2 check]
+  - EXP: 3375 (721 to Lv 16; 7,273 to Lv 22 Sandslash) [Verified Turn 34633]
+  - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15) [Verified Turn 34633]
   - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
 
 ## PC Box 1 Pokémon (Verified Slot Order Turns 34229-34236)
@@ -5168,11 +5169,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Sandshrew (PANGO) to Level 22 -> Sandslash (#028)
-- Target: Sandshrew (PANGO Lv 15, Box 1 Slot 8)
+- Target: Sandshrew (PANGO Lv 15, 41/41 HP, Atk 27, Def 30, Spd 21, Spc 15, Scratch 35/35, Sand-Attack 15/15) [Verified Turn 34633]
 - Target Level: Lv 22 (Sandslash #028)
 - Target EXP: 22^3 = 10,648 EXP
-- Starting EXP (Lv 15): 15^3 = 3,375 EXP
-- Total Delta: ~7,273 EXP (~13-14 Cerulean Cave 1F switch battles)
+- Starting EXP (Lv 15): 3,375 EXP (721 to Lv 16) [Verified Turn 34633]
+- Total Delta: 7,273 EXP (~13-14 Cerulean Cave 1F switch battles)
 - Switch-Training Sweeper: Mewtwo (OMEGA Lv 71) / Blastoise (SHELDON Lv 71)
 
 ## Completed Evolutions:
