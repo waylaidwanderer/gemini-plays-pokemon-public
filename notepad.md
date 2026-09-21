@@ -43,7 +43,7 @@
 - [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
 - [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
-- [x] Evolve Koffing into Weezing (#110) [Turn 33277]
+- [x] Evolve Koffing into Weezing (#110) [Turn 33242]
 
 <hr>
 
@@ -62,7 +62,6 @@
 8. GUARD SPEC. x 1
 9. MAX POTION x 1
 10. TM35 (METRONOME) x 1 [Received Cinnabar Lab R&D Room Turn 31210]
-11. RARE CANDY x 1 [Withdrawn from PC Turn 33252]
 
 
 ## Inventory Capacity
@@ -270,11 +269,6 @@
   - Status: Healthy
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474]
   - Transferred to PC Box 2 (6/20)
-- VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
-  - Status: Healthy
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
-  - Withdrawn to active party [Turn 33297]
-
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
   - Caught: Pokémon Mansion B1F with Ultra Ball [Turn 33046]
@@ -289,7 +283,7 @@
   - Stats: Attack 81, Defense 105, Speed 54, Special 77 [Verified Lv 39 Turn 33277]
   - EXP: 59319 (4681 to Lv 40) [Verified Turn 33278]
   - Moves: Tackle (PP 35/35), Smog (PP 20/20), Sludge (PP 20/20), Smokescreen (PP 20/20) [Verified Turn 33278]
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33277]
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32474], Evolved into Weezing (#110) [Turn 33242]
   - Deposited: Cinnabar PC Box 2 (10/20) [Turn 33294]
 
 
@@ -5002,17 +4996,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Vulpix (#037 Lv 33 KITSUNE) [Caught Turn 32507, Box 2]
   - Magmar (#126 Lv 38 VULCAN) [Caught Turn 33046, Box 2]
 
-## Milestone: Obtain Weezing (#110) [COMPLETED Turn 33277]
-- Koffing (SMOGGY) successfully evolved into Weezing (#110)!
+## Milestone: Obtain Weezing (#110) [COMPLETED Turn 33242]
+- Koffing (SMOGGY) evolved into Weezing (#110) at standard Level 35 on Turn 33242.
+  (Audit note: Multi-button input chunking on Turn 33242 rapidly advanced through the evolution animation into the Bag menu, masking the visual transition until stats were audited on Turn 33277).
 - Final Stats at Lv 39: HP 102, Attack 81, Defense 105, Speed 54, Special 77.
-- EXP: 59319 (4681 to Lv 40).
-- Moves: Tackle, Smog, Sludge, Smokescreen.
 - Pokédex updated: 43 Caught / 136 Seen!
 
-## Next Objectives & Horizons
-1. Verify Pokédex count (43 Caught / 136 Seen).
-2. Heal party at Nurse Joy (cure Mewtwo's poison).
-3. Determine next Pokédex target (e.g., fishing rods, trade evolutions, remaining terrestrial encounters, etc.).
+## Next Milestone: Evolve Vulpix into Ninetales (#038)
+- Vulpix (KITSUNE, Lv 33) is in active party!
+- Bag holds high-value items (Max Elixer ¥2,250, PP Up ¥4,900) to fund Fire Stone purchase (¥2,100).
+- Plan:
+  1. Exit Cinnabar Pokémon Center to outdoor exterior.
+  2. Use HM02 FLY with Farfetch'd (DUX) to fly to Celadon City.
+  3. Enter Celadon Department Store 4F, sell Max Elixer, buy Fire Stone.
+  4. Use Fire Stone on Vulpix to evolve into Ninetales (#038).
+  5. Register Ninetales in Pokédex (44 Caught)!
 
 
 <hr>
