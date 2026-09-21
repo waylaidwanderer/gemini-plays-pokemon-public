@@ -69,3 +69,4 @@
   - Current State: Paras Lv 17 (5,349 EXP, +4,349 EXP gained across 8 battles). Remaining to Lv 24: 8,475 EXP (483 to Lv 18).
   - Current Sweeper Status: Blastoise HP 153/225, Surf PP 11/15; Mewtwo HP 119/243 (PSN), Psychic PP 5/10, Swift PP 19/20, Recover PP 20/20.
 - Battle 9 [Turn 35647]: Wild Kadabra Lv 49. Switched Paras -> Blastoise. Kadabra used Reflect. Blastoise used Surf (Crit OHKO). Total EXP 1008. Paras gained 504 EXP -> grew to Lv 18! (EXP: 5853 / 13824, remaining: 7971, 1006 to Lv 19). Stats at Lv 18: Atk 35, Def 26, Spd 17, Spc 30. Blastoise HP: 153/225, Surf PP: 10/15.
+- Battle 10 [Turn 35654]: Wild Raichu Lv 53. Switched Paras -> Mewtwo. Raichu used Thundershock (12 dmg). Mewtwo took poison (15 dmg) to 90 HP, used Psychic (OHKO). Total EXP 922. Paras gained 461 EXP (EXP: 6314 / 13824, remaining: 7510, 545 to Lv 19). Mewtwo HP: 90/243 (PSN), Psychic PP: 4/10.

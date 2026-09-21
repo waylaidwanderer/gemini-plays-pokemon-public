@@ -53,7 +53,7 @@
   - Stats: Attack 35, Defense 26, Speed 17, Special 30 [Verified Lv 18 Turn 35647]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 5853 (Target 13,824 for Lv 24 Parasect #047, remaining 7,971, 1006 to Lv 19) [Verified Turn 35647]
+  - EXP: 6314 (Target 13,824 for Lv 24 Parasect #047, remaining 7,510, 545 to Lv 19) [Verified Turn 35654]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -70,10 +70,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 119 / 243
+  - HP: 90 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
