@@ -5023,11 +5023,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 6 (Active, Turn 34379-current): Wild Magneton Lv 46
+- Battle 6 (Turn 34379-34386): Wild Magneton Lv 46
   - Status: Encountered on Row 14 at (24, 14).
-  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2 Mewtwo Psychic (hypothesized OHKO; empirical testing pending).
-  - Expected EXP Share: 525 EXP for Diglett (Lv 46 Magneton yields 1,050 total / 2 = 525).
-  - Level Up Milestone: 10,518 + 525 = 11,043 EXP (> 10,648 threshold) -> Diglett will grow to Level 22!
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Magneton Thunder Wave paralyzed Mewtwo). Turn 2 Magneton Supersonic confused Mewtwo; Mewtwo overcame confusion and Psychic OHKOed Magneton (empirical OHKO confirmed!).
+  - EXP Share: 525 EXP to Diglett.
+  - Diglett Progress: 10,518 + 525 = 11,043 EXP.
+  - Level Up Milestone: Crossed 10,648 threshold -> Diglett grew to Level 22!
+  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 17,576 - 11,043 = 6,533 EXP (~11 Cerulean Cave battles remaining).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
@@ -5048,6 +5050,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Stone Evolutions:
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
   - Liquidate Carbos to fund stones & Ultra Balls.
-
 
 <hr>
