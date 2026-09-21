@@ -48,6 +48,9 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
+- POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
+  - Status: Healthy
+  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
   - HP: 81 / 222 [Verified Turn 33657]
@@ -165,9 +168,6 @@
 - TENTACOOL (Nickname: STINGER) [Lv 15, Water/Poison]
   - Status: Healthy
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31782]
-- POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
-  - Status: Healthy
-  - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - JYNX (Nickname: LOLA) [Lv 23, Ice/Psychic]
   - Status: Healthy
   - HP: 65 / 65
