@@ -105,13 +105,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 13, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 14, Bug/Grass]
   - Status: Healthy
-  - HP: 34 / 34 [Verified Lv 13 Turn 35588]
-  - Stats: Attack 26, Defense 20, Speed 13, Special 22 [Verified Lv 13 Turn 35585]
+  - HP: 36 / 36 [Verified Lv 14 Turn 35593]
+  - Stats: Attack 28, Defense 21, Speed 14, Special 24 [Verified Lv 14 Turn 35593]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 2677 (Target 13,824 for Lv 24 Parasect #047, remaining 11,147) [Verified Turn 35585]
+  - EXP: 3160 (Target 13,824 for Lv 24 Parasect #047, remaining 10,664) [Verified Turn 35593]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -5094,6 +5094,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 1 [Turn 35552]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 11! (EXP: 1601 / 13824, remaining: 12223). Stats at Lv 11: Atk 23, Def 17, Spd 12, Spc 19. Blastoise HP: 188/225, Surf PP: 14/15.
 - Battle 2 [Turn 35570]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Swift + Psychic (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 12! (EXP: 2139 / 13824, remaining: 11685). Mewtwo HP: 231/243 (PSN), Psychic PP: 9/10, Swift PP: 19/20.
 - Battle 3 [Turn 35585]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic x2 (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 13! (EXP: 2677 / 13824, remaining: 11147). Learned Stun Spore. Stats at Lv 13: Atk 26, Def 20, Spd 13, Spc 22. Mewtwo HP: 189/243 (PSN), Psychic PP: 8/10.
+- Battle 4 [Turn 35592]: Wild Venomoth Lv 49. Switched Paras -> Mewtwo. Mewtwo used Psychic (Critical OHKO). Total EXP 966. Paras gained 483 EXP -> grew to Lv 14! (EXP: 3160 / 13824, remaining: 10664). Stats at Lv 14: Atk 28, Def 21, Spd 14, Spc 24. Mewtwo HP: 170/243 (PSN), Psychic PP: 7/10.
 
 
 <hr>
