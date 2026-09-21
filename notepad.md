@@ -183,12 +183,6 @@
 - KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - Caught: Cerulean Gym pool with Ultra Ball [Turn 31540]
-- TANGELA (Nickname: CRINKLES) [Lv 22, Grass]
-  - Status: Healthy
-  - HP: 62 / 62
-  - Stats: Attack 32, Defense 59, Speed 37, Special 50
-  - OT: TRAINER (IDNo. 37480, Boosted EXP)
-  - Moves: Constrict (PP 35/35), Bind (PP 20/20)
 - NIDOQUEEN (Nickname: QUEENIE) [Lv 33, Poison/Ground]
   - Status: Healthy
   - Moves: Growl, Scratch, Poison Sting, Body Slam
@@ -211,9 +205,6 @@
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
-- PINSIR (Nickname: PINCER) [Lv 23, Bug]
-  - Status: Healthy
-  - Caught: Safari Zone Center Area tall grass [Turn 10141]
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
@@ -5067,6 +5058,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Geodude (ROCKY Lv 8, Slot 4): HP 26 / 26 (Healthy). Moves: Tackle, Rock Slide, Strength.
 - Sheldon (BLASTOISE Lv 71, Slot 5): HP 225 / 225 (Healthy, Paralysis Cured!). Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10).
 - Farfetch'd (DUX Lv 5, Slot 6): HP 20 / 20 (Healthy). Moves: Peck, Sand-Attack, Cut, Fly.
+
+
+### Switch-Training Battle Log (Cerulean Cave 1F):
+- Battle 1 (Turn 34285-34292): Wild Hypno Lv 46
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Hypno used Poison Gas, Mewtwo PSN). Turn 2 Mewtwo Swift dealt ~50% HP. Turn 3 Mewtwo Swift KOed Hypno.
+  - Damage Telemetry: Mewtwo Swift (60 BP Normal physical, Atk 167) deals ~50% to Hypno Lv 46 (2-hit KO).
+  - Total EXP: 1,076 -> Base share: 538 EXP each.
+  - Diglett Progress: 7,682 + 538 = 8,220 EXP. Level 19 -> Level 20 achieved! (8,000 EXP threshold crossed).
+  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 9,356 EXP (~17 battles remaining).
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
