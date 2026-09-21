@@ -123,7 +123,7 @@
   - Status: Poisoned (PSN) [Turn 35305]
   - HP: 162 / 225 [Turn 35331]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -344,6 +344,7 @@
   - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
   - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
   - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native).
+  - Parasect Lv 52: Total EXP 950. 2 participants -> Base share `s_EXP = 475` (native) [Empirically verified Turn 35207].
   - Venomoth Lv 49: Total EXP 966. 3 participants -> Base share `s_EXP = floor(966 / 3) = 322` [Empirically verified Turn 33856].
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
@@ -4341,7 +4342,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southwest Lower Corridor: Lower-level corridor accessed via Staircase (17, 15) to landing (17, 16). (17, 17) is rock wall; corridor steps west through (16..15, 16) into Row 17. (14..11, 16) is rock wall bounding Row 17 on the north. Row 17 runs west to Column 2 at (2, 17); (1, 17) is solid rock. From (2, 17), turn north up Column 2 through (2, 16..14). (2, 13) is solid rock. Path to Staircase (1, 13) steps West to (1, 14) and North onto Staircase (1, 13), ascending to the western elevated terrace. [Physically verified Turn 26725, 27127]
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
 
-## Wild Pok�mon (Empirically Verified)
+## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
@@ -5082,12 +5083,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - If opposing Pokémon is Poison/Ghost/Bug/Electric (Golbat, Venomoth, Magneton, Hypno, Raichu): Mewtwo (OMEGA Lv 71, HP 243/243) can safely sweep with STAB Psychic / Swift.
 - Fleeing: If Mewtwo/Blastoise HP or PP runs low, retreat south to (24, 17) and Fly/Surf to Cerulean Pokémon Center to heal.
 
-## Future Strategic Horizons & Candidates
-- Additional Level Evolutions in PC:
-  - Paras (FUNGI Lv 10, Box 1 Slot 7) -> Parasect (#047) at Lv 24.
-  - Krabby (PINCHY Lv 15, Box 1 Slot 1) -> Kingler (#099) at Lv 28.
-  - Psyduck (MIGRAINE Lv 15, Box 2) -> Golduck (#055) at Lv 33.
-  - Slowpoke (DOPEY Lv 15, Box 2) -> Slowbro (#080) at Lv 37.
 - Stone Evolutions:
   - Water Stone / Leaf Stone available at Celadon Dept Store 4F (¥2,100 each).
 
