@@ -21,17 +21,20 @@
 ## Obedience
 - **Original Trainer PokÃ©mon:** Starter PokÃ©mon and PokÃ©mon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider PokÃ©mon.
 
-## Experience Distribution & Traded PokÃ©mon Boost
-- **Multi-Participant EXP Sharing:** When multiple PokÃ©mon participate in defeating an opposing PokÃ©mon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
-- **Traded PokÃ©mon Boost Formula (Gen 1 Assembly Implementation):**
+## Experience Distribution & Traded Pokémon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Native vs. Traded Pokémon EXP Yields:**
+  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525`. Boosted yield = `525 + 262 = 787` [Turns 33501, 33530].
-  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558`. Boosted yield = `558 + 279 = 837` [Turns 33519, 33656].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538`. Boosted yield = `538 + 269 = 807` [Turn 33579].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504`. Boosted yield = `504 + 252 = 756` [Turns 33589, 33601].
-  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227`. Boosted yield = `227 + 113 = 340` [Turn 33620].
-  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461`. Boosted yield = `461 + 230 = 691` [Turn 33668].
-  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` [Turn 33775].
+  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native: Poliwag/Omega). Boosted yield = `787` (traded: Sailor) [Turns 33501, 33530].
+  - Golbat Lv 46: Total EXP 1,116. 2 participants -> Base share `s_EXP = 558` (native: Poliwag/Omega) [Turns 33789, 33802]. Boosted yield = `837` (traded: Sailor) [Turns 33519, 33656].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native). Boosted yield = `807` (traded) [Turn 33579].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native). Boosted yield = `756` (traded) [Turns 33589, 33601].
+  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native). Boosted yield = `340` (traded) [Turn 33620].
+  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native). Boosted yield = `691` (traded) [Turn 33668].
+  - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native: Poliwag/Omega) [Turn 33775].

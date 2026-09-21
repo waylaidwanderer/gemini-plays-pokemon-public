@@ -4342,8 +4342,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Kadabra: Lv 49 [Encountered 1F Turn 27129]
 - Parasect: Lv 52 [Encountered 1F Turn 27400
 - Ditto: Lv 53 [Encountered 1F Turn 33610]]
-## Wild Encounters
-- Wild Raichu (Lv 53): Defeated Turn 33668 (EXP awarded: 461 base to Omega, 691 boosted to Sailor). Confirmed rare terrestrial spawn on 1F.
 
 
 <hr>

@@ -15,11 +15,14 @@
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
 ### Immediate Routing & Action Steps:
-1. Surf west along row 5 channel to col 6, then south down chute to cave landing at (5, 12).
-2. Disembark and enter Cerulean Cave 1F at (4, 11).
-3. Baseline inspected & logged: 2,035 EXP, 500 to Lv 16, Bubble PP 30/30 [Turn 33759].
-4. Switch-train Poliwag (Slot 1) against wild Pokémon in Cerulean Cave 1F to Level 25 -> Poliwhirl (#061).
-5. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) to clerk, purchase 1 Water Stone (¥2,100) at 4F, and evolve Poliwhirl into Poliwrath (#062).
+1. Switch-train Poliwag (Slot 1) on Cerulean Cave 1F (patrolling rows 14-15) to Level 25 -> Poliwhirl (#061).
+2. Fly to Celadon City, sell 1 PP Up (yields �4,900) or 1 Max Elixer (yields �2,250) at Dept Store 4F.
+3. Purchase 1 Water Stone (�2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
+
+### Battler PP Stamina & Contingency Plan:
+- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 6/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
+- Blastoise (SHELDON Lv 70, Slot 6): Surf PP 15/15, Ice Beam PP 10/10.
+- Contingency: If Mewtwo's Psychic reaches <= 2 PP, switch lead switch-in to Sheldon (Surf/Ice Beam OHKOs most 1F spawns) or use Swift on lower-defense targets.
 
 ### Financial Liquidation Budget:
 - Current Wallet: ¥256.
