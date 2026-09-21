@@ -15,10 +15,11 @@
 3. Purchase 1 Water Stone (Â¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Sheldon (BLASTOISE Lv 71, Slot 6): HP 79 / 225 (Paralyzed). Moves: Surf (PP 7/15), Ice Beam (PP 9/10), Body Slam (PP 13/15), Double-Edge (PP 15/15).
-- Mewtwo (OMEGA Lv 70, Slot 3): HP 54 / 234 (Paralyzed). Moves: Psychic (PP 4/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
+- Sheldon (BLASTOISE Lv 71, Slot 6): HP 225 / 225 (Healthy, Paralysis Cured!). Moves: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
+- Mewtwo (OMEGA Lv 70, Slot 3): HP 234 / 234 (Healthy, Paralysis Cured!). Moves: Psychic (PP 10/10), Swift (PP 20/20), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
-- Contingency & Health Management: Both high-level battlers are paralyzed with reduced HP thresholds. Fast electric foes (e.g. wild Raichu Lv 53) pose a lethal threat to Sheldon at 79 HP if full paralysis occurs. If Sheldon's HP drops below 50 or after completing this switch-training stretch, utilize Bag Max Potion or navigate to Cerulean City Pokémon Center via South Exit mat (24, 17) and HM02 Fly to completely restore HP, PP, and cure paralysis.
+- Poliwag (RIPPLE Lv 23, Slot 1): HP 53 / 53 (Healthy). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+- Full Restoration: Team fully healed and paralysis cured at Cerulean Pokémon Center Turn 33972. Sheldon has full 168 Speed and outspeeds wild spawns, eliminating any risk from Raichu Lv 53.
 
 ### Financial Liquidation Budget:
 - Current Wallet: Â¥256.
