@@ -8,14 +8,14 @@
   1. Withdraw Seel (SAILOR) from PC Box 1 into party (party 6/6).
   2. Lead with Seel in Slot 1, switch to Mewtwo in Slot 2.
   3. Fly to Cerulean City and enter Cerulean Cave 1F.
-  4. Defeat 2-3 wild Pokémon with Mewtwo to level Seel to Lv 34.
-  5. Evolve Seel into Dewgong (#087) and register in Pokédex.
+  4. Defeat 2-3 wild Pokï¿½mon with Mewtwo to level Seel to Lv 34.
+  5. Evolve Seel into Dewgong (#087) and register in Pokï¿½dex.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL).
   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC).
 - Water Stone / Leaf Stone Evolutions:
-  - Celadon 4F sells Water Stone and Leaf Stone (¥2,100 each).
+  - Celadon 4F sells Water Stone and Leaf Stone (ï¿½2,100 each).
   - Poliwag (RIPPLE Lv 15) -> Poliwhirl Lv 25 -> Poliwrath (#062) via Water Stone.
   - Weepinbell / Victreebel (#071) via Leaf Stone.
