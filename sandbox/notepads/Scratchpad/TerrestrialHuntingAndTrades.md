@@ -1,15 +1,16 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 
-## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
+## Active Goal: Complete Next Dex Milestones (Pokédex: 47 Caught / 136 Seen)
 - [x] Target 1: Train Poliwag (RIPPLE Lv 24, Slot 1) to Level 25 -> Poliwhirl (#061) [ACHIEVED Turn 34072!].
-  - Status: Poliwhirl Lv 25 (12,020 EXP). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
-- Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
+- [x] Target 2: Liquidate CARBOS x1 for ¥4,900, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062) [ACHIEVED Turn 34159!].
+  - Status: Poliwrath Lv 25 (Water/Fighting). Moves: Bubble, Hypnosis, Water Gun, Doubleslap.
+  - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught: Poliwhirl #061, Poliwrath #062).
 
 ### Immediate Routing & Action Steps:
 
 ### Battler PP Stamina & Contingency Plan:
-- Poliwhirl (RIPPLE Lv 25, Slot 1): HP 70 / 70 (Healthy). Stats: Atk 33, Def 33, Spd 57, Spc 27. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10).
+- Poliwrath (RIPPLE Lv 25, Slot 1): HP 70 / 70 (Healthy, Water/Fighting). Stats: Atk 33, Def 33, Spd 57, Spc 27. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 24/25), Doubleslap (PP 10/10). Evolved Turn 34159 via Water Stone!
 - Farfetch'd (DUX Lv 5, Slot 2): HP 20 / 20. Moves: Peck, Sand-Attack, Cut, Fly.
 - Mewtwo (OMEGA Lv 70, Slot 3): HP 208 / 234 (Healthy). Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20).
 - Jolteon (VEE Lv 25, Slot 4): HP 68 / 68 (Healthy). Moves: Thunderbolt, Tackle, Sand-Attack.
