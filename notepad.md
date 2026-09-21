@@ -105,13 +105,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 15, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 16, Bug/Grass]
   - Status: Healthy
-  - HP: 38 / 38 [Verified Lv 15 Turn 35613]
-  - Stats: Attack 30, Defense 22, Speed 15, Special 25 [Verified Lv 15 Turn 35604]
+  - HP: 40 / 40 [Verified Lv 16 Turn 35618]
+  - Stats: Attack 32, Defense 23, Speed 15, Special 27 [Verified Lv 16 Turn 35618]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 3685 (Target 13,824 for Lv 24 Parasect #047, remaining 10,139) [Verified Turn 35604]
+  - EXP: 4286 (Target 13,824 for Lv 24 Parasect #047, remaining 9,538) [Verified Turn 35618]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -4983,6 +4983,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 3 [Turn 35585]: Wild Hypno Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic x2 (KO). Total EXP 1076. Paras gained 538 EXP -> grew to Lv 13! (EXP: 2677 / 13824, remaining: 11147). Learned Stun Spore. Stats at Lv 13: Atk 26, Def 20, Spd 13, Spc 22. Mewtwo HP: 189/243 (PSN), Psychic PP: 8/10.
 - Battle 4 [Turn 35592]: Wild Venomoth Lv 49. Switched Paras -> Mewtwo. Mewtwo used Psychic (Critical OHKO). Total EXP 966. Paras gained 483 EXP -> grew to Lv 14! (EXP: 3160 / 13824, remaining: 10664). Stats at Lv 14: Atk 28, Def 21, Spd 14, Spc 24. Mewtwo HP: 170/243 (PSN), Psychic PP: 7/10.
 - Battle 5 [Turn 35603]: Wild Magneton Lv 46. Switched Paras -> Mewtwo. Mewtwo used Psychic (Critical OHKO). Total EXP 1050. Paras gained 525 EXP -> grew to Lv 15! (EXP: 3685 / 13824, remaining: 10139). Stats at Lv 15: Atk 30, Def 22, Spd 15, Spc 25. Mewtwo HP: 144/243 (PSN), Psychic PP: 6/10.
+- Battle 6 [Turn 35617]: Wild Sandslash Lv 52. Switched Paras -> Blastoise. Blastoise used Surf (OHKO). Total EXP 1202. Paras gained 601 EXP -> grew to Lv 16! (EXP: 4286 / 13824, remaining: 9538). Stats at Lv 16: Atk 32, Def 23, Spd 15, Spc 27. Blastoise HP: 173/225, Surf PP: 13/15.
 
 
 <hr>
