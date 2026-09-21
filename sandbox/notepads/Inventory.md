@@ -83,6 +83,11 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
+- VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
+  - Status: Healthy
+  - HP: Full
+  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
+  - Withdrawn from PC Box 2 [Turn 33297]
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
@@ -217,7 +222,7 @@
 - VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
   - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
-  - Transferred to PC Box 2 (7/20)
+  - Withdrawn to active party [Turn 33297]
 
 - MAGMAR (Nickname: VULCAN) [Lv 38, Fire]
   - Status: Healthy
