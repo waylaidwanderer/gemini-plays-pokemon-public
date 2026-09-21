@@ -53,7 +53,7 @@
   - HP: 49 / 49 [Verified Lv 21 Turn 33911]
   - Stats: Attack 28, Defense 28, Speed 48, Special 23 [Verified Lv 21 Turn 33906]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 7005 [Turn 33916]
+  - EXP: 7530 [Turn 33925]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
@@ -86,7 +86,7 @@
   - Status: Paralyzed (PAR)
   - HP: 140 / 225 [Verified Lv 71 Turn 33917]
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 11/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 10/15), Ice Beam (PP 9/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
