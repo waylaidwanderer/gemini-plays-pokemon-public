@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥3056 [Turn 34152]
-- Pokédex: 48 Caught / 136 Seen [Turn 34568]
+- Pokédex: 49 Caught / 136 Seen [Turn 34941]
 
 ## Milestones
 
@@ -49,7 +49,6 @@
 - [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
 - [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
 - [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
-
 
 <hr>
 
@@ -104,15 +103,15 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: SANDSHREW (Nickname: PANGO) [Lv 22, Ground]
+- Slot 1: SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
   - Status: Healthy
-  - HP: 57 / 57 [Verified Lv 22 Turn 34937]
-  - Stats: Attack 39, Defense 43, Speed 30, Special 21 [Verified Lv 22 Turn 34937]
+  - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
+  - Stats: Attack 50, Defense 54, Speed 41, Special 32 [Verified Lv 22 Sandslash Turn 34941]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 10915 (1,252 to Lv 23) [After Golbat Lv 46 Turn 34937]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
-  - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
+  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -5104,6 +5103,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pokédex: 48 Caught!
+- Sandslash (#028): PANGO reached Lv 22 (10,915 EXP) and evolved into Sandslash! [Turn 34938, Verified Lv 22 Turn 34941]. Pokédex: 49 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:

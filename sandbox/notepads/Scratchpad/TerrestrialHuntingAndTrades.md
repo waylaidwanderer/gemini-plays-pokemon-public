@@ -23,6 +23,7 @@
 
 ## Completed Evolutions:
 - Dugtrio (#051): DIGBY reached Lv 26 (17,866 EXP) and evolved into Dugtrio! [Turn 34560, Verified Turn 34568]. Pokédex: 48 Caught!
+- Sandslash (#028): PANGO reached Lv 22 (10,915 EXP) and evolved into Sandslash! [Turn 34938, Verified Lv 22 Turn 34941]. Pokédex: 49 Caught!
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:

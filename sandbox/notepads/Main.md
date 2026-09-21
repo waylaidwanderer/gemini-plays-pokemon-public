@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥3056 [Turn 34152]
-- Pokédex: 48 Caught / 136 Seen [Turn 34568]
+- Pokédex: 49 Caught / 136 Seen [Turn 34941]
 
 ## Milestones
 

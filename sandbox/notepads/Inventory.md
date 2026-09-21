@@ -47,15 +47,15 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: SANDSHREW (Nickname: PANGO) [Lv 22, Ground]
+- Slot 1: SANDSLASH (Nickname: PANGO) [Lv 22, Ground]
   - Status: Healthy
-  - HP: 57 / 57 [Verified Lv 22 Turn 34937]
-  - Stats: Attack 39, Defense 43, Speed 30, Special 21 [Verified Lv 22 Turn 34937]
+  - HP: 68 / 68 [Verified Lv 22 Sandslash Turn 34941]
+  - Stats: Attack 50, Defense 54, Speed 41, Special 32 [Verified Lv 22 Sandslash Turn 34941]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 10915 (1,252 to Lv 23) [After Golbat Lv 46 Turn 34937]
   - Moves: Scratch (PP 35/35), Sand-Attack (PP 15/15), Slash (PP 20/20)
-  - Caught: Route 11 tall grass [Turn 3751], Withdrawn from Box 1 [Turn 34616]
+  - Caught: Route 11 tall grass [Turn 3751], Evolved into Sandslash (#028) [Turn 34938, Verified Turn 34941]
 - Slot 2: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
