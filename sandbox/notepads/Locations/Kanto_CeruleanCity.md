@@ -11,12 +11,11 @@
 - Northern Connection: Enters from Route 24 waterway boundary at (18, 0).
 - East-West Channel: Traversable water canal spanning columns 6..18 across rows 4..5.
 - Column 6 Chute: Vertical water chute flowing south from row 5 down column 6 to row 12, landing on the Cerulean Cave western apron at (5, 12) directly adjacent to cave entrance (4, 11).
-- Column 7 Stone Fence Barrier & Southern Basin Isolation [Empirically Verified Turn 34657]:
+- Column 7 Stone Fence Barrier [Empirically Verified Turn 34657]:
   - Column 7 features a continuous, unbroken line of solid stone fence posts spanning rows 11 through 17 ((7, 11) to (7, 17)).
-  - Southern River Basin (cols 0..6, rows 15..16) is fully sealed south by stone fence posts at row 17 (cols 4..7) and east by column 7.
   - Northern District Street (cols 8..9, rows 12..14) is completely walled off from the Column 6 canal and Cerulean Cave apron by the Column 7 stone fence barrier.
-  - Direct overland or water access to Cerulean Cave from within Cerulean City is physically impossible due to this continuous barrier.
-  - CONCLUSION: The Route 24 canal entrance (launch at Route 24 (8, 15) into (8, 16)) is the ONLY traversable water route into Cerulean Cave (4, 11). Detour through Route 24 is mandatory.
+  - Direct water access / Surf launch to the canal chute from Northern District Street is physically blocked by this barrier.
+  - Standard transit to Cerulean Cave proceeds via Route 24 canal launch (Route 24 (8, 15) into (8, 16)). (Southern river basin internal connectivity to column 6 remains unverified).
 
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
