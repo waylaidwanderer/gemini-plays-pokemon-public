@@ -148,9 +148,6 @@
 
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20)
   - Caught: Route 11 tall grass [Turn 3721]
-- MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
-  - Status: Healthy
-  - Caught: Route 11 with Old Rod [Turn 3694]
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
   - Status: Healthy
   - Caught: Safari Zone Area 2 tall grass [Turn 8384]

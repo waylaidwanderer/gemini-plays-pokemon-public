@@ -1,11 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Withdraw & Train Magikarp (TSUNAMI) to Level 20 -> Gyarados (#130)
-- Target: Magikarp (TSUNAMI Lv 5, Box 1 Slot 7)
 - Target Level: Lv 20 (Gyarados #130, 10,000 EXP)
 - Current EXP: 156 EXP (Delta to Gyarados: 9,844 EXP, ~18 switch-training battles)
-- Switch Sweepers: Blastoise (SHELDON Lv 71, Surf 14/15, Ice Beam 8/10) / Mewtwo (OMEGA Lv 71, HP 75/243, Swift 18/20)
-- Immediate Step: Heal party at Nurse Joy, deposit Sandslash (PANGO), withdraw Magikarp (TSUNAMI).
+- Switch Sweepers: Blastoise (SHELDON Lv 71, HP 225/225, Surf 15/15, Ice Beam 10/10) / Mewtwo (OMEGA Lv 71, HP 243/243, Swift 20/20, Psychic 10/10)
 
 ### Rigorous Candidate Decision Matrix
 1. MAGIKARP (TSUNAMI Lv 5, Box 1 Slot 7):
