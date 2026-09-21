@@ -8,7 +8,6 @@
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
 ### Immediate Routing & Action Steps:
-1. Switch-train Poliwag (Slot 1) on Cerulean Cave 1F (patrolling rows 14-15) to Level 25 -> Poliwhirl (#061).
 2. Fly to Celadon City, sell 1 PP Up (yields ¥4,900) or 1 Max Elixer (yields ¥2,250) at Dept Store 4F.
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
@@ -24,9 +23,7 @@
 - Current Wallet: ¥256.
 - Stone Cost: Water Stone = ¥2,100.
 - Target Inventory to Liquidate:
-  - PP UP x1 (Bag): Sell price = ¥4,900 (Surplus funds: ¥4,900 + ¥256 = ¥5,156, leaving ¥3,056 after stone for Ultra Balls).
-  - Alternative: MAX ELIXER x1 (Bag): Sell price = ¥2,250 (Surplus funds: ¥2,250 + ¥256 = ¥2,506, leaving ¥406).
-- Vendor: Celadon Department Store 4F Clerk.
+    - Vendor: Celadon Department Store 4F Clerk.
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:

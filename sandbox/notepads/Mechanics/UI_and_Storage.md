@@ -28,3 +28,10 @@
   5. Selecting `YES` opens the 'Choose a PKMN BOX' list (`BOX 1` through `BOX 12`), with cursor initializing on the current active box.
   6. Navigating to the desired box and pressing A initiates the save routine ('Saving... DON'T TURN OFF THE POWER.').
   7. Upon save completion, prints '[PLAYER] changed the POKEeMON BOX!' and returns to Bill's PC menu with the newly active box displayed.
+## Poké Mart Selling Mechanics & Constraints (Generation 1 Retail)
+- **Standard Sell Price Ratio:** Standard purchasable restorative items and vitamins sell for exactly 50% of their retail purchase price (e.g., Max Potion buys for ¥2,500 and sells for ¥1,250 [Empirically verified Turn 34106]; Vitamins buy for ¥9,800 on 5F and sell for ¥4,900).
+- **PP UP Sell Price Anomaly:** In Generation 1 retail, PP UP has a base sell price of ¥0 (`x01 ¥0`), yielding zero revenue upon sale [Empirically verified Turn 34100].
+- **Unsellable Items ('I can't put a price on that'):**
+  - Key Items (Poké Flute, Super Rod, Bicycle, HM02) cannot be sold.
+  - Max Elixer cannot be sold ('I can't put a price on that.') [Empirically verified Turn 34101].
+  - Technical Machines (TMs) and Hidden Machines (HMs) cannot be sold to Mart clerks in Generation 1 retail; attempting to sell TMs (e.g. TM35) or HMs prompts 'I can't put a price on that.' and denies the transaction [Empirically verified Turn 34107].
