@@ -53,8 +53,8 @@
   - HP: 53 / 53 [Verified Lv 23 Turn 33966]
   - Stats: Attack 30, Defense 30, Speed 52, Special 25 [Verified Lv 23 Turn 33958]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 9021 [Turn 33957]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 2,714 EXP needed)
+  - EXP: 9525 [Turn 34006]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 2,210 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -84,9 +84,9 @@
   - EXP: 314 (105 to Lv 9)
 - BLASTOISE (SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 225 / 225
+  - HP: 171 / 225
   - Stats: Attack 168, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 33917]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
