@@ -53,14 +53,14 @@
   - HP: 93 / 93 [Verified Lv 33 Turn 33583]
   - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 37498 (1806 to Lv 34) [Verified Turn 33602]
+  - EXP: 37838 (1466 to Lv 34) [Verified Turn 33621]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 141 / 222 [Turn 33579]
+  - HP: 134 / 222 [Turn 33621]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 13/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 13/15), Body Slam (PP 12/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20

@@ -52,4 +52,4 @@
 - Hypno: Lv 46 [Encountered 1F Turn 26276; base EXP ~1076, yields 807 boosted EXP in 2-way split, Turn 33579]
 - Kadabra: Lv 49 [Encountered 1F Turn 27129; base EXP ~1008, yields 756 boosted EXP in 2-way split, Turn 33589]
 - Parasect: Lv 52 [Encountered 1F Turn 27400
-- Ditto: Lv 53 [Encountered 1F Turn 33610]]
+- Ditto: Lv 53 [Encountered 1F Turn 33610; base EXP ~454, yields 340 boosted EXP in 2-way split, Turn 33621]]
