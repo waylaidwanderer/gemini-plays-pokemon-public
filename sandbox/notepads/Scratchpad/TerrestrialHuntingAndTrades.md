@@ -10,11 +10,25 @@
 
 ## Milestone: Obtain Weezing (#110) [COMPLETED Turn 33242]
 - Koffing (SMOGGY) evolved into Weezing (#110) at standard Level 35 on Turn 33242.
-  (Audit note: Multi-button input chunking on Turn 33242 rapidly advanced through the evolution animation into the Bag menu, masking the visual transition until stats were audited on Turn 33277).
 - Final Stats at Lv 39: HP 102, Attack 81, Defense 105, Speed 54, Special 77.
 - Pokédex updated: 43 Caught / 136 Seen!
 
-## Next Milestone: Evolve Vulpix into Ninetales (#038)
-- Vulpix (KITSUNE, Lv 33) in party evolved via Fire Stone (bought for ¥2,100 on 4F after selling Full Heal x6 for ¥1,800 and Guard Spec for ¥350).
-- Verifying species and stats on STATS screen [Turn 33361].
-- Register Ninetales (#038) in Pokédex (44 Caught)!
+## Milestone: Evolve Vulpix into Ninetales (#038) [COMPLETED Turn 33357]
+- Vulpix (KITSUNE, Lv 33) successfully evolved into Ninetales (#038) via Fire Stone!
+- Verified Stats on Turn 33363:
+  - HP: 95 / 95
+  - Attack: 55, Defense: 57, Speed: 76, Special: 79
+  - OT: BLUE (IDNo. 04620)
+- Pokédex updated: 44 Caught / 136 Seen!
+
+## Next Strategic Horizons & Candidates
+- Dewgong (#087):
+  - Seel (SAILOR, Lv 32 with boosted EXP) in PC Box 1.
+  - Evolves at Lv 34 (only 2 levels, boosted EXP!).
+- In-Game Trades:
+  - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL).
+  - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC).
+- Water Stone / Leaf Stone Evolutions:
+  - Celadon 4F sells Water Stone and Leaf Stone (¥2,100 each).
+  - Poliwag (RIPPLE Lv 15) -> Poliwhirl Lv 25 -> Poliwrath (#062) via Water Stone.
+  - Weepinbell / Victreebel (#071) via Leaf Stone.

@@ -79,11 +79,12 @@
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
   - Withdrawn from PC Box 1 [Turn 31191]
-- VULPIX (Nickname: KITSUNE) [Lv 33, Fire]
+- NINETALES (Nickname: KITSUNE) [Lv 33, Fire]
   - Status: Healthy
-  - HP: Full
-  - Caught: Pokémon Mansion 2F with Ultra Ball [Turn 32507]
-  - Withdrawn from PC Box 2 [Turn 33297]
+  - HP: 95 / 95
+  - Stats: Attack 55, Defense 57, Speed 76, Special 79 [Verified Lv 33 Turn 33363]
+  - OT: BLUE (IDNo. 04620)
+  - Evolved from Vulpix via Fire Stone [Turn 33357]
 
 ## PC Box 1 Pokémon
 - SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
