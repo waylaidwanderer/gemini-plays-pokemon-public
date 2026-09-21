@@ -22,12 +22,12 @@
 
 ### Active Battle Log (Cerulean Cave 1F):
 - Battle 6 (Turn 34379-34386): Wild Magneton Lv 46
-  - Status: Encountered on Row 14 at (24, 14).
-  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Magneton Thunder Wave paralyzed Mewtwo). Turn 2 Magneton Supersonic confused Mewtwo; Mewtwo overcame confusion and Psychic OHKOed Magneton (empirical OHKO confirmed!).
-  - EXP Share: 525 EXP to Diglett.
-  - Diglett Progress: 10,518 + 525 = 11,043 EXP.
-  - Level Up Milestone: Crossed 10,648 threshold -> Diglett grew to Level 22!
-  - Target: Lv 26 Dugtrio (17,576 EXP). Remaining Delta: 17,576 - 11,043 = 6,533 EXP (~11 Cerulean Cave battles remaining).
+  - Combat Flow: Turn 1 Diglett switched to Mewtwo (Thunder Wave PAR). Turn 2 Mewtwo Psychic OHKO.
+  - EXP Share: 525 EXP to Diglett -> Diglett grew to Level 22! (11,043 EXP).
+- Battle 7 (Active, Turn 34389-current): Wild Hypno Lv 46
+  - Status: Encountered on Row 15 at (24, 15).
+  - Plan: Turn 1 switch Diglett -> Mewtwo. Turn 2-3 Mewtwo Swift (2-hit KO). Mewtwo's PAR grants immunity to Hypnosis and Poison Gas!
+  - Expected EXP Share: 538 EXP for Diglett (progress to 11,581 EXP; 586 to Lv 23).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
