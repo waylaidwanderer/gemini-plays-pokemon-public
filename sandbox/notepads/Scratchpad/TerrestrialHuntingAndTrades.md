@@ -4,7 +4,7 @@
 - Current Status: Level 26 (17,866 EXP, Level 26 Milestone Reached!) [Verified Battle 19 Turn 34556].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP (EXCEEDED by +290 EXP!).
 - Remaining Delta: 0 EXP — EVOLUTION TRIGGERED!
-- Switch-Training Sweepers: Mewtwo (OMEGA Lv 70, 229/234 HP, PAR, Swift 20/20, Psychic 8/10), Blastoise (SHELDON Lv 71, 225/225 HP).
+- Switch-Training Sweepers: Mewtwo (OMEGA Lv 71, 238/243 HP, PAR, Swift 20/20, Psychic 8/10), Blastoise (SHELDON Lv 71, 225/225 HP).
 - Progress Summary: 19 battles completed (+10,184 EXP gained).
   - Milestones: Lv 20 reached Battle 1, Lv 21 reached Battle 3, Lv 22 reached Battle 6, Lv 23 reached Battle 9, Lv 24 reached Battle 12 (learned Sand-Attack), Lv 25 reached Battle 15, Lv 26 reached Battle 19 -> Dugtrio (#051)!
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
