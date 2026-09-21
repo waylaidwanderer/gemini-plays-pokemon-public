@@ -102,12 +102,12 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- POLIWAG (Nickname: RIPPLE) [Lv 20, Water]
+- POLIWAG (Nickname: RIPPLE) [Lv 21, Water]
   - Status: Healthy
-  - HP: 47 / 47 [Verified Lv 20 Turn 33889]
-  - Stats: Attack 27, Defense 27, Speed 46, Special 22 [Verified Lv 20 Turn 33884]
+  - HP: Full (Lv 21)
+  - Stats: Attack 28, Defense 28, Speed 48, Special 23 [Verified Lv 21 Turn 33906]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 5922 [Turn 33897]
+  - EXP: 6480 [Turn 33906]
   - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,040 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
@@ -5006,10 +5006,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 20, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 20 (5,922 EXP, Lv 20 reached Turn 33882, +227 from Ditto Lv 53 Turn 33897). Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+- Target 1: Train Poliwag (RIPPLE Lv 21, Slot 1) to Level 25 -> Poliwhirl (#061).
+  - Status: Lv 21 (6,480 EXP, Lv 21 reached Turn 33906, +558 from Golbat Lv 46). Stats: Attack 28, Defense 28, Speed 48, Special 23. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 5,922 = 5,813 EXP (~8 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 6,480 = 5,255 EXP (~7-8 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
