@@ -354,6 +354,7 @@
   - Sandslash Lv 52: Total EXP 1,202. 2 participants -> Base share `s_EXP = 601` (native).
   - Parasect Lv 52: Total EXP 950. 2 participants -> Base share `s_EXP = 475` (native) [Empirically verified Turn 35207].
   - Venomoth Lv 49: Total EXP 966. 3 participants -> Base share `s_EXP = floor(966 / 3) = 322` [Empirically verified Turn 33856].
+  - Venomoth Lv 49: Total EXP 966. 2 participants -> Base share `s_EXP = 483` (native) [Empirically verified Turn 35362].
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
@@ -1584,8 +1585,7 @@
 - **Displacement Physics:** In retail Gen 1, walking into a boulder with active Strength shifts the boulder 1 tile away into the target empty space while the player remains stationary on their current tile [Empirically confirmed Turns 29700-29706]. To push the boulder a second time in the same direction, the player must take an independent walking step forward into the vacated tile before pushing into the boulder again.
 - **Pit Hole Interaction:** Pushing a boulder into an unfilled pit hole causes the boulder to fall through the hole to the floor below, filling the obstacle on the lower level and permanently clearing it from the current floor.
 - **Strength Status Reset on Map Transitions:** In retail Generation 1 Pokémon, changing maps/floors via ladders, stairs, or doorways immediately resets the active status of HM04 Strength [Empirically verified Turns 20452, 20525, 20559, 30447].
-## Overworld SURF PP Retention [Empirically Verified Turn 34016]
-- Overworld SURF Field Execution: Executing SURF from the party Pokémon menu in the overworld does NOT consume move PP. Empirically confirmed Turn 34016: Sheldon's Surf displayed 15/15 PP in battle after navigating the Cerulean City canal via overworld Surf. (Note: Other field moves such as Cut, Flash, Strength, and Dig remain empirically untested for overworld PP retention).
+
 
 <hr>
 
@@ -5064,15 +5064,23 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 1. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 21,952 EXP (Lv 28 Kingler #099)
+   - Prerequisite Status: Caught, stored in Box 1 Slot 1.
 2. PSYDUCK (MIGRAINE Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
+   - Prerequisite Status: Caught, stored in Box 2.
 3. SLOWPOKE (DOPEY Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
+   - Prerequisite Status: Caught, stored in Box 2.
 4. In-Game Trades:
-   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122). Prerequisite: catch wild Abra (Route 24/8).
-   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108). Prerequisite: own Slowbro.
+   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
+     - Prerequisite Status: Wild Abra NOT yet caught (unobtained asset). Needs hunting on Route 24 or Route 8.
+   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
+     - Prerequisite Status: Slowpoke owned (Box 2), but not yet evolved into Slowbro (unobtained asset).
+5. Evolution Stones:
+   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
 
 
 <hr>
