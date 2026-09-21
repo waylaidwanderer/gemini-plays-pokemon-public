@@ -48,3 +48,4 @@
 - [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
 - [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
+- [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
