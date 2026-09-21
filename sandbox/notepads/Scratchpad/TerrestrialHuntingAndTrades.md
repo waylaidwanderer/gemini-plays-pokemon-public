@@ -4,7 +4,7 @@
 - Current Status: Level 24 (14,816 EXP, 809 to Lv 25, 2,760 to Lv 26) [Verified Battle 13 Turn 34459].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
 - Remaining Delta: 17,576 - 14,816 = 2,760 EXP (~5 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 97/234 HP, PAR, Swift 11/20, Psychic 7/10).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 97/234 HP, PSN, Swift 10/20, Psychic 7/10).
 - Progress Summary: 13 battles completed (+7,134 EXP gained).
   - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
   - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
