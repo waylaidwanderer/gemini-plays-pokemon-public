@@ -44,3 +44,4 @@
 - [x] Evolve Koffing into Weezing (#110) [Turn 33242]
 - [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
 - [x] Evolve Seel into Dewgong (#087) [Turn 33656]
+- [x] Evolve Seel into Dewgong (#087) [Turn 33656]

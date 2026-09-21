@@ -45,6 +45,7 @@
 - [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
 - [x] Evolve Koffing into Weezing (#110) [Turn 33242]
 - [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
+- [x] Evolve Seel into Dewgong (#087) [Turn 33656]
 
 <hr>
 
@@ -100,19 +101,18 @@
 - ¥256 [Turn 33350]
 
 ## Party Pokémon
-- SEEL (Nickname: SAILOR) [Lv 33, Water]
+- DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]
   - Status: Healthy
-  - HP: 93 / 93 [Verified Lv 33 Turn 33583]
-  - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579]
+  - HP: 113 / 113 [Verified Lv 34 Turn 33657]
+  - Stats: Attack 56, Defense 67, Speed 59, Special 79 [Verified Lv 34 Turn 33657]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 38675 (629 to Lv 34) [Verified Turn 33634]
-  - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
+  - Moves: Headbutt (PP 14/15), Growl (PP 40/40) [Verified Turn 33639]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
 - BLASTOISE (SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 125 / 222 [Verified Turn 33634]
+  - HP: 81 / 222 [Verified Turn 33657]
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 12/15), Surf (PP 15/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 13/15), Body Slam (PP 12/15), Surf (PP 15/15), Ice Beam (PP 8/10) [Verified Turn 33657]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20

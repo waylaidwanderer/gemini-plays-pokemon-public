@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Dewgong (#087) via Seel Evolution
+## Completed Goal: Dewgong (#087) via Seel Evolution [Turn 33656]
 - Training Campaign Started: Turn 33493
 - Initial EXP: 32,768 EXP (Lv 32)
 - LEVEL 33 ACHIEVED: Turn 33579!
@@ -9,9 +9,9 @@
   - Stats: Attack 37, Defense 48, Speed 40, Special 60 [Verified Lv 33 Turn 33579].
 - Sheldon (Blastoise Lv 70) in Slot 2 ready for switch-in (Healthy, 141/222 HP, Ice Beam 10/10, Surf 15/15).
 - Omega (Mewtwo Lv 70) in Slot 4 (Healthy, 234/234 HP, Psychic 10/10).
-- Evolves at Lv 34 (only 1 level remaining, boosted EXP!).
+- EVOLVED INTO DEWGONG (#087) at Level 34! Pokédex: 45 Caught / 136 Seen.
 - Current EXP: 38,675 EXP [Verified Turn 33634].
-- EXP to Lv 34: 629 EXP (JUST 1 BATTLE REMAINING TO DEWGONG!).
+- Final EXP: 39,512 EXP (Level 34). HP 113/113, Attack 56, Defense 67, Speed 59, Special 79.
 - Strategy:
   1. Patrol row 14 for wild encounters in Cerulean Cave 1F.
   2. Switch to Sheldon on turn 1 (or Omega against Electric types).
