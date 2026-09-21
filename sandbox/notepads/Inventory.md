@@ -50,13 +50,8 @@
 ## Party Pokémon
 - POLIWAG (Nickname: RIPPLE) [Lv 15, Water]
   - Status: Healthy
-  - HP: 37 / 37 [Full Health post-Nurse Joy Heal Turn 33713]
+  - HP: 37 / 37
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
-- BLASTOISE (SHELDON) [Lv 70, Water]
-  - Status: Healthy
-  - HP: 222 / 222 [Full Health post-Nurse Joy Heal Turn 33713]
-  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 33713]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -82,6 +77,11 @@
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
+- BLASTOISE (SHELDON) [Lv 70, Water]
+  - Status: Healthy
+  - HP: 222 / 222
+  - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 33713]
 
 ## PC Box 1 Pokémon
 - DEWGONG (Nickname: SAILOR) [Lv 34, Water/Ice]

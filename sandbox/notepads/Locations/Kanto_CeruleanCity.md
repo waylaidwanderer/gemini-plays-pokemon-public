@@ -11,7 +11,7 @@
 - Northern Connection: Enters from Route 24 waterway boundary at (18, 0).
 - East-West Channel: Traversable water canal spanning columns 6..18 across rows 4..5.
 - Column 6 Chute: Vertical water chute flowing south from row 5 down column 6 to row 12, landing on the Cerulean Cave western apron at (5, 12) directly adjacent to cave entrance (4, 11).
-- Southern River: Expands into broader water basin across columns 0..6, rows 14..16, bounded south by stone fence posts at row 17 with an eastern opening at columns 8..9.
+- Southern River: Expands into broader water basin across columns 0..6, rows 14..16, bounded south by stone fence posts at row 17 with an eastern opening at columns 8..9. (Note: Northern connectivity from southern river to row 12 is unverified; standard transit to Cerulean Cave uses Route 24 canal entrance).
 
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.

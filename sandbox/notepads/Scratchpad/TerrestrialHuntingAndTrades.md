@@ -7,16 +7,16 @@
   - Pokédex advanced to 45 Caught / 136 Seen.
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
-- Target 1: Train Poliwag (RIPPLE Lv 15, PC Box 2) to Level 25 -> Poliwhirl (#061).
+- Target 1: Train Poliwag (RIPPLE Lv 15, Slot 1) to Level 25 -> Poliwhirl (#061).
 - Target 2: Use Water Stone (purchased Celadon Dept Store 4F) -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
-- Immediate Steps:
-  1. Exit Cerulean Cave 1F south mat at (24, 17).
-  2. Surf south to Cerulean City.
-  3. Enter Cerulean Pokémon Center to heal party and access PC.
-  4. Deposit Dewgong (SAILOR) into PC Box.
-  5. Change Box to Box 2 and withdraw Poliwag (RIPPLE Lv 15).
-  6. Return to Cerulean Cave 1F (or Celadon Dept Store for Water Stone).
+- Immediate Routing Steps:
+  1. Walk west along Row 18 to Column 8, north through Ramp (8, 15) to Northern District Street.
+  2. Walk east to Column 20, north to Route 24 boundary at (20..21, 0).
+  3. On Route 24: traverse Nugget Bridge to (10, 31..32) and launch Surf into canal.
+  4. Surf down canal chute to Cerulean Cave entrance apron at (5, 12), enter cave at (4, 11).
+  5. In Cerulean Cave 1F: switch-train Poliwag (Slot 1) to Level 25 -> Poliwhirl (#061).
+  6. Fly to Celadon City, buy Water Stone at Dept Store 4F, evolve to Poliwrath (#062).
 
 ## Future Strategic Horizons & Candidates
 - In-Game Trades:
