@@ -154,8 +154,8 @@
 ## Party Pokémon
 - Slot 1: SANDSHREW (Nickname: PANGO) [Lv 18, Ground]
   - Status: Healthy
-  - HP: 46 / 46 [Verified Lv 17 Turn 34788]
-  - Stats: Attack 30, Defense 34, Speed 24, Special 17 [Verified Lv 17 Turn 34775]
+  - HP: 48 / 48 [Verified Lv 18 Turn 34817]
+  - Stats: Attack 32, Defense 36, Speed 25, Special 17 [Verified Lv 18 Turn 34817]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 6143 (716 to Lv 19; 4,505 to Lv 22 Sandslash) [After Sandslash Lv 52 Turn 34815]
