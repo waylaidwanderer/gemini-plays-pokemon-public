@@ -27,7 +27,7 @@
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 12 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached Level 24 (14,258 EXP). Stats: Atk 37, Def 20, Spd 57, Spc 32.
+- Battle 12 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached Level 24 (14,258 EXP). Stats: Atk 37, Def 20, Spd 57, Spc 32. Learned Sand-Attack.
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).

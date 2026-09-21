@@ -110,7 +110,7 @@
   - OT: BLUE (IDNo. 04620)
   - EXP: 14258 (1367 to Lv 25, 3318 to Lv 26) [Verified Turn 34451]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Verified Turn 34301]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15) [Learned Lv 24 Turn 34452]
   - Caught: Diglett's Cave [Turn 3507]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: PAR
@@ -5030,7 +5030,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 12 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached Level 24 (14,258 EXP). Stats: Atk 37, Def 20, Spd 57, Spc 32.
+- Battle 12 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached Level 24 (14,258 EXP). Stats: Atk 37, Def 20, Spd 57, Spc 32. Learned Sand-Attack.
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).
