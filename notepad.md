@@ -107,8 +107,8 @@
   - HP: 45 / 45 [Verified Lv 19 Turn 33863]
   - Stats: Attack 26, Defense 26, Speed 43, Special 21 [Verified Lv 19 Turn 33856]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 4632 [Turn 33856]
-  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 7,103 EXP needed)
+  - EXP: 5157 (303 to Lv 20) [Turn 33873]
+  - Growth Group: Medium Slow (Target Lv 25: 11,735 EXP, 6,578 EXP needed)
   - Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25) [Learned Turn 33856]
   - Caught: Pallet Town shoreline with Ultra Ball [Turn 31824]
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
@@ -120,11 +120,11 @@
   - EXP: 125 (91 to Lv 6)
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
   - Status: Paralyzed (PAR)
-  - HP: 74 / 234
+  - HP: 54 / 234
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
@@ -5007,9 +5007,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Poliwag (RIPPLE) -> Poliwhirl (#061) -> Poliwrath (#062)
 - Target 1: Train Poliwag (RIPPLE Lv 19, Slot 1) to Level 25 -> Poliwhirl (#061).
-  - Status: Lv 19 (4,632 EXP, Lv 19 reached Turn 33856). Atk 26, Def 26, Spd 43, Spc 21. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
+  - Status: Lv 19 (5,157 EXP, 303 to Lv 20). Atk 26, Def 26, Spd 43, Spc 21. Moves: Bubble (PP 30/30), Hypnosis (PP 20/20), Water Gun (PP 25/25).
   - Target Lv 25: 11,735 EXP (Medium Slow formula: 1.2*n^3 - 15*n^2 + 100*n - 140).
-  - Remaining EXP Needed: 11,735 - 4,632 = 7,103 EXP (~11 Cerulean Cave wild battles).
+  - Remaining EXP Needed: 11,735 - 5,157 = 6,578 EXP (~10 Cerulean Cave wild battles).
 - Target 2: Liquidate surplus item (PP Up / Max Elixer) for >¥2,100, buy Water Stone at Celadon Dept Store 4F -> Poliwrath (#062).
 - Net Gain: +2 Pokédex Caught entries (45 -> 47 Caught).
 
@@ -5019,7 +5019,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Purchase 1 Water Stone (¥2,100) at 4F, and use on Poliwhirl -> Poliwrath (#062).
 
 ### Battler PP Stamina & Contingency Plan:
-- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 5/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
+- Mewtwo (OMEGA Lv 70, Slot 3): Psychic PP 4/10, Swift PP 20/20, Recover PP 20/20, Barrier PP 30/30.
 - Blastoise (SHELDON Lv 70, Slot 6): Surf PP 14/15, Ice Beam PP 10/10.
 - Contingency: If Mewtwo's Psychic reaches <= 2 PP, switch lead switch-in to Sheldon (Surf/Ice Beam OHKOs most 1F spawns) or use Swift on lower-defense targets.
 
