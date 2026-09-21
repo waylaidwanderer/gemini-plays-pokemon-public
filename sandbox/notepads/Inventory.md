@@ -50,10 +50,10 @@
 ## Party Pokémon
 - SEEL (Nickname: SAILOR) [Lv 32, Water]
   - Status: Healthy
-  - HP: 90 / 90
+  - HP: 7 / 90 (PAR)
   - Stats: Attack 35, Defense 46, Speed 38, Special 57 [Verified Lv 32 Turn 31433]
   - OT: TRAINER (IDNo. 25337, Boosted EXP)
-  - EXP: 34392 (1545 to Lv 33) [Verified Turn 33519]
+  - EXP: 35179 (758 to Lv 33) [Verified Turn 33530]
   - Moves: Headbutt (PP 15/15), Growl (PP 40/40) [Verified Turn 31435]
   - Received: Traded for Ponyta (BLAZE) in Cinnabar Lab [Turn 31425]
   - Withdrawn from PC Box 1 [Turn 33429]
@@ -75,7 +75,7 @@
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
   - EXP: 428750 (18638 to Lv 71) [Verified Turn 28245]
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
