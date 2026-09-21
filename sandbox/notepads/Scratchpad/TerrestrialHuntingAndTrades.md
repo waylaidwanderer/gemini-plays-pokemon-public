@@ -1,11 +1,11 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Train Diglett (DIGBY) to Level 26 -> Dugtrio (#051)
-- Current Status: Level 24 (14,258 EXP, 1,367 to Lv 25, 3,318 to Lv 26) [Verified Battle 12 Turn 34451].
+- Current Status: Level 24 (14,816 EXP, 809 to Lv 25, 2,760 to Lv 26) [Verified Battle 13 Turn 34459].
 - Target EXP (Lv 26): 26^3 = 17,576 EXP.
-- Remaining Delta: 17,576 - 14,258 = 3,318 EXP (~6 Cerulean Cave battles).
-- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 97/234 HP, PAR, Swift 11/20).
-- Progress Summary: 12 battles completed (+6,576 EXP gained).
+- Remaining Delta: 17,576 - 14,816 = 2,760 EXP (~5 Cerulean Cave battles).
+- Switch-Training Sweeper: Mewtwo (OMEGA Lv 70, 97/234 HP, PAR, Swift 11/20, Psychic 7/10).
+- Progress Summary: 13 battles completed (+7,134 EXP gained).
   - Battle 1: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 20.
   - Battle 2: Golbat Lv 46 (+558 EXP) -> Diglett reached 8,778 EXP.
   - Battle 3: Hypno Lv 46 (+538 EXP) -> Diglett reached Lv 21.
@@ -18,6 +18,7 @@
   - Battle 10: Hypno Lv 46 (+538 EXP) -> Diglett reached 13,182 EXP.
   - Battle 11: Hypno Lv 46 (+538 EXP) -> Diglett reached 13,720 EXP.
   - Battle 12: Hypno Lv 46 (+538 EXP) -> Diglett reached Level 24 (14,258 EXP)!
+  - Battle 13: Golbat Lv 46 (+558 EXP) -> Diglett reached 14,816 EXP.
 - Expected EXP Yield per Encounter (Cerulean Cave 1F, 2 participants with Mewtwo):
   - Magneton Lv 46: 525 EXP
   - Golbat Lv 46: 558 EXP
@@ -27,7 +28,7 @@
   - Sandslash Lv 52: 601 EXP
 
 ### Active Battle Log (Cerulean Cave 1F):
-- Battle 12 Concluded: Wild Hypno Lv 46 defeated (+538 EXP). Diglett reached Level 24 (14,258 EXP). Stats: Atk 37, Def 20, Spd 57, Spc 32. Learned Sand-Attack.
+- Battle 13 Concluded: Wild Golbat Lv 46 OHKOed with Psychic (+558 EXP). Diglett reached 14,816 EXP (809 to Lv 25, 2,760 to Lv 26).
 
 ### Empirical Damage Telemetry:
 - Mewtwo Swift vs Hypno Lv 46 (60 BP Normal physical, Atk 167 vs Hypno Def ~70): Base ~82 dmg * (0.85..1.0) = ~70-82 dmg (~50-60% HP, reliable 2-hit KO, never misses, 20 PP).

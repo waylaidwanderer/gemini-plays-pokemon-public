@@ -52,7 +52,7 @@
   - HP: 46 / 46 [Verified Lv 24 Turn 34454]
   - Stats: Attack 37, Defense 20, Speed 57, Special 32 [Verified Lv 24 Turn 34451]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 14258 (1367 to Lv 25, 3318 to Lv 26) [Verified Turn 34451]
+  - EXP: 14816 (809 to Lv 25, 2760 to Lv 26) [Verified Turn 34459]
   - Growth Group: Medium Fast (EXP = Level^3, confirmed: 20^3 = 8000, 21^3 = 9261, 22^3 = 10648, 23^3 = 12167)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10), Sand-Attack (PP 15/15) [Learned Lv 24 Turn 34452]
   - Caught: Diglett's Cave [Turn 3507]
@@ -61,8 +61,8 @@
   - HP: 97 / 234 [Verified Turn 34437]
   - Stats: Attack 167, Defense 152, Speed 195, Special 231 [Verified Lv 70 Turn 28244]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 434691 (12697 to Lv 71) [Turn 34451]
-  - Moves: Swift (PP 11/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - EXP: 435249 (12139 to Lv 71) [Turn 34459]
+  - Moves: Swift (PP 11/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
   - Caught: Cerulean Cave B1F with Master Ball [Turn 28234]
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
