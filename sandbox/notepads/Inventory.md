@@ -6,7 +6,6 @@
 3. FULL HEAL x 6
 4. BICYCLE [Key Item]
 5. PP UP x 1
-6. MAX ELIXER x 1
 7. HM02 [Key Item]
 8. GUARD SPEC. x 1
 9. MAX POTION x 1
@@ -14,7 +13,7 @@
 
 
 ## Inventory Capacity
-- Active Bag Items: 10 / 20 capacity used.
+- Active Bag Items: 9 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
@@ -48,7 +47,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥206 [Turn 32406]
+- ¥2,456 [Turn 33338]
 
 ## Party Pokémon
 - MEWTWO (Nickname: OMEGA) [Lv 70, Psychic]
