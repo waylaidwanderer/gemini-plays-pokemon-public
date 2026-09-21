@@ -127,7 +127,7 @@
   - EXP: 125 (91 to Lv 6)
 - Slot 6: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
-  - HP: 225 / 243
+  - HP: 185 / 243
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20) [Fully Restored Turn 34579]
