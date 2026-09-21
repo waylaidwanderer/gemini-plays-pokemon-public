@@ -105,20 +105,20 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 17, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 18, Bug/Grass]
   - Status: Healthy
-  - HP: 42 / 42
-  - Stats: Attack 33, Defense 25, Speed 16, Special 28 [Verified Lv 17 Turn 35639]
+  - HP: 44 / 44
+  - Stats: Attack 35, Defense 26, Speed 17, Special 30 [Verified Lv 18 Turn 35647]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 5349 (Target 13,824 for Lv 24 Parasect #047, remaining 8,475, 483 to Lv 18) [Verified Turn 35639]
+  - EXP: 5853 (Target 13,824 for Lv 24 Parasect #047, remaining 7,971, 1006 to Lv 19) [Verified Turn 35647]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30) [Learned Lv 13 Turn 35585]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
   - HP: 153 / 225
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 10/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -4982,6 +4982,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Starting State: Paras Lv 10 (1,000 EXP).
   - Current State: Paras Lv 17 (5,349 EXP, +4,349 EXP gained across 8 battles). Remaining to Lv 24: 8,475 EXP (483 to Lv 18).
   - Current Sweeper Status: Blastoise HP 153/225, Surf PP 11/15; Mewtwo HP 119/243 (PSN), Psychic PP 5/10, Swift PP 19/20, Recover PP 20/20.
-- Battle 9 [Turn 35641]: Wild Kadabra Lv 49 encountered.
+- Battle 9 [Turn 35647]: Wild Kadabra Lv 49. Switched Paras -> Blastoise. Kadabra used Reflect. Blastoise used Surf (Crit OHKO). Total EXP 1008. Paras gained 504 EXP -> grew to Lv 18! (EXP: 5853 / 13824, remaining: 7971, 1006 to Lv 19). Stats at Lv 18: Atk 35, Def 26, Spd 17, Spc 30. Blastoise HP: 153/225, Surf PP: 10/15.
 
 <hr>
