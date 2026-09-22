@@ -75,10 +75,10 @@
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 11, Rock/Ground]
-  - Status: Healthy [Level Up Turn 36297]
-  - HP: 32 / 32 [Empirically Verified Lv 11 Turn 36302]
-  - Stats: Attack 25, Defense 29, Speed 10, Special 13 [Empirically Verified Lv 11 Turn 36297]
+- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 12, Rock/Ground]
+  - Status: Healthy [Level Up Turn 36397]
+  - HP: 32 / 32 (Max HP pending verification)
+  - Stats: Attack 26, Defense 32, Speed 11, Special 14 [Empirically Verified Lv 12 Turn 36397]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
