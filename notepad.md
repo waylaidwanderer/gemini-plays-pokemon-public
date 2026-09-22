@@ -173,7 +173,7 @@
   - Stats: Attack 37, Defense 30, Speed 37, Special 37
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 14394 [1231 to Lv 25; 15625 - 14394 = 1231]
+  - EXP: 14728 [897 to Lv 25; 15625 - 14728 = 897]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -184,9 +184,9 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 229 / 229
+  - HP: 189 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 18, Normal/Flying]
   - Status: Healthy
   - HP: 49 / 49
@@ -5002,8 +5002,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 24, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 14,394 [Turn 38097]. Psyduck reached Level 24!
-  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (1,231 EXP remaining, ~5 battles).
+  - Current Empirical EXP: 14,728 [Turn 38113]. Psyduck reached Level 24!
+  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (897 EXP remaining, ~5 battles).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (21,870 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -5014,9 +5014,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - EXP: 14,067 (1,558 to Lv 25) [Battle 96: +308 EXP]
   - Stats: Attack 37, Defense 30, Speed 37, Special 37 [Verified Lv 24 Screen Turn 38021]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 229 / 229
-  - Status: Healthy (Poison cured Turn 38045)
-  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - HP: 189 / 229
+  - Status: Healthy
+  - Active Move PP: Surf (14/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 241 / 249
   - Status: Healthy
@@ -5119,6 +5119,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Test Protocol:** At the next PokÃÂ©mon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
 
 ### Expedition 9 Battle Log (4-Member Party Dilution Test):
+- Battle 98 (Hypno Lv 46, Turn 38105-38113):
+  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Blastoise took 40 dmg (189/229 HP).
+  - Blastoise used STAB Surf (left Hypno with 1 HP), then Ice Beam (fainted).
+  - Active PP: Surf 14/15, Ice Beam 9/10.
+  - EXP Yields (Total 1,076 EXP):
+    - Participant Share: Psyduck 269 EXP, Blastoise 269 EXP.
+    - EXP.ALL Team Base Share (N=4): **65 EXP**! DUX Boosted Share: **97 EXP**!
+    - Effective scaling from N=6 (39 EXP): exactly 39 * (5/3) = 65 EXP.
+    - Trainee Gain: Psyduck gained 334 EXP (269 + 65).
+    - Trainee EXP: 14,394 -> 14,728 EXP (897 to Lv 25 milestone).
 - Battle 97 (Magneton Lv 46, Turn 38090-38097):
   - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Magneton dealt 8 dmg (241/249 HP).
   - Mewtwo used STAB Psychic (OHKO). Psychic PP 9/10.
