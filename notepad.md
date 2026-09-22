@@ -108,13 +108,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 16, Water]
-  - Status: Healthy [Level Up Turn 36162]
-  - HP: 38 / 38 [Empirically Verified Turn 36178]
-  - Stats: Attack 42, Defense 37, Speed 23, Special 14 [Empirically Verified Lv 16 Turn 36162]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 17, Water]
+  - Status: Healthy [Level Up Turn 36211]
+  - HP: 40 / 40 [Estimated Lv 17]
+  - Stats: Attack 44, Defense 40, Speed 25, Special 15 [Empirically Verified Lv 17 Turn 36211]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4614 [Turn 36200] (Gained 308 in Battle 4; 299 to Lv 17)
+  - EXP: 4955 [Turn 36211] (Gained 297 participant + 44 Exp. All = 341 in Battle 5; 877 to Lv 18)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -4926,37 +4926,38 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 4,614 EXP, Target: 21,952 EXP, 17,338 EXP needed for Lv 28 Kingler)
-- Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
+- Krabby Starting EXP: 3,375 EXP (Current: 4,955 EXP, Target: 21,952 EXP, 16,997 EXP needed for Lv 28 Kingler)
+- Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
-| Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
+### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
+| Species | Level | Total Wild EXP | Participant Base Share (50% Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Raichu*** | 53 | 922 | **461 EXP** | 691 EXP | Mewtwo (Swift / Psychic) |
 | **Venomoth*** | 49 | 966 | **483 EXP** | 724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
 | **Magneton*** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Hypno*** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
-| **Golbat*** | 46 | 1,116 | **558 EXP** | 837 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
-| **Sandslash*** | 52 | 1,202 | **601 EXP** | 901 EXP | Blastoise (STAB Surf 2x SE OHKO) |
+| **Golbat*** | 46 | 1,104 | **552 EXP** | 828 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Sandslash*** | 52 | 1,188 | **594 EXP** | 891 EXP | Blastoise (STAB Surf 2x SE OHKO) / Mewtwo |
 | **Kadabra*** | 49 | 1,008 | **504 EXP** | 756 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
 | **Parasect*** | 52 | 950 | **475 EXP** | 712 EXP | Blastoise (Ice Beam 2x SE OHKO) |
-| **Dodrio*** | 49 | 1,092 | **273 EXP** | 410 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Dodrio*** | 49 | 1,092 | **546 EXP** | 819 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Note on Historical Entries: Only Ditto remains marked (Historical) as an unverified approximation. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, Parasect, and Dodrio (*) are all 100% empirically verified in the current run.
 - Average Yield per Cerulean Cave 1F battle (with EXP.ALL): ~350-400 EXP for Krabby (~45-50 battles for 18,577 EXP needed for Lv 28 Kingler).
 
 
-### Exp. All Empirical Model Audit (Battle 3 Discrepancy Analysis)
-- Observed Anomaly: In Battle 3 (Dodrio Lv 49, participant pool 546), Hypothesis B predicted team base share = floor(546 / 12) = 45 EXP. In-game reality yielded exactly 42 EXP (and DUX 63 EXP).
-- Mathematical Hypotheses for Discrepancy:
-  1. Divisor is 13: 546 // 13 = 42.0 exactly! (Why 13? Could be 6 + 6 + 1 or another counter).
-  2. Stale Register / Intermediate Truncation: 252 // 6 = 42 (from Kadabra Battle 2), or an arithmetic overflow/shift truncating dividend.
-  3. Battle 4 Test Criterion: Wild Hypno Lv 46 has E = 1,076 (participant pool = 538).
-     - Under Divisor 12: 538 // 12 = 44 EXP.
-     - Under Divisor 13: 538 // 13 = 41 EXP.
-     - Under Stale/Fixed Register: 42 EXP.
-     Observing Battle 4's exact Exp. All yield will decisively isolate the formula!
+### Exp. All Empirical Model Audit & Observations Across Battles 1-5
+- Empirical Exp. All Distribution Records (2 Active Participants, 6 Party Members):
+  - Battle 1 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
+  - Battle 2 (Kadabra Lv 49, E = 1,008, Part Pool = 504): Participant Share = 252 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
+  - Battle 3 (Dodrio Lv 49, E = 1,092, Part Pool = 546): Participant Share = 273 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
+  - Battle 4 (Hypno Lv 46, E = 1,076, Part Pool = 538): Participant Share = 269 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
+  - Battle 5 (Sandslash Lv 52, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
+- Mathematical Model Analysis:
+  - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
+  - Exp. All Base Share is approximately E / 24 to E / 27, varying with integer truncation in the division registers.
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 5 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
@@ -5043,6 +5044,12 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
       - Exp. All Team Pool: Base share = 39 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
       - Traded DUX (Boosted): 58 EXP (39 + floor(39/2) = 58). DUX reached Level 7! (Atk 15, Def 14, Spd 14, Spc 13). Leer declined to preserve Cut and Fly!
       - PINCHY Net Gain: 269 + 39 = 308 EXP (Krabby EXP: 4,306 -> 4,614, only 299 to Lv 17!).
+  - Battle 5: Wild Sandslash Lv 52. Turn 1 switched Krabby to Mewtwo (took 38 dmg from crit Slash, HP 165/249). Turn 2 Mewtwo OHKOed Sandslash with STAB Psychic (Psychic PP 6/10).
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (297 EXP) + OMEGA (297 EXP) = 594 EXP. Total battle E = 1,188 (Sandslash base exp = 160, Lv 52).
+      - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
+      - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 4,614 -> 4,955). PINCHY reached Level 17! (Atk 44, Def 40, Spd 25, Spc 15; 877 to Lv 18).
 
 
 <hr>
