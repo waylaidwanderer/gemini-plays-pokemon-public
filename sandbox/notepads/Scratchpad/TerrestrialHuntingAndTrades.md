@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Switch-train Krabby (PINCHY Lv 27 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+## Active Goal: Switch-train Krabby (PINCHY Lv 27 [Turn 37105] -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
 - Krabby Starting EXP: 3,375 EXP (Current: 21,168 EXP, Target: 21,952 EXP, 784 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -33,10 +33,10 @@
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 57 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 58 battles!).
 
 ### Krabby Switch-Training Combat Protocol
-- Vulnerability Profile: Krabby (Water, Lv 27, HP 60, Attack 69, Defense 62, Speed 38, Special 23) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (23) and modest HP (60). Any Special hit from Cerulean Cave wild Pokï¿½mon will deal massive or lethal damage. Any Special hit from Cerulean Cave wild PokÃ©mon will deal massive or lethal damage.
+- Vulnerability Profile: Krabby (Water, Lv 27, HP 60, Attack 69, Defense 62, Speed 38, Special 23) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (23) and modest HP (60). Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -68,6 +68,4 @@
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
   - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.
-  - Battles 47-56 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 27 (20,538 EXP, 1,414 to Lv 28 Kingler). Krabby leveled up to Lv 26 in B47, and Lv 27 in B54 (stats: Atk 69, Def 62, Spe 38, Spc 23). DUX leveled up to Lv 15 in B54 (Atk 26, Def 25, Spe 24, Spc 23; declined Fury Attack). ROCKY leveled up to Lv 16 in B55 (Atk 34, Def 41, Spe 13, Spc 17; declined Rock Throw). Swept Hypno Lv 46 (B47, B49, B51, B54), Golbat Lv 46 (B48, B55), Magneton Lv 46 (B50), Venomoth Lv 49 (B52), Raichu Lv 53 (B53), and Sandslash Lv 52 (B56). All EXP distributions and formula ratios 100% verified across 56 battles.
-  - Battle 57: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Hypno scored critical hit with Confusion/Psychic on switch turn (-22 HP, Mewtwo at 193/249). Turn 2 Mewtwo used Swift (-65% HP); Hypno's Poison Gas missed. Turn 3 Mewtwo used Swift to KO Hypno. Krabby gained 269 participant EXP + 39 team share = 308 EXP, reaching 20,846 EXP (1,106 to Lv 28 Kingler). DUX gained 58 EXP (boosted). Base team share = 39 EXP.
-  - Battle 58: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Golbat used Confuse Ray on switch turn (OMEGA confused). Turn 2 Mewtwo snapped through confusion and scored a critical hit OHKO with STAB 2x SE Psychic (PP 5/10). Krabby gained 276 participant EXP + 46 team share = 322 EXP, reaching 21,168 EXP (784 to Lv 28 Kingler). DUX gained 69 EXP (boosted). Base team share = 46 EXP.
+  - Battles 47-58 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 27 (21,168 EXP, 784 to Lv 28 Kingler). Krabby leveled up to Lv 26 in B47, and Lv 27 in B54 (stats: Atk 69, Def 62, Spe 38, Spc 23). DUX leveled up to Lv 15 in B54 (Atk 26, Def 25, Spe 24, Spc 23; declined Fury Attack). ROCKY leveled up to Lv 16 in B55 (Atk 34, Def 41, Spe 13, Spc 17; declined Rock Throw). Swept Hypno Lv 46 (B47, B49, B51, B54, B57), Golbat Lv 46 (B48, B55, B58), Magneton Lv 46 (B50), Venomoth Lv 49 (B52), Raichu Lv 53 (B53), and Sandslash Lv 52 (B56). All EXP distributions and formula ratios 100% verified across 58 battles.
