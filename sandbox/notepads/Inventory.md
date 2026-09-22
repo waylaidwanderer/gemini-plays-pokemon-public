@@ -57,10 +57,10 @@
   - EXP: 13877 [Turn 36661] (1748 to Lv 25)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 12, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36563]
-  - HP: 36 / 36 [Empirically Verified Lv 12 Turn 36571]
-  - Stats: Attack 22, Defense 21, Speed 20, Special 19 [Empirically Verified Lv 12 Turn 36563]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 13, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36662]
+  - HP: 38 / 38 [Pending overworld check]
+  - Stats: Attack 23, Defense 22, Speed 22, Special 21 [Empirically Verified Lv 13 Turn 36662]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
