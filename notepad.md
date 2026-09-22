@@ -111,7 +111,7 @@
   - Stats: Attack 44, Defense 32, Speed 21, Special 37 [Verified Lv 23 Turn 35878]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 12603 [Turn 35878]
+  - EXP: 13086 [Turn 35892]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
@@ -128,7 +128,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy [Healed & Cured Turn 35840]
-  - HP: 238 / 243 [Turn 35889]
+  - HP: 238 / 243 [Turn 35892]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
