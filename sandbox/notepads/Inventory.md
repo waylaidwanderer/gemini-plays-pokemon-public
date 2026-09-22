@@ -59,15 +59,15 @@
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 246 / 254
+  - HP: 254 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 189 / 229
+  - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 18, Normal/Flying]
   - Status: Healthy
   - HP: 49 / 49
