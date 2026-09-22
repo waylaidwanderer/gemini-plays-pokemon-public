@@ -1,7 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- [x] Claimed Exp. All from Route 15 Gatehouse 2F [Turn 35997]
 - Krabby Starting EXP: 3,375 EXP (Target: 21,952 EXP, 18,577 EXP needed)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
 
@@ -37,17 +36,21 @@
 
 ### Exp. All Mathematical Distribution Model & Hypotheses
 In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experience is split:
-- Hypothesis 1 (Standard Gen 1 Engine Specification):
-  - Total Battle EXP = E.
-  - 50% Active Participant Pool: P_total = floor(E / 2). This pool is divided equally among all non-fainted battle participants: P_share = floor(P_total / n_participants).
-  - 50% Exp. All Team Pool: T_total = floor(E / 2). This pool is divided equally among ALL 6 party members: T_share = floor(T_total / 6).
-  - Krabby Net Yield (Active Participant in 2-participant battle: Krabby + Sweeper):
-    Krabby_EXP = P_share + T_share = floor(floor(E / 2) / 2) + floor(floor(E / 2) / 6) ~ 0.25 E + 0.0833 E ~ 0.3333 E.
-  - Non-participant Party Members (e.g. Farfetch'd, Jolteon, Geodude):
-    Each receives T_share = floor(floor(E / 2) / 6) ~ 0.0833 E.
-  - Boosted Traded Non-Participant (Farfetch'd / DUX):
-    Does Exp. All passive share receive the 1.5x trade bonus?
-    Formula test: DUX_EXP = T_share + floor(T_share / 2) vs T_share.
+- Reconciled EXP.ALL Mathematical Models (Empirically Tested in Battles 1 & 2):
+  - Observed In-Game Reality:
+    - Battle 1 (Golbat Lv 46, E=1,104, 2 participants): Participant share = 276 (552/2), Team base share = 46 (552/12), Traded share = 69 (46 + 23).
+    - Battle 2 (Kadabra Lv 49, E=1,008, 2 participants): Participant share = 252 (504/2), Team base share = 42 (504/12), Traded share = 63 (42 + 21).
+  - Hypothesis A (Double-Halving):
+    The team pool is halved twice before being divided among the 6 party members:
+    T_share = floor(floor(E / 4) / 6) = floor(E / 24).
+    For 2 participants: floor(1104 / 24) = 46.0; floor(1008 / 24) = 42.0.
+  - Hypothesis B (Participant-Dependent Division):
+    The team pool is divided by the number of participants, and then by 6:
+    T_share = floor(floor(E / 2) / (n_participants * 6)).
+    With n_participants = 2, divisor is 2 * 6 = 12.
+  - Test Plan to Isolate Variable:
+    In an upcoming battle, test with 1 participant (solo Mewtwo or solo Krabby):
+    Under Hypo A, T_share = floor(E / 24). Under Hypo B, T_share = floor(E / 12) (double the team share!).
 - Empirical Verification Protocol:
   - Battle 1: Record wild species and level (E).
   - Record the exact EXP gained by active sweeper (Mewtwo or Blastoise).
