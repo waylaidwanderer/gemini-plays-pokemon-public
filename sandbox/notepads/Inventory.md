@@ -48,13 +48,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 26, Water]
-  - Status: Healthy [Level Up Turn 36964]
-  - HP: 58 / 58 [Verified Lv 26 Turn 36971]
-  - Stats: Attack 67, Defense 59, Speed 37, Special 22 [Empirically Verified Lv 26 Turn 36964]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 27, Water]
+  - Status: Healthy [Level Up Turn 37105]
+  - HP: 60 / 60 [Pending overworld check, Lv 27 Turn 37105]
+  - Stats: Attack 69, Defense 62, Speed 38, Special 23 [Empirically Verified Lv 27 Turn 37105]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 19567 [Turn 37087] (116 to Lv 27, 2,385 to Lv 28 Kingler)
+  - EXP: 19875 [Turn 37105] (2,077 to Lv 28 Kingler)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 14, Normal/Flying]
@@ -66,10 +66,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37034]
-  - HP: 245 / 249 [Turn 37073]
+  - HP: 224 / 249 [Turn 37100]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]

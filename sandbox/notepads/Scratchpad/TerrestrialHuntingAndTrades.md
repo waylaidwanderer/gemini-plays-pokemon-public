@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 26 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 19,567 EXP, Target: 21,952 EXP, 2,385 EXP needed for Lv 28 Kingler, 116 to Lv 27)
+- Krabby Starting EXP: 3,375 EXP (Current: 19,875 EXP, Target: 21,952 EXP, 2,077 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
@@ -69,3 +69,5 @@
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
   - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.  - Battles 47-52 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 26 (19,303 EXP, 380 to Lv 27, 2,649 to Lv 28 Kingler; leveled up in B47; DUX grew to 58 EXP share; VEE leveled up to Lv 26 in B48). Swept Hypno Lv 46 (B47, B49, B51), Golbat Lv 46 (B48), Magneton Lv 46 (B50), Venomoth Lv 49 (B52) using Mewtwo. Mewtwo afflicted with PSN in B51, cured at Turn 37034. All EXP distributions and formula ratios 100% verified across 52 battles.
   - Battle 53: Wild Raichu Lv 53. Krabby switched to Mewtwo (OMEGA). Raichu used Growl on switch turn (-1 Atk). Turn 2 Mewtwo OHKOed Raichu with STAB Psychic. Krabby gained 227 EXP + 37 EXP = 264 EXP, reaching 19,567 EXP (only 116 to Lv 27!). DUX gained 55 EXP. Base team share = 37 EXP.
+
+  - Battle 54: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Hypno landed critical hit on switch turn (-21 HP, Mewtwo at 224/249). Turn 2 Mewtwo scored OHKO critical hit with Swift (PP 19/20). Krabby gained 269 participant EXP, leveling up to Level 27! (Stats: Atk 69, Def 62, Spe 38, Spc 23). Exp. All shares: PINCHY 39 EXP (308 EXP total gain, reaching 19,875 EXP; 2,077 to Lv 28 Kingler), DUX 58 EXP (boosted), OMEGA 39 EXP, VEE 39 EXP, ROCKY 39 EXP, SHELDON 39 EXP.
