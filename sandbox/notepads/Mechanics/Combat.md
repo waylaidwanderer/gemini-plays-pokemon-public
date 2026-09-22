@@ -43,7 +43,7 @@
   - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified Battle 19]. (Without Exp. All: projected base share s_EXP = 454, boosted = 681; calculated extrapolation).
   - Venomoth Lv 49: Observed Total EXP Variance:
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28, 33].
+    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28, 33, 34].
 - **Theoretical / Unverified Projections (Pending In-Game Test Citation):**
   - Ditto Lv 53: Projected Total EXP 454. 2 participants without Exp. All -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
 
