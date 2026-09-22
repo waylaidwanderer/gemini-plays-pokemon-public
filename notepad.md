@@ -4942,24 +4942,22 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,434 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 82, Turn 37711):
+### Active Expedition Sweeper Attrition & Condition Log (Expedition 7 Start, Turn 37762):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 21, Water, Lead Slot]
   - Status: Healthy
   - HP: 56 / 56 [Verified Lv 21 Turn 37701 Screen]
   - EXP: 10,084 (564 to Lv 22)
   - Stats: Attack 33, Defense 27, Speed 33, Special 32 [Empirically Verified Lv 21 Turn 37696 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 139 / 229 [Battle 82]
-  - Status: Poisoned (PSN, Battle 82)
-  - Active Move PP: Surf (11/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - HP: 229 / 229 [Cerulean Center Heal Turn 37734]
+  - Status: Healthy
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 85 / 249 [Battle 83 Leech Life]
-  - Status: Paralyzed (PAR, Battle 78)
-  - Active Move PP: Psychic (3/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - HP: 249 / 249 [Cerulean Center Heal Turn 37734]
+  - Status: Healthy
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 85 (> 60 trigger). Psychic PP: 3 (TRIGGER MET: PP <= 3).
-  - Blastoise HP: 139 (> 60 trigger). Surf PP: 11 (> 3 trigger).
-  - Status: Pit-Stop Triggered (Mewtwo Psychic PP <= 3). Return to Cerulean Center.
+  - Both sweepers at 100% HP and full PP. Ready for Expedition 7 combat.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
