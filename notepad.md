@@ -108,11 +108,16 @@
 - �3056 [Turn 34152]
 
 ## Party Pok�mon (6 / 6)
-- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
-  - HP: 168 / 229 [Turn 35919]
-  - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
+  - HP: 36 / 36 [Verified Turn 36012]
+  - Stats: Attack 41, Defense 42, Speed 23, Special 15
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - EXP: 3375 [Turn 35957]
+  - Target: Level 28 Kingler (#099) (21,952 EXP)
+  - Moves: Bubble (PP 30/30), Leer (PP 30/30), Vicegrip (PP 30/30)
+  - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -136,16 +141,11 @@
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - Caught: Mt. Moon 1F [Turn 1197]
-- Slot 6: KRABBY (Nickname: PINCHY) [Lv 15, Water]
+- Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 36 / 36 [Verified Turn 36012]
-  - Stats: Attack 41, Defense 42, Speed 23, Special 15
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 3375 [Turn 35957]
-  - Target: Level 28 Kingler (#099) (21,952 EXP)
-  - Moves: Bubble (PP 30/30), Leer (PP 30/30), Vicegrip (PP 30/30)
-  - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
+  - HP: 168 / 229 [Turn 35919]
+  - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
 
 ## PC Box 1 Pok�mon (Contiguous Slot Order - 13 Pok�mon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
