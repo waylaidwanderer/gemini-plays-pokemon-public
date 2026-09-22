@@ -59,3 +59,10 @@
 3. Evolution Stones:
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
+
+### Expedition 5 Battle Log (Psyduck Trainee):
+- Battle 1 (Turn 37360): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
+  - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 3,676 (420 to Lv 16).
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Magneton model.
