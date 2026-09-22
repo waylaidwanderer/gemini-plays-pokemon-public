@@ -116,7 +116,7 @@
   - Stats: Attack 27, Defense 22, Speed 27, Special 27 [Empirically Verified Lv 17 Turn 37411 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4969 [863 to Lv 18, Empirically Verified Battle 5 Turn 37409; Baseline: 4647 + 322 = 4969; 5832 - 4969 = 863]
+  - EXP: 5291 [541 to Lv 18, Empirically Verified Battle 67 Turn 37420; Baseline: 4969 + 322 = 5291; 5832 - 5291 = 541]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -235,7 +235,7 @@
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
   - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battles 13, 22, 27, 31, 50, 61, 62 (Turn 37360)].
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29, 32, 38, 40, 44, 48, 55, 58, 64 (Turn 37387), 66 (Turn 37409)].
+  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29, 32, 38, 40, 44, 48, 55, 58, 64 (Turn 37387), 66 (Turn 37409), 67 (Turn 37419)].
   - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11, 24, 39, 43, 45, 47, 49, 51, 54, 57, 63 (Turn 37375)].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16, 25].
   - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18, 26, 30, 36, 37, 59].
@@ -5020,6 +5020,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 66 (Exp 5 Battle 5, Turn 37409): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (2x SE OHKO).
   - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 4,969 (Grew to Lv 17!).
     - Lv 17 Stats: Attack 27, Defense 22, Speed 27, Special 27 [Empirically Verified Turn 37411 Screen].
+  - DUX: 69 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
+  - Formula audit: 100% consistent with verified Golbat model.
+- Battle 67 (Exp 5 Battle 6, Turn 37419): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
+  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 5,291 (541 to Lv 18).
   - DUX: 69 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
   - Formula audit: 100% consistent with verified Golbat model.
