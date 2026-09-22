@@ -59,7 +59,7 @@
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno; Empirically Verified Turn 37383]
-  - HP: 210 / 249 [Empirically Verified Battle 3 Turn 37385 Screen]
+  - HP: 195 / 249 [Empirically Verified Battle 5 Turn 37404 Screen]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 18/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
