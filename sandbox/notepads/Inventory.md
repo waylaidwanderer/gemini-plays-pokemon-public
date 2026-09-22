@@ -48,13 +48,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 17, Water]
-  - Status: Healthy [Level Up Turn 36211]
-  - HP: 40 / 40 [Empirically Verified Lv 17 Turn 36217]
-  - Stats: Attack 44, Defense 40, Speed 25, Special 15 [Empirically Verified Lv 17 Turn 36211]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 18, Water]
+  - Status: Healthy [Level Up Turn 36259]
+  - HP: 42 / 42 [Estimated Lv 18]
+  - Stats: Attack 47, Defense 42, Speed 26, Special 16 [Empirically Verified Lv 18 Turn 36259]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 5599 [Turn 36246] (Gained 276 participant + 46 Exp. All = 322 in Battle 7; 233 to Lv 18)
+  - EXP: 5921 [Turn 36259] (Gained 276 participant + 46 Exp. All = 322 in Battle 8; 938 to Lv 19)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
