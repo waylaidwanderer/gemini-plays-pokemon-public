@@ -54,7 +54,7 @@
   - Stats: Attack 49, Defense 44, Speed 27, Special 17 [Empirically Verified Lv 19 Turn 36308]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7534 [Turn 36343] (Gained 262 participant + 39 Exp. All = 301 in Battle 13; 466 to Lv 20)
+  - EXP: 7875 [Turn 36357] (Gained 297 participant + 44 Exp. All = 341 in Battle 14; 125 to Lv 20)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
