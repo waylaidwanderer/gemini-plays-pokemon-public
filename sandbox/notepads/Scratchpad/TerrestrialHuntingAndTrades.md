@@ -54,7 +54,7 @@
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 83 battles!).
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck (Water, Lv 15, HP 42, Attack 24, Defense 20, Speed 24, Special 24) has very low stats compared to Lv 46-53 Cerulean Cave wild Pokémon. Any hit will be lethal.
@@ -79,12 +79,6 @@
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
 
-### Expedition 5 Summary Log (Psyduck Trainee, Battles 62-73, Turns 37360-37514):
-- Battles Fought: 12 (B62 Magneton, B63 Hypno, B64 Golbat, B65 Sandslash, B66 Golbat, B67 Golbat, B68 Golbat, B69 Hypno, B70 Dodrio, B71 Venomoth, B72 Kadabra, B73 Hypno).
-- Total EXP Gained by Psyduck: 3,736 EXP (grew from Lv 15 [3,375 EXP] to Lv 19 [7,111 EXP]).
-- Lv 19 Verified Stats: Attack 30, Defense 24, Speed 30, Special 30, HP 51/51.
-- All Exp. All yields 100% verified and integrated into model above.
-- Pit Stop: Executed at Turn 37542 (Full heal with Nurse Joy in Cerulean City).
 
 ### Expedition 6 Summary Log (Psyduck Trainee, Battles 74-83, Turns 37579-37722):
 - Battles Fought: 10 (B74 Hypno, B75 Hypno, B76 Venomoth, B77 Dodrio, B78 Raichu, B79 Magneton, B80 Magneton, B81 Golbat, B82 Hypno, B83 Venomoth).

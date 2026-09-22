@@ -58,7 +58,7 @@
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
-  - Status: Healthy [Healed Turn 37542]
+  - Status: Healthy
   - HP: 249 / 249
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
@@ -76,7 +76,7 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Healthy [Healed Turn 37542]
+  - Status: Healthy
   - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
