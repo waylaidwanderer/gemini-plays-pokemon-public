@@ -116,7 +116,7 @@
   - Stats: Attack 28, Defense 23, Speed 28, Special 28 [Empirically Verified Lv 18 Turn 37460 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 6509 [350 to Lv 19, Empirically Verified Battle 71 Turn 37485; Baseline: 6236 + 273 = 6509; 6859 - 6509 = 350]
+  - EXP: 6803 [56 to Lv 19, Empirically Verified Battle 72 Turn 37495; Baseline: 6509 + 294 = 6803; 6859 - 6803 = 56]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -237,7 +237,7 @@
   - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified across 7+ battles, including Battles 13, 22, 62 (Turn 37360)].
   - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified across 18+ battles, including Battles 1, 6-8, 64, 66, 67 (Turn 37419)].
   - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified across 12+ battles, including Battles 4, 11, 63 (Turn 37375)].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16, 25].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified across 4+ battles, including Battles 2, 16, 25, 72 (Turn 37495)].
   - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
   - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All: participant share = 237, team base share = 37) [Empirically verified Battles 41, 42, 46].
@@ -4938,7 +4938,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pok�mon: PSYDUCK (MIGRAINE Lv 18, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 6,509 [Turn 37485]. Needed to Lv 19: 350.
+  - Current Empirical EXP: 6,803 [Turn 37495]. Needed to Lv 19: 56.
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (29,701 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -4946,11 +4946,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Trainee: PSYDUCK (MIGRAINE) [Lv 18, Water, Lead Slot]
   - HP: 49 / 49 [Empirically Verified Battle 70 Turn 37464 Screen]
   - Status: Healthy
-  - EXP: 6,509 (350 to Lv 19)
+  - EXP: 6,803 (56 to Lv 19)
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 135 / 229 [Empirically Verified Battle 72 Turn 37494 Screen]
   - Status: Healthy (no status)
-  - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (14/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 71 / 249 [Empirically Verified Battle 72 Turn 37492 Party Screen: 71 HP]
   - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
@@ -4975,12 +4975,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-71
+### Exp. All Empirical Model Audit & Observations Across Battles 1-72
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
     - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68]
-    - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
+    - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62]
@@ -5059,15 +5059,20 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Hypno model.
 - Battle 70 (Exp 5 Battle 9, Turn 37468): Defeated Wild Dodrio Lv 49. Blastoise Ice Beam (2x SE OHKO).
-  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 6,509 (350 to Lv 19).
+  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 6,803 (56 to Lv 19).
   - DUX: 63 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
   - Formula audit: 100% consistent with verified Dodrio model.
 - Battle 71 (Exp 5 Battle 10, Turn 37484): Defeated Wild Venomoth Lv 49. Blastoise STAB Surf (OHKO).
-  - Psyduck: 273 EXP (238 participant + 35 team share) -> New EXP: 6,509 (350 to Lv 19).
+  - Psyduck: 273 EXP (238 participant + 35 team share) -> New EXP: 6,803 (56 to Lv 19).
   - DUX: 52 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 35 EXP each.
   - Formula audit: 100% consistent with verified Venomoth model.
+- Battle 72 (Exp 5 Battle 11, Turn 37495): Defeated Wild Kadabra Lv 49. Blastoise Body Slam (OHKO).
+  - Psyduck: 294 EXP (252 participant + 42 team share) -> New EXP: 6,803 (56 to Lv 19).
+  - DUX: 63 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
+  - Formula audit: 100% consistent with verified Kadabra model.
 
 
 <hr>
