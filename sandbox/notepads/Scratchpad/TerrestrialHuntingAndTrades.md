@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Switch-train Krabby (PINCHY Lv 26 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+## Active Goal: Switch-train Krabby (PINCHY Lv 27 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
 - Krabby Starting EXP: 3,375 EXP (Current: 19,875 EXP, Target: 21,952 EXP, 2,077 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -19,7 +19,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-53
+### Exp. All Empirical Model Audit & Observations Across Battles 1-54
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -31,9 +31,9 @@
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 53 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 54 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 26, HP 58, Attack 67, Defense 59, Speed 37, Special 22) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (22) and modest HP (58). Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
