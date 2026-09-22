@@ -4937,27 +4937,28 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pok�mon: PSYDUCK (MIGRAINE Lv 18, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 6,803 [Turn 37495]. Needed to Lv 19: 56.
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (29,701 EXP remaining).
+- Target Pok�mon: PSYDUCK (MIGRAINE Lv 19, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 7,111 [Turn 37511]. Needed to Lv 20: 889.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (28,826 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 70, Turn 37471):
-- Trainee: PSYDUCK (MIGRAINE) [Lv 18, Water, Lead Slot]
-  - HP: 49 / 49 [Empirically Verified Battle 70 Turn 37464 Screen]
-  - Status: Healthy
-  - EXP: 6,803 (56 to Lv 19)
+### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 73, Turn 37514):
+- Trainee: PSYDUCK (MIGRAINE) [Lv 19, Water, Lead Slot]
+  - Status: Healthy [Level Up Turn 37511]
+  - HP: 49 / 49 (Max HP pending party check)
+  - EXP: 7,111 (889 to Lv 20)
+  - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Lv 19 Turn 37511 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 135 / 229 [Empirically Verified Battle 72 Turn 37494 Screen]
+  - HP: 91 / 229 [Empirically Verified Battle 73 Turn 37511 Screen]
   - Status: Healthy (no status)
-  - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (14/15), Double-Edge (15/15)
+  - Active Move PP: Surf (10/15), Ice Beam (8/10), Body Slam (14/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 71 / 249 [Empirically Verified Battle 72 Turn 37492 Party Screen: 71 HP]
+  - HP: 70 / 249 [Empirically Verified Battle 73 Turn 37503 Party Screen: 70 HP]
   - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
   - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 84 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
-    - Blastoise HP: 135 (> 60 trigger).
+  - Mewtwo HP: 70 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
+  - Blastoise HP: 91 (> 60 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
