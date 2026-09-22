@@ -5023,13 +5023,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - EXP: 14,067 (1,558 to Lv 25) [Battle 96: +308 EXP]
   - Stats: Attack 37, Defense 30, Speed 37, Special 37 [Verified Lv 24 Screen Turn 38021]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 182 / 229 [PSN status from Hypno Poison Gas]
-  - Status: Poisoned (PSN)
-  - Active Move PP: Surf (13/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
+  - HP: 229 / 229
+  - Status: Healthy (Poison cured Turn 38045)
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 221 / 249
+  - HP: 249 / 249
   - Status: Healthy
-  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
   - Blastoise HP: 182 (> 60 trigger). Surf PP: 13 (> 3 trigger).
