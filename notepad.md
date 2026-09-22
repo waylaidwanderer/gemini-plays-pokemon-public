@@ -108,6 +108,7 @@
 
 - [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
+- [x] Train Psyduck to Level 24 (14,067 EXP) [Turn 38021]
 - [ ] Evolve Psyduck into Golduck (#055) at Lv 33 (35,937 EXP)
 
 
@@ -166,13 +167,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 23, Water]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 24, Water]
   - Status: Healthy
-  - HP: 61 / 61
-  - Stats: Attack 36, Defense 29, Speed 36, Special 36
+  - HP: ~63 / 63
+  - Stats: Attack 37, Defense 30, Speed 37, Special 37
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 13759 [65 to Lv 24; 13824 - 13759 = 65]
+  - EXP: 14067 [1558 to Lv 25; 15625 - 14067 = 1558]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -310,7 +311,7 @@
   - Team Share: `E_half = floor(E / 2)`, divided among 6 party members: `floor(E_half / 6) = floor(E / 12)`.
   - Participant vs Non-Participant Division Hypothesis: While Golbat and Kadabra base shares match `floor(E / 24.0)`, 6 of 9 species exhibit divisor K between 24.5 and 27.6 (e.g. Hypno K=27.6, Sandslash K=27.0). The exact 8-bit register truncation routine in Gen 1 assembly remains an unverified hypothesis under ongoing empirical tracking.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
-- **Empirical Effective Divisor K (Across 95 Battles):**
+- **Empirical Effective Divisor K (Across 96 Battles):**
   - Golbat (E=1104, base=46, K=24.0) [22 empirical encounters verified]
   - Kadabra (E=1008, base=42, K=24.0) [4 empirical encounters verified]
   - Raichu (E=908, base=37, K=24.5) [5 empirical encounters verified]
@@ -319,7 +320,7 @@
   - Magneton (E=1050, base=39, K=26.9) [10 empirical encounters verified]
   - Sandslash (E=1188, base=44, K=27.0) [8 empirical encounters verified]
   - Venomoth (E=952, base=35, K=27.2) [10 empirical encounters verified]
-  - Hypno (E=1076, base=39, K=27.6) [19 empirical encounters verified]
+  - Hypno (E=1076, base=39, K=27.6) [20 empirical encounters verified]
 
 
 <hr>
@@ -5009,30 +5010,30 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 23, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 13,759 [Turn 38005]. Psyduck reached Level 23!
-  - Milestone Next: Lv 24 = 24^3 = 13,824 EXP (65 EXP remaining, exactly 1 battle!).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (22,178 EXP remaining).
+- Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 24, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 14,067 [Turn 38021]. Psyduck reached Level 24!
+  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (1,558 EXP remaining, ~5 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (21,870 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 95 Magneton, Turn 38005):
-- Trainee: PSYDUCK (MIGRAINE) [Lv 23, Water, Lead Slot]
+### Active Expedition Sweeper Attrition & Condition Log (Battle 96 Hypno, Turn 38021):
+- Trainee: PSYDUCK (MIGRAINE) [Lv 24, Water, Lead Slot]
   - Status: Healthy
-  - HP: 61 / 61
-  - EXP: 13,759 (65 to Lv 24) [Battle 95: +301 EXP]
-  - Stats: Attack 36, Defense 29, Speed 36, Special 36 [Verified Lv 23 Screen Turn 37910]
+  - HP: ~63 / 63
+  - EXP: 14,067 (1,558 to Lv 25) [Battle 96: +308 EXP]
+  - Stats: Attack 37, Defense 30, Speed 37, Special 37 [Verified Lv 24 Screen Turn 38021]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 214 / 229
-  - Status: Healthy
-  - Active Move PP: Surf (15/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
+  - HP: 182 / 229 [PSN status from Hypno Poison Gas]
+  - Status: Poisoned (PSN)
+  - Active Move PP: Surf (13/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 221 / 249 [0 dmg taken]
+  - HP: 221 / 249
   - Status: Healthy
   - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
-  - Blastoise HP: 214 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Ready for Battle 96 (Level 24 Milestone Battle!).
+  - Blastoise HP: 182 (> 60 trigger). Surf PP: 13 (> 3 trigger).
+  - Protocol Status: Green / Healthy. Ready for Battle 97 or Dilution Test Pit Stop.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -5049,7 +5050,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-95
+### Exp. All Empirical Model Audit & Observations Across Battles 1-96
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -5061,7 +5062,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65,89]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
     - Parasect (E=950, base=37 = E/25.7) [B41,42,46,91,94]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90,96]
     Division Variance Testable Hypothesis (Gen 1 Assembly Implementation):
     - Context & Phenomenon: Across all battles with a healthy 6-member party, the Exp. All team base share is consistently floor(E / K) where effective divisor K ranges from 24.0 to 27.6:
       - Golbat (E=1104, base=46, K=24.0), Kadabra (E=1008, base=42, K=24.0), Raichu (E=908, base=37, K=24.5)
@@ -5120,6 +5121,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Mewtwo used STAB Psychic (OHKO). Psychic PP 8/10.
   - EXP: Magneton Total 1,050. Psyduck gained 301 EXP (262 participant + 39 team share).
   - Trainee EXP: 13,458 -> 13,759 EXP (65 to Lv 24).
+- Battle 96 (Hypno Lv 46, Turn 38013-38021):
+  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Hypno dealt 32 dmg (182/229 HP) and used Poison Gas (PSN).
+  - Blastoise used STAB Surf (2HKO). Surf PP 13/15.
+  - EXP: Hypno Total 1,076. Psyduck gained 308 EXP (269 participant + 39 team share).
+  - Trainee EXP: 13,759 -> 14,067 EXP.
+  - MILESTONE: Psyduck GREW TO LEVEL 24! Verified Lv 24 stats: Atk 37, Def 30, Spd 37, Spc 37.
+  - Remaining to Lv 25 (15,625 EXP): 1,558 EXP (~5 battles).
 
 
 
