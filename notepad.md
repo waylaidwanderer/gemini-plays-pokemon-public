@@ -116,7 +116,7 @@
   - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Empirically Verified Lv 15 Turn 37295]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 3375 [721 to Lv 16, Empirically Verified Turn 37299; Proof: 15^3 = 3375, 16^3 = 4096, 4096 - 3375 = 721]
+  - EXP: 3676 [420 to Lv 16, Empirically Verified Battle 1 Turn 37360; Baseline: 3375 + 301 = 3676; 4096 - 3676 = 420]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -4994,6 +4994,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 3. Evolution Stones:
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
+
+### Expedition 5 Battle Log (Psyduck Trainee):
+- Battle 1 (Turn 37360): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
+  - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 3,676 (420 to Lv 16).
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Magneton model.
 
 
 <hr>
