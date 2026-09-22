@@ -5006,7 +5006,12 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
 - Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean Pok�mon Center; team 100% restored.
 - Expedition 3 Summary [Turns 35868-35918]: 4 battles completed (Battles 22-25: Hypno Lv 46, Venomoth Lv 49, Parasect Lv 52 x2). Paras gained 1,971 EXP, grew from Lv 22 (12,065 EXP) to Lv 24 (14,036 EXP), and EVOLVED INTO PARASECT (#047)! Pok�dex caught verified at 50 [Turn 35923].
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
-  - Battle 1 (Active): Wild Golbat Lv 46. Turn 1 switched Krabby to Mewtwo (confused by Confuse Ray). Turn 2 preparing STAB Psychic.
+  - Battle 1: Wild Golbat Lv 46. Turn 1 switched Krabby to Mewtwo (confused). Turn 2 Mewtwo OHKOed Golbat with critical STAB Psychic.
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (276 EXP) + OMEGA (276 EXP) = 552 EXP. Implies total battle E = 1,104.
+      - Exp. All Team Pool:
+        - PINCHY (Native): 46 EXP (552 / 12 = 46.0). Total Krabby gain: 276 + 46 = 322 EXP!
+        - DUX (Traded): 69 EXP! EMPIRICAL PROOF: 1.5x trade bonus applies to Exp. All (46 + floor(46/2) = 69).
 
 
 <hr>
