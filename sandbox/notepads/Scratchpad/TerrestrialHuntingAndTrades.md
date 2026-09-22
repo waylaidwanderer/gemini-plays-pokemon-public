@@ -18,8 +18,20 @@
 | **Dodrio*** | 49 | 1,092 | **273 EXP** | 410 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
-- Note on Historical Entries: Dodrio and Ditto entries are marked (Historical) as unverified approximations carried over from earlier notes. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, and Parasect (*) are all 100% empirically verified in the current run.
+- Note on Historical Entries: Only Ditto remains marked (Historical) as an unverified approximation. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, Parasect, and Dodrio (*) are all 100% empirically verified in the current run.
 - Average Yield per Cerulean Cave 1F battle (with EXP.ALL): ~350-400 EXP for Krabby (~45-50 battles for 18,577 EXP needed for Lv 28 Kingler).
+
+
+### Exp. All Empirical Model Audit (Battle 3 Discrepancy Analysis)
+- Observed Anomaly: In Battle 3 (Dodrio Lv 49, participant pool 546), Hypothesis B predicted team base share = floor(546 / 12) = 45 EXP. In-game reality yielded exactly 42 EXP (and DUX 63 EXP).
+- Mathematical Hypotheses for Discrepancy:
+  1. Divisor is 13: 546 // 13 = 42.0 exactly! (Why 13? Could be 6 + 6 + 1 or another counter).
+  2. Stale Register / Intermediate Truncation: 252 // 6 = 42 (from Kadabra Battle 2), or an arithmetic overflow/shift truncating dividend.
+  3. Battle 4 Test Criterion: Wild Hypno Lv 46 has E = 1,076 (participant pool = 538).
+     - Under Divisor 12: 538 // 12 = 44 EXP.
+     - Under Divisor 13: 538 // 13 = 41 EXP.
+     - Under Stale/Fixed Register: 42 EXP.
+     Observing Battle 4's exact Exp. All yield will decisively isolate the formula!
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
