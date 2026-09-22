@@ -134,10 +134,10 @@
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 13, Rock/Ground]
-  - Status: Healthy [Level Up Turn 36524]
-  - HP: 36 / 36 [Empirically Verified Lv 13 Turn 36571]
-  - Stats: Attack 28, Defense 34, Speed 12, Special 15 [Empirically Verified Lv 13 Turn 36524]
+- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 14, Rock/Ground]
+  - Status: Healthy [Level Up Turn 36640]
+  - HP: 38 / 38 [Pending party check]
+  - Stats: Attack 30, Defense 36, Speed 12, Special 15 [Empirically Verified Lv 14 Turn 36640]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
@@ -5009,7 +5009,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - B20: Wild Golbat Lv 46 (Blastoise swept; pit-stop heal at Cerulean Center).
     - B21: Wild Venomoth Lv 49 (Mewtwo swept; +273 EXP).
     - B22: Wild Magneton Lv 46 (Mewtwo swept; +301 EXP, PINCHY reached 10,239 EXP).
-    - Battles 23-32 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,331 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29, B32). All EXP distributions verified.
+    - Battles 23-32 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,331 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23, Lv 14 in B32). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29, B32). All EXP distributions verified.
 
 
 <hr>
