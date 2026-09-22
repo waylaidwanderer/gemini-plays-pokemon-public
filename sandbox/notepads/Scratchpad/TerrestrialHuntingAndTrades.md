@@ -31,7 +31,7 @@
   - Battle 5 (Sandslash Lv 52, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
-  - Exp. All Base Share is approximately E / 24 to E / 27, varying with integer truncation in the division registers.
+  - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 5 battles!).
 
 ### Krabby Switch-Training Combat Protocol
@@ -46,29 +46,6 @@
   - Blastoise: Surf 13/15, Ice Beam 8/10, Body Slam 15/15, Double-Edge 15/15.
   - Mewtwo: Psychic 9/10, Swift 20/20, Recover 20/20.
   - Retreat triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
-
-### Exp. All Mathematical Distribution Model & Hypotheses
-In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experience is split:
-- Reconciled EXP.ALL Mathematical Models (Empirically Tested in Battles 1 & 2):
-  - Observed In-Game Reality:
-    - Battle 1 (Golbat Lv 46, E=1,104, 2 participants): Participant share = 276 (552/2), Team base share = 46 (552/12), Traded share = 69 (46 + 23).
-    - Battle 2 (Kadabra Lv 49, E=1,008, 2 participants): Participant share = 252 (504/2), Team base share = 42 (504/12), Traded share = 63 (42 + 21).
-  - Hypothesis A (Double-Halving):
-    The team pool is halved twice before being divided among the 6 party members:
-    T_share = floor(floor(E / 4) / 6) = floor(E / 24).
-    For 2 participants: floor(1104 / 24) = 46.0; floor(1008 / 24) = 42.0.
-  - Hypothesis B (Participant-Dependent Division):
-    The team pool is divided by the number of participants, and then by 6:
-    T_share = floor(floor(E / 2) / (n_participants * 6)).
-    With n_participants = 2, divisor is 2 * 6 = 12.
-  - Test Plan to Isolate Variable:
-    In an upcoming battle, test with 1 participant (solo Mewtwo or solo Krabby):
-    Under Hypo A, T_share = floor(E / 24). Under Hypo B, T_share = floor(E / 12) (double the team share!).
-- Empirical Verification Protocol:
-  - Battle 1: Record wild species and level (E).
-  - Record the exact EXP gained by active sweeper (Mewtwo or Blastoise).
-  - Record dialogue text for Krabby and Exp. All distribution to party members.
-  - Verify exact integer numbers against the formulas above.
 
 ### Other Post-Game Evolution Candidates
 1. PSYDUCK (MIGRAINE Lv 15, Box 2):
