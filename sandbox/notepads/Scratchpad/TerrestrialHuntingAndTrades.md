@@ -2,6 +2,8 @@
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 1 -> Party Slot 1)
+  - Baseline Empirical EXP: 3,375 [Turn 37299]. Needed to Lv 16: 721.
+  - Cubic Formula Proof: 15^3 = 3,375. 16^3 = 4,096. 4,096 - 3,375 = 721 (Exact match!). Target Lv 33 Golduck = 33^3 = 35,937 EXP.
 - Current Milestone: Kingler (#099) evolution complete (51 caught). Deposited into Box 1 [Turn 37244].
 - Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
 
@@ -46,11 +48,7 @@
   - Retreat Triggers: Active sweeper reaching primary SE PP <= 3 (Mewtwo Psychic <= 3 triggers immediate pit stop to restore PP) or HP < 60, or major persistent status (PAR) combined with low PP.
 
 ### Other Post-Game Evolution Candidates
-1. PSYDUCK (MIGRAINE Lv 15, Box 2):
-   - Growth Group: Medium Fast (EXP = Level^3)
-   - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
-   - Prerequisite Status: Caught, stored in Box 1 [Verified Box 2 empty Turn 37268].
-2. SLOWPOKE (DOPEY Lv 15, Box 2):
+1. SLOWPOKE (DOPEY Lv 15, Box 1):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
    - Prerequisite Status: Caught, stored in Box 1 [Verified Box 2 empty Turn 37268].
