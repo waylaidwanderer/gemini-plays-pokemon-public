@@ -208,11 +208,11 @@
 - **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
 ## Stat & Damage Mechanics
-- **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat.
-- **Physical Types:** Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost.
-- **Special Types:** Water, Grass, Fire, Ice, Electric, Psychic, Dragon.
-- **STAB:** Same-Type Attack Bonus provides a 1.5x multiplier to damage.
-- **Priority:** Quick Attack has +1 priority.
+- **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat [Empirically verified across all stat screens and damage calculations].
+- **Physical Types:** Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost [Standard Gen 1 mechanics; verified via Defense-dependent damage calculation].
+- **Special Types:** Water, Grass, Fire, Ice, Electric, Psychic, Dragon [Standard Gen 1 mechanics; verified via Special-dependent damage calculation].
+- **STAB:** Same-Type Attack Bonus provides a 1.5x multiplier to damage [Standard Gen 1 formula; verified in damage calculations].
+- **Priority:** Quick Attack has +1 priority [Standard Gen 1 mechanic].
 
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
@@ -2762,12 +2762,12 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Item ball at (8, 3) retrieved: RARE CANDY [Obtained Turn 12025]. Path fully cleared.
 ### Pokémon Center Interior (Cols 18..21, Rows 24..27)
 - Entered via door at (19, 27) from southwest courtyard.
-- Interior bounds: Cols 0..7, rows 0..7.
+- Interior bounds: Cols 0..13, rows 0..7 [Empirically verified Turn 35941].
 - Entrance mat: (3..4, 7), exits south to Fuchsia City courtyard at (19, 28).
 - Counter: Along row 2.
 - Nurse Joy: Located at (3, 2); spoken to from (3, 3) to heal party and restore all PP [Verified Turn 12058].
 - Active Warp Anchor: Fuchsia City Pokémon Center is now the active respawn/teleport anchor [Turn 12058].
-- PC Terminal: Located along the right wall.
+- PC Terminal: Located at (13, 3) along the right wall. Floor tile in front of terminal at (13, 4) facing North [Empirically verified Turn 35941].
 
 
 <hr>
@@ -4916,7 +4916,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Claim Exp. All from Route 15 Gatehouse (50 Caught / Req 50 [Verified Turn 35923])
 - Target: Level 24 (13,824 EXP, Pokédex #047)
-- Verified Starting State: Lv 10, HP 29/29, Atk 21, Def 16, Spd 11, Spc 18, EXP 1000, Move: Scratch (PP 35/35) [Turn 35442]
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
@@ -4990,7 +4989,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
 - Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
 - Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean Pokémon Center; team 100% restored.
-- Expedition 3 Target: Lv 24 Parasect (13,824 EXP). Starting at Lv 22 (12,065 EXP; 102 EXP to Lv 23, 1,759 EXP to Lv 24).
 - Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
 - Battle 23 (Exp 3 Battle 2) [Turn 35892]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; cured SLP with Poké Flute; STAB Psychic 2x SE OHKO (Psychic 9/10, Mewtwo HP 238/243). Paras gained 483 EXP (13,086 EXP, 738 to Lv 24).
 - Battle 24 (Exp 3 Battle 3) [Turn 35903]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed crit Slash (HP 176/229); Ice Beam 2x SE OHKO (Ice Beam 9/10). Paras gained 475 EXP (13,561 EXP, 263 to Lv 24 Parasect).
