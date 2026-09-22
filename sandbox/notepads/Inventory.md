@@ -54,7 +54,7 @@
   - Stats: Attack 62, Defense 55, Speed 34, Special 21 [Empirically Verified Lv 24 Turn 36661]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 14456 [Turn 36736] (1169 to Lv 25)
+  - EXP: 14771 [Turn 36746] (854 to Lv 25)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 13, Normal/Flying]
@@ -66,10 +66,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 36688]
-  - HP: 221 / 249 [Verified Turn 36736]
+  - HP: 211 / 249 [Verified Turn 36746]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
