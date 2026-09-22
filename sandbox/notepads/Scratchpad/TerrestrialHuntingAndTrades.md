@@ -3,7 +3,7 @@
 ## Active Goal: Evolve Paras (FUNGI) into Parasect (#047)
 - Target: Level 24 (13,824 EXP, Pokédex #047)
 - Verified Starting State: Lv 10, HP 29/29, Atk 21, Def 16, Spd 11, Spc 18, EXP 1000, Move: Scratch (PP 35/35) [Turn 35442]
-- Switch Sweepers: Blastoise (SHELDON Lv 71) / Mewtwo (OMEGA Lv 71)
+- Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
@@ -28,9 +28,9 @@
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Hypno Contingency: While Mewtwo is the primary Special counter, Blastoise is deployed to mitigate Mewtwo PSN attrition and preserve Psychic PP. Blastoise must use Surf or Body Slam (avoid Double-Edge to eliminate recoil damage).
-  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 71). High Defense (194) absorbs physical hits effortlessly; retaliates with STAB Surf / 2x Ice Beam.
+  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits effortlessly; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Blastoise (SHELDON Lv 71): Surf 15 PP, Ice Beam 10 PP, Body Slam 15 PP, Double-Edge 15 PP (total 55 PP).
+  - Blastoise (SHELDON Lv 72): Surf 15 PP, Ice Beam 10 PP, Body Slam 15 PP, Double-Edge 15 PP (total 55 PP).
   - Mewtwo (OMEGA Lv 71): Psychic 10 PP, Swift 20 PP, Recover 20 PP (total 50 PP).
   - Combined High-Yield SE PP: 25 moves (Surf + Ice Beam) on Blastoise, 10 moves (Psychic) on Mewtwo = 35 primary OHKO moves.
   - Safe Grinding Window: ~18-20 battles per expedition before primary STAB PP runs low.
@@ -73,12 +73,9 @@
 - Ice Beam Typing: Bug is damaged normally (1x) by Ice in Gen 1, while Grass is weak (2x), making Ice Beam 2x Super Effective vs Parasect.
 - Input Buffering Caution: Rapidly buffering consecutive 'A' presses across menu transitions can trigger unintentional move selections (e.g., Slot 1 Double-Edge). Chunk inputs cleanly with 'B' or pauses to verify menu states.
 
-### Battle Log (Expeditions 1-14 Aggregated Summary):
+### Battle Log (Expeditions 1-3 Summary & Active Log):
 - Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
   - Starting State: Paras Lv 10 (1,000 EXP).
-  - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
-  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 5,497 EXP (934 to Lv 21).
-
 - Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean Pokémon Center; team 100% restored.
 - Expedition 3 Target: Lv 24 Parasect (13,824 EXP). Starting at Lv 22 (12,065 EXP; 102 EXP to Lv 23, 1,759 EXP to Lv 24).
 - Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
