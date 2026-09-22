@@ -64,7 +64,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Healthy (Poison cured Turn 38045)
+  - Status: Healthy
   - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)

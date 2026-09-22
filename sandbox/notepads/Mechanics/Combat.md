@@ -54,7 +54,7 @@
   - Participant vs Non-Participant Division Hypothesis: While Golbat and Kadabra base shares match `floor(E / 24.0)`, 6 of 9 species exhibit divisor K between 24.5 and 27.6 (e.g. Hypno K=27.6, Sandslash K=27.0). The exact 8-bit register truncation routine in Gen 1 assembly remains an unverified hypothesis under ongoing empirical tracking.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
 - **Empirical Effective Divisor K (Across 96 Battles):**
-  - Golbat (E=1104, base=46, K=24.0) [22 empirical encounters verified]
+  - Golbat (E=1104, base=46, K=24.0) [23 empirical encounters verified]
   - Kadabra (E=1008, base=42, K=24.0) [4 empirical encounters verified]
   - Raichu (E=908, base=37, K=24.5) [5 empirical encounters verified]
   - Parasect (E=950, base=37, K=25.7) [5 empirical encounters verified]
