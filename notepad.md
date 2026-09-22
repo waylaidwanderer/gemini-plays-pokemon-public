@@ -125,7 +125,7 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
-  - Status: Healthy [Healed Turn 36884]
+  - Status: Poisoned (PSN) [Battle 51 Turn 37015]
   - HP: 160 / 249 [Turn 37017]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
@@ -231,9 +231,9 @@
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battles 13, 22, 27, 31].
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29, 32, 38, 40, 44].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11, 24, 39, 43, 45].
+  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battles 13, 22, 27, 31, 50].
+  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29, 32, 38, 40, 44, 48].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11, 24, 39, 43, 45, 47, 49, 51].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16, 25].
   - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18, 26, 30, 36, 37].
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battles 5, 9, 10, 14, 23].
@@ -4950,21 +4950,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-46
+### Exp. All Empirical Model Audit & Observations Across Battles 1-51
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
-    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44]
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
     - Raichu (E=908, base=37 = E/24.5) [B19,35]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37]
-    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31]
+    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 46 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 51 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 25, HP 56, Attack 64, Defense 57, Speed 35, Special 21) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to its low Special stat (21) and modest HP (56). Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
@@ -4998,11 +4998,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
-  - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.  - Battle 47: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 13 damage (236/249 HP) and OHKOed Hypno with critical hit Swift. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 17,791 EXP and leveling up to Level 26! (Stats: Atk 67, Def 59, Spd 37, Spc 22). DUX gained 58 EXP. Base team share = 39 EXP.
-  - Battle 48: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo confused by Confuse Ray, took 23 self-hit + 5 damage (208/249 HP), then powered through confusion to OHKO Golbat with super-effective STAB Psychic. Krabby gained 276 EXP + 46 EXP = 322 EXP, reaching 18,113 EXP (1,570 to Lv 27). DUX gained 69 EXP. Base team share = 46 EXP. VEE leveled up to Lv 26 (Atk 42, Def 38, Spd 75, Spc 65)!
-  - Battle 49: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 12 damage (196/249 HP). Turn 2 Swift dealt ~60% damage; Hypno used Poison Gas (failed). Turn 3 Swift scored a critical hit, KOing Hypno. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 18,421 EXP (1,262 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
-  - Battle 50: Wild Magneton Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 11 damage on switch turn (185/249 HP). Turn 2 Mewtwo OHKOed Magneton with STAB Psychic. Krabby gained 262 EXP + 39 EXP = 301 EXP, reaching 18,722 EXP (961 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
-  - Battle 51: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo was poisoned by Poison Gas on switch turn (185/249 HP). Turn 2 Mewtwo used Swift (~60% damage), took 15 poison damage + 10 Psychic damage (160/249 HP). Turn 3 Mewtwo used Swift, KOing Hypno. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 19,030 EXP (653 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
+  - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.  - Battles 47-51 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 26 (19,030 EXP, 653 to Lv 27, 2,922 to Lv 28 Kingler; leveled up in B47; DUX grew to 58 EXP share; VEE leveled up to Lv 26 in B48). Swept Hypno Lv 46 (B47, B49, B51), Golbat Lv 46 (B48), Magneton Lv 46 (B50) using Mewtwo. Mewtwo afflicted with PSN in B51 (160/249 HP). All EXP distributions and formula ratios 100% verified across 51 battles.
 
 
 <hr>
