@@ -78,7 +78,7 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
-  - HP: 38 / 38
+  - HP: 36 / 36 [Verified Turn 36012]
   - Stats: Attack 41, Defense 42, Speed 23, Special 15
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
