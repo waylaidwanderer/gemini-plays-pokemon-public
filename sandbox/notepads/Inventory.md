@@ -70,10 +70,9 @@
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
-  - Status: Healthy [Verified Lv 25 Turn 36935]
-  - HP: 68 / 68 [Verified Lv 25 Turn 36935]
-  - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Empirically Verified Lv 25 Turn 36935]
+- Slot 4: JOLTEON (Nickname: VEE) [Lv 26, Electric]
+  - Status: Healthy [Level Up Turn 36982]
+  - Stats: Attack 42, Defense 38, Speed 75, Special 65 [Empirically Verified Lv 26 Turn 36982]
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 5: GEODUDE (Nickname: ROCKY) [Lv 15, Rock/Ground]
