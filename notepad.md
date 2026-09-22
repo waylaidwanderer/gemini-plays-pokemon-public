@@ -114,7 +114,7 @@
   - Stats: Attack 69, Defense 62, Speed 38, Special 23 [Empirically Verified Lv 27 Turn 37105]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 20846 [Turn 37152] (1,106 to Lv 28 Kingler)
+  - EXP: 21168 [Turn 37166] (784 to Lv 28 Kingler)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
@@ -232,7 +232,7 @@
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
   - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battles 13, 22, 27, 31, 50].
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29, 32, 38, 40, 44, 48, 55].
+  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29, 32, 38, 40, 44, 48, 55, 58].
   - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11, 24, 39, 43, 45, 47, 49, 51, 54, 57].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16, 25].
   - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18, 26, 30, 36, 37].
@@ -4932,7 +4932,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 27 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 20,846 EXP, Target: 21,952 EXP, 1,106 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 21,168 EXP, Target: 21,952 EXP, 784 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
