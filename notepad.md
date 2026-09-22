@@ -114,13 +114,13 @@
   - Stats: Attack 64, Defense 57, Speed 35, Special 21 [Empirically Verified Lv 25 Turn 36785]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 16271 [Turn 36807] (1305 to Lv 26)
+  - EXP: 16579 [Turn 36834] (997 to Lv 26)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 13, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36662]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 14, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36836]
   - HP: 38 / 38 [Empirically Verified Lv 13 Turn 36668]
-  - Stats: Attack 23, Defense 22, Speed 22, Special 21 [Empirically Verified Lv 13 Turn 36662]
+  - Stats: Attack 25, Defense 23, Speed 23, Special 22 [Empirically Verified Lv 14 Turn 36836]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
@@ -142,9 +142,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy [Healed Turn 36688]
-  - HP: 229 / 229 [Healed Turn 36688]
+  - HP: 219 / 229 [Turn 36825]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
@@ -4927,7 +4927,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 25 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 16,271 EXP, Target: 21,952 EXP, 5,681 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 16,579 EXP, Target: 21,952 EXP, 5,373 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, * = Tested)
@@ -4996,5 +4996,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
   - Battles 23-42 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (16,271 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42). Full party heal at Cerulean Center Turn 36688. All EXP distributions verified.
+  - Battle 43: Wild Hypno Lv 46. Turn 1: Switch Krabby to Blastoise (took 10 dmg, 219/229 HP). Turns 2-3: Blastoise defeated Hypno with Surf x2 (Surf PP 13/15). EXP: Pinchy 269+39 = 308 (16,579 EXP, 997 to Lv 26); DUX 58 (grew to Lv 14: Atk 25, Def 23, Spe 23, Spc 22); OMEGA/VEE/ROCKY/SHELDON 39.
 
 <hr>
