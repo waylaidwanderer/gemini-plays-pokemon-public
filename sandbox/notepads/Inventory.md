@@ -57,10 +57,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37034]
-  - HP: 193 / 249 [Turn 37150]
+  - HP: 249 / 249 [Healthy]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
@@ -75,9 +75,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy [Healed Turn 37034]
-  - HP: 199 / 229 [Turn 37177]
+  - HP: 229 / 229 [Healthy]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy [Withdrawn Turn 37281]
   - OT: BLUE (IDNo. 04620)
@@ -86,7 +86,7 @@
   - Moves: Scratch, Tail Whip
   - Caught: Cerulean Gym pool [Turn 31526]
 
-## PC Box 1 Pokémon (Contiguous Slot Order - 14 Pokémon)
+## PC Box 1 Pokémon (Stored Sample)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
 - Slot 2: HITMONLEE (BRUCE) [Lv 30]
 - Slot 3: LAPRAS (NESSY) [Lv 15]
