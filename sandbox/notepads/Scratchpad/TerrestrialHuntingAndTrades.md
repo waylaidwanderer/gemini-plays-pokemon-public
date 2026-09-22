@@ -1,29 +1,29 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 23, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 12,862 [Turn 37933]. Psyduck reached Level 23!
-  - Milestone Next: Lv 24 = 24^3 = 13,824 EXP (962 EXP remaining, ~3 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (23,075 EXP remaining).
+- Target PokÃ©mon: PSYDUCK (MIGRAINE Lv 23, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 13,184 [Turn 37985]. Psyduck reached Level 23!
+  - Milestone Next: Lv 24 = 24^3 = 13,824 EXP (640 EXP remaining, ~2 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (22,753 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Cerulean Center Pit Stop, Turn 37943):
+### Active Expedition Sweeper Attrition & Condition Log (Battle 93 Golbat, Turn 37985):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 23, Water, Lead Slot]
   - Status: Healthy
   - HP: 61 / 61
-  - EXP: 12,862 (962 to Lv 24) [Battle 92: +322 EXP]
+  - EXP: 13,184 (640 to Lv 24) [Battle 93: +322 EXP]
   - Stats: Attack 36, Defense 29, Speed 36, Special 36 [Verified Lv 23 Screen Turn 37910]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 229 / 229 [Full Heal Cerulean Center]
-  - Status: Healthy [PSN cured]
+  - HP: 229 / 229
+  - Status: Healthy
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 249 / 249 [Full Heal Cerulean Center]
+  - HP: 221 / 249 [28 self-confusion dmg]
   - Status: Healthy
-  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 249 (> 60 trigger). Psychic PP: 10 (> 3 trigger).
+  - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 9 (> 3 trigger).
   - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / 100% Fully Restored. Ready for Expedition 8 (Final 962 EXP to Lv 24).
+  - Protocol Status: Green / Healthy. Ready for Battle 94.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -40,11 +40,11 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-92
+### Exp. All Empirical Model Audit & Observations Across Battles 1-93
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
-    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86,92]
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86,92,93]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85,87]
@@ -67,7 +67,7 @@
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 83 battles!).
 
 ### Psyduck Switch-Training Combat Protocol
-- Vulnerability Profile: Psyduck (Water, Lv 15, HP 42, Attack 24, Defense 20, Speed 24, Special 24) has very low stats compared to Lv 46-53 Cerulean Cave wild PokÃ©mon. Any hit will be lethal.
+- Vulnerability Profile: Psyduck (Water, Lv 15, HP 42, Attack 24, Defense 20, Speed 24, Special 24) has very low stats compared to Lv 46-53 Cerulean Cave wild PokÃÂ©mon. Any hit will be lethal.
 - Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -86,11 +86,18 @@
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
      - Prerequisite Status: Slowpoke owned (Box 1), but not yet evolved into Slowbro (unobtained asset).
 3. Evolution Stones:
-   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for Â¥2,100 each.
-   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: Â¥3056.
+   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ÃÂ¥2,100 each.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ÃÂ¥3056.
 
 ### Testable Hypothesis: Exp. All Party Size Dilution
 - **Observation:** All 92 battles have been conducted with a 6-member party, yielding ~40-46 base team share (divisor K ~ 24..27).
 - **Hypothesis:** In Gen 1, Exp. All divides the team share half (E_half) by the number of non-fainted party members (N). With N=6, share is E/12 (or E/24 per participant). If the party size is reduced to N=2 (only Psyduck and 1 Sweeper), the team share would be floor(E_half / 2) = floor(E / 4), which would dramatically increase Exp. All gains from ~40 to ~250+ EXP per battle!
-- **Test Protocol:** At the next Pokémon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
+- **Test Protocol:** At the next PokÃ©mon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
 
+### Expedition 8 Battle Log (Psyduck Trainee, Battles 93+):
+- Battle 93 (Golbat Lv 46, Turn 37974-37985):
+  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Golbat used Confuse Ray (Mewtwo confused).
+  - Mewtwo took 28 self-confusion damage (221/249 HP). Golbat used Confuse Ray (failed).
+  - Mewtwo used STAB Psychic (2x SE OHKO). Psychic PP 9/10.
+  - EXP: Golbat Total 1,104. Psyduck gained 322 EXP (276 participant + 46 team share).
+  - Trainee EXP: 12,862 -> 13,184 EXP (640 to Lv 24).
