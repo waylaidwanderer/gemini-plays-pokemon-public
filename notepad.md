@@ -51,6 +51,7 @@
 - [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 - [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
+- [x] Evolve Paras into Parasect (#047) [Turn 35918]
 
 <hr>
 
@@ -105,20 +106,20 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 23, Bug/Grass]
+- Slot 1: PARASECT (Nickname: FUNGI) [Lv 24, Bug/Grass]
   - Status: Healthy
-  - HP: 55 / 55 [Verified Lv 23 Turn 35883]
-  - Stats: Attack 44, Defense 32, Speed 21, Special 37 [Verified Lv 23 Turn 35878]
+  - HP: 69 / 69 [Verified Lv 24 Turn 35919]
+  - Stats: Attack 58, Defense 46, Speed 24, Special 51 [Verified Lv 24 Turn 35919]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 13561 [Turn 35903]
+  - EXP: 14036 [Turn 35917]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 168 / 229 [Turn 35912]
+  - HP: 168 / 229 [Turn 35919]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -4913,7 +4914,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Evolve Paras (FUNGI) into Parasect (#047)
+## Active Goal: Claim Exp. All from Route 15 Gatehouse (51 Caught / Req 50)
 - Target: Level 24 (13,824 EXP, Pokédex #047)
 - Verified Starting State: Lv 10, HP 29/29, Atk 21, Def 16, Spd 11, Spc 18, EXP 1000, Move: Scratch (PP 35/35) [Turn 35442]
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
@@ -4993,5 +4994,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
 - Battle 23 (Exp 3 Battle 2) [Turn 35892]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; cured SLP with Poké Flute; STAB Psychic 2x SE OHKO (Psychic 9/10, Mewtwo HP 238/243). Paras gained 483 EXP (13,086 EXP, 738 to Lv 24).
 - Battle 24 (Exp 3 Battle 3) [Turn 35903]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed crit Slash (HP 176/229); Ice Beam 2x SE OHKO (Ice Beam 9/10). Paras gained 475 EXP (13,561 EXP, 263 to Lv 24 Parasect).
+- Battle 25 (Exp 3 Battle 4) [Turn 35917]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed Leech Life (HP 168/229); Ice Beam 2x SE OHKO (Ice Beam 8/10). Paras gained 475 EXP, reached 14,036 EXP, grew to Level 24, and EVOLVED INTO PARASECT (#047)! Pok�dex caught: 51!
 
 <hr>
