@@ -5074,5 +5074,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
   - Formula audit: 100% consistent with verified Kadabra model.
 
+- Battle 73 (Exp 5 Battle 12, Turn 37511): Defeated Wild Hypno Lv 46. Blastoise Surf (2HKO).
+  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 7,111 (Grew to Lv 19!).
+    - Lv 19 Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Turn 37511 Screen].
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Hypno model.
 
 <hr>

@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 18, Water, Medium Fast growth, Lead Slot 1)
+- Target Pokï¿½mon: PSYDUCK (MIGRAINE Lv 18, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 6,803 [Turn 37495]. Needed to Lv 19: 56.
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (29,701 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
@@ -137,3 +137,10 @@
   - DUX: 63 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
   - Formula audit: 100% consistent with verified Kadabra model.
+
+- Battle 73 (Exp 5 Battle 12, Turn 37511): Defeated Wild Hypno Lv 46. Blastoise Surf (2HKO).
+  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 7,111 (Grew to Lv 19!).
+    - Lv 19 Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Turn 37511 Screen].
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Hypno model.
