@@ -56,7 +56,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 3375 [Turn 35957]
   - Target: Level 28 Kingler (#099) (21,952 EXP)
-  - Moves: Bubble (PP 30/30), Leer (PP 30/30), Vicegrip (PP 30/30)
+  - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
