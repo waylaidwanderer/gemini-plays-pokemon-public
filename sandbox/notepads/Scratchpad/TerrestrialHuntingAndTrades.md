@@ -34,10 +34,10 @@
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 35 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 39 battles!).
 
 ### Krabby Switch-Training Combat Protocol
-- Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
+- Vulnerability Profile: Krabby (Water, Lv 24, HP 54, Attack 62, Defense 55, Speed 34, Special 21) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to its low Special stat (21) and modest HP (54). Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -68,4 +68,4 @@
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat Lv 46 (+322 EXP), Kadabra Lv 49 (+294 EXP), Dodrio Lv 49 (+315 EXP, PINCHY Lv 16, ROCKY Lv 9), Hypno Lv 46 (+308 EXP, DUX Lv 7, Leer declined), and Sandslash Lv 52 (+341 EXP, PINCHY Lv 17). All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
-  - Battles 23-39 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 24 (15,401 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34; DUX grew to Lv 12 in B26, Lv 13 in B34; ROCKY grew to Lv 13 in B23, Lv 14 in B32). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38), Raichu Lv 53 (B35). Full party heal at Cerulean Center Turn 36688. B36-37: Dodrio Lv 49 swept by Mewtwo (Psychic), Krabby gained 315 EXP each (273+42). B38: Golbat Lv 46 swept by Mewtwo (Psychic), Krabby gained 322 EXP (276+46). B39: Hypno Lv 46 swept by Mewtwo (Swift x2), Krabby gained 308 EXP (269+39). All EXP distributions verified.
+  - Battles 23-39 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 24 (15,401 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34; DUX grew to Lv 12 in B26, Lv 13 in B34; ROCKY grew to Lv 13 in B23, Lv 14 in B32). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38), Raichu Lv 53 (B35). Full party heal at Cerulean Center Turn 36688. All EXP distributions verified.
