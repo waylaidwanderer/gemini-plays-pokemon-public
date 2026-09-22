@@ -90,6 +90,29 @@
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ÃÂÃÂ¥3056.
 
 ### Testable Hypothesis: Exp. All Party Size Dilution
+
+### EXP.ALL N=4 Party Dilution Testable Predictions (Expedition 9)
+- **Setup:** Party reduced to 4 members: Psyduck (Slot 1), Mewtwo (Slot 2), Blastoise (Slot 3), Farfetch'd (Slot 4).
+- **Hypothesis A (Dynamic Active Party Divisor N=4):**
+  - E_half = floor(total_EXP / 2)
+  - Team Share = floor(E_half / 4)
+  - Participant Share (Psyduck + Sweeper) = floor(E_half / 2) = floor(total_EXP / 4)
+  - Total Psyduck Gain = Participant Share + Team Share
+- **Hypothesis B (Hardcoded Engine Divisor N=6):**
+  - Team Share remains invariant at floor(E / 24..27) (~35-46 EXP).
+- **Pre-Calculated Yields for First Encounter Verification:**
+  | Species | Level | Total EXP | Part Share (E/4) | Hyp A Team Share (E_half/4) | Hyp A Psyduck Total | Hyp B Team Share (E/24..27) | Hyp B Psyduck Total |
+  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+  | **Golbat** | 46 | 1,104 | 276 | **138 EXP** | **414 EXP** | 46 EXP | 322 EXP |
+  | **Hypno** | 46 | 1,076 | 269 | **134 EXP** | **403 EXP** | 39 EXP | 308 EXP |
+  | **Magneton** | 46 | 1,050 | 262 | **131 EXP** | **393 EXP** | 39 EXP | 301 EXP |
+  | **Sandslash**| 52 | 1,188 | 297 | **148 EXP** | **445 EXP** | 44 EXP | 341 EXP |
+  | **Kadabra**  | 49 | 1,008 | 252 | **126 EXP** | **378 EXP** | 42 EXP | 294 EXP |
+  | **Dodrio**   | 49 | 1,092 | 273 | **136 EXP** | **409 EXP** | 42 EXP | 315 EXP |
+  | **Venomoth** | 49 | 952   | 238 | **119 EXP** | **357 EXP** | 35 EXP | 273 EXP |
+  | **Raichu**   | 53 | 908   | 227 | **113 EXP** | **340 EXP** | 37 EXP | 264 EXP |
+  | **Parasect** | 52 | 950   | 237 | **118 EXP** | **355 EXP** | 37 EXP | 274 EXP |
+
 - **Observation:** All 92 battles have been conducted with a 6-member party, yielding ~40-46 base team share (divisor K ~ 24..27).
 - **Hypothesis:** In Gen 1, Exp. All divides the team share half (E_half) by the number of non-fainted party members (N). With N=6, share is E/12 (or E/24 per participant). If the party size is reduced to N=2 (only Psyduck and 1 Sweeper), the team share would be floor(E_half / 2) = floor(E / 4), which would dramatically increase Exp. All gains from ~40 to ~250+ EXP per battle!
 - **Test Protocol:** At the next PokÃÂ©mon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
