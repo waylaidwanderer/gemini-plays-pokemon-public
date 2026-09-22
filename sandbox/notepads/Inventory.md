@@ -48,10 +48,10 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 20, Water]
-  - Status: Healthy [Level Up Turn 36373]
-  - HP: 46 / 46 [Empirically Verified Lv 20 Turn 36382]
-  - Stats: Attack 52, Defense 46, Speed 29, Special 17 [Empirically Verified Lv 20 Turn 36373]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 21, Water]
+  - Status: Healthy [Level Up Turn 36434]
+  - HP: 48 / 48 [Pending overworld check]
+  - Stats: Attack 54, Defense 48, Speed 30, Special 18 [Empirically Verified Lv 21 Turn 36434]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 9079 [Turn 36422] (182 to Lv 21)
@@ -67,10 +67,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Paralyzed (PAR) [Thunder Wave Turn 36339]
-  - HP: 165 / 249 [Verified Turn 36207]
+  - HP: 141 / 249 [Verified Turn 36434]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 17/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
