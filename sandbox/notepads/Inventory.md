@@ -48,13 +48,12 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 25, Water]
-  - Status: Healthy [Level Up Turn 36785]
-  - HP: 56 / 56 [Verified Lv 25 Turn 36785]
-  - Stats: Attack 64, Defense 57, Speed 35, Special 21 [Empirically Verified Lv 25 Turn 36785]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 26, Water]
+  - Status: Healthy [Level Up Turn 36964]
+  - Stats: Attack 67, Defense 59, Speed 37, Special 22 [Empirically Verified Lv 26 Turn 36964]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 17483 [Turn 36946] (93 to Lv 26)
+  - EXP: 17791 [Turn 36964] (1,892 to Lv 27, 4,161 to Lv 28 Kingler)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 14, Normal/Flying]
