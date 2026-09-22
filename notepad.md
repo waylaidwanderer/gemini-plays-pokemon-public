@@ -112,7 +112,7 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 19, Water]
   - Status: Healthy [Level Up Turn 37511]
-  - HP: 49 / 49 (Max HP pending party check)
+  - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
   - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Lv 19 Turn 37511 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -121,7 +121,7 @@
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
-  - HP: 70 / 249 [Empirically Verified Battle 73 Turn 37503 Party Screen]
+  - HP: 62 / 249 [Empirically Verified Turn 37521 Party Screen]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -4945,7 +4945,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 73, Turn 37514):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 19, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37511]
-  - HP: 49 / 49 (Max HP pending party check)
+  - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
   - EXP: 7,111 (889 to Lv 20)
   - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Lv 19 Turn 37511 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
@@ -4953,13 +4953,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Status: Healthy (no status)
   - Active Move PP: Surf (10/15), Ice Beam (8/10), Body Slam (14/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 70 / 249 [Empirically Verified Battle 73 Turn 37503 Party Screen: 70 HP]
+  - HP: 62 / 249 [Empirically Verified Turn 37521 Party Screen]
   - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
   - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 70 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
+  - Mewtwo HP: 62 (~60 trigger). Psychic PP: 6 (> 3 trigger).
   - Blastoise HP: 91 (> 60 trigger).
-  - Status: Safe to continue switch-training in Cerulean Cave 1F.
+  - Status: Mewtwo at 62 HP (poisoned). Executing pit stop to Cerulean Center to heal team.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
