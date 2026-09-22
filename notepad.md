@@ -116,7 +116,7 @@
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Verified Lv 20 Turn 37623 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 8880 [381 to Lv 21; 9261 - 8880 = 381]
+  - EXP: 9181 [80 to Lv 21; 9261 - 9181 = 80]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -124,7 +124,7 @@
   - HP: 245 / 249 [Verified Party Screen Turn 37633]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
@@ -4938,15 +4938,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pok�mon: PSYDUCK (MIGRAINE Lv 20, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 8,880 [Turn 37667]. Needed to Lv 21: 381.
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (27,057 EXP remaining).
+  - Current Empirical EXP: 9,181 [Turn 37679]. Needed to Lv 21: 80.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,756 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 76, Turn 37623):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 20, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37623]
   - HP: 54 / 54 [Empirically Verified Turn 37632 Battle Screen]
-  - EXP: 8,880 (381 to Lv 21)
+  - EXP: 9,181 (80 to Lv 21)
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Empirically Verified Lv 20 Turn 37623 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 155 / 229 [Battle 75]
@@ -4955,9 +4955,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 140 / 249 [Battle 77 Dodrio crit]
   - Status: Healthy
-  - Active Move PP: Psychic (6/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 140 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
+  - Mewtwo HP: 140 (> 60 trigger). Psychic PP: 5 (> 3 trigger).
   - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
@@ -5051,6 +5051,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Formula audit: 100% consistent with verified Raichu model (E=908, participant=227, base=37).
 - Battle 79 (Exp 6 Battle 6, Turn 37667): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (OHKO).
   - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 8,880 (381 to Lv 21).
+  - DUX: 58 EXP (boosted).
+  - OMEGA: 301 EXP (262 participant + 39 team share).
+  - VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Magneton model (E=1050, participant=262, base=39).
+- Battle 80 (Exp 6 Battle 7, Turn 37679): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (OHKO).
+  - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 9,181 (80 to Lv 21).
   - DUX: 58 EXP (boosted).
   - OMEGA: 301 EXP (262 participant + 39 team share).
   - VEE, ROCKY, SHELDON: 39 EXP each.
