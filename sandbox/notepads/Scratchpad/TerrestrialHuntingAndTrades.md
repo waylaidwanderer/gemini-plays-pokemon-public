@@ -40,7 +40,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-72
+### Exp. All Empirical Model Audit & Observations Across Battles 1-73
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -52,7 +52,7 @@
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
@@ -79,69 +79,9 @@
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
 
-### Expedition 5 Battle Log (Psyduck Trainee, Continuous Battles 62-66):
-- Battle 62 (Exp 5 Battle 1, Turn 37360): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
-  - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 3,676 (420 to Lv 16).
-  - DUX: 58 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Magneton model.
-- Battle 63 (Exp 5 Battle 2, Turn 37375): Defeated Wild Hypno Lv 46. Mewtwo Swift (2HKO, Turn 2 Critical Hit).
-  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 3,984 (112 to Lv 16).
-  - DUX: 58 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Hypno model.
-- Battle 64 (Exp 5 Battle 3, Turn 37387): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (2x SE OHKO).
-  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 4,306 (Grew to Lv 16!).
-    - Lv 16 Stats: Attack 26, Defense 21, Speed 26, Special 25 [Empirically Verified Turn 37388 Screen].
-  - DUX: 69 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
-  - Formula audit: 100% consistent with verified Golbat model.
-- Battle 65 (Exp 5 Battle 4, Turn 37396): Defeated Wild Sandslash Lv 52. Blastoise STAB Surf (2x SE OHKO).
-  - Psyduck: 341 EXP (297 participant + 44 team share) -> New EXP: 4,647 (266 to Lv 17).
-  - DUX: 66 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 44 EXP each.
-  - Formula audit: 100% consistent with verified Sandslash model.
-- Battle 66 (Exp 5 Battle 5, Turn 37409): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (2x SE OHKO).
-  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 4,969 (Grew to Lv 17!).
-    - Lv 17 Stats: Attack 27, Defense 22, Speed 27, Special 27 [Empirically Verified Turn 37411 Screen].
-  - DUX: 69 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
-  - Formula audit: 100% consistent with verified Golbat model.
-- Battle 67 (Exp 5 Battle 6, Turn 37419): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
-  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 5,291 (541 to Lv 18).
-  - DUX: 69 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
-  - Formula audit: 100% consistent with verified Golbat model.
-- Battle 68 (Exp 5 Battle 7, Turn 37442): Defeated Wild Golbat Lv 46. Blastoise Ice Beam (Critical Hit 2x SE OHKO).
-  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 5,613 (219 to Lv 18).
-  - DUX: 69 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
-  - Formula audit: 100% consistent with verified Golbat model.
-- Battle 69 (Exp 5 Battle 8, Turn 37460): Defeated Wild Hypno Lv 46. Blastoise STAB Surf (OHKO).
-  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 5,921 (Grew to Lv 18!).
-    - Lv 18 Stats: Attack 28, Defense 23, Speed 28, Special 28 [Empirically Verified Turn 37460 Screen].
-  - DUX: 58 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Hypno model.
-- Battle 70 (Exp 5 Battle 9, Turn 37468): Defeated Wild Dodrio Lv 49. Blastoise Ice Beam (2x SE OHKO).
-  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 6,803 (56 to Lv 19).
-  - DUX: 63 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
-  - Formula audit: 100% consistent with verified Dodrio model.
-- Battle 71 (Exp 5 Battle 10, Turn 37484): Defeated Wild Venomoth Lv 49. Blastoise STAB Surf (OHKO).
-  - Psyduck: 273 EXP (238 participant + 35 team share) -> New EXP: 6,803 (56 to Lv 19).
-  - DUX: 52 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 35 EXP each.
-  - Formula audit: 100% consistent with verified Venomoth model.
-- Battle 72 (Exp 5 Battle 11, Turn 37495): Defeated Wild Kadabra Lv 49. Blastoise Body Slam (OHKO).
-  - Psyduck: 294 EXP (252 participant + 42 team share) -> New EXP: 6,803 (56 to Lv 19).
-  - DUX: 63 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
-  - Formula audit: 100% consistent with verified Kadabra model.
-
-- Battle 73 (Exp 5 Battle 12, Turn 37511): Defeated Wild Hypno Lv 46. Blastoise Surf (2HKO).
-  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 7,111 (Grew to Lv 19!).
-    - Lv 19 Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Turn 37511 Screen].
-  - DUX: 58 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Hypno model.
+### Expedition 5 Summary Log (Psyduck Trainee, Battles 62-73, Turns 37360-37514):
+- Battles Fought: 12 (B62 Magneton, B63 Hypno, B64 Golbat, B65 Sandslash, B66 Golbat, B67 Golbat, B68 Golbat, B69 Hypno, B70 Dodrio, B71 Venomoth, B72 Kadabra, B73 Hypno).
+- Total EXP Gained by Psyduck: 3,736 EXP (grew from Lv 15 [3,375 EXP] to Lv 19 [7,111 EXP]).
+- Lv 19 Verified Stats: Attack 30, Defense 24, Speed 30, Special 30, HP 51/51.
+- All Exp. All yields 100% verified and integrated into model above.
+- Pit Stop: Executed at Turn 37542 (Full heal with Nurse Joy in Cerulean City).

@@ -50,11 +50,11 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 19, Water]
   - Status: Healthy [Level Up Turn 37511]
-  - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
-  - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Lv 19 Turn 37511 Screen]
+  - HP: 51 / 51 [Verified Lv 19]
+  - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Verified Lv 19]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7111 [889 to Lv 20, Empirically Verified Battle 73 Turn 37511; Baseline: 6803 + 308 = 7111; 8000 - 7111 = 889]
+  - EXP: 7111 [889 to Lv 20; 8000 - 7111 = 889]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -71,8 +71,8 @@
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 4: GEODUDE (Nickname: ROCKY) [Lv 17, Rock/Ground]
   - Status: Healthy [Level Up Turn 37443]
-  - HP: 45 / 45 [Empirically Verified Battle 69 Turn 37456 Party Screen]
-  - Stats: Attack 36, Defense 43, Speed 14, Special 18 [Empirically Verified Lv 17 Turn 37443 Screen]
+  - HP: 45 / 45 
+  - Stats: Attack 36, Defense 43, Speed 14, Special 18 [Verified Lv 17]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
@@ -82,8 +82,8 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 16, Normal/Flying]
   - Status: Healthy [Level Up Turn 37398]
-  - HP: 45 / 45 [Empirically Verified Battle 66 Turn 37402 Party Screen]
-  - Stats: Attack 28, Defense 26, Speed 26, Special 25 [Empirically Verified Lv 16 Turn 37398 Screen]
+  - HP: 45 / 45 
+  - Stats: Attack 28, Defense 26, Speed 26, Special 25 [Verified Lv 16]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
