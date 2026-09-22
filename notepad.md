@@ -199,8 +199,8 @@
 - **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
-- **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
-- **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles.
+- **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
+- **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles [Empirically verified Turn 58 vs Rival RED].
 - **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
 - **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
@@ -1448,7 +1448,7 @@
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKEéMON blocks the way!" and closes without prompting to play the flute. The POKEé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKEé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 
 ## Bicycle Physics & Locomotion Mechanics
-- **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
+- **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot; standard theoretical values, exact pixel velocity pending dedicated frame-by-frame measurement).
 - **Perpendicular Turn Mechanics & Input Buffering:** When mounted on the Bicycle, a single isolated directional input while facing a perpendicular direction turns the player in place without advancing a step (empirically confirmed Turns 4046-4054). However, chaining directional inputs in a multi-button sequence buffers continuous locomotion, overriding turn-in-place mechanics and immediately advancing full strides into the perpendicular direction (empirically confirmed Turn 13078: ['Right' x4, 'Up'] advanced 2 tiles north across the perpendicular input to (37, 29)).
 - **Discrete Inputs vs Buffered Strides:** Depending on input timing and buffering, bicycle locomotion may advance 1 or 2 grid tiles per directional input. Chained inputs frequently buffer continuous 2-tile strides.
 - **Precision Alignment & Navigation:** When navigating tight single-tile gaps or aligning with precision between obstacles, dismounting the Bicycle to foot locomotion guarantees strict 1-tile step precision.
@@ -4988,7 +4988,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
 - Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
-  - Starting State: Paras Lv 10 (1,000 EXP).
 - Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean Pokémon Center; team 100% restored.
 - Expedition 3 Target: Lv 24 Parasect (13,824 EXP). Starting at Lv 22 (12,065 EXP; 102 EXP to Lv 23, 1,759 EXP to Lv 24).
 - Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
