@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Switch-train Krabby (PINCHY Lv 20 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+## Active Goal: Switch-train Krabby (PINCHY Lv 22 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
 - Krabby Starting EXP: 3,375 EXP (Current: 10,888 EXP, Target: 21,952 EXP, 11,064 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -50,7 +50,7 @@
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Live Status: Team 100% Healed [Turn 36459]! Blastoise (HP 229/229, Surf 15/15, Ice Beam 10/10); Mewtwo (HP 249/249 Healthy, Psychic 10/10, Swift 20/20, Recover 20/20).
+  - Live Status: Blastoise (HP 185/229, Surf 13/15, Ice Beam 10/10); Mewtwo (HP 234/249 Healthy, Psychic 8/10, Swift 20/20, Recover 20/20).
   - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
 
 ### Other Post-Game Evolution Candidates
