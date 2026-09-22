@@ -5007,5 +5007,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - DUX: 58 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Hypno model.
+- Battle 3 (Turn 37387): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (2x SE OHKO).
+  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 4,306 (Grew to Lv 16!).
+    - Lv 16 Stats: Attack 26, Defense 21, Speed 26, Special 25 [Empirically Verified Turn 37388 Screen].
+  - DUX: 69 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
+  - Formula audit: 100% consistent with verified Golbat model.
 
 <hr>
