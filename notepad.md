@@ -114,7 +114,7 @@
   - Stats: Attack 67, Defense 59, Speed 37, Special 22 [Empirically Verified Lv 26 Turn 36964]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 18421 [Turn 36995] (1,262 to Lv 27, 3,531 to Lv 28 Kingler)
+  - EXP: 18722 [Turn 37005] (961 to Lv 27, 3,230 to Lv 28 Kingler)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 14, Normal/Flying]
@@ -129,7 +129,7 @@
   - HP: 185 / 249 [Turn 37003]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 18/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 18/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
@@ -4932,7 +4932,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 26 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 18,421 EXP, Target: 21,952 EXP, 3,531 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 18,722 EXP, Target: 21,952 EXP, 3,230 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
@@ -5001,6 +5001,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.  - Battle 47: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 13 damage (236/249 HP) and OHKOed Hypno with critical hit Swift. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 17,791 EXP and leveling up to Level 26! (Stats: Atk 67, Def 59, Spd 37, Spc 22). DUX gained 58 EXP. Base team share = 39 EXP.
   - Battle 48: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo confused by Confuse Ray, took 23 self-hit + 5 damage (208/249 HP), then powered through confusion to OHKO Golbat with super-effective STAB Psychic. Krabby gained 276 EXP + 46 EXP = 322 EXP, reaching 18,113 EXP (1,570 to Lv 27). DUX gained 69 EXP. Base team share = 46 EXP. VEE leveled up to Lv 26 (Atk 42, Def 38, Spd 75, Spc 65)!
   - Battle 49: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 12 damage (196/249 HP). Turn 2 Swift dealt ~60% damage; Hypno used Poison Gas (failed). Turn 3 Swift scored a critical hit, KOing Hypno. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 18,421 EXP (1,262 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
+  - Battle 50: Wild Magneton Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 11 damage on switch turn (185/249 HP). Turn 2 Mewtwo OHKOed Magneton with STAB Psychic. Krabby gained 262 EXP + 39 EXP = 301 EXP, reaching 18,722 EXP (961 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
 
 
 <hr>
