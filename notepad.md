@@ -131,7 +131,7 @@
   - HP: 238 / 243 [Turn 35889]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -4992,5 +4992,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean Pokémon Center; team 100% restored.
 - Expedition 3 Target: Lv 24 Parasect (13,824 EXP). Starting at Lv 22 (12,065 EXP; 102 EXP to Lv 23, 1,759 EXP to Lv 24).
 - Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
+- Battle 23 (Exp 3 Battle 2) [Turn 35892]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; cured SLP with Poké Flute; STAB Psychic 2x SE OHKO (Psychic 9/10, Mewtwo HP 238/243). Paras gained 483 EXP (13,086 EXP, 738 to Lv 24).
 
 <hr>
