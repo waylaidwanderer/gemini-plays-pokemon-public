@@ -17,9 +17,9 @@
   - Status: Healthy
   - Active Move PP: Surf (14/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 241 / 249
+  - HP: 246 / 254 [Grew to Lv 73 Battle 99]
   - Status: Healthy
-  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
   - Blastoise HP: 182 (> 60 trigger). Surf PP: 13 (> 3 trigger).
