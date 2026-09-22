@@ -111,9 +111,9 @@
 
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 22, Water]
-  - Status: Healthy [Level Up Turn 37819]
-  - HP: 58 / 58 [Verified Lv 22]
-  - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Turn 37819 Screen]
+  - Status: Healthy
+  - HP: 58 / 58
+  - Stats: Attack 34, Defense 28, Speed 34, Special 34
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 11309 [858 to Lv 23; 12167 - 11309 = 858]
@@ -132,9 +132,9 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 4: GEODUDE (Nickname: ROCKY) [Lv 18, Rock/Ground]
-  - Status: Healthy [Level Up Turn 37845]
+  - Status: Healthy
   - HP: 47 / 47
-  - Stats: Attack 38, Defense 45, Speed 15, Special 19 [Verified Lv 18 Turn 37845 Screen]
+  - Stats: Attack 38, Defense 45, Speed 15, Special 19
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
@@ -143,9 +143,9 @@
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 17, Normal/Flying]
-  - Status: Healthy [Level Up Turn 37669]
+  - Status: Healthy
   - HP: 47 / 47
-  - Stats: Attack 29, Defense 27, Speed 27, Special 26 [Verified Lv 17 Turn 37669 Screen]
+  - Stats: Attack 29, Defense 27, Speed 27, Special 26
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
@@ -4983,15 +4983,23 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
-    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85,87]
+    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82]
     Division Variance Testable Hypothesis (Gen 1 Assembly Implementation):
-    - Hypothesis: The game engine computes Exp. All team EXP by dividing half the total battle EXP (`E_half = floor(E / 2)`) across party members via integer division routines that divide by 2 * (number of party members) with intermediate truncation, or `floor(floor(E / 2) / num_party_members)`. For a 6-member party, `floor(E_half / 6) = floor(E / 12)`. When this share is further split among non-fainted party members or scaled down, it produces effective divisors between 24 and 27 depending on rounding and integer truncation steps.
-    - Testable Prediction: For any 6-member party, wild Pok�mon with base EXP E will consistently produce base share `s_base = floor(E / K)` where K is deterministic for each encounter slot and invariant across all battles.
+    - Context & Phenomenon: Across all battles with a healthy 6-member party, the Exp. All team base share is consistently floor(E / K) where effective divisor K ranges from 24.0 to 27.6:
+      - Golbat (E=1104, base=46, K=24.0), Kadabra (E=1008, base=42, K=24.0), Raichu (E=908, base=37, K=24.5)
+      - Parasect (E=950, base=37, K=25.7), Dodrio (E=1092, base=42, K=26.0), Magneton (E=1050, base=39, K=26.9)
+      - Sandslash (E=1188, base=44, K=27.0), Venomoth (E=952, base=35, K=27.2), Hypno (E=1076, base=39, K=27.6)
+    - Mathematical Variable Analysis: In Gen 1 assembly (engine/battle/experience.asm), Exp. All calculates:
+      1. `E_half = floor(total_EXP / 2)`
+      2. The team share divides `E_half` among non-fainted party members (N=6): `floor(E_half / 6) = floor(floor(total_EXP / 2) / 6) = floor(total_EXP / 12)`.
+      3. For the individual participant vs non-participant allocation routine, the engine performs a second division step (e.g. dividing by 2 or by number of participants M): when dividing by 2, `floor(floor(total_EXP / 12) / 2) = floor(total_EXP / 24)`.
+      4. Discrepancies where K > 24 (25..27) are hypothesized to stem from species base experience byte scaling routines or intermediate 8-bit division register truncation where high bytes of total EXP are processed separately from low bytes, causing truncation losses proportional to `(total_EXP % 256)`.
+    - Testable Prediction: Any species yielding total EXP divisible by 24 with low remainder (e.g. Golbat 1104 / 24 = exactly 46) will yield K=24.0, whereas values with fractional register remainder drop K toward 26-27.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 83 battles!).
 
 ### Psyduck Switch-Training Combat Protocol
@@ -5042,14 +5050,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - EXP: Dodrio Total 1,092. Psyduck gained 315 EXP (273 participant + 42 team share).
   - Trainee EXP: 10,994 -> 11,309 EXP (858 to Lv 23).
 
-### Expedition 6 Summary Log (Psyduck Trainee, Battles 74-83, Turns 37579-37722):
-- Battles Fought: 10 (B74 Hypno, B75 Hypno, B76 Venomoth, B77 Dodrio, B78 Raichu, B79 Magneton, B80 Magneton, B81 Golbat, B82 Hypno, B83 Venomoth).
-- Total EXP Gained by Psyduck: 2,973 EXP (grew from Lv 19 [7,111 EXP] past Lv 20 to Level 21 [10,084 EXP]).
-- Lv 21 Verified Stats: HP 56/56, Attack 33, Defense 27, Speed 33, Special 32.
-- Trainee Progress: 564 EXP remaining to Level 22 (10,648 EXP); 25,853 EXP to Level 33 Golduck (35,937 EXP).
-- Primary Sweeper Blastoise: HP 139/229, Status PSN, Surf PP 11/15.
-- Reserve Sweeper Mewtwo: HP 85/249, Status PAR, Psychic PP 3/10.
-- Protocol Status: Pit-Stop Triggered (Mewtwo Psychic PP <= 3). Proceed to Cerulean Center to heal.
 
 
 <hr>
