@@ -1,6 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Claim Exp. All from Route 15 Gatehouse (50 Caught / Req 50 [Verified Turn 35923])
+## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+- [x] Claimed Exp. All from Route 15 Gatehouse 2F [Turn 35997]
 - Next Evolution Project: Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099)
 - Krabby Starting EXP: 3,375 EXP (Target: 21,952 EXP, 18,577 EXP needed)
 - Target: Level 24 (13,824 EXP, Pokédex #047)

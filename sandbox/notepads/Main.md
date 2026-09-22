@@ -50,3 +50,4 @@
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 - [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
 - [x] Evolve Paras into Parasect (#047) [Turn 35918]
+- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]

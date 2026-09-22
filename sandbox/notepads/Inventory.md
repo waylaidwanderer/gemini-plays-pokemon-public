@@ -9,9 +9,10 @@
 6. HM02 [Key Item]
 7. MAX POTION x 1
 8. TM35 (METRONOME) x 1
+9. EXP.ALL [Key Item]
 
 ## Inventory Capacity
-- Active Bag Items: 8 / 20 capacity used.
+- Active Bag Items: 9 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC)
