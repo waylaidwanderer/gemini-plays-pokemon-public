@@ -42,6 +42,6 @@
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battle 5].
   - Parasect Lv 52: Total EXP 950. 2 participants -> Base share `s_EXP = 475` (native) [Empirically verified Turn 35207].
   - Venomoth Lv 49: Total EXP 966. 3 participants -> Base share `s_EXP = floor(966 / 3) = 322` [Empirically verified Turn 33856].
-  - Venomoth Lv 49: Total EXP 966. 2 participants -> Base share `s_EXP = 483` (native) [Empirically verified Turn 35362].
+  - Venomoth Lv 49: Total EXP 952. 2 participants without Exp. All -> Base share s_EXP = 476 (native). (With Exp. All: participant share = 238, team base share = 35) [Empirically verified Battle 15].
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
