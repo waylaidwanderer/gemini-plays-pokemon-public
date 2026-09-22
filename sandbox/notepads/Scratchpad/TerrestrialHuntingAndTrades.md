@@ -14,7 +14,7 @@
   - Stats: Attack 33, Defense 27, Speed 33, Special 32 [Empirically Verified Lv 21 Turn 37696 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 155 / 229 [Battle 75]
-  - Status: Healthy (no status)
+  - Status: Poisoned (PSN, Battle 82)
   - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 101 / 249 [Battle 77 Dodrio crit]
