@@ -85,7 +85,7 @@
   - Status: Healthy
   - HP: 101 / 229 [Verified Turn 36354]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 5/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 8/15), Ice Beam (PP 5/10)
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
