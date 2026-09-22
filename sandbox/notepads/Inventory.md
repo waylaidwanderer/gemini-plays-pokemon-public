@@ -50,7 +50,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 24, Water]
   - Status: Healthy
-  - HP: 63 / 63
+  - HP: 63 / 63 [Verified Party Screen Turn 38077]
   - Stats: Attack 37, Defense 30, Speed 37, Special 37
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)

@@ -9,7 +9,7 @@
 ### Active Expedition Sweeper Attrition & Condition Log (Battle 96 Hypno, Turn 38021):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 24, Water, Lead Slot]
   - Status: Healthy
-  - HP: ~63 / 63
+  - HP: 63 / 63 [Verified Turn 38077]
   - EXP: 14,067 (1,558 to Lv 25) [Battle 96: +308 EXP]
   - Stats: Attack 37, Defense 30, Speed 37, Special 37 [Verified Lv 24 Screen Turn 38021]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
