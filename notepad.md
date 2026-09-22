@@ -111,7 +111,7 @@
   - Stats: Attack 42, Defense 31, Speed 20, Special 36 [Verified Lv 22 Turn 35810]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 11044 [Turn 35811]
+  - EXP: 11527 [Turn 35822]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
@@ -131,7 +131,7 @@
   - HP: 223 / 243 [Turn 35797]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
