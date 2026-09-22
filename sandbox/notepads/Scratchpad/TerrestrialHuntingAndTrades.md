@@ -7,7 +7,7 @@
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (50% Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Raichu*** | 53 | 908 | **227 EXP (w/ Exp.All)** | 340 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Raichu*** | 53 | 908 | **454 EXP** | 681 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Venomoth*** | 49 | 952-966 | **476-483 EXP** | 714-724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
 | **Magneton*** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Hypno*** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
@@ -18,7 +18,7 @@
 | **Dodrio*** | 49 | 1,092 | **546 EXP** | 819 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
-- Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified in the current run. Raichu and Ditto are theoretical projections pending dedicated in-game test verification.
+- Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, Parasect, and Raichu (*) are empirically verified in the current run (Raichu verified Battle 19: 454 native w/o Exp.All, 227 w/ Exp.All). Only Ditto remains a theoretical projection pending dedicated in-game test verification.
 
 
 ### Exp. All Empirical Model Audit & Observations Across Battles 1-20
@@ -46,9 +46,8 @@
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Blastoise: Surf 13/15, Ice Beam 8/10, Body Slam 15/15, Double-Edge 15/15.
-  - Mewtwo: Psychic 9/10, Swift 20/20, Recover 20/20.
-  - Retreat triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
+  - Live Status: Blastoise (HP 58/229, Surf 7/15, Ice Beam 3/10); Mewtwo (HP 141/249 PAR, Psychic 2/10, Swift 17/20, Recover 20/20).
+  - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status (Both triggers currently met; executing Cerulean Center pit-stop).
 
 ### Other Post-Game Evolution Candidates
 1. PSYDUCK (MIGRAINE Lv 15, Box 2):
