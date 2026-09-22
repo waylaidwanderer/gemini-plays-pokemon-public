@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Claim Exp. All from Route 15 Gatehouse (51 Caught / Req 50)
+## Active Goal: Claim Exp. All from Route 15 Gatehouse (50 Caught / Req 50 [Verified Turn 35923])
 - Target: Level 24 (13,824 EXP, PokÃ©dex #047)
 - Verified Starting State: Lv 10, HP 29/29, Atk 21, Def 16, Spd 11, Spc 18, EXP 1000, Move: Scratch (PP 35/35) [Turn 35442]
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
@@ -80,4 +80,4 @@
 - Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
 - Battle 23 (Exp 3 Battle 2) [Turn 35892]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; cured SLP with PokÃ© Flute; STAB Psychic 2x SE OHKO (Psychic 9/10, Mewtwo HP 238/243). Paras gained 483 EXP (13,086 EXP, 738 to Lv 24).
 - Battle 24 (Exp 3 Battle 3) [Turn 35903]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed crit Slash (HP 176/229); Ice Beam 2x SE OHKO (Ice Beam 9/10). Paras gained 475 EXP (13,561 EXP, 263 to Lv 24 Parasect).
-- Battle 25 (Exp 3 Battle 4) [Turn 35917]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed Leech Life (HP 168/229); Ice Beam 2x SE OHKO (Ice Beam 8/10). Paras gained 475 EXP, reached 14,036 EXP, grew to Level 24, and EVOLVED INTO PARASECT (#047)! Pokédex caught: 51!
+- Battle 25 (Exp 3 Battle 4) [Turn 35917]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed Leech Life (HP 168/229); Ice Beam 2x SE OHKO (Ice Beam 8/10). Paras gained 475 EXP, reached 14,036 EXP, grew to Level 24, and EVOLVED INTO PARASECT (#047)! Pokédex caught: 50 [Empirically verified on Pokédex screen Turn 35923! Exactly 50 reached, qualifying for Exp. All!]
