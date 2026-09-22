@@ -114,7 +114,7 @@
   - Stats: Attack 69, Defense 62, Speed 38, Special 23 [Empirically Verified Lv 27 Turn 37105]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 20197 [Turn 37124] (1,755 to Lv 28 Kingler)
+  - EXP: 20538 [Turn 37139] (1,414 to Lv 28 Kingler)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
@@ -5003,5 +5003,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Battle 54: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Hypno landed critical hit on switch turn (-21 HP, Mewtwo at 224/249). Turn 2 Mewtwo scored OHKO critical hit with Swift (PP 19/20). Krabby gained 269 participant EXP, leveling up to Level 27! (Stats: Atk 69, Def 62, Spe 38, Spc 23). Exp. All shares: PINCHY 39 EXP (308 EXP total gain, reaching 19,875 EXP; 2,077 to Lv 28 Kingler), DUX 58 EXP (boosted), OMEGA 39 EXP, VEE 39 EXP, ROCKY 39 EXP, SHELDON 39 EXP.
   - Battle 55: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Golbat dealt 9 damage on switch turn (Mewtwo at 215/249 HP). Turn 2 Mewtwo OHKOed Golbat with STAB 2x SE Psychic (PP 6/10). Krabby gained 276 participant EXP + 46 team share = 322 EXP, reaching 20,197 EXP (1,755 to Lv 28 Kingler). DUX gained 69 EXP (boosted). Base team share = 46 EXP. ROCKY leveled up to Lv 16 (Atk 34, Def 41, Spe 13, Spc 17; Rock Throw declined).
+  - Battle 56: Wild Sandslash Lv 52. Krabby switched to Blastoise (SHELDON). Sandslash dealt 4 damage on switch turn (Blastoise at 225/229 HP). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (PP 14/15). Krabby gained 297 participant EXP + 44 team share = 341 EXP, reaching 20,538 EXP (1,414 to Lv 28 Kingler). DUX gained 66 EXP (boosted). Base team share = 44 EXP.
 
 <hr>
