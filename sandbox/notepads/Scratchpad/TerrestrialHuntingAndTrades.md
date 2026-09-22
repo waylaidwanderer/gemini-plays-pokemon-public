@@ -1,8 +1,8 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 24, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 14,728 [Turn 38113]. Psyduck reached Level 24!
-  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (897 EXP remaining, ~5 battles).
+  - Current Empirical EXP: 15,022 [Turn 38126]. Psyduck reached Level 24!
+  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (603 EXP remaining, ~5 battles).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (21,870 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -109,7 +109,7 @@
   | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | 44 EXP | 341 EXP | 66 EXP |
   | **Kadabra**  | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | 42 EXP | 294 EXP | 63 EXP |
   | **Dodrio**   | 49 | 1,092 | 273 | **68 EXP** | **341 EXP** | **102 EXP** | 42 EXP | 315 EXP | 63 EXP |
-  | **Venomoth** | 49 | 952   | 238 | **59 EXP** | **297 EXP** | **88 EXP** | 35 EXP | 273 EXP | 52 EXP |
+  | **Venomoth** | 49 | 952   | 238 | **56 EXP** (V) | **294 EXP** (V) | **84 EXP** (P) | 35 EXP | 273 EXP | 52 EXP |
   | **Raichu**   | 53 | 908   | 227 | **56 EXP** | **283 EXP** | **84 EXP** | 37 EXP | 264 EXP | 55 EXP |
   | **Parasect** | 52 | 950   | 237 | **59 EXP** | **296 EXP** | **88 EXP** | 37 EXP | 274 EXP | 55 EXP |
 
@@ -118,6 +118,16 @@
 - **Test Protocol:** At the next PokÃÂ©mon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
 
 ### Expedition 9 Battle Log (4-Member Party Dilution Test):
+- Battle 99 (Venomoth Lv 49, Turn 38118-38126):
+  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo fell asleep from Sleep Powder.
+  - Turn 2: Used Poké Flute to awaken Mewtwo immediately; Venomoth's Leech Life missed!
+  - Turn 3: Mewtwo used STAB Psychic (2x SE OHKO). Psychic PP 8/10. Mewtwo leveled up to Lv 73!
+  - EXP Yields (Total 952 EXP):
+    - Participant Share: Psyduck 238 EXP, Mewtwo 238 EXP.
+    - EXP.ALL Team Base Share (N=4): **56 EXP**! (`952 // 17 = 56`, up from 35 EXP under N=6, a +60% increase!).
+    - DUX Boosted Share: predicted 84 EXP (`56 + 28 = 84`).
+    - Trainee Gain: Psyduck gained 294 EXP (238 + 56).
+    - Trainee EXP: 14,728 -> 15,022 EXP (603 to Lv 25 milestone).
 - Battle 98 (Hypno Lv 46, Turn 38105-38113):
   - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Blastoise took 40 dmg (189/229 HP).
   - Blastoise used STAB Surf (left Hypno with 1 HP), then Ice Beam (fainted).
