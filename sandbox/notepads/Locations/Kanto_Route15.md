@@ -41,7 +41,7 @@
 - Stepping into rows 8..9 can trigger wild encounters.
 - Central Paved Highway (rows 10..11) and southern path (row 12) are completely paved/clear and 100% encounter-free.
 ## Route 15 Gatehouse 2F (Audited Turns 35988-35993)
-- Layout: Observation lounge spanning cols 0..7, rows 3..7.
+- Layout: Observation lounge spanning cols 0..7, rows 1..7 (Oak's Aide stationed at (4, 2)).
 - Stairs: Located at (7, 7) in the southeast corner; descends down to Gatehouse 1F at (6, 8) [Verified Turn 35988].
 - Observation Equipment:
   - West Binoculars at (1, 3..4) with viewing pedestal.
