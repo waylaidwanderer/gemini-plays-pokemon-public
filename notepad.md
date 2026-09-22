@@ -110,19 +110,19 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: KRABBY (Nickname: PINCHY) [Lv 27, Water]
   - Status: Healthy [Level Up Turn 37105]
-  - HP: 60 / 60 [Pending overworld check, Lv 27 Turn 37105]
+  - HP: 60 / 60 [Lv 27 Turn 37105]
   - Stats: Attack 69, Defense 62, Speed 38, Special 23 [Empirically Verified Lv 27 Turn 37105]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 19875 [Turn 37105] (2,077 to Lv 28 Kingler)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 14, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36836]
-  - HP: 40 / 40 [Empirically Verified Lv 14 Turn 36849]
-  - Stats: Attack 25, Defense 23, Speed 23, Special 22 [Empirically Verified Lv 14 Turn 36836]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
+  - Status: Healthy [Level Up Turn 37109]
+  - HP: 42 / 42 [Lv 15 Turn 37109]
+  - Stats: Attack 26, Defense 25, Speed 24, Special 23 [Empirically Verified Lv 15 Turn 37109]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37034]
@@ -233,7 +233,7 @@
 - **Empirically Verified Battle EXP Calculations:**
   - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battles 13, 22, 27, 31, 50].
   - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29, 32, 38, 40, 44, 48].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11, 24, 39, 43, 45, 47, 49, 51].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11, 24, 39, 43, 45, 47, 49, 51, 54].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16, 25].
   - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18, 26, 30, 36, 37].
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battles 5, 9, 10, 14, 23].
@@ -4931,7 +4931,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Switch-train Krabby (PINCHY Lv 26 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+## Active Goal: Switch-train Krabby (PINCHY Lv 27 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
 - Krabby Starting EXP: 3,375 EXP (Current: 19,875 EXP, Target: 21,952 EXP, 2,077 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -4950,7 +4950,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-53
+### Exp. All Empirical Model Audit & Observations Across Battles 1-54
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -4962,9 +4962,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 53 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 54 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 26, HP 58, Attack 67, Defense 59, Speed 37, Special 22) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (22) and modest HP (58). Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
