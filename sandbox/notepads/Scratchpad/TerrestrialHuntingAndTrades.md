@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 23 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 13,009 EXP, Target: 21,952 EXP, 8,943 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 13,331 EXP, Target: 21,952 EXP, 8,621 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -21,11 +21,11 @@
 - Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified without Exp. All. Raichu was empirically verified with Exp. All in Battle 19 (participant share 227, team share 37); its 454 share without Exp. All is a calculated extrapolation. Only Ditto remains an unverified theoretical projection.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-31
+### Exp. All Empirical Model Audit & Observations Across Battles 1-32
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
-    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29]
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
     - Raichu (E=908, base=37 = E/24.5) [B19]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30]
@@ -34,7 +34,7 @@
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 31 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 32 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
@@ -81,4 +81,4 @@
     - B20: Wild Golbat Lv 46 (Blastoise swept; pit-stop heal at Cerulean Center).
     - B21: Wild Venomoth Lv 49 (Mewtwo swept; +273 EXP).
     - B22: Wild Magneton Lv 46 (Mewtwo swept; +301 EXP, PINCHY reached 10,239 EXP).
-    - Battles 23-31 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,009 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29). All EXP distributions verified.
+    - Battles 23-32 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,331 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29, B32). All EXP distributions verified.

@@ -54,7 +54,7 @@
   - Stats: Attack 59, Defense 53, Speed 33, Special 20 [Empirically Verified Lv 23 Turn 36603]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 13009 [Turn 36623] (815 to Lv 24)
+  - EXP: 13331 [Turn 36639] (493 to Lv 24)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 12, Normal/Flying]
@@ -84,7 +84,7 @@
   - Status: Healthy
   - HP: 103 / 229 [Verified Turn 36637]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 7/10)
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
