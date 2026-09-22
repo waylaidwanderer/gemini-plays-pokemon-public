@@ -88,3 +88,8 @@
   - DUX: 69 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
   - Formula audit: 100% consistent with verified Golbat model.
+- Battle 67 (Exp 5 Battle 6, Turn 37419): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
+  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 5,291 (541 to Lv 18).
+  - DUX: 69 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
+  - Formula audit: 100% consistent with verified Golbat model.
