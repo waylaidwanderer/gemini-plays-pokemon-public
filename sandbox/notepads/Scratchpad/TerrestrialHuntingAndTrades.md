@@ -1,8 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Krabby Evolved into Kingler (#099) [Turn 37206] - Preparing Next Evolution Candidate
-- Krabby Evolution Milestone: Reached 22,048 EXP at Level 28 in Battle 61 [Turn 37206] -> Evolved into KINGLER (#099)!
-- Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
+## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 2 -> Party Slot 1)
+- Current Milestone: Kingler (#099) evolution complete (51 caught). Deposited into Box 1 [Turn 37244].
+- Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Krabby Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
