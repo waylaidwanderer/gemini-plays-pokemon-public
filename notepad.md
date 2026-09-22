@@ -135,7 +135,7 @@
   - HP: 68 / 68 [Verified Lv 25 Turn 36935]
   - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Empirically Verified Lv 25 Turn 36935]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Tackle, Sand-Attack, Thunderbolt
+  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 5: GEODUDE (Nickname: ROCKY) [Lv 15, Rock/Ground]
   - Status: Healthy [Level Up Turn 36810]
   - HP: 40 / 40 [Empirically Verified Lv 15 Turn 36810]
