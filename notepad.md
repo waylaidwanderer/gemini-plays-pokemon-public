@@ -238,7 +238,7 @@
   - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified across 18+ battles, including Battles 1, 6-8, 64, 66, 67 (Turn 37419)].
   - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified across 12+ battles, including Battles 4, 11, 63 (Turn 37375)].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16, 25].
-  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18, 26, 30, 36, 37, 59].
+  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
   - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All: participant share = 237, team base share = 37) [Empirically verified Battles 41, 42, 46].
   - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified Battles 19, 35, 53, 60].
@@ -247,6 +247,7 @@
     - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28, 33, 34, 52]. Note: 6 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+
 
 <hr>
 
@@ -4936,10 +4937,28 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 1 -> Party Slot 1)
-  - Baseline Empirical EXP: 3,375 [Turn 37299]. Needed to Lv 16: 721.
-  - Cubic Formula Proof: 15^3 = 3,375. 16^3 = 4,096. 4,096 - 3,375 = 721 (Exact match!). Target Lv 33 Golduck = 33^3 = 35,937 EXP.
-- Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
+- Target Pok�mon: PSYDUCK (MIGRAINE Lv 18, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 6,236 [Turn 37468]. Needed to Lv 19: 623.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (29,701 EXP remaining).
+- Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
+
+### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 70, Turn 37471):
+- Trainee: PSYDUCK (MIGRAINE) [Lv 18, Water, Lead Slot]
+  - HP: 49 / 49 [Empirically Verified Battle 70 Turn 37464 Screen]
+  - Status: Healthy
+  - EXP: 6,236 (623 to Lv 19)
+- Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
+  - HP: 187 / 229 [Empirically Verified Battle 70 Turn 37467 Screen]
+  - Status: Healthy (no status)
+  - Active Move PP: Surf (13/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
+- Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
+  - HP: ~84 / 249 [Empirically Verified Battle 70 Turn 37465 Party Screen: 84 HP]
+  - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
+  - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
+- Protocol Trigger Check:
+  - Mewtwo HP: 84 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
+  - Blastoise HP: 187 (> 60 trigger).
+  - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
