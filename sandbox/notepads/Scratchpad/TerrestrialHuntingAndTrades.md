@@ -1,13 +1,13 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 20 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 9,079 EXP, Target: 21,952 EXP, 12,873 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 9,343 EXP, Target: 21,952 EXP, 12,609 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (50% Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Raichu** (Theoretical) | 53 | 922 | **461 EXP** | 691 EXP | Mewtwo (Swift / Psychic) |
+| **Raichu*** | 53 | 908 | **227 EXP (w/ Exp.All)** | 340 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Venomoth*** | 49 | 952-966 | **476-483 EXP** | 714-724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
 | **Magneton*** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Hypno*** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
@@ -21,7 +21,7 @@
 - Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified in the current run. Raichu and Ditto are theoretical projections pending dedicated in-game test verification.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-18
+### Exp. All Empirical Model Audit & Observations Across Battles 1-19
   - Battles 6-8 (Golbat Lv 46 x3, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
   - Battles 9-10 (Sandslash Lv 52 x2, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
   - Battle 11 (Hypno Lv 46, E = 1,076, Part Pool = 538): Participant Share = 269 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
@@ -32,6 +32,7 @@
   - Battle 16 (Kadabra Lv 49, E = 1,008, Part Pool = 504): Participant Share = 252 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
   - Battle 17 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
   - Battle 18 (Dodrio Lv 49, E = 1,092, Part Pool = 546): Participant Share = 273 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
+  - Battle 19 (Raichu Lv 53, E = 908, Part Pool = 454): Participant Share = 227 EXP, Exp. All Base Share = 37 EXP (DUX = 55 EXP)
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
@@ -83,3 +84,4 @@
   - Battle 16 (Wild Kadabra Lv 49): Turn 1 switched Krabby to Blastoise (took 0 dmg, Kadabra used Reflect, HP 101/229). Turn 2 Blastoise used STAB Surf, bypassing Reflect to OHKO Kadabra (Surf PP 8/15). PINCHY earned 294 EXP (252 part + 42 Exp. All, EXP: 8,148 -> 8,442, 819 to Lv 21). ROCKY grew to Level 12 (Atk 26, Def 32, Spd 11, Spc 14, verified Turn 36397).
   - Battle 17 (Wild Golbat Lv 46): Turn 1 switched Krabby to Blastoise (took 0 dmg, Golbat used Haze, HP 101/229). Turn 2 Blastoise scored a Critical Hit OHKO with 2x SE Ice Beam (Ice Beam PP 4/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 8,442 -> 8,764, 497 to Lv 21).
   - Battle 18 (Wild Dodrio Lv 49): Turn 1 switched Krabby to Blastoise (took 27 dmg, HP 74/229). Turn 2 Blastoise OHKOed Dodrio with STAB Surf (Surf PP 7/15). PINCHY earned 315 EXP (273 part + 42 Exp. All, EXP: 8,764 -> 9,079, only 182 to Lv 21).
+  - Battle 19 (Wild Raichu Lv 53): Turn 1 switched Krabby to Mewtwo (took 0 dmg from Growl, HP 141/249). Turn 2 Raichu used Thundershock (0 dmg), Mewtwo OHKOed Raichu with STAB Psychic (Psychic PP 2/10). PINCHY earned 264 EXP (227 part + 37 Exp. All, EXP: 9,079 -> 9,343) and grew to Level 21! (Atk 54, Def 48, Spd 30, Spc 18). DUX grew to Level 11! (Atk 20, Def 19, Spd 19, Spc 18).
