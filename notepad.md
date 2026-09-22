@@ -112,8 +112,8 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 23, Water]
   - Status: Healthy
-  - HP: 61 / 61 [Verified Lv 23 Turn 37914]
-  - Stats: Attack 36, Defense 29, Speed 36, Special 36 [Verified Lv 23 Screen Turn 37910]
+  - HP: 61 / 61
+  - Stats: Attack 36, Defense 29, Speed 36, Special 36
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 12540 [1284 to Lv 24; 13824 - 12540 = 1284]
@@ -126,9 +126,9 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
-  - Status: Healthy [Level Up Turn 36982]
-  - HP: 71 / 71 [Verified Lv 26 Turn 36989]
-  - Stats: Attack 42, Defense 38, Speed 75, Special 65 [Empirically Verified Lv 26 Turn 36982]
+  - Status: Healthy
+  - HP: 71 / 71
+  - Stats: Attack 42, Defense 38, Speed 75, Special 65
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 4: GEODUDE (Nickname: ROCKY) [Lv 18, Rock/Ground]
@@ -138,10 +138,10 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Poisoned (PSN)
-  - HP: 172 / 229
-  - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 9/10)
+  - Status: Healthy
+  - HP: 229 / 229
+  - Stats: Attack 171, Defense 197, Speed 171, Special 177
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 17, Normal/Flying]
   - Status: Healthy
   - HP: 47 / 47
@@ -247,6 +247,25 @@
     - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+
+## EXP.ALL Mathematical Model & Empirical Mechanics (Generation 1 Retail)
+- **Exp. All Distribution Formula:**
+  - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants.
+  - Team Share: `E_half = floor(E / 2)`, divided among 6 party members: `floor(E_half / 6) = floor(E / 12)`.
+  - Participant vs Non-Participant Second Division: `floor(floor(E / 12) / 2) = floor(E / 24)`.
+  - Traded Pok�mon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
+- **Empirical Effective Divisor K (Across 91 Battles):**
+  - Golbat (E=1104, base=46, K=24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86]
+  - Kadabra (E=1008, base=42, K=24.0) [B2,16,25,72]
+  - Raichu (E=908, base=37, K=24.5) [B19,35,53,60,78]
+  - Parasect (E=950, base=37, K=25.7) [B41,42,46,91]
+  - Dodrio (E=1092, base=42, K=26.0) [B3,18,26,30,36,37,59,70,77,85,87]
+  - Magneton (E=1050, base=39, K=26.9) [B13,22,27,31,50,61,62,79,80]
+  - Sandslash (E=1188, base=44, K=27.0) [B5,9,10,14,23,56,65,89]
+  - Venomoth (E=952, base=35, K=27.2) [B15,21,28,33,34,52,71,76,83,84]
+  - Hypno (E=1076, base=39, K=27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90]
+  - Effective Divisor Variance Hypothesis: The variation of K between 24.0 and 27.6 stems from intermediate 8-bit division register truncation in the Gen 1 assembly routine (`engine/battle/experience.asm`), where high and low bytes of total EXP are processed with truncation losses proportional to `(total_EXP % 256)`.
+
 
 
 <hr>
@@ -4976,7 +4995,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-85
+### Exp. All Empirical Model Audit & Observations Across Battles 1-91
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -4985,10 +5004,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85,87]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80]
-    - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
+    - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65,89]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
-    - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88]
+    - Parasect (E=950, base=37 = E/25.7) [B41,42,46,91]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90]
     Division Variance Testable Hypothesis (Gen 1 Assembly Implementation):
     - Context & Phenomenon: Across all battles with a healthy 6-member party, the Exp. All team base share is consistently floor(E / K) where effective divisor K ranges from 24.0 to 27.6:
       - Golbat (E=1104, base=46, K=24.0), Kadabra (E=1008, base=42, K=24.0), Raichu (E=908, base=37, K=24.5)
@@ -5026,7 +5045,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
 
 
-### Expedition 7 Battle Log (Psyduck Trainee, Battles 84-85, Turns 37762-37824):
+### Expedition 7 Battle Log (Psyduck Trainee, Battles 84-91):
 - Battle 84 (Venomoth Lv 49, Turn 37782-37803):
   - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 4 dmg (Psybeam: 245/249 HP).
   - Mewtwo used STAB Psychic (Critical Hit OHKO). Psychic PP 9/10.
