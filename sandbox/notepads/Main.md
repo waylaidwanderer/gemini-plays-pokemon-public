@@ -106,5 +106,6 @@
 
 - [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
+- [x] Train Psyduck to Level 24 (14,067 EXP) [Turn 38021]
 - [ ] Evolve Psyduck into Golduck (#055) at Lv 33 (35,937 EXP)
 
