@@ -47,20 +47,20 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 23, Bug/Grass]
+- Slot 1: PARASECT (Nickname: FUNGI) [Lv 24, Bug/Grass]
   - Status: Healthy
-  - HP: 55 / 55 [Verified Lv 23 Turn 35883]
-  - Stats: Attack 44, Defense 32, Speed 21, Special 37 [Verified Lv 23 Turn 35878]
+  - HP: 69 / 69 [Verified Lv 24 Turn 35919]
+  - Stats: Attack 58, Defense 46, Speed 24, Special 51 [Verified Lv 24 Turn 35919]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 13561 [Turn 35903]
+  - EXP: 14036 [Turn 35917]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 168 / 229 [Turn 35912]
+  - HP: 168 / 229 [Turn 35919]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20

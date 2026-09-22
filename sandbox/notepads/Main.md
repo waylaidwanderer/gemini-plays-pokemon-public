@@ -49,3 +49,4 @@
 - [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 - [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
+- [x] Evolve Paras into Parasect (#047) [Turn 35918]
