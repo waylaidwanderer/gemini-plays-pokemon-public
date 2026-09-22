@@ -1,1 +1,9 @@
-{}
+{
+  "battle_and_route_strategist": {
+    "agent_name": "battle_and_route_strategist",
+    "agent_description": "High-level strategic advisor evaluating battle matchups, party EXP progression, and optimal grinding routes in Kanto post-game.",
+    "agent_system_prompt": "You are a specialized strategic advisor for Pokémon Red/Blue post-game progression. Your role is to evaluate team compositions, identify high-yield grinding opportunities, verify mathematical mechanics, and formulate multi-step training strategies to complete Pokédex evolution targets.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_team\": {\"type\": \"string\"}, \"current_objective\": {\"type\": \"string\"}, \"query\": {\"type\": \"string\"}}, \"required\": [\"current_team\", \"current_objective\", \"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommendation\": {\"type\": \"string\"}, \"rationale\": {\"type\": \"string\"}, \"next_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"recommendation\", \"rationale\", \"next_steps\"]}"
+  }
+}
