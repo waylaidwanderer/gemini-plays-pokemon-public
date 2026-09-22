@@ -139,7 +139,7 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy [Healed Turn 37542]
-  - HP: 155 / 229
+  - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 16, Normal/Flying]
@@ -240,8 +240,8 @@
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified across 4+ battles, including Battles 2, 16, 25, 72 (Turn 37495)].
   - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
-  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All: participant share = 237, team base share = 37) [Empirically verified Battles 41, 42, 46].
-  - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified Battles 19, 35, 53, 60].
+  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All: participant share = 237, team base share = 37) [Empirically verified across 3+ battles].
+  - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified across 4+ battles].
   - Venomoth Lv 49: Observed Total EXP Variance:
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
     - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
@@ -4957,9 +4957,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Status: Healthy (Poison cured!)
   - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 249 (100%). Psychic PP: 10/10.
-  - Blastoise HP: 229 (100%). Surf PP: 15/15.
-  - Status: Completely refreshed! Returning to Cerulean Cave 1F for Expedition 6.
+  - Mewtwo HP: 245 (> 60 trigger). Psychic PP: 9 (> 3 trigger).
+  - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
+  - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
