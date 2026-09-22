@@ -47,4 +47,4 @@
   - West Binoculars at (1, 3..4) with viewing pedestal.
   - East Binoculars at (6, 3..4) with viewing pedestal.
 - Occupants:
-  - Professor Oak's Aide: Stationed at (4, 2) facing South [Verified Turn 35992]. Evaluates player's Pokédex caught total. If the player has caught 50 or more Pokémon species, awards the key item EXP.ALL [Turn 35998].
+  - Professor Oak's Aide: Stationed at (4, 2) facing South [Verified Turn 35992]. Evaluates player's Pokï¿½dex caught total. If the player has caught 50 or more Pokï¿½mon species, awards the key item EXP.ALL [Turn 35998].
