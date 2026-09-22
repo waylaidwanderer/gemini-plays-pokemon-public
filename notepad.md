@@ -183,7 +183,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Healthy (Poison cured Turn 38045)
+  - Status: Healthy
   - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
@@ -302,7 +302,7 @@
   - Participant vs Non-Participant Division Hypothesis: While Golbat and Kadabra base shares match `floor(E / 24.0)`, 6 of 9 species exhibit divisor K between 24.5 and 27.6 (e.g. Hypno K=27.6, Sandslash K=27.0). The exact 8-bit register truncation routine in Gen 1 assembly remains an unverified hypothesis under ongoing empirical tracking.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
 - **Empirical Effective Divisor K (Across 96 Battles):**
-  - Golbat (E=1104, base=46, K=24.0) [22 empirical encounters verified]
+  - Golbat (E=1104, base=46, K=24.0) [23 empirical encounters verified]
   - Kadabra (E=1008, base=42, K=24.0) [4 empirical encounters verified]
   - Raichu (E=908, base=37, K=24.5) [5 empirical encounters verified]
   - Parasect (E=950, base=37, K=25.7) [5 empirical encounters verified]
@@ -5102,45 +5102,25 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Hypothesis B (Hardcoded Engine Divisor N=6):**
   - Team Share remains invariant at floor(E / 24..27) (~35-46 EXP).
 - **Pre-Calculated Yields for First Encounter Verification:**
-  | Species | Level | Total EXP | Part Share (E/4) | Hyp A Team Share (E_half/4) | Hyp A Psyduck Total | Hyp B Team Share (E/24..27) | Hyp B Psyduck Total |
+  | Species | Level | Total EXP | Part Share (E/4) | Hyp A Team Share | Hyp A Psyduck Total | Hyp A DUX (Boosted) | Hyp B Team Share | Hyp B Psyduck Total | Hyp B DUX (Boosted) |
   | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-  | **Golbat** | 46 | 1,104 | 276 | **138 EXP** | **414 EXP** | 46 EXP | 322 EXP |
-  | **Hypno** | 46 | 1,076 | 269 | **134 EXP** | **403 EXP** | 39 EXP | 308 EXP |
-  | **Magneton** | 46 | 1,050 | 262 | **131 EXP** | **393 EXP** | 39 EXP | 301 EXP |
-  | **Sandslash**| 52 | 1,188 | 297 | **148 EXP** | **445 EXP** | 44 EXP | 341 EXP |
-  | **Kadabra**  | 49 | 1,008 | 252 | **126 EXP** | **378 EXP** | 42 EXP | 294 EXP |
-  | **Dodrio**   | 49 | 1,092 | 273 | **136 EXP** | **409 EXP** | 42 EXP | 315 EXP |
-  | **Venomoth** | 49 | 952   | 238 | **119 EXP** | **357 EXP** | 35 EXP | 273 EXP |
-  | **Raichu**   | 53 | 908   | 227 | **113 EXP** | **340 EXP** | 37 EXP | 264 EXP |
-  | **Parasect** | 52 | 950   | 237 | **118 EXP** | **355 EXP** | 37 EXP | 274 EXP |
+  | **Golbat** | 46 | 1,104 | 276 | **138 EXP** | **414 EXP** | **207 EXP** | 46 EXP | 322 EXP | 69 EXP |
+  | **Hypno** | 46 | 1,076 | 269 | **134 EXP** | **403 EXP** | **201 EXP** | 39 EXP | 308 EXP | 58 EXP |
+  | **Magneton** | 46 | 1,050 | 262 | **131 EXP** | **393 EXP** | **196 EXP** | 39 EXP | 301 EXP | 58 EXP |
+  | **Sandslash**| 52 | 1,188 | 297 | **148 EXP** | **445 EXP** | **222 EXP** | 44 EXP | 341 EXP | 66 EXP |
+  | **Kadabra**  | 49 | 1,008 | 252 | **126 EXP** | **378 EXP** | **189 EXP** | 42 EXP | 294 EXP | 63 EXP |
+  | **Dodrio**   | 49 | 1,092 | 273 | **136 EXP** | **409 EXP** | **204 EXP** | 42 EXP | 315 EXP | 63 EXP |
+  | **Venomoth** | 49 | 952   | 238 | **119 EXP** | **357 EXP** | **178 EXP** | 35 EXP | 273 EXP | 52 EXP |
+  | **Raichu**   | 53 | 908   | 227 | **113 EXP** | **340 EXP** | **169 EXP** | 37 EXP | 264 EXP | 55 EXP |
+  | **Parasect** | 52 | 950   | 237 | **118 EXP** | **355 EXP** | **177 EXP** | 37 EXP | 274 EXP | 55 EXP |
 
 - **Observation:** All 92 battles have been conducted with a 6-member party, yielding ~40-46 base team share (divisor K ~ 24..27).
 - **Hypothesis:** In Gen 1, Exp. All divides the team share half (E_half) by the number of non-fainted party members (N). With N=6, share is E/12 (or E/24 per participant). If the party size is reduced to N=2 (only Psyduck and 1 Sweeper), the team share would be floor(E_half / 2) = floor(E / 4), which would dramatically increase Exp. All gains from ~40 to ~250+ EXP per battle!
 - **Test Protocol:** At the next PokÃÂ©mon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
 
-### Expedition 8 Battle Log (Psyduck Trainee, Battles 93+):
-- Battle 93 (Golbat Lv 46, Turn 37974-37985):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Golbat used Confuse Ray (Mewtwo confused).
-  - Mewtwo took 28 self-confusion damage (221/249 HP). Golbat used Confuse Ray (failed).
-  - Mewtwo used STAB Psychic (2x SE OHKO). Psychic PP 9/10.
-  - EXP: Golbat Total 1,104. Psyduck gained 322 EXP (276 participant + 46 team share).
-  - Trainee EXP: 12,862 -> 13,184 EXP (640 to Lv 24).
-- Battle 94 (Parasect Lv 52, Turn 37989-37994):
-  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Blastoise took 15 dmg (214/229 HP).
-  - Blastoise used Ice Beam (2x SE OHKO). Ice Beam PP 9/10.
-  - EXP: Parasect Total 950. Psyduck gained 274 EXP (237 participant + 37 team share).
-  - Trainee EXP: 13,184 -> 13,458 EXP (366 to Lv 24).
-- Battle 95 (Magneton Lv 46, Turn 37999-38005):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Magneton attack failed (0 dmg taken).
-  - Mewtwo used STAB Psychic (OHKO). Psychic PP 8/10.
-  - EXP: Magneton Total 1,050. Psyduck gained 301 EXP (262 participant + 39 team share).
-  - Trainee EXP: 13,458 -> 13,759 EXP (65 to Lv 24).
-- Battle 96 (Hypno Lv 46, Turn 38013-38021):
-  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Hypno dealt 32 dmg (182/229 HP) and used Poison Gas (PSN).
-  - Blastoise used STAB Surf (2HKO). Surf PP 13/15.
-  - EXP: Hypno Total 1,076. Psyduck gained 308 EXP (269 participant + 39 team share).
-  - Trainee EXP: 13,759 -> 14,067 EXP.
-  - MILESTONE: Psyduck GREW TO LEVEL 24! Verified Lv 24 stats: Atk 37, Def 30, Spd 37, Spc 37.
-  - Remaining to Lv 25 (15,625 EXP): 1,558 EXP (~5 battles).
+### Expedition 8 Summary (Psyduck Trainee, Battles 93-96):
+- Battles 93-96 completed: Golbat (+322 EXP), Parasect (+274 EXP), Magneton (+301 EXP), Hypno (+308 EXP).
+- Psyduck achieved Level 24 milestone (14,067 EXP, verified stats: Atk 37, Def 30, Spd 37, Spc 37).
+- Remaining to Lv 25 (15,625 EXP): 1,558 EXP (~5 battles with N=6, ~4 battles with N=4).
 
 <hr>
