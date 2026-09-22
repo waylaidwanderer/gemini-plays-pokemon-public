@@ -15,14 +15,14 @@
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 155 / 229 [Battle 75]
   - Status: Poisoned (PSN, Battle 82)
-  - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (12/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 101 / 249 [Battle 77 Dodrio crit]
   - Status: Healthy
   - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 101 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
-  - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
+  - Blastoise HP: 155 (> 60 trigger). Surf PP: 12 (> 3 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
