@@ -5001,5 +5001,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
     - Battles 23-34 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 24 (13,877 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34; DUX grew to Lv 12 in B26, Lv 13 in B34; ROCKY grew to Lv 13 in B23, Lv 14 in B32). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32). All EXP distributions verified.
 
+  - Battle 35: Wild Raichu Lv 53. Krabby gained 264 EXP (227 participant + 37 Exp. All base), DUX gained 55 EXP (boosted). Swept with Mewtwo (Psychic). Krabby at 14,141 EXP (1,484 to Lv 25). Mewtwo Paralyzed, low PP. Initiating retreat to Cerulean Pokémon Center.
 
 <hr>
