@@ -6,27 +6,24 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (25,265 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 85 Dodrio, Turn 37819):
+### Active Expedition Sweeper Attrition & Condition Log (Battle 86 Golbat, Turn 37840):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 22, Water, Lead Slot]
-  - Status: Healthy [Level Up Turn 37819]
-  - HP: ~58 / 58
-  - EXP: 10,672 (1,495 to Lv 23) [Battle 85: +315 EXP]
+  - Status: Healthy
+  - HP: 58 / 58 [Verified Lv 22 Turn 37828 Screen]
+  - EXP: 10,994 (1,173 to Lv 23) [Battle 86: +322 EXP]
   - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Turn 37819 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 229 / 229 [Cerulean Center Heal Turn 37734]
   - Status: Healthy
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 236 / 249 [Battle 85 Drill Peck]
+  - HP: 226 / 249 [Battle 86 Wing Attack]
   - Status: Healthy
-  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (7/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 236 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
+  - Mewtwo HP: 226 (> 60 trigger). Psychic PP: 7 (> 3 trigger).
   - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Battle 86 vs Wild Golbat Lv 46 in progress.
-- Turn 1: Psyduck lead -> switching to Mewtwo (OMEGA Lv 72).
-- Projected Trainee Gain: +322 EXP (276 participant + 46 team).
-- Trainee Progress toward Lv 23 (12,167 EXP): 10,672 + 322 = 10,994 EXP (1,173 EXP remaining).
+  - Protocol Status: Green / Healthy. Ready for Battle 87.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -47,7 +44,7 @@
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
-    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81]
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85]
@@ -98,6 +95,11 @@
   - Trainee EXP: 10,357 -> 10,672 EXP.
   - MILESTONE: Psyduck GREW TO LEVEL 22! Verified Lv 22 stats: HP 58/58, Atk 34, Def 28, Spd 34, Spc 34.
   - Remaining to Lv 23 (12,167 EXP): 1,495 EXP.
+- Battle 86 (Golbat Lv 46, Turn 37826-37840):
+  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 10 dmg (Wing Attack: 226/249 HP).
+  - Mewtwo used STAB Psychic (Critical Hit 2x SE OHKO). Psychic PP 7/10.
+  - EXP: Golbat Total 1,104. Psyduck gained 322 EXP (276 participant + 46 team share).
+  - Trainee EXP: 10,672 -> 10,994 EXP (1,173 to Lv 23).
 
 ### Expedition 6 Summary Log (Psyduck Trainee, Battles 74-83, Turns 37579-37722):
 - Battles Fought: 10 (B74 Hypno, B75 Hypno, B76 Venomoth, B77 Dodrio, B78 Raichu, B79 Magneton, B80 Magneton, B81 Golbat, B82 Hypno, B83 Venomoth).
