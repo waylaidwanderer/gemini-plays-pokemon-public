@@ -47,20 +47,20 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon
-- Slot 1: PARAS (Nickname: FUNGI) [Lv 20, Bug/Grass]
+- Slot 1: PARAS (Nickname: FUNGI) [Lv 21, Bug/Grass]
   - Status: Healthy
-  - HP: 49 / 49
-  - Stats: Attack 39, Defense 29, Speed 18, Special 33 [Verified Lv 20 Turn 35695]
+  - HP: 50 / 50 [Verified Lv 21 Turn 35782]
+  - Stats: Attack 41, Defense 30, Speed 19, Special 34 [Verified Lv 21 Turn 35777]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 8327 [Verified Lv 20 Turn 35695]
+  - EXP: 9948 [Turn 35789]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
 - Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
   - Status: Healthy
-  - HP: 225 / 225 [Verified Healed Turn 35734]
+  - HP: 195 / 225 [Turn 35777]
   - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -70,10 +70,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy
-  - HP: 243 / 243 [Verified Healed & Cured Turn 35734]
+  - HP: 233 / 243 [Turn 35788]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68

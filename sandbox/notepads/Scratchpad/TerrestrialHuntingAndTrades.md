@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Evolve Paras (FUNGI) into Parasect (#047)
-- Target: Level 24 (13,824 EXP, Pok�dex #047)
+- Target: Level 24 (13,824 EXP, Pokédex #047)
 - Verified Starting State: Lv 10, HP 29/29, Atk 21, Def 16, Spd 11, Spc 18, EXP 1000, Move: Scratch (PP 35/35) [Turn 35442]
 - Switch Sweepers: Blastoise (SHELDON Lv 71) / Mewtwo (OMEGA Lv 71)
 
@@ -22,7 +22,7 @@
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP (~23-24 battles to Lv 24 Parasect).
 
 ### Paras Switch-Training Combat Protocol
-- Vulnerability Profile: Paras (Bug/Grass) suffers a catastrophic 4x weakness to Flying (Dodrio, Golbat) and 2x weaknesses to Fire, Poison, Bug, and Rock. At low levels, ANY attack from Cerulean Cave wild Pok�mon will instantly OHKO Paras.
+- Vulnerability Profile: Paras (Bug/Grass) suffers a catastrophic 4x weakness to Flying (Dodrio, Golbat) and 2x weaknesses to Fire, Poison, Bug, and Rock. At low levels, ANY attack from Cerulean Cave wild Pokémon will instantly OHKO Paras.
 - Turn 1 Rule: NEVER attack with Paras. Immediately switch out to the designated sweeper on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -65,18 +65,13 @@
 - Input Buffering Caution: Rapidly buffering consecutive 'A' presses across menu transitions can trigger unintentional move selections (e.g., Slot 1 Double-Edge). Chunk inputs cleanly with 'B' or pauses to verify menu states.
 
 ### Battle Log (Expeditions 1-14 Aggregated Summary):
-- Pit-Stop Verification [Turn 35734]: Properly confirmed HEAL with Nurse Joy. Mandatory verification checkpoint in Party Menu empirically confirmed 100% full restoration: Mewtwo 243/243 HP (PSN CURED, Psychic 10/10), Blastoise 225/225 HP (Surf 15/15, Ice Beam 10/10), Paras 49/49 HP. Ready for Expedition 2!
 - Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
   - Starting State: Paras Lv 10 (1,000 EXP).
   - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 5,497 EXP (934 to Lv 21).
 
 - Battle 15 (Exp 2 Battle 1) [Turn 35768]: Defeated wild Magneton Lv 46. Switched Paras to Mewtwo; Psychic OHKO (Psychic 9/10, Mewtwo HP 233/243). Paras gained 525 EXP.
-  - Current State: Paras Lv 20 (8,852 EXP, +7,852 EXP total gained).
-  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 4,972 EXP (409 to Lv 21).
 - Battle 16 (Exp 2 Battle 2) [Turn 35777]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 14/15, Blastoise HP 195/225). Paras gained 538 EXP and GREW TO LEVEL 21!
-  - Current State: Paras Lv 21 (9,390 EXP, +8,390 EXP total gained). Stats: Atk 41, Def 30, Spd 19, Spc 34.
-  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 4,434 EXP (1,258 to Lv 22).
 - Battle 17 (Exp 2 Battle 3) [Turn 35788]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 8/10, Mewtwo HP 233/243). Paras gained 558 EXP.
   - Current State: Paras Lv 21 (9,948 EXP, +8,948 EXP total gained).
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 3,876 EXP (700 to Lv 22).
