@@ -114,7 +114,7 @@
   - Stats: Attack 57, Defense 50, Speed 31, Special 19 [Empirically Verified Lv 22 Turn 36537]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 11497 [Turn 36563] (670 to Lv 23)
+  - EXP: 11798 [Turn 36575] (369 to Lv 23)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 12, Normal/Flying]
@@ -129,7 +129,7 @@
   - HP: 190 / 249 [Verified Turn 36562]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -4929,7 +4929,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 22 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 11,497 EXP, Target: 21,952 EXP, 10,455 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 11,798 EXP, Target: 21,952 EXP, 10,154 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -4949,11 +4949,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified without Exp. All. Raichu was empirically verified with Exp. All in Battle 19 (participant share 227, team share 37); its 454 share without Exp. All is a calculated extrapolation. Only Ditto remains an unverified theoretical projection.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-26
+### Exp. All Empirical Model Audit & Observations Across Battles 1-27
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 26 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 27 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
@@ -4962,7 +4962,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Live Status: Blastoise (HP 185/229, Surf 13/15, Ice Beam 10/10); Mewtwo (HP 224/249 Healthy, Psychic 7/10, Swift 19/20, Recover 20/20).
+  - Live Status: Blastoise (HP 185/229, Surf 13/15, Ice Beam 10/10); Mewtwo (HP 224/249 Healthy, Psychic 6/10, Swift 19/20, Recover 20/20).
   - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
 
 ### Other Post-Game Evolution Candidates
@@ -5005,6 +5005,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - B24: Wild Hypno Lv 46 (Blastoise swept; +308 EXP, PINCHY grew to Lv 22 [Atk 57, Def 50, Spd 31, Spc 19, 10,888 EXP]).
     - B25: Wild Kadabra Lv 49 (Mewtwo swept with Swift; +294 EXP [252 part + 42 Exp.All], DUX +63, PINCHY reached 11,182 EXP [985 to Lv 23]).
     - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63 [grew to Lv 12], PINCHY reached 11,497 EXP [670 to Lv 23]).
+    - B27: Wild Magneton Lv 46 (Mewtwo swept with Psychic; +301 EXP [262 part + 39 Exp.All], DUX +58, PINCHY reached 11,798 EXP [369 to Lv 23]).
 
 
 <hr>
