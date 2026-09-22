@@ -111,7 +111,7 @@
 - Slot 1: KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - HP: 36 / 36 [Verified Turn 36012]
-  - Stats: Attack 41, Defense 42, Speed 23, Special 15
+  - Stats: Attack 39, Defense 35, Speed 22, Special 14 [Empirically Verified Turn 36076]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 3375 [Turn 35957]
@@ -161,7 +161,6 @@
 - Slot 11: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 - Slot 12: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
 - Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
-
 
 <hr>
 

@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÉ FLUTE [Key Item]
+1. POKï¿½ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -45,13 +45,13 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥3056 [Turn 34152]
+- ï¿½3056 [Turn 34152]
 
-## Party Pokémon (6 / 6)
+## Party Pokï¿½mon (6 / 6)
 - Slot 1: KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - HP: 36 / 36 [Verified Turn 36012]
-  - Stats: Attack 41, Defense 42, Speed 23, Special 15
+  - Stats: Attack 39, Defense 35, Speed 22, Special 14 [Empirically Verified Turn 36076]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 3375 [Turn 35957]
@@ -87,7 +87,7 @@
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
 
-## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
+## PC Box 1 Pokï¿½mon (Contiguous Slot Order - 13 Pokï¿½mon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
 - Slot 2: HITMONLEE (BRUCE) [Lv 30]
 - Slot 3: LAPRAS (NESSY) [Lv 15]
