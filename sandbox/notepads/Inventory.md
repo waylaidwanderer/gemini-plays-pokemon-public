@@ -49,9 +49,9 @@
 
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 22, Water]
-  - Status: Healthy [Level Up Turn 37819]
-  - HP: 58 / 58 [Verified Lv 22]
-  - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Turn 37819 Screen]
+  - Status: Healthy
+  - HP: 58 / 58
+  - Stats: Attack 34, Defense 28, Speed 34, Special 34
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 11309 [858 to Lv 23; 12167 - 11309 = 858]
@@ -70,9 +70,9 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 4: GEODUDE (Nickname: ROCKY) [Lv 18, Rock/Ground]
-  - Status: Healthy [Level Up Turn 37845]
+  - Status: Healthy
   - HP: 47 / 47
-  - Stats: Attack 38, Defense 45, Speed 15, Special 19 [Verified Lv 18 Turn 37845 Screen]
+  - Stats: Attack 38, Defense 45, Speed 15, Special 19
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
@@ -81,9 +81,9 @@
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 17, Normal/Flying]
-  - Status: Healthy [Level Up Turn 37669]
+  - Status: Healthy
   - HP: 47 / 47
-  - Stats: Attack 29, Defense 27, Speed 27, Special 26 [Verified Lv 17 Turn 37669 Screen]
+  - Stats: Attack 29, Defense 27, Speed 27, Special 26
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
