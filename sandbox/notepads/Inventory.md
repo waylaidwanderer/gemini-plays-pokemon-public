@@ -60,7 +60,7 @@
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 9, Normal/Flying]
   - Status: Healthy [Level Up Turn 36295]
-  - HP: 27 / 27 (Max HP pending verification)
+  - HP: 29 / 29 [Empirically Verified Lv 9 Turn 36302]
   - Stats: Attack 17, Defense 16, Speed 16, Special 16 [Empirically Verified Lv 9 Turn 36295]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
@@ -77,7 +77,7 @@
   - Moves: Tackle, Sand-Attack, Thunderbolt
 - Slot 5: GEODUDE (Nickname: ROCKY) [Lv 11, Rock/Ground]
   - Status: Healthy [Level Up Turn 36297]
-  - HP: 30 / 30 (Max HP pending verification)
+  - HP: 32 / 32 [Empirically Verified Lv 11 Turn 36302]
   - Stats: Attack 25, Defense 29, Speed 10, Special 13 [Empirically Verified Lv 11 Turn 36297]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40)
   - Caught: Mt. Moon 1F [Turn 1197]
