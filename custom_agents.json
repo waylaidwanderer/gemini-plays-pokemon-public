@@ -1,9 +1,1 @@
-{
-  "training_route_planner": {
-    "agent_name": "training_route_planner",
-    "agent_description": "Calculates battle EXP yields, recommends optimal switch sweepers, and verifies PP budgets for switch-training in Cerulean Cave.",
-    "agent_system_prompt": "You are a specialized combat and training strategist for Pokémon Blue retail. Given current party status and wild encounter data, calculate exact Exp. All distribution, recommend optimal switch sweeper, and verify PP budgets.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"wild_pokemon\": {\"type\": \"string\"}, \"krabby_exp\": {\"type\": \"integer\"}, \"target_exp\": {\"type\": \"integer\"}}, \"required\": [\"wild_pokemon\", \"krabby_exp\", \"target_exp\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"sweeper\": {\"type\": \"string\"}, \"move\": {\"type\": \"string\"}, \"exp_yield\": {\"type\": \"integer\"}, \"remaining_exp\": {\"type\": \"integer\"}}, \"required\": [\"sweeper\", \"move\", \"exp_yield\", \"remaining_exp\"]}"
-  }
-}
+{}
