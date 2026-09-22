@@ -47,7 +47,7 @@
 ## Money
 - ¥3056 [Turn 34152]
 
-## Party Pokémon (5 / 6)
+## Party Pokémon (6 / 6)
 - Slot 1: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
   - Status: Healthy [Level Up Turn 37109]
   - HP: 43 / 43 [Empirically Verified Lv 15 Turn 37121]
@@ -78,6 +78,13 @@
   - HP: 199 / 229 [Turn 37177]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
+- Slot 6: PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
+  - Status: Healthy [Withdrawn Turn 37281]
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - Target: Level 33 (35,937 EXP) -> GOLDUCK (#055)
+  - Moves: Scratch, Tail Whip
+  - Caught: Cerulean Gym pool [Turn 31526]
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 14 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
