@@ -6,19 +6,19 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,434 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 76, Turn 37623):
+### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 82, Turn 37711):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 21, Water, Lead Slot]
-  - Status: Healthy [Level Up Turn 37696]
-  - HP: 54 / 54 [Empirically Verified Turn 37632 Battle Screen]
-  - EXP: 9,503 (1,145 to Lv 22) [Level 21 Achieved!]
+  - Status: Healthy
+  - HP: 56 / 56 [Verified Lv 21 Turn 37701 Screen]
+  - EXP: 9,811 (837 to Lv 22) [Level 21 Achieved!]
   - Stats: Attack 33, Defense 27, Speed 33, Special 32 [Empirically Verified Lv 21 Turn 37696 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 141 / 229 [Battle 82]
   - Status: Poisoned (PSN, Battle 82)
   - Active Move PP: Surf (11/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 101 / 249 [Battle 77 Dodrio crit]
-  - Status: Healthy
+  - HP: 101 / 249 [Battle 81 confusion self-damage]
+  - Status: Paralyzed (PAR, Battle 78)
   - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 101 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
@@ -40,19 +40,19 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-76
+### Exp. All Empirical Model Audit & Observations Across Battles 1-82
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
-    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68]
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
-    - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60]
-    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70]
-    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62]
+    - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
+    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77]
+    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
@@ -86,48 +86,11 @@
 - All Exp. All yields 100% verified and integrated into model above.
 - Pit Stop: Executed at Turn 37542 (Full heal with Nurse Joy in Cerulean City).
 
-### Expedition 6 Battle Log (Psyduck Trainee, Battles 74+):
-- Battle 74 (Exp 6 Battle 1, Turn 37586): Defeated Wild Hypno Lv 46. Blastoise Surf (OHKO).
-  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 8,000 (1,261 to Lv 21).
-  - DUX: 58 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Hypno model.
-- Battle 75 (Exp 6 Battle 2, Turn 37603): Defeated Wild Hypno Lv 46. Blastoise Surf (2HKO).
-  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 8,000 (1,261 to Lv 21).
-  - DUX: 58 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Hypno model.
-- Battle 76 (Exp 6 Battle 3, Turn 37623): Defeated Wild Venomoth Lv 49. Mewtwo STAB Psychic (OHKO).
-  - Psyduck: 273 EXP (238 participant + 35 team share) -> New EXP: 8,000 (Grew to Lv 20!).
-    - Lv 20 Stats: Attack 31, Defense 25, Speed 31, Special 31 [Empirically Verified Turn 37623 Screen].
-  - DUX: 52 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 35 EXP each.
-  - Formula audit: 100% consistent with verified Venomoth model.- Battle 77 (Exp 6 Battle 4, Turn 37637): Defeated Wild Dodrio Lv 49. Mewtwo STAB Psychic (OHKO).
-  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 8,315 (946 to Lv 21).
-  - DUX: 63 EXP (boosted).
-  - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
-  - Formula audit: 100% consistent with verified Dodrio model (E=1092, participant=273, base=42).
-- Battle 78 (Exp 6 Battle 5, Turn 37651): Defeated Wild Raichu Lv 53. Mewtwo STAB Psychic (OHKO).
-  - Psyduck: 264 EXP (227 participant + 37 team share) -> New EXP: 8,579 (682 to Lv 21).
-  - DUX: 55 EXP (boosted).
-  - OMEGA: 264 EXP (227 participant + 37 team share).
-  - VEE, ROCKY, SHELDON: 37 EXP each.
-  - Formula audit: 100% consistent with verified Raichu model (E=908, participant=227, base=37).
-- Battle 79 (Exp 6 Battle 6, Turn 37667): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (OHKO).
-  - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 8,880 (381 to Lv 21).
-  - DUX: 58 EXP (boosted).
-  - OMEGA: 301 EXP (262 participant + 39 team share).
-  - VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Magneton model (E=1050, participant=262, base=39).
-- Battle 80 (Exp 6 Battle 7, Turn 37679): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (OHKO).
-  - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 9,181 (80 to Lv 21).
-  - DUX: 58 EXP (boosted).
-  - OMEGA: 301 EXP (262 participant + 39 team share).
-  - VEE, ROCKY, SHELDON: 39 EXP each.
-  - Formula audit: 100% consistent with verified Magneton model (E=1050, participant=262, base=39).
-- Battle 81 (Exp 6 Battle 8, Turn 37696): Defeated Wild Golbat Lv 46. Mewtwo STAB 2x SE Psychic (OHKO).
-  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 9,503 (Grew to Level 21!).
-  - DUX: 69 EXP (boosted).
-  - OMEGA: 322 EXP (276 participant + 46 team share).
-  - VEE, ROCKY, SHELDON: 46 EXP each.
-  - Formula audit: 100% consistent with verified Golbat model (E=1104, participant=276, base=46).
+### Expedition 6 Summary Log (Psyduck Trainee, Battles 74-82, Turns 37579-37711):
+- Battles Fought: 9 (B74 Hypno, B75 Hypno, B76 Venomoth, B77 Dodrio, B78 Raichu, B79 Magneton, B80 Magneton, B81 Golbat, B82 Hypno).
+- Total EXP Gained by Psyduck: 2,700 EXP (grew from Lv 19 [7,111 EXP] past Lv 20 to Level 21 [9,811 EXP]).
+- Lv 21 Verified Stats: HP 56/56, Attack 33, Defense 27, Speed 33, Special 32.
+- Trainee Progress: 837 EXP remaining to Level 22 (10,648 EXP); 26,126 EXP to Level 33 Golduck (35,937 EXP).
+- Primary Sweeper Blastoise: HP 141/229, Status PSN, Surf PP 11/15.
+- Reserve Sweeper Mewtwo: HP 101/249, Status PAR, Psychic PP 4/10.
+- Protocol Status: Safe to continue training (both sweepers HP > 60, primary PP > 3).

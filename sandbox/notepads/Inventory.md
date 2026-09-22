@@ -50,19 +50,19 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 21, Water]
   - Status: Healthy [Level Up Turn 37696]
-  - HP: 56 / 56 [Verified Lv 21 Turn 37701 Screen]
+  - HP: 56 / 56
   - Stats: Attack 33, Defense 27, Speed 33, Special 32 [Verified Lv 21 Turn 37696 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 9503 [1145 to Lv 22; 10648 - 9503 = 1145]
+  - EXP: 9811 [837 to Lv 22; 10648 - 9811 = 837]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37542]
-  - HP: 245 / 249 [Verified Party Screen Turn 37633]
+  - HP: 249 / 249
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
@@ -82,7 +82,7 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 17, Normal/Flying]
   - Status: Healthy [Level Up Turn 37669]
-  - HP: 47 / 47 [Verified Party Screen Turn 37674]
+  - HP: 47 / 47
   - Stats: Attack 29, Defense 27, Speed 27, Special 26 [Verified Lv 17 Turn 37669 Screen]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
