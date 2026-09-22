@@ -108,16 +108,16 @@
 - Slot 1: PARAS (Nickname: FUNGI) [Lv 23, Bug/Grass]
   - Status: Healthy
   - HP: 53 / 53 [Verified Lv 22 Turn 35814]
-  - Stats: Attack 42, Defense 31, Speed 20, Special 36 [Verified Lv 22 Turn 35810]
+  - Stats: Attack 44, Defense 32, Speed 21, Special 37 [Verified Lv 23 Turn 35878]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 12603 [Turn 35878]
   - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
   - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
-- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 71, Water]
+- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 204 / 225 [Turn 35872]
-  - Stats: Attack 151, Defense 194, Speed 168, Special 173 [Verified Lv 71 Turn 34559]
+  - HP: 208 / 229 [Turn 35878]
+  - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
