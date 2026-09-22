@@ -142,7 +142,7 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Paralyzed [Afflicted Turn 36581]
-  - HP: 163 / 229 [Verified Turn 36599]
+  - HP: 156 / 229 [Verified Turn 36613]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 9/10)
 
