@@ -23,30 +23,17 @@
 - Note on Historical Entries: Dodrio and Ditto entries are marked (Historical) as unverified approximations carried over from earlier notes. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, and Parasect (*) are all 100% empirically verified in the current run.
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP (~23-24 battles to Lv 24 Parasect).
 
-### Paras Switch-Training Combat Protocol
-- Vulnerability Profile: Paras (Bug/Grass) suffers a catastrophic 4x weakness to Flying (Dodrio, Golbat) and 2x weaknesses to Fire, Poison, Bug, and Rock. At low levels, ANY attack from Cerulean Cave wild Pokémon will instantly OHKO Paras.
-- Turn 1 Rule: NEVER attack with Paras. Immediately switch out to the designated sweeper on Turn 1.
+### Krabby Switch-Training Combat Protocol
+- Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pok�mon will instantly OHKO Krabby.
+- Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
+- Exp. All Integration: Once Exp. All is claimed from Route 15 Gatehouse, Krabby will automatically receive passive EXP from every defeated opponent without needing to enter battle directly, eliminating OHKO risks. If placed in battle and switched out, Krabby earns both active participant share and passive Exp. All share.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
-  - Hypno Contingency: While Mewtwo is the primary Special counter, Blastoise is deployed to mitigate Mewtwo PSN attrition and preserve Psychic PP. Blastoise must use Surf or Body Slam (avoid Double-Edge to eliminate recoil damage).
-  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits effortlessly; retaliates with STAB Surf / 2x Ice Beam.
+  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Blastoise (SHELDON Lv 72): Surf 15 PP, Ice Beam 10 PP, Body Slam 15 PP, Double-Edge 15 PP (total 55 PP).
-  - Mewtwo (OMEGA Lv 71): Psychic 10 PP, Swift 20 PP, Recover 20 PP (total 50 PP).
-  - Combined High-Yield SE PP: 25 moves (Surf + Ice Beam) on Blastoise, 10 moves (Psychic) on Mewtwo = 35 primary OHKO moves.
-  - Safe Grinding Window: ~18-20 battles per expedition before primary STAB PP runs low.
-  - Pit-Stop Retreat Thresholds:
-    1. HP Trigger: Sweeper HP < 60 (independent retreat trigger).
-    2. PP Trigger: Blastoise Surf <= 3 PP AND Mewtwo Psychic <= 2 PP (compound PP depletion trigger).
-    3. Status Trigger:
-       - Freeze: Immediate retreat trigger upon battle conclusion.
-       - Sleep: In-battle remedy via Poké Flute (Bag Slot 1, infinite use); no retreat needed unless compounded with low HP.
-       - Poison: Increases HP retreat threshold to HP < 80.
-       - Paralysis: Reduces Speed by 75% and incurs 25% full paralysis rate. Allowed to continue if Mewtwo HP >= 120 and Blastoise HP >= 80. If Mewtwo HP < 120 while paralyzed OR Blastoise HP < 80 while Mewtwo is paralyzed, trigger immediate retreat.
-    4. Pit-Stop Execution Routine:
-       a. Walk South to (24..25, 17) and step onto warp to exit Cerulean Cave onto canal apron at (4, 12).
-       b. Open party menu -> Farfetch'd (DUX) -> FLY -> Cerulean City.
-       c. Enter Pokémon Center, heal with Nurse Joy, return north via Route 24 canal.
+  - Blastoise: Surf 13/15, Ice Beam 8/10, Body Slam 15/15, Double-Edge 15/15.
+  - Mewtwo: Psychic 9/10, Swift 20/20, Recover 20/20.
+  - Retreat triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
 
 ### Other Post-Game Evolution Candidates
 1. KRABBY (PINCHY Lv 15, Box 1 Slot 1):

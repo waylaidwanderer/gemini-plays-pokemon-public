@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÃ‰ FLUTE [Key Item]
+1. POKÉ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -44,47 +44,37 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- Â¥3056 [Turn 34152]
+- ¥3056 [Turn 34152]
 
-## Party PokÃ©mon
-- Slot 1: PARASECT (Nickname: FUNGI) [Lv 24, Bug/Grass]
-  - Status: Healthy
-  - HP: 69 / 69 [Verified Lv 24 Turn 35919]
-  - Stats: Attack 58, Defense 46, Speed 24, Special 51 [Verified Lv 24 Turn 35919]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 14036 [Turn 35917]
-  - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
-  - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
-- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
+## Party Pokémon (6 / 6)
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
   - HP: 168 / 229 [Turn 35919]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
-- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
-- Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy [Healed & Cured Turn 35840]
   - HP: 238 / 243 [Turn 35892]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
+- Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 6: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - Caught: Mt. Moon 1F [Turn 1197]
-
 - Slot 6: KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - HP: 38 / 38
@@ -96,18 +86,17 @@
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), Vicegrip (PP 30/30)
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 
-## PC Box 1 PokÃ©mon (Contiguous Slot Order - 13 PokÃ©mon)
-- Slot 1: KRABBY (PINCHY) [Lv 15]
-- Slot 2: ZAPDOS (THUNDER) [Lv 50]
-- Slot 3: HITMONLEE (BRUCE) [Lv 30]
-- Slot 4: LAPRAS (NESSY) [Lv 15]
-- Slot 5: KANGASKHAN (MATILDA) [Lv 25]
-- Slot 6: CHANSEY (LUCKY) [Lv 26]
-- Slot 7: DROWZEE (SANDMAN) [Lv 9]
-- Slot 8: OMANYTE (NAUTILUS) [Lv 30]
-- Slot 9: AERODACTYL (PTERA) [Lv 30]
-- Slot 10: NIDOQUEEN (QUEENIE) [Lv 33]
-- Slot 11: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
-- Slot 12: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
-- Slot 13: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
-- Slot 14: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
+## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
+- Slot 1: ZAPDOS (THUNDER) [Lv 50]
+- Slot 2: HITMONLEE (BRUCE) [Lv 30]
+- Slot 3: LAPRAS (NESSY) [Lv 15]
+- Slot 4: KANGASKHAN (MATILDA) [Lv 25]
+- Slot 5: CHANSEY (LUCKY) [Lv 26]
+- Slot 6: DROWZEE (SANDMAN) [Lv 9]
+- Slot 7: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 8: AERODACTYL (PTERA) [Lv 30]
+- Slot 9: NIDOQUEEN (QUEENIE) [Lv 33]
+- Slot 10: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
+- Slot 11: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
+- Slot 12: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
+- Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
