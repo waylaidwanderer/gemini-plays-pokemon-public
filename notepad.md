@@ -114,23 +114,23 @@
   - Stats: Attack 42, Defense 37, Speed 23, Special 14 [Empirically Verified Lv 16 Turn 36162]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4306 [Turn 36170] (Gained 315 in Battle 3; 607 to Lv 17)
+  - EXP: 4614 [Turn 36200] (Gained 308 in Battle 4; 299 to Lv 17)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 6, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36146]
-  - HP: 22 / 22
-  - Stats: Attack 13, Defense 12, Speed 12, Special 12 [Empirically Verified Turn 36146]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 7, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36190]
+  - HP: 23 / 23 [Verified Lv 6 Turn 36179] (Lv 7 HP unverified)
+  - Stats: Attack 15, Defense 14, Speed 14, Special 13 [Empirically Verified Lv 7 Turn 36190]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Level Up Turn 36119]
   - HP: 203 / 249 [Turn 36181]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 17/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -4926,7 +4926,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 4,306 EXP, Target: 21,952 EXP, 17,646 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 4,614 EXP, Target: 21,952 EXP, 17,338 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
@@ -5037,6 +5037,12 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
       - Traded DUX (Boosted): 63 EXP (42 + floor(42/2) = 63).
       - PINCHY Net Gain: 273 + 42 = 315 EXP (Krabby EXP: 3,991 -> 4,306, 607 to Lv 17). PINCHY reached Level 16! (Atk 42, Def 37, Spd 23, Spc 14).
       - ROCKY Net Gain: 42 EXP. ROCKY reached Level 9! (Atk 21, Def 25, Spd 9, Spc 11).
+  - Battle 4: Wild Hypno Lv 46. Turn 1 switched Krabby to Mewtwo (took 12 dmg, HP 203/249). Turn 2 Mewtwo critical hit with Swift (Hypno survived on red HP, used Meditate). Turn 3 Mewtwo critical hit with Swift (Hypno fainted). Swift PP: 17/20.
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (269 EXP) + OMEGA (269 EXP) = 538 EXP. Total battle E = 1,076 (Hypno base exp = 164 or 165).
+      - Exp. All Team Pool: Base share = 39 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 58 EXP (39 + floor(39/2) = 58). DUX reached Level 7! (Atk 15, Def 14, Spd 14, Spc 13). Leer declined to preserve Cut and Fly!
+      - PINCHY Net Gain: 269 + 39 = 308 EXP (Krabby EXP: 4,306 -> 4,614, only 299 to Lv 17!).
 
 
 <hr>
