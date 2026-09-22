@@ -4990,5 +4990,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 16 (Exp 2 Battle 2) [Turn 35777]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 14/15, Blastoise HP 195/225). Paras gained 538 EXP and GREW TO LEVEL 21!
   - Current State: Paras Lv 21 (9,390 EXP, +8,390 EXP total gained). Stats: Atk 41, Def 30, Spd 19, Spc 34.
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 4,434 EXP (1,258 to Lv 22).
+- Battle 17 (Exp 2 Battle 3) [Turn 35788]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 8/10, Mewtwo HP 233/243). Paras gained 558 EXP.
+  - Current State: Paras Lv 21 (9,948 EXP, +8,948 EXP total gained).
+  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 3,876 EXP (700 to Lv 22).
 
 <hr>
