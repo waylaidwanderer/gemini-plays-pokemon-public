@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥3056 [Turn 34152]
-- Pokédex: 50 Caught / 137 Seen [Verified Turn 35923]
+- Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
 
 ## Milestones
 
@@ -52,7 +52,8 @@
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 - [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
 - [x] Evolve Paras into Parasect (#047) [Turn 35918]
-- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]
+- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]- [x] Evolve Krabby into Kingler (#099) [Turn 37206]
+
 
 <hr>
 
@@ -108,15 +109,15 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 28, Water]
-  - Status: Healthy [Level Up Turn 37105]
-  - HP: 60 / 60 [Lv 27 Turn 37105]
-  - Stats: Attack 69, Defense 62, Speed 38, Special 23 [Empirically Verified Lv 27 Turn 37105]
+- Slot 1: KINGLER (Nickname: PINCHY) [Lv 28, Water]
+  - Status: Healthy [Evolved Turn 37206]
+  - HP: 76 / 76 [Empirically Verified Lv 28 Turn 37209]
+  - Stats: Attack 86, Defense 78, Speed 54, Special 38 [Empirically Verified Lv 28 Turn 37209]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 22048 [Turn 37204] (Target Met: Evolving into Kingler #099)
-  - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
-  - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
+  - EXP: 22048 [Turn 37204]
+  - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5)
+  - Caught: Cerulean Gym [Turn 31540], Evolved: Cerulean Cave 1F [Turn 37206]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
   - Status: Healthy [Level Up Turn 37109]
   - HP: 43 / 43 [Empirically Verified Lv 15 Turn 37121]
@@ -4931,8 +4932,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Krabby (PINCHY Lv 28) Evolving into Kingler (#099) [Turn 37203] in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 22,048 EXP, Target: 21,952 EXP - TARGET MET! Evolving into Kingler #099)
+## Active Goal: Krabby Evolved into Kingler (#099) [Turn 37206] - Preparing Next Evolution Candidate
+- Krabby Evolution Milestone: Reached 22,048 EXP at Level 28 in Battle 61 [Turn 37206] -> Evolved into KINGLER (#099)!
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
@@ -4950,7 +4951,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-60
+### Exp. All Empirical Model Audit & Observations Across Battles 1-61
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -4958,13 +4959,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59]
-    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50]
+    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 60 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 27, HP 60, Attack 69, Defense 62, Speed 38, Special 23) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (23) and modest HP (60). Any Special hit from Cerulean Cave wild Pok�mon will deal massive or lethal damage.
@@ -4999,8 +5000,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
   - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.
-  - Battles 47-58 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 27 (21,168 EXP, 784 to Lv 28 Kingler). Krabby leveled up to Lv 26 in B47, and Lv 27 in B54 (stats: Atk 69, Def 62, Spe 38, Spc 23). DUX leveled up to Lv 15 in B54 (Atk 26, Def 25, Spe 24, Spc 23; declined Fury Attack). ROCKY leveled up to Lv 16 in B55 (Atk 34, Def 41, Spe 13, Spc 17; declined Rock Throw). Swept Hypno Lv 46 (B47, B49, B51, B54, B57), Golbat Lv 46 (B48, B55, B58), Magneton Lv 46 (B50), Venomoth Lv 49 (B52), Raichu Lv 53 (B53), and Sandslash Lv 52 (B56). All EXP distributions and formula ratios 100% verified across 58 battles.
-  - Battle 59: Wild Dodrio Lv 49. Krabby switched to Blastoise (SHELDON). Dodrio dealt 26 damage on switch turn (Blastoise at 199/229 HP). Turn 2 Blastoise OHKOed Dodrio with 2x SE Ice Beam (PP 9/10). Krabby gained 273 participant EXP + 42 team share = 315 EXP, reaching 21,483 EXP (469 to Lv 28 Kingler). DUX gained 63 EXP (boosted). Base team share = 42 EXP.
-  - Battle 60: Wild Raichu Lv 53. Krabby switched to Mewtwo (OMEGA). Turn 2 Mewtwo OHKOed Raichu with STAB Psychic (PP 5/10). Krabby gained 227 participant EXP + 37 team share = 264 EXP, reaching 21,747 EXP (only 205 to Lv 28 Kingler!). DUX gained 55 EXP (boosted). Base team share = 37 EXP.
+  - Battles 47-61 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 28 Kingler (#099) at 22,048 EXP [Turn 37206]. Krabby leveled up to Lv 26 in B47, Lv 27 in B54, and Lv 28 in B61, evolving into Kingler (verified stats: HP 76, Atk 86, Def 78, Spe 54, Spc 38). DUX leveled up to Lv 15 in B54 (Atk 26, Def 25, Spe 24, Spc 23; declined Fury Attack). ROCKY leveled up to Lv 16 in B55 (Atk 34, Def 41, Spe 13, Spc 17; declined Rock Throw). Swept Hypno Lv 46 (B47, B49, B51, B54, B57), Golbat Lv 46 (B48, B55, B58), Magneton Lv 46 (B50, B61), Venomoth Lv 49 (B52), Raichu Lv 53 (B53, B60), and Sandslash Lv 52 (B56). All EXP distributions and formula ratios 100% verified across 61 battles.
+
 
 <hr>
