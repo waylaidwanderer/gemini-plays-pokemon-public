@@ -1,29 +1,29 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 23, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 13,458 [Turn 37994]. Psyduck reached Level 23!
-  - Milestone Next: Lv 24 = 24^3 = 13,824 EXP (366 EXP remaining, ~1-2 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (22,479 EXP remaining).
+  - Current Empirical EXP: 13,759 [Turn 38005]. Psyduck reached Level 23!
+  - Milestone Next: Lv 24 = 24^3 = 13,824 EXP (65 EXP remaining, exactly 1 battle!).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (22,178 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 94 Parasect, Turn 37994):
+### Active Expedition Sweeper Attrition & Condition Log (Battle 95 Magneton, Turn 38005):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 23, Water, Lead Slot]
   - Status: Healthy
   - HP: 61 / 61
-  - EXP: 13,458 (366 to Lv 24) [Battle 94: +274 EXP]
+  - EXP: 13,759 (65 to Lv 24) [Battle 95: +301 EXP]
   - Stats: Attack 36, Defense 29, Speed 36, Special 36 [Verified Lv 23 Screen Turn 37910]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 214 / 229 [15 dmg on switch]
+  - HP: 214 / 229
   - Status: Healthy
   - Active Move PP: Surf (15/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 221 / 249
+  - HP: 221 / 249 [0 dmg taken]
   - Status: Healthy
-  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 9 (> 3 trigger).
+  - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
   - Blastoise HP: 214 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Ready for Battle 95.
+  - Protocol Status: Green / Healthy. Ready for Battle 96 (Level 24 Milestone Battle!).
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -40,7 +40,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-94
+### Exp. All Empirical Model Audit & Observations Across Battles 1-95
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -48,7 +48,7 @@
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85,87]
-    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80]
+    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80,95]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65,89]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
     - Parasect (E=950, base=37 = E/25.7) [B41,42,46,91,94]
@@ -106,4 +106,9 @@
   - Blastoise used Ice Beam (2x SE OHKO). Ice Beam PP 9/10.
   - EXP: Parasect Total 950. Psyduck gained 274 EXP (237 participant + 37 team share).
   - Trainee EXP: 13,184 -> 13,458 EXP (366 to Lv 24).
+- Battle 95 (Magneton Lv 46, Turn 37999-38005):
+  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Magneton attack failed (0 dmg taken).
+  - Mewtwo used STAB Psychic (OHKO). Psychic PP 8/10.
+  - EXP: Magneton Total 1,050. Psyduck gained 301 EXP (262 participant + 39 team share).
+  - Trainee EXP: 13,458 -> 13,759 EXP (65 to Lv 24).
 
