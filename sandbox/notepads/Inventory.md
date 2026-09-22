@@ -54,7 +54,7 @@
   - Stats: Attack 49, Defense 44, Speed 27, Special 17 [Empirically Verified Lv 19 Turn 36308]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7233 [Turn 36321] (Gained 276 participant + 46 Exp. All = 322 in Battle 12; 767 to Lv 20)
+  - EXP: 7534 [Turn 36343] (Gained 262 participant + 39 Exp. All = 301 in Battle 13; 466 to Lv 20)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -66,7 +66,7 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
-  - Status: Healthy [Level Up Turn 36119]
+  - Status: Paralyzed (PAR) [Thunder Wave Turn 36339]
   - HP: 165 / 249 [Verified Turn 36207]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
