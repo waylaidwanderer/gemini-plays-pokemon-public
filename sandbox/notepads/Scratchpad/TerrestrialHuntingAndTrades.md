@@ -2,7 +2,7 @@
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 18, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 6,236 [Turn 37468]. Needed to Lv 19: 623.
+  - Current Empirical EXP: 6,509 [Turn 37485]. Needed to Lv 19: 350.
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (29,701 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -10,11 +10,11 @@
 - Trainee: PSYDUCK (MIGRAINE) [Lv 18, Water, Lead Slot]
   - HP: 49 / 49 [Empirically Verified Battle 70 Turn 37464 Screen]
   - Status: Healthy
-  - EXP: 6,236 (623 to Lv 19)
+  - EXP: 6,509 (350 to Lv 19)
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 173 / 229 [Empirically Verified Battle 71 Turn 37483 Screen]
   - Status: Healthy (no status)
-  - Active Move PP: Surf (13/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 74 / 249 [Empirically Verified Battle 71 Turn 37481 Party Screen: 74 HP]
   - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
@@ -39,7 +39,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-70
+### Exp. All Empirical Model Audit & Observations Across Battles 1-71
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -49,7 +49,7 @@
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
-    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52]
+    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
@@ -123,7 +123,12 @@
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Hypno model.
 - Battle 70 (Exp 5 Battle 9, Turn 37468): Defeated Wild Dodrio Lv 49. Blastoise Ice Beam (2x SE OHKO).
-  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 6,236 (623 to Lv 19).
+  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 6,509 (350 to Lv 19).
   - DUX: 63 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
   - Formula audit: 100% consistent with verified Dodrio model.
+- Battle 71 (Exp 5 Battle 10, Turn 37484): Defeated Wild Venomoth Lv 49. Blastoise STAB Surf (OHKO).
+  - Psyduck: 273 EXP (238 participant + 35 team share) -> New EXP: 6,509 (350 to Lv 19).
+  - DUX: 52 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 35 EXP each.
+  - Formula audit: 100% consistent with verified Venomoth model.
