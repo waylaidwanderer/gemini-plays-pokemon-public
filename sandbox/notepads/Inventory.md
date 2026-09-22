@@ -47,48 +47,39 @@
 ## Money
 - ¥3056 [Turn 34152]
 
-## Party Pokémon (6 / 6)
-- Slot 1: KINGLER (Nickname: PINCHY) [Lv 28, Water]
-  - Status: Healthy [Evolved Turn 37206]
-  - HP: 76 / 76 [Empirically Verified Lv 28 Turn 37209]
-  - Stats: Attack 86, Defense 78, Speed 54, Special 38 [Empirically Verified Lv 28 Turn 37209]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 22048 [Turn 37204]
-  - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5)
-  - Caught: Cerulean Gym [Turn 31540], Evolved: Cerulean Cave 1F [Turn 37206]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
+## Party Pokémon (5 / 6)
+- Slot 1: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
   - Status: Healthy [Level Up Turn 37109]
   - HP: 43 / 43 [Empirically Verified Lv 15 Turn 37121]
   - Stats: Attack 26, Defense 25, Speed 24, Special 23 [Empirically Verified Lv 15 Turn 37109]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
-- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
+- Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37034]
   - HP: 193 / 249 [Turn 37150]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 17/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 4: JOLTEON (Nickname: VEE) [Lv 26, Electric]
+- Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
   - Stats: Attack 42, Defense 38, Speed 75, Special 65 [Empirically Verified Lv 26 Turn 36982]
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
-- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 16, Rock/Ground]
+- Slot 4: GEODUDE (Nickname: ROCKY) [Lv 16, Rock/Ground]
   - Status: Healthy [Level Up Turn 36810]
   - HP: 43 / 43 [Empirically Verified Lv 16 Turn 37136]
   - Stats: Attack 34, Defense 41, Speed 13, Special 17 [Empirically Verified Lv 16 Turn 37126]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
-- Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
+- Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy [Healed Turn 37034]
   - HP: 199 / 229 [Turn 37177]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
 
-## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
+## PC Box 1 Pokémon (Contiguous Slot Order - 14 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
 - Slot 2: HITMONLEE (BRUCE) [Lv 30]
 - Slot 3: LAPRAS (NESSY) [Lv 15]
@@ -101,4 +92,4 @@
 - Slot 10: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 - Slot 11: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 - Slot 12: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
-- Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
+- Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]- Slot 14: KINGLER (PINCHY) [Lv 28, Water, Deposited Turn 37244]
