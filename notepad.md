@@ -108,13 +108,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 23, Water]
-  - Status: Healthy [Level Up Turn 36603]
-  - HP: 52 / 52 [Empirically Verified Lv 23 Turn 36610]
-  - Stats: Attack 59, Defense 53, Speed 33, Special 20 [Empirically Verified Lv 23 Turn 36603]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 24, Water]
+  - Status: Healthy [Level Up Turn 36661]
+  - HP: 54 / 54 [Pending overworld check]
+  - Stats: Attack 62, Defense 55, Speed 34, Special 21 [Empirically Verified Lv 24 Turn 36661]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 13604 [Turn 36650] (220 to Lv 24)
+  - EXP: 13877 [Turn 36661] (1748 to Lv 25)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 12, Normal/Flying]
@@ -239,7 +239,7 @@
   - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified Battle 19]. (Without Exp. All: projected base share s_EXP = 454, boosted = 681; calculated extrapolation).
   - Venomoth Lv 49: Observed Total EXP Variance:
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28, 33].
+    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28, 33, 34].
 - **Theoretical / Unverified Projections (Pending In-Game Test Citation):**
   - Ditto Lv 53: Projected Total EXP 454. 2 participants without Exp. All -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
 
@@ -4928,28 +4928,28 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Switch-train Krabby (PINCHY Lv 23 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 13,604 EXP, Target: 21,952 EXP, 8,348 EXP needed for Lv 28 Kingler)
+## Active Goal: Switch-train Krabby (PINCHY Lv 24 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+- Krabby Starting EXP: 3,375 EXP (Current: 13,877 EXP, Target: 21,952 EXP, 8,075 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
-| Species | Level | Total Wild EXP | Participant Base Share (50% Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
+### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, * = Tested)
+| Species | Level | Total Wild EXP | Krabby Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Raichu*** | 53 | 908 | **454 EXP** | 681 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Venomoth*** | 49 | 952-966 | **476-483 EXP** | 714-724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
-| **Magneton*** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Hypno*** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
-| **Golbat*** | 46 | 1,104 | **552 EXP** | 828 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
-| **Sandslash*** | 52 | 1,188 | **594 EXP** | 891 EXP | Blastoise (STAB Surf 2x SE OHKO) / Mewtwo |
-| **Kadabra*** | 49 | 1,008 | **504 EXP** | 756 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
-| **Parasect*** | 52 | 950 | **475 EXP** | 712 EXP | Blastoise (Ice Beam 2x SE OHKO) |
-| **Dodrio*** | 49 | 1,092 | **546 EXP** | 819 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
+| **Raichu*** | 53 | 908 | **264 EXP** (227+37) | 55 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Venomoth*** | 49 | 952 | **273 EXP** (238+35) | 52 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Magneton*** | 46 | 1,050 | **301 EXP** (262+39) | 58 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Hypno*** | 46 | 1,076 | **308 EXP** (269+39) | 58 EXP | Mewtwo (STAB Psychic / Swift) |
+| **Golbat*** | 46 | 1,104 | **322 EXP** (276+46) | 69 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Sandslash*** | 52 | 1,188 | **341 EXP** (297+44) | 66 EXP | Blastoise (STAB Surf 2x SE OHKO) / Mewtwo |
+| **Kadabra*** | 49 | 1,008 | **294 EXP** (252+42) | 63 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
+| **Parasect*** | 52 | 950 | **272 EXP** (237+35) | 52 EXP | Blastoise (Ice Beam 2x SE OHKO) |
+| **Dodrio*** | 49 | 1,092 | **315 EXP** (273+42) | 63 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Ditto** (Historical) | 53 | 454 | **131 EXP** (113+18) | 27 EXP | Blastoise / Mewtwo |
 
 - Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified without Exp. All. Raichu was empirically verified with Exp. All in Battle 19 (participant share 227, team share 37); its 454 share without Exp. All is a calculated extrapolation. Only Ditto remains an unverified theoretical projection.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-33
+### Exp. All Empirical Model Audit & Observations Across Battles 1-34
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -4959,19 +4959,20 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23]
-    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33]
+    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 33 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 34 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
-  - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
+  - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
+  - Retreat Triggers: Either designated sweeper reaching primary SE PP <= 3 or HP < 60, or major persistent status (PAR) combined with low PP.
+  - Active Protocol Status: Mewtwo has reached 2/10 Psychic PP and is Paralyzed. Upon concluding Battle 34 (Krabby Lv 24 achieved), team will exit Cerulean Cave to Cerulean Pok�mon Center to heal Mewtwo and restore all PP before resuming grind to Lv 28 Kingler.
 
 ### Other Post-Game Evolution Candidates
 1. PSYDUCK (MIGRAINE Lv 15, Box 2):
@@ -4997,19 +4998,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat Lv 46 (+322 EXP), Kadabra Lv 49 (+294 EXP), Dodrio Lv 49 (+315 EXP, PINCHY Lv 16, ROCKY Lv 9), Hypno Lv 46 (+308 EXP, DUX Lv 7, Leer declined), and Sandslash Lv 52 (+341 EXP, PINCHY Lv 17). All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary:
-    - B6-B8: Wild Golbat Lv 46 x3 (PINCHY Lv 18, DUX Lv 8, ROCKY Lv 10).
-    - B9-B10: Wild Sandslash Lv 52 x2 (DUX Lv 9, ROCKY Lv 11).
-    - B11: Wild Hypno Lv 46 (PINCHY Lv 19).
-    - B12-B13: Wild Golbat Lv 46, Wild Magneton Lv 46 (Mewtwo swept).
-    - B14: Wild Sandslash Lv 52 (DUX Lv 10).
-    - B15: Wild Venomoth Lv 49 (PINCHY Lv 20, learned ViceGrip).
-    - B16: Wild Kadabra Lv 49 (ROCKY Lv 12).
-    - B17-B18: Wild Golbat Lv 46, Wild Dodrio Lv 49 (Blastoise swept).
-    - B19: Wild Raichu Lv 53 (PINCHY Lv 21, DUX Lv 11).
-    - B20: Wild Golbat Lv 46 (Blastoise swept; pit-stop heal at Cerulean Center).
-    - B21: Wild Venomoth Lv 49 (Mewtwo swept; +273 EXP).
-    - B22: Wild Magneton Lv 46 (Mewtwo swept; +301 EXP, PINCHY reached 10,239 EXP).
-    - Battles 23-33 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,604 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23, Lv 14 in B32). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33), Golbat Lv 46 (B29, B32). All EXP distributions verified.
+    - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
+    - Battles 23-34 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 24 (13,877 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23, Lv 14 in B32). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32). All EXP distributions verified.
 
 
 <hr>
