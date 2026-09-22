@@ -2,9 +2,7 @@
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
 - [x] Claimed Exp. All from Route 15 Gatehouse 2F [Turn 35997]
-- Next Evolution Project: Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099)
 - Krabby Starting EXP: 3,375 EXP (Target: 21,952 EXP, 18,577 EXP needed)
-- Target: Level 24 (13,824 EXP, PokÃ©dex #047)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
@@ -22,11 +20,12 @@
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Note on Historical Entries: Dodrio and Ditto entries are marked (Historical) as unverified approximations carried over from earlier notes. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, and Parasect (*) are all 100% empirically verified in the current run.
-- Average Yield per Cerulean Cave 1F battle: ~530 EXP (~23-24 battles to Lv 24 Parasect).
+- Average Yield per Cerulean Cave 1F battle: ~530 EXP (~23-24 battles for ~12,800 EXP).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
+- Exp. All Mechanics Note: The exact integer arithmetic formula for Exp. All distribution in retail Gen 1 remains an unverified hypothesis pending dedicated testing in upcoming battles.
 - Exp. All Integration: Once Exp. All is claimed from Route 15 Gatehouse, Krabby will automatically receive passive EXP from every defeated opponent without needing to enter battle directly, eliminating OHKO risks. If placed in battle and switched out, Krabby earns both active participant share and passive Exp. All share.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -65,7 +64,4 @@
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
 - Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
 - Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean PokÃ©mon Center; team 100% restored.
-- Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
-- Battle 23 (Exp 3 Battle 2) [Turn 35892]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; cured SLP with PokÃ© Flute; STAB Psychic 2x SE OHKO (Psychic 9/10, Mewtwo HP 238/243). Paras gained 483 EXP (13,086 EXP, 738 to Lv 24).
-- Battle 24 (Exp 3 Battle 3) [Turn 35903]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed crit Slash (HP 176/229); Ice Beam 2x SE OHKO (Ice Beam 9/10). Paras gained 475 EXP (13,561 EXP, 263 to Lv 24 Parasect).
-- Battle 25 (Exp 3 Battle 4) [Turn 35917]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed Leech Life (HP 168/229); Ice Beam 2x SE OHKO (Ice Beam 8/10). Paras gained 475 EXP, reached 14,036 EXP, grew to Level 24, and EVOLVED INTO PARASECT (#047)! Pokédex caught: 50 [Empirically verified on Pokédex screen Turn 35923! Exactly 50 reached, qualifying for Exp. All!]
+- Expedition 3 Summary [Turns 35868-35918]: 4 battles completed (Battles 22-25: Hypno Lv 46, Venomoth Lv 49, Parasect Lv 52 x2). Paras gained 1,971 EXP, grew from Lv 22 (12,065 EXP) to Lv 24 (14,036 EXP), and EVOLVED INTO PARASECT (#047)! Pokédex caught verified at 50 [Turn 35923].

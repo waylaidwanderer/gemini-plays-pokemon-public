@@ -40,3 +40,11 @@
 - Rows 8..9 cols 52..58 contain a tall grass / flower patch bounded north by row 7 south-facing jump ledge and south by rows 10..11 Central Paved Highway.
 - Stepping into rows 8..9 can trigger wild encounters.
 - Central Paved Highway (rows 10..11) and southern path (row 12) are completely paved/clear and 100% encounter-free.
+## Route 15 Gatehouse 2F (Audited Turns 35988-35993)
+- Layout: Observation lounge spanning cols 0..7, rows 3..7.
+- Stairs: Located at (7, 7) in the southeast corner; descends down to Gatehouse 1F at (6, 8) [Verified Turn 35988].
+- Observation Equipment:
+  - West Binoculars at (1, 3..4) with viewing pedestal.
+  - East Binoculars at (6, 3..4) with viewing pedestal.
+- Occupants:
+  - Professor Oak's Aide: Stationed at (4, 2) facing South [Verified Turn 35992]. Evaluates player's Pokédex caught total. If the player has caught 50 or more Pokémon species, awards the key item EXP.ALL [Turn 35998].
