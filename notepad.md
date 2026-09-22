@@ -231,8 +231,8 @@
 - **Empirically Verified Battle EXP Calculations:**
   - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native), boosted = `787` (traded).
   - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battle 1, 6, 7, 8].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants -> Base share `s_EXP = 538` (native), boosted = `807` (traded) [Empirically verified Turn 35570].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants -> Base share `s_EXP = 504` (native), boosted = `756` (traded).
+  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battle 4, 11].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battle 2].
   - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
   - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battle 5].
@@ -4944,10 +4944,19 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Note on Historical Entries: Only Ditto remains marked (Historical) as an unverified approximation. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, Parasect, and Dodrio (*) are all 100% empirically verified in the current run.
-- Average Yield per Cerulean Cave 1F battle (with EXP.ALL): ~350-400 EXP for Krabby (~45-50 battles for 18,577 EXP needed for Lv 28 Kingler).
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-5
+### Exp. All Empirical Model Audit & Observations Across Battles 1-12
+- Empirical Exp. All Distribution Records (2 Active Participants, 6 Party Members):
+  - Battle 1 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
+  - Battle 2 (Kadabra Lv 49, E = 1,008, Part Pool = 504): Participant Share = 252 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
+  - Battle 3 (Dodrio Lv 49, E = 1,092, Part Pool = 546): Participant Share = 273 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
+  - Battle 4 (Hypno Lv 46, E = 1,076, Part Pool = 538): Participant Share = 269 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
+  - Battle 5 (Sandslash Lv 52, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
+  - Battles 6-8 (Golbat Lv 46 x3, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
+  - Battles 9-10 (Sandslash Lv 52 x2, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
+  - Battle 11 (Hypno Lv 46, E = 1,076, Part Pool = 538): Participant Share = 269 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
+  - Battle 12 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
 - Empirical Exp. All Distribution Records (2 Active Participants, 6 Party Members):
   - Battle 1 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
   - Battle 2 (Kadabra Lv 49, E = 1,008, Part Pool = 504): Participant Share = 252 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
@@ -4962,8 +4971,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
-- Exp. All Mechanics Note: The exact integer arithmetic formula for Exp. All distribution in retail Gen 1 remains an unverified hypothesis pending dedicated testing in upcoming battles.
-- Exp. All Integration: Once Exp. All is claimed from Route 15 Gatehouse, Krabby will automatically receive passive EXP from every defeated opponent without needing to enter battle directly, eliminating OHKO risks. If placed in battle and switched out, Krabby earns both active participant share and passive Exp. All share.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
@@ -5000,32 +5007,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 6-8 (Wild Golbat Lv 46 x3): Blastoise OHKOed with 2x SE Ice Beam (took 0 dmg from Haze in B6 & B8, 8 dmg from Wing Attack in B7, HP 160/229).
     - Yields per battle: PINCHY +322 EXP (276 part + 46 Exp. All), SHELDON +322 EXP, DUX +69 EXP (traded), OMEGA/VEE/ROCKY +46 EXP each.
     - Milestones: DUX reached Lv 8 (B6), ROCKY reached Lv 10 (B6), PINCHY reached Level 18 (B8, Atk 47, Def 42, Spd 26, Spc 16, HP 42/42 verified). PINCHY total EXP: 5,921.
-  - Battle 9: Wild Sandslash Lv 52. Turn 1 switched Krabby to Blastoise (took 10 dmg from Fury Swipes, HP 150/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 12/15).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (297 EXP) + SHELDON (297 EXP) = 594 EXP. Total battle E = 1,188 (Sandslash base exp = 160, Lv 52).
-      - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
-      - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 5,921 -> 6,262, only 597 to Lv 19!).
-
-  - Battle 10: Wild Sandslash Lv 52. Turn 1 switched Krabby to Blastoise (took 15 dmg from 3-hit Fury Swipes, HP 135/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 11/15).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (297 EXP) + SHELDON (297 EXP) = 594 EXP. Total battle E = 1,188.
-      - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
-      - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 6,262 -> 6,603, only 256 to Lv 19!).
-  - Battle 11: Wild Hypno Lv 46. Turn 1 switched Krabby to Blastoise (Hypno used Meditate, 0 dmg, HP 135/229). Turn 2 Blastoise scored a Critical Hit OHKO with STAB Surf (Surf PP 10/15).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (269 EXP) + SHELDON (269 EXP) = 538 EXP. Total battle E = 1,076.
-      - Exp. All Team Pool: Base share = 39 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 58 EXP (39 + floor(39/2) = 58).
-      - PINCHY Net Gain: 269 + 39 = 308 EXP. PINCHY grew to Level 19! Stats: Atk 49, Def 44, Spd 27, Spc 17 (verified Turn 36308). Total EXP: 6,911 (1,089 to Lv 20).
-
-  - Battle 12: Wild Golbat Lv 46. Turn 1 switched Krabby to Mewtwo (took 0 dmg, Golbat used Supersonic, Mewtwo confused, HP 165/249). Turn 2 Mewtwo attacked through confusion and OHKOed Golbat with STAB 2x SE Psychic (Psychic PP 5/10).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (276 EXP) + OMEGA (276 EXP) = 552 EXP. Total battle E = 1,104.
-      - Exp. All Team Pool: Base share = 46 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69).
-      - PINCHY Net Gain: 276 + 46 = 322 EXP (Krabby EXP: 6,911 -> 7,233, only 767 to Lv 20!).
+  - Battles 9-10 (Wild Sandslash Lv 52 x2): Turn 1 switched Krabby to Blastoise (took 10 dmg in B9, 15 dmg in B10, HP 135/229). Blastoise OHKOed with STAB Surf (Surf PP 10/15). PINCHY earned 341 EXP each battle (297 part + 44 Exp. All; Krabby EXP 5,921 -> 6,603). DUX reached Lv 9 (B10, Atk 17, Def 16, Spd 16, Spc 16, HP 29/29), ROCKY reached Lv 11 (B10, Atk 25, Def 29, Spd 10, Spc 13, HP 32/32, learned Defense Curl).
+  - Battle 11 (Wild Hypno Lv 46): Turn 1 switched Krabby to Blastoise (Hypno used Meditate, 0 dmg). Blastoise scored Critical Hit OHKO with STAB Surf (Surf PP 10/15). PINCHY earned 308 EXP (269 part + 39 Exp. All) and grew to Level 19! (Atk 49, Def 44, Spd 27, Spc 17, HP 44/44, EXP: 6,911).
+  - Battle 12 (Wild Golbat Lv 46): Turn 1 switched Krabby to Mewtwo (took 0 dmg, Golbat used Supersonic, Mewtwo confused, HP 165/249). Turn 2 Mewtwo attacked through confusion and OHKOed Golbat with STAB 2x SE Psychic (Psychic PP 5/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 6,911 -> 7,233, 767 to Lv 20).
 
 
 <hr>
