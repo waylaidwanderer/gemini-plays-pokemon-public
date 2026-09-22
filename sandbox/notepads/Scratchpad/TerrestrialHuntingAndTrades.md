@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pok�mon: PSYDUCK (MIGRAINE Lv 23, Water, Medium Fast growth, Lead Slot 1)
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 23, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 12,862 [Turn 37933]. Psyduck reached Level 23!
   - Milestone Next: Lv 24 = 24^3 = 13,824 EXP (962 EXP remaining, ~3 battles).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (23,075 EXP remaining).
@@ -67,7 +67,7 @@
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 83 battles!).
 
 ### Psyduck Switch-Training Combat Protocol
-- Vulnerability Profile: Psyduck (Water, Lv 15, HP 42, Attack 24, Defense 20, Speed 24, Special 24) has very low stats compared to Lv 46-53 Cerulean Cave wild Pokémon. Any hit will be lethal.
+- Vulnerability Profile: Psyduck (Water, Lv 15, HP 42, Attack 24, Defense 20, Speed 24, Special 24) has very low stats compared to Lv 46-53 Cerulean Cave wild PokÃ©mon. Any hit will be lethal.
 - Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -86,59 +86,11 @@
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
      - Prerequisite Status: Slowpoke owned (Box 1), but not yet evolved into Slowbro (unobtained asset).
 3. Evolution Stones:
-   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
-   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
+   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for Â¥2,100 each.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: Â¥3056.
 
-
-### Expedition 7 Battle Log (Psyduck Trainee, Battles 84-92):
-- Battle 84 (Venomoth Lv 49, Turn 37782-37803):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 4 dmg (Psybeam: 245/249 HP).
-  - Mewtwo used STAB Psychic (Critical Hit OHKO). Psychic PP 9/10.
-  - EXP: Venomoth Total 952. Psyduck gained 273 EXP (238 participant + 35 team share).
-  - Trainee EXP: 10,084 -> 10,357 EXP (291 to Lv 22).
-- Battle 85 (Dodrio Lv 49, Turn 37807-37824):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 9 dmg (Drill Peck: 236/249 HP).
-  - Mewtwo used STAB Psychic (OHKO). Psychic PP 8/10.
-  - EXP: Dodrio Total 1,092. Psyduck gained 315 EXP (273 participant + 42 team share).
-  - Trainee EXP: 10,357 -> 10,672 EXP.
-  - MILESTONE: Psyduck GREW TO LEVEL 22! Verified Lv 22 stats: HP 58/58, Atk 34, Def 28, Spd 34, Spc 34.
-  - Remaining to Lv 23 (12,167 EXP): 1,495 EXP.
-- Battle 86 (Golbat Lv 46, Turn 37826-37840):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 10 dmg (Wing Attack: 226/249 HP).
-  - Mewtwo used STAB Psychic (Critical Hit 2x SE OHKO). Psychic PP 7/10.
-  - EXP: Golbat Total 1,104. Psyduck gained 322 EXP (276 participant + 46 team share).
-  - Trainee EXP: 10,672 -> 10,994 EXP (1,173 to Lv 23).
-- Battle 87 (Dodrio Lv 49, Turn 37848-37858):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 21 dmg (Fury Attack: 205/249 HP).
-  - Mewtwo used STAB Psychic (OHKO). Psychic PP 6/10.
-  - EXP: Dodrio Total 1,092. Psyduck gained 315 EXP (273 participant + 42 team share).
-  - Trainee EXP: 10,994 -> 11,309 EXP (858 to Lv 23).
-- Battle 88 (Hypno Lv 46, Turn 37870-37885):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 11 dmg (Psychic: 194/249 HP).
-  - Mewtwo used STAB Psychic (Critical Hit 2HKO). Psychic PP 4/10.
-  - EXP: Hypno Total 1,076. Psyduck gained 308 EXP (269 participant + 39 team share).
-  - Trainee EXP: 11,309 -> 11,617 EXP (550 to Lv 23).
-- Battle 89 (Sandslash Lv 52, Turn 37891-37898):
-  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Blastoise took 8 dmg (Critical Hit: 221/229 HP).
-  - Blastoise used STAB Surf (2x SE OHKO). Surf PP 14/15.
-  - EXP: Sandslash Total 1,188. Psyduck gained 341 EXP (297 participant + 44 team share).
-  - Trainee EXP: 11,617 -> 11,958 EXP (209 to Lv 23).
-- Battle 90 (Hypno Lv 46, Turn 37901-37910):
-  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Hypno used Poison Gas (Blastoise PSN: 221/229 HP).
-  - Blastoise used STAB Surf (2HKO). Surf PP 13/15.
-  - EXP: Hypno Total 1,076. Psyduck gained 308 EXP (269 participant + 39 team share).
-  - Trainee EXP: 11,958 -> 12,266 EXP.
-  - MILESTONE: Psyduck GREW TO LEVEL 23! Verified Lv 23 stats: Atk 36, Def 29, Spd 36, Spc 36.
-  - Remaining to Lv 24 (13,824 EXP): 1,558 EXP (~5 battles).
-- Battle 91 (Parasect Lv 52, Turn 37913-37919):
-  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Blastoise took 14 PSN dmg + 35 dmg (Critical Slash: 172/229 HP).
-  - Blastoise used Ice Beam (2x SE OHKO). Ice Beam PP 9/10.
-  - EXP: Parasect Total 950. Psyduck gained 274 EXP (237 participant + 37 team share).
-  - Trainee EXP: 12,266 -> 12,540 EXP (1,284 to Lv 24).
-- Battle 92 (Golbat Lv 46, Turn 37927-37933):
-  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Golbat used Haze (0 dmg taken).
-  - Mewtwo used STAB Psychic (2x SE OHKO). Psychic PP 3/10.
-  - EXP: Golbat Total 1,104. Psyduck gained 322 EXP (276 participant + 46 team share).
-  - Trainee EXP: 12,540 -> 12,862 EXP (962 to Lv 24).
-  - Expedition 7 Complete: Retreat trigger hit (Mewtwo Psychic PP <= 3). Proceeding to Cerulean Center pit stop.
+### Testable Hypothesis: Exp. All Party Size Dilution
+- **Observation:** All 92 battles have been conducted with a 6-member party, yielding ~40-46 base team share (divisor K ~ 24..27).
+- **Hypothesis:** In Gen 1, Exp. All divides the team share half (E_half) by the number of non-fainted party members (N). With N=6, share is E/12 (or E/24 per participant). If the party size is reduced to N=2 (only Psyduck and 1 Sweeper), the team share would be floor(E_half / 2) = floor(E / 4), which would dramatically increase Exp. All gains from ~40 to ~250+ EXP per battle!
+- **Test Protocol:** At the next Pokémon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
 
