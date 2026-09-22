@@ -5002,5 +5002,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Magneton model.
 
+- Battle 2 (Turn 37375): Defeated Wild Hypno Lv 46. Mewtwo Swift (2HKO, Turn 2 Critical Hit).
+  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 3,984 (112 to Lv 16).
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Hypno model.
 
 <hr>
