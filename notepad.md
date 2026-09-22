@@ -4984,5 +4984,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 5,497 EXP (934 to Lv 21).
 
+- Battle 15 (Exp 2 Battle 1) [Turn 35768]: Defeated wild Magneton Lv 46. Switched Paras to Mewtwo; Psychic OHKO (Psychic 9/10, Mewtwo HP 233/243). Paras gained 525 EXP.
+  - Current State: Paras Lv 20 (8,852 EXP, +7,852 EXP total gained).
+  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 4,972 EXP (409 to Lv 21).
 
 <hr>
