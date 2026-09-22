@@ -178,15 +178,15 @@
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 246 / 254
+  - HP: 254 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 189 / 229
+  - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 18, Normal/Flying]
   - Status: Healthy
   - HP: 49 / 49
@@ -5003,28 +5003,31 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 24, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 15,022 [Turn 38126]. Psyduck reached Level 24!
-  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (603 EXP remaining, ~5 battles).
+  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (603 EXP remaining, ~2 battles).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (21,870 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 96 Hypno, Turn 38021):
+### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38131, Battle 100 Golbat):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 24, Water, Lead Slot]
   - Status: Healthy
   - HP: 63 / 63 [Verified Turn 38077]
-  - EXP: 14,067 (1,558 to Lv 25) [Battle 96: +308 EXP]
+  - EXP: 15,022 (603 to Lv 25 milestone at 15,625 EXP)
   - Stats: Attack 37, Defense 30, Speed 37, Special 37 [Verified Lv 24 Screen Turn 38021]
-- Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
+- Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
+  - HP: 246 / 254 [Leveled up to Lv 73 Battle 99]
+  - Status: Healthy
+  - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Turn 38125]
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+- Secondary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 189 / 229
   - Status: Healthy
   - Active Move PP: Surf (14/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
-- Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 246 / 254 [Grew to Lv 73 Battle 99]
-  - Status: Healthy
-  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+- Support / Flyer: FARFETCH'D (DUX) [Lv 18, Boosted EXP]
+  - HP: 49 / 49, Healthy
 - Protocol Trigger Check:
-  - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
-  - Blastoise HP: 182 (> 60 trigger). Surf PP: 13 (> 3 trigger).
-  - Protocol Status: Pit Stop Initiated (Turn 38033). Flying to Cerulean City Pokémon Center to heal Blastoise PSN and deposit Jolteon and Geodude into Box 1 for EXP.ALL Dilution Test (4-member party).
+  - Mewtwo HP: 246 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
+  - Blastoise HP: 189 (> 60 trigger). Surf PP: 14 (> 3 trigger).
+  - Protocol Status: Green / Healthy. Actively conducting Expedition 9 (4-member party).
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -5105,7 +5108,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   | Species | Level | Total EXP | Part Share (E/4) | Hyp A Team Share | Hyp A Psyduck Total | Hyp A DUX (Boosted) | Hyp B Team Share | Hyp B Psyduck Total | Hyp B DUX (Boosted) |
   | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
   | **Golbat** | 46 | 1,104 | 276 | **69 EXP** | **345 EXP** | **103 EXP** | 46 EXP | 322 EXP | 69 EXP |
-  | **Hypno** | 46 | 1,076 | 269 | **67 EXP** | **336 EXP** | **100 EXP** | 39 EXP | 308 EXP | 58 EXP |
+  | **Hypno** | 46 | 1,076 | 269 | **65 EXP** (V) | **334 EXP** (V) | **97 EXP** (V) | 39 EXP | 308 EXP | 58 EXP |
   | **Magneton** | 46 | 1,050 | 262 | **65 EXP** (V) | **327 EXP** (V) | **97 EXP** (V) | 39 EXP | 301 EXP | 58 EXP |
   | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | 44 EXP | 341 EXP | 66 EXP |
   | **Kadabra**  | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | 42 EXP | 294 EXP | 63 EXP |
