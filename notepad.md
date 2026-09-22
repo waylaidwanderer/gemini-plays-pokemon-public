@@ -118,10 +118,10 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37034]
-  - HP: 193 / 249 [Turn 37150]
+  - HP: 249 / 249 [Healthy]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
@@ -136,9 +136,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy [Healed Turn 37034]
-  - HP: 199 / 229 [Turn 37177]
+  - HP: 229 / 229 [Healthy]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
   - Status: Healthy [Withdrawn Turn 37281]
   - OT: BLUE (IDNo. 04620)
@@ -147,7 +147,7 @@
   - Moves: Scratch, Tail Whip
   - Caught: Cerulean Gym pool [Turn 31526]
 
-## PC Box 1 Pokémon (Contiguous Slot Order - 14 Pokémon)
+## PC Box 1 Pokémon (Stored Sample)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
 - Slot 2: HITMONLEE (BRUCE) [Lv 30]
 - Slot 3: LAPRAS (NESSY) [Lv 15]
@@ -4993,14 +4993,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 4. Evolution Stones:
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
-
-
-### Battle Log (Expeditions 1-3 Summary & Active Log):
-- Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
-  - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
-  - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
-  - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.
-  - Battles 47-61 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 28 Kingler (#099) at 22,048 EXP [Turn 37206]. Krabby leveled up to Lv 26 in B47, Lv 27 in B54, and Lv 28 in B61, evolving into Kingler (verified stats: HP 76, Atk 86, Def 78, Spe 54, Spc 38). DUX leveled up to Lv 15 in B54 (Atk 26, Def 25, Spe 24, Spc 23; declined Fury Attack). ROCKY leveled up to Lv 16 in B55 (Atk 34, Def 41, Spe 13, Spc 17; declined Rock Throw). Swept Hypno Lv 46 (B47, B49, B51, B54, B57), Golbat Lv 46 (B48, B55, B58), Magneton Lv 46 (B50, B61), Venomoth Lv 49 (B52), Raichu Lv 53 (B53, B60), and Sandslash Lv 52 (B56). All EXP distributions and formula ratios 100% verified across 61 battles.
 
 
 <hr>
