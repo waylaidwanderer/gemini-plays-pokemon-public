@@ -4942,27 +4942,24 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (25,265 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 86 Golbat, Turn 37840):
+### Active Expedition Sweeper Attrition & Condition Log (Battle 87 Dodrio, Turn 37859):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 22, Water, Lead Slot]
-  - Status: Healthy
+  - Status: Healthy [Level Up Turn 37819]
   - HP: 58 / 58 [Verified Lv 22 Turn 37828 Screen]
-  - EXP: 10,994 (1,173 to Lv 23) [Battle 86: +322 EXP]
+  - EXP: 11,309 (858 to Lv 23) [Battle 87: +315 EXP]
   - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Turn 37819 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 229 / 229 [Cerulean Center Heal Turn 37734]
   - Status: Healthy
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 226 / 249 [Battle 86 Wing Attack]
+  - HP: 205 / 249 [Battle 87 Fury Attack]
   - Status: Healthy
-  - Active Move PP: Psychic (7/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (6/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 226 (> 60 trigger). Psychic PP: 7 (> 3 trigger).
+  - Mewtwo HP: 205 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
   - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Battle 87 vs Wild Dodrio Lv 49 in progress.
-- Turn 1: Psyduck lead -> switching to Mewtwo (OMEGA Lv 72).
-- Projected Trainee Gain: +315 EXP (273 participant + 42 team).
-- Trainee Progress toward Lv 23 (12,167 EXP): 10,994 + 315 = 11,309 EXP (858 EXP remaining).
+  - Protocol Status: Green / Healthy. Ready for Battle 88.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
