@@ -16,7 +16,7 @@
   - Status: Healthy (no status)
   - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 74 / 249 [Empirically Verified Battle 71 Turn 37481 Party Screen: 74 HP]
+  - HP: 71 / 249 [Empirically Verified Battle 72 Turn 37492 Party Screen: 71 HP]
   - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
   - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
