@@ -6,24 +6,24 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (25,265 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 87 Dodrio, Turn 37859):
+### Active Expedition Sweeper Attrition & Condition Log (Battle 88 Hypno, Turn 37885):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 22, Water, Lead Slot]
-  - Status: Healthy [Level Up Turn 37819]
-  - HP: 58 / 58 [Verified Lv 22 Turn 37828 Screen]
-  - EXP: 11,309 (858 to Lv 23) [Battle 87: +315 EXP]
-  - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Turn 37819 Screen]
+  - Status: Healthy
+  - HP: 58 / 58
+  - EXP: 11,617 (550 to Lv 23) [Battle 88: +308 EXP]
+  - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 229 / 229 [Cerulean Center Heal Turn 37734]
   - Status: Healthy
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 205 / 249 [Battle 87 Fury Attack]
+  - HP: 194 / 249 [Battle 88 Psychic]
   - Status: Healthy
-  - Active Move PP: Psychic (6/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 205 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
+  - Mewtwo HP: 194 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
   - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Ready for Battle 88.
+  - Protocol Status: Green / Healthy. Ready for Battle 89.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -52,7 +52,7 @@
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88]
     Division Variance Testable Hypothesis (Gen 1 Assembly Implementation):
     - Context & Phenomenon: Across all battles with a healthy 6-member party, the Exp. All team base share is consistently floor(E / K) where effective divisor K ranges from 24.0 to 27.6:
       - Golbat (E=1104, base=46, K=24.0), Kadabra (E=1008, base=42, K=24.0), Raichu (E=908, base=37, K=24.5)
@@ -113,4 +113,9 @@
   - Mewtwo used STAB Psychic (OHKO). Psychic PP 6/10.
   - EXP: Dodrio Total 1,092. Psyduck gained 315 EXP (273 participant + 42 team share).
   - Trainee EXP: 10,994 -> 11,309 EXP (858 to Lv 23).
+- Battle 88 (Hypno Lv 46, Turn 37870-37885):
+  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 11 dmg (Psychic: 194/249 HP).
+  - Mewtwo used STAB Psychic (Critical Hit 2HKO). Psychic PP 4/10.
+  - EXP: Hypno Total 1,076. Psyduck gained 308 EXP (269 participant + 39 team share).
+  - Trainee EXP: 11,309 -> 11,617 EXP (550 to Lv 23).
 
