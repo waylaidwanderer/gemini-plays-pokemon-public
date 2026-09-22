@@ -120,8 +120,8 @@
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
-  - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
-  - HP: 62 / 249 [Empirically Verified Turn 37521 Party Screen]
+  - Status: Healthy [Healed Turn 37542]
+  - HP: 249 / 249
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -138,10 +138,10 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Healthy [Healed Turn 37231]
-  - HP: 91 / 229 [Empirically Verified Battle 73 Turn 37511 Screen]
+  - Status: Healthy [Healed Turn 37542]
+  - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 10/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 16, Normal/Flying]
   - Status: Healthy [Level Up Turn 37398]
   - HP: 45 / 45 [Empirically Verified Battle 66 Turn 37402 Party Screen]
@@ -4942,24 +4942,24 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (28,826 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 73, Turn 37514):
+### Active Expedition Sweeper Attrition & Condition Log (Post-Heal Turn 37542):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 19, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37511]
   - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
   - EXP: 7,111 (889 to Lv 20)
   - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Lv 19 Turn 37511 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 91 / 229 [Empirically Verified Battle 73 Turn 37511 Screen]
+  - HP: 229 / 229 [Healed Turn 37542]
   - Status: Healthy (no status)
-  - Active Move PP: Surf (10/15), Ice Beam (8/10), Body Slam (14/15), Double-Edge (15/15)
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 62 / 249 [Empirically Verified Turn 37521 Party Screen]
-  - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
-  - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
+  - HP: 249 / 249 [Healed Turn 37542]
+  - Status: Healthy (Poison cured!)
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 62 (~60 trigger). Psychic PP: 6 (> 3 trigger).
-  - Blastoise HP: 91 (> 60 trigger).
-  - Status: Mewtwo at 62 HP (poisoned). Executing pit stop to Cerulean Center to heal team.
+  - Mewtwo HP: 249 (100%). Psychic PP: 10/10.
+  - Blastoise HP: 229 (100%). Surf PP: 15/15.
+  - Status: Completely refreshed! Returning to Cerulean Cave 1F for Expedition 6.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
