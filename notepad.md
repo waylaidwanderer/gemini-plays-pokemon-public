@@ -141,7 +141,7 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Paralyzed [Afflicted Turn 36581]
+  - Status: Healthy
   - HP: 156 / 229 [Verified Turn 36613]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
@@ -229,17 +229,17 @@
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battle 13].
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16].
-  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18].
-  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battles 5, 9, 10, 14].
+  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battles 13, 22, 27, 31].
+  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20, 29].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11, 24].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16, 25].
+  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18, 26, 30].
+  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battles 5, 9, 10, 14, 23].
   - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207].
   - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified Battle 19]. (Without Exp. All: projected base share s_EXP = 454, boosted = 681; calculated extrapolation).
   - Venomoth Lv 49: Observed Total EXP Variance:
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battle 15].
+    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28].
 - **Theoretical / Unverified Projections (Pending In-Game Test Citation):**
   - Ditto Lv 53: Projected Total EXP 454. 2 participants without Exp. All -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
 
@@ -4952,7 +4952,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Exp. All Empirical Model Audit & Observations Across Battles 1-31
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
-  - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
+  - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29]
+    - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
+    - Raichu (E=908, base=37 = E/24.5) [B19]
+    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30]
+    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31]
+    - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23]
+    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24]
+    The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 31 battles!).
 
 ### Krabby Switch-Training Combat Protocol
@@ -5000,15 +5009,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - B20: Wild Golbat Lv 46 (Blastoise swept; pit-stop heal at Cerulean Center).
     - B21: Wild Venomoth Lv 49 (Mewtwo swept; +273 EXP).
     - B22: Wild Magneton Lv 46 (Mewtwo swept; +301 EXP, PINCHY reached 10,239 EXP).
-    - B23: Wild Sandslash Lv 52 (Blastoise swept; +341 EXP, PINCHY reached 10,580 EXP, 68 to Lv 22; ROCKY Lv 13).
-    - B24: Wild Hypno Lv 46 (Blastoise swept; +308 EXP, PINCHY grew to Lv 22 [Atk 57, Def 50, Spd 31, Spc 19, 10,888 EXP]).
-    - B25: Wild Kadabra Lv 49 (Mewtwo swept with Swift; +294 EXP [252 part + 42 Exp.All], DUX +63, PINCHY reached 11,182 EXP [985 to Lv 23]).
-    - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63 [grew to Lv 12], PINCHY reached 11,497 EXP [670 to Lv 23]).
-    - B27: Wild Magneton Lv 46 (Mewtwo swept with Psychic; +301 EXP [262 part + 39 Exp.All], DUX +58, PINCHY reached 11,798 EXP [369 to Lv 23]).
-    - B28: Wild Venomoth Lv 49 (Mewtwo swept with Psychic; +273 EXP [238 part + 35 Exp.All], DUX +52, PINCHY reached 12,071 EXP [96 to Lv 23]).
-    - B29: Wild Golbat Lv 46 (Blastoise swept with critical Ice Beam; +322 EXP [276 part + 46 Exp.All], DUX +69, PINCHY grew to Lv 23 [Atk 59, Def 53, Spd 33, Spc 20, 12,393 EXP]).
-    - B30: Wild Dodrio Lv 49 (Blastoise swept with Ice Beam; +315 EXP [273 part + 42 Exp.All], DUX +63, PINCHY reached 12,708 EXP [1,116 to Lv 24]).
-    - B31: Wild Magneton Lv 46 (Mewtwo swept with Psychic; +301 EXP [262 part + 39 Exp.All], DUX +58, PINCHY reached 13,009 EXP [815 to Lv 24]).
+    - Battles 23-31 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,009 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29). All EXP distributions verified.
 
 
 <hr>
