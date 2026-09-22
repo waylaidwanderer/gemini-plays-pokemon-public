@@ -231,17 +231,18 @@
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
   - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battle 13].
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battle 1, 6, 7, 8].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battle 4, 11].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battle 2].
-- **Theoretical / Unverified Projections (Pending In-Game Test Citation):**
-  - Ditto Lv 53: Projected Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
-  - Raichu Lv 53: Projected Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
-  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battle 5].
-  - Parasect Lv 52: Total EXP 950. 2 participants -> Base share `s_EXP = 475` (native) [Empirically verified Turn 35207].
-  - Venomoth Lv 49: Observed Total EXP Variance between mechanics:
+  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battles 1, 6, 7, 8, 12, 17, 20].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battles 4, 11].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battles 2, 16].
+  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified Battles 3, 18].
+  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battles 5, 9, 10, 14].
+  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207].
+  - Raichu Lv 53: Total EXP 908. 2 participants without Exp. All -> Base share s_EXP = 454 (native), boosted = 681 (traded). (With Exp. All: participant share = 227, team base share = 37, traded share = 55) [Empirically verified Battle 19].
+  - Venomoth Lv 49: Observed Total EXP Variance:
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-    - With Exp. All (Battle 15): Yielded 238 participant share and 35 team base share (implying Total E = 952, or an internal integer truncation/rounding variance in the Gen 1 Exp. All routine).
+    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battle 15].
+- **Theoretical / Unverified Projections (Pending In-Game Test Citation):**
+  - Ditto Lv 53: Projected Total EXP 454. 2 participants without Exp. All -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
@@ -4935,7 +4936,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
 | Species | Level | Total Wild EXP | Participant Base Share (50% Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Raichu*** | 53 | 908 | **227 EXP (w/ Exp.All)** | 340 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Raichu*** | 53 | 908 | **454 EXP** | 681 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Venomoth*** | 49 | 952-966 | **476-483 EXP** | 714-724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
 | **Magneton*** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Hypno*** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
@@ -4946,7 +4947,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Dodrio*** | 49 | 1,092 | **546 EXP** | 819 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
-- Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified in the current run. Raichu and Ditto are theoretical projections pending dedicated in-game test verification.
+- Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, Parasect, and Raichu (*) are empirically verified in the current run (Raichu verified Battle 19: 454 native w/o Exp.All, 227 w/ Exp.All). Only Ditto remains a theoretical projection pending dedicated in-game test verification.
 
 
 ### Exp. All Empirical Model Audit & Observations Across Battles 1-20
@@ -4974,9 +4975,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Blastoise: Surf 13/15, Ice Beam 8/10, Body Slam 15/15, Double-Edge 15/15.
-  - Mewtwo: Psychic 9/10, Swift 20/20, Recover 20/20.
-  - Retreat triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
+  - Live Status: Blastoise (HP 58/229, Surf 7/15, Ice Beam 3/10); Mewtwo (HP 141/249 PAR, Psychic 2/10, Swift 17/20, Recover 20/20).
+  - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status (Both triggers currently met; executing Cerulean Center pit-stop).
 
 ### Other Post-Game Evolution Candidates
 1. PSYDUCK (MIGRAINE Lv 15, Box 2):
