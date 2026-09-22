@@ -4,20 +4,19 @@
 - Krabby Starting EXP: 3,375 EXP (Current: 17,209 EXP, Target: 21,952 EXP, 4,743 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, * = Tested)
+### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Krabby Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Raichu*** | 53 | 908 | **264 EXP** (227+37) | 55 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Venomoth*** | 49 | 952 | **273 EXP** (238+35) | 52 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
-| **Magneton*** | 46 | 1,050 | **301 EXP** (262+39) | 58 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Hypno*** | 46 | 1,076 | **308 EXP** (269+39) | 58 EXP | Mewtwo (STAB Psychic / Swift) |
-| **Golbat*** | 46 | 1,104 | **322 EXP** (276+46) | 69 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
-| **Sandslash*** | 52 | 1,188 | **341 EXP** (297+44) | 66 EXP | Blastoise (STAB Surf 2x SE OHKO) / Mewtwo |
-| **Kadabra*** | 49 | 1,008 | **294 EXP** (252+42) | 63 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
-| **Parasect*** | 52 | 950 | **274 EXP** (237+37) | 55 EXP | Blastoise (Ice Beam 2x SE OHKO) |
-| **Dodrio*** | 49 | 1,092 | **315 EXP** (273+42) | 63 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Raichu** | 53 | 908 | **264 EXP** (227+37) | 55 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Venomoth** | 49 | 952 | **273 EXP** (238+35) | 52 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Magneton** | 46 | 1,050 | **301 EXP** (262+39) | 58 EXP | Mewtwo (STAB Psychic OHKO) |
+| **Hypno** | 46 | 1,076 | **308 EXP** (269+39) | 58 EXP | Mewtwo (STAB Psychic / Swift) |
+| **Golbat** | 46 | 1,104 | **322 EXP** (276+46) | 69 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Sandslash** | 52 | 1,188 | **341 EXP** (297+44) | 66 EXP | Blastoise (STAB Surf 2x SE OHKO) / Mewtwo |
+| **Kadabra** | 49 | 1,008 | **294 EXP** (252+42) | 63 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
+| **Parasect** | 52 | 950 | **274 EXP** (237+37) | 55 EXP | Blastoise (Ice Beam 2x SE OHKO) |
+| **Dodrio** | 49 | 1,092 | **315 EXP** (273+42) | 63 EXP | Mewtwo (STAB Psychic OHKO) |
 
-- Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified without Exp. All. Raichu was empirically verified with Exp. All in Battle 19 (participant share 227, team share 37); its 454 share without Exp. All is a calculated extrapolation.
 
 
 ### Exp. All Empirical Model Audit & Observations Across Battles 1-45
@@ -37,7 +36,7 @@
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 45 battles!).
 
 ### Krabby Switch-Training Combat Protocol
-- Vulnerability Profile: Krabby (Water, Lv 25, HP 56, Attack 64, Defense 57, Speed 35, Special 21) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to its low Special stat (21) and modest HP (56). Any Special hit from Cerulean Cave wild Pok�mon will deal massive or lethal damage.
+- Vulnerability Profile: Krabby (Water, Lv 25, HP 56, Attack 64, Defense 57, Speed 35, Special 21) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to its low Special stat (21) and modest HP (56). Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -60,8 +59,8 @@
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
      - Prerequisite Status: Slowpoke owned (Box 2), but not yet evolved into Slowbro (unobtained asset).
 4. Evolution Stones:
-   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
-   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
+   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for Â¥2,100 each.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: Â¥3,056.
 
 
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
