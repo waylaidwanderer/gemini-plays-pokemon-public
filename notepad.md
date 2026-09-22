@@ -130,10 +130,9 @@
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
-  - Status: Healthy [Verified Lv 25 Turn 36935]
-  - HP: 68 / 68 [Verified Lv 25 Turn 36935]
-  - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Empirically Verified Lv 25 Turn 36935]
+- Slot 4: JOLTEON (Nickname: VEE) [Lv 26, Electric]
+  - Status: Healthy [Level Up Turn 36982]
+  - Stats: Attack 42, Defense 38, Speed 75, Special 65 [Empirically Verified Lv 26 Turn 36982]
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 5: GEODUDE (Nickname: ROCKY) [Lv 15, Rock/Ground]
@@ -4999,7 +4998,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
   - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.  - Battle 47: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 13 damage (236/249 HP) and OHKOed Hypno with critical hit Swift. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 17,791 EXP and leveling up to Level 26! (Stats: Atk 67, Def 59, Spd 37, Spc 22). DUX gained 58 EXP. Base team share = 39 EXP.
-  - Battle 48: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo confused by Confuse Ray, took 23 self-hit + 5 damage (208/249 HP), then powered through confusion to OHKO Golbat with super-effective STAB Psychic. Krabby gained 276 EXP + 46 EXP = 322 EXP, reaching 18,113 EXP (1,570 to Lv 27). DUX gained 69 EXP. Base team share = 46 EXP.
+  - Battle 48: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo confused by Confuse Ray, took 23 self-hit + 5 damage (208/249 HP), then powered through confusion to OHKO Golbat with super-effective STAB Psychic. Krabby gained 276 EXP + 46 EXP = 322 EXP, reaching 18,113 EXP (1,570 to Lv 27). DUX gained 69 EXP. Base team share = 46 EXP. VEE leveled up to Lv 26 (Atk 42, Def 38, Spd 75, Spc 65)!
 
 
 <hr>
