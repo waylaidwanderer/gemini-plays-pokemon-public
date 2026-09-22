@@ -1,29 +1,29 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 22, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 10,672 [Turn 37819]. Psyduck reached Level 22!
-  - Milestone Next: Lv 23 = 23^3 = 12,167 EXP (1,495 EXP remaining, ~5 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (25,265 EXP remaining).
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 23, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 12,266 [Turn 37910]. Psyduck reached Level 23!
+  - Milestone Next: Lv 24 = 24^3 = 13,824 EXP (1,558 EXP remaining, ~5 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (23,671 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 89 Sandslash, Turn 37898):
-- Trainee: PSYDUCK (MIGRAINE) [Lv 22, Water, Lead Slot]
+### Active Expedition Sweeper Attrition & Condition Log (Battle 90 Hypno, Turn 37910):
+- Trainee: PSYDUCK (MIGRAINE) [Lv 23, Water, Lead Slot]
   - Status: Healthy
-  - HP: 58 / 58
-  - EXP: 11,958 (209 to Lv 23) [Battle 89: +341 EXP]
-  - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Screen]
+  - HP: ~60 / 60
+  - EXP: 12,266 (1,558 to Lv 24) [Battle 90: +308 EXP]
+  - Stats: Attack 36, Defense 29, Speed 36, Special 36 [Verified Lv 23 Screen Turn 37910]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 221 / 229 [Battle 89 Critical Hit]
-  - Status: Healthy
-  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - HP: 221 / 229 [PSN status from Hypno Poison Gas]
+  - Status: Poisoned (PSN)
+  - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 194 / 249 [Battle 88 Psychic]
   - Status: Healthy
   - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 194 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
-  - Blastoise HP: 221 (> 60 trigger). Surf PP: 14 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Ready for Battle 90.
+  - Blastoise HP: 221 (> 60 trigger). Surf PP: 13 (> 3 trigger).
+  - Protocol Status: Green / Healthy (PSN manageable, >200 HP). Ready for Battle 91 or Cerulean Pit Stop.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -123,4 +123,11 @@
   - Blastoise used STAB Surf (2x SE OHKO). Surf PP 14/15.
   - EXP: Sandslash Total 1,188. Psyduck gained 341 EXP (297 participant + 44 team share).
   - Trainee EXP: 11,617 -> 11,958 EXP (209 to Lv 23).
+- Battle 90 (Hypno Lv 46, Turn 37901-37910):
+  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Hypno used Poison Gas (Blastoise PSN: 221/229 HP).
+  - Blastoise used STAB Surf (2HKO). Surf PP 13/15.
+  - EXP: Hypno Total 1,076. Psyduck gained 308 EXP (269 participant + 39 team share).
+  - Trainee EXP: 11,958 -> 12,266 EXP.
+  - MILESTONE: Psyduck GREW TO LEVEL 23! Verified Lv 23 stats: Atk 36, Def 29, Spd 36, Spc 36.
+  - Remaining to Lv 24 (13,824 EXP): 1,558 EXP (~5 battles).
 
