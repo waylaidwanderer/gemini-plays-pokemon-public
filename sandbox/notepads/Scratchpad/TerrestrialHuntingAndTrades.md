@@ -6,7 +6,7 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (28,518 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Post-Heal Turn 37542):
+### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 74, Turn 37586):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 19, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37511]
   - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
@@ -40,7 +40,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-73
+### Exp. All Empirical Model Audit & Observations Across Battles 1-74
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -52,7 +52,7 @@
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
