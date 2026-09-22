@@ -65,7 +65,7 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
-  - Status: Healthy [Healed Turn 36884]
+  - Status: Poisoned (PSN) [Battle 51 Turn 37015]
   - HP: 160 / 249 [Turn 37017]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
