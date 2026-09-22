@@ -35,3 +35,39 @@
   - Mewtwo: Psychic 9/10, Swift 20/20, Recover 20/20.
   - Retreat triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
 
+### Exp. All Mathematical Distribution Model & Hypotheses
+In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experience is split:
+- Hypothesis 1 (Standard Gen 1 Engine Specification):
+  - Total Battle EXP = E.
+  - 50% Active Participant Pool: P_total = floor(E / 2). This pool is divided equally among all non-fainted battle participants: P_share = floor(P_total / n_participants).
+  - 50% Exp. All Team Pool: T_total = floor(E / 2). This pool is divided equally among ALL 6 party members: T_share = floor(T_total / 6).
+  - Krabby Net Yield (Active Participant in 2-participant battle: Krabby + Sweeper):
+    Krabby_EXP = P_share + T_share = floor(floor(E / 2) / 2) + floor(floor(E / 2) / 6) ~ 0.25 E + 0.0833 E ~ 0.3333 E.
+  - Non-participant Party Members (e.g. Farfetch'd, Jolteon, Geodude):
+    Each receives T_share = floor(floor(E / 2) / 6) ~ 0.0833 E.
+  - Boosted Traded Non-Participant (Farfetch'd / DUX):
+    Does Exp. All passive share receive the 1.5x trade bonus?
+    Formula test: DUX_EXP = T_share + floor(T_share / 2) vs T_share.
+- Empirical Verification Protocol:
+  - Battle 1: Record wild species and level (E).
+  - Record the exact EXP gained by active sweeper (Mewtwo or Blastoise).
+  - Record dialogue text for Krabby and Exp. All distribution to party members.
+  - Verify exact integer numbers against the formulas above.
+
+### Other Post-Game Evolution Candidates
+1. PSYDUCK (MIGRAINE Lv 15, Box 2):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
+   - Prerequisite Status: Caught, stored in Box 2.
+2. SLOWPOKE (DOPEY Lv 15, Box 2):
+   - Growth Group: Medium Fast (EXP = Level^3)
+   - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
+   - Prerequisite Status: Caught, stored in Box 2.
+3. In-Game Trades:
+   - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
+     - Prerequisite Status: Wild Abra NOT yet caught (unobtained asset). Needs hunting on Route 24 or Route 8.
+   - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
+     - Prerequisite Status: Slowpoke owned (Box 2), but not yet evolved into Slowbro (unobtained asset).
+4. Evolution Stones:
+   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
