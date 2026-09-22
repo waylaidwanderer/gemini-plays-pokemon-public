@@ -54,14 +54,14 @@
   - Stats: Attack 47, Defense 42, Speed 26, Special 16 [Empirically Verified Lv 18 Turn 36259]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 6262 [Turn 36273] (Gained 297 participant + 44 Exp. All = 341 in Battle 9; 597 to Lv 19)
+  - EXP: 6603 [Turn 36295] (Gained 297 participant + 44 Exp. All = 341 in Battle 10; 256 to Lv 19)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 8, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36226]
-  - HP: 27 / 27 [Empirically Verified Lv 8 Turn 36242]
-  - Stats: Attack 16, Defense 15, Speed 15, Special 14 [Empirically Verified Lv 8 Turn 36226]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 9, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36295]
+  - HP: 27 / 27 (Max HP pending verification)
+  - Stats: Attack 17, Defense 16, Speed 16, Special 16 [Empirically Verified Lv 9 Turn 36295]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
@@ -83,9 +83,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 150 / 229 [Verified Turn 36271]
+  - HP: 135 / 229 [Verified Turn 36295]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 5/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 5/10)
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
