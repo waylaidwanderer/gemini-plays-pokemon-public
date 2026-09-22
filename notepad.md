@@ -4992,15 +4992,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Current State: Paras Lv 20 (8,327 EXP, +7,327 EXP gained across 14 battles). Learned Leech Life!
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 5,497 EXP (934 to Lv 21).
 
-- Battle 15 (Exp 2 Battle 1) [Turn 35768]: Defeated wild Magneton Lv 46. Switched Paras to Mewtwo; Psychic OHKO (Psychic 9/10, Mewtwo HP 233/243). Paras gained 525 EXP.
-- Battle 16 (Exp 2 Battle 2) [Turn 35777]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 14/15, Blastoise HP 195/225). Paras gained 538 EXP and GREW TO LEVEL 21!
-- Battle 17 (Exp 2 Battle 3) [Turn 35788]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 8/10, Mewtwo HP 233/243). Paras gained 558 EXP.
-- Battle 18 (Exp 2 Battle 4) [Turn 35797]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE Critical Hit OHKO (Psychic 7/10, Mewtwo HP 223/243). Paras gained 558 EXP.
-- Battle 19 (Exp 2 Battle 5) [Turn 35810]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 12/15, Blastoise HP 91/225). Paras gained 538 EXP and GREW TO LEVEL 22!
-  - Current State: Paras Lv 22 (11,044 EXP, +10,044 EXP total gained).
-  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 2,780 EXP (1,123 to Lv 23).
-- Battle 20 (Exp 2 Battle 6) [Turn 35822]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 6/10, Mewtwo HP 223/243 PAR). Paras gained 483 EXP (11,527 EXP, 2,297 to Lv 24).
-- Battle 21 (Exp 2 Battle 7) [Turn 35831]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf Critical Hit OHKO (Surf 11/15, Blastoise HP 60/225). Paras gained 538 EXP (12,065 EXP, 102 to Lv 23, 1,759 to Lv 24). Expedition 2 concluded; initiating Pit-Stop Routine per retreat threshold (Blastoise HP 60 < 80 while Mewtwo paralyzed).
-- Pit-Stop Verification [Turn 35840]: Fully healed with Nurse Joy at Cerulean Pokémon Center. Blastoise restored to 225/225 HP (Surf 15/15), Mewtwo cured of PAR and restored to 243/243 HP (Psychic 10/10). Ready to launch Expedition 3!
+- Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean Pokémon Center; team 100% restored.
+- Expedition 3 Target: Lv 24 Parasect (13,824 EXP). Starting at Lv 22 (12,065 EXP; 102 EXP to Lv 23, 1,759 EXP to Lv 24).
 
 <hr>
