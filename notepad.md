@@ -158,6 +158,7 @@
 - Slot 11: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 - Slot 12: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 - Slot 13: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
+- Slot 14: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
 
 
 <hr>
