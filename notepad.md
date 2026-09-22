@@ -112,7 +112,7 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 20, Water]
   - Status: Healthy [Level Up Turn 37623]
-  - HP: 51 / 51 (Max HP pending party check)
+  - HP: 54 / 54 [Verified Lv 20 Turn 37632 Screen]
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Verified Lv 20 Turn 37623 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -4945,7 +4945,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 76, Turn 37623):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 20, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37623]
-  - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
+  - HP: 54 / 54 [Empirically Verified Turn 37632 Battle Screen]
   - EXP: 8,000 (1,261 to Lv 21)
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Empirically Verified Lv 20 Turn 37623 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
