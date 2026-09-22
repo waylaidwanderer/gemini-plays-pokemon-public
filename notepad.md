@@ -5013,5 +5013,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - DUX: 69 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
   - Formula audit: 100% consistent with verified Golbat model.
+- Battle 4 (Turn 37396): Defeated Wild Sandslash Lv 52. Blastoise STAB Surf (2x SE OHKO).
+  - Psyduck: 341 EXP (297 participant + 44 team share) -> New EXP: 4,647 (266 to Lv 17).
+  - DUX: 66 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 44 EXP each.
+  - Formula audit: 100% consistent with verified Sandslash model.
 
 <hr>
