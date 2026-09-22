@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 2 -> Party Slot 1)
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 1 -> Party Slot 1)
 - Current Milestone: Kingler (#099) evolution complete (51 caught). Deposited into Box 1 [Turn 37244].
 - Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
 
@@ -49,11 +49,11 @@
 1. PSYDUCK (MIGRAINE Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
-   - Prerequisite Status: Caught, stored in Box 2.
+   - Prerequisite Status: Caught, stored in Box 1 [Verified Box 2 empty Turn 37268].
 2. SLOWPOKE (DOPEY Lv 15, Box 2):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
-   - Prerequisite Status: Caught, stored in Box 2.
+   - Prerequisite Status: Caught, stored in Box 1 [Verified Box 2 empty Turn 37268].
 3. In-Game Trades:
    - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
      - Prerequisite Status: Wild Abra NOT yet caught (unobtained asset). Needs hunting on Route 24 or Route 8.
