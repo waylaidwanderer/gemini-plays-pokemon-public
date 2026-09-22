@@ -85,6 +85,17 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - Caught: Mt. Moon 1F [Turn 1197]
 
+- Slot 6: KRABBY (Nickname: PINCHY) [Lv 15, Water]
+  - Status: Healthy
+  - HP: 38 / 38
+  - Stats: Attack 41, Defense 42, Speed 23, Special 15
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - EXP: 3375 [Turn 35957]
+  - Target: Level 28 Kingler (#099) (21,952 EXP)
+  - Moves: Bubble (PP 30/30), Leer (PP 30/30), Vicegrip (PP 30/30)
+  - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
+
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: KRABBY (PINCHY) [Lv 15]
 - Slot 2: ZAPDOS (THUNDER) [Lv 50]
