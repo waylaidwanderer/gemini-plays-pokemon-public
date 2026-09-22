@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 6,603 EXP, Target: 21,952 EXP, 15,349 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 6,911 EXP, Target: 21,952 EXP, 15,041 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -88,3 +88,9 @@
       - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
       - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
       - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 6,262 -> 6,603, only 256 to Lv 19!).
+  - Battle 11: Wild Hypno Lv 46. Turn 1 switched Krabby to Blastoise (Hypno used Meditate, 0 dmg, HP 135/229). Turn 2 Blastoise scored a Critical Hit OHKO with STAB Surf (Surf PP 10/15).
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (269 EXP) + SHELDON (269 EXP) = 538 EXP. Total battle E = 1,076.
+      - Exp. All Team Pool: Base share = 39 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 58 EXP (39 + floor(39/2) = 58).
+      - PINCHY Net Gain: 269 + 39 = 308 EXP. PINCHY grew to Level 19! Stats: Atk 49, Def 44, Spd 27, Spc 17 (verified Turn 36308). Total EXP: 6,911 (1,089 to Lv 20).
