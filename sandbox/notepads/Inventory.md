@@ -48,13 +48,15 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
-  - Status: Healthy [Level Up Turn 37109]
-  - HP: 43 / 43 [Empirically Verified Lv 15 Turn 37121]
-  - Stats: Attack 26, Defense 25, Speed 24, Special 23 [Empirically Verified Lv 15 Turn 37109]
-  - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
-  - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
+  - Status: Healthy [Verified Turn 37295]
+  - HP: 42 / 42 [Empirically Verified Lv 15 Turn 37295]
+  - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Empirically Verified Lv 15 Turn 37295]
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - Target: Level 33 (35,937 EXP) -> GOLDUCK (#055)
+  - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
+  - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37034]
   - HP: 249 / 249 [Healthy]
@@ -78,15 +80,13 @@
   - HP: 229 / 229 [Healthy]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 6: PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
-  - Status: Healthy [Verified Turn 37295]
-  - HP: 42 / 42 [Empirically Verified Lv 15 Turn 37295]
-  - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Empirically Verified Lv 15 Turn 37295]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - Target: Level 33 (35,937 EXP) -> GOLDUCK (#055)
-  - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
-  - Caught: Cerulean Gym pool [Turn 31526]
+- Slot 6: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
+  - Status: Healthy [Level Up Turn 37109]
+  - HP: 43 / 43 [Empirically Verified Lv 15 Turn 37121]
+  - Stats: Attack 26, Defense 25, Speed 24, Special 23 [Empirically Verified Lv 15 Turn 37109]
+  - OT: TRAINER (IDNo. 24460, Boosted EXP)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
+  - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 
 ## PC Box 1 Pokémon (Stored Sample)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
