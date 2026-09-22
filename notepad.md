@@ -4935,11 +4935,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 <h1><code>Scratchpad/TerrestrialHuntingAndTrades</code></h1>
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
-
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pok�mon: PSYDUCK (MIGRAINE Lv 20, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 9,503 [Turn 37696]. Psyduck reached Level 21!
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,434 EXP remaining).
+- Target Pok�mon: PSYDUCK (MIGRAINE Lv 22, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 10,672 [Turn 37819]. Psyduck reached Level 22!
+  - Milestone Next: Lv 23 = 23^3 = 12,167 EXP (1,495 EXP remaining, ~5 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (25,265 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Active Expedition Sweeper Attrition & Condition Log (Battle 85 Dodrio, Turn 37819):
