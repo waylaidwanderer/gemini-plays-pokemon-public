@@ -50,8 +50,8 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 23, Water]
   - Status: Healthy
-  - HP: 61 / 61 [Verified Lv 23 Turn 37914]
-  - Stats: Attack 36, Defense 29, Speed 36, Special 36 [Verified Lv 23 Screen Turn 37910]
+  - HP: 61 / 61
+  - Stats: Attack 36, Defense 29, Speed 36, Special 36
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 12540 [1284 to Lv 24; 13824 - 12540 = 1284]
@@ -64,9 +64,9 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
-  - Status: Healthy [Level Up Turn 36982]
-  - HP: 71 / 71 [Verified Lv 26 Turn 36989]
-  - Stats: Attack 42, Defense 38, Speed 75, Special 65 [Empirically Verified Lv 26 Turn 36982]
+  - Status: Healthy
+  - HP: 71 / 71
+  - Stats: Attack 42, Defense 38, Speed 75, Special 65
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 4: GEODUDE (Nickname: ROCKY) [Lv 18, Rock/Ground]
@@ -76,10 +76,10 @@
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Poisoned (PSN)
-  - HP: 172 / 229
-  - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 9/10)
+  - Status: Healthy
+  - HP: 229 / 229
+  - Stats: Attack 171, Defense 197, Speed 171, Special 177
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 17, Normal/Flying]
   - Status: Healthy
   - HP: 47 / 47

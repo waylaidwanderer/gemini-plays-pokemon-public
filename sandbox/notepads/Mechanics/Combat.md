@@ -46,3 +46,22 @@
     - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active PokÃ©mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+
+## EXP.ALL Mathematical Model & Empirical Mechanics (Generation 1 Retail)
+- **Exp. All Distribution Formula:**
+  - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants.
+  - Team Share: `E_half = floor(E / 2)`, divided among 6 party members: `floor(E_half / 6) = floor(E / 12)`.
+  - Participant vs Non-Participant Second Division: `floor(floor(E / 12) / 2) = floor(E / 24)`.
+  - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
+- **Empirical Effective Divisor K (Across 91 Battles):**
+  - Golbat (E=1104, base=46, K=24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86]
+  - Kadabra (E=1008, base=42, K=24.0) [B2,16,25,72]
+  - Raichu (E=908, base=37, K=24.5) [B19,35,53,60,78]
+  - Parasect (E=950, base=37, K=25.7) [B41,42,46,91]
+  - Dodrio (E=1092, base=42, K=26.0) [B3,18,26,30,36,37,59,70,77,85,87]
+  - Magneton (E=1050, base=39, K=26.9) [B13,22,27,31,50,61,62,79,80]
+  - Sandslash (E=1188, base=44, K=27.0) [B5,9,10,14,23,56,65,89]
+  - Venomoth (E=952, base=35, K=27.2) [B15,21,28,33,34,52,71,76,83,84]
+  - Hypno (E=1076, base=39, K=27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90]
+  - Effective Divisor Variance Hypothesis: The variation of K between 24.0 and 27.6 stems from intermediate 8-bit division register truncation in the Gen 1 assembly routine (`engine/battle/experience.asm`), where high and low bytes of total EXP are processed with truncation losses proportional to `(total_EXP % 256)`.
+

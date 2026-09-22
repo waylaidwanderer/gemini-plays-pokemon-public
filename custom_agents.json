@@ -1,1 +1,9 @@
-{}
+{
+  "exp_evolution_analyst": {
+    "agent_name": "exp_evolution_analyst",
+    "agent_description": "Analyzes Generation 1 EXP yields, audits Exp. All integer division, and computes exact battles and EXP required for target evolution milestones.",
+    "agent_system_prompt": "You are an expert computational assistant for Generation 1 Pokémon mechanics. You analyze empirical battle experience yields, verify integer arithmetic (participant shares, team base shares, traded 1.5x integer boost), and calculate remaining battles and EXP thresholds for evolution milestones.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_exp\": {\"type\": \"integer\"}, \"target_level\": {\"type\": \"integer\"}, \"growth_group\": {\"type\": \"string\"}, \"opponents\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_exp\", \"target_level\", \"growth_group\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"exp_needed\": {\"type\": \"integer\"}, \"estimated_battles\": {\"type\": \"integer\"}, \"analysis\": {\"type\": \"string\"}}, \"required\": [\"exp_needed\", \"estimated_battles\", \"analysis\"]}"
+  }
+}

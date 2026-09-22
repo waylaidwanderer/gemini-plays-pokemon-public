@@ -40,7 +40,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-85
+### Exp. All Empirical Model Audit & Observations Across Battles 1-91
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -49,10 +49,10 @@
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85,87]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80]
-    - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
+    - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65,89]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
-    - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88]
+    - Parasect (E=950, base=37 = E/25.7) [B41,42,46,91]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90]
     Division Variance Testable Hypothesis (Gen 1 Assembly Implementation):
     - Context & Phenomenon: Across all battles with a healthy 6-member party, the Exp. All team base share is consistently floor(E / K) where effective divisor K ranges from 24.0 to 27.6:
       - Golbat (E=1104, base=46, K=24.0), Kadabra (E=1008, base=42, K=24.0), Raichu (E=908, base=37, K=24.5)
@@ -90,7 +90,7 @@
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
 
 
-### Expedition 7 Battle Log (Psyduck Trainee, Battles 84-85, Turns 37762-37824):
+### Expedition 7 Battle Log (Psyduck Trainee, Battles 84-91):
 - Battle 84 (Venomoth Lv 49, Turn 37782-37803):
   - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 4 dmg (Psybeam: 245/249 HP).
   - Mewtwo used STAB Psychic (Critical Hit OHKO). Psychic PP 9/10.
