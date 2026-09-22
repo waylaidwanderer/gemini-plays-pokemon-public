@@ -69,7 +69,7 @@
   - HP: 193 / 249 [Turn 37150]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 17/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
