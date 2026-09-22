@@ -114,7 +114,7 @@
   - Stats: Attack 54, Defense 48, Speed 30, Special 18 [Empirically Verified Lv 21 Turn 36434]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 9665 [Turn 36445] (983 to Lv 22)
+  - EXP: 9938 [Turn 36496] (710 to Lv 22)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -4930,7 +4930,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 20 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 9,665 EXP, Target: 21,952 EXP, 12,287 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 9,938 EXP, Target: 21,952 EXP, 12,014 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -4950,7 +4950,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, Parasect, and Raichu (*) are empirically verified in the current run (Raichu verified Battle 19: 454 native w/o Exp.All, 227 w/ Exp.All). Only Ditto remains a theoretical projection pending dedicated in-game test verification.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-20
+### Exp. All Empirical Model Audit & Observations Across Battles 1-21
   - Battles 6-8 (Golbat Lv 46 x3, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
   - Battles 9-10 (Sandslash Lv 52 x2, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
   - Battle 11 (Hypno Lv 46, E = 1,076, Part Pool = 538): Participant Share = 269 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
@@ -4963,6 +4963,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 18 (Dodrio Lv 49, E = 1,092, Part Pool = 546): Participant Share = 273 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
   - Battle 19 (Raichu Lv 53, E = 908, Part Pool = 454): Participant Share = 227 EXP, Exp. All Base Share = 37 EXP (DUX = 55 EXP)
   - Battle 20 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
+  - Battle 21 (Venomoth Lv 49, E = 952, Part Pool = 476): Participant Share = 238 EXP, Exp. All Base Share = 35 EXP (DUX = 52 EXP)
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
