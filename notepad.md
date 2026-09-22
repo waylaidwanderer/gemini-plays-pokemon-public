@@ -117,10 +117,10 @@
   - EXP: 11497 [Turn 36563] (670 to Lv 23)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 11, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36435]
-  - HP: 34 / 34 [Empirically Verified Lv 11 Turn 36440]
-  - Stats: Attack 20, Defense 19, Speed 19, Special 18 [Empirically Verified Lv 11 Turn 36435]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 12, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36563]
+  - HP: 36 / 36 [Pending overworld check]
+  - Stats: Attack 22, Defense 21, Speed 20, Special 19 [Empirically Verified Lv 12 Turn 36563]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
@@ -5020,7 +5020,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - B23: Wild Sandslash Lv 52 (Blastoise swept; +341 EXP, PINCHY reached 10,580 EXP, 68 to Lv 22; ROCKY Lv 13).
     - B24: Wild Hypno Lv 46 (Blastoise swept; +308 EXP, PINCHY grew to Lv 22 [Atk 57, Def 50, Spd 31, Spc 19, 10,888 EXP]).
     - B25: Wild Kadabra Lv 49 (Mewtwo swept with Swift; +294 EXP [252 part + 42 Exp.All], DUX +63, PINCHY reached 11,182 EXP [985 to Lv 23]).
-    - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63, PINCHY reached 11,497 EXP [670 to Lv 23]).
+    - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63 [grew to Lv 12], PINCHY reached 11,497 EXP [670 to Lv 23]).
 
 
 <hr>
