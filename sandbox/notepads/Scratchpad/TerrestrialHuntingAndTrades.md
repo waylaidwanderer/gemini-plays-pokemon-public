@@ -16,16 +16,15 @@
 | **Kadabra*** | 49 | 1,008 | **294 EXP** (252+42) | 63 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
 | **Parasect*** | 52 | 950 | **274 EXP** (237+37) | 55 EXP | Blastoise (Ice Beam 2x SE OHKO) |
 | **Dodrio*** | 49 | 1,092 | **315 EXP** (273+42) | 63 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Ditto** (Historical) | 53 | 454 | **131 EXP** (113+18) | 27 EXP | Blastoise / Mewtwo |
 
-- Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified without Exp. All. Raichu was empirically verified with Exp. All in Battle 19 (participant share 227, team share 37); its 454 share without Exp. All is a calculated extrapolation. Only Ditto remains an unverified theoretical projection.
+- Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified without Exp. All. Raichu was empirically verified with Exp. All in Battle 19 (participant share 227, team share 37); its 454 share without Exp. All is a calculated extrapolation.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-42
+### Exp. All Empirical Model Audit & Observations Across Battles 1-44
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
-    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40]
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
     - Raichu (E=908, base=37 = E/24.5) [B19,35]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37]
@@ -33,9 +32,9 @@
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 42 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 44 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 24, HP 54, Attack 62, Defense 55, Speed 34, Special 21) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to its low Special stat (21) and modest HP (54). Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
@@ -44,7 +43,7 @@
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Retreat Triggers: Either designated sweeper reaching primary SE PP <= 3 or HP < 60, or major persistent status (PAR) combined with low PP.
+  - Retreat Triggers: Active sweeper reaching primary SE PP <= 3 (Mewtwo Psychic <= 3 triggers immediate pit stop to restore PP) or HP < 60, or major persistent status (PAR) combined with low PP. Executing pit stop at Turn 36874.
 
 ### Other Post-Game Evolution Candidates
 1. PSYDUCK (MIGRAINE Lv 15, Box 2):
@@ -69,6 +68,4 @@
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
-  - Battles 23-42 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (16,271 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42). Full party heal at Cerulean Center Turn 36688. All EXP distributions verified.
-  - Battle 43: Wild Hypno Lv 46. Turn 1: Switch Krabby to Blastoise (took 10 dmg, 219/229 HP). Turns 2-3: Blastoise defeated Hypno with Surf x2 (Surf PP 13/15). EXP: Pinchy 269+39 = 308 (16,579 EXP, 997 to Lv 26); DUX 58 (grew to Lv 14: Atk 25, Def 23, Spe 23, Spc 22); OMEGA/VEE/ROCKY/SHELDON 39.
-  - Battle 44: Wild Golbat Lv 46. Turn 1: Switch Krabby to Mewtwo (took Supersonic, confused). Turn 2: Mewtwo hurt self in confusion (-28 dmg, 143/249 HP); Golbat Confuse Ray failed. Turn 3: Mewtwo broke confusion, OHKO Golbat with STAB Psychic (Psychic PP 3/10). EXP: Pinchy 276+46 = 322 (16,901 EXP, 675 to Lv 26); DUX 69; OMEGA/VEE/ROCKY/SHELDON 46.
+  - Battles 23-44 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (16,901 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42). All EXP distributions verified.
