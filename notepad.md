@@ -4948,7 +4948,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Status: Healthy
   - EXP: 6,236 (623 to Lv 19)
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 187 / 229 [Empirically Verified Battle 70 Turn 37467 Screen]
+  - HP: 173 / 229 [Empirically Verified Battle 71 Turn 37483 Screen]
   - Status: Healthy (no status)
   - Active Move PP: Surf (13/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
