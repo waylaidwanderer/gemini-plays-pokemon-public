@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 27 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 20,538 EXP, Target: 21,952 EXP, 1,414 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 20,846 EXP, Target: 21,952 EXP, 1,106 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
@@ -36,7 +36,7 @@
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 56 battles!).
 
 ### Krabby Switch-Training Combat Protocol
-- Vulnerability Profile: Krabby (Water, Lv 27, HP 60, Attack 69, Defense 62, Speed 38, Special 23) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (23) and modest HP (60). Any Special hit from Cerulean Cave wild Pok�mon will deal massive or lethal damage. Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
+- Vulnerability Profile: Krabby (Water, Lv 27, HP 60, Attack 69, Defense 62, Speed 38, Special 23) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (23) and modest HP (60). Any Special hit from Cerulean Cave wild Pok�mon will deal massive or lethal damage. Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
