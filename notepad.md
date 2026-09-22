@@ -114,7 +114,7 @@
   - Stats: Attack 67, Defense 59, Speed 37, Special 22 [Empirically Verified Lv 26 Turn 36964]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 19030 [Turn 37018] (653 to Lv 27, 2,922 to Lv 28 Kingler)
+  - EXP: 19303 [Turn 37075] (380 to Lv 27, 2,649 to Lv 28 Kingler)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30), Guillotine (PP 5/5) [Learned Turn 36785]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 14, Normal/Flying]
@@ -129,7 +129,7 @@
   - HP: 245 / 249 [Turn 37073]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
@@ -241,7 +241,7 @@
   - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified Battles 19, 35].
   - Venomoth Lv 49: Observed Total EXP Variance:
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28, 33, 34]. Note: 5 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
+    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified Battles 15, 21, 28, 33, 34, 52]. Note: 5 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
@@ -4932,7 +4932,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 26 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 19,030 EXP, Target: 21,952 EXP, 2,922 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 19,303 EXP, Target: 21,952 EXP, 2,649 EXP needed for Lv 28 Kingler, 380 to Lv 27)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
@@ -4999,6 +4999,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat, Kadabra, Dodrio, Hypno, and Sandslash. All empirical EXP yields verified and consolidated in the Model Audit table above.
   - Battles 6-22 Consolidated Summary: Grinded Krabby from Lv 17 to Lv 21 (10,239 EXP, learned ViceGrip at Lv 20; DUX grew to Lv 11, ROCKY to Lv 12). Swept Golbat (B6-8,12,17,20), Sandslash (B9-10,14), Hypno (B11), Magneton (B13,22), Venomoth (B15,21), Kadabra (B16), Dodrio (B18), Raichu (B19). Healed at Cerulean Center after B20.
   - Battles 23-46 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 25 (17,483 EXP, reached Lv 22 in B24, Lv 23 in B29, Lv 24 in B34, Lv 25 in B40; learned Guillotine at Lv 25; DUX grew to Lv 12 in B26, Lv 13 in B34, Lv 14 in B43; ROCKY grew to Lv 13 in B23, Lv 14 in B32, Lv 15 in B42). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24, B39, B43, B45), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30, B36, B37), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28, B33, B34), Golbat Lv 46 (B29, B32, B38, B40, B44), Raichu Lv 53 (B35), Parasect Lv 52 (B41, B42, B46). All EXP distributions verified.  - Battles 47-51 Consolidated Summary: Grinded Krabby from Lv 25 (17,483 EXP) to Lv 26 (19,030 EXP, 653 to Lv 27, 2,922 to Lv 28 Kingler; leveled up in B47; DUX grew to 58 EXP share; VEE leveled up to Lv 26 in B48). Swept Hypno Lv 46 (B47, B49, B51), Golbat Lv 46 (B48), Magneton Lv 46 (B50) using Mewtwo. Mewtwo afflicted with PSN in B51 (160/249 HP). All EXP distributions and formula ratios 100% verified across 51 battles.
+  - Battle 52: Wild Venomoth Lv 49. Krabby switched to Mewtwo (OMEGA). Mewtwo took 4 damage (245/249 HP) from resisted Psybeam. Turn 2 Mewtwo OHKOed Venomoth with critical hit STAB 2x SE Psychic. Krabby gained 238 EXP + 35 EXP = 273 EXP, reaching 19,303 EXP (380 to Lv 27). DUX gained 52 EXP. Base team share = 35 EXP.
 
 
 <hr>
