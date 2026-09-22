@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Target: 21,952 EXP, 18,577 EXP needed)
+- Krabby Starting EXP: 3,375 EXP (Current: 4,306 EXP, Target: 21,952 EXP, 17,646 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
@@ -15,7 +15,7 @@
 | **Sandslash*** | 52 | 1,202 | **601 EXP** | 901 EXP | Blastoise (STAB Surf 2x SE OHKO) |
 | **Kadabra*** | 49 | 1,008 | **504 EXP** | 756 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
 | **Parasect*** | 52 | 950 | **475 EXP** | 712 EXP | Blastoise (Ice Beam 2x SE OHKO) |
-| **Dodrio** (Historical) | 49 | 1,242 | **621 EXP** | 931 EXP | Blastoise (Ice Beam 2x SE OHKO) / Mewtwo |
+| **Dodrio*** | 49 | 1,092 | **273 EXP** | 410 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
 - Note on Historical Entries: Dodrio and Ditto entries are marked (Historical) as unverified approximations carried over from earlier notes. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, and Parasect (*) are all 100% empirically verified in the current run.
@@ -93,3 +93,10 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
       - Exp. All Team Pool: Base share = 42 EXP (504 / 12 = 42.0).
       - Krabby Net Gain: 252 + 42 = 294 EXP (Krabby EXP: 3,697 -> 3,991, 105 EXP to Lv 16).
       - Traded DUX Expected: 63 EXP (42 + floor(42/2) = 63).
+  - Battle 3: Wild Dodrio Lv 49. Turn 1 switched Krabby to Mewtwo (took 29 dmg, HP 215/249). Turn 2 Mewtwo OHKOed Dodrio with STAB Psychic (Psychic PP 7/10).
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (273 EXP) + OMEGA (273 EXP) = 546 EXP. Total battle E = 1,092 (Dodrio base exp = 156).
+      - Exp. All Team Pool: Base share = 42 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 63 EXP (42 + floor(42/2) = 63).
+      - PINCHY Net Gain: 273 + 42 = 315 EXP (Krabby EXP: 3,991 -> 4,306, 607 to Lv 17). PINCHY reached Level 16! (Atk 42, Def 37, Spd 23, Spc 14).
+      - ROCKY Net Gain: 42 EXP. ROCKY reached Level 9! (Atk 21, Def 25, Spd 9, Spc 11).
