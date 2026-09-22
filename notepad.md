@@ -52,6 +52,7 @@
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 - [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
 - [x] Evolve Paras into Parasect (#047) [Turn 35918]
+- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]
 
 <hr>
 
@@ -68,9 +69,10 @@
 6. HM02 [Key Item]
 7. MAX POTION x 1
 8. TM35 (METRONOME) x 1
+9. EXP.ALL [Key Item]
 
 ## Inventory Capacity
-- Active Bag Items: 8 / 20 capacity used.
+- Active Bag Items: 9 / 20 capacity used.
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC)
@@ -4915,7 +4917,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Claim Exp. All from Route 15 Gatehouse (50 Caught / Req 50 [Verified Turn 35923])
+## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+- [x] Claimed Exp. All from Route 15 Gatehouse 2F [Turn 35997]
 - Next Evolution Project: Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099)
 - Krabby Starting EXP: 3,375 EXP (Target: 21,952 EXP, 18,577 EXP needed)
 - Target: Level 24 (13,824 EXP, Pokédex #047)
