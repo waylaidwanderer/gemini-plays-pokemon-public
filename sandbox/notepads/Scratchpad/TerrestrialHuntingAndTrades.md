@@ -81,3 +81,10 @@
       - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
       - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
       - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 5,921 -> 6,262, only 597 to Lv 19!).
+
+  - Battle 10: Wild Sandslash Lv 52. Turn 1 switched Krabby to Blastoise (took 15 dmg from 3-hit Fury Swipes, HP 135/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 11/15).
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (297 EXP) + SHELDON (297 EXP) = 594 EXP. Total battle E = 1,188.
+      - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
+      - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 6,262 -> 6,603, only 256 to Lv 19!).
