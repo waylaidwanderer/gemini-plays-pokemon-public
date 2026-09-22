@@ -71,53 +71,7 @@
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
 - Expeditions 1-3 Summary: Historical grind completed; Paras (#046) evolved into Parasect (#047), verifying Pokédex at 50 caught.
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
-  - Battle 1: Wild Golbat Lv 46. Turn 1 switched Krabby to Mewtwo (confused). Turn 2 Mewtwo OHKOed Golbat with critical STAB Psychic.
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (276 EXP) + OMEGA (276 EXP) = 552 EXP. Implies total battle E = 1,104.
-      - Exp. All Team Pool:
-        - PINCHY (Native): 46 EXP (552 / 12 = 46.0). Total Krabby gain: 276 + 46 = 322 EXP!
-        - DUX (Traded): 69 EXP! EMPIRICAL PROOF: 1.5x trade bonus applies to Exp. All (46 + floor(46/2) = 69).
-  - Battle 2: Wild Kadabra Lv 49. Turn 1 switched Krabby to Mewtwo (Kadabra move failed). Turn 2 Mewtwo OHKOed Kadabra with physical Swift (Swift PP 19/20, Psychic PP 8/10).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (252 EXP) + OMEGA (252 EXP) = 504 EXP. Implies total battle E = 1,008.
-      - Exp. All Team Pool: Base share = 42 EXP (504 / 12 = 42.0).
-      - Krabby Net Gain: 252 + 42 = 294 EXP (Krabby EXP: 3,697 -> 3,991, 105 EXP to Lv 16).
-      - Traded DUX Expected: 63 EXP (42 + floor(42/2) = 63).
-  - Battle 3: Wild Dodrio Lv 49. Turn 1 switched Krabby to Mewtwo (took 29 dmg, HP 215/249). Turn 2 Mewtwo OHKOed Dodrio with STAB Psychic (Psychic PP 7/10).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (273 EXP) + OMEGA (273 EXP) = 546 EXP. Total battle E = 1,092 (Dodrio base exp = 156).
-      - Exp. All Team Pool: Base share = 42 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 63 EXP (42 + floor(42/2) = 63).
-      - PINCHY Net Gain: 273 + 42 = 315 EXP (Krabby EXP: 3,991 -> 4,306, 607 to Lv 17). PINCHY reached Level 16! (Atk 42, Def 37, Spd 23, Spc 14).
-      - ROCKY Net Gain: 42 EXP. ROCKY reached Level 9! (Atk 21, Def 25, Spd 9, Spc 11).
-  - Battle 4: Wild Hypno Lv 46. Turn 1 switched Krabby to Mewtwo (took 12 dmg, HP 203/249). Turn 2 Mewtwo critical hit with Swift (Hypno survived on red HP, used Meditate). Turn 3 Mewtwo critical hit with Swift (Hypno fainted). Swift PP: 17/20.
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (269 EXP) + OMEGA (269 EXP) = 538 EXP. Total battle E = 1,076 (Hypno base exp = 164 or 165).
-      - Exp. All Team Pool: Base share = 39 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 58 EXP (39 + floor(39/2) = 58). DUX reached Level 7! (Atk 15, Def 14, Spd 14, Spc 13). Leer declined to preserve Cut and Fly!
-      - PINCHY Net Gain: 269 + 39 = 308 EXP (Krabby EXP: 4,306 -> 4,614, only 299 to Lv 17!).
-  - Battle 5: Wild Sandslash Lv 52. Turn 1 switched Krabby to Mewtwo (took 38 dmg from crit Slash, HP 165/249). Turn 2 Mewtwo OHKOed Sandslash with STAB Psychic (Psychic PP 6/10).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (297 EXP) + OMEGA (297 EXP) = 594 EXP. Total battle E = 1,188 (Sandslash base exp = 160, Lv 52).
-      - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
-      - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 4,614 -> 4,955). PINCHY reached Level 17! (Atk 44, Def 40, Spd 25, Spc 15; 877 to Lv 18).
-  - Battle 6: Wild Golbat Lv 46. Turn 1 switched Krabby to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Blastoise OHKOed Golbat with 2x SE Ice Beam (Ice Beam PP 7/10).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (276 EXP) + SHELDON (276 EXP) = 552 EXP. Total battle E = 1,104 (Golbat base exp = 156, Lv 46).
-      - Exp. All Team Pool: Base share = 46 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69). DUX reached Level 8! (Atk 16, Def 15, Spd 15, Spc 14).
-      - ROCKY Net Gain: 46 EXP. ROCKY reached Level 10! (Atk 23, Def 27, Spd 10, Spc 12).
-      - PINCHY Net Gain: 276 + 46 = 322 EXP (Krabby EXP: 4,955 -> 5,277, only 555 to Lv 18!).
-  - Battle 7: Wild Golbat Lv 46. Turn 1 switched Krabby to Blastoise (took 8 dmg from Wing Attack, HP 160/229). Turn 2 Blastoise OHKOed Golbat with 2x SE Ice Beam (Ice Beam PP 6/10).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (276 EXP) + SHELDON (276 EXP) = 552 EXP. Total battle E = 1,104 (Golbat base exp = 156, Lv 46).
-      - Exp. All Team Pool: Base share = 46 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69).
-      - PINCHY Net Gain: 276 + 46 = 322 EXP (Krabby EXP: 5,277 -> 5,599, only 233 to Lv 18!).
-  - Battle 8: Wild Golbat Lv 46. Turn 1 switched Krabby to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Blastoise OHKOed Golbat with 2x SE Ice Beam (Ice Beam PP 5/10).
-    - Empirical EXP.ALL Distribution Results:
-      - Participant Pool (50% of E): PINCHY (276 EXP) + SHELDON (276 EXP) = 552 EXP. Total battle E = 1,104 (Golbat base exp = 156, Lv 46).
-      - Exp. All Team Pool: Base share = 46 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69).
-      - PINCHY Net Gain: 276 + 46 = 322 EXP (Krabby EXP: 5,599 -> 5,921). PINCHY reached Level 18! (Atk 47, Def 42, Spd 26, Spc 16; 938 to Lv 19).
+  - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat Lv 46 (+322 EXP), Kadabra Lv 49 (+294 EXP), Dodrio Lv 49 (+315 EXP, PINCHY Lv 16, ROCKY Lv 9), Hypno Lv 46 (+308 EXP, DUX Lv 7, Leer declined), and Sandslash Lv 52 (+341 EXP, PINCHY Lv 17). All empirical EXP yields verified and consolidated in the Model Audit table above.
+  - Battles 6-8 (Wild Golbat Lv 46 x3): Blastoise OHKOed with 2x SE Ice Beam (took 0 dmg from Haze in B6 & B8, 8 dmg from Wing Attack in B7, HP 160/229).
+    - Yields per battle: PINCHY +322 EXP (276 part + 46 Exp. All), SHELDON +322 EXP, DUX +69 EXP (traded), OMEGA/VEE/ROCKY +46 EXP each.
+    - Milestones: DUX reached Lv 8 (B6), ROCKY reached Lv 10 (B6), PINCHY reached Level 18 (B8, Atk 47, Def 42, Spd 26, Spc 16, HP 42/42 verified). PINCHY total EXP: 5,921.
