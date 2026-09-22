@@ -2,15 +2,15 @@
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pok�mon: PSYDUCK (MIGRAINE Lv 20, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 8,880 [Turn 37667]. Needed to Lv 21: 381.
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (27,057 EXP remaining).
+  - Current Empirical EXP: 9,181 [Turn 37679]. Needed to Lv 21: 80.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,756 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 76, Turn 37623):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 20, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37623]
   - HP: 54 / 54 [Empirically Verified Turn 37632 Battle Screen]
-  - EXP: 8,880 (381 to Lv 21)
+  - EXP: 9,181 (80 to Lv 21)
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Empirically Verified Lv 20 Turn 37623 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 155 / 229 [Battle 75]
@@ -19,9 +19,9 @@
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 140 / 249 [Battle 77 Dodrio crit]
   - Status: Healthy
-  - Active Move PP: Psychic (6/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 140 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
+  - Mewtwo HP: 140 (> 60 trigger). Psychic PP: 5 (> 3 trigger).
   - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
@@ -115,6 +115,12 @@
   - Formula audit: 100% consistent with verified Raichu model (E=908, participant=227, base=37).
 - Battle 79 (Exp 6 Battle 6, Turn 37667): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (OHKO).
   - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 8,880 (381 to Lv 21).
+  - DUX: 58 EXP (boosted).
+  - OMEGA: 301 EXP (262 participant + 39 team share).
+  - VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Magneton model (E=1050, participant=262, base=39).
+- Battle 80 (Exp 6 Battle 7, Turn 37679): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (OHKO).
+  - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 9,181 (80 to Lv 21).
   - DUX: 58 EXP (boosted).
   - OMEGA: 301 EXP (262 participant + 39 team share).
   - VEE, ROCKY, SHELDON: 39 EXP each.
