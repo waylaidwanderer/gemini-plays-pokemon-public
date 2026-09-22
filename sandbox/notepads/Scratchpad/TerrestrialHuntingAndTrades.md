@@ -75,3 +75,6 @@
 - Battle 17 (Exp 2 Battle 3) [Turn 35788]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 8/10, Mewtwo HP 233/243). Paras gained 558 EXP.
   - Current State: Paras Lv 21 (9,948 EXP, +8,948 EXP total gained).
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 3,876 EXP (700 to Lv 22).
+- Battle 18 (Exp 2 Battle 4) [Turn 35797]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE Critical Hit OHKO (Psychic 7/10, Mewtwo HP 223/243). Paras gained 558 EXP.
+  - Current State: Paras Lv 21 (10,506 EXP, +9,506 EXP total gained).
+  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 3,318 EXP (142 to Lv 22).
