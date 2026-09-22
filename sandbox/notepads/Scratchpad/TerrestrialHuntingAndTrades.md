@@ -33,7 +33,7 @@
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 56 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 57 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 27, HP 60, Attack 69, Defense 62, Speed 38, Special 23) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (23) and modest HP (60). Any Special hit from Cerulean Cave wild Pok�mon will deal massive or lethal damage. Any Special hit from Cerulean Cave wild Pokémon will deal massive or lethal damage.
