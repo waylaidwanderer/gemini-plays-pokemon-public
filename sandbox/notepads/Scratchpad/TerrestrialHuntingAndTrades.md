@@ -19,7 +19,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-57
+### Exp. All Empirical Model Audit & Observations Across Battles 1-58
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
