@@ -36,8 +36,9 @@
   - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battle 1, 6, 7, 8].
   - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battle 4, 11].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battle 2].
-  - Ditto Lv 53: Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
-  - Raichu Lv 53: Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
+- **Theoretical / Unverified Projections (Pending In-Game Test Citation):**
+  - Ditto Lv 53: Projected Total EXP 454. 2 participants -> Base share `s_EXP = 227` (native), boosted = `340` (traded).
+  - Raichu Lv 53: Projected Total EXP 922. 2 participants -> Base share `s_EXP = 461` (native), boosted = `691` (traded).
   - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified Battle 5].
   - Parasect Lv 52: Total EXP 950. 2 participants -> Base share `s_EXP = 475` (native) [Empirically verified Turn 35207].
   - Venomoth Lv 49: Total EXP 966. 3 participants -> Base share `s_EXP = floor(966 / 3) = 322` [Empirically verified Turn 33856].
