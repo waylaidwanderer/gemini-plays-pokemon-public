@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 23 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 12,708 EXP, Target: 21,952 EXP, 9,244 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 13,009 EXP, Target: 21,952 EXP, 8,943 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -21,11 +21,11 @@
 - Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified without Exp. All. Raichu was empirically verified with Exp. All in Battle 19 (participant share 227, team share 37); its 454 share without Exp. All is a calculated extrapolation. Only Ditto remains an unverified theoretical projection.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-30
+### Exp. All Empirical Model Audit & Observations Across Battles 1-31
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 30 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 31 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
@@ -80,3 +80,4 @@
     - B28: Wild Venomoth Lv 49 (Mewtwo swept with Psychic; +273 EXP [238 part + 35 Exp.All], DUX +52, PINCHY reached 12,071 EXP [96 to Lv 23]).
     - B29: Wild Golbat Lv 46 (Blastoise swept with critical Ice Beam; +322 EXP [276 part + 46 Exp.All], DUX +69, PINCHY grew to Lv 23 [Atk 59, Def 53, Spd 33, Spc 20, 12,393 EXP]).
     - B30: Wild Dodrio Lv 49 (Blastoise swept with Ice Beam; +315 EXP [273 part + 42 Exp.All], DUX +63, PINCHY reached 12,708 EXP [1,116 to Lv 24]).
+    - B31: Wild Magneton Lv 46 (Mewtwo swept with Psychic; +301 EXP [262 part + 39 Exp.All], DUX +58, PINCHY reached 13,009 EXP [815 to Lv 24]).
