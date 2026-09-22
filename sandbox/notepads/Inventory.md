@@ -54,7 +54,7 @@
   - Stats: Attack 36, Defense 29, Speed 36, Special 36
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 12540 [1284 to Lv 24; 13824 - 12540 = 1284]
+  - EXP: 12862 [962 to Lv 24; 13824 - 12862 = 962]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]

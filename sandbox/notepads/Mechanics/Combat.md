@@ -54,7 +54,7 @@
   - Participant vs Non-Participant Second Division: `floor(floor(E / 12) / 2) = floor(E / 24)`.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
 - **Empirical Effective Divisor K (Across 91 Battles):**
-  - Golbat (E=1104, base=46, K=24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86]
+  - Golbat (E=1104, base=46, K=24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86,92]
   - Kadabra (E=1008, base=42, K=24.0) [B2,16,25,72]
   - Raichu (E=908, base=37, K=24.5) [B19,35,53,60,78]
   - Parasect (E=950, base=37, K=25.7) [B41,42,46,91]
