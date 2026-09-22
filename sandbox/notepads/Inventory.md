@@ -54,7 +54,7 @@
   - Stats: Attack 52, Defense 46, Speed 29, Special 17 [Empirically Verified Lv 20 Turn 36373]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 8764 [Turn 36408] (497 to Lv 21)
+  - EXP: 9079 [Turn 36422] (182 to Lv 21)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -83,9 +83,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 101 / 229 [Verified Turn 36354]
+  - HP: 74 / 229 [Verified Turn 36422]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 8/15), Ice Beam (PP 4/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 7/15), Ice Beam (PP 4/10)
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
