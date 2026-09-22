@@ -4967,7 +4967,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
-  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 17 battles!).
+  - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 22 battles!).
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
@@ -5002,20 +5002,19 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expeditions 1-3 Summary: Historical grind completed; Paras (#046) evolved into Parasect (#047), verifying Pokédex at 50 caught.
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
   - Battles 1-5 Summary: Historical switch-grind with EXP.ALL against Golbat Lv 46 (+322 EXP), Kadabra Lv 49 (+294 EXP), Dodrio Lv 49 (+315 EXP, PINCHY Lv 16, ROCKY Lv 9), Hypno Lv 46 (+308 EXP, DUX Lv 7, Leer declined), and Sandslash Lv 52 (+341 EXP, PINCHY Lv 17). All empirical EXP yields verified and consolidated in the Model Audit table above.
-  - Battles 6-8 (Wild Golbat Lv 46 x3): Blastoise OHKOed with 2x SE Ice Beam (took 0 dmg from Haze in B6 & B8, 8 dmg from Wing Attack in B7, HP 160/229).
-    - Yields per battle: PINCHY +322 EXP (276 part + 46 Exp. All), SHELDON +322 EXP, DUX +69 EXP (traded), OMEGA/VEE/ROCKY +46 EXP each.
-    - Milestones: DUX reached Lv 8 (B6), ROCKY reached Lv 10 (B6), PINCHY reached Level 18 (B8, Atk 47, Def 42, Spd 26, Spc 16, HP 42/42 verified). PINCHY total EXP: 5,921.
-  - Battles 9-10 (Wild Sandslash Lv 52 x2): Turn 1 switched Krabby to Blastoise (took 10 dmg in B9, 15 dmg in B10, HP 135/229). Blastoise OHKOed with STAB Surf (Surf PP 10/15). PINCHY earned 341 EXP each battle (297 part + 44 Exp. All; Krabby EXP 5,921 -> 6,603). DUX reached Lv 9 (B10, Atk 17, Def 16, Spd 16, Spc 16, HP 29/29), ROCKY reached Lv 11 (B10, Atk 25, Def 29, Spd 10, Spc 13, HP 32/32, learned Defense Curl).
-  - Battle 11 (Wild Hypno Lv 46): Turn 1 switched Krabby to Blastoise (Hypno used Meditate, 0 dmg). Blastoise scored Critical Hit OHKO with STAB Surf (Surf PP 10/15). PINCHY earned 308 EXP (269 part + 39 Exp. All) and grew to Level 19! (Atk 49, Def 44, Spd 27, Spc 17, HP 44/44, EXP: 6,911).
-  - Battle 12 (Wild Golbat Lv 46): Turn 1 switched Krabby to Mewtwo (took 0 dmg, Golbat used Supersonic, Mewtwo confused, HP 165/249). Turn 2 Mewtwo attacked through confusion and OHKOed Golbat with STAB 2x SE Psychic (Psychic PP 5/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 6,911 -> 7,233, 767 to Lv 20).
-  - Battle 13 (Wild Magneton Lv 46): Turn 1 switched Krabby to Mewtwo (absorbed Thunder Wave, paralyzed, HP 165/249). Turn 2 Magneton used Supersonic, Mewtwo confused; Mewtwo attacked through paralysis and confusion with STAB Psychic for an OHKO (Psychic PP 4/10). PINCHY earned 301 EXP (262 part + 39 Exp. All, EXP: 7,233 -> 7,534, only 466 to Lv 20).
-  - Battle 14 (Wild Sandslash Lv 52): Turn 1 switched Krabby to Blastoise (took 34 dmg from crit Slash, HP 101/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 9/15). PINCHY earned 341 EXP (297 part + 44 Exp. All, EXP: 7,534 -> 7,875, only 125 to Lv 20). DUX grew to Level 10 (Atk 19, Def 18, Spd 18, Spc 17, verified Turn 36359).
-  - Battle 15 (Wild Venomoth Lv 49): Turn 1 switched Krabby to Mewtwo (took 0 dmg, Stun Spore failed on PAR, HP 165/249). Turn 2 Mewtwo attacked through paralysis with STAB 2x SE Psychic for an OHKO (Psychic PP 3/10). PINCHY earned 273 EXP (238 part + 35 Exp. All, EXP: 7,875 -> 8,148) and grew to Level 20! (Atk 52, Def 46, Spd 29, Spc 17, learned ViceGrip in Slot 3). Target Lv 21: 9,261 EXP (1,113 needed).
-  - Battle 16 (Wild Kadabra Lv 49): Turn 1 switched Krabby to Blastoise (took 0 dmg, Kadabra used Reflect, HP 101/229). Turn 2 Blastoise used STAB Surf, bypassing Reflect to OHKO Kadabra (Surf PP 8/15). PINCHY earned 294 EXP (252 part + 42 Exp. All, EXP: 8,148 -> 8,442, 819 to Lv 21). ROCKY grew to Level 12 (Atk 26, Def 32, Spd 11, Spc 14, verified Turn 36397).
-  - Battle 17 (Wild Golbat Lv 46): Turn 1 switched Krabby to Blastoise (took 0 dmg, Golbat used Haze, HP 101/229). Turn 2 Blastoise scored a Critical Hit OHKO with 2x SE Ice Beam (Ice Beam PP 4/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 8,442 -> 8,764, 497 to Lv 21).
-  - Battle 18 (Wild Dodrio Lv 49): Turn 1 switched Krabby to Blastoise (took 27 dmg, HP 74/229). Turn 2 Blastoise OHKOed Dodrio with STAB Surf (Surf PP 7/15). PINCHY earned 315 EXP (273 part + 42 Exp. All, EXP: 8,764 -> 9,079, only 182 to Lv 21).
-  - Battle 19 (Wild Raichu Lv 53): Turn 1 switched Krabby to Mewtwo (took 0 dmg from Growl, HP 141/249). Turn 2 Raichu used Thundershock (0 dmg), Mewtwo OHKOed Raichu with STAB Psychic (Psychic PP 2/10). PINCHY earned 264 EXP (227 part + 37 Exp. All, EXP: 9,079 -> 9,343) and grew to Level 21! (Atk 54, Def 48, Speed 30, Spc 18). DUX grew to Level 11! (Atk 20, Def 19, Spd 19, Spc 18).
-  - Battle 20 (Wild Golbat Lv 46): Turn 1 switched Krabby to Blastoise (took 16 dmg from crit Wing Attack, HP 58/229). Turn 2 Blastoise outsped and OHKOed Golbat with 2x SE Ice Beam (Ice Beam PP 3/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 9,343 -> 9,665, 983 to Lv 22).
+  - Battles 6-22 Consolidated Summary:
+    - B6-B8: Wild Golbat Lv 46 x3 (PINCHY Lv 18, DUX Lv 8, ROCKY Lv 10).
+    - B9-B10: Wild Sandslash Lv 52 x2 (DUX Lv 9, ROCKY Lv 11).
+    - B11: Wild Hypno Lv 46 (PINCHY Lv 19).
+    - B12-B13: Wild Golbat Lv 46, Wild Magneton Lv 46 (Mewtwo swept).
+    - B14: Wild Sandslash Lv 52 (DUX Lv 10).
+    - B15: Wild Venomoth Lv 49 (PINCHY Lv 20, learned ViceGrip).
+    - B16: Wild Kadabra Lv 49 (ROCKY Lv 12).
+    - B17-B18: Wild Golbat Lv 46, Wild Dodrio Lv 49 (Blastoise swept).
+    - B19: Wild Raichu Lv 53 (PINCHY Lv 21, DUX Lv 11).
+    - B20: Wild Golbat Lv 46 (Blastoise swept; pit-stop heal at Cerulean Center).
+    - B21: Wild Venomoth Lv 49 (Mewtwo swept; +273 EXP).
+    - B22: Wild Magneton Lv 46 (Mewtwo swept; +301 EXP, PINCHY reached 10,239 EXP).
 
 
 <hr>
