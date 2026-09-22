@@ -48,18 +48,18 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 16, Water]
-  - Status: Healthy [Level Up Turn 37388]
-  - HP: 44 / 44 [Empirically Verified Battle 4 Turn 37392 Screen]
-  - Stats: Attack 26, Defense 21, Speed 26, Special 25 [Empirically Verified Lv 16 Turn 37388 Screen]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 17, Water]
+  - Status: Healthy [Level Up Turn 37411]
+  - HP: 46 / 46 [Pending party check; Lv 16 was 44]
+  - Stats: Attack 27, Defense 22, Speed 27, Special 27 [Empirically Verified Lv 17 Turn 37411 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4647 [266 to Lv 17, Empirically Verified Battle 4 Turn 37397; Baseline: 4306 + 341 = 4647; 4913 - 4647 = 266]
+  - EXP: 4969 [863 to Lv 18, Empirically Verified Battle 5 Turn 37409; Baseline: 4647 + 322 = 4969; 5832 - 4969 = 863]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
-  - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno; Empirically Verified Turn 37383]
-  - HP: 141 / 249 [Empirically Verified Battle 5 Turn 37407 Screen]
+  - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
+  - HP: 249 / 249
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 18/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -77,7 +77,7 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy [Healed Turn 37231]
-  - HP: 225 / 229 [Empirically Verified Battle 4 Turn 37395 Screen]
+  - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 16, Normal/Flying]
