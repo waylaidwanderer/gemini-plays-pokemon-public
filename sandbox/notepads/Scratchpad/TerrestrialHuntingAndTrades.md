@@ -46,8 +46,8 @@
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Live Status: Blastoise (HP 58/229, Surf 7/15, Ice Beam 3/10); Mewtwo (HP 141/249 PAR, Psychic 2/10, Swift 17/20, Recover 20/20).
-  - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status (Both triggers currently met; executing Cerulean Center pit-stop).
+  - Live Status: Team 100% Healed [Turn 36459]! Blastoise (HP 229/229, Surf 15/15, Ice Beam 10/10); Mewtwo (HP 249/249 Healthy, Psychic 10/10, Swift 20/20, Recover 20/20).
+  - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
 
 ### Other Post-Game Evolution Candidates
 1. PSYDUCK (MIGRAINE Lv 15, Box 2):
