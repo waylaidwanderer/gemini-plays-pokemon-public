@@ -1,10 +1,28 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target PokÃ©mon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 1 -> Party Slot 1)
-  - Baseline Empirical EXP: 3,375 [Turn 37299]. Needed to Lv 16: 721.
-  - Cubic Formula Proof: 15^3 = 3,375. 16^3 = 4,096. 4,096 - 3,375 = 721 (Exact match!). Target Lv 33 Golduck = 33^3 = 35,937 EXP.
-- Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 18, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 6,236 [Turn 37468]. Needed to Lv 19: 623.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (29,701 EXP remaining).
+- Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
+
+### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 70, Turn 37471):
+- Trainee: PSYDUCK (MIGRAINE) [Lv 18, Water, Lead Slot]
+  - HP: 49 / 49 [Empirically Verified Battle 70 Turn 37464 Screen]
+  - Status: Healthy
+  - EXP: 6,236 (623 to Lv 19)
+- Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
+  - HP: 187 / 229 [Empirically Verified Battle 70 Turn 37467 Screen]
+  - Status: Healthy (no status)
+  - Active Move PP: Surf (13/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
+- Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
+  - HP: ~84 / 249 [Empirically Verified Battle 70 Turn 37465 Party Screen: 84 HP]
+  - Status: Poisoned [PSN afflicted Turn 37372 vs Hypno]
+  - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
+- Protocol Trigger Check:
+  - Mewtwo HP: 84 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
+  - Blastoise HP: 187 (> 60 trigger).
+  - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
