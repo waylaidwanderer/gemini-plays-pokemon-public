@@ -71,8 +71,10 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
-  - Status: Healthy
-  - HP: 68 / 68
+  - Status: Healthy [Verified Lv 25 Turn 36935]
+  - HP: 68 / 68 [Verified Lv 25 Turn 36935]
+  - Stats: Attack 40, Defense 37, Speed 72, Special 62 [Empirically Verified Lv 25 Turn 36935]
+  - OT: BLUE (IDNo. 04620)
   - Moves: Tackle, Sand-Attack, Thunderbolt
 - Slot 5: GEODUDE (Nickname: ROCKY) [Lv 15, Rock/Ground]
   - Status: Healthy [Level Up Turn 36810]
