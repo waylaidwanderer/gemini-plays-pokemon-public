@@ -54,12 +54,12 @@
   - Participant vs Non-Participant Division Hypothesis: While Golbat and Kadabra base shares match `floor(E / 24.0)`, 6 of 9 species exhibit divisor K between 24.5 and 27.6 (e.g. Hypno K=27.6, Sandslash K=27.0). The exact 8-bit register truncation routine in Gen 1 assembly remains an unverified hypothesis under ongoing empirical tracking.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
 - **Empirical Effective Divisor K (Across 95 Battles):**
-  - Golbat (E=1104, base=46, K=24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86,92,93]
-  - Kadabra (E=1008, base=42, K=24.0) [B2,16,25,72]
-  - Raichu (E=908, base=37, K=24.5) [B19,35,53,60,78]
-  - Parasect (E=950, base=37, K=25.7) [B41,42,46,91,94]
-  - Dodrio (E=1092, base=42, K=26.0) [B3,18,26,30,36,37,59,70,77,85,87]
-  - Magneton (E=1050, base=39, K=26.9) [B13,22,27,31,50,61,62,79,80,95]
-  - Sandslash (E=1188, base=44, K=27.0) [B5,9,10,14,23,56,65,89]
-  - Venomoth (E=952, base=35, K=27.2) [B15,21,28,33,34,52,71,76,83,84]
-  - Hypno (E=1076, base=39, K=27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90]
+  - Golbat (E=1104, base=46, K=24.0) [22 empirical encounters verified]
+  - Kadabra (E=1008, base=42, K=24.0) [4 empirical encounters verified]
+  - Raichu (E=908, base=37, K=24.5) [5 empirical encounters verified]
+  - Parasect (E=950, base=37, K=25.7) [5 empirical encounters verified]
+  - Dodrio (E=1092, base=42, K=26.0) [11 empirical encounters verified]
+  - Magneton (E=1050, base=39, K=26.9) [10 empirical encounters verified]
+  - Sandslash (E=1188, base=44, K=27.0) [8 empirical encounters verified]
+  - Venomoth (E=952, base=35, K=27.2) [10 empirical encounters verified]
+  - Hypno (E=1076, base=39, K=27.6) [19 empirical encounters verified]
