@@ -4939,7 +4939,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 1 -> Party Slot 1)
   - Baseline Empirical EXP: 3,375 [Turn 37299]. Needed to Lv 16: 721.
   - Cubic Formula Proof: 15^3 = 3,375. 16^3 = 4,096. 4,096 - 3,375 = 721 (Exact match!). Target Lv 33 Golduck = 33^3 = 35,937 EXP.
-- Current Milestone: Kingler (#099) evolution complete (51 caught). Deposited into Box 1 [Turn 37244].
 - Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
@@ -4974,7 +4973,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
 ### Psyduck Switch-Training Combat Protocol
-- Vulnerability Profile: Psyduck (Water, Lv 15, HP ~45, Water) has very low stats compared to Lv 46-53 Cerulean Cave wild Pokémon. Any hit will be lethal.
+- Vulnerability Profile: Psyduck (Water, Lv 15, HP 42, Attack 24, Defense 20, Speed 24, Special 24) has very low stats compared to Lv 46-53 Cerulean Cave wild Pokémon. Any hit will be lethal.
 - Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -4987,12 +4986,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
    - Prerequisite Status: Caught, stored in Box 1 [Verified Box 2 empty Turn 37268].
-3. In-Game Trades:
+2. In-Game Trades:
    - Route 2 Gatehouse: Trade Abra for Mr. Mime (MARCEL, #122).
      - Prerequisite Status: Wild Abra NOT yet caught (unobtained asset). Needs hunting on Route 24 or Route 8.
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
-     - Prerequisite Status: Slowpoke owned (Box 2), but not yet evolved into Slowbro (unobtained asset).
-4. Evolution Stones:
+     - Prerequisite Status: Slowpoke owned (Box 1), but not yet evolved into Slowbro (unobtained asset).
+3. Evolution Stones:
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
 
