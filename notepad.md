@@ -114,7 +114,7 @@
   - Stats: Attack 49, Defense 44, Speed 27, Special 17 [Empirically Verified Lv 19 Turn 36308]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7233 [Turn 36321] (Gained 276 participant + 46 Exp. All = 322 in Battle 12; 767 to Lv 20)
+  - EXP: 7534 [Turn 36343] (Gained 262 participant + 39 Exp. All = 301 in Battle 13; 466 to Lv 20)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -126,7 +126,7 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
-  - Status: Healthy [Level Up Turn 36119]
+  - Status: Paralyzed (PAR) [Thunder Wave Turn 36339]
   - HP: 165 / 249 [Verified Turn 36207]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
@@ -229,7 +229,7 @@
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants -> Base share `s_EXP = 525` (native), boosted = `787` (traded).
+  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified Battle 13].
   - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified Battle 1, 6, 7, 8].
   - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified Battle 4, 11].
   - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified Battle 2].
@@ -4926,7 +4926,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 7,233 EXP, Target: 21,952 EXP, 14,719 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 7,534 EXP, Target: 21,952 EXP, 14,418 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -4957,6 +4957,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 9-10 (Sandslash Lv 52 x2, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
   - Battle 11 (Hypno Lv 46, E = 1,076, Part Pool = 538): Participant Share = 269 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
   - Battle 12 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
+  - Battle 13 (Magneton Lv 46, E = 1,050, Part Pool = 525): Participant Share = 262 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
 - Empirical Exp. All Distribution Records (2 Active Participants, 6 Party Members):
   - Battle 1 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
   - Battle 2 (Kadabra Lv 49, E = 1,008, Part Pool = 504): Participant Share = 252 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
@@ -5010,6 +5011,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battles 9-10 (Wild Sandslash Lv 52 x2): Turn 1 switched Krabby to Blastoise (took 10 dmg in B9, 15 dmg in B10, HP 135/229). Blastoise OHKOed with STAB Surf (Surf PP 10/15). PINCHY earned 341 EXP each battle (297 part + 44 Exp. All; Krabby EXP 5,921 -> 6,603). DUX reached Lv 9 (B10, Atk 17, Def 16, Spd 16, Spc 16, HP 29/29), ROCKY reached Lv 11 (B10, Atk 25, Def 29, Spd 10, Spc 13, HP 32/32, learned Defense Curl).
   - Battle 11 (Wild Hypno Lv 46): Turn 1 switched Krabby to Blastoise (Hypno used Meditate, 0 dmg). Blastoise scored Critical Hit OHKO with STAB Surf (Surf PP 10/15). PINCHY earned 308 EXP (269 part + 39 Exp. All) and grew to Level 19! (Atk 49, Def 44, Spd 27, Spc 17, HP 44/44, EXP: 6,911).
   - Battle 12 (Wild Golbat Lv 46): Turn 1 switched Krabby to Mewtwo (took 0 dmg, Golbat used Supersonic, Mewtwo confused, HP 165/249). Turn 2 Mewtwo attacked through confusion and OHKOed Golbat with STAB 2x SE Psychic (Psychic PP 5/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 6,911 -> 7,233, 767 to Lv 20).
+  - Battle 13 (Wild Magneton Lv 46): Turn 1 switched Krabby to Mewtwo (absorbed Thunder Wave, paralyzed, HP 165/249). Turn 2 Magneton used Supersonic, Mewtwo confused; Mewtwo attacked through paralysis and confusion with STAB Psychic for an OHKO (Psychic PP 4/10). PINCHY earned 301 EXP (262 part + 39 Exp. All, EXP: 7,233 -> 7,534, only 466 to Lv 20).
 
 
 <hr>
