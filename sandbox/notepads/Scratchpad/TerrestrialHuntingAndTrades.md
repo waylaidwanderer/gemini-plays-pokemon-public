@@ -2,26 +2,26 @@
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pok�mon: PSYDUCK (MIGRAINE Lv 20, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 8,000 [Turn 37623]. Needed to Lv 21: 1,261.
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (27,937 EXP remaining).
+  - Current Empirical EXP: 8,315 [Turn 37639]. Needed to Lv 21: 946.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (27,622 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 76, Turn 37623):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 20, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37623]
   - HP: 54 / 54 [Empirically Verified Turn 37632 Battle Screen]
-  - EXP: 8,000 (1,261 to Lv 21)
+  - EXP: 8,315 (946 to Lv 21)
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Empirically Verified Lv 20 Turn 37623 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 155 / 229 [Battle 75]
   - Status: Healthy (no status)
   - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 249 / 249 [Healed Turn 37542]
-  - Status: Healthy (Poison cured!)
-  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - HP: 179 / 249 [Battle 77 Dodrio crit]
+  - Status: Healthy
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 245 (> 60 trigger). Psychic PP: 9 (> 3 trigger).
+  - Mewtwo HP: 179 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
   - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
@@ -102,4 +102,8 @@
     - Lv 20 Stats: Attack 31, Defense 25, Speed 31, Special 31 [Empirically Verified Turn 37623 Screen].
   - DUX: 52 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 35 EXP each.
-  - Formula audit: 100% consistent with verified Venomoth model.
+  - Formula audit: 100% consistent with verified Venomoth model.- Battle 77 (Exp 6 Battle 4, Turn 37637): Defeated Wild Dodrio Lv 49. Mewtwo STAB Psychic (OHKO).
+  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 8,315 (946 to Lv 21).
+  - DUX: 63 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
+  - Formula audit: 100% consistent with verified Dodrio model (E=1092, participant=273, base=42).
