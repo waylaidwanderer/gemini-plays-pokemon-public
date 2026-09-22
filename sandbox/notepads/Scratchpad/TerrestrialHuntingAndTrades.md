@@ -50,7 +50,7 @@
     - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
-    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85]
+    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85,87]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
@@ -103,6 +103,11 @@
   - Mewtwo used STAB Psychic (Critical Hit 2x SE OHKO). Psychic PP 7/10.
   - EXP: Golbat Total 1,104. Psyduck gained 322 EXP (276 participant + 46 team share).
   - Trainee EXP: 10,672 -> 10,994 EXP (1,173 to Lv 23).
+- Battle 87 (Dodrio Lv 49, Turn 37848-37858):
+  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo took 21 dmg (Fury Attack: 205/249 HP).
+  - Mewtwo used STAB Psychic (OHKO). Psychic PP 6/10.
+  - EXP: Dodrio Total 1,092. Psyduck gained 315 EXP (273 participant + 42 team share).
+  - Trainee EXP: 10,994 -> 11,309 EXP (858 to Lv 23).
 
 ### Expedition 6 Summary Log (Psyduck Trainee, Battles 74-83, Turns 37579-37722):
 - Battles Fought: 10 (B74 Hypno, B75 Hypno, B76 Venomoth, B77 Dodrio, B78 Raichu, B79 Magneton, B80 Magneton, B81 Golbat, B82 Hypno, B83 Venomoth).
