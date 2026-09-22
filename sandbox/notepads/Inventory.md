@@ -71,7 +71,7 @@
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
 - Slot 4: GEODUDE (Nickname: ROCKY) [Lv 17, Rock/Ground]
   - Status: Healthy [Level Up Turn 37443]
-  - HP: 45 / 45 [Pending party check; Lv 16 was 43]
+  - HP: 45 / 45 [Empirically Verified Battle 69 Turn 37456 Party Screen]
   - Stats: Attack 36, Defense 43, Speed 14, Special 18 [Empirically Verified Lv 17 Turn 37443 Screen]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
