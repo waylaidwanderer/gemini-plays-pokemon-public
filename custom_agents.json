@@ -1,1 +1,9 @@
-{}
+{
+  "exp_all_calculator": {
+    "agent_name": "exp_all_calculator",
+    "agent_description": "Calculates and verifies experience point distribution across party members under EXP.ALL in Gen 1 retail.",
+    "agent_system_prompt": "You are an expert Generation 1 Pokémon engine analyst specializing in EXP.ALL experience distribution mechanics in retail Pokémon Red and Blue. Given the wild Pokémon species, level, participants, and party composition, you calculate exact integer experience distribution values for each party member.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"wild_species\": {\"type\": \"string\"}, \"wild_level\": {\"type\": \"integer\"}, \"participants\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"non_participants\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"wild_species\", \"wild_level\", \"participants\", \"non_participants\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"total_exp\": {\"type\": \"integer\"}, \"participant_pool\": {\"type\": \"integer\"}, \"exp_all_pool\": {\"type\": \"integer\"}, \"participant_shares\": {\"type\": \"object\"}, \"non_participant_shares\": {\"type\": \"object\"}, \"explanation\": {\"type\": \"string\"}}, \"required\": [\"total_exp\", \"participant_pool\", \"exp_all_pool\", \"participant_shares\", \"non_participant_shares\", \"explanation\"]}"
+  }
+}
