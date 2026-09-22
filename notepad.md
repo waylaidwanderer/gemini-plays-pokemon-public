@@ -118,10 +118,10 @@
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 7, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36190]
-  - HP: 25 / 25 [Empirically Verified Lv 7 Turn 36205]
-  - Stats: Attack 15, Defense 14, Speed 14, Special 13 [Empirically Verified Lv 7 Turn 36190]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 8, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36226]
+  - HP: 25 / 25 [Verified Lv 7 Turn 36205] (Lv 8 HP unverified)
+  - Stats: Attack 16, Defense 15, Speed 15, Special 14 [Empirically Verified Lv 8 Turn 36226]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
@@ -5054,7 +5054,7 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
     - Empirical EXP.ALL Distribution Results:
       - Participant Pool (50% of E): PINCHY (276 EXP) + SHELDON (276 EXP) = 552 EXP. Total battle E = 1,104 (Golbat base exp = 156, Lv 46).
       - Exp. All Team Pool: Base share = 46 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
-      - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69).
+      - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69). DUX reached Level 8! (Atk 16, Def 15, Spd 15, Spc 14).
       - PINCHY Net Gain: 276 + 46 = 322 EXP (Krabby EXP: 4,955 -> 5,277, only 555 to Lv 18!).
 
 
