@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POK� FLUTE [Key Item]
+1. POKï¿½ FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -45,16 +45,16 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- �3056 [Turn 34152]
+- ï¿½¥3056 [Turn 34152]
 
-## Party Pok�mon (6 / 6)
+## Party Pokï¿½mon (6 / 6)
 - Slot 1: KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - HP: 36 / 36 [Verified Turn 36012]
   - Stats: Attack 39, Defense 35, Speed 22, Special 14 [Empirically Verified Turn 36076]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 3375 [Turn 35957]
+  - EXP: 3697 [Turn 36122] (Gained 322 in Battle 1)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -65,12 +65,12 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
-- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Healthy [Healed & Cured Turn 35840]
-  - HP: 238 / 243 [Turn 35892]
-  - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
+  - Status: Healthy [Level Up Turn 36119]
+  - HP: 244 / 249 [Turn 36122]
+  - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
@@ -87,7 +87,7 @@
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
 
-## PC Box 1 Pok�mon (Contiguous Slot Order - 13 Pok�mon)
+## PC Box 1 Pokï¿½mon (Contiguous Slot Order - 13 Pokï¿½mon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
 - Slot 2: HITMONLEE (BRUCE) [Lv 30]
 - Slot 3: LAPRAS (NESSY) [Lv 15]

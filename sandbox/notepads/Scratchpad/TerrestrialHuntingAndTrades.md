@@ -23,7 +23,7 @@
 - Average Yield per Cerulean Cave 1F battle (with EXP.ALL): ~350-400 EXP for Krabby (~45-50 battles for 18,577 EXP needed for Lv 28 Kingler).
 
 ### Krabby Switch-Training Combat Protocol
-- Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
+- Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild PokÃ©mon will instantly OHKO Krabby.
 - Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Exp. All Mechanics Note: The exact integer arithmetic formula for Exp. All distribution in retail Gen 1 remains an unverified hypothesis pending dedicated testing in upcoming battles.
 - Exp. All Integration: Once Exp. All is claimed from Route 15 Gatehouse, Krabby will automatically receive passive EXP from every defeated opponent without needing to enter battle directly, eliminating OHKO risks. If placed in battle and switched out, Krabby earns both active participant share and passive Exp. All share.
@@ -69,17 +69,14 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
    - Route 18 Gatehouse 2F: Trade Slowbro for Lickitung (MARC, #108).
      - Prerequisite Status: Slowpoke owned (Box 2), but not yet evolved into Slowbro (unobtained asset).
 4. Evolution Stones:
-   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
-   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
+   - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for Â¥2,100 each.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: Â¥3,056.
 
 ### Grinding Notes
-- Ice Beam Typing: Bug is damaged normally (1x) by Ice in Gen 1, while Grass is weak (2x), making Ice Beam 2x Super Effective vs Parasect.
 - Input Buffering Caution: Rapidly buffering consecutive 'A' presses across menu transitions can trigger unintentional move selections (e.g., Slot 1 Double-Edge). Chunk inputs cleanly with 'B' or pauses to verify menu states.
 
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
-- Expeditions 1-14 Summary: Defeated Sandslash Lv 52, Hypno Lv 46 x4, Venomoth Lv 49, Magneton Lv 46 x3, Kadabra Lv 49, Raichu Lv 53, Parasect Lv 52 x2 (14 battles total).
-- Expedition 2 Summary [Turns 35760-35840]: 7 battles completed (Battles 15-21: Magneton Lv 46, Hypno Lv 46 x3, Golbat Lv 46 x2, Venomoth Lv 49). Paras gained 3,738 EXP, grew from Lv 20 (8,327 EXP) to Lv 22 (12,065 EXP, verified HP 53/53). Pit-stop executed at Cerulean Pokémon Center; team 100% restored.
-- Expedition 3 Summary [Turns 35868-35918]: 4 battles completed (Battles 22-25: Hypno Lv 46, Venomoth Lv 49, Parasect Lv 52 x2). Paras gained 1,971 EXP, grew from Lv 22 (12,065 EXP) to Lv 24 (14,036 EXP), and EVOLVED INTO PARASECT (#047)! Pokédex caught verified at 50 [Turn 35923].
+- Expeditions 1-3 Summary: Historical grind completed; Paras (#046) evolved into Parasect (#047), verifying PokÃ©dex at 50 caught.
 - Expedition 4 (Active): Krabby switch-training with EXP.ALL in Cerulean Cave 1F.
   - Battle 1: Wild Golbat Lv 46. Turn 1 switched Krabby to Mewtwo (confused). Turn 2 Mewtwo OHKOed Golbat with critical STAB Psychic.
     - Empirical EXP.ALL Distribution Results:
