@@ -69,10 +69,10 @@
   - Stats: Attack 42, Defense 38, Speed 75, Special 65 [Empirically Verified Lv 26 Turn 36982]
   - OT: BLUE (IDNo. 04620)
   - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
-- Slot 4: GEODUDE (Nickname: ROCKY) [Lv 16, Rock/Ground]
-  - Status: Healthy [Level Up Turn 36810]
-  - HP: 43 / 43 [Empirically Verified Lv 16 Turn 37136]
-  - Stats: Attack 34, Defense 41, Speed 13, Special 17 [Empirically Verified Lv 16 Turn 37126]
+- Slot 4: GEODUDE (Nickname: ROCKY) [Lv 17, Rock/Ground]
+  - Status: Healthy [Level Up Turn 37443]
+  - HP: 45 / 45 [Pending party check; Lv 16 was 43]
+  - Stats: Attack 36, Defense 43, Speed 14, Special 18 [Empirically Verified Lv 17 Turn 37443 Screen]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
