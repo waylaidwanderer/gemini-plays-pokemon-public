@@ -5009,6 +5009,12 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
       - Exp. All Team Pool:
         - PINCHY (Native): 46 EXP (552 / 12 = 46.0). Total Krabby gain: 276 + 46 = 322 EXP!
         - DUX (Traded): 69 EXP! EMPIRICAL PROOF: 1.5x trade bonus applies to Exp. All (46 + floor(46/2) = 69).
+  - Battle 2: Wild Kadabra Lv 49. Turn 1 switched Krabby to Mewtwo (Kadabra move failed). Turn 2 Mewtwo OHKOed Kadabra with physical Swift (Swift PP 19/20, Psychic PP 8/10).
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (252 EXP) + OMEGA (252 EXP) = 504 EXP. Implies total battle E = 1,008.
+      - Exp. All Team Pool: Base share = 42 EXP (504 / 12 = 42.0).
+      - Krabby Net Gain: 252 + 42 = 294 EXP (Krabby EXP: 3,697 -> 3,991, 105 EXP to Lv 16).
+      - Traded DUX Expected: 63 EXP (42 + floor(42/2) = 63).
 
 
 <hr>
