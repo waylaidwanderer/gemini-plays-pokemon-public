@@ -1,8 +1,8 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 24, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 15,022 [Turn 38126]. Psyduck reached Level 24!
-  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (603 EXP remaining, ~2 battles).
+  - Current Empirical EXP: 15,363 [Turn 38138]. Psyduck reached Level 24!
+  - Milestone Next: Lv 25 = 25^3 = 15,625 EXP (262 EXP remaining, ~2 battles).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (21,870 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
@@ -16,7 +16,7 @@
   - HP: 246 / 254 [Leveled up to Lv 73 Battle 99]
   - Status: Healthy
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Turn 38125]
-  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (7/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 189 / 229
   - Status: Healthy
@@ -106,7 +106,7 @@
 - **Pre-Calculated Yields for First Encounter Verification:**
   | Species | Level | Total EXP | Part Share (E/4) | Hyp A Team Share | Hyp A Psyduck Total | Hyp A DUX (Boosted) | Hyp B Team Share | Hyp B Psyduck Total | Hyp B DUX (Boosted) |
   | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-  | **Golbat** | 46 | 1,104 | 276 | **69 EXP** | **345 EXP** | **103 EXP** | 46 EXP | 322 EXP | 69 EXP |
+  | **Golbat** | 46 | 1,104 | 276 | **65 EXP** (V) | **341 EXP** (V) | **97 EXP** (V) | 46 EXP | 322 EXP | 69 EXP |
   | **Hypno** | 46 | 1,076 | 269 | **65 EXP** (V) | **334 EXP** (V) | **97 EXP** (V) | 39 EXP | 308 EXP | 58 EXP |
   | **Magneton** | 46 | 1,050 | 262 | **65 EXP** (V) | **327 EXP** (V) | **97 EXP** (V) | 39 EXP | 301 EXP | 58 EXP |
   | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | 44 EXP | 341 EXP | 66 EXP |
@@ -121,6 +121,14 @@
 - **Test Protocol:** At the next PokÃÂ©mon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
 
 ### Expedition 9 Battle Log (4-Member Party Dilution Test):
+- Battle 100 (Golbat Lv 46, Turn 38131-38138):
+  - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 73). Golbat dealt 0 dmg.
+  - Mewtwo used STAB Psychic (2x SE OHKO). Psychic PP 7/10.
+  - EXP Yields (Total 1,104 EXP):
+    - Participant Share: Psyduck 276 EXP, Mewtwo 276 EXP.
+    - EXP.ALL Team Base Share (N=4): **65 EXP**! DUX Boosted Share: **97 EXP**!
+    - Trainee Gain: Psyduck gained 341 EXP (276 + 65).
+    - Trainee EXP: 15,022 -> 15,363 EXP (262 to Lv 25 milestone).
 - Battle 99 (Venomoth Lv 49, Turn 38118-38126):
   - Lead: Psyduck -> switched to Mewtwo (OMEGA Lv 72). Mewtwo fell asleep from Sleep Powder.
   - Turn 2: Used Poké Flute to awaken Mewtwo immediately; Venomoth's Leech Life missed!
