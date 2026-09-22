@@ -114,7 +114,7 @@
   - Stats: Attack 44, Defense 40, Speed 25, Special 15 [Empirically Verified Lv 17 Turn 36211]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 5277 [Turn 36225] (Gained 276 participant + 46 Exp. All = 322 in Battle 6; 555 to Lv 18)
+  - EXP: 5599 [Turn 36246] (Gained 276 participant + 46 Exp. All = 322 in Battle 7; 233 to Lv 18)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -4926,7 +4926,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 5,277 EXP, Target: 21,952 EXP, 16,675 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 5,599 EXP, Target: 21,952 EXP, 16,353 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -5034,6 +5034,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69). DUX reached Level 8! (Atk 16, Def 15, Spd 15, Spc 14).
       - ROCKY Net Gain: 46 EXP. ROCKY reached Level 10! (Atk 23, Def 27, Spd 10, Spc 12).
       - PINCHY Net Gain: 276 + 46 = 322 EXP (Krabby EXP: 4,955 -> 5,277, only 555 to Lv 18!).
+  - Battle 7: Wild Golbat Lv 46. Turn 1 switched Krabby to Blastoise (took 8 dmg from Wing Attack, HP 160/229). Turn 2 Blastoise OHKOed Golbat with 2x SE Ice Beam (Ice Beam PP 6/10).
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (276 EXP) + SHELDON (276 EXP) = 552 EXP. Total battle E = 1,104 (Golbat base exp = 156, Lv 46).
+      - Exp. All Team Pool: Base share = 46 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 69 EXP (46 + floor(46/2) = 69).
+      - PINCHY Net Gain: 276 + 46 = 322 EXP (Krabby EXP: 5,277 -> 5,599, only 233 to Lv 18!).
 
 
 <hr>
