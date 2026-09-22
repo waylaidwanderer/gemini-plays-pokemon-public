@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 5,921 EXP, Target: 21,952 EXP, 16,031 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 6,262 EXP, Target: 21,952 EXP, 15,690 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -75,3 +75,9 @@
   - Battles 6-8 (Wild Golbat Lv 46 x3): Blastoise OHKOed with 2x SE Ice Beam (took 0 dmg from Haze in B6 & B8, 8 dmg from Wing Attack in B7, HP 160/229).
     - Yields per battle: PINCHY +322 EXP (276 part + 46 Exp. All), SHELDON +322 EXP, DUX +69 EXP (traded), OMEGA/VEE/ROCKY +46 EXP each.
     - Milestones: DUX reached Lv 8 (B6), ROCKY reached Lv 10 (B6), PINCHY reached Level 18 (B8, Atk 47, Def 42, Spd 26, Spc 16, HP 42/42 verified). PINCHY total EXP: 5,921.
+  - Battle 9: Wild Sandslash Lv 52. Turn 1 switched Krabby to Blastoise (took 10 dmg from Fury Swipes, HP 150/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 12/15).
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (297 EXP) + SHELDON (297 EXP) = 594 EXP. Total battle E = 1,188 (Sandslash base exp = 160, Lv 52).
+      - Exp. All Team Pool: Base share = 44 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 66 EXP (44 + floor(44/2) = 66).
+      - PINCHY Net Gain: 297 + 44 = 341 EXP (Krabby EXP: 5,921 -> 6,262, only 597 to Lv 19!).
