@@ -108,15 +108,15 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: KRABBY (Nickname: PINCHY) [Lv 19, Water]
-  - Status: Healthy [Level Up Turn 36308]
-  - HP: 44 / 44 [Empirically Verified Lv 19 Turn 36315]
-  - Stats: Attack 49, Defense 44, Speed 27, Special 17 [Empirically Verified Lv 19 Turn 36308]
+- Slot 1: KRABBY (Nickname: PINCHY) [Lv 20, Water]
+  - Status: Healthy [Level Up Turn 36373]
+  - HP: 44 / 44 (Max HP pending verification)
+  - Stats: Attack 52, Defense 46, Speed 29, Special 17 [Empirically Verified Lv 20 Turn 36373]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 7875 [Turn 36357] (Gained 297 participant + 44 Exp. All = 341 in Battle 14; 125 to Lv 20)
+  - EXP: 8113+ [Turn 36373] (Gained 238 participant + Exp. All pending in Battle 15; Target Lv 21: 9,261 EXP)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
-  - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
+  - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 10, Normal/Flying]
   - Status: Healthy [Level Up Turn 36359]
@@ -4926,8 +4926,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 7,875 EXP, Target: 21,952 EXP, 14,077 EXP needed for Lv 28 Kingler)
+## Active Goal: Switch-train Krabby (PINCHY Lv 20 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+- Krabby Starting EXP: 3,375 EXP (Current: 8,113+ EXP, Target: 21,952 EXP, ~13,839 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
