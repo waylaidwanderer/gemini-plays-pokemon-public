@@ -127,7 +127,7 @@
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
-  - Status: Healthy
+  - Status: Paralyzed (PAR) [Afflicted Turn 35817 by Venomoth Stun Spore]
   - HP: 223 / 243 [Turn 35797]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
@@ -4947,10 +4947,18 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Mewtwo (OMEGA Lv 71): Psychic 10 PP, Swift 20 PP, Recover 20 PP (total 50 PP).
   - Combined High-Yield SE PP: 25 moves (Surf + Ice Beam) on Blastoise, 10 moves (Psychic) on Mewtwo = 35 primary OHKO moves.
   - Safe Grinding Window: ~18-20 battles per expedition before primary STAB PP runs low.
-  - Pit-Stop Retreat Threshold: Sweeper HP < 60 (independent retreat trigger); OR Blastoise Surf <= 3 PP AND Mewtwo Psychic <= 2 PP (compound PP depletion trigger).
-    1. Walk South to (24..25, 17) and step onto warp to exit Cerulean Cave onto canal apron at (4, 12).
-    2. Open party menu -> Farfetch'd (DUX) -> FLY -> Cerulean City.
-    3. Enter Pokémon Center, heal with Nurse Joy, return north via Route 24 canal.
+  - Pit-Stop Retreat Thresholds:
+    1. HP Trigger: Sweeper HP < 60 (independent retreat trigger).
+    2. PP Trigger: Blastoise Surf <= 3 PP AND Mewtwo Psychic <= 2 PP (compound PP depletion trigger).
+    3. Status Trigger:
+       - Freeze: Immediate retreat trigger upon battle conclusion.
+       - Sleep: In-battle remedy via Poké Flute (Bag Slot 1, infinite use); no retreat needed unless compounded with low HP.
+       - Poison: Increases HP retreat threshold to HP < 80.
+       - Paralysis: Reduces Speed by 75% and incurs 25% full paralysis rate. Allowed to continue if Mewtwo HP >= 120 and Blastoise HP >= 80. If Mewtwo HP < 120 while paralyzed OR Blastoise HP < 80 while Mewtwo is paralyzed, trigger immediate retreat.
+    4. Pit-Stop Execution Routine:
+       a. Walk South to (24..25, 17) and step onto warp to exit Cerulean Cave onto canal apron at (4, 12).
+       b. Open party menu -> Farfetch'd (DUX) -> FLY -> Cerulean City.
+       c. Enter Pokémon Center, heal with Nurse Joy, return north via Route 24 canal.
 
 ### Other Post-Game Evolution Candidates
 1. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
@@ -4987,13 +4995,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Battle 15 (Exp 2 Battle 1) [Turn 35768]: Defeated wild Magneton Lv 46. Switched Paras to Mewtwo; Psychic OHKO (Psychic 9/10, Mewtwo HP 233/243). Paras gained 525 EXP.
 - Battle 16 (Exp 2 Battle 2) [Turn 35777]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 14/15, Blastoise HP 195/225). Paras gained 538 EXP and GREW TO LEVEL 21!
 - Battle 17 (Exp 2 Battle 3) [Turn 35788]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 8/10, Mewtwo HP 233/243). Paras gained 558 EXP.
-  - Current State: Paras Lv 21 (9,948 EXP, +8,948 EXP total gained).
-  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 3,876 EXP (700 to Lv 22).
 - Battle 18 (Exp 2 Battle 4) [Turn 35797]: Defeated wild Golbat Lv 46. Switched Paras to Mewtwo; STAB Psychic 2x SE Critical Hit OHKO (Psychic 7/10, Mewtwo HP 223/243). Paras gained 558 EXP.
-  - Current State: Paras Lv 21 (10,506 EXP, +9,506 EXP total gained).
-  - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 3,318 EXP (142 to Lv 22).
 - Battle 19 (Exp 2 Battle 5) [Turn 35810]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 12/15, Blastoise HP 91/225). Paras gained 538 EXP and GREW TO LEVEL 22!
   - Current State: Paras Lv 22 (11,044 EXP, +10,044 EXP total gained).
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 2,780 EXP (1,123 to Lv 23).
+- Battle 20 (Exp 2 Battle 6) [Turn 35822]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 6/10, Mewtwo HP 223/243 PAR). Paras gained 483 EXP (11,527 EXP, 2,297 to Lv 24).
 
 <hr>

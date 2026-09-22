@@ -86,3 +86,4 @@
 - Battle 19 (Exp 2 Battle 5) [Turn 35810]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 12/15, Blastoise HP 91/225). Paras gained 538 EXP and GREW TO LEVEL 22!
   - Current State: Paras Lv 22 (11,044 EXP, +10,044 EXP total gained).
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 2,780 EXP (1,123 to Lv 23).
+- Battle 20 (Exp 2 Battle 6) [Turn 35822]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 6/10, Mewtwo HP 223/243 PAR). Paras gained 483 EXP (11,527 EXP, 2,297 to Lv 24).
