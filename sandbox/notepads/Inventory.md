@@ -50,7 +50,7 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: KRABBY (Nickname: PINCHY) [Lv 22, Water]
   - Status: Healthy [Level Up Turn 36537]
-  - HP: 50 / 50 [Pending overworld check]
+  - HP: 50 / 50 [Empirically Verified Lv 22 Turn 36571]
   - Stats: Attack 57, Defense 50, Speed 31, Special 19 [Empirically Verified Lv 22 Turn 36537]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -59,7 +59,7 @@
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 12, Normal/Flying]
   - Status: Healthy [Level Up Turn 36563]
-  - HP: 36 / 36 [Pending overworld check]
+  - HP: 36 / 36 [Empirically Verified Lv 12 Turn 36571]
   - Stats: Attack 22, Defense 21, Speed 20, Special 19 [Empirically Verified Lv 12 Turn 36563]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
@@ -76,7 +76,7 @@
   - Moves: Tackle, Sand-Attack, Thunderbolt
 - Slot 5: GEODUDE (Nickname: ROCKY) [Lv 13, Rock/Ground]
   - Status: Healthy [Level Up Turn 36524]
-  - HP: 36 / 36 [Pending overworld check]
+  - HP: 36 / 36 [Empirically Verified Lv 13 Turn 36571]
   - Stats: Attack 28, Defense 34, Speed 12, Special 15 [Empirically Verified Lv 13 Turn 36524]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40)
   - Caught: Mt. Moon 1F [Turn 1197]
