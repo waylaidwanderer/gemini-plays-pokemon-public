@@ -11,6 +11,7 @@
 - **Batched Operations:** PC sessions can seamlessly transition between BILL's PC and BLUE's PC by pressing B to back out to the main PC menu ('BILL's PC', 'BLUE's PC', 'PROF. OAK's PC', 'LOG OFF') without needing to exit to the overworld between operations.
 
 ## PC Deposit Sub-Menu Mechanics (Generation 1 Retail)
+- **PC Deposit Menu Loop Mechanics:** In Generation 1 retail, after confirming a deposit and clearing the '[POKéMON] was stored in BOX X' dialogue, the game returns to the main Bill's PC menu with cursor pre-selected on `DEPOSIT PKMN` (it does not remain inside the party deposit list). Selecting `DEPOSIT PKMN` again re-opens the updated party list. [Empirically verified Turns 38057-38058]
 - In Generation 1 retail, selecting a Pokémon in the PC DEPOSIT menu does not immediately store it. It opens a secondary sub-menu:
   - `DEPOSIT` (default cursor)
   - `STATS`

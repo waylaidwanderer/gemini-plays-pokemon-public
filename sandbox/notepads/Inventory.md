@@ -47,10 +47,10 @@
 ## Money
 - ¥3056 [Turn 34152]
 
-## Party Pokémon (6 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 24, Water]
   - Status: Healthy
-  - HP: ~63 / 63
+  - HP: 63 / 63
   - Stats: Attack 37, Defense 30, Speed 37, Special 37
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -63,24 +63,12 @@
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
-  - Status: Healthy
-  - HP: 71 / 71
-  - Stats: Attack 42, Defense 38, Speed 75, Special 65
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Tackle (PP 35/35), Sand-Attack (PP 15/15), Thunderbolt (PP 15/15)
-- Slot 4: GEODUDE (Nickname: ROCKY) [Lv 18, Rock/Ground]
-  - Status: Healthy
-  - HP: 47 / 47
-  - Stats: Attack 38, Defense 45, Speed 15, Special 19
-  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40) (Rock Throw declined)
-  - Caught: Mt. Moon 1F [Turn 1197]
-- Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
-  - Status: Healthy
+- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
+  - Status: Healthy (Poison cured Turn 38045)
   - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 6: FARFETCH'D (Nickname: DUX) [Lv 18, Normal/Flying]
+- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 18, Normal/Flying]
   - Status: Healthy
   - HP: 49 / 49
   - Stats: Attack 31, Defense 29, Speed 29, Special 27
@@ -103,3 +91,5 @@
 - Slot 12: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
 - Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
 - Slot 14: KINGLER (PINCHY) [Lv 28, Water, Deposited Turn 37244]
+- Slot 15: JOLTEON (VEE) [Lv 26, Electric, Deposited Turn 38057]
+- Slot 16: GEODUDE (ROCKY) [Lv 18, Rock/Ground, Deposited Turn 38058]
