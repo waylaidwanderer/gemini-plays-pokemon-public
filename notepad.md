@@ -135,10 +135,10 @@
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 11, Rock/Ground]
-  - Status: Healthy [Level Up Turn 36297]
-  - HP: 32 / 32 [Empirically Verified Lv 11 Turn 36302]
-  - Stats: Attack 25, Defense 29, Speed 10, Special 13 [Empirically Verified Lv 11 Turn 36297]
+- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 12, Rock/Ground]
+  - Status: Healthy [Level Up Turn 36397]
+  - HP: 32 / 32 (Max HP pending verification)
+  - Stats: Attack 26, Defense 32, Speed 11, Special 14 [Empirically Verified Lv 12 Turn 36397]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15), Defense Curl (PP 40/40)
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
@@ -5006,7 +5006,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 13 (Wild Magneton Lv 46): Turn 1 switched Krabby to Mewtwo (absorbed Thunder Wave, paralyzed, HP 165/249). Turn 2 Magneton used Supersonic, Mewtwo confused; Mewtwo attacked through paralysis and confusion with STAB Psychic for an OHKO (Psychic PP 4/10). PINCHY earned 301 EXP (262 part + 39 Exp. All, EXP: 7,233 -> 7,534, only 466 to Lv 20).
   - Battle 14 (Wild Sandslash Lv 52): Turn 1 switched Krabby to Blastoise (took 34 dmg from crit Slash, HP 101/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 9/15). PINCHY earned 341 EXP (297 part + 44 Exp. All, EXP: 7,534 -> 7,875, only 125 to Lv 20). DUX grew to Level 10 (Atk 19, Def 18, Spd 18, Spc 17, verified Turn 36359).
   - Battle 15 (Wild Venomoth Lv 49): Turn 1 switched Krabby to Mewtwo (took 0 dmg, Stun Spore failed on PAR, HP 165/249). Turn 2 Mewtwo attacked through paralysis with STAB 2x SE Psychic for an OHKO (Psychic PP 3/10). PINCHY earned 273 EXP (238 part + 35 Exp. All, EXP: 7,875 -> 8,148) and grew to Level 20! (Atk 52, Def 46, Spd 29, Spc 17, learned ViceGrip in Slot 3). Target Lv 21: 9,261 EXP (1,113 needed).
-  - Battle 16 (Wild Kadabra Lv 49): Turn 1 switched Krabby to Blastoise (took 0 dmg, Kadabra used Reflect, HP 101/229). Turn 2 Blastoise used STAB Surf, bypassing Reflect to OHKO Kadabra (Surf PP 8/15). PINCHY earned 294 EXP (252 part + 42 Exp. All, EXP: 8,148 -> 8,442, 819 to Lv 21).
+  - Battle 16 (Wild Kadabra Lv 49): Turn 1 switched Krabby to Blastoise (took 0 dmg, Kadabra used Reflect, HP 101/229). Turn 2 Blastoise used STAB Surf, bypassing Reflect to OHKO Kadabra (Surf PP 8/15). PINCHY earned 294 EXP (252 part + 42 Exp. All, EXP: 8,148 -> 8,442, 819 to Lv 21). ROCKY grew to Level 12 (Atk 26, Def 32, Spd 11, Spc 14, verified Turn 36397).
 
 
 <hr>
