@@ -140,7 +140,9 @@
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 6: PSYDUCK (Nickname: MIGRAINE) [Lv 15, Water]
-  - Status: Healthy [Withdrawn Turn 37281]
+  - Status: Healthy [Verified Turn 37295]
+  - HP: 42 / 42 [Empirically Verified Lv 15 Turn 37295]
+  - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Empirically Verified Lv 15 Turn 37295]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - Target: Level 33 (35,937 EXP) -> GOLDUCK (#055)
