@@ -7,7 +7,7 @@
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 76, Turn 37623):
-- Trainee: PSYDUCK (MIGRAINE) [Lv 19, Water, Lead Slot]
+- Trainee: PSYDUCK (MIGRAINE) [Lv 20, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37623]
   - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
   - EXP: 8,000 (1,261 to Lv 21)
