@@ -1,60 +1,115 @@
 <h1><code>Main</code></h1>
 
-# Pokémon Blue - Journey Log
-
-## Status
-
-- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
-- Money: ¥3056 [Turn 34152]
-- Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
-
-## Milestones
-
-- [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
-- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
-- [x] Defeat Rival RED in Oak's Lab [Turn 58]
-- [x] Reach Viridian City via Route 1 [Turn 132]
-- [x] Obtain Pokédex from Prof. Oak [Turn 214]
-- [x] Reach Pewter City [Turn 495]
-- [x] Defeat Pewter Gym Leader Brock [Turn 594]
-- [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
-- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
-- [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
-- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
-- [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
-- [x] Rescue Mr. Fuji from Pokémon Tower and obtain PokÃ© Flute in Lavender Town [Turn 6599]
-- [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
-- [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
-- [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
-- [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
-- [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
-- [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
-- [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
-- [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
-- [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
-- [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
-- [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
-- [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
-- [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
-- [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
-- [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
-- [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
-- [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
-- [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
-- [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
-- [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
-- [x] Evolve Koffing into Weezing (#110) [Turn 33242]
-- [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
-- [x] Evolve Seel into Dewgong (#087) [Turn 33656]
-- [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
-- [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
-- [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
-- [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
-- [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
-- [x] Evolve Paras into Parasect (#047) [Turn 35918]
-- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]
-- [x] Evolve Krabby into Kingler (#099) [Turn 37206]
-- [ ] Evolve Psyduck into Golduck (#055) at Lv 33 (35,937 EXP)
+# Pokémon Blue - Journey Log
+
+
+
+## Status
+
+
+
+- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
+
+- Money: ¥3056 [Turn 34152]
+
+- Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
+
+
+
+## Milestones
+
+
+
+- [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
+
+- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
+
+- [x] Defeat Rival RED in Oak's Lab [Turn 58]
+
+- [x] Reach Viridian City via Route 1 [Turn 132]
+
+- [x] Obtain Pokédex from Prof. Oak [Turn 214]
+
+- [x] Reach Pewter City [Turn 495]
+
+- [x] Defeat Pewter Gym Leader Brock [Turn 594]
+
+- [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
+
+- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
+
+- [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
+
+- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
+
+- [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
+
+- [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
+
+- [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
+
+- [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
+
+- [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
+
+- [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
+
+- [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
+
+- [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
+
+- [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
+
+- [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
+
+- [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
+
+- [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
+
+- [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
+
+- [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
+
+- [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
+
+- [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
+
+- [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
+
+- [x] Catch legendary Pokémon MEWTWO on Cerulean Cave B1F with MASTER BALL! [Turn 28234]
+
+- [x] Obtain HM02 Fly from secret house on Route 16 [Turn 28787]
+
+- [x] Capture Legendary ZAPDOS in Kanto Power Plant with Ultra Ball [Turn 29075]
+
+- [x] Encountered Legendary ARTICUNO on Seafoam Islands B4F (fled; despawned) [Turn 29975]
+
+- [x] Encountered Legendary MOLTRES on Victory Road 2F (fled; despawned) [Turn 30607]
+
+- [x] Evolve Koffing into Weezing (#110) [Turn 33242]
+
+- [x] Evolve Vulpix into Ninetales (#038) via Fire Stone [Turn 33357]
+
+- [x] Evolve Seel into Dewgong (#087) [Turn 33656]
+
+- [x] Evolve Poliwag into Poliwhirl (#061) [Turn 34072]
+
+- [x] Evolve Poliwhirl into Poliwrath (#062) via Water Stone [Turn 34159]
+
+- [x] Evolve Diglett into Dugtrio (#051) [Turn 34568]
+
+- [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
+
+- [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
+
+- [x] Evolve Paras into Parasect (#047) [Turn 35918]
+
+- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]
+
+- [x] Evolve Krabby into Kingler (#099) [Turn 37206]
+
+- [ ] Evolve Psyduck into Golduck (#055) at Lv 33 (35,937 EXP)
+
 
 
 <hr>
@@ -256,15 +311,15 @@
   - Participant vs Non-Participant Division Hypothesis: While Golbat and Kadabra base shares match `floor(E / 24.0)`, 6 of 9 species exhibit divisor K between 24.5 and 27.6 (e.g. Hypno K=27.6, Sandslash K=27.0). The exact 8-bit register truncation routine in Gen 1 assembly remains an unverified hypothesis under ongoing empirical tracking.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
 - **Empirical Effective Divisor K (Across 95 Battles):**
-  - Golbat (E=1104, base=46, K=24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86,92,93]
-  - Kadabra (E=1008, base=42, K=24.0) [B2,16,25,72]
-  - Raichu (E=908, base=37, K=24.5) [B19,35,53,60,78]
-  - Parasect (E=950, base=37, K=25.7) [B41,42,46,91,94]
-  - Dodrio (E=1092, base=42, K=26.0) [B3,18,26,30,36,37,59,70,77,85,87]
-  - Magneton (E=1050, base=39, K=26.9) [B13,22,27,31,50,61,62,79,80,95]
-  - Sandslash (E=1188, base=44, K=27.0) [B5,9,10,14,23,56,65,89]
-  - Venomoth (E=952, base=35, K=27.2) [B15,21,28,33,34,52,71,76,83,84]
-  - Hypno (E=1076, base=39, K=27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90]
+  - Golbat (E=1104, base=46, K=24.0) [22 empirical encounters verified]
+  - Kadabra (E=1008, base=42, K=24.0) [4 empirical encounters verified]
+  - Raichu (E=908, base=37, K=24.5) [5 empirical encounters verified]
+  - Parasect (E=950, base=37, K=25.7) [5 empirical encounters verified]
+  - Dodrio (E=1092, base=42, K=26.0) [11 empirical encounters verified]
+  - Magneton (E=1050, base=39, K=26.9) [10 empirical encounters verified]
+  - Sandslash (E=1188, base=44, K=27.0) [8 empirical encounters verified]
+  - Venomoth (E=952, base=35, K=27.2) [10 empirical encounters verified]
+  - Hypno (E=1076, base=39, K=27.6) [19 empirical encounters verified]
 
 
 <hr>
