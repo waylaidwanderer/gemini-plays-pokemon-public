@@ -1425,6 +1425,7 @@
   - Obtained: From girl in Route 16 Secret House [Turn 28787].
   - Function: Warps player instantly to any previously visited Pokémon Center town across Kanto.
   - Designated User: Farfetch'd (DUX).
+  - Party Move Submenu Order: When selecting DUX from the party Pokémon menu, CUT is Option 1 and FLY is Option 2 (pressing Down once navigates from CUT to FLY) [Empirically verified Turn 37217].
   - Fly Map Navigation Controls & Mechanics:
     - When using HM02 Fly from the party Pokémon menu, the Kanto regional map appears with a list of previously visited Pokémon Centers / destinations.
     - Cycling through destinations is controlled via Up and Down directional inputs. Pressing Up advances forward cyclically through the destination list (Pallet -> Viridian -> Pewter -> Cerulean -> Lavender -> Vermilion -> Celadon -> Fuchsia -> Cinnabar -> Indigo -> Saffron -> Pallet), while pressing Down cycles backward in reverse order.
@@ -4930,7 +4931,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
-| Species | Level | Total Wild EXP | Krabby Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
+| Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Raichu** | 53 | 908 | **264 EXP** (227+37) | 55 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Venomoth** | 49 | 952 | **273 EXP** (238+35) | 52 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
@@ -4960,9 +4961,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
-### Krabby Switch-Training Combat Protocol
-- Vulnerability Profile: Krabby (Water, Lv 27, HP 60, Attack 69, Defense 62, Speed 38, Special 23) has severe vulnerability to Special attacks (Electric, Grass, Psychic) due to low Special stat (23) and modest HP (60). Any Special hit from Cerulean Cave wild Pok�mon will deal massive or lethal damage.
-- Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
+### Psyduck Switch-Training Combat Protocol
+- Vulnerability Profile: Psyduck (Water, Lv 15, HP ~45, Water) has very low stats compared to Lv 46-53 Cerulean Cave wild Pokémon. Any hit will be lethal.
+- Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 72). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
@@ -4985,7 +4986,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
      - Prerequisite Status: Slowpoke owned (Box 2), but not yet evolved into Slowbro (unobtained asset).
 4. Evolution Stones:
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
-   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: Â¥3,056.
+   - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
 
 
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
