@@ -5033,7 +5033,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Protocol Trigger Check:
   - Mewtwo HP: 221 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
   - Blastoise HP: 182 (> 60 trigger). Surf PP: 13 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Ready for Battle 97 or Dilution Test Pit Stop.
+  - Protocol Status: Pit Stop Initiated (Turn 38033). Flying to Cerulean City Pokémon Center to heal Blastoise PSN and deposit Jolteon and Geodude into Box 1 for EXP.ALL Dilution Test (4-member party).
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -5128,7 +5128,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Trainee EXP: 13,759 -> 14,067 EXP.
   - MILESTONE: Psyduck GREW TO LEVEL 24! Verified Lv 24 stats: Atk 37, Def 30, Spd 37, Spc 37.
   - Remaining to Lv 25 (15,625 EXP): 1,558 EXP (~5 battles).
-
-
 
 <hr>
