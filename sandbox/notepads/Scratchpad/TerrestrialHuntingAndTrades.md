@@ -81,4 +81,4 @@
     - B20: Wild Golbat Lv 46 (Blastoise swept; pit-stop heal at Cerulean Center).
     - B21: Wild Venomoth Lv 49 (Mewtwo swept; +273 EXP).
     - B22: Wild Magneton Lv 46 (Mewtwo swept; +301 EXP, PINCHY reached 10,239 EXP).
-    - Battles 23-32 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,331 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29, B32). All EXP distributions verified.
+    - Battles 23-32 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,331 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23, Lv 14 in B32). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29, B32). All EXP distributions verified.
