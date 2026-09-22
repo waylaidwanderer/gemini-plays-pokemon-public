@@ -4956,7 +4956,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
     - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
-    - Raichu (E=908, base=37 = E/24.5) [B19,35,53]
+    - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60]
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56]
