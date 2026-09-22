@@ -126,7 +126,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Healed Turn 37034]
-  - HP: 224 / 249 [Turn 37100]
+  - HP: 215 / 249 [Turn 37122]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -5002,5 +5002,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 53: Wild Raichu Lv 53. Krabby switched to Mewtwo (OMEGA). Raichu used Growl on switch turn (-1 Atk). Turn 2 Mewtwo OHKOed Raichu with STAB Psychic. Krabby gained 227 EXP + 37 EXP = 264 EXP, reaching 19,567 EXP (only 116 to Lv 27!). DUX gained 55 EXP. Base team share = 37 EXP.
 
   - Battle 54: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Hypno landed critical hit on switch turn (-21 HP, Mewtwo at 224/249). Turn 2 Mewtwo scored OHKO critical hit with Swift (PP 19/20). Krabby gained 269 participant EXP, leveling up to Level 27! (Stats: Atk 69, Def 62, Spe 38, Spc 23). Exp. All shares: PINCHY 39 EXP (308 EXP total gain, reaching 19,875 EXP; 2,077 to Lv 28 Kingler), DUX 58 EXP (boosted), OMEGA 39 EXP, VEE 39 EXP, ROCKY 39 EXP, SHELDON 39 EXP.
+  - Battle 55: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Golbat dealt 9 damage on switch turn (Mewtwo at 215/249 HP). Turn 2 Mewtwo OHKOed Golbat with STAB 2x SE Psychic (PP 6/10). Krabby gained 276 participant EXP + 46 team share = 322 EXP, reaching 20,197 EXP (1,755 to Lv 28 Kingler). DUX gained 69 EXP (boosted). Base team share = 46 EXP. ROCKY leveled up to Lv 16 (Atk 34, Def 41, Spe 13, Spc 17; Rock Throw declined).
 
 <hr>
