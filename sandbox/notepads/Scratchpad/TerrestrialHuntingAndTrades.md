@@ -21,7 +21,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-61
+### Exp. All Empirical Model Audit & Observations Across Battles 1-66
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -60,26 +60,31 @@
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3056.
 
-### Expedition 5 Battle Log (Psyduck Trainee):
-- Battle 1 (Turn 37360): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
+### Expedition 5 Battle Log (Psyduck Trainee, Continuous Battles 62-66):
+- Battle 62 (Exp 5 Battle 1, Turn 37360): Defeated Wild Magneton Lv 46. Mewtwo STAB Psychic (Critical Hit OHKO).
   - Psyduck: 301 EXP (262 participant + 39 team share) -> New EXP: 3,676 (420 to Lv 16).
   - DUX: 58 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Magneton model.
-
-- Battle 2 (Turn 37375): Defeated Wild Hypno Lv 46. Mewtwo Swift (2HKO, Turn 2 Critical Hit).
+- Battle 63 (Exp 5 Battle 2, Turn 37375): Defeated Wild Hypno Lv 46. Mewtwo Swift (2HKO, Turn 2 Critical Hit).
   - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 3,984 (112 to Lv 16).
   - DUX: 58 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Hypno model.
-- Battle 3 (Turn 37387): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (2x SE OHKO).
+- Battle 64 (Exp 5 Battle 3, Turn 37387): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (2x SE OHKO).
   - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 4,306 (Grew to Lv 16!).
     - Lv 16 Stats: Attack 26, Defense 21, Speed 26, Special 25 [Empirically Verified Turn 37388 Screen].
   - DUX: 69 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
   - Formula audit: 100% consistent with verified Golbat model.
-- Battle 4 (Turn 37396): Defeated Wild Sandslash Lv 52. Blastoise STAB Surf (2x SE OHKO).
+- Battle 65 (Exp 5 Battle 4, Turn 37396): Defeated Wild Sandslash Lv 52. Blastoise STAB Surf (2x SE OHKO).
   - Psyduck: 341 EXP (297 participant + 44 team share) -> New EXP: 4,647 (266 to Lv 17).
   - DUX: 66 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 44 EXP each.
   - Formula audit: 100% consistent with verified Sandslash model.
+- Battle 66 (Exp 5 Battle 5, Turn 37409): Defeated Wild Golbat Lv 46. Mewtwo STAB Psychic (2x SE OHKO).
+  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 4,969 (Grew to Lv 17!).
+    - Lv 17 Stats: Attack 27, Defense 22, Speed 27, Special 27 [Empirically Verified Turn 37411 Screen].
+  - DUX: 69 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
+  - Formula audit: 100% consistent with verified Golbat model.
