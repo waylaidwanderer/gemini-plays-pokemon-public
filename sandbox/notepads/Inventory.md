@@ -59,7 +59,7 @@
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 14, Normal/Flying]
   - Status: Healthy [Level Up Turn 36836]
-  - HP: 38 / 38 [Empirically Verified Lv 13 Turn 36668]
+  - HP: 40 / 40 [Empirically Verified Lv 14 Turn 36849]
   - Stats: Attack 25, Defense 23, Speed 23, Special 22 [Empirically Verified Lv 14 Turn 36836]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
