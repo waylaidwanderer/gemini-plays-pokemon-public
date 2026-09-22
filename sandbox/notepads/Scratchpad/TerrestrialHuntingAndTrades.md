@@ -24,7 +24,16 @@
 ### Exp. All Empirical Model Audit & Observations Across Battles 1-31
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
-  - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
+  - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
+    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29]
+    - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
+    - Raichu (E=908, base=37 = E/24.5) [B19]
+    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30]
+    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31]
+    - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23]
+    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24]
+    The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 31 battles!).
 
 ### Krabby Switch-Training Combat Protocol
@@ -72,12 +81,4 @@
     - B20: Wild Golbat Lv 46 (Blastoise swept; pit-stop heal at Cerulean Center).
     - B21: Wild Venomoth Lv 49 (Mewtwo swept; +273 EXP).
     - B22: Wild Magneton Lv 46 (Mewtwo swept; +301 EXP, PINCHY reached 10,239 EXP).
-    - B23: Wild Sandslash Lv 52 (Blastoise swept; +341 EXP, PINCHY reached 10,580 EXP, 68 to Lv 22; ROCKY Lv 13).
-    - B24: Wild Hypno Lv 46 (Blastoise swept; +308 EXP, PINCHY grew to Lv 22 [Atk 57, Def 50, Spd 31, Spc 19, 10,888 EXP]).
-    - B25: Wild Kadabra Lv 49 (Mewtwo swept with Swift; +294 EXP [252 part + 42 Exp.All], DUX +63, PINCHY reached 11,182 EXP [985 to Lv 23]).
-    - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63 [grew to Lv 12], PINCHY reached 11,497 EXP [670 to Lv 23]).
-    - B27: Wild Magneton Lv 46 (Mewtwo swept with Psychic; +301 EXP [262 part + 39 Exp.All], DUX +58, PINCHY reached 11,798 EXP [369 to Lv 23]).
-    - B28: Wild Venomoth Lv 49 (Mewtwo swept with Psychic; +273 EXP [238 part + 35 Exp.All], DUX +52, PINCHY reached 12,071 EXP [96 to Lv 23]).
-    - B29: Wild Golbat Lv 46 (Blastoise swept with critical Ice Beam; +322 EXP [276 part + 46 Exp.All], DUX +69, PINCHY grew to Lv 23 [Atk 59, Def 53, Spd 33, Spc 20, 12,393 EXP]).
-    - B30: Wild Dodrio Lv 49 (Blastoise swept with Ice Beam; +315 EXP [273 part + 42 Exp.All], DUX +63, PINCHY reached 12,708 EXP [1,116 to Lv 24]).
-    - B31: Wild Magneton Lv 46 (Mewtwo swept with Psychic; +301 EXP [262 part + 39 Exp.All], DUX +58, PINCHY reached 13,009 EXP [815 to Lv 24]).
+    - Battles 23-31 Consolidated Summary: Grinded Krabby from Lv 21 to Lv 23 (13,009 EXP, reached Lv 22 in B24, reached Lv 23 in B29; DUX grew to Lv 12 in B26; ROCKY grew to Lv 13 in B23). Swept Sandslash Lv 52 (B23), Hypno Lv 46 (B24), Kadabra Lv 49 (B25), Dodrio Lv 49 (B26, B30), Magneton Lv 46 (B27, B31), Venomoth Lv 49 (B28), Golbat Lv 46 (B29). All EXP distributions verified.
