@@ -92,4 +92,4 @@
     - B23: Wild Sandslash Lv 52 (Blastoise swept; +341 EXP, PINCHY reached 10,580 EXP, 68 to Lv 22; ROCKY Lv 13).
     - B24: Wild Hypno Lv 46 (Blastoise swept; +308 EXP, PINCHY grew to Lv 22 [Atk 57, Def 50, Spd 31, Spc 19, 10,888 EXP]).
     - B25: Wild Kadabra Lv 49 (Mewtwo swept with Swift; +294 EXP [252 part + 42 Exp.All], DUX +63, PINCHY reached 11,182 EXP [985 to Lv 23]).
-    - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63, PINCHY reached 11,497 EXP [670 to Lv 23]).
+    - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63 [grew to Lv 12], PINCHY reached 11,497 EXP [670 to Lv 23]).
