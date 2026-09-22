@@ -109,7 +109,7 @@
   | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | 44 EXP | 341 EXP | 66 EXP |
   | **Kadabra**  | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | 42 EXP | 294 EXP | 63 EXP |
   | **Dodrio**   | 49 | 1,092 | 273 | **68 EXP** | **341 EXP** | **102 EXP** | 42 EXP | 315 EXP | 63 EXP |
-  | **Venomoth** | 49 | 952   | 238 | **56 EXP** (V) | **294 EXP** (V) | **84 EXP** (P) | 35 EXP | 273 EXP | 52 EXP |
+  | **Venomoth** | 49 | 952   | 238 | **56 EXP** (V) | **294 EXP** (V) | **84 EXP** (V) | 35 EXP | 273 EXP | 52 EXP |
   | **Raichu**   | 53 | 908   | 227 | **56 EXP** | **283 EXP** | **84 EXP** | 37 EXP | 264 EXP | 55 EXP |
   | **Parasect** | 52 | 950   | 237 | **59 EXP** | **296 EXP** | **88 EXP** | 37 EXP | 274 EXP | 55 EXP |
 
@@ -125,7 +125,7 @@
   - EXP Yields (Total 952 EXP):
     - Participant Share: Psyduck 238 EXP, Mewtwo 238 EXP.
     - EXP.ALL Team Base Share (N=4): **56 EXP**! (`952 // 17 = 56`, up from 35 EXP under N=6, a +60% increase!).
-    - DUX Boosted Share: predicted 84 EXP (`56 + 28 = 84`).
+    - DUX Boosted Share: verified 84 EXP (`56 + 28 = 84`).
     - Trainee Gain: Psyduck gained 294 EXP (238 + 56).
     - Trainee EXP: 14,728 -> 15,022 EXP (603 to Lv 25 milestone).
 - Battle 98 (Hypno Lv 46, Turn 38105-38113):
