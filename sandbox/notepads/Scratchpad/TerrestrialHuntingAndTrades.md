@@ -87,3 +87,4 @@
   - Current State: Paras Lv 22 (11,044 EXP, +10,044 EXP total gained).
   - Target State: Lv 24 Parasect (13,824 EXP). Remaining EXP: 2,780 EXP (1,123 to Lv 23).
 - Battle 20 (Exp 2 Battle 6) [Turn 35822]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; STAB Psychic 2x SE OHKO (Psychic 6/10, Mewtwo HP 223/243 PAR). Paras gained 483 EXP (11,527 EXP, 2,297 to Lv 24).
+- Battle 21 (Exp 2 Battle 7) [Turn 35831]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf Critical Hit OHKO (Surf 11/15, Blastoise HP 60/225). Paras gained 538 EXP (12,065 EXP, 102 to Lv 23, 1,759 to Lv 24). Expedition 2 concluded; initiating Pit-Stop Routine per retreat threshold (Blastoise HP 60 < 80 while Mewtwo paralyzed).
