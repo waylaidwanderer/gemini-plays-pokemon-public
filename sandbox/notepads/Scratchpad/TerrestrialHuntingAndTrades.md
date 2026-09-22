@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Active Goal: Switch-train Krabby (PINCHY Lv 27 [Turn 37105] -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
+## Active Goal: Krabby (PINCHY Lv 28) Evolving into Kingler (#099) [Turn 37203] in Cerulean Cave 1F with Exp. All
 - Krabby Starting EXP: 3,375 EXP (Current: 21,747 EXP, Target: 21,952 EXP, 205 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
