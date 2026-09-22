@@ -80,3 +80,4 @@
 - Expedition 3 Target: Lv 24 Parasect (13,824 EXP). Starting at Lv 22 (12,065 EXP; 102 EXP to Lv 23, 1,759 EXP to Lv 24).
 - Battle 22 (Exp 3 Battle 1) [Turn 35878]: Defeated wild Hypno Lv 46. Switched Paras to Blastoise per Hypno Contingency; Surf 2HKO (Surf 13/15, Blastoise HP 204/225). Paras gained 538 EXP (12,603 EXP) and GREW TO LEVEL 23! Remaining to Lv 24 Parasect: 1,221 EXP (~2-3 battles).
 - Battle 23 (Exp 3 Battle 2) [Turn 35892]: Defeated wild Venomoth Lv 49. Switched Paras to Mewtwo; cured SLP with Poké Flute; STAB Psychic 2x SE OHKO (Psychic 9/10, Mewtwo HP 238/243). Paras gained 483 EXP (13,086 EXP, 738 to Lv 24).
+- Battle 24 (Exp 3 Battle 3) [Turn 35903]: Defeated wild Parasect Lv 52. Switched Paras to Blastoise; absorbed crit Slash (HP 176/229); Ice Beam 2x SE OHKO (Ice Beam 9/10). Paras gained 475 EXP (13,561 EXP, 263 to Lv 24 Parasect).
