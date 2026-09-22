@@ -35,6 +35,9 @@
 - Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28).
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
 
+### Verified Transit Corridors
+- Center-to-Route 24 Corridor: From Pokémon Center door at (19, 18), step South to row 19, walk West along row 19 to Column 8 at (8, 19), step North up Column 8 through the open walkable ramp at (8, 15) to Northern District Street at (8, 14), step Up to row 13, walk East along row 13 to Column 20 at (20, 13), then walk North along Column 20 through the tree gap at (20, 9) all the way to row 0, exiting into Route 24 at (10, 36) [Physically verified Turns 36888-36896].
+
 ## Key Buildings & Facilities
 - Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
   - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
