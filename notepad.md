@@ -139,9 +139,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 5: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy [Healed Turn 37231]
-  - HP: 229 / 229 [Healthy]
+  - HP: 225 / 229 [Empirically Verified Battle 4 Turn 37395 Screen]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 - Slot 6: FARFETCH'D (Nickname: DUX) [Lv 15, Normal/Flying]
   - Status: Healthy [Level Up Turn 37109]
   - HP: 43 / 43 [Empirically Verified Lv 15 Turn 37121]
