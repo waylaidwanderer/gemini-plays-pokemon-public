@@ -6,24 +6,24 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (25,265 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 88 Hypno, Turn 37885):
+### Active Expedition Sweeper Attrition & Condition Log (Battle 89 Sandslash, Turn 37898):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 22, Water, Lead Slot]
   - Status: Healthy
   - HP: 58 / 58
-  - EXP: 11,617 (550 to Lv 23) [Battle 88: +308 EXP]
+  - EXP: 11,958 (209 to Lv 23) [Battle 89: +341 EXP]
   - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 229 / 229 [Cerulean Center Heal Turn 37734]
+  - HP: 221 / 229 [Battle 89 Critical Hit]
   - Status: Healthy
-  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 194 / 249 [Battle 88 Psychic]
   - Status: Healthy
   - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 194 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
-  - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Ready for Battle 89.
+  - Blastoise HP: 221 (> 60 trigger). Surf PP: 14 (> 3 trigger).
+  - Protocol Status: Green / Healthy. Ready for Battle 90.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -118,4 +118,9 @@
   - Mewtwo used STAB Psychic (Critical Hit 2HKO). Psychic PP 4/10.
   - EXP: Hypno Total 1,076. Psyduck gained 308 EXP (269 participant + 39 team share).
   - Trainee EXP: 11,309 -> 11,617 EXP (550 to Lv 23).
+- Battle 89 (Sandslash Lv 52, Turn 37891-37898):
+  - Lead: Psyduck -> switched to Blastoise (SHELDON Lv 72). Blastoise took 8 dmg (Critical Hit: 221/229 HP).
+  - Blastoise used STAB Surf (2x SE OHKO). Surf PP 14/15.
+  - EXP: Sandslash Total 1,188. Psyduck gained 341 EXP (297 participant + 44 team share).
+  - Trainee EXP: 11,617 -> 11,958 EXP (209 to Lv 23).
 
