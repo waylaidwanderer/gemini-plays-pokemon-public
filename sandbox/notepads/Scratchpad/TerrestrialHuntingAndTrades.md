@@ -21,7 +21,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-68
+### Exp. All Empirical Model Audit & Observations Across Battles 1-69
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -33,7 +33,7 @@
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
@@ -98,3 +98,9 @@
   - DUX: 69 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 46 EXP each.
   - Formula audit: 100% consistent with verified Golbat model.
+- Battle 69 (Exp 5 Battle 8, Turn 37460): Defeated Wild Hypno Lv 46. Blastoise STAB Surf (OHKO).
+  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 5,921 (Grew to Lv 18!).
+    - Lv 18 Stats: Attack 28, Defense 23, Speed 28, Special 28 [Empirically Verified Turn 37460 Screen].
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Hypno model.
