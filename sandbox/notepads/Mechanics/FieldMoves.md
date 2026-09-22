@@ -16,6 +16,7 @@
   - Obtained: From girl in Route 16 Secret House [Turn 28787].
   - Function: Warps player instantly to any previously visited Pokémon Center town across Kanto.
   - Designated User: Farfetch'd (DUX).
+  - Party Move Submenu Order: When selecting DUX from the party Pokémon menu, CUT is Option 1 and FLY is Option 2 (pressing Down once navigates from CUT to FLY) [Empirically verified Turn 37217].
   - Fly Map Navigation Controls & Mechanics:
     - When using HM02 Fly from the party Pokémon menu, the Kanto regional map appears with a list of previously visited Pokémon Centers / destinations.
     - Cycling through destinations is controlled via Up and Down directional inputs. Pressing Up advances forward cyclically through the destination list (Pallet -> Viridian -> Pewter -> Cerulean -> Lavender -> Vermilion -> Celadon -> Fuchsia -> Cinnabar -> Indigo -> Saffron -> Pallet), while pressing Down cycles backward in reverse order.
