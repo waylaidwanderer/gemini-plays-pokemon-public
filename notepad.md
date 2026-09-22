@@ -61,7 +61,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÃ© FLUTE [Key Item]
+1. POKé FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -105,12 +105,12 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- Â¥3056 [Turn 34152]
+- ¥3056 [Turn 34152]
 
-## Party PokÃ©mon (6 / 6)
+## Party Pokémon (6 / 6)
 - Slot 1: KRABBY (Nickname: PINCHY) [Lv 16, Water]
   - Status: Healthy [Level Up Turn 36162]
-  - HP: 38 / 38 [Estimated Lv 16]
+  - HP: 38 / 38 [Empirically Verified Turn 36178]
   - Stats: Attack 42, Defense 37, Speed 23, Special 14 [Empirically Verified Lv 16 Turn 36162]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -127,7 +127,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Level Up Turn 36119]
-  - HP: 215 / 249 [Turn 36160]
+  - HP: 203 / 249 [Turn 36181]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -137,7 +137,7 @@
   - Moves: Tackle, Sand-Attack, Thunderbolt
 - Slot 5: GEODUDE (Nickname: ROCKY) [Lv 9, Rock/Ground]
   - Status: Healthy [Level Up Turn 36169]
-  - HP: 28 / 28 [Estimated Lv 9]
+  - HP: 28 / 28 [Estimated Lv 9] (unverified, scrolled off-screen Turn 36179)
   - Stats: Attack 21, Defense 25, Speed 9, Special 11 [Empirically Verified Lv 9 Turn 36169]
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - Caught: Mt. Moon 1F [Turn 1197]
@@ -147,7 +147,7 @@
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
 
-## PC Box 1 PokÃ©mon (Contiguous Slot Order - 13 PokÃ©mon)
+## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
 - Slot 2: HITMONLEE (BRUCE) [Lv 30]
 - Slot 3: LAPRAS (NESSY) [Lv 15]
@@ -4943,8 +4943,20 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Dodrio*** | 49 | 1,092 | **273 EXP** | 410 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Ditto** (Historical) | 53 | 454 | **227 EXP** | 340 EXP | Blastoise / Mewtwo |
 
-- Note on Historical Entries: Dodrio and Ditto entries are marked (Historical) as unverified approximations carried over from earlier notes. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, and Parasect (*) are all 100% empirically verified in the current run.
+- Note on Historical Entries: Only Ditto remains marked (Historical) as an unverified approximation. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, Parasect, and Dodrio (*) are all 100% empirically verified in the current run.
 - Average Yield per Cerulean Cave 1F battle (with EXP.ALL): ~350-400 EXP for Krabby (~45-50 battles for 18,577 EXP needed for Lv 28 Kingler).
+
+
+### Exp. All Empirical Model Audit (Battle 3 Discrepancy Analysis)
+- Observed Anomaly: In Battle 3 (Dodrio Lv 49, participant pool 546), Hypothesis B predicted team base share = floor(546 / 12) = 45 EXP. In-game reality yielded exactly 42 EXP (and DUX 63 EXP).
+- Mathematical Hypotheses for Discrepancy:
+  1. Divisor is 13: 546 // 13 = 42.0 exactly! (Why 13? Could be 6 + 6 + 1 or another counter).
+  2. Stale Register / Intermediate Truncation: 252 // 6 = 42 (from Kadabra Battle 2), or an arithmetic overflow/shift truncating dividend.
+  3. Battle 4 Test Criterion: Wild Hypno Lv 46 has E = 1,076 (participant pool = 538).
+     - Under Divisor 12: 538 // 12 = 44 EXP.
+     - Under Divisor 13: 538 // 13 = 41 EXP.
+     - Under Stale/Fixed Register: 42 EXP.
+     Observing Battle 4's exact Exp. All yield will decisively isolate the formula!
 
 ### Krabby Switch-Training Combat Protocol
 - Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pokémon will instantly OHKO Krabby.
