@@ -6,27 +6,24 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,434 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Battle 84 Venomoth, Turn 37795):
-- Trainee: PSYDUCK (MIGRAINE) [Lv 21, Water, Lead Slot]
-  - Status: Healthy
-  - HP: 56 / 56 [Verified Lv 21 Turn 37701 Screen]
-  - EXP: 10,357 (291 to Lv 22) [Battle 84: +273 EXP]
-  - Stats: Attack 33, Defense 27, Speed 33, Special 32 [Empirically Verified Lv 21 Turn 37696 Screen]
+### Active Expedition Sweeper Attrition & Condition Log (Battle 85 Dodrio, Turn 37819):
+- Trainee: PSYDUCK (MIGRAINE) [Lv 22, Water, Lead Slot]
+  - Status: Healthy [Level Up Turn 37819]
+  - HP: ~58 / 58
+  - EXP: 10,672 (1,495 to Lv 23) [Battle 85: +315 EXP]
+  - Stats: Attack 34, Defense 28, Speed 34, Special 34 [Verified Lv 22 Turn 37819 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 229 / 229 [Cerulean Center Heal Turn 37734]
   - Status: Healthy
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 245 / 249 [Battle 84 Psybeam]
+  - HP: 236 / 249 [Battle 85 Drill Peck]
   - Status: Healthy
-  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 245 (> 60 trigger). Psychic PP: 9 (> 3 trigger).
+  - Mewtwo HP: 236 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
   - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Battle 85 vs Wild Dodrio Lv 49 in progress.
-- Turn 1: Psyduck lead -> switching to Mewtwo (OMEGA Lv 72).
-- Projected Trainee Gain: +315 EXP (273 participant + 42 team).
-- Level Up Milestone: 10,357 + 315 = 10,672 EXP (exceeds 10,648 EXP threshold for Lv 22 by +24 EXP). Level 22 guaranteed!
+  - Protocol Status: Green / Healthy. Level 22 Milestone Complete! Ready for Battle 86.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
