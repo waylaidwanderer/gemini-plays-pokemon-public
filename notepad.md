@@ -5124,7 +5124,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Mewtwo used STAB Psychic (OHKO). Psychic PP 9/10.
   - EXP Yields (Total 1,050 EXP):
     - Participant Share: Psyduck 262 EXP, Mewtwo 262 EXP.
-    - EXP.ALL Team Base Share (N=4): **65 EXP**! (Direct empirical confirmation of dynamic N=4 scaling: 525 // 8 = 65, up from 39 EXP with N=6).
+    - EXP.ALL Team Base Share (N=4): **65 EXP**! DUX Boosted Share: **97 EXP**! (Direct empirical confirmation of dynamic N=4 scaling: 525 // 8 = 65, up from 39 EXP with N=6; DUX 65 + 32 = 97).
     - Trainee Gain: Psyduck gained 327 EXP (262 + 65).
     - Trainee EXP: 14,067 -> 14,394 EXP (1,231 to Lv 25 milestone).
 
