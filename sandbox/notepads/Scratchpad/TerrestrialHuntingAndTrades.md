@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 26 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 18,722 EXP, Target: 21,952 EXP, 3,230 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 19,030 EXP, Target: 21,952 EXP, 2,922 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
@@ -71,3 +71,4 @@
   - Battle 48: Wild Golbat Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo confused by Confuse Ray, took 23 self-hit + 5 damage (208/249 HP), then powered through confusion to OHKO Golbat with super-effective STAB Psychic. Krabby gained 276 EXP + 46 EXP = 322 EXP, reaching 18,113 EXP (1,570 to Lv 27). DUX gained 69 EXP. Base team share = 46 EXP. VEE leveled up to Lv 26 (Atk 42, Def 38, Spd 75, Spc 65)!
   - Battle 49: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 12 damage (196/249 HP). Turn 2 Swift dealt ~60% damage; Hypno used Poison Gas (failed). Turn 3 Swift scored a critical hit, KOing Hypno. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 18,421 EXP (1,262 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
   - Battle 50: Wild Magneton Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo took 11 damage on switch turn (185/249 HP). Turn 2 Mewtwo OHKOed Magneton with STAB Psychic. Krabby gained 262 EXP + 39 EXP = 301 EXP, reaching 18,722 EXP (961 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
+  - Battle 51: Wild Hypno Lv 46. Krabby switched to Mewtwo (OMEGA). Mewtwo was poisoned by Poison Gas on switch turn (185/249 HP). Turn 2 Mewtwo used Swift (~60% damage), took 15 poison damage + 10 Psychic damage (160/249 HP). Turn 3 Mewtwo used Swift, KOing Hypno. Krabby gained 269 EXP + 39 EXP = 308 EXP, reaching 19,030 EXP (653 to Lv 27). DUX gained 58 EXP. Base team share = 39 EXP.
