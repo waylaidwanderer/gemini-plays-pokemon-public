@@ -114,7 +114,7 @@
   - Stats: Attack 52, Defense 46, Speed 29, Special 17 [Empirically Verified Lv 20 Turn 36373]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 8764 [Turn 36408] (497 to Lv 21)
+  - EXP: 9079 [Turn 36422] (182 to Lv 21)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
@@ -143,9 +143,9 @@
   - Caught: Mt. Moon 1F [Turn 1197]
 - Slot 6: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 101 / 229 [Verified Turn 36354]
+  - HP: 74 / 229 [Verified Turn 36422]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 8/15), Ice Beam (PP 4/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 7/15), Ice Beam (PP 4/10)
 
 ## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
 - Slot 1: ZAPDOS (THUNDER) [Lv 50]
@@ -4929,7 +4929,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 20 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 8,764 EXP, Target: 21,952 EXP, 13,188 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 9,079 EXP, Target: 21,952 EXP, 12,873 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -4949,7 +4949,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Note on Table Entries: Golbat, Sandslash, Hypno, Magneton, Kadabra, Dodrio, Venomoth, and Parasect (*) are empirically verified in the current run. Raichu and Ditto are theoretical projections pending dedicated in-game test verification.
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-17
+### Exp. All Empirical Model Audit & Observations Across Battles 1-18
   - Battles 6-8 (Golbat Lv 46 x3, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
   - Battles 9-10 (Sandslash Lv 52 x2, E = 1,188, Part Pool = 594): Participant Share = 297 EXP, Exp. All Base Share = 44 EXP (DUX = 66 EXP)
   - Battle 11 (Hypno Lv 46, E = 1,076, Part Pool = 538): Participant Share = 269 EXP, Exp. All Base Share = 39 EXP (DUX = 58 EXP)
@@ -4959,6 +4959,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 15 (Venomoth Lv 49, E = 952, Part Pool = 476): Participant Share = 238 EXP, Exp. All Base Share = 35 EXP (DUX = 52 EXP)
   - Battle 16 (Kadabra Lv 49, E = 1,008, Part Pool = 504): Participant Share = 252 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
   - Battle 17 (Golbat Lv 46, E = 1,104, Part Pool = 552): Participant Share = 276 EXP, Exp. All Base Share = 46 EXP (DUX = 69 EXP)
+  - Battle 18 (Dodrio Lv 49, E = 1,092, Part Pool = 546): Participant Share = 273 EXP, Exp. All Base Share = 42 EXP (DUX = 63 EXP)
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Unproven Hypothesis): In-game base share yields range empirically from E / 24 to E / 27 across observed battles. The underlying assembly division registers causing this variation remain an unproven hypothesis pending formal register verification.
@@ -5009,6 +5010,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 15 (Wild Venomoth Lv 49): Turn 1 switched Krabby to Mewtwo (took 0 dmg, Stun Spore failed on PAR, HP 165/249). Turn 2 Mewtwo attacked through paralysis with STAB 2x SE Psychic for an OHKO (Psychic PP 3/10). PINCHY earned 273 EXP (238 part + 35 Exp. All, EXP: 7,875 -> 8,148) and grew to Level 20! (Atk 52, Def 46, Spd 29, Spc 17, learned ViceGrip in Slot 3). Target Lv 21: 9,261 EXP (1,113 needed).
   - Battle 16 (Wild Kadabra Lv 49): Turn 1 switched Krabby to Blastoise (took 0 dmg, Kadabra used Reflect, HP 101/229). Turn 2 Blastoise used STAB Surf, bypassing Reflect to OHKO Kadabra (Surf PP 8/15). PINCHY earned 294 EXP (252 part + 42 Exp. All, EXP: 8,148 -> 8,442, 819 to Lv 21). ROCKY grew to Level 12 (Atk 26, Def 32, Spd 11, Spc 14, verified Turn 36397).
   - Battle 17 (Wild Golbat Lv 46): Turn 1 switched Krabby to Blastoise (took 0 dmg, Golbat used Haze, HP 101/229). Turn 2 Blastoise scored a Critical Hit OHKO with 2x SE Ice Beam (Ice Beam PP 4/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 8,442 -> 8,764, 497 to Lv 21).
+  - Battle 18 (Wild Dodrio Lv 49): Turn 1 switched Krabby to Blastoise (took 27 dmg, HP 74/229). Turn 2 Blastoise OHKOed Dodrio with STAB Surf (Surf PP 7/15). PINCHY earned 315 EXP (273 part + 42 Exp. All, EXP: 8,764 -> 9,079, only 182 to Lv 21).
 
 
 <hr>
