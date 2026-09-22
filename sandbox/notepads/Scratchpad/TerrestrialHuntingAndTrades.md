@@ -103,15 +103,15 @@
 - **Pre-Calculated Yields for First Encounter Verification:**
   | Species | Level | Total EXP | Part Share (E/4) | Hyp A Team Share | Hyp A Psyduck Total | Hyp A DUX (Boosted) | Hyp B Team Share | Hyp B Psyduck Total | Hyp B DUX (Boosted) |
   | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-  | **Golbat** | 46 | 1,104 | 276 | **138 EXP** | **414 EXP** | **207 EXP** | 46 EXP | 322 EXP | 69 EXP |
-  | **Hypno** | 46 | 1,076 | 269 | **134 EXP** | **403 EXP** | **201 EXP** | 39 EXP | 308 EXP | 58 EXP |
-  | **Magneton** | 46 | 1,050 | 262 | **131 EXP** | **393 EXP** | **196 EXP** | 39 EXP | 301 EXP | 58 EXP |
-  | **Sandslash**| 52 | 1,188 | 297 | **148 EXP** | **445 EXP** | **222 EXP** | 44 EXP | 341 EXP | 66 EXP |
-  | **Kadabra**  | 49 | 1,008 | 252 | **126 EXP** | **378 EXP** | **189 EXP** | 42 EXP | 294 EXP | 63 EXP |
-  | **Dodrio**   | 49 | 1,092 | 273 | **136 EXP** | **409 EXP** | **204 EXP** | 42 EXP | 315 EXP | 63 EXP |
-  | **Venomoth** | 49 | 952   | 238 | **119 EXP** | **357 EXP** | **178 EXP** | 35 EXP | 273 EXP | 52 EXP |
-  | **Raichu**   | 53 | 908   | 227 | **113 EXP** | **340 EXP** | **169 EXP** | 37 EXP | 264 EXP | 55 EXP |
-  | **Parasect** | 52 | 950   | 237 | **118 EXP** | **355 EXP** | **177 EXP** | 37 EXP | 274 EXP | 55 EXP |
+  | **Golbat** | 46 | 1,104 | 276 | **69 EXP** | **345 EXP** | **103 EXP** | 46 EXP | 322 EXP | 69 EXP |
+  | **Hypno** | 46 | 1,076 | 269 | **67 EXP** | **336 EXP** | **100 EXP** | 39 EXP | 308 EXP | 58 EXP |
+  | **Magneton** | 46 | 1,050 | 262 | **65 EXP** (V) | **327 EXP** (V) | **97 EXP** (V) | 39 EXP | 301 EXP | 58 EXP |
+  | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | 44 EXP | 341 EXP | 66 EXP |
+  | **Kadabra**  | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | 42 EXP | 294 EXP | 63 EXP |
+  | **Dodrio**   | 49 | 1,092 | 273 | **68 EXP** | **341 EXP** | **102 EXP** | 42 EXP | 315 EXP | 63 EXP |
+  | **Venomoth** | 49 | 952   | 238 | **59 EXP** | **297 EXP** | **88 EXP** | 35 EXP | 273 EXP | 52 EXP |
+  | **Raichu**   | 53 | 908   | 227 | **56 EXP** | **283 EXP** | **84 EXP** | 37 EXP | 264 EXP | 55 EXP |
+  | **Parasect** | 52 | 950   | 237 | **59 EXP** | **296 EXP** | **88 EXP** | 37 EXP | 274 EXP | 55 EXP |
 
 - **Observation:** All 92 battles have been conducted with a 6-member party, yielding ~40-46 base team share (divisor K ~ 24..27).
 - **Hypothesis:** In Gen 1, Exp. All divides the team share half (E_half) by the number of non-fainted party members (N). With N=6, share is E/12 (or E/24 per participant). If the party size is reduced to N=2 (only Psyduck and 1 Sweeper), the team share would be floor(E_half / 2) = floor(E / 4), which would dramatically increase Exp. All gains from ~40 to ~250+ EXP per battle!
