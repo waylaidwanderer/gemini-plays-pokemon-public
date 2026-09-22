@@ -2,20 +2,20 @@
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pok�mon: PSYDUCK (MIGRAINE Lv 19, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 7,111 [Turn 37511]. Needed to Lv 20: 889.
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (28,826 EXP remaining).
+  - Current Empirical EXP: 7,419 [Turn 37586]. Needed to Lv 20: 581.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (28,518 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Heal Turn 37542):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 19, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37511]
   - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
-  - EXP: 7,111 (889 to Lv 20)
+  - EXP: 7,419 (581 to Lv 20)
   - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Lv 19 Turn 37511 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 229 / 229 [Healed Turn 37542]
+  - HP: 219 / 229 [Battle 74]
   - Status: Healthy (no status)
-  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 249 / 249 [Healed Turn 37542]
   - Status: Healthy (Poison cured!)
@@ -85,3 +85,10 @@
 - Lv 19 Verified Stats: Attack 30, Defense 24, Speed 30, Special 30, HP 51/51.
 - All Exp. All yields 100% verified and integrated into model above.
 - Pit Stop: Executed at Turn 37542 (Full heal with Nurse Joy in Cerulean City).
+
+### Expedition 6 Battle Log (Psyduck Trainee, Battles 74+):
+- Battle 74 (Exp 6 Battle 1, Turn 37586): Defeated Wild Hypno Lv 46. Blastoise Surf (OHKO).
+  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 7,419 (581 to Lv 20).
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Hypno model.
