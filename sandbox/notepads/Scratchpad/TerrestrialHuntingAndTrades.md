@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 22 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 11,182 EXP, Target: 21,952 EXP, 10,770 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 11,497 EXP, Target: 21,952 EXP, 10,455 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants Without Exp. All, * = Empirically Tested in Current Run)
@@ -50,7 +50,7 @@
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Live Status: Blastoise (HP 185/229, Surf 13/15, Ice Beam 10/10); Mewtwo (HP 224/249 Healthy, Psychic 8/10, Swift 19/20, Recover 20/20).
+  - Live Status: Blastoise (HP 185/229, Surf 13/15, Ice Beam 10/10); Mewtwo (HP 224/249 Healthy, Psychic 7/10, Swift 19/20, Recover 20/20).
   - Retreat Triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
 
 ### Other Post-Game Evolution Candidates
@@ -92,3 +92,4 @@
     - B23: Wild Sandslash Lv 52 (Blastoise swept; +341 EXP, PINCHY reached 10,580 EXP, 68 to Lv 22; ROCKY Lv 13).
     - B24: Wild Hypno Lv 46 (Blastoise swept; +308 EXP, PINCHY grew to Lv 22 [Atk 57, Def 50, Spd 31, Spc 19, 10,888 EXP]).
     - B25: Wild Kadabra Lv 49 (Mewtwo swept with Swift; +294 EXP [252 part + 42 Exp.All], DUX +63, PINCHY reached 11,182 EXP [985 to Lv 23]).
+    - B26: Wild Dodrio Lv 49 (Mewtwo swept with Psychic; +315 EXP [273 part + 42 Exp.All], DUX +63, PINCHY reached 11,497 EXP [670 to Lv 23]).
