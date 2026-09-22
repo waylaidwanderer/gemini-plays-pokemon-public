@@ -118,10 +118,10 @@
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 9, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36295]
-  - HP: 29 / 29 [Empirically Verified Lv 9 Turn 36302]
-  - Stats: Attack 17, Defense 16, Speed 16, Special 16 [Empirically Verified Lv 9 Turn 36295]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 10, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36359]
+  - HP: 29 / 29 (Max HP pending verification)
+  - Stats: Attack 19, Defense 18, Speed 18, Special 17 [Empirically Verified Lv 10 Turn 36359]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
@@ -5013,7 +5013,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Battle 11 (Wild Hypno Lv 46): Turn 1 switched Krabby to Blastoise (Hypno used Meditate, 0 dmg). Blastoise scored Critical Hit OHKO with STAB Surf (Surf PP 10/15). PINCHY earned 308 EXP (269 part + 39 Exp. All) and grew to Level 19! (Atk 49, Def 44, Spd 27, Spc 17, HP 44/44, EXP: 6,911).
   - Battle 12 (Wild Golbat Lv 46): Turn 1 switched Krabby to Mewtwo (took 0 dmg, Golbat used Supersonic, Mewtwo confused, HP 165/249). Turn 2 Mewtwo attacked through confusion and OHKOed Golbat with STAB 2x SE Psychic (Psychic PP 5/10). PINCHY earned 322 EXP (276 part + 46 Exp. All, EXP: 6,911 -> 7,233, 767 to Lv 20).
   - Battle 13 (Wild Magneton Lv 46): Turn 1 switched Krabby to Mewtwo (absorbed Thunder Wave, paralyzed, HP 165/249). Turn 2 Magneton used Supersonic, Mewtwo confused; Mewtwo attacked through paralysis and confusion with STAB Psychic for an OHKO (Psychic PP 4/10). PINCHY earned 301 EXP (262 part + 39 Exp. All, EXP: 7,233 -> 7,534, only 466 to Lv 20).
-  - Battle 14 (Wild Sandslash Lv 52): Turn 1 switched Krabby to Blastoise (took 34 dmg from crit Slash, HP 101/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 9/15). PINCHY earned 341 EXP (297 part + 44 Exp. All, EXP: 7,534 -> 7,875, only 125 to Lv 20).
+  - Battle 14 (Wild Sandslash Lv 52): Turn 1 switched Krabby to Blastoise (took 34 dmg from crit Slash, HP 101/229). Turn 2 Blastoise OHKOed Sandslash with STAB 2x SE Surf (Surf PP 9/15). PINCHY earned 341 EXP (297 part + 44 Exp. All, EXP: 7,534 -> 7,875, only 125 to Lv 20). DUX grew to Level 10 (Atk 19, Def 18, Spd 18, Spc 17, verified Turn 36359).
 
 
 <hr>
