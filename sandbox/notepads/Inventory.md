@@ -54,7 +54,7 @@
   - Stats: Attack 59, Defense 53, Speed 33, Special 20 [Empirically Verified Lv 23 Turn 36603]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 13331 [Turn 36639] (493 to Lv 24)
+  - EXP: 13604 [Turn 36650] (220 to Lv 24)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), ViceGrip (PP 30/30) [Learned Turn 36373]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 12, Normal/Flying]
@@ -69,7 +69,7 @@
   - HP: 162 / 249 [Verified Turn 36588]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
