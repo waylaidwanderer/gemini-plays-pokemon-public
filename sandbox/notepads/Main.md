@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 - Money: ¥3056 [Turn 34152]
-- Pokédex: 50 Caught / 137 Seen [Verified Turn 35923]
+- Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
 
 ## Milestones
 
@@ -50,4 +50,4 @@
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 - [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
 - [x] Evolve Paras into Parasect (#047) [Turn 35918]
-- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]
+- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]- [x] Evolve Krabby into Kingler (#099) [Turn 37206]
