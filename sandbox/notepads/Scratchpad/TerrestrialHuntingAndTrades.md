@@ -17,11 +17,11 @@
   - Status: Healthy (no status)
   - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 140 / 249 [Battle 77 Dodrio crit]
+  - HP: 101 / 249 [Battle 77 Dodrio crit]
   - Status: Healthy
   - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 140 (> 60 trigger). Psychic PP: 5 (> 3 trigger).
+  - Mewtwo HP: 101 (> 60 trigger). Psychic PP: 5 (> 3 trigger).
   - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
