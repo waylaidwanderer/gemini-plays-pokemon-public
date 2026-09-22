@@ -50,7 +50,7 @@
 ## Party Pokémon (6 / 6)
 - Slot 1: KRABBY (Nickname: PINCHY) [Lv 24, Water]
   - Status: Healthy [Level Up Turn 36661]
-  - HP: 54 / 54 [Pending overworld check]
+  - HP: 54 / 54 [Empirically Verified Lv 24 Turn 36667]
   - Stats: Attack 62, Defense 55, Speed 34, Special 21 [Empirically Verified Lv 24 Turn 36661]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
