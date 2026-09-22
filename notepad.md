@@ -60,7 +60,7 @@
 # Inventory Log
 
 ## Bag Items
-1. POKÉ FLUTE [Key Item]
+1. POK� FLUTE [Key Item]
 2. SUPER ROD [Key Item]
 3. BICYCLE [Key Item]
 4. PP UP x 1
@@ -103,47 +103,37 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥3056 [Turn 34152]
+- �3056 [Turn 34152]
 
-## Party Pokémon
-- Slot 1: PARASECT (Nickname: FUNGI) [Lv 24, Bug/Grass]
-  - Status: Healthy
-  - HP: 69 / 69 [Verified Lv 24 Turn 35919]
-  - Stats: Attack 58, Defense 46, Speed 24, Special 51 [Verified Lv 24 Turn 35919]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 14036 [Turn 35917]
-  - Moves: Scratch (PP 35/35), Stun Spore (PP 30/30), Leech Life (PP 15/15) [Learned Lv 20 Turn 35695]
-  - Caught: Mt. Moon B2F [Turn 1667], Withdrawn from Box 1 [Turn 35446]
-- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
+## Party Pok�mon (6 / 6)
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
   - HP: 168 / 229 [Turn 35919]
   - Stats: Attack 171, Defense 197, Speed 171, Special 177 [Verified Lv 72 Turn 35879]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 8/10)
-- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
-- Slot 4: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 71, Psychic]
   - Status: Healthy [Healed & Cured Turn 35840]
   - HP: 238 / 243 [Turn 35892]
   - Stats: Attack 176, Defense 160, Speed 204, Special 242 [Verified Lv 71 Turn 34559]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 5: JOLTEON (Nickname: VEE) [Lv 25, Electric]
+- Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
   - Moves: Tackle, Sand-Attack, Thunderbolt
-- Slot 6: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+- Slot 5: GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15)
   - Caught: Mt. Moon 1F [Turn 1197]
-
 - Slot 6: KRABBY (Nickname: PINCHY) [Lv 15, Water]
   - Status: Healthy
   - HP: 38 / 38
@@ -155,21 +145,20 @@
   - Moves: Bubble (PP 30/30), Leer (PP 30/30), Vicegrip (PP 30/30)
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
 
-## PC Box 1 Pokémon (Contiguous Slot Order - 13 Pokémon)
-- Slot 1: KRABBY (PINCHY) [Lv 15]
-- Slot 2: ZAPDOS (THUNDER) [Lv 50]
-- Slot 3: HITMONLEE (BRUCE) [Lv 30]
-- Slot 4: LAPRAS (NESSY) [Lv 15]
-- Slot 5: KANGASKHAN (MATILDA) [Lv 25]
-- Slot 6: CHANSEY (LUCKY) [Lv 26]
-- Slot 7: DROWZEE (SANDMAN) [Lv 9]
-- Slot 8: OMANYTE (NAUTILUS) [Lv 30]
-- Slot 9: AERODACTYL (PTERA) [Lv 30]
-- Slot 10: NIDOQUEEN (QUEENIE) [Lv 33]
-- Slot 11: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
-- Slot 12: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
-- Slot 13: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
-- Slot 14: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
+## PC Box 1 Pok�mon (Contiguous Slot Order - 13 Pok�mon)
+- Slot 1: ZAPDOS (THUNDER) [Lv 50]
+- Slot 2: HITMONLEE (BRUCE) [Lv 30]
+- Slot 3: LAPRAS (NESSY) [Lv 15]
+- Slot 4: KANGASKHAN (MATILDA) [Lv 25]
+- Slot 5: CHANSEY (LUCKY) [Lv 26]
+- Slot 6: DROWZEE (SANDMAN) [Lv 9]
+- Slot 7: OMANYTE (NAUTILUS) [Lv 30]
+- Slot 8: AERODACTYL (PTERA) [Lv 30]
+- Slot 9: NIDOQUEEN (QUEENIE) [Lv 33]
+- Slot 10: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
+- Slot 11: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
+- Slot 12: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
+- Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
 
 
 <hr>
@@ -4949,30 +4938,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Note on Historical Entries: Dodrio and Ditto entries are marked (Historical) as unverified approximations carried over from earlier notes. Raichu, Venomoth, Magneton, Hypno, Golbat, Sandslash, Kadabra, and Parasect (*) are all 100% empirically verified in the current run.
 - Average Yield per Cerulean Cave 1F battle: ~530 EXP (~23-24 battles to Lv 24 Parasect).
 
-### Paras Switch-Training Combat Protocol
-- Vulnerability Profile: Paras (Bug/Grass) suffers a catastrophic 4x weakness to Flying (Dodrio, Golbat) and 2x weaknesses to Fire, Poison, Bug, and Rock. At low levels, ANY attack from Cerulean Cave wild Pokémon will instantly OHKO Paras.
-- Turn 1 Rule: NEVER attack with Paras. Immediately switch out to the designated sweeper on Turn 1.
+### Krabby Switch-Training Combat Protocol
+- Vulnerability Profile: Krabby (Water, Lv 15, HP 38, Special 15, Defense 42, Speed 23) has catastrophic vulnerability to Special attacks (Electric, Grass, Psychic) due to its minimal Special stat (15) and low HP (38). Any Special hit from Cerulean Cave wild Pok�mon will instantly OHKO Krabby.
+- Turn 1 Rule: NEVER attack with Krabby. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
+- Exp. All Integration: Once Exp. All is claimed from Route 15 Gatehouse, Krabby will automatically receive passive EXP from every defeated opponent without needing to enter battle directly, eliminating OHKO risks. If placed in battle and switched out, Krabby earns both active participant share and passive Exp. All share.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 71). STAB Psychic / Swift guarantees rapid OHKOs.
-  - Hypno Contingency: While Mewtwo is the primary Special counter, Blastoise is deployed to mitigate Mewtwo PSN attrition and preserve Psychic PP. Blastoise must use Surf or Body Slam (avoid Double-Edge to eliminate recoil damage).
-  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits effortlessly; retaliates with STAB Surf / 2x Ice Beam.
+  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / 2x Ice Beam.
 - PP Budget & Pit-Stop Protocol:
-  - Blastoise (SHELDON Lv 72): Surf 15 PP, Ice Beam 10 PP, Body Slam 15 PP, Double-Edge 15 PP (total 55 PP).
-  - Mewtwo (OMEGA Lv 71): Psychic 10 PP, Swift 20 PP, Recover 20 PP (total 50 PP).
-  - Combined High-Yield SE PP: 25 moves (Surf + Ice Beam) on Blastoise, 10 moves (Psychic) on Mewtwo = 35 primary OHKO moves.
-  - Safe Grinding Window: ~18-20 battles per expedition before primary STAB PP runs low.
-  - Pit-Stop Retreat Thresholds:
-    1. HP Trigger: Sweeper HP < 60 (independent retreat trigger).
-    2. PP Trigger: Blastoise Surf <= 3 PP AND Mewtwo Psychic <= 2 PP (compound PP depletion trigger).
-    3. Status Trigger:
-       - Freeze: Immediate retreat trigger upon battle conclusion.
-       - Sleep: In-battle remedy via Poké Flute (Bag Slot 1, infinite use); no retreat needed unless compounded with low HP.
-       - Poison: Increases HP retreat threshold to HP < 80.
-       - Paralysis: Reduces Speed by 75% and incurs 25% full paralysis rate. Allowed to continue if Mewtwo HP >= 120 and Blastoise HP >= 80. If Mewtwo HP < 120 while paralyzed OR Blastoise HP < 80 while Mewtwo is paralyzed, trigger immediate retreat.
-    4. Pit-Stop Execution Routine:
-       a. Walk South to (24..25, 17) and step onto warp to exit Cerulean Cave onto canal apron at (4, 12).
-       b. Open party menu -> Farfetch'd (DUX) -> FLY -> Cerulean City.
-       c. Enter Pokémon Center, heal with Nurse Joy, return north via Route 24 canal.
+  - Blastoise: Surf 13/15, Ice Beam 8/10, Body Slam 15/15, Double-Edge 15/15.
+  - Mewtwo: Psychic 9/10, Swift 20/20, Recover 20/20.
+  - Retreat triggers: Sweeper HP < 60, primary SE PP <= 3, or Freeze status.
 
 ### Other Post-Game Evolution Candidates
 1. KRABBY (PINCHY Lv 15, Box 1 Slot 1):
