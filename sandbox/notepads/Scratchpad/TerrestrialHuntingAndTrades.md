@@ -2,15 +2,15 @@
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pok�mon: PSYDUCK (MIGRAINE Lv 20, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 9,181 [Turn 37679]. Needed to Lv 21: 80.
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,756 EXP remaining).
+  - Current Empirical EXP: 9,503 [Turn 37696]. Psyduck reached Level 21!
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (26,434 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
 ### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 76, Turn 37623):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 20, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37623]
   - HP: 54 / 54 [Empirically Verified Turn 37632 Battle Screen]
-  - EXP: 9,181 (80 to Lv 21)
+  - EXP: 9,503 (1,145 to Lv 22) [Level 21 Achieved!]
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Empirically Verified Lv 20 Turn 37623 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 155 / 229 [Battle 75]
@@ -19,9 +19,9 @@
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 101 / 249 [Battle 77 Dodrio crit]
   - Status: Healthy
-  - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 101 (> 60 trigger). Psychic PP: 5 (> 3 trigger).
+  - Mewtwo HP: 101 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
   - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
@@ -125,3 +125,9 @@
   - OMEGA: 301 EXP (262 participant + 39 team share).
   - VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Magneton model (E=1050, participant=262, base=39).
+- Battle 81 (Exp 6 Battle 8, Turn 37696): Defeated Wild Golbat Lv 46. Mewtwo STAB 2x SE Psychic (OHKO).
+  - Psyduck: 322 EXP (276 participant + 46 team share) -> New EXP: 9,503 (Grew to Level 21!).
+  - DUX: 69 EXP (boosted).
+  - OMEGA: 322 EXP (276 participant + 46 team share).
+  - VEE, ROCKY, SHELDON: 46 EXP each.
+  - Formula audit: 100% consistent with verified Golbat model (E=1104, participant=276, base=46).

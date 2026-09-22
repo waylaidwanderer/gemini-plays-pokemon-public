@@ -48,13 +48,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (6 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 20, Water]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 21, Water]
   - Status: Healthy [Level Up Turn 37623]
   - HP: 54 / 54 [Verified Lv 20 Turn 37632 Screen]
   - Stats: Attack 31, Defense 25, Speed 31, Special 31 [Verified Lv 20 Turn 37623 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 9181 [80 to Lv 21; 9261 - 9181 = 80]
+  - EXP: 9503 [1145 to Lv 22; 10648 - 9503 = 1145]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -62,7 +62,7 @@
   - HP: 245 / 249 [Verified Party Screen Turn 37633]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: JOLTEON (Nickname: VEE) [Lv 26, Electric]
   - Status: Healthy [Level Up Turn 36982]
   - HP: 71 / 71 [Verified Lv 26 Turn 36989]
