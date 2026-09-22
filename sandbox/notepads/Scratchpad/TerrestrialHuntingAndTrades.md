@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Active Goal: Switch-train Krabby (PINCHY Lv 15 -> Lv 28 Kingler #099) in Cerulean Cave 1F with Exp. All
-- Krabby Starting EXP: 3,375 EXP (Current: 4,306 EXP, Target: 21,952 EXP, 17,646 EXP needed for Lv 28 Kingler)
+- Krabby Starting EXP: 3,375 EXP (Current: 4,614 EXP, Target: 21,952 EXP, 17,338 EXP needed for Lv 28 Kingler)
 - Switch Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 71)
 
 ### Cerulean Cave 1F EXP Yield Table (2 Participants, * = Empirically Tested in Current Run)
@@ -112,3 +112,9 @@ In Generation 1 retail, when EXP.ALL is present in the Bag, wild battle experien
       - Traded DUX (Boosted): 63 EXP (42 + floor(42/2) = 63).
       - PINCHY Net Gain: 273 + 42 = 315 EXP (Krabby EXP: 3,991 -> 4,306, 607 to Lv 17). PINCHY reached Level 16! (Atk 42, Def 37, Spd 23, Spc 14).
       - ROCKY Net Gain: 42 EXP. ROCKY reached Level 9! (Atk 21, Def 25, Spd 9, Spc 11).
+  - Battle 4: Wild Hypno Lv 46. Turn 1 switched Krabby to Mewtwo (took 12 dmg, HP 203/249). Turn 2 Mewtwo critical hit with Swift (Hypno survived on red HP, used Meditate). Turn 3 Mewtwo critical hit with Swift (Hypno fainted). Swift PP: 17/20.
+    - Empirical EXP.ALL Distribution Results:
+      - Participant Pool (50% of E): PINCHY (269 EXP) + OMEGA (269 EXP) = 538 EXP. Total battle E = 1,076 (Hypno base exp = 164 or 165).
+      - Exp. All Team Pool: Base share = 39 EXP (PINCHY, OMEGA, VEE, ROCKY, SHELDON).
+      - Traded DUX (Boosted): 58 EXP (39 + floor(39/2) = 58). DUX reached Level 7! (Atk 15, Def 14, Spd 14, Spc 13). Leer declined to preserve Cut and Fly!
+      - PINCHY Net Gain: 269 + 39 = 308 EXP (Krabby EXP: 4,306 -> 4,614, only 299 to Lv 17!).

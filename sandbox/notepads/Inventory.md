@@ -54,23 +54,23 @@
   - Stats: Attack 42, Defense 37, Speed 23, Special 14 [Empirically Verified Lv 16 Turn 36162]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 4306 [Turn 36170] (Gained 315 in Battle 3; 607 to Lv 17)
+  - EXP: 4614 [Turn 36200] (Gained 308 in Battle 4; 299 to Lv 17)
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 6, Normal/Flying]
-  - Status: Healthy [Level Up Turn 36146]
-  - HP: 22 / 22
-  - Stats: Attack 13, Defense 12, Speed 12, Special 12 [Empirically Verified Turn 36146]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 7, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36190]
+  - HP: 23 / 23 [Verified Lv 6 Turn 36179] (Lv 7 HP unverified)
+  - Stats: Attack 15, Defense 14, Speed 14, Special 13 [Empirically Verified Lv 7 Turn 36190]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Healthy [Level Up Turn 36119]
   - HP: 203 / 249 [Turn 36181]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 17/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: JOLTEON (Nickname: VEE) [Lv 25, Electric]
   - Status: Healthy
   - HP: 68 / 68
