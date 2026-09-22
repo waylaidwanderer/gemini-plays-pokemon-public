@@ -116,7 +116,7 @@
   - Stats: Attack 28, Defense 23, Speed 28, Special 28 [Empirically Verified Lv 18 Turn 37460 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 5921 [938 to Lv 19, Empirically Verified Battle 69 Turn 37460; Baseline: 5613 + 308 = 5921; 6859 - 5921 = 938]
+  - EXP: 6236 [623 to Lv 19, Empirically Verified Battle 70 Turn 37468; Baseline: 5921 + 315 = 6236; 6859 - 6236 = 623]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -4956,14 +4956,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-69
+### Exp. All Empirical Model Audit & Observations Across Battles 1-70
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
     - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68]
     - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25]
     - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60]
-    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59]
+    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52]
@@ -5039,6 +5039,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - DUX: 58 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Hypno model.
+- Battle 70 (Exp 5 Battle 9, Turn 37468): Defeated Wild Dodrio Lv 49. Blastoise Ice Beam (2x SE OHKO).
+  - Psyduck: 315 EXP (273 participant + 42 team share) -> New EXP: 6,236 (623 to Lv 19).
+  - DUX: 63 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 42 EXP each.
+  - Formula audit: 100% consistent with verified Dodrio model.
 
 
 <hr>
