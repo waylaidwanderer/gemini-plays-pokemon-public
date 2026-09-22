@@ -4959,7 +4959,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Protocol Trigger Check:
   - Mewtwo HP: 236 (> 60 trigger). Psychic PP: 8 (> 3 trigger).
   - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Level 22 Milestone Complete! Ready for Battle 86.
+  - Protocol Status: Green / Healthy. Battle 86 vs Wild Golbat Lv 46 in progress.
+- Turn 1: Psyduck lead -> switching to Mewtwo (OMEGA Lv 72).
+- Projected Trainee Gain: +322 EXP (276 participant + 46 team).
+- Trainee Progress toward Lv 23 (12,167 EXP): 10,672 + 322 = 10,994 EXP (1,173 EXP remaining).
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
