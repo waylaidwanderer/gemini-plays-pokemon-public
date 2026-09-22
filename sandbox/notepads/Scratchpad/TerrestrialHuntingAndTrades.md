@@ -8,7 +8,7 @@
 | Species | Level | Total Wild EXP | Participant Base Share (50% Native) | Traded Share (Boosted) | Primary Sweeper Strategy |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Raichu** (Theoretical) | 53 | 922 | **461 EXP** | 691 EXP | Mewtwo (Swift / Psychic) |
-| **Venomoth*** | 49 | 966 | **483 EXP** | 724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
+| **Venomoth*** | 49 | 952-966 | **476-483 EXP** | 714-724 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
 | **Magneton*** | 46 | 1,050 | **525 EXP** | 787 EXP | Mewtwo (STAB Psychic OHKO) |
 | **Hypno*** | 46 | 1,076 | **538 EXP** | 807 EXP | Mewtwo (STAB Psychic / Swift) |
 | **Golbat*** | 46 | 1,104 | **552 EXP** | 828 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
@@ -64,8 +64,6 @@
    - Celadon Dept Store 4F: Water Stone, Fire Stone, Leaf Stone, Thunder Stone purchasable for ¥2,100 each.
    - Current Bag/PC Stones: Moon Stone x1 in PC. Money: ¥3,056.
 
-### Grinding Notes
-- Input Buffering Caution: Rapidly buffering consecutive 'A' presses across menu transitions can trigger unintentional move selections (e.g., Slot 1 Double-Edge). Chunk inputs cleanly with 'B' or pauses to verify menu states.
 
 ### Battle Log (Expeditions 1-3 Summary & Active Log):
 - Expeditions 1-3 Summary: Historical grind completed; Paras (#046) evolved into Parasect (#047), verifying Pokédex at 50 caught.
