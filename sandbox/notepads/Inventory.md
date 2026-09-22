@@ -54,7 +54,7 @@
   - Stats: Attack 37, Defense 30, Speed 37, Special 37
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 14394 [1231 to Lv 25; 15625 - 14394 = 1231]
+  - EXP: 14728 [897 to Lv 25; 15625 - 14728 = 897]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -65,9 +65,9 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 72, Water]
   - Status: Healthy
-  - HP: 229 / 229
+  - HP: 189 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 18, Normal/Flying]
   - Status: Healthy
   - HP: 49 / 49
