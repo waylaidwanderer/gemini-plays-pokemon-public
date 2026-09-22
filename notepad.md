@@ -116,7 +116,7 @@
   - Stats: Attack 33, Defense 27, Speed 33, Special 32 [Verified Lv 21 Turn 37696 Screen]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 9811 [837 to Lv 22; 10648 - 9811 = 837]
+  - EXP: 10084 [564 to Lv 22; 10648 - 10084 = 564]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -4946,20 +4946,20 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Trainee: PSYDUCK (MIGRAINE) [Lv 21, Water, Lead Slot]
   - Status: Healthy
   - HP: 56 / 56 [Verified Lv 21 Turn 37701 Screen]
-  - EXP: 9,811 (837 to Lv 22) [Level 21 Achieved!]
+  - EXP: 10,084 (564 to Lv 22)
   - Stats: Attack 33, Defense 27, Speed 33, Special 32 [Empirically Verified Lv 21 Turn 37696 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
   - HP: 139 / 229 [Battle 82]
   - Status: Poisoned (PSN, Battle 82)
   - Active Move PP: Surf (11/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 97 / 249 [Battle 83 Psybeam]
+  - HP: 85 / 249 [Battle 83 Leech Life]
   - Status: Paralyzed (PAR, Battle 78)
-  - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (3/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 97 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
+  - Mewtwo HP: 85 (> 60 trigger). Psychic PP: 3 (TRIGGER MET: PP <= 3).
   - Blastoise HP: 139 (> 60 trigger). Surf PP: 11 (> 3 trigger).
-  - Status: Safe to continue switch-training in Cerulean Cave 1F.
+  - Status: Pit-Stop Triggered (Mewtwo Psychic PP <= 3). Return to Cerulean Center.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
@@ -4986,7 +4986,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77]
     - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80]
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
-    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76]
+    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
     - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
@@ -5022,14 +5022,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - All Exp. All yields 100% verified and integrated into model above.
 - Pit Stop: Executed at Turn 37542 (Full heal with Nurse Joy in Cerulean City).
 
-### Expedition 6 Summary Log (Psyduck Trainee, Battles 74-82, Turns 37579-37711):
-- Battles Fought: 9 (B74 Hypno, B75 Hypno, B76 Venomoth, B77 Dodrio, B78 Raichu, B79 Magneton, B80 Magneton, B81 Golbat, B82 Hypno).
-- Total EXP Gained by Psyduck: 2,700 EXP (grew from Lv 19 [7,111 EXP] past Lv 20 to Level 21 [9,811 EXP]).
+### Expedition 6 Summary Log (Psyduck Trainee, Battles 74-83, Turns 37579-37722):
+- Battles Fought: 10 (B74 Hypno, B75 Hypno, B76 Venomoth, B77 Dodrio, B78 Raichu, B79 Magneton, B80 Magneton, B81 Golbat, B82 Hypno, B83 Venomoth).
+- Total EXP Gained by Psyduck: 2,973 EXP (grew from Lv 19 [7,111 EXP] past Lv 20 to Level 21 [10,084 EXP]).
 - Lv 21 Verified Stats: HP 56/56, Attack 33, Defense 27, Speed 33, Special 32.
-- Trainee Progress: 837 EXP remaining to Level 22 (10,648 EXP); 26,126 EXP to Level 33 Golduck (35,937 EXP).
-- Primary Sweeper Blastoise: HP 141/229, Status PSN, Surf PP 11/15.
-- Reserve Sweeper Mewtwo: HP 101/249, Status PAR, Psychic PP 4/10.
-- Protocol Status: Safe to continue training (both sweepers HP > 60, primary PP > 3).
+- Trainee Progress: 564 EXP remaining to Level 22 (10,648 EXP); 25,853 EXP to Level 33 Golduck (35,937 EXP).
+- Primary Sweeper Blastoise: HP 139/229, Status PSN, Surf PP 11/15.
+- Reserve Sweeper Mewtwo: HP 85/249, Status PAR, Psychic PP 3/10.
+- Protocol Status: Pit-Stop Triggered (Mewtwo Psychic PP <= 3). Proceed to Cerulean Center to heal.
 
 
 <hr>
