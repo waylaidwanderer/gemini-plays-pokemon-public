@@ -4948,7 +4948,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Status: Healthy
   - EXP: 6,509 (350 to Lv 19)
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 173 / 229 [Empirically Verified Battle 71 Turn 37483 Screen]
+  - HP: 135 / 229 [Empirically Verified Battle 72 Turn 37494 Screen]
   - Status: Healthy (no status)
   - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
@@ -4957,7 +4957,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
   - Mewtwo HP: 84 (> 60 trigger). Psychic PP: 6 (> 3 trigger).
-  - Blastoise HP: 187 (> 60 trigger).
+    - Blastoise HP: 135 (> 60 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
