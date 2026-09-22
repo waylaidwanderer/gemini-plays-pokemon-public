@@ -21,9 +21,9 @@
   - Status: Healthy (Poison cured!)
   - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 249 (100%). Psychic PP: 10/10.
-  - Blastoise HP: 229 (100%). Surf PP: 15/15.
-  - Status: Completely refreshed! Returning to Cerulean Cave 1F for Expedition 6.
+  - Mewtwo HP: 245 (> 60 trigger). Psychic PP: 9 (> 3 trigger).
+  - Blastoise HP: 155 (> 60 trigger). Surf PP: 13 (> 3 trigger).
+  - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
