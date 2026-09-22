@@ -99,9 +99,9 @@
   - Item ball at (8, 3) retrieved: RARE CANDY [Obtained Turn 12025]. Path fully cleared.
 ### Pokémon Center Interior (Cols 18..21, Rows 24..27)
 - Entered via door at (19, 27) from southwest courtyard.
-- Interior bounds: Cols 0..7, rows 0..7.
+- Interior bounds: Cols 0..13, rows 0..7 [Empirically verified Turn 35941].
 - Entrance mat: (3..4, 7), exits south to Fuchsia City courtyard at (19, 28).
 - Counter: Along row 2.
 - Nurse Joy: Located at (3, 2); spoken to from (3, 3) to heal party and restore all PP [Verified Turn 12058].
 - Active Warp Anchor: Fuchsia City Pokémon Center is now the active respawn/teleport anchor [Turn 12058].
-- PC Terminal: Located along the right wall.
+- PC Terminal: Located at (13, 3) along the right wall. Floor tile in front of terminal at (13, 4) facing North [Empirically verified Turn 35941].

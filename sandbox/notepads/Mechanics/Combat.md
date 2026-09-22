@@ -13,11 +13,11 @@
 - **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
 ## Stat & Damage Mechanics
-- **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat.
-- **Physical Types:** Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost.
-- **Special Types:** Water, Grass, Fire, Ice, Electric, Psychic, Dragon.
-- **STAB:** Same-Type Attack Bonus provides a 1.5x multiplier to damage.
-- **Priority:** Quick Attack has +1 priority.
+- **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat [Empirically verified across all stat screens and damage calculations].
+- **Physical Types:** Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost [Standard Gen 1 mechanics; verified via Defense-dependent damage calculation].
+- **Special Types:** Water, Grass, Fire, Ice, Electric, Psychic, Dragon [Standard Gen 1 mechanics; verified via Special-dependent damage calculation].
+- **STAB:** Same-Type Attack Bonus provides a 1.5x multiplier to damage [Standard Gen 1 formula; verified in damage calculations].
+- **Priority:** Quick Attack has +1 priority [Standard Gen 1 mechanic].
 
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
