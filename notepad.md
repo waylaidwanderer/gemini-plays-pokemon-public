@@ -52,7 +52,8 @@
 - [x] Evolve Sandshrew into Sandslash (#028) [Turn 34938]
 - [x] Evolve Magikarp into Gyarados (#130) [Turn 35366]
 - [x] Evolve Paras into Parasect (#047) [Turn 35918]
-- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]- [x] Evolve Krabby into Kingler (#099) [Turn 37206]
+- [x] Obtain EXP.ALL from Professor Oak's Aide on Route 15 Gatehouse 2F [Turn 35997]
+- [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
 
 <hr>
@@ -115,7 +116,7 @@
   - Stats: Attack 24, Defense 20, Speed 24, Special 24 [Empirically Verified Lv 15 Turn 37295]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - Target: Level 33 (35,937 EXP) -> GOLDUCK (#055)
+  - EXP: 3375 [721 to Lv 16, Empirically Verified Turn 37299; Proof: 15^3 = 3375, 16^3 = 4096, 4096 - 3375 = 721]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
@@ -162,7 +163,8 @@
 - Slot 10: DUGTRIO (DIGBY) [Lv 26, Ground, Deposited Turn 34596]
 - Slot 11: SANDSLASH (PANGO) [Lv 22, Ground, Deposited Turn 34976]
 - Slot 12: GYARADOS (TSUNAMI) [Lv 20, Water/Flying, Deposited Turn 35436]
-- Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]- Slot 14: KINGLER (PINCHY) [Lv 28, Water, Deposited Turn 37244]
+- Slot 13: PARASECT (FUNGI) [Lv 24, Bug/Grass, Deposited Turn 35951]
+- Slot 14: KINGLER (PINCHY) [Lv 28, Water, Deposited Turn 37244]
 
 <hr>
 
@@ -4935,6 +4937,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 15, Water, Medium Fast growth, Box 1 -> Party Slot 1)
+  - Baseline Empirical EXP: 3,375 [Turn 37299]. Needed to Lv 16: 721.
+  - Cubic Formula Proof: 15^3 = 3,375. 16^3 = 4,096. 4,096 - 3,375 = 721 (Exact match!). Target Lv 33 Golduck = 33^3 = 35,937 EXP.
 - Current Milestone: Kingler (#099) evolution complete (51 caught). Deposited into Box 1 [Turn 37244].
 - Sweepers: Mewtwo (OMEGA Lv 72) / Blastoise (SHELDON Lv 72)
 
@@ -4979,11 +4983,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Retreat Triggers: Active sweeper reaching primary SE PP <= 3 (Mewtwo Psychic <= 3 triggers immediate pit stop to restore PP) or HP < 60, or major persistent status (PAR) combined with low PP.
 
 ### Other Post-Game Evolution Candidates
-1. PSYDUCK (MIGRAINE Lv 15, Box 2):
-   - Growth Group: Medium Fast (EXP = Level^3)
-   - Target EXP: 35,937 EXP (Lv 33 Golduck #055)
-   - Prerequisite Status: Caught, stored in Box 1 [Verified Box 2 empty Turn 37268].
-2. SLOWPOKE (DOPEY Lv 15, Box 2):
+1. SLOWPOKE (DOPEY Lv 15, Box 1):
    - Growth Group: Medium Fast (EXP = Level^3)
    - Target EXP: 50,653 EXP (Lv 37 Slowbro #080)
    - Prerequisite Status: Caught, stored in Box 1 [Verified Box 2 empty Turn 37268].
