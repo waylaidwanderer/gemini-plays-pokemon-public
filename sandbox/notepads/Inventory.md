@@ -58,10 +58,10 @@
   - Target: Level 28 Kingler (#099) (21,952 EXP)
   - Moves: Bubble (PP 30/30), Leer (PP 30/30) [Empirically Verified Turn 36079]
   - Caught: Cerulean Gym [Turn 31540], Withdrawn from Box 1 [Turn 35957]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy
-  - HP: 20 / 20
-  - Stats: Attack 12, Defense 11, Speed 11, Special 11
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 6, Normal/Flying]
+  - Status: Healthy [Level Up Turn 36146]
+  - HP: 22 / 22
+  - Stats: Attack 13, Defense 12, Speed 12, Special 12 [Empirically Verified Turn 36146]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
