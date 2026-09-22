@@ -85,7 +85,7 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - Target: Level 33 (35,937 EXP) -> GOLDUCK (#055)
-  - Moves: Scratch, Tail Whip
+  - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 
 ## PC Box 1 Pokémon (Stored Sample)
