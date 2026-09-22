@@ -66,7 +66,7 @@
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 72, Psychic]
   - Status: Paralyzed [Afflicted Turn 36581]
-  - HP: 174 / 249 [Verified Turn 36586]
+  - HP: 162 / 249 [Verified Turn 36588]
   - Stats: Attack 181, Defense 165, Speed 210, Special 248 [Verified Lv 72 Turn 36119]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
