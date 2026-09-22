@@ -2,20 +2,20 @@
 
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pok�mon: PSYDUCK (MIGRAINE Lv 19, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 7,419 [Turn 37586]. Needed to Lv 20: 581.
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (28,518 EXP remaining).
+  - Current Empirical EXP: 7,727 [Turn 37603]. Needed to Lv 20: 273.
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (28,210 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
 
-### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 74, Turn 37586):
+### Active Expedition Sweeper Attrition & Condition Log (Post-Battle 75, Turn 37603):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 19, Water, Lead Slot]
   - Status: Healthy [Level Up Turn 37511]
   - HP: 51 / 51 [Empirically Verified Turn 37521 Party Screen]
-  - EXP: 7,419 (581 to Lv 20)
+  - EXP: 7,727 (273 to Lv 20)
   - Stats: Attack 30, Defense 24, Speed 30, Special 30 [Empirically Verified Lv 19 Turn 37511 Screen]
 - Primary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 219 / 229 [Battle 74]
+  - HP: 155 / 229 [Battle 75]
   - Status: Healthy (no status)
-  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
   - HP: 249 / 249 [Healed Turn 37542]
   - Status: Healthy (Poison cured!)
@@ -40,7 +40,7 @@
 
 
 
-### Exp. All Empirical Model Audit & Observations Across Battles 1-74
+### Exp. All Empirical Model Audit & Observations Across Battles 1-75
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
@@ -52,7 +52,7 @@
     - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65]
     - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71]
     - Parasect (E=950, base=37 = E/25.7) [B41, B42, B46]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74]
+    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75]
     The exact assembly division mechanism causing division by 24-27 remains an unproven hypothesis pending formal disassembly review.
   - Boosted Exp. All Share strictly adheres to Gen 1 integer arithmetic: boosted = base + floor(base / 2) (100% verified across all 61 battles!).
 
@@ -88,7 +88,12 @@
 
 ### Expedition 6 Battle Log (Psyduck Trainee, Battles 74+):
 - Battle 74 (Exp 6 Battle 1, Turn 37586): Defeated Wild Hypno Lv 46. Blastoise Surf (OHKO).
-  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 7,419 (581 to Lv 20).
+  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 7,727 (273 to Lv 20).
+  - DUX: 58 EXP (boosted).
+  - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
+  - Formula audit: 100% consistent with verified Hypno model.
+- Battle 75 (Exp 6 Battle 2, Turn 37603): Defeated Wild Hypno Lv 46. Blastoise Surf (2HKO).
+  - Psyduck: 308 EXP (269 participant + 39 team share) -> New EXP: 7,727 (273 to Lv 20).
   - DUX: 58 EXP (boosted).
   - OMEGA, VEE, ROCKY, SHELDON: 39 EXP each.
   - Formula audit: 100% consistent with verified Hypno model.
