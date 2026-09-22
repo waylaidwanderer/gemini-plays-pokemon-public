@@ -17,11 +17,11 @@
   - Status: Poisoned (PSN, Battle 82)
   - Active Move PP: Surf (11/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
 - Reserve Sweeper: MEWTWO (OMEGA) [Lv 72, Psychic]
-  - HP: 101 / 249 [Battle 81 confusion self-damage]
+  - HP: 97 / 249 [Battle 83 Psybeam]
   - Status: Paralyzed (PAR, Battle 78)
   - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Protocol Trigger Check:
-  - Mewtwo HP: 101 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
+  - Mewtwo HP: 97 (> 60 trigger). Psychic PP: 4 (> 3 trigger).
   - Blastoise HP: 139 (> 60 trigger). Surf PP: 11 (> 3 trigger).
   - Status: Safe to continue switch-training in Cerulean Cave 1F.
 
