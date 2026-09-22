@@ -23,7 +23,10 @@
 - Protocol Trigger Check:
   - Mewtwo HP: 226 (> 60 trigger). Psychic PP: 7 (> 3 trigger).
   - Blastoise HP: 229 (> 60 trigger). Surf PP: 15 (> 3 trigger).
-  - Protocol Status: Green / Healthy. Ready for Battle 87.
+  - Protocol Status: Green / Healthy. Battle 87 vs Wild Dodrio Lv 49 in progress.
+- Turn 1: Psyduck lead -> switching to Mewtwo (OMEGA Lv 72).
+- Projected Trainee Gain: +315 EXP (273 participant + 42 team).
+- Trainee Progress toward Lv 23 (12,167 EXP): 10,994 + 315 = 11,309 EXP (858 EXP remaining).
 
 ### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
 | Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
