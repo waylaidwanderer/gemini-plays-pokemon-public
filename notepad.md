@@ -4999,7 +4999,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (4,875 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
-### Expedition 12 Systematic Encounter Log (N=4)
+### Completed Expedition 12 Archive (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B141** | 38969 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas failed Turn 1) | Blastoise 216/233 HP, 11/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
@@ -5010,6 +5010,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B146** | 39051 | Raichu Lv 53 | Mewtwo (Psychic) | 0 (Growl Turn 1) | Mewtwo 189/254 HP, 5/10 PP | +280 EXP (227+53) | +79 EXP | OHKO with Psychic. |
 | **B147** | 39071 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (took 11 dmg on switch) | Mewtwo 178/254 HP, 4/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
 | **B148** | 39085 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Stun Spore Turn 1; PAR) | Mewtwo 178/254 HP (PAR), 3/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with super-effective Psychic. |
+
+### Expedition 13 Systematic Encounter Log (N=4)
+| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 
 ### Active Expedition 13 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
