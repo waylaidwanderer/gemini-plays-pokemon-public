@@ -5010,6 +5010,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B184** | 39975 | Parasect Lv 52 | Blastoise (Ice Beam) | 0 (Growth) | Blastoise 233/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Growth). Turn 2 Ice Beam 4x OHKO! Slowpoke at 9,928 EXP (720 to Lv 22). Mewtwo kept at 10/10 Psychic PP! |
+| **B185** | 39998 | Magneton Lv 46 | Mewtwo (Psychic) | Pending | Pending | Pending | Pending | Turn 1 switch Slowpoke to Mewtwo. Mandatory exclusive matchup (protect Blastoise). STAB Psychic OHKO target. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 21) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
