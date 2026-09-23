@@ -132,14 +132,14 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 78 / 78 [Verified Lv 23 Screen Turn 40111]
   - Stats: Attack 38, Defense 38, Speed 14, Special 30 [Verified Lv 23 Screen Turn 40096]
-  - EXP: ~12618 (1206 to Lv 24) [Verified B192 Turn 40115]
+  - EXP: ~12912 (912 to Lv 24) [Verified B193 Turn 40142]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 214 / 259 [Verified B193 Turn 40138]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 24, Normal/Flying]
   - Status: Healthy
   - HP: 63 / 63
@@ -5010,7 +5010,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 23, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 23 (HP 78/78 [Verified Turn 40111], Atk 38, Def 38, Spd 14, Spc 30; EXP: ~12,618, 1,206 to Lv 24)
+  - Current Level: 23 (HP 78/78 [Verified Turn 40111], Atk 38, Def 38, Spd 14, Spc 30; EXP: ~12,912, 912 to Lv 24)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 ### Expedition 15 Systematic Encounter Log (N=4)
@@ -5020,15 +5020,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B184** | 39975 | Parasect Lv 52 | Blastoise (Ice Beam) | 0 (Growth) | Blastoise 233/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Growth). Turn 2 Ice Beam 4x OHKO! Slowpoke at 9,928 EXP (720 to Lv 22). Mewtwo kept at 10/10 Psychic PP! |
-| **B185** | 39998 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 243/254 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock 11 dmg, no PAR). Turn 2 STAB Psychic OHKO! Slowpoke at 10,255 EXP (393 to Lv 22). |
-| **B186** | 40012 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (move failed) | Mewtwo 243/254 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed failed move, 0 dmg). Turn 2 STAB Psychic OHKO! Slowpoke at 10,582 EXP (66 to Lv 22). |
-| **B187** | 40028 | Magneton Lv 46 | Mewtwo (Psychic) | 19 (Thundershock crit) | Mewtwo 229/259 HP (Lv 74!), 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock crit 19 dmg, no PAR). Turn 2 STAB Psychic OHKO! Mewtwo grew to Level 74 (stats: Atk 190, Def 173, Spd 220, Spc 260, HP 229/259). Slowpoke received full participant share + Exp.All (+327 EXP), reaching Lv 22! |
+*Summary B184-B187 (Turns 39975-40046): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 22 (10,648 EXP). Defeated Parasect Lv 52 (B184) and Magneton Lv 46 x3 (B185-B187). Mewtwo reached Lv 74.*
 | **B188** | 40052 | Sandslash Lv 52 | Blastoise (Surf) | 0 (attack missed) | Blastoise 233/233 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed miss, 0 dmg). Turn 2 STAB Surf OHKO! Slowpoke at 11,019 EXP (1,148 to Lv 23). Mewtwo kept at 7/10 Psychic PP! |
 | **B189** | 40062 | Dodrio Lv 49 | Blastoise (Ice Beam) | 8 (attack absorbed) | Blastoise 225/233 HP, 8/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed hit, 8 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~11,355 EXP (812 to Lv 23). Mewtwo kept at 7/10 Psychic PP! |
 | **B190** | 40071 | Golbat Lv 46 | Blastoise (Ice Beam) | 8 (attack absorbed) | Blastoise 217/233 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed hit, 8 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~11,696 EXP (471 to Lv 23). Mewtwo kept at 7/10 Psychic PP! |
 | **B191** | 40088 | Hypno Lv 46 | Mewtwo (Psychic crit) | 0 (Meditate) | Mewtwo 229/259 HP, 6/10 Psychic PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Meditate, 0 dmg). Turn 2 STAB Psychic CRITICAL HIT OHKO! Slowpoke grew to Level 23! Slowpoke at ~12,291 EXP (1,533 to Lv 24). Blastoise kept at 217/233 HP! |
 | **B192** | 40109 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 218/259 HP, 5/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock 11 dmg, no PAR). Turn 2 STAB Psychic OHKO! Slowpoke at ~12,618 EXP (1,206 to Lv 24). Blastoise kept at 217/233 HP! |
+| **B193** | 40128 | Venomoth Lv 49 | Mewtwo (Psychic) | 4 (Psybeam) | Mewtwo 214/259 HP, 4/10 Psychic PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Psybeam (4 dmg). Turn 3 STAB Psychic 2x OHKO! Slowpoke at ~12,912 EXP (912 to Lv 24). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 21) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
