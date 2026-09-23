@@ -14,7 +14,7 @@
   - Stats: Attack 48, Defense 39, Speed 48, Special 48 [Verified Lv 31 Screen Turn 39035]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 29825
+  - EXP: 30161
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -25,9 +25,9 @@
   - Moves: Swift (PP 18/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
-  - HP: 203 / 233 [Verified Battle 144 Turn 39035]
+  - HP: 144 / 233 [Verified Battle 145 Turn 39044]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 10/15), Ice Beam (PP 8/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 8/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 21, Normal/Flying]
   - Status: Healthy
   - HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
