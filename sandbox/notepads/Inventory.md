@@ -30,7 +30,7 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 23, Normal/Flying]
   - Status: Healthy
-  - HP: 61 / 61 [Verified Lv 23 Turn 39351]
+  - HP: 61 / 61 [Estimated Lv 23 max; stat popup omitted HP, pending party menu check]
   - Stats: Attack 39, Defense 36, Speed 36, Special 34 [Verified Lv 23 Screen Turn 39351]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)

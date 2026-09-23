@@ -16,10 +16,6 @@
 | **B159** | 39318 | Magneton Lv 46 | Mewtwo (Psychic) | 12 (took 12 dmg on switch) | Mewtwo 242/254 HP, 9/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with STAB Psychic. |
 | **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
 | **B161** | 39340 | Hypno Lv 46 | Blastoise (Surf x2) | 158 (took 14 PSN + 63 crit Psychic Turn 1, 14 PSN + 67 crit Psychic Turn 2) | Blastoise 67/233 HP, 13/15 PP, PSN | +334 EXP (269+65) | +97 EXP | 2HKO with Surf after 2 consecutive enemy critical Psychics. |
-| **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
-| **B161** | 39340 | Hypno Lv 46 | Blastoise (Surf x2) | 158 (took 14 PSN + 63 crit Psychic Turn 1, 14 PSN + 67 crit Psychic Turn 2) | Blastoise 67/233 HP, 13/15 PP, PSN | +334 EXP (269+65) | +97 EXP | 2HKO with Surf after 2 consecutive enemy critical Psychics. |
-| **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
-| **B161** | 39340 | Hypno Lv 46 | Blastoise (Surf x2) | 158 (took 14 PSN + 63 crit Psychic Turn 1, 14 PSN + 67 crit Psychic Turn 2) | Blastoise 67/233 HP, 13/15 PP, PSN | +334 EXP (269+65) | +97 EXP | 2HKO with Surf after 2 consecutive enemy critical Psychics. |
 
 ### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -64,7 +60,10 @@
   - Fast Physical / Ground / Normal / Grass & Specific Targets (Dodrio, Sandslash, Parasect [4x Ice Beam], Ditto, Hypno [Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
 - Retreat Protocol:
   - Immediate Trigger: Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if either active sweeper sustains an incapacitating status condition (PAR, SLP, FRZ).
-  - Poison (PSN) Handling: If secondary sweeper (Blastoise) is poisoned but primary sweeper (Mewtwo) is healthy and Blastoise HP > 100, continue training without pit-stop (overworld poison drains only 1 HP per 4 steps; Blastoise's massive 230+ HP pool easily sustains the pacing required to finish Psyduck's evolution). If Mewtwo sustains PSN, or if Blastoise HP drops < 60, trigger pit-stop.
+  - Poison (PSN) Handling:
+    - Blastoise HP > 100: Continue training without pit-stop; Blastoise and Mewtwo share combat duties per standard matchups.
+    - Blastoise HP 60–100: Continue training without pit-stop, BUT designate Mewtwo as the sole combat sweeper for all encounters to protect Blastoise from further combat damage. Pacing overworld steps drains only 1 HP per 4 steps, safely sustaining the final ~1-2 battles to reach Level 33 Golduck.
+    - Blastoise HP < 60, or Mewtwo sustains PSN: Trigger pit-stop immediately.
 
 ### Other Post-Game Evolution Candidates
 1. SLOWPOKE (DOPEY Lv 15, Box 2): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
