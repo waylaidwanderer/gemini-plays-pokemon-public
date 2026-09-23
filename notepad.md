@@ -132,14 +132,14 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 72 / 72 [Verified Lv 21 Screen Turn 39786]
   - Stats: Attack 35, Defense 35, Speed 13, Special 27 [Verified Lv 21 Screen Turn 39777]
-  - EXP: 10255 (393 to Lv 22) [Verified B185 Turn 40005]
+  - EXP: 10582 (66 to Lv 22) [Verified B186 Turn 40019]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
   - HP: 243 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 24, Normal/Flying]
   - Status: Healthy
   - HP: 63 / 63
@@ -4993,8 +4993,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 21, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 21 (EXP: 10,255, 393 to Lv 22)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+40,398 EXP required).
+  - Current Level: 21 (EXP: 10,582, 66 to Lv 22)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+40,071 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 21) - Trainee / Lead
@@ -5011,7 +5011,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B184** | 39975 | Parasect Lv 52 | Blastoise (Ice Beam) | 0 (Growth) | Blastoise 233/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Growth). Turn 2 Ice Beam 4x OHKO! Slowpoke at 9,928 EXP (720 to Lv 22). Mewtwo kept at 10/10 Psychic PP! |
 | **B185** | 39998 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 243/254 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock 11 dmg, no PAR). Turn 2 STAB Psychic OHKO! Slowpoke at 10,255 EXP (393 to Lv 22). |
-| **B186** | 40012 | Magneton Lv 46 | Mewtwo (Psychic) | Pending | Pending | Pending | Pending | Turn 1 switch Slowpoke to Mewtwo. Mandatory exclusive matchup (protect Blastoise). STAB Psychic OHKO target. |
+| **B186** | 40012 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (move failed) | Mewtwo 243/254 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed failed move, 0 dmg). Turn 2 STAB Psychic OHKO! Slowpoke at 10,582 EXP (66 to Lv 22). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 21) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
