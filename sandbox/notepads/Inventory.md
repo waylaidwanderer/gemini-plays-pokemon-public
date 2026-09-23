@@ -54,7 +54,7 @@
   - Stats: Attack 39, Defense 31, Speed 39, Special 39 [Verified Lv 25 Screen Turn 38147]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 17002 [574 to Lv 26; 17576 - 17002 = 574]
+  - EXP: 17298 [278 to Lv 26; 17576 - 17298 = 278]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -68,10 +68,10 @@
   - HP: 229 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 18, Normal/Flying]
+- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 19, Normal/Flying]
   - Status: Healthy
-  - HP: 49 / 49
-  - Stats: Attack 31, Defense 29, Speed 29, Special 27
+  - HP: 51 / 51
+  - Stats: Attack 32, Defense 30, Speed 30, Special 29 [Verified Lv 19 Screen Turn 38226]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
