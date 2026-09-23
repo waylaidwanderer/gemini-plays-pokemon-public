@@ -174,7 +174,7 @@
   - Stats: Attack 39, Defense 31, Speed 39, Special 39 [Verified Lv 25 Screen Turn 38147]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 17298 [278 to Lv 26; 17576 - 17298 = 278]
+  - EXP: 17002 [574 to Lv 26; 17576 - 17002 = 574]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -250,16 +250,16 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active PokÃÂ©mon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÃÂÃÂ©MON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
-- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÃÂÃÂ©MON causes the Start menu to re-open on POKÃÂÃÂ©MON on the next press).
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy PokÃÂ©mon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
-- **Shift Style Prompt:** When an opposing PokÃÂ©mon faints in trainer battles, the game asks "Will BLUE change POKÃÂÃÂ©MON?". Default cursor is YES. Pressing B automatically selects NO and retains current PokÃÂ©mon.
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
+- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles [Empirically verified Turn 58 vs Rival RED].
 - **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
-- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party PokÃÂ©mon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÃÂÃÂ©DEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
 ## Stat & Damage Mechanics
@@ -270,14 +270,14 @@
 - **Priority:** Quick Attack has +1 priority [Standard Gen 1 game engine specification].
 
 ## Obedience
-- **Original Trainer PokÃÂ©mon:** Starter PokÃÂ©mon and PokÃÂ©mon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider PokÃÂ©mon.
+- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
-## Experience Distribution & Traded PokÃÂ©mon Boost
-- **Multi-Participant EXP Sharing:** When multiple PokÃÂ©mon participate in defeating an opposing PokÃÂ©mon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
-- **Native vs. Traded PokÃÂ©mon EXP Yields:**
-  - **Native PokÃÂ©mon (OT matches player):** Receives exactly the base share `s_EXP`.
-  - **Traded / Outsider PokÃÂ©mon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
-- **Traded PokÃÂ©mon Boost Formula (Gen 1 Assembly Implementation):**
+## Experience Distribution & Traded Pokémon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Native vs. Traded Pokémon EXP Yields:**
+  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
@@ -294,7 +294,7 @@
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
     - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
 
-- **In-Battle Party Sub-Menu:** When selecting a non-active PokÃÂ©mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## EXP.ALL Mathematical Model & Empirical Mechanics (Generation 1 Retail)
 - **Exp. All Distribution Formula:**
@@ -5003,15 +5003,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 25, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 17,298 [Turn 38219]. Psyduck at Level 25.
-  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (278 EXP remaining, ~1 battle).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (18,639 EXP remaining).
+  - Current Empirical EXP: 17,002 [Turn 38207]. Psyduck at Level 25.
+  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (574 EXP remaining, ~2 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (18,935 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38193, Battle 104 Golbat):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 25, Water, Lead Slot]
   - Status: Healthy, HP: 65 / 65
-  - EXP: 17,298 (278 to Lv 26 milestone at 17,576 EXP)
+  - EXP: 17,002 (In Progress B106: participant 237 on screen, pending EXP.ALL)
   - Stats: Attack 39, Defense 31, Speed 39, Special 39
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 246 / 254
@@ -5071,7 +5071,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B103**| Hypno Lv 46 | Blastoise (Surf x2) | Blastoise took 52 dmg (crit); 2-hit Surf KO | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 16,365 |
 | **B104**| Golbat Lv 46 | Mewtwo (Psychic) | Golbat move failed; OHKO with Psychic (PP 4/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 16,706 |
 | **B105**| Parasect Lv 52 | Blastoise (Ice Beam) | Blastoise took 34 dmg on switch; OHKO with Ice Beam | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 17,002 |
-| **B106**| Parasect Lv 52 | Blastoise (Ice Beam) | Blastoise took 7 dmg on switch; OHKO with Ice Beam | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 17,298 |
+| **B106**| Parasect Lv 52 | Blastoise (Ice Beam) | Blastoise took 7 dmg on switch; OHKO with Ice Beam | 237 EXP | Pending (In Progress) | Pending | In Progress |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
