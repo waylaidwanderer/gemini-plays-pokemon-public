@@ -3,11 +3,11 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥3056 [Verified Turn 34152]
+- Money: Â¥3056 [Verified Turn 34152]
 - Badges: 8 / 8
-- Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
+- PokÃ©dex: 51 Caught / 137 Seen [Verified Turn 37209]
 
-## Party Pokémon (4 / 6)
+## Party PokÃ©mon (4 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 30, Water]
   - Status: Healthy
   - HP: 77 / 77 [Verified In-Battle Screen Turn 38882]
@@ -37,7 +37,7 @@
 ## Key Items
 - BICYCLE
 - SUPER ROD
-- POKé FLUTE
+- POKÃ© FLUTE
 - SILPH SCOPE
 - HM02 (FLY)
 - EXP.ALL
@@ -47,9 +47,9 @@
 - OLD AMBER (Revived into Aerodactyl)
 - HELIX FOSSIL (Revived into Omanyte)
 
-## PC Pokémon Storage
+## PC PokÃ©mon Storage
 - Active Box: BOX 1
-  - Box 1 Pokémon:
+  - Box 1 PokÃ©mon:
     - Krabby (PINCHY Lv 15) -> Evolved into Kingler (#099)
     - Zapdos (THUNDER Lv 50)
     - Jolteon (VEE Lv 25)
@@ -66,7 +66,7 @@
     - Omanyte (NAUTILUS Lv 30)
     - Aerodactyl (PTERA Lv 30)
     - Geodude (ROCKY Lv 23)
-- Box 2 Pokémon:
+- Box 2 PokÃ©mon:
   - Poliwrath (RIPPLE Lv 32)
   - Tentacool (STINGER Lv 10)
   - Grimer (GOOP Lv 30)
