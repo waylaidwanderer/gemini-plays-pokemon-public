@@ -248,16 +248,16 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active PokÃ©mon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÃ©MON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
-- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÃ©MON causes the Start menu to re-open on POKÃ©MON on the next press).
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy PokÃ©mon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
-- **Shift Style Prompt:** When an opposing PokÃ©mon faints in trainer battles, the game asks "Will BLUE change POKÃ©MON?". Default cursor is YES. Pressing B automatically selects NO and retains current PokÃ©mon.
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÉMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÉMON causes the Start menu to re-open on POKÉMON on the next press).
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
+- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKÉMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles [Empirically verified Turn 58 vs Rival RED].
 - **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
-- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party PokÃ©mon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÃ©DEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÉDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
 ## Stat & Damage Mechanics
@@ -268,14 +268,14 @@
 - **Priority:** Quick Attack has +1 priority [Standard Gen 1 game engine specification].
 
 ## Obedience
-- **Original Trainer PokÃ©mon:** Starter PokÃ©mon and PokÃ©mon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider PokÃ©mon.
+- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
-## Experience Distribution & Traded PokÃ©mon Boost
-- **Multi-Participant EXP Sharing:** When multiple PokÃ©mon participate in defeating an opposing PokÃ©mon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
-- **Native vs. Traded PokÃ©mon EXP Yields:**
-  - **Native PokÃ©mon (OT matches player):** Receives exactly the base share `s_EXP`.
-  - **Traded / Outsider PokÃ©mon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
-- **Traded PokÃ©mon Boost Formula (Gen 1 Assembly Implementation):**
+## Experience Distribution & Traded Pokémon Boost
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Native vs. Traded Pokémon EXP Yields:**
+  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
@@ -292,7 +292,7 @@
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
     - With Exp. All (N=6, Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
 
-- **In-Battle Party Sub-Menu:** When selecting a non-active PokÃ©mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## EXP.ALL Empirical Distribution & Observed Yields (Generation 1 Retail)
 - **Exp. All Distribution & Participant Sharing:**
@@ -309,10 +309,10 @@
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118, 119, 126, 127, 129, 130]
+  - Golbat (E=1104): 65 EXP [Verified Battles 100, 126, 130]
   - Dodrio (E=1092): 63 EXP [Verified Battles 111, 124]
-  - Hypno (E=1076): 65 EXP [Verified Battles 98, 103, 117, 121, 125]
-  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112, 115, 128, 131, 132]
+  - Hypno (E=1076): 65 EXP [Verified Battles 98, 121, 125]
+  - Magneton (E=1050): 65 EXP [Verified Battles 97, 128, 132]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116]
   - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122]
@@ -897,68 +897,68 @@
 
 <h1><code>Locations/Kanto_CeruleanCity</code></h1>
 
-# Cerulean City Geography & Points of Interest
-
-## Connections
-- South: Route 5 border connection at (25..27, 36) and tall grass strip warp at Cerulean (25, 35) <-> Route 5 (15, 0).
-- West: Route 4 eastern bridge at (0, 18..19).
-- North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
-- East: Route 9 entrance. Stepping East from (39, 16) onto column 40 warps to Route 9 (0, 8) [Turn 28491]. (Note: (38, 16) is internal grass path).
-
-
-## Cerulean City Canal Waterway Topology [Verified Turns 33486-34657]
-- Northern Connection: Enters from Route 24 waterway boundary at (18, 0).
-- East-West Channel: Traversable water canal spanning columns 6..18 across rows 4..5.
-- Column 6 Chute: Vertical water chute flowing south from row 5 down column 6 to row 12, landing on the Cerulean Cave western apron at (5, 12) directly adjacent to cave entrance (4, 11).
-- Column 7 Stone Fence Barrier [Empirically Verified Turn 34657]:
-  - Column 7 features a continuous, unbroken line of solid stone fence posts spanning rows 11 through 17 ((7, 11) to (7, 17)).
-  - Northern District Street (cols 8..9, rows 12..14) is completely walled off from the Column 6 canal and Cerulean Cave apron by the Column 7 stone fence barrier.
-  - Direct water access / Surf launch to the canal chute from Northern District Street is physically blocked by this barrier.
-  - Standard transit to Cerulean Cave proceeds via Route 24 canal launch (Route 24 (8, 15) into (8, 16)). (Southern river basin internal connectivity to column 6 remains unverified).
-
-## Geography & Layout
-- Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
-- Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
-- Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
-- Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11, but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street.
-- Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
-- Canal Northern Bank Landmark (4, 11): Cerulean Cave mouth structure at (4, 11). Formerly guarded by green-haired NPC at (4, 12); visually verified departed post-Champion induction [Turn 25483].
-- Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
-- Eastern Elevation Boundary (Row 19, Cols 32..37): Impassable northbound elevation boundary across cols 32..37.
-- Eastern Bollard Line (Col 35, Rows 20..27): Vertical barrier of wooden bollards separating col 34 from cols 36..37.
-- Eastern Corridor (Col 34, Rows 20..25): Open north-south pale mint pathway running south between flower garden/building (cols 31..33) and bollards (col 35).
-- Southeast Building: Located at cols 28..33, rows 24..25 with blue roof.
-- Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
-- Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
-- Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
-- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28).
-- Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
-
-### Verified Transit Corridors
-- Center-to-Route 24 Corridor: From Pok�mon Center door at (19, 18), step South to row 19, walk West along row 19 to Column 8 at (8, 19), step North up Column 8 through the open walkable ramp at (8, 15) to Northern District Street at (8, 14), step Up to row 13, walk East along row 13 to Column 20 at (20, 13), then walk North along Column 20 through the tree gap at (20, 9) all the way to row 0, exiting into Route 24 at (10, 36) [Physically verified Turns 36888-36896].
-
-## Key Buildings & Facilities
-- Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
-  - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
-- Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
-  - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
-  - Resident 1 at (5, 4): Kid in blue overalls.
-  - Resident 2 at (1, 2): Trader (traded her JYNX for player's POLIWHIRL SWIRLY [Turn 31724]).
-  - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
-- Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
-  - Interior Topology [Verified Turns 34952-34966]: Entrance mat at (3, 7). Counter & Nurse Joy at (3, 2), interact from (3, 3) facing North. PC terminal monitor at (13, 3), operated from (13, 4) facing North. Facing East from (12, 3) fails to interact with PC.
-- Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
-  - Central pool: Spans rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounters verified: Psyduck (Lv 15, Turn 31489) and Krabby (Lv 15, Turn 31536).
-  - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
-  - Gym Trainers:
-    - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
-    - Jr. Trainer ♀ on northern platform at (4, 3): Goldeen Lv 19 (451 EXP). Prize: ¥380. Defeated Turn 2016.
-    - Gym Leader Misty at (4, 2): Staryu Lv 18 (408 EXP), Starmie Lv 21 (931 EXP). Prize: ¥2079, CASCADEBADGE, TM11 (BUBBLEBEAM). Defeated Turn 2077.
-- Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
-  - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
-  - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
-- Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North. Backyard path along rows 8..9 dead-ends east against trees at col 34; the true transit corridor turns south down Column 33 through rows 10..15 to access the Route 9 entrance [Verified Turn 28489].
-- Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the Poké Mart (cols 24..27).
+# Cerulean City Geography & Points of Interest
+
+## Connections
+- South: Route 5 border connection at (25..27, 36) and tall grass strip warp at Cerulean (25, 35) <-> Route 5 (15, 0).
+- West: Route 4 eastern bridge at (0, 18..19).
+- North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
+- East: Route 9 entrance. Stepping East from (39, 16) onto column 40 warps to Route 9 (0, 8) [Turn 28491]. (Note: (38, 16) is internal grass path).
+
+
+## Cerulean City Canal Waterway Topology [Verified Turns 33486-34657]
+- Northern Connection: Enters from Route 24 waterway boundary at (18, 0).
+- East-West Channel: Traversable water canal spanning columns 6..18 across rows 4..5.
+- Column 6 Chute: Vertical water chute flowing south from row 5 down column 6 to row 12, landing on the Cerulean Cave western apron at (5, 12) directly adjacent to cave entrance (4, 11).
+- Column 7 Stone Fence Barrier [Empirically Verified Turn 34657]:
+  - Column 7 features a continuous, unbroken line of solid stone fence posts spanning rows 11 through 17 ((7, 11) to (7, 17)).
+  - Northern District Street (cols 8..9, rows 12..14) is completely walled off from the Column 6 canal and Cerulean Cave apron by the Column 7 stone fence barrier.
+  - Direct water access / Surf launch to the canal chute from Northern District Street is physically blocked by this barrier.
+  - Standard transit to Cerulean Cave proceeds via Route 24 canal launch (Route 24 (8, 15) into (8, 16)). (Southern river basin internal connectivity to column 6 remains unverified).
+
+## Geography & Layout
+- Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokéémon Center and Gym.
+- Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokéémon Center (cols 18..21, rows 14..17) with no gap between buildings.
+- Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokéémon Center roofs.
+- Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11, but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street.
+- Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
+- Canal Northern Bank Landmark (4, 11): Cerulean Cave mouth structure at (4, 11). Formerly guarded by green-haired NPC at (4, 12); visually verified departed post-Champion induction [Turn 25483].
+- Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
+- Eastern Elevation Boundary (Row 19, Cols 32..37): Impassable northbound elevation boundary across cols 32..37.
+- Eastern Bollard Line (Col 35, Rows 20..27): Vertical barrier of wooden bollards separating col 34 from cols 36..37.
+- Eastern Corridor (Col 34, Rows 20..25): Open north-south pale mint pathway running south between flower garden/building (cols 31..33) and bollards (col 35).
+- Southeast Building: Located at cols 28..33, rows 24..25 with blue roof.
+- Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
+- Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
+- Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
+- Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28).
+- Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
+
+### Verified Transit Corridors
+- Center-to-Route 24 Corridor: From Pokéemon Center door at (19, 18), step South to row 19, walk West along row 19 to Column 8 at (8, 19), step North up Column 8 through the open walkable ramp at (8, 15) to Northern District Street at (8, 14), step Up to row 13, walk East along row 13 to Column 20 at (20, 13), then walk North along Column 20 through the tree gap at (20, 9) all the way to row 0, exiting into Route 24 at (10, 36) [Physically verified Turns 36888-36896].
+
+## Key Buildings & Facilities
+- Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
+  - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
+- Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
+  - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
+  - Resident 1 at (5, 4): Kid in blue overalls.
+  - Resident 2 at (1, 2): Trader (traded her JYNX for player's POLIWHIRL SWIRLY [Turn 31724]).
+  - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
+- Cerulean Pokéémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKÉé" sign at (20, 17).
+  - Interior Topology [Verified Turns 34952-34966]: Entrance mat at (3, 7). Counter & Nurse Joy at (3, 2), interact from (3, 3) facing North. PC terminal monitor at (13, 3), operated from (13, 4) facing North. Facing East from (12, 3) fails to interact with PC.
+- Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKÉéMON GYM / LEADER: MISTY".
+  - Central pool: Spans rows 9..11 with central pier at cols 4..5. Empirically verified Turn 31481: Super Rod casts successfully into Gym pool. Wild encounters verified: Psyduck (Lv 15, Turn 31489) and Krabby (Lv 15, Turn 31536).
+  - Gym Guide Advice: Leader Misty specializes in Water-type Pokéémon; recommends Grass (plant) and Electric types as counters.
+  - Gym Trainers:
+    - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
+    - Jr. Trainer ♀ on northern platform at (4, 3): Goldeen Lv 19 (451 EXP). Prize: ¥380. Defeated Turn 2016.
+    - Gym Leader Misty at (4, 2): Staryu Lv 18 (408 EXP), Starmie Lv 21 (931 EXP). Prize: ¥2079, CASCADEBADGE, TM11 (BUBBLEBEAM). Defeated Turn 2077.
+- Cerulean Pokéé Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokéémon at (28, 26).
+  - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
+  - Catalog Items: POKÉé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
+- Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Stepping North onto (27, 11) warps to interior entrance mat at (2, 7). Wall hole blasted through north wall at (3, 0) warps outside to backyard at (27, 9). Police officer stationed at (28, 12) facing North. Backyard path along rows 8..9 dead-ends east against trees at col 34; the true transit corridor turns south down Column 33 through rows 10..15 to access the Route 9 entrance [Verified Turn 28489].
+- Eastern Corridor Barrier: Column 34 terminates at row 28 with a solid bush. Row 27 provides an open east-west street connecting west past the Pokéé Mart (cols 24..27).
 
 <hr>
 
