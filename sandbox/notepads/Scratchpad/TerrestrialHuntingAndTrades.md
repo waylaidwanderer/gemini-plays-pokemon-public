@@ -16,12 +16,7 @@
 ### Expedition 15 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
-| **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Headbutt on T1 switch) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP (269+65) | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
-| **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (Turn 1 switch) | Mewtwo 224/254 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 4,407 EXP and GREW TO LEVEL 16! Stats: 27/27/11/21. |
-| **B168** | 39543 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Turn 1 switch) | Mewtwo 215/254 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke at 4,734 EXP (179 to Lv 17). |
-| **B169** | 39554 | Parasect Lv 52 | Blastoise (Ice Beam) | 8 (Leech Life Turn 1) | Blastoise 221/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | 4x Ice Beam OHKO! Slowpoke grew to LEVEL 17! Stats: Atk 28, Def 29, Spd 11, Spc 22. |
-| **B170** | 39571 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Stun Spore Turn 1) | Mewtwo 215/254 HP (PAR), 6/10 Psychic PP | +294 EXP (238+56) | +84 EXP | STAB Psychic OHKO! Slowpoke at 5,324 EXP (508 to Lv 18). Pit-stop triggered. |
+*Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop taken Turn 39585.*
 | **B171** | 39622 | Sandslash Lv 52 | Blastoise (Surf) | 33 (Turn 1 critical Slash) | Blastoise 200/233 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | 2x STAB Surf OHKO! Slowpoke at 5,695 EXP (137 to Lv 18). |
 | **B172** | 39633 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Turn 1 switch) | Mewtwo 245/254 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 6,022 EXP and GREW TO LEVEL 18! Stats: 30/30/12/23. |
 | **B173** | 39641 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Confuse Ray Turn 1) | Mewtwo 245/254 HP, 8/10 Psychic PP | +341 EXP (276+65) | +97 EXP | 2x STAB Psychic OHKO! Slowpoke at 6,363 EXP (496 to Lv 19). |
@@ -51,7 +46,8 @@
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
   - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
 - Sweeper Matchups:
-  - Mewtwo (OMEGA, Slot 2): Golbat, Venomoth, Magneton, Raichu, Kadabra, Hypno. STAB Psychic / Swift guarantees rapid OHKOs.
+  - Mewtwo (OMEGA, Slot 2): Golbat, Venomoth, Magneton, Raichu, Kadabra. STAB Psychic guarantees rapid OHKOs.
+- Hypno Special Protocol: In Gen 1, Psychic resists Psychic (0.5x). Mewtwo's 254 Special deals ~65% damage with non-critical Psychic (OHKOs on ~25.4% crit). If Hypno survives Turn 2 Psychic, finish with SWIFT (Move 1, 20/20 PP) on Turn 3 to conserve Psychic PP (saving 1 PP per Hypno encounter).
   - Blastoise (SHELDON, Slot 4): Dodrio, Sandslash, Parasect (4x Ice Beam). High defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
 - Retreat Protocol:
   - Trigger pit-stop if Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if any sweeper sustains incapacitating status (PAR, SLP, FRZ, PSN).
