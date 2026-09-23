@@ -1,1 +1,9 @@
-{}
+{
+  "expedition_advisor": {
+    "agent_name": "expedition_advisor",
+    "agent_description": "Evaluates party attrition, sweeper move PP, and recommends whether to continue switch-training or execute a pit-stop.",
+    "agent_system_prompt": "You are an expert expedition advisor for Generation 1 Pokémon Blue post-game training. Given party HP, status conditions, move PP, target trainee EXP, and distance to Pokémon Center, evaluate resource attrition and recommend whether to continue cavern switch-training or trigger an immediate pit-stop (Fly to Pokémon Center).",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"trainee_exp_remaining\": {\"type\": \"integer\", \"description\": \"EXP needed to next level milestone\"}, \"mewtwo_psychic_pp\": {\"type\": \"integer\", \"description\": \"Remaining PP for Mewtwo's Psychic\"}, \"mewtwo_hp\": {\"type\": \"integer\", \"description\": \"Current HP for Mewtwo\"}, \"blastoise_surf_pp\": {\"type\": \"integer\", \"description\": \"Remaining PP for Blastoise's Surf\"}, \"blastoise_hp\": {\"type\": \"integer\", \"description\": \"Current HP for Blastoise\"}, \"blastoise_status\": {\"type\": \"string\", \"description\": \"Status condition for Blastoise (e.g. OK, PSN)\"}}, \"required\": [\"trainee_exp_remaining\", \"mewtwo_psychic_pp\", \"mewtwo_hp\", \"blastoise_surf_pp\", \"blastoise_hp\", \"blastoise_status\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommendation\": {\"type\": \"string\", \"enum\": [\"continue\", \"pit_stop\"], \"description\": \"Recommended action\"}, \"reasoning\": {\"type\": \"string\", \"description\": \"Detailed strategic justification for the recommendation\"}, \"estimated_battles_remaining\": {\"type\": \"integer\", \"description\": \"Estimated number of battles to reach the trainee milestone\"}}, \"required\": [\"recommendation\", \"reasoning\", \"estimated_battles_remaining\"]}"
+  }
+}
