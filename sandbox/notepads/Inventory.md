@@ -8,13 +8,13 @@
 - Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 31, Water]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 32, Water]
   - Status: Healthy
   - HP: 80 / 80 [Verified In-Battle Screen Turn 39041]
-  - Stats: Attack 48, Defense 39, Speed 48, Special 48 [Verified Lv 31 Screen Turn 39035]
+  - Stats: Attack 50, Defense 40, Speed 50, Special 49 [Verified Lv 32 Screen Turn 39215]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 32741
+  - EXP: 33075
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -27,7 +27,7 @@
   - Status: Healthy
   - HP: 200 / 233 [Battle 153 Turn 39202]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 22, Normal/Flying]
   - Status: Healthy
   - HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
