@@ -168,7 +168,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 27, Water]
   - Status: Healthy
-  - HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
+  - HP: Pending Lv 27 Party Screen Verification (was 67 at Lv 26)
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -309,15 +309,14 @@
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): Pending empirical encounter
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104]
+  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114]
   - Dodrio (E=1092): 63 EXP [Verified Battle 111]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 103]
-  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108]
+  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106]
-  - Venomoth (E=952): 56 EXP [Verified Battle 99]
+  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110]
   - Raichu (E=908): Pending empirical encounter
-  - Note: Under N=4 party, Magneton (1050), Hypno (1076), and Golbat (1104) yield 65 EXP, while Kadabra (1008) and Dodrio (1092) yield 63 EXP, Parasect (950) yields 59 EXP, and Venomoth (952) yields 56 EXP.
 
 
 <hr>
@@ -5021,14 +5020,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 27, Water, Lead Slot]
-  - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
+  - Status: Healthy, HP: Pending Lv 27 Party Screen Verification (was 67 at Lv 26)
   - EXP: 19,906 (2,046 to Lv 28 milestone at 21,952 EXP)
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 227 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
   - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 5. Status: Full PP / Green.
+  - Protocol Trigger Check: Mewtwo Psychic PP = 5 (Green, Retreat Trigger <= 3).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 221 / 233
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
