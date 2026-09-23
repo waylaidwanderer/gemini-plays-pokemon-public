@@ -172,7 +172,7 @@
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 20529 [1423 to Lv 28; 21952 - 20529 = 1423]
+  - EXP: 20863 [1089 to Lv 28; 21952 - 20863 = 1089]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -183,7 +183,7 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
-  - HP: 233 / 233 [Verified Lv 73 Screen Turn 38238]
+  - HP: 169 / 233 (PSN) [Verified Screen Turn 38446]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 19, Normal/Flying]
@@ -5013,15 +5013,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 27, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 20,529 [Turn 38431]. Psyduck at Level 27.
-  - Milestone Next: Lv 28 = 28^3 = 21,952 EXP (1,423 EXP remaining, ~4-5 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (15,408 EXP remaining).
+  - Current Empirical EXP: 20,863 [Turn 38447]. Psyduck at Level 27.
+  - Milestone Next: Lv 28 = 28^3 = 21,952 EXP (1,089 EXP remaining, ~3-4 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (15,074 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 27, Water, Lead Slot]
   - Status: Healthy, HP: 70 / 70 [Verified Screen Turn 38404]
-  - EXP: 20,529 (1,423 to Lv 28 milestone at 21,952 EXP)
+  - EXP: 20,863 (1,089 to Lv 28 milestone at 21,952 EXP)
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 206 / 254 (PAR)
@@ -5029,10 +5029,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 4 (Green, Retreat Trigger <= 3).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 192 / 233
+  - Status: Healthy, HP: 169 / 233 (PSN)
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 192, Surf PP >= 13. Status: Full PP / Green.
+  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (13/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 169, Surf PP = 14. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
   - Status: Healthy, HP: 52 / 52 [Verified Screen Turn 38300]
 
@@ -5067,6 +5067,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B114**| Golbat Lv 46 | Mewtwo (Psychic) | Took 0 dmg on switch; OHKO with Psychic (PP 5/10); **Psyduck grew to Lv 27!** | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 19,906 |
 | **B115**| Magneton Lv 46 | Mewtwo (Psychic) | Paralyzed on switch, took 10 dmg; OHKO with Psychic through paralysis (PP 4/10) | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 20,233 |
 | **B116**| Parasect Lv 52 | Blastoise (Ice/Surf) | Took 29 dmg on switch; defeated with Blastoise (HP 192/233) | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 20,529 |
+| **B117**| Hypno Lv 46 | Blastoise (Body Slam x2) | Poisoned on switch; 2HKO with Body Slam (crit turn 2); took 23 dmg | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 20,863 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
