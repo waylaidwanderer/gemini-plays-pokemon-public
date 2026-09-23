@@ -20,17 +20,17 @@
 | **B130** | 38726 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (broke through confusion) | Mewtwo 220/254 HP, 4/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic through confusion. |
 | **B131** | 38740 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (took 10 dmg on switch) | Mewtwo 210/254 HP, 3/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. Threshold triggered (PP <= 3). |
 
-### Active Expedition 11 Sweeper Attrition & Condition Log:
+### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 210 / 254 [Verified Screen Turn 38747]
+  - Status: Healthy, HP: 254 / 254 [Healed Turn 38768]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (3/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 3 (RED: Pit-stop triggered).
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 10 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 154 / 233 [Verified Screen Turn 38650]
-  - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Active Move PP: Surf (12/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 154, Surf PP = 12 (Green).
+  - Status: Healthy, HP: 233 / 233 [Healed Turn 38768]
+  - Stats: Attack 174, Defense 201, Speed 173, Special 180
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 21, Boosted EXP]
   - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
 
