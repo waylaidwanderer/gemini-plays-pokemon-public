@@ -14,15 +14,15 @@
   - Stats: Attack 50, Defense 40, Speed 50, Special 49 [Verified Lv 32 Screen Turn 39215]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 34366
+  - EXP: 34693
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 254 / 254 [Restored Cerulean Center Turn 39275]
+  - HP: 242 / 254 [Battle 159 Turn 39324]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Poisoned (PSN)
   - HP: 233 / 233 [Battle 158 Turn 39315]
