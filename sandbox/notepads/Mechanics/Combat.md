@@ -67,5 +67,5 @@
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 121, 125, 134]
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 128, 132, 137]
   - Kadabra (E=1008): 63 EXP [Verified Battles 107, 136]
-  - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116, 139]
+  - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116, 139, 140]
   - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
