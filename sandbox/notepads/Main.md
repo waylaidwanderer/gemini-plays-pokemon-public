@@ -107,5 +107,5 @@
 - [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
 - [x] Evolve Psyduck into Golduck (#055) at Lv 33 [Turn 39381]
-- [ ] Evolve Slowpoke into Slowbro (#080) at Lv 37 (Active Expedition 15)
+- [ ] Evolve Slowpoke into Slowbro (#080) at Lv 37 (Active Expedition 15, Started Turn 39435)
 - [ ] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F
