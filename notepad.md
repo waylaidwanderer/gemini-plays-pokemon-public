@@ -5033,10 +5033,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 9 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 199 / 233 [Verified Screen Turn 38599]
+  - Status: Healthy, HP: 175 / 233 [Verified Screen Turn 38632]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
   - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 199, Surf PP = 14 (Green).
+  - Protocol Trigger Check: Blastoise HP = 175, Surf PP = 14 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 20, Boosted EXP]
   - Status: Healthy, HP: 54 / 54 [Verified Screen Turn 38526]
 
