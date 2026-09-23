@@ -5008,6 +5008,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B161** | 39340 | Hypno Lv 46 | Blastoise (Surf x2) | 158 (took 14 PSN + 63 crit Psychic Turn 1, 14 PSN + 67 crit Psychic Turn 2) | Blastoise 67/233 HP, 13/15 PP, PSN | +334 EXP (269+65) | +97 EXP | 2HKO with Surf after 2 consecutive enemy critical Psychics. |
 | **B162** | 39362 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 234/254 HP, 7/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with STAB Psychic. |
 | **B163** | 39371 | Kadabra Lv 49 | Mewtwo (Swift) | 9 (took 9 dmg on switch) | Mewtwo 225/254 HP, 7/10 PP | +315 EXP (252+63) | +94 EXP | OHKO with Swift! Trainee reached 36,010 EXP and leveled to 33! |
+| **B164** | 39396 | Magneton Lv 46 | Mewtwo (Flee) | 7 (took 7 dmg on switch) | Mewtwo 218/254 HP, 7/10 PP | 0 EXP | 0 EXP | Switched from Golduck at exit; fled safely on Turn 2 with 215 Speed! |
 
 ### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
