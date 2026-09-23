@@ -48,13 +48,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 28, Water]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 29, Water]
   - Status: Healthy
-  - HP: 72 / 72 [Verified Lv 28 Screen Turn 38526]
-  - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
+  - HP: 74 / 74 (pending party screen confirmation)
+  - Stats: Attack 45, Defense 36, Speed 45, Special 45 [Verified Lv 29 Screen Turn 38705]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 24267
+  - EXP: 24594
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30) [Learned Lv 28 Screen Turn 38502]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -62,7 +62,7 @@
   - HP: 231 / 254 [Verified Screen Turn 38685]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
   - HP: 154 / 233 [Verified Screen Turn 38650]
