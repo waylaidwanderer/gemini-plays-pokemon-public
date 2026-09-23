@@ -8,7 +8,7 @@
 
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
-  - Status: Healthy, HP: 72 / 72
+  - Status: Healthy, HP: 72 / 72 [Verified Screen Turn 38526]
   - EXP: 22,250 (2,139 to Lv 29 milestone at 24,389 EXP)
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -22,7 +22,7 @@
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 20, Boosted EXP]
-  - Status: Healthy, HP: 54 / 54 [Verified Lv 20 Screen Turn 38466]
+  - Status: Healthy, HP: 54 / 54 [Verified Screen Turn 38526]
 
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 10)
