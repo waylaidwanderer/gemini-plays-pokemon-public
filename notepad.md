@@ -4980,7 +4980,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Attempting to interact with the PC monitor from the side at (12, 3) facing East produces no effect and does not open dialogue or boot the system.
 
 ## Party & Stats Screen UI Navigation (Generation 1 Retail)
-- **Stats Screen B-Button Navigation:** On Page 1 of a Pokémon's STATS screen (displaying HP, stats, types, OT), pressing B does NOT exit back to the Party menu; it advances to Page 2 (displaying EXP points, Level Up EXP, moves and PP). Pressing B on Page 2 exits the STATS screen back to the Party menu with cursor positioned on the inspected Pokémon [Empirically verified Turns 39837-39838]. Button 'A' page-flipping mechanics remain to be separately tested.
+- **Stats Screen Page Navigation:** On Page 1 of a Pokémon's STATS screen (displaying HP, stats, types, OT), pressing EITHER 'A' OR 'B' advances to Page 2 (displaying EXP points, Level Up EXP, moves and PP) [Empirically verified: 'B' Turn 39837; 'A' Turn 40083]. On Page 2, pressing 'B' exits the STATS screen back to the Party menu with cursor positioned on the inspected Pokémon [Empirically verified Turn 39838].
 
 
 <hr>
@@ -4993,7 +4993,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 22, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 22 (HP 75/75, Atk 36, Def 37, Spd 14, Spc 28 [Verified Turn 40083]; EXP: ~11,696, 471 to Lv 23)
+  - Current Level: 22 (HP 75/75, Atk 36, Def 37, Spd 14, Spc 28, Moves: Confusion, Disable, Headbutt; EXP: 11,957, 210 to Lv 23 [Verified Turn 40084])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
