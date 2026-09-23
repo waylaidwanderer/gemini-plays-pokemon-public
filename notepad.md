@@ -132,7 +132,7 @@
   - Stats: Attack 50, Defense 40, Speed 50, Special 49 [Verified Lv 32 Screen Turn 39215]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 35034
+  - EXP: 35368
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -143,9 +143,9 @@
   - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Poisoned (PSN)
-  - HP: 233 / 233 [Battle 158 Turn 39315]
+  - HP: 67 / 233 [Battle 161 Turn 39349]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 22, Normal/Flying]
   - Status: Healthy
   - HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
@@ -4994,9 +4994,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 35,034 [Turn 39334].
+  - Current Empirical EXP: 35,368 [Turn 39349].
   - Milestone Reached: Lv 32 achieved! Stats: Attack 50, Defense 40, Speed 50, Special 49 [Turn 39215].
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (903 EXP remaining).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (569 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Completed Expedition 13 Archive (N=4)
@@ -5008,8 +5008,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B158** | 39310 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas Turn 1) | Blastoise 233/233 HP, 14/15 PP, PSN | +334 EXP (269+65) | +97 EXP | OHKO with STAB Surf. |
 | **B159** | 39318 | Magneton Lv 46 | Mewtwo (Psychic) | 12 (took 12 dmg on switch) | Mewtwo 242/254 HP, 9/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with STAB Psychic. |
 | **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
+| **B161** | 39340 | Hypno Lv 46 | Blastoise (Surf x2) | 158 (took 14 PSN + 63 crit Psychic Turn 1, 14 PSN + 67 crit Psychic Turn 2) | Blastoise 67/233 HP, 13/15 PP, PSN | +334 EXP (269+65) | +97 EXP | 2HKO with Surf after 2 consecutive enemy critical Psychics. |
 | **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
+| **B161** | 39340 | Hypno Lv 46 | Blastoise (Surf x2) | 158 (took 14 PSN + 63 crit Psychic Turn 1, 14 PSN + 67 crit Psychic Turn 2) | Blastoise 67/233 HP, 13/15 PP, PSN | +334 EXP (269+65) | +97 EXP | 2HKO with Surf after 2 consecutive enemy critical Psychics. |
 | **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
+| **B161** | 39340 | Hypno Lv 46 | Blastoise (Surf x2) | 158 (took 14 PSN + 63 crit Psychic Turn 1, 14 PSN + 67 crit Psychic Turn 2) | Blastoise 67/233 HP, 13/15 PP, PSN | +334 EXP (269+65) | +97 EXP | 2HKO with Surf after 2 consecutive enemy critical Psychics. |
 
 ### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -5018,10 +5021,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Psychic > 3, zero status afflictions).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Poisoned (PSN), HP: 233 / 233 [Battle 158 Turn 39315]
+  - Status: Poisoned (PSN), HP: 67 / 233 [Battle 161 Turn 39349]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Healthy / Green (HP > 60, Surf > 3, Ice Beam > 2; PSN minor, Mewtwo at 100% full capacity).
+  - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP at 67; primary sweeper Mewtwo at full capacity (242 HP, 8 Psychic PP, 0 status) can solo final 569 EXP (~1-2 battles).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 22, Boosted EXP]
   - Status: Healthy, HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
 
