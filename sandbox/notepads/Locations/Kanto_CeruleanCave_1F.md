@@ -30,7 +30,13 @@
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8. Physical bump tests from (8, 6) [Turn 27986] confirm (8, 5) Up and (7, 6) Left are 100% impassable solid rock walls. Zero entrance exists from 1F water into the Northwest Corridor. Subterranean lake connects to Staircases (25, 9), (23, 3), (15, 3), and Row 4 canal.
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (14, 4) [Verified Turn 27908: (13, 4) is solid rock boundary]. At (15, 4), connects north to Staircase (15, 3) and south down Column 15 into Row 6 waterway.
-- Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
+- Entrance Cavern (Cols 20..25, Rows 12..17):
+  - Rows 14..15: Completely open 6x2 floor spanning Columns 20 through 25.
+  - Row 16: Open floor spanning Columns 21 through 25. (20, 16) is rock wall.
+  - Row 17: Checkerboard exit warp threshold at (24..25, 17). (21..23, 17) is floor near exit.
+  - Row 13: Open floor at (21..23, 13); rock boulders at (24..25, 13).
+  - Row 12: Open floor at (21..22, 12); rock boulders at (23..25, 12).
+  - Wooden Staircase (21, 11): Ascends north onto terrace; accessed south from (21, 12). Bounded by rock walls at (20, 11) and (22, 11).
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
 - Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
