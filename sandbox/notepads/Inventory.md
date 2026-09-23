@@ -5,7 +5,7 @@
 - IDNo: 04620
 - Money: ¥3056 [Verified Turn 34152]
 - Badges: 8 / 8
-- Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
+- Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 33, Water]
