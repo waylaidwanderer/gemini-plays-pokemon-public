@@ -166,14 +166,14 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 27, Water]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 28, Water]
   - Status: Healthy
-  - HP: 70 / 70 [Verified Screen Turn 38404]
-  - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
+  - HP: 72 / 72 [Estimated Lv 28]
+  - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 21916 [36 to Lv 28; 21952 - 21916 = 36]
-  - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
+  - EXP: 22250 [2139 to Lv 29; 24389 - 22250 = 2139]
+  - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30) [Learned Lv 28 Screen Turn 38502]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
@@ -5012,17 +5012,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 27, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 21,916 [Turn 38489]. Psyduck at Level 27.
-  - Milestone Next: Lv 28 = 28^3 = 21,952 EXP (36 EXP remaining, exactly 1 battle!).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (14,021 EXP remaining).
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 28, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 22,250 [Turn 38502]. Psyduck reached Level 28!
+  - Milestone Next: Lv 29 = 29^3 = 24,389 EXP (2,139 EXP remaining, ~6-7 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (13,687 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log:
-- Trainee: PSYDUCK (MIGRAINE) [Lv 27, Water, Lead Slot]
-  - Status: Healthy, HP: 70 / 70 [Verified Screen Turn 38404]
-  - EXP: 21,916 (36 to Lv 28 milestone at 21,952 EXP)
-  - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
+- Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
+  - Status: Healthy, HP: 72 / 72
+  - EXP: 22,250 (2,139 to Lv 29 milestone at 24,389 EXP)
+  - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 206 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
@@ -5071,6 +5071,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B118**| Golbat Lv 46 | Mewtwo (Psychic) | Haze cured PAR on switch; OHKO with Psychic (PP 3/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 21,204 |
 | **B119**| Golbat Lv 46 | Mewtwo (Psychic) | Confused on switch; OHKO with crit Psychic through confusion (PP 2/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 21,545 |
 | **B120**| Sandslash Lv 52 | Blastoise (Surf) | Took 13 dmg (Swift); OHKO with Surf (PP 13/15) | 297 EXP | 74 EXP (DUX 111) | +371 EXP | 21,916 |
+| **B121**| Hypno Lv 46 | Blastoise (Body Slam x2) | Hypno fully paralyzed Turn 2; 2HKO with Body Slam (PP 12/15); **Psyduck grew to Lv 28! Learned Tail Whip!** | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 22,250 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
