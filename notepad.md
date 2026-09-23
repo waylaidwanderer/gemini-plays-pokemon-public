@@ -130,7 +130,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 54 / 54 [Verified Screen Turn 39439]
   - Stats: Attack 25, Defense 26, Speed 10, Special 20 [Verified Screen Turn 39439]
-  - EXP: 3375 (721 to Lv 16)
+  - EXP: 3746 (350 to Lv 16) [Verified B165 Turn 39487]
   - Moves: Confusion (PP 25/25)
   - Target: Lv 37 Slowbro (#080, 50,653 EXP)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -5001,7 +5001,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Expedition 15 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 15 Surf PP | +371 EXP expected | +111 EXP | Turn 1 switch to Blastoise; took 4 dmg from Poison Sting. |
+| **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
 
 ### Active Sweeper Condition:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic, Slot 2]

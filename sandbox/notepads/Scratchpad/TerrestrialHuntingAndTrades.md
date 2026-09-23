@@ -16,7 +16,7 @@
 ### Expedition 15 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 15 Surf PP | +371 EXP expected | +111 EXP | Turn 1 switch to Blastoise; took 4 dmg from Poison Sting. |
+| **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
 
 ### Active Sweeper Condition:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic, Slot 2]
