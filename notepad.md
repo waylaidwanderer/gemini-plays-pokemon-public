@@ -5033,13 +5033,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
   - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (13/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 129, Surf PP = 13. Status: Full PP / Green.
-- Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
-  - Status: Healthy, HP: 52 / 52 [Verified Screen Turn 38300]
+- Support / Flyer: FARFETCH'D (DUX) [Lv 20, Boosted EXP]
+  - Status: Healthy, HP: 54 / 54 [Verified Lv 20 Screen Turn 38466]
 
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 10)
 - **Setup:** 4-member party: Psyduck (Slot 1), Mewtwo (Slot 2), Blastoise (Slot 3), Farfetch'd (Slot 4).
-- **Disproven 65 EXP Plateau:** While Magneton (1050), Hypno (1076), and Golbat (1104) yield 65 EXP, Dodrio (1092) yielded 63 EXP in Battle 111, disproving a continuous monotonic plateau for 1050-1104. Discrete internal truncation and assembly division determine each species yield independently.
+- **Disproven Continuous Formulas & 65 EXP Plateau:** While Sandslash (1188) yields 74 EXP (matching floor(1188/16)), strict floor(E/16) is definitively FALSIFIED by Golbat (observed 65 vs 69 predicted), Hypno (observed 65 vs 67 predicted), and Dodrio (observed 63 vs 68 predicted). Similarly, a continuous 65 EXP plateau is disproven by Dodrio's 63 EXP. Discrete assembly division routines and truncation determine each species yield independently without a single global closed-form equation.
   - Effective divisor K scales from ~24..27 (N=6) down to ~16..17 (N=4), proportional to party size reduction.
   - Participant Share (Psyduck + Sweeper) = floor(E_half / 2) = floor(total_EXP / 4).
   - Traded Pokémon Boost: boosted = base + floor(base / 2) (e.g. 65 + 32 = 97 EXP; 56 + 28 = 84 EXP).
