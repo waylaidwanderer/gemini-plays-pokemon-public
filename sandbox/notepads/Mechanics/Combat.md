@@ -48,10 +48,12 @@
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## EXP.ALL Mathematical Model & Empirical Mechanics (Generation 1 Retail)
-- **Exp. All Distribution Formula:**
+- **Exp. All Distribution Formula & Party Scaling:**
   - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants.
-  - Team Share: `E_half = floor(E / 2)`, divided among 6 party members: `floor(E_half / 6) = floor(E / 12)`.
-  - Participant vs Non-Participant Division Hypothesis: While Golbat and Kadabra base shares match `floor(E / 24.0)`, 6 of 9 species exhibit divisor K between 24.5 and 27.6 (e.g. Hypno K=27.6, Sandslash K=27.0). The exact 8-bit register truncation routine in Gen 1 assembly remains an unverified hypothesis under ongoing empirical tracking.
+  - Team Share (Party Size Scaling): `E_half = floor(E / 2)`, divided among active party members: `floor(E_half / N_party)`.
+    - For standard full 6-member party (N=6): `floor(E_half / 6) = floor(E / 12)` base before species-specific divisor K truncation.
+    - For 4-member party (N=4): `floor(E_half / 4) = floor(E / 8)` base, resulting in ~60-67% higher team share yields (e.g. Magneton 39 -> 65, Golbat 46 -> 65, Kadabra 42 -> 63, Parasect 37 -> 59).
+  - Truncation & Internal Variables Anomaly: Team share is not a strict linear scalar function of total EXP (e.g. Parasect E=950 yields 59 team share, while Venomoth E=952 yields 56 team share). Internal assembly register shifts and rounding routines produce non-monotonic effective divisors K across different base EXP values.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
 - **Empirical Effective Divisor K (Across 96 Battles):**
   - Golbat (E=1104, base=46, K=24.0) [23 empirical encounters verified]
