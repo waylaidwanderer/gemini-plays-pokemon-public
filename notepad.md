@@ -143,9 +143,9 @@
   - Moves: Swift (PP 18/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
-  - HP: 144 / 233 [Verified Battle 145 Turn 39044]
+  - HP: 233 / 233 [Restored Cerulean Center Turn 39111]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 8/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 22, Normal/Flying]
   - Status: Healthy
   - HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
@@ -5011,17 +5011,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B147** | 39071 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (took 11 dmg on switch) | Mewtwo 178/254 HP, 4/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
 | **B148** | 39085 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Stun Spore Turn 1; PAR) | Mewtwo 178/254 HP (PAR), 3/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with super-effective Psychic. |
 
-### Active Expedition 12 Sweeper Attrition & Condition Log:
+### Active Expedition 13 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: PAR, HP: 178 / 254 [Verified Battle 148 Turn 39094]
+  - Status: Healthy, HP: 254 / 254 [Restored Cerulean Center Turn 39111]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (3/10), Swift (18/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 3, Status = PAR (Pit-stop triggered!).
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: All resources at 100% (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 144 / 233 [Verified Battle 145 Turn 39044]
+  - Status: Healthy, HP: 233 / 233 [Restored Cerulean Center Turn 39111]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (9/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 144, Surf PP = 9 (Green).
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: All resources at 100% (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 22, Boosted EXP]
   - Status: Healthy, HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
 
