@@ -12,7 +12,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 60 / 60 [Verified Lv 17 Screen Turn 39572]
+  - HP: 63 / 63 [Verified Lv 18 Screen Turn 39642]
   - Stats: Attack 30, Defense 30, Speed 12, Special 23 [Verified Lv 18 Screen Turn 39637]
   - EXP: 6022 (837 to Lv 19) [Verified B172 Turn 39637]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20)
