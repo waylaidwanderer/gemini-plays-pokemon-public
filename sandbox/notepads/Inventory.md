@@ -48,13 +48,13 @@
 - ¥3056 [Turn 34152]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 26, Water]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 27, Water]
   - Status: Healthy
   - HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
-  - Stats: Attack 40, Defense 32, Speed 40, Special 40 [Verified Lv 26 Screen Turn 38240]
+  - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 19565 [118 to Lv 27; 19683 - 19565 = 118]
+  - EXP: 19906 [2046 to Lv 28; 21952 - 19906 = 2046]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
