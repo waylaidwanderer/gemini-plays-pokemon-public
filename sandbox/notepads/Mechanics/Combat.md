@@ -47,29 +47,27 @@
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
-## EXP.ALL Mathematical Model & Empirical Mechanics (Generation 1 Retail)
-- **Exp. All Distribution Formula & Party Scaling:**
-  - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants.
-  - Team Share Derivation & Reconciled Divisor Model:
-    - In Gen 1 retail, the team EXP pool is half of the total battle EXP (`E_half = floor(E / 2)`), which is further halved before dividing among party members: `base_team_share = floor(floor(E_half / 2) / N_party) = floor(floor(E / 4) / N_party) = floor(E / (4 * N_party))`.
-    - For full 6-member party (N=6): Base divisor is `4 * 6 = 24` (`floor(E / 24)`):
-      - Kadabra (E=1008): `1008 // 24 = 42 EXP` (exact match to observed 42).
-      - Golbat (E=1104): `1104 // 24 = 46 EXP` (exact match to observed 46).
-      - Internal 8-bit assembly registers and truncation introduce non-monotonic variance for certain species (e.g. Hypno E=1076 -> 39, Magneton E=1050 -> 39).
-    - For 4-member party (N=4): Base divisor is `4 * 4 = 16` (`floor(E / 16)`):
-      - Parasect (E=950): `950 // 16 = 59 EXP` (exact match to observed 59!).
-      - Kadabra (E=1008): `1008 // 16 = 63 EXP` (exact match to observed 63!).
-      - Magneton (E=1050): `1050 // 16 = 65 EXP` (exact match to observed 65!).
-      - Hypno (E=1076): observed 65 EXP.
-      - Golbat (E=1104): observed 65 EXP.
-    - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)` (e.g. 65 + 32 = 97 EXP, 59 + 29 = 88 EXP, 63 + 31 = 94 EXP).
-- **Empirical Effective Divisor K (Across 96 Battles):**
-  - Golbat (E=1104, base=46, K=24.0) [23 empirical encounters verified]
-  - Kadabra (E=1008, base=42, K=24.0) [4 empirical encounters verified]
-  - Raichu (E=908, base=37, K=24.5) [5 empirical encounters verified]
-  - Parasect (E=950, base=37, K=25.7) [5 empirical encounters verified]
-  - Dodrio (E=1092, base=42, K=26.0) [11 empirical encounters verified]
-  - Magneton (E=1050, base=39, K=26.9) [10 empirical encounters verified]
-  - Sandslash (E=1188, base=44, K=27.0) [8 empirical encounters verified]
-  - Venomoth (E=952, base=35, K=27.2) [10 empirical encounters verified]
-  - Hypno (E=1076, base=39, K=27.6) [20 empirical encounters verified]
+## EXP.ALL Empirical Distribution & Observed Yields (Generation 1 Retail)
+- **Exp. All Distribution & Participant Sharing:**
+  - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants [Empirically verified across 108+ battles].
+  - Traded Pok�mon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)` (e.g. 65 + 32 = 97 EXP, 59 + 29 = 88 EXP, 63 + 31 = 94 EXP).
+- **Empirical Team Base Shares Under N=6 (Full Party):**
+  - Golbat (E=1104): 46 EXP [23 empirical encounters verified]
+  - Kadabra (E=1008): 42 EXP [4 empirical encounters verified]
+  - Dodrio (E=1092): 42 EXP [11 empirical encounters verified]
+  - Hypno (E=1076): 39 EXP [20 empirical encounters verified]
+  - Magneton (E=1050): 39 EXP [10 empirical encounters verified]
+  - Parasect (E=950): 37 EXP [5 empirical encounters verified]
+  - Raichu (E=908): 37 EXP [5 empirical encounters verified]
+  - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
+- **Empirical Team Base Shares Under N=4 (4-Member Party):**
+  - Sandslash (E=1188): Pending empirical encounter
+  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104]
+  - Dodrio (E=1092): Pending empirical encounter
+  - Hypno (E=1076): 65 EXP [Verified Battles 98, 103]
+  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108]
+  - Kadabra (E=1008): 63 EXP [Verified Battle 107]
+  - Parasect (E=950): 59 EXP [Verified Battles 105, 106]
+  - Venomoth (E=952): 56 EXP [Verified Battle 99]
+  - Raichu (E=908): Pending empirical encounter
+  - Note: Species with E between 1050 and 1104 all exhibit an empirical plateau at exactly 65 EXP. Exact 8-bit assembly division/truncation routine is tracked as an active hypothesis in Scratchpad/TerrestrialHuntingAndTrades.md.
