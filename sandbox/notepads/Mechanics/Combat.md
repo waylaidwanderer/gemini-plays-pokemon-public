@@ -62,7 +62,7 @@
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118, 119, 126, 127, 129]
+  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118, 119, 126, 127, 129, B130]
   - Dodrio (E=1092): 63 EXP [Verified Battles 111, 124]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 103, 117, 121, 125]
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112, 115, 128]

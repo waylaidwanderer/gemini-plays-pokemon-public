@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 29, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 24,935 [Turn 38721].
-  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (2,065 EXP remaining, ~6 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (11,002 EXP remaining).
+  - Current Empirical EXP: 25,276 [Turn 38736].
+  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (1,724 EXP remaining, ~5 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (10,661 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 11 Systematic Encounter Log (N=4)
@@ -17,13 +17,14 @@
 | **B127** | 38688 | Golbat Lv 46 | Mewtwo (Psychic) | 23 (Wing Attack critical hit) | Mewtwo 231/254 HP, 7/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
 | **B128** | 38696 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (switched cleanly) | Mewtwo 231/254 HP, 6/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic (Critical hit!). Psyduck reached Lv 29! |
 | **B129** | 38713 | Golbat Lv 46 | Mewtwo (Psychic) | 11 (took 11 dmg on switch) | Mewtwo 220/254 HP, 5/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
+| **B130** | 38726 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (broke through confusion) | Mewtwo 220/254 HP, 4/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic through confusion. |
 
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy (Volatile: Confused in Battle 130 via Confuse Ray), HP: 220 / 254 [Verified Screen Turn 38718]
+  - Status: Healthy, HP: 220 / 254 [Verified Screen Turn 38736]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 5 (Green).
+  - Active Move PP: Psychic (4/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 4 (Green, threshold <= 3).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 154 / 233 [Verified Screen Turn 38650]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
@@ -42,7 +43,7 @@
 - **N=4 Yield Table:**
 | Species | Level | Total EXP | Part Share (E/4) | Team Share (N=4) | Trainee Gain (Part+Team) | DUX Gain (Boosted) | Verification Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119, B126, B127, B129) |
+| **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119, B126, B127, B129, B130) |
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121, B125) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115, B128) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111, B124) |
