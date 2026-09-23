@@ -5019,13 +5019,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
   - Status: Healthy, HP: 72 / 72 [Verified Screen Turn 38526]
-  - EXP: 22,250 (2,139 to Lv 29 milestone at 24,389 EXP)
+  - EXP: 22,544 (1,845 to Lv 29 milestone at 24,389 EXP) [Defeated Venomoth Lv 49 Turn 38590]
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 254 / 254
+  - Status: Paralyzed, HP: 254 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 10 (Full PP / Green).
+  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 9 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 233 / 233
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
