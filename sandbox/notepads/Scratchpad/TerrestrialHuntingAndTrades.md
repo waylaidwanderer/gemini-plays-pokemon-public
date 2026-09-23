@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 34,032 [Turn 39260].
+  - Current Empirical EXP: 34,366 [Turn 39315].
   - Milestone Reached: Lv 32 achieved! Stats: Attack 50, Defense 40, Speed 50, Special 49 [Turn 39215].
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (1,905 EXP remaining).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (1,571 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Completed Expedition 12 Archive (N=4)
@@ -15,6 +15,7 @@
 ### Expedition 14 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B158** | 39310 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas Turn 1) | Blastoise 233/233 HP, 14/15 PP, PSN | +334 EXP (269+65) | +97 EXP | OHKO with STAB Surf. |
 
 ### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -23,10 +24,10 @@
   - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Psychic > 3, zero status afflictions).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 233 / 233 [Restored Cerulean Center Turn 39275]
+  - Status: Poisoned (PSN), HP: 233 / 233 [Battle 158 Turn 39315]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Healthy / Green (HP > 60, Surf > 3, Ice Beam > 2, zero status afflictions).
+  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Healthy / Green (HP > 60, Surf > 3, Ice Beam > 2; PSN minor, Mewtwo at 100% full capacity).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 22, Boosted EXP]
   - Status: Healthy, HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
 
