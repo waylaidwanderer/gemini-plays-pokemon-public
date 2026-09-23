@@ -2,13 +2,13 @@
 
 ## Active Goal: Switch-Train Slowpoke (DOPEY) to Slowbro (#080)
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 17, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 18, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 17 (EXP: 5,695, 137 to Lv 18)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+44,958 EXP required).
+  - Current Level: 18 (EXP: 6,022, 837 to Lv 19)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+44,631 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
-  - Slot 1: SLOWPOKE (DOPEY Lv 17) - Trainee / Lead
+  - Slot 1: SLOWPOKE (DOPEY Lv 18) - Trainee / Lead
   - Slot 2: MEWTWO (OMEGA Lv 73) - Primary Sweeper (1 Down input in combat)
   - Slot 3: FARFETCH'D (DUX Lv 23) - Support (Fly / Cut)
   - Slot 4: BLASTOISE (SHELDON Lv 73) - Secondary Sweeper
@@ -23,6 +23,7 @@
 | **B169** | 39554 | Parasect Lv 52 | Blastoise (Ice Beam) | 8 (Leech Life Turn 1) | Blastoise 221/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | 4x Ice Beam OHKO! Slowpoke grew to LEVEL 17! Stats: Atk 28, Def 29, Spd 11, Spc 22. |
 | **B170** | 39571 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Stun Spore Turn 1) | Mewtwo 215/254 HP (PAR), 6/10 Psychic PP | +294 EXP (238+56) | +84 EXP | STAB Psychic OHKO! Slowpoke at 5,324 EXP (508 to Lv 18). Pit-stop triggered. |
 | **B171** | 39622 | Sandslash Lv 52 | Blastoise (Surf) | 33 (Turn 1 critical Slash) | Blastoise 200/233 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | 2x STAB Surf OHKO! Slowpoke at 5,695 EXP (137 to Lv 18). |
+| **B172** | 39633 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Turn 1 switch) | Mewtwo 245/254 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 6,022 EXP and GREW TO LEVEL 18! Stats: 30/30/12/23. |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
@@ -52,6 +53,6 @@
   - Trigger pit-stop if Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if any sweeper sustains incapacitating status (PAR, SLP, FRZ, PSN).
 
 ### Other Post-Game Evolution Candidates
-1. SLOWPOKE (DOPEY Lv 17, Lead Slot 1): ACTIVE TARGET -> switch-training to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
+1. SLOWPOKE (DOPEY Lv 18, Lead Slot 1): ACTIVE TARGET -> switch-training to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
