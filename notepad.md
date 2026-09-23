@@ -172,15 +172,15 @@
   - Stats: Attack 45, Defense 36, Speed 45, Special 45 [Verified Lv 29 Screen Turn 38705]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 25930
+  - EXP: 26224
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30) [Learned Lv 28 Screen Turn 38502]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 246 / 254 [Verified Screen Turn 38813]
+  - HP: 246 / 254 [Verified Screen Turn 38838]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
   - HP: 233 / 233 [Healed Turn 38768]
@@ -315,7 +315,7 @@
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 128, 132]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116]
-  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122]
+  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
 
 
 <hr>
@@ -5010,22 +5010,23 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 29, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 25,930 [Turn 38813].
-  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (1,070 EXP remaining, ~3-4 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (10,007 EXP remaining).
+  - Current Empirical EXP: 26,224 [Turn 38838].
+  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (776 EXP remaining, ~2-3 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (9,713 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B132** | 38806 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 246/254 HP, 9/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
+| **B133** | 38818 | Venomoth Lv 49 | Mewtwo (Flute/Psychic) | 0 (woke via Flute; Stun Spore failed) | Mewtwo 246/254 HP, 8/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with Psychic after Poké Flute wakeup. |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy (Awakened Turn 38834), HP: 246 / 254 [Verified Screen Turn 38834]
+  - Status: Healthy, HP: 246 / 254 [Verified Screen Turn 38838]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 9 (Green).
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 8 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 233 / 233 [Healed Turn 38768]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
@@ -5050,7 +5051,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111, B124) |
 | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120, B123) |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107) |
-| **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110, B122) |
+| **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110, B122, B133) |
 | **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Ditto** | 53 | ~763 | ~190 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116) |
