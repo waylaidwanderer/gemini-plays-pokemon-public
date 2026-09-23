@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 30, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 27,872 [Turn 38902].
-  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (1,919 EXP remaining, ~5-6 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (8,065 EXP remaining).
+  - Current Empirical EXP: 28,168 [Turn 38936].
+  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (1,623 EXP remaining, ~4-5 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (7,769 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -16,6 +16,7 @@
 | **B136** | 38872 | Kadabra Lv 49 | Mewtwo (Swift) | 8 (took 8 dmg on switch) | Mewtwo 238/254 HP, 19/20 Swift, 8/10 PP | +315 EXP (252+63) | +94 EXP | Tail Whip Turn 1. Crit OHKO with Swift. Trainee grew to Lv 30! |
 | **B137** | 38881 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 230/254 HP, 7/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
 | **B138** | 38896 | Dodrio Lv 49 | Blastoise (Surf) | 8 (took 8 dmg on switch) | Blastoise 216/233 HP, 12/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
+| **B139** | 38918 | Parasect Lv 52 | Blastoise (Flute/Ice Beam) | 0 (Spore Turn 1; woke via Flute; Growth Turn 3) | Blastoise 216/233 HP, 9/10 Ice Beam, 12/15 Surf | +296 EXP (237+59) | +88 EXP | OHKO with super-effective Ice Beam. |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -26,7 +27,7 @@
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 216 / 233 [Verified Battle 138 Turn 38900]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (12/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (12/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 216, Surf PP = 12 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 21, Boosted EXP]
   - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
@@ -50,7 +51,7 @@
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110, B122, B133) |
 | **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Ditto** | 53 | ~763 | ~190 | **Pending** | Pending | Pending | Pending Empirical Encounter |
-| **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116) |
+| **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116, B139) |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
