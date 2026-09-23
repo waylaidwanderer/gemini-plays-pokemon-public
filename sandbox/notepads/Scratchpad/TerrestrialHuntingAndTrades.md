@@ -6,7 +6,7 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,376 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
-### Active Expedition 10 Sweeper Attrition & Condition Log (Turn 38287, Post-Pitstop Reset):
+### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 26, Water, Lead Slot]
   - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
   - EXP: 18,561 (1,122 to Lv 27 milestone at 19,683 EXP)
@@ -22,7 +22,7 @@
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
-  - Status: Healthy, HP: 51 / 51 [Grew to Lv 19 Turn 38226, Atk 32, Def 30, Spd 30, Spc 29]
+  - Status: Healthy, HP: 52 / 52 [Verified Screen Turn 38300]
 
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 9)
@@ -38,10 +38,10 @@
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101) |
 | **Dodrio** | 49 | 1,092 | 273 | **65 EXP** | **338 EXP** | **97 EXP** | Predicted (65 EXP Plateau) |
-| **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Predicted |
+| **Sandslash**| 52 | 1,188 | 297 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107) |
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99) |
-| **Raichu** | 53 | 908 | 227 | **56 EXP** | **283 EXP** | **84 EXP** | Predicted |
+| **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105) |
 
 ### Expedition 9 Battle Log (Compact Summary, Battles 97-108):

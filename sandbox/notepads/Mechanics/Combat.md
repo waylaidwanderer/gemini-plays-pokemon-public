@@ -70,4 +70,4 @@
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106]
   - Venomoth (E=952): 56 EXP [Verified Battle 99]
   - Raichu (E=908): Pending empirical encounter
-  - Note: Species with E between 1050 and 1104 all exhibit an empirical plateau at exactly 65 EXP. Exact 8-bit assembly division/truncation routine is tracked as an active hypothesis in Scratchpad/TerrestrialHuntingAndTrades.md.
+  - Note: Species with E between 1050 and 1104 all exhibit an empirical plateau at exactly 65 EXP under N=4 party.
