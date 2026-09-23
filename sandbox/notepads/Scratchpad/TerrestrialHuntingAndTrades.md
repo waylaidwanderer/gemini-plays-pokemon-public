@@ -58,11 +58,11 @@
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
 - Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
-  - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
-  - Fast Physical / Ground / Normal / Grass & Low-Defense Targets (Dodrio, Sandslash, Parasect, Ditto, Hypno [Psychic, Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
+  - Bug / Poison / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu, Kadabra): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
+  - Fast Physical / Ground / Normal / Grass & Specific Targets (Dodrio, Sandslash, Parasect [4x Ice Beam], Ditto, Hypno [Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
 - Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 or HP < 60, or Blastoise HP < 60 / Surf PP <= 3.
 
 ### Other Post-Game Evolution Candidates
-1. SLOWPOKE (DOPEY Lv 15, Box 1): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
+1. SLOWPOKE (DOPEY Lv 15, Box 2): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder é¥2,100 each). Money: é3056.
