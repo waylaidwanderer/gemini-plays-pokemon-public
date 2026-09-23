@@ -124,7 +124,7 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 16, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -5002,7 +5002,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
 | **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Headbutt on T1 switch) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP (269+65) | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
-| **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (Turn 1 switch) | Mewtwo 224/254 HP, 9/10 Psychic PP | +327 EXP expected | +97 EXP | T1 switch took 10 (224 HP); executing STAB Psychic for Lv 16 milestone! |
+| **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (Turn 1 switch) | Mewtwo 224/254 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 4,407 EXP and GREW TO LEVEL 16! Stats: 27/27/11/21. |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
