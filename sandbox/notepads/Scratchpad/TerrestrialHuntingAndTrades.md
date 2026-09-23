@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 29, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 26,224 [Turn 38838].
-  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (776 EXP remaining, ~2-3 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (9,713 EXP remaining).
+  - Current Empirical EXP: 26,558 [Turn 38853].
+  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (442 EXP remaining, ~1-2 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (9,379 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -19,10 +19,10 @@
   - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 8 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 233 / 233 [Healed Turn 38768]
+  - Status: Healthy, HP: 224 / 233 [Verified Battle 134 Turn 38853]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15 (Green).
+  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 224, Surf PP = 14 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 21, Boosted EXP]
   - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
 
