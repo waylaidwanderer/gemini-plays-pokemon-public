@@ -1,21 +1,21 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 26, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 18,267 [Turn 38328]. Psyduck at Level 26.
-  - Milestone Next: Lv 27 = 27^3 = 19,683 EXP (1,416 EXP remaining, ~4 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,670 EXP remaining).
+  - Current Empirical EXP: 18,561 [Turn 38339]. Psyduck at Level 26.
+  - Milestone Next: Lv 27 = 27^3 = 19,683 EXP (1,122 EXP remaining, ~3 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,376 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log (Turn 38287, Post-Pitstop Reset):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 26, Water, Lead Slot]
   - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
-  - EXP: 18,267 (1,416 to Lv 27 milestone at 19,683 EXP)
+  - EXP: 18,561 (1,122 to Lv 27 milestone at 19,683 EXP)
   - Stats: Attack 40, Defense 32, Speed 40, Special 40 [Verified Lv 26 Screen Turn 38240]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 246 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 9. Status: Full PP / Green.
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 8. Status: Full PP / Green.
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 233 / 233 [Fully Restored Nurse Joy Turn 38287]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
@@ -64,6 +64,7 @@
 | Battle | Opponent | Sweeper Used | Key Events | Part Share | Team Share (N=4) | Trainee Total | Psyduck EXP End |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B109**| Magneton Lv 46 | Mewtwo (Psychic) | Took 8 dmg on switch; OHKO with Psychic (PP 9/10) | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 18,267 |
+| **B110**| Venomoth Lv 49 | Mewtwo (Psychic) | Took 0 dmg on switch; OHKO with Psychic (PP 8/10) | 238 EXP | 56 EXP (DUX 84) | +294 EXP | 18,561 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
