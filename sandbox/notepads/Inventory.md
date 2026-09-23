@@ -40,7 +40,7 @@
 - HELIX FOSSIL (Revived into Omanyte)
 
 ## PC Pokémon Storage
-- Active Box: BOX 2
+- Active Box: BOX 1
   - Box 1 Pokémon:
     - Golduck (MIGRAINE Lv 33)
     - Kingler (PINCHY Lv 28)
