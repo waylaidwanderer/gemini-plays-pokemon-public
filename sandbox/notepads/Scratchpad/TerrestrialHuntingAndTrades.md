@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 31, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 30,161 [Turn 39047].
-  - Milestone Next: Lv 32 = 32^3 = 32,768 EXP (2,607 EXP remaining, ~8 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (5,776 EXP remaining).
+  - Current Empirical EXP: 30,441 [Turn 39061].
+  - Milestone Next: Lv 32 = 32^3 = 32,768 EXP (2,327 EXP remaining, ~7 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (5,496 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -23,20 +23,21 @@
 | **B143** | 39010 | Kadabra Lv 49 | Mewtwo (Swift) | 12 (took 12 dmg on switch) | Mewtwo 189/254 HP, 18/20 Swift, 6/10 PP | +315 EXP (252+63) | +94 EXP | Crit OHKO with Swift. |
 | **B144** | 39024 | Sandslash Lv 52 | Blastoise (Surf) | 13 (took 13 dmg on switch) | Blastoise 203/233 HP, 10/15 Surf | +371 EXP (297+74) | +111 EXP | OHKO with Surf. Trainee grew to Lv 31 and learned Disable! |
 | **B145** | 39040 | Dodrio Lv 49 | Blastoise (Surf) | 59 (took 59 crit dmg on switch) | Blastoise 144/233 HP, 9/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
+| **B146** | 39051 | Raichu Lv 53 | Mewtwo (Psychic) | 0 (Growl Turn 1) | Mewtwo 189/254 HP, 5/10 PP | +280 EXP (227+53) | +79 EXP | OHKO with Psychic. |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 189 / 254 [Verified Battle 143 Turn 39017]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 6 (Green).
+  - Active Move PP: Psychic (5/10), Swift (18/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 5 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 144 / 233 [Verified Battle 145 Turn 39044]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
   - Active Move PP: Surf (9/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 144, Surf PP = 9 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 22, Boosted EXP]
-  - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
+  - Status: Healthy, HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
 
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
@@ -55,7 +56,7 @@
 | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120, B123) |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107, B136) |
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110, B122, B133) |
-| **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
+| **Raichu** | 53 | 908 | 227 | **53 EXP** | **280 EXP** | **79 EXP** | Verified (B146) |
 | **Ditto** | 53 | ~763 | ~190 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116, B139, B140) |
 

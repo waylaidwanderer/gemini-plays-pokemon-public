@@ -69,3 +69,4 @@
   - Kadabra (E=1008): 63 EXP [Verified Battles 107, 136]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 139, 140]
   - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
+  - Raichu (E=908): 53 EXP [Verified Battle 146]
