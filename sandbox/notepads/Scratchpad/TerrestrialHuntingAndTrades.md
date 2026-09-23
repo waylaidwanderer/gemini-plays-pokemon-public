@@ -18,14 +18,14 @@
 
 ### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Paralyzed (PAR), HP: 235 / 254 [Battle 157 Turn 39260]
+  - Status: Healthy, HP: 254 / 254 [Restored Cerulean Center Turn 39275]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: RETREAT TRIGGERED (PAR status affliction). Execute pit-stop via south exit to Cerulean Center.
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Healthy / Green (HP > 60, Psychic > 3, zero status afflictions).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 182 / 233 [Battle 155 Turn 39223]
+  - Status: Healthy, HP: 233 / 233 [Restored Cerulean Center Turn 39275]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (11/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Surf > 3, Ice Beam > 2, zero status afflictions).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 22, Boosted EXP]
   - Status: Healthy, HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
