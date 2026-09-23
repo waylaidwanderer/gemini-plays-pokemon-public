@@ -130,14 +130,14 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 57 / 57 [Verified Screen Turn 39518]
   - Stats: Attack 27, Defense 27, Speed 11, Special 21 [Verified Lv 16 Screen Turn 39518]
-  - EXP: 4407 (506 to Lv 17) [Verified Screen Turn 39519]
+  - EXP: 4734 (179 to Lv 17) [Verified B168 Turn 39547]
   - Moves: Confusion (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 224 / 254 [Battle 167 Turn 39511]
+  - HP: 215 / 254 [Battle 168 Turn 39547]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 23, Normal/Flying]
   - Status: Healthy
   - HP: 61 / 61 [Verified Party Screen Turn 39364]
@@ -4988,8 +4988,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 16, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 16 (EXP: 4,407, 506 to Lv 17)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+46,246 EXP required).
+  - Current Level: 16 (EXP: 4,734, 179 to Lv 17)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+45,919 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 16) - Trainee / Lead
@@ -5003,6 +5003,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
 | **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Headbutt on T1 switch) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP (269+65) | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
 | **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (Turn 1 switch) | Mewtwo 224/254 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 4,407 EXP and GREW TO LEVEL 16! Stats: 27/27/11/21. |
+| **B168** | 39543 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Turn 1 switch) | Mewtwo 215/254 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke at 4,734 EXP (179 to Lv 17). |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
