@@ -13,7 +13,7 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 75 / 75 [Verified Lv 22 Screen Turn 40053]
-  - Stats: Attack 35, Defense 35, Speed 13, Special 27 (Lv 21 base; pending full stat check)
+  - Stats: Attack 36, Defense 37, Speed 14, Special 28 [Verified Lv 22 Screen Turn 40083]
   - EXP: ~11696 [Verified B190 Turn 40077]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
