@@ -4,8 +4,8 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 17, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 17 (EXP: 5,324, 508 to Lv 18)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+45,329 EXP required).
+  - Current Level: 17 (EXP: 5,695, 137 to Lv 18)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+44,958 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 17) - Trainee / Lead
@@ -22,6 +22,7 @@
 | **B168** | 39543 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Turn 1 switch) | Mewtwo 215/254 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke at 4,734 EXP (179 to Lv 17). |
 | **B169** | 39554 | Parasect Lv 52 | Blastoise (Ice Beam) | 8 (Leech Life Turn 1) | Blastoise 221/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | 4x Ice Beam OHKO! Slowpoke grew to LEVEL 17! Stats: Atk 28, Def 29, Spd 11, Spc 22. |
 | **B170** | 39571 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Stun Spore Turn 1) | Mewtwo 215/254 HP (PAR), 6/10 Psychic PP | +294 EXP (238+56) | +84 EXP | STAB Psychic OHKO! Slowpoke at 5,324 EXP (508 to Lv 18). Pit-stop triggered. |
+| **B171** | 39622 | Sandslash Lv 52 | Blastoise (Surf) | 33 (Turn 1 critical Slash) | Blastoise 200/233 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | 2x STAB Surf OHKO! Slowpoke at 5,695 EXP (137 to Lv 18). |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).

@@ -181,7 +181,8 @@
     - Kingler (PINCHY Lv 28)
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
-- Boxes 3–12: Uninspected storage (contains remaining caught species including Muk, Magmar, Jynx, Poliwrath, Tentacool, Grimer, etc.).
+- Box 2: 0 / 20 (Verified completely empty Turn 39426)
+- Boxes 3�12: Uninspected storage (contains remaining caught Pok�mon).
 
 <hr>
 
