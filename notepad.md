@@ -132,10 +132,9 @@
   - Stats: Attack 25, Defense 26, Speed 10, Special 20 [Verified Screen Turn 39439]
   - EXP: 4080 (16 to Lv 16) [Verified B166 Turn 39499]
   - Moves: Confusion (PP 25/25)
-  - Target: Lv 37 Slowbro (#080, 50,653 EXP)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 234 / 254 [Battle 166 Turn 39497]
+  - HP: 224 / 254 [Battle 167 Turn 39511]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -5003,17 +5002,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
 | **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Headbutt on T1 switch) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP (269+65) | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
-| **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | In progress | Mewtwo 234 HP, 9 Psychic PP | +327 EXP expected | +97 EXP | Turn 1 switch to Mewtwo; Lv 16 milestone incoming! |
-
-### Active Sweeper Condition:
-- Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic, Slot 2]
-  - Status: Healthy, HP: 254 / 254 [Restored Cerulean Center Turn 39406]
-  - Moves: Swift (20/20), Psychic (10/10), Barrier (30/30), Recover (20/20)
-- Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water, Slot 4]
-  - Status: Healthy, HP: 233 / 233 [Restored Cerulean Center Turn 39407]
-  - Moves: Double-Edge (15/15), Body Slam (15/15), Surf (15/15), Ice Beam (10/10)
-- Support / Flyer: FARFETCH'D (DUX) [Lv 23, Normal/Flying, Slot 3]
-  - Status: Healthy, HP: 61 / 61 [Restored Cerulean Center Turn 39407]
+| **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (Turn 1 switch) | Mewtwo 224/254 HP, 9/10 Psychic PP | +327 EXP expected | +97 EXP | T1 switch took 10 (224 HP); executing STAB Psychic for Lv 16 milestone! |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
@@ -5037,8 +5026,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
   - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
 - Sweeper Matchups:
-  - Mewtwo (OMEGA, Slot 2): Golbat, Venomoth, Magneton, Raichu, Kadabra. STAB Psychic / Swift guarantees rapid OHKOs.
-  - Blastoise (SHELDON, Slot 4): Dodrio, Sandslash, Parasect (4x Ice Beam), Hypno. High defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
+  - Mewtwo (OMEGA, Slot 2): Golbat, Venomoth, Magneton, Raichu, Kadabra, Hypno. STAB Psychic / Swift guarantees rapid OHKOs.
+  - Blastoise (SHELDON, Slot 4): Dodrio, Sandslash, Parasect (4x Ice Beam). High defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
 - Retreat Protocol:
   - Trigger pit-stop if Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if any sweeper sustains incapacitating status (PAR, SLP, FRZ, PSN).
 
