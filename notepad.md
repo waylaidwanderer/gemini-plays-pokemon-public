@@ -168,7 +168,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 28, Water]
   - Status: Healthy
-  - HP: 72 / 72 [Estimated Lv 28]
+  - HP: 72 / 72
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -5018,21 +5018,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (13,687 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
-### Active Expedition 10 Sweeper Attrition & Condition Log:
+### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
   - Status: Healthy, HP: 72 / 72
   - EXP: 22,250 (2,139 to Lv 29 milestone at 24,389 EXP)
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 206 / 254
+  - Status: Healthy, HP: 254 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (2/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 2 (1 battle remaining to Lv 28 milestone before pit stop).
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 10 (Full PP / Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 129 / 233 (PSN)
+  - Status: Healthy, HP: 233 / 233
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (13/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 129, Surf PP = 13. Status: Full PP / Green.
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 20, Boosted EXP]
   - Status: Healthy, HP: 54 / 54 [Verified Lv 20 Screen Turn 38466]
 
