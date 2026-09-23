@@ -132,7 +132,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 69 / 69 [Verified Lv 20 Screen Turn 39719]
   - Stats: Attack 33, Defense 33, Speed 13, Special 26 [Verified Lv 20 Screen Turn 39713]
-  - EXP: 8310 (951 to Lv 21) [Verified B179 Turn 39713]
+  - EXP: 8637 (624 to Lv 21) [Verified B180 Turn 39758]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
@@ -4990,8 +4990,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 20, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 20 (EXP: 8,310, 951 to Lv 21)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+42,343 EXP required).
+  - Current Level: 20 (EXP: 8,637, 624 to Lv 21)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+42,016 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 20) - Trainee / Lead
@@ -5004,6 +5004,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop taken Turn 39585.*
 *Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Verified Lv 20 stats: 33/33/13/26. Pit-stop taken Turn 39721.*
+| **B180** | 39754 | Magneton Lv 46 | Mewtwo (Swift x2) | 19 (Thundershock Turn 2) | Mewtwo 235/254 HP, 10/10 Psychic PP, 18/20 Swift PP | +327 EXP (262+65) | +97 EXP | 2x Swift KO! 0 Psychic PP spent! Slowpoke at 8,637 EXP (624 to Lv 21). |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
