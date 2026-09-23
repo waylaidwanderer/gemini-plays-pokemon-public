@@ -1,9 +1,1 @@
-{
-  "exp_calc_agent": {
-    "agent_name": "exp_calc_agent",
-    "agent_description": "Analyzes Generation 1 retail EXP.ALL mathematical models, party size dilution, and assembly truncation routines.",
-    "agent_system_prompt": "You are an expert on Generation 1 retail Pokémon mechanics, specifically battle experience calculations, traded Pokémon boosted EXP formulas, and EXP.ALL party distribution arithmetic. You analyze empirical battle observations and reconcile them with 8-bit assembly arithmetic.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"opponent_species\": {\"type\": \"string\"}, \"opponent_level\": {\"type\": \"integer\"}, \"total_exp\": {\"type\": \"integer\"}, \"party_size\": {\"type\": \"integer\"}, \"observed_team_share\": {\"type\": \"integer\"}}, \"required\": [\"opponent_species\", \"opponent_level\", \"party_size\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"predicted_participant_share\": {\"type\": \"integer\"}, \"predicted_team_share\": {\"type\": \"integer\"}, \"effective_divisor_k\": {\"type\": \"number\"}, \"analysis\": {\"type\": \"string\"}}, \"required\": [\"predicted_participant_share\", \"predicted_team_share\", \"effective_divisor_k\", \"analysis\"]}"
-  }
-}
+{}

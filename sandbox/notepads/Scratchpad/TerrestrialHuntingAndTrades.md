@@ -23,7 +23,6 @@
   - Protocol Trigger Check: Blastoise HP = 100 (> 60), Surf PP = 11 (> 3).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
   - Status: Healthy, HP: 51 / 51 [Grew to Lv 19 Turn 38226, Atk 32, Def 30, Spd 30, Spc 29]
-- Protocol Status: Green / Healthy (1 Psychic remaining before retreat trigger).
 
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 9)
@@ -45,7 +44,7 @@
 | **Raichu** | 53 | 908 | 227 | **56 EXP** | **283 EXP** | **84 EXP** | Predicted |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105) |
 
-### Expedition 9 Battle Log (Compact Summary, Battles 97-107):
+### Expedition 9 Battle Log (Compact Summary, Battles 97-108):
 | Battle | Opponent | Sweeper Used | Key Events | Part Share | Team Share (N=4) | Trainee Total | Psyduck EXP End |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B97** | Magneton Lv 46 | Mewtwo (Psychic) | Took 8 dmg; OHKO | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 14,394 |
