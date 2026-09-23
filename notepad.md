@@ -124,7 +124,7 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 33, Water]
+- Slot 1: GOLDUCK (Nickname: MIGRAINE) [Lv 33, Water]
   - Status: Healthy
   - HP: 84 / 84
   - Stats: Attack 51, Defense 41, Speed 51, Special 51 [Verified Lv 33 Screen Turn 39377]
@@ -4989,7 +4989,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 <h1><code>Scratchpad/TerrestrialHuntingAndTrades</code></h1>
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
-## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
+## Completed: Golduck (#055) at Lv 33 [Turn 39381, Verified Turn 39387]
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 36,010 [Turn 39376].
   - Milestone Reached: Lv 33 achieved! Stats: Attack 51, Defense 41, Speed 51, Special 51 [Turn 39377]. Evolution in progress!
@@ -5061,6 +5061,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 1. SLOWPOKE (DOPEY Lv 15, Box 2): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
-
 
 <hr>

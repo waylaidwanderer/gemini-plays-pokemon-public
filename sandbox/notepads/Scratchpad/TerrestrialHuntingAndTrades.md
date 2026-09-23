@@ -1,5 +1,5 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
-## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
+## Completed: Golduck (#055) at Lv 33 [Turn 39381, Verified Turn 39387]
 - Target PokÃ©mon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 36,010 [Turn 39376].
   - Milestone Reached: Lv 33 achieved! Stats: Attack 51, Defense 41, Speed 51, Special 51 [Turn 39377]. Evolution in progress!
@@ -64,7 +64,7 @@
   - Immediate Trigger: Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if either active sweeper sustains an incapacitating status condition (PAR, SLP, FRZ).
   - Poison (PSN) Handling:
     - Blastoise HP > 100: Continue training without pit-stop; Blastoise and Mewtwo share combat duties per standard matchups.
-    - Blastoise HP 60–100: Continue training without pit-stop, BUT designate Mewtwo as the sole combat sweeper for all encounters to protect Blastoise from further combat damage. Pacing overworld steps drains only 1 HP per 4 steps, safely sustaining the final ~1-2 battles to reach Level 33 Golduck.
+    - Blastoise HP 60ï¿½100: Continue training without pit-stop, BUT designate Mewtwo as the sole combat sweeper for all encounters to protect Blastoise from further combat damage. Pacing overworld steps drains only 1 HP per 4 steps, safely sustaining the final ~1-2 battles to reach Level 33 Golduck.
     - Blastoise HP < 60, or Mewtwo sustains PSN: Trigger pit-stop immediately.
 
 ### Other Post-Game Evolution Candidates

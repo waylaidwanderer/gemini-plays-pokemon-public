@@ -8,7 +8,7 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 33, Water]
+- Slot 1: GOLDUCK (Nickname: MIGRAINE) [Lv 33, Water]
   - Status: Healthy
   - HP: 84 / 84
   - Stats: Attack 51, Defense 41, Speed 51, Special 51 [Verified Lv 33 Screen Turn 39377]
