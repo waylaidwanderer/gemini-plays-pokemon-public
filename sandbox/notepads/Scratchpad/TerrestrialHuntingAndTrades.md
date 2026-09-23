@@ -34,7 +34,7 @@
 ### Sweeper Role & Matchup Profiles
 - **MEWTWO (OMEGA Lv 74 - 260 Special, 220 Speed):**
   - **Mandatory Exclusive Targets:** Magneton Lv 46, Raichu Lv 53. (STAB Psychic guarantees rapid OHKOs; protects Blastoise from lethal Electric moves).
-  - **Optimal Targets:** Golbat Lv 46, Venomoth Lv 49, Kadabra Lv 49.
+  - **Optimal Targets:** Venomoth Lv 49 (Status Risk: Sleep Powder/Stun Spore; countered via Poké Flute), Kadabra Lv 49.
   - **Hypno Special Protocol:** In Gen 1, Psychic resists Psychic (0.5x). Mewtwo deals ~65% with non-crit Psychic (OHKO on ~25.4% crit). If Hypno survives Turn 2, finish with SWIFT (Move 1, 20/20 PP) on Turn 3 to conserve Psychic PP.
 - **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 217/233 HP):**
   - **Verified Target Matchups:**
@@ -52,6 +52,3 @@
   - Do NOT retreat upon Mewtwo sustaining paralysis or running low on PP if Blastoise is healthy.
   - Transfer active sweeping to Blastoise for physical/ice-weak encounters (Golbat, Dodrio, Sandslash, Parasect, Kadabra).
   - Trigger a pit-stop ONLY when BOTH sweepers are depleted (e.g. Mewtwo Psychic <= 2 AND Blastoise Surf <= 2, or both sweepers below 60 HP).
-
-### Other Post-Game Evolution Candidates
-1. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
