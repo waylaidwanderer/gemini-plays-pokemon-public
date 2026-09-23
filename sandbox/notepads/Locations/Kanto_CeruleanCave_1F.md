@@ -31,17 +31,15 @@
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (14, 4) [Verified Turn 27908: (13, 4) is solid rock boundary]. At (15, 4), connects north to Staircase (15, 3) and south down Column 15 into Row 6 waterway.
 - Entrance Cavern (Cols 20..25, Rows 12..17):
-  - Rows 14..15: Open floor across Columns 21 through 25 (5x2 corridor). Column 20 is solid rock wall.
-  - Row 16: Open floor ONLY at (24, 16) and (25, 16). Columns 20..23 are solid rock wall [Bump-tested Turn 38570, visually verified Turn 38575].
-  - Row 17: Checkerboard exit warp threshold at (24..25, 17). Columns 20..23 are solid rock wall.
-  - Row 12 Obstacle: Physical bump test confirmed (23, 12) is an impassable rock obstacle from (22, 12) [Turn 38356]. Open floor verified at (21..22, 12). Other adjacent tiles unprobed.
-  - Wooden Staircase (21, 11): Ascends north onto terrace; accessed south from (21, 12). Bounded by rock walls at (20, 11) and (22, 11).
+  - Rows 14..15: Open floor across Columns 20 through 25 (empirically confirmed at (20, 15) Turns 38375, 38386). Bounded west by rock wall at Column 19.
+  - Row 16: Open floor at (24, 16) and (25, 16). Collision verified stepping Left into (23, 16) from (24, 16) [Turn 38570].
+  - Row 17: Checkerboard exit warp threshold at (24..25, 17) leading outside to Cerulean City canal.
+  - Row 12 Obstacle: Physical bump test confirmed (23, 12) is an impassable rock obstacle from (22, 12) [Turn 38356]. Open floor verified at (21..22, 12).
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
 - Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
 - Eastern Corridor (Cols 27..28, Rows 12..16): Decorative basin enclosed by Row 12 cliff (tested from water Turn 27615), Pillar 26, and cave walls. Zero ladders.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
-- Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
 - Southwest Lower Corridor: Lower-level corridor accessed via Staircase (17, 15) to landing (17, 16). (17, 17) is rock wall; corridor steps west through (16..15, 16) into Row 17. (14..11, 16) is rock wall bounding Row 17 on the north. Row 17 runs west to Column 2 at (2, 17); (1, 17) is solid rock. From (2, 17), turn north up Column 2 through (2, 16..14). (2, 13) is solid rock. Path to Staircase (1, 13) steps West to (1, 14) and North onto Staircase (1, 13), ascending to the western elevated terrace. [Physically verified Turn 26725, 27127]
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
