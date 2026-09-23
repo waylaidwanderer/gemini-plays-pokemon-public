@@ -28,7 +28,7 @@
   - Status: Healthy, HP: 200 / 233 [Battle 153 Turn 39202]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
   - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: All resources at 100% (Green).
+  - Protocol Trigger Check: Healthy / Green (HP > 60, Surf > 3, Ice Beam > 2, zero status afflictions).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 22, Boosted EXP]
   - Status: Healthy, HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
 
