@@ -22,7 +22,7 @@
 
 ### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 225 / 254 [Battle 163 Turn 39376]
+  - Status: Healthy, HP: 254 / 254 [Restored Cerulean Center Turn 39406]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
   - Active Move PP: Psychic (7/10), Swift (19/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Psychic > 3, zero status afflictions). Evolution milestone reached.
