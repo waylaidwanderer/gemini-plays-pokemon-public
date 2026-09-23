@@ -132,15 +132,15 @@
   - Stats: Attack 48, Defense 39, Speed 48, Special 48 [Verified Lv 31 Screen Turn 39035]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 30768
+  - EXP: 31062
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
-  - Status: Healthy
+  - Status: PAR
   - HP: 178 / 254 [Verified Battle 147 Turn 39075]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 18/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 18/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
   - HP: 144 / 233 [Verified Battle 145 Turn 39044]
@@ -4994,9 +4994,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 31, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 30,768 [Turn 39077].
-  - Milestone Next: Lv 32 = 32^3 = 32,768 EXP (2,000 EXP remaining, ~6 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (5,169 EXP remaining).
+  - Current Empirical EXP: 31,062 [Turn 39094].
+  - Milestone Next: Lv 32 = 32^3 = 32,768 EXP (1,706 EXP remaining, ~5 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (4,875 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -5009,13 +5009,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B145** | 39040 | Dodrio Lv 49 | Blastoise (Surf) | 59 (took 59 crit dmg on switch) | Blastoise 144/233 HP, 9/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
 | **B146** | 39051 | Raichu Lv 53 | Mewtwo (Psychic) | 0 (Growl Turn 1) | Mewtwo 189/254 HP, 5/10 PP | +280 EXP (227+53) | +79 EXP | OHKO with Psychic. |
 | **B147** | 39071 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (took 11 dmg on switch) | Mewtwo 178/254 HP, 4/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
+| **B148** | 39085 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Stun Spore Turn 1; PAR) | Mewtwo 178/254 HP (PAR), 3/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with super-effective Psychic. |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 178 / 254 [Verified Battle 147 Turn 39075]
+  - Status: PAR, HP: 178 / 254 [Verified Battle 148 Turn 39094]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (4/10), Swift (18/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 4 (Green).
+  - Active Move PP: Psychic (3/10), Swift (18/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 3, Status = PAR (Pit-stop triggered!).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 144 / 233 [Verified Battle 145 Turn 39044]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
