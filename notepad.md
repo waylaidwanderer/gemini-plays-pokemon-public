@@ -5019,7 +5019,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
   - Status: Healthy, HP: 72 / 72 [Verified Screen Turn 38526]
-  - EXP: 22,544 (1,845 to Lv 29 milestone at 24,389 EXP) [Defeated Venomoth Lv 49 Turn 38590]
+  - EXP: 22,915 (1,474 to Lv 29 milestone at 24,389 EXP) [Defeated Sandslash Lv 52 Turn 38602]
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Paralyzed, HP: 254 / 254
