@@ -18,6 +18,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
 | **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Headbutt on T1 switch) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP (269+65) | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
+| **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | In progress | Mewtwo 234 HP, 9 Psychic PP | +327 EXP expected | +97 EXP | Turn 1 switch to Mewtwo; Lv 16 milestone incoming! |
 
 ### Active Sweeper Condition:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic, Slot 2]
