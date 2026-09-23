@@ -6,9 +6,6 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (1,244 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
-### Completed Expedition 12 Archive (N=4)
-- Summary: 8 battles (B141-B148) completed; Trainee reached Lv 31 (learned Disable); Pit-stop executed Turn 39111 at Cerulean Center to cure PAR and restore 100% HP/PP. Verified N=4 yields documented in Combat.md and N=4 Yield Table below.
-
 ### Completed Expedition 13 Archive (N=4)
 - Summary: 9 battles (B149-B157) completed; Trainee gained 2,970 EXP and grew to Level 32 (34,032 EXP, 1,905 EXP remaining to Lv 33 Golduck). Mewtwo sustained PAR from Thunder Wave in B157; pit-stop executed Turn 39268-39271 at Cerulean Center to cure PAR and restore 100% HP/PP. Verified N=4 yields documented in Combat.md and N=4 Yield Table below.
 
@@ -50,7 +47,7 @@
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107, B136) |
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110, B122, B133) |
 | **Raichu** | 53 | 908 | 227 | **53 EXP** | **280 EXP** | **79 EXP** | Verified (B146) |
-| **Ditto** | 53 | ~763 | ~190 | **Pending** | Pending | Pending | Pending Empirical Encounter |
+| **Ditto** | 53 | ~763 | ~190 | **N/A** | N/A | N/A | Absent from 1F Entrance Cavern encounter table (160 battles verified). |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B140) |
 
 ### Psyduck Switch-Training Combat Protocol
@@ -59,7 +56,9 @@
 - Sweeper Matchups:
   - Bug / Poison / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu, Kadabra): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass & Specific Targets (Dodrio, Sandslash, Parasect [4x Ice Beam], Ditto, Hypno [Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
-- Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 or HP < 60, Blastoise HP < 60 / Surf PP <= 3, or if either sweeper sustains an uncurable status condition (PAR, SLP, FRZ, PSN).
+- Retreat Protocol:
+  - Immediate Trigger: Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if either active sweeper sustains an incapacitating status condition (PAR, SLP, FRZ).
+  - Poison (PSN) Handling: If secondary sweeper (Blastoise) is poisoned but primary sweeper (Mewtwo) is healthy and Blastoise HP > 100, continue training without pit-stop (overworld poison drains only 1 HP per 4 steps; Blastoise's massive 230+ HP pool easily sustains the pacing required to finish Psyduck's evolution). If Mewtwo sustains PSN, or if Blastoise HP drops < 60, trigger pit-stop.
 
 ### Other Post-Game Evolution Candidates
 1. SLOWPOKE (DOPEY Lv 15, Box 2): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
