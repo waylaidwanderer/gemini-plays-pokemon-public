@@ -47,15 +47,15 @@
 - Mathematical Model Analysis:
   - Participant Share is strictly: floor(floor(E / 2) / n_participants) = floor(E / 4) for 2 participants.
   - Exp. All Base Share (Empirically Observed Range E/24 to E/27):
-    - Golbat (E=1104, base=46 = E/24.0) [B1,6-8,12,17,20,29,32,38,40,44,48,55,58,64,66,67,68,81,86,92,93]
-    - Kadabra (E=1008, base=42 = E/24.0) [B2,16,25,72]
-    - Raichu (E=908, base=37 = E/24.5) [B19,35,53,60,78]
-    - Dodrio (E=1092, base=42 = E/26.0) [B3,18,26,30,36,37,59,70,77,85,87]
-    - Magneton (E=1050, base=39 = E/26.9) [B13,22,27,31,50,61,62,79,80,95]
-    - Sandslash (E=1188, base=44 = E/27.0) [B5,9,10,14,23,56,65,89]
-    - Venomoth (E=952, base=35 = E/27.2) [B15,21,28,33,34,52,71,76,83,84]
-    - Parasect (E=950, base=37 = E/25.7) [B41,42,46,91,94]
-    - Hypno (E=1076, base=39 = E/27.6) [B4,11,24,39,43,45,47,49,51,54,57,63,69,73,74,75,82,88,90,96]
+    - Golbat (E=1104, base=46 = E/24.0) [23 encounters verified]
+    - Kadabra (E=1008, base=42 = E/24.0) [4 encounters verified]
+    - Raichu (E=908, base=37 = E/24.5) [5 encounters verified]
+    - Dodrio (E=1092, base=42 = E/26.0) [11 encounters verified]
+    - Magneton (E=1050, base=39 = E/26.9) [10 encounters verified]
+    - Sandslash (E=1188, base=44 = E/27.0) [8 encounters verified]
+    - Venomoth (E=952, base=35 = E/27.2) [10 encounters verified]
+    - Parasect (E=950, base=37 = E/25.7) [5 encounters verified]
+    - Hypno (E=1076, base=39 = E/27.6) [20 encounters verified]
     Division Variance Testable Hypothesis (Gen 1 Assembly Implementation):
     - Context & Phenomenon: Across all battles with a healthy 6-member party, the Exp. All team base share is consistently floor(E / K) where effective divisor K ranges from 24.0 to 27.6:
       - Golbat (E=1104, base=46, K=24.0), Kadabra (E=1008, base=42, K=24.0), Raichu (E=908, base=37, K=24.5)
@@ -97,8 +97,12 @@
 ### EXP.ALL N=4 Party Dilution Testable Predictions (Expedition 9)
 - **Setup:** Party reduced to 4 members: Psyduck (Slot 1), Mewtwo (Slot 2), Blastoise (Slot 3), Farfetch'd (Slot 4).
 - **Hypothesis A (Dynamic Active Party Divisor N=4):**
-  - E_half = floor(total_EXP / 2)
-  - Team Share = floor(E_half / 4)
+  - Empirical Observations across Battles 97-102:
+    - Magneton (E=1050): 65 base share (K=16.15) [Verified B97, B101]
+    - Hypno (E=1076): 65 base share (K=16.55) [Verified B98]
+    - Golbat (E=1104): 65 base share (K=16.98) [Verified B100, B102]
+    - Venomoth (E=952): 56 base share (K=17.00) [Verified B99]
+  - 65 EXP Plateau Phenomenon: Encounters with total EXP between 1,050 and 1,104 all yield exactly 65 team base share, indicating an effective divisor K scaling from ~24..27 (N=6) down to ~16..17 (N=4), roughly proportional to active party size ratio (4/6). Unverified species remain hypotheses pending direct encounter data.
   - Participant Share (Psyduck + Sweeper) = floor(E_half / 2) = floor(total_EXP / 4)
   - Total Psyduck Gain = Participant Share + Team Share
 - **Hypothesis B (Hardcoded Engine Divisor N=6):**
@@ -163,7 +167,7 @@
   - EXP Yields (Total 1,076 EXP):
     - Participant Share: Psyduck 269 EXP, Blastoise 269 EXP.
     - EXP.ALL Team Base Share (N=4): **65 EXP**! DUX Boosted Share: **97 EXP**!
-    - Effective scaling from N=6 (39 EXP): exactly 39 * (5/3) = 65 EXP.
+    - Empirical Base Share: 65 EXP (effective K = 16.55; scaled from N=6 share of 39).
     - Trainee Gain: Psyduck gained 334 EXP (269 + 65).
     - Trainee EXP: 14,394 -> 14,728 EXP (897 to Lv 25 milestone).
 - Battle 97 (Magneton Lv 46, Turn 38090-38097):
