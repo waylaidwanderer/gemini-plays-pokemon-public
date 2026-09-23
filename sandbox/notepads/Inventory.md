@@ -14,7 +14,7 @@
   - Stats: Attack 47, Defense 38, Speed 47, Special 46 [Verified Lv 30 Screen Turn 38877]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 28464
+  - EXP: 28798
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30) [Learned Lv 28 Screen Turn 38502]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -27,7 +27,7 @@
   - Status: Healthy
   - HP: 216 / 233 [Verified Battle 138 Turn 38900]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 8/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 8/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 21, Normal/Flying]
   - Status: Healthy
   - HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]

@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 30, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 28,464 [Turn 38963].
-  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (1,327 EXP remaining, ~4 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (7,473 EXP remaining).
+  - Current Empirical EXP: 28,798 [Turn 38978].
+  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (993 EXP remaining, ~3 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (7,139 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -18,6 +18,7 @@
 | **B138** | 38896 | Dodrio Lv 49 | Blastoise (Surf) | 8 (took 8 dmg on switch) | Blastoise 216/233 HP, 12/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
 | **B139** | 38918 | Parasect Lv 52 | Blastoise (Flute/Ice Beam) | 0 (Spore Turn 1; woke via Flute; Growth Turn 3) | Blastoise 216/233 HP, 9/10 Ice Beam, 12/15 Surf | +296 EXP (237+59) | +88 EXP | OHKO with super-effective Ice Beam. |
 | **B140** | 38946 | Parasect Lv 52 | Blastoise (Flute/Ice Beam) | 0 (Spore Turn 1; woke via Flute; Growth Turn 3) | Blastoise 216/233 HP, 8/10 Ice Beam, 12/15 Surf | +296 EXP (237+59) | +88 EXP | OHKO with super-effective Ice Beam. |
+| **B141** | 38969 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas failed Turn 1) | Blastoise 216/233 HP, 11/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -28,8 +29,8 @@
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 216 / 233 [Verified Battle 138 Turn 38900]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 216, Surf PP = 12 (Green).
+  - Active Move PP: Surf (11/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 216, Surf PP = 11 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 21, Boosted EXP]
   - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
 
@@ -44,7 +45,7 @@
 | Species | Level | Total EXP | Part Share (E/4) | Team Share (N=4) | Trainee Gain (Part+Team) | DUX Gain (Boosted) | Verification Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119, B126, B127, B129, B130) |
-| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121, B125, B134) |
+| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121, B125, B134, B141) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115, B128, B131, B132, B137) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111, B124, B135, B138) |
 | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120, B123) |
