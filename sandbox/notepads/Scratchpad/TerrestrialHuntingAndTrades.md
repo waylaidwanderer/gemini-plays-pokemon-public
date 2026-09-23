@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 29, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 24,594 [Turn 38705].
-  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (2,406 EXP remaining, ~7-8 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (11,343 EXP remaining).
+  - Current Empirical EXP: 24,935 [Turn 38721].
+  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (2,065 EXP remaining, ~6 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (11,002 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 11 Systematic Encounter Log (N=4)
@@ -16,13 +16,14 @@
 | **B126** | 38664 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Golbat used Haze) | Mewtwo 254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
 | **B127** | 38688 | Golbat Lv 46 | Mewtwo (Psychic) | 23 (Wing Attack critical hit) | Mewtwo 231/254 HP, 7/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
 | **B128** | 38696 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (switched cleanly) | Mewtwo 231/254 HP, 6/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic (Critical hit!). Psyduck reached Lv 29! |
+| **B129** | 38713 | Golbat Lv 46 | Mewtwo (Psychic) | 11 (took 11 dmg on switch) | Mewtwo 220/254 HP, 5/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
 
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy [Hazed Turn 38661], HP: 231 / 254 [Verified Screen Turn 38685]
+  - Status: Healthy, HP: 220 / 254 [Verified Screen Turn 38718]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (6/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 6 (Green).
+  - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 5 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 154 / 233 [Verified Screen Turn 38650]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
