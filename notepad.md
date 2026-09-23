@@ -4991,8 +4991,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 30, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 26,894 [Turn 38863].
+- Target Pok�mon: PSYDUCK (MIGRAINE Lv 30, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 27,872 [Turn 38902].
   - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (1,919 EXP remaining, ~5-6 battles).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (8,065 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
@@ -5001,11 +5001,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B132** | 38806 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 246/254 HP, 9/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
-| **B133** | 38818 | Venomoth Lv 49 | Mewtwo (Flute/Psychic) | 0 (woke via Flute; Stun Spore failed) | Mewtwo 246/254 HP, 8/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with Psychic after Poké Flute wakeup. |
+| **B133** | 38818 | Venomoth Lv 49 | Mewtwo (Flute/Psychic) | 0 (woke via Flute; Stun Spore failed) | Mewtwo 246/254 HP, 8/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with Psychic after Pok� Flute wakeup. |
+| **B134** | 38843 | Hypno Lv 46 | Blastoise (Surf) | 9 (took 9 dmg on switch) | Blastoise 224/233 HP, 14/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
+| **B135** | 38859 | Dodrio Lv 49 | Blastoise (Surf) | 0 (Fury Attack missed) | Blastoise 224/233 HP, 13/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
+| **B136** | 38872 | Kadabra Lv 49 | Mewtwo (Swift) | 8 (took 8 dmg on switch) | Mewtwo 238/254 HP, 19/20 Swift, 8/10 PP | +315 EXP (252+63) | +94 EXP | Tail Whip Turn 1. Crit OHKO with Swift. Trainee grew to Lv 30! |
+| **B137** | 38881 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 230/254 HP, 7/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
+| **B138** | 38896 | Dodrio Lv 49 | Blastoise (Surf) | 8 (took 8 dmg on switch) | Blastoise 216/233 HP, 12/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 230 / 254 [Verified Battle 137 Turn 38888]
+  - Status: Healthy, HP: 230 / 254 [Verified Battle 137 Turn 38890]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
   - Active Move PP: Psychic (7/10), Swift (19/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 7 (Green).
@@ -5023,7 +5028,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Disproven Continuous Formulas & 65 EXP Plateau:** While Sandslash (1188) yields 74 EXP (matching floor(1188/16)), strict floor(E/16) is definitively FALSIFIED by Golbat (observed 65 vs 69 predicted), Hypno (observed 65 vs 67 predicted), and Dodrio (observed 63 vs 68 predicted). Similarly, a continuous 65 EXP plateau is disproven by Dodrio's 63 EXP. Discrete assembly division routines and truncation determine each species yield independently without a single global closed-form equation.
   - Effective divisor K scales from ~24..27 (N=6) down to ~16..17 (N=4), proportional to party size reduction.
   - Participant Share (Psyduck + Sweeper) = floor(E_half / 2) = floor(total_EXP / 4).
-  - Traded Pokémon Boost: boosted = base + floor(base / 2) (e.g. 65 + 32 = 97 EXP; 56 + 28 = 84 EXP).
+  - Traded Pok�mon Boost: boosted = base + floor(base / 2) (e.g. 65 + 32 = 97 EXP; 56 + 28 = 84 EXP).
 - **N=4 Yield Table:**
 | Species | Level | Total EXP | Part Share (E/4) | Team Share (N=4) | Trainee Gain (Part+Team) | DUX Gain (Boosted) | Verification Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -5039,7 +5044,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116) |
 
 ### Psyduck Switch-Training Combat Protocol
-- Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
+- Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pok�mon. Any direct hit is lethal.
 - Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
@@ -5049,7 +5054,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Other Post-Game Evolution Candidates
 1. SLOWPOKE (DOPEY Lv 15, Box 1): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
-3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3056.
+3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder �2,100 each). Money: �3056.
 
 
 <hr>
