@@ -1,21 +1,22 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 29, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 25,603 [Turn 38747].
-  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (1,397 EXP remaining, ~4-5 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (10,334 EXP remaining).
+  - Current Empirical EXP: 25,930 [Turn 38813].
+  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (1,070 EXP remaining, ~3-4 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (10,007 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B132** | 38806 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 246/254 HP, 9/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 254 / 254 [Healed Turn 38768]
+  - Status: Healthy, HP: 246 / 254 [Verified Screen Turn 38813]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 10 (Green).
+  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 9 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 233 / 233 [Healed Turn 38768]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
@@ -36,7 +37,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119, B126, B127, B129, B130) |
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121, B125) |
-| **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115, B128, B131) |
+| **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115, B128, B131, B132) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111, B124) |
 | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120, B123) |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107) |
