@@ -14,7 +14,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 66 / 66 [Verified Lv 19 Screen Turn 39678]
   - Stats: Attack 31, Defense 32, Speed 12, Special 25 [Verified Lv 19 Screen Turn 39671]
-  - EXP: 7327 (673 to Lv 20) [Verified B176 Turn 39683]
+  - EXP: 7661 (339 to Lv 20) [Verified B177 Turn 39694]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy

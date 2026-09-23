@@ -4,8 +4,8 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 18, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 19 (EXP: 7,327, 673 to Lv 20)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+43,326 EXP required).
+  - Current Level: 19 (EXP: 7,661, 339 to Lv 20)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+42,992 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 18) - Trainee / Lead
@@ -23,6 +23,7 @@
 | **B174** | 39658 | Venomoth Lv 49 | Mewtwo (Psychic) | 4 (Turn 1 Psybeam) | Mewtwo 241/254 HP, 7/10 Psychic PP | +294 EXP (238+56) | +84 EXP | STAB Psychic OHKO! Slowpoke at 6,657 EXP (202 to Lv 19). |
 | **B175** | 39667 | Hypno Lv 46 | Mewtwo (Psychic x2) | 10 (Psychic Turn 2) | Mewtwo 231/254 HP, 5/10 Psychic PP | +334 EXP (269+65) | +97 EXP | 2x STAB Psychic (crit T3) KO! Slowpoke reached 6,991 EXP and GREW TO LEVEL 19! Stats: 31/32/12/25. |
 | **B176** | 39682 | Dodrio Lv 49 | Blastoise (Surf) | 30 (Fury Attack x5) | Blastoise 170/233 HP, 13/15 Surf PP | +336 EXP (273+63) | +94 EXP | STAB Surf OHKO! Slowpoke at 7,327 EXP (673 to Lv 20). |
+| **B177** | 39691 | Hypno Lv 46 | Mewtwo (Psychic + Swift) | 11 (Headbutt Turn 2) | Mewtwo 220/254 HP, 4/10 Psychic PP, 19/20 Swift PP | +334 EXP (269+65) | +97 EXP | Psychic (~65%) -> Swift finisher KO! Conserved 1 Psychic PP! Slowpoke at 7,661 EXP (339 to Lv 20). |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
