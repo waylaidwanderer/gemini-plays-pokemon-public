@@ -17,7 +17,7 @@
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
-| **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Turn 1 switch) | Mewtwo 244/254 HP, 9/10 Psychic PP | +334 EXP expected | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
+| **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 20 (10 switch + 10 Headbutt) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP expected | +97 EXP | T1 switch took 10; T1 Headbutt took 10 (234 HP); T2 Psychic left Hypno at low HP. |
 
 ### Active Sweeper Condition:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic, Slot 2]

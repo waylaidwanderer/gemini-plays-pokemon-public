@@ -19,7 +19,7 @@
   - Target: Lv 37 Slowbro (#080, 50,653 EXP)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 244 / 254 [Battle 166 Turn 39495]
+  - HP: 234 / 254 [Battle 166 Turn 39497]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
