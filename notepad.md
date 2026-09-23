@@ -188,7 +188,7 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 21, Normal/Flying]
   - Status: Healthy
-  - HP: 56 / 56 (pending party screen confirmation)
+  - HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
   - Stats: Attack 35, Defense 33, Speed 33, Special 31 [Verified Lv 21 Screen Turn 38751]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
