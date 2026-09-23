@@ -42,7 +42,6 @@
 - HM02 (FLY)
 - EXP.ALL
 - TOWN MAP
-- S.S. TICKET (Used)
 - COIN CASE
 
 ## PC Pokémon Storage
