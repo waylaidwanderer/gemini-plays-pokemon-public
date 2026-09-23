@@ -8,7 +8,7 @@
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+45,623 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
-  - Slot 1: SLOWPOKE (DOPEY Lv 16) - Trainee / Lead
+  - Slot 1: SLOWPOKE (DOPEY Lv 17) - Trainee / Lead
   - Slot 2: MEWTWO (OMEGA Lv 73) - Primary Sweeper (1 Down input in combat)
   - Slot 3: FARFETCH'D (DUX Lv 23) - Support (Fly / Cut)
   - Slot 4: BLASTOISE (SHELDON Lv 73) - Secondary Sweeper
@@ -50,6 +50,6 @@
   - Trigger pit-stop if Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if any sweeper sustains incapacitating status (PAR, SLP, FRZ, PSN).
 
 ### Other Post-Game Evolution Candidates
-1. SLOWPOKE (DOPEY Lv 15, Lead Slot 1): ACTIVE TARGET -> switch-training to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
+1. SLOWPOKE (DOPEY Lv 17, Lead Slot 1): ACTIVE TARGET -> switch-training to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
