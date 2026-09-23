@@ -108,9 +108,7 @@
 
 - [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
-- [ ] Evolve Psyduck into Golduck (#055) at Lv 33 (35,937 EXP)
-
-
+- [x] Evolve Psyduck into Golduck (#055) at Lv 33 [Turn 39381]
 
 <hr>
 
