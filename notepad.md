@@ -123,28 +123,19 @@
 - Badges: 8 / 8
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
-- Slot 1: GOLDUCK (Nickname: MIGRAINE) [Lv 33, Water]
-  - Status: Healthy
-  - HP: 104 / 104
-  - Stats: Attack 71, Defense 61, Speed 71, Special 71 [Verified Lv 33 Golduck Screen Turn 39387]
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 36010
-  - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
-  - Caught: Cerulean Gym pool [Turn 31526]
-- Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
+## Party Pokémon (3 / 6)
+- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
   - HP: 254 / 254 [Restored Cerulean Center Turn 39406]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
   - HP: 233 / 233 [Restored Cerulean Center Turn 39407]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
-- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 23, Normal/Flying]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 23, Normal/Flying]
   - Status: Healthy
   - HP: 61 / 61 [Verified Party Screen Turn 39364]
   - Stats: Attack 39, Defense 36, Speed 36, Special 34 [Verified Lv 23 Screen Turn 39351]
@@ -165,7 +156,7 @@
 - HELIX FOSSIL (Revived into Omanyte)
 
 ## PC Pokémon Storage
-- Active Box: BOX 1
+- Active Box: BOX 2
   - Box 1 Pokémon:
     - Golduck (MIGRAINE Lv 33)
     - Kingler (PINCHY Lv 28)
