@@ -4,8 +4,8 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 20, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 20 (EXP: 8,637, 624 to Lv 21)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+42,016 EXP required).
+  - Current Level: 20 (EXP: 8,978, 283 to Lv 21)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+41,675 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 20) - Trainee / Lead
@@ -19,6 +19,7 @@
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop taken Turn 39585.*
 *Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Verified Lv 20 stats: 33/33/13/26. Pit-stop taken Turn 39721.*
 | **B180** | 39754 | Magneton Lv 46 | Mewtwo (Swift x2) | 19 (Thundershock Turn 2) | Mewtwo 235/254 HP, 10/10 Psychic PP, 18/20 Swift PP | +327 EXP (262+65) | +97 EXP | 2x Swift KO! 0 Psychic PP spent! Slowpoke at 8,637 EXP (624 to Lv 21). |
+| **B181** | 39765 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Confuse Ray T1) | Mewtwo 235/254 HP, 9/10 Psychic PP | +341 EXP (276+65) | +97 EXP | Bypassed confusion; 2x STAB Psychic OHKO! Slowpoke at 8,978 EXP (283 to Lv 21). |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
