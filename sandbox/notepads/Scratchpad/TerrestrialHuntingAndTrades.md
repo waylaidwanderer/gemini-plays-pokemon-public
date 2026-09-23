@@ -19,7 +19,7 @@
   - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 8 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 224 / 233 [Verified Battle 134 Turn 38853]
+  - Status: Healthy, HP: 224 / 233 [Verified Battle 135 Turn 38865]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
   - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 224, Surf PP = 13 (Green).
