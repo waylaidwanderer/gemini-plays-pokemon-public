@@ -5002,20 +5002,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Completed Expedition 12 Archive (N=4)
 - Summary: 8 battles (B141-B148) completed; Trainee reached Lv 31 (learned Disable); Pit-stop executed Turn 39111 at Cerulean Center to cure PAR and restore 100% HP/PP. Verified N=4 yields documented in Combat.md and N=4 Yield Table below.
 
-### Expedition 13 Systematic Encounter Log (N=4)
+### Completed Expedition 13 Archive (N=4)
+- Summary: 9 battles (B149-B157) completed; Trainee gained 2,970 EXP and grew to Level 32 (34,032 EXP, 1,905 EXP remaining to Lv 33 Golduck). Mewtwo sustained PAR from Thunder Wave in B157; pit-stop executed Turn 39268-39271 at Cerulean Center to cure PAR and restore 100% HP/PP. Verified N=4 yields documented in Combat.md and N=4 Yield Table below.
+
+### Expedition 14 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B149** | 39155 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 254/254 HP, 9/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective Psychic. |
-| **B150** | 39166 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (took 10 dmg on switch) | Mewtwo 244/254 HP, 8/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
-| **B151** | 39175 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Confuse Ray Turn 1; attacked through confusion) | Mewtwo 244/254 HP, 7/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective Psychic. |
-| **B152** | 39188 | Hypno Lv 46 | Blastoise (Surf) | 26 (took 26 dmg on switch) | Blastoise 207/233 HP, 14/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
-| **B153** | 39198 | Dodrio Lv 49 | Blastoise (Surf) | 7 (took 7 dmg on switch) | Blastoise 200/233 HP, 13/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
-| **B154** | 39206 | Hypno Lv 46 | Blastoise (Surf) | 0 (Turn 1 move dealt 0) | Blastoise 200/233 HP, 12/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. Trainee grew to Lv 32! |
-| **B155** | 39219 | Dodrio Lv 49 | Blastoise (Surf) | 18 (Fury Attack hit 3 times) | Blastoise 182/233 HP, 11/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
-| **B156** | 39230 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Sleep Powder Turn 1, Flute Turn 2, Sleep Powder missed Turn 2) | Mewtwo 244/254 HP, 6/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with super-effective Psychic. |
-| **B157** | 39251 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (paralyzed on switch-in; took 9 dmg from Swift; broke through confusion; critical hit OHKO) | Mewtwo 235/254 HP, 5/10 PP, PAR | +327 EXP (262+65) | +97 EXP | OHKO with critical hit STAB Psychic. Pit-stop triggered due to PAR. |
 
-### Active Expedition 13 Sweeper Attrition & Condition Log:
+### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Paralyzed (PAR), HP: 235 / 254 [Battle 157 Turn 39260]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
