@@ -35,7 +35,7 @@
 | Species | Level | Total EXP | Part Share (E/4) | Team Share (N=4) | Trainee Gain (Part+Team) | DUX Gain (Boosted) | Verification Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119) |
-| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117) |
+| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111) |
 | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120) |
@@ -43,23 +43,6 @@
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110) |
 | **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116) |
-
-### Expedition 10 Battle Log (Battles 109+):
-| Battle | Opponent | Sweeper Used | Key Events | Part Share | Team Share (N=4) | Trainee Total | Psyduck EXP End |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B109**| Magneton Lv 46 | Mewtwo (Psychic) | Took 8 dmg on switch; OHKO with Psychic (PP 9/10) | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 18,267 |
-| **B110**| Venomoth Lv 49 | Mewtwo (Psychic) | Took 0 dmg on switch; OHKO with Psychic (PP 8/10) | 238 EXP | 56 EXP (DUX 84) | +294 EXP | 18,561 |
-| **B111**| Dodrio Lv 49 | Blastoise (Surf) | Took 12 dmg (Fury Attack); OHKO with Surf (PP 14/15) | 273 EXP | 63 EXP (DUX 94) | +336 EXP | 18,897 |
-| **B112**| Magneton Lv 46 | Mewtwo (Psychic) | Took 19 dmg (crit); OHKO with Psychic (PP 7/10) | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 19,224 |
-| **B113**| Golbat Lv 46 | Mewtwo (Psychic) | Confused on switch; OHKO with Psychic through confusion (PP 6/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 19,565 |
-| **B114**| Golbat Lv 46 | Mewtwo (Psychic) | Took 0 dmg on switch; OHKO with Psychic (PP 5/10); **Psyduck grew to Lv 27!** | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 19,906 |
-| **B115**| Magneton Lv 46 | Mewtwo (Psychic) | Paralyzed on switch, took 10 dmg; OHKO with Psychic through paralysis (PP 4/10) | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 20,233 |
-| **B116**| Parasect Lv 52 | Blastoise (Ice/Surf) | Took 29 dmg on switch; defeated with Blastoise (HP 192/233) | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 20,529 |
-| **B117**| Hypno Lv 46 | Blastoise (Body Slam x2) | Poisoned on switch; 2HKO with Body Slam (crit turn 2); took 23 dmg | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 20,863 |
-| **B118**| Golbat Lv 46 | Mewtwo (Psychic) | Haze cured PAR on switch; OHKO with Psychic (PP 3/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 21,204 |
-| **B119**| Golbat Lv 46 | Mewtwo (Psychic) | Confused on switch; OHKO with crit Psychic through confusion (PP 2/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 21,545 |
-| **B120**| Sandslash Lv 52 | Blastoise (Surf) | Took 13 dmg (Swift); OHKO with Surf (PP 13/15) | 297 EXP | 74 EXP (DUX 111) | +371 EXP | 21,916 |
-| **B121**| Hypno Lv 46 | Blastoise (Body Slam x2) | Hypno fully paralyzed Turn 2; 2HKO with Body Slam (PP 12/15); **Psyduck grew to Lv 28! Learned Tail Whip!** | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 22,250 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
