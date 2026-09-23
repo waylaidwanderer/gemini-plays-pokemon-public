@@ -14,8 +14,6 @@
   - Slot 4: BLASTOISE (SHELDON Lv 73) - Secondary Sweeper
 
 ### Expedition 15 Systematic Encounter Log (N=4)
-| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop taken Turn 39585.*
 *Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Verified Lv 20 stats: 33/33/13/26. Pit-stop taken Turn 39721.*
 *Summary B180-B182 (Turns 39754-39770): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,305 EXP). Pit-stop 3 taken Turn 39799: PAR cured, Mewtwo 254/254 HP & 10/10 PP restored.*
@@ -24,16 +22,7 @@
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
 - Participant Share: floor(total_EXP / 4).
 - Traded Pokémon Boost (DUX): boosted = base + floor(base / 2).
-- N=4 Verified Base Team Yields:
-  - Golbat Lv 46: Part 276 EXP, Team 65 EXP (Total Trainee: +341 EXP, Dux: +97 EXP)
-  - Hypno Lv 46: Part 269 EXP, Team 65 EXP (Total Trainee: +334 EXP, Dux: +97 EXP)
-  - Magneton Lv 46: Part 262 EXP, Team 65 EXP (Total Trainee: +327 EXP, Dux: +97 EXP)
-  - Dodrio Lv 49: Part 273 EXP, Team 63 EXP (Total Trainee: +336 EXP, Dux: +94 EXP)
-  - Sandslash Lv 52: Part 297 EXP, Team 74 EXP (Total Trainee: +371 EXP, Dux: +111 EXP)
-  - Kadabra Lv 49: Part 252 EXP, Team 63 EXP (Total Trainee: +315 EXP, Dux: +94 EXP)
-  - Venomoth Lv 49: Part 238 EXP, Team 56 EXP (Total Trainee: +294 EXP, Dux: +84 EXP)
-  - Raichu Lv 53: Part 227 EXP, Team 53 EXP (Total Trainee: +280 EXP, Dux: +79 EXP)
-  - Parasect Lv 52: Part 237 EXP, Team 59 EXP (Total Trainee: +296 EXP, Dux: +88 EXP)
+- (Individual base yield figures permanently documented in Mechanics/Combat.md)
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 15) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
