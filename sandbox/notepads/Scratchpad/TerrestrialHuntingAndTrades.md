@@ -20,7 +20,7 @@
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B184** | TBD | Pending | Pending | Pending | Pending | Pending | Pending | Next encounter in Entrance Cavern |
+| **B184** | 39975 | Parasect Lv 52 | Blastoise (Ice Beam) | Pending | Pending | Pending | Pending | Switch Slowpoke to Blastoise Turn 1. 4x Ice Beam target. |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
