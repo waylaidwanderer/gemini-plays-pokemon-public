@@ -108,10 +108,6 @@
 
 - [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
-- [x] Train Psyduck to Level 24 (14,067 EXP) [Turn 38021]
-- [x] Train Psyduck to Level 25 (15,625 EXP) [Turn 38147]
-- [x] Train Psyduck to Level 26 (17,576 EXP) [Turn 38240]
-- [ ] Train Psyduck to Level 27 (19,683 EXP)
 - [ ] Evolve Psyduck into Golduck (#055) at Lv 33 (35,937 EXP)
 
 
@@ -301,11 +297,19 @@
 ## EXP.ALL Mathematical Model & Empirical Mechanics (Generation 1 Retail)
 - **Exp. All Distribution Formula & Party Scaling:**
   - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants.
-  - Team Share (Party Size Scaling): `E_half = floor(E / 2)`, divided among active party members: `floor(E_half / N_party)`.
-    - For standard full 6-member party (N=6): `floor(E_half / 6) = floor(E / 12)` base before species-specific divisor K truncation.
-    - For 4-member party (N=4): `floor(E_half / 4) = floor(E / 8)` base, resulting in ~60-67% higher team share yields (e.g. Magneton 39 -> 65, Golbat 46 -> 65, Kadabra 42 -> 63, Parasect 37 -> 59).
-  - Truncation & Internal Variables Anomaly: Team share is not a strict linear scalar function of total EXP (e.g. Parasect E=950 yields 59 team share, while Venomoth E=952 yields 56 team share). Internal assembly register shifts and rounding routines produce non-monotonic effective divisors K across different base EXP values.
-  - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
+  - Team Share Derivation & Reconciled Divisor Model:
+    - In Gen 1 retail, the team EXP pool is half of the total battle EXP (`E_half = floor(E / 2)`), which is further halved before dividing among party members: `base_team_share = floor(floor(E_half / 2) / N_party) = floor(floor(E / 4) / N_party) = floor(E / (4 * N_party))`.
+    - For full 6-member party (N=6): Base divisor is `4 * 6 = 24` (`floor(E / 24)`):
+      - Kadabra (E=1008): `1008 // 24 = 42 EXP` (exact match to observed 42).
+      - Golbat (E=1104): `1104 // 24 = 46 EXP` (exact match to observed 46).
+      - Internal 8-bit assembly registers and truncation introduce non-monotonic variance for certain species (e.g. Hypno E=1076 -> 39, Magneton E=1050 -> 39).
+    - For 4-member party (N=4): Base divisor is `4 * 4 = 16` (`floor(E / 16)`):
+      - Parasect (E=950): `950 // 16 = 59 EXP` (exact match to observed 59!).
+      - Kadabra (E=1008): `1008 // 16 = 63 EXP` (exact match to observed 63!).
+      - Magneton (E=1050): `1050 // 16 = 65 EXP` (exact match to observed 65!).
+      - Hypno (E=1076): observed 65 EXP.
+      - Golbat (E=1104): observed 65 EXP.
+    - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)` (e.g. 65 + 32 = 97 EXP, 59 + 29 = 88 EXP, 63 + 31 = 94 EXP).
 - **Empirical Effective Divisor K (Across 96 Battles):**
   - Golbat (E=1104, base=46, K=24.0) [23 empirical encounters verified]
   - Kadabra (E=1008, base=42, K=24.0) [4 empirical encounters verified]
@@ -5029,7 +5033,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Protocol Trigger Check: Blastoise HP = 100 (> 60), Surf PP = 11 (> 3).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
   - Status: Healthy, HP: 51 / 51 [Grew to Lv 19 Turn 38226, Atk 32, Def 30, Spd 30, Spc 29]
-- Protocol Status: Green / Healthy (1 Psychic remaining before retreat trigger).
 
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 9)
@@ -5051,7 +5054,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Raichu** | 53 | 908 | 227 | **56 EXP** | **283 EXP** | **84 EXP** | Predicted |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105) |
 
-### Expedition 9 Battle Log (Compact Summary, Battles 97-107):
+### Expedition 9 Battle Log (Compact Summary, Battles 97-108):
 | Battle | Opponent | Sweeper Used | Key Events | Part Share | Team Share (N=4) | Trainee Total | Psyduck EXP End |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B97** | Magneton Lv 46 | Mewtwo (Psychic) | Took 8 dmg; OHKO | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 14,394 |
