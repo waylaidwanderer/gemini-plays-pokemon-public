@@ -4998,6 +4998,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Slot 3: FARFETCH'D (DUX Lv 23) - Support (Fly / Cut)
   - Slot 4: BLASTOISE (SHELDON Lv 73) - Secondary Sweeper
 
+### Expedition 15 Systematic Encounter Log (N=4)
+| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | In progress | Blastoise 233 HP, 15 Surf PP | +371 EXP expected | +111 EXP | Turn 1 switch to Blastoise. |
+
 ### Active Sweeper Condition:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic, Slot 2]
   - Status: Healthy, HP: 254 / 254 [Restored Cerulean Center Turn 39406]
