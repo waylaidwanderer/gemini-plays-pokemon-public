@@ -172,7 +172,7 @@
   - Stats: Attack 40, Defense 32, Speed 40, Special 40 [Verified Lv 26 Screen Turn 38240]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 18561 [1122 to Lv 27; 19683 - 18561 = 1122]
+  - EXP: 18897 [786 to Lv 27; 19683 - 18897 = 786]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -310,14 +310,14 @@
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): Pending empirical encounter
   - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104]
-  - Dodrio (E=1092): Pending empirical encounter
+  - Dodrio (E=1092): 63 EXP [Verified Battle 111]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 103]
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106]
   - Venomoth (E=952): 56 EXP [Verified Battle 99]
   - Raichu (E=908): Pending empirical encounter
-  - Note: Species with E between 1050 and 1104 all exhibit an empirical plateau at exactly 65 EXP under N=4 party.
+  - Note: Under N=4 party, Magneton (1050), Hypno (1076), and Golbat (1104) yield 65 EXP, while Kadabra (1008) and Dodrio (1092) yield 63 EXP, Parasect (950) yields 59 EXP, and Venomoth (952) yields 56 EXP.
 
 
 <hr>
@@ -5009,15 +5009,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 26, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 18,561 [Turn 38339]. Psyduck at Level 26.
-  - Milestone Next: Lv 27 = 27^3 = 19,683 EXP (1,122 EXP remaining, ~3 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,376 EXP remaining).
+  - Current Empirical EXP: 18,897 [Turn 38354]. Psyduck at Level 26.
+  - Milestone Next: Lv 27 = 27^3 = 19,683 EXP (786 EXP remaining, ~2 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,040 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 26, Water, Lead Slot]
   - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
-  - EXP: 18,561 (1,122 to Lv 27 milestone at 19,683 EXP)
+  - EXP: 18,897 (786 to Lv 27 milestone at 19,683 EXP)
   - Stats: Attack 40, Defense 32, Speed 40, Special 40 [Verified Lv 26 Screen Turn 38240]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 246 / 254
@@ -5025,10 +5025,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 8. Status: Full PP / Green.
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 233 / 233 [Fully Restored Nurse Joy Turn 38287]
+  - Status: Healthy, HP: 221 / 233
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15. Status: Full PP / Green.
+  - Active Move PP: Surf (14/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 221, Surf PP = 14. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
   - Status: Healthy, HP: 52 / 52 [Verified Screen Turn 38300]
 
@@ -5045,7 +5045,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104) |
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101) |
-| **Dodrio** | 49 | 1,092 | 273 | **65 EXP** | **338 EXP** | **97 EXP** | Predicted (65 EXP Plateau) |
+| **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111) |
 | **Sandslash**| 52 | 1,188 | 297 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107) |
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99) |
@@ -5073,6 +5073,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B109**| Magneton Lv 46 | Mewtwo (Psychic) | Took 8 dmg on switch; OHKO with Psychic (PP 9/10) | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 18,267 |
 | **B110**| Venomoth Lv 49 | Mewtwo (Psychic) | Took 0 dmg on switch; OHKO with Psychic (PP 8/10) | 238 EXP | 56 EXP (DUX 84) | +294 EXP | 18,561 |
+| **B111**| Dodrio Lv 49 | Blastoise (Surf) | Took 12 dmg (Fury Attack); OHKO with Surf (PP 14/15) | 273 EXP | 63 EXP (DUX 94) | +336 EXP | 18,897 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
