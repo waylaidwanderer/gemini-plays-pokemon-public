@@ -172,7 +172,7 @@
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 22250 [2139 to Lv 29; 24389 - 22250 = 2139]
+  - EXP: 22250
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30) [Learned Lv 28 Screen Turn 38502]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -280,17 +280,17 @@
     `boosted_EXP = s_EXP + floor(s_EXP / 2)`
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 - **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All: participant share = 262, team base share = 39) [Empirically verified across 7+ battles, including Battles 13, 22, 62 (Turn 37360)].
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All: participant share = 276, team base share = 46) [Empirically verified across 18+ battles, including Battles 1, 6-8, 64, 66, 67 (Turn 37419)].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All: participant share = 269, team base share = 39) [Empirically verified across 12+ battles, including Battles 4, 11, 63 (Turn 37375)].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All: participant share = 252, team base share = 42) [Empirically verified across 4+ battles, including Battles 2, 16, 25, 72 (Turn 37495)].
-  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All: participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
-  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All: participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
-  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All: participant share = 237, team base share = 37) [Empirically verified across 3+ battles].
-  - Raichu Lv 53: Total EXP 908. With Exp. All: participant share = 227, team base share = 37, traded share = 55 [Empirically verified across 4+ battles].
+  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All (N=6): participant share = 262, team base share = 39) [Empirically verified across 7+ battles, including Battles 13, 22, 62 (Turn 37360)].
+  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All (N=6): participant share = 276, team base share = 46) [Empirically verified across 18+ battles, including Battles 1, 6-8, 64, 66, 67 (Turn 37419)].
+  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All (N=6): participant share = 269, team base share = 39) [Empirically verified across 12+ battles, including Battles 4, 11, 63 (Turn 37375)].
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All (N=6): participant share = 252, team base share = 42) [Empirically verified across 4+ battles, including Battles 2, 16, 25, 72 (Turn 37495)].
+  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All (N=6): participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
+  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All (N=6): participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
+  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All (N=6): participant share = 237, team base share = 37) [Empirically verified across 3+ battles].
+  - Raichu Lv 53: Total EXP 908. With Exp. All (N=6): participant share = 227, team base share = 37, traded share = 55 [Empirically verified across 4+ battles].
   - Venomoth Lv 49: Observed Total EXP Variance:
     - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-    - With Exp. All (Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
+    - With Exp. All (N=6, Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active PokÃ©mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
@@ -5061,7 +5061,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
-  - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
+  - Fast Physical / Ground / Normal / Grass & Low-Defense Targets (Dodrio, Sandslash, Parasect, Ditto, Hypno [Psychic, Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
 - Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 or HP < 60, or Blastoise HP < 60 / Surf PP <= 3.
 
 ### Other Post-Game Evolution Candidates
