@@ -5003,35 +5003,45 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Slot 4: BLASTOISE (SHELDON Lv 73) - Secondary Sweeper
 
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop taken Turn 39585.*
-*Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Verified Lv 20 stats: 33/33/13/26. Pit-stop taken Turn 39721.*
-*Summary B180-B182 (Turns 39754-39779): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,305 EXP). Pit-stop 3 taken Turn 39799: PAR cured, Mewtwo 254/254 HP & 10/10 PP restored.*
+*Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop 1 taken Turn 39585.*
+*Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Pit-stop 2 taken Turn 39721.*
+*Summary B180-B183 (Turns 39754-39914): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,632 EXP). Pit-stops 3 & 4 taken (Mewtwo PAR cured, HP/PP fully restored). Slowpoke at 9,632 EXP (1,016 to Lv 22).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B183** | 39901 | Magneton Lv 46 | Mewtwo (Psychic) | 12 (Thundershock) | Mewtwo 242/254 HP (PAR), 9/10 Psychic PP, 20/20 Swift PP | +327 EXP (262+65) | +97 EXP | Thundershock dealt 12 dmg; Mewtwo broke PAR and STAB Psychic OHKOed! Slowpoke at 9,632 EXP (1,016 to Lv 22). |
-
-*Pit-stop 4 taken Turn 39929: PAR cured, Mewtwo 254/254 HP & 10/10 PP restored. Slowpoke at 9,632 EXP (1,016 to Lv 22).*
+| **B184** | TBD | Pending | Pending | Pending | Pending | Pending | Pending | Next encounter in Entrance Cavern |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
 - (Individual base yield figures permanently documented in Mechanics/Combat.md)
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 15) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 21) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
   - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
-- Sweeper Matchups:
-  - Mewtwo (OMEGA, Slot 2): Golbat, Venomoth, Magneton, Raichu, Kadabra. STAB Psychic guarantees rapid OHKOs.
-  - Hypno Special Protocol: In Gen 1, Psychic resists Psychic (0.5x). Mewtwo's 254 Special deals ~65% damage with non-critical Psychic (OHKOs on ~25.4% crit). If Hypno survives Turn 2 Psychic, finish with SWIFT (Move 1, 20/20 PP) on Turn 3 to conserve Psychic PP (saving 1 PP per Hypno encounter).
-  - Blastoise (SHELDON, Slot 4): Dodrio, Sandslash, Parasect (4x Ice Beam). High defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
-- Sweeper Redundancy & Secondary Sweeper Utilization:
-  - Blastoise (SHELDON Lv 73, 233 HP, 15 Surf, 10 Ice Beam) is fully combat-ready.
-  - If Mewtwo sustains PAR, poison, or runs low on Psychic PP (<= 3), do NOT retreat! Immediately transfer active sweeper duties to Blastoise (Slot 4: press Down x3 from Slot 1 in switch menu) and continue training encounters!
-  - If a sweeper is put to sleep, use the Poké Flute in-battle from the Bag menu for an immediate zero-cost wake-up.
-- Refined Retreat Protocol (Preventing Macro-Traversal Stagnation):
+
+### Sweeper Role & Matchup Profiles
+- **MEWTWO (OMEGA Lv 73 - 254 Special, 215 Speed):**
+  - **Mandatory Exclusive Targets:** Magneton Lv 46, Raichu Lv 53. (STAB Psychic guarantees rapid OHKOs; protects Blastoise from lethal Electric moves).
+  - **Optimal Targets:** Golbat Lv 46, Venomoth Lv 49, Kadabra Lv 49.
+  - **Hypno Special Protocol:** In Gen 1, Psychic resists Psychic (0.5x). Mewtwo deals ~65% with non-crit Psychic (OHKO on ~25.4% crit). If Hypno survives Turn 2, finish with SWIFT (Move 1, 20/20 PP) on Turn 3 to conserve Psychic PP.
+- **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 233 HP):**
+  - **Optimal / Favorable Targets:**
+    - Golbat Lv 46: 2x Ice Beam OHKO.
+    - Dodrio Lv 49: 2x Ice Beam OHKO; absorbs Drill Peck with 201 Def.
+    - Sandslash Lv 52: 2x STAB Surf OHKO.
+    - Parasect Lv 52: 4x Ice Beam OHKO.
+    - Kadabra Lv 49: STAB Surf / Body Slam OHKO against frail 45 Def; tanks Psybeam with 180 Special.
+    - Hypno Lv 46: STAB Surf / Body Slam physical chunking.
+  - **Dangerous Matchups (AVOID):** Magneton Lv 46, Raichu Lv 53 (2x Electric damage; always route these to Mewtwo).
+- **In-Battle Poké Flute Usage:**
+  - Using the Poké Flute in-battle from the Bag menu wakes up all sleeping Pokémon at zero item/monetary cost.
+  - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when sweeper cannot act.
+- **Refined Retreat Protocol (Preventing Macro-Traversal Stagnation):**
+  - Do NOT retreat upon Mewtwo sustaining paralysis or running low on PP if Blastoise is healthy.
+  - Transfer active sweeping to Blastoise for physical/ice-weak encounters (Golbat, Dodrio, Sandslash, Parasect, Kadabra).
   - Trigger a pit-stop ONLY when BOTH sweepers are depleted (e.g. Mewtwo Psychic <= 2 AND Blastoise Surf <= 2, or both sweepers below 60 HP).
 
 ### Other Post-Game Evolution Candidates
