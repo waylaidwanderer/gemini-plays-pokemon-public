@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 33,075 [Turn 39215].
+  - Current Empirical EXP: 33,411 [Turn 39223].
   - Milestone Reached: Lv 32 achieved! Stats: Attack 50, Defense 40, Speed 50, Special 49 [Turn 39215].
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (2,862 EXP remaining).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (2,526 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Completed Expedition 12 Archive (N=4)
@@ -18,6 +18,7 @@
 | **B152** | 39188 | Hypno Lv 46 | Blastoise (Surf) | 26 (took 26 dmg on switch) | Blastoise 207/233 HP, 14/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
 | **B153** | 39198 | Dodrio Lv 49 | Blastoise (Surf) | 7 (took 7 dmg on switch) | Blastoise 200/233 HP, 13/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
 | **B154** | 39206 | Hypno Lv 46 | Blastoise (Surf) | 0 (Turn 1 move dealt 0) | Blastoise 200/233 HP, 12/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. Trainee grew to Lv 32! |
+| **B155** | 39219 | Dodrio Lv 49 | Blastoise (Surf) | 18 (Fury Attack hit 3 times) | Blastoise 182/233 HP, 11/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
 
 ### Active Expedition 13 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -26,9 +27,9 @@
   - Active Move PP: Psychic (7/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Psychic > 3, zero status afflictions).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 200 / 233 [Battle 153 Turn 39202]
+  - Status: Healthy, HP: 182 / 233 [Battle 155 Turn 39223]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (12/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (11/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Surf > 3, Ice Beam > 2, zero status afflictions).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 22, Boosted EXP]
   - Status: Healthy, HP: 59 / 59 [Verified Battle 146 Screen Turn 39053]
