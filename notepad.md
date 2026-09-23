@@ -168,7 +168,7 @@
 ## PC Pokémon Storage
 - Active Box: BOX 1
   - Box 1 Pokémon:
-    - Krabby (PINCHY Lv 15) -> Evolved into Kingler (#099)
+    - Kingler (PINCHY Lv 28)
     - Zapdos (THUNDER Lv 50)
     - Jolteon (VEE Lv 25)
     - Nidoqueen (QUEENIE Lv 36)
@@ -292,11 +292,11 @@
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
   - Golbat (E=1104): 65 EXP [Verified Battles 100, 126, 130]
-  - Dodrio (E=1092): 63 EXP [Verified Battles 111, 124, 135, 138]
+  - Dodrio (E=1092): 63 EXP [Verified Battles 111, 135, 138]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 121, 125, 134]
-  - Magneton (E=1050): 65 EXP [Verified Battles 97, 128, 132, 137]
+  - Magneton (E=1050): 65 EXP [Verified Battles 97, 132, 137]
   - Kadabra (E=1008): 63 EXP [Verified Battles 107, 136]
-  - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116, 139, 140]
+  - Parasect (E=950): 59 EXP [Verified Battles 105, 139, 140]
   - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
 
 
@@ -5049,12 +5049,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
 - Turn 1 Rule: NEVER attack with Psyduck. Immediately switch out to the designated sweeper (Mewtwo or Blastoise) on Turn 1.
 - Sweeper Matchups:
-  - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
-  - Fast Physical / Ground / Normal / Grass & Low-Defense Targets (Dodrio, Sandslash, Parasect, Ditto, Hypno [Psychic, Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
+  - Bug / Poison / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu, Kadabra): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
+  - Fast Physical / Ground / Normal / Grass & Specific Targets (Dodrio, Sandslash, Parasect [4x Ice Beam], Ditto, Hypno [Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
 - Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 or HP < 60, or Blastoise HP < 60 / Surf PP <= 3.
 
 ### Other Post-Game Evolution Candidates
-1. SLOWPOKE (DOPEY Lv 15, Box 1): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
+1. SLOWPOKE (DOPEY Lv 15, Box 2): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder é¥2,100 each). Money: é3056.
 
