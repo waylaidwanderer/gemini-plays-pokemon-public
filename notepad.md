@@ -109,6 +109,8 @@
 - [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
 - [x] Evolve Psyduck into Golduck (#055) at Lv 33 [Turn 39381]
+- [ ] Evolve Slowpoke into Slowbro (#080) at Lv 37 (Active Expedition 15)
+- [ ] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F
 
 <hr>
 
@@ -159,6 +161,7 @@
 - EXP.ALL
 - TOWN MAP
 - COIN CASE
+- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pokémon (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
 - Active Box: BOX 1
@@ -182,7 +185,7 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
 - Box 2: 0 / 20 (Verified completely empty Turn 39426)
-- Boxes 3�12: Uninspected storage (contains remaining caught Pok�mon).
+- Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
 
 <hr>
 
