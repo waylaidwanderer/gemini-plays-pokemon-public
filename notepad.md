@@ -309,10 +309,10 @@
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118, 119, 126, 127, 129, B130]
+  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118, 119, 126, 127, 129, 130]
   - Dodrio (E=1092): 63 EXP [Verified Battles 111, 124]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 103, 117, 121, 125]
-  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112, 115, 128, B131]
+  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112, 115, 128, 131]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116]
   - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122]
@@ -5015,19 +5015,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (10,334 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
-### Expedition 11 Systematic Encounter Log (N=4)
+### Expedition 12 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B122** | 38590 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Sleep Powder failed vs PAR) | Mewtwo 254 HP, 9/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with Psychic. |
-| **B123** | 38602 | Sandslash Lv 52 | Blastoise (Surf) | 34 (Slash critical hit) | Blastoise 199/233 HP, 14/15 PP | +371 EXP (297+74) | +111 EXP | OHKO with Surf. |
-| **B124** | 38636 | Dodrio Lv 49 | Blastoise (Surf) | 24 (Fury Attack 4 hits) | Blastoise 175/233 HP, 13/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
-| **B125** | 38652 | Hypno Lv 46 | Blastoise (Surf) | 21 (took 21 total dmg across switch) | Blastoise 154/233 HP, 12/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
-| **B126** | 38664 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Golbat used Haze) | Mewtwo 254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
-| **B127** | 38688 | Golbat Lv 46 | Mewtwo (Psychic) | 23 (Wing Attack critical hit) | Mewtwo 231/254 HP, 7/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
-| **B128** | 38696 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (switched cleanly) | Mewtwo 231/254 HP, 6/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic (Critical hit!). Psyduck reached Lv 29! |
-| **B129** | 38713 | Golbat Lv 46 | Mewtwo (Psychic) | 11 (took 11 dmg on switch) | Mewtwo 220/254 HP, 5/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
-| **B130** | 38726 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (broke through confusion) | Mewtwo 220/254 HP, 4/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic through confusion. |
-| **B131** | 38740 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (took 10 dmg on switch) | Mewtwo 210/254 HP, 3/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. Threshold triggered (PP <= 3). |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
