@@ -12,7 +12,7 @@
 
 - Money: ¥3056 [Turn 34152]
 
-- Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
+- Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 
 
