@@ -1,6 +1,6 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Completed: Golduck (#055) at Lv 33 [Turn 39381, Verified Turn 39387]
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
+- Completed Pokémon: GOLDUCK (MIGRAINE Lv 33, Water, #055)
   - Current Empirical EXP: 36,010 [Turn 39376].
   - Milestone Reached: Lv 33 achieved! Stats: Attack 51, Defense 41, Speed 51, Special 51 [Turn 39377]. Evolution in progress!
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP MILESTONE ACHIEVED: Level 33 reached! Evolution to Golduck (#055) in progress.
