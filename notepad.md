@@ -5040,8 +5040,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
   - Active Move PP: Surf (12/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 154, Surf PP = 12 (Green).
-- Support / Flyer: FARFETCH'D (DUX) [Lv 20, Boosted EXP]
-  - Status: Healthy, HP: 54 / 54 [Verified Screen Turn 38526]
+- Support / Flyer: FARFETCH'D (DUX) [Lv 21, Boosted EXP]
+  - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
 
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
