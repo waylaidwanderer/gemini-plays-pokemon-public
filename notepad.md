@@ -126,10 +126,10 @@
 - Pokédex: 51 Caught / 137 Seen [Verified Turn 37209]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 32, Water]
+- Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 33, Water]
   - Status: Healthy
-  - HP: 82 / 82 [Verified Battle 155 Screen Turn 39220]
-  - Stats: Attack 50, Defense 40, Speed 50, Special 49 [Verified Lv 32 Screen Turn 39215]
+  - HP: 84 / 84
+  - Stats: Attack 51, Defense 41, Speed 51, Special 51 [Verified Lv 33 Screen Turn 39377]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 36010
@@ -4995,7 +4995,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 36,010 [Turn 39376].
-  - Milestone Reached: Lv 32 achieved! Stats: Attack 50, Defense 40, Speed 50, Special 49 [Turn 39215].
+  - Milestone Reached: Lv 33 achieved! Stats: Attack 51, Defense 41, Speed 51, Special 51 [Turn 39377]. Evolution in progress!
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP MILESTONE ACHIEVED: Level 33 reached! Evolution to Golduck (#055) in progress.
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
