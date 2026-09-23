@@ -177,10 +177,10 @@
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 246 / 254
+  - HP: 254 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
   - HP: 233 / 233 [Verified Lv 73 Screen Turn 38238]
@@ -317,7 +317,7 @@
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106]
   - Venomoth (E=952): 56 EXP [Verified Battle 99]
   - Raichu (E=908): Pending empirical encounter
-  - Note: Species with E between 1050 and 1104 all exhibit an empirical plateau at exactly 65 EXP. Exact 8-bit assembly division/truncation routine is tracked as an active hypothesis in Scratchpad/TerrestrialHuntingAndTrades.md.
+  - Note: Species with E between 1050 and 1104 all exhibit an empirical plateau at exactly 65 EXP under N=4 party.
 
 
 <hr>
@@ -5014,7 +5014,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,376 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
-### Active Expedition 10 Sweeper Attrition & Condition Log (Turn 38287, Post-Pitstop Reset):
+### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 26, Water, Lead Slot]
   - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
   - EXP: 18,561 (1,122 to Lv 27 milestone at 19,683 EXP)
@@ -5030,7 +5030,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
-  - Status: Healthy, HP: 51 / 51 [Grew to Lv 19 Turn 38226, Atk 32, Def 30, Spd 30, Spc 29]
+  - Status: Healthy, HP: 52 / 52 [Verified Screen Turn 38300]
 
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 9)
@@ -5046,10 +5046,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101) |
 | **Dodrio** | 49 | 1,092 | 273 | **65 EXP** | **338 EXP** | **97 EXP** | Predicted (65 EXP Plateau) |
-| **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Predicted |
+| **Sandslash**| 52 | 1,188 | 297 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107) |
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99) |
-| **Raichu** | 53 | 908 | 227 | **56 EXP** | **283 EXP** | **84 EXP** | Predicted |
+| **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105) |
 
 ### Expedition 9 Battle Log (Compact Summary, Battles 97-108):
