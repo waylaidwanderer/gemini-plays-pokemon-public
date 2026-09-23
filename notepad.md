@@ -133,7 +133,7 @@
   - HP: 60 / 60 [Verified Lv 17 Screen Turn 39572]
   - Stats: Attack 30, Defense 30, Speed 12, Special 23 [Verified Lv 18 Screen Turn 39637]
   - EXP: 6022 (837 to Lv 19) [Verified B172 Turn 39637]
-  - Moves: Confusion (PP 25/25)
+  - Moves: Confusion (PP 25/25), Disable (PP 20/20)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
   - HP: 245 / 254 [Battle 172 Turn 39635]
