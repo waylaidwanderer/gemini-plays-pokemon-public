@@ -126,13 +126,13 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 20, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 21, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 69 / 69 [Verified Lv 20 Screen Turn 39719]
   - Stats: Attack 33, Defense 33, Speed 13, Special 26 [Verified Lv 20 Screen Turn 39713]
-  - EXP: 8978 (283 to Lv 21) [Verified B181 Turn 39767]
+  - EXP: 9305 (1343 to Lv 22) [Verified B182 Turn 39776]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
@@ -4988,13 +4988,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Switch-Train Slowpoke (DOPEY) to Slowbro (#080)
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 20, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 21, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 20 (EXP: 8,978, 283 to Lv 21)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+41,675 EXP required).
+  - Current Level: 21 (EXP: 9,305, 1,343 to Lv 22)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+41,348 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
-  - Slot 1: SLOWPOKE (DOPEY Lv 20) - Trainee / Lead
+  - Slot 1: SLOWPOKE (DOPEY Lv 21) - Trainee / Lead
   - Slot 2: MEWTWO (OMEGA Lv 73) - Primary Sweeper (1 Down input in combat)
   - Slot 3: FARFETCH'D (DUX Lv 23) - Support (Fly / Cut)
   - Slot 4: BLASTOISE (SHELDON Lv 73) - Secondary Sweeper
@@ -5006,6 +5006,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Verified Lv 20 stats: 33/33/13/26. Pit-stop taken Turn 39721.*
 | **B180** | 39754 | Magneton Lv 46 | Mewtwo (Swift x2) | 19 (Thundershock Turn 2) | Mewtwo 235/254 HP, 10/10 Psychic PP, 18/20 Swift PP | +327 EXP (262+65) | +97 EXP | 2x Swift KO! 0 Psychic PP spent! Slowpoke at 8,637 EXP (624 to Lv 21). |
 | **B181** | 39765 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Confuse Ray T1) | Mewtwo 235/254 HP, 9/10 Psychic PP | +341 EXP (276+65) | +97 EXP | Bypassed confusion; 2x STAB Psychic OHKO! Slowpoke at 8,978 EXP (283 to Lv 21). |
+| **B182** | 39770 | Magneton Lv 46 | Mewtwo (Psychic) | 33 (Thundershock crit + norm) | Mewtwo 202/254 HP (PAR), 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 9,305 EXP and GREW TO LEVEL 21! Pit-stop triggered for PAR. |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
@@ -5036,7 +5037,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Trigger pit-stop if Mewtwo Psychic PP <= 3 or HP < 60; Blastoise HP < 60 or Surf PP <= 3; or if any sweeper sustains incapacitating status (PAR, SLP, FRZ, PSN).
 
 ### Other Post-Game Evolution Candidates
-1. SLOWPOKE (DOPEY Lv 20, Lead Slot 1): ACTIVE TARGET -> switch-training to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
+1. SLOWPOKE (DOPEY Lv 21, Lead Slot 1): ACTIVE TARGET -> switch-training to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
 
