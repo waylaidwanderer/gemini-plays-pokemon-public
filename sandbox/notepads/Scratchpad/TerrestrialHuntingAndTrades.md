@@ -3,7 +3,7 @@
 - Completed Pokémon: GOLDUCK (MIGRAINE Lv 33, Water, #055)
   - Current Empirical EXP: 36,010 [Turn 39376].
   - Milestone Reached: Lv 33 achieved! Stats: Attack 51, Defense 41, Speed 51, Special 51 [Turn 39377]. Evolution in progress!
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP MILESTONE ACHIEVED: Level 33 reached! Evolution to Golduck (#055) in progress.
+  - Milestone Completed: Golduck (#055) verified at Lv 33 with stats 104 HP, 71/61/71/71 [Turn 39387].
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Completed Expedition 13 Archive (N=4)

@@ -127,7 +127,7 @@
 - Slot 1: GOLDUCK (Nickname: MIGRAINE) [Lv 33, Water]
   - Status: Healthy
   - HP: 104 / 104
-  - Stats: Attack 51, Defense 41, Speed 51, Special 51 [Verified Lv 33 Screen Turn 39377]
+  - Stats: Attack 71, Defense 61, Speed 71, Special 71 [Verified Lv 33 Golduck Screen Turn 39387]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 36010
@@ -4993,7 +4993,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Completed Pokémon: GOLDUCK (MIGRAINE Lv 33, Water, #055)
   - Current Empirical EXP: 36,010 [Turn 39376].
   - Milestone Reached: Lv 33 achieved! Stats: Attack 51, Defense 41, Speed 51, Special 51 [Turn 39377]. Evolution in progress!
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP MILESTONE ACHIEVED: Level 33 reached! Evolution to Golduck (#055) in progress.
+  - Milestone Completed: Golduck (#055) verified at Lv 33 with stats 104 HP, 71/61/71/71 [Turn 39387].
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Completed Expedition 13 Archive (N=4)

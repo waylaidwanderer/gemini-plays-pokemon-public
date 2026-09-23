@@ -11,7 +11,7 @@
 - Slot 1: GOLDUCK (Nickname: MIGRAINE) [Lv 33, Water]
   - Status: Healthy
   - HP: 104 / 104
-  - Stats: Attack 51, Defense 41, Speed 51, Special 51 [Verified Lv 33 Screen Turn 39377]
+  - Stats: Attack 71, Defense 61, Speed 71, Special 71 [Verified Lv 33 Golduck Screen Turn 39387]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 36010
