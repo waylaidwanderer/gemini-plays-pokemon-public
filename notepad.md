@@ -130,7 +130,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 54 / 54 [Verified Screen Turn 39439]
   - Stats: Attack 25, Defense 26, Speed 10, Special 20 [Verified Screen Turn 39439]
-  - EXP: 3746 (350 to Lv 16) [Verified B165 Turn 39487]
+  - EXP: 4080 (16 to Lv 16) [Verified B166 Turn 39499]
   - Moves: Confusion (PP 25/25)
   - Target: Lv 37 Slowbro (#080, 50,653 EXP)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -5002,7 +5002,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B165** | 39482 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Poison Sting Turn 1) | Blastoise 229/233 HP, 14 Surf PP | +371 EXP (297+74) | +111 EXP | OHKO with STAB Surf! Trainee at 3,746 EXP (350 to Lv 16). |
-| **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 20 (10 switch + 10 Headbutt) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP expected | +97 EXP | T1 switch took 10; T1 Headbutt took 10 (234 HP); T2 Psychic left Hypno at low HP. |
+| **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Headbutt on T1 switch) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP (269+65) | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
 
 ### Active Sweeper Condition:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic, Slot 2]

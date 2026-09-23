@@ -14,7 +14,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 54 / 54 [Verified Screen Turn 39439]
   - Stats: Attack 25, Defense 26, Speed 10, Special 20 [Verified Screen Turn 39439]
-  - EXP: 3746 (350 to Lv 16) [Verified B165 Turn 39487]
+  - EXP: 4080 (16 to Lv 16) [Verified B166 Turn 39499]
   - Moves: Confusion (PP 25/25)
   - Target: Lv 37 Slowbro (#080, 50,653 EXP)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
