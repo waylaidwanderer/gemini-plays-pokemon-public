@@ -15,7 +15,7 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - EXP: 29825
-  - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30) [Learned Lv 28 Screen Turn 38502]
+  - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy

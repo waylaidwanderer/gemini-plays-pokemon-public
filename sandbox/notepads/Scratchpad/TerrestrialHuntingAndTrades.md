@@ -21,7 +21,7 @@
 | **B141** | 38969 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas failed Turn 1) | Blastoise 216/233 HP, 11/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
 | **B142** | 38985 | Golbat Lv 46 | Mewtwo (Psychic) | 29 (25 confusion + 4) | Mewtwo 201/254 HP, 6/10 PP | +341 EXP (276+65) | +97 EXP | Took 25 confusion dmg + 4; OHKO with Psychic. |
 | **B143** | 39010 | Kadabra Lv 49 | Mewtwo (Swift) | 12 (took 12 dmg on switch) | Mewtwo 189/254 HP, 18/20 Swift, 6/10 PP | +315 EXP (252+63) | +94 EXP | Crit OHKO with Swift. |
-| **B144** | 39024 | Sandslash Lv 52 | Blastoise (Surf) | 13 (took 13 dmg on switch) | Blastoise 203/233 HP, 10/15 Surf | +371 EXP (297+74) | +111 EXP | OHKO with Surf. Trainee grew to Lv 31! |
+| **B144** | 39024 | Sandslash Lv 52 | Blastoise (Surf) | 13 (took 13 dmg on switch) | Blastoise 203/233 HP, 10/15 Surf | +371 EXP (297+74) | +111 EXP | OHKO with Surf. Trainee grew to Lv 31 and learned Disable! |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
