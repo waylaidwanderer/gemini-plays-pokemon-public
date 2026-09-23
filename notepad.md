@@ -5016,21 +5016,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,997 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 73)
 
-### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38271, Battle 108 Magneton):
+### Active Expedition 10 Sweeper Attrition & Condition Log (Turn 38287, Post-Pitstop Reset):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 26, Water, Lead Slot]
   - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
   - EXP: 17,940 (1,743 to Lv 27 milestone at 19,683 EXP)
   - Stats: Attack 40, Defense 32, Speed 40, Special 40 [Verified Lv 26 Screen Turn 38240]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 144 / 254
+  - Status: Healthy, HP: 254 / 254 [Fully Restored Nurse Joy Turn 38287]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (3/10) [Updated Live Turn 38271], Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 3 (RETREAT TRIGGER MET). Initiating pit-stop.
+  - Active Move PP: Psychic (10/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 10. Status: Full PP / Green.
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 100 / 233 [Verified Lv 73 Screen Turn 38238]
+  - Status: Healthy, HP: 233 / 233 [Fully Restored Nurse Joy Turn 38287]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Active Move PP: Surf (11/15), Ice Beam (7/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 100 (> 60), Surf PP = 11 (> 3).
+  - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 19, Boosted EXP]
   - Status: Healthy, HP: 51 / 51 [Grew to Lv 19 Turn 38226, Atk 32, Def 30, Spd 30, Spc 29]
 
