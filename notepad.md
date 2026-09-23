@@ -186,10 +186,10 @@
   - HP: 233 / 233
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 19, Normal/Flying]
+- Slot 4: FARFETCH'D (Nickname: DUX) [Lv 20, Normal/Flying]
   - Status: Healthy
-  - HP: 52 / 52 [Verified Screen Turn 38300]
-  - Stats: Attack 32, Defense 30, Speed 30, Special 29 [Verified Lv 19 Screen Turn 38226]
+  - HP: 54 / 54
+  - Stats: Attack 34, Defense 32, Speed 31, Special 30 [Verified Lv 20 Screen Turn 38466]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
   - Received: In-game trade for Spearow in Vermilion City [Turn 2773]
