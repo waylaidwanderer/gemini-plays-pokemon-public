@@ -17,7 +17,7 @@
 
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy [Hazed Turn 38661], HP: 254 / 254
+  - Status: Healthy [Hazed Turn 38661], HP: 231 / 254 [Verified Screen Turn 38685]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
   - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 8 (Green).
