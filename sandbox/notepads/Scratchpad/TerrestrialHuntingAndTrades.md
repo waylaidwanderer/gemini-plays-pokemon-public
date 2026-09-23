@@ -1,15 +1,15 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 25, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 16,706 [Turn 38195]. Psyduck at Level 25.
-  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (870 EXP remaining, ~3 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (19,231 EXP remaining).
+  - Current Empirical EXP: 17,002 [Turn 38207]. Psyduck at Level 25.
+  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (574 EXP remaining, ~2 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (18,935 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38193, Battle 104 Golbat):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 25, Water, Lead Slot]
   - Status: Healthy, HP: 65 / 65
-  - EXP: 16,706 (870 to Lv 26 milestone at 17,576 EXP)
+  - EXP: 17,002 (574 to Lv 26 milestone at 17,576 EXP)
   - Stats: Attack 39, Defense 31, Speed 39, Special 39
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 246 / 254
@@ -17,10 +17,10 @@
   - Active Move PP: Psychic (4/10) [Updated Live Turn 38193], Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 4. Retreat trigger is <= 3 (1 Psychic remaining before pit-stop trigger).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - Status: Healthy, HP: 137 / 229
+  - Status: Healthy, HP: 103 / 229
   - Stats: Attack 171, Defense 197, Speed 171, Special 177
-  - Active Move PP: Surf (12/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 137 (> 60), Surf PP = 12 (> 3).
+  - Active Move PP: Surf (12/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 103 (> 60), Surf PP = 12 (> 3).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 18, Boosted EXP]
   - Status: Healthy, HP: 49 / 49
 - Protocol Status: Green / Healthy (1 Psychic remaining before retreat trigger).
@@ -55,7 +55,7 @@
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Predicted |
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99) |
 | **Raichu** | 53 | 908 | 227 | **56 EXP** | **283 EXP** | **84 EXP** | Predicted |
-| **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Predicted |
+| **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105) |
 
 ### Expedition 9 Battle Log (Compact Summary, Battles 97-104):
 | Battle | Opponent | Sweeper Used | Key Events | Part Share | Team Share (N=4) | Trainee Total | Psyduck EXP End |
@@ -68,6 +68,7 @@
 | **B102**| Golbat Lv 46 | Mewtwo (Psychic) | 0 dmg taken; OHKO | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 16,031 |
 | **B103**| Hypno Lv 46 | Blastoise (Surf x2) | Blastoise took 52 dmg (crit); 2-hit Surf KO | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 16,365 |
 | **B104**| Golbat Lv 46 | Mewtwo (Psychic) | Golbat move failed; OHKO with Psychic (PP 4/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 16,706 |
+| **B105**| Parasect Lv 52 | Blastoise (Ice Beam) | Blastoise took 34 dmg on switch; OHKO with Ice Beam | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 17,002 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
