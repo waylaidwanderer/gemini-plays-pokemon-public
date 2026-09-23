@@ -123,7 +123,7 @@
 - Badges: 8 / 8
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (3 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
   - HP: 254 / 254 [Restored Cerulean Center Turn 39406]
@@ -141,6 +141,11 @@
   - Stats: Attack 39, Defense 36, Speed 36, Special 34 [Verified Lv 23 Screen Turn 39351]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
+- Slot 4: SLOWPOKE (Nickname: DOPEY) [Lv 15, Water/Psychic]
+  - Status: Healthy
+  - OT: BLUE (IDNo. 04620)
+  - Growth Group: Medium Fast (EXP = Level^3)
+  - Target: Lv 37 Slowbro (#080, 50,653 EXP)
 
 ## Key Items
 - BICYCLE
@@ -181,7 +186,6 @@
   - Grimer (GOOP Lv 30)
   - Muk (SLUDGE Lv 30)
   - Magmar (VULCAN Lv 34)
-  - Slowpoke (DOPEY Lv 15)
   - Jynx (LOLA Lv 20)
 
 <hr>
