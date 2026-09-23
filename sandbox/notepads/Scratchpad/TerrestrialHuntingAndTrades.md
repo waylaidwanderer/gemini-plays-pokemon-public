@@ -25,7 +25,7 @@
   - Status: Healthy, HP: 52 / 52 [Verified Screen Turn 38300]
 
 
-### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 9)
+### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 10)
 - **Setup:** 4-member party: Psyduck (Slot 1), Mewtwo (Slot 2), Blastoise (Slot 3), Farfetch'd (Slot 4).
 - **Disproven 65 EXP Plateau:** While Magneton (1050), Hypno (1076), and Golbat (1104) yield 65 EXP, Dodrio (1092) yielded 63 EXP in Battle 111, disproving a continuous monotonic plateau for 1050-1104. Discrete internal truncation and assembly division determine each species yield independently.
   - Effective divisor K scales from ~24..27 (N=6) down to ~16..17 (N=4), proportional to party size reduction.
@@ -34,15 +34,15 @@
 - **N=4 Yield Table:**
 | Species | Level | Total EXP | Part Share (E/4) | Team Share (N=4) | Trainee Gain (Part+Team) | DUX Gain (Boosted) | Verification Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104) |
-| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103) |
-| **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101) |
+| **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118) |
+| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117) |
+| **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111) |
 | **Sandslash**| 52 | 1,188 | 297 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107) |
-| **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99) |
+| **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110) |
 | **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
-| **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105) |
+| **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116) |
 
 ### Expedition 10 Battle Log (Battles 109+):
 | Battle | Opponent | Sweeper Used | Key Events | Part Share | Team Share (N=4) | Trainee Total | Psyduck EXP End |
