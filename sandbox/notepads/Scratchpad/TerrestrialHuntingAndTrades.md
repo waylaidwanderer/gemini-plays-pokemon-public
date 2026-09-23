@@ -8,14 +8,14 @@
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 27, Water, Lead Slot]
-  - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
+  - Status: Healthy, HP: Pending Lv 27 Party Screen Verification (was 67 at Lv 26)
   - EXP: 19,906 (2,046 to Lv 28 milestone at 21,952 EXP)
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 227 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
   - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 5. Status: Full PP / Green.
+  - Protocol Trigger Check: Mewtwo Psychic PP = 5 (Green, Retreat Trigger <= 3).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 221 / 233
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]

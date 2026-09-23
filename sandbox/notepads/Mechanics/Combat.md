@@ -62,12 +62,11 @@
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): Pending empirical encounter
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104]
+  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114]
   - Dodrio (E=1092): 63 EXP [Verified Battle 111]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 103]
-  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108]
+  - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106]
-  - Venomoth (E=952): 56 EXP [Verified Battle 99]
+  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110]
   - Raichu (E=908): Pending empirical encounter
-  - Note: Under N=4 party, Magneton (1050), Hypno (1076), and Golbat (1104) yield 65 EXP, while Kadabra (1008) and Dodrio (1092) yield 63 EXP, Parasect (950) yields 59 EXP, and Venomoth (952) yields 56 EXP.
