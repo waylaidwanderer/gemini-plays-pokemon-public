@@ -4,8 +4,8 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 21, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 21 (EXP: 9,632, 1,016 to Lv 22)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+41,021 EXP required).
+  - Current Level: 21 (EXP: 9,928, 720 to Lv 22)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+40,725 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 21) - Trainee / Lead
@@ -20,7 +20,7 @@
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B184** | 39975 | Parasect Lv 52 | Blastoise (Ice Beam) | Pending | Pending | Pending | Pending | Switch Slowpoke to Blastoise Turn 1. 4x Ice Beam target. |
+| **B184** | 39975 | Parasect Lv 52 | Blastoise (Ice Beam) | 0 (Growth) | Blastoise 233/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Growth). Turn 2 Ice Beam 4x OHKO! Slowpoke at 9,928 EXP (720 to Lv 22). Mewtwo kept at 10/10 Psychic PP! |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
