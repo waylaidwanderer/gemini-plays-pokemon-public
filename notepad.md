@@ -132,7 +132,7 @@
   - Stats: Attack 50, Defense 40, Speed 50, Special 49 [Verified Lv 32 Screen Turn 39215]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 33411
+  - EXP: 33705
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30), Disable (PP 20/20) [Learned Lv 31 Screen Turn 39036]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -140,7 +140,7 @@
   - HP: 244 / 254 [Battle 151 Turn 39184]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
   - HP: 182 / 233 [Battle 155 Turn 39223]
@@ -4994,9 +4994,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 32, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 33,411 [Turn 39223].
+  - Current Empirical EXP: 33,705 [Turn 39244].
   - Milestone Reached: Lv 32 achieved! Stats: Attack 50, Defense 40, Speed 50, Special 49 [Turn 39215].
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (2,526 EXP remaining).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (2,232 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Completed Expedition 12 Archive (N=4)
@@ -5012,12 +5012,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B153** | 39198 | Dodrio Lv 49 | Blastoise (Surf) | 7 (took 7 dmg on switch) | Blastoise 200/233 HP, 13/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
 | **B154** | 39206 | Hypno Lv 46 | Blastoise (Surf) | 0 (Turn 1 move dealt 0) | Blastoise 200/233 HP, 12/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. Trainee grew to Lv 32! |
 | **B155** | 39219 | Dodrio Lv 49 | Blastoise (Surf) | 18 (Fury Attack hit 3 times) | Blastoise 182/233 HP, 11/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
+| **B156** | 39230 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Sleep Powder Turn 1, Flute Turn 2, Sleep Powder missed Turn 2) | Mewtwo 244/254 HP, 6/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with super-effective Psychic. |
 
 ### Active Expedition 13 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 244 / 254 [Battle 151 Turn 39184]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (7/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (6/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Psychic > 3, zero status afflictions).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 182 / 233 [Battle 155 Turn 39223]
