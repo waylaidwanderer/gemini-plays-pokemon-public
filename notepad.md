@@ -5009,6 +5009,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B159** | 39318 | Magneton Lv 46 | Mewtwo (Psychic) | 12 (took 12 dmg on switch) | Mewtwo 242/254 HP, 9/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with STAB Psychic. |
 | **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
 | **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
+| **B160** | 39328 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 242/254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective STAB Psychic. |
 
 ### Active Expedition 14 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
