@@ -6,6 +6,12 @@
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (13,687 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
+### Expedition 11 Systematic Encounter Log (N=4)
+| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B122** | 38590 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Sleep Powder failed vs PAR) | Mewtwo 254 HP, 9/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with Psychic. |
+| **B123** | 38602 | Sandslash Lv 52 | Blastoise (Surf) | 34 (Slash critical hit) | Blastoise 199/233 HP, 14/15 PP | +371 EXP (297+74) | +111 EXP | OHKO with Surf. |
+
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
   - Status: Healthy, HP: 72 / 72 [Verified Screen Turn 38526]
@@ -38,9 +44,9 @@
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111) |
-| **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120) |
+| **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120, B123) |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107) |
-| **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110) |
+| **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110, B122) |
 | **Raichu** | 53 | 908 | 227 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Ditto** | 53 | ~763 | ~190 | **Pending** | Pending | Pending | Pending Empirical Encounter |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105, B106, B116) |
