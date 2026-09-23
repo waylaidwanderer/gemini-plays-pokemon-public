@@ -108,5 +108,7 @@
 
 - [x] Train Psyduck to Level 24 (14,067 EXP) [Turn 38021]
 - [x] Train Psyduck to Level 25 (15,625 EXP) [Turn 38147]
+- [x] Train Psyduck to Level 26 (17,576 EXP) [Turn 38240]
+- [ ] Train Psyduck to Level 27 (19,683 EXP)
 - [ ] Evolve Psyduck into Golduck (#055) at Lv 33 (35,937 EXP)
 
