@@ -2,10 +2,10 @@
 
 ## Active Goal: Switch-Train Slowpoke (DOPEY) to Slowbro (#080)
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 16, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 17, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 16 (EXP: 4,734, 179 to Lv 17)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+45,919 EXP required).
+  - Current Level: 17 (EXP: 5,030, 802 to Lv 18)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+45,623 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 16) - Trainee / Lead
@@ -20,6 +20,7 @@
 | **B166** | 39493 | Hypno Lv 46 | Mewtwo (Psychic) | 10 (Headbutt on T1 switch) | Mewtwo 234/254 HP, 9/10 Psychic PP | +334 EXP (269+65) | +97 EXP | STAB Psychic OHKO! Trainee at 4,080 EXP (16 to Lv 16). |
 | **B167** | 39507 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (Turn 1 switch) | Mewtwo 224/254 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 4,407 EXP and GREW TO LEVEL 16! Stats: 27/27/11/21. |
 | **B168** | 39543 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Turn 1 switch) | Mewtwo 215/254 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke at 4,734 EXP (179 to Lv 17). |
+| **B169** | 39554 | Parasect Lv 52 | Blastoise (Ice Beam) | 8 (Leech Life Turn 1) | Blastoise 221/233 HP, 9/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | 4x Ice Beam OHKO! Slowpoke grew to LEVEL 17! Stats: Atk 28, Def 29, Spd 11, Spc 22. |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
