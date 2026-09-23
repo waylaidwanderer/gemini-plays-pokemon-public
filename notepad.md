@@ -294,6 +294,23 @@
   - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
   - Raichu (E=908): 53 EXP [Verified Battle 146]
 
+## Participant Share & Empirical Yields Under N=4 (4-Member Party)
+- **Participant Share Formula (2 Participants, N=4 Party):**
+  - In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
+    `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
+  - The remaining half (floor(E / 2)) is divided among all N=4 party members:
+    `team_base_share = floor(floor(E / 2) / 4)`.
+- **Empirically Verified Participant Shares (N=4 Party):**
+  - Sandslash Lv 52 (E=1188): Participant share = 297 EXP, Team base share = 74 EXP (Total trainee gain = 371 EXP) [Verified B188 Turn 40059]
+  - Golbat Lv 46 (E=1104): Participant share = 276 EXP, Team base share = 65 EXP (Total trainee gain = 341 EXP) [Verified B190 Turn 40077]
+  - Dodrio Lv 49 (E=1092): Participant share = 273 EXP, Team base share = 63 EXP (Total trainee gain = 336 EXP) [Verified B189 Turn 40068]
+  - Hypno Lv 46 (E=1076): Participant share = 269 EXP, Team base share = 65 EXP (Total trainee gain = 334 EXP) [Verified B191 Turn 40096]
+  - Magneton Lv 46 (E=1050): Participant share = 262 EXP, Team base share = 65 EXP (Total trainee gain = 327 EXP) [Verified B192 Turn 40116]
+  - Kadabra Lv 49 (E=1008): Participant share = 252 EXP, Team base share = 63 EXP (Total trainee gain = 315 EXP) [Verified B107, B136]
+  - Venomoth Lv 49 (E=952): Participant share = 238 EXP, Team base share = 56 EXP (Total trainee gain = 294 EXP) [Verified B99, B110, B122]
+  - Parasect Lv 52 (E=950): Participant share = 237 EXP, Team base share = 59 EXP (Total trainee gain = 296 EXP) [Verified B184 Turn 39983]
+  - Raichu Lv 53 (E=908): Participant share = 227 EXP, Team base share = 53 EXP (Total trainee gain = 280 EXP) [Verified B146]
+
 
 <hr>
 
@@ -5023,7 +5040,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Sweeper Role & Matchup Profiles
 - **MEWTWO (OMEGA Lv 74 - 260 Special, 220 Speed):**
   - **Mandatory Exclusive Targets:** Magneton Lv 46, Raichu Lv 53. (STAB Psychic guarantees rapid OHKOs; protects Blastoise from lethal Electric moves).
-  - **Optimal Targets:** Golbat Lv 46, Venomoth Lv 49, Kadabra Lv 49.
+  - **Optimal Targets:** Venomoth Lv 49 (Status Risk: Sleep Powder/Stun Spore; countered via Poké Flute), Kadabra Lv 49.
   - **Hypno Special Protocol:** In Gen 1, Psychic resists Psychic (0.5x). Mewtwo deals ~65% with non-crit Psychic (OHKO on ~25.4% crit). If Hypno survives Turn 2, finish with SWIFT (Move 1, 20/20 PP) on Turn 3 to conserve Psychic PP.
 - **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 217/233 HP):**
   - **Verified Target Matchups:**
@@ -5042,7 +5059,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Transfer active sweeping to Blastoise for physical/ice-weak encounters (Golbat, Dodrio, Sandslash, Parasect, Kadabra).
   - Trigger a pit-stop ONLY when BOTH sweepers are depleted (e.g. Mewtwo Psychic <= 2 AND Blastoise Surf <= 2, or both sweepers below 60 HP).
 
-### Other Post-Game Evolution Candidates
-1. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
 
 <hr>
