@@ -140,7 +140,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
-  - Status: Poisoned (PSN)
+  - Status: Healthy
   - HP: 60 / 233 [Verified Party Screen Turn 39373]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10)
@@ -5017,7 +5017,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Psychic (7/10), Swift (19/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Healthy / Green (HP > 60, Psychic > 3, zero status afflictions). Evolution milestone reached.
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Poisoned (PSN), HP: 67 / 233 [Battle 161 Turn 39349]
+  - Status: Healthy, HP: 233 / 233 [Restored Cerulean Center Turn 39407]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
   - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP at 67; primary sweeper Mewtwo at full capacity (242 HP, 8 Psychic PP, 0 status) can solo final 569 EXP (~1-2 battles).
