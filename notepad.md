@@ -5013,6 +5013,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B185** | 39998 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 243/254 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock 11 dmg, no PAR). Turn 2 STAB Psychic OHKO! Slowpoke at 10,255 EXP (393 to Lv 22). |
 | **B186** | 40012 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (move failed) | Mewtwo 243/254 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed failed move, 0 dmg). Turn 2 STAB Psychic OHKO! Slowpoke at 10,582 EXP (66 to Lv 22). |
 | **B187** | 40028 | Magneton Lv 46 | Mewtwo (Psychic) | 19 (Thundershock crit) | Mewtwo 229/259 HP (Lv 74!), 7/10 Psychic PP | +65 EXP (Exp.All) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock crit 19 dmg, no PAR). Turn 2 STAB Psychic OHKO! Mewtwo grew to Level 74 (stats: Atk 190, Def 173, Spd 220, Spc 260, HP 229/259). Slowpoke at 10,647 EXP (EXACTLY 1 EXP to Lv 22!). |
+| **B188** | 40052 | Sandslash Lv 52 | Blastoise (Surf) | 0 (attack missed) | Blastoise 233/233 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed miss, 0 dmg). Turn 2 STAB Surf OHKO! Slowpoke at 11,019 EXP (1,148 to Lv 23). Mewtwo kept at 7/10 Psychic PP! |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 21) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
