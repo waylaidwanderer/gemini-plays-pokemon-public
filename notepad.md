@@ -316,7 +316,6 @@
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116]
   - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122]
-  - Raichu (E=908): Pending empirical encounter
 
 
 <hr>
@@ -5026,10 +5025,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B126** | 38664 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Golbat used Haze) | Mewtwo 254 HP, 8/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with Psychic. |
 
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
-- Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
-  - Status: Healthy, HP: 72 / 72 [Verified Screen Turn 38526]
-  - EXP: 23,926 (463 to Lv 29 milestone at 24,389 EXP) [Defeated Golbat Lv 46 Turn 38664]
-  - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy [Hazed Turn 38661], HP: 254 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
