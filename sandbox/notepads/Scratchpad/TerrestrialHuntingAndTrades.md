@@ -4,7 +4,7 @@
   - Current Empirical EXP: 17,940 [Turn 38271]. Psyduck at Level 26.
   - Milestone Next: Lv 27 = 27^3 = 19,683 EXP (1,743 EXP remaining, ~5 battles).
   - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,997 EXP remaining).
-- Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 73)
+- Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log (Turn 38287, Post-Pitstop Reset):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 26, Water, Lead Slot]
@@ -66,7 +66,7 @@
 - Sweeper Matchups:
   - Poison / Bug / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass (Dodrio, Sandslash, Parasect, Ditto, Hypno): Switch to Blastoise (SHELDON Lv 72). High Defense (197) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
-- Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 (currently 4/10, 1 battle remaining) or HP < 60, or Blastoise HP < 60 / Surf PP <= 3.
+- Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 or HP < 60, or Blastoise HP < 60 / Surf PP <= 3.
 
 ### Other Post-Game Evolution Candidates
 1. SLOWPOKE (DOPEY Lv 15, Box 1): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
