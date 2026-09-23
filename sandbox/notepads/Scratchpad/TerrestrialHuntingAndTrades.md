@@ -4,7 +4,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 21, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 21 (EXP: 10,647, 1 to Lv 22)
+  - Current Level: 22 (HP 75/75 verified battle HUD Turn 40053)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+40,006 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):

@@ -4993,7 +4993,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 21, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 21 (EXP: 10,647, 1 to Lv 22)
+  - Current Level: 22 (HP 75/75 verified battle HUD Turn 40053)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+40,006 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
@@ -5047,6 +5047,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Other Post-Game Evolution Candidates
 1. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 2. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
-
 
 <hr>
