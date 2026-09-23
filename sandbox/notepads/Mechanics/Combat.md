@@ -63,7 +63,7 @@
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
   - Golbat (E=1104): 65 EXP [Verified Battles 100, 126, 130]
-  - Dodrio (E=1092): 63 EXP [Verified Battles 111, 124, 135]
+  - Dodrio (E=1092): 63 EXP [Verified Battles 111, 124, 135, 138]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 121, 125, 134]
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 128, 132, 137]
   - Kadabra (E=1008): 63 EXP [Verified Battles 107, 136]

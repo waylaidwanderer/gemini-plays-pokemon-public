@@ -2,8 +2,8 @@
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 30, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 26,894 [Turn 38863].
-  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (2,255 EXP remaining, ~6-7 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (8,401 EXP remaining).
+  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (1,919 EXP remaining, ~5-6 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (8,065 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -21,8 +21,8 @@
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 216 / 233 [Verified Battle 138 Turn 38900]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (13/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 216, Surf PP = 13 (Green).
+  - Active Move PP: Surf (12/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 216, Surf PP = 12 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 21, Boosted EXP]
   - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
 
@@ -39,7 +39,7 @@
 | **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119, B126, B127, B129, B130) |
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121, B125, B134) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115, B128, B131, B132, B137) |
-| **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111, B124, B135) |
+| **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111, B124, B135, B138) |
 | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120, B123) |
 | **Kadabra** | 49 | 1,008 | 252 | **63 EXP** | **315 EXP** | **94 EXP** | Verified (B107, B136) |
 | **Venomoth** | 49 | 952 | 238 | **56 EXP** | **294 EXP** | **84 EXP** | Verified (B99, B110, B122, B133) |
