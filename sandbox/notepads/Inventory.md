@@ -51,6 +51,7 @@
 ## PC Pokémon Storage
 - Active Box: BOX 1
   - Box 1 Pokémon:
+    - Golduck (MIGRAINE Lv 33)
     - Kingler (PINCHY Lv 28)
     - Zapdos (THUNDER Lv 50)
     - Jolteon (VEE Lv 25)

@@ -167,6 +167,7 @@
 ## PC Pokémon Storage
 - Active Box: BOX 1
   - Box 1 Pokémon:
+    - Golduck (MIGRAINE Lv 33)
     - Kingler (PINCHY Lv 28)
     - Zapdos (THUNDER Lv 50)
     - Jolteon (VEE Lv 25)
@@ -5059,7 +5060,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Blastoise HP < 60, or Mewtwo sustains PSN: Trigger pit-stop immediately.
 
 ### Other Post-Game Evolution Candidates
-1. SLOWPOKE (DOPEY Lv 15, Box 2): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
+1. SLOWPOKE (DOPEY Lv 15, Box 2): ACTIVE TARGET -> Withdrawing from Box 2 to switch-train to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
 
