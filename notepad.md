@@ -172,7 +172,7 @@
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 23251
+  - EXP: 23585
   - Moves: Scratch (PP 35/35), Tail Whip (PP 30/30) [Learned Lv 28 Screen Turn 38502]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -311,7 +311,7 @@
   - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
   - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118, 119]
   - Dodrio (E=1092): 63 EXP [Verified Battles 111, 124]
-  - Hypno (E=1076): 65 EXP [Verified Battles 98, 103, 117, 121]
+  - Hypno (E=1076): 65 EXP [Verified Battles 98, 103, 117, 121, 125]
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112, 115]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116]
@@ -5011,9 +5011,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 28, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 23,251 [Turn 38636].
-  - Milestone Next: Lv 29 = 29^3 = 24,389 EXP (1,138 EXP remaining, ~3-4 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (12,686 EXP remaining).
+  - Current Empirical EXP: 23,585 [Turn 38652].
+  - Milestone Next: Lv 29 = 29^3 = 24,389 EXP (804 EXP remaining, ~2-3 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (12,352 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 11 Systematic Encounter Log (N=4)
@@ -5022,11 +5022,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B122** | 38590 | Venomoth Lv 49 | Mewtwo (Psychic) | 0 (Sleep Powder failed vs PAR) | Mewtwo 254 HP, 9/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with Psychic. |
 | **B123** | 38602 | Sandslash Lv 52 | Blastoise (Surf) | 34 (Slash critical hit) | Blastoise 199/233 HP, 14/15 PP | +371 EXP (297+74) | +111 EXP | OHKO with Surf. |
 | **B124** | 38636 | Dodrio Lv 49 | Blastoise (Surf) | 24 (Fury Attack 4 hits) | Blastoise 175/233 HP, 13/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
+| **B125** | 38652 | Hypno Lv 46 | Blastoise (Surf) | 21 (took 21 total dmg across switch) | Blastoise 154/233 HP, 12/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
 
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
   - Status: Healthy, HP: 72 / 72 [Verified Screen Turn 38526]
-  - EXP: 23,251 (1,138 to Lv 29 milestone at 24,389 EXP) [Defeated Dodrio Lv 49 Turn 38636]
+  - EXP: 23,585 (804 to Lv 29 milestone at 24,389 EXP) [Defeated Hypno Lv 46 Turn 38652]
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Paralyzed, HP: 254 / 254
@@ -5052,7 +5053,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | Species | Level | Total EXP | Part Share (E/4) | Team Share (N=4) | Trainee Gain (Part+Team) | DUX Gain (Boosted) | Verification Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119) |
-| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121) |
+| **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117, B121, B125) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111, B124) |
 | **Sandslash**| 52 | 1,188 | 297 | **74 EXP** | **371 EXP** | **111 EXP** | Verified (B120, B123) |
