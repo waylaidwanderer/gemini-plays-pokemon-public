@@ -185,7 +185,7 @@
     - Kingler (PINCHY Lv 28)
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
-
+- Boxes 3–12: Uninspected storage (contains remaining caught species including Muk, Magmar, Jynx, Poliwrath, Tentacool, Grimer, etc.).
 
 <hr>
 
@@ -5028,7 +5028,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
-  - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 (or Up x1) -> select SHELDON (Slot 4).
+  - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
 - Sweeper Matchups:
   - Mewtwo (OMEGA, Slot 2): Golbat, Venomoth, Magneton, Raichu, Kadabra. STAB Psychic / Swift guarantees rapid OHKOs.
   - Blastoise (SHELDON, Slot 4): Dodrio, Sandslash, Parasect (4x Ice Beam), Hypno. High defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
@@ -5039,6 +5039,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 1. SLOWPOKE (DOPEY Lv 15, Lead Slot 1): ACTIVE TARGET -> switch-training to Lv 37 Slowbro (#080, 50,653 EXP). Enables Route 18 Lickitung trade.
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
 3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
-
 
 <hr>

@@ -43,7 +43,7 @@
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
-  - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 (or Up x1) -> select SHELDON (Slot 4).
+  - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
 - Sweeper Matchups:
   - Mewtwo (OMEGA, Slot 2): Golbat, Venomoth, Magneton, Raichu, Kadabra. STAB Psychic / Swift guarantees rapid OHKOs.
   - Blastoise (SHELDON, Slot 4): Dodrio, Sandslash, Parasect (4x Ice Beam), Hypno. High defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.

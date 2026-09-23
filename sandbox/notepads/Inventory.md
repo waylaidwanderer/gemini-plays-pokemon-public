@@ -69,3 +69,4 @@
     - Kingler (PINCHY Lv 28)
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
+- Boxes 3–12: Uninspected storage (contains remaining caught species including Muk, Magmar, Jynx, Poliwrath, Tentacool, Grimer, etc.).
