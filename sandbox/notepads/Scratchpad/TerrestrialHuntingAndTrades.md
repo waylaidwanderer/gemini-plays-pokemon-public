@@ -18,9 +18,9 @@
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Turn 38125]
   - Active Move PP: Psychic (5/10), Swift (20/20), Barrier (30/30), Recover (20/20)
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 72, Water]
-  - HP: 189 / 229
+  - HP: 137 / 229
   - Status: Healthy
-  - Active Move PP: Surf (14/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
+  - Active Move PP: Surf (12/15), Ice Beam (9/10), Body Slam (15/15), Double-Edge (15/15)
 - Support / Flyer: FARFETCH'D (DUX) [Lv 18, Boosted EXP]
   - HP: 49 / 49, Healthy
 - Protocol Trigger Check:
@@ -125,6 +125,14 @@
 - **Test Protocol:** At the next PokÃÂ©mon Center visit, deposit Jolteon, Geodude, and Farfetch'd into the PC, leaving only Psyduck and Mewtwo (or Blastoise). Conduct a test battle in Cerulean Cave 1F and measure the exact Exp. All yield received by Psyduck!
 
 ### Expedition 9 Battle Log (4-Member Party Dilution Test):
+- Battle 103 (Hypno Lv 46, Turn 38168-38181):
+  - Lead: Psyduck (Lv 25, HP 65/65) -> switched to Blastoise (SHELDON Lv 72). Blastoise took 32 dmg, then 20 dmg from critical Headbutt (137/229 HP).
+  - Blastoise used STAB Surf (left Hypno with 1 HP), then Surf (fainted). Active PP: Surf 12/15, Ice Beam 9/10.
+  - EXP Yields (Total 1,076 EXP):
+    - Participant Share: Psyduck 269 EXP, Blastoise 269 EXP.
+    - EXP.ALL Team Base Share (N=4): **65 EXP**! DUX Boosted Share: **97 EXP**!
+    - Trainee Gain: Psyduck gained 334 EXP (269 + 65).
+    - Trainee EXP: 16,031 -> 16,365 EXP (1,211 to Lv 26 milestone).
 - Battle 102 (Golbat Lv 46, Turn 38153-38157):
   - Lead: Psyduck (Lv 25, HP 65/65) -> switched to Mewtwo (OMEGA Lv 73). Golbat dealt 0 dmg.
   - Mewtwo used STAB Psychic (2x SE OHKO). Psychic PP 5/10.
