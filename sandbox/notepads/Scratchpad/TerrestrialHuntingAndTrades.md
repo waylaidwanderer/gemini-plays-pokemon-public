@@ -10,7 +10,7 @@
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 21) - Trainee / Lead
   - Slot 2: MEWTWO (OMEGA Lv 73) - Primary Sweeper (1 Down input in combat)
-  - Slot 3: FARFETCH'D (DUX Lv 23) - Support (Fly / Cut)
+  - Slot 3: FARFETCH'D (DUX Lv 24) - Support (Fly / Cut)
   - Slot 4: BLASTOISE (SHELDON Lv 73) - Secondary Sweeper
 
 ### Expedition 15 Systematic Encounter Log (N=4)
@@ -18,9 +18,6 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop taken Turn 39585.*
 *Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Verified Lv 20 stats: 33/33/13/26. Pit-stop taken Turn 39721.*
-| **B180** | 39754 | Magneton Lv 46 | Mewtwo (Swift x2) | 19 (Thundershock Turn 2) | Mewtwo 235/254 HP, 10/10 Psychic PP, 18/20 Swift PP | +327 EXP (262+65) | +97 EXP | 2x Swift KO! 0 Psychic PP spent! Slowpoke at 8,637 EXP (624 to Lv 21). |
-| **B181** | 39765 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Confuse Ray T1) | Mewtwo 235/254 HP, 9/10 Psychic PP | +341 EXP (276+65) | +97 EXP | Bypassed confusion; 2x STAB Psychic OHKO! Slowpoke at 8,978 EXP (283 to Lv 21). |
-| **B182** | 39770 | Magneton Lv 46 | Mewtwo (Psychic) | 33 (Thundershock crit + norm) | Mewtwo 202/254 HP (PAR), 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 9,305 EXP and GREW TO LEVEL 21! Pit-stop triggered for PAR. |
 *Summary B180-B182 (Turns 39754-39770): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,305 EXP). Pit-stop 3 taken Turn 39799: PAR cured, Mewtwo 254/254 HP & 10/10 PP restored.*
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
