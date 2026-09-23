@@ -168,7 +168,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: PSYDUCK (Nickname: MIGRAINE) [Lv 28, Water]
   - Status: Healthy
-  - HP: 72 / 72
+  - HP: 72 / 72 [Verified Lv 28 Screen Turn 38526]
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
@@ -188,7 +188,7 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: FARFETCH'D (Nickname: DUX) [Lv 20, Normal/Flying]
   - Status: Healthy
-  - HP: 54 / 54
+  - HP: 54 / 54 [Verified Lv 20 Screen Turn 38526]
   - Stats: Attack 34, Defense 32, Speed 31, Special 30 [Verified Lv 20 Screen Turn 38466]
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30), Fly (PP 15/15) (Leer, Fury Attack declined)
@@ -5020,7 +5020,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ### Active Expedition 11 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 28, Water, Lead Slot]
-  - Status: Healthy, HP: 72 / 72
+  - Status: Healthy, HP: 72 / 72 [Verified Screen Turn 38526]
   - EXP: 22,250 (2,139 to Lv 29 milestone at 24,389 EXP)
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -5034,7 +5034,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Active Move PP: Surf (15/15), Ice Beam (10/10), Body Slam (15/15), Double-Edge (15/15)
   - Protocol Trigger Check: Blastoise HP = 233, Surf PP = 15. Status: Full PP / Green.
 - Support / Flyer: FARFETCH'D (DUX) [Lv 20, Boosted EXP]
-  - Status: Healthy, HP: 54 / 54 [Verified Lv 20 Screen Turn 38466]
+  - Status: Healthy, HP: 54 / 54 [Verified Screen Turn 38526]
 
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 10)
