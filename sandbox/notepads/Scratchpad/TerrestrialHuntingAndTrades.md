@@ -20,7 +20,7 @@
   - EXP: 23,585 (804 to Lv 29 milestone at 24,389 EXP) [Defeated Hypno Lv 46 Turn 38652]
   - Stats: Attack 43, Defense 35, Speed 43, Special 43 [Verified Lv 28 Screen Turn 38501]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Paralyzed, HP: 254 / 254
+  - Status: Healthy [Hazed Turn 38661], HP: 254 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
   - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 9 (Green).
