@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 30, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 29,454 [Turn 39017].
-  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (337 EXP remaining, ~1 battle).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (6,483 EXP remaining).
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 31, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 29,825 [Turn 39035].
+  - Milestone Next: Lv 32 = 32^3 = 32,768 EXP (2,943 EXP remaining, ~9 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (6,112 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -21,6 +21,7 @@
 | **B141** | 38969 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas failed Turn 1) | Blastoise 216/233 HP, 11/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
 | **B142** | 38985 | Golbat Lv 46 | Mewtwo (Psychic) | 29 (25 confusion + 4) | Mewtwo 201/254 HP, 6/10 PP | +341 EXP (276+65) | +97 EXP | Took 25 confusion dmg + 4; OHKO with Psychic. |
 | **B143** | 39010 | Kadabra Lv 49 | Mewtwo (Swift) | 12 (took 12 dmg on switch) | Mewtwo 189/254 HP, 18/20 Swift, 6/10 PP | +315 EXP (252+63) | +94 EXP | Crit OHKO with Swift. |
+| **B144** | 39024 | Sandslash Lv 52 | Blastoise (Surf) | 13 (took 13 dmg on switch) | Blastoise 203/233 HP, 10/15 Surf | +371 EXP (297+74) | +111 EXP | OHKO with Surf. Trainee grew to Lv 31! |
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
@@ -29,10 +30,10 @@
   - Active Move PP: Psychic (6/10), Swift (18/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 6 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
-  - Status: Healthy, HP: 216 / 233 [Verified Battle 138 Turn 38900]
+  - Status: Healthy, HP: 203 / 233 [Verified Battle 144 Turn 39035]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180
-  - Active Move PP: Surf (11/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
-  - Protocol Trigger Check: Blastoise HP = 216, Surf PP = 11 (Green).
+  - Active Move PP: Surf (10/15), Ice Beam (8/10), Body Slam (15/15), Double-Edge (15/15)
+  - Protocol Trigger Check: Blastoise HP = 203, Surf PP = 10 (Green).
 - Support / Flyer: FARFETCH'D (DUX) [Lv 21, Boosted EXP]
   - Status: Healthy, HP: 56 / 56 [Verified Lv 21 Screen Turn 38757]
 
