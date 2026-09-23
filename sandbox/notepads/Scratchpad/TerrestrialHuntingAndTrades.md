@@ -8,7 +8,7 @@
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 27, Water, Lead Slot]
-  - Status: Healthy, HP: Pending Lv 27 Party Screen Verification (was 67 at Lv 26)
+  - Status: Healthy, HP: 70 / 70 [Verified Screen Turn 38404]
   - EXP: 19,906 (2,046 to Lv 28 milestone at 21,952 EXP)
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
