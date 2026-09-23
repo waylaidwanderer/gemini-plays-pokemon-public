@@ -294,7 +294,7 @@
   - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
   - Golbat (E=1104): 65 EXP [Verified Battles 100, 126, 130]
   - Dodrio (E=1092): 63 EXP [Verified Battles 111, 135, 138]
-  - Hypno (E=1076): 65 EXP [Verified Battles 98, 121, 125, 134, 141]
+  - Hypno (E=1076): 65 EXP [Verified Battles 98, 134, 141]
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 132, 137]
   - Kadabra (E=1008): 63 EXP [Verified Battles 107, 136]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 139, 140]
@@ -5002,15 +5002,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Expedition 12 Systematic Encounter Log (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B132** | 38806 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 246/254 HP, 9/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
-| **B133** | 38818 | Venomoth Lv 49 | Mewtwo (Flute/Psychic) | 0 (woke via Flute; Stun Spore failed) | Mewtwo 246/254 HP, 8/10 PP | +294 EXP (238+56) | +84 EXP | OHKO with Psychic after Poké Flute wakeup. |
-| **B134** | 38843 | Hypno Lv 46 | Blastoise (Surf) | 9 (took 9 dmg on switch) | Blastoise 224/233 HP, 14/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
-| **B135** | 38859 | Dodrio Lv 49 | Blastoise (Surf) | 0 (Fury Attack missed) | Blastoise 224/233 HP, 13/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
-| **B136** | 38872 | Kadabra Lv 49 | Mewtwo (Swift) | 8 (took 8 dmg on switch) | Mewtwo 238/254 HP, 19/20 Swift, 8/10 PP | +315 EXP (252+63) | +94 EXP | Tail Whip Turn 1. Crit OHKO with Swift. Trainee grew to Lv 30! |
-| **B137** | 38881 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (took 8 dmg on switch) | Mewtwo 230/254 HP, 7/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
-| **B138** | 38896 | Dodrio Lv 49 | Blastoise (Surf) | 8 (took 8 dmg on switch) | Blastoise 216/233 HP, 12/15 PP | +336 EXP (273+63) | +94 EXP | OHKO with Surf. |
-| **B139** | 38918 | Parasect Lv 52 | Blastoise (Flute/Ice Beam) | 0 (Spore Turn 1; woke via Flute; Growth Turn 3) | Blastoise 216/233 HP, 9/10 Ice Beam, 12/15 Surf | +296 EXP (237+59) | +88 EXP | OHKO with super-effective Ice Beam. |
-| **B140** | 38946 | Parasect Lv 52 | Blastoise (Flute/Ice Beam) | 0 (Spore Turn 1; woke via Flute; Growth Turn 3) | Blastoise 216/233 HP, 8/10 Ice Beam, 12/15 Surf | +296 EXP (237+59) | +88 EXP | OHKO with super-effective Ice Beam. |
 | **B141** | 38969 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas failed Turn 1) | Blastoise 216/233 HP, 11/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
 | **B142** | 38985 | Golbat Lv 46 | Mewtwo (Psychic) | 29 (25 confusion + 4) | Mewtwo 201/254 HP, 6/10 PP | +341 EXP (276+65) | +97 EXP | Took 25 confusion dmg + 4; OHKO with Psychic. |
 | **B143** | 39010 | Kadabra Lv 49 | Mewtwo (Swift) | 12 (took 12 dmg on switch) | Mewtwo 189/254 HP, 18/20 Swift, 6/10 PP | +315 EXP (252+63) | +94 EXP | Crit OHKO with Swift. |
@@ -5060,12 +5051,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Sweeper Matchups:
   - Bug / Poison / Electric / Flying / Psychic (Golbat, Venomoth, Magneton, Raichu, Kadabra): Switch to Mewtwo (OMEGA Lv 73). STAB Psychic / Swift guarantees rapid OHKOs.
   - Fast Physical / Ground / Normal / Grass & Specific Targets (Dodrio, Sandslash, Parasect [4x Ice Beam], Ditto, Hypno [Def 70]): Switch to Blastoise (SHELDON Lv 73). High Defense (201) absorbs physical hits; retaliates with STAB Surf / Ice Beam.
-- Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 or HP < 60, or Blastoise HP < 60 / Surf PP <= 3.
+- Retreat Protocol: Trigger pit-stop when Mewtwo Psychic PP <= 3 or HP < 60, Blastoise HP < 60 / Surf PP <= 3, or if either sweeper sustains an uncurable status condition (PAR, SLP, FRZ, PSN).
 
 ### Other Post-Game Evolution Candidates
 1. SLOWPOKE (DOPEY Lv 15, Box 2): Medium Fast, target 50,653 EXP (Lv 37 Slowbro #080).
 2. In-Game Trades: Route 2 Gatehouse (Abra -> Mr. Mime #122); Route 18 Gatehouse 2F (Slowbro -> Lickitung #108).
-3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder é¥2,100 each). Money: é3056.
+3. Evolution Stones: Celadon Dept Store 4F (Water, Fire, Leaf, Thunder ¥2,100 each). Money: ¥3,056.
 
 
 <hr>
