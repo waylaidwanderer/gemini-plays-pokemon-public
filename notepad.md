@@ -299,10 +299,12 @@
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## EXP.ALL Mathematical Model & Empirical Mechanics (Generation 1 Retail)
-- **Exp. All Distribution Formula:**
+- **Exp. All Distribution Formula & Party Scaling:**
   - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants.
-  - Team Share: `E_half = floor(E / 2)`, divided among 6 party members: `floor(E_half / 6) = floor(E / 12)`.
-  - Participant vs Non-Participant Division Hypothesis: While Golbat and Kadabra base shares match `floor(E / 24.0)`, 6 of 9 species exhibit divisor K between 24.5 and 27.6 (e.g. Hypno K=27.6, Sandslash K=27.0). The exact 8-bit register truncation routine in Gen 1 assembly remains an unverified hypothesis under ongoing empirical tracking.
+  - Team Share (Party Size Scaling): `E_half = floor(E / 2)`, divided among active party members: `floor(E_half / N_party)`.
+    - For standard full 6-member party (N=6): `floor(E_half / 6) = floor(E / 12)` base before species-specific divisor K truncation.
+    - For 4-member party (N=4): `floor(E_half / 4) = floor(E / 8)` base, resulting in ~60-67% higher team share yields (e.g. Magneton 39 -> 65, Golbat 46 -> 65, Kadabra 42 -> 63, Parasect 37 -> 59).
+  - Truncation & Internal Variables Anomaly: Team share is not a strict linear scalar function of total EXP (e.g. Parasect E=950 yields 59 team share, while Venomoth E=952 yields 56 team share). Internal assembly register shifts and rounding routines produce non-monotonic effective divisors K across different base EXP values.
   - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)`.
 - **Empirical Effective Divisor K (Across 96 Battles):**
   - Golbat (E=1104, base=46, K=24.0) [23 empirical encounters verified]
@@ -5029,18 +5031,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Status: Healthy, HP: 51 / 51 [Grew to Lv 19 Turn 38226, Atk 32, Def 30, Spd 30, Spc 29]
 - Protocol Status: Green / Healthy (1 Psychic remaining before retreat trigger).
 
-### Cerulean Cave 1F EXP Yield Table (Live Exp. All Yields: Participant + Team Share, 100% Empirically Verified)
-| Species | Level | Total Wild EXP | Trainee Total Gain (Part+Team) | DUX Gain (Boosted) | Primary Sweeper Strategy |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Raichu** | 53 | 908 | **264 EXP** (227+37) | 55 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Venomoth** | 49 | 952 | **273 EXP** (238+35) | 52 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
-| **Magneton** | 46 | 1,050 | **301 EXP** (262+39) | 58 EXP | Mewtwo (STAB Psychic OHKO) |
-| **Hypno** | 46 | 1,076 | **308 EXP** (269+39) | 58 EXP | Mewtwo (STAB Psychic / Swift) |
-| **Golbat** | 46 | 1,104 | **322 EXP** (276+46) | 69 EXP | Mewtwo (STAB Psychic 2x SE OHKO) |
-| **Sandslash** | 52 | 1,188 | **341 EXP** (297+44) | 66 EXP | Blastoise (STAB Surf 2x SE OHKO) / Mewtwo |
-| **Kadabra** | 49 | 1,008 | **294 EXP** (252+42) | 63 EXP | Blastoise (Surf / Body Slam) / Mewtwo |
-| **Parasect** | 52 | 950 | **274 EXP** (237+37) | 55 EXP | Blastoise (Ice Beam 2x SE OHKO) |
-| **Dodrio** | 49 | 1,092 | **315 EXP** (273+42) | 63 EXP | Mewtwo (STAB Psychic OHKO) |
 
 ### EXP.ALL N=4 Party Dilution Model & Predictions (Expedition 9)
 - **Setup:** 4-member party: Psyduck (Slot 1), Mewtwo (Slot 2), Blastoise (Slot 3), Farfetch'd (Slot 4).
@@ -5061,7 +5051,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Raichu** | 53 | 908 | 227 | **56 EXP** | **283 EXP** | **84 EXP** | Predicted |
 | **Parasect** | 52 | 950 | 237 | **59 EXP** | **296 EXP** | **88 EXP** | Verified (B105) |
 
-### Expedition 9 Battle Log (Compact Summary, Battles 97-104):
+### Expedition 9 Battle Log (Compact Summary, Battles 97-107):
 | Battle | Opponent | Sweeper Used | Key Events | Part Share | Team Share (N=4) | Trainee Total | Psyduck EXP End |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B97** | Magneton Lv 46 | Mewtwo (Psychic) | Took 8 dmg; OHKO | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 14,394 |
