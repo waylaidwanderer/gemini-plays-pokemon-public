@@ -131,8 +131,8 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 75 / 75 [Verified Lv 22 Screen Turn 40083]
-  - Stats: Attack 36, Defense 37, Speed 14, Special 28 [Verified Lv 22 Screen Turn 40083]
-  - EXP: 11957 (210 to Lv 23) [Verified Page 2 Screen Turn 40084]
+  - Stats: Attack 38, Defense 38, Speed 14, Special 30 [Verified Lv 23 Screen Turn 40096]
+  - EXP: ~12291 (1533 to Lv 24) [Verified B191 Turn 40096]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
@@ -4991,9 +4991,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Goal: Switch-Train Slowpoke (DOPEY) to Slowbro (#080)
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 22, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 23, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 23 (EXP: ~12,291, 1,533 to Lv 24 [Grew to Lv 23 B191 Turn 40095]; stats pending Level 23 screen verification)
+  - Current Level: 23 (Atk 38, Def 38, Spd 14, Spc 30 [Verified Turn 40096]; EXP: ~12,291, 1,533 to Lv 24)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
