@@ -1,10 +1,10 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target PokÃÂ©mon: PSYDUCK (MIGRAINE Lv 24, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 16,031 [Turn 38157]. Psyduck at Level 25.
-  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (1,545 EXP remaining, ~6 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (21,870 EXP remaining).
-- Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 72)
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 25, Water, Medium Fast growth, Lead Slot 1)
+  - Current Empirical EXP: 16,365 [Turn 38182]. Psyduck at Level 25.
+  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (1,211 EXP remaining, ~4 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (19,572 EXP remaining).
+- Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38131, Battle 100 Golbat):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 24, Water, Lead Slot]
