@@ -2,9 +2,9 @@
 
 ## Active Goal: Switch-Train Slowpoke (DOPEY) to Slowbro (#080)
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 22, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 23, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 23 (EXP: ~12,291, 1,533 to Lv 24 [Grew to Lv 23 B191 Turn 40095]; stats pending Level 23 screen verification)
+  - Current Level: 23 (Atk 38, Def 38, Spd 14, Spc 30 [Verified Turn 40096]; EXP: ~12,291, 1,533 to Lv 24)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
