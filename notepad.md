@@ -4980,7 +4980,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Attempting to interact with the PC monitor from the side at (12, 3) facing East produces no effect and does not open dialogue or boot the system.
 
 ## Party & Stats Screen UI Navigation (Generation 1 Retail)
-- **Stats Screen Page Navigation:** On Page 1 of a Pokémon's STATS screen (displaying HP, stats, types, OT), pressing B does NOT exit back to the Party menu; it advances to Page 2 (displaying EXP points, Level Up EXP, moves and PP). Pressing B on Page 2 exits the STATS screen back to the Party menu with cursor positioned on the inspected Pokémon [Empirically verified Turns 39837-39838].
+- **Stats Screen B-Button Navigation:** On Page 1 of a Pokémon's STATS screen (displaying HP, stats, types, OT), pressing B does NOT exit back to the Party menu; it advances to Page 2 (displaying EXP points, Level Up EXP, moves and PP). Pressing B on Page 2 exits the STATS screen back to the Party menu with cursor positioned on the inspected Pokémon [Empirically verified Turns 39837-39838]. Button 'A' page-flipping mechanics remain to be separately tested.
 
 
 <hr>
@@ -5005,7 +5005,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop taken Turn 39585.*
 *Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Verified Lv 20 stats: 33/33/13/26. Pit-stop taken Turn 39721.*
-*Summary B180-B182 (Turns 39754-39770): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,305 EXP). Pit-stop 3 taken Turn 39799: PAR cured, Mewtwo 254/254 HP & 10/10 PP restored.*
+*Summary B180-B182 (Turns 39754-39779): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,305 EXP). Pit-stop 3 taken Turn 39799: PAR cured, Mewtwo 254/254 HP & 10/10 PP restored.*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
