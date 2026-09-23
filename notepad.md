@@ -5024,17 +5024,18 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - **Optimal Targets:** Golbat Lv 46, Venomoth Lv 49, Kadabra Lv 49.
   - **Hypno Special Protocol:** In Gen 1, Psychic resists Psychic (0.5x). Mewtwo deals ~65% with non-crit Psychic (OHKO on ~25.4% crit). If Hypno survives Turn 2, finish with SWIFT (Move 1, 20/20 PP) on Turn 3 to conserve Psychic PP.
 - **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 233 HP):**
-  - **Optimal / Favorable Targets:**
-    - Golbat Lv 46: 2x Ice Beam OHKO.
-    - Dodrio Lv 49: 2x Ice Beam OHKO; absorbs Drill Peck with 201 Def.
-    - Sandslash Lv 52: 2x STAB Surf OHKO.
-    - Parasect Lv 52: 4x Ice Beam OHKO.
-    - Kadabra Lv 49: STAB Surf / Body Slam OHKO against frail 45 Def; tanks Psybeam with 180 Special.
-    - Hypno Lv 46: STAB Surf / Body Slam physical chunking.
+  - **Verified Target Matchup:**
+    - Parasect Lv 52: 4x Ice Beam OHKO [Empirically Verified Battle 184 Turn 39982; 0 damage taken].
+  - **Hypothesized Target Matchups (To Be Empirically Audited in Expedition 15):**
+    - Golbat Lv 46: Projected 2x Ice Beam OHKO.
+    - Dodrio Lv 49: Projected 2x Ice Beam OHKO; 201 Def absorbs Drill Peck.
+    - Sandslash Lv 52: Projected 2x STAB Surf OHKO.
+    - Kadabra Lv 49: Projected STAB Surf / Body Slam OHKO against frail 45 Def; 180 Special tanks Psybeam.
+    - Hypno Lv 46: Projected STAB Surf / Body Slam chunking against 80 Def.
   - **Dangerous Matchups (AVOID):** Magneton Lv 46, Raichu Lv 53 (2x Electric damage; always route these to Mewtwo).
-- **In-Battle Poké Flute Usage:**
-  - Using the Poké Flute in-battle from the Bag menu wakes up all sleeping Pokémon at zero item/monetary cost.
-  - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when sweeper cannot act.
+- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
+  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
+  - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 - **Refined Retreat Protocol (Preventing Macro-Traversal Stagnation):**
   - Do NOT retreat upon Mewtwo sustaining paralysis or running low on PP if Blastoise is healthy.
   - Transfer active sweeping to Blastoise for physical/ice-weak encounters (Golbat, Dodrio, Sandslash, Parasect, Kadabra).
