@@ -172,7 +172,7 @@
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 21204 [748 to Lv 28; 21952 - 21204 = 748]
+  - EXP: 21545 [407 to Lv 28; 21952 - 21545 = 407]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -309,7 +309,7 @@
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
 - **Empirical Team Base Shares Under N=4 (4-Member Party):**
   - Sandslash (E=1188): Pending empirical encounter
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118]
+  - Golbat (E=1104): 65 EXP [Verified Battles 100, 102, 104, 113, 114, 118, 119]
   - Dodrio (E=1092): 63 EXP [Verified Battle 111]
   - Hypno (E=1076): 65 EXP [Verified Battles 98, 103, 117]
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 101, 108, 109, 112, 115]
@@ -5013,21 +5013,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 27, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 21,204 [Turn 38457]. Psyduck at Level 27.
-  - Milestone Next: Lv 28 = 28^3 = 21,952 EXP (748 EXP remaining, ~2 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (14,733 EXP remaining).
+  - Current Empirical EXP: 21,545 [Turn 38479]. Psyduck at Level 27.
+  - Milestone Next: Lv 28 = 28^3 = 21,952 EXP (407 EXP remaining, exactly 1 battle!).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (14,392 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 10 Sweeper Attrition & Condition Log:
 - Trainee: PSYDUCK (MIGRAINE) [Lv 27, Water, Lead Slot]
   - Status: Healthy, HP: 70 / 70 [Verified Screen Turn 38404]
-  - EXP: 21,204 (748 to Lv 28 milestone at 21,952 EXP)
+  - EXP: 21,545 (407 to Lv 28 milestone at 21,952 EXP)
   - Stats: Attack 42, Defense 34, Speed 42, Special 41 [Verified Lv 27 Screen Turn 38394]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 206 / 254 (Cured of PAR by Golbat Haze!)
+  - Status: Healthy, HP: 206 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (3/10), Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 3 (Threshold hit; Blastoise primary or 2 battles to Lv 28).
+  - Active Move PP: Psychic (2/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 2 (1 battle remaining to Lv 28 milestone before pit stop).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 169 / 233 (PSN)
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
@@ -5046,7 +5046,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **N=4 Yield Table:**
 | Species | Level | Total EXP | Part Share (E/4) | Team Share (N=4) | Trainee Gain (Part+Team) | DUX Gain (Boosted) | Verification Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118) |
+| **Golbat** | 46 | 1,104 | 276 | **65 EXP** | **341 EXP** | **97 EXP** | Verified (B100, B102, B104, B113, B114, B118, B119) |
 | **Hypno** | 46 | 1,076 | 269 | **65 EXP** | **334 EXP** | **97 EXP** | Verified (B98, B103, B117) |
 | **Magneton** | 46 | 1,050 | 262 | **65 EXP** | **327 EXP** | **97 EXP** | Verified (B97, B101, B108, B109, B112, B115) |
 | **Dodrio** | 49 | 1,092 | 273 | **63 EXP** | **336 EXP** | **94 EXP** | Verified (B111) |
@@ -5069,6 +5069,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B116**| Parasect Lv 52 | Blastoise (Ice/Surf) | Took 29 dmg on switch; defeated with Blastoise (HP 192/233) | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 20,529 |
 | **B117**| Hypno Lv 46 | Blastoise (Body Slam x2) | Poisoned on switch; 2HKO with Body Slam (crit turn 2); took 23 dmg | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 20,863 |
 | **B118**| Golbat Lv 46 | Mewtwo (Psychic) | Haze cured PAR on switch; OHKO with Psychic (PP 3/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 21,204 |
+| **B119**| Golbat Lv 46 | Mewtwo (Psychic) | Confused on switch; OHKO with crit Psychic through confusion (PP 2/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 21,545 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
