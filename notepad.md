@@ -5003,15 +5003,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 25, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 16,365 [Turn 38182]. Psyduck at Level 25.
-  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (1,211 EXP remaining, ~4 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (19,572 EXP remaining).
+  - Current Empirical EXP: 16,706 [Turn 38195]. Psyduck at Level 25.
+  - Milestone Next: Lv 26 = 26^3 = 17,576 EXP (870 EXP remaining, ~3 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (19,231 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 73)
 
 ### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38193, Battle 104 Golbat):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 25, Water, Lead Slot]
   - Status: Healthy, HP: 65 / 65
-  - EXP: 16,365 (resolving Battle 104: +341 -> 16,706 EXP, 870 to Lv 26 milestone)
+  - EXP: 16,706 (870 to Lv 26 milestone at 17,576 EXP)
   - Stats: Attack 39, Defense 31, Speed 39, Special 39
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
   - Status: Healthy, HP: 246 / 254
@@ -5069,7 +5069,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B101**| Magneton Lv 46 | Mewtwo (Psychic) | Confused by Supersonic; OHKO; **Psyduck Lv 25** | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 15,690 |
 | **B102**| Golbat Lv 46 | Mewtwo (Psychic) | 0 dmg taken; OHKO | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 16,031 |
 | **B103**| Hypno Lv 46 | Blastoise (Surf x2) | Blastoise took 52 dmg (crit); 2-hit Surf KO | 269 EXP | 65 EXP (DUX 97) | +334 EXP | 16,365 |
-| **B104**| Golbat Lv 46 | Mewtwo (Psychic) | Golbat move failed; OHKO with Psychic (PP 4/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 16,706 (Resolving) |
+| **B104**| Golbat Lv 46 | Mewtwo (Psychic) | Golbat move failed; OHKO with Psychic (PP 4/10) | 276 EXP | 65 EXP (DUX 97) | +341 EXP | 16,706 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
