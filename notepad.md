@@ -126,20 +126,20 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 18, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 19, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 63 / 63 [Verified Lv 18 Screen Turn 39642]
-  - Stats: Attack 30, Defense 30, Speed 12, Special 23 [Verified Lv 18 Screen Turn 39637]
-  - EXP: 6657 (202 to Lv 19) [Verified B174 Turn 39659]
+  - Stats: Attack 31, Defense 32, Speed 12, Special 25 [Verified Lv 19 Screen Turn 39671]
+  - EXP: 6991 (1009 to Lv 20) [Verified B175 Turn 39671]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
   - Status: Healthy
-  - HP: 241 / 254 [Battle 174 Turn 39659]
+  - HP: 231 / 254 [Battle 175 Turn 39671]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254 [Verified Lv 73 Screen Turn 38125]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 23, Normal/Flying]
   - Status: Healthy
   - HP: 61 / 61 [Verified Party Screen Turn 39364]
@@ -4989,8 +4989,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 18, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 18 (EXP: 6,657, 202 to Lv 19)
-  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+43,996 EXP required).
+  - Current Level: 19 (EXP: 6,991, 1,009 to Lv 20)
+  - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP (+43,662 EXP required).
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 - Party Architecture & Slot Allocation (Verified Turn 39444):
   - Slot 1: SLOWPOKE (DOPEY Lv 18) - Trainee / Lead
@@ -5011,6 +5011,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B172** | 39633 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Turn 1 switch) | Mewtwo 245/254 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 6,022 EXP and GREW TO LEVEL 18! Stats: 30/30/12/23. |
 | **B173** | 39641 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Confuse Ray Turn 1) | Mewtwo 245/254 HP, 8/10 Psychic PP | +341 EXP (276+65) | +97 EXP | 2x STAB Psychic OHKO! Slowpoke at 6,363 EXP (496 to Lv 19). |
 | **B174** | 39658 | Venomoth Lv 49 | Mewtwo (Psychic) | 4 (Turn 1 Psybeam) | Mewtwo 241/254 HP, 7/10 Psychic PP | +294 EXP (238+56) | +84 EXP | STAB Psychic OHKO! Slowpoke at 6,657 EXP (202 to Lv 19). |
+| **B175** | 39667 | Hypno Lv 46 | Mewtwo (Psychic x2) | 10 (Psychic Turn 2) | Mewtwo 231/254 HP, 5/10 Psychic PP | +334 EXP (269+65) | +97 EXP | 2x STAB Psychic (crit T3) KO! Slowpoke reached 6,991 EXP and GREW TO LEVEL 19! Stats: 31/32/12/25. |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
