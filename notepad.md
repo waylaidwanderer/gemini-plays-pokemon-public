@@ -176,7 +176,7 @@
   - Stats: Attack 40, Defense 32, Speed 40, Special 40 [Verified Lv 26 Screen Turn 38240]
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - EXP: 17613 [2070 to Lv 27; 19683 - 17613 = 2070]
+  - EXP: 17940 [1743 to Lv 27; 19683 - 17940 = 1743]
   - Moves: Scratch (PP 35/35) [Empirically Verified Turn 37298]
   - Caught: Cerulean Gym pool [Turn 31526]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 73, Psychic]
@@ -5007,21 +5007,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 26, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 17,613 [Turn 38242]. Psyduck at Level 26.
-  - Milestone Next: Lv 27 = 27^3 = 19,683 EXP (2,070 EXP remaining, ~6 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (18,324 EXP remaining).
+  - Current Empirical EXP: 17,940 [Turn 38271]. Psyduck at Level 26.
+  - Milestone Next: Lv 27 = 27^3 = 19,683 EXP (1,743 EXP remaining, ~5 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (17,997 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 72) / Mewtwo (OMEGA Lv 73)
 
-### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38242, Battle 107 Kadabra):
+### Active Expedition 9 Sweeper Attrition & Condition Log (Turn 38271, Battle 108 Magneton):
 - Trainee: PSYDUCK (MIGRAINE) [Lv 26, Water, Lead Slot]
   - Status: Healthy, HP: 67 / 67 [Verified Lv 26 Screen Turn 38240]
-  - EXP: 17,613 (2,070 to Lv 27 milestone at 19,683 EXP)
+  - EXP: 17,940 (1,743 to Lv 27 milestone at 19,683 EXP)
   - Stats: Attack 40, Defense 32, Speed 40, Special 40 [Verified Lv 26 Screen Turn 38240]
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 246 / 254
+  - Status: Healthy, HP: 144 / 254
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (4/10) [Updated Live Turn 38193], Swift (20/20), Barrier (30/30), Recover (20/20)
-  - Protocol Trigger Check: Mewtwo Psychic PP = 4. Retreat trigger is <= 3 (1 Psychic remaining before pit-stop trigger).
+  - Active Move PP: Psychic (3/10) [Updated Live Turn 38271], Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Protocol Trigger Check: Mewtwo Psychic PP = 3 (RETREAT TRIGGER MET). Initiating pit-stop.
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 100 / 233 [Verified Lv 73 Screen Turn 38238]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
@@ -5065,6 +5065,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B105**| Parasect Lv 52 | Blastoise (Ice Beam) | Blastoise took 34 dmg on switch; OHKO with Ice Beam | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 17,002 |
 | **B106**| Parasect Lv 52 | Blastoise (Ice Beam) | Blastoise took 7 dmg on switch; OHKO with Ice Beam | 237 EXP | 59 EXP (DUX 88) | +296 EXP | 17,298 |
 | **B107**| Kadabra Lv 49 | Blastoise (Surf) | Kadabra used Reflect; OHKO with Surf; **Psyduck Lv 26**, **Sheldon Lv 73** | 252 EXP | 63 EXP (DUX 94) | +315 EXP | 17,613 |
+| **B108**| Magneton Lv 46 | Mewtwo (Psychic) | Mewtwo confused, snapped out; OHKO with Psychic (PP 3/10); **Retreat Trigger** | 262 EXP | 65 EXP (DUX 97) | +327 EXP | 17,940 |
 
 ### Psyduck Switch-Training Combat Protocol
 - Vulnerability Profile: Psyduck has low defense compared to Lv 46-53 Cerulean Cave wild Pokémon. Any direct hit is lethal.
