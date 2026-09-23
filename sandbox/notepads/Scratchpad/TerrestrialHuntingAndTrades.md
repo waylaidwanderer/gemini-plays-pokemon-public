@@ -20,6 +20,7 @@
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B183** | 39901 | Magneton Lv 46 | Mewtwo (Psychic) | 12 (Thundershock) | Mewtwo 242/254 HP (PAR), 9/10 Psychic PP, 20/20 Swift PP | +327 EXP (262+65) | +97 EXP | Thundershock dealt 12 dmg; Mewtwo broke PAR and STAB Psychic OHKOed! Slowpoke at 9,632 EXP (1,016 to Lv 22). |
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
