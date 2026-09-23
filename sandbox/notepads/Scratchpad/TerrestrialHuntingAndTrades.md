@@ -1,9 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
-- Target Pokémon: PSYDUCK (MIGRAINE Lv 29, Water, Medium Fast growth, Lead Slot 1)
+- Target Pokémon: PSYDUCK (MIGRAINE Lv 30, Water, Medium Fast growth, Lead Slot 1)
   - Current Empirical EXP: 26,894 [Turn 38863].
-  - Milestone Next: Lv 30 = 30^3 = 27,000 EXP (106 EXP remaining, ~1 battle).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (9,043 EXP remaining).
+  - Milestone Next: Lv 31 = 31^3 = 29,791 EXP (2,582 EXP remaining, ~7-8 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (8,728 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Expedition 12 Systematic Encounter Log (N=4)
@@ -14,9 +14,9 @@
 
 ### Active Expedition 12 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 246 / 254 [Verified Screen Turn 38838]
+  - Status: Healthy, HP: 238 / 254 [Verified Battle 136 Turn 38877]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (8/10), Swift (19/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: Mewtwo Psychic PP = 8 (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 224 / 233 [Verified Battle 135 Turn 38865]
