@@ -1,15 +1,16 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 ## Active Goal: Switch-Train Psyduck (MIGRAINE) to Golduck (#055) at Lv 33 (35,937 EXP)
 - Target Pokémon: PSYDUCK (MIGRAINE Lv 31, Water, Medium Fast growth, Lead Slot 1)
-  - Current Empirical EXP: 31,403 [Turn 39161].
-  - Milestone Next: Lv 32 = 32^3 = 32,768 EXP (1,365 EXP remaining, ~4 battles).
-  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (4,534 EXP remaining).
+  - Current Empirical EXP: 31,730 [Turn 39171].
+  - Milestone Next: Lv 32 = 32^3 = 32,768 EXP (1,038 EXP remaining, ~3 battles).
+  - Target: Lv 33 Golduck = 33^3 = 35,937 EXP (4,207 EXP remaining).
 - Sweepers: Blastoise (SHELDON Lv 73) / Mewtwo (OMEGA Lv 73)
 
 ### Completed Expedition 12 Archive (N=4)
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B149** | 39155 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Haze Turn 1) | Mewtwo 254/254 HP, 9/10 PP | +341 EXP (276+65) | +97 EXP | OHKO with super-effective Psychic. |
+| **B150** | 39166 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (took 10 dmg on switch) | Mewtwo 244/254 HP, 8/10 PP | +327 EXP (262+65) | +97 EXP | OHKO with Psychic. |
 | **B141** | 38969 | Hypno Lv 46 | Blastoise (Surf) | 0 (Poison Gas failed Turn 1) | Blastoise 216/233 HP, 11/15 PP | +334 EXP (269+65) | +97 EXP | OHKO with Surf. |
 | **B142** | 38985 | Golbat Lv 46 | Mewtwo (Psychic) | 29 (25 confusion + 4) | Mewtwo 201/254 HP, 6/10 PP | +341 EXP (276+65) | +97 EXP | Took 25 confusion dmg + 4; OHKO with Psychic. |
 | **B143** | 39010 | Kadabra Lv 49 | Mewtwo (Swift) | 12 (took 12 dmg on switch) | Mewtwo 189/254 HP, 18/20 Swift, 6/10 PP | +315 EXP (252+63) | +94 EXP | Crit OHKO with Swift. |
@@ -25,9 +26,9 @@
 
 ### Active Expedition 13 Sweeper Attrition & Condition Log:
 - Primary Sweeper: MEWTWO (OMEGA) [Lv 73, Psychic]
-  - Status: Healthy, HP: 254 / 254 [Restored Cerulean Center Turn 39111]
+  - Status: Healthy, HP: 244 / 254 [Battle 150 Turn 39171]
   - Stats: Attack 186, Defense 169, Speed 215, Special 254
-  - Active Move PP: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20)
+  - Active Move PP: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20)
   - Protocol Trigger Check: All resources at 100% (Green).
 - Secondary Sweeper: BLASTOISE (SHELDON) [Lv 73, Water]
   - Status: Healthy, HP: 233 / 233 [Restored Cerulean Center Turn 39111]
