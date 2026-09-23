@@ -21,6 +21,7 @@
 | **B180** | 39754 | Magneton Lv 46 | Mewtwo (Swift x2) | 19 (Thundershock Turn 2) | Mewtwo 235/254 HP, 10/10 Psychic PP, 18/20 Swift PP | +327 EXP (262+65) | +97 EXP | 2x Swift KO! 0 Psychic PP spent! Slowpoke at 8,637 EXP (624 to Lv 21). |
 | **B181** | 39765 | Golbat Lv 46 | Mewtwo (Psychic) | 0 (Confuse Ray T1) | Mewtwo 235/254 HP, 9/10 Psychic PP | +341 EXP (276+65) | +97 EXP | Bypassed confusion; 2x STAB Psychic OHKO! Slowpoke at 8,978 EXP (283 to Lv 21). |
 | **B182** | 39770 | Magneton Lv 46 | Mewtwo (Psychic) | 33 (Thundershock crit + norm) | Mewtwo 202/254 HP (PAR), 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | STAB Psychic OHKO! Slowpoke reached 9,305 EXP and GREW TO LEVEL 21! Pit-stop triggered for PAR. |
+*Summary B180-B182 (Turns 39754-39770): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,305 EXP). Pit-stop 3 taken Turn 39799: PAR cured, Mewtwo 254/254 HP & 10/10 PP restored.*
 
 ### EXP.ALL N=4 Party Dilution Model & Verified Yields
 - Setup: 4-member party: Trainee (Slot 1), Mewtwo (Slot 2), Farfetch'd (Slot 3), Blastoise (Slot 4).
