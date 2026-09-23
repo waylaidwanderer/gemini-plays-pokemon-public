@@ -68,4 +68,4 @@
   - Magneton (E=1050): 65 EXP [Verified Battles 97, 128, 132]
   - Kadabra (E=1008): 63 EXP [Verified Battle 107]
   - Parasect (E=950): 59 EXP [Verified Battles 105, 106, 116]
-  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122]
+  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
