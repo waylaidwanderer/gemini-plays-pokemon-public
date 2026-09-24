@@ -78,7 +78,8 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 2 / 20 Pokémon:
+- Box 2: 3 / 20 Pokémon:
   - Pidgey (BIRDIE Lv 13) [Deposited Turn 42625]
   - Kakuna (COCOON Lv 7) [Deposited Turn 42626]
+  - Bellsprout (SPROUT Lv 12) [Deposited Turn 42628]
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
