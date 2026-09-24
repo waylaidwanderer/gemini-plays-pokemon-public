@@ -136,10 +136,10 @@
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
-  - HP: 202 / 259 [Verified Lv 74 Screen Turn 40484]
+  - HP: 191 / 259 [Verified Lv 74 Screen Turn 40499]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified B215 Turn 40484]
+  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20) [Psychic active B216]
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 25, Normal/Flying]
   - Status: Healthy
   - HP: 66 / 66 [Verified Lv 25 Screen Turn 40226]
@@ -5024,7 +5024,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 | **B215** | 40477 | Magneton Lv 46 | Mewtwo (Psychic) | 18 (T-Shock+Swift) | Mewtwo 202/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 10 dmg). Turn 2 Magneton Swift (8 dmg), Mewtwo STAB Psychic OHKO! Slowpoke at ~20,225 EXP (1,727 to Lv 28). |
 
-| **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | pending | pending | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo. |
+| **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (T-Shock) | Mewtwo 191/259 HP, 6/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). Turn 2 Psychic in progress... |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
