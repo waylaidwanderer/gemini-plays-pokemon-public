@@ -5021,6 +5021,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B203** | 40296 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None/Fail) | Blastoise 91/233 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~16,206 EXP (1,370 to Lv 26). |
 | **B204** | 40314 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 91/233 HP, 3/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~16,547 EXP (1,029 to Lv 26). |
+| **B205** | 40330 | Hypno Lv 46 | Blastoise (Body Slam) | 9 (Headbutt) | Blastoise 82/233 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 Body Slam dealt ~80% (Hypno Meditate). Turn 3 Body Slam KO! Slowpoke at ~16,881 EXP (695 to Lv 26). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
