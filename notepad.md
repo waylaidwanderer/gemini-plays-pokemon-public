@@ -5087,7 +5087,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 33, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
   - Current Level: 33 (HP 110/110 [Verified Screen Turn 41357], Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~38,177, ~1,127 to Lv 34 [Calculated post-B269])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
@@ -5099,22 +5099,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B254** | 41147 | Hypno Lv 46 | Blastoise (Body Slam x2) | 40 (Headbutt/Psychic) | Blastoise 109/237 HP, 7/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 10 dmg). Turn 2 Body Slam leaves tiny red sliver (took 30 dmg). Turn 3 Body Slam KOs. DOPEY at ~33,263 EXP (~2,674 to Lv 33). |
-| **B255** | 41156 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (None) | Blastoise 109/237 HP, 6/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno move had no effect, 0 dmg). Turn 2 Body Slam OHKO! DOPEY at ~33,597 EXP (~2,340 to Lv 33). |
-| **B256** | 41168 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 6/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat move failed, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~33,938 EXP (~1,999 to Lv 33). |
-| **B257** | 41177 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg taken). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DOPEY at ~34,279 EXP (~1,658 to Lv 33). |
-| **B258** | 41186 | Parasect Lv 52 | Blastoise (Ice Beam) | 29 (Slash Crit) | Blastoise 80/237 HP, 4/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,575 EXP (~1,362 to Lv 33). |
-| **Pit-Stop 8** | 41205 | Cerulean Pokémon Center | Nurse Joy | - | Blastoise 237/237 HP, all PP restored | Mewtwo PAR cured | All 4 Pokémon fully healed | Proactive heal (Sheldon was at 80 HP). Verified Slowpoke Level 32 stats: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575 (1,362 to Lv 33) [Verified Screen Turn 41210]. |
-
-| **B259** | 41262 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 9/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,916 EXP (~1,021 to Lv 33). |
-
-| **B260** | 41286 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 8/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat move failed, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~35,257 EXP (~680 to Lv 33). |
-
-| **B261** | 41300 | Hypno Lv 46 | Blastoise (Body Slam x2) | 0 (None) | Blastoise 237/237 HP, 13/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate, 0 dmg). Turn 2 Body Slam leaves tiny red sliver (Hypno used Meditate, 0 dmg). Turn 3 Body Slam KOs! DOPEY at ~35,591 EXP (~346 to Lv 33). |
-
-| **B262** | 41318 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~35,932 EXP (~5 to Lv 33). |
-
-| **B263** | 41328 | Parasect Lv 52 | Blastoise (Ice Beam) | 30 (Slash Crit) | Blastoise 207/237 HP, 6/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 30 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY grew to Level 33! Verified stats: Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338]. Forgot Growl, learned Water Gun! DOPEY at ~36,228 EXP (~3,076 to Lv 34). |
 
 | **B264** | 41356 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 207/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DUX grew to Level 28 (Atk 47, Def 43, Spd 43, Spc 41 [Verified Screen Turn 41365])! DOPEY at ~36,569 EXP (~2,735 to Lv 34). |
 | **B265** | 41386 | Venomoth Lv 49 | Blastoise (Surf) | 13 (Psybeam) | Blastoise 194/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise; Venomoth used Sleep Powder. Turn 2 used Poké Flute; woke up Sheldon; Venomoth used Psybeam (13 dmg). Turn 3 Surf OHKO! DOPEY at ~36,863 EXP (~2,441 to Lv 34). |
