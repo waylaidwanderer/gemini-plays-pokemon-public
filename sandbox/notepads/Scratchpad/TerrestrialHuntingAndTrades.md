@@ -1,26 +1,12 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 31, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
   - Current Level: 32 (Atk 52, Def 53, Speed 20, Special 41 [Verified Screen Turn 41139]; EXP: ~33,597, ~2,340 to Lv 33)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean PokÃ©mon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
-
-### Active Milestone: Level 31 to 32 (Target: 32,768 EXP)
-
-| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B245** | 41041 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (None) | Blastoise 220/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno move had no effect, 0 dmg). Turn 2 Body Slam OHKO (Crit)! DOPEY at ~30,319 EXP (~2,449 to Lv 32). |
-| **B246** | 41053 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (Thundershock x2) | Mewtwo 228/259 HP, 8/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 Mewtwo fully PAR, took 11 dmg from T-Shock. Turn 3 took 11 dmg from T-Shock, STAB Psychic OHKO (Crit)! DOPEY at ~30,646 EXP (~2,122 to Lv 32). |
-| **B247** | 41067 | Venomoth Lv 49 | Blastoise (Surf) | 5 (unobserved move) | Blastoise 215/237 HP, 13/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 5 dmg). Turn 2 STAB Surf OHKO! DOPEY at ~30,940 EXP (~1,828 to Lv 32). |
-| **B248** | 41079 | Kadabra Lv 49 | Blastoise (Body Slam) | 0 (None) | Blastoise 215/237 HP, 13/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg taken). Turn 2 Body Slam OHKO (Crit)! DOPEY at ~31,255 EXP (~1,513 to Lv 32). |
-| **B249** | 41089 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 186/237 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 Body Slam deals ~98% dmg, paralyzes Hypno (Hypno fully PAR). Turn 3 Body Slam KOs. DOPEY at ~31,589 EXP (~1,179 to Lv 32). |
-| **B250** | 41099 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (None) | Blastoise 186/237 HP, 11/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno move had no effect, 0 dmg). Turn 2 Body Slam OHKO! DOPEY at ~31,923 EXP (~845 to Lv 32). |
-| **B251** | 41108 | Dodrio Lv 49 | Blastoise (Ice Beam) | 26 (Drill Peck) | Blastoise 160/237 HP, 8/10 Ice Beam PP, 10/15 Body Slam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 26 dmg). Blastoise Ice Beam OHKOs. DOPEY at 32,259 EXP (509 to Lv 32 [Verified Turn 41112]). |
-| **B252** | 41125 | Hypno Lv 46 | Blastoise (Body Slam) | 11 (Confusion/Headbutt) | Blastoise 149/237 HP, 9/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 11 dmg). Turn 2 Body Slam OHKO! DOPEY at ~32,593 EXP (~175 to Lv 32). |
-| **B253** | 41139 | Dodrio Lv 49 | Blastoise (Ice Beam) | 0 (Missed) | Blastoise 149/237 HP, 7/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (Dodrio missed). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY reaches Level 32! Stats: Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139]. EXP: ~32,929 (~3,008 to Lv 33). |
+*Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 
 ### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
 *Learns Water Gun at Level 33.*
