@@ -132,14 +132,14 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 91 / 91 [Verified Lv 27 Screen Turn 40479]
   - Stats: Attack 43, Defense 44, Speed 16, Special 34 [Verified Lv 27 Screen Turn 40470]
-  - EXP: ~20225 (1727 to Lv 28) [Post-B215]
+  - EXP: ~20225 (1727 to Lv 28)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
   - HP: 191 / 259 [Verified Lv 74 Screen Turn 40499]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20) [Psychic active B216]
+  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 25, Normal/Flying]
   - Status: Healthy
   - HP: 66 / 66 [Verified Lv 25 Screen Turn 40226]
@@ -150,7 +150,7 @@
   - Status: Healthy
   - HP: 177 / 237 [Verified Turn 40463]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 6/10) [Verified B214 Turn 40468]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 6/10)
 
 ## Key Items
 - BICYCLE
