@@ -24,7 +24,7 @@
 | **B228** | 40722 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (T-Wave PAR) | Mewtwo 248/259 HP, 6/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg, T-Wave PAR). Turn 2 T-Wave failed, STAB Psychic OHKO! Slowpoke reached Level 29! Stats: Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]. Slowpoke at ~24,668 EXP (2,332 to Lv 30). |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 28) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 29) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
