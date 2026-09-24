@@ -136,13 +136,13 @@
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 213 / 259 [Verified Lv 74 Screen Turn 40207]
+  - HP: 212 / 259 [Verified Lv 74 Screen Turn 40226]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 25, Normal/Flying]
   - Status: Healthy
-  - HP: 63 / 63
+  - HP: 66 / 66 [Verified Lv 25 Screen Turn 40226]
   - Stats: Attack 42, Defense 39, Speed 39, Special 37 [Verified Lv 25 Screen Turn 40221]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
