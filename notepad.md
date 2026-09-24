@@ -132,7 +132,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 78 / 78 [Verified Lv 23 Screen Turn 40111]
   - Stats: Attack 38, Defense 38, Speed 14, Special 30 [Verified Lv 23 Screen Turn 40096]
-  - EXP: ~13283 (541 to Lv 24) [Verified B194 Turn 40152]
+  - EXP: ~13598 (226 to Lv 24) [Verified B195 Turn 40164]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
@@ -150,7 +150,7 @@
   - Status: Healthy
   - HP: 156 / 233 [Verified B195 Turn 40162]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 7/10)
 
 ## Key Items
 - BICYCLE
@@ -5010,7 +5010,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 23, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 23 (HP 78/78 [Verified Turn 40111], Atk 38, Def 38, Spd 14, Spc 30; EXP: ~13,283, 541 to Lv 24)
+  - Current Level: 23 (HP 78/78 [Verified Turn 40111], Atk 38, Def 38, Spd 14, Spc 30; EXP: ~13,598, 226 to Lv 24)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 ### Expedition 15 Systematic Encounter Log (N=4)
@@ -5028,6 +5028,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B192** | 40109 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 218/259 HP, 5/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock 11 dmg, no PAR). Turn 2 STAB Psychic OHKO! Slowpoke at ~12,618 EXP (1,206 to Lv 24). Blastoise kept at 217/233 HP! |
 | **B193** | 40128 | Venomoth Lv 49 | Mewtwo (Psychic) | 4 (Psybeam) | Mewtwo 214/259 HP, 4/10 Psychic PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Psybeam (4 dmg). Turn 3 STAB Psychic 2x OHKO! Slowpoke at ~12,912 EXP (912 to Lv 24). |
 | **B194** | 40146 | Sandslash Lv 52 | Blastoise (Surf) | 25 (Fury Swipes 5x) | Blastoise 192/233 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Fury Swipes 5x, 25 dmg). Turn 2 STAB Surf OHKO! Slowpoke at ~13,283 EXP (541 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
+| **B195** | 40158 | Kadabra Lv 49 | Blastoise (Body Slam) | 36 (special attack) | Blastoise 156/233 HP, 14/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed hit, 36 dmg). Turn 2 Body Slam OHKO vs 30 base Def! Slowpoke at ~13,598 EXP (226 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 21) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -5047,8 +5048,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Sandslash Lv 52: 2x STAB Surf OHKO [Empirically Verified Battle 188 Turn 40058; 0 damage taken].
     - Dodrio Lv 49: 2x Ice Beam OHKO [Empirically Verified Battle 189 Turn 40067; 8 damage taken].
     - Golbat Lv 46: 2x Ice Beam OHKO [Empirically Verified Battle 190 Turn 40076; 8 damage taken].
-  - **Hypothesized Target Matchups (To Be Empirically Audited in Expedition 15):**
-    - Kadabra Lv 49: Projected STAB Surf / Body Slam OHKO against frail 45 Def; 180 Special tanks Psybeam.
+    - Kadabra Lv 49: Body Slam OHKO vs 30 base Def [Empirically Verified Battle 195 Turn 40164; 36 damage taken].
   - **Dangerous Matchups (AVOID):** Magneton Lv 46, Raichu Lv 53 (2x Electric damage; always route these to Mewtwo).
 - **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
   - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
