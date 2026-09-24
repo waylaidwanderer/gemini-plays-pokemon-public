@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: ~97 / ~97 [Pending post-battle overworld verification]
+  - HP: 97 / 97 [Verified Lv 29 Party Screen Turn 40746]
   - Stats: Attack 47, Defense 48, Speed 18, Special 37 [Verified Lv 29 Screen Turn 40731]
   - EXP: ~24668 (2332 to Lv 30)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
