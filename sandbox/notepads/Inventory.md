@@ -28,10 +28,10 @@
   - Stats: Attack 42, Defense 39, Speed 39, Special 37 [Verified Lv 25 Screen Turn 40221]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
-- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
+- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 59 / 233 [Verified Lv 73 Screen Turn 40348]
-  - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
+  - HP: 63 / 237 [Verified Lv 74 Screen Turn 40353]
+  - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 12/15), Surf (PP 9/15), Ice Beam (PP 2/10)
 
 ## Key Items
