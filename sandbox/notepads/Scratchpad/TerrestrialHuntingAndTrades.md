@@ -17,7 +17,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B214** | 40457 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 177/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 Body Slam OHKO! Slowpoke reached Lv 27 (Atk 43, Def 44, Spd 16, Spc 34) and learned Growl! |
 
-| **B215** | 40477 | Magneton Lv 46 | Mewtwo (Psychic) | 10 (Thundershock) | Mewtwo 210/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 10 dmg). Turn 2 Psychic in progress... |
+| **B215** | 40477 | Magneton Lv 46 | Mewtwo (Psychic) | 18 (T-Shock+Swift) | Mewtwo 202/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 10 dmg). Turn 2 Magneton Swift (8 dmg), Mewtwo STAB Psychic OHKO! Slowpoke at ~20,225 EXP (1,727 to Lv 28). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
