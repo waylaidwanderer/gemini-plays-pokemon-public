@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 107 / 107 [Verified Turn 41210], EXP: ~36,228 (~3,076 to Lv 34) [Calculated post-B263; Lv 32 verified at 34,575 Screen Turn 41210]
+  - HP: 110 / 110 [Verified Screen Turn 41357], EXP: ~36,569 (~2,735 to Lv 34) [Calculated post-B264; Lv 33 verified Screen Turn 41338]
   - Stats: Attack 54, Defense 55, Speed 20, Special 42 [Verified Lv 33 Screen Turn 41338]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -139,17 +139,17 @@
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Restored by Nurse Joy]
-- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 27, Normal/Flying]
+- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 28, Normal/Flying]
   - Status: Healthy
   - HP: 70 / 70 [Verified Lv 27 Party Screen Turn 40929]
-  - Stats: Attack 43, Defense 40, Speed 40, Special 38 [Verified Lv 26 Screen Turn 40566]
+  - Stats: Attack 47, Defense 43, Speed 43, Special 41 [Verified Lv 28 Screen Turn 41365]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
   - HP: 207 / 237 [Verified Screen Turn 41332]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 15/15), Ice Beam (PP 6/10) [4 Ice Beam, 2 Body Slam expended since Turn 41205 heal]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 15/15), Ice Beam (PP 5/10) [5 Ice Beam, 2 Body Slam expended since Turn 41205 heal]
 
 ## Key Items
 - BICYCLE
@@ -5089,7 +5089,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 33 (Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~36,228, ~3,076 to Lv 34 [Calculated post-B263])
+  - Current Level: 33 (HP 110/110 [Verified Screen Turn 41357], Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~36,569, ~2,735 to Lv 34 [Calculated post-B264])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
@@ -5115,6 +5115,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B262** | 41318 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~35,932 EXP (~5 to Lv 33). |
 
 | **B263** | 41328 | Parasect Lv 52 | Blastoise (Ice Beam) | 30 (Slash Crit) | Blastoise 207/237 HP, 6/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 30 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY grew to Level 33! Verified stats: Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338]. Forgot Growl, learned Water Gun! DOPEY at ~36,228 EXP (~3,076 to Lv 34). |
+
+| **B264** | 41356 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 207/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DUX grew to Level 28 (Atk 47, Def 43, Spd 43, Spc 41 [Verified Screen Turn 41365])! DOPEY at ~36,569 EXP (~2,735 to Lv 34). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
