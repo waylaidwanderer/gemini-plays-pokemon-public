@@ -35,7 +35,11 @@
   - Moves: Harden
 
 ## Bag Items
-- POKÉ BALL x6 [Purchased Cerulean Mart Turn 42447]
+- POKÉ BALL x5 [Threw 1 at Abra Turn 42566]
+- PP UP x1 [Verified Turn 42564]
+- MAX ELIXER x1 [Verified Turn 42564]
+- MAX POTION x1 [Verified Turn 42564]
+- TM35 x1 [Verified Turn 42565]
 
 ## Key Items
 - BICYCLE
