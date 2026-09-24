@@ -5006,7 +5006,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 25, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 26, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
   - Current Level: 26 (Atk 42, Def 43, Spd 16, Spc 33 [Verified Turn 40407]; EXP: ~18,852, 831 to Lv 27)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
@@ -5018,8 +5018,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B207** | 40395 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 237/237 HP, 9/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam Crit OHKO! Slowpoke at ~17,563 EXP (13 to Lv 26). |
-| **B208** | 40402 | Raichu Lv 53 | Mewtwo (Psychic) | 11 (T-Shock) | Mewtwo 248/259 HP (PAR), 9/10 Psychic PP | +280 EXP (227+53) | +79 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg, Thunder Wave PAR). Turn 2 Mewtwo took 11 dmg from Thundershock, overcame PAR, STAB Psychic OHKO! Slowpoke grew to Level 26 (Atk 42, Def 43, Spd 16, Spc 33)! EXP: ~17,843 (1,840 to Lv 27). |
 | **B209** | 40414 | Magneton Lv 46 | Mewtwo (Psychic) | 28 (Crit+Swift) | Mewtwo 220/259 HP (PAR), 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 21 dmg from Crit). Turn 2 Mewtwo took 7 dmg from Swift, overcame PAR, STAB Psychic OHKO! Slowpoke at ~18,170 EXP (1,513 to Lv 27). |
 | **B210** | 40421 | Golbat Lv 46 | Blastoise (Ice Beam) | 31 (Conf+Wing) | Blastoise 206/237 HP, 8/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Confuse Ray). Turn 2 Sheldon hurt in confusion (23 dmg), took 8 dmg from Wing Attack. Turn 3 2x super-effective Ice Beam Crit OHKO! Slowpoke at ~18,511 EXP (1,172 to Lv 27). |
 | **B211** | 40433 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None/Fail) | Blastoise 206/237 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~18,852 EXP (831 to Lv 27). |
@@ -5032,14 +5030,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
 
 ### Sweeper Role & Matchup Profiles
-- **Active In-Field Status (Post-B208):**
+- **Active In-Field Status (Post-B211):**
   - **BLASTOISE (SHELDON Lv 74):** Primary active sweeper. Status: Healthy, HP 206/237. Moves: Ice Beam (7/10), Surf (15/15), Body Slam (15/15), Double-Edge (15/15). Designated for all non-Electric targets.
   - **MEWTWO (OMEGA Lv 74):** Electric counter in reserve. Status: Paralyzed (PAR), HP 220/259. Moves: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20).
-- **Sweeper Baselines (Post-Heal Turn 40361):**
-  - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper. Status: Healthy, HP 259/259. Stats: Atk 190, Def 173, Spd 220, Spc 260. Moves: Swift (20/20), Psychic (10/10), Barrier (30/30), Recover (20/20).
-    - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
-  - **BLASTOISE (SHELDON Lv 74):** Physical/Special tank sweeper. Status: Healthy, HP 237/237. Stats: Atk 177, Def 204, Spd 176, Spc 183. Moves: Double-Edge (15/15), Body Slam (15/15), Surf (15/15), Ice Beam (10/10).
+- **Role & Target Matchup Profiles:**
+  - **BLASTOISE (SHELDON Lv 74):** Physical/Special tank sweeper. Designated for all non-Electric targets.
     - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Body Slam 2HKO), Kadabra Lv 49 (Body Slam OHKO), Venomoth Lv 49 (Ice Beam/Surf OHKO).
+  - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper in reserve.
+    - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
   - **In-Battle Pok� Flute Usage (Empirically Verified Turns 33850 & 39237):**
     - Using the Pok� Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POK�MON woke up!', awakening all sleepers (player and opponent).
     - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
