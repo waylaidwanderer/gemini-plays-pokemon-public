@@ -24,7 +24,7 @@
   - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 26, Normal/Flying]
   - Status: Healthy
-  - HP: 66 / 66 [Pending party menu verification post-Lv 26]
+  - HP: 68 / 68 [Verified Lv 26 Party Screen Turn 40573]
   - Stats: Attack 43, Defense 40, Speed 40, Special 38 [Verified Lv 26 Screen Turn 40566]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
