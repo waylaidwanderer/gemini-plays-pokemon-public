@@ -219,100 +219,174 @@
 
 <h1><code>Mechanics/Combat</code></h1>
 
-# Combat Mechanics (Generation 1 Retail)
-
-## Battle UI & Controls
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÃMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
-- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÃMON causes the Start menu to re-open on POKÃMON on the next press).
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
-- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKÃMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
-- **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
-- **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles [Empirically verified Turn 58 vs Rival RED].
-- **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
-- **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
-- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÃDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
-- **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
-
-## Stat & Damage Mechanics
-- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type Pokémon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
-- **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat [Empirically verified across all stat screens and damage calculations].
-- **Physical Types:** Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost [Standard Gen 1 game engine specification].
-- **Special Types:** Water, Grass, Fire, Ice, Electric, Psychic, Dragon [Standard Gen 1 game engine specification].
-- **STAB:** Same-Type Attack Bonus provides a 1.5x multiplier to damage [Standard Gen 1 game engine specification].
-- **Priority:** Quick Attack has +1 priority [Standard Gen 1 game engine specification].
-
-## Obedience
-- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
-
-## Experience Distribution & Traded Pokémon Boost
-- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
-- **Native vs. Traded Pokémon EXP Yields:**
-  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
-  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
-- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
-  - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
-    `boosted_EXP = s_EXP + floor(s_EXP / 2)`
-  - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
-- **Empirically Verified Battle EXP Calculations:**
-  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All (N=6): participant share = 262, team base share = 39) [Empirically verified across 7+ battles, including Battles 13, 22, 62 (Turn 37360)].
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All (N=6): participant share = 276, team base share = 46) [Empirically verified across 18+ battles, including Battles 1, 6-8, 64, 66, 67 (Turn 37419)].
-  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All (N=6): participant share = 269, team base share = 39) [Empirically verified across 12+ battles, including Battles 4, 11, 63 (Turn 37375)].
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All (N=6): participant share = 252, team base share = 42) [Empirically verified across 4+ battles, including Battles 2, 16, 25, 72 (Turn 37495)].
-  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All (N=6): participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
-  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All (N=6): participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
-  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All (N=6): participant share = 237, team base share = 37) [Empirically verified across 3+ battles].
-  - Raichu Lv 53: Total EXP 908. With Exp. All (N=6): participant share = 227, team base share = 37, traded share = 55 [Empirically verified across 4+ battles].
-  - Venomoth Lv 49: Observed Total EXP Variance:
-    - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-    - With Exp. All (N=6, Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
-
-- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
-
-## EXP.ALL Empirical Distribution & Observed Yields (Generation 1 Retail)
-- **Exp. All Distribution & Participant Sharing:**
-  - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants [Empirically verified across 108+ battles].
-  - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)` (e.g. 65 + 32 = 97 EXP, 59 + 29 = 88 EXP, 63 + 31 = 94 EXP).
-- **Empirical Team Base Shares Under N=6 (Full Party):**
-  - Golbat (E=1104): 46 EXP [23 empirical encounters verified]
-  - Kadabra (E=1008): 42 EXP [4 empirical encounters verified]
-  - Dodrio (E=1092): 42 EXP [11 empirical encounters verified]
-  - Hypno (E=1076): 39 EXP [20 empirical encounters verified]
-  - Magneton (E=1050): 39 EXP [10 empirical encounters verified]
-  - Parasect (E=950): 37 EXP [5 empirical encounters verified]
-  - Raichu (E=908): 37 EXP [5 empirical encounters verified]
-  - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
-
-## Participant Share & Empirical Yields Under N=4 (4-Member Party)
-- **Participant Share & Team Yields (2 Participants, N=4 Party):**
-  - Participant Share: In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
-    `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
-  - Team Base Shares: In retail assembly, the Exp. All team pool is distributed across all party members through sequential integer truncation routines. The resulting empirical base shares per Pokémon under N=4 party are:
-    - Sandslash Lv 52 (E=1188): 74 EXP
-    - Golbat Lv 46 (E=1104): 65 EXP
-    - Hypno Lv 46 (E=1076): 65 EXP
-    - Magneton Lv 46 (E=1050): 65 EXP
-    - Dodrio Lv 49 (E=1092): 63 EXP
-    - Kadabra Lv 49 (E=1008): 63 EXP
-    - Parasect Lv 52 (E=950): 59 EXP
-    - Venomoth Lv 49 (E=952): 56 EXP
-    - Raichu Lv 53 (E=908): 53 EXP
-- **Empirically Verified Participant Shares (N=4 Party):**
-  - Sandslash Lv 52 (E=1188): Participant share = 297 EXP, Team base share = 74 EXP (Total trainee gain = 371 EXP) [Verified B188 Turn 40059]
-  - Golbat Lv 46 (E=1104): Participant share = 276 EXP, Team base share = 65 EXP (Total trainee gain = 341 EXP) [Verified B190 Turn 40077]
-  - Dodrio Lv 49 (E=1092): Participant share = 273 EXP, Team base share = 63 EXP (Total trainee gain = 336 EXP) [Verified B189 Turn 40068]
-  - Hypno Lv 46 (E=1076): Participant share = 269 EXP, Team base share = 65 EXP (Total trainee gain = 334 EXP) [Verified B191 Turn 40096]
-  - Magneton Lv 46 (E=1050): Participant share = 262 EXP, Team base share = 65 EXP (Total trainee gain = 327 EXP) [Verified B192 Turn 40116]
-  - Kadabra Lv 49 (E=1008): Participant share = 252 EXP, Team base share = 63 EXP (Total trainee gain = 315 EXP) [Verified B107, B136]
-  - Venomoth Lv 49 (E=952): Participant share = 238 EXP, Team base share = 56 EXP (Total trainee gain = 294 EXP) [Verified B99, B110, B122]
-  - Parasect Lv 52 (E=950): Participant share = 237 EXP, Team base share = 59 EXP (Total trainee gain = 296 EXP) [Verified B184 Turn 39983]
-  - Raichu Lv 53 (E=908): Participant share = 227 EXP, Team base share = 53 EXP (Total trainee gain = 280 EXP) [Verified B146]
-
-
-## Field Items in Battle
-- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
-  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
+# Combat Mechanics (Generation 1 Retail)
+
+
+
+## Battle UI & Controls
+
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÃMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+
+- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÃMON causes the Start menu to re-open on POKÃMON on the next press).
+
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
+
+- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKÃMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
+
+- **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
+
+- **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles [Empirically verified Turn 58 vs Rival RED].
+
+- **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
+
+- **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
+
+- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
+
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÃDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+
+- **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
+
+
+
+## Stat & Damage Mechanics
+
+- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type Pokémon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
+
+- **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat [Empirically verified across all stat screens and damage calculations].
+
+- **Physical Types:** Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost [Standard Gen 1 game engine specification].
+
+- **Special Types:** Water, Grass, Fire, Ice, Electric, Psychic, Dragon [Standard Gen 1 game engine specification].
+
+- **STAB:** Same-Type Attack Bonus provides a 1.5x multiplier to damage [Standard Gen 1 game engine specification].
+
+- **Priority:** Quick Attack has +1 priority [Standard Gen 1 game engine specification].
+
+
+
+## Obedience
+
+- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
+
+
+
+## Experience Distribution & Traded Pokémon Boost
+
+- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+
+- **Native vs. Traded Pokémon EXP Yields:**
+
+  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
+
+  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
+
+  - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
+
+    `boosted_EXP = s_EXP + floor(s_EXP / 2)`
+
+  - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
+
+- **Empirically Verified Battle EXP Calculations:**
+
+  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All (N=6): participant share = 262, team base share = 39) [Empirically verified across 7+ battles, including Battles 13, 22, 62 (Turn 37360)].
+
+  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All (N=6): participant share = 276, team base share = 46) [Empirically verified across 18+ battles, including Battles 1, 6-8, 64, 66, 67 (Turn 37419)].
+
+  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All (N=6): participant share = 269, team base share = 39) [Empirically verified across 12+ battles, including Battles 4, 11, 63 (Turn 37375)].
+
+  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All (N=6): participant share = 252, team base share = 42) [Empirically verified across 4+ battles, including Battles 2, 16, 25, 72 (Turn 37495)].
+
+  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All (N=6): participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
+
+  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All (N=6): participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
+
+  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All (N=6): participant share = 237, team base share = 37) [Empirically verified across 3+ battles].
+
+  - Raichu Lv 53: Total EXP 908. With Exp. All (N=6): participant share = 227, team base share = 37, traded share = 55 [Empirically verified across 4+ battles].
+
+  - Venomoth Lv 49: Observed Total EXP Variance:
+
+    - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
+
+    - With Exp. All (N=6, Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
+
+
+
+- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+
+
+
+## EXP.ALL Empirical Distribution & Observed Yields (Generation 1 Retail)
+
+- **Exp. All Distribution & Participant Sharing:**
+
+  - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants [Empirically verified across 108+ battles].
+
+  - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)` (e.g. 65 + 32 = 97 EXP, 59 + 29 = 88 EXP, 63 + 31 = 94 EXP).
+
+- **Empirical Team Base Shares Under N=6 (Full Party):**
+
+  - Golbat (E=1104): 46 EXP [23 empirical encounters verified]
+
+  - Kadabra (E=1008): 42 EXP [4 empirical encounters verified]
+
+  - Dodrio (E=1092): 42 EXP [11 empirical encounters verified]
+
+  - Hypno (E=1076): 39 EXP [20 empirical encounters verified]
+
+  - Magneton (E=1050): 39 EXP [10 empirical encounters verified]
+
+  - Parasect (E=950): 37 EXP [5 empirical encounters verified]
+
+  - Raichu (E=908): 37 EXP [5 empirical encounters verified]
+
+  - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
+
+
+
+## Participant Share & Empirical Yields Under N=4 (4-Member Party)
+
+- **Participant Share & Team Yields (2 Participants, N=4 Party):**
+
+  - Participant Share: In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
+
+    `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
+
+- **Empirically Verified Participant Shares (N=4 Party):**
+
+  - Sandslash Lv 52 (E=1188): Participant share = 297 EXP, Team base share = 74 EXP (Total trainee gain = 371 EXP) [Verified B188 Turn 40059]
+
+  - Golbat Lv 46 (E=1104): Participant share = 276 EXP, Team base share = 65 EXP (Total trainee gain = 341 EXP) [Verified B190 Turn 40077]
+
+  - Dodrio Lv 49 (E=1092): Participant share = 273 EXP, Team base share = 63 EXP (Total trainee gain = 336 EXP) [Verified B189 Turn 40068]
+
+  - Hypno Lv 46 (E=1076): Participant share = 269 EXP, Team base share = 65 EXP (Total trainee gain = 334 EXP) [Verified B191 Turn 40096]
+
+  - Magneton Lv 46 (E=1050): Participant share = 262 EXP, Team base share = 65 EXP (Total trainee gain = 327 EXP) [Verified B192 Turn 40116]
+
+  - Kadabra Lv 49 (E=1008): Participant share = 252 EXP, Team base share = 63 EXP (Total trainee gain = 315 EXP) [Verified B107, B136]
+
+  - Venomoth Lv 49 (E=952): Participant share = 238 EXP, Team base share = 56 EXP (Total trainee gain = 294 EXP) [Verified B99, B110, B122]
+
+  - Parasect Lv 52 (E=950): Participant share = 237 EXP, Team base share = 59 EXP (Total trainee gain = 296 EXP) [Verified B184 Turn 39983]
+
+  - Raichu Lv 53 (E=908): Participant share = 227 EXP, Team base share = 53 EXP (Total trainee gain = 280 EXP) [Verified B146]
+
+
+
+
+
+## Field Items in Battle
+
+- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
+
+  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
+
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
+
 
 <hr>
 
@@ -5009,26 +5083,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 31, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
   - Current Level: 32 (Atk 52, Def 53, Speed 20, Special 41 [Verified Screen Turn 41139]; EXP: ~33,597, ~2,340 to Lv 33)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
-
-### Active Milestone: Level 31 to 32 (Target: 32,768 EXP)
-
-| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B245** | 41041 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (None) | Blastoise 220/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno move had no effect, 0 dmg). Turn 2 Body Slam OHKO (Crit)! DOPEY at ~30,319 EXP (~2,449 to Lv 32). |
-| **B246** | 41053 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (Thundershock x2) | Mewtwo 228/259 HP, 8/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 Mewtwo fully PAR, took 11 dmg from T-Shock. Turn 3 took 11 dmg from T-Shock, STAB Psychic OHKO (Crit)! DOPEY at ~30,646 EXP (~2,122 to Lv 32). |
-| **B247** | 41067 | Venomoth Lv 49 | Blastoise (Surf) | 5 (unobserved move) | Blastoise 215/237 HP, 13/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 5 dmg). Turn 2 STAB Surf OHKO! DOPEY at ~30,940 EXP (~1,828 to Lv 32). |
-| **B248** | 41079 | Kadabra Lv 49 | Blastoise (Body Slam) | 0 (None) | Blastoise 215/237 HP, 13/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg taken). Turn 2 Body Slam OHKO (Crit)! DOPEY at ~31,255 EXP (~1,513 to Lv 32). |
-| **B249** | 41089 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 186/237 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 Body Slam deals ~98% dmg, paralyzes Hypno (Hypno fully PAR). Turn 3 Body Slam KOs. DOPEY at ~31,589 EXP (~1,179 to Lv 32). |
-| **B250** | 41099 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (None) | Blastoise 186/237 HP, 11/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno move had no effect, 0 dmg). Turn 2 Body Slam OHKO! DOPEY at ~31,923 EXP (~845 to Lv 32). |
-| **B251** | 41108 | Dodrio Lv 49 | Blastoise (Ice Beam) | 26 (Drill Peck) | Blastoise 160/237 HP, 8/10 Ice Beam PP, 10/15 Body Slam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 26 dmg). Blastoise Ice Beam OHKOs. DOPEY at 32,259 EXP (509 to Lv 32 [Verified Turn 41112]). |
-| **B252** | 41125 | Hypno Lv 46 | Blastoise (Body Slam) | 11 (Confusion/Headbutt) | Blastoise 149/237 HP, 9/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 11 dmg). Turn 2 Body Slam OHKO! DOPEY at ~32,593 EXP (~175 to Lv 32). |
-| **B253** | 41139 | Dodrio Lv 49 | Blastoise (Ice Beam) | 0 (Missed) | Blastoise 149/237 HP, 7/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (Dodrio missed). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY reaches Level 32! Stats: Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139]. EXP: ~32,929 (~3,008 to Lv 33). |
+*Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pok�mon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 
 ### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
 *Learns Water Gun at Level 33.*
