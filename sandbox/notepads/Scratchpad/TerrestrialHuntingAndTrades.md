@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 31, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 31 (HP 104/104, Atk 50, Def 51, Speed 19, Special 40 [Verified Turn 41036]; EXP: ~32,593, ~175 to Lv 32)
+  - Current Level: 32 (Atk 52, Def 53, Speed 20, Special 41 [Verified Screen Turn 41139]; EXP: ~32,929, ~3,008 to Lv 33)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
@@ -20,6 +20,10 @@
 | **B250** | 41099 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (None) | Blastoise 186/237 HP, 11/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno move had no effect, 0 dmg). Turn 2 Body Slam OHKO! DOPEY at ~31,923 EXP (~845 to Lv 32). |
 | **B251** | 41108 | Dodrio Lv 49 | Blastoise (Ice Beam) | 26 (Drill Peck) | Blastoise 160/237 HP, 8/10 Ice Beam PP, 10/15 Body Slam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 26 dmg). Blastoise Ice Beam OHKOs. DOPEY at 32,259 EXP (509 to Lv 32 [Verified Turn 41112]). |
 | **B252** | 41125 | Hypno Lv 46 | Blastoise (Body Slam) | 11 (Confusion/Headbutt) | Blastoise 149/237 HP, 9/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 11 dmg). Turn 2 Body Slam OHKO! DOPEY at ~32,593 EXP (~175 to Lv 32). |
+| **B253** | 41139 | Dodrio Lv 49 | Blastoise (Ice Beam) | 0 (Missed) | Blastoise 149/237 HP, 7/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (Dodrio missed). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY reaches Level 32! Stats: Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139]. EXP: ~32,929 (~3,008 to Lv 33). |
+
+### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
+*Learns Water Gun at Level 33.*
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 31) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
