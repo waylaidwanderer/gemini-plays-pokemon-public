@@ -18,7 +18,7 @@
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
-  - HP: 208 / 259 [Verified Turn 40759]
+  - HP: 198 / 259 [Verified Turn 40762]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
