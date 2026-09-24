@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 91 / 241 [Post-B298 recoil; Max HP 241 Verified Screen Turn 41595]
+  - HP: 241 / 241 [Max HP Baseline; Lv 75 Stats Verified Screen Turn 41595]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
 ## Key Items
 - BICYCLE
@@ -301,7 +301,7 @@
 | Hypno | 46 | 1,076 | 538 | 269 + 65 = 334 EXP | 65 + 32 = 97 EXP | 269 + 39 = 308 EXP |
 | Magneton | 46 | 1,050 | 525 | 262 + 65 = 327 EXP | 65 + 32 = 97 EXP | 262 + 39 = 301 EXP |
 | Kadabra | 49 | 1,008 | 504 | 252 + 63 = 315 EXP | 63 + 31 = 94 EXP | 252 + 42 = 294 EXP |
-| Venomoth | 49 | 952 | 476 | 238 + 56 = 294 EXP | 56 + 28 = 84 EXP | 238 + 35 = 273 EXP |
+| Venomoth | 49 | 952 | 476 | 238 + 56 = 294 EXP | 88 EXP [Verified B299] | 238 + 35 = 273 EXP |
 | Parasect | 52 | 950 | 475 | 237 + 59 = 296 EXP | 59 + 29 = 88 EXP | 237 + 37 = 274 EXP |
 | Raichu | 53 | 908 | 454 | 227 + 53 = 280 EXP | 53 + 26 = 79 EXP | 227 + 37 = 264 EXP |
 | Ditto | 53 | 461 | 230 | 113 + 22 = 135 EXP | 22 + 11 = 33 EXP | -- |
@@ -5101,7 +5101,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | B297 | 42052 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 0 HP (Meditate) + 34 recoil | 182/241, DE 14/15 | +334 EXP (~47,256) | +97 EXP | Sheldon took 0 on switch (Hypno used Meditate). Double-Edge clean physical OHKO (-34 recoil). Sheldon healthy at 182/241 HP (DE 14/15). Slowpoke ~3,397 EXP to Lv 37 Slowbro (~10 battles). |
 | B298 | 42069 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 56 HP (Crit on switch) + 35 recoil | 91/241, DE 13/15 | +334 EXP (~47,590) | +97 EXP | Sheldon took 56 crit damage on switch. Double-Edge clean physical OHKO (-35 recoil). Sheldon at 91/241 HP (DE 13/15, above 70 HP cutoff). Slowpoke ~3,063 EXP to Lv 37 Slowbro (~9 battles). |
-| B299 | 42079 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 12 HP (Leech Life Turn 2) | 247/259, Psychic 9/10 | +294 EXP (~47,884) | +84 EXP | Slowpoke switched to Mewtwo taking Sleep Powder turn 1. Mewtwo awakened by Poké Flute turn 2 taking 12 Leech Life damage. Mewtwo outsped turn 3 with super-effective STAB Psychic clean OHKO. Slowpoke ~2,769 EXP to Lv 37 Slowbro (~8 battles). |
+| B299 | 42079 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 12 HP (Leech Life Turn 2) | 247/259, Psychic 9/10 | +238+ EXP (verifying Page 2) | +88 EXP | Slowpoke switched to Mewtwo taking Sleep Powder turn 1. Mewtwo awakened by Poké Flute turn 2 taking 12 Leech Life damage. Mewtwo outsped turn 3 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 88 EXP. Verifying Slowpoke Page 2 in overworld for exact total EXP. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 36) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
