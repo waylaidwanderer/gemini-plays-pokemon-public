@@ -126,12 +126,12 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 30, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 31, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 100 / 100 [Verified Lv 30 Screen Turn 40878]
-  - Stats: Attack 49, Defense 50, Speed 18, Special 38 [Verified Lv 30 Screen Turn 40873]
+  - Stats: Attack 50, Defense 51, Speed 19, Special 40 [Verified Lv 31 Screen Turn 41029]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR) [Turn 40994]
@@ -5011,12 +5011,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 30, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 30 (Atk 49, Def 50, Spd 18, Spc 38 [Verified Turn 40873]; EXP: ~29,644, ~147 to Lv 31)
+  - Current Level: 31 (Atk 50, Def 51, Speed 19, Special 40 [Verified Turn 41029]; EXP: ~29,985, ~2,783 to Lv 32)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
 
-### Active Milestone: Level 30 to 31 (Target: 29,791 EXP)
+### Active Milestone: Level 31 to 32 (Target: 32,768 EXP)
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -5028,6 +5028,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **Pit-Stop 7** | 40935-40947 | Cerulean Center | Nurse Joy | 0 | Full HP/PP restored, PAR cured | -- | -- | Exited 1F via (25, 17) to (4, 12). Cast Fly to Cerulean Center. Nurse Joy fully restored party (Mewtwo 259/259 HP, 10/10 Psychic; Blastoise 237/237 HP, 15/15 Surf, 10/10 Ice Beam, 15/15 Body Slam; Slowpoke 100/100 HP; Dux 70/70 HP). Exited to (19, 18). |
 | **B242** | 40995 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 250/259 HP, 9/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took T-Wave, PAR). Turn 2 took 9 dmg from Swift, STAB Psychic OHKO! DOPEY at ~29,273 EXP (~518 to Lv 31). |
 | **B243** | 41015 | Sandslash Lv 52 | Blastoise (Surf) | 8 (Slash) | Blastoise 229/237 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 8 dmg). Turn 2 STAB Surf OHKO (super effective)! DOPEY at ~29,644 EXP (~147 to Lv 31). |
+| **B244** | 41026 | Golbat Lv 46 | Blastoise (Ice Beam) | 9 (Wing Attack) | Blastoise 220/237 HP, 9/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 Ice Beam OHKO (super effective)! DOPEY grew to Level 31! Verified Lv 31 stats: Atk 50, Def 51, Spd 19, Spc 40. DOPEY at ~29,985 EXP (~2,783 to Lv 32). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 30) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
