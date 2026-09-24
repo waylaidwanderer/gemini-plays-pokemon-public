@@ -150,7 +150,7 @@
   - Caught: Route 25 tall grass [Turn 42485]
   - Moves: Gust, Sand-Attack
 ## Bag Items
-- POK� BALL x12 [Used 3: Turn 42480, 42484, 42505] [Purchased Cerulean Mart Turn 42447]
+- POK� BALL x11 [Used 4: Turn 42480, 42484, 42505, 42509] [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
@@ -1044,9 +1044,9 @@
 ## Northern Section (North of Nugget Bridge)
 - Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8.
 - Row 10 Bollard Barrier: Stone bollards spanning (12..18+, 10) enclosing southeast lawn.
-- Row 7 Elevation Boundary: Brown elevation ridge spanning columns 7..12 at row 7 with corner post at (13, 7). South-facing one-way jump ledge (cannot be traversed or jumped north) [Empirically verified Turn 42467].
+- Row 7 Elevation Boundary: Brown elevation ridge spanning columns 7..12 at row 7 with corner post at (13, 7). South-facing elevation ridge/ledge [Visually observed Turn 42467; directional collision untested].
 - Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+).
-- Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff. Column 13 features an impassable vertical cliff face blocking westward movement along rows 4..7 [Empirically verified Turn 42467].
+- Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff. Column 13 features a vertical rock cliff graphic along rows 4..7 [Visually observed Turn 42467; directional collision untested].
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
 - Item Ball at (10, 5): Poké Ball item visible on western elevated plateau north of row 7 ridge.
 
