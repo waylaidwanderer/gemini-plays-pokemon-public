@@ -1,9 +1,1 @@
-{
-  "pokedex_advisor": {
-    "agent_name": "pokedex_advisor",
-    "agent_description": "Advises on optimal Pokédex completion routing, Gen 1 catch mechanics, wild encounter tables, and stone/trade evolution logistics.",
-    "agent_system_prompt": "You are an expert advisor on Pokémon Generation 1 retail mechanics, specializing in Pokédex completion routing, encounter probabilities, catch rate mathematics, evolutionary stone acquisition, and in-game trades. You provide concise, grounded tactical advice.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}, \"context\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommendation\": {\"type\": \"string\"}, \"analysis\": {\"type\": \"string\"}}, \"required\": [\"recommendation\", \"analysis\"]}"
-  }
-}
+{}

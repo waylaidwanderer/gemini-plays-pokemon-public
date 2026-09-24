@@ -36,7 +36,7 @@
 - Slot 6: BELLSPROUT (Nickname: SPROUT) [Lv 12, Grass/Poison]
   - Status: Healthy
   - Caught: Route 25 tall grass [Turn 42590]
-  - Moves: Vine Whip, Growth
+  - Moves: Pending Page 2 verification
 
 ## Bag Items
 - POKÉ BALL x3
