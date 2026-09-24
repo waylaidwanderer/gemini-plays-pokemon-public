@@ -8,20 +8,20 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 28, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 29, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 94 / 94 [Verified Lv 28 HUD Turn 40604]
-  - Stats: Attack 46, Defense 46, Speed 17, Special 36 [Verified Lv 28 Screen Turn 40595]
-  - EXP: ~24341 (48 to Lv 29)
+  - HP: ~97 / ~97 [Pending post-battle overworld verification]
+  - Stats: Attack 47, Defense 48, Speed 18, Special 37 [Verified Lv 29 Screen Turn 40731]
+  - EXP: ~24668 (2332 to Lv 30)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
-  - Status: Healthy
-  - HP: 248 / 259 [Verified Turn 40688]
+  - Status: Paralyzed (PAR)
+  - HP: 248 / 259 [Verified Turn 40726]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 26, Normal/Flying]
   - Status: Healthy
   - HP: 68 / 68 [Verified Lv 26 Party Screen Turn 40573]
