@@ -1097,7 +1097,7 @@
 - Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Transferred to Box 2.
 - Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)). Fleeing (already registered).
 - Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)). Ball 1 broke free [Turn 42506]. Turn 1 Teleport failed. Ball 2 broke free [Turn 42510]. Turn 2 Teleport succeeded (fled) [Turn 42514].
-- Encounter 4 [Turn 42517]: Kakuna (Route 25 tall grass at (7, 4)). Target 2 of Expedition 16!
+- Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)). Target 2 of Expedition 16!
 
 
 <hr>
