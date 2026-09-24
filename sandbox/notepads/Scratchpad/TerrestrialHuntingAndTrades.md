@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 32 (HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: ~35,591, ~346 to Lv 33 [Calculated post-B261; verified at 34,575 Screen Turn 41210])
+  - Current Level: 32 (HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: ~35,932, ~5 to Lv 33 [Calculated post-B262; verified at 34,575 Screen Turn 41210])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
@@ -25,6 +25,8 @@
 | **B260** | 41286 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 8/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat move failed, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~35,257 EXP (~680 to Lv 33). |
 
 | **B261** | 41300 | Hypno Lv 46 | Blastoise (Body Slam x2) | 0 (None) | Blastoise 237/237 HP, 13/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate, 0 dmg). Turn 2 Body Slam leaves tiny red sliver (Hypno used Meditate, 0 dmg). Turn 3 Body Slam KOs! DOPEY at ~35,591 EXP (~346 to Lv 33). |
+
+| **B262** | 41318 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~35,932 EXP (~5 to Lv 33). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
