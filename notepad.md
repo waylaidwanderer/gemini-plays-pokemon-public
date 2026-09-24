@@ -5020,11 +5020,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 *Summary Level 27 to 28 (B215-B221, Turns 40477-40595): Defeated Magneton Lv 46 x2, Dodrio Lv 49, Golbat Lv 46 x2, and Sandslash Lv 52 x2. Slowpoke reached Level 28 (Atk 46, Def 46, Spd 17, Spc 36) on Turn 40595.*
 
+### Active Milestone: Level 28 to 29 (Target: 24,389 EXP)
+
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
 | **B222** | 40603 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Attack) | Blastoise 80/237 HP, 11/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 4 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~22,683 EXP (~1,706 to Lv 29). |
 | **B223** | 40613 | Golbat Lv 46 | Blastoise (Ice Beam) | 9 (Attack) | Blastoise 71/237 HP, 2/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~23,024 EXP (~1,365 to Lv 29). |
+| **Pit-Stop 6** | 40634 | Cerulean Pok�mon Center | Nurse Joy | 0 | Full Restore (All HP/PP max, PAR cured) | 0 | 0 | Executed via Fly from cave exterior (4, 12). Blastoise restored to 237/237 HP (Surf 15/15, Ice Beam 10/10); Mewtwo restored to 259/259 HP (Psychic 10/10, PAR cured); DOPEY 94/94 HP. Transit back via Route 24 canal. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 27) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
