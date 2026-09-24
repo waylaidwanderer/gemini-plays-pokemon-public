@@ -78,5 +78,6 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 0 / 20 (Empty)
+- Box 2: 1 / 20 Pokémon:
+  - Pidgey (BIRDIE Lv 13) [Deposited Turn 42625]
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
