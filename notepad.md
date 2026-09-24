@@ -132,7 +132,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 91 / 91 [Verified Lv 27 Screen Turn 40479]
   - Stats: Attack 43, Defense 44, Speed 16, Special 34 [Verified Lv 27 Screen Turn 40470]
-  - EXP: ~19898 (2054 to Lv 28) [Post-B214]
+  - EXP: ~20225 (1727 to Lv 28) [Post-B215]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
