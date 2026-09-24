@@ -9,18 +9,14 @@
 *Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
 
 *Summary B184-B202 (Turns 39975-40286): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 25 (15,865 EXP). Defeated 19 encounters across 4 levels. Mewtwo reached Lv 74.*
-*Summary B203-B206 (Turns 40296-40354): Defeated Golbat Lv 46 x3 and Hypno Lv 46. Slowpoke gained 1,357 EXP, reaching ~17,222 EXP (354 to Lv 26). Blastoise reached Lv 74. Pit-Stop 5 executed Turn 40361 at Cerulean Pok�mon Center (cured Mewtwo PSN, full HP/PP restored).*
+*Summary Level 25 to 26 (B203-B208, Turns 40296-40407): Defeated Golbat Lv 46 x4, Hypno Lv 46, and Raichu Lv 53. Executed Pit-Stop 5 at Cerulean Pokmon Center on Turn 40361. Slowpoke reached Level 26 on Turn 40407.*
 
-*Summary B207-B208 (Turns 40380-40407): Defeated Raichu Lv 53 and Magneton Lv 46. Slowpoke reached Level 26 on Turn 40407.*
-
-*Summary B209-B213 (Turns 40414-40453): Defeated Magneton Lv 46, Golbat Lv 46 x3, and Sandslash Lv 52. Slowpoke gained 1,715 EXP, reaching ~19,564 EXP (119 to Lv 27).*
+*Summary Level 26 to 27 (B209-B214, Turns 40414-40471): Defeated Magneton Lv 46, Golbat Lv 46 x3, Sandslash Lv 52, and Hypno Lv 46. Slowpoke reached Level 27 (Atk 43, Def 44, Spd 16, Spc 34) on Turn 40470 and learned Growl.*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B214** | 40457 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 177/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 Body Slam OHKO! Slowpoke reached Lv 27 (Atk 43, Def 44, Spd 16, Spc 34) and learned Growl! |
 | **B215** | 40477 | Magneton Lv 46 | Mewtwo (Psychic) | 18 (T-Shock+Swift) | Mewtwo 202/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 10 dmg). Turn 2 Magneton Swift (8 dmg), Mewtwo STAB Psychic OHKO! Slowpoke at ~20,225 EXP (1,727 to Lv 28). |
 | **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (T-Shock x2) | Mewtwo 180/259 HP, 6/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). Turn 2 Magneton Thundershock (11 dmg), Mewtwo STAB Psychic OHKO (Crit)! Slowpoke at ~20,552 EXP (1,400 to Lv 28). |
-
 | **B217** | 40517 | Dodrio Lv 49 | Blastoise (Ice Beam) | 24 (Attack) | Blastoise 153/237 HP, 5/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 24 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~20,888 EXP (1,064 to Lv 28). |
 
 ### Slowpoke Switch-Training Combat Protocol
