@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 28, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~22,683, ~1,706 to Lv 29)
+  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~23,024, ~1,365 to Lv 29)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -24,6 +24,7 @@
 | **B220** | 40571 | Sandslash Lv 52 | Blastoise (Surf) | 34 (Slash Crit) | Blastoise 96/237 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 34 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~21,941 EXP (11 to Lv 28). |
 | **B221** | 40588 | Sandslash Lv 52 | Blastoise (Surf) | 12 (Slash) | Blastoise 84/237 HP, 12/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke reached Level 28 (Atk 46, Def 46, Spd 17, Spc 36) at ~22,312 EXP (~2,077 to Lv 29). |
 | **B222** | 40603 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Attack) | Blastoise 80/237 HP, 11/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 4 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~22,683 EXP (~1,706 to Lv 29). |
+| **B223** | 40613 | Golbat Lv 46 | Blastoise (Ice Beam) | 9 (Attack) | Blastoise 71/237 HP, 2/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~23,024 EXP (~1,365 to Lv 29). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 27) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
