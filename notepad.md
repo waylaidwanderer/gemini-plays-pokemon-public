@@ -148,7 +148,7 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 130 / 237 [Verified Turn 40543]
+  - HP: 96 / 237 [Verified Turn 40576]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 3/10)
 
@@ -5026,7 +5026,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B218** | 40534 | Golbat Lv 46 | Blastoise (Ice Beam) | 23 (Self-Conf) | Blastoise 130/237 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 self-hit (23 dmg), Golbat used Haze (cleared confusion!). Turn 3 2x super-effective Ice Beam OHKO! Slowpoke at ~21,229 EXP (723 to Lv 28). |
 | **B219** | 40554 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Miss/Status) | Blastoise 130/237 HP, 3/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 overcame confusion, 2x super-effective Ice Beam OHKO! Slowpoke at ~21,570 EXP (382 to Lv 28). |
 
-| **B220** | 40571 | Sandslash Lv 52 | Blastoise (Surf) | pending | pending | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise. |
+| **B220** | 40571 | Sandslash Lv 52 | Blastoise (Surf) | 34 (Slash Crit) | Blastoise 96/237 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 34 dmg). Turn 2 Surf in progress... |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 27) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
