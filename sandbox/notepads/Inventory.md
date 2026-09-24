@@ -3,7 +3,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥3056 [Post-Champion baseline]
+- Money: ¥3056 [Verified Turn 40949]
 - Badges: 8 / 8
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
