@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 94 / 94 [Verified Lv 28 Turn 40595]
+  - HP: 94 / 94 [Verified Lv 28 HUD Turn 40604]
   - Stats: Attack 46, Defense 46, Speed 17, Special 36 [Verified Lv 28 Screen Turn 40595]
   - EXP: ~23024 (~1365 to Lv 29)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
@@ -5018,16 +5018,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 *Summary Level 26 to 27 (B209-B214, Turns 40414-40471): Defeated Magneton Lv 46, Golbat Lv 46 x3, Sandslash Lv 52, and Hypno Lv 46. Slowpoke reached Level 27 (Atk 43, Def 44, Spd 16, Spc 34) on Turn 40470 and learned Growl.*
 
+*Summary Level 27 to 28 (B215-B221, Turns 40477-40595): Defeated Magneton Lv 46 x2, Dodrio Lv 49, Golbat Lv 46 x2, and Sandslash Lv 52 x2. Slowpoke reached Level 28 (Atk 46, Def 46, Spd 17, Spc 36) on Turn 40595.*
+
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B215** | 40477 | Magneton Lv 46 | Mewtwo (Psychic) | 18 (T-Shock+Swift) | Mewtwo 202/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 10 dmg). Turn 2 Magneton Swift (8 dmg), Mewtwo STAB Psychic OHKO! Slowpoke at ~20,225 EXP (1,727 to Lv 28). |
-| **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (T-Shock x2) | Mewtwo 180/259 HP, 6/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). Turn 2 Magneton Thundershock (11 dmg), Mewtwo STAB Psychic OHKO (Crit)! Slowpoke at ~20,552 EXP (1,400 to Lv 28). |
-| **B217** | 40517 | Dodrio Lv 49 | Blastoise (Ice Beam) | 24 (Attack) | Blastoise 153/237 HP, 5/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 24 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~20,888 EXP (1,064 to Lv 28). |
-| **B218** | 40534 | Golbat Lv 46 | Blastoise (Ice Beam) | 23 (Self-Conf) | Blastoise 130/237 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 self-hit (23 dmg), Golbat used Haze (cleared confusion!). Turn 3 2x super-effective Ice Beam OHKO! Slowpoke at ~21,229 EXP (723 to Lv 28). |
-| **B219** | 40554 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Miss/Status) | Blastoise 130/237 HP, 3/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 overcame confusion, 2x super-effective Ice Beam OHKO! Slowpoke at ~21,570 EXP (382 to Lv 28). |
 
-| **B220** | 40571 | Sandslash Lv 52 | Blastoise (Surf) | 34 (Slash Crit) | Blastoise 96/237 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 34 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~21,941 EXP (11 to Lv 28). |
-| **B221** | 40588 | Sandslash Lv 52 | Blastoise (Surf) | 12 (Slash) | Blastoise 84/237 HP, 12/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke reached Level 28 (Atk 46, Def 46, Spd 17, Spc 36) at ~22,312 EXP (~2,077 to Lv 29). |
 | **B222** | 40603 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Attack) | Blastoise 80/237 HP, 11/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 4 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~22,683 EXP (~1,706 to Lv 29). |
 | **B223** | 40613 | Golbat Lv 46 | Blastoise (Ice Beam) | 9 (Attack) | Blastoise 71/237 HP, 2/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~23,024 EXP (~1,365 to Lv 29). |
 
