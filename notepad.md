@@ -110,7 +110,8 @@
 
 - [x] Evolve Psyduck into Golduck (#055) at Lv 33 [Turn 39381]
 - [x] Evolve Slowpoke into Slowbro (#080) at Lv 37 [Turn 42280]
-- [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]
+- [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]- [x] Capture wild PIDGEY (#016) in Route 25 tall grass [Turn 42485]
+
 
 <hr>
 
@@ -144,7 +145,7 @@
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 ## Bag Items
-- POK� BALL x14 [Used 1 Turn 42480] [Purchased Cerulean Mart Turn 42447]
+- POK� BALL x13 [Used 2 Turn 42480 & 42484] [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
@@ -179,7 +180,7 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 0 / 20 (Verified completely empty Turn 39426)
+- Box 2: 1 / 20 (PIDGEY Lv 13 caught Turn 42485)
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
 
 
@@ -1088,7 +1089,7 @@
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
 ## Empirical Wild Encounter Log
-- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480].
+- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Transferred to Box 2.
 
 
 <hr>
