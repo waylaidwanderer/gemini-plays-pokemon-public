@@ -30,7 +30,7 @@
   - Caught: Route 25 tall grass [Turn 42485]
   - Moves: Gust, Sand-Attack
 ## Bag Items
-- POKÉ BALL x13 [Used 2 Turn 42480 & 42484] [Purchased Cerulean Mart Turn 42447]
+- POKÉ BALL x12 [Used 3: Turn 42480, 42484, 42505] [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
