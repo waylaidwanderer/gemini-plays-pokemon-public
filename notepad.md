@@ -225,13 +225,13 @@
 
 ## Battle UI & Controls
 
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÃMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÉMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 
-- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÃMON causes the Start menu to re-open on POKÃMON on the next press).
+- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÉMON causes the Start menu to re-open on POKÉMON on the next press).
 
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 
-- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKÃMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
+- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKÉMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
 
@@ -243,7 +243,7 @@
 
 - **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
 
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÃDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÉDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
@@ -386,6 +386,10 @@
   - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
 
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
+
+- **Party Menu Cursor Memory (Generation 1 Retail):**
+  - In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld menu sessions (empirically confirmed Turn 8260 and Turn 41209: using Fly with DUX in Slot 3 left the party menu cursor pre-selected on DUX on subsequent menu openings).
+  - Do NOT assume the Party menu cursor defaults to Slot 1 across overworld sessions. Always verify cursor position or navigate deliberately.
 
 
 <hr>
@@ -5088,7 +5092,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Current Level: 32 (HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575, exactly 1,362 to Lv 33 [Verified Screen Turn 41210])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pok�mon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
+*Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 
 ### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
 *Learns Water Gun at Level 33.*
@@ -5100,9 +5104,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B256** | 41168 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 6/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat move failed, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~33,938 EXP (~1,999 to Lv 33). |
 | **B257** | 41177 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg taken). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DOPEY at ~34,279 EXP (~1,658 to Lv 33). |
 | **B258** | 41186 | Parasect Lv 52 | Blastoise (Ice Beam) | 29 (Slash Crit) | Blastoise 80/237 HP, 4/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,575 EXP (~1,362 to Lv 33). |
+| **Pit-Stop 8** | 41205 | Cerulean Pokémon Center | Nurse Joy | - | Blastoise 237/237 HP, all PP restored | Mewtwo PAR cured | All 4 Pokémon fully healed | Proactive heal (Sheldon was at 80 HP). Verified Slowpoke Level 32 stats: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575 (1,362 to Lv 33) [Verified Screen Turn 41210]. |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 31) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
