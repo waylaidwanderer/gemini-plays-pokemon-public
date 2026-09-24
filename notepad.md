@@ -5011,9 +5011,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Current Level: 27 (Atk 43, Def 44, Spd 16, Spc 34 [Verified Turn 40470]; EXP: ~21,229, 723 to Lv 28)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
+*Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
 
-*Summary B184-B202 (Turns 39975-40286): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 25 (15,865 EXP). Defeated 19 encounters across 4 levels. Mewtwo reached Lv 74.*
+*Summary Level 21 to 25 (B184-B202, Turns 39975-40286): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 25 (15,865 EXP). Defeated 19 encounters across 4 levels. Mewtwo reached Lv 74.*
 *Summary Level 25 to 26 (B203-B208, Turns 40296-40407): Defeated Golbat Lv 46 x4, Hypno Lv 46, and Raichu Lv 53. Executed Pit-Stop 5 at Cerulean Pokmon Center on Turn 40361. Slowpoke reached Level 26 on Turn 40407.*
 
 *Summary Level 26 to 27 (B209-B214, Turns 40414-40471): Defeated Magneton Lv 46, Golbat Lv 46 x3, Sandslash Lv 52, and Hypno Lv 46. Slowpoke reached Level 27 (Atk 43, Def 44, Spd 16, Spc 34) on Turn 40470 and learned Growl.*
@@ -5023,13 +5023,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B215** | 40477 | Magneton Lv 46 | Mewtwo (Psychic) | 18 (T-Shock+Swift) | Mewtwo 202/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 10 dmg). Turn 2 Magneton Swift (8 dmg), Mewtwo STAB Psychic OHKO! Slowpoke at ~20,225 EXP (1,727 to Lv 28). |
 | **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (T-Shock x2) | Mewtwo 180/259 HP, 6/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). Turn 2 Magneton Thundershock (11 dmg), Mewtwo STAB Psychic OHKO (Crit)! Slowpoke at ~20,552 EXP (1,400 to Lv 28). |
 | **B217** | 40517 | Dodrio Lv 49 | Blastoise (Ice Beam) | 24 (Attack) | Blastoise 153/237 HP, 5/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 24 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~20,888 EXP (1,064 to Lv 28). |
-
 | **B218** | 40534 | Golbat Lv 46 | Blastoise (Ice Beam) | 23 (Self-Conf) | Blastoise 130/237 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 self-hit (23 dmg), Golbat used Haze (cleared confusion!). Turn 3 2x super-effective Ice Beam OHKO! Slowpoke at ~21,229 EXP (723 to Lv 28). |
-
 | **B219** | 40554 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Turn 1) | Blastoise 130/237 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 Ice Beam in progress... |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 27) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
