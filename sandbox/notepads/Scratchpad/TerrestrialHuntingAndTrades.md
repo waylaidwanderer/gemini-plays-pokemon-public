@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 29, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 29 (Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]; EXP: ~24,995, ~2,005 to Lv 30)
+  - Current Level: 29 (Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]; EXP: ~25,322, ~1,678 to Lv 30)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -21,6 +21,7 @@
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+| **B230** | 40781 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 149/259 HP, 4/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 9 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO! Slowpoke at ~25,322 EXP (~1,678 to Lv 30). |
 | **B229** | 40749 | Magneton Lv 46 | Mewtwo (Psychic) | 90 (T-Shock/Confusion) | Mewtwo 158/259 HP, 5/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). T2 confused, hurt self. T3 hurt self. T4 snapped out, PAR. T5 took 11 dmg, STAB Psychic OHKO! Slowpoke at ~24,995 EXP (~2,005 to Lv 30). |
 
 ### Slowpoke Switch-Training Combat Protocol
