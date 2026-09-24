@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 100 / 100 [Verified Lv 30 Screen Turn 40878]
+  - HP: 104 / 104 [Verified Lv 31 Screen Turn 41036]
   - Stats: Attack 50, Defense 51, Speed 19, Special 40 [Verified Lv 31 Screen Turn 41029]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -5011,7 +5011,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 30, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 31 (Atk 50, Def 51, Speed 19, Special 40 [Verified Turn 41029]; EXP: ~29,985, ~2,783 to Lv 32)
+  - Current Level: 31 (HP 104/104, Atk 50, Def 51, Speed 19, Special 40 [Verified Turn 41036]; EXP: ~29,985, ~2,783 to Lv 32)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
