@@ -10,7 +10,7 @@
 
 - Money: ¥3056 [Verified Turn 41998]
 
-- Pokédex: 53 Caught [Verified Turn 42280 Slowbro Evolution] / 137 Seen [Verified Turn 39387]
+- Pokédex: 54 Caught [Verified Pokédex Screen Turn 42367] / 137 Seen [Verified Turn 39387]
 
 
 

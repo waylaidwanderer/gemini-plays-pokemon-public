@@ -5,7 +5,7 @@
 - IDNo: 04620
 - Money: ¥3056 [Verified Turn 41998]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 53 Caught [Verified Turn 42280 Slowbro Evolution] / 137 Seen [Verified Turn 39387]
+- Pokédex: 54 Caught [Verified Pokédex Screen Turn 42367] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
