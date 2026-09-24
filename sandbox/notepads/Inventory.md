@@ -18,7 +18,7 @@
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 172 / 259 [Verified Lv 74 Screen Turn 40316]
+  - HP: 164 / 259 [Verified Lv 74 Screen Turn 40345]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
