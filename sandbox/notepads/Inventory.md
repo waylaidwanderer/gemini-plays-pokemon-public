@@ -30,7 +30,8 @@
   - HP: 119 / 119 [Verified Screen Turn 42361]
   - Stats: Attack 56, Defense 63, Speed 28, Special 50 [Verified Screen Turn 42361]
   - OT: TRAINER (IDNo. 19882) [Traded on Route 18 Gatehouse 2F]
-  - Moves: Pending Page 2 verification
+  - Total EXP: 50,653 (4,219 to Lv 38) [Verified Screen Turn 42365]
+  - Moves: Stomp (PP 20/20), Disable (PP 20/20), Defense Curl (PP 40/40), Slam (PP 20/20) [Verified Screen Turn 42365]
 
 ## Key Items
 - BICYCLE
