@@ -20,6 +20,7 @@
 | B275 | 41606 | Golbat Lv 46 | SHELDON (Ice Beam OHKO) | 9 HP (Turn 1 move) | 202/241, IB 8/10 | +341 EXP (~40,129) | +97 EXP | Clean Ice Beam OHKO. Slowpoke ~2,746 EXP to Lv 35. |
 | B276 | 41620 | Hypno Lv 46 | SHELDON (Body Slam Crit OHKO) | 27 HP (Turn 1 move) | 175/241, BS 14/15 | +334 EXP (~40,463) | +97 EXP | Critical hit Body Slam OHKO! Slowpoke ~2,412 EXP to Lv 35. |
 | B277 | 41637 | Ditto Lv 53 | SHELDON (Body Slam x3) | 39 HP (Ice Beam/Surf) | 136/241, BS 11/15 | +135 EXP (~40,598) | +33 EXP | Transformed into Blastoise. Paralyzed by BS hit 1, crit KO on hit 3. Slowpoke ~2,277 to Lv 35. |
+| B278 | 41658 | Sandslash Lv 52 | SHELDON (Surf OHKO) | 4 HP (Poison Sting) | 132/241 (PSN), Surf 14/15 | +371 EXP (~40,969) | +111 EXP | Clean Surf OHKO. Poisoned on switch-in. Slowpoke ~1,906 EXP to Lv 35. Initiating Pit-Stop 10. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
