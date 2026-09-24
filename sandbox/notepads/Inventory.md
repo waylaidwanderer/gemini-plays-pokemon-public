@@ -37,7 +37,7 @@
 - Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pokémon (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
-- Active Box: BOX 1
+- Active Box: BOX 2 [Switched & Saved Turn 42403]
   - Box 1 Pokémon (19 / 20 Verified Empirically Turn 42394):
     - Zapdos (THUNDER Lv 50)
     - Hitmonlee (BRUCE Lv 30)
