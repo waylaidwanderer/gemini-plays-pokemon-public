@@ -5082,7 +5082,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
 *Milestone Summary: Level 34 to 35 (Completed Turn 41793, Target: 42,875 EXP achieved at 43,047 EXP, Battles B274-B284): Defeated 11 wild encounters (Dodrio x1, Golbat x2, Hypno x3, Ditto x1, Sandslash x3, Magneton x1). Slowpoke grew to Level 35 (43,047 EXP), verified stats: HP 117/117, Atk 57, Def 58, Spd 22, Spc 45 [Screen Turn 41793].*
 ### Active Milestone: Level 35 to 36 (Target: 46,656 EXP)
-*Next move: None at Lv 36. Target: 36^3 = 46,656 EXP (~2,718 EXP remaining).*
+*Next move: Hypothesized none at Lv 36 (standard Gen 1 learnset: Amnesia at Lv 40, Psychic at Lv 48; empirical verification pending Level 36 arrival). Target: 36^3 = 46,656 EXP (~2,718 EXP remaining).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -5091,7 +5091,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | B287 | 41871 | Raichu Lv 53 | OMEGA (Psychic OHKO) | 0 HP (Turn 1 move) | 259/259, Psychic 9/10 | +280 EXP (~43,938) | +79 EXP | Clean STAB Psychic OHKO. Mewtwo untouched at 259/259 HP. Slowpoke ~2,718 EXP to Lv 36. |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 35) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
@@ -5100,7 +5100,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Sweeper Role & Matchup Profiles
 - **Role & Target Matchup Profiles:**
   - **BLASTOISE (SHELDON Lv 75):** Physical/Special tank sweeper. Designated for all non-Electric targets.
-    - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Body Slam 2HKO), Kadabra Lv 49 (Body Slam OHKO), Venomoth Lv 49 (Ice Beam/Surf OHKO).
+    - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Double-Edge OHKO), Kadabra Lv 49 (Body Slam OHKO), Venomoth Lv 49 (Ice Beam/Surf OHKO).
   - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper in reserve.
     - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
 
