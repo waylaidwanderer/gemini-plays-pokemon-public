@@ -132,7 +132,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 82 / 82 [Verified Lv 24 Screen Turn 40190]
   - Stats: Attack 39, Defense 40, Speed 15, Special 31 [Verified Lv 24 Screen Turn 40182]
-  - EXP: ~14894 (731 to Lv 25) [Verified B199 Turn 40235]
+  - EXP: ~15228 (397 to Lv 25) [Verified B200 Turn 40247]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Poisoned (PSN)
@@ -150,7 +150,7 @@
   - Status: Healthy
   - HP: 138 / 233 [Verified Lv 73 Screen Turn 40231]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 10/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 9/15), Ice Beam (PP 7/10)
 
 ## Key Items
 - BICYCLE
@@ -5009,7 +5009,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 24, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 24 (Atk 39, Def 40, Spd 15, Spc 31 [Verified Turn 40182]; EXP: ~14,894, 731 to Lv 25)
+  - Current Level: 24 (Atk 39, Def 40, Spd 15, Spc 31 [Verified Turn 40182]; EXP: ~15,228, 397 to Lv 25)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop 1 taken Turn 39585.*
@@ -5025,6 +5025,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B197** | 40186 | Hypno Lv 46 | Mewtwo (Psychic 2x) | 0 (Poison Gas, PSN) | Mewtwo 214/259 HP, 1/10 Psychic PP, 19/20 Swift PP (PSN) | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (Hypno Meditate +Atk). Turn 2 STAB Psychic chunked Hypno to ~35% HP, Spc fell (Hypno Poison Gas, OMEGA poisoned, 0 HP dmg). Turn 3 STAB Psychic critical hit OHKO! Slowpoke at ~14,266 EXP (1,359 to Lv 25). Blastoise at 156/233 HP, 13/15 Surf PP! |
 | **B198** | 40205 | Venomoth Lv 49 | Blastoise (Surf) | 9 (Leech Life crit) | Blastoise 147/233 HP, 12/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Leech Life crit (9 dmg). Turn 3 STAB Surf OHKO! Slowpoke at ~14,560 EXP (1,065 to Lv 25). |
 | **B199** | 40224 | Hypno Lv 46 | Blastoise (Surf 2x) | 9 (unknown/Turn 1) | Blastoise 138/233 HP, 10/15 Surf PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 STAB Surf chunked Hypno to ~5% HP (Hypno Meditate, +Atk). Turn 3 STAB Surf finished Hypno! Slowpoke at ~14,894 EXP (731 to Lv 25). |
+| **B200** | 40241 | Hypno Lv 46 | Blastoise (Surf) | 0 (Meditate) | Blastoise 138/233 HP, 9/15 Surf PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno Meditate, 0 dmg). Turn 2 STAB Surf OHKO! Slowpoke at ~15,228 EXP (397 to Lv 25). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 24) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
