@@ -5081,7 +5081,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Summary Level 32 to 33 (B254-B263, Turns 41147-41328): Defeated 10 wild encounters (Golbat x4, Hypno x3, Parasect x2; Pit-Stop 8 at Turn 41205). Slowpoke reached Level 33 (36,228 EXP), verified stats: HP 110/110, Atk 54, Def 55, Spd 20, Spc 42 [Turn 41338]. Forgot Growl, learned Water Gun.*
 *Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
 ### Active Milestone: Level 34 to 35 (Target: 42,875 EXP)
-*Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~860 EXP remaining).*
+*Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~533 EXP remaining).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
