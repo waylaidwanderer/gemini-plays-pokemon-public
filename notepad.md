@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 110 / 110 [Verified Screen Turn 41357], EXP: ~37,549 (~1,755 to Lv 34) [Calculated post-B267; Lv 33 verified Screen Turn 41338]
+  - HP: 110 / 110 [Verified Screen Turn 41357], EXP: ~37,883 (~1,421 to Lv 34) [Calculated post-B268; Lv 33 verified Screen Turn 41338]
   - Stats: Attack 54, Defense 55, Speed 20, Special 42 [Verified Lv 33 Screen Turn 41338]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 171 / 237 [Verified Screen Turn 41395]
+  - HP: 141 / 237 [Verified Screen Turn 41416]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 12/15), Surf (PP 13/15), Ice Beam (PP 5/10) [5 Ice Beam, 3 Body Slam, 2 Surf expended since Turn 41205 heal]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 10/15), Surf (PP 13/15), Ice Beam (PP 5/10) [5 Ice Beam, 5 Body Slam, 2 Surf expended since Turn 41205 heal]
 
 ## Key Items
 - BICYCLE
@@ -5089,7 +5089,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 33 (HP 110/110 [Verified Screen Turn 41357], Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~37,549, ~1,755 to Lv 34 [Calculated post-B267])
+  - Current Level: 33 (HP 110/110 [Verified Screen Turn 41357], Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~37,883, ~1,421 to Lv 34 [Calculated post-B268])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
