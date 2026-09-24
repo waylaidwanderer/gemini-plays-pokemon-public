@@ -19,6 +19,8 @@
 | **B212** | 40441 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 206/237 HP, 6/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~19,193 EXP (490 to Lv 27). |
 | **B213** | 40449 | Sandslash Lv 52 | Blastoise (Surf) | 0 (Miss) | Blastoise 206/237 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (Sandslash attack missed, 0 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~19,564 EXP (119 to Lv 27). |
 
+| **B214** | 40457 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 177/237 HP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 using Body Slam... |
+
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
