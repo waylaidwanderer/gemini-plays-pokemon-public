@@ -29,8 +29,12 @@
   - Status: Healthy
   - Caught: Route 25 tall grass [Turn 42485]
   - Moves: Gust, Sand-Attack
+- Slot 5: KAKUNA (Nickname: COCOON) [Lv 7, Bug/Poison]
+  - Status: Healthy
+  - Caught: Route 25 tall grass [Turn 42531]
+  - Moves: Harden
 ## Bag Items
-- POKÉ BALL x9 [Used 6: Turn 42480, 42484, 42505, 42509, 42520, 42525] [Purchased Cerulean Mart Turn 42447]
+- POKÉ BALL x8 [Used 7: Turn 42480, 42484, 42505, 42509, 42520, 42525, 42530] [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE

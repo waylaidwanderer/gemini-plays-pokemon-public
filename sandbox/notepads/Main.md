@@ -110,3 +110,4 @@
 - [x] Evolve Slowpoke into Slowbro (#080) at Lv 37 [Turn 42280]
 - [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]
 - [x] Capture wild PIDGEY (#016) in Route 25 tall grass [Turn 42485]
+- [x] Capture wild KAKUNA (#014) in Route 25 tall grass [Turn 42531]
