@@ -4397,6 +4397,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Parasect: Lv 52 [Encountered 1F Turn 27400]
 - Ditto: Lv 53 [Encountered 1F Turn 33610]
 
+## Verified Southern Entrance & Patrol Geometry (Empirically Verified Turns 39450-41940)
+- **Southern Entrance / Egress Warp Mat:** Coordinates (24..25, 17). Stepping onto this 2-tile wide threshold immediately warps the player outdoors to the Cerulean City canal water.
+- **Immediate Egress Tile-by-Tile Path:**
+  - From patrol corridor at (25, 14): Step Down x3: (25, 15) -> (25, 16) -> (25, 17) [Exits cave].
+  - From (23, 14): Step Right x2 to (25, 14), then Down x3 to (25, 17).
+  - From (21, 14): Step Right x4 to (25, 14), then Down x3 to (25, 17).
+- **High-Rate Patrol Corridor (Row 14):**
+  - Walkable open cavern floor extends horizontally from X=21 through X=25 on row Y=14.
+  - X=26 is an impassable eastern rock wall.
+  - X=20 connects west to the western 1F cavern corridors.
+  - Pacing between X=21 and X=25 on row 14 generates consistent high-level wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) with zero obstacle collisions and instant 3-step access to the exit.
+
 
 <hr>
 
