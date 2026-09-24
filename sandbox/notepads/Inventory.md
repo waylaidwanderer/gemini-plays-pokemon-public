@@ -7,7 +7,7 @@
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 54 Caught [Verified Pokédex Screen Turn 42367] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
+## Party Pokémon (3 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 259 / 259 [Max HP Baseline; Lv 74 Stats Verified Screen Turn 40038]
@@ -25,14 +25,6 @@
   - HP: 241 / 241 [Verified Healed Turn 42384]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: LICKITUNG (Nickname: MARC) [Lv 37, Normal]
-  - Status: Healthy
-  - HP: 119 / 119 [Verified Screen Turn 42361]
-  - Stats: Attack 56, Defense 63, Speed 28, Special 50 [Verified Screen Turn 42361]
-  - OT: TRAINER (IDNo. 19882) [Traded on Route 18 Gatehouse 2F]
-  - Total EXP: 50,653 (4,219 to Lv 38) [Verified Screen Turn 42365]
-  - Moves: Stomp (PP 20/20), Disable (PP 20/20), Defense Curl (PP 40/40), Slam (PP 20/20) [Verified Screen Turn 42365]
-
 ## Key Items
 - BICYCLE
 - SUPER ROD
@@ -46,7 +38,7 @@
 
 ## PC Pokémon Storage
 - Active Box: BOX 1
-  - Box 1 Pokémon (18 / 20 Verified Empirically Turn 39431-39432):
+  - Box 1 Pokémon (19 / 20 Verified Empirically Turn 42394):
     - Zapdos (THUNDER Lv 50)
     - Hitmonlee (BRUCE Lv 30)
     - Lapras (NESSY Lv 15)
@@ -65,5 +57,6 @@
     - Kingler (PINCHY Lv 28)
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
+    - Lickitung (MARC Lv 37) [Deposited Turn 42394]
 - Box 2: 0 / 20 (Verified completely empty Turn 39426)
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
