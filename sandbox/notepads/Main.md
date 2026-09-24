@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥1306 [Verified Turn 42648]
+- Money: ¥106 [Verified Turn 42653]
 
 - Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
 
