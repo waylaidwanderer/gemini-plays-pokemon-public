@@ -3136,7 +3136,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Stairs down to 1F: Located at (7, 7).
 - Binoculars: Western binoculars at (1, 4), eastern binoculars at (6, 4).
 - Potted plant at (0, 6..7).
-- NPC: Wandering boy (SPRITE_853c) in upper observation walkway (row 2). Offers in-game trade: wants SLOWBRO in exchange for LICKITUNG.
+- NPC: Wandering boy (SPRITE_853c) in upper observation walkway (row 2). In-game trade COMPLETED [Turn 42353]: Traded SLOWBRO for LICKITUNG (MARC, OT TRAINER, IDNo 19882, #108). Trade no longer available.
 
 <hr>
 
@@ -5076,10 +5076,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Party & Stats Screen UI Navigation (Generation 1 Retail)
 - **Stats Screen Page Navigation:** On Page 1 of a Pokémon's STATS screen (displaying HP, stats, types, OT), pressing EITHER 'A' OR 'B' advances to Page 2 (displaying EXP points, Level Up EXP, moves and PP) [Empirically verified: 'B' Turn 39837; 'A' Turn 40083]. On Page 2, pressing 'B' exits the STATS screen back to the Party menu with cursor positioned on the inspected Pokémon [Empirically verified Turn 39838].
 
-## In-Game NPC Trade Party Slot Reorganization Mechanics [Empirically Verified Turns 42344-42358]
-- In Generation 1 retail, when trading a Pokémon from the active party with an NPC:
-  - If the offered Pokémon is in Slot 1 (lead slot), removing it causes all subsequent party Pokémon to shift up by 1 slot (Slot 2 becomes Slot 1, Slot 3 becomes Slot 2, Slot 4 becomes Slot 3).
-  - The newly received traded Pokémon is appended directly into the LAST occupied party slot (e.g. 4-member party: Slot 4 became MARC).
+## In-Game NPC Trade Party Slot Reorganization Mechanics (Lead Slot Trade, N=1) [Empirically Verified Turns 42344-42358]
+- When trading the lead Pokémon (Slot 1) from the active party with an NPC:
+  - Removing the lead Pokémon causes all subsequent party Pokémon to shift up by 1 slot (Slot 2 becomes Slot 1, Slot 3 becomes Slot 2, Slot 4 becomes Slot 3).
+  - The newly received traded Pokémon is appended directly into the LAST occupied party slot (e.g. 4-member party: Slot 4 became MARC). Behavior for non-lead slot trades (Slots 2..6) remains unverified.
   - Traded Pokémon arrives at the exact same level as the offered Pokémon (Slowbro Lv 37 -> Lickitung Lv 37).
 
 
@@ -5092,10 +5092,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target Accomplished: SLOWPOKE (DOPEY Lv 15 -> Lv 37 Slowbro -> traded for Lickitung MARC, #108) [Turn 42353]
 - Trade Status: COMPLETED on Route 18 Gatehouse 2F [Turn 42353].
 - Next Immediate Step:
-  1. Inspect Page 2 of MARC's STATS screen (moves and EXP).
-  2. Exit to Start menu -> open POKéDEX to empirically confirm 54 Caught.
-  3. Fly to Fuchsia City Pokémon Center -> access PC to deposit MARC into Box 1.
-  4. Select next Pokédex target species and plan Expedition 16.
+  1. Access Bill's PC -> DEPOSIT PKMN -> Deposit MARC into Box 1.
+  2. Verify Box 1 status and select next Pokédex target for Expedition 16.
 
 
 <hr>
