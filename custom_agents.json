@@ -1,9 +1,1 @@
-{
-  "trade_and_evolution_planner": {
-    "agent_name": "trade_and_evolution_planner",
-    "agent_description": "Plans logistics, routing, and preparation for in-game trades and post-evolution milestones across Kanto.",
-    "agent_system_prompt": "You are an expert strategic advisor for retail Pokémon Red/Blue. Your role is to plan optimal routing, prerequisite tracking, and execution steps for in-game trades, particularly the upcoming Route 18 Gatehouse 2F trade of Slowbro for Lickitung (MARC #108), including route prerequisites (Bicycle, Cut, Soulbadge), item requirements, and next Pokédex targets.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"target_species\": {\"type\": \"string\"}, \"offered_species\": {\"type\": \"string\"}, \"location\": {\"type\": \"string\"}}, \"required\": [\"target_species\", \"offered_species\", \"location\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"trade_feasible\": {\"type\": \"boolean\"}, \"route_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"next_targets\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"trade_feasible\", \"route_steps\", \"next_targets\"]}"
-  }
-}
+{}
