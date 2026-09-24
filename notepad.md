@@ -5024,7 +5024,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (T-Shock x2) | Mewtwo 180/259 HP, 6/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). Turn 2 Magneton Thundershock (11 dmg), Mewtwo STAB Psychic OHKO (Crit)! Slowpoke at ~20,552 EXP (1,400 to Lv 28). |
 | **B217** | 40517 | Dodrio Lv 49 | Blastoise (Ice Beam) | 24 (Attack) | Blastoise 153/237 HP, 5/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 24 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~20,888 EXP (1,064 to Lv 28). |
 
-| **B218** | 40534 | Golbat Lv 46 | Blastoise (Ice Beam) | pending | pending | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise. |
+| **B218** | 40534 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Miss/Status) | Blastoise 153/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 Ice Beam in progress... |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
