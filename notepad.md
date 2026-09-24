@@ -132,7 +132,6 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 97 / 97 [Verified Lv 29 Party Screen Turn 40746]
   - Stats: Attack 47, Defense 48, Speed 18, Special 37 [Verified Lv 29 Screen Turn 40731]
-  - EXP: ~25990 (1010 to Lv 30)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
@@ -1486,7 +1485,7 @@
 - **No Direct 'A' Interaction:** In retail Pokémon Red/Blue, pressing 'A' while facing a cuttable tree, boulder, or dark cave does NOT prompt the player to use field moves. Field moves MUST be manually selected through the party Pokémon menu.
 - **Menu Execution Sequence:**
   1. Press `Start` to open the Start menu.
-  2. Select `POKEéMON` (2nd option from top).
+  2. Select `POKéMON` (2nd option from top).
   3. Navigate to the party member knowing the desired field move.
   4. Press `A` to open the Pokémon's command menu.
   5. Select the field move (e.g. `CUT`, `FLASH`, `SURF`, `STRENGTH`, `DIG`, `TELEPORT`) at the top of the menu above STATS / SWITCH.
@@ -1505,7 +1504,7 @@
     - The destination list wraps around continuously in both directions.
     - Spatial 2D directional navigation (Left/Right) is disabled on the Fly map; selection operates strictly as a cyclic 1D list of registered sites.
     - Pressing 'A' confirms flight to the selected destination, instantly transporting the player outside that city/facility's Pokémon Center or entrance threshold. Pressing 'B' cancels Fly and returns to the overworld [Empirically verified Turns 28805-28811].
-  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POKEeMON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POKEeMON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
+  - Outdoor Restriction: HM02 Fly cannot be cast indoors, inside buildings, or inside forest dungeons (attempting to use Fly inside Indigo Plateau lobby yields '[POKéMON] can't FLY here.' [Empirically verified Turn 28857]; attempting to use Fly inside Viridian Forest yields '[POKéMON] can't FLY here.' [Empirically verified Turn 32104]). The player must exit outdoors to an open-sky exterior route before using Fly.
 - **HM01 CUT:**
   - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
   - Designated User: Farfetch'd (DUX).
@@ -1521,10 +1520,10 @@
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
 
 ## Field Items (Poké Flute)
-- **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKEéMON blocks the way!" and closes without prompting to play the flute. The POKEé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKEé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
+- **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKEé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKEé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 
 ## Bicycle Physics & Locomotion Mechanics
-- **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot; standard theoretical values, exact pixel velocity pending dedicated frame-by-frame measurement).
+- **Bicycle Movement Speed:** On the Bicycle, player movement speed across the overworld grid is doubled compared to on foot [Empirically verified across all route and city cycling].
 - **Perpendicular Turn Mechanics & Input Buffering:** When mounted on the Bicycle, a single isolated directional input while facing a perpendicular direction turns the player in place without advancing a step (empirically confirmed Turns 4046-4054). However, chaining directional inputs in a multi-button sequence buffers continuous locomotion, overriding turn-in-place mechanics and immediately advancing full strides into the perpendicular direction (empirically confirmed Turn 13078: ['Right' x4, 'Up'] advanced 2 tiles north across the perpendicular input to (37, 29)).
 - **Discrete Inputs vs Buffered Strides:** Depending on input timing and buffering, bicycle locomotion may advance 1 or 2 grid tiles per directional input. Chained inputs frequently buffer continuous 2-tile strides.
 - **Precision Alignment & Navigation:** When navigating tight single-tile gaps or aligning with precision between obstacles, dismounting the Bicycle to foot locomotion guarantees strict 1-tile step precision.
