@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 211 / 237 [Verified Turn 40709]
+  - HP: 193 / 237 [Verified Turn 40858]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 8/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 7/10)
 
 ## Key Items
 - BICYCLE
@@ -309,6 +309,11 @@
   - Parasect Lv 52 (E=950): Participant share = 237 EXP, Team base share = 59 EXP (Total trainee gain = 296 EXP) [Verified B184 Turn 39983]
   - Raichu Lv 53 (E=908): Participant share = 227 EXP, Team base share = 53 EXP (Total trainee gain = 280 EXP) [Verified B146]
 
+
+## Field Items in Battle
+- **In-Battle Pok� Flute Usage (Empirically Verified Turns 33850 & 39237):**
+  - Using the Pok� Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POK�MON woke up!', awakening all sleepers (player and opponent).
+  - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 
 <hr>
 
@@ -5007,7 +5012,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 29, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 29 (Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]; EXP: ~26,651, ~349 to Lv 30)
+  - Current Level: 29 (Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]; EXP: ~26,987, ~13 to Lv 30)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 29 (B165-B228, Turns 39482-40730): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 29 (24,668 EXP). Defeated 64 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 29: HP 97/97, Atk 47, Def 48, Spd 18, Spc 37.*
@@ -5021,7 +5026,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B231** | 40795 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 211/237 HP, 8/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Haze, 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~25,663 EXP (~1,337 to Lv 30). |
 | **B232** | 40810 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 140/259 HP, 3/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 took 9 dmg from Swift, STAB Psychic OHKO! Slowpoke at ~25,990 EXP (~1,010 to Lv 30). |
 | **B233** | 40822 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (T-Wave/Supersonic fail) | Mewtwo 140/259 HP, 2/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO (Crit)! Slowpoke at ~26,317 EXP (~683 to Lv 30). |
-| **B234** | 40836 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (Poison Gas/Hypnosis) | Blastoise 211/237 HP, 13/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise. Turn 2-3 Body Slam 2HKO. Slowpoke at ~26,651 EXP (~349 to Lv 30). |
+| **B234** | 40836 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (Meditate) | Blastoise 211/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate). Turn 2 Body Slam OHKO (Crit)! Slowpoke at ~26,651 EXP (~349 to Lv 30). |
+| **B235** | 40854 | Dodrio Lv 49 | Blastoise (Ice Beam) | 18 (Drill Peck) | Blastoise 193/237 HP, 7/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 18 dmg). Turn 2 Ice Beam OHKO (super effective)! Slowpoke at ~26,987 EXP (~13 to Lv 30). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 29) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
