@@ -10,7 +10,7 @@
 ## Party Pokémon (5 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 257 / 259 [Current Battle HP]
+  - HP: 257 / 259
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -35,7 +35,7 @@
   - Moves: Harden
 
 ## Bag Items
-- POKÉ BALL x5 [Threw 1 at Abra Turn 42566]
+- POKÉ BALL x5
 - PP UP x1 [Verified Turn 42564]
 - MAX ELIXER x1 [Verified Turn 42564]
 - MAX POTION x1 [Verified Turn 42564]

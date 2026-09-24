@@ -31,8 +31,9 @@
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
 ## Empirical Wild Encounter Log
-- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Added to Party Slot 4.
-- Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)). Fleeing (already registered).
-- Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)). Ball 1 broke free [Turn 42506]. Turn 1 Teleport failed. Ball 2 broke free [Turn 42510]. Turn 2 Teleport succeeded (fled) [Turn 42514].
-- Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)). Ball 1 broke free [Turn 42521]. Ball 2 broke free [Turn 42526]. Ball 3 CAUGHT [Turn 42531]. Nicknamed COCOON, added to Party Slot 5.
-- Encounter 5 [Turn 42543]: Abra Lv 12 (Route 25 tall grass at (2, 4)). Ball 1 broke free [Turn 42547]. Turn 1 Teleport failed. Ball 2 broke free [Turn 42551]. Turn 2 Teleport succeeded (fled) [Turn 42554].
+- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)) - CAUGHT (Ball 2, Nickname: BIRDIE, Party Slot 4).
+- Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)) - FLED (already registered).
+- Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)) - FLED (Teleport).
+- Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)) - CAUGHT (Ball 3, Nickname: COCOON, Party Slot 5).
+- Encounter 5 [Turn 42543]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
+- Encounter 6 [Turn 42559]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).

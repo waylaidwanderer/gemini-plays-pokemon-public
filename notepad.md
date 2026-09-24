@@ -2,11 +2,7 @@
 
 # Pokémon Blue - Journey Log
 
-
-
 ## Status
-
-
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
@@ -14,11 +10,7 @@
 
 - Pokédex: 56 Caught [KAKUNA #014 caught Turn 42531] / 137 Seen [Verified Turn 39387]
 
-
-
 ## Milestones
-
-
 
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
@@ -111,9 +103,6 @@
 - [x] Evolve Psyduck into Golduck (#055) at Lv 33 [Turn 39381]
 - [x] Evolve Slowpoke into Slowbro (#080) at Lv 37 [Turn 42280]
 - [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]
-- [x] Capture wild PIDGEY (#016) in Route 25 tall grass [Turn 42485]
-- [x] Capture wild KAKUNA (#014) in Route 25 tall grass [Turn 42531]
-
 
 <hr>
 
@@ -131,7 +120,7 @@
 ## Party Pokémon (5 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 257 / 259 [Current Battle HP]
+  - HP: 257 / 259
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -156,7 +145,7 @@
   - Moves: Harden
 
 ## Bag Items
-- POKÉ BALL x5 [Threw 1 at Abra Turn 42566]
+- POKÉ BALL x5
 - PP UP x1 [Verified Turn 42564]
 - MAX ELIXER x1 [Verified Turn 42564]
 - MAX POTION x1 [Verified Turn 42564]
@@ -1103,12 +1092,12 @@
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
 ## Empirical Wild Encounter Log
-- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Added to Party Slot 4.
-- Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)). Fleeing (already registered).
-- Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)). Ball 1 broke free [Turn 42506]. Turn 1 Teleport failed. Ball 2 broke free [Turn 42510]. Turn 2 Teleport succeeded (fled) [Turn 42514].
-- Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)). Ball 1 broke free [Turn 42521]. Ball 2 broke free [Turn 42526]. Ball 3 CAUGHT [Turn 42531]. Nicknamed COCOON, added to Party Slot 5.
-- Encounter 5 [Turn 42543]: Abra Lv 12 (Route 25 tall grass at (2, 4)). Ball 1 broke free [Turn 42547]. Turn 1 Teleport failed. Ball 2 broke free [Turn 42551]. Turn 2 Teleport succeeded (fled) [Turn 42554].
-
+- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)) - CAUGHT (Ball 2, Nickname: BIRDIE, Party Slot 4).
+- Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)) - FLED (already registered).
+- Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)) - FLED (Teleport).
+- Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)) - CAUGHT (Ball 3, Nickname: COCOON, Party Slot 5).
+- Encounter 5 [Turn 42543]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
+- Encounter 6 [Turn 42559]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
 
 <hr>
 
@@ -5113,10 +5102,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Box 1: 19 / 20 Pokémon (MARC deposited Turn 42394).
 - Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
   - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!), Abra (#063). (Note: Oddish is Red-exclusive in retail Gen 1; Bellsprout is Blue counterpart).
+    - Route 25 Western Grass Empirical Distribution (N=6): Pidgey 2 (33%), Abra 3 (50%), Kakuna 1 (17%), Bellsprout 0 (0%).
+    - Ball Conservation Rule: 5 Poké Balls remaining. Full-health basic Poké Ball on Abra yields ~26% probability and risks depleting all balls before Bellsprout is sighted. If Abra appears, flee to preserve balls. Prioritize Bellsprout capture!
+    - If Bellsprout not encountered in western patch, explore eastern Route 25 grass or Route 24 grass.
   - Target 2: Viridian Forest / Route 2 - Caterpie (#010 -> #011 -> #012), Weedle (#013 -> #014 -> #015).
   - Target 3: Route 1 - Pidgey (#016 -> #017), Rattata (#019 -> #020).
   - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone).
   - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
-
 
 <hr>
