@@ -29,7 +29,7 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 181 / 237 [Verified Turn 40880]
+  - HP: 169 / 237 [Verified Turn 40916]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 12/15), Surf (PP 15/15), Ice Beam (PP 5/10)
 
