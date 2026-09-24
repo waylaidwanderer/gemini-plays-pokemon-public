@@ -135,10 +135,10 @@
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
-  - HP: 132 / 259 [Verified Turn 40891]
+  - HP: 121 / 259 [Verified Turn 40934]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 27, Normal/Flying]
   - Status: Healthy
   - HP: 70 / 70 [Verified Lv 27 Party Screen Turn 40929]
@@ -5011,7 +5011,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 30, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 30 (Atk 49, Def 50, Spd 18, Spc 38 [Verified Turn 40873]; EXP: ~28,619, ~1,172 to Lv 31)
+  - Current Level: 30 (Atk 49, Def 50, Spd 18, Spc 38 [Verified Turn 40873]; EXP: ~28,946, ~845 to Lv 31)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
@@ -5024,6 +5024,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B238** | 40887 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (Swift/T-Shock) | Mewtwo 132/259 HP, 1/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 8 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO (Crit)! DOPEY at ~27,991 EXP (~1,800 to Lv 31). |
 | **B239** | 40898 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (Meditate) | Blastoise 181/237 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate, 0 dmg). Turn 2 Body Slam deals ~95% dmg. Turn 3 Body Slam KOs Hypno. DOPEY at ~28,325 EXP (~1,466 to Lv 31). |
 | **B240** | 40912 | Venomoth Lv 49 | Blastoise (Surf) | 12 (unobserved move) | Blastoise 169/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 STAB Surf OHKO! DOPEY at ~28,619 EXP (~1,172 to Lv 31). |
+| **B241** | 40927 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 121/259 HP, 0/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 took 11 dmg from T-Shock, STAB Psychic OHKO! Mewtwo Psychic at 0 PP -> trigger pit-stop retreat. DOPEY at ~28,946 EXP (~845 to Lv 31). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 29) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
