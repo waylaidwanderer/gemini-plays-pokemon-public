@@ -51,3 +51,5 @@
   2. Open Start menu -> POKéMON -> DUX (Slot 3) -> Select FLY -> Fly to Cerulean City.
   3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (clears Mewtwo's PAR, restores all HP/PP).
   4. Exit Pokémon Center -> Mount Bicycle -> Ride north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
+
+| **B242** | 40995 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 250/259 HP, 9/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took T-Wave, PAR). Turn 2 took 9 dmg from Swift, STAB Psychic OHKO! DOPEY at ~29,273 EXP (~518 to Lv 31). |
