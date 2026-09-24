@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~40,463 (~2,412 to Lv 35) [Calculated post-B276; Lv 34 verified Screen Turn 41467]
+  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~40,598 (~2,277 to Lv 35) [Calculated post-B277; Lv 34 verified Screen Turn 41467]
   - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 175 / 241 [Verified Screen Turn 41624]
+  - HP: 136 / 241 [Verified Screen Turn 41656]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 8/10) [Ice Beam used B275 Turn 41612]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 15/15), Ice Beam (PP 8/10) [Body Slam used B276-B277]
 
 ## Key Items
 - BICYCLE
@@ -5158,6 +5158,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | B274 | 41588 | Dodrio Lv 49 | SHELDON (Ice Beam OHKO) | 30 HP (Fury Attack) | 211/241, IB 9/10 | +336 EXP (~39,788) | +94 EXP | Sheldon grew to Lv 75! Verified stats: Atk 180, Def 208, Spd 179, Spc 186 [Turn 41595]. |
 | B275 | 41606 | Golbat Lv 46 | SHELDON (Ice Beam OHKO) | 9 HP (Turn 1 move) | 202/241, IB 8/10 | +341 EXP (~40,129) | +97 EXP | Clean Ice Beam OHKO. Slowpoke ~2,746 EXP to Lv 35. |
 | B276 | 41620 | Hypno Lv 46 | SHELDON (Body Slam Crit OHKO) | 27 HP (Turn 1 move) | 175/241, BS 14/15 | +334 EXP (~40,463) | +97 EXP | Critical hit Body Slam OHKO! Slowpoke ~2,412 EXP to Lv 35. |
+| B277 | 41637 | Ditto Lv 53 | SHELDON (Body Slam x3) | 39 HP (Ice Beam/Surf) | 136/241, BS 11/15 | +135 EXP (~40,598) | +33 EXP | Transformed into Blastoise. Paralyzed by BS hit 1, crit KO on hit 3. Slowpoke ~2,277 to Lv 35. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
