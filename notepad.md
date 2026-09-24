@@ -121,24 +121,24 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥3056 [Verified Turn 40949]
+- Money: �3056 [Verified Turn 41998]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
+- Pok�dex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
+## Party Pok�mon (4 / 6)
 - Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 35, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 117 / 117 [Verified Screen Turn 41799], EXP: ~45,269 (~1,387 to Lv 36) [Calculated post-B291; Lv 35 stats verified Screen Turn 41793]
+  - HP: 117 / 117 [Verified Screen Turn 41799]
   - Stats: Attack 57, Defense 58, Speed 22, Special 45 [Verified Lv 35 Screen Turn 41793]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
-  - Status: Paralyzed (PAR)
-  - HP: 222 / 259 [Verified Screen Turn 41933]
+  - Status: Healthy
+  - HP: 259 / 259 [Max HP Baseline; Lv 74 Stats Verified Screen Turn 40038]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 29, Normal/Flying]
   - Status: Healthy
   - HP: 75 / 75 [Verified Party Screen Turn 41929]
@@ -147,24 +147,24 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 155 / 241 [Verified Screen Turn 41921]
+  - HP: 241 / 241 [Max HP Baseline; Lv 75 Stats Verified Screen Turn 41595]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
 ## Key Items
 - BICYCLE
 - SUPER ROD
-- POKé FLUTE
+- POK� FLUTE
 - SILPH SCOPE
 - HM02 (FLY)
 - EXP.ALL
 - TOWN MAP
 - COIN CASE
-- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pokémon (DUX: Cut/Fly, SHELDON: Surf).
+- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pok�mon (DUX: Cut/Fly, SHELDON: Surf).
 
-## PC Pokémon Storage
+## PC Pok�mon Storage
 - Active Box: BOX 1
-  - Box 1 Pokémon (18 / 20 Verified Empirically Turn 39431-39432):
+  - Box 1 Pok�mon (18 / 20 Verified Empirically Turn 39431-39432):
     - Zapdos (THUNDER Lv 50)
     - Hitmonlee (BRUCE Lv 30)
     - Lapras (NESSY Lv 15)
@@ -184,7 +184,8 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
 - Box 2: 0 / 20 (Verified completely empty Turn 39426)
-- Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
+- Boxes 3�12: Uninspected storage (contains remaining caught Pok�mon).
+
 
 <hr>
 
