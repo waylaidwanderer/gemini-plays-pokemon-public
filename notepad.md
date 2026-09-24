@@ -117,10 +117,10 @@
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (6 / 6)
+## Party Pokémon (3 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 257 / 259
+  - HP: 259 / 259 [Healed Turn 42615]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -135,18 +135,6 @@
   - HP: 241 / 241 [Verified Healed Turn 42384]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: PIDGEY (Nickname: BIRDIE) [Lv 13, Normal/Flying]
-  - Status: Healthy
-  - Caught: Route 25 tall grass [Turn 42485]
-  - Moves: Gust, Sand-Attack
-- Slot 5: KAKUNA (Nickname: COCOON) [Lv 7, Bug/Poison]
-  - Status: Healthy
-  - Caught: Route 25 tall grass [Turn 42531]
-  - Moves: Harden
-- Slot 6: BELLSPROUT (Nickname: SPROUT) [Lv 12, Grass/Poison]
-  - Status: Healthy
-  - Caught: Route 25 tall grass [Turn 42590]
-  - Moves: Pending Page 2 verification
 
 ## Bag Items
 - POKÉ BALL x3
