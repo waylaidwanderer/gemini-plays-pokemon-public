@@ -12,7 +12,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 100 / 100 [Verified Lv 30 Screen Turn 40878]
+  - HP: 104 / 104 [Verified Lv 31 Screen Turn 41036]
   - Stats: Attack 50, Defense 51, Speed 19, Special 40 [Verified Lv 31 Screen Turn 41029]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
