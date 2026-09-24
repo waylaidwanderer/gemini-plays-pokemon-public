@@ -5006,9 +5006,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 28, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 29, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~24,341, 48 to Lv 29)
+  - Current Level: 29 (Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]; EXP: ~24,668, 2,332 to Lv 30)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -5020,17 +5020,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 *Summary Level 27 to 28 (B215-B221, Turns 40477-40595): Defeated Magneton Lv 46 x2, Dodrio Lv 49, Golbat Lv 46 x2, and Sandslash Lv 52 x2. Slowpoke reached Level 28 (Atk 46, Def 46, Spd 17, Spc 36) on Turn 40595.*
 
-### Active Milestone: Level 28 to 29 (Target: 24,389 EXP)
+*Summary Level 28 to 29 (B222-B228, Turns 40603-40730): Defeated Sandslash Lv 52, Golbat Lv 46, Dodrio Lv 49, and Magneton Lv 46 x4 (with Pit-Stop 6 at Cerulean Pok�mon Center on Turn 40634). Slowpoke reached Level 29 (Atk 47, Def 48, Spd 18, Spc 37) on Turn 40730.*
+
+### Active Milestone: Level 29 to 30 (Target: 27,000 EXP)
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B222** | 40603 | Sandslash Lv 52 | Blastoise (Surf) | 4 (Attack) | Blastoise 80/237 HP, 11/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 4 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~22,683 EXP (~1,706 to Lv 29). |
-| **B223** | 40613 | Golbat Lv 46 | Blastoise (Ice Beam) | 9 (Attack) | Blastoise 71/237 HP, 2/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~23,024 EXP (~1,365 to Lv 29). |
-| **Pit-Stop 6** | 40634 | Cerulean Pokémon Center | Nurse Joy | 0 | Full Restore (All HP/PP max, PAR cured) | 0 | 0 | Executed via Fly from cave exterior (4, 12). Blastoise restored to 237/237 HP (Surf 15/15, Ice Beam 10/10); Mewtwo restored to 259/259 HP (Psychic 10/10, PAR cured); DOPEY 94/94 HP. Transit back via Route 24 canal. |
-| **B224** | 40669 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (Supersonic) | Mewtwo 259/259 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg). Turn 2 Mewtwo overcame confusion, STAB Psychic OHKO (Crit)! Slowpoke at ~23,351 EXP (~1,038 to Lv 29). |
-| **B225** | 40684 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (T-Shock) | Mewtwo 248/259 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg from Thundershock). Turn 2 Mewtwo STAB Psychic OHKO! Slowpoke at ~23,678 EXP (~711 to Lv 29). |
-| **B226** | 40694 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (Miss/Status) | Mewtwo 248/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg). Turn 2 Mewtwo STAB Psychic OHKO! Slowpoke at ~24,005 EXP (~384 to Lv 29). |
-| **B227** | 40705 | Dodrio Lv 49 | Blastoise (Ice Beam) | 26 (Attack) | Blastoise 211/237 HP, 9/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 26 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~24,341 EXP (48 to Lv 29). |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+| **B228** | 40722 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (T-Wave PAR) | Mewtwo 248/259 HP, 6/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg, T-Wave PAR). Turn 2 T-Wave failed, STAB Psychic OHKO! Slowpoke reached Level 29! Stats: Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]. Slowpoke at ~24,668 EXP (2,332 to Lv 30). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 28) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
