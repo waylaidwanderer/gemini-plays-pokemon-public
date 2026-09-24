@@ -46,7 +46,8 @@
 
 ## Obedience
 
-- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
+- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 74 and wild-caught Mewtwo OMEGA at Lv 74 obey 100% of commands in all battles without disobedience).
+- **Traded / Outsider Pokémon:** Traded Pokémon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All Pokémon obey). Verified: With Earthbadge obtained [Turn 15111], all traded Pokémon obey unconditionally up to Lv 100.
 
 
 
