@@ -148,7 +148,7 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
   - Status: Healthy
-  - HP: 147 / 233 [Verified B198 Turn 40218]
+  - HP: 138 / 233 [Verified Lv 73 Screen Turn 40231]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 12/15), Ice Beam (PP 7/10)
 
@@ -298,7 +298,6 @@
 - **Participant Share Formula (2 Participants, N=4 Party):**
   - In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
     `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
-  - The remaining Exp. All team pool undergoes an additional halving factor in the retail assembly routine before being divided among all N=4 party members:
   - The remaining Exp. All team pool undergoes an integer halving factor before being divided among all N=4 party members:
     `team_base_share = floor(floor(floor(E / 2) / 2) / 4) = floor(floor(E / 4) / 4)` (empirically yielding 74 for Sandslash [1188], 65 for Golbat/Hypno/Magneton [1104/1076/1050], 63 for Dodrio/Kadabra [1092/1008], 59 for Parasect [950], 56 for Venomoth [952], 53 for Raichu [908]). Note: retail integer division truncates at each step.
 - **Empirically Verified Participant Shares (N=4 Party):**
@@ -5017,11 +5016,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Pit-stop 2 taken Turn 39721.*
 *Summary B180-B183 (Turns 39754-39914): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,632 EXP). Pit-stops 3 & 4 taken (Mewtwo PAR cured, HP/PP fully restored). Slowpoke at 9,632 EXP (1,016 to Lv 22).*
 
-| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 *Summary B184-B187 (Turns 39975-40046): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 22 (10,648 EXP). Defeated Parasect Lv 52 (B184) and Magneton Lv 46 x3 (B185-B187). Mewtwo reached Lv 74.*
 *Summary B188-B191 (Turns 40052-40097): Switch-trained Slowpoke from Lv 22 (10,648 EXP) to Lv 23 (12,167 EXP). Defeated Sandslash Lv 52 (B188), Dodrio Lv 49 (B189), Golbat Lv 46 (B190), and Hypno Lv 46 (B191).*
 *Summary B192-B196 (Turns 40109-40183): Switch-trained Slowpoke from Lv 23 (12,167 EXP) to Lv 24 (13,932 EXP). Defeated Magneton Lv 46 (B192), Venomoth Lv 49 (B193), Sandslash Lv 52 (B194), Kadabra Lv 49 (B195), and Hypno Lv 46 (B196).*
+
+| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B197** | 40186 | Hypno Lv 46 | Mewtwo (Psychic 2x) | 0 (Poison Gas, PSN) | Mewtwo 214/259 HP, 1/10 Psychic PP, 19/20 Swift PP (PSN) | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (Hypno Meditate +Atk). Turn 2 STAB Psychic chunked Hypno to ~35% HP, Spc fell (Hypno Poison Gas, OMEGA poisoned, 0 HP dmg). Turn 3 STAB Psychic critical hit OHKO! Slowpoke at ~14,266 EXP (1,359 to Lv 25). Blastoise at 156/233 HP, 13/15 Surf PP! |
 | **B198** | 40205 | Venomoth Lv 49 | Blastoise (Surf) | 9 (Leech Life crit) | Blastoise 147/233 HP, 12/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Leech Life crit (9 dmg). Turn 3 STAB Surf OHKO! Slowpoke at ~14,560 EXP (1,065 to Lv 25). |
 
@@ -5033,11 +5033,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
 
 ### Sweeper Role & Matchup Profiles
+- **Dynamic Sweeper Routing Protocol (Conserving Mewtwo's Psychic PP):**
+  - Mewtwo's Psychic PP is at 1/10 and Mewtwo is Poisoned. Therefore, Mewtwo's final Psychic PP is strictly reserved for Electric encounters (Magneton Lv 46, Raichu Lv 53).
+  - All other encounters—including Hypno Lv 46 and Venomoth Lv 49—are routed to Blastoise (138/233 HP, 201 Def). Blastoise easily tanks Hypno's physical/special hits and 2HKOs with Body Slam / Surf without recoil, preserving Mewtwo for lethal Electric threats.
 - **MEWTWO (OMEGA Lv 74 - 260 Special, 220 Speed):**
   - **Mandatory Exclusive Targets:** Magneton Lv 46, Raichu Lv 53. (STAB Psychic guarantees rapid OHKOs; protects Blastoise from lethal Electric moves).
   - **Optimal Targets:** Venomoth Lv 49 (Status Risk: Sleep Powder/Stun Spore; countered via Poké Flute).
   - **Hypno Special Protocol:** In Gen 1, Psychic resists Psychic (0.5x). Mewtwo deals ~65% with non-crit Psychic (OHKO on ~25.4% crit). If Hypno survives Turn 2, finish with SWIFT (Move 1, 20/20 PP) on Turn 3 to conserve Psychic PP.
-- **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 156/233 HP):**
+- **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 138/233 HP):**
   - **Verified Target Matchups:**
     - Parasect Lv 52: 4x Ice Beam OHKO [Empirically Verified Battle 184 Turn 39982; 0 damage taken].
     - Sandslash Lv 52: 2x STAB Surf OHKO [Empirically Verified Battle 188 Turn 40058; 0 damage taken].
