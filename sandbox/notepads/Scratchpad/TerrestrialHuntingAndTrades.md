@@ -13,18 +13,13 @@
 *Summary B184-B187 (Turns 39975-40046): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 22 (10,648 EXP). Defeated Parasect Lv 52 (B184) and Magneton Lv 46 x3 (B185-B187). Mewtwo reached Lv 74.*
 *Summary B188-B191 (Turns 40052-40097): Switch-trained Slowpoke from Lv 22 (10,648 EXP) to Lv 23 (12,167 EXP). Defeated Sandslash Lv 52 (B188), Dodrio Lv 49 (B189), Golbat Lv 46 (B190), and Hypno Lv 46 (B191).*
 *Summary B192-B196 (Turns 40109-40183): Switch-trained Slowpoke from Lv 23 (12,167 EXP) to Lv 24 (13,932 EXP). Defeated Magneton Lv 46 (B192), Venomoth Lv 49 (B193), Sandslash Lv 52 (B194), Kadabra Lv 49 (B195), and Hypno Lv 46 (B196).*
+*Summary B197-B202 (Turns 40186-40286): Switch-trained Slowpoke from Lv 24 (13,932 EXP) to Lv 25 (15,865 EXP). Defeated Hypno Lv 46 x3 (B197, B199, B200), Venomoth Lv 49 (B198), Parasect Lv 52 (B201), and Golbat Lv 46 (B202). Slowpoke reached Level 25 (Atk 41, Def 41, Spd 15, Spc 32).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B197** | 40186 | Hypno Lv 46 | Mewtwo (Psychic 2x) | 0 (Poison Gas, PSN) | Mewtwo 214/259 HP, 1/10 Psychic PP, 19/20 Swift PP (PSN) | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (Hypno Meditate +Atk). Turn 2 STAB Psychic chunked Hypno to ~35% HP, Spc fell (Hypno Poison Gas, OMEGA poisoned, 0 HP dmg). Turn 3 STAB Psychic critical hit OHKO! Slowpoke at ~14,266 EXP (1,359 to Lv 25). Blastoise at 156/233 HP, 13/15 Surf PP! |
-| **B198** | 40205 | Venomoth Lv 49 | Blastoise (Surf) | 9 (Leech Life crit) | Blastoise 147/233 HP, 12/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Leech Life crit (9 dmg). Turn 3 STAB Surf OHKO! Slowpoke at ~14,560 EXP (1,065 to Lv 25). |
-| **B199** | 40224 | Hypno Lv 46 | Blastoise (Surf 2x) | 9 (unknown/Turn 1) | Blastoise 138/233 HP, 10/15 Surf PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 STAB Surf chunked Hypno to ~5% HP (Hypno Meditate, +Atk). Turn 3 STAB Surf finished Hypno! Slowpoke at ~14,894 EXP (731 to Lv 25). |
-| **B200** | 40241 | Hypno Lv 46 | Blastoise (Surf) | 0 (Meditate) | Blastoise 138/233 HP, 9/15 Surf PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno Meditate, 0 dmg). Turn 2 STAB Surf OHKO (critical hit / high roll KO vs standard ~95% 2HKO)! Slowpoke at ~15,228 EXP (397 to Lv 25). |
-| **B201** | 40259 | Parasect Lv 52 | Blastoise (Ice Beam) | 30 (Slash crit) | Blastoise 108/233 HP, 6/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Spore, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Slash crit (30 dmg). Turn 3 Ice Beam OHKO! Slowpoke at ~15,524 EXP (101 to Lv 25). |
-| **B202** | 40281 | Golbat Lv 46 | Blastoise (Ice Beam) | 17 (crit/Turn 1) | Blastoise 91/233 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed crit, 17 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke grew to Level 25! Slowpoke at ~15,865 EXP (1,711 to Lv 26). |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 24) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
@@ -33,10 +28,10 @@
 ### Sweeper Role & Matchup Profiles
 - **Dynamic Sweeper Routing Protocol (Conserving Mewtwo's Psychic PP):**
   - Mewtwo's Psychic PP is at 1/10 and Mewtwo is Poisoned. Therefore, Mewtwo's final Psychic PP is strictly reserved for Electric encounters (Magneton Lv 46, Raichu Lv 53).
-  - All other encounters—including Hypno Lv 46 and Venomoth Lv 49—are routed to Blastoise (138/233 HP, 201 Def). Blastoise easily tanks Hypno's physical/special hits and 2HKOs with Body Slam / Surf without recoil, preserving Mewtwo for lethal Electric threats.
+  - All other encounters—including Hypno Lv 46 and Venomoth Lv 49—are routed to Blastoise (91/233 HP, 201 Def). Blastoise easily tanks Hypno's physical/special hits and 2HKOs with Body Slam / Surf without recoil, preserving Mewtwo for lethal Electric threats.
 - **MEWTWO (OMEGA Lv 74 - 260 Special, 220 Speed):**
   - **Mandatory Exclusive Targets:** Magneton Lv 46, Raichu Lv 53. (STAB Psychic guarantees rapid OHKOs; protects Blastoise from lethal Electric moves).
-    - **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 138/233 HP):**
+- **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 91/233 HP):**
   - **Verified Target Matchups:**
     - Parasect Lv 52: 4x Ice Beam OHKO [Empirically Verified Battle 184 Turn 39982; 0 damage taken].
     - Sandslash Lv 52: 2x STAB Surf OHKO [Empirically Verified Battle 188 Turn 40058; 0 damage taken].

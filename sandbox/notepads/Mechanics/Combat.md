@@ -61,23 +61,21 @@
   - Parasect (E=950): 37 EXP [5 empirical encounters verified]
   - Raichu (E=908): 37 EXP [5 empirical encounters verified]
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
-- **Empirical Team Base Shares Under N=4 (4-Member Party):**
-  - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 126, 130]
-  - Dodrio (E=1092): 63 EXP [Verified Battles 111, 135, 138]
-  - Hypno (E=1076): 65 EXP [Verified Battles 98, 134, 141]
-  - Magneton (E=1050): 65 EXP [Verified Battles 97, 132, 137]
-  - Kadabra (E=1008): 63 EXP [Verified Battles 107, 136]
-  - Parasect (E=950): 59 EXP [Verified Battles 105, 139, 140]
-  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
-  - Raichu (E=908): 53 EXP [Verified Battle 146]
 
 ## Participant Share & Empirical Yields Under N=4 (4-Member Party)
-- **Participant Share Formula (2 Participants, N=4 Party):**
-  - In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
+- **Participant Share & Team Yields (2 Participants, N=4 Party):**
+  - Participant Share: In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
     `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
-  - The remaining Exp. All team pool undergoes an integer halving factor before being divided among all N=4 party members:
-    `team_base_share = floor(floor(floor(E / 2) / 2) / 4) = floor(floor(E / 4) / 4)` (empirically yielding 74 for Sandslash [1188], 65 for Golbat/Hypno/Magneton [1104/1076/1050], 63 for Dodrio/Kadabra [1092/1008], 59 for Parasect [950], 56 for Venomoth [952], 53 for Raichu [908]). Note: retail integer division truncates at each step.
+  - Team Base Shares: In retail assembly, the Exp. All team pool is distributed across all party members through sequential integer truncation routines. The resulting empirical base shares per Pokémon under N=4 party are:
+    - Sandslash Lv 52 (E=1188): 74 EXP
+    - Golbat Lv 46 (E=1104): 65 EXP
+    - Hypno Lv 46 (E=1076): 65 EXP
+    - Magneton Lv 46 (E=1050): 65 EXP
+    - Dodrio Lv 49 (E=1092): 63 EXP
+    - Kadabra Lv 49 (E=1008): 63 EXP
+    - Parasect Lv 52 (E=950): 59 EXP
+    - Venomoth Lv 49 (E=952): 56 EXP
+    - Raichu Lv 53 (E=908): 53 EXP
 - **Empirically Verified Participant Shares (N=4 Party):**
   - Sandslash Lv 52 (E=1188): Participant share = 297 EXP, Team base share = 74 EXP (Total trainee gain = 371 EXP) [Verified B188 Turn 40059]
   - Golbat Lv 46 (E=1104): Participant share = 276 EXP, Team base share = 65 EXP (Total trainee gain = 341 EXP) [Verified B190 Turn 40077]
