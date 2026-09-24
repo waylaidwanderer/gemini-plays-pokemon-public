@@ -14,11 +14,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 *Summary B184-B187 (Turns 39975-40046): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 22 (10,648 EXP). Defeated Parasect Lv 52 (B184) and Magneton Lv 46 x3 (B185-B187). Mewtwo reached Lv 74.*
 *Summary B188-B191 (Turns 40052-40097): Switch-trained Slowpoke from Lv 22 (10,648 EXP) to Lv 23 (12,167 EXP). Defeated Sandslash Lv 52 (B188), Dodrio Lv 49 (B189), Golbat Lv 46 (B190), and Hypno Lv 46 (B191).*
-| **B192** | 40109 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 218/259 HP, 5/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock 11 dmg, no PAR). Turn 2 STAB Psychic OHKO! Slowpoke at ~12,618 EXP (1,206 to Lv 24). Blastoise kept at 217/233 HP! |
-| **B193** | 40128 | Venomoth Lv 49 | Mewtwo (Psychic) | 4 (Psybeam) | Mewtwo 214/259 HP, 4/10 Psychic PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Psybeam (4 dmg). Turn 3 STAB Psychic 2x OHKO! Slowpoke at ~12,912 EXP (912 to Lv 24). |
-| **B194** | 40146 | Sandslash Lv 52 | Blastoise (Surf) | 25 (Fury Swipes 5x) | Blastoise 192/233 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Fury Swipes 5x, 25 dmg). Turn 2 STAB Surf OHKO! Slowpoke at ~13,283 EXP (541 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
-| **B195** | 40158 | Kadabra Lv 49 | Blastoise (Body Slam) | 36 (special attack) | Blastoise 156/233 HP, 14/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed hit, 36 dmg). Turn 2 Body Slam OHKO vs 30 base Def! Slowpoke at ~13,598 EXP (226 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
-| **B196** | 40171 | Hypno Lv 46 | Mewtwo (Psychic + Swift) | 0 (None/Fail) | Mewtwo 214/259 HP, 3/10 Psychic PP, 19/20 Swift PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg). Turn 2 STAB Psychic chunked Hypno to ~35% HP (Hypno Meditate failed/no dmg). Turn 3 Swift finished Hypno! Slowpoke grew to Level 24! Slowpoke at ~13,932 EXP (1,693 to Lv 25). |
+*Summary B192-B196 (Turns 40109-40183): Switch-trained Slowpoke from Lv 23 (12,167 EXP) to Lv 24 (13,932 EXP). Defeated Magneton Lv 46 (B192), Venomoth Lv 49 (B193), Sandslash Lv 52 (B194), Kadabra Lv 49 (B195), and Hypno Lv 46 (B196).*
 | **B197** | 40186 | Hypno Lv 46 | Mewtwo (Psychic 2x) | 0 (Poison Gas, PSN) | Mewtwo 214/259 HP, 1/10 Psychic PP, 19/20 Swift PP (PSN) | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (Hypno Meditate +Atk). Turn 2 STAB Psychic chunked Hypno to ~35% HP, Spc fell (Hypno Poison Gas, OMEGA poisoned, 0 HP dmg). Turn 3 STAB Psychic critical hit OHKO! Slowpoke at ~14,266 EXP (1,359 to Lv 25). Blastoise at 156/233 HP, 13/15 Surf PP! |
 
 ### Slowpoke Switch-Training Combat Protocol
@@ -44,6 +40,11 @@
 - **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
   - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
+- **Mewtwo Electric Contingency Protocol (Psychic PP Exhaustion):**
+  - Mewtwo has 1/10 Psychic PP remaining. If an encounter with Magneton Lv 46 or Raichu Lv 53 occurs, Mewtwo will expend this final Psychic PP for a guaranteed OHKO.
+  - If Psychic PP reaches 0, Mewtwo can use SWIFT (Move 1, 60 power Normal, 19 PP). At Lv 74 (190 Attack), Swift deals ~105 damage to Magneton Lv 46 (base Def 70, HP ~105), securing a clean KO without exposing Blastoise to 2x Electric weakness.
+  - Mandatory Pit-Stop Threshold: If Mewtwo consumes its final Psychic PP (reaching 0 PP) OR if Mewtwo HP falls below 60, immediately initiate a pit-stop (Fly to Cerulean Pokémon Center, heal, and return via Route 24 canal).
+
 - **Refined Retreat Protocol (Preventing Macro-Traversal Stagnation):**
   - Do NOT retreat upon Mewtwo sustaining paralysis or running low on PP if Blastoise is healthy.
   - Transfer active sweeping to Blastoise for physical/ice-weak encounters (Golbat, Dodrio, Sandslash, Parasect, Kadabra).
