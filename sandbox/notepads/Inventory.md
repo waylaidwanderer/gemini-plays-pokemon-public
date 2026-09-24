@@ -14,7 +14,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 94 / 94 [Verified Lv 28 HUD Turn 40604]
   - Stats: Attack 46, Defense 46, Speed 17, Special 36 [Verified Lv 28 Screen Turn 40595]
-  - EXP: ~24005 (~384 to Lv 29)
+  - EXP: ~24341 (48 to Lv 29)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
@@ -30,9 +30,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 237 / 237 [Verified Healed Turn 40634]
+  - HP: 211 / 237 [Verified Turn 40709]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10)
 
 ## Key Items
 - BICYCLE

@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 28, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~24,005, ~384 to Lv 29)
+  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~24,341, 48 to Lv 29)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -25,6 +25,7 @@
 | **B224** | 40669 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (Supersonic) | Mewtwo 259/259 HP, 9/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg). Turn 2 Mewtwo overcame confusion, STAB Psychic OHKO (Crit)! Slowpoke at ~23,351 EXP (~1,038 to Lv 29). |
 | **B225** | 40684 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (T-Shock) | Mewtwo 248/259 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg from Thundershock). Turn 2 Mewtwo STAB Psychic OHKO! Slowpoke at ~23,678 EXP (~711 to Lv 29). |
 | **B226** | 40694 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (Miss/Status) | Mewtwo 248/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg). Turn 2 Mewtwo STAB Psychic OHKO! Slowpoke at ~24,005 EXP (~384 to Lv 29). |
+| **B227** | 40705 | Dodrio Lv 49 | Blastoise (Ice Beam) | 26 (Attack) | Blastoise 211/237 HP, 9/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 26 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~24,341 EXP (48 to Lv 29). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 28) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
