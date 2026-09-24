@@ -13,10 +13,6 @@
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B203** | 40296 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None/Fail) | Blastoise 91/233 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~16,206 EXP (1,370 to Lv 26). |
-| **B204** | 40314 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 91/233 HP, 3/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~16,547 EXP (1,029 to Lv 26). |
-| **B205** | 40330 | Hypno Lv 46 | Blastoise (Body Slam) | 9 (Headbutt) | Blastoise 82/233 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 Body Slam dealt ~80% (Hypno Meditate). Turn 3 Body Slam KO! Slowpoke at ~16,881 EXP (695 to Lv 26). |
-| **B206** | 40343 | Golbat Lv 46 | Blastoise (Ice Beam) | 23 (Conf/Self) | Blastoise 59/233 HP, 2/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Confuse Ray). Turn 2 Sheldon hurt in confusion (23 dmg), Golbat used Haze (cured confusion!). Turn 3 2x super-effective Ice Beam Crit OHKO! Slowpoke at ~17,222 EXP (354 to Lv 26). |
 | **B207** | 40395 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 237/237 HP, 9/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam Crit OHKO! Slowpoke at ~17,563 EXP (13 to Lv 26). |
 | **B208** | 40402 | Raichu Lv 53 | Mewtwo (Psychic) | 11 (T-Shock) | Mewtwo 248/259 HP (PAR), 9/10 Psychic PP | +280 EXP (227+53) | +79 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg, Thunder Wave PAR). Turn 2 Mewtwo took 11 dmg from Thundershock, overcame PAR, STAB Psychic OHKO! Slowpoke grew to Level 26 (Atk 42, Def 43, Spd 16, Spc 33)! EXP: ~17,843 (1,840 to Lv 27). |
 
@@ -28,6 +24,9 @@
   - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
 
 ### Sweeper Role & Matchup Profiles
+- **Active In-Field Status (Post-B208):**
+  - **BLASTOISE (SHELDON Lv 74):** Primary active sweeper. Status: Healthy, HP 237/237. Moves: Ice Beam (9/10), Surf (15/15), Body Slam (15/15), Double-Edge (15/15). Designated for all non-Electric targets.
+  - **MEWTWO (OMEGA Lv 74):** Electric counter in reserve. Status: Paralyzed (PAR), HP 248/259. Moves: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20).
 - **Sweeper Baselines (Post-Heal Turn 40361):**
   - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper. Status: Healthy, HP 259/259. Stats: Atk 190, Def 173, Spd 220, Spc 260. Moves: Swift (20/20), Psychic (10/10), Barrier (30/30), Recover (20/20).
     - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
