@@ -140,10 +140,10 @@
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 19/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 24, Normal/Flying]
+- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 25, Normal/Flying]
   - Status: Healthy
   - HP: 63 / 63
-  - Stats: Attack 40, Defense 38, Speed 37, Special 35 [Verified Lv 24 Screen Turn 39760]
+  - Stats: Attack 42, Defense 39, Speed 39, Special 37 [Verified Lv 25 Screen Turn 40221]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 73, Water]
