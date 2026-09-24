@@ -84,7 +84,7 @@
 | Raichu | 53 | 908 | 454 | 227 + 53 = 280 EXP | 53 + 26 = 79 EXP | 227 + 37 = 264 EXP |
 | Ditto | 53 | 461 | 230 | 113 + 22 = 135 EXP | 22 + 11 = 33 EXP | -- |
 
-- **In-Battle Party Sub-Menu:** When selecting a non-active Pok�mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## Field Items in Battle
 
