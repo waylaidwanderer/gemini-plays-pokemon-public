@@ -130,15 +130,15 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 117 / 117 [Verified Screen Turn 41799], EXP: ~44,942 (~1,714 to Lv 36) [Calculated post-B290; Lv 35 stats verified Screen Turn 41793]
+  - HP: 117 / 117 [Verified Screen Turn 41799], EXP: ~45,269 (~1,387 to Lv 36) [Calculated post-B291; Lv 35 stats verified Screen Turn 41793]
   - Stats: Attack 57, Defense 58, Speed 22, Special 45 [Verified Lv 35 Screen Turn 41793]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
-  - HP: 249 / 259 [Verified Screen Turn 41888]
+  - HP: 222 / 259 [Verified Screen Turn 41933]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 29, Normal/Flying]
   - Status: Healthy
   - HP: 75 / 75 [Verified Party Screen Turn 41929]
@@ -5074,7 +5074,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 35, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 35 (HP 117/117 [Verified Screen Turn 41799], Atk 57, Def 58, Spd 22, Spc 45 [Verified Screen Turn 41793], EXP: ~44,942, ~1,714 to Lv 36 [Calculated post-B290])
+  - Current Level: 35 (HP 117/117 [Verified Screen Turn 41799], Atk 57, Def 58, Spd 22, Spc 45 [Verified Screen Turn 41793], EXP: ~45,269, ~1,387 to Lv 36 [Calculated post-B291])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
@@ -5082,7 +5082,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
 *Milestone Summary: Level 34 to 35 (Completed Turn 41793, Target: 42,875 EXP achieved at 43,047 EXP, Battles B274-B284): Defeated 11 wild encounters (Dodrio x1, Golbat x2, Hypno x3, Ditto x1, Sandslash x3, Magneton x1). Slowpoke grew to Level 35 (43,047 EXP), verified stats: HP 117/117, Atk 57, Def 58, Spd 22, Spc 45 [Screen Turn 41793].*
 ### Active Milestone: Level 35 to 36 (Target: 46,656 EXP)
-*Next move: Hypothesized none at Lv 36 (standard Gen 1 learnset: Amnesia at Lv 40, Psychic at Lv 48; empirical verification pending Level 36 arrival). Target: 36^3 = 46,656 EXP (~1,714 EXP remaining).*
+*Next move: Hypothesized none at Lv 36 (standard Gen 1 learnset: Amnesia at Lv 40, Psychic at Lv 48; empirical verification pending Level 36 arrival). Target: 36^3 = 46,656 EXP (~1,387 EXP remaining).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -5092,6 +5092,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | B288 | 41883 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 10 HP (Thundershock turn 2) | 249/259 (PAR), Psychic 8/10 | +327 EXP (~44,265) | +97 EXP | Paralyzed by Thunder Wave on switch. Took 10 damage from Thundershock turn 2. Broke full paralysis to land STAB Psychic clean OHKO. Slowpoke ~2,391 EXP to Lv 36. |
 | B289 | 41894 | Dodrio Lv 49 | SHELDON (Ice Beam Crit OHKO) | 37 HP (25 switch + 12 Fury Attack) | 179/241, IB 8/10 | +336 EXP (~44,601) | +94 EXP | Sheldon took 25 on switch. Ice Beam missed turn 2 on 1/256 check; took 12 from Fury Attack (hit 2 times). Ice Beam turn 3 landed critical hit OHKO. Sheldon healthy at 179/241 HP (IB 8/10). Slowpoke ~2,055 EXP to Lv 36. |
 | B290 | 41913 | Golbat Lv 46 | SHELDON (Ice Beam OHKO) | 24 HP (confusion recoil) | 155/241, IB 7/10 | +341 EXP (~44,942) | +97 EXP | Sheldon took 0 on switch (Confuse Ray). Hurt itself in confusion turn 2 (-24 HP); Golbat Confuse Ray failed. Powered through confusion turn 3 to land super-effective Ice Beam clean OHKO. Sheldon healthy at 155/241 HP (IB 7/10). Slowpoke ~1,714 EXP to Lv 36. |
+| B291 | 41927 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 27 HP (11 switch + 16 crit Swift) | 222/259 (PAR), Psychic 7/10 | +327 EXP (~45,269) | +97 EXP | Mewtwo switched in taking 11 damage. Magneton moved first (PAR speed) with crit Swift (-16 HP). Mewtwo broke full paralysis to land STAB Psychic clean OHKO. Mewtwo healthy at 222/259 HP (Psychic 7/10). Slowpoke ~1,387 EXP to Lv 36. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 35) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
