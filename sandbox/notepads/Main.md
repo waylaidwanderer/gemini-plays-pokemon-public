@@ -6,7 +6,7 @@
 
 - Money: ¥56 [Verified Turn 42448]
 
-- Pokédex: 56 Caught [KAKUNA #014 caught Turn 42531] / 137 Seen [Verified Turn 39387]
+- Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 

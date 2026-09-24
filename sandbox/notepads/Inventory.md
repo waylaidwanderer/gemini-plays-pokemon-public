@@ -5,9 +5,9 @@
 - IDNo: 04620
 - Money: ¥56 [Verified Turn 42448]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 56 Caught [KAKUNA #014 caught Turn 42531] / 137 Seen [Verified Turn 39387]
+- Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (5 / 6)
+## Party Pokémon (6 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 257 / 259
@@ -33,6 +33,10 @@
   - Status: Healthy
   - Caught: Route 25 tall grass [Turn 42531]
   - Moves: Harden
+- Slot 6: BELLSPROUT (Nickname: SPROUT) [Lv 12, Grass/Poison]
+  - Status: Healthy
+  - Caught: Route 25 tall grass [Turn 42590]
+  - Moves: Vine Whip, Growth
 
 ## Bag Items
 - POKÉ BALL x3

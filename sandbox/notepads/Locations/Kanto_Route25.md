@@ -38,3 +38,4 @@
 - Encounter 5 [Turn 42543]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
 - Encounter 6 [Turn 42559]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
 - Encounter 7 [Turn 42574]: Abra Lv 12 (Route 25 tall grass at (5, 5)) - FLED (escaped safely).
+- Encounter 8 [Turn 42581]: Bellsprout Lv 12 (Route 25 tall grass at (6, 4)) - CAUGHT (Ball 2, Nickname: SPROUT, Party Slot 6).
