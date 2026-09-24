@@ -126,13 +126,13 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 23, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 24, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 78 / 78 [Verified Lv 23 Screen Turn 40111]
-  - Stats: Attack 38, Defense 38, Speed 14, Special 30 [Verified Lv 23 Screen Turn 40096]
-  - EXP: ~13598 (226 to Lv 24) [Verified B195 Turn 40164]
+  - Stats: Attack 39, Defense 40, Speed 15, Special 31 [Verified Lv 24 Screen Turn 40182]
+  - EXP: ~13932 (1693 to Lv 25) [Verified B196 Turn 40182]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
@@ -5007,9 +5007,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 23, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 24, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 23 (HP 78/78 [Verified Turn 40111], Atk 38, Def 38, Spd 14, Spc 30; EXP: ~13,598, 226 to Lv 24)
+  - Current Level: 24 (Atk 39, Def 40, Spd 15, Spc 31 [Verified Turn 40182]; EXP: ~13,932, 1,693 to Lv 25)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop 1 taken Turn 39585.*
@@ -5024,9 +5024,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B193** | 40128 | Venomoth Lv 49 | Mewtwo (Psychic) | 4 (Psybeam) | Mewtwo 214/259 HP, 4/10 Psychic PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Psybeam (4 dmg). Turn 3 STAB Psychic 2x OHKO! Slowpoke at ~12,912 EXP (912 to Lv 24). |
 | **B194** | 40146 | Sandslash Lv 52 | Blastoise (Surf) | 25 (Fury Swipes 5x) | Blastoise 192/233 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Fury Swipes 5x, 25 dmg). Turn 2 STAB Surf OHKO! Slowpoke at ~13,283 EXP (541 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
 | **B195** | 40158 | Kadabra Lv 49 | Blastoise (Body Slam) | 36 (special attack) | Blastoise 156/233 HP, 14/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed hit, 36 dmg). Turn 2 Body Slam OHKO vs 30 base Def! Slowpoke at ~13,598 EXP (226 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
+| **B196** | 40171 | Hypno Lv 46 | Mewtwo (Psychic + Swift) | 0 (None/Fail) | Mewtwo 214/259 HP, 3/10 Psychic PP, 19/20 Swift PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg). Turn 2 STAB Psychic chunked Hypno to ~35% HP (Hypno Meditate failed/no dmg). Turn 3 Swift finished Hypno! Slowpoke grew to Level 24! Slowpoke at ~13,932 EXP (1,693 to Lv 25). |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 23) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 24) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
