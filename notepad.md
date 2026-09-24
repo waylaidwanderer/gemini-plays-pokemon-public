@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~39,452 (~3,423 to Lv 35) [Calculated post-B273; Lv 34 verified Screen Turn 41467]
+  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~39,788 (~3,087 to Lv 35) [Calculated post-B274; Lv 34 verified Screen Turn 41467]
   - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -147,7 +147,7 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 211 / 241 [Verified Screen Turn 41595]
+  - HP: 202 / 241 [Verified Screen Turn 41611]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10) [Ice Beam used B274 Turn 41594]
 
@@ -350,12 +350,6 @@
 
 
 ## Participant Share & Empirical Yields Under N=4 (4-Member Party)
-
-- **Participant Share & Team Yields (2 Participants, N=4 Party):**
-
-  - Participant Share: In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
-
-    `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
 
 - **Empirically Verified Participant Shares (N=4 Party):**
 
