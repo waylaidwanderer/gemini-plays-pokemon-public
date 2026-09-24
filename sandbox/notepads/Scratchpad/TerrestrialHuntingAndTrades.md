@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 32 (HP 107/107 [Verified Turn 41144]; Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139]; EXP: ~34,575 [Calculated post-B258], ~1,362 to Lv 33)
+  - Current Level: 32 (HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575, exactly 1,362 to Lv 33 [Verified Screen Turn 41210])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
