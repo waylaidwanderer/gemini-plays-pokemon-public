@@ -126,12 +126,12 @@
 - Pok�dex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
 
 ## Party Pok�mon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 35, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 36, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 117 / 117 [Verified Screen Turn 41799]
-  - Stats: Attack 57, Defense 58, Speed 22, Special 45 [Verified Lv 35 Screen Turn 41793]
+  - HP: 120 / 120 [Verified Screen Turn 42049]
+  - Stats: Attack 59, Defense 60, Speed 23, Special 47 [Verified Lv 36 Screen Turn 42044]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
