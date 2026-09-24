@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 27, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 27 (Atk 43, Def 44, Spd 16, Spc 34 [Verified Turn 40470]; EXP: ~20,225, 1,727 to Lv 28)
+  - Current Level: 27 (Atk 43, Def 44, Spd 16, Spc 34 [Verified Turn 40470]; EXP: ~20,552, 1,400 to Lv 28)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -19,7 +19,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B214** | 40457 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 177/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 Body Slam OHKO! Slowpoke reached Lv 27 (Atk 43, Def 44, Spd 16, Spc 34) and learned Growl! |
 | **B215** | 40477 | Magneton Lv 46 | Mewtwo (Psychic) | 18 (T-Shock+Swift) | Mewtwo 202/259 HP, 7/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 10 dmg). Turn 2 Magneton Swift (8 dmg), Mewtwo STAB Psychic OHKO! Slowpoke at ~20,225 EXP (1,727 to Lv 28). |
-| **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (T-Shock x2) | Mewtwo 180/259 HP, 6/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). Turn 2 Magneton Thundershock (11 dmg), Mewtwo STAB Psychic OHKO! Slowpoke at ~20,552 EXP (1,400 to Lv 28). |
+| **B216** | 40494 | Magneton Lv 46 | Mewtwo (Psychic) | 22 (T-Shock x2) | Mewtwo 180/259 HP, 6/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). Turn 2 Magneton Thundershock (11 dmg), Mewtwo STAB Psychic OHKO (Crit)! Slowpoke at ~20,552 EXP (1,400 to Lv 28). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
