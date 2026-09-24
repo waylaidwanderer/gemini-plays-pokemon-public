@@ -37,3 +37,4 @@
 - Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)) - CAUGHT (Ball 3, Nickname: COCOON, Party Slot 5).
 - Encounter 5 [Turn 42543]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
 - Encounter 6 [Turn 42559]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
+- Encounter 7 [Turn 42574]: Abra Lv 12 (Route 25 tall grass at (5, 5)) - FLED (escaped safely).
