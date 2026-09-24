@@ -8,12 +8,12 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 33, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 34, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 110 / 110 [Verified Screen Turn 41357], EXP: ~39,118 (~186 to Lv 34) [Calculated post-B272; Lv 33 verified Screen Turn 41338]
-  - Stats: Attack 54, Defense 55, Speed 20, Special 42 [Verified Lv 33 Screen Turn 41338]
+  - HP: 110 / 110 [Verified Screen Turn 41357], EXP: ~39,452 (~3,423 to Lv 35) [Calculated post-B273; Lv 34 verified Screen Turn 41467]
+  - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy [Verified Party Screen Turn 41210]
@@ -29,9 +29,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 114 / 237 [Verified Screen Turn 41434]
+  - HP: 70 / 237 [Verified Screen Turn 41465]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 12/15), Ice Beam (PP 5/10) [5 Ice Beam, 6 Body Slam, 3 Surf expended since Turn 41205 heal]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 7/15), Surf (PP 12/15), Ice Beam (PP 5/10) [5 Ice Beam, 8 Body Slam, 3 Surf expended since Turn 41205 heal]
 
 ## Key Items
 - BICYCLE
