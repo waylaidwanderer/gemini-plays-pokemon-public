@@ -132,14 +132,14 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 88 / 88 [Verified Lv 26 Screen Turn 40415]
   - Stats: Attack 42, Defense 43, Speed 16, Special 33 [Verified Lv 26 Screen Turn 40407]
-  - EXP: ~17843 (1840 to Lv 27) [Verified B208 Turn 40407]
+  - EXP: ~18170 (1513 to Lv 27) [Verified B209 Turn 40418]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
-  - HP: 227 / 259 [Verified Lv 74 Screen Turn 40417]
+  - HP: 220 / 259 [Verified Lv 74 Screen Turn 40418]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 25, Normal/Flying]
   - Status: Healthy
   - HP: 66 / 66 [Verified Lv 25 Screen Turn 40226]
@@ -5008,7 +5008,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 25, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 26 (Atk 42, Def 43, Spd 16, Spc 33 [Verified Turn 40407]; EXP: ~17,843, 1,840 to Lv 27)
+  - Current Level: 26 (Atk 42, Def 43, Spd 16, Spc 33 [Verified Turn 40407]; EXP: ~18,170, 1,513 to Lv 27)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -5020,6 +5020,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B207** | 40395 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 237/237 HP, 9/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam Crit OHKO! Slowpoke at ~17,563 EXP (13 to Lv 26). |
 | **B208** | 40402 | Raichu Lv 53 | Mewtwo (Psychic) | 11 (T-Shock) | Mewtwo 248/259 HP (PAR), 9/10 Psychic PP | +280 EXP (227+53) | +79 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg, Thunder Wave PAR). Turn 2 Mewtwo took 11 dmg from Thundershock, overcame PAR, STAB Psychic OHKO! Slowpoke grew to Level 26 (Atk 42, Def 43, Spd 16, Spc 33)! EXP: ~17,843 (1,840 to Lv 27). |
+| **B209** | 40414 | Magneton Lv 46 | Mewtwo (Psychic) | 28 (Crit+Swift) | Mewtwo 220/259 HP (PAR), 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 21 dmg from Crit). Turn 2 Mewtwo took 7 dmg from Swift, overcame PAR, STAB Psychic OHKO! Slowpoke at ~18,170 EXP (1,513 to Lv 27). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -5031,7 +5032,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Sweeper Role & Matchup Profiles
 - **Active In-Field Status (Post-B208):**
   - **BLASTOISE (SHELDON Lv 74):** Primary active sweeper. Status: Healthy, HP 237/237. Moves: Ice Beam (9/10), Surf (15/15), Body Slam (15/15), Double-Edge (15/15). Designated for all non-Electric targets.
-  - **MEWTWO (OMEGA Lv 74):** Electric counter in reserve. Status: Paralyzed (PAR), HP 248/259. Moves: Psychic (9/10), Swift (20/20), Barrier (30/30), Recover (20/20).
+  - **MEWTWO (OMEGA Lv 74):** Electric counter in reserve. Status: Paralyzed (PAR), HP 220/259. Moves: Psychic (8/10), Swift (20/20), Barrier (30/30), Recover (20/20).
 - **Sweeper Baselines (Post-Heal Turn 40361):**
   - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper. Status: Healthy, HP 259/259. Stats: Atk 190, Def 173, Spd 220, Spc 260. Moves: Swift (20/20), Psychic (10/10), Barrier (30/30), Recover (20/20).
     - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
