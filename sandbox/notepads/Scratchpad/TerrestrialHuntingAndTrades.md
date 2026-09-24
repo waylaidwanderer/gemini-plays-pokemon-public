@@ -15,6 +15,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B254** | 41147 | Hypno Lv 46 | Blastoise (Body Slam x2) | 40 (Headbutt/Psychic) | Blastoise 109/237 HP, 7/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 10 dmg). Turn 2 Body Slam leaves tiny red sliver (took 30 dmg). Turn 3 Body Slam KOs. DOPEY at ~33,263 EXP (~2,674 to Lv 33). |
 | **B255** | 41156 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (None) | Blastoise 109/237 HP, 6/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno move had no effect, 0 dmg). Turn 2 Body Slam OHKO! DOPEY at ~33,597 EXP (~2,340 to Lv 33). |
+| **B256** | 41168 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 6/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat move failed, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~33,938 EXP (~1,999 to Lv 33). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 31) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
