@@ -113,7 +113,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥1306 [Verified Turn 42648]
+- Money: ¥106 [Verified Turn 42653]
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
 
@@ -307,7 +307,7 @@
 
 ## Generation 1 Capture Mechanics & Empirical Boundaries
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
-- **Empirical Breakout Verification:** Both wild Pidgey Lv 13 (Turn 42480) and wild Bellsprout Lv 12 (Turn 42586)—both species having maximum BCR 255—broke free from basic Poké Balls at full HP after 3 shakes on Ball 1 before being captured on Ball 2. Full-health basic Poké Ball capture probability for BCR 255 targets is capped at roughly ~65–75%. Ball budgeting must always account for at least 2 Poké Balls per target even for BCR 255 species.
+- **Empirical Breakout Verification:** Both wild Pidgey Lv 13 (Turn 42480) and wild Bellsprout Lv 12 (Turn 42586)—both species having maximum BCR 255—broke free from basic Poké Balls at full HP after 3 shakes on Ball 1 before being captured on Ball 2. Empirical testing with N=2 demonstrates that breakouts occur even at full HP against BCR 255 targets with basic Poké Balls (falsifying any 100% capture guarantee). Ball budgeting must therefore allocate multiple Poké Balls per target even for BCR 255 species.
 
 <hr>
 
@@ -5092,10 +5092,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-- PC Storage Status:
-  - Active Box: BOX 2 (3 / 20 Pokémon: BIRDIE, COCOON, SPROUT stored Turn 42625-42628).
 - Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
-  - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!) [CAUGHT Turn 42590, Nickname: SPROUT], Abra (#063). (Complete; Pidgey, Kakuna, Bellsprout stored in Box 2).
+  - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!) [CAUGHT Turn 42590, Nickname: SPROUT; stored in Box 2]. Note: Abra (#063) deferred to Celadon Game Corner Prize Building (120 coins / ¥2,400) to bypass wild Teleport mechanics.
     - Route 25 Western Grass Empirical Distribution (N=8): Pidgey 2 (25%), Abra 4 (50%), Kakuna 1 (12.5%), Bellsprout 1 (12.5%).
   - Target 2: Viridian Forest / Route 2 - Caterpie (#010 -> #011 -> #012), Weedle (#013 -> #014 -> #015).
     - Logistics: 9 Poké Balls in Bag, Money ¥106. Flying to Viridian City to enter Viridian Forest.
