@@ -12,15 +12,15 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 110 / 110 [Verified Screen Turn 41357], EXP: ~38,511 (~793 to Lv 34) [Calculated post-B270; Lv 33 verified Screen Turn 41338]
+  - HP: 110 / 110 [Verified Screen Turn 41357], EXP: ~38,791 (~513 to Lv 34) [Calculated post-B271; Lv 33 verified Screen Turn 41338]
   - Stats: Attack 54, Defense 55, Speed 20, Special 42 [Verified Lv 33 Screen Turn 41338]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy [Verified Party Screen Turn 41210]
-  - HP: 259 / 259 [Verified Party Screen Turn 41210]
+  - HP: 247 / 259 [Verified Screen Turn 41442]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Restored by Nurse Joy]
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20) [1 Psychic expended since Turn 41205 heal]
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 28, Normal/Flying]
   - Status: Healthy
   - HP: 73 / 73 [Verified Lv 28 Party Screen Turn 41379]
