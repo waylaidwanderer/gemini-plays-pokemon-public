@@ -12,7 +12,7 @@
 
 - Money: ¥3056 [Verified Turn 41998]
 
-- Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
+- Pokédex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
 
 
 
@@ -5090,10 +5090,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 48,178 [Verified Page 2 Screen Turn 42108], 2,475 to Lv 37 Slowbro)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Consolidated Summary Levels 15 to 33 (B165-B263, Turns 39482-41328): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 33 (36,228 EXP). Defeated 99 wild encounters across Cerulean Cave 1F and executed 8 pit-stops. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Turn 41139]; Lv 33: HP 110/110, Atk 54, Def 55, Spd 20, Spc 42 [Turn 41338]. Replaced Growl with Water Gun.*
-*Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
-*Milestone Summary: Level 34 to 35 (Completed Turn 41793, Target: 42,875 EXP achieved at 43,047 EXP, Battles B274-B284): Defeated 11 wild encounters (Dodrio x1, Golbat x2, Hypno x3, Ditto x1, Sandslash x3, Magneton x1). Slowpoke grew to Level 35 (43,047 EXP), verified stats: HP 117/117, Atk 57, Def 58, Spd 22, Spc 45 [Screen Turn 41793].*
-*Milestone Summary: Level 35 to 36 (Completed Turn 42044, Target: 46,656 EXP achieved at 46,922 EXP, Battles B285-B296): Defeated 12 wild encounters (Parasect x1, Kadabra x2, Raichu x1, Magneton x3, Dodrio x2, Golbat x2, Hypno x1). Slowpoke grew to Level 36 (46,922 EXP), verified stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Screen Turn 42044]. No moves learned at Lv 36.*
+*Consolidated Summary Levels 15 to 36 (B165-B296, Turns 39482-42044): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 36 (46,922 EXP). Defeated 132 wild encounters across Cerulean Cave 1F and executed 12 pit-stops. Verified Lv 36 stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Turn 42044].*
 ### Active Milestone: Level 36 to 37 (Slowbro Evolution Milestone, Target: 50,653 EXP)
 *Target: 37^3 = 50,653 EXP (Current: 48,178 EXP [Verified Turn 42108], exactly 2,475 EXP remaining, ~7 battles). Triggers evolution into Slowbro (#080)!*
 
@@ -5114,7 +5111,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Sweeper Role & Matchup Profiles
 - **Role & Target Matchup Profiles:**
   - **BLASTOISE (SHELDON Lv 75):** Physical/Special tank sweeper. Designated for all non-Electric targets.
-    - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Double-Edge OHKO), Kadabra Lv 49 (Body Slam OHKO), Venomoth Lv 49 (Ice Beam/Surf OHKO).
+    - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Double-Edge OHKO when HP > 120), Kadabra Lv 49 (Body Slam/Surf OHKO).
   - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper in reserve.
     - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
 
