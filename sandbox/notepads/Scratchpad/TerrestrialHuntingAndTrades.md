@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 36, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 50,512 [Calculated B307], 141 to Lv 37 Slowbro)
+  - Current Level: 37 (Slowbro Evolution Triggered! EXP: 50,827 [Calculated B308], +174 over Lv 37 threshold)
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Consolidated Summary Levels 15 to 36 (B165-B296, Turns 39482-42044): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 36 (46,922 EXP). Defeated 132 wild encounters across Cerulean Cave 1F and executed 12 pit-stops. Verified Lv 36 stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Turn 42044].*
 ### Active Milestone: Level 36 to 37 (Slowbro Evolution Milestone, Target: 50,653 EXP)
@@ -24,6 +24,7 @@
 | B305 | 42236 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 28 HP on switch + 37 recoil | 165/241, DE 14/15 | +334 EXP (49,845) | +97 EXP | Slowpoke switched to Sheldon taking 28 damage on switch. Sheldon outsped turn 2 with Double-Edge clean physical OHKO (-37 recoil). Sheldon healthy at 165/241 HP (DE 14/15). Slowpoke cumulative: 49,845 EXP (808 to Lv 37 Slowbro, ~2-3 battles). Batched progression active. |
 | B306 | 42247 | Sandslash Lv 52 | SHELDON (STAB Surf OHKO) | 20 HP on switch (Fury Swipes x5) | 145/241, Surf 13/15 | +371 EXP (50,216) | +111 EXP | Slowpoke switched to Sheldon taking 20 damage on switch (Fury Swipes x5). Sheldon outsped turn 2 with super-effective STAB Surf clean OHKO. Sheldon healthy at 145/241 HP (Surf 13/15). Slowpoke cumulative: 50,216 EXP (437 to Lv 37 Slowbro, ~1-2 battles). Batched progression active. |
 | B307 | 42259 | Parasect Lv 52 | SHELDON (4x Ice Beam OHKO) | 16 HP on switch | 129/241, Ice Beam 9/10 | +296 EXP (50,512) | +88 EXP | Slowpoke switched to Sheldon taking 16 damage on switch. Sheldon outsped turn 2 with 4x super-effective Ice Beam clean OHKO. Sheldon healthy at 129/241 HP (Ice Beam 9/10). Slowpoke cumulative: 50,512 EXP (141 to Lv 37 Slowbro, ~1 battle). Batched progression active. |
+| B308 | 42271 | Kadabra Lv 49 | SHELDON (Body Slam OHKO) | 28 HP on switch (Psybeam) | 101/241, BS 14/15 | +315 EXP (50,827) | +94 EXP | Slowpoke switched to Sheldon taking 28 damage on switch (Psybeam). Sheldon outsped turn 2 with Body Slam clean physical OHKO (zero recoil). Sheldon healthy at 101/241 HP (BS 14/15). Slowpoke cumulative: 50,827 EXP (Surpasses 50,653 threshold by +174 EXP!). Reached Level 37 and triggered evolution into Slowbro (#080)! |
 
 
 ### Slowpoke Switch-Training Combat Protocol
