@@ -132,14 +132,14 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 94 / 94 [Verified Lv 28 HUD Turn 40604]
   - Stats: Attack 46, Defense 46, Speed 17, Special 36 [Verified Lv 28 Screen Turn 40595]
-  - EXP: ~23678 (~711 to Lv 29)
+  - EXP: ~24005 (~384 to Lv 29)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 248 / 259 [Verified Turn 40688]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 26, Normal/Flying]
   - Status: Healthy
   - HP: 68 / 68 [Verified Lv 26 Party Screen Turn 40573]
@@ -5008,7 +5008,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 28, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~23,678, ~711 to Lv 29)
+  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~24,005, ~384 to Lv 29)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
