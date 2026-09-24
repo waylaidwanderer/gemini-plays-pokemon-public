@@ -3,14 +3,14 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥3056 [Verified Turn 41998]
+- Money: ¥56 [Verified Turn 42448]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 54 Caught [Verified Pokédex Screen Turn 42367] / 137 Seen [Verified Turn 39387]
+- Pokédex: 56 Caught [KAKUNA #014 caught Turn 42531] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (3 / 6)
+## Party Pokémon (5 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 259 / 259 [Max HP Baseline; Lv 74 Stats Verified Screen Turn 40038]
+  - HP: 257 / 259 [Current Battle HP]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -33,8 +33,9 @@
   - Status: Healthy
   - Caught: Route 25 tall grass [Turn 42531]
   - Moves: Harden
+
 ## Bag Items
-- POK� BALL x8 [Used 7: Turn 42480, 42484, 42505, 42509, 42520, 42525, 42530] [Purchased Cerulean Mart Turn 42447]
+- POKÉ BALL x8 [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
@@ -69,5 +70,5 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 0 / 20 (Empty; BIRDIE placed into Party Slot 4)
+- Box 2: 0 / 20 (Empty)
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).

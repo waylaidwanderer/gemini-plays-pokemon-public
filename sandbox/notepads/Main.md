@@ -10,7 +10,7 @@
 
 - Money: ¥56 [Verified Turn 42448]
 
-- Pokédex: 55 Caught [PIDGEY #016 caught Turn 42485] / 137 Seen [Verified Turn 39387]
+- Pokédex: 56 Caught [KAKUNA #014 caught Turn 42531] / 137 Seen [Verified Turn 39387]
 
 
 
