@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 107 / 107 [Verified Turn 41210], EXP: 34,575 (exactly 1,362 to Lv 33) [Verified Screen Turn 41210]
+  - HP: 107 / 107 [Verified Turn 41210], EXP: ~34,916 (~1,021 to Lv 33) [Verified Screen Turn 41210]
   - Stats: Attack 52, Defense 53, Speed 20, Special 41 [Verified Screen Turn 41210]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -149,7 +149,7 @@
   - Status: Healthy
   - HP: 237 / 237 [Verified Party Screen Turn 41210]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Restored by Nurse Joy]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10) [Restored by Nurse Joy]
 
 ## Key Items
 - BICYCLE
@@ -5105,6 +5105,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B257** | 41177 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg taken). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DOPEY at ~34,279 EXP (~1,658 to Lv 33). |
 | **B258** | 41186 | Parasect Lv 52 | Blastoise (Ice Beam) | 29 (Slash Crit) | Blastoise 80/237 HP, 4/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,575 EXP (~1,362 to Lv 33). |
 | **Pit-Stop 8** | 41205 | Cerulean Pokémon Center | Nurse Joy | - | Blastoise 237/237 HP, all PP restored | Mewtwo PAR cured | All 4 Pokémon fully healed | Proactive heal (Sheldon was at 80 HP). Verified Slowpoke Level 32 stats: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575 (1,362 to Lv 33) [Verified Screen Turn 41210]. |
+
+| **B259** | 41262 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 9/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,916 EXP (~1,021 to Lv 33). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
