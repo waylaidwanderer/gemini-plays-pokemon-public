@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 30, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 30 (Atk 49, Def 50, Spd 18, Spc 38 [Verified Turn 40873]; EXP: ~28,946, ~845 to Lv 31)
+  - Current Level: 30 (Atk 49, Def 50, Spd 18, Spc 38 [Verified Turn 40873]; EXP: ~29,273, ~518 to Lv 31)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
@@ -18,6 +18,7 @@
 | **B240** | 40912 | Venomoth Lv 49 | Blastoise (Surf) | 12 (unobserved move) | Blastoise 169/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 STAB Surf OHKO! DOPEY at ~28,619 EXP (~1,172 to Lv 31). |
 | **B241** | 40927 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 121/259 HP, 0/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 took 11 dmg from T-Shock, STAB Psychic OHKO! Mewtwo Psychic at 0 PP -> trigger pit-stop retreat. DOPEY at ~28,946 EXP (~845 to Lv 31). |
 | **Pit-Stop 7** | 40935-40947 | Cerulean Center | Nurse Joy | 0 | Full HP/PP restored, PAR cured | -- | -- | Exited 1F via (25, 17) to (4, 12). Cast Fly to Cerulean Center. Nurse Joy fully restored party (Mewtwo 259/259 HP, 10/10 Psychic; Blastoise 237/237 HP, 15/15 Surf, 10/10 Ice Beam, 15/15 Body Slam; Slowpoke 100/100 HP; Dux 70/70 HP). Exited to (19, 18). |
+| **B242** | 40995 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 250/259 HP, 9/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took T-Wave, PAR). Turn 2 took 9 dmg from Swift, STAB Psychic OHKO! DOPEY at ~29,273 EXP (~518 to Lv 31). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 30) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -52,4 +53,3 @@
   3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (clears Mewtwo's PAR, restores all HP/PP).
   4. Exit Pokémon Center -> Mount Bicycle -> Ride north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
 
-| **B242** | 40995 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 250/259 HP, 9/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took T-Wave, PAR). Turn 2 took 9 dmg from Swift, STAB Psychic OHKO! DOPEY at ~29,273 EXP (~518 to Lv 31). |
