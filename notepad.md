@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: ~107 / 107, EXP: ~32,929 (~3,008 to Lv 33) [Verified Turn 41139]
+  - HP: 107 / 107, EXP: ~33,263 (~2,674 to Lv 33) [Verified Turn 41147]
   - Stats: Attack 52, Defense 53, Speed 20, Special 41 [Verified Lv 32 Screen Turn 41139]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 149 / 237 [Verified Turn 41125]
+  - HP: 109 / 237 [Verified Turn 41147]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 13/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 7/15), Surf (PP 13/15), Ice Beam (PP 7/10)
 
 ## Key Items
 - BICYCLE
@@ -5011,7 +5011,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 31, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 32 (Atk 52, Def 53, Speed 20, Special 41 [Verified Screen Turn 41139]; EXP: ~32,929, ~3,008 to Lv 33)
+  - Current Level: 32 (Atk 52, Def 53, Speed 20, Special 41 [Verified Screen Turn 41139]; EXP: ~33,263, ~2,674 to Lv 33)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
@@ -5032,6 +5032,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
 *Learns Water Gun at Level 33.*
+
+| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B254** | 41147 | Hypno Lv 46 | Blastoise (Body Slam x2) | 40 (Headbutt/Psychic) | Blastoise 109/237 HP, 7/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 10 dmg). Turn 2 Body Slam leaves tiny red sliver (took 30 dmg). Turn 3 Body Slam KOs. DOPEY at ~33,263 EXP (~2,674 to Lv 33). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 31) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
