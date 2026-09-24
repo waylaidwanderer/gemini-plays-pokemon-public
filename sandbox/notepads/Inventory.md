@@ -8,12 +8,12 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 30, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 31, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 100 / 100 [Verified Lv 30 Screen Turn 40878]
-  - Stats: Attack 49, Defense 50, Speed 18, Special 38 [Verified Lv 30 Screen Turn 40873]
+  - Stats: Attack 50, Defense 51, Speed 19, Special 40 [Verified Lv 31 Screen Turn 41029]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR) [Turn 40994]
