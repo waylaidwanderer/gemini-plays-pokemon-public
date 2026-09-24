@@ -25,6 +25,9 @@
   - HP: 241 / 241 [Verified Healed Turn 42384]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+## Bag Items
+- POKÉ BALL x15 [Purchased Cerulean Mart Turn 42447]
+
 ## Key Items
 - BICYCLE
 - SUPER ROD
