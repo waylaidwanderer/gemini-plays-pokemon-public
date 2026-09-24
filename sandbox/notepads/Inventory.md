@@ -5,7 +5,7 @@
 - IDNo: 04620
 - Money: ¥3056 [Verified Turn 41998]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
+- Pokédex: 53 Caught [Verified Turn 42280 Slowbro Evolution] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
 - Slot 1: SLOWBRO (Nickname: DOPEY) [Lv 37, Water/Psychic]
@@ -13,7 +13,7 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 127 / 127 [Verified Screen Turn 42294]
-  - Stats: Attack 59, Defense 60, Speed 23, Special 47 [Verified Lv 36 Screen Turn 42044]
+  - Stats: Attack 61, Defense 61, Speed 23, Special 48 [Verified Lv 37 Screen Turn 42277]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
