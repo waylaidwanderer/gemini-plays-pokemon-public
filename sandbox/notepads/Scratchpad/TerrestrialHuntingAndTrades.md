@@ -20,6 +20,8 @@
 | **B258** | 41186 | Parasect Lv 52 | Blastoise (Ice Beam) | 29 (Slash Crit) | Blastoise 80/237 HP, 4/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,575 EXP (~1,362 to Lv 33). |
 | **Pit-Stop 8** | 41205 | Cerulean Pokémon Center | Nurse Joy | - | Blastoise 237/237 HP, all PP restored | Mewtwo PAR cured | All 4 Pokémon fully healed | Proactive heal (Sheldon was at 80 HP). Verified Slowpoke Level 32 stats: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575 (1,362 to Lv 33) [Verified Screen Turn 41210]. |
 
+| **B259** | 41262 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 9/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,916 EXP (~1,021 to Lv 33). |
+
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
