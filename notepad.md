@@ -5087,7 +5087,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 36, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 47,884 [Verified Page 2 Screen Turn 42094], 2,769 to Lv 37 Slowbro)
+  - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 48,178 [Verified Page 2 Screen Turn 42108], 2,475 to Lv 37 Slowbro)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Consolidated Summary Levels 15 to 33 (B165-B263, Turns 39482-41328): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 33 (36,228 EXP). Defeated 99 wild encounters across Cerulean Cave 1F and executed 8 pit-stops. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Turn 41139]; Lv 33: HP 110/110, Atk 54, Def 55, Spd 20, Spc 42 [Turn 41338]. Replaced Growl with Water Gun.*
@@ -5095,13 +5095,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Milestone Summary: Level 34 to 35 (Completed Turn 41793, Target: 42,875 EXP achieved at 43,047 EXP, Battles B274-B284): Defeated 11 wild encounters (Dodrio x1, Golbat x2, Hypno x3, Ditto x1, Sandslash x3, Magneton x1). Slowpoke grew to Level 35 (43,047 EXP), verified stats: HP 117/117, Atk 57, Def 58, Spd 22, Spc 45 [Screen Turn 41793].*
 *Milestone Summary: Level 35 to 36 (Completed Turn 42044, Target: 46,656 EXP achieved at 46,922 EXP, Battles B285-B296): Defeated 12 wild encounters (Parasect x1, Kadabra x2, Raichu x1, Magneton x3, Dodrio x2, Golbat x2, Hypno x1). Slowpoke grew to Level 36 (46,922 EXP), verified stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Screen Turn 42044]. No moves learned at Lv 36.*
 ### Active Milestone: Level 36 to 37 (Slowbro Evolution Milestone, Target: 50,653 EXP)
-*Target: 37^3 = 50,653 EXP (Current: 47,884 EXP [Verified Turn 42094], exactly 2,769 EXP remaining, ~8 battles). Triggers evolution into Slowbro (#080)!*
+*Target: 37^3 = 50,653 EXP (Current: 48,178 EXP [Verified Turn 42108], exactly 2,475 EXP remaining, ~7 battles). Triggers evolution into Slowbro (#080)!*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | B297 | 42052 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 0 HP (Meditate) + 34 recoil | 182/241, DE 14/15 | +334 EXP (~47,256) | +97 EXP | Sheldon took 0 on switch (Hypno used Meditate). Double-Edge clean physical OHKO (-34 recoil). Sheldon healthy at 182/241 HP (DE 14/15). Slowpoke ~3,397 EXP to Lv 37 Slowbro (~10 battles). |
 | B298 | 42069 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 56 HP (Crit on switch) + 35 recoil | 91/241, DE 13/15 | +334 EXP (~47,590) | +97 EXP | Sheldon took 56 crit damage on switch. Double-Edge clean physical OHKO (-35 recoil). Sheldon at 91/241 HP (DE 13/15, above 70 HP cutoff). Slowpoke ~3,063 EXP to Lv 37 Slowbro (~9 battles). |
 | B299 | 42079 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 12 HP (Leech Life Turn 2) | 247/259, Psychic 9/10 | +294 EXP (47,884) | +84 EXP | Slowpoke switched to Mewtwo taking Sleep Powder turn 1. Mewtwo awakened by Poké Flute turn 2 taking 12 Leech Life damage. Mewtwo outsped turn 3 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 84 EXP [Verified Screen Turn 42093]. Slowpoke exact EXP verified on Page 2: 47,884 EXP (2,769 to Lv 37 Slowbro) [Screen Turn 42094]. |
+| B300 | 42099 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 22 HP (Crit Leech Life on switch) | 225/259, Psychic 8/10 | +294 EXP (48,178) | +84 EXP | Slowpoke switched to Mewtwo taking 22 crit damage from Leech Life. Mewtwo outsped turn 2 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 84 EXP [Verified Screen Turn 42106]. Slowpoke exact EXP verified on Page 2: 48,178 EXP (2,475 to Lv 37 Slowbro) [Screen Turn 42108]. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 36) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
