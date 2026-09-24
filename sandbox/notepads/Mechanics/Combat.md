@@ -129,12 +129,6 @@
 
 ## Participant Share & Empirical Yields Under N=4 (4-Member Party)
 
-- **Participant Share & Team Yields (2 Participants, N=4 Party):**
-
-  - Participant Share: In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
-
-    `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
-
 - **Empirically Verified Participant Shares (N=4 Party):**
 
   - Sandslash Lv 52 (E=1188): Participant share = 297 EXP, Team base share = 74 EXP (Total trainee gain = 371 EXP) [Verified B188 Turn 40059]
