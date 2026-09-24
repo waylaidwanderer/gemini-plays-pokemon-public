@@ -86,3 +86,9 @@
   - Venomoth Lv 49 (E=952): Participant share = 238 EXP, Team base share = 56 EXP (Total trainee gain = 294 EXP) [Verified B99, B110, B122]
   - Parasect Lv 52 (E=950): Participant share = 237 EXP, Team base share = 59 EXP (Total trainee gain = 296 EXP) [Verified B184 Turn 39983]
   - Raichu Lv 53 (E=908): Participant share = 227 EXP, Team base share = 53 EXP (Total trainee gain = 280 EXP) [Verified B146]
+
+
+## Field Items in Battle
+- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
+  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
+  - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
