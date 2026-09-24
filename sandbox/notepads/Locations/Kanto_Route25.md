@@ -31,4 +31,4 @@
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
 ## Empirical Wild Encounter Log
-- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480].
+- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Transferred to Box 2.
