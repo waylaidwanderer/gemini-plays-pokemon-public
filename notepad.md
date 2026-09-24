@@ -5025,6 +5025,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B194** | 40146 | Sandslash Lv 52 | Blastoise (Surf) | 25 (Fury Swipes 5x) | Blastoise 192/233 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Fury Swipes 5x, 25 dmg). Turn 2 STAB Surf OHKO! Slowpoke at ~13,283 EXP (541 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
 | **B195** | 40158 | Kadabra Lv 49 | Blastoise (Body Slam) | 36 (special attack) | Blastoise 156/233 HP, 14/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed hit, 36 dmg). Turn 2 Body Slam OHKO vs 30 base Def! Slowpoke at ~13,598 EXP (226 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
 | **B196** | 40171 | Hypno Lv 46 | Mewtwo (Psychic + Swift) | 0 (None/Fail) | Mewtwo 214/259 HP, 3/10 Psychic PP, 19/20 Swift PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 0 dmg). Turn 2 STAB Psychic chunked Hypno to ~35% HP (Hypno Meditate failed/no dmg). Turn 3 Swift finished Hypno! Slowpoke grew to Level 24! Slowpoke at ~13,932 EXP (1,693 to Lv 25). |
+| **B197** | 40186 | Hypno Lv 46 | Mewtwo (Psychic 2x) | 0 (Poison Gas, PSN) | Mewtwo 214/259 HP, 1/10 Psychic PP, 19/20 Swift PP (PSN) | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (Hypno Meditate +Atk). Turn 2 STAB Psychic chunked Hypno to ~35% HP, Spc fell (Hypno Poison Gas, OMEGA poisoned, 0 HP dmg). Turn 3 STAB Psychic critical hit OHKO! Slowpoke at ~14,266 EXP (1,359 to Lv 25). Blastoise at 156/233 HP, 13/15 Surf PP! |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 24) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -5053,6 +5054,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Do NOT retreat upon Mewtwo sustaining paralysis or running low on PP if Blastoise is healthy.
   - Transfer active sweeping to Blastoise for physical/ice-weak encounters (Golbat, Dodrio, Sandslash, Parasect, Kadabra).
   - Trigger a pit-stop ONLY when BOTH sweepers are depleted (e.g. Mewtwo Psychic <= 2 AND Blastoise Surf <= 2, or both sweepers below 60 HP).
-
 
 <hr>
