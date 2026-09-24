@@ -8,7 +8,7 @@
 
 
 
-- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
+- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
 - Money: ¥3056 [Verified Turn 40949]
 
@@ -122,7 +122,7 @@
 - Name: BLUE
 - IDNo: 04620
 - Money: ¥3056 [Verified Turn 40949]
-- Badges: 8 / 8
+- Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
