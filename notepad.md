@@ -301,7 +301,7 @@
 | Hypno | 46 | 1,076 | 538 | 269 + 65 = 334 EXP | 65 + 32 = 97 EXP | 269 + 39 = 308 EXP |
 | Magneton | 46 | 1,050 | 525 | 262 + 65 = 327 EXP | 65 + 32 = 97 EXP | 262 + 39 = 301 EXP |
 | Kadabra | 49 | 1,008 | 504 | 252 + 63 = 315 EXP | 63 + 31 = 94 EXP | 252 + 42 = 294 EXP |
-| Venomoth | 49 | 952 | 476 | 238 + 56 = 294 EXP | 88 EXP [Verified B299] | 238 + 35 = 273 EXP |
+| Venomoth | 49 | 952 | 476 | 238 + 56 = 294 EXP | 84 EXP [Verified Screen Turn 42093] | 238 + 35 = 273 EXP |
 | Parasect | 52 | 950 | 475 | 237 + 59 = 296 EXP | 59 + 29 = 88 EXP | 237 + 37 = 274 EXP |
 | Raichu | 53 | 908 | 454 | 227 + 53 = 280 EXP | 53 + 26 = 79 EXP | 227 + 37 = 264 EXP |
 | Ditto | 53 | 461 | 230 | 113 + 22 = 135 EXP | 22 + 11 = 33 EXP | -- |
@@ -5101,7 +5101,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | B297 | 42052 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 0 HP (Meditate) + 34 recoil | 182/241, DE 14/15 | +334 EXP (~47,256) | +97 EXP | Sheldon took 0 on switch (Hypno used Meditate). Double-Edge clean physical OHKO (-34 recoil). Sheldon healthy at 182/241 HP (DE 14/15). Slowpoke ~3,397 EXP to Lv 37 Slowbro (~10 battles). |
 | B298 | 42069 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 56 HP (Crit on switch) + 35 recoil | 91/241, DE 13/15 | +334 EXP (~47,590) | +97 EXP | Sheldon took 56 crit damage on switch. Double-Edge clean physical OHKO (-35 recoil). Sheldon at 91/241 HP (DE 13/15, above 70 HP cutoff). Slowpoke ~3,063 EXP to Lv 37 Slowbro (~9 battles). |
-| B299 | 42079 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 12 HP (Leech Life Turn 2) | 247/259, Psychic 9/10 | +238+ EXP (verifying Page 2) | +88 EXP | Slowpoke switched to Mewtwo taking Sleep Powder turn 1. Mewtwo awakened by Poké Flute turn 2 taking 12 Leech Life damage. Mewtwo outsped turn 3 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 88 EXP. Verifying Slowpoke Page 2 in overworld for exact total EXP. |
+| B299 | 42079 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 12 HP (Leech Life Turn 2) | 247/259, Psychic 9/10 | +294 EXP (~47,884, verifying Page 2) | +84 EXP | Slowpoke switched to Mewtwo taking Sleep Powder turn 1. Mewtwo awakened by Poké Flute turn 2 taking 12 Leech Life damage. Mewtwo outsped turn 3 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 84 EXP [Verified Screen Turn 42093]. Verifying Slowpoke Page 2 in overworld for exact total EXP. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 36) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
