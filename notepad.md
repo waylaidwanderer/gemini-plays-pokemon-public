@@ -144,7 +144,7 @@
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 ## Bag Items
-- POK� BALL x15 [Purchased Cerulean Mart Turn 42447]
+- POK� BALL x14 [Used 1 Turn 42480] [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
@@ -1038,9 +1038,9 @@
 ## Northern Section (North of Nugget Bridge)
 - Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8.
 - Row 10 Bollard Barrier: Stone bollards spanning (12..18+, 10) enclosing southeast lawn.
-- Row 7 Elevation Boundary: Brown elevation ridge spanning columns 7..12 at row 7 with corner post at (13, 7). Walkability/jump mechanics unverified.
+- Row 7 Elevation Boundary: Brown elevation ridge spanning columns 7..12 at row 7 with corner post at (13, 7). South-facing one-way jump ledge (cannot be traversed or jumped north) [Empirically verified Turn 42467].
 - Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+).
-- Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
+- Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff. Column 13 features an impassable vertical cliff face blocking westward movement along rows 4..7 [Empirically verified Turn 42467].
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
 - Item Ball at (10, 5): Poké Ball item visible on western elevated plateau north of row 7 ridge.
 
@@ -1087,6 +1087,9 @@
 
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
+## Empirical Wild Encounter Log
+- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480].
+
 
 <hr>
 
@@ -5089,8 +5092,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 - PC Storage Status:
   - Box 1: 19 / 20 Pokémon (MARC deposited Turn 42394).
-- Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions):
-  - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!), Oddish (#043), Abra (#063).
+- Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
+  - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!), Abra (#063). (Note: Oddish is Red-exclusive in retail Gen 1; Bellsprout is Blue counterpart).
   - Target 2: Viridian Forest / Route 2 - Caterpie (#010 -> #011 -> #012), Weedle (#013 -> #014 -> #015).
   - Target 3: Route 1 - Pidgey (#016 -> #017), Rattata (#019 -> #020).
   - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone).
