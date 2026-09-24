@@ -5105,7 +5105,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ### Sweeper Role & Matchup Profiles
 - **Role & Target Matchup Profiles:**
-  - **BLASTOISE (SHELDON Lv 74):** Physical/Special tank sweeper. Designated for all non-Electric targets.
+  - **BLASTOISE (SHELDON Lv 75):** Physical/Special tank sweeper. Designated for all non-Electric targets.
     - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Body Slam 2HKO), Kadabra Lv 49 (Body Slam OHKO), Venomoth Lv 49 (Ice Beam/Surf OHKO).
   - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper in reserve.
     - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
