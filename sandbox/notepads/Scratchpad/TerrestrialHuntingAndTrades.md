@@ -18,7 +18,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
@@ -47,5 +47,5 @@
 - **Pit-Stop Execution Sequence:**
   1. Step onto (24..25, 17) to exit cave outdoors onto Cerulean City canal.
   2. Open Start menu -> POKéMON -> DUX (Slot 3) -> Select FLY -> Fly to Cerulean City.
-  3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (clears Mewtwo's PAR, restores all HP/PP).
+  3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (restores all HP/PP).
   4. Exit Pokémon Center -> Mount Bicycle -> Ride north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
