@@ -26,17 +26,16 @@
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
-## Bag Items (10 / 20 Slots Occupied - Verified Turn 42565)
+## Bag Items (9 / 20 Slots Occupied - Verified Turn 42648)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
 - Slot 4: PP UP x1
 - Slot 5: MAX ELIXER x1
 - Slot 6: HM02 (FLY)
-- Slot 7: MAX POTION x1
-- Slot 8: TM35 x1
-- Slot 9: EXP.ALL x1
-- Slot 10: POKÉ BALL x3
+- Slot 7: TM35 x1
+- Slot 8: EXP.ALL x1
+- Slot 9: POKÉ BALL x3
 - Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
