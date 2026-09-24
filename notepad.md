@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~42,015 (~860 to Lv 35) [Calculated post-B281; Lv 34 verified Screen Turn 41467]
+  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~42,342 (~533 to Lv 35) [Calculated post-B282; Lv 34 verified Screen Turn 41467]
   - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -185,7 +185,6 @@
     - Golduck (MIGRAINE Lv 33)
 - Box 2: 0 / 20 (Verified completely empty Turn 39426)
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
-
 
 <hr>
 
@@ -5094,6 +5093,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | B279 | 41733 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 46 HP (10 switch-in, 36 recoil) | 195/241, DE 14/15 | +334 EXP (~41,303) | +97 EXP | Double-Edge OHKO. Sheldon healthy at 195/241 HP. Slowpoke ~1,572 EXP to Lv 35. |
 | B280 | 41741 | Golbat Lv 46 | SHELDON (Ice Beam Crit OHKO) | 0 HP (Turn 1 move) | 195/241, IB 9/10 | +341 EXP (~41,644) | +97 EXP | Broke confusion turn 1, critical hit Ice Beam OHKO. Slowpoke ~1,231 EXP to Lv 35. |
 | B281 | 41752 | Sandslash Lv 52 | SHELDON (Surf OHKO) | 35 HP (Slash on switch) | 160/241, Surf 14/15 | +371 EXP (~42,015) | +111 EXP | Clean Surf OHKO. Sheldon healthy at 160/241 HP. Slowpoke ~860 EXP to Lv 35. |
+| B282 | 41766 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 0 HP (Supersonic turn 1) | 259/259, Psychic 9/10 | +327 EXP (~42,342) | +97 EXP | Magneton used Supersonic on switch. Mewtwo attacked through confusion, STAB Psychic OHKO. Slowpoke ~533 EXP to Lv 35. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.

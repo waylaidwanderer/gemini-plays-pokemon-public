@@ -22,6 +22,7 @@
 | B279 | 41733 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 46 HP (10 switch-in, 36 recoil) | 195/241, DE 14/15 | +334 EXP (~41,303) | +97 EXP | Double-Edge OHKO. Sheldon healthy at 195/241 HP. Slowpoke ~1,572 EXP to Lv 35. |
 | B280 | 41741 | Golbat Lv 46 | SHELDON (Ice Beam Crit OHKO) | 0 HP (Turn 1 move) | 195/241, IB 9/10 | +341 EXP (~41,644) | +97 EXP | Broke confusion turn 1, critical hit Ice Beam OHKO. Slowpoke ~1,231 EXP to Lv 35. |
 | B281 | 41752 | Sandslash Lv 52 | SHELDON (Surf OHKO) | 35 HP (Slash on switch) | 160/241, Surf 14/15 | +371 EXP (~42,015) | +111 EXP | Clean Surf OHKO. Sheldon healthy at 160/241 HP. Slowpoke ~860 EXP to Lv 35. |
+| B282 | 41766 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 0 HP (Supersonic turn 1) | 259/259, Psychic 9/10 | +327 EXP (~42,342) | +97 EXP | Magneton used Supersonic on switch. Mewtwo attacked through confusion, STAB Psychic OHKO. Slowpoke ~533 EXP to Lv 35. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
