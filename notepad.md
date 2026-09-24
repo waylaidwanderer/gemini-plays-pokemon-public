@@ -138,7 +138,7 @@
   - HP: 259 / 259 [Verified Party Screen Turn 41535]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 28, Normal/Flying]
   - Status: Healthy
   - HP: 73 / 73 [Verified Lv 28 Party Screen Turn 41379]
