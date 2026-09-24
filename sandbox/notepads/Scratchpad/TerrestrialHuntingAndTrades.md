@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 25, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 25 (Atk 41, Def 41, Spd 15, Spc 32 [Verified Turn 40288]; EXP: ~16,881, 695 to Lv 26)
+  - Current Level: 25 (Atk 41, Def 41, Spd 15, Spc 32 [Verified Turn 40288]; EXP: ~17,222, 354 to Lv 26)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -18,6 +18,7 @@
 | **B203** | 40296 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None/Fail) | Blastoise 91/233 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~16,206 EXP (1,370 to Lv 26). |
 | **B204** | 40314 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 91/233 HP, 3/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~16,547 EXP (1,029 to Lv 26). |
 | **B205** | 40330 | Hypno Lv 46 | Blastoise (Body Slam) | 9 (Headbutt) | Blastoise 82/233 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 Body Slam dealt ~80% (Hypno Meditate). Turn 3 Body Slam KO! Slowpoke at ~16,881 EXP (695 to Lv 26). |
+| **B206** | 40343 | Golbat Lv 46 | Blastoise (Ice Beam) | 23 (Conf/Self) | Blastoise 59/233 HP, 2/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Confuse Ray). Turn 2 Sheldon hurt in confusion (23 dmg), Golbat used Haze (cured confusion!). Turn 3 2x super-effective Ice Beam Crit OHKO! Slowpoke at ~17,222 EXP (354 to Lv 26). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
