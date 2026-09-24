@@ -3,14 +3,14 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 34, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 35 (HP 117/117 [Verified Screen Turn 41799], Atk 57, Def 58, Spd 22, Spc 45 [Verified Screen Turn 41793], EXP: ~43,047, ~3,609 to Lv 36 [Calculated post-B284])
+  - Current Level: 35 (HP 117/117 [Verified Screen Turn 41799], Atk 57, Def 58, Spd 22, Spc 45 [Verified Screen Turn 41793], EXP: ~43,343, ~3,313 to Lv 36 [Calculated post-B285])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 *Summary Level 32 to 33 (B254-B263, Turns 41147-41328): Defeated 10 wild encounters (Golbat x4, Hypno x3, Parasect x2; Pit-Stop 8 at Turn 41205). Slowpoke reached Level 33 (36,228 EXP), verified stats: HP 110/110, Atk 54, Def 55, Spd 20, Spc 42 [Turn 41338]. Forgot Growl, learned Water Gun.*
 *Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
 ### Active Milestone: Level 35 to 36 (Target: 46,656 EXP)
-*Next move: None at Lv 36. Target: 36^3 = 46,656 EXP (~3,609 EXP remaining).*
+*Next move: None at Lv 36. Target: 36^3 = 46,656 EXP (~3,313 EXP remaining).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -25,6 +25,7 @@
 | B282 | 41766 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 0 HP (Supersonic turn 1) | 259/259, Psychic 9/10 | +327 EXP (~42,342) | +97 EXP | Magneton used Supersonic on switch. Mewtwo attacked through confusion, STAB Psychic OHKO. Slowpoke ~533 EXP to Lv 35. |
 | B283 | 41777 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 66 HP (32 switch-in, 34 recoil) | 94/241, DE 13/15 | +334 EXP (~42,676) | +97 EXP | Sheldon took 32 damage on switch, Double-Edge clean OHKO (34 recoil). Sheldon at 94/241 HP. Slowpoke ~199 EXP to Lv 35! |
 | B284 | 41786 | Sandslash Lv 52 | OMEGA (Psychic OHKO) | 37 HP (Slash on switch) | 222/259, Psychic 8/10 | +371 EXP (~43,047) | +111 EXP | Sandslash dealt 37 damage on switch. Mewtwo STAB Psychic clean OHKO (verified screen). Slowpoke grew to Level 35! Stats: Atk 57 (+1), Def 58 (+2), Spd 22 (+1), Spc 45 (+1) [Screen Turn 41793]. |
+| B285 | 41798 | Parasect Lv 52 | SHELDON (Ice Beam OHKO) | 31 HP (Crit Slash on switch) | 63/241, IB 8/10 | +296 EXP (~43,343) | +88 EXP | Sheldon took 31 crit damage on switch-in (HP 63/241, below 70 HP margin). Clean 2x super-effective Ice Beam OHKO. Slowpoke ~3,313 EXP to Lv 36. Pit-Stop 11 initiated. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
