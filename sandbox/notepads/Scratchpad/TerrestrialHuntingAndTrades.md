@@ -3,7 +3,9 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 36, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 37 (Slowbro Evolution Triggered! EXP: 50,827 [Calculated B308], +174 over Lv 37 threshold)
+  - Current Level: 37 (SLOWBRO EVOLUTION COMPLETE! EXP: 50,827, +174 over Lv 37 threshold)
+- Expedition 15 COMPLETE: Slowpoke successfully switch-trained from Lv 15 to Lv 37 and evolved into Slowbro (#080)!
+- Next Objective: Fly to Fuchsia City and trade Slowbro for Lickitung (MARC, #108) on Route 18 Gatehouse 2F.
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Consolidated Summary Levels 15 to 36 (B165-B296, Turns 39482-42044): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 36 (46,922 EXP). Defeated 132 wild encounters across Cerulean Cave 1F and executed 12 pit-stops. Verified Lv 36 stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Turn 42044].*
 ### Active Milestone: Level 36 to 37 (Slowbro Evolution Milestone, Target: 50,653 EXP)

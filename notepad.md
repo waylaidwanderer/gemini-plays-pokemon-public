@@ -109,7 +109,7 @@
 - [x] Evolve Krabby into Kingler (#099) [Turn 37206]
 
 - [x] Evolve Psyduck into Golduck (#055) at Lv 33 [Turn 39381]
-- [ ] Evolve Slowpoke into Slowbro (#080) at Lv 37 (Active Expedition 15, Started Turn 39435)
+- [x] Evolve Slowpoke into Slowbro (#080) at Lv 37 [Turn 42280]
 - [ ] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F
 
 <hr>
@@ -126,7 +126,7 @@
 - Pokédex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 36, Water/Psychic]
+- Slot 1: SLOWBRO (Nickname: DOPEY) [Lv 37, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
