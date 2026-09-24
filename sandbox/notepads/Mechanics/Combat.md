@@ -76,7 +76,6 @@
 - **Participant Share Formula (2 Participants, N=4 Party):**
   - In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
     `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
-  - The remaining Exp. All team pool undergoes an additional halving factor in the retail assembly routine before being divided among all N=4 party members:
   - The remaining Exp. All team pool undergoes an integer halving factor before being divided among all N=4 party members:
     `team_base_share = floor(floor(floor(E / 2) / 2) / 4) = floor(floor(E / 4) / 4)` (empirically yielding 74 for Sandslash [1188], 65 for Golbat/Hypno/Magneton [1104/1076/1050], 63 for Dodrio/Kadabra [1092/1008], 59 for Parasect [950], 56 for Venomoth [952], 53 for Raichu [908]). Note: retail integer division truncates at each step.
 - **Empirically Verified Participant Shares (N=4 Party):**
