@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 31, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 32 (Atk 52, Def 53, Speed 20, Special 41 [Verified Screen Turn 41139]; EXP: ~32,929, ~3,008 to Lv 33)
+  - Current Level: 32 (Atk 52, Def 53, Speed 20, Special 41 [Verified Screen Turn 41139]; EXP: ~33,263, ~2,674 to Lv 33)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
@@ -24,6 +24,10 @@
 
 ### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
 *Learns Water Gun at Level 33.*
+
+| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B254** | 41147 | Hypno Lv 46 | Blastoise (Body Slam x2) | 40 (Headbutt/Psychic) | Blastoise 109/237 HP, 7/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 10 dmg). Turn 2 Body Slam leaves tiny red sliver (took 30 dmg). Turn 3 Body Slam KOs. DOPEY at ~33,263 EXP (~2,674 to Lv 33). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 31) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
