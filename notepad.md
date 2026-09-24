@@ -145,11 +145,11 @@
   - Stats: Attack 47, Defense 43, Speed 43, Special 41 [Verified Lv 28 Screen Turn 41365]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
-- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
+- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 237 / 237 [Verified Party Screen Turn 41535]
-  - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Restored Turn 41530]
+  - HP: 211 / 241 [Verified Screen Turn 41595]
+  - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10) [Ice Beam used B274 Turn 41594]
 
 ## Key Items
 - BICYCLE
@@ -5148,7 +5148,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 34, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 34 (HP 113/113 [Verified Screen Turn 41471], Atk 56, Def 56, Spd 21, Spc 44 [Verified Screen Turn 41467], EXP: ~39,452, ~3,423 to Lv 35 [Calculated post-B273])
+  - Current Level: 34 (HP 113/113 [Verified Screen Turn 41471], Atk 56, Def 56, Spd 21, Spc 44 [Verified Screen Turn 41467], EXP: ~39,788, ~3,087 to Lv 35 [Calculated post-B274])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
@@ -5157,10 +5157,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Pit-Stop 9B Verified (Turns 41530-41535, Cerulean Pokémon Center): Nurse Joy fully healed party. Screen verified Turn 41535: Sheldon HP 237/237, Omega HP 259/259, Dopey HP 113/113, Dux HP 73/73. All moves/PP fully restored. Ready to re-enter Cerulean Cave 1F for Level 34->35 training.*
 
 ### Active Milestone: Level 34 to 35 (Target: 42,875 EXP)
-*Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~3,423 EXP remaining).*
+*Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~3,087 EXP remaining).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| B274 | 41588 | Dodrio Lv 49 | SHELDON (Ice Beam OHKO) | 30 HP (Fury Attack) | 211/241, IB 9/10 | +336 EXP (~39,788) | +94 EXP | Sheldon grew to Lv 75! Verified stats: Atk 180, Def 208, Spd 179, Spc 186 [Turn 41595]. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
