@@ -5008,7 +5008,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 26, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 27 (Atk 43, Def 44, Spd 16, Spc 34 [Verified Turn 40470]; EXP: ~19,898, 2,054 to Lv 28)
+  - Current Level: 27 (Atk 43, Def 44, Spd 16, Spc 34 [Verified Turn 40470]; EXP: ~20,225, 1,727 to Lv 28)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
