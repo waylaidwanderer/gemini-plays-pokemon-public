@@ -8,30 +8,29 @@
 - Pokédex: 53 Caught [Verified Turn 42280 Slowbro Evolution] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWBRO (Nickname: DOPEY) [Lv 37, Water/Psychic]
-  - Status: Healthy
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 127 / 127 [Verified Screen Turn 42294]
-  - Stats: Attack 61, Defense 61, Speed 23, Special 48 [Verified Lv 37 Screen Turn 42277]
-  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
-- Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
+- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 259 / 259 [Max HP Baseline; Lv 74 Stats Verified Screen Turn 40038]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 29, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 29, Normal/Flying]
   - Status: Healthy
   - HP: 75 / 75 [Verified Party Screen Turn 41929]
   - Stats: Attack 48, Defense 45, Speed 45, Special 42 [Verified Lv 29 Screen Turn 41923]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
-- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
+- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 241 / 241 [Max HP Baseline; Lv 75 Stats Verified Screen Turn 41595]
+  - HP: 101 / 241 [Verified Party Screen Turn 42358]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 9/10)
+- Slot 4: LICKITUNG (Nickname: MARC) [Lv 37, Normal]
+  - Status: Healthy
+  - HP: 119 / 119 [Verified Screen Turn 42361]
+  - Stats: Attack 56, Defense 63, Speed 28, Special 50 [Verified Screen Turn 42361]
+  - OT: TRAINER (IDNo. 19882) [Traded on Route 18 Gatehouse 2F]
+  - Moves: Pending Page 2 verification
 
 ## Key Items
 - BICYCLE
