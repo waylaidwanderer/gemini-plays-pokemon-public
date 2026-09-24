@@ -4406,7 +4406,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - **High-Rate Patrol Corridor (Row 14):**
   - Walkable open cavern floor extends horizontally from X=21 through X=25 on row Y=14.
   - X=26 is an impassable eastern rock wall.
-  - X=20 connects west to the western 1F cavern corridors.
+  - X=20 is a solid cavern wall blocking westward passage at row 14; walkable corridor on row 14 is strictly bounded between X=21 (west wall boundary) and X=25 (east wall boundary).
   - Pacing between X=21 and X=25 on row 14 generates consistent high-level wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) with zero obstacle collisions and instant 3-step access to the exit.
 
 
