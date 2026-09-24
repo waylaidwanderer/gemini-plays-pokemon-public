@@ -5027,6 +5027,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B219** | 40554 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Miss/Status) | Blastoise 130/237 HP, 3/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg). Turn 2 overcame confusion, 2x super-effective Ice Beam OHKO! Slowpoke at ~21,570 EXP (382 to Lv 28). |
 
 | **B220** | 40571 | Sandslash Lv 52 | Blastoise (Surf) | 34 (Slash Crit) | Blastoise 96/237 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 34 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~21,941 EXP (11 to Lv 28). |
+| **B221** | 40588 | Sandslash Lv 52 | Blastoise (Surf) | 12 (Slash) | Blastoise 84/237 HP, 12/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke reached Level 28 (Atk 46, Def 46, Spd 17, Spc 36) at ~22,312 EXP (~2,077 to Lv 29). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 27) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -5050,6 +5051,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Attrition Buffer: If Mewtwo's HP falls below 100 HP from overworld poison, immediately initiate a pit-stop (preserving a safe 40 HP cushion above the 60 HP danger line).
   - Blastoise Margin: If Blastoise HP falls below 70 HP OR if Blastoise (Surf + Ice Beam) combined PP <= 5, trigger an immediate pit-stop.
   - Pit-Stop Execution: Step outside Cerulean Cave to Cerulean City exterior -> Fly to Cerulean Pok�mon Center -> Nurse Joy fully heals party (clearing poison, restoring all PP/HP) -> Bike north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
-
 
 <hr>
