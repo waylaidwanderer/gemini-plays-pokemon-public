@@ -12,7 +12,7 @@
 
 - Money: ¥3056 [Verified Turn 41998]
 
-- Pokédex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
+- Pokédex: 53 Caught [Verified Turn 42280 Slowbro Evolution] / 137 Seen [Verified Turn 39387]
 
 
 
@@ -123,7 +123,7 @@
 - IDNo: 04620
 - Money: ¥3056 [Verified Turn 41998]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
+- Pokédex: 53 Caught [Verified Turn 42280 Slowbro Evolution] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
 - Slot 1: SLOWBRO (Nickname: DOPEY) [Lv 37, Water/Psychic]
@@ -131,7 +131,7 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 127 / 127 [Verified Screen Turn 42294]
-  - Stats: Attack 59, Defense 60, Speed 23, Special 47 [Verified Lv 36 Screen Turn 42044]
+  - Stats: Attack 61, Defense 61, Speed 23, Special 48 [Verified Lv 37 Screen Turn 42277]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
@@ -5111,38 +5111,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | B307 | 42259 | Parasect Lv 52 | SHELDON (4x Ice Beam OHKO) | 16 HP on switch | 129/241, Ice Beam 9/10 | +296 EXP (50,512) | +88 EXP | Slowpoke switched to Sheldon taking 16 damage on switch. Sheldon outsped turn 2 with 4x super-effective Ice Beam clean OHKO. Sheldon healthy at 129/241 HP (Ice Beam 9/10). Slowpoke cumulative: 50,512 EXP (141 to Lv 37 Slowbro, ~1 battle). Batched progression active. |
 | B308 | 42271 | Kadabra Lv 49 | SHELDON (Body Slam OHKO) | 28 HP on switch (Psybeam) | 101/241, BS 14/15 | +315 EXP (50,827) | +94 EXP | Slowpoke switched to Sheldon taking 28 damage on switch (Psybeam). Sheldon outsped turn 2 with Body Slam clean physical OHKO (zero recoil). Sheldon healthy at 101/241 HP (BS 14/15). Slowpoke cumulative: 50,827 EXP (Surpasses 50,653 threshold by +174 EXP!). Reached Level 37 and triggered evolution into Slowbro (#080)! |
 
-
-### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 36) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
-- Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
-- In-Battle Switching Relative Coordinates:
-  - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
-  - To Secondary Sweeper BLASTOISE: Cursor on Slot 1 -> press Down x3 -> select SHELDON (Slot 4).
-
-### Sweeper Role & Matchup Profiles
-- **Role & Target Matchup Profiles:**
-  - **BLASTOISE (SHELDON Lv 75):** Physical/Special tank sweeper.
-    - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Kadabra Lv 49 (Body Slam/Surf OHKO), and Hypno Lv 46 (Double-Edge OHKO when HP > 120).
-  - **MEWTWO (OMEGA Lv 74):** Primary Psychic STAB sweeper.
-    - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO), Venomoth Lv 49 (Psychic OHKO), and Hypno Lv 46 (2HKO when Blastoise HP is low).
-
-
-- **Proactive Sweeper Retreat Protocol (Safety Margin & Contingency):**
-  - Electric Contingency / Immediate Cutoff: If Mewtwo expends its final Psychic PP (reaches 0 PP), immediately initiate a pit-stop after that battle. Never risk an Electric encounter without Mewtwo's Psychic available.
-  - Attrition Buffer: If Mewtwo's HP falls below 100 HP from overworld poison, immediately initiate a pit-stop (preserving a safe 40 HP cushion above the 60 HP danger line).
-  - Blastoise Poison Contingency: If Blastoise incurs Poison status, immediately finish that battle and initiate a pit-stop upon returning to the overworld to prevent step-based damage and restore peak condition.
-  - Blastoise Margin: If Blastoise HP falls below 70 HP OR if Blastoise (Surf + Ice Beam) combined PP <= 5, trigger an immediate pit-stop.
-
-### Cerulean Cave 1F Immediate Egress & Pit-Stop Route
-- **Exit Warp Coordinates:** Tile threshold at (24..25, 17) [Checkerboard floor pattern at southern cavern threshold].
-- **Tile-by-Tile Egress Route from Active 1F Corridor:**
-  - From (25, 14): Step Down x3: (25, 15) -> (25, 16) -> (25, 17) [Map transition triggers instantly outside to Cerulean City canal].
-  - From (23, 13): Step Down x1 to (23, 14) -> Right x2 to (25, 14) -> Down x3 to (25, 17).
-  - From (21, 14): Step Right x4 to (25, 14) -> Down x3 to (25, 17).
-- **Pit-Stop Execution Sequence:**
-  1. Step onto (24..25, 17) to exit cave outdoors onto Cerulean City canal.
-  2. Open Start menu -> POKéMON -> DUX (Slot 3) -> Select FLY -> Fly to Cerulean City.
-  3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (restores all HP/PP).
-  4. Exit Pokémon Center -> Mount Bicycle -> Ride north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
 
 <hr>
