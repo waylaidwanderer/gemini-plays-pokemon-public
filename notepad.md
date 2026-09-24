@@ -283,23 +283,21 @@
   - Parasect (E=950): 37 EXP [5 empirical encounters verified]
   - Raichu (E=908): 37 EXP [5 empirical encounters verified]
   - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
-- **Empirical Team Base Shares Under N=4 (4-Member Party):**
-  - Sandslash (E=1188): 74 EXP [Verified Battles 120, 123]
-  - Golbat (E=1104): 65 EXP [Verified Battles 100, 126, 130]
-  - Dodrio (E=1092): 63 EXP [Verified Battles 111, 135, 138]
-  - Hypno (E=1076): 65 EXP [Verified Battles 98, 134, 141]
-  - Magneton (E=1050): 65 EXP [Verified Battles 97, 132, 137]
-  - Kadabra (E=1008): 63 EXP [Verified Battles 107, 136]
-  - Parasect (E=950): 59 EXP [Verified Battles 105, 139, 140]
-  - Venomoth (E=952): 56 EXP [Verified Battles 99, 110, 122, 133]
-  - Raichu (E=908): 53 EXP [Verified Battle 146]
 
 ## Participant Share & Empirical Yields Under N=4 (4-Member Party)
-- **Participant Share Formula (2 Participants, N=4 Party):**
-  - In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
+- **Participant Share & Team Yields (2 Participants, N=4 Party):**
+  - Participant Share: In retail Gen 1 with Exp. All active, when 2 party members participate in battle, the participant pool is half the total EXP (floor(E / 2)), divided equally between the 2 participants:
     `participant_share = floor(floor(E / 2) / 2) = floor(E / 4)`.
-  - The remaining Exp. All team pool undergoes an integer halving factor before being divided among all N=4 party members:
-    `team_base_share = floor(floor(floor(E / 2) / 2) / 4) = floor(floor(E / 4) / 4)` (empirically yielding 74 for Sandslash [1188], 65 for Golbat/Hypno/Magneton [1104/1076/1050], 63 for Dodrio/Kadabra [1092/1008], 59 for Parasect [950], 56 for Venomoth [952], 53 for Raichu [908]). Note: retail integer division truncates at each step.
+  - Team Base Shares: In retail assembly, the Exp. All team pool is distributed across all party members through sequential integer truncation routines. The resulting empirical base shares per Pokémon under N=4 party are:
+    - Sandslash Lv 52 (E=1188): 74 EXP
+    - Golbat Lv 46 (E=1104): 65 EXP
+    - Hypno Lv 46 (E=1076): 65 EXP
+    - Magneton Lv 46 (E=1050): 65 EXP
+    - Dodrio Lv 49 (E=1092): 63 EXP
+    - Kadabra Lv 49 (E=1008): 63 EXP
+    - Parasect Lv 52 (E=950): 59 EXP
+    - Venomoth Lv 49 (E=952): 56 EXP
+    - Raichu Lv 53 (E=908): 53 EXP
 - **Empirically Verified Participant Shares (N=4 Party):**
   - Sandslash Lv 52 (E=1188): Participant share = 297 EXP, Team base share = 74 EXP (Total trainee gain = 371 EXP) [Verified B188 Turn 40059]
   - Golbat Lv 46 (E=1104): Participant share = 276 EXP, Team base share = 65 EXP (Total trainee gain = 341 EXP) [Verified B190 Turn 40077]
@@ -5019,18 +5017,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Summary B184-B187 (Turns 39975-40046): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 22 (10,648 EXP). Defeated Parasect Lv 52 (B184) and Magneton Lv 46 x3 (B185-B187). Mewtwo reached Lv 74.*
 *Summary B188-B191 (Turns 40052-40097): Switch-trained Slowpoke from Lv 22 (10,648 EXP) to Lv 23 (12,167 EXP). Defeated Sandslash Lv 52 (B188), Dodrio Lv 49 (B189), Golbat Lv 46 (B190), and Hypno Lv 46 (B191).*
 *Summary B192-B196 (Turns 40109-40183): Switch-trained Slowpoke from Lv 23 (12,167 EXP) to Lv 24 (13,932 EXP). Defeated Magneton Lv 46 (B192), Venomoth Lv 49 (B193), Sandslash Lv 52 (B194), Kadabra Lv 49 (B195), and Hypno Lv 46 (B196).*
+*Summary B197-B202 (Turns 40186-40286): Switch-trained Slowpoke from Lv 24 (13,932 EXP) to Lv 25 (15,865 EXP). Defeated Hypno Lv 46 x3 (B197, B199, B200), Venomoth Lv 49 (B198), Parasect Lv 52 (B201), and Golbat Lv 46 (B202). Slowpoke reached Level 25 (Atk 41, Def 41, Spd 15, Spc 32).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B197** | 40186 | Hypno Lv 46 | Mewtwo (Psychic 2x) | 0 (Poison Gas, PSN) | Mewtwo 214/259 HP, 1/10 Psychic PP, 19/20 Swift PP (PSN) | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (Hypno Meditate +Atk). Turn 2 STAB Psychic chunked Hypno to ~35% HP, Spc fell (Hypno Poison Gas, OMEGA poisoned, 0 HP dmg). Turn 3 STAB Psychic critical hit OHKO! Slowpoke at ~14,266 EXP (1,359 to Lv 25). Blastoise at 156/233 HP, 13/15 Surf PP! |
-| **B198** | 40205 | Venomoth Lv 49 | Blastoise (Surf) | 9 (Leech Life crit) | Blastoise 147/233 HP, 12/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Leech Life crit (9 dmg). Turn 3 STAB Surf OHKO! Slowpoke at ~14,560 EXP (1,065 to Lv 25). |
-| **B199** | 40224 | Hypno Lv 46 | Blastoise (Surf 2x) | 9 (unknown/Turn 1) | Blastoise 138/233 HP, 10/15 Surf PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 9 dmg). Turn 2 STAB Surf chunked Hypno to ~5% HP (Hypno Meditate, +Atk). Turn 3 STAB Surf finished Hypno! Slowpoke at ~14,894 EXP (731 to Lv 25). |
-| **B200** | 40241 | Hypno Lv 46 | Blastoise (Surf) | 0 (Meditate) | Blastoise 138/233 HP, 9/15 Surf PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno Meditate, 0 dmg). Turn 2 STAB Surf OHKO (critical hit / high roll KO vs standard ~95% 2HKO)! Slowpoke at ~15,228 EXP (397 to Lv 25). |
-| **B201** | 40259 | Parasect Lv 52 | Blastoise (Ice Beam) | 30 (Slash crit) | Blastoise 108/233 HP, 6/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Spore, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Slash crit (30 dmg). Turn 3 Ice Beam OHKO! Slowpoke at ~15,524 EXP (101 to Lv 25). |
-| **B202** | 40281 | Golbat Lv 46 | Blastoise (Ice Beam) | 17 (crit/Turn 1) | Blastoise 91/233 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed crit, 17 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke grew to Level 25! Slowpoke at ~15,865 EXP (1,711 to Lv 26). |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 24) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
@@ -5039,10 +5032,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Sweeper Role & Matchup Profiles
 - **Dynamic Sweeper Routing Protocol (Conserving Mewtwo's Psychic PP):**
   - Mewtwo's Psychic PP is at 1/10 and Mewtwo is Poisoned. Therefore, Mewtwo's final Psychic PP is strictly reserved for Electric encounters (Magneton Lv 46, Raichu Lv 53).
-  - All other encounters—including Hypno Lv 46 and Venomoth Lv 49—are routed to Blastoise (138/233 HP, 201 Def). Blastoise easily tanks Hypno's physical/special hits and 2HKOs with Body Slam / Surf without recoil, preserving Mewtwo for lethal Electric threats.
+  - All other encounters—including Hypno Lv 46 and Venomoth Lv 49—are routed to Blastoise (91/233 HP, 201 Def). Blastoise easily tanks Hypno's physical/special hits and 2HKOs with Body Slam / Surf without recoil, preserving Mewtwo for lethal Electric threats.
 - **MEWTWO (OMEGA Lv 74 - 260 Special, 220 Speed):**
   - **Mandatory Exclusive Targets:** Magneton Lv 46, Raichu Lv 53. (STAB Psychic guarantees rapid OHKOs; protects Blastoise from lethal Electric moves).
-    - **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 138/233 HP):**
+- **BLASTOISE (SHELDON Lv 73 - 201 Defense, 180 Special, 91/233 HP):**
   - **Verified Target Matchups:**
     - Parasect Lv 52: 4x Ice Beam OHKO [Empirically Verified Battle 184 Turn 39982; 0 damage taken].
     - Sandslash Lv 52: 2x STAB Surf OHKO [Empirically Verified Battle 188 Turn 40058; 0 damage taken].
