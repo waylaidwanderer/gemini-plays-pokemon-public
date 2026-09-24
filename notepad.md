@@ -132,13 +132,13 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~40,969 (~1,906 to Lv 35) [Calculated post-B278; Lv 34 verified Screen Turn 41467]
   - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
-  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
+  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 259 / 259 [Verified Party Screen Turn 41535]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Restored Turn 41530]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 28, Normal/Flying]
   - Status: Healthy
   - HP: 73 / 73 [Verified Lv 28 Party Screen Turn 41379]
@@ -146,10 +146,10 @@
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
-  - Status: Healthy
+  - Status: Poisoned (PSN)
   - HP: 132 / 241 (PSN) [Verified Screen Turn 41666]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 14/15), Ice Beam (PP 8/10) [Surf used B278]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 14/15), Ice Beam (PP 8/10)
 
 ## Key Items
 - BICYCLE
@@ -291,89 +291,22 @@
 
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 
-- **Empirically Verified Battle EXP Calculations:**
+- **Unified Empirical EXP & Yield Lookup Table (Cerulean Cave 1F Encounters):**
 
-  - Magneton Lv 46: Total EXP 1,050. 2 participants without Exp. All -> Base share s_EXP = 525 (native), boosted = 787 (traded). (With Exp. All (N=6): participant share = 262, team base share = 39) [Empirically verified across 7+ battles, including Battles 13, 22, 62 (Turn 37360)].
+| Species | Level | Total EXP (E) | 2 Part. Base Share (floor(E/2)) | N=4 Trainee Share (floor(E/4) + floor(floor(E/2)/4)) | N=4 Traded Share (floor(floor(E/2)/4) * 1.5) | N=6 Trainee Share (floor(E/4) + team) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sandslash | 52 | 1,188 | 594 | 297 + 74 = 371 EXP | 74 + 37 = 111 EXP | 297 + 44 = 341 EXP |
+| Golbat | 46 | 1,104 | 552 | 276 + 65 = 341 EXP | 65 + 32 = 97 EXP | 276 + 46 = 322 EXP |
+| Dodrio | 49 | 1,092 | 546 | 273 + 63 = 336 EXP | 63 + 31 = 94 EXP | 273 + 42 = 315 EXP |
+| Hypno | 46 | 1,076 | 538 | 269 + 65 = 334 EXP | 65 + 32 = 97 EXP | 269 + 39 = 308 EXP |
+| Magneton | 46 | 1,050 | 525 | 262 + 65 = 327 EXP | 65 + 32 = 97 EXP | 262 + 39 = 301 EXP |
+| Kadabra | 49 | 1,008 | 504 | 252 + 63 = 315 EXP | 63 + 31 = 94 EXP | 252 + 42 = 294 EXP |
+| Venomoth | 49 | 952 | 476 | 238 + 56 = 294 EXP | 56 + 28 = 84 EXP | 238 + 35 = 273 EXP |
+| Parasect | 52 | 950 | 475 | 237 + 59 = 296 EXP | 59 + 29 = 88 EXP | 237 + 37 = 274 EXP |
+| Raichu | 53 | 908 | 454 | 227 + 53 = 280 EXP | 53 + 26 = 79 EXP | 227 + 37 = 264 EXP |
+| Ditto | 53 | 461 | 230 | 113 + 22 = 135 EXP | 22 + 11 = 33 EXP | -- |
 
-  - Golbat Lv 46: Total EXP 1,104. 2 participants without Exp. All -> Base share s_EXP = 552 (native), boosted = 828 (traded). (With Exp. All (N=6): participant share = 276, team base share = 46) [Empirically verified across 18+ battles, including Battles 1, 6-8, 64, 66, 67 (Turn 37419)].
-
-  - Hypno Lv 46: Total EXP 1,076. 2 participants without Exp. All -> Base share s_EXP = 538 (native), boosted = 807 (traded) [Empirically verified Turn 35570]. (With Exp. All (N=6): participant share = 269, team base share = 39) [Empirically verified across 12+ battles, including Battles 4, 11, 63 (Turn 37375)].
-
-  - Kadabra Lv 49: Total EXP 1,008. 2 participants without Exp. All -> Base share s_EXP = 504 (native), boosted = 756 (traded). (With Exp. All (N=6): participant share = 252, team base share = 42) [Empirically verified across 4+ battles, including Battles 2, 16, 25, 72 (Turn 37495)].
-
-  - Dodrio Lv 49: Total EXP 1,092. 2 participants without Exp. All -> Base share s_EXP = 546 (native), boosted = 819 (traded). (With Exp. All (N=6): participant share = 273, team base share = 42) [Empirically verified across 8+ encounters, including Battles 3, 18, 70 (Turn 37468)].
-
-  - Sandslash Lv 52: Total EXP 1,188. 2 participants without Exp. All -> Base share s_EXP = 594 (native), boosted = 891 (traded). (With Exp. All (N=6): participant share = 297, team base share = 44) [Empirically verified across 7+ battles, including Battles 5, 9, 65 (Turn 37396)].
-
-  - Parasect Lv 52: Total EXP 950. 2 participants without Exp. All -> Base share s_EXP = 475 (native), boosted = 712 (traded) [Empirically verified Turn 35207]. (With Exp. All (N=6): participant share = 237, team base share = 37) [Empirically verified across 3+ battles].
-
-  - Raichu Lv 53: Total EXP 908. With Exp. All (N=6): participant share = 227, team base share = 37, traded share = 55 [Empirically verified across 4+ battles].
-
-  - Venomoth Lv 49: Observed Total EXP Variance:
-
-    - Without Exp. All (Turn 33856): Total EXP = 966 (standard formula floor(138 * 49 / 7) = 966). 3 participants yielded exactly 322 EXP each (floor(966 / 3) = 322).
-
-    - With Exp. All (N=6, Battle 15): Total EXP = 952. Participant share = 238, team base share = 35 [Empirically verified across 7+ battles, including Battles 15, 21, 28, 33, 34, 52, 71 (Turn 37484)]. Note: 7 separate empirical battles confirm this yield is 100% deterministic and invariant for this Cerulean Cave encounter slot.
-
-
-
-- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
-
-
-
-## EXP.ALL Empirical Distribution & Observed Yields (Generation 1 Retail)
-
-- **Exp. All Distribution & Participant Sharing:**
-
-  - Participant Share: `floor(floor(E / 2) / n_participants) = floor(E / 4)` for 2 battle participants [Empirically verified across 108+ battles].
-
-  - Traded Pokémon Boost on Exp. All Share: Strictly integer arithmetic `boosted_share = base_share + floor(base_share / 2)` (e.g. 65 + 32 = 97 EXP, 59 + 29 = 88 EXP, 63 + 31 = 94 EXP).
-
-- **Empirical Team Base Shares Under N=6 (Full Party):**
-
-  - Golbat (E=1104): 46 EXP [23 empirical encounters verified]
-
-  - Kadabra (E=1008): 42 EXP [4 empirical encounters verified]
-
-  - Dodrio (E=1092): 42 EXP [11 empirical encounters verified]
-
-  - Hypno (E=1076): 39 EXP [20 empirical encounters verified]
-
-  - Magneton (E=1050): 39 EXP [10 empirical encounters verified]
-
-  - Parasect (E=950): 37 EXP [5 empirical encounters verified]
-
-  - Raichu (E=908): 37 EXP [5 empirical encounters verified]
-
-  - Venomoth (E=952): 35 EXP [10 empirical encounters verified]
-
-
-
-## Participant Share & Empirical Yields Under N=4 (4-Member Party)
-
-- **Empirically Verified Participant Shares (N=4 Party):**
-
-  - Sandslash Lv 52 (E=1188): Participant share = 297 EXP, Team base share = 74 EXP (Total trainee gain = 371 EXP) [Verified B188 Turn 40059]
-
-  - Golbat Lv 46 (E=1104): Participant share = 276 EXP, Team base share = 65 EXP (Total trainee gain = 341 EXP) [Verified B190 Turn 40077]
-
-  - Dodrio Lv 49 (E=1092): Participant share = 273 EXP, Team base share = 63 EXP (Total trainee gain = 336 EXP) [Verified B189 Turn 40068]
-
-  - Hypno Lv 46 (E=1076): Participant share = 269 EXP, Team base share = 65 EXP (Total trainee gain = 334 EXP) [Verified B191 Turn 40096]
-
-  - Magneton Lv 46 (E=1050): Participant share = 262 EXP, Team base share = 65 EXP (Total trainee gain = 327 EXP) [Verified B192 Turn 40116]
-
-  - Kadabra Lv 49 (E=1008): Participant share = 252 EXP, Team base share = 63 EXP (Total trainee gain = 315 EXP) [Verified B107, B136]
-
-  - Venomoth Lv 49 (E=952): Participant share = 238 EXP, Team base share = 56 EXP (Total trainee gain = 294 EXP) [Verified B99, B110, B122]
-
-  - Parasect Lv 52 (E=950): Participant share = 237 EXP, Team base share = 59 EXP (Total trainee gain = 296 EXP) [Verified B184 Turn 39983]
-
-  - Raichu Lv 53 (E=908): Participant share = 227 EXP, Team base share = 53 EXP (Total trainee gain = 280 EXP) [Verified B146]
-
-
-
-
+- **In-Battle Party Sub-Menu:** When selecting a non-active Pok�mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## Field Items in Battle
 
@@ -5179,6 +5112,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Proactive Sweeper Retreat Protocol (Safety Margin & Contingency):**
   - Electric Contingency / Immediate Cutoff: If Mewtwo expends its final Psychic PP (reaches 0 PP), immediately initiate a pit-stop after that battle. Never risk an Electric encounter without Mewtwo's Psychic available.
   - Attrition Buffer: If Mewtwo's HP falls below 100 HP from overworld poison, immediately initiate a pit-stop (preserving a safe 40 HP cushion above the 60 HP danger line).
+  - Blastoise Poison Contingency: If Blastoise incurs Poison status, immediately finish that battle and initiate a pit-stop upon returning to the overworld to prevent step-based damage and restore peak condition.
   - Blastoise Margin: If Blastoise HP falls below 70 HP OR if Blastoise (Surf + Ice Beam) combined PP <= 5, trigger an immediate pit-stop.
   - Pit-Stop Execution: Step outside Cerulean Cave to Cerulean City exterior -> Fly to Cerulean Pokémon Center -> Nurse Joy fully heals party (clearing poison, restoring all PP/HP) -> Bike north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
 
