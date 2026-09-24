@@ -1,14 +1,12 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 24, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 25, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
   - Current Level: 25 (Atk 41, Def 41, Spd 15, Spc 32 [Verified Turn 40288]; EXP: ~16,547, 1,029 to Lv 26)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop 1 taken Turn 39585.*
-*Summary B171-B179 (Turns 39622-39713): Switch-trained Slowpoke from Lv 18 (5,324 EXP) to Lv 20 (8,310 EXP). Pit-stop 2 taken Turn 39721.*
-*Summary B180-B183 (Turns 39754-39914): Switch-trained Slowpoke from Lv 20 (8,310 EXP) to Lv 21 (9,632 EXP). Pit-stops 3 & 4 taken (Mewtwo PAR cured, HP/PP fully restored). Slowpoke at 9,632 EXP (1,016 to Lv 22).*
+*Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
 
 *Summary B184-B187 (Turns 39975-40046): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 22 (10,648 EXP). Defeated Parasect Lv 52 (B184) and Magneton Lv 46 x3 (B185-B187). Mewtwo reached Lv 74.*
 *Summary B188-B191 (Turns 40052-40097): Switch-trained Slowpoke from Lv 22 (10,648 EXP) to Lv 23 (12,167 EXP). Defeated Sandslash Lv 52 (B188), Dodrio Lv 49 (B189), Golbat Lv 46 (B190), and Hypno Lv 46 (B191).*
@@ -49,7 +47,8 @@
   - If Psychic PP reaches 0, Mewtwo can use SWIFT (Move 1, 60 power Normal, 19 PP). At Lv 74 (190 Attack), Swift deals ~105 damage to Magneton Lv 46 (base Def 70, HP ~105), securing a clean KO without exposing Blastoise to 2x Electric weakness.
   - Mandatory Pit-Stop Threshold: If Mewtwo consumes its final Psychic PP (reaching 0 PP) OR if Mewtwo HP falls below 60, immediately initiate a pit-stop (Fly to Cerulean Pokémon Center, heal, and return via Route 24 canal).
 
-- **Refined Retreat Protocol (Preventing Macro-Traversal Stagnation):**
-  - Do NOT retreat upon Mewtwo sustaining paralysis or running low on PP if Blastoise is healthy.
-  - Transfer active sweeping to Blastoise for physical/ice-weak encounters (Golbat, Dodrio, Sandslash, Parasect, Kadabra).
-  - Trigger a pit-stop ONLY when BOTH sweepers are depleted (e.g. Mewtwo Psychic <= 2 AND Blastoise Surf <= 2, or both sweepers below 60 HP).
+- **Proactive Sweeper Retreat Protocol (Safety Margin & Contingency):**
+  - Electric Contingency / Immediate Cutoff: If Mewtwo expends its final Psychic PP (reaches 0 PP), immediately initiate a pit-stop after that battle. Never risk an Electric encounter without Mewtwo's Psychic available.
+  - Attrition Buffer: If Mewtwo's HP falls below 100 HP from overworld poison, immediately initiate a pit-stop (preserving a safe 40 HP cushion above the 60 HP danger line).
+  - Blastoise Margin: If Blastoise HP falls below 70 HP OR if Blastoise (Surf + Ice Beam) combined PP <= 5, trigger an immediate pit-stop.
+  - Pit-Stop Execution: Step outside Cerulean Cave to Cerulean City exterior -> Fly to Cerulean Pokémon Center -> Nurse Joy fully heals party (clearing poison, restoring all PP/HP) -> Bike north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
