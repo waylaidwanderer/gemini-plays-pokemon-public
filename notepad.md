@@ -134,11 +134,11 @@
   - Stats: Attack 49, Defense 50, Speed 18, Special 38 [Verified Lv 30 Screen Turn 40873]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
-  - Status: Paralyzed (PAR)
-  - HP: 121 / 259 [Verified Turn 40934]
+  - Status: Healthy
+  - HP: 259 / 259 [Verified Turn 40947]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 27, Normal/Flying]
   - Status: Healthy
   - HP: 70 / 70 [Verified Lv 27 Party Screen Turn 40929]
@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 169 / 237 [Verified Turn 40916]
+  - HP: 237 / 237 [Verified Turn 40947]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 12/15), Surf (PP 14/15), Ice Beam (PP 5/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
 ## Key Items
 - BICYCLE
