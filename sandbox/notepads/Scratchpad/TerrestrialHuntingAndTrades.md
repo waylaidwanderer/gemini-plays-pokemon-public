@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 33 (Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~36,228, ~3,076 to Lv 34 [Calculated post-B263])
+  - Current Level: 33 (HP 110/110 [Verified Screen Turn 41357], Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~36,569, ~2,735 to Lv 34 [Calculated post-B264])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
@@ -29,6 +29,8 @@
 | **B262** | 41318 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~35,932 EXP (~5 to Lv 33). |
 
 | **B263** | 41328 | Parasect Lv 52 | Blastoise (Ice Beam) | 30 (Slash Crit) | Blastoise 207/237 HP, 6/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 30 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY grew to Level 33! Verified stats: Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338]. Forgot Growl, learned Water Gun! DOPEY at ~36,228 EXP (~3,076 to Lv 34). |
+
+| **B264** | 41356 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 207/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DUX grew to Level 28 (Atk 47, Def 43, Spd 43, Spc 41 [Verified Screen Turn 41365])! DOPEY at ~36,569 EXP (~2,735 to Lv 34). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
