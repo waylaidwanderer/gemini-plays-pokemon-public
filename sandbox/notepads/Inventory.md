@@ -25,6 +25,10 @@
   - HP: 241 / 241 [Verified Healed Turn 42384]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- Slot 4: PIDGEY (Nickname: BIRDIE) [Lv 13, Normal/Flying]
+  - Status: Healthy
+  - Caught: Route 25 tall grass [Turn 42485]
+  - Moves: Gust, Sand-Attack
 ## Bag Items
 - POK� BALL x13 [Used 2 Turn 42480 & 42484] [Purchased Cerulean Mart Turn 42447]
 
@@ -61,5 +65,5 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 1 / 20 (PIDGEY Lv 13 caught Turn 42485)
+- Box 2: 0 / 20 (Empty; BIRDIE placed into Party Slot 4)
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
