@@ -51,3 +51,6 @@
 - Row 61: South-facing ledge spanning cols 14 and 16..19, with passable tan ramp at (15, 61). Tree at (13, 61).
 - Rows 62..68: Flower garden pocket spanning cols 13..19.
 - Row 69: Solid trees block south across cols 10..22.
+
+## Empirical Wild Encounter Log
+- Encounter 1 [Turn 42675]: Pidgey Lv 3 (Route 2 tall grass at (8, 49)) - FLED (already registered).

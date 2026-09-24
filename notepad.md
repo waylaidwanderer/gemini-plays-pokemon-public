@@ -411,6 +411,8 @@
 - Rows 62..68: Flower garden pocket spanning cols 13..19.
 - Row 69: Solid trees block south across cols 10..22.
 
+## Empirical Wild Encounter Log
+- Encounter 1 [Turn 42675]: Pidgey Lv 3 (Route 2 tall grass at (8, 49)) - FLED (already registered).
 
 <hr>
 
