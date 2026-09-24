@@ -35,7 +35,7 @@
   - Moves: Harden
 
 ## Bag Items
-- POKÉ BALL x7 [Purchased Cerulean Mart Turn 42447]
+- POKÉ BALL x6 [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
