@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 24, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 25 (Atk 41, Def 41, Spd 15, Spc 32 [Verified Turn 40288]; EXP: ~15,865, 1,711 to Lv 26)
+  - Current Level: 25 (Atk 41, Def 41, Spd 15, Spc 32 [Verified Turn 40288]; EXP: ~16,206, 1,370 to Lv 26)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop 1 taken Turn 39585.*
@@ -17,6 +17,7 @@
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **B203** | 40296 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None/Fail) | Blastoise 91/233 HP, 4/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~16,206 EXP (1,370 to Lv 26). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
