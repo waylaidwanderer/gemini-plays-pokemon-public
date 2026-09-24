@@ -31,6 +31,7 @@
 | **B263** | 41328 | Parasect Lv 52 | Blastoise (Ice Beam) | 30 (Slash Crit) | Blastoise 207/237 HP, 6/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 30 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY grew to Level 33! Verified stats: Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338]. Forgot Growl, learned Water Gun! DOPEY at ~36,228 EXP (~3,076 to Lv 34). |
 
 | **B264** | 41356 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 207/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DUX grew to Level 28 (Atk 47, Def 43, Spd 43, Spc 41 [Verified Screen Turn 41365])! DOPEY at ~36,569 EXP (~2,735 to Lv 34). |
+| **B265** | 41386 | Venomoth Lv 49 | Blastoise (Surf) | 13 (Psybeam) | Blastoise 194/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise; Venomoth used Sleep Powder. Turn 2 used Poké Flute; woke up Sheldon; Venomoth used Psybeam (13 dmg). Turn 3 Surf OHKO! DOPEY at ~36,863 EXP (~2,441 to Lv 34). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -64,4 +65,3 @@
   2. Open Start menu -> POKéMON -> DUX (Slot 3) -> Select FLY -> Fly to Cerulean City.
   3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (clears Mewtwo's PAR, restores all HP/PP).
   4. Exit Pokémon Center -> Mount Bicycle -> Ride north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
-
