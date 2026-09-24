@@ -12,7 +12,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~39,788 (~3,087 to Lv 35) [Calculated post-B274; Lv 34 verified Screen Turn 41467]
+  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~40,129 (~2,746 to Lv 35) [Calculated post-B275; Lv 34 verified Screen Turn 41467]
   - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -31,7 +31,7 @@
   - Status: Healthy
   - HP: 202 / 241 [Verified Screen Turn 41611]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10) [Ice Beam used B274 Turn 41594]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 8/10) [Ice Beam used B275 Turn 41612]
 
 ## Key Items
 - BICYCLE
