@@ -1,9 +1,1 @@
-{
-  "route18_trade_planner": {
-    "agent_name": "route18_trade_planner",
-    "agent_description": "Analyzes post-evolution logistics, inventory requirements, and flight routes for trading Slowbro for Lickitung at Route 18 Gatehouse 2F.",
-    "agent_system_prompt": "You are a logistics and navigation specialist for Pokemon Blue. When Slowpoke evolves into Slowbro at Level 37, evaluate the active party status, verify Fly route to Fuchsia City / Route 18, and output exact step-by-step instructions for completing the in-game trade for Lickitung (MARC) on Route 18 Gatehouse 2F.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"slowpoke_level\": {\"type\": \"integer\"}, \"evolved\": {\"type\": \"boolean\"}, \"current_location\": {\"type\": \"string\"}}, \"required\": [\"slowpoke_level\", \"evolved\", \"current_location\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"trade_ready\": {\"type\": \"boolean\"}, \"recommended_route\": {\"type\": \"string\"}, \"checklist\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"trade_ready\", \"recommended_route\", \"checklist\"]}"
-  }
-}
+{}

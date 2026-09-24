@@ -3,11 +3,11 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: �3056 [Verified Turn 41998]
+- Money: ¥3056 [Verified Turn 41998]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pok�dex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
+- Pokédex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
 
-## Party Pok�mon (4 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 36, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
@@ -29,24 +29,24 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 241 / 241 [Max HP Baseline; Lv 75 Stats Verified Screen Turn 41595]
+  - HP: 182 / 241 [Post-B297 recoil; Max HP 241 Verified Screen Turn 41595]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10)
 
 ## Key Items
 - BICYCLE
 - SUPER ROD
-- POK� FLUTE
+- POKÉ FLUTE
 - SILPH SCOPE
 - HM02 (FLY)
 - EXP.ALL
 - TOWN MAP
 - COIN CASE
-- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pok�mon (DUX: Cut/Fly, SHELDON: Surf).
+- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pokémon (DUX: Cut/Fly, SHELDON: Surf).
 
-## PC Pok�mon Storage
+## PC Pokémon Storage
 - Active Box: BOX 1
-  - Box 1 Pok�mon (18 / 20 Verified Empirically Turn 39431-39432):
+  - Box 1 Pokémon (18 / 20 Verified Empirically Turn 39431-39432):
     - Zapdos (THUNDER Lv 50)
     - Hitmonlee (BRUCE Lv 30)
     - Lapras (NESSY Lv 15)
@@ -66,4 +66,4 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
 - Box 2: 0 / 20 (Verified completely empty Turn 39426)
-- Boxes 3�12: Uninspected storage (contains remaining caught Pok�mon).
+- Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
