@@ -28,10 +28,10 @@
 
 ### Sweeper Role & Matchup Profiles
 - **Role & Target Matchup Profiles:**
-  - **BLASTOISE (SHELDON Lv 75):** Physical/Special tank sweeper. Designated for all non-Electric targets.
-    - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Double-Edge OHKO when HP > 120), Kadabra Lv 49 (Body Slam/Surf OHKO).
-  - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper in reserve.
-    - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
+  - **BLASTOISE (SHELDON Lv 75):** Physical/Special tank sweeper.
+    - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Kadabra Lv 49 (Body Slam/Surf OHKO), and Hypno Lv 46 (Double-Edge OHKO when HP > 120).
+  - **MEWTWO (OMEGA Lv 74):** Primary Psychic STAB sweeper.
+    - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO), Venomoth Lv 49 (Psychic OHKO), and Hypno Lv 46 (2HKO when Blastoise HP is low).
 
 
 - **Proactive Sweeper Retreat Protocol (Safety Margin & Contingency):**
