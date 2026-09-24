@@ -31,7 +31,7 @@
   - Status: Healthy
   - HP: 181 / 237 [Verified Turn 40880]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 6/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 5/10)
 
 ## Key Items
 - BICYCLE
