@@ -6,26 +6,17 @@
   - Current Level: 29 (Atk 47, Def 48, Spd 18, Spc 37 [Verified Turn 40731]; EXP: ~25,322, ~1,678 to Lv 30)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
-
-*Summary Level 21 to 25 (B184-B202, Turns 39975-40286): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 25 (15,865 EXP). Defeated 19 encounters across 4 levels. Mewtwo reached Lv 74.*
-*Summary Level 25 to 26 (B203-B208, Turns 40296-40407): Defeated Golbat Lv 46 x4, Hypno Lv 46, and Raichu Lv 53. Executed Pit-Stop 5 at Cerulean PokÃ©mon Center on Turn 40361. Slowpoke reached Level 26 on Turn 40407.*
-
-*Summary Level 26 to 27 (B209-B214, Turns 40414-40471): Defeated Magneton Lv 46, Golbat Lv 46 x3, Sandslash Lv 52, and Hypno Lv 46. Slowpoke reached Level 27 (Atk 43, Def 44, Spd 16, Spc 34) on Turn 40470 and learned Growl.*
-
-*Summary Level 27 to 28 (B215-B221, Turns 40477-40595): Defeated Magneton Lv 46 x2, Dodrio Lv 49, Golbat Lv 46 x2, and Sandslash Lv 52 x2. Slowpoke reached Level 28 (Atk 46, Def 46, Spd 17, Spc 36) on Turn 40595.*
-
-*Summary Level 28 to 29 (B222-B228, Turns 40603-40730): Defeated Sandslash Lv 52, Golbat Lv 46, Dodrio Lv 49, and Magneton Lv 46 x4 (with Pit-Stop 6 at Cerulean Pokémon Center on Turn 40634). Slowpoke reached Level 29 (Atk 47, Def 48, Spd 18, Spc 37) on Turn 40730.*
+*Summary Levels 15 to 29 (B165-B228, Turns 39482-40730): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 29 (24,668 EXP). Defeated 64 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 29: HP 97/97, Atk 47, Def 48, Spd 18, Spc 37.*
 
 ### Active Milestone: Level 29 to 30 (Target: 27,000 EXP)
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-| **B230** | 40781 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 149/259 HP, 4/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 9 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO! Slowpoke at ~25,322 EXP (~1,678 to Lv 30). |
 | **B229** | 40749 | Magneton Lv 46 | Mewtwo (Psychic) | 90 (T-Shock/Confusion) | Mewtwo 158/259 HP, 5/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). T2 confused, hurt self. T3 hurt self. T4 snapped out, PAR. T5 took 11 dmg, STAB Psychic OHKO! Slowpoke at ~24,995 EXP (~2,005 to Lv 30). |
+| **B230** | 40781 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 149/259 HP, 4/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 9 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO! Slowpoke at ~25,322 EXP (~1,678 to Lv 30). |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 29) has low stats compared to Lv 46-53 wild PokÃ©mon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 29) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
@@ -45,4 +36,4 @@
   - Electric Contingency / Immediate Cutoff: If Mewtwo expends its final Psychic PP (reaches 0 PP), immediately initiate a pit-stop after that battle. Never risk an Electric encounter without Mewtwo's Psychic available.
   - Attrition Buffer: If Mewtwo's HP falls below 100 HP from overworld poison, immediately initiate a pit-stop (preserving a safe 40 HP cushion above the 60 HP danger line).
   - Blastoise Margin: If Blastoise HP falls below 70 HP OR if Blastoise (Surf + Ice Beam) combined PP <= 5, trigger an immediate pit-stop.
-  - Pit-Stop Execution: Step outside Cerulean Cave to Cerulean City exterior -> Fly to Cerulean PokÃ©mon Center -> Nurse Joy fully heals party (clearing poison, restoring all PP/HP) -> Bike north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
+  - Pit-Stop Execution: Step outside Cerulean Cave to Cerulean City exterior -> Fly to Cerulean Pokémon Center -> Nurse Joy fully heals party (clearing poison, restoring all PP/HP) -> Bike north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
