@@ -10,7 +10,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Money: ¥3056 [Turn 34152]
+- Money: ¥3056 [Verified Turn 40949]
 
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
@@ -310,8 +310,8 @@
 
 
 ## Field Items in Battle
-- **In-Battle Pok� Flute Usage (Empirically Verified Turns 33850 & 39237):**
-  - Using the Pok� Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POK�MON woke up!', awakening all sleepers (player and opponent).
+- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
+  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 
 <hr>
@@ -1532,7 +1532,7 @@
 - **Discrete Inputs vs Buffered Strides:** Depending on input timing and buffering, bicycle locomotion may advance 1 or 2 grid tiles per directional input. Chained inputs frequently buffer continuous 2-tile strides.
 - **Precision Alignment & Navigation:** When navigating tight single-tile gaps or aligning with precision between obstacles, dismounting the Bicycle to foot locomotion guarantees strict 1-tile step precision.
 - **Collision Truncation:** Riding into a collision boundary truncates movement immediately at the obstacle boundary.
-- **Bicycle State Preservation Across Map Warps:** In Generation 1 retail, mounting the Bicycle outdoors sets an internal riding state. Entering an indoor area, gatehouse, or cave where cycling is prohibited forces the on-foot walking sprite, but the mounted bicycle status is preserved in memory. Upon exiting back outdoors to an area where cycling is permitted, the player automatically resumes riding the Bicycle without needing to re-select it from the Bag. Using the Bicycle from the Bag immediately upon exiting will dismount it ('BLUE got off the BICYCLE.') rather than mount it. [Empirically confirmed Turns 25420-25432 on Route 4 exit]
+- **Bicycle State Preservation Across Map Warps:** In Generation 1 retail, mounting the Bicycle outdoors sets an internal riding state. Entering an indoor area, gatehouse, or cave where cycling is prohibited forces the on-foot walking sprite, but the mounted bicycle status is preserved in memory ONLY IF the player entered the prohibited zone while mounted. Upon exiting back outdoors to an area where cycling is permitted, the player automatically resumes riding the Bicycle without needing to re-select it from the Bag. Conversely, if the player arrives outdoors on foot (e.g. via HM02 Fly drop-off) and enters a building on foot, exiting that building leaves the player on foot, requiring the Bicycle to be manually selected from the Bag [Empirically verified Turns 40947-40951 at Cerulean Pokémon Center].
 
 ## HM03 SURF Mechanics & Empirical Findings
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
@@ -5025,9 +5025,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B239** | 40898 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (Meditate) | Blastoise 181/237 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate, 0 dmg). Turn 2 Body Slam deals ~95% dmg. Turn 3 Body Slam KOs Hypno. DOPEY at ~28,325 EXP (~1,466 to Lv 31). |
 | **B240** | 40912 | Venomoth Lv 49 | Blastoise (Surf) | 12 (unobserved move) | Blastoise 169/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 STAB Surf OHKO! DOPEY at ~28,619 EXP (~1,172 to Lv 31). |
 | **B241** | 40927 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 121/259 HP, 0/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 took 11 dmg from T-Shock, STAB Psychic OHKO! Mewtwo Psychic at 0 PP -> trigger pit-stop retreat. DOPEY at ~28,946 EXP (~845 to Lv 31). |
+| **Pit-Stop 7** | 40935-40947 | Cerulean Center | Nurse Joy | 0 | Full HP/PP restored, PAR cured | -- | -- | Exited 1F via (25, 17) to (4, 12). Cast Fly to Cerulean Center. Nurse Joy fully restored party (Mewtwo 259/259 HP, 10/10 Psychic; Blastoise 237/237 HP, 15/15 Surf, 10/10 Ice Beam, 15/15 Body Slam; Slowpoke 100/100 HP; Dux 70/70 HP). Exited to (19, 18). |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 29) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 30) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
@@ -5039,9 +5040,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - **Primary Targets:** Golbat Lv 46 (Ice Beam OHKO), Parasect Lv 52 (Ice Beam OHKO), Sandslash Lv 52 (Surf OHKO), Dodrio Lv 49 (Ice Beam OHKO), Hypno Lv 46 (Body Slam 2HKO), Kadabra Lv 49 (Body Slam OHKO), Venomoth Lv 49 (Ice Beam/Surf OHKO).
   - **MEWTWO (OMEGA Lv 74):** Psychic STAB sweeper in reserve.
     - **Primary Targets:** Magneton Lv 46, Raichu Lv 53 (Psychic OHKO; protects Blastoise from 2x Electric damage). Also available for fast neutral OHKOs.
-  - **In-Battle PokÃ© Flute Usage (Empirically Verified Turns 33850 & 39237):**
-    - Using the PokÃ© Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKÃ©MON woke up!', awakening all sleepers (player and opponent).
-    - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
+
 
 - **Proactive Sweeper Retreat Protocol (Safety Margin & Contingency):**
   - Electric Contingency / Immediate Cutoff: If Mewtwo expends its final Psychic PP (reaches 0 PP), immediately initiate a pit-stop after that battle. Never risk an Electric encounter without Mewtwo's Psychic available.
