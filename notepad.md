@@ -126,13 +126,13 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 27, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 28, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 91 / 91 [Verified Lv 27 Screen Turn 40479]
-  - Stats: Attack 43, Defense 44, Speed 16, Special 34 [Verified Lv 27 Screen Turn 40470]
-  - EXP: ~21941 (11 to Lv 28)
+  - HP: 94 / 94 [Verified Lv 28 Turn 40595]
+  - Stats: Attack 46, Defense 46, Speed 17, Special 36 [Verified Lv 28 Screen Turn 40595]
+  - EXP: ~22312 (~2077 to Lv 29)
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
@@ -148,9 +148,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 96 / 237 [Verified Turn 40576]
+  - HP: 84 / 237 [Verified Turn 40595]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 3/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 12/15), Ice Beam (PP 3/10)
 
 ## Key Items
 - BICYCLE
@@ -5006,9 +5006,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 27, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 28, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 27 (Atk 43, Def 44, Spd 16, Spc 34 [Verified Turn 40470]; EXP: ~21,941, 11 to Lv 28)
+  - Current Level: 28 (Atk 46, Def 46, Spd 17, Spc 36 [Verified Turn 40595]; EXP: ~22,312, ~2,077 to Lv 29)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Level 15 to 21 (B165-B183, Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
