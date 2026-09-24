@@ -5087,7 +5087,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 36, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 49,140 [Verified Page 2 Screen Turn 42167], 1,513 to Lv 37 Slowbro)
+  - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 49,511 [Calculated B304], 1,142 to Lv 37 Slowbro)
   ### Expedition 15 Systematic Encounter Log (N=4)
 *Consolidated Summary Levels 15 to 36 (B165-B296, Turns 39482-42044): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 36 (46,922 EXP). Defeated 132 wild encounters across Cerulean Cave 1F and executed 12 pit-stops. Verified Lv 36 stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Turn 42044].*
 ### Active Milestone: Level 36 to 37 (Slowbro Evolution Milestone, Target: 50,653 EXP)
@@ -5101,6 +5101,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | B301 | 42118 | Hypno Lv 46 | OMEGA (STAB Psychic 2HKO) | 33 HP (23 crit Confusion on switch + 10 Psychic Turn 2) | 192/259, Psychic 7/10 | +334 EXP (48,512) | +97 EXP | Slowpoke switched to Mewtwo taking 23 crit damage from Confusion. Mewtwo used Psychic turn 2 dealing ~65%, took 10 from Hypno Psychic. Mewtwo outsped turn 3 with critical hit STAB Psychic clean KO. Sheldon preserved at 91 HP. Slowpoke exact EXP verified on Page 2: 48,512 EXP (2,141 to Lv 37 Slowbro) [Screen Turn 42132]. |
 | B302 | 42141 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 10 HP (Psybeam on switch) | 182/259, Psychic 6/10 | +294 EXP (48,806) | +84 EXP | Slowpoke switched to Mewtwo taking 10 damage from Psybeam. Mewtwo outsped turn 2 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 84 EXP [Verified Screen Turn 42148]. Sheldon rested at 91 HP. Slowpoke exact EXP verified on Page 2: 48,806 EXP (1,847 to Lv 37 Slowbro) [Screen Turn 42151]. |
 | B303 | 42154 | Hypno Lv 46 | OMEGA (STAB Psychic 2HKO) | 16 HP (Poison Gas on switch, Hypno Meditate) | 166/259 (PSN), Psychic 4/10 | +334 EXP (49,140) | +97 EXP | Slowpoke switched to Mewtwo taking Poison Gas on switch. Mewtwo used Psychic turn 2 dealing ~70%, took 0 from Hypno (Meditate). Mewtwo outsped turn 3 with critical hit STAB Psychic clean KO. Sheldon rested at 91 HP. Slowpoke exact EXP verified on Page 2: 49,140 EXP (1,513 to Lv 37 Slowbro) [Screen Turn 42167]. |
+| B304 | 42228 | Sandslash Lv 52 | SHELDON (STAB Surf OHKO) | 11 HP on switch | 230/241, Surf 14/15 | +371 EXP (49,511) | +111 EXP | Slowpoke switched to Sheldon taking 11 damage on switch. Sheldon outsped turn 2 with super-effective STAB Surf clean OHKO. Sheldon healthy at 230/241 HP (Surf 14/15). Slowpoke cumulative: 49,511 EXP (1,142 to Lv 37 Slowbro, ~3 battles). Batched progression active. |
 
 *Pit-Stop 13 (Turns 42169-42179): Exited Cerulean Cave 1F, Flew to Cerulean City, fully healed with Nurse Joy (cured Mewtwo PSN, restored Mewtwo to 259/259 HP & 10/10 Psychic PP, Sheldon to 241/241 HP & 15/15 Double-Edge PP). Mounted Bicycle and returned via Route 24 canal.*
 
