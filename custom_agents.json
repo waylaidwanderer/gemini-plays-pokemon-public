@@ -1,1 +1,9 @@
-{}
+{
+  "combat_tactician": {
+    "agent_name": "combat_tactician",
+    "agent_description": "Calculates damage thresholds, battle EXP distribution under Exp. All for N=4 party, and level milestone progress for Generation 1 switch-training.",
+    "agent_system_prompt": "You are an expert Pokémon Generation 1 battle analyst and mathematician. You analyze wild encounter matchups, verify optimal sweeper routing (Blastoise for non-Electric physical-weak targets, Mewtwo for Electric targets), compute exact EXP distribution under Exp. All for an N=4 party (floor(E/4) participant share, team base share), and project exact battle counts to reach evolution milestones (Slowpoke Lv 37 Slowbro).",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"encounter_pokemon\":{\"type\":\"string\"},\"encounter_level\":{\"type\":\"integer\"},\"current_trainee_exp\":{\"type\":\"integer\"},\"target_level_exp\":{\"type\":\"integer\"}},\"required\":[\"encounter_pokemon\",\"encounter_level\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"designated_sweeper\":{\"type\":\"string\"},\"recommended_move\":{\"type\":\"string\"},\"expected_trainee_exp\":{\"type\":\"integer\"},\"exp_to_target\":{\"type\":\"integer\"},\"battles_remaining\":{\"type\":\"number\"}},\"required\":[\"designated_sweeper\",\"recommended_move\",\"expected_trainee_exp\"]}"
+  }
+}
