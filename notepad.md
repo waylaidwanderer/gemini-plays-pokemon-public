@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 117 / 117 [Verified Screen Turn 41799], EXP: ~43,343 (~3,313 to Lv 36) [Calculated post-B285; Lv 35 stats verified Screen Turn 41793]
+  - HP: 117 / 117 [Verified Screen Turn 41799], EXP: ~43,658 (~2,998 to Lv 36) [Calculated post-B286; Lv 35 stats verified Screen Turn 41793]
   - Stats: Attack 57, Defense 58, Speed 22, Special 45 [Verified Lv 35 Screen Turn 41793]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 241 / 241 [Verified Heal Turn 41816]
+  - HP: 216 / 241 [Verified Screen Turn 41858]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
 ## Key Items
 - BICYCLE
@@ -5074,7 +5074,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 35, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 35 (HP 117/117 [Verified Screen Turn 41799], Atk 57, Def 58, Spd 22, Spc 45 [Verified Screen Turn 41793], EXP: ~43,343, ~3,313 to Lv 36 [Calculated post-B285])
+  - Current Level: 35 (HP 117/117 [Verified Screen Turn 41799], Atk 57, Def 58, Spd 22, Spc 45 [Verified Screen Turn 41793], EXP: ~43,658, ~2,998 to Lv 36 [Calculated post-B286])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
@@ -5082,11 +5082,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
 *Milestone Summary: Level 34 to 35 (Completed Turn 41793, Target: 42,875 EXP achieved at 43,047 EXP, Battles B274-B284): Defeated 11 wild encounters (Dodrio x1, Golbat x2, Hypno x3, Ditto x1, Sandslash x3, Magneton x1). Slowpoke grew to Level 35 (43,047 EXP), verified stats: HP 117/117, Atk 57, Def 58, Spd 22, Spc 45 [Screen Turn 41793].*
 ### Active Milestone: Level 35 to 36 (Target: 46,656 EXP)
-*Next move: None at Lv 36. Target: 36^3 = 46,656 EXP (~3,313 EXP remaining).*
+*Next move: None at Lv 36. Target: 36^3 = 46,656 EXP (~2,998 EXP remaining).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | B285 | 41798 | Parasect Lv 52 | SHELDON (Ice Beam OHKO) | 31 HP (Crit Slash on switch) | 63/241, IB 8/10 | +296 EXP (~43,343) | +88 EXP | Sheldon took 31 crit damage on switch-in (HP 63/241, below 70 HP margin). Clean 2x super-effective Ice Beam OHKO. Slowpoke ~3,313 EXP to Lv 36. Pit-Stop 11 executed & completed (Turns 41813-41816, Nurse Joy fully healed team to 100% HP/PP). |
+| B286 | 41854 | Kadabra Lv 49 | SHELDON (Body Slam Crit OHKO) | 25 HP (Psybeam on switch) | 216/241, BS 14/15 | +315 EXP (~43,658) | +94 EXP | Sheldon took 25 damage on switch. Critical hit Body Slam clean OHKO (0 recoil). Sheldon healthy at 216/241 HP. Slowpoke ~2,998 EXP to Lv 36. |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 34) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
