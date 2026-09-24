@@ -3,7 +3,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 36, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 49,511 [Calculated B304], 1,142 to Lv 37 Slowbro)
+  - Current Level: 36 (HP 120/120 [Verified Screen Turn 42049], Atk 59, Def 60, Spd 23, Spc 47 [Verified Screen Turn 42044], EXP: 49,845 [Calculated B305], 808 to Lv 37 Slowbro)
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Consolidated Summary Levels 15 to 36 (B165-B296, Turns 39482-42044): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 36 (46,922 EXP). Defeated 132 wild encounters across Cerulean Cave 1F and executed 12 pit-stops. Verified Lv 36 stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Turn 42044].*
 ### Active Milestone: Level 36 to 37 (Slowbro Evolution Milestone, Target: 50,653 EXP)
@@ -21,6 +21,7 @@
 *Pit-Stop 13 (Turns 42169-42179): Exited Cerulean Cave 1F, Flew to Cerulean City, fully healed with Nurse Joy (cured Mewtwo PSN, restored Mewtwo to 259/259 HP & 10/10 Psychic PP, Sheldon to 241/241 HP & 15/15 Double-Edge PP). Mounted Bicycle and returned via Route 24 canal.*
 
 | B304 | 42228 | Sandslash Lv 52 | SHELDON (STAB Surf OHKO) | 11 HP on switch | 230/241, Surf 14/15 | +371 EXP (49,511) | +111 EXP | Slowpoke switched to Sheldon taking 11 damage on switch. Sheldon outsped turn 2 with super-effective STAB Surf clean OHKO. Sheldon healthy at 230/241 HP (Surf 14/15). Slowpoke cumulative: 49,511 EXP (1,142 to Lv 37 Slowbro, ~3 battles). Batched progression active. |
+| B305 | 42236 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 28 HP on switch + 37 recoil | 165/241, DE 14/15 | +334 EXP (49,845) | +97 EXP | Slowpoke switched to Sheldon taking 28 damage on switch. Sheldon outsped turn 2 with Double-Edge clean physical OHKO (-37 recoil). Sheldon healthy at 165/241 HP (DE 14/15). Slowpoke cumulative: 49,845 EXP (808 to Lv 37 Slowbro, ~2-3 battles). Batched progression active. |
 
 
 ### Slowpoke Switch-Training Combat Protocol
