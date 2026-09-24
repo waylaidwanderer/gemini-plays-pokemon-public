@@ -126,13 +126,13 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 32, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 33, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 107 / 107 [Verified Turn 41210], EXP: ~35,932 (~5 to Lv 33) [Calculated post-B262; verified at 34,575 Screen Turn 41210]
-  - Stats: Attack 52, Defense 53, Speed 20, Special 41 [Verified Screen Turn 41210]
-  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
+  - HP: 107 / 107 [Verified Turn 41210], EXP: ~36,228 (~3,076 to Lv 34) [Calculated post-B263; Lv 32 verified at 34,575 Screen Turn 41210]
+  - Stats: Attack 54, Defense 55, Speed 20, Special 42 [Verified Lv 33 Screen Turn 41338]
+  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy [Verified Party Screen Turn 41210]
   - HP: 259 / 259 [Verified Party Screen Turn 41210]
@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 237 / 237 [Verified Party Screen Turn 41210]
+  - HP: 207 / 237 [Verified Screen Turn 41332]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 15/15), Ice Beam (PP 7/10) [3 Ice Beam, 2 Body Slam expended since Turn 41205 heal]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 15/15), Ice Beam (PP 6/10) [4 Ice Beam, 2 Body Slam expended since Turn 41205 heal]
 
 ## Key Items
 - BICYCLE
@@ -5089,13 +5089,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 32, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 32 (HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: ~35,932, ~5 to Lv 33 [Calculated post-B262; verified at 34,575 Screen Turn 41210])
+  - Current Level: 33 (Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338], EXP: ~36,228, ~3,076 to Lv 34 [Calculated post-B263])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 
-### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
-*Learns Water Gun at Level 33.*
+### Active Milestone: Level 33 to 34 (Target: 39,304 EXP)
+*Learned Water Gun at Level 33! Next move: None at Lv 34.*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -5113,6 +5113,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | **B261** | 41300 | Hypno Lv 46 | Blastoise (Body Slam x2) | 0 (None) | Blastoise 237/237 HP, 13/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate, 0 dmg). Turn 2 Body Slam leaves tiny red sliver (Hypno used Meditate, 0 dmg). Turn 3 Body Slam KOs! DOPEY at ~35,591 EXP (~346 to Lv 33). |
 
 | **B262** | 41318 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 237/237 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat used Haze, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~35,932 EXP (~5 to Lv 33). |
+
+| **B263** | 41328 | Parasect Lv 52 | Blastoise (Ice Beam) | 30 (Slash Crit) | Blastoise 207/237 HP, 6/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 30 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY grew to Level 33! Verified stats: Atk 54, Def 55, Spd 20, Spc 42 [Verified Screen Turn 41338]. Forgot Growl, learned Water Gun! DOPEY at ~36,228 EXP (~3,076 to Lv 34). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
