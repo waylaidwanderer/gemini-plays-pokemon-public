@@ -89,6 +89,6 @@
 
 
 ## Field Items in Battle
-- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
-  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
+- **In-Battle Pokï¿½ Flute Usage (Empirically Verified Turns 33850 & 39237):**
+  - Using the Pokï¿½ Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKï¿½MON woke up!', awakening all sleepers (player and opponent).
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.

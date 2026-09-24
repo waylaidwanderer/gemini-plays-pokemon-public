@@ -1,29 +1,21 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 29, Water/Psychic, Lead Slot 1)
+- Target: SLOWPOKE (DOPEY Lv 30, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
   - Current Level: 30 (Atk 49, Def 50, Spd 18, Spc 38 [Verified Turn 40873]; EXP: ~28,619, ~1,172 to Lv 31)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary Levels 15 to 29 (B165-B228, Turns 39482-40730): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 29 (24,668 EXP). Defeated 64 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 29: HP 97/97, Atk 47, Def 48, Spd 18, Spc 37.*
+*Summary Levels 15 to 30 (B165-B236, Turns 39482-40875): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 30 (27,328 EXP). Defeated 72 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 30: HP 100/100, Atk 49, Def 50, Spd 18, Spc 38.*
 
 ### Active Milestone: Level 30 to 31 (Target: 29,791 EXP)
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-| **B229** | 40749 | Magneton Lv 46 | Mewtwo (Psychic) | 90 (T-Shock/Confusion) | Mewtwo 158/259 HP, 5/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 11 dmg). T2 confused, hurt self. T3 hurt self. T4 snapped out, PAR. T5 took 11 dmg, STAB Psychic OHKO! Slowpoke at ~24,995 EXP (~2,005 to Lv 30). |
-| **B230** | 40781 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 149/259 HP, 4/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 9 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO! Slowpoke at ~25,322 EXP (~1,678 to Lv 30). |
-| **B231** | 40795 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 211/237 HP, 8/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Haze, 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~25,663 EXP (~1,337 to Lv 30). |
-| **B232** | 40810 | Magneton Lv 46 | Mewtwo (Psychic) | 9 (Swift) | Mewtwo 140/259 HP, 3/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 took 9 dmg from Swift, STAB Psychic OHKO! Slowpoke at ~25,990 EXP (~1,010 to Lv 30). |
-| **B233** | 40822 | Magneton Lv 46 | Mewtwo (Psychic) | 0 (T-Wave/Supersonic fail) | Mewtwo 140/259 HP, 2/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (T-Wave failed, 0 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO (Crit)! Slowpoke at ~26,317 EXP (~683 to Lv 30). |
-| **B234** | 40836 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (Meditate) | Blastoise 211/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate). Turn 2 Body Slam OHKO (Crit)! Slowpoke at ~26,651 EXP (~349 to Lv 30). |
-| **B235** | 40854 | Dodrio Lv 49 | Blastoise (Ice Beam) | 18 (Drill Peck) | Blastoise 193/237 HP, 7/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 18 dmg). Turn 2 Ice Beam OHKO (super effective)! Slowpoke at ~26,987 EXP (~13 to Lv 30). |
-| **B236** | 40866 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 193/237 HP, 6/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Haze, 0 dmg). Turn 2 Ice Beam OHKO (Crit, super effective)! Slowpoke grew to Level 30! Level 30 stats: Atk 49, Def 50, Spd 18, Spc 38. DOPEY at ~27,328 EXP (~2,463 to Lv 31). |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **B237** | 40877 | Dodrio Lv 49 | Blastoise (Ice Beam) | 12 (Fury Attack) | Blastoise 181/237 HP, 5/10 Ice Beam PP | +336 EXP (273+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg from Fury Attack). Turn 2 Ice Beam OHKO (super effective)! DOPEY at ~27,664 EXP (~2,127 to Lv 31). |
 | **B238** | 40887 | Magneton Lv 46 | Mewtwo (Psychic) | 8 (Swift/T-Shock) | Mewtwo 132/259 HP, 1/10 Psychic PP (PAR) | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 8 dmg). Turn 2 Supersonic failed, STAB Psychic OHKO (Crit)! DOPEY at ~27,991 EXP (~1,800 to Lv 31). |
 | **B239** | 40898 | Hypno Lv 46 | Blastoise (Body Slam) | 0 (Meditate) | Blastoise 181/237 HP, 12/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Hypno used Meditate, 0 dmg). Turn 2 Body Slam deals ~95% dmg. Turn 3 Body Slam KOs Hypno. DOPEY at ~28,325 EXP (~1,466 to Lv 31). |
-| **B240** | 40912 | Venomoth Lv 49 | Blastoise (Surf) | 12 (Leech Life/Psybeam) | Blastoise 169/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 STAB Surf OHKO! DOPEY at ~28,619 EXP (~1,172 to Lv 31). |
+| **B240** | 40912 | Venomoth Lv 49 | Blastoise (Surf) | 12 (unobserved move) | Blastoise 169/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 12 dmg). Turn 2 STAB Surf OHKO! DOPEY at ~28,619 EXP (~1,172 to Lv 31). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 29) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -47,3 +39,15 @@
   - Attrition Buffer: If Mewtwo's HP falls below 100 HP from overworld poison, immediately initiate a pit-stop (preserving a safe 40 HP cushion above the 60 HP danger line).
   - Blastoise Margin: If Blastoise HP falls below 70 HP OR if Blastoise (Surf + Ice Beam) combined PP <= 5, trigger an immediate pit-stop.
   - Pit-Stop Execution: Step outside Cerulean Cave to Cerulean City exterior -> Fly to Cerulean Pokémon Center -> Nurse Joy fully heals party (clearing poison, restoring all PP/HP) -> Bike north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
+
+### Cerulean Cave 1F Immediate Egress & Pit-Stop Route
+- **Exit Warp Coordinates:** Tile threshold at (24..25, 17) [Checkerboard floor pattern at southern cavern threshold].
+- **Tile-by-Tile Egress Route from Active 1F Corridor:**
+  - From (25, 14): Step Down x3: (25, 15) -> (25, 16) -> (25, 17) [Map transition triggers instantly outside to Cerulean City canal].
+  - From (23, 13): Step Down x1 to (23, 14) -> Right x2 to (25, 14) -> Down x3 to (25, 17).
+  - From (21, 14): Step Right x4 to (25, 14) -> Down x3 to (25, 17).
+- **Pit-Stop Execution Sequence:**
+  1. Step onto (24..25, 17) to exit cave outdoors onto Cerulean City canal.
+  2. Open Start menu -> POKéMON -> DUX (Slot 3) -> Select FLY -> Fly to Cerulean City.
+  3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (clears Mewtwo's PAR, restores all HP/PP).
+  4. Exit Pokémon Center -> Mount Bicycle -> Ride north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
