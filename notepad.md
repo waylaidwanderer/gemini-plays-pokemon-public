@@ -5028,6 +5028,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
 
 ## PC Storage & Menu Mechanics (Generation 1 Retail)
+- **PC Pokémon Withdrawal List Vertical Navigation:** In Generation 1 retail, the PC Pokémon storage withdrawal list does NOT wrap vertically from top to bottom (pressing Up at Slot 1 stops at Slot 1 and does not wrap to CANCEL, identical to Bag item list behavior) [Empirically verified Turn 42398].
 - **Pokémon Box Storage Indexing:** Empirically confirmed Turn 33419: in Box 1, Krabby (PINCHY, caught Turn 31540) was listed at Slot 1 ahead of Zapdos (THUNDER, caught Turn 29075), disproving strict chronological box index ordering.
 - **Item Storage Withdrawal:** When withdrawing items from BLUE's PC, single-quantity items withdraw immediately upon confirmation, while stacked items prompt for quantity (x01..x99). Withdrawn items are placed into the next available Bag slot.
 - **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
