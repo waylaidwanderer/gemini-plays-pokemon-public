@@ -130,7 +130,7 @@
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~42,342 (~533 to Lv 35) [Calculated post-B282; Lv 34 verified Screen Turn 41467]
+  - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~42,676 (~199 to Lv 35) [Calculated post-B283; Lv 34 verified Screen Turn 41467]
   - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -5074,7 +5074,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 34, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 34 (HP 113/113 [Verified Screen Turn 41471], Atk 56, Def 56, Spd 21, Spc 44 [Verified Screen Turn 41467], EXP: ~42,342, ~533 to Lv 35 [Calculated post-B282])
+  - Current Level: 34 (HP 113/113 [Verified Screen Turn 41471], Atk 56, Def 56, Spd 21, Spc 44 [Verified Screen Turn 41467], EXP: ~42,676, ~199 to Lv 35 [Calculated post-B283])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
