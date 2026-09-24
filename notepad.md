@@ -10,7 +10,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥3056 [Verified Turn 40949]
+- Money: ¥3056 [Verified Turn 41998]
 
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
@@ -121,11 +121,11 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: �3056 [Verified Turn 41998]
+- Money: ¥3056 [Verified Turn 41998]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pok�dex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
+- Pokédex: 52 Caught [Verified Save Screen Turn 41992] / 137 Seen [Verified Turn 39387]
 
-## Party Pok�mon (4 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 36, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
@@ -147,24 +147,24 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 241 / 241 [Max HP Baseline; Lv 75 Stats Verified Screen Turn 41595]
+  - HP: 182 / 241 [Post-B297 recoil; Max HP 241 Verified Screen Turn 41595]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 9/10)
 
 ## Key Items
 - BICYCLE
 - SUPER ROD
-- POK� FLUTE
+- POKÉ FLUTE
 - SILPH SCOPE
 - HM02 (FLY)
 - EXP.ALL
 - TOWN MAP
 - COIN CASE
-- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pok�mon (DUX: Cut/Fly, SHELDON: Surf).
+- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pokémon (DUX: Cut/Fly, SHELDON: Surf).
 
-## PC Pok�mon Storage
+## PC Pokémon Storage
 - Active Box: BOX 1
-  - Box 1 Pok�mon (18 / 20 Verified Empirically Turn 39431-39432):
+  - Box 1 Pokémon (18 / 20 Verified Empirically Turn 39431-39432):
     - Zapdos (THUNDER Lv 50)
     - Hitmonlee (BRUCE Lv 30)
     - Lapras (NESSY Lv 15)
@@ -184,7 +184,7 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
 - Box 2: 0 / 20 (Verified completely empty Turn 39426)
-- Boxes 3�12: Uninspected storage (contains remaining caught Pok�mon).
+- Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
 
 
 <hr>
@@ -5099,22 +5099,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| B285 | 41798 | Parasect Lv 52 | SHELDON (Ice Beam OHKO) | 31 HP (Crit Slash on switch) | 63/241, IB 8/10 | +296 EXP (~43,343) | +88 EXP | Sheldon took 31 crit damage on switch-in (HP 63/241, below 70 HP margin). Clean 2x super-effective Ice Beam OHKO. Slowpoke ~3,313 EXP to Lv 36. Pit-Stop 11 executed & completed (Turns 41813-41816, Nurse Joy fully healed team to 100% HP/PP). |
-| B286 | 41854 | Kadabra Lv 49 | SHELDON (Body Slam Crit OHKO) | 25 HP (Psybeam on switch) | 216/241, BS 14/15 | +315 EXP (~43,658) | +94 EXP | Sheldon took 25 damage on switch. Critical hit Body Slam clean OHKO (0 recoil). Sheldon healthy at 216/241 HP. Slowpoke ~2,998 EXP to Lv 36. |
-| B287 | 41871 | Raichu Lv 53 | OMEGA (Psychic OHKO) | 0 HP (Turn 1 move) | 259/259, Psychic 9/10 | +280 EXP (~43,938) | +79 EXP | Clean STAB Psychic OHKO. Mewtwo untouched at 259/259 HP. Slowpoke ~2,718 EXP to Lv 36. |
-| B288 | 41883 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 10 HP (Thundershock turn 2) | 249/259 (PAR), Psychic 8/10 | +327 EXP (~44,265) | +97 EXP | Paralyzed by Thunder Wave on switch. Took 10 damage from Thundershock turn 2. Broke full paralysis to land STAB Psychic clean OHKO. Slowpoke ~2,391 EXP to Lv 36. |
-| B289 | 41894 | Dodrio Lv 49 | SHELDON (Ice Beam Crit OHKO) | 37 HP (25 switch + 12 Fury Attack) | 179/241, IB 8/10 | +336 EXP (~44,601) | +94 EXP | Sheldon took 25 on switch. Ice Beam missed turn 2 on 1/256 check; took 12 from Fury Attack (hit 2 times). Ice Beam turn 3 landed critical hit OHKO. Sheldon healthy at 179/241 HP (IB 8/10). Slowpoke ~2,055 EXP to Lv 36. |
-| B290 | 41913 | Golbat Lv 46 | SHELDON (Ice Beam OHKO) | 24 HP (confusion recoil) | 155/241, IB 7/10 | +341 EXP (~44,942) | +97 EXP | Sheldon took 0 on switch (Confuse Ray). Hurt itself in confusion turn 2 (-24 HP); Golbat Confuse Ray failed. Powered through confusion turn 3 to land super-effective Ice Beam clean OHKO. Sheldon healthy at 155/241 HP (IB 7/10). Slowpoke ~1,714 EXP to Lv 36. |
-| B291 | 41927 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 27 HP (11 switch + 16 crit Swift) | 222/259 (PAR), Psychic 7/10 | +327 EXP (~45,269) | +97 EXP | Mewtwo switched in taking 11 damage. Magneton moved first (PAR speed) with crit Swift (-16 HP). Mewtwo broke full paralysis to land STAB Psychic clean OHKO. Mewtwo healthy at 222/259 HP (Psychic 7/10). Slowpoke ~1,387 EXP to Lv 36. |
-| B292 | 41937 | Kadabra Lv 49 | SHELDON (Surf OHKO) | 0 HP (Reflect on switch) | 155/241, Surf 14/15 | +315 EXP (~45,584) | +94 EXP | Sheldon took 0 on switch (Kadabra used Reflect). Sheldon used STAB Surf to bypass physical Reflect, landing clean OHKO. Sheldon healthy at 155/241 HP (Surf 14/15). Slowpoke ~1,072 EXP to Lv 36. |
-| B293 | 41949 | Golbat Lv 46 | SHELDON (Ice Beam OHKO) | 0 HP (Golbat move failed on switch) | 155/241, IB 6/10 | +341 EXP (~45,925) | +97 EXP | Sheldon took 0 on switch (Golbat move failed). Clean 2x super-effective Ice Beam OHKO. Sheldon healthy at 155/241 HP (IB 6/10). Slowpoke ~731 EXP to Lv 36. |
-| B294 | 41963 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 33 HP (recoil) + PSN switch | 122/241 (PSN), DE 14/15 | +334 EXP (~46,259) | +97 EXP | Sheldon poisoned by Poison Gas on switch. Double-Edge clean physical OHKO (-33 recoil). Slowpoke ~397 EXP to Lv 36. Pit-Stop 12 executed & completed (Turns 41972-41991, Nurse Joy cured Sheldon's poison and Mewtwo's paralysis, restoring full team to 100% HP/PP). |
-| B295 | 41973 | Magneton Lv 46 | OMEGA (Psychic OHKO) | 9 HP (Swift turn 2) | 213/259 (PAR), Psychic 6/10 | +327 EXP (~46,586) | +97 EXP | Magneton Thunder Wave failed on Mewtwo on switch. Magneton used Swift turn 2 (-9 HP). Mewtwo broke full paralysis to land STAB Psychic clean OHKO. Slowpoke ~70 EXP to Lv 36 (guaranteed next battle!). Pit-Stop 12 executed & completed (Turns 41972-41991, Nurse Joy cured Sheldon's poison and Mewtwo's paralysis, restoring full team to 100% HP/PP). |
-| B296 | 42036 | Dodrio Lv 49 | SHELDON (Ice Beam Crit OHKO) | 25 HP (switch) | 216/241, IB 9/10 | +336 EXP (~46,922) | +94 EXP | Sheldon took 25 on switch. Critical hit Ice Beam clean OHKO. Slowpoke grew to Level 36! Verified Level 36 stats: Attack 59, Defense 60, Speed 23, Special 47 [Screen Turn 42044]. Milestone achieved! Target for Lv 37 Slowbro: 50,653 EXP (~3,731 EXP remaining). |
 | B297 | 42052 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 0 HP (Meditate) + 34 recoil | 182/241, DE 14/15 | +334 EXP (~47,256) | +97 EXP | Sheldon took 0 on switch (Hypno used Meditate). Double-Edge clean physical OHKO (-34 recoil). Sheldon healthy at 182/241 HP (DE 14/15). Slowpoke ~3,397 EXP to Lv 37 Slowbro (~10 battles). |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 35) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 36) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
