@@ -12,7 +12,7 @@
 
 - Money: ¥56 [Verified Turn 42448]
 
-- Pokédex: 55 Caught [PIDGEY #016 caught Turn 42485] / 137 Seen [Verified Turn 39387]
+- Pokédex: 56 Caught [KAKUNA #014 caught Turn 42531] / 137 Seen [Verified Turn 39387]
 
 
 
@@ -124,14 +124,14 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥3056 [Verified Turn 41998]
+- Money: ¥56 [Verified Turn 42448]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 54 Caught [Verified Pokédex Screen Turn 42367] / 137 Seen [Verified Turn 39387]
+- Pokédex: 56 Caught [KAKUNA #014 caught Turn 42531] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (3 / 6)
+## Party Pokémon (5 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 259 / 259 [Max HP Baseline; Lv 74 Stats Verified Screen Turn 40038]
+  - HP: 257 / 259 [Current Battle HP]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -154,8 +154,9 @@
   - Status: Healthy
   - Caught: Route 25 tall grass [Turn 42531]
   - Moves: Harden
+
 ## Bag Items
-- POK� BALL x8 [Used 7: Turn 42480, 42484, 42505, 42509, 42520, 42525, 42530] [Purchased Cerulean Mart Turn 42447]
+- POKÉ BALL x8 [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
@@ -190,7 +191,7 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 0 / 20 (Empty; BIRDIE placed into Party Slot 4)
+- Box 2: 0 / 20 (Empty)
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
 
 
@@ -1099,7 +1100,7 @@
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
 ## Empirical Wild Encounter Log
-- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Transferred to Box 2.
+- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Added to Party Slot 4.
 - Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)). Fleeing (already registered).
 - Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)). Ball 1 broke free [Turn 42506]. Turn 1 Teleport failed. Ball 2 broke free [Turn 42510]. Turn 2 Teleport succeeded (fled) [Turn 42514].
 - Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)). Ball 1 broke free [Turn 42521]. Ball 2 broke free [Turn 42526]. Ball 3 CAUGHT [Turn 42531]. Nicknamed COCOON, added to Party Slot 5.
