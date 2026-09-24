@@ -5100,6 +5100,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | B297 | 42052 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 0 HP (Meditate) + 34 recoil | 182/241, DE 14/15 | +334 EXP (~47,256) | +97 EXP | Sheldon took 0 on switch (Hypno used Meditate). Double-Edge clean physical OHKO (-34 recoil). Sheldon healthy at 182/241 HP (DE 14/15). Slowpoke ~3,397 EXP to Lv 37 Slowbro (~10 battles). |
+| B298 | 42069 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 56 HP (Crit on switch) + 35 recoil | 91/241, DE 13/15 | +334 EXP (~47,590) | +97 EXP | Sheldon took 56 crit damage on switch. Double-Edge clean physical OHKO (-35 recoil). Sheldon at 91/241 HP (DE 13/15, above 70 HP cutoff). Slowpoke ~3,063 EXP to Lv 37 Slowbro (~9 battles). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 36) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
