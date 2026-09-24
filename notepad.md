@@ -126,30 +126,29 @@
 - Pokédex: 53 Caught [Verified Turn 42280 Slowbro Evolution] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWBRO (Nickname: DOPEY) [Lv 37, Water/Psychic]
-  - Status: Healthy
-  - OT: BLUE (IDNo. 04620)
-  - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 127 / 127 [Verified Screen Turn 42294]
-  - Stats: Attack 61, Defense 61, Speed 23, Special 48 [Verified Lv 37 Screen Turn 42277]
-  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
-- Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
+- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 259 / 259 [Max HP Baseline; Lv 74 Stats Verified Screen Turn 40038]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 3: FARFETCH'D (Nickname: DUX) [Lv 29, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 29, Normal/Flying]
   - Status: Healthy
   - HP: 75 / 75 [Verified Party Screen Turn 41929]
   - Stats: Attack 48, Defense 45, Speed 45, Special 42 [Verified Lv 29 Screen Turn 41923]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
-- Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
+- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 241 / 241 [Max HP Baseline; Lv 75 Stats Verified Screen Turn 41595]
+  - HP: 101 / 241 [Verified Party Screen Turn 42358]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 9/10)
+- Slot 4: LICKITUNG (Nickname: MARC) [Lv 37, Normal]
+  - Status: Healthy
+  - HP: 119 / 119 [Verified Screen Turn 42361]
+  - Stats: Attack 56, Defense 63, Speed 28, Special 50 [Verified Screen Turn 42361]
+  - OT: TRAINER (IDNo. 19882) [Traded on Route 18 Gatehouse 2F]
+  - Moves: Pending Page 2 verification
 
 ## Key Items
 - BICYCLE
@@ -5076,6 +5075,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Party & Stats Screen UI Navigation (Generation 1 Retail)
 - **Stats Screen Page Navigation:** On Page 1 of a Pokémon's STATS screen (displaying HP, stats, types, OT), pressing EITHER 'A' OR 'B' advances to Page 2 (displaying EXP points, Level Up EXP, moves and PP) [Empirically verified: 'B' Turn 39837; 'A' Turn 40083]. On Page 2, pressing 'B' exits the STATS screen back to the Party menu with cursor positioned on the inspected Pokémon [Empirically verified Turn 39838].
 
+## In-Game NPC Trade Party Slot Reorganization Mechanics [Empirically Verified Turns 42344-42358]
+- In Generation 1 retail, when trading a Pokémon from the active party with an NPC:
+  - If the offered Pokémon is in Slot 1 (lead slot), removing it causes all subsequent party Pokémon to shift up by 1 slot (Slot 2 becomes Slot 1, Slot 3 becomes Slot 2, Slot 4 becomes Slot 3).
+  - The newly received traded Pokémon is appended directly into the LAST occupied party slot (e.g. 4-member party: Slot 4 became MARC).
+  - Traded Pokémon arrives at the exact same level as the offered Pokémon (Slowbro Lv 37 -> Lickitung Lv 37).
+
 
 <hr>
 
@@ -5083,33 +5088,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-- Expedition Start Turn: Turn 39435
-- Target: SLOWPOKE (DOPEY Lv 36, Water/Psychic, Lead Slot 1)
-  - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 37 (SLOWBRO EVOLUTION COMPLETE! EXP: 50,827, +174 over Lv 37 threshold)
-- Expedition 15 COMPLETE: Slowpoke successfully switch-trained from Lv 15 to Lv 37 and evolved into Slowbro (#080)!
-- Next Objective: Fly to Fuchsia City and trade Slowbro for Lickitung (MARC, #108) on Route 18 Gatehouse 2F.
-### Expedition 15 Systematic Encounter Log (N=4)
-*Consolidated Summary Levels 15 to 36 (B165-B296, Turns 39482-42044): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 36 (46,922 EXP). Defeated 132 wild encounters across Cerulean Cave 1F and executed 12 pit-stops. Verified Lv 36 stats: HP 120/120, Atk 59, Def 60, Spd 23, Spc 47 [Turn 42044].*
-### Active Milestone: Level 36 to 37 (Slowbro Evolution Milestone, Target: 50,653 EXP)
-
-| Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| B297 | 42052 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 0 HP (Meditate) + 34 recoil | 182/241, DE 14/15 | +334 EXP (~47,256) | +97 EXP | Sheldon took 0 on switch (Hypno used Meditate). Double-Edge clean physical OHKO (-34 recoil). Sheldon healthy at 182/241 HP (DE 14/15). Slowpoke ~3,397 EXP to Lv 37 Slowbro (~10 battles). |
-| B298 | 42069 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 56 HP (Crit on switch) + 35 recoil | 91/241, DE 13/15 | +334 EXP (~47,590) | +97 EXP | Sheldon took 56 crit damage on switch. Double-Edge clean physical OHKO (-35 recoil). Sheldon at 91/241 HP (DE 13/15, above 70 HP cutoff). Slowpoke ~3,063 EXP to Lv 37 Slowbro (~9 battles). |
-| B299 | 42079 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 12 HP (Leech Life Turn 2) | 247/259, Psychic 9/10 | +294 EXP (47,884) | +84 EXP | Slowpoke switched to Mewtwo taking Sleep Powder turn 1. Mewtwo awakened by Poké Flute turn 2 taking 12 Leech Life damage. Mewtwo outsped turn 3 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 84 EXP [Verified Screen Turn 42093]. Slowpoke exact EXP verified on Page 2: 47,884 EXP (2,769 to Lv 37 Slowbro) [Screen Turn 42094]. |
-| B300 | 42099 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 22 HP (Crit Leech Life on switch) | 225/259, Psychic 8/10 | +294 EXP (48,178) | +84 EXP | Slowpoke switched to Mewtwo taking 22 crit damage from Leech Life. Mewtwo outsped turn 2 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 84 EXP [Verified Screen Turn 42106]. Slowpoke exact EXP verified on Page 2: 48,178 EXP (2,475 to Lv 37 Slowbro) [Screen Turn 42108]. |
-| B301 | 42118 | Hypno Lv 46 | OMEGA (STAB Psychic 2HKO) | 33 HP (23 crit Confusion on switch + 10 Psychic Turn 2) | 192/259, Psychic 7/10 | +334 EXP (48,512) | +97 EXP | Slowpoke switched to Mewtwo taking 23 crit damage from Confusion. Mewtwo used Psychic turn 2 dealing ~65%, took 10 from Hypno Psychic. Mewtwo outsped turn 3 with critical hit STAB Psychic clean KO. Sheldon preserved at 91 HP. Slowpoke exact EXP verified on Page 2: 48,512 EXP (2,141 to Lv 37 Slowbro) [Screen Turn 42132]. |
-| B302 | 42141 | Venomoth Lv 49 | OMEGA (STAB Psychic OHKO) | 10 HP (Psybeam on switch) | 182/259, Psychic 6/10 | +294 EXP (48,806) | +84 EXP | Slowpoke switched to Mewtwo taking 10 damage from Psybeam. Mewtwo outsped turn 2 with super-effective STAB Psychic clean OHKO. DUX empirical gain: 84 EXP [Verified Screen Turn 42148]. Sheldon rested at 91 HP. Slowpoke exact EXP verified on Page 2: 48,806 EXP (1,847 to Lv 37 Slowbro) [Screen Turn 42151]. |
-| B303 | 42154 | Hypno Lv 46 | OMEGA (STAB Psychic 2HKO) | 16 HP (Poison Gas on switch, Hypno Meditate) | 166/259 (PSN), Psychic 4/10 | +334 EXP (49,140) | +97 EXP | Slowpoke switched to Mewtwo taking Poison Gas on switch. Mewtwo used Psychic turn 2 dealing ~70%, took 0 from Hypno (Meditate). Mewtwo outsped turn 3 with critical hit STAB Psychic clean KO. Sheldon rested at 91 HP. Slowpoke exact EXP verified on Page 2: 49,140 EXP (1,513 to Lv 37 Slowbro) [Screen Turn 42167]. |
-
-*Pit-Stop 13 (Turns 42169-42179): Exited Cerulean Cave 1F, Flew to Cerulean City, fully healed with Nurse Joy (cured Mewtwo PSN, restored Mewtwo to 259/259 HP & 10/10 Psychic PP, Sheldon to 241/241 HP & 15/15 Double-Edge PP). Mounted Bicycle and returned via Route 24 canal.*
-
-| B304 | 42228 | Sandslash Lv 52 | SHELDON (STAB Surf OHKO) | 11 HP on switch | 230/241, Surf 14/15 | +371 EXP (49,511) | +111 EXP | Slowpoke switched to Sheldon taking 11 damage on switch. Sheldon outsped turn 2 with super-effective STAB Surf clean OHKO. Sheldon healthy at 230/241 HP (Surf 14/15). Slowpoke cumulative: 49,511 EXP (1,142 to Lv 37 Slowbro, ~3 battles). Batched progression active. |
-| B305 | 42236 | Hypno Lv 46 | SHELDON (Double-Edge OHKO) | 28 HP on switch + 37 recoil | 165/241, DE 14/15 | +334 EXP (49,845) | +97 EXP | Slowpoke switched to Sheldon taking 28 damage on switch. Sheldon outsped turn 2 with Double-Edge clean physical OHKO (-37 recoil). Sheldon healthy at 165/241 HP (DE 14/15). Slowpoke cumulative: 49,845 EXP (808 to Lv 37 Slowbro, ~2-3 battles). Batched progression active. |
-| B306 | 42247 | Sandslash Lv 52 | SHELDON (STAB Surf OHKO) | 20 HP on switch (Fury Swipes x5) | 145/241, Surf 13/15 | +371 EXP (50,216) | +111 EXP | Slowpoke switched to Sheldon taking 20 damage on switch (Fury Swipes x5). Sheldon outsped turn 2 with super-effective STAB Surf clean OHKO. Sheldon healthy at 145/241 HP (Surf 13/15). Slowpoke cumulative: 50,216 EXP (437 to Lv 37 Slowbro, ~1-2 battles). Batched progression active. |
-| B307 | 42259 | Parasect Lv 52 | SHELDON (4x Ice Beam OHKO) | 16 HP on switch | 129/241, Ice Beam 9/10 | +296 EXP (50,512) | +88 EXP | Slowpoke switched to Sheldon taking 16 damage on switch. Sheldon outsped turn 2 with 4x super-effective Ice Beam clean OHKO. Sheldon healthy at 129/241 HP (Ice Beam 9/10). Slowpoke cumulative: 50,512 EXP (141 to Lv 37 Slowbro, ~1 battle). Batched progression active. |
-| B308 | 42271 | Kadabra Lv 49 | SHELDON (Body Slam OHKO) | 28 HP on switch (Psybeam) | 101/241, BS 14/15 | +315 EXP (50,827) | +94 EXP | Slowpoke switched to Sheldon taking 28 damage on switch (Psybeam). Sheldon outsped turn 2 with Body Slam clean physical OHKO (zero recoil). Sheldon healthy at 101/241 HP (BS 14/15). Slowpoke cumulative: 50,827 EXP (Surpasses 50,653 threshold by +174 EXP!). Reached Level 37 and triggered evolution into Slowbro (#080)! |
+- Target Accomplished: SLOWPOKE (DOPEY Lv 15 -> Lv 37 Slowbro -> traded for Lickitung MARC, #108) [Turn 42353]
+- Trade Status: COMPLETED on Route 18 Gatehouse 2F [Turn 42353].
+- Next Immediate Step:
+  1. Inspect Page 2 of MARC's STATS screen (moves and EXP).
+  2. Exit to Start menu -> open POKéDEX to empirically confirm 54 Caught.
+  3. Fly to Fuchsia City Pokémon Center -> access PC to deposit MARC into Box 1.
+  4. Select next Pokédex target species and plan Expedition 16.
 
 
 <hr>
