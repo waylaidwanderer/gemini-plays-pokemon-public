@@ -268,7 +268,8 @@
 
 ## Obedience
 
-- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
+- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 74 and wild-caught Mewtwo OMEGA at Lv 74 obey 100% of commands in all battles without disobedience).
+- **Traded / Outsider Pokémon:** Traded Pokémon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All Pokémon obey). Verified: With Earthbadge obtained [Turn 15111], all traded Pokémon obey unconditionally up to Lv 100.
 
 
 
@@ -5090,28 +5091,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
-
-### Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP)
-
+*Summary Level 32 to 33 (B254-B263, Turns 41147-41328): Defeated 10 wild encounters (Golbat x4, Hypno x3, Parasect x2; Pit-Stop 8 at Turn 41205). Slowpoke reached Level 33 (36,228 EXP), verified stats: HP 110/110, Atk 54, Def 55, Spd 20, Spc 42 [Turn 41338]. Forgot Growl, learned Water Gun.*
+*Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
 *Pit-Stop 9 executed at Turn 41477 (Cerulean Pokémon Center): Nurse Joy fully healed entire party. Sheldon HP 237/237, all PP restored (Ice Beam 10/10, Surf 15/15, Body Slam 15/15). Mewtwo HP 259/259, Psychic 10/10. Slowpoke Lv 34 (39,452 EXP, HP 113/113, Atk 56, Def 56, Spd 21, Spc 44). Ready for Milestone Level 34 to 35 (Target: 42,875 EXP, ~3,423 EXP to go).*
 
 ### Active Milestone: Level 34 to 35 (Target: 42,875 EXP)
 *Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~3,423 EXP remaining).*
-*Learned Water Gun at Level 33! Next move: None at Lv 34.*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
-| **B264** | 41356 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 207/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DUX grew to Level 28 (Atk 47, Def 43, Spd 43, Spc 41 [Verified Screen Turn 41365])! DOPEY at ~36,569 EXP (~2,735 to Lv 34). |
-| **B265** | 41386 | Venomoth Lv 49 | Blastoise (Surf) | 13 (Psybeam) | Blastoise 194/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise; Venomoth used Sleep Powder. Turn 2 used Poké Flute; woke up Sheldon; Venomoth used Psybeam (13 dmg). Turn 3 Surf OHKO! DOPEY at ~36,863 EXP (~2,441 to Lv 34). |
-| **B266** | 41396 | Kadabra Lv 49 | Blastoise (Body Slam) | 23 (Psybeam) | Blastoise 171/237 HP, 12/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 23 dmg from Psybeam). Turn 2 Body Slam OHKO! DOPEY at ~37,178 EXP (~2,126 to Lv 34). |
-| **B267** | 41408 | Sandslash Lv 52 | Blastoise (Surf) | 0 (None) | Blastoise 171/237 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Surf OHKO (Super Effective)! DOPEY at ~37,549 EXP (~1,755 to Lv 34). |
-| **B268** | 41417 | Hypno Lv 46 | Blastoise (Body Slam x2) | 30 (Psychic/Headbutt) | Blastoise 141/237 HP, 10/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Body Slam leaves red sliver (took 30 dmg). Turn 3 Body Slam KOs! DOPEY at ~37,883 EXP (~1,421 to Lv 34). |
-| **B269** | 41426 | Venomoth Lv 49 | Blastoise (Surf) | 0 (None) | Blastoise 141/237 HP, 12/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Surf OHKO! DOPEY at ~38,177 EXP (~1,127 to Lv 34). |
-| **B270** | 41435 | Hypno Lv 46 | Blastoise (Body Slam) | 27 (Psychic/Headbutt) | Blastoise 114/237 HP, 9/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 27 dmg). Turn 2 Body Slam scores Critical Hit OHKO! DOPEY at ~38,511 EXP (~793 to Lv 34). |
-| **B271** | 41443 | Raichu Lv 53 | Mewtwo (Psychic) | 12 (ThunderShock/Quick Attack) | Mewtwo 247/259 HP, 9/10 Psychic PP | +280 EXP (227+53) | +79 EXP | Turn 1 switch Slowpoke to Mewtwo (took 12 dmg). Turn 2 Psychic scores Critical Hit OHKO! DOPEY at ~38,791 EXP (~513 to Lv 34). |
-| **B272** | 41451 | Magneton Lv 46 | Mewtwo (Psychic) | 19 (Crit) | Mewtwo 228/259 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 19 dmg from Crit). Turn 2 Psychic OHKO! DOPEY at ~39,118 EXP (~186 to Lv 34). |
-| **B273** | 41459 | Hypno Lv 46 | Blastoise (Body Slam x2) | 44 (Psychic x2) | Blastoise 70/237 HP, 7/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 11 dmg). Turn 2 Body Slam leaves red sliver and paralyzes (took 33 dmg). Turn 3 Body Slam scores Critical Hit OHKO! DOPEY grew to Level 34 (Atk 56, Def 56, Spd 21, Spc 44 [Verified Screen Turn 41467])! DOPEY at ~39,452 EXP (~3,423 to Lv 35). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
