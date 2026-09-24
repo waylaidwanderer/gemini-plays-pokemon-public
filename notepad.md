@@ -131,7 +131,7 @@
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 82 / 82 [Verified Lv 24 Screen Turn 40190]
-  - Stats: Attack 39, Defense 40, Speed 15, Special 31 [Verified Lv 24 Screen Turn 40182]
+  - Stats: Attack 41, Defense 41, Speed 15, Special 32 [Verified Lv 25 Screen Turn 40288]
   - EXP: ~15865 (1711 to Lv 26) [Verified B202 Turn 40286]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
@@ -5009,7 +5009,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 24, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 25 (EXP: ~15,865, 1,711 to Lv 26)
+  - Current Level: 25 (Atk 41, Def 41, Spd 15, Spc 32 [Verified Turn 40288]; EXP: ~15,865, 1,711 to Lv 26)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B170 (Turns 39482-39571): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 18 (5,324 EXP). Pit-stop 1 taken Turn 39585.*
