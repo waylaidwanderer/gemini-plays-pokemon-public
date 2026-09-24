@@ -9,7 +9,7 @@
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 *Summary Level 32 to 33 (B254-B263, Turns 41147-41328): Defeated 10 wild encounters (Golbat x4, Hypno x3, Parasect x2; Pit-Stop 8 at Turn 41205). Slowpoke reached Level 33 (36,228 EXP), verified stats: HP 110/110, Atk 54, Def 55, Spd 20, Spc 42 [Turn 41338]. Forgot Growl, learned Water Gun.*
 *Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP, Battles B264-B273): Defeated 10 wild encounters (Golbat x1, Venomoth x2, Kadabra x1, Sandslash x1, Hypno x3, Raichu x1, Magneton x1). Slowpoke grew to Level 34 (39,452 EXP), verified stats: HP 113/113, Atk 56, Def 56, Spd 21, Spc 44 [Screen Turn 41467].*
-*Pit-Stop 9 Status Correction (Turn 41508): Party screen audit revealed Nurse Joy heal at Turn 41477 was interrupted/incomplete (Sheldon at 70/237 HP, Omega at 228/259 HP). Executing true Pit-Stop 9B at Cerulean Pokémon Center to ensure 100% full recovery before entering Cerulean Cave.*
+*Pit-Stop 9B Verified (Turns 41530-41535, Cerulean Pokémon Center): Nurse Joy fully healed party. Screen verified Turn 41535: Sheldon HP 237/237, Omega HP 259/259, Dopey HP 113/113, Dux HP 73/73. All moves/PP fully restored. Ready to re-enter Cerulean Cave 1F for Level 34->35 training.*
 
 ### Active Milestone: Level 34 to 35 (Target: 42,875 EXP)
 *Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~3,423 EXP remaining).*
