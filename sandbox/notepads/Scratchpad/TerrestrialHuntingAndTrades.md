@@ -8,10 +8,8 @@
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
 
-*Summary B184-B187 (Turns 39975-40046): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 22 (10,648 EXP). Defeated Parasect Lv 52 (B184) and Magneton Lv 46 x3 (B185-B187). Mewtwo reached Lv 74.*
-*Summary B188-B191 (Turns 40052-40097): Switch-trained Slowpoke from Lv 22 (10,648 EXP) to Lv 23 (12,167 EXP). Defeated Sandslash Lv 52 (B188), Dodrio Lv 49 (B189), Golbat Lv 46 (B190), and Hypno Lv 46 (B191).*
-*Summary B192-B196 (Turns 40109-40183): Switch-trained Slowpoke from Lv 23 (12,167 EXP) to Lv 24 (13,932 EXP). Defeated Magneton Lv 46 (B192), Venomoth Lv 49 (B193), Sandslash Lv 52 (B194), Kadabra Lv 49 (B195), and Hypno Lv 46 (B196).*
-*Summary B197-B202 (Turns 40186-40286): Switch-trained Slowpoke from Lv 24 (13,932 EXP) to Lv 25 (15,865 EXP). Defeated Hypno Lv 46 x3 (B197, B199, B200), Venomoth Lv 49 (B198), Parasect Lv 52 (B201), and Golbat Lv 46 (B202). Slowpoke reached Level 25 (Atk 41, Def 41, Spd 15, Spc 32).*
+*Summary B184-B202 (Turns 39975-40286): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 25 (15,865 EXP). Defeated 19 encounters across 4 levels. Mewtwo reached Lv 74.*
+*Summary B203-B206 (Turns 40296-40354): Defeated Golbat Lv 46 x3 and Hypno Lv 46. Slowpoke gained 1,357 EXP, reaching ~17,222 EXP (354 to Lv 26). Blastoise reached Lv 74. Pit-Stop 5 executed Turn 40361 at Cerulean Pokémon Center (cured Mewtwo PSN, full HP/PP restored).*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
