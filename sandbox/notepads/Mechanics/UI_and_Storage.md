@@ -45,8 +45,8 @@
 ## Party & Stats Screen UI Navigation (Generation 1 Retail)
 - **Stats Screen Page Navigation:** On Page 1 of a Pokémon's STATS screen (displaying HP, stats, types, OT), pressing EITHER 'A' OR 'B' advances to Page 2 (displaying EXP points, Level Up EXP, moves and PP) [Empirically verified: 'B' Turn 39837; 'A' Turn 40083]. On Page 2, pressing 'B' exits the STATS screen back to the Party menu with cursor positioned on the inspected Pokémon [Empirically verified Turn 39838].
 
-## In-Game NPC Trade Party Slot Reorganization Mechanics [Empirically Verified Turns 42344-42358]
-- In Generation 1 retail, when trading a Pokémon from the active party with an NPC:
-  - If the offered Pokémon is in Slot 1 (lead slot), removing it causes all subsequent party Pokémon to shift up by 1 slot (Slot 2 becomes Slot 1, Slot 3 becomes Slot 2, Slot 4 becomes Slot 3).
-  - The newly received traded Pokémon is appended directly into the LAST occupied party slot (e.g. 4-member party: Slot 4 became MARC).
+## In-Game NPC Trade Party Slot Reorganization Mechanics (Lead Slot Trade, N=1) [Empirically Verified Turns 42344-42358]
+- When trading the lead Pokémon (Slot 1) from the active party with an NPC:
+  - Removing the lead Pokémon causes all subsequent party Pokémon to shift up by 1 slot (Slot 2 becomes Slot 1, Slot 3 becomes Slot 2, Slot 4 becomes Slot 3).
+  - The newly received traded Pokémon is appended directly into the LAST occupied party slot (e.g. 4-member party: Slot 4 became MARC). Behavior for non-lead slot trades (Slots 2..6) remains unverified.
   - Traded Pokémon arrives at the exact same level as the offered Pokémon (Slowbro Lv 37 -> Lickitung Lv 37).
