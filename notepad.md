@@ -126,14 +126,14 @@
 - Pokédex: 52 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
-- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 26, Water/Psychic]
+- Slot 1: SLOWPOKE (Nickname: DOPEY) [Lv 27, Water/Psychic]
   - Status: Healthy
   - OT: BLUE (IDNo. 04620)
   - Growth Group: Medium Fast (EXP = Level^3)
-  - HP: 88 / 88 [Verified Lv 26 Screen Turn 40415]
-  - Stats: Attack 42, Defense 43, Speed 16, Special 33 [Verified Lv 26 Screen Turn 40407]
-  - EXP: ~19564 (119 to Lv 27) [Verified B213 Turn 40453]
-  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
+  - HP: 88 / 88 [Pending party menu verification post-Lv 27]
+  - Stats: Attack 43, Defense 44, Speed 16, Special 34 [Verified Lv 27 Screen Turn 40470]
+  - EXP: ~19898 (2054 to Lv 28) [Post-B214]
+  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Growl (PP 40/40) [Learned Turn 40471]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
   - HP: 220 / 259 [Verified Lv 74 Screen Turn 40418]
@@ -148,9 +148,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 206 / 237 [Verified Lv 74 Screen Turn 40426]
+  - HP: 177 / 237 [Verified Turn 40463]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 6/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 6/10) [Verified B214 Turn 40468]
 
 ## Key Items
 - BICYCLE
@@ -5008,7 +5008,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 26, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 26 (Atk 42, Def 43, Spd 16, Spc 33 [Verified Turn 40407]; EXP: ~19,564, 119 to Lv 27)
+  - Current Level: 27 (Atk 43, Def 44, Spd 16, Spc 34 [Verified Turn 40470]; EXP: ~19,898, 2,054 to Lv 28)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary B165-B183 (Turns 39482-39914): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 21 (9,632 EXP). Defeated 19 encounters. Mewtwo and Blastoise maintained with 4 pit-stops.*
@@ -5016,15 +5016,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 *Summary B184-B202 (Turns 39975-40286): Switch-trained Slowpoke from Lv 21 (9,632 EXP) to Lv 25 (15,865 EXP). Defeated 19 encounters across 4 levels. Mewtwo reached Lv 74.*
 *Summary B203-B206 (Turns 40296-40354): Defeated Golbat Lv 46 x3 and Hypno Lv 46. Slowpoke gained 1,357 EXP, reaching ~17,222 EXP (354 to Lv 26). Blastoise reached Lv 74. Pit-Stop 5 executed Turn 40361 at Cerulean Pok�mon Center (cured Mewtwo PSN, full HP/PP restored).*
 
+*Summary B209-B213 (Turns 40414-40453): Defeated Magneton Lv 46, Golbat Lv 46 x3, and Sandslash Lv 52. Slowpoke gained 1,715 EXP, reaching ~19,564 EXP (119 to Lv 27).*
+
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **B209** | 40414 | Magneton Lv 46 | Mewtwo (Psychic) | 28 (Crit+Swift) | Mewtwo 220/259 HP (PAR), 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 21 dmg from Crit). Turn 2 Mewtwo took 7 dmg from Swift, overcame PAR, STAB Psychic OHKO! Slowpoke at ~18,170 EXP (1,513 to Lv 27). |
-| **B210** | 40421 | Golbat Lv 46 | Blastoise (Ice Beam) | 31 (Conf+Wing) | Blastoise 206/237 HP, 8/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Confuse Ray). Turn 2 Sheldon hurt in confusion (23 dmg), took 8 dmg from Wing Attack. Turn 3 2x super-effective Ice Beam Crit OHKO! Slowpoke at ~18,511 EXP (1,172 to Lv 27). |
-| **B211** | 40433 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None/Fail) | Blastoise 206/237 HP, 7/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~18,852 EXP (831 to Lv 27). |
-| **B212** | 40441 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (Haze) | Blastoise 206/237 HP, 6/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat Haze, 0 dmg). Turn 2 2x super-effective Ice Beam OHKO! Slowpoke at ~19,193 EXP (490 to Lv 27). |
-| **B213** | 40449 | Sandslash Lv 52 | Blastoise (Surf) | 0 (Miss) | Blastoise 206/237 HP, 14/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (Sandslash attack missed, 0 dmg). Turn 2 2x super-effective STAB Surf OHKO! Slowpoke at ~19,564 EXP (119 to Lv 27). |
-
-| **B214** | 40457 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 177/237 HP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 using Body Slam... |
+| **B214** | 40457 | Hypno Lv 46 | Blastoise (Body Slam) | 29 (Psychic) | Blastoise 177/237 HP, 14/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg, Special fell). Turn 2 Body Slam OHKO! Slowpoke reached Lv 27 (Atk 43, Def 44, Spd 16, Spc 34) and learned Growl! |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 25) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
