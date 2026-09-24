@@ -8,7 +8,12 @@
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 
-### Active Milestone: Level 33 to 34 (Target: 39,304 EXP)
+### Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP)
+
+*Pit-Stop 9 executed at Turn 41477 (Cerulean Pokémon Center): Nurse Joy fully healed entire party. Sheldon HP 237/237, all PP restored (Ice Beam 10/10, Surf 15/15, Body Slam 15/15). Mewtwo HP 259/259, Psychic 10/10. Slowpoke Lv 34 (39,452 EXP, HP 113/113, Atk 56, Def 56, Spd 21, Spc 44). Ready for Milestone Level 34 to 35 (Target: 42,875 EXP, ~3,423 EXP to go).*
+
+### Active Milestone: Level 34 to 35 (Target: 42,875 EXP)
+*Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~3,423 EXP remaining).*
 *Learned Water Gun at Level 33! Next move: None at Lv 34.*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
