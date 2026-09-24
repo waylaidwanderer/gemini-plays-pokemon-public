@@ -14,7 +14,7 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 78 / 78 [Verified Lv 23 Screen Turn 40111]
   - Stats: Attack 38, Defense 38, Speed 14, Special 30 [Verified Lv 23 Screen Turn 40096]
-  - EXP: ~12912 (912 to Lv 24) [Verified B193 Turn 40142]
+  - EXP: ~13283 (541 to Lv 24) [Verified B194 Turn 40152]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
@@ -32,7 +32,7 @@
   - Status: Healthy
   - HP: 192 / 233 [Verified B194 Turn 40150]
   - Stats: Attack 174, Defense 201, Speed 173, Special 180 [Verified Lv 73 Screen Turn 38238]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 7/10)
 
 ## Key Items
 - BICYCLE

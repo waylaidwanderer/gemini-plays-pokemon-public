@@ -4,7 +4,7 @@
 - Expedition Start Turn: Turn 39435
 - Target: SLOWPOKE (DOPEY Lv 23, Water/Psychic, Lead Slot 1)
   - Starting Level: 15 (Baseline EXP: 3,375)
-  - Current Level: 23 (HP 78/78 [Verified Turn 40111], Atk 38, Def 38, Spd 14, Spc 30; EXP: ~12,912, 912 to Lv 24)
+  - Current Level: 23 (HP 78/78 [Verified Turn 40111], Atk 38, Def 38, Spd 14, Spc 30; EXP: ~13,283, 541 to Lv 24)
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
   - Subsequent Trade: Enables Route 18 Gatehouse 2F trade for Lickitung (#108).
 ### Expedition 15 Systematic Encounter Log (N=4)
@@ -21,6 +21,7 @@
 | **B191** | 40088 | Hypno Lv 46 | Mewtwo (Psychic crit) | 0 (Meditate) | Mewtwo 229/259 HP, 6/10 Psychic PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Meditate, 0 dmg). Turn 2 STAB Psychic CRITICAL HIT OHKO! Slowpoke grew to Level 23! Slowpoke at ~12,291 EXP (1,533 to Lv 24). Blastoise kept at 217/233 HP! |
 | **B192** | 40109 | Magneton Lv 46 | Mewtwo (Psychic) | 11 (Thundershock) | Mewtwo 218/259 HP, 5/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Thundershock 11 dmg, no PAR). Turn 2 STAB Psychic OHKO! Slowpoke at ~12,618 EXP (1,206 to Lv 24). Blastoise kept at 217/233 HP! |
 | **B193** | 40128 | Venomoth Lv 49 | Mewtwo (Psychic) | 4 (Psybeam) | Mewtwo 214/259 HP, 4/10 Psychic PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Mewtwo (absorbed Sleep Powder, SLP). Turn 2 Poké Flute woke all sleepers, absorbed Psybeam (4 dmg). Turn 3 STAB Psychic 2x OHKO! Slowpoke at ~12,912 EXP (912 to Lv 24). |
+| **B194** | 40146 | Sandslash Lv 52 | Blastoise (Surf) | 25 (Fury Swipes 5x) | Blastoise 192/233 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (absorbed Fury Swipes 5x, 25 dmg). Turn 2 STAB Surf OHKO! Slowpoke at ~13,283 EXP (541 to Lv 24). Mewtwo kept at 4/10 Psychic PP! |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 21) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
