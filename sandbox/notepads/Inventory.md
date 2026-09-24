@@ -3,7 +3,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥56 [Verified Turn 42448]
+- Money: ¥1306 [Verified Turn 42648]
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
 
