@@ -6,7 +6,7 @@
   - Current Level: 32 (HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575, exactly 1,362 to Lv 33 [Verified Screen Turn 41210])
   - Target Milestone: Lv 37 Slowbro (#080) at 37^3 = 50,653 EXP
 ### Expedition 15 Systematic Encounter Log (N=4)
-*Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pok�mon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
+*Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 
 ### Active Milestone: Level 32 to 33 (Target: 35,937 EXP)
 *Learns Water Gun at Level 33.*
@@ -18,9 +18,10 @@
 | **B256** | 41168 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 6/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (Golbat move failed, 0 dmg). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~33,938 EXP (~1,999 to Lv 33). |
 | **B257** | 41177 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 109/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (0 dmg taken). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DOPEY at ~34,279 EXP (~1,658 to Lv 33). |
 | **B258** | 41186 | Parasect Lv 52 | Blastoise (Ice Beam) | 29 (Slash Crit) | Blastoise 80/237 HP, 4/10 Ice Beam PP | +296 EXP (237+59) | +88 EXP | Turn 1 switch Slowpoke to Blastoise (took 29 dmg from Slash Crit). Turn 2 Ice Beam OHKO (Super Effective)! DOPEY at ~34,575 EXP (~1,362 to Lv 33). |
+| **Pit-Stop 8** | 41205 | Cerulean Pokémon Center | Nurse Joy | - | Blastoise 237/237 HP, all PP restored | Mewtwo PAR cured | All 4 Pokémon fully healed | Proactive heal (Sheldon was at 80 HP). Verified Slowpoke Level 32 stats: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41, EXP: 34,575 (1,362 to Lv 33) [Verified Screen Turn 41210]. |
 
 ### Slowpoke Switch-Training Combat Protocol
-- Vulnerability Profile: Slowpoke (Lv 31) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
+- Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
 - Turn 1 Rule: NEVER attack with Slowpoke. Immediately switch to designated sweeper on Turn 1.
 - In-Battle Switching Relative Coordinates:
   - To Primary Sweeper MEWTWO: Cursor on Slot 1 -> press Down x1 -> select OMEGA (Slot 2).
