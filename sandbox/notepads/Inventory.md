@@ -14,13 +14,13 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 113 / 113 [Verified Screen Turn 41471], EXP: ~40,969 (~1,906 to Lv 35) [Calculated post-B278; Lv 34 verified Screen Turn 41467]
   - Stats: Attack 56, Defense 56, Speed 21, Special 44 [Verified Lv 34 Screen Turn 41467]
-  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
+  - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25)
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 259 / 259 [Verified Party Screen Turn 41535]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Restored Turn 41530]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 28, Normal/Flying]
   - Status: Healthy
   - HP: 73 / 73 [Verified Lv 28 Party Screen Turn 41379]
@@ -28,10 +28,10 @@
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
-  - Status: Healthy
+  - Status: Poisoned (PSN)
   - HP: 132 / 241 (PSN) [Verified Screen Turn 41666]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 14/15), Ice Beam (PP 8/10) [Surf used B278]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 14/15), Ice Beam (PP 8/10)
 
 ## Key Items
 - BICYCLE

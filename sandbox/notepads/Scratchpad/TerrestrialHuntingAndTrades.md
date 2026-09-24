@@ -40,6 +40,7 @@
 - **Proactive Sweeper Retreat Protocol (Safety Margin & Contingency):**
   - Electric Contingency / Immediate Cutoff: If Mewtwo expends its final Psychic PP (reaches 0 PP), immediately initiate a pit-stop after that battle. Never risk an Electric encounter without Mewtwo's Psychic available.
   - Attrition Buffer: If Mewtwo's HP falls below 100 HP from overworld poison, immediately initiate a pit-stop (preserving a safe 40 HP cushion above the 60 HP danger line).
+  - Blastoise Poison Contingency: If Blastoise incurs Poison status, immediately finish that battle and initiate a pit-stop upon returning to the overworld to prevent step-based damage and restore peak condition.
   - Blastoise Margin: If Blastoise HP falls below 70 HP OR if Blastoise (Surf + Ice Beam) combined PP <= 5, trigger an immediate pit-stop.
   - Pit-Stop Execution: Step outside Cerulean Cave to Cerulean City exterior -> Fly to Cerulean Pokémon Center -> Nurse Joy fully heals party (clearing poison, restoring all PP/HP) -> Bike north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
 
