@@ -14,14 +14,14 @@
   - Growth Group: Medium Fast (EXP = Level^3)
   - HP: 88 / 88 [Verified Lv 26 Screen Turn 40415]
   - Stats: Attack 42, Defense 43, Speed 16, Special 33 [Verified Lv 26 Screen Turn 40407]
-  - EXP: ~17843 (1840 to Lv 27) [Verified B208 Turn 40407]
+  - EXP: ~18170 (1513 to Lv 27) [Verified B209 Turn 40418]
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15) [Verified Turn 40084]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Paralyzed (PAR)
-  - HP: 227 / 259 [Verified Lv 74 Screen Turn 40417]
+  - HP: 220 / 259 [Verified Lv 74 Screen Turn 40418]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 25, Normal/Flying]
   - Status: Healthy
   - HP: 66 / 66 [Verified Lv 25 Screen Turn 40226]
