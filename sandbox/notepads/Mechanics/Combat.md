@@ -93,3 +93,7 @@
   - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
 
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
+
+## Generation 1 Capture Mechanics & Empirical Boundaries
+- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
+- **Empirical Breakout Verification:** Both wild Pidgey Lv 13 (Turn 42480) and wild Bellsprout Lv 12 (Turn 42586)—both species having maximum BCR 255—broke free from basic Poké Balls at full HP after 3 shakes on Ball 1 before being captured on Ball 2. Full-health basic Poké Ball capture probability for BCR 255 targets is capped at roughly ~65–75%. Ball budgeting must always account for at least 2 Poké Balls per target even for BCR 255 species.

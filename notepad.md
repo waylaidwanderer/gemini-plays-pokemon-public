@@ -136,23 +136,18 @@
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 
-## Bag Items
-- POKÉ BALL x3
-- PP UP x1 [Verified Turn 42564]
-- MAX ELIXER x1 [Verified Turn 42564]
-- MAX POTION x1 [Verified Turn 42564]
-- TM35 x1 [Verified Turn 42565]
-
-## Key Items
-- BICYCLE
-- SUPER ROD
-- POKÉ FLUTE
-- SILPH SCOPE
-- HM02 (FLY)
-- EXP.ALL
-- TOWN MAP
-- COIN CASE
-- Note: HM01, HM03, HM04, HM05 are stored in BLUE's PC Item Storage; registered field moves are active across party Pokémon (DUX: Cut/Fly, SHELDON: Surf).
+## Bag Items (10 / 20 Slots Occupied - Verified Turn 42565)
+- Slot 1: POKé FLUTE
+- Slot 2: SUPER ROD
+- Slot 3: BICYCLE
+- Slot 4: PP UP x1
+- Slot 5: MAX ELIXER x1
+- Slot 6: HM02 (FLY)
+- Slot 7: MAX POTION x1
+- Slot 8: TM35 x1
+- Slot 9: EXP.ALL x1
+- Slot 10: POKÉ BALL x3
+- Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
 - Active Box: BOX 2 [Switched & Saved Turn 42403]
@@ -311,6 +306,9 @@
 
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 
+## Generation 1 Capture Mechanics & Empirical Boundaries
+- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
+- **Empirical Breakout Verification:** Both wild Pidgey Lv 13 (Turn 42480) and wild Bellsprout Lv 12 (Turn 42586)—both species having maximum BCR 255—broke free from basic Poké Balls at full HP after 3 shakes on Ball 1 before being captured on Ball 2. Full-health basic Poké Ball capture probability for BCR 255 targets is capped at roughly ~65–75%. Ball budgeting must always account for at least 2 Poké Balls per target even for BCR 255 species.
 
 <hr>
 
@@ -5096,7 +5094,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - PC Storage Status:
-  - Box 1: 19 / 20 Pokémon (MARC deposited Turn 42394).
+  - Active Box: BOX 2 (3 / 20 Pokémon: BIRDIE, COCOON, SPROUT stored Turn 42625-42628).
 - Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
   - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!) [CAUGHT Turn 42590, Nickname: SPROUT], Abra (#063).
     - Route 25 Western Grass Empirical Distribution (N=8): Pidgey 2 (25%), Abra 4 (50%), Kakuna 1 (12.5%), Bellsprout 1 (12.5%).
