@@ -135,10 +135,10 @@
   - Moves: Confusion (PP 25/25), Disable (PP 20/20), Headbutt (PP 15/15), Water Gun (PP 25/25) [Learned Turn 41350]
 - Slot 2: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy [Verified Party Screen Turn 41210]
-  - HP: 228 / 259 [Verified Screen Turn 41450]
+  - HP: 259 / 259 [Restored by Nurse Joy Pit-Stop 9 Turn 41477]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20) [2 Psychic expended since Turn 41205 heal]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Restored by Nurse Joy Pit-Stop 9 Turn 41477]
 - Slot 3: FARFETCH'D (Nickname: DUX) [Lv 28, Normal/Flying]
   - Status: Healthy
   - HP: 73 / 73 [Verified Lv 28 Party Screen Turn 41379]
@@ -147,9 +147,9 @@
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 4: BLASTOISE (Nickname: SHELDON) [Lv 74, Water]
   - Status: Healthy
-  - HP: 70 / 237 [Verified Screen Turn 41465]
+  - HP: 237 / 237 [Restored by Nurse Joy Pit-Stop 9 Turn 41477]
   - Stats: Attack 177, Defense 204, Speed 176, Special 183 [Verified Lv 74 Screen Turn 40353]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 7/15), Surf (PP 12/15), Ice Beam (PP 5/10) [5 Ice Beam, 8 Body Slam, 3 Surf expended since Turn 41205 heal]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Restored by Nurse Joy Pit-Stop 9 Turn 41477]
 
 ## Key Items
 - BICYCLE
@@ -5091,7 +5091,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ### Expedition 15 Systematic Encounter Log (N=4)
 *Summary Levels 15 to 32 (B165-B253, Turns 39482-41139): Switch-trained Slowpoke from Lv 15 (3,375 EXP) to Lv 32 (32,929 EXP). Defeated 89 wild encounters across Cerulean Cave 1F and executed 6 pit-stops at Cerulean Pokémon Center. Verified stats at Lv 32: HP 107/107, Atk 52, Def 53, Spd 20, Spc 41 [Verified Screen Turn 41139].*
 
-### Active Milestone: Level 33 to 34 (Target: 39,304 EXP)
+### Milestone Summary: Level 33 to 34 (Completed Turn 41467, Target: 39,304 EXP achieved at 39,452 EXP)
+
+*Pit-Stop 9 executed at Turn 41477 (Cerulean Pokémon Center): Nurse Joy fully healed entire party. Sheldon HP 237/237, all PP restored (Ice Beam 10/10, Surf 15/15, Body Slam 15/15). Mewtwo HP 259/259, Psychic 10/10. Slowpoke Lv 34 (39,452 EXP, HP 113/113, Atk 56, Def 56, Spd 21, Spc 44). Ready for Milestone Level 34 to 35 (Target: 42,875 EXP, ~3,423 EXP to go).*
+
+### Active Milestone: Level 34 to 35 (Target: 42,875 EXP)
+*Next move: None at Lv 35. Target: 35^3 = 42,875 EXP (~3,423 EXP remaining).*
 *Learned Water Gun at Level 33! Next move: None at Lv 34.*
 
 | Battle | Turn | Opponent | Sweeper | Sweeper Damage Taken | Sweeper End HP / PP | Trainee Gain | DUX Gain | Notes |
