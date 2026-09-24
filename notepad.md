@@ -225,13 +225,13 @@
 
 ## Battle UI & Controls
 
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÉMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 
-- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKÉMON causes the Start menu to re-open on POKÉMON on the next press).
+- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
 
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 
-- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKÉMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
+- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
 
@@ -243,7 +243,7 @@
 
 - **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
 
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÉDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
@@ -386,10 +386,6 @@
   - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
 
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
-
-- **Party Menu Cursor Memory (Generation 1 Retail):**
-  - In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld menu sessions (empirically confirmed Turn 8260 and Turn 41209: using Fly with DUX in Slot 3 left the party menu cursor pre-selected on DUX on subsequent menu openings).
-  - Do NOT assume the Party menu cursor defaults to Slot 1 across overworld sessions. Always verify cursor position or navigate deliberately.
 
 
 <hr>
@@ -5102,6 +5098,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 | **B264** | 41356 | Golbat Lv 46 | Blastoise (Ice Beam) | 0 (None) | Blastoise 207/237 HP, 5/10 Ice Beam PP | +341 EXP (276+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Sheldon confused, powers through confusion with Ice Beam OHKO (Super Effective)! DUX grew to Level 28 (Atk 47, Def 43, Spd 43, Spc 41 [Verified Screen Turn 41365])! DOPEY at ~36,569 EXP (~2,735 to Lv 34). |
 | **B265** | 41386 | Venomoth Lv 49 | Blastoise (Surf) | 13 (Psybeam) | Blastoise 194/237 HP, 14/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise; Venomoth used Sleep Powder. Turn 2 used Poké Flute; woke up Sheldon; Venomoth used Psybeam (13 dmg). Turn 3 Surf OHKO! DOPEY at ~36,863 EXP (~2,441 to Lv 34). |
+| **B266** | 41396 | Kadabra Lv 49 | Blastoise (Body Slam) | 23 (Psybeam) | Blastoise 171/237 HP, 12/15 Body Slam PP | +315 EXP (252+63) | +94 EXP | Turn 1 switch Slowpoke to Blastoise (took 23 dmg from Psybeam). Turn 2 Body Slam OHKO! DOPEY at ~37,178 EXP (~2,126 to Lv 34). |
+| **B267** | 41408 | Sandslash Lv 52 | Blastoise (Surf) | 0 (None) | Blastoise 171/237 HP, 13/15 Surf PP | +371 EXP (297+74) | +111 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Surf OHKO (Super Effective)! DOPEY at ~37,549 EXP (~1,755 to Lv 34). |
+| **B268** | 41417 | Hypno Lv 46 | Blastoise (Body Slam x2) | 30 (Psychic/Headbutt) | Blastoise 141/237 HP, 10/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Body Slam leaves red sliver (took 30 dmg). Turn 3 Body Slam KOs! DOPEY at ~37,883 EXP (~1,421 to Lv 34). |
+| **B269** | 41426 | Venomoth Lv 49 | Blastoise (Surf) | 0 (None) | Blastoise 141/237 HP, 12/15 Surf PP | +294 EXP (238+56) | +84 EXP | Turn 1 switch Slowpoke to Blastoise (took 0 dmg). Turn 2 Surf OHKO! DOPEY at ~38,177 EXP (~1,127 to Lv 34). |
+| **B270** | 41435 | Hypno Lv 46 | Blastoise (Body Slam) | 27 (Psychic/Headbutt) | Blastoise 114/237 HP, 9/15 Body Slam PP | +334 EXP (269+65) | +97 EXP | Turn 1 switch Slowpoke to Blastoise (took 27 dmg). Turn 2 Body Slam scores Critical Hit OHKO! DOPEY at ~38,511 EXP (~793 to Lv 34). |
+| **B271** | 41443 | Raichu Lv 53 | Mewtwo (Psychic) | 12 (ThunderShock/Quick Attack) | Mewtwo 247/259 HP, 9/10 Psychic PP | +280 EXP (227+53) | +79 EXP | Turn 1 switch Slowpoke to Mewtwo (took 12 dmg). Turn 2 Psychic scores Critical Hit OHKO! DOPEY at ~38,791 EXP (~513 to Lv 34). |
+| **B272** | 41451 | Magneton Lv 46 | Mewtwo (Psychic) | 19 (Crit) | Mewtwo 228/259 HP, 8/10 Psychic PP | +327 EXP (262+65) | +97 EXP | Turn 1 switch Slowpoke to Mewtwo (took 19 dmg from Crit). Turn 2 Psychic OHKO! DOPEY at ~39,118 EXP (~186 to Lv 34). |
 
 ### Slowpoke Switch-Training Combat Protocol
 - Vulnerability Profile: Slowpoke (Lv 32) has low stats compared to Lv 46-53 wild Pokémon. Lethal danger from any hit.
@@ -5135,5 +5138,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   2. Open Start menu -> POKéMON -> DUX (Slot 3) -> Select FLY -> Fly to Cerulean City.
   3. Enter Pokémon Center directly south at (19, 17) -> Nurse Joy fully heals party (clears Mewtwo's PAR, restores all HP/PP).
   4. Exit Pokémon Center -> Mount Bicycle -> Ride north across bridge to Route 24 -> Surf south into canal -> Re-enter Cerulean Cave 1F.
+
 
 <hr>
