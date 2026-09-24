@@ -145,7 +145,7 @@
   - Moves: Harden
 
 ## Bag Items
-- POKÉ BALL x4
+- POKÉ BALL x3
 - PP UP x1 [Verified Turn 42564]
 - MAX ELIXER x1 [Verified Turn 42564]
 - MAX POTION x1 [Verified Turn 42564]
