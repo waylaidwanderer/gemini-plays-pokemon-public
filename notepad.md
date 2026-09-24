@@ -149,7 +149,7 @@
   - Caught: Route 25 tall grass [Turn 42485]
   - Moves: Gust, Sand-Attack
 ## Bag Items
-- POK� BALL x13 [Used 2 Turn 42480 & 42484] [Purchased Cerulean Mart Turn 42447]
+- POK� BALL x12 [Used 3: Turn 42480, 42484, 42505] [Purchased Cerulean Mart Turn 42447]
 
 ## Key Items
 - BICYCLE
@@ -1095,7 +1095,7 @@
 ## Empirical Wild Encounter Log
 - Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)). Ball 1 broke free at 3 shakes [Turn 42480]. Ball 2 CAUGHT [Turn 42485]. Nickname: BIRDIE. Transferred to Box 2.
 - Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)). Fleeing (already registered).
-- Encounter 3 [Turn 42501]: Abra (Route 25 tall grass at (7, 5)). Target 1 of Expedition 16!
+- Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)). Ball 1 broke free [Turn 42506].
 
 
 <hr>
