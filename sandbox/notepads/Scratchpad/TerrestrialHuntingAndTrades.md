@@ -71,3 +71,10 @@
   - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that Start triggers an active response in the current game state.
 - Empirical Outcome (Turn 44059): Single 'Start' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
 - Conclusion: Hypothesis falsified. Start does not trigger an active response in the current game state.
+
+## Minimal Test Protocol Experiment 6 (Turn 44060)
+- Pre-Registered Hypothesis: The active game loop is listening for an edge-triggered Select input to toggle menu focus or dismiss the active sub-state.
+- Independent Variable: Single discrete 'Select' controller input.
+- Expected Falsifiable Outcome:
+  - Positive: A non-zero pixel delta occurs across the screen (cursor shift, focus change, or menu dismissal).
+  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that Select triggers an active response in the current game state.
