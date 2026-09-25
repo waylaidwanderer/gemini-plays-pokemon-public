@@ -146,7 +146,7 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: POKé BALL x2
+- Slot 9: POKé BALL x1
 - Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
@@ -5115,6 +5115,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Viridian Forest Wild Encounter 1 [Turn 42694]: Weedle Lv 3 encountered at (18, 37). Balls 1-3 broke free after 3 shakes; CAUGHT on Ball 4 [Turn 42724]. Nickname: NEEDLE confirmed. 5 Poké Balls remaining.
 - Viridian Forest Wild Encounter 2 [Turn 42734]: Metapod Lv 4 encountered at (18, 40) - FLED (conserving balls for Caterpie).
 - Viridian Forest Wild Encounter 3 [Turn 42742]: Metapod Lv 6 encountered at (22, 40) - FLED (conserving balls for Caterpie).
-- Viridian Forest Wild Encounter 4 [Turn 42746]: Caterpie Lv 3 encountered at (18, 40) - Balls 1, 2, and 3 broke free after 3 shakes each. Readying Ball 4 (2 Poké Balls remaining).
+- Viridian Forest Wild Encounter 4 [Turn 42746]: Caterpie Lv 3 encountered at (18, 40) - Balls 1, 2, 3, and 4 broke free after 3 shakes each. Readying final Ball 5 (1 Poké Ball remaining).
 
 <hr>
