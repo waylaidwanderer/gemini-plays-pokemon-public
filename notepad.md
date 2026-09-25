@@ -5235,6 +5235,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Empirical Outcome (Turn 44056): Single 'Up' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
 - Conclusion: Hypothesis falsified. Upward directional menu navigation is not active on this interface.
 
+## Minimal Test Protocol Experiment 5 (Turn 44057)
+- Pre-Registered Hypothesis: The active game loop is listening for an edge-triggered Start input to toggle menu dismissal or shortcut to CANCEL.
+- Independent Variable: Single discrete 'Start' controller input.
+- Expected Falsifiable Outcome:
+  - Positive: The submenu closes, cursor shifts, or any non-zero pixel delta occurs across the screen.
+  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that Start triggers an active response in the current game state.
+
 <hr>
 
 <h1><code>Mechanics/EvolutionAndStones</code></h1>
