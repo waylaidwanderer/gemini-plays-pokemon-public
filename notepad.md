@@ -125,7 +125,7 @@
   - Status: Healthy
   - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 14/15) [Verified Turn 43515], Surf (PP 7/15) [Verified Turn 43571], Ice Beam (PP 7/10) [Verified Turn 43577]
+  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 14/15) [Verified Turn 43515], Surf (PP 6/15) [Verified Turn 43587], Ice Beam (PP 7/10) [Verified Turn 43577]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
@@ -5198,7 +5198,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~3,878 EXP to reach Lv 20 (~28 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43580].
-- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 7/15) [Turn 43571], Ice Beam (PP 7/10) [Turn 43577]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 6/15) [Turn 43587], Ice Beam (PP 7/10) [Turn 43577]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
   - When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or Surf <= 3):
