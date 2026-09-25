@@ -51,3 +51,5 @@
 - Expected Falsifiable Outcome:
   - Positive: The solid cursor moves from DEPOSIT to STATS, yielding a non-zero pixel delta.
   - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that directional cursor navigation is active on this interface.
+- Empirical Outcome (Turn 44053): Single 'Down' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
+- Conclusion: Hypothesis falsified. Directional cursor navigation is not active on this interface.
