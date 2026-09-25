@@ -12,7 +12,7 @@
   - Status: Healthy
   - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 14/15) [Verified Turn 43515], Surf (PP 8/15) [Verified Turn 43550], Ice Beam (PP 8/10) [Verified Turn 43558]
+  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 14/15) [Verified Turn 43515], Surf (PP 7/15) [Verified Turn 43571], Ice Beam (PP 8/10) [Verified Turn 43558]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]

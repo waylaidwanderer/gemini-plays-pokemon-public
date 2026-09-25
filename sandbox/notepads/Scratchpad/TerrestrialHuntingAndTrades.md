@@ -18,7 +18,7 @@
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~4,130 EXP to reach Lv 20 (~31 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43561].
-- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 8/15) [Turn 43550], Ice Beam (PP 8/10) [Turn 43558]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 7/15) [Turn 43571], Ice Beam (PP 8/10) [Turn 43558]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
   - When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or Surf <= 3):
