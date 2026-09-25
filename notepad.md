@@ -214,12 +214,7 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 5 / 20 Pokémon:
-  - Pidgey (BIRDIE Lv 13) [Deposited Turn 42625]
-  - Kakuna (COCOON Lv 7) [Deposited Turn 42626]
-  - Bellsprout (SPROUT Lv 12) [Deposited Turn 42628]
-  - Weedle (NEEDLE Lv 3) [Deposited Turn 42784]
-  - Caterpie (SILK Lv 3) [Deposited Turn 42786]
+- Box 2: Occupancy Unverified [Audit Pending via CHANGE BOX]. Previously caught/stored candidates include Magmar (Turn 33046), Pidgey (Turn 42625), Kakuna (Turn 42626), Bellsprout (Turn 42628), Weedle (Turn 42784), Caterpie (Turn 42786), plus wild catches since Turn 31744 (Tentacool, Poliwag, Pikachu, Muk, Grimer, Koffing, Vulpix). Box 2 may be at or near full capacity (20/20).
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
 
 <hr>
@@ -5147,7 +5142,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - `STATS`
   - `CANCEL`
 - Pressing A on `DEPOSIT` confirms the deposit and stores the Pokémon into the active box.
-- Sub-Menu Dismissal via B: Empirically verified Turn 31307 at Cinnabar Island with available PC box space: pressing B dismissed the deposit sub-menu.
+- Sub-Menu Dismissal via B: Tested Turn 31307 at Cinnabar Island with available PC box space (dismissed deposit sub-menu). However, under potentially full box conditions or specific menu states (Turns 43440-43500), B inputs did not produce visual submenu dismissal, indicating submenu exit constraints require further verification.
 
 ## PC Change Box Mechanics & Menu Hierarchy (Generation 1 Retail)
 - Selecting `CHANGE BOX` in Bill's PC does NOT immediately open the box list.
