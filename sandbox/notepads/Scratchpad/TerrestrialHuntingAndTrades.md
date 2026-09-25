@@ -91,3 +91,9 @@
 - Hypothesis: Testing whether horizontal inputs oscillate cursor focus between windows (Left then Right).
 - Independent Variable: Sequential input ['Left', 'Right'].
 - Expected Falsifiable Outcome: Visual movement of cursor between columns across intermediate states.
+- Result: Falsified Turn 43699 with zero pixel delta.
+
+## Test Protocol 19: Alternating Confirm-Cancel Evaluation (Turn 43700)
+- Hypothesis: Testing whether alternating sequence ['A', 'B'] confirms DEPOSIT selection and dismisses subsequent dialogue.
+- Independent Variable: Sequential input ['A', 'B'].
+- Expected Falsifiable Outcome: Screen transition displaying storage dialogue or returning to parent menu.
