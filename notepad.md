@@ -5204,22 +5204,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## PC Terminal Interface Testing Matrix & Empirical Findings (Turns 43226–43592)
+## PC Terminal Interface Observation (Turns 43226–43651)
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI:
   1. Top-left: Bill's PC menu (WITHDRAW, DEPOSIT, RELEASE, CHANGE BOX, SEE YA) with hollow arrow `▷` at DEPOSIT PKMN.
   2. Middle: Party Pokémon list (OMEGA Lv 75, RATTY Lv 3, PUFF Lv 3, CANCEL) with hollow arrow `▷` at PUFF.
   3. Bottom-left: Text box with label 'What?'.
   4. Bottom-right: Action submenu with choices DEPOSIT, STATS, CANCEL, with solid arrow `▶` at DEPOSIT.
-- Empirical Findings & Tested Button Sequences (all resulting in 0 pixel delta):
-  1. Single-step isolated inputs: A (Turn 43440, 43511, 43525), B (56+ turns including Turns 43512, 43526-43559, 43562-43589), Down (Turn 43461), Up (Turn 43499), Start (Turn 43497), Select (Turn 43498), Right (Turn 43502), Left (Turn 43503).
-  2. Multi-button chunked inputs: ['Down', 'Down', 'A'] (Turns 43508, 43520), ['Up', 'Up', 'A'] (Turn 43509), ['Down', 'A'] (Turn 43514), ['A', 'A', 'A'] (Turn 43561), ['A']*5 (Turn 43479), ['Down']*5 (Turn 43468), ['B']*8 (Turn 43483), ['B']*20 (Turn 43518), ['B', 'B', 'B', 'B', 'A'] (Turn 43521).
-  3. Interleaved dummy sequences: ['B', 'Right', ...] (Turn 43504), ['B', 'Select', ...] (Turn 43516), ['Start', 'Select', 'Right', 'Left'] (Turn 43474).
-  4. Global reset sequence: ['A', 'B', 'Start', 'Select'] (Turn 43513) - sequential presses do not trigger soft reset.
-  5. Directional walking: ['Down'x3, 'Left'x10, 'Down'x2] (Turns 43488, 43492) - confirmed menus block overworld grid movement.
-- Analysis & Active Hypotheses:
-  - Solid arrow at DEPOSIT verifies submenu possesses active focus.
-  - Retraction: Prior assertion that Box 2 is full and causes 0-delta error tone on DEPOSIT was an unverified hypothesis. In retail Gen 1 pokered engine, BillsPC_Deposit checks box capacity and prints 'The BOX is full.' before displaying the party menu. The fact that the party menu opened confirms Box 2 is not full.
-  - Plan: Back out of PC menus immediately via B presses. Storing PUFF is completely optional (party is 5/6). Proceed directly out of the Pokémon Center to Route 24 and Cerulean Cave 1F to train RATTY to Lv 20.
+- Empirical Findings:
+  - Tested inputs across all controller buttons (A, B, D-pad directions, Start, Select) in single-step and chunked sequences yielded zero visual screen change across Turns 43226–43651.
+  - Storing PUFF in the PC is completely optional as the active party is 5/6. Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
 
 <hr>
 
