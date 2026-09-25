@@ -104,6 +104,7 @@
 - [x] Evolve Slowpoke into Slowbro (#080) at Lv 37 [Turn 42280]
 - [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]
 - [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
+- [x] Catch wild Jigglypuff (#039) on Route 3 [Turn 43207]
 
 <hr>
 
@@ -5184,7 +5185,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Started: Turn 42404
 - Active Targets:
   - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 4. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
-  - Target 4: Jigglypuff (#039) - Active hunt in Route 3 Southern Tall Grass Field (Cols 28..37, Rows 10..13). Catch with Pok� Ball (98 available), then immediately apply Moon Stone (Bag Slot 9) to evolve into Wigglytuff (#040).
+  - Target 4: Jigglypuff (#039 PUFF) - CAUGHT Turn 43207! In party Slot 5. Next: apply Moon Stone (Bag Slot 9) to evolve into Wigglytuff (#040).
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
