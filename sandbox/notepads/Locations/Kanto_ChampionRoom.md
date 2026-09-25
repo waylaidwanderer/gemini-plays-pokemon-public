@@ -16,5 +16,5 @@
 - Combatant 2: Alakazam Lv 59. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Body Slam. Outcome: OHKO! Alakazam fainted. Zero damage taken (Sheldon 91/244 HP).
 - Combatant 3: Rhydon Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 4x OHKO! Rhydon fainted. Zero damage taken (Sheldon 91/244 HP).
 - Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST, Body Slam dealt ~50%. Gyarados used Leer. Turn 2: Sheldon moved FIRST, Body Slam paralyzed Gyarados (~2% HP). Gyarados Hyper Beam hit (Sheldon 9/244 HP). Turn 3: Sheldon moved FIRST, Body Slam finished Gyarados! Zero recoil taken.
-- Combatant 5: Arcanine Lv 63. Target: Surf (2x weak).
-- Combatant 6: Venusaur Lv 65. Target: Ice Beam (2x weak).
+- Combatant 5: Arcanine Lv 63. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 2x OHKO! Arcanine fainted. Zero damage taken (Sheldon 9/244 HP).
+- Combatant 6: Venusaur Lv 65. Final opponent. Target: Ice Beam (2x weak).

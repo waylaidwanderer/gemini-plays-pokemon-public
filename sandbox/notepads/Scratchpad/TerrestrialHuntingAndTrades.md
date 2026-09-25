@@ -25,8 +25,8 @@
   - Alakazam Lv 59: Target Body Slam (Slot 2) to exploit physical defense (~85) with zero recoil. Document empirical turn order and damage.
   - Rhydon Lv 61: Defeated! (4x Surf OHKO Turn 42967).
   - Gyarados Lv 61: Current opponent. Target Body Slam (Slot 2).
-  - Arcanine Lv 63: Target Surf (2x weak).
-  - Venusaur Lv 65: Target Ice Beam (2x weak).
+  - Arcanine Lv 63: Defeated! (2x Surf OHKO Turn 42979).
+  - Venusaur Lv 65: Final opponent. Target Ice Beam (2x weak).
 - Healing & Item Reserves:
   - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves).
   - Bag Slot 1: POKé FLUTE (wakes sleeping Pokémon).
