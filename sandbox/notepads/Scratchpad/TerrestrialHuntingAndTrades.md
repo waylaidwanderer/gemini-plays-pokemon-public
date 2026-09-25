@@ -36,3 +36,9 @@
 - Hypothesis: Testing whether an isolated A input on DEPOSIT executes the storage routine to clear the nested submenu.
 - Independent Variable: Isolated single input ['A'].
 - Expected Falsifiable Outcome: Screen transition displaying storage dialogue or updating menu state.
+- Result: Falsified Turn 43742 with zero pixel delta.
+
+## Test Protocol 31: Consecutive South Strides Evaluation (Turn 43743)
+- Hypothesis: Testing whether consecutive Down inputs shift cursor directly to CANCEL or step player south to (13, 5).
+- Independent Variable: Sequential input ['Down', 'Down'].
+- Expected Falsifiable Outcome: Visual movement of cursor to CANCEL or coordinate update to (13, 5).
