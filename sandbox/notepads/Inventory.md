@@ -65,7 +65,6 @@
 25. TM27 x1 (Fissure)
 26. TM43 x1 (Sky Attack)
 27. TM17 x1 (Submission)
-- Field moves active across party: DUX (Cut/Fly), SHELDON (Surf).
 
 ## PC Pokémon Storage
 - Active Box: BOX 2 [Switched & Saved Turn 42403]
