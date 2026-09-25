@@ -5285,6 +5285,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether leading B cancels lingering modal state before Down shifts focus to STATS and A confirms.
 - Independent Variable: Sequential input ['B', 'Down', 'A'].
 - Expected Falsifiable Outcome: Visual movement of cursor to STATS or transition to stats display.
+- Result: Falsified Turn 43701 with zero pixel delta.
+
+## Test Protocol 21: Navigate to CANCEL & Dismiss (Turn 43702)
+- Hypothesis: Testing whether navigating down twice to CANCEL followed by B cancellation clears the submenu focus state.
+- Independent Variable: Sequential input ['Down', 'Down', 'B'].
+- Expected Falsifiable Outcome: Visual movement of cursor to CANCEL or submenu dismissal.
 
 <hr>
 
