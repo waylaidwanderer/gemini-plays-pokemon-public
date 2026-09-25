@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥29,905 [Empirically verified on Hall of Fame Trainer Card Turn 42995]
+- Money: ¥25,705 [Purchased 2 Leaf Stones for ¥4,200 Turn 43046]
 
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
@@ -2198,7 +2198,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 
 ## 2F: Trainer's Market
 - Floor Sign: Located at (14, 1) on north wall ("2F: TRAINER'S MARKET - Top Grade Items for Trainers!").
-- Stairs / Escalator: Tile (12, 1) is escalator down to 1F. Tile (16, 1) is one-way escalator landing from 3F (solid when approached from south). Elevator at (1, 1) provides direct inter-floor transit to 1F..5F.
+- Stairs / Escalator: Tile (12, 1) is escalator down to 1F. Tile (16, 1) is impassable when approached from south on row 2 (unverified whether landing or blocked). Elevator at (1, 1) provides direct inter-floor transit to 1F..5F.
 - Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks:
   - Left Clerk (at (5, 3), shop from (5, 5) facing North): Trainer items (Great Ball ¥600, Super Potion ¥700, Revive ¥1500, Super Repel ¥500, status heals). Does NOT sell standard Poké Balls (¥200).
   - Right Clerk (at (6, 3), shop from (6, 5) facing North) [Empirically verified Turn 43035]: Technical Machines:
@@ -5182,18 +5182,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone in Bag Slot 9).
     - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
   - Funding Secured: Conquered Pokémon League rematch gauntlet [Turn 42985], yielding ¥29,905 total funds.
-- Active Party Status [Healed Turn 43011 at Celadon Pokémon Center]:
-  - SHELDON (Blastoise Lv 77, Water, HP 247/247): Double-Edge (15/15 PP), Body Slam (15/15 PP), Surf (15/15 PP), Ice Beam (10/10 PP). Healthy.
-  - DUX (Farfetch'd Lv 34, Normal/Flying, HP 87/87): Cut (30/30 PP), Fly (15/15 PP), Sand-Attack (15/15 PP), Leer (30/30 PP). Healthy.
-  - OMEGA (Mewtwo Lv 75, Psychic, HP 264/264): Swift (20/20 PP), Psychic (10/10 PP), Barrier (30/30 PP), Recover (20/20 PP). Healthy.
-  - Party Slots 4, 5, 6: Empty (ready for wild captures).
-- Current Expedition 16 Execution Flow:
-  1. Team fully restored at Celadon Pokémon Center [Turn 43011].
-  2. Mounted Bicycle in Celadon City [Turn 43016].
-  3. Riding west along Main Avenue to Celadon Department Store entrance at (10, 13).
-  4. 2F: Purchase 50 Poké Balls (~¥10,000).
-  5. 4F: Purchase 2 Leaf Stones (2 x ¥2,100 = ¥4,200).
-  6. Fly to Route 1 / Pallet Town for Target 3 (Rattata #019 -> Raticate #020).
-  7. Travel/Fly to Route 3 for Target 4 (Jigglypuff #039 -> Wigglytuff #040 via Moon Stone in Bag Slot 9).
+- Active Expedition 16 Target Tracker & Strategy:
+  - Leaf Stones: 2 secured in Bag Slot 10 (purchased for ¥4,200 Turn 43046) for future Victreebel (delay to Lv 38 for Razor Leaf) and Vileplume (trade req).
+  - Target 3 (Route 1): Rattata (#019) -> capture with Poké Ball in Route 1 tall grass, train in Cerulean Cave 1F to Lv 20 to evolve into Raticate (#020).
+  - Target 4 (Route 3): Jigglypuff (#039) -> capture with Poké Ball in Route 3 tall grass, evolve immediately via Moon Stone (Bag Slot 9) into Wigglytuff (#040).
+- Immediate Execution Sequence:
+  1. Confirm 1F in elevator menu and descend to 1F.
+  2. Step south out of elevator and exit Department Store front doors to Celadon City exterior.
+  3. Cast HM02 Fly with DUX to Viridian City.
+  4. Enter Viridian Poké Mart and purchase 50 standard Poké Balls (50 x ¥200 = ¥10,000; remaining wallet: ¥15,705).
+  5. Proceed directly south onto Route 1 to begin wild Rattata hunt.
 
 <hr>
