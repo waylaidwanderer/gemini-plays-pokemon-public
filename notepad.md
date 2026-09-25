@@ -118,7 +118,7 @@
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (3 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
   - Status: Healthy
   - HP: 247 / 247 [Healed Turn 43011]
@@ -136,6 +136,11 @@
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+- Slot 4: RATTATA (Nickname: RATTY) [Lv 3, Normal]
+  - Status: Healthy
+  - HP: ~15 / ~15
+  - Caught: Route 1 [Turn 43083] with Poké Ball
+  - Moves: Tackle, Tail Whip
 
 ## Bag Items (11 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
