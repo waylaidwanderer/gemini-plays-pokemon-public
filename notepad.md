@@ -5249,6 +5249,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether an upward input wraps from DEPOSIT directly to CANCEL and A confirms submenu exit.
 - Independent Variable: Sequential input ['Up', 'A'].
 - Expected Falsifiable Outcome: Visual movement of cursor to CANCEL or dismissal of submenu.
+- Result: Falsified Turn 43695 with zero pixel delta.
+
+## Test Protocol 15: Rightward Focus & Confirm Evaluation (Turn 43696)
+- Hypothesis: Testing whether Right input explicitly transfers focus to the right-hand submenu before A confirms DEPOSIT.
+- Independent Variable: Sequential input ['Right', 'A'].
+- Expected Falsifiable Outcome: Visual movement of cursor or execution of DEPOSIT routine.
 
 <hr>
 
