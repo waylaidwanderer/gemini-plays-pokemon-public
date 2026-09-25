@@ -140,6 +140,7 @@
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 15, Normal]
   - Status: Healthy
+  - HP: Uninspected (Party inspection pending post-battle)
   - Stats: Attack 24, Defense 18, Speed 28, Special 13 [Verified Lv 15 Screen Turn 43540]
   - Caught: Route 1 [Turn 43083] with Pok� Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
@@ -5196,7 +5197,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~4,672 EXP to reach Lv 20 (~34 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43531].
+- Target: Rattata requires ~4,130 EXP to reach Lv 20 (~31 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43561].
 - Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 8/15) [Turn 43550], Ice Beam (PP 8/10) [Turn 43558]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
@@ -5205,8 +5206,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
 - Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).
 ## Health Management & Overworld Status Damage Protocol
-- Lead Status: Mewtwo is Healthy (poison cured by wild Golbat's Haze Turn 43451; HP 151/269 at Lv 76).
-- Recover Threshold: If Mewtwo's HP drops to <= 100 HP , select Recover (Move Slot 4, PP 20/20) during battle to restore 132 HP back to healthy levels.
 - Sweeper Health Protocol: If Sheldon's HP drops below 80 HP, switch lead to Mewtwo or exit cave to heal at Cerulean Pok�mon Center.
 
 <hr>
