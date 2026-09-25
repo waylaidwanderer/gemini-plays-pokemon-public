@@ -125,7 +125,7 @@
   - Status: Healthy
   - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 13/15), Ice Beam (PP 10/10) [Verified Turn 43498]
+  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP uninspected), Surf (PP 13/15) [Verified Turn 43498], Ice Beam (PP uninspected)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
@@ -5217,11 +5217,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
 
 ## Evolutionary Stones & Commercial Availability
-- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
-- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales, Growlithe -> Arcanine, Eevee -> Flareon.
-- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath, Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]). Evolves Pikachu -> Raichu, Eevee -> Jolteon.
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
+- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor [Unverified Hypotheses].
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales [Verified Turn 33357]; Growlithe -> Arcanine, Eevee -> Flareon [Unverified Hypotheses].
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath [Verified Turn 34159]; Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon [Unverified Hypotheses].
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]). Evolves Pikachu -> Raichu [Verified Turn 32198], Eevee -> Jolteon [Verified Turn 31098].
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen [Verified Turn 31235], Jigglypuff -> Wigglytuff [Verified Turn 43213]; Nidorino -> Nidoking, Clefairy -> Clefable [Unverified Hypotheses].
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
