@@ -5147,7 +5147,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - `STATS`
   - `CANCEL`
 - Pressing A on `DEPOSIT` confirms the deposit and stores the Pokémon into the active box.
-- Pressing B dismisses the sub-menu without depositing [Empirically verified Turn 31307].
+- Sub-Menu Dismissal via B (Empirically Restricted Scope): On Turn 31307 at Cinnabar Island with available PC box space, pressing B dismissed the deposit sub-menu. However, under constrained PC states, B does not universally dismiss the sub-menu, requiring explicit selection of CANCEL or box management.
 
 ## PC Change Box Mechanics & Menu Hierarchy (Generation 1 Retail)
 - Selecting `CHANGE BOX` in Bill's PC does NOT immediately open the box list.
@@ -5180,7 +5180,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Removing the lead Pokémon causes all subsequent party Pokémon to shift up by 1 slot (Slot 2 becomes Slot 1, Slot 3 becomes Slot 2, Slot 4 becomes Slot 3).
   - The newly received traded Pokémon is appended directly into the LAST occupied party slot (e.g. 4-member party: Slot 4 became MARC). Behavior for non-lead slot trades (Slots 2..6) remains unverified.
   - Traded Pokémon arrives at the exact same level as the offered Pokémon (Slowbro Lv 37 -> Lickitung Lv 37).
-
 
 <hr>
 
