@@ -31,7 +31,7 @@
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
 
-## Bag Items (11 / 20 Slots Occupied)
+## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE

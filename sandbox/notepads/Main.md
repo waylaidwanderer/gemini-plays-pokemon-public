@@ -103,3 +103,4 @@
 - [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]
 - [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
 - [x] Catch wild Jigglypuff (#039) on Route 3 [Turn 43207]
+- [x] Evolve Jigglypuff into Wigglytuff (#040) via Moon Stone [Turn 43213]
