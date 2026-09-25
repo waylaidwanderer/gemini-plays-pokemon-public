@@ -24,9 +24,9 @@
   - HP: 247 / 247 [Verified Turn 43243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Surf, Strength, Blizzard, Bite
-- Slot 4: RATTATA (Nickname: RATTY) [Lv 8, Normal]
+- Slot 4: RATTATA (Nickname: RATTY) [Lv 9, Normal]
   - Status: Healthy
-  - Stats: Attack 15, Defense 11, Speed 17, Special 9 [Verified Lv 8 Screen Turn 43311]
+  - Stats: Attack 16, Defense 12, Speed 19, Special 9 [Verified Lv 9 Screen Turn 43342]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack
 
