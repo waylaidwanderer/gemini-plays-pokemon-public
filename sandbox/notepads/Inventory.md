@@ -35,7 +35,7 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: POKé BALL x8 [1 used Turn 42702 vs wild Weedle Lv 3 (broke out after 3 shakes)]
+- Slot 9: POKé BALL x7 [2 used Turn 42702 & 42709 vs wild Weedle Lv 3 (both broke out after 3 shakes)]
 - Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
