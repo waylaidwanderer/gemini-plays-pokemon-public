@@ -8,10 +8,10 @@
 - Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43243]
-- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
-  - Status: Poisoned
-  - HP: 146 / 264 [Verified Battle Screen Turn 43451]
-  - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
+- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
+  - Status: Healthy
+  - HP: 151 / 269 [Verified Lv 76 Screen Turn 43453]
+  - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 5/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]

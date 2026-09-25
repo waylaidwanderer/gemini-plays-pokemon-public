@@ -27,7 +27,7 @@
     2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
 - Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).
 ## Health Management & Overworld Status Damage Protocol
-- Lead Status: Mewtwo is Poisoned (takes 16 HP per combat turn, 1 HP per 4 overworld steps).
+- Lead Status: Mewtwo is Healthy (poison cured by wild Golbat's Haze Turn 43451; HP 151/269 at Lv 76).
 - Recover Threshold: If Mewtwo's HP drops to <= 100 HP (out of 264 max), select Recover (Move Slot 4, PP 20/20) during battle to restore 132 HP back to healthy levels.
 - Lead Sweeper Swap Threshold: If Mewtwo's HP drops to <= 80 HP or Swift PP drops to <= 3, swap party leader to Sheldon (Blastoise Lv 77, 247/247 HP, healthy, 45 offensive moves: Blizzard x5, Surf x15, Bite x25).
 - In-Cave PP/Heal Tripwire: Max Elixir x1 in Bag Slot 5 can restore all PP if milestone is imminent (within 5 battles). Otherwise, southern exit at (25, 17) allows a rapid heal run at Cerulean Pokémon Center.
