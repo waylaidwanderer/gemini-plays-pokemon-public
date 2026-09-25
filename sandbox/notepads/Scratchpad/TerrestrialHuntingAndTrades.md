@@ -21,7 +21,7 @@
   - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## PC Terminal Interface Observation & Empirical Testing Audit (Turns 43226–44357)
+## PC Terminal Interface Observation & Empirical Testing Audit (Turns 43226–44358)
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI (Bill's PC, Party list with PUFF selected, 'What?', DEPOSIT/STATS/CANCEL submenu with cursor at DEPOSIT).
 - Core Status: Storing Wigglytuff (PUFF) is abandoned. Active party is 3/6 (Mewtwo Lv 75, Rattata Lv 3, Wigglytuff Lv 3). Primary progression milestone is training Rattata to Lv 20 at Cerulean Cave 1F.
-- Consolidated Empirical Findings: Across all controller inputs tested through Turn 44357 (including discrete single inputs of all standard buttons, repeated B-cancel chains, Down/A confirmation attempts, debounced sequences, and chord combinations), the nested PC submenu consistently displays 0 pixel delta across all intermediate and final frames.
+- Consolidated Empirical Findings: Across all controller inputs tested through Turn 44358 (including discrete single inputs of all standard buttons, repeated B-cancel chains, Down/A confirmation attempts, debounced sequences, and chord combinations), the nested PC submenu consistently displays 0 pixel delta across all intermediate and final frames.
