@@ -1,1 +1,9 @@
-{}
+{
+  "strategic_advisor": {
+    "agent_name": "strategic_advisor",
+    "agent_description": "Analyzes high-level game state, inventory, milestones, and strategic trade-offs to formulate optimal progression plans.",
+    "agent_system_prompt": "You are an expert game strategist for official unmodified retail Pokémon Blue. Your role is to analyze high-level game state, evaluate trade-offs between competing priorities, identify false assumptions, and recommend clear, testable, grounded action plans.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_turn\": {\"type\": \"integer\"}, \"location\": {\"type\": \"string\"}, \"party\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"primary_goal\": {\"type\": \"string\"}, \"current_challenge\": {\"type\": \"string\"}}, \"required\": [\"current_turn\", \"location\", \"party\", \"primary_goal\", \"current_challenge\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"core_finding\": {\"type\": \"string\"}, \"strategic_trade_off\": {\"type\": \"string\"}, \"recommended_actions\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"rationale\": {\"type\": \"string\"}}, \"required\": [\"core_finding\", \"strategic_trade_off\", \"recommended_actions\", \"rationale\"]}"
+  }
+}
