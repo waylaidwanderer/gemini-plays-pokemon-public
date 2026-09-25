@@ -4404,7 +4404,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Combatant 1: Pidgeot Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Ice Beam. Outcome: OHKO! Pidgeot fainted. Damage: 100% HP.
 - Combatant 2: Alakazam Lv 59. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Body Slam. Outcome: OHKO! Alakazam fainted. Zero damage taken (Sheldon 91/244 HP).
 - Combatant 3: Rhydon Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 4x OHKO! Rhydon fainted. Zero damage taken (Sheldon 91/244 HP).
-- Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST. Body Slam dealt ~50% damage. Gyarados used Leer (0 damage). Sheldon HP 91/244. Target Turn 2: Finish Gyarados.
+- Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST. Body Slam dealt ~50% damage. Gyarados used Leer (0 damage). Turn 2: Sheldon moved FIRST. Body Slam reduced Gyarados to ~2% HP and PARALYZED it! Sheldon HP 91/244.
 - Combatant 5: Arcanine Lv 63. Target: Surf (2x weak).
 - Combatant 6: Venusaur Lv 65. Target: Ice Beam (2x weak).
 
