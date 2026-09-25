@@ -5214,6 +5214,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Alternating A-B Test (Turn 44109): Testing ['A', 'B', 'A', 'B'] via press_buttons.
 - Alternating A-B Outcome (Turn 44109): Exactly 0 pixel delta across all four intermediate frames (turn_44110_0 through turn_44110_3) and final frame; menu state unchanged.
 - Testing R and L buttons to complete coverage across all 10 schema enum values.
+- R-L Buttons Outcome (Turn 44111): Sent ['R', 'L'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44112_0, turn_44112_1) and final frame; menu state unchanged. All 10 schema enum values have now been tested.
+- Double B Sequence Test (Turn 44112): Testing ['B', 'B'] via press_buttons.
 
 <hr>
 
