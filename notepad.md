@@ -5201,12 +5201,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - LEAF STONE x2 (Bag Slot 9) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
   - POKé BALL x88 (Bag Slot 10).
 
-## Immediate Execution Workflow
-1. Exit PC and Pokémon Center in Cerulean City.
-2. Navigate via Route 24 and surf into the Cerulean City canal.
-3. Enter Cerulean Cave 1F.
-4. Battle wild encounters using Mewtwo/Blastoise with EXP.ALL active until Rattata (RATTY) reaches Lv 20 and evolves into Raticate (#020).
-
 
 <hr>
 
