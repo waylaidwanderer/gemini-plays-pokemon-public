@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥25,705 [Purchased 2 Leaf Stones for ¥4,200 Turn 43046]
+- Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
 
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 

@@ -14,8 +14,9 @@
   - Target 3 (Route 1): Rattata (#019) -> capture with Poké Ball in Route 1 tall grass, train in Cerulean Cave 1F to Lv 20 to evolve into Raticate (#020).
   - Target 4 (Route 3): Jigglypuff (#039) -> capture with Poké Ball in Route 3 tall grass, evolve immediately via Moon Stone (Bag Slot 9) into Wigglytuff (#040).
 - Immediate Execution Sequence:
-  1. Confirm 1F in elevator menu and descend to 1F.
-  2. Step south out of elevator and exit Department Store front doors to Celadon City exterior.
-  3. Cast HM02 Fly with DUX to Viridian City.
-  4. Enter Viridian Poké Mart and purchase 50 standard Poké Balls (50 x ¥200 = ¥10,000; remaining wallet: ¥15,705).
-  5. Proceed directly south onto Route 1 to begin wild Rattata hunt.
+  1. Purchased 99 Poké Balls for ¥19,800 at Viridian Mart [Turn 43065] (Bag Slot 11: POKé BALL x99, Wallet: ¥5,905).
+  2. Exit Viridian Poké Mart to exterior at (29, 20).
+  3. Ride Bicycle south along col 21 through Viridian City to Route 1 entrance at (21, 36).
+  4. Enter Route 1 tall grass (cols 8..11, rows 24..27 or cols 10..13, rows 4..7).
+  5. Hunt and catch wild Rattata (#019) with Poké Ball (joins party Slot 4).
+  6. Proceed to Route 3, catch Jigglypuff (#039) (joins party Slot 5), and evolve immediately via Moon Stone into Wigglytuff (#040).
