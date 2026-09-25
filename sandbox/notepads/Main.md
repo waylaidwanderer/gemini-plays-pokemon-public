@@ -6,7 +6,7 @@
 
 - Money: ¥106 [Verified Turn 42653]
 
-- Pokédex: 58 Caught [WEEDLE #013 caught Turn 42724] / 137 Seen [Verified Turn 39387]
+- Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 

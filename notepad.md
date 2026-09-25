@@ -8,7 +8,7 @@
 
 - Money: ¥106 [Verified Turn 42653]
 
-- Pokédex: 58 Caught [WEEDLE #013 caught Turn 42724] / 137 Seen [Verified Turn 39387]
+- Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 
@@ -312,8 +312,8 @@
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
-  - Caterpie Lv 3 (Turn 42749): broke free after 3 shakes on Ball 1.
-  Across N=4 distinct encounters and 8 total ball throws, 6 out of 8 throws resulted in 3-shake breakouts at full HP. This empirically proves that even at maximum BCR 255, capture probability per basic Poké Ball at full HP is ~30-40%, mandating budgeting 3-5 balls per target species.
+  - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
+  Across N=4 distinct encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP. This empirically proves that even at maximum BCR 255, capture probability per basic Poké Ball at full HP is ~30-40%, mandating budgeting 3-5 balls per target species.
 
 <hr>
 
