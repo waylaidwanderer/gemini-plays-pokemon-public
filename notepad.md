@@ -120,7 +120,7 @@
 ## Party Pokémon (3 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 258 / 259 [Tackle 1 dmg Turn 42760]
+  - HP: 258 / 259
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -145,8 +145,37 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: MOON STONE x1 [Withdrawn Turn 42797 for Target 4 Wigglytuff]
-- Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
+- Slot 9: MOON STONE x1
+
+## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
+1. TM34 x1 (Bide)
+2. TM12 x1 (Water Gun)
+3. TOWN MAP
+4. S.S. TICKET
+5. ELIXER x1
+6. OLD ROD
+7. TM21 x1 (Mega Drain)
+8. TM06 x1 (Toxic)
+9. HM05 (Flash)
+10. COIN CASE
+11. LIFT KEY
+12. SILPH SCOPE
+13. HM04 (Strength)
+14. HM03 (Surf)
+15. GOOD ROD
+16. TM29 x1 (Psychic)
+17. CARD KEY
+18. TM46 x1 (Psywave)
+19. HM01 (Cut)
+20. ESCAPE ROPE x1
+21. TM14 x1 (Blizzard)
+22. TM22 x1 (Solarbeam)
+23. SECRET KEY
+24. TM38 x1 (Fire Blast)
+25. TM27 x1 (Fissure)
+26. TM43 x1 (Sky Attack)
+27. TM17 x1 (Submission)
+- Field moves active across party: DUX (Cut/Fly), SHELDON (Surf).
 
 ## PC Pokémon Storage
 - Active Box: BOX 2 [Switched & Saved Turn 42403]
@@ -4230,6 +4259,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Entrance doormat: Located at (7..8, 11) inside lobby.
 - South exit: Doors at (7..8, 11) lead out to Route 23 / Indigo Plateau exterior.
 - Exterior & Fly Arrival: Flying to Indigo Plateau lands at coordinates (9, 6) facing North directly outside the entrance doors at (9, 5) and (10, 5) [Empirically verified Turn 28811]. Statues flank the doors at (8, 6) and (11, 6). Stepping North into (9..10, 5) triggers map transition into the interior lobby entrance mat at (7..8, 11) [Verified Turn 28814].
+- Lobby Layout & Northern Concourse Traversal [Empirically verified Turns 42801-42807]:
+  - Center Counter Barrier: Continuous service counters span row 6 across columns 4..12, and solid walls span row 3 across columns 4..15, completely blocking direct northward traversal from the southern lobby.
+  - Western Bypass Concourse: Columns 2..3 form an open north-south corridor running from row 7 (in front of Mart at (0..1, 6)) north past row 3 into the northern concourse at row 2.
+  - Northern Concourse (Rows 1..2): Open east-west concourse connecting column 2 east past the Guide NPC at (5, 1) to the Northern Doorway at (8, 0).
 
 ## Services & Points of Interest
 - Pokémon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pokémon League [Turn 24508].
@@ -4247,7 +4280,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Mart Display Windows: Located at (2..3, 0..1) in the northern wall featuring 'SALE' signs and display cases [Corrected Turn 24659].
 - Lobby NPC / Guide: Located at (5, 1) facing South [Visually verified Turn 24656].
 - Northern Doorway (Elite Four Entrance): Located at (8, 0) in the northern wall. Stepping North into (8, 0) triggers map transition directly into Lorelei's chamber [Empirically verified Turn 24667].
-
 
 <hr>
 
@@ -5108,14 +5140,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
   - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!) [CAUGHT Turn 42590, Nickname: SPROUT; stored in Box 2]. Note: Abra (#063) deferred to Celadon Game Corner Prize Building (120 coins / ¥2,400) to bypass wild Teleport mechanics.
     - Route 25 Western Grass Empirical Distribution (N=8): Pidgey 2 (25%), Abra 4 (50%), Kakuna 1 (12.5%), Bellsprout 1 (12.5%).
-  - Target 2: Viridian Forest / Route 2 - Weedle (#013 CAUGHT, nicknamed NEEDLE), Caterpie (#010 CAUGHT on Ball 5, nicknamed SILK). Target 2 COMPLETE!
-    - Logistics: 0 Poké Balls in Bag, Money ¥106. At Indigo Plateau PC depositing trainees.
-  - Target 3: Route 1 - Pidgey (#016 -> #017), Rattata (#019 -> #020).
-  - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone).
+  - Target 2: Viridian Forest / Route 2 - Weedle (#013 CAUGHT, nicknamed NEEDLE), Caterpie (#010 CAUGHT on Ball 5, nicknamed SILK). Target 2 COMPLETE! (Encounters logged in Locations/Kanto_ViridianForest).
+  - Target 3: Route 1 - Pidgey (#016 CAUGHT on Route 25), Rattata (#019 -> #020 Raticate).
+  - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone secured in Bag Slot 9).
   - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
-- Viridian Forest Wild Encounter 1 [Turn 42694]: Weedle Lv 3 encountered at (18, 37). Balls 1-3 broke free after 3 shakes; CAUGHT on Ball 4 [Turn 42724]. Nickname: NEEDLE confirmed. 5 Poké Balls remaining.
-- Viridian Forest Wild Encounter 2 [Turn 42734]: Metapod Lv 4 encountered at (18, 40) - FLED (conserving balls for Caterpie).
-- Viridian Forest Wild Encounter 3 [Turn 42742]: Metapod Lv 6 encountered at (22, 40) - FLED (conserving balls for Caterpie).
-- Viridian Forest Wild Encounter 4 [Turn 42746]: Caterpie Lv 3 encountered at (18, 40) - Balls 1, 2, 3, and 4 broke free after 3 shakes each; CAUGHT on Ball 5 [Turn 42762]. Nickname: SILK confirmed. 0 Poké Balls remaining.
+  - Funding Strategy: Clearing Pokémon League gauntlet to earn ~¥30,000 prize money, returning to Pallet Town adjacent to Route 1.
 
 <hr>

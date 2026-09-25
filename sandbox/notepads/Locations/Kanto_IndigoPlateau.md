@@ -5,6 +5,10 @@
 - Entrance doormat: Located at (7..8, 11) inside lobby.
 - South exit: Doors at (7..8, 11) lead out to Route 23 / Indigo Plateau exterior.
 - Exterior & Fly Arrival: Flying to Indigo Plateau lands at coordinates (9, 6) facing North directly outside the entrance doors at (9, 5) and (10, 5) [Empirically verified Turn 28811]. Statues flank the doors at (8, 6) and (11, 6). Stepping North into (9..10, 5) triggers map transition into the interior lobby entrance mat at (7..8, 11) [Verified Turn 28814].
+- Lobby Layout & Northern Concourse Traversal [Empirically verified Turns 42801-42807]:
+  - Center Counter Barrier: Continuous service counters span row 6 across columns 4..12, and solid walls span row 3 across columns 4..15, completely blocking direct northward traversal from the southern lobby.
+  - Western Bypass Concourse: Columns 2..3 form an open north-south corridor running from row 7 (in front of Mart at (0..1, 6)) north past row 3 into the northern concourse at row 2.
+  - Northern Concourse (Rows 1..2): Open east-west concourse connecting column 2 east past the Guide NPC at (5, 1) to the Northern Doorway at (8, 0).
 
 ## Services & Points of Interest
 - Pokémon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pokémon League [Turn 24508].

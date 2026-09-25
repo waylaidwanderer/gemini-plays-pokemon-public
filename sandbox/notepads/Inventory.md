@@ -10,7 +10,7 @@
 ## Party Pokémon (3 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 258 / 259 [Tackle 1 dmg Turn 42760]
+  - HP: 258 / 259
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -35,8 +35,37 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: MOON STONE x1 [Withdrawn Turn 42797 for Target 4 Wigglytuff]
-- Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
+- Slot 9: MOON STONE x1
+
+## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
+1. TM34 x1 (Bide)
+2. TM12 x1 (Water Gun)
+3. TOWN MAP
+4. S.S. TICKET
+5. ELIXER x1
+6. OLD ROD
+7. TM21 x1 (Mega Drain)
+8. TM06 x1 (Toxic)
+9. HM05 (Flash)
+10. COIN CASE
+11. LIFT KEY
+12. SILPH SCOPE
+13. HM04 (Strength)
+14. HM03 (Surf)
+15. GOOD ROD
+16. TM29 x1 (Psychic)
+17. CARD KEY
+18. TM46 x1 (Psywave)
+19. HM01 (Cut)
+20. ESCAPE ROPE x1
+21. TM14 x1 (Blizzard)
+22. TM22 x1 (Solarbeam)
+23. SECRET KEY
+24. TM38 x1 (Fire Blast)
+25. TM27 x1 (Fissure)
+26. TM43 x1 (Sky Attack)
+27. TM17 x1 (Submission)
+- Field moves active across party: DUX (Cut/Fly), SHELDON (Surf).
 
 ## PC Pokémon Storage
 - Active Box: BOX 2 [Switched & Saved Turn 42403]
