@@ -8,7 +8,7 @@
 
 - Money: ¥106 [Verified Turn 42653]
 
-- Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
+- Pokédex: 58 Caught [WEEDLE #013 caught Turn 42724] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 
