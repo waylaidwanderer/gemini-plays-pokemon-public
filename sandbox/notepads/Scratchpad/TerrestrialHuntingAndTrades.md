@@ -56,3 +56,5 @@
 - Testing Start-B sequence via press_buttons.
 - Start-B Sequence Outcome (Turn 44119): Sent ['Start', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44120_0, turn_44120_1) and final frame; menu state unchanged.
 - Testing Select-B sequence via press_buttons.
+- Select-B Sequence Outcome (Turn 44120): Sent ['Select', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44121_0, turn_44121_1) and final frame; menu state unchanged.
+- Testing Start-A sequence via press_buttons.
