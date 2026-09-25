@@ -5266,6 +5266,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether Left input shifts focus to parent menu before asserting A confirmation.
 - Independent Variable: Sequential input ['Left', 'A'].
 - Expected Falsifiable Outcome: Screen transition shifting focus or confirming selection on party list.
+- Result: Falsified Turn 43690 with zero pixel delta.
+
+## Test Protocol 10: Extended Confirmation Pulse (Turn 43691)
+- Hypothesis: Testing whether a sustained train of A inputs ('A'*5) bridges debounce/polling thresholds to execute the DEPOSIT confirmation routine.
+- Independent Variable: Sequential input ['A', 'A', 'A', 'A', 'A'].
+- Expected Falsifiable Outcome: Screen transition displaying storage dialogue or clearing the deposit submenu.
 
 <hr>
 
