@@ -42,3 +42,9 @@
 - Hypothesis: Pressing Start acts as an immediate dialog/menu dismissal key in nested UI states.
 - Independent Variable: Isolated single input ['Start'].
 - Expected Falsifiable Outcome: Visual transition closing submenu or updating menu layer.
+- Result: Falsified Turn 43683 with zero pixel delta.
+
+## Test Protocol 3: Isolated Select Evaluation (Turn 43683)
+- Hypothesis: In certain party/PC menus, pressing Select functions as an item reorganization or sub-state toggle.
+- Independent Variable: Isolated single input ['Select'].
+- Expected Falsifiable Outcome: Visual transition shifting cursor or updating UI state.
