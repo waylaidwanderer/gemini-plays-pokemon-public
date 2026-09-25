@@ -5254,6 +5254,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether an isolated Down input shifts cursor from DEPOSIT to STATS.
 - Independent Variable: Isolated single input ['Down'].
 - Expected Falsifiable Outcome: Visual movement of cursor to STATS.
+- Result: Falsified Turn 43748 with zero pixel delta.
+
+## Test Protocol 37: Double Start Screen Refresh (Turn 43749)
+- Hypothesis: Testing whether cycling Start twice triggers a menu interrupt to force a buffer redraw.
+- Independent Variable: Sequential input ['Start', 'Start'].
+- Expected Falsifiable Outcome: Visual opening of start menu or screen buffer redraw.
 
 <hr>
 
