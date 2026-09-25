@@ -26,7 +26,7 @@
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: WEEDLE (Nickname: NEEDLE) [Lv 3, Bug/Poison, Caught Turn 42724]
-- Slot 5: CATERPIE (Nickname: SILK pending) [Lv 3, Bug, Caught Turn 42762]
+- Slot 5: CATERPIE (Nickname: SILK) [Lv 3, Bug, Caught Turn 42762]
 
 ## Bag Items (8 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
