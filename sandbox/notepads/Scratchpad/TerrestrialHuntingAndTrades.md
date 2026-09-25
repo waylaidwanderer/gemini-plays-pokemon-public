@@ -78,3 +78,9 @@
 - Hypothesis: Testing whether cycling Start twice triggers a menu interrupt to force a buffer redraw.
 - Independent Variable: Sequential input ['Start', 'Start'].
 - Expected Falsifiable Outcome: Visual opening of start menu or screen buffer redraw.
+- Result: Falsified Turn 43749 with zero pixel delta.
+
+## Test Protocol 38: Double Select Screen Evaluation (Turn 43750)
+- Hypothesis: Testing whether cycling Select twice triggers a selection toggle or resets input polling registers.
+- Independent Variable: Sequential input ['Select', 'Select'].
+- Expected Falsifiable Outcome: Visual movement of cursor or toggling of menu swap mode.
