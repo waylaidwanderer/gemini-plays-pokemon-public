@@ -13,4 +13,5 @@
 - Outcome: DEFEATED! BLUE defeated Champion RED on Turn 24981. Sheldon Lv 70 victorious.
 ## Rematch Telemetry [Turn 42958+]
 - Combatant 1: Pidgeot Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Ice Beam. Outcome: OHKO! Pidgeot fainted. Damage: 100% HP.
-- Combatant 2: Alakazam Lv 59. On field Turn 42961. Planned: Body Slam.
+- Combatant 2: Alakazam Lv 59. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Body Slam. Outcome: OHKO! Alakazam fainted. Zero damage taken (Sheldon 91/244 HP).
+- Combatant 3: Rhydon Lv 61. Next opponent. Target: Surf (4x weak).
