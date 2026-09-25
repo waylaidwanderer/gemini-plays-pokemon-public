@@ -7,13 +7,10 @@
 ## Landmarks & Layout
 - Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Western Entrance (Rows 8..11, Cols 0..1): 4-tile wide open ground passage connecting to Pewter City, bounded by solid mountain cliff walls to the north (rows 6..7) and south (rows 12..14).
-- First Tall Grass Field (Rows 8..11, Cols 2..5+): Tall grass spans across columns 2 to 5+. Stone boundary posts located at (4, 8) and (4, 11). Rows 9 and 10 provide continuous east-west passage through the grass field.
-
-- Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via tall grass at (9, 8..9).
+- Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via clear corridor at (9, 8..9).
 - Terraces & Ledges:
   - Upper tier: Row 6..7 bounded by south ledge at row 7 (cols 10..13).
   - Middle tier: Rows 8..10 clear ground (cols 10..16, no wild encounters).
-  - Lower tier: Rows 12..13 clear ground, south of row 11 ledge (no wild encounters).
 - Bug Catcher (10, 6): Stationed on upper tier at (10, 6) facing South/East.
 - Youngster (14, 4): Stationed on upper tier at (14, 4) facing South across column 14.
 - Lass (16, 9): Stationed at (16, 9) facing West across row 9 middle corridor. Line of sight triggers at (14, 9).
@@ -48,5 +45,5 @@
 - Northern Highway to Route 4 (Cols 56..57, Rows 0..6): 2-tile wide clear-ground corridor bounded by mountain cliff on the west (Col 55) and building structure on the east (Cols 58..63). Runs continuously North directly toward the Route 4 / Mt. Moon boundary.
 - Northern Exit to Route 4: Located at (57, 0). Stepping North triggers the map transition directly into Route 4 outside Mt. Moon.
 ## Verified Route 3 Wild Encounter Areas
-- **Southern Tall Grass Field (Cols 28..37, Rows 10..13):** Large continuous patch of tall grass situated directly south of the Eastern Road (Rows 8..9). Fully accessible with no ledge obstruction from row 9. Empirically confirmed Turn 43145 (player legs submerged in grass blades). Lass Robin stationed at (33, 10).
+- **Southern Tall Grass Field (Cols 28..37, Rows 10..13):** Large continuous patch of tall grass situated directly south of the Eastern Road (Rows 8..9). Fully accessible with no ledge obstruction from row 9. Empirically confirmed Turn 43145 (player legs submerged in grass blades). Verified wild sightings: Pidgey Lv 6 (Turn 43148), Spearow Lv 6 (Turns 43156, 43164). Active hunt for wild Jigglypuff (#039). Lass Robin stationed at (33, 10).
 - **Eastern Grass Pocket (Cols 58..65, Rows 8..13):** Enclosed tall grass field at far southeastern boundary of Route 3 near Mt. Moon entrance.
