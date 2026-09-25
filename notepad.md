@@ -2198,7 +2198,18 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 ## 2F: Trainer's Market
 - Floor Sign: Located at (14, 1) on north wall ("2F: TRAINER'S MARKET - Top Grade Items for Trainers!").
 - Stairs / Escalator: Tile (12, 1) is escalator down to 1F. Tile (16, 1) is one-way escalator landing from 3F (solid when approached from south). Elevator at (1, 1) provides direct inter-floor transit to 1F..5F.
-- Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks at (5, 3) and (6, 3) facing South, operated from row 5 facing North [Observed Turn 32154].
+- Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks:
+  - Left Clerk (at (5, 3), shop from (5, 5) facing North): Trainer items (Great Ball ¥600, Super Potion ¥700, Revive ¥1500, Super Repel ¥500, status heals). Does NOT sell standard Poké Balls (¥200).
+  - Right Clerk (at (6, 3), shop from (6, 5) facing North) [Empirically verified Turn 43035]: Technical Machines:
+    - TM32 (Double Team): ¥1,000
+    - TM33 (Reflect): ¥1,000
+    - TM02 (Razor Wind): ¥2,000
+    - TM07 (Horn Drill): ¥2,000
+    - TM37 (Egg Bomb): ¥2,000
+    - TM01 (Mega Punch): ¥3,000
+    - TM05 (Mega Kick): ¥3,000
+    - TM09 (Take Down): ¥3,000
+    - TM17 (Submission): ¥3,000
 - Aisles & Shelves: Glass display cases at rows 3..4 and row 6 (cols 10..13 and 16..17).
 - Walkways: Upper aisle across row 2 (cols 8..16, blocked at col 7 by counter wall); vertical corridor across cols 8..9 (rows 2..5); center walkway across cols 14..15; lower aisle along row 5 (connects west to elevator at (1, 1)).
 - Elevator: Entrance at (1, 1) with call button at (2, 1).
