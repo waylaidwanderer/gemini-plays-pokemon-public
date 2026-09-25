@@ -13,3 +13,16 @@
   - Chamber 1 (Lorelei): Defeated! Prize: +¥5,544.
   - Chamber 2 (Bruno): Defeated! (5-0 Surf sweep by Sheldon Lv 75, 241/241 HP). DUX grew to Lv 31 (Agility declined). Prize: +¥5,742. Cumulative funds: ~¥11,392. Active Party: SHELDON (Blastoise Lv 75, HP 241/241), DUX (Farfetch'd Lv 31, HP ~79/~79), OMEGA (Mewtwo Lv 75, HP 50/264 PAR).
   - Next: Chamber 3 (Agatha).
+## Gauntlet Resource Budgeting & Strategy [Turn 42902]
+- Active Party:
+  - SHELDON (Blastoise Lv 75, HP 185/241): Surf (8/15 PP), Ice Beam (10/10 PP), Body Slam (15/15 PP), Double-Edge (15/15 PP).
+  - OMEGA (Mewtwo Lv 75, HP 50/264 PAR): Psychic (5/10 PP), Recover (20/20 PP), Swift (20/20 PP), Barrier (30/30 PP).
+  - DUX (Farfetch'd Lv 31, HP ~79/~79): Cut, Fly, Sand-Attack, Leer.
+- PP & Move Allocation Plan:
+  - Agatha: Golbat (Ice Beam OHKO), Haunter (Surf), Arbok (Surf), Gengar Lv 60 (Surf). Expected Surf remaining: ~5/15, Ice Beam ~9/10.
+  - Lance: Dragonair x2 (Ice Beam 4x OHKO), Dragonite (Ice Beam 4x OHKO), Aerodactyl (Ice Beam/Surf OHKO), Gyarados (Body Slam/Double-Edge/Surf).
+  - Champion RED: Rhydon/Arcanine (Surf), Venusaur/Pidgeot/Exeggutor (Ice Beam), Alakazam (Double-Edge/Body Slam).
+- Healing & Item Reserves:
+  - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves on one Pokémon; reserve for Sheldon before RED if needed).
+  - Bag Slot 1: POKé FLUTE (in-battle wake-up tool for sleep/Hypnosis).
+- Post-Hall of Fame Protocol: Open Trainer Card immediately post-credits to audit empirical wallet total (target ~¥32,000+).
