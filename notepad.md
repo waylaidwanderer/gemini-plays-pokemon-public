@@ -5226,7 +5226,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - `STATS`
   - `CANCEL`
 - Pressing A on `DEPOSIT` confirms the deposit and stores the Pokémon into the active box.
-- Sub-Menu Dismissal via B: Tested Turn 31307 at Cinnabar Island with available PC box space (dismissed deposit sub-menu).
+- PC Deposit Sub-Menu Dismissal Mechanics: On the 3-option choice submenu (DEPOSIT / STATS / CANCEL), pressing B does NOT dismiss the menu. The player must navigate cursor down to CANCEL (Down x2) and press A to dismiss. B-button dismissal applies to the parent party list menu, not this nested choice submenu [Empirically verified across Turns 43226-44401].
 
 ## PC Change Box Mechanics & Menu Hierarchy (Generation 1 Retail)
 - Selecting `CHANGE BOX` in Bill's PC does NOT immediately open the box list.
