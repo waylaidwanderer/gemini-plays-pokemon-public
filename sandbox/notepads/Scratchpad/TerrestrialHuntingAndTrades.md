@@ -64,3 +64,5 @@
 - Testing Left-B sequence via press_buttons.
 - Left-B Sequence Outcome (Turn 44123): Sent ['Left', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44124_0, turn_44124_1) and final frame; menu state unchanged.
 - Testing Right-B sequence via press_buttons.
+- Right-B Sequence Outcome (Turn 44124): Sent ['Right', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44125_0, turn_44125_1) and final frame; menu state unchanged.
+- Testing Left-A sequence via press_buttons.
