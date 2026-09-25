@@ -75,7 +75,8 @@
 
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 
-- **Empirical Solo-Sweeper EXP.ALL Yields (N=4 Party: Mewtwo Lead, DUX Traded, Sheldon, Ratty):**
+- **Empirical Solo-Sweeper EXP.ALL Yields (N=4 Party: Solo Lead [Mewtwo / Sheldon], DUX Traded, Inactive Members):**
+  - Solo sweep yields are determined strictly by the defeated Pokémon species/level and party size, invariant to which Pokémon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
 
 | Species | Level | Total EXP | Sweeper Share (OMEGA) | EXP.ALL Trainee Share (Ratty/Sheldon) | Traded EXP.ALL Share (DUX) | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
