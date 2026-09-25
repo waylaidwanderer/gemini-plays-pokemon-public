@@ -5232,6 +5232,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Testing Start-A sequence via press_buttons.
 - Start-A Sequence Outcome (Turn 44121): Sent ['Start', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44122_0, turn_44122_1) and final frame; menu state unchanged.
 - Testing Select-A sequence via press_buttons.
+- Select-A Sequence Outcome (Turn 44122): Sent ['Select', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44123_0, turn_44123_1) and final frame; menu state unchanged.
+- Testing Left-B sequence via press_buttons.
 
 <hr>
 
