@@ -7,7 +7,7 @@
 - Badges: 8 / 8 [Verified Turn 41998]
 - PokÃ©dex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (3 / 6) [Verified Empirically via Screen Turn 43860]
+## Party Pokï¿½mon (3 / 6) [Verified Empirically via Screen Turn 43860]
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
   - Status: Healthy [Cured Turn 43011]
   - HP: 264 / 264 [Healed Turn 43011]
@@ -18,7 +18,7 @@
   - Status: Healthy
   - HP: 15 / 15 [Verified Lv 3 Screen Turn 43216]
   - Stats: Attack 8, Defense 7, Speed 9, Special 6 [Verified Lv 3 Screen Turn 43216]
-  - Caught: Route 1 [Turn 43083] with Poké Ball
+  - Caught: Route 1 [Turn 43083] with Pokï¿½ Ball
   - Moves: Tackle, Tail Whip
 - Slot 3: WIGGLYTUFF (Nickname: PUFF) [Lv 3, Normal]
   - Status: Healthy
@@ -26,7 +26,7 @@
   - Stats: Attack 9, Defense 8, Speed 8, Special 8 [Verified Lv 3 Screen Turn 43215]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sing, Defense Curl
-*(Note: BLASTOISE [SHELDON Lv 77] and FARFETCH'D [DUX Lv 34] were deposited into PC Box 2 around Turn 43224)*
+
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKÃ© FLUTE

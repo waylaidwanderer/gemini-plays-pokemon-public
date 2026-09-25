@@ -139,7 +139,7 @@
   - Stats: Attack 9, Defense 8, Speed 8, Special 8 [Verified Lv 3 Screen Turn 43215]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sing, Defense Curl
-*(Note: BLASTOISE [SHELDON Lv 77] and FARFETCH'D [DUX Lv 34] were deposited into PC Box 2 around Turn 43224)*
+
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
