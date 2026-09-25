@@ -12,8 +12,8 @@
 - Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via tall grass at (9, 8..9).
 - Terraces & Ledges:
   - Upper tier: Row 6..7 bounded by south ledge at row 7 (cols 10..13).
-  - Middle tier: Rows 8..10 tall grass (cols 10..13).
-  - Lower tier: Rows 12..13 tall grass, south of row 11 ledge.
+  - Middle tier: Rows 8..10 clear ground (cols 10..16, no wild encounters).
+  - Lower tier: Rows 12..13 clear ground, south of row 11 ledge (no wild encounters).
 - Bug Catcher (10, 6): Stationed on upper tier at (10, 6) facing South/East.
 - Youngster (14, 4): Stationed on upper tier at (14, 4) facing South across column 14.
 - Lass (16, 9): Stationed at (16, 9) facing West across row 9 middle corridor. Line of sight triggers at (14, 9).
