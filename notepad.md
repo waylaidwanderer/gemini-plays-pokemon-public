@@ -5242,6 +5242,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Two Down directional inputs navigate cursor to CANCEL, and A confirms selection to dismiss the submenu.
 - Independent Variable: Sequential input ['Down', 'Down', 'A'].
 - Expected Falsifiable Outcome: Visual movement of cursor to CANCEL and dismissal of the lower-right submenu.
+- Result: Falsified Turn 43817 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 45: Triple B Submenu Dismissal (Turn 43817)
+- Hypothesis: Three sequential B inputs provide continuous cancel polling across multiple engine frame intervals to ensure submenu dismissal.
+- Independent Variable: Sequential input ['B', 'B', 'B'].
+- Expected Falsifiable Outcome: Visual dismissal of the lower-right DEPOSIT/STATS/CANCEL window.
 
 <hr>
 
