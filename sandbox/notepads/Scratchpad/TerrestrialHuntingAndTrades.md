@@ -13,3 +13,11 @@
 - Key Inventory:
   - LEAF STONE x2 (Bag Slot 9) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
   - POKé BALL x88 (Bag Slot 10).
+
+## Stone Evolution Strategy & Movepool Hypotheses [Unverified]
+- In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
+- Pre-evolutions must reach key levels before stone application if specific moves are needed for battle utility:
+  - Weepinbell: Delay evolution until Level 38 for Razor Leaf.
+  - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
+  - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
+- Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
