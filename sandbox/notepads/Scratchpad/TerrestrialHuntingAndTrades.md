@@ -48,3 +48,9 @@
 - Hypothesis: Testing whether A activates selection before Down shifts focus to STATS and B cancels dialogue or submenu.
 - Independent Variable: Sequential input ['A', 'Down', 'B'].
 - Expected Falsifiable Outcome: Visual movement of cursor to STATS or submenu execution.
+- Result: Falsified Turn 43744 with zero pixel delta.
+
+## Test Protocol 33: Two-Step Confirm & Dismiss (Turn 43745)
+- Hypothesis: Testing whether A confirms DEPOSIT, second A clears storage dialogue, and B dismisses party menu.
+- Independent Variable: Sequential input ['A', 'A', 'B'].
+- Expected Falsifiable Outcome: Visual transition displaying storage text or returning to Bill's PC.
