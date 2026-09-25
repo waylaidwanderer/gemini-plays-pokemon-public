@@ -2,7 +2,7 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,122 EXP, needs 791 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43580]
+- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,253 EXP, needs 660 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43591]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -10,6 +10,11 @@
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
 
 ## Stone Evolution Strategy & Movepool Hypotheses [Unverified]
+- Unverified Evolutionary Stone Targets (Awaiting Empirical Testing):
+  - Leaf Stone: Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
+  - Fire Stone: Growlithe -> Arcanine, Eevee -> Flareon.
+  - Water Stone: Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
+  - Moon Stone: Nidorino -> Nidoking, Clefairy -> Clefable.
 - In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
 - Pre-evolutions must reach key levels before stone application if specific moves are needed for battle utility:
   - Weepinbell: Delay evolution until Level 38 for Razor Leaf.
@@ -17,7 +22,7 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~3,878 EXP to reach Lv 20 (~28 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43580].
+- Target: Rattata requires ~3,747 EXP to reach Lv 20 (~27 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43591].
 - Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 6/15) [Turn 43587], Ice Beam (PP 7/10) [Turn 43577]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
