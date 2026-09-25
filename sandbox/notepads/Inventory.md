@@ -12,7 +12,7 @@
   - Status: Healthy
   - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP uninspected), Surf (PP 13/15) [Verified Turn 43498], Ice Beam (PP uninspected)
+  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 15/15) [Verified Turn 43508], Surf (PP 12/15) [Verified Turn 43508], Ice Beam (PP uninspected)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
@@ -28,7 +28,7 @@
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 14, Normal]
   - Status: Healthy
   - Stats: Attack 23, Defense 17, Speed 26, Special 12 [Verified Lv 14 Screen Turn 43503]
-  - Caught: Route 1 [Turn 43083] with Poké Ball
+  - Caught: Route 1 [Turn 43083] with Pokï¿½ Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
 
 ## Bag Items (10 / 20 Slots Occupied)

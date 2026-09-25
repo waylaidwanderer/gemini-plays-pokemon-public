@@ -18,7 +18,7 @@
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~5,429 EXP to reach Lv 20 (~40 wild battles at ~135 EXP/battle via EXP.ALL).
-- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP uninspected), Surf (PP 13/15) [Turn 43498], Ice Beam (PP uninspected). Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 15/15) [Turn 43508], Surf (PP 12/15) [Turn 43508], Ice Beam (PP uninspected). Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
   - When Mewtwo and Sheldon offensive PP drop to <= 3:
@@ -28,4 +28,4 @@
 ## Health Management & Overworld Status Damage Protocol
 - Lead Status: Mewtwo is Healthy (poison cured by wild Golbat's Haze Turn 43451; HP 151/269 at Lv 76).
 - Recover Threshold: If Mewtwo's HP drops to <= 100 HP , select Recover (Move Slot 4, PP 20/20) during battle to restore 132 HP back to healthy levels.
-- Sweeper Health Protocol: If Sheldon's HP drops below 80 HP, switch lead to Mewtwo or exit cave to heal at Cerulean Pokémon Center.
+- Sweeper Health Protocol: If Sheldon's HP drops below 80 HP, switch lead to Mewtwo or exit cave to heal at Cerulean Pokï¿½mon Center.
