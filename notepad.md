@@ -8,7 +8,7 @@
 
 - Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
 
-- Pokédex: 61 Caught [JIGGLYPUFF #039 caught Turn 43207] / 137 Seen [Verified Turn 39387]
+- Pokédex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 
