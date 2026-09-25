@@ -30,6 +30,12 @@
   - HP: Pending post-battle verification on Stats screen
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
+- Slot 5: WIGGLYTUFF (Nickname: PUFF) [Lv 3, Normal]
+  - Status: Healthy
+  - HP: 21 / 21 [Verified Lv 3 Screen Turn 43215]
+  - Stats: Attack 9, Defense 8, Speed 8, Special 8 [Verified Lv 3 Screen Turn 43215]
+  - OT: BLUE (IDNo. 04620)
+  - Moves: Sing, Defense Curl
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -101,5 +107,4 @@
   - Bellsprout (SPROUT Lv 12) [Deposited Turn 42628]
   - Weedle (NEEDLE Lv 3) [Deposited Turn 42784]
   - Caterpie (SILK Lv 3) [Deposited Turn 42786]
-  - Wigglytuff (PUFF Lv 3) [Deposited Turn 43225]
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
