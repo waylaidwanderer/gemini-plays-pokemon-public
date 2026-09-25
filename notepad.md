@@ -122,7 +122,7 @@
   - Status: Healthy
   - HP: 12 / 247 [Grew to Lv 77 Turn 42979]
   - Stats: Attack 185, Defense 214, Speed 185, Special 192 [Verified Lv 77 Screen Turn 42979]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 3/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 2/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 33, Normal/Flying]
   - Status: Healthy
   - HP: ~83 / ~83 [Grew to Lv 33 Turn 42948]
@@ -4406,7 +4406,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Combatant 3: Rhydon Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 4x OHKO! Rhydon fainted. Zero damage taken (Sheldon 91/244 HP).
 - Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST, Body Slam dealt ~50%. Gyarados used Leer. Turn 2: Sheldon moved FIRST, Body Slam paralyzed Gyarados (~2% HP). Gyarados Hyper Beam hit (Sheldon 9/244 HP). Turn 3: Sheldon moved FIRST, Body Slam finished Gyarados! Zero recoil taken.
 - Combatant 5: Arcanine Lv 63. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 2x OHKO! Arcanine fainted. Zero damage taken (Sheldon 9/244 HP).
-- Combatant 6: Venusaur Lv 65. Final opponent. Target: Ice Beam (2x weak).
+- Combatant 6: Venusaur Lv 65. Turn 1: Sheldon moved FIRST, Ice Beam dealt ~80%. Venusaur took in sunlight (SolarBeam charge, 0 damage). Turn 2: Ice Beam finishing blow! Outcome: DEFEATED! Champion RED conquered!
 
 <hr>
 
