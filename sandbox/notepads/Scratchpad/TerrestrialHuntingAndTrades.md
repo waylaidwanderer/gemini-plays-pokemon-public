@@ -48,3 +48,9 @@
 - Hypothesis: Two consecutive B inputs provide both the cancel trigger and the edge transition needed to clear the active submenu and restore party list focus.
 - Independent Variable: Sequential input ['B', 'B'].
 - Expected Falsifiable Outcome: Visual dismissal of the lower-right DEPOSIT/STATS/CANCEL window.
+- Result: Falsified Turn 43813 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 43: Sequential Down-A to Stats Screen (Turn 43813)
+- Hypothesis: Down shifts cursor from DEPOSIT to STATS, and A confirms selection to open the full-screen Pokémon STATS interface.
+- Independent Variable: Sequential input ['Down', 'A'].
+- Expected Falsifiable Outcome: Transition from nested PC windows to the full-screen STATS display for PUFF.
