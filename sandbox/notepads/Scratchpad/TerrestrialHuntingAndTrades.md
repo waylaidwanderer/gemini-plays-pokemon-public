@@ -27,3 +27,17 @@
 - Empirical Findings across Protocols 1–51:
   - All standard controller inputs ('A', 'B', 'Start', 'Select', 'Up', 'Down', 'Left', 'Right') and multi-button permutations tested across Turns 43226–43830 yielded zero visual screen delta.
   - Storing PUFF in the PC is completely optional as the active party is 3/6. Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
+
+## Systematic Minimal Test Protocol Audit (Turns 43933–43949)
+- Independent Variable: Single discrete controller inputs tested individually following controller state clearance (mgba.clear_buttons + neutral frame) to assess edge-detection and menu responsiveness.
+- Tested Inputs:
+  - Turn 43933: B -> No visual delta
+  - Turn 43934: Down -> No visual delta (cursor remained at DEPOSIT)
+  - Turn 43936: A -> No visual delta
+  - Turn 43943: Start -> No visual delta
+  - Turn 43944: Select -> No visual delta
+  - Turn 43945: Up -> No visual delta
+  - Turn 43946: Left -> No visual delta
+  - Turn 43947: Right -> No visual delta
+  - Turn 43949: unstun + B -> No visual delta
+- Conclusion: All 8 primary Game Boy controller buttons produce zero visual delta under single-step testing. All test artifacts (test_before.png, test_after_*.png) cleaned up Turn 43952. Storing PUFF remains completely non-essential (party 3/6).
