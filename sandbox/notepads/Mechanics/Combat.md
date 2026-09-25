@@ -6,8 +6,6 @@
 
 - **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 
-- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
-
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
@@ -16,11 +14,7 @@
 
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles [Empirically verified Turn 58 vs Rival RED].
 
-- **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
-
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
-
-- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
 
 - **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
@@ -81,20 +75,20 @@
 
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 
-- **Unified Empirical EXP & Yield Lookup Table (Cerulean Cave 1F Encounters):**
+- **Empirical Solo-Sweeper EXP.ALL Yields (N=4 Party: Mewtwo Lead, DUX Traded, Sheldon, Ratty):**
 
-| Species | Level | Total EXP (E) | 2 Part. Base Share (floor(E/2)) | N=4 Trainee Share (floor(E/4) + floor(floor(E/2)/4)) | N=4 Traded Share (floor(floor(E/2)/4) * 1.5) | N=6 Trainee Share (floor(E/4) + team) |
+| Species | Level | Total EXP | Sweeper Share (OMEGA) | EXP.ALL Trainee Share (Ratty/Sheldon) | Traded EXP.ALL Share (DUX) | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Sandslash | 52 | 1,188 | 594 | 297 + 74 = 371 EXP | 74 + 37 = 111 EXP | 297 + 44 = 341 EXP |
-| Golbat | 46 | 1,104 | 552 | 276 + 65 = 341 EXP | 65 + 32 = 97 EXP | 276 + 46 = 322 EXP |
-| Dodrio | 49 | 1,106 (Observed) | 553 | 276 + 66 = 342 EXP | 133 + 66 = 199 EXP | 276 + 44 = 320 EXP |
-| Hypno | 46 | 1,076 | 538 | 269 + 65 = 334 EXP | 65 + 32 = 97 EXP | 269 + 39 = 308 EXP |
-| Magneton | 46 | 1,050 | 525 | 262 + 65 = 327 EXP | 65 + 32 = 97 EXP | 262 + 39 = 301 EXP |
-| Kadabra | 49 | 1,008 | 504 | 252 + 63 = 315 EXP | 63 + 31 = 94 EXP | 252 + 42 = 294 EXP |
-| Venomoth | 49 | 952 | 476 | 238 + 56 = 294 EXP | 84 EXP [Verified Screen Turn 42093] | 238 + 35 = 273 EXP |
-| Parasect | 52 | 950 | 475 | 237 + 59 = 296 EXP | 59 + 29 = 88 EXP | 237 + 37 = 274 EXP |
-| Raichu | 53 | 908 | 454 | 227 + 53 = 280 EXP | 53 + 26 = 79 EXP | 227 + 37 = 264 EXP |
-| Ditto | 53 | 461 | 230 | 113 + 22 = 135 EXP | 22 + 11 = 33 EXP | -- |
+| Sandslash | 52 | 1,188 | 601 EXP | 148 EXP | 222 EXP | Verified Turns 43309, 43395, 43414 |
+| Golbat | 46 | 1,104 | 558 EXP | 138 EXP | 207 EXP | Verified Turns 43277, 43361, 43371 |
+| Dodrio | 49 | 1,106 | 553 EXP | 133 EXP | 199 EXP | Verified Turn 43353 |
+| Hypno | 46 | 1,076 | 538 EXP | 131 EXP | 196 EXP | Verified Turn 43318 |
+| Magneton | 46 | 1,050 | 525 EXP | 131 EXP | 196 EXP | Verified Turn 43421 |
+| Kadabra | 49 | 1,008 | ~504 EXP | ~126 EXP | ~189 EXP | Predicted |
+| Venomoth | 49 | 952 | 476 EXP | 119 EXP | 178 EXP | Verified Turn 43340 |
+| Parasect | 52 | 950 | 475 EXP | 118 EXP | 177 EXP | Verified Turns 43378, 43405 |
+| Raichu | 53 | 908 | 454 EXP | 113 EXP | 169 EXP | Verified Turn 43441 |
+| Ditto | 53 | 461 | ~230 EXP | ~57 EXP | ~85 EXP | Predicted |
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 

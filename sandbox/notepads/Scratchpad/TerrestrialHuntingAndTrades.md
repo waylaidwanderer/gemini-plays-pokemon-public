@@ -17,7 +17,7 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~5,941 EXP to reach Lv 20 (~44 wild battles at ~135 EXP/battle via EXP.ALL).
+- Target: Rattata requires ~5,828 EXP to reach Lv 20 (~43 wild battles at ~135 EXP/battle via EXP.ALL).
 - Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 224 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
 - Current Offensive PP: Mewtwo OMEGA has Swift x7, Psychic x0 (Total: 7 attacks).
 - Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. If Mewtwo's Swift runs low (<= 3 PP), Sheldon takes over as lead sweeper, giving 64 combined attacks (more than enough for the ~48 battles required).
@@ -26,3 +26,8 @@
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
     2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
 - Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).
+## Health Management & Overworld Status Damage Protocol
+- Lead Status: Mewtwo is Poisoned (takes 16 HP per combat turn, 1 HP per 4 overworld steps).
+- Recover Threshold: If Mewtwo's HP drops to <= 100 HP (out of 264 max), select Recover (Move Slot 4, PP 20/20) during battle to restore 132 HP back to healthy levels.
+- Lead Sweeper Swap Threshold: If Mewtwo's HP drops to <= 80 HP or Swift PP drops to <= 3, swap party leader to Sheldon (Blastoise Lv 77, 247/247 HP, healthy, 45 offensive moves: Blizzard x5, Surf x15, Bite x25).
+- In-Cave PP/Heal Tripwire: Max Elixir x1 in Bag Slot 5 can restore all PP if milestone is imminent (within 5 battles). Otherwise, southern exit at (25, 17) allows a rapid heal run at Cerulean Pokémon Center.
