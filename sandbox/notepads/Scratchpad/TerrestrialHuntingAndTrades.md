@@ -54,3 +54,9 @@
 - Hypothesis: Selecting STATS (Down + A) transitions the UI into a full-screen STATS display, providing an alternate exit pathway back to the party menu.
 - Independent Variable: Sequential input ['Down', 'A'].
 - Expected Falsifiable Outcome: Screen transitions to PUFF's STATS display.
+- Result: Falsified Turn 43685 with zero pixel delta.
+
+## Test Protocol 5: Direct CANCEL Selection (Turn 43686)
+- Hypothesis: Directly navigating to CANCEL via two discrete Down inputs followed by an A confirmation (['Down', 'Down', 'A']) executes the submenu's native CANCEL routine, dismissing the submenu back to the party list.
+- Independent Variable: Sequential input ['Down', 'Down', 'A'].
+- Expected Falsifiable Outcome: Submenu closes, restoring solid cursor focus to the party list.
