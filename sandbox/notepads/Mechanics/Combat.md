@@ -55,6 +55,17 @@
 
 - **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
 
+- **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
+  - When a single lead Pokémon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
+  - EXP.ALL distributes the remaining half among all party members: `s_expall = floor(floor(Total_EXP / 2) / N)`.
+  - Traded Pokémon receive: `s_expall + floor(s_expall / 2)`.
+  - Empirical verification (N=4 party: OMEGA, DUX, SHELDON, RATTY):
+    - Golbat Lv 46 (Total 1,104): s_expall = floor(552 / 4) = 138 EXP [Verified Turns 43277, 43288]. Traded DUX: 207 EXP.
+    - Venomoth Lv 49 (Total 952): s_expall = floor(476 / 4) = 119 EXP [Verified Turns 43340, 43341]. Traded DUX: 178 EXP.
+    - Sandslash Lv 52 (Total 1,188): s_expall = floor(594 / 4) = 148 EXP [Verified Turns 43309, 43310]. Traded DUX: 222 EXP.
+    - Dodrio Lv 49 (Total 1,092): s_expall = floor(546 / 4) = 136 EXP [Verified Turn 43352]. Traded DUX: 204 EXP.
+    - Hypno Lv 46: Observed s_expall = 131 EXP [Verified Turn 43318] (OMEGA gained 538 EXP).
+
 - **Native vs. Traded Pokémon EXP Yields:**
 
   - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
