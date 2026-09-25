@@ -5250,6 +5250,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expected Falsifiable Outcome:
   - Positive: A non-zero pixel delta occurs across the screen (cursor shift, focus change, or menu dismissal).
   - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that Select triggers an active response in the current game state.
+## Controller Reset & Edge Transition Test (Turn 44082)
+- Held controller state cleared via mgba.clear_buttons() during audit.
+- Testing single discrete 'B' input to verify edge-triggered submenu dismissal.
 
 <hr>
 
