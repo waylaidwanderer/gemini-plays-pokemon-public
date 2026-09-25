@@ -5218,8 +5218,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   5. Directional walking: ['Down'x3, 'Left'x10, 'Down'x2] (Turns 43488, 43492) - confirmed menus block overworld grid movement.
 - Analysis & Active Hypotheses:
   - Solid arrow at DEPOSIT verifies submenu possesses active focus.
-  - Active Box 2 contains 20 Pokémon (audited candidates include Magmar, Weedle, Caterpie, etc.), making Box 2 full. In Gen 1 retail, selecting DEPOSIT into a full box plays an error tone (SFX_DENIED) and produces 0 visual screen change.
-  - Cancel/navigation from this submenu requires testing varied deliberate interaction on the active options.
+  - Retraction: Prior assertion that Box 2 is full and causes 0-delta error tone on DEPOSIT was an unverified hypothesis. In retail Gen 1 pokered engine, BillsPC_Deposit checks box capacity and prints 'The BOX is full.' before displaying the party menu. The fact that the party menu opened confirms Box 2 is not full.
+  - Plan: Press A to confirm DEPOSIT of PUFF into Box 2, advance through storage confirmation text, and exit PC to proceed to Cerulean Cave for RATTY training.
 
 <hr>
 
