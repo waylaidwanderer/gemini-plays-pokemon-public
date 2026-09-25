@@ -8,7 +8,7 @@
 
 - Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
 
-- Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
+- Pokédex: 60 Caught [RATTATA #019 caught Turn 43083] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 
@@ -5183,7 +5183,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone in Bag Slot 9).
 - Active Expedition 16 Target Tracker & Strategy:
   - Leaf Stones: 2 secured in Bag Slot 10 (purchased for ¥4,200 Turn 43046) for future Victreebel (delay to Lv 38 for Razor Leaf) and Vileplume (trade req).
-  - Target 3 (Route 1): Rattata (#019) -> currently in battle (Lv 3). Throwing Poké Ball from Bag Slot 11 (POKé BALL x99). Train in Cerulean Cave 1F to Lv 20 to evolve into Raticate (#020).
+  - Target 3 (Route 1): Rattata (#019) -> CAUGHT Turn 43083 (Ball 1 at full HP). Nickname RATTY (party Slot 4). Train in Cerulean Cave 1F to Lv 20 to evolve into Raticate (#020).
   - Target 4 (Route 3): Jigglypuff (#039) -> capture with Poké Ball in Route 3 tall grass, evolve immediately via Moon Stone (Bag Slot 9) into Wigglytuff (#040).
 - Immediate Execution Sequence:
   1. Currently in combat with wild Rattata (#019) on Route 1.
