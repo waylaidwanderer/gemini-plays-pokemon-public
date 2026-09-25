@@ -13,10 +13,10 @@
   - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 13/15) [Verified Turn 43607], Surf (PP 6/15) [Verified Turn 43587], Ice Beam (PP 6/10) [Verified Turn 43598]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 36, Normal/Flying]
   - Status: Healthy
-  - HP: 89 / 89 [Verified Party Screen Turn 43443]
-  - Stats: Attack 58, Defense 54, Speed 54, Special 51 [Verified Lv 35 Screen Turn 43432]
+  - HP: 89 / 89 [Lv 35 Party Screen Turn 43443; Lv 36 uninspected]
+  - Stats: Attack 60, Defense 56, Speed 55, Special 52 [Verified Lv 36 Screen Turn 43610]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
