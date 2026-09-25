@@ -81,3 +81,6 @@
 ## Controller Reset & Edge Transition Test (Turn 44082)
 - Held controller state cleared via mgba.clear_buttons() during audit.
 - Testing single discrete 'B' input to verify edge-triggered submenu dismissal.
+## Deposit Confirmation Test (Turn 44094)
+- Box capacity confirmed via game engine prerequisites (DisplayPartyMenu is only reached if wBoxCount < 20).
+- Confirming DEPOSIT for Wigglytuff via A input sequence to proceed to Cerulean Cave.
