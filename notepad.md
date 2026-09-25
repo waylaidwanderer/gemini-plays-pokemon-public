@@ -105,6 +105,7 @@
 - [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]
 - [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
 - [x] Catch wild Jigglypuff (#039) on Route 3 [Turn 43207]
+- [x] Evolve Jigglypuff into Wigglytuff (#040) via Moon Stone [Turn 43213]
 
 <hr>
 
@@ -143,7 +144,7 @@
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
 
-## Bag Items (11 / 20 Slots Occupied)
+## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -5185,14 +5186,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Started: Turn 42404
 - Active Targets:
   - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 4. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
-  - Target 4: Jigglypuff (#039 PUFF) - CAUGHT Turn 43207! In party Slot 5. Next: apply Moon Stone (Bag Slot 9) to evolve into Wigglytuff (#040).
+  - Target 4: Jigglypuff (#039 PUFF) -> WIGGLYTUFF (#040) - EVOLVED Turn 43213 via Moon Stone! In party Slot 5.
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
 - Key Inventory:
-  - MOON STONE x1 (Bag Slot 9) - reserved for Jigglypuff -> Wigglytuff.
-  - LEAF STONE x2 (Bag Slot 10) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
+    - LEAF STONE x2 (Bag Slot 10) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
   - POK� BALL x98 (Bag Slot 11).
 
 ## Immediate Execution Workflow
