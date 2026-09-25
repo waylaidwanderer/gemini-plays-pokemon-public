@@ -55,3 +55,9 @@
 - Hypothesis: Testing whether the submenu cursor oscillates between rows (Down to STATS, Up to DEPOSIT).
 - Independent Variable: Sequential input ['Down', 'Up'].
 - Expected Falsifiable Outcome: Visual movement of cursor to STATS then back to DEPOSIT across intermediate states.
+- Result: Falsified Turn 43693 with zero pixel delta.
+
+## Test Protocol 13: A-Lead Directional Toggle (Turn 43694)
+- Hypothesis: Testing whether an initial A input acknowledges/activates menu polling before a trailing Down input shifts focus to STATS.
+- Independent Variable: Sequential input ['A', 'Down'].
+- Expected Falsifiable Outcome: Visual movement of cursor to STATS or execution of DEPOSIT routine.
