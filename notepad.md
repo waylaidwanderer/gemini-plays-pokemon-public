@@ -118,9 +118,9 @@
 - IDNo: 04620
 - Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 60 Caught [RATTATA #019 caught Turn 43083] / 137 Seen [Verified Turn 39387]
+- Pokédex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
+## Party Pokémon (5 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
   - Status: Healthy
   - HP: 247 / 247 [Healed Turn 43011]
@@ -159,9 +159,8 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: MOON STONE x1
-- Slot 10: LEAF STONE x2 [Purchased Turn 43046 at Celadon Dept Store 4F]
-- Slot 11: POKé BALL x88 [10 used on Jigglypuff Turns 43194-43207]
+- Slot 9: LEAF STONE x2 [Purchased Turn 43046 at Celadon Dept Store 4F]
+- Slot 10: POKé BALL x88 [10 used on Jigglypuff Turns 43194-43207]
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -5192,21 +5191,20 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Started: Turn 42404
 - Active Targets:
   - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 4. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
-  - Target 4: Jigglypuff (#039 PUFF) -> WIGGLYTUFF (#040) - EVOLVED Turn 43213! In party Slot 5.
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
+  - Jigglypuff (#039 PUFF) -> Wigglytuff (#040) [Turn 43213]
 - Key Inventory:
-    - LEAF STONE x2 (Bag Slot 10) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
-  - POK� BALL x98 (Bag Slot 11).
+  - LEAF STONE x2 (Bag Slot 9) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
+  - POKé BALL x88 (Bag Slot 10).
 
 ## Immediate Execution Workflow
-1. Patrol Route 3 Southern Tall Grass to encounter wild Jigglypuff (#039).
-2. Throw Pok� Ball at full HP (flee if Pidgey/Spearow).
-3. Nickname captured Jigglypuff 'PUFF' (joins party Slot 5).
-4. Use MOON STONE from Bag Slot 9 on PUFF to evolve into Wigglytuff (#040).
-5. Fly to Cerulean City and enter Cerulean Cave 1F to train Rattata to Lv 20 for Raticate (#020).
+1. Exit PC and Pokémon Center in Cerulean City.
+2. Navigate via Route 24 and surf into the Cerulean City canal.
+3. Enter Cerulean Cave 1F.
+4. Battle wild encounters using Mewtwo/Blastoise with EXP.ALL active until Rattata (RATTY) reaches Lv 20 and evolves into Raticate (#020).
 
 
 <hr>
