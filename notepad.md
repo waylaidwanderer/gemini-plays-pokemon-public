@@ -5204,86 +5204,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## PC Terminal Interface Observation & Testing Summary (Turns 43226–43772)
+## PC Terminal Interface Observation & Testing Summary (Turns 43226–43830)
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI (Bill's PC, Party list with PUFF selected, 'What?', DEPOSIT/STATS/CANCEL submenu with cursor at DEPOSIT).
-- Empirical Findings across Protocols 1–38:
-  - All standard controller inputs ('A', 'B', 'Start', 'Select', 'Up', 'Down', 'Left', 'Right') and multi-button permutations tested across Turns 43226–43750 yielded zero visual screen delta.
+- Empirical Findings across Protocols 1–51:
+  - All standard controller inputs ('A', 'B', 'Start', 'Select', 'Up', 'Down', 'Left', 'Right') and multi-button permutations tested across Turns 43226–43830 yielded zero visual screen delta.
   - Storing PUFF in the PC is completely optional as the active party is 5/6 (or 3 active trainees/sweepers). Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
 
-## Test Protocol 39: Isolated Submenu Dismissal (Turn 43805)
-- Hypothesis: Single B input dismisses the DEPOSIT/STATS/CANCEL submenu to return focus to the party list.
-- Independent Variable: Isolated controller input ['B'].
-- Result: Falsified Turn 43806 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 40: Isolated Storage Confirmation (Turn 43806)
-- Hypothesis: Single A input confirms DEPOSIT on PUFF to initiate the storage routine or display a box capacity notice.
-- Independent Variable: Isolated controller input ['A'].
-- Expected Falsifiable Outcome: Screen transition displaying storage dialogue ('PUFF was stored in BOX 2.') or capacity notice ('The BOX is full.').
-- Result: Falsified Turn 43808 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 41: Isolated Down Navigation (Turn 43808)
-- Hypothesis: Single Down directional input shifts the selection cursor from DEPOSIT to STATS.
-- Independent Variable: Isolated controller input ['Down'].
-- Expected Falsifiable Outcome: Visual movement of solid cursor arrow from DEPOSIT (row 11) to STATS (row 13).
-- Result: Falsified Turn 43810 with zero pixel delta across intermediate and final states.
-## Test Protocol 42: Sequential Double B Submenu Dismissal (Turn 43811)
-- Hypothesis: Two consecutive B inputs provide both the cancel trigger and the edge transition needed to clear the active submenu and restore party list focus.
-- Independent Variable: Sequential input ['B', 'B'].
-- Expected Falsifiable Outcome: Visual dismissal of the lower-right DEPOSIT/STATS/CANCEL window.
-- Result: Falsified Turn 43813 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 43: Sequential Down-A to Stats Screen (Turn 43813)
-- Hypothesis: Down shifts cursor from DEPOSIT to STATS, and A confirms selection to open the full-screen Pokémon STATS interface.
-- Independent Variable: Sequential input ['Down', 'A'].
-- Expected Falsifiable Outcome: Transition from nested PC windows to the full-screen STATS display for PUFF.
-- Result: Falsified Turn 43815 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 44: Sequential Down-Down-A to Confirm Cancel (Turn 43815)
-- Hypothesis: Two Down directional inputs navigate cursor to CANCEL, and A confirms selection to dismiss the submenu.
-- Independent Variable: Sequential input ['Down', 'Down', 'A'].
-- Expected Falsifiable Outcome: Visual movement of cursor to CANCEL and dismissal of the lower-right submenu.
-- Result: Falsified Turn 43817 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 45: Triple B Submenu Dismissal (Turn 43817)
-- Hypothesis: Three sequential B inputs provide continuous cancel polling across multiple engine frame intervals to ensure submenu dismissal.
-- Independent Variable: Sequential input ['B', 'B', 'B'].
-- Expected Falsifiable Outcome: Visual dismissal of the lower-right DEPOSIT/STATS/CANCEL window.
-- Result: Falsified Turn 43819 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 46: Sequential Double A Storage Confirmation (Turn 43819)
-- Hypothesis: Two consecutive A inputs confirm DEPOSIT and advance the initial storage dialogue.
-- Independent Variable: Sequential input ['A', 'A'].
-- Expected Falsifiable Outcome: Screen transition displaying storage dialogue ('PUFF was stored in BOX 2.') or capacity notice ('The BOX is full.').
-- Result: Falsified Turn 43821 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 47: Alternating Cancel-Confirm Input (Turn 43821)
-- Hypothesis: Sequential alternating inputs B, A test whether a cancel-confirm cycle clears an active prompt latch and executes menu selection.
-- Independent Variable: Sequential input ['B', 'A'].
-- Expected Falsifiable Outcome: Visual dismissal of the submenu or advancement to the storage dialogue.
-- Result: Falsified Turn 43823 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 48: Alternating Confirm-Cancel Input (Turn 43823)
-- Hypothesis: Sequential alternating inputs A, B test whether confirming the active item followed immediately by cancel dismisses the menu or advances text.
-- Independent Variable: Sequential input ['A', 'B'].
-- Expected Falsifiable Outcome: Visual dismissal of the submenu or advancement to the storage dialogue.
-- Result: Falsified Turn 43825 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 49: Isolated Up Wrap Evaluation (Turn 43825)
-- Hypothesis: Single Up directional input tests whether the menu wraps from the top item (DEPOSIT) to the bottom item (CANCEL) or triggers boundary behavior.
-- Independent Variable: Isolated controller input ['Up'].
-- Expected Falsifiable Outcome: Visual movement of solid cursor arrow from DEPOSIT (row 11) to CANCEL (row 15).
-- Result: Falsified Turn 43827 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 50: Quadruple B Full Menu Cascade (Turn 43827)
-- Hypothesis: Four consecutive B inputs cascade through all nested PC menu levels (Submenu -> Party -> Bill's PC -> Main PC -> Off) to completely dismiss the PC interface.
-- Independent Variable: Sequential input ['B', 'B', 'B', 'B'].
-- Expected Falsifiable Outcome: Visual dismissal of PC menus, returning to the Pokémon Center overworld.
-- Result: Falsified Turn 43829 with zero pixel delta across intermediate and final states.
-
-## Test Protocol 51: Isolated Left Boundary Evaluation (Turn 43829)
-- Hypothesis: Single Left directional input tests whether horizontal navigation affects menu focus or triggers window boundary behavior.
-- Independent Variable: Isolated controller input ['Left'].
-- Expected Falsifiable Outcome: Visual movement of cursor or shift in active window focus.
 
 <hr>
 
