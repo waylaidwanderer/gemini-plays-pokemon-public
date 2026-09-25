@@ -7,24 +7,24 @@
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6) [Verified Empirically Turn 43243]
-- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
+## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
   - Status: Healthy
-  - HP: 136 / 269 [Verified Battle Screen Turn 43472]
-  - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
+  - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Surf, Strength, Blizzard, Bite
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
   - Stats: Attack 58, Defense 54, Speed 54, Special 51 [Verified Lv 35 Screen Turn 43432]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
-- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - Status: Healthy
-  - HP: 247 / 247 [Verified Turn 43243]
+  - HP: 136 / 269 [Verified Battle Screen Turn 43472]
+  - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Surf, Strength, Blizzard, Bite
+  - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 13, Normal]
   - Status: Healthy
   - HP: 32 / 32 [Verified Party Screen Turn 43476]
