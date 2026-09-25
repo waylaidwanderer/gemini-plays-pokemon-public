@@ -3,7 +3,7 @@
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
 - Active Targets:
-  - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 2. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
+  - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 4. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -23,5 +23,8 @@
   - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## PC Terminal Navigation & Submenu Dismissal
-- Dismissal Protocol: B-cancel is inactive on this 3-option choice submenu. Dismissal requires navigating to CANCEL (Down x2) and confirming with A.
+## Active Transit & Battle Role Assignment
+- Sweeper: Mewtwo (#150 OMEGA Lv 75, Party Slot 1) - Lead sweeper for Cerulean Cave 1F wild encounters.
+- Surfer: Blastoise (#009 SHELDON Lv 77, Party Slot 3) - Surf transit from Route 24 (8, 15) to Cerulean Cave mouth (4, 11).
+- Trainee: Rattata (#019 RATTY Lv 3, Party Slot 4) - Passive EXP.ALL recipient targeting Lv 20 for Raticate (#020).
+- Transit: Launch Surf South into canal at Route 24 (8, 15) -> (8, 16), flow down column 6 into Cerulean City canal, land on apron at (5, 12), enter Cerulean Cave at (4, 11).
