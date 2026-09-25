@@ -5219,7 +5219,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Analysis & Active Hypotheses:
   - Solid arrow at DEPOSIT verifies submenu possesses active focus.
   - Retraction: Prior assertion that Box 2 is full and causes 0-delta error tone on DEPOSIT was an unverified hypothesis. In retail Gen 1 pokered engine, BillsPC_Deposit checks box capacity and prints 'The BOX is full.' before displaying the party menu. The fact that the party menu opened confirms Box 2 is not full.
-  - Plan: Press A to confirm DEPOSIT of PUFF into Box 2, advance through storage confirmation text, and exit PC to proceed to Cerulean Cave for RATTY training.
+  - Plan: Back out of PC menus immediately via B presses. Storing PUFF is completely optional (party is 5/6). Proceed directly out of the Pokémon Center to Route 24 and Cerulean Cave 1F to train RATTY to Lv 20.
 
 <hr>
 
