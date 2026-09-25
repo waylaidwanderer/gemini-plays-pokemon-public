@@ -138,7 +138,7 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 3, Normal]
   - Status: Healthy
-  - HP: ~15 / ~15
+  - HP: Pending post-battle verification on Stats screen
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
 
@@ -642,7 +642,7 @@
 - Northern Highway to Route 4 (Cols 56..57, Rows 0..6): 2-tile wide clear-ground corridor bounded by mountain cliff on the west (Col 55) and building structure on the east (Cols 58..63). Runs continuously North directly toward the Route 4 / Mt. Moon boundary.
 - Northern Exit to Route 4: Located at (57, 0). Stepping North triggers the map transition directly into Route 4 outside Mt. Moon.
 ## Verified Route 3 Wild Encounter Areas
-- **Southern Tall Grass Field (Cols 28..37, Rows 10..13):** Large continuous patch of tall grass situated directly south of the Eastern Road (Rows 8..9). Fully accessible with no ledge obstruction from row 9. Empirically confirmed Turn 43145 (player legs submerged in grass blades). Verified wild sightings: Pidgey Lv 6 (Turn 43148), Pidgey Lv 7 (Turn 43177), Pidgey Lv 8 (Turn 43183), Spearow Lv 6 (Turns 43156, 43164), Spearow Lv 5 (Turn 43173), Jigglypuff Lv 3 (Turn 43191). Active hunt for wild Jigglypuff (#039). Lass Robin stationed at (33, 10).
+- **Southern Tall Grass Field (Cols 28..37, Rows 10..13):** Large continuous patch of tall grass situated directly south of the Eastern Road (Rows 8..9). Fully accessible with no ledge obstruction from row 9. Empirically confirmed Turn 43145 (player legs submerged in grass blades). Verified wild sightings: Pidgey Lv 6 (Turn 43148), Pidgey Lv 7 (Turn 43177), Pidgey Lv 8 (Turn 43183), Spearow Lv 6 (Turns 43156, 43164), Spearow Lv 5 (Turn 43173), Jigglypuff Lv 3 (Turn 43191). Lass Robin stationed at (33, 10).
 - **Eastern Grass Pocket (Cols 58..65, Rows 8..13):** Enclosed tall grass field at far southeastern boundary of Route 3 near Mt. Moon entrance.
 
 <hr>
@@ -5221,7 +5221,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   5. Pokémon Mansion B1F
   Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
 
-## Movepool Truncation & Stone Evolution Timing
+## Movepool Truncation & Stone Evolution Timing [Unverified Hypotheses - Pending Verification]
 - In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
 - Pre-evolutions must reach key levels before stone application if specific moves are needed for battle utility:
   - Weepinbell: Delay evolution until Level 38 for Razor Leaf (Victreebel learns no level-up moves).
