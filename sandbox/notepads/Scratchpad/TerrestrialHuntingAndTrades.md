@@ -121,3 +121,9 @@
 - Hypothesis: Testing whether navigating up twice followed by B cancellation clears focus or dismisses the submenu.
 - Independent Variable: Sequential input ['Up', 'Up', 'B'].
 - Expected Falsifiable Outcome: Visual movement of cursor or submenu dismissal.
+- Result: Falsified Turn 43704 with zero pixel delta.
+
+## Test Protocol 24: Composite Diagonal Navigation & Confirm (Turn 43705)
+- Hypothesis: Testing whether sequential Down then Right directional input shifts focus between submenu tiers before asserting A confirmation.
+- Independent Variable: Sequential input ['Down', 'Right', 'A'].
+- Expected Falsifiable Outcome: Visual movement of cursor to STATS or submenu execution.
