@@ -26,3 +26,10 @@
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI (Bill's PC, Party list with PUFF selected, 'What?', DEPOSIT/STATS/CANCEL submenu with cursor at DEPOSIT).
 - Core Status: Storing Wigglytuff (PUFF) is 100% abandoned and non-essential. Active party is 3/6 (Mewtwo Lv 75, Rattata Lv 3, Wigglytuff Lv 3). Primary progression milestone is training Rattata to Lv 20 at Cerulean Cave 1F.
 - Empirical Findings (Turns 43226–44042): Across all standard controller buttons and sequences tested following controller state clearance, the nested PC submenu remains completely unchanged (0 pixel delta). Baseline gameplay remains blocked at the PC terminal.
+
+## Minimal Test Protocol Experiment (Turn 44044)
+- Pre-Registered Hypothesis: Generation 1's HandleMenuInput requires a 0-to-1 edge transition in hJoyPressed to dismiss the submenu. Applying a single discrete B input tests whether edge-triggered cancellation is registered by the active game loop.
+- Independent Variable: Single discrete 'B' controller input.
+- Expected Falsifiable Outcome:
+  - Positive: Submenu at bottom-right closes, restoring active solid cursor to party list.
+  - Negative: Exactly 0 pixel delta across screen, falsifying the assumption that the active game loop is processing joypad inputs on this interface.
