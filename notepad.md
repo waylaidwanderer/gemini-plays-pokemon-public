@@ -2174,8 +2174,8 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - 2F Rear Corridor: Arrives at (2, 2) facing South with stairs down at (2, 1). Corridor spans east to column 4, and south down column 4 across rows 2..8. Staircase warp at (2, 7) leads up to Rooftop.
 - Rooftop Penthouse (Discovered Turn 31032):
   - Arrives at (2, 7) on red exit mat via 2F (2, 7) warp.
-  - Table at (3..4, 3..4) holds Pok� Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
-  - NPC at (2, 2) shares Pok�mon tips.
+  - Table at (3..4, 3..4) holds Poké Ball with EEVEE (Lv 25) at (4, 3) [Obtained Turn 31043].
+  - NPC at (2, 2) shares Pokémon tips.
   - Tile (7, 1) is a solid rooftop chimney/structure.
   - Exit Doorway: Red mat at (2..3, 7), stepping South into row 8 warps down to 2F.
 
