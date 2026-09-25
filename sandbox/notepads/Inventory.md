@@ -7,7 +7,7 @@
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
+## Party Pokémon (3 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 258 / 259 [Tackle 1 dmg Turn 42760]
@@ -25,7 +25,6 @@
   - HP: 241 / 241 [Verified Healed Turn 42384]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: CATERPIE (Nickname: SILK) [Lv 3, Bug, Caught Turn 42762]
 
 ## Bag Items (8 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -60,9 +59,10 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: 4 / 20 Pokémon:
+- Box 2: 5 / 20 Pokémon:
   - Pidgey (BIRDIE Lv 13) [Deposited Turn 42625]
   - Kakuna (COCOON Lv 7) [Deposited Turn 42626]
   - Bellsprout (SPROUT Lv 12) [Deposited Turn 42628]
   - Weedle (NEEDLE Lv 3) [Deposited Turn 42784]
+  - Caterpie (SILK Lv 3) [Deposited Turn 42786]
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
