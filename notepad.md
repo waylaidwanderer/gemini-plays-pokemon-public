@@ -644,6 +644,9 @@
 - Mt. Moon Access Ramp (59, 7): Empirically verified 2-way passable tan dirt ramp located directly behind the Mt. Moon signpost at (59, 9). Ascends from row 8 up onto the elevated northern terrace at (59, 6).
 - Northern Highway to Route 4 (Cols 56..57, Rows 0..6): 2-tile wide clear-ground corridor bounded by mountain cliff on the west (Col 55) and building structure on the east (Cols 58..63). Runs continuously North directly toward the Route 4 / Mt. Moon boundary.
 - Northern Exit to Route 4: Located at (57, 0). Stepping North triggers the map transition directly into Route 4 outside Mt. Moon.
+## Verified Route 3 Wild Encounter Areas
+- **Southern Tall Grass Field (Cols 28..37, Rows 10..13):** Large continuous patch of tall grass situated directly south of the Eastern Road (Rows 8..9). Fully accessible with no ledge obstruction from row 9. Empirically confirmed Turn 43145 (player legs submerged in grass blades). Lass Robin stationed at (33, 10).
+- **Eastern Grass Pocket (Cols 58..65, Rows 8..13):** Enclosed tall grass field at far southeastern boundary of Route 3 near Mt. Moon entrance.
 
 <hr>
 
