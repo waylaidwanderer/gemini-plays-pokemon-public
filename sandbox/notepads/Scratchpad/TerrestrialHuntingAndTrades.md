@@ -33,3 +33,5 @@
 - Expected Falsifiable Outcome:
   - Positive: Submenu at bottom-right closes, restoring active solid cursor to party list.
   - Negative: Exactly 0 pixel delta across screen, falsifying the assumption that the active game loop is processing joypad inputs on this interface.
+- Empirical Outcome (Turn 44046): Single 'B' input yielded exactly 0 pixel delta across both intermediate and final screen states.
+- Conclusion: Hypothesis falsified. The active game loop is not evaluating edge-triggered menu cancellation via HandleMenuInput on this interface.
