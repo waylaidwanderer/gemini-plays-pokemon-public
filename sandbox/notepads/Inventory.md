@@ -101,4 +101,5 @@
   - Bellsprout (SPROUT Lv 12) [Deposited Turn 42628]
   - Weedle (NEEDLE Lv 3) [Deposited Turn 42784]
   - Caterpie (SILK Lv 3) [Deposited Turn 42786]
+  - Wigglytuff (PUFF Lv 3) [Deposited Turn 43225]
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
