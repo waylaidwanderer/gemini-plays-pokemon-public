@@ -103,6 +103,7 @@
 - [x] Evolve Psyduck into Golduck (#055) at Lv 33 [Turn 39381]
 - [x] Evolve Slowpoke into Slowbro (#080) at Lv 37 [Turn 42280]
 - [x] Trade Slowbro for Lickitung (#108) on Route 18 Gatehouse 2F [Turn 42353]
+- [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
 
 <hr>
 
