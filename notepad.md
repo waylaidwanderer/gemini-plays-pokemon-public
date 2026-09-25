@@ -122,7 +122,7 @@
   - Status: Healthy
   - HP: 91 / 244 [Verified In-Battle Turn 42929]
   - Stats: Attack 182, Defense 210, Speed 182, Special 189 [Verified Lv 76 Screen Turn 42905]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 12/15), Surf (PP 3/15), Ice Beam (PP 4/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 3/15), Ice Beam (PP 4/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 33, Normal/Flying]
   - Status: Healthy
   - HP: ~83 / ~83 [Grew to Lv 33 Turn 42948]
@@ -4404,7 +4404,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Combatant 1: Pidgeot Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Ice Beam. Outcome: OHKO! Pidgeot fainted. Damage: 100% HP.
 - Combatant 2: Alakazam Lv 59. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Body Slam. Outcome: OHKO! Alakazam fainted. Zero damage taken (Sheldon 91/244 HP).
 - Combatant 3: Rhydon Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 4x OHKO! Rhydon fainted. Zero damage taken (Sheldon 91/244 HP).
-- Combatant 4: Gyarados Lv 61. On field Turn 42969. Target: Body Slam.
+- Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST. Body Slam dealt ~50% damage. Gyarados used Leer (0 damage). Sheldon HP 91/244. Target Turn 2: Finish Gyarados.
 - Combatant 5: Arcanine Lv 63. Target: Surf (2x weak).
 - Combatant 6: Venusaur Lv 65. Target: Ice Beam (2x weak).
 
