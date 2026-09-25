@@ -118,10 +118,10 @@
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (3 / 6)
-- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 76, Water]
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
   - Status: Healthy
-  - HP: 9 / 244 [Verified In-Battle Turn 42974]
-  - Stats: Attack 182, Defense 210, Speed 182, Special 189 [Verified Lv 76 Screen Turn 42905]
+  - HP: 12 / 247 [Grew to Lv 77 Turn 42979]
+  - Stats: Attack 185, Defense 214, Speed 185, Special 192 [Verified Lv 77 Screen Turn 42979]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 4/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 33, Normal/Flying]
   - Status: Healthy
