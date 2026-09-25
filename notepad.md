@@ -120,9 +120,9 @@
 ## Party Pokémon (3 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 76, Water]
   - Status: Healthy
-  - HP: 188 / 244 [Grew to Lv 76 Turn 42905]
+  - HP: 91 / 244 [Verified In-Battle Turn 42929]
   - Stats: Attack 182, Defense 210, Speed 182, Special 189 [Verified Lv 76 Screen Turn 42905]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 5/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 5/15), Ice Beam (PP 9/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 32, Normal/Flying]
   - Status: Healthy
   - HP: ~81 / ~81 [Grew to Lv 32 Turn 42919]
@@ -5170,8 +5170,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - OMEGA (Mewtwo Lv 75, HP 50/264 PAR): Psychic (5/10 PP), Recover (20/20 PP), Swift (20/20 PP), Barrier (30/30 PP).
   - DUX (Farfetch'd Lv 31, HP ~79/~79): Cut, Fly, Sand-Attack, Leer.
 - PP & Move Allocation Plan:
-  - Agatha: Golbat (Ice Beam OHKO), Haunter (Surf), Arbok (Surf), Gengar Lv 60 (Surf). Expected Surf remaining: ~5/15, Ice Beam ~9/10.
-  - Lance: Dragonair x2 (Ice Beam 4x OHKO), Dragonite (Ice Beam 4x OHKO), Aerodactyl (Ice Beam/Surf OHKO), Gyarados (Body Slam/Double-Edge/Surf).
+  - Lance: Gyarados (fainted to Body Slam crit Turn 42931), Dragonair x2 (Ice Beam 2x OHKO), Aerodactyl (Ice Beam/Surf OHKO), Dragonite (Ice Beam 4x OHKO). Audit empirical prize payout upon Lance's defeat.
   - Champion RED: Rhydon/Arcanine (Surf), Venusaur/Pidgeot/Exeggutor (Ice Beam), Alakazam (Double-Edge/Body Slam).
 - Healing & Item Reserves:
   - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves on one Pokémon; reserve for Sheldon before RED if needed).

@@ -20,8 +20,7 @@
   - OMEGA (Mewtwo Lv 75, HP 50/264 PAR): Psychic (5/10 PP), Recover (20/20 PP), Swift (20/20 PP), Barrier (30/30 PP).
   - DUX (Farfetch'd Lv 31, HP ~79/~79): Cut, Fly, Sand-Attack, Leer.
 - PP & Move Allocation Plan:
-  - Agatha: Golbat (Ice Beam OHKO), Haunter (Surf), Arbok (Surf), Gengar Lv 60 (Surf). Expected Surf remaining: ~5/15, Ice Beam ~9/10.
-  - Lance: Dragonair x2 (Ice Beam 4x OHKO), Dragonite (Ice Beam 4x OHKO), Aerodactyl (Ice Beam/Surf OHKO), Gyarados (Body Slam/Double-Edge/Surf).
+  - Lance: Gyarados (fainted to Body Slam crit Turn 42931), Dragonair x2 (Ice Beam 2x OHKO), Aerodactyl (Ice Beam/Surf OHKO), Dragonite (Ice Beam 4x OHKO). Audit empirical prize payout upon Lance's defeat.
   - Champion RED: Rhydon/Arcanine (Surf), Venusaur/Pidgeot/Exeggutor (Ice Beam), Alakazam (Double-Edge/Body Slam).
 - Healing & Item Reserves:
   - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves on one Pokémon; reserve for Sheldon before RED if needed).
