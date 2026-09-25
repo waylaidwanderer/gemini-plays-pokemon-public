@@ -5260,6 +5260,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Sequential alternating inputs B, A test whether a cancel-confirm cycle clears an active prompt latch and executes menu selection.
 - Independent Variable: Sequential input ['B', 'A'].
 - Expected Falsifiable Outcome: Visual dismissal of the submenu or advancement to the storage dialogue.
+- Result: Falsified Turn 43823 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 48: Alternating Confirm-Cancel Input (Turn 43823)
+- Hypothesis: Sequential alternating inputs A, B test whether confirming the active item followed immediately by cancel dismisses the menu or advances text.
+- Independent Variable: Sequential input ['A', 'B'].
+- Expected Falsifiable Outcome: Visual dismissal of the submenu or advancement to the storage dialogue.
 
 <hr>
 
