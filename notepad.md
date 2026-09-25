@@ -123,10 +123,10 @@
   - HP: 241 / 241 [Verified Turn 42857]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 30, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 31, Normal/Flying]
   - Status: Healthy
-  - HP: 77 / 77 [Verified Party Screen Turn 42857]
-  - Stats: Attack 50, Defense 47, Speed 46, Special 44 [Verified Lv 30 Screen Turn 42821]
+  - HP: ~79 / ~79 [Grew to Lv 31 Turn 42876]
+  - Stats: Attack 51, Defense 48, Speed 48, Special 45 [Verified Lv 31 Screen Turn 42876]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
