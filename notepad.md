@@ -5205,6 +5205,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Deposit Confirmation Test (Turn 44094): Theoretical hypothesis was that Box 2 had available capacity based on the prerequisite model. Sent ['A', 'A'] via press_buttons to test confirming DEPOSIT. Empirical Outcome: Exactly 0 pixel delta across both intermediate frames and final frame; menu state completely unchanged.
 - Cancel Submenu Navigation Test (Turn 44099): Theoretical hypothesis was that navigating cursor to CANCEL via Down twice and confirming with A would dismiss submenu. Sent ['Down', 'Down', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across all three intermediate frames (turn_44100_0, turn_44100_1, turn_44100_2) and final frame (Turn 44102); menu state completely unchanged.
 
+- Discrete Left Input Test (Turn 44103): Sent single discrete 'Left' input via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate (turn_44104_0) and final frame; menu state unchanged.
 
 <hr>
 
