@@ -2,7 +2,7 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 17, Party Slot 4) - Current Lv 17 (5,283 EXP, needs 549 EXP for Lv 18), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43660]
+- Active Trainee: Rattata (#019 RATTY Lv 17, Party Slot 4) - Current Lv 17 (5,421 EXP, needs 411 EXP for Lv 18), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43666]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -22,7 +22,7 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~2,717 EXP to reach Lv 20 (~20 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43660].
+- Target: Rattata requires ~2,579 EXP to reach Lv 20 (~19 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43666].
 - Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 243/251 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (243/251 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
