@@ -72,3 +72,9 @@
 - Hypothesis: Inverted sequence ['B', 'A'] clears any unacknowledged submenu state with B before asserting A confirmation on the underlying party menu.
 - Independent Variable: Sequential input ['B', 'A'].
 - Expected Falsifiable Outcome: Submenu dismisses and party menu updates.
+- Result: Falsified Turn 43688 with zero pixel delta.
+
+## Test Protocol 8: Horizontal Navigation & Dismissal (Turn 43689)
+- Hypothesis: Testing whether Right input shifts focus column before B cancellation.
+- Independent Variable: Sequential input ['Right', 'B'].
+- Expected Falsifiable Outcome: Screen transition shifting cursor focus or dismissing submenu.
