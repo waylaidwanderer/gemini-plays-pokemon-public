@@ -5272,6 +5272,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Single Up directional input tests whether the menu wraps from the top item (DEPOSIT) to the bottom item (CANCEL) or triggers boundary behavior.
 - Independent Variable: Isolated controller input ['Up'].
 - Expected Falsifiable Outcome: Visual movement of solid cursor arrow from DEPOSIT (row 11) to CANCEL (row 15).
+- Result: Falsified Turn 43827 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 50: Quadruple B Full Menu Cascade (Turn 43827)
+- Hypothesis: Four consecutive B inputs cascade through all nested PC menu levels (Submenu -> Party -> Bill's PC -> Main PC -> Off) to completely dismiss the PC interface.
+- Independent Variable: Sequential input ['B', 'B', 'B', 'B'].
+- Expected Falsifiable Outcome: Visual dismissal of PC menus, returning to the Pokémon Center overworld.
 
 <hr>
 
