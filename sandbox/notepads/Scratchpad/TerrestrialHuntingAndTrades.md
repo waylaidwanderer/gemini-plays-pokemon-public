@@ -14,8 +14,8 @@
   - Chamber 2 (Bruno): Defeated! (5-0 Surf sweep). DUX grew to Lv 31. Prize: +¥5,742.
   - Chamber 3 (Agatha): Defeated! (5-0 sweep by Sheldon Lv 76). DUX grew to Lv 32. Prize: +¥5,940.
   - Chamber 4 (Lance): Defeated! (5-0 sweep by Sheldon Lv 76). DUX grew to Lv 33. Prize: +¥6,138.
-  - Champion RED: Defeated! (6-0 sweep by Sheldon Lv 77). Prize: +~¥9,900.
-  - Outcome: POKÉMON LEAGUE CHAMPION! Cumulative funds: ~¥33,370+.
+  - Champion RED: Defeated! (6-0 sweep by Sheldon Lv 77). Prize: +¥6,435.
+  - Outcome: POKÉMON LEAGUE CHAMPION! Cumulative funds: ¥29,905 total.
 ## Gauntlet Resource Budgeting & Strategy [Turn 42961]
 - Active Party:
   - SHELDON (Blastoise Lv 76, HP 91/244): Double-Edge (15/15 PP), Body Slam (13/15 PP), Surf (5/15 PP), Ice Beam (4/10 PP).

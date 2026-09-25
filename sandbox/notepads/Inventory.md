@@ -3,7 +3,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥106 [Verified Turn 42653]
+- Money: ¥29,905 [Empirically calculated from battle rewards (+¥5544, +¥5742, +¥5940, +¥6138, +¥6435) Turn 42988]
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 

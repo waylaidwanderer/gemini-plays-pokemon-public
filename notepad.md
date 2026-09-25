@@ -113,7 +113,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥106 [Verified Turn 42653]
+- Money: ¥29,905 [Empirically calculated from battle rewards (+¥5544, +¥5742, +¥5940, +¥6138, +¥6435) Turn 42988]
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
@@ -4407,6 +4407,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST, Body Slam dealt ~50%. Gyarados used Leer. Turn 2: Sheldon moved FIRST, Body Slam paralyzed Gyarados (~2% HP). Gyarados Hyper Beam hit (Sheldon 9/244 HP). Turn 3: Sheldon moved FIRST, Body Slam finished Gyarados! Zero recoil taken.
 - Combatant 5: Arcanine Lv 63. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 2x OHKO! Arcanine fainted. Zero damage taken (Sheldon 9/244 HP).
 - Combatant 6: Venusaur Lv 65. Turn 1: Sheldon moved FIRST, Ice Beam dealt ~80%. Venusaur took in sunlight (SolarBeam charge, 0 damage). Turn 2: Ice Beam finishing blow! Outcome: DEFEATED! Champion RED conquered!
+- Rematch Result: DEFEATED 6-0! Prize: ¥6,435. Cumulative rematch earnings: ¥29,905 total.
 
 <hr>
 
@@ -5177,8 +5178,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Chamber 2 (Bruno): Defeated! (5-0 Surf sweep). DUX grew to Lv 31. Prize: +¥5,742.
   - Chamber 3 (Agatha): Defeated! (5-0 sweep by Sheldon Lv 76). DUX grew to Lv 32. Prize: +¥5,940.
   - Chamber 4 (Lance): Defeated! (5-0 sweep by Sheldon Lv 76). DUX grew to Lv 33. Prize: +¥6,138.
-  - Champion RED: Defeated! (6-0 sweep by Sheldon Lv 77). Prize: +~¥9,900.
-  - Outcome: POKÉMON LEAGUE CHAMPION! Cumulative funds: ~¥33,370+.
+  - Champion RED: Defeated! (6-0 sweep by Sheldon Lv 77). Prize: +¥6,435.
+  - Outcome: POKÉMON LEAGUE CHAMPION! Cumulative funds: ¥29,905 total.
 ## Gauntlet Resource Budgeting & Strategy [Turn 42961]
 - Active Party:
   - SHELDON (Blastoise Lv 76, HP 91/244): Double-Edge (15/15 PP), Body Slam (13/15 PP), Surf (5/15 PP), Ice Beam (4/10 PP).

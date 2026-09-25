@@ -18,3 +18,4 @@
 - Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST, Body Slam dealt ~50%. Gyarados used Leer. Turn 2: Sheldon moved FIRST, Body Slam paralyzed Gyarados (~2% HP). Gyarados Hyper Beam hit (Sheldon 9/244 HP). Turn 3: Sheldon moved FIRST, Body Slam finished Gyarados! Zero recoil taken.
 - Combatant 5: Arcanine Lv 63. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 2x OHKO! Arcanine fainted. Zero damage taken (Sheldon 9/244 HP).
 - Combatant 6: Venusaur Lv 65. Turn 1: Sheldon moved FIRST, Ice Beam dealt ~80%. Venusaur took in sunlight (SolarBeam charge, 0 damage). Turn 2: Ice Beam finishing blow! Outcome: DEFEATED! Champion RED conquered!
+- Rematch Result: DEFEATED 6-0! Prize: ¥6,435. Cumulative rematch earnings: ¥29,905 total.
