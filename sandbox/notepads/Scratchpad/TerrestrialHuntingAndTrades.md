@@ -78,3 +78,9 @@
 - Hypothesis: Testing whether Right input shifts focus column before B cancellation.
 - Independent Variable: Sequential input ['Right', 'B'].
 - Expected Falsifiable Outcome: Screen transition shifting cursor focus or dismissing submenu.
+- Result: Falsified Turn 43689 with zero pixel delta.
+
+## Test Protocol 9: Leftward Focus & Confirm Evaluation (Turn 43690)
+- Hypothesis: Testing whether Left input shifts focus to parent menu before asserting A confirmation.
+- Independent Variable: Sequential input ['Left', 'A'].
+- Expected Falsifiable Outcome: Screen transition shifting focus or confirming selection on party list.
