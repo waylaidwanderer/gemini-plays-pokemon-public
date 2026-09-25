@@ -5218,6 +5218,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Active solid cursor at DEPOSIT requires a 2-step confirmation (first A confirms deposit routine, second A clears the '[POKéMON] was stored' dialogue) followed by B cancellation to dismiss parent party menu.
 - Independent Variable: Sequential chunk ['A', 'A', 'B', 'B'].
 - Expected Falsifiable Outcome: Visual transition clearing the submenu and advancing storage dialogue to exit interface.
+- Result: Falsified Turn 43682 with zero pixel delta across all intermediate states.
+
+## Test Protocol 2: Isolated Start Evaluation (Turn 43682)
+- Hypothesis: Pressing Start acts as an immediate dialog/menu dismissal key in nested UI states.
+- Independent Variable: Isolated single input ['Start'].
+- Expected Falsifiable Outcome: Visual transition closing submenu or updating menu layer.
 
 <hr>
 
