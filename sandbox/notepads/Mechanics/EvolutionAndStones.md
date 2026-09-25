@@ -13,7 +13,7 @@
   5. Pokémon Mansion B1F
   Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
 
-## Movepool Truncation & Stone Evolution Timing
+## Movepool Truncation & Stone Evolution Timing [Unverified Hypotheses - Pending Verification]
 - In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
 - Pre-evolutions must reach key levels before stone application if specific moves are needed for battle utility:
   - Weepinbell: Delay evolution until Level 38 for Razor Leaf (Victreebel learns no level-up moves).

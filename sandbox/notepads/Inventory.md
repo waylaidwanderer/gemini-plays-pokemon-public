@@ -27,7 +27,7 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 3, Normal]
   - Status: Healthy
-  - HP: ~15 / ~15
+  - HP: Pending post-battle verification on Stats screen
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
 
