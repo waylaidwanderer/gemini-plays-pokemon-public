@@ -37,3 +37,4 @@
 - Discrete Right Input Test (Turn 44104): Sent single discrete 'Right' input via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate (turn_44105_0) and final frame; menu state unchanged. All 8 standard controller buttons have now been systematically tested.
 - 5-Step B Sequence Test (Turn 44105): Sent ['B', 'B', 'B', 'B', 'B'] via press_buttons to test clearing nested submenus. Empirical Outcome: Exactly 0 pixel delta across all five intermediate frames (turn_44106_0 through turn_44106_4) and final frame; menu state completely unchanged.
 - 5-Step A Sequence Test (Turn 44106): Testing ['A', 'A', 'A', 'A', 'A'] via press_buttons to test multi-step selection and dialogue advancement for DEPOSIT.
+- 5-Step A Sequence Outcome (Turn 44106): Exactly 0 pixel delta across all five intermediate frames (turn_44107_0 through turn_44107_4) and final frame; menu state unchanged.
