@@ -5,9 +5,9 @@
 - IDNo: 04620
 - Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 60 Caught [RATTATA #019 caught Turn 43083] / 137 Seen [Verified Turn 39387]
+- Pokédex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
+## Party Pokémon (5 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
   - Status: Healthy
   - HP: 247 / 247 [Healed Turn 43011]
@@ -46,9 +46,8 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: MOON STONE x1
-- Slot 10: LEAF STONE x2 [Purchased Turn 43046 at Celadon Dept Store 4F]
-- Slot 11: POKé BALL x88 [10 used on Jigglypuff Turns 43194-43207]
+- Slot 9: LEAF STONE x2 [Purchased Turn 43046 at Celadon Dept Store 4F]
+- Slot 10: POKé BALL x88 [10 used on Jigglypuff Turns 43194-43207]
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
