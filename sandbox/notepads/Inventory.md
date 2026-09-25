@@ -27,9 +27,9 @@
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 17, Normal]
   - Status: Healthy
-  - HP: 38 / 38 [Verified Party Screen Turn 43593]
+  - HP: Uninspected at Lv 17 (38/38 at Lv 16 [Turn 43593])
   - Stats: Attack 27, Defense 19, Speed 32, Special 14 [Verified Lv 17 Screen Turn 43648]
-  - Caught: Route 1 [Turn 43083] with Pok� Ball
+  - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
 
 ## Bag Items (10 / 20 Slots Occupied)
