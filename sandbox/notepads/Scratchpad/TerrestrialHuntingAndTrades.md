@@ -23,9 +23,9 @@
 - Champion RED Plan & Empirical Combat Telemetry:
   - Pidgeot Lv 61: Defeated! (Ice Beam OHKO Turn 42958, Sheldon moved first).
   - Alakazam Lv 59: Target Body Slam (Slot 2) to exploit physical defense (~85) with zero recoil. Document empirical turn order and damage.
-  - Rhydon Lv 61: Target Surf (4x weak).
+  - Rhydon Lv 61: Defeated! (4x Surf OHKO Turn 42967).
+  - Gyarados Lv 61: Current opponent. Target Body Slam (Slot 2).
   - Arcanine Lv 63: Target Surf (2x weak).
-  - Exeggutor Lv 61: Target Ice Beam (2x weak).
   - Venusaur Lv 65: Target Ice Beam (2x weak).
 - Healing & Item Reserves:
   - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves).
