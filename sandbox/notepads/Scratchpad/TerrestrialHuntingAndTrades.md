@@ -79,3 +79,9 @@
 - Hypothesis: Testing whether Up input shifts focus or selection before B cancellation.
 - Independent Variable: Sequential input ['Up', 'B'].
 - Expected Falsifiable Outcome: Visual movement of cursor or dismissal of submenu.
+- Result: Falsified Turn 43697 with zero pixel delta.
+
+## Test Protocol 17: Leftward Focus & Dismissal (Turn 43698)
+- Hypothesis: Testing whether Left directional input transfers focus out of the right submenu to parent menu before B cancellation.
+- Independent Variable: Sequential input ['Left', 'B'].
+- Expected Falsifiable Outcome: Visual movement of cursor to parent menu or submenu dismissal.
