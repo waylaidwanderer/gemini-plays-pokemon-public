@@ -5198,8 +5198,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI (Bill's PC, Party list with PUFF selected, 'What?', DEPOSIT/STATS/CANCEL submenu with cursor at DEPOSIT).
 - Empirical Findings across Protocols 1–51:
   - All standard controller inputs ('A', 'B', 'Start', 'Select', 'Up', 'Down', 'Left', 'Right') and multi-button permutations tested across Turns 43226–43830 yielded zero visual screen delta.
-  - Storing PUFF in the PC is completely optional as the active party is 5/6 (or 3 active trainees/sweepers). Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
-
+  - Storing PUFF in the PC is completely optional as the active party is 3/6. Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
 
 <hr>
 
