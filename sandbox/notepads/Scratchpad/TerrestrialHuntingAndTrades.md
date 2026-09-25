@@ -21,3 +21,20 @@
   - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
   - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
+
+## PC Terminal Interface Testing Matrix & Empirical Findings (Turns 43226–43592)
+- State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI:
+  1. Top-left: Bill's PC menu (WITHDRAW, DEPOSIT, RELEASE, CHANGE BOX, SEE YA) with hollow arrow `▷` at DEPOSIT PKMN.
+  2. Middle: Party Pokémon list (OMEGA Lv 75, RATTY Lv 3, PUFF Lv 3, CANCEL) with hollow arrow `▷` at PUFF.
+  3. Bottom-left: Text box with label 'What?'.
+  4. Bottom-right: Action submenu with choices DEPOSIT, STATS, CANCEL, with solid arrow `▶` at DEPOSIT.
+- Empirical Findings & Tested Button Sequences (all resulting in 0 pixel delta):
+  1. Single-step isolated inputs: A (Turn 43440, 43511, 43525), B (56+ turns including Turns 43512, 43526-43559, 43562-43589), Down (Turn 43461), Up (Turn 43499), Start (Turn 43497), Select (Turn 43498), Right (Turn 43502), Left (Turn 43503).
+  2. Multi-button chunked inputs: ['Down', 'Down', 'A'] (Turns 43508, 43520), ['Up', 'Up', 'A'] (Turn 43509), ['Down', 'A'] (Turn 43514), ['A', 'A', 'A'] (Turn 43561), ['A']*5 (Turn 43479), ['Down']*5 (Turn 43468), ['B']*8 (Turn 43483), ['B']*20 (Turn 43518), ['B', 'B', 'B', 'B', 'A'] (Turn 43521).
+  3. Interleaved dummy sequences: ['B', 'Right', ...] (Turn 43504), ['B', 'Select', ...] (Turn 43516), ['Start', 'Select', 'Right', 'Left'] (Turn 43474).
+  4. Global reset sequence: ['A', 'B', 'Start', 'Select'] (Turn 43513) - sequential presses do not trigger soft reset.
+  5. Directional walking: ['Down'x3, 'Left'x10, 'Down'x2] (Turns 43488, 43492) - confirmed menus block overworld grid movement.
+- Analysis & Active Hypotheses:
+  - Solid arrow at DEPOSIT verifies submenu possesses active focus.
+  - Active Box 2 contains 20 Pokémon (audited candidates include Magmar, Weedle, Caterpie, etc.), making Box 2 full. In Gen 1 retail, selecting DEPOSIT into a full box plays an error tone (SFX_DENIED) and produces 0 visual screen change.
+  - Cancel/navigation from this submenu requires testing varied deliberate interaction on the active options.
