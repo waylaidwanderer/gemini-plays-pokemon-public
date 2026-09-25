@@ -73,3 +73,9 @@
 - Hypothesis: Testing whether Right input explicitly transfers focus to the right-hand submenu before A confirms DEPOSIT.
 - Independent Variable: Sequential input ['Right', 'A'].
 - Expected Falsifiable Outcome: Visual movement of cursor or execution of DEPOSIT routine.
+- Result: Falsified Turn 43696 with zero pixel delta.
+
+## Test Protocol 16: Upward Navigation & Dismissal (Turn 43697)
+- Hypothesis: Testing whether Up input shifts focus or selection before B cancellation.
+- Independent Variable: Sequential input ['Up', 'B'].
+- Expected Falsifiable Outcome: Visual movement of cursor or dismissal of submenu.
