@@ -139,6 +139,7 @@
   - Moves: Surf, Strength, Blizzard, Bite
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 11, Normal]
   - Status: Healthy
+  - HP: 29 / 29 [Verified Party Screen Turn 43383]
   - Stats: Attack 19, Defense 14, Speed 22, Special 10 [Verified Lv 11 Screen Turn 43381]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack
