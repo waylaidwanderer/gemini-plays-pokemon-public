@@ -5248,6 +5248,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether an isolated Up input shifts cursor upward or wraps to CANCEL.
 - Independent Variable: Isolated single input ['Up'].
 - Expected Falsifiable Outcome: Visual movement of cursor upward or wrapping to CANCEL.
+- Result: Falsified Turn 43747 with zero pixel delta.
+
+## Test Protocol 36: Isolated Down Evaluation (Turn 43748)
+- Hypothesis: Testing whether an isolated Down input shifts cursor from DEPOSIT to STATS.
+- Independent Variable: Isolated single input ['Down'].
+- Expected Falsifiable Outcome: Visual movement of cursor to STATS.
 
 <hr>
 
