@@ -126,7 +126,7 @@
   - HP: 264 / 264
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 34, Normal/Flying]
   - Status: Healthy
   - HP: 87 / 87 [Verified Turn 43243]
@@ -5191,7 +5191,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~7,280 EXP to reach Lv 20 (~50-55 wild battles at ~135 EXP/battle via EXP.ALL).
-- Current Offensive PP: Mewtwo OMEGA has Swift x20, Psychic x4 (Total: 24 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
+- Current Offensive PP: Mewtwo OMEGA has Swift x20, Psychic x3 (Total: 23 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
 - PP Exhaustion Tripwire:
   - When Mewtwo's offensive PP drops to <= 3 (Psychic 0, Swift <= 3):
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
