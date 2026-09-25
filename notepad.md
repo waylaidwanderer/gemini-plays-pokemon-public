@@ -307,7 +307,7 @@
     - Golbat Lv 46 (Total 1,104): s_expall = floor(552 / 4) = 138 EXP [Verified Turns 43277, 43288]. Traded DUX: 207 EXP.
     - Venomoth Lv 49 (Total 952): s_expall = floor(476 / 4) = 119 EXP [Verified Turns 43340, 43341]. Traded DUX: 178 EXP.
     - Sandslash Lv 52 (Total 1,188): s_expall = floor(594 / 4) = 148 EXP [Verified Turns 43309, 43310]. Traded DUX: 222 EXP.
-    - Dodrio Lv 49 (Total 1,092): s_expall = floor(546 / 4) = 136 EXP [Verified Turn 43352]. Traded DUX: 204 EXP.
+    - Dodrio Lv 49 (Observed): OMEGA gained 553 EXP, EXP.ALL gave 133 EXP [Verified Screen Turn 43353]. Traded DUX: 199 EXP.
     - Hypno Lv 46: Observed s_expall = 131 EXP [Verified Turn 43318] (OMEGA gained 538 EXP).
 
 - **Native vs. Traded Pokémon EXP Yields:**
@@ -608,7 +608,6 @@
 - East: Mt. Moon.
 
 ## Landmarks & Layout
-- Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Western Entrance (Rows 8..11, Cols 0..1): 4-tile wide open ground passage connecting to Pewter City, bounded by solid mountain cliff walls to the north (rows 6..7) and south (rows 12..14).
 - Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via clear corridor at (9, 8..9).
 - Terraces & Ledges:
