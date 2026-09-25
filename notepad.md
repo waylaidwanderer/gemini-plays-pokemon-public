@@ -114,7 +114,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥29,905 [Empirically verified on Hall of Fame Trainer Card Turn 42995]
+- Money: ¥25,705 [Purchased 2 Leaf Stones for ¥4,200 Turn 43046]
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
