@@ -5243,6 +5243,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether an initial A input acknowledges/activates menu polling before a trailing Down input shifts focus to STATS.
 - Independent Variable: Sequential input ['A', 'Down'].
 - Expected Falsifiable Outcome: Visual movement of cursor to STATS or execution of DEPOSIT routine.
+- Result: Falsified Turn 43694 with zero pixel delta.
+
+## Test Protocol 14: Upward Wrap & Confirm Evaluation (Turn 43695)
+- Hypothesis: Testing whether an upward input wraps from DEPOSIT directly to CANCEL and A confirms submenu exit.
+- Independent Variable: Sequential input ['Up', 'A'].
+- Expected Falsifiable Outcome: Visual movement of cursor to CANCEL or dismissal of submenu.
 
 <hr>
 
