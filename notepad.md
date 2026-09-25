@@ -5273,8 +5273,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
-- Completed Targets in Active Party:
-  - Wigglytuff (#040 PUFF Lv 3, Party Slot 3) [Evolved Turn 43213]
+- Completed Targets in Box 2:
+  - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
+- Active Party Trainee:
+  - Rattata (#019 RATTY Lv 3, Party Slot 4) - Target Lv 20 for Raticate (#020)
 - Key Inventory:
   - LEAF STONE x2 (Bag Slot 9) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
   - POKé BALL x88 (Bag Slot 10).
