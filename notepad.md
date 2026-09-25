@@ -5217,6 +5217,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Empirical Outcome (Turn 44050): Single 'A' input yielded exactly 0 pixel delta across both intermediate and final screen states.
 - Conclusion: Hypothesis falsified. The active game loop is not halted inside a text/dialogue wait routine for the 'What?' prompt box.
 
+## Minimal Test Protocol Experiment 3 (Turn 44051)
+- Pre-Registered Hypothesis: The active menu handler is listening strictly for directional navigation (D-Pad Down) to update cursor position from DEPOSIT to STATS, while A/B buttons are inactive in the current sub-state.
+- Independent Variable: Single discrete 'Down' controller input.
+- Expected Falsifiable Outcome:
+  - Positive: The solid cursor moves from DEPOSIT to STATS, yielding a non-zero pixel delta.
+  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that directional cursor navigation is active on this interface.
+
 <hr>
 
 <h1><code>Mechanics/EvolutionAndStones</code></h1>
