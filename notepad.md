@@ -5224,6 +5224,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether consecutive Down inputs shift cursor directly to CANCEL or step player south to (13, 5).
 - Independent Variable: Sequential input ['Down', 'Down'].
 - Expected Falsifiable Outcome: Visual movement of cursor to CANCEL or coordinate update to (13, 5).
+- Result: Falsified Turn 43743 with zero pixel delta.
+
+## Test Protocol 32: Confirm-Down-Cancel Sequence (Turn 43744)
+- Hypothesis: Testing whether A activates selection before Down shifts focus to STATS and B cancels dialogue or submenu.
+- Independent Variable: Sequential input ['A', 'Down', 'B'].
+- Expected Falsifiable Outcome: Visual movement of cursor to STATS or submenu execution.
 
 <hr>
 
