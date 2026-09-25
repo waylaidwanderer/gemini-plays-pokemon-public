@@ -121,9 +121,9 @@
 ## Party Pokémon (3 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
   - Status: Healthy
-  - HP: 12 / 247 [Grew to Lv 77 Turn 42979]
+  - HP: 247 / 247 [Healed Turn 43011]
   - Stats: Attack 185, Defense 214, Speed 185, Special 192 [Verified Lv 77 Screen Turn 42979]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 2/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 34, Normal/Flying]
   - Status: Healthy
   - HP: 87 / 87 [Verified Turn 43003]
@@ -131,11 +131,11 @@
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
-  - Status: PAR (Paralyzed)
-  - HP: 50 / 264 [Verified Party Screen Turn 42857]
+  - Status: Healthy [Cured Turn 43011]
+  - HP: 264 / 264 [Healed Turn 43011]
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (9 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
