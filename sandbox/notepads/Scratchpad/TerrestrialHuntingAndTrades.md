@@ -40,3 +40,5 @@
 - 5-Step A Sequence Outcome (Turn 44106): Exactly 0 pixel delta across all five intermediate frames (turn_44107_0 through turn_44107_4) and final frame; menu state unchanged.
 - Up-A Sequence Test (Turn 44108): Sent ['Up', 'A'] via press_buttons to test upward wrap to CANCEL. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44109_0, turn_44109_1) and final frame; menu state unchanged.
 - Alternating A-B Test (Turn 44109): Testing ['A', 'B', 'A', 'B'] via press_buttons.
+- Alternating A-B Outcome (Turn 44109): Exactly 0 pixel delta across all four intermediate frames (turn_44110_0 through turn_44110_3) and final frame; menu state unchanged.
+- Testing R and L buttons to complete coverage across all 10 schema enum values.
