@@ -2,7 +2,7 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 18, Party Slot 4) - Current Lv 18 (6,095 EXP verified Turn 43704, needs 764 EXP for Lv 19), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43682]
+- Active Trainee: Rattata (#019 RATTY Lv 18, Party Slot 4) - Current Lv 18 (6,226 EXP verified Turn 43711, needs 633 EXP for Lv 19), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -22,13 +22,10 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~1,905 EXP to reach Lv 20 (~13 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43704].
+- Target: Rattata requires ~1,774 EXP to reach Lv 20 (~12-13 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43711].
 - Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 243/251 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
-- Lead Sweeper Strategy (Sheldon): High level (Lv 78) and massive bulk (243/251 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
   - When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or Surf <= 3):
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
     2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
 - Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).
-## Health Management & Overworld Status Damage Protocol
-- Sweeper Health Protocol: If Sheldon's HP drops below 80 HP, switch lead to Mewtwo or exit cave to heal at Cerulean Pokémon Center.

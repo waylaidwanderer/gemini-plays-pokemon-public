@@ -78,7 +78,7 @@
 - **Empirical Solo-Sweeper EXP.ALL Yields (N=4 Party: Solo Lead [Mewtwo / Sheldon], DUX Traded, Inactive Members):**
   - Solo sweep yields are determined strictly by the defeated Pokémon species/level and party size, invariant to which Pokémon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
 
-| Species | Level | Total EXP | Sweeper Share (OMEGA) | EXP.ALL Trainee Share (Ratty/Sheldon) | Traded EXP.ALL Share (DUX) | Verification Notes |
+| Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sandslash | 52 | 1,188 | 601 EXP | 148 EXP | 222 EXP | Verified Turns 43309, 43395, 43414 |
 | Golbat | 46 | 1,104 | 558 EXP | 138 EXP | 207 EXP | Verified Turns 43277, 43361, 43371 |
