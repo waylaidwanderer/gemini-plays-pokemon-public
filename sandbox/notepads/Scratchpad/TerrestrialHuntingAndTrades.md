@@ -4,7 +4,7 @@
   - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!) [CAUGHT Turn 42590, Nickname: SPROUT; stored in Box 2]. Note: Abra (#063) deferred to Celadon Game Corner Prize Building (120 coins / ¥2,400) to bypass wild Teleport mechanics.
     - Route 25 Western Grass Empirical Distribution (N=8): Pidgey 2 (25%), Abra 4 (50%), Kakuna 1 (12.5%), Bellsprout 1 (12.5%).
   - Target 2: Viridian Forest / Route 2 - Weedle (#013 CAUGHT, nicknamed NEEDLE), Caterpie (#010 CAUGHT on Ball 5, nicknamed SILK). Target 2 COMPLETE!
-    - Logistics: 0 Poké Balls in Bag, Money ¥106. In Viridian Forest.
+    - Logistics: 0 Poké Balls in Bag, Money ¥106. At Indigo Plateau PC depositing trainees.
   - Target 3: Route 1 - Pidgey (#016 -> #017), Rattata (#019 -> #020).
   - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone).
   - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
