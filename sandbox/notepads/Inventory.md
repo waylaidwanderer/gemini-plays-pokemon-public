@@ -8,10 +8,10 @@
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (3 / 6)
-- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
+- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
   - Status: Healthy
-  - HP: 258 / 259
-  - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
+  - HP: 263 / 264
+  - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 30, Normal/Flying]
