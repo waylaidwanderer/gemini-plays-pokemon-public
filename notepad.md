@@ -137,9 +137,9 @@
   - HP: 247 / 247 [Verified Turn 43243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Surf, Strength, Blizzard, Bite
-- Slot 4: RATTATA (Nickname: RATTY) [Lv 7, Normal]
+- Slot 4: RATTATA (Nickname: RATTY) [Lv 8, Normal]
   - Status: Healthy
-  - Stats: Attack 14, Defense 10, Speed 15, Special 8 [Verified Lv 7 Screen Turn 43304]
+  - Stats: Attack 15, Defense 11, Speed 17, Special 9 [Verified Lv 8 Screen Turn 43311]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack
 
@@ -5175,7 +5175,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 7, Party Slot 4) - Current Lv 7 (441 EXP), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 8, Party Slot 4) - Current Lv 8 (589 EXP), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
