@@ -27,7 +27,8 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 3, Normal]
   - Status: Healthy
-  - HP: Pending post-battle verification on Stats screen
+  - HP: 15 / 15 [Verified Lv 3 Screen Turn 43216]
+  - Stats: Attack 8, Defense 7, Speed 9, Special 6 [Verified Lv 3 Screen Turn 43216]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
 - Slot 5: WIGGLYTUFF (Nickname: PUFF) [Lv 3, Normal]
