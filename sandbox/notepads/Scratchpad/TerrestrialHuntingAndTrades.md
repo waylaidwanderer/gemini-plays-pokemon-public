@@ -72,3 +72,5 @@
 - Testing Up-B sequence via press_buttons.
 - Up-B Sequence Outcome (Turn 44127): Sent ['Up', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44128_0, turn_44128_1) and final frame; menu state unchanged.
 - Testing Down-B sequence via press_buttons.
+- Down-B Sequence Outcome (Turn 44128): Sent ['Down', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44129_0, turn_44129_1) and final frame; menu state unchanged.
+- Triple B Sequence Test (Turn 44129): Testing ['B', 'B', 'B'] via press_buttons targeting three-tier nested menu dismissal.
