@@ -1,9 +1,1 @@
-{
-  "expedition_manager": {
-    "agent_name": "expedition_manager",
-    "agent_description": "Evaluates party resources, EXP pacing, and active sweeper status for high-level expedition decisions.",
-    "agent_system_prompt": "You are the Expedition Manager for Pokemon Blue post-game training. Calculate remaining EXP to evolution milestones, estimate battles needed based on average 135 EXP/battle via EXP.ALL, audit active sweeper PP against tripwires (triggering southern egress or Max Elixer at <= 3 PP), and issue tactical recommendations.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"lead_pokemon\": {\"type\": \"string\"}, \"lead_hp\": {\"type\": \"string\"}, \"lead_moves_pp\": {\"type\": \"object\"}, \"trainee_name\": {\"type\": \"string\"}, \"trainee_level\": {\"type\": \"integer\"}, \"trainee_current_exp\": {\"type\": \"integer\"}, \"trainee_target_exp\": {\"type\": \"integer\"}}, \"required\": [\"lead_pokemon\", \"lead_hp\", \"lead_moves_pp\", \"trainee_name\", \"trainee_level\", \"trainee_current_exp\", \"trainee_target_exp\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"exp_remaining\": {\"type\": \"integer\"}, \"battles_remaining_estimate\": {\"type\": \"integer\"}, \"offensive_pp_total\": {\"type\": \"integer\"}, \"tripwire_status\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"exp_remaining\", \"battles_remaining_estimate\", \"offensive_pp_total\", \"tripwire_status\", \"recommended_action\"]}"
-  }
-}
+{}
