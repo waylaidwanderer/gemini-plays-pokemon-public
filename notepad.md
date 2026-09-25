@@ -5225,6 +5225,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Single Down directional input shifts the selection cursor from DEPOSIT to STATS.
 - Independent Variable: Isolated controller input ['Down'].
 - Expected Falsifiable Outcome: Visual movement of solid cursor arrow from DEPOSIT (row 11) to STATS (row 13).
+- Result: Falsified Turn 43810 with zero pixel delta across intermediate and final states.
 
 <hr>
 
