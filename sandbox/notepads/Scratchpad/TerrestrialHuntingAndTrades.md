@@ -70,3 +70,5 @@
 - Testing Right-A sequence via press_buttons.
 - Right-A Sequence Outcome (Turn 44126): Sent ['Right', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44127_0, turn_44127_1) and final frame; menu state unchanged.
 - Testing Up-B sequence via press_buttons.
+- Up-B Sequence Outcome (Turn 44127): Sent ['Up', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44128_0, turn_44128_1) and final frame; menu state unchanged.
+- Testing Down-B sequence via press_buttons.
