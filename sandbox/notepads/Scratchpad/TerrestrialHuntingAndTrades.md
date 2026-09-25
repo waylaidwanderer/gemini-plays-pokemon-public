@@ -84,3 +84,9 @@
 - Hypothesis: Sequential alternating inputs A, B test whether confirming the active item followed immediately by cancel dismisses the menu or advances text.
 - Independent Variable: Sequential input ['A', 'B'].
 - Expected Falsifiable Outcome: Visual dismissal of the submenu or advancement to the storage dialogue.
+- Result: Falsified Turn 43825 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 49: Isolated Up Wrap Evaluation (Turn 43825)
+- Hypothesis: Single Up directional input tests whether the menu wraps from the top item (DEPOSIT) to the bottom item (CANCEL) or triggers boundary behavior.
+- Independent Variable: Isolated controller input ['Up'].
+- Expected Falsifiable Outcome: Visual movement of solid cursor arrow from DEPOSIT (row 11) to CANCEL (row 15).
