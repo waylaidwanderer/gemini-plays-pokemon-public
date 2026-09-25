@@ -89,7 +89,6 @@
 | Venomoth | 49 | 952 | 476 EXP | 119 EXP | 178 EXP | Verified Turn 43340 |
 | Parasect | 52 | 950 | 475 EXP | 118 EXP | 177 EXP | Verified Turns 43378, 43405 |
 | Raichu | 53 | 908 | 454 EXP | 113 EXP | 169 EXP | Verified Turn 43441 |
-| Ditto | 53 | 461 | ~230 EXP | ~57 EXP | ~85 EXP | Unverified Prediction (Awaiting encounter on 1F/B1F to verify base EXP integer division and EXP.ALL trainee share) |
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
