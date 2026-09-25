@@ -123,7 +123,7 @@
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43243]
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
   - Status: Poisoned
-  - HP: 176 / 264 [Verified Battle Screen Turn 43437]
+  - HP: 166 / 264 [Verified Battle Screen Turn 43438]
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 7/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -5187,7 +5187,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 12, Party Slot 4) - Current Lv 12 (2,059 EXP, needs 138 EXP for Lv 13), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 12, Party Slot 4) - Current Lv 12 (2,172 EXP, needs 25 EXP for Lv 13), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
