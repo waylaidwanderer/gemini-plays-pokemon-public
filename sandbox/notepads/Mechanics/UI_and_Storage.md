@@ -18,7 +18,7 @@
   - `STATS`
   - `CANCEL`
 - Pressing A on `DEPOSIT` confirms the deposit and stores the Pokémon into the active box.
-- Sub-Menu Dismissal via B (Empirically Restricted Scope): On Turn 31307 at Cinnabar Island with available PC box space, pressing B dismissed the deposit sub-menu. However, under constrained PC states, B does not universally dismiss the sub-menu, requiring explicit selection of CANCEL or box management.
+- Sub-Menu Dismissal via B: Empirically verified Turn 31307 at Cinnabar Island with available PC box space: pressing B dismissed the deposit sub-menu.
 
 ## PC Change Box Mechanics & Menu Hierarchy (Generation 1 Retail)
 - Selecting `CHANGE BOX` in Bill's PC does NOT immediately open the box list.
