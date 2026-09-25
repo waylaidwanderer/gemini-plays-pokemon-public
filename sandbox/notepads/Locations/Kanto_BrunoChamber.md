@@ -13,3 +13,9 @@
   - Team: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
   - Defeated Turn 24791 by Sheldon Lv 68 (flawless 216/216 HP, zero damage taken).
   - Northern exit doorway unlocked!
+
+## Rematch Defeat [Turn 42889]
+- Defeated by SHELDON (Blastoise Lv 75) solo in a flawless 5-OHKO sweep with Surf (zero damage taken, 241/241 HP).
+- DUX leveled to 31 (Agility declined; Cut/Fly intact).
+- Prize: ¥5,742.
+- Northern exit doorway unlocked.
