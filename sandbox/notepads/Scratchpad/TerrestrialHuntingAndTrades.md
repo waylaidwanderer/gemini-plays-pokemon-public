@@ -27,3 +27,13 @@
 - Empirical Findings across Protocols 1–38:
   - All standard controller inputs ('A', 'B', 'Start', 'Select', 'Up', 'Down', 'Left', 'Right') and multi-button permutations tested across Turns 43226–43750 yielded zero visual screen delta.
   - Storing PUFF in the PC is completely optional as the active party is 5/6 (or 3 active trainees/sweepers). Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
+
+## Test Protocol 39: Isolated Submenu Dismissal (Turn 43805)
+- Hypothesis: Single B input dismisses the DEPOSIT/STATS/CANCEL submenu to return focus to the party list.
+- Independent Variable: Isolated controller input ['B'].
+- Result: Falsified Turn 43806 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 40: Isolated Storage Confirmation (Turn 43806)
+- Hypothesis: Single A input confirms DEPOSIT on PUFF to initiate the storage routine or display a box capacity notice.
+- Independent Variable: Isolated controller input ['A'].
+- Expected Falsifiable Outcome: Screen transition displaying storage dialogue ('PUFF was stored in BOX 2.') or capacity notice ('The BOX is full.').
