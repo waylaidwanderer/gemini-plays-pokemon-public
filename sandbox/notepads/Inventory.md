@@ -25,10 +25,10 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 4: RATTATA (Nickname: RATTY) [Lv 16, Normal]
+- Slot 4: RATTATA (Nickname: RATTY) [Lv 17, Normal]
   - Status: Healthy
   - HP: 38 / 38 [Verified Party Screen Turn 43593]
-  - Stats: Attack 26, Defense 19, Speed 30, Special 13 [Verified Lv 16 Screen Turn 43581]
+  - Stats: Attack 27, Defense 19, Speed 32, Special 14 [Verified Lv 17 Screen Turn 43648]
   - Caught: Route 1 [Turn 43083] with Pok� Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
 
