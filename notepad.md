@@ -5182,7 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 15, Party Slot 4) - Current Lv 15 (3,989 EXP, needs 107 EXP for Lv 16), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43574]
+- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,122 EXP, needs 791 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43580]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5197,7 +5197,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~4,130 EXP to reach Lv 20 (~31 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43561].
+- Target: Rattata requires ~3,878 EXP to reach Lv 20 (~28 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43580].
 - Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 7/15) [Turn 43571], Ice Beam (PP 7/10) [Turn 43577]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
