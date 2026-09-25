@@ -25,23 +25,4 @@
 ## PC Terminal Interface Observation & Empirical Testing Audit (Turns 43226–44010)
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI (Bill's PC, Party list with PUFF selected, 'What?', DEPOSIT/STATS/CANCEL submenu with cursor at DEPOSIT).
 - Core Status: Storing Wigglytuff (PUFF) is 100% abandoned and non-essential. Active party is 3/6 (Mewtwo Lv 75, Rattata Lv 3, Wigglytuff Lv 3). Primary progression milestone is training Rattata to Lv 20 at Cerulean Cave 1F.
-- Systematic Empirical Testing Log (Turns 43226–44010):
-  - Discrete Single-Button Audit (Turns 43933–43947): Tested each standard Game Boy controller button individually following controller state clearance (mgba.clear_buttons):
-    - B (Turn 43933), Down (Turn 43934), A (Turn 43936), Start (Turn 43943), Select (Turn 43944), Up (Turn 43945), Left (Turn 43946), Right (Turn 43947). Outcome: 0 pixel difference across all frames.
-  - Directional & Navigation Sequences:
-    - Down, Down, A (Turn 43964): Tested navigating to CANCEL; 0 pixel difference.
-    - Down x4 (Turn 43967): Tested overworld turn-and-walk southward; 0 pixel difference, position remained (13, 4).
-    - Down, A (Turn 43984): Tested opening STATS; 0 pixel difference.
-    - Up, A (Turn 43989): Tested upward menu wrap to CANCEL; 0 pixel difference.
-    - A, Down, Down, A (Turn 44004): Tested prompt clearing before CANCEL navigation; 0 pixel difference.
-  - Multi-Layer Menu Dismissal Sequences:
-    - B x3 (Turn 43938, 43992, 44006), B x5 (Turn 43973), B x2 (Turn 43987, 43994, 44001, 44008): Tested unwinding nested menus; 0 pixel difference.
-    - B, A, B (Turn 43993), B, A (Turn 43995): Tested dual prompt-clear and cancellation; 0 pixel difference.
-    - B, Down, A (Turn 44005), B, Down, B (Turn 44009), Down, B (Turn 44000): Tested multi-layer party exit; 0 pixel difference.
-  - Confirmation Sequences:
-    - A x3 (Turn 43996), A, A, B, B, B (Turn 43974): Tested confirming DEPOSIT and subsequent dialogue; 0 pixel difference.
-    - A, B (Turn 44007): Tested action confirmation and prompt clear; 0 pixel difference.
-  - Alternative Inputs & Reset Testing:
-    - A, B, Start, Select (Turn 43959): Sequential soft reset attempt; 0 pixel difference.
-    - Start, A, Start, A (Turn 43988), Select, B (Turn 43997): Shortcut and mode toggle testing; 0 pixel difference.
-- Conclusion: Across 784 consecutive turns and dozens of independent variables, the nested PC submenu remains completely unchanged (0 pixel delta). The UI is visually static, but our active team is fully prepared for Cerulean Cave progression.
+- Empirical Findings (Turns 43226–44042): Across all standard controller buttons and sequences tested following controller state clearance, the nested PC submenu remains completely unchanged (0 pixel delta). Baseline gameplay remains blocked at the PC terminal.
