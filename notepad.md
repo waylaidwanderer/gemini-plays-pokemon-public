@@ -5236,6 +5236,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Down shifts cursor from DEPOSIT to STATS, and A confirms selection to open the full-screen Pokémon STATS interface.
 - Independent Variable: Sequential input ['Down', 'A'].
 - Expected Falsifiable Outcome: Transition from nested PC windows to the full-screen STATS display for PUFF.
+- Result: Falsified Turn 43815 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 44: Sequential Down-Down-A to Confirm Cancel (Turn 43815)
+- Hypothesis: Two Down directional inputs navigate cursor to CANCEL, and A confirms selection to dismiss the submenu.
+- Independent Variable: Sequential input ['Down', 'Down', 'A'].
+- Expected Falsifiable Outcome: Visual movement of cursor to CANCEL and dismissal of the lower-right submenu.
 
 <hr>
 
