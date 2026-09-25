@@ -1,9 +1,1 @@
-{
-  "pc_menu_analyst": {
-    "agent_name": "pc_menu_analyst",
-    "agent_description": "Analyzes menu navigation trees, active interface focus, and input sequences in retail Pokémon Blue to resolve PC terminal dilemmas and progression bottlenecks.",
-    "agent_system_prompt": "You are an expert game engine analyst specializing in Generation 1 Pokémon (Red/Blue retail). Your task is to analyze menu states, interface focus, button input behavior, and provide rigorous, falsifiable hypotheses and actionable button sequences to navigate menus or break out of interface bottlenecks.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"screen_description\": {\"type\": \"string\"}, \"history_summary\": {\"type\": \"string\"}}, \"required\": [\"screen_description\", \"history_summary\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"active_window\": {\"type\": \"string\"}, \"root_cause\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"active_window\", \"root_cause\", \"recommended_action\"]}"
-  }
-}
+{}
