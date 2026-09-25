@@ -5231,6 +5231,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether a sustained train of B cancellation inputs ('B'*5) directly clears debounce counter states to force top-level menu dismissal.
 - Independent Variable: Sequential input ['B', 'B', 'B', 'B', 'B'].
 - Expected Falsifiable Outcome: Visual transition dismissing the submenu back to the party list or Bill's PC menu.
+- Result: Falsified Turn 43692 with zero pixel delta.
+
+## Test Protocol 12: Cursor Row Oscillation (Turn 43693)
+- Hypothesis: Testing whether the submenu cursor oscillates between rows (Down to STATS, Up to DEPOSIT).
+- Independent Variable: Sequential input ['Down', 'Up'].
+- Expected Falsifiable Outcome: Visual movement of cursor to STATS then back to DEPOSIT across intermediate states.
 
 <hr>
 
