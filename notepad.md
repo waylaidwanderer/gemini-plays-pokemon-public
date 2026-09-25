@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
+- Money: ¥5,905
 
 - Pokédex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
 
@@ -5175,16 +5175,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Targets:
-  - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 4. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
+- Active Trainee: Rattata (#019 RATTY Lv 6, Party Slot 4) - Current Lv 6 (303 EXP), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
-- Completed Targets in Box 2:
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
-- Active Party Trainee:
-  - Rattata (#019 RATTY Lv 3, Party Slot 4) - Target Lv 20 for Raticate (#020)
 - Key Inventory:
   - LEAF STONE x2 (Bag Slot 9) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
   - POKé BALL x88 (Bag Slot 10).
@@ -5196,11 +5192,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## Active Transit & Battle Role Assignment
+## Active Battle Roles & Cave Training
 - Sweeper: Mewtwo (#150 OMEGA Lv 75, Party Slot 1) - Lead sweeper for Cerulean Cave 1F wild encounters.
-- Surfer: Blastoise (#009 SHELDON Lv 77, Party Slot 3) - Surf transit from Route 24 (8, 15) to Cerulean Cave mouth (4, 11).
-- Trainee: Rattata (#019 RATTY Lv 3, Party Slot 4) - Passive EXP.ALL recipient targeting Lv 20 for Raticate (#020).
-- Transit: Launch Surf South into canal at Route 24 (8, 15) -> (8, 16), flow down column 6 into Cerulean City canal, land on apron at (5, 12), enter Cerulean Cave at (4, 11).
+- Surfer: Blastoise (#009 SHELDON Lv 77, Party Slot 3) - Retains Surf and Strength.
+- Training Protocol: Patrol Row 14 (Cols 21..25) in Cerulean Cave 1F; Mewtwo sweeps encounters while Rattata receives passive EXP via EXP.ALL.
 
 <hr>
 
@@ -5209,17 +5204,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
 
 ## Evolutionary Stones & Commercial Availability
-- **Leaf Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100 [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
-- **Fire Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100 [Turn 33357]. Evolves Vulpix -> Ninetales, Growlithe -> Arcanine, Eevee -> Flareon.
-- **Water Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100 [Turn 34159]. Evolves Poliwhirl -> Poliwrath, Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
-- **Thunder Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100. Evolves Pikachu -> Raichu, Eevee -> Jolteon.
-- **Moon Stone:** NON-PURCHASABLE anywhere in Generation 1 retail. Exactly 5 finite overworld pickups exist in Kanto:
-  1. Mt. Moon 1F
-  2. Mt. Moon B2F
-  3. Rocket Hideout B2F
-  4. Silph Co. 5F
-  5. Pokémon Mansion B1F
-  Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
+- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales, Growlithe -> Arcanine, Eevee -> Flareon.
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath, Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases). Evolves Pikachu -> Raichu, Eevee -> Jolteon.
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
@@ -5228,6 +5217,5 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
 - **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
 - **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
-
 
 <hr>

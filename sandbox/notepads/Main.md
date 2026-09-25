@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
+- Money: ¥5,905
 
 - Pokédex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
 
