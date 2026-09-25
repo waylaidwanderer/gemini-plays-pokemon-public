@@ -120,24 +120,24 @@
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6) [Verified Empirically Turn 43243]
-- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
+## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
   - Status: Healthy
-  - HP: 136 / 269 [Verified Battle Screen Turn 43472]
-  - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
+  - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Surf, Strength, Blizzard, Bite
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
   - Stats: Attack 58, Defense 54, Speed 54, Special 51 [Verified Lv 35 Screen Turn 43432]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
-- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - Status: Healthy
-  - HP: 247 / 247 [Verified Turn 43243]
+  - HP: 136 / 269 [Verified Battle Screen Turn 43472]
+  - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Surf, Strength, Blizzard, Bite
+  - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 13, Normal]
   - Status: Healthy
   - HP: 32 / 32 [Verified Party Screen Turn 43476]
@@ -5199,7 +5199,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target: Rattata requires ~5,429 EXP to reach Lv 20 (~40 wild battles at ~135 EXP/battle via EXP.ALL).
 - Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 228 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
 - Current Offensive PP: Mewtwo OMEGA has Swift x2, Psychic x0 (Total: 2 attacks).
-- Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. Mewtwo's Swift is at <= 3 PP, triggering the transition: Sheldon will take over as lead sweeper immediately following the current battle.
+- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP]. 45 offensive attacks ready: Blizzard x5, Surf x15, Bite x25. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
   - When Mewtwo and Sheldon offensive PP drop to <= 3:
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
