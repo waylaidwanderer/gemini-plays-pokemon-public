@@ -330,7 +330,7 @@
 | Dodrio | 49 | 1,106 | 553 EXP | 133 EXP | 199 EXP | Verified Turn 43353 |
 | Hypno | 46 | 1,076 | 538 EXP | 131 EXP | 196 EXP | Verified Turn 43318 |
 | Magneton | 46 | 1,050 | 525 EXP | 131 EXP | 196 EXP | Verified Turn 43421 |
-| Kadabra | 49 | 1,008 | ~504 EXP | ~126 EXP | ~189 EXP | Unverified Prediction |
+| Kadabra | 49 | 1,008 | 504 EXP | 126 EXP | 189 EXP | Verified Turn 43516 |
 | Venomoth | 49 | 952 | 476 EXP | 119 EXP | 178 EXP | Verified Turn 43340 |
 | Parasect | 52 | 950 | 475 EXP | 118 EXP | 177 EXP | Verified Turns 43378, 43405 |
 | Raichu | 53 | 908 | 454 EXP | 113 EXP | 169 EXP | Verified Turn 43441 |
@@ -5181,7 +5181,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 14, Party Slot 4) - Current Lv 14 (2,936 EXP, needs 439 EXP for Lv 15), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43509]
+- Active Trainee: Rattata (#019 RATTY Lv 14, Party Slot 4) - Current Lv 14 (3,062 EXP, needs 313 EXP for Lv 15), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43516]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
