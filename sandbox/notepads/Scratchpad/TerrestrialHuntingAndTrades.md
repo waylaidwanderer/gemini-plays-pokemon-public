@@ -2,7 +2,7 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 9, Party Slot 4) - Current Lv 9 (972 EXP, needs 28 EXP for Lv 10), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 10, Party Slot 4) - Current Lv 10 (1,110 EXP, needs 221 EXP for Lv 11), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -17,8 +17,8 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~7,280 EXP to reach Lv 20 (~50-55 wild battles at ~135 EXP/battle via EXP.ALL).
-- Current Offensive PP: Mewtwo OMEGA has Swift x20, Psychic x2 (Total: 22 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
+- Target: Rattata requires ~6,890 EXP to reach Lv 20 (~50 wild battles at ~135 EXP/battle via EXP.ALL).
+- Current Offensive PP: Mewtwo OMEGA has Swift x20, Psychic x1 (Total: 21 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
 - PP Exhaustion Tripwire:
   - When Mewtwo's offensive PP drops to <= 3 (Psychic 0, Swift <= 3):
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.

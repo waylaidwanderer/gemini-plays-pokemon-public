@@ -13,7 +13,7 @@
   - HP: 264 / 264
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 34, Normal/Flying]
   - Status: Healthy
   - HP: 87 / 87 [Verified Turn 43243]
@@ -24,9 +24,9 @@
   - HP: 247 / 247 [Verified Turn 43243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Surf, Strength, Blizzard, Bite
-- Slot 4: RATTATA (Nickname: RATTY) [Lv 9, Normal]
+- Slot 4: RATTATA (Nickname: RATTY) [Lv 10, Normal]
   - Status: Healthy
-  - Stats: Attack 16, Defense 12, Speed 19, Special 9 [Verified Lv 9 Screen Turn 43342]
+  - Stats: Attack 18, Defense 13, Speed 20, Special 10 [Verified Lv 10 Screen Turn 43363]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack
 
