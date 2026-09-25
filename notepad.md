@@ -126,7 +126,7 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 2/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 34, Normal/Flying]
   - Status: Healthy
-  - HP: ~85 / ~85 [Grew to Lv 34 Turn 42985]
+  - HP: 87 / 87 [Verified Turn 43003]
   - Stats: Attack 56, Defense 52, Speed 52, Special 49 [Verified Lv 34 Screen Turn 42985]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
