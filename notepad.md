@@ -5206,6 +5206,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Cancel Submenu Navigation Test (Turn 44099): Theoretical hypothesis was that navigating cursor to CANCEL via Down twice and confirming with A would dismiss submenu. Sent ['Down', 'Down', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across all three intermediate frames (turn_44100_0, turn_44100_1, turn_44100_2) and final frame (Turn 44102); menu state completely unchanged.
 
 - Discrete Left Input Test (Turn 44103): Sent single discrete 'Left' input via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate (turn_44104_0) and final frame; menu state unchanged.
+- Discrete Right Input Test (Turn 44104): Sent single discrete 'Right' input via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate (turn_44105_0) and final frame; menu state unchanged. All 8 standard controller buttons have now been systematically tested.
 
 <hr>
 
