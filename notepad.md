@@ -140,7 +140,7 @@
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 16, Normal]
   - Status: Healthy
-  - HP: 36 / 36 [Verified Party Screen Turn 43564]
+  - HP: 36 / 36 [Lv 15; Lv 16 party inspection pending]
   - Stats: Attack 26, Defense 19, Speed 30, Special 13 [Verified Lv 16 Screen Turn 43581]
   - Caught: Route 1 [Turn 43083] with Pok� Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
@@ -5182,7 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,122 EXP, needs 791 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43580]
+- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,253 EXP, needs 660 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43591]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5190,6 +5190,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
 
 ## Stone Evolution Strategy & Movepool Hypotheses [Unverified]
+- Unverified Evolutionary Stone Targets (Awaiting Empirical Testing):
+  - Leaf Stone: Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
+  - Fire Stone: Growlithe -> Arcanine, Eevee -> Flareon.
+  - Water Stone: Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
+  - Moon Stone: Nidorino -> Nidoking, Clefairy -> Clefable.
 - In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
 - Pre-evolutions must reach key levels before stone application if specific moves are needed for battle utility:
   - Weepinbell: Delay evolution until Level 38 for Razor Leaf.
@@ -5197,7 +5202,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~3,878 EXP to reach Lv 20 (~28 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43580].
+- Target: Rattata requires ~3,747 EXP to reach Lv 20 (~27 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43591].
 - Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 14/15) [Turn 43515], Surf (PP 6/15) [Turn 43587], Ice Beam (PP 7/10) [Turn 43577]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
@@ -5215,11 +5220,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
 
 ## Evolutionary Stones & Commercial Availability
-- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor [Unverified Hypotheses].
-- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales [Verified Turn 33357]; Growlithe -> Arcanine, Eevee -> Flareon [Unverified Hypotheses].
-- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath [Verified Turn 34159]; Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon [Unverified Hypotheses].
+- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046].
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales [Verified Turn 33357].
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath [Verified Turn 34159].
 - **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]). Evolves Pikachu -> Raichu [Verified Turn 32198], Eevee -> Jolteon [Verified Turn 31098].
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen [Verified Turn 31235], Jigglypuff -> Wigglytuff [Verified Turn 43213]; Nidorino -> Nidoking, Clefairy -> Clefable [Unverified Hypotheses].
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen [Verified Turn 31235], Jigglypuff -> Wigglytuff [Verified Turn 43213].
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
