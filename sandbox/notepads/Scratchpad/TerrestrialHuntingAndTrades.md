@@ -44,3 +44,5 @@
 - Testing R and L buttons to complete coverage across all 10 schema enum values.
 - R-L Buttons Outcome (Turn 44111): Sent ['R', 'L'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44112_0, turn_44112_1) and final frame; menu state unchanged. All 10 schema enum values have now been tested.
 - Double B Sequence Test (Turn 44112): Testing ['B', 'B'] via press_buttons.
+- Double B Sequence Outcome (Turn 44112): Sent ['B', 'B'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44113_0, turn_44113_1) and final frame; menu state unchanged.
+- Testing Select-Start sequence via press_buttons.
