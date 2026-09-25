@@ -60,3 +60,9 @@
 - Hypothesis: Directly navigating to CANCEL via two discrete Down inputs followed by an A confirmation (['Down', 'Down', 'A']) executes the submenu's native CANCEL routine, dismissing the submenu back to the party list.
 - Independent Variable: Sequential input ['Down', 'Down', 'A'].
 - Expected Falsifiable Outcome: Submenu closes, restoring solid cursor focus to the party list.
+- Result: Falsified Turn 43686 with zero pixel delta.
+
+## Test Protocol 6: Party List Upward Scroll (Turn 43687)
+- Hypothesis: Testing whether Up inputs scroll the underlying party list upward to display lead party members.
+- Independent Variable: Sequential input ['Up', 'Up', 'Up'].
+- Expected Falsifiable Outcome: Visual scroll of party list to show DUX/SHELDON.
