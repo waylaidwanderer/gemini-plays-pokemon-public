@@ -126,10 +126,10 @@
   - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 13/15) [Verified Turn 43607], Surf (PP 6/15) [Verified Turn 43587], Ice Beam (PP 6/10) [Verified Turn 43598]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 36, Normal/Flying]
   - Status: Healthy
-  - HP: 89 / 89 [Verified Party Screen Turn 43443]
-  - Stats: Attack 58, Defense 54, Speed 54, Special 51 [Verified Lv 35 Screen Turn 43432]
+  - HP: 89 / 89 [Lv 35 Party Screen Turn 43443; Lv 36 uninspected]
+  - Stats: Attack 60, Defense 56, Speed 55, Special 52 [Verified Lv 36 Screen Turn 43610]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
@@ -5182,7 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,391 EXP, needs 522 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43601]
+- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,517 EXP, needs 396 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43611]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
