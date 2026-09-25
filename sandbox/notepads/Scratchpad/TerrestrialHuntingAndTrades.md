@@ -22,5 +22,4 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## PC Terminal Navigation & Submenu Dismissal
-- Submenu State: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Active submenu is DEPOSIT / STATS / CANCEL with cursor initializing at DEPOSIT.
 - Dismissal Protocol: B-cancel is inactive on this 3-option choice submenu. Dismissal requires navigating to CANCEL (Down x2) and confirming with A.
