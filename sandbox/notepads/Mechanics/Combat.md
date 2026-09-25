@@ -56,6 +56,7 @@
 - **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
+  - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
   - When a single lead Pokémon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
   - EXP.ALL distributes the remaining half among all party members: `s_expall = floor(floor(Total_EXP / 2) / N)`.
   - Traded Pokémon receive: `s_expall + floor(s_expall / 2)`.
@@ -86,7 +87,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sandslash | 52 | 1,188 | 594 | 297 + 74 = 371 EXP | 74 + 37 = 111 EXP | 297 + 44 = 341 EXP |
 | Golbat | 46 | 1,104 | 552 | 276 + 65 = 341 EXP | 65 + 32 = 97 EXP | 276 + 46 = 322 EXP |
-| Dodrio | 49 | 1,092 | 546 | 273 + 63 = 336 EXP | 63 + 31 = 94 EXP | 273 + 42 = 315 EXP |
+| Dodrio | 49 | 1,106 (Observed) | 553 | 276 + 66 = 342 EXP | 133 + 66 = 199 EXP | 276 + 44 = 320 EXP |
 | Hypno | 46 | 1,076 | 538 | 269 + 65 = 334 EXP | 65 + 32 = 97 EXP | 269 + 39 = 308 EXP |
 | Magneton | 46 | 1,050 | 525 | 262 + 65 = 327 EXP | 65 + 32 = 97 EXP | 262 + 39 = 301 EXP |
 | Kadabra | 49 | 1,008 | 504 | 252 + 63 = 315 EXP | 63 + 31 = 94 EXP | 252 + 42 = 294 EXP |

@@ -1,9 +1,1 @@
-{
-  "exp_and_resource_tracker": {
-    "agent_name": "exp_and_resource_tracker",
-    "agent_description": "Calculates party EXP pacing, remaining battles to evolution milestones, and tracks party PP expenditure and backup options.",
-    "agent_system_prompt": "You are a mathematical and resource planning assistant for Pokémon Blue. Given trainee Pokémon level, current EXP, target evolution level, and party moveset PP, you calculate exact remaining EXP, estimated battle counts against Cerulean Cave encounter tables, and optimal backup sweeper transitions.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"trainee_species\": {\"type\": \"string\"}, \"current_level\": {\"type\": \"integer\"}, \"current_exp\": {\"type\": \"integer\"}, \"target_level\": {\"type\": \"integer\"}, \"lead_sweeper_pp\": {\"type\": \"integer\"}, \"backup_sweeper_pp\": {\"type\": \"integer\"}}, \"required\": [\"trainee_species\", \"current_level\", \"current_exp\", \"target_level\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"exp_needed_next_level\": {\"type\": \"integer\"}, \"exp_needed_target\": {\"type\": \"integer\"}, \"estimated_battles_remaining\": {\"type\": \"integer\"}, \"lead_pp_sufficient\": {\"type\": \"boolean\"}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"exp_needed_next_level\", \"exp_needed_target\", \"estimated_battles_remaining\", \"lead_pp_sufficient\", \"recommendation\"]}"
-  }
-}
+{}
