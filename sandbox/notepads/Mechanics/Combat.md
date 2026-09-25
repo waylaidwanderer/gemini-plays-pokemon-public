@@ -101,4 +101,5 @@
   - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
+  - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.

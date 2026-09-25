@@ -148,7 +148,7 @@
 - Slot 8: EXP.ALL x1
 - Slot 9: MOON STONE x1
 - Slot 10: LEAF STONE x2 [Purchased Turn 43046 at Celadon Dept Store 4F]
-- Slot 11: POKé BALL x99 [Purchased Turn 43065 at Viridian Poké Mart]
+- Slot 11: POKé BALL x98 [1 used to catch Rattata Turn 43083]
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -345,6 +345,7 @@
   - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
+  - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
 
 <hr>
