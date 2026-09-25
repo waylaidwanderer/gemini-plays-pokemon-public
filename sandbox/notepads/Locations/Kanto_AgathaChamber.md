@@ -1,7 +1,7 @@
 # Indigo Plateau - Agatha's Chamber (Elite Four Room 3)
 
 ## Overview & Geography
-- Third chamber of the Pok�mon League Elite Four gauntlet.
+- Third chamber of the Pokémon League Elite Four gauntlet.
 - Entered from Bruno's chamber via northern doorway at (4..5, 0) [Turn 24795].
 - Player arrives at (4, 11) and auto-walks forward to (4, 5) facing North. Entrance gate locks behind player at (3, 8)-(3, 9).
 - Room layout: Tombstone/graveyard arena surrounded by headstones, open central corridor cols 4-5.
@@ -9,7 +9,7 @@
 
 ## Elite Four Member
 - Agatha: Located at (5, 2) facing South.
-  - Specializes in Ghost and Poison Pok�mon.
+  - Specializes in Ghost and Poison Pokémon.
   - Team: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60.
   - Defeated Turn 24849 by Sheldon Lv 68 (194/216 HP).
   - Northern exit doorway unlocked!
