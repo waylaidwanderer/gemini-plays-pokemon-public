@@ -151,3 +151,9 @@
 - Hypothesis: Testing whether B cancels submenu before Left targets party list, Down targets CANCEL, and A confirms dismissal.
 - Independent Variable: Sequential input ['B', 'Left', 'Down', 'A'].
 - Expected Falsifiable Outcome: Visual dismissal of submenu and parent party list back to Bill's PC.
+- Result: Falsified Turn 43709 with zero pixel delta.
+
+## Test Protocol 29: Dismissal & Upward Traversal (Turn 43710)
+- Hypothesis: Testing whether B cancels submenu before Up targets RATTY on party list and A confirms.
+- Independent Variable: Sequential input ['B', 'Up', 'A'].
+- Expected Falsifiable Outcome: Visual movement of party cursor to RATTY or submenu dismissal.
