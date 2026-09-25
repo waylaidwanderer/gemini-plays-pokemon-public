@@ -5248,6 +5248,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Three sequential B inputs provide continuous cancel polling across multiple engine frame intervals to ensure submenu dismissal.
 - Independent Variable: Sequential input ['B', 'B', 'B'].
 - Expected Falsifiable Outcome: Visual dismissal of the lower-right DEPOSIT/STATS/CANCEL window.
+- Result: Falsified Turn 43819 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 46: Sequential Double A Storage Confirmation (Turn 43819)
+- Hypothesis: Two consecutive A inputs confirm DEPOSIT and advance the initial storage dialogue.
+- Independent Variable: Sequential input ['A', 'A'].
+- Expected Falsifiable Outcome: Screen transition displaying storage dialogue ('PUFF was stored in BOX 2.') or capacity notice ('The BOX is full.').
 
 <hr>
 
