@@ -97,3 +97,9 @@
 - Hypothesis: Testing whether alternating sequence ['A', 'B'] confirms DEPOSIT selection and dismisses subsequent dialogue.
 - Independent Variable: Sequential input ['A', 'B'].
 - Expected Falsifiable Outcome: Screen transition displaying storage dialogue or returning to parent menu.
+- Result: Falsified Turn 43700 with zero pixel delta.
+
+## Test Protocol 20: Reset-Navigate-Confirm (Turn 43701)
+- Hypothesis: Testing whether leading B cancels lingering modal state before Down shifts focus to STATS and A confirms.
+- Independent Variable: Sequential input ['B', 'Down', 'A'].
+- Expected Falsifiable Outcome: Visual movement of cursor to STATS or transition to stats display.
