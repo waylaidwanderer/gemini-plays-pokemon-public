@@ -20,7 +20,7 @@
 - Target: Rattata requires ~5,429 EXP to reach Lv 20 (~40 wild battles at ~135 EXP/battle via EXP.ALL).
 - Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 228 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
 - Current Offensive PP: Mewtwo OMEGA has Swift x2, Psychic x0 (Total: 2 attacks).
-- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP]. 45 offensive attacks ready: Blizzard x5, Surf x15, Bite x25. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP]. 55 offensive attacks ready: Double-Edge (15), Body Slam (15), Surf (15), Ice Beam (10) [Verified Turn 43490]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
   - When Mewtwo and Sheldon offensive PP drop to <= 3:
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.

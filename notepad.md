@@ -125,7 +125,7 @@
   - Status: Healthy
   - HP: 247 / 247 [Verified Turn 43479]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Surf, Strength, Blizzard, Bite
+  - Moves: Double-Edge (PP 15/15), Body Slam, Surf, Ice Beam [Verified Screen Turn 43490]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
@@ -5199,7 +5199,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target: Rattata requires ~5,429 EXP to reach Lv 20 (~40 wild battles at ~135 EXP/battle via EXP.ALL).
 - Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 228 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
 - Current Offensive PP: Mewtwo OMEGA has Swift x2, Psychic x0 (Total: 2 attacks).
-- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP]. 45 offensive attacks ready: Blizzard x5, Surf x15, Bite x25. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 247/247 HP]. 55 offensive attacks ready: Double-Edge (15), Body Slam (15), Surf (15), Ice Beam (10) [Verified Turn 43490]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
   - When Mewtwo and Sheldon offensive PP drop to <= 3:
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
@@ -5209,7 +5209,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Lead Status: Mewtwo is Healthy (poison cured by wild Golbat's Haze Turn 43451; HP 151/269 at Lv 76).
 - Recover Threshold: If Mewtwo's HP drops to <= 100 HP , select Recover (Move Slot 4, PP 20/20) during battle to restore 132 HP back to healthy levels.
 - Lead Sweeper Swap Threshold: If Mewtwo's HP drops to <= 80 HP or Swift PP drops to <= 3, swap party leader to Sheldon (Blastoise Lv 77, 247/247 HP, healthy, 45 offensive moves: Blizzard x5, Surf x15, Bite x25).
-
 
 <hr>
 
