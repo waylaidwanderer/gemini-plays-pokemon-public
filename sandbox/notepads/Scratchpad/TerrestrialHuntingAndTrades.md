@@ -10,3 +10,4 @@
   - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
 - Viridian Forest Wild Encounter 1 [Turn 42694]: Weedle Lv 3 encountered at (18, 37). Balls 1-3 broke free after 3 shakes; CAUGHT on Ball 4 [Turn 42724]. Nickname: NEEDLE confirmed. 5 Poké Balls remaining.
 - Viridian Forest Wild Encounter 2 [Turn 42734]: Metapod Lv 4 encountered at (18, 40) - FLED (conserving balls for Caterpie).
+- Viridian Forest Wild Encounter 3 [Turn 42742]: Metapod Lv 6 encountered at (22, 40) - FLED (conserving balls for Caterpie).
