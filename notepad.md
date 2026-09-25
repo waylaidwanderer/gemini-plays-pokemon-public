@@ -4311,7 +4311,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Indigo Plateau - Bruno's Chamber (Elite Four Room 2)
 
 ## Overview & Geography
-- Second chamber of the Pok�mon League Elite Four gauntlet.
+- Second chamber of the Pokémon League Elite Four gauntlet.
 - Entered from Lorelei's chamber via northern doorway at (4..5, 0) [Turn 24765].
 - Player arrives at (4, 11) and auto-walks forward to (4, 5) facing North. Entrance gate locks behind player.
 - Room layout: Stone/rock fighting arena surrounded by large boulder formations.
@@ -4319,7 +4319,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Elite Four Member
 - Bruno: Located at (5, 2) facing South.
-  - Specializes in Fighting and Rock Pok�mon.
+  - Specializes in Fighting and Rock Pokémon.
   - Team: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
   - Defeated Turn 24791 by Sheldon Lv 68 (flawless 216/216 HP, zero damage taken).
   - Northern exit doorway unlocked!
@@ -4337,7 +4337,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Indigo Plateau - Agatha's Chamber (Elite Four Room 3)
 
 ## Overview & Geography
-- Third chamber of the Pok�mon League Elite Four gauntlet.
+- Third chamber of the Pokémon League Elite Four gauntlet.
 - Entered from Bruno's chamber via northern doorway at (4..5, 0) [Turn 24795].
 - Player arrives at (4, 11) and auto-walks forward to (4, 5) facing North. Entrance gate locks behind player at (3, 8)-(3, 9).
 - Room layout: Tombstone/graveyard arena surrounded by headstones, open central corridor cols 4-5.
@@ -4345,7 +4345,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Elite Four Member
 - Agatha: Located at (5, 2) facing South.
-  - Specializes in Ghost and Poison Pok�mon.
+  - Specializes in Ghost and Poison Pokémon.
   - Team: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60.
   - Defeated Turn 24849 by Sheldon Lv 68 (194/216 HP).
   - Northern exit doorway unlocked!
