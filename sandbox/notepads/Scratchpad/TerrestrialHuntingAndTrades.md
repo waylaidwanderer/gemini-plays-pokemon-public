@@ -85,3 +85,9 @@
 - Hypothesis: Testing whether Left directional input transfers focus out of the right submenu to parent menu before B cancellation.
 - Independent Variable: Sequential input ['Left', 'B'].
 - Expected Falsifiable Outcome: Visual movement of cursor to parent menu or submenu dismissal.
+- Result: Falsified Turn 43698 with zero pixel delta.
+
+## Test Protocol 18: Horizontal Oscillation Evaluation (Turn 43699)
+- Hypothesis: Testing whether horizontal inputs oscillate cursor focus between windows (Left then Right).
+- Independent Variable: Sequential input ['Left', 'Right'].
+- Expected Falsifiable Outcome: Visual movement of cursor between columns across intermediate states.
