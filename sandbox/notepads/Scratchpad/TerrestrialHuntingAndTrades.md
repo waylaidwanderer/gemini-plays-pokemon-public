@@ -2,7 +2,7 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 10, Party Slot 4) - Current Lv 10 (1,248 EXP, needs 83 EXP for Lv 11), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 11, Party Slot 4) - Current Lv 11 (1,366 EXP, needs 362 EXP for Lv 12), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -17,10 +17,11 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~6,752 EXP to reach Lv 20 (~49 wild battles at ~135 EXP/battle via EXP.ALL).
-- Current Offensive PP: Mewtwo OMEGA has Swift x19, Psychic x0 (Total: 19 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
+- Target: Rattata requires ~6,634 EXP to reach Lv 20 (~48 wild battles at ~135 EXP/battle via EXP.ALL).
+- Current Offensive PP: Mewtwo OMEGA has Swift x19, Psychic x0 (Total: 19 attacks).
+- Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. If Mewtwo's Swift runs low (<= 3 PP), Sheldon can take over as lead sweeper to sustain grinding without retreating.
 - PP Exhaustion Tripwire:
-  - When Mewtwo's offensive PP drops to <= 3 (Psychic 0, Swift <= 3):
+  - When Mewtwo and Sheldon offensive PP drop to <= 3:
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
-    2. Otherwise: Execute 3-step southern egress from (25, 14) stepping Down x3 to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
-- Patrol Route: Row 14 (Cols 21..25) pacing.
+    2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
+- Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).

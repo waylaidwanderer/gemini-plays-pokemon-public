@@ -5,7 +5,6 @@
 - East: Mt. Moon.
 
 ## Landmarks & Layout
-- Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Western Entrance (Rows 8..11, Cols 0..1): 4-tile wide open ground passage connecting to Pewter City, bounded by solid mountain cliff walls to the north (rows 6..7) and south (rows 12..14).
 - Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via clear corridor at (9, 8..9).
 - Terraces & Ledges:
