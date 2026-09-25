@@ -125,7 +125,7 @@
   - Status: Healthy
   - HP: 239 / 247 [Verified Turn 43644]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 9/15) [Verified Turn 43645], Surf (PP 5/15) [Verified Turn 43628], Ice Beam (PP 5/10) [Verified Turn 43653]
+  - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 8/15) [Verified Turn 43660], Surf (PP 5/15) [Verified Turn 43628], Ice Beam (PP 5/10) [Verified Turn 43653]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 36, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Lv 35 Party Screen Turn 43443; Lv 36 uninspected]
@@ -5182,7 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 17, Party Slot 4) - Current Lv 17 (5,164 EXP, needs 668 EXP for Lv 18), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43653]
+- Active Trainee: Rattata (#019 RATTY Lv 17, Party Slot 4) - Current Lv 17 (5,283 EXP, needs 549 EXP for Lv 18), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43660]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5202,7 +5202,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~2,836 EXP to reach Lv 20 (~21 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43653].
+- Target: Rattata requires ~2,717 EXP to reach Lv 20 (~20 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43660].
 - Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 239/247 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (239/247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:

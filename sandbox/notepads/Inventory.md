@@ -8,9 +8,10 @@
 - Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
-- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
-  - HP: 239 / 247 [Verified Turn 43644]
+  - HP: 243 / 251 [Verified Turn 43661]
+  - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 8/15) [Verified Turn 43660], Surf (PP 5/15) [Verified Turn 43628], Ice Beam (PP 5/10) [Verified Turn 43653]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 36, Normal/Flying]
