@@ -5232,6 +5232,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expected Falsifiable Outcome:
   - Positive: The solid cursor moves from DEPOSIT to CANCEL, yielding a non-zero pixel delta.
   - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that upward directional menu navigation is active on this interface.
+- Empirical Outcome (Turn 44056): Single 'Up' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
+- Conclusion: Hypothesis falsified. Upward directional menu navigation is not active on this interface.
 
 <hr>
 
