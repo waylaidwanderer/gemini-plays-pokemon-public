@@ -5228,12 +5228,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   5. Pokémon Mansion B1F
   Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
 
-## Movepool Truncation & Stone Evolution Timing [Unverified Hypotheses - Pending Verification]
-- In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
-- Pre-evolutions must reach key levels before stone application if specific moves are needed for battle utility:
-  - Weepinbell: Delay evolution until Level 38 for Razor Leaf (Victreebel learns no level-up moves).
-  - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
-  - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
-- Pokédex-Only Speed Strategy: When capturing Pokémon solely for Pokédex registration where battle movesets are irrelevant, immediate stone application upon capture is optimal to minimize training time.
+## Verified Empirical Stone Evolutions (Expedition Proof of Work)
+- **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
+- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon Pokémon Center.
+- **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
+- **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
+- **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
+- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
+
 
 <hr>
