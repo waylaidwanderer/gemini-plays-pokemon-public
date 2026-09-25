@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥29,905 [Calculated from 5-battle rematch gauntlet; Trainer Card audit pending post-credits]
+- Money: ¥29,905 [Empirically verified on Hall of Fame Trainer Card Turn 42995]
 
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
@@ -114,7 +114,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥29,905 [Calculated from prize rewards (+¥5544, +¥5742, +¥5940, +¥6138, +¥6435); Trainer Card audit pending post-credits]
+- Money: ¥29,905 [Empirically verified on Hall of Fame Trainer Card Turn 42995]
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
@@ -5183,7 +5183,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - SHELDON (Blastoise Lv 77, Water, HP 12/247): Double-Edge (15/15 PP), Body Slam (9/15 PP), Surf (2/15 PP), Ice Beam (2/10 PP).
   - DUX (Farfetch'd Lv 34, Normal/Flying, HP ~85/~85): Cut (30/30 PP), Fly (15/15 PP), Sand-Attack (15/15 PP), Leer (30/30 PP).
   - OMEGA (Mewtwo Lv 75, Psychic, HP 50/264 PAR): Swift (20/20 PP), Psychic (5/10 PP), Barrier (30/30 PP), Recover (20/20 PP).
-- Wallet Status: ¥29,905 calculated from battle payouts (+¥5,544, +¥5,742, +¥5,940, +¥6,138, +¥6,435).
+- Wallet Status: ¥29,905 [Empirically verified on Hall of Fame Trainer Card Turn 42995].
 - Post-Hall of Fame Protocol: View Trainer Card immediately post-credits to empirically audit wallet total.
 - Expedition 16 Next Steps:
   1. Spawning at Pallet Town house.

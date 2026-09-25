@@ -4,7 +4,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥29,905 [Calculated from 5-battle rematch gauntlet; Trainer Card audit pending post-credits]
+- Money: ¥29,905 [Empirically verified on Hall of Fame Trainer Card Turn 42995]
 
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
