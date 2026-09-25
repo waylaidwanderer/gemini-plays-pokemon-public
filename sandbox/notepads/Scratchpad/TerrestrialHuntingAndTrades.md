@@ -31,3 +31,8 @@
 - Empirical Findings across Protocols 1–29:
   - All standard controller inputs ('A', 'B', 'Start', 'Select', 'Up', 'Down', 'Left', 'Right') and multi-button permutations (directional chains, confirm-cancel alternations, reset sequences) tested under explicit hypotheses yielded zero visual screen delta across intermediate and final states.
   - Storing PUFF in the PC is completely optional as the active party is 5/6. Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
+
+## Test Protocol 30: Isolated Confirmation Evaluation (Turn 43741)
+- Hypothesis: Testing whether an isolated A input on DEPOSIT executes the storage routine to clear the nested submenu.
+- Independent Variable: Isolated single input ['A'].
+- Expected Falsifiable Outcome: Screen transition displaying storage dialogue or updating menu state.
