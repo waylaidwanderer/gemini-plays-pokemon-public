@@ -140,9 +140,9 @@
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 17, Normal]
   - Status: Healthy
-  - HP: 38 / 38 [Verified Party Screen Turn 43593]
+  - HP: Uninspected at Lv 17 (38/38 at Lv 16 [Turn 43593])
   - Stats: Attack 27, Defense 19, Speed 32, Special 14 [Verified Lv 17 Screen Turn 43648]
-  - Caught: Route 1 [Turn 43083] with Pok� Ball
+  - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
 
 ## Bag Items (10 / 20 Slots Occupied)
@@ -5182,7 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 17 (5,026 EXP, needs 806 EXP for Lv 18), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43645]
+- Active Trainee: Rattata (#019 RATTY Lv 17, Party Slot 4) - Current Lv 17 (5,026 EXP, needs 806 EXP for Lv 18), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43645]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5203,15 +5203,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~2,974 EXP to reach Lv 20 (~22 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43645].
-- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 239/247 HP, healthy]. Verified Moves: Double-Edge (PP 15/15) [Turn 43490], Body Slam (PP 9/15) [Turn 43645], Surf (PP 5/15) [Turn 43628], Ice Beam (PP 6/10) [Turn 43598]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
-- Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
+- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 239/247 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (239/247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
   - When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or Surf <= 3):
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
     2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
 - Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).
 ## Health Management & Overworld Status Damage Protocol
-- Sweeper Health Protocol: If Sheldon's HP drops below 80 HP, switch lead to Mewtwo or exit cave to heal at Cerulean Pok�mon Center.
+- Sweeper Health Protocol: If Sheldon's HP drops below 80 HP, switch lead to Mewtwo or exit cave to heal at Cerulean Pokémon Center.
 
 <hr>
 
@@ -5221,10 +5221,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Evolutionary Stones & Commercial Availability
 - **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046].
-- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales [Verified Turn 33357].
-- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath [Verified Turn 34159].
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]). Evolves Pikachu -> Raichu [Verified Turn 32198], Eevee -> Jolteon [Verified Turn 31098].
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen [Verified Turn 31235], Jigglypuff -> Wigglytuff [Verified Turn 43213].
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F.
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
