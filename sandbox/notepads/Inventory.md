@@ -101,5 +101,5 @@
     - Jolteon (VEE Lv 26)
     - Golduck (MIGRAINE Lv 33)
     - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: Occupancy Unverified. Previously caught/stored candidates include Magmar (Turn 33046), Pidgey (Turn 42625), Kakuna (Turn 42626), Bellsprout (Turn 42628), Weedle (Turn 42784), Caterpie (Turn 42786), plus wild catches since Turn 31744 (Tentacool, Poliwag, Pikachu, Muk, Grimer, Koffing, Vulpix). Box 2 may be at or near full capacity (20/20).
+- Box 2: [Unverified Hypothesis] Exact occupancy unverified without empirical audit via CHANGE BOX. Stored candidates include Magmar (Turn 33046), Pidgey (Turn 42625), Kakuna (Turn 42626), Bellsprout (Turn 42628), Weedle (Turn 42784), Caterpie (Turn 42786), plus wild catches since Turn 31744 (Tentacool, Poliwag, Pikachu, Muk, Grimer, Koffing, Vulpix). Speculated capacity near 20/20 remains unconfirmed.
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
