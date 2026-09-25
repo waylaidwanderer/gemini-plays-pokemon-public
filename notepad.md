@@ -5327,6 +5327,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether Up then Down directional input resets cursor polling state on DEPOSIT before asserting A confirmation.
 - Independent Variable: Sequential input ['Up', 'Down', 'A'].
 - Expected Falsifiable Outcome: Visual movement of cursor or execution of DEPOSIT routine.
+- Result: Falsified Turn 43708 with zero pixel delta.
+
+## Test Protocol 28: Full Cascade Dismissal Sequence (Turn 43709)
+- Hypothesis: Testing whether B cancels submenu before Left targets party list, Down targets CANCEL, and A confirms dismissal.
+- Independent Variable: Sequential input ['B', 'Left', 'Down', 'A'].
+- Expected Falsifiable Outcome: Visual dismissal of submenu and parent party list back to Bill's PC.
 
 <hr>
 
