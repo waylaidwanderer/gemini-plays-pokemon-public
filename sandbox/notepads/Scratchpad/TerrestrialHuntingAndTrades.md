@@ -72,3 +72,9 @@
 - Hypothesis: Two consecutive A inputs confirm DEPOSIT and advance the initial storage dialogue.
 - Independent Variable: Sequential input ['A', 'A'].
 - Expected Falsifiable Outcome: Screen transition displaying storage dialogue ('PUFF was stored in BOX 2.') or capacity notice ('The BOX is full.').
+- Result: Falsified Turn 43821 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 47: Alternating Cancel-Confirm Input (Turn 43821)
+- Hypothesis: Sequential alternating inputs B, A test whether a cancel-confirm cycle clears an active prompt latch and executes menu selection.
+- Independent Variable: Sequential input ['B', 'A'].
+- Expected Falsifiable Outcome: Visual dismissal of the submenu or advancement to the storage dialogue.
