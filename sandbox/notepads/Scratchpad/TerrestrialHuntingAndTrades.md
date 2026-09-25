@@ -66,3 +66,9 @@
 - Hypothesis: Testing whether Up inputs scroll the underlying party list upward to display lead party members.
 - Independent Variable: Sequential input ['Up', 'Up', 'Up'].
 - Expected Falsifiable Outcome: Visual scroll of party list to show DUX/SHELDON.
+- Result: Falsified Turn 43687 with zero pixel delta.
+
+## Test Protocol 7: Inverted Cancel-Confirm Evaluation (Turn 43688)
+- Hypothesis: Inverted sequence ['B', 'A'] clears any unacknowledged submenu state with B before asserting A confirmation on the underlying party menu.
+- Independent Variable: Sequential input ['B', 'A'].
+- Expected Falsifiable Outcome: Submenu dismisses and party menu updates.
