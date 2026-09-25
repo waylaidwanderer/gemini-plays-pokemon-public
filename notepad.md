@@ -604,13 +604,10 @@
 ## Landmarks & Layout
 - Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Western Entrance (Rows 8..11, Cols 0..1): 4-tile wide open ground passage connecting to Pewter City, bounded by solid mountain cliff walls to the north (rows 6..7) and south (rows 12..14).
-- First Tall Grass Field (Rows 8..11, Cols 2..5+): Tall grass spans across columns 2 to 5+. Stone boundary posts located at (4, 8) and (4, 11). Rows 9 and 10 provide continuous east-west passage through the grass field.
-
-- Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via tall grass at (9, 8..9).
+- Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via clear corridor at (9, 8..9).
 - Terraces & Ledges:
   - Upper tier: Row 6..7 bounded by south ledge at row 7 (cols 10..13).
   - Middle tier: Rows 8..10 clear ground (cols 10..16, no wild encounters).
-  - Lower tier: Rows 12..13 clear ground, south of row 11 ledge (no wild encounters).
 - Bug Catcher (10, 6): Stationed on upper tier at (10, 6) facing South/East.
 - Youngster (14, 4): Stationed on upper tier at (14, 4) facing South across column 14.
 - Lass (16, 9): Stationed at (16, 9) facing West across row 9 middle corridor. Line of sight triggers at (14, 9).
@@ -645,7 +642,7 @@
 - Northern Highway to Route 4 (Cols 56..57, Rows 0..6): 2-tile wide clear-ground corridor bounded by mountain cliff on the west (Col 55) and building structure on the east (Cols 58..63). Runs continuously North directly toward the Route 4 / Mt. Moon boundary.
 - Northern Exit to Route 4: Located at (57, 0). Stepping North triggers the map transition directly into Route 4 outside Mt. Moon.
 ## Verified Route 3 Wild Encounter Areas
-- **Southern Tall Grass Field (Cols 28..37, Rows 10..13):** Large continuous patch of tall grass situated directly south of the Eastern Road (Rows 8..9). Fully accessible with no ledge obstruction from row 9. Empirically confirmed Turn 43145 (player legs submerged in grass blades). Lass Robin stationed at (33, 10).
+- **Southern Tall Grass Field (Cols 28..37, Rows 10..13):** Large continuous patch of tall grass situated directly south of the Eastern Road (Rows 8..9). Fully accessible with no ledge obstruction from row 9. Empirically confirmed Turn 43145 (player legs submerged in grass blades). Verified wild sightings: Pidgey Lv 6 (Turn 43148), Spearow Lv 6 (Turns 43156, 43164). Active hunt for wild Jigglypuff (#039). Lass Robin stationed at (33, 10).
 - **Eastern Grass Pocket (Cols 58..65, Rows 8..13):** Enclosed tall grass field at far southeastern boundary of Route 3 near Mt. Moon entrance.
 
 <hr>
@@ -5183,21 +5180,27 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-- Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
-  - Completed Targets:
-    - Target 1: Bellsprout (#069 SPROUT) [Archived Box 2]
-    - Target 2: Weedle (#013 NEEDLE) & Caterpie (#010 SILK) [Archived Box 2]
-  - Active / Pending Targets:
-    - Target 3: Rattata (#019 RATTY) caught [Turn 43083] in party Slot 4; training to Lv 20 for Raticate (#020) pending.
-    - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone in Bag Slot 9). Active hunt in progress.
-- Active Expedition 16 Target Tracker & Strategy:
-  - Leaf Stones: 2 secured in Bag Slot 10 (purchased for ¥4,200 Turn 43046) for future Victreebel (delay to Lv 38 for Razor Leaf) and Vileplume (trade req).
-  - Target 3 (Route 1): Rattata (#019) -> CAUGHT Turn 43083 (Ball 1 at full HP). Nicknamed RATTY in party Slot 4. Train in Cerulean Cave 1F to Lv 20 to evolve into Raticate (#020).
-  - Target 4 (Route 3): Jigglypuff (#039) -> active hunt in Route 3 tall grass. Capture with Poké Ball (98 in Bag Slot 11), evolve via Moon Stone (Bag Slot 9) into Wigglytuff (#040).
-- Immediate Execution Sequence:
-  1. In Route 3 tall grass: encounter and capture wild Jigglypuff (#039, nickname PUFF, joins party Slot 5) with Poké Ball.
-  2. Apply Moon Stone (Bag Slot 9) to evolve Jigglypuff into Wigglytuff (#040).
-  3. Fly to Cerulean City -> Cerulean Cave 1F to train Rattata to Lv 20 for Raticate (#020).
+## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
+- Started: Turn 42404
+- Active Targets:
+  - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 4. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
+  - Target 4: Jigglypuff (#039) - Active hunt in Route 3 Southern Tall Grass Field (Cols 28..37, Rows 10..13). Catch with Pok� Ball (98 available), then immediately apply Moon Stone (Bag Slot 9) to evolve into Wigglytuff (#040).
+- Completed Targets Archived in Box 2:
+  - Bellsprout (#069 SPROUT) [Turn 42628]
+  - Weedle (#013 NEEDLE) [Turn 42784]
+  - Caterpie (#010 SILK) [Turn 42786]
+- Key Inventory:
+  - MOON STONE x1 (Bag Slot 9) - reserved for Jigglypuff -> Wigglytuff.
+  - LEAF STONE x2 (Bag Slot 10) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
+  - POK� BALL x98 (Bag Slot 11).
+
+## Immediate Execution Workflow
+1. Patrol Route 3 Southern Tall Grass to encounter wild Jigglypuff (#039).
+2. Throw Pok� Ball at full HP (flee if Pidgey/Spearow).
+3. Nickname captured Jigglypuff 'PUFF' (joins party Slot 5).
+4. Use MOON STONE from Bag Slot 9 on PUFF to evolve into Wigglytuff (#040).
+5. Fly to Cerulean City and enter Cerulean Cave 1F to train Rattata to Lv 20 for Raticate (#020).
+
 
 <hr>
 
