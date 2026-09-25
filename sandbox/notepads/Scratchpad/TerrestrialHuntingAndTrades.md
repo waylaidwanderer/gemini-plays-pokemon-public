@@ -9,10 +9,11 @@
     - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone in Bag Slot 9).
     - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
   - Funding Strategy: Clearing Pokémon League gauntlet to earn ~¥30,000 prize money, returning to Pallet Town adjacent to Route 1.
-- Elite Four Rematch Status [Turn 42890]:
+- Elite Four Rematch Status [Turn 42921]:
   - Chamber 1 (Lorelei): Defeated! Prize: +¥5,544.
-  - Chamber 2 (Bruno): Defeated! (5-0 Surf sweep by Sheldon Lv 75, 241/241 HP). DUX grew to Lv 31 (Agility declined). Prize: +¥5,742. Cumulative funds: ~¥11,392. Active Party: SHELDON (Blastoise Lv 75, HP 241/241), DUX (Farfetch'd Lv 31, HP ~79/~79), OMEGA (Mewtwo Lv 75, HP 50/264 PAR).
-  - Next: Chamber 3 (Agatha).
+  - Chamber 2 (Bruno): Defeated! (5-0 Surf sweep). DUX grew to Lv 31. Prize: +¥5,742.
+  - Chamber 3 (Agatha): Defeated! (5-0 sweep by Sheldon Lv 76, 188/244 HP). DUX grew to Lv 32. Prize: +¥5,940. Cumulative funds: ~¥17,332.
+  - Next: Chamber 4 (Lance).
 ## Gauntlet Resource Budgeting & Strategy [Turn 42902]
 - Active Party:
   - SHELDON (Blastoise Lv 75, HP 185/241): Surf (8/15 PP), Ice Beam (10/10 PP), Body Slam (15/15 PP), Double-Edge (15/15 PP).
