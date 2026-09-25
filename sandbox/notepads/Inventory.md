@@ -42,7 +42,7 @@
 - Slot 8: EXP.ALL x1
 - Slot 9: MOON STONE x1
 - Slot 10: LEAF STONE x2 [Purchased Turn 43046 at Celadon Dept Store 4F]
-- Slot 11: POKé BALL x98 [1 used to catch Rattata Turn 43083]
+- Slot 11: POKé BALL x97 [1 used on Jigglypuff Turn 43194]
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
