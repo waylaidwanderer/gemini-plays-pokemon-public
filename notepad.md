@@ -4300,6 +4300,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Team: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
   - Defeated Turn 24759 by Sheldon Lv 67 (89/213 HP). Northern exit doorway unlocked.
 
+## Rematch Defeat [Turn 42852]
+- Defeated by OMEGA (Mewtwo Lv 75) & SHELDON (Blastoise Lv 75).
+- Prize: ¥5,544.
+- Northern exit doorway unlocked.
 
 <hr>
 
