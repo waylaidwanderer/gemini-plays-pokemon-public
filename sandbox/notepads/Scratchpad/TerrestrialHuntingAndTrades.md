@@ -48,3 +48,5 @@
 - Testing Select-Start sequence via press_buttons.
 - Select-Start Sequence Outcome (Turn 44113): Sent ['Select', 'Start'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44114_0, turn_44114_1) and final frame; menu state unchanged.
 - Testing discrete B input following neutral cycle.
+- Discrete B Input Outcome (Turn 44116): Sent discrete 'B' input via press_buttons following neutral cycle. Empirical Outcome: Exactly 0 pixel delta across intermediate (turn_44117_0) and final frame; menu state unchanged.
+- Down-A Sequence Test (Turn 44117): Testing ['Down', 'A'] via press_buttons targeting STATS option.
