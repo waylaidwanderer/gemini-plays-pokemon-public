@@ -2197,6 +2197,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 
 ## 2F: Trainer's Market
 - Floor Sign: Located at (14, 1) on north wall ("2F: TRAINER'S MARKET - Top Grade Items for Trainers!").
+- Stairs / Escalator: Tile (12, 1) is escalator down to 1F. Tile (16, 1) is one-way escalator landing from 3F (solid when approached from south). Elevator at (1, 1) provides direct inter-floor transit to 1F..5F.
 - Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks at (5, 3) and (6, 3) facing South, operated from row 5 facing North [Observed Turn 32154].
 - Aisles & Shelves: Glass display cases at rows 3..4 and row 6 (cols 10..13 and 16..17).
 - Walkways: Main upper aisle across row 2; center walkway across cols 14..15; lower aisle along row 5.
@@ -2264,7 +2265,6 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
   - Control Panel: Mounted at (3, 0) on north wall, operated from (3, 1) facing North.
   - Destination Floors: 1F, 2F, 3F, 4F, 5F [Verified Turn 32158].
   - Exit Doorway: Red doormat at (2, 3), stepping South warps player to (1, 2) on the destination floor [Verified Turn 32160].
-
 
 <hr>
 
