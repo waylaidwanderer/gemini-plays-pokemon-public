@@ -5,12 +5,12 @@
 - IDNo: 04620
 - Money: ¥106 [Verified Turn 42653]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 58 Caught [WEEDLE #013 caught Turn 42724] / 137 Seen [Verified Turn 39387]
+- Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
+## Party Pokémon (5 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 259 / 259 [Healed Turn 42615]
+  - HP: 258 / 259 [Tackle 1 dmg Turn 42760]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -26,8 +26,9 @@
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: WEEDLE (Nickname: NEEDLE) [Lv 3, Bug/Poison, Caught Turn 42724]
+- Slot 5: CATERPIE (Nickname: SILK pending) [Lv 3, Bug, Caught Turn 42762]
 
-## Bag Items (9 / 20 Slots Occupied - Verified Turn 42648)
+## Bag Items (8 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -36,7 +37,6 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: POKé BALL x1
 - Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage

@@ -115,12 +115,12 @@
 - IDNo: 04620
 - Money: ¥106 [Verified Turn 42653]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 58 Caught [WEEDLE #013 caught Turn 42724] / 137 Seen [Verified Turn 39387]
+- Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6)
+## Party Pokémon (5 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
-  - HP: 259 / 259 [Healed Turn 42615]
+  - HP: 258 / 259 [Tackle 1 dmg Turn 42760]
   - Stats: Attack 190, Defense 173, Speed 220, Special 260 [Verified Lv 74 Screen Turn 40038]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -136,8 +136,9 @@
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: WEEDLE (Nickname: NEEDLE) [Lv 3, Bug/Poison, Caught Turn 42724]
+- Slot 5: CATERPIE (Nickname: SILK pending) [Lv 3, Bug, Caught Turn 42762]
 
-## Bag Items (9 / 20 Slots Occupied - Verified Turn 42648)
+## Bag Items (8 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -146,7 +147,6 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: POKé BALL x1
 - Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
@@ -478,7 +478,7 @@
 - Encounter 18 [Turn 42694]: Weedle Lv 3 (tall grass at (18, 37)) - CAUGHT (Ball 4, Nickname: NEEDLE, Party Slot 4). Breakout analysis: 3 consecutive full-HP breakouts after 3 shakes before capture.
 - Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED (conserving balls for Caterpie).
 - Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED (conserving balls for Caterpie).
-- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - TARGET ENCOUNTERED! Engaging capture protocol.
+- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK pending, Party Slot 5). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.
 
 <hr>
 
@@ -5107,14 +5107,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
   - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!) [CAUGHT Turn 42590, Nickname: SPROUT; stored in Box 2]. Note: Abra (#063) deferred to Celadon Game Corner Prize Building (120 coins / ¥2,400) to bypass wild Teleport mechanics.
     - Route 25 Western Grass Empirical Distribution (N=8): Pidgey 2 (25%), Abra 4 (50%), Kakuna 1 (12.5%), Bellsprout 1 (12.5%).
-  - Target 2: Viridian Forest / Route 2 - Weedle (#013 CAUGHT, nicknamed NEEDLE), Caterpie (#010 -> #011 -> #012).
-    - Logistics: 5 Poké Balls in Bag, Money ¥106. In Viridian Forest.
+  - Target 2: Viridian Forest / Route 2 - Weedle (#013 CAUGHT, nicknamed NEEDLE), Caterpie (#010 CAUGHT on Ball 5, nicknamed SILK pending).
+    - Logistics: 0 Poké Balls in Bag, Money ¥106. In Viridian Forest.
   - Target 3: Route 1 - Pidgey (#016 -> #017), Rattata (#019 -> #020).
   - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone).
   - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
 - Viridian Forest Wild Encounter 1 [Turn 42694]: Weedle Lv 3 encountered at (18, 37). Balls 1-3 broke free after 3 shakes; CAUGHT on Ball 4 [Turn 42724]. Nickname: NEEDLE confirmed. 5 Poké Balls remaining.
 - Viridian Forest Wild Encounter 2 [Turn 42734]: Metapod Lv 4 encountered at (18, 40) - FLED (conserving balls for Caterpie).
 - Viridian Forest Wild Encounter 3 [Turn 42742]: Metapod Lv 6 encountered at (22, 40) - FLED (conserving balls for Caterpie).
-- Viridian Forest Wild Encounter 4 [Turn 42746]: Caterpie Lv 3 encountered at (18, 40) - Balls 1, 2, 3, and 4 broke free after 3 shakes each. Readying final Ball 5 (1 Poké Ball remaining).
+- Viridian Forest Wild Encounter 4 [Turn 42746]: Caterpie Lv 3 encountered at (18, 40) - Balls 1, 2, 3, and 4 broke free after 3 shakes each; CAUGHT on Ball 5 [Turn 42762]. Nickname: SILK pending. 0 Poké Balls remaining.
 
 <hr>

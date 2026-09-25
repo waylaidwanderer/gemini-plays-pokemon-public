@@ -52,4 +52,4 @@
 - Encounter 18 [Turn 42694]: Weedle Lv 3 (tall grass at (18, 37)) - CAUGHT (Ball 4, Nickname: NEEDLE, Party Slot 4). Breakout analysis: 3 consecutive full-HP breakouts after 3 shakes before capture.
 - Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED (conserving balls for Caterpie).
 - Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED (conserving balls for Caterpie).
-- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - TARGET ENCOUNTERED! Engaging capture protocol.
+- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK pending, Party Slot 5). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.
