@@ -5242,6 +5242,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether four B inputs cascade through all nested menus to the top-level PC menu, followed by A to confirm LOG OFF.
 - Independent Variable: Sequential input ['B', 'B', 'B', 'B', 'A'].
 - Expected Falsifiable Outcome: Visual dismissal of PC menus to return to the Pokémon Center overworld.
+- Result: Falsified Turn 43746 with zero pixel delta.
+
+## Test Protocol 35: Isolated Up Evaluation (Turn 43747)
+- Hypothesis: Testing whether an isolated Up input shifts cursor upward or wraps to CANCEL.
+- Independent Variable: Isolated single input ['Up'].
+- Expected Falsifiable Outcome: Visual movement of cursor upward or wrapping to CANCEL.
 
 <hr>
 
