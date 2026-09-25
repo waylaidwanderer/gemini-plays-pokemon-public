@@ -10,7 +10,7 @@
 ## Party Pokémon (3 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 76, Water]
   - Status: Healthy
-  - HP: 91 / 244 [Verified In-Battle Turn 42929]
+  - HP: 9 / 244 [Verified In-Battle Turn 42974]
   - Stats: Attack 182, Defense 210, Speed 182, Special 189 [Verified Lv 76 Screen Turn 42905]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 3/15), Ice Beam (PP 4/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 33, Normal/Flying]
