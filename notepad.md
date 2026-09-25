@@ -5278,6 +5278,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Four consecutive B inputs cascade through all nested PC menu levels (Submenu -> Party -> Bill's PC -> Main PC -> Off) to completely dismiss the PC interface.
 - Independent Variable: Sequential input ['B', 'B', 'B', 'B'].
 - Expected Falsifiable Outcome: Visual dismissal of PC menus, returning to the Pokémon Center overworld.
+- Result: Falsified Turn 43829 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 51: Isolated Left Boundary Evaluation (Turn 43829)
+- Hypothesis: Single Left directional input tests whether horizontal navigation affects menu focus or triggers window boundary behavior.
+- Independent Variable: Isolated controller input ['Left'].
+- Expected Falsifiable Outcome: Visual movement of cursor or shift in active window focus.
 
 <hr>
 
