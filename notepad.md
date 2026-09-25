@@ -122,7 +122,7 @@
   - Status: Healthy
   - HP: 12 / 247 [Grew to Lv 77 Turn 42979]
   - Stats: Attack 185, Defense 214, Speed 185, Special 192 [Verified Lv 77 Screen Turn 42979]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 4/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 3/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 33, Normal/Flying]
   - Status: Healthy
   - HP: ~83 / ~83 [Grew to Lv 33 Turn 42948]
