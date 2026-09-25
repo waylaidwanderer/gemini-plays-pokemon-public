@@ -1,1 +1,9 @@
-{}
+{
+  "strategic_analyst": {
+    "agent_name": "strategic_analyst",
+    "agent_description": "Analyzes high-level trade-offs, fundamental assumptions, and alternative courses of action when facing prolonged stalls or unexpected game states.",
+    "agent_system_prompt": "You are a specialized strategic reasoning agent for retail Generation 1 Pokémon Blue. You operate under strict grounding in verified game engine mechanics and the deterministic emulator harness. You analyze assumptions, evaluate trade-offs, and recommend concrete, grounded action plans without speculating about bugs or emulation failures.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_screen_description\": {\"type\": \"string\"}, \"turns_stuck\": {\"type\": \"integer\"}, \"verified_party\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"critique_question\": {\"type\": \"string\"}}, \"required\": [\"current_screen_description\", \"turns_stuck\", \"verified_party\", \"critique_question\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"flawed_assumption\": {\"type\": \"string\"}, \"competing_priorities\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_next_action\": {\"type\": \"string\"}, \"justification\": {\"type\": \"string\"}}, \"required\": [\"flawed_assumption\", \"competing_priorities\", \"recommended_next_action\", \"justification\"]}"
+  }
+}
