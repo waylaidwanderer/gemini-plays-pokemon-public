@@ -15,3 +15,8 @@
 
 
 - Defeated Turn 24903 by Sheldon Lv 69 (123/219 HP). Prize: ¥6138. Northern door unlocked.
+## Rematch Defeat [Turn 42947]
+- Defeated by SHELDON (Blastoise Lv 76) solo in a 5-0 sweep (Gyarados Lv 58, Dragonair Lv 56 x2, Aerodactyl Lv 60, Dragonite Lv 62).
+- Gyarados fainted to Body Slam crit; Dragonair x2, Aerodactyl, and Dragonite all OHKO'd by Ice Beam.
+- Prize: ¥6,138.
+- Northern door unlocked to Champion's Room!
