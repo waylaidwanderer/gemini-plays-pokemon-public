@@ -5102,5 +5102,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Target 3: Route 1 - Pidgey (#016 -> #017), Rattata (#019 -> #020).
   - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone).
   - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
+- Viridian Forest Wild Encounter 1 [Turn 42694]: Weedle encountered at (18, 37). Engaging capture protocol.
 
 <hr>
