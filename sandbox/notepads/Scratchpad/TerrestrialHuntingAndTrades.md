@@ -109,3 +109,9 @@
 - Hypothesis: Testing whether navigating down twice to CANCEL followed by B cancellation clears the submenu focus state.
 - Independent Variable: Sequential input ['Down', 'Down', 'B'].
 - Expected Falsifiable Outcome: Visual movement of cursor to CANCEL or submenu dismissal.
+- Result: Falsified Turn 43702 with zero pixel delta.
+
+## Test Protocol 22: Double Cancel & Double Confirm (Turn 43703)
+- Hypothesis: Testing whether two leading B inputs dismiss submenu/selection states before two trailing A inputs confirm menu exit.
+- Independent Variable: Sequential input ['B', 'B', 'A', 'A'].
+- Expected Falsifiable Outcome: Visual dismissal of submenu and parent menu progression.
