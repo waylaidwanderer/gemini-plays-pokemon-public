@@ -343,7 +343,7 @@
   - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
-  Across N=4 distinct encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP. This empirically proves that even at maximum BCR 255, capture probability per basic Poké Ball at full HP is ~30-40%, mandating budgeting 3-5 balls per target species.
+  Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
 
 <hr>
 
@@ -508,7 +508,7 @@
 - Encounter 18 [Turn 42694]: Weedle Lv 3 (tall grass at (18, 37)) - CAUGHT (Ball 4, Nickname: NEEDLE, Party Slot 4). Breakout analysis: 3 consecutive full-HP breakouts after 3 shakes before capture.
 - Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED (conserving balls for Caterpie).
 - Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED (conserving balls for Caterpie).
-- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK pending, Party Slot 5). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.
+- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.
 
 <hr>
 
@@ -5138,12 +5138,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 - Expedition 16 Strategy (Terrestrial Biodiversity & Stone Evolutions) [Started Turn 42404; Traversal Turn 42455]:
-  - Target 1: Route 24/25 - Bellsprout (#069, Blue exclusive!) [CAUGHT Turn 42590, Nickname: SPROUT; stored in Box 2]. Note: Abra (#063) deferred to Celadon Game Corner Prize Building (120 coins / ¥2,400) to bypass wild Teleport mechanics.
-    - Route 25 Western Grass Empirical Distribution (N=8): Pidgey 2 (25%), Abra 4 (50%), Kakuna 1 (12.5%), Bellsprout 1 (12.5%).
-  - Target 2: Viridian Forest / Route 2 - Weedle (#013 CAUGHT, nicknamed NEEDLE), Caterpie (#010 CAUGHT on Ball 5, nicknamed SILK). Target 2 COMPLETE! (Encounters logged in Locations/Kanto_ViridianForest).
-  - Target 3: Route 1 - Pidgey (#016 CAUGHT on Route 25), Rattata (#019 -> #020 Raticate).
-  - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone secured in Bag Slot 9).
-  - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
+  - Completed Targets:
+    - Target 1: Bellsprout (#069 SPROUT) [Archived Box 2]
+    - Target 2: Weedle (#013 NEEDLE) & Caterpie (#010 SILK) [Archived Box 2]
+  - Active / Pending Targets:
+    - Target 3: Route 1 - Rattata (#019 -> #020 Raticate). (Pidgey #016 already caught).
+    - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone in Bag Slot 9).
+    - Evolution Stone Shopping: Celadon Department Store 4F (Leaf Stone x2 for Victreebel/Vileplume).
   - Funding Strategy: Clearing Pokémon League gauntlet to earn ~¥30,000 prize money, returning to Pallet Town adjacent to Route 1.
 
 <hr>
