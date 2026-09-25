@@ -127,3 +127,9 @@
 - Hypothesis: Testing whether sequential Down then Right directional input shifts focus between submenu tiers before asserting A confirmation.
 - Independent Variable: Sequential input ['Down', 'Right', 'A'].
 - Expected Falsifiable Outcome: Visual movement of cursor to STATS or submenu execution.
+- Result: Falsified Turn 43705 with zero pixel delta.
+
+## Test Protocol 25: Right-Down-Confirm Focus Sequence (Turn 43706)
+- Hypothesis: Testing whether leading Right input asserts focus on submenu column before Down navigates to STATS and A confirms.
+- Independent Variable: Sequential input ['Right', 'Down', 'A'].
+- Expected Falsifiable Outcome: Visual movement of cursor to STATS or transition to stats display.
