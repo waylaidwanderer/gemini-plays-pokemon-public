@@ -5219,6 +5219,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Single A input confirms DEPOSIT on PUFF to initiate the storage routine or display a box capacity notice.
 - Independent Variable: Isolated controller input ['A'].
 - Expected Falsifiable Outcome: Screen transition displaying storage dialogue ('PUFF was stored in BOX 2.') or capacity notice ('The BOX is full.').
+- Result: Falsified Turn 43808 with zero pixel delta across intermediate and final states.
+
+## Test Protocol 41: Isolated Down Navigation (Turn 43808)
+- Hypothesis: Single Down directional input shifts the selection cursor from DEPOSIT to STATS.
+- Independent Variable: Isolated controller input ['Down'].
+- Expected Falsifiable Outcome: Visual movement of solid cursor arrow from DEPOSIT (row 11) to STATS (row 13).
 
 <hr>
 
