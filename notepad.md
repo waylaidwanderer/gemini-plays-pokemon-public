@@ -137,10 +137,10 @@
   - HP: 247 / 247 [Verified Turn 43243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Surf, Strength, Blizzard, Bite
-- Slot 4: RATTATA (Nickname: RATTY) [Lv 11, Normal]
+- Slot 4: RATTATA (Nickname: RATTY) [Lv 12, Normal]
   - Status: Healthy
   - HP: 29 / 29 [Verified Party Screen Turn 43383]
-  - Stats: Attack 19, Defense 14, Speed 22, Special 10 [Verified Lv 11 Screen Turn 43381]
+  - Stats: Attack 20, Defense 15, Speed 23, Special 11 [Verified Lv 12 Screen Turn 43415]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack
 
@@ -5186,7 +5186,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 11, Party Slot 4) - Current Lv 11 (1,632 EXP, needs 96 EXP for Lv 12), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 12, Party Slot 4) - Current Lv 12 (1,780 EXP, needs 417 EXP for Lv 13), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5201,7 +5201,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~6,368 EXP to reach Lv 20 (~46 wild battles at ~135 EXP/battle via EXP.ALL).
+- Target: Rattata requires ~6,220 EXP to reach Lv 20 (~45 wild battles at ~135 EXP/battle via EXP.ALL).
 - Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 224 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
 - Current Offensive PP: Mewtwo OMEGA has Swift x12, Psychic x0 (Total: 12 attacks).
 - Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. If Mewtwo's Swift runs low (<= 3 PP), Sheldon takes over as lead sweeper, giving 64 combined attacks (more than enough for the ~48 battles required).
