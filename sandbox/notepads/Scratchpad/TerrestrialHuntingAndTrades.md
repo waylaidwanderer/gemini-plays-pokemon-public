@@ -115,3 +115,9 @@
 - Hypothesis: Testing whether two leading B inputs dismiss submenu/selection states before two trailing A inputs confirm menu exit.
 - Independent Variable: Sequential input ['B', 'B', 'A', 'A'].
 - Expected Falsifiable Outcome: Visual dismissal of submenu and parent menu progression.
+- Result: Falsified Turn 43703 with zero pixel delta.
+
+## Test Protocol 23: Upward Navigation & Dismissal (Turn 43704)
+- Hypothesis: Testing whether navigating up twice followed by B cancellation clears focus or dismisses the submenu.
+- Independent Variable: Sequential input ['Up', 'Up', 'B'].
+- Expected Falsifiable Outcome: Visual movement of cursor or submenu dismissal.
