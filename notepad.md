@@ -5226,6 +5226,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Independent Variable: Isolated controller input ['Down'].
 - Expected Falsifiable Outcome: Visual movement of solid cursor arrow from DEPOSIT (row 11) to STATS (row 13).
 - Result: Falsified Turn 43810 with zero pixel delta across intermediate and final states.
+## Test Protocol 42: Sequential Double B Submenu Dismissal (Turn 43811)
+- Hypothesis: Two consecutive B inputs provide both the cancel trigger and the edge transition needed to clear the active submenu and restore party list focus.
+- Independent Variable: Sequential input ['B', 'B'].
+- Expected Falsifiable Outcome: Visual dismissal of the lower-right DEPOSIT/STATS/CANCEL window.
 
 <hr>
 
