@@ -4400,6 +4400,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
 - Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated), Venusaur Lv 65 (Defeated).
 - Outcome: DEFEATED! BLUE defeated Champion RED on Turn 24981. Sheldon Lv 70 victorious.
+## Rematch Telemetry [Turn 42958+]
+- Combatant 1: Pidgeot Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Ice Beam. Outcome: OHKO! Pidgeot fainted. Damage: 100% HP.
+- Combatant 2: Alakazam Lv 59. On field Turn 42961. Planned: Body Slam.
 
 <hr>
 
@@ -5171,17 +5174,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Chamber 3 (Agatha): Defeated! (5-0 sweep by Sheldon Lv 76, 188/244 HP). DUX grew to Lv 32. Prize: +¥5,940.
   - Chamber 4 (Lance): Defeated! (5-0 sweep by Sheldon Lv 76, 91/244 HP). Prize: +¥6,138. Cumulative funds: ~¥23,470.
   - Next: Champion's Room (Rival RED).
-## Gauntlet Resource Budgeting & Strategy [Turn 42902]
+## Gauntlet Resource Budgeting & Strategy [Turn 42961]
 - Active Party:
-  - SHELDON (Blastoise Lv 75, HP 185/241): Surf (8/15 PP), Ice Beam (10/10 PP), Body Slam (15/15 PP), Double-Edge (15/15 PP).
+  - SHELDON (Blastoise Lv 76, HP 91/244): Double-Edge (15/15 PP), Body Slam (13/15 PP), Surf (5/15 PP), Ice Beam (4/10 PP).
+  - DUX (Farfetch'd Lv 33, HP ~83/~83): Cut, Fly, Sand-Attack, Leer.
   - OMEGA (Mewtwo Lv 75, HP 50/264 PAR): Psychic (5/10 PP), Recover (20/20 PP), Swift (20/20 PP), Barrier (30/30 PP).
-  - DUX (Farfetch'd Lv 31, HP ~79/~79): Cut, Fly, Sand-Attack, Leer.
-- PP & Move Allocation Plan:
-  - Lance: Gyarados (fainted to Body Slam crit Turn 42931), Dragonair x2 (Ice Beam 2x OHKO), Aerodactyl (Ice Beam/Surf OHKO), Dragonite (Ice Beam 4x OHKO). Audit empirical prize payout upon Lance's defeat.
-  - Champion RED: Rhydon/Arcanine (Surf), Venusaur/Pidgeot/Exeggutor (Ice Beam), Alakazam (Double-Edge/Body Slam).
+- Champion RED Plan & Empirical Combat Telemetry:
+  - Pidgeot Lv 61: Defeated! (Ice Beam OHKO Turn 42958, Sheldon moved first).
+  - Alakazam Lv 59: Target Body Slam (Slot 2) to exploit physical defense (~85) with zero recoil. Document empirical turn order and damage.
+  - Rhydon Lv 61: Target Surf (4x weak).
+  - Arcanine Lv 63: Target Surf (2x weak).
+  - Exeggutor Lv 61: Target Ice Beam (2x weak).
+  - Venusaur Lv 65: Target Ice Beam (2x weak).
 - Healing & Item Reserves:
-  - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves on one Pokémon; reserve for Sheldon before RED if needed).
-  - Bag Slot 1: POKé FLUTE (in-battle wake-up tool for sleep/Hypnosis).
-- Post-Hall of Fame Protocol: Open Trainer Card immediately post-credits to audit empirical wallet total (target ~¥32,000+).
+  - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves).
+  - Bag Slot 1: POKé FLUTE (wakes sleeping Pokémon).
+- Post-Hall of Fame Protocol: Open Trainer Card immediately post-credits to audit empirical wallet total (target ~¥33,000+).
 
 <hr>

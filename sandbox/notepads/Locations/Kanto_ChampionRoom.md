@@ -11,3 +11,6 @@
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
 - Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated), Venusaur Lv 65 (Defeated).
 - Outcome: DEFEATED! BLUE defeated Champion RED on Turn 24981. Sheldon Lv 70 victorious.
+## Rematch Telemetry [Turn 42958+]
+- Combatant 1: Pidgeot Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Ice Beam. Outcome: OHKO! Pidgeot fainted. Damage: 100% HP.
+- Combatant 2: Alakazam Lv 59. On field Turn 42961. Planned: Body Slam.
