@@ -121,9 +121,10 @@
 - Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
-- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
-  - HP: 239 / 247 [Verified Turn 43644]
+  - HP: 243 / 251 [Verified Turn 43661]
+  - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15) [Verified Turn 43490], Body Slam (PP 8/15) [Verified Turn 43660], Surf (PP 5/15) [Verified Turn 43628], Ice Beam (PP 5/10) [Verified Turn 43653]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 36, Normal/Flying]
@@ -5203,8 +5204,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~2,717 EXP to reach Lv 20 (~20 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43660].
-- Active Lead Sweeper: Sheldon Lv 77 (Blastoise, Water) [Slot 1, 239/247 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
-- Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (239/247 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 243/251 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Lead Sweeper Strategy (Sheldon): High level (Lv 77) and massive bulk (243/251 HP) allow reliable sweeps with Surf, protecting trainees while EXP.ALL passively distributes EXP across the party.
 - PP Exhaustion Tripwire:
   - When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or Surf <= 3):
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
