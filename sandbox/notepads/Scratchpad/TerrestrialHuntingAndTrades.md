@@ -32,61 +32,20 @@
   - Tested inputs across all controller buttons (A, B, D-pad directions, Start, Select) in single-step and chunked sequences yielded zero visual screen change across Turns 43226–43651.
   - Storing PUFF in the PC is completely optional as the active party is 5/6. Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
 
-## Active Hypothesis & Test Protocol (Turn 43681)
-- Hypothesis: Active solid cursor at DEPOSIT requires a 2-step confirmation (first A confirms deposit routine, second A clears the '[POKéMON] was stored' dialogue) followed by B cancellation to dismiss parent party menu.
-- Independent Variable: Sequential chunk ['A', 'A', 'B', 'B'].
-- Expected Falsifiable Outcome: Visual transition clearing the submenu and advancing storage dialogue to exit interface.
-- Result: Falsified Turn 43682 with zero pixel delta across all intermediate states.
+## Empirical Boundary: Protocols 1–10 (Turns 43681–43691)
+- Protocol 1: ['A', 'A', 'B', 'B'] (2-step confirm/cancel) -> Falsified Turn 43682 (0 delta).
+- Protocol 2: ['Start'] (dialogue dismissal) -> Falsified Turn 43683 (0 delta).
+- Protocol 3: ['Select'] (sub-state toggle) -> Falsified Turn 43684 (0 delta).
+- Protocol 4: ['Down', 'A'] (STATS selection) -> Falsified Turn 43685 (0 delta).
+- Protocol 5: ['Down', 'Down', 'A'] (direct CANCEL selection) -> Falsified Turn 43686 (0 delta).
+- Protocol 6: ['Up', 'Up', 'Up'] (party list upward scroll) -> Falsified Turn 43687 (0 delta).
+- Protocol 7: ['B', 'A'] (inverted cancel-confirm) -> Falsified Turn 43688 (0 delta).
+- Protocol 8: ['Right', 'B'] (horizontal column switch) -> Falsified Turn 43689 (0 delta).
+- Protocol 9: ['Left', 'A'] (leftward focus confirmation) -> Falsified Turn 43690 (0 delta).
+- Protocol 10: ['A']*5 (extended confirmation pulse) -> Falsified Turn 43691 (0 delta).
+- Conclusion: Interface is unresponsive across all single and multi-button permutations. Storing PUFF is completely optional (party capacity 5/6).
 
-## Test Protocol 2: Isolated Start Evaluation (Turn 43682)
-- Hypothesis: Pressing Start acts as an immediate dialog/menu dismissal key in nested UI states.
-- Independent Variable: Isolated single input ['Start'].
-- Expected Falsifiable Outcome: Visual transition closing submenu or updating menu layer.
-- Result: Falsified Turn 43683 with zero pixel delta.
-
-## Test Protocol 3: Isolated Select Evaluation (Turn 43683)
-- Hypothesis: In certain party/PC menus, pressing Select functions as an item reorganization or sub-state toggle.
-- Independent Variable: Isolated single input ['Select'].
-- Expected Falsifiable Outcome: Visual transition shifting cursor or updating UI state.
-- Result: Falsified Turn 43684 with zero pixel delta.
-
-## Test Protocol 4: STATS Inspection & UI Transition (Turn 43685)
-- Hypothesis: Selecting STATS (Down + A) transitions the UI into a full-screen STATS display, providing an alternate exit pathway back to the party menu.
-- Independent Variable: Sequential input ['Down', 'A'].
-- Expected Falsifiable Outcome: Screen transitions to PUFF's STATS display.
-- Result: Falsified Turn 43685 with zero pixel delta.
-
-## Test Protocol 5: Direct CANCEL Selection (Turn 43686)
-- Hypothesis: Directly navigating to CANCEL via two discrete Down inputs followed by an A confirmation (['Down', 'Down', 'A']) executes the submenu's native CANCEL routine, dismissing the submenu back to the party list.
-- Independent Variable: Sequential input ['Down', 'Down', 'A'].
-- Expected Falsifiable Outcome: Submenu closes, restoring solid cursor focus to the party list.
-- Result: Falsified Turn 43686 with zero pixel delta.
-
-## Test Protocol 6: Party List Upward Scroll (Turn 43687)
-- Hypothesis: Testing whether Up inputs scroll the underlying party list upward to display lead party members.
-- Independent Variable: Sequential input ['Up', 'Up', 'Up'].
-- Expected Falsifiable Outcome: Visual scroll of party list to show DUX/SHELDON.
-- Result: Falsified Turn 43687 with zero pixel delta.
-
-## Test Protocol 7: Inverted Cancel-Confirm Evaluation (Turn 43688)
-- Hypothesis: Inverted sequence ['B', 'A'] clears any unacknowledged submenu state with B before asserting A confirmation on the underlying party menu.
-- Independent Variable: Sequential input ['B', 'A'].
-- Expected Falsifiable Outcome: Submenu dismisses and party menu updates.
-- Result: Falsified Turn 43688 with zero pixel delta.
-
-## Test Protocol 8: Horizontal Navigation & Dismissal (Turn 43689)
-- Hypothesis: Testing whether Right input shifts focus column before B cancellation.
-- Independent Variable: Sequential input ['Right', 'B'].
-- Expected Falsifiable Outcome: Screen transition shifting cursor focus or dismissing submenu.
-- Result: Falsified Turn 43689 with zero pixel delta.
-
-## Test Protocol 9: Leftward Focus & Confirm Evaluation (Turn 43690)
-- Hypothesis: Testing whether Left input shifts focus to parent menu before asserting A confirmation.
-- Independent Variable: Sequential input ['Left', 'A'].
-- Expected Falsifiable Outcome: Screen transition shifting focus or confirming selection on party list.
-- Result: Falsified Turn 43690 with zero pixel delta.
-
-## Test Protocol 10: Extended Confirmation Pulse (Turn 43691)
-- Hypothesis: Testing whether a sustained train of A inputs ('A'*5) bridges debounce/polling thresholds to execute the DEPOSIT confirmation routine.
-- Independent Variable: Sequential input ['A', 'A', 'A', 'A', 'A'].
-- Expected Falsifiable Outcome: Screen transition displaying storage dialogue or clearing the deposit submenu.
+## Test Protocol 11: Extended Cancellation Pulse (Turn 43692)
+- Hypothesis: Testing whether a sustained train of B cancellation inputs ('B'*5) directly clears debounce counter states to force top-level menu dismissal.
+- Independent Variable: Sequential input ['B', 'B', 'B', 'B', 'B'].
+- Expected Falsifiable Outcome: Visual transition dismissing the submenu back to the party list or Bill's PC menu.
