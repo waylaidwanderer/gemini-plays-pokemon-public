@@ -126,7 +126,7 @@
   - HP: 151 / 269 [Verified Lv 76 Screen Turn 43453]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 3/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
@@ -140,7 +140,7 @@
   - Moves: Surf, Strength, Blizzard, Bite
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 13, Normal]
   - Status: Healthy
-  - HP: 30 / 30 [Verified Party Screen Turn 43443]
+  - HP: 30 / 30 [Verified at Lv 12 Turn 43443; Lv 13 verification pending]
   - Stats: Attack 22, Defense 16, Speed 25, Special 11 [Verified Lv 13 Screen Turn 43456]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack
@@ -330,11 +330,11 @@
 | Dodrio | 49 | 1,106 | 553 EXP | 133 EXP | 199 EXP | Verified Turn 43353 |
 | Hypno | 46 | 1,076 | 538 EXP | 131 EXP | 196 EXP | Verified Turn 43318 |
 | Magneton | 46 | 1,050 | 525 EXP | 131 EXP | 196 EXP | Verified Turn 43421 |
-| Kadabra | 49 | 1,008 | ~504 EXP | ~126 EXP | ~189 EXP | Predicted |
+| Kadabra | 49 | 1,008 | ~504 EXP | ~126 EXP | ~189 EXP | Unverified Prediction |
 | Venomoth | 49 | 952 | 476 EXP | 119 EXP | 178 EXP | Verified Turn 43340 |
 | Parasect | 52 | 950 | 475 EXP | 118 EXP | 177 EXP | Verified Turns 43378, 43405 |
 | Raichu | 53 | 908 | 454 EXP | 113 EXP | 169 EXP | Verified Turn 43441 |
-| Ditto | 53 | 461 | ~230 EXP | ~57 EXP | ~85 EXP | Predicted |
+| Ditto | 53 | 461 | ~230 EXP | ~57 EXP | ~85 EXP | Unverified Prediction |
 
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
@@ -5197,9 +5197,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~5,577 EXP to reach Lv 20 (~41 wild battles at ~135 EXP/battle via EXP.ALL).
-- Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 224 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
-- Current Offensive PP: Mewtwo OMEGA has Swift x3, Psychic x0 (Total: 3 attacks).
-- Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. If Mewtwo's Swift runs low (<= 3 PP), Sheldon takes over as lead sweeper, giving 64 combined attacks (more than enough for the ~48 battles required).
+- Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 228 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
+- Current Offensive PP: Mewtwo OMEGA has Swift x2, Psychic x0 (Total: 2 attacks).
+- Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. Mewtwo's Swift is at <= 3 PP, triggering the transition: Sheldon will take over as lead sweeper immediately following the current battle.
 - PP Exhaustion Tripwire:
   - When Mewtwo and Sheldon offensive PP drop to <= 3:
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
@@ -5207,9 +5207,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).
 ## Health Management & Overworld Status Damage Protocol
 - Lead Status: Mewtwo is Healthy (poison cured by wild Golbat's Haze Turn 43451; HP 151/269 at Lv 76).
-- Recover Threshold: If Mewtwo's HP drops to <= 100 HP (out of 264 max), select Recover (Move Slot 4, PP 20/20) during battle to restore 132 HP back to healthy levels.
+- Recover Threshold: If Mewtwo's HP drops to <= 100 HP , select Recover (Move Slot 4, PP 20/20) during battle to restore 132 HP back to healthy levels.
 - Lead Sweeper Swap Threshold: If Mewtwo's HP drops to <= 80 HP or Swift PP drops to <= 3, swap party leader to Sheldon (Blastoise Lv 77, 247/247 HP, healthy, 45 offensive moves: Blizzard x5, Surf x15, Bite x25).
-- In-Cave PP/Heal Tripwire: Max Elixir x1 in Bag Slot 5 can restore all PP if milestone is imminent (within 5 battles). Otherwise, southern exit at (25, 17) allows a rapid heal run at Cerulean Pokémon Center.
+
 
 <hr>
 
