@@ -1,0 +1,39 @@
+# Seafoam Islands Subterranean Lake / Lower Floor Geography & Layout
+
+## Overview
+- Subterranean lake level of Seafoam Islands cavern complex (hypothesized B4F / terminal floor, pending empirical ladder elevation verification).
+- Arrived via rapid water current drop from upper map at (20, 16) into (20, 15) [Turn 29186].
+
+## Key Landmarks & Layout
+- Subterranean Ocean / Lake: Massive body of water spanning rows 6..15 across cols 18..25+.
+- Western Dry Bank: Shoreline at row 14, with dry cave floor at cols 16..18, rows 14..16.
+- North Dock: Wooden stairs at (23, 5), connects subterranean lake to northern dry terrace.
+- Ladder (North): Located at (25, 4) on northern dry terrace. Elevation destination unverified.
+- Northern Dry Terrace: Rows 0..4 form an open corridor spanning cols 16..25+, extending west into unexplored western quadrant.
+
+- Western Sector & Canal [Sighted Turn 29192]:
+  - Col 14 rock wall spans rows 0..5; corridor passes underneath via row 6.
+  - Water canal located at cols 12..13 (rows 0..5) and col 11 (rows 4..5).
+- Northwest Water Channel & Shoreline [Audited Turn 29194]:
+  - Rows 4..5 form open water canal across cols 4..13, extending west into the extreme northwest corner.
+  - Shoreline launch at (7, 6): dry floor at (7..8, 6) faces north directly into water at (7, 5).
+  - Dock at (7, 3): wooden dock connects water at (7, 4) north onto dry floor at (7, 2).
+  - Rock divider at col 6: rows 7..10 divide western water (cols 4..5) from eastern dry floor (cols 7..13).
+- Rapid Current Verification [Audited Turn 29196]:
+  - Attempting to Surf north from (7, 6) into canal at (7, 5) yields 'No SURFing on SHELDON here!'.
+  - Confirms active rapid water currents in northwest canal block water traversal to Articuno.
+  - Boulders must be dropped from upper floors (B3F) to dam the currents.
+  - Ladder at (11, 7) [Audited Turn 29647]: Ascent ladder to B3F puzzle chamber, located at (11, 7) directly south of row 6 corridor.
+## Wild Encounters
+- Psyduck (Lv 30) [Encountered Turn 29464]
+- Staryu [Encountered Turn 29202].
+- Seel (Lv 31) [Encountered Turn 29420].
+- Staryu (Lv 31) [Encountered Turn 29649].
+## Subterranean Dam & Calm Currents (Audited Turn 29728)
+- Boulders Dropped from B3F: Two boulders fell through holes (3, 16) and (6, 16) and landed at (4, 15) and (5, 15).
+- Rapid Currents Dammed: Subterranean water channel between (5, 14) and (5, 10) empirically confirmed calm with zero forced current movement [Turn 29731].
+- Hole Drop: Stepping into Pit Hole 2 (6, 16) on B3F drops player directly into water at (5, 14) on B4F in calm water.
+## Legendary Bird Articuno Sighting & Platform (Turn 29735)
+- Platform: Dry cavern terrace across cols 5..10, rows 0..2.
+- Access: Wooden dock stairs at (7, 3) connecting water at (7, 4) up to terrace at (7, 2).
+- Entity: Stationary Legendary Bird ARTICUNO located at (6, 1) [Encountered Turn 29745, fled Turn 29975; sprite permanently despawned].

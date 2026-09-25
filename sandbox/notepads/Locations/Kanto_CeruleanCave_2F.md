@@ -1,0 +1,85 @@
+# Cerulean Cave 2F Geography & Exploration
+
+## Connections & Ladders
+- Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Directly accessible from (8, 1) stepping East. Visually confirmed with blue ladder rungs [Turn 26646]. Connects to 1F.
+- Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed.
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Exits West to (28, 1), South down Column 28 through (28, 2..3), East to (29, 3), and South down Column 29 through (29, 4..6). At (29, 6), turns West to (27, 6..7) and (25, 7), connecting south into Sector B (closed loop with Ladder 22, 6). Does NOT connect to Sector A.
+- Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
+- Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Connects ONLY to an isolated 7-tile secluded pocket spanning (18..20, 5..7). Bounded on ALL sides by solid rock walls: North at (18, 5), (19..20, 4); East at (21, 5..6), (20, 7); South at (18..19, 8); West at (17, 5..7). Has ZERO connection to Row 2, Row 3, Column 24, or the rest of 2F. [Empirically verified Turns 27015-27023]
+- Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
+
+## Layout & Corridors
+
+- Row 8 Collision Tests from Row 9: Physical bump tests confirmed (3, 8) [Turn 26973], (4, 8) [Turn 27414], (5, 8) [Turn 27506], (6, 8) [Turn 27585], (7, 8) [Turn 27587], (8, 8) [Turn 27589], (9, 8) [Turn 27415], (10, 8) [Turn 27591], (11, 8) [Turn 27508], and (12, 8) [Turn 27595] are solid rock boulders completely blocking northward passage from Row 9 across columns 3 through 12 (columns 0..2 remain unverified from Row 9).
+- Row 3 Northwest Corridor (Cols 3..9, Rows 1..3): From (9, 3), Row 3 runs west to (3, 3). At (3, 3), corridor turns north through (3, 2) into (3, 1) [Traversed Turns 26622, 26884]. Physical bump tests confirmed (2, 1) is solid rock wall [Turn 27454, 27849], (2, 2) is solid rock boulder [Turn 27459, 27850], and (2, 3) is solid rock boulder [Turn 27459, 27851], proving Column 2 (Rows 1..3) is completely impassable from Sector A. Row 2 Boulders [Audited Turn 27956]: Boulders block (4..10, 2) and (12, 2). Tile (9, 2) is a solid boulder, blocking direct north-south transit between (9, 1) and (9, 3); transit between Row 1 and Row 3 connects exclusively through (3, 2).
+- Northwest Ladder (1, 3) & Enclave (Cols 0..7, Rows 2..7): Ladder (1, 3) connects to open floor at (0, 3), (0..1, 2), (0..1, 4), and connects south into the Row 5 Northwest corridor spanning (0..7, 5). Bounded east of (7, 5) by solid rock at (8, 5). Row 4 Boulders [Audited Turn 27927]: (3..8, 4) are 100% solid purple boulders across Columns 3 through 8. The ONLY open tile on Row 4 in this sector is (9, 4), which connects down to (9, 5). Boulder (8, 5) separates (9, 5) from (7, 5). Rows 6..7 Audit [Turns 27948, 28011]: (6, 6) is the sole open floor connector linking Row 5 south into Row 7! Row 7 is an unbroken horizontal corridor spanning Columns 1 through 11 ((1..11, 7)), bounded east by boulder (12, 7) and west by (0, 7). Row 8 has solid boulders across (3..12, 8). Boundaries at columns 0..2 and potential southern connections require empirical physical testing.
+- Column 13 South Spur: Column 13 dead-ends at (13, 6) against solid rock at (13, 7), with solid rock at (12, 6) and (14, 6), blocking access south into Row 7. [Empirically verified Turn 26774]
+- Alcove (27, 4): 1-tile dead-end alcove branching east off Column 24 via Row 4. Bounded north by rock at (27, 3), east by rock at (28, 4), and south by rock at (27, 5). [Empirically verified Turn 26685]
+- Column 9 Corridor & Rock Boundary (Cols 8..10, Rows 3..6): Column 9 runs south from Row 3 at (9, 3) through (9, 4) to (9, 5). Stepping Down from (9, 5) into (9, 6) is blocked by solid rock wall at (9, 6). (8, 5) is also solid rock. Exits from (9, 5) are North to (9, 4) or East to (10, 5). Physical bump test from (10, 5) confirmed (10, 6) is solid rock wall, blocking south access to Row 6/7. [Empirically verified Turn 27246]
+- Northern Elevated Plateau (Cols 5..12, Rows 0..2): Open elevated rectangular terrace accessed from Row 1 east. Bounded south by solid rock wall at Row 3. [Physically verified Turn 26574]
+- Row 3 / Row 1 S-Bypass (Cols 16..20, Rows 1..3): Crucial connector linking (20, 2) west to Row 1. Path: (20, 2) -> south to (20, 3) -> west through (19, 3) to (18, 3) -> north through (18, 2) to (18, 1) -> west through (17, 1) to (16, 1). Bypasses rock pillar at (19, 1..2). [Visually verified Turn 26514]
+- Row 2 Corridor (Cols 20..24, Row 2): Open horizontal corridor connecting (20, 2) through (24, 2); connects west to S-bypass and east to Column 24. Solid rock at (20, 4) prevents any southern connection to Ladder (19, 7). [Empirically verified Turn 27023]
+- Column 24 & Row 4 Transit (Cols 24..29, Rows 2..6): Column 24 runs south from (24, 2) to (24, 5) and dead-ends south against rock wall at (24, 6..10). At (24, 4), corridor connects east through (25..29, 4) directly into Column 29 vertical transit artery. [Empirically verified Turn 27222]
+- Western Bypass Corridor & Southwest Boundary [Turns 28074-28081]:
+  - Row 17 Southern Thoroughfare West: Open horizontal corridor spanning (1..6, 17) and (11..17, 17). Boulder barrier spans (7..10, 17) [bump-tested at (7, 17) Turn 28074]. Bypass between eastern and western Row 17 connects via Column 6: (6, 16) <-> (6, 17).
+  - Western Outer Bypass: From (1, 17), corridor runs north through (1, 16) to (1, 15), then bypasses boulder (1, 14) via Column 2: stepping east to (2, 15), north through (2, 14) and (2, 13), west to (1, 13), and north to (1, 12) [Physically traversed Turns 28076-28080].
+  - Boulders block (1, 14), (2, 16), (2, 12), and (0, 13..17).
+  - Pocket at (0..1, 12): (1, 12) and (0, 12) are open floor. Northern boundaries (0..1, 11) and passability toward Rows 8-10 require physical testing.
+- Lower Southwest Corridor Network (Cols 4..13, Rows 13..17):
+  - Row 13 West: Open horizontal corridor spanning (5..8, 13). (4, 13) and (9..11, 13) are solid rock walls.
+  - Column 5 South: Open vertical corridor spanning (5, 13..15). Connects directly east of Item Ball (4, 15).
+  - Ultra Ball at (4, 15): Ground Item Ball retrieved at (4, 15) from (5, 15) facing Left [Turn 25986]. In-game audit confirmed ULTRA BALL x1.
+  - Row 14 West: Open horizontal corridor spanning (8..10, 14), (5..6, 14), and (12..13, 14). Blocked by rock walls at (7, 14), (11, 14), and (14, 14).
+  - Column 10 Passage: Open vertical corridor at (10, 14..16) connecting Row 14 south to Row 16.
+  - Row 16 West Highway: Open horizontal corridor at (8..11, 16). (6..7, 16) are open floor; (3..5, 16) and (12, 16) are rock walls.
+  - Row 17 Southern Thoroughfare West: Open horizontal corridor spanning (3..7, 17) and (11..17, 17). (8..10, 17) is a rock barrier.
+  - Column 13 Bypass: Open vertical corridor at (13, 15..17) connecting Row 17 north to Row 15, stepping west to Column 12 at (12, 15).
+  - Column 12 Vertical Highway: Open vertical passage spanning (12, 9..15) connecting Row 9 directly south to the lower southwest network.
+- Row 9 East Bypass & Terminus (Cols 13..21, Rows 8..10):
+  - (14, 9) is a solid rock wall blocking direct east-west traversal along Row 9. Bypass route: (13, 9) -> (13, 8) -> (14, 8) -> (15, 8) -> (15, 9). [Physically verified Turns 26008-26009]
+  - East Terminus: Row 9 extends east from (15, 9) through (16..20, 9) [physically traversed] to an enclosed dead-end alcove at (21, 9) [visually verified]. Bounded north by solid rock wall across Row 8 (16..22, 8), east by solid rock wall at (22, 9), and south by solid rock wall across Row 10 (16..22, 10). Row 9 has ZERO connection to Column 23, Row 11, or Ladder (22, 6). [Verified Turns 26991-26997]
+- Alcove (10, 12): 1-tile dead-end alcove off Row 11 at (10, 11), bounded south by rock wall at (10, 13). [Physically verified Turn 25934]
+- Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
+- Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
+- Western Pocket & Ladder (3, 11): Encloses Ladder (3, 11) at (3, 11). Open passage north through (3, 10) to Row 9 at (3, 9). Connects west via (3, 10) -> (2, 10) -> (2, 11) -> (3, 11) loop.
+  - Bump Tests & Boundaries: Physical collision tests confirmed (3, 8) [Turn 26973], (2, 9) [Turn 26973], and (1, 10) [Turn 27321] are solid rock walls. Tile (1, 10) blocks passage west from (2, 10) into Column 1.
+
+- Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
+- Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
+- Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
+- Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11). [Physically verified]
+- Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south from (24, 11) to (24, 15), bounded west by col 23 rock wall, east by col 25 rock wall, and south by solid rock wall at (24, 16). Empirically verified dead end at (24, 15). [Verified Turns 26468-26474]
+- Alcove (29, 9): 1-tile dead-end alcove at (29, 9) off Column 28 corridor. Physically inspected Turn 25578; no ground item or hidden item present.
+- Row 11 West Corridor (Cols 14..23, Row 11): 1-tile wide horizontal corridor running west from (23, 11) to (14, 11). [Physically verified]
+  - South Junction at (17, 11): Connects south through (17, 12..13) into Row 13 east-west corridor. [Physically verified]
+  - West End at (14, 11): Blocked to the west by (13, 11) rock wall. [Physically verified]
+- Row 13 Central Corridor (Cols 17..22, Row 13):
+  - Turns south into (22, 14..15) and (21, 15), but dead-ends against solid Row 16 rock wall (cols 15..24 solid). Does NOT connect to Row 17. [Verified Turn 26186]
+- Row 17 Southern Thoroughfare Partition: Row 17 does NOT connect across the map!
+  - Western Row 17: Spans (11..19, 17) and dead-ends at (19, 17) against solid rock wall at (20, 17). North wall (17..20, 16) and south wall (13..22, 18) are solid rock. [Visually verified Turn 26347].
+  - Eastern Row 17 Spur: Dead-end landing at (27, 17) accessed from (27, 16). Rock walls block (22..26, 17) and (28..29, 17). Tile (21, 17) is an isolated single-tile cavity enclosed by rock walls. [Visually verified Turns 26468-26475]
+- Northern Chamber Pocket (Cols 24..27, Rows 4..5): Enclosed 4x2 dead-end room accessed from (24, 2) via Column 24 (24, 3..4). Bounded north by solid rock wall at (25..27, 3), east by solid rock wall at (28, 4..5), and south by solid rock wall across Row 6 at (23..28, 6). Has ZERO passage to Row 7, Column 26, or Column 28/29. [Empirically verified Turns 26858-26860]
+- Northeast Loop & Column 29 (Cols 27..29, Rows 3..7): From (25, 7), passage leads east to (27, 7), north to (27, 6), east to (29, 6), and north up Column 29 through rows 5, 4, 3. At (29, 3), turns west into (28, 3) leading toward the northern transit corridor. [Visually verified]
+- Column 26 Corridor (Col 26, Rows 9..14): 1-tile wide vertical corridor running north from Row 14 at (26, 14) to (26, 9). Bounded by solid rock walls at Col 25 (west) and Col 27 (east). At (26, 9), turns west to (25, 9) to access the northern network.
+- Column 27/28 Southeast Corridor: From (27, 17), leads north to (27, 16) where (27, 15) is blocked by rock wall. Steps east to (28, 16) and runs north along Column 28 through (28, 15) to (28, 14). [Physically verified (27, 17..16)]
+- Row 14 East-West Branch: At (28, 14), connects west to (27, 14) and (26, 14), and east to (29, 14). [Visually verified]
+- Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Alcove (29, 9). [Physically verified]
+- Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
+- Column 16 Dead-End Spur (Col 16, Rows 5..7): Row 5 ends east at (16, 5). Column 16 branches south through (16, 6) to (16, 7), which is completely enclosed by solid rock on south (16, 8), west (15, 7), and east (17, 7). Zero connection to Row 7 or Ladder (19, 7). [Visually and physically verified Turns 25760, 26925]
+- Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
+- Row 0 Northern Enclosure (Cols 21..24, Row 0): Enclosed pocket spanning (21..24, 0) and (20..22, 1). (22, 1) is solid rock, preventing direct northbound traversal from (22, 2). (16..20, 0) are solid rock walls. [Physically verified Turns 26513-26514]
+- Column 21/22 & Row 3/4 Junctions: Tile (21, 3) is solid rock blocking direct northbound access from (21, 4) [Turn 26417]. Passage to Row 2 bypasses east via (22, 4) -> (22, 3..2). Tile (19, 4) is solid rock blocking direct north access from (19, 5) [Turn 26509]. Tile (25, 3) is solid rock blocking east movement from (24, 3) [Turn 26419].
+- Western Arteries (Cols 14..16, Rows 1..5): Columns 14 and 15 form a broad 2-tile wide vertical corridor connecting Row 1 down through Row 5. Row 1 connects directly from (18, 1) through (17, 1), (16, 1), (15, 1) into (14, 1). [Visually verified Turn 26517]
+- Column 13 Vertical Highway & Row 5 Bypass (Cols 9..14, Rows 1..6): Row 1 runs west from (14, 1) through (13, 1) to (11, 1). (10, 1) is solid rock. Column 11 runs south to (11, 3) but dead-ends against solid rock at (11, 4). Column 13 is the true vertical highway connecting Row 1 (13, 1) south through (13, 2..5) to Row 5. Row 5 runs west through (12..9, 5). At (9, 5), Column 9 runs north through (9, 4) to (9, 3), connecting directly west into Row 3 (8..7, 3). [Empirically verified Turn 26751]
+
+## Wild Pok�mon (Empirically Verified)
+- Magneton: Wild encounter [Encountered 2F Turn 26570]
+- Dodrio: Lv 51 [Encountered 2F Turn 25536]
+- Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
+- Rhydon: Lv 52 [Encountered 2F Turn 25585]
+- Ditto: Lv 55 [Encountered 2F Turn 25661]
+- Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
+- Venomoth: Lv 51 [Encountered 2F Turn 25775]
+- Chansey: Lv 56 [Encountered 2F Turn 25780]
+- Electrode: Lv 52 [Encountered 2F Turn 25976]
+- Marowak: Lv 52 [Encountered 2F Turn 26054]
