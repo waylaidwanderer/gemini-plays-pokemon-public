@@ -17,7 +17,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Stairs / Escalator: Tile (12, 1) is escalator down to 1F. Tile (16, 1) is one-way escalator landing from 3F (solid when approached from south). Elevator at (1, 1) provides direct inter-floor transit to 1F..5F.
 - Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks at (5, 3) and (6, 3) facing South, operated from row 5 facing North [Observed Turn 32154].
 - Aisles & Shelves: Glass display cases at rows 3..4 and row 6 (cols 10..13 and 16..17).
-- Walkways: Main upper aisle across row 2; center walkway across cols 14..15; lower aisle along row 5.
+- Walkways: Upper aisle across row 2 (cols 8..16, blocked at col 7 by counter wall); vertical corridor across cols 8..9 (rows 2..5); center walkway across cols 14..15; lower aisle along row 5 (connects west to elevator at (1, 1)).
 - Elevator: Entrance at (1, 1) with call button at (2, 1).
 - NPC: Trainer at (14, 3) facing right.
 
