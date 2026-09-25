@@ -5222,6 +5222,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Testing discrete B input following neutral cycle.
 - Discrete B Input Outcome (Turn 44116): Sent discrete 'B' input via press_buttons following neutral cycle. Empirical Outcome: Exactly 0 pixel delta across intermediate (turn_44117_0) and final frame; menu state unchanged.
 - Down-A Sequence Test (Turn 44117): Testing ['Down', 'A'] via press_buttons targeting STATS option.
+- Down-A Sequence Outcome (Turn 44117): Sent ['Down', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44118_0, turn_44118_1) and final frame; menu state unchanged.
+- Testing B-A sequence via press_buttons.
 
 <hr>
 
