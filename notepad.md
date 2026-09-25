@@ -123,10 +123,10 @@
   - HP: 12 / 247 [Grew to Lv 77 Turn 42979]
   - Stats: Attack 185, Defense 214, Speed 185, Special 192 [Verified Lv 77 Screen Turn 42979]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 2/15), Ice Beam (PP 2/10)
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 33, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 34, Normal/Flying]
   - Status: Healthy
-  - HP: ~83 / ~83 [Grew to Lv 33 Turn 42948]
-  - Stats: Attack 54, Defense 51, Speed 50, Special 48 [Verified Lv 33 Screen Turn 42948]
+  - HP: ~85 / ~85 [Grew to Lv 34 Turn 42985]
+  - Stats: Attack 56, Defense 52, Speed 52, Special 49 [Verified Lv 34 Screen Turn 42985]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
