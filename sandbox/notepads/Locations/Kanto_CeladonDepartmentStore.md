@@ -16,7 +16,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Floor Sign: Located at (14, 1) on north wall ("2F: TRAINER'S MARKET - Top Grade Items for Trainers!").
 - Stairs / Escalator: Tile (12, 1) is escalator down to 1F. Tile (16, 1) is impassable when approached from south on row 2 (unverified whether landing or blocked). Elevator at (1, 1) provides direct inter-floor transit to 1F..5F.
 - Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks:
-  - Left Clerk (at (5, 3), shop from (5, 5) facing North): Trainer items (Great Ball ¥600, Super Potion ¥700, Revive ¥1500, Super Repel ¥500, status heals). Does NOT sell standard Poké Balls (¥200).
+  - Left Clerk (at (5, 3), approached from (5, 5) facing North): Inventory unverified (did not inspect catalog on Turn 43035).
   - Right Clerk (at (6, 3), shop from (6, 5) facing North) [Empirically verified Turn 43035]: Technical Machines:
     - TM32 (Double Team): ¥1,000
     - TM33 (Reflect): ¥1,000

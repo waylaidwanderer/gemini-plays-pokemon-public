@@ -116,7 +116,7 @@
 - IDNo: 04620
 - Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
+- Pokédex: 60 Caught [RATTATA #019 caught Turn 43083] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
@@ -2207,7 +2207,7 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Floor Sign: Located at (14, 1) on north wall ("2F: TRAINER'S MARKET - Top Grade Items for Trainers!").
 - Stairs / Escalator: Tile (12, 1) is escalator down to 1F. Tile (16, 1) is impassable when approached from south on row 2 (unverified whether landing or blocked). Elevator at (1, 1) provides direct inter-floor transit to 1F..5F.
 - Shop Counter: Spans rows 3..4 across cols 4..7, staffed by two clerks:
-  - Left Clerk (at (5, 3), shop from (5, 5) facing North): Trainer items (Great Ball ¥600, Super Potion ¥700, Revive ¥1500, Super Repel ¥500, status heals). Does NOT sell standard Poké Balls (¥200).
+  - Left Clerk (at (5, 3), approached from (5, 5) facing North): Inventory unverified (did not inspect catalog on Turn 43035).
   - Right Clerk (at (6, 3), shop from (6, 5) facing North) [Empirically verified Turn 43035]: Technical Machines:
     - TM32 (Double Team): ¥1,000
     - TM33 (Reflect): ¥1,000
@@ -5185,18 +5185,42 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Target 1: Bellsprout (#069 SPROUT) [Archived Box 2]
     - Target 2: Weedle (#013 NEEDLE) & Caterpie (#010 SILK) [Archived Box 2]
   - Active / Pending Targets:
-    - Target 3: Route 1 - Rattata (#019 -> #020 Raticate). (Pidgey #016 already caught).
-    - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone in Bag Slot 9).
+    - Target 3: Rattata (#019 RATTY) caught [Turn 43083] in party Slot 4; training to Lv 20 for Raticate (#020) pending.
+    - Target 4: Route 3 - Jigglypuff (#039 -> #040 via Moon Stone - Moon Stone in Bag Slot 9). Active hunt in progress.
 - Active Expedition 16 Target Tracker & Strategy:
   - Leaf Stones: 2 secured in Bag Slot 10 (purchased for ¥4,200 Turn 43046) for future Victreebel (delay to Lv 38 for Razor Leaf) and Vileplume (trade req).
-  - Target 3 (Route 1): Rattata (#019) -> CAUGHT Turn 43083 (Ball 1 at full HP). Nickname RATTY (party Slot 4). Train in Cerulean Cave 1F to Lv 20 to evolve into Raticate (#020).
-  - Target 4 (Route 3): Jigglypuff (#039) -> capture with Poké Ball in Route 3 tall grass, evolve immediately via Moon Stone (Bag Slot 9) into Wigglytuff (#040).
+  - Target 3 (Route 1): Rattata (#019) -> CAUGHT Turn 43083 (Ball 1 at full HP). Nicknamed RATTY in party Slot 4. Train in Cerulean Cave 1F to Lv 20 to evolve into Raticate (#020).
+  - Target 4 (Route 3): Jigglypuff (#039) -> active hunt in Route 3 tall grass. Capture with Poké Ball (98 in Bag Slot 11), evolve via Moon Stone (Bag Slot 9) into Wigglytuff (#040).
 - Immediate Execution Sequence:
-  1. Rattata (#019) caught on Route 1 [Turn 43083], nicknamed RATTY in party Slot 4.
-  2. Fly to Pewter City with DUX (HM02 Fly).
-  3. Walk east from Pewter City onto Route 3 into tall grass (rows 8..11, cols 2..5+).
-  4. Encounter and capture wild Jigglypuff (#039, nickname PUFF, joins party Slot 5) with Poké Ball (98 balls in Bag Slot 11).
-  5. Apply Moon Stone (Bag Slot 9) to evolve Jigglypuff into Wigglytuff (#040).
-  6. Fly to Cerulean City -> Cerulean Cave 1F to train Rattata to Lv 20 for Raticate (#020).
+  1. In Route 3 tall grass: encounter and capture wild Jigglypuff (#039, nickname PUFF, joins party Slot 5) with Poké Ball.
+  2. Apply Moon Stone (Bag Slot 9) to evolve Jigglypuff into Wigglytuff (#040).
+  3. Fly to Cerulean City -> Cerulean Cave 1F to train Rattata to Lv 20 for Raticate (#020).
+
+<hr>
+
+<h1><code>Mechanics/EvolutionAndStones</code></h1>
+
+# Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
+
+## Evolutionary Stones & Commercial Availability
+- **Leaf Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100 [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
+- **Fire Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100 [Turn 33357]. Evolves Vulpix -> Ninetales, Growlithe -> Arcanine, Eevee -> Flareon.
+- **Water Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100 [Turn 34159]. Evolves Poliwhirl -> Poliwrath, Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
+- **Thunder Stone:** Sold infinitely on Celadon Department Store 4F for ¥2,100. Evolves Pikachu -> Raichu, Eevee -> Jolteon.
+- **Moon Stone:** NON-PURCHASABLE anywhere in Generation 1 retail. Exactly 5 finite overworld pickups exist in Kanto:
+  1. Mt. Moon 1F
+  2. Mt. Moon B2F
+  3. Rocket Hideout B2F
+  4. Silph Co. 5F
+  5. Pokémon Mansion B1F
+  Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
+
+## Movepool Truncation & Stone Evolution Timing
+- In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
+- Pre-evolutions must reach key levels before stone application if specific moves are needed for battle utility:
+  - Weepinbell: Delay evolution until Level 38 for Razor Leaf (Victreebel learns no level-up moves).
+  - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
+  - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
+- Pokédex-Only Speed Strategy: When capturing Pokémon solely for Pokédex registration where battle movesets are irrelevant, immediate stone application upon capture is optimal to minimize training time.
 
 <hr>

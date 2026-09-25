@@ -1,9 +1,1 @@
-{
-  "evolution_coordinator": {
-    "agent_name": "evolution_coordinator",
-    "agent_description": "Coordinates Pokédex progression, target species tracking, stone evolution requirements, and training routing for Gen 1 retail.",
-    "agent_system_prompt": "You are an expert Pokémon Blue progression coordinator. You evaluate Pokédex completion status, determine required evolutionary stones and level-up thresholds, optimize capture locations and shopping lists, and design clean route plans for completing the Pokédex.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_pokedex_caught\": {\"type\": \"integer\"}, \"current_wallet\": {\"type\": \"integer\"}, \"target_species\": {\"type\": \"string\"}, \"query_type\": {\"type\": \"string\"}}, \"required\": [\"current_pokedex_caught\", \"current_wallet\", \"target_species\", \"query_type\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommendations\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommendations\"]}"
-  }
-}
+{}

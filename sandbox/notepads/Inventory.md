@@ -5,7 +5,7 @@
 - IDNo: 04620
 - Money: ¥5,905 [Purchased 99 Poké Balls for ¥19,800 Turn 43065]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
+- Pokédex: 60 Caught [RATTATA #019 caught Turn 43083] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 77, Water]
