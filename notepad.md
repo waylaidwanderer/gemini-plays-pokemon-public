@@ -143,6 +143,12 @@
   - HP: Pending post-battle verification on Stats screen
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
+- Slot 5: WIGGLYTUFF (Nickname: PUFF) [Lv 3, Normal]
+  - Status: Healthy
+  - HP: 21 / 21 [Verified Lv 3 Screen Turn 43215]
+  - Stats: Attack 9, Defense 8, Speed 8, Special 8 [Verified Lv 3 Screen Turn 43215]
+  - OT: BLUE (IDNo. 04620)
+  - Moves: Sing, Defense Curl
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -214,7 +220,6 @@
   - Bellsprout (SPROUT Lv 12) [Deposited Turn 42628]
   - Weedle (NEEDLE Lv 3) [Deposited Turn 42784]
   - Caterpie (SILK Lv 3) [Deposited Turn 42786]
-  - Wigglytuff (PUFF Lv 3) [Deposited Turn 43225]
 - Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
 
 <hr>
@@ -5187,12 +5192,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Started: Turn 42404
 - Active Targets:
   - Target 3: Rattata (#019 RATTY) - CAUGHT Turn 43083, in party Slot 4. Needs training to Lv 20 for Raticate (#020) at Cerulean Cave 1F.
-  - Target 4: Jigglypuff (#039 PUFF) -> WIGGLYTUFF (#040) - COMPLETED & ARCHIVED in Box 2 [Turn 43225].
+  - Target 4: Jigglypuff (#039 PUFF) -> WIGGLYTUFF (#040) - EVOLVED Turn 43213! In party Slot 5, at PC executing deposit into Box 2.
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
-  - Wigglytuff (#040 PUFF) [Deposited Turn 43225]
 - Key Inventory:
     - LEAF STONE x2 (Bag Slot 10) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
   - POK� BALL x98 (Bag Slot 11).
