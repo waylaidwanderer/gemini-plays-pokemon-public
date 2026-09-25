@@ -126,7 +126,7 @@
   - HP: 202 / 264 [Verified Battle Screen Turn 43403]
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 14/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 13/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 34, Normal/Flying]
   - Status: Healthy
   - HP: 87 / 87 [Verified Turn 43243]
@@ -301,6 +301,7 @@
 - **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
+  - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
   - When a single lead Pokémon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
   - EXP.ALL distributes the remaining half among all party members: `s_expall = floor(floor(Total_EXP / 2) / N)`.
   - Traded Pokémon receive: `s_expall + floor(s_expall / 2)`.
@@ -331,7 +332,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sandslash | 52 | 1,188 | 594 | 297 + 74 = 371 EXP | 74 + 37 = 111 EXP | 297 + 44 = 341 EXP |
 | Golbat | 46 | 1,104 | 552 | 276 + 65 = 341 EXP | 65 + 32 = 97 EXP | 276 + 46 = 322 EXP |
-| Dodrio | 49 | 1,092 | 546 | 273 + 63 = 336 EXP | 63 + 31 = 94 EXP | 273 + 42 = 315 EXP |
+| Dodrio | 49 | 1,106 (Observed) | 553 | 276 + 66 = 342 EXP | 133 + 66 = 199 EXP | 276 + 44 = 320 EXP |
 | Hypno | 46 | 1,076 | 538 | 269 + 65 = 334 EXP | 65 + 32 = 97 EXP | 269 + 39 = 308 EXP |
 | Magneton | 46 | 1,050 | 525 | 262 + 65 = 327 EXP | 65 + 32 = 97 EXP | 262 + 39 = 301 EXP |
 | Kadabra | 49 | 1,008 | 504 | 252 + 63 = 315 EXP | 63 + 31 = 94 EXP | 252 + 42 = 294 EXP |
@@ -5134,7 +5135,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **PC Pokémon Withdrawal List Vertical Navigation:** In Generation 1 retail, the PC Pokémon storage withdrawal list does NOT wrap vertically from top to bottom (pressing Up at Slot 1 stops at Slot 1 and does not wrap to CANCEL, identical to Bag item list behavior) [Empirically verified Turn 42398].
 - **Pokémon Box Storage Indexing:** Empirically confirmed Turn 33419: in Box 1, Krabby (PINCHY, caught Turn 31540) was listed at Slot 1 ahead of Zapdos (THUNDER, caught Turn 29075), disproving strict chronological box index ordering.
 - **Item Storage Withdrawal:** When withdrawing items from BLUE's PC, single-quantity items withdraw immediately upon confirmation, while stacked items prompt for quantity (x01..x99). Withdrawn items are placed into the next available Bag slot.
-- **PC Menu Navigation:** The PC item storage withdrawal list scrolls vertically. The list does NOT wrap vertically from top to bottom (pressing Up at Item 1 does not wrap to CANCEL).
 - **Party Space Prerequisite:** In BILL's PC, selecting WITHDRAW PKMN when the active party is full (6 Pokémon) displays 'Your party is full!' and denies withdrawal. The player must use DEPOSIT PKMN first to free party slots.
 - **Batched Operations:** PC sessions can seamlessly transition between BILL's PC and BLUE's PC by pressing B to back out to the main PC menu ('BILL's PC', 'BLUE's PC', 'PROF. OAK's PC', 'LOG OFF') without needing to exit to the overworld between operations.
 
@@ -5201,9 +5201,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~6,634 EXP to reach Lv 20 (~48 wild battles at ~135 EXP/battle via EXP.ALL).
+- Target: Rattata requires ~6,368 EXP to reach Lv 20 (~46 wild battles at ~135 EXP/battle via EXP.ALL).
 - Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 224 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
-- Current Offensive PP: Mewtwo OMEGA has Swift x14, Psychic x0 (Total: 14 attacks).
+- Current Offensive PP: Mewtwo OMEGA has Swift x13, Psychic x0 (Total: 13 attacks).
 - Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. If Mewtwo's Swift runs low (<= 3 PP), Sheldon takes over as lead sweeper, giving 64 combined attacks (more than enough for the ~48 battles required).
 - PP Exhaustion Tripwire:
   - When Mewtwo and Sheldon offensive PP drop to <= 3:
