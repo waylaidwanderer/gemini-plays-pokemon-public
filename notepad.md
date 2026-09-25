@@ -5236,6 +5236,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: Testing whether A confirms DEPOSIT, second A clears storage dialogue, and B dismisses party menu.
 - Independent Variable: Sequential input ['A', 'A', 'B'].
 - Expected Falsifiable Outcome: Visual transition displaying storage text or returning to Bill's PC.
+- Result: Falsified Turn 43745 with zero pixel delta.
+
+## Test Protocol 34: Full Backout & Log Off Confirmation (Turn 43746)
+- Hypothesis: Testing whether four B inputs cascade through all nested menus to the top-level PC menu, followed by A to confirm LOG OFF.
+- Independent Variable: Sequential input ['B', 'B', 'B', 'B', 'A'].
+- Expected Falsifiable Outcome: Visual dismissal of PC menus to return to the Pokémon Center overworld.
 
 <hr>
 
