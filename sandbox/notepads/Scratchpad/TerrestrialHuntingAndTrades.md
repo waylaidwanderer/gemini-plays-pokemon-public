@@ -18,7 +18,7 @@
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~6,752 EXP to reach Lv 20 (~49 wild battles at ~135 EXP/battle via EXP.ALL).
-- Current Offensive PP: Mewtwo OMEGA has Swift x20, Psychic x0 (Total: 20 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
+- Current Offensive PP: Mewtwo OMEGA has Swift x19, Psychic x0 (Total: 19 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
 - PP Exhaustion Tripwire:
   - When Mewtwo's offensive PP drops to <= 3 (Psychic 0, Swift <= 3):
     1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
