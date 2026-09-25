@@ -140,7 +140,8 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 3, Normal]
   - Status: Healthy
-  - HP: Pending post-battle verification on Stats screen
+  - HP: 15 / 15 [Verified Lv 3 Screen Turn 43216]
+  - Stats: Attack 8, Defense 7, Speed 9, Special 6 [Verified Lv 3 Screen Turn 43216]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip
 - Slot 5: WIGGLYTUFF (Nickname: PUFF) [Lv 3, Normal]
@@ -5195,7 +5196,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
-  - Jigglypuff (#039 PUFF) -> Wigglytuff (#040) [Turn 43213]
+- Completed Targets in Active Party:
+  - Wigglytuff (#040 PUFF Lv 3, Party Slot 5) [Evolved Turn 43213]
 - Key Inventory:
   - LEAF STONE x2 (Bag Slot 9) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
   - POKé BALL x88 (Bag Slot 10).
