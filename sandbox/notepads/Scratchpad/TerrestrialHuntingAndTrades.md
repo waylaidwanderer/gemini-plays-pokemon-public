@@ -22,7 +22,7 @@
   - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## PC Terminal Interface Observation & Empirical Testing Audit (Turns 43226–44192)
+## PC Terminal Interface Observation & Empirical Testing Audit (Turns 43226–44286)
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI (Bill's PC, Party list with PUFF selected, 'What?', DEPOSIT/STATS/CANCEL submenu with cursor at DEPOSIT).
 - Core Status: Storing Wigglytuff (PUFF) is abandoned. Active party is 3/6 (Mewtwo Lv 75, Rattata Lv 3, Wigglytuff Lv 3). Primary progression milestone is training Rattata to Lv 20 at Cerulean Cave 1F.
-- Consolidated Empirical Findings: Across all controller inputs tested through Turn 44192 (including discrete single inputs of all 8 standard buttons, R/L buttons, 26 consecutive B-cancel cycles, confirmation attempts with A, and 18 two-button directional/functional permutations), the nested PC submenu consistently displays exactly 0 pixel delta across all intermediate and final frames. No differential input filtering or selective button responsiveness has been observed.
+- Consolidated Empirical Findings: Across all controller inputs tested through Turn 44286 (including discrete single inputs of all standard buttons, repeated B-cancel chains, Down/A confirmation attempts, debounced sequences, and chord combinations), the nested PC submenu consistently displays 0 pixel delta across all intermediate and final frames.
