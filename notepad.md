@@ -5224,6 +5224,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Down-A Sequence Test (Turn 44117): Testing ['Down', 'A'] via press_buttons targeting STATS option.
 - Down-A Sequence Outcome (Turn 44117): Sent ['Down', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44118_0, turn_44118_1) and final frame; menu state unchanged.
 - Testing B-A sequence via press_buttons.
+- B-A Sequence Outcome (Turn 44118): Sent ['B', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across intermediate frames (turn_44119_0, turn_44119_1) and final frame; menu state unchanged.
+- Testing Start-B sequence via press_buttons.
 
 <hr>
 
