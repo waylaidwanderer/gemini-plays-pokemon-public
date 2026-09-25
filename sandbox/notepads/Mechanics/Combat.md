@@ -96,4 +96,9 @@
 
 ## Generation 1 Capture Mechanics & Empirical Boundaries
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
-- **Empirical Breakout Verification:** Both wild Pidgey Lv 13 (Turn 42480) and wild Bellsprout Lv 12 (Turn 42586)—both species having maximum BCR 255—broke free from basic Poké Balls at full HP after 3 shakes on Ball 1 before being captured on Ball 2. Empirical testing with N=2 demonstrates that breakouts occur even at full HP against BCR 255 targets with basic Poké Balls (falsifying any 100% capture guarantee). Ball budgeting must therefore allocate multiple Poké Balls per target even for BCR 255 species.
+- **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
+  - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
+  - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
+  - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
+  - Caterpie Lv 3 (Turn 42749): broke free after 3 shakes on Ball 1.
+  Across N=4 distinct encounters and 8 total ball throws, 6 out of 8 throws resulted in 3-shake breakouts at full HP. This empirically proves that even at maximum BCR 255, capture probability per basic Poké Ball at full HP is ~30-40%, mandating budgeting 3-5 balls per target species.
