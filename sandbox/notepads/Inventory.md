@@ -8,23 +8,23 @@
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (3 / 6)
-- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
   - Status: Healthy
-  - HP: 263 / 264
-  - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - HP: 241 / 241 [Verified Turn 42857]
+  - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 30, Normal/Flying]
   - Status: Healthy
-  - HP: 75 / 75 [Verified Party Screen Turn 41929]
+  - HP: 77 / 77 [Verified Party Screen Turn 42857]
   - Stats: Attack 50, Defense 47, Speed 46, Special 44 [Verified Lv 30 Screen Turn 42821]
   - OT: ELYSSA (IDNo. 54183) [Traded in Vermilion City]
   - Moves: Cut (PP 30/30), Fly (PP 15/15), Sand-Attack (PP 15/15), Leer (PP 30/30)
-- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 75, Water]
-  - Status: Healthy
-  - HP: 241 / 241 [Verified Healed Turn 42384]
-  - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
+  - Status: PAR (Paralyzed)
+  - HP: 50 / 264 [Verified Party Screen Turn 42857]
+  - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
+  - OT: BLUE (IDNo. 04620)
+  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (9 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
