@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
 
-- Money: ¥106 [Verified Turn 42653]
+- Money: ¥29,905 [Calculated from 5-battle rematch gauntlet; Trainer Card audit pending post-credits]
 
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
@@ -113,7 +113,7 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥29,905 [Empirically calculated from battle rewards (+¥5544, +¥5742, +¥5940, +¥6138, +¥6435) Turn 42988]
+- Money: ¥29,905 [Calculated from prize rewards (+¥5544, +¥5742, +¥5940, +¥6138, +¥6435); Trainer Card audit pending post-credits]
 - Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 59 Caught [CATERPIE #010 caught Turn 42762] / 137 Seen [Verified Turn 39387]
 
@@ -4400,14 +4400,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
 - Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated), Venusaur Lv 65 (Defeated).
 - Outcome: DEFEATED! BLUE defeated Champion RED on Turn 24981. Sheldon Lv 70 victorious.
-## Rematch Telemetry [Turn 42958+]
-- Combatant 1: Pidgeot Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Ice Beam. Outcome: OHKO! Pidgeot fainted. Damage: 100% HP.
-- Combatant 2: Alakazam Lv 59. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Body Slam. Outcome: OHKO! Alakazam fainted. Zero damage taken (Sheldon 91/244 HP).
-- Combatant 3: Rhydon Lv 61. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 4x OHKO! Rhydon fainted. Zero damage taken (Sheldon 91/244 HP).
-- Combatant 4: Gyarados Lv 61. Turn 1: Sheldon moved FIRST, Body Slam dealt ~50%. Gyarados used Leer. Turn 2: Sheldon moved FIRST, Body Slam paralyzed Gyarados (~2% HP). Gyarados Hyper Beam hit (Sheldon 9/244 HP). Turn 3: Sheldon moved FIRST, Body Slam finished Gyarados! Zero recoil taken.
-- Combatant 5: Arcanine Lv 63. Turn order: Sheldon Lv 76 (Speed 182) moved FIRST. Move: Surf. Outcome: 2x OHKO! Arcanine fainted. Zero damage taken (Sheldon 9/244 HP).
-- Combatant 6: Venusaur Lv 65. Turn 1: Sheldon moved FIRST, Ice Beam dealt ~80%. Venusaur took in sunlight (SolarBeam charge, 0 damage). Turn 2: Ice Beam finishing blow! Outcome: DEFEATED! Champion RED conquered!
-- Rematch Result: DEFEATED 6-0! Prize: ¥6,435. Cumulative rematch earnings: ¥29,905 total.
+## Rematch Defeat [Turn 42985]
+- Defeated by SHELDON (Blastoise Lv 77) solo in a 6-0 sweep (Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 61, Arcanine Lv 63, Venusaur Lv 65).
+- Prize: ¥6,435 (Cumulative gauntlet prize money: ¥29,905).
+- Hall of Fame doorway unlocked!
 
 <hr>
 
@@ -5180,21 +5176,18 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Chamber 4 (Lance): Defeated! (5-0 sweep by Sheldon Lv 76). DUX grew to Lv 33. Prize: +¥6,138.
   - Champion RED: Defeated! (6-0 sweep by Sheldon Lv 77). Prize: +¥6,435.
   - Outcome: POKÉMON LEAGUE CHAMPION! Cumulative funds: ¥29,905 total.
-## Gauntlet Resource Budgeting & Strategy [Turn 42961]
-- Active Party:
-  - SHELDON (Blastoise Lv 76, HP 91/244): Double-Edge (15/15 PP), Body Slam (13/15 PP), Surf (5/15 PP), Ice Beam (4/10 PP).
-  - DUX (Farfetch'd Lv 33, HP ~83/~83): Cut, Fly, Sand-Attack, Leer.
-  - OMEGA (Mewtwo Lv 75, HP 50/264 PAR): Psychic (5/10 PP), Recover (20/20 PP), Swift (20/20 PP), Barrier (30/30 PP).
-- Champion RED Plan & Empirical Combat Telemetry:
-  - Pidgeot Lv 61: Defeated! (Ice Beam OHKO Turn 42958, Sheldon moved first).
-  - Alakazam Lv 59: Target Body Slam (Slot 2) to exploit physical defense (~85) with zero recoil. Document empirical turn order and damage.
-  - Rhydon Lv 61: Defeated! (4x Surf OHKO Turn 42967).
-  - Gyarados Lv 61: Current opponent. Target Body Slam (Slot 2).
-  - Arcanine Lv 63: Defeated! (2x Surf OHKO Turn 42979).
-  - Venusaur Lv 65: Final opponent. Target Ice Beam (2x weak).
-- Healing & Item Reserves:
-  - Bag Slot 5: MAX ELIXER x1 (restores all PP of all 4 moves).
-  - Bag Slot 1: POKé FLUTE (wakes sleeping Pokémon).
-- Post-Hall of Fame Protocol: Open Trainer Card immediately post-credits to audit empirical wallet total (target ~¥33,000+).
+## Post-Gauntlet Status & Protocol [Turn 42985]
+- League Rematch Complete: All 5 battles won (Lorelei, Bruno, Agatha, Lance, Champion RED).
+- Active Party Post-Battle:
+  - SHELDON (Blastoise Lv 77, Water, HP 12/247): Double-Edge (15/15 PP), Body Slam (9/15 PP), Surf (2/15 PP), Ice Beam (2/10 PP).
+  - DUX (Farfetch'd Lv 34, Normal/Flying, HP ~85/~85): Cut (30/30 PP), Fly (15/15 PP), Sand-Attack (15/15 PP), Leer (30/30 PP).
+  - OMEGA (Mewtwo Lv 75, Psychic, HP 50/264 PAR): Swift (20/20 PP), Psychic (5/10 PP), Barrier (30/30 PP), Recover (20/20 PP).
+- Wallet Status: ¥29,905 calculated from battle payouts (+¥5,544, +¥5,742, +¥5,940, +¥6,138, +¥6,435).
+- Post-Hall of Fame Protocol: View Trainer Card immediately post-credits to empirically audit wallet total.
+- Expedition 16 Next Steps:
+  1. Spawning at Pallet Town house.
+  2. Travel to Mart / buy 50+ Poké Balls.
+  3. Hunt Route 1 Target 3 (Rattata -> Raticate).
+  4. Hunt Route 3 Target 4 (Jigglypuff -> Wigglytuff via Moon Stone in Bag).
 
 <hr>
