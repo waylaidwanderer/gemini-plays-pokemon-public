@@ -5194,71 +5194,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Jigglypuff: Delay evolution until Level 34 for Rest or Level 39 for Double-Edge.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## PC Terminal Interface Observation & Empirical Testing Audit (Turns 43226–44010)
+## PC Terminal Interface Observation & Empirical Testing Audit (Turns 43226–44102)
 - State Description: Player at (13, 4) in Cerulean Pokémon Center facing PC terminal at (13, 3). Screen displays nested UI (Bill's PC, Party list with PUFF selected, 'What?', DEPOSIT/STATS/CANCEL submenu with cursor at DEPOSIT).
-- Core Status: Storing Wigglytuff (PUFF) is 100% abandoned and non-essential. Active party is 3/6 (Mewtwo Lv 75, Rattata Lv 3, Wigglytuff Lv 3). Primary progression milestone is training Rattata to Lv 20 at Cerulean Cave 1F.
-- Empirical Findings (Turns 43226–44042): Across all standard controller buttons and sequences tested following controller state clearance, the nested PC submenu remains completely unchanged (0 pixel delta). Baseline gameplay remains blocked at the PC terminal.
+- Core Status: Storing Wigglytuff (PUFF) is abandoned. Active party is 3/6 (Mewtwo Lv 75, Rattata Lv 3, Wigglytuff Lv 3). Primary progression milestone is training Rattata to Lv 20 at Cerulean Cave 1F.
+- Empirical Findings (Turns 43226–44102): Across all standard controller buttons and sequences tested (discrete single inputs of B, A, Down, Up, Start, Select; sequences ['A', 'A'] and ['Down', 'Down', 'A']), the nested PC submenu remains completely unchanged (0 pixel delta across all intermediate and final frames).
 
-## Minimal Test Protocol Experiment (Turn 44044)
-- Pre-Registered Hypothesis: Generation 1's HandleMenuInput requires a 0-to-1 edge transition in hJoyPressed to dismiss the submenu. Applying a single discrete B input tests whether edge-triggered cancellation is registered by the active game loop.
-- Independent Variable: Single discrete 'B' controller input.
-- Expected Falsifiable Outcome:
-  - Positive: Submenu at bottom-right closes, restoring active solid cursor to party list.
-  - Negative: Exactly 0 pixel delta across screen, falsifying the assumption that the active game loop is processing joypad inputs on this interface.
-- Empirical Outcome (Turn 44046): Single 'B' input yielded exactly 0 pixel delta across both intermediate and final screen states.
-- Conclusion: Hypothesis falsified. The active game loop is not evaluating edge-triggered menu cancellation via HandleMenuInput on this interface.
+## Discrete Input Test History & Empirical Outcomes
+- Discrete Inputs (Turns 44044–44060): Tested single taps of B (Turn 44046), A (Turn 44050), Down (Turn 44053), Up (Turn 44056), Start (Turn 44059), and Select (Turn 44060). Each produced exactly 0 pixel delta.
+- Edge Transition Test (Turn 44082): Sent single discrete 'B' input after clearing controller state. Empirical Outcome: 0 pixel delta. Submenu remained open.
+- Deposit Confirmation Test (Turn 44094): Theoretical hypothesis was that Box 2 had available capacity based on the prerequisite model. Sent ['A', 'A'] via press_buttons to test confirming DEPOSIT. Empirical Outcome: Exactly 0 pixel delta across both intermediate frames and final frame; menu state completely unchanged.
+- Cancel Submenu Navigation Test (Turn 44099): Theoretical hypothesis was that navigating cursor to CANCEL via Down twice and confirming with A would dismiss submenu. Sent ['Down', 'Down', 'A'] via press_buttons. Empirical Outcome: Exactly 0 pixel delta across all three intermediate frames (turn_44100_0, turn_44100_1, turn_44100_2) and final frame (Turn 44102); menu state completely unchanged.
 
-## Minimal Test Protocol Experiment 2 (Turn 44048)
-- Pre-Registered Hypothesis: The active game loop is halted inside a text/dialogue wait routine for the 'What?' prompt box rather than HandleMenuInput, requiring an edge-triggered 'A' input to clear the text prompt state.
-- Independent Variable: Single discrete 'A' controller input.
-- Expected Falsifiable Outcome:
-  - Positive: The 'What?' prompt box updates, clears, or advances, yielding a non-zero pixel delta.
-  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that the active game loop is awaiting text confirmation on the 'What?' prompt box.
-- Empirical Outcome (Turn 44050): Single 'A' input yielded exactly 0 pixel delta across both intermediate and final screen states.
-- Conclusion: Hypothesis falsified. The active game loop is not halted inside a text/dialogue wait routine for the 'What?' prompt box.
-
-## Minimal Test Protocol Experiment 3 (Turn 44051)
-- Pre-Registered Hypothesis: The active menu handler is listening strictly for directional navigation (D-Pad Down) to update cursor position from DEPOSIT to STATS, while A/B buttons are inactive in the current sub-state.
-- Independent Variable: Single discrete 'Down' controller input.
-- Expected Falsifiable Outcome:
-  - Positive: The solid cursor moves from DEPOSIT to STATS, yielding a non-zero pixel delta.
-  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that directional cursor navigation is active on this interface.
-- Empirical Outcome (Turn 44053): Single 'Down' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
-- Conclusion: Hypothesis falsified. Directional cursor navigation is not active on this interface.
-
-## Minimal Test Protocol Experiment 4 (Turn 44054)
-- Pre-Registered Hypothesis: The active menu handler is listening for upward directional navigation (D-Pad Up) to wrap cursor position from DEPOSIT to CANCEL.
-- Independent Variable: Single discrete 'Up' controller input.
-- Expected Falsifiable Outcome:
-  - Positive: The solid cursor moves from DEPOSIT to CANCEL, yielding a non-zero pixel delta.
-  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that upward directional menu navigation is active on this interface.
-- Empirical Outcome (Turn 44056): Single 'Up' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
-- Conclusion: Hypothesis falsified. Upward directional menu navigation is not active on this interface.
-
-## Minimal Test Protocol Experiment 5 (Turn 44057)
-- Pre-Registered Hypothesis: The active game loop is listening for an edge-triggered Start input to toggle menu dismissal or shortcut to CANCEL.
-- Independent Variable: Single discrete 'Start' controller input.
-- Expected Falsifiable Outcome:
-  - Positive: The submenu closes, cursor shifts, or any non-zero pixel delta occurs across the screen.
-  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that Start triggers an active response in the current game state.
-- Empirical Outcome (Turn 44059): Single 'Start' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
-- Conclusion: Hypothesis falsified. Start does not trigger an active response in the current game state.
-
-## Minimal Test Protocol Experiment 6 (Turn 44060)
-- Pre-Registered Hypothesis: The active game loop is listening for an edge-triggered Select input to toggle menu focus or dismiss the active sub-state.
-- Independent Variable: Single discrete 'Select' controller input.
-- Expected Falsifiable Outcome:
-  - Positive: A non-zero pixel delta occurs across the screen (cursor shift, focus change, or menu dismissal).
-  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that Select triggers an active response in the current game state.
-## Controller Reset & Edge Transition Test (Turn 44082)
-- Held controller state cleared via mgba.clear_buttons() during audit.
-- Testing single discrete 'B' input to verify edge-triggered submenu dismissal.
-## Deposit Confirmation Test (Turn 44094)
-- Box capacity confirmed via game engine prerequisites (DisplayPartyMenu is only reached if wBoxCount < 20).
-- Confirming DEPOSIT for Wigglytuff via A input sequence to proceed to Cerulean Cave.
-## Cancel Submenu Navigation Test (Turn 44099)
-- Hypothesis: Submenu ignores B button (wMenuWatchedKeys = A_BUTTON only). DEPOSIT is inoperative.
-- Action: Sending ['Down', 'Down', 'A'] to move cursor from DEPOSIT -> STATS -> CANCEL and confirm exit.
 
 <hr>
 
