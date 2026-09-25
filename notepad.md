@@ -126,7 +126,7 @@
   - HP: 151 / 269 [Verified Lv 76 Screen Turn 43453]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 4/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 3/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 35, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Verified Party Screen Turn 43443]
@@ -5198,7 +5198,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~5,577 EXP to reach Lv 20 (~41 wild battles at ~135 EXP/battle via EXP.ALL).
 - Lead Sweeper Strategy (Mewtwo OMEGA): Mewtwo's 224 Speed outspeeds all wild cave spawns, guaranteeing first strike and preventing enemy status moves (Spore, Hypnosis, Confuse Ray). Passive EXP.ALL sweeping is faster and safer than switch-training.
-- Current Offensive PP: Mewtwo OMEGA has Swift x4, Psychic x0 (Total: 4 attacks).
+- Current Offensive PP: Mewtwo OMEGA has Swift x3, Psychic x0 (Total: 3 attacks).
 - Backup Sweeper Protocol: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25) has 45 offensive attacks ready. If Mewtwo's Swift runs low (<= 3 PP), Sheldon takes over as lead sweeper, giving 64 combined attacks (more than enough for the ~48 battles required).
 - PP Exhaustion Tripwire:
   - When Mewtwo and Sheldon offensive PP drop to <= 3:
