@@ -31,3 +31,8 @@
 - Empirical Findings:
   - Tested inputs across all controller buttons (A, B, D-pad directions, Start, Select) in single-step and chunked sequences yielded zero visual screen change across Turns 43226–43651.
   - Storing PUFF in the PC is completely optional as the active party is 5/6. Primary progression objective is training Rattata to Lv 20 at Cerulean Cave 1F.
+
+## Active Hypothesis & Test Protocol (Turn 43681)
+- Hypothesis: Active solid cursor at DEPOSIT requires a 2-step confirmation (first A confirms deposit routine, second A clears the '[POKéMON] was stored' dialogue) followed by B cancellation to dismiss parent party menu.
+- Independent Variable: Sequential chunk ['A', 'A', 'B', 'B'].
+- Expected Falsifiable Outcome: Visual transition clearing the submenu and advancing storage dialogue to exit interface.
