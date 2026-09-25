@@ -5182,7 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,517 EXP, needs 396 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43611]
+- Active Trainee: Rattata (#019 RATTY Lv 16, Party Slot 4) - Current Lv 16 (4,643 EXP, needs 270 EXP for Lv 17), target Lv 20 (8,000 EXP) for Raticate (#020) [Updated Turn 43619]
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
