@@ -69,3 +69,5 @@
 - Expected Falsifiable Outcome:
   - Positive: The submenu closes, cursor shifts, or any non-zero pixel delta occurs across the screen.
   - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that Start triggers an active response in the current game state.
+- Empirical Outcome (Turn 44059): Single 'Start' input yielded exactly 0 pixel delta across both intermediate and final screen states (cursor remained at DEPOSIT).
+- Conclusion: Hypothesis falsified. Start does not trigger an active response in the current game state.
