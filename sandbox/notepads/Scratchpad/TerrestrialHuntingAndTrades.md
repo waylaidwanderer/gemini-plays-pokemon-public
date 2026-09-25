@@ -35,3 +35,10 @@
   - Negative: Exactly 0 pixel delta across screen, falsifying the assumption that the active game loop is processing joypad inputs on this interface.
 - Empirical Outcome (Turn 44046): Single 'B' input yielded exactly 0 pixel delta across both intermediate and final screen states.
 - Conclusion: Hypothesis falsified. The active game loop is not evaluating edge-triggered menu cancellation via HandleMenuInput on this interface.
+
+## Minimal Test Protocol Experiment 2 (Turn 44048)
+- Pre-Registered Hypothesis: The active game loop is halted inside a text/dialogue wait routine for the 'What?' prompt box rather than HandleMenuInput, requiring an edge-triggered 'A' input to clear the text prompt state.
+- Independent Variable: Single discrete 'A' controller input.
+- Expected Falsifiable Outcome:
+  - Positive: The 'What?' prompt box updates, clears, or advances, yielding a non-zero pixel delta.
+  - Negative: Exactly 0 pixel delta across screen, falsifying the hypothesis that the active game loop is awaiting text confirmation on the 'What?' prompt box.
