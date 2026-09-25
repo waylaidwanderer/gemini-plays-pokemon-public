@@ -115,9 +115,9 @@
 - IDNo: 04620
 - Money: ¥106 [Verified Turn 42653]
 - Badges: 8 / 8 [Verified Turn 41998]
-- Pokédex: 57 Caught [BELLSPROUT #069 caught Turn 42590] / 137 Seen [Verified Turn 39387]
+- Pokédex: 58 Caught [WEEDLE #013 caught Turn 42724] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (3 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 74, Psychic]
   - Status: Healthy
   - HP: 259 / 259 [Healed Turn 42615]
@@ -135,6 +135,7 @@
   - HP: 241 / 241 [Verified Healed Turn 42384]
   - Stats: Attack 180, Defense 208, Speed 179, Special 186 [Verified Lv 75 Screen Turn 41595]
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- Slot 4: WEEDLE (Lv 3, Bug/Poison) [Caught Turn 42724, Nickname: NEEDLE pending]
 
 ## Bag Items (9 / 20 Slots Occupied - Verified Turn 42648)
 - Slot 1: POKé FLUTE
@@ -145,7 +146,7 @@
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
-- Slot 9: POKé BALL x6
+- Slot 9: POKé BALL x5
 - Note: SILPH SCOPE, TOWN MAP, COIN CASE, and HM01/03/04/05 are stored in BLUE's PC Item Storage. Field moves active across party (DUX: Cut/Fly, SHELDON: Surf).
 
 ## PC Pokémon Storage
