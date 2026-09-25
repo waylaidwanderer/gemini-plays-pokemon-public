@@ -126,7 +126,7 @@
   - HP: 264 / 264
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 34, Normal/Flying]
   - Status: Healthy
   - HP: 87 / 87 [Verified Turn 43243]
@@ -5181,9 +5181,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
-- Key Inventory:
-  - LEAF STONE x2 (Bag Slot 9) - reserved for Weepinbell -> Victreebel and Gloom -> Vileplume.
-  - POKé BALL x88 (Bag Slot 10).
 
 ## Stone Evolution Strategy & Movepool Hypotheses [Unverified]
 - In Generation 1 retail, stone-evolved Pokémon learn ZERO moves via level-up after stone application (with very few exceptions, e.g. Exeggutor's Lv 28 Stomp).
@@ -5192,10 +5189,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Gloom: Delay evolution until Level 38 for Petal Dance or Level 44 for Solarbeam.
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
-## Active Battle Roles & Cave Training
-- Sweeper: Mewtwo (#150 OMEGA Lv 75, Party Slot 1) - Lead sweeper for Cerulean Cave 1F wild encounters.
-- Surfer: Blastoise (#009 SHELDON Lv 77, Party Slot 3) - Retains Surf and Strength.
-- Training Protocol: Patrol Row 14 (Cols 21..25) in Cerulean Cave 1F; Mewtwo sweeps encounters while Rattata receives passive EXP via EXP.ALL.
+## Cave Training Protocol & PP Resource Budget
+- Target: Rattata requires ~7,280 EXP to reach Lv 20 (~50-55 wild battles at ~135 EXP/battle via EXP.ALL).
+- Current Offensive PP: Mewtwo OMEGA has Swift x20, Psychic x4 (Total: 24 attacks). Backup: Sheldon Lv 77 (Blizzard x5, Surf x15, Bite x25).
+- PP Exhaustion Tripwire:
+  - When Mewtwo's offensive PP drops to <= 3 (Psychic 0, Swift <= 3):
+    1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
+    2. Otherwise: Execute 3-step southern egress from (25, 14) stepping Down x3 to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
+- Patrol Route: Row 14 (Cols 21..25) pacing.
 
 <hr>
 
@@ -5207,7 +5208,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
 - **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales, Growlithe -> Arcanine, Eevee -> Flareon.
 - **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath, Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases). Evolves Pikachu -> Raichu, Eevee -> Jolteon.
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]). Evolves Pikachu -> Raichu, Eevee -> Jolteon.
 - **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)

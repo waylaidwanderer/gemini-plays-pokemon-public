@@ -4,7 +4,7 @@
 - **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046]. Evolves Weepinbell -> Victreebel, Gloom -> Vileplume, Exeggcute -> Exeggutor.
 - **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357]. Evolves Vulpix -> Ninetales, Growlithe -> Arcanine, Eevee -> Flareon.
 - **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159]. Evolves Poliwhirl -> Poliwrath, Shellder -> Cloyster, Staryu -> Starmie, Eevee -> Vaporeon.
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases). Evolves Pikachu -> Raichu, Eevee -> Jolteon.
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]). Evolves Pikachu -> Raichu, Eevee -> Jolteon.
 - **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. Evolves Nidorina -> Nidoqueen, Nidorino -> Nidoking, Clefairy -> Clefable, Jigglypuff -> Wigglytuff.
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
