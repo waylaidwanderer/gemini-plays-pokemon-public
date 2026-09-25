@@ -5230,6 +5230,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Hypothesis: In certain party/PC menus, pressing Select functions as an item reorganization or sub-state toggle.
 - Independent Variable: Isolated single input ['Select'].
 - Expected Falsifiable Outcome: Visual transition shifting cursor or updating UI state.
+- Result: Falsified Turn 43684 with zero pixel delta.
+
+## Test Protocol 4: STATS Inspection & UI Transition (Turn 43685)
+- Hypothesis: Selecting STATS (Down + A) transitions the UI into a full-screen STATS display, providing an alternate exit pathway back to the party menu.
+- Independent Variable: Sequential input ['Down', 'A'].
+- Expected Falsifiable Outcome: Screen transitions to PUFF's STATS display.
 
 <hr>
 
