@@ -133,3 +133,9 @@
 - Hypothesis: Testing whether leading Right input asserts focus on submenu column before Down navigates to STATS and A confirms.
 - Independent Variable: Sequential input ['Right', 'Down', 'A'].
 - Expected Falsifiable Outcome: Visual movement of cursor to STATS or transition to stats display.
+- Result: Falsified Turn 43706 with zero pixel delta.
+
+## Test Protocol 26: Left-Down-Confirm Focus Sequence (Turn 43707)
+- Hypothesis: Testing whether Left input transfers focus to party list, Down navigates to CANCEL (CAN), and A confirms party menu dismissal.
+- Independent Variable: Sequential input ['Left', 'Down', 'A'].
+- Expected Falsifiable Outcome: Screen transition dismissing party menu to return to Bill's PC.
