@@ -49,7 +49,7 @@
   - Kakuna: Uncommon (Lv 4 observed; Sectors A, C).
   - Pikachu: Rare (Lv 3 encountered in Sector D at (16, 10) Turn 32076; captured with Ultra Ball Turn 32090, nicknamed SPARK).
 
-- Encounter 18 [Turn 42694]: Weedle Lv 3 (tall grass at (18, 37)) - CAUGHT (Ball 4, Nickname: NEEDLE, Party Slot 4). Breakout analysis: 3 consecutive full-HP breakouts after 3 shakes before capture.
-- Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED (conserving balls for Caterpie).
-- Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED (conserving balls for Caterpie).
+- Encounter 18 [Turn 42694]: Weedle Lv 3 (tall grass at (18, 37)) - CAUGHT (Ball 4, Nickname: NEEDLE). Breakout analysis: 3 consecutive full-HP breakouts after 3 shakes before capture.
+- Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED.
+- Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED.
 - Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.

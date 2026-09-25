@@ -14,6 +14,6 @@
   - Defeated Turn 24759 by Sheldon Lv 67 (89/213 HP). Northern exit doorway unlocked.
 
 ## Rematch Defeat [Turn 42852]
-- Defeated by OMEGA (Mewtwo Lv 75) & SHELDON (Blastoise Lv 75).
+- Defeated by OMEGA (Mewtwo Lv 75) solo.
 - Prize: ¥5,544.
 - Northern exit doorway unlocked.
