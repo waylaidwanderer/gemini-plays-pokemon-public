@@ -84,3 +84,6 @@
 ## Deposit Confirmation Test (Turn 44094)
 - Box capacity confirmed via game engine prerequisites (DisplayPartyMenu is only reached if wBoxCount < 20).
 - Confirming DEPOSIT for Wigglytuff via A input sequence to proceed to Cerulean Cave.
+## Cancel Submenu Navigation Test (Turn 44099)
+- Hypothesis: Submenu ignores B button (wMenuWatchedKeys = A_BUTTON only). DEPOSIT is inoperative.
+- Action: Sending ['Down', 'Down', 'A'] to move cursor from DEPOSIT -> STATS -> CANCEL and confirm exit.
