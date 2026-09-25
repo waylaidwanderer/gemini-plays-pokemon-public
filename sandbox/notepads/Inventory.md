@@ -10,7 +10,7 @@
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43243]
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 75, Psychic]
   - Status: Poisoned
-  - HP: 176 / 264 [Verified Battle Screen Turn 43437]
+  - HP: 166 / 264 [Verified Battle Screen Turn 43438]
   - Stats: Attack 194, Defense 178, Speed 224, Special 265 [Verified Lv 75 Screen Turn 42825]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 7/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
