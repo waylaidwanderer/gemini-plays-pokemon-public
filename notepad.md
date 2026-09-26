@@ -1147,19 +1147,14 @@
 
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
-## Empirical Wild Encounter Log
-- Encounter 1 [Turn 42475]: Pidgey Lv 13 (Route 25 tall grass at (2..7, 4..5)) - CAUGHT (Ball 2, Nickname: BIRDIE, Party Slot 4).
-- Encounter 2 [Turn 42496]: Pidgey Lv 13 (Route 25 tall grass at (3, 5)) - FLED (already registered).
-- Encounter 3 [Turn 42501]: Abra Lv 12 (Route 25 tall grass at (7, 5)) - FLED (Teleport).
-- Encounter 4 [Turn 42517]: Kakuna Lv 7 (Route 25 tall grass at (7, 4)) - CAUGHT (Ball 3, Nickname: COCOON, Party Slot 5).
-- Encounter 5 [Turn 42543]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
-- Encounter 6 [Turn 42559]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
-- Encounter 7 [Turn 42574]: Abra Lv 12 (Route 25 tall grass at (5, 5)) - FLED (escaped safely).
-- Encounter 8 [Turn 42581]: Bellsprout Lv 12 (Route 25 tall grass at (6, 4)) - CAUGHT (Ball 2, Nickname: SPROUT, Party Slot 6).
-- Encounter 9 [Turn 44341]: Abra Lv 12 (Route 25 tall grass at (4, 4)) - FLED (Poké Ball broke free; Teleport).
-- Encounter 10 [Turn 44353]: Metapod Lv 9 (Route 25 tall grass at (4, 4)) - FLED (already registered).
-- Encounter 11 [Turn 44359]: Pidgey Lv 13 (Route 25 tall grass at (7, 5)) - FLED (already registered).
-- Encounter 12 [Turn 44364]: Bellsprout Lv 14 (Route 25 tall grass at (7, 5)) - CAUGHT (Ball 1, Nickname: SPROUT, Party Slot 4).
+## Observed Wild Pokémon (Tall Grass at Cols 2..7, Rows 4..5)
+| Species | Level Range | Encounter Tile(s) | Catch & Encounter History |
+| :--- | :--- | :--- | :--- |
+| Bellsprout | Lv 12–14 | (6, 4), (7, 5) | Caught SPROUT Lv 14 [Turn 44368] (Party Slot 4); SPROUT Lv 12 [Turn 42581] |
+| Pidgey | Lv 13 | (2..7, 4..5) | Caught BIRDIE Lv 13 [Turn 42475]; fled Turns 42496, 44359 |
+| Kakuna | Lv 7 | (7, 4) | Caught COCOON Lv 7 [Turn 42517] |
+| Abra | Lv 12 | (2..7, 4..5) | High flee rate (Teleport); observed Turns 42501, 42543, 42559, 42574, 44341 |
+| Metapod | Lv 9 | (4, 4) | Observed Turn 44353; fled (already registered) |
 
 <hr>
 
