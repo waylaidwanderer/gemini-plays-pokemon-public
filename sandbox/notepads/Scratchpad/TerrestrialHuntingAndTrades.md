@@ -14,4 +14,3 @@
 
   - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
-  - Evolution target: Train to Level 28 in Cerulean Cave 1F via switch-training (testing empirical yield) to evolve into Persian (#053).

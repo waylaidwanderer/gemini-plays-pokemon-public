@@ -97,7 +97,7 @@
 
 
 
-- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: Oddish Lv 11, Bellsprout Lv 11. Status: Defeated. Yielded ¥165.
+- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Defeated.
 
 - Lass (16, 24..25): Defeated (Clefairy Lv 14). Line of sight triggered at (16, 25). Dialogue: "Wow! You're really good!". Prize: ¥210. Stationed near central junction passage.
 
@@ -111,7 +111,7 @@
 
 
 
-- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
+- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Defeated.
 
 
 
@@ -119,7 +119,7 @@
 
 
 
-- Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: ¥350.
+- Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Defeated.
 
 - Ladder (5, 5): Descending ladder in the northwest corner of 1F.
 
