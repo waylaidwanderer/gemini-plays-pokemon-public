@@ -10,7 +10,7 @@
   - HP: ~59 / 59
   - Stats: Attack 28, Defense 29, Speed 55, Special 26
   - OT: BLUE (IDNo. 04620)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
+  - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
   - HP: 102 / 102
