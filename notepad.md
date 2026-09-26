@@ -139,7 +139,7 @@
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 241 / 269
   - Status: Healthy
-- Slot 4: DODRIO [Lv 49, Normal/Flying]
+- Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
   - HP: 135 / 135
   - Status: Healthy
 - Slots 5-6: Empty
