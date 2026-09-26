@@ -4,20 +4,20 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (6 / 6 - Audited Turn 46934)
+## Party Pokémon (6 / 6 - Audited Turn 46944)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 0 / 269 (Fainted Turn 46901)
-  - Status: Fainted (FNT)
-  - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
+  - HP: 269 / 269
+  - Status: Healthy (Revived & Healed Turn 46944)
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
   - Field Moves: Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 37 / 254
-  - Status: Paralyzed (PAR)
+  - HP: 254 / 254
+  - Status: Healthy (PAR Cured Turn 46944)
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
-  - HP: 44 / 125 (Damaged Turn 46914)
-  - Status: Healthy
+  - HP: 125 / 125
+  - Status: Healthy (Healed Turn 46944)
 - Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
   - HP: 101 / 101
   - Status: Healthy
