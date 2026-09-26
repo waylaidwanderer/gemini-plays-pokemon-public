@@ -130,7 +130,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 46787)
+## Party Pokémon (5 / 6 - Audited Turn 46801)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 127 / 269
   - Status: Healthy
@@ -148,7 +148,7 @@
   - Status: Healthy
 - Slot 6: Empty
 
-## Bag Items (10 / 20 Slots Occupied - Audited Turn 46741)
+## Bag Items (10 / 20 Slots Occupied - Audited Turn 46801)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -386,7 +386,7 @@
 - **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pokémon's actual current Speed compared to the opponent's Speed.
 - **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pokémon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pokémon (e.g. Blastoise Sheldon with ~40-45 paralyzed Speed) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46 Speed ~70, Sandslash Lv 52 Speed ~80) [Empirically verified Turns 46658, 46660, 46680].
 - **Consecutive Attempt Progression:** Each successive failed escape attempt adds an incremental bonus to the escape check (+30 per attempt), enabling subsequent escape attempts to succeed even with slower/paralyzed leads (e.g. Sheldon escaped on Attempt 2 vs Magneton [Turn 46682]).
-- **High-Speed Lead Immunity:** A healthy, high-speed lead Pokémon (e.g. Mewtwo OMEGA Lv 76 with ~240 Speed) vastly outspeeds wild Cerulean Cave species (Speed <= 160), guaranteeing immediate 100% first-turn escape success [Empirically verified Turns 46617-46618].
+- **High-Speed Lead Fleeing (Mewtwo Empirical Observation):** Mewtwo (OMEGA Lv 76, healthy) successfully escaped on Attempt 1 against wild Dodrio Lv 49 [Empirically verified Turn 46800]. Broader claims regarding universal first-turn escapes or specific wild speed caps remain unverified hypotheses.
 
 
 <hr>
@@ -5277,10 +5277,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   6. [CAUGHT Turn 46787] Kadabra (#064 SPOON) [Wild Lv 49] -> Caught on Ball 14!
 
 ## Hunting Protocol & Strategy
-- Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
 - Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (52 in Bag).
-- Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
+- Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto, Dodrio, Kadabra): RUN immediately with Mewtwo lead.
 - Storing captures: Party slot 6 is open to receive final target Venomoth directly into party (Dodrio Slot 4, Kadabra Slot 5).
 
 
