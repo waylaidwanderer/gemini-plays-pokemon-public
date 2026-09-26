@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 66 Caught [Evolved Beedrill #015 Turn 44247] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- Pokédex: 68 Caught [Evolved Victreebel #071 Turn 44758] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Milestones
 

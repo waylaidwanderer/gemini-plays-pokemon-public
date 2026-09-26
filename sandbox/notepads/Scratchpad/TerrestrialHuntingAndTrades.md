@@ -38,13 +38,11 @@
 
 ## Operational Combat Resource Budget & Sweeper Rotation Plan
 
-- Strategic Objective: Train SPROUT to Level 21 (Target: 6,458 EXP) via EXP.ALL, then apply Leaf Stone for Victreebel (#071).
-
 - Sweeper Roles & Dynamic Thresholds:
 
   - Active Sweeper (MEWTWO OMEGA Lv 77):
     - Status: Active Lead [Turn 44554+]
-    - Attack Pool: Swift (never misses, PP 4/20), Recover (sustain), Barrier. Psychic (0/10).
+    - Attack Pool: Swift (never misses, PP 1/20), Recover (sustain), Barrier. Psychic (0/10).
     - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
 - Reserve Sweeper (Blastoise SHELDON Lv 79):
     - Physical Reserve: Body Slam (PP 15/15), Double-Edge (PP 14/15). Surf (0/15), Ice Beam (0/10).
