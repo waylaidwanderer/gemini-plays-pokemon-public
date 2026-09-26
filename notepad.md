@@ -5205,7 +5205,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
 
-  - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Overworld pickup locations to search if needed (Mechanics/EvolutionAndStones): Mt. Moon 1F/B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F (historical pickup status to be audited before exploration).
+  - Note on Evolution & Moon Stone Audit [Audited Turn 45452]:
+    - Bag & PC currently contain 0 Moon Stones.
+    - Historical Moon Stones consumed (2 total): Nidoqueen (#031) [Turn 31235] and Wigglytuff (#040) [Turn 43213].
+    - Historical pickups audited: Rocket Hideout B2F Item Ball 1 at (1, 11) retrieved Turn 5721 (contained Moon Stone).
+    - Remaining candidate sites to audit for uncollected Moon Stones before Clefable quest: Mt. Moon 1F, Mt. Moon B2F, Silph Co. 5F, Pok�mon Mansion B1F.
 
 - [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
