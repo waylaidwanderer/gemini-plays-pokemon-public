@@ -146,10 +146,9 @@
   - HP: 258 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 261 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -5323,7 +5322,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
 - **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
 - **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. (Overworld pickup locations unverified in permanent records).
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested.
+  - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
+  - Verified Uncollected Overworld Locations [Audited Turn 45662]:
+    - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5).
+    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
+  - Cleared/Negative Locations:
+    - Pokémon Mansion B1F: Fully cleared [Turns 14575-14678] (all 5 items retrieved: Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
