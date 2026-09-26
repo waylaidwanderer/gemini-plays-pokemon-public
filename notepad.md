@@ -996,7 +996,7 @@
 # Mt. Moon B2F Geography & Exploration
 
 ## Connections
-- Ladder (25, 9): Ascending ladder leading back to B1F transit corridor at (17, 11).
+- Ladder (25, 9): Ascending ladder leading directly to Mt. Moon 1F north-central alcove at (17, 11) [Empirically verified Turn 45998].
 
 ## Layout & Landmarks
 - Entrance Plateau (Cols 24..35, Rows 6..11): Empirically verified isolated elevated terrace.
@@ -1017,7 +1017,7 @@
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
 - Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). 
-- Ground Item (25, 21): Item ball sighted at (25, 21) below entrance plateau cliff [Verified Turn 46051].
+- Ground Item (25, 21): Item ball sighted visually at (25, 21) below entrance plateau cliff [Verified Turn 46051]; physical ground path/accessibility untested.
 - Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary verified solid rock wall at Col 35 across rows 16, 17, and 18 (empirically tested blocked at 35, 16; 35, 17; 35, 18).
 
 ### Eastern Cavern Highway & Southern Cavern (Reached via Row 15 / Row 14)
@@ -5362,7 +5362,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge. Note: Since the Moon Stone was retrieved from Mt. Moon 1F at (2, 2) [Turn 46009] and is in Bag, inspecting (29, 5) is optional and non-blocking for Expedition 17.
+    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
 
 
 
