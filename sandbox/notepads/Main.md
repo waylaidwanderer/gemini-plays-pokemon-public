@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 65 Caught [Evolved Butterfree #012 Turn 44231] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- Pokédex: 66 Caught [Evolved Beedrill #015 Turn 44247] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Milestones
 
@@ -110,3 +110,4 @@
 - [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
 - [x] Evolve Metapod into Butterfree (#012) [Turn 44231]
+- [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]

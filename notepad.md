@@ -1,6 +1,7 @@
 <h1><code>Main</code></h1>
 
-- Pokédex: 65 Caught [Evolved Butterfree #012 Turn 44231] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+# Pokémon Blue - Journey Log
+
 
 ## Status
 
@@ -14,7 +15,7 @@
 
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
-- Pokédex: 65 Caught [Evolved Butterfree #012 Turn 44231] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
 
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 
@@ -166,7 +167,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x78 [Audited: 82 stock - 4 balls thrown Turn 44084]
+- Slot 10: POKé BALL x78
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -322,6 +323,17 @@
 | Parasect | 52 | 950 | 475 EXP | 118 EXP | 177 EXP | Verified Turns 43378, 43405 |
 | Raichu | 53 | 908 | 454 EXP | 113 EXP | 169 EXP | Verified Turn 43441 |
 
+- **Empirical Solo-Sweeper EXP.ALL Yields (N=5 Party: Solo Lead [Sheldon], DUX Traded, Inactive Members):**
+
+| Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Hypno | 46 | 1,076 | 538 EXP | 105 EXP | 157 EXP | Verified Turn 44151 |
+| Venomoth | 49 | 966 | 483 EXP | 91 EXP | 136 EXP | Verified Turn 44141 |
+| Parasect | 52 | 950 | 475 EXP | 89 EXP | 133 EXP | Verified Turn 44188 |
+| Golbat | 46 | 1,104 | 558 EXP | 111 EXP | 166 EXP | Verified Turn 44198 |
+| Magneton | 46 | 1,050 | 525 EXP | 105 EXP | 157 EXP | Verified Turn 44243 |
+
+
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## Field Items in Battle
@@ -341,15 +353,6 @@
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
-- **Empirical Solo-Sweeper EXP.ALL Yields (N=5 Party: Solo Lead [Sheldon], DUX Traded, Inactive Members):**
-
-| Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Hypno | 46 | 1,076 | 538 EXP | 105 EXP | 157 EXP | Verified Turn 44151 |
-| Venomoth | 49 | 966 | 483 EXP | 91 EXP | 136 EXP | Verified Turn 44141 |
-| Parasect | 52 | 950 | 475 EXP | 89 EXP | 133 EXP | Verified Turn 44188 |
-| Golbat | 46 | 1,104 | 558 EXP | 111 EXP | 166 EXP | Verified Turn 44198 |
-| Magneton | 46 | 1,050 | 525 EXP | 105 EXP | 157 EXP | Verified Turn 44243 |
 
 
 <hr>
