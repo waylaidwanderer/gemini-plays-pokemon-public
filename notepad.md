@@ -923,8 +923,6 @@
 
 
 
-- Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
-
 
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
@@ -5312,9 +5310,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Paras: 1 (Lv 10)
       - Clefairy: 0 (0.0% observed)
     - Total Sample Size: 34 encounters across Mt. Moon (0 Clefairy observed).
-  - Empirical Stopping Criterion:
-    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (19 more from Turn 46253).
-    - Pivot Rule: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and pivot to Celadon Game Corner for Clefairy (#035).
+  - Empirical Stopping Criterion & Contingency Audit:
+    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (19 remaining from Turn 46261).
+    - Pivot Rule & Fallback Prerequisites: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and exit Mt. Moon.
+    - Celadon Game Corner Prerequisites (Audit Turn 46261):
+      1. COIN CASE is currently stored in BLUE's PC (Slot 10) -> Must fly to Pok�mon Center and withdraw Coin Case before visiting Game Corner.
+      2. Wallet: �5,905 (purchases max 250 coins at �1,000/50 coins). Clefairy prize cost in retail Blue must be audited in-game at the Prize Exchange. If coin cost exceeds 250, player must raise funds (e.g. selling inventory items) or play slot machines.
 
 <hr>
 
@@ -5322,95 +5323,43 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
 
-
-
-
-
-
-
 ## Evolutionary Stones & Commercial Availability
-
-
 
 - **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046].
 
-
-
 - **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
-
-
 
 - **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
 
-
-
 - **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
-
-
 
 - **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested.
 
-
-
   - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
-
-
 
   - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
 
-
-
-
-
-
     - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
-
-
-
 
   - Cleared/Negative Locations:
 
-
-
     - Pokémon Mansion B1F: Fully cleared [Turns 14575-14678] (all 5 items retrieved: Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
-
-
-
-
-
-
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 
-
-
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
-
-
 
 - **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon Pokémon Center.
 
-
-
 - **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
-
-
 
 - **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
 
-
-
 - **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
-
-
 
 - **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
 
-
-
 - **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
-
-
 
 
 
