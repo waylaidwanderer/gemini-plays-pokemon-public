@@ -31,7 +31,6 @@
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (14, 4) [Verified Turn 27908: (13, 4) is solid rock boundary]. At (15, 4), connects north to Staircase (15, 3) and south down Column 15 into Row 6 waterway.
 - Entrance Cavern (Cols 20..25, Rows 12..17):
-  - Row 14: Walkable across Columns 21 through 25 (Column 20 is solid rock wall boundary). Bounded east by rock wall at Column 26.
   - Row 15: Walkable across Columns 20 through 25 (empirically confirmed at (20, 15) Turns 38375, 38386). Bounded west by rock wall at Column 19.
   - Row 16: Open floor at (24, 16) and (25, 16). Collision verified stepping Left into (23, 16) from (24, 16) [Turn 38570].
   - Row 17: Checkerboard exit warp threshold at (24..25, 17) leading outside to Cerulean City canal.

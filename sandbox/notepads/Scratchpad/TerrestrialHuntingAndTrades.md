@@ -42,18 +42,11 @@
 
 - Sweeper Roles & Dynamic Thresholds:
 
-  - Lead Sweeper (Sheldon Lv 79):
-
-    - Primary Attack Pool: Surf (Water STAB vs Ground/Rock/Electric), Ice Beam (Ice vs Flying/Bug).
-
-    - Policy: Avoid Double-Edge to eliminate recoil attrition.
-
-    - Rotation Threshold: When combined special offensive PP (Surf + Ice Beam) reaches <= 1 (or if Sheldon HP < 100), switch party lead to MEWTWO (OMEGA).
-
-  - Secondary Sweeper (Mewtwo OMEGA Lv 76):
-
-    - Full Offensive/Sustain Pool: Psychic (STAB 90 power, 270 Special), Swift (never misses), Recover (sustain).
-
+  - Active Sweeper (MEWTWO OMEGA Lv 77):
+    - Status: Active Lead [Turn 44554+]
+    - Attack Pool: Swift (never misses, PP 4/20), Recover (sustain), Barrier. Psychic (0/10).
     - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
+- Reserve Sweeper (Blastoise SHELDON Lv 79):
+    - Physical Reserve: Body Slam (PP 15/15), Double-Edge (PP 14/15). Surf (0/15), Ice Beam (0/10).
 
 - Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
