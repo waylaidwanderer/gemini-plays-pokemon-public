@@ -18,13 +18,13 @@
 
   - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
-  - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
+  - Evolution target: Train to Level 28 in Cerulean Cave 1F via switch-training (testing empirical yield) to evolve into Persian (#053).
 
 
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
-  - Yield: ~550-660 EXP per battle to Felix (4.5x faster than passive EXP.ALL, reducing required battles from ~140 to ~30!).
+  - Empirical Yield Test Protocol: Theoretical yield estimate is ~37.5-62.5% of total battle EXP. Exact participant + EXP.ALL division in this 4-member party will be empirically measured and logged on Battle 1.
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
