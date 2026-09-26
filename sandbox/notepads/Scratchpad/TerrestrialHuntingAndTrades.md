@@ -14,6 +14,8 @@
 - Party: 6/6 (Full - Rhydon joined slot 6). Return to Cerulean PC to deposit captures.
 
 ## Return & Deposit Plan
-- Mewtwo Survival Threshold: If Mewtwo faints or falls below safe threshold, switch to active reserves:
-  - Dodrio (HYDRA Lv 49, HP 125/125) or Blastoise (SHELDON Lv 79, HP 37/254)
-- Continue throwing Pok� Balls from reserves until Rhydon is secured.
+- Descend to 1F and exit cave south at (24..25, 17) to Cerulean City canal.
+- Fly to Cerulean City Pokémon Center with DUX.
+- Heal party at Nurse Joy.
+- Access Bill's PC to deposit recent catches (Dodrio HYDRA, Kadabra SPOON, Rhydon TITAN) into Box 1.
+- Plan next hunting target or preparations.
