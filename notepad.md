@@ -155,7 +155,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x64
+- Slot 10: POKé BALL x63
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -5263,7 +5263,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Hunting Protocol & Strategy
 - Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
 - Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (64 in Bag (Kadabra engaged, 2 balls thrown)).
+- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (63 in Bag (Kadabra engaged, 3 balls thrown)).
 - Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
 - Storing captures: Party slots 4, 5, 6 are open to receive all 3 targets directly into party.
 
