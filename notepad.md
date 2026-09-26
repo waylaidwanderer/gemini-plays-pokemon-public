@@ -746,7 +746,7 @@
 - Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54.
 - Eastern Structure (58..59, 8..9): Impassable structure at western edge of eastern grass field. Tile (58, 9) is solid (collision confirmed from (58, 10) and (57, 9)). Sign located at (59, 9).
 - Signpost (59, 9): Reads "ROUTE 3 - MT. MOON AHEAD".
-- Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
+- Resting NPC (57, 11): Youngster stationed at (57, 11) facing North. Non-hostile NPC.
 - Row 7 Ledge at (57, 7): South-facing ledge. Cannot be climbed North.
 - Eastern Grass Pocket (Cols 58..65, Rows 8..13): Enclosed tall grass field at the southeastern boundary of Route 3. Bounded by solid rock cliff to the east (Col 66, Rows 8..13) and map boundary to the south (Row 14). Confirmed dead-end pocket for wild encounters (Spearow, etc.); does NOT lead to Mt. Moon.
 - Out-of-Bounds Border: Repeating tan road metatiles visible south of row 13 and east of column 66 are the out-of-bounds border block.
@@ -5297,41 +5297,57 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
 
 
-
-- [x] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Evolved into Persian #053 Turn 45881]
-
-  - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
-
-
-
 <hr>
 
 <h1><code>Mechanics/EvolutionAndStones</code></h1>
 
-# Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
-
-## Evolutionary Stones & Commercial Availability
-- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 43046].
-- **Fire Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 33357].
-- **Water Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 34159].
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard PokÃ© Marts tested.
-  - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
-  - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
-    - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5).
+# Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
+
+
+
+## Evolutionary Stones & Commercial Availability
+
+- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 43046].
+
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 33357].
+
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 34159].
+
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
+
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard PokÃ© Marts tested.
+
+  - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
+
+  - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
+
+    - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5).
+
     - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
-    - Accessibility Architecture: Accessed from B1F transit corridor via Ladder (17, 11) descending to B2F Entrance Plateau at Ladder (25, 9). Bounded by south-facing Row 7 jump ledge (jumping south into row 8 is irreversible without looping). Item ball at (29, 5) must be collected BEFORE jumping south over the Row 7 ledge.
-  - Cleared/Negative Locations:
-    - PokÃ©mon Mansion B1F: Fully cleared [Turns 14575-14678] (all 5 items retrieved: Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
-
-## Verified Empirical Stone Evolutions (Expedition Proof of Work)
-- **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
-- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon PokÃ©mon Center.
-- **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
-- **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
-- **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
-- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
-- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
+    - Accessibility Architecture (Unverified Routing Hypothesis): Proposed access from B1F transit corridor via Ladder (17, 11) descending to B2F Entrance Plateau at Ladder (25, 9). Bounded by south-facing Row 7 jump ledge. Physical reachability of item ball at (29, 5) prior to jumping south remains an unverified hypothesis pending in-situ verification.
+
+  - Cleared/Negative Locations:
+
+    - PokÃ©mon Mansion B1F: Fully cleared [Turns 14575-14678] (all 5 items retrieved: Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
+
+
+
+## Verified Empirical Stone Evolutions (Expedition Proof of Work)
+
+- **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
+
+- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon PokÃ©mon Center.
+
+- **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
+
+- **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
+
+- **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
+
+- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
+
+- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
+
 
 
 <hr>
