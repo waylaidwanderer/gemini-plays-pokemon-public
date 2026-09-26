@@ -5269,13 +5269,18 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cerulean Cave Wild Species Hunting
 - Total Caught: 71 / 137 Seen
-- Priority Targets on Cerulean Cave 1F:
-  1. Venomoth (#049) [Wild Lv 49] (Final remaining 1F target)
+- Priority Targets on Cerulean Cave 2F:
+  1. Venomoth (#049) [Wild Lv 51]
+  2. Marowak (#105) [Wild Lv 52]
+  3. Rhydon (#112) [Wild Lv 52]
+  4. Ditto (#132) [Wild Lv 55]
 
 ## Hunting Protocol & Strategy
-- Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto, Dodrio, Kadabra): RUN immediately with Mewtwo lead.
-- Storing captures: Party slot 6 is open to receive final target Venomoth directly into party (Dodrio Slot 4, Kadabra Slot 5).
+- Patrol Column 23 corridor (Col 23, Rows 7-11) and Row 11 West Corridor on 2F.
+- If target encountered (Venomoth, Marowak, Rhydon, Ditto): Catch with Pok� Ball into open Party Slot 6!
+- If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Mewtwo lead.
+- 52 Pok� Balls in Bag Slot 10.
+- Party: 5/6 (Slot 6 empty).
 
 
 <hr>
