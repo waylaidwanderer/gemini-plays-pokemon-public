@@ -27,7 +27,7 @@
     - Battle 14 (Venomoth Lv 49, Total EXP: 952) [Turn 45224-45230]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic. Felix grew to Level 20!
     - Battle 15 (Magneton Lv 46, Total EXP: 1,050) [Turn 45234-45241]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic (Crit).
     - Battle 16 (Golbat Lv 46, Total EXP: 1,104) [Turn 45245-45251]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's Psychic.
-    - Battle 17 (Sandslash Lv 52) [Turn 45255-]: In progress (Felix switched to Sheldon Lv 79).
+    - Battle 17 (Sandslash Lv 52, Total EXP: 1,188) [Turn 45255-45261]: Felix 297 participant + 74 EXP.ALL = 371 EXP (~31.2%). Defeated by Sheldon's Surf.
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic (PP 4/10) - Special STAB, guaranteed OHKO on high-defense targets.
@@ -36,5 +36,5 @@
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 20):
-  - Current EXP: ~8,800 / 9,261 (~461 EXP to Lv 21).
+  - Current EXP: ~9,171 / 9,261 (~90 EXP to Lv 21).
   - Stats: Attack 24, Defense 24, Speed 46, Special 22 [Verified Lv 20 Box Turn 45230].
