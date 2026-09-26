@@ -9,7 +9,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 70 Caught [Evolved Felix into Persian #053 Turn 45881] / 137 Seen
+- Pokédex: 66 Caught [Restored via Save Reload Turn 46527] / 137 Seen
 
 ## Milestones
 
@@ -112,12 +112,8 @@
 - [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
 - [x] Evolve Metapod into Butterfree (#012) [Turn 44231]
-- [x] Catch wild Meowth (#052 FELIX) on Route 5 [Turn 44849]
-- [x] Evolve Weepinbell into Victreebel (#071) via Leaf Stone [Turn 44758]
-- [x] Evolve Bellsprout into Weepinbell (#070) [Turn 44752]
 - [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]
 
-- [x] Evolve Meowth into Persian (#053) at Lv 28 [Turn 45881]
 
 
 <hr>
@@ -150,22 +146,10 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
-## Bag Items (Observed in DEPOSIT Menu Turn 46457)
-- Slot 1: ????? (Glitch item 0x2C)
-- Slot 2: HYPER POTION x12
-- Slot 3: 0 w p x86 (Glitch display / map tiles)
-- Slot 4: ETHER x 5
-- Slot 5: ?????
-- Slot 6: TM22 x 5
-- Slot 7: 6F x 5
-- Slot 8: RED x 6
-- Slot 9: x28
-- Slot 10: GARY x40
-- Slot 11: RARE CANDY x25
-- Slot 12: POTION x 0
-- Status Note: Bag displays underflow/glitch items following Turn 46365 withdrawal. Key items (Flute, Rod, Bike) and prior inventory displaced or inactive.
+## Bag Items (Pending Baseline Audit after Turn 46527 Save Reload)
+- Note: Pre-reset glitch state cleared by soft reset. In-game Bag menu audit in progress.
 
-## BLUE's PC Item Storage (26 / 50 Slots Occupied - Audited Turn 46365)
+## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
 2. TM12 x1 (Water Gun)
 3. TOWN MAP
@@ -194,7 +178,7 @@
 26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Contains 2 Pokémon: SPROUT Lv 21 Victreebel - deposited Turn 44782; FELIX Lv 28 Persian - deposited Turn 45914]
+- Active Box: BOX 6 [Contains stored Pokémon - audit required after save reload]
 - Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
