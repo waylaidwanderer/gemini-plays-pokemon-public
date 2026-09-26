@@ -42,9 +42,8 @@
 
 
 
-    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
+    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge. Note: Since the Moon Stone was retrieved from Mt. Moon 1F at (2, 2) [Turn 46009] and is in Bag, inspecting (29, 5) is optional and non-blocking for Expedition 17.
 
-    - Accessibility Architecture (Unverified Routing Hypothesis): Proposed access from B1F transit corridor via Ladder (17, 11) descending to B2F Entrance Plateau at Ladder (25, 9). Bounded by south-facing Row 7 jump ledge. Physical reachability of item ball at (29, 5) prior to jumping south remains an unverified hypothesis pending in-situ verification.
 
 
 
