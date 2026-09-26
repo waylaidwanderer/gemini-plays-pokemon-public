@@ -25,8 +25,8 @@
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
-    - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets.
-    - Sheldon (Healthy): Preferred when facing Electric moves or heavy physical hitters.
+    - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
+    - Sheldon (Healthy): Preferred when facing Electric moves (Magneton/Raichu), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 25 (Parasect Lv 52, Total EXP: 950) [Turn 45436-45456]: Felix 237 participant + 59 EXP.ALL = 296 EXP (~31.2%). Defeated by Omega's Psychic.
     - Battle 26 (Golbat Lv 46, Total EXP: 1,104) [Turn 45464-45472]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's STAB Psychic.
