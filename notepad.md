@@ -131,7 +131,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 251 / 274 [Verified Battle Screen Turn 44971]
+  - HP: 241 / 274 [Verified Battle Screen Turn 44978]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 13/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -5235,9 +5235,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
 - Trainee Progress (FELIX Lv 14):
-  - Current EXP: 3,038
-  - Lv 15 threshold: 3,375 (337 EXP to Lv 15).
-  - Wild Golbat Lv 46 defeated; yielded 138 EXP.ALL share to Felix.
+  - Current EXP: 3,169
+  - Lv 15 threshold: 3,375 (206 EXP to Lv 15).
+  - Wild Hypno Lv 46 defeated; yielded 131 EXP.ALL share to Felix.
 
 
 <hr>
