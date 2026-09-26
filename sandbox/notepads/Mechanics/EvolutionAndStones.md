@@ -13,4 +13,4 @@
 - **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
 - **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
 - **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
-- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
+- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
