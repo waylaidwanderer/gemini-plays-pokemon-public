@@ -249,7 +249,7 @@
 
 
 - **Empirical Solo-Sweeper EXP.ALL Yields (N=3 Party: Solo Lead [Sheldon], Inactive: DUX, OMEGA):**
-  - Sandslash Lv 52: Sweeper Sheldon gained 601 EXP; EXP.ALL pool announced 200 EXP Points [Empirically verified Turn 46665].
+  - Sandslash Lv 52: Sweeper Sheldon gained 601 EXP; EXP.ALL pool announced 200 EXP Points (Traded DUX received 300 EXP [1.5x boost], Native OMEGA received 200 EXP) [Empirically verified Turns 46665-46666].
 
 ## Stat & Damage Mechanics
 
