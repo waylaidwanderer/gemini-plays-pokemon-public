@@ -35,5 +35,3 @@
 
 - **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
 
-- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
-
