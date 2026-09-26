@@ -108,3 +108,4 @@
 - [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
 - [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
+- [x] Evolve Metapod into Butterfree (#012) [Turn 44231]

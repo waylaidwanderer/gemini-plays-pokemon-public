@@ -23,12 +23,13 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: METAPOD (Nickname: SILK) [Lv 10, Bug]
-  - Status: Healthy (leveled Turn 44230 - Butterfree evolution pending)
-  - Stats: Attack 11, Defense 17, Speed 12, Special 12 [Verified Screen Turn 44230]
+- Slot 4: BUTTERFREE (Nickname: SILK) [Lv 10, Bug/Flying]
+  - Status: Healthy (evolved Turn 44231)
+  - HP: 34 / 34 [Verified Stats Screen Turn 44234]
+  - Stats: Attack 16, Defense 16, Speed 20, Special 23 [Verified Stats Screen Turn 44234]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 1000 (Butterfree evolution Lv 10 reached!) [Verified Turn 44230]
-  - Moves: Tackle (PP 35/35), String Shot (PP 40/40)
+  - EXP: 1000 (331 to Lv 11) [Verified Page 2 Turn 44235]
+  - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44235]
 - Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 9, Bug/Poison]
   - Status: Healthy
   - Stats: Attack 10, Defense 14, Speed 11, Special 9
