@@ -116,7 +116,7 @@
 
 
 
-- Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated (Rattata Lv 10, Rattata Lv 10, Zubat Lv 10). Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
+- Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated. Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
 
 
 
