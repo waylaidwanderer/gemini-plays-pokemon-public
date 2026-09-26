@@ -10,7 +10,7 @@
   - HP: 258 / 269 [Verified Screen Turn 44609]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 14/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20) [Swift used 2x vs Hypno Turns 44608-44609]
+  - Moves: Swift (PP 14/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 38, Normal/Flying]
   - Status: Healthy
   - HP: 97 / 97 [Verified Party Screen Turn 44523]
@@ -25,7 +25,7 @@
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 18, Grass/Poison]
   - Status: Healthy
-  - HP: 47 / 47 [Leveled up to 18 Turn 44568]
+  - HP: Uninspected in menu (max ~47 at Lv 18) [Verification pending]
   - Stats: Attack 37, Defense 21, Speed 21, Special 33 [Verified Level Up Box Turn 44568]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]

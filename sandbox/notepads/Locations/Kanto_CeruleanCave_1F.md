@@ -68,9 +68,7 @@
   - X=20 is a solid cavern wall blocking westward passage at row 14; walkable corridor on row 14 is strictly bounded between X=21 (west wall boundary) and X=25 (east wall boundary).
   - Pacing between X=21 and X=25 on row 14 generates consistent high-level wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) with zero obstacle collisions and instant 3-step access to the exit.
 
-## Navigation & Collision Notes (Central Cavern Floor, Rows 13-17, Cols 21-25)
-- Row 13: (21..23, 13) are open cave floor; (24..25, 13) are solid rock walls (bump hazard when walking Up from (24..25, 14)).
-- Rows 14-15: (21..25, 14..15) are wide-open cave floor with zero obstacles.
-- Row 16: (23..25, 16) are open floor; (21..22, 16) are rock walls.
-- Row 17: (24..25, 17) has one-way ledges hopping south to Row 18.
+## Navigation & Collision Notes (Central Cavern Floor, Rows 13-15, Cols 22-25)
+- Row 13: Physical bump confirmed (24, 13) is a solid rock wall when walking Up from (24, 14) [Turn 44600].
+- Rows 14-15: (22..24, 14..15) are verified open cave floor.
 - Optimal Encounter Loop: The 6-step loop on (22..24, 14..15) provides 100% collision-free encounter generation.
