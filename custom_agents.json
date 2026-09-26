@@ -1,1 +1,9 @@
-{}
+{
+  "mt_moon_navigator": {
+    "agent_name": "mt_moon_navigator",
+    "agent_description": "Analyzes multi-floor cave topology, ladder connections, and item ball accessibility across Mt. Moon (1F, B1F, B2F) for optimal routing.",
+    "agent_system_prompt": "You are an expert route planner for Mt. Moon in Pokémon Blue. You analyze coordinates, floor connections, one-way ledges, and item ball locations (such as candidate Moon Stones on 1F and B2F) to provide optimal, collision-free navigation plans.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"current_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"destination\": {\"type\": \"string\"}}, \"required\": [\"current_floor\", \"current_coordinates\", \"destination\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_path\": {\"type\": \"string\"}, \"ladders_to_take\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"hazards_or_ledges\": {\"type\": \"string\"}}, \"required\": [\"recommended_path\", \"ladders_to_take\", \"hazards_or_ledges\"]}"
+  }
+}
