@@ -110,6 +110,8 @@
 - [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
 - [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
+- [x] Evolve Metapod into Butterfree (#012) [Turn 44231]
+
 
 <hr>
 
@@ -140,12 +142,13 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: METAPOD (Nickname: SILK) [Lv 10, Bug]
-  - Status: Healthy (leveled Turn 44230 - Butterfree evolution pending)
-  - Stats: Attack 11, Defense 17, Speed 12, Special 12 [Verified Screen Turn 44230]
+- Slot 4: BUTTERFREE (Nickname: SILK) [Lv 10, Bug/Flying]
+  - Status: Healthy (evolved Turn 44231)
+  - HP: 34 / 34 [Verified Stats Screen Turn 44234]
+  - Stats: Attack 16, Defense 16, Speed 20, Special 23 [Verified Stats Screen Turn 44234]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 1000 (Butterfree evolution Lv 10 reached!) [Verified Turn 44230]
-  - Moves: Tackle (PP 35/35), String Shot (PP 40/40)
+  - EXP: 1000 (331 to Lv 11) [Verified Page 2 Turn 44235]
+  - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44235]
 - Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 9, Bug/Poison]
   - Status: Healthy
   - Stats: Attack 10, Defense 14, Speed 11, Special 9
@@ -5193,18 +5196,18 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Active Mission: Trainee Leveling in Cerulean Cave 1F
 - Target Milestone: Evolve Metapod into Butterfree (#012) and Kakuna into Beedrill (#015)
 - Active Party Trainees:
-  - SILK: Lv 10 METAPOD (1000 EXP - Butterfree evolution triggering NOW!)
+  - SILK: Lv 10 BUTTERFREE (OWNED - Evolved Turn 44231!)
   - NEEDLE: Lv 9 KAKUNA (939 EXP, needs 61 EXP to Lv 10 Beedrill #015)
     - Next battle will evolve NEEDLE into Beedrill!
 - Evolution Safeguard: NEVER press B during evolution sequence! Use A only.
 - In-Game Pok�dex Audit Status:
   - #010 CATERPIE: OWNED
   - #011 METAPOD: OWNED (Evolved Turn 44167)
-  - #012 BUTTERFREE: Unowned (evolves from SILK NOW!)
+  - #012 BUTTERFREE: OWNED (Evolved Turn 44231)
   - #013 WEEDLE: OWNED
   - #014 KAKUNA: OWNED
   - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
-  - Pok�dex Totals: OWN 64, SEEN 137
+  - Pok�dex Totals: OWN 65, SEEN 137
 
 
 <hr>
