@@ -28,7 +28,7 @@
   - HP: 49+ / Uninspected (max ~51 at Lv 20)
   - Stats: Attack 43, Defense 24, Speed 24, Special 38 [Verified Level Up Box Turn 44746]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected)
+  - Moves: Stun Spore, Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected)
   - EXP: 6,520 (Target Lv 21: 6,458 EXP - Achieved Lv 21!)
 
 ## Bag Items (10 / 20 Slots Occupied)
