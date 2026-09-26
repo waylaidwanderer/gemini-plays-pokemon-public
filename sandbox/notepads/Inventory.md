@@ -4,25 +4,18 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6)
-- Slot 1: FARFETCH'D (Nickname: DUX) [Lv 41, Normal/Flying]
+## Party Pokémon (3 / 6 - Audited Turn 46538)
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
+  - HP: 253 / 254
   - Status: Healthy
-  - HP: 104 / 104
-  - Stats: Attack 68, Defense 64, Speed 63, Special 60
-  - OT: ELYSSA (IDNo. 54183)
-  - Moves: Slash, Sand-Attack, Cut, Fly
-- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
+  - HP: 94 / 94
   - Status: Healthy
-  - HP: 258 / 258
-  - Stats: Attack 194, Defense 224, Speed 194, Special 201
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
+  - Field Moves: Cut, Fly
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
+  - HP: 269 / 269
   - Status: Healthy
-  - HP: 274 / 274
-  - Stats: Attack 202, Defense 185, Speed 233, Special 275
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+- Slots 4-6: Empty (3 open slots ready to receive wild captures in Cerulean Cave directly into party).
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
 - Slot 1: POKé FLUTE
