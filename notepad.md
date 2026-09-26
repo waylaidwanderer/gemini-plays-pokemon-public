@@ -5312,7 +5312,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Encounter 8 (Turn 46091): Wild Zubat Lv 11 (fled)
       - Encounter 9 (Turn 46095): Wild Geodude Lv 9 (fled)
       - Encounter 10 (Turn 46099): Wild Geodude Lv 9 (fled)
-      - Encounter 11 (Turn 46127): Wild Geodude (in progress)
+      - Encounter 11 (Turn 46127): Wild Geodude Lv 9 (fled)
 
 
 <hr>
