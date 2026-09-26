@@ -19,3 +19,4 @@
       - Encounter 5 (Turn 46071): Wild Zubat Lv 11 (fled)
       - Encounter 6 (Turn 46081): Wild Geodude Lv 10 (fled)
       - Encounter 7 (Turn 46087): Wild Zubat Lv 11 (fled)
+      - Encounter 8 (Turn 46091): Wild Zubat (in progress)
