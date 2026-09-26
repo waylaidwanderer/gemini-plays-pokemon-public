@@ -9,7 +9,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 68 Caught [Evolved Victreebel #071 Turn 44758] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- Pokédex: 69 Caught [Caught Meowth #052 Turn 44849] / 137 Seen
 
 ## Milestones
 
@@ -128,7 +128,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 269 / 274 [Verified Battle Screen Turn 44847]
@@ -163,7 +163,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x1
-- Slot 10: POKé BALL x76
+- Slot 10: POKé BALL x73
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -5212,11 +5212,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 - [x] Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071) [COMPLETED Turn 44758 - 68 Caught!]
 
-  - Captured wild Bellsprout Lv 14 (SPROUT) in Route 25 tall grass [Turn 44368] into Party Slot 4!
 
 
 
-  - Potential Dex Gain: +2 new Pokédex entries (#070, #071) [Bellsprout #069 was already registered].
 
 - Target 2: Clefairy (#035) -> Clefable (#036)
 
@@ -5230,7 +5228,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
 
-- Expected Dex Progression: 66 -> 71+ Caught!
+- Expected Dex Progression: 69 -> 71+ Caught!
 
 ## Operational Combat Resource Budget & Sweeper Rotation Plan
 
