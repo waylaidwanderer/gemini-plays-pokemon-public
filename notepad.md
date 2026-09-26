@@ -123,10 +123,10 @@
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
-  - HP: 76 / 251 [Verified Turn 43783]
+  - HP: 48 / 251 [Verified Turn 43790]
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 10/15) [Verified Turn 43783], Body Slam (PP 2/15) [Verified Turn 43744], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
+  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 2/15) [Verified Turn 43744], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Lv 37 uninspected]
@@ -5176,7 +5176,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (~7,551 EXP, needs ~449 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (~7,682 EXP, needs ~318 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5196,8 +5196,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~449 EXP to reach Lv 20 (~3 wild battles at ~135 EXP/battle via EXP.ALL) [Hypno defeated Turn 43783].
-- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 76/251 HP, healthy; 15 PP remaining]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Target: Rattata requires ~318 EXP to reach Lv 20 (~2 wild battles at ~135 EXP/battle via EXP.ALL) [Magneton defeated Turn 43790].
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 48/251 HP, healthy; 14 PP remaining]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
   When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or when all moves viable for current spawns are exhausted):
     1. If Rattata is within 10 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
