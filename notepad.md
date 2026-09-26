@@ -152,7 +152,7 @@
   - HP: 78 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 3/10), Barrier (PP 29/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 29/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5219,14 +5219,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Recent Battles:
-    - Battle 19 (Hypno Lv 46, Total EXP: 1,076) [Turn 45275-45281]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
     - Battle 20 (Venomoth Lv 49, Total EXP: 952) [Turn 45284-45295]: Felix 238 participant + 56 EXP.ALL = 294 EXP (~30.9%). Defeated by Omega's Psychic.
-    - Battle 21 (Magneton Lv 46) [Turn 45299-]: In progress (Felix switched to Omega Lv 77 - Omega paralyzed by Thunder Wave).
+    - Battle 21 (Magneton Lv 46, Total EXP: 1,050) [Turn 45299-45314]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic.
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 21):
-  - Current EXP: ~10,135 / 10,648 (~513 EXP to Lv 22).
+  - Current EXP: ~10,462 / 10,648 (~186 EXP to Lv 22).
   - Stats: Attack 25, Defense 25, Speed 48, Special 23 [Verified Lv 21 Box Turn 45272].
 
 
