@@ -129,10 +129,10 @@
 - IDNo: 04620
 
 ## Party Pokémon (4 / 6)
-- Slot 1: MEOWTH (Nickname: FELIX) [Lv 17, Normal]
+- Slot 1: MEOWTH (Nickname: FELIX) [Lv 18, Normal]
   - Status: Healthy
-  - HP: 12 / 44 [Verified In-Game Turn 45109]
-  - Stats: Attack 21, Defense 21, Speed 40, Special 19 [Verified Level Up Box Turn 45091]
+  - HP: 12 / 46 [Lv 18 Gained Turn 45117]
+  - Stats: Attack 22, Defense 22, Speed 42, Special 20 [Verified Level Up Box Turn 45117]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day [Verified Turn 45091]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
@@ -5224,7 +5224,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Battle 4 (Golbat Lv 46, Total EXP: 1,104) [Turn 45078-45079]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
     - Battle 5 (Kadabra Lv 49, Total EXP: 1,008) [Turn 45090-45092]: Felix 252 participant + 63 EXP.ALL = 315 EXP (~31.25%). Leveled to Lv 17!
     - Battle 6 (Sandslash Lv 52, Total EXP: 1,188) [Turn 45094-45097]: Felix 297 participant + 74 EXP.ALL = 371 EXP (~31.2%). Defeated by Sheldon's Surf.
-    - Empirical Yield Note: Across Battles 1-6, Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus an EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive grinding!).
+    - Battle 7 (Parasect Lv 52, Total EXP: 950) [Turn 45113-45117]: Felix 237 participant + 59 EXP.ALL = 296 EXP (~31.2%). Defeated by Sheldon's Ice Beam. Leveled to Lv 18!
+    - Empirical Yield Note: Across Battles 1-7, Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus an EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive grinding!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -5234,10 +5235,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Full Movepool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, swap Felix to Slot 1, return to cave.
-- Trainee Progress (FELIX Lv 17):
-  - Current EXP: ~5,563
-  - Lv 18 threshold: 5,832 (~269 EXP to Lv 18).
-  - Battle 6 (Sandslash Lv 52) yielded 371 EXP to Felix (297 participant + 74 EXP.ALL). Next battle will reach Lv 18!
+- Trainee Progress (FELIX Lv 18):
+  - Current EXP: ~5,859
+  - Lv 19 threshold: 6,859 (~1,000 EXP to Lv 19).
+  - Battle 7 (Parasect Lv 52) yielded 296 EXP to Felix (237 participant + 59 EXP.ALL). Stats: Atk 22, Def 22, Spe 42, Spc 20.
 
 
 <hr>
