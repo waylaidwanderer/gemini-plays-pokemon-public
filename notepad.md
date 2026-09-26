@@ -128,10 +128,10 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6)
+## Party PokÃ©mon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 23, Normal]
   - Status: Healthy
-  - HP: ~57 / 57
+  - HP: 57 / 57
   - Stats: Attack 27, Defense 28, Speed 53, Special 25
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
@@ -143,7 +143,7 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
   - Status: PSN
-  - HP: 223 / 258
+  - HP: 218 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
@@ -155,7 +155,7 @@
   - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
-- Slot 1: POKé FLUTE
+- Slot 1: POKÃ© FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
 - Slot 4: PP UP x1
@@ -164,7 +164,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x1
-- Slot 10: POKé BALL x73
+- Slot 10: POKÃ© BALL x73
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -195,14 +195,14 @@
 26. TM43 x1 (Sky Attack)
 27. TM17 x1 (Submission)
 
-## PC Pokémon Storage
-- Active Box: BOX 6 [Contains 1 Pokémon: SPROUT Lv 21 Victreebel - deposited Turn 44782]
+## PC PokÃ©mon Storage
+- Active Box: BOX 6 [Contains 1 PokÃ©mon: SPROUT Lv 21 Victreebel - deposited Turn 44782]
 - Box 1: Empty [Verified Turn 44282]
-- Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
-- Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
+- Box 2: Contains 2 PokÃ©mon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
+- Box 3: Contains 2 PokÃ©mon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 4: Empty [Verified Turn 44287]
 - Box 5: Empty [Verified Turn 44291]
-- Boxes 7–12: Uninspected storage
+- Boxes 7â12: Uninspected storage
 
 
 <hr>
@@ -244,11 +244,11 @@
 
 ## Battle UI & Controls
 
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active PokÃ©mon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÃ©MON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy PokÃ©mon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 
-- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
+- **Shift Style Prompt:** When an opposing PokÃ©mon faints in trainer battles, the game asks "Will BLUE change POKÃ©MON?". Default cursor is YES. Pressing B automatically selects NO and retains current PokÃ©mon.
 
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
 
@@ -256,7 +256,7 @@
 
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
 
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÃ©DEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
@@ -264,7 +264,7 @@
 
 ## Stat & Damage Mechanics
 
-- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type Pokémon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
+- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type PokÃ©mon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
 
 - **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat [Empirically verified across all stat screens and damage calculations].
 
@@ -280,30 +280,30 @@
 
 ## Obedience
 
-- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 74 and wild-caught Mewtwo OMEGA at Lv 74 obey 100% of commands in all battles without disobedience).
-- **Traded / Outsider Pokémon:** Traded Pokémon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All Pokémon obey). Verified: With Earthbadge obtained [Turn 15111], all traded Pokémon obey unconditionally up to Lv 100.
+- **Original Trainer PokÃ©mon:** Starter PokÃ©mon and PokÃ©mon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 74 and wild-caught Mewtwo OMEGA at Lv 74 obey 100% of commands in all battles without disobedience).
+- **Traded / Outsider PokÃ©mon:** Traded PokÃ©mon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All PokÃ©mon obey). Verified: With Earthbadge obtained [Turn 15111], all traded PokÃ©mon obey unconditionally up to Lv 100.
 
 
 
-## Experience Distribution & Traded Pokémon Boost
+## Experience Distribution & Traded PokÃ©mon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-21 in Cerulean Cave (Turns 45041-45314). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-28 in Cerulean Cave (Turns 45041-45506). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
   - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
-  - When a single lead Pokémon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
+  - When a single lead PokÃ©mon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
   - EXP.ALL distributes the remaining half among all party members: `s_expall = floor(floor(Total_EXP / 2) / N)`.
-  - Traded Pokémon receive: `s_expall + floor(s_expall / 2)`.
+  - Traded PokÃ©mon receive: `s_expall + floor(s_expall / 2)`.
 
-- **Native vs. Traded Pokémon EXP Yields:**
+- **Native vs. Traded PokÃ©mon EXP Yields:**
 
-  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Native PokÃ©mon (OT matches player):** Receives exactly the base share `s_EXP`.
 
-  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+  - **Traded / Outsider PokÃ©mon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
 
-- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
+- **Traded PokÃ©mon Boost Formula (Gen 1 Assembly Implementation):**
 
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
 
@@ -312,7 +312,7 @@
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 
 - **Empirical Solo-Sweeper EXP.ALL Yields (N=4 Party: Solo Lead [Mewtwo / Sheldon], DUX Traded, Inactive Members):**
-  - Solo sweep yields are determined strictly by the defeated Pokémon species/level and party size, invariant to which Pokémon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
+  - Solo sweep yields are determined strictly by the defeated PokÃ©mon species/level and party size, invariant to which PokÃ©mon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
 
 | Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -337,19 +337,19 @@
 | Magneton | 46 | 1,050 | 525 EXP | 105 EXP | 157 EXP | Verified Turn 44243 |
 
 
-- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+- **In-Battle Party Sub-Menu:** When selecting a non-active PokÃ©mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## Field Items in Battle
 
-- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
+- **In-Battle PokÃ© Flute Usage (Empirically Verified Turns 33850 & 39237):**
 
-  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
+  - Using the PokÃ© Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKÃ©MON woke up!', awakening all sleepers (player and opponent).
 
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 
 ## Generation 1 Capture Mechanics & Empirical Boundaries
-- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
-- **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
+- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a PokÃ©mon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic PokÃ© Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
+- **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic PokÃ© Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
@@ -5213,7 +5213,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Bag & PC currently contain 0 Moon Stones.
     - Historical Moon Stones consumed (2 total): Nidoqueen (#031) [Turn 31235] and Wigglytuff (#040) [Turn 43213].
     - Historical pickups audited: Rocket Hideout B2F Item Ball 1 at (1, 11) retrieved Turn 5721 (contained Moon Stone).
-    - Remaining candidate sites to audit for uncollected Moon Stones before Clefable quest: Mt. Moon 1F, Mt. Moon B2F, Silph Co. 5F, Pok�mon Mansion B1F.
+    - Remaining candidate sites to audit for uncollected Moon Stones before Clefable quest: Mt. Moon 1F, Mt. Moon B2F, Silph Co. 5F, Pokémon Mansion B1F.
 
 - [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
@@ -5227,7 +5227,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
     - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
-    - Sheldon (Healthy): Preferred when facing Electric moves (Magneton/Raichu), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
+    - Sheldon (PSN): Preferred against targets weak to Water/Ice (Sandslash, Dodrio), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). (Avoid Electric moves from Magneton/Raichu due to Water-type weakness). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 27 (Hypno Lv 46, Total EXP: 1,076) [Turn 45478-45492]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB critical Surf. Felix grew to Level 23! (Stats: Atk 27, Def 28, Spd 53, Spc 25).
     - Battle 28 (Sandslash Lv 52, Total EXP: 1,188) [Turn 45497-45506]: Felix 297 participant + 74 EXP.ALL = 371 EXP (~31.2%). Defeated by Sheldon's STAB Surf. Sheldon grew to Level 80!
@@ -5247,15 +5247,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
 
 ## Evolutionary Stones & Commercial Availability
-- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046].
-- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
-- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Pok� Marts tested. (Overworld pickup locations unverified in permanent records).
+- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 43046].
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 33357].
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 34159].
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. (Overworld pickup locations unverified in permanent records).
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
-- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon Pokémon Center.
+- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon PokÃ©mon Center.
 - **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
 - **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
 - **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
