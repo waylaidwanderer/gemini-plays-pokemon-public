@@ -146,8 +146,12 @@
   - OT: BLUE (IDNo. 04620)
   - EXP: 125 (91 to Lv 6) [Verified Page 2 Turn 44094]
   - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44094]
-- Slot 5: KAKUNA (Nickname: NEEDLE pending) [Lv 4, Bug/Poison]
-  - Status: Healthy (captured Turn 44084, Ball 4, uninspected stats/moves in-game)
+- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 4, Bug/Poison]
+  - Status: Healthy (captured Turn 44084, Ball 4)
+  - HP: 18 / 18 [Verified Stats Screen Turn 44094]
+  - Stats: Attack 7, Defense 9, Speed 8, Special 7 [Verified Stats Screen Turn 44094]
+  - OT: BLUE (IDNo. 04620)
+  - Moves: (inspecting Page 2)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
