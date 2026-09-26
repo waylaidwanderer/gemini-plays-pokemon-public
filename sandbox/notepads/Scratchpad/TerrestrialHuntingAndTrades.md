@@ -26,13 +26,11 @@
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
     - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
-    - Sheldon (PSN): Preferred against targets weak to Water/Ice (Sandslash, Dodrio), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). (Avoid Electric moves from Magneton/Raichu due to Water-type weakness). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
+    - Sheldon (Healthy): Restored to 258/258 HP and PSN cured at Cerulean Center [Turn 45590]. Preferred against targets weak to Water/Ice (Sandslash, Dodrio), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). (Avoid Electric moves from Magneton/Raichu due to Water-type weakness). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 33 (Hypno Lv 46, Total EXP: 1,076) [Turn 45560-45567]: Felix 269 participant + ~65 EXP.ALL = ~334 EXP (~31.0%). Defeated by Sheldon's STAB Surf.
     - Battle 34 (Hypno Lv 46, Total EXP: 1,076) [Turn 45571-45578]: Felix 269 participant + ~65 EXP.ALL = ~334 EXP (~31.0%). Defeated by Sheldon's STAB Surf.
 
-- Healing / Center Protocol:
-  - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore PP and cure status conditions, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 24):
   - Verified Stats: HP 59/59, Attack 28, Defense 29, Speed 55, Special 26 (audited Turn 45555).
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20).
