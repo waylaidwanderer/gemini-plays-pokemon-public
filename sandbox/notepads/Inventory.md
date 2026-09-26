@@ -25,12 +25,6 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: RATICATE (Nickname: RATTY) [Lv 20, Normal]
-  - Status: Healthy
-  - HP: 55 / 55 [Verified Party Screen Turn 43820]
-  - Stats: Attack 31, Defense 23, Speed 37, Special 16 [Verified Lv 20 Screen Turn 43816]
-  - Caught: Route 1 [Turn 43083] with Poké Ball
-  - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKÃ© FLUTE

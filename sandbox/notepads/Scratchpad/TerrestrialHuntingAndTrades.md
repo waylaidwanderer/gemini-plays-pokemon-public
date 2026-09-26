@@ -5,9 +5,9 @@
 - Active Trainee: Caterpie (#010 SILK, pending withdrawal from Box 2) - Target: Level 7 (Metapod #011), Level 10 (Butterfree #012)
 - Completed Evolutions:
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
-  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817, depositing into Box 2 Turn 43831]
+  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817, Stored Box 2 Turn 43832]
 - Archived Targets in Storage:
-  - Box 2: Bellsprout (#069 SPROUT) [Turn 42628], Weedle (#013 NEEDLE) [Turn 42784], Wigglytuff (#040 PUFF) [Turn 43232]
+  - Box 2: Bellsprout (#069 SPROUT) [Turn 42628], Weedle (#013 NEEDLE) [Turn 42784], Wigglytuff (#040 PUFF) [Turn 43232], Raticate (#020 RATTY Lv 20) [Stored Turn 43832]
 
 ## Active Team & Sweeper Status
 - Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 251/251 HP, 55/55 PP: Double-Edge 15, Body Slam 15, Surf 15, Ice Beam 10 - Healed Turn 43825].
