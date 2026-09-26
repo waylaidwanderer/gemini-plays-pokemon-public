@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 46787)
+## Party Pokémon (5 / 6 - Audited Turn 46801)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 127 / 269
   - Status: Healthy
@@ -22,7 +22,7 @@
   - Status: Healthy
 - Slot 6: Empty
 
-## Bag Items (10 / 20 Slots Occupied - Audited Turn 46741)
+## Bag Items (10 / 20 Slots Occupied - Audited Turn 46801)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE

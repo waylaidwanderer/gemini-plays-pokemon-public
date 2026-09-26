@@ -11,8 +11,6 @@
   6. [CAUGHT Turn 46787] Kadabra (#064 SPOON) [Wild Lv 49] -> Caught on Ball 14!
 
 ## Hunting Protocol & Strategy
-- Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
 - Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (52 in Bag).
-- Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
+- Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto, Dodrio, Kadabra): RUN immediately with Mewtwo lead.
 - Storing captures: Party slot 6 is open to receive final target Venomoth directly into party (Dodrio Slot 4, Kadabra Slot 5).
