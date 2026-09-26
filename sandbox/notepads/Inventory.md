@@ -4,9 +4,9 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6 - Audited Turn 46638)
+## Party Pokémon (3 / 6 - Audited Turn 46712)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 210 / 254
+  - HP: 87 / 254
   - Status: Paralyzed (PAR)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
@@ -17,7 +17,7 @@
   - Status: Healthy
 - Slots 4-6: Empty
 
-## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
+## Bag Items (10 / 20 Slots Occupied - Audited Turn 46712)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
