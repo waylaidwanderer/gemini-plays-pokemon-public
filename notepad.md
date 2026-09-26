@@ -147,10 +147,10 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: MEOWTH (Nickname: FELIX) [Lv 13, Normal]
+- Slot 4: MEOWTH (Nickname: FELIX) [Lv 14, Normal]
   - Status: Healthy
   - HP: Uninspected [Pending direct Party/Stats screen verification]
-  - Stats: Attack 17, Defense 17, Speed 31, Special 15 [Verified Level Up Box Turn 44924]
+  - Stats: Attack 18, Defense 18, Speed 33, Special 16 [Verified Level Up Box Turn 44959]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
 
@@ -5233,10 +5233,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Total Attack PP Pool: 78+ damaging moves before center replenishment.
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
-- Trainee Progress (FELIX Lv 13):
-  - Current EXP: 2,621
-  - Lv 14 threshold: 2,744 (123 EXP to Lv 14).
-  - Wild Hypno Lv 46 yielded 131 EXP.ALL share to Felix.
+- Trainee Progress (FELIX Lv 14):
+  - Current EXP: 2,769
+  - Lv 15 threshold: 3,375 (606 EXP to Lv 15).
+  - Wild Sandslash Lv 52 defeated; yielded 148 EXP.ALL share to Felix (leveled to 14).
 
 
 <hr>
