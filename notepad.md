@@ -9,7 +9,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 66 Caught [Evolved Beedrill #015 Turn 44247] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- Pokédex: 68 Caught [Evolved Victreebel #071 Turn 44758] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Milestones
 
@@ -136,7 +136,7 @@
   - Moves: Swift (PP 1/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
   - Status: Healthy
-  - HP: 97+ / Uninspected (max ~99 at Lv 39)
+  - HP: 99 / 99 [Verified Screen Turn 44761]
   - Stats: Attack 65, Defense 61, Speed 60, Special 57 [Verified Level Up Box Turn 44667]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
@@ -148,17 +148,17 @@
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - Slot 4: VICTREEBEL (Nickname: SPROUT) [Lv 21, Grass/Poison]
   - Status: Healthy
-  - HP: 49+ / Uninspected (max ~51 at Lv 20)
-  - Stats: Attack 43, Defense 24, Speed 24, Special 38 [Verified Level Up Box Turn 44746]
+  - HP: 66 / 66 [Verified Screen Turn 44761]
+  - Stats: Attack 56, Defense 37, Speed 36, Special 50 [Verified STATS Screen Turn 44762]
   - OT: BLUE (IDNo. 04620)
   - Moves: Stun Spore, Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected)
-  - EXP: 6,520 (Target Lv 21: 6,458 EXP - Achieved Lv 21!)
+  - EXP: 6,520
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
-- Slot 4: PP UP x1
+- Slot 4: VICTREEBEL (Nickname: SPROUT) [Lv 21, Grass/Poison]
 - Slot 5: MAX ELIXER x1
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
@@ -5230,13 +5230,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Operational Combat Resource Budget & Sweeper Rotation Plan
 
-- Strategic Objective: Train SPROUT to Level 21 (Target: 6,458 EXP) via EXP.ALL, then apply Leaf Stone for Victreebel (#071).
-
 - Sweeper Roles & Dynamic Thresholds:
 
   - Active Sweeper (MEWTWO OMEGA Lv 77):
     - Status: Active Lead [Turn 44554+]
-    - Attack Pool: Swift (never misses, PP 4/20), Recover (sustain), Barrier. Psychic (0/10).
+    - Attack Pool: Swift (never misses, PP 1/20), Recover (sustain), Barrier. Psychic (0/10).
     - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
 - Reserve Sweeper (Blastoise SHELDON Lv 79):
     - Physical Reserve: Body Slam (PP 15/15), Double-Edge (PP 14/15). Surf (0/15), Ice Beam (0/10).
@@ -5262,7 +5260,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
 - **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
 - **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
-- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
+- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
+- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
 
 
 <hr>
