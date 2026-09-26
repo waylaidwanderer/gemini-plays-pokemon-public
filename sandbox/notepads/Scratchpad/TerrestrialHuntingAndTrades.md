@@ -12,5 +12,5 @@
   6. Kadabra (#064) [Wild Lv 49]
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
-  - Action: Visit Celadon Department Store 2F -> Buy 25 Poké Balls (¥5,000).
+  - Balls in Bag: 78 Poké Balls (audited Turn 46536).
   - Travel: Outside Cerulean Pokémon Center -> Mount Bicycle -> Ride to Route 24 (8, 15) -> Surf canal -> Enter Cerulean Cave 1F -> Encounter and capture targets with Sheldon / Omega.
