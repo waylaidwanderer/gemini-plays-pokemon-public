@@ -131,7 +131,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 17, Normal]
   - Status: Healthy
-  - HP: 12 / 44 [Hit by Poison Sting Turn 45094]
+  - HP: 44 / 44 [Verified Healed Turn 45102]
   - Stats: Attack 21, Defense 21, Speed 40, Special 19 [Verified Level Up Box Turn 45091]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day [Verified Turn 45091]
@@ -143,16 +143,16 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 246 / 254 [Hit by Fury Swipes Turn 45096]
+  - HP: 254 / 254 [Verified Healed Turn 45102]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 199 / 274 [Verified Battle Screen Turn 45090]
+  - HP: 274 / 274 [Verified Healed Turn 45102]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
