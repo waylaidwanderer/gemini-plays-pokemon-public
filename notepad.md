@@ -8,7 +8,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 64 Caught [CATERPIE #010 caught Turn 43914] / 137 Seen [Verified Turn 39387]
+- Pokédex: 63 Caught [Audited In-Game Pokédex Turn 44103] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Milestones
 
@@ -121,7 +121,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6) [CATERPIE recruited Turn 43928]
+## Party Pokémon (5 / 6) [KAKUNA recruited Turn 44084]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
   - HP: 250 / 251
@@ -165,7 +165,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x81
+- Slot 10: POKé BALL x78 [Audited: 82 stock - 4 balls thrown Turn 44084]
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -5185,11 +5185,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
 - Active Mission: Trainee Leveling in Cerulean Cave
-- In-Game Pok�dex Audit [Turn 44104]:
-  - #010 CATERPIE: OWNED (Pok� Ball icon verified Turn 44104)
+- In-Game Pokedex Audit [Turn 44104]:
+  - #010 CATERPIE: OWNED (Poke Ball icon verified Turn 44104)
   - #011 METAPOD: Unowned (evolves from SILK at Lv 7)
   - #012 BUTTERFREE: Unowned (evolves from SILK at Lv 10)
-  - #013 WEEDLE: OWNED (Pok� Ball icon verified Turn 44104)
+  - #013 WEEDLE: OWNED (Poke Ball icon verified Turn 44104)
   - #014 KAKUNA: OWNED (NEEDLE caught Turn 44084)
   - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
   - Audited Pokedex Totals: OWN 63, SEEN 137
@@ -5197,7 +5197,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Weedle (#013) is 100% confirmed OWNED in active save file!
   - No wild Weedle capture is needed.
   - Active party has both required trainees: SILK (Slot 4) and NEEDLE (Slot 5).
-  - Ready to exit Viridian Forest and fly to Cerulean Cave for EXP.ALL power-leveling!
+  - Currently entering Cerulean Cave 1F for EXP.ALL power-leveling!
 
 
 <hr>
