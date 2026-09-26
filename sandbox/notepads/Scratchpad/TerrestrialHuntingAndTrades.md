@@ -12,6 +12,7 @@
     - Mt. Moon 1F:
       - Encounter 1 (Turn 46016): Wild Geodude (fled)
       - Encounter 2 (Turn 46027): Wild Zubat Lv 6 (fled)
+      - Encounter 16 (Turn 46167): Wild Geodude Lv 8 (fled)
     - Mt. Moon B1F:
       - Encounter 3 (Turn 46036): Wild Zubat Lv 9 (fled)
       - Encounter 15 (Turn 46156): Wild Zubat Lv 7 (fled)
