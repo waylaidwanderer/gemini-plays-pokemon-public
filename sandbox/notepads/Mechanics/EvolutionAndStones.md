@@ -5,7 +5,7 @@
 - **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
 - **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
 - **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. Verified overworld item pickups in Kanto: Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F.
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Pok� Marts tested. (Overworld pickup locations unverified in permanent records; see Scratchpad for candidate sites).
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
