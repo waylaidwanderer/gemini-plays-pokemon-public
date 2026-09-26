@@ -29,7 +29,7 @@
   - Stats: Attack 29, Defense 17, Speed 17, Special 26 [Verified Screen Turn 44412]
   - OT: BLUE (IDNo. 04620)
   - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20) [Verified Screen Turn 44414]
-  - EXP: 1,743 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,715 EXP) [1 battle won]
+  - EXP: 1,891 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,567 EXP) [2 battles won]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
