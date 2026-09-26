@@ -3,7 +3,7 @@
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
 
-- **Start Menu Vertical Wrapping (Empirically Verified Turn 46642):** In Generation 1 retail, the overworld Start menu DOES wrap vertically between the top option (POKéDEX) and the bottom option (EXIT). Pressing Up at POKéDEX wraps directly to EXIT [empirically verified Turn 46642]. (Downward wrap from EXIT remains untested). This is distinct from the Bag item list and PC storage lists, which do NOT wrap vertically.
+
 
 ## PC Storage & Menu Mechanics (Generation 1 Retail)
 - **PC Pokémon Withdrawal List Vertical Navigation:** In Generation 1 retail, the PC Pokémon storage withdrawal list does NOT wrap vertically from top to bottom (pressing Up at Slot 1 stops at Slot 1 and does not wrap to CANCEL, identical to Bag item list behavior) [Empirically verified Turn 42398].
@@ -51,3 +51,6 @@
   - Removing the lead Pokémon causes all subsequent party Pokémon to shift up by 1 slot (Slot 2 becomes Slot 1, Slot 3 becomes Slot 2, Slot 4 becomes Slot 3).
   - The newly received traded Pokémon is appended directly into the LAST occupied party slot (e.g. 4-member party: Slot 4 became MARC). Behavior for non-lead slot trades (Slots 2..6) remains unverified.
   - Traded Pokémon arrives at the exact same level as the offered Pokémon (Slowbro Lv 37 -> Lickitung Lv 37).
+
+## Overworld & Start Menu UI Mechanics
+- **Start Menu Vertical Wrapping (Empirically Verified Turn 46642):** In Generation 1 retail, the overworld Start menu DOES wrap vertically between the top option (POKéDEX) and the bottom option (EXIT). Pressing Up at POKéDEX wraps directly to EXIT [empirically verified Turn 46642]. (Downward wrap from EXIT remains untested). This is distinct from the Bag item list and PC storage lists, which do NOT wrap vertically.

@@ -22,8 +22,7 @@
 
 
 
-- **Empirical Solo-Sweeper EXP.ALL Yields (N=3 Party: Solo Lead [Sheldon], Inactive: DUX, OMEGA):**
-  - Sandslash Lv 52: Sweeper Sheldon gained 601 EXP; EXP.ALL pool announced 200 EXP Points (Traded DUX received 300 EXP [1.5x boost], Native OMEGA received 200 EXP) [Empirically verified Turns 46665-46666].
+
 
 ## Stat & Damage Mechanics
 
@@ -49,6 +48,9 @@
 
 
 ## Experience Distribution & Traded Pokémon Boost
+
+- **Empirical Solo-Sweeper EXP.ALL Yields (N=3 Party: Solo Lead [Sheldon], Inactive: DUX, OMEGA):**
+  - Sandslash Lv 52: Sweeper Sheldon gained 601 EXP; EXP.ALL pool announced 200 EXP Points (Traded DUX received 300 EXP [1.5x boost], Native OMEGA received 200 EXP) [Empirically verified Turns 46665-46666].
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
   - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-56 in Cerulean Cave (Turns 45041-45881). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
