@@ -23,7 +23,7 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 0/15), Ice Beam (PP 0/10)
-- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 21, Grass/Poison]
+- Slot 4: WEEPINBELL (Nickname: SPROUT) [Lv 21, Grass/Poison]
   - Status: Healthy
   - HP: 49+ / Uninspected (max ~51 at Lv 20)
   - Stats: Attack 43, Defense 24, Speed 24, Special 38 [Verified Level Up Box Turn 44746]
