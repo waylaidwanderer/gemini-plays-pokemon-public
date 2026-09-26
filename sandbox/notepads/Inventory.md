@@ -4,7 +4,6 @@
 - Name: BLUE
 - IDNo: 04620
 - Money: ¥5,905
-- Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
@@ -13,7 +12,7 @@
   - HP: 31 / 251 [Verified Turn 43798]
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 1/15) [Verified Turn 43798], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
+  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 0/15) [Expended Turn 43799], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Lv 37 uninspected]
@@ -28,7 +27,7 @@
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 19, Normal]
   - Status: Healthy
-  - HP: Uninspected at Lv 19 (38/38 at Lv 16 [Turn 43593])
+  - HP: Uninspected at Lv 19
   - Stats: Attack 30, Defense 21, Speed 35, Special 15 [Verified Lv 19 Screen Turn 43747]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
