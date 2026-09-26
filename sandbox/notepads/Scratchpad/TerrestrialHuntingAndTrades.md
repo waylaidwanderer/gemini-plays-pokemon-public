@@ -13,4 +13,3 @@
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
   - Balls in Bag: 77 Poké Balls (1 used on Hypno).
-  - Travel: Outside Cerulean Pokémon Center -> Mount Bicycle -> Ride to Route 24 (8, 15) -> Surf canal -> Enter Cerulean Cave 1F -> Encounter and capture targets with Sheldon / Omega.

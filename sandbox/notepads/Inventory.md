@@ -27,8 +27,8 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x78
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Zero glitch items; 78 Poké Balls ready for Cerulean Cave.
+- Slot 10: POKé BALL x77
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Exactly 1 Poké Ball used to capture wild Hypno [Turn 46585].
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -59,7 +59,7 @@
 26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Contains stored Pokémon - audit required after save reload]
+- Active Box: BOX 6 [Contains stored Pokémon]
 - Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)

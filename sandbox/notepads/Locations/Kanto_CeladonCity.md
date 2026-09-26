@@ -69,7 +69,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Interior Entrance Mat: (4, 7).
   - Counter Windows:
     - Left Window at (2, 2): Uninspected prize window. Approached from (2, 3) facing North.
-    - Middle Window at (4, 2): Technical Machines / TM Prizes. Approached from (4, 3) facing North.
+    - Middle Window at (4, 2): Uninspected prize window. Approached from (4, 3) facing North.
     - Right Window at (6, 2): Uninspected prize window. Approached from (6, 3) facing North.
 - Celadon Diner:
   - Exterior entrance door at (31, 27).
