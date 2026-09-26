@@ -103,3 +103,10 @@
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
+- **Empirical Solo-Sweeper EXP.ALL Yield (N=5 Party: Sheldon Lead Lv 78, DUX Traded Lv 37, OMEGA Lv 76, SILK Lv 5, NEEDLE Lv 4) [Verified Turn 44141]:**
+  - Opponent: Wild Venomoth Lv 49
+  - Lead Sweeper Share (Sheldon): 483 EXP
+  - Base Trainee EXP.ALL Share (Native: Silk, Needle, Omega): 91 EXP
+  - Traded Trainee Share (DUX): 136 EXP (91 + floor(91/2) = 136)
+  - SILK leveled from Lv 5 (EXP 125) to Lv 6 (needed 91 EXP, 125+91=216)!
+  - NEEDLE leveled from Lv 4 (EXP 64) to Lv 5 (needed 61 EXP, 64+91=155)!
