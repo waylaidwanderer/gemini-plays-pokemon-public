@@ -7,10 +7,11 @@
 
 - Money: ¥5,905
 
-- Pokédex: 66 Caught [Restored via Save Reload Turn 46527] / 137 Seen
+- Pokédex: 67 Caught [Hypno caught Turn 46585] / 137 Seen
 
 ## Milestones
 
+- [x] Catch wild Hypno (#097 HYPNOS) on Cerulean Cave 1F with Poké Ball [Turn 46585]
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
 - [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]

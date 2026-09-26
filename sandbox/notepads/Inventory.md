@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6 - Audited Turn 46538)
+## Party Pokémon (4 / 6 - Audited Turn 46593)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 253 / 254
   - Status: Healthy
@@ -15,7 +15,9 @@
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
-- Slots 4-6: Empty
+- Slot 4: HYPNO (Nickname: HYPNOS) [Lv 46, Psychic]
+  - Status: Healthy
+- Slots 5-6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
 - Slot 1: POKé FLUTE
