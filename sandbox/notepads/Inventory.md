@@ -5,12 +5,12 @@
 - IDNo: 04620
 
 ## Party Pokémon (5 / 6) [KAKUNA recruited Turn 44084]
-- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
+- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 250 / 251
-  - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
+  - HP: 254 / 254
+  - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Healed Turn 43825]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 7/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 94 / 94 [Verified Party Screen Turn 43820]
