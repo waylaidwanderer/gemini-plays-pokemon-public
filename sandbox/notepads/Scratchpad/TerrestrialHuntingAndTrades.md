@@ -35,5 +35,5 @@
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore PP and cure status conditions, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 24):
   - Verified Stats: HP 59/59, Attack 28, Defense 29, Speed 55, Special 26 (audited Turn 45555).
-  - EXP Tracking: Reached Level 24 in Battle 32! Target: Persian (#053) at Level 28 (4 levels to Lv 28).
-  - Target: Persian (#053) at Level 28 (21,952 EXP, 4 levels to Lv 28).
+  - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20).
+  - EXP Tracking: Current EXP: ~14,485 / 15,625 EXP. Level Up: ~1,140 EXP to Lv 25 (after Battle 33). Target: Persian (#053) at Level 28 (21,952 EXP, 4 levels to Lv 28).
