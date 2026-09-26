@@ -125,7 +125,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6) [KAKUNA recruited Turn 44084]
+## Party Pokémon (3 / 6) [BUTTERFREE & BEEDRILL deposited Turn 44269]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
   - HP: 254 / 254
@@ -144,20 +144,6 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: BUTTERFREE (Nickname: SILK) [Lv 10, Bug/Flying]
-  - Status: Healthy (evolved Turn 44231)
-  - HP: 34 / 34 [Verified Stats Screen Turn 44234]
-  - Stats: Attack 16, Defense 16, Speed 20, Special 23 [Verified Stats Screen Turn 44234]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 1000 (331 to Lv 11) [Verified Page 2 Turn 44235]
-  - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44235]
-- Slot 5: BEEDRILL (Nickname: NEEDLE) [Lv 10, Bug/Poison]
-  - Status: Healthy
-  - HP: 34 / 34 [Verified Stats Screen Turn 44252]
-  - Stats: Attack 22, Defense 13, Speed 20, Special 14 [Verified Stats Screen Turn 44252]
-  - OT: BLUE (IDNo. 04620)
-  - EXP: 1044 [Verified Turn 44246]
-  - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -201,10 +187,11 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 3 (Empty - verified Turn 43848)
+- Active Box: BOX 3 (Contains 2 Pokémon: SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 1: Empty (verified Turn 43840)
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 43833)
 - Boxes 4–12: Uninspected storage
+
 
 <hr>
 
