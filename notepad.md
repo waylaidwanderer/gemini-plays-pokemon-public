@@ -5231,8 +5231,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, swap Felix to Slot 1, return to cave.
 - Trainee Progress (FELIX Lv 16):
-  - Current EXP: 4,195
-  - Lv 17 threshold: 4,913 (718 EXP to Lv 17).
+  - Current EXP: 4,536
+  - Lv 17 threshold: 4,913 (377 EXP to Lv 17).
+  - Battle 3 (Golbat Lv 46) yielded 341 EXP to Felix (276 participant + 65 EXP.ALL).
 
 
 <hr>
