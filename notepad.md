@@ -152,7 +152,7 @@
   - HP: 189 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 29/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 29/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5224,16 +5224,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Battle 13 (Venomoth Lv 49, Total EXP: 952) [Turn 45198-45214]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic.
     - Battle 14 (Venomoth Lv 49, Total EXP: 952) [Turn 45224-45230]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic. Felix grew to Level 20!
     - Battle 15 (Magneton Lv 46, Total EXP: 1,050) [Turn 45234-45241]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic (Crit).
-    - Battle 16 (Golbat Lv 46) [Turn 45245-]: In progress (Felix switched to Omega Lv 77).
+    - Battle 16 (Golbat Lv 46, Total EXP: 1,104) [Turn 45245-45251]: Felix 276 participant + 69 EXP.ALL = 345 EXP (~31.2%). Defeated by Omega's Psychic.
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
-  - Secondary Attack: Psychic (PP 5/10) - Special STAB, guaranteed OHKO on high-defense targets.
+  - Secondary Attack: Psychic (PP 4/10) - Special STAB, guaranteed OHKO on high-defense targets.
   - Recovery: Recover (PP 20/20) - sustains HP in-cave without consumables.
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 20):
-  - Current EXP: ~8,459 / 9,261 (~802 EXP to Lv 21).
+  - Current EXP: ~8,804 / 9,261 (~457 EXP to Lv 21).
   - Stats: Attack 24, Defense 24, Speed 46, Special 22 [Verified Lv 20 Box Turn 45230].
 
 
