@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 70 Caught [Evolved Felix into Persian #053 Turn 45881] / 137 Seen
+- Pokédex: 66 Caught [Restored via Save Reload Turn 46527] / 137 Seen
 
 ## Milestones
 
@@ -110,9 +110,5 @@
 - [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
 - [x] Evolve Metapod into Butterfree (#012) [Turn 44231]
-- [x] Catch wild Meowth (#052 FELIX) on Route 5 [Turn 44849]
-- [x] Evolve Weepinbell into Victreebel (#071) via Leaf Stone [Turn 44758]
-- [x] Evolve Bellsprout into Weepinbell (#070) [Turn 44752]
 - [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]
 
-- [x] Evolve Meowth into Persian (#053) at Lv 28 [Turn 45881]
