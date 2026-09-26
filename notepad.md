@@ -149,10 +149,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: PAR (Paralyzed in Battle 22)
-  - HP: 257 / 274
+  - HP: 249 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5219,14 +5219,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Recent Battles (Rolling 2-Battle Window):
-    - Battle 21 (Magneton Lv 46, Total EXP: 1,050) [Turn 45299-45314]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic.
     - Battle 22 (Magneton Lv 46, Total EXP: 1,050) [Turn 45372-45385]: Felix 262 participant + 65 EXP.ALL = 327 EXP. Defeated by Omega's Psychic. Felix grew to Level 22! (Stats: Atk 26, Def 27, Spd 50, Spc 24).
+    - Battle 23 (Magneton Lv 46, Total EXP: 1,050) [Turn 45404-45411]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic.
 
 - Healing / Center Protocol:
-  - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore Psychic (9/10) and Swift (20/20) and cure Omega's PAR, verify party health via UI, return to cave.
+  - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore Psychic (8/10) and Swift (20/20) and cure Omega's PAR, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 22):
   - Verified Stats: HP 55/55, Attack 26, Defense 27, Speed 50, Special 24 (audited Turn 45399).
-  - EXP Tracking: Current EXP: 10,806 / 12,167 EXP. Level Up: 1,361 EXP to Lv 23 (audited Turn 45399).
+  - EXP Tracking: Current EXP: 11,133 / 12,167 EXP. Level Up: 1,034 EXP to Lv 23 (after Battle 23).
   - Target: Persian (#053) at Level 28 (21,952 EXP, 6 levels to Lv 28).
 
 
