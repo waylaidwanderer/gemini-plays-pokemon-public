@@ -149,8 +149,8 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x78
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Zero glitch items; 78 Poké Balls ready for Cerulean Cave.
+- Slot 10: POKé BALL x77
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Exactly 1 Poké Ball used to capture wild Hypno [Turn 46585].
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -181,7 +181,7 @@
 26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Contains stored Pokémon - audit required after save reload]
+- Active Box: BOX 6 [Contains stored Pokémon]
 - Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
@@ -2238,7 +2238,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Interior Entrance Mat: (4, 7).
   - Counter Windows:
     - Left Window at (2, 2): Uninspected prize window. Approached from (2, 3) facing North.
-    - Middle Window at (4, 2): Technical Machines / TM Prizes. Approached from (4, 3) facing North.
+    - Middle Window at (4, 2): Uninspected prize window. Approached from (4, 3) facing North.
     - Right Window at (6, 2): Uninspected prize window. Approached from (6, 3) facing North.
 - Celadon Diner:
   - Exterior entrance door at (31, 27).
@@ -5249,7 +5249,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
   - Balls in Bag: 77 Poké Balls (1 used on Hypno).
-  - Travel: Outside Cerulean Pokémon Center -> Mount Bicycle -> Ride to Route 24 (8, 15) -> Surf canal -> Enter Cerulean Cave 1F -> Encounter and capture targets with Sheldon / Omega.
 
 <hr>
 
