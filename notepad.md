@@ -505,7 +505,8 @@
 - Turn 44005: Wild METAPOD encountered at (12, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
 - Turn 44020: Wild CATERPIE Lv 3 encountered at (8, 32). Fled Turn 44028 on Turn 1 via RUN (Blastoise SHELDON Lv 78).
 - Turn 44034: Wild PIKACHU Lv 3 encountered at (12, 32). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
-- Empirical Encounter Frequency (N=10): Caterpie: 5/10 (50.0%), Metapod: 4/10 (40.0%), Weedle: 0/10 (0%), Kakuna: 0/10 (0%), Pikachu: 1/10 (10.0%).
+- Turn 44047: Wild METAPOD encountered at (8, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
+- Empirical Encounter Frequency (N=11): Caterpie: 5/11 (45.5%), Metapod: 5/11 (45.5%), Weedle: 0/11 (0%), Kakuna: 0/11 (0%), Pikachu: 1/11 (9.1%).
 
 
 <hr>
