@@ -357,6 +357,9 @@
   - Meowth Lv 12 (Turn 44842-44849): broke free after 3 shakes on Balls 1 and 2; captured on Ball 3.
   Across these N=6 encounters and 17 total ball throws, 11 out of 17 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
 
+## Move Effects & Generation 1 Nuances
+- **Haze Status Cure (Empirically Verified Battle 26, Turn 45468):** In Generation 1 retail, the move HAZE ('All STATUS changes are eliminated!') resets all stat stages to 0 and cures persistent primary status conditions (e.g. PAR) on the opponent. Wild Golbat's Haze completely cured Omega's paralysis, restoring full Speed and removing the PAR status condition.
+
 <hr>
 
 <h1><code>Locations/Kanto_ViridianCity</code></h1>
