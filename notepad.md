@@ -128,10 +128,10 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - Status: Healthy
-  - HP: 235 / 269 [Verified Screen Turn 44625]
+  - HP: 216 / 269 [Verified Screen Turn 44625]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 8/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 6/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
   - Status: Healthy
   - HP: 97+ / Uninspected (max ~99 at Lv 39)
@@ -150,7 +150,7 @@
   - Stats: Attack 41, Defense 23, Speed 23, Special 36 [Verified Level Up Box Turn 44675]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
-  - EXP: 6,017 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 441 EXP)
+  - EXP: 6,130 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 328 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
