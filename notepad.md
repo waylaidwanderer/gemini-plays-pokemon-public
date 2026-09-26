@@ -152,7 +152,7 @@
   - HP: 216 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 29/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 29/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5222,16 +5222,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Recent Battles:
     - Battle 12 (Hypno Lv 46, Total EXP: 1,076) [Turn 45186-45191]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
     - Battle 13 (Venomoth Lv 49, Total EXP: 952) [Turn 45198-45214]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic.
+    - Battle 14 (Venomoth Lv 49) [Turn 45224-]: In progress (Felix switched to Omega Lv 77).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
-  - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
-  - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
-  - Recovery: Recover - sustains HP in-cave without consumables.
+  - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
+  - Secondary Attack: Psychic (PP 6/10) - Special STAB, guaranteed OHKO on high-defense targets.
+  - Recovery: Recover (PP 20/20) - sustains HP in-cave without consumables.
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 19):
-  - Current EXP: ~7,858
-  - Lv 20 threshold: 8,000 (~142 EXP to Lv 20, Battle 14 will trigger Lv 20!).
+  - Current EXP: ~7,835 / 8,000 (~165 EXP to Lv 20).
+  - Battle 14 will trigger Level 20!
   - Stats: Atk 23, Def 23, Spe 44, Spc 21.
 
 
