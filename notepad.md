@@ -130,26 +130,20 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6)
-- Slot 1: PERSIAN (Nickname: FELIX) [Lv 28, Normal]
-  - Status: Healthy
-  - HP: 82 / 82
-  - Stats: Attack 33, Defense 33, Speed 64, Special 30
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 41, Normal/Flying]
+## Party Pokémon (3 / 6)
+- Slot 1: FARFETCH'D (Nickname: DUX) [Lv 41, Normal/Flying]
   - Status: Healthy
   - HP: 104 / 104
   - Stats: Attack 68, Defense 64, Speed 63, Special 60
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
-- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
+- Slot 2: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
   - Status: Healthy
   - HP: 258 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
+- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 274 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275
@@ -198,7 +192,7 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Contains 1 Pokémon: SPROUT Lv 21 Victreebel - deposited Turn 44782]
+- Active Box: BOX 6 [Contains 2 Pokémon: SPROUT Lv 21 Victreebel - deposited Turn 44782; FELIX Lv 28 Persian - deposited Turn 45914]
 - Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
