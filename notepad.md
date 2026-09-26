@@ -134,7 +134,7 @@
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 0 / 269 (Fainted Turn 46901)
   - Status: Fainted (FNT)
-  - - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
+  - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
   - Field Moves: Cut, Fly
@@ -145,8 +145,10 @@
   - HP: 44 / 125 (Damaged Turn 46914)
   - Status: Healthy
 - Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
+  - HP: 101 / 101
   - Status: Healthy
-- Slot 6: Empty
+- Slot 6: RHYDON (Nickname: TITAN) [Lv 52, Ground/Rock]
+  - Status: Healthy (Caught Turn 46916)
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46801)
 - Slot 1: POKé FLUTE
@@ -369,6 +371,7 @@
   - Magneton Lv 46 (BCR 60): Broke free on Balls 1 and 2; captured on Ball 3 at full HP [Turn 46610].
   - Dodrio Lv 49 (BCR 45): Missed on Balls 1, 2, 3, 4, 5, 6; captured on Ball 7 at full HP [Turn 46723].
   - Kadabra Lv 49 (BCR 100): Broke free after wobbling on Balls 1-13; captured on Ball 14 at full HP [Turn 46787].
+  - Rhydon Lv 52 (BCR 60): Missed on Balls 1-13; captured on Ball 14 at full HP with basic Pok� Ball [Turn 46916].
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
 - **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
@@ -391,7 +394,7 @@
 
 ## One-Hit Knockout (OHKO) Move Mechanics (Gen 1 Engine)
 - **Theoretical Speed-Threshold Formula:** In Generation 1 game engine code, OHKO moves (Horn Drill, Guillotine, Fissure) are specified to automatically fail if the user's current raw Speed stat is strictly lower than the target's current raw Speed stat (`Speed_user < Speed_target`).
-- **Empirical Status & Proof of Work:** Empirically verified Turn 46896: Wild Rhydon Lv 52 used Horn Drill against faster Mewtwo (OMEGA Lv 76), displaying 'OMEGA's unaffected!', confirming that Horn Drill completely fails against targets with higher raw Speed.
+- **Empirical Status & Proof of Work:** Empirically verified Turn 46896 (vs Mewtwo OMEGA Lv 76) and Turn 46910 (vs Dodrio HYDRA Lv 49): Wild Rhydon Lv 52 used Horn Drill against faster targets, displaying 'OMEGA's unaffected!' and 'HYDRA's unaffected!', confirming that Horn Drill completely fails against targets with higher raw Speed.
 
 
 <hr>
@@ -5272,18 +5275,17 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Cerulean Cave Wild Species Hunting
-- Total Caught: 71 / 137 Seen
+- Total Caught: 72 / 137 Seen [Rhydon caught Turn 46916]
 - Priority Targets on Cerulean Cave 2F:
   1. Venomoth (#049) [Wild Lv 51]
   2. Marowak (#105) [Wild Lv 52]
-  3. Rhydon (#112) [Wild Lv 52]
   4. Ditto (#132) [Wild Lv 55]
 
 ## Hunting Protocol & Strategy
 - Patrol Column 23 corridor (Col 23, Rows 7-11) and Row 11 West Corridor on 2F.
 - If target encountered (Venomoth, Marowak, Rhydon, Ditto): Catch with Pok� Ball into open Party Slot 6!
-- If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Mewtwo lead.
-- Party: 5/6 (Slot 6 empty).
+- If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Dodrio active lead (Mewtwo fainted Turn 46901).
+- Party: 6/6 (Full - Rhydon joined slot 6). Return to Cerulean PC to deposit captures.
 
 ## Contingency & Survival Plan
 - Mewtwo Survival Threshold: If Mewtwo faints or falls below safe threshold, switch to active reserves:
