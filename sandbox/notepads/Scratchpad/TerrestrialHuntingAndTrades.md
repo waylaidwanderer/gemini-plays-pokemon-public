@@ -23,6 +23,7 @@
   - Recent Battles:
     - Battle 20 (Venomoth Lv 49, Total EXP: 952) [Turn 45284-45295]: Felix 238 participant + 56 EXP.ALL = 294 EXP (~30.9%). Defeated by Omega's Psychic.
     - Battle 21 (Magneton Lv 46, Total EXP: 1,050) [Turn 45299-45314]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic.
+    - Battle 22 (Magneton Lv 46, Total EXP: 1,050) [Turn 45372-45385]: Felix 262 participant + 65 EXP.ALL = 327 EXP. Defeated by Omega's Psychic. Felix grew to Level 22! (Stats: Atk 26, Def 27, Spd 50, Spc 24).
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
