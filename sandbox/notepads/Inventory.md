@@ -7,7 +7,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 18, Normal]
   - Status: Healthy
-  - HP: 12 / 46 [Lv 18 Gained Turn 45117]
+  - HP: 46 / 46 [Verified Party Screen Turn 45135]
   - Stats: Attack 22, Defense 22, Speed 42, Special 20 [Verified Level Up Box Turn 45117]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Turn 45091]
@@ -19,16 +19,16 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 240 / 254 [Hit by Leech Life Turn 45114]
+  - HP: 254 / 254 [Verified Party Screen Turn 45135]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 9/10) [Verified Battle Screen Turn 45114]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 45135]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 199 / 274 [Verified Battle Screen Turn 45090]
+  - HP: 274 / 274 [Verified Party Screen Turn 45135]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 18/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Stats Screen Turn 45109]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Turn 45135]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
