@@ -36,8 +36,6 @@
 - Slot 9: LEAF STONE x1
 - Slot 10: POKé BALL x73
 - Slot 11: MOON STONE x1
-- Slot 1: ????? (Item 0x2C withdrawn from PC Turn 46365; needs audit/removal)
-- Note: Bag item list requires in-game audit to verify location of key items.
 
 ## BLUE's PC Item Storage (26 / 50 Slots Occupied - Audited Turn 46365)
 1. TM34 x1 (Bide)
