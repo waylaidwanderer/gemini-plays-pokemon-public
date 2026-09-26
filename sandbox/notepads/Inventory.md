@@ -7,10 +7,10 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 19, Normal]
   - Status: Healthy
-  - HP: 48 / 48 [Lv 19 Gained Turn 45167]
-  - Stats: Attack 23, Defense 23, Speed 44, Special 21 [Verified Level Up Box Turn 45167]
+  - HP: 48 / 48 [Verified Stats Screen Turn 45182]
+  - Stats: Attack 23, Defense 23, Speed 44, Special 21 [Verified Stats Screen Turn 45182]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Stats Screen Turn 45183]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
