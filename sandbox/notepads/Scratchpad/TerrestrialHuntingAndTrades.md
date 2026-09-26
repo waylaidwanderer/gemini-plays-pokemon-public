@@ -22,8 +22,8 @@
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 4) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 7 consecutive battles (Battles 1-7, Turns 45041-45117).
   - Recent Battles:
-    - Battle 7 (Parasect Lv 52, Total EXP: 950) [Turn 45113-45117]: Felix 237 participant + 59 EXP.ALL = 296 EXP (~31.2%). Defeated by Sheldon's Ice Beam. Leveled to Lv 18!
     - Battle 8 (Golbat Lv 46, Total EXP: 1,104) [Turn 45142-45147]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's Psychic.
+    - Battle 9 (Sandslash Lv 52, Total EXP: 1,188) [Turn 45154-45156]: Felix 297 participant + 74 EXP.ALL = 371 EXP (~31.2%). Defeated by Sheldon's Surf.
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -34,6 +34,6 @@
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 18):
-  - Current EXP: ~6,200
-  - Lv 19 threshold: 6,859 (~659 EXP to Lv 19, ~2 battles remaining).
+  - Current EXP: ~6,571
+  - Lv 19 threshold: 6,859 (~288 EXP to Lv 19, Battle 10 will reach Lv 19!).
   - Stats: Atk 22, Def 22, Spe 42, Spc 20.

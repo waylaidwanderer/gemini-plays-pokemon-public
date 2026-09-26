@@ -143,10 +143,10 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 254 / 254 [Verified Party Screen Turn 45135]
+  - HP: 242 / 254 [Hit by Fury Swipes Turn 45155]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Verified Turn 45135]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45155]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 240 / 274 [Hit by Wing Attack Turn 45146]
