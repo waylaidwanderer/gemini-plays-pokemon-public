@@ -14,11 +14,9 @@
 
 - [x] Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071) [COMPLETED Turn 44758 - 68 Caught!]
 
-  - Captured wild Bellsprout Lv 14 (SPROUT) in Route 25 tall grass [Turn 44368] into Party Slot 4!
 
 
 
-  - Potential Dex Gain: +2 new Pokédex entries (#070, #071) [Bellsprout #069 was already registered].
 
 - Target 2: Clefairy (#035) -> Clefable (#036)
 
@@ -32,7 +30,7 @@
 
   - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
 
-- Expected Dex Progression: 66 -> 71+ Caught!
+- Expected Dex Progression: 69 -> 71+ Caught!
 
 ## Operational Combat Resource Budget & Sweeper Rotation Plan
 

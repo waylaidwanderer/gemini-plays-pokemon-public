@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 68 Caught [Evolved Victreebel #071 Turn 44758] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- Pokédex: 69 Caught [Caught Meowth #052 Turn 44849] / 137 Seen
 
 ## Milestones
 
