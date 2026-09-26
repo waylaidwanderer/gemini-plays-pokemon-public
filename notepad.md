@@ -5299,9 +5299,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Working hypothesis: Mt. Moon 1F hosts wild Clefairy (#035) as a rare encounter (~1-6%).
     - Status: Actively sampling encounters on Mt. Moon 1F (Southern corridor loop cols 10-11, rows 8-11).
   - Empirical Wild Encounter Summary (Expedition 17):
-    - Mt. Moon 1F (20 encounters logged through Turn 46248):
+    - Mt. Moon 1F (21 encounters logged through Turn 46253):
       - Zubat: 15 (Lv 6-11)
-      - Geodude: 4 (Lv 8)
+      - Geodude: 5 (Lv 8)
       - Paras: 1 (Lv 8)
       - Clefairy: 0 (0.0% observed)
     - Mt. Moon B1F (2 encounters):
@@ -5311,9 +5311,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Zubat: 4 (Lv 9-11)
       - Paras: 1 (Lv 10)
       - Clefairy: 0 (0.0% observed)
-    - Total Sample Size: 33 encounters across Mt. Moon (0 Clefairy observed).
+    - Total Sample Size: 34 encounters across Mt. Moon (0 Clefairy observed).
   - Empirical Stopping Criterion:
-    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (20 more from Turn 46248).
+    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (19 more from Turn 46253).
     - Pivot Rule: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and pivot to Celadon Game Corner for Clefairy (#035).
 
 <hr>
