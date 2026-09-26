@@ -5225,8 +5225,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
-    - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets.
-    - Sheldon (Healthy): Preferred when facing Electric moves or heavy physical hitters.
+    - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
+    - Sheldon (Healthy): Preferred when facing Electric moves (Magneton/Raichu), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 25 (Parasect Lv 52, Total EXP: 950) [Turn 45436-45456]: Felix 237 participant + 59 EXP.ALL = 296 EXP (~31.2%). Defeated by Omega's Psychic.
     - Battle 26 (Golbat Lv 46, Total EXP: 1,104) [Turn 45464-45472]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's STAB Psychic.
@@ -5250,7 +5250,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
 - **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
 - **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Pok� Marts tested. (Overworld pickup locations unverified in permanent records; see Scratchpad for candidate sites).
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Pok� Marts tested. (Overworld pickup locations unverified in permanent records).
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
