@@ -5313,6 +5313,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Encounter 9 (Turn 46095): Wild Geodude Lv 9 (fled)
       - Encounter 10 (Turn 46099): Wild Geodude Lv 9 (fled)
       - Encounter 11 (Turn 46127): Wild Geodude Lv 9 (fled)
+      - Encounter 12 (Turn 46131): Wild Paras (in progress)
 
 
 <hr>
