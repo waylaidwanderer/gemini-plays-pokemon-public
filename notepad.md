@@ -131,7 +131,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 26, Normal]
   - Status: Healthy
-  - HP: 64 / 64 [Audited Turn 45762]
+  - HP: 64 / 64
   - Stats: Attack 31, Defense 31, Speed 59, Special 28
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
@@ -297,12 +297,12 @@
 
 | Species | Level | Total EXP | Trainee Part. Share | Trainee EXP.ALL | Trainee Total Yield | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Sandslash | 52 | 1,188 | 297 EXP | 74 EXP | 371 EXP (31.2%) | Verified Battles 35-37 |
+| Sandslash | 52 | 1,188 | 297 EXP | 74 EXP | 371 EXP (31.2%) | Verified Cerulean Cave switch-training |
 | Golbat | 46 | 1,104 | 276 EXP | 65 EXP | 341 EXP (30.9%) | Verified Battle 45 (Turn 45779) |
 | Dodrio | 49 | 1,106 | 273 EXP | 63 EXP | 336 EXP (30.4%) | Verified Battle 46 (Turn 45788) |
 | Hypno | 46 | 1,076 | 269 EXP | 65 EXP | 334 EXP (31.0%) | Verified Battle 43 (Turn 45753) |
 | Magneton | 46 | 1,050 | 262 EXP | 65 EXP | 327 EXP (31.1%) | Verified Battles 42, 44 (Turn 45769) |
-| Kadabra | 49 | 1,008 | 252 EXP | 63 EXP | 315 EXP (31.3%) | Verified Battles 13, 39 |
+| Kadabra | 49 | 1,008 | 252 EXP | 63 EXP | 315 EXP (31.3%) | Verified Battle 13 |
 | Venomoth | 49 | 952 | 238 EXP | 56 EXP | 294 EXP (30.9%) | Verified Battles 20, 24 |
 | Parasect | 52 | 950 | 237 EXP | 59 EXP | 296 EXP (31.2%) | Verified Battles 16, 21 |
 | Raichu | 53 | 908 | 227 EXP | 56 EXP | 283 EXP (31.2%) | Verified Battle 17 |
@@ -4548,7 +4548,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 1F Geography & Exploration
 
 ## Connections
-- South Egress: Southern entrance/exit warp mat at (24..25, 17) connecting outdoors to Cerulean City at (4, 12).
 - Ladder (7, 1): Ascending cave ladder on northern elevated terrace at (7, 1). Connects to 2F Ladder (9, 1). [Physically verified Turns 26574, 26648]
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
@@ -5310,7 +5309,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
     - Omega: Healthy (HP 183/274). Preferred sweeper against Poison, Bug, Fighting, and Electric targets (Venomoth, Golbat, Magneton, Raichu). STAB Psychic guarantees OHKO.
-    - Sheldon: Healthy (HP 226/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
+    - Sheldon: Healthy (HP 219/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 47 (Hypno Lv 46, Total EXP: 1,076) [Turn 45790-45796]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
     - Battle 48 (Hypno Lv 46, Total EXP: 1,076) [Turn 45798-45804]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
