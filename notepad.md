@@ -150,7 +150,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
-## Bag Items (10 / 20 Slots Occupied)
+## Bag Items (11 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -161,6 +161,7 @@
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x1
 - Slot 10: POKé BALL x73
+- Slot 11: MOON STONE x1
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -863,7 +864,7 @@
 
 
 
-- Ground Item (2, 2): Item ball visible in northwest corner near Northwest Ladder (5, 5).
+- Ground Item (2, 2): MOON STONE collected [Turn 46009].
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
 
 
@@ -5302,53 +5303,100 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 <h1><code>Mechanics/EvolutionAndStones</code></h1>
 
-# Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
-
-
-
-## Evolutionary Stones & Commercial Availability
-
-- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046].
-
-- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
-
-- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
-
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
-
-- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested.
-
-  - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
-
-  - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
-
-    - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5).
-
-    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
-    - Accessibility Architecture (Unverified Routing Hypothesis): Proposed access from B1F transit corridor via Ladder (17, 11) descending to B2F Entrance Plateau at Ladder (25, 9). Bounded by south-facing Row 7 jump ledge. Physical reachability of item ball at (29, 5) prior to jumping south remains an unverified hypothesis pending in-situ verification.
-
-  - Cleared/Negative Locations:
-
-    - Pokémon Mansion B1F: Fully cleared [Turns 14575-14678] (all 5 items retrieved: Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
-
-
-
-## Verified Empirical Stone Evolutions (Expedition Proof of Work)
-
-- **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
-
-- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon Pokémon Center.
-
-- **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
-
-- **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
-
-- **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
-
-- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
-
-- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
-
+# Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
+
+
+
+
+
+
+
+## Evolutionary Stones & Commercial Availability
+
+
+
+- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046].
+
+
+
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
+
+
+
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
+
+
+
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
+
+
+
+- **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested.
+
+
+
+  - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
+
+
+
+  - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
+
+
+
+    - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5) - MOON STONE retrieved [Turn 46009].
+
+
+
+    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
+
+    - Accessibility Architecture (Unverified Routing Hypothesis): Proposed access from B1F transit corridor via Ladder (17, 11) descending to B2F Entrance Plateau at Ladder (25, 9). Bounded by south-facing Row 7 jump ledge. Physical reachability of item ball at (29, 5) prior to jumping south remains an unverified hypothesis pending in-situ verification.
+
+
+
+  - Cleared/Negative Locations:
+
+
+
+    - Pokémon Mansion B1F: Fully cleared [Turns 14575-14678] (all 5 items retrieved: Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
+
+
+
+
+
+
+
+## Verified Empirical Stone Evolutions (Expedition Proof of Work)
+
+
+
+- **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
+
+
+
+- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon Pokémon Center.
+
+
+
+- **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
+
+
+
+- **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
+
+
+
+- **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
+
+
+
+- **Jigglypuff -> Wigglytuff (#040):** Moon Stone applied Turn 43213 on Route 3.
+
+
+
+- **Weepinbell -> Victreebel (#071):** Leaf Stone applied Turn 44758 in Cerulean Cave 1F.
+
+
+
 
 
 <hr>
