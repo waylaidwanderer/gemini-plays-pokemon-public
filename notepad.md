@@ -132,7 +132,7 @@
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 19, Normal]
   - Status: Healthy
   - HP: 48 / 48 [Verified Stats Screen Turn 45182]
-  - Stats: Attack 23, Defense 23, Speed 44, Special 21 [Verified Stats Screen Turn 45182]
+  - Stats: Attack 23, Defense 23, Speed 44, Special 21
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Stats Screen Turn 45183]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
@@ -143,16 +143,16 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 214 / 254 [Verified Battle Screen Turn 45190]
+  - HP: 214 / 254
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45191]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 228 / 274 [Verified Battle Screen Turn 45209]
+  - HP: 216 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Turn 45209]
+  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 29/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -288,7 +288,7 @@
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
   - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-9 in Cerulean Cave (Turns 45041-45156). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
-  - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is distributed via the EXP.ALL routine across all party members (`floor(floor(Total_EXP / 2) / 4)` per native member).
+  - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect/Venomoth), perfectly matching empirical battle logs.
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
   - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
