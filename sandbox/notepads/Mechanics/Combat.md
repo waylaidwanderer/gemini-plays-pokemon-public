@@ -57,12 +57,12 @@
 
 | Species | Level | Total EXP | Trainee Part. Share | Trainee EXP.ALL | Trainee Total Yield | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Sandslash | 52 | 1,188 | 297 EXP | 74 EXP | 371 EXP (31.2%) | Verified Battles 35-37 |
+| Sandslash | 52 | 1,188 | 297 EXP | 74 EXP | 371 EXP (31.2%) | Verified Cerulean Cave switch-training |
 | Golbat | 46 | 1,104 | 276 EXP | 65 EXP | 341 EXP (30.9%) | Verified Battle 45 (Turn 45779) |
 | Dodrio | 49 | 1,106 | 273 EXP | 63 EXP | 336 EXP (30.4%) | Verified Battle 46 (Turn 45788) |
 | Hypno | 46 | 1,076 | 269 EXP | 65 EXP | 334 EXP (31.0%) | Verified Battle 43 (Turn 45753) |
 | Magneton | 46 | 1,050 | 262 EXP | 65 EXP | 327 EXP (31.1%) | Verified Battles 42, 44 (Turn 45769) |
-| Kadabra | 49 | 1,008 | 252 EXP | 63 EXP | 315 EXP (31.3%) | Verified Battles 13, 39 |
+| Kadabra | 49 | 1,008 | 252 EXP | 63 EXP | 315 EXP (31.3%) | Verified Battle 13 |
 | Venomoth | 49 | 952 | 238 EXP | 56 EXP | 294 EXP (30.9%) | Verified Battles 20, 24 |
 | Parasect | 52 | 950 | 237 EXP | 59 EXP | 296 EXP (31.2%) | Verified Battles 16, 21 |
 | Raichu | 53 | 908 | 227 EXP | 56 EXP | 283 EXP (31.2%) | Verified Battle 17 |
