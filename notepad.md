@@ -162,8 +162,6 @@
 - Slot 9: LEAF STONE x1
 - Slot 10: POKé BALL x73
 - Slot 11: MOON STONE x1
-- Slot 1: ????? (Item 0x2C withdrawn from PC Turn 46365; needs audit/removal)
-- Note: Bag item list requires in-game audit to verify location of key items.
 
 ## BLUE's PC Item Storage (26 / 50 Slots Occupied - Audited Turn 46365)
 1. TM34 x1 (Bide)
@@ -5240,9 +5238,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Gambler at (0, 1) confirmed post-gift dialogue: "I always thought I was going to win it back..." -> Confirms Coin Case was already received previously!
   - Southern patron at (1, 4) confirmed Rocket Hideout dialogue.
   - Next Steps: Fly to Celadon City -> Enter Pokémon Center -> Access BLUE's PC -> Scroll full item storage (slots 1..50) to find and withdraw COIN CASE -> Proceed to Prize Exchange -> Audit Clefairy coin cost -> Purchase Clefairy -> Apply Moon Stone.
-  - Empirical Stopping Criterion & Pivot Execution:
-    - Hunt Termination: Wild Clefairy search terminated after 42 total Mt. Moon encounters (29 on 1F, 2 on B1F, 11 on B2F) yielded 0 Clefairy sightings.
-    - Pivot Decision: Transitioned to 100% deterministic acquisition at Celadon Prize Exchange. Exiting Mt. Moon south to Route 4 to fly to Celadon City.
 
 
 <hr>
