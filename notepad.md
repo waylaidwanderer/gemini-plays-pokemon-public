@@ -825,6 +825,7 @@
 - Ladder (13, 27): Ladder descending to basement chamber.
 
 - Ladder (17, 11): Cavern ladder in north-central alcove descending directly to Mt. Moon B2F Entrance Plateau at Ladder (25, 9) [Empirically verified Turn 45990].
+- Ladder (5, 5): Descending ladder in northwest corner leading to B1F Northwest corridor at (5, 5) [Empirically verified Turn 46033].
 
 
 
@@ -997,6 +998,7 @@
 
 ## Connections
 - Ladder (25, 9): Ascending ladder leading directly to Mt. Moon 1F north-central alcove at (17, 11) [Empirically verified Turn 45998].
+- Ladder (21, 17): Ascending ladder leading to B1F Northwest corridor at (21, 17) [Empirically verified Turn 46048].
 
 ## Layout & Landmarks
 - Entrance Plateau (Cols 24..35, Rows 6..11): Empirically verified isolated elevated terrace.
@@ -5314,7 +5316,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Encounter 10 (Turn 46099): Wild Geodude Lv 9 (fled)
       - Encounter 11 (Turn 46127): Wild Geodude Lv 9 (fled)
       - Encounter 12 (Turn 46131): Wild Paras Lv 10 (fled)
-      - Encounter 13 (Turn 46139): Wild Zubat (in progress)
+      - Encounter 13 (Turn 46139): Wild Zubat Lv 11 (fled)
 
 
 <hr>
@@ -5361,7 +5363,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-    - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5) - MOON STONE retrieved [Turn 46009].
 
 
 
