@@ -6,7 +6,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 63 Caught [Audited In-Game Pokédex Turn 44103] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- Pokédex: 64 Caught [Evolved Metapod #011 Turn 44167] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Milestones
 
