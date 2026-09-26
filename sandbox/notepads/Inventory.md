@@ -3,8 +3,6 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥5,905
-- Pokédex: 64 Caught [CATERPIE #010 caught Turn 43914] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6) [CATERPIE recruited Turn 43928]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
@@ -26,9 +24,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: CATERPIE (Nickname: SILK) [Lv 5, Bug]
-  - Status: Healthy
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Tackle, String Shot
+  - Status: Healthy (captured Turn 43914, uninspected stats/moves in-game)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
