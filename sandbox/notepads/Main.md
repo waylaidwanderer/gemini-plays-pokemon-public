@@ -116,3 +116,4 @@
 - [x] Catch wild Magneton (#082 TESLA) on Cerulean Cave 1F with Poké Ball [Turn 46610]
 - [x] Catch wild Dodrio (#085 HYDRA) on Cerulean Cave 1F with Poké Ball [Turn 46723]
 - [x] Catch wild Kadabra (#064 SPOON) on Cerulean Cave 1F with Poké Ball [Turn 46787]
+- [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
