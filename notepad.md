@@ -144,10 +144,10 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 16, Grass/Poison]
+- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 17, Grass/Poison]
   - Status: Healthy
-  - HP: Pending inspection at Lv 16 (Lv 14 was 38/38)
-  - Stats: Attack 33, Defense 19, Speed 19, Special 29 [Verified Level Up Box Turn 44482]
+  - HP: Pending inspection at Lv 17 (Lv 14 was 38/38)
+  - Stats: Attack 35, Defense 20, Speed 19, Special 31 [Verified Level Up Box Turn 44519]
   - OT: BLUE (IDNo. 04620)
   - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Learned Turn 44453]
   - EXP: 3,253 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 3,205 EXP)
@@ -1094,8 +1094,8 @@
   - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310. Prize: ¥140.
   - Trainer 2: Lass stationed at (10, 28) facing South. Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319. Prize: ¥210.
   - Trainer 3: Youngster stationed at (11, 25) facing West. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327. Prize: ¥210.
-  - Trainer 4: Lass stationed at (10, 22) facing North. Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
-  - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!". Team: Mankey Lv 18 (285 EXP). Defeated Turn 2353. Prize: ¥360.
+  - Trainer 4: Lass stationed at (10, 22) facing North. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
+  - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Team: Mankey Lv 18 (285 EXP). Defeated Turn 2353. Prize: ¥360.
   - Bridge Finish / Recruiter: Team Rocket Grunt stationed at (11, 15) facing West. Awards NUGGET for beating the 5 trainers, then battles player (Ekans Lv 15, Zubat Lv 15). Defeated Turn 2367. Prize: ¥450.
 ## Northern Section (North of Nugget Bridge)
 - Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8.
@@ -5210,19 +5210,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
 - Expected Dex Progression: 66 -> 71+ Caught!
 ## Operational Combat Resource Budget & Sweeper Rotation Plan
-- Target: SPROUT needs 3,741 more EXP to reach Lv 21 (~28 battles at ~135 EXP/battle).
-- Phase 1 Lead (Sheldon Lv 79):
-  - Current Offensive PP: Surf (6/15), Ice Beam (3/10) [9 non-recoil special sweeps], Body Slam (15/15).
-  - Target Usage: Surf vs Ground/Rock/Electric (Sandslash, Magneton); Ice Beam vs Flying (Golbat, Dodrio).
-  - Avoid: Double-Edge (conserves Sheldon's 217/254 HP from recoil).
-- Phase 2 Lead Rotation (Mewtwo OMEGA Lv 76):
-  - Trigger: When Sheldon's Surf and Ice Beam reach 0 PP (or if Sheldon HP drops below 100).
-  - Action: In overworld, open START -> POK�MON -> switch OMEGA (Slot 3) into Slot 1.
-  - Mewtwo Offensive Pool: Psychic (PP 10/10, STAB 90 power off 270 Special - OHKOs all cave encounters except Hypno), Swift (PP 20/20, never misses), Recover (PP 20/20 for sustain).
-  - Yields identical EXP.ALL distribution (invariant to sweeper identity, verified Turn 43499).
-- Sustained / Emergency Contingency:
-  - MAX ELIXER x1 in Bag Slot 5 available if needed.
-  - Alternatively, Cerulean City Pok�mon Center is accessible via HM02 Fly or canal exit.
+- Strategic Objective: Train SPROUT from Lv 17 to Lv 21 (Target: 6,458 EXP; ~24 battles remaining via EXP.ALL).
+- Sweeper Roles & Dynamic Thresholds:
+  - Lead Sweeper (Sheldon Lv 79):
+    - Primary Attack Pool: Surf (Water STAB vs Ground/Rock/Electric), Ice Beam (Ice vs Flying/Bug).
+    - Policy: Avoid Double-Edge to eliminate recoil attrition.
+    - Rotation Threshold: When combined special offensive PP (Surf + Ice Beam) reaches <= 1 (or if Sheldon HP < 100), switch party lead to MEWTWO (OMEGA).
+  - Secondary Sweeper (Mewtwo OMEGA Lv 76):
+    - Full Offensive/Sustain Pool: Psychic (STAB 90 power, 270 Special), Swift (never misses), Recover (sustain).
+    - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
+- Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pok�mon Center via HM02 Fly.
 
 
 <hr>
