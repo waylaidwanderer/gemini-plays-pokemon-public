@@ -9,7 +9,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 70 Caught [Dodrio caught Turn 46723] / 137 Seen
+- Pokédex: 71 Caught [Kadabra caught Turn 46787] / 137 Seen
 
 ## Milestones
 
@@ -117,6 +117,7 @@
 - [x] Catch wild Golbat (#042 FANGS) on Cerulean Cave 1F with Poké Ball [Turn 46597]
 - [x] Catch wild Magneton (#082 TESLA) on Cerulean Cave 1F with Poké Ball [Turn 46610]
 - [x] Catch wild Dodrio (#085 HYDRA) on Cerulean Cave 1F with Poké Ball [Turn 46723]
+- [x] Catch wild Kadabra (#064 SPOON) on Cerulean Cave 1F with Poké Ball [Turn 46787]
 
 
 <hr>
@@ -129,7 +130,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6 - Audited Turn 46741)
+## Party Pokémon (5 / 6 - Audited Turn 46787)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 127 / 269
   - Status: Healthy
@@ -143,7 +144,9 @@
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
   - HP: 125 / 125
   - Status: Healthy
-- Slots 5-6: Empty
+- Slot 5: KADABRA [Lv 49, Psychic]
+  - Status: Healthy
+- Slot 6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46741)
 - Slot 1: POKé FLUTE
@@ -155,7 +158,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x53
+- Slot 10: POKé BALL x52
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -365,7 +368,7 @@
   - Golbat Lv 46 (BCR 90): Captured on Ball 1 at full HP [Turn 46597].
   - Magneton Lv 46 (BCR 60): Broke free on Balls 1 and 2; captured on Ball 3 at full HP [Turn 46610].
   - Dodrio Lv 49 (BCR 45): Missed on Balls 1, 2, 3, 4, 5, 6; captured on Ball 7 at full HP [Turn 46723].
-  - Kadabra Lv 49 (BCR 100): Consecutive wobbles and breakouts observed at full HP across Balls 1-13; demonstrates that even with BCR 100, full-HP threshold checks can require multiple throws before capture succeeds.
+  - Kadabra Lv 49 (BCR 100): Broke free after wobbling on Balls 1-13; captured on Ball 14 at full HP [Turn 46787].
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
 - **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
@@ -5264,21 +5267,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Cerulean Cave Wild Species Hunting
-- Total Caught: 70 / 137 Seen
+- Total Caught: 71 / 137 Seen
 - Priority Targets on Cerulean Cave 1F:
   1. [CAUGHT Turn 46597] Golbat (#042 FANGS) [Wild Lv 46] -> Caught on Ball 1!
   2. [CAUGHT Turn 46585] Hypno (#097 HYPNOS) [Wild Lv 46] -> Caught on Ball 1!
   3. [CAUGHT Turn 46610] Magneton (#082 TESLA) [Wild Lv 46] -> Caught on Ball 3!
   4. [CAUGHT Turn 46723] Dodrio (#085 HYDRA) [Wild Lv 49] -> Caught on Ball 7!
   5. Venomoth (#049) [Wild Lv 49]
-  6. Kadabra (#064) [Wild Lv 49]
+  6. [CAUGHT Turn 46787] Kadabra (#064 SPOON) [Wild Lv 49] -> Caught on Ball 14!
 
 ## Hunting Protocol & Strategy
 - Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
 - Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (53 in Bag (Kadabra engaged, 13 balls thrown)).
+- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (52 in Bag).
 - Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
-- Storing captures: Party slots 5 and 6 are open to receive Kadabra and Venomoth directly into party (Dodrio occupies Slot 4).
+- Storing captures: Party slot 6 is open to receive final target Venomoth directly into party (Dodrio Slot 4, Kadabra Slot 5).
 
 
 <hr>
