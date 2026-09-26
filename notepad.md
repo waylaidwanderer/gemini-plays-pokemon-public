@@ -5204,7 +5204,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Potential Dex Gain: +2 (#063, #064).
 
-- Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071)
+- [x] Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071) [COMPLETED Turn 44758 - 68 Caught!]
 
   - Captured wild Bellsprout Lv 14 (SPROUT) in Route 25 tall grass [Turn 44368] into Party Slot 4!
 
