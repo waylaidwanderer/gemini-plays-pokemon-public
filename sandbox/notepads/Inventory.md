@@ -24,16 +24,16 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: METAPOD (Nickname: SILK) [Lv 9, Bug]
-  - Status: Healthy (leveled Turn 44201)
+  - Status: Healthy
   - Stats: Attack 10, Defense 16, Speed 11, Special 11 [Verified Screen Turn 44201]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 731 (269 to Lv 10 Butterfree) [Verified Turn 44201]
+  - EXP: 822 (178 to Lv 10 Butterfree) [Verified Turn 44210]
   - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44171]
-- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 8, Bug/Poison]
-  - Status: Healthy
-  - Stats: Attack 10, Defense 13, Speed 11, Special 9 [Verified Screen Turn 44192]
+- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 9, Bug/Poison]
+  - Status: Healthy (leveled Turn 44210)
+  - Stats: Attack 10, Defense 14, Speed 11, Special 9 [Verified Screen Turn 44210]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 670 (59 to Lv 9, 330 to Lv 10 Beedrill) [Verified Turn 44201]
+  - EXP: 761 (239 to Lv 10 Beedrill) [Verified Turn 44210]
   - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
