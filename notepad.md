@@ -132,25 +132,25 @@
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 21, Normal]
   - Status: Healthy
   - HP: 53 / 53
-  - Stats: Attack 25, Defense 25, Speed 48, Special 23 [Verified Level Up Box Turn 45272]
+  - Stats: Attack 25, Defense 25, Speed 48, Special 23
   - OT: BLUE (IDNo. 04620)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Stats Screen Turn 45183]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
   - HP: 102 / 102
-  - Stats: Attack 67, Defense 62, Speed 62, Special 59 [Verified Level Up Box Turn 45080]
+  - Stats: Attack 67, Defense 62, Speed 62, Special 59
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
   - HP: 254 / 254
-  - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
+  - Stats: Attack 191, Defense 220, Speed 191, Special 198
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 274 / 274
-  - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
+  - Stats: Attack 202, Defense 185, Speed 233, Special 275
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
@@ -287,7 +287,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-9 in Cerulean Cave (Turns 45041-45156). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-21 in Cerulean Cave (Turns 45041-45314). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
@@ -321,7 +321,7 @@
 | Hypno | 46 | 1,076 | 538 EXP | 131 EXP | 196 EXP | Verified Turn 43318 |
 | Magneton | 46 | 1,050 | 525 EXP | 131 EXP | 196 EXP | Verified Turn 43421 |
 | Kadabra | 49 | 1,008 | 504 EXP | 126 EXP | 189 EXP | Verified Turn 43516 |
-| Venomoth | 49 | 952 | 476 EXP | 119 EXP | 178 EXP | Verified Turn 43340 |
+| Venomoth | 49 | 952 | 476 EXP | 119 EXP | 178 EXP | Verified Turns 43340, 45214, 45295 (observed 952 yield vs theoretical 966) |
 | Parasect | 52 | 950 | 475 EXP | 118 EXP | 177 EXP | Verified Turns 43378, 43405 |
 | Raichu | 53 | 908 | 454 EXP | 113 EXP | 169 EXP | Verified Turn 43441 |
 
@@ -5226,7 +5226,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 21):
   - Current EXP: ~10,462 / 10,648 (~186 EXP to Lv 22).
-  - Stats: Attack 25, Defense 25, Speed 48, Special 23 [Verified Lv 21 Box Turn 45272].
 
 
 <hr>
