@@ -2,6 +2,7 @@
 
 ## Connections
 - Ladder (25, 9): Ascending ladder leading directly to Mt. Moon 1F north-central alcove at (17, 11) [Empirically verified Turn 45998].
+- Ladder (21, 17): Ascending ladder leading to B1F Northwest corridor at (21, 17) [Empirically verified Turn 46048].
 
 ## Layout & Landmarks
 - Entrance Plateau (Cols 24..35, Rows 6..11): Empirically verified isolated elevated terrace.

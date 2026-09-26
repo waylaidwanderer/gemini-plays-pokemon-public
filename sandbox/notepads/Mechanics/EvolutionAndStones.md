@@ -38,7 +38,6 @@
 
 
 
-    - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5) - MOON STONE retrieved [Turn 46009].
 
 
 

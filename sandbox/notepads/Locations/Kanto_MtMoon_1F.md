@@ -9,6 +9,7 @@
 - Ladder (13, 27): Ladder descending to basement chamber.
 
 - Ladder (17, 11): Cavern ladder in north-central alcove descending directly to Mt. Moon B2F Entrance Plateau at Ladder (25, 9) [Empirically verified Turn 45990].
+- Ladder (5, 5): Descending ladder in northwest corner leading to B1F Northwest corridor at (5, 5) [Empirically verified Turn 46033].
 
 
 
