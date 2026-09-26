@@ -144,11 +144,13 @@
   - Status: Healthy (leveled Turn 44143)
   - Stats: Attack 9, Defense 10, Speed 11, Special 8 [Verified Screen Turn 44143]
   - OT: BLUE (IDNo. 04620)
+  - EXP: 321 (22 to Lv 7 Metapod evolution!) [Verified Turn 44154]
   - Moves: Tackle (PP 35/35), String Shot (PP 40/40)
-- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 5, Bug/Poison]
-  - Status: Healthy (leveled Turn 44144)
+- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 6, Bug/Poison]
+  - Status: Healthy (leveled Turn 44154)
+  - Stats: Attack 8, Defense 11, Speed 9, Special 8 [Verified Screen Turn 44154]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 155 (61 to Lv 6) [Verified Turn 44144]
+  - EXP: 260 (83 to Lv 7) [Verified Turn 44154]
   - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
@@ -5206,8 +5208,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Conclusion & Roadmap:
   - Weedle (#013) is 100% confirmed OWNED in active save file!
   - No wild Weedle capture is needed.
-  - Active party: SILK Lv 6 (needs 127 EXP to Lv 7 Metapod) and NEEDLE Lv 5 (needs 61 EXP to Lv 6).
-  - Currently patrolling Cerulean Cave 1F for encounters to trigger evolutions!
+  - Active party: SILK Lv 6 (needs 22 EXP to Lv 7 Metapod) and NEEDLE Lv 6 (needs 83 EXP to Lv 7).
+  - Next encounter triggers SILK evolution into METAPOD (#011)!
+  - Currently patrolling Cerulean Cave 1F for encounters.
 
 <hr>
 
