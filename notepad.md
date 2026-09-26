@@ -345,6 +345,7 @@
 | Hypno | 46 | 1,076 | 538 EXP | 105 EXP | 157 EXP | Verified Turn 44151 |
 | Venomoth | 49 | 966 | 483 EXP | 91 EXP | 136 EXP | Verified Turn 44141 |
 | Parasect | 52 | 950 | 475 EXP | 89 EXP | 133 EXP | Verified Turn 44188 |
+| Golbat | 46 | 1,104 | 558 EXP | 111 EXP | 166 EXP | Verified Turn 44198 |
 
 
 <hr>
