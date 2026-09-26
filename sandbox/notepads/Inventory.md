@@ -29,7 +29,7 @@
   - Stats: Attack 39, Defense 22, Speed 21, Special 35 [Verified Level Up Box Turn 44613]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
-  - EXP: 4,848 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 1,610 EXP)
+  - EXP: 4,986 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 1,472 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
