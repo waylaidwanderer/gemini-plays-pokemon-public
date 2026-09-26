@@ -50,7 +50,8 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Empirical Solo-Sweeper EXP.ALL Yields (N=3 Party: Solo Lead [Sheldon], Inactive: DUX, OMEGA):**
-  - Sandslash Lv 52: Sweeper Sheldon gained 601 EXP; EXP.ALL pool announced 200 EXP Points (Traded DUX received 300 EXP [1.5x boost], Native OMEGA received 200 EXP) [Empirically verified Turns 46665-46666].
+  - Scope: Documented from a single encounter (Sample size N=1 battle against Sandslash Lv 52 [Empirically verified Turns 46665-46666]). Generalization of this EXP partitioning model across other species and levels at N=3 remains empirically unverified.
+  - Sandslash Lv 52: Sweeper Sheldon gained 601 EXP; EXP.ALL pool announced 200 EXP Points (Traded DUX received 300 EXP [1.5x boost], Native OMEGA received 200 EXP).
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
   - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-56 in Cerulean Cave (Turns 45041-45881). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
@@ -129,6 +130,12 @@
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 
 ## Generation 1 Capture Mechanics & Empirical Boundaries
+- **High-Level Cerulean Cave Empirical Capture Data (Basic Poké Balls, Full HP):**
+  - Hypno Lv 46 (BCR 75): Captured on Ball 1 at full HP [Turn 46585].
+  - Golbat Lv 46 (BCR 90): Captured on Ball 1 at full HP [Turn 46597].
+  - Magneton Lv 46 (BCR 60): Broke free on Balls 1 and 2; captured on Ball 3 at full HP [Turn 46610].
+  - Dodrio Lv 49 (BCR 45): Missed on Balls 1, 2, 3, 4, 5, 6; captured on Ball 7 at full HP [Turn 46723].
+  - Kadabra Lv 49 (BCR 100): Consecutive wobbles and breakouts observed at full HP across Balls 1-8; demonstrates that even with BCR 100, full-HP threshold checks can require multiple throws before capture succeeds.
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
 - **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
@@ -141,3 +148,9 @@
 
 ## Move Effects & Generation 1 Nuances
 - **Haze Status Cure (Empirically Verified Battle 26, Turn 45468):** In Generation 1 retail, the move HAZE ('All STATUS changes are eliminated!') resets all stat stages to 0 and cures persistent primary status conditions (e.g. PAR) on the opponent. Wild Golbat's Haze completely cured Omega's paralysis, restoring full Speed and removing the PAR status condition.
+
+## Wild Battle Escape Mechanics (Generation 1 Retail)
+- **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pokémon's actual current Speed compared to the opponent's Speed.
+- **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pokémon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pokémon (e.g. Blastoise Sheldon with ~40-45 paralyzed Speed) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46 Speed ~70, Sandslash Lv 52 Speed ~80) [Empirically verified Turns 46658, 46660, 46680].
+- **Consecutive Attempt Progression:** Each successive failed escape attempt adds an incremental bonus to the escape check (+30 per attempt), enabling subsequent escape attempts to succeed even with slower/paralyzed leads (e.g. Sheldon escaped on Attempt 2 vs Magneton [Turn 46682]).
+- **High-Speed Lead Immunity:** A healthy, high-speed lead Pokémon (e.g. Mewtwo OMEGA Lv 76 with ~240 Speed) vastly outspeeds wild Cerulean Cave species (Speed <= 160), guaranteeing immediate 100% first-turn escape success [Empirically verified Turns 46617-46618].
