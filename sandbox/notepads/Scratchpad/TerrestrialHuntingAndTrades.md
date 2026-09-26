@@ -22,6 +22,9 @@
       - Paras: 1 (Lv 10)
       - Clefairy: 0 (0.0% observed)
     - Total Sample Size: 34 encounters across Mt. Moon (0 Clefairy observed).
-  - Empirical Stopping Criterion:
-    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (19 more from Turn 46253).
-    - Pivot Rule: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and pivot to Celadon Game Corner for Clefairy (#035).
+  - Empirical Stopping Criterion & Contingency Audit:
+    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (19 remaining from Turn 46261).
+    - Pivot Rule & Fallback Prerequisites: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and exit Mt. Moon.
+    - Celadon Game Corner Prerequisites (Audit Turn 46261):
+      1. COIN CASE is currently stored in BLUE's PC (Slot 10) -> Must fly to Pokémon Center and withdraw Coin Case before visiting Game Corner.
+      2. Wallet: ¥5,905 (purchases max 250 coins at ¥1,000/50 coins). Clefairy prize cost in retail Blue must be audited in-game at the Prize Exchange. If coin cost exceeds 250, player must raise funds (e.g. selling inventory items) or play slot machines.

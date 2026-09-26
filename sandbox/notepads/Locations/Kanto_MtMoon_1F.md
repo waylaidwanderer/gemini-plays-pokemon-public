@@ -108,8 +108,6 @@
 
 
 
-- Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
-
 
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
