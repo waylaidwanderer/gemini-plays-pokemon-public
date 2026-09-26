@@ -143,13 +143,13 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
   - Status: Healthy
-  - HP: 226 / 258 [Audited Turn 45762]
+  - HP: 226 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 183 / 274 [Audited Turn 45769]
+  - HP: 183 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -280,7 +280,7 @@
 
 ## Obedience
 
-- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 74 and wild-caught Mewtwo OMEGA at Lv 74 obey 100% of commands in all battles without disobedience).
+- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 80 and wild-caught Mewtwo OMEGA at Lv 77 obey 100% of commands in all battles without disobedience [Verified Turn 45781]).
 - **Traded / Outsider Pokémon:** Traded Pokémon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All Pokémon obey). Verified: With Earthbadge obtained [Turn 15111], all traded Pokémon obey unconditionally up to Lv 100.
 
 
@@ -288,8 +288,24 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-43 in Cerulean Cave (Turns 45041-45753). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-45 in Cerulean Cave (Turns 45041-45779). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
+
+- **Empirical Switch-Training EXP.ALL Yields (N=4 Party: Trainee Felix Lead, Native Sweeper Sheldon/Omega, DUX Traded Inactive, Inactive Sweeper):**
+  - Distribution: Participant share = `floor(Total_EXP / 4)`. EXP.ALL native share = `floor(floor(floor(Total_EXP / 2) / 2) / 4)`. Trainee Felix total share = Participant + EXP.ALL share (~31% of total EXP).
+  - Traded Pokémon (DUX) receives boosted EXP.ALL share: `s_expall + floor(s_expall / 2)`.
+
+| Species | Level | Total EXP | Trainee Part. Share | Trainee EXP.ALL | Trainee Total Yield | Verification Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sandslash | 52 | 1,188 | 297 EXP | 74 EXP | 371 EXP (31.2%) | Verified Battles 35-37 |
+| Golbat | 46 | 1,104 | 276 EXP | 65 EXP | 341 EXP (30.9%) | Verified Battle 45 (Turn 45779) |
+| Dodrio | 49 | 1,106 | 276 EXP | 66 EXP | 342 EXP (30.9%) | Verified Battles 28, 32 |
+| Hypno | 46 | 1,076 | 269 EXP | 65 EXP | 334 EXP (31.0%) | Verified Battle 43 (Turn 45753) |
+| Magneton | 46 | 1,050 | 262 EXP | 65 EXP | 327 EXP (31.1%) | Verified Battles 42, 44 (Turn 45769) |
+| Kadabra | 49 | 1,008 | 252 EXP | 63 EXP | 315 EXP (31.3%) | Verified Battles 13, 39 |
+| Venomoth | 49 | 952 | 238 EXP | 56 EXP | 294 EXP (30.9%) | Verified Battles 20, 24 |
+| Parasect | 52 | 950 | 237 EXP | 59 EXP | 296 EXP (31.2%) | Verified Battles 16, 21 |
+| Raichu | 53 | 908 | 227 EXP | 56 EXP | 283 EXP (31.2%) | Verified Battle 17 |
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
   - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
@@ -5293,8 +5309,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
-    - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
-    - Sheldon (Healthy): Restored to 258/258 HP and PSN cured at Cerulean Center [Turn 45590]. Preferred against targets weak to Water/Ice (Sandslash, Dodrio), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). (Avoid Electric moves from Magneton/Raichu due to Water-type weakness). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
+    - Omega: Healthy (HP 183/274). Preferred sweeper against Poison, Bug, Fighting, and Electric targets (Venomoth, Golbat, Magneton, Raichu). STAB Psychic guarantees OHKO.
+    - Sheldon: Healthy (HP 226/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 44 (Magneton Lv 46, Total EXP: 1,050) [Turn 45759-45769]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's STAB Psychic. Omega HP: 183/274.
     - Battle 45 (Golbat Lv 46, Total EXP: 1,104) [Turn 45773-45779]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's STAB Psychic. Omega HP: 183/274.
