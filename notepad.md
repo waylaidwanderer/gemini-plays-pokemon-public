@@ -182,7 +182,7 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 1 [Switched Turn 43839]
+- Active Box: BOX 3 [Switched Turn 43847]
   - Box 1 Pokémon (19 / 20 Verified Empirically Turn 42394):
     - Zapdos (THUNDER Lv 50)
     - Hitmonlee (BRUCE Lv 30)
