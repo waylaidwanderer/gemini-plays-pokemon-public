@@ -155,8 +155,8 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x74
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597].
+- Slot 10: POKé BALL x73
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597], 3 Poké Balls used on Magneton [Turns 46606-46610].
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -5248,13 +5248,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Priority Targets on Cerulean Cave 1F:
   1. [CAUGHT Turn 46597] Golbat (#042) [Wild Lv 46] -> Caught on Ball 1!
   2. [CAUGHT Turn 46585] Hypno (#097) [Wild Lv 46] -> Caught on Ball 1!
-  3. Magneton (#082) [Wild Lv 46]
+  3. [CAUGHT Turn 46610] Magneton (#082) [Wild Lv 46] -> Caught on Ball 3!
   4. Dodrio (#085) [Wild Lv 49]
   5. Venomoth (#049) [Wild Lv 49]
   6. Kadabra (#064) [Wild Lv 49]
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
-  - Balls in Bag: 74 Poké Balls (1 used on Hypno, 1 used on Golbat).
+  - Balls in Bag: 73 Poké Balls (1 used on Hypno, 1 on Golbat, 3 on Magneton).
 
 <hr>
 
