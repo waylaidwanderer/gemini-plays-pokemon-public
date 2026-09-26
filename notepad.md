@@ -188,6 +188,7 @@
 
 ## PC Pokémon Storage
 - Active Box: BOX 5 [Verified Turn 44290]
+- Box 5: Empty [Verified Turn 44291]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Boxes 4–12: Uninspected storage
