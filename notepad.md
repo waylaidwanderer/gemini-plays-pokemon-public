@@ -131,7 +131,7 @@
   - HP: 258 / 269 [Verified Screen Turn 44609]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 14/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20) [Swift used 2x vs Hypno Turns 44608-44609]
+  - Moves: Swift (PP 14/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 38, Normal/Flying]
   - Status: Healthy
   - HP: 97 / 97 [Verified Party Screen Turn 44523]
@@ -146,7 +146,7 @@
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 18, Grass/Poison]
   - Status: Healthy
-  - HP: 47 / 47 [Leveled up to 18 Turn 44568]
+  - HP: Uninspected in menu (max ~47 at Lv 18) [Verification pending]
   - Stats: Attack 37, Defense 21, Speed 21, Special 33 [Verified Level Up Box Turn 44568]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
@@ -1140,7 +1140,7 @@
 - Item Ball at (22, 2): Poké Ball on northern plateau at (22, 2). Enclosed by tree line (col 21) and bounded by shrub at (26, 3) and Jr. Trainer ♂ at (24, 4).
 - Shrub at (26, 3): Small shrub (possible Cut tree, unverified collision/interaction) blocking direct access from (26, 4) into northern corridor (cols 22..26, row 2).
 - Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
-- Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".
+- Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280.
 - Trainer 8 at (32, 3): Youngster stationed at (32, 3) facing West. Defeated Turn 2516. Team: Ekans Lv 14, Sandshrew Lv 14. Prize: ¥210.
 - Corridor Layout (Cols 28..32, Rows 2..6):
   - Row 2: Open grass cols 28..32. Blocked to west by tree at (27, 2).
@@ -4515,12 +4515,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - X=20 is a solid cavern wall blocking westward passage at row 14; walkable corridor on row 14 is strictly bounded between X=21 (west wall boundary) and X=25 (east wall boundary).
   - Pacing between X=21 and X=25 on row 14 generates consistent high-level wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) with zero obstacle collisions and instant 3-step access to the exit.
 
-## Navigation & Collision Notes (Central Cavern Floor, Rows 13-17, Cols 21-25)
-- Row 13: (21..23, 13) are open cave floor; (24..25, 13) are solid rock walls (bump hazard when walking Up from (24..25, 14)).
-- Rows 14-15: (21..25, 14..15) are wide-open cave floor with zero obstacles.
-- Row 16: (23..25, 16) are open floor; (21..22, 16) are rock walls.
-- Row 17: (24..25, 17) has one-way ledges hopping south to Row 18.
+## Navigation & Collision Notes (Central Cavern Floor, Rows 13-15, Cols 22-25)
+- Row 13: Physical bump confirmed (24, 13) is a solid rock wall when walking Up from (24, 14) [Turn 44600].
+- Rows 14-15: (22..24, 14..15) are verified open cave floor.
 - Optimal Encounter Loop: The 6-step loop on (22..24, 14..15) provides 100% collision-free encounter generation.
+
 
 <hr>
 
@@ -5197,35 +5196,64 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 <h1><code>Scratchpad/TerrestrialHuntingAndTrades</code></h1>
 
-# Scratchpad: Terrestrial Hunting & Trade Planning
-
-## Expedition 17 Plan: Floral & Mountain Biodiversity
-- Opportunistic Target: Abra (#063) -> Kadabra (#064)
-  - Encountered wild Abra Lv 12 on Route 25 [Turn 44341]; broke free and teleported [Turn 44347]. Can pursue opportunistically if encountered again.
-  - If captured: Nickname SPOON, train to Lv 16 via EXP.ALL in Cerulean Cave for Kadabra (#064).
-  - Potential Dex Gain: +2 (#063, #064).
-- Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071)
-  - Captured wild Bellsprout Lv 14 (SPROUT) in Route 25 tall grass [Turn 44368] into Party Slot 4!
-  - Train Bellsprout to Level 21 in Cerulean Cave 1F via EXP.ALL to evolve into Weepinbell (#070).
-  - Apply Leaf Stone (2 in Bag!) to Weepinbell to evolve into Victreebel (#071).
-  - Potential Dex Gain: +2 new Pokédex entries (#070, #071) [Bellsprout #069 was already registered].
-- Target 2: Clefairy (#035) -> Clefable (#036)
-  - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
-  - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Moon Stone availability across Kanto dungeons remains unverified; Clefable (#036) requires locating or verifying a Moon Stone before evolution can proceed.
-- Target 3: Meowth (#052) -> Persian (#053)
-  - Capture wild Meowth on Route 5 (south of Cerulean City).
-  - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
-- Expected Dex Progression: 66 -> 71+ Caught!
-## Operational Combat Resource Budget & Sweeper Rotation Plan
-- Strategic Objective: Train SPROUT from Lv 18 to Lv 21 (Current EXP: 4,448 / 6,458; Needed: 2,010 EXP; ~15 battles remaining via EXP.ALL).
-- Sweeper Roles & Dynamic Thresholds:
-  - Lead Sweeper (Sheldon Lv 79):
-    - Primary Attack Pool: Surf (Water STAB vs Ground/Rock/Electric), Ice Beam (Ice vs Flying/Bug).
-    - Policy: Avoid Double-Edge to eliminate recoil attrition.
-    - Rotation Threshold: When combined special offensive PP (Surf + Ice Beam) reaches <= 1 (or if Sheldon HP < 100), switch party lead to MEWTWO (OMEGA).
-  - Secondary Sweeper (Mewtwo OMEGA Lv 76):
-    - Full Offensive/Sustain Pool: Psychic (STAB 90 power, 270 Special), Swift (never misses), Recover (sustain).
-    - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
+# Scratchpad: Terrestrial Hunting & Trade Planning
+
+
+
+## Expedition 17 Plan: Floral & Mountain Biodiversity
+
+- Opportunistic Target: Abra (#063) -> Kadabra (#064)
+
+  - Encountered wild Abra Lv 12 on Route 25 [Turn 44341]; broke free and teleported [Turn 44347]. Can pursue opportunistically if encountered again.
+
+  - If captured: Nickname SPOON, train to Lv 16 via EXP.ALL in Cerulean Cave for Kadabra (#064).
+
+  - Potential Dex Gain: +2 (#063, #064).
+
+- Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071)
+
+  - Captured wild Bellsprout Lv 14 (SPROUT) in Route 25 tall grass [Turn 44368] into Party Slot 4!
+
+  - Train Bellsprout to Level 21 in Cerulean Cave 1F via EXP.ALL to evolve into Weepinbell (#070).
+
+  - Apply Leaf Stone (2 in Bag!) to Weepinbell to evolve into Victreebel (#071).
+
+  - Potential Dex Gain: +2 new Pokédex entries (#070, #071) [Bellsprout #069 was already registered].
+
+- Target 2: Clefairy (#035) -> Clefable (#036)
+
+  - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
+
+  - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Moon Stone availability across Kanto dungeons remains unverified; Clefable (#036) requires locating or verifying a Moon Stone before evolution can proceed.
+
+- Target 3: Meowth (#052) -> Persian (#053)
+
+  - Capture wild Meowth on Route 5 (south of Cerulean City).
+
+  - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
+
+- Expected Dex Progression: 66 -> 71+ Caught!
+
+## Operational Combat Resource Budget & Sweeper Rotation Plan
+
+- Strategic Objective: Train SPROUT to Level 21 (Target: 6,458 EXP) via EXP.ALL, then apply Leaf Stone for Victreebel (#071).
+
+- Sweeper Roles & Dynamic Thresholds:
+
+  - Lead Sweeper (Sheldon Lv 79):
+
+    - Primary Attack Pool: Surf (Water STAB vs Ground/Rock/Electric), Ice Beam (Ice vs Flying/Bug).
+
+    - Policy: Avoid Double-Edge to eliminate recoil attrition.
+
+    - Rotation Threshold: When combined special offensive PP (Surf + Ice Beam) reaches <= 1 (or if Sheldon HP < 100), switch party lead to MEWTWO (OMEGA).
+
+  - Secondary Sweeper (Mewtwo OMEGA Lv 76):
+
+    - Full Offensive/Sustain Pool: Psychic (STAB 90 power, 270 Special), Swift (never misses), Recover (sustain).
+
+    - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
+
 - Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
 
 <hr>
