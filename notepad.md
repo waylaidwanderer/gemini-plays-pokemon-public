@@ -129,10 +129,10 @@
 - IDNo: 04620
 
 ## Party Pokémon (4 / 6)
-- Slot 1: MEOWTH (Nickname: FELIX) [Lv 26, Normal]
+- Slot 1: MEOWTH (Nickname: FELIX) [Lv 27, Normal]
   - Status: Healthy
-  - HP: 64 / 64
-  - Stats: Attack 31, Defense 31, Speed 59, Special 28
+  - HP: 64 / 64 (Base HP increased at Lv 27, pending party audit)
+  - Stats: Attack 32, Defense 32, Speed 61, Special 29
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
@@ -288,7 +288,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-48 in Cerulean Cave (Turns 45041-45804). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-49 in Cerulean Cave (Turns 45041-45815). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Empirical Switch-Training EXP.ALL Yields (N=4 Party: Trainee Felix Lead, Native Sweeper Sheldon/Omega, DUX Traded Inactive, Inactive Sweeper):**
@@ -5311,13 +5311,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Omega: Healthy (HP 183/274). Preferred sweeper against Poison, Bug, Fighting, and Electric targets (Venomoth, Golbat, Magneton, Raichu). STAB Psychic guarantees OHKO.
     - Sheldon: Healthy (HP 211/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
   - Recent Battles (Rolling 2-Battle Window):
-    - Battle 47 (Hypno Lv 46, Total EXP: 1,076) [Turn 45790-45796]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
     - Battle 48 (Hypno Lv 46, Total EXP: 1,076) [Turn 45798-45804]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
+    - Battle 49 (Dodrio Lv 49, Total EXP: 1,106) [Turn 45808-45815]: Felix 273 participant + 63 EXP.ALL = 336 EXP (~30.4%). Defeated by Sheldon's super-effective Ice Beam. Felix reached Level 27! Sheldon HP: 211/258.
 
-- Trainee Progress (FELIX Lv 26):
-  - Verified Stats: Attack 31, Defense 31, Speed 59, Special 28 (audited Lv 26 screen Turn 45752).
+- Trainee Progress (FELIX Lv 27):
+  - Verified Stats: Attack 32, Defense 32, Speed 61, Special 29 (audited Lv 27 screen Turn 45815).
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20).
-  - EXP Tracking: Current EXP: ~19,421 / 19,683 EXP. Level Up: ~262 EXP to Lv 27 (after Battle 48). Target: Persian (#053) at Level 28 (21,952 EXP, 2 levels to Lv 28).
+  - EXP Tracking: Current EXP: ~19,757 / 21,952 EXP. Level Up: ~2,195 EXP to Lv 28 (after Battle 49). Target: Persian (#053) at Level 28 (21,952 EXP, 1 level to Lv 28).
 
 
 <hr>
