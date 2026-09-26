@@ -4515,7 +4515,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Verified Southern Entrance & Patrol Geometry (Empirically Verified Turns 39450-41940)
 - **Southern Entrance / Egress Warp Mat:** Coordinates (24..25, 17). Stepping onto this 2-tile wide threshold immediately warps the player outdoors to the Cerulean City canal water.
 - **High-Rate Patrol Rectangular Loop (Rows 14..15, Cols 21..25):**
-  - Walkable open cavern floor forms a continuous, collision-free 5x2 rectangular loop across Columns 21 through 25 on Rows 14 and 15 [Empirically verified across Turns 44954�44996].
+  - Walkable open cavern floor forms a continuous, collision-free 5x2 rectangular loop across Columns 21 through 25 on Rows 14 and 15 [Empirically verified across Turns 44954-44996].
   - Bounded west by solid cavern wall at Column 20, east by impassable rock wall at Column 26, and south by row 16 boundary (exit threshold at 24..25, 17).
   - Pacing this 5x2 loop generates consistent wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) while providing instant 2-step access to the exit at (25, 17).
 
@@ -5201,11 +5201,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 17 Plan: Floral & Mountain Biodiversity
 
-
-
-
-
-- Target 2: Clefairy (#035) -> Clefable (#036)
+- Target 2: Clefairy (#035)- Target 2: Clefairy (#035) -> Clefable (#036)
 
   - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
 
@@ -5224,7 +5220,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Empirical Proof of Work:
     - Battle 1 (Raichu Lv 53, Total EXP: 908) [Turn 45041-45042]: Felix 227 participant + 53 EXP.ALL = 280 EXP (~30.8%).
     - Battle 2 (Golbat Lv 46, Total EXP: 1,104) [Turn 45054-45055]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
-    - Empirical Formula: Felix receives floor(Total_EXP / 4) participant share + floor(floor(Total_EXP / 2) / 2 / 4) EXP.ALL share = ~30.9% of total battle EXP (2.48x faster than passive grinding!).
+    - Empirical Yield Note: Across Battle 1 (Raichu Lv 53, 280 EXP) and Battle 2 (Golbat Lv 46, 341 EXP), Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus an EXP.ALL share (truncated via Gen 1 integer division routine to 53 EXP for Raichu and 65 EXP for Golbat), totaling ~30.9% of total battle EXP (2.48x faster than passive grinding!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -5237,7 +5233,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Trainee Progress (FELIX Lv 16):
   - Current EXP: 4,195
   - Lv 17 threshold: 4,913 (718 EXP to Lv 17).
-  - Battle 2 (Golbat Lv 46) yielded 341 EXP to Felix (leveled to 16 with Atk 20, Def 20, Spd 37, Spc 18).
 
 
 <hr>
