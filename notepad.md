@@ -882,7 +882,7 @@
 
 - Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Defeated.
 
-- Central Rock Wall & Southern Bypass Verification (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
+- Central Rock Wall & Southern Bypass (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
 
 - Vertical Rock Wall Partition (Cols 12..13, Rows 0..12+): Solid vertical rock wall running continuously from row 0 south past row 6 (empirically confirmed solid wall at (12..13, 2)), separating the north-central cavern (cols 14..17) from the northwest corridor (cols 10..11). Corridor crossover is located to the south around rows 15..16 near defeated Youngster.
 
@@ -5255,9 +5255,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Paras: 1 (Lv 10)
       - Clefairy: 0 (0.0% observed)
     - Total Sample Size: 42 encounters across Mt. Moon (0 Clefairy observed).
-  - Empirical Stopping Criterion & Contingency Audit:
-    - Operational Time-Box (N=40): The N=40 sample threshold on Mt. Moon 1F is strictly an operational stopping time-box to bound search investment against alternative acquisition routes, NOT a proof of Clefairy's absence (statistical confidence against a hypothetical 1% encounter rate is only ~33% at N=40).
-    - Pivot Decision & Celadon Prize Exchange: Given that 80 consecutive steps on 1F yielded zero encounters and 38 total Mt. Moon encounters yielded 0 Clefairy, continuing to grind 15 more encounters costs ~300+ steps (~25 turns) with <35% odds of success. The Celadon Prize Exchange offers a 100% deterministic Clefairy acquisition.
+  - Empirical Stopping Criterion & Pivot Execution:
+    - Hunt Termination: Wild Clefairy search terminated after 42 total Mt. Moon encounters (29 on 1F, 2 on B1F, 11 on B2F) yielded 0 Clefairy sightings.
+    - Pivot Decision: Transitioned to 100% deterministic acquisition at Celadon Prize Exchange. Exiting Mt. Moon south to Route 4 to fly to Celadon City.
     - Celadon Prize Exchange Execution Plan:
       1. Exit Mt. Moon south to Route 4 (27 steps south).
       2. Fly to Celadon City via DUX.
@@ -5289,7 +5289,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
 
   - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
-    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge (non-essential: Moon Stone quota secured).
+    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
 
   - Cleared/Negative Locations:
 
