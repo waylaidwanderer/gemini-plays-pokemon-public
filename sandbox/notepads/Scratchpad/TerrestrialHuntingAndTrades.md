@@ -4,16 +4,6 @@
 
 ## Expedition 17 Plan: Floral & Mountain Biodiversity
 
-- Opportunistic Target: Abra (#063) -> Kadabra (#064)
-
-  - Encountered wild Abra Lv 12 on Route 25 [Turn 44341]; broke free and teleported [Turn 44347]. Can pursue opportunistically if encountered again.
-
-  - If captured: Nickname SPOON, train to Lv 16 via EXP.ALL in Cerulean Cave for Kadabra (#064).
-
-  - Potential Dex Gain: +2 (#063, #064).
-
-- [x] Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071) [COMPLETED Turn 44758 - 68 Caught!]
-
 
 
 
@@ -24,7 +14,7 @@
 
   - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Overworld pickup locations (Mechanics/EvolutionAndStones): Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. With only 2 used of 5 potential pickups, up to 3 Moon Stones remain uncollected in those dungeons for Clefable (#036).
 
-- [x] Target 3: Meowth (#052) -> Persian (#053) [Caught FELIX Lv 12 Turn 44849 - 69 Caught!]
+- [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
   - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
@@ -44,3 +34,19 @@
     - Full Special/Physical Pool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15) [Healed Turn 44773].
 
 - Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
+
+## Cerulean Cave Training Budget & Sweeper Rotation Schedule
+- Active Sweeper: MEWTWO (OMEGA) Lv 77
+  - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
+  - Secondary Attack: Psychic (PP 8/10) - Special STAB, guaranteed OHKO on Sandslash, Golbat, Venomoth, Magneton, Raichu, Ditto.
+  - Recovery: Recover (PP 20/20) - sustains HP in-cave without consumables.
+- Reserve Sweeper: BLASTOISE (SHELDON) Lv 79
+  - Full Movepool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
+  - Can switch in if Mewtwo attack PP runs low.
+- Total Attack PP Pool: 78+ damaging moves before center replenishment.
+- Healing / Center Protocol:
+  - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
+- Trainee Progress (FELIX Lv 12):
+  - Current EXP: 2,007
+  - Lv 13 threshold: 2,197 (190 EXP to Lv 13).
+  - Wild Raichu Lv 53 yields 113 EXP.ALL share to Felix.

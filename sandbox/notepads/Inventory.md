@@ -29,7 +29,7 @@
   - Stats: Attack 16, Defense 16, Speed 29, Special 14 [Verified Stats Screen Turn 44886]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
-  - EXP: 2,007 (190 to Lv 13)
+  - EXP: 2,007
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
