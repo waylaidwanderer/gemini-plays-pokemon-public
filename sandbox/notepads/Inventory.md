@@ -28,7 +28,8 @@
   - HP: 20 / 20 [Verified Stats Screen Turn 44092]
   - Stats: Attack 9, Defense 9, Speed 10, Special 8 [Verified Stats Screen Turn 44092]
   - OT: BLUE (IDNo. 04620)
-  - Moves: (inspecting Page 2 Turn 44093)
+  - EXP: 125 (91 to Lv 6) [Verified Page 2 Turn 44094]
+  - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44094]
 - Slot 5: KAKUNA (Nickname: NEEDLE pending) [Lv 4, Bug/Poison]
   - Status: Healthy (captured Turn 44084, Ball 4, uninspected stats/moves in-game)
 
