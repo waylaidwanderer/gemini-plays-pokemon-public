@@ -148,8 +148,8 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
-  - Status: Asleep
-  - HP: 189 / 274
+  - Status: Healthy
+  - HP: 185 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 4/10), Barrier (PP 29/30), Recover (PP 20/20)
@@ -5222,7 +5222,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Recent Battles:
     - Battle 18 (Dodrio Lv 49, Total EXP: 1,092) [Turn 45264-45273]: Felix 273 participant + 63 EXP.ALL = 336 EXP (~30.8%). Defeated by Sheldon's Ice Beam. Felix grew to Level 21!
     - Battle 19 (Hypno Lv 46, Total EXP: 1,076) [Turn 45275-45281]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
-    - Battle 20 (Venomoth Lv 49) [Turn 45284-]: In progress (Felix switched to Omega Lv 77 - Omega asleep, using Pok� Flute).
+    - Battle 20 (Venomoth Lv 49) [Turn 45284-]: In progress (Felix switched to Omega Lv 77 - Omega awakened via Pok� Flute).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic (PP 4/10) - Special STAB, guaranteed OHKO on high-defense targets.
