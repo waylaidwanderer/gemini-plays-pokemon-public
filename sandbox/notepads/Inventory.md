@@ -25,11 +25,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEOWTH (Nickname: FELIX) [Lv 13, Normal]
   - Status: Healthy
-  - HP: 36 / 36 [Estimated Lv 13 HP]
+  - HP: Uninspected [Pending direct Party/Stats screen verification]
   - Stats: Attack 17, Defense 17, Speed 31, Special 15 [Verified Level Up Box Turn 44924]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
-  - EXP: 2,490
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
