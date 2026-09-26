@@ -118,12 +118,12 @@
 - Name: BLUE
 - IDNo: 04620
 - Money: ¥5,905
-- Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
+- Pokédex: 63 Caught [RATICATE #020 evolved Turn 43817] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
+## Party Pokémon (3 / 6) [Verified Empirically Turn 43832]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
-  - HP: 251 / 251 [Healed Turn 43825]
+  - HP: 250 / 251
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Healed Turn 43825]
@@ -182,29 +182,11 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 3 [Switched Turn 43847]
-  - Box 1 Pokémon (19 / 20 Verified Empirically Turn 42394):
-    - Zapdos (THUNDER Lv 50)
-    - Hitmonlee (BRUCE Lv 30)
-    - Lapras (NESSY Lv 15)
-    - Kangaskhan (MATILDA Lv 25)
-    - Chansey (LUCKY Lv 26)
-    - Drowzee (SANDMAN Lv 9)
-    - Omanyte (NAUTILUS Lv 30)
-    - Aerodactyl (PTERA Lv 30)
-    - Nidoqueen (QUEENIE Lv 33)
-    - Tangela (CRINKLES Lv 22)
-    - Dewgong (SAILOR Lv 34)
-    - Dugtrio (DIGBY Lv 26)
-    - Sandslash (PANGO Lv 22)
-    - Gyarados (TSUNAMI Lv 20)
-    - Parasect (FUNGI Lv 24)
-    - Kingler (PINCHY Lv 28)
-    - Jolteon (VEE Lv 26)
-    - Golduck (MIGRAINE Lv 33)
-    - Lickitung (MARC Lv 37) [Deposited Turn 42394]
-- Box 2: Active Box [Switched Turn 42403]. Contains caught Pokémon from Expeditions 15–16 (SPROUT, NEEDLE, SILK, PUFF).
-- Boxes 3–12: Uninspected storage (contains remaining caught Pokémon).
+- Active Box: BOX 3 (Empty - verified Turn 43848)
+- Box 1: Empty (verified Turn 43840)
+- Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 43833)
+- Boxes 4–12: Uninspected storage
+
 
 <hr>
 
