@@ -16,7 +16,7 @@
   - HP: 241 / 269
   - Status: Healthy
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
-  - HP: 135 / 135
+  - HP: 125 / 125
   - Status: Healthy
 - Slots 5-6: Empty
 
