@@ -23,6 +23,11 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- Slot 4: MEOWTH (Nickname: FELIX) [Lv 12, Normal]
+  - Status: Healthy
+  - HP: 32 / 32 [Standard wild full HP]
+  - OT: BLUE (IDNo. 04620)
+  - Moves: Scratch, Growl, Bite (Lv 12 base pool)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
