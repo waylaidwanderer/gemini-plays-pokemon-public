@@ -151,7 +151,7 @@
   - HP: 66 / 66 [Verified Screen Turn 44761]
   - Stats: Attack 56, Defense 37, Speed 36, Special 50 [Verified STATS Screen Turn 44762]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Stun Spore, Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected)
+  - Moves: Stun Spore (PP 30/30), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP 35/35)
   - EXP: 6,520
 
 ## Bag Items (10 / 20 Slots Occupied)
