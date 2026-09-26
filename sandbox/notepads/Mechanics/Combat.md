@@ -136,3 +136,7 @@
 
 ## Move Effects & Generation 1 Nuances
 - **Haze Status Cure (Empirically Verified Battle 26, Turn 45468):** In Generation 1 retail, the move HAZE ('All STATUS changes are eliminated!') resets all stat stages to 0 and cures persistent primary status conditions (e.g. PAR) on the opponent. Wild Golbat's Haze completely cured Omega's paralysis, restoring full Speed and removing the PAR status condition.
+
+- **N=3 Party EXP Distribution (Empirical Status: Unverified):**
+  - Current active party consists of N=3 members (DUX Lv 41, SHELDON Lv 80, OMEGA Lv 77).
+  - EXP.ALL partitioning formulas and switch-training yields for N=3 have not been empirically tested in this run. If wild or trainer combat occurs while at N=3, exact EXP values from battle dialogue must be recorded and compared against theoretical formulas before adding to empirical tables.

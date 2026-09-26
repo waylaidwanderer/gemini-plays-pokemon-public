@@ -907,7 +907,7 @@
 
 
 
-- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: Oddish Lv 11, Bellsprout Lv 11. Status: Defeated. Yielded ¥165.
+- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Defeated.
 
 - Lass (16, 24..25): Defeated (Clefairy Lv 14). Line of sight triggered at (16, 25). Dialogue: "Wow! You're really good!". Prize: ¥210. Stationed near central junction passage.
 
@@ -921,7 +921,7 @@
 
 
 
-- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
+- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Defeated.
 
 
 
@@ -929,7 +929,7 @@
 
 
 
-- Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: ¥350.
+- Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Defeated.
 
 - Ladder (5, 5): Descending ladder in the northwest corner of 1F.
 
@@ -1010,7 +1010,7 @@
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
-- Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
+- Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. 
 - Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary verified solid rock wall at Col 35 across rows 16, 17, and 18 (empirically tested blocked at 35, 16; 35, 17; 35, 18).
 
 ### Eastern Cavern Highway & Southern Cavern (Reached via Row 15 / Row 14)
@@ -1021,7 +1021,7 @@
 - Western Cavern Highway (Cols 7..11, Rows 23..32+): At column 11, the corridor opens into a wide 5-tile thoroughfare (cols 7..11) heading north past row 27 toward the western/northwestern quadrant.
 - Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
 
-- Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: ¥390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
+- Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: ¥390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). 
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
@@ -5297,7 +5297,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
-  - Evolution target: Train to Level 28 in Cerulean Cave 1F via switch-training (testing empirical yield) to evolve into Persian (#053).
 
 
 <hr>
