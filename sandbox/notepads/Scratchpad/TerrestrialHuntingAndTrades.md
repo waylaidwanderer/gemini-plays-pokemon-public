@@ -13,6 +13,6 @@
 ## Hunting Protocol & Strategy
 - Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
 - Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (56 in Bag (Kadabra engaged, 10 balls thrown)).
+- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (55 in Bag (Kadabra engaged, 11 balls thrown)).
 - Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
 - Storing captures: Party slots 5 and 6 are open to receive Kadabra and Venomoth directly into party (Dodrio occupies Slot 4).
