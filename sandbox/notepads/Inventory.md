@@ -4,9 +4,9 @@
 - Name: BLUE
 - IDNo: 04620
 - Money: ¥5,905
-- Pokédex: 63 Caught [RATICATE #020 evolved Turn 43817] / 137 Seen [Verified Turn 39387]
+- Pokédex: 64 Caught [CATERPIE #010 caught Turn 43914] / 137 Seen [Verified Turn 39387]
 
-## Party Pokémon (3 / 6) [Verified Empirically Turn 43832]
+## Party Pokémon (4 / 6) [CATERPIE recruited Turn 43928]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
   - HP: 250 / 251
@@ -25,6 +25,10 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
+- Slot 4: CATERPIE (Nickname: SILK) [Lv 5, Bug]
+  - Status: Healthy
+  - OT: BLUE (IDNo. 04620)
+  - Moves: Tackle, String Shot
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
