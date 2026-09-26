@@ -22,6 +22,9 @@
 
 
 
+- **Empirical Solo-Sweeper EXP.ALL Yields (N=3 Party: Solo Lead [Sheldon], Inactive: DUX, OMEGA):**
+  - Sandslash Lv 52: Sweeper Sheldon gained 601 EXP; EXP.ALL pool announced 200 EXP Points [Empirically verified Turn 46665].
+
 ## Stat & Damage Mechanics
 
 - **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type Pokémon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
