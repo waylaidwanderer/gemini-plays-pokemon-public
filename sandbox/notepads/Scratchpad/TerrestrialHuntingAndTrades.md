@@ -13,6 +13,6 @@
   - Throw PokÃ© Balls at wild Weedle or Kakuna; recruit directly into Party Slot 5.
 
 ## Post-Recruitment Plan
-1. Once Weedle is recruited into Slot 5, walk south through gatehouse onto Route 2 outdoors.
-2. Cast HM02 Fly to Cerulean City.
-3. Surf canal into Cerulean Cave 1F and solo-sweep with Sheldon/Mewtwo; EXP.ALL rapidly levels SILK and Weedle to Lv 10 (Butterfree #012 and Beedrill #015).
+1. Audit in-game Pokédex registration for Weedle (#013).
+2. If Weedle is registered: proceed south out of Viridian Forest to Route 2, fly to Cerulean City, and power-level SILK and NEEDLE in Cerulean Cave.
+3. If Weedle is NOT registered: patrol tall grass to catch Weedle into open Party Slot 6 before leaving Viridian Forest.
