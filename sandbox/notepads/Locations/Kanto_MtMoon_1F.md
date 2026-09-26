@@ -60,8 +60,6 @@
 
 - Lass (16, 24..25): Defeated (Clefairy Lv 14). Stationed near central junction passage.
 
-- Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
-
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
 
 - Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated. Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
