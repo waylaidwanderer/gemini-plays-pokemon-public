@@ -13,7 +13,7 @@
 - If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Dodrio active lead (Mewtwo fainted Turn 46901).
 - Party: 6/6 (Full - Rhydon joined slot 6). Return to Cerulean PC to deposit captures.
 
-## Contingency & Survival Plan
+## Return & Deposit Plan
 - Mewtwo Survival Threshold: If Mewtwo faints or falls below safe threshold, switch to active reserves:
   - Dodrio (HYDRA Lv 49, HP 125/125) or Blastoise (SHELDON Lv 79, HP 37/254)
 - Continue throwing Pok� Balls from reserves until Rhydon is secured.

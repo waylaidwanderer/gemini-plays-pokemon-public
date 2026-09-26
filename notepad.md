@@ -130,7 +130,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 46801)
+## Party Pokémon (6 / 6 - Audited Turn 46934)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 0 / 269 (Fainted Turn 46901)
   - Status: Fainted (FNT)
@@ -5287,11 +5287,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Dodrio active lead (Mewtwo fainted Turn 46901).
 - Party: 6/6 (Full - Rhydon joined slot 6). Return to Cerulean PC to deposit captures.
 
-## Contingency & Survival Plan
+## Return & Deposit Plan
 - Mewtwo Survival Threshold: If Mewtwo faints or falls below safe threshold, switch to active reserves:
   - Dodrio (HYDRA Lv 49, HP 125/125) or Blastoise (SHELDON Lv 79, HP 37/254)
 - Continue throwing Pok� Balls from reserves until Rhydon is secured.
-
 
 <hr>
 

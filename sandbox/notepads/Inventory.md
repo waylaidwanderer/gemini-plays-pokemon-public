@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 46801)
+## Party Pokémon (6 / 6 - Audited Turn 46934)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 0 / 269 (Fainted Turn 46901)
   - Status: Fainted (FNT)
