@@ -107,3 +107,4 @@
 - [x] Evolve Rattata into Raticate (#020) [Turn 43817]
 - [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
 - [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
+- [x] Evolve Caterpie into Metapod (#011) [Turn 44167]

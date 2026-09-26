@@ -23,12 +23,13 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: CATERPIE (Nickname: SILK) [Lv 7, Bug]
-  - Status: Healthy (leveled Turn 44165 - Metapod evolution pending)
-  - Stats: Attack 10, Defense 10, Speed 12, Special 9 [Verified Screen Turn 44165]
+- Slot 4: METAPOD (Nickname: SILK) [Lv 7, Bug]
+  - Status: Healthy (evolved Turn 44167)
+  - HP: 25 / 25 [Verified Stats Screen Turn 44170]
+  - Stats: Attack 9, Defense 13, Speed 10, Special 9 [Verified Stats Screen Turn 44170]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 426 (86 to Lv 8) [Verified Turn 44165]
-  - Moves: Tackle (PP 35/35), String Shot (PP 40/40)
+  - EXP: 426 (86 to Lv 8, 574 to Lv 10 Butterfree) [Verified Page 2 Turn 44171]
+  - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44171]
 - Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 7, Bug/Poison]
   - Status: Healthy (leveled Turn 44166)
   - Stats: Attack 9, Defense 12, Speed 10, Special 8 [Verified Screen Turn 44166]

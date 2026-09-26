@@ -14,6 +14,9 @@
 - Conclusion & Roadmap:
   - Weedle (#013) is 100% confirmed OWNED in active save file!
   - No wild Weedle capture is needed.
-  - Active party: SILK Lv 7 (426 EXP - Metapod evolution triggering NOW!) and NEEDLE Lv 7 (365 EXP).
-  - SILK is evolving into METAPOD (#011)!
-  - Total Pokédex Caught will increase from 63 to 64!
+  - Active party: SILK Lv 7 METAPOD (426 EXP) and NEEDLE Lv 7 KAKUNA (365 EXP).
+  - Metapod (#011) EVOLVED AND VERIFIED! Pokédex at 64 Caught!
+  - Target: Both evolve at Level 10 (1,000 EXP total)!
+    - SILK needs 574 EXP to Lv 10 -> BUTTERFREE (#012)!
+    - NEEDLE needs 635 EXP to Lv 10 -> BEEDRILL (#015)!
+  - Next step: Return to Cerulean Cave 1F overworld and continue sweeping wild encounters!
