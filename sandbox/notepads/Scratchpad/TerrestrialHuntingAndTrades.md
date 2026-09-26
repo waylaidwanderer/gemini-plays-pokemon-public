@@ -23,7 +23,7 @@
   - Recent Battles:
     - Battle 19 (Hypno Lv 46, Total EXP: 1,076) [Turn 45275-45281]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
     - Battle 20 (Venomoth Lv 49, Total EXP: 952) [Turn 45284-45295]: Felix 238 participant + 56 EXP.ALL = 294 EXP (~30.9%). Defeated by Omega's Psychic.
-    - Battle 21 (Magneton Lv 46) [Turn 45299-]: In progress (Felix switched to Omega Lv 77).
+    - Battle 21 (Magneton Lv 46) [Turn 45299-]: In progress (Felix switched to Omega Lv 77 - Omega paralyzed by Thunder Wave).
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
