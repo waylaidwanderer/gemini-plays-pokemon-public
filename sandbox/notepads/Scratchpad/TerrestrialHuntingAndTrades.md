@@ -21,6 +21,7 @@
       - Encounter 22 (Turn 46195): Wild Zubat Lv 9 (fled)
       - Encounter 23 (Turn 46199): Wild Geodude Lv 8 (fled)
       - Encounter 24 (Turn 46203): Wild Zubat Lv 9 (fled)
+      - Encounter 25 (Turn 46212): Wild Zubat Lv 9 (fled)
     - Mt. Moon B1F:
       - Encounter 3 (Turn 46036): Wild Zubat Lv 9 (fled)
       - Encounter 15 (Turn 46156): Wild Zubat Lv 7 (fled)
