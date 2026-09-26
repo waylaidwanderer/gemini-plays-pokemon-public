@@ -391,7 +391,7 @@
 
 ## One-Hit Knockout (OHKO) Move Mechanics (Gen 1 Engine)
 - **Theoretical Speed-Threshold Formula:** In Generation 1 game engine code, OHKO moves (Horn Drill, Guillotine, Fissure) are specified to automatically fail if the user's current raw Speed stat is strictly lower than the target's current raw Speed stat (`Speed_user < Speed_target`).
-- **Empirical Status & Burden of Proof:** While wild Rhydon Lv 52 (base Speed 40, estimated speed ~50-60) is theoretically outsped by Mewtwo (OMEGA Lv 76, speed > 200), this mechanic has not undergone isolated empirical trial testing in this campaign. Operational strategies must not rely on speed-based OHKO immunity as an absolute certainty without verified battle testing.
+- **Empirical Status & Proof of Work:** Empirically verified Turn 46896: Wild Rhydon Lv 52 used Horn Drill against faster Mewtwo (OMEGA Lv 76), displaying 'OMEGA's unaffected!', confirming that Horn Drill completely fails against targets with higher raw Speed.
 
 
 <hr>
