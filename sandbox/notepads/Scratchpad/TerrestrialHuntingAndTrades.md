@@ -18,8 +18,8 @@
 - Party Open Slots: 3 available (Slots 4, 5, 6).
 
 ## Viridian Forest Sourcing & Training Protocol
-1. Exit Cerulean Pokémon Center to outdoors.
+1. Exit Cerulean Pokï¿½mon Center to outdoors.
 2. Cast HM02 FLY with Farfetch'd (DUX) to Viridian City.
 3. Travel north along Route 2 into Viridian Forest.
-4. Catch wild Caterpie (50% encounter) and Weedle using basic Poké Balls (88 in Bag).
+4. Catch wild Caterpie (50% encounter) and Weedle using basic Pokï¿½ Balls (88 in Bag).
 5. Fly back to Cerulean City, enter Cerulean Cave 1F, and solo-sweep 2-3 wild encounters with Sheldon (Surf/Double-Edge) to level Caterpie to Lv 10 (Butterfree #012) and Weedle to Lv 10 (Beedrill #015).
