@@ -12,7 +12,7 @@
 - Row 11 Ledge: South-facing ledge spanning columns 7..11. Passable corridor around it is through column 12+ to the east.
 - Corridor (Cols 12..13, Rows 9..13): Open unobstructed passage bypassing the row 11 ledge to the north.
 ## Key Buildings
-- Mt. Moon Pokémon Center: Located at columns 12..15, rows 4..5.
+- Mt. Moon Pokémon Center: Located at columns 10..13, rows 2..5. Entrance door at (11, 5) (approached from (11, 6)), 'POKé' sign at (12, 5) [Verified Turn 45970].
 ## Mt. Moon Pokémon Center Interior
 - Entrance Mat: (3..4, 7). Exits south to Route 4.
 - Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
