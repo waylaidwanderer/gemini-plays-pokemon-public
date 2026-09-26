@@ -37,7 +37,7 @@
 - Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54.
 - Eastern Structure (58..59, 8..9): Impassable structure at western edge of eastern grass field. Tile (58, 9) is solid (collision confirmed from (58, 10) and (57, 9)). Sign located at (59, 9).
 - Signpost (59, 9): Reads "ROUTE 3 - MT. MOON AHEAD".
-- Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
+- Resting NPC (57, 11): Youngster stationed at (57, 11) facing North. Non-hostile NPC.
 - Row 7 Ledge at (57, 7): South-facing ledge. Cannot be climbed North.
 - Eastern Grass Pocket (Cols 58..65, Rows 8..13): Enclosed tall grass field at the southeastern boundary of Route 3. Bounded by solid rock cliff to the east (Col 66, Rows 8..13) and map boundary to the south (Row 14). Confirmed dead-end pocket for wild encounters (Spearow, etc.); does NOT lead to Mt. Moon.
 - Out-of-Bounds Border: Repeating tan road metatiles visible south of row 13 and east of column 66 are the out-of-bounds border block.
