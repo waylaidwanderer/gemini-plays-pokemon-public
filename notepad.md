@@ -123,10 +123,10 @@
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
-  - HP: 200 / 251 [Verified Turn 43754]
+  - HP: 171 / 251 [Verified Turn 43761]
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 14/15) [Verified Turn 43754], Body Slam (PP 2/15) [Verified Turn 43744], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
+  - Moves: Double-Edge (PP 13/15) [Verified Turn 43761], Body Slam (PP 2/15) [Verified Turn 43744], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 36, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Lv 35 Party Screen Turn 43443; Lv 36 uninspected]
@@ -5202,8 +5202,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~975 EXP to reach Lv 20 (~7 wild battles at ~135 EXP/battle via EXP.ALL) [Hypno defeated Turn 43754].
-- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 200/251 HP, healthy; 19 PP remaining]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Target: Rattata requires ~842 EXP to reach Lv 20 (~6 wild battles at ~135 EXP/battle via EXP.ALL) [Dodrio defeated Turn 43761].
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 171/251 HP, healthy; 18 PP remaining]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
   When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or when all moves viable for current spawns are exhausted):
     1. If Rattata is within 10 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
