@@ -11,18 +11,18 @@
   - Stats: Attack 32, Defense 32, Speed 61, Special 29
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 41, Normal/Flying]
   - Status: Healthy
   - HP: 102 / 102
-  - Stats: Attack 67, Defense 62, Speed 62, Special 59
+  - Stats: Attack 68, Defense 64, Speed 63, Special 60
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
   - Status: Healthy
-  - HP: 168 / 258
+  - HP: 147 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 5/15), Ice Beam (PP 6/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 5/15), Ice Beam (PP 5/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 154 / 274
@@ -78,4 +78,4 @@
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 4: Empty [Verified Turn 44287]
 - Box 5: Empty [Verified Turn 44291]
-- Boxes 7â12: Uninspected storage
+- Boxes 7-12: Uninspected storage
