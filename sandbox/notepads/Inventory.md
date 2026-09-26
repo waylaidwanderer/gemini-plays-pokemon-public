@@ -16,7 +16,7 @@
   - Moves: Double-Edge (PP 12/15) [Verified Turn 43767], Body Slam (PP 2/15) [Verified Turn 43744], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
-  - HP: 89 / 89 [Lv 35 Party Screen Turn 43443; Lv 37 uninspected]
+  - HP: 89 / 89 [Lv 37 uninspected]
   - Stats: Attack 61, Defense 57, Speed 57, Special 54 [Verified Lv 37 Screen Turn 43763]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
