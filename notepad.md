@@ -287,7 +287,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-41 in Cerulean Cave (Turns 45041-45729). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-42 in Cerulean Cave (Turns 45041-45739). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
@@ -5302,13 +5302,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
     - Sheldon (Healthy): Restored to 258/258 HP and PSN cured at Cerulean Center [Turn 45590]. Preferred against targets weak to Water/Ice (Sandslash, Dodrio), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). (Avoid Electric moves from Magneton/Raichu due to Water-type weakness). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
   - Recent Battles (Rolling 2-Battle Window):
-    - Battle 40 (Hypno Lv 46, Total EXP: 1,076) [Turn 45706-45713]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf.
     - Battle 41 (Parasect Lv 52, Total EXP: 950) [Turn 45716-45729]: Felix 237 participant + 59 EXP.ALL = 296 EXP (~31.2%). Defeated by Sheldon's super-effective Ice Beam.
+    - Battle 42 (Magneton Lv 46, Total EXP: 1,050) [Turn 45732-45739]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's STAB Psychic (critical hit).
 
 - Trainee Progress (FELIX Lv 25):
   - Verified Stats: HP 61/61, Attack 30, Defense 30, Speed 57, Special 27 (audited Turns 45677, 45684).
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20).
-  - EXP Tracking: Current EXP: ~17,088 / 17,576 EXP. Level Up: ~488 EXP to Lv 26 (after Battle 41). Target: Persian (#053) at Level 28 (21,952 EXP, 3 levels to Lv 28).
+  - EXP Tracking: Current EXP: ~17,415 / 17,576 EXP. Level Up: ~161 EXP to Lv 26 (after Battle 42). Target: Persian (#053) at Level 28 (21,952 EXP, 3 levels to Lv 28).
 
 
 <hr>
