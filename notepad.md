@@ -5221,6 +5221,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Battle 1 (Raichu Lv 53, Total EXP: 908) [Turn 45041-45042]: Felix 227 participant + 53 EXP.ALL = 280 EXP (~30.8%).
     - Battle 2 (Golbat Lv 46, Total EXP: 1,104) [Turn 45054-45055]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
     - Battle 3 (Golbat Lv 46, Total EXP: 1,104) [Turn 45070-45071]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
+    - Battle 4 (Golbat Lv 46, Total EXP: 1,104) [Turn 45078-45079]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
     - Empirical Yield Note: Across Battle 1 (Raichu Lv 53, 280 EXP) and Battle 2 (Golbat Lv 46, 341 EXP), Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus an EXP.ALL share (truncated via Gen 1 integer division routine to 53 EXP for Raichu and 65 EXP for Golbat), totaling ~30.9% of total battle EXP (2.48x faster than passive grinding!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
@@ -5232,9 +5233,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, swap Felix to Slot 1, return to cave.
 - Trainee Progress (FELIX Lv 16):
-  - Current EXP: 4,536
-  - Lv 17 threshold: 4,913 (377 EXP to Lv 17).
-  - Battle 3 (Golbat Lv 46) yielded 341 EXP to Felix (276 participant + 65 EXP.ALL).
+  - Current EXP: 4,877
+  - Lv 17 threshold: 4,913 (36 EXP to Lv 17).
+  - Battle 4 (Golbat Lv 46) yielded 341 EXP to Felix (276 participant + 65 EXP.ALL).
 
 
 <hr>
