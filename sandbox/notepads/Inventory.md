@@ -23,6 +23,10 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
+- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 14, Grass/Poison]
+  - Status: Healthy
+  - OT: BLUE (IDNo. 04620)
+  - Moves: Vine Whip, Growth [Caught Turn 44368]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
