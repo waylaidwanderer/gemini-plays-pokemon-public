@@ -143,7 +143,7 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
   - Status: Healthy
-  - HP: 219 / 258
+  - HP: 211 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 8/10)
@@ -5309,7 +5309,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
     - Omega: Healthy (HP 183/274). Preferred sweeper against Poison, Bug, Fighting, and Electric targets (Venomoth, Golbat, Magneton, Raichu). STAB Psychic guarantees OHKO.
-    - Sheldon: Healthy (HP 219/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
+    - Sheldon: Healthy (HP 211/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 47 (Hypno Lv 46, Total EXP: 1,076) [Turn 45790-45796]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
     - Battle 48 (Hypno Lv 46, Total EXP: 1,076) [Turn 45798-45804]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
