@@ -22,7 +22,7 @@
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
     - Omega: Healthy (HP 183/274). Preferred sweeper against Poison, Bug, Fighting, and Electric targets (Venomoth, Golbat, Magneton, Raichu). STAB Psychic guarantees OHKO.
-    - Sheldon: Healthy (HP 219/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
+    - Sheldon: Healthy (HP 211/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 47 (Hypno Lv 46, Total EXP: 1,076) [Turn 45790-45796]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
     - Battle 48 (Hypno Lv 46, Total EXP: 1,076) [Turn 45798-45804]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB Surf. Sheldon HP: 219/258.
