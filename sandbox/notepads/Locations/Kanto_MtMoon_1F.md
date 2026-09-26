@@ -122,7 +122,6 @@
 
 - Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Defeated.
 
-- Ladder (5, 5): Descending ladder in the northwest corner of 1F.
 
 - Central Rock Wall & Southern Bypass Verification (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
 

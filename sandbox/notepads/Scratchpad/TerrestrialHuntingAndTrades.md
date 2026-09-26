@@ -7,7 +7,7 @@
   - Moon Stone retrieved from Mt. Moon 1F (2, 2) [Turn 46009] and ready in Bag (Slot 11).
   - Location Strategy & Working Hypothesis:
     - Working hypothesis: Mt. Moon 1F hosts wild Clefairy (#035) as a rare encounter (~1-6%).
-    - Status: Actively sampling encounters on Mt. Moon 1F (Row 4 patrol strip cols 8-11).
+    - Status: Actively sampling encounters on Mt. Moon 1F (Southern corridor loop cols 10-11, rows 8-11).
   - Empirical Wild Encounter Log (Expedition 17):
     - Mt. Moon 1F:
       - Encounter 1 (Turn 46016): Wild Geodude (fled)
@@ -19,6 +19,7 @@
       - Encounter 20 (Turn 46187): Wild Zubat Lv 7 (fled)
       - Encounter 21 (Turn 46192): Wild Geodude Lv 8 (fled)
       - Encounter 22 (Turn 46195): Wild Zubat Lv 9 (fled)
+      - Encounter 23 (Turn 46199): Wild Geodude Lv 8 (fled)
     - Mt. Moon B1F:
       - Encounter 3 (Turn 46036): Wild Zubat Lv 9 (fled)
       - Encounter 15 (Turn 46156): Wild Zubat Lv 7 (fled)
