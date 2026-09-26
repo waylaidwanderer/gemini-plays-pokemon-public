@@ -30,7 +30,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x66
+- Slot 10: POKé BALL x65
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
