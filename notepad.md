@@ -187,11 +187,13 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Verified Turn 44294]
-- Box 5: Empty [Verified Turn 44291]
+- Active Box: BOX 6 [Verified Empty Turn 44295]
+- Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
-- Boxes 4–12: Uninspected storage
+- Box 4: Empty [Verified Turn 44287]
+- Box 5: Empty [Verified Turn 44291]
+- Boxes 7–12: Uninspected storage
 
 
 <hr>
@@ -5185,27 +5187,24 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
-- Started: Turn 42404
-- Active Mission: Trainee Leveling in Cerulean Cave 1F - MISSION COMPLETE!
-- Completed Milestones:
-  - SILK: Caterpie (#010) -> Metapod (#011) [Turn 44167] -> Butterfree (#012) [Turn 44231]
-  - NEEDLE: Kakuna (#014) -> Beedrill (#015) [Turn 44247]
-  - Both 3-stage bug lines fully complete!
-- Active Party Trainees: None (SILK and NEEDLE deposited into Box 3 Turn 44269)
-  - Active Party (3/6): Sheldon Lv 79, Dux Lv 37, Omega Lv 76 (3 slots open for next trainees)
-- In-Game Pokédex Audit Status:
-  - #010 CATERPIE: OWNED
-  - #011 METAPOD: OWNED (Evolved Turn 44167)
-  - #012 BUTTERFREE: OWNED (Evolved Turn 44231)
-  - #013 WEEDLE: OWNED
-  - #014 KAKUNA: OWNED
-  - #015 BEEDRILL: OWNED (Evolved Turn 44247)
-  - Pokédex Totals: OWN 66, SEEN 137
-- Next Objectives & Targets:
-  - Review remaining evolutionary lines (e.g. Clefairy -> Clefable via Moon Stone, Pidgey -> Pidgeotto -> Pidgeot, Bellsprout -> Weepinbell -> Victreebel via Leaf Stone, Oddish / Gloom, etc.).
-  - Deposit Butterfree and Beedrill into PC Storage Box at Cerulean Pokémon Center.
-  - Plan next terrestrial capture and evolution batch.
+## Expedition 16 Status: COMPLETE!
+- Butterfree (#012) and Beedrill (#015) fully evolved and stored in Box 3!
+- Pokédex Totals: OWN 66, SEEN 137.
+
+## Expedition 17 Plan: Floral & Mountain Biodiversity
+- Target 1: Bellsprout (#069) -> Weepinbell (#070) -> Victreebel (#071)
+  - Capture wild Bellsprout (Lv 12-14) in tall grass on Route 24 / Route 25.
+  - Train Bellsprout to Level 21 in Cerulean Cave 1F via EXP.ALL to evolve into Weepinbell (#070).
+  - Apply Leaf Stone (2 in Bag!) to Weepinbell to evolve into Victreebel (#071).
+  - Net Gain: +2 new Pokédex entries (#070, #071)!
+- Target 2: Clefairy (#035) -> Clefable (#036)
+  - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
+  - Apply Moon Stone to Clefairy to evolve into Clefable (#036).
+  - Net Gain: +2 new Pokédex entries (#035, #036)!
+- Target 3: Meowth (#052) -> Persian (#053)
+  - Capture wild Meowth on Route 5 (south of Cerulean City).
+  - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
+- Expected Dex Progression: 66 -> 71+ Caught!
 
 
 <hr>
