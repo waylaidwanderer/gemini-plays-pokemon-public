@@ -27,7 +27,7 @@
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
-  - Secondary Attack: Psychic (PP 8/10) - Special STAB, guaranteed OHKO on Sandslash, Golbat, Venomoth, Magneton, Raichu, Ditto.
+  - Secondary Attack: Psychic (PP 3/10) - Special STAB, guaranteed OHKO on Sandslash, Golbat, Venomoth, Magneton, Raichu, Ditto.
   - Recovery: Recover (PP 20/20) - sustains HP in-cave without consumables.
 - Reserve Sweeper: BLASTOISE (SHELDON) Lv 79
   - Full Movepool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
@@ -36,6 +36,6 @@
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
 - Trainee Progress (FELIX Lv 13):
-  - Current EXP: 2,490
-  - Lv 14 threshold: 2,744 (254 EXP to Lv 14).
-  - Wild Hypno Lv 46 yields 131 EXP.ALL share to Felix.
+  - Current EXP: 2,621
+  - Lv 14 threshold: 2,744 (123 EXP to Lv 14).
+  - Wild Hypno Lv 46 yielded 131 EXP.ALL share to Felix.
