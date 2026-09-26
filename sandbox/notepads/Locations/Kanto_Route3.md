@@ -6,7 +6,7 @@
 
 ## Landmarks & Layout
 - Western Entrance (Rows 8..11, Cols 0..1): 4-tile wide open ground passage connecting to Pewter City, bounded by solid mountain cliff walls to the north (rows 6..7) and south (rows 12..14).
-- Shrub Obstacles (Col 9): Small trees at (9, 10) and (9, 11) block row 10..11; bypass via clear corridor at (9, 8..9).
+- Shrub Obstacles (Col 4): Small trees at (4, 8) and (4, 11) flank row 9..10; clear open passage passes between them at rows 9 and 10 [Verified Turn 45950].
 - Terraces & Ledges:
   - Upper tier: Row 6..7 bounded by south ledge at row 7 (cols 10..13).
   - Middle tier: Rows 8..10 clear ground (cols 10..16, no wild encounters).
