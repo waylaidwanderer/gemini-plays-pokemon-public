@@ -128,10 +128,10 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 254 / 254
+  - HP: 217 / 254
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 7/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 94 / 94 [Verified Party Screen Turn 43820]
@@ -150,7 +150,7 @@
   - Stats: Attack 29, Defense 17, Speed 17, Special 26 [Verified Screen Turn 44412]
   - OT: BLUE (IDNo. 04620)
   - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20) [Verified Screen Turn 44414]
-  - EXP: 1,612 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,846 EXP)
+  - EXP: 1,743 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,715 EXP) [1 battle won]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
