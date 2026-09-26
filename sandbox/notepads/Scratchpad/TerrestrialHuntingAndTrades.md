@@ -9,11 +9,11 @@
 
 ## Hunting Protocol & Strategy
 - Patrol Column 23 corridor (Col 23, Rows 7-11) and Row 11 West Corridor on 2F.
-- If target encountered (Venomoth, Marowak, Rhydon, Ditto): Catch with Poké Ball into open Party Slot 6!
+- If target encountered (Venomoth, Marowak, Rhydon, Ditto): Catch with Pokï¿½ Ball into open Party Slot 6!
 - If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Dodrio active lead (Mewtwo fainted Turn 46901).
 - Party: 6/6 (Full - Rhydon joined slot 6). Return to Cerulean PC to deposit captures.
 
 ## Contingency & Survival Plan
 - Mewtwo Survival Threshold: If Mewtwo faints or falls below safe threshold, switch to active reserves:
   - Dodrio (HYDRA Lv 49, HP 125/125) or Blastoise (SHELDON Lv 79, HP 37/254)
-- Continue throwing Poké Balls from reserves until Rhydon is secured.
+- Continue throwing Pokï¿½ Balls from reserves until Rhydon is secured.

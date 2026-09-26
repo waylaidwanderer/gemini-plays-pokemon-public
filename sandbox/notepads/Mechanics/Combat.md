@@ -136,7 +136,7 @@
   - Magneton Lv 46 (BCR 60): Broke free on Balls 1 and 2; captured on Ball 3 at full HP [Turn 46610].
   - Dodrio Lv 49 (BCR 45): Missed on Balls 1, 2, 3, 4, 5, 6; captured on Ball 7 at full HP [Turn 46723].
   - Kadabra Lv 49 (BCR 100): Broke free after wobbling on Balls 1-13; captured on Ball 14 at full HP [Turn 46787].
-  - Rhydon Lv 52 (BCR 60): Missed on Balls 1-13; captured on Ball 14 at full HP with basic Poké Ball [Turn 46916].
+  - Rhydon Lv 52 (BCR 60): Missed on Balls 1-13; captured on Ball 14 at full HP with basic Pokï¿½ Ball [Turn 46916].
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a PokÃ©mon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic PokÃ© Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
 - **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic PokÃ© Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
@@ -151,8 +151,8 @@
 - **Haze Status Cure (Empirically Verified Battle 26, Turn 45468):** In Generation 1 retail, the move HAZE ('All STATUS changes are eliminated!') resets all stat stages to 0 and cures persistent primary status conditions (e.g. PAR) on the opponent. Wild Golbat's Haze completely cured Omega's paralysis, restoring full Speed and removing the PAR status condition.
 
 ## Wild Battle Escape Mechanics (Generation 1 Retail)
-- **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pokémon's actual current Speed compared to the opponent's Speed.
-- **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pokémon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pokémon (e.g. Blastoise Sheldon with paralyzed Speed estimate ~40-45) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46, Sandslash Lv 52; wild stat screens invisible, speeds estimated from species baselines) [Empirically verified Turns 46658, 46660, 46680].
+- **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pokï¿½mon's actual current Speed compared to the opponent's Speed.
+- **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pokï¿½mon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pokï¿½mon (e.g. Blastoise Sheldon with paralyzed Speed estimate ~40-45) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46, Sandslash Lv 52; wild stat screens invisible, speeds estimated from species baselines) [Empirically verified Turns 46658, 46660, 46680].
 - **Consecutive Attempt Progression:** Each successive failed escape attempt appears to increase escape likelihood (observed: Sheldon escaped on Attempt 2 after failing Attempt 1 vs Magneton [Turn 46682]). Citing specific internal constants without empirical measurement violates the Burden of Proof; numerical bonuses remain unverified hypotheses.
 - **High-Speed Lead Fleeing (Mewtwo Empirical Dataset):** Mewtwo (OMEGA Lv 76, healthy, unparalyzed) has achieved 100% first-turn escape success across all tested wild encounters: Dodrio Lv 49 (Turns 46800, 46819, 46849), Kadabra Lv 49 (Turn 46811), Magneton Lv 46 (Turns 46826, 46846, 46858), Hypno Lv 46 (Turns 46834, 46838, 46842), and Golbat Lv 46 (Turns 46852, 46855). Wild speed caps or universal mechanics beyond observed empirical trials remain unverified.
 
