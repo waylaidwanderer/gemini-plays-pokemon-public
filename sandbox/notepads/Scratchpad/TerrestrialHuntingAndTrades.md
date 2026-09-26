@@ -26,7 +26,7 @@
 
   - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
 
-  - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Moon Stone availability across Kanto dungeons remains unverified; Clefable (#036) requires locating or verifying a Moon Stone before evolution can proceed.
+  - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Overworld pickup locations (Mechanics/EvolutionAndStones): Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. With only 2 used of 5 potential pickups, up to 3 Moon Stones remain uncollected in those dungeons for Clefable (#036).
 
 - Target 3: Meowth (#052) -> Persian (#053)
 
