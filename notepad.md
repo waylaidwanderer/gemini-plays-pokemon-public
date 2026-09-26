@@ -151,7 +151,8 @@
   - HP: 18 / 18 [Verified Stats Screen Turn 44094]
   - Stats: Attack 7, Defense 9, Speed 8, Special 7 [Verified Stats Screen Turn 44094]
   - OT: BLUE (IDNo. 04620)
-  - Moves: (inspecting Page 2)
+  - EXP: 64 (61 to Lv 5) [Verified Page 2 Turn 44095]
+  - Moves: Harden (PP 30/30) [Verified Page 2 Turn 44095]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
