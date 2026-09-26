@@ -5186,6 +5186,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
 
+- **Start Menu Vertical Wrapping (Empirically Verified Turn 46642):** In Generation 1 retail, the overworld Start menu DOES wrap vertically between the top option (POKéDEX) and the bottom option (EXIT). Pressing Up at POKéDEX wraps directly to EXIT, and pressing Down at EXIT wraps to POKéDEX. This is distinct from the Bag item list and PC storage lists, which do NOT wrap vertically.
+
 ## PC Storage & Menu Mechanics (Generation 1 Retail)
 - **PC Pokémon Withdrawal List Vertical Navigation:** In Generation 1 retail, the PC Pokémon storage withdrawal list does NOT wrap vertically from top to bottom (pressing Up at Slot 1 stops at Slot 1 and does not wrap to CANCEL, identical to Bag item list behavior) [Empirically verified Turn 42398].
 - **Pokémon Box Storage Indexing:** Empirically confirmed Turn 33419: in Box 1, Krabby (PINCHY, caught Turn 31540) was listed at Slot 1 ahead of Zapdos (THUNDER, caught Turn 29075), disproving strict chronological box index ordering.
