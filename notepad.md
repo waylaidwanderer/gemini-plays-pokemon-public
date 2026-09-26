@@ -155,7 +155,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x78
+- Slot 10: POKé BALL x77
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -1151,6 +1151,7 @@
 - Encounter 6 [Turn 42559]: Abra Lv 12 (Route 25 tall grass at (2, 4)) - FLED (Teleport).
 - Encounter 7 [Turn 42574]: Abra Lv 12 (Route 25 tall grass at (5, 5)) - FLED (escaped safely).
 - Encounter 8 [Turn 42581]: Bellsprout Lv 12 (Route 25 tall grass at (6, 4)) - CAUGHT (Ball 2, Nickname: SPROUT, Party Slot 6).
+- Encounter 9 [Turn 44341]: Abra Lv 12 (Route 25 tall grass at (4, 4)) - FLED (Poké Ball broke free; Teleport).
 
 <hr>
 
