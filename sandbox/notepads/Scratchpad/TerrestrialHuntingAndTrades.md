@@ -12,7 +12,11 @@
     - Bag & PC currently contain 0 Moon Stones.
     - Historical Moon Stones consumed (2 total): Nidoqueen (#031) [Turn 31235] and Wigglytuff (#040) [Turn 43213].
     - Historical pickups audited: Rocket Hideout B2F Item Ball 1 at (1, 11) retrieved Turn 5721 (contained Moon Stone).
-    - Remaining candidate sites to audit for uncollected Moon Stones before Clefable quest (unverified hypotheses): Mt. Moon 1F, Mt. Moon B2F, Silph Co. 5F, Pokémon Mansion B1F.
+    - Remaining candidate sites audited for uncollected Moon Stones [Audited Turn 45662]:
+      - Mt. Moon 1F: Ground item ball at (2, 2) remains uncollected (visible in NW corner).
+      - Mt. Moon B2F: Ground item ball at (29, 5) remains uncollected (visible on elevated northern platform).
+      - Pokémon Mansion B1F: Fully cleared [Turns 14575-14678] - all 5 items retrieved (Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
+      - Silph Co. 5F: Potential candidate (unverified).
 
 - [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
