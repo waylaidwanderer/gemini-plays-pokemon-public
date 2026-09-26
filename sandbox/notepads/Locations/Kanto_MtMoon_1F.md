@@ -44,7 +44,7 @@
 
 
 
-- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11). Yielded ¥110.
+- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11).
 
 
 
@@ -111,7 +111,7 @@
 
 
 
-- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Defeated.
+- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
 
 
 
