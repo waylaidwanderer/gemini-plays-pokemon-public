@@ -11,10 +11,10 @@
   - Stats: Attack 20, Defense 20, Speed 37, Special 18 [Verified Level Up Box Turn 45054]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
-  - Stats: Attack 65, Defense 61, Speed 60, Special 57 [Verified Level Up Box Turn 44667]
+  - Stats: Attack 67, Defense 62, Speed 62, Special 59 [Verified Level Up Box Turn 45080]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
