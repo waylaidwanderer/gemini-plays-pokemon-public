@@ -137,7 +137,7 @@
   - HP: 97+ / Uninspected (max ~99 at Lv 39)
   - Stats: Attack 65, Defense 61, Speed 60, Special 57 [Verified Level Up Box Turn 44667]
   - OT: ELYSSA (IDNo. 54183)
-  - Moves: Slash, Sand-Attack, Cut, Fly [Slash learned Lv 39 over Peck Turn 44673]
+  - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
   - HP: 217 / 254
@@ -149,7 +149,7 @@
   - HP: 49+ / Uninspected (max ~51 at Lv 20)
   - Stats: Attack 41, Defense 23, Speed 23, Special 36 [Verified Level Up Box Turn 44675]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
+  - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected)
   - EXP: 6,261 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 197 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
@@ -4478,7 +4478,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (14, 4) [Verified Turn 27908: (13, 4) is solid rock boundary]. At (15, 4), connects north to Staircase (15, 3) and south down Column 15 into Row 6 waterway.
 - Entrance Cavern (Cols 20..25, Rows 12..17):
-  - Row 14: Walkable across Columns 21 through 25 (Column 20 is solid rock wall boundary). Bounded east by rock wall at Column 26.
   - Row 15: Walkable across Columns 20 through 25 (empirically confirmed at (20, 15) Turns 38375, 38386). Bounded west by rock wall at Column 19.
   - Row 16: Open floor at (24, 16) and (25, 16). Collision verified stepping Left into (23, 16) from (24, 16) [Turn 38570].
   - Row 17: Checkerboard exit warp threshold at (24..25, 17) leading outside to Cerulean City canal.
@@ -5233,19 +5232,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 - Sweeper Roles & Dynamic Thresholds:
 
-  - Lead Sweeper (Sheldon Lv 79):
-
-    - Primary Attack Pool: Surf (Water STAB vs Ground/Rock/Electric), Ice Beam (Ice vs Flying/Bug).
-
-    - Policy: Avoid Double-Edge to eliminate recoil attrition.
-
-    - Rotation Threshold: When combined special offensive PP (Surf + Ice Beam) reaches <= 1 (or if Sheldon HP < 100), switch party lead to MEWTWO (OMEGA).
-
-  - Secondary Sweeper (Mewtwo OMEGA Lv 76):
-
-    - Full Offensive/Sustain Pool: Psychic (STAB 90 power, 270 Special), Swift (never misses), Recover (sustain).
-
+  - Active Sweeper (MEWTWO OMEGA Lv 77):
+    - Status: Active Lead [Turn 44554+]
+    - Attack Pool: Swift (never misses, PP 4/20), Recover (sustain), Barrier. Psychic (0/10).
     - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
+- Reserve Sweeper (Blastoise SHELDON Lv 79):
+    - Physical Reserve: Body Slam (PP 15/15), Double-Edge (PP 14/15). Surf (0/15), Ice Beam (0/10).
 
 - Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
 
