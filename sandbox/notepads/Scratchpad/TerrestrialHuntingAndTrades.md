@@ -21,12 +21,12 @@
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Recent Battles (Rolling 2-Battle Window):
-    - Battle 22 (Magneton Lv 46, Total EXP: 1,050) [Turn 45372-45385]: Felix 262 participant + 65 EXP.ALL = 327 EXP. Defeated by Omega's Psychic. Felix grew to Level 22! (Stats: Atk 26, Def 27, Spd 50, Spc 24).
     - Battle 23 (Magneton Lv 46, Total EXP: 1,050) [Turn 45404-45411]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic.
+    - Battle 24 (Venomoth Lv 49, Total EXP: 952) [Turn 45417-45430]: Felix 238 participant + 56 EXP.ALL = 294 EXP (~30.9%). Defeated by Omega's critical Psychic.
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore PP and cure status conditions, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 22):
   - Verified Stats: HP 55/55, Attack 26, Defense 27, Speed 50, Special 24 (audited Turn 45399).
-  - EXP Tracking: Current EXP: 11,133 / 12,167 EXP. Level Up: 1,034 EXP to Lv 23 (after Battle 23).
+  - EXP Tracking: Current EXP: 11,427 / 12,167 EXP. Level Up: 740 EXP to Lv 23 (after Battle 24).
   - Target: Persian (#053) at Level 28 (21,952 EXP, 6 levels to Lv 28).
