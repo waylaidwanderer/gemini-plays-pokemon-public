@@ -188,12 +188,13 @@
 26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Contains stored Pokémon - in-game count audit required at PC before further storage]
+- Active Box: BOX 1 [Active Box switched and saved Turn 46634 - currently 0 stored Pokémon]
 - Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 4: Empty [Verified Turn 44287]
 - Box 5: Empty [Verified Turn 44291]
+- Box 6: Contains stored Pokémon from earlier campaign
 - Boxes 7-12: Uninspected storage
 
 <hr>
