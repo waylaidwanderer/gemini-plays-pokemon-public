@@ -129,12 +129,12 @@
 - IDNo: 04620
 
 ## Party Pokémon (4 / 6)
-- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
+- Slot 1: MEOWTH (Nickname: FELIX) [Lv 15, Normal]
   - Status: Healthy
-  - HP: 274 / 274 [Verified Healed Turn 45009]
-  - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
+  - HP: 40 / 40 [Verified Party Screen Turn 45005]
+  - Stats: Attack 19, Defense 19, Speed 35, Special 17 [Verified Level Up Box Turn 44992]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
   - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
@@ -147,12 +147,12 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: MEOWTH (Nickname: FELIX) [Lv 15, Normal]
+- Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 40 / 40 [Verified Party Screen Turn 45005]
-  - Stats: Attack 19, Defense 19, Speed 35, Special 17 [Verified Level Up Box Turn 44992]
+  - HP: 274 / 274 [Verified Healed Turn 45009]
+  - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
