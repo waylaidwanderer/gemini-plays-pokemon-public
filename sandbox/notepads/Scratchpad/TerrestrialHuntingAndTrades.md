@@ -2,7 +2,7 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (~7,932 EXP, needs ~68 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 20, Party Slot 4) - Reached Lv 20 [Turn 43816]! Ready for evolution into Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -22,7 +22,7 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~68 EXP to reach Lv 20 (EXACTLY 1 wild battle via EXP.ALL) [Venomoth defeated Turn 43807].
+- Target: Rattata reached Lv 20 (8,000+ EXP)! Evolution into Raticate (#020) in progress [Turn 43816].
 - Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 31/251 HP; 10 PP remaining: Double-Edge 9, Body Slam 0, Surf 1, Ice Beam 0]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - HP & Recoil Safety Protocol:
   Double-Edge deals ~27-34 HP recoil. Since Sheldon is at 31 HP, Double-Edge is STRICTLY PROHIBITED until healed.
