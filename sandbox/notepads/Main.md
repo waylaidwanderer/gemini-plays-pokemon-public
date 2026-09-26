@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 71 Caught [Kadabra caught Turn 46787] / 137 Seen
+- Pokédex: 72 Caught [Rhydon caught Turn 46916] / 137 Seen
 
 ## Milestones
 
