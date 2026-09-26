@@ -128,7 +128,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party PokÃ©mon (4 / 6)
+## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 23, Normal]
   - Status: Healthy
   - HP: 57 / 57
@@ -155,7 +155,7 @@
   - Moves: Swift (PP 20/20), Psychic (PP 5/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
-- Slot 1: POKÃ© FLUTE
+- Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
 - Slot 4: PP UP x1
@@ -164,7 +164,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x1
-- Slot 10: POKÃ© BALL x73
+- Slot 10: POKé BALL x73
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -195,11 +195,11 @@
 26. TM43 x1 (Sky Attack)
 27. TM17 x1 (Submission)
 
-## PC PokÃ©mon Storage
-- Active Box: BOX 6 [Contains 1 PokÃ©mon: SPROUT Lv 21 Victreebel - deposited Turn 44782]
+## PC Pokémon Storage
+- Active Box: BOX 6 [Contains 1 Pokémon: SPROUT Lv 21 Victreebel - deposited Turn 44782]
 - Box 1: Empty [Verified Turn 44282]
-- Box 2: Contains 2 PokÃ©mon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
-- Box 3: Contains 2 PokÃ©mon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
+- Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
+- Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 4: Empty [Verified Turn 44287]
 - Box 5: Empty [Verified Turn 44291]
 - Boxes 7â12: Uninspected storage
@@ -244,11 +244,11 @@
 
 ## Battle UI & Controls
 
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active PokÃ©mon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKÃ©MON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy PokÃ©mon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 
-- **Shift Style Prompt:** When an opposing PokÃ©mon faints in trainer battles, the game asks "Will BLUE change POKÃ©MON?". Default cursor is YES. Pressing B automatically selects NO and retains current PokÃ©mon.
+- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
 
@@ -256,7 +256,7 @@
 
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
 
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKÃ©DEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
@@ -264,7 +264,7 @@
 
 ## Stat & Damage Mechanics
 
-- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type PokÃ©mon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
+- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type Pokémon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
 
 - **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat [Empirically verified across all stat screens and damage calculations].
 
@@ -280,12 +280,12 @@
 
 ## Obedience
 
-- **Original Trainer PokÃ©mon:** Starter PokÃ©mon and PokÃ©mon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 74 and wild-caught Mewtwo OMEGA at Lv 74 obey 100% of commands in all battles without disobedience).
-- **Traded / Outsider PokÃ©mon:** Traded PokÃ©mon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All PokÃ©mon obey). Verified: With Earthbadge obtained [Turn 15111], all traded PokÃ©mon obey unconditionally up to Lv 100.
+- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 74 and wild-caught Mewtwo OMEGA at Lv 74 obey 100% of commands in all battles without disobedience).
+- **Traded / Outsider Pokémon:** Traded Pokémon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All Pokémon obey). Verified: With Earthbadge obtained [Turn 15111], all traded Pokémon obey unconditionally up to Lv 100.
 
 
 
-## Experience Distribution & Traded PokÃ©mon Boost
+## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
   - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-28 in Cerulean Cave (Turns 45041-45506). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
@@ -293,17 +293,17 @@
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
   - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
-  - When a single lead PokÃ©mon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
+  - When a single lead Pokémon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
   - EXP.ALL distributes the remaining half among all party members: `s_expall = floor(floor(Total_EXP / 2) / N)`.
-  - Traded PokÃ©mon receive: `s_expall + floor(s_expall / 2)`.
+  - Traded Pokémon receive: `s_expall + floor(s_expall / 2)`.
 
-- **Native vs. Traded PokÃ©mon EXP Yields:**
+- **Native vs. Traded Pokémon EXP Yields:**
 
-  - **Native PokÃ©mon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
 
-  - **Traded / Outsider PokÃ©mon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
 
-- **Traded PokÃ©mon Boost Formula (Gen 1 Assembly Implementation):**
+- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
 
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
 
@@ -312,7 +312,7 @@
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 
 - **Empirical Solo-Sweeper EXP.ALL Yields (N=4 Party: Solo Lead [Mewtwo / Sheldon], DUX Traded, Inactive Members):**
-  - Solo sweep yields are determined strictly by the defeated PokÃ©mon species/level and party size, invariant to which PokÃ©mon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
+  - Solo sweep yields are determined strictly by the defeated Pokémon species/level and party size, invariant to which Pokémon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
 
 | Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -337,19 +337,19 @@
 | Magneton | 46 | 1,050 | 525 EXP | 105 EXP | 157 EXP | Verified Turn 44243 |
 
 
-- **In-Battle Party Sub-Menu:** When selecting a non-active PokÃ©mon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## Field Items in Battle
 
-- **In-Battle PokÃ© Flute Usage (Empirically Verified Turns 33850 & 39237):**
+- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
 
-  - Using the PokÃ© Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKÃ©MON woke up!', awakening all sleepers (player and opponent).
+  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
 
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 
 ## Generation 1 Capture Mechanics & Empirical Boundaries
-- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a PokÃ©mon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic PokÃ© Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
-- **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic PokÃ© Balls:
+- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
+- **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
@@ -470,77 +470,148 @@
 
 <h1><code>Locations/Kanto_ViridianForest</code></h1>
 
-# Viridian Forest Geography & Navigation
-
-## Connections
-- South: Southern gatehouse from Route 2; player enters at (17, 47).
-
-## Verified Geography & Landmarks
-- Southern Entry Corridor (Rows 44..47): Open path across columns 15..18, bounded by stone posts at columns 14 and 19.
-- Signpost (18, 45): Trainer Tips - "Weaken POKÃ©MON before attempting capture! When healthy, they may escape!"
-- Resident/NPC (16, 43): Youngster warns "I came here with some friends! They're out for POKÃ©MON fights!"
-- Main South-Central Avenue (Rows 36..40): 2-tile wide clear path along columns 16..17 flanked by tall grass (col 15 and 18) and stone posts (col 14 and 19). Completely avoids grass encounters.
-- Signpost (16, 32): Trainer Tips - "For poison, use ANTIDOTE! Get it at POKÃ©MON MARTs!"
-- Western Maze Passage (Rows 32..33): Avenue terminates at row 31 tree wall; path branches west through tall grass opening at rows 32..33 into the western forest maze.
-- Ground Item (1, 31): POKé BALL collected [Turn 44066]. (Empty tall grass tile at (1, 31)).
-- Ground Item (12, 29): Visually confirmed item ball in an enclosed clearing north of row 30 trees. Traversal of northern corridors (columns 11-13, 16-18, 25-26) confirmed no northern breach into this clearing; it remains isolated from the main paths (likely requires Cut or alternative access).
-- Western Path Junction (Row 33, Col 7): Open grass path at (7, 33) connects the row 32..33 grass field to western and southern corridors.
-- West-Central Corridor (Rows 33..37, Cols 6..7): 2-tile wide clear path bypassing the central tree clump (cols 3..5, rows 33..36) to the east; turns west along row 37.
-- Southwest Grass Pocket (Rows 40..43, Cols 1..5): Dead-end 5x4 tall grass clearing bounded by western stone posts (col 0) and tree walls to north (row 38) and south (row 44). Exit is east to column 6.
-- Southern Return Corridor (Rows 42..43, Cols 7..15): Open clear grass path connecting the west-central corridor at (7, 42) directly to the southern entrance avenue at (15, 42..43), bypassing the central-south tree clump. Completely clear of tall grass.
-- Tree Obstacle (Cols 16..17, Rows 41..42): 2x2 tree blocking eastern passage along row 42; traversal east must divert south through row 44 in front of Youngster at (16, 43) to reach (18, 43).
-- Western Grass Pocket (Rows 30..31, Cols 1..5): Confirmed dead end. Bounded by western boundary posts at (0, 30..31), solid tree wall to the north (Rows 27..29, Cols 0..7), and solid tree wall to the south (Rows 32..35, Cols 1..5). No passage north along the western boundary.
-- Eastern Cross-Corridor (Rows 42..43, Cols 18..21+): Column 19 fence ends at row 39. Rows 42 and 43 form an open clear-ground path extending east past column 21 into the unexplored eastern half of Viridian Forest.
-- Signpost (24, 40): Located in tall grass north of row 42 cross-corridor.
-- NPC / Trainer (27, 40): Located in the eastern corridor south of row 39 trees, facing south.
-- Eastern Avenue Corridor (Cols 26..27, Rows 34..43): Verified 2-tile wide clear-ground highway running continuously north along the eastern edge, completely bypassing all tall grass.
-- Bug Catcher (30, 33): Trainer stationed at (30, 33) facing west, guarding row 33 passage across the eastern avenue.
-- Eastern Perimeter Corridor (Cols 31..32, Rows 4..33): Continuous 2-tile wide clear-ground highway running north along the eastern boundary fence (Col 33) from row 33 all the way to row 4, completely free of tall grass.
-- Bug Catcher (30, 19): Stationary trainer facing west across row 19. Column 31 provides a clear bypass behind his back.
-- Eastern Clearing (Row 18, Cols 27..32): 6-tile wide open clear-ground clearing connecting the eastern perimeter to westward passages.
-- Signpost (26, 17): Trainer Tips - "Contact PROF. OAK via PC to get your POKÃ©DEX evaluated!"
-- Northern Avenue (Cols 25..26, Rows 14..19): 2-tile wide clear-ground corridor running north between column 24 stone posts and row 14-17 trees.
-- West-Central Corridor (Cols 11..13, Rows 12..19): Northbound corridor bounded by column 9-10 stone posts on the west and column 14-15 trees on the east, connected to the north-central avenue via row 16-17 clear grass.
-- Northern Exit Gatehouse (Cols 1..3, Rows 0..2): Visually confirmed gatehouse building structure at the northwest corner of the map. Accessible via the column 2 avenue.
-- West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
-- Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
-- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 18..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 20..28). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 18..23 (tall grass corridor connecting to the western field). Connects to Northern Avenue at col 24.
-- Northern Tall Grass Field (Sector D, Rows 6..14, Cols 16..23): Contiguous tall grass zone comprising:
-  - Connecting East-West Corridor: Rows 8..9 across columns 18..23, connecting Northern Avenue (Col 24) through stone post gap at (19, 8..9) to the western field. Empirically traversed and verified.
-  - Western Field: Columns 16..18. Empirically traversed and sampled from row 6 to row 10 (wild Pikachu encountered at (16, 10) Turn 32076). Visually observed continuing south to row 14 (bounded by tree wall at cols 14..15 to west, stone posts at col 19 to east, and clear ground at rows 4..5 to north).
-- Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
-- West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
-- Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
-- Northern Gatehouse Interior (Audited Turn 25207): South entrance at cols 4..5, row 7 with red doormats (arriving from forest at (4, 7)). North exit doorway at (5, 0) leading to Route 2 North. NPC stationed at (2, 5).
-
-## Wild Pokï¿½mon & Encounters (Empirical Survey)
-- Total Trials Recorded: 17 trials across Sectors A, B, C, and D.
-- Species Identified & Levels:
-  - Caterpie: Common (Lv 3, 4, 5 observed; Sectors B, C).
-  - Metapod: Common (Lv 4, 5, 6 observed; Sectors A, B, C, D).
-  - Weedle: Uncommon (Lv 3 observed; Sector C).
-  - Kakuna: Uncommon (Lv 4 observed; Sectors A, C).
-  - Pikachu: Rare (Lv 3 encountered in Sector D at (16, 10) Turn 32076; captured with Ultra Ball Turn 32090, nicknamed SPARK).
-
-- Encounter 18 [Turn 42694]: Weedle Lv 3 (tall grass at (18, 37)) - CAUGHT (Ball 4, Nickname: NEEDLE). Breakout analysis: 3 consecutive full-HP breakouts after 3 shakes before capture.
-- Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED.
-- Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED.
-- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.
-## Wild PokÃ©mon & Encounters (Empirical Survey)
-- Survey Period: Turns 43900â43976 (Expedition 16, South-Central Grass Patch [18..23, 40..41])
-- Turn 43900: Wild CATERPIE Lv 5 encountered. Captured Turn 43914 after 3 PokÃ© Ball throws at full HP. Nicknamed SILK, recruited directly into Party Slot 4.
-- Turn 43931: Wild METAPOD Lv 5 encountered. Fled Turn 43953 after 4 PokÃ© Ball throws broke free at full HP (Metapod only used Harden).
-- Turn 43959: Wild CATERPIE Lv 5 encountered. Fled Turn 43961 on Turn 1 via RUN (Blastoise SHELDON Lv 78, Speed 188).
-- Turn 43964: Wild METAPOD Lv 5 encountered. Fled Turn 43966 on Turn 1 via RUN.
-- Turn 43968: Wild CATERPIE Lv 3 encountered. Fled Turn 43970 on Turn 1 via RUN.
-- Turn 43974: Wild METAPOD Lv 5 encountered. Fled Turn 43976 on Turn 1 via RUN.
-- Turn 43995: Wild CATERPIE encountered at (8, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
-- Turn 44005: Wild METAPOD encountered at (12, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
-- Turn 44020: Wild CATERPIE Lv 3 encountered at (8, 32). Fled Turn 44028 on Turn 1 via RUN (Blastoise SHELDON Lv 78).
-- Turn 44034: Wild PIKACHU Lv 3 encountered at (12, 32). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
-- Turn 44047: Wild METAPOD encountered at (8, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
-- Turn 44060: Wild CATERPIE encountered at (6, 31). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
-- Empirical Encounter Frequency (N=12): Caterpie: 6/12 (50.0%), Metapod: 5/12 (41.7%), Weedle: 0/12 (0%), Kakuna: 0/12 (0%), Pikachu: 1/12 (8.3%).
+# Viridian Forest Geography & Navigation
+
+
+
+## Connections
+
+- South: Southern gatehouse from Route 2; player enters at (17, 47).
+
+
+
+## Verified Geography & Landmarks
+
+- Southern Entry Corridor (Rows 44..47): Open path across columns 15..18, bounded by stone posts at columns 14 and 19.
+
+- Signpost (18, 45): Trainer Tips - "Weaken POKéMON before attempting capture! When healthy, they may escape!"
+
+- Resident/NPC (16, 43): Youngster warns "I came here with some friends! They're out for POKéMON fights!"
+
+- Main South-Central Avenue (Rows 36..40): 2-tile wide clear path along columns 16..17 flanked by tall grass (col 15 and 18) and stone posts (col 14 and 19). Completely avoids grass encounters.
+
+- Signpost (16, 32): Trainer Tips - "For poison, use ANTIDOTE! Get it at POKéMON MARTs!"
+
+- Western Maze Passage (Rows 32..33): Avenue terminates at row 31 tree wall; path branches west through tall grass opening at rows 32..33 into the western forest maze.
+
+- Ground Item (1, 31): POKé BALL collected [Turn 44066]. (Empty tall grass tile at (1, 31)).
+
+- Ground Item (12, 29): Visually confirmed item ball in an enclosed clearing north of row 30 trees. Traversal of northern corridors (columns 11-13, 16-18, 25-26) confirmed no northern breach into this clearing; it remains isolated from the main paths (likely requires Cut or alternative access).
+
+- Western Path Junction (Row 33, Col 7): Open grass path at (7, 33) connects the row 32..33 grass field to western and southern corridors.
+
+- West-Central Corridor (Rows 33..37, Cols 6..7): 2-tile wide clear path bypassing the central tree clump (cols 3..5, rows 33..36) to the east; turns west along row 37.
+
+- Southwest Grass Pocket (Rows 40..43, Cols 1..5): Dead-end 5x4 tall grass clearing bounded by western stone posts (col 0) and tree walls to north (row 38) and south (row 44). Exit is east to column 6.
+
+- Southern Return Corridor (Rows 42..43, Cols 7..15): Open clear grass path connecting the west-central corridor at (7, 42) directly to the southern entrance avenue at (15, 42..43), bypassing the central-south tree clump. Completely clear of tall grass.
+
+- Tree Obstacle (Cols 16..17, Rows 41..42): 2x2 tree blocking eastern passage along row 42; traversal east must divert south through row 44 in front of Youngster at (16, 43) to reach (18, 43).
+
+- Western Grass Pocket (Rows 30..31, Cols 1..5): Confirmed dead end. Bounded by western boundary posts at (0, 30..31), solid tree wall to the north (Rows 27..29, Cols 0..7), and solid tree wall to the south (Rows 32..35, Cols 1..5). No passage north along the western boundary.
+
+- Eastern Cross-Corridor (Rows 42..43, Cols 18..21+): Column 19 fence ends at row 39. Rows 42 and 43 form an open clear-ground path extending east past column 21 into the unexplored eastern half of Viridian Forest.
+
+- Signpost (24, 40): Located in tall grass north of row 42 cross-corridor.
+
+- NPC / Trainer (27, 40): Located in the eastern corridor south of row 39 trees, facing south.
+
+- Eastern Avenue Corridor (Cols 26..27, Rows 34..43): Verified 2-tile wide clear-ground highway running continuously north along the eastern edge, completely bypassing all tall grass.
+
+- Bug Catcher (30, 33): Trainer stationed at (30, 33) facing west, guarding row 33 passage across the eastern avenue.
+
+- Eastern Perimeter Corridor (Cols 31..32, Rows 4..33): Continuous 2-tile wide clear-ground highway running north along the eastern boundary fence (Col 33) from row 33 all the way to row 4, completely free of tall grass.
+
+- Bug Catcher (30, 19): Stationary trainer facing west across row 19. Column 31 provides a clear bypass behind his back.
+
+- Eastern Clearing (Row 18, Cols 27..32): 6-tile wide open clear-ground clearing connecting the eastern perimeter to westward passages.
+
+- Signpost (26, 17): Trainer Tips - "Contact PROF. OAK via PC to get your POKéDEX evaluated!"
+
+- Northern Avenue (Cols 25..26, Rows 14..19): 2-tile wide clear-ground corridor running north between column 24 stone posts and row 14-17 trees.
+
+- West-Central Corridor (Cols 11..13, Rows 12..19): Northbound corridor bounded by column 9-10 stone posts on the west and column 14-15 trees on the east, connected to the north-central avenue via row 16-17 clear grass.
+
+- Northern Exit Gatehouse (Cols 1..3, Rows 0..2): Visually confirmed gatehouse building structure at the northwest corner of the map. Accessible via the column 2 avenue.
+
+- West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
+
+- Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
+
+- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 18..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 20..28). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 18..23 (tall grass corridor connecting to the western field). Connects to Northern Avenue at col 24.
+
+- Northern Tall Grass Field (Sector D, Rows 6..14, Cols 16..23): Contiguous tall grass zone comprising:
+
+  - Connecting East-West Corridor: Rows 8..9 across columns 18..23, connecting Northern Avenue (Col 24) through stone post gap at (19, 8..9) to the western field. Empirically traversed and verified.
+
+  - Western Field: Columns 16..18. Empirically traversed and sampled from row 6 to row 10 (wild Pikachu encountered at (16, 10) Turn 32076). Visually observed continuing south to row 14 (bounded by tree wall at cols 14..15 to west, stone posts at col 19 to east, and clear ground at rows 4..5 to north).
+
+- Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
+
+- West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
+
+- Northern Exit Warp & Signpost (Cols 1..2, Rows 0..1): Signpost located at (2, 1) blocking col 2. Col 1 (rows 1..2) is an open clear-ground corridor bypassing the signpost. Stepping North from (1..2, 0) triggers the map transition into the Northern Gatehouse.
+
+- Northern Gatehouse Interior (Audited Turn 25207): South entrance at cols 4..5, row 7 with red doormats (arriving from forest at (4, 7)). North exit doorway at (5, 0) leading to Route 2 North. NPC stationed at (2, 5).
+
+
+
+## Wild Pokï¿½mon & Encounters (Empirical Survey)
+
+- Total Trials Recorded: 17 trials across Sectors A, B, C, and D.
+
+- Species Identified & Levels:
+
+  - Caterpie: Common (Lv 3, 4, 5 observed; Sectors B, C).
+
+  - Metapod: Common (Lv 4, 5, 6 observed; Sectors A, B, C, D).
+
+  - Weedle: Uncommon (Lv 3 observed; Sector C).
+
+  - Kakuna: Uncommon (Lv 4 observed; Sectors A, C).
+
+  - Pikachu: Rare (Lv 3 encountered in Sector D at (16, 10) Turn 32076; captured with Ultra Ball Turn 32090, nicknamed SPARK).
+
+
+
+- Encounter 18 [Turn 42694]: Weedle Lv 3 (tall grass at (18, 37)) - CAUGHT (Ball 4, Nickname: NEEDLE). Breakout analysis: 3 consecutive full-HP breakouts after 3 shakes before capture.
+
+- Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED.
+
+- Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED.
+
+- Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.
+
+## Wild Pokémon & Encounters (Empirical Survey)
+
+- Survey Period: Turns 43900â43976 (Expedition 16, South-Central Grass Patch [18..23, 40..41])
+
+- Turn 43900: Wild CATERPIE Lv 5 encountered. Captured Turn 43914 after 3 Poké Ball throws at full HP. Nicknamed SILK, recruited directly into Party Slot 4.
+
+- Turn 43931: Wild METAPOD Lv 5 encountered. Fled Turn 43953 after 4 Poké Ball throws broke free at full HP (Metapod only used Harden).
+
+- Turn 43959: Wild CATERPIE Lv 5 encountered. Fled Turn 43961 on Turn 1 via RUN (Blastoise SHELDON Lv 78, Speed 188).
+
+- Turn 43964: Wild METAPOD Lv 5 encountered. Fled Turn 43966 on Turn 1 via RUN.
+
+- Turn 43968: Wild CATERPIE Lv 3 encountered. Fled Turn 43970 on Turn 1 via RUN.
+
+- Turn 43974: Wild METAPOD Lv 5 encountered. Fled Turn 43976 on Turn 1 via RUN.
+
+- Turn 43995: Wild CATERPIE encountered at (8, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
+
+- Turn 44005: Wild METAPOD encountered at (12, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
+
+- Turn 44020: Wild CATERPIE Lv 3 encountered at (8, 32). Fled Turn 44028 on Turn 1 via RUN (Blastoise SHELDON Lv 78).
+
+- Turn 44034: Wild PIKACHU Lv 3 encountered at (12, 32). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
+
+- Turn 44047: Wild METAPOD encountered at (8, 33). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
+
+- Turn 44060: Wild CATERPIE encountered at (6, 31). Fled on Turn 1 via RUN (Blastoise SHELDON Lv 78).
+
+- Empirical Encounter Frequency (N=12): Caterpie: 6/12 (50.0%), Metapod: 5/12 (41.7%), Weedle: 0/12 (0%), Kakuna: 0/12 (0%), Pikachu: 1/12 (8.3%).
+
 
 
 <hr>
@@ -4492,7 +4563,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Entrance Cavern (Cols 20..25, Rows 12..17):
   - Row 15: Walkable across Columns 20 through 25 (empirically confirmed at (20, 15) Turns 38375, 38386). Bounded west by rock wall at Column 19.
   - Row 16: Open floor at (24, 16) and (25, 16). Collision verified stepping Left into (23, 16) from (24, 16) [Turn 38570].
-  - Row 17: Checkerboard exit warp threshold at (24..25, 17) leading outside to Cerulean City canal.
   - Row 12 Obstacle: Physical bump test confirmed (23, 12) is an impassable rock obstacle from (22, 12) [Turn 38356]. Open floor verified at (21..22, 12).
   - Row 13 Obstacle: Physical bump confirmed (24, 13) is a solid rock wall when walking Up from (24, 14) [Turn 44600]. Columns 21..23 on Row 13 are verified open floor.
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
@@ -5213,7 +5283,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Bag & PC currently contain 0 Moon Stones.
     - Historical Moon Stones consumed (2 total): Nidoqueen (#031) [Turn 31235] and Wigglytuff (#040) [Turn 43213].
     - Historical pickups audited: Rocket Hideout B2F Item Ball 1 at (1, 11) retrieved Turn 5721 (contained Moon Stone).
-    - Remaining candidate sites to audit for uncollected Moon Stones before Clefable quest: Mt. Moon 1F, Mt. Moon B2F, Silph Co. 5F, Pokémon Mansion B1F.
+    - Remaining candidate sites to audit for uncollected Moon Stones before Clefable quest (unverified hypotheses): Mt. Moon 1F, Mt. Moon B2F, Silph Co. 5F, Pokémon Mansion B1F.
 
 - [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
@@ -5247,15 +5317,15 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Evolution Mechanics & Evolutionary Stones (Generation 1 Retail)
 
 ## Evolutionary Stones & Commercial Availability
-- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 43046].
-- **Fire Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 33357].
-- **Water Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases) [Turn 34159].
-- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for Â¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
+- **Leaf Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 43046].
+- **Fire Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 33357].
+- **Water Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases) [Turn 34159].
+- **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
 - **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested. (Overworld pickup locations unverified in permanent records).
 
 ## Verified Empirical Stone Evolutions (Expedition Proof of Work)
 - **Eevee -> Jolteon (#135):** Thunder Stone applied Turn 31098 at Celadon Department Store 4F.
-- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon PokÃ©mon Center.
+- **Nidorina -> Nidoqueen (#031):** Moon Stone applied Turn 31235 at Celadon Pokémon Center.
 - **Pikachu -> Raichu (#026):** Thunder Stone applied Turn 32198 at Celadon Department Store 4F.
 - **Vulpix -> Ninetales (#038):** Fire Stone applied Turn 33357 at Celadon Department Store 4F.
 - **Poliwhirl -> Poliwrath (#062):** Water Stone applied Turn 34159 at Celadon Department Store 4F.
