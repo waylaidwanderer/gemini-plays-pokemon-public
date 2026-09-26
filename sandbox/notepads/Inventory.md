@@ -8,7 +8,7 @@
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 0 / 269 (Fainted Turn 46901)
   - Status: Fainted (FNT)
-  - - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
+  - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
   - Field Moves: Cut, Fly
@@ -19,8 +19,10 @@
   - HP: 44 / 125 (Damaged Turn 46914)
   - Status: Healthy
 - Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
+  - HP: 101 / 101
   - Status: Healthy
-- Slot 6: Empty
+- Slot 6: RHYDON (Nickname: TITAN) [Lv 52, Ground/Rock]
+  - Status: Healthy (Caught Turn 46916)
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46801)
 - Slot 1: POKé FLUTE
