@@ -131,7 +131,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 24, Normal]
   - Status: Healthy
-  - HP: ~59 / 59
+  - HP: 59 / 59
   - Stats: Attack 28, Defense 29, Speed 55, Special 26
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
