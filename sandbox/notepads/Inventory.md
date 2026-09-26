@@ -25,10 +25,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45191]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 240 / 274 [Verified Battle Screen Turn 45174]
+  - HP: 228 / 274 [Verified Battle Screen Turn 45209]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Battle Screen Turn 45174]
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Turn 45209]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
