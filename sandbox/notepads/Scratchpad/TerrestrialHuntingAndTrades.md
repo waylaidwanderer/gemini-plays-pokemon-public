@@ -20,8 +20,6 @@
 
   - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
 
-- Expected Dex Progression: 69 -> 71+ Caught!
-
 
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
@@ -37,6 +35,5 @@
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
 - Trainee Progress (FELIX Lv 15):
-  - Current EXP: 3,426
-  - Lv 16 threshold: 4,096 (670 EXP to Lv 16).
-  - Wild Golbat Lv 46 defeated; yielded 138 EXP.ALL share to Felix (leveled to 15).
+  - Current EXP: 3,574
+  - Lv 16 threshold: 4,096 (522 EXP to Lv 16).
