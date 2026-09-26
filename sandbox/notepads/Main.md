@@ -6,7 +6,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
+- Pokédex: 64 Caught [CATERPIE #010 caught Turn 43914] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 
@@ -104,4 +104,5 @@
 - [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
 - [x] Catch wild Jigglypuff (#039) on Route 3 [Turn 43207]
 - [x] Evolve Jigglypuff into Wigglytuff (#040) via Moon Stone [Turn 43213]
-- [x] Evolve Rattata into Raticate (#020) [Turn 43817]- [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
+- [x] Evolve Rattata into Raticate (#020) [Turn 43817]
+- [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
