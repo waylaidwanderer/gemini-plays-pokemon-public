@@ -99,7 +99,7 @@
 
 - Lass (30, 4): Stationed at (30, 4) facing South down column 30. Defeated.
 
-- Lass (16, 24..25): Defeated (Clefairy Lv 14). Line of sight triggered at (16, 25). Dialogue: "Wow! You're really good!". Prize: ¥210. Stationed near central junction passage.
+- Lass (16, 24..25): Defeated (Clefairy Lv 14). Stationed near central junction passage.
 
 
 
