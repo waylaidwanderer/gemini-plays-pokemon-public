@@ -148,7 +148,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
-  - Status: Healthy
+  - Status: Paralyzed
   - HP: 185 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
@@ -5221,7 +5221,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Recent Battles:
     - Battle 19 (Hypno Lv 46, Total EXP: 1,076) [Turn 45275-45281]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
     - Battle 20 (Venomoth Lv 49, Total EXP: 952) [Turn 45284-45295]: Felix 238 participant + 56 EXP.ALL = 294 EXP (~30.9%). Defeated by Omega's Psychic.
-    - Battle 21 (Magneton Lv 46) [Turn 45299-]: In progress (Felix switched to Omega Lv 77).
+    - Battle 21 (Magneton Lv 46) [Turn 45299-]: In progress (Felix switched to Omega Lv 77 - Omega paralyzed by Thunder Wave).
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
