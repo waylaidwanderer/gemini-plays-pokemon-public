@@ -22,8 +22,8 @@
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~842 EXP to reach Lv 20 (~6 wild battles at ~135 EXP/battle via EXP.ALL) [Dodrio defeated Turn 43761].
-- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 171/251 HP, healthy; 18 PP remaining]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Target: Rattata requires ~711 EXP to reach Lv 20 (~5 wild battles at ~135 EXP/battle via EXP.ALL) [Magneton defeated Turn 43767].
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 144/251 HP, healthy; 17 PP remaining]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
   When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or when all moves viable for current spawns are exhausted):
     1. If Rattata is within 10 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
