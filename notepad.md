@@ -1199,6 +1199,11 @@
   - Terminates south at row 33 against solid wooden bollards at (2..5, 33) [Confirmed Turn 28720]. Southern access to Saffron City requires entering the North Gatehouse via the column 9-10 chute at (10, 30).
 - Northward Passage (Col 15, Rows 6..24): A continuous 1-tile wide strip of tall grass along column 15 (bounded by western stone fence at col 14 and central avenue bollards at col 16) that allows walking north from Underground Path to Cerulean City, bypassing the one-way south-jumping ledges of the central avenue.
 
+## Observed Wild Pokémon (Tall Grass at Rows 4..5, 8..9, 12..13)
+| Species | Level Range | Encounter Tile(s) | Catch & Encounter History |
+| :--- | :--- | :--- | :--- |
+| Bellsprout | Lv 13–15 | (8..12, 4) | Observed Turns 44806, 44825; fled |
+| Pidgey | Lv 13–15 | (8..12, 4) | Observed Turns 44802, 44828, 44831; fled |
 
 <hr>
 
