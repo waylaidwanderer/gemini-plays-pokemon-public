@@ -60,7 +60,7 @@
 - Entrance Mat: (3..4, 7). Exits south to Pewter City at (13, 26).
 - Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North to heal party.
-- PC: Located at (10, 0) in the northeast alcove.
+- PC Terminal: Located at (13, 3) (monitor) and (13, 4) (keyboard/desk) in the northeast corner of the Pok�mon Center.
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Museum Perimeter, Ledges & Cuttable Tree
 - Row 7 Jump Ledge: Spans across columns 18..34 as a south-facing jump ledge. Tile (31, 7) is an open brown ramp/opening through the ledge [Empirically verified Turn 30733] allowing direct northbound access from row 8 lawn into the northern perimeter lawn (rows 2..4) without needing Cut.
