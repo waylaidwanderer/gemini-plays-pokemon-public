@@ -15,7 +15,10 @@
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 241 / 269
   - Status: Healthy
-- Slots 4-6: Empty
+- Slot 4: DODRIO [Lv 49, Normal/Flying]
+  - HP: 135 / 135
+  - Status: Healthy
+- Slots 5-6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46712)
 - Slot 1: POKé FLUTE
