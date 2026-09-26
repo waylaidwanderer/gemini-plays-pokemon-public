@@ -25,11 +25,11 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 15, Grass/Poison]
   - Status: Healthy
-  - HP: 38 / 38 [Verified Screen Turn 44395]
-  - Stats: Attack 29, Defense 17, Speed 17, Special 26 [Verified Screen Turn 44412]
+  - HP: Pending inspection at Lv 15 (Lv 14 was 38/38)
+  - Stats: Attack 31, Defense 18, Speed 18, Special 28 [Verified Level Up Box Turn 44453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP 35/35) [Learned Turn 44453]
-  - EXP: 2,177 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,281 EXP) [4 battles won]
+  - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Learned Turn 44453]
+  - EXP: 2,177 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,281 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
