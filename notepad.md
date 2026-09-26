@@ -187,9 +187,9 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 3 (Contains 2 Pokémon: SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
-- Box 1: Empty (verified Turn 43840)
-- Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 43833)
+- Active Box: BOX 1 [Verified Turn 44281]
+- Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
+- Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Boxes 4–12: Uninspected storage
 
 
@@ -5191,9 +5191,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - SILK: Caterpie (#010) -> Metapod (#011) [Turn 44167] -> Butterfree (#012) [Turn 44231]
   - NEEDLE: Kakuna (#014) -> Beedrill (#015) [Turn 44247]
   - Both 3-stage bug lines fully complete!
-- Active Party Trainees:
-  - SILK: Lv 10 BUTTERFREE (OWNED - Evolved Turn 44231!)
-  - NEEDLE: Lv 10 BEEDRILL (OWNED - Evolved Turn 44247!)
+- Active Party Trainees: None (SILK and NEEDLE deposited into Box 3 Turn 44269)
+  - Active Party (3/6): Sheldon Lv 79, Dux Lv 37, Omega Lv 76 (3 slots open for next trainees)
 - In-Game Pokédex Audit Status:
   - #010 CATERPIE: OWNED
   - #011 METAPOD: OWNED (Evolved Turn 44167)
