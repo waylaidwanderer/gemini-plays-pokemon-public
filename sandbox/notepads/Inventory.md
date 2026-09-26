@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 46600)
+## Party Pokémon (6 / 6 - Audited Turn 46614)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 253 / 254
   - Status: Healthy
@@ -19,7 +19,8 @@
   - Status: Healthy
 - Slot 5: GOLBAT (Nickname: FANGS) [Lv 46, Poison/Flying]
   - Status: Healthy
-- Slot 6: Empty
+- Slot 6: MAGNETON (Nickname: TESLA) [Lv 46, Electric]
+  - Status: Healthy
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
 - Slot 1: POKé FLUTE
