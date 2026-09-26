@@ -24,7 +24,7 @@
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata reached Lv 20 (8,000+ EXP)! Evolution into Raticate (#020) in progress [Turn 43816].
-- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 31/251 HP; 10 PP remaining: Double-Edge 9, Body Slam 0, Surf 1, Ice Beam 0]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 251/251 HP, fully healed; 55 total PP]. Mewtwo (OMEGA Lv 76, Slot 3) in reserve with 269/269 HP and full PP.
 - HP & Recoil Safety Protocol:
   Double-Edge deals ~27-34 HP recoil. Since Sheldon is at 31 HP, Double-Edge is STRICTLY PROHIBITED until healed.
   Next battles MUST use SURF (Slot 3, 3 PP, 0 recoil, 1HKO). If Surf PP drops to 0 or Sheldon takes damage < 25 HP, use MAX ELIXER x1 (Bag Slot 5) or switch to Mewtwo.

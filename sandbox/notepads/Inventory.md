@@ -9,10 +9,10 @@
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
-  - HP: 31 / 251 [Verified Turn 43798]
+  - HP: 251 / 251 [Healed Turn 43825]
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 0/15) [Expended Turn 43799], Surf (PP 1/15) [Turn 43812], Ice Beam (PP 0/10) [Verified Turn 43729]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Healed Turn 43825]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 94 / 94 [Verified Party Screen Turn 43820]
@@ -21,10 +21,10 @@
   - Moves: Cut, Fly, Slash, Sand-Attack
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - Status: Healthy
-  - HP: 136 / 269 [Verified Battle Screen Turn 43472]
+  - HP: 269 / 269 [Healed Turn 43825]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: RATICATE (Nickname: RATTY) [Lv 20, Normal]
   - Status: Healthy
   - HP: 55 / 55 [Verified Party Screen Turn 43820]
