@@ -36,7 +36,7 @@
 - Total Attack PP Pool: 78+ damaging moves before center replenishment.
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
-- Trainee Progress (FELIX Lv 14):
-  - Current EXP: 3,288
-  - Lv 15 threshold: 3,375 (87 EXP to Lv 15).
-  - Wild Venomoth Lv 49 defeated; yielded 119 EXP.ALL share to Felix.
+- Trainee Progress (FELIX Lv 15):
+  - Current EXP: 3,426
+  - Lv 16 threshold: 4,096 (670 EXP to Lv 16).
+  - Wild Golbat Lv 46 defeated; yielded 138 EXP.ALL share to Felix (leveled to 15).
