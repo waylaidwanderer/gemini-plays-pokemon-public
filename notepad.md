@@ -1140,14 +1140,14 @@
 - Shrub at (26, 3): Small shrub (possible Cut tree, unverified collision/interaction) blocking direct access from (26, 4) into northern corridor (cols 22..26, row 2).
 - Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
 - Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".
-- Trainer 8 at (32, 3): Youngster stationed at (32, 3) facing West. Defeated Turn 2516. Team: Ekans Lv 14, Sandshrew Lv 14. Prize: ¥210. Defeat Quote: "YOUNGSTER: I knew I'd lose too!".
+- Trainer 8 at (32, 3): Youngster stationed at (32, 3) facing West. Defeated Turn 2516. Team: Ekans Lv 14, Sandshrew Lv 14. Prize: ¥210.
 - Corridor Layout (Cols 28..32, Rows 2..6):
   - Row 2: Open grass cols 28..32. Blocked to west by tree at (27, 2).
   - Row 3: Open grass cols 28..31. Youngster at (32, 3) facing West.
   - Row 4-5: Trees at (31, 4..5) and (28..29, 7..9). Open grass at cols 28..30 (rows 4..5).
   - Row 6: Open grass corridor cols 27..32+ passing south of trees at (31, 4..5).
 
-- Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
+- Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195.
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
 ## Observed Wild Pokémon (Tall Grass at Cols 2..7, Rows 4..5)
 | Species | Level Range | Encounter Tile(s) | Catch & Encounter History |
@@ -5209,6 +5209,21 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Capture wild Meowth on Route 5 (south of Cerulean City).
   - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
 - Expected Dex Progression: 66 -> 71+ Caught!
+## Operational Combat Resource Budget & Sweeper Rotation Plan
+- Target: SPROUT needs 3,741 more EXP to reach Lv 21 (~28 battles at ~135 EXP/battle).
+- Phase 1 Lead (Sheldon Lv 79):
+  - Current Offensive PP: Surf (6/15), Ice Beam (3/10) [9 non-recoil special sweeps], Body Slam (15/15).
+  - Target Usage: Surf vs Ground/Rock/Electric (Sandslash, Magneton); Ice Beam vs Flying (Golbat, Dodrio).
+  - Avoid: Double-Edge (conserves Sheldon's 217/254 HP from recoil).
+- Phase 2 Lead Rotation (Mewtwo OMEGA Lv 76):
+  - Trigger: When Sheldon's Surf and Ice Beam reach 0 PP (or if Sheldon HP drops below 100).
+  - Action: In overworld, open START -> POK�MON -> switch OMEGA (Slot 3) into Slot 1.
+  - Mewtwo Offensive Pool: Psychic (PP 10/10, STAB 90 power off 270 Special - OHKOs all cave encounters except Hypno), Swift (PP 20/20, never misses), Recover (PP 20/20 for sustain).
+  - Yields identical EXP.ALL distribution (invariant to sweeper identity, verified Turn 43499).
+- Sustained / Emergency Contingency:
+  - MAX ELIXER x1 in Bag Slot 5 available if needed.
+  - Alternatively, Cerulean City Pok�mon Center is accessible via HM02 Fly or canal exit.
+
 
 <hr>
 
