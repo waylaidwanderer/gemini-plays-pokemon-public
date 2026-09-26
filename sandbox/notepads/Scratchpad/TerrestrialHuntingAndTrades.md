@@ -22,9 +22,9 @@
       - Paras: 1 (Lv 10)
       - Clefairy: 0 (0.0% observed)
     - Total Sample Size: 42 encounters across Mt. Moon (0 Clefairy observed).
-  - Empirical Stopping Criterion & Contingency Audit:
-    - Operational Time-Box (N=40): The N=40 sample threshold on Mt. Moon 1F is strictly an operational stopping time-box to bound search investment against alternative acquisition routes, NOT a proof of Clefairy's absence (statistical confidence against a hypothetical 1% encounter rate is only ~33% at N=40).
-    - Pivot Decision & Celadon Prize Exchange: Given that 80 consecutive steps on 1F yielded zero encounters and 38 total Mt. Moon encounters yielded 0 Clefairy, continuing to grind 15 more encounters costs ~300+ steps (~25 turns) with <35% odds of success. The Celadon Prize Exchange offers a 100% deterministic Clefairy acquisition.
+  - Empirical Stopping Criterion & Pivot Execution:
+    - Hunt Termination: Wild Clefairy search terminated after 42 total Mt. Moon encounters (29 on 1F, 2 on B1F, 11 on B2F) yielded 0 Clefairy sightings.
+    - Pivot Decision: Transitioned to 100% deterministic acquisition at Celadon Prize Exchange. Exiting Mt. Moon south to Route 4 to fly to Celadon City.
     - Celadon Prize Exchange Execution Plan:
       1. Exit Mt. Moon south to Route 4 (27 steps south).
       2. Fly to Celadon City via DUX.

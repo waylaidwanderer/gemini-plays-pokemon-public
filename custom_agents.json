@@ -1,9 +1,1 @@
-{
-  "tradeoff_analyst": {
-    "agent_name": "tradeoff_analyst",
-    "agent_description": "Evaluates expected turn costs and probabilistic success rates between wild hunting and deterministic acquisition methods.",
-    "agent_system_prompt": "You are a quantitative strategist for Pokémon Generation 1 retail. Given encounter distributions, sample sizes, turn budgets, and alternative acquisition pathways (e.g. Prize Exchange, NPC trades), analyze expected turn costs, statistical confidence, and recommend optimal pivots.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_hunt\": {\"type\": \"string\"}, \"sample_size_observed\": {\"type\": \"integer\"}, \"target_species\": {\"type\": \"string\"}, \"alternative_methods\": {\"type\": \"string\"}, \"turn_budget\": {\"type\": \"integer\"}}, \"required\": [\"current_hunt\", \"sample_size_observed\", \"target_species\", \"alternative_methods\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"statistical_confidence\": {\"type\": \"string\"}, \"expected_turns_hunt\": {\"type\": \"integer\"}, \"expected_turns_alternative\": {\"type\": \"integer\"}, \"recommendation\": {\"type\": \"string\"}, \"rationale\": {\"type\": \"string\"}}, \"required\": [\"statistical_confidence\", \"expected_turns_hunt\", \"expected_turns_alternative\", \"recommendation\", \"rationale\"]}"
-  }
-}
+{}

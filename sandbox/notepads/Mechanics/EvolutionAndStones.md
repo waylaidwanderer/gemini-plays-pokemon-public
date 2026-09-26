@@ -15,7 +15,7 @@
   - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
 
   - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
-    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge (non-essential: Moon Stone quota secured).
+    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
 
   - Cleared/Negative Locations:
 
