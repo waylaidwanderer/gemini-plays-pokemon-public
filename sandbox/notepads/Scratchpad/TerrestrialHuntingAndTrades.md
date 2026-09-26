@@ -24,6 +24,7 @@
       - Encounter 25 (Turn 46212): Wild Zubat Lv 9 (fled)
       - Encounter 26 (Turn 46215): Wild Zubat Lv 9 (fled)
       - Encounter 27 (Turn 46218): Wild Zubat Lv 11 (fled)
+      - Encounter 28 (Turn 46225): Wild Zubat Lv 6 (fled)
     - Mt. Moon B1F:
       - Encounter 3 (Turn 46036): Wild Zubat Lv 9 (fled)
       - Encounter 15 (Turn 46156): Wild Zubat Lv 7 (fled)
