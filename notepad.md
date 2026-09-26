@@ -815,8 +815,6 @@
 
 # Mt. Moon 1F Geography & Exploration
 
-
-
 ## Connections
 
 - South Exit: Warp at (14, 35) leading outside to Route 4.
@@ -826,48 +824,26 @@
 - Ladder (17, 11): Cavern ladder in north-central alcove descending directly to Mt. Moon B2F Entrance Plateau at Ladder (25, 9) [Empirically verified Turn 45990].
 - Ladder (5, 5): Descending ladder in northwest corner leading to B1F Northwest corridor at (5, 5) [Empirically verified Turn 46033].
 
-
-
 ## Layout & Corridors
-
-
 
 - Entrance Corridor (Cols 14..15, Rows 31..35): 2-tile wide north-south cave passage bounded by rock walls at cols 10..13 (west) and cols 16..19 (east).
 
-
-
 - Main Cavern Junction (Rows 27..29, Cols 10..15): Entrance corridor opens into a wide open cavern extending west toward columns 0..9 and north toward row 20+.
-
-
 
 - Signpost (15, 23): Reads "Beware! ZUBAT is a blood sucker!".
 
-
-
 - Bug Catcher (16, 23): Stationed at (16, 23) facing South down column 16.
-
-
 
 - Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction.
 
-
-
 - Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher at (7, 23). Bounded on north by solid rock wall at rows 18-19.
-
-
 
 - Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
 
-
-
 - Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11).
-
-
 
 - Ground Item (2, 2): MOON STONE collected [Turn 46009].
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
-
-
 
 - Ground Item (2, 20): POTION collected.
 
@@ -875,66 +851,35 @@
 
 - Southeast Pocket (Cols 30..37, Rows 28..34): Open cavern ending at eastern rock wall at col 38.
 
-
-
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east-west south of the Northern Boundary Wall, passing behind Bug Catcher (16, 23) and connecting Eastern Avenue (col 21) west into Western Cavern Corridor.
-
-
 
 - Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
 
-
-
 - Central Rock Pillar (Cols 18..19, Rows 8..11): Rock wall at columns 18..19, rows 8..11 blocking westward movement along row 11.
-
-
 
 - Eastern Avenue (Cols 24..27, Rows 11..27): Wide 4-tile north-south thoroughfare connecting southern bypass (rows 26..27) directly north to row 11 corridor.
 
-
-
 - Northern Highway (Rows 6..7, Cols 16..25+): Wide open east-west corridor running along the northern section of 1F.
-
-
 
 - Rock Wall Partition (Rows 8..9, Cols 18..29): Horizontal rock divider between northern highway and row 10.
 
-
-
 - Eastern North-South Passage (Col 30, Rows 6..14): Open floor passage east of rock partition connecting row 10 directly north into Northern Highway.
-
-
 
 - North-Central Alcove (Cols 16..17, Rows 8..17): North-south pocket descending from Northern Highway (rows 6-7) south to Ladder (17, 11).
 
-
-
 - East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
-
-
 
 - Lass (30, 4): Stationed at (30, 4) facing South down column 30. Defeated.
 
 - Lass (16, 24..25): Defeated (Clefairy Lv 14). Stationed near central junction passage.
 
-
-
 - Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
-
-
-
-
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
 
-
-
 - Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated. Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
 
-
-
 - Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Defeated.
-
 
 - Central Rock Wall & Southern Bypass Verification (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
 
@@ -1010,7 +955,6 @@
 - Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. 
 
 ### Main Cavern (Reached via Ladder 21, 17)
-- Ladder (21, 17): Ascending ladder leading back to B1F Northwest corridor at (21, 17).
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
@@ -5311,8 +5255,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Clefairy: 0 (0.0% observed)
     - Total Sample Size: 38 encounters across Mt. Moon (0 Clefairy observed).
   - Empirical Stopping Criterion & Contingency Audit:
-    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (15 remaining from Turn 46284).
-    - Pivot Rule & Fallback Prerequisites: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and exit Mt. Moon.
+    - Operational Time-Box (N=40): The N=40 sample threshold on Mt. Moon 1F is strictly an operational stopping time-box to bound search investment against alternative acquisition routes, NOT a proof of Clefairy's absence (statistical confidence against a hypothetical 1% encounter rate is only ~33% at N=40).
+    - Pivot Decision & Celadon Prize Exchange: Given that 80 consecutive steps on 1F yielded zero encounters and 38 total Mt. Moon encounters yielded 0 Clefairy, continuing to grind 15 more encounters costs ~300+ steps (~25 turns) with <35% odds of success. The Celadon Prize Exchange offers a 100% deterministic Clefairy acquisition.
+    - Celadon Prize Exchange Execution Plan:
+      1. Exit Mt. Moon south to Route 4 (27 steps south).
+      2. Fly to Celadon City via DUX.
+      3. Access Pokémon Center PC -> Withdraw COIN CASE (Slot 10 in BLUE's PC).
+      4. Inspect Celadon Prize Exchange: audit Clefairy coin cost.
+      5. Fund coin purchase: Wallet ¥5,905 + sell 50 Poké Balls (¥5,000) = ¥10,905 (buys 500 coins). If cost is 500 coins, purchase immediately. If 750 coins, check hidden coins in Game Corner or sweep Elite Four with Omega/Sheldon.
     - Celadon Game Corner Prerequisites (Audit Turn 46261):
       1. COIN CASE is currently stored in BLUE's PC (Slot 10) -> Must fly to Pok�mon Center and withdraw Coin Case before visiting Game Corner.
       2. Wallet: �5,905 (purchases max 250 coins at �1,000/50 coins). Clefairy prize cost in retail Blue must be audited in-game at the Prize Exchange. If coin cost exceeds 250, player must raise funds (e.g. selling inventory items) or play slot machines.
@@ -5338,8 +5288,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
 
   - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
-
-    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
+    - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge (non-essential: Moon Stone quota secured).
 
   - Cleared/Negative Locations:
 
