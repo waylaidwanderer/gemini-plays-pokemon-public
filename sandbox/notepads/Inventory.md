@@ -24,8 +24,18 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
-## Bag Items (Pending Baseline Audit after Turn 46527 Save Reload)
-- Note: Pre-reset glitch state cleared by soft reset. In-game Bag menu audit in progress.
+## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
+- Slot 1: POKé FLUTE
+- Slot 2: SUPER ROD
+- Slot 3: BICYCLE
+- Slot 4: PP UP x1
+- Slot 5: MAX ELIXER x1
+- Slot 6: HM02 (FLY)
+- Slot 7: TM35 x1
+- Slot 8: EXP.ALL x1
+- Slot 9: LEAF STONE x2
+- Slot 10: POKé BALL x78
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Zero glitch items; 78 Poké Balls ready for Cerulean Cave.
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
