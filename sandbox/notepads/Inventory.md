@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6)
+## Party Pokémon (3 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 274 / 274 [Verified Healed Turn 44773]
@@ -23,19 +23,11 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: VICTREEBEL (Nickname: SPROUT) [Lv 21, Grass/Poison]
-  - Status: Healthy
-  - HP: 66 / 66 [Verified Screen Turn 44761]
-  - Stats: Attack 56, Defense 37, Speed 36, Special 50 [Verified STATS Screen Turn 44762]
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Stun Spore (PP 30/30), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP 35/35)
-  - EXP: 6,520
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
-- Slot 4: VICTREEBEL (Nickname: SPROUT) [Lv 21, Grass/Poison]
 - Slot 5: MAX ELIXER x1
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
@@ -73,7 +65,7 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Verified Empty Turn 44295]
+- Active Box: BOX 6 [Contains 1 Pokémon: SPROUT Lv 21 Victreebel - deposited Turn 44782]
 - Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
