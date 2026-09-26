@@ -129,12 +129,12 @@
 - IDNo: 04620
 
 ## Party Pokémon (4 / 6)
-- Slot 1: MEOWTH (Nickname: FELIX) [Lv 16, Normal]
+- Slot 1: MEOWTH (Nickname: FELIX) [Lv 17, Normal]
   - Status: Healthy
-  - HP: 42 / 42 [Verified Battle Screen Turn 45059]
-  - Stats: Attack 20, Defense 20, Speed 37, Special 18 [Verified Level Up Box Turn 45054]
+  - HP: 44 / 44 [Lv 17 Gained Turn 45091]
+  - Stats: Attack 21, Defense 21, Speed 40, Special 19 [Verified Level Up Box Turn 45091]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day [Verified Turn 45091]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
@@ -149,10 +149,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 207 / 274 [Verified Battle Screen Turn 45067]
+  - HP: 199 / 274 [Verified Battle Screen Turn 45090]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 17/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5222,7 +5222,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Battle 2 (Golbat Lv 46, Total EXP: 1,104) [Turn 45054-45055]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
     - Battle 3 (Golbat Lv 46, Total EXP: 1,104) [Turn 45070-45071]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
     - Battle 4 (Golbat Lv 46, Total EXP: 1,104) [Turn 45078-45079]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%).
-    - Empirical Yield Note: Across Battle 1 (Raichu Lv 53, 280 EXP) and Battle 2 (Golbat Lv 46, 341 EXP), Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus an EXP.ALL share (truncated via Gen 1 integer division routine to 53 EXP for Raichu and 65 EXP for Golbat), totaling ~30.9% of total battle EXP (2.48x faster than passive grinding!).
+    - Battle 5 (Kadabra Lv 49, Total EXP: 1,008) [Turn 45090-45092]: Felix 252 participant + 63 EXP.ALL = 315 EXP (~31.25%). Leveled to Lv 17!
+    - Empirical Yield Note: Across Battles 1-5, Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus an EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive grinding!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -5232,10 +5233,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Full Movepool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, swap Felix to Slot 1, return to cave.
-- Trainee Progress (FELIX Lv 16):
-  - Current EXP: 4,877
-  - Lv 17 threshold: 4,913 (36 EXP to Lv 17).
-  - Battle 4 (Golbat Lv 46) yielded 341 EXP to Felix (276 participant + 65 EXP.ALL).
+- Trainee Progress (FELIX Lv 17):
+  - Current EXP: 5,192
+  - Lv 18 threshold: 5,832 (640 EXP to Lv 18).
+  - Battle 5 (Kadabra Lv 49) yielded 315 EXP to Felix (252 participant + 63 EXP.ALL). Stats: Atk 21, Def 21, Spe 40, Spc 19.
 
 
 <hr>
