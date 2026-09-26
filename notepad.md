@@ -5251,7 +5251,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
   - Action: Visit Celadon Department Store 2F -> Buy 25 Poké Balls (¥5,000).
-  - Travel: Fly to Cerulean City via DUX -> Surf canal -> Enter Cerulean Cave 1F -> Encounter and capture targets with Sheldon / Omega.
+  - Travel: Outside Cerulean Pokémon Center -> Mount Bicycle -> Ride to Route 24 (8, 15) -> Surf canal -> Enter Cerulean Cave 1F -> Encounter and capture targets with Sheldon / Omega.
 
 <hr>
 
