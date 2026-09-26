@@ -25,7 +25,7 @@
     - Battle 23 (Magneton Lv 46, Total EXP: 1,050) [Turn 45404-45411]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic.
 
 - Healing / Center Protocol:
-  - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore Psychic (8/10) and Swift (20/20) and cure Omega's PAR, verify party health via UI, return to cave.
+  - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore PP and cure status conditions, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 22):
   - Verified Stats: HP 55/55, Attack 26, Defense 27, Speed 50, Special 24 (audited Turn 45399).
   - EXP Tracking: Current EXP: 11,133 / 12,167 EXP. Level Up: 1,034 EXP to Lv 23 (after Battle 23).
