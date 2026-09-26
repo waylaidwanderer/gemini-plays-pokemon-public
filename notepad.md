@@ -130,7 +130,7 @@
 ## Party Pokémon (3 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 274 / 274 [Verified Healed Turn 44773]
+  - HP: 269 / 274 [Verified Battle Screen Turn 44847]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
@@ -346,7 +346,8 @@
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
-  Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
+  - Meowth Lv 12 (Turn 44842-44849): broke free after 3 shakes on Balls 1 and 2; captured on Ball 3.
+  Across these N=5 encounters and 15 total ball throws, 11 out of 15 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~27% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
 
 
 <hr>
@@ -1148,7 +1149,7 @@
 ## Observed Wild Pokémon (Tall Grass at Cols 2..7, Rows 4..5)
 | Species | Level Range | Encounter Tile(s) | Catch & Encounter History |
 | :--- | :--- | :--- | :--- |
-| Bellsprout | Lv 12–14 | (6, 4), (7, 5) | Caught SPROUT Lv 14 [Turn 44368] (Party Slot 4); SPROUT Lv 12 [Turn 42581] |
+| Bellsprout | Lv 12–14 | (6, 4), (7, 5) | Caught SPROUT Lv 14 [Turn 44368]; SPROUT Lv 12 [Turn 42581] |
 | Pidgey | Lv 13 | (2..7, 4..5) | Caught BIRDIE Lv 13 [Turn 42475]; fled Turns 42496, 44359 |
 | Kakuna | Lv 7 | (7, 4) | Caught COCOON Lv 7 [Turn 42517] |
 | Abra | Lv 12 | (2..7, 4..5) | High flee rate (Teleport); observed Turns 42501, 42543, 42559, 42574, 44341 |
@@ -5216,11 +5217,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Overworld pickup locations (Mechanics/EvolutionAndStones): Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. With only 2 used of 5 potential pickups, up to 3 Moon Stones remain uncollected in those dungeons for Clefable (#036).
 
-- Target 3: Meowth (#052) -> Persian (#053)
+- [x] Target 3: Meowth (#052) -> Persian (#053) [Caught FELIX Lv 12 Turn 44849 - 69 Caught!]
 
-  - Capture wild Meowth on Route 5 (south of Cerulean City).
+  - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
-  - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
+  - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
 
 - Expected Dex Progression: 66 -> 71+ Caught!
 
