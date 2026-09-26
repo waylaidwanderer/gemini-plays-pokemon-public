@@ -31,8 +31,8 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x74
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597].
+- Slot 10: POKé BALL x73
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597], 3 Poké Balls used on Magneton [Turns 46606-46610].
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
