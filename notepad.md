@@ -5199,9 +5199,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Conclusion & Roadmap:
   - Weedle (#013) is 100% confirmed OWNED in active save file!
   - No wild Weedle capture is needed.
-  - Active party has both required trainees: SILK (Slot 4) and NEEDLE (Slot 5).
-  - Currently entering Cerulean Cave 1F for EXP.ALL power-leveling!
-
+  - Active party: SILK Lv 6 (needs 127 EXP to Lv 7 Metapod) and NEEDLE Lv 5 (needs 61 EXP to Lv 6).
+  - Currently patrolling Cerulean Cave 1F for encounters to trigger evolutions!
 
 <hr>
 
