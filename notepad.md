@@ -146,7 +146,7 @@
   - HP: 219 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 8/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 183 / 274
@@ -288,7 +288,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-45 in Cerulean Cave (Turns 45041-45779). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-46 in Cerulean Cave (Turns 45041-45788). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Empirical Switch-Training EXP.ALL Yields (N=4 Party: Trainee Felix Lead, Native Sweeper Sheldon/Omega, DUX Traded Inactive, Inactive Sweeper):**
@@ -299,7 +299,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sandslash | 52 | 1,188 | 297 EXP | 74 EXP | 371 EXP (31.2%) | Verified Battles 35-37 |
 | Golbat | 46 | 1,104 | 276 EXP | 65 EXP | 341 EXP (30.9%) | Verified Battle 45 (Turn 45779) |
-| Dodrio | 49 | 1,106 | 276 EXP | 66 EXP | 342 EXP (30.9%) | Verified Battles 28, 32 |
+| Dodrio | 49 | 1,106 | 273 EXP | 63 EXP | 336 EXP (30.4%) | Verified Battle 46 (Turn 45788) |
 | Hypno | 46 | 1,076 | 269 EXP | 65 EXP | 334 EXP (31.0%) | Verified Battle 43 (Turn 45753) |
 | Magneton | 46 | 1,050 | 262 EXP | 65 EXP | 327 EXP (31.1%) | Verified Battles 42, 44 (Turn 45769) |
 | Kadabra | 49 | 1,008 | 252 EXP | 63 EXP | 315 EXP (31.3%) | Verified Battles 13, 39 |
@@ -5312,13 +5312,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Omega: Healthy (HP 183/274). Preferred sweeper against Poison, Bug, Fighting, and Electric targets (Venomoth, Golbat, Magneton, Raichu). STAB Psychic guarantees OHKO.
     - Sheldon: Healthy (HP 226/258). Preferred sweeper against Water/Ice-weak targets (Sandslash, Dodrio) and Psychic targets (Hypno, Kadabra) to conserve Omega's Psychic PP and exploit Hypno's lower physical Defense.
   - Recent Battles (Rolling 2-Battle Window):
-    - Battle 44 (Magneton Lv 46, Total EXP: 1,050) [Turn 45759-45769]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's STAB Psychic. Omega HP: 183/274.
     - Battle 45 (Golbat Lv 46, Total EXP: 1,104) [Turn 45773-45779]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's STAB Psychic. Omega HP: 183/274.
+    - Battle 46 (Dodrio Lv 49, Total EXP: 1,106) [Turn 45782-45788]: Felix 273 participant + 63 EXP.ALL = 336 EXP (~30.4%). Defeated by Sheldon's super-effective Ice Beam. Sheldon HP: 219/258.
 
 - Trainee Progress (FELIX Lv 26):
   - Verified Stats: Attack 31, Defense 31, Speed 59, Special 28 (audited Lv 26 screen Turn 45752).
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20).
-  - EXP Tracking: Current EXP: ~18,417 / 19,683 EXP. Level Up: ~1,266 EXP to Lv 27 (after Battle 45). Target: Persian (#053) at Level 28 (21,952 EXP, 2 levels to Lv 28).
+  - EXP Tracking: Current EXP: ~18,753 / 19,683 EXP. Level Up: ~930 EXP to Lv 27 (after Battle 46). Target: Persian (#053) at Level 28 (21,952 EXP, 2 levels to Lv 28).
 
 
 <hr>
