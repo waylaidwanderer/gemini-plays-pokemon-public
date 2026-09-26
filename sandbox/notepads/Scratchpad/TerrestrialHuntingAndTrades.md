@@ -18,7 +18,7 @@
   - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
 - Expected Dex Progression: 66 -> 71+ Caught!
 ## Operational Combat Resource Budget & Sweeper Rotation Plan
-- Strategic Objective: Train SPROUT from Lv 17 to Lv 21 (Target: 6,458 EXP; ~24 battles remaining via EXP.ALL).
+- Strategic Objective: Train SPROUT from Lv 17 to Lv 21 (Current EXP: 3,922 / 6,458; Needed: 2,536 EXP; ~19 battles remaining via EXP.ALL).
 - Sweeper Roles & Dynamic Thresholds:
   - Lead Sweeper (Sheldon Lv 79):
     - Primary Attack Pool: Surf (Water STAB vs Ground/Rock/Electric), Ice Beam (Ice vs Flying/Bug).
@@ -27,4 +27,4 @@
   - Secondary Sweeper (Mewtwo OMEGA Lv 76):
     - Full Offensive/Sustain Pool: Psychic (STAB 90 power, 270 Special), Swift (never misses), Recover (sustain).
     - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
-- Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
+- Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
