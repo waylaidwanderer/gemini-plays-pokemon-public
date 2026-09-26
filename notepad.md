@@ -106,6 +106,7 @@
 - [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
 - [x] Catch wild Jigglypuff (#039) on Route 3 [Turn 43207]
 - [x] Evolve Jigglypuff into Wigglytuff (#040) via Moon Stone [Turn 43213]
+- [x] Evolve Rattata into Raticate (#020) [Turn 43817]
 
 <hr>
 
@@ -5181,6 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
+  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817]
 
 ## Stone Evolution Strategy & Movepool Hypotheses [Unverified]
 - Unverified Evolutionary Stone Targets (Awaiting Empirical Testing):
