@@ -142,15 +142,15 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: METAPOD (Nickname: SILK) [Lv 9, Bug]
   - Status: Healthy
-  - Stats: Attack 10, Defense 16, Speed 11, Special 11 [Verified Screen Turn 44201]
+  - Stats: Attack 10, Defense 16, Speed 11, Special 11
   - OT: BLUE (IDNo. 04620)
-  - EXP: 822 (178 to Lv 10 Butterfree) [Verified Turn 44210]
-  - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44171]
+  - EXP: 911 (89 to Lv 10 Butterfree)
+  - Moves: Tackle (PP 35/35), String Shot (PP 40/40)
 - Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 9, Bug/Poison]
-  - Status: Healthy (leveled Turn 44210)
-  - Stats: Attack 10, Defense 14, Speed 11, Special 9 [Verified Screen Turn 44210]
+  - Status: Healthy
+  - Stats: Attack 10, Defense 14, Speed 11, Special 9
   - OT: BLUE (IDNo. 04620)
-  - EXP: 761 (239 to Lv 10 Beedrill) [Verified Turn 44210]
+  - EXP: 850 (150 to Lv 10 Beedrill)
   - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
@@ -5190,24 +5190,23 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Mission: Trainee Leveling in Cerulean Cave
-- In-Game Pokedex Audit [Turn 44104]:
-  - #010 CATERPIE: OWNED (Poke Ball icon verified Turn 44104)
-  - #011 METAPOD: Unowned (evolves from SILK at Lv 7)
+- Active Mission: Trainee Leveling in Cerulean Cave 1F
+- Target Milestone: Evolve Metapod into Butterfree (#012) and Kakuna into Beedrill (#015)
+- Active Party Trainees:
+  - SILK: Lv 9 METAPOD (911 EXP, needs 89 EXP to Lv 10 Butterfree #012)
+    - Next wild encounter in Cerulean Cave 1F guarantees evolution into Butterfree!
+  - NEEDLE: Lv 9 KAKUNA (850 EXP, needs 150 EXP to Lv 10 Beedrill #015)
+    - Approximately 1-2 wild encounters away from Beedrill evolution!
+- Evolution Safeguard: NEVER press B during evolution sequence! Use A only.
+- In-Game Pok�dex Audit Status:
+  - #010 CATERPIE: OWNED
+  - #011 METAPOD: OWNED (Evolved Turn 44167)
   - #012 BUTTERFREE: Unowned (evolves from SILK at Lv 10)
-  - #013 WEEDLE: OWNED (Poke Ball icon verified Turn 44104)
-  - #014 KAKUNA: OWNED (NEEDLE caught Turn 44084)
+  - #013 WEEDLE: OWNED
+  - #014 KAKUNA: OWNED
   - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
-  - Audited Pokedex Totals: OWN 63, SEEN 137
-- Conclusion & Roadmap:
-  - Weedle (#013) is 100% confirmed OWNED in active save file!
-  - No wild Weedle capture is needed.
-  - Active party: SILK Lv 8 METAPOD (531 EXP) and NEEDLE Lv 7 KAKUNA (470 EXP).
-  - Metapod (#011) EVOLVED AND VERIFIED! Pokédex at 64 Caught!
-  - Target: Both evolve at Level 10 (1,000 EXP total)!
-    - SILK needs 469 EXP to Lv 10 -> BUTTERFREE (#012)!
-    - NEEDLE needs 530 EXP to Lv 10 -> BEEDRILL (#015)!
-  - Next step: Return to Cerulean Cave 1F overworld and continue sweeping wild encounters!
+  - Pok�dex Totals: OWN 64, SEEN 137
+
 
 <hr>
 
