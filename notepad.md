@@ -842,7 +842,7 @@
 
 - Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
 
-- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11).
+- Bug Catcher (7, 22): Defeated .
 
 - Ground Item (2, 2): MOON STONE collected [Turn 46009].
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
@@ -873,9 +873,9 @@
 
 - Lass (30, 4): Stationed at (30, 4) facing South down column 30. Defeated.
 
-- Lass (16, 24..25): Defeated (Clefairy Lv 14). Stationed near central junction passage.
+- Lass (16, 24..25): Defeated . Stationed near central junction passage.
 
-- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
+- Super Nerd (24, 31): Defeated .
 
 - Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated. Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
 
@@ -5232,27 +5232,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Expedition 17 Plan: Floral & Mountain Biodiversity
-
-- Target 2: Clefairy (#035) -> Clefable (#036) [Hunt Commenced Turn 46011]
-  - Travel to Mt. Moon and capture wild Clefairy (#035).
-  - Moon Stone retrieved from Mt. Moon 1F (2, 2) [Turn 46009] and ready in Bag (Slot 11).
-  - Location Strategy & Working Hypothesis:
-    - Working hypothesis: Mt. Moon 1F hosts wild Clefairy (#035) as a rare encounter (~1-6%).
-  - Empirical Wild Encounter Summary (Expedition 17):
-    - Mt. Moon 1F (35 encounters logged through Turn 46344):
-      - Zubat: 24 (Lv 6-11)
-      - Geodude: 7 (Lv 8)
-      - Paras: 4 (Lv 8)
-      - Clefairy: 0 (0.0% observed)
-    - Mt. Moon B1F (2 encounters):
-      - Zubat: 2 (Lv 7, 9)
-    - Mt. Moon B2F (11 encounters):
-      - Geodude: 6 (Lv 9-10)
-      - Zubat: 4 (Lv 9-11)
-      - Paras: 1 (Lv 10)
-      - Clefairy: 0 (0.0% observed)
-    - Total Sample Size: 48 encounters across Mt. Moon (0 Clefairy observed).
+## Celadon Acquisition Plan: Clefairy (#035) -> Clefable (#036)
+- Transitioned from Mt. Moon to Celadon City for deterministic Prize Exchange acquisition.
+- Moon Stone in Bag (Slot 11).
+- Status: Verifying Coin Case and Prize Exchange requirements.
   - Empirical Stopping Criterion & Pivot Execution:
     - Hunt Termination: Wild Clefairy search terminated after 42 total Mt. Moon encounters (29 on 1F, 2 on B1F, 11 on B2F) yielded 0 Clefairy sightings.
     - Pivot Decision: Transitioned to 100% deterministic acquisition at Celadon Prize Exchange. Exiting Mt. Moon south to Route 4 to fly to Celadon City.
@@ -5264,6 +5247,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Celadon Game Corner Prerequisites (Audit Turn 46261):
       1. COIN CASE is currently stored in BLUE's PC (Slot 10) -> Must fly to Pok�mon Center and withdraw Coin Case before visiting Game Corner.
       2. Wallet: �5,905 (purchases max 250 coins at �1,000/50 coins). Clefairy prize cost in retail Blue must be audited in-game at the Prize Exchange. If coin cost exceeds 250, player must raise funds (e.g. selling inventory items) or play slot machines.
+
 
 <hr>
 
