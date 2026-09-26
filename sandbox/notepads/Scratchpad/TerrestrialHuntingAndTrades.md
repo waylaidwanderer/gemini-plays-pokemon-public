@@ -2,7 +2,7 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (7,289 EXP verified Turn 43769, needs 711 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (~7,420 EXP, needs ~580 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
