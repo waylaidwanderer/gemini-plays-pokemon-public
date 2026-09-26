@@ -13,7 +13,7 @@
   - Status: Healthy
   - Field Moves: Cut, Fly
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 269 / 269
+  - HP: 241 / 269
   - Status: Healthy
 - Slots 4-6: Empty
 
