@@ -142,7 +142,7 @@
   - HP: 37 / 254
   - Status: Paralyzed (PAR)
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
-  - HP: 125 / 125
+  - HP: 87 / 125 (Damaged Turn 46912)
   - Status: Healthy
 - Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
   - Status: Healthy
