@@ -146,7 +146,7 @@
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 19, Grass/Poison]
   - Status: Healthy
-  - HP: Uninspected in menu (max ~49 at Lv 19) [Verification pending]
+  - HP: 49 / 49 [Verified Party Screen Turn 44644]
   - Stats: Attack 39, Defense 22, Speed 21, Special 35 [Verified Level Up Box Turn 44613]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
