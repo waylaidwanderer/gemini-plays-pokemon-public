@@ -16,7 +16,7 @@
   - HP: 97+ / Uninspected (max ~99 at Lv 39)
   - Stats: Attack 65, Defense 61, Speed 60, Special 57 [Verified Level Up Box Turn 44667]
   - OT: ELYSSA (IDNo. 54183)
-  - Moves: Cut, Fly, Sand-Attack, Leer (Pending Lv 39 Slash prompt)
+  - Moves: Slash, Sand-Attack, Cut, Fly [Slash learned Lv 39 over Peck Turn 44673]
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
   - HP: 217 / 254
