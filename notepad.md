@@ -5225,9 +5225,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore Psychic (9/10) and Swift (20/20) and cure Omega's PAR, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 22):
-  - Verified Stats: Attack 26, Defense 27, Speed 50, Special 24 (HP ~55).
-  - EXP Tracking: Level 22 threshold = 10,648 EXP. Level 23 threshold = 12,167 EXP (1,519 EXP delta).
-  - Current EXP: ~10,789 / 12,167 (~1,378 EXP to Lv 23).
+  - Verified Stats: HP 55/55, Attack 26, Defense 27, Speed 50, Special 24 (audited Turn 45399).
+  - EXP Tracking: Current EXP: 10,806 / 12,167 EXP. Level Up: 1,361 EXP to Lv 23 (audited Turn 45399).
   - Target: Persian (#053) at Level 28 (21,952 EXP, 6 levels to Lv 28).
 
 
