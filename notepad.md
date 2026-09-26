@@ -143,7 +143,7 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 254 / 254 [Verified Healed Turn 44773]
+  - HP: 254 / 254 [Verified Healed Turn 45009]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
@@ -4514,11 +4514,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Verified Southern Entrance & Patrol Geometry (Empirically Verified Turns 39450-41940)
 - **Southern Entrance / Egress Warp Mat:** Coordinates (24..25, 17). Stepping onto this 2-tile wide threshold immediately warps the player outdoors to the Cerulean City canal water.
-- **High-Rate Patrol Corridor (Row 14):**
-  - Walkable open cavern floor extends horizontally from X=21 through X=25 on row Y=14.
-  - X=26 is an impassable eastern rock wall.
-  - X=20 is a solid cavern wall blocking westward passage at row 14; walkable corridor on row 14 is strictly bounded between X=21 (west wall boundary) and X=25 (east wall boundary).
-  - Pacing between X=21 and X=25 on row 14 generates consistent high-level wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) with zero obstacle collisions and instant 3-step access to the exit.
+- **High-Rate Patrol Rectangular Loop (Rows 14..15, Cols 21..25):**
+  - Walkable open cavern floor forms a continuous, collision-free 5x2 rectangular loop across Columns 21 through 25 on Rows 14 and 15 [Empirically verified across Turns 44954�44996].
+  - Bounded west by solid cavern wall at Column 20, east by impassable rock wall at Column 26, and south by row 16 boundary (exit threshold at 24..25, 17).
+  - Pacing this 5x2 loop generates consistent wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) while providing instant 2-step access to the exit at (25, 17).
 
 
 <hr>
@@ -5216,13 +5215,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
-  - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
+  - Evolution target: Train to Level 28 in Cerulean Cave 1F via switch-training (testing empirical yield) to evolve into Persian (#053).
 
 
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
-  - Yield: ~550-660 EXP per battle to Felix (4.5x faster than passive EXP.ALL, reducing required battles from ~140 to ~30!).
+  - Empirical Yield Test Protocol: Theoretical yield estimate is ~37.5-62.5% of total battle EXP. Exact participant + EXP.ALL division in this 4-member party will be empirically measured and logged on Battle 1.
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
