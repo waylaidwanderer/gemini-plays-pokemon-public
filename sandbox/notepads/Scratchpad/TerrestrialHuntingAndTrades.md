@@ -12,4 +12,4 @@
   6. Kadabra (#064) [Wild Lv 49]
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
-  - Balls in Bag: 76 Poké Balls (1 used on Hypno, 1 used on Golbat).
+  - Balls in Bag: 75 Poké Balls (1 used on Hypno, 1 used on Golbat).
