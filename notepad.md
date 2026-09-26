@@ -133,13 +133,13 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: PERSIAN (Nickname: FELIX) [Lv 28, Normal]
   - Status: Healthy
-  - HP: 68 / 68 (audited post-evolution)
+  - HP: 82 / 82
   - Stats: Attack 33, Defense 33, Speed 64, Special 30
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 41, Normal/Flying]
   - Status: Healthy
-  - HP: 102 / 102
+  - HP: 104 / 104
   - Stats: Attack 68, Defense 64, Speed 63, Special 60
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
