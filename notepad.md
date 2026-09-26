@@ -5297,8 +5297,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Working hypothesis: Mt. Moon 1F hosts wild Clefairy (#035) as a rare encounter (~1-6%).
     - Status: Actively sampling encounters on Mt. Moon 1F (Southern corridor loop cols 10-11, rows 8-11).
   - Empirical Wild Encounter Summary (Expedition 17):
-    - Mt. Moon 1F (21 encounters logged through Turn 46253):
-      - Zubat: 15 (Lv 6-11)
+    - Mt. Moon 1F (22 encounters logged through Turn 46264):
+      - Zubat: 16 (Lv 6-11)
       - Geodude: 5 (Lv 8)
       - Paras: 1 (Lv 8)
       - Clefairy: 0 (0.0% observed)
@@ -5309,9 +5309,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Zubat: 4 (Lv 9-11)
       - Paras: 1 (Lv 10)
       - Clefairy: 0 (0.0% observed)
-    - Total Sample Size: 34 encounters across Mt. Moon (0 Clefairy observed).
+    - Total Sample Size: 35 encounters across Mt. Moon (0 Clefairy observed).
   - Empirical Stopping Criterion & Contingency Audit:
-    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (19 remaining from Turn 46261).
+    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (18 remaining from Turn 46264).
     - Pivot Rule & Fallback Prerequisites: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and exit Mt. Moon.
     - Celadon Game Corner Prerequisites (Audit Turn 46261):
       1. COIN CASE is currently stored in BLUE's PC (Slot 10) -> Must fly to Pok�mon Center and withdraw Coin Case before visiting Game Corner.
