@@ -62,3 +62,21 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - NPC at (2, 2) shares Pokémon tips.
   - Tile (7, 1) is a solid rooftop chimney/structure.
   - Exit Doorway: Red mat at (2..3, 7), stepping South into row 8 warps down to 2F.
+
+## Interior Locations & Telemetry (Audited Turns 46372-46434)
+- Celadon Prize Exchange:
+  - Exterior entrance door at (33, 19).
+  - Interior Entrance Mat: (4, 7).
+  - Counter Windows:
+    - Left Window at (2, 2): Pokémon Prizes (Low tier: Abra, Clefairy, Nidorina in Blue). Approached from (2, 3) facing North.
+    - Middle Window at (4, 2): Technical Machines / TM Prizes. Approached from (4, 3) facing North.
+    - Right Window at (6, 2): Pokémon Prizes (High tier: Pinsir, Dratini, Porygon). Approached from (6, 3) facing North.
+- Celadon Diner:
+  - Exterior entrance door at (31, 27).
+  - Interior Entrance Mat: (3..4, 7), doorway threshold at (3..4, 8).
+  - Interior Layout & NPCs:
+    - Northwest Booth: Table at (0..1, 2..3); Gambler seated at (0, 1) in blue chair facing down/right. Post-gift dialogue: "I always thought I was going to win it back...".
+    - Southwest Booth: Table at (0..1, 5..6); Patron at (1, 4) in blue chair facing up ("Psst! There's a basement under the GAME CORNER.").
+    - Central/East Aisle: Open checkered floor spanning cols 2..5, rows 1..6.
+    - Patron at (5, 3) seated at counter chair.
+    - Kitchen Counter: Spans col 6, rows 1..5. Chef at (7, 2) behind counter. Patron at (7, 5).
