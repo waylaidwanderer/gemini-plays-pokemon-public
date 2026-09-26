@@ -155,7 +155,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x75
+- Slot 10: POKé BALL x74
 - Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597].
 
 ## BLUE's PC Item Storage (Audit required on restored save)
@@ -5254,7 +5254,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   6. Kadabra (#064) [Wild Lv 49]
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
-  - Balls in Bag: 75 Poké Balls (1 used on Hypno, 1 used on Golbat).
+  - Balls in Bag: 74 Poké Balls (1 used on Hypno, 1 used on Golbat).
 
 <hr>
 
