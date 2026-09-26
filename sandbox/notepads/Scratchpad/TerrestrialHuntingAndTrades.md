@@ -24,6 +24,7 @@
   - Recent Battles:
     - Battle 18 (Dodrio Lv 49, Total EXP: 1,092) [Turn 45264-45273]: Felix 273 participant + 63 EXP.ALL = 336 EXP (~30.8%). Defeated by Sheldon's Ice Beam. Felix grew to Level 21!
     - Battle 19 (Hypno Lv 46, Total EXP: 1,076) [Turn 45275-45281]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
+    - Battle 20 (Venomoth Lv 49) [Turn 45284-]: In progress (Felix Slot 1 engaged).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic (PP 4/10) - Special STAB, guaranteed OHKO on high-defense targets.
