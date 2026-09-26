@@ -34,7 +34,7 @@
 - Slot 9: LEAF STONE x2
 - Slot 10: POKé BALL x52
 
-## BLUE's PC Item Storage (Audit required on restored save)
+## BLUE's PC Item Storage
 1. TM34 x1 (Bide)
 2. TM12 x1 (Water Gun)
 3. TOWN MAP
