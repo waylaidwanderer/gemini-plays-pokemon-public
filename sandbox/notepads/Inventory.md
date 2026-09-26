@@ -26,7 +26,7 @@
 - Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 21, Grass/Poison]
   - Status: Healthy
   - HP: 49+ / Uninspected (max ~51 at Lv 20)
-  - Stats: Attack 41, Defense 23, Speed 23, Special 36 [Verified Level Up Box Turn 44675]
+  - Stats: Attack 43, Defense 24, Speed 24, Special 38 [Verified Level Up Box Turn 44746]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected)
   - EXP: 6,520 (Target Lv 21: 6,458 EXP - Achieved Lv 21!)
