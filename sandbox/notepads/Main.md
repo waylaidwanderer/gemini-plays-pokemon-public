@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 70 Caught [Dodrio caught Turn 46723] / 137 Seen
+- Pokédex: 71 Caught [Kadabra caught Turn 46787] / 137 Seen
 
 ## Milestones
 
@@ -115,3 +115,4 @@
 - [x] Catch wild Golbat (#042 FANGS) on Cerulean Cave 1F with Poké Ball [Turn 46597]
 - [x] Catch wild Magneton (#082 TESLA) on Cerulean Cave 1F with Poké Ball [Turn 46610]
 - [x] Catch wild Dodrio (#085 HYDRA) on Cerulean Cave 1F with Poké Ball [Turn 46723]
+- [x] Catch wild Kadabra (#064 SPOON) on Cerulean Cave 1F with Poké Ball [Turn 46787]

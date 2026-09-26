@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6 - Audited Turn 46741)
+## Party Pokémon (5 / 6 - Audited Turn 46787)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 127 / 269
   - Status: Healthy
@@ -18,7 +18,9 @@
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
   - HP: 125 / 125
   - Status: Healthy
-- Slots 5-6: Empty
+- Slot 5: KADABRA [Lv 49, Psychic]
+  - Status: Healthy
+- Slot 6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46741)
 - Slot 1: POKé FLUTE
@@ -30,7 +32,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x53
+- Slot 10: POKé BALL x52
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
