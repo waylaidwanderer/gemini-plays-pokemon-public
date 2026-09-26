@@ -8,25 +8,25 @@
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 21, Normal]
   - Status: Healthy
   - HP: 53 / 53
-  - Stats: Attack 25, Defense 25, Speed 48, Special 23 [Verified Level Up Box Turn 45272]
+  - Stats: Attack 25, Defense 25, Speed 48, Special 23
   - OT: BLUE (IDNo. 04620)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Stats Screen Turn 45183]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
   - HP: 102 / 102
-  - Stats: Attack 67, Defense 62, Speed 62, Special 59 [Verified Level Up Box Turn 45080]
+  - Stats: Attack 67, Defense 62, Speed 62, Special 59
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
   - HP: 254 / 254
-  - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
+  - Stats: Attack 191, Defense 220, Speed 191, Special 198
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 274 / 274
-  - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
+  - Stats: Attack 202, Defense 185, Speed 233, Special 275
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 

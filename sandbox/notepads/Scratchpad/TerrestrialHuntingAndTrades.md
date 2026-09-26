@@ -28,4 +28,3 @@
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 21):
   - Current EXP: ~10,462 / 10,648 (~186 EXP to Lv 22).
-  - Stats: Attack 25, Defense 25, Speed 48, Special 23 [Verified Lv 21 Box Turn 45272].
