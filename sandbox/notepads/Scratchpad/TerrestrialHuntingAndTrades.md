@@ -28,7 +28,7 @@
     - Battle 15 (Magneton Lv 46, Total EXP: 1,050) [Turn 45234-45241]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic (Crit).
     - Battle 16 (Golbat Lv 46, Total EXP: 1,104) [Turn 45245-45251]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's Psychic.
     - Battle 17 (Sandslash Lv 52, Total EXP: 1,188) [Turn 45255-45261]: Felix 297 participant + 74 EXP.ALL = 371 EXP (~31.2%). Defeated by Sheldon's Surf.
-    - Battle 18 (Dodrio Lv 49) [Turn 45264-]: In progress (Felix Slot 1 engaged - Level 21 trigger battle!).
+    - Battle 18 (Dodrio Lv 49) [Turn 45264-]: In progress (Felix switched to Sheldon Lv 79 - Level 21 trigger battle!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic (PP 4/10) - Special STAB, guaranteed OHKO on high-defense targets.
