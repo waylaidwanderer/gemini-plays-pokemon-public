@@ -5333,7 +5333,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - **Thunder Stone:** Available for purchase on Celadon Department Store 4F for ¥2,100 (no stock depletion observed across purchases [Turns 31098, 32198]).
 - **Moon Stone:** Not sold at Celadon Department Store 4F or standard Poké Marts tested.
   - Historical Pickups: Rocket Hideout B2F Item Ball 1 at (1, 11) [Retrieved Turn 5721].
-  - Verified Uncollected Overworld Locations [Audited Turn 45662]:
+  - Unverified Candidate Overworld Locations (Visual Sightings - Contents Unconfirmed):
     - Mt. Moon 1F: Ground Item Ball at (2, 2) in northwest corner near Northwest Ladder (5, 5).
     - Mt. Moon B2F: Ground Item Ball at (29, 5) on elevated northern platform above row 7 ledge.
   - Cleared/Negative Locations:
