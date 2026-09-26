@@ -23,13 +23,13 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 0/15), Ice Beam (PP 0/10)
-- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 18, Grass/Poison]
+- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 19, Grass/Poison]
   - Status: Healthy
-  - HP: Uninspected in menu (max ~47 at Lv 18) [Verification pending]
-  - Stats: Attack 37, Defense 21, Speed 21, Special 33 [Verified Level Up Box Turn 44568]
+  - HP: Uninspected in menu (max ~49 at Lv 19) [Verification pending]
+  - Stats: Attack 39, Defense 22, Speed 21, Special 35 [Verified Level Up Box Turn 44613]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
-  - EXP: 4,448 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 2,010 EXP)
+  - EXP: 4,579 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 1,879 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
