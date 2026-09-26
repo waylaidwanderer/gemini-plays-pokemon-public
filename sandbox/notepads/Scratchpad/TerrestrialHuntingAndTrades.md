@@ -2,21 +2,19 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Mission: Trainee Leveling in Cerulean Cave
-- In-Game Pokedex Audit [Turn 44104]:
-  - #010 CATERPIE: OWNED (Poke Ball icon verified Turn 44104)
-  - #011 METAPOD: Unowned (evolves from SILK at Lv 7)
+- Active Mission: Trainee Leveling in Cerulean Cave 1F
+- Target Milestone: Evolve Metapod into Butterfree (#012) and Kakuna into Beedrill (#015)
+- Active Party Trainees:
+  - SILK: Lv 9 METAPOD (911 EXP, needs 89 EXP to Lv 10 Butterfree #012)
+    - Next wild encounter in Cerulean Cave 1F guarantees evolution into Butterfree!
+  - NEEDLE: Lv 9 KAKUNA (850 EXP, needs 150 EXP to Lv 10 Beedrill #015)
+    - Approximately 1-2 wild encounters away from Beedrill evolution!
+- Evolution Safeguard: NEVER press B during evolution sequence! Use A only.
+- In-Game Pokédex Audit Status:
+  - #010 CATERPIE: OWNED
+  - #011 METAPOD: OWNED (Evolved Turn 44167)
   - #012 BUTTERFREE: Unowned (evolves from SILK at Lv 10)
-  - #013 WEEDLE: OWNED (Poke Ball icon verified Turn 44104)
-  - #014 KAKUNA: OWNED (NEEDLE caught Turn 44084)
+  - #013 WEEDLE: OWNED
+  - #014 KAKUNA: OWNED
   - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
-  - Audited Pokedex Totals: OWN 63, SEEN 137
-- Conclusion & Roadmap:
-  - Weedle (#013) is 100% confirmed OWNED in active save file!
-  - No wild Weedle capture is needed.
-  - Active party: SILK Lv 8 METAPOD (531 EXP) and NEEDLE Lv 7 KAKUNA (470 EXP).
-  - Metapod (#011) EVOLVED AND VERIFIED! PokÃ©dex at 64 Caught!
-  - Target: Both evolve at Level 10 (1,000 EXP total)!
-    - SILK needs 469 EXP to Lv 10 -> BUTTERFREE (#012)!
-    - NEEDLE needs 530 EXP to Lv 10 -> BEEDRILL (#015)!
-  - Next step: Return to Cerulean Cave 1F overworld and continue sweeping wild encounters!
+  - Pokédex Totals: OWN 64, SEEN 137
