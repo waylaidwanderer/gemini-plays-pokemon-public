@@ -5314,6 +5314,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Encounter 24 (Turn 46203): Wild Zubat Lv 9 (fled)
       - Encounter 25 (Turn 46212): Wild Zubat Lv 9 (fled)
       - Encounter 26 (Turn 46215): Wild Zubat Lv 9 (fled)
+      - Encounter 27 (Turn 46218): Wild Zubat Lv 11 (fled)
     - Mt. Moon B1F:
       - Encounter 3 (Turn 46036): Wild Zubat Lv 9 (fled)
       - Encounter 15 (Turn 46156): Wild Zubat Lv 7 (fled)
