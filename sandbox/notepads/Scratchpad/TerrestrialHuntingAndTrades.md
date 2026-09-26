@@ -25,7 +25,7 @@
 - Target: Rattata requires ~1,237 EXP to reach Lv 20 (~9 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43737].
 - Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 243/251 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
-  - When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or Surf <= 3):
-    1. If Rattata is within 5 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
+  When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or when all moves viable for current spawns are exhausted):
+    1. If Rattata is within 10 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
     2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
-- Patrol Route: Dynamic pacing along rows 14-15 (Cols 21..25).
+- Patrol Route: Expanded circuit across rows 12-15 (Cols 20..25).
