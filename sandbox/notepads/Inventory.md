@@ -6,9 +6,9 @@
 
 ## Party Pokémon (5 / 6 - Audited Turn 46801)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 6 / 269 (Damaged Turn 46893)
-  - Status: Healthy
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
+  - HP: 0 / 269 (Fainted Turn 46901)
+  - Status: Fainted (FNT)
+  - - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
   - Field Moves: Cut, Fly
