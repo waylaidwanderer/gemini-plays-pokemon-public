@@ -11,9 +11,6 @@
 
 ## Milestones
 
-- [x] Catch wild Magneton (#082 TESLA) on Cerulean Cave 1F with Poké Ball [Turn 46610]
-- [x] Catch wild Golbat (#042 FANGS) on Cerulean Cave 1F with Poké Ball [Turn 46597]
-- [x] Catch wild Hypno (#097 HYPNOS) on Cerulean Cave 1F with Poké Ball [Turn 46585]
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
 - [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
@@ -114,4 +111,6 @@
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
 - [x] Evolve Metapod into Butterfree (#012) [Turn 44231]
 - [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]
-
+- [x] Catch wild Hypno (#097 HYPNOS) on Cerulean Cave 1F with Poké Ball [Turn 46585]
+- [x] Catch wild Golbat (#042 FANGS) on Cerulean Cave 1F with Poké Ball [Turn 46597]
+- [x] Catch wild Magneton (#082 TESLA) on Cerulean Cave 1F with Poké Ball [Turn 46610]
