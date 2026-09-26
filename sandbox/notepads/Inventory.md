@@ -29,7 +29,7 @@
   - Stats: Attack 31, Defense 18, Speed 18, Special 28 [Verified Level Up Box Turn 44453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Learned Turn 44453]
-  - EXP: 2,177 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,281 EXP)
+  - EXP: 2,315 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 4,143 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
