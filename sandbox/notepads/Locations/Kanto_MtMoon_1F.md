@@ -48,7 +48,7 @@
 
 
 
-- Ground Item (2, 2): Item ball visible in northwest corner near Northwest Ladder (5, 5).
+- Ground Item (2, 2): MOON STONE collected [Turn 46009].
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
 
 
