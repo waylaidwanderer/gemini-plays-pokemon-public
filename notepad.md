@@ -117,7 +117,6 @@
 - Name: BLUE
 - IDNo: 04620
 - Money: ¥5,905
-- Badges: 8 / 8 [Verified Turn 41998]
 - Pokédex: 62 Caught / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
@@ -126,7 +125,7 @@
   - HP: 31 / 251 [Verified Turn 43798]
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 1/15) [Verified Turn 43798], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
+  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 0/15) [Expended Turn 43799], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Lv 37 uninspected]
@@ -141,7 +140,7 @@
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATTATA (Nickname: RATTY) [Lv 19, Normal]
   - Status: Healthy
-  - HP: Uninspected at Lv 19 (38/38 at Lv 16 [Turn 43593])
+  - HP: Uninspected at Lv 19
   - Stats: Attack 30, Defense 21, Speed 35, Special 15 [Verified Lv 19 Screen Turn 43747]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
@@ -5176,7 +5175,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (~7,682 EXP, needs ~318 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (~7,813 EXP, needs ~187 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5196,12 +5195,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~318 EXP to reach Lv 20 (~2 wild battles at ~135 EXP/battle via EXP.ALL) [Magneton defeated Turn 43790].
-- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 31/251 HP, healthy; 13 PP remaining]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Target: Rattata requires ~187 EXP to reach Lv 20 (~1-2 wild battles at ~135 EXP/battle via EXP.ALL) [Hypno defeated Turn 43801].
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 31/251 HP; 12 PP remaining: Double-Edge 9, Body Slam 0, Surf 3, Ice Beam 0]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- HP & Recoil Safety Protocol:
+  Double-Edge deals ~27-34 HP recoil. Since Sheldon is at 31 HP, Double-Edge is STRICTLY PROHIBITED until healed.
+  Next battles MUST use SURF (Slot 3, 3 PP, 0 recoil, 1HKO). If Surf PP drops to 0 or Sheldon takes damage < 25 HP, use MAX ELIXER x1 (Bag Slot 5) or switch to Mewtwo.
 - PP Exhaustion Tripwire:
-  When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or when all moves viable for current spawns are exhausted):
-    1. If Rattata is within 10 battles of Lv 20: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave.
-    2. Otherwise: Execute southern egress stepping Down to (25, 17) to exit cave, surf north to Route 24, and heal at Cerulean Pokémon Center.
+  When Sheldon's total offensive PP drops to <= 5: Use MAX ELIXER x1 (Bag Slot 5) to finish the milestone in-cave, or exit cave to heal at Cerulean Pok�mon Center.
 - Patrol Route: Expanded circuit across rows 12-15 (Cols 20..25).
 
 
