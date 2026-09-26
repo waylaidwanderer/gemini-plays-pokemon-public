@@ -5221,7 +5221,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 8) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 11 consecutive battles (Battles 1-11, Turns 45041-45175).
   - Recent Battles:
     - Battle 19 (Hypno Lv 46, Total EXP: 1,076) [Turn 45275-45281]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
-    - Battle 20 (Venomoth Lv 49, Total EXP: 952) [Turn 45284-45294]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic.
+    - Battle 20 (Venomoth Lv 49, Total EXP: 952) [Turn 45284-45295]: Felix 238 participant + 56 EXP.ALL = 294 EXP (~30.9%). Defeated by Omega's Psychic.
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic (PP 3/10) - Special STAB, guaranteed OHKO on high-defense targets.
@@ -5230,7 +5230,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 21):
-  - Current EXP: ~10,138 / 10,648 (~510 EXP to Lv 22).
+  - Current EXP: ~10,135 / 10,648 (~513 EXP to Lv 22).
   - Stats: Attack 25, Defense 25, Speed 48, Special 23 [Verified Lv 21 Box Turn 45272].
 
 
