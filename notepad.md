@@ -129,16 +129,16 @@
 - IDNo: 04620
 
 ## Party Pokémon (3 / 6 - Audited Turn 46712)
-- Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 37 / 254
-  - Status: Paralyzed (PAR)
+- Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
+  - HP: 241 / 269
+  - Status: Healthy
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
   - Field Moves: Cut, Fly
-- Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 241 / 269
-  - Status: Healthy
+- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
+  - HP: 37 / 254
+  - Status: Paralyzed (PAR)
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
   - HP: 125 / 125
   - Status: Healthy
