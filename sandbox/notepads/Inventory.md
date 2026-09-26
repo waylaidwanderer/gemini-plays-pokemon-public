@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6 - Audited Turn 46593)
+## Party Pokémon (5 / 6 - Audited Turn 46600)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 253 / 254
   - Status: Healthy
@@ -17,7 +17,9 @@
   - Status: Healthy
 - Slot 4: HYPNO (Nickname: HYPNOS) [Lv 46, Psychic]
   - Status: Healthy
-- Slots 5-6: Empty
+- Slot 5: GOLBAT (Nickname: FANGS) [Lv 46, Poison/Flying]
+  - Status: Healthy
+- Slot 6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
 - Slot 1: POKé FLUTE
@@ -29,8 +31,8 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x77
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Exactly 1 Poké Ball used to capture wild Hypno [Turn 46585].
+- Slot 10: POKé BALL x76
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597].
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
