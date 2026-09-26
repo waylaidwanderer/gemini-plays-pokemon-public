@@ -5235,9 +5235,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
 - Trainee Progress (FELIX Lv 14):
-  - Current EXP: 3,169
-  - Lv 15 threshold: 3,375 (206 EXP to Lv 15).
-  - Wild Hypno Lv 46 defeated; yielded 131 EXP.ALL share to Felix.
+  - Current EXP: 3,288
+  - Lv 15 threshold: 3,375 (87 EXP to Lv 15).
+  - Wild Venomoth Lv 49 defeated; yielded 119 EXP.ALL share to Felix.
 
 
 <hr>
