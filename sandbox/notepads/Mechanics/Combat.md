@@ -118,3 +118,10 @@
   - Traded Trainee Share (DUX): 157 EXP (105 + floor(105/2) = 157)
   - SILK EXP: 216 + 105 = 321 (needs 22 EXP to Lv 7 Metapod evolution!)
   - NEEDLE EXP: 155 + 105 = 260 (levels up to Lv 6, needs 83 EXP to Lv 7!)
+- **Empirical Solo-Sweeper EXP.ALL Yield (N=5 Party) [Verified Turn 44188 vs Parasect Lv 52]:**
+  - Opponent: Wild Parasect Lv 52
+  - Lead Sweeper Share (Sheldon): 475 EXP
+  - Base Trainee EXP.ALL Share (Native: Omega, Silk, Needle): 89 EXP
+  - Traded Trainee Share (DUX): 133 EXP (89 + floor(89/2) = 133)
+  - SILK EXP: 531 + 89 = 620 (needs 109 EXP to Lv 9, 380 to Lv 10 Butterfree!)
+  - NEEDLE EXP: 470 + 89 = 559 (levels up to Lv 8, needs 170 EXP to Lv 9, 441 to Lv 10 Beedrill!)
