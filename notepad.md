@@ -8,7 +8,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 62 Caught [WIGGLYTUFF #040 evolved Turn 43213] / 137 Seen [Verified Turn 39387]
+- Pokédex: 64 Caught [CATERPIE #010 caught Turn 43914] / 137 Seen [Verified Turn 39387]
 
 ## Milestones
 
@@ -106,7 +106,8 @@
 - [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
 - [x] Catch wild Jigglypuff (#039) on Route 3 [Turn 43207]
 - [x] Evolve Jigglypuff into Wigglytuff (#040) via Moon Stone [Turn 43213]
-- [x] Evolve Rattata into Raticate (#020) [Turn 43817]- [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
+- [x] Evolve Rattata into Raticate (#020) [Turn 43817]
+- [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
 
 
 <hr>
@@ -155,7 +156,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x80
+- Slot 10: POKé BALL x81
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
@@ -5157,28 +5158,34 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Mission: Viridian Forest Target Acquisition (Caterpie & Weedle)
-- Box Audit Reality Check [Turn 43833 & 43890]:
-  - Box 2 only contained PUFF and RATTY (now Raticate in Box 2).
-  - Box 1 and Box 3 are empty.
-  - Targets (Caterpie, Weedle) are NOT in PC storage.
-  - Viridian Forest is the verified habitat for Caterpie (#010, 50%) and Weedle (#013, 5%).
-- Party Status:
-  - Lead: Blastoise (SHELDON Lv 78) - 251/251 HP, 55/55 PP
-  - Slot 2: Farfetch'd (DUX Lv 37) - Cut, Fly
-  - Slot 3: Mewtwo (OMEGA Lv 76) - 269/269 HP
-  - Slots 4, 5, 6: EMPTY (3 open slots for immediate field recruitment).
-- Bag Status: 88 Poké Balls, EXP.ALL active in Bag, 2 Leaf Stones.
+- Active Mission: Viridian Forest Target Acquisition - Weedle (#013)
+- Recruited Trainees in Party:
+  - Slot 4: SILK (Caterpie #010, Lv 5) [Recruited Turn 43928] -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
+- Active Target in Tall Grass:
+  - Target 2: Weedle (#013) [5% encounter rate] -> Level 7 (Kakuna #014), Level 10 (Beedrill #015)
+  - Target 2 Alternate: Kakuna (#014) [5% encounter rate] -> Level 10 (Beedrill #015)
+- Encounter Strategy:
+  - Flee (RUN) from duplicate Caterpie, Metapod, and Pikachu encounters.
+  - Throw Poké Balls at wild Weedle or Kakuna; recruit directly into Party Slot 5.
+- Completed Evolutions:
+  - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
+  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817, Stored Box 2 Turn 43832]
+- Archived Targets in Storage:
+  - Box 2: PUFF (Wigglytuff), RATTY (Raticate) [Audited Turn 43833]
+  - Box 1 & Box 3: Empty [Audited Turns 43840, 43848]
 
-## Hunting & Training Protocol
-1. Enter Viridian Forest from Route 2 south gatehouse.
-2. Advance to tall grass patch at (18, 40) - (23, 41).
-3. Catch wild Caterpie (#010) (and wild Weedle #013 / Kakuna / Metapod).
-   - Target 1: Caterpie -> Lv 7 (Metapod #011) -> Lv 10 (Butterfree #012)
-   - Target 2: Weedle -> Lv 7 (Kakuna #014) -> Lv 10 (Beedrill #015)
-   - Recruits join active party directly in Slots 4 & 5.
-4. Exit south to Route 2, cast HM02 Fly to Cerulean City.
-5. Solo-sweep in Cerulean Cave 1F with Sheldon/Mewtwo; EXP.ALL rapidly levels trainees to Lv 10.
+## Active Team & Sweeper Status
+- Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 250/251 HP, 55/55 PP - Healed Turn 43825].
+- Utility: Farfetch'd Lv 37 (DUX) [Slot 2, Cut, Fly].
+- Reserve Sweeper: Mewtwo Lv 76 (OMEGA, Psychic) [Slot 3, 269/269 HP - Healed Turn 43825].
+- Trainee 1: Caterpie Lv 5 (SILK) [Slot 4, Healthy].
+- Open Party Slots: 2 available (Slots 5, 6).
+- Bag Status: 81 Poké Balls, EXP.ALL active, 2 Leaf Stones.
+
+## Post-Recruitment Plan
+1. Once Weedle is recruited into Slot 5, walk south through gatehouse onto Route 2 outdoors.
+2. Cast HM02 Fly to Cerulean City.
+3. Surf canal into Cerulean Cave 1F and solo-sweep with Sheldon/Mewtwo; EXP.ALL rapidly levels SILK and Weedle to Lv 10 (Butterfree #012 and Beedrill #015).
 
 
 <hr>
