@@ -108,6 +108,7 @@
 - [x] Evolve Jigglypuff into Wigglytuff (#040) via Moon Stone [Turn 43213]
 - [x] Evolve Rattata into Raticate (#020) [Turn 43817]
 - [x] Catch wild Caterpie (#010 SILK) in Viridian Forest [Turn 43914]
+- [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
 
 
 <hr>

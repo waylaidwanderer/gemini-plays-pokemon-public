@@ -2,17 +2,17 @@
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Mission: Viridian Forest Target Acquisition - Weedle (#013)
-- Recruited Trainees in Party:
-  - Slot 4: SILK (Caterpie #010, Lv 5) [Recruited Turn 43914] -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
-  - Slot 5: NEEDLE (Kakuna #014, Lv 4) [Recruited Turn 44084, Ball 4] -> Level 10 (Beedrill #015)
-- Active Target in Tall Grass:
-  - TARGETS ACQUIRED! Party now has 5 Pokémon (3 sweepers/utilities, 2 trainees). Ready for Cerulean Cave power-leveling.
-- Encounter Strategy:
-  - Flee (RUN) from duplicate Caterpie, Metapod, and Pikachu encounters.
-  - Throw PokÃ© Balls at wild Weedle or Kakuna; recruit directly into Party Slot 5.
-
-## Post-Recruitment Plan
-1. Audit in-game Pokédex registration for Weedle (#013).
-2. If Weedle is registered: proceed south out of Viridian Forest to Route 2, fly to Cerulean City, and power-level SILK and NEEDLE in Cerulean Cave.
-3. If Weedle is NOT registered: patrol tall grass to catch Weedle into open Party Slot 6 before leaving Viridian Forest.
+- Active Mission: Trainee Leveling in Cerulean Cave
+- In-Game Pokédex Audit [Turn 44104]:
+  - #010 CATERPIE: OWNED (Poké Ball icon verified Turn 44104)
+  - #011 METAPOD: Unowned (evolves from SILK at Lv 7)
+  - #012 BUTTERFREE: Unowned (evolves from SILK at Lv 10)
+  - #013 WEEDLE: OWNED (Poké Ball icon verified Turn 44104)
+  - #014 KAKUNA: OWNED (NEEDLE caught Turn 44084)
+  - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
+  - Audited Pokedex Totals: OWN 63, SEEN 137
+- Conclusion & Roadmap:
+  - Weedle (#013) is 100% confirmed OWNED in active save file!
+  - No wild Weedle capture is needed.
+  - Active party has both required trainees: SILK (Slot 4) and NEEDLE (Slot 5).
+  - Ready to exit Viridian Forest and fly to Cerulean Cave for EXP.ALL power-leveling!
