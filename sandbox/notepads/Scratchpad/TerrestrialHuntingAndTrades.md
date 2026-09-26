@@ -23,8 +23,14 @@
       - Clefairy: 0 (0.0% observed)
     - Total Sample Size: 38 encounters across Mt. Moon (0 Clefairy observed).
   - Empirical Stopping Criterion & Contingency Audit:
-    - Test threshold: Sample up to N=40 total encounters on Mt. Moon 1F (15 remaining from Turn 46284).
-    - Pivot Rule & Fallback Prerequisites: If 0 Clefairy appear across N=40 trials on 1F, terminate cave patrol and exit Mt. Moon.
+    - Operational Time-Box (N=40): The N=40 sample threshold on Mt. Moon 1F is strictly an operational stopping time-box to bound search investment against alternative acquisition routes, NOT a proof of Clefairy's absence (statistical confidence against a hypothetical 1% encounter rate is only ~33% at N=40).
+    - Pivot Decision & Celadon Prize Exchange: Given that 80 consecutive steps on 1F yielded zero encounters and 38 total Mt. Moon encounters yielded 0 Clefairy, continuing to grind 15 more encounters costs ~300+ steps (~25 turns) with <35% odds of success. The Celadon Prize Exchange offers a 100% deterministic Clefairy acquisition.
+    - Celadon Prize Exchange Execution Plan:
+      1. Exit Mt. Moon south to Route 4 (27 steps south).
+      2. Fly to Celadon City via DUX.
+      3. Access Pokémon Center PC -> Withdraw COIN CASE (Slot 10 in BLUE's PC).
+      4. Inspect Celadon Prize Exchange: audit Clefairy coin cost.
+      5. Fund coin purchase: Wallet ¥5,905 + sell 50 Poké Balls (¥5,000) = ¥10,905 (buys 500 coins). If cost is 500 coins, purchase immediately. If 750 coins, check hidden coins in Game Corner or sweep Elite Four with Omega/Sheldon.
     - Celadon Game Corner Prerequisites (Audit Turn 46261):
       1. COIN CASE is currently stored in BLUE's PC (Slot 10) -> Must fly to Pok�mon Center and withdraw Coin Case before visiting Game Corner.
       2. Wallet: �5,905 (purchases max 250 coins at �1,000/50 coins). Clefairy prize cost in retail Blue must be audited in-game at the Prize Exchange. If coin cost exceeds 250, player must raise funds (e.g. selling inventory items) or play slot machines.
