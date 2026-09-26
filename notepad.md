@@ -128,9 +128,9 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6 - Audited Turn 46638)
+## Party Pokémon (3 / 6 - Audited Turn 46712)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 210 / 254
+  - HP: 87 / 254
   - Status: Paralyzed (PAR)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
@@ -141,7 +141,7 @@
   - Status: Healthy
 - Slots 4-6: Empty
 
-## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
+## Bag Items (10 / 20 Slots Occupied - Audited Turn 46712)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -366,8 +366,6 @@
 ## Move Effects & Generation 1 Nuances
 - **Haze Status Cure (Empirically Verified Battle 26, Turn 45468):** In Generation 1 retail, the move HAZE ('All STATUS changes are eliminated!') resets all stat stages to 0 and cures persistent primary status conditions (e.g. PAR) on the opponent. Wild Golbat's Haze completely cured Omega's paralysis, restoring full Speed and removing the PAR status condition.
 
-- **N=3 Party EXP Distribution (Empirical Status: Unverified):**
-  - EXP.ALL partitioning formulas and switch-training yields for an N=3 party size have not been empirically tested in this run. If wild or trainer combat occurs while at N=3, exact EXP values from battle dialogue must be recorded and compared against theoretical formulas before adding to empirical tables.
 
 <hr>
 
@@ -5256,7 +5254,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Hunting Protocol & Strategy
 - Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
 - Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (73 in Bag).
+- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (69 in Bag (Dodrio engaged, 4 balls thrown)).
 - Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
 - Storing captures: Party slots 4, 5, 6 are open to receive all 3 targets directly into party.
 
