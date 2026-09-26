@@ -860,7 +860,7 @@
 
 
 
-- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11). Yielded ¥110.
+- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11).
 
 
 
@@ -927,7 +927,7 @@
 
 
 
-- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Defeated.
+- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
 
 
 
@@ -5290,13 +5290,24 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-
-
 ## Expedition 17 Plan: Floral & Mountain Biodiversity
 
-- Target 2: Clefairy (#035) -> Clefable (#036)
-
-  - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
+- Target 2: Clefairy (#035) -> Clefable (#036) [Hunt Commenced Turn 46011]
+  - Travel to Mt. Moon and capture wild Clefairy (#035).
+  - Moon Stone retrieved from Mt. Moon 1F (2, 2) [Turn 46009] and ready in Bag (Slot 11).
+  - Location Strategy & Working Hypothesis:
+    - Working hypothesis: Mt. Moon B2F reportedly yields a higher relative encounter rate for Clefairy compared to 1F/B1F.
+    - Status: Actively testing hypothesis on B2F (Row 14 patrol strip) via empirical encounter sampling.
+  - Empirical Wild Encounter Log (Expedition 17):
+    - Mt. Moon 1F:
+      - Encounter 1 (Turn 46016): Wild Geodude (fled)
+      - Encounter 2 (Turn 46027): Wild Zubat Lv 6 (fled)
+    - Mt. Moon B1F:
+      - Encounter 3 (Turn 46036): Wild Zubat Lv 9 (fled)
+    - Mt. Moon B2F:
+      - Encounter 4 (Turn 46062): Wild Zubat Lv 9 (fled)
+      - Encounter 5 (Turn 46071): Wild Zubat Lv 11 (fled)
+      - Encounter 6 (Turn 46081): Wild Geodude (in progress)
 
 
 <hr>
