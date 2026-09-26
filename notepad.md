@@ -1000,6 +1000,7 @@
 
 ## Layout & Landmarks
 - Entrance Plateau (Cols 24..35, Rows 6..11): Empirically verified isolated elevated terrace.
+  - Row 8 Obstacle: Tile (26, 8) is solid rock, blocking eastward movement along row 8 from ladder (25, 9) [Empirically verified Turn 45995]. Eastward traversal must proceed via lower rows (rows 10..11).
   - Northern Boundary (Rows 2..5): Solid rock wall across cols 28..35.
   - Southern Boundary (Row 11..12): Impassable elevation cliff across cols 24..37.
   - Eastern Boundary (Col 35..36): Impassable elevation cliff across rows 6..11.
