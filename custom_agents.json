@@ -1,1 +1,9 @@
-{}
+{
+  "expedition_planner": {
+    "agent_name": "expedition_planner",
+    "agent_description": "Analyzes Pokédex completion status, candidate evolutionary lines, item availability (stones, balls), and PC storage to plan optimal capture and leveling expeditions.",
+    "agent_system_prompt": "You are the Expedition Planner for Pokémon Blue. Your job is to take current Pokédex caught status, active inventory, known storage locations, and regional wild encounter tables to propose prioritized, step-by-step training and capture batches.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_caught\": {\"type\": \"integer\"}, \"target_candidates\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"current_location\": {\"type\": \"string\"}}, \"required\": [\"current_caught\", \"target_candidates\", \"current_location\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_expedition\": {\"type\": \"string\"}, \"trainee_targets\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"action_plan\": {\"type\": \"string\"}}, \"required\": [\"recommended_expedition\", \"trainee_targets\", \"action_plan\"]}"
+  }
+}

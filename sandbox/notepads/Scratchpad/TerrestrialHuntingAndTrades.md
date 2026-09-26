@@ -7,9 +7,8 @@
   - SILK: Caterpie (#010) -> Metapod (#011) [Turn 44167] -> Butterfree (#012) [Turn 44231]
   - NEEDLE: Kakuna (#014) -> Beedrill (#015) [Turn 44247]
   - Both 3-stage bug lines fully complete!
-- Active Party Trainees:
-  - SILK: Lv 10 BUTTERFREE (OWNED - Evolved Turn 44231!)
-  - NEEDLE: Lv 10 BEEDRILL (OWNED - Evolved Turn 44247!)
+- Active Party Trainees: None (SILK and NEEDLE deposited into Box 3 Turn 44269)
+  - Active Party (3/6): Sheldon Lv 79, Dux Lv 37, Omega Lv 76 (3 slots open for next trainees)
 - In-Game Pokédex Audit Status:
   - #010 CATERPIE: OWNED
   - #011 METAPOD: OWNED (Evolved Turn 44167)

@@ -66,7 +66,7 @@
 27. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 3 (Contains 2 Pokémon: SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
-- Box 1: Empty (verified Turn 43840)
-- Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 43833)
+- Active Box: BOX 1 [Verified Turn 44281]
+- Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
+- Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Boxes 4–12: Uninspected storage
