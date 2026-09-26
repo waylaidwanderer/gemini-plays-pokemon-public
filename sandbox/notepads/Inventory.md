@@ -27,7 +27,7 @@
   - Status: Healthy
   - HP: 38 / 38 [Verified Party Screen Turn 44395]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Vine Whip, Growth [Caught Turn 44368]
+  - Moves: [Unverified in-game - to be audited on STATS screen]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
