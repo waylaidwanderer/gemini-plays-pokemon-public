@@ -25,3 +25,4 @@
       - Encounter 11 (Turn 46127): Wild Geodude Lv 9 (fled)
       - Encounter 12 (Turn 46131): Wild Paras Lv 10 (fled)
       - Encounter 13 (Turn 46139): Wild Zubat Lv 11 (fled)
+      - Encounter 14 (Turn 46149): Wild Geodude Lv 9 (fled)
