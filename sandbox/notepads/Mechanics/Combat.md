@@ -110,3 +110,11 @@
   - Traded Trainee Share (DUX): 136 EXP (91 + floor(91/2) = 136)
   - SILK leveled from Lv 5 (EXP 125) to Lv 6 (needed 91 EXP, 125+91=216)!
   - NEEDLE leveled from Lv 4 (EXP 64) to Lv 5 (needed 61 EXP, 64+91=155)!
+
+- **Empirical Solo-Sweeper EXP.ALL Yield (N=5 Party) [Verified Turn 44151 vs Hypno Lv 46]:**
+  - Opponent: Wild Hypno Lv 46
+  - Lead Sweeper Share (Sheldon): 538 EXP
+  - Base Trainee EXP.ALL Share (Native: Omega, Silk, Needle): 105 EXP
+  - Traded Trainee Share (DUX): 157 EXP (105 + floor(105/2) = 157)
+  - SILK EXP: 216 + 105 = 321 (needs 22 EXP to Lv 7 Metapod evolution!)
+  - NEEDLE EXP: 155 + 105 = 260 (levels up to Lv 6, needs 83 EXP to Lv 7!)
