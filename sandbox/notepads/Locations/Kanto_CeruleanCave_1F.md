@@ -32,7 +32,6 @@
 - Entrance Cavern (Cols 20..25, Rows 12..17):
   - Row 15: Walkable across Columns 20 through 25 (empirically confirmed at (20, 15) Turns 38375, 38386). Bounded west by rock wall at Column 19.
   - Row 16: Open floor at (24, 16) and (25, 16). Collision verified stepping Left into (23, 16) from (24, 16) [Turn 38570].
-  - Row 17: Checkerboard exit warp threshold at (24..25, 17) leading outside to Cerulean City canal.
   - Row 12 Obstacle: Physical bump test confirmed (23, 12) is an impassable rock obstacle from (22, 12) [Turn 38356]. Open floor verified at (21..22, 12).
   - Row 13 Obstacle: Physical bump confirmed (24, 13) is a solid rock wall when walking Up from (24, 14) [Turn 44600]. Columns 21..23 on Row 13 are verified open floor.
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
