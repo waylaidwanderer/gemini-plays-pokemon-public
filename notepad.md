@@ -13,9 +13,6 @@
 
 ## Milestones
 
-- [x] Catch wild Magneton (#082 TESLA) on Cerulean Cave 1F with Poké Ball [Turn 46610]
-- [x] Catch wild Golbat (#042 FANGS) on Cerulean Cave 1F with Poké Ball [Turn 46597]
-- [x] Catch wild Hypno (#097 HYPNOS) on Cerulean Cave 1F with Poké Ball [Turn 46585]
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
 - [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
@@ -116,7 +113,9 @@
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
 - [x] Evolve Metapod into Butterfree (#012) [Turn 44231]
 - [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]
-
+- [x] Catch wild Hypno (#097 HYPNOS) on Cerulean Cave 1F with Poké Ball [Turn 46585]
+- [x] Catch wild Golbat (#042 FANGS) on Cerulean Cave 1F with Poké Ball [Turn 46597]
+- [x] Catch wild Magneton (#082 TESLA) on Cerulean Cave 1F with Poké Ball [Turn 46610]
 
 
 <hr>
@@ -131,8 +130,8 @@
 
 ## Party Pokémon (6 / 6 - Audited Turn 46614)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 253 / 254
-  - Status: Healthy
+  - HP: 246 / 254
+  - Status: Paralyzed (PAR)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
@@ -158,7 +157,7 @@
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
 - Slot 10: POKé BALL x73
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597], 3 Poké Balls used on Magneton [Turns 46606-46610].
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Exactly 73 Poké Balls remaining.
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -189,7 +188,7 @@
 26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 6 [Contains stored Pokémon]
+- Active Box: BOX 6 [Contains stored Pokémon - in-game count audit required at PC before further storage]
 - Box 1: Empty [Verified Turn 44282]
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
@@ -5244,19 +5243,24 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Cerulean Cave Wild Species Hunting Plan (Pivoted Turn 46462)
-- Status: Celadon Prize Exchange Clefairy acquisition concluded (Coin Case event flag was previously set at Diner, but item is neither in Bag nor PC).
-- Pivot Objective: Capture wild Pokédex species on Cerulean Cave 1F to reach 75+ Pokédex caught.
+## Cerulean Cave Wild Species Hunting
+- Total Caught: 69 / 137 Seen
 - Priority Targets on Cerulean Cave 1F:
-  1. [CAUGHT Turn 46597] Golbat (#042) [Wild Lv 46] -> Caught on Ball 1!
-  2. [CAUGHT Turn 46585] Hypno (#097) [Wild Lv 46] -> Caught on Ball 1!
-  3. [CAUGHT Turn 46610] Magneton (#082) [Wild Lv 46] -> Caught on Ball 3!
+  1. [CAUGHT Turn 46597] Golbat (#042 FANGS) [Wild Lv 46] -> Caught on Ball 1!
+  2. [CAUGHT Turn 46585] Hypno (#097 HYPNOS) [Wild Lv 46] -> Caught on Ball 1!
+  3. [CAUGHT Turn 46610] Magneton (#082 TESLA) [Wild Lv 46] -> Caught on Ball 3!
   4. Dodrio (#085) [Wild Lv 49]
   5. Venomoth (#049) [Wild Lv 49]
   6. Kadabra (#064) [Wild Lv 49]
-- Equipment & Ball Preparation:
-  - Current Funds: ¥5,905.
-  - Balls in Bag: 73 Poké Balls (1 used on Hypno, 1 on Golbat, 3 on Magneton).
+
+## Immediate Tactical Cycle
+1. At Cerulean City (4, 12) dry land outside Cerulean Cave.
+2. Fly to Cerulean City via DUX.
+3. Cerulean Pokémon Center:
+   - Heal Sheldon at Nurse Joy (cure PAR, restore 254 HP).
+   - PC Terminal: Audit Box 6, switch to empty Box 1 or Box 4, deposit HYPNOS, FANGS, TESLA.
+4. Return to Cerulean Cave 1F with 3 open party slots to catch Dodrio, Venomoth, Kadabra.
+
 
 <hr>
 
