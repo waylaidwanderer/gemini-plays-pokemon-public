@@ -9,7 +9,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 69 Caught [Caught Meowth #052 Turn 44849] / 137 Seen
+- Pokédex: 70 Caught [Evolved Felix into Persian #053 Turn 45881] / 137 Seen
 
 ## Milestones
 
@@ -117,6 +117,8 @@
 - [x] Evolve Bellsprout into Weepinbell (#070) [Turn 44752]
 - [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]
 
+- [x] Evolve Meowth into Persian (#053) at Lv 28 [Turn 45881]
+
 
 <hr>
 
@@ -129,10 +131,10 @@
 - IDNo: 04620
 
 ## Party Pokémon (4 / 6)
-- Slot 1: MEOWTH (Nickname: FELIX) [Lv 27, Normal]
+- Slot 1: PERSIAN (Nickname: FELIX) [Lv 28, Normal]
   - Status: Healthy
-  - HP: 66 / 66
-  - Stats: Attack 32, Defense 32, Speed 61, Special 29
+  - HP: 68 / 68 (audited post-evolution)
+  - Stats: Attack 33, Defense 33, Speed 64, Special 30
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 41, Normal/Flying]
@@ -149,10 +151,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 5/15), Ice Beam (PP 5/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 154 / 274
+  - HP: 145 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -288,7 +290,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-55 in Cerulean Cave (Turns 45041-45870). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-56 in Cerulean Cave (Turns 45041-45881). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Empirical Switch-Training EXP.ALL Yields (N=4 Party: Trainee Felix Lead, Native Sweeper Sheldon/Omega, DUX Traded Inactive, Inactive Sweeper):**
@@ -5297,7 +5299,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 
 
-- [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
+- [x] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Evolved into Persian #053 Turn 45881]
 
   - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
