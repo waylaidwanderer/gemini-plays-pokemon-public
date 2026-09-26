@@ -143,13 +143,13 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 242 / 254 [Hit by Fury Swipes Turn 45155]
+  - HP: 242 / 254 [Verified Battle Screen Turn 45165]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45165]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 240 / 274 [Hit by Wing Attack Turn 45146]
+  - HP: 240 / 274 [Verified Battle Screen Turn 45174]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Battle Screen Turn 45174]
@@ -5218,7 +5218,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
-  - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 4) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 7 consecutive battles (Battles 1-7, Turns 45041-45117).
+  - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 4) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 11 consecutive battles (Battles 1-11, Turns 45041-45175).
   - Recent Battles:
     - Battle 10 (Kadabra Lv 49, Total EXP: 1,008) [Turn 45160-45167]: Felix 252 participant + 63 EXP.ALL = 315 EXP (~31.25%). Defeated by Sheldon's Body Slam. Leveled to Lv 19!
     - Battle 11 (Golbat Lv 46, Total EXP: 1,104) [Turn 45170-45175]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's Psychic.
@@ -5226,9 +5226,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
   - Recovery: Recover - sustains HP in-cave without consumables.
-  - Active Move PP & Status: Tracked authoritatively in Inventory.md.
-- Reserve Sweeper: BLASTOISE (SHELDON) Lv 79
-  - Full Movepool: Surf, Ice Beam, Body Slam, Double-Edge.
+
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 19):
