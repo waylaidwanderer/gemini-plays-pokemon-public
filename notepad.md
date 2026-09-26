@@ -131,7 +131,7 @@
   - HP: 217 / 254
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 5/15), Ice Beam (PP 2/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 4/15), Ice Beam (PP 2/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 38, Normal/Flying]
   - Status: Healthy
   - HP: Pending inspection at Lv 38 (Lv 37 was 94/94)
