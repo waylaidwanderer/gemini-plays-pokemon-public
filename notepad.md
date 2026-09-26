@@ -5242,8 +5242,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Working hypothesis: Mt. Moon 1F hosts wild Clefairy (#035) as a rare encounter (~1-6%).
     - Status: Actively sampling encounters on Mt. Moon 1F (Southern corridor loop cols 10-11, rows 8-11).
   - Empirical Wild Encounter Summary (Expedition 17):
-    - Mt. Moon 1F (29 encounters logged through Turn 46311):
-      - Zubat: 19 (Lv 6-11)
+    - Mt. Moon 1F (30 encounters logged through Turn 46324):
+      - Zubat: 20 (Lv 6-11)
       - Geodude: 6 (Lv 8)
       - Paras: 4 (Lv 8)
       - Clefairy: 0 (0.0% observed)
@@ -5254,7 +5254,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
       - Zubat: 4 (Lv 9-11)
       - Paras: 1 (Lv 10)
       - Clefairy: 0 (0.0% observed)
-    - Total Sample Size: 42 encounters across Mt. Moon (0 Clefairy observed).
+    - Total Sample Size: 43 encounters across Mt. Moon (0 Clefairy observed).
   - Empirical Stopping Criterion & Pivot Execution:
     - Hunt Termination: Wild Clefairy search terminated after 42 total Mt. Moon encounters (29 on 1F, 2 on B1F, 11 on B2F) yielded 0 Clefairy sightings.
     - Pivot Decision: Transitioned to 100% deterministic acquisition at Celadon Prize Exchange. Exiting Mt. Moon south to Route 4 to fly to Celadon City.
