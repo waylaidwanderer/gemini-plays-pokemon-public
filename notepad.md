@@ -144,7 +144,7 @@
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
   - HP: 125 / 125
   - Status: Healthy
-- Slot 5: KADABRA [Lv 49, Psychic]
+- Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
   - Status: Healthy
 - Slot 6: Empty
 
