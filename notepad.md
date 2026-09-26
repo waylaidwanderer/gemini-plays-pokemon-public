@@ -5211,7 +5211,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
 - Expected Dex Progression: 66 -> 71+ Caught!
 ## Operational Combat Resource Budget & Sweeper Rotation Plan
-- Strategic Objective: Train SPROUT from Lv 18 to Lv 21 (Current EXP: 4,186 / 6,458; Needed: 2,272 EXP; ~17 battles remaining via EXP.ALL).
+- Strategic Objective: Train SPROUT from Lv 18 to Lv 21 (Current EXP: 4,317 / 6,458; Needed: 2,141 EXP; ~16 battles remaining via EXP.ALL).
 - Sweeper Roles & Dynamic Thresholds:
   - Lead Sweeper (Sheldon Lv 79):
     - Primary Attack Pool: Surf (Water STAB vs Ground/Rock/Electric), Ice Beam (Ice vs Flying/Bug).
