@@ -142,7 +142,7 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 217 / 254
+  - HP: 254 / 254 [Verified Healed Turn 44773]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
@@ -151,6 +151,7 @@
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
+- Slot 4: PP UP x1
 - Slot 5: MAX ELIXER x1
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
@@ -5200,9 +5201,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Captured wild Bellsprout Lv 14 (SPROUT) in Route 25 tall grass [Turn 44368] into Party Slot 4!
 
-  - Train Bellsprout to Level 21 in Cerulean Cave 1F via EXP.ALL to evolve into Weepinbell (#070).
 
-  - Apply Leaf Stone (2 in Bag!) to Weepinbell to evolve into Victreebel (#071).
 
   - Potential Dex Gain: +2 new Pokédex entries (#070, #071) [Bellsprout #069 was already registered].
 
@@ -5226,10 +5225,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Active Sweeper (MEWTWO OMEGA Lv 77):
     - Status: Active Lead [Turn 44554+]
-    - Attack Pool: Swift (never misses, PP 1/20), Recover (sustain), Barrier. Psychic (0/10).
+    - Attack Pool: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 44773].
     - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
 - Reserve Sweeper (Blastoise SHELDON Lv 79):
-    - Physical Reserve: Body Slam (PP 15/15), Double-Edge (PP 14/15). Surf (0/15), Ice Beam (0/10).
+    - Full Special/Physical Pool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15) [Healed Turn 44773].
 
 - Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
 
