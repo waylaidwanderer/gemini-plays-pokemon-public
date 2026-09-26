@@ -48,7 +48,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-45 in Cerulean Cave (Turns 45041-45779). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-46 in Cerulean Cave (Turns 45041-45788). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Empirical Switch-Training EXP.ALL Yields (N=4 Party: Trainee Felix Lead, Native Sweeper Sheldon/Omega, DUX Traded Inactive, Inactive Sweeper):**
@@ -59,7 +59,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sandslash | 52 | 1,188 | 297 EXP | 74 EXP | 371 EXP (31.2%) | Verified Battles 35-37 |
 | Golbat | 46 | 1,104 | 276 EXP | 65 EXP | 341 EXP (30.9%) | Verified Battle 45 (Turn 45779) |
-| Dodrio | 49 | 1,106 | 276 EXP | 66 EXP | 342 EXP (30.9%) | Verified Battles 28, 32 |
+| Dodrio | 49 | 1,106 | 273 EXP | 63 EXP | 336 EXP (30.4%) | Verified Battle 46 (Turn 45788) |
 | Hypno | 46 | 1,076 | 269 EXP | 65 EXP | 334 EXP (31.0%) | Verified Battle 43 (Turn 45753) |
 | Magneton | 46 | 1,050 | 262 EXP | 65 EXP | 327 EXP (31.1%) | Verified Battles 42, 44 (Turn 45769) |
 | Kadabra | 49 | 1,008 | 252 EXP | 63 EXP | 315 EXP (31.3%) | Verified Battles 13, 39 |
