@@ -5,7 +5,7 @@
 
 ## Status
 
-- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 41998]
+- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 45594]
 
 - Money: ¥5,905
 
@@ -146,7 +146,7 @@
   - HP: 258 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - Stats: Attack 202, Defense 185, Speed 233, Special 275
@@ -4531,6 +4531,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 1F Geography & Exploration
 
 ## Connections
+- South Egress: Southern entrance/exit warp mat at (24..25, 17) connecting outdoors to Cerulean City at (4, 12).
 - Ladder (7, 1): Ascending cave ladder on northern elevated terrace at (7, 1). Connects to 2F Ladder (9, 1). [Physically verified Turns 26574, 26648]
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
@@ -5278,15 +5279,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
 
-  - Note on Evolution & Moon Stone Audit [Audited Turn 45452]:
-    - Bag & PC currently contain 0 Moon Stones.
-    - Historical Moon Stones consumed (2 total): Nidoqueen (#031) [Turn 31235] and Wigglytuff (#040) [Turn 43213].
-    - Historical pickups audited: Rocket Hideout B2F Item Ball 1 at (1, 11) retrieved Turn 5721 (contained Moon Stone).
-    - Remaining candidate sites audited for uncollected Moon Stones [Audited Turn 45662]:
-      - Mt. Moon 1F: Ground item ball at (2, 2) remains uncollected (visible in NW corner).
-      - Mt. Moon B2F: Ground item ball at (29, 5) remains uncollected (visible on elevated northern platform).
-      - Pokémon Mansion B1F: Fully cleared [Turns 14575-14678] - all 5 items retrieved (Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
-      - Silph Co. 5F: Potential candidate (unverified).
+
 
 - [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
