@@ -23,6 +23,8 @@
 
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
+- Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
+  - Yield: ~550-660 EXP per battle to Felix (4.5x faster than passive EXP.ALL, reducing required battles from ~140 to ~30!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -30,10 +32,8 @@
   - Active Move PP & Status: Tracked authoritatively in Inventory.md.
 - Reserve Sweeper: BLASTOISE (SHELDON) Lv 79
   - Full Movepool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
-  - Can switch in if Mewtwo attack PP runs low.
-- Total Attack PP Pool: 78+ damaging moves before center replenishment.
 - Healing / Center Protocol:
-  - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
+  - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, swap Felix to Slot 1, return to cave.
 - Trainee Progress (FELIX Lv 15):
   - Current EXP: 3,574
   - Lv 16 threshold: 4,096 (522 EXP to Lv 16).
