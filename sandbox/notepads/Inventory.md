@@ -11,10 +11,10 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 6/15), Ice Beam (PP 4/10)
-- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
+- Slot 2: FARFETCH'D (Nickname: DUX) [Lv 38, Normal/Flying]
   - Status: Healthy
-  - HP: 94 / 94 [Verified Party Screen Turn 43820]
-  - Stats: Attack 61, Defense 57, Speed 57, Special 54 [Verified Lv 37 Screen Turn 43763]
+  - HP: Pending inspection at Lv 38 (Lv 37 was 94/94)
+  - Stats: Attack 63, Defense 59, Speed 58, Special 55 [Verified Level Up Box Turn 44481]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
@@ -23,10 +23,10 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 15, Grass/Poison]
+- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 16, Grass/Poison]
   - Status: Healthy
-  - HP: Pending inspection at Lv 15 (Lv 14 was 38/38)
-  - Stats: Attack 31, Defense 18, Speed 18, Special 28 [Verified Level Up Box Turn 44453]
+  - HP: Pending inspection at Lv 16 (Lv 14 was 38/38)
+  - Stats: Attack 33, Defense 19, Speed 19, Special 29 [Verified Level Up Box Turn 44482]
   - OT: BLUE (IDNo. 04620)
   - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Learned Turn 44453]
   - EXP: 2,579 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 3,879 EXP)
