@@ -19,7 +19,7 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 217 / 254
+  - HP: 254 / 254 [Verified Healed Turn 44773]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
@@ -28,6 +28,7 @@
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
+- Slot 4: PP UP x1
 - Slot 5: MAX ELIXER x1
 - Slot 6: HM02 (FLY)
 - Slot 7: TM35 x1
