@@ -6,7 +6,7 @@
 
 ## Party Pokémon (3 / 6 - Audited Turn 46638)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 246 / 254
+  - HP: 210 / 254
   - Status: Paralyzed (PAR)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
