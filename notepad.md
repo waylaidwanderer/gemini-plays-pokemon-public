@@ -5222,6 +5222,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Recent Battles:
     - Battle 19 (Hypno Lv 46, Total EXP: 1,076) [Turn 45275-45281]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
     - Battle 20 (Venomoth Lv 49, Total EXP: 952) [Turn 45284-45295]: Felix 238 participant + 56 EXP.ALL = 294 EXP (~30.9%). Defeated by Omega's Psychic.
+    - Battle 21 (Magneton Lv 46) [Turn 45299-]: In progress (Felix Slot 1 engaged).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic (PP 3/10) - Special STAB, guaranteed OHKO on high-defense targets.
