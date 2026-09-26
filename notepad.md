@@ -123,10 +123,10 @@
 ## Party Pokémon (4 / 6) [Verified Empirically Turn 43479]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
-  - HP: 31 / 251 [Verified Turn 43798]
+  - HP: 251 / 251 [Healed Turn 43825]
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 0/15) [Expended Turn 43799], Surf (PP 1/15) [Turn 43812], Ice Beam (PP 0/10) [Verified Turn 43729]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Healed Turn 43825]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 94 / 94 [Verified Party Screen Turn 43820]
@@ -135,10 +135,10 @@
   - Moves: Cut, Fly, Slash, Sand-Attack
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - Status: Healthy
-  - HP: 136 / 269 [Verified Battle Screen Turn 43472]
+  - HP: 269 / 269 [Healed Turn 43825]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: RATICATE (Nickname: RATTY) [Lv 20, Normal]
   - Status: Healthy
   - HP: 55 / 55 [Verified Party Screen Turn 43820]
@@ -5198,7 +5198,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata reached Lv 20 (8,000+ EXP)! Evolution into Raticate (#020) in progress [Turn 43816].
-- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 31/251 HP; 10 PP remaining: Double-Edge 9, Body Slam 0, Surf 1, Ice Beam 0]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 251/251 HP, fully healed; 55 total PP]. Mewtwo (OMEGA Lv 76, Slot 3) in reserve with 269/269 HP and full PP.
 - HP & Recoil Safety Protocol:
   Double-Edge deals ~27-34 HP recoil. Since Sheldon is at 31 HP, Double-Edge is STRICTLY PROHIBITED until healed.
   Next battles MUST use SURF (Slot 3, 3 PP, 0 recoil, 1HKO). If Surf PP drops to 0 or Sheldon takes damage < 25 HP, use MAX ELIXER x1 (Bag Slot 5) or switch to Mewtwo.
