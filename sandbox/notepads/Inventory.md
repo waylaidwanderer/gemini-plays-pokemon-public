@@ -24,7 +24,11 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: CATERPIE (Nickname: SILK) [Lv 5, Bug]
-  - Status: Healthy (captured Turn 43914, uninspected stats/moves in-game)
+  - Status: Healthy (captured Turn 43914)
+  - HP: 20 / 20 [Verified Stats Screen Turn 44092]
+  - Stats: Attack 9, Defense 9, Speed 10, Special 8 [Verified Stats Screen Turn 44092]
+  - OT: BLUE (IDNo. 04620)
+  - Moves: (inspecting Page 2 Turn 44093)
 - Slot 5: KAKUNA (Nickname: NEEDLE pending) [Lv 4, Bug/Poison]
   - Status: Healthy (captured Turn 44084, Ball 4, uninspected stats/moves in-game)
 
