@@ -131,24 +131,24 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Poisoned (PSN)
-  - HP: ~251 / 274 [Verified Battle Screen Turn 44847]
+  - HP: 251 / 274 [Verified Battle Screen Turn 44971]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 15/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
-  - Status: Poisoned (PSN)
+  - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
   - Stats: Attack 65, Defense 61, Speed 60, Special 57 [Verified Level Up Box Turn 44667]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - Status: Poisoned (PSN)
+  - Status: Healthy
   - HP: 254 / 254 [Verified Healed Turn 44773]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEOWTH (Nickname: FELIX) [Lv 14, Normal]
-  - Status: Poisoned (PSN)
+  - Status: Healthy
   - HP: Uninspected [Pending direct Party/Stats screen verification]
   - Stats: Attack 18, Defense 18, Speed 33, Special 16 [Verified Level Up Box Turn 44959]
   - OT: BLUE (IDNo. 04620)
@@ -353,7 +353,7 @@
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   - Meowth Lv 12 (Turn 44842-44849): broke free after 3 shakes on Balls 1 and 2; captured on Ball 3.
-  Across these N=5 encounters and 15 total ball throws, 11 out of 15 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~27% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
+  Across these N=6 encounters and 17 total ball throws, 11 out of 17 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
 
 
 <hr>
@@ -5224,9 +5224,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
-  - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
-  - Secondary Attack: Psychic (PP 3/10) - Special STAB, guaranteed OHKO on Sandslash, Golbat, Venomoth, Magneton, Raichu, Ditto.
-  - Recovery: Recover (PP 20/20) - sustains HP in-cave without consumables.
+  - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
+  - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
+  - Recovery: Recover - sustains HP in-cave without consumables.
+  - Active Move PP & Status: Tracked authoritatively in Inventory.md.
 - Reserve Sweeper: BLASTOISE (SHELDON) Lv 79
   - Full Movepool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
   - Can switch in if Mewtwo attack PP runs low.
