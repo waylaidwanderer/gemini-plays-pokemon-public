@@ -84,6 +84,17 @@
 | Parasect | 52 | 950 | 475 EXP | 118 EXP | 177 EXP | Verified Turns 43378, 43405 |
 | Raichu | 53 | 908 | 454 EXP | 113 EXP | 169 EXP | Verified Turn 43441 |
 
+- **Empirical Solo-Sweeper EXP.ALL Yields (N=5 Party: Solo Lead [Sheldon], DUX Traded, Inactive Members):**
+
+| Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Hypno | 46 | 1,076 | 538 EXP | 105 EXP | 157 EXP | Verified Turn 44151 |
+| Venomoth | 49 | 966 | 483 EXP | 91 EXP | 136 EXP | Verified Turn 44141 |
+| Parasect | 52 | 950 | 475 EXP | 89 EXP | 133 EXP | Verified Turn 44188 |
+| Golbat | 46 | 1,104 | 558 EXP | 111 EXP | 166 EXP | Verified Turn 44198 |
+| Magneton | 46 | 1,050 | 525 EXP | 105 EXP | 157 EXP | Verified Turn 44243 |
+
+
 - **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## Field Items in Battle
@@ -103,12 +114,3 @@
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
-- **Empirical Solo-Sweeper EXP.ALL Yields (N=5 Party: Solo Lead [Sheldon], DUX Traded, Inactive Members):**
-
-| Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Hypno | 46 | 1,076 | 538 EXP | 105 EXP | 157 EXP | Verified Turn 44151 |
-| Venomoth | 49 | 966 | 483 EXP | 91 EXP | 136 EXP | Verified Turn 44141 |
-| Parasect | 52 | 950 | 475 EXP | 89 EXP | 133 EXP | Verified Turn 44188 |
-| Golbat | 46 | 1,104 | 558 EXP | 111 EXP | 166 EXP | Verified Turn 44198 |
-| Magneton | 46 | 1,050 | 525 EXP | 105 EXP | 157 EXP | Verified Turn 44243 |
