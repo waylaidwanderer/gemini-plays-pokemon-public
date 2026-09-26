@@ -140,17 +140,17 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: METAPOD (Nickname: SILK) [Lv 9, Bug]
-  - Status: Healthy
-  - Stats: Attack 10, Defense 16, Speed 11, Special 11
+- Slot 4: METAPOD (Nickname: SILK) [Lv 10, Bug]
+  - Status: Healthy (leveled Turn 44230 - Butterfree evolution pending)
+  - Stats: Attack 11, Defense 17, Speed 12, Special 12 [Verified Screen Turn 44230]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 911 (89 to Lv 10 Butterfree)
+  - EXP: 1000 (Butterfree evolution Lv 10 reached!) [Verified Turn 44230]
   - Moves: Tackle (PP 35/35), String Shot (PP 40/40)
 - Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 9, Bug/Poison]
   - Status: Healthy
   - Stats: Attack 10, Defense 14, Speed 11, Special 9
   - OT: BLUE (IDNo. 04620)
-  - EXP: 850 (150 to Lv 10 Beedrill)
+  - EXP: 939 (61 to Lv 10 Beedrill) [Verified Turn 44230]
   - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
@@ -5193,15 +5193,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Active Mission: Trainee Leveling in Cerulean Cave 1F
 - Target Milestone: Evolve Metapod into Butterfree (#012) and Kakuna into Beedrill (#015)
 - Active Party Trainees:
-  - SILK: Lv 9 METAPOD (911 EXP, needs 89 EXP to Lv 10 Butterfree #012)
-    - Next wild encounter in Cerulean Cave 1F guarantees evolution into Butterfree!
-  - NEEDLE: Lv 9 KAKUNA (850 EXP, needs 150 EXP to Lv 10 Beedrill #015)
-    - Approximately 1-2 wild encounters away from Beedrill evolution!
+  - SILK: Lv 10 METAPOD (1000 EXP - Butterfree evolution triggering NOW!)
+  - NEEDLE: Lv 9 KAKUNA (939 EXP, needs 61 EXP to Lv 10 Beedrill #015)
+    - Next battle will evolve NEEDLE into Beedrill!
 - Evolution Safeguard: NEVER press B during evolution sequence! Use A only.
 - In-Game Pok�dex Audit Status:
   - #010 CATERPIE: OWNED
   - #011 METAPOD: OWNED (Evolved Turn 44167)
-  - #012 BUTTERFREE: Unowned (evolves from SILK at Lv 10)
+  - #012 BUTTERFREE: Unowned (evolves from SILK NOW!)
   - #013 WEEDLE: OWNED
   - #014 KAKUNA: OWNED
   - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
