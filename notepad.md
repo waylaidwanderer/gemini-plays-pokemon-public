@@ -286,7 +286,9 @@
 
 ## Experience Distribution & Traded Pokémon Boost
 
-- **Multi-Participant EXP Sharing:** When multiple Pokémon participate in defeating an opposing Pokémon (e.g. entering battle and switching out before fainting), the total battle EXP is divided equally among all non-fainted participants via integer division (`s_EXP = floor(total_EXP / num_participants)`).
+- **Multi-Participant EXP Sharing (With EXP.ALL Active):**
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-9 in Cerulean Cave (Turns 45041-45156). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is distributed via the EXP.ALL routine across all party members (`floor(floor(Total_EXP / 2) / 4)` per native member).
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
   - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
@@ -354,7 +356,6 @@
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   - Meowth Lv 12 (Turn 44842-44849): broke free after 3 shakes on Balls 1 and 2; captured on Ball 3.
   Across these N=6 encounters and 17 total ball throws, 11 out of 17 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
-
 
 <hr>
 
