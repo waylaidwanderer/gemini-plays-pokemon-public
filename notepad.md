@@ -125,7 +125,7 @@
   - HP: 31 / 251 [Verified Turn 43798]
   - Stats: Attack 189, Defense 217, Speed 188, Special 195 [Verified Lv 78 Screen Turn 43661]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 0/15) [Expended Turn 43799], Surf (PP 3/15) [Verified Turn 43723], Ice Beam (PP 0/10) [Verified Turn 43729]
+  - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 0/15) [Expended Turn 43799], Surf (PP 2/15) [Verified Turn 43806], Ice Beam (PP 0/10) [Verified Turn 43729]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
   - HP: 89 / 89 [Lv 37 uninspected]
@@ -5196,7 +5196,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cave Training Protocol & PP Resource Budget
 - Target: Rattata requires ~187 EXP to reach Lv 20 (~1-2 wild battles at ~135 EXP/battle via EXP.ALL) [Hypno defeated Turn 43801].
-- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 31/251 HP; 12 PP remaining: Double-Edge 9, Body Slam 0, Surf 3, Ice Beam 0]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
+- Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 31/251 HP; 11 PP remaining: Double-Edge 9, Body Slam 0, Surf 2, Ice Beam 0]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - HP & Recoil Safety Protocol:
   Double-Edge deals ~27-34 HP recoil. Since Sheldon is at 31 HP, Double-Edge is STRICTLY PROHIBITED until healed.
   Next battles MUST use SURF (Slot 3, 3 PP, 0 recoil, 1HKO). If Surf PP drops to 0 or Sheldon takes damage < 25 HP, use MAX ELIXER x1 (Bag Slot 5) or switch to Mewtwo.
