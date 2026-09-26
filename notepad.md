@@ -137,7 +137,7 @@
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
-- Slots 4-6: Empty (3 open slots ready to receive wild captures in Cerulean Cave directly into party).
+- Slots 4-6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
 - Slot 1: POKé FLUTE
@@ -188,7 +188,6 @@
 - Box 4: Empty [Verified Turn 44287]
 - Box 5: Empty [Verified Turn 44291]
 - Boxes 7-12: Uninspected storage
-
 
 <hr>
 
@@ -2245,12 +2244,11 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Exterior entrance door at (31, 27).
   - Interior Entrance Mat: (3..4, 7), doorway threshold at (3..4, 8).
   - Interior Layout & NPCs:
-    - Northwest Booth: Table at (0..1, 2..3); Gambler seated at (0, 1) in blue chair facing down/right. Post-gift dialogue: "I always thought I was going to win it back...".
+    - Northwest Booth: Table at (0..1, 2..3); Gambler seated at (0, 1) in blue chair facing down/right. Dialogue: "I always thought I was going to win it back...".
     - Southwest Booth: Table at (0..1, 5..6); Patron at (1, 4) in blue chair facing up ("Psst! There's a basement under the GAME CORNER.").
     - Central/East Aisle: Open checkered floor spanning cols 2..5, rows 1..6.
     - Patron at (5, 3) seated at counter chair.
     - Kitchen Counter: Spans col 6, rows 1..5. Chef at (7, 2) behind counter. Patron at (7, 5).
-
 
 <hr>
 

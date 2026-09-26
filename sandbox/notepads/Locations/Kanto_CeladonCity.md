@@ -75,7 +75,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Exterior entrance door at (31, 27).
   - Interior Entrance Mat: (3..4, 7), doorway threshold at (3..4, 8).
   - Interior Layout & NPCs:
-    - Northwest Booth: Table at (0..1, 2..3); Gambler seated at (0, 1) in blue chair facing down/right. Post-gift dialogue: "I always thought I was going to win it back...".
+    - Northwest Booth: Table at (0..1, 2..3); Gambler seated at (0, 1) in blue chair facing down/right. Dialogue: "I always thought I was going to win it back...".
     - Southwest Booth: Table at (0..1, 5..6); Patron at (1, 4) in blue chair facing up ("Psst! There's a basement under the GAME CORNER.").
     - Central/East Aisle: Open checkered floor spanning cols 2..5, rows 1..6.
     - Patron at (5, 3) seated at counter chair.

@@ -15,7 +15,7 @@
 - Slot 3: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
-- Slots 4-6: Empty (3 open slots ready to receive wild captures in Cerulean Cave directly into party).
+- Slots 4-6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
 - Slot 1: POKé FLUTE
