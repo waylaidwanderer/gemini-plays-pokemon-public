@@ -6,14 +6,13 @@
 - Target Milestone: Evolve Metapod into Butterfree (#012) and Kakuna into Beedrill (#015)
 - Active Party Trainees:
   - SILK: Lv 10 BUTTERFREE (OWNED - Evolved Turn 44231!)
-  - NEEDLE: Lv 9 KAKUNA (939 EXP, needs 61 EXP to Lv 10 Beedrill #015)
-    - Next battle will evolve NEEDLE into Beedrill!
+  - NEEDLE: Lv 10 KAKUNA (1044 EXP - Beedrill evolution triggering NOW!)
 - Evolution Safeguard: NEVER press B during evolution sequence! Use A only.
-- In-Game Pokédex Audit Status:
+- In-Game PokÃ©dex Audit Status:
   - #010 CATERPIE: OWNED
   - #011 METAPOD: OWNED (Evolved Turn 44167)
   - #012 BUTTERFREE: OWNED (Evolved Turn 44231)
   - #013 WEEDLE: OWNED
   - #014 KAKUNA: OWNED
-  - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
-  - Pokédex Totals: OWN 65, SEEN 137
+  - #015 BEEDRILL: Unowned (evolves from NEEDLE NOW!)
+  - PokÃ©dex Totals: OWN 65, SEEN 137

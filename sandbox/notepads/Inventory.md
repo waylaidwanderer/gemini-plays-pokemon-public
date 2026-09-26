@@ -30,11 +30,11 @@
   - OT: BLUE (IDNo. 04620)
   - EXP: 1000 (331 to Lv 11) [Verified Page 2 Turn 44235]
   - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44235]
-- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 9, Bug/Poison]
-  - Status: Healthy
-  - Stats: Attack 10, Defense 14, Speed 11, Special 9
+- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 10, Bug/Poison]
+  - Status: Healthy (leveled Turn 44246 - Beedrill evolution pending)
+  - Stats: Attack 11, Defense 15, Speed 12, Special 10 [Verified Screen Turn 44246]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 939 (61 to Lv 10 Beedrill) [Verified Turn 44230]
+  - EXP: 1044 (Beedrill evolution Lv 10 reached!) [Verified Turn 44246]
   - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
