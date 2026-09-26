@@ -152,7 +152,7 @@
   - HP: 245 / 274 [Hit by Confusion Turn 45144]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 30/30), Recover (PP 20/20) [Verified Battle Screen Turn 45145]
+  - Moves: Swift (PP 20/20), Psychic (PP 9/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Battle Screen Turn 45145]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
