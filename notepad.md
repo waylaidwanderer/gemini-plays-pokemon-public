@@ -131,7 +131,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 20, Normal]
   - Status: Healthy
-  - HP: ~50-51 (Lv 20)
+  - HP: 51 / 51 [Verified Battle Screen Turn 45235]
   - Stats: Attack 24, Defense 24, Speed 46, Special 22 [Verified Level Up Box Turn 45230]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Stats Screen Turn 45183]
@@ -5223,6 +5223,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Battle 12 (Hypno Lv 46, Total EXP: 1,076) [Turn 45186-45191]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
     - Battle 13 (Venomoth Lv 49, Total EXP: 952) [Turn 45198-45214]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic.
     - Battle 14 (Venomoth Lv 49, Total EXP: 952) [Turn 45224-45230]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic. Felix grew to Level 20!
+    - Battle 15 (Magneton Lv 46) [Turn 45234-]: In progress (Felix Slot 1 engaged).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic (PP 5/10) - Special STAB, guaranteed OHKO on high-defense targets.
