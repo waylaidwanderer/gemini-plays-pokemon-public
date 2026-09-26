@@ -27,7 +27,7 @@
 
 - Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
 
-- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11).
+- Bug Catcher (7, 22): Defeated .
 
 - Ground Item (2, 2): MOON STONE collected [Turn 46009].
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
@@ -58,9 +58,9 @@
 
 - Lass (30, 4): Stationed at (30, 4) facing South down column 30. Defeated.
 
-- Lass (16, 24..25): Defeated (Clefairy Lv 14). Stationed near central junction passage.
+- Lass (16, 24..25): Defeated . Stationed near central junction passage.
 
-- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11).
+- Super Nerd (24, 31): Defeated .
 
 - Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated. Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
 

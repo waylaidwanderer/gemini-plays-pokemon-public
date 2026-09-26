@@ -1,26 +1,9 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Expedition 17 Plan: Floral & Mountain Biodiversity
-
-- Target 2: Clefairy (#035) -> Clefable (#036) [Hunt Commenced Turn 46011]
-  - Travel to Mt. Moon and capture wild Clefairy (#035).
-  - Moon Stone retrieved from Mt. Moon 1F (2, 2) [Turn 46009] and ready in Bag (Slot 11).
-  - Location Strategy & Working Hypothesis:
-    - Working hypothesis: Mt. Moon 1F hosts wild Clefairy (#035) as a rare encounter (~1-6%).
-  - Empirical Wild Encounter Summary (Expedition 17):
-    - Mt. Moon 1F (35 encounters logged through Turn 46344):
-      - Zubat: 24 (Lv 6-11)
-      - Geodude: 7 (Lv 8)
-      - Paras: 4 (Lv 8)
-      - Clefairy: 0 (0.0% observed)
-    - Mt. Moon B1F (2 encounters):
-      - Zubat: 2 (Lv 7, 9)
-    - Mt. Moon B2F (11 encounters):
-      - Geodude: 6 (Lv 9-10)
-      - Zubat: 4 (Lv 9-11)
-      - Paras: 1 (Lv 10)
-      - Clefairy: 0 (0.0% observed)
-    - Total Sample Size: 48 encounters across Mt. Moon (0 Clefairy observed).
+## Celadon Acquisition Plan: Clefairy (#035) -> Clefable (#036)
+- Transitioned from Mt. Moon to Celadon City for deterministic Prize Exchange acquisition.
+- Moon Stone in Bag (Slot 11).
+- Status: Verifying Coin Case and Prize Exchange requirements.
   - Empirical Stopping Criterion & Pivot Execution:
     - Hunt Termination: Wild Clefairy search terminated after 42 total Mt. Moon encounters (29 on 1F, 2 on B1F, 11 on B2F) yielded 0 Clefairy sightings.
     - Pivot Decision: Transitioned to 100% deterministic acquisition at Celadon Prize Exchange. Exiting Mt. Moon south to Route 4 to fly to Celadon City.
