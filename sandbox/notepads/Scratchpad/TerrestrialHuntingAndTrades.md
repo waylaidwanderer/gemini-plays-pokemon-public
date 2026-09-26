@@ -24,7 +24,11 @@
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
-  - Empirical Yield Test Protocol: Theoretical yield estimate is ~37.5-62.5% of total battle EXP. Exact participant + EXP.ALL division in this 4-member party will be empirically measured and logged on Battle 1.
+  - Empirical Proof of Work (Battle 1 vs Raichu Lv 53, Total EXP: 908) [Turn 45041-45042]:
+    - Participant Share (454 / 2): FELIX 227 EXP, OMEGA 227 EXP.
+    - EXP.ALL Distribution: FELIX 53 EXP, DUX 79 EXP (traded boost), SHELDON 53 EXP, OMEGA 53 EXP.
+    - Total Yield to Felix: 280 EXP (227 + 53) = ~30.8% of Total Battle EXP.
+    - Efficiency: 280 EXP vs 113 EXP passive share (2.48x faster EXP accumulation!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -35,5 +39,6 @@
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, swap Felix to Slot 1, return to cave.
 - Trainee Progress (FELIX Lv 15):
-  - Current EXP: 3,574
-  - Lv 16 threshold: 4,096 (522 EXP to Lv 16).
+  - Current EXP: 3,854
+  - Lv 16 threshold: 4,096 (242 EXP to Lv 16).
+  - Battle 1 (Raichu Lv 53) yielded 280 EXP (227 participant + 53 EXP.ALL).
