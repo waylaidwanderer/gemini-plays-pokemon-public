@@ -383,10 +383,11 @@
 - **Haze Status Cure (Empirically Verified Battle 26, Turn 45468):** In Generation 1 retail, the move HAZE ('All STATUS changes are eliminated!') resets all stat stages to 0 and cures persistent primary status conditions (e.g. PAR) on the opponent. Wild Golbat's Haze completely cured Omega's paralysis, restoring full Speed and removing the PAR status condition.
 
 ## Wild Battle Escape Mechanics (Generation 1 Retail)
-- **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pokémon's actual current Speed compared to the opponent's Speed.
-- **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pokémon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pokémon (e.g. Blastoise Sheldon with ~40-45 paralyzed Speed) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46 Speed ~70, Sandslash Lv 52 Speed ~80) [Empirically verified Turns 46658, 46660, 46680].
-- **Consecutive Attempt Progression:** Each successive failed escape attempt adds an incremental bonus to the escape check (+30 per attempt), enabling subsequent escape attempts to succeed even with slower/paralyzed leads (e.g. Sheldon escaped on Attempt 2 vs Magneton [Turn 46682]).
-- **High-Speed Lead Fleeing (Mewtwo Empirical Observation):** Mewtwo (OMEGA Lv 76, healthy) successfully escaped on Attempt 1 against wild Dodrio Lv 49 [Empirically verified Turn 46800]. Broader claims regarding universal first-turn escapes or specific wild speed caps remain unverified hypotheses.
+- **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pok�mon's actual current Speed compared to the opponent's Speed.
+- **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pok�mon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pok�mon (e.g. Blastoise Sheldon with paralyzed Speed estimate ~40-45) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46, Sandslash Lv 52; wild stat screens invisible, speeds estimated from species baselines) [Empirically verified Turns 46658, 46660, 46680].
+- **Consecutive Attempt Progression:** Each successive failed escape attempt appears to increase escape likelihood (observed: Sheldon escaped on Attempt 2 after failing Attempt 1 vs Magneton [Turn 46682]). Citing specific internal constants without empirical measurement violates the Burden of Proof; numerical bonuses remain unverified hypotheses.
+- **High-Speed Lead Fleeing (Mewtwo Empirical Dataset):** Mewtwo (OMEGA Lv 76, healthy, unparalyzed) has achieved 100% first-turn escape success across all tested wild encounters: Dodrio Lv 49 (Turns 46800, 46819, 46849), Kadabra Lv 49 (Turn 46811), Magneton Lv 46 (Turns 46826, 46846, 46858), Hypno Lv 46 (Turns 46834, 46838, 46842), and Golbat Lv 46 (Turns 46852, 46855). Wild speed caps or universal mechanics beyond observed empirical trials remain unverified.
+
 
 
 <hr>
