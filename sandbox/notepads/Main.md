@@ -1,4 +1,4 @@
-# Pokémon Blue - Journey Log
+- Pokédex: 65 Caught [Evolved Butterfree #012 Turn 44231] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Status
 
@@ -6,13 +6,13 @@
 
 - Money: ¥5,905
 
-- Pokédex: 64 Caught [Evolved Metapod #011 Turn 44167] / 137 Seen [Audited In-Game Pokédex Turn 44103]
+- Pokédex: 65 Caught [Evolved Butterfree #012 Turn 44231] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Milestones
 
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
-- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
+- Pokédex: 65 Caught [Evolved Butterfree #012 Turn 44231] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 
