@@ -8,7 +8,7 @@
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 19, Normal]
   - Status: Healthy
   - HP: 48 / 48 [Verified Stats Screen Turn 45182]
-  - Stats: Attack 23, Defense 23, Speed 44, Special 21 [Verified Stats Screen Turn 45182]
+  - Stats: Attack 23, Defense 23, Speed 44, Special 21
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Stats Screen Turn 45183]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
@@ -19,16 +19,16 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 214 / 254 [Verified Battle Screen Turn 45190]
+  - HP: 214 / 254
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45191]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 228 / 274 [Verified Battle Screen Turn 45209]
+  - HP: 216 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Turn 45209]
+  - Moves: Swift (PP 20/20), Psychic (PP 7/10), Barrier (PP 29/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
