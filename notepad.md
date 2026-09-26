@@ -141,10 +141,10 @@
   - Stats: Attack 67, Defense 62, Speed 62, Special 59
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
-- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
+- Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 80, Water]
   - Status: PSN
-  - HP: 254 / 254
-  - Stats: Attack 191, Defense 220, Speed 191, Special 198
+  - HP: 223 / 258
+  - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
@@ -203,6 +203,7 @@
 - Box 4: Empty [Verified Turn 44287]
 - Box 5: Empty [Verified Turn 44291]
 - Boxes 7–12: Uninspected storage
+
 
 <hr>
 
