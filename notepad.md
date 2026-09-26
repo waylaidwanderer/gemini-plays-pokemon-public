@@ -134,7 +134,7 @@
   - HP: 269 / 274 [Verified Battle Screen Turn 44847]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 19/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 19/20), Psychic (PP 6/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
   - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
@@ -153,7 +153,7 @@
   - Stats: Attack 17, Defense 17, Speed 31, Special 15 [Verified Level Up Box Turn 44924]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
-  - EXP: 2,246
+  - EXP: 2,377
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
