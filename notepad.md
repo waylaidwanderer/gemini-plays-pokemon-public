@@ -5170,30 +5170,28 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Mission: Withdraw Trainees from Box 2 & Train in Cerulean Cave 1F
-- Targets in Box 2 Ready for Training:
-  - SILK: Caterpie (#010 Lv 3) -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
-  - NEEDLE: Weedle (#013 Lv 3) -> Level 7 (Kakuna #014), Level 10 (Beedrill #015)
-  - SPROUT: Bellsprout (#069 Lv 12) -> Level 21 (Weepinbell #070) -> Leaf Stone (Victreebel #071)
-  - BIRDIE: Pidgey (#016 Lv 13) -> Level 18 (Pidgeotto #017) -> Level 36 (Pidgeot #018)
-  - COCOON: Kakuna (#014 Lv 4) -> Level 10 (Beedrill #015)
-- Completed Evolutions:
-  - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
-  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817, Stored Box 2 Turn 43832]
-- Archived Targets in Storage:
-  - Box 2: SILK, NEEDLE, SPROUT, BIRDIE, COCOON, PUFF, RATTY
+- Active Mission: Viridian Forest Target Acquisition (Caterpie & Weedle)
+- Box Audit Reality Check [Turn 43833 & 43890]:
+  - Box 2 only contained PUFF and RATTY (now Raticate in Box 2).
+  - Box 1 and Box 3 are empty.
+  - Targets (Caterpie, Weedle) are NOT in PC storage.
+  - Viridian Forest is the verified habitat for Caterpie (#010, 50%) and Weedle (#013, 5%).
+- Party Status:
+  - Lead: Blastoise (SHELDON Lv 78) - 251/251 HP, 55/55 PP
+  - Slot 2: Farfetch'd (DUX Lv 37) - Cut, Fly
+  - Slot 3: Mewtwo (OMEGA Lv 76) - 269/269 HP
+  - Slots 4, 5, 6: EMPTY (3 open slots for immediate field recruitment).
+- Bag Status: 88 Poké Balls, EXP.ALL active in Bag, 2 Leaf Stones.
 
-## Active Team & Sweeper Status
-- Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 251/251 HP, 55/55 PP: Double-Edge 15, Body Slam 15, Surf 15, Ice Beam 10 - Healed Turn 43825].
-- Reserve Sweeper: Mewtwo Lv 76 (OMEGA, Psychic) [Slot 3, 269/269 HP, Swift 20, Psychic 10, Barrier 30, Recover 20 - Healed Turn 43825].
-- Utility: Farfetch'd Lv 37 (DUX) [Slot 2, Cut, Fly].
-- Party Open Slots: 3 available (Slots 4, 5, 6).
-
-## Training Protocol
-1. Exit Viridian Forest south gatehouse to Route 2 outdoor area.
-2. Use HM02 Fly with DUX to fly to Cerulean City.
-3. Enter Cerulean Pokémon Center, access PC, switch to Box 2, and withdraw SILK, NEEDLE, and SPROUT into Slots 4, 5, 6.
-4. Enter Cerulean Cave 1F via Route 24 canal and solo-sweep wild encounters with Sheldon to evolve SILK into Butterfree (#012) and NEEDLE into Beedrill (#015).
+## Hunting & Training Protocol
+1. Enter Viridian Forest from Route 2 south gatehouse.
+2. Advance to tall grass patch at (18, 40) - (23, 41).
+3. Catch wild Caterpie (#010) (and wild Weedle #013 / Kakuna / Metapod).
+   - Target 1: Caterpie -> Lv 7 (Metapod #011) -> Lv 10 (Butterfree #012)
+   - Target 2: Weedle -> Lv 7 (Kakuna #014) -> Lv 10 (Beedrill #015)
+   - Recruits join active party directly in Slots 4 & 5.
+4. Exit south to Route 2, cast HM02 Fly to Cerulean City.
+5. Solo-sweep in Cerulean Cave 1F with Sheldon/Mewtwo; EXP.ALL rapidly levels trainees to Lv 10.
 
 
 <hr>
