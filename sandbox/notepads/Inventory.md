@@ -15,7 +15,7 @@
   - Moves: Double-Edge (PP 9/15) [Verified Turn 43790], Body Slam (PP 0/15) [Expended Turn 43799], Surf (PP 1/15) [Turn 43812], Ice Beam (PP 0/10) [Verified Turn 43729]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - Status: Healthy
-  - HP: 89 / 89 [Lv 37 uninspected]
+  - HP: 94 / 94 [Verified Party Screen Turn 43820]
   - Stats: Attack 61, Defense 57, Speed 57, Special 54 [Verified Lv 37 Screen Turn 43763]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
@@ -27,7 +27,7 @@
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 4: RATICATE (Nickname: RATTY) [Lv 20, Normal]
   - Status: Healthy
-  - HP: Uninspected at Lv 20
+  - HP: 55 / 55 [Verified Party Screen Turn 43820]
   - Stats: Attack 31, Defense 23, Speed 37, Special 16 [Verified Lv 20 Screen Turn 43816]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
