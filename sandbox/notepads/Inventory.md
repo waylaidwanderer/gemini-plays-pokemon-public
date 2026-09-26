@@ -7,10 +7,10 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Poisoned (PSN)
-  - HP: 269 / 274 [Verified Battle Screen Turn 44847]
+  - HP: 268 / 274 [Verified Battle Screen Turn 44847]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 17/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 16/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
   - Status: Poisoned (PSN)
   - HP: 99 / 99 [Verified Screen Turn 44761]
