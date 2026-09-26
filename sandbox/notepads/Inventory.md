@@ -23,10 +23,10 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 16, Grass/Poison]
+- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 17, Grass/Poison]
   - Status: Healthy
-  - HP: Pending inspection at Lv 16 (Lv 14 was 38/38)
-  - Stats: Attack 33, Defense 19, Speed 19, Special 29 [Verified Level Up Box Turn 44482]
+  - HP: Pending inspection at Lv 17 (Lv 14 was 38/38)
+  - Stats: Attack 35, Defense 20, Speed 19, Special 31 [Verified Level Up Box Turn 44519]
   - OT: BLUE (IDNo. 04620)
   - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Learned Turn 44453]
   - EXP: 3,253 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 3,205 EXP)
