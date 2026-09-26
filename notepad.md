@@ -5225,8 +5225,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
-- Trainee Progress (FELIX Lv 21):
-  - Current EXP: ~10,462 / 10,648 (~186 EXP to Lv 22).
+- Trainee Progress (FELIX Lv 22):
+  - Verified Stats: Attack 26, Defense 27, Speed 50, Special 24.
+  - Target: Persian (#053) at Level 28 (6 levels to Lv 28).
 
 <hr>
 
