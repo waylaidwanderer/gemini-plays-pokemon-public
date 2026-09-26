@@ -60,6 +60,6 @@
 ## Verified Southern Entrance & Patrol Geometry (Empirically Verified Turns 39450-41940)
 - **Southern Entrance / Egress Warp Mat:** Coordinates (24..25, 17). Stepping onto this 2-tile wide threshold immediately warps the player outdoors to the Cerulean City canal water.
 - **High-Rate Patrol Rectangular Loop (Rows 14..15, Cols 21..25):**
-  - Walkable open cavern floor forms a continuous, collision-free 5x2 rectangular loop across Columns 21 through 25 on Rows 14 and 15 [Empirically verified across Turns 44954–44996].
+  - Walkable open cavern floor forms a continuous, collision-free 5x2 rectangular loop across Columns 21 through 25 on Rows 14 and 15 [Empirically verified across Turns 44954-44996].
   - Bounded west by solid cavern wall at Column 20, east by impassable rock wall at Column 26, and south by row 16 boundary (exit threshold at 24..25, 17).
   - Pacing this 5x2 loop generates consistent wild encounters (Lv 46-53: Golbat, Hypno, Magneton, Kadabra, Parasect, Sandslash, Dodrio, Raichu, Venomoth, Ditto) while providing instant 2-step access to the exit at (25, 17).
