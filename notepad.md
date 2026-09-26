@@ -141,6 +141,8 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: CATERPIE (Nickname: SILK) [Lv 5, Bug]
   - Status: Healthy (captured Turn 43914, uninspected stats/moves in-game)
+- Slot 5: KAKUNA (Nickname: NEEDLE pending) [Lv 4, Bug/Poison]
+  - Status: Healthy (captured Turn 44084, Ball 4, uninspected stats/moves in-game)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5173,10 +5175,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Started: Turn 42404
 - Active Mission: Viridian Forest Target Acquisition - Weedle (#013)
 - Recruited Trainees in Party:
-  - Slot 4: SILK (Caterpie #010, Lv 5) [Recruited Turn 43928] -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
+  - Slot 4: SILK (Caterpie #010, Lv 5) [Recruited Turn 43914] -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
+  - Slot 5: NEEDLE (Kakuna #014, Lv 4) [Recruited Turn 44084, Ball 4] -> Level 10 (Beedrill #015)
 - Active Target in Tall Grass:
-  - Target 2: Weedle (#013) [Theoretical Baseline Hypothesis: 5% encounter rate in retail Blue] -> Level 7 (Kakuna #014), Level 10 (Beedrill #015)
-  - Target 2 Alternate: Kakuna (#014) [Theoretical Baseline Hypothesis: 5% encounter rate in retail Blue] -> Level 10 (Beedrill #015)
+  - TARGETS ACQUIRED! Party now has 5 Pok�mon (3 sweepers/utilities, 2 trainees). Ready for Cerulean Cave power-leveling.
 - Encounter Strategy:
   - Flee (RUN) from duplicate Caterpie, Metapod, and Pikachu encounters.
   - Throw Poké Balls at wild Weedle or Kakuna; recruit directly into Party Slot 5.
