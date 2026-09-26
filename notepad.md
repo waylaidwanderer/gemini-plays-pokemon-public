@@ -143,10 +143,10 @@
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
-  - HP: 242 / 254 [Verified Battle Screen Turn 45165]
+  - HP: 214 / 254 [Verified Battle Screen Turn 45190]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 14/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45165]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45191]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 240 / 274 [Verified Battle Screen Turn 45174]
@@ -5221,7 +5221,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 4) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 11 consecutive battles (Battles 1-11, Turns 45041-45175).
   - Recent Battles:
     - Battle 11 (Golbat Lv 46, Total EXP: 1,104) [Turn 45170-45175]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's Psychic.
-    - Battle 12 (Hypno Lv 46, Total EXP: 1,076) [Turn 45186-45191]: Felix 269 participant + 67 EXP.ALL = 336 EXP (~31.2%). Defeated by Sheldon's Surf.
+    - Battle 12 (Hypno Lv 46, Total EXP: 1,076) [Turn 45186-45191]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -5230,8 +5230,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 19):
-  - Current EXP: ~7,563
-  - Lv 20 threshold: 8,000 (~437 EXP to Lv 20).
+  - Current EXP: ~7,561
+  - Lv 20 threshold: 8,000 (~439 EXP to Lv 20).
   - Stats: Atk 23, Def 23, Spe 44, Spc 21.
 
 
