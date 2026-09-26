@@ -139,10 +139,10 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 2/20), Psychic (PP 0/10), Barrier (PP 30/30), Recover (PP 20/20)
-- Slot 4: RATTATA (Nickname: RATTY) [Lv 18, Normal]
+- Slot 4: RATTATA (Nickname: RATTY) [Lv 19, Normal]
   - Status: Healthy
-  - HP: Uninspected at Lv 18 (38/38 at Lv 16 [Turn 43593])
-  - Stats: Attack 28, Defense 21, Speed 33, Special 14 [Verified Lv 18 Screen Turn 43689]
+  - HP: Uninspected at Lv 19 (38/38 at Lv 16 [Turn 43593])
+  - Stats: Attack 30, Defense 21, Speed 35, Special 15 [Verified Lv 19 Screen Turn 43747]
   - Caught: Route 1 [Turn 43083] with Poké Ball
   - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
 
@@ -5182,7 +5182,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 16 Status (Terrestrial Biodiversity & Stone Evolutions)
 - Started: Turn 42404
-- Active Trainee: Rattata (#019 RATTY Lv 18, Party Slot 4) - Current Lv 18 (6,763 EXP verified Turn 43737, needs 96 EXP for Lv 19), target Lv 20 (8,000 EXP) for Raticate (#020)
+- Active Trainee: Rattata (#019 RATTY Lv 19, Party Slot 4) - Current Lv 19 (6,894 EXP verified Turn 43747, needs 1,106 EXP for Lv 20), target Lv 20 (8,000 EXP) for Raticate (#020)
 - Completed Targets Archived in Box 2:
   - Bellsprout (#069 SPROUT) [Turn 42628]
   - Weedle (#013 NEEDLE) [Turn 42784]
@@ -5202,7 +5202,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Pokédex-Only Speed Strategy: Immediate stone application upon capture is optimal to minimize training time when battle movesets are unneeded.
 
 ## Cave Training Protocol & PP Resource Budget
-- Target: Rattata requires ~1,237 EXP to reach Lv 20 (~9 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43737].
+- Target: Rattata requires ~1,106 EXP to reach Lv 20 (~8 wild battles at ~135 EXP/battle via EXP.ALL) [Audited Turn 43747].
 - Active Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 234/251 HP, healthy; PP tracked in Inventory.md]. Mewtwo (OMEGA Lv 76, Slot 3) rests in reserve with Swift x2, Recover x20.
 - PP Exhaustion Tripwire:
   When Sheldon's total offensive PP (Double-Edge + Body Slam + Surf + Ice Beam) drops to <= 5 (or when all moves viable for current spawns are exhausted):
