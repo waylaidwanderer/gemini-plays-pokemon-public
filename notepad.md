@@ -137,7 +137,7 @@
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Stats Screen Turn 45183]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
-  - HP: 99 / 99 [Verified Screen Turn 44761]
+  - HP: 102 / 102
   - Stats: Attack 67, Defense 62, Speed 62, Special 59 [Verified Level Up Box Turn 45080]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
@@ -146,7 +146,7 @@
   - HP: 162 / 254
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 12/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 12/15), Ice Beam (PP 9/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 189 / 274
@@ -5218,13 +5218,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
-  - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 4) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 11 consecutive battles (Battles 1-11, Turns 45041-45175).
+  - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 8) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 11 consecutive battles (Battles 1-11, Turns 45041-45175).
   - Recent Battles:
-    - Battle 12 (Hypno Lv 46, Total EXP: 1,076) [Turn 45186-45191]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
-    - Battle 13 (Venomoth Lv 49, Total EXP: 952) [Turn 45198-45214]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic.
-    - Battle 14 (Venomoth Lv 49, Total EXP: 952) [Turn 45224-45230]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic. Felix grew to Level 20!
-    - Battle 15 (Magneton Lv 46, Total EXP: 1,050) [Turn 45234-45241]: Felix 262 participant + 65 EXP.ALL = 327 EXP (~31.1%). Defeated by Omega's Psychic (Crit).
-    - Battle 16 (Golbat Lv 46, Total EXP: 1,104) [Turn 45245-45251]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's Psychic.
     - Battle 17 (Sandslash Lv 52, Total EXP: 1,188) [Turn 45255-45261]: Felix 297 participant + 74 EXP.ALL = 371 EXP (~31.2%). Defeated by Sheldon's Surf.
     - Battle 18 (Dodrio Lv 49) [Turn 45264-]: In progress (Felix switched to Sheldon Lv 79 - Level 21 trigger battle!).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
