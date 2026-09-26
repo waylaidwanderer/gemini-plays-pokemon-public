@@ -149,7 +149,7 @@
   - HP: 47 / 47 [Leveled up to 18 Turn 44568]
   - Stats: Attack 37, Defense 21, Speed 21, Special 33 [Verified Level Up Box Turn 44568]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Learned Turn 44453]
+  - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
   - EXP: 3,922 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 2,536 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
