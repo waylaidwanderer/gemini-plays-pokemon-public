@@ -4,10 +4,10 @@
 - Started: Turn 42404
 - Active Mission: Viridian Forest Target Acquisition - Weedle (#013)
 - Recruited Trainees in Party:
-  - Slot 4: SILK (Caterpie #010, Lv 5) [Recruited Turn 43928] -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
+  - Slot 4: SILK (Caterpie #010, Lv 5) [Recruited Turn 43914] -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
+  - Slot 5: NEEDLE (Kakuna #014, Lv 4) [Recruited Turn 44084, Ball 4] -> Level 10 (Beedrill #015)
 - Active Target in Tall Grass:
-  - Target 2: Weedle (#013) [Theoretical Baseline Hypothesis: 5% encounter rate in retail Blue] -> Level 7 (Kakuna #014), Level 10 (Beedrill #015)
-  - Target 2 Alternate: Kakuna (#014) [Theoretical Baseline Hypothesis: 5% encounter rate in retail Blue] -> Level 10 (Beedrill #015)
+  - TARGETS ACQUIRED! Party now has 5 Pokémon (3 sweepers/utilities, 2 trainees). Ready for Cerulean Cave power-leveling.
 - Encounter Strategy:
   - Flee (RUN) from duplicate Caterpie, Metapod, and Pikachu encounters.
   - Throw PokÃ© Balls at wild Weedle or Kakuna; recruit directly into Party Slot 5.

@@ -25,6 +25,8 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: CATERPIE (Nickname: SILK) [Lv 5, Bug]
   - Status: Healthy (captured Turn 43914, uninspected stats/moves in-game)
+- Slot 5: KAKUNA (Nickname: NEEDLE pending) [Lv 4, Bug/Poison]
+  - Status: Healthy (captured Turn 44084, Ball 4, uninspected stats/moves in-game)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
