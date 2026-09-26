@@ -149,7 +149,7 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 11/15), Ice Beam (PP 9/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Paralyzed
-  - HP: 146 / 274
+  - HP: 117 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 3/10), Barrier (PP 29/30), Recover (PP 20/20)
