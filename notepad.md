@@ -155,7 +155,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x56
+- Slot 10: POKé BALL x55
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -365,7 +365,7 @@
   - Golbat Lv 46 (BCR 90): Captured on Ball 1 at full HP [Turn 46597].
   - Magneton Lv 46 (BCR 60): Broke free on Balls 1 and 2; captured on Ball 3 at full HP [Turn 46610].
   - Dodrio Lv 49 (BCR 45): Missed on Balls 1, 2, 3, 4, 5, 6; captured on Ball 7 at full HP [Turn 46723].
-  - Kadabra Lv 49 (BCR 100): Consecutive wobbles and breakouts observed at full HP across Balls 1-10; demonstrates that even with BCR 100, full-HP threshold checks can require multiple throws before capture succeeds.
+  - Kadabra Lv 49 (BCR 100): Consecutive wobbles and breakouts observed at full HP across Balls 1-11; demonstrates that even with BCR 100, full-HP threshold checks can require multiple throws before capture succeeds.
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
 - **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
@@ -5276,7 +5276,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Hunting Protocol & Strategy
 - Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
 - Patrol entrance loop on rows 14-15 across cols 21-25.
-- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (56 in Bag (Kadabra engaged, 10 balls thrown)).
+- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (55 in Bag (Kadabra engaged, 11 balls thrown)).
 - Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
 - Storing captures: Party slots 5 and 6 are open to receive Kadabra and Venomoth directly into party (Dodrio occupies Slot 4).
 
