@@ -5229,14 +5229,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
     - Sheldon (Healthy): Preferred when facing Electric moves (Magneton/Raichu), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
   - Recent Battles (Rolling 2-Battle Window):
-    - Battle 26 (Golbat Lv 46, Total EXP: 1,104) [Turn 45464-45472]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's STAB Psychic.
     - Battle 27 (Hypno Lv 46, Total EXP: 1,076) [Turn 45478-45492]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's STAB critical Surf. Felix grew to Level 23! (Stats: Atk 27, Def 28, Spd 53, Spc 25).
+    - Battle 28 (Sandslash Lv 52, Total EXP: 1,188) [Turn 45497-45506]: Felix 297 participant + 74 EXP.ALL = 371 EXP (~31.2%). Defeated by Sheldon's STAB Surf. Sheldon grew to Level 80!
 
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore PP and cure status conditions, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 23):
   - Verified Stats: HP ~57, Attack 27, Defense 28, Speed 53, Special 25 (audited Turn 45490).
-  - EXP Tracking: Current EXP: ~12,398 / 13,824 EXP. Level Up: ~1,426 EXP to Lv 24 (after Battle 27).
+  - EXP Tracking: Current EXP: ~12,769 / 13,824 EXP. Level Up: ~1,055 EXP to Lv 24 (after Battle 28).
   - Target: Persian (#053) at Level 28 (21,952 EXP, 5 levels to Lv 28).
 
 
