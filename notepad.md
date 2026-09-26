@@ -128,10 +128,10 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - Status: Healthy
-  - HP: 269 / 269 [Verified Screen Turn 44566]
+  - HP: 258 / 269 [Verified Screen Turn 44609]
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 16/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20) [Swift used 2x vs Hypno Turns 44602-44603]
+  - Moves: Swift (PP 14/20), Psychic (PP 7/10), Barrier (PP 30/30), Recover (PP 20/20) [Swift used 2x vs Hypno Turns 44608-44609]
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 38, Normal/Flying]
   - Status: Healthy
   - HP: 97 / 97 [Verified Party Screen Turn 44523]
