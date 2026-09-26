@@ -23,10 +23,10 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
-- Slot 4: MEOWTH (Nickname: FELIX) [Lv 13, Normal]
+- Slot 4: MEOWTH (Nickname: FELIX) [Lv 14, Normal]
   - Status: Healthy
   - HP: Uninspected [Pending direct Party/Stats screen verification]
-  - Stats: Attack 17, Defense 17, Speed 31, Special 15 [Verified Level Up Box Turn 44924]
+  - Stats: Attack 18, Defense 18, Speed 33, Special 16 [Verified Level Up Box Turn 44959]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
 
