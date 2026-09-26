@@ -146,7 +146,7 @@
   - HP: 258 / 258
   - Stats: Attack 194, Defense 224, Speed 194, Special 201
   - OT: BLUE (IDNo. 04620)
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 14/15), Ice Beam (PP 10/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
   - HP: 274 / 274
@@ -288,7 +288,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-34 in Cerulean Cave (Turns 45041-45578). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-35 in Cerulean Cave (Turns 45041-45652). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
@@ -5283,7 +5283,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
     - Bag & PC currently contain 0 Moon Stones.
     - Historical Moon Stones consumed (2 total): Nidoqueen (#031) [Turn 31235] and Wigglytuff (#040) [Turn 43213].
     - Historical pickups audited: Rocket Hideout B2F Item Ball 1 at (1, 11) retrieved Turn 5721 (contained Moon Stone).
-    - Remaining candidate sites to audit for uncollected Moon Stones before Clefable quest (unverified hypotheses): Mt. Moon 1F, Mt. Moon B2F, Silph Co. 5F, Pokémon Mansion B1F.
+    - Remaining candidate sites audited for uncollected Moon Stones [Audited Turn 45662]:
+      - Mt. Moon 1F: Ground item ball at (2, 2) remains uncollected (visible in NW corner).
+      - Mt. Moon B2F: Ground item ball at (29, 5) remains uncollected (visible on elevated northern platform).
+      - Pokémon Mansion B1F: Fully cleared [Turns 14575-14678] - all 5 items retrieved (Full Restore, TM14, Rare Candy, TM22, Secret Key; zero Moon Stones).
+      - Silph Co. 5F: Potential candidate (unverified).
 
 - [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
