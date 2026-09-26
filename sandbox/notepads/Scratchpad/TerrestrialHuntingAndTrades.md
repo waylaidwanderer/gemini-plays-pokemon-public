@@ -28,7 +28,7 @@
     - Battle 15 (Magneton Lv 46) [Turn 45234-]: In progress (Felix switched to Omega Lv 77).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
-  - Secondary Attack: Psychic (PP 5/10) - Special STAB, guaranteed OHKO on high-defense targets.
+  - Secondary Attack: Psychic (PP 4/10) - Special STAB, guaranteed OHKO on high-defense targets.
   - Recovery: Recover (PP 20/20) - sustains HP in-cave without consumables.
 
 - Healing / Center Protocol:
