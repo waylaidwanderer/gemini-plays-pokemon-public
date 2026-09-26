@@ -5,10 +5,10 @@
 - IDNo: 04620
 
 ## Party Pokémon (4 / 6)
-- Slot 1: MEOWTH (Nickname: FELIX) [Lv 27, Normal]
+- Slot 1: PERSIAN (Nickname: FELIX) [Lv 28, Normal]
   - Status: Healthy
-  - HP: 66 / 66
-  - Stats: Attack 32, Defense 32, Speed 61, Special 29
+  - HP: 68 / 68 (audited post-evolution)
+  - Stats: Attack 33, Defense 33, Speed 64, Special 30
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 41, Normal/Flying]
@@ -25,10 +25,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 5/15), Ice Beam (PP 5/10)
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 154 / 274
+  - HP: 145 / 274
   - Stats: Attack 202, Defense 185, Speed 233, Special 275
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 3/10), Barrier (PP 30/30), Recover (PP 20/20)
+  - Moves: Swift (PP 20/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE

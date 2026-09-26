@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 69 Caught [Caught Meowth #052 Turn 44849] / 137 Seen
+- Pokédex: 70 Caught [Evolved Felix into Persian #053 Turn 45881] / 137 Seen
 
 ## Milestones
 
@@ -114,3 +114,5 @@
 - [x] Evolve Weepinbell into Victreebel (#071) via Leaf Stone [Turn 44758]
 - [x] Evolve Bellsprout into Weepinbell (#070) [Turn 44752]
 - [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]
+
+- [x] Evolve Meowth into Persian (#053) at Lv 28 [Turn 45881]

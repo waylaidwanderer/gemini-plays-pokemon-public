@@ -10,7 +10,7 @@
 
 
 
-- [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
+- [x] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Evolved into Persian #053 Turn 45881]
 
   - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
