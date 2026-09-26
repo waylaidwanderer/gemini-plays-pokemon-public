@@ -130,8 +130,8 @@
 
 ## Party Pokémon (3 / 6 - Audited Turn 46638)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 254 / 254
-  - Status: Healthy
+  - HP: 246 / 254
+  - Status: Paralyzed (PAR)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
@@ -152,7 +152,6 @@
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
 - Slot 10: POKé BALL x73
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Exactly 73 Poké Balls remaining.
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -183,7 +182,7 @@
 26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 1 [Active Box switched and saved Turn 46634 - currently 0 stored Pokémon]
+- Active Box: BOX 1
 - Box 1: Contains 3 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46 - stored Turns 46635-46638)
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
@@ -5186,7 +5185,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Poké Mart & Shop UI Mechanics
 - **Quantity Selector Wrap Mechanic:** On the item quantity selection screen in Generation 1 retail, the counter initializes at `x01`. Pressing `Down` at `x01` wraps directly around to `x99` (it does NOT cap at maximum affordable money; wraps strictly to 99) [Empirically verified Turn 29102]. Conversely, pressing `Up` at `x99` wraps symmetrically back to `x01` [Empirically verified Turn 29103], confirming a continuous bidirectional cyclic counter between `x01` and `x99`.
 
-- **Start Menu Vertical Wrapping (Empirically Verified Turn 46642):** In Generation 1 retail, the overworld Start menu DOES wrap vertically between the top option (POKéDEX) and the bottom option (EXIT). Pressing Up at POKéDEX wraps directly to EXIT, and pressing Down at EXIT wraps to POKéDEX. This is distinct from the Bag item list and PC storage lists, which do NOT wrap vertically.
+- **Start Menu Vertical Wrapping (Empirically Verified Turn 46642):** In Generation 1 retail, the overworld Start menu DOES wrap vertically between the top option (POKéDEX) and the bottom option (EXIT). Pressing Up at POKéDEX wraps directly to EXIT [empirically verified Turn 46642]. (Downward wrap from EXIT remains untested). This is distinct from the Bag item list and PC storage lists, which do NOT wrap vertically.
 
 ## PC Storage & Menu Mechanics (Generation 1 Retail)
 - **PC Pokémon Withdrawal List Vertical Navigation:** In Generation 1 retail, the PC Pokémon storage withdrawal list does NOT wrap vertically from top to bottom (pressing Up at Slot 1 stops at Slot 1 and does not wrap to CANCEL, identical to Bag item list behavior) [Empirically verified Turn 42398].
@@ -5251,13 +5250,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   5. Venomoth (#049) [Wild Lv 49]
   6. Kadabra (#064) [Wild Lv 49]
 
-## Immediate Tactical Cycle
-1. At Cerulean City (4, 12) dry land outside Cerulean Cave.
-2. Fly to Cerulean City via DUX.
-3. Cerulean Pokémon Center:
-   - Heal Sheldon at Nurse Joy (cure PAR, restore 254 HP).
-   - PC Terminal: Audit Box 6, switch to empty Box 1 or Box 4, deposit HYPNOS, FANGS, TESLA.
-4. Return to Cerulean Cave 1F with 3 open party slots to catch Dodrio, Venomoth, Kadabra.
+## Hunting Protocol & Strategy
+- Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
+- Patrol entrance loop on rows 14-15 across cols 21-25.
+- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (73 in Bag).
+- Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
+- Storing captures: Party slots 4, 5, 6 are open to receive all 3 targets directly into party.
 
 
 <hr>
