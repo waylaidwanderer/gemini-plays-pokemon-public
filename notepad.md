@@ -112,6 +112,7 @@
 - [x] Catch wild Kakuna (#014 NEEDLE) in Viridian Forest [Turn 44084]
 - [x] Evolve Caterpie into Metapod (#011) [Turn 44167]
 - [x] Evolve Metapod into Butterfree (#012) [Turn 44231]
+- [x] Evolve Bellsprout into Weepinbell (#070) [Turn 44752]
 - [x] Evolve Kakuna into Beedrill (#015) [Turn 44247]
 
 
@@ -144,7 +145,7 @@
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 0/15), Ice Beam (PP 0/10)
-- Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 21, Grass/Poison]
+- Slot 4: WEEPINBELL (Nickname: SPROUT) [Lv 21, Grass/Poison]
   - Status: Healthy
   - HP: 49+ / Uninspected (max ~51 at Lv 20)
   - Stats: Attack 43, Defense 24, Speed 24, Special 38 [Verified Level Up Box Turn 44746]
