@@ -30,3 +30,4 @@
 | :--- | :--- | :--- | :--- |
 | Bellsprout | Lv 13–15 | (8..12, 4) | Observed Turns 44806, 44825; fled |
 | Pidgey | Lv 13–15 | (8..12, 4) | Observed Turns 44802, 44828, 44831; fled |
+| Meowth | Lv 12 | (10, 4) | Caught FELIX Lv 12 [Turns 44840-44849] |
