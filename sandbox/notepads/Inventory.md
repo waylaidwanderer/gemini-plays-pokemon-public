@@ -10,7 +10,7 @@
   - HP: 46 / 46 [Verified Party Screen Turn 45135]
   - Stats: Attack 22, Defense 22, Speed 42, Special 20 [Verified Level Up Box Turn 45117]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20) [Verified Turn 45091]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
   - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
