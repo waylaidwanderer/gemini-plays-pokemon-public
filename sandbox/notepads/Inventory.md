@@ -7,7 +7,7 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEOWTH (Nickname: FELIX) [Lv 17, Normal]
   - Status: Healthy
-  - HP: 44 / 44 [Lv 17 Gained Turn 45091]
+  - HP: 12 / 44 [Hit by Poison Sting Turn 45094]
   - Stats: Attack 21, Defense 21, Speed 40, Special 19 [Verified Level Up Box Turn 45091]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25), Pay Day [Verified Turn 45091]
