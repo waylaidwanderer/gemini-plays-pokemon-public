@@ -26,11 +26,11 @@
 
   - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Overworld pickup locations (Mechanics/EvolutionAndStones): Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. With only 2 used of 5 potential pickups, up to 3 Moon Stones remain uncollected in those dungeons for Clefable (#036).
 
-- Target 3: Meowth (#052) -> Persian (#053)
+- [x] Target 3: Meowth (#052) -> Persian (#053) [Caught FELIX Lv 12 Turn 44849 - 69 Caught!]
 
-  - Capture wild Meowth on Route 5 (south of Cerulean City).
+  - Captured wild Meowth Lv 12 (FELIX) in Route 5 tall grass [Turn 44849].
 
-  - Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053).
+  - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
 
 - Expected Dex Progression: 66 -> 71+ Caught!
 
