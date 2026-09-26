@@ -119,8 +119,6 @@
 ## Trainer Info
 - Name: BLUE
 - IDNo: 04620
-- Money: ¥5,905
-- Pokédex: 64 Caught [CATERPIE #010 caught Turn 43914] / 137 Seen [Verified Turn 39387]
 
 ## Party Pokémon (4 / 6) [CATERPIE recruited Turn 43928]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
@@ -142,9 +140,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: CATERPIE (Nickname: SILK) [Lv 5, Bug]
-  - Status: Healthy
-  - OT: BLUE (IDNo. 04620)
-  - Moves: Tackle, String Shot
+  - Status: Healthy (captured Turn 43914, uninspected stats/moves in-game)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -497,6 +493,16 @@
 - Encounter 19 [Turn 42734]: Metapod Lv 4 (tall grass at (18, 40)) - FLED.
 - Encounter 20 [Turn 42742]: Metapod Lv 6 (tall grass at (22, 40)) - FLED.
 - Encounter 21 [Turn 42746]: Caterpie Lv 3 (tall grass at (18, 40)) - CAUGHT on Ball 5 [Turn 42762] (Nickname: SILK). Breakout analysis: 4 consecutive full-HP breakouts after 3 shakes before capture.
+## Wild Pokémon & Encounters (Empirical Survey)
+- Survey Period: Turns 43900–43976 (Expedition 16, South-Central Grass Patch [18..23, 40..41])
+- Turn 43900: Wild CATERPIE Lv 5 encountered. Captured Turn 43914 after 3 Poké Ball throws at full HP. Nicknamed SILK, recruited directly into Party Slot 4.
+- Turn 43931: Wild METAPOD Lv 5 encountered. Fled Turn 43953 after 4 Poké Ball throws broke free at full HP (Metapod only used Harden).
+- Turn 43959: Wild CATERPIE Lv 5 encountered. Fled Turn 43961 on Turn 1 via RUN (Blastoise SHELDON Lv 78, Speed 188).
+- Turn 43964: Wild METAPOD Lv 5 encountered. Fled Turn 43966 on Turn 1 via RUN.
+- Turn 43968: Wild CATERPIE Lv 3 encountered. Fled Turn 43970 on Turn 1 via RUN.
+- Turn 43974: Wild METAPOD Lv 5 encountered. Fled Turn 43976 on Turn 1 via RUN.
+- Empirical Encounter Frequency (N=6): Caterpie: 3/6 (50%), Metapod: 3/6 (50%), Weedle: 0/6 (0%), Kakuna: 0/6 (0%), Pikachu: 0/6 (0%).
+
 
 <hr>
 
@@ -5162,25 +5168,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Recruited Trainees in Party:
   - Slot 4: SILK (Caterpie #010, Lv 5) [Recruited Turn 43928] -> Level 7 (Metapod #011), Level 10 (Butterfree #012)
 - Active Target in Tall Grass:
-  - Target 2: Weedle (#013) [5% encounter rate] -> Level 7 (Kakuna #014), Level 10 (Beedrill #015)
-  - Target 2 Alternate: Kakuna (#014) [5% encounter rate] -> Level 10 (Beedrill #015)
+  - Target 2: Weedle (#013) [Theoretical Baseline Hypothesis: 5% encounter rate in retail Blue] -> Level 7 (Kakuna #014), Level 10 (Beedrill #015)
+  - Target 2 Alternate: Kakuna (#014) [Theoretical Baseline Hypothesis: 5% encounter rate in retail Blue] -> Level 10 (Beedrill #015)
 - Encounter Strategy:
   - Flee (RUN) from duplicate Caterpie, Metapod, and Pikachu encounters.
   - Throw Poké Balls at wild Weedle or Kakuna; recruit directly into Party Slot 5.
-- Completed Evolutions:
-  - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
-  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817, Stored Box 2 Turn 43832]
-- Archived Targets in Storage:
-  - Box 2: PUFF (Wigglytuff), RATTY (Raticate) [Audited Turn 43833]
-  - Box 1 & Box 3: Empty [Audited Turns 43840, 43848]
-
-## Active Team & Sweeper Status
-- Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 250/251 HP, 55/55 PP - Healed Turn 43825].
-- Utility: Farfetch'd Lv 37 (DUX) [Slot 2, Cut, Fly].
-- Reserve Sweeper: Mewtwo Lv 76 (OMEGA, Psychic) [Slot 3, 269/269 HP - Healed Turn 43825].
-- Trainee 1: Caterpie Lv 5 (SILK) [Slot 4, Healthy].
-- Open Party Slots: 2 available (Slots 5, 6).
-- Bag Status: 81 Poké Balls, EXP.ALL active, 2 Leaf Stones.
 
 ## Post-Recruitment Plan
 1. Once Weedle is recruited into Slot 5, walk south through gatehouse onto Route 2 outdoors.
