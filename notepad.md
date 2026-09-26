@@ -149,11 +149,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEOWTH (Nickname: FELIX) [Lv 13, Normal]
   - Status: Healthy
-  - HP: 36 / 36 [Estimated Lv 13 HP]
+  - HP: Uninspected [Pending direct Party/Stats screen verification]
   - Stats: Attack 17, Defense 17, Speed 31, Special 15 [Verified Level Up Box Turn 44924]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
-  - EXP: 2,490
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5212,7 +5211,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Travel to Mt. Moon (Route 4) and capture wild Clefairy (#035).
 
-  - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Overworld pickup locations (Mechanics/EvolutionAndStones): Mt. Moon 1F, Mt. Moon B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F. With only 2 used of 5 potential pickups, up to 3 Moon Stones remain uncollected in those dungeons for Clefable (#036).
+  - Note on Evolution: Bag and PC currently contain 0 Moon Stones (2 used historically on Nidoqueen and Wigglytuff). Overworld pickup locations to search if needed (Mechanics/EvolutionAndStones): Mt. Moon 1F/B2F, Rocket Hideout B2F, Silph Co. 5F, Pokémon Mansion B1F (historical pickup status to be audited before exploration).
 
 - [ ] Target 3: Meowth (#052) -> Persian (#053) [Meowth Caught Turn 44849; Training FELIX Lv 12 -> 28]
 
@@ -5222,18 +5221,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 - Expected Dex Progression: 69 -> 71+ Caught!
 
-## Operational Combat Resource Budget & Sweeper Rotation Plan
 
-- Sweeper Roles & Dynamic Thresholds:
-
-  - Active Sweeper (MEWTWO OMEGA Lv 77):
-    - Status: Active Lead [Turn 44554+]
-    - Attack Pool: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 44773].
-    - Yields identical EXP.ALL distribution to trainees (invariant to sweeper identity).
-- Reserve Sweeper (Blastoise SHELDON Lv 79):
-    - Full Special/Physical Pool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15) [Healed Turn 44773].
-
-- Contingency: MAX ELIXER x1 in Bag Slot 5; or Cerulean City Pokemon Center via HM02 Fly.
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
@@ -5246,10 +5234,10 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Total Attack PP Pool: 78+ damaging moves before center replenishment.
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
-- Trainee Progress (FELIX Lv 12):
-  - Current EXP: 2,007
-  - Lv 13 threshold: 2,197 (190 EXP to Lv 13).
-  - Wild Raichu Lv 53 yields 113 EXP.ALL share to Felix.
+- Trainee Progress (FELIX Lv 13):
+  - Current EXP: 2,490
+  - Lv 14 threshold: 2,744 (254 EXP to Lv 14).
+  - Wild Hypno Lv 46 yields 131 EXP.ALL share to Felix.
 
 
 <hr>
