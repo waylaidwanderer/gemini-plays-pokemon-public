@@ -149,10 +149,10 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10) [Verified Battle Screen Turn 45191]
 - Slot 4: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Healthy
-  - HP: 240 / 274 [Verified Battle Screen Turn 45174]
+  - HP: 228 / 274 [Verified Battle Screen Turn 45209]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
-  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Battle Screen Turn 45174]
+  - Moves: Swift (PP 20/20), Psychic (PP 8/10), Barrier (PP 29/30), Recover (PP 20/20) [Verified Turn 45209]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5220,8 +5220,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Verified Empirical Yield (N=4 party, 2 active participants): Felix receives floor(floor(Total_EXP / 2) / 2) participant share plus floor(floor(Total_EXP / 2) / 4) EXP.ALL share, totaling ~30.9-31.25% of total battle EXP (~2.5x faster than passive EXP.ALL grinding). Verified across 11 consecutive battles (Battles 1-11, Turns 45041-45175).
   - Recent Battles:
+    - Battle 11 (Golbat Lv 46, Total EXP: 1,104) [Turn 45170-45175]: Felix 276 participant + 65 EXP.ALL = 341 EXP (~30.9%). Defeated by Omega's Psychic.
     - Battle 12 (Hypno Lv 46, Total EXP: 1,076) [Turn 45186-45191]: Felix 269 participant + 65 EXP.ALL = 334 EXP (~31.0%). Defeated by Sheldon's Surf.
-    - Battle 13 (Venomoth Lv 49, Total EXP: 952) [Turn 45198-45206]: Felix 238 participant + 59 EXP.ALL = 297 EXP (~31.2%). Defeated by Omega's Psychic.
+  - Active Encounter: Battle 13 vs wild Venomoth Lv 49 (ongoing).
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
   - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
   - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
@@ -5230,8 +5231,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore 10/10 Psychic and 20/20 Swift, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 19):
-  - Current EXP: ~7,858
-  - Lv 20 threshold: 8,000 (~142 EXP to Lv 20, Battle 14 will trigger Lv 20!).
+  - Current EXP: 7,561 [Verified Stats Screen Turn 45183]
+  - Lv 20 threshold: 8,000 (439 EXP to Lv 20).
   - Stats: Atk 23, Def 23, Spe 44, Spc 21.
 
 
