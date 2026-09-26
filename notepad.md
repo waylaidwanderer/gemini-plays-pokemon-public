@@ -9,10 +9,11 @@
 
 - Money: ¥5,905
 
-- Pokédex: 67 Caught [Hypno caught Turn 46585] / 137 Seen
+- Pokédex: 68 Caught [Golbat caught Turn 46597] / 137 Seen
 
 ## Milestones
 
+- [x] Catch wild Golbat (#042 FANGS) on Cerulean Cave 1F with Poké Ball [Turn 46597]
 - [x] Catch wild Hypno (#097 HYPNOS) on Cerulean Cave 1F with Poké Ball [Turn 46585]
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 
@@ -127,7 +128,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6 - Audited Turn 46593)
+## Party Pokémon (5 / 6 - Audited Turn 46600)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 253 / 254
   - Status: Healthy
@@ -140,7 +141,9 @@
   - Status: Healthy
 - Slot 4: HYPNO (Nickname: HYPNOS) [Lv 46, Psychic]
   - Status: Healthy
-- Slots 5-6: Empty
+- Slot 5: GOLBAT (Nickname: FANGS) [Lv 46, Poison/Flying]
+  - Status: Healthy
+- Slot 6: Empty
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46536)
 - Slot 1: POKé FLUTE
@@ -152,8 +155,8 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x77
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Exactly 1 Poké Ball used to capture wild Hypno [Turn 46585].
+- Slot 10: POKé BALL x76
+- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). 1 Poké Ball used on Hypno [Turn 46585], 1 Poké Ball used on Golbat [Turn 46597].
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -5243,7 +5246,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Status: Celadon Prize Exchange Clefairy acquisition concluded (Coin Case event flag was previously set at Diner, but item is neither in Bag nor PC).
 - Pivot Objective: Capture wild Pokédex species on Cerulean Cave 1F to reach 75+ Pokédex caught.
 - Priority Targets on Cerulean Cave 1F:
-  1. Golbat (#042) [Wild Lv 46]
+  1. [CAUGHT Turn 46597] Golbat (#042) [Wild Lv 46] -> Caught on Ball 1!
   2. [CAUGHT Turn 46585] Hypno (#097) [Wild Lv 46] -> Caught on Ball 1!
   3. Magneton (#082) [Wild Lv 46]
   4. Dodrio (#085) [Wild Lv 49]
@@ -5251,7 +5254,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   6. Kadabra (#064) [Wild Lv 49]
 - Equipment & Ball Preparation:
   - Current Funds: ¥5,905.
-  - Balls in Bag: 77 Poké Balls (1 used on Hypno).
+  - Balls in Bag: 76 Poké Balls (1 used on Hypno, 1 used on Golbat).
 
 <hr>
 
