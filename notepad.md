@@ -139,12 +139,6 @@
   - Stats: Attack 198, Defense 181, Speed 228, Special 270 [Verified Lv 76 Screen Turn 43453]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
-- Slot 4: RATICATE (Nickname: RATTY) [Lv 20, Normal]
-  - Status: Healthy
-  - HP: 55 / 55 [Verified Party Screen Turn 43820]
-  - Stats: Attack 31, Defense 23, Speed 37, Special 16 [Verified Lv 20 Screen Turn 43816]
-  - Caught: Route 1 [Turn 43083] with Pok� Ball
-  - Moves: Tackle, Tail Whip, Quick Attack, Hyper Fang [Learned Turn 43503]
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
@@ -5179,9 +5173,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Active Trainee: Caterpie (#010 SILK, pending withdrawal from Box 2) - Target: Level 7 (Metapod #011), Level 10 (Butterfree #012)
 - Completed Evolutions:
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
-  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817, depositing into Box 2 Turn 43831]
+  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817, Stored Box 2 Turn 43832]
 - Archived Targets in Storage:
-  - Box 2: Bellsprout (#069 SPROUT) [Turn 42628], Weedle (#013 NEEDLE) [Turn 42784], Wigglytuff (#040 PUFF) [Turn 43232]
+  - Box 2: Bellsprout (#069 SPROUT) [Turn 42628], Weedle (#013 NEEDLE) [Turn 42784], Wigglytuff (#040 PUFF) [Turn 43232], Raticate (#020 RATTY Lv 20) [Stored Turn 43832]
 
 ## Active Team & Sweeper Status
 - Lead Sweeper: Sheldon Lv 78 (Blastoise, Water) [Slot 1, 251/251 HP, 55/55 PP: Double-Edge 15, Body Slam 15, Surf 15, Ice Beam 10 - Healed Turn 43825].
