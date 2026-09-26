@@ -9,6 +9,7 @@
 - Ladder (17, 11): Cavern ladder in north-central alcove descending directly to Mt. Moon B2F Entrance Plateau at Ladder (25, 9) [Empirically verified Turn 45990].
 - Ladder (5, 5): Descending ladder in northwest corner leading to B1F Northwest corridor at (5, 5) [Empirically verified Turn 46033].
 - Ladder (21, 17): Descending ladder in east-central cavern adjacent to Eastern Avenue [Empirically verified Turn 46304].
+- Ladder (25, 15): Cavern ladder in eastern avenue at (25, 15) [Empirically verified Turn 46342].
 
 ## Layout & Corridors
 
