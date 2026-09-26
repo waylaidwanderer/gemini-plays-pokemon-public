@@ -149,11 +149,11 @@
   - OT: BLUE (IDNo. 04620)
   - EXP: 1000 (331 to Lv 11) [Verified Page 2 Turn 44235]
   - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44235]
-- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 9, Bug/Poison]
-  - Status: Healthy
-  - Stats: Attack 10, Defense 14, Speed 11, Special 9
+- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 10, Bug/Poison]
+  - Status: Healthy (leveled Turn 44246 - Beedrill evolution pending)
+  - Stats: Attack 11, Defense 15, Speed 12, Special 10 [Verified Screen Turn 44246]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 939 (61 to Lv 10 Beedrill) [Verified Turn 44230]
+  - EXP: 1044 (Beedrill evolution Lv 10 reached!) [Verified Turn 44246]
   - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
@@ -5198,17 +5198,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Target Milestone: Evolve Metapod into Butterfree (#012) and Kakuna into Beedrill (#015)
 - Active Party Trainees:
   - SILK: Lv 10 BUTTERFREE (OWNED - Evolved Turn 44231!)
-  - NEEDLE: Lv 9 KAKUNA (939 EXP, needs 61 EXP to Lv 10 Beedrill #015)
-    - Next battle will evolve NEEDLE into Beedrill!
+  - NEEDLE: Lv 10 KAKUNA (1044 EXP - Beedrill evolution triggering NOW!)
 - Evolution Safeguard: NEVER press B during evolution sequence! Use A only.
-- In-Game Pok�dex Audit Status:
+- In-Game Pokédex Audit Status:
   - #010 CATERPIE: OWNED
   - #011 METAPOD: OWNED (Evolved Turn 44167)
   - #012 BUTTERFREE: OWNED (Evolved Turn 44231)
   - #013 WEEDLE: OWNED
   - #014 KAKUNA: OWNED
-  - #015 BEEDRILL: Unowned (evolves from NEEDLE at Lv 10)
-  - Pok�dex Totals: OWN 65, SEEN 137
+  - #015 BEEDRILL: Unowned (evolves from NEEDLE NOW!)
+  - Pokédex Totals: OWN 65, SEEN 137
 
 
 <hr>
