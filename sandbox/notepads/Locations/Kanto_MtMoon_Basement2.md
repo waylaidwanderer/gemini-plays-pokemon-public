@@ -12,7 +12,7 @@
   - Western Partition (Cols 30..31, Rows 5..7): Solid rock wall separating eastern plateau from (29, 5) item pocket.
 - Ledge (Cols 28..29, Row 7): South-facing one-way jump ledge.
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
-- Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: ¥360.
+- Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12).
 - Boulder: Isolated rock at (33, 9).
 - Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. 
 
@@ -21,7 +21,8 @@
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
-- Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. 
+- Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). 
+- Ground Item (25, 21): Item ball sighted at (25, 21) below entrance plateau cliff [Verified Turn 46051].
 - Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary verified solid rock wall at Col 35 across rows 16, 17, and 18 (empirically tested blocked at 35, 16; 35, 17; 35, 18).
 
 ### Eastern Cavern Highway & Southern Cavern (Reached via Row 15 / Row 14)
@@ -32,7 +33,7 @@
 - Western Cavern Highway (Cols 7..11, Rows 23..32+): At column 11, the corridor opens into a wide 5-tile thoroughfare (cols 7..11) heading north past row 27 toward the western/northwestern quadrant.
 - Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
 
-- Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: ¥390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). 
+- Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). 
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
