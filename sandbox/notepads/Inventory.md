@@ -24,7 +24,7 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
-## Bag Items (11 / 20 Slots Occupied)
+## Bag Items (12 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -36,8 +36,9 @@
 - Slot 9: LEAF STONE x1
 - Slot 10: POKé BALL x73
 - Slot 11: MOON STONE x1
+- Slot 12: COIN CASE [Withdrawn Turn 46365]
 
-## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
+## BLUE's PC Item Storage (26 / 50 Slots Occupied - Audited Turn 46365)
 1. TM34 x1 (Bide)
 2. TM12 x1 (Water Gun)
 3. TOWN MAP
@@ -47,24 +48,23 @@
 7. TM21 x1 (Mega Drain)
 8. TM06 x1 (Toxic)
 9. HM05 (Flash)
-10. COIN CASE
-11. LIFT KEY
-12. SILPH SCOPE
-13. HM04 (Strength)
-14. HM03 (Surf)
-15. GOOD ROD
-16. TM29 x1 (Psychic)
-17. CARD KEY
-18. TM46 x1 (Psywave)
-19. HM01 (Cut)
-20. ESCAPE ROPE x1
-21. TM14 x1 (Blizzard)
-22. TM22 x1 (Solarbeam)
-23. SECRET KEY
-24. TM38 x1 (Fire Blast)
-25. TM27 x1 (Fissure)
-26. TM43 x1 (Sky Attack)
-27. TM17 x1 (Submission)
+10. LIFT KEY
+11. SILPH SCOPE
+12. HM04 (Strength)
+13. HM03 (Surf)
+14. GOOD ROD
+15. TM29 x1 (Psychic)
+16. CARD KEY
+17. TM46 x1 (Psywave)
+18. HM01 (Cut)
+19. ESCAPE ROPE x1
+20. TM14 x1 (Blizzard)
+21. TM22 x1 (Solarbeam)
+22. SECRET KEY
+23. TM38 x1 (Fire Blast)
+24. TM27 x1 (Fissure)
+25. TM43 x1 (Sky Attack)
+26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
 - Active Box: BOX 6 [Contains 2 Pokémon: SPROUT Lv 21 Victreebel - deposited Turn 44782; FELIX Lv 28 Persian - deposited Turn 45914]
