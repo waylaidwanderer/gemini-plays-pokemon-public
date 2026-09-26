@@ -41,3 +41,4 @@
 - Encounter 8 [Turn 42581]: Bellsprout Lv 12 (Route 25 tall grass at (6, 4)) - CAUGHT (Ball 2, Nickname: SPROUT, Party Slot 6).
 - Encounter 9 [Turn 44341]: Abra Lv 12 (Route 25 tall grass at (4, 4)) - FLED (Poké Ball broke free; Teleport).
 - Encounter 10 [Turn 44353]: Metapod Lv 9 (Route 25 tall grass at (4, 4)) - FLED (already registered).
+- Encounter 11 [Turn 44359]: Pidgey Lv 13 (Route 25 tall grass at (7, 5)) - FLED (already registered).
