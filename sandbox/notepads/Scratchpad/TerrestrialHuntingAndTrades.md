@@ -10,10 +10,9 @@
   5. Venomoth (#049) [Wild Lv 49]
   6. Kadabra (#064) [Wild Lv 49]
 
-## Immediate Tactical Cycle
-1. At Cerulean City (4, 12) dry land outside Cerulean Cave.
-2. Fly to Cerulean City via DUX.
-3. Cerulean Pokémon Center:
-   - Heal Sheldon at Nurse Joy (cure PAR, restore 254 HP).
-   - PC Terminal: Audit Box 6, switch to empty Box 1 or Box 4, deposit HYPNOS, FANGS, TESLA.
-4. Return to Cerulean Cave 1F with 3 open party slots to catch Dodrio, Venomoth, Kadabra.
+## Hunting Protocol & Strategy
+- Launch Surf at Route 24 (8, 15) into canal chute -> Enter Cerulean Cave 1F.
+- Patrol entrance loop on rows 14-15 across cols 21-25.
+- Encounter priority targets (Dodrio, Venomoth, Kadabra): throw Poké Balls directly (73 in Bag).
+- Encounter duplicates (Hypno, Golbat, Raichu, Sandslash, Parasect, Ditto): RUN immediately.
+- Storing captures: Party slots 4, 5, 6 are open to receive all 3 targets directly into party.

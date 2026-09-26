@@ -6,8 +6,8 @@
 
 ## Party Pokémon (3 / 6 - Audited Turn 46638)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - HP: 254 / 254
-  - Status: Healthy
+  - HP: 246 / 254
+  - Status: Paralyzed (PAR)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
@@ -28,7 +28,6 @@
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
 - Slot 10: POKé BALL x73
-- Verification: Audited directly from in-game Bag menu (Turns 46533-46536). Exactly 73 Poké Balls remaining.
 
 ## BLUE's PC Item Storage (Audit required on restored save)
 1. TM34 x1 (Bide)
@@ -59,7 +58,7 @@
 26. TM17 x1 (Submission)
 
 ## PC Pokémon Storage
-- Active Box: BOX 1 [Active Box switched and saved Turn 46634 - currently 0 stored Pokémon]
+- Active Box: BOX 1
 - Box 1: Contains 3 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46 - stored Turns 46635-46638)
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
