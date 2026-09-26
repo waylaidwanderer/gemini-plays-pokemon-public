@@ -7,24 +7,24 @@
 ## Party Pokémon (4 / 6)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 77, Psychic]
   - Status: Poisoned (PSN)
-  - HP: ~251 / 274 [Verified Battle Screen Turn 44847]
+  - HP: 251 / 274 [Verified Battle Screen Turn 44971]
   - Stats: Attack 202, Defense 185, Speed 233, Special 275 [Verified Lv 77 Screen Turn 44717]
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 15/20), Psychic (PP 2/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
-  - Status: Poisoned (PSN)
+  - Status: Healthy
   - HP: 99 / 99 [Verified Screen Turn 44761]
   - Stats: Attack 65, Defense 61, Speed 60, Special 57 [Verified Level Up Box Turn 44667]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Slash, Sand-Attack, Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
-  - Status: Poisoned (PSN)
+  - Status: Healthy
   - HP: 254 / 254 [Verified Healed Turn 44773]
   - Stats: Attack 191, Defense 220, Speed 191, Special 198 [Verified Screen Turn 44243]
   - OT: BLUE (IDNo. 04620)
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEOWTH (Nickname: FELIX) [Lv 14, Normal]
-  - Status: Poisoned (PSN)
+  - Status: Healthy
   - HP: Uninspected [Pending direct Party/Stats screen verification]
   - Stats: Attack 18, Defense 18, Speed 33, Special 16 [Verified Level Up Box Turn 44959]
   - OT: BLUE (IDNo. 04620)

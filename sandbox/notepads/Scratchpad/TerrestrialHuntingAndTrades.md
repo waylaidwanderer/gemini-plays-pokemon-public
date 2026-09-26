@@ -26,9 +26,10 @@
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
 - Active Sweeper: MEWTWO (OMEGA) Lv 77
-  - Primary Attack: Swift (PP 20/20) - Physical Normal, never misses, sweeps non-resisted targets.
-  - Secondary Attack: Psychic (PP 3/10) - Special STAB, guaranteed OHKO on Sandslash, Golbat, Venomoth, Magneton, Raichu, Ditto.
-  - Recovery: Recover (PP 20/20) - sustains HP in-cave without consumables.
+  - Primary Attack: Swift - Physical Normal, never misses, sweeps non-resisted targets.
+  - Secondary Attack: Psychic - Special STAB, guaranteed OHKO on high-defense targets.
+  - Recovery: Recover - sustains HP in-cave without consumables.
+  - Active Move PP & Status: Tracked authoritatively in Inventory.md.
 - Reserve Sweeper: BLASTOISE (SHELDON) Lv 79
   - Full Movepool: Surf (PP 15/15), Ice Beam (PP 10/10), Body Slam (PP 15/15), Double-Edge (PP 15/15).
   - Can switch in if Mewtwo attack PP runs low.

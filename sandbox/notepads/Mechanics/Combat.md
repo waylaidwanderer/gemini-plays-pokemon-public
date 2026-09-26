@@ -114,4 +114,4 @@
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   - Meowth Lv 12 (Turn 44842-44849): broke free after 3 shakes on Balls 1 and 2; captured on Ball 3.
-  Across these N=5 encounters and 15 total ball throws, 11 out of 15 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~27% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
+  Across these N=6 encounters and 17 total ball throws, 11 out of 17 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
