@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6) [BUTTERFREE & BEEDRILL deposited Turn 44269]
+## Party Pokémon (3 / 6)
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
   - HP: 254 / 254
