@@ -13,7 +13,7 @@
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 15/15), Surf (PP 3/15), Ice Beam (PP 2/10)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 38, Normal/Flying]
   - Status: Healthy
-  - HP: Pending inspection at Lv 38 (Lv 37 was 94/94)
+  - HP: 97 / 97 [Verified Party Screen Turn 44523]
   - Stats: Attack 63, Defense 59, Speed 58, Special 55 [Verified Level Up Box Turn 44481]
   - OT: ELYSSA (IDNo. 54183)
   - Moves: Cut, Fly, Slash, Sand-Attack
@@ -25,7 +25,7 @@
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: BELLSPROUT (Nickname: SPROUT) [Lv 17, Grass/Poison]
   - Status: Healthy
-  - HP: Pending inspection at Lv 17 (Lv 14 was 38/38)
+  - HP: 45 / 45 [Verified Party Screen Turn 44523]
   - Stats: Attack 35, Defense 20, Speed 19, Special 31 [Verified Level Up Box Turn 44519]
   - OT: BLUE (IDNo. 04620)
   - Moves: Vine Whip (PP 10/10), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Learned Turn 44453]
