@@ -149,7 +149,6 @@
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - Slot 4: MEOWTH (Nickname: FELIX) [Lv 15, Normal]
   - Status: Healthy
-  - HP: Uninspected [Pending direct Party/Stats screen verification]
   - Stats: Attack 19, Defense 19, Speed 35, Special 17 [Verified Level Up Box Turn 44992]
   - OT: BLUE (IDNo. 04620)
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Bite (PP 25/25) [Verified Stats Screen Turn 44888]
@@ -5218,8 +5217,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
   - Evolution target: Train to Level 28 in Cerulean Cave 1F via EXP.ALL to evolve into Persian (#053). (Empirical level-up verification to be documented during training).
 
-- Expected Dex Progression: 69 -> 71+ Caught!
-
 
 
 ## Cerulean Cave Training Budget & Sweeper Rotation Schedule
@@ -5235,9 +5232,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Healing / Center Protocol:
   - When Mewtwo attack PP drops below 5 total, exit south to (24, 17) -> Fly to Cerulean Center, heal with Nurse Joy, Fly back / surf into cave in ~15 turns.
 - Trainee Progress (FELIX Lv 15):
-  - Current EXP: 3,426
-  - Lv 16 threshold: 4,096 (670 EXP to Lv 16).
-  - Wild Golbat Lv 46 defeated; yielded 138 EXP.ALL share to Felix (leveled to 15).
+  - Current EXP: 3,574
+  - Lv 16 threshold: 4,096 (522 EXP to Lv 16).
 
 
 <hr>
