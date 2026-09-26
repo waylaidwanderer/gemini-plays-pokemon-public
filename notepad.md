@@ -141,16 +141,16 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20) [Healed Turn 43825]
 - Slot 4: METAPOD (Nickname: SILK) [Lv 8, Bug]
-  - Status: Healthy (leveled Turn 44181)
+  - Status: Healthy
   - Stats: Attack 10, Defense 15, Speed 10, Special 10 [Verified Screen Turn 44181]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 531 (198 to Lv 9, 469 to Lv 10 Butterfree) [Verified Turn 44181]
+  - EXP: 620 (109 to Lv 9, 380 to Lv 10 Butterfree) [Verified Turn 44192]
   - Moves: Tackle (PP 35/35), String Shot (PP 40/40) [Verified Page 2 Turn 44171]
-- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 7, Bug/Poison]
-  - Status: Healthy
-  - Stats: Attack 9, Defense 12, Speed 10, Special 8 [Verified Screen Turn 44166]
+- Slot 5: KAKUNA (Nickname: NEEDLE) [Lv 8, Bug/Poison]
+  - Status: Healthy (leveled Turn 44192)
+  - Stats: Attack 10, Defense 13, Speed 11, Special 9 [Verified Screen Turn 44192]
   - OT: BLUE (IDNo. 04620)
-  - EXP: 470 (42 to Lv 8, 530 to Lv 10 Beedrill) [Verified Turn 44181]
+  - EXP: 559 (170 to Lv 9, 441 to Lv 10 Beedrill) [Verified Turn 44192]
   - Moves: Harden (PP 30/30)
 
 ## Bag Items (10 / 20 Slots Occupied)
@@ -338,28 +338,14 @@
   - Caterpie Lv 3 (Turn 42749-42762): broke free after 3 shakes on Balls 1, 2, 3, and 4; captured on Ball 5.
   - Rattata Lv 3 (Turn 43083): captured on Ball 1 with 0 breakouts at full HP.
   Across these N=4 encounters and 12 total ball throws, 9 out of 12 throws resulted in 3-shake breakouts at full HP (observed capture frequency of ~25-35% in this sample size), showing that capture is not guaranteed at full HP and budgeting 3-5 balls per target species is recommended.
-- **Empirical Solo-Sweeper EXP.ALL Yield (N=5 Party: Sheldon Lead Lv 78, DUX Traded Lv 37, OMEGA Lv 76, SILK Lv 5, NEEDLE Lv 4) [Verified Turn 44141]:**
-  - Opponent: Wild Venomoth Lv 49
-  - Lead Sweeper Share (Sheldon): 483 EXP
-  - Base Trainee EXP.ALL Share (Native: Silk, Needle, Omega): 91 EXP
-  - Traded Trainee Share (DUX): 136 EXP (91 + floor(91/2) = 136)
-  - SILK leveled from Lv 5 (EXP 125) to Lv 6 (needed 91 EXP, 125+91=216)!
-  - NEEDLE leveled from Lv 4 (EXP 64) to Lv 5 (needed 61 EXP, 64+91=155)!
+- **Empirical Solo-Sweeper EXP.ALL Yields (N=5 Party: Solo Lead [Sheldon], DUX Traded, Inactive Members):**
 
-- **Empirical Solo-Sweeper EXP.ALL Yield (N=5 Party) [Verified Turn 44151 vs Hypno Lv 46]:**
-  - Opponent: Wild Hypno Lv 46
-  - Lead Sweeper Share (Sheldon): 538 EXP
-  - Base Trainee EXP.ALL Share (Native: Omega, Silk, Needle): 105 EXP
-  - Traded Trainee Share (DUX): 157 EXP (105 + floor(105/2) = 157)
-  - SILK EXP: 216 + 105 = 321 (needs 22 EXP to Lv 7 Metapod evolution!)
-  - NEEDLE EXP: 155 + 105 = 260 (levels up to Lv 6, needs 83 EXP to Lv 7!)
-- **Empirical Solo-Sweeper EXP.ALL Yield (N=5 Party) [Verified Turn 44188 vs Parasect Lv 52]:**
-  - Opponent: Wild Parasect Lv 52
-  - Lead Sweeper Share (Sheldon): 475 EXP
-  - Base Trainee EXP.ALL Share (Native: Omega, Silk, Needle): 89 EXP
-  - Traded Trainee Share (DUX): 133 EXP (89 + floor(89/2) = 133)
-  - SILK EXP: 531 + 89 = 620 (needs 109 EXP to Lv 9, 380 to Lv 10 Butterfree!)
-  - NEEDLE EXP: 470 + 89 = 559 (levels up to Lv 8, needs 170 EXP to Lv 9, 441 to Lv 10 Beedrill!)
+| Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Hypno | 46 | 1,076 | 538 EXP | 105 EXP | 157 EXP | Verified Turn 44151 |
+| Venomoth | 49 | 966 | 483 EXP | 91 EXP | 136 EXP | Verified Turn 44141 |
+| Parasect | 52 | 950 | 475 EXP | 89 EXP | 133 EXP | Verified Turn 44188 |
+
 
 <hr>
 
