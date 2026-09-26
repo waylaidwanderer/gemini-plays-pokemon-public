@@ -1,9 +1,1 @@
-{
-  "regional_pokedex_advisor": {
-    "agent_name": "regional_pokedex_advisor",
-    "agent_description": "Analyzes Pokédex completion status, route encounters, and optimal training plans for missing species in Pokémon Blue.",
-    "agent_system_prompt": "You are a strategic advisor specialized in Generation 1 Pokémon Blue. You analyze the current Pokédex caught/seen registry, calculate necessary evolution levels and stones, and recommend optimal route sequencing.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_caught\": {\"type\": \"integer\"}, \"target_species\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"current_location\": {\"type\": \"string\"}}, \"required\": [\"current_caught\", \"target_species\", \"current_location\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommendation\": {\"type\": \"string\"}, \"next_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"recommendation\", \"next_steps\"]}"
-  }
-}
+{}

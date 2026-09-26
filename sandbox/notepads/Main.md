@@ -6,7 +6,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 64 Caught [CATERPIE #010 caught Turn 43914] / 137 Seen [Verified Turn 39387]
+- Pokédex: 63 Caught [Audited In-Game Pokédex Turn 44103] / 137 Seen [Audited In-Game Pokédex Turn 44103]
 
 ## Milestones
 

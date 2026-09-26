@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6) [CATERPIE recruited Turn 43928]
+## Party Pokémon (5 / 6) [KAKUNA recruited Turn 44084]
 - Slot 1: BLASTOISE (Nickname: SHELDON) [Lv 78, Water]
   - Status: Healthy
   - HP: 250 / 251
@@ -48,7 +48,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x81
+- Slot 10: POKé BALL x78 [Audited: 82 stock - 4 balls thrown Turn 44084]
 
 ## BLUE's PC Item Storage (27 / 50 Slots Occupied - Audited Turn 42796)
 1. TM34 x1 (Bide)
