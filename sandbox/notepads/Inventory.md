@@ -13,10 +13,10 @@
   - Moves: Swift (PP 12/20), Psychic (PP 1/10), Barrier (PP 30/30), Recover (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 39, Normal/Flying]
   - Status: Healthy
-  - HP: 97+ / Uninspected (max ~99 at Lv 39) [Party screen verification pending]
+  - HP: 97+ / Uninspected (max ~99 at Lv 39)
   - Stats: Attack 65, Defense 61, Speed 60, Special 57 [Verified Level Up Box Turn 44667]
   - OT: ELYSSA (IDNo. 54183)
-  - Moves: Cut, Fly, Slash, Sand-Attack
+  - Moves: Cut, Fly, Sand-Attack, Leer (Pending Lv 39 Slash prompt)
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - Status: Healthy
   - HP: 217 / 254
@@ -29,7 +29,7 @@
   - Stats: Attack 39, Defense 22, Speed 21, Special 35 [Verified Level Up Box Turn 44613]
   - OT: BLUE (IDNo. 04620)
   - Moves: Sleep Powder (PP 15/15), Growth (PP 40/40), Wrap (PP 20/20), PoisonPowder (PP uninspected) [Sleep Powder learned Turn 44575 over Vine Whip]
-  - EXP: 5,496 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 962 EXP)
+  - EXP: 5,363 (Curve: Medium Slow; Target Lv 21: 6,458 EXP; Needed: 1,095 EXP)
 
 ## Bag Items (10 / 20 Slots Occupied)
 - Slot 1: POKé FLUTE

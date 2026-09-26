@@ -60,10 +60,6 @@
 
 ## Verified Southern Entrance & Patrol Geometry (Empirically Verified Turns 39450-41940)
 - **Southern Entrance / Egress Warp Mat:** Coordinates (24..25, 17). Stepping onto this 2-tile wide threshold immediately warps the player outdoors to the Cerulean City canal water.
-- **Immediate Egress Tile-by-Tile Path:**
-  - From patrol corridor at (25, 14): Step Down x3: (25, 15) -> (25, 16) -> (25, 17) [Exits cave].
-  - From (23, 14): Step Right x2 to (25, 14), then Down x3 to (25, 17).
-  - From (21, 14): Step Right x4 to (25, 14), then Down x3 to (25, 17).
 - **High-Rate Patrol Corridor (Row 14):**
   - Walkable open cavern floor extends horizontally from X=21 through X=25 on row Y=14.
   - X=26 is an impassable eastern rock wall.
