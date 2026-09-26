@@ -12,5 +12,9 @@
 - Patrol Column 23 corridor (Col 23, Rows 7-11) and Row 11 West Corridor on 2F.
 - If target encountered (Venomoth, Marowak, Rhydon, Ditto): Catch with Poké Ball into open Party Slot 6!
 - If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Mewtwo lead.
-- 52 Poké Balls in Bag Slot 10.
 - Party: 5/6 (Slot 6 empty).
+
+## Contingency & Survival Plan
+- Mewtwo Survival Threshold: If Mewtwo faints or falls below safe threshold, switch to active reserves:
+  - Dodrio (HYDRA Lv 49, HP 125/125) or Blastoise (SHELDON Lv 79, HP 37/254)
+- Continue throwing Poké Balls from reserves until Rhydon is secured.

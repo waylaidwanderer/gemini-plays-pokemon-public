@@ -155,3 +155,7 @@
 - **Consecutive Attempt Progression:** Each successive failed escape attempt appears to increase escape likelihood (observed: Sheldon escaped on Attempt 2 after failing Attempt 1 vs Magneton [Turn 46682]). Citing specific internal constants without empirical measurement violates the Burden of Proof; numerical bonuses remain unverified hypotheses.
 - **High-Speed Lead Fleeing (Mewtwo Empirical Dataset):** Mewtwo (OMEGA Lv 76, healthy, unparalyzed) has achieved 100% first-turn escape success across all tested wild encounters: Dodrio Lv 49 (Turns 46800, 46819, 46849), Kadabra Lv 49 (Turn 46811), Magneton Lv 46 (Turns 46826, 46846, 46858), Hypno Lv 46 (Turns 46834, 46838, 46842), and Golbat Lv 46 (Turns 46852, 46855). Wild speed caps or universal mechanics beyond observed empirical trials remain unverified.
 
+
+## One-Hit Knockout (OHKO) Move Mechanics (Gen 1 Engine)
+- **Theoretical Speed-Threshold Formula:** In Generation 1 game engine code, OHKO moves (Horn Drill, Guillotine, Fissure) are specified to automatically fail if the user's current raw Speed stat is strictly lower than the target's current raw Speed stat (`Speed_user < Speed_target`).
+- **Empirical Status & Burden of Proof:** While wild Rhydon Lv 52 (base Speed 40, estimated speed ~50-60) is theoretically outsped by Mewtwo (OMEGA Lv 76, speed > 200), this mechanic has not undergone isolated empirical trial testing in this campaign. Operational strategies must not rely on speed-based OHKO immunity as an absolute certainty without verified battle testing.
