@@ -288,7 +288,7 @@
 ## Experience Distribution & Traded Pokémon Boost
 
 - **Multi-Participant EXP Sharing (With EXP.ALL Active):**
-  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-33 in Cerulean Cave (Turns 45041-45568). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
+  - Scope: Empirically verified for an N=4 party size with exactly 2 active participants (switch-training with native sweeper: Sheldon/Omega, OT BLUE) across Battles 1-34 in Cerulean Cave (Turns 45041-45578). Traded sweeper participation (e.g. DUX, OT ELYSSA), 3+ active participants, and N=5/6 party sizes remain empirically unverified.
   - Formula (N=4, 2 Participants): Total battle EXP is halved into a participant pool (`floor(Total_EXP / 2)`), which is divided equally between the 2 participants (`floor(floor(Total_EXP / 2) / 2)`). The remaining half is partitioned via the EXP.ALL routine, which in Gen 1 retail assembly divides the EXP.ALL pool in half again before dividing among all party members: `floor(floor(floor(Total_EXP / 2) / 2) / N)` (or `floor(floor(Total_EXP / 2) / (2 * N))`). For N=4, native members receive `floor(floor(Total_EXP / 2) / 8)` (e.g. 65 EXP for Golbat, 63 for Kadabra, 74 for Sandslash, 59 for Parasect, 56 for Venomoth Lv 49 [empirically verified in Battles 13 & 20]). Empirical yields vary slightly due to assembly integer division nuances.
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
@@ -4587,7 +4587,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ditto: Lv 53 [Encountered 1F Turn 33610]
 
 ## Verified Southern Entrance & Patrol Geometry (Empirically Verified Turns 39450-41940)
-- **Southern Entrance / Egress Warp Mat:** Coordinates (24..25, 17). Stepping onto this 2-tile wide threshold immediately warps the player outdoors to the Cerulean City canal water.
+- **Southern Entrance / Egress Warp Mat:** Coordinates (24..25, 17). Stepping onto this 2-tile wide threshold warps the player outdoors to Cerulean City at (4, 12) on dry land facing South outside the cave entrance [Empirically verified Turn 45580].
 - **High-Rate Patrol Rectangular Loop (Rows 14..15, Cols 21..25):**
   - Walkable open cavern floor forms a continuous, collision-free 5x2 rectangular loop across Columns 21 through 25 on Rows 14 and 15 [Empirically verified across Turns 44954-44996].
   - Bounded west by solid cavern wall at Column 20, east by impassable rock wall at Column 26, and south by row 16 boundary (exit threshold at 24..25, 17).
@@ -5297,13 +5297,11 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Training Protocol: Switch-training (Felix Slot 1 -> switch to Mewtwo/Sheldon -> KO).
   - Sweeper Selection & Status Strategy:
     - Omega (Healthy): Cured of PAR by wild Golbat's Haze in Battle 26! Full 233 Speed restored. Preferred against Poison/Bug/Fighting targets (Venomoth, Golbat).
-    - Sheldon (PSN): Preferred against targets weak to Water/Ice (Sandslash, Dodrio), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). (Avoid Electric moves from Magneton/Raichu due to Water-type weakness). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
+    - Sheldon (Healthy): Restored to 258/258 HP and PSN cured at Cerulean Center [Turn 45590]. Preferred against targets weak to Water/Ice (Sandslash, Dodrio), heavy physical hitters, or Psychic-type targets (Hypno/Kadabra). (Avoid Electric moves from Magneton/Raichu due to Water-type weakness). Hypno resists Psychic moves (0.5x damage) and has lower physical Defense; Sheldon's Surf and physical attacks exploit this while preserving Omega's Psychic PP.
   - Recent Battles (Rolling 2-Battle Window):
     - Battle 33 (Hypno Lv 46, Total EXP: 1,076) [Turn 45560-45567]: Felix 269 participant + ~65 EXP.ALL = ~334 EXP (~31.0%). Defeated by Sheldon's STAB Surf.
     - Battle 34 (Hypno Lv 46, Total EXP: 1,076) [Turn 45571-45578]: Felix 269 participant + ~65 EXP.ALL = ~334 EXP (~31.0%). Defeated by Sheldon's STAB Surf.
 
-- Healing / Center Protocol:
-  - Exit south to (25, 17) -> Fly to Cerulean Center, heal with Nurse Joy to restore PP and cure status conditions, verify party health via UI, return to cave.
 - Trainee Progress (FELIX Lv 24):
   - Verified Stats: HP 59/59, Attack 28, Defense 29, Speed 55, Special 26 (audited Turn 45555).
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20).
