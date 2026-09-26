@@ -5,10 +5,10 @@
 - IDNo: 04620
 
 ## Party Pokémon (4 / 6)
-- Slot 1: MEOWTH (Nickname: FELIX) [Lv 25, Normal]
+- Slot 1: MEOWTH (Nickname: FELIX) [Lv 26, Normal]
   - Status: Healthy
-  - HP: 61 / 61
-  - Stats: Attack 30, Defense 30, Speed 57, Special 27
+  - HP: 61 / 61 (Base HP increased at Lv 26, pending party audit)
+  - Stats: Attack 31, Defense 31, Speed 59, Special 28
   - OT: BLUE (IDNo. 04620)
   - Moves: Screech (PP 40/40), Growl (PP 40/40), Bite (PP 25/25), Pay Day (PP 20/20)
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 40, Normal/Flying]
