@@ -24,18 +24,20 @@
   - OT: BLUE (IDNo. 04620)
   - Moves: Swift (PP 20/20), Psychic (PP 10/10), Barrier (PP 30/30), Recover (PP 20/20)
 
-## Bag Items (11 / 20 Slots Occupied)
-- Slot 1: POKé FLUTE
-- Slot 2: SUPER ROD
-- Slot 3: BICYCLE
-- Slot 4: PP UP x1
-- Slot 5: MAX ELIXER x1
-- Slot 6: HM02 (FLY)
-- Slot 7: TM35 x1
-- Slot 8: EXP.ALL x1
-- Slot 9: LEAF STONE x1
-- Slot 10: POKé BALL x73
-- Slot 11: MOON STONE x1
+## Bag Items (Observed in DEPOSIT Menu Turn 46457)
+- Slot 1: ????? (Glitch item 0x2C)
+- Slot 2: HYPER POTION x12
+- Slot 3: 0 w p x86 (Glitch display / map tiles)
+- Slot 4: ETHER x 5
+- Slot 5: ?????
+- Slot 6: TM22 x 5
+- Slot 7: 6F x 5
+- Slot 8: RED x 6
+- Slot 9: x28
+- Slot 10: GARY x40
+- Slot 11: RARE CANDY x25
+- Slot 12: POTION x 0
+- Status Note: Bag displays underflow/glitch items following Turn 46365 withdrawal. Key items (Flute, Rod, Bike) and prior inventory displaced or inactive.
 
 ## BLUE's PC Item Storage (26 / 50 Slots Occupied - Audited Turn 46365)
 1. TM34 x1 (Bide)
