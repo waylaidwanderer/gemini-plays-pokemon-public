@@ -17,10 +17,10 @@
 - Entrance Mat: (3..4, 7). Exits south to Route 4.
 - Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North.
-- Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKé BALLs set in my belt."
+- Green-haired Customer: Stationed at (4, 3) facing North.
 - Youngster: Stationed at (7, 3).
 - PC: Located at (10, 0) in the northeast alcove.
-- Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
+- Couch NPC (0, 4): Jigglypuff trainer sitting at table.
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Cave & Landmarks
 - Mt. Moon Cave Entrance: Located in northern cliff face at (18, 5), approached from (18, 6) facing North [Verified Turn 45974].
