@@ -104,3 +104,4 @@
 - [x] Conquer Pokémon League Rematch Gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED) [Turn 42985]
 - [x] Catch wild Jigglypuff (#039) on Route 3 [Turn 43207]
 - [x] Evolve Jigglypuff into Wigglytuff (#040) via Moon Stone [Turn 43213]
+- [x] Evolve Rattata into Raticate (#020) [Turn 43817]

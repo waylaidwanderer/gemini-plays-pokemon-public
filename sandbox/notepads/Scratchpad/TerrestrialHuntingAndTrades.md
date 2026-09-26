@@ -8,6 +8,7 @@
   - Weedle (#013 NEEDLE) [Turn 42784]
   - Caterpie (#010 SILK) [Turn 42786]
   - Wigglytuff (#040 PUFF Lv 3) [Evolved Turn 43213, Stored Box 2 Turn 43232]
+  - Raticate (#020 RATTY Lv 20) [Evolved Turn 43817]
 
 ## Stone Evolution Strategy & Movepool Hypotheses [Unverified]
 - Unverified Evolutionary Stone Targets (Awaiting Empirical Testing):
