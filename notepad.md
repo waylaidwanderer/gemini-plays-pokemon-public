@@ -2722,7 +2722,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Tombstones at (12..13, 5), (15..16, 6), (11..13, 7), (11..13, 9), (11, 10), (16, 10), (14..17, 11), (14, 13).
 - Orange altars at (17..18, 5), (18, 6), (17..18, 11..13).
 - Open Passages: Row 8 is a wide open highway (cols 11..18); Col 14 is open (rows 5..10); Row 9 (cols 14..17).
-- Item Ball at (9, 10): Inspected on Turn 47728; tile is open floor (empty/previously collected).
+- Tile (9, 10): Empirically verified solid collision from (10, 10) on Turn 47726; pressing A yielded no dialogue or item. Tile is impassable.
 - Item Ball at (12, 16): Sighted on floor in south alcove [Turn 6264].
 
 <hr>
@@ -5352,7 +5352,8 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 26 Poké Balls in bag. Pokédex: 78 Caught.
+- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24, BONEY Lv 22). 26 Poké Balls in bag. Pokédex: 78 Caught.
+- Capture Storage: Party is 6/6. Next wild captures (Haunter on 5F/6F) will route automatically to PC Box 1 (11 free slots).
 - Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
 - Floor-by-Floor Encounter & Hazard Survey:
   - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
@@ -5366,8 +5367,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   1. Gastly (#092) [Ghost/Poison, BCR 190]: CAUGHT on 3F with basic Poké Ball on Turn 1 [Turn 47584]! Nickname: SPOOKY. Registered #092.
   2. Cubone (#104) [Ground, BCR 190, hypothesized low encounter rate]: Throw basic Poké Ball on Turn 1 at full HP. Target floors: 3F-5F.
   3. Haunter (#093) [Ghost/Poison, BCR 90]: Appears on 5F-6F. Budget 2-4 Poké Balls or weaken if necessary. (Fallback: Gastly evolves into Haunter at Lv 25).
-- Catch Slots: Party has 2 open slots (Slots 5 and 6). Gastly and Haunter will enter active party. Cubone will be sent to PC Box 1 (11 free slots).
-- Next Targets if Needed for 80 Milestone (Current 76 -> Target 80):
   - Magnemite (#081) / Voltorb (#100) at Power Plant
   - Clefairy (#035) / Zubat (#041) at Mt. Moon
   - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22
