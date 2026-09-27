@@ -284,11 +284,8 @@
   - **Track 8**: Blue bird tracks observed near (47, 12) heading east toward eastern signpost.
   - **Reward**: Nice rewards / gifts upon completion.
 
-- **Lancio Town Trail (Verified Turn 1046)**:
-  - (43, 13) [yellow footprints]
-  - (42, 11) [blue footprints]
-  - (41, 10) [blue footprints]
-  - (38, 8) [blue footprints by pond inlet bank]
-  Tracks lead past the house at (40, 9) toward the pond inlet and the golden item at (38, 4)!
+- **Lancio Town Note (Disproven Turn 1052)**:
+  - Ground patterns in Lancio Town near the Pokémon Center are decorative flower petals (blue, white, yellow), not bird tracks.
+  - The real Lost Pidgey trail is on Route 1 heading east through the northern meadow.
 
 <hr>
