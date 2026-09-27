@@ -1,4 +1,13 @@
-# Prologue Monologue
+# Prologue Analysis & Tracking (Started Turn 11)
+
+## Synthesized Entities & Lore
+- **Asher**: Protagonist, raised as Siara Mafia heir to conquer the world; currently questioning fate vs choice.
+- **Mother**: Sole current leader of Siara Mafia; obsessed with dangerous domination research project.
+- **Father**: Former Siara Mafia co-leader; fled with Asher after realizing research danger; intends to dismantle Siara from the shadows.
+- **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
+- **The Science Project**: Research capable of world domination; central cause of parental divorce and regional threat.
+
+## Monologue Progression Log
 - "I... am not an ordinary kid."
 - "And I wasn't born into an ordinary family either."
 - Visual: Asher's mother (red hair, yellow top) and father (black hair, orange shirt) appear.
