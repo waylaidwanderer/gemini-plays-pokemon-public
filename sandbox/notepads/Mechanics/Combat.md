@@ -159,6 +159,5 @@
 
 ## One-Hit Knockout (OHKO) Move Mechanics (Gen 1 Engine)
 - **Empirical Status & Proof of Work (Horn Drill):** Empirically verified Turn 46896 (vs Mewtwo OMEGA Lv 76) and Turn 46910 (vs Dodrio HYDRA Lv 49): Wild Rhydon Lv 52 used Horn Drill against faster targets (N=2), displaying 'OMEGA's unaffected!' and 'HYDRA's unaffected!', confirming Horn Drill fails against targets with higher Speed.
-  - Venomoth Lv 51 (BCR 75): Missed on Balls 1-2; captured on Ball 3 at full HP with basic Poké Ball [Turn 47021].
-  - Marowak Lv 52 (BCR 75): Missed on Balls 1-6, broke free on Balls 7-8; captured on Ball 9 at ~90% HP with basic Poké Ball [Turn 47053].
+
 - **Scope & Untested Mechanics:** Generalization of this speed-threshold check to other OHKO moves (Guillotine, Fissure) or across equal/lower speed differentials remains theoretical and empirically untested in this run.
