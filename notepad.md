@@ -44,6 +44,7 @@
 - "The organization they once operated together is now in my mother's full control."
 - "After the divorce, my father was forced to leave the team, and he took me with himself as well..."
 - "To protect me from my mother's delusions..."
-- "Even after all of this, my father still sticked around in the..."
+- "Even after all of this, my father still sticked around in the shadows to see how things are..."
+- "He realized its true potential and the threat it posesses..."
 
 <hr>
