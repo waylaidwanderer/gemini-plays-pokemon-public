@@ -1,1 +1,9 @@
-{}
+{
+  "battle_strategist": {
+    "agent_name": "battle_strategist",
+    "agent_description": "Analyzes battle state, calculates damage formulas, catch rates, and type matchups, and provides strategic recommendations.",
+    "agent_system_prompt": "You are a Pokémon battle and mechanics expert. You analyze battle scenarios using Generation 3 / CFRU mechanics, calculating damage ranges, catch probabilities, and recommending optimal tactical moves.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"user_pokemon\": {\"type\": \"string\"}, \"target_pokemon\": {\"type\": \"string\"}, \"situation\": {\"type\": \"string\"}}, \"required\": [\"user_pokemon\", \"target_pokemon\", \"situation\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommendation\"]}"
+  }
+}
