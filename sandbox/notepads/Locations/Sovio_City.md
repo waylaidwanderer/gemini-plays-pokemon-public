@@ -32,7 +32,7 @@
   - Main lobby floor lands at (23, 24) on vertical red mat.
   - Stairs leading back up to Sovio City overworld at (24, 24).
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00".
-  - Waiting area chairs along west wall at (17-18, 22-25).
+  - Waiting area chairs along west wall at (16-17, 22-25); empirically surveyed on Turn 2803: completely empty (no NPCs, Dad, or Valora present).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
   - **Turnstile Gate (Verified Turn 2755)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Attempting to pass without Dad triggers story barrier 'I should find dad first!'.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
