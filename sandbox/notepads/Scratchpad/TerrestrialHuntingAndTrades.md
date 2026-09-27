@@ -6,6 +6,7 @@
   1. Venomoth (#049) [Wild Lv 51, BCR 75]
   2. Marowak (#105) [Wild Lv 52, BCR 75]
   3. Ditto (#132) [Wild Lv 55, BCR 35]
+  4. Chansey (#113) [Wild Lv 56, BCR 30]
 - Protocol:
   - Lead: Mewtwo (OMEGA Lv 76, 269/269 HP).
   - Target encounters: Throw Poké Balls directly into open party slots (Slots 4, 5, 6).
