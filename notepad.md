@@ -238,6 +238,7 @@
 - **Main Milestone**: Advance along the main road on row 46 to Sovio City for tournament registration and Poké Ball restock.
 - **Column 4 Blocked**: (4, 42) is blocked by a pine tree trunk; (5, 43) is a Cut tree. The northern tree line is impassable here.
 - **Active Navigation**: Defeating wild Starly and investigating the true northward path.
+- **Northern Corridor Verified**: Walkable corridor located at columns 24-26, rows 41-43, marked by continuous bird tracks. Connects southern highway (row 46) directly to the northern meadow (row 40 and above). (22, 42) is blocked by a cypress tree.
 
 <hr>
 
