@@ -14,7 +14,3 @@
   - **Track 7**: (41, 10) on open grass path heading southeast toward (45, 11).
   - **Track 8**: Blue bird tracks observed near (47, 12) heading east toward eastern signpost.
   - **Reward**: Nice rewards / gifts upon completion.
-
-- **Lancio Town Note (Disproven Turn 1052)**:
-  - Ground patterns in Lancio Town near the Pokémon Center are decorative flower petals (blue, white, yellow), not bird tracks.
-  - The real Lost Pidgey trail is on Route 1 heading east through the northern meadow.
