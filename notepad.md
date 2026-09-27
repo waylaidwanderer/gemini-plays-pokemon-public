@@ -311,7 +311,8 @@
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 - **Sewer Manhole (Southwest)**: Located at (13, 27); verified on Turn 1537 as a non-interactive decorative tile.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
-- **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17); dialogue: "This is my partner, Rocky! He's the best..." (ambient dialogue, verified Turn 2849).
+- **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier (Verified Turns 2068, 2796)**: Attempting to walk east past column 51 along row 20 or stepping east at (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher back.
