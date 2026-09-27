@@ -15,3 +15,7 @@
 ## Regional History & Events
 - **300-Year Anniversary**: Commemorates 300 years of human-Pokémon coexistence in Hupest.
 - **Eclipse Tournament**: Major international tournament organized in Hupest for the 300-year anniversary; open to trainers worldwide. Does not require traditional Gym Badges to qualify.
+
+## Major Cities & Points of Interest
+- **Amor City**: Capital city of the Hupest Region.
+- **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
