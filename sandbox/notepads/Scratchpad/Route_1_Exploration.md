@@ -13,3 +13,7 @@
   - Step Down to (27, 40), Right twice through (28, 40) [blue flowers] to (29, 40), then Up to (29, 38) onto the sand clearing!
   - Blue Cap Boy (Lost Pidgey Quest Giver) is directly visible in the clearing at (31-32, 37)!
   - Northern meadow connects freely to the north toward Youngster Mike, Lass Sonia, Cottage, and Bug Catcher Duke!
+- **South Channel to Clearing Breakthrough (Verified Turn 1103)**:
+  - From (27, 42), stepped Right to (28, 42), then Up to (28, 41).
+  - Column 29 is wide open: step Right to (29, 41) [blue flowers], then Up through (29, 40), (29, 39) directly onto the sand clearing at (29, 38)!
+  - The 275-turn loop is permanently broken; northern Route 1 is fully accessible!
