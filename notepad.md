@@ -113,7 +113,7 @@
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench, and Mareep pen.
 
 ## Visible Field Items
-- **Pokéball Item 1**: Golden ball at (38, 4) north of pond; west bank blocked by pines at (31, 7); east corridor blocked at (39, 8) (collision at pond bank/house boundary). Likely requires Surf or Route 1 loop.
+- **Pokéball Item 1**: Golden ball at (38, 4) north of pond; west bank blocked by pines at (31, 7); east corridor blocked when moving north from (39, 8) into row 7 (collision at pond bank/house boundary). Likely requires Surf or Route 1 loop.
 - **Pokéball Item 2**: Visible in the far northeast corner above the pond.
 
 ## Professor Ivo's Pokémon Laboratory (Interior)
@@ -149,14 +149,14 @@
 - **Nickname**: Sirius (Currently default "Riolu", pending Name Rater)
 - **Gender**: Male (♂)
 - **Level**: Lv5
-- **HP**: 17/20 (IV Grade: C)
+- **Max HP**: 20 (IV Grade: C)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: Attack 12 (C+), Defense 13 (A-), Sp. Atk 10 (C-), Sp. Def 11 (E), Speed 9 (C-)
 - **Moves**:
-  - Tackle (Normal, Physical, 32/35 PP)
-  - Quick Attack (Normal, Physical, Priority +1, 30/30 PP)
-  - Growl (Normal, Status, 40/40 PP)
+  - Tackle (Normal, Physical, 35 PP)
+  - Quick Attack (Normal, Physical, Priority +1, 30 PP)
+  - Growl (Normal, Status, 40 PP)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
 - **Appearance**: Custom sprite wearing a red/black scarf
@@ -176,11 +176,13 @@
 - **Signboard**: Located at (10, 47) south of central pine tree; reads "Route 1: Everything starts small."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
 
-## Wild Encounters & Trainers
+## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **Trainer 1 (Youngster)**: Boy in blue backwards cap and yellow shirt at (12, 49) facing south.
-- **Trainer 2 (Camper)**: Trainer with straw hat visible to the northeast around (14, 42).
-- **Wild Encounters**: Wooper (Lv3, Water/Ground; verified Turn 458).
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south (did not initiate battle when adjacent; unverified trainer status).
+- **NPC 2 (Straw Hat)**: Trainer/NPC with straw hat visible to northeast around (14, 42) facing south (unverified battle status).
+- **Wild Encounters**:
+  - Wooper (Lv3, Water/Ground; verified Turn 458).
+  - Starly (Lv3, Normal/Flying; verified Turn 481).
 
 <hr>
 

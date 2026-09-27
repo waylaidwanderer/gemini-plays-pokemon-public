@@ -9,8 +9,10 @@
 - **Signboard**: Located at (10, 47) south of central pine tree; reads "Route 1: Everything starts small."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
 
-## Wild Encounters & Trainers
+## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **Trainer 1 (Youngster)**: Boy in blue backwards cap and yellow shirt at (12, 49) facing south.
-- **Trainer 2 (Camper)**: Trainer with straw hat visible to the northeast around (14, 42).
-- **Wild Encounters**: Wooper (Lv3, Water/Ground; verified Turn 458).
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south (did not initiate battle when adjacent; unverified trainer status).
+- **NPC 2 (Straw Hat)**: Trainer/NPC with straw hat visible to northeast around (14, 42) facing south (unverified battle status).
+- **Wild Encounters**:
+  - Wooper (Lv3, Water/Ground; verified Turn 458).
+  - Starly (Lv3, Normal/Flying; verified Turn 481).
