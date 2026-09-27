@@ -311,7 +311,7 @@
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 - **Sewer Manhole (Southwest)**: Located at (13, 27); verified on Turn 1537 as a non-interactive decorative tile.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17); dialogue: "This is my partner, Rocky! He's the best..." (ambient dialogue, verified Turn 2849).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
@@ -338,7 +338,7 @@
 - **Interior Layout**:
   - Main lobby floor lands at (23, 24) on vertical red mat.
   - Stairs leading back up to Sovio City overworld at (24, 24).
-  - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00".
+  - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
   - Waiting area chairs along west wall at (16-17, 22-25); empirically surveyed on Turn 2803: completely empty (no NPCs, Dad, or Valora present).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
   - **Turnstile Gate (Verified Turn 2755)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Attempting to pass without Dad triggers story barrier 'I should find dad first!'.
@@ -372,31 +372,26 @@
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
-- **PokéMart Survey (Partial)**: Sovio City Pokémon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed. Unsurveyed sectors remain: modern tiered building perimeter at (18-26, 20-27), southwest wooden building at (17-20, 25-29), and north road terminus (north of row 7).
+- **PokéMart Survey (Partial)**: Sovio City Pokémon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed.
 
 <hr>
 
 <h1><code>Scratchpad/Sovio_City</code></h1>
 
-# Scratchpad: Sovio City Hypotheses & Live Routing
+# Scratchpad: Sovio City & Metro Station Investigation
 
-## Evidentiary Basis for Citywide Dad Search
-- Stated Destination vs Physical State: In Turn 2704, Dad stated he was heading for the station. However, empirical surveys on Turns 2755, 2785, and 2803 established that:
-  1. The Metro Station lobby and waiting benches (columns 16-24, rows 21-25) are completely empty (no NPCs present).
-  2. The Metro train turnstiles at (19, 21) are hard-blocked by the story barrier: 'I should find dad first!'.
-  3. The Route 2 eastern exit at (52, 19) is hard-blocked by the story barrier: 'I can't go yet... I have things to do!'.
-  4. Central Plaza outside the Pokémon Center (columns 40-48, rows 12-18) contains no NPCs.
-- Deduction: Because Asher cannot exit to Route 2 or board the train, and the station lobby is empty, Dad's physical event trigger must be located elsewhere within Sovio City. The remaining unvisited areas are the western district avenues/facilities (columns 12-30) and northern corridors (rows 7-12).
+## Investigation & Testing Log
+- Sovio City Surface: Thoroughly surveyed (all avenues, alleys, residential buildings, Pok�mon Center). Confirmed no Dad/Valora present.
+- Sewers 1F Landing: Surveyed on Turns 2753 and 2942. Confirmed 100% empty; Dad and Valora are not in the sewers.
+- Train Schedule Board (23, 23): Interacted with 'A' on Turn 2924; no text or reaction.
 
-## Active Search Progress & Route
-- [x] Metro Station lobby & waiting area: Verified empty.
-- [x] Route 2 east gate: Verified blocked.
-- [x] Central Plaza & Pokémon Center exterior: Verified empty.
-- [x] Plaza East house exterior & ledge: Verified impassable from west at (46, 14).
-- [x] Boy & Rocky at (23-24, 17): Spoke with Boy (ambient dialogue about Rocky).
-- [x] Western Tiered Building west corridor (columns 16-18, rows 19-27): Surveyed. No entrance found along west wall.
-- [x] Southwest sector (columns 12-20, rows 20-30): Surveyed. Southwest building decorative with blocked shutters; pine tree line at (12, 30) is a dead end.
-- [ ] Northwest houses & avenues (columns 12-28, rows 7-18): Active target. Machop house at (14, 15), unvisited northern avenue (north of row 15).
+## Active Metro Station Protocol
+1. Turnstile passage at (19, 21) triggers "I should find dad first!".
+2. Action plan inside station lobby:
+   - Test interaction with the left ticket scanner pillar at (18, 21) and wall machine at (18, 20).
+   - Test interaction with the right ticket scanner pillar at (20, 21) and wall machine at (20, 20).
+   - Test interaction from (19, 21) facing North, Left, and Right.
+   - Investigate whether Dad or Valora triggers upon specific lobby actions or if another station mechanic is required.
 
 
 <hr>
@@ -466,24 +461,15 @@
 - **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat where Jackson was held. Interacting with the mat displays "Its a simple storage room...". There is no separate interior warp map.
 
 ## Wild Encounters
-- Koffing (Lv6, Poison; verified Turn 1720)
-- Koffing (Lv5, Poison; verified Turn 2205 at (21, 5))
-- Koffing (Lv4, Poison; verified Turn 2405 at (13, 30))
+- Koffing (Lv4-7, Poison; verified Turns 1720, 2205, 2405, 2734, 2751)
+- Grimer (Lv5-7, Poison; verified Turns 2121, 2246, 2416, 2666)
+- Purrloin (Lv4-6, Dark; verified Turns 2351, 2424, 2431, 2741)
+- Poochyena (Lv5-7, Dark; verified Turns 2346, 2364, 2589)
+- Klink (Lv4-7, Steel; verified Turns 2393, 2658)
+- Trubbish (Lv4-6, Poison; verified Turns 2576, 2597)
 - Stunky (female) (Lv4, Poison/Dark; verified Turn 1991)
-- Grimer (female) (Lv5-7, Poison; verified Turn 2121, Turn 2246 at (22, 5), Turn 2666 at (28, 13))
-- Grimer (male) (Lv6, Poison; verified Turn 2416 at (14, 17))
 - Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
-- Poochyena (female) (Lv5-7, Dark; verified Turn 2346 at (33, 28), Turn 2364 at (8, 25), Turn 2589 at (15, 17))
-- Purrloin (female) (Lv6, Dark; verified Turn 2351 at (25, 28))
-- Purrloin (female) (Lv5, Dark; verified Turn 2424 at (19, 5))
-- Purrloin (male) (Lv4, Dark; verified Turn 2431 at (23, 9))
-- Klink (Lv4-7, Steel; verified Turn 2393 at (14, 28), Turn 2658 at (24, 13))
-
-- Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
-- Zubat (female) (Lv5, Poison/Flying; verified Turn 2718 at (37, 13))
-- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))
-- Koffing (Lv7, Poison; verified Turn 2734 at (20, 5))
-- Purrloin (female) (Lv6, Dark; verified Turn 2741 at (16, 18))
-- Koffing (female) (Lv6, Poison; verified Turn 2751 at (34, 27))
+- Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
+- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 
 <hr>
