@@ -228,6 +228,8 @@
 ## Facilities & PokéMarts (Verified Turns 795-805)
 - **Lancio Town Pokémon Center**: Contains no PokéMart clerk or item vendor inside (verified by full room inspection). NPC dialogue claiming PokéMarts are inside centers does not apply to Lancio Town.
 - **Official In-Game Confirmation (Turn 1188)**: Sovio City Trainer Tips signpost at (15, 18) verbatim: "If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around."
+## Quests & Mission Engine (Verified Turn 1378)
+- **Single Active Quest Limit**: The player can only have ONE active side quest at a time in Pokémon Sors. Attempting to accept a second side quest while one is already active triggers: "You are already doing a quest...". The active quest must be completed before a new one can be taken.
 
 <hr>
 
@@ -330,7 +332,7 @@
 
 ## Details
 - **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
-- **Status**: Active (Accepted Turn 1377).
+- **Status**: Blocked / Pending (Verified Turn 1378: Cannot accept while 'Lost Pidgey' is active; triggers 'You are already doing a quest...').
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
 - **Background**: Machop lost its favorite toy and became very aggressive. The old man cannot explore the sewers because he is not a trainer.
 - **Target Location**: Sovio Sewers.
