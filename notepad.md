@@ -2170,6 +2170,7 @@
 - Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
 - Row 10 Runway: Clear open crosshatch floor from (10, 10) east to (18, 10) leading directly into (18, 9) stairs.
 
+- Wild Cubone Verification [Turn 47621]: Encountered wild Cubone at (15, 4). Empirically confirms wild Cubone spawns on 3F in retail Pokémon Blue!
 
 <hr>
 
