@@ -2052,7 +2052,8 @@
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 
 ## Key Buildings & Facilities
-- Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Historic full party heal completed [Turn 6213]. Active warp anchor subsequently updated to Celadon City [Turn 12560].
+- Pokémon Center: Located at cols 2..5, rows 2..5.
+  - HM02 Fly Arrival Point: Confirming Fly to Lavender Town drops the player outdoors at (3, 6) facing North, directly in front of the Pokémon Center entrance door at (3, 5) [Empirically verified Turn 47548]. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Historic full party heal completed [Turn 6213]. Active warp anchor subsequently updated to Celadon City [Turn 12560].
 - Poké Mart: Located at cols 14..17, rows 11..13. Front entrance door at (15, 13), "MART" sign at (16, 13) [Sighted Turn 4861].
   - Interior: Clerk counter at (0..1, 5), talk from (2, 5) facing West. Customer at (3, 4). Entrance mat at (3..4, 7).
   - Catalog Items: GREAT BALL (¥600), SUPER POTION (¥700), REVIVE (¥1500), ESCAPE ROPE (¥550), SUPER REPEL (¥500), ANTIDOTE (¥100), BURN HEAL (¥250), ICE HEAL (¥250), PARLYZ HEAL (¥200) [Verified Turn 4872].
@@ -5344,18 +5345,24 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
 - Status: Party 4/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10). 33 Poké Balls in bag. Pokédex: 76 Caught.
-- Target Species:
-  1. Gastly (#092) [Ghost/Poison, Lv 18-24, BCR 190]
-  2. Haunter (#093) [Ghost/Poison, Lv 20-25, BCR 90]
-  3. Cubone (#104) [Ground, Lv 20-22, BCR 190]
-- Next Targets if Needed for 80 Milestone:
+- Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
+- Floor-by-Floor Encounter & Hazard Survey:
+  - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
+  - 2F: Former Rival RED battle area (safe zone, 0 wild encounters).
+  - 3F: First wild encounter floor (Silph Scope reveals Gastly Lv 20-24, Cubone Lv 20-22 ~9%).
+  - 4F: Wild encounter floor (Gastly Lv 20-24, Cubone Lv 20-22, Zubat).
+  - 5F: Purified protected zone at (10..11, 9..10) heals party on step; wild encounters: Gastly, Haunter Lv 20-25, Cubone Lv 20-22.
+  - 6F: High-rate Haunter/Cubone floor (Gastly, Haunter Lv 20-25, Cubone Lv 22-24). Ghost Marowak already defeated [Turn 6429].
+  - 7F: Top shrine floor; Mr. Fuji rescued [Turn 6549]; safe zone.
+- Target Species & Capture Strategy:
+  1. Gastly (#092) [Ghost/Poison, BCR 190]: High capture probability at full HP with basic Poké Ball. Target floors: 3F-5F.
+  2. Cubone (#104) [Ground, BCR 190, ~9% spawn rate]: Throw basic Poké Ball on Turn 1 at full HP. Target floors: 3F-5F.
+  3. Haunter (#093) [Ghost/Poison, BCR 90]: Appears on 5F-6F. Budget 2-4 Poké Balls or weaken if necessary. (Fallback: Gastly evolves into Haunter at Lv 25).
+- Catch Slots: Party has 2 open slots (Slots 5 and 6). Gastly and Haunter will enter active party. Cubone will be sent to PC Box 1 (11 free slots).
+- Next Targets if Needed for 80 Milestone (Current 76 -> Target 80):
   - Magnemite (#081) / Voltorb (#100) at Power Plant
   - Clefairy (#035) / Zubat (#041) at Mt. Moon
   - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22
-
-## Active Tactical Hunt: Route 25 Wild Abra (#063) [COMPLETED Turn 47514]
-- Location: Route 25 Tall Grass at Cols 2..7, Rows 4..5.
-- Outcome: SUCCESS! Caught Abra Lv 10 with basic Poké Ball on throw 2 (Turn 47514). Nickname: HOUDINI. Registered #063 in Pokédex (76 total caught).
 
 
 <hr>
