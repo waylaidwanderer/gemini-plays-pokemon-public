@@ -10,6 +10,6 @@
 - **OT / ID**: Asher / 54592
 - **Met**: Route 1 at Lv2
 - **Item**: None
-- **Ability**: Pending page 2 inspection
-- **Stats (IV Grades)**: Pending page 2 inspection
+- **Ability**: Keen Eye (Prevents loss of accuracy)
+- **Stats (IV Grades)**: HP 13 (D+), Attack 7 (C), Defense 5 (C-), Sp. Atk 6 (C+), Sp. Def 6 (D-), Speed 7 (A)
 - **Moves**: Pending page 3 inspection
