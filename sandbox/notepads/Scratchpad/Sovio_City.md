@@ -16,3 +16,4 @@
 - Asher enters the confrontation; Dad warns: "Asher?! Things aren't too good son."
 - Mother recognizes Asher: "A-ashy?"
 - Asher responds: "Mom?"
+- Mother asks Asher: "How are you doing honey? Are you eating well?"
