@@ -46,7 +46,7 @@
 - **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
 ## Mother's Return & Siara Syndicate Movements
 - **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
-- **Current Status**: No overt incident yet, but vigilance is required. Dad went into the lab to confer with Professor Ivo while Asher proceeds to Amor City for the Eclipse Tournament.
+- **Current Status**: No overt incident yet, but vigilance is required.
 
 <hr>
 
@@ -130,34 +130,35 @@
   - Wooden research table at (21-23, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
+## Southwest Beach & Coastline
+- **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
+- **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
+- **Interactions**: Meeting spot where Dad waited for Asher after lab visit (Turns 403-418).
+
+## Mechanics & Engine Notes
+- **stun_npc**: Unsupported in Pokémon Sors due to custom ROM hack memory layout (Error: Map objects data is unavailable).
 
 <hr>
 
-<h1><code>Scratchpad/Starter_Evaluation</code></h1>
+<h1><code>Party/Sirius_Riolu</code></h1>
 
-# Scratchpad: Starter Pokémon & Exploration Variables
+# Sirius (Riolu) - Starter Pokémon
 
-## Starter Pokémon Candidate
-- **Location**: Research table at (22, 4) in Professor Ivo's Lab.
-- **Pokéball Type**: Custom orange/gold upper dome, white base.
-- **Current Status**: All Summary pages verified; exiting menu to return to overworld.
-- **Species**: Riolu (Regional Dex No. 161, Fighting-type).
-- **Gender**: Male (♂ symbol verified).
-- **Level / HP**: Lv5, 20/20 HP (IV Grade: C).
-- **Nature**: Relaxed (+Def, -Speed; verified Turn 384).
-- **Ability**: Quick Feet ("Ups Speed if suffering" - 1.5x Speed on major status; verified Turn 385).
-- **Stats (IV Grades)**: Attack 12 (C+), Defense 13 (A-), Sp. Atk 10 (C-), Sp. Def 11 (E), Speed 9 (C-).
-- **Known Moves**: Tackle (35/35 PP), Quick Attack (30/30 PP), Growl (40/40 PP).
-- **OT / ID**: Asher / 54592.
-- **Held Item**: None (Torn Scarf is stored in Items pocket).
-- **Visual**: Custom sprite with red/black scarf.
-- **Met**: Lancio Town at Lv5.
-- **Selected Nickname**: Sirius (The brightest star / Dog Star; guiding light of justice against Siara).
-- **Nickname Action**: Currently named default "Riolu" (no prompt given at reception); plan to visit Name Rater at earliest opportunity.
-
-## Untested Interactive Objects in Lab
-- **Stairs to 2F**: Located at (11-12, 7) in the entrance foyer.
-- **Cylindrical Incubator**: Large green apparatus at (18-19, 5-6).
-- **Computer Workstation**: Blue terminal console at (23-24, 8-9).
+## Profile
+- **Species**: Riolu (Regional Dex No. 161, Fighting-type)
+- **Nickname**: Sirius (Currently default "Riolu", pending Name Rater)
+- **Gender**: Male (♂)
+- **Level**: Lv5
+- **HP**: 20/20 (IV Grade: C)
+- **Nature**: Relaxed (+Def, -Speed)
+- **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
+- **Stats (IV Grades)**: Attack 12 (C+), Defense 13 (A-), Sp. Atk 10 (C-), Sp. Def 11 (E), Speed 9 (C-)
+- **Moves**:
+  - Tackle (Normal, Physical, 35/35 PP)
+  - Quick Attack (Normal, Physical, Priority +1, 30/30 PP)
+  - Growl (Normal, Status, 40/40 PP)
+- **OT / ID**: Asher / 54592
+- **Met**: Lancio Town at Lv5
+- **Appearance**: Custom sprite wearing a red/black scarf
 
 <hr>

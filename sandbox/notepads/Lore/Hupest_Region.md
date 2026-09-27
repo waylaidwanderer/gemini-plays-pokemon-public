@@ -30,4 +30,4 @@
 - **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
 ## Mother's Return & Siara Syndicate Movements
 - **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
-- **Current Status**: No overt incident yet, but vigilance is required. Dad went into the lab to confer with Professor Ivo while Asher proceeds to Amor City for the Eclipse Tournament.
+- **Current Status**: No overt incident yet, but vigilance is required.

@@ -31,3 +31,10 @@
   - Wooden research table at (21-23, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
+## Southwest Beach & Coastline
+- **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
+- **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
+- **Interactions**: Meeting spot where Dad waited for Asher after lab visit (Turns 403-418).
+
+## Mechanics & Engine Notes
+- **stun_npc**: Unsupported in Pokémon Sors due to custom ROM hack memory layout (Error: Map objects data is unavailable).
