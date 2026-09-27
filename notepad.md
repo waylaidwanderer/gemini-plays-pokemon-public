@@ -151,7 +151,7 @@
   - HP: Full (Healthy)
   - Status: Healthy
 
-## Bag Items (10 / 20 Slots Occupied - Audited Turn 47011)
+## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -240,11 +240,11 @@
 
 ## Battle UI & Controls
 
-- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
+- **Asleep Move Selection Mechanic:** In Generation 1 retail, selecting FIGHT while the active Pokéémon is asleep does NOT open the move selection menu. It immediately triggers the turn, printing '[POKéMON] is fast asleep!' and decrementing the sleep counter [Empirically verified Turn 33848].
 
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokéémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 
-- **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
+- **Shift Style Prompt:** When an opposing Pokéémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokéémon.
 
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions [Empirically verified repeatedly across battles, e.g. Turns 35895, 35907].
 
@@ -262,7 +262,7 @@
 
 ## Stat & Damage Mechanics
 
-- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type Pokémon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
+- **Psychic vs. Psychic Resistance (Gen 1 Retail):** In Generation 1 retail, Psychic-type Pokéémon resist Psychic-type attacks, taking 0.5x damage ('It's not very effective...'). Even with Mewtwo's 254 Special and STAB, non-critical Psychic deals ~65% damage to wild Hypno Lv 46 (Special ~125), requiring a 2-turn KO or a critical hit [Empirically verified across Battles 175 (Turn 39668), 177 (Turn 39692), and 178 (Turn 39702)].
 
 - **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat [Empirically verified across all stat screens and damage calculations].
 
@@ -278,12 +278,12 @@
 
 ## Obedience
 
-- **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 80 and wild-caught Mewtwo OMEGA at Lv 77 obey 100% of commands in all battles without disobedience [Verified Turn 45781]).
-- **Traded / Outsider Pokémon:** Traded Pokémon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All Pokémon obey). Verified: With Earthbadge obtained [Turn 15111], all traded Pokémon obey unconditionally up to Lv 100.
+- **Original Trainer Pokéémon:** Starter Pokéémon and Pokéémon caught by the player never disobey, regardless of level or badge count. (Empirically verified across 41,000+ turns: Starter Blastoise SHELDON at Lv 80 and wild-caught Mewtwo OMEGA at Lv 77 obey 100% of commands in all battles without disobedience [Verified Turn 45781]).
+- **Traded / Outsider Pokéémon:** Traded Pokéémon (e.g. Farfetch'd DUX, OT ELYSSA IDNo 54183) are subject to badge obedience caps (Cascadebadge: Lv 30, Rainbowbadge: Lv 50, Soulbadge: Lv 70, Earthbadge: All Pokéémon obey). Verified: With Earthbadge obtained [Turn 15111], all traded Pokéémon obey unconditionally up to Lv 100.
 
 
 
-## Experience Distribution & Traded Pokémon Boost
+## Experience Distribution & Traded Pokéémon Boost
 
 - **Empirical Solo-Sweeper EXP.ALL Yields (N=3 Party: Solo Lead [Sheldon], Inactive: DUX, OMEGA):**
   - Scope: Documented from a single encounter (Sample size N=1 battle against Sandslash Lv 52 [Empirically verified Turns 46665-46666]). Generalization of this EXP partitioning model across other species and levels at N=3 remains empirically unverified.
@@ -295,7 +295,7 @@
 
 - **Empirical Switch-Training EXP.ALL Yields (N=4 Party: Trainee Felix Lead, Native Sweeper Sheldon/Omega, DUX Traded Inactive, Inactive Sweeper):**
   - Distribution: Participant share = `floor(Total_EXP / 4)`. EXP.ALL native share = `floor(floor(floor(Total_EXP / 2) / 2) / 4)`. Trainee Felix total share = Participant + EXP.ALL share (~31% of total EXP).
-  - Traded Pokémon (DUX) receives boosted EXP.ALL share: `s_expall + floor(s_expall / 2)`.
+  - Traded Pokéémon (DUX) receives boosted EXP.ALL share: `s_expall + floor(s_expall / 2)`.
 
 | Species | Level | Total EXP | Trainee Part. Share | Trainee EXP.ALL | Trainee Total Yield | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -311,17 +311,17 @@
 
 - **Solo Sweeper Passive EXP.ALL Distribution (Gen 1 Engine):**
   - **Empirical Variance Note:** While the theoretical formula floor(floor(Total_EXP / 2) / N) serves as a baseline, in-game observations reveal integer truncation nuances in the retail assembly routine (e.g., Hypno Lv 46 yields 131 EXP vs predicted 134, Dodrio Lv 49 yields 133 EXP vs predicted 138). Yields should be verified against observed battle text.
-  - When a single lead Pokémon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
+  - When a single lead Pokéémon sweeps without switching, participant share = `floor(Total_EXP / 2)`.
   - EXP.ALL distributes the remaining half among all party members: `s_expall = floor(floor(Total_EXP / 2) / N)`.
-  - Traded Pokémon receive: `s_expall + floor(s_expall / 2)`.
+  - Traded Pokéémon receive: `s_expall + floor(s_expall / 2)`.
 
-- **Native vs. Traded Pokémon EXP Yields:**
+- **Native vs. Traded Pokéémon EXP Yields:**
 
-  - **Native Pokémon (OT matches player):** Receives exactly the base share `s_EXP`.
+  - **Native Pokéémon (OT matches player):** Receives exactly the base share `s_EXP`.
 
-  - **Traded / Outsider Pokémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
+  - **Traded / Outsider Pokéémon (boosted EXP):** Receives `boosted_EXP = s_EXP + floor(s_EXP / 2)`.
 
-- **Traded Pokémon Boost Formula (Gen 1 Assembly Implementation):**
+- **Traded Pokéémon Boost Formula (Gen 1 Assembly Implementation):**
 
   - In Generation 1 retail, the 1.5x OT boost multiplier is calculated via integer arithmetic: half of the participant's base share is computed via integer division (`floor(s_EXP / 2)`) and added directly back to `s_EXP`:
 
@@ -330,7 +330,7 @@
   - This explains why integer truncation does not match floating-point multiplication (e.g., base share 525 yields `525 + floor(262.5) = 525 + 262 = 787`, perfectly matching observed in-game yields).
 
 - **Empirical Solo-Sweeper EXP.ALL Yields (N=4 Party: Solo Lead [Mewtwo / Sheldon], DUX Traded, Inactive Members):**
-  - Solo sweep yields are determined strictly by the defeated Pokémon species/level and party size, invariant to which Pokémon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
+  - Solo sweep yields are determined strictly by the defeated Pokéémon species/level and party size, invariant to which Pokéémon acts as the solo sweeper (empirically confirmed: Sheldon lead Turn 43499 yielded identical 553 EXP sweeper / 133 EXP.ALL trainee share vs Dodrio Lv 49).
 
 | Species | Level | Total EXP | Solo Sweeper Share | Native Trainee Share | Traded Trainee Share | Verification Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -355,26 +355,26 @@
 | Magneton | 46 | 1,050 | 525 EXP | 105 EXP | 157 EXP | Verified Turn 44243 |
 
 
-- **In-Battle Party Sub-Menu:** When selecting a non-active Pokémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
+- **In-Battle Party Sub-Menu:** When selecting a non-active Pokéémon from the in-battle party menu, a sub-menu appears with: `SWITCH` (default cursor), `STATS`, `CANCEL`. Pressing A on `SWITCH` confirms the switch [Empirically verified Turn 34716].
 
 ## Field Items in Battle
 
-- **In-Battle Poké Flute Usage (Empirically Verified Turns 33850 & 39237):**
+- **In-Battle Pokéé Flute Usage (Empirically Verified Turns 33850 & 39237):**
 
-  - Using the Poké Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
+  - Using the Pokéé Flute from the in-battle Bag menu plays the tune and displays 'All sleeping POKéMON woke up!', awakening all sleepers (player and opponent).
 
   - Action Economy Cost: Using the flute consumes the player's combat turn, allowing the opponent to execute an attack that turn. Use only when active sweeper cannot act.
 
 ## Generation 1 Capture Mechanics & Empirical Boundaries
-- **High-Level Cerulean Cave Empirical Capture Data (Basic Poké Balls, Full HP):**
+- **High-Level Cerulean Cave Empirical Capture Data (Basic Pokéé Balls, Full HP):**
   - Hypno Lv 46 (BCR 75): Captured on Ball 1 at full HP [Turn 46585].
   - Golbat Lv 46 (BCR 90): Captured on Ball 1 at full HP [Turn 46597].
   - Magneton Lv 46 (BCR 60): Broke free on Balls 1 and 2; captured on Ball 3 at full HP [Turn 46610].
   - Dodrio Lv 49 (BCR 45): Missed on Balls 1, 2, 3, 4, 5, 6; captured on Ball 7 at full HP [Turn 46723].
   - Kadabra Lv 49 (BCR 100): Broke free after wobbling on Balls 1-13; captured on Ball 14 at full HP [Turn 46787].
-  - Rhydon Lv 52 (BCR 60): Missed on Balls 1-13; captured on Ball 14 at full HP with basic Pok� Ball [Turn 46916].
-- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
-- **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Poké Balls:
+  - Rhydon Lv 52 (BCR 60): Missed on Balls 1-13; captured on Ball 14 at full HP with basic Poké� Ball [Turn 46916].
+- **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokéémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Pokéé Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
+- **Empirical Breakout Verification:** Across multiple wild trials with maximum BCR 255 targets at full HP with basic Pokéé Balls:
   - Pidgey Lv 13 (Turn 42480): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Bellsprout Lv 12 (Turn 42586): broke free after 3 shakes on Ball 1; captured on Ball 2.
   - Weedle Lv 3 (Turn 42694-42724): broke free after 3 shakes on Balls 1, 2, and 3; captured on Ball 4.
@@ -387,8 +387,8 @@
 - **Haze Status Cure (Empirically Verified Battle 26, Turn 45468):** In Generation 1 retail, the move HAZE ('All STATUS changes are eliminated!') resets all stat stages to 0 and cures persistent primary status conditions (e.g. PAR) on the opponent. Wild Golbat's Haze completely cured Omega's paralysis, restoring full Speed and removing the PAR status condition.
 
 ## Wild Battle Escape Mechanics (Generation 1 Retail)
-- **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pok�mon's actual current Speed compared to the opponent's Speed.
-- **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pok�mon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pok�mon (e.g. Blastoise Sheldon with paralyzed Speed estimate ~40-45) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46, Sandslash Lv 52; wild stat screens invisible, speeds estimated from species baselines) [Empirically verified Turns 46658, 46660, 46680].
+- **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Poké�mon's actual current Speed compared to the opponent's Speed.
+- **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Poké�mon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Poké�mon (e.g. Blastoise Sheldon with paralyzed Speed estimate ~40-45) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46, Sandslash Lv 52; wild stat screens invisible, speeds estimated from species baselines) [Empirically verified Turns 46658, 46660, 46680].
 - **Consecutive Attempt Progression:** Each successive failed escape attempt appears to increase escape likelihood (observed: Sheldon escaped on Attempt 2 after failing Attempt 1 vs Magneton [Turn 46682]). Citing specific internal constants without empirical measurement violates the Burden of Proof; numerical bonuses remain unverified hypotheses.
 - **High-Speed Lead Fleeing (Mewtwo Empirical Dataset):** Mewtwo (OMEGA Lv 76, healthy, unparalyzed) has achieved 100% first-turn escape success across all tested wild encounters: Dodrio Lv 49/51 (Turns 46800, 46819, 46849, 47007, 47028), Kadabra Lv 49/51 (Turns 46811, 46999), Magneton Lv 46 (Turns 46826, 46846, 46858), Hypno Lv 46 (Turns 46834, 46838, 46842), Golbat Lv 46 (Turns 46852, 46855), and Chansey Lv 56 (Turn 47002). Wild speed caps or universal mechanics beyond observed empirical trials remain unverified.
 
