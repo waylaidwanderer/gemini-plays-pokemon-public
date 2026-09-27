@@ -10,9 +10,9 @@
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: Attack 17 (C+), Defense 17 (A-), Sp. Atk 13 (C-), Sp. Def 14 (E), Speed 12 (C-)
 - **Moves**:
-  - Tackle (Normal, Physical, 35 PP)
   - Quick Attack (Normal, Physical, Priority +1, 30 PP)
   - Growl (Normal, Status, 40 PP)
+  - Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; learned Lv8)
   - Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP; learned Lv7)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
