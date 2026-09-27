@@ -144,7 +144,8 @@
   - Status: Healthy
   - Field Moves: Surf, Strength
 - Slot 4: VENOMOTH (Nickname: MOTHRA) [Lv 51, Bug/Poison]
-  - Status: Healthy (Caught Turn 47021)
+  - HP: Full (Healthy)
+  - Status: Healthy
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47011)
 - Slot 1: POKé FLUTE
@@ -385,7 +386,7 @@
 - **Mechanics & Speed Dependence:** Escaping from wild battles depends directly on the active Pok�mon's actual current Speed compared to the opponent's Speed.
 - **Paralysis Impact on Fleeing:** In Generation 1, the Paralysis (PAR) status condition quarters the Pok�mon's actual Speed stat (75% speed reduction). Consequently, a paralyzed lead Pok�mon (e.g. Blastoise Sheldon with paralyzed Speed estimate ~40-45) frequently fails initial escape checks against faster wild foes (e.g. Magneton Lv 46, Sandslash Lv 52; wild stat screens invisible, speeds estimated from species baselines) [Empirically verified Turns 46658, 46660, 46680].
 - **Consecutive Attempt Progression:** Each successive failed escape attempt appears to increase escape likelihood (observed: Sheldon escaped on Attempt 2 after failing Attempt 1 vs Magneton [Turn 46682]). Citing specific internal constants without empirical measurement violates the Burden of Proof; numerical bonuses remain unverified hypotheses.
-- **High-Speed Lead Fleeing (Mewtwo Empirical Dataset):** Mewtwo (OMEGA Lv 76, healthy, unparalyzed) has achieved 100% first-turn escape success across all tested wild encounters: Dodrio Lv 49 (Turns 46800, 46819, 46849), Kadabra Lv 49 (Turn 46811), Magneton Lv 46 (Turns 46826, 46846, 46858), Hypno Lv 46 (Turns 46834, 46838, 46842), and Golbat Lv 46 (Turns 46852, 46855). Wild speed caps or universal mechanics beyond observed empirical trials remain unverified.
+- **High-Speed Lead Fleeing (Mewtwo Empirical Dataset):** Mewtwo (OMEGA Lv 76, healthy, unparalyzed) has achieved 100% first-turn escape success across all tested wild encounters: Dodrio Lv 49/51 (Turns 46800, 46819, 46849, 47007, 47028), Kadabra Lv 49/51 (Turns 46811, 46999), Magneton Lv 46 (Turns 46826, 46846, 46858), Hypno Lv 46 (Turns 46834, 46838, 46842), Golbat Lv 46 (Turns 46852, 46855), and Chansey Lv 56 (Turn 47002). Wild speed caps or universal mechanics beyond observed empirical trials remain unverified.
 
 
 ## One-Hit Knockout (OHKO) Move Mechanics (Gen 1 Engine)
@@ -5273,7 +5274,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Expedition 2: Cerulean Cave 2F Target Hunting
 - Status: Party 4/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51). 35 Poké Balls in bag. Pokédex: 73 Caught.
 - Priority Targets on 2F:
-  1. Venomoth (#049) [CAUGHT Turn 47021 - MOTHRA]
   2. Marowak (#105) [Wild Lv 52, BCR 75] - ACTIVE TARGET
   3. Ditto (#132) [Wild Lv 55, BCR 35] - ACTIVE TARGET
   4. Chansey (#113) [Wild Lv 56, BCR 30] - ACTIVE TARGET
@@ -5281,7 +5281,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Lead: Mewtwo (OMEGA Lv 76, 269/269 HP).
   - Target encounters: Throw Poké Balls directly into open party slots (Slots 4, 5, 6).
   - Duplicate encounters: RUN immediately (100% flee success with Lv 76 Mewtwo).
-- Route to 2F: Exit Center -> North to Route 24 -> Surf canal to Cerulean Cave 1F -> Ascend Ladder (23, 7) to 2F (22, 6).
+
 
 <hr>
 
