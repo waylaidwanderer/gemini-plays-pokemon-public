@@ -3,7 +3,7 @@
 ## Starter Pokémon Candidate
 - **Location**: Research table at (22, 4) in Professor Ivo's Lab.
 - **Pokéball Type**: Custom orange/gold upper dome, white base.
-- **Current Status**: Standing at (21, 4) directly adjacent to the table; interacting facing Right.
+- **Current Status**: Standing at (22, 4) directly in front of the Pokéball; interacting facing Up toward (22, 3).
 - **Species**: To be revealed upon interaction.
 - **Gender / Nature / Ability**: To be evaluated once received.
 - **Creative Nickname Ideas**: Pending species reveal (active directive: ALWAYS nickname every Pokémon creatively).
