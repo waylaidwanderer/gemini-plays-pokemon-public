@@ -31,3 +31,4 @@
 - A cyan-haired character steps into the center of the confrontation facing Mother.
 - Cyan-haired character pleads: "D-don't fight please! We should try to solve this without including violence."
 - **Escalation**: Mother ordered the grunts ('Ladies, if you would be so kind'), and two altered Pidgey surrounded the group!
+- **Asher's Intervention**: As the cyan-haired character screams in fright, Asher shouts: "Stop!"
