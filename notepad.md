@@ -294,7 +294,7 @@
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **Northern Building**: Located at (14-15, 15) with teal door.
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
-- **Story Event (Turn 1219)**: Scripted trigger at (26, 18) heading east; Asher notes "Huh, something seems to be going over there..." looking toward the eastern plaza.
+- **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 ## Pokémon Center (Verified Turn 1330)
 - **Exterior Entrance**: Double glass door at (44-45, 12).
 - **Interior Layout**:
@@ -310,50 +310,15 @@
 # Scratchpad: Sovio City Hypotheses & Live Routing
 
 ## Unverified Hypotheses & Rumors
-- **Metro Station**: Mentioned in World Map; Dad noted it is located down near the Pokémon Center.
-- **PokéMart**: Expected in major city; not yet located on foot.
-- **Route 2 Connection**: Believed to lead east toward Amor City.
+- **PokéMart**: Expected in major city; not inside Pokémon Center. Commercial buildings in city center remain to be checked.
+- **Route 2 Connection**: Connects east out of Sovio City toward Amor City and the Eclipse Tournament.
 
-## Live Cutscene Tracking
-- Outside Pokémon Center: Confrontation between Jackson (Dad) and Mother (Siara Mafia leader) with two grunts.
-- Mother remarks: 'Is this how you welcome back your ex?'
-
-- Mother asks Dad: "Didn't you miss me?"
-- Mother announces the science project is finished: "I have finished it. And we are on a test run."
-- Dad asks: "You finished... what?"
-- Mother names the project: "The Eclipse Project"
-- Asher enters the confrontation; Dad warns: "Asher?! Things aren't too good son."
-- Mother recognizes Asher: "A-ashy?"
-- Asher responds: "Mom?"
-- Mother asks Asher: "How are you doing honey? Are you eating well?"
-- Mother asks: "How's it going with girls?"
-- Mother exclaims: "Ahh I wanna ask so many things!"
-- Dad demands: "Leave him alone!"
-- Mother retorts: "Haaaa? I can't even hug my own..."
-- Dad: "You are dangerous... I can't let you close to him!"
-- Mother: "So just because I had balls to finish what you were too scared to, I'm already dangerous?"
-- Dad: "..."
-- Mother: "Oh well, if we are this hostile, why don't we get to the main diversion?"
-- A Pidgey appears on the field in front of the Siara Mafia grunt as the screen dims for the test run diversion!
-- Asher observes: "Those Pidgey... Why are they... different?" (Eclipse variant Pokémon!)
-- Dad recognizes the threat: "Dad: ... Oh no..."
-- A cyan-haired character steps into the center of the confrontation facing Mother.
-- Cyan-haired character pleads: "D-don't fight please! We should try to solve this without including violence."
-- **Escalation**: Mother ordered the grunts ('Ladies, if you would be so kind'), and two altered Pidgey surrounded the group!
-- **Asher's Intervention**: As the cyan-haired character screams in fright, Asher shouts: "Stop!"
-- Asher steps directly between the cyan-haired character and Mother to stand his ground.
-- Asher declares to Mother: "Yes, I have to if that thing is hurting an innocent person!"
-- Mother warns Asher: "Son... move out of the way please, or mom will get angry."
-- Asher defies Mother: "Like I would care!"
-- Mother responds: "Oh... Now you did hurt mom's feelings..."
-- Mother orders grunts: "Well, ladies, target changed, but don't go too hard on him. Just teach him a lesson!"
-- Battle triggered against Team Siara outside the Pokémon Center!
-- Enemy: Team Siara Grunt uses Lv7 Eclipse Pidgey (purple aura, Eclipse icon).
-- Eclipse Pidgey knows Sand Attack and Acid (Poison-type move); Metal Claw deals neutral damage.
-- Victory: Sirius defeated the Siara Grunt's Lv7 Eclipse Pidgey (gained 82 EXP).
-- Grunt defeat quote: "What the?! Aren't these Pokémon strong?"
-- Prize: Asher received ¥728 for winning.
-- **Debrief**: Siara Mafia withdrew; cyan-haired civilian thanked Asher and departed; Dad praises Asher: "That was very heroic of you..."
-- **Dad's Instruction**: Dad told Asher to meet him down at the Metro Station later.
+## Active Routing & Local Discoveries (Turn 1355)
+- **Pokémon Center**: Located at (44-45, 12). Ground floor inspected; party fully healed (Sirius Lv10 31/31 HP, Zephyr Lv2 13/13 HP).
+- **Metro Station Entrance**: Blue subway archway with white 'M' logo at (48, 16) directly southeast of Pokémon Center. Stairs lead underground. Dad requested to meet down here.
+- **Quest NPC (Old Man & Phanpy)**: Old man with bald head/white beard at (50, 14) with active quest/speech bubble icon overhead. Companion Phanpy at (50, 16).
+- **Metro Signpost**: Wooden signpost at (49-50, 17) in front of Phanpy.
+- **Commercial Building**: Multi-story building at (46-48, 10-12) with green door at (48, 13) and large rooftop billboard screen.
+- **Central Park Pond**: Located southwest of plaza (rows 16-20). Contains decorative floral displays (white flowers in figure-8 on the left, blue flowers on the right) bordered by stone fencing.
 
 <hr>
