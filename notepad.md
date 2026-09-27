@@ -413,9 +413,8 @@
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
 
 ## Active Missions & Enemies
-- **Team Siara Presence**: Four Team Siara grunts are operating in the sewers (three patrolling, one guarding Jackson at the storage room).
+- **Team Siara Presence**: At least five Team Siara grunts are operating in the sewers (four defeated, Fifth Grunt at (23, 13), plus the guard holding Jackson at the storage room).
 - **Dad Locked in Storage Room**: A Team Siara grunt has locked Jackson (Dad) inside a small storage room and is standing guard on a red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive. Exact location of the storage room in the sewer remains unconfirmed.
-- **Patrolling Grunts**: Three grunts scattered to patrol.
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: ¥728.
 - **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada ♀ Lv7 (Bug/Ground, known move: Harden), Shinx ♂ Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: ¥832.
