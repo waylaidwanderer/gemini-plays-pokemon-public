@@ -27,7 +27,7 @@
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo (male) Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: 728 Yen.
 - **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada (female) Lv7 (Bug/Ground, known move: Harden), Shinx (male) Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: 832 Yen.
 - **Fourth Siara Grunt**: Located at (22, 4) facing south, guarding the intersection of row 5 and the southern corridor at column 22 (engaged Turn 2209). Pre-battle dialogue: "Sorry kiddo, but this is private area!". Roster: Mankey (male) Lv8 (Fighting, known move: Leer), Skitty (female) Lv8 (Normal). Team size: 2 Pokemon. Defeated Turn 2235. Defeat quote: "Gyaaaaah!". Payout: 832 Yen.
-- **Fifth Siara Grunt**: Female grunt located at (23, 13) facing North at the southern terminus of the column 23 gangway (engaged Turn 2279). Pre-battle dialogue: "Crap, what are you doing here?!". Roster: Litwick (male) Lv8 (Ghost/Fire; known moves: Minimize, Ember, Fire Spin; immune to Normal & Fighting; countered with Metal Claw). Team size: 1 Pokemon.
+- **Fifth Siara Grunt**: Female grunt located at (23, 13) facing North at the southern terminus of the column 23 gangway (engaged Turn 2279; defeated Turn 2633 with Sirius's Metal Claw). Pre-battle dialogue: "Crap, what are you doing here?!". Roster: Litwick (male) Lv8 (Ghost/Fire; known moves: Minimize, Ember, Fire Spin; countered with Metal Claw). Team size: 1 Pokemon.
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered.
@@ -51,7 +51,3 @@
 - Klink (Lv4, Steel; verified Turn 2393 at (14, 28))
 
 - Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
-- Koffing (male) (Lv5, Poison; verified Turn 2558 at (32, 28))
-- Klink (Lv4, Steel; verified Turn 2564 at (20, 28))
-- Purrloin (male) (Lv4, Dark; verified Turn 2603 at (22, 5))
-- Koffing (male) (Lv4, Poison; verified Turn 2611 at (23, 7))
