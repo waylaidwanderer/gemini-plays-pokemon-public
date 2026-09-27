@@ -346,5 +346,6 @@
 - Victory: Sirius defeated the Siara Grunt's Lv7 Eclipse Pidgey (gained 82 EXP).
 - Grunt defeat quote: "What the?! Aren't these Pokémon strong?"
 - Prize: Asher received ¥728 for winning.
+- **Debrief**: Siara Mafia withdrew; cyan-haired civilian thanked Asher and departed; Dad praises Asher: "That was very heroic of you..."
 
 <hr>
