@@ -7,13 +7,16 @@
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
-- **Manhole**: Located at (13, 27).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 20-22, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
 - **East Building (Southwest)**: Structure at (17-20, 27) with decorative wooden siding; inaccessible due to solid curb along column 18 (tested Turn 1535).
 - **Sewer Manhole (Southwest)**: Located at (13, 27); verified on Turn 1537 as a non-interactive decorative tile.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
+## Southeast Corridor & Central Park (Verified Turns 1569-1572)
+- **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
+- **NPCs**: Guy on park bench at (41, 28) wondering if catfished; blonde girl at (45, 26) waiting for a blind date.
+- **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turn 1330)
 - **Exterior Entrance**: Double glass door at (44-45, 12).
 - **Interior Layout**:
