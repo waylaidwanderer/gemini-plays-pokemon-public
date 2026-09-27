@@ -23,7 +23,7 @@
   - HP: Full (Healthy)
   - Status: Healthy
 
-## Bag Items (10 / 20 Slots Occupied - Audited Turn 47011)
+## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE

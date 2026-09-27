@@ -5278,12 +5278,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 ## Expedition 2: Cerulean Cave 2F Target Hunting
 - Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 26 Poké Balls in bag. Pokédex: 74 Caught.
 - Priority Targets on 2F:
-  1. Venomoth (#049) [CAUGHT Turn 47021 - MOTHRA]
-  2. Marowak (#105) [CAUGHT Turn 47053 - SKULL]
-  3. Chansey (#113) [ALREADY CAUGHT - verified in Pokédex Turn 47069]
-  4. Ditto (#132) [Wild Lv 55, BCR 35] - ACTIVE SOLE TARGET
+  1. Ditto (#132) [Wild Lv 55, BCR 35] - ACTIVE SOLE TARGET
 - Protocol:
-  - Lead: Mewtwo (OMEGA Lv 76, 269/269 HP).
+  - Lead: Mewtwo (OMEGA Lv 76, 173/269 HP).
   - Target encounters: Throw Poké Balls directly into open party slot 6.
   - Duplicate encounters: RUN immediately (100% flee success with Lv 76 Mewtwo).
 
