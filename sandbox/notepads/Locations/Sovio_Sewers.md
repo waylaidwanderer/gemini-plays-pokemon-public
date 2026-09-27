@@ -16,6 +16,9 @@
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
   - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 21 (verified Turn 2198).
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
+  - Southwest Corridor & Obstruction (Verified Turns 2380-2386): Vertical corridor at columns 7-8 contains two breakable rocks (requiring Rock Smash). Attempting to move north into the corridor from row 25 is blocked by an impassable elevation boundary/curb at row 24.
+  - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
+  - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: At least five Team Siara grunts are operating in the sewers (four defeated, Fifth Grunt at (23, 13), plus the guard holding Jackson at the storage room).
@@ -24,12 +27,14 @@
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: ¥728.
 - **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada ♀ Lv7 (Bug/Ground, known move: Harden), Shinx ♂ Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: ¥832.
 - **Fourth Siara Grunt**: Located at (22, 4) facing south, guarding the intersection of row 5 and the southern corridor at column 22 (engaged Turn 2209). Pre-battle dialogue: "Sorry kiddo, but this is private area!". Roster: Mankey ♂ Lv8 (Fighting, known move: Leer), Skitty ♀ Lv8 (Normal). Team size: 2 Pokémon. Defeated Turn 2235. Defeat quote: "Gyaaaaah!". Payout: ¥832.
-- **Fifth Siara Grunt**: Female grunt located at (23, 13) facing North at the southern terminus of the column 23 gangway (engaged Turn 2279). Pre-battle dialogue: "Crap, what are you doing here?!". Roster: Litwick ♂ Lv8 (Ghost/Fire; known moves: Minimize, Ember, Fire Spin; immune to Normal & Fighting; countered with Metal Claw). Team size: 1 Pokémon. Sirius landed 1 Metal Claw (~55% damage), but Litwick maxed evasion with Minimize and fainted Sirius with repeated Embers (Turn 2299). Zephyr fainted to Fire Spin (Turn 2302).
+- **Fifth Siara Grunt**: Female grunt located at (23, 13) facing North at the southern terminus of the column 23 gangway (engaged Turn 2279). Pre-battle dialogue: "Crap, what are you doing here?!". Roster: Litwick ♂ Lv8 (Ghost/Fire; known moves: Minimize, Ember, Fire Spin; immune to Normal & Fighting; countered with Metal Claw). Team size: 1 Pokémon.
 - **Northern Junction Layout (Verified Turns 2238-2244)**: North of (22, 4) is a solid brick wall (no northward exit). East along row 5 leads to a shallow puddle at (26-27, 5) where TM48 was collected at (27, 5) (Turn 2243). Across the void chasm to the east is an elevated wooden staircase at column 29-30 with a southern path. South from (22, 5) has visual stone pathing but requires empirical collision verification (attempted step Down on Turn 2244 resulted in 0 displacement, followed by wild Grimer encounter). West connects along row 5 back to the western upper terrace.
 
 ## Topography & Connectivity
-- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered. (Storage room location remains unconfirmed pending further exploration of the western wing).
+- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered.
+- **Lower Western Corridor (Verified Turn 2390)**: From (8, 28), row 27 is an open walkway running east to column 16. A 2-tile wide corridor at columns 16-17 leads north directly to Grunt 2's platform at (18, 21-22).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
+- **Southern Canal Corridor (Verified Turn 2402)**: The stone staircase at columns 12-13 (rows 28-31) descends to rows 32-34 along the northern edge of a deep water canal at row 36.
 
 ## Wild Encounters
 - Koffing (Lv6, Poison; verified Turn 1720)
@@ -40,6 +45,4 @@
 - Honedge ♀ (Lv5, Steel/Ghost; verified Turn 2140)
 - Poochyena ♀ (Lv5-6, Dark; verified Turn 2346 at (33, 28), Turn 2364 at (8, 25))
 - Purrloin ♀ (Lv6, Dark; verified Turn 2351 at (25, 28))
-- **Southwest Dead-End & Ledge (Verified Turns 2380-2386)**: The vertical corridor at columns 7-8 contains two breakable rocks (requiring Rock Smash) and terminates south with a one-way jumping ledge at row 24. At (8, 25), eastward movement is blocked by the brick wall at column 9. A stone-rimmed puddle occupies columns 7-8, rows 26-27, with the lower walkway at row 28 and a stone staircase descending south at column 14, row 28.
-- **Lower Western Corridor & Southern Stairs (Verified Turn 2390)**: From (8, 28), row 27 is an open walkway running east to column 16. At column 14 (rows 28-31), a stone staircase descends south into a deeper lower level. East of column 14, a puddle sits at (17-18, 27-28), and a 2-tile wide corridor at columns 16-17 leads north directly to Grunt 2's platform at (18, 21-22).
-- Klink (Lv4, Steel; verified Turn 2393)
+- Klink (Lv4, Steel; verified Turn 2393 at (14, 28))
