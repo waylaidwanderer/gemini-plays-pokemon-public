@@ -55,6 +55,7 @@
 
 - Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718 at (37, 13))
-- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))- Koffing (Lv7, Poison; verified Turn 2734 at (20, 5))
+- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))
+- Koffing (Lv7, Poison; verified Turn 2734 at (20, 5))
 - Purrloin (female) (Lv6, Dark; verified Turn 2741 at (16, 18))
 - Koffing (female) (Lv6, Poison; verified Turn 2751 at (34, 27))
