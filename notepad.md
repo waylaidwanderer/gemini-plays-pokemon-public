@@ -338,5 +338,6 @@
 - Asher declares to Mother: "Yes, I have to if that thing is hurting an innocent person!"
 - Mother warns Asher: "Son... move out of the way please, or mom will get angry."
 - Asher defies Mother: "Like I would care!"
+- Mother responds: "Oh... Now you did hurt mom's feelings..."
 
 <hr>
