@@ -9,7 +9,7 @@
 
 - Money: ¥1,905
 
-- Pokédex: 75 Caught [Ditto caught Turn 47320] / 137 Seen
+- Pokédex: 76 Caught [Abra caught Turn 47514] / 137 Seen
 
 ## Milestones
 
@@ -121,7 +121,8 @@
 - [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
 - [x] Catch wild Venomoth (#049 MOTHRA) on Cerulean Cave 2F with Poké Ball [Turn 47021]
 - [x] Catch wild Marowak (#105 SKULL) on Cerulean Cave 2F with Poké Ball [Turn 47053]
-- [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]
+- [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]- [x] Catch wild Abra (#063 HOUDINI) on Route 25 with Poké Ball [Turn 47514]
+
 
 <hr>
 
@@ -5350,9 +5351,9 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Clefairy (#035) / Zubat (#041) at Mt. Moon
   - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22
 
-## Active Tactical Hunt: Route 25 Wild Abra (#063) [Initiated Turn 47480]
+## Active Tactical Hunt: Route 25 Wild Abra (#063) [COMPLETED Turn 47514]
 - Location: Route 25 Tall Grass at Cols 2..7, Rows 4..5.
-- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 35 Poké Balls in bag.
+- Status: SUCCESS! Caught Abra Lv 10 with basic Poké Ball on throw 2 (Turn 47514). Nickname: HOUDINI. Registered #063 in Pokédex (76 total caught).
 - Target Species: Abra (#063) [Psychic, Lv 8-12, BCR 200].
   - Behavior: Teleport is Abra's sole move; flees on turn 1 if not captured immediately.
   - Catch Strategy: Mewtwo (OMEGA Lv 76) outspeeds wild Abra (100% speed priority). Throw basic Poké Ball on Turn 1 at full HP (favorable BCR 200 threshold). If breakout occurs, Abra teleports away; re-engage next encounter.
