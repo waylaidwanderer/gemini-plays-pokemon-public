@@ -131,9 +131,9 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6 - Audited Turn 46981)
+## Party Pokémon (4 / 6 - Audited Turn 47026)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 269 / 269
+  - HP: 265 / 269
   - Status: Healthy
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
@@ -142,6 +142,9 @@
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 254 / 254
   - Status: Healthy
+  - Field Moves: Surf, Strength
+- Slot 4: VENOMOTH (Nickname: MOTHRA) [Lv 51, Bug/Poison]
+  - Status: Healthy (Caught Turn 47021)
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47011)
 - Slot 1: POKé FLUTE
