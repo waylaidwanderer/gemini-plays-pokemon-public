@@ -424,6 +424,7 @@
 - [ ] Southern Canal (columns 12-13, rows 32-34): UNVISITED! Lowest vertical elevation along water canal. Prime candidate for 'deep in the sewers'.
 
 - **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
+- **Provider Dialogue (Turns 3058-3064)**: Spoke with Old Man at (51, 14) outside Metro Station. Dialogue received: "Thank you, the toy must be somewhere deep in the Sovio Sewers. If you can't find it its fine. You can leave if you wanna."
 
 <hr>
 
