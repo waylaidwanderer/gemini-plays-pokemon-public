@@ -43,4 +43,3 @@
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
 - **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch; the cottage path at (37, 24) is an impassable dead-end cul-de-sac.
-- **Overworld Pidgey & Paper Clue (Observed Turns 1876-1885)**: Overworld Pidgey sighted at (44, 18) with a paper footprint clue at (44, 16) in the enclosed meadow east of the cottage pine barrier.

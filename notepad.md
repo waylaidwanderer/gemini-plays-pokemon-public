@@ -226,7 +226,6 @@
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
 - **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch; the cottage path at (37, 24) is an impassable dead-end cul-de-sac.
-- **Overworld Pidgey & Paper Clue (Observed Turns 1876-1885)**: Overworld Pidgey sighted at (44, 18) with a paper footprint clue at (44, 16) in the enclosed meadow east of the cottage pine barrier.
 
 <hr>
 
@@ -403,6 +402,6 @@
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers.
 - **Dad Locked in Storage Room**: Grunt 2 has locked Jackson (Dad) inside a small storage room and is standing guard on the red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive.
 - **Patrolling Grunts**: Three grunts have scattered into the sewer corridors to patrol.
-- **Patrolling Grunt 1**: Located on western lower walkway at (24, 27) facing west. (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6, Eclipse Pidgey Lv7.
+- **Patrolling Grunt 1**: Located on western lower walkway at (24, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting).
 
 <hr>

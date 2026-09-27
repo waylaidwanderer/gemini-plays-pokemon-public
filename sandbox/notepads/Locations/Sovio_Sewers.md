@@ -11,4 +11,4 @@
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers.
 - **Dad Locked in Storage Room**: Grunt 2 has locked Jackson (Dad) inside a small storage room and is standing guard on the red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive.
 - **Patrolling Grunts**: Three grunts have scattered into the sewer corridors to patrol.
-- **Patrolling Grunt 1**: Located on western lower walkway at (24, 27) facing west. (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6, Eclipse Pidgey Lv7.
+- **Patrolling Grunt 1**: Located on western lower walkway at (24, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting).
