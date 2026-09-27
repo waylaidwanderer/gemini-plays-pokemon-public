@@ -208,19 +208,12 @@
 
 <h1><code>Mechanics/Engine</code></h1>
 
-# Engine & Technical Mechanics
 
-## Tool Compatibility
-- **stun_npc**: Unsupported in Pokémon Sors due to custom ROM hack memory layout (Error: Map objects data is unavailable).
+## Status Conditions & Overworld Poison Mechanics (Verified Turn 659)
+- **Overworld Poison Damage**: Overworld poison damage is completely DISABLED in Pokémon Sors v1.3 (aligns with Gen 5+ / CFRU engine rules).
+- **Burden of Proof / Empirical Verification**: After being poisoned by wild Nidoran♀ on Turn 499, Sirius walked over 150 overworld steps across Route 1 without taking a single point of poison damage. On Turn 658-659, opening the party menu showed Sirius at full 22/22 HP (PSN), and using a Potion yielded 'It won't have any effect.'
+- **Turn-in-Place Mechanic**: There is NO turn-in-place mechanic on foot; pressing a D-Pad direction always turns and attempts a forward step unless blocked by terrain collision.
 
-## Bag & Inventory UI Navigation (Verified Turns 517 & 603)
-- **Pocket Navigation**: Bag pockets are cycled horizontally using D-Pad Left/Right.
-- **Pocket Sequence**: `Items` <-> `Key Items` <-> `Poké Balls`.
-  - Pressing `Left` from `Poké Balls` moves to `Key Items`.
-  - Pressing `Left` from `Key Items` moves to `Items`.
-  - Pressing `Right` from `Items` moves to `Key Items`.
-  - Pressing `Right` from `Key Items` moves to `Poké Balls`.
-- **In-Battle Bag**: Opens directly into the active/last pocket (Poké Balls pocket preserves selection). Selecting Poké Ball opens a sub-menu (`Use` / `Cancel`).
 
 <hr>
 
@@ -228,24 +221,16 @@
 
 # Scratchpad: Route 1 Exploration & Hypotheses
 
-## Bag & Inventory Mechanics (Verified Turn 517)
-- **Poké Balls Pocket Navigation**: Pockets navigate via D-Pad Left/Right. Sequence: `Items` (Potion x4) <-> `Key Items` (HuPhone) <-> `Poké Balls` (Poké Ball x5).
-- **Inventory Status**: 5 Poké Balls verified! 4 Potions verified. Sirius at 21/22 HP with overworld poison active (1 dmg / 4 steps; 84 step buffer).
-- **Wild Capture Ready**: Ready to catch wild Pokémon on Route 1 and nickname creatively!
+## Active State & Inventory
+- **Inventory**: 0 Poké Balls (exhausted Turn 728/730 on Mareep), 1 Potion remaining.
+- **Party**: Sirius Lv8 (6/27 HP, PSN; overworld poison damage inactive), Zephyr Lv2 (13/13 HP).
+- **Physical Terrain Reality**: Rows 1-4 form an unbroken pine tree barrier to the north (verified Turn 740 collision test at (35, 4)).
 
-## Overworld Routing & NPCs
-- **NPC at (17, 45)**: Character with straw hat facing south (unverified battle status).
-- **Route 1 East Path**: Open path along rows 44-45 heading east past column 23 towards Amor City.
-## Active Encounter (Turn 521)
-- Wild Pidgey ♂ Lv2 at (27, 44). Full HP.
-- Plan: Open Bag, throw Poké Ball, catch and nickname Zephyr.
-- Poké Ball 1 broke free; Sirius took poison damage (18/22 HP).
-- 4 Poké Balls left; opening Bag to throw Poké Ball 2.
-- Poké Ball 2 broke free; Sirius at 13/22 HP (PSN).
-- 3 Poké Balls left; opening Bag to throw Poké Ball 3.
-- Poké Ball 3: Gotcha! Pidgey was caught!
-- Capturing wild Pidgey ♂ Lv2; preparing to nickname Zephyr!
-- 2 Poké Balls remaining.
+## Active Routing & Clues
+- **Trail Loop**: Footprint trail does NOT lead north; it loops southeast across row 7 to (41, 7) and south to Track 7 at (41, 10).
+- **Eastern Corridor**: Open path at (41, 7) leading south toward Track 7 (41, 10) and Camper NPC at (45, 11).
+- **Main Milestone**: After resolving Lost Pidgey trail loop, take main northwest highway at (36, 27) toward Sovio City for tournament registration and Poké Ball restock.
+
 
 <hr>
 
@@ -278,7 +263,15 @@
 - **Giver**: Blue cap boy at Route 1 northeast clearing (34, 37).
 - **Status**: Active (Accepted Turn 560-562).
 - **Objective**: Find the boy's lost Pidgey who wandered away on Route 1.
-- **Clue**: "He must be somewhere around here on Route 1..."
-- **Reward**: Nice rewards / gifts upon completion.
+- **Physical Clues & Evidence (Trail Coordinates)**:
+  - **Track 1**: (29, 19) / (29, 18) behind Youngster Mike [blue claws].
+  - **Track 2**: (28, 16) / (28, 15) near Lass Sonia's rock spire [blue claws].
+  - **Track 3**: (30, 13) along path between pine trees [yellow prints].
+  - **Track 4**: (31, 12) / (32, 12) at meadow entrance [blue claws].
+  - **Track 5**: (36, 6) northeast of meadow rock spire [blue claws].
+  - **Track 6**: (37, 7) east of meadow rock spire [blue claws].
+  - **Track 7**: (41, 10) on open grass path heading southeast toward (45, 11).
+  - **Reward**: Nice rewards / gifts upon completion.
+
 
 <hr>
