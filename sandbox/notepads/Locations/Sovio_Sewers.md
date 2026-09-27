@@ -42,3 +42,4 @@
 - Purrloin ♀ (Lv6, Dark; verified Turn 2351 at (25, 28))
 - **Southwest Dead-End & Ledge (Verified Turns 2380-2386)**: The vertical corridor at columns 7-8 contains two breakable rocks (requiring Rock Smash) and terminates south with a one-way jumping ledge at row 24. At (8, 25), eastward movement is blocked by the brick wall at column 9. A stone-rimmed puddle occupies columns 7-8, rows 26-27, with the lower walkway at row 28 and a stone staircase descending south at column 14, row 28.
 - **Lower Western Corridor & Southern Stairs (Verified Turn 2390)**: From (8, 28), row 27 is an open walkway running east to column 16. At column 14 (rows 28-31), a stone staircase descends south into a deeper lower level. East of column 14, a puddle sits at (17-18, 27-28), and a 2-tile wide corridor at columns 16-17 leads north directly to Grunt 2's platform at (18, 21-22).
+- Klink (Lv4, Steel; verified Turn 2393)
