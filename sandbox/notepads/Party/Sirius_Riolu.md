@@ -8,7 +8,7 @@
 - **Max HP**: 40
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: Attack 25 (C+), Defense 25 (A-), Sp. Atk 18 (C-), Sp. Def 20 (E), Speed 18 (C-)
+- **Stats (IV Grades)**: Attack 27 (C+), Defense 27 (A-), Sp. Atk 19 (C-), Sp. Def 22 (E), Speed 19 (C-)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
   - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
