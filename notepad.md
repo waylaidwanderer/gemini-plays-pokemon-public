@@ -2167,6 +2167,7 @@
 - Item Ball at (9, 10): Poké Ball on floor (Escape Rope) [Turn 5030].
 - Item Ball at (12, 1): Inspected on Turn 47696; tile is open floor (already collected/empty).
 - Wild Cubone Verification [Turn 47621]: Encountered wild Cubone at (15, 4). Empirically confirms wild Cubone spawns on 3F in retail Pokémon Blue!
+- Wild Cubone Lv 20 sighted at (17, 7) [Turn 47839].
 
 ## Geography & Layout
 - Eastern Wall: (19, 5..10) orange altars.
