@@ -5,4 +5,4 @@
 - **Route 2 Connection**: Connects east out of Sovio City toward Amor City and the Eclipse Tournament.
 
 ## Post-Tremor Progression
-- **Inventory Status (Turn 1866)**: 0 Potions, 0 Max Repel (activated Turn 1866; 250 steps active), 0 Poké Balls. Need to restock supplies at next PokéMart.
+- **Inventory Status (Turn 1921)**: 0 Potions, 0 Poké Balls. Max Repel active (~150 steps remaining). Need to restock supplies at next PokéMart after sewer rescue.
