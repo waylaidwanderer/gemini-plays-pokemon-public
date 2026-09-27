@@ -6,3 +6,5 @@
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
 - **Background**: Machop lost its favorite toy and became very aggressive. The old man cannot explore the sewers because he is not a trainer.
 - **Target Location**: Sovio Sewers.
+## Clues
+- Old Man confirmed the toy is 'somewhere deep in the Sovio Sewers'.
