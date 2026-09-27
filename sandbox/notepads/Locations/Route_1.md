@@ -14,7 +14,7 @@
 - **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south.
 - **NPC 2 (Camper/Straw Hat)**: Character with straw hat at (18, 45) facing south (did not challenge when Asher was at (18, 46); passive NPC or non-trainer).
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
-- **Northern Highway Corridor**: Primary northward passage branches north along column 5 from (5, 47) through rows 46-40, leading directly into the northern clearings toward Sovio City.
+- **Northern Highway Corridor**: Primary northward passage branches north along column 4 from row 45 through rows 44-40, leading directly into the northern clearings toward Sovio City.
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
