@@ -410,4 +410,8 @@
 ## Topography & Connectivity
 - **Sewer Connectivity**: From the lower walkway at row 27, column 26 branches north through rows 26-20 to connect with the upper walkway, Repel location at (22, 20), and elevated platform with Grunt 2 at (18, 20). Lower walkway east of column 34 terminates into the eastern alcove dead-end.
 
+## Wild Encounters
+- Koffing (Lv6, Poison; verified Turn 1720)
+- Stunky ♀ (Lv4, Poison/Dark; verified Turn 1991)
+
 <hr>
