@@ -372,7 +372,7 @@
 - **Route 2 Connection**: Connects east out of Sovio City toward Amor City and the Eclipse Tournament.
 
 ## Post-Tremor Progression
-- **Inventory Status (Turn 2270)**: 0 Potions, 0 Repels, 0 Poké Balls. TM48 (Work Up) verified in TM Case. Prize money earned from Grunts 2, 3, 4 (Total: ~¥3,152+). Need to restock supplies at next PokéMart after sewer rescue.
+- **Inventory Status (Turn 2342)**: 0 Potions, 0 Repels, 0 Poké Balls. TM48 (Work Up) taught to Sirius over Growl (Turn 2335). Money: ~¥3,040. Team fully restored at Sovio Pokémon Center. Ready to re-enter sewers via Metro Station and rematch Fifth Grunt.
 
 <hr>
 
