@@ -50,6 +50,8 @@
 ## World Map Geography (Verified Turn 637)
 - **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
 - **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
+## Sovio City Confrontation (Turn 1225)
+- **Dad vs. Mother**: In the Sovio City central plaza outside the Pokémon Center, Dad confronts Mother, who is accompanied by two Siara Mafia grunts.
 
 <hr>
 
