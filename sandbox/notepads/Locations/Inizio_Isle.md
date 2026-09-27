@@ -33,4 +33,6 @@
 ## Eastern Cliff Area & Verified Collisions
 - Area above wooden steps: Small grass lawn at (27-28, 16).
 - Tile (28, 15) north of (28, 16) is an impassable cliff ledge (verified Turn 137).
-- The dirt path above is elevated and cannot be accessed by stepping north from (28, 16).
+- Tile (27, 15) north of (27, 16) is an impassable cliff ledge (verified Turn 152).
+- Tile (28, 17) south of (28, 16) is an impassable cliff corner (verified Turn 154).
+- Tile (26, 16) is a WALKABLE corridor through the pine trees to the west (verified Turn 156)!
