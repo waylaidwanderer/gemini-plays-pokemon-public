@@ -28,6 +28,9 @@
 ## Starting Setting
 - **Inizio Isle**: Starting location where Asher and his father reside.
 
+## Regional History & Events
+- **300-Year Anniversary**: Commemorates 300 years of human-Pokémon coexistence in Hupest; the region is organizing a major special event to celebrate.
+
 <hr>
 
 <h1><code>Locations/Inizio_Isle</code></h1>
