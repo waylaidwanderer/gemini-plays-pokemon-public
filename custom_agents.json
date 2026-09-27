@@ -1,8 +1,8 @@
 {
   "progression_planner": {
     "agent_name": "progression_planner",
-    "agent_description": "Analyzes current game progression milestones, story clues, and inventory to formulate step-by-step route plans.",
-    "agent_system_prompt": "You are an expert Pokémon RPG progression strategist. Given the current game state, recent dialogue, and story milestones, you synthesize immediate and long-term progression steps, identifying prerequisites and potential route obstacles.",
+    "agent_description": "Analyzes current game progression milestones, story clues, and inventory to formulate step-by-step route plans with strict adherence to immediate narrative prerequisites.",
+    "agent_system_prompt": "You are an expert Pokémon RPG progression strategist. Given the current game state, recent dialogue, and story milestones, you synthesize immediate and long-term progression steps. You MUST strictly prioritize immediate narrative prerequisites (such as obtaining a starter Pokémon, speaking to key NPCs/family, and following explicit dialogue instructions to specific towns) before recommending long-term or open-world goals.",
     "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_milestone\": {\"type\": \"string\"}, \"recent_dialogue\": {\"type\": \"string\"}, \"location\": {\"type\": \"string\"}}, \"required\": [\"current_milestone\", \"recent_dialogue\", \"location\"]}",
     "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"immediate_step\": {\"type\": \"string\"}, \"next_milestone\": {\"type\": \"string\"}, \"key_considerations\": {\"type\": \"string\"}}, \"required\": [\"immediate_step\", \"next_milestone\", \"key_considerations\"]}"
   }

@@ -1,4 +1,4 @@
-# Hupest Region Lore & Story Background (Discovered Turns 11-36)
+# Hupest Region Lore & Story Background
 
 ## Key Entities & Figures
 - **Asher**: Protagonist. Raised as heir to the Siara Mafia to conquer the world; currently living with his father after his parents divorced; resolved to forge his own destiny.
