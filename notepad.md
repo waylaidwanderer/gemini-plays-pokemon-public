@@ -60,7 +60,7 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-- **The 'Young Master' Identity Clarification (Turn 2731)**: Marie's radio directive ordering grunts to withdraw because 'the young master already found it' referred directly to Asher himself (son of Marie and Jackson, heir to the Siara Mafia). There was no second operative lurking in the sewers; Asher resolved his inquiry and headed to the Metro Station to rejoin Dad and Valora.
+- **The 'Young Master' Identity Clarification (Turn 2731)**: Marie's radio directive ordering grunts to withdraw because 'the young master already found it' referred directly to Asher himself (son of Marie and Jackson, heir to the Siara Mafia). There was no second operative lurking in the sewers.
 
 <hr>
 
@@ -301,7 +301,7 @@
 # Sovio City
 
 ## Geography & Connections
-- **South**: Connects to Route 1 at (14, 39).
+- **South**: Connects to Route 1 at (14, 39). Verified open on Turn 3004; transitions directly to Route 1 at (53, 0) without any story barrier text.
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 ## Exploration & Landmarks
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
@@ -315,11 +315,11 @@
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
-- **East Exit Story Barrier (Verified Turns 2068, 2796)**: Attempting to walk east past column 51 along row 20 or stepping east at (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher back.
+- **East Exit Story Barrier (Verified Turns 2068, 2796, 2987)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
   - Signpost at (49-50, 17): solid collision when stepping north from (49, 18).
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
-  - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 14).
+  - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
@@ -381,18 +381,20 @@
 # Scratchpad: Sovio City & Metro Station Investigation
 
 ## Investigation & Testing Log
-- Sovio City Surface: Thoroughly surveyed (all avenues, alleys, residential buildings, Pok�mon Center). Confirmed no Dad/Valora present.
-- Sewers 1F Landing: Surveyed on Turns 2753 and 2942. Confirmed 100% empty; Dad and Valora are not in the sewers.
-- Train Schedule Board (23, 23): Interacted with 'A' on Turn 2924; no text or reaction.
+- Sovio City Surface: Thoroughly surveyed all streets and avenues. Note: Residential houses at (39, 7), (28, 13), and (31, 26) were inspected prior to Dad's rescue on Turn 2705, but have not yet been re-audited post-rescue.
+- Pok�mon Center: Re-audited post-rescue on Turn 2933; confirmed 100% empty of Dad and Valora.
+- Sewers 1F Landing: Surveyed on Turns 2753 and 2942. Confirmed 100% empty; Dad and Valora are not on the landing.
+- Train Schedule Board (23, 23): Interacted with 'A' on Turn 2924; non-reactive.
 - Left Scanner Pillar (18, 21): Interacted with 'A' from (18, 22) on Turn 2944; non-reactive.
 - Right Scanner Pillar (20, 21): Interacted with 'A' from (20, 22) on Turn 2945; non-reactive.
 - Turnstile Trigger Tile (19, 21): Stepping onto (19, 21) triggers "I should find dad first!" and executes forced movement 1 step Down to (19, 22) (verified Turns 2946, 2955-2956).
+- East Exit Barrier (52, 19): Triggers "I can't go yet... I have things to do!" and forces player west to (51, 19) (verified Turns 2796, 2987).
+- HuPhone Quest Log Audit (Turns 2962-2978): Verified that 'Lost Toy' is active and incomplete. System message confirmed quests can only be canceled by speaking to the provider.
 
-## Active Metro Station & Quest Protocol
-1. Turnstile Barrier: Tile (19, 21) requires resolving story/quest prerequisites before passage is permitted.
-2. Active Investigation:
-   - Audit HuPhone Quest Log to check active side quests and verify if quest state impacts progression.
-   - Inspect train ticket requirements, station personnel dialogue triggers, and quest dependencies.
+## Active Investigation Protocol
+1. South Exit Boundary Test (Verified Turn 3004): Row 39 connects seamlessly into Route 1 at (53, 0) without any story barrier text. Route 1 is completely open.
+2. Quest Provider Interaction: Test approaching the Old Man with Phanpy at (51, 15) from an accessible vector (e.g. column 50/51) to test quest cancellation.
+3. Residential Re-Audit: Re-audit houses at (48, 13), (39, 7), and (28, 13) post-rescue if boundary confirms city confinement.
 
 
 <hr>
@@ -417,6 +419,7 @@
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [ ] Southern Canal (columns 12-13, rows 32-34): UNVISITED! Lowest vertical elevation along water canal. Prime candidate for 'deep in the sewers'.
 
+- **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
 
 <hr>
 
