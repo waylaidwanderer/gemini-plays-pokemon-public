@@ -372,7 +372,7 @@
 - **Route 2 Connection**: Connects east out of Sovio City toward Amor City and the Eclipse Tournament.
 
 ## Post-Tremor Progression
-- **Inventory Status (Turn 2251)**: 0 Potions, 0 Repels, 0 Poké Balls. Acquired TM48 (Turn 2243). Prize money earned from Grunts 2, 3, 4 (Total: ~¥3,152+). Need to restock supplies at next PokéMart after sewer rescue.
+- **Inventory Status (Turn 2270)**: 0 Potions, 0 Repels, 0 Poké Balls. TM48 (Work Up) verified in TM Case. Prize money earned from Grunts 2, 3, 4 (Total: ~¥3,152+). Need to restock supplies at next PokéMart after sewer rescue.
 
 <hr>
 
@@ -410,7 +410,7 @@
   - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
   - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 21 (verified Turn 2198).
-  - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 collected at (27, 5) on Turn 2243.
+  - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers (three patrolling, one guarding Jackson at the storage room).
