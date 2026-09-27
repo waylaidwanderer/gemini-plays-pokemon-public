@@ -332,5 +332,6 @@
 - Dad recognizes the threat: "Dad: ... Oh no..."
 - A cyan-haired character steps into the center of the confrontation facing Mother.
 - Cyan-haired character pleads: "D-don't fight please! We should try to solve this without including violence."
+- **Escalation**: Mother ordered the grunts ('Ladies, if you would be so kind'), and two altered Pidgey surrounded the group!
 
 <hr>
