@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6 - Audited Turn 47521)
+## Party Pokémon (5 / 6 - Audited Turn 47584)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
@@ -18,7 +18,8 @@
   - Field Moves: Surf, Strength
 - Slot 4: ABRA (Nickname: HOUDINI) [Lv 10, Psychic]
   - Status: Healthy
-- Slot 5: [EMPTY]
+- Slot 5: GASTLY (Nickname: SPOOKY) [Lv 24, Ghost/Poison]
+  - Status: Healthy
 - Slot 6: [EMPTY]
 
 ## Bag Items (11 / 20 Slots Occupied - Audited Turn 47440)
@@ -31,7 +32,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x33
+- Slot 10: POKé BALL x32
 - Slot 11: SILPH SCOPE
 
 ## BLUE's PC Item Storage
