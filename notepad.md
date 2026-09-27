@@ -322,6 +322,8 @@
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
+  - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
+  - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841).
@@ -366,7 +368,7 @@
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
-- **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
+- **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
@@ -379,7 +381,7 @@
 # Scratchpad: Sovio City & Metro Station Investigation
 
 ## Investigation & Testing Log
-- Sovio City Surface: Thoroughly surveyed all streets and avenues. Note: Residential houses at (39, 7), (28, 13), and (31, 26) were inspected prior to Dad's rescue on Turn 2705, but have not yet been re-audited post-rescue.
+- Sovio City Surface: Thoroughly surveyed all streets and avenues. 
 - Pok�mon Center: Re-audited post-rescue on Turn 2933; confirmed 100% empty of Dad and Valora.
 - Sewers 1F Landing: Surveyed on Turns 2753 and 2942. Confirmed 100% empty; Dad and Valora are not on the landing.
 - Train Schedule Board (23, 23): Interacted with 'A' on Turn 2924; non-reactive.
@@ -390,16 +392,22 @@
 - HuPhone Quest Log Audit (Turns 2962-2978): Verified that 'Lost Toy' is active and incomplete. System message confirmed quests can only be canceled by speaking to the provider.
 
 ## Active Investigation Protocol
-1. South Exit Boundary Test (Verified Turn 3004): Row 39 connects seamlessly into Route 1 at (53, 0) without any story barrier text. Route 1 is completely open.
-2. Quest Provider Interaction: Test approaching the Old Man with Phanpy at (51, 15) from an accessible vector (e.g. column 50/51) to test quest cancellation.
-3. Residential Re-Audit: Re-audit houses at (48, 13), (39, 7), and (28, 13) post-rescue if boundary confirms city confinement.
 
-- Northwest House (28, 14): Teal door tested on Turns 3011 and 3014 with Up and 'A'; confirmed solid collision and non-reactive (decorative facade).
-- North-Central House (39, 7): Entered on Turn 3021. 1F resident elderly man confirmed unchanged ambient dialogue about buying a Wii for his son. 2F resident boy confirmed ambient dialogue about playing games on the Wii. House 100% verified ambient.
-- East Terrace Access: Verified row 15 at (47, 15) is completely open from (46, 15) (curb ledge only blocks rows 13-14).
-- Plaza East House (49, 14): Entered on Turn 3050. Little Girl dialogue confirmed ambient ('Nana makes the best food!'). Nana dialogue confirmed ambient ('I'm cooking something for my dear grandkid. She loves my cooking...'). House 100% verified ambient.
-- Route 2 Barrier Re-Test (Turn 3073-3075): Stepping onto (52, 19) with no active quest confirmed identical barrier: 'I can\'t go yet... I have things to do!' forcing player west to (51, 19). Confirms city confinement is tied to finding Dad, not side quest.
-- South-Central Curb (Turn 3083): Stepping South from (31, 20) is blocked by sidewalk curb at (31, 21); routing east via column 33 to bypass.
+
+
+
+
+
+
+
+- Route 2 Barrier Re-Test (Turn 3073-3075): Stepping onto (52, 19) with no active quest confirmed identical barrier: 'I can\'t go yet... I have things to do!' forcing player west to (51, 19). Confirms Route 2 barrier ('I can\'t go yet... I have things to do!') is not cleared by cancelling Machop's Toy; barrier condition remains unresolved.
+
+- South-Central House (31, 26): Entered Turn 3086. Resident is the official Name Rater ('Want me to rate the nicknames of your Pokémon?').
+- Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
+  - UNTESTED POST-RESCUE: Residential House at (13, 15) (Machop Family) at north end of Western Avenue! Must be audited before declaring city exhausted.
+- Next Strategic Direction: Break the surface macro-loop by exploring unvisited areas:
+  1. Sovio Sewers unexplored branches: Specifically the Southern Canal (columns 12-13, rows 32-34) which was never searched.
+  2. Route 1 / Lancio Town: External open pathways to check if story progression or Dad moved there.
 
 <hr>
 
@@ -466,7 +474,7 @@
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered.
 - **Lower Western Corridor (Verified Turn 2390)**: From (8, 28), row 27 is an open walkway running east to column 16. A 2-tile wide corridor at columns 16-17 leads north directly to Grunt 2's platform at (18, 21-22).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
-- **Southern Canal Corridor (Verified Turn 2402)**: The stone staircase at columns 12-13 (rows 28-31) descends to rows 32-34 along the northern edge of a deep water canal at row 36. Asher inspected (13, 33); horizontal corridors along rows 32-34 remain unexplored.
+- **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665)**: From Fifth Grunt at (23, 13), (22, 12) is walkable and connects south into shallow puddles at (22, 13-14). Stepping east through (23, 14) and (24, 14) leads up to (24, 13). A single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29, the gangway opens into a wide vertical corridor extending both North and South.
 - **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat where Jackson was held. Interacting with the mat displays "Its a simple storage room...". There is no separate interior warp map.
 
@@ -482,6 +490,6 @@
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (female) (Lv6, Normal; verified Turn 3136)
-- Southern Canal Exploration (Turn 3118): Descended stone staircase at (12-13, 28-31) to row 33; shallow puddle at (10-11, 34-36); canal water at row 36. Exploring west branch along row 33.
+
 
 <hr>
