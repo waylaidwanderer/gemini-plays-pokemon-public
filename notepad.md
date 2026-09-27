@@ -60,6 +60,9 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
+## Sovio Sewers - Team Siara Operation (Turns 1679-1684)
+- **Team Siara in the Sewers**: A cutscene reveals four Team Siara Grunts gathered around a red mat deep in the Sovio Sewers.
+- **Jackson's Arrival**: The grunts are alarmed to discover that Jackson (Asher's Dad) has entered the sewers ('Grunt 1: What?! Jackson's here?!').
 
 <hr>
 
