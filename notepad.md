@@ -9,7 +9,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 72 Caught [Rhydon caught Turn 46916] / 137 Seen
+- Pokédex: 73 Caught [Venomoth caught Turn 47021] / 137 Seen
 
 ## Milestones
 
@@ -119,6 +119,7 @@
 - [x] Catch wild Dodrio (#085 HYDRA) on Cerulean Cave 1F with Poké Ball [Turn 46723]
 - [x] Catch wild Kadabra (#064 SPOON) on Cerulean Cave 1F with Poké Ball [Turn 46787]
 - [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
+- [x] Catch wild Venomoth (#049 MOTHRA) on Cerulean Cave 2F with Poké Ball [Turn 47021]
 
 <hr>
 
@@ -5267,12 +5268,12 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 2: Cerulean Cave 2F Target Hunting
-- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79 - all fully healed). 38 Poké Balls in bag.
+- Status: Party 4/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51). 35 Poké Balls in bag. Pokédex: 73 Caught.
 - Priority Targets on 2F:
-  1. Venomoth (#049) [Wild Lv 51, BCR 75]
-  2. Marowak (#105) [Wild Lv 52, BCR 75]
-  3. Ditto (#132) [Wild Lv 55, BCR 35]
-  4. Chansey (#113) [Wild Lv 56, BCR 30]
+  1. Venomoth (#049) [CAUGHT Turn 47021 - MOTHRA]
+  2. Marowak (#105) [Wild Lv 52, BCR 75] - ACTIVE TARGET
+  3. Ditto (#132) [Wild Lv 55, BCR 35] - ACTIVE TARGET
+  4. Chansey (#113) [Wild Lv 56, BCR 30] - ACTIVE TARGET
 - Protocol:
   - Lead: Mewtwo (OMEGA Lv 76, 269/269 HP).
   - Target encounters: Throw Poké Balls directly into open party slots (Slots 4, 5, 6).
