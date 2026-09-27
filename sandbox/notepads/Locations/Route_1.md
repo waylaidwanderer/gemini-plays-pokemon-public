@@ -42,4 +42,4 @@
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
-- **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch; the cottage path at (37, 24) is an impassable dead-end cul-de-sac.
+- **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch.
