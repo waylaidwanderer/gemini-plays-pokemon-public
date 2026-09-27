@@ -325,6 +325,7 @@
 - **Interior**: Entrance mat lands at (43, 36).
 - **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33) mentions he bought his son an old Wii console.
 - **Layout (2F)**: Resident boy at (44, 14) playing his Wii. Stairs back down at (40-41, 12).
+- **City Signpost**: Located at (29-30, 18); reads 'Sovio City / The city of Union'.
 
 <hr>
 
