@@ -4,7 +4,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6 - Audited Turn 47377)
+## Party Pokémon (4 / 6 - Audited Turn 47521)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
@@ -16,7 +16,8 @@
   - HP: 254 / 254
   - Status: Healthy
   - Field Moves: Surf, Strength
-- Slot 4: [EMPTY]
+- Slot 4: ABRA (Nickname: HOUDINI) [Lv 10, Psychic]
+  - Status: Healthy
 - Slot 5: [EMPTY]
 - Slot 6: [EMPTY]
 

@@ -119,4 +119,5 @@
 - [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
 - [x] Catch wild Venomoth (#049 MOTHRA) on Cerulean Cave 2F with Poké Ball [Turn 47021]
 - [x] Catch wild Marowak (#105 SKULL) on Cerulean Cave 2F with Poké Ball [Turn 47053]
-- [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]- [x] Catch wild Abra (#063 HOUDINI) on Route 25 with Poké Ball [Turn 47514]
+- [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]
+- [x] Catch wild Abra (#063 HOUDINI) on Route 25 with Poké Ball [Turn 47514]

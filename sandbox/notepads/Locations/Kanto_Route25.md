@@ -36,5 +36,5 @@
 | Bellsprout | Lv 12–14 | (6, 4), (7, 5) | Caught SPROUT Lv 14 [Turn 44368]; SPROUT Lv 12 [Turn 42581] |
 | Pidgey | Lv 13 | (2..7, 4..5) | Caught BIRDIE Lv 13 [Turn 42475]; fled Turns 42496, 44359 |
 | Kakuna | Lv 7 | (7, 4) | Caught COCOON Lv 7 [Turn 42517] |
-| Abra | Lv 12 | (2..7, 4..5) | High flee rate (Teleport); observed Turns 42501, 42543, 42559, 42574, 44341 |
+| Abra | Lv 10–12 | (2..7, 4..5) | High flee rate (Teleport); observed Turns 42501, 42543, 42559, 42574, 44341; Caught HOUDINI Lv 10 with Poké Ball [Turn 47514] |
 | Metapod | Lv 9 | (4, 4) | Observed Turn 44353; fled (already registered) |
