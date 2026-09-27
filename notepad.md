@@ -5475,6 +5475,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Ball 7: Missed at full HP [Turn 47298].
   - Ball 8: Missed at full HP [Turn 47303].
   - Ball 9: Missed at full HP [Turn 47309].
+  - Ball 10: Missed at full HP [Turn 47316].
 
 <hr>
 
