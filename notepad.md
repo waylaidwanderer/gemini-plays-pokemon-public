@@ -362,6 +362,8 @@
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
+## Commercial Facilities & PokéMart Survey (Verified Turn 2508)
+- **No PokéMart in Sovio City**: Comprehensive survey of all city sectors (Columns 14-51, Rows 7-29) confirms there is NO standalone PokéMart, Mart clerk, or item vendor in Sovio City. All buildings verified (Pokémon Center, 5 residential homes, Metro Station, decorative wooden building at (32-37, 8-12), and modern tiered building at (18-26, 20-27)). Supplies and official Mart access await Amor City after boarding the Metro train.
 
 <hr>
 
