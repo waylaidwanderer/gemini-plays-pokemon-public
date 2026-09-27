@@ -25,7 +25,7 @@
   - Exit mat at (7, 8).
   - Main Nurse Joy counter straight north along column 7 at row 3/4.
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
-  - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5). Entire 15-tile width verified (Turn 2491): no PokééMart counter or vendor inside.
+  - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5). Entire 15-tile width verified (Turn 2491): no PokéMart counter or vendor inside.
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
@@ -63,5 +63,5 @@
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
-## Commercial Facilities & Pokéé�Mart Survey (Partial)
-- **Pokéé�Mart Survey (Partial)**: Sovio City Pokéé�mon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed. Unsurveyed sectors remain: modern tiered building perimeter at (18-26, 20-27), southwest wooden building at (17-20, 25-29), and north road terminus (north of row 7).
+## Commercial Facilities & Poké�Mart Survey (Partial)
+- **Poké�Mart Survey (Partial)**: Sovio City Poké�mon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed. Unsurveyed sectors remain: modern tiered building perimeter at (18-26, 20-27), southwest wooden building at (17-20, 25-29), and north road terminus (north of row 7).

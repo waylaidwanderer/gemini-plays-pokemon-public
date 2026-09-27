@@ -44,3 +44,9 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
+## Sovio Sewers Crisis & Dad's Rescue (Turns 1395-2700)
+- **Station Ambush & Kidnapping**: Just before boarding the Amor train at the Sovio Metro Station, a sudden tremor shook the station. Dad stepped outside to investigate and was ambushed by Team Siara.
+- **Sewer Infiltration**: Asher and Valora discovered a hidden stairway on the south wall of the Metro Station lobby (18-19, 25) leading into the Sovio Sewers. They witnessed a cutscene showing grunts holding Jackson captive in front of a red mat awaiting Marie's arrival.
+- **Overcoming Siara Grunts**: Asher navigated the sewers, defeating five patrolling grunts (using Hippopotas, Eclipse Pidgey, Litleo, Nincada, Shinx, Mankey, Skitty, and Litwick).
+- **Marie's Withdrawal Order**: Outside the storage room corridor at (30, 13), Asher confronted the final guard. Marie ('milady') radioed in, ordering a full syndicate withdrawal upon learning the 'young master' (Asher) had arrived.
+- **Reunion**: The grunts vacated the sewers. Asher (37, 13) and Valora (36, 13) reached the red mat at (37, 14), reuniting with Dad (Jackson) to resume their journey to Amor City.
