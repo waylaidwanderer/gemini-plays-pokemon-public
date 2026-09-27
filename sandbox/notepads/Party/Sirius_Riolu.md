@@ -8,7 +8,7 @@
 - **Max HP**: 33
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: Attack 20 (C+), Defense 20 (A-), Sp. Atk 15 (C-), Sp. Def 17 (E), Speed 15 (C-)
+- **Stats (IV Grades)**: Attack 22 (C+), Defense 22 (A-), Sp. Atk 16 (C-), Sp. Def 18 (E), Speed 16 (C-)
 - **Moves**:
   - Quick Attack (Normal, Physical, Priority +1, 30 PP)
   - Growl (Normal, Status, 40 PP)
