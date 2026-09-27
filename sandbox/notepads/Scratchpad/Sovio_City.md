@@ -16,10 +16,10 @@
 
 
 
-- Northwest House (28, 14): Teal door tested on Turns 3011 and 3014 with Up and 'A'; confirmed solid collision and non-reactive (decorative facade).
-- North-Central House (39, 7): Entered on Turn 3021. 1F resident elderly man confirmed unchanged ambient dialogue about buying a Wii for his son. 2F resident boy confirmed ambient dialogue about playing games on the Wii. House 100% verified ambient.
+
+
 - East Terrace Access: Verified row 15 at (47, 15) is completely open from (46, 15) (curb ledge only blocks rows 13-14).
-- Plaza East House (49, 14): Entered on Turn 3050. Little Girl dialogue confirmed ambient ('Nana makes the best food!'). Nana dialogue confirmed ambient ('I'm cooking something for my dear grandkid. She loves my cooking...'). House 100% verified ambient.
+
 - Route 2 Barrier Re-Test (Turn 3073-3075): Stepping onto (52, 19) with no active quest confirmed identical barrier: 'I can\'t go yet... I have things to do!' forcing player west to (51, 19). Confirms Route 2 barrier ('I can\'t go yet... I have things to do!') is not cleared by cancelling Machop's Toy; barrier condition remains unresolved.
 - South-Central Curb (Turn 3083): Stepping South from (31, 20) is blocked by sidewalk curb at (31, 21); routing east via column 33 to bypass.
 - South-Central House (31, 26): Entered Turn 3086. Resident is the official Name Rater ('Want me to rate the nicknames of your Pokémon?').

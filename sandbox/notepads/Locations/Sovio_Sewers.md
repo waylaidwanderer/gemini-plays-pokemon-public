@@ -33,7 +33,7 @@
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered.
 - **Lower Western Corridor (Verified Turn 2390)**: From (8, 28), row 27 is an open walkway running east to column 16. A 2-tile wide corridor at columns 16-17 leads north directly to Grunt 2's platform at (18, 21-22).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
-- **Southern Canal Corridor (Verified Turn 2402)**: The stone staircase at columns 12-13 (rows 28-31) descends to rows 32-34 along the northern edge of a deep water canal at row 36. Asher inspected (13, 33); horizontal corridors along rows 32-34 remain unexplored.
+- **Southern Canal Corridor (Verified Turns 2402, 3118-3121)**: The stone staircase at columns 12-13 (rows 28-31) descends to rows 32-34 along the northern edge of a deep water canal at row 36. Shallow puddle located at (10-11, 34-36). Western terminus verified at column 10 (solid wall collision at 9, 33). Walkway extends east along rows 32-34.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665)**: From Fifth Grunt at (23, 13), (22, 12) is walkable and connects south into shallow puddles at (22, 13-14). Stepping east through (23, 14) and (24, 14) leads up to (24, 13). A single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29, the gangway opens into a wide vertical corridor extending both North and South.
 - **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat where Jackson was held. Interacting with the mat displays "Its a simple storage room...". There is no separate interior warp map.
 
@@ -48,4 +48,3 @@
 - Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
-- Southern Canal Exploration (Turn 3118): Descended stone staircase at (12-13, 28-31) to row 33; shallow puddle at (10-11, 34-36); canal water at row 36. Exploring west branch along row 33.
