@@ -30,7 +30,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x35
+- Slot 10: POKé BALL x34
 - Slot 11: SILPH SCOPE
 
 ## BLUE's PC Item Storage
