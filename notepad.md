@@ -9,7 +9,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 74 Caught [Marowak caught Turn 47053] / 137 Seen
+- Pokédex: 75 Caught [Ditto caught Turn 47320] / 137 Seen
 
 ## Milestones
 
@@ -121,6 +121,7 @@
 - [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
 - [x] Catch wild Venomoth (#049 MOTHRA) on Cerulean Cave 2F with Poké Ball [Turn 47021]
 - [x] Catch wild Marowak (#105 SKULL) on Cerulean Cave 2F with Poké Ball [Turn 47053]
+- [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]
 
 <hr>
 
@@ -132,7 +133,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 47133)
+## Party Pokémon (6 / 6 - Audited Turn 47320)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 50 / 269
   - Status: Healthy
@@ -150,6 +151,8 @@
 - Slot 5: MAROWAK (Nickname: SKULL) [Lv 52, Ground]
   - HP: 108 / 124
   - Status: Healthy
+- Slot 6: DITTO [Lv 53, Normal]
+  - Status: Healthy (Freshly Caught Turn 47320)
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
 - Slot 1: POKé FLUTE
@@ -520,6 +523,7 @@
   - Venomoth Lv 51 (BCR 75): Missed on Balls 1 and 2; captured on Ball 3 at full HP with basic Poké Ball [Turn 47021].
 
   - Marowak Lv 52 (BCR 75): Missed on Balls 1-6 at full HP [Turns 47034-47045]; sustained confusion self-damage reducing HP to ~90% [Turn 47046]; broke free on Balls 7 and 8 [Turns 47047, 47050]; captured on Ball 9 at ~90% HP [Turn 47053].
+  - Ditto Lv 53 (BCR 35): Missed on Balls 1-10 at full HP [Turns 47258-47316]; captured on Ball 11 at full HP with basic Poké Ball [Turn 47320].
 
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
 
@@ -5449,7 +5453,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 3: Cerulean Cave 1F Ditto Hunt
-- Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 17 Poké Balls in bag. Pokédex: 74 Caught.
+- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 17 Poké Balls in bag. Pokédex: 74 Caught.
 - Priority Target on 1F:
   1. Ditto (#132) [Wild Lv 53, BCR 35] - ACTIVE SOLE TARGET
 - Tracking & Thresholds:
@@ -5476,6 +5480,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Ball 8: Missed at full HP [Turn 47303].
   - Ball 9: Missed at full HP [Turn 47309].
   - Ball 10: Missed at full HP [Turn 47316].
+  - Ball 11: CAUGHT at full HP [Turn 47320]! Target Ditto secured into Party Slot 6!
 
 <hr>
 
