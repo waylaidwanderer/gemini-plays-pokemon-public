@@ -192,6 +192,7 @@
   - Nidoran♀ (Lv3, Poison; verified Turn 494).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
   - Mareep (Lv3, Electric; verified Turns 722, 821).
+  - Weedle (Lv2, Bug/Poison; verified Turn 833).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing south. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon) (Defeated Turn 701, ¥320).
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6 (1 Pokémon, knows Protect, Tackle, Bug Bite). Defeated Asher on Turn 772 (blackout to Lancio Center).
