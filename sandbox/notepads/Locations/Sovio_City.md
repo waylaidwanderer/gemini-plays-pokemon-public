@@ -63,8 +63,8 @@
 ## Residential House (Northwest - Decorative Facade) (Verified Turns 1482, 3011, 3014)
 - **Status**: Non-interactive decorative facade at (28, 14); solid collision when stepping north from (28, 15) and non-reactive to 'A'.
 
-## Residential House (Northwest - Machop Family) (Verified Turn 1491)
-- **Entrance**: Teal door at (13, 15). The avenue terminates at row 15 into a solid building facade; there is no northern street.
+## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
+- **Entrance**: Teal door at (13, 15). Tested on Turns 3228 and 3230: solid collision when stepping north from (13, 16) and non-reactive to 'A'. Currently closed/inactive.
 - **Interior**: Entrance mat lands at (5, 36).
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector
