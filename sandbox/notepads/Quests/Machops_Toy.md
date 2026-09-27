@@ -15,3 +15,5 @@
 - [x] Eastern Row 13 Gangway & Storage Room (columns 23-38, rows 13-14): Searched (Dad rescued). No toy.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [ ] Southern Canal (columns 12-13, rows 32-34): UNVISITED! Lowest vertical elevation along water canal. Prime candidate for 'deep in the sewers'.
+
+- **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
