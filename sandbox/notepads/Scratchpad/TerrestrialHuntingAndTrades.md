@@ -7,7 +7,7 @@
 - Tracking & Thresholds:
   - Pursuit Start on 1F: Turn 47195 (after descending Ladder 22, 6).
   - Encounter Cutoff: Turn 47350 (or 25 duplicate encounters on 1F).
-  - Current 1F Duplicate Encounters Fled: 3 (Venomoth Lv 49 Turn 47214, Magneton Lv 46 Turn 47218, Hypno Turn 47230).
+  - Current 1F Duplicate Encounters Fled: 4 (Venomoth Lv 49 Turn 47214, Magneton Lv 46 Turn 47218, Hypno Turn 47230, Hypno Turn 47235).
 - Patrol Location:
   - High-Rate Patrol Loop: (21..25, 14..15) on Cerulean Cave 1F.
   - Verified spawn: Turn 33610 (Ditto Lv 53).
