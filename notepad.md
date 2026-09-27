@@ -65,6 +65,7 @@
 - **Jackson's Arrival**: The grunts are alarmed to discover that Jackson (Asher's Dad) has entered the sewers ('Grunt 1: What?! Jackson's here?!').
 - **Dad Locked in Storage Room**: Grunt 2 reveals: 'Yes, I managed to lock him inside this little storage room.', confirming Jackson is trapped in a sewer storage room.
 - **Waiting for Marie**: Grunt 2 tells Jackson he must stay locked in the storage room until 'Marie, the milday arrives', confirming Mother's name is Marie.
+- **Grunts Scatter to Patrol**: Grunt 2 orders the grunts: 'Let's scatter around and patrol the area...', dispersing to guard the sewers while keeping Jackson trapped.
 
 <hr>
 
