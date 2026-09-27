@@ -481,6 +481,7 @@
 - Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
+- Dunsparce (female) (Lv6, Normal; verified Turn 3136)
 - Southern Canal Exploration (Turn 3118): Descended stone staircase at (12-13, 28-31) to row 33; shallow puddle at (10-11, 34-36); canal water at row 36. Exploring west branch along row 33.
 
 <hr>
