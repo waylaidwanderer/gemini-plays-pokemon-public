@@ -25,4 +25,5 @@
 - "I grew up with my father."
 - "He thinks mother is a lunatic and I shouldn't see her, ever..."
 - Visual: Mother disappears; only father remains on screen.
-- "The organization they once operated together is now in my..."
+- "The organization they once operated together is now in my mother's full control."
+- "After the divorce, my father was forced to leave the team, and he took me with himself as well..."
