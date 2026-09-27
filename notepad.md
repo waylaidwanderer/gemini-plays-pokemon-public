@@ -133,9 +133,9 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (6 / 6 - Audited Turn 47320)
+## Party Pokémon (3 / 6 - Audited Turn 47377)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 50 / 269
+  - HP: 269 / 269 (Healed Turn 47353)
   - Status: Healthy
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
@@ -145,14 +145,9 @@
   - HP: 254 / 254
   - Status: Healthy
   - Field Moves: Surf, Strength
-- Slot 4: VENOMOTH (Nickname: MOTHRA) [Lv 51, Bug/Poison]
-  - HP: 134 / 134
-  - Status: Healthy
-- Slot 5: MAROWAK (Nickname: SKULL) [Lv 52, Ground]
-  - HP: 108 / 124
-  - Status: Healthy
-- Slot 6: DITTO (Nickname: MORPH) [Lv 53, Normal]
-  - Status: Healthy (Caught Turn 47320)
+- Slot 4: [EMPTY]
+- Slot 5: [EMPTY]
+- Slot 6: [EMPTY]
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
 - Slot 1: POKé FLUTE
@@ -164,7 +159,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x26
+- Slot 10: POKé BALL x15
 
 ## BLUE's PC Item Storage
 1. TM34 x1 (Bide)
@@ -196,7 +191,7 @@
 
 ## PC Pokémon Storage
 - Active Box: BOX 1
-- Box 1: Contains 6 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46, HYDRA Lv 49, SPOON Lv 49, TITAN Lv 52 - stored Turns 46635-46960)
+- Box 1: Contains 9 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46, HYDRA Lv 49, SPOON Lv 49, TITAN Lv 52, MOTHRA Lv 51, SKULL Lv 52, MORPH Lv 53 - stored Turns 46635-47365)
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 4: Empty [Verified Turn 44287]
@@ -5452,37 +5447,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
-## Expedition 3: Cerulean Cave 1F Ditto Hunt
-- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 17 Poké Balls in bag. Pokédex: 74 Caught.
-- Priority Target on 1F:
-  1. Ditto (#132) [Wild Lv 53, BCR 35] - ACTIVE SOLE TARGET
-- Tracking & Thresholds:
-  - Pursuit Start on 1F: Turn 47195 (after descending Ladder 22, 6).
-  - Encounter Cutoff: Turn 47350 (or 25 duplicate encounters on 1F).
-  - Current 1F Duplicate Encounters Fled: 5 (Venomoth Lv 49 Turn 47214, Magneton Lv 46 Turn 47218, Hypno Turn 47230, Hypno Turn 47235, Kadabra Turn 47242).
-- Patrol Location:
-  - High-Rate Patrol Loop: (21..25, 14..15) on Cerulean Cave 1F.
-  - Verified spawn: Turn 33610 (Ditto Lv 53).
-- Protocol:
-  - Lead: Mewtwo (OMEGA Lv 76, 50/269 HP, Recover available for sustain).
-  - Target encounters: Throw Poké Balls directly into open party slot 6.
-  - Duplicate encounters: RUN immediately (100% flee success with Lv 76 Mewtwo).
-  - When caught: Party reaches 6/6. Exit south via (24..25, 17) to Cerulean City, Fly to Center, deposit catches (Mothra, Skull, Ditto) to Box 1.
-
-- TARGET ENCOUNTERED: Wild Ditto appeared on Turn 47248 at (21, 14)! Actively engaging capture protocol with 26 Poké Balls.
-  - Ball 1: Missed at full HP [Turn 47258].
-  - Ball 2: Missed at full HP (transformed into Mewtwo) [Turn 47264].
-  - Ball 3: Missed at full HP [Turn 47271].
-  - Ball 4: Missed at full HP [Turn 47276].
-  - Ball 5: Missed at full HP [Turn 47284].
-  - Ball 6: Missed at full HP [Turn 47291].
-  - Ball 7: Missed at full HP [Turn 47298].
-  - Ball 8: Missed at full HP [Turn 47303].
-  - Ball 9: Missed at full HP [Turn 47309].
-  - Ball 10: Missed at full HP [Turn 47316].
-  - Ball 11: CAUGHT at full HP [Turn 47320]! Target Ditto secured into Party Slot 6!
-  - Nicknamed MORPH [Turn 47340]. Cerulean Cave expedition complete! Exiting cave to deposit catches at Cerulean Pokémon Center.
-
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
 - Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 15 Poké Balls in bag. Pokédex: 75 Caught.
 - Prerequisite: Retrieve Silph Scope from BLUE's PC storage (Slot 11) to unmask wild ghosts.
@@ -5494,6 +5458,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Magnemite (#081) / Voltorb (#100) at Power Plant
   - Clefairy (#035) / Zubat (#041) at Mt. Moon
   - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22
+
 
 <hr>
 
