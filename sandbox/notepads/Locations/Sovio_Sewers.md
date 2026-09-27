@@ -22,7 +22,7 @@
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: At least five Team Siara grunts are operating in the sewers (four defeated, Fifth Grunt at (23, 13), plus the guard holding Jackson at the storage room).
-- **Dad Locked in Storage Room**: A Team Siara grunt has locked Jackson (Dad) inside a small storage room and is standing guard on a red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive. Exact location of the storage room in the sewer remains unconfirmed.
+- **Dad Locked in Storage Room**: RESCUED on Turn 2698! Asher reached the red mat at (37, 14), freeing Jackson to reunite with Asher and Valora.
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas (male) Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo (male) Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: 728 Yen.
 - **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada (female) Lv7 (Bug/Ground, known move: Harden), Shinx (male) Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: 832 Yen.
