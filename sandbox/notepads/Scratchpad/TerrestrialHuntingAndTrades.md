@@ -10,3 +10,13 @@
   - Magnemite (#081) / Voltorb (#100) at Power Plant
   - Clefairy (#035) / Zubat (#041) at Mt. Moon
   - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22
+
+## Active Tactical Hunt: Route 25 Wild Abra (#063) [Initiated Turn 47480]
+- Location: Route 25 Tall Grass at Cols 2..7, Rows 4..5.
+- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 35 Poké Balls in bag.
+- Target Species: Abra (#063) [Psychic, Lv 8-12, BCR 200].
+  - Behavior: Teleport is Abra's sole move; flees on turn 1 if not captured immediately.
+  - Catch Strategy: Mewtwo (OMEGA Lv 76) outspeeds wild Abra (100% speed priority). Throw basic Poké Ball on Turn 1 at full HP (favorable BCR 200 threshold). If breakout occurs, Abra teleports away; re-engage next encounter.
+- Secondary Encounters:
+  - Pidgey, Bellsprout, Kakuna, Metapod (Already registered in Pokédex - flee immediately via Omega's 100% flee rate).
+- Progression Milestone: Registering Abra brings Pokédex from 75 to 76 caught species before proceeding to Pokémon Tower (Expedition 4).

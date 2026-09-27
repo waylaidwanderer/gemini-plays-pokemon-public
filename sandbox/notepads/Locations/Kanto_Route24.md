@@ -27,3 +27,11 @@
 - Accessible from Northern Avenue by walking west through open grass at (9..8, 14..15) north of the Nugget Bridge stone railing.
 - Surfing Launch: Facing South from grass at (8, 15) into water tile (8, 16) launches Surfing directly into the north-south canal.
 - Canal Route: Columns 6..8 form an open north-south waterway flowing south from Route 24 (rows 16..36) directly into Cerulean City canal (rows 0..16), providing direct water transit to the Cerulean Cave entrance landing at (5, 12).
+
+## Negative Spatial Verification: Decorative Flower Beds (Cols 4..7, Rows 12..15) [Turns 47465-47477]
+- Visual Terrain: Pink/red flower graphics over green lawn at cols 4..7, rows 12..15 (west of Nugget Bridge, north of water shore at row 16).
+- Empirical Test: Paced 26 continuous steps across (4..7, 13..15) [Turns 47465-47476].
+- Results:
+  - Zero wild encounters triggered across 26 steps.
+  - Player sprite feet and legs remained 100% visible on all steps; no tall-grass sprite-masking overlay rendered.
+  - Confirmed decorative non-encounter terrain. Route 24 wild encounters do not spawn in this southern garden patch.
