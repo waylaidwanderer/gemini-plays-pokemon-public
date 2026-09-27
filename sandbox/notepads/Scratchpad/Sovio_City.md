@@ -35,3 +35,4 @@
 - Asher steps directly between the cyan-haired character and Mother to stand his ground.
 - Asher declares to Mother: "Yes, I have to if that thing is hurting an innocent person!"
 - Mother warns Asher: "Son... move out of the way please, or mom will get angry."
+- Asher defies Mother: "Like I would care!"
