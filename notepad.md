@@ -213,5 +213,7 @@
 ## Active Encounter (Turn 521)
 - Wild Pidgey ♂ Lv2 at (27, 44). Full HP.
 - Plan: Open Bag, throw Poké Ball, catch and nickname Zephyr.
+- Poké Ball 1 broke free; Sirius took poison damage (18/22 HP).
+- 4 Poké Balls left; opening Bag to throw Poké Ball 2.
 
 <hr>
