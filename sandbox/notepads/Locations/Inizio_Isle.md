@@ -7,11 +7,8 @@
 ## 1F Living Room
 - **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door exit is at (10, 10) with doormat at (10, 9).
 - **Verified Collisions**:
-  - Tile (3, 6) south wall is solid / NOT an exit (verified Turn 104).
-  - Tile (9, 9) south wall is solid; doormat is at (10, 9) (verified Turn 106).
-  - Bookshelf at (5, 4) is solid (verified Turn 52 collision moving Right from (4, 4)).
-  - Walkable bypass: Row 5 path (3, 5) -> (4, 5) -> (5, 5) -> (6, 5) -> (7, 5) -> (8, 5).
-  - TV stand at (7, 4)-(9, 4) is solid.
+  - Tile (3, 6) south wall is solid; tile (9, 9) is solid.
+  - Bookshelf at (5, 4) is solid; bypass via row 5.
 
 ## Inizio Isle Exterior
 - **House Front**: Door exit lands at (17, 17).
