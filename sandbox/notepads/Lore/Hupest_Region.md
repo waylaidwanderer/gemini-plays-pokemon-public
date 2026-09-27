@@ -50,3 +50,4 @@
 - **Dad Locked in Storage Room**: Grunt 2 reveals: 'Yes, I managed to lock him inside this little storage room.', confirming Jackson is trapped in a sewer storage room.
 - **Waiting for Marie**: Grunt 2 tells Jackson he must stay locked in the storage room until 'Marie, the milday arrives', confirming Mother's name is Marie.
 - **Grunts Scatter to Patrol**: Grunt 2 orders the grunts: 'Let's scatter around and patrol the area...', dispersing to guard the sewers while keeping Jackson trapped.
+- **Jackson's Cry for Help (Turn 1764)**: While Asher was speaking to Patrolling Grunt 1 at (24, 27), Jackson's voice echoed faintly from the distance: 'Somebody bring help! We are locked!', exposing that Dad and someone else are trapped in the storage room and alerting both Asher and the Grunt.
