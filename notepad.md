@@ -238,6 +238,8 @@
 - **Official In-Game Confirmation (Turn 1188)**: Sovio City Trainer Tips signpost at (15, 18) verbatim: "If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around."
 ## Quests & Mission Engine (Verified Turn 1378-1381)
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
+## HuPhone Apps & Scope (Verified Turn 1520-1522)
+- **Quest Log App Scope**: The HuPhone's Quest Log app tracks side quests only ('Lost Pidgey', 'Lost Toy', 'Egg Research', 'Medic!', 'Squirtle Gang'). Main story progression milestones and active story objectives are NOT tracked in the Quest Log app.
 
 <hr>
 
@@ -322,8 +324,8 @@
 ## Residential House (North Central) (Verified Turn 1447)
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 - **Interior**: Entrance mat lands at (43, 36).
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33) mentions he bought his son an old Wii console.
-- **Layout (2F)**: Resident boy at (44, 14) playing his Wii. Stairs back down at (40-41, 12).
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33).
+- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12).
 
 ## City Signpost (Verified Turn 1476)
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
@@ -349,13 +351,12 @@
 - **Route 2 Connection**: Connects east out of Sovio City toward Amor City and the Eclipse Tournament.
 
 ## Active Routing & Local Discoveries (Turn 1355)
-- **Metro Signpost**: Wooden signpost at (49-50, 17) in front of Phanpy.
-- **Central Park Pond**: Located southwest of plaza (rows 16-20). Contains decorative floral displays (white flowers in figure-8 on the left, blue flowers on the right) bordered by stone fencing.
 - **Metro Platform Story Lock (Turn 1435)**: Walking past ticket gate at (19, 21) triggers "I should find dad first!". Dad went outside to investigate the tremor; must find Dad in Sovio City before boarding the train to Amor City.
 
 ## Systematic City Search for Dad (Post-Tremor)
-- **Central Plaza Sector**: SURVEYED. Dad not in North Central House or Pokémon Center (verified Turn 1527). Checking Metro Station & Valora next.
-- **West / Northwest / Southwest Sectors**: SURVEYED. Dad not found (Machop family house, teal door house, bikers, southern street all clear).
+- **Central Plaza Sector**: SURVEYED. Dad not in North Central House or Pokémon Center (verified Turn 1527).
+- **West / Northwest Sectors**: SURVEYED. Dad not found (Machop family house, teal door house, bikers all clear).
+- **Southwest Sector**: IN PROGRESS. Stopped at row 24 on Turn 1496; East Building entrance at (17, 27) and sewer manhole at (13, 27) remain unvisited and unexamined. Heading there now.
 - **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can't go yet... I have things to do!' (Turn 1506).
 
 <hr>

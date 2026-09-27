@@ -8,3 +8,5 @@
 - **Official In-Game Confirmation (Turn 1188)**: Sovio City Trainer Tips signpost at (15, 18) verbatim: "If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around."
 ## Quests & Mission Engine (Verified Turn 1378-1381)
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
+## HuPhone Apps & Scope (Verified Turn 1520-1522)
+- **Quest Log App Scope**: The HuPhone's Quest Log app tracks side quests only ('Lost Pidgey', 'Lost Toy', 'Egg Research', 'Medic!', 'Squirtle Gang'). Main story progression milestones and active story objectives are NOT tracked in the Quest Log app.
