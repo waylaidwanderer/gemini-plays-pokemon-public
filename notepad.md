@@ -314,7 +314,11 @@
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
-- **East Exit Story Barrier (Verified Turn 2068)**: Attempting to walk east past column 51 along row 20 triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher back to (51, 20).
+- **East Exit Story Barrier (Verified Turns 2068, 2796)**: Attempting to walk east past column 51 along row 20 or stepping east at (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher back.
+- **Plaza & Metro Perimeter Obstacles (Verified Turns 2810-2817)**:
+  - Signpost at (49-50, 17): solid collision when stepping north from (49, 18).
+  - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
+  - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 14).
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26).
