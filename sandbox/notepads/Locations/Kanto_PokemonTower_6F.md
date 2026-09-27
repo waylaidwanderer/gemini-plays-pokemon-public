@@ -21,3 +21,9 @@
   - Row 7 western highway: Open crosshatch floor from col 10 all the way west to col 3 (cols 3..10 open).
   - Cols 14..15 form a 2-tile-wide north-south highway between row 3 and row 10.
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
+
+
+## Wild Encounters (Empirical Dataset)
+- Gastly: Observed Lv 20 (Turn 47773), Lv 19 (Turn 47777), Lv 23 (Turn 47780).
+- Cubone: Observed Lv 24 (Turn 47788).
+- Haunter: Active hunt target (BCR 90, peak rate ~15%).
