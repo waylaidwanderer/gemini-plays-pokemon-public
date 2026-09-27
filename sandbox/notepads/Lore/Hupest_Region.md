@@ -7,5 +7,7 @@
 - **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
 - **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
 
+- **Mrs. Ivo**: Featured in an upcoming TV broadcast; Asher has met her previously.
+
 ## Starting Setting
 - **Inizio Isle**: Starting location where Asher and his father reside.
