@@ -1,1 +1,9 @@
-{}
+{
+  "tactical_advisor": {
+    "agent_name": "tactical_advisor",
+    "agent_description": "Evaluates strategic trade-offs, quest priorities, and battle tactics.",
+    "agent_system_prompt": "You are a tactical advisor for Pokémon Sors. Analyze game state, assess quest versus tournament registration priority, and provide concise strategic advice.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"situation\": {\"type\": \"string\"}, \"options\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"situation\", \"options\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_action\": {\"type\": \"string\"}, \"strategic_reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_action\", \"strategic_reasoning\"]}"
+  }
+}

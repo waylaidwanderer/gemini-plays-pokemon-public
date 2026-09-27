@@ -6,8 +6,18 @@
 - **Terrain**: Cobblestone road transitions into dirt paths and patches of tall wild grass starting at column 5, row 45.
 
 ## Landmarks & Key Points
-- **Rock Spire Formations**: Conical rock spires located at (26, 18-19) and (27, 14-16) in northwest clearing.
-- **Bird Track Trail**: Blue claw footprints on ground leading along the path at (29, 19), (28, 16), (29, 14), and curving northeast into the secluded grove.
+- **Rock Spire Formations**: Conical rock spires with multi-tile solid collision footprints:
+  - Spire 1: (26, 18-19)
+  - Spire 2: (27, 14-16) (Lass Sonia's perch)
+  - Spire 3: (35, 6-7) in northeast meadow
+- **Bird Track Trail**: Continuous footprint trail leading into the secluded northern grove:
+  - Track 1: (29, 19) / (29, 18) [blue claws]
+  - Track 2: (28, 16) / (28, 15) [blue claws]
+  - Track 3: (30, 13) [yellow prints]
+  - Track 4: (31, 12) / (32, 12) [blue claws]
+  - Track 5: (36, 6) [blue claws]
+  - Track 6: (37, 7) [blue claws]
+  - Trail continues north past row 5 into the secluded grove.
 - **Signboard**: Located at (10, 47) south of central pine tree; reads "Route 1: Everything starts small."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
 
@@ -22,7 +32,7 @@
   - Nidoran♀ (Lv3, Poison; verified Turn 494).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing south. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon) (verified Turn 686).
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon) (Defeated Turn 701, ¥320).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
 - **NPC 3 (Lass in pink shirt)**: Located at (40, 35) in Route 1 northeast clearing, facing west.
