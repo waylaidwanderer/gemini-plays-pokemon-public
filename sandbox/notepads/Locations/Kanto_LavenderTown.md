@@ -24,7 +24,8 @@
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 
 ## Key Buildings & Facilities
-- Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Historic full party heal completed [Turn 6213]. Active warp anchor subsequently updated to Celadon City [Turn 12560].
+- Pokémon Center: Located at cols 2..5, rows 2..5.
+  - HM02 Fly Arrival Point: Confirming Fly to Lavender Town drops the player outdoors at (3, 6) facing North, directly in front of the Pokémon Center entrance door at (3, 5) [Empirically verified Turn 47548]. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Historic full party heal completed [Turn 6213]. Active warp anchor subsequently updated to Celadon City [Turn 12560].
 - Poké Mart: Located at cols 14..17, rows 11..13. Front entrance door at (15, 13), "MART" sign at (16, 13) [Sighted Turn 4861].
   - Interior: Clerk counter at (0..1, 5), talk from (2, 5) facing West. Customer at (3, 4). Entrance mat at (3..4, 7).
   - Catalog Items: GREAT BALL (¥600), SUPER POTION (¥700), REVIVE (¥1500), ESCAPE ROPE (¥550), SUPER REPEL (¥500), ANTIDOTE (¥100), BURN HEAL (¥250), ICE HEAL (¥250), PARLYZ HEAL (¥200) [Verified Turn 4872].
