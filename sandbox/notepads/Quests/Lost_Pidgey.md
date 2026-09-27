@@ -11,5 +11,5 @@
   - **Track 4**: (31, 12) / (32, 12) at meadow entrance [blue claws].
   - **Track 5**: (36, 6) northeast of meadow rock spire [blue claws].
   - **Track 6**: (37, 7) east of meadow rock spire [blue claws].
-  - **Destination**: Trail leads north past row 5 into the northern grove.
-- **Reward**: Nice rewards / gifts upon completion.
+  - **Track 7**: (41, 10) on open grass path heading southeast toward (45, 11).
+  - **Reward**: Nice rewards / gifts upon completion.

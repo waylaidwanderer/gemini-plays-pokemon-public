@@ -2,7 +2,6 @@
 
 ## Connection & Geography
 - **West**: Connects to Lancio Town at (0, 45).
-- **East**: Leads toward Amor City.
 - **Terrain**: Cobblestone road transitions into dirt paths and patches of tall wild grass starting at column 5, row 45.
 
 ## Landmarks & Key Points
@@ -17,8 +16,8 @@
   - Track 4: (31, 12) / (32, 12) [blue claws]
   - Track 5: (36, 6) [blue claws]
   - Track 6: (37, 7) [blue claws]
-  - Trail continues north past row 5 into the secluded grove.
-- **Signboard**: Located at (10, 47) south of central pine tree; reads "Route 1: Everything starts small."
+  - Track 7: (41, 10) [yellow prints] (trail loops southeast)
+  - **Signboard**: Located at (10, 47) south of central pine tree; reads "Route 1: Everything starts small."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
 
 ## Wild Encounters & Overworld NPCs
@@ -36,6 +35,7 @@
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon) (Defeated Turn 701, ¥320).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
+- **NPC 6 (Camper in Straw Hat)**: Located at (45, 11) in eastern meadow (observed Turn 749).
 - **NPC 3 (Lass in pink shirt)**: Located at (40, 35) in Route 1 northeast clearing, facing west.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south.
 
