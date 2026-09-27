@@ -409,7 +409,7 @@
 - **Patrolling Grunts**: Three grunts have scattered into the sewer corridors to patrol.
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
 - **Item Found**: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
-- **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Above Grunt 2 is a puddle at (17-18, 20-21) and stone walkway continuing north. To the west at (16-17, 28) is a stone staircase.
+- **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (Fire/Normal, weak to Fighting). Above Grunt 2 is a puddle at (17-18, 20-21) and stone walkway continuing north. To the west at (16-17, 28) is a stone staircase.
 - **Puddle Alcove (Verified Turn 1966)**: At (28, 19) north of column 26 corridor is an impassable dead-end puddle terminated by solid brick wall at row 18 and black void to the east.
 - **Eastern Lower Alcove (Verified Turn 1978)**: Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
 ## Topography & Connectivity
