@@ -30,3 +30,15 @@
   - Ball 10: Missed at full HP [Turn 47316].
   - Ball 11: CAUGHT at full HP [Turn 47320]! Target Ditto secured into Party Slot 6!
   - Nicknamed MORPH [Turn 47340]. Cerulean Cave expedition complete! Exiting cave to deposit catches at Cerulean Pokémon Center.
+
+## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
+- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 15 Poké Balls in bag. Pokédex: 75 Caught.
+- Prerequisite: Retrieve Silph Scope from BLUE's PC storage (Slot 11) to unmask wild ghosts.
+- Target Species:
+  1. Gastly (#092) [Ghost/Poison, Lv 18-24, BCR 190]
+  2. Haunter (#093) [Ghost/Poison, Lv 20-25, BCR 90]
+  3. Cubone (#104) [Ground, Lv 20-22, BCR 190]
+- Next Targets if Needed for 80 Milestone:
+  - Magnemite (#081) / Voltorb (#100) at Power Plant
+  - Clefairy (#035) / Zubat (#041) at Mt. Moon
+  - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22
