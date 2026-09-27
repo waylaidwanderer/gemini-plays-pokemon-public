@@ -136,7 +136,7 @@
 ## Starter Pokémon Candidate
 - **Location**: Research table at (22, 4) in Professor Ivo's Lab.
 - **Pokéball Type**: Custom orange/gold upper dome, white base.
-- **Current Status**: Riolu obtained; received Poké Balls, Potion, and Torn Scarf; Professor Ivo explaining scarf was found with Riolu.
+- **Current Status**: Riolu obtained; received Poké Balls, Potion, and Torn Scarf; Professor Ivo recommending Route 1.
 - **Species**: Riolu (The Emanation Pokémon, Fighting-type, confirmed Male).
 - **Selected Nickname**: Sirius (The brightest star / Dog Star; guiding light of justice against Siara).
 - **Gender / Nature / Ability**: Male; nature/ability pending summary screen verification.
