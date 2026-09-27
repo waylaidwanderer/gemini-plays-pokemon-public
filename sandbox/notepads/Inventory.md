@@ -20,9 +20,10 @@
   - Status: Healthy
 - Slot 5: GASTLY (Nickname: SPOOKY) [Lv 24, Ghost/Poison]
   - Status: Healthy
-- Slot 6: [EMPTY]
+- Slot 6: CUBONE (Nickname: BONEY) [Lv 22, Ground]
+  - Status: Healthy
 
-## Bag Items (11 / 20 Slots Occupied - Audited Turn 47665)
+## Bag Items (11 / 20 Slots Occupied - Audited Turn 47675)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE

@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 31 Poké Balls in bag. Pokédex: 77 Caught.
+- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 31 Poké Balls in bag. Pokédex: 77 Caught.
 - Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
 - Floor-by-Floor Encounter & Hazard Survey:
   - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
