@@ -60,5 +60,8 @@
 - "Sounds weird right?"
 - "But that's how it goes..."
 - "Some people believe that someone's fate..."
+- Dialogue: "...children fulfill their own selfish dreams, that's just how it is..."
+- Philosophical Choice: "What do you think about destiny?"
+  - Selected: "It depends on your actions."
 
 <hr>
