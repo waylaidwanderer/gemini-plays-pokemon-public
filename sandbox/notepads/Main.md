@@ -5,7 +5,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge) [Verified Turn 45594]
 
-- Money: ¥5,905
+- Money: ¥1,905
 
 - Pokédex: 75 Caught [Ditto caught Turn 47320] / 137 Seen
 
