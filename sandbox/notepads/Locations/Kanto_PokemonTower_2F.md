@@ -16,7 +16,6 @@
 
   - Dialogue: Mentions catching Cubone and looking for Marowak.
 
-  - Departure: Exited down the stairs at (18, 9) to 1F.
 
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
 

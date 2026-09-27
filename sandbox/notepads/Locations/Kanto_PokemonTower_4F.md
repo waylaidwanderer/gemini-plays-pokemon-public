@@ -6,7 +6,7 @@
 
 ## Key Events & Encounters
 - Channeler at (6, 10): Defeated Turn 6268 (Prize: ¥720) (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
-- Channeler at (15, 7): Sighted facing South [Turn 6259].
+- Channeler at (15, 7): Sighted facing South [Turn 6259]; player traversed across (15, 8) with zero engagement [Turn 47837-47838], confirming inactive/defeated.
 - Channeler at (14, 12): Sighted facing West [Turn 6259].
 
 ## Geography & Layout

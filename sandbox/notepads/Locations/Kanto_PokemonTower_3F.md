@@ -15,5 +15,8 @@
 
 ## Geography & Layout
 - Eastern Wall: (19, 5..10) orange altars.
-- Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
+- Tombstones at (7, 6) [blocked Row 6 Turn 47845], (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
 - Row 10 Layout: Tile (14, 10) has a tombstone; bypass via Column 12 (rows 6..10) north to Row 6 highway leading east to (18, 9) stairs.
+## Wild Encounters (Empirical Dataset)
+- Gastly: Observed Lv 18 (Turn 47614), Lv 20 (Turn 47846), Lv 21 (Turns 47842, 47849, 47851).
+- Cubone: Observed Lv 20 (Turn 47839).
