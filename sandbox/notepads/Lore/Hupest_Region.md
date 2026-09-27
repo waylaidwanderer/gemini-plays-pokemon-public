@@ -25,5 +25,3 @@
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
   - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
-- **Special Starter Pokémon**: Mrs. Ivo informed Dad that she has special Pokémon prepared specifically for Asher to choose from.
-- **Dad's Urgent Business**: Upon docking in Lancio Town, Harry whispered an urgent problem to Dad. Dad instructed Asher to proceed to Professor Ivo's lab alone while he and Harry handle the situation.

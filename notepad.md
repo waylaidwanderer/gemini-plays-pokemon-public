@@ -41,8 +41,6 @@
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
   - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
-- **Special Starter Pokémon**: Mrs. Ivo informed Dad that she has special Pokémon prepared specifically for Asher to choose from.
-- **Dad's Urgent Business**: Upon docking in Lancio Town, Harry whispered an urgent problem to Dad. Dad instructed Asher to proceed to Professor Ivo's lab alone while he and Harry handle the situation.
 
 <hr>
 
@@ -97,12 +95,19 @@
 
 ## Harbor / Dock
 - **Dock**: Wooden pier at rows 23-26, columns 32-34.
-- **Arrival**: Asher arrived via Harry's boat with Dad (Jackson).
 - **Surroundings**:
   - Cobblestone/gravel path leads north from the dock into the main town.
   - NPC trainer with red cap standing northeast of dock near a building.
   - Ocean to south and west.
-## Points of Interest
-- **Mrs. Ivo's Pokémon Lab**: Large modern building that looks like a small luxury home with a burgundy curved roof, grey walls, glass entrance, and a signpost outside. Located in the northwest area of Lancio Town.
+
+## Points of Interest & Buildings
+- **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16) (observed Turns 270, 286).
+- **Residential House (Northwest)**: Located at (25, 10). Interior verified on Turn 301 (dining table, TV, resident boy). Not the Pokémon Lab.
+- **West Facility / Potential Lab**: Large structure located west of (24, 10) with burgundy roof and red foundation band. Signpost at (23, 12) stands outside.
+- **Town Plaza & Pond**: Northeast of center; contains a pond, bench, and Mareep pen.
+
+## Visible Field Items
+- **Pokéball Item 1**: Located on the grass near the pond in the northeast plaza (approx. 37, 5).
+- **Pokéball Item 2**: Visible in the far northeast corner above the pond.
 
 <hr>
