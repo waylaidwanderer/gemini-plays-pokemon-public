@@ -3,17 +3,19 @@
 ## Starter Pokémon Candidate
 - **Location**: Research table at (22, 4) in Professor Ivo's Lab.
 - **Pokéball Type**: Custom orange/gold upper dome, white base.
-- **Current Status**: Summary Page 1 verified; inspecting Page 2 (Skills & Ability).
+- **Current Status**: Summary Page 2 verified; inspecting Page 3 (Known Moves).
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type).
 - **Gender**: Male (♂ symbol verified).
-- **Level / HP**: Lv5, 20/20 HP.
+- **Level / HP**: Lv5, 20/20 HP (IV Grade: C).
 - **Nature**: Relaxed (+Def, -Speed; verified Turn 384).
+- **Ability**: Quick Feet ("Ups Speed if suffering" - 1.5x Speed on major status; verified Turn 385).
+- **Stats (IV Grades)**: Attack 12 (C+), Defense 13 (A-), Sp. Atk 10 (C-), Sp. Def 11 (E), Speed 9 (C-).
 - **OT / ID**: Asher / 54592.
 - **Held Item**: None (Torn Scarf is stored in Items pocket).
 - **Visual**: Custom sprite with red/black scarf.
 - **Met**: Lancio Town at Lv5.
 - **Selected Nickname**: Sirius (The brightest star / Dog Star; guiding light of justice against Siara).
-- **Ability / Stats / Moves**: Pending Page 2 and 3 inspection.
+- **Known Moves**: Pending Page 3 inspection.
 
 ## Untested Interactive Objects in Lab
 - **Stairs to 2F**: Located at (11-12, 7) in the entrance foyer.
