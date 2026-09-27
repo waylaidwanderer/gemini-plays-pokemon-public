@@ -12,7 +12,11 @@
 ## Inizio Isle Exterior
 - **House Front**: Door exit lands at (17, 17).
 - **South Cove Beach**:
-  - Central stairs at (17, 23)-(17, 25) lead down to sandy beach at row 28.
+  - Central stairs at (17, 23)-(17, 25) lead down to sandy beach at rows 28-29.
+  - Western boundary: Column 14 (water's edge with sea boulders, verified Turns 217-218).
+  - Eastern boundary: Column 21 (water channel, verified Turns 219-220).
+  - Southern boundary: Row 31/32 (water's edge with rocks).
+  - Enclosed cove with no dock or boat; exit is strictly north via stairs.
 - **Southeast Ridge**:
   - Accessible via wooden steps at (24, 18)-(26, 19).
   - Dirt platform at (26, 20)-(26, 25).
