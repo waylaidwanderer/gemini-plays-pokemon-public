@@ -73,8 +73,11 @@
   - Dirt platform at (26, 20)-(26, 25).
   - Cliff overlook at (26, 25) with waterfall to west. Impassable east cliff at (28, 21). Dead-end north cliff at (27, 20) (verified Turns 115-117).
 - **Western Trail**:
-  - Path west of house: (12, 17) -> (11, 17). Tile (10, 17) is impassable cliff corner (verified Turn 121).
-  - Tiles (10, 16) west and north are blocked by pine trees (verified Turn 122).
+  - Column 12 corridor: (12, 18) <-> (12, 14) is clear grass.
+  - (12, 13) north is blocked by chimney/trees (verified Turn 167).
+  - (11, 16) has white flowers; (10, 16) is open between pines (verified Turn 169).
+  - (10, 15) north is blocked by pine foliage (verified Turn 170).
+  - Southwest passage: Columns 11-12 lead south between cliff (west) and pine trees (east) towards the southern coast.
 
 ## Eastern Cliff Area & Verified Collisions
 - Area above wooden steps: Small grass lawn at (27-28, 16).
