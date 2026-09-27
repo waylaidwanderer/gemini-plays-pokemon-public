@@ -20,7 +20,7 @@
   - `CANCEL`
 - Pressing A on `DEPOSIT` confirms the deposit and stores the Pokémon into the active box.
 
-## PC Change Box Mechanics & Menu Hierarchy (Generation 1 Retail)
+## PC Change Box Mechanics & Menu Hierarchy (Generation 1 Retail) [Empirically Verified Turns 31744 & 46634]
 - Selecting `CHANGE BOX` in Bill's PC does NOT immediately open the box list.
 - Exact Menu & Dialogue Flow:
   1. Select `CHANGE BOX` (Slot 4 in Bill's PC menu).
