@@ -2785,7 +2785,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 
 ## Wild Encounters (Empirical Dataset)
-- Gastly: Observed Lv 20 (Turn 47773), Lv 19 (Turn 47777), Lv 23 (Turn 47780), Lv 19 (Turn 47793).
+- Gastly: Observed Lv 20 (Turn 47773), Lv 19 (Turn 47777), Lv 23 (Turn 47780), Lv 19 (Turn 47793), Lv 21 (Turn 47796).
 - Cubone: Observed Lv 24 (Turn 47788).
 - Haunter: Active hunt target (BCR 90, peak rate ~15%).
 
