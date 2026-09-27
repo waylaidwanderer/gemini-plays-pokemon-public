@@ -14,3 +14,5 @@
   - **Track 7**: (41, 10) on open grass path heading southeast toward (45, 11).
   - **Track 8**: Blue bird tracks observed near (47, 12) heading east toward eastern signpost.
   - **Reward**: Nice rewards / gifts upon completion.
+- **Track 9**: (51-52, 10-12) on Route 1 eastern path heading toward Sovio City.
+- **Tracks 10-11**: (14, 38) and (14, 37) along Sovio City southern entrance road.
