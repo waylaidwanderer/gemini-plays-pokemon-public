@@ -75,12 +75,10 @@
 - **Western Trail**:
   - Path west of house: (12, 17) -> (11, 17). Tile (10, 17) is impassable cliff corner (verified Turn 121).
   - Tiles (10, 16) west and north are blocked by pine trees (verified Turn 122).
-  - Walkable route to western highway: Column 12 corridor (12, 16) -> (12, 13), then Left across row 13: (11, 13) -> (10, 13) -> (9, 13) -> (8, 13).
 
 ## Eastern Cliff Area & Verified Collisions
 - Area above wooden steps: Small grass lawn at (27-28, 16).
 - Tile (28, 15) north of (28, 16) is an impassable cliff ledge (verified Turn 137).
 - The dirt path above is elevated and cannot be accessed by stepping north from (28, 16).
-- There is no dock at (32-34, 24-26); that eastern water area contains ocean boulders.
 
 <hr>
