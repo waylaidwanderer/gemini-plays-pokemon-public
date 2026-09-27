@@ -8,7 +8,7 @@
 
 # Guidelines & Active Reminders
 - Nicknaming: Always nickname every Pokémon creatively!
-- Text Speed: Set to Fast at earliest opportunity.
+- Text Speed: FAST (Configured at Turn 46)
 
 <hr>
 
