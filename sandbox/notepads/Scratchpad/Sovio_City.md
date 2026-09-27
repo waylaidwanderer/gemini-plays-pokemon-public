@@ -34,3 +34,4 @@
 - **Asher's Intervention**: As the cyan-haired character screams in fright, Asher shouts: "Stop!"
 - Asher steps directly between the cyan-haired character and Mother to stand his ground.
 - Asher declares to Mother: "Yes, I have to if that thing is hurting an innocent person!"
+- Mother warns Asher: "Son... move out of the way please, or mom will get angry."
