@@ -5,7 +5,7 @@
 - **Nickname**: Sirius (Currently default "Riolu", pending Name Rater)
 - **Gender**: Male (♂)
 - **Level**: Lv8
-- **Max HP**: 27 (IV Grade: C) (Fainted Turn 758 vs Burmy; pending Pokémon Center revive)
+- **Max HP**: 27 (IV Grade: C) (Fully revived and poison cured at Pokémon Center Turn 773)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: Attack 17 (C+), Defense 17 (A-), Sp. Atk 13 (C-), Sp. Def 14 (E), Speed 12 (C-)
