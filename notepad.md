@@ -188,6 +188,8 @@
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
+- **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west (unverified battle status).
+- **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south.
 
 <hr>
 
@@ -198,9 +200,13 @@
 ## Tool Compatibility
 - **stun_npc**: Unsupported in Pokémon Sors due to custom ROM hack memory layout (Error: Map objects data is unavailable).
 
-## Bag & Inventory UI Navigation (Verified Turn 517)
+## Bag & Inventory UI Navigation (Verified Turns 517 & 603)
 - **Pocket Navigation**: Bag pockets are cycled horizontally using D-Pad Left/Right.
-- **Pocket Order**: `Items` <-> `Key Items` <-> `Poké Balls`.
+- **Pocket Sequence**: `Items` <-> `Key Items` <-> `Poké Balls`.
+  - Pressing `Left` from `Poké Balls` moves to `Key Items`.
+  - Pressing `Left` from `Key Items` moves to `Items`.
+  - Pressing `Right` from `Items` moves to `Key Items`.
+  - Pressing `Right` from `Key Items` moves to `Poké Balls`.
 - **In-Battle Bag**: Opens directly into the active/last pocket (Poké Balls pocket preserves selection). Selecting Poké Ball opens a sub-menu (`Use` / `Cancel`).
 
 <hr>
