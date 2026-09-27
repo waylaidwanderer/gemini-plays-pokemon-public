@@ -364,8 +364,7 @@
 ## Systematic City Search for Dad (Post-Tremor)
 - **Metro Station (Turn 1578)**: Re-tested ticket gate at (19, 21); still locked by 'I should find dad first!'.
 - **All Exterior Sectors Surveyed**: North Central, Northwest, Southwest, South Central, and Route 1 meadow all confirmed empty of Dad.
-- **Immediate Target**: Eastern plaza pocket east of Nana's house and north/east of Old Man & Phanpy (columns 51-56, rows 13-17), and Nana's house interior.
-- **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can't go yet... I have things to do!' (Turn 1506).
+- **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can\'t go yet... I have things to do!' (Turn 1506).
 
 <hr>
 
