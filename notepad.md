@@ -285,6 +285,7 @@
 - **Track 8**: Blue bird tracks observed near (47, 12) heading east toward eastern signpost.
 - **Track 9**: (51-52, 10-12) on Route 1 eastern path heading toward Sovio City.
 - **Tracks 10-11**: (14, 38) and (14, 37) along Sovio City southern entrance road.
+- **Tracks 12-14 (Verified Turn 1539)**: Clusters of white prints at (14-15, 36) and (15-16, 35), and blue claw prints at (15, 37) and (15, 38) near the southern border. Path north of row 34 is clear of prints.
 
 <hr>
 
