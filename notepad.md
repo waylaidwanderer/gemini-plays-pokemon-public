@@ -320,6 +320,10 @@
 - **Interior**: Entrance mat lands at (64, 35).
 - **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
 - **Residents**: Little Girl at (63, 33) and Nana at (62, 31).
+## Residential House (North Central) (Verified Turn 1447)
+- **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
+- **Interior**: Entrance mat lands at (43, 36).
+- **Layout**: Dining table with tea mug, stairs to 2F in northeast corner, resident elderly man sitting at table at (42, 33).
 
 <hr>
 
