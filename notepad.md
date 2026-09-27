@@ -133,22 +133,22 @@
 ## Party Pokémon (6 / 6 - Audited Turn 46944)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
-  - Status: Healthy (Revived & Healed Turn 46944)
+  - Status: Healthy
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
   - Field Moves: Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 254 / 254
-  - Status: Healthy (PAR Cured Turn 46944)
+  - Status: Healthy
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
   - HP: 125 / 125
-  - Status: Healthy (Healed Turn 46944)
+  - Status: Healthy
 - Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
   - HP: 101 / 101
   - Status: Healthy
 - Slot 6: RHYDON (Nickname: TITAN) [Lv 52, Ground/Rock]
-  - Status: Healthy (Caught Turn 46916)
+  - Status: Healthy
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46801)
 - Slot 1: POKé FLUTE
@@ -393,8 +393,8 @@
 
 
 ## One-Hit Knockout (OHKO) Move Mechanics (Gen 1 Engine)
-- **Theoretical Speed-Threshold Formula:** In Generation 1 game engine code, OHKO moves (Horn Drill, Guillotine, Fissure) are specified to automatically fail if the user's current raw Speed stat is strictly lower than the target's current raw Speed stat (`Speed_user < Speed_target`).
-- **Empirical Status & Proof of Work:** Empirically verified Turn 46896 (vs Mewtwo OMEGA Lv 76) and Turn 46910 (vs Dodrio HYDRA Lv 49): Wild Rhydon Lv 52 used Horn Drill against faster targets, displaying 'OMEGA's unaffected!' and 'HYDRA's unaffected!', confirming that Horn Drill completely fails against targets with higher raw Speed.
+- **Empirical Status & Proof of Work (Horn Drill):** Empirically verified Turn 46896 (vs Mewtwo OMEGA Lv 76) and Turn 46910 (vs Dodrio HYDRA Lv 49): Wild Rhydon Lv 52 used Horn Drill against faster targets (N=2), displaying 'OMEGA's unaffected!' and 'HYDRA's unaffected!', confirming Horn Drill fails against targets with higher Speed.
+- **Scope & Untested Mechanics:** Generalization of this speed-threshold check to other OHKO moves (Guillotine, Fissure) or across equal/lower speed differentials remains theoretical and empirically untested in this run.
 
 
 <hr>
@@ -5283,7 +5283,6 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Hunting Protocol & Strategy
 - Patrol Column 23 corridor (Col 23, Rows 7-11) and Row 11 West Corridor on 2F.
-- If target encountered (Venomoth, Marowak, Rhydon, Ditto): Catch with Pok� Ball into open Party Slot 6!
 - If duplicate encountered (Golbat, Kadabra, Dodrio, Magneton, Raichu, Wigglytuff, Chansey, Electrode): RUN immediately with Dodrio active lead (Mewtwo fainted Turn 46901).
 - Party: 6/6 (Full - Rhydon joined slot 6). Return to Cerulean PC to deposit captures.
 
