@@ -152,9 +152,10 @@
   - Status: Healthy
 - Slot 5: GASTLY (Nickname: SPOOKY) [Lv 24, Ghost/Poison]
   - Status: Healthy
-- Slot 6: [EMPTY]
+- Slot 6: CUBONE (Nickname: BONEY) [Lv 22, Ground]
+  - Status: Healthy
 
-## Bag Items (11 / 20 Slots Occupied - Audited Turn 47665)
+## Bag Items (11 / 20 Slots Occupied - Audited Turn 47675)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -5350,7 +5351,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 31 Poké Balls in bag. Pokédex: 77 Caught.
+- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 31 Poké Balls in bag. Pokédex: 77 Caught.
 - Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
 - Floor-by-Floor Encounter & Hazard Survey:
   - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
