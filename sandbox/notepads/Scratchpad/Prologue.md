@@ -23,4 +23,6 @@
 - "But my mother had different plans, and kept on with it..."
 - "This got so interfering to them, that they ended up divorcing, and"
 - "I grew up with my father."
-- "He thinks mother is a lunatic and I should..."
+- "He thinks mother is a lunatic and I shouldn't see her, ever..."
+- Visual: Mother disappears; only father remains on screen.
+- "The organization they once operated together is now in my..."
