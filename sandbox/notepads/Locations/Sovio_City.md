@@ -52,5 +52,5 @@
 - **Interior**: Entrance mat lands at (5, 36).
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector
-- **Gathering**: Girl at (33, 28) (mentions Moon Stone evolution), Jigglypuff at (34, 28) ('Puff Puff!'), and Boy at (35, 28) on the sidewalk south of Central Park pond.
+- **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
