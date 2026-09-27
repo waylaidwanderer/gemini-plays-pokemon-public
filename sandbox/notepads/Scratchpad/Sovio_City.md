@@ -12,19 +12,11 @@
 - HuPhone Quest Log Audit (Turns 2962-2978): Verified that 'Lost Toy' is active and incomplete. System message confirmed quests can only be canceled by speaking to the provider.
 
 ## Active Investigation Protocol
-
-
-
-
-
-
-
-
 - Route 2 Barrier Re-Test (Turn 3073-3075): Stepping onto (52, 19) with no active quest confirmed identical barrier: 'I can\'t go yet... I have things to do!' forcing player west to (51, 19). Confirms Route 2 barrier ('I can\'t go yet... I have things to do!') is not cleared by cancelling Machop's Toy; barrier condition remains unresolved.
 
 - South-Central House (31, 26): Entered Turn 3086. Resident is the official Name Rater ('Want me to rate the nicknames of your Pokémon?').
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
   - UNTESTED POST-RESCUE: Residential House at (13, 15) (Machop Family) at north end of Western Avenue! Must be audited before declaring city exhausted.
 - Next Strategic Direction: Break the surface macro-loop by exploring unvisited areas:
-  1. Sovio Sewers unexplored branches: Specifically the Southern Canal (columns 12-13, rows 32-34) which was never searched.
-  2. Route 1 / Lancio Town: External open pathways to check if story progression or Dad moved there.
+  1. Machop Family house at (13, 15): Audit post-rescue.
+  2. Route 1 / Lancio Town: External open pathway to check for Dad and story progression.
