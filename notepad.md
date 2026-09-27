@@ -408,13 +408,16 @@
   - Eastern Lower Alcove (Verified Turn 1978): Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
   - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
   - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
+  - Stone Staircase (Western Wing): Located at columns 14-15, rows 13-16; ascends from the lower western walkway at row 17 to the upper western terrace at row 12.
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers.
 - **Dad Locked in Storage Room**: A Team Siara grunt has locked Jackson (Dad) inside a small storage room and is standing guard on a red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive. Exact location of the storage room in the sewer remains unconfirmed.
-- **Patrolling Grunts**: Three grunts have scattered into the sewer corridors to patrol.
+- **Patrolling Grunts**: Three grunts scattered to patrol; all four grunts now located!
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: ¥728. Above Grunt 2 is a puddle at (17-18, 20-21) and stone walkway continuing north.
+- **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) facing south at the top of the stone stairs (sighted Turn 2170).
+- **Patrolling Grunt 4**: Sighted on the eastern high ledge across the chasm at the top-right in a puddle (Turn 2170).
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered. (Storage room location remains unconfirmed pending further exploration of the western wing).
