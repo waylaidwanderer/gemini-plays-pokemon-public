@@ -24,6 +24,7 @@
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
   - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
   - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
+  - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841).
