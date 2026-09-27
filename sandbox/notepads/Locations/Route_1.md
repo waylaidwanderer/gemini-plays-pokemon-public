@@ -6,13 +6,15 @@
 - **Terrain**: Cobblestone road transitions into dirt paths and patches of tall wild grass starting at column 5, row 45.
 
 ## Landmarks & Key Points
+- **Rock Spire Formations**: Conical rock spires located at (26, 18-19) and (27, 14-16) in northwest clearing.
+- **Bird Track Trail**: Blue claw footprints on ground leading along the path at (29, 19), (28, 16), (29, 14), and curving northeast into the secluded grove.
 - **Signboard**: Located at (10, 47) south of central pine tree; reads "Route 1: Everything starts small."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south (did not initiate battle when adjacent; unverified trainer status).
-- **NPC 2 (Camper/Straw Hat)**: Character with straw hat at (17, 45) facing south (unverified battle status).
+- **NPC 1 (Blue Cap)**: Located at (12, 49) facing south.
+- **NPC 2 (Camper/Straw Hat)**: Located at (17, 45) facing south.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
@@ -23,7 +25,7 @@
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon) (verified Turn 686).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
-- **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west (unverified battle status).
+- **NPC 3 (Lass in pink shirt)**: Located at (40, 35) in Route 1 northeast clearing, facing west.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south.
 
 ## Verified Boundaries & Obstacles
