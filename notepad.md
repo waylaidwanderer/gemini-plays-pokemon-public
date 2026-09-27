@@ -5285,7 +5285,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Tracking & Thresholds:
   - Pursuit Start on 1F: Turn 47195 (after descending Ladder 22, 6).
   - Encounter Cutoff: Turn 47350 (or 25 duplicate encounters on 1F).
-  - Current 1F Duplicate Encounters Fled: 4 (Venomoth Lv 49 Turn 47214, Magneton Lv 46 Turn 47218, Hypno Turn 47230, Hypno Turn 47235).
+  - Current 1F Duplicate Encounters Fled: 5 (Venomoth Lv 49 Turn 47214, Magneton Lv 46 Turn 47218, Hypno Turn 47230, Hypno Turn 47235, Kadabra Turn 47242).
 - Patrol Location:
   - High-Rate Patrol Loop: (21..25, 14..15) on Cerulean Cave 1F.
   - Verified spawn: Turn 33610 (Ditto Lv 53).
