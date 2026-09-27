@@ -3,11 +3,9 @@
 ## Geography & Connections
 - **South**: Connects to Route 1 at (14, 39).
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
-- **City Features**: Pokémon Center (verified Turn 1225 in Central Plaza); Metro Station and PokéMart (unverified/in-search).
-
 ## Exploration & Landmarks
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
-- **South Plaza (Rows 29-32)**: Street lamp at (14, 30); manhole at (13, 29); main walkway at column 15 leads north between buildings into city center.
+- **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Manhole**: Located at (13, 27).
 - **Three Bikers (Passive / Sight < 2)**: Positioned at column 13, rows 20, 21, and 22, facing east. Asher walked past at column 15 without triggering battles (Turn 1181-1185).

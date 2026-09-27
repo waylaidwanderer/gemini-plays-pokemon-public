@@ -228,8 +228,8 @@
 ## Facilities & PokéMarts (Verified Turns 795-805)
 - **Lancio Town Pokémon Center**: Contains no PokéMart clerk or item vendor inside (verified by full room inspection). NPC dialogue claiming PokéMarts are inside centers does not apply to Lancio Town.
 - **Official In-Game Confirmation (Turn 1188)**: Sovio City Trainer Tips signpost at (15, 18) verbatim: "If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around."
-## Quests & Mission Engine (Verified Turn 1378-1379)
-- **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. Attempting to accept a second side quest while one is active triggers: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!". Quests can be completed or cancelled (via Quest Log) to take a new one.
+## Quests & Mission Engine (Verified Turn 1378-1381)
+- **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 
 <hr>
 
@@ -285,11 +285,9 @@
 ## Geography & Connections
 - **South**: Connects to Route 1 at (14, 39).
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
-- **City Features**: Pokémon Center (verified Turn 1225 in Central Plaza); Metro Station and PokéMart (unverified/in-search).
-
 ## Exploration & Landmarks
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
-- **South Plaza (Rows 29-32)**: Street lamp at (14, 30); manhole at (13, 29); main walkway at column 15 leads north between buildings into city center.
+- **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Manhole**: Located at (13, 27).
 - **Three Bikers (Passive / Sight < 2)**: Positioned at column 13, rows 20, 21, and 22, facing east. Asher walked past at column 15 without triggering battles (Turn 1181-1185).
