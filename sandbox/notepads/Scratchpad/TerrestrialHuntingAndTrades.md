@@ -29,3 +29,4 @@
   - Ball 9: Missed at full HP [Turn 47309].
   - Ball 10: Missed at full HP [Turn 47316].
   - Ball 11: CAUGHT at full HP [Turn 47320]! Target Ditto secured into Party Slot 6!
+  - Nicknamed MORPH [Turn 47340]. Cerulean Cave expedition complete! Exiting cave to deposit catches at Cerulean Pokémon Center.
