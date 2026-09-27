@@ -184,6 +184,7 @@
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
+  - Nidoran♀ (Lv3, Poison; verified Turn 494).
 
 <hr>
 
