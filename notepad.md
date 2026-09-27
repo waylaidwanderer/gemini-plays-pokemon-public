@@ -233,7 +233,7 @@
 ## Active Routing & Clues
 - **Trail Loop**: Footprint trail does NOT lead north; it loops southeast across row 7 to (41, 7) and south to Track 7 at (41, 10).
 - **Eastern Corridor**: Open path at (41, 7) leading south toward Track 7 (41, 10) and Camper NPC at (45, 11).
-- **Main Milestone**: After resolving Lost Pidgey trail loop, take main northwest highway at (36, 27) toward Sovio City for tournament registration and Poké Ball restock.
+- **Main Milestone**: Advance along the main road on row 46 to Sovio City for tournament registration and Poké Ball restock.
 
 <hr>
 
