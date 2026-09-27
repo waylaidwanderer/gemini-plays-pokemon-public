@@ -8,17 +8,21 @@
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
+  - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
+  - Puddle Alcove (Verified Turn 1966): At (28, 19) north of column 26 corridor is an impassable dead-end puddle terminated by solid brick wall at row 18 and black void to the east.
+  - Eastern Lower Alcove (Verified Turn 1978): Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
+  - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
+  - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
+
 ## Active Missions & Enemies
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers.
-- **Dad Locked in Storage Room**: Grunt 2 has locked Jackson (Dad) inside a small storage room and is standing guard on the red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive.
+- **Dad Locked in Storage Room**: A Team Siara grunt has locked Jackson (Dad) inside a small storage room and is standing guard on a red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive. Exact location of the storage room in the sewer remains unconfirmed.
 - **Patrolling Grunts**: Three grunts have scattered into the sewer corridors to patrol.
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
-- **Item Found**: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
-- **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (Fire/Normal, weak to Fighting). Above Grunt 2 is a puddle at (17-18, 20-21) and stone walkway continuing north. To the west at (16-17, 28) is a stone staircase.
-- **Puddle Alcove (Verified Turn 1966)**: At (28, 19) north of column 26 corridor is an impassable dead-end puddle terminated by solid brick wall at row 18 and black void to the east.
-- **Eastern Lower Alcove (Verified Turn 1978)**: Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
+- **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (known move: Leer). Defeated Turn 2159. Above Grunt 2 is a puddle at (17-18, 20-21) and stone walkway continuing north.
+
 ## Topography & Connectivity
-- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Grunt 2 and Dad's storage room are located.
+- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered. (Storage room location remains unconfirmed pending further exploration of the western wing).
 - **Central Corridor**: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
 - **Black Square Feature**: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
