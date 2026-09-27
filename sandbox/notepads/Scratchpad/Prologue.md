@@ -12,3 +12,5 @@
 - "This child's name was Asher and he was raised really well."
 - "However things usually aren't as simple as that..."
 - "When I was born, my fate was already chosen for me."
+- "My parents wanted me to be the organization's future leader, and"
+- "make it powerful enough to take over the world..."
