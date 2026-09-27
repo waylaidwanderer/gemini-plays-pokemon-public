@@ -41,7 +41,7 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
   - Waiting area chairs along west wall at (16-17, 22-25); empirically surveyed on Turn 2803: completely empty (no NPCs, Dad, or Valora present).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
-  - **Turnstile Gate (Verified Turn 2755)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Attempting to pass without Dad triggers story barrier 'I should find dad first!'.
+  - **Turnstile Gate (Verified Turns 2755, 2946, 2956)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers a scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Left pillar at (18, 21) and right pillar at (20, 21) were tested with 'A' from row 22 and showed no dialogue or reaction (verified Turns 2944-2945).
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
@@ -63,7 +63,7 @@
 - **Residents**: Mother and son at dining table.
 
 ## Residential House (Northwest - Machop Family) (Verified Turn 1491)
-- **Entrance**: Teal door at (14, 15).
+- **Entrance**: Teal door at (13, 15). The avenue terminates at row 15 into a solid building facade; there is no northern street.
 - **Interior**: Entrance mat lands at (5, 36).
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector

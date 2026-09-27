@@ -4,11 +4,12 @@
 - Sovio City Surface: Thoroughly surveyed (all avenues, alleys, residential buildings, Pokémon Center). Confirmed no Dad/Valora present.
 - Sewers 1F Landing: Surveyed on Turns 2753 and 2942. Confirmed 100% empty; Dad and Valora are not in the sewers.
 - Train Schedule Board (23, 23): Interacted with 'A' on Turn 2924; no text or reaction.
+- Left Scanner Pillar (18, 21): Interacted with 'A' from (18, 22) on Turn 2944; non-reactive.
+- Right Scanner Pillar (20, 21): Interacted with 'A' from (20, 22) on Turn 2945; non-reactive.
+- Turnstile Trigger Tile (19, 21): Stepping onto (19, 21) triggers "I should find dad first!" and executes forced movement 1 step Down to (19, 22) (verified Turns 2946, 2955-2956).
 
-## Active Metro Station Protocol
-1. Turnstile passage at (19, 21) triggers "I should find dad first!".
-2. Action plan inside station lobby:
-   - Test interaction with the left ticket scanner pillar at (18, 21) and wall machine at (18, 20).
-   - Test interaction with the right ticket scanner pillar at (20, 21) and wall machine at (20, 20).
-   - Test interaction from (19, 21) facing North, Left, and Right.
-   - Investigate whether Dad or Valora triggers upon specific lobby actions or if another station mechanic is required.
+## Active Metro Station & Quest Protocol
+1. Turnstile Barrier: Tile (19, 21) requires resolving story/quest prerequisites before passage is permitted.
+2. Active Investigation:
+   - Audit HuPhone Quest Log to check active side quests and verify if quest state impacts progression.
+   - Inspect train ticket requirements, station personnel dialogue triggers, and quest dependencies.
