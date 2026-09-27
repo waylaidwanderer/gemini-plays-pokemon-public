@@ -38,3 +38,4 @@
 - Asher defies Mother: "Like I would care!"
 - Mother responds: "Oh... Now you did hurt mom's feelings..."
 - Mother orders grunts: "Well, ladies, target changed, but don't go too hard on him. Just teach him a lesson!"
+- Battle triggered against Team Siara outside the Pokémon Center!
