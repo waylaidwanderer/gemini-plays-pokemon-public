@@ -358,6 +358,7 @@
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
+- **Sewer Manhole (Plaza East)**: Located on pavement at (55, 20) southeast of Metro portal and east of the wooden signpost.
 
 <hr>
 
