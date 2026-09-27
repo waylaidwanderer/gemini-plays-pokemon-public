@@ -2714,7 +2714,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Key Events & Encounters
 - Channeler at (6, 10): Defeated Turn 6268 (Prize: ¥720) (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
-- Channeler at (15, 7): Sighted facing South overlooking column 15 [Turn 6259]. Did not engage when player stepped to (15, 9) [Turn 6261].
+- Channeler at (15, 7): Sighted facing South [Turn 6259].
 - Channeler at (14, 12): Sighted facing West [Turn 6259].
 
 ## Geography & Layout
@@ -2750,6 +2750,11 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
   - Row 10 is open across cols 7..11 below the Purified Zone.
 - Southeast Corridor to 6F Stairs [Verified Turn 47764]: Path to (18, 9) stairs runs from (13, 8) -> south to (13, 9) -> west to (12, 9) -> west to Purified Zone (11, 9) -> south to (11, 10) -> west to (9, 10) -> south to Row 12 (9..14, 12) -> north via (14, 11) to (14..17, 10) -> north to (17, 9) -> east to (18, 9) stairs. Channeler at (17, 7) and tombstones block direct passage along Row 7-9.
 
+## Wild Encounters (Empirical Dataset)
+- Gastly: Observed Lv 18 (Turn 47742), Lv 20 (Turn 47746), Lv 21 (Turn 47749), Lv 20 (Turn 47762).
+- Haunter: Documented target species (BCR 90).
+
+
 <hr>
 
 <h1><code>Locations/Kanto_PokemonTower_6F</code></h1>
@@ -2777,6 +2782,12 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
   - Row 7 western highway: Open crosshatch floor from col 10 all the way west to col 3 (cols 3..10 open).
   - Cols 14..15 form a 2-tile-wide north-south highway between row 3 and row 10.
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
+
+
+## Wild Encounters (Empirical Dataset)
+- Gastly: Observed Lv 20 (Turn 47773), Lv 19 (Turn 47777), Lv 23 (Turn 47780).
+- Cubone: Observed Lv 24 (Turn 47788).
+- Haunter: Active hunt target (BCR 90, peak rate ~15%).
 
 
 <hr>
@@ -5357,16 +5368,13 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Capture Storage: Party is 6/6. Next wild captures (Haunter on 5F/6F) will route automatically to PC Box 1 (11 free slots).
 - Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
 - Floor-by-Floor Encounter & Hazard Survey:
-  - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
-  - 2F: Former Rival RED battle area (safe zone, 0 wild encounters).
-  - 3F: First wild encounter floor (Silph Scope reveals Gastly Lv 20-24, Cubone Lv 20-22 [Unverified rate hypothesis ~9-10%; pending empirical sample logs]).
-  - 4F: Wild encounter floor (Gastly Lv 20-24, Cubone Lv 20-22, Zubat).
+  - 4F: Wild encounter floor (Gastly Lv 20-24, Cubone Lv 20-22).
   - 5F: Purified protected zone at (10..11, 9..10) heals party on step; wild encounters: Gastly, Haunter Lv 20-25, Cubone Lv 20-22.
   - 6F: High-rate Haunter/Cubone floor (Gastly, Haunter Lv 20-25, Cubone Lv 22-24). Ghost Marowak already defeated [Turn 6429].
   - 7F: Top shrine floor; Mr. Fuji rescued [Turn 6549]; safe zone.
 - Target Species & Capture Strategy:
   1. Gastly (#092) [Ghost/Poison, BCR 190]: CAUGHT on 3F with basic Poké Ball on Turn 1 [Turn 47584]! Nickname: SPOOKY. Registered #092.
-  2. Cubone (#104) [Ground, BCR 190]: CAUGHT on 3F with basic Poké Ball on Turn 1 [Turn 47675]! Nickname: BONEY. Registered #104.
+  2. Cubone (#104) [Ground, BCR 190]: CAUGHT on 3F with basic Poké Ball on throw 6 [Turn 47675]! Nickname: BONEY. Registered #104.
   3. Haunter (#093) [Ghost/Poison, BCR 90]: Active hunt on 6F (spawn rate ~15%). Patrol loop across cols 14-17, rows 7-9. Throw basic Poké Ball at full HP on Turn 1. Routes to Box 1 (11 free slots). Caught count will reach 79.
 ## Next Destination: 80th Milestone Capture
   - Candidate 1: Magnemite (#081) / Voltorb (#100) at Power Plant (Fly to Route 10 / Cerulean City).
