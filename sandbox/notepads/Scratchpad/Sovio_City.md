@@ -4,7 +4,6 @@
 - **PokéMart**: Expected in major city; not inside Pokémon Center. Commercial buildings in city center remain to be checked.
 - **Route 2 Connection**: Connects east out of Sovio City toward Amor City and the Eclipse Tournament.
 
-## Systematic City Search for Dad (Post-Tremor)
-- **Metro Station (Turn 1578)**: Re-tested ticket gate at (19, 21); still locked by 'I should find dad first!'.
-- **All Exterior Sectors Surveyed**: North Central, Northwest, Southwest, South Central, and Route 1 meadow all confirmed empty of Dad.
-- **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can\'t go yet... I have things to do!' (Turn 1506).
+## Post-Tremor Progression (Turn 1666-1683)
+- **Sovio Sewers Discovery**: South wall red capsule mat in Metro Station lobby at (18-19, 25) warps directly into the Sovio Sewers.
+- **Team Siara Cutscene**: Four Team Siara Grunts gathered in the sewers confirm Jackson (Dad) is here.
