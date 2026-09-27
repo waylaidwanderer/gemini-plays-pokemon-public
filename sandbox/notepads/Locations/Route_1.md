@@ -2,7 +2,7 @@
 
 ## Connection & Geography
 - **West**: Connects to Lancio Town at (0, 45).
-- **East**: Leads toward Amor City.
+- **Northeast**: Leads toward Sovio City (verified via World Map Turn 637).
 - **Terrain**: Cobblestone road transitions into dirt paths and patches of tall wild grass starting at column 5, row 45.
 
 ## Landmarks & Key Points

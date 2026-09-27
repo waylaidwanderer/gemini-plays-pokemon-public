@@ -110,7 +110,7 @@
   - Ocean to south and west.
 
 ## Points of Interest & Buildings
-- **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16). Interior desk at (7, 4); Nurse Joy heals party; PC terminal at (11, 2); exit mat at (7, 8).
+- **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16). Interior desk at (7, 4); Nurse Joy heals party; exit mat at (7, 8). No PokéMart vendor inside (verified Turns 795-805).
 - **Residential House (Northwest)**: Located at (25, 10). Interior verified on Turn 301 (dining table, TV, resident boy). Not the Pokémon Lab.
 - **House (Northeast)**: Located at (40, 9) east of pond. Tested interaction facing north at (40, 10); no door warp triggered.
 - **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar (verified Turns 308-309).
@@ -174,7 +174,7 @@
 
 ## Connection & Geography
 - **West**: Connects to Lancio Town at (0, 45).
-- **East**: Leads toward Amor City.
+- **Northeast**: Leads toward Sovio City (verified via World Map Turn 637).
 - **Terrain**: Cobblestone road transitions into dirt paths and patches of tall wild grass starting at column 5, row 45.
 
 ## Landmarks & Key Points
