@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 72 Caught [Rhydon caught Turn 46916] / 137 Seen
+- Pokédex: 73 Caught [Venomoth caught Turn 47021] / 137 Seen
 
 ## Milestones
 
@@ -117,3 +117,4 @@
 - [x] Catch wild Dodrio (#085 HYDRA) on Cerulean Cave 1F with Poké Ball [Turn 46723]
 - [x] Catch wild Kadabra (#064 SPOON) on Cerulean Cave 1F with Poké Ball [Turn 46787]
 - [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
+- [x] Catch wild Venomoth (#049 MOTHRA) on Cerulean Cave 2F with Poké Ball [Turn 47021]
