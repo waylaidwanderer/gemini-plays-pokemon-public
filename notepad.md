@@ -67,8 +67,9 @@
   - Enclosed cove with no dock or boat; exit is strictly north via stairs.
 - **Southeast Ridge**:
   - Accessible via wooden steps at (24, 18)-(26, 19).
-  - Dirt platform at (26, 20)-(26, 25).
-  - Cliff overlook at (26, 25) with waterfall to west. Impassable east cliff at (28, 21). Dead-end north cliff at (27, 20) (verified Turns 115-117).
+  - Dirt platform at rows 20-25, columns 23-26. Overlook with waterfall to west.
+  - Wooden bridge at (27, 23) connects Southeast Ridge directly to Eastern Coastal Lawn and Dock (verified Turn 230).
+  - Eastern Coastal Lawn leads directly east to the wooden dock at rows 24-26, columns 32-35.
 - **Western Trail**:
   - Column 12 corridor: (12, 18) <-> (12, 14) is clear grass.
   - (12, 13) north is blocked by chimney/trees (verified Turn 167).
@@ -85,7 +86,5 @@
 - Tile (28, 17) south of (28, 16) is an impassable cliff corner (verified Turn 154).
 - Tile (26, 16) and (26, 17) form a 1-tile wide WALKABLE corridor between pine tree (col 25) and cypress tree (col 27) (verified Turns 156, 160)!
 - Corridor connects north lawn directly to row 18 at (26, 18) (white flowers).
-- Wooden bridge at (27, 23) is WALKABLE and connects Southeast Ridge dirt platform directly to Eastern Coastal Lawn and Dock (verified Turn 230)!
-- Eastern Coastal Lawn leads directly east to the wooden dock at rows 24-26, columns 32-34.
 
 <hr>
