@@ -64,5 +64,7 @@
 - Philosophical Choice: "What do you think about destiny?"
   - Selected: "It depends on your actions."
 - Reaction: Asher considers the possibility of changing destiny through action ("Interesting idea...").
+- Resolution: Asher declares he will prove life isn't as straightforward as people think.
+- Status: Prologue monologue concluded at Turn 34.
 
 <hr>
