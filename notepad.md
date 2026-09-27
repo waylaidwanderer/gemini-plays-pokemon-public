@@ -2171,7 +2171,7 @@
 ## Geography & Layout
 - Eastern Wall: (19, 5..10) orange altars.
 - Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
-- Row 10 Runway: Clear open crosshatch floor from (10, 10) east to (18, 10) leading directly into (18, 9) stairs.
+- Row 10 Layout: Tile (14, 10) has a tombstone; bypass via Column 12 (rows 6..10) north to Row 6 highway leading east to (18, 9) stairs.
 
 <hr>
 
