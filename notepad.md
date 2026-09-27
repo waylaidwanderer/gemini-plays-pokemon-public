@@ -156,7 +156,7 @@
 - **Max HP**: 27 (IV Grade: C)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: Attack 15 (C+), Defense 16 (A-), Sp. Atk 12 (C-), Sp. Def 13 (E), Speed 11 (C-)
+- **Stats (IV Grades)**: Attack 17 (C+), Defense 17 (A-), Sp. Atk 13 (C-), Sp. Def 14 (E), Speed 12 (C-)
 - **Moves**:
   - Tackle (Normal, Physical, 35 PP)
   - Quick Attack (Normal, Physical, Priority +1, 30 PP)
