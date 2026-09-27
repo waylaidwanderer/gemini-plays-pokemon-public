@@ -215,5 +215,7 @@
 - Plan: Open Bag, throw Poké Ball, catch and nickname Zephyr.
 - Poké Ball 1 broke free; Sirius took poison damage (18/22 HP).
 - 4 Poké Balls left; opening Bag to throw Poké Ball 2.
+- Poké Ball 2 broke free; Sirius at 13/22 HP (PSN).
+- 3 Poké Balls left; opening Bag to throw Poké Ball 3.
 
 <hr>
