@@ -52,6 +52,9 @@
 - **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
 ## Sovio City Confrontation (Turn 1225)
 - **Dad vs. Mother**: In the Sovio City central plaza outside the Pokémon Center, Dad confronts Mother, who is accompanied by two Siara Mafia grunts.
+## Sovio Metro Departure to Amor City (Turns 1388-1394)
+- **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
+- **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
 
 <hr>
 

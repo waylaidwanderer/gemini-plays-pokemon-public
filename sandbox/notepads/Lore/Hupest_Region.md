@@ -5,7 +5,7 @@
 - **Mother**: Current sole leader of the Siara Mafia; obsessed with a dangerous science project to achieve world domination.
 - **Father (Jackson)**: Former co-leader of Siara Mafia (addressed as Jackson by Mrs. Ivo); opposed the science project due to its catastrophic danger; took Asher away and operates from the shadows to dismantle Siara.
 - **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
-- **The Eclipse Project**: Formerly known as 'The Science Project'. Research completed by Mother and the Siara Mafia. Modifies Pokémon into altered 'Eclipse Pokémon' featuring dark plumage/coloration, glowing purple auras, custom icons, and altered movesets (e.g. Eclipse Pidgey possessing Poison-type Acid). First witnessed during a test-run diversion in Sovio City outside the Pokémon Center (Turns 1225-1291).
+- **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
 
 - **Mrs. Ivo**: Leading Pokémon Professor of the Hupest Region. Scientist with brown hair and pink glasses, wearing a white lab coat over a pink dress. Known Asher since his childhood (affectionately calls him "Ashi") and hasn't seen him in years.
 - **Harry**: Father's friend and associate who operates the boat at Inizio Isle dock; addresses Asher as "young master". Providing passage to Lancio Town.
@@ -34,6 +34,8 @@
 ## World Map Geography (Verified Turn 637)
 - **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
 - **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
-## Sovio City Confrontation (Turns 1225-1291)
-- **Dad vs. Mother & Asher's Defiance**: Outside the Sovio City Pokémon Center, Dad confronted Mother over the return of the syndicate. Mother revealed The Eclipse Project is finished and initiated a diversion with altered Pidgey. A cyan-haired civilian intervened, and Asher stepped between them to protect the bystander, defying his mother.
-- **First Eclipse Battle**: Asher and Sirius (Lv10 Riolu) battled and defeated a Siara Grunt's Lv7 Eclipse Pidgey. Mother noted the test run collected sufficient data and ordered the syndicate grunts to withdraw.
+## Sovio City Confrontation (Turn 1225)
+- **Dad vs. Mother**: In the Sovio City central plaza outside the Pokémon Center, Dad confronts Mother, who is accompanied by two Siara Mafia grunts.
+## Sovio Metro Departure to Amor City (Turns 1388-1394)
+- **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
+- **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
