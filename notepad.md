@@ -42,6 +42,8 @@
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
   - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
 - **Torn Scarf**: An old, scorched scarf found with Riolu by Professor Ivo when she discovered him. Stored in Items pocket.
+## Asher & Riolu Flashback (5 Years Ago)
+- **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
 
 <hr>
 
