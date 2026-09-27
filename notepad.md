@@ -37,6 +37,9 @@
 - **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
 - **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
 
+## Key Items & Technology
+- **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
+
 <hr>
 
 <h1><code>Locations/Inizio_Isle</code></h1>
