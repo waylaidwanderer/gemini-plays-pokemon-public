@@ -49,3 +49,5 @@
 - Purrloin (female) (Lv5, Dark; verified Turn 2424 at (19, 5))
 - Purrloin (male) (Lv4, Dark; verified Turn 2431 at (23, 9))
 - Klink (Lv4, Steel; verified Turn 2393 at (14, 28))
+
+- Trubbish (female) (Lv4, Poison; verified Turn 2576 at (17, 25))
