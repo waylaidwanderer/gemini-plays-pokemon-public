@@ -323,3 +323,16 @@
 - **Central Park Pond**: Located southwest of plaza (rows 16-20). Contains decorative floral displays (white flowers in figure-8 on the left, blue flowers on the right) bordered by stone fencing.
 
 <hr>
+
+<h1><code>Quests/Machops_Toy</code></h1>
+
+# Quest: Machop's Toy
+
+## Details
+- **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
+- **Status**: Active (Accepted Turn 1377).
+- **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
+- **Background**: Machop lost its favorite toy and became very aggressive. The old man cannot explore the sewers because he is not a trainer.
+- **Target Location**: Sovio Sewers.
+
+<hr>
