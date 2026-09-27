@@ -60,7 +60,7 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-- **Asher's Solo Investigation (Turn 2709)**: After freeing Dad, Asher asked Valora to go ahead to the Metro Station without him. Having heard the grunts discuss a 'young master' who had found something, Asher resolved to stay behind in the sewers to investigate whether this operative is still present.
+- **The 'Young Master' Identity Clarification (Turn 2731)**: Marie's radio directive ordering grunts to withdraw because 'the young master already found it' referred directly to Asher himself (son of Marie and Jackson, heir to the Siara Mafia). There was no second operative lurking in the sewers; Asher resolved his inquiry and headed to the Metro Station to rejoin Dad and Valora.
 
 <hr>
 
@@ -320,7 +320,7 @@
 - **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turn 1330)
-- **Exterior Entrance**: Double glass door at (44-45, 12).
+- **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
 - **Interior Layout**:
   - Exit mat at (7, 8).
   - Main Nurse Joy counter straight north along column 7 at row 3/4.
@@ -334,7 +334,8 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00".
   - Waiting area chairs along west wall at (17-18, 22-25).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
-  - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
+  - **Turnstile Gate (Verified Turn 2755)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Attempting to pass without Dad triggers story barrier 'I should find dad first!'.
+- **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
 - **Interior**: Entrance mat lands at (64, 35).
@@ -363,8 +364,8 @@
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
-## Commercial Facilities & Poké�Mart Survey (Partial)
-- **Poké�Mart Survey (Partial)**: Sovio City Poké�mon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed. Unsurveyed sectors remain: modern tiered building perimeter at (18-26, 20-27), southwest wooden building at (17-20, 25-29), and north road terminus (north of row 7).
+## Commercial Facilities & PokéMart Survey (Partial)
+- **PokéMart Survey (Partial)**: Sovio City Pokémon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed. Unsurveyed sectors remain: modern tiered building perimeter at (18-26, 20-27), southwest wooden building at (17-20, 25-29), and north road terminus (north of row 7).
 
 
 <hr>
@@ -373,26 +374,12 @@
 
 # Scratchpad: Sovio City Hypotheses & Live Routing
 
-## Commercial District & Mart Search Checklist
-- [x] Pokémon Center Interior (Columns 1-15, Rows 1-8): Verified Turn 2491. Single room, no Mart counter or item vendor.
-- [x] Building Facade at (32-37, 8-12): Verified Turn 2482. Wooden shutters at (35-36, 12) are solid decorative collision.
-- [x] Residential Houses Checked:
-  - (48, 13) East Plaza: Nana & Little Girl (residential)
-  - (39, 7) North-Central: Elderly Man with Wii (residential)
-  - (28, 13) Northwest: Mother & Son (residential)
-  - (14, 15) Northwest: Machop Family (residential)
-  - (31, 26) South-Central: Elderly Woman (residential)
-- [ ] Unsurveyed Western Avenue Block (Columns 16-27, Rows 10-17): North of main street between Rocky (24, 17) and Machop house (14, 15). Prime candidate for standalone PokéMart building.
-- [ ] Southwest Perimeter (Columns 17-20, Rows 25-29): Wooden building near Bikers. Perimeter approaches from rows 25-26 and row 28 unverified.
-- [ ] North Street Terminus (Columns 38-41, North of Row 7): Check if road continues to commercial area.
+## Metro Station Investigation & Dad Search
+- Dad and Valora exited the sewers to the Metro Station.
+- Ticket gate at (19, 21) blocked: 'I should find dad first!'.
+- Plan: Search Metro Station lobby waiting benches (columns 17-18, rows 22-25) and east lobby (columns 20-24, rows 22-25) to find Dad.
+- Active Goal: Locate Dad in Metro Station lobby and proceed to train platform.
 
-## Active Sewer Scouting: Storage Room Search
-- Fifth Grunt (Litwick Lv8) defeated Turn 2636.
-- Grunt at (23, 13) remains solid post-battle; bypassed via puddle at (22, 13-14) to reach (24, 14) and (24, 13).
-- Single-tile horizontal gangway along row 13 connects column 24 to column 28.
-- Column 28 junction leads North and South.
-- Active Goal: Conclude dialogue with Dad, exit Sovio Sewers, and return to Metro Station platform.
-- Bag Items: Potion x 1 (restores 20 HP), Poké Balls: 0.
 
 <hr>
 
@@ -402,12 +389,20 @@
 
 ## Details
 - **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
-- **Status**: Active (Accepted Turn 2092; cancelled Lost Pidgey to activate).
+- **Status**: Active / Deferred (Southern Canal search deferred while advancing primary milestone to Amor City).
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
-- **Background**: Machop lost its favorite toy and became very aggressive. The old man cannot explore the sewers because he is not a trainer.
-- **Target Location**: Sovio Sewers.
-## Clues
-- Old Man confirmed the toy is 'somewhere deep in the Sovio Sewers'.
+- **Target Location**: 'Somewhere deep in the Sovio Sewers'.
+
+## Sewer Sector Search Log
+- [x] Upper Entrance Landing (1F, rows 21-23): Searched. No toy.
+- [x] Lower Central Corridor (columns 26-27, rows 18-27): Searched. No toy.
+- [x] Western Lower Wing (rows 27-28, columns 14-23): Searched. No toy.
+- [x] Western Upper Terrace (row 12, column 13): Searched. No toy.
+- [x] Northern Elevated Gangway (row 5, columns 15-27): Searched (TM48 found). No toy.
+- [x] Eastern Row 13 Gangway & Storage Room (columns 23-38, rows 13-14): Searched (Dad rescued). No toy.
+- [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
+- [ ] Southern Canal (columns 12-13, rows 32-34): UNVISITED! Lowest vertical elevation along water canal. Prime candidate for 'deep in the sewers'.
+
 
 <hr>
 
@@ -442,7 +437,7 @@
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo (male) Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: 728 Yen.
 - **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada (female) Lv7 (Bug/Ground, known move: Harden), Shinx (male) Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: 832 Yen.
 - **Fourth Siara Grunt**: Located at (22, 4) facing south, guarding the intersection of row 5 and the southern corridor at column 22 (engaged Turn 2209). Pre-battle dialogue: "Sorry kiddo, but this is private area!". Roster: Mankey (male) Lv8 (Fighting, known move: Leer), Skitty (female) Lv8 (Normal). Team size: 2 Pokemon. Defeated Turn 2235. Defeat quote: "Gyaaaaah!". Payout: 832 Yen.
-- **Fifth Siara Grunt**: Female grunt located at (23, 13) facing North at the southern terminus of the column 23 gangway. Defeated Turn 2636 with Sirius's Metal Claw! Defeat quote: '...'. EXP: 93. Payout: 832 Yen. Roster: Litwick (male) Lv8. Grunt remains solid at (23, 13) post-battle. Floor at (22, 12) is walkable; shallow puddle lies at (22, 13-15) west of grunt; horizontal gangway extends east at row 13 under northern brick wall.
+- **Fifth Siara Grunt**: Female grunt located at (23, 13) at the southern terminus of column 23 gangway. Roster: Litwick (male) Lv8. Vacated sewer post-rescue.
 - **Sixth Siara Grunt (Storage Room Guard)**: Located at (31, 13) guarding the gangway leading directly to Jackson's storage room (red mat at 34-35, 14). Engaged Turn 2682. Radio call from Marie ('milady') ordered full Team Siara withdrawal after learning Asher arrived. Grunt confirmed Jackson is 'in the back' and retreated, vacating all sewer posts.
 
 ## Topography & Connectivity
@@ -470,6 +465,9 @@
 
 - Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718 at (37, 13))
-- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))
+- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))- Koffing (Lv7, Poison; verified Turn 2734 at (20, 5))
+- Purrloin (female) (Lv6, Dark; verified Turn 2741 at (16, 18))
+- Koffing (female) (Lv6, Poison; verified Turn 2751 at (34, 27))
+
 
 <hr>
