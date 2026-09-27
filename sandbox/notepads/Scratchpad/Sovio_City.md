@@ -14,3 +14,5 @@
 - Dad asks: "You finished... what?"
 - Mother names the project: "The Eclipse Project"
 - Asher enters the confrontation; Dad warns: "Asher?! Things aren't too good son."
+- Mother recognizes Asher: "A-ashy?"
+- Asher responds: "Mom?"
