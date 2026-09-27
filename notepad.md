@@ -178,7 +178,7 @@
 
 ## Wild Encounters & Trainers
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **Trainer 1 (Youngster)**: Boy in blue backwards cap and yellow shirt at (10, 48) facing west.
+- **Trainer 1 (Youngster)**: Boy in blue backwards cap and yellow shirt at (11, 48) facing south.
 - **Trainer 2 (Camper)**: Trainer with straw hat visible to the northeast around (14, 42).
 
 <hr>
