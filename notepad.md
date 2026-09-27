@@ -48,12 +48,7 @@
 
 ## 2F Bedroom
 - **Layout**: Bed at (6, 3)-(6, 5); stairs down at (10, 4); desk/terminal at (0, 4).
-- **Verified Collisions**:
-  - Bed footboard at (6, 5) is impassable when facing Down from (6, 4) (verified Turn 49).
-  - Walkable exit from bed is Right through (7, 4) to (8, 4).
-  - Nightstand at (5, 4) is solid.
-  - Mat in front of stairs at (9, 4) is walkable.
-  - Staircase warp at (10, 4) leads to 1F.
+- **Exits**: Staircase warp at (10, 4) leads down to 1F.
 
 ## 1F Living Room
 - **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door exit is at (10, 10) with doormat at (10, 9).
