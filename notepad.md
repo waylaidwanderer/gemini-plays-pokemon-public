@@ -397,7 +397,7 @@
 3. Residential Re-Audit: Re-audit houses at (48, 13), (39, 7), and (28, 13) post-rescue if boundary confirms city confinement.
 
 - Northwest House (28, 14): Teal door tested on Turns 3011 and 3014 with Up and 'A'; confirmed solid collision and non-reactive (decorative facade).
-- North-Central House (39, 7): Entered on Turn 3021. 1F resident elderly man confirmed unchanged ambient dialogue about buying a Wii for his son. Ascending to 2F to audit resident boy.
+- North-Central House (39, 7): Entered on Turn 3021. 1F resident elderly man confirmed unchanged ambient dialogue about buying a Wii for his son. 2F resident boy confirmed ambient dialogue about playing games on the Wii. House 100% verified ambient.
 
 <hr>
 
