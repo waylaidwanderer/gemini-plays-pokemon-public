@@ -35,4 +35,5 @@
 - Tile (28, 15) north of (28, 16) is an impassable cliff ledge (verified Turn 137).
 - Tile (27, 15) north of (27, 16) is an impassable cliff ledge (verified Turn 152).
 - Tile (28, 17) south of (28, 16) is an impassable cliff corner (verified Turn 154).
-- Tile (26, 16) is a WALKABLE corridor through the pine trees to the west (verified Turn 156)!
+- Tile (26, 16) and (26, 17) form a 1-tile wide WALKABLE corridor between pine tree (col 25) and cypress tree (col 27) (verified Turns 156, 160)!
+- Corridor connects north lawn directly to row 18 at (26, 18) (white flowers).
