@@ -63,4 +63,7 @@
   - Walkable bypass: Row 5 path (4, 5) -> (5, 5) -> (6, 5) -> (7, 5).
   - TV stand at (7, 4)-(9, 4) is solid.
 
+## Inizio Isle Exterior
+- **Dock**: Departure dock where Dad and his friend with a boat wait to travel to Lancio Town.
+
 <hr>
