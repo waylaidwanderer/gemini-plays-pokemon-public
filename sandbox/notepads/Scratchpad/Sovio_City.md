@@ -29,3 +29,4 @@
 - Asher observes: "Those Pidgey... Why are they... different?" (Eclipse variant Pokémon!)
 - Dad recognizes the threat: "Dad: ... Oh no..."
 - A cyan-haired character steps into the center of the confrontation facing Mother.
+- Cyan-haired character pleads: "D-don't fight please! We should try to solve this without including violence."
