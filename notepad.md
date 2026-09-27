@@ -339,5 +339,6 @@
 - Mother warns Asher: "Son... move out of the way please, or mom will get angry."
 - Asher defies Mother: "Like I would care!"
 - Mother responds: "Oh... Now you did hurt mom's feelings..."
+- Mother orders grunts: "Well, ladies, target changed, but don't go too hard on him. Just teach him a lesson!"
 
 <hr>
