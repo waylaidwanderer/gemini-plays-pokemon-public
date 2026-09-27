@@ -8,7 +8,6 @@
   - Nightstand at (5, 4) is solid.
   - Mat in front of stairs at (9, 4) is walkable.
   - Staircase warp at (10, 4) leads to 1F.
-  - Gift box present at (6, 7) on departure morning.
 
 ## 1F Living Room
 - **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door exit is at (10, 10) with doormat at (10, 9).
@@ -20,4 +19,12 @@
   - TV stand at (7, 4)-(9, 4) is solid.
 
 ## Inizio Isle Exterior
-- **Dock**: Departure dock where Dad and his friend with a boat wait to travel to Lancio Town.
+- **House Front**: Door exit lands at (17, 17).
+- **South Cove Peninsula**:
+  - Central stairs at (17, 23)-(17, 25) lead down to small sandy beach at (17, 28). Surrounded by water/rocks; dead-end cove (verified Turn 111).
+- **Southeast Ridge**:
+  - Accessible via wooden steps at (24, 18)-(26, 19).
+  - Dirt platform at (26, 20)-(26, 25).
+  - Cliff overlook at (26, 25) with waterfall to west. Impassable east cliff at (28, 21). Dead-end north cliff at (27, 20) (verified Turns 115-117).
+- **Western Trail**:
+  - Path west of house leads through (12, 17) to a dirt road at columns 9-10.
