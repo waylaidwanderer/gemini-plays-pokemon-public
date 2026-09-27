@@ -1,9 +1,10 @@
 <h1><code>Main</code></h1>
 
 # Game Info
+- Title: Pokémon Sors
 - Developer: Vytron (2015-2021)
 - Version: 1.3
-- Likely ROM Hack: Pokémon Saiph / Sors series
+- Region: Hupest Region
 
 # Guidelines & Active Reminders
 - Nicknaming: Always nickname every Pokémon creatively!
