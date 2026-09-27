@@ -84,5 +84,7 @@
 - Tile (28, 17) south of (28, 16) is an impassable cliff corner (verified Turn 154).
 - Tile (26, 16) and (26, 17) form a 1-tile wide WALKABLE corridor between pine tree (col 25) and cypress tree (col 27) (verified Turns 156, 160)!
 - Corridor connects north lawn directly to row 18 at (26, 18) (white flowers).
+- Wooden bridge at (27, 23) is WALKABLE and connects Southeast Ridge dirt platform directly to Eastern Coastal Lawn and Dock (verified Turn 230)!
+- Eastern Coastal Lawn leads directly east to the wooden dock at rows 24-26, columns 32-34.
 
 <hr>
