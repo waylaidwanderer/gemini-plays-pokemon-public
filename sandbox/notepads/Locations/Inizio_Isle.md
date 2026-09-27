@@ -27,4 +27,5 @@
   - Dirt platform at (26, 20)-(26, 25).
   - Cliff overlook at (26, 25) with waterfall to west. Impassable east cliff at (28, 21). Dead-end north cliff at (27, 20) (verified Turns 115-117).
 - **Western Trail**:
-  - Path west of house leads through (12, 17) to a dirt road at columns 9-10.
+  - Path west of house: (12, 17) -> (11, 17). Tile (10, 17) is impassable cliff corner (verified Turn 121).
+  - Walkable bypass: Row 16 via (11, 16) -> (10, 16) -> (9, 16) onto the western coastal dirt highway at columns 6-8.
