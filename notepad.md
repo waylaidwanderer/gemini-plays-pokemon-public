@@ -457,6 +457,7 @@
 - **Lower Western Corridor (Verified Turn 2390)**: From (8, 28), row 27 is an open walkway running east to column 16. A 2-tile wide corridor at columns 16-17 leads north directly to Grunt 2's platform at (18, 21-22).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turn 2402)**: The stone staircase at columns 12-13 (rows 28-31) descends to rows 32-34 along the northern edge of a deep water canal at row 36. Asher inspected (13, 33); horizontal corridors along rows 32-34 remain unexplored.
+- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665)**: From Fifth Grunt at (23, 13), (22, 12) is walkable and connects south into shallow puddles at (22, 13-14). Stepping east through (23, 14) and (24, 14) leads up to (24, 13). A single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29, the gangway opens into a wide vertical corridor extending both North and South.
 
 ## Wild Encounters
 - Koffing (Lv6, Poison; verified Turn 1720)
