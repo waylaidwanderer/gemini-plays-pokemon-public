@@ -24,3 +24,4 @@
 - Dad: "You are dangerous... I can't let you close to him!"
 - Mother: "So just because I had balls to finish what you were too scared to, I'm already dangerous?"
 - Dad: "..."
+- Mother: "Oh well, if we are this hostile, why don't we get to the main diversion?"
