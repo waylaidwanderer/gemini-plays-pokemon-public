@@ -14,7 +14,7 @@
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench, and Mareep pen.
 
 ## Visible Field Items
-- **Pokéball Item 1**: Located on the grass near the pond in the northeast plaza (approx. 37, 5).
+- **Pokéball Item 1**: Golden ball at (38, 4) north of pond; west bank blocked by pines at (31, 7); east gap blocked by house roof at (39, 7). Likely requires Surf or Route 1 loop.
 - **Pokéball Item 2**: Visible in the far northeast corner above the pond.
 
 ## Professor Ivo's Pokémon Laboratory (Interior)
