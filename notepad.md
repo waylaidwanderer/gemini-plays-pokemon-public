@@ -103,14 +103,46 @@
 ## Points of Interest & Buildings
 - **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16) (observed Turns 270, 286).
 - **Residential House (Northwest)**: Located at (25, 10). Interior verified on Turn 301 (dining table, TV, resident boy). Not the Pokémon Lab.
-- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, red foundation trim, and glass entrance doors with red handle at roughly (18, 11).
+- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar (verified Turns 308-309).
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench, and Mareep pen.
 
 ## Visible Field Items
 - **Pokéball Item 1**: Located on the grass near the pond in the northeast plaza (approx. 37, 5).
 - **Pokéball Item 2**: Visible in the far northeast corner above the pond.
+
 ## Professor Ivo's Pokémon Laboratory (Interior)
-- **Entrance**: Door lands at (12, 12) on red mat facing north.
-- **Layout**: Green runner rug extends north along column 12 from row 12 to row 9. Framed map on east wall, research terminal and red rug on west.
+- **Entrance Foyer**:
+  - Door lands at (12, 12) on red mat facing north.
+  - Green runner rug extends along column 12 from row 12 to row 9.
+  - Framed regional map on east wall at (14-15, 8-9).
+  - Red rug, table, and PC terminal in western wing.
+  - Stairs leading to 2F at north wall (11-12, 7) (untested).
+- **East Research Wing**:
+  - Connected to foyer via hallway at row 10 (columns 13-16).
+  - Sunlit diagonal wood flooring throughout research room.
+  - Cylindrical research incubator apparatus with glowing green fluid at (18-19, 5-6).
+  - Wooden research table at (21-23, 4).
+  - Special starter Pokéball (orange/gold top, white base) on table at (22, 4).
+  - Bookshelf at (24, 4).
+  - Blue computer workstation / server console at (23-24, 8-9).
+
+<hr>
+
+<h1><code>Scratchpad/Starter_Evaluation</code></h1>
+
+# Scratchpad: Starter Pokémon & Exploration Variables
+
+## Starter Pokémon Candidate
+- **Location**: Research table at (22, 4) in Professor Ivo's Lab.
+- **Pokéball Type**: Custom orange/gold upper dome, white base.
+- **Current Status**: Awaiting interaction at (22, 5).
+- **Species**: To be revealed upon interaction.
+- **Gender / Nature / Ability**: To be evaluated once received.
+- **Creative Nickname Ideas**: Pending species reveal (active directive: ALWAYS nickname every Pokémon creatively).
+
+## Untested Interactive Objects in Lab
+- **Stairs to 2F**: Located at (11-12, 7) in the entrance foyer.
+- **Cylindrical Incubator**: Large green apparatus at (18-19, 5-6).
+- **Computer Workstation**: Blue terminal console at (23-24, 8-9).
 
 <hr>
