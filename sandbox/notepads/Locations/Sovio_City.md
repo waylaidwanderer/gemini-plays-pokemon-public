@@ -33,7 +33,6 @@
   - Waiting area chairs along west wall at (17-18, 22-25).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
   - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
-- **Story Progression**: Dad ran down into the Sovio Sewers to investigate the earthquake/tremor disturbance; Valora accompanied Asher into the sewers.
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
 - **Interior**: Entrance mat lands at (64, 35).
