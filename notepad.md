@@ -342,5 +342,6 @@
 - Mother orders grunts: "Well, ladies, target changed, but don't go too hard on him. Just teach him a lesson!"
 - Battle triggered against Team Siara outside the Pokémon Center!
 - Enemy: Team Siara Grunt uses Lv7 Eclipse Pidgey (purple aura, Eclipse icon).
+- Eclipse Pidgey knows Sand Attack; Metal Claw deals neutral damage.
 
 <hr>
