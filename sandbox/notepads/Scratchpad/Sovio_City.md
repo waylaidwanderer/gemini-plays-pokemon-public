@@ -16,7 +16,7 @@
 
 - South-Central House (31, 26): Entered Turn 3086. Resident is the official Name Rater ('Want me to rate the nicknames of your Pokémon?').
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
-  - UNTESTED POST-RESCUE: Residential House at (13, 15) (Machop Family) at north end of Western Avenue! Must be audited before declaring city exhausted.
 - Next Strategic Direction: Break the surface macro-loop by exploring unvisited areas:
-  1. Machop Family house at (13, 15): Audit post-rescue.
   2. Route 1 / Lancio Town: External open pathway to check for Dad and story progression.
+- Turn 3230 Audit: Machop Family house at (13, 15) empirically tested and confirmed closed/inactive.
+- City Status: 100% of Sovio City surface and sewers audited. Exited south to Route 1 on Turn 3240.
