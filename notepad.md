@@ -11,3 +11,11 @@
 - Text Speed: Set to Fast at earliest opportunity.
 
 <hr>
+
+<h1><code>Scratchpad/Prologue</code></h1>
+
+# Prologue Monologue
+- "I... am not an ordinary kid."
+- "And I wasn't born into an ordinary..."
+
+<hr>
