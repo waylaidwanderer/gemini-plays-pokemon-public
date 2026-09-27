@@ -21,7 +21,7 @@
 - **Patrolling Grunts**: Three grunts scattered to patrol; all four grunts now located!
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: ¥728. Above Grunt 2 is a puddle at (17-18, 20-21) and stone walkway continuing north.
-- **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada ♀ Lv7 (Bug/Ground, known move: Harden), Shinx ♂ Lv8 (Electric).
+- **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada ♀ Lv7 (Bug/Ground, known move: Harden), Shinx ♂ Lv8 (Electric, known move: Leer).
 - **Patrolling Grunt 4**: Sighted on the eastern high ledge across the chasm at the top-right in a puddle (Turn 2170).
 
 ## Topography & Connectivity
