@@ -1,0 +1,7 @@
+# Scratchpad: Route 1 Exploration & Hypotheses
+
+## Route 1 Routing & Observations
+- **Route 1 East Path**: Traversed from Lancio Town past column 23, northeast through clearing at (32-36, 37-39).
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; resident gifted a Max Repel.
+- **Eastern Corridor**: Open passage discovered along row 38 (columns 40-43+) between pine tree clusters along the pond's north shore leading east toward Amor City.
+- **Inventory Status**: 2 Poké Balls, 3 Potions, 1 Max Repel remaining. Sirius at 21/22 HP (PSN).
