@@ -14,8 +14,6 @@
 
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
 
-- **Start Menu Cursor Memory (Unverified):** Empirical behavior of Start menu cursor initialization and persistence across overworld sessions, PC operations, and menus remains unverified and subject to ongoing testing.
-
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
 ## Stat & Damage Mechanics
