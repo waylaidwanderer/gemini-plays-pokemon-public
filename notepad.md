@@ -456,6 +456,10 @@
 - **Scope & Untested Mechanics:** Generalization of this speed-threshold check to other OHKO moves (Guillotine, Fissure) or across equal/lower speed differentials remains theoretical and empirically untested in this run.
 
 
+## Wild Enemy Teleport Mechanics (Empirically Observed Turn 47509)
+- **Observed Behavior (N=1 Encounter vs Abra Lv 10):** When wild Abra Lv 10 executed the move TELEPORT against player lead Mewtwo (OMEGA Lv 76, healthy, unparalyzed, Speed > 200), the battle text printed 'Enemy ABRA used TELEPORT!' followed by failure ('But, it failed!'), leaving wild Abra in battle and allowing a consecutive capture attempt on the subsequent turn.
+- **Hypothesis & Scope:** In Generation 1 retail, wild fleeing moves (e.g. Teleport, Roar, Whirlwind) may incorporate an escape threshold check against the player's active level/speed, or specific failure conditions when opposing vastly higher-level targets. Engine-level mathematical criteria remain an active hypothesis pending additional empirical trials.
+
 
 <hr>
 
@@ -5349,14 +5353,14 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 - Floor-by-Floor Encounter & Hazard Survey:
   - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
   - 2F: Former Rival RED battle area (safe zone, 0 wild encounters).
-  - 3F: First wild encounter floor (Silph Scope reveals Gastly Lv 20-24, Cubone Lv 20-22 ~9%).
+  - 3F: First wild encounter floor (Silph Scope reveals Gastly Lv 20-24, Cubone Lv 20-22 [Unverified rate hypothesis ~9-10%; pending empirical sample logs]).
   - 4F: Wild encounter floor (Gastly Lv 20-24, Cubone Lv 20-22, Zubat).
   - 5F: Purified protected zone at (10..11, 9..10) heals party on step; wild encounters: Gastly, Haunter Lv 20-25, Cubone Lv 20-22.
   - 6F: High-rate Haunter/Cubone floor (Gastly, Haunter Lv 20-25, Cubone Lv 22-24). Ghost Marowak already defeated [Turn 6429].
   - 7F: Top shrine floor; Mr. Fuji rescued [Turn 6549]; safe zone.
 - Target Species & Capture Strategy:
   1. Gastly (#092) [Ghost/Poison, BCR 190]: High capture probability at full HP with basic Poké Ball. Target floors: 3F-5F.
-  2. Cubone (#104) [Ground, BCR 190, ~9% spawn rate]: Throw basic Poké Ball on Turn 1 at full HP. Target floors: 3F-5F.
+  2. Cubone (#104) [Ground, BCR 190, hypothesized low encounter rate]: Throw basic Poké Ball on Turn 1 at full HP. Target floors: 3F-5F.
   3. Haunter (#093) [Ghost/Poison, BCR 90]: Appears on 5F-6F. Budget 2-4 Poké Balls or weaken if necessary. (Fallback: Gastly evolves into Haunter at Lv 25).
 - Catch Slots: Party has 2 open slots (Slots 5 and 6). Gastly and Haunter will enter active party. Cubone will be sent to PC Box 1 (11 free slots).
 - Next Targets if Needed for 80 Milestone (Current 76 -> Target 80):
