@@ -1229,6 +1229,14 @@
 - Surfing Launch: Facing South from grass at (8, 15) into water tile (8, 16) launches Surfing directly into the north-south canal.
 - Canal Route: Columns 6..8 form an open north-south waterway flowing south from Route 24 (rows 16..36) directly into Cerulean City canal (rows 0..16), providing direct water transit to the Cerulean Cave entrance landing at (5, 12).
 
+## Negative Spatial Verification: Decorative Flower Beds (Cols 4..7, Rows 12..15) [Turns 47465-47477]
+- Visual Terrain: Pink/red flower graphics over green lawn at cols 4..7, rows 12..15 (west of Nugget Bridge, north of water shore at row 16).
+- Empirical Test: Paced 26 continuous steps across (4..7, 13..15) [Turns 47465-47476].
+- Results:
+  - Zero wild encounters triggered across 26 steps.
+  - Player sprite feet and legs remained 100% visible on all steps; no tall-grass sprite-masking overlay rendered.
+  - Confirmed decorative non-encounter terrain. Route 24 wild encounters do not spawn in this southern garden patch.
+
 
 <hr>
 
@@ -5341,6 +5349,16 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Magnemite (#081) / Voltorb (#100) at Power Plant
   - Clefairy (#035) / Zubat (#041) at Mt. Moon
   - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22
+
+## Active Tactical Hunt: Route 25 Wild Abra (#063) [Initiated Turn 47480]
+- Location: Route 25 Tall Grass at Cols 2..7, Rows 4..5.
+- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 35 Poké Balls in bag.
+- Target Species: Abra (#063) [Psychic, Lv 8-12, BCR 200].
+  - Behavior: Teleport is Abra's sole move; flees on turn 1 if not captured immediately.
+  - Catch Strategy: Mewtwo (OMEGA Lv 76) outspeeds wild Abra (100% speed priority). Throw basic Poké Ball on Turn 1 at full HP (favorable BCR 200 threshold). If breakout occurs, Abra teleports away; re-engage next encounter.
+- Secondary Encounters:
+  - Pidgey, Bellsprout, Kakuna, Metapod (Already registered in Pokédex - flee immediately via Omega's 100% flee rate).
+- Progression Milestone: Registering Abra brings Pokédex from 75 to 76 caught species before proceeding to Pokémon Tower (Expedition 4).
 
 
 <hr>
