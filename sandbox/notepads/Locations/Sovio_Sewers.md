@@ -41,7 +41,7 @@
 - Koffing (Lv4, Poison; verified Turn 2405 at (13, 30))
 - Stunky (female) (Lv4, Poison/Dark; verified Turn 1991)
 - Grimer (female) (Lv7, Poison; verified Turn 2121)
-- Grimer (female) (Lv5, Poison; verified Turn 2246 at (22, 5))
+- Grimer (female) (Lv5-7, Poison; verified Turn 2121, Turn 2246 at (22, 5), Turn 2666 at (28, 13))
 - Grimer (male) (Lv6, Poison; verified Turn 2416 at (14, 17))
 - Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
 - Poochyena (female) (Lv5-7, Dark; verified Turn 2346 at (33, 28), Turn 2364 at (8, 25), Turn 2589 at (15, 17))
