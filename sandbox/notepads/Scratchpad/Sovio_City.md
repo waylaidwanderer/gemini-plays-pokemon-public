@@ -6,7 +6,7 @@
 
 ## Active Routing & Local Discoveries (Turn 1355)
 - **Pokémon Center**: Located at (44-45, 12). Ground floor inspected; party fully healed (Sirius Lv10 31/31 HP, Zephyr Lv2 13/13 HP).
-- **Metro Station Entrance**: Blue subway archway with white 'M' logo at (48, 16) directly southeast of Pokémon Center. Stairs lead underground. Dad requested to meet down here.
+- **Metro Station Entrance**: Blue subway portal with white 'M' logo at (48, 17); entered from row 18. Dad met inside at (22, 24); train connects directly to Amor City.
 - **Quest NPC (Old Man & Phanpy)**: Old man at (51, 15) with companion Phanpy at (51, 16). Quest: His Machop lost its favorite toy and became really aggressive.
 - **Metro Signpost**: Wooden signpost at (49-50, 17) in front of Phanpy.
 - **Commercial Building**: Multi-story building at (46-48, 10-12) with green door at (48, 13) and large rooftop billboard screen.

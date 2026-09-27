@@ -51,8 +51,12 @@
 ## World Map Geography (Verified Turn 637)
 - **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
 - **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
-## Sovio City Confrontation (Turn 1225)
-- **Dad vs. Mother**: In the Sovio City central plaza outside the Pokémon Center, Dad confronts Mother, who is accompanied by two Siara Mafia grunts.
+## Sovio City Confrontation (Turns 1225-1318)
+- **Confrontation**: In Sovio City central plaza outside the Pokémon Center, Dad confronted Mother, leader of the Siara Mafia, who was flanked by two grunts.
+- **The Eclipse Project Unveiled**: Mother announced the completion of 'The Eclipse Project' as a test run diversion and summoned altered Eclipse Pidgey bearing a distinct dark aura and the Eclipse insignia.
+- **Asher's Intervention**: When an altered Pidgey threatened a cyan-haired civilian (Valora), Asher stepped between them to defend her.
+- **Battle with Team Siara**: Asher battled a Team Siara Grunt using a Lv7 Eclipse Pidgey; Sirius defeated it using Metal Claw and Mach Punch.
+- **Aftermath**: The Siara Mafia withdrew; Dad praised Asher's courage, cautioned him about the Eclipse threat, and instructed him to meet at the Sovio Metro Station.
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
@@ -325,7 +329,7 @@
 
 ## Active Routing & Local Discoveries (Turn 1355)
 - **Pokémon Center**: Located at (44-45, 12). Ground floor inspected; party fully healed (Sirius Lv10 31/31 HP, Zephyr Lv2 13/13 HP).
-- **Metro Station Entrance**: Blue subway archway with white 'M' logo at (48, 16) directly southeast of Pokémon Center. Stairs lead underground. Dad requested to meet down here.
+- **Metro Station Entrance**: Blue subway portal with white 'M' logo at (48, 17); entered from row 18. Dad met inside at (22, 24); train connects directly to Amor City.
 - **Quest NPC (Old Man & Phanpy)**: Old man at (51, 15) with companion Phanpy at (51, 16). Quest: His Machop lost its favorite toy and became really aggressive.
 - **Metro Signpost**: Wooden signpost at (49-50, 17) in front of Phanpy.
 - **Commercial Building**: Multi-story building at (46-48, 10-12) with green door at (48, 13) and large rooftop billboard screen.
