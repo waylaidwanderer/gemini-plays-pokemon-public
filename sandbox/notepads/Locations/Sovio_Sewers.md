@@ -13,3 +13,4 @@
 - **Patrolling Grunts**: Three grunts have scattered into the sewer corridors to patrol.
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Note: Grunt 1 remains a solid obstacle at (23, 27). The route forward branches north at column 26 through rows 26-20.
 - **Item Found**: Repel collected at (22, 20) on walkway north of the pool (Turn 1964).
+- **Puddle Alcove (Verified Turn 1966)**: At (28, 19) north of column 26 corridor is an impassable dead-end puddle terminated by solid brick wall at row 18 and black void to the east.
