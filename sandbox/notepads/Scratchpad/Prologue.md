@@ -21,3 +21,6 @@
 - "However my father thought it was too dangerous."
 - "He wanted to ditch the research, whatever it was it must have been terrifying..."
 - "But my mother had different plans, and kept on with it..."
+- "This got so interfering to them, that they ended up divorcing, and"
+- "I grew up with my father."
+- "He thinks mother is a lunatic and I should..."
