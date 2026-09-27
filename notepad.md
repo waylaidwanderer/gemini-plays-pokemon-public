@@ -395,8 +395,7 @@
 
 ## One-Hit Knockout (OHKO) Move Mechanics (Gen 1 Engine)
 - **Empirical Status & Proof of Work (Horn Drill):** Empirically verified Turn 46896 (vs Mewtwo OMEGA Lv 76) and Turn 46910 (vs Dodrio HYDRA Lv 49): Wild Rhydon Lv 52 used Horn Drill against faster targets (N=2), displaying 'OMEGA's unaffected!' and 'HYDRA's unaffected!', confirming Horn Drill fails against targets with higher Speed.
-  - Venomoth Lv 51 (BCR 75): Missed on Balls 1-2; captured on Ball 3 at full HP with basic Poké Ball [Turn 47021].
-  - Marowak Lv 52 (BCR 75): Missed on Balls 1-6, broke free on Balls 7-8; captured on Ball 9 at ~90% HP with basic Poké Ball [Turn 47053].
+
 - **Scope & Untested Mechanics:** Generalization of this speed-threshold check to other OHKO moves (Guillotine, Fissure) or across equal/lower speed differentials remains theoretical and empirically untested in this run.
 
 
@@ -4605,7 +4604,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Directly accessible from (8, 1) stepping East. Visually confirmed with blue ladder rungs [Turn 26646]. Connects to 1F.
 - Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed.
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Exits West to (28, 1), South down Column 28 through (28, 2..3), East to (29, 3), and South down Column 29 through (29, 4..6). At (29, 6), turns West to (27, 6..7) and (25, 7), connecting south into Sector B (closed loop with Ladder 22, 6). Does NOT connect to Sector A.
-- Tile (22, 6) Alcove (Disproved as Ladder): Empirically tested Turns 47176-47180. (22, 6) is an open cavern floor alcove bounded north by solid rock wall at (22, 5). Stepping onto (22, 6) and pressing Up does NOT trigger any warp or ladder transition. Real descending ladder in this eastern sector is Ladder (29, 1) in northeast corner.
+- Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Connects ONLY to an isolated 7-tile secluded pocket spanning (18..20, 5..7). Bounded on ALL sides by solid rock walls: North at (18, 5), (19..20, 4); East at (21, 5..6), (20, 7); South at (18..19, 8); West at (17, 5..7). Has ZERO connection to Row 2, Row 3, Column 24, or the rest of 2F. [Empirically verified Turns 27015-27023]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
