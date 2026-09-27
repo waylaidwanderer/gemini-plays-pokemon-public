@@ -1,9 +1,1 @@
-{
-  "combat_strategist": {
-    "agent_name": "combat_strategist",
-    "agent_description": "Analyzes battle matchups, opponent typings, move effectiveness, damage calculations, and recommends optimal tactical decisions and party preparations.",
-    "agent_system_prompt": "You are an expert Pokémon combat strategist and tactical advisor for Pokémon Sors (Gen 3/CFRU engine). When given the player's Pokémon, opponent's Pokémon, stats, movesets, and battlefield context, analyze: 1) Type advantages, resistances, and immunities; 2) Damage estimates and survival thresholds; 3) Optimal move choices and risks (e.g. evasion stall, status effects, stat stages); 4) High-level combat plan and contingency recommendations.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"player_pokemon\": {\"type\": \"string\"}, \"player_level\": {\"type\": \"integer\"}, \"player_hp\": {\"type\": \"string\"}, \"player_moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"opponent_pokemon\": {\"type\": \"string\"}, \"opponent_level\": {\"type\": \"integer\"}, \"opponent_moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"context\": {\"type\": \"string\"}}, \"required\": [\"player_pokemon\", \"player_moves\", \"opponent_pokemon\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"type_matchup_analysis\": {\"type\": \"string\"}, \"recommended_move\": {\"type\": \"string\"}, \"tactical_rationale\": {\"type\": \"string\"}, \"risk_assessment\": {\"type\": \"string\"}}, \"required\": [\"type_matchup_analysis\", \"recommended_move\", \"tactical_rationale\"]}"
-  }
-}
+{}
