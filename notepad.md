@@ -197,7 +197,7 @@
   - Weedle (Lv2, Bug/Poison; verified Turn 833).
   - Bidoof (Lv2, Normal; verified Turn 877).
   - Caterpie (Lv2, Bug; verified Turn 890).
-- **NPC 4 (Youngster Mike)**: Located at (30, 20) in Route 1 northwest clearing, facing south. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon).
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6 (1 Pokémon, knows Protect, Tackle, Bug Bite).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
