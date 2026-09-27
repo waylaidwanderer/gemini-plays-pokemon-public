@@ -8,7 +8,7 @@
 - **Metro Platform Story Lock (Turn 1435)**: Walking past ticket gate at (19, 21) triggers "I should find dad first!". Dad went outside to investigate the tremor; must find Dad in Sovio City before boarding the train to Amor City.
 
 ## Systematic City Search for Dad (Post-Tremor)
-- **Central Plaza Sector**: SURVEYED. Dad not in North Central House or Pokémon Center (verified Turn 1527). Re-checking Metro Station interior.
-- **West / Northwest Sectors**: SURVEYED. Dad not found (Machop family house, teal door house, bikers all clear).
-- **Southwest / South Central Sectors**: SURVEYED. Building at (17, 27) has no accessible entrance; manhole at (13, 27) is decorative; Route 1 northeast meadow is empty (Turn 1544); South Central house (31, 26) is residential.
+- **Metro Station (Turn 1578)**: Re-tested ticket gate at (19, 21); still locked by 'I should find dad first!'.
+- **All Exterior Sectors Surveyed**: North Central, Northwest, Southwest, South Central, and Route 1 meadow all confirmed empty of Dad.
+- **Immediate Target**: Eastern plaza pocket east of Nana's house and north/east of Old Man & Phanpy (columns 51-56, rows 13-17), and Nana's house interior.
 - **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can't go yet... I have things to do!' (Turn 1506).
