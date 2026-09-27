@@ -323,5 +323,6 @@
 - Mother exclaims: "Ahh I wanna ask so many things!"
 - Dad demands: "Leave him alone!"
 - Mother retorts: "Haaaa? I can't even hug my own..."
+- Dad: "You are dangerous... I can't let you close to him!"
 
 <hr>
