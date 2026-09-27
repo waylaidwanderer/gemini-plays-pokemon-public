@@ -9,7 +9,7 @@
 
 - Money: ¥1,905
 
-- Pokédex: 77 Caught [Gastly caught Turn 47584] / 137 Seen
+- Pokédex: 78 Caught [Cubone caught Turn 47675] / 137 Seen
 
 ## Milestones
 
@@ -124,6 +124,7 @@
 - [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]
 - [x] Catch wild Abra (#063 HOUDINI) on Route 25 with Poké Ball [Turn 47514]
 - [x] Catch wild Gastly (#092 SPOOKY) on Pokémon Tower 3F with Poké Ball [Turn 47584]
+- [x] Catch wild Cubone (#104 BONEY) on Pokémon Tower 3F with Poké Ball [Turn 47675]
 
 
 <hr>
@@ -136,7 +137,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 47584)
+## Party Pokémon (6 / 6 - Audited Turn 47706)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
@@ -165,7 +166,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x30
+- Slot 10: POKé BALL x26
 - Slot 11: SILPH SCOPE
 
 ## BLUE's PC Item Storage
@@ -2164,7 +2165,7 @@
 - Channeler at (9, 9): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6252 (Prize: ¥720). Defeat dialogue: 'Hmm? What am I doing?'.
 - Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: ¥690). Defeat dialogue: 'What!'.
 - Item Ball at (9, 10): Poké Ball on floor (Escape Rope) [Turn 5030].
-- Item Ball at (12, 1): Poké Ball on floor in north alcove [Sighted Turn 6242].
+- Item Ball at (12, 1): Inspected on Turn 47696; tile is open floor (already collected/empty).
 - Wild Cubone Verification [Turn 47621]: Encountered wild Cubone at (15, 4). Empirically confirms wild Cubone spawns on 3F in retail Pokémon Blue!
 
 ## Geography & Layout
@@ -5351,7 +5352,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 31 Poké Balls in bag. Pokédex: 77 Caught.
+- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 26 Poké Balls in bag. Pokédex: 78 Caught.
 - Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
 - Floor-by-Floor Encounter & Hazard Survey:
   - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
