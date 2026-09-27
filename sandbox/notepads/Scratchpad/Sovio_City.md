@@ -18,12 +18,13 @@
 
 
 
-- East Terrace Access: Verified row 15 at (47, 15) is completely open from (46, 15) (curb ledge only blocks rows 13-14).
+
 
 - Route 2 Barrier Re-Test (Turn 3073-3075): Stepping onto (52, 19) with no active quest confirmed identical barrier: 'I can\'t go yet... I have things to do!' forcing player west to (51, 19). Confirms Route 2 barrier ('I can\'t go yet... I have things to do!') is not cleared by cancelling Machop's Toy; barrier condition remains unresolved.
-- South-Central Curb (Turn 3083): Stepping South from (31, 20) is blocked by sidewalk curb at (31, 21); routing east via column 33 to bypass.
+
 - South-Central House (31, 26): Entered Turn 3086. Resident is the official Name Rater ('Want me to rate the nicknames of your Pokémon?').
-- Surface Audit Synthesis: All surface residential houses, Pokémon Center, and avenues in Sovio City have been 100% audited and verified ambient/utility. No story progression NPCs or Dad are on the city surface.
+- Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
+  - UNTESTED POST-RESCUE: Residential House at (13, 15) (Machop Family) at north end of Western Avenue! Must be audited before declaring city exhausted.
 - Next Strategic Direction: Break the surface macro-loop by exploring unvisited areas:
   1. Sovio Sewers unexplored branches: Specifically the Southern Canal (columns 12-13, rows 32-34) which was never searched.
   2. Route 1 / Lancio Town: External open pathways to check if story progression or Dad moved there.
