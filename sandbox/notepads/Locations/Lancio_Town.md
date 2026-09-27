@@ -10,6 +10,7 @@
 ## Points of Interest & Buildings
 - **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16) (observed Turns 270, 286).
 - **Residential House (Northwest)**: Located at (25, 10). Interior verified on Turn 301 (dining table, TV, resident boy). Not the Pokémon Lab.
+- **Decorative House (Northeast)**: Located at (40, 9) east of pond; exterior confirmed non-enterable on Turn 443.
 - **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar (verified Turns 308-309).
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench, and Mareep pen.
 
