@@ -269,7 +269,7 @@
 
 
 
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357]; however, the effects of non-battle events (e.g. PC terminal storage operations, Nurse Joy dialog, indoor/outdoor map transitions) on Start menu cursor persistence remain unverified and require empirical testing.
+- **Start Menu Cursor Initialization (Empirically Corrected Turn 47424):** In retail Generation 1 Pokémon Blue, the overworld Start menu ALWAYS initializes to Slot 1 (POKéDEX) every time it is opened from the overworld. Prior claims of Start menu cursor persistence across overworld sessions were erroneous. (Note: In-battle bag and PC menus retain their internal cursors, but the overworld Start menu always defaults to POKéDEX).
 
 
 
