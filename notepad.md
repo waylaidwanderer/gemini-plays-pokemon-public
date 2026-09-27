@@ -226,7 +226,6 @@
 
 ## Active State & Inventory
 - **Inventory**: 0 Poké Balls (exhausted Turn 728/730 on Mareep), 1 Potion remaining.
-- **Party**: Sirius Lv8 (27/27 HP, healthy; full HP and cured Turn 773), Zephyr Lv2 (13/13 HP).
 - **Physical Terrain Reality**: Rows 1-4 form an unbroken pine tree barrier to the north (verified Turn 740 collision test at (35, 4)).
 
 ## Active Routing & Clues
@@ -273,6 +272,7 @@
   - **Track 5**: (36, 6) northeast of meadow rock spire [blue claws].
   - **Track 6**: (37, 7) east of meadow rock spire [blue claws].
   - **Track 7**: (41, 10) on open grass path heading southeast toward (45, 11).
+  - **Track 8**: Blue bird tracks observed near (47, 12) heading east toward eastern signpost.
   - **Reward**: Nice rewards / gifts upon completion.
 
 
