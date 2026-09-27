@@ -21,7 +21,7 @@
   - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
 
 ## Active Missions & Enemies
-- **Team Siara Presence**: At least five Team Siara grunts are operating in the sewers (four defeated, Fifth Grunt at (23, 13), plus the guard holding Jackson at the storage room).
+- **Team Siara Presence**: All grunts retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
 - **Dad Locked in Storage Room**: RESCUED on Turn 2698! Asher reached the red mat at (37, 14), freeing Jackson to reunite with Asher and Valora.
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas (male) Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo (male) Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: 728 Yen.
