@@ -3,7 +3,7 @@
 ## Geography & Connections
 - **South**: Connects to Route 1 at (14, 39).
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
-- **City Features (Unverified Lore / In-Search)**: Metro Station, Pokémon Center, PokéMart (expected in city; currently searching).
+- **City Features**: Pokémon Center (verified Turn 1225 in Central Plaza); Metro Station and PokéMart (unverified/in-search).
 
 ## Exploration & Landmarks
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
