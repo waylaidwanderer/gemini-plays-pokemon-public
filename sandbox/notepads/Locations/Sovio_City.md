@@ -8,10 +8,10 @@
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 20-22, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
-- **East Building (Southwest)**: Structure at (17-20, 27) with decorative wooden siding; eastward approach from (15, 27) blocked by curb at column 18 (tested Turn 1535). Other perimeters (rows 26, 28) remain unverified.
+- **Southwest Building**: Structure at (17-20, 27) with decorative wooden siding; eastward approach from (15, 27) blocked by curb at column 18 (tested Turn 1535). Other perimeters (rows 26, 28) remain unverified.
 - **Sewer Manhole (Southwest)**: Located at (13, 27); verified on Turn 1537 as a non-interactive decorative tile.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
-- **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with partner Rocky (Geodude) at (24, 17); dialogue: "This is my partner, Rocky! He's the best..." (ambient dialogue, verified Turn 2849).
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier (Verified Turns 2068, 2796)**: Attempting to walk east past column 51 along row 20 or stepping east at (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher back.
@@ -67,6 +67,8 @@
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
+- **Western Tiered Building Corridor NPC**: Pink-haired NPC sighted at column 18, rows 21-22 along the corridor west of the tiered building (Turn 2846).
+
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
