@@ -345,5 +345,6 @@
 - Eclipse Pidgey knows Sand Attack and Acid (Poison-type move); Metal Claw deals neutral damage.
 - Victory: Sirius defeated the Siara Grunt's Lv7 Eclipse Pidgey (gained 82 EXP).
 - Grunt defeat quote: "What the?! Aren't these Pokémon strong?"
+- Prize: Asher received ¥728 for winning.
 
 <hr>
