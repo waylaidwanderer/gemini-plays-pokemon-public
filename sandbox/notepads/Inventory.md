@@ -4,9 +4,9 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (6 / 6 - Audited Turn 47320)
+## Party Pokémon (3 / 6 - Audited Turn 47377)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 50 / 269
+  - HP: 269 / 269 (Healed Turn 47353)
   - Status: Healthy
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
@@ -16,14 +16,9 @@
   - HP: 254 / 254
   - Status: Healthy
   - Field Moves: Surf, Strength
-- Slot 4: VENOMOTH (Nickname: MOTHRA) [Lv 51, Bug/Poison]
-  - HP: 134 / 134
-  - Status: Healthy
-- Slot 5: MAROWAK (Nickname: SKULL) [Lv 52, Ground]
-  - HP: 108 / 124
-  - Status: Healthy
-- Slot 6: DITTO (Nickname: MORPH) [Lv 53, Normal]
-  - Status: Healthy (Caught Turn 47320)
+- Slot 4: [EMPTY]
+- Slot 5: [EMPTY]
+- Slot 6: [EMPTY]
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
 - Slot 1: POKé FLUTE
@@ -35,7 +30,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x26
+- Slot 10: POKé BALL x15
 
 ## BLUE's PC Item Storage
 1. TM34 x1 (Bide)
@@ -67,7 +62,7 @@
 
 ## PC Pokémon Storage
 - Active Box: BOX 1
-- Box 1: Contains 6 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46, HYDRA Lv 49, SPOON Lv 49, TITAN Lv 52 - stored Turns 46635-46960)
+- Box 1: Contains 9 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46, HYDRA Lv 49, SPOON Lv 49, TITAN Lv 52, MOTHRA Lv 51, SKULL Lv 52, MORPH Lv 53 - stored Turns 46635-47365)
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 4: Empty [Verified Turn 44287]
