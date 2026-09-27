@@ -30,3 +30,10 @@
   - Path west of house: (12, 17) -> (11, 17). Tile (10, 17) is impassable cliff corner (verified Turn 121).
   - Tiles (10, 16) west and north are blocked by pine trees (verified Turn 122).
   - Walkable route to western highway: Column 12 corridor (12, 16) -> (12, 13), then Left across row 13: (11, 13) -> (10, 13) -> (9, 13) -> (8, 13).
+
+## Route to Eastern Dock (Verified)
+- From house front (17, 17), walk East along row 17 to (21, 17).
+- Step Down to (21, 18).
+- Walk East along row 18 past (22, 18)-(25, 18) to (26, 18).
+- Bypass wooden stairs: Step Up to (26, 17), then East to columns 29-33 onto the eastern coastal lawn.
+- Walk South down the eastern lawn to the wooden dock at rows 24-26, columns 32-34.
