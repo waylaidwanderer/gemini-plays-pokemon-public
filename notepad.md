@@ -286,6 +286,7 @@
 - **Track 9**: (51-52, 10-12) on Route 1 eastern path heading toward Sovio City.
 - **Tracks 10-11**: (14, 38) and (14, 37) along Sovio City southern entrance road.
 - **Tracks 12-14 (Verified Turn 1539)**: Clusters of white prints at (14-15, 36) and (15-16, 35), and blue claw prints at (15, 37) and (15, 38) near the southern border. Path north of row 34 is clear of prints.
+- **Track 15 (Verified Turn 1611)**: Blue bird claw footprints discovered inside Central Park at the eastern bank of the pond at (41-42, 19), adjacent to white flower patches.
 
 <hr>
 
