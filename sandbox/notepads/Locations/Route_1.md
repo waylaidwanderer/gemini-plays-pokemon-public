@@ -39,3 +39,4 @@
 - **Thicket Dead End (20-28, 38-43)**: Winding gap between hedges terminates at (28, 41); north blocked by row 38 pine tree barrier and (28, 40) collision, east blocked by dense hedge at (29, 40-41). Must use main road at row 46.
 - **Row 46 East Pine Barrier**: Walking east along row 46 terminates at column 25; column 26 is blocked by an unbroken vertical pine tree barrier from row 44 to row 49.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
+- **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
