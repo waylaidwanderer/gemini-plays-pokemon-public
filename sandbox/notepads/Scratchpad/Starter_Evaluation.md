@@ -3,7 +3,7 @@
 ## Starter Pokémon Candidate
 - **Location**: Research table at (22, 4) in Professor Ivo's Lab.
 - **Pokéball Type**: Custom orange/gold upper dome, white base.
-- **Current Status**: Lab cutscene actively continuing; Asher thanking Professor Ivo ('I like this little guy a lot!'). Awaiting nickname prompt.
+- **Current Status**: Lab cutscene actively continuing; Professor Ivo about to give starting items ('Oh, before I forget let me give...').
 - **Species**: Riolu (The Emanation Pokémon, Fighting-type).
 - **Selected Nickname**: Sirius (The brightest star / Dog Star; guiding light of justice against Siara).
 - **Gender / Nature / Ability**: Pending summary screen verification.
