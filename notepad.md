@@ -8,7 +8,7 @@
 
 # Guidelines & Active Reminders
 - Nicknaming: Always nickname every Pokémon creatively!
-- Text Speed: FAST (Configured at Turn 46)
+- Text Speed: FAST
 
 <hr>
 
@@ -23,7 +23,7 @@
 - **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
 - **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
 
-- **Mrs. Ivo**: Scientist/researcher with brown hair and pink glasses, wearing a white lab coat over a pink dress; currently featured in a televised interview broadcast. Asher previously met her.
+- **Mrs. Ivo**: Leading Pokémon Professor of the Hupest Region. Scientist with brown hair and pink glasses, wearing a white lab coat over a pink dress. Asher previously met her.
 
 ## Starting Setting
 - **Inizio Isle**: Starting location where Asher and his father reside.
@@ -32,10 +32,10 @@
 
 <h1><code>Locations/Inizio_Isle</code></h1>
 
-# Inizio Isle - Asher's Home (Discovered Turns 36-52)
+# Inizio Isle - Asher's Home
 
-## Interior Layout
-- **2F (Bedroom)**: Asher's room. Bed at (6, 4), PC at (0, 4), stairs to 1F at (10, 4).
-- **1F (Living Room)**: Stairs at (3, 4). Wide-screen TV at (7, 3)-(9, 4), Dad at (8, 5) waiting for Mrs. Ivo's broadcast. Front door south at (3, 6).
+## Interior Layout (Visual Survey)
+- **2F (Bedroom)**: Asher's room. Bed at (6, 4), stairs to 1F at (10, 4). Unverified objects: terminal/desk at (0, 4).
+- **1F (Living Room)**: Stairs at (3, 4). Wide-screen TV at (7, 3)-(9, 4). Unverified exit: doormat frame south at (3, 6).
 
 <hr>
