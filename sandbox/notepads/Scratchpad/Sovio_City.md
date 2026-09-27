@@ -19,4 +19,12 @@
   - Moves observed: Minimize (evasion boost), Ember (STAB Fire, ~7-8 dmg vs Sirius), Fire Spin (trapping + chip).
   - Ability: Flame Body (30% chance to burn attacker on contact; Metal Claw makes contact!). Burn status cuts Physical Attack by 50% and deals 1/16 max HP per turn.
   - Flaw in Work Up setup: Taking multiple setup turns gives Litwick free turns to stack Minimize (+2 evasion per use). At +4 evasion, attack accuracy drops to ~33%, leading to missed attacks while burn and Fire moves whittle Sirius down.
-- **Immediate Task**: Inspect Bag inventory in-game to verify available items (Poké Balls, healing items, Repels, etc.).
+- **Inventory Verified (Turn 2543)**:
+  - Bag Items: Empty
+  - Bag PokÃ© Balls: Empty
+  - HuPhone PC Storage: Potion x 1 withdrawn!
+- **Revised Tactical Strategy**:
+  - Do NOT spend multiple turns setting up Work Up, as Litwick will stack Minimize.
+  - Attack immediately with Metal Claw on Turn 1!
+  - If Litwick does not use Minimize or if Metal Claw connects, it deals heavy neutral physical damage (~14-16 dmg unboosted, 2HKO).
+  - Use Potion (20 HP recovery) if burned or damaged below 15 HP to stay in the fight.
