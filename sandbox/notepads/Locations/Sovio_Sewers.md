@@ -19,7 +19,7 @@
 - **Eastern Lower Alcove (Verified Turn 1978)**: Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
 ## Topography & Connectivity
 - **Lower Level Boundaries**: The lower walkway at row 27 is bounded on both ends: dead-ending east into the wall/void alcove at (37-39, 27) and terminated west by Grunt 1 at (23, 27), the puddle at (20-22, 27), and sewage water. Column 26 corridor connects row 27 to the sunken northern ledge at (22, 20) and puddle alcove at (28, 19).
-- **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper level extends north along columns 34-38 and connects to the elevated northern catwalks leading west across rows 15-17 toward Grunt 2's platform.
+- **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 
 ## Wild Encounters
 - Koffing (Lv6, Poison; verified Turn 1720)
