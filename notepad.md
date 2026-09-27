@@ -401,11 +401,10 @@
 - **Terrain & Features**:
   - Stone-rimmed pool of water on the upper landing at columns 31-34, rows 21-23.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
-- **Story Context**: Dad rushed down into the Sovio Sewers to investigate the source of the earthquake/tremor that shook the Metro Station. Valora teamed up with Asher to search for Dad.
 ## Active Missions & Enemies
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers.
 - **Dad Locked in Storage Room**: Grunt 2 has locked Jackson (Dad) inside a small storage room and is standing guard on the red mat in front of the door, waiting for 'Marie, the milady' (Mother) to arrive.
 - **Patrolling Grunts**: Three grunts have scattered into the sewer corridors to patrol.
-- **Patrolling Grunt 1**: Located on the western lower walkway at (24, 27) facing west.
+- **Patrolling Grunt 1**: Located on western lower walkway at (24, 27) facing west. Roster: Hippopotas ♂ Lv6 (known moves: Protect). Status: In Battle (Turn 1771).
 
 <hr>
