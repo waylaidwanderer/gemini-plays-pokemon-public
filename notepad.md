@@ -30,7 +30,7 @@
 
 ## Regional History & Events
 - **300-Year Anniversary**: Commemorates 300 years of human-Pokémon coexistence in Hupest.
-- **Eclipse Tournament**: Major international tournament organized in Hupest for the 300-year anniversary; open to trainers worldwide.
+- **Eclipse Tournament**: Major international tournament organized in Hupest for the 300-year anniversary; open to trainers worldwide. Does not require traditional Gym Badges to qualify.
 
 <hr>
 
