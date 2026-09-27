@@ -48,5 +48,8 @@
 - "He realized its true potential and the threat it posesses..."
 - "And thus decided to take down Siara once and for all."
 - "He doesn't want to involve me. To leave me out of danger."
+- "Sounds weird right?"
+- "But that's how it goes..."
+- "Some people believe that someone's fate..."
 
 <hr>
