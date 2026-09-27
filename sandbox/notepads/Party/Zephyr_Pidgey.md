@@ -13,4 +13,4 @@
 - **Ability**: Keen Eye (Prevents loss of accuracy)
 - **Stats (IV Grades)**: HP 13 (D+), Attack 7 (C), Defense 5 (C-), Sp. Atk 6 (C+), Sp. Def 6 (D-), Speed 7 (A)
 - **Moves**:
-  - Tackle (Normal, Physical, 35 PP, currently 33 PP)
+  - Tackle (Normal, Physical, 35 PP)

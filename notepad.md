@@ -246,6 +246,19 @@
 - **Ability**: Keen Eye (Prevents loss of accuracy)
 - **Stats (IV Grades)**: HP 13 (D+), Attack 7 (C), Defense 5 (C-), Sp. Atk 6 (C+), Sp. Def 6 (D-), Speed 7 (A)
 - **Moves**:
-  - Tackle (Normal, Physical, 35 PP, currently 33 PP)
+  - Tackle (Normal, Physical, 35 PP)
+
+<hr>
+
+<h1><code>Quests/Lost_Pidgey</code></h1>
+
+# Quest: Lost Pidgey
+
+## Details
+- **Giver**: Blue cap boy at Route 1 northeast clearing (34, 37).
+- **Status**: Active (Accepted Turn 560-562).
+- **Objective**: Find the boy's lost Pidgey who wandered away on Route 1.
+- **Clue**: "He must be somewhere around here on Route 1..."
+- **Reward**: Nice rewards / gifts upon completion.
 
 <hr>
