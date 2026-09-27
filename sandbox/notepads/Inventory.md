@@ -22,8 +22,8 @@
 - Slot 5: MAROWAK (Nickname: SKULL) [Lv 52, Ground]
   - HP: 108 / 124
   - Status: Healthy
-- Slot 6: DITTO [Lv 53, Normal]
-  - Status: Healthy (Freshly Caught Turn 47320)
+- Slot 6: DITTO (Nickname: MORPH) [Lv 53, Normal]
+  - Status: Healthy (Caught Turn 47320)
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
 - Slot 1: POKé FLUTE
