@@ -319,8 +319,14 @@
   - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5).
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
-- **Interior**: Stairs land at (23, 24).
-- **Train Schedule Board**: Lists "AMOR 16:00" and "ALHIA 20:00".
+- **Interior Layout**:
+  - Main lobby floor lands at (23, 24) on vertical red mat.
+  - Stairs leading back up to Sovio City overworld at (24, 24).
+  - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00".
+  - Waiting area chairs along west wall at (17-18, 22-25).
+  - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
+  - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
+- **Story Progression**: Dad ran down into the Sovio Sewers to investigate the earthquake/tremor disturbance; Valora accompanied Asher into the sewers.
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
 - **Interior**: Entrance mat lands at (64, 35).
