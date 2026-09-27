@@ -35,5 +35,5 @@
 - From house front (17, 17), walk East along row 17 to (21, 17).
 - Step Down to (21, 18).
 - Walk East along row 18 past (22, 18)-(25, 18) to (26, 18).
-- Bypass wooden stairs: Step Up to (26, 17), then East to columns 29-33 onto the eastern coastal lawn.
+- Bypass wooden stairs: Step Up to (26, 17), Up to (26, 16) around tree, Right to (28, 16), Up to (28, 15) onto dirt path, then East to column 29 and South down onto the eastern coastal lawn.
 - Walk South down the eastern lawn to the wooden dock at rows 24-26, columns 32-34.
