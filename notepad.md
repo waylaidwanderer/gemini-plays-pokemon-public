@@ -135,10 +135,15 @@
 ## Starter Pokémon Candidate
 - **Location**: Research table at (22, 4) in Professor Ivo's Lab.
 - **Pokéball Type**: Custom orange/gold upper dome, white base.
-- **Current Status**: Standing at (22, 4) directly in front of the Pokéball; interacting facing Up toward (22, 3).
-- **Species**: To be revealed upon interaction.
-- **Gender / Nature / Ability**: To be evaluated once received.
-- **Creative Nickname Ideas**: Pending species reveal (active directive: ALWAYS nickname every Pokémon creatively).
+- **Current Status**: Dialogue in progress; Professor Ivo presenting Riolu.
+- **Species**: Riolu (The Emanation Pokémon, Fighting-type).
+- **Gender / Nature / Ability**: Pending reception and summary check.
+- **Creative Nickname Ideas**:
+  - Sirius (Brightest star, the Dog Star; connects to guiding light against Siara)
+  - Anubis (Jackal guardian of truth and aura)
+  - Solas (Gaelic for "light")
+  - Ronin (Warrior forging his own path of honor)
+  - Kibo (Hope)
 
 ## Untested Interactive Objects in Lab
 - **Stairs to 2F**: Located at (11-12, 7) in the entrance foyer.
