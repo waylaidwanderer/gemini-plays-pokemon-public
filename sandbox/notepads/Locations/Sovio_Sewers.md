@@ -54,3 +54,4 @@
 - Klink (Lv4-7, Steel; verified Turn 2393 at (14, 28), Turn 2658 at (24, 13))
 
 - Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
+- Zubat (female) (Lv5, Poison/Flying; verified Turn 2718 at (37, 13))
