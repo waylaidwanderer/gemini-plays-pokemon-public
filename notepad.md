@@ -341,9 +341,9 @@
 - **Entrance**: Teal door at (14, 15).
 - **Interior**: Entrance mat lands at (5, 36).
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
-## South Central Sector (Verified Turn 1558)
-- **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28) ('Puff Puff!'), and Boy at (35, 28) on the sidewalk south of Central Park pond.
-- **South Central Building**: Located at (30-31, 25) with teal door and rooftop billboard screen.
+## South Central Sector
+- **Gathering**: Girl at (33, 28) (mentions Moon Stone evolution), Jigglypuff at (34, 28) ('Puff Puff!'), and Boy at (35, 28) on the sidewalk south of Central Park pond.
+- **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
 
 <hr>
 
@@ -362,7 +362,7 @@
 - **Central Plaza Sector**: SURVEYED. Dad not in North Central House or Pokémon Center (verified Turn 1527).
 - **West / Northwest Sectors**: SURVEYED. Dad not found (Machop family house, teal door house, bikers all clear).
 - **Southwest Sector**: SURVEYED. Building at (17, 27) has no accessible entrance; manhole at (13, 27) is decorative; Route 1 entrance corridor is empty.
-- **South Central Sector**: TESTING. Found gathering with Jigglypuff at (33-35, 28) and building with teal door at (31-32, 26).
+- **South Central Sector**: SURVEYED. House at (31, 26) is residential (elderly woman); gathering with Jigglypuff is flavor text. Moving east into the Southeast District.
 - **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can't go yet... I have things to do!' (Turn 1506).
 
 <hr>
