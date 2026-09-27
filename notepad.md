@@ -320,5 +320,6 @@
 - Asher responds: "Mom?"
 - Mother asks Asher: "How are you doing honey? Are you eating well?"
 - Mother asks: "How's it going with girls?"
+- Mother exclaims: "Ahh I wanna ask so many things!"
 
 <hr>
