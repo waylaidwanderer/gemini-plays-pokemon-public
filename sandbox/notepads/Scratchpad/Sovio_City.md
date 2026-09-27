@@ -14,6 +14,6 @@
 - [x] Central Plaza & Pokémon Center exterior: Verified empty.
 - [x] Plaza East house exterior & ledge: Verified impassable from west at (46, 14).
 - [x] Boy & Rocky at (23-24, 17): Spoke with Boy (ambient dialogue about Rocky).
-- [ ] Western Tiered Building perimeter & corridor (columns 18-26, rows 18-27): In progress. Pink-haired NPC sighted at (18, 21-22).
-- [ ] Southwest sector (columns 12-20, rows 20-30): Unvisited since sewer mission.
-- [ ] Northwest houses & avenues (columns 12-28, rows 12-18): Unvisited since sewer mission.
+- [x] Western Tiered Building west corridor (columns 16-18, rows 19-27): Surveyed. No entrance found along west wall.
+- [x] Southwest sector (columns 12-20, rows 20-30): Surveyed. Southwest building decorative with blocked shutters; pine tree line at (12, 30) is a dead end.
+- [ ] Northwest houses & avenues (columns 12-28, rows 7-18): Active target. Machop house at (14, 15), unvisited northern avenue (north of row 15).
