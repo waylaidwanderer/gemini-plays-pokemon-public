@@ -14,3 +14,10 @@
   - **Track 7**: (41, 10) on open grass path heading southeast toward (45, 11).
   - **Track 8**: Blue bird tracks observed near (47, 12) heading east toward eastern signpost.
   - **Reward**: Nice rewards / gifts upon completion.
+
+- **Lancio Town Trail (Verified Turn 1038)**:
+  - (43, 13) [yellow footprints]
+  - (43, 12) [blue footprints]
+  - (42, 11) [blue footprints]
+  - (41, 10) [blue footprints]
+  Tracks lead northwest between the Pokémon Center and the Northeast House toward the pond area!
