@@ -149,7 +149,7 @@
 - Slot 5: [EMPTY]
 - Slot 6: [EMPTY]
 
-## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
+## Bag Items (11 / 20 Slots Occupied - Audited Turn 47381)
 - Slot 1: POKé FLUTE
 - Slot 2: SUPER ROD
 - Slot 3: BICYCLE
@@ -160,6 +160,7 @@
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
 - Slot 10: POKé BALL x15
+- Slot 11: SILPH SCOPE
 
 ## BLUE's PC Item Storage
 1. TM34 x1 (Bide)
@@ -171,8 +172,8 @@
 7. TM21 x1 (Mega Drain)
 8. TM06 x1 (Toxic)
 9. HM05 (Flash)
-10. LIFT KEY
-11. SILPH SCOPE
+10. COIN CASE
+11. LIFT KEY
 12. HM04 (Strength)
 13. HM03 (Surf)
 14. GOOD ROD
