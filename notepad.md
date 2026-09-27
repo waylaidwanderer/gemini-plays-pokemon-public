@@ -9,7 +9,7 @@
 
 - Money: ¥1,905
 
-- Pokédex: 76 Caught [Abra caught Turn 47514] / 137 Seen
+- Pokédex: 77 Caught [Gastly caught Turn 47584] / 137 Seen
 
 ## Milestones
 
@@ -123,6 +123,7 @@
 - [x] Catch wild Marowak (#105 SKULL) on Cerulean Cave 2F with Poké Ball [Turn 47053]
 - [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]
 - [x] Catch wild Abra (#063 HOUDINI) on Route 25 with Poké Ball [Turn 47514]
+- [x] Catch wild Gastly (#092 SPOOKY) on Pokémon Tower 3F with Poké Ball [Turn 47584]
 
 
 <hr>
@@ -135,7 +136,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (4 / 6 - Audited Turn 47521)
+## Party Pokémon (5 / 6 - Audited Turn 47584)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
@@ -149,7 +150,8 @@
   - Field Moves: Surf, Strength
 - Slot 4: ABRA (Nickname: HOUDINI) [Lv 10, Psychic]
   - Status: Healthy
-- Slot 5: [EMPTY]
+- Slot 5: GASTLY (Nickname: SPOOKY) [Lv 24, Ghost/Poison]
+  - Status: Healthy
 - Slot 6: [EMPTY]
 
 ## Bag Items (11 / 20 Slots Occupied - Audited Turn 47440)
@@ -162,7 +164,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x33
+- Slot 10: POKé BALL x32
 - Slot 11: SILPH SCOPE
 
 ## BLUE's PC Item Storage
@@ -5348,7 +5350,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 4/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10). 33 Poké Balls in bag. Pokédex: 76 Caught.
+- Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 32 Poké Balls in bag. Pokédex: 77 Caught.
 - Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
 - Floor-by-Floor Encounter & Hazard Survey:
   - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
@@ -5359,7 +5361,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - 6F: High-rate Haunter/Cubone floor (Gastly, Haunter Lv 20-25, Cubone Lv 22-24). Ghost Marowak already defeated [Turn 6429].
   - 7F: Top shrine floor; Mr. Fuji rescued [Turn 6549]; safe zone.
 - Target Species & Capture Strategy:
-  1. Gastly (#092) [Ghost/Poison, BCR 190]: High capture probability at full HP with basic Poké Ball. Target floors: 3F-5F.
+  1. Gastly (#092) [Ghost/Poison, BCR 190]: CAUGHT on 3F with basic Poké Ball on Turn 1 [Turn 47584]! Nickname: SPOOKY. Registered #092.
   2. Cubone (#104) [Ground, BCR 190, hypothesized low encounter rate]: Throw basic Poké Ball on Turn 1 at full HP. Target floors: 3F-5F.
   3. Haunter (#093) [Ghost/Poison, BCR 90]: Appears on 5F-6F. Budget 2-4 Poké Balls or weaken if necessary. (Fallback: Gastly evolves into Haunter at Lv 25).
 - Catch Slots: Party has 2 open slots (Slots 5 and 6). Gastly and Haunter will enter active party. Cubone will be sent to PC Box 1 (11 free slots).
