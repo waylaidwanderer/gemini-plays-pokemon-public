@@ -39,3 +39,6 @@
 
 ## Mechanics & Engine Notes
 - **stun_npc**: Unsupported in Pokémon Sors due to custom ROM hack memory layout (Error: Map objects data is unavailable).
+## Eastern Border & Route 1 Exit
+- **Signboard**: Located at (44, 13) marking "Route 1 ----->".
+- **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
