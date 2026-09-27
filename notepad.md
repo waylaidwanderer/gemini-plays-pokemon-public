@@ -54,13 +54,12 @@
 ## 1F Living Room
 - **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door exit is at (10, 10) with doormat at (10, 9).
 - **Verified Collisions**:
-  - Tile (3, 6) south wall is solid; tile (9, 9) is solid.
   - Bookshelf at (5, 4) is solid; bypass via row 5.
 
 ## Inizio Isle Exterior
 - **House Front**: Door exit lands at (17, 17).
 - **South Cove Beach**:
-  - Central stairs at (17, 23)-(17, 25) lead down to sandy beach at row 28. (Horizontal shoreline exploration in progress).
+  - Central stairs at (17, 23)-(17, 25) lead down to sandy beach at row 28.
 - **Southeast Ridge**:
   - Accessible via wooden steps at (24, 18)-(26, 19).
   - Dirt platform at (26, 20)-(26, 25).
