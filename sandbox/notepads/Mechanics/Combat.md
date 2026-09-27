@@ -217,3 +217,7 @@
 
 - **Scope & Untested Mechanics:** Generalization of this speed-threshold check to other OHKO moves (Guillotine, Fissure) or across equal/lower speed differentials remains theoretical and empirically untested in this run.
 
+
+## Wild Enemy Teleport Mechanics (Empirically Observed Turn 47509)
+- **Observed Behavior (N=1 Encounter vs Abra Lv 10):** When wild Abra Lv 10 executed the move TELEPORT against player lead Mewtwo (OMEGA Lv 76, healthy, unparalyzed, Speed > 200), the battle text printed 'Enemy ABRA used TELEPORT!' followed by failure ('But, it failed!'), leaving wild Abra in battle and allowing a consecutive capture attempt on the subsequent turn.
+- **Hypothesis & Scope:** In Generation 1 retail, wild fleeing moves (e.g. Teleport, Roar, Whirlwind) may incorporate an escape threshold check against the player's active level/speed, or specific failure conditions when opposing vastly higher-level targets. Engine-level mathematical criteria remain an active hypothesis pending additional empirical trials.
