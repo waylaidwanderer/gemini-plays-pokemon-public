@@ -4,8 +4,8 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Currently default "Riolu", pending Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv6
-- **Max HP**: 22 (IV Grade: C)
+- **Level**: Lv7
+- **Max HP**: 25 (IV Grade: C)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: Attack 14 (C+), Defense 14 (A-), Sp. Atk 11 (C-), Sp. Def 12 (E), Speed 10 (C-)
