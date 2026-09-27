@@ -4533,7 +4533,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections
 - Ladder (7, 1): Ascending cave ladder on northern elevated terrace at (7, 1). Connects to 2F Ladder (9, 1). [Physically verified Turns 26574, 26648]
-- Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
+- Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). Stepping onto 2F Ladder (22, 6) deposits player here at (23, 7) facing North [Physically verified Turns 25522, 47192].
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
 - Northwest Corridor & B1F Descent [Physically verified Turn 28101-28106]:
@@ -4604,7 +4604,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (9, 1): Descending cave ladder located at (9, 1) on Row 1. Directly accessible from (8, 1) stepping East. Visually confirmed with blue ladder rungs [Turn 26646]. Connects to 1F.
 - Ladder (1, 3): Cave ladder located at (1, 3) in northwest enclave. Directly accessible from (0, 3) stepping East. Access to Column 0 from the rest of 2F remains unconfirmed.
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Exits West to (28, 1), South down Column 28 through (28, 2..3), East to (29, 3), and South down Column 29 through (29, 4..6). At (29, 6), turns West to (27, 6..7) and (25, 7), connecting south into Sector B (closed loop with Ladder 22, 6). Does NOT connect to Sector A.
-- Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
+- Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Stepping onto this ladder warps player directly to 1F Ladder at (23, 7) [Physically verified Turns 25522, 47192]. Exit on 2F is South to (22, 7).
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Connects ONLY to an isolated 7-tile secluded pocket spanning (18..20, 5..7). Bounded on ALL sides by solid rock walls: North at (18, 5), (19..20, 4); East at (21, 5..6), (20, 7); South at (18..19, 8); West at (17, 5..7). Has ZERO connection to Row 2, Row 3, Column 24, or the rest of 2F. [Empirically verified Turns 27015-27023]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
@@ -5277,15 +5277,19 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 3: Cerulean Cave 1F Ditto Hunt
-- Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 26 Poké Balls in bag. Pokédex: 74 Caught.
+- Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 26 Pok� Balls in bag. Pok�dex: 74 Caught.
 - Priority Target on 1F:
   1. Ditto (#132) [Wild Lv 53, BCR 35] - ACTIVE SOLE TARGET
+- Tracking & Thresholds:
+  - Pursuit Start on 1F: Turn 47195 (after descending Ladder 22, 6).
+  - Encounter Cutoff: Turn 47350 (or 25 duplicate encounters on 1F).
+  - Current 1F Duplicate Encounters Fled: 2 (Venomoth Lv 49 Turn 47214, Magneton Lv 46 Turn 47218).
 - Patrol Location:
   - High-Rate Patrol Loop: (21..25, 14..15) on Cerulean Cave 1F.
   - Verified spawn: Turn 33610 (Ditto Lv 53).
 - Protocol:
   - Lead: Mewtwo (OMEGA Lv 76, 173/269 HP).
-  - Target encounters: Throw Poké Balls directly into open party slot 6.
+  - Target encounters: Throw Pok� Balls directly into open party slot 6.
   - Duplicate encounters: RUN immediately (100% flee success with Lv 76 Mewtwo).
   - When caught: Party reaches 6/6. Exit south via (24..25, 17) to Cerulean City, Fly to Center, deposit catches (Mothra, Skull, Ditto) to Box 1.
 
