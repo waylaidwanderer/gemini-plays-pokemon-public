@@ -303,6 +303,11 @@
   - Main Nurse Joy counter straight north along column 7 at row 3/4.
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
   - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5).
+## Sovio Metro Station (Verified Turn 1388)
+- **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
+- **Interior**: Stairs land at (23, 24).
+- **Train Schedule Board**: Lists "AMOR 16:00" and "ALHIA 20:00".
+- **NPCs**: Station Conductor at (21, 25); Dad (Jackson) waiting at (22, 24).
 
 <hr>
 
