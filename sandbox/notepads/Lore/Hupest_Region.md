@@ -19,3 +19,4 @@
 ## Major Cities & Points of Interest
 - **Amor City**: Capital city of the Hupest Region.
 - **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
+- **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
