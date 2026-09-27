@@ -14,4 +14,4 @@
 - **East Building Entrance**: Brown wooden door at (17, 27) with an ashcan/barrel in front at (16, 28).
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **Northern Building**: Located at (14-15, 15) with teal door.
-- **East Avenue**: Paved road at row 18 heading east. NPC boy in blue cap at (22, 17) and grey spherical object at (23, 17).
+- **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
