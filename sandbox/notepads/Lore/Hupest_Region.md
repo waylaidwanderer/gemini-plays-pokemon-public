@@ -47,3 +47,4 @@
 ## Sovio Sewers - Team Siara Operation (Turns 1679-1684)
 - **Team Siara in the Sewers**: A cutscene reveals four Team Siara Grunts gathered around a red mat deep in the Sovio Sewers.
 - **Jackson's Arrival**: The grunts are alarmed to discover that Jackson (Asher's Dad) has entered the sewers ('Grunt 1: What?! Jackson's here?!').
+- **Dad Locked in Storage Room**: Grunt 2 reveals: 'Yes, I managed to lock him inside this little storage room.', confirming Jackson is trapped in a sewer storage room.
