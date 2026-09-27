@@ -295,6 +295,13 @@
 - **Northern Building**: Located at (14-15, 15) with teal door.
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Story Event (Turn 1219)**: Scripted trigger at (26, 18) heading east; Asher notes "Huh, something seems to be going over there..." looking toward the eastern plaza.
+## Pokémon Center (Verified Turn 1330)
+- **Exterior Entrance**: Double glass door at (44-45, 12).
+- **Interior Layout**:
+  - Exit mat at (7, 8).
+  - Main Nurse Joy counter straight north along column 7 at row 3/4.
+  - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
+  - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5).
 
 <hr>
 
