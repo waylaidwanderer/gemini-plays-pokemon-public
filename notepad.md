@@ -398,7 +398,6 @@
 - **Terrain & Features**:
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
-  - Northern Upper Corridor: 2-tile wide passage at columns 31-32 leading north past row 20 connecting the upper landing to the elevated northern catwalks.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
 ## Active Missions & Enemies
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers.
@@ -416,7 +415,7 @@
 ## Wild Encounters
 - Koffing (Lv6, Poison; verified Turn 1720)
 - Stunky ♀ (Lv4, Poison/Dark; verified Turn 1991)
-- **Central Corridor**: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north past row 17 into the northern sector.
+- **Central Corridor**: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
 - **Black Square Feature**: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
 
 <hr>
