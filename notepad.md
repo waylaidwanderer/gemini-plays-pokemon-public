@@ -297,3 +297,20 @@
 - **Story Event (Turn 1219)**: Scripted trigger at (26, 18) heading east; Asher notes "Huh, something seems to be going over there..." looking toward the eastern plaza.
 
 <hr>
+
+<h1><code>Scratchpad/Sovio_City</code></h1>
+
+# Scratchpad: Sovio City Hypotheses & Live Routing
+
+## Unverified Hypotheses & Rumors
+- **Metro Station**: Mentioned in World Map; not yet located on foot.
+- **PokéMart**: Expected in major city; not yet located on foot.
+- **Route 2 Connection**: Believed to lead east toward Amor City.
+
+## Live Cutscene Tracking
+- Outside Pokémon Center: Confrontation between Jackson (Dad) and Mother (Siara Mafia leader) with two grunts.
+- Mother remarks: 'Is this how you welcome back your ex?'
+
+- Mother asks Dad: "Didn't you miss me?"
+
+<hr>

@@ -8,3 +8,5 @@
 ## Live Cutscene Tracking
 - Outside Pokémon Center: Confrontation between Jackson (Dad) and Mother (Siara Mafia leader) with two grunts.
 - Mother remarks: 'Is this how you welcome back your ex?'
+
+- Mother asks Dad: "Didn't you miss me?"
