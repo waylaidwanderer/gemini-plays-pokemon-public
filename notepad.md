@@ -225,6 +225,7 @@
 
 ## Facilities & PokéMarts (Verified Turns 795-805)
 - **Lancio Town Pokémon Center**: Contains no PokéMart clerk or item vendor inside (verified by full room inspection). NPC dialogue claiming PokéMarts are inside centers does not apply to Lancio Town.
+- **Official In-Game Confirmation (Turn 1188)**: Sovio City Trainer Tips signpost at (15, 18) verbatim: "If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around."
 
 <hr>
 
