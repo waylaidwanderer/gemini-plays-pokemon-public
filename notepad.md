@@ -133,7 +133,7 @@
 
 ## Party Pokémon (4 / 6 - Audited Turn 47026)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
-  - HP: 211 / 269
+  - HP: 191 / 269
   - Status: Healthy
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
@@ -157,7 +157,7 @@
 - Slot 7: TM35 x1
 - Slot 8: EXP.ALL x1
 - Slot 9: LEAF STONE x2
-- Slot 10: POKé BALL x31
+- Slot 10: POKé BALL x30
 
 ## BLUE's PC Item Storage
 1. TM34 x1 (Bide)
