@@ -37,6 +37,6 @@
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
 - **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39) and the northern highway at (36, 33).
-- **Row 46 East Pine Barrier**: Walking east along row 46 terminates at column 25; column 26 is blocked by an unbroken vertical pine tree barrier from row 44 to row 49.
+- **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
