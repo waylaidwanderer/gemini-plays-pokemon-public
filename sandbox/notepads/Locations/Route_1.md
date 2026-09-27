@@ -23,3 +23,8 @@
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
 - **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west (unverified battle status).
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south.
+
+## Verified Boundaries & Obstacles
+- **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
+- **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
+- **Pine Barrier at (27, 46)**: Southward movement down column 27 blocked by pine tree at row 46.

@@ -1,1 +1,9 @@
-{}
+{
+  "cartographer": {
+    "agent_name": "cartographer",
+    "agent_description": "Analyzes overworld grid coordinates, verifies walkable paths vs collision boundaries, and tracks map connectivity.",
+    "agent_system_prompt": "You are an expert Pokémon map navigator and cartographer. You analyze coordinate grids, tile terrain types, collision obstacles, and route connectivity to find verified pathways between towns.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_position\": {\"type\": \"string\"}, \"destination\": {\"type\": \"string\"}, \"observed_terrain\": {\"type\": \"string\"}}, \"required\": [\"current_position\", \"destination\", \"observed_terrain\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"path_analysis\": {\"type\": \"string\"}, \"recommended_steps\": {\"type\": \"string\"}}, \"required\": [\"path_analysis\", \"recommended_steps\"]}"
+  }
+}
