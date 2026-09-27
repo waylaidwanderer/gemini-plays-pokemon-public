@@ -152,8 +152,8 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Currently default "Riolu", pending Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv8
-- **Max HP**: 27 (Current HP: 26/27, Status: Paralyzed from Mareep Static Turn 824)
+- **Level**: Lv9
+- **Max HP**: 29 (Current HP: 28/29, Status: Paralyzed from Mareep Static Turn 824; leveled up Turn 846)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: Attack 17 (C+), Defense 17 (A-), Sp. Atk 13 (C-), Sp. Def 14 (E), Speed 12 (C-)
