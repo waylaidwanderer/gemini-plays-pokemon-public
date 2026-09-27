@@ -47,6 +47,10 @@
 ## Mother's Return & Siara Syndicate Movements
 - **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
 
+## World Map Geography (Verified Turn 637)
+- **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
+- **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
+
 <hr>
 
 <h1><code>Locations/Inizio_Isle</code></h1>

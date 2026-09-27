@@ -30,3 +30,7 @@
 - **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
 ## Mother's Return & Siara Syndicate Movements
 - **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
+
+## World Map Geography (Verified Turn 637)
+- **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
+- **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
