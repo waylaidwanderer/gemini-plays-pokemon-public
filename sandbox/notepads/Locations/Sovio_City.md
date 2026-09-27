@@ -25,4 +25,8 @@
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior**: Stairs land at (23, 24).
 - **Train Schedule Board**: Lists "AMOR 16:00" and "ALHIA 20:00".
-- **NPCs**: Station Conductor at (21, 25); Dad (Jackson) waiting at (22, 24).
+## Residential House (Plaza East) (Verified Turns 1356-1364)
+- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
+- **Interior**: Entrance mat lands at (64, 35).
+- **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
+- **Residents**: Little Girl at (63, 33) and Nana at (62, 31).

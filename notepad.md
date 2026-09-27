@@ -315,7 +315,11 @@
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior**: Stairs land at (23, 24).
 - **Train Schedule Board**: Lists "AMOR 16:00" and "ALHIA 20:00".
-- **NPCs**: Station Conductor at (21, 25); Dad (Jackson) waiting at (22, 24).
+## Residential House (Plaza East) (Verified Turns 1356-1364)
+- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
+- **Interior**: Entrance mat lands at (64, 35).
+- **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
+- **Residents**: Little Girl at (63, 33) and Nana at (62, 31).
 
 <hr>
 
@@ -332,7 +336,7 @@
 - **Metro Station Entrance**: Blue subway portal with white 'M' logo at (48, 17); entered from row 18. Dad met inside at (22, 24); train connects directly to Amor City.
 - **Quest NPC (Old Man & Phanpy)**: Old man at (51, 15) with companion Phanpy at (51, 16). Quest: His Machop lost its favorite toy and became really aggressive.
 - **Metro Signpost**: Wooden signpost at (49-50, 17) in front of Phanpy.
-- **Commercial Building**: Multi-story building at (46-48, 10-12) with green door at (48, 13) and large rooftop billboard screen.
+- **Residential House (Plaza East)**: Building at (46-48, 10-12) with green door at (48, 13) and rooftop billboard; interior is a residential home (Nana & granddaughter), not a commercial shop.
 - **Central Park Pond**: Located southwest of plaza (rows 16-20). Contains decorative floral displays (white flowers in figure-8 on the left, blue flowers on the right) bordered by stone fencing.
 - **Metro Platform Story Lock (Turn 1435)**: Walking past ticket gate at (19, 21) triggers "I should find dad first!". Dad went outside to investigate the tremor; must find Dad in Sovio City before boarding the train to Amor City.
 
