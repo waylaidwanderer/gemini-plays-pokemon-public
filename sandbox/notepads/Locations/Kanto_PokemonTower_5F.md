@@ -21,4 +21,3 @@
 
 ## Wild Encounters (Empirical Dataset)
 - Gastly: Observed Lv 18 (Turn 47742), Lv 20 (Turn 47746), Lv 21 (Turn 47749), Lv 20 (Turn 47762).
-- Haunter: Documented target species (BCR 90).
