@@ -398,6 +398,7 @@
 
 - Northwest House (28, 14): Teal door tested on Turns 3011 and 3014 with Up and 'A'; confirmed solid collision and non-reactive (decorative facade).
 - North-Central House (39, 7): Entered on Turn 3021. 1F resident elderly man confirmed unchanged ambient dialogue about buying a Wii for his son. 2F resident boy confirmed ambient dialogue about playing games on the Wii. House 100% verified ambient.
+- East Terrace Access: Verified row 15 at (47, 15) is completely open from (46, 15) (curb ledge only blocks rows 13-14). Entering Plaza East house at (49, 14).
 
 <hr>
 
