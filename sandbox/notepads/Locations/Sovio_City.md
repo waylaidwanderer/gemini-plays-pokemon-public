@@ -15,7 +15,7 @@
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-- **NPCs**: Guy on park bench at (41, 28) wondering if catfished; blonde girl at (45, 26) waiting for a blind date.
+- **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turn 1330)
 - **Exterior Entrance**: Double glass door at (44-45, 12).
