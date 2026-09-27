@@ -13,3 +13,4 @@
 - Mother announces the science project is finished: "I have finished it. And we are on a test run."
 - Dad asks: "You finished... what?"
 - Mother names the project: "The Eclipse Project"
+- Asher enters the confrontation; Dad warns: "Asher?! Things aren't too good son."
