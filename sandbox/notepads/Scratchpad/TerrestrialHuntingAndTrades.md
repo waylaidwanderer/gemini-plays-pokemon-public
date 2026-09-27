@@ -1,7 +1,8 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24). 26 Poké Balls in bag. Pokédex: 78 Caught.
+- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, Spooky Lv 24, BONEY Lv 22). 26 Poké Balls in bag. Pokédex: 78 Caught.
+- Capture Storage: Party is 6/6. Next wild captures (Haunter on 5F/6F) will route automatically to PC Box 1 (11 free slots).
 - Silph Scope Status: Active in Bag Slot 11 (unmasks all ghost identities).
 - Floor-by-Floor Encounter & Hazard Survey:
   - 1F: Ground floor reception / memorial altars (safe zone, 0 wild encounters).
@@ -15,8 +16,6 @@
   1. Gastly (#092) [Ghost/Poison, BCR 190]: CAUGHT on 3F with basic Poké Ball on Turn 1 [Turn 47584]! Nickname: SPOOKY. Registered #092.
   2. Cubone (#104) [Ground, BCR 190, hypothesized low encounter rate]: Throw basic Poké Ball on Turn 1 at full HP. Target floors: 3F-5F.
   3. Haunter (#093) [Ghost/Poison, BCR 90]: Appears on 5F-6F. Budget 2-4 Poké Balls or weaken if necessary. (Fallback: Gastly evolves into Haunter at Lv 25).
-- Catch Slots: Party has 2 open slots (Slots 5 and 6). Gastly and Haunter will enter active party. Cubone will be sent to PC Box 1 (11 free slots).
-- Next Targets if Needed for 80 Milestone (Current 76 -> Target 80):
   - Magnemite (#081) / Voltorb (#100) at Power Plant
   - Clefairy (#035) / Zubat (#041) at Mt. Moon
   - Nidoran♂ (#032) / Nidoran♀ (#029) on Route 22

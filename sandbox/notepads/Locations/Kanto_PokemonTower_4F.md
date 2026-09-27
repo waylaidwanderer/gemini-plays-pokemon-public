@@ -14,5 +14,5 @@
 - Tombstones at (12..13, 5), (15..16, 6), (11..13, 7), (11..13, 9), (11, 10), (16, 10), (14..17, 11), (14, 13).
 - Orange altars at (17..18, 5), (18, 6), (17..18, 11..13).
 - Open Passages: Row 8 is a wide open highway (cols 11..18); Col 14 is open (rows 5..10); Row 9 (cols 14..17).
-- Item Ball at (9, 10): Inspected on Turn 47728; tile is open floor (empty/previously collected).
+- Tile (9, 10): Empirically verified solid collision from (10, 10) on Turn 47726; pressing A yielded no dialogue or item. Tile is impassable.
 - Item Ball at (12, 16): Sighted on floor in south alcove [Turn 6264].
