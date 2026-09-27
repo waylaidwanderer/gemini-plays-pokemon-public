@@ -467,7 +467,7 @@
 - Grimer (female) (Lv5, Poison; verified Turn 2246 at (22, 5))
 - Grimer (male) (Lv6, Poison; verified Turn 2416 at (14, 17))
 - Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
-- Poochyena (female) (Lv5-6, Dark; verified Turn 2346 at (33, 28), Turn 2364 at (8, 25))
+- Poochyena (female) (Lv5-7, Dark; verified Turn 2346 at (33, 28), Turn 2364 at (8, 25), Turn 2589 at (15, 17))
 - Purrloin (female) (Lv6, Dark; verified Turn 2351 at (25, 28))
 - Purrloin (female) (Lv5, Dark; verified Turn 2424 at (19, 5))
 - Purrloin (male) (Lv4, Dark; verified Turn 2431 at (23, 9))
