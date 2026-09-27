@@ -23,7 +23,7 @@
   - Green runner rug extends along column 12 from row 12 to row 9.
   - Framed regional map on east wall at (14-15, 8-9).
   - Red rug, table, and PC terminal in western wing.
-  - Stairs leading to 2F at north wall (11-12, 7) (untested).
+  - Stairs at north wall: blocked by railing at (11, 7) from row 8.
 - **East Research Wing**:
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
