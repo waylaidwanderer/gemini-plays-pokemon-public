@@ -7,22 +7,22 @@
 ## Party Pokémon (6 / 6 - Audited Turn 46944)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
-  - Status: Healthy (Revived & Healed Turn 46944)
+  - Status: Healthy
 - Slot 2: FARFETCH'D (Nickname: DUX) [Lv 37, Normal/Flying]
   - HP: 94 / 94
   - Status: Healthy
   - Field Moves: Cut, Fly
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 254 / 254
-  - Status: Healthy (PAR Cured Turn 46944)
+  - Status: Healthy
 - Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
   - HP: 125 / 125
-  - Status: Healthy (Healed Turn 46944)
+  - Status: Healthy
 - Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
   - HP: 101 / 101
   - Status: Healthy
 - Slot 6: RHYDON (Nickname: TITAN) [Lv 52, Ground/Rock]
-  - Status: Healthy (Caught Turn 46916)
+  - Status: Healthy
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46801)
 - Slot 1: POKé FLUTE
