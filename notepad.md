@@ -191,6 +191,7 @@
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
   - Nidoran♀ (Lv3, Poison; verified Turn 494).
+  - Nidoran♂ (Lv2, Poison; verified Turn 1069).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
   - Mareep (Lv3, Electric; verified Turns 722, 821).
   - Weedle (Lv2, Bug/Poison; verified Turn 833).
