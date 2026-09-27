@@ -12,8 +12,8 @@
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
 - **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south (did not initiate battle when adjacent; unverified trainer status).
-- **Trainer (Camper)**: Trainer with straw hat at (15, 44) facing west along row 44.
-- **Signboard 2**: Located at approx (18, 42) north of path.
+- **Trainer (Camper)**: Trainer with straw hat at (17, 43) facing south.
+- **Signboard 2**: Located at (18, 42) directly northeast of Camper.
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
