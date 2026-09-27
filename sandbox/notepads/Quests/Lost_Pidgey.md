@@ -12,4 +12,5 @@
   - **Track 5**: (36, 6) northeast of meadow rock spire [blue claws].
   - **Track 6**: (37, 7) east of meadow rock spire [blue claws].
   - **Track 7**: (41, 10) on open grass path heading southeast toward (45, 11).
+  - **Track 8**: Blue bird tracks observed near (47, 12) heading east toward eastern signpost.
   - **Reward**: Nice rewards / gifts upon completion.
