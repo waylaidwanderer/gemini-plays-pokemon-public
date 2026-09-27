@@ -400,6 +400,7 @@
 - North-Central House (39, 7): Entered on Turn 3021. 1F resident elderly man confirmed unchanged ambient dialogue about buying a Wii for his son. 2F resident boy confirmed ambient dialogue about playing games on the Wii. House 100% verified ambient.
 - East Terrace Access: Verified row 15 at (47, 15) is completely open from (46, 15) (curb ledge only blocks rows 13-14).
 - Plaza East House (49, 14): Entered on Turn 3050. Little Girl dialogue confirmed ambient ('Nana makes the best food!'). Nana dialogue confirmed ambient ('I'm cooking something for my dear grandkid. She loves my cooking...'). House 100% verified ambient.
+- Route 2 Barrier Re-Test (Turn 3073-3075): Stepping onto (52, 19) with no active quest confirmed identical barrier: 'I can\'t go yet... I have things to do!' forcing player west to (51, 19). Confirms city confinement is tied to finding Dad, not side quest.
 
 <hr>
 
