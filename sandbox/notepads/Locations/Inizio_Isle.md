@@ -11,7 +11,7 @@
   - Gift box present at (6, 7) on departure morning.
 
 ## 1F Living Room
-- **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door exit is in southeast corridor around (8, 8).
+- **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door exit is at (9, 10)-(10, 10) with doormat at (9, 9)-(10, 9).
 - **Verified Collisions**:
   - Tile (3, 6) south wall is solid / NOT an exit (verified Turn 104).
   - Bookshelf at (5, 4) is solid (verified Turn 52 collision moving Right from (4, 4)).
