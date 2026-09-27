@@ -26,5 +26,4 @@
 - Koffing (Lv6, Poison; verified Turn 1720)
 - Stunky ♀ (Lv4, Poison/Dark; verified Turn 1991)
 - **Central Corridor**: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north past row 17 into the northern sector.
-- **Black Square Feature**: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace.
-- **Wall Opening / Black Square**: Located at (28, 23) in the eastern wall corner along the central corridor.
+- **Black Square Feature**: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
