@@ -16,16 +16,15 @@
 ## Tactical Analysis: Fifth Grunt (Litwick Lv8)
 - **Litwick Threat Profile**: Ghost/Fire, Lv8.
   - Immune to Normal (Quick Attack) and Fighting (Mach Punch).
-  - Type Matchup vs Metal Claw (Steel): Ghost is 1.0x (neutral), Fire is 0.5x (resisted) -> **Overall 0.5x (Resisted)**!
-  - Damage calculation:
-    - At +0 Attack (27 Atk): Metal Claw deals ~7-8 dmg vs Litwick (~23 HP) -> 3-4 hits to KO.
-    - At +1 Attack (40 Atk via 1 Work Up): Metal Claw deals ~12-14 dmg -> **Solid 2HKO**!
+  - Empirical Damage (Turn 2440 verified): At +0 Attack, Sirius's Metal Claw deals ~60% of Litwick's max HP, making it a guaranteed 2HKO unboosted due to level advantage (Lv14 vs Lv8).
   - Moves observed: Minimize (+2 evasion), Ember (STAB Fire, ~7-8 dmg vs Sirius), Fire Spin (trapping + chip).
-  - Ability: Flame Body (30% chance to burn attacker on contact; Metal Claw makes contact!). Burn status cuts Physical Attack by 50% and deals 1/16 max HP per turn.
+  - Ability: Flame Body (30% chance to burn attacker on contact; Metal Claw makes contact!).
+- **combat_strategist Recommendation (Turn 2582)**:
+  - Immediate aggression with **Metal Claw** on Turn 1!
+  - Do NOT use Work Up on Turn 1, as that gives Litwick a free turn to stack Minimize (+2 evasion), which was the direct cause of prior whiteouts.
+  - Immediate Metal Claw attacks at 95% accuracy before evasion increases, putting Litwick into critical HP (~40%).
+  - Turn 2: Metal Claw again to land the KO before evasion stacks further.
+  - Contingency: Use Potion (+20 HP) if burned or damaged below 15 HP.
 - **Inventory Verified (Turn 2543)**:
   - Bag Items: Potion x 1 (restores 20 HP)
   - Bag Poké Balls: Empty (0)
-- **Refined Battle Strategy**:
-  - Turn 1: Use **Work Up** once (+1 Atk / +1 SpAtk). This cannot miss, makes no contact (0% Flame Body risk), and increases Metal Claw damage to a 2HKO.
-  - Turn 2+: Attack with **Metal Claw** to achieve a 2HKO.
-  - Contingency: If Sirius drops below 15 HP or takes heavy burn chip, use the Potion (+20 HP) immediately to sustain through any Minimize evasion checks.
