@@ -292,5 +292,6 @@
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **Northern Building**: Located at (14-15, 15) with teal door.
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
+- **Story Event (Turn 1219)**: Scripted trigger at (26, 18) heading east; Asher notes "Huh, something seems to be going over there..." looking toward the eastern plaza.
 
 <hr>
