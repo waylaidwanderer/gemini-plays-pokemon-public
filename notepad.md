@@ -23,7 +23,7 @@
 - **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
 - **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
 
-- **Mrs. Ivo**: Featured in an upcoming TV broadcast; Asher has met her previously.
+- **Mrs. Ivo**: Scientist/researcher with brown hair and pink glasses, wearing a white lab coat over a pink dress; currently featured in a televised interview broadcast. Asher previously met her.
 
 ## Starting Setting
 - **Inizio Isle**: Starting location where Asher and his father reside.
