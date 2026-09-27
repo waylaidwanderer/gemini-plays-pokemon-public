@@ -8,6 +8,7 @@
   - Nightstand at (5, 4) is solid.
   - Mat in front of stairs at (9, 4) is walkable.
   - Staircase warp at (10, 4) leads to 1F.
+  - Gift box present at (6, 7) on departure morning.
 
 ## 1F Living Room
 - **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door south at (3, 6).
