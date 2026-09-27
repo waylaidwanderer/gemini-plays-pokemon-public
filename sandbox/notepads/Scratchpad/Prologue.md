@@ -10,3 +10,5 @@
 - "One day a child was born..."
 - Visual: A young child appears between the parents.
 - "This child's name was Asher and he was raised really well."
+- "However things usually aren't as simple as that..."
+- "When I was born, my fate was already chosen for me."
