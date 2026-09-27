@@ -60,8 +60,6 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-## Sovio Sewers - Team Siara Operation
-- **Dad Locked in Storage Room**: Jackson is trapped inside a sewer storage room guarded by Grunt 2, who is waiting for syndicate leader Marie to arrive.
 
 <hr>
 
@@ -174,6 +172,7 @@
   - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
   - Slot 3: Growl (Normal, Status, 40 PP)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
+  - *Declined*: Counter (Physical Fighting, offered Lv12 on Turn 1853; declined to retain priority STAB offense)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
 - **Appearance**: Custom sprite wearing a red/black scarf
@@ -209,6 +208,7 @@
   - Weedle (Lv2, Bug/Poison; verified Turn 833).
   - Bidoof (Lv2, Normal; verified Turn 877).
   - Caterpie (Lv2, Bug; verified Turn 890).
+  - Rattata (Lv3, Normal; verified Turn 1859).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon).
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6 (Defeated on Turn 1154 with Lv10 Sirius using Quick Attack).
@@ -367,7 +367,7 @@
 - **PokéMart**: Expected in major city; not inside Pokémon Center. Commercial buildings in city center remain to be checked.
 - **Route 2 Connection**: Connects east out of Sovio City toward Amor City and the Eclipse Tournament.
 
-## Post-Tremor Progression (Turn 1666-1683)
+## Post-Tremor Progression
 - **Inventory Status (Turn 1866)**: 0 Potions, 0 Max Repel (activated Turn 1866; 250 steps active), 0 Poké Balls. Need to restock supplies at next PokéMart.
 
 <hr>

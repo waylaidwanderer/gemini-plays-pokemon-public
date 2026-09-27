@@ -14,6 +14,7 @@
   - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
   - Slot 3: Growl (Normal, Status, 40 PP)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
+  - *Declined*: Counter (Physical Fighting, offered Lv12 on Turn 1853; declined to retain priority STAB offense)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
 - **Appearance**: Custom sprite wearing a red/black scarf
