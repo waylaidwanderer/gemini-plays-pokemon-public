@@ -132,7 +132,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (5 / 6 - Audited Turn 47057)
+## Party Pokémon (5 / 6 - Audited Turn 47133)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 173 / 269
   - Status: Healthy
@@ -145,10 +145,10 @@
   - Status: Healthy
   - Field Moves: Surf, Strength
 - Slot 4: VENOMOTH (Nickname: MOTHRA) [Lv 51, Bug/Poison]
-  - HP: Full (Healthy)
+  - HP: 134 / 134
   - Status: Healthy
 - Slot 5: MAROWAK (Nickname: SKULL) [Lv 52, Ground]
-  - HP: Full (Healthy)
+  - HP: 108 / 124
   - Status: Healthy
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47100)
