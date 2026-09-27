@@ -58,9 +58,7 @@
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
 
 ## Residential House (Northwest - Teal Door) (Verified Turns 1482, 3015)
-- **Entrance**: Teal door at (28, 14) tested on Turns 3011 and 3014; solid collision when stepping north from (28, 15) and non-reactive to 'A'. Non-interactive decorative facade.
-- **Interior**: Entrance mat lands at (24, 36).
-- **Residents**: Mother and son at dining table.
+- **Entrance**: Teal door at (28, 14) tested on Turns 3011 and 3014; solid collision when stepping north from (28, 15) and non-reactive to 'A'. Non-interactive decorative facade. Note: Potential 1-tile offset from Turn 1482 entry remains to be re-tested if ever needed.
 
 ## Residential House (Northwest - Machop Family) (Verified Turn 1491)
 - **Entrance**: Teal door at (13, 15). The avenue terminates at row 15 into a solid building facade; there is no northern street.
