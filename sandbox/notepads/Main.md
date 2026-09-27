@@ -7,7 +7,7 @@
 
 - Money: ¥5,905
 
-- Pokédex: 73 Caught [Venomoth caught Turn 47021] / 137 Seen
+- Pokédex: 74 Caught [Marowak caught Turn 47053] / 137 Seen
 
 ## Milestones
 
@@ -118,3 +118,4 @@
 - [x] Catch wild Kadabra (#064 SPOON) on Cerulean Cave 1F with Poké Ball [Turn 46787]
 - [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
 - [x] Catch wild Venomoth (#049 MOTHRA) on Cerulean Cave 2F with Poké Ball [Turn 47021]
+- [x] Catch wild Marowak (#105 SKULL) on Cerulean Cave 2F with Poké Ball [Turn 47053]
