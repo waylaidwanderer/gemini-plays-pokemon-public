@@ -36,3 +36,4 @@
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
 - **Pine Barrier at (27, 46)**: Southward movement down column 27 blocked by pine tree at row 46.
 - **Thicket Dead End (20-28, 38-43)**: Winding gap between hedges terminates at (28, 41); north blocked by row 38 pine tree barrier and (28, 40) collision, east blocked by dense hedge at (29, 40-41). Must use main road at row 46.
+- **Row 46 East Pine Barrier**: Walking east along row 46 terminates at column 25; column 26 is blocked by an unbroken vertical pine tree barrier from row 44 to row 49.

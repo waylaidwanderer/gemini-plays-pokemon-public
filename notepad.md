@@ -153,7 +153,7 @@
 - **Nickname**: Sirius (Currently default "Riolu", pending Name Rater)
 - **Gender**: Male (♂)
 - **Level**: Lv9
-- **Max HP**: 29 (Current HP: 28/29, Status: Paralyzed from Mareep Static Turn 824; leveled up Turn 846)
+- **Max HP**: 29
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: Attack 19 (C+), Defense 19 (A-), Sp. Atk 14 (C-), Sp. Def 16 (E), Speed 14 (C-)
@@ -208,6 +208,7 @@
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
 - **Pine Barrier at (27, 46)**: Southward movement down column 27 blocked by pine tree at row 46.
 - **Thicket Dead End (20-28, 38-43)**: Winding gap between hedges terminates at (28, 41); north blocked by row 38 pine tree barrier and (28, 40) collision, east blocked by dense hedge at (29, 40-41). Must use main road at row 46.
+- **Row 46 East Pine Barrier**: Walking east along row 46 terminates at column 25; column 26 is blocked by an unbroken vertical pine tree barrier from row 44 to row 49.
 
 <hr>
 
