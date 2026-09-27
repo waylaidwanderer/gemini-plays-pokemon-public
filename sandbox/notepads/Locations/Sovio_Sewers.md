@@ -51,3 +51,7 @@
 - Klink (Lv4, Steel; verified Turn 2393 at (14, 28))
 
 - Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
+- Koffing (male) (Lv5, Poison; verified Turn 2558 at (32, 28))
+- Klink (Lv4, Steel; verified Turn 2564 at (20, 28))
+- Purrloin (male) (Lv4, Dark; verified Turn 2603 at (22, 5))
+- Koffing (male) (Lv4, Poison; verified Turn 2611 at (23, 7))
