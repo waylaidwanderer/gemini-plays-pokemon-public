@@ -19,4 +19,5 @@
 - "Slowly as I grew up, they started having more and more differences."
 - "They were working on a science project together, which in fact could have given them domination."
 - "However my father thought it was too dangerous."
-- "He wanted to ditch the research, whatever it was it must have been..."
+- "He wanted to ditch the research, whatever it was it must have been terrifying..."
+- "But my mother had different plans, and kept on with it..."
