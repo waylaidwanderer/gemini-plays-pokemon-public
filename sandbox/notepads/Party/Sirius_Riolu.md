@@ -12,7 +12,7 @@
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
   - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
-  - Slot 3: Growl (Normal, Status, 40 PP)
+  - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48 Turn 2334)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - *Declined*: Counter (Physical Fighting, offered Lv12 on Turn 1853; declined to retain priority STAB offense)
 - **OT / ID**: Asher / 54592
