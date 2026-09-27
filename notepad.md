@@ -32,6 +32,7 @@
 - "make it powerful enough to take over the world..."
 - "Sounds like a weird drama, I know, however it wasn't."
 - Visual: Young Asher disappears; parents remain.
-- "Slowly as I grew up..."
+- "Slowly as I grew up, they started having more and more differences."
+- "They were working on a science project together, which in fact could have given them domination."
 
 <hr>
