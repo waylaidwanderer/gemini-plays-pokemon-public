@@ -44,4 +44,4 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-- **Asher's Solo Investigation (Turn 2709)**: After freeing Dad, Asher asked Valora to go ahead to the Metro Station without him. Having heard the grunts discuss a 'young master' who had found something, Asher resolved to stay behind in the sewers to investigate whether this operative is still present.
+- **The 'Young Master' Identity Clarification (Turn 2731)**: Marie's radio directive ordering grunts to withdraw because 'the young master already found it' referred directly to Asher himself (son of Marie and Jackson, heir to the Siara Mafia). There was no second operative lurking in the sewers; Asher resolved his inquiry and headed to the Metro Station to rejoin Dad and Valora.
