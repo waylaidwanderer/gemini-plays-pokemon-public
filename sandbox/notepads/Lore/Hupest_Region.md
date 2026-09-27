@@ -7,7 +7,7 @@
 - **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
 - **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
 
-- **Mrs. Ivo**: Leading Pokémon Professor of the Hupest Region. Scientist with brown hair and pink glasses, wearing a white lab coat over a pink dress. Asher previously met her.
+- **Mrs. Ivo**: Leading Pokémon Professor of the Hupest Region. Scientist with brown hair and pink glasses, wearing a white lab coat over a pink dress. Known Asher since his childhood (affectionately calls him "Ashi") and hasn't seen him in years.
 - **Harry**: Father's friend and associate who operates the boat at Inizio Isle dock; addresses Asher as "young master". Providing passage to Lancio Town.
 
 ## Starting Setting
