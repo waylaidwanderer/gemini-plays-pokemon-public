@@ -10,5 +10,6 @@
 ## Systematic City Search for Dad (Post-Tremor)
 - **Central Plaza Sector**: SURVEYED. Dad not in North Central House or Pokémon Center (verified Turn 1527).
 - **West / Northwest Sectors**: SURVEYED. Dad not found (Machop family house, teal door house, bikers all clear).
-- **Southwest Sector**: IN PROGRESS. Stopped at row 24 on Turn 1496; East Building entrance at (17, 27) and sewer manhole at (13, 27) remain unvisited and unexamined. Heading there now.
+- **Southwest Sector**: SURVEYED. Building at (17, 27) has no accessible entrance; manhole at (13, 27) is decorative; Route 1 entrance corridor is empty.
+- **South Central Sector**: TESTING. Found gathering with Jigglypuff at (33-35, 28) and building with teal door at (31-32, 26).
 - **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can't go yet... I have things to do!' (Turn 1506).

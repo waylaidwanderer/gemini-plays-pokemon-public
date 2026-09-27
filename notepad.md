@@ -301,8 +301,9 @@
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Manhole**: Located at (13, 27).
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 20-22, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang ('vroom vroom Jealous kid? ... We are the big guys here, the ultimate motorcycle gang!').
-- **East Building Entrance**: Brown wooden door at (17, 27) with an ashcan/barrel in front at (16, 28).
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 20-22, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
+- **East Building (Southwest)**: Structure at (17-20, 27) with decorative wooden siding; inaccessible due to solid curb along column 18 (tested Turn 1535).
+- **Sewer Manhole (Southwest)**: Located at (13, 27); verified on Turn 1537 as a non-interactive decorative tile.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
@@ -360,7 +361,8 @@
 ## Systematic City Search for Dad (Post-Tremor)
 - **Central Plaza Sector**: SURVEYED. Dad not in North Central House or Pokémon Center (verified Turn 1527).
 - **West / Northwest Sectors**: SURVEYED. Dad not found (Machop family house, teal door house, bikers all clear).
-- **Southwest Sector**: IN PROGRESS. Stopped at row 24 on Turn 1496; East Building entrance at (17, 27) and sewer manhole at (13, 27) remain unvisited and unexamined. Heading there now.
+- **Southwest Sector**: SURVEYED. Building at (17, 27) has no accessible entrance; manhole at (13, 27) is decorative; Route 1 entrance corridor is empty.
+- **South Central Sector**: TESTING. Found gathering with Jigglypuff at (33-35, 28) and building with teal door at (31-32, 26).
 - **East / Route 2 Sector**: LOCKED. East exit at (52, 19) blocked by 'I can't go yet... I have things to do!' (Turn 1506).
 
 <hr>
