@@ -8,7 +8,7 @@
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 20-22, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
-- **East Building (Southwest)**: Structure at (17-20, 27) with decorative wooden siding; inaccessible due to solid curb along column 18 (tested Turn 1535).
+- **East Building (Southwest)**: Structure at (17-20, 27) with decorative wooden siding; eastward approach from (15, 27) blocked by curb at column 18 (tested Turn 1535). Other perimeters (rows 26, 28) remain unverified.
 - **Sewer Manhole (Southwest)**: Located at (13, 27); verified on Turn 1537 as a non-interactive decorative tile.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
@@ -25,7 +25,7 @@
   - Exit mat at (7, 8).
   - Main Nurse Joy counter straight north along column 7 at row 3/4.
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
-  - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5).
+  - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5). Entire 15-tile width verified (Turn 2491): no PokéMart counter or vendor inside.
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
@@ -61,3 +61,5 @@
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
+## North-Central Commercial/Residential Block
+- **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
