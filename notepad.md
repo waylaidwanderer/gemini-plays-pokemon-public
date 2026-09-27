@@ -422,5 +422,6 @@
 - Koffing (Lv6, Poison; verified Turn 1720)
 - Stunky ♀ (Lv4, Poison/Dark; verified Turn 1991)
 - Grimer ♀ (Lv7, Poison; verified Turn 2121)
+- Honedge ♀ (Lv5, Steel/Ghost; verified Turn 2140)
 
 <hr>
