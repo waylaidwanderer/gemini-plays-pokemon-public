@@ -15,13 +15,10 @@
 - Slot 3: BLASTOISE (Nickname: SHELDON) [Lv 79, Water]
   - HP: 254 / 254
   - Status: Healthy
-- Slot 4: DODRIO (Nickname: HYDRA) [Lv 49, Normal/Flying]
-  - HP: 125 / 125
-  - Status: Healthy
-- Slot 5: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
+- Slot 4: KADABRA (Nickname: SPOON) [Lv 49, Psychic]
   - HP: 101 / 101
   - Status: Healthy
-- Slot 6: RHYDON (Nickname: TITAN) [Lv 52, Ground/Rock]
+- Slot 5: RHYDON (Nickname: TITAN) [Lv 52, Ground/Rock]
   - Status: Healthy
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 46801)
@@ -66,7 +63,7 @@
 
 ## PC Pokémon Storage
 - Active Box: BOX 1
-- Box 1: Contains 3 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46 - stored Turns 46635-46638)
+- Box 1: Contains 4 Pokémon (HYPNOS Lv 46, FANGS Lv 46, TESLA Lv 46, HYDRA Lv 49 - stored Turns 46635-46954)
 - Box 2: Contains 2 Pokémon (PUFF Lv 3 Wigglytuff, RATTY Lv 20 Raticate - audited Turn 44278)
 - Box 3: Contains 2 Pokémon (SILK Lv 10 Butterfree, NEEDLE Lv 10 Beedrill - stored Turn 44267, 44269)
 - Box 4: Empty [Verified Turn 44287]
