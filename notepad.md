@@ -2116,7 +2116,6 @@
 
   - Dialogue: Mentions catching Cubone and looking for Marowak.
 
-  - Departure: Exited down the stairs at (18, 9) to 1F.
 
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
 
@@ -2171,8 +2170,12 @@
 
 ## Geography & Layout
 - Eastern Wall: (19, 5..10) orange altars.
-- Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
+- Tombstones at (7, 6) [blocked Row 6 Turn 47845], (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
 - Row 10 Layout: Tile (14, 10) has a tombstone; bypass via Column 12 (rows 6..10) north to Row 6 highway leading east to (18, 9) stairs.
+## Wild Encounters (Empirical Dataset)
+- Gastly: Observed Lv 18 (Turn 47614), Lv 20 (Turn 47846), Lv 21 (Turns 47842, 47849, 47851).
+- Cubone: Observed Lv 20 (Turn 47839).
+
 
 <hr>
 
@@ -2715,7 +2718,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Key Events & Encounters
 - Channeler at (6, 10): Defeated Turn 6268 (Prize: ¥720) (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
-- Channeler at (15, 7): Sighted facing South [Turn 6259].
+- Channeler at (15, 7): Sighted facing South [Turn 6259]; player traversed across (15, 8) with zero engagement [Turn 47837-47838], confirming inactive/defeated.
 - Channeler at (14, 12): Sighted facing West [Turn 6259].
 
 ## Geography & Layout
@@ -2785,7 +2788,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 
 ## Wild Encounters (Empirical Dataset)
-- Gastly: Observed Lv 20 (Turn 47773), Lv 19 (Turn 47777), Lv 23 (Turn 47780), Lv 19 (Turn 47793), Lv 21 (Turn 47796), Lv 21 (Turn 47802), Lv 20 (Turn 47805), Lv 20 (Turn 47808), Lv 22 (Turn 47811), Lv 20 (Turn 47817), Lv 22 (Turn 47823).
+- Gastly: Observed Lv 19-23.
 - Cubone: Observed Lv 24 (Turn 47788).
 
 
@@ -5363,6 +5366,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Evolution & Capture to 80 Milestone
+- Tower Descent Initiated: Turn 47822 from 6F (14, 9). Target: Lavender Town outdoors. Budget: ~40-60 turns including battle escapes.
 - Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10, SPOOKY Lv 24, BONEY Lv 22). 26 Poké Balls. Pokédex: 78 Caught.
 - Strategy Shift: Gastly (SPOOKY) is Lv 24 in party slot 5. Gastly evolves into Haunter (#093) at Lv 25 (only 1 level required!).
 - Action Plan:
