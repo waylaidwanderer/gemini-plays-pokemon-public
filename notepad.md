@@ -121,7 +121,8 @@
 - [x] Catch wild Rhydon (#112 TITAN) on Cerulean Cave 2F with Poké Ball [Turn 46916]
 - [x] Catch wild Venomoth (#049 MOTHRA) on Cerulean Cave 2F with Poké Ball [Turn 47021]
 - [x] Catch wild Marowak (#105 SKULL) on Cerulean Cave 2F with Poké Ball [Turn 47053]
-- [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]- [x] Catch wild Abra (#063 HOUDINI) on Route 25 with Poké Ball [Turn 47514]
+- [x] Catch wild Ditto (#132) on Cerulean Cave 1F with Poké Ball [Turn 47320]
+- [x] Catch wild Abra (#063 HOUDINI) on Route 25 with Poké Ball [Turn 47514]
 
 
 <hr>
@@ -134,7 +135,7 @@
 - Name: BLUE
 - IDNo: 04620
 
-## Party Pokémon (3 / 6 - Audited Turn 47377)
+## Party Pokémon (4 / 6 - Audited Turn 47521)
 - Slot 1: MEWTWO (Nickname: OMEGA) [Lv 76, Psychic]
   - HP: 269 / 269
   - Status: Healthy
@@ -146,7 +147,8 @@
   - HP: 254 / 254
   - Status: Healthy
   - Field Moves: Surf, Strength
-- Slot 4: [EMPTY]
+- Slot 4: ABRA (Nickname: HOUDINI) [Lv 10, Psychic]
+  - Status: Healthy
 - Slot 5: [EMPTY]
 - Slot 6: [EMPTY]
 
@@ -1281,7 +1283,7 @@
 | Bellsprout | Lv 12–14 | (6, 4), (7, 5) | Caught SPROUT Lv 14 [Turn 44368]; SPROUT Lv 12 [Turn 42581] |
 | Pidgey | Lv 13 | (2..7, 4..5) | Caught BIRDIE Lv 13 [Turn 42475]; fled Turns 42496, 44359 |
 | Kakuna | Lv 7 | (7, 4) | Caught COCOON Lv 7 [Turn 42517] |
-| Abra | Lv 12 | (2..7, 4..5) | High flee rate (Teleport); observed Turns 42501, 42543, 42559, 42574, 44341 |
+| Abra | Lv 10–12 | (2..7, 4..5) | High flee rate (Teleport); observed Turns 42501, 42543, 42559, 42574, 44341; Caught HOUDINI Lv 10 with Poké Ball [Turn 47514] |
 | Metapod | Lv 9 | (4, 4) | Observed Turn 44353; fled (already registered) |
 
 <hr>
@@ -5341,7 +5343,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 35 Poké Balls in bag. Pokédex: 75 Caught.
+- Status: Party 4/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, Houdini Lv 10). 33 Poké Balls in bag. Pokédex: 76 Caught.
 - Target Species:
   1. Gastly (#092) [Ghost/Poison, Lv 18-24, BCR 190]
   2. Haunter (#093) [Ghost/Poison, Lv 20-25, BCR 90]
@@ -5353,13 +5355,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 
 ## Active Tactical Hunt: Route 25 Wild Abra (#063) [COMPLETED Turn 47514]
 - Location: Route 25 Tall Grass at Cols 2..7, Rows 4..5.
-- Status: SUCCESS! Caught Abra Lv 10 with basic Poké Ball on throw 2 (Turn 47514). Nickname: HOUDINI. Registered #063 in Pokédex (76 total caught).
-- Target Species: Abra (#063) [Psychic, Lv 8-12, BCR 200].
-  - Behavior: Teleport is Abra's sole move; flees on turn 1 if not captured immediately.
-  - Catch Strategy: Mewtwo (OMEGA Lv 76) outspeeds wild Abra (100% speed priority). Throw basic Poké Ball on Turn 1 at full HP (favorable BCR 200 threshold). If breakout occurs, Abra teleports away; re-engage next encounter.
-- Secondary Encounters:
-  - Pidgey, Bellsprout, Kakuna, Metapod (Already registered in Pokédex - flee immediately via Omega's 100% flee rate).
-- Progression Milestone: Registering Abra brings Pokédex from 75 to 76 caught species before proceeding to Pokémon Tower (Expedition 4).
+- Outcome: SUCCESS! Caught Abra Lv 10 with basic Poké Ball on throw 2 (Turn 47514). Nickname: HOUDINI. Registered #063 in Pokédex (76 total caught).
 
 
 <hr>
