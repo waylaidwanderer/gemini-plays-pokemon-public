@@ -9,7 +9,7 @@
 - Channeler at (9, 9): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6252 (Prize: ¥720). Defeat dialogue: 'Hmm? What am I doing?'.
 - Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: ¥690). Defeat dialogue: 'What!'.
 - Item Ball at (9, 10): Poké Ball on floor (Escape Rope) [Turn 5030].
-- Item Ball at (12, 1): Poké Ball on floor in north alcove [Sighted Turn 6242].
+- Item Ball at (12, 1): Inspected on Turn 47696; tile is open floor (already collected/empty).
 - Wild Cubone Verification [Turn 47621]: Encountered wild Cubone at (15, 4). Empirically confirms wild Cubone spawns on 3F in retail Pokémon Blue!
 
 ## Geography & Layout
