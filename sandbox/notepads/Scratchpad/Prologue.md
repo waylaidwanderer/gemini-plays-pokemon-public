@@ -14,3 +14,6 @@
 - "When I was born, my fate was already chosen for me."
 - "My parents wanted me to be the organization's future leader, and"
 - "make it powerful enough to take over the world..."
+- "Sounds like a weird drama, I know, however it wasn't."
+- Visual: Young Asher disappears; parents remain.
+- "Slowly as I grew up..."
