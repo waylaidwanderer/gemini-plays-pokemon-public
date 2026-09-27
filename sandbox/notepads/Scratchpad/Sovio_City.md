@@ -11,3 +11,4 @@
 - **Metro Signpost**: Wooden signpost at (49-50, 17) in front of Phanpy.
 - **Commercial Building**: Multi-story building at (46-48, 10-12) with green door at (48, 13) and large rooftop billboard screen.
 - **Central Park Pond**: Located southwest of plaza (rows 16-20). Contains decorative floral displays (white flowers in figure-8 on the left, blue flowers on the right) bordered by stone fencing.
+- **Metro Platform Story Lock (Turn 1435)**: Walking past ticket gate at (19, 21) triggers "I should find dad first!". Dad went outside to investigate the tremor; must find Dad in Sovio City before boarding the train to Amor City.
