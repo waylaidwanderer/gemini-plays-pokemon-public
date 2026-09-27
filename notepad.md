@@ -275,7 +275,7 @@
 
 ## Details
 - **Giver**: Blue cap boy at Route 1 northeast clearing (34, 37).
-- **Status**: Active (Accepted Turn 560-562).
+- **Status**: Inactive / Cancelled (Switched to Machop's Toy Turn 2094; can be re-accepted from blue cap boy at Route 1 (34, 37)).
 - **Objective**: Find the boy's lost Pidgey who wandered away on Route 1.
 - **Reward**: Nice rewards / gifts upon completion.
 
