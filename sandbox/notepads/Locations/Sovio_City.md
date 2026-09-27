@@ -61,5 +61,3 @@
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
 - **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
-- **East Exit Story Barrier (Verified Turn 2068)**: Attempting to walk east past column 51 along row 20 triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher back to (51, 20).
-- **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
