@@ -322,7 +322,7 @@
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-- **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26).
+- **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turn 1330)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
