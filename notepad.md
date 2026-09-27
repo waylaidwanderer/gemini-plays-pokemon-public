@@ -470,5 +470,6 @@
 
 - Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718 at (37, 13))
+- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))
 
 <hr>
