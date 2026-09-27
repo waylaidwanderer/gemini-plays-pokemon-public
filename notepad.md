@@ -378,12 +378,14 @@
 
 # Scratchpad: Sovio City Hypotheses & Live Routing
 
-## Metro Station Investigation & Dad Search
-- Dad and Valora exited the sewer storage room heading for the station/city.
-- Metro Station turnstile at (19, 21) verified blocked on Turn 2785 with: 'I should find dad first!'. Conductor and platform visible north of turnstile.
-- Metro Station lobby is confirmed empty (no Dad, no Valora).
-- Working Hypothesis: Dad and Valora are outside in Sovio City (e.g. Central Plaza near Pokémon Center, Metro exterior, or Route 2 exit).
-- Plan: Exit Metro Station to Sovio City at (48, 17) and thoroughly sweep Central Plaza (columns 38-48, rows 12-18) to find Dad.
+## Citywide Dad Search
+- Metro Station turnstile at (19, 21) verified blocked with: 'I should find dad first!'.
+- Metro Station lobby and waiting benches empirically confirmed empty (Turn 2803).
+- Route 2 east exit blocked with: 'I can't go yet... I have things to do!' (Turn 2796).
+- Central Plaza in front of Pokémon Center surveyed empty (Turn 2816).
+- Working Hypothesis: Dad is located in the northern road corridor (rows 7-12) or the western district (columns 12-30) of Sovio City.
+- Plan: Sweep West Avenue and inspect buildings across the western district to find Dad and clear the story barrier.
+
 
 <hr>
 
@@ -457,7 +459,6 @@
 - Koffing (Lv5, Poison; verified Turn 2205 at (21, 5))
 - Koffing (Lv4, Poison; verified Turn 2405 at (13, 30))
 - Stunky (female) (Lv4, Poison/Dark; verified Turn 1991)
-- Grimer (female) (Lv7, Poison; verified Turn 2121)
 - Grimer (female) (Lv5-7, Poison; verified Turn 2121, Turn 2246 at (22, 5), Turn 2666 at (28, 13))
 - Grimer (male) (Lv6, Poison; verified Turn 2416 at (14, 17))
 - Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
