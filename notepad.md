@@ -237,7 +237,7 @@
 ## Active Routing & Progression
 - **Main Milestone**: Advance along the main road on row 46 to Sovio City for tournament registration and Poké Ball restock.
 - **Column 4 Blocked**: (4, 42) is blocked by a pine tree trunk; (5, 43) is a Cut tree. The northern tree line is impassable here.
-- **Active Navigation**: Move back south to row 45 dirt path, then follow the main road east.
+- **Active Navigation**: Defeating wild Starly and investigating the true northward path.
 
 <hr>
 
