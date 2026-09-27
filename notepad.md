@@ -312,5 +312,6 @@
 - Mother remarks: 'Is this how you welcome back your ex?'
 
 - Mother asks Dad: "Didn't you miss me?"
+- Mother announces the science project is finished: "I have finished it. And we are on a test run."
 
 <hr>
