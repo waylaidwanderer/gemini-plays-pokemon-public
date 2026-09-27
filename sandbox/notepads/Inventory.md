@@ -17,7 +17,8 @@
   - Status: Healthy
   - Field Moves: Surf, Strength
 - Slot 4: VENOMOTH (Nickname: MOTHRA) [Lv 51, Bug/Poison]
-  - Status: Healthy (Caught Turn 47021)
+  - HP: Full (Healthy)
+  - Status: Healthy
 
 ## Bag Items (10 / 20 Slots Occupied - Audited Turn 47011)
 - Slot 1: POKé FLUTE
