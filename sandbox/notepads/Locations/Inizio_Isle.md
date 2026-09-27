@@ -11,7 +11,7 @@
   - Gift box present at (6, 7) on departure morning.
 
 ## 1F Living Room
-- **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door south at (3, 6).
+- **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door south at (3, 6) with exit warp.
 - **Verified Collisions**:
   - Bookshelf at (5, 4) is solid (verified Turn 52 collision moving Right from (4, 4)).
   - Walkable bypass: Row 5 path (4, 5) -> (5, 5) -> (6, 5) -> (7, 5).
