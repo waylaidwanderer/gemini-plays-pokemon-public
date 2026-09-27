@@ -2,7 +2,7 @@
 
 ## Details
 - **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
-- **Status**: Active (Accepted Turn 2092; cancelled Lost Pidgey to activate).
+- **Status**: Active / Deferred (Southern Canal search deferred while advancing primary milestone to Amor City).
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 

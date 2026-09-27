@@ -20,7 +20,7 @@
 - **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turn 1330)
-- **Exterior Entrance**: Double glass door at (44-45, 12).
+- **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
 - **Interior Layout**:
   - Exit mat at (7, 8).
   - Main Nurse Joy counter straight north along column 7 at row 3/4.
@@ -34,7 +34,8 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00".
   - Waiting area chairs along west wall at (17-18, 22-25).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
-  - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
+  - **Turnstile Gate (Verified Turn 2755)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Attempting to pass without Dad triggers story barrier 'I should find dad first!'.
+- **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
 - **Interior**: Entrance mat lands at (64, 35).

@@ -27,7 +27,7 @@
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo (male) Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: 728 Yen.
 - **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada (female) Lv7 (Bug/Ground, known move: Harden), Shinx (male) Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: 832 Yen.
 - **Fourth Siara Grunt**: Located at (22, 4) facing south, guarding the intersection of row 5 and the southern corridor at column 22 (engaged Turn 2209). Pre-battle dialogue: "Sorry kiddo, but this is private area!". Roster: Mankey (male) Lv8 (Fighting, known move: Leer), Skitty (female) Lv8 (Normal). Team size: 2 Pokemon. Defeated Turn 2235. Defeat quote: "Gyaaaaah!". Payout: 832 Yen.
-- **Fifth Siara Grunt**: Female grunt located at (23, 13) facing North at the southern terminus of the column 23 gangway. Defeated Turn 2636 with Sirius's Metal Claw! Defeat quote: '...'. EXP: 93. Payout: 832 Yen. Roster: Litwick (male) Lv8. Grunt remains solid at (23, 13) post-battle. Floor at (22, 12) is walkable; shallow puddle lies at (22, 13-15) west of grunt; horizontal gangway extends east at row 13 under northern brick wall.
+- **Fifth Siara Grunt**: Female grunt located at (23, 13) at the southern terminus of column 23 gangway. Roster: Litwick (male) Lv8. Vacated sewer post-rescue.
 - **Sixth Siara Grunt (Storage Room Guard)**: Located at (31, 13) guarding the gangway leading directly to Jackson's storage room (red mat at 34-35, 14). Engaged Turn 2682. Radio call from Marie ('milady') ordered full Team Siara withdrawal after learning Asher arrived. Grunt confirmed Jackson is 'in the back' and retreated, vacating all sewer posts.
 
 ## Topography & Connectivity
@@ -55,4 +55,6 @@
 
 - Trubbish (female) (Lv4-6, Poison; verified Turn 2576 at (17, 25), Turn 2597 at (15, 8))
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718 at (37, 13))
-- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))
+- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747 at (27, 27))- Koffing (Lv7, Poison; verified Turn 2734 at (20, 5))
+- Purrloin (female) (Lv6, Dark; verified Turn 2741 at (16, 18))
+- Koffing (female) (Lv6, Poison; verified Turn 2751 at (34, 27))
