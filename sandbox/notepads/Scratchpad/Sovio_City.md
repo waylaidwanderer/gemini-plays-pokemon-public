@@ -45,3 +45,4 @@
 - Grunt defeat quote: "What the?! Aren't these Pokémon strong?"
 - Prize: Asher received ¥728 for winning.
 - **Debrief**: Siara Mafia withdrew; cyan-haired civilian thanked Asher and departed; Dad praises Asher: "That was very heroic of you..."
+- **Dad's Instruction**: Dad told Asher to meet him down at the Metro Station later.
