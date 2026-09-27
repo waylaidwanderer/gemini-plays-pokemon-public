@@ -88,3 +88,17 @@
 - Corridor connects north lawn directly to row 18 at (26, 18) (white flowers).
 
 <hr>
+
+<h1><code>Locations/Lancio_Town</code></h1>
+
+# Lancio Town
+
+## Harbor / Dock
+- **Dock**: Wooden pier at rows 23-26, columns 32-34.
+- **Arrival**: Asher arrived via Harry's boat with Dad (Jackson).
+- **Surroundings**:
+  - Cobblestone/gravel path leads north from the dock into the main town.
+  - NPC trainer with red cap standing northeast of dock near a building.
+  - Ocean to south and west.
+
+<hr>
