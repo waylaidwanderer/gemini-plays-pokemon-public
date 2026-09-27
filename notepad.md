@@ -5295,6 +5295,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
   - Duplicate encounters: RUN immediately (100% flee success with Lv 76 Mewtwo).
   - When caught: Party reaches 6/6. Exit south via (24..25, 17) to Cerulean City, Fly to Center, deposit catches (Mothra, Skull, Ditto) to Box 1.
 
+- TARGET ENCOUNTERED: Wild Ditto appeared on Turn 47248 at (21, 14)! Actively engaging capture protocol with 26 Pok� Balls.
 
 <hr>
 
