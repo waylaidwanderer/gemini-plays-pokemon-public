@@ -11,17 +11,18 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south (did not initiate battle when adjacent; unverified trainer status).
-- **NPC 2 (Camper/Straw Hat)**: Character with straw hat at (17, 45) facing south (unverified battle status).
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south.
+- **NPC 2 (Camper/Straw Hat)**: Character with straw hat at (17, 45) facing south.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
   - Nidoran♀ (Lv3, Poison; verified Turn 494).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
+- **NPC 4 (Backwards Cap Boy)**: Located at (29, 20) in Route 1 northwest clearing, facing south (verified Turns 652-653).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
-- **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west (unverified battle status).
+- **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south.
 
 ## Verified Boundaries & Obstacles
