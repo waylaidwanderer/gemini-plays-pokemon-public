@@ -303,7 +303,7 @@
 # Scratchpad: Sovio City Hypotheses & Live Routing
 
 ## Unverified Hypotheses & Rumors
-- **Metro Station**: Mentioned in World Map; not yet located on foot.
+- **Metro Station**: Mentioned in World Map; Dad noted it is located down near the Pokémon Center.
 - **PokéMart**: Expected in major city; not yet located on foot.
 - **Route 2 Connection**: Believed to lead east toward Amor City.
 
