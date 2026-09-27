@@ -6,7 +6,7 @@
 - **Terrain**: Cobblestone road transitions into dirt paths and patches of tall wild grass starting at column 5, row 45.
 
 ## Landmarks & Key Points
-- **Signboard**: Located at (10, 47) south of central pine tree.
+- **Signboard**: Located at (10, 47) south of central pine tree; reads "Route 1: Everything starts small."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
 
 ## Wild Encounters & Trainers
