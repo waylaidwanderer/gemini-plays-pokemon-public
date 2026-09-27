@@ -28,7 +28,7 @@
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
   - Main lobby floor lands at (23, 24) on vertical red mat.
-  - Stairs leading back up to Sovio City overworld at (26, 24) (accessed from 26, 25).
+  - Stairs leading back up to Sovio City overworld at (24, 24).
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00".
   - Waiting area chairs along west wall at (17-18, 22-25).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
