@@ -329,5 +329,6 @@
 - Mother: "Oh well, if we are this hostile, why don't we get to the main diversion?"
 - A Pidgey appears on the field in front of the Siara Mafia grunt as the screen dims for the test run diversion!
 - Asher observes: "Those Pidgey... Why are they... different?" (Eclipse variant Pokémon!)
+- Dad recognizes the threat: "Dad: ... Oh no..."
 
 <hr>
