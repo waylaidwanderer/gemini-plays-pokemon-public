@@ -396,7 +396,9 @@
 - **Landing (1F)**: Asher arrives at (37, 22) at the base of the wooden staircase.
 - **Staircase Up**: Located at (38, 22) leading back up to Sovio Metro Station.
 - **Terrain & Features**:
-  - Stone-rimmed pool of water on the upper landing at columns 31-34, rows 21-23.
+  - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
+  - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
+  - Northern Upper Corridor: 2-tile wide passage at columns 31-32 leading north past row 20 connecting the upper landing to the elevated northern catwalks.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
 ## Active Missions & Enemies
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers.
