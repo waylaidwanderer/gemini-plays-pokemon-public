@@ -30,3 +30,5 @@
 - "To protect me from my mother's delusions..."
 - "Even after all of this, my father still sticked around in the shadows to see how things are..."
 - "He realized its true potential and the threat it posesses..."
+- "And thus decided to take down Siara once and for all."
+- "He doesn't want to involve me. To leave me out of danger."
