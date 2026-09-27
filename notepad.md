@@ -244,6 +244,8 @@
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 ## HuPhone Apps & Scope (Verified Turn 1520-1522)
 - **Quest Log App Scope**: The HuPhone's Quest Log app tracks side quests only ('Lost Pidgey', 'Lost Toy', 'Egg Research', 'Medic!', 'Squirtle Gang'). Main story progression milestones and active story objectives are NOT tracked in the Quest Log app.
+## Pokémon Center Respawn Mechanics (Verified Turn 1815)
+- **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
 
 <hr>
 
