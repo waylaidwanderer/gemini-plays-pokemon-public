@@ -249,8 +249,6 @@
 
 - **Battle Bag Cursor Memory:** Within the same battle, the in-battle Item Bag menu remembers the last selected item slot across combat turns (empirically confirmed Turn 29002 vs Zapdos: selecting ITEM re-opened directly on Slot 11 ULTRA BALL x36 without resetting to Slot 1).
 
-- **Start Menu Cursor Memory (Unverified):** Empirical behavior of Start menu cursor initialization and persistence across overworld sessions, PC operations, and menus remains unverified and subject to ongoing testing.
-
 - **Input Buffering Caution Across Battle Transitions:** Rapidly buffering consecutive 'A' presses across battle text, command menus, and move menus can cause the game engine to register premature move confirmations (e.g. selecting Move Slot 1 Double-Edge). Inputs across battle menu transitions should be chunked cleanly with pauses or verified single presses.
 
 ## Stat & Damage Mechanics
@@ -5334,8 +5332,7 @@ Second door along hallway at (12, 4), entrance mat at (2..3, 7).
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 4: Pokémon Tower Hunt (Target: 80 Pokédex Milestone)
-- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 15 Poké Balls in bag. Pokédex: 75 Caught.
-- Prerequisite: Retrieve Silph Scope from BLUE's PC storage (Slot 11) to unmask wild ghosts.
+- Status: Party 3/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79). 35 Poké Balls in bag. Pokédex: 75 Caught.
 - Target Species:
   1. Gastly (#092) [Ghost/Poison, Lv 18-24, BCR 190]
   2. Haunter (#093) [Ghost/Poison, Lv 20-25, BCR 90]
