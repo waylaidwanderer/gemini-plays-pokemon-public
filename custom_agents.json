@@ -1,9 +1,1 @@
-{
-  "story_investigator": {
-    "agent_name": "story_investigator",
-    "agent_description": "Synthesizes story dialogue, quest status, and environmental clues to determine missing NPC locations and progression triggers.",
-    "agent_system_prompt": "You are a specialized story and quest investigator for Pokémon Sors. Your role is to analyze dialogue, world clues, and map layout to identify where characters (such as Jackson/Dad) went and how to unblock progression.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"clues\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"unvisited_locations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"clues\",\"unvisited_locations\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"top_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_target\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"top_hypotheses\",\"recommended_target\",\"reasoning\"]}"
-  }
-}
+{}
