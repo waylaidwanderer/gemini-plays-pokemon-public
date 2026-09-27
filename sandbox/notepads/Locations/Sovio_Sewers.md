@@ -25,3 +25,4 @@
 ## Wild Encounters
 - Koffing (Lv6, Poison; verified Turn 1720)
 - Stunky ♀ (Lv4, Poison/Dark; verified Turn 1991)
+- **Wall Opening / Black Square**: Located at (27, 22) set into the eastern wall along the column 26 corridor; currently being investigated as a potential doorway or storage room entrance.
