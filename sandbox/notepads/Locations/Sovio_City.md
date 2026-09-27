@@ -8,10 +8,9 @@
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Manhole**: Located at (13, 27).
-- **Three Bikers (Passive / Sight < 2)**: Positioned at column 13, rows 20, 21, and 22, facing east. Asher walked past at column 15 without triggering battles (Turn 1181-1185).
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 20-22, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang ('vroom vroom Jealous kid? ... We are the big guys here, the ultimate motorcycle gang!').
 - **East Building Entrance**: Brown wooden door at (17, 27) with an ashcan/barrel in front at (16, 28).
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
-- **Northern Building**: Located at (14-15, 15) with teal door.
 - **East Avenue**: Paved road at row 18 heading east. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 ## Pokémon Center (Verified Turn 1330)
@@ -35,6 +34,16 @@
 - **Interior**: Entrance mat lands at (43, 36).
 - **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33) mentions he bought his son an old Wii console.
 - **Layout (2F)**: Resident boy at (44, 14) playing his Wii. Stairs back down at (40-41, 12).
-- **City Signpost**: Located at (29-30, 18); reads 'Sovio City / The city of Union'.
-- **Residential House (Northwest - Teal Door)**: Located at (28, 13) with city sign in front. Interior entrance mat at (24, 36). Residents: mother and son at dining table.
-- **Residential House (Northwest - Machop Family)**: Located at (14, 15) with teal door. Interior entrance mat at (5, 36). Residents: karate trainer, blonde girl, and family Machop.
+
+## City Signpost (Verified Turn 1476)
+- **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
+
+## Residential House (Northwest - Teal Door) (Verified Turn 1482)
+- **Entrance**: Teal door at (28, 13) with city sign in front.
+- **Interior**: Entrance mat lands at (24, 36).
+- **Residents**: Mother and son at dining table.
+
+## Residential House (Northwest - Machop Family) (Verified Turn 1491)
+- **Entrance**: Teal door at (14, 15).
+- **Interior**: Entrance mat lands at (5, 36).
+- **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
