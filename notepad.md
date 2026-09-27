@@ -29,7 +29,8 @@
 - **Inizio Isle**: Starting location where Asher and his father reside.
 
 ## Regional History & Events
-- **300-Year Anniversary**: Commemorates 300 years of human-Pokémon coexistence in Hupest; the region is organizing a major special event to celebrate.
+- **300-Year Anniversary**: Commemorates 300 years of human-Pokémon coexistence in Hupest.
+- **Eclipse Tournament**: Major international tournament organized in Hupest for the 300-year anniversary; open to trainers worldwide.
 
 <hr>
 
