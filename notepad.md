@@ -221,10 +221,12 @@
 ## Verified Boundaries & Obstacles
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
-- **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39) and the northern highway at (36, 33).
+- **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24), but is a cul-de-sac that terminates at row 20.
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
+- **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch; the cottage path at (37, 24) is an impassable dead-end cul-de-sac.
+- **Overworld Pidgey & Paper Clue (Observed Turns 1876-1885)**: Overworld Pidgey sighted at (44, 18) with a paper footprint clue at (44, 16) in the enclosed meadow east of the cottage pine barrier.
 
 <hr>
 
