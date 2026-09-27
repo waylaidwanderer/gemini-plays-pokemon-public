@@ -198,7 +198,7 @@
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6 (1 Pokémon, knows Protect, Tackle, Bug Bite).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
-- **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west (unverified battle status).
+- **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south.
 
 ## Verified Boundaries & Obstacles
