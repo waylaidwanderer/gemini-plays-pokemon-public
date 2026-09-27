@@ -441,6 +441,7 @@
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
+  - Item Found: Poison Barb collected at (22, 36) at the eastern dead-end of the Southern Canal (Turn 3133).
   - Puddle Alcove (Verified Turn 1966): At (28, 19) north of column 26 corridor is an impassable dead-end puddle terminated by solid brick wall at row 18 and black void to the east.
   - Eastern Lower Alcove (Verified Turn 1978): Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
   - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
