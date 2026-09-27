@@ -210,5 +210,8 @@
 ## Overworld Routing & NPCs
 - **NPC at (17, 45)**: Character with straw hat facing south (unverified battle status).
 - **Route 1 East Path**: Open path along rows 44-45 heading east past column 23 towards Amor City.
+## Active Encounter (Turn 521)
+- Wild Pidgey ♂ Lv2 at (27, 44). Full HP.
+- Plan: Open Bag, throw Poké Ball, catch and nickname Zephyr.
 
 <hr>
