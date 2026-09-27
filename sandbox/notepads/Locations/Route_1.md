@@ -31,6 +31,7 @@
   - Starly (Lv3, Normal/Flying; verified Turn 481).
   - Nidoran♀ (Lv3, Poison; verified Turn 494).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
+  - Mareep (Lv2, Electric; verified Turn 723).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing south. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon) (Defeated Turn 701, ¥320).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
