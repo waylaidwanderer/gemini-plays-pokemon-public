@@ -18,3 +18,8 @@
 2. Walk west along row 14 to column 28 (City Signpost), then continue west along rows 16-18 to survey the block at columns 16-27 for the standalone PokéMart (blue roof/shop sign).
 3. Purchase 5-6 Poké Balls and 2-3 Potions upon finding Mart.
 4. Enter sewers via Metro Station (18-19, 25), catch Dark-type counter (Poochyena/Purrloin with Bite), defeat Fifth Grunt at (23, 13), and rescue Dad.
+
+## Strategic Battle Plan vs Fifth Grunt (Litwick Lv8)
+- Strategy: Sirius (Lv14, 40 HP) uses Work Up (+1 Atk / +1 SpAtk per turn) while Litwick uses low-damage moves (Ember does ~7-8 dmg vs 40 HP).
+- At +2 Attack, Metal Claw deals 28-30 damage, reliably OHKOing Litwick (approx 23 HP).
+- No new captures needed; proceed immediately to Sewers to rescue Dad.
