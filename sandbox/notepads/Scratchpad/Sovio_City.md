@@ -12,6 +12,6 @@
 - HuPhone Quest Log Audit (Turns 2962-2978): Verified that 'Lost Toy' is active and incomplete. System message confirmed quests can only be canceled by speaking to the provider.
 
 ## Active Investigation Protocol
-1. South Exit Boundary Test: Test row 39 at column 15 to verify if Route 1 is open or blocked by the story barrier.
+1. South Exit Boundary Test (Verified Turn 3004): Row 39 connects seamlessly into Route 1 at (53, 0) without any story barrier text. Route 1 is completely open.
 2. Quest Provider Interaction: Test approaching the Old Man with Phanpy at (51, 15) from an accessible vector (e.g. column 50/51) to test quest cancellation.
 3. Residential Re-Audit: Re-audit houses at (48, 13), (39, 7), and (28, 13) post-rescue if boundary confirms city confinement.
