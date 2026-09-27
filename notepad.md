@@ -109,5 +109,8 @@
 ## Visible Field Items
 - **Pokéball Item 1**: Located on the grass near the pond in the northeast plaza (approx. 37, 5).
 - **Pokéball Item 2**: Visible in the far northeast corner above the pond.
+## Professor Ivo's Pokémon Laboratory (Interior)
+- **Entrance**: Door lands at (12, 12) on red mat facing north.
+- **Layout**: Green runner rug extends north along column 12 from row 12 to row 9. Framed map on east wall, research terminal and red rug on west.
 
 <hr>
