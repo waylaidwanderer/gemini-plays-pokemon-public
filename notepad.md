@@ -123,7 +123,6 @@
   - Sunlit diagonal wood flooring throughout research room.
   - Cylindrical research incubator apparatus with glowing green fluid at (18-19, 5-6).
   - Wooden research table at (21-23, 4).
-  - Special starter Pokéball (orange/gold top, white base) on table at (22, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
 
@@ -137,9 +136,9 @@
 - **Location**: Research table at (22, 4) in Professor Ivo's Lab.
 - **Pokéball Type**: Custom orange/gold upper dome, white base.
 - **Current Status**: Riolu obtained; received Poké Balls, Potion, and Torn Scarf; Professor Ivo recommending Route 1.
-- **Species**: Riolu (The Emanation Pokémon, Fighting-type, confirmed Male).
+- **Species**: Riolu (The Emanation Pokémon, Fighting-type).
 - **Selected Nickname**: Sirius (The brightest star / Dog Star; guiding light of justice against Siara).
-- **Gender / Nature / Ability**: Male; nature/ability pending summary screen verification.
+- **Gender / Nature / Ability**: Pending summary screen verification.
 
 ## Untested Interactive Objects in Lab
 - **Stairs to 2F**: Located at (11-12, 7) in the entrance foyer.

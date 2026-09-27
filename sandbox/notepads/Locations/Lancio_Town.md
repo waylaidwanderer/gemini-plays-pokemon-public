@@ -29,6 +29,5 @@
   - Sunlit diagonal wood flooring throughout research room.
   - Cylindrical research incubator apparatus with glowing green fluid at (18-19, 5-6).
   - Wooden research table at (21-23, 4).
-  - Special starter Pokéball (orange/gold top, white base) on table at (22, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
