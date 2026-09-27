@@ -319,5 +319,6 @@
 - Mother recognizes Asher: "A-ashy?"
 - Asher responds: "Mom?"
 - Mother asks Asher: "How are you doing honey? Are you eating well?"
+- Mother asks: "How's it going with girls?"
 
 <hr>
