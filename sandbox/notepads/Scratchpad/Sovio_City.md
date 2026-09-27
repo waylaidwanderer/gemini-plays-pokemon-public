@@ -23,3 +23,4 @@
 - Mother retorts: "Haaaa? I can't even hug my own..."
 - Dad: "You are dangerous... I can't let you close to him!"
 - Mother: "So just because I had balls to finish what you were too scared to, I'm already dangerous?"
+- Dad: "..."
