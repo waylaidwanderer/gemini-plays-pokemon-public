@@ -44,7 +44,5 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-## Sovio Sewers - Team Siara Operation (Turns 1679-1684)
-- **Team Siara in the Sewers**: A cutscene reveals four Team Siara Grunts gathered around a red mat deep in the Sovio Sewers.
+## Sovio Sewers - Team Siara Operation
 - **Dad Locked in Storage Room**: Jackson is trapped inside a sewer storage room guarded by Grunt 2, who is waiting for syndicate leader Marie to arrive.
-- **Jackson's Cry for Help (Turn 1764)**: While Asher was speaking to Patrolling Grunt 1 at (24, 27), Jackson's voice echoed faintly from the distance: 'Somebody bring help! We are locked!', exposing that Dad and someone else are trapped in the storage room and alerting both Asher and the Grunt.
