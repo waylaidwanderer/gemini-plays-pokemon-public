@@ -179,7 +179,7 @@
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
 - **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south (did not initiate battle when adjacent; unverified trainer status).
-- **Trainer (Camper)**: Trainer with straw hat at (17, 45) facing south.
+- **NPC 2 (Camper/Straw Hat)**: Character with straw hat at (17, 45) facing south (unverified battle status).
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
@@ -194,5 +194,19 @@
 
 ## Tool Compatibility
 - **stun_npc**: Unsupported in Pokémon Sors due to custom ROM hack memory layout (Error: Map objects data is unavailable).
+
+<hr>
+
+<h1><code>Scratchpad/Route_1_Exploration</code></h1>
+
+# Scratchpad: Route 1 Exploration & Hypotheses
+
+## Bag & Inventory Hypotheses
+- **Poké Balls Pocket Navigation**: Testing pocket sequence. From Items -> Right -> Key Items -> Right -> Poké Balls.
+- **Inventory Status**: 4 Potions verified. Sirius at 21/22 HP with overworld poison active (1 dmg / 4 steps).
+
+## Overworld Routing & NPCs
+- **NPC at (17, 45)**: Character with straw hat facing south (unverified battle status).
+- **Route 1 East Path**: Open path along rows 44-45 heading east past column 23 towards Amor City.
 
 <hr>
