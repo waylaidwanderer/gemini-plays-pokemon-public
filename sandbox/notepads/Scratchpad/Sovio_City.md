@@ -16,15 +16,16 @@
 ## Tactical Analysis: Fifth Grunt (Litwick Lv8)
 - **Litwick Threat Profile**: Ghost/Fire, Lv8.
   - Immune to Normal (Quick Attack) and Fighting (Mach Punch).
-  - Moves observed: Minimize (evasion boost), Ember (STAB Fire, ~7-8 dmg vs Sirius), Fire Spin (trapping + chip).
+  - Type Matchup vs Metal Claw (Steel): Ghost is 1.0x (neutral), Fire is 0.5x (resisted) -> **Overall 0.5x (Resisted)**!
+  - Damage calculation:
+    - At +0 Attack (27 Atk): Metal Claw deals ~7-8 dmg vs Litwick (~23 HP) -> 3-4 hits to KO.
+    - At +1 Attack (40 Atk via 1 Work Up): Metal Claw deals ~12-14 dmg -> **Solid 2HKO**!
+  - Moves observed: Minimize (+2 evasion), Ember (STAB Fire, ~7-8 dmg vs Sirius), Fire Spin (trapping + chip).
   - Ability: Flame Body (30% chance to burn attacker on contact; Metal Claw makes contact!). Burn status cuts Physical Attack by 50% and deals 1/16 max HP per turn.
-  - Flaw in Work Up setup: Taking multiple setup turns gives Litwick free turns to stack Minimize (+2 evasion per use). At +4 evasion, attack accuracy drops to ~33%, leading to missed attacks while burn and Fire moves whittle Sirius down.
 - **Inventory Verified (Turn 2543)**:
-  - Bag Items: Empty
-  - Bag Poké Balls: Empty
-  - HuPhone PC Storage: Potion x 1 withdrawn!
-- **Revised Tactical Strategy**:
-  - Do NOT spend multiple turns setting up Work Up, as Litwick will stack Minimize.
-  - Attack immediately with Metal Claw on Turn 1!
-  - If Litwick does not use Minimize or if Metal Claw connects, it deals heavy neutral physical damage (~14-16 dmg unboosted, 2HKO).
-  - Use Potion (20 HP recovery) if burned or damaged below 15 HP to stay in the fight.
+  - Bag Items: Potion x 1 (restores 20 HP)
+  - Bag Poké Balls: Empty (0)
+- **Refined Battle Strategy**:
+  - Turn 1: Use **Work Up** once (+1 Atk / +1 SpAtk). This cannot miss, makes no contact (0% Flame Body risk), and increases Metal Claw damage to a 2HKO.
+  - Turn 2+: Attack with **Metal Claw** to achieve a 2HKO.
+  - Contingency: If Sirius drops below 15 HP or takes heavy burn chip, use the Potion (+20 HP) immediately to sustain through any Minimize evasion checks.
