@@ -269,7 +269,7 @@
 
 
 
-- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1. Menu cursor persistence applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357]; however, the effects of non-battle events (e.g. PC terminal storage operations, Nurse Joy dialog, indoor/outdoor map transitions) on Start menu cursor persistence remain unverified and require empirical testing.
 
 
 
@@ -499,7 +499,7 @@
 - **Ball Miss vs. Breakout Mechanics (Gen 1 Retail Engine):**
   - In Generation 1 retail, when throwing a basic Poké Ball at a healthy wild target with no primary status condition (SLP/FRZ/PAR/BRN/PSN), the capture formula executes an initial threshold check.
   - For targets with low Base Catch Rate (e.g. Ditto BCR 35) at full HP (100%), failing this initial threshold test causes the Poké Ball to fail immediately without shaking or trapping the Pokémon, displaying 'You missed the POKéMON!'.
-  - Breakouts with ball wobbles (1-3 shakes) require passing the initial threshold test before failing subsequent random checks. Empirically verified across 9 consecutive throws vs wild Ditto Lv 53 at full HP [Turns 47257-47310]: all 9 throws produced 'You missed the POKéMON!' with zero shakes, establishing that full-HP BCR 35 targets with 0 status rarely or never produce wobble animations on failure.
+  - Breakouts with ball wobbles (1-3 shakes) require passing the initial threshold test before failing subsequent random checks. In a single observed wild encounter (N=1 Ditto Lv 53 at full HP, 0 status condition, Turns 47257-47316), all 10 non-capturing basic Poké Ball throws produced 'You missed the POKéMON!' with zero wobble shakes prior to capture on throw 11; broader engine-wide behavior across other encounters and levels remains unverified.
 
 
 - **High-Level Cerulean Cave Empirical Capture Data (Basic Poké Balls):**
