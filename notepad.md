@@ -347,8 +347,8 @@
 
 ## Systematic City Search for Dad (Post-Tremor)
 - **Central Plaza Sector**: SURVEYED. Dad not found in Metro Station, Pokémon Center, Plaza East House, or North Central House.
-- **West Thoroughfare / Northwest Sector**: UNVISITED. Paved street at row 14 leads west past park towards western buildings and avenues.
-- **East / Route 2 Sector**: UNVISITED. Eastern path past Metro station towards Route 2 gate.
+- **West / Northwest / Southwest Sectors**: SURVEYED. Dad not found (Machop family house, teal door house, bikers, southern street all clear).
+- **East / Route 2 Sector**: CURRENT TARGET. Heading east past Metro station towards Route 2 gate to find Dad.
 
 <hr>
 
