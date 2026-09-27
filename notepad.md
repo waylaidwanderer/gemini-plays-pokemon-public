@@ -343,5 +343,6 @@
 - Battle triggered against Team Siara outside the Pokémon Center!
 - Enemy: Team Siara Grunt uses Lv7 Eclipse Pidgey (purple aura, Eclipse icon).
 - Eclipse Pidgey knows Sand Attack and Acid (Poison-type move); Metal Claw deals neutral damage.
+- Victory: Sirius defeated the Siara Grunt's Lv7 Eclipse Pidgey (gained 82 EXP).
 
 <hr>
