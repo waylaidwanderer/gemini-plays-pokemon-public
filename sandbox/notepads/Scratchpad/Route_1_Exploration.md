@@ -15,3 +15,6 @@
 - 4 Poké Balls left; opening Bag to throw Poké Ball 2.
 - Poké Ball 2 broke free; Sirius at 13/22 HP (PSN).
 - 3 Poké Balls left; opening Bag to throw Poké Ball 3.
+- Poké Ball 3: Gotcha! Pidgey was caught!
+- Capturing wild Pidgey ♂ Lv2; preparing to nickname Zephyr!
+- 2 Poké Balls remaining.
