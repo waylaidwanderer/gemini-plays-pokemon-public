@@ -1,7 +1,7 @@
 # Scratchpad: Terrestrial Hunting & Trade Planning
 
 ## Expedition 3: Cerulean Cave 1F Ditto Hunt
-- Status: Party 5/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 17 Poké Balls in bag. Pokédex: 74 Caught.
+- Status: Party 6/6 (Omega Lv 76, DUX Lv 37, Sheldon Lv 79, MOTHRA Lv 51, SKULL Lv 52). 17 Poké Balls in bag. Pokédex: 74 Caught.
 - Priority Target on 1F:
   1. Ditto (#132) [Wild Lv 53, BCR 35] - ACTIVE SOLE TARGET
 - Tracking & Thresholds:
@@ -28,3 +28,4 @@
   - Ball 8: Missed at full HP [Turn 47303].
   - Ball 9: Missed at full HP [Turn 47309].
   - Ball 10: Missed at full HP [Turn 47316].
+  - Ball 11: CAUGHT at full HP [Turn 47320]! Target Ditto secured into Party Slot 6!

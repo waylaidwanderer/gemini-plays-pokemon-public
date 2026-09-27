@@ -284,6 +284,7 @@
   - Venomoth Lv 51 (BCR 75): Missed on Balls 1 and 2; captured on Ball 3 at full HP with basic Poké Ball [Turn 47021].
 
   - Marowak Lv 52 (BCR 75): Missed on Balls 1-6 at full HP [Turns 47034-47045]; sustained confusion self-damage reducing HP to ~90% [Turn 47046]; broke free on Balls 7 and 8 [Turns 47047, 47050]; captured on Ball 9 at ~90% HP [Turn 47053].
+  - Ditto Lv 53 (BCR 35): Missed on Balls 1-10 at full HP [Turns 47258-47316]; captured on Ball 11 at full HP with basic Poké Ball [Turn 47320].
 
 - **Base Catch Rate vs. Actual Full-HP Capture Probability:** In Generation 1 retail, a Pokémon's base catch rate (e.g. 255 for Pidgey, Caterpie, Bellsprout, Weedle) does NOT equate to a 100% guaranteed capture at full HP with a basic Poké Ball. In the Gen 1 capture routine, full-health targets without status conditions face an initial random threshold test (`R1`) where failure leads to a breakout check.
 
