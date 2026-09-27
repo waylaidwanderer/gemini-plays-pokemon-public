@@ -19,7 +19,7 @@
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
   - Signpost at (49-50, 17): solid collision when stepping north from (49, 18).
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
-  - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 14).
+  - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
