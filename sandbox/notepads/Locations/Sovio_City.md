@@ -22,6 +22,8 @@
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
+  - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
+  - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841).
@@ -66,7 +68,7 @@
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
-- **Residential House (South Central - Teal Door)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: elderly woman with glasses.
+- **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
