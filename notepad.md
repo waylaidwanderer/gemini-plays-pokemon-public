@@ -24,6 +24,7 @@
 - **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
 
 - **Mrs. Ivo**: Leading Pokémon Professor of the Hupest Region. Scientist with brown hair and pink glasses, wearing a white lab coat over a pink dress. Asher previously met her.
+- **Harry**: Father's friend and associate who operates the boat at Inizio Isle dock; addresses Asher as "young master". Providing passage to Lancio Town.
 
 ## Starting Setting
 - **Inizio Isle**: Starting location where Asher and his father reside.
@@ -40,7 +41,6 @@
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
   - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
-- **Harry**: Father's friend and associate who operates the boat at Inizio Isle dock; addresses Asher as "young master". Providing passage to Lancio Town.
 
 <hr>
 
