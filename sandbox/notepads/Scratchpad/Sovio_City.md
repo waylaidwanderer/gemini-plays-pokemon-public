@@ -13,13 +13,10 @@
 - [ ] Southwest Perimeter (Columns 17-20, Rows 25-29): Wooden building near Bikers. Perimeter approaches from rows 25-26 and row 28 unverified.
 - [ ] North Street Terminus (Columns 38-41, North of Row 7): Check if road continues to commercial area.
 
-## Immediate Action Plan
-1. Exit Pokémon Center via (7, 8) to Sovio City (44, 13).
-2. Walk west along row 14 to column 28 (City Signpost), then continue west along rows 16-18 to survey the block at columns 16-27 for the standalone PokéMart (blue roof/shop sign).
-3. Purchase 5-6 Poké Balls and 2-3 Potions upon finding Mart.
-4. Enter sewers via Metro Station (18-19, 25), catch Dark-type counter (Poochyena/Purrloin with Bite), defeat Fifth Grunt at (23, 13), and rescue Dad.
-
-## Strategic Battle Plan vs Fifth Grunt (Litwick Lv8)
-- Strategy: Sirius (Lv14, 40 HP) uses Work Up (+1 Atk / +1 SpAtk per turn) while Litwick uses low-damage moves (Ember does ~7-8 dmg vs 40 HP).
-- At +2 Attack, Metal Claw deals 28-30 damage, reliably OHKOing Litwick (approx 23 HP).
-- No new captures needed; proceed immediately to Sewers to rescue Dad.
+## Tactical Analysis: Fifth Grunt (Litwick Lv8)
+- **Litwick Threat Profile**: Ghost/Fire, Lv8.
+  - Immune to Normal (Quick Attack) and Fighting (Mach Punch).
+  - Moves observed: Minimize (evasion boost), Ember (STAB Fire, ~7-8 dmg vs Sirius), Fire Spin (trapping + chip).
+  - Ability: Flame Body (30% chance to burn attacker on contact; Metal Claw makes contact!). Burn status cuts Physical Attack by 50% and deals 1/16 max HP per turn.
+  - Flaw in Work Up setup: Taking multiple setup turns gives Litwick free turns to stack Minimize (+2 evasion per use). At +4 evasion, attack accuracy drops to ~33%, leading to missed attacks while burn and Fire moves whittle Sirius down.
+- **Immediate Task**: Inspect Bag inventory in-game to verify available items (Pok� Balls, healing items, Repels, etc.).
