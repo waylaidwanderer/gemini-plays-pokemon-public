@@ -409,6 +409,7 @@
   - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
   - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
+  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 21 (verified Turn 2198).
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: Four Team Siara grunts are operating in the sewers (three patrolling, one guarding Jackson at the storage room).
@@ -417,7 +418,7 @@
 - **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas ♂ Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
 - **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo ♂ Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: ¥728. Above Grunt 2 is a puddle at (17-18, 20-21) and stone walkway continuing north.
 - **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada ♀ Lv7 (Bug/Ground, known move: Harden), Shinx ♂ Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: ¥832.
-- **Distant Siara Grunt Sighting**: Sighted on the eastern high ledge across the chasm at the top-right in a puddle (Turn 2170; exact role unconfirmed).
+- **Fourth Siara Grunt**: Located at (21, 4-5) at the east end of the northern gangway, facing south (approached Turn 2200).
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered. (Storage room location remains unconfirmed pending further exploration of the western wing).
