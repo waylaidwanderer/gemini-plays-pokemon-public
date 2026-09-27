@@ -187,7 +187,7 @@
   - Nidoran♀ (Lv3, Poison; verified Turn 494).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
-- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9) with resident boy at (5, 7).
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
 
 <hr>
 
