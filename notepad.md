@@ -66,8 +66,8 @@
 
 ## Inizio Isle Exterior
 - **House Front**: Door exit lands at (17, 17).
-- **South Cove Peninsula**:
-  - Central stairs at (17, 23)-(17, 25) lead down to small sandy beach at (17, 28). Surrounded by water/rocks; dead-end cove (verified Turn 111).
+- **South Cove Beach**:
+  - Central stairs at (17, 23)-(17, 25) lead down to sandy beach at row 28. (Horizontal shoreline exploration in progress).
 - **Southeast Ridge**:
   - Accessible via wooden steps at (24, 18)-(26, 19).
   - Dirt platform at (26, 20)-(26, 25).
@@ -77,7 +77,9 @@
   - (12, 13) north is blocked by chimney/trees (verified Turn 167).
   - (11, 16) has white flowers; (10, 16) is open between pines (verified Turn 169).
   - (10, 15) north is blocked by pine foliage (verified Turn 170).
-  - Southwest passage: Columns 11-12 lead south between cliff (west) and pine trees (east) towards the southern coast.
+  - (12, 19) south of (12, 18) is blocked by pine tree (verified Turn 173).
+  - (10, 18) west of (11, 18) is blocked by cliff edge (verified Turn 175).
+  - (11, 19) south of (11, 18) is blocked by cliff/foliage (verified Turn 176).
 
 ## Eastern Cliff Area & Verified Collisions
 - Area above wooden steps: Small grass lawn at (27-28, 16).
