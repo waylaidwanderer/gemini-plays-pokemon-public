@@ -9,3 +9,4 @@
 - **Column 4 Blocked**: (4, 42) is blocked by a pine tree trunk; (5, 43) is a Cut tree. The northern tree line is impassable here.
 - **Thicket Pocket (20-27, 38-43)**: Enclosed dead-end thicket with bird tracks. Blocked to the north by pine tree wall at row 38, blocked to the east by cypress tree at (28, 39) and hedge at (28, 40). Does NOT connect to northern meadow on foot.
 - **Active Navigation**: Back out of the thicket to row 46 and locate the genuine northward route to Sovio City.
+- **Macro Topology Breakthrough**: Southern Route 1 (rows 40-50) is completely separated from Northern Route 1 (rows 10-35). Northern Route 1 (connecting to Sovio City) is accessed via Lancio Town's northern exit at row 14-15 (signboard at (44, 13)). Returning to Lancio Town to take northern exit.
