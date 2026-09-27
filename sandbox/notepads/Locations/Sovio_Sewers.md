@@ -18,12 +18,12 @@
 - **Puddle Alcove (Verified Turn 1966)**: At (28, 19) north of column 26 corridor is an impassable dead-end puddle terminated by solid brick wall at row 18 and black void to the east.
 - **Eastern Lower Alcove (Verified Turn 1978)**: Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
 ## Topography & Connectivity
-- **Lower Level Boundaries**: The lower walkway at row 27 is bounded on both ends: dead-ending east into the wall/void alcove at (37-39, 27) and terminated west by Grunt 1 at (23, 27), the puddle at (20-22, 27), and sewage water. Column 26 corridor connects row 27 to the sunken northern ledge at (22, 20) and puddle alcove at (28, 19).
+- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Grunt 2 and Dad's storage room are located.
+- **Central Corridor**: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
+- **Black Square Feature**: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 
 ## Wild Encounters
 - Koffing (Lv6, Poison; verified Turn 1720)
 - Stunky ♀ (Lv4, Poison/Dark; verified Turn 1991)
 - Grimer ♀ (Lv7, Poison; verified Turn 2121)
-- **Central Corridor**: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
-- **Black Square Feature**: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
