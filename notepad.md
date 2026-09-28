@@ -549,5 +549,6 @@
 - Current Position: (22, 9), facing west. Tile (21, 9) is visible stone floor.
 
 - (22, 10): Verified Rock Smash rock ("It's a rugged rock, but..."). Impassable without HM Rock Smash.
+- (23, 8): Verified stone staircase leading north into the upper section/rooms of the dark sector.
 
 <hr>
