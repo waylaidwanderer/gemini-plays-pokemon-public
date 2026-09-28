@@ -54,11 +54,6 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
-## Residential House (Plaza East) (Unverified Historical Anomaly, Turns 1356-1364)
-- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center. Note: Overworld access route is currently un-reproduced; exterior street borders at (47, 13-14), (49, 17), and (46, 12) exhibit solid curb/wall collision.
-- **Interior**: Entrance mat lands at (64, 35).
-- **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
-- **Residents**: Little Girl at (63, 33) and Nana at (62, 31).
 ## Residential House (North Central) (Verified Turn 1447)
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 - **Interior**: Entrance mat lands at (43, 36).
@@ -85,7 +80,5 @@
 - **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
-## Commercial Facilities & PokéMart Survey (Partial)
-- **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
