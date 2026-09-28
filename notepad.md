@@ -482,6 +482,12 @@
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (female) (Lv6, Normal; verified Turn 3136)
 - **Western Terrace Wall Ladder (Verified Turn 4507)**: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5).
+## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
+- **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
+- **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
+- **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
+- **Arrival Landing**: Asher arrives at (30, 9) facing west.
+- **Layout**: North stone wall at row 8; open stone floor extending west along row 9 and south along column 30.
 
 <hr>
 
