@@ -29,13 +29,15 @@
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841). Note: Park bench at (41, 28) surveyed on Turn 3936 and verified empty.
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
-## Pokémon Center (Verified Turn 1330)
+## Pokémon Center (Verified Turns 1330, 4024-4048)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
-- **Interior Layout**:
+- **Interior Layout & Audit (Verified Turns 4024-4048)**:
   - Exit mat at (7, 8).
-  - Main Nurse Joy counter straight north along column 7 at row 3/4.
+  - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint (verified Turn 4035).
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
-  - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5). Entire 15-tile width verified (Turn 2491): no PokéMart counter or vendor inside.
+  - Straw-hat Camper at (5, 7): Dialogue confirmed ambient ("My weedle got poisoned so I will need the Pokémon Center's service! Ironic isn't it?").
+  - Boy in blue shirt at (8-9, 4-6): Dialogue confirmed ambient ("Please feel free to use that PC in the corner. The receptionist told me so. It's so kind of her!").
+  - Facility Verification: Entire interior re-audited post-rescue; Dad and Valora are confirmed absent.
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
