@@ -10,7 +10,7 @@
    - Discovered: Purple and pink bird tracks mark the exact walkable route through the hedge maze.
    - Row 44 is an open dirt corridor running horizontally between the hedges from column 26 to column 21.
    - Route from (25, 41): Down 3 to (25, 44), Left 4 along row 44 to (21, 44) [purple track].
-   - From (21, 44), step Down to (21, 45) [pink track] and proceed west past the camper at (18, 45) to the cobblestone road.
+   - Route from (21, 45): Left 2 to (19, 45), Down 1 to (19, 46), Left 2 to (17, 46) bypassing Camper at (18, 45), then follow cobblestone road west to Lancio Town (0, 45-46).
    - Follow cobblestone road west to (0, 45-46) into Lancio Town.
 2. Lancio Town Investigation:
    - Inspect Professor Ivo's Laboratory (17, 11-12).
