@@ -488,9 +488,11 @@
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
-- **Arrival Landing**: Asher arrives at (30, 9) facing west.
 - **Layout**: North stone wall at row 8; open stone floor extending west along row 9 and south along column 30.
-- **Western Red Capsule Mat**: Located at (15, 9) at the western terminus of the row 9 corridor; red capsule-shaped mat feature.
+- **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5).
+- **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
+- **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; impassable without HM Rock Smash.
+- **Western Alcove & Mat**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9).
 
 <hr>
 
