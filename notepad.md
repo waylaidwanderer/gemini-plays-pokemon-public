@@ -416,7 +416,7 @@
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
-  - Wooden signpost right post at (51, 18): solid collision stepping north from (51, 19) (verified Turn 5466). Signpost spans columns 50-51 at row 18.
+
 
 <hr>
 
@@ -437,6 +437,7 @@
 - [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
 - [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
+- [x] Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid and non-interactive with 'A' while quest is active.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
