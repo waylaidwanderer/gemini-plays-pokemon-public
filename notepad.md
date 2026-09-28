@@ -393,7 +393,7 @@
 - [x] Upper Entrance Landing (1F, rows 21-23): Puddle tiles across rows 21-22 (columns 32-35) fully audited with 'A' on Turn 6086; no hidden items or toy.
 - [ ] Lower Central Corridor (columns 26-27, rows 18-27): Puddle alcove at (28, 19) and black square at (28, 23) audited with 'A' (Turn 6308, confirmed solid/non-interactive); rest of corridor traversed on foot without exhaustive 'A'-press audit.
 - [ ] Western Lower Wing (rows 27-28, columns 14-23): Tiles (19-22, 28), (21-22, 27), and square puddle at (17-18, 27-28) audited with 'A' (Turns 6396-6397, empty); continuing audit north along column 18 and west toward columns 7-14.
-- [x] Western Upper Terrace (row 12, columns 13-18): Traversed and bounded (cols 13-18) on Turns 6130-6132; verified devoid of items, NPCs, or exits.
+- [x] Western Upper Terrace (row 12, columns 13-18): Traversed and bounded (cols 13-18) on Turns 6130-6132; shallow puddle at (14-15, 11) audited with 'A' on Turn 6412 (empty); verified devoid of items, NPCs, or exits.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
 - [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
