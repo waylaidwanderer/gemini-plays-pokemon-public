@@ -20,4 +20,4 @@
 - [x] Old Man at (32, 8): Dialogue verified ("I have grown up in this place, and I never want to leave it... This is home for me."); ambient town dialogue, no items or story leads.
 - [x] Old Woman at (33, 8): Dialogue verified ("With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."); ambient dialogue, no items or story leads.
 - [x] Fisherman at (38, 22): Dialogue re-verified ("You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come."); ambient advice, no items or rods.
-- [ ] Pier at (32-34, 23-25): Verify status.
+- [x] Pier at (32-34, 23-25): Audited on Turn 5186; verified empty (no boat, no Harry, no Dad).
