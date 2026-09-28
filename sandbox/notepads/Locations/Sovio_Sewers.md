@@ -23,7 +23,7 @@
   - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5).
 
 - **Northeast Wooden Staircase (Sighted Turns 3678-3679)**: In the northeast section of Sovio Sewers, a wooden staircase is located around columns 28-29, rows 3-4. Visual sighting from (27, 5) showed its opening facing east onto an elevated stone walkway.
-- **Column 30 Bridge Wall Ladder (Discovered Turn 4535)**: Correcting prior collision assumption. Tile (30, 12) is walkable stone floor, and directly north at column 30 (rows 6-11) is a climbable circular-ring wall ladder connecting row 12/13 to the upper platform and Northeast Wooden Staircase at (29-30, 4-5)!
+- **Column 30 Bridge Wall Ladder (Discovered Turn 4535)**: Tile (30, 12) is walkable stone floor, and directly north at column 30 (rows 6-11) is a climbable circular-ring wall ladder connecting row 12/13 to the upper platform and Northeast Wooden Staircase at (29-30, 4-5)!
 - **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
