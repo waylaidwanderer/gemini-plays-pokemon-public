@@ -7,7 +7,7 @@
 
 ## Search Checklist
 - [ ] Central Plaza & Pokémon Center:
-  - [ ] Pokémon Center interior at (44, 12) (re-check NPCs after sewer events)
+  - [x] Pokémon Center interior at (44, 12): Healed with Nurse Joy; Dad and Valora confirmed absent; ambient NPCs only.
   - [ ] Residential House (Plaza East) at (48, 13) / (49, 14)
   - [ ] Old Man with Phanpy at (51, 15)
 - [ ] North Central Block:
