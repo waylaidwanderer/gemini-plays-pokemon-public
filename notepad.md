@@ -488,7 +488,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665)**: From column 23 at row 13, a single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. The entire junction is a closed dead-end network.
-- **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat. Interacting with the mat displays "Its a simple storage room...". No NPCs or prisoners were found inside.
+- **Eastern Storage Room (Tested Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat. Interacting with 'A' from exterior displays "Its a simple storage room...". Physical entry via walk-in warp tile stepping UP remains to be empirically tested.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison; verified Turns 1720, 2205, 2405, 2734, 2751)
@@ -565,7 +565,7 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - (46, 12): Solid collision stepping north from (46, 13) into Pokémon Center corner (Turn 5421).
 - (40, 8): Solid collision stepping north from (40, 9) into North Central House wall (Turn 5427).
 - (41, 8): Solid collision stepping north from (41, 9) into building wall/curb (Turn 5433). Alley behind Pokémon Center is completely blocked from this approach.
-- [ ] Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
+- [x] Plaza East Terrace Access: Verified completely bounded by solid curbs on south and west (Turns 5409, 5531-5541); columns 50-52 blocked by Metro signpost and Route 2 barrier. Interior from Turns 1356-1364 is an unverified historical anomaly.
 
 ## Active Investigation Protocol
 1. Empirically test (41, 9) and (41, 8) right now to see if passage exists along the Pokémon Center west/north edge.
