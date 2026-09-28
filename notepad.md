@@ -402,6 +402,7 @@
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
   - Machop Family House at (13, 15): Closed/inactive on Turn 3230.
 - North-Central House (39, 7): Re-audited Turn 3874 post-rescue; elderly man on 1F and boy on 2F confirmed ambient (Wii dialogue).
+- Western Sector Audit (Turns 3904-3913): Column 13 terminates at solid building walls. Bikers at (13, 21-23), Machop house (13, 15) locked, and Rocky boy at (23, 17) confirmed ambient.
 
 <hr>
 
