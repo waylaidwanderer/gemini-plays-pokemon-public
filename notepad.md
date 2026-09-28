@@ -519,7 +519,7 @@
   - [ ] Bikers at (13, 21-23)
 - [ ] Central Park & South Central:
   - [ ] Boy waiting for girl at (32, 20)
-  - [ ] Blonde girl at (45, 26)
+  - [x] Blonde girl at (45, 24): Ambient dialogue ("I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?"); no Dad clues.
   - [ ] Group south of pond: Girl, Jigglypuff, Boy at (33-35, 28)
   - [ ] Name Rater house at (31, 26)
 
