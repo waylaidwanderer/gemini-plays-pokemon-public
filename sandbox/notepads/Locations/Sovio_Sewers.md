@@ -28,7 +28,6 @@
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
-- **Sixth Siara Grunt (Storage Room Guard)**: Guarded the storage room; retreated after Marie's radio directive confirming Asher's arrival.
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
