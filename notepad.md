@@ -344,7 +344,10 @@
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
+  - Middle Biker at (13, 22): Spoke on Turn 1496; non-hostile ambient dialogue.
+  - Top Biker at (13, 21): Spoke on Turns 5440-5442: '"vroom" "vroom" / Jealous kid? / We are the big guys here, the ultimate motorcycle gang! / ... what a weird gang...' (ambient dialogue).
+  - Bottom Biker at (13, 23): Pending dialogue check.
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 - **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
@@ -356,6 +359,9 @@
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
+  - Pokémon Center northeast corner at (46, 12): solid building wall collision when attempting to step north from (46, 13) (verified Turn 5421).
+  - North Central building wall at (40, 8) and (41, 8): solid building wall collision when attempting to step north from (40, 9) and (41, 9) (verified Turns 5427, 5433). The northern avenue terminates at row 8 with no rear passage behind the Pokémon Center.
+  - Terrace south curb at (49, 17): solid curb collision when attempting to step north from (49, 18) (verified Turn 5409).
   - Stone bin at (31, 17): solid collision when stepping west from (32, 17); bypassed via row 19.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).
@@ -549,21 +555,18 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
 - Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Dad was not inside.
 
-## Priority Investigation Leads
-1. **Residential House (Plaza East) at (48, 13) / (49, 14)**:
-   - Green door east of Pok�mon Center.
-   - Last visited Turn 1356 (BEFORE the tremor). Has NEVER been inspected post-tremor.
-   - High probability of NPC dialogue update, clue, or event trigger.
-2. **Exterior Sovio City Perimeter & Investigation Sites**:
-   - Inspect outdoor tiles around the Metro entrance and manholes (13, 27) and (13, 19).
-   - Check plaza outside Pok�mon Center where confrontation took place.
-   - Re-check Machop Family house at (13, 15) to see if status changed.
-3. **Old Man with Phanpy at (51, 15)**:
-   - Check if speaking to him without quest or after quest gives any lore clues.
+## Rigorous Collision Testing Log (Plaza & North Corridor)
+- (49, 17): Solid collision stepping north from (49, 18) (Turn 5409).
+- (47, 13) & (47, 14): Solid collision stepping east from (46, 13) & (46, 14) (Turns 2824, 2984).
+- (46, 12): Solid collision stepping north from (46, 13) into Pokémon Center corner (Turn 5421).
+- (40, 8): Solid collision stepping north from (40, 9) into North Central House wall (Turn 5427).
+- (41, 8): Solid collision stepping north from (41, 9) into building wall/curb (Turn 5433). Alley behind Pokémon Center is completely blocked from this approach.
+- [ ] Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
 
-## Protocol
-- Stop cyclical testing of (19, 21) turnstiles.
-- Complete systematic exterior and building sweep of Sovio City.
+## Active Investigation Protocol
+1. Empirically test (41, 9) and (41, 8) right now to see if passage exists along the Pokémon Center west/north edge.
+2. If (41, 8) is blocked, test access to the terrace via the eastern side (columns 50-52) or southern terrace gaps.
+3. Check Machop Family house at (13, 15) and talk to all 3 Bikers at (13, 21-23).
 
 
 <hr>
