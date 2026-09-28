@@ -20,9 +20,9 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - [ ] Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
 
 ## Active Investigation Protocol
-1. Empirically test (41, 9) and (41, 8) right now to see if passage exists along the Pokémon Center west/north edge.
-2. If (41, 8) is blocked, test access to the terrace via the eastern side (columns 50-52) or southern terrace gaps.
-3. Check Machop Family house at (13, 15) and talk to all 3 Bikers at (13, 21-23).
+1. Complete interview with Blonde Girl at (44, 24) in the South Central park corridor.
+2. Interview boy in pink shirt near Central Park pond.
+3. Interview gathering at (33-35, 28) (Girl, Jigglypuff, Boy) and verify any remaining South Central residents.
 
 ## Updated Overworld Survey (Turns 5440-5461)
 - Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid with no text prompt despite active quest.
