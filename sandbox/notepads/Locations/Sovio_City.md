@@ -75,5 +75,3 @@
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
-## East Courtyard & Signpost Obstacles (Verified Turns 4881-4886)
-- **East Courtyard Collisions**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post. Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame. Access onto the courtyard deck from other angles or points remains unverified.
