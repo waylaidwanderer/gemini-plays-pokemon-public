@@ -213,7 +213,7 @@
   - Rattata (Lv3, Normal; verified Turn 1859).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon).
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6 (Defeated on Turn 1154 with Lv10 Sirius using Quick Attack).
+- **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6.
 - **Quest NPC (Blue Cap Boy)**: Located at (34, 37) in Route 1 northeast clearing; Quest Giver for "Lost Pidgey" side quest.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
 - **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west.
@@ -299,8 +299,6 @@
 - **Overworld Pidgey Sighting (Unverified, Turns 1876-1885)**: Overworld Pidgey observed at (44, 18) with a paper footprint clue at (44, 16) in the enclosed meadow east of the cottage pine barrier. Identity unconfirmed until directly interacted with.
 - Track 9 (Extended, Verified Turn 3445): Clusters of pink footprint papers at (51-53, 4-8) along the north dirt corridor of Route 1, leading straight into the Sovio City southern entrance (14-15, 39).
 - **Lost Pidgey Found (Verified Turn 3467)**: Located at (45, 19) in the enclosed meadow east of the cottage branch barrier. Reached via hidden winding corridor from (52, 11) south through grass at (52, 15) and west along row 18 dirt corridor.
-- **Interaction Confirmed (Turn 3468)**: Interacting with the Pidgey at (45, 19) triggers dialogue: "Asher: Is this the Pidgey, that boy was looking for?".
-- **Pidgey Recovered (Turn 3469)**: Dialogue sequence: "Pidgey: ku...ku...", "He seems to be lost and scared...", "Asher: Alright, come with me little buddy!". Pidgey joined Asher to return to its trainer.
 - **Quest Completed (Turn 3512-3513)**: Returned Pidgey to Blue Cap Boy at (34, 37). Text confirmed: "Y-you found him!! Thank you so much!", "Asher Finished The Quest!", "Please, accept this as a gift!".
 - **Reward Received (Turn 3514)**: Obtained Timer Ball from Blue Cap Boy. Quest officially complete.
 
@@ -452,27 +450,24 @@
   - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
   - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
-  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 21 (verified Turn 2198).
+  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). Column 22 dead-ends south at row 6 into the chasm; the actual vertical bridge crossing south across the chasm is at column 23 (rows 6-12).
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
   - Southwest Corridor & Obstruction (Verified Turns 2380-2386): Vertical corridor at columns 7-8 contains two breakable-style rocks. Attempting to move north into the corridor from row 25 is blocked by an impassable elevation boundary/curb at row 24.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
 
+- **Northeast Wooden Staircase & Column 30 Bridge (Verified Turns 3678-3680)**: In the northeast section of Sovio Sewers, a wooden staircase is located at columns 28-29, rows 3-4 with its opening facing east. The northern gangway along row 5 terminates at column 27 at a chasm void. Access to the wooden staircase is via a vertical stone bridge running along column 30 from row 13 north to row 4, then stepping left into the staircase opening.
+
 ## Active Missions & Enemies
-- **Team Siara Presence**: All grunts retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
-- **Patrolling Grunt 1**: Located on western lower walkway at (23, 27). (Defeated Turn 1948). Roster: Hippopotas (male) Lv6 (known move: Protect), Eclipse Pidgey Lv7 (known moves: Detect, Sand-Attack, Gust, Acid; resists Fighting). Post-defeat dialogue: '...' (speechless).
-- **Patrolling Grunt 2**: Located at (18, 22) on western platform (engaged Turn 2154). Dialogue: "What the? What are you doing here? This is supposed to be closed area!". Roster: Litleo (male) Lv7 (known move: Leer). Defeated Turn 2159. Defeat quote: "Ahhhhhhh!". Payout: 728 Yen.
-- **Patrolling Grunt 3**: Located on upper western terrace at (13, 12) (engaged Turn 2174). Pre-battle dialogue: "Isn't the entrance supposed to be guarded too? Why are you here?". Roster: Nincada (female) Lv7 (Bug/Ground, known move: Harden), Shinx (male) Lv8 (Electric, known move: Leer). Defeated Turn 2194. Defeat quote: "I can't believe you...". Payout: 832 Yen.
-- **Fourth Siara Grunt**: Located at (22, 4) facing south, guarding the intersection of row 5 and the southern corridor at column 22 (engaged Turn 2209). Pre-battle dialogue: "Sorry kiddo, but this is private area!". Roster: Mankey (male) Lv8 (Fighting, known move: Leer), Skitty (female) Lv8 (Normal). Team size: 2 Pokemon. Defeated Turn 2235. Defeat quote: "Gyaaaaah!". Payout: 832 Yen.
-- **Fifth Siara Grunt**: Female grunt located at (23, 13) at the southern terminus of column 23 gangway. Roster: Litwick (male) Lv8. Vacated sewer post-rescue.
-- **Sixth Siara Grunt (Storage Room Guard)**: Located at (31, 13) guarding the gangway leading directly to Jackson's storage room. Engaged Turn 2682. Radio call from Marie ('milady') ordered full Team Siara withdrawal after learning Asher arrived. Grunt confirmed Jackson is 'in the back' and retreated, vacating all sewer posts.
+- **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
+- **Sixth Siara Grunt (Storage Room Guard)**: Guarded Jackson's storage room; retreated after Marie's radio directive confirming Asher's arrival.
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered.
-- **Lower Western Corridor (Verified Turn 2390)**: From (8, 28), row 27 is an open walkway running east to column 16. A 2-tile wide corridor at columns 16-17 leads north directly to Grunt 2's platform at (18, 21-22).
+- **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: (16, 24) is a solid brick wall pillar blocking direct northward passage along column 16; bypass through column 17.
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
-- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665)**: From Fifth Grunt at (23, 13), (22, 12) is walkable and connects south into shallow puddles at (22, 13-14). Stepping east through (23, 14) and (24, 14) leads up to (24, 13). A single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29, the gangway opens into a wide vertical corridor extending both North and South.
+- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665)**: From column 23 at row 13, a single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. The entire junction is a closed dead-end network.
 - **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat where Jackson was held. Interacting with the mat displays "Its a simple storage room...". There is no separate interior warp map.
 
 ## Wild Encounters
@@ -501,7 +496,6 @@
 
 ## Verified Route 1 Geography & Meadow Navigation
 - Enclosed Meadow Access: Winding path from northern clearing at (52, 11) runs south through tall grass at (52, 14-15) to open dirt at (52, 16), then west along dirt corridor at row 18 (columns 44-49) to the Pidgey meadow at (44-45, 19).
-- Return Route to (34, 37):
 
 ## Sovio City Progression Testing & Falsification Criteria (Turn 3541)
 - Active Priority: Enter Sovio City and test progression barriers following Lost Pidgey completion.
@@ -518,6 +512,6 @@
 ### Protocol Step 2 Execution (Verified Turn 3557-3565)
 - Tested Route 2 exit at (52, 19). Textbox displayed: 'I can\'t go yet... I have things to do!'.
 - Conclusion: The hypothesis that completing side quests unlocks Route 2 is EMPIRICALLY REJECTED.
-- Grand Synthesis: Side quests ('Lost Pidgey', 'Lost Toy') do NOT gate progression. The restriction is 100% tied to the main story directive: Asher must find Dad.
+- Empirical Deduction: Completing 'Lost Pidgey' did NOT unlock the Metro turnstiles or Route 2 exit. Side quest completion for 'Lost Pidgey' does not clear the main story barriers. The restriction is strictly tied to finding Dad.
 
 <hr>
