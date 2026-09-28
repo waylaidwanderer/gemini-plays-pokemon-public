@@ -520,7 +520,7 @@
 - [ ] Central Park & South Central:
   - [ ] Boy waiting for girl at (32, 20)
   - [x] Blonde girl at (45, 24): Ambient dialogue ("I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?"); no Dad clues.
-  - [ ] Group south of pond: Girl, Jigglypuff, Boy at (33-35, 28)
+  - [x] Group south of pond at (33-35, 28): Boy cheering, Girl discussing Moon Stone evolution; ambient NPCs only.
   - [ ] Name Rater house at (31, 26)
 
 <hr>
