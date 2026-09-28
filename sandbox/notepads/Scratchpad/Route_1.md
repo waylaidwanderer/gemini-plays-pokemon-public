@@ -9,7 +9,7 @@
 1. Southern Meadow Traversal to Lancio Town:
    - Discovered: Purple and pink bird tracks mark the exact walkable route through the hedge maze.
    - Row 44 is an open dirt corridor running horizontally between the hedges from column 26 to column 21.
-   - Currently at (1, 46) on Route 1. Stepping Left across (0, 46) into Lancio Town.
+   - Currently at (0, 46) on Route 1. Stepping Left across map border into Lancio Town.
 2. Lancio Town Investigation:
    - Inspect Professor Ivo's Laboratory (17, 11-12).
    - Inspect Lancio Town Dock / Harry's Boat (32-34, 23-26).
