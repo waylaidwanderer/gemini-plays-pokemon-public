@@ -43,7 +43,6 @@
 
 ## Overworld Residents & NPCs
 - **Green-haired Girl**: Located at (22, 14). Dialogue: "Lancio has such pretty flowers, I wanna collect them all!" (ambient).
-- **Resident Boy**: Inside Northwest house at (25, 10). Gifts TM17 (Protect) on Turn 5152 after persistent interaction through multiple ellipsis textboxes, then kicks Asher outside to (25, 11).
 - **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!" (ambient).
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me." (ambient).
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh." (ambient).
