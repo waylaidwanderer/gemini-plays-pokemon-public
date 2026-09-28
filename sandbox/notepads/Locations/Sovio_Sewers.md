@@ -23,7 +23,7 @@
 
 - **Northeast Wooden Staircase (Sighted Turns 3678-3679)**: In the northeast section of Sovio Sewers, a wooden staircase is located around columns 28-29, rows 3-4. Visual sighting from (27, 5) showed its opening facing east onto an elevated stone walkway.
 - **Row 13 to Column 30 Wall Collision (Verified Turns 3658, 3712, 3721)**: Tested row 13 thoroughly at columns 28-30. Columns 29-30 at row 12 form an impassable solid brick foundation wall supporting the upper bridge overhead; there is NO northward passage from row 13 to the upper level.
-- **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void. The upper gangway does not connect across to the decorative northeast staircase.
+- **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
