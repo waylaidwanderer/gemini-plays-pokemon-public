@@ -4,7 +4,7 @@
 - **Dock**: Wooden pier at rows 23-26, columns 32-34.
 - **Surroundings**:
   - Cobblestone/gravel path leads north from the dock into the main town.
-  - NPC trainer with red cap standing northeast of dock near a building.
+  - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turn 3351-3352).
   - Ocean to south and west.
 
 ## Points of Interest & Buildings
