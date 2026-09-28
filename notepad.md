@@ -403,6 +403,8 @@
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
   - Machop Family House at (13, 15): Closed/inactive on Turn 3230.
 - Metro Station Audit Protocol: Thoroughly inspect Sovio Metro Station lobby, specifically auditing untested tiles east of column 24 and all station corners for Dad.
+- Metro Turnstile Re-Test (Turn 3823): Confirmed active; stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step Down to (19, 22). Metro lobby confirmed completely empty.
+- Surface Search Protocol: Dad and Valora left the sewers post-rescue; Dad must be found on the Sovio City surface to clear the turnstile trigger.
 
 <hr>
 
