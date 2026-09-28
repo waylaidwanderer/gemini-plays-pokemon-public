@@ -21,6 +21,8 @@
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
 
+- **Northeast Wooden Staircase & Column 30 Bridge (Verified Turns 3678-3680)**: In the northeast section of Sovio Sewers, a wooden staircase is located at columns 28-29, rows 3-4 with its opening facing east. The northern gangway along row 5 terminates at column 27 at a chasm void. Access to the wooden staircase is via a vertical stone bridge running along column 30 from row 13 north to row 4, then stepping left into the staircase opening.
+
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
 - **Sixth Siara Grunt (Storage Room Guard)**: Guarded Jackson's storage room; retreated after Marie's radio directive confirming Asher's arrival.
