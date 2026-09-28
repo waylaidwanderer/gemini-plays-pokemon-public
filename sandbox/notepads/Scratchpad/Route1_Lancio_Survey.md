@@ -10,7 +10,7 @@
 - [x] Route 1 Cottage at (37, 24): Re-verified boy dialogue ("Now that you got your sample, go and enjoy freedom!"); static ambient line.
 - [x] NPC 2 (Camper/Straw Hat) at (18, 45): Dialogue verified ("Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away."); ambient advice, no items or story triggers.
 - [x] NPC 1 (Boy in blue backwards cap) at (12, 49): Dialogue verified ("I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you"); ambient advice, no items or story triggers.
-- [ ] Cut Tree at (5, 43): Verify status.
+- [x] Cut Tree at (5, 44): Verified solid obstacle at (5, 44); non-interactive without HM Cut.
 
 ## Lancio Town Survey Checklist
 - [ ] Professor Ivo's Lab at (17, 11): Check for new story dialogue or gifts.
