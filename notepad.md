@@ -301,6 +301,7 @@
 - **Interaction Confirmed (Turn 3468)**: Interacting with the Pidgey at (45, 19) triggers dialogue: "Asher: Is this the Pidgey, that boy was looking for?".
 - **Pidgey Recovered (Turn 3469)**: Dialogue sequence: "Pidgey: ku...ku...", "He seems to be lost and scared...", "Asher: Alright, come with me little buddy!". Pidgey joined Asher to return to its trainer.
 - **Quest Completed (Turn 3512-3513)**: Returned Pidgey to Blue Cap Boy at (34, 37). Text confirmed: "Y-you found him!! Thank you so much!", "Asher Finished The Quest!", "Please, accept this as a gift!".
+- **Reward Received (Turn 3514)**: Obtained Timer Ball from Blue Cap Boy. Quest officially complete.
 
 <hr>
 
