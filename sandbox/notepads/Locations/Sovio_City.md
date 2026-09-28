@@ -19,6 +19,8 @@
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
+  - Pokémon Center northeast corner at (46, 12): solid building wall collision when attempting to step north from (46, 13) (verified Turn 5421).
+  - Terrace south curb at (49, 17): solid curb collision when attempting to step north from (49, 18) (verified Turn 5409). The elevated terrace (columns 47-51, rows 13-17) is an inaccessible decorative elevation from the street.
   - Stone bin at (31, 17): solid collision when stepping west from (32, 17); bypassed via row 19.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).

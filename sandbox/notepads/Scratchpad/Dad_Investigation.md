@@ -26,3 +26,11 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 ## Protocol
 - Stop cyclical testing of (19, 21) turnstiles.
 - Complete systematic exterior and building sweep of Sovio City.
+
+## Recent Findings (Turns 5408-5428)
+- Plaza East Terrace (columns 47-51, rows 13-17): Verified physically inaccessible from street level (blocked by curb at 49, 17, vertical ledge at col 47, and solid building walls). Not an accessible progression path.
+- Behind Pokémon Center: Alley is blocked; building walls at (40-41, 8) connect directly to Pokémon Center roof.
+- Active Lead: Sweep West Avenue and the northwest sector:
+  1. Residential house at (13, 15) (Machop Family) - check if accessible now that Machop's Toy quest is active.
+  2. Biker gang at (13, 21-23) - talk to all 3 bikers for rumors/clues.
+  3. West manholes (13, 19) and (13, 27).
