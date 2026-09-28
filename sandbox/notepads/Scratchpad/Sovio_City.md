@@ -9,9 +9,7 @@
 - Right Scanner Pillar (20, 21): Interacted with 'A' from (20, 22) on Turn 2945; non-reactive.
 - Turnstile Trigger Tile (19, 21): Stepping onto (19, 21) triggers "I should find dad first!" and executes forced movement 1 step Down to (19, 22) (verified Turns 2946, 2955-2956).
 - East Exit Barrier (52, 19): Triggers "I can't go yet... I have things to do!" and forces player west to (51, 19) (verified Turns 2796, 2987, 3557).
-- Route 2 Barrier Re-Test (Turn 3073-3075, 3557): Confirmed identical barrier: 'I can\'t go yet... I have things to do!' forcing player west to (51, 19).
 - South-Central House (31, 26): Entered Turn 3086. Resident is the official Name Rater.
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
   - Machop Family House at (13, 15): Closed/inactive on Turn 3230.
-- Metro Station Lobby (Turn 3823): Fully surveyed; turnstile at (19, 21) triggers "I should find dad first!". Lobby is completely empty.
 - North-Central House (39, 7): Re-audited Turn 3874 post-rescue; elderly man on 1F and boy on 2F confirmed ambient (Wii dialogue).
