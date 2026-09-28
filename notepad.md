@@ -60,10 +60,7 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-- **The 'Young Master' Identity Clarification (Turn 2731)**: Marie's radio directive ordering grunts to withdraw because 'the young master already found it' referred directly to Asher himself (son of Marie and Jackson, heir to the Siara Mafia). There was no second operative lurking in the sewers.
-## The Station Tremor & Dad's Disappearance (Turn 1437)
-- **The Tremor**: While Asher, Dad, and Valora prepared to board the 16:00 train to Amor City inside the Sovio Metro Station, a sudden tremor shook the station.
-- **Dad's Disappearance**: Dad ran outside the station to investigate the tremor's cause. Following this event, Dad went missing and the station turnstiles became blocked with "I should find dad first!".
+- **Marie's Radio Directive Theory**: Marie's radio directive ordering grunts to withdraw because 'the young master already found it' is hypothesized to refer to Asher (son of Marie and Jackson, heir to the Siara Mafia), though whether it refers to Asher, another operative, or an unknown item remains an unverified hypothesis.
 
 ## Dad's Disappearance & Sewer Investigation Fact Sheet (Verified Empirical Truth)
 - **Station Tremor (Turn 1437)**: Tremor shook Sovio Metro Station. Dad ran outside to investigate. Following this, Metro turnstiles blocked with "I should find dad first!" and Route 2 blocked with "I can't go yet... I have things to do!".
@@ -384,8 +381,7 @@
   - Main lobby floor lands at (23, 24) on vertical red mat.
   - Stairs leading back up to Sovio City overworld at (24, 24).
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
-  - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
-  - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
+  - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
@@ -535,5 +531,39 @@
 - [x] Old Woman at (33, 8): Dialogue verified ("With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."); ambient dialogue, no items or story leads.
 - [x] Fisherman at (38, 22): Dialogue re-verified ("You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come."); ambient advice, no items or rods.
 - [x] Pier at (32-34, 23-25): Audited on Turn 5186; verified empty (no boat, no Harry, no Dad).
+
+<hr>
+
+<h1><code>Scratchpad/Dad_Investigation</code></h1>
+
+# Dad Investigation Scratchpad
+
+## Current Objective
+Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should find dad first!").
+
+## Verified Empirical Ground Truth
+- Tremor occurred inside Sovio Metro Station (Turn 1437).
+- Dad ran outside the station to investigate the tremor.
+- Turnstiles at (19, 21) remain locked with "I should find dad first!" (tested Turn 5399).
+- Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
+- Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
+- Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Dad was not inside.
+
+## Priority Investigation Leads
+1. **Residential House (Plaza East) at (48, 13) / (49, 14)**:
+   - Green door east of Pok�mon Center.
+   - Last visited Turn 1356 (BEFORE the tremor). Has NEVER been inspected post-tremor.
+   - High probability of NPC dialogue update, clue, or event trigger.
+2. **Exterior Sovio City Perimeter & Investigation Sites**:
+   - Inspect outdoor tiles around the Metro entrance and manholes (13, 27) and (13, 19).
+   - Check plaza outside Pok�mon Center where confrontation took place.
+   - Re-check Machop Family house at (13, 15) to see if status changed.
+3. **Old Man with Phanpy at (51, 15)**:
+   - Check if speaking to him without quest or after quest gives any lore clues.
+
+## Protocol
+- Stop cyclical testing of (19, 21) turnstiles.
+- Complete systematic exterior and building sweep of Sovio City.
+
 
 <hr>
