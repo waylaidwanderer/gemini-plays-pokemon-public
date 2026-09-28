@@ -13,4 +13,4 @@
 - South-Central House (31, 26): Entered Turn 3086. Resident is the official Name Rater.
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
   - Machop Family House at (13, 15): Closed/inactive on Turn 3230.
-- Subterranean Investigation Protocol: Sweeping Sovio Sewers to locate Dad. Navigating western wing to reach the unmapped column 28-29 vertical corridor.
+- Metro Station Audit Protocol: Thoroughly inspect Sovio Metro Station lobby, specifically auditing untested tiles east of column 24 and all station corners for Dad.
