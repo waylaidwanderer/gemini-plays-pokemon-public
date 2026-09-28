@@ -28,6 +28,7 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner PokÃ©mon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
 
+- **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall (settling at 12, 17 facing Left); no passage further west.
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
 - **Central Plaza**: Located around (40-50, 10-18) containing the PokÃ©mon Center, Metro Station entrance, and residential house.
@@ -130,7 +131,8 @@
 
 - **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
 
-- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
+- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091). Note: The north roof of this building blocks row 24 at column 32 (verified Turn 6374).
+- **Central Park South Collisions (Verified Turns 6374-6375)**: Street lamp obstructs tile (35, 23) south of the pond bank.
 
 ## North-Central Commercial/Residential Block
 
