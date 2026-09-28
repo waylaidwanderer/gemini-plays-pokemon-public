@@ -9,6 +9,6 @@
 1. Lab Investigation (Complete):
    - Spoke to Professor Ivo at (20, 6); only ambient starter greeting. Dad absent.
 2. Dock Investigation:
-   - Exit lab at (12, 12).
-   - Walk east to central crossroads (33, 16), then south to pier (32-34, 23-26).
+   - Currently at (23, 14).
+   - Walking east to central crossroads (32, 15), then south to pier (32-34, 23-26).
    - Check for Harry, Dad, or boat passage to Inizio Isle.
