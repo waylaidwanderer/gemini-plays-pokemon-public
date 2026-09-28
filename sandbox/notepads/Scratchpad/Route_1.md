@@ -8,7 +8,7 @@
 
 ## Active Waypoints & Route Execution
 1. Lab Investigation:
-   - Walk west along row 15 from (47, 15) past the Pokémon Center (34-37, 14) to the western path.
-   - Arrived at (17, 14) outside Professor Ivo's Lab. Stepping Up into the laboratory.
+   - Entered Professor Ivo's Lab at (12, 12).
+   - Moving into East Research Wing via row 10 hallway to search for Dad and speak to Professor Ivo.
 2. Dock Investigation (if needed):
    - Check pier at (32-34, 23-26) to see if Dad or Harry has updates.
