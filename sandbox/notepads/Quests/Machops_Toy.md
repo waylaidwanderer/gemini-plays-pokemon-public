@@ -12,9 +12,8 @@
 - [x] Western Lower Wing (rows 27-28, columns 14-23): Searched. No toy.
 - [x] Western Upper Terrace (row 12, column 13): Searched. No toy.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
-- [x] Eastern Row 13 Gangway & Storage Room (columns 23-38, rows 13-14): Searched No toy.
+- [ ] Eastern Storage Room at (37, 14): Exterior red capsule mat inspected with 'A' on Turn 2716 ("Its a simple storage room..."); doorway entry and interior room unverified.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 
 - **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
-- **Provider Dialogue (Turns 3058-3064)**: Spoke with Old Man at (51, 14) outside Metro Station. Dialogue received: "Thank you, the toy must be somewhere deep in the Sovio Sewers. If you can't find it its fine. You can leave if you wanna."

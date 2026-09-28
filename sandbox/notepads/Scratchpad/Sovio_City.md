@@ -31,4 +31,3 @@
    - Platform remains inaccessible; Dad must be found before boarding the train.
 4. **Sovio City Surface Leads & Quests**:
    - Quest 'Machop's Toy' re-accepted on Turn 4450-4451 from Old Man at (51, 15) outside Metro Station.
-   - Plaza Sewer Manhole at (54, 19) east of signpost: UNTESTED.
