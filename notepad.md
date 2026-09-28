@@ -509,7 +509,7 @@
 - Search Targets: Identify any new quest givers, story triggers, HM/item gifts, or clues regarding Dad's whereabouts.
 
 ## Route 1 Survey Checklist
-- [ ] NPC 6 (Bug Catcher Duke) at (45, 12): In progress (speaking now).
+- [x] NPC 6 (Bug Catcher Duke) at (45, 12): Dialogue verified ('You really must be something to be able to counter my defense...'); ambient post-defeat line, no story leads or items.
 - [ ] NPC 3 (Lass in pink shirt) at (40, 35) / (40, 37).
 - [ ] Route 1 Cottage at (37, 24): Re-verify resident boy dialogue.
 - [ ] NPC 2 (Camper/Straw Hat) at (18, 45): Direct dialogue inspection.
