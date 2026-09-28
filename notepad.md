@@ -576,3 +576,29 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 
 
 <hr>
+
+<h1><code>Quests/Machops_Toy.md</code></h1>
+
+# Quest: Machop's Toy
+
+## Details
+- **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
+- **Status**: Active / In Progress (Re-accepted Turn 4450-4451 from Old Man at (51, 15)).
+- **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
+- **Target Location**: 'Somewhere deep in the Sovio Sewers'.
+
+## Sewer Sector Search Log
+- [ ] Upper Entrance Landing (1F, rows 21-23): Puddle tiles (35, 22) and (34, 22) audited with 'A' on Turn 4919 (negative); remaining landing floor un-audited.
+- [ ] Lower Central Corridor (columns 26-27, rows 18-27): Traversed on foot; no systematic 'A'-press audit conducted.
+- [ ] Western Lower Wing (rows 27-28, columns 14-23): Traversed on foot; no systematic 'A'-press audit conducted.
+- [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
+- [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
+- [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
+- [x] Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid and non-interactive with 'A' while quest is active.
+- [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
+- [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
+- [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
+
+
+
+<hr>
