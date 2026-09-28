@@ -50,7 +50,7 @@
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (female) (Lv6, Normal; verified Turn 3136)
 - Shuppet (female) (Lv6, Ghost; verified Turn 4570)
-- Croagunk (female) (Lv5, Poison/Fighting; verified Turn 4681)
+- Croagunk (Lv5, Poison/Fighting; female verified Turn 4681, male verified Turn 5652)
 ## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
