@@ -26,7 +26,7 @@
   - Bidoof (Lv2, Normal; verified Turn 877).
   - Caterpie (Lv2, Bug; verified Turn 890).
   - Rattata (Lv3, Normal; verified Turn 1859).
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
