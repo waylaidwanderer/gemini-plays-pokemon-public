@@ -11,8 +11,8 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south. Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you". Ambient advice.
-- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away.". Ambient advice.
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south. Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokï¿½mon can jump out and attack you". Ambient advice.
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokï¿½mon can't attack me! I have many repels... They keep wild Pokï¿½mon away.". Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your PokÃ©mon get injured you can easily heal those damages in a PokÃ©mon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
@@ -50,3 +50,4 @@
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
 - **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).
 - **Pine Tree Obstacle at (32, 24) (Verified Turn 4315)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
+- **Cottage Dead-End Pocket (Verified Turns 5230-5237)**: At (40, 26) is Signpost 3; columns 42+ east of row 27 are a solid pine forest wall, and row 20 north of columns 40-41 is blocked by a horizontal branch. The Cottage at (37, 24) does not connect eastward or northward to Sovio City; main passage runs through Northwest Clearing (columns 27-30).
