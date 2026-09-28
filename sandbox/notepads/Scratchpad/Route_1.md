@@ -14,5 +14,5 @@
 - Route 1 Cottage (37, 24): Audited on Turn 3275. Resident boy has ambient Max Repel dialogue; Dad is not here.
 - Blue Cap Boy clearing (34, 37): Bypassed south through (30, 40).
 - Southern Corridor: Navigating west through (29, 41) / (27-28, 42) toward the main highway (rows 44-49) to Lancio Town.
-- West Route 1 Highway: Passing row 43 tall grass past central pine tree; turning south at column 6 to row 45 to reach Lancio Town gate at (0, 45). Investigating Professor Ivo's Lab.
+- Row 43 Obstacle: (11, 43) is blocked by top cone of central pine tree. Verified route to Lancio Town is southern bypass via row 49 (12, 49 -> 8, 49) to row 46 cobblestone road.
 - Successfully bypassed central tree and signboard via (12, 49) -> (8, 49). Stepping Up to (8, 46) and Left to (0, 46) into Lancio Town.
