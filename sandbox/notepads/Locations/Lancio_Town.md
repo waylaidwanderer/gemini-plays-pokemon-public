@@ -41,3 +41,4 @@
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
 - **Post-Rescue Audit (Turn 3338)**: Spoke with Professor Ivo at (20, 6) in the East Research Wing; she provides standard ambient dialogue ('Hey, Ashi, how's your new Pokémon?'). Dad is not in the laboratory.
 - **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested Turn 3348, solid non-enterable collision with no warp or text prompt.
+- **Post-Rescue Center Audit (Turns 3358-3366)**: Exterior doors at (35, 14) and (36, 14) tested; solid collision and unresponsive to 'A'. Dad is not in Lancio Town. Lancio Town audit (Lab, Dock, Center) 100% complete and negative.
