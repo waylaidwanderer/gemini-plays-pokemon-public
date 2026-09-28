@@ -517,7 +517,7 @@
 - [x] Green-haired girl at (22, 14): Dialogue verified ("Lancio has such pretty flowers, I wanna collect them all!"); ambient line, no story leads or items.
 - [x] Professor Ivo's Lab at (17, 11): Dialogue verified ("Hey, Ashi, how's your new Pok�mon?"); static starter greeting, no new story triggers or items.
 - [x] Residential House at (25, 10): Resident boy at (44, 4) gave TM17 (Protect) after persistent dialogue!
-- [ ] NPC in cap at (~31, 14): Sighted Turn 5138 on east path, inspect dialogue.
+- [x] NPC in cap at (31, 14): Dialogue verified ("Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!"); ambient complaint, no items or story leads.
 - [x] Old Man at (32, 8): Dialogue verified ("I have grown up in this place, and I never want to leave it... This is home for me."); ambient town dialogue, no items or story leads.
 - [x] Old Woman at (33, 8): Dialogue verified ("With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."); ambient dialogue, no items or story leads.
 - [ ] Fisherman at (38, 22): Re-verify dialogue.
