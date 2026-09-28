@@ -19,4 +19,4 @@
 
 - **Quest Log App Structure (Verified Turns 6022-6028)**: The Quest Log app contains:
   - 'Quest List': Lists known side quests ('Lost Pidgey', 'Lost Toy', etc.) and indicates completion status (e.g. 'This Quest hasn't been completed yet!').
-  - 'Quest Status': Displays the active quest's full description, instructions, and target objectives.
+  - 'Quest Status': Displays standard canned message: 'You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!' (does not provide detailed objectives; verified Turn 6198).
