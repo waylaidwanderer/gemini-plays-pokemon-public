@@ -60,6 +60,13 @@
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
 
+## Sovio Metro Tremor & Jackson's Disappearance (Turns 1437-2716)
+- **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
+- **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
+- **Sovio Sewers & Team Siara Captivity**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts had captured Jackson and held him in an eastern storage room awaiting Commander Marie.
+- **Siara Retreat**: Asher confronted the grunts guarding the storage room until Marie broadcast a general radio retreat order. Team Siara vacated the sewers.
+- **The Local Mystery**: Despite the sewers being cleared, the Metro ticket turnstiles remain blocked by Asher's internal prompt: 'I should find dad first!', indicating Dad's story flag has not been resolved locally.
+
 
 <hr>
 
@@ -479,7 +486,7 @@
 - Sovio Sewers: Grunts vacated after Marie's radio broadcast (Turn 2682); storage room inspected ("Its a simple storage room...").
 - Conclusion: ALL accessible residential interiors and facilities in Sovio City contain ZERO direct story progression leads.
 - Side Quests & Progression: While 'Machop's Toy' is not a direct dialogue flag for Dad, side quests in ROM hacks frequently grant Key Items, HMs (such as Rock Smash), or progression permissions required to advance through blocked obstacles.
-- East Terrace: Access borders from plaza curbs are impassable on foot (col 47, row 16-17 curb tested Turn 5409, 6166). Old Man interaction coordinates to be verified empirically from perimeter.
+- East Terrace: Access borders from plaza curbs are impassable on foot (col 47, row 16-17 curb tested Turn 5409, 6166). Old Man at (51, 15) is behind Phanpy (51, 16), curb (row 17), and 2-tile signpost at (50-51, 18); verified completely out of interaction range from pavement (Turn 6208).
 
 
 <hr>
