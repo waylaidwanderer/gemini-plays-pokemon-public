@@ -485,16 +485,15 @@
 
 ## Active Progression & Context
 - Objective: Locate Dad or trigger story progression to clear the Sovio Metro station turnstiles.
-- Status: Successfully traversed Route 1 and arrived in Lancio Town at (47, 15).
-- Primary Candidate: Professor Ivo's Pokémon Laboratory at (17, 11-12).
-- Secondary Candidate: Lancio Town Dock / Harry's Boat at (32-34, 23-26).
+- Status: Professor Ivo in the lab verified ambient ("Hey, Ashi, how's your new Pokémon?"). Dad is absent from the lab.
+- Immediate Target: Lancio Town Dock / Harry's Boat at (32-34, 23-26).
 
 ## Active Waypoints & Route Execution
-1. Lab Investigation:
-   - Entered Professor Ivo's Lab at (12, 12).
-   - Located Professor Ivo at (20, 6) next to the research incubator in the East Research Wing.
-   - Speaking with Professor Ivo to get updates on Dad and the Eclipse Project.
-2. Dock Investigation (if needed):
-   - Check pier at (32-34, 23-26) to see if Dad or Harry has updates.
+1. Lab Investigation (Complete):
+   - Spoke to Professor Ivo at (20, 6); only ambient starter greeting. Dad absent.
+2. Dock Investigation:
+   - Exit lab at (12, 12).
+   - Walk east to central crossroads (33, 16), then south to pier (32-34, 23-26).
+   - Check for Harry, Dad, or boat passage to Inizio Isle.
 
 <hr>
