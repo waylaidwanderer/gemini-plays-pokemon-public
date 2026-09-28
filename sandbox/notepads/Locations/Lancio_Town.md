@@ -39,3 +39,4 @@
 ## Eastern Border & Route 1 Exit
 - **Signboard**: Located at (44, 13) marking "Route 1 ----->".
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
+- **Post-Rescue Audit (Turn 3338)**: Spoke with Professor Ivo at (20, 6) in the East Research Wing; she provides standard ambient dialogue ('Hey, Ashi, how's your new Pokémon?'). Dad is not in the laboratory.
