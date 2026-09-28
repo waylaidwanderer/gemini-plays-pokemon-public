@@ -409,7 +409,7 @@
 
 ## Details
 - **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
-- **Status**: Available / Re-offered (Observed with active '[✎]' quest prompt icon on Turns 4431-4432 outside Metro Station after Lost Pidgey completion).
+- **Status**: Active / In Progress (Re-accepted Turn 4450-4451 from Old Man at (51, 15)).
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 
