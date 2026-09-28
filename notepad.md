@@ -272,7 +272,7 @@
 
 - **Quest Log App Structure (Verified Turns 6022-6028)**: The Quest Log app contains:
   - 'Quest List': Lists known side quests ('Lost Pidgey', 'Lost Toy', etc.) and indicates completion status (e.g. 'This Quest hasn't been completed yet!').
-  - 'Quest Status': Displays the active quest's full description, instructions, and target objectives.
+  - 'Quest Status': Displays standard canned message: 'You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!' (does not provide detailed objectives; verified Turn 6198).
 
 
 <hr>
@@ -306,8 +306,7 @@
 - **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 ## Exploration & Landmarks
-- **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
-- **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
+- **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
   - Middle, Top, and Bottom Bikers: Ambient motorcycle gang dialogue ("vroom vroom").
@@ -317,7 +316,7 @@
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
-- **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
+- **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
@@ -380,7 +379,7 @@
 
 ## Details
 - **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
-- **Status**: Active / In Progress (Re-accepted Turn 4450-4451 from Old Man at (51, 15)).
+- **Status**: Active / In Progress (Accepted from Old Man outside Metro Station; Old Man is at (51, 15) behind Phanpy (51, 16) and elevated terrace curb (row 17)).
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 
@@ -388,13 +387,15 @@
 - [x] Upper Entrance Landing (1F, rows 21-23): Puddle tiles across rows 21-22 (columns 32-35) fully audited with 'A' on Turn 6086; no hidden items or toy.
 - [ ] Lower Central Corridor (columns 26-27, rows 18-27): Traversed on foot; no systematic 'A'-press audit conducted.
 - [ ] Western Lower Wing (rows 27-28, columns 14-23): Traversed on foot; no systematic 'A'-press audit conducted.
-- [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
+- [x] Western Upper Terrace (row 12, columns 13-18): Traversed and bounded (cols 13-18) on Turns 6130-6132; verified devoid of items, NPCs, or exits.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
 - [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
-- [x] Machop Family House (13, 15): Audited Turn 5950-5974; Machop at (9, 34) says 'Chop Chop!' / 'He seems a bit agressive...'. Toy is not here.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
+## Visual Observations
+- Old Man at (51, 15) displays active quest icon (scroll and quill bubble) over head (verified Turn 6172).
+
 
 <hr>
 
@@ -476,15 +477,9 @@
 - Turnstiles at (19, 21) remain locked with "I should find dad first!" (re-verified Turn 6010).
 - Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
 - Sovio Sewers: Grunts vacated after Marie's radio broadcast (Turn 2682); storage room inspected ("Its a simple storage room...").
-- All residential houses & facilities in Sovio City audited:
 - Conclusion: ALL accessible residential interiors and facilities in Sovio City contain ZERO direct story progression leads.
 - Side Quests & Progression: While 'Machop's Toy' is not a direct dialogue flag for Dad, side quests in ROM hacks frequently grant Key Items, HMs (such as Rock Smash), or progression permissions required to advance through blocked obstacles.
-- East Terrace: Access borders from plaza curbs are impassable on foot; interactions with the Old Man occur from the plaza perimeter.
-
-## Turn 6162 Ground Truth Synthesis
-- Sovio Sewers 1F & B1F completely exhausted: Western Upper Terrace bounded (cols 13-18, row 12), Western Lower Wing blocked by cracked rocks at (10, 17) and (9, 18), Dark Sector B1F fully mapped (toy absent), Upper Landing puddle audited empty.
-- Dad's Story Flag: On Turn 1437, Dad explicitly ran OUTSIDE the Metro Station into Sovio City to investigate the tremor. Dad is on the surface in Sovio City.
-- Current Investigation: Testing exterior access to the elevated East Terrace above the Metro portal (cols 48-51, rows 13-16) and the two-story building at (48, 14).
+- East Terrace: Access borders from plaza curbs are impassable on foot (col 47, row 16-17 curb tested Turn 5409, 6166). Old Man interaction coordinates to be verified empirically from perimeter.
 
 
 <hr>
