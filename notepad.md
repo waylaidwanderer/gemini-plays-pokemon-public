@@ -235,7 +235,7 @@
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
 - **Route 1 Cottage Interior Audit (Verified Turns 4145-4156)**: Asher entered cottage at (37, 24) and spoke to the resident boy at (6, 7). Dialogue: "Now that you got your sample, go and enjoy freedom!". Dad confirmed absent; no active story flags or items inside.
-- **Sand Highway Cul-de-sac Barrier (Verified Turns 4162-4166)**: Column 37 path leads south to the Pidgey clearing at rows 37-38. Impassable barrier formed by pine tree trunks at (31, 38) and continuous horizontal hedge along row 39 (columns 32-38); completely blocked from connecting to the southern meadow trail. Must backtrack north to row 24 to access the western corridor.
+- **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).
 
 <hr>
 
