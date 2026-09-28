@@ -6,7 +6,6 @@
 
 ## Verified Route 1 Geography & Meadow Navigation
 - Enclosed Meadow Access: Winding path from northern clearing at (52, 11) runs south through tall grass at (52, 14-15) to open dirt at (52, 16), then west along dirt corridor at row 18 (columns 44-49) to the Pidgey meadow at (44-45, 19).
-- Return Route to (34, 37):
 
 ## Sovio City Progression Testing & Falsification Criteria (Turn 3541)
 - Active Priority: Enter Sovio City and test progression barriers following Lost Pidgey completion.
@@ -23,4 +22,4 @@
 ### Protocol Step 2 Execution (Verified Turn 3557-3565)
 - Tested Route 2 exit at (52, 19). Textbox displayed: 'I can\'t go yet... I have things to do!'.
 - Conclusion: The hypothesis that completing side quests unlocks Route 2 is EMPIRICALLY REJECTED.
-- Grand Synthesis: Side quests ('Lost Pidgey', 'Lost Toy') do NOT gate progression. The restriction is 100% tied to the main story directive: Asher must find Dad.
+- Empirical Deduction: Completing 'Lost Pidgey' did NOT unlock the Metro turnstiles or Route 2 exit. Side quest completion for 'Lost Pidgey' does not clear the main story barriers. The restriction is strictly tied to finding Dad.
