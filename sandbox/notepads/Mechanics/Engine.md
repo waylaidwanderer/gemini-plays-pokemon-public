@@ -19,11 +19,3 @@
 - **Quest Limit**: Only ONE active side quest can be in progress at a time; accepting a new quest prompts cancellation of the active quest.
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 - **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
-## HuPhone App Verifications (Verified Turns 3998-4012)
-- **Item Storage**: Portable PC item storage verified empty ('There are no items.') upon audit.
-- **Mailbox**: Portable PC mailbox verified empty ('There's no Mail here.') upon audit.
-- **World Map**: Displays static regional layout of Hupest with town nodes; does not display objective pins or directional arrows.
-
-- **Quest Log App Structure (Verified Turns 6022-6028)**: The Quest Log app contains:
-  - 'Quest List': Lists known side quests ('Lost Pidgey', 'Lost Toy', etc.) and indicates completion status (e.g. 'This Quest hasn't been completed yet!').
-  - 'Quest Status': Displays standard canned message: 'You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!' (does not provide detailed objectives; verified Turn 6198).
