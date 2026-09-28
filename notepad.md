@@ -490,9 +490,10 @@
 
 ## Active Waypoints & Route Execution
 1. Southern Meadow Traversal to Lancio Town:
-   - Currently at (28, 42) in the southern meadow trail.
-   - Follow the trail west: (28, 42) -> (27, 42) -> row 44 at column 20.
-   - Follow the cobblestone road west to (0, 45-46) into Lancio Town.
+   - Discovered: Purple and pink bird tracks mark the exact walkable route through the hedge maze.
+   - At (25, 44), the path west is blocked by a hedge. Backtrack Right to (26, 44), Up to row 41.
+   - Follow tracks west along row 41: (26, 41) -> (25, 41) [track] -> (23, 41) [track] -> (22, 42) -> gap at (21, 44-45) -> open path to column 20.
+   - From column 20, follow cobblestone road west to (0, 45-46) into Lancio Town.
 2. Lancio Town Investigation:
    - Inspect Professor Ivo's Laboratory (17, 11-12).
    - Inspect Lancio Town Dock / Harry's Boat (32-34, 23-26).
