@@ -2,7 +2,7 @@
 
 ## Details
 - **Giver**: Blue cap boy at Route 1 northeast clearing (34, 37).
-- **Status**: Active / In Progress (Verified Turn 3395; quest giver prompt 'Wanna stop? No' confirms quest is currently active).
+- **Status**: Completed (Turn 3512-3514; Pidgey returned to boy at (34, 37), received Timer Ball).
 - **Objective**: Find the boy's lost Pidgey who wandered away on Route 1.
 - **Reward**: Nice rewards / gifts upon completion.
 
