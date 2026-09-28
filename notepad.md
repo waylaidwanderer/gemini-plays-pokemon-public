@@ -300,6 +300,7 @@
 - **Lost Pidgey Found (Verified Turn 3467)**: Located at (45, 19) in the enclosed meadow east of the cottage branch barrier. Reached via hidden winding corridor from (52, 11) south through grass at (52, 15) and west along row 18 dirt corridor.
 - **Interaction Confirmed (Turn 3468)**: Interacting with the Pidgey at (45, 19) triggers dialogue: "Asher: Is this the Pidgey, that boy was looking for?".
 - **Pidgey Recovered (Turn 3469)**: Dialogue sequence: "Pidgey: ku...ku...", "He seems to be lost and scared...", "Asher: Alright, come with me little buddy!". Pidgey joined Asher to return to its trainer.
+- **Quest Completed (Turn 3512-3513)**: Returned Pidgey to Blue Cap Boy at (34, 37). Text confirmed: "Y-you found him!! Thank you so much!", "Asher Finished The Quest!", "Please, accept this as a gift!".
 
 <hr>
 
