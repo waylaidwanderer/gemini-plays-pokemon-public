@@ -16,8 +16,9 @@
 ## Systematic Untested Inspection Protocol
 1. **West Avenue Bikers (Immediate Priority)**:
    - Biker 1 (Top) at (13, 21): Spoke on Turns 4415-4416 ('"vroom" "vroom" Jealous kid? / We are the big guys here, the ultimate motorcycle gang!'). Ambient dialogue.
-   - Biker 2 (Middle) at (13, 22): UNTESTED.
-   - Biker 3 (Bottom) at (13, 23): Spoke on Turn 1496/3905 (ambient motorcycle gang boast).
+   - Biker 2 (Middle) at (13, 22): Spoke on Turns 4419-4420 (identical motorcycle gang boast). Ambient dialogue.
+   - Biker 3 (Bottom) at (13, 23): Spoke on Turn 1496/3905 (identical motorcycle gang boast). Ambient dialogue.
+   - Conclusion: All 3 bikers confirmed ambient NPCs with identical motorcycle gang text.
 2. **West Avenue Buildings & Landmarks**:
    - Machop Family House at (13, 15): Re-check door status (was locked on Turn 3230).
    - Residential Facade at (28, 14): Decorative facade (confirmed Turn 3014).
