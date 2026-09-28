@@ -1,7 +1,9 @@
 # Scratchpad: Sovio City & Metro Station Investigation
 
 ## Investigation & Testing Log
-- Pokémon Center: Re-audited post-rescue on Turn 2933; confirmed 100% empty of Dad and Valora.
+- Sovio City Surface: Thoroughly surveyed all streets and avenues.
+- Pokémon Center: Re-audited post-rescue Turns 4024-4047. Nurse Joy healed party and registered Sovio checkpoint. Camper ('My weedle got poisoned...') and Boy ('Please feel free to use that PC in the corner.') confirmed 100% ambient. Neither Dad nor Valora is present.
+- Sewers 1F Landing: Surveyed on Turns 2753 and 2942. Confirmed 100% empty; Dad and Valora are not on the landing.
 - Train Schedule Board (23, 23): Interacted with 'A' on Turn 2924; non-reactive.
 - Left Scanner Pillar (18, 21): Interacted with 'A' from (18, 22) on Turn 2944; non-reactive.
 - Right Scanner Pillar (20, 21): Interacted with 'A' from (20, 22) on Turn 2945; non-reactive.
@@ -14,7 +16,8 @@
 - Western Sector Audit (Turns 3904-3913): Column 13 terminates at solid building walls. Bikers at (13, 21-23) and Rocky boy at (23, 17) confirmed ambient.
 - Central Park Promenade (Turn 3934): Blonde girl at (44, 24) confirmed ambient (waiting for someone by pond).
 - Master Deduction (Updated Turn 3988):
-  1. Dad departed the Metro Station, and the turnstile remains blocked ('I should find dad first!').
+  1. Dad ran outside the Metro Station on Turn 1437 to investigate the tremor.
   2. The sewers are 100% evacuated following Team Siara's retreat.
-  3. North-Central, South-Central Name Rater, and Plaza East are verified ambient. Pokemon Center has not been re-audited since Turn 2933.
+  3. All Sovio City buildings (Pokemon Center, North-Central, South-Central Name Rater, Plaza East) are 100% confirmed ambient post-rescue.
   4. Metro turnstile ("I should find dad first!") and Route 2 ("I can't go yet...") remain locked.
+  5. Next step: Exit Plaza East house to Central Plaza, inspect Old Man quest giver at (50, 14), and proceed south to Route 1 and Lancio Town to find Dad.
