@@ -68,8 +68,10 @@
 ## City Signpost (Verified Turn 1476)
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
 
-## Residential House (Northwest - Decorative Facade) (Verified Turns 1482, 3011, 3014)
-- **Status**: Non-interactive decorative facade at (28, 14); solid collision when stepping north from (28, 15) and non-reactive to 'A'.
+## Residential House (Central West - Gumball Family) (Verified Turn 5933)
+- **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
+- **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
 
 ## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
 - **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
@@ -86,6 +88,4 @@
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 
-- **Building at (23-28, 24-26) / Teal Door House**: Two-story residential house in southwest Sovio City.
-  - Interior 1F: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
-  - Interior 2F: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
+- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
