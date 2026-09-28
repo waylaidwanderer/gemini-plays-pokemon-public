@@ -43,5 +43,5 @@
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
 - **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch.
-- Central Pine Tree Top at (11, 43): Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12. Southern bypass via row 49 (12, 49 -> 8, 49) must be used instead.
-- **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire; route south through row 8 dirt path to connect with Track 7 at (41, 10).
+- Central Pine Tree Top at (11, 43): Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
+- **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
