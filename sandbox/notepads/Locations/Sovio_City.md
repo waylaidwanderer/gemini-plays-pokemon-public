@@ -74,7 +74,10 @@
 - **Interior**: Entrance mat lands at (5, 36).
 - **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 ## South Central Sector
-- **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
+- **Gathering**: South of Central Park pond:
+  - Boy at (35, 28): Dialogue verified Turn 5567: "Yeah Jigglypuff!" (ambient cheering).
+  - Jigglypuff at (34, 28): Dialogue verified Turn 5569: "Puff Puff!" (ambient cry).
+  - Girl at (33, 28): Dialogue verified Turn 5570-5572: "Mom told me that she will evolve if she touches a Moon Stone..." (ambient lore).
 - **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
