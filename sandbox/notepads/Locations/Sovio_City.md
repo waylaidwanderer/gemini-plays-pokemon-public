@@ -16,7 +16,8 @@
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
-- **East Exit Story Barrier (Verified Turns 2068, 2796, 2987, 5459, 5461)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
+- **East Exit Story Barrier**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
