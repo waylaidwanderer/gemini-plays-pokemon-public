@@ -15,7 +15,7 @@
 
 - (22, 10): Verified Rock Smash rock ("It's a rugged rock, but..."). Impassable without HM Rock Smash.
 - (23, 8): Verified stone staircase leading north into the upper section/rooms of the dark sector.
-- (23, 5): Upper landing of stone staircase. North at (23, 4) is solid wall; corridor branches west and east along row 5.
+- (23, 5): Upper landing of stone staircase. (23, 4) contained Nugget (collected Turn 4576); room extends north to row 2.
 - (23, 4): Collected golden item ball: Nugget! Tile is now cleared.
 - (23, 4): Tile is open floor. Large chamber extends north into rows 1-3.
 - (23, 3): North wall located at row 2. Chamber extends east along row 3.
