@@ -21,6 +21,8 @@
 - **East Exit Story Barrier (Verified Turns 2068, 2796, 2987, 5459, 5461)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
+  - Street lamp at (43, 19): solid obstacle blocking direct westward traversal on row 19 from (44, 19); bypassed via row 18/16.
+  - Stone trash bin at (14, 19): solid obstacle blocking direct westward traversal on row 19 into column 14; bypassed via column 15.
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Pokémon Center northeast corner at (46, 12): solid building wall collision when attempting to step north from (46, 13) (verified Turn 5421).
   - North Central building wall at (40, 8) and (41, 8): solid building wall collision when attempting to step north from (40, 9) and (41, 9) (verified Turns 5427, 5433). The northern avenue terminates at row 8 with no rear passage behind the Pokémon Center.

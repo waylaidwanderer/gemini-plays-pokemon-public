@@ -1,8 +1,5 @@
 # Dad Investigation Scratchpad
 
-## Current Objective
-Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should find dad first!").
-
 ## Verified Empirical Ground Truth
 - Tremor occurred inside Sovio Metro Station (Turn 1437).
 - Dad ran outside the station to investigate the tremor.

@@ -50,5 +50,3 @@
 - **Sewer Discovery (Turn 1666)**: Red mat at (18-19, 25) in Metro lobby revealed secret staircase to Sovio Sewers. Cutscene showed Siara grunts discussing Marie's arrival and a locked storage room.
 - **Marie's Radio Directive (Turn 2682)**: Marie announced via radio that "the young master already found it" and ordered grunts to withdraw. Sewer grunts vacated all corridors.
 - **Eastern Storage Room Status (Turn 2716)**: Asher inspected the red mat at (37, 14) with 'A', displaying "Its a simple storage room...". NO NPCs, PRISONERS, OR DAD WERE FOUND INSIDE.
-- **Correction of Hallucinated Reunion**: Earlier context summaries claimed Asher freed Jackson from the storage room; this was an unverified narrative assumption directly contradicted by physical game text.
-- **Current Physical State**: Dad has NEVER been physically found or rescued. Turnstiles remain blocked with "I should find dad first!". Dad's true location remains an active unsolved objective.
