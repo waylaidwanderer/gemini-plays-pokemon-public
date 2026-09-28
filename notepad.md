@@ -519,7 +519,7 @@
 - [x] Residential House at (25, 10): Resident boy at (44, 4) gave TM17 (Protect) after persistent dialogue!
 - [ ] NPC in cap at (~31, 14): Sighted Turn 5138 on east path, inspect dialogue.
 - [x] Old Man at (32, 8): Dialogue verified ("I have grown up in this place, and I never want to leave it... This is home for me."); ambient town dialogue, no items or story leads.
-- [ ] Old Woman at (33, 8): Standing beside Old Man near pond, inspect dialogue.
+- [x] Old Woman at (33, 8): Dialogue verified ("With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."); ambient dialogue, no items or story leads.
 - [ ] Fisherman at (38, 22): Re-verify dialogue.
 - [ ] Pier at (32-34, 23-25): Verify status.
 
