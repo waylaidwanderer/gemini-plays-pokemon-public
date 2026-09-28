@@ -55,7 +55,7 @@
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
-- **Layout**: North stone wall at row 8; open stone floor extending west along row 9 and south along column 30.
+- **Layout**: North stone wall at row 8; south boundary wall at row 10/11; 2-tile wide stone corridor along rows 9-10 connecting column 30 to column 15.
 - **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5).
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; impassable without HM Rock Smash.
