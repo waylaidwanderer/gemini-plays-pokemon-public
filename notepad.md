@@ -526,8 +526,8 @@
    - Biker 3 (Bottom) at (13, 23): Spoke on Turn 1496/3905 (identical motorcycle gang boast). Ambient dialogue.
    - Conclusion: All 3 bikers confirmed ambient NPCs with identical motorcycle gang text.
 2. **West Avenue Buildings & Landmarks**:
-   - Sewer Manhole at (13, 19): UNTESTED (testing on Turn 4423).
-   - Machop Family House at (13, 15): Re-check door status (was locked on Turn 3230).
+   - Sewer Manhole at (13, 19): Verified inert, walkable decorative tile (Turns 4424-4425; no warp, non-reactive to 'A').
+   - Machop Family House at (13, 15): Re-check door status (was locked on Turn 3230; testing Turn 4425).
    - Residential Facade at (28, 14): Decorative facade (confirmed Turn 3014).
    - Boy & Rocky at (23-24, 17): Ambient partner dialogue (confirmed Turn 3912).
    - Westernmost boundary & alleyways past column 13.
