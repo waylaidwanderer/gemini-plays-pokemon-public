@@ -554,7 +554,7 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 ## Verified Empirical Ground Truth
 - Tremor occurred inside Sovio Metro Station (Turn 1437).
 - Dad ran outside the station to investigate the tremor.
-- Turnstiles at (19, 21) remain locked with "I should find dad first!" (tested Turn 5399).
+- Turnstiles at (19, 21) remain locked with "I should find dad first!" (re-verified Turn 5695 after full sewer clearance).
 - Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
 - Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Dad was not inside.
