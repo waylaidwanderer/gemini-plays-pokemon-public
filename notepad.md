@@ -488,12 +488,10 @@
 - Objective: Traverse Route 1 southwest to Lancio Town to investigate Professor Ivo's Laboratory at (17, 11-12) and the dock at (32-34, 23-26).
 
 ## Active Waypoints & Route Execution
-1. Current Position: (30, 11) on Route 1 northern trail.
-2. Northern Corridor Bypass:
-   - Step Down from (30, 11) to row 12.
-   - Traverse west along row 12 to column 28: (30, 12) -> (29, 12) -> (28, 12).
-   - Follow the column 28 dirt corridor south past Lass Sonia (27, 15) to row 18.
-3. Lower Route 1 Navigation:
+1. Sand Clearing Access:
+   - From (29, 24), step east across row 24 into the open sand clearing highway at (31, 24).
+   - Follow the open dirt/sand path south to row 39.
+2. Lower Route 1 Navigation:
    - Pass Youngster Mike at (29, 20) into sand clearing at (32, 39).
    - Southern meadow path: (29, 41) -> (27-28, 42) -> row 44 at column 20.
    - Enter Lancio Town via cobblestone road at (0, 45-46).
