@@ -16,4 +16,4 @@
 - (22, 10): Verified Rock Smash rock ("It's a rugged rock, but..."). Impassable without HM Rock Smash.
 - (23, 8): Verified stone staircase leading north into the upper section/rooms of the dark sector.
 - (23, 5): Upper landing of stone staircase. North at (23, 4) is solid wall; corridor branches west and east along row 5.
-- (23, 4): Discovered golden item ball resting above the stone stairs! Collecting it now.
+- (23, 4): Collected golden item ball: Nugget! Tile is now cleared.
