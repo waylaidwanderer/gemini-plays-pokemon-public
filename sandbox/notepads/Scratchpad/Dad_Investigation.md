@@ -29,3 +29,5 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - Three Bikers (13, 21-23): All three bikers interviewed (Turns 1496, 5440, 5446); all share identical ambient motorcycle gang dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang"). No story leads.
 - Route 2 East Exit (52, 19): Re-verified on Turn 5459/5461; stepping onto (52, 19) triggers "I can't go yet... I have things to do!" and forces Asher west to (51, 19).
 - Note on Dad's Location: Discard speculative side-quest requirements (Machop's Toy / Rock Smash). The core narrative fact is that Dad ran outside into Sovio City to investigate the seismic tremor. We must systematically locate where Dad went or what event was triggered in Sovio City.
+
+- (51, 18): Confirmed solid collision from south; right post of Metro Plaza Signpost. Interacting reads 'Sovio Metro Station / Route 2 ---->'.
