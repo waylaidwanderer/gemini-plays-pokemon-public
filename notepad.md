@@ -424,7 +424,7 @@
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
 
-- **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
+- Status Note: Unfinished; requires systematic A-press audit of lower floors or Rock Smash for deeper areas.
 
 <hr>
 
