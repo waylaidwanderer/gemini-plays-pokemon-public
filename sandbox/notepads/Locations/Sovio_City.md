@@ -68,10 +68,12 @@
 - **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
 - **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
 
-## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
-- **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
-- **Interior**: Entrance mat lands at (5, 36).
-- **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
+## Residential House (Northwest - Machop Family) (Verified Turn 5950)
+- **Entrance**: Teal door at (13, 15) (accessible directly; verified Turn 5950).
+- **Interior 1F**: Entrance mat at (5, 36).
+  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
+  - Family Machop at (9, 34) responds "Machop: Chop Chop!".
+  - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 ## South Central Sector
 - **Gathering**: South of Central Park pond:
   - Boy at (35, 28): Dialogue verified Turn 5567: "Yeah Jigglypuff!" (ambient cheering).

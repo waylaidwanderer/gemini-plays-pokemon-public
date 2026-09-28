@@ -12,6 +12,6 @@
 - Access to East Terrace (house at 49, 14, Old Man at 51, 15) is elevated; south curb at (49, 17) is impassable from street.
 
 ## Verified Overworld Survey
-- Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid with no text prompt despite active quest.
+- Machop Family House (13, 15): Verified accessible on Turn 5950; residents are Karate trainer, girlfriend, and Machop discussing fighting styles.
 - Three Bikers (13, 21-23): All three bikers interviewed (Turns 1496, 5440, 5446); all share identical ambient motorcycle gang dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang"). No story leads.
 - Note on Dad's Location: Discard speculative side-quest requirements (Machop's Toy / Rock Smash). The core narrative fact is that Dad ran outside into Sovio City to investigate the seismic tremor. We must systematically locate where Dad went or what event was triggered in Sovio City.
