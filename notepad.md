@@ -419,7 +419,7 @@
 - [ ] Western Lower Wing (rows 27-28, columns 14-23): Traversed on foot; no systematic 'A'-press audit conducted.
 - [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
-- [ ] Eastern Storage Room at (37, 14): Exterior red capsule mat inspected with 'A' on Turn 2716 ("Its a simple storage room..."); doorway entry and interior room unverified.
+- [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
