@@ -20,6 +20,7 @@
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Pokémon Center northeast corner at (46, 12): solid building wall collision when attempting to step north from (46, 13) (verified Turn 5421).
+  - North Central building wall at (40, 8) and (41, 8): solid building wall collision when attempting to step north from (40, 9) and (41, 9) (verified Turns 5427, 5433). The northern avenue terminates at row 8 with no rear passage behind the Pokémon Center.
   - Terrace south curb at (49, 17): solid curb collision when attempting to step north from (49, 18) (verified Turn 5409).
   - Stone bin at (31, 17): solid collision when stepping west from (32, 17); bypassed via row 19.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
