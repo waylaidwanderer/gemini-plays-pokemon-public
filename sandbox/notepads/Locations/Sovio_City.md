@@ -72,4 +72,4 @@
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
-- **PokéMart Survey (Partial)**: Sovio City Pokémon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed.
+- **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.

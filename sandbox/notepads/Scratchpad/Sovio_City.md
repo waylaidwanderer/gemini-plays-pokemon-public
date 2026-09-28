@@ -16,6 +16,5 @@
 - Master Deduction (Updated Turn 3988):
   1. Dad departed the Metro Station, and the turnstile remains blocked ('I should find dad first!').
   2. The sewers are 100% evacuated following Team Siara's retreat.
-  3. All Sovio City buildings (Pokemon Center, North-Central, South-Central Name Rater, Plaza East) are 100% confirmed ambient post-rescue.
+  3. North-Central, South-Central Name Rater, and Plaza East are verified ambient. Pokemon Center has not been re-audited since Turn 2933.
   4. Metro turnstile ("I should find dad first!") and Route 2 ("I can't go yet...") remain locked.
-  5. Next step: Exit Plaza East house to Central Plaza, inspect Old Man quest giver at (50, 14), and proceed south to Route 1 and Lancio Town to find Dad.
