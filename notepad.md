@@ -270,6 +270,10 @@
 - **Mailbox**: Portable PC mailbox verified empty ('There's no Mail here.') upon audit.
 - **World Map**: Displays static regional layout of Hupest with town nodes; does not display objective pins or directional arrows.
 
+- **Quest Log App Structure (Verified Turns 6022-6028)**: The Quest Log app contains:
+  - 'Quest List': Lists known side quests ('Lost Pidgey', 'Lost Toy', etc.) and indicates completion status (e.g. 'This Quest hasn't been completed yet!').
+  - 'Quest Status': Displays the active quest's full description, instructions, and target objectives.
+
 
 <hr>
 
@@ -306,9 +310,7 @@
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
-  - Middle Biker at (13, 22): Spoke on Turn 1496; non-hostile ambient dialogue.
-  - Top Biker at (13, 21): Spoke on Turns 5440-5442: '"vroom" "vroom" / Jealous kid? / We are the big guys here, the ultimate motorcycle gang! / ... what a weird gang...' (ambient dialogue).
-  - Bottom Biker at (13, 23): Spoke on Turns 5445-5448; identical ambient dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang").
+  - Middle, Top, and Bottom Bikers: Ambient motorcycle gang dialogue ("vroom vroom").
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 - **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
@@ -317,21 +319,6 @@
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier (Verified Turns 2068, 2796, 2987, 5459, 5461)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
-- **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
-  - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
-  - Street lamp at (43, 19): solid obstacle blocking direct westward traversal on row 19 from (44, 19); bypassed via row 18/16.
-  - Stone trash bin at (14, 19): solid obstacle blocking direct westward traversal on row 19 into column 14; bypassed via column 15.
-  - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
-  - Pokémon Center northeast corner at (46, 12): solid building wall collision when attempting to step north from (46, 13) (verified Turn 5421).
-  - North Central building wall at (40, 8) and (41, 8): solid building wall collision when attempting to step north from (40, 9) and (41, 9) (verified Turns 5427, 5433). The northern avenue terminates at row 8 with no rear passage behind the Pokémon Center.
-  - Terrace south curb at (49, 17): solid curb collision when attempting to step north from (49, 18) (verified Turn 5409).
-  - Stone bin at (31, 17): solid collision when stepping west from (32, 17); bypassed via row 19.
-  - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
-  - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).
-  - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
-  - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
-  - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
-  - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
@@ -370,14 +357,12 @@
 - **Entrance**: Teal door at (13, 15) (accessible directly; verified Turn 5950).
 - **Interior 1F**: Entrance mat at (5, 36).
   - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
-  - Family Machop at (9, 34) responds "Machop: Chop Chop!".
+  - Family Machop at (9, 34) responds "Machop: Chop Chop! / He seems a bit agressive...".
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
+- **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of Pokémon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
 ## South Central Sector
-- **Gathering**: South of Central Park pond:
-  - Boy at (35, 28): Dialogue verified Turn 5567: "Yeah Jigglypuff!" (ambient cheering).
-  - Jigglypuff at (34, 28): Dialogue verified Turn 5569: "Puff Puff!" (ambient cry).
-  - Girl at (33, 28): Dialogue verified Turn 5570-5575: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" (ambient lore).
-- **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
+- **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
+- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 
@@ -485,18 +470,18 @@
 ## Verified Empirical Ground Truth
 - Tremor occurred inside Sovio Metro Station (Turn 1437).
 - Dad ran outside the station to investigate the tremor.
-- Turnstiles at (19, 21) remain locked with "I should find dad first!" (re-verified Turn 5695 after full sewer clearance).
+- Turnstiles at (19, 21) remain locked with "I should find dad first!" (re-verified Turn 5695).
 - Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
-- Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
-- Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Tested all adjacent tiles (void/solid walls); decorative feature with no interior map, warps, NPCs, or prisoners (debunked Turns 5628-5633).
-
-## Terrace Access Notes
-- Access to East Terrace (house at 49, 14, Old Man at 51, 15) is elevated; south curb at (49, 17) is impassable from street.
-
-## Verified Overworld Survey
-- Machop Family House (13, 15): Verified accessible on Turn 5950; residents are Karate trainer, girlfriend, and Machop discussing fighting styles.
-- Three Bikers (13, 21-23): All three bikers interviewed (Turns 1496, 5440, 5446); all share identical ambient motorcycle gang dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang"). No story leads.
-- Note on Dad's Location: Discard speculative side-quest requirements (Machop's Toy / Rock Smash). The core narrative fact is that Dad ran outside into Sovio City to investigate the seismic tremor. We must systematically locate where Dad went or what event was triggered in Sovio City.
+- Sovio Sewers: Grunts vacated after Marie's radio broadcast (Turn 2682); storage room inspected ("Its a simple storage room...").
+- All residential houses in Sovio City 100% audited and exhausted:
+  - Gumball house (29, 14): boy watching TV, mother at table; 2F generic books, PC, sleeping resident.
+  - Machop house (13, 15): Karate trainer & girlfriend debating fighting styles, Machop ("Chop Chop!"), 2F generic books/bed.
+  - North-central house (39, 7): elderly man, boy playing Wii.
+  - Name Rater house (31, 26): Name Rater.
+  - Pokémon Center (44, 12): Nurse Joy, camper, boy at PC.
+- Conclusion: ALL accessible residential interiors in Sovio City contain ZERO direct story progression leads.
+- Side Quests & Progression: While 'Machop's Toy' is not a direct dialogue flag for Dad, side quests in ROM hacks frequently grant Key Items, HMs (such as Rock Smash), or progression permissions required to advance through blocked obstacles.
+- East Terrace: Access borders from plaza curbs are impassable on foot; interactions with the Old Man occur from the plaza perimeter.
 
 
 <hr>
