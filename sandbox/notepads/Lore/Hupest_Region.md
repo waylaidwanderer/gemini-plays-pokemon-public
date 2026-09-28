@@ -26,7 +26,7 @@
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
   - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
-- **Torn Scarf**: An old, scorched scarf found with Riolu by Professor Ivo when she discovered him. Stored in Items pocket.
+- **Torn Scarf**: An old, scorched scarf found with Riolu by Professor Ivo when she discovered him. Held / worn by Sirius (Riolu) as part of his custom sprite/form (not stored in Bag Items pocket; verified Turn 5875).
 ## Asher & Riolu Flashback (5 Years Ago)
 - **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
 ## Mother's Return & Siara Syndicate Movements
@@ -43,9 +43,3 @@
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-
-## Dad's Disappearance & Sewer Investigation Fact Sheet (Verified Empirical Truth)
-- **Station Tremor (Turn 1437)**: Tremor shook Sovio Metro Station. Dad ran outside to investigate. Following this, Metro turnstiles blocked with "I should find dad first!" and Route 2 blocked with "I can't go yet... I have things to do!".
-- **Sewer Discovery (Turn 1666)**: Red mat at (18-19, 25) in Metro lobby revealed secret staircase to Sovio Sewers. Cutscene showed Siara grunts discussing Marie's arrival and a locked storage room.
-- **Marie's Radio Directive (Turn 2682)**: Marie announced via radio that "the young master already found it" and ordered grunts to withdraw. Sewer grunts vacated all corridors.
-- **Eastern Storage Room Status (Turn 2716)**: Asher inspected the red mat at (37, 14) with 'A', displaying "Its a simple storage room...". NO NPCs, PRISONERS, OR DAD WERE FOUND INSIDE.
