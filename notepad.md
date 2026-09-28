@@ -350,7 +350,6 @@
   - Main lobby floor lands at (23, 24) on vertical red mat.
   - Stairs leading back up to Sovio City overworld at (24, 24).
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
-  - Waiting area chairs along west wall at (16-17, 22-25); empirically surveyed on Turn 2803: completely empty (no NPCs, Dad, or Valora present).
   - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers a scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Left pillar at (18, 21) and right pillar at (20, 21) were tested with 'A' from row 22 and showed no dialogue or reaction (verified Turns 2944-2945).
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
@@ -466,7 +465,7 @@
 
 - **Northeast Wooden Staircase (Sighted Turns 3678-3679)**: In the northeast section of Sovio Sewers, a wooden staircase is located around columns 28-29, rows 3-4. Visual sighting from (27, 5) showed its opening facing east onto an elevated stone walkway.
 - **Row 13 to Column 30 Wall Collision (Verified Turns 3658, 3712, 3721)**: Tested row 13 thoroughly at columns 28-30. Columns 29-30 at row 12 form an impassable solid brick foundation wall supporting the upper bridge overhead; there is NO northward passage from row 13 to the upper level.
-- **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void. The upper gangway does not connect across to the decorative northeast staircase.
+- **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
@@ -478,7 +477,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665)**: From column 23 at row 13, a single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. The entire junction is a closed dead-end network.
-- **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat where Jackson was held. Interacting with the mat displays "Its a simple storage room...". There is no separate interior warp map.
+- **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat. Interacting with the mat displays "Its a simple storage room...". No NPCs or prisoners were found inside.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison; verified Turns 1720, 2205, 2405, 2734, 2751)
