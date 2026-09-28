@@ -16,3 +16,7 @@
 - **Item Storage**: Portable PC item storage verified empty ('There are no items.') upon audit.
 - **Mailbox**: Portable PC mailbox verified empty ('There's no Mail here.') upon audit.
 - **World Map**: Displays static regional layout of Hupest with town nodes; does not display objective pins or directional arrows.
+
+- **Quest Log App Structure (Verified Turns 6022-6028)**: The Quest Log app contains:
+  - 'Quest List': Lists known side quests ('Lost Pidgey', 'Lost Toy', etc.) and indicates completion status (e.g. 'This Quest hasn't been completed yet!').
+  - 'Quest Status': Displays the active quest's full description, instructions, and target objectives.

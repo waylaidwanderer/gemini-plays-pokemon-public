@@ -12,5 +12,6 @@
   - North-central house (39, 7): elderly man, boy playing Wii.
   - Name Rater house (31, 26): Name Rater.
   - Pokémon Center (44, 12): Nurse Joy, camper, boy at PC.
-- Conclusion: ALL accessible residential interiors in Sovio City contain ZERO story progression leads. Discard 'Machop's Toy' side quest as unrelated to Dad.
-- Discard elevated East Terrace as a place where Dad is hiding (impassable borders, Old Man is purely a side-quest giver).
+- Conclusion: ALL accessible residential interiors in Sovio City contain ZERO direct story progression leads.
+- Side Quests & Progression: While 'Machop's Toy' is not a direct dialogue flag for Dad, side quests in ROM hacks frequently grant Key Items, HMs (such as Rock Smash), or progression permissions required to advance through blocked obstacles.
+- East Terrace: Access borders from plaza curbs are impassable on foot; interactions with the Old Man occur from the plaza perimeter.
