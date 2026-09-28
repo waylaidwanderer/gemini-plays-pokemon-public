@@ -515,7 +515,7 @@
   - [ ] Tan building shutters at (35-36, 12)
 - [ ] West Avenue:
   - [x] Boy with Rocky at (23, 17): Ambient dialogue ("This is my partner, Rocky!" / "It's just a normal rock..."); no Dad clues.
-  - [ ] Residential House (Machop Family) at (13, 15) (re-test door)
+  - [x] Residential House (Machop Family) at (13, 15): Re-tested Turn 4815; solid collision, non-reactive to 'A', remains closed/inactive.
   - [ ] Bikers at (13, 21-23)
 - [ ] Central Park & South Central:
   - [ ] Boy waiting for girl at (32, 20)
