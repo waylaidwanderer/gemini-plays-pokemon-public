@@ -28,7 +28,7 @@
   - Rattata (Lv3, Normal; verified Turn 1859).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
+- **NPC 6 (Bug Catcher Duke)**: Located at (44, 12) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
 - **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
@@ -37,10 +37,8 @@
 ## Verified Boundaries & Obstacles
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
-- **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24).
+- **Southern Meadow to Cottage Sand Clearing Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24).
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
-- **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
-- **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
 - **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
@@ -52,3 +50,4 @@
 - **Pine Tree Obstacle at (32, 24) (Verified Turn 4315)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
+- **Pine Tree Collision at (46, 10) (Verified Turn 5298)**: Solid pine tree trunk blocks direct eastward traversal along row 10 from (45, 10).
