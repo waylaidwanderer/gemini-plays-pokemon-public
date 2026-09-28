@@ -11,7 +11,7 @@
   - [ ] Residential House (Plaza East) at (48, 13) / (49, 14)
   - [ ] Old Man with Phanpy at (51, 15)
 - [ ] North Central Block:
-  - [ ] Residential House at (39, 7)
+  - [x] Residential House at (39, 7): Audited 1F and 2F; Dad and Valora absent.
   - [x] Tan building shutters at (35-36, 12): Tested Turn 4836; non-interactive decorative wall.
 - [ ] West Avenue:
   - [x] Boy with Rocky at (23, 17): Ambient dialogue ("This is my partner, Rocky!" / "It's just a normal rock..."); no Dad clues.
