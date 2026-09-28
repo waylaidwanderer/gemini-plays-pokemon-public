@@ -352,11 +352,6 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
-## Residential House (Plaza East) (Unverified Historical Anomaly, Turns 1356-1364)
-- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center. Note: Overworld access route is currently un-reproduced; exterior street borders at (47, 13-14), (49, 17), and (46, 12) exhibit solid curb/wall collision.
-- **Interior**: Entrance mat lands at (64, 35).
-- **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
-- **Residents**: Little Girl at (63, 33) and Nana at (62, 31).
 ## Residential House (North Central) (Verified Turn 1447)
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 - **Interior**: Entrance mat lands at (43, 36).
@@ -366,13 +361,17 @@
 ## City Signpost (Verified Turn 1476)
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
 
-## Residential House (Northwest - Decorative Facade) (Verified Turns 1482, 3011, 3014)
-- **Status**: Non-interactive decorative facade at (28, 14); solid collision when stepping north from (28, 15) and non-reactive to 'A'.
+## Residential House (Central West - Gumball Family) (Verified Turn 5933)
+- **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
+- **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
 
-## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
-- **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
-- **Interior**: Entrance mat lands at (5, 36).
-- **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
+## Residential House (Northwest - Machop Family) (Verified Turn 5950)
+- **Entrance**: Teal door at (13, 15) (accessible directly; verified Turn 5950).
+- **Interior 1F**: Entrance mat at (5, 36).
+  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
+  - Family Machop at (9, 34) responds "Machop: Chop Chop!".
+  - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 ## South Central Sector
 - **Gathering**: South of Central Park pond:
   - Boy at (35, 28): Dialogue verified Turn 5567: "Yeah Jigglypuff!" (ambient cheering).
@@ -381,12 +380,8 @@
 - **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
-## Commercial Facilities & PokéMart Survey (Partial)
-- **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 
-- **Building at (23-28, 24-26) / Teal Door House**: Two-story residential house in southwest Sovio City.
-  - Interior 1F: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
-  - Interior 2F: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
+- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
 
 <hr>
 
@@ -407,7 +402,7 @@
 - [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
 - [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
-- [x] Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid and non-interactive with 'A' while quest is active.
+- [x] Machop Family House (13, 15): Audited Turn 5950-5974; Machop at (9, 34) says 'Chop Chop!' / 'He seems a bit agressive...'. Toy is not here.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
@@ -499,7 +494,7 @@
 - Access to East Terrace (house at 49, 14, Old Man at 51, 15) is elevated; south curb at (49, 17) is impassable from street.
 
 ## Verified Overworld Survey
-- Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid with no text prompt despite active quest.
+- Machop Family House (13, 15): Verified accessible on Turn 5950; residents are Karate trainer, girlfriend, and Machop discussing fighting styles.
 - Three Bikers (13, 21-23): All three bikers interviewed (Turns 1496, 5440, 5446); all share identical ambient motorcycle gang dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang"). No story leads.
 - Note on Dad's Location: Discard speculative side-quest requirements (Machop's Toy / Rock Smash). The core narrative fact is that Dad ran outside into Sovio City to investigate the seismic tremor. We must systematically locate where Dad went or what event was triggered in Sovio City.
 
