@@ -408,12 +408,12 @@
 ## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
 - **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
 - **Interior**: Entrance mat lands at (5, 36).
-- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
+- **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector
 - **Gathering**: South of Central Park pond:
   - Boy at (35, 28): Dialogue verified Turn 5567: "Yeah Jigglypuff!" (ambient cheering).
   - Jigglypuff at (34, 28): Dialogue verified Turn 5569: "Puff Puff!" (ambient cry).
-  - Girl at (33, 28): Dialogue verified Turn 5570-5572: "Mom told me that she will evolve if she touches a Moon Stone..." (ambient lore).
+  - Girl at (33, 28): Dialogue verified Turn 5570-5575: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" (ambient lore).
 - **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
@@ -568,9 +568,9 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - [ ] Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
 
 ## Active Investigation Protocol
-1. Complete interview with Blonde Girl at (44, 24) in the South Central park corridor.
-2. Interview boy in pink shirt near Central Park pond.
-3. Interview gathering at (33-35, 28) (Girl, Jigglypuff, Boy) and verify any remaining South Central residents.
+1. Empirically test (41, 9) and (41, 8) right now to see if passage exists along the Pokémon Center west/north edge.
+2. If (41, 8) is blocked, test access to the terrace via the eastern side (columns 50-52) or southern terrace gaps.
+3. Check Machop Family house at (13, 15) and talk to all 3 Bikers at (13, 21-23).
 
 ## Updated Overworld Survey (Turns 5440-5461)
 - Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid with no text prompt despite active quest.
