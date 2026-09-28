@@ -9,7 +9,7 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - Turnstiles at (19, 21) remain locked with "I should find dad first!" (tested Turn 5399).
 - Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
-- Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Dad was not inside.
+- Sewer storage room at (36-37, 14) fully tested (Turns 5628-5633): 'A' -> 'Its a simple storage room...'; stepping north into (37, 11) hits solid wall; stepping south into void arrow hits solid collision; east at (38, 12) terminates at void. Confirmed no interior room or warp exists.
 
 ## Rigorous Collision Testing Log (Plaza & North Corridor)
 - (49, 17): Solid collision stepping north from (49, 18) (Turn 5409).
