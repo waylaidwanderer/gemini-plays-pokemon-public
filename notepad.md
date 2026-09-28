@@ -481,20 +481,20 @@
 
 <h1><code>Scratchpad/Route_1</code></h1>
 
-# Scratchpad: Route 1 & Lancio Town Search for Dad
+# Scratchpad: Lancio Town Search for Dad
 
 ## Active Progression & Context
-- Objective: Traverse Route 1 southwest to Lancio Town to locate Dad at Professor Ivo's Laboratory (17, 11-12) or the dock (32-34, 23-26).
-- Status: Exited Sovio City and verified Route 1 Cottage (Dad absent). Navigated through the (32, 39) gap into the southern meadow trail.
-- Current Route: From (28, 42), traverse west across rows 42-44 to column 20, then follow the cobblestone road west to Lancio Town at (0, 45-46).
+- Objective: Locate Dad or trigger story progression to clear the Sovio Metro station turnstiles.
+- Status: Successfully traversed Route 1 and arrived in Lancio Town at (47, 15).
+- Primary Candidate: Professor Ivo's Pokémon Laboratory at (17, 11-12).
+- Secondary Candidate: Lancio Town Dock / Harry's Boat at (32-34, 23-26).
 
 ## Active Waypoints & Route Execution
-1. Southern Meadow Traversal to Lancio Town:
-   - Discovered: Purple and pink bird tracks mark the exact walkable route through the hedge maze.
-   - Row 44 is an open dirt corridor running horizontally between the hedges from column 26 to column 21.
-   - Currently at (0, 46) on Route 1. Stepping Left across map border into Lancio Town.
-2. Lancio Town Investigation:
-   - Inspect Professor Ivo's Laboratory (17, 11-12).
-   - Inspect Lancio Town Dock / Harry's Boat (32-34, 23-26).
+1. Lab Investigation:
+   - Walk west along row 15 from (47, 15) past the Pokémon Center (34-37, 14) to the western path.
+   - Proceed northwest to Professor Ivo's Lab entrance at (17, 11-12).
+   - Enter lab and speak with Professor Ivo / search for Dad.
+2. Dock Investigation (if needed):
+   - Check pier at (32-34, 23-26) to see if Dad or Harry has updates.
 
 <hr>
