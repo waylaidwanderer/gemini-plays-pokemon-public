@@ -510,7 +510,7 @@
 - Row 8: North ashlar stone wall extending west from column 31 past column 21.
 - Column 23-24, Row 8: Noticed potential staircase/steps/opening feature in the north wall. Needs empirical inspection.
 - Rows 9-10: 2-tile wide horizontal stone corridor running west.
-- Current Position: (22, 9), facing west. Tile (21, 9) is visible stone floor.
+- Western corridor: Rows 9-10 open stone floor west to column 15.
 
 - (22, 10): Verified Rock Smash rock ("It's a rugged rock, but..."). Impassable without HM Rock Smash.
 - (23, 8): Verified stone staircase leading north into the upper section/rooms of the dark sector.
