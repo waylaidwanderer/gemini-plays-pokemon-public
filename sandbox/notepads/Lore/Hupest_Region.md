@@ -47,6 +47,5 @@
 ## Sovio Metro Tremor & Jackson's Disappearance (Turns 1437-2716)
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
-- **Sovio Sewers & Team Siara Captivity**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts had captured Jackson and held him in an eastern storage room awaiting Commander Marie.
+- **Sovio Sewers & Team Siara Captivity**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts held Jackson captive in the sewers awaiting Commander Marie.
 - **Siara Retreat**: Asher confronted the grunts guarding the storage room until Marie broadcast a general radio retreat order. Team Siara vacated the sewers.
-- **The Local Mystery**: Despite the sewers being cleared, the Metro ticket turnstiles remain blocked by Asher's internal prompt: 'I should find dad first!', indicating Dad's story flag has not been resolved locally.
