@@ -15,3 +15,7 @@
 - Blue Cap Boy clearing (34, 37): Bypassed south through (30, 40).
 - Route 1 Traversal Complete: Route 1 fully traversed to Lancio Town. Verified route uses row 49 bypass (12, 49 -> 8, 49) around central tree and sign, then row 46-48 west to Lancio Town border at (0, 45-46).
 - Lancio Town Audit Complete: Ivo's Lab audited (negative - ambient starter dialogue). Dock audited (negative - Harry absent, dock house decorative, fisherman ambient dialogue). Center exterior doors at (35-36, 14) solid/unresponsive.
+## Meadow & Route 1 Investigation Conclusion (Turn 3436)
+- Meadow at (44, 18): Verified physically inaccessible from the north due to solid pine trees along row 14, and from the south due to the branch barrier at row 20.
+- Footprint Trail: Tracks 7 (41, 11), 8 (49-50, 12-13), and 9 (51-52, 10-12) lead directly east toward Sovio City. The trail enters Sovio City at (14, 38-37).
+- Route 1 and Lancio Town are fully cleared (no Dad, no new story triggers). Moving to Sovio City to locate Dad and advance to Amor City.
