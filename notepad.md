@@ -481,15 +481,25 @@
 
 <h1><code>Scratchpad/Route_1</code></h1>
 
-# Scratchpad: Dad Search & Game Systems Audit
+# Scratchpad: Sovio City Return & Dad Search
 
 ## Active Progression & Context
-- Objective: Clear the "I should find dad first!" barrier to board the Sovio Metro train to Amor City.
-- Empirical Audit Results:
-  - Route 1 Cottage: Audited Turn 4154 (Dad absent).
-  - Prof. Ivo's Lab: Audited Turn 4247 (generic starter dialogue only; Dad absent).
-  - Lancio Town Dock: Audited Turn 4257 (pier empty; no boat, no Harry, no Dad).
-  - Empirical Fact: Dad was never found in the sewers or Lancio Town; he remains missing since running out of the Sovio Metro Station after the tremor.
-- Immediate Plan: Audit game systems (Start Menu, Bag pockets, Key Items, HuPhone apps) for overlooked mechanics, remote communication, or story items.
+- Objective: Return to Sovio City to locate Dad and clear the Metro train turnstile to Amor City.
+- Empirical Deductions:
+  - Lancio Town (Lab & Dock) & Route 1 (Cottage & Road) 100% audited; Dad is absent.
+  - HuPhone audited: only Item Storage, World Map, Quest Log (no phone/message apps).
+  - Dad went missing in Sovio City during the tremor at the Metro Station.
+  - Active Target: Return to Sovio City to re-examine the Metro Station and Sovio Sewers (specifically the Northeast wooden staircase connection).
+
+## Active Waypoints & Route Execution
+1. Lancio Town Exit:
+   - Close HuPhone menu and walk north along column 33 from (33, 25) to central crossroads (33, 16).
+   - Walk east along rows 14-15 to eastern border at (47, 15).
+2. Route 1 Fast Traversal:
+   - Enter Route 1 at (0, 46).
+   - Follow verified dirt highway east through row 44-46 corridor, bypass Camper, through sand clearing (32, 39), and north into Sovio City gate at (53, 0).
+3. Sovio City Investigation:
+   - Audit Metro Station lobby and NPCs.
+   - Enter Sovio Sewers and investigate the Northeast upper walkway / wooden staircase.
 
 <hr>
