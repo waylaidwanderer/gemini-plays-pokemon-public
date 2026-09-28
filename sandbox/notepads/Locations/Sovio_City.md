@@ -60,9 +60,9 @@
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 - **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of Pokémon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
 ## South Central Sector
+- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
 - **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
 - **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 
-- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
