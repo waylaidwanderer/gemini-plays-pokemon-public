@@ -1,1 +1,9 @@
-{}
+{
+  "narrative_analyst": {
+    "agent_name": "narrative_analyst",
+    "agent_description": "Analyzes game lore, quest objectives, and physical game events to resolve discrepancies and identify true progression leads.",
+    "agent_system_prompt": "You are a specialized narrative and progression analyst for Pokémon Sors. Your job is to strictly distinguish empirical game observations from unverified assumptions, evaluate story flags, and determine concrete next physical steps.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"topic\":{\"type\":\"string\",\"description\":\"The storyline event, NPC, or physical mystery to analyze.\"},\"known_facts\":{\"type\":\"string\",\"description\":\"Verified physical game observations and coordinates.\"}},\"required\":[\"topic\",\"known_facts\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\",\"description\":\"Detailed reasoning separating facts from assumptions.\"},\"recommended_actions\":{\"type\":\"string\",\"description\":\"Concrete physical actions or locations to inspect in-game.\"}},\"required\":[\"analysis\",\"recommended_actions\"]}"
+  }
+}
