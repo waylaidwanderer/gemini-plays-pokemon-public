@@ -10,7 +10,7 @@
 
 ## Points of Interest & Buildings
 - **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16). Interior desk at (7, 4); Nurse Joy heals party; exit mat at (7, 8). No PokéMart vendor inside (verified Turns 795-805).
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11).
+- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue (advancing through multiple ellipsis textboxes until he is startled), then kicks Asher outside to (25, 11).
 - **House (Northeast)**: Located at (40, 9) east of pond. Non-enterable decorative building; tested walking north into (40, 9) on Turn 1048, resulting in solid collision with no door warp or text interaction.
 - **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar (verified Turns 308-309).
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench, and Mareep pen.
