@@ -18,7 +18,6 @@
 - **Track 9**: (51-52, 10-12) on Route 1 eastern path heading toward Sovio City.
 - **Tracks 10-11**: (14, 38) and (14, 37) along Sovio City southern entrance road.
 - **Tracks 12-14 (Verified Turn 1539)**: Clusters of white prints at (14-15, 36) and (15-16, 35), and blue claw prints at (15, 37) and (15, 38) near the southern border. Path north of row 34 is clear of prints.
-- **Overworld Pidgey Sighting (Unverified, Turns 1876-1885)**: Overworld Pidgey observed at (44, 18) with a paper footprint clue at (44, 16) in the enclosed meadow east of the cottage pine barrier. Identity unconfirmed until directly interacted with.
 - Track 9 (Extended, Verified Turn 3445): Clusters of pink footprint papers at (51-53, 4-8) along the north dirt corridor of Route 1, leading straight into the Sovio City southern entrance (14-15, 39).
 - **Lost Pidgey Found (Verified Turn 3467)**: Located at (45, 19) in the enclosed meadow east of the cottage branch barrier. Reached via hidden winding corridor from (52, 11) south through grass at (52, 15) and west along row 18 dirt corridor.
 - **Interaction Confirmed (Turn 3468)**: Interacting with the Pidgey at (45, 19) triggers dialogue: "Asher: Is this the Pidgey, that boy was looking for?".

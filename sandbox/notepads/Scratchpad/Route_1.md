@@ -1,20 +1,14 @@
-# Scratchpad: Route 1 & Lancio Town Investigation
+# Scratchpad: Route 1 & Lost Pidgey Turn-In
 
-## Current Working Hypothesis
-- Sovio City surface and sewers are 100% verified empty of Dad and Valora.
-- Route 1 is the sole open, unblocked regional route (Route 2 has a story barrier, Metro turnstile requires finding Dad).
-- Working Hypothesis: Dad or story progression triggers are located along Route 1 (Route 1 Cottage at 37, 24; Blue Cap Boy clearing at 34, 37; meadow at 44, 18) or in Lancio Town (Professor Ivo's Lab, dock).
+## Current Status & Priorities (Turn 3481)
+- Lost Pidgey successfully recovered at (45, 19) in the enclosed meadow (Turn 3469).
+- Active Priority: Return to the quest giver (Blue Cap Boy) at (34, 37) on Route 1 to turn in the quest and claim rewards.
+- Post-Quest Priority: After turning in the quest, return to Sovio City to check for updated dialogue/events and locate Dad to board the Metro train to Amor City.
 
-## Route 1 Routing & Obstacle Log (Turns 3240-3271)
-- Ledge jump at (34, 7): 1-way descent heading south into tall grass at (34, 8).
-- Pine tree at (30, 17): solid collision when stepping south from (30, 16); bypassed via column 28.
-- Pine tree trunk at (29, 25): solid collision when stepping south from (29, 24); bypass via sand clearing to the east (column 30-31).
-
-- Route 1 Cottage (37, 24): Audited on Turn 3275. Resident boy has ambient Max Repel dialogue; Dad is not here.
-- Blue Cap Boy clearing (34, 37): Bypassed south through (30, 40).
-- Route 1 Traversal Complete: Route 1 fully traversed to Lancio Town. Verified route uses row 49 bypass (12, 49 -> 8, 49) around central tree and sign, then row 46-48 west to Lancio Town border at (0, 45-46).
-- Lancio Town Audit Complete: Ivo's Lab audited (negative - ambient starter dialogue). Dock audited (negative - Harry absent, dock house decorative, fisherman ambient dialogue). Center exterior doors at (35-36, 14) solid/unresponsive.
-## Meadow & Route 1 Investigation Conclusion (Turn 3436, Revised Turn 3453)
-- Meadow at (44, 18): Physical accessibility between rows 11-14 across columns 42-48 remains unverified by direct collision testing; prior visual assessment assumed pine barrier without testing step-by-step.
-- Footprint Trail: Tracks 7 (41, 11), 8 (49-50, 12-13), and 9 (51-52, 10-12) lead directly east toward Sovio City. The trail enters Sovio City at (14, 38-37) and terminates at row 34.
-- Route 1 and Lancio Town surveyed (Ivo's lab, dock, cottage); advancing Sovio City investigation to locate Dad.
+## Verified Route 1 Geography & Meadow Navigation
+- Enclosed Meadow Access: Winding path from northern clearing at (52, 11) runs south through tall grass at (52, 14-15) to open dirt at (52, 16), then west along dirt corridor at row 18 (columns 44-49) to the Pidgey meadow at (44-45, 19).
+- Return Route to (34, 37):
+  1. North from (52, 16) up column 52 to row 11 clearing at (52, 11).
+  2. West along row 11 past Bug Catcher Duke (45, 12) to Track 7 at (41, 10).
+  3. Northwest through (37, 7) and (36, 6) around Lass Sonia's rock spire to column 28-31.
+  4. South through sand clearing to (32, 39), then east to Blue Cap Boy at (34, 37).
