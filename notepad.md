@@ -333,7 +333,7 @@
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
-- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (34, 17), and (54, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
+- **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
@@ -414,17 +414,18 @@
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 
 ## Sewer Sector Search Log
-- [x] Upper Entrance Landing (1F, rows 21-23): Searched. No toy.
-- [x] Lower Central Corridor (columns 26-27, rows 18-27): Searched. No toy.
-- [x] Western Lower Wing (rows 27-28, columns 14-23): Searched. No toy.
-- [x] Western Upper Terrace (row 12, column 13): Searched. No toy.
+- [ ] Upper Entrance Landing (1F, rows 21-23): Traversed on foot; no systematic 'A'-press audit conducted.
+- [ ] Lower Central Corridor (columns 26-27, rows 18-27): Traversed on foot; no systematic 'A'-press audit conducted.
+- [ ] Western Lower Wing (rows 27-28, columns 14-23): Traversed on foot; no systematic 'A'-press audit conducted.
+- [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
-- [x] Eastern Row 13 Gangway & Storage Room (columns 23-38, rows 13-14): Searched No toy.
+- [ ] Eastern Storage Room at (37, 14): Exterior red capsule mat inspected with 'A' on Turn 2716 ("Its a simple storage room..."); doorway entry and interior room unverified.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
+- [ ] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); lower corridor west of column 22 and south of column 30 currently being explored.
 
 - **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
-- **Provider Dialogue (Turns 3058-3064)**: Spoke with Old Man at (51, 14) outside Metro Station. Dialogue received: "Thank you, the toy must be somewhere deep in the Sovio Sewers. If you can't find it its fine. You can leave if you wanna."
+
 
 <hr>
 
