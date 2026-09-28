@@ -48,7 +48,7 @@
 - Honedge (Lv5, Steel/Ghost; female verified Turn 2140, male verified Turn 5808)
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
-- Dunsparce (female) (Lv6, Normal; verified Turn 3136)
+- Dunsparce (Lv6, Normal; female verified Turn 3136, male verified Turn 5837)
 - Shuppet (female) (Lv6, Ghost; verified Turn 4570)
 - Croagunk (Lv5, Poison/Fighting; female verified Turn 4681, male verified Turn 5652)
 ## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
