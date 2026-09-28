@@ -6,7 +6,6 @@
   - Cobblestone/gravel path leads north from the dock into the main town.
   - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turn 3351-3352).
   - Ocean to south and west.
-  - **Harbor Pier Audit (Verified Turns 4256-4258)**: Wooden pier at (32-34, 23-25) audited; verified empty. No boat docked, Harry absent, Dad absent.
 
 ## Points of Interest & Buildings
 - **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16). Interior desk at (7, 4); Nurse Joy heals party; exit mat at (7, 8). No PokéMart vendor inside (verified Turns 795-805).
@@ -33,7 +32,6 @@
   - Wooden research table at (21-23, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
-  - **Lab Interior Audit (Verified Turns 4245-4248)**: Professor Ivo located at (20, 6) near incubator; dialogue confirmed generic starter greeting ("Hey, Ashi, how's your new Pokémon?"). Dad confirmed absent from the laboratory.
 ## Southwest Beach & Coastline
 - **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
