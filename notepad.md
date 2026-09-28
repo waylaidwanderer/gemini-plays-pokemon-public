@@ -61,6 +61,10 @@
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
 - **The 'Young Master' Identity Clarification (Turn 2731)**: Marie's radio directive ordering grunts to withdraw because 'the young master already found it' referred directly to Asher himself (son of Marie and Jackson, heir to the Siara Mafia). There was no second operative lurking in the sewers.
+## The Station Tremor & Dad's Disappearance (Turn 1437)
+- **The Tremor**: While Asher, Dad, and Valora prepared to board the 16:00 train to Amor City inside the Sovio Metro Station, a sudden tremor shook the station.
+- **Dad's Disappearance**: Dad ran outside the station to investigate the tremor's cause. Following this event, Dad went missing and the station turnstiles became blocked with "I should find dad first!".
+
 
 <hr>
 
@@ -119,6 +123,7 @@
   - Cobblestone/gravel path leads north from the dock into the main town.
   - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turn 3351-3352).
   - Ocean to south and west.
+  - **Harbor Pier Audit (Verified Turns 4256-4258)**: Wooden pier at (32-34, 23-25) audited; verified empty. No boat docked, Harry absent, Dad absent.
 
 ## Points of Interest & Buildings
 - **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16). Interior desk at (7, 4); Nurse Joy heals party; exit mat at (7, 8). No PokéMart vendor inside (verified Turns 795-805).
@@ -145,6 +150,7 @@
   - Wooden research table at (21-23, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
+  - **Lab Interior Audit (Verified Turns 4245-4248)**: Professor Ivo located at (20, 6) near incubator; dialogue confirmed generic starter greeting ("Hey, Ashi, how's your new Pokémon?"). Dad confirmed absent from the laboratory.
 ## Southwest Beach & Coastline
 - **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
@@ -214,8 +220,7 @@
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon).
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6.
-- **Pine Tree Barrier at (28, 25)**: Directly south of (28, 24); solid pine tree collision.
-- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited Turns 4145-4156: boy dialogue ("Now that you got your sample, go and enjoy freedom!"); Dad confirmed absent; no active story flags inside.
 - **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
@@ -234,8 +239,8 @@
 - **Pine Tree Barrier at (30, 10)**: Directly north of the trail opening at (30, 11); solid pine tree trunk collision.
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
-- **Route 1 Cottage Interior Audit (Verified Turns 4145-4156)**: Asher entered cottage at (37, 24) and spoke to the resident boy at (6, 7). Dialogue: "Now that you got your sample, go and enjoy freedom!". Dad confirmed absent; no active story flags or items inside.
-- **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).
+- **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).- **Pine Tree Obstacle at (32, 24)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
+
 
 <hr>
 
@@ -492,17 +497,13 @@
   - Active Target: Return to Sovio City to re-examine the Metro Station and Sovio Sewers (specifically the Northeast wooden staircase connection).
 
 ## Active Waypoints & Route Execution
-1. Lancio Town Exit:
-   - Close HuPhone menu and walk north along column 33 from (33, 25) to central crossroads (33, 16).
-   - Walk east along rows 14-15 to eastern border at (47, 15).
-2. Route 1 Fast Traversal:
-   - Enter Route 1 at (0, 46).
-   - Follow cobblestone road to column 6, bypass central pine tree via row 49 grass to (12, 44).
-   - Note: Row 44 cul-de-sac at (17, 44) terminates at hedge. The true throughway is the southern branch at rows 46-47: from (12, 47), walk east along row 47 directly onto the purple bird tracks at (17, 46) and (18, 47).
-   - From (18, 47), proceed east through hedge opening to (21, 45) [pink track] and (21, 44) [purple track], then Right along row 44 to column 26.
-   - Up to (26, 41), through sand clearing (32, 39), and north along eastern meadow to Sovio City (53, 0).
+2. Route 1 Fast Traversal to Sovio City:
+   - Follow column 36 north to (36, 25) outside the cottage.
+   - Row 24 throughway: From (30, 25), step Right to (31, 25), Up to (31, 24), Left to (29, 24), then North along column 29 toward Youngster Mike at (29, 20) and Lass Sonia at (27, 15).
+   - From the northwest clearing, follow the northern trail (rows 12-6) around the rock spire to Bug Catcher Duke (45, 11) and Sovio City gate at (53, 0).
 3. Sovio City Investigation:
    - Audit Metro Station lobby and NPCs.
    - Enter Sovio Sewers and investigate the Northeast upper walkway / wooden staircase.
+
 
 <hr>
