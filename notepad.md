@@ -530,5 +530,9 @@
 - Conclusion: The hypothesis that completing side quests unlocks the Metro turnstiles is EMPIRICALLY REJECTED. The restriction is strictly gated on finding Dad.
 - Next Action: Test Route 2 exit at (52, 19) to execute Protocol Step 2.
 
+### Protocol Step 2 Execution (Verified Turn 3557-3565)
+- Tested Route 2 exit at (52, 19). Textbox displayed: 'I can\'t go yet... I have things to do!'.
+- Conclusion: The hypothesis that completing side quests unlocks Route 2 is EMPIRICALLY REJECTED.
+- Grand Synthesis: Side quests ('Lost Pidgey', 'Lost Toy') do NOT gate progression. The restriction is 100% tied to the main story directive: Asher must find Dad.
 
 <hr>
