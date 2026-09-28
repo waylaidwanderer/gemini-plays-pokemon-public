@@ -1,30 +1,21 @@
 # Scratchpad: Route 1 & Lancio Town Search for Dad
 
-## Context & Progression Status (Verified Turns 4050-4074)
-- **Sovio City Audit Complete**:
-  - All indoor structures (Pokemon Center, North-Central house, South-Central Name Rater, Plaza East house) exhaustively audited and confirmed ambient post-rescue.
-  - Sovio Sewers 100% cleared; all Team Siara grunts retreated.
-  - HuPhone apps audited: Item Storage empty, Mailbox empty, Quest Log tracks side quests only, World Map static.
-  - Metro Turnstile at (19, 21): Scripted barrier 'I should find dad first!' remains active.
-  - Route 2 East Exit at (52, 19): Scripted barrier 'I can't go yet... I have things to do!' remains active.
-- **Route 1 Traversal**:
-  - Exited Sovio City south at (14-15, 39); arrived at Route 1 (53, 0).
-  - Traversed south along column 53 past Signpost 4 at (50, 10), turned west at row 11 past Bug Catcher Duke at (45, 12).
-  - Followed bird tracks along row 9 and down column 34 to (34, 12).
-  - Sighted Lass Sonia on rock spire at (27, 15).
+## Context & Progression Status (Turn 4113)
+- Sovio City Audit Complete: All indoor buildings, NPCs, and Sovio Sewers exhaustively verified. Dad absent.
+- Metro Turnstile at (19, 21): Scripted barrier 'I should find dad first!' remains active.
+- Route 2 East Exit at (52, 19): Scripted barrier 'I can't go yet... I have things to do!' remains active.
+- Objective: Traverse Route 1 southwest to Lancio Town to investigate Professor Ivo's Laboratory at (17, 11-12) and the dock at (32-34, 23-26).
 
-## Active Search Objectives
-1. **Route 1 Cottage at (37, 24)**: Check if Dad or new dialogue is present inside the cottage.
-2. **Lancio Town via (0, 45-46)**:
-   - **Professor Ivo's Laboratory at (17, 11-12)**: Primary investigation target. Jackson and Professor Ivo share history; test if Dad returned to consult the Professor regarding the Eclipse threat.
-   - **Lancio Town Dock / Harry's Boat at (32-34, 23-26)**: Secondary target. Check if Dad returned to Harry or passage to Inizio Isle.
-
-## Route 1 Traverse to Lancio Town (Turn 4083)
-- Context: Dad was freed in Sovio Sewers, but ticket turnstiles in Sovio Metro Station remain blocked ("I should find dad first!"). All Sovio City buildings, residents, and sewer corridors have been re-checked with Dad absent.
-- Objective: Traverse Route 1 southwest to Lancio Town to investigate Professor Ivo's Lab at (17, 11-12) and the Lancio Town dock at (32-34, 23-26).
-- Waypoints:
-  1. Current: (34, 12)
-  2. Dirt trail corridor: (31, 12-14) -> (29, 14-20) past Lass Sonia (27, 15).
-  3. Sand clearing: row 39, column 29-32.
-  4. Southern meadow connection: (29, 41) -> (27-28, 42) -> row 44 at column 20.
-  5. Cobblestone entrance to Lancio Town: (0, 45-46).
+## Active Waypoints & Route Execution
+1. Current Position: (30, 11) on Route 1 northern trail.
+2. Northern Corridor Bypass:
+   - Step Down from (30, 11) to row 12.
+   - Traverse west along row 12 to column 28: (30, 12) -> (29, 12) -> (28, 12).
+   - Follow the column 28 dirt corridor south past Lass Sonia (27, 15) to row 18.
+3. Lower Route 1 Navigation:
+   - Pass Youngster Mike at (29, 20) into sand clearing at (32, 39).
+   - Southern meadow path: (29, 41) -> (27-28, 42) -> row 44 at column 20.
+   - Enter Lancio Town via cobblestone road at (0, 45-46).
+4. Lancio Town Investigation:
+   - Inspect Professor Ivo's Laboratory (17, 11-12).
+   - Inspect Lancio Town Dock / Harry's Boat (32-34, 23-26).
