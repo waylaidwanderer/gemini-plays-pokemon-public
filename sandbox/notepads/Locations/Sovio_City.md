@@ -68,12 +68,8 @@
 ## City Signpost (Verified Turn 1476)
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
 
-## Residential House (Northwest - Mother & Son) (Discovered Turn 5899)
-- **Entrance**: Teal door at (29, 14) (columns 28-30).
-- **Interior**: Entrance mat lands at (24, 36).
-- **Correction**: Historical notes claimed (28, 14) was a non-interactive facade; (28, 14) is merely the exterior window. The actual entrance door is at (29, 14), which opened and loaded an interior map on Turn 5899.
-- **Layout (1F)**: Wooden floor, plaid rug, dining table with tea mug at (25-26, 33-34), stairs to 2F in northwest corner at (23, 31).
-- **Residents**: Boy in green tank top at (25, 32) and Mother in red apron at (27, 33-34) on 1F.
+## Residential House (Northwest - Decorative Facade) (Verified Turns 1482, 3011, 3014)
+- **Status**: Non-interactive decorative facade at (28, 14); solid collision when stepping north from (28, 15) and non-reactive to 'A'.
 
 ## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
 - **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
@@ -91,3 +87,4 @@
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
+- **Resident Dialogue**: Boy at (25, 32) says "I love this show!" while watching the TV at (25, 31).

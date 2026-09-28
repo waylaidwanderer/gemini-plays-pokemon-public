@@ -392,6 +392,7 @@
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
+- **Resident Dialogue**: Boy at (25, 32) says "I love this show!" while watching the TV at (25, 31).
 
 <hr>
 
