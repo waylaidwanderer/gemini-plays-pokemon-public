@@ -8,7 +8,9 @@
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
-  - All three bikers at column 13 (rows 21-23) provide identical ambient motorcycle dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang"). No progression leads.
+  - Middle Biker at (13, 22): Spoke on Turn 1496; non-hostile ambient dialogue.
+  - Top Biker at (13, 21): Spoke on Turns 5440-5442: '"vroom" "vroom" / Jealous kid? / We are the big guys here, the ultimate motorcycle gang! / ... what a weird gang...' (ambient dialogue).
+  - Bottom Biker at (13, 23): Spoke on Turns 5445-5448; identical ambient dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang").
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 - **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
@@ -17,10 +19,21 @@
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier (Verified Turns 2068, 2796, 2987, 5459, 5461)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
-## Plaza & Street Obstacles
-- **North**: Solid building walls block rear passage behind Pokémon Center at row 8 (columns 40-41) and (46, 12).
-- **East**: Route 2 exit blocked at (52, 19) by story barrier ("I can't go yet..."). East Terrace elevated curb impassable from street at (49, 17) and ledges at column 47 (rows 13-14).
-- **West & Central**: Decorative bins, lamps, and curbs at (46, 17), (43, 19), (31, 17), (31, 21), and (14, 19); bypassable via adjacent road tiles. Southwest building decorative.
+- **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
+  - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
+  - Street lamp at (43, 19): solid obstacle blocking direct westward traversal on row 19 from (44, 19); bypassed via row 18/16.
+  - Stone trash bin at (14, 19): solid obstacle blocking direct westward traversal on row 19 into column 14; bypassed via column 15.
+  - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
+  - Pokémon Center northeast corner at (46, 12): solid building wall collision when attempting to step north from (46, 13) (verified Turn 5421).
+  - North Central building wall at (40, 8) and (41, 8): solid building wall collision when attempting to step north from (40, 9) and (41, 9) (verified Turns 5427, 5433). The northern avenue terminates at row 8 with no rear passage behind the Pokémon Center.
+  - Terrace south curb at (49, 17): solid curb collision when attempting to step north from (49, 18) (verified Turn 5409).
+  - Stone bin at (31, 17): solid collision when stepping west from (32, 17); bypassed via row 19.
+  - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
+  - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).
+  - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
+  - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
+  - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
+  - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
@@ -41,9 +54,11 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
-## Residential House (Plaza East) (Debunked Context Hallucination, Turns 5845-5849)
-- **Status**: The claim that this house was entered on Turns 1356-1364 is an unverified context summary hallucination.
-- **Physical Ground Truth**: All borders of the East Terrace were rigorously tested on Turns 5777 and 5845-5849. The south curb at (49, 17) is impassable collision, and the western walls at (47, 13) and (47, 14) are solid window/wall collisions. There is no physical overworld access route from the street onto this terrace.
+## Residential House (Plaza East) (Unverified Historical Anomaly, Turns 1356-1364)
+- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center. Note: Overworld access route is currently un-reproduced; exterior street borders at (47, 13-14), (49, 17), and (46, 12) exhibit solid curb/wall collision.
+- **Interior**: Entrance mat lands at (64, 35).
+- **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
+- **Residents**: Little Girl at (63, 33) and Nana at (62, 31).
 ## Residential House (North Central) (Verified Turn 1447)
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 - **Interior**: Entrance mat lands at (43, 36).
@@ -70,3 +85,5 @@
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
+
+- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
