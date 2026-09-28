@@ -409,7 +409,7 @@
 
 ## Details
 - **Giver**: Old Man with Phanpy at (51, 15) outside Sovio City Metro Station.
-- **Status**: Cancelled / Abandoned (Cancelled Turn 3066-3067 with Old Man to test progression flags).
+- **Status**: Available / Re-offered (Observed with active '[✎]' quest prompt icon on Turns 4431-4432 outside Metro Station after Lost Pidgey completion).
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 
@@ -481,24 +481,6 @@
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (female) (Lv6, Normal; verified Turn 3136)
-
-<hr>
-
-<h1><code>Scratchpad/Route_1</code></h1>
-
-# Scratchpad: Sovio City Return & Dad Search
-
-## Active Progression & Context
-- Objective: Return to Sovio City to locate Dad and clear the Metro train turnstile to Amor City.
-- Empirical Deductions:
-  - Lancio Town (Lab & Dock) & Route 1 (Cottage & Road) 100% audited; Dad is absent.
-  - HuPhone audited: only Item Storage, World Map, Quest Log (no phone/message apps).
-  - Dad went missing in Sovio City during the tremor at the Metro Station.
-  - Active Target: Return to Sovio City to re-examine the Metro Station and Sovio Sewers.
-
-## Traversal Completed
-- Fast Traversal to Sovio City completed on Turn 4409.
-- Active investigation migrated to `Scratchpad/Sovio_City.md`.
 
 <hr>
 
