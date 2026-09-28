@@ -250,6 +250,12 @@
 - **Quest Log App Scope**: The HuPhone's Quest Log app tracks side quests only ('Lost Pidgey', 'Lost Toy', 'Egg Research', 'Medic!', 'Squirtle Gang'). Main story progression milestones and active story objectives are NOT tracked in the Quest Log app.
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 - **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
+## HuPhone App Verifications (Verified Turns 3998-4012)
+- **Item Storage**: Portable PC item storage verified empty ('There are no items.') upon audit.
+- **Mailbox**: Portable PC mailbox verified empty ('There's no Mail here.') upon audit.
+- **Quest Log**: Tracks side quests only ('Lost Pidgey', 'Lost Toy', etc.); main story progression milestones and active story objectives are NOT tracked here.
+- **World Map**: Displays static regional layout of Hupest with town nodes; does not display objective pins or directional arrows.
+
 
 <hr>
 
@@ -329,6 +335,7 @@
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
+  - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
   - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
   - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
@@ -337,13 +344,15 @@
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841). Note: Park bench at (41, 28) surveyed on Turn 3936 and verified empty.
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
-## Pokémon Center (Verified Turn 1330)
+## Pokémon Center (Verified Turns 1330, 4024-4048)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
-- **Interior Layout**:
+- **Interior Layout & Audit (Verified Turns 4024-4048)**:
   - Exit mat at (7, 8).
-  - Main Nurse Joy counter straight north along column 7 at row 3/4.
+  - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint (verified Turn 4035).
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
-  - NPCs inside: Straw-hat camper at (6, 6) and boy in blue shirt at (8, 5). Entire 15-tile width verified (Turn 2491): no PokéMart counter or vendor inside.
+  - Straw-hat Camper at (5, 7): Dialogue confirmed ambient ("My weedle got poisoned so I will need the Pokémon Center's service! Ironic isn't it?").
+  - Boy in blue shirt at (8-9, 4-6): Dialogue confirmed ambient ("Please feel free to use that PC in the corner. The receptionist told me so. It's so kind of her!").
+  - Facility Verification: Entire interior re-audited post-rescue; Dad and Valora are confirmed absent.
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
@@ -380,7 +389,7 @@
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
-- **PokéMart Survey (Partial)**: Sovio City Pokémon Center has no Mart counter. Western Avenue (rows 18-19) contains residential and office buildings with no shop signs observed.
+- **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 
 <hr>
 
@@ -406,9 +415,8 @@
 - Master Deduction (Updated Turn 3988):
   1. Dad ran outside the Metro Station on Turn 1437 to investigate the tremor.
   2. The sewers are 100% evacuated following Team Siara's retreat.
-  3. All Sovio City buildings (Pokemon Center, North-Central, South-Central Name Rater, Plaza East) are 100% confirmed ambient post-rescue.
   4. Metro turnstile ("I should find dad first!") and Route 2 ("I can't go yet...") remain locked.
-  5. Next step: Exit Plaza East house to Central Plaza, inspect Old Man quest giver at (50, 14), and proceed south to Route 1 and Lancio Town to find Dad.
+
 
 <hr>
 
@@ -428,7 +436,7 @@
 - [x] Western Lower Wing (rows 27-28, columns 14-23): Searched. No toy.
 - [x] Western Upper Terrace (row 12, column 13): Searched. No toy.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Searched (TM48 found). No toy.
-- [x] Eastern Row 13 Gangway & Storage Room (columns 23-38, rows 13-14): Searched (Dad rescued). No toy.
+- [x] Eastern Row 13 Gangway & Storage Room (columns 23-38, rows 13-14): Searched No toy.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 
@@ -468,7 +476,7 @@
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
-- **Sixth Siara Grunt (Storage Room Guard)**: Guarded Jackson's storage room; retreated after Marie's radio directive confirming Asher's arrival.
+- **Sixth Siara Grunt (Storage Room Guard)**: Guarded the storage room; retreated after Marie's radio directive confirming Asher's arrival.
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered.
@@ -495,30 +503,26 @@
 
 <h1><code>Scratchpad/Route_1</code></h1>
 
-# Scratchpad: Route 1 & Lost Pidgey Turn-In
+# Scratchpad: Route 1 & Lancio Town Search for Dad
 
-## Current Status & Priorities (Turn 3481)
-- Lost Pidgey successfully recovered at (45, 19) in the enclosed meadow (Turn 3469).
-- Post-Quest Priority: After turning in the quest, return to Sovio City to check for updated dialogue/events and locate Dad to board the Metro train to Amor City.
+## Context & Progression Status (Verified Turns 4050-4074)
+- **Sovio City Audit Complete**:
+  - All indoor structures (Pokemon Center, North-Central house, South-Central Name Rater, Plaza East house) exhaustively audited and confirmed ambient post-rescue.
+  - Sovio Sewers 100% cleared; all Team Siara grunts retreated.
+  - HuPhone apps audited: Item Storage empty, Mailbox empty, Quest Log tracks side quests only, World Map static.
+  - Metro Turnstile at (19, 21): Scripted barrier 'I should find dad first!' remains active.
+  - Route 2 East Exit at (52, 19): Scripted barrier 'I can't go yet... I have things to do!' remains active.
+- **Route 1 Traversal**:
+  - Exited Sovio City south at (14-15, 39); arrived at Route 1 (53, 0).
+  - Traversed south along column 53 past Signpost 4 at (50, 10), turned west at row 11 past Bug Catcher Duke at (45, 12).
+  - Followed bird tracks along row 9 and down column 34 to (34, 12).
+  - Sighted Lass Sonia on rock spire at (27, 15).
 
-## Verified Route 1 Geography & Meadow Navigation
-- Enclosed Meadow Access: Winding path from northern clearing at (52, 11) runs south through tall grass at (52, 14-15) to open dirt at (52, 16), then west along dirt corridor at row 18 (columns 44-49) to the Pidgey meadow at (44-45, 19).
+## Active Search Objectives
+1. **Route 1 Cottage at (37, 24)**: Check if Dad or new dialogue is present inside the cottage.
+2. **Lancio Town via (0, 45-46)**:
+   - **Professor Ivo's Laboratory at (17, 11-12)**: Primary investigation target. Jackson and Professor Ivo share history; test if Dad returned to consult the Professor regarding the Eclipse threat.
+   - **Lancio Town Dock / Harry's Boat at (32-34, 23-26)**: Secondary target. Check if Dad returned to Harry or passage to Inizio Isle.
 
-## Sovio City Progression Testing & Falsification Criteria (Turn 3541)
-- Active Priority: Enter Sovio City and test progression barriers following Lost Pidgey completion.
-- Falsification Protocol:
-  1. Test Metro turnstile scanner at (19, 21). If dialogue remains 'I should find dad first!', quest-gating hypothesis for Metro is REJECTED.
-  2. Test Route 2 exit at (52, 19). If dialogue remains 'I can't go yet... I have things to do!', quest-gating hypothesis for Route 2 is REJECTED.
-  3. If both barriers remain active, reject all side quest gating hypotheses. Expand search space immediately to uninspected tiles/NPCs (e.g. Pokémon Center 2F/NPCs, exterior plaza corners, sewer secret triggers) without re-looping back to Route 1.
-
-### Protocol Step 1 Execution (Verified Turn 3549)
-- Tested Metro turnstile scanner at (19, 21). Textbox displayed: 'I should find dad first!'.
-- Conclusion: The hypothesis that completing side quests unlocks the Metro turnstiles is EMPIRICALLY REJECTED. The restriction is strictly gated on finding Dad.
-- Next Action: Test Route 2 exit at (52, 19) to execute Protocol Step 2.
-
-### Protocol Step 2 Execution (Verified Turn 3557-3565)
-- Tested Route 2 exit at (52, 19). Textbox displayed: 'I can\'t go yet... I have things to do!'.
-- Conclusion: The hypothesis that completing side quests unlocks Route 2 is EMPIRICALLY REJECTED.
-- Empirical Deduction: Completing 'Lost Pidgey' did NOT unlock the Metro turnstiles or Route 2 exit. Side quest completion for 'Lost Pidgey' does not clear the main story barriers. The restriction is strictly tied to finding Dad.
 
 <hr>
