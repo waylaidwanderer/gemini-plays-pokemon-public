@@ -416,6 +416,7 @@
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
+  - Wooden signpost right post at (51, 18): solid collision stepping north from (51, 19) (verified Turn 5466). Signpost spans columns 50-51 at row 18.
 
 <hr>
 
