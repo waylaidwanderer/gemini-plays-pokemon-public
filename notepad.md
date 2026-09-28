@@ -391,8 +391,9 @@
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 
-- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
-- **Resident Dialogue**: Boy at (25, 32) says "I love this show!" while watching the TV at (25, 31).
+- **Building at (23-28, 24-26) / Teal Door House**: Two-story residential house in southwest Sovio City.
+  - Interior 1F: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
+  - Interior 2F: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
 
 <hr>
 
