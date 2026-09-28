@@ -44,7 +44,7 @@
 - Poochyena (Lv5-7, Dark; verified Turns 2346, 2364, 2589)
 - Klink (Lv4-7, Steel; verified Turns 2393, 2658)
 - Trubbish (Lv4-6, Poison; verified Turns 2576, 2597)
-- Stunky (female) (Lv4, Poison/Dark; verified Turn 1991)
+- Stunky (Lv4, Poison/Dark; female verified Turn 1991, male verified Turn 5474)
 - Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
