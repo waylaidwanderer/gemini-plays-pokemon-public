@@ -14,4 +14,3 @@
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
   - Machop Family House at (13, 15): Closed/inactive on Turn 3230.
 - Metro Station Lobby (Turn 3823): Fully surveyed; turnstile at (19, 21) triggers "I should find dad first!". Lobby is completely empty.
-- Active Objective: Locate Dad on Sovio City surface to clear the turnstile trigger.

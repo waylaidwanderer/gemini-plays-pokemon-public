@@ -403,7 +403,6 @@
 - Surface Audit Synthesis: Pokemon Center, North-Central house (39, 7), Plaza East house (49, 14), and South-Central Name Rater house (31, 26) are verified ambient/utility.
   - Machop Family House at (13, 15): Closed/inactive on Turn 3230.
 - Metro Station Lobby (Turn 3823): Fully surveyed; turnstile at (19, 21) triggers "I should find dad first!". Lobby is completely empty.
-- Active Objective: Locate Dad on Sovio City surface to clear the turnstile trigger.
 
 <hr>
 
@@ -515,17 +514,5 @@
 - Tested Route 2 exit at (52, 19). Textbox displayed: 'I can\'t go yet... I have things to do!'.
 - Conclusion: The hypothesis that completing side quests unlocks Route 2 is EMPIRICALLY REJECTED.
 - Empirical Deduction: Completing 'Lost Pidgey' did NOT unlock the Metro turnstiles or Route 2 exit. Side quest completion for 'Lost Pidgey' does not clear the main story barriers. The restriction is strictly tied to finding Dad.
-
-<hr>
-
-<h1><code>Scratchpad/Sovio_Sewers</code></h1>
-
-# Scratchpad: Sovio Sewers Exploration
-
-## Active Strategy & Verified Facts
-- Sewers Evacuated: Team Siara grunts permanently evacuated on Turn 2682. Jackson and Valora departed for the Metro Station on Turn 2716. The sewers are 100% cleared.
-- Northeast Staircase & Bridge: Sighted from upper gangway. Tile (28, 5) is verified impassable chasm void.
-- Surface Prerequisite: Metro turnstile at (19, 21) requires meeting Dad on the Sovio City surface ('I should find dad first!').
-- Exited to Surface: Complete. Currently searching Sovio City surface for Dad.
 
 <hr>
