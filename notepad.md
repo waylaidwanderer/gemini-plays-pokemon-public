@@ -403,8 +403,7 @@
 ## East Courtyard & Signpost Obstacles (Verified Turns 4881-4886)
 - **Signpost Collision**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post.
 - **Courtyard Curb Collision**: Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame.
-- **East Courtyard Inaccessibility**: The light-tan deck at (50-51, 15-17) where Old Man and Phanpy stand is an elevated enclosed patio bordered by the Metro frame, signpost, and building walls; non-traversable on foot from the south street.
-- **Plaza East Residence Status**: Verified on Turns 1356-1364 as home of Little Girl and Nana; Dad is confirmed absent from this building.
+- **East Courtyard Collisions**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post. Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame. Access onto the courtyard deck from other angles or points remains unverified.
 
 <hr>
 
