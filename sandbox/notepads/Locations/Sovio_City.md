@@ -46,7 +46,7 @@
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers a scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Left pillar at (18, 21) and right pillar at (20, 21) were tested with 'A' from row 22 and showed no dialogue or reaction (verified Turns 2944-2945).
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
-- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
+- **Entrance**: Teal door at (49, 14) east of Pokémon Center. (Verified Turn 3978: (48, 14) is solid exterior wall/doorframe collision; actual warp tile is (49, 14)).
 - **Interior**: Entrance mat lands at (64, 35).
 - **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
 - **Residents**: Little Girl at (63, 33) and Nana at (62, 31).
