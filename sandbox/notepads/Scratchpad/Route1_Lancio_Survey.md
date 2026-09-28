@@ -8,7 +8,7 @@
 - [x] NPC 6 (Bug Catcher Duke) at (45, 12): Dialogue verified ('You really must be something to be able to counter my defense...'); ambient post-defeat line, no story leads or items.
 - [x] NPC 3 (Lass in pink shirt) at (41, 37): Dialogue verified ("The power of science is incredible! / Erm... why is it that astonishing now?"); ambient joke dialogue, no items or story leads.
 - [x] Route 1 Cottage at (37, 24): Re-verified boy dialogue ("Now that you got your sample, go and enjoy freedom!"); static ambient line.
-- [ ] NPC 2 (Camper/Straw Hat) at (18, 45): Direct dialogue inspection.
+- [x] NPC 2 (Camper/Straw Hat) at (18, 45): Dialogue verified ("Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away."); ambient advice, no items or story triggers.
 - [ ] NPC 1 (Boy in blue backwards cap) at (12, 49): Direct dialogue inspection.
 - [ ] Cut Tree at (5, 43): Verify status.
 
