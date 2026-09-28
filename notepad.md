@@ -524,5 +524,14 @@
    - **Professor Ivo's Laboratory at (17, 11-12)**: Primary investigation target. Jackson and Professor Ivo share history; test if Dad returned to consult the Professor regarding the Eclipse threat.
    - **Lancio Town Dock / Harry's Boat at (32-34, 23-26)**: Secondary target. Check if Dad returned to Harry or passage to Inizio Isle.
 
+## Route 1 Traverse to Lancio Town (Turn 4083)
+- Context: Dad was freed in Sovio Sewers, but ticket turnstiles in Sovio Metro Station remain blocked ("I should find dad first!"). All Sovio City buildings, residents, and sewer corridors have been re-checked with Dad absent.
+- Objective: Traverse Route 1 southwest to Lancio Town to investigate Professor Ivo's Lab at (17, 11-12) and the Lancio Town dock at (32-34, 23-26).
+- Waypoints:
+  1. Current: (34, 12)
+  2. Dirt trail corridor: (31, 12-14) -> (29, 14-20) past Lass Sonia (27, 15).
+  3. Sand clearing: row 39, column 29-32.
+  4. Southern meadow connection: (29, 41) -> (27-28, 42) -> row 44 at column 20.
+  5. Cobblestone entrance to Lancio Town: (0, 45-46).
 
 <hr>
