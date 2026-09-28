@@ -12,3 +12,5 @@
 - Column 23-24, Row 8: Noticed potential staircase/steps/opening feature in the north wall. Needs empirical inspection.
 - Rows 9-10: 2-tile wide horizontal stone corridor running west.
 - Current Position: (22, 9), facing west. Tile (21, 9) is visible stone floor.
+
+- (22, 10): Verified Rock Smash rock ("It's a rugged rock, but..."). Impassable without HM Rock Smash.
