@@ -370,9 +370,9 @@
   - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-- **NPCs**: Blonde girl at (45, 24) (verified Turn 4850); boy in pink shirt waiting for a girl near the pond (Turn 2841).
+- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
-## Pokémon Center (Verified Turns 1330, 4024-4048)
+## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
 - **Interior Layout & Audit (Verified Turns 4024-4048)**:
   - Exit mat at (7, 8).
@@ -388,7 +388,7 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
-## Residential House (Plaza East) (Unreproduced Historical Record, Turns 1356-1364)
+## Residential House (Plaza East) (Unverified Historical Anomaly, Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center. Note: Overworld access route is currently un-reproduced; exterior street borders at (47, 13-14), (49, 17), and (46, 12) exhibit solid curb/wall collision.
 - **Interior**: Entrance mat lands at (64, 35).
 - **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
@@ -408,7 +408,7 @@
 ## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
 - **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
 - **Interior**: Entrance mat lands at (5, 36).
-- **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
+- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
 - **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
@@ -565,9 +565,9 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - [ ] Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
 
 ## Active Investigation Protocol
-1. Empirically test (41, 9) and (41, 8) right now to see if passage exists along the Pokémon Center west/north edge.
-2. If (41, 8) is blocked, test access to the terrace via the eastern side (columns 50-52) or southern terrace gaps.
-3. Check Machop Family house at (13, 15) and talk to all 3 Bikers at (13, 21-23).
+1. Complete interview with Blonde Girl at (44, 24) in the South Central park corridor.
+2. Interview boy in pink shirt near Central Park pond.
+3. Interview gathering at (33-35, 28) (Girl, Jigglypuff, Boy) and verify any remaining South Central residents.
 
 ## Updated Overworld Survey (Turns 5440-5461)
 - Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid with no text prompt despite active quest.
@@ -575,6 +575,7 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - Route 2 East Exit (52, 19): Re-verified on Turn 5459/5461; stepping onto (52, 19) triggers "I can't go yet... I have things to do!" and forces Asher west to (51, 19).
 - Note on Dad's Location: Discard speculative side-quest requirements (Machop's Toy / Rock Smash). The core narrative fact is that Dad ran outside into Sovio City to investigate the seismic tremor. We must systematically locate where Dad went or what event was triggered in Sovio City.
 
+- (51, 18): Confirmed solid collision from south; right post of Metro Plaza Signpost. Interacting reads 'Sovio Metro Station / Route 2 ---->'.
 
 <hr>
 
