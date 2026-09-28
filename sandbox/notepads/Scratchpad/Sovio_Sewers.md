@@ -19,3 +19,4 @@
 - (23, 4): Collected golden item ball: Nugget! Tile is now cleared.
 - (23, 4): Tile is open floor. Large chamber extends north into rows 1-3.
 - (23, 3): North wall located at row 2. Chamber extends east along row 3.
+- (24, 3): Eastern boundary of chamber (map edge). Moving west along row 3 to explore western wing.
