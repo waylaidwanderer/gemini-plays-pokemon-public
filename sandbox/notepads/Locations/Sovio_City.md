@@ -34,7 +34,7 @@
   - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-- **NPCs**: Blonde girl at (45, 24) (verified Turn 4850); boy in pink shirt waiting for a girl near the pond (Turn 2841).
+- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
@@ -72,7 +72,7 @@
 ## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
 - **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
 - **Interior**: Entrance mat lands at (5, 36).
-- **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
+- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 ## South Central Sector
 - **Gathering**: Girl at (33, 28), Jigglypuff at (34, 28), and Boy at (35, 28) on the sidewalk south of Central Park pond.
 - **Residential House (South Central - Teal Door - Name Rater)**: Located at (31, 26). Interior entrance mat lands at (65, 17). Resident: The official Name Rater (verified Turn 3091).
