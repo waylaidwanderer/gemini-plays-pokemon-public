@@ -28,8 +28,10 @@
   - Exit mat at (7, 8).
   - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint (verified Turn 4035).
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
-  - Straw-hat Camper at (5, 7): Dialogue confirmed ambient ("My weedle got poisoned so I will need the Pokémon Center's service! Ironic isn't it?").
-  - Boy in blue shirt at (8-9, 4-6): Dialogue confirmed ambient ("Please feel free to use that PC in the corner. The receptionist told me so. It's so kind of her!").
+  - Straw-hat Camper at (5, 7): Ambient dialogue regarding poisoned Weedle.
+  - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
+  - Corner PC Terminal at (12, 1): Tested directly with 'A' on Turn 6074; completely inert with no menus or text.
+  - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
