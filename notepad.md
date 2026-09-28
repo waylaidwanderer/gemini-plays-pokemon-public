@@ -490,11 +490,10 @@
 - Objective: Traverse Route 1 southwest to Lancio Town to investigate Professor Ivo's Laboratory at (17, 11-12) and the dock at (32-34, 23-26).
 
 ## Active Waypoints & Route Execution
-1. Western Corridor Traversal to Lancio Town:
-   - From (35, 25), step west across row 25 to column 31, north to (31, 24), west to column 29 at row 24.
-   - Follow column 28-29 south past the cypress tree at (28, 39) to row 41-42.
-   - Southern meadow path: (29, 41) -> (27-28, 42) -> row 44 at column 20.
-   - Enter Lancio Town via cobblestone road at (0, 45-46).
+1. Southern Meadow Traversal to Lancio Town:
+   - Currently at (28, 42) in the southern meadow trail.
+   - Follow the trail west: (28, 42) -> (27, 42) -> row 44 at column 20.
+   - Follow the cobblestone road west to (0, 45-46) into Lancio Town.
 2. Lancio Town Investigation:
    - Inspect Professor Ivo's Laboratory (17, 11-12).
    - Inspect Lancio Town Dock / Harry's Boat (32-34, 23-26).
