@@ -11,7 +11,7 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south.
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south. Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you". Ambient advice.
 - **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away.". Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your PokÃ©mon get injured you can easily heal those damages in a PokÃ©mon Center or with Potions."
 - **Cut Tree**: Located at (5, 43) between pine trees; requires HM Cut to pass.
