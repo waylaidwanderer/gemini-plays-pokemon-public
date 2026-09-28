@@ -45,7 +45,7 @@
 - Klink (Lv4-7, Steel; verified Turns 2393, 2658)
 - Trubbish (Lv4-6, Poison; verified Turns 2576, 2597)
 - Stunky (Lv4, Poison/Dark; female verified Turn 1991, male verified Turn 5474)
-- Honedge (female) (Lv5, Steel/Ghost; verified Turn 2140)
+- Honedge (Lv5, Steel/Ghost; female verified Turn 2140, male verified Turn 5808)
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (female) (Lv6, Normal; verified Turn 3136)
