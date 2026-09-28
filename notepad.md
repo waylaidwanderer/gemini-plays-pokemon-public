@@ -400,6 +400,11 @@
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
+## East Courtyard & Signpost Obstacles (Verified Turns 4881-4886)
+- **Signpost Collision**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post.
+- **Courtyard Curb Collision**: Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame.
+- **East Courtyard Inaccessibility**: The light-tan deck at (50-51, 15-17) where Old Man and Phanpy stand is an elevated enclosed patio bordered by the Metro frame, signpost, and building walls; non-traversable on foot from the south street.
+- **Plaza East Residence Status**: Verified on Turns 1356-1364 as home of Little Girl and Nana; Dad is confirmed absent from this building.
 
 <hr>
 

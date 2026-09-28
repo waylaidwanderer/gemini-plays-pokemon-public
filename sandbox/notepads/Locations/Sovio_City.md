@@ -13,11 +13,11 @@
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
-- **Central Park Northern Curb (Verified Turn 4801)**: The retaining curb at (41, 16) is fully walkable from the south, directly connecting the park lawn to the row 15 street.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier (Verified Turns 2068, 2796, 2987)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
+  - Signpost at (49-50, 17): solid collision when stepping north from (49, 18).
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
@@ -28,7 +28,7 @@
   - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-- **NPCs**: Blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841).
+- **NPCs**: Blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841). Note: Park bench at (41, 28) surveyed on Turn 3936 and verified empty.
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turns 1330, 4024-4048)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
@@ -38,6 +38,7 @@
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
   - Straw-hat Camper at (5, 7): Dialogue confirmed ambient ("My weedle got poisoned so I will need the Pokémon Center's service! Ironic isn't it?").
   - Boy in blue shirt at (8-9, 4-6): Dialogue confirmed ambient ("Please feel free to use that PC in the corner. The receptionist told me so. It's so kind of her!").
+  - Facility Verification: Entire interior re-audited; Dad and Valora are confirmed absent.
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
@@ -75,3 +76,8 @@
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
+## East Courtyard & Signpost Obstacles (Verified Turns 4881-4886)
+- **Signpost Collision**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post.
+- **Courtyard Curb Collision**: Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame.
+- **East Courtyard Inaccessibility**: The light-tan deck at (50-51, 15-17) where Old Man and Phanpy stand is an elevated enclosed patio bordered by the Metro frame, signpost, and building walls; non-traversable on foot from the south street.
+- **Plaza East Residence Status**: Verified on Turns 1356-1364 as home of Little Girl and Nana; Dad is confirmed absent from this building.
