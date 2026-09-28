@@ -15,3 +15,10 @@
 - North-Central House (39, 7): Re-audited Turn 3874 post-rescue; elderly man on 1F and boy on 2F confirmed ambient (Wii dialogue).
 - Western Sector Audit (Turns 3904-3913): Column 13 terminates at solid building walls. Bikers at (13, 21-23), Machop house (13, 15) locked, and Rocky boy at (23, 17) confirmed ambient.
 - Central Park Promenade (Turn 3934): Blonde girl at (44, 24) confirmed ambient (waiting for someone by pond).
+- Master Deduction (Turn 3942):
+  1. Dad ran outside the Metro Station on Turn 1437 to investigate the tremor.
+  2. The sewers are 100% evacuated; Jackson was never in the storage room.
+  3. Every accessible building, NPC, and street in Sovio City has been audited and confirmed ambient.
+  4. Metro turnstile ("I should find dad first!") and Route 2 ("I can't go yet...") remain locked.
+  5. The only open exit is the south connection at columns 14-15, row 39 to Route 1.
+  6. Plan: Take West Avenue to column 15, head south past the bikers to Route 1, and search Route 1 / Lancio Town / Harry's boat for Dad.
