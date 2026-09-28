@@ -21,6 +21,7 @@
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
+  - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
   - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
   - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
