@@ -419,7 +419,7 @@
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
   - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). Column 22 dead-ends south at row 6 into the chasm; the actual vertical bridge crossing south across the chasm is at column 23 (rows 6-12).
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
-  - Southwest Corridor & Obstruction (Verified Turns 2380-2386): Vertical corridor at columns 7-8 contains two breakable-style rocks. Attempting to move north into the corridor from row 25 is blocked by an impassable elevation boundary/curb at row 24.
+  - Southwest Corridor & Obstruction (Verified Turns 2380-2386, 6138-6141): Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 17) and (9, 18) by two diagonal cracked rocks between the row 16 brick wall and row 19 void chasm (verified Turn 6140). Both approaches impassable without HM Rock Smash.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
   - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5).
@@ -480,6 +480,11 @@
 - Conclusion: ALL accessible residential interiors and facilities in Sovio City contain ZERO direct story progression leads.
 - Side Quests & Progression: While 'Machop's Toy' is not a direct dialogue flag for Dad, side quests in ROM hacks frequently grant Key Items, HMs (such as Rock Smash), or progression permissions required to advance through blocked obstacles.
 - East Terrace: Access borders from plaza curbs are impassable on foot; interactions with the Old Man occur from the plaza perimeter.
+
+## Turn 6162 Ground Truth Synthesis
+- Sovio Sewers 1F & B1F completely exhausted: Western Upper Terrace bounded (cols 13-18, row 12), Western Lower Wing blocked by cracked rocks at (10, 17) and (9, 18), Dark Sector B1F fully mapped (toy absent), Upper Landing puddle audited empty.
+- Dad's Story Flag: On Turn 1437, Dad explicitly ran OUTSIDE the Metro Station into Sovio City to investigate the tremor. Dad is on the surface in Sovio City.
+- Current Investigation: Testing exterior access to the elevated East Terrace above the Metro portal (cols 48-51, rows 13-16) and the two-story building at (48, 14).
 
 
 <hr>
