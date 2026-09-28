@@ -454,7 +454,7 @@
   - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
 
 - **Northeast Wooden Staircase (Sighted Turns 3678-3679)**: In the northeast section of Sovio Sewers, a wooden staircase is located around columns 28-29, rows 3-4. Visual sighting from (27, 5) showed its opening facing east onto an elevated stone walkway.
-- **Row 13 to Column 30 Wall Collision (Verified Turns 3658, 3712, 3721)**: Tested row 13 thoroughly at columns 28-30. Columns 29-30 at row 12 form an impassable solid brick foundation wall supporting the upper bridge overhead; there is NO northward passage from row 13 to the upper level.
+- **Column 30 Bridge Wall Ladder (Discovered Turn 4535)**: Correcting prior collision assumption. Tile (30, 12) is walkable stone floor, and directly north at column 30 (rows 6-11) is a climbable circular-ring wall ladder connecting row 12/13 to the upper platform and Northeast Wooden Staircase at (29-30, 4-5)!
 - **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
