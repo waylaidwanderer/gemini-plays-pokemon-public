@@ -13,6 +13,7 @@
 - [x] Cut Tree at (5, 44): Verified solid obstacle at (5, 44); non-interactive without HM Cut.
 
 ## Lancio Town Survey Checklist
+- [ ] Green-haired girl at (23, 15): Direct dialogue inspection.
 - [x] Professor Ivo's Lab at (17, 11): Dialogue verified ("Hey, Ashi, how's your new Pokémon?"); static starter greeting, no new story triggers or items.
 - [ ] Residential House at (25, 10): Re-verify resident dialogue.
 - [ ] Fisherman at (38, 22): Re-verify dialogue.
