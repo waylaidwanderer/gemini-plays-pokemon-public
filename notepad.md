@@ -517,6 +517,7 @@
 - [x] Green-haired girl at (22, 14): Dialogue verified ("Lancio has such pretty flowers, I wanna collect them all!"); ambient line, no story leads or items.
 - [x] Professor Ivo's Lab at (17, 11): Dialogue verified ("Hey, Ashi, how's your new Pok�mon?"); static starter greeting, no new story triggers or items.
 - [ ] Residential House at (25, 10): Re-verify resident dialogue.
+- [ ] NPC in cap at (29, 14): Newly sighted Turn 5138, inspect dialogue.
 - [ ] Fisherman at (38, 22): Re-verify dialogue.
 - [ ] Pier at (32-34, 23-25): Verify status.
 
