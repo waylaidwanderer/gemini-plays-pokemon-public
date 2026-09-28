@@ -532,9 +532,9 @@
    - Boy & Rocky at (23-24, 17): Ambient partner dialogue (confirmed Turn 3912).
    - Westernmost boundary & alleyways past column 13.
 3. **Sovio Metro Station & Platform**:
-   - Re-check Turnstile interaction at (19, 21) ("I should find dad first!").
+   - Re-checked Turnstile at (19, 21) on Turn 4434-4436: Confirmed STILL blocked by "I should find dad first!".
    - Schedule Board at (23, 23) (negative on Turn 2924).
-   - Test talking to Station Attendant if reachable.
+   - Platform remains inaccessible; Dad must be found before boarding the train.
 4. **Sovio Sewers & Upper Staircase Connection**:
    - Investigate the elevated wooden staircase at (28-29, 3-4): determine if accessible via external entrance/backdoor in Sovio City or if an NPC event triggers it.
 
