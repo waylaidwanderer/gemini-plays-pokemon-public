@@ -7,7 +7,7 @@
 ## Route 1 Survey Checklist
 - [x] NPC 6 (Bug Catcher Duke) at (45, 12): Dialogue verified ('You really must be something to be able to counter my defense...'); ambient post-defeat line, no story leads or items.
 - [ ] NPC 3 (Lass in pink shirt) at (40, 35) / (40, 37).
-- [ ] Route 1 Cottage at (37, 24): Re-verify resident boy dialogue.
+- [x] Route 1 Cottage at (37, 24): Re-verified boy dialogue ("Now that you got your sample, go and enjoy freedom!"); static ambient line.
 - [ ] NPC 2 (Camper/Straw Hat) at (18, 45): Direct dialogue inspection.
 - [ ] NPC 1 (Boy in blue backwards cap) at (12, 49): Direct dialogue inspection.
 - [ ] Cut Tree at (5, 43): Verify status.
