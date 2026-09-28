@@ -515,7 +515,7 @@
 
 - (22, 10): Verified Rock Smash rock ("It's a rugged rock, but..."). Impassable without HM Rock Smash.
 - (23, 8): Verified stone staircase leading north into the upper section/rooms of the dark sector.
-- (23, 5): Upper landing of stone staircase. North at (23, 4) is solid wall; corridor branches west and east along row 5.
+- (23, 8): Stone staircase leads to upper 3x3 alcove.
 - (23, 4): Nugget collected in upper 3x3 alcove; alcove fully cleared.
 - Upper chamber: 3x3 alcove fully surveyed.
 - Upper chamber boundaries: row 2 north, col 24 east, col 22 west.
