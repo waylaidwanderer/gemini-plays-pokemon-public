@@ -1,9 +1,1 @@
-{
-  "progression_auditor": {
-    "agent_name": "progression_auditor",
-    "agent_description": "Audits story progression state, NPC dialogue threads, and unresolved map flags to identify required story triggers.",
-    "agent_system_prompt": "You are a specialized progression analysis agent for Pokémon Sors. Your role is to examine recent events, dialogue logs, NPC hints, and environmental state to determine exactly which progression flag is missing, identify unverified assumptions, and recommend high-priority investigation targets. Focus strictly on evidence-based deduction and flag dependency tracking.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_milestone\": {\"type\": \"string\"}, \"active_barriers\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recent_events\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"unresolved_threads\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_milestone\", \"active_barriers\", \"recent_events\", \"unresolved_threads\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"flawed_assumptions\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"unverified_flags\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_targets\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"synthesis\": {\"type\": \"string\"}}, \"required\": [\"flawed_assumptions\", \"unverified_flags\", \"recommended_targets\", \"synthesis\"]}"
-  }
-}
+{}
