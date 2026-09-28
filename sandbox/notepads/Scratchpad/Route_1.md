@@ -14,4 +14,4 @@
 - Route 1 Cottage (37, 24): Audited on Turn 3275. Resident boy has ambient Max Repel dialogue; Dad is not here.
 - Blue Cap Boy clearing (34, 37): Bypassed south through (30, 40).
 - Route 1 Traversal Complete: Route 1 fully traversed to Lancio Town. Verified route uses row 49 bypass (12, 49 -> 8, 49) around central tree and sign, then row 46-48 west to Lancio Town border at (0, 45-46).
-- Lancio Town Audit: Ivo's Lab audited (negative - ambient starter dialogue). Dock audited (negative - Harry absent, dock house decorative, fisherman ambient dialogue). Auditing Pokémon Center now.
+- Lancio Town Audit Complete: Ivo's Lab audited (negative - ambient starter dialogue). Dock audited (negative - Harry absent, dock house decorative, fisherman ambient dialogue). Center exterior doors at (35-36, 14) solid/unresponsive.
