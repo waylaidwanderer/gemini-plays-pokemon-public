@@ -10,3 +10,7 @@
 - Pine tree at (30, 17): solid collision when stepping south from (30, 16); bypassed via column 28.
 - Pine tree trunk at (29, 25): solid collision when stepping south from (29, 24); bypass via sand clearing to the east (column 30-31).
 - Route 1 Cottage: Located at (37, 24) with door at (37, 24). Inspecting interior post-rescue.
+
+- Route 1 Cottage (37, 24): Audited on Turn 3275. Resident boy has ambient Max Repel dialogue; Dad is not here.
+- Blue Cap Boy clearing (34, 37): Bypassed south through (30, 40).
+- Southern Corridor: Navigating west through (29, 41) / (27-28, 42) toward the main highway (rows 44-49) to Lancio Town.
