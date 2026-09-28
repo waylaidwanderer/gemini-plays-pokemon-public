@@ -481,6 +481,7 @@
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (female) (Lv6, Normal; verified Turn 3136)
+- Shuppet (female) (Lv6, Ghost; verified Turn 4570)
 - **Western Terrace Wall Ladder (Verified Turn 4507)**: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5).
 ## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
