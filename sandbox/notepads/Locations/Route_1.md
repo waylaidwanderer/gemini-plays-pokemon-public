@@ -36,6 +36,9 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
+- **Pine Tree Obstruction at (30, 17)**: Solid collision when attempting to step south from (30, 16) along column 30. Bypassed via column 28.
+- **One-Way Ledge at (34, 7)**: One-way southward ledge descent from (34, 6) into tall grass at (34, 8).
+- **Pine Tree Trunk at (29, 25)**: Solid collision when stepping south from (29, 24). Bypassed via eastern sand clearing at columns 30-31.
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
 - **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24), but is a cul-de-sac that terminates at row 20.
