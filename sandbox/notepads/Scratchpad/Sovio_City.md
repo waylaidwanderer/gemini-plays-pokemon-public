@@ -15,7 +15,7 @@
 
 ## Systematic Untested Inspection Protocol
 1. **West Avenue Bikers (Immediate Priority)**:
-   - Biker 1 (Top) at (13, 21): Spoke on Turn 4415 ("vroom" "vroom" Jealous kid?). Ambient dialogue.
+   - Biker 1 (Top) at (13, 21): Spoke on Turns 4415-4416 ('"vroom" "vroom" Jealous kid? / We are the big guys here, the ultimate motorcycle gang!'). Ambient dialogue.
    - Biker 2 (Middle) at (13, 22): UNTESTED.
    - Biker 3 (Bottom) at (13, 23): Spoke on Turn 1496/3905 (ambient motorcycle gang boast).
 2. **West Avenue Buildings & Landmarks**:
