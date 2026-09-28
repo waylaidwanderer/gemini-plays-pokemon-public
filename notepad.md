@@ -528,6 +528,6 @@
 - Western wing summary: Red mat at (15, 9) is ordinary walkable floor (no warp). Recess north to (15, 8) and west along row 8 terminates at (13, 8) dead-end (north, west, south solid walls).
 - (30, 9): Eastern staircase landing; south branch verified dead-end at row 10.
 - (30, 10): Stepped Down to (30, 10). Tested Down into (30, 11); confirmed solid map boundary / wall (flat horizontal cutoff of spotlight). Southern corridor terminates at row 10. The entire Dark Sector basement is fully mapped.
-- Eastern Storage Room at (37, 14): Verified non-enterable. Currently backtracking west along row 13 gangway toward column 23 bridge to exit the sewers.
+- Crossed column 23 bridge north to row 5. Walking west along Northern Elevated Gangway toward column 15 wall ladder.
 
 <hr>
