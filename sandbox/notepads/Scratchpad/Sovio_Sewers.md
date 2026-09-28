@@ -29,4 +29,4 @@
 - Western wing summary: Red mat at (15, 9) is ordinary walkable floor (no warp). Recess north to (15, 8) and west along row 8 terminates at (13, 8) dead-end (north, west, south solid walls).
 - Systematic Plan: Backtrack east to (30, 9) and explore the unexplored south corridor extending along column 30.
 - (30, 10): Stepped Down to (30, 10). Tested Down into (30, 11); confirmed solid map boundary / wall (flat horizontal cutoff of spotlight). Southern corridor terminates at row 10. The entire Dark Sector basement is fully mapped.
-- Next Action: Taking wooden staircase at (31, 9) back up to upper sewers at (30, 4).
+- Ascended wooden staircase back to upper sewers at (31, 4). Currently descending column 30 wall ladder toward lower walkway.
