@@ -520,16 +520,17 @@
 
 # Scratchpad: Sovio Sewers Exploration
 
-## Active Hypotheses & Verified Routing
-- Tile (28, 5) Void Test (Verified Turn 3747): Stepping Right from (27, 5) resulted in collision; tile (28, 5) is impassable chasm void. The gangway along row 5 does not connect directly to the staircase.
-- Visual Confirmation of Column 30 Bridge (Turn 3748):
-  - Northeast Wooden Staircase (columns 29-30, rows 4-5) connects on its right (column 31 landing) to a vertical stone bridge running south along column 30 across the chasm to row 12.
-  - Previous collision testing on Turn 3658 hit (29, 12), which is the solid brick foundation wall between the bridges.
-  - Column 30 at row 13/12 was never tested because on Turn 3712 a wild Klink battle interrupted movement on (29, 13).
-- Active Routing Plan:
-  1. Walk west along row 5 from (27, 5) to (23, 5) (4 steps Left).
-  2. Descend column 23 bridge from (23, 5) to (23, 13) (8 steps Down).
-  3. Walk east along row 13 from (23, 13) to (30, 13) (7 steps Right).
-  4. Test stepping Up from (30, 13) into (30, 12) to ascend the column 30 bridge to the staircase.
+## Active Strategy & Verified Facts
+- Sewers Evacuated: Team Siara grunts permanently evacuated on Turn 2682. Jackson and Valora departed for the Metro Station on Turn 2716. The sewers are 100% cleared.
+- Northeast Staircase & Bridge: Sighted from upper gangway. Tile (28, 5) is verified impassable chasm void.
+- Surface Prerequisite: Metro turnstile at (19, 21) requires meeting Dad on the Sovio City surface ('I should find dad first!').
+- Current Action Plan (Exit to Surface):
+  1. Flee wild battle at (24, 5).
+  2. Walk west along row 5 from (24, 5) to western terrace at column 15 (9 steps Left).
+  3. Walk south down western terrace to (14, 12) (7 Down, 1 Left).
+  4. Descend western stone stairs at (14, 13-16) to lower walkway at (14, 17) (5 Down).
+  5. Traverse lower floor to Landing 1F stairs at (34, 24).
+  6. Ascend wooden staircase at (38, 22) to exit into Sovio Metro Station.
+  7. Exit Metro Station to Sovio City surface to locate and speak with Dad.
 
 <hr>
