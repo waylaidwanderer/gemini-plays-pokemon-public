@@ -382,7 +382,7 @@
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 
 ## Sewer Sector Search Log
-- [ ] Upper Entrance Landing (1F, rows 21-23): Puddle tiles (35, 22) and (34, 22) audited with 'A' on Turn 4919 (negative); remaining landing floor un-audited.
+- [x] Upper Entrance Landing (1F, rows 21-23): Puddle tiles across rows 21-22 (columns 32-35) fully audited with 'A' on Turn 6086; no hidden items or toy.
 - [ ] Lower Central Corridor (columns 26-27, rows 18-27): Traversed on foot; no systematic 'A'-press audit conducted.
 - [ ] Western Lower Wing (rows 27-28, columns 14-23): Traversed on foot; no systematic 'A'-press audit conducted.
 - [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
@@ -392,8 +392,6 @@
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
-
-
 
 <hr>
 
