@@ -362,12 +362,13 @@
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 - **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of Pokémon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
 ## South Central Sector
+- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
 - **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
 - **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 ## North-Central Commercial/Residential Block
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
 
-- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
+
 
 <hr>
 
@@ -472,13 +473,13 @@
 - Turnstiles at (19, 21) remain locked with "I should find dad first!" (re-verified Turn 5695).
 - Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
 - Sovio Sewers: Grunts vacated after Marie's radio broadcast (Turn 2682); storage room inspected ("Its a simple storage room...").
-- All residential houses in Sovio City 100% audited and exhausted:
+- All residential houses & facilities in Sovio City audited:
   - Gumball house (29, 14): boy watching TV, mother at table; 2F generic books, PC, sleeping resident.
   - Machop house (13, 15): Karate trainer & girlfriend debating fighting styles, Machop ("Chop Chop!"), 2F generic books/bed.
   - North-central house (39, 7): elderly man, boy playing Wii.
   - Name Rater house (31, 26): Name Rater.
-  - Pokémon Center (44, 12): Nurse Joy, camper, boy at PC.
-- Conclusion: ALL accessible residential interiors in Sovio City contain ZERO direct story progression leads.
+  - Pokémon Center (44, 12): Nurse Joy, camper, boy at PC (PC terminal at 12, 1 tested inert on Turn 6074; no 2F exists).
+- Conclusion: ALL accessible residential interiors and facilities in Sovio City contain ZERO direct story progression leads.
 - Side Quests & Progression: While 'Machop's Toy' is not a direct dialogue flag for Dad, side quests in ROM hacks frequently grant Key Items, HMs (such as Rock Smash), or progression permissions required to advance through blocked obstacles.
 - East Terrace: Access borders from plaza curbs are impassable on foot; interactions with the Old Man occur from the plaza perimeter.
 
