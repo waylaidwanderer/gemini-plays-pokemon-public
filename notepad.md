@@ -489,6 +489,7 @@
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
 - **Arrival Landing**: Asher arrives at (30, 9) facing west.
 - **Layout**: North stone wall at row 8; open stone floor extending west along row 9 and south along column 30.
+- **Western Red Capsule Mat**: Located at (15, 9) at the western terminus of the row 9 corridor; red capsule-shaped mat feature.
 
 <hr>
 
