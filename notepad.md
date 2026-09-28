@@ -228,7 +228,7 @@
 ## Verified Boundaries & Obstacles
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
-- **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24), but is a cul-de-sac that terminates at row 20.
+- **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24).
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
@@ -240,7 +240,7 @@
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
 - **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).
-- **Pine Tree Obstacle at (32, 24)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
+- **Pine Tree Obstacle at (32, 24) (Verified Turn 4184)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
 
 <hr>
 
@@ -494,14 +494,16 @@
   - Lancio Town (Lab & Dock) & Route 1 (Cottage & Road) 100% audited; Dad is absent.
   - HuPhone audited: only Item Storage, World Map, Quest Log (no phone/message apps).
   - Dad went missing in Sovio City during the tremor at the Metro Station.
-  - Active Target: Return to Sovio City to re-examine the Metro Station and Sovio Sewers (specifically the Northeast wooden staircase connection).
+  - Active Target: Return to Sovio City to re-examine the Metro Station and Sovio Sewers.
 
 ## Active Waypoints & Route Execution
 2. Route 1 Fast Traversal to Sovio City:
-   - From the northwest clearing at (26, 18), follow the northern trail (rows 12-6) around the rock spire to Bug Catcher Duke (45, 11) and Sovio City gate at (53, 0).
-3. Sovio City Investigation:
-   - Audit Metro Station lobby and NPCs.
-   - Enter Sovio Sewers and investigate the Northeast upper walkway / wooden staircase.
+   - Currently on row 7 (column 39). Head east past column 41 into the eastern meadow, pass Bug Catcher Duke at (45, 11), and exit north to Sovio City gate at (53, 0).
+3. Sovio City Investigation & New Hypotheses:
+   - Untested Hypothesis: The elevated wooden staircase at (28-29, 3-4) in Sovio Sewers has no passable connection from the known sewer floor; investigate external entrance points in Sovio City (manholes, building basements, or backdoors).
+   - Talk to the other two Bikers at (13, 20) and (13, 21) on West Avenue.
+   - Re-check the Machop family house at (13, 15) and West Avenue buildings.
+   - Audit Metro Station lobby and attendants.
 
 
 <hr>
