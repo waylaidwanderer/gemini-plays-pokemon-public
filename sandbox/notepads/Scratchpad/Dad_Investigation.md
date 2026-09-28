@@ -8,13 +8,8 @@
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
 - Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Tested all adjacent tiles (void/solid walls); decorative feature with no interior map, warps, NPCs, or prisoners (debunked Turns 5628-5633).
 
-## Rigorous Collision Testing Log (Plaza & North Corridor)
-- (49, 17): Solid collision stepping north from (49, 18) (Turn 5409).
-- (47, 13) & (47, 14): Solid collision stepping east from (46, 13) & (46, 14) (Turns 2824, 2984).
-- (46, 12): Solid collision stepping north from (46, 13) into Pok�mon Center corner (Turn 5421).
-- (40, 8): Solid collision stepping north from (40, 9) into North Central House wall (Turn 5427).
-- (41, 8): Solid collision stepping north from (41, 9) into building wall/curb (Turn 5433). Alley behind Pok�mon Center is completely blocked from this approach.
-- Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
+## Terrace Access Notes
+- Access to East Terrace (house at 49, 14, Old Man at 51, 15) is elevated; south curb at (49, 17) is impassable from street.
 
 ## Verified Overworld Survey
 - Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid with no text prompt despite active quest.
