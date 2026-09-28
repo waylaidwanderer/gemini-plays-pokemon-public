@@ -2,7 +2,7 @@
 
 ## Overview & Connections
 - **Entrance**: Secret stairway on the south wall of Sovio Metro Station lobby at (18-19, 25).
-- **Landing (1F)**: Asher arrives at (37, 22) at the base of the wooden staircase.
+- **Entrance Landing (1F)**: Stone platform at (37, 22) at the base of the wooden staircase leading from Sovio Metro Station.
 - **Staircase Up**: Located at (38, 22) leading back up to Sovio Metro Station.
 - **Terrain & Features**:
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
@@ -15,6 +15,7 @@
   - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
   - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
+  - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5).
   - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). Column 22 dead-ends south at row 6 into the chasm; the actual vertical bridge crossing south across the chasm is at column 23 (rows 6-12).
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
   - Southwest Corridor & Obstruction (Verified Turns 2380-2386): Vertical corridor at columns 7-8 contains two breakable-style rocks. Attempting to move north into the corridor from row 25 is blocked by an impassable elevation boundary/curb at row 24.
@@ -49,10 +50,8 @@
 - Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (female) (Lv6, Normal; verified Turn 3136)
-- **Western Terrace Wall Ladder (Verified Turn 4507)**: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5).
 ## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
-- **Arrival Landing**: Asher arrives at (30, 9) facing west.
-- **Layout**: North stone wall at row 8; open stone floor extending west along row 9 and south along column 30.
+- **Layout**: North stone wall at row 8. Stone corridor at rows 9-10 verified extending west from column 31 to at least column 21.
