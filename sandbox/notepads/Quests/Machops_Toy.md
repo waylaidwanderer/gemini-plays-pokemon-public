@@ -16,5 +16,4 @@
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 
-- **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
 - **Provider Dialogue (Turns 3058-3064)**: Spoke with Old Man at (51, 14) outside Metro Station. Dialogue received: "Thank you, the toy must be somewhere deep in the Sovio Sewers. If you can't find it its fine. You can leave if you wanna."
