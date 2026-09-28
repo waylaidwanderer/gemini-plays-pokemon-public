@@ -14,3 +14,8 @@
   1. Test Metro turnstile scanner at (19, 21). If dialogue remains 'I should find dad first!', quest-gating hypothesis for Metro is REJECTED.
   2. Test Route 2 exit at (52, 19). If dialogue remains 'I can't go yet... I have things to do!', quest-gating hypothesis for Route 2 is REJECTED.
   3. If both barriers remain active, reject all side quest gating hypotheses. Expand search space immediately to uninspected tiles/NPCs (e.g. Pokémon Center 2F/NPCs, exterior plaza corners, sewer secret triggers) without re-looping back to Route 1.
+
+### Protocol Step 1 Execution (Verified Turn 3549)
+- Tested Metro turnstile scanner at (19, 21). Textbox displayed: 'I should find dad first!'.
+- Conclusion: The hypothesis that completing side quests unlocks the Metro turnstiles is EMPIRICALLY REJECTED. The restriction is strictly gated on finding Dad.
+- Next Action: Test Route 2 exit at (52, 19) to execute Protocol Step 2.
