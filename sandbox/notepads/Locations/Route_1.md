@@ -27,7 +27,7 @@
   - Caterpie (Lv2, Bug; verified Turn 890).
   - Rattata (Lv3, Normal; verified Turn 1859).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667).
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon).
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited Turns 4145-4156: boy dialogue ("Now that you got your sample, go and enjoy freedom!"); Dad confirmed absent; no active story flags inside.
 - **NPC 3 (Lass in pink shirt)**: Located at (40, 35) / (40, 37) in Route 1 northeast clearing, facing west.
