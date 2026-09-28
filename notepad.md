@@ -65,6 +65,14 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the 16:00 train to Amor City inside the Sovio Metro Station, a sudden tremor shook the station.
 - **Dad's Disappearance**: Dad ran outside the station to investigate the tremor's cause. Following this event, Dad went missing and the station turnstiles became blocked with "I should find dad first!".
 
+## Dad's Disappearance & Sewer Investigation Fact Sheet (Verified Empirical Truth)
+- **Station Tremor (Turn 1437)**: Tremor shook Sovio Metro Station. Dad ran outside to investigate. Following this, Metro turnstiles blocked with "I should find dad first!" and Route 2 blocked with "I can't go yet... I have things to do!".
+- **Sewer Discovery (Turn 1666)**: Red mat at (18-19, 25) in Metro lobby revealed secret staircase to Sovio Sewers. Cutscene showed Siara grunts discussing Marie's arrival and a locked storage room.
+- **Marie's Radio Directive (Turn 2682)**: Marie announced via radio that "the young master already found it" and ordered grunts to withdraw. Sewer grunts vacated all corridors.
+- **Eastern Storage Room Status (Turn 2716)**: Asher inspected the red mat at (37, 14) with 'A', displaying "Its a simple storage room...". NO NPCs, PRISONERS, OR DAD WERE FOUND INSIDE.
+- **Correction of Hallucinated Reunion**: Earlier context summaries claimed Asher freed Jackson from the storage room; this was an unverified narrative assumption directly contradicted by physical game text.
+- **Current Physical State**: Dad has NEVER been physically found or rescued. Turnstiles remain blocked with "I should find dad first!". Dad's true location remains an active unsolved objective.
+
 
 <hr>
 
@@ -225,7 +233,7 @@
   - Rattata (Lv3, Normal; verified Turn 1859).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
-- **NPC 6 (Bug Catcher Duke)**: Located at (44, 12) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...". Post-defeat dialogue: "You really must be something to be able to counter my defense...".
+- **NPC 6 (Bug Catcher Duke)**: Located at (44, 12) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
 - **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
