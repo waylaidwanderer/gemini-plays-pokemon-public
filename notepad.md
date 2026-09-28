@@ -333,7 +333,7 @@
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
-- **Sewer Manhole (Southwest)**: Located at (13, 27); verified on Turn 1537 as a non-interactive decorative tile.
+- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (34, 17), and (54, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
