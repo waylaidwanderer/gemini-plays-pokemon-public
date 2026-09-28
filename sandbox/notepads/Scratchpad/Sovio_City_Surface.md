@@ -21,4 +21,4 @@
   - [ ] Boy waiting for girl at (32, 20)
   - [x] Blonde girl at (45, 24): Ambient dialogue ("I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?"); no Dad clues.
   - [x] Group south of pond at (33-35, 28): Boy cheering, Girl discussing Moon Stone evolution; ambient NPCs only.
-  - [ ] Name Rater house at (31, 26)
+  - [x] Name Rater house at (31, 26): Audited interior; Name Rater present, Dad and Valora confirmed absent.
