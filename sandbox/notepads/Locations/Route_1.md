@@ -43,6 +43,7 @@
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
 - **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
+- **Pine Tree Obstacle at (33, 8)**: Stepping west from (34, 8) across row 8 collides with a solid pine tree trunk, confirming the northern meadow does not connect west to the clearing along row 8 (verified Turn 5743).
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
 - **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor; tested Turns 3462-3463.
 - **Pine Tree Barrier at (30, 10)**: Directly north of the trail opening at (30, 11); solid pine tree trunk collision.
@@ -52,4 +53,4 @@
 - **Pine Tree Obstacle at (32, 24) (Verified Turn 4315)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
-- **Row 11 Duke Bypass Corridor (Verified Turns 5331-5332)**: Stepping south along column 45 to (45, 11) and east across row 11 through (47, 11) and (48, 11) cleanly bypasses Bug Catcher Duke (at 44, 12) to the north, connecting the Route 1 meadow directly to Track 8, Signpost 4, and the Sovio City entrance highway.
+- **Row 11 Duke Bypass Corridor (Verified Turns 5331-5332)**: Stepping south along column 45 to (45, 11) and east across row 11 through (47, 11) and (48, 11) cleanly bypasses Bug Catcher Duke (at 45, 12) to the north, connecting the Route 1 meadow directly to Track 8, Signpost 4, and the Sovio City entrance highway.

@@ -6,7 +6,7 @@
 - Turnstiles at (19, 21) remain locked with "I should find dad first!" (re-verified Turn 5695 after full sewer clearance).
 - Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
-- Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Dad was not inside.
+- Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Tested all adjacent tiles (void/solid walls); decorative feature with no interior map, warps, NPCs, or prisoners (debunked Turns 5628-5633).
 
 ## Rigorous Collision Testing Log (Plaza & North Corridor)
 - (49, 17): Solid collision stepping north from (49, 18) (Turn 5409).
