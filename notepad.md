@@ -228,8 +228,10 @@
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
 - **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch.
-- Central Pine Tree Top at (11, 43): Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12. Southern bypass via row 49 (12, 49 -> 8, 49) must be used instead.
-- **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire; route south through row 8 dirt path to connect with Track 7 at (41, 10).
+- - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
+- **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
+- **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor; tested Turns 3462-3463.
+
 
 <hr>
 
@@ -279,7 +281,7 @@
 
 ## Details
 - **Giver**: Blue cap boy at Route 1 northeast clearing (34, 37).
-- **Status**: Active / In Progress (Verified Turn 3395; quest giver prompt 'Wanna stop? No' confirms quest is currently active).
+- **Status**: Completed (Turn 3512-3514; Pidgey returned to boy at (34, 37), received Timer Ball).
 - **Objective**: Find the boy's lost Pidgey who wandered away on Route 1.
 - **Reward**: Nice rewards / gifts upon completion.
 
@@ -310,7 +312,7 @@
 # Sovio City
 
 ## Geography & Connections
-- **South**: Connects to Route 1 at (14, 39). Verified open on Turn 3004; transitions directly to Route 1 at (53, 0) without any story barrier text.
+- **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 ## Exploration & Landmarks
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
@@ -333,6 +335,7 @@
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
   - Sidewalk curb at (31, 21): solid collision when attempting to step south from (31, 20). Verified Turn 3083.
   - Sidewalk curb ledge at row 26 between columns 32 and 33: solid collision when attempting to step west from (33, 26). Verified Turns 3084-3085.
+  - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 - **NPCs**: Guy on park bench at (41, 28); blonde girl at (45, 26); boy in pink shirt at (32, 20) waiting for a girl near the pond (Turn 2841).
@@ -368,11 +371,11 @@
 ## City Signpost (Verified Turn 1476)
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
 
-## Residential House (Northwest - Teal Door) (Verified Turns 1482, 3015)
-- **Entrance**: Teal door at (28, 14) tested on Turns 3011 and 3014; solid collision when stepping north from (28, 15) and non-reactive to 'A'. Non-interactive decorative facade. Note: Potential 1-tile offset from Turn 1482 entry remains to be re-tested if ever needed.
+## Residential House (Northwest - Decorative Facade) (Verified Turns 1482, 3011, 3014)
+- **Status**: Non-interactive decorative facade at (28, 14); solid collision when stepping north from (28, 15) and non-reactive to 'A'.
 
-## Residential House (Northwest - Machop Family) (Verified Turn 1491)
-- **Entrance**: Teal door at (13, 15). The avenue terminates at row 15 into a solid building facade; there is no northern street.
+## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
+- **Entrance**: Teal door at (13, 15). Tested on Turns 3228 and 3230: solid collision when stepping north from (13, 16) and non-reactive to 'A'. Currently closed/inactive.
 - **Interior**: Entrance mat lands at (5, 36).
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector
@@ -438,7 +441,7 @@
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Searched (TM48 found). No toy.
 - [x] Eastern Row 13 Gangway & Storage Room (columns 23-38, rows 13-14): Searched (Dad rescued). No toy.
 - [ ] Southwest Corridor (columns 7-8): Inaccessible (requires Rock Smash).
-- [ ] Southern Canal (columns 12-13, rows 32-34): UNVISITED! Lowest vertical elevation along water canal. Prime candidate for 'deep in the sewers'.
+- [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 
 - **HuPhone Quest Log Audit (Turn 2977)**: Verified in-game via HuPhone Quest Log that 'Lost Toy' is currently active and incomplete ('This Quest hasn't been completed yet!'). System dialogue confirmed active quests can only be canceled by speaking directly with the quest provider.
 - **Provider Dialogue (Turns 3058-3064)**: Spoke with Old Man at (51, 14) outside Metro Station. Dialogue received: "Thank you, the toy must be somewhere deep in the Sovio Sewers. If you can't find it its fine. You can leave if you wanna."
@@ -505,26 +508,27 @@
 
 <h1><code>Scratchpad/Route_1</code></h1>
 
-# Scratchpad: Route 1 & Lancio Town Investigation
+# Scratchpad: Route 1 & Lost Pidgey Turn-In
 
-## Current Working Hypothesis
-- Sovio City surface and sewers are 100% verified empty of Dad and Valora.
-- Route 1 is the sole open, unblocked regional route (Route 2 has a story barrier, Metro turnstile requires finding Dad).
-- Working Hypothesis: Dad or story progression triggers are located along Route 1 (Route 1 Cottage at 37, 24; Blue Cap Boy clearing at 34, 37; meadow at 44, 18) or in Lancio Town (Professor Ivo's Lab, dock).
+## Current Status & Priorities (Turn 3481)
+- Lost Pidgey successfully recovered at (45, 19) in the enclosed meadow (Turn 3469).
+- Post-Quest Priority: After turning in the quest, return to Sovio City to check for updated dialogue/events and locate Dad to board the Metro train to Amor City.
 
-## Route 1 Routing & Obstacle Log (Turns 3240-3271)
-- Ledge jump at (34, 7): 1-way descent heading south into tall grass at (34, 8).
-- Pine tree at (30, 17): solid collision when stepping south from (30, 16); bypassed via column 28.
-- Pine tree trunk at (29, 25): solid collision when stepping south from (29, 24); bypass via sand clearing to the east (column 30-31).
-- Route 1 Cottage: Located at (37, 24) with door at (37, 24). Inspecting interior post-rescue.
+## Verified Route 1 Geography & Meadow Navigation
+- Enclosed Meadow Access: Winding path from northern clearing at (52, 11) runs south through tall grass at (52, 14-15) to open dirt at (52, 16), then west along dirt corridor at row 18 (columns 44-49) to the Pidgey meadow at (44-45, 19).
+- Return Route to (34, 37):
 
-- Route 1 Cottage (37, 24): Audited on Turn 3275. Resident boy has ambient Max Repel dialogue; Dad is not here.
-- Blue Cap Boy clearing (34, 37): Bypassed south through (30, 40).
-- Route 1 Traversal Complete: Route 1 fully traversed to Lancio Town. Verified route uses row 49 bypass (12, 49 -> 8, 49) around central tree and sign, then row 46-48 west to Lancio Town border at (0, 45-46).
-- Lancio Town Audit Complete: Ivo's Lab audited (negative - ambient starter dialogue). Dock audited (negative - Harry absent, dock house decorative, fisherman ambient dialogue). Center exterior doors at (35-36, 14) solid/unresponsive.
-## Meadow & Route 1 Investigation Conclusion (Turn 3436)
-- Meadow at (44, 18): Verified physically inaccessible from the north due to solid pine trees along row 14, and from the south due to the branch barrier at row 20.
-- Footprint Trail: Tracks 7 (41, 11), 8 (49-50, 12-13), and 9 (51-52, 10-12) lead directly east toward Sovio City. The trail enters Sovio City at (14, 38-37).
-- Route 1 and Lancio Town are fully cleared (no Dad, no new story triggers). Moving to Sovio City to locate Dad and advance to Amor City.
+## Sovio City Progression Testing & Falsification Criteria (Turn 3541)
+- Active Priority: Enter Sovio City and test progression barriers following Lost Pidgey completion.
+- Falsification Protocol:
+  1. Test Metro turnstile scanner at (19, 21). If dialogue remains 'I should find dad first!', quest-gating hypothesis for Metro is REJECTED.
+  2. Test Route 2 exit at (52, 19). If dialogue remains 'I can't go yet... I have things to do!', quest-gating hypothesis for Route 2 is REJECTED.
+  3. If both barriers remain active, reject all side quest gating hypotheses. Expand search space immediately to uninspected tiles/NPCs (e.g. Pokémon Center 2F/NPCs, exterior plaza corners, sewer secret triggers) without re-looping back to Route 1.
+
+### Protocol Step 1 Execution (Verified Turn 3549)
+- Tested Metro turnstile scanner at (19, 21). Textbox displayed: 'I should find dad first!'.
+- Conclusion: The hypothesis that completing side quests unlocks the Metro turnstiles is EMPIRICALLY REJECTED. The restriction is strictly gated on finding Dad.
+- Next Action: Test Route 2 exit at (52, 19) to execute Protocol Step 2.
+
 
 <hr>
