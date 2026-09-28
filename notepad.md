@@ -516,7 +516,7 @@
 - (23, 8): Verified stone staircase leading north into the upper section/rooms of the dark sector.
 - (23, 5): Upper landing of stone staircase. North at (23, 4) is solid wall; corridor branches west and east along row 5.
 - (23, 4): Nugget collected in upper 3x3 alcove; alcove fully cleared.
-- (23, 4): Tile is open floor. Large chamber extends north into rows 1-3.
+- Upper chamber: 3x3 alcove fully surveyed.
 - (23, 3): North wall located at row 2. Chamber extends east along row 3.
 - (24, 3): Eastern boundary of chamber (map edge). Moving west along row 3 to explore western wing.
 - (22, 3): Western boundary of upper chamber. Confirmed upper chamber is a 3x3 alcove (columns 22-24, rows 3-5) containing only the Nugget. Descending stairs at (23, 6-8) to return to row 9 corridor.
