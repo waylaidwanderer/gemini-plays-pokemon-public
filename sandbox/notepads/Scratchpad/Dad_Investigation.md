@@ -11,26 +11,15 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
 - Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Dad was not inside.
 
-## Priority Investigation Leads
-1. **Residential House (Plaza East) at (48, 13) / (49, 14)**:
-   - Green door east of Pokémon Center.
-   - Last visited Turn 1356 (BEFORE the tremor). Has NEVER been inspected post-tremor.
-   - High probability of NPC dialogue update, clue, or event trigger.
-2. **Exterior Sovio City Perimeter & Investigation Sites**:
-   - Inspect outdoor tiles around the Metro entrance and manholes (13, 27) and (13, 19).
-   - Check plaza outside Pokémon Center where confrontation took place.
-   - Re-check Machop Family house at (13, 15) to see if status changed.
-3. **Old Man with Phanpy at (51, 15)**:
-   - Check if speaking to him without quest or after quest gives any lore clues.
+## Rigorous Collision Testing Log (Plaza & North Corridor)
+- (49, 17): Solid collision stepping north from (49, 18) (Turn 5409).
+- (47, 13) & (47, 14): Solid collision stepping east from (46, 13) & (46, 14) (Turns 2824, 2984).
+- (46, 12): Solid collision stepping north from (46, 13) into PokÃ©mon Center corner (Turn 5421).
+- (40, 8): Solid collision stepping north from (40, 9) into North Central House wall (Turn 5427).
+- [ ] (41, 8): UNTESTED. Need empirical step test from (41, 9).
+- [ ] Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
 
-## Protocol
-- Stop cyclical testing of (19, 21) turnstiles.
-- Complete systematic exterior and building sweep of Sovio City.
-
-## Recent Findings (Turns 5408-5428)
-- Plaza East Terrace (columns 47-51, rows 13-17): Verified physically inaccessible from street level (blocked by curb at 49, 17, vertical ledge at col 47, and solid building walls). Not an accessible progression path.
-- Behind Pokémon Center: Alley is blocked; building walls at (40-41, 8) connect directly to Pokémon Center roof.
-- Active Lead: Sweep West Avenue and the northwest sector:
-  1. Residential house at (13, 15) (Machop Family) - check if accessible now that Machop's Toy quest is active.
-  2. Biker gang at (13, 21-23) - talk to all 3 bikers for rumors/clues.
-  3. West manholes (13, 19) and (13, 27).
+## Active Investigation Protocol
+1. Empirically test (41, 9) and (41, 8) right now to see if passage exists along the PokÃ©mon Center west/north edge.
+2. If (41, 8) is blocked, test access to the terrace via the eastern side (columns 50-52) or southern terrace gaps.
+3. Check Machop Family house at (13, 15) and talk to all 3 Bikers at (13, 21-23).
