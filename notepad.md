@@ -517,7 +517,9 @@
    - Re-checked Turnstile at (19, 21) on Turn 4434-4436: Confirmed STILL blocked by "I should find dad first!".
    - Schedule Board at (23, 23) (negative on Turn 2924).
    - Platform remains inaccessible; Dad must be found before boarding the train.
-4. **Sovio Sewers & Upper Staircase Connection**:
-   - Investigate the elevated wooden staircase at (28-29, 3-4): determine if accessible via external entrance/backdoor in Sovio City or if an NPC event triggers it.
+4. **Sovio City Surface Leads & Quests**:
+   - Quest 'Machop's Toy' re-accepted on Turn 4450-4451 from Old Man at (51, 15) outside Metro Station.
+   - Plaza Sewer Manhole at (41-42, 13) outside Pokémon Center: Testing on Turn 4452.
+   - Plaza Sewer Manhole at (54, 19) east of signpost: UNTESTED.
 
 <hr>
