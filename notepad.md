@@ -225,7 +225,7 @@
   - Rattata (Lv3, Normal; verified Turn 1859).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6.
+- **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
 - **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
@@ -471,7 +471,7 @@
 - **Sixth Siara Grunt (Storage Room Guard)**: Guarded the storage room; retreated after Marie's radio directive confirming Asher's arrival.
 
 ## Topography & Connectivity
-- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing! While Grunt 1 stands at (23, 27), row 28 is fully walkable at (24, 28) and bypasses Grunt 1 to the south, leading west into the western corridor (columns 20-21) and the western platform where Patrolling Grunt 2 is encountered.
+- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
 - **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: (16, 24) is a solid brick wall pillar blocking direct northward passage along column 16; bypass through column 17.
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
