@@ -7,7 +7,10 @@
 - **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Spoke to Biker at (13, 22) on Turn 1496; non-hostile ambient gang.
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
+  - Middle Biker at (13, 22): Spoke on Turn 1496; non-hostile ambient dialogue.
+  - Top Biker at (13, 21): Spoke on Turns 5440-5442: '"vroom" "vroom" / Jealous kid? / We are the big guys here, the ultimate motorcycle gang! / ... what a weird gang...' (ambient dialogue).
+  - Bottom Biker at (13, 23): Pending dialogue check.
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 - **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
