@@ -512,7 +512,7 @@
   - [ ] Old Man with Phanpy at (51, 15)
 - [ ] North Central Block:
   - [ ] Residential House at (39, 7)
-  - [ ] Tan building shutters at (35-36, 12)
+  - [x] Tan building shutters at (35-36, 12): Tested Turn 4836; non-interactive decorative wall.
 - [ ] West Avenue:
   - [x] Boy with Rocky at (23, 17): Ambient dialogue ("This is my partner, Rocky!" / "It's just a normal rock..."); no Dad clues.
   - [x] Residential House (Machop Family) at (13, 15): Re-tested Turn 4815; solid collision, non-reactive to 'A', remains closed/inactive.
