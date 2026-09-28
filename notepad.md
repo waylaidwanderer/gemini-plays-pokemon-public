@@ -518,7 +518,8 @@
 - [x] Professor Ivo's Lab at (17, 11): Dialogue verified ("Hey, Ashi, how's your new Pok�mon?"); static starter greeting, no new story triggers or items.
 - [x] Residential House at (25, 10): Resident boy at (44, 4) gave TM17 (Protect) after persistent dialogue!
 - [ ] NPC in cap at (~31, 14): Sighted Turn 5138 on east path, inspect dialogue.
-- [ ] Old Man at (~32, 8): Sighted Turn 5154 in northeast woods, inspect dialogue.
+- [x] Old Man at (32, 8): Dialogue verified ("I have grown up in this place, and I never want to leave it... This is home for me."); ambient town dialogue, no items or story leads.
+- [ ] Old Woman at (33, 8): Standing beside Old Man near pond, inspect dialogue.
 - [ ] Fisherman at (38, 22): Re-verify dialogue.
 - [ ] Pier at (32-34, 23-25): Verify status.
 
