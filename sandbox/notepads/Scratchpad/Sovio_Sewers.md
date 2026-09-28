@@ -19,7 +19,7 @@
 - (23, 4): Nugget collected in upper 3x3 alcove; alcove fully cleared.
 - Upper chamber: 3x3 alcove fully surveyed.
 - Upper chamber boundaries: row 2 north, col 24 east, col 22 west.
-- (24, 3): Eastern boundary of chamber (map edge). Moving west along row 3 to explore western wing.
+- (24, 3): Eastern boundary of chamber.
 - (22, 3): Western boundary of upper chamber. Confirmed upper chamber is a 3x3 alcove (columns 22-24, rows 3-5) containing only the Nugget. Descending stairs at (23, 6-8) to return to row 9 corridor.
 - (15, 9): Red mat at western corridor end tested; walkable, does not warp.
 - (15, 8): Walkable alcove north of the red mat. North wall at (15, 7) is solid.
