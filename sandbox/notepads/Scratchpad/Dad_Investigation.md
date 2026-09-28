@@ -9,7 +9,7 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - Turnstiles at (19, 21) remain locked with "I should find dad first!" (tested Turn 5399).
 - Route 2 east exit at (52, 19) remains blocked with "I can't go yet... I have things to do!".
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
-- Sewer storage room at (36-37, 14) fully tested (Turns 5628-5633): 'A' -> 'Its a simple storage room...'; stepping north into (37, 11) hits solid wall; stepping south into void arrow hits solid collision; east at (38, 12) terminates at void. Confirmed no interior room or warp exists.
+- Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Dad was not inside.
 
 ## Rigorous Collision Testing Log (Plaza & North Corridor)
 - (49, 17): Solid collision stepping north from (49, 18) (Turn 5409).
@@ -17,7 +17,7 @@ Find Jackson (Dad) in Sovio City to clear the Metro turnstile block ("I should f
 - (46, 12): Solid collision stepping north from (46, 13) into Pokémon Center corner (Turn 5421).
 - (40, 8): Solid collision stepping north from (40, 9) into North Central House wall (Turn 5427).
 - (41, 8): Solid collision stepping north from (41, 9) into building wall/curb (Turn 5433). Alley behind Pokémon Center is completely blocked from this approach.
-- [x] Plaza East Terrace Access: Verified completely bounded by solid curbs on south and west (Turns 5409, 5531-5541); columns 50-52 blocked by Metro signpost and Route 2 barrier. Interior from Turns 1356-1364 is an unverified historical anomaly.
+- [ ] Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
 
 ## Active Investigation Protocol
 1. Empirically test (41, 9) and (41, 8) right now to see if passage exists along the Pokémon Center west/north edge.
