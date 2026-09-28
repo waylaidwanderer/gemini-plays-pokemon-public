@@ -15,5 +15,4 @@
 ## HuPhone App Verifications (Verified Turns 3998-4012)
 - **Item Storage**: Portable PC item storage verified empty ('There are no items.') upon audit.
 - **Mailbox**: Portable PC mailbox verified empty ('There's no Mail here.') upon audit.
-- **Quest Log**: Tracks side quests only ('Lost Pidgey', 'Lost Toy', etc.); main story progression milestones and active story objectives are NOT tracked here.
 - **World Map**: Displays static regional layout of Hupest with town nodes; does not display objective pins or directional arrows.
