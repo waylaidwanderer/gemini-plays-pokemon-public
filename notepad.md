@@ -388,7 +388,7 @@
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 - **Interior**: Entrance mat lands at (43, 36).
 - **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33). Dialogue: "I bought my son a Wii... / Not sure why he asked for one / its an old thing but whatever."
-- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12).
+- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12). Dialogue: "I love the games on the Wii! / I'm playing my favorite right now."
 
 ## City Signpost (Verified Turn 1476)
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.

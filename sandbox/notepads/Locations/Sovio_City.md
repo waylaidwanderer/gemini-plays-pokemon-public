@@ -44,7 +44,8 @@
   - Main lobby floor lands at (23, 24) on vertical red mat.
   - Stairs leading back up to Sovio City overworld at (24, 24).
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
-- **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
+  - Ticket turnstile scanner pillars at (18, 21) and (20, 21) with passage corridor at (19, 21) leading to northern train platform hall.
+  - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 ## Residential House (Plaza East) (Verified Turns 1356-1364)
 - **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
@@ -55,7 +56,7 @@
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 - **Interior**: Entrance mat lands at (43, 36).
 - **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33). Dialogue: "I bought my son a Wii... / Not sure why he asked for one / its an old thing but whatever."
-- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12).
+- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12). Dialogue: "I love the games on the Wii! / I'm playing my favorite right now."
 
 ## City Signpost (Verified Turn 1476)
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
