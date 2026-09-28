@@ -13,11 +13,11 @@
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17).
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
+- **Central Park Northern Curb (Verified Turn 4801)**: The retaining curb at (41, 16) is fully walkable from the south, directly connecting the park lawn to the row 15 street.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier (Verified Turns 2068, 2796, 2987)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
-  - Signpost at (49-50, 17): solid collision when stepping north from (49, 18).
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
