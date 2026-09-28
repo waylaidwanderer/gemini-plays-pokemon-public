@@ -556,5 +556,6 @@
 - (23, 4): Tile is open floor. Large chamber extends north into rows 1-3.
 - (23, 3): North wall located at row 2. Chamber extends east along row 3.
 - (24, 3): Eastern boundary of chamber (map edge). Moving west along row 3 to explore western wing.
+- (22, 3): Western boundary of upper chamber. Confirmed upper chamber is a 3x3 alcove (columns 22-24, rows 3-5) containing only the Nugget. Descending stairs at (23, 6-8) to return to row 9 corridor.
 
 <hr>
