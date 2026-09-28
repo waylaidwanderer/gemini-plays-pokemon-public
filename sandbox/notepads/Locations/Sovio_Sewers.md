@@ -20,6 +20,7 @@
   - Southwest Corridor & Obstruction (Verified Turns 2380-2386): Vertical corridor at columns 7-8 contains two breakable-style rocks. Attempting to move north into the corridor from row 25 is blocked by an impassable elevation boundary/curb at row 24.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
+  - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5).
 
 - **Northeast Wooden Staircase (Sighted Turns 3678-3679)**: In the northeast section of Sovio Sewers, a wooden staircase is located around columns 28-29, rows 3-4. Visual sighting from (27, 5) showed its opening facing east onto an elevated stone walkway.
 - **Column 30 Bridge Wall Ladder (Discovered Turn 4535)**: Correcting prior collision assumption. Tile (30, 12) is walkable stone floor, and directly north at column 30 (rows 6-11) is a climbable circular-ring wall ladder connecting row 12/13 to the upper platform and Northeast Wooden Staircase at (29-30, 4-5)!
