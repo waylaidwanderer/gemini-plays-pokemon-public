@@ -1,14 +1,10 @@
-# Scratchpad: Lancio Town Search for Dad
+# Scratchpad: Dad Search & Game Systems Audit
 
 ## Active Progression & Context
-- Objective: Locate Dad or trigger story progression to clear the Sovio Metro station turnstiles.
-- Status: Professor Ivo in the lab verified ambient ("Hey, Ashi, how's your new Pokémon?"). Dad is absent from the lab.
-- Immediate Target: Lancio Town Dock / Harry's Boat at (32-34, 23-26).
-
-## Active Waypoints & Route Execution
-1. Lab Investigation (Complete):
-   - Spoke to Professor Ivo at (20, 6); only ambient starter greeting. Dad absent.
-2. Dock Investigation:
-   - Reached central crossroads at (32, 15).
-   - Stepping Down 8 times along column 32 onto the wooden dock pier at (32-34, 23-26).
-   - Survey the harbor for Harry, Dad, or the boat.
+- Objective: Clear the "I should find dad first!" barrier to board the Sovio Metro train to Amor City.
+- Empirical Audit Results:
+  - Route 1 Cottage: Audited Turn 4154 (Dad absent).
+  - Prof. Ivo's Lab: Audited Turn 4247 (generic starter dialogue only; Dad absent).
+  - Lancio Town Dock: Audited Turn 4257 (pier empty; no boat, no Harry, no Dad).
+  - Empirical Fact: Dad was never found in the sewers or Lancio Town; he remains missing since running out of the Sovio Metro Station after the tremor.
+- Immediate Plan: Audit game systems (Start Menu, Bag pockets, Key Items, HuPhone apps) for overlooked mechanics, remote communication, or story items.
