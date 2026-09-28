@@ -29,4 +29,4 @@
 - Western wing summary: Red mat at (15, 9) is ordinary walkable floor (no warp). Recess north to (15, 8) and west along row 8 terminates at (13, 8) dead-end (north, west, south solid walls).
 - (30, 9): Eastern staircase landing; south branch verified dead-end at row 10.
 - (30, 10): Stepped Down to (30, 10). Tested Down into (30, 11); confirmed solid map boundary / wall (flat horizontal cutoff of spotlight). Southern corridor terminates at row 10. The entire Dark Sector basement is fully mapped.
-- Crossed column 23 bridge north to row 5. Walking west along Northern Elevated Gangway toward column 15 wall ladder.
+- Ascended column 34 stone stairs to 1F landing. Entering wooden staircase at (38, 22) to exit into Sovio Metro Station.
