@@ -9,7 +9,7 @@
 ## Dark Sector Mapping Log
 - (31, 9): Wooden staircase leading up.
 - Row 8: North ashlar stone wall extending west from column 31 past column 21.
-- Column 23-24, Row 8: Noticed potential staircase/steps/opening feature in the north wall. Needs empirical inspection.
+- Column 23-24, Row 8: Verified stone staircase at (23, 8) leading north.
 - Rows 9-10: 2-tile wide horizontal stone corridor running west.
 - Western corridor: Rows 9-10 open stone floor west to column 15.
 
