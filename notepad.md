@@ -249,6 +249,7 @@
 - **Pine Tree Obstacle at (32, 24) (Verified Turn 4315)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
+- **Row 11 Duke Bypass Corridor (Verified Turns 5331-5332)**: Stepping south along column 45 to (45, 11) and east across row 11 through (47, 11) and (48, 11) cleanly bypasses Bug Catcher Duke (at 44, 12) to the north, connecting the Route 1 meadow directly to Track 8, Signpost 4, and the Sovio City entrance highway.
 
 <hr>
 
