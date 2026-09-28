@@ -4,8 +4,7 @@
 - **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 ## Exploration & Landmarks
-- **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. Bird tracks enter city at (14, 38) and (14, 37).
-- **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
+- **Entrance Path**: Paved road at columns 14-15 flanked by pine trees. - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
   - Middle, Top, and Bottom Bikers: Ambient motorcycle gang dialogue ("vroom vroom").
@@ -15,7 +14,7 @@
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
-- **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
+- **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
