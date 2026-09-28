@@ -15,7 +15,7 @@
   - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
   - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
-  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 21 (verified Turn 2198).
+  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). Column 22 dead-ends south at row 6 into the chasm; the actual vertical bridge crossing south across the chasm is at column 23 (rows 6-12).
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
   - Southwest Corridor & Obstruction (Verified Turns 2380-2386): Vertical corridor at columns 7-8 contains two breakable-style rocks. Attempting to move north into the corridor from row 25 is blocked by an impassable elevation boundary/curb at row 24.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
@@ -23,7 +23,6 @@
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
-- **Fifth Siara Grunt (Defeated)**: Vacated post-rescue.
 - **Sixth Siara Grunt (Storage Room Guard)**: Guarded Jackson's storage room; retreated after Marie's radio directive confirming Asher's arrival.
 
 ## Topography & Connectivity
@@ -31,7 +30,7 @@
 - **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: (16, 24) is a solid brick wall pillar blocking direct northward passage along column 16; bypass through column 17.
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
-- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665)**: From Fifth Grunt at (23, 13), (22, 12) is walkable and connects south into shallow puddles at (22, 13-14). Stepping east through (23, 14) and (24, 14) leads up to (24, 13). A single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29, the gangway opens into a wide vertical corridor extending both North and South.
+- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3658)**: From column 23 at row 13, a single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Eastward movement along row 13 collided with a wall at (30, 13) on Turn 3658. Southern extension at column 28-29 (rows 14-15) requires empirical collision testing.
 - **Eastern Storage Room (Verified Turn 2716)**: Located at the eastern dead-end at (37, 14) marked with a red capsule mat where Jackson was held. Interacting with the mat displays "Its a simple storage room...". There is no separate interior warp map.
 
 ## Wild Encounters
