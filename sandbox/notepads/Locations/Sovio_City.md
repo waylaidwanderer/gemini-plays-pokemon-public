@@ -18,7 +18,7 @@
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
-- **East Exit Story Barrier (Verified Turns 2068, 2796, 2987)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
+- **East Exit Story Barrier (Verified Turns 2068, 2796, 2987, 5459, 5461)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
@@ -52,8 +52,8 @@
   - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
-## Residential House (Plaza East) (Verified Turns 1356-1364)
-- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center.
+## Residential House (Plaza East) (Unreproduced Historical Record, Turns 1356-1364)
+- **Entrance**: Green door at (48, 13) / (49, 14) east of Pokémon Center. Note: Overworld access route is currently un-reproduced; exterior street borders at (47, 13-14), (49, 17), and (46, 12) exhibit solid curb/wall collision.
 - **Interior**: Entrance mat lands at (64, 35).
 - **Layout**: Kitchen with boiling stove at (63, 30); dining table at (65-66, 33-34).
 - **Residents**: Little Girl at (63, 33) and Nana at (62, 31).
@@ -70,7 +70,7 @@
 - **Status**: Non-interactive decorative facade at (28, 14); solid collision when stepping north from (28, 15) and non-reactive to 'A'.
 
 ## Residential House (Northwest - Machop Family) (Verified Turns 1491, 3230)
-- **Entrance**: Teal door at (13, 15). Tested on Turns 3228 and 3230: solid collision when stepping north from (13, 16) and non-reactive to 'A'. Currently closed/inactive.
+- **Entrance**: Teal door at (13, 15). Tested on Turns 3228, 3230, and 5444: solid collision when stepping north from (13, 16) and non-reactive to 'A' even with Machop's Toy quest active. Currently locked/inactive.
 - **Interior**: Entrance mat lands at (5, 36).
 - **Residents**: Karate trainer, blonde girl, and family Machop from the 'Machop\'s Toy' side quest.
 ## South Central Sector
