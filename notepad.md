@@ -42,7 +42,7 @@
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
   - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
-- **Torn Scarf**: An old, scorched scarf found with Riolu by Professor Ivo when she discovered him. Stored in Items pocket.
+- **Torn Scarf**: An old, scorched scarf found with Riolu by Professor Ivo when she discovered him. Held / worn by Sirius (Riolu) as part of his custom sprite/form (not stored in Bag Items pocket; verified Turn 5875).
 ## Asher & Riolu Flashback (5 Years Ago)
 - **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
 ## Mother's Return & Siara Syndicate Movements
@@ -55,17 +55,10 @@
 - **Confrontation**: In Sovio City central plaza outside the Pokémon Center, Dad confronted Mother, leader of the Siara Mafia, who was flanked by two grunts.
 - **The Eclipse Project Unveiled**: Mother announced the completion of 'The Eclipse Project' as a test run diversion and summoned altered Eclipse Pidgey bearing a distinct dark aura and the Eclipse insignia.
 - **Asher's Intervention**: When an altered Pidgey threatened a cyan-haired civilian (Valora), Asher stepped between them to defend her.
-- **Battle with Team Siara**: Asher battled a Team Siara Grunt using a Lv7 Eclipse Pidgey; Sirius defeated it using Metal Claw and Mach Punch.
 - **Aftermath**: The Siara Mafia withdrew; Dad praised Asher's courage, cautioned him about the Eclipse threat, and instructed him to meet at the Sovio Metro Station.
 ## Sovio Metro Departure to Amor City (Turns 1388-1394)
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-
-## Dad's Disappearance & Sewer Investigation Fact Sheet (Verified Empirical Truth)
-- **Station Tremor (Turn 1437)**: Tremor shook Sovio Metro Station. Dad ran outside to investigate. Following this, Metro turnstiles blocked with "I should find dad first!" and Route 2 blocked with "I can't go yet... I have things to do!".
-- **Sewer Discovery (Turn 1666)**: Red mat at (18-19, 25) in Metro lobby revealed secret staircase to Sovio Sewers. Cutscene showed Siara grunts discussing Marie's arrival and a locked storage room.
-- **Marie's Radio Directive (Turn 2682)**: Marie announced via radio that "the young master already found it" and ordered grunts to withdraw. Sewer grunts vacated all corridors.
-- **Eastern Storage Room Status (Turn 2716)**: Asher inspected the red mat at (37, 14) with 'A', displaying "Its a simple storage room...". NO NPCs, PRISONERS, OR DAD WERE FOUND INSIDE.
 
 
 <hr>
@@ -502,18 +495,12 @@
 - Sewer grunts vacated after Marie's radio broadcast (Turn 2682).
 - Sewer storage room at (37, 14) inspected with 'A' -> "Its a simple storage room...". Tested all adjacent tiles (void/solid walls); decorative feature with no interior map, warps, NPCs, or prisoners (debunked Turns 5628-5633).
 
-## Rigorous Collision Testing Log (Plaza & North Corridor)
-- (49, 17): Solid collision stepping north from (49, 18) (Turn 5409).
-- (47, 13) & (47, 14): Solid collision stepping east from (46, 13) & (46, 14) (Turns 2824, 2984).
-- (46, 12): Solid collision stepping north from (46, 13) into Pok�mon Center corner (Turn 5421).
-- (40, 8): Solid collision stepping north from (40, 9) into North Central House wall (Turn 5427).
-- (41, 8): Solid collision stepping north from (41, 9) into building wall/curb (Turn 5433). Alley behind Pok�mon Center is completely blocked from this approach.
-- Plaza East Terrace Access: Residential House (Plaza East) was entered on Turns 1356-1364 (interior 64, 35; Little Girl & Nana). Access vector onto the terrace remains to be systematically mapped (e.g. col 50-52 east approach, or col 46-47 rows 15-16).
+## Terrace Access Notes
+- Access to East Terrace (house at 49, 14, Old Man at 51, 15) is elevated; south curb at (49, 17) is impassable from street.
 
 ## Verified Overworld Survey
 - Machop Family House (13, 15): Empirically tested on Turn 5444 with 'A'; confirmed locked/solid with no text prompt despite active quest.
 - Three Bikers (13, 21-23): All three bikers interviewed (Turns 1496, 5440, 5446); all share identical ambient motorcycle gang dialogue ("vroom vroom", "Jealous kid?", "ultimate motorcycle gang"). No story leads.
-- Route 2 East Exit (52, 19): Re-verified on Turn 5459/5461; stepping onto (52, 19) triggers "I can't go yet... I have things to do!" and forces Asher west to (51, 19).
 - Note on Dad's Location: Discard speculative side-quest requirements (Machop's Toy / Rock Smash). The core narrative fact is that Dad ran outside into Sovio City to investigate the seismic tremor. We must systematically locate where Dad went or what event was triggered in Sovio City.
 
 
