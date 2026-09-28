@@ -20,6 +20,7 @@
   - Signpost at (49-50, 17): solid collision when stepping north from (49, 18).
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
+  - Stone bin at (31, 17): solid collision when stepping west from (32, 17); bypassed via row 19.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
@@ -28,7 +29,7 @@
   - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-- **NPCs**: Blonde girl at (45, 24) (verified Turn 4850); boy in pink shirt waiting for a girl near the pond (Turn 2841). Note: Park bench at (41, 28) surveyed on Turn 3936 and verified empty.
+- **NPCs**: Blonde girl at (45, 24) (verified Turn 4850); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turns 1330, 4024-4048)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
@@ -77,6 +78,4 @@
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 ## East Courtyard & Signpost Obstacles (Verified Turns 4881-4886)
-- **Signpost Collision**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post.
-- **Courtyard Curb Collision**: Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame.
 - **East Courtyard Collisions**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post. Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame. Access onto the courtyard deck from other angles or points remains unverified.
