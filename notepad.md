@@ -514,7 +514,7 @@
   - [ ] Residential House at (39, 7)
   - [ ] Tan building shutters at (35-36, 12)
 - [ ] West Avenue:
-  - [ ] Boy with Rocky at (23, 17)
+  - [x] Boy with Rocky at (23, 17): Ambient dialogue ("This is my partner, Rocky!" / "It's just a normal rock..."); no Dad clues.
   - [ ] Residential House (Machop Family) at (13, 15) (re-test door)
   - [ ] Bikers at (13, 21-23)
 - [ ] Central Park & South Central:
