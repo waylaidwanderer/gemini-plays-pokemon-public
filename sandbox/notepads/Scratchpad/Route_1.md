@@ -10,9 +10,9 @@
 
 ## Active Waypoints & Route Execution
 2. Route 1 Fast Traversal to Sovio City:
-   - Walk Down along column 36 from (36, 25) to row 35-36.
-   - At row 35-36, head east past column 40 (past Lass in pink shirt) into the Eastern Meadow (columns 43-53).
-   - Follow Eastern Meadow highway north past Bug Catcher Duke (45, 11) and Signpost 4 (50, 10) directly through the gate at (53, 0) into Sovio City.
+   - Follow column 36 north to (36, 25) outside the cottage.
+   - At (32, 25), head north along column 32 into the Northwest Clearing toward Youngster Mike at (29, 20) and Lass Sonia at (27, 15).
+   - From the northwest clearing, follow the northern trail (rows 12-6) around the rock spire to Bug Catcher Duke (45, 11) and Sovio City gate at (53, 0).
 3. Sovio City Investigation:
    - Audit Metro Station lobby and NPCs.
    - Enter Sovio Sewers and investigate the Northeast upper walkway / wooden staircase.
