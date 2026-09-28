@@ -202,10 +202,10 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south.
-- **NPC 2 (Camper/Straw Hat)**: Character with straw hat at (18, 45) facing south.
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south. Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you". Ambient advice.
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pok�mon can't attack me! I have many repels... They keep wild Pok�mon away.". Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
-- **Cut Tree**: Located at (5, 43) between pine trees; requires HM Cut to pass.
+- **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
@@ -221,7 +221,7 @@
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 11) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel.
-- **NPC 3 (Lass in pink shirt)**: Located at (38, 36) in Route 1 northeast clearing, facing south.
+- **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
@@ -341,9 +341,9 @@
 - **Metro Plaza Signpost (Verified Turn 2071)**: Wooden signpost at (50, 18) outside the Metro Station; reads "Sovio Metro Station / Route 2 ---->".
 - **East Exit Story Barrier (Verified Turns 2068, 2796, 2987)**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 - **Plaza & Street Obstacles (Verified Turns 2810-2866)**:
-  - Signpost at (49-50, 17): solid collision when stepping north from (49, 18).
   - Street lamp at (46, 17): solid collision when stepping north from (46, 18).
   - Terrace vertical ledge at column 47 (rows 13-14): solid collision when attempting to step east from (46, 13) and (46, 14). Verified Turns 2824, 2984.
+  - Stone bin at (31, 17): solid collision when stepping west from (32, 17); bypassed via row 19.
   - Terrace curb at (31, 14): solid collision when attempting to step west from (32, 14).
   - Building wall at (31, 13): solid collision when attempting to step west from (32, 13) (verified Turn 4057).
   - Street lamp at (14, 29): solid collision when attempting to step south from (14, 28).
@@ -352,7 +352,7 @@
   - Southwest Building east wall: solid collision at (22, 27) when attempting to step west from (23, 27), and solid building wall at (23, 26) when attempting to step north from (23, 27). Verified Turns 3206, 3208.
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-- **NPCs**: Blonde girl at (45, 24) (verified Turn 4850); boy in pink shirt waiting for a girl near the pond (Turn 2841). Note: Park bench at (41, 28) surveyed on Turn 3936 and verified empty.
+- **NPCs**: Blonde girl at (45, 24) (verified Turn 4850); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 ## Pokémon Center (Verified Turns 1330, 4024-4048)
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
@@ -362,7 +362,6 @@
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
   - Straw-hat Camper at (5, 7): Dialogue confirmed ambient ("My weedle got poisoned so I will need the Pokémon Center's service! Ironic isn't it?").
   - Boy in blue shirt at (8-9, 4-6): Dialogue confirmed ambient ("Please feel free to use that PC in the corner. The receptionist told me so. It's so kind of her!").
-  - Facility Verification: Entire interior re-audited; Dad and Valora are confirmed absent.
 ## Sovio Metro Station (Verified Turn 1388)
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 - **Interior Layout**:
@@ -401,8 +400,6 @@
 ## Commercial Facilities & PokéMart Survey (Partial)
 - **Western Avenue**: Rows 18-19 contain residential and office buildings with no shop signs observed.
 ## East Courtyard & Signpost Obstacles (Verified Turns 4881-4886)
-- **Signpost Collision**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post.
-- **Courtyard Curb Collision**: Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame.
 - **East Courtyard Collisions**: Stepping North from (51, 19) into (51, 18) collides with the signpost right post. Stepping North from (49, 18) into (49, 17) collides with the solid stone curb/railing corner of the Metro entrance frame. Access onto the courtyard deck from other angles or points remains unverified.
 
 <hr>
@@ -418,7 +415,7 @@
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 
 ## Sewer Sector Search Log
-- [ ] Upper Entrance Landing (1F, rows 21-23): Traversed on foot; no systematic 'A'-press audit conducted.
+- [ ] Upper Entrance Landing (1F, rows 21-23): Puddle tiles (35, 22) and (34, 22) audited with 'A' on Turn 4919 (negative); remaining landing floor un-audited.
 - [ ] Lower Central Corridor (columns 26-27, rows 18-27): Traversed on foot; no systematic 'A'-press audit conducted.
 - [ ] Western Lower Wing (rows 27-28, columns 14-23): Traversed on foot; no systematic 'A'-press audit conducted.
 - [ ] Western Upper Terrace (row 12, columns 13-18): Traversed on foot; puddle at (14, 11) tested with 'A' on Turn 4505 (empty); terrace corners un-audited.
@@ -428,7 +425,7 @@
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
 
-- Status Note: Unfinished; requires systematic A-press audit of lower floors or Rock Smash for deeper areas.
+- Status Note: Unfinished. Hypothesis: May require systematic A-press inspection of lower floors, finding an overworld item ball, speaking to an NPC, or Rock Smash for deeper areas.
 
 <hr>
 
@@ -510,14 +507,15 @@
 
 ## Route 1 Survey Checklist
 - [x] NPC 6 (Bug Catcher Duke) at (45, 12): Dialogue verified ('You really must be something to be able to counter my defense...'); ambient post-defeat line, no story leads or items.
-- [ ] NPC 3 (Lass in pink shirt) at (40, 35) / (40, 37).
+- [x] NPC 3 (Lass in pink shirt) at (41, 37): Dialogue verified ("The power of science is incredible! / Erm... why is it that astonishing now?"); ambient joke dialogue, no items or story leads.
 - [x] Route 1 Cottage at (37, 24): Re-verified boy dialogue ("Now that you got your sample, go and enjoy freedom!"); static ambient line.
-- [ ] NPC 2 (Camper/Straw Hat) at (18, 45): Direct dialogue inspection.
-- [ ] NPC 1 (Boy in blue backwards cap) at (12, 49): Direct dialogue inspection.
-- [ ] Cut Tree at (5, 43): Verify status.
+- [x] NPC 2 (Camper/Straw Hat) at (18, 45): Dialogue verified ("Wild Pok�mon can't attack me! I have many repels... They keep wild Pok�mon away."); ambient advice, no items or story triggers.
+- [x] NPC 1 (Boy in blue backwards cap) at (12, 49): Dialogue verified ("I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you"); ambient advice, no items or story triggers.
+- [x] Cut Tree at (5, 44): Verified solid obstacle at (5, 44); non-interactive without HM Cut.
 
 ## Lancio Town Survey Checklist
-- [ ] Professor Ivo's Lab at (17, 11): Check for new story dialogue or gifts.
+- [ ] Green-haired girl at (23, 15): Direct dialogue inspection.
+- [x] Professor Ivo's Lab at (17, 11): Dialogue verified ("Hey, Ashi, how's your new Pok�mon?"); static starter greeting, no new story triggers or items.
 - [ ] Residential House at (25, 10): Re-verify resident dialogue.
 - [ ] Fisherman at (38, 22): Re-verify dialogue.
 - [ ] Pier at (32-34, 23-25): Verify status.
