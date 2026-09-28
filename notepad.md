@@ -522,5 +522,7 @@
 - (15, 9): Discovered red capsule mat feature at the western end of the row 9 corridor. Testing interaction with 'A'.
 - (15, 8): Walkable alcove north of the red mat. North wall at (15, 7) is solid.
 - (14, 8): Stone walkway extending west along row 8!
+- (13, 8): Westernmost tile of the row 8 corridor. Tile (12, 8) is solid wall / western boundary.
+- Testing passage south along column 13.
 
 <hr>
