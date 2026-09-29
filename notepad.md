@@ -255,7 +255,7 @@
 - **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
 - **Bidirectional Route 1 Traversal (Verified Turn 8258)**:
   - **Southward (Sovio -> Lancio)**: From Sovio City (53, 0), follow Eastern Meadow south past Signpost 4 (50, 10), Duke (45, 12), bypass east to col 51 at row 12, row 16 west to the row 20 ledge at (40, 19), jump south to Cottage (40, 21), Sand Highway south to row 39 gap (32, 39), southern meadow to row 44 dirt corridor, west past Central Pine Tree (row 50 bypass) to cobblestone road (0, 45).
-  - **Northward (Lancio -> Sovio)**: From Lancio Town (0, 45), follow cobblestone road to row 50 bypass under Central Pine Tree (11, 49), row 44 dirt corridor east to col 26, north to row 41, east through row 39 gap (32, 39) to Sand Highway. Follow row 37-38 east past Lass in pink shirt (41, 37) into the Eastern Meadow corridor (cols 50-53), then walk straight north past the Conical Rock Spire (53, 15), Bug Catcher Duke (45, 12), and Signpost 4 (50, 10) directly to Sovio City entrance at (53, 0).
+  - **Northward (Lancio -> Sovio)**: Under active investigation. Rows 36-38 east of column 40 are confirmed impassable (blocked by pine trees, hedges, and water). Tile (32, 40) is open and connects west to (31, 40) into the southern meadow corridor.
 
 <hr>
 
