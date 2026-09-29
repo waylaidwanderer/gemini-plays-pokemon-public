@@ -25,13 +25,15 @@
   - Framed regional map on wall at (17, 8) (Verified Turn 7614): Interacting facing Left from (18, 8) displays 'A Town Map.'
   - Red rug, table, and PC terminal in western wing.
   - Stairs at north wall: blocked by railing at (11, 7) from row 8.
-- **East Research Wing**:
+- **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
-  - Cylindrical research incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
-  - Wooden research table at (21-23, 4).
-  - Bookshelf at (24, 4).
-  - Blue computer workstation / server console at (23-24, 8-9).
+  - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
+  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
+  - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
+  - Wooden research desk at (21-23, 4) (Verified Turn 7627): Inert decorative fixture.
+  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pokémon books."
+  - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 ## Southwest Beach & Coastline
 - **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
