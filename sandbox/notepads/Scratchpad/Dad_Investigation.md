@@ -20,4 +20,3 @@
 - **Baseline Bag Inventory Audit (Turn 7448)**: Items (Potion x1, Poison Barb x1, Nugget x1), Poké Balls (Timer Ball x1), Key Items (HuPhone [registered S], TM Case). Fully audited: zero quest items, keycards, or letters present.
 ## Critical Summary Correction & Active Hypotheses (Turn 7487)
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
-- **Active Inspection**: Testing circular manhole feature at (39, 13) outside Pokémon Center on row 14 paved avenue.
