@@ -569,7 +569,7 @@
 
 ## Active Analysis
 - The sewer corridors were fully mapped thousands of turns ago. Storage room (37, 14) is confirmed decorative ("Its a simple storage room...").
-- At column 30 on the sewer wall ladder, movement stopped at row 10 (three Up inputs bumped collision).
+- Tile (30, 9) verified walkable on Turn 7300. The column 30 bridge is an open passage heading north to the Northeast Wooden Staircase at (30, 4).
 - What causal trigger or interaction in the game world has been overlooked that allows Asher to find Jackson?
 
 <hr>
