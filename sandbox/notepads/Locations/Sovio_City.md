@@ -37,7 +37,7 @@
 
 - **East Exit Story Barrier**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329). Tile (49, 18) facing Up into (49, 17) collides with the solid terrace curb (verified Turn 6569).
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
@@ -136,7 +136,4 @@
 
 ## North-Central Commercial/Residential Block
 
-- **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
-
-
-
+- **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
