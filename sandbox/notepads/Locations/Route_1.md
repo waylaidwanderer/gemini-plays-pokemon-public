@@ -48,7 +48,7 @@
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
   - Solid cut-tree obstacle at (5, 44) requires HM Cut.
 - **Cottage East Flank**: Impassable pine tree trunk at (42, 25) with solid forest wall spanning columns 43+; no eastern passage from Cottage sector.
-  - Column 28 is fully walkable across rows 20-23 west of Youngster Mike (29, 20) to reach (28, 19).
+
   - Lass Sonia is located at (27, 15) on a rock spire.
 
 - **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
