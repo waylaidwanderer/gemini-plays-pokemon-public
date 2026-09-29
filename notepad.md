@@ -142,13 +142,15 @@
   - Framed regional map on wall at (17, 8) (Verified Turn 7614): Interacting facing Left from (18, 8) displays 'A Town Map.'
   - Red rug, table, and PC terminal in western wing.
   - Stairs at north wall: blocked by railing at (11, 7) from row 8.
-- **East Research Wing**:
+- **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
-  - Cylindrical research incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
-  - Wooden research table at (21-23, 4).
-  - Bookshelf at (24, 4).
-  - Blue computer workstation / server console at (23-24, 8-9).
+  - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
+  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pok�mon?").
+  - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
+  - Wooden research desk at (21-23, 4) (Verified Turn 7627): Inert decorative fixture.
+  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pok�mon books."
+  - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 ## Southwest Beach & Coastline
 - **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
@@ -570,9 +572,8 @@
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
 
 ## Documented Hypotheses for Lancio Town Audit (Turn 7531)
-- **Hypothesis 2 (Professor Ivo Lab Research Wing)**: The server workstations at (23-24, 8-9), research table at (21-23, 4), and green fluid incubator apparatus at (18-19, 5-6) have not been directly interacted with using 'A'. Inspecting them may yield story logs or prompt new dialogue from Professor Ivo.
-- **Hypothesis 3 (Southwest Coastline & Beach)**: Sand coastline at columns 14-20, rows 14-17 remains uninspected for hidden items or NPCs.
-- **Hypothesis 4 (Route 1 / Lancio Field Items)**: The visible Pok�ball item at (38, 4) north of Lancio pond or Route 1 cut tree bypasses may yield HM Cut or progression tools.
+- **Hypothesis 2 (Professor Ivo Lab Research Wing - DISPROVED Turns 7621-7629)**: Incubator ('Better not mess with that machine.'), Ivo (ambient dialogue), server tower (inert), research desk (inert), bookshelf ('crammed full of Pok�mon books'). Lab fixtures contain zero quest items or story triggers.
+- **Macro-Strategy Redirect (Turn 7632)**: Lancio Town prologue elements are fully exhausted. Returning immediately to Sovio City to investigate the active progression gates (Metro Station attendants/turnstiles, Valora's location, and Sovio Sewers).
 
 
 <hr>
