@@ -86,7 +86,7 @@
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
-## Residential House (North Central) (Verified Turn 1447)
+## Residential House (North Central) (Verified Turns 1447, 7239-7245)
 
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 
