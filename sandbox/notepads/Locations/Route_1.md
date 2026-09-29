@@ -11,27 +11,27 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you".
-- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pok�mon can't attack me! I have many repels... They keep wild Pok�mon away.". Ambient advice.
-- **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you".
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokï¿½mon can't attack me! I have many repels... They keep wild Pokï¿½mon away.". Ambient advice.
+- **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your PokÃ©mon get injured you can easily heal those damages in a PokÃ©mon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
-  - Nidoran♀ (Lv3, Poison; verified Turn 494).
-  - Nidoran♂ (Lv2, Poison; verified Turn 1069).
+  - Nidoranâ (Lv3, Poison; verified Turn 494).
+  - Nidoranâ (Lv2, Poison; verified Turn 1069).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
   - Mareep (Lv3, Electric; verified Turns 722, 821).
   - Weedle (Lv2, Bug/Poison; verified Turn 833).
   - Bidoof (Lv2, Normal; verified Turn 877).
   - Caterpie (Lv2, Bug; verified Turn 890).
   - Rattata (Lv3, Normal; verified Turn 1859).
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 PokÃ©mon) (verified Turn 666-667). Post-defeat dialogue: "My PokÃ©mon was completely destroyed by yours... I'm a bit embarrassed!".
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 PokÃ©mon). Post-defeat dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue ("Now that you got your sample, go and enjoy freedom!").
 - **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
-- **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
+- **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for PokÃ©mon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
@@ -39,7 +39,6 @@
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
 - **Southern to Northern Meadow Connection (Verified Turns 1105-1106, 6835-6846)**: Dirt corridor along row 44 bypasses hedges between (21, 44) and (26, 44), connecting north via column 26 to row 41 and east to the sand clearing at (32, 39) and Cottage at (37, 24).
-- **Meadow Dirt Path Wild Encounters (Verified Turn 6837)**: Wild Pokémon encounters (such as Caterpie Lv2) can trigger on the dirt / flower petal tiles throughout this meadow corridor even though they look like dirt path.
 - **Row 20 Cottage Branch Ledge Loop Constraints (Verified Turns 1879, 6794-6795, 6835-6846)**: The curved red branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Traversal cannot be reversed northward over the ledge; returning north is accessed via the verified row 25 connection to the Northwest Clearing.
 - **Pine Tree Obstacle at (36, 11)**: Blocks eastward traversal along row 11.
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
