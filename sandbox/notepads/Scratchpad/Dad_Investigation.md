@@ -9,7 +9,6 @@
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted.
-- Storage Room (Turns 5628, 7959-7966): Door tiles (36, 14) and (37, 14) display 'Its a simple storage room...'. Eastern dead-end requires rigorous tile-by-tile coordinate and trigger re-canvassing.
 ## Active Untested Regional Leads & Story Hypotheses
 1. **Systematic Sewer Re-Canvassing**:
-   - Jackson's last confirmed cutscene appearance was in a sewer storage room. Conduct a rigorous sector-by-sector audit of the Eastern Storage Room approach (36-37, 14), elevated gangways, ladder, and Dark Sector basement for overlooked triggers or clues.
+   - Storage room threshold (36-37, 14) confirmed displaying 'Its a simple storage room...' with no walkable warp. Conduct a rigorous sector-by-sector audit of the Dark Sector basement (entered via 30, 4) and remaining unmapped catwalks for overlooked triggers or clues.
