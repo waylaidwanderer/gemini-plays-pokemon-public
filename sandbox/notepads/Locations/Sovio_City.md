@@ -20,7 +20,7 @@
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
-- **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
+- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), and (34, 16). Verified on Turns 1537, 4424-4425, and 7493 as inert, walkable decorative road tiles.
 
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 
@@ -69,7 +69,6 @@
   - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
   - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
-  - Jackson Absence: Audited on Turn 7466; Jackson is not inside.
 
 ## Sovio Metro Station (Verified Turn 1388)
 
