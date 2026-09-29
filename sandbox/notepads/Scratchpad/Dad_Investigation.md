@@ -12,8 +12,9 @@
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 - Storage Room Debunked (Turns 7959-7966): Both tiles (36, 14) and (37, 14) were probed; confirmed generic inert dead-end with no trigger or interior map. Jackson is not in the accessible sewers.
 ## Active Untested Regional Leads & Story Hypotheses
-1. **Route 1 Northwest Clearing Exploration**:
-   - The northern sector beyond Youngster Mike (29, 20) and Lass Sonia (27, 15) around rows 15-19. Column 28 bypass reaches (28, 19). Needs thorough audit to verify whether any northern path, cave entrance, or story trigger exists.
+1. **Route 1 Traversal Reconciled (Verified Turns 8408-8428)**:
+   - The Northwest Clearing connects directly east via the central tall grass meadow (rows 10-12) to Bug Catcher Duke (45, 12).
+   - Clearing fully audited; zero story triggers or secret caves exist on Route 1. Lancio Town and Route 1 are fully exhausted. All progression focus remains on Sovio City.
 2. **Post-Sewer Trigger Verification in Sovio City**:
    - In Turn 2279-2716, Jackson was freed from the sewers, after which Dad and Valora departed toward the station.
    - Did Dad or Valora move to an un-checked tile, or does an interaction with an NPC (e.g. Metro station exterior or plaza) advance the flag?
