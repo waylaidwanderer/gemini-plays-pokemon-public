@@ -13,4 +13,4 @@
 1. **Gumball House (29, 14) 2F Sleeping Resident**: Probe resident in bed at (27, 15-16) and re-check 1F mother and son.
 2. **North-Central Residence (39, 7)**: Multi-turn dialogue tests with 1F Old Man (41, 33) and 2F Boy (44, 14).
 3. **Central Park & Name Rater**: Test park pond residents and Name Rater (31, 26).
-4. **Metro Station Lobby & Valora Canvas**: Canvas the western lobby of Sovio Metro Station and area around red mat to locate Valora or trigger post-sewer resolution dialogue.
+4. **Metro Station Lobby & Valora Canvas (Audited Turn 8845)**: Turnstile at (19, 21) re-verified triggering 'I should find dad first!'. Full lobby inspected; neither Dad nor Valora is present in the lobby.
