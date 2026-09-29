@@ -10,7 +10,7 @@
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 ## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
 - **Item Storage**: Portable PC item storage (verified functional, audited empty Turn 4000).
-- **Mailbox**: Portable PC mailbox (audited empty Turn 4005).
+- **Mailbox**: Portable PC mailbox (audited empty Turns 4005, 7127: "There's no Mail here.").
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.

@@ -24,7 +24,7 @@
   - Western Upper Terrace Bounds (Verified Turns 6130-6132): Spans columns 13 to 18 along row 12. Western boundary terminated by solid wall at column 12; eastern boundary terminated by solid wall at column 19. Contains stone staircase descent at column 14 (rows 13-16) and shallow puddle at (14-15, 11). Entire terrace fully explored and verified devoid of NPCs, doors, or exits.
 
 - **Northeast Wooden Staircase (Sighted Turns 3678-3679)**: In the northeast section of Sovio Sewers, a wooden staircase is located around columns 28-29, rows 3-4. Visual sighting from (27, 5) showed its opening facing east onto an elevated stone walkway.
-- **Column 30 Bridge Wall Ladder (Discovered Turn 4535)**: Tile (30, 12) is walkable stone floor, and directly north at column 30 (rows 6-11) is a climbable circular-ring wall ladder connecting row 12/13 to the upper platform and Northeast Wooden Staircase at (29-30, 4-5)!
+- **Column 30 Causeway & Northeast Wooden Staircase (Verified Turns 7294-7308)**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
 - **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
