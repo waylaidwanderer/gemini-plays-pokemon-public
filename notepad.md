@@ -288,7 +288,7 @@
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 ## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
 - **Item Storage**: Portable PC item storage (verified functional, audited empty Turn 4000).
-- **Mailbox**: Portable PC mailbox (audited empty Turn 4005).
+- **Mailbox**: Portable PC mailbox (audited empty Turns 4005, 7127: "There's no Mail here.").
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
@@ -363,6 +363,7 @@
 - **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329). Tile (49, 18) facing Up into (49, 17) collides with the solid terrace curb (verified Turn 6569). Stepping Up from (46, 13) into (46, 12) collides with the solid wall/curb (verified Turn 7187).
+- **Eastern Terrace Perimeter (Verified Turn 7231)**: At (51, 19) facing Up, (51, 18) is the solid signpost right post. Column 52 (rows 14-18) is the solid exterior wall of the eastern building. No exterior walkway or ramp connects the street to the elevated terrace on the eastern flank.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
@@ -371,6 +372,7 @@
 - **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
+- **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -390,7 +392,7 @@
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
   - **Corner PC Terminal at (12, 1) (Verified Turn 7195, 7206)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
-  - **Framed Town Map at (11, 0) (Verified Turn 7212)**: Interacting facing Up from (11, 1) displays "A Town Map.".
+  - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
   - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
 
@@ -410,7 +412,7 @@
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
-## Residential House (North Central) (Verified Turn 1447)
+## Residential House (North Central) (Verified Turns 1447, 7239-7245)
 
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 
@@ -513,7 +515,7 @@
   - Western Upper Terrace Bounds (Verified Turns 6130-6132): Spans columns 13 to 18 along row 12. Western boundary terminated by solid wall at column 12; eastern boundary terminated by solid wall at column 19. Contains stone staircase descent at column 14 (rows 13-16) and shallow puddle at (14-15, 11). Entire terrace fully explored and verified devoid of NPCs, doors, or exits.
 
 - **Northeast Wooden Staircase (Sighted Turns 3678-3679)**: In the northeast section of Sovio Sewers, a wooden staircase is located around columns 28-29, rows 3-4. Visual sighting from (27, 5) showed its opening facing east onto an elevated stone walkway.
-- **Column 30 Bridge Wall Ladder (Discovered Turn 4535)**: Tile (30, 12) is walkable stone floor, and directly north at column 30 (rows 6-11) is a climbable circular-ring wall ladder connecting row 12/13 to the upper platform and Northeast Wooden Staircase at (29-30, 4-5)!
+- **Column 30 Causeway & Northeast Wooden Staircase (Verified Turns 7294-7308)**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
 - **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
@@ -541,6 +543,7 @@
 - Dunsparce (Lv6, Normal; female verified Turn 3136, male verified Turn 5837)
 - Shuppet (female) (Lv6, Ghost; verified Turn 4570)
 - Croagunk (Lv5, Poison/Fighting; female verified Turn 4681, male verified Turn 5652)
+- Mimikyu (male) (Lv5, Ghost/Fairy; verified Turn 7326)
 ## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
@@ -549,7 +552,7 @@
 - **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5).
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; impassable without HM Rock Smash.
-- **Western Alcove & Mat**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9).
+- **Western Alcove & Mat (Verified Turns 4549, 7316-7317)**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
 
 
 <hr>
