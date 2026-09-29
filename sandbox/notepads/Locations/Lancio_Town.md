@@ -28,7 +28,7 @@
 - **East Research Wing**:
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
-  - Cylindrical research incubator apparatus with glowing green fluid at (18-19, 5-6).
+  - Cylindrical research incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
   - Wooden research table at (21-23, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
