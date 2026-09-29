@@ -363,7 +363,7 @@
 - **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal door at (48, 14) on an elevated stone terrace. Ground-floor curbs along column 47 and row 16/17 block exterior street access from west and south; east perimeter is blocked by solid wall at column 52. Elevated terrace has no direct exterior street access.
-- **Eastern Terrace Perimeter (Verified Turn 7231)**: At (51, 19) facing Up, (51, 18) is the solid signpost right post. Column 52 (rows 14-18) is the solid exterior wall of the eastern building. No exterior walkway or ramp connects the street to the elevated terrace on the eastern flank.
+- **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
