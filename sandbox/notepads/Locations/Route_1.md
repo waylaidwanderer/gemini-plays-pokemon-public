@@ -64,3 +64,4 @@
 - **Central Pine Tree Obstacle at (11, 45) (Verified Turn 6858)**: Direct westward traversal along row 45 from (12, 45) collides with the Central Pine Tree trunk at (11, 45).
 - **Pine Tree Obstacle at (12, 42) (Verified Turn 6867)**: Stepping Up from (12, 43) collides with a solid pine tree trunk at (12, 42).
 - **Billboard Obstacle at (11, 48) (Verified Turn 6863)**: Stepping West from (12, 48) collides with the billboard right post / obstacle at (11, 48).
+- **Central Pine Tree Obstacle at (11, 46) (Verified Turn 6877)**: Stepping West from (12, 46) collides with solid obstacle / tree at (11, 46).
