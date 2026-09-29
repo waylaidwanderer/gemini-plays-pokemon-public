@@ -511,7 +511,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665)**: From column 23 at row 13, a single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room (Debunked Turns 5628-5633)**: Located at the eastern dead-end at (36-37, 14) marked with a red capsule mat. Interacting with 'A' displays "Its a simple storage room...". Physical entry rigorously tested in all directions: south is impassable void, north (37, 11) is solid brick wall, east (38, 12) is dead-end void edge. Confirmed decorative feature with no interior map, warps, or NPCs.
+- **Eastern Storage Room**: Located at the eastern dead-end at (36-37, 14) marked with a red capsule mat. Interacting with 'A' displays "Its a simple storage room...". Requires systematic sector re-canvassing of threshold step-on triggers, directional interactions, and adjacent tiles.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison; verified Turns 1720, 2205, 2405, 2734, 2751)
@@ -555,9 +555,7 @@
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted.
 - Storage Room (Turns 5628, 7959-7966): Door tiles (36, 14) and (37, 14) display 'Its a simple storage room...'. Eastern dead-end requires rigorous tile-by-tile coordinate and trigger re-canvassing.
 ## Active Untested Regional Leads & Story Hypotheses
-1. **Side Quest 'Machop\'s Toy' Scope**:
-   - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
-2. **Systematic Sewer Re-Canvassing**:
+1. **Systematic Sewer Re-Canvassing**:
    - Jackson's last confirmed cutscene appearance was in a sewer storage room. Conduct a rigorous sector-by-sector audit of the Eastern Storage Room approach (36-37, 14), elevated gangways, ladder, and Dark Sector basement for overlooked triggers or clues.
 
 
