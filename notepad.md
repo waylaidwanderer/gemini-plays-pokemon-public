@@ -363,7 +363,7 @@
 
 - **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329). Tile (49, 18) facing Up into (49, 17) collides with the solid terrace curb (verified Turn 6569).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329). Tile (49, 18) facing Up into (49, 17) collides with the solid terrace curb (verified Turn 6569). Stepping Up from (46, 13) into (46, 12) collides with the solid wall/curb (verified Turn 7187).
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
