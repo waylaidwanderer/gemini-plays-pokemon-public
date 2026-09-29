@@ -8,9 +8,9 @@
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted.
+- Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features.
 ## Active Untested Regional Leads & Story Hypotheses
 1. **Gumball House (29, 14) 2F Sleeping Resident**: Probe resident in bed at (27, 15-16) and re-check 1F mother and son.
 2. **North-Central Residence (39, 7)**: Multi-turn dialogue tests with 1F Old Man (41, 33) and 2F Boy (44, 14).
 3. **Central Park & Name Rater**: Test park pond residents and Name Rater (31, 26).
-4. **HuPhone & Menu Audit**: Audit Key Items pocket and full HuPhone app list/options for overlooked mechanics.
+4. **Metro Station Lobby & Valora Canvas**: Canvas the western lobby of Sovio Metro Station and area around red mat to locate Valora or trigger post-sewer resolution dialogue.
