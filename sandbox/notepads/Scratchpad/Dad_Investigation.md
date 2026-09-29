@@ -13,7 +13,7 @@
    - Route 2 exit: "I can't go yet... I have things to do!"
    - Could an NPC in Sovio City have new dialogue triggered by sewer events?
    - Residential houses:
-     - Wii house at (39, 7): 1F elderly resident re-audited Turn 7239 (dialogue unchanged: "I bought my son a Wii..."). Proceeding to 2F.
+     - Wii house at (39, 7): 1F elderly resident and 2F boy re-audited Turns 7239-7245; both dialogue lines confirmed 100% ambient and unchanged. No story triggers.
      - Gumball house at (29, 14): Checked Turn 5933.
      - Karate house at (13, 15): Checked Turn 5950.
      - Name Rater at (31, 26): Checked Turn 3091.
