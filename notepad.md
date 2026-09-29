@@ -408,7 +408,7 @@
 
 - **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33); ambient dialogue.
 
-- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12). Dialogue: "I love the games on the Wii! / I'm playing my favorite right now."
+- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12); ambient dialogue.
 
 ## City Signpost (Verified Turn 1476)
 
