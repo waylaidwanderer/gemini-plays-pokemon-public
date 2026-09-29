@@ -15,7 +15,7 @@
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Plaza Street Lamp**: Located at (46, 17).
 
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Biker 1 (13, 21) says: '"vroom" "vroom" Jealous kid? We are the big guys here, the ultimate motorcycle gang!' (Asher: '... what a weird gang...'). Verified ambient flavor text (Turn 8567).
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
