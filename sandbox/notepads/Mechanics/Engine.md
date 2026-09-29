@@ -13,13 +13,7 @@
 - **Mailbox**: Portable PC mailbox (audited empty Turn 4005).
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
-  - Exclusively tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
-  - Complete Side Quest Roster (Verified Turn 6538):
-    - Page 1: Lost Pidgey, Lost Toy, Egg Research, Medic!, Squirtle Gang
-    - Page 2: Lost Eevee, Kaboom, Valentines Gift, Angry Cubone Kid, Push it!
-    - Page 3: Oak's Research, Elm's Research, Rowan's Research, Cynthia's Research, Help for Barry
-    - Page 4: - Not available -, - Not available -, Roark's Opal, PokéDex!, Marine Point Hunter
-    - Page 5: Hugh's Pokémon, Silver's Deal, Back to the..., Outcasts, The Mods of Cord
+  - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
   - 'Quest List': Lists side quests and marks completion status ('This Quest hasn't been completed yet!').
   - 'Quest Status': Displays canned message: 'You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!' (does not display specific objective hints).
 - **Quest Limit**: Only ONE active side quest can be in progress at a time; accepting a new quest prompts cancellation of the active quest.

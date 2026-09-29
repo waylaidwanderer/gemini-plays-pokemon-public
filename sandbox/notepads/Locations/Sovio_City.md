@@ -28,7 +28,7 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner PokÃ©mon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
 
-- **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall (settling at 12, 17 facing Left); no passage further west.
+- **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall; no passage further west.
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
 - **Central Plaza**: Located around (40-50, 10-18) containing the PokÃ©mon Center, Metro Station entrance, and residential house.
