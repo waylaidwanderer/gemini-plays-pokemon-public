@@ -52,6 +52,7 @@
 - Dunsparce (Lv6, Normal; female verified Turn 3136, male verified Turn 5837)
 - Shuppet (female) (Lv6, Ghost; verified Turn 4570)
 - Croagunk (Lv5, Poison/Fighting; female verified Turn 4681, male verified Turn 5652)
+- Mimikyu (male) (Lv5, Ghost/Fairy; verified Turn 7326)
 ## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
