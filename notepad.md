@@ -212,7 +212,7 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). (ambient advice).
+- **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway (completed quest location; ambient advice).
 - **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
