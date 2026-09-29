@@ -53,7 +53,7 @@
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (33, 8)**: Solid pine tree blocks westward passage along row 8.
 - **Red Rock Spire at (35, 8) (Verified Turn 7070)**: Small red layered conical spire blocks stepping Up from (35, 9); bypass east via (36, 9) into the northern meadow corridor.
-- **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
+- **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5.
 - **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor; tested Turns 3462-3463.
 - **Pine Tree Barrier at (30, 10)**: Directly north of the trail opening at (30, 11); solid pine tree trunk collision.
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
