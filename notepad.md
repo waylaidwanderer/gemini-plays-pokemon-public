@@ -581,5 +581,6 @@
 - Action Plan:
   1. Audit unverified interactions and NPCs in Sovio City starting with the Old Man at (51, 15).
   2. Systematically inspect every interactive element in Sovio City to identify the progression trigger.
+- **Turn 7431 Party Audit**: Confirmed Sirius Lv14 (40/40 HP, no item) and Zephyr Lv2 (13/13 HP, no item). Currently auditing Trainer Card and Bag for overlooked quest triggers.
 
 <hr>
