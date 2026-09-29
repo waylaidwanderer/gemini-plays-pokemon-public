@@ -55,7 +55,7 @@
 - **Red Rock Spire at (35, 8) (Verified Turn 7070)**: Small red layered conical spire blocks stepping Up from (35, 9); bypass east via (36, 9) into the northern meadow corridor.
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5.
 - **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor; tested Turns 3462-3463.
-- **Pine Tree Barrier at (30, 10)**: Directly north of the trail opening at (30, 11); solid pine tree trunk collision.
+- **Pine Tree Barrier at (30, 10)**: Solid pine tree blocks northward movement from trail at (30, 11).
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
 - **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).
