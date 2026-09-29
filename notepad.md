@@ -362,7 +362,7 @@
 
 - **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal door at (48, 14) on an elevated stone terrace. Ground-floor curbs along column 47 and row 16/17 block exterior street access from west and south; east perimeter is blocked by solid wall at column 52. Elevated terrace has no direct exterior street access.
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a teal door at (48, 14) on an elevated wooden terrace. Terrace is accessible from street via row 15 curb at (47, 15). Old Man (51, 15) and Phanpy (51, 16) reside on terrace outside the teal door.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
