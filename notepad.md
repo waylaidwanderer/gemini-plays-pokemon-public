@@ -245,7 +245,8 @@
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
-- **Youngster Mike Obstacle at (29, 20) (Verified Turns 6983-6991)**: Youngster Mike at (29, 20) is a solid, impassable NPC that physically blocks northward movement along column 29 from (29, 21). Column 30 is blocked north at (30, 20) by a pine tree.
+- **Youngster Mike Obstacle at (29, 20) (Verified Turns 6983-6991)**: Impassable NPC at (29, 20) blocks northward traversal along column 29; bypass west via column 28.
+- **Pine Tree Obstacle at (46, 10) (Verified Turn 7083)**: Stepping East from (45, 10) collides with a solid pine tree trunk; bypass south via (45, 11).
 - **Mushroom/Obstacle at (39, 20) (Verified Turn 7005)**: Solid reddish obstacle between Cottage roof and branch blocks stepping Up from (39, 21) into (39, 20).
 - **Pine Tree Forest Wall at Column 44 (Verified Turn 7016)**: Stepping East from (43, 28) into (44, 28) collides with a solid vertical forest of pine trees, confirming no eastward passage through column 44 at row 28.
 - **Northwest Clearing Bypass (Verified Turns 7054-7062)**: Column 28 is fully walkable across rows 20-23 ((28, 23), (28, 22), (28, 21), (28, 20)), providing the open corridor directly west of Youngster Mike (29, 20) to reach the northern clearing at (28, 19). Stepping West from (29, 24) into (28, 24) collides with a solid pine tree.
