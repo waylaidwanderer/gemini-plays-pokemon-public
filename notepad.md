@@ -573,13 +573,13 @@
 - The sewer corridors were fully mapped thousands of turns ago. Storage room (37, 14) is confirmed decorative ("Its a simple storage room...").
 - Tile (30, 9) verified walkable on Turn 7300. The column 30 bridge is an open passage heading north to the Northeast Wooden Staircase at (30, 4).
 - What causal trigger or interaction in the game world has been overlooked that allows Asher to find Jackson?
-## Refocused Investigation (Turn 7381)
-- Critique Audit: Lancio Town and Inizio Isle are exhausted stale nodes with no verified causal link to Jackson's disappearance. Jackson disappeared in Sovio City during the tremor (Turn 1437) and was rescued from the sewers (Turn 2716), departing "toward the station".
-- Current Blockers:
+## Refocused Investigation (Turn 7415)
+- Jackson ran outside into Sovio City during the tremor (Turn 1437) and has not been located or interacted with by Asher since. Sewer storage room at (37, 14) was confirmed empty on Turn 5628 ("Its a simple storage room...").
+- Current Progression Blockers:
   1. Metro Turnstile (19, 21): "I should find dad first!"
   2. Route 2 Exit (52, 19-20): "I can't go yet... I have things to do!"
 - Action Plan:
-  1. Exit Sovio Sewers via (38, 22) up into Metro Station lobby.
-  2. Audit every fixture and NPC in Metro Station lobby and Sovio City to locate Jackson or identify the exact un-triggered event.
+  1. Audit unverified interactions and NPCs in Sovio City starting with the Old Man at (51, 15).
+  2. Systematically inspect every interactive element in Sovio City to identify the progression trigger.
 
 <hr>
