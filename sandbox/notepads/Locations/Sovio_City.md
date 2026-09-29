@@ -69,6 +69,7 @@
   - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
   - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
+  - Jackson Absence: Audited on Turn 7466; Jackson is not inside.
 
 ## Sovio Metro Station (Verified Turn 1388)
 
