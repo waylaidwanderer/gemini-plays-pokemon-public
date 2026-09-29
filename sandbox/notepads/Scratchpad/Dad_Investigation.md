@@ -19,6 +19,5 @@
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
 
 ## Documented Hypotheses for Lancio Town Audit (Turn 7531)
-- **Hypothesis 2 (Professor Ivo Lab Research Wing)**: The server workstations at (23-24, 8-9), research table at (21-23, 4), and green fluid incubator apparatus at (18-19, 5-6) have not been directly interacted with using 'A'. Inspecting them may yield story logs or prompt new dialogue from Professor Ivo.
-- **Hypothesis 3 (Southwest Coastline & Beach)**: Sand coastline at columns 14-20, rows 14-17 remains uninspected for hidden items or NPCs.
-- **Hypothesis 4 (Route 1 / Lancio Field Items)**: The visible Pokéball item at (38, 4) north of Lancio pond or Route 1 cut tree bypasses may yield HM Cut or progression tools.
+- **Hypothesis 2 (Professor Ivo Lab Research Wing - DISPROVED Turns 7621-7629)**: Incubator ('Better not mess with that machine.'), Ivo (ambient dialogue), server tower (inert), research desk (inert), bookshelf ('crammed full of Pokémon books'). Lab fixtures contain zero quest items or story triggers.
+- **Macro-Strategy Redirect (Turn 7632)**: Lancio Town prologue elements are fully exhausted. Returning immediately to Sovio City to investigate the active progression gates (Metro Station attendants/turnstiles, Valora's location, and Sovio Sewers).
