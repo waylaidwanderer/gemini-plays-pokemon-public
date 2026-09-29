@@ -37,7 +37,7 @@
 - **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside.
-  - **Interior 1F (Verified Turn 7897-7907)**: Entrance mat lands at (64, 35). Dining table and rug at (64-67, 31-33), kitchen counter along north wall (stove at 63, 30 displays: "The stove is on... Something's boiling."). Single-story residence (no 2F stairs). Residents: Young girl with yellow bow at (63, 33) (dialogue: "Nana makes the best food! Weeeee!"), and elderly woman (Nana) at (62, 31) (dialogue: "I'm cooking something for my dear grandkid. She loves my cooking."). Audited complete; ambient residence with no story triggers or items.
+  - **Interior 1F (Verified Turn 7897-7907)**: Entrance mat lands at (64, 35). Single-story residence (no 2F stairs); audited complete with ambient residents, no items, and no story triggers.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
