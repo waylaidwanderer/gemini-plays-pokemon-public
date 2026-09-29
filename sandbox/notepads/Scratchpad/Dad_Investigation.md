@@ -9,9 +9,9 @@
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Sub-Containers Audited (Turns 7994, 8559-8562): PC Item Storage and Mailbox verified empty. TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
-- Storage Room Debunked (Turns 7959-7966): Both tiles (36, 14) and (37, 14) were probed; confirmed generic inert dead-end with no trigger or interior map. Jackson is not in the accessible sewers.
+- Storage Room (Turns 5628, 7959-7966): Door tiles (36, 14) and (37, 14) display 'Its a simple storage room...'. Eastern dead-end requires rigorous tile-by-tile coordinate and trigger re-canvassing.
 ## Active Untested Regional Leads & Story Hypotheses
-1. **Unexamined Mechanics & Key Items**:
-   - Inspect Bag pockets and HuPhone menu apps for unexamined functions or contacts.
-2. **Side Quest 'Machop\'s Toy' Scope**:
+1. **Side Quest 'Machop\'s Toy' Scope**:
    - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
+2. **Systematic Sewer Re-Canvassing**:
+   - Jackson's last confirmed cutscene appearance was in a sewer storage room. Conduct a rigorous sector-by-sector audit of the Eastern Storage Room approach (36-37, 14), elevated gangways, ladder, and Dark Sector basement for overlooked triggers or clues.

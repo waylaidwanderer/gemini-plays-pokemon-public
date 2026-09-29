@@ -25,7 +25,7 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17) (ambient comic relief).
 
-- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576)**: Cobblestone lane along rows 16-24 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building is solid collision from row 16 down to row 24+.
+- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building is verified solid collision specifically at rows 16, 18, 19, and 20.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
