@@ -456,7 +456,7 @@
 
 - **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 
-- **Central Park South Collisions (Verified Turns 6374-6375)**: Street lamp obstructs tile (35, 23) south of the pond bank.
+- **Park Street Lamp**: Located at (35, 23) south of pond bank.
 
 ## North-Central Commercial/Residential Block
 
