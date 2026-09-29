@@ -49,3 +49,4 @@
 - **Fisherman**: Located at (38, 22) near harbor dock. Dialogue: "You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come." (ambient).
 
 - **Lancio Harbor Boat Audit (Verified Turn 6893)**: Wooden pier ends at row 25 with row 26 being water. Harry is not present and no boat is moored at column 33. Interacting with 'A' facing south into the water at (33, 25) yields no prompt or dialogue; lateral columns 32 and 34 not yet exhaustively probed.
+- **Professor Ivo Dialogue Audit (Verified Turn 6913-6916)**: When spoken to in her laboratory East Research Wing at (20, 6), Professor Ivo says: "Hey, Ashi, how's your new Pokémon?" (ambient post-starter dialogue; no new story prompts or items regarding Dad's disappearance).
