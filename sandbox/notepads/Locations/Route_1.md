@@ -47,7 +47,7 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10, 47-48) are bypassed south via row 50 under the blue-capped boy (11, 49).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
   - Solid cut-tree obstacle at (5, 44) requires HM Cut.
-- **Northwest Clearing**:
+- **Cottage East Flank**: Impassable pine tree trunk at (42, 25) with solid forest wall spanning columns 43+; no eastern passage from Cottage sector.
   - Column 28 is fully walkable across rows 20-23 west of Youngster Mike (29, 20) to reach (28, 19).
   - Lass Sonia is located at (27, 15) on a rock spire.
 
