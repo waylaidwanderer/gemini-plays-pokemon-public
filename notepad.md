@@ -219,8 +219,8 @@
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
-  - Nidoranâ (Lv3, Poison; verified Turn 494).
-  - Nidoranâ (Lv2, Poison; verified Turn 1069).
+  - Nidoran♀ (Lv3, Poison; verified Turn 494).
+  - Nidoran♂ (Lv2, Poison; verified Turn 1069).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
   - Mareep (Lv3, Electric; verified Turns 722, 821).
   - Weedle (Lv2, Bug/Poison; verified Turn 833).
@@ -245,7 +245,6 @@
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
-
 - **Pine Tree Obstacle at (46, 10)**: Solid pine tree blocks eastward traversal at (45, 10); bypass south via row 11.
 - **Mushroom/Obstacle at (39, 20)**: Solid obstacle between cottage roof and branch blocks stepping Up from (39, 21).
 - **Pine Tree Forest Wall at Column 44**: Solid pine forest terminates row 28 eastward passage.
@@ -260,7 +259,6 @@
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
 - **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).
 - **Pine Tree Obstacle at (32, 24)**: Solid pine tree blocks direct northward movement along column 32.
-
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
 
 <hr>
