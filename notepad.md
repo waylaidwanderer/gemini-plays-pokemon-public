@@ -555,13 +555,10 @@
 - "Machop's Toy" is an optional side quest given by Old Man (51, 15); cancelling it on Turn 3162 did NOT alter the turnstile or Route 2 barrier. It has no verified link to the main storyline.
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
-## Active Analysis & Surface Investigation Plan
-- Ground Truth: Dad ran outside into Sovio City during the tremor (Turn 1437). Sewers are cleared and contain no story progression.
-- Progression Gates: Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet...") confirm Dad must be found on the surface of Sovio City.
-- Surface Audit Targets:
-  1. West Avenue: Boy with Rocky (23, 17), Machop house (13, 15), Bikers (13, 21-23), office building (11, 18).
-  2. Central Park: Boy in pink shirt (30, 21), blonde girl (44, 24), Jigglypuff gathering.
-  3. Plaza & East Sector: Elevated terrace door at (48, 14), Old Man & Machop (51, 15).
+## Active Analysis & Sewer Storage Room Investigation Plan
+- Ground Truth: Cutscene (Turn 1666-1707) confirmed Jackson was held captive in the sewer storage room at (37, 14).
+- Surface Audit Complete (Turns 7810-7910): Every surface building (Machop house, Gumball house, Wii house, Terrace house, Name Rater) and NPC (Rocky boy, Bikers, Pond couple, Jigglypuff group) verified ambient with zero story triggers.
+- Active Focus: Re-investigate the Eastern Storage Room at (37, 14) in Sovio Sewers. Re-examine the door, red warp mat, and perimeter to determine how to unlock the door or locate Jackson.
 
 ## Critical Summary Correction & Active Hypotheses (Turn 7487)
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
