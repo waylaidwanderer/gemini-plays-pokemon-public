@@ -139,7 +139,7 @@
 - **Entrance Foyer**:
   - Door lands at (12, 12) on red mat facing north.
   - Green runner rug extends along column 12 from row 12 to row 9.
-  - Framed regional map on east wall at (14-15, 8-9).
+  - Framed regional map on wall at (17, 8) (Verified Turn 7614): Interacting facing Left from (18, 8) displays 'A Town Map.'
   - Red rug, table, and PC terminal in western wing.
   - Stairs at north wall: blocked by railing at (11, 7) from row 8.
 - **East Research Wing**:
