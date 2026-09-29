@@ -51,7 +51,7 @@
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
-- **West Wall Collisions (Verified Turn 7109)**: Stepping East from (39, 8) and (39, 9) into column 40 collides with the solid west exterior wall of the Pokémon Center; no alleyway exists behind the Pokémon Center.
+- **West Wall**: Solid exterior wall forms the western boundary of the Pokémon Center at column 40.
 
 - **Interior Layout & Audit (Verified Turns 4024-4048)**:
 
