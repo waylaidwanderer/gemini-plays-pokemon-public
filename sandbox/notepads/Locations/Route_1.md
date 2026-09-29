@@ -44,7 +44,6 @@
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
-- **Row 20 Cottage Branch Ledge (Verified Turns 1879, 6794-6795)**: The curved red branch at row 20 (columns 40-41) acts as a one-way southward jumpable ledge! Northward traversal from row 21 is blocked, but jumping south from (40, 19) hops over the branch down to (40, 21), directly connecting the eastern meadow corridor to the Route 1 Cottage.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (33, 8)**: Stepping west from (34, 8) across row 8 collides with a solid pine tree trunk, confirming the northern meadow does not connect west to the clearing along row 8 (verified Turn 5743).
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
