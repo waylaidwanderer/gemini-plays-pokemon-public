@@ -8,9 +8,6 @@
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Ground Truth: Cutscene (Turn 1666-1707) depicted Jackson held captive in a sewer storage room whose exact coordinates are unverified; (37, 14) is an impassable dead-end.
 - Surface Audit Complete (Turns 7810-7910): Every surface building and NPC in Sovio City verified ambient.
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
-
-## Turnstile Re-Verification & Storage Room Hypothesis (Turn 8051-8056)
-- Storage Room Completely Debunked: Both tiles (36, 14) and (37, 14) were probed (Turn 7959 stepped on 36, 14 without trigger; Turn 7966 inspected 37, 14 returning generic text). The storage room is fully verified as an inert dead-end. Jackson is not in the sewers.
+- Storage Room Debunked (Turns 7959-7966): Both tiles (36, 14) and (37, 14) were probed; confirmed generic inert dead-end with no trigger or interior map. Jackson is not in the accessible sewers.
