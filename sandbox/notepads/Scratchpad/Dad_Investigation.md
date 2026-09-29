@@ -13,7 +13,7 @@
 - The sewer corridors were fully mapped thousands of turns ago. Storage room (37, 14) is confirmed decorative ("Its a simple storage room...").
 - Tile (30, 9) verified walkable on Turn 7300. The column 30 bridge is an open passage heading north to the Northeast Wooden Staircase at (30, 4).
 - What causal trigger or interaction in the game world has been overlooked that allows Asher to find Jackson?
-## Active Audit & Investigation Plan (Turn 7442)
+## Baseline Audits (Turns 7431-7448)
 - **Baseline Party Audit (Turn 7431)**: Sirius Lv14 (40/40 HP, no item), Zephyr Lv2 (13/13 HP, no item). Both at full health.
 - **Baseline Trainer Card Audit (Turn 7437)**: ID 54592, Name Asher, Money ¥8196, Time 44:05. Front lists 8 *ROUNDS slots (all 0/8 unearned). Back lists 6 badge/round silhouettes (all unearned). S-logo on back. Zero tournament passes or registration stamps.
 - **Baseline Bag Inventory Audit (Turn 7448)**: Items (Potion x1, Poison Barb x1, Nugget x1), Poké Balls (Timer Ball x1), Key Items (HuPhone [registered S], TM Case). Fully audited: zero quest items, keycards, or letters present.

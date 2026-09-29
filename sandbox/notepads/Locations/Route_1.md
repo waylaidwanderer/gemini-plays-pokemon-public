@@ -52,9 +52,9 @@
 - **Northwest Clearing Bypass (Verified Turns 7054-7062)**: Column 28 is fully walkable across rows 20-23 ((28, 23), (28, 22), (28, 21), (28, 20)), providing the open corridor directly west of Youngster Mike (29, 20) to reach the northern clearing at (28, 19). Stepping West from (29, 24) into (28, 24) collides with a solid pine tree.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (33, 8)**: Solid pine tree blocks westward passage along row 8.
-- **Red Rock Spire at (35, 8) (Verified Turn 7070)**: Small red layered conical spire blocks stepping Up from (35, 9); bypass east via (36, 9) into the northern meadow corridor.
+- **Red Rock Spire at (35, 8)**: Small red layered conical spire blocks stepping Up from (35, 9); bypass east via (36, 9) into the northern meadow corridor.
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5.
-- **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor; tested Turns 3462-3463.
+- **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor.
 - **Pine Tree Barrier at (30, 10)**: Solid pine tree blocks northward movement from trail at (30, 11).
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
@@ -67,5 +67,6 @@
 ## Verified Traversal Corridors (Sequential Waypoint Map)
 - **Track 8 to Eastern Meadow**: (53, 0) south along column 53 to (53, 10) outside Signpost 4 at (50, 10).
 - **Upper Spire Bypass**: From (53, 10), south to (53, 13), west to (51, 13), south through tall grass along column 51 past red rock spire (53, 15) to (51, 18).
-- **Lower Spire & Pine Bypass**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19) to (46, 19), then south along column 46 past the lower red spire (48, 20) down to (46, 23).
+- **Lower Spire & Branch Ledge Route**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19), (46, 19) to (40, 19), then jump south over the curved branch ledge to (40, 21) in the Cottage sector.
+- **Column 46 Cul-de-Sac**: Column 46 south of row 19 dead-ends at (46, 23) into solid pine trees south and west; not a throughway.
 - **Dead-End Meadow Alcove**: Row 11 west from column 53 past defeated Duke (45, 12) into row 8-10 alcove dead-ends against solid pine trees at (34, 8) and (40, 5).
