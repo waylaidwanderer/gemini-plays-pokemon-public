@@ -18,15 +18,3 @@
 ## Critical Summary Correction & Active Hypotheses (Turn 7487)
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
 
-## Documented Hypotheses for Lancio Town Audit (Turn 7531)
-- **Hypothesis 2 (Professor Ivo Lab Research Wing - DISPROVED Turns 7621-7629)**: Incubator ('Better not mess with that machine.'), Ivo (ambient dialogue), server tower (inert), research desk (inert), bookshelf ('crammed full of Pokémon books'). Lab fixtures contain zero quest items or story triggers.
-## Active Lancio Town Hypotheses (Testing in Progress)
-- **Hypothesis 3 (Southwest Coastline & Beach)**: Sand coastline at columns 14-20, rows 14-17 remains uninspected for hidden items or NPC triggers.
-- **Hypothesis 4 (Northern Pond Perimeter & Field Items - DISPROVED Turns 7658-7659)**: East neck blocked at (39, 7); west neck blocked by Old Man & Woman (32-33, 8); golden ball at (38, 4) requires Surf. Northeast house is decorative with no door. 100% verified inaccessible on foot.
-
-## Macro Progression Hypothesis (Sovio City & Sewers)
-- **Hypothesis: Machop's Toy & Rock Smash Prerequisite**:
-  1. Jackson went missing in Sovio City / Sewers; grunts vacated sewers following Marie's retreat order on Turn 2682.
-  2. The Old Man outside the Metro Station (51, 15) has an active quest: "Machop's Toy", lost "somewhere deep in the Sovio Sewers".
-  3. Sovio Sewers has two blocked sectors requiring HM Rock Smash: Dark Sector cracked rock at (22, 10) and Southwest Corridor at (7-8, 24).
-  4. Falsifiable test: Returning Machop's Toy rewards HM Rock Smash (or progression key), granting access to the sealed sewer sector where Jackson is held captive.

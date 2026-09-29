@@ -15,7 +15,7 @@
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
 ## Visible Field Items
-- **Pokéball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
+- **Pokball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
 - **PokÃ©ball Item 2**: Visible in the far northeast corner above the pond.
 
 ## Professor Ivo's PokÃ©mon Laboratory (Interior)
@@ -29,10 +29,10 @@
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
   - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
-  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
+  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pokmon?").
   - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
   - Wooden research desk at (21-23, 4) (Verified Turn 7627): Inert decorative fixture.
-  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pokémon books."
+  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pokmon books."
   - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 ## Southwest Beach & Coastline
 - **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
@@ -51,4 +51,3 @@
 - **Fisherman**: Located at (38, 22) near harbor dock. Dialogue: "You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come." (ambient).
 
 - **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
-- **Professor Ivo Dialogue Audit (Verified Turn 6913-6916)**: When spoken to in her laboratory East Research Wing at (20, 6), Professor Ivo says: "Hey, Ashi, how's your new PokÃ©mon?" (ambient post-starter dialogue; no new story prompts or items regarding Dad's disappearance).
