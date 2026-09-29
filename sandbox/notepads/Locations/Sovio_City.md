@@ -128,7 +128,7 @@
 
 - **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
 
-- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091). Note: The north roof of this building blocks row 24 at column 32 (verified Turn 6374).
+- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 
 - **Central Park South Collisions (Verified Turns 6374-6375)**: Street lamp obstructs tile (35, 23) south of the pond bank.
 
