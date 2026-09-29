@@ -418,7 +418,7 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
+- **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV, Mother at (27, 33); ambient dialogue.
 
 - **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
 
