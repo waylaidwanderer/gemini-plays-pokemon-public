@@ -4,8 +4,6 @@
 - Tremor occurred in Sovio Metro Station (Turn 1437); Jackson ran outside into Sovio City to investigate.
 - Turnstile gate at (19, 21) in Metro lobby triggers: "I should find dad first!"
 - Route 2 exit at (52, 19-20) in Sovio City triggers: "I can't go yet... I have things to do!"
-- All surface residences in Sovio City (PokÃ©mon Center, Wii house, Gumball house, Karate house, Name Rater) contain only ambient NPCs.
-- All surface NPCs (Bikers, Rocky boy, pond visitors, blonde girl) are ambient.
 - "Machop's Toy" is an optional side quest given by Old Man (51, 15); cancelling it on Turn 3162 did NOT alter the turnstile or Route 2 barrier. It has no verified link to the main storyline.
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
@@ -21,7 +19,6 @@
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
 
 ## Documented Hypotheses for Lancio Town Audit (Turn 7531)
-- **Hypothesis 1 (Lancio Dock Pier Lateral Columns - DISPROVED Turns 7594-7595)**: All three columns (32, 25), (33, 25), and (34, 25) exhaustively probed with 'A' facing South into water; confirmed 100% inert with no prompts or boat presence.
 - **Hypothesis 2 (Professor Ivo Lab Research Wing)**: The server workstations at (23-24, 8-9), research table at (21-23, 4), and green fluid incubator apparatus at (18-19, 5-6) have not been directly interacted with using 'A'. Inspecting them may yield story logs or prompt new dialogue from Professor Ivo.
 - **Hypothesis 3 (Southwest Coastline & Beach)**: Sand coastline at columns 14-20, rows 14-17 remains uninspected for hidden items or NPCs.
 - **Hypothesis 4 (Route 1 / Lancio Field Items)**: The visible Pokéball item at (38, 4) north of Lancio pond or Route 1 cut tree bypasses may yield HM Cut or progression tools.
