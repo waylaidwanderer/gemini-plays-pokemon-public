@@ -561,7 +561,6 @@
    - The Northwest Clearing connects directly east via the central tall grass meadow (rows 10-12) to Bug Catcher Duke (45, 12).
    - Clearing fully audited; zero story triggers or secret caves exist on Route 1. Lancio Town and Route 1 are fully exhausted. All progression focus remains on Sovio City.
 2. **Post-Sewer Trigger Verification in Sovio City**:
-   - In Turn 2279-2716, Jackson was freed from the sewers, after which Dad and Valora departed toward the station.
    - Did Dad or Valora move to an un-checked tile, or does an interaction with an NPC (e.g. Metro station exterior or plaza) advance the flag?
 3. **Side Quest 'Machop\'s Toy' Scope**:
    - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
