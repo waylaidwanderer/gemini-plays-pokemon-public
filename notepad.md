@@ -250,6 +250,7 @@
 - **Northwest Clearing Bypass (Verified Turns 7054-7062)**: Column 28 is fully walkable across rows 20-23 ((28, 23), (28, 22), (28, 21), (28, 20)), providing the open corridor directly west of Youngster Mike (29, 20) to reach the northern clearing at (28, 19). Stepping West from (29, 24) into (28, 24) collides with a solid pine tree.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (33, 8)**: Stepping west from (34, 8) across row 8 collides with a solid pine tree trunk, confirming the northern meadow does not connect west to the clearing along row 8 (verified Turn 5743).
+- **Red Rock Spire at (35, 8) (Verified Turn 7070)**: Small red layered conical spire blocks stepping Up from (35, 9); bypass east via (36, 9) into the northern meadow corridor.
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
 - **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor; tested Turns 3462-3463.
 - **Pine Tree Barrier at (30, 10)**: Directly north of the trail opening at (30, 11); solid pine tree trunk collision.
