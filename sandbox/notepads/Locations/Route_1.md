@@ -31,7 +31,7 @@
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated.
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue.
-- **NPC 3 (Science Guy)**: Located around (41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible!"
+- **NPC 3 (Science Guy)**: Located around (41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?"
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
@@ -54,4 +54,4 @@
 - **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
 - **Bidirectional Route 1 Traversal (Verified Turn 8258)**:
   - **Southward (Sovio -> Lancio)**: From Sovio City (53, 0), follow Eastern Meadow south past Signpost 4 (50, 10), Duke (45, 12), bypass east to col 51 at row 12, row 16 west to the row 20 ledge at (40, 19), jump south to Cottage (40, 21), Sand Highway south to row 39 gap (32, 39), southern meadow to row 44 dirt corridor, west past Central Pine Tree (row 50 bypass) to cobblestone road (0, 45).
-  - **Northward (Lancio -> Sovio)**: Traversal route under active verification. Rows 36-38 east of column 40 are confirmed impassable (blocked by pine trees, hedges, and water).
+  - **Northward (Lancio -> Sovio)**: From Lancio Town (0, 45), follow cobblestone road to row 50 bypass under Central Pine Tree (11, 49), row 44 dirt corridor east to col 26, north to row 41, east through row 39 gap (32, 39) to Sand Highway. Follow row 37-38 east past Lass in pink shirt (41, 37) into the Eastern Meadow corridor (cols 50-53), then walk straight north past the Conical Rock Spire (53, 15), Bug Catcher Duke (45, 12), and Signpost 4 (50, 10) directly to Sovio City entrance at (53, 0).
