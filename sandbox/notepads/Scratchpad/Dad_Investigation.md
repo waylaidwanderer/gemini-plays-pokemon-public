@@ -11,7 +11,7 @@
 - Ground Truth: Cutscene (Turn 1666-1707) depicted Jackson held captive in the sewer storage room at (37, 14).
 - Storage Room Empirical Re-Test (Turns 7966-7969): Standing on red mat at (37, 14) and pressing 'A' displays 'Its a simple storage room...'. Stepping Down off the mat collides with impassable chasm void. Verified as an impassable dead-end in its current state.
 - Surface Audit Complete (Turns 7810-7910): Every surface building and NPC in Sovio City verified ambient.
-- Current Investigation: Auditing sub-containers (TM Case, HuPhone apps) and evaluating external connections to identify missing progression triggers.
+- Sub-Containers Audited (Turn 7986): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. Auditing HuPhone apps next.
 
 ## Progression Status (Turn 7982)
 - Jackson's whereabouts remain unresolved; Metro turnstile and Route 2 barrier remain active.
