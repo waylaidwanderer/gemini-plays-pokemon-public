@@ -14,5 +14,4 @@
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 
 ## Turnstile Re-Verification & Storage Room Hypothesis (Turn 8051-8056)
-- Turnstile at (19, 21) re-verified active on Turn 8051: displays 'I should find dad first!' and forces step Down. Confirms finding Jackson is the active blocker.
-- Empirical Gap Identified: The sewer storage room red mat spans columns 36-37 at row 14. Prior testing only probed (37, 14). By analogy with the Metro lobby mat (where 18, 25 warps but 19, 25 does not), tile (36, 14) must be independently tested across all cardinal directions.
+- Storage Room Completely Debunked: Both tiles (36, 14) and (37, 14) were probed (Turn 7959 stepped on 36, 14 without trigger; Turn 7966 inspected 37, 14 returning generic text). The storage room is fully verified as an inert dead-end. Jackson is not in the sewers.

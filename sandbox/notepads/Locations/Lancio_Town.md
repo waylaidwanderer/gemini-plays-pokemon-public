@@ -48,6 +48,5 @@
 - **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue (ambient).
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue (ambient).
-- **Fisherman**: Located at (38, 22) near harbor dock. Dialogue (ambient).
 
 - **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
