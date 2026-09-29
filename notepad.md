@@ -329,7 +329,7 @@
 - **Plaza Street Lamp**: Located at (46, 17).
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
-  - Top (13, 21), Middle (13, 22), Bottom (13, 23) Bikers: All three verified on Turns 6736-6748 with identical ambient gang dialogue..
+  - Top (13, 21), Middle (13, 22), Bottom (13, 23) Bikers: All three verified on Turns 6736-6748 with identical ambient gang dialogue.
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
@@ -560,7 +560,5 @@
 - Surface Audit Complete (Turns 7810-7910): Every surface building and NPC in Sovio City verified ambient.
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 
-## Progression Status (Turn 7982)
-- Jackson's whereabouts remain unresolved; Metro turnstile and Route 2 barrier remain active.
 
 <hr>
