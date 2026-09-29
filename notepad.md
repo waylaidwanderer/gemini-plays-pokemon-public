@@ -250,7 +250,7 @@
   - Solid cut-tree obstacle at (5, 44) requires HM Cut.
 - **Cottage East Flank**: Impassable pine tree trunk at (42, 25) with solid forest wall spanning columns 43+; no eastern passage from Cottage sector.
 
-  - Lass Sonia is located at (27, 15) on a rock spire.
+
 
 - **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
 - **Route 1 Traversal & Boundary Analysis**:
