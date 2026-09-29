@@ -258,7 +258,9 @@
 - **Upper Spire Bypass**: From (53, 10), south to (53, 13), west to (51, 13), south through tall grass along column 51 past red rock spire (53, 15) to (51, 18).
 - **Lower Spire & Pine Bypass**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19) to (46, 19), then south along column 46 past the lower red spire (48, 20) down to (46, 23).
 - **Dead-End Meadow Alcove**: Row 11 west from column 53 past defeated Duke (45, 12) into row 8-10 alcove dead-ends against solid pine trees at (34, 8) and (40, 5).
-- **Central Pine Tree Obstacle at (11, 45) (Verified Turn 6858)**: Direct westward traversal along row 45 from (12, 45) collides with the Central Pine Tree trunk at (11, 45). Bypassing requires stepping south along column 12 down to row 48, then west below the Route 1 billboard at (10, 47).
+- **Central Pine Tree Obstacle at (11, 45) (Verified Turn 6858)**: Direct westward traversal along row 45 from (12, 45) collides with the Central Pine Tree trunk at (11, 45).
+- **Pine Tree Obstacle at (12, 42) (Verified Turn 6867)**: Stepping Up from (12, 43) collides with a solid pine tree trunk at (12, 42).
+- **Billboard Obstacle at (11, 48) (Verified Turn 6863)**: Stepping West from (12, 48) collides with the billboard right post / obstacle at (11, 48).
 
 <hr>
 
