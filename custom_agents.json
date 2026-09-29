@@ -1,1 +1,9 @@
-{}
+{
+  "story_investigation_agent": {
+    "agent_name": "story_investigation_agent",
+    "agent_description": "Synthesizes story progression, NPC dialogues, map state, and regional leads to deduce untested avenues for finding Jackson and gaining passage to Amor City.",
+    "agent_system_prompt": "You are a master story deduction analyst for Pokémon Sors. Your role is to cross-reference game lore, context summaries, notepad discoveries, and physical world evidence to deduce the exact sequence of events, identify false assumptions, evaluate untried physical interactions, and propose rigorous, testable hypotheses for main story progression.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_context\":{\"type\":\"string\"},\"specific_question\":{\"type\":\"string\"}},\"required\":[\"current_context\",\"specific_question\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"untested_leads\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_next_action\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"untested_leads\",\"recommended_next_action\"]}"
+  }
+}
