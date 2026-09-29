@@ -47,3 +47,5 @@
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me." (ambient).
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh." (ambient).
 - **Fisherman**: Located at (38, 22) near harbor dock. Dialogue: "You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come." (ambient).
+
+- **Lancio Harbor Boat Audit (Verified Turn 6893)**: Wooden pier ends at row 25 with row 26 being water. Harry is not present and no boat is moored at the pier. Interacting with 'A' facing south into the water at (33, 25) yields no prompt or dialogue; boat transit back to Inizio Isle is currently unavailable.
