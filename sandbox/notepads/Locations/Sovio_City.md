@@ -117,7 +117,7 @@
 
   - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
 
-  - Family Machop at (9, 34); ambient interaction.
+  - Family Machop at (6, 34); ambient interaction.
 
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 
