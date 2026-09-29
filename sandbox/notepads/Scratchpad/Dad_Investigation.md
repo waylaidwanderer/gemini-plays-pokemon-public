@@ -10,5 +10,5 @@
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted.
 ## Active Untested Regional Leads & Story Hypotheses
-1. **Systematic Sewer Re-Canvassing**:
-   - Storage room threshold (36-37, 14) confirmed displaying 'Its a simple storage room...' with no walkable warp. Conduct a rigorous sector-by-sector audit of the Dark Sector basement (entered via 30, 4) and remaining unmapped catwalks for overlooked triggers or clues.
+- **Dark Sector & Catwalks Audit Complete (Verified Turns 8649-8677)**: Audited Dark Sector basement via (30, 4). The 3x3 upper alcove (23, 4-5) confirmed empty (Nugget looted Turn 4576), cracked rock at (22, 10) confirmed impassable without Rock Smash, and western alcove (13-15, 8-9) confirmed inert. Main sewer catwalks and storage room (36-37, 14) confirmed devoid of active grunts or story warps.
+- **Untested Surface Investigations**: Systematically audit Sovio City residents and environmental objects with multi-turn/repeated dialogue interactions, conditional triggers, or unexplored mechanics.
