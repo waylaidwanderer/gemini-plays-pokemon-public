@@ -14,7 +14,7 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Plaza Street Lamp**: Located at (46, 17).
-- **Park East Border Obstacles (Verified Turn 8801)**: Street lamps at (43, 19) and (43, 21), trash can at (43, 20), and blonde girl at (43, 22). East-west passage around the north edge of Central Park is along row 18 (columns 44 to 38 are open diamond pavement).
+- **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), trash can at (43, 20), and blonde girl at (43, 22). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21) and 2 (13, 22) share identical dialogue: '"vroom" "vroom" Jealous kid? We are the big guys here, the ultimate motorcycle gang!' (Asher: '... what a weird gang...'). Verified ambient flavor text (Turns 8567, 8572).
 
