@@ -13,6 +13,7 @@
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
+- **Street Lamp Obstacle at (46, 17) (Verified Turn 7129)**: Stepping Down from (46, 16) is blocked by a solid street lamp post.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
   - Top (13, 21), Middle (13, 22), Bottom (13, 23) Bikers: All three verified on Turns 6736-6748 with identical ambient gang dialogue ("vroom vroom Jealous kid? We are the big guys here, the ultimate motorcycle gang! ... what a weird gang...").
