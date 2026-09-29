@@ -57,4 +57,4 @@
     - (46, 9) and (46, 10): Solid pine tree trunks block direct eastward traversal along rows 9-10 from (45, 9-10).
     - (48, 14): Solid pine tree trunk blocks eastward traversal along row 14 from (47, 14).
     - (47, 15): Pine tree foliage blocks southward traversal along column 47 from row 14.
-    - Passage from Duke's meadow (col 45-47) to the eastern corridor (cols 50-53) and Signpost 4 is under active routing investigation.
+    - Verified bypass: Row 12 connects Duke's meadow directly east through (46, 12), (47, 12), (48, 12), (49, 12) into the blue flowers at (50-51, 12) and the eastern highway at column 52-53 leading north to Sovio City (verified Turn 8449).
