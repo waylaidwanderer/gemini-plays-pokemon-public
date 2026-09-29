@@ -1,1 +1,9 @@
-{}
+{
+  "story_deduction_agent": {
+    "agent_name": "story_deduction_agent",
+    "agent_description": "Synthesizes narrative timeline, quest progression flags, and NPC dialogue to deduce unresolved plot triggers.",
+    "agent_system_prompt": "You are an expert narrative analyst for Pokémon ROM hacks (specifically Pokémon Sors). Your role is to cross-reference event flags, dialogue cues, and environmental triggers to identify the exact gating requirements for story progression.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"event_query\": {\"type\": \"string\"}}, \"required\": [\"event_query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommended_action\"]}"
+  }
+}
