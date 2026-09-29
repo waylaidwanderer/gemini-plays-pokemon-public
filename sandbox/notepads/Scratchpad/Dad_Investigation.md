@@ -12,10 +12,12 @@
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 - Storage Room Debunked (Turns 7959-7966): Both tiles (36, 14) and (37, 14) were probed; confirmed generic inert dead-end with no trigger or interior map. Jackson is not in the accessible sewers.
 ## Active Untested Regional Leads & Story Hypotheses
-1. **Post-Sewer Trigger Verification in Sovio City**:
-   - Ground Truth: Metro turnstile enforces 'I should find dad first!' and Route 2 enforces 'I can't go yet... I have things to do!'.
-   - Test whether any specific dialogue trigger, un-inspected object, or event flag in Sovio City or Route 1 updates the game state to register finding Jackson.
-2. **Side Quest 'Machop\'s Toy' Scope**:
+1. **Route 1 Northwest Clearing Exploration**:
+   - The northern sector beyond Youngster Mike (29, 20) and Lass Sonia (27, 15) around rows 15-19. Column 28 bypass reaches (28, 19). Needs thorough audit to verify whether any northern path, cave entrance, or story trigger exists.
+2. **Post-Sewer Trigger Verification in Sovio City**:
+   - In Turn 2279-2716, Jackson was freed from the sewers, after which Dad and Valora departed toward the station.
+   - Did Dad or Valora move to an un-checked tile, or does an interaction with an NPC (e.g. Metro station exterior or plaza) advance the flag?
+3. **Side Quest 'Machop\'s Toy' Scope**:
    - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
-3. **Regional Progression Trigger**:
+
    - Verify whether any dialogue or interaction on Route 1 or Lancio Town can trigger Dad's appearance at the Metro platform.
