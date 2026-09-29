@@ -64,7 +64,6 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Status (Empirically Verified)**: Jackson was never physically found, seen, or confirmed liberated in the sewers; the storage room at (37, 14) was empty. Asher's active internal monologue at the Metro turnstile remains "I should find dad first!".
 
 
 <hr>
@@ -233,13 +232,14 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
+- **Hedge Obstacle at (29, 25) (Verified Turn 6808)**: Stepping Down from (29, 24) collides with a solid hedge, blocking direct southward movement along column 29.
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
 - **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24).
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
-- **Row 20 Cottage Branch Barrier (Verified Turns 1879-1885)**: Northward passage along columns 40 and 41 at row 20 is completely blocked by a solid horizontal tree branch.
+- **Row 20 Cottage Branch Ledge (Verified Turns 1879, 6794-6795)**: The curved red branch at row 20 (columns 40-41) acts as a one-way southward jumpable ledge! Northward traversal from row 21 is blocked, but jumping south from (40, 19) hops over the branch down to (40, 21), directly connecting the eastern meadow corridor to the Route 1 Cottage.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (33, 8)**: Stepping west from (34, 8) across row 8 collides with a solid pine tree trunk, confirming the northern meadow does not connect west to the clearing along row 8 (verified Turn 5743).
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
@@ -251,7 +251,12 @@
 - **Pine Tree Obstacle at (32, 24) (Verified Turn 4315)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
-- **Row 11 Duke Bypass Corridor (Verified Turns 5331-5332)**: Stepping south along column 45 to (45, 11) and east across row 11 through (47, 11) and (48, 11) cleanly bypasses Bug Catcher Duke (at 45, 12) to the north, connecting the Route 1 meadow directly to Track 8, Signpost 4, and the Sovio City entrance highway.
+## Verified Traversal Corridors (Sequential Waypoint Map)
+- **Track 8 to Eastern Meadow**: (53, 0) south along column 53 to (53, 10) outside Signpost 4 at (50, 10).
+- **Upper Spire Bypass**: From (53, 10), south to (53, 13), west to (51, 13), south through tall grass along column 51 past red rock spire (53, 15) to (51, 18).
+- **Lower Spire & Pine Bypass**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19) to (46, 19), then south along column 46 past the lower red spire (48, 20) down to (46, 23).
+- **Dead-End Meadow Alcove**: Row 11 west from column 53 past defeated Duke (45, 12) into row 8-10 alcove dead-ends against solid pine trees at (34, 8) and (40, 5).
+
 
 <hr>
 
@@ -305,145 +310,139 @@
 
 <h1><code>Locations/Sovio_City</code></h1>
 
-# Sovio City
-
-
-
-## Geography & Connections
-
-- **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
-
-- **East**: Connects to Route 2 toward Amor City (verified via World Map).
-
-## Exploration & Landmarks
-
-- **Entrance Path**: Paved road at columns 14-15 flanked by pine trees.
-
-- **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
-
-- **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
-
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
-
-  - Middle, Top, and Bottom Bikers: Ambient motorcycle gang dialogue ("vroom vroom").
-
-- **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
-
-- **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
-
-- **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
-
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
-
-- **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall; no passage further west.
-- **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
-
-- **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
-
-- **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
-
-- **East Exit Story Barrier**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
-
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329). Tile (49, 18) facing Up into (49, 17) collides with the solid terrace curb (verified Turn 6569).
-
-## Southeast Corridor & Central Park (Verified Turns 1569-1572)
-
-- **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
-
-- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
-
-- **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
-
-## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
-
-- **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
-
-- **Interior Layout & Audit (Verified Turns 4024-4048)**:
-
-  - Exit mat at (7, 8).
-
-  - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint (verified Turn 4035).
-
-  - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
-
-  - Straw-hat Camper at (5, 7): Ambient dialogue regarding poisoned Weedle.
-
-  - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
-
-  - Corner PC Terminal at (12, 1): Tested directly with 'A' on Turn 6074; completely inert with no menus or text.
-
-  - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
-
-## Sovio Metro Station (Verified Turn 1388)
-
-- **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
-
-- **Interior Layout**:
-
-  - Main lobby floor lands at (23, 24) on vertical red mat.
-
-  - Stairs leading back up to Sovio City overworld at (24, 24).
-
-  - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
-
-  - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
-
-- **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
-
-## Residential House (North Central) (Verified Turn 1447)
-
-- **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
-
-- **Interior**: Entrance mat lands at (43, 36).
-
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33). Dialogue: "I bought my son a Wii... / Not sure why he asked for one / its an old thing but whatever.".
-
-- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12). Dialogue: "I love the games on the Wii! / I'm playing my favorite right now."
-
-
-
-## City Signpost (Verified Turn 1476)
-
-- **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
-
-
-
-## Residential House (Central West - Gumball Family) (Verified Turn 5933)
-
-- **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
-
-- **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
-
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
-
-
-
-## Residential House (Northwest - Machop Family) (Verified Turn 5950)
-
-- **Entrance**: Teal door at (13, 15) (accessible directly; verified Turn 5950).
-
-- **Interior 1F**: Entrance mat at (5, 36).
-
-  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
-
-  - Family Machop at (9, 34) responds "Machop: Chop Chop! / He seems a bit agressive...".
-
-  - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
-
-- **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of Pokémon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
-
-## South Central Sector
-
-- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
-
-- **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
-
-- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091). Note: The north roof of this building blocks row 24 at column 32 (verified Turn 6374).
-- **Central Park South Collisions (Verified Turns 6374-6375)**: Street lamp obstructs tile (35, 23) south of the pond bank.
-
-## North-Central Commercial/Residential Block
-
+# Sovio City
+
+## Geography & Connections
+
+- **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
+
+- **East**: Connects to Route 2 toward Amor City (verified via World Map).
+
+## Exploration & Landmarks
+
+- **Entrance Path**: Paved road at columns 14-15 flanked by pine trees.
+
+- **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
+
+- **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
+
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
+  - Top (13, 21), Middle (13, 22), Bottom (13, 23) Bikers: All three verified on Turns 6736-6748 with identical ambient gang dialogue ("vroom vroom Jealous kid? We are the big guys here, the ultimate motorcycle gang! ... what a weird gang...").
+
+- **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
+
+- **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
+
+- **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
+
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
+
+- **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall; no passage further west.
+
+- **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
+
+- **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
+
+- **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
+
+- **East Exit Story Barrier**: Stepping onto or attempting movement from (52, 19) triggers the story barrier text ("I can't go yet... I have things to do!"), halting movement and forcing Asher 1 step west to (51, 19).
+
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329). Tile (49, 18) facing Up into (49, 17) collides with the solid terrace curb (verified Turn 6569).
+
+## Southeast Corridor & Central Park (Verified Turns 1569-1572)
+
+- **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
+
+- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
+
+- **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
+
+## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
+
+- **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
+
+- **Interior Layout & Audit (Verified Turns 4024-4048)**:
+
+  - Exit mat at (7, 8).
+
+  - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint (verified Turn 4035).
+
+  - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
+
+  - Straw-hat Camper at (5, 7): Ambient dialogue regarding poisoned Weedle.
+
+  - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
+
+  - Corner PC Terminal at (12, 1): Tested directly with 'A' on Turn 6074; completely inert with no menus or text.
+
+  - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
+
+## Sovio Metro Station (Verified Turn 1388)
+
+- **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
+
+- **Interior Layout**:
+
+  - Main lobby floor lands at (23, 24) on vertical red mat.
+
+  - Stairs leading back up to Sovio City overworld at (24, 24).
+
+  - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
+
+  - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
+
+- **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
+
+## Residential House (North Central) (Verified Turn 1447)
+
+- **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
+
+- **Interior**: Entrance mat lands at (43, 36).
+
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33). Dialogue: "I bought my son a Wii... / Not sure why he asked for one / its an old thing but whatever.".
+
+- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12). Dialogue: "I love the games on the Wii! / I'm playing my favorite right now."
+
+## City Signpost (Verified Turn 1476)
+
+- **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
+
+## Residential House (Central West - Gumball Family) (Verified Turn 5933)
+
+- **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
+
+- **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ("I love this show!"), Mother at (27, 33) ("My son is watching some cartoon... Why is the goldfish the cat's brother in it though?").
+
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
+
+## Residential House (Northwest - Machop Family) (Verified Turn 5950)
+
+- **Entrance**: Teal door at (13, 15) (accessible directly; verified Turn 5950).
+
+- **Interior 1F**: Entrance mat at (5, 36).
+
+  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
+
+  - Family Machop at (9, 34) responds "Machop: Chop Chop! / He seems a bit agressive...".
+
+  - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
+
+- **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of Pokémon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
+
+## South Central Sector
+
+- **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
+
+- **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
+
+- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091). Note: The north roof of this building blocks row 24 at column 32 (verified Turn 6374).
+
+- **Central Park South Collisions (Verified Turns 6374-6375)**: Street lamp obstructs tile (35, 23) south of the pond bank.
+
+## North-Central Commercial/Residential Block
+
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Wooden double shutters at (35-36, 12) tested on Turn 2482: solid decorative wall collision with no warp door or entrance.
+
 
 <hr>
 
@@ -544,20 +543,15 @@
 # Dad Investigation Scratchpad
 
 ## Verified Empirical Ground Truth
-- Tremor occurred inside Sovio Metro Station (Turn 1437).
-- Dad ran outside the station to investigate the tremor.
-- Sovio Sewers: Grunts vacated after Marie's radio broadcast (Turn 2682); storage room at (37, 14) inspected ("Its a simple storage room...").
-- **Crucial Correction (Turn 6606)**: Jackson was NEVER physically seen, spoken to, or confirmed freed in the sewers. Prior summary claims that Dad was liberated and departed toward the station were unverified hallucinations. Asher's active internal monologue at the Metro turnstile remains verbatim: "I should find dad first!".
-- Tested Interiors: Explored residences at (39, 7), (29, 14), (13, 15), (31, 26), and Pokémon Center (44, 12); no direct dialogue leads or triggers found at tested coordinates.
-- East Terrace Curb Collisions:
-  - Column 47 curb tested on Turns 5409, 6166, 6329 (solid curb from plaza).
-  - Tile (49, 18) facing Up into (49, 17) collides with solid curb (verified Turn 6569).
-  - Signpost at (50-51, 18): Interacting with 'A' facing Up from (50-51, 19) reads signpost ("Sovio Metro Station / Route 2 ---->").
-  - Old Man at (51, 15) currently displays active quest icon (scroll/quill bubble).
-- Verified Inaccessible Exterior Boundaries:
-  - East Exit (52, 19): Verified story barrier on Turn 6644 ("I can't go yet... I have things to do!").
-  - East Terrace & Green Door (48, 14): Walled off by solid curbs (col 47, row 17), signpost (50-51, 18), and building siding; confirmed physically inaccessible from the overworld pavement.
-- Remaining Question: Where did Dad go on the surface of Sovio City after running out of the Metro Station during the tremor?
-- Metro Station Lobby (Verified Turns 6337-6340): Audited entire lobby including western waiting chairs at (16, 23-25); confirmed 100% empty of NPCs. Valora and Dad are not in the lobby.
+- Tremor occurred inside Sovio Metro Station (Turn 1437); Dad ran outside into Sovio City to investigate.
+- Sovio Sewers: All Team Siara grunts permanently evacuated following Commander Marie's broadcast (Turn 2682).
+- Storage room at (37, 14) inspected: Empty decorative storage room ("Its a simple storage room...").
+- Active Turnstile Monologue: Attempting to board train at (19, 21) triggers "I should find dad first!" (Verified Turns 2755, 4018, 5399, 6268).
+- Active Route 2 Monologue: Attempting east exit at (52, 19) triggers "I can't go yet... I have things to do!" (Verified Turns 6644, 6716).
+- Metro Station Lobby: Verified empty of NPCs.
+- East Terrace & Green Door at (48, 14): Completely enclosed by solid curbs (col 47, row 17), signpost (50-51, 18), and building siding.
+- Signpost at (50-51, 18): Reads "Sovio Metro Station / Route 2 ---->".
+- Quest Provider Old Man at (51, 15): Stands on elevated terrace behind Phanpy (51, 16); side quest "Machop's Toy" is active.
+
 
 <hr>
