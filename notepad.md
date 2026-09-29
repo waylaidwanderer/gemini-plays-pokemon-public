@@ -390,7 +390,7 @@
 
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
-  - **Corner PC Terminal at (12, 1) (Verified Turn 7195)**: Fully interactive! Interacting facing Up from (12, 2) displays "Asher booted up the PC." and opens the PC menu system. Disproved prior Turn 6074 negative note.
+  - **Corner PC Terminal at (12, 1) (Verified Turn 7195)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system.
 
   - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
 
