@@ -64,7 +64,8 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Location Status**: Jackson was last seen running outside into Sovio City to investigate the tremor. In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. When inspected on Turn 5628, the storage room at (37, 14) was empty ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
+- **Jackson's Location Status**: Jackson was last seen running outside into Sovio City to investigate the tremor. In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. The storage room at (36-37, 14) was verified inert ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
+
 
 <hr>
 
@@ -554,7 +555,6 @@
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Ground Truth: Cutscene (Turn 1666-1707) depicted Jackson held captive in a sewer storage room whose exact coordinates are unverified; (37, 14) is an impassable dead-end.
-- Storage Room Empirical Re-Test (Turns 7966-7969): Standing on red mat at (37, 14) and pressing 'A' displays 'Its a simple storage room...'. Stepping Down off the mat collides with impassable chasm void. Verified as an impassable dead-end in its current state.
 - Surface Audit Complete (Turns 7810-7910): Every surface building and NPC in Sovio City verified ambient.
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 
