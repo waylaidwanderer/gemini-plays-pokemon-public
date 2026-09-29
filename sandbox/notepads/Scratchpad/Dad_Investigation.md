@@ -8,7 +8,7 @@
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
+- Sub-Containers Audited (Turns 7994, 8559-8562): PC Item Storage and Mailbox verified empty. TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 - Storage Room Debunked (Turns 7959-7966): Both tiles (36, 14) and (37, 14) were probed; confirmed generic inert dead-end with no trigger or interior map. Jackson is not in the accessible sewers.
 ## Active Untested Regional Leads & Story Hypotheses
 1. **Unexamined Mechanics & Key Items**:
