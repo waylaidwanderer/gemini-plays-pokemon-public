@@ -357,7 +357,7 @@
 
 - **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
 
-- **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient); boy in pink shirt at (31, 22) (dialogue verified Turn 7877: "I'm supposed to meet a girl here, but she doesn't seem to show up..." - ambient pair waiting on opposite sides of pond).
+- **NPCs**: Blonde girl at (44-45, 24-26) and boy in pink shirt at (31, 22) verified as an ambient pair waiting on opposite sides of the pond.
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
