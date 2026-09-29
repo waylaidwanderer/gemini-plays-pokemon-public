@@ -44,7 +44,9 @@
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
-- **Youngster Mike Obstacle at (29, 20) (Verified Turns 6983-6991)**: Youngster Mike at (29, 20) is a solid, impassable NPC that physically blocks northward movement along column 29 from (29, 21). The northwest clearing terminates at row 20 and does not connect north to Sovio City; returning north to Sovio City requires using the row 25 corridor back to the Cottage and ascending the Eastern Meadow Bypass (columns 46-53).
+- **Youngster Mike Obstacle at (29, 20) (Verified Turns 6983-6991)**: Youngster Mike at (29, 20) is a solid, impassable NPC that physically blocks northward movement along column 29 from (29, 21). Column 30 is blocked north at (30, 20) by a pine tree.
+- **Mushroom/Obstacle at (39, 20) (Verified Turn 7005)**: Solid reddish obstacle between Cottage roof and branch blocks stepping Up from (39, 21) into (39, 20).
+- **Pine Tree Forest Wall at Column 44 (Verified Turn 7016)**: Stepping East from (43, 28) into (44, 28) collides with a solid vertical forest of pine trees, confirming no eastward passage through column 44 at row 28.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (33, 8)**: Stepping west from (34, 8) across row 8 collides with a solid pine tree trunk, confirming the northern meadow does not connect west to the clearing along row 8 (verified Turn 5743).
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5 north of meadow rock spire.
