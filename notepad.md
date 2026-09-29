@@ -145,7 +145,7 @@
 - **East Research Wing**:
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
-  - Cylindrical research incubator apparatus with glowing green fluid at (18-19, 5-6).
+  - Cylindrical research incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
   - Wooden research table at (21-23, 4).
   - Bookshelf at (24, 4).
   - Blue computer workstation / server console at (23-24, 8-9).
@@ -210,7 +210,7 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (10, 48) beneath the left half of the signboard facing south (verified Turn 7579). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you". Row 49 directly south of the boy connects column 11 across to column 9.
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you".
 - **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pok�mon can't attack me! I have many repels... They keep wild Pok�mon away.". Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
@@ -237,7 +237,7 @@
 - **Hedge Obstacle at (29, 25) (Verified Turn 6808)**: Stepping Down from (29, 24) collides with a solid hedge, blocking direct southward movement along column 29.
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
-- **Southern to Northern Meadow Connection (Verified Turns 1105-1106, 6835-6846)**: From (20, 45), bypass east via (21, 45) to (21, 44). A horizontal dirt corridor along row 44 runs east between row 43 and row 45 hedges directly to the hedge gap at (26, 44), up along column 26 (rows 43-42) to row 41, east through (27-28, 41) to (29, 41), north through column 29 (rows 40-39) past the cypress tree at (28, 39), and east along row 39 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24). Note: Going south from (29, 41) along column 29 is blocked at (29, 44) by a solid pine tree collision (verified Turn 6835).
+- **Southern to Northern Meadow Connection (Verified Turns 1105-1106, 6835-6846)**: Dirt corridor along row 44 bypasses hedges between (21, 44) and (26, 44), connecting north via column 26 to row 41 and east to the sand clearing at (32, 39) and Cottage at (37, 24).
 - **Meadow Dirt Path Wild Encounters (Verified Turn 6837)**: Wild Pokémon encounters (such as Caterpie Lv2) can trigger on the dirt / flower petal tiles throughout this meadow corridor even though they look like dirt path.
 - **Row 20 Cottage Branch Ledge Loop Constraints (Verified Turns 1879, 6794-6795, 6835-6846)**: The curved red branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Traversal cannot be reversed northward over the ledge; returning north is accessed via the verified row 25 connection to the Northwest Clearing.
 - **Pine Tree Obstacle at (36, 11)**: Blocks eastward traversal along row 11.
@@ -262,12 +262,7 @@
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
 
-## Verified Traversal Corridors (Sequential Waypoint Map)
-- **Track 8 to Eastern Meadow**: (53, 0) south along column 53 to (53, 10) outside Signpost 4 at (50, 10).
-- **Upper Spire Bypass**: From (53, 10), south to (53, 13), west to (51, 13), south through tall grass along column 51 past red rock spire (53, 15) to (51, 18).
-- **Lower Spire & Branch Ledge Route**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19), (46, 19) to (40, 19), then jump south over the curved branch ledge to (40, 21) in the Cottage sector.
-- **Column 46 Cul-de-Sac**: Column 46 south of row 19 dead-ends at (46, 23) into solid pine trees south and west; not a throughway.
-- **Dead-End Meadow Alcove**: Row 11 west from column 53 past defeated Duke (45, 12) into row 8-10 alcove dead-ends against solid pine trees at (34, 8) and (40, 5).
+
 
 <hr>
 
@@ -560,8 +555,6 @@
 - Tremor occurred in Sovio Metro Station (Turn 1437); Jackson ran outside into Sovio City to investigate.
 - Turnstile gate at (19, 21) in Metro lobby triggers: "I should find dad first!"
 - Route 2 exit at (52, 19-20) in Sovio City triggers: "I can't go yet... I have things to do!"
-- All surface residences in Sovio City (Pokémon Center, Wii house, Gumball house, Karate house, Name Rater) contain only ambient NPCs.
-- All surface NPCs (Bikers, Rocky boy, pond visitors, blonde girl) are ambient.
 - "Machop's Toy" is an optional side quest given by Old Man (51, 15); cancelling it on Turn 3162 did NOT alter the turnstile or Route 2 barrier. It has no verified link to the main storyline.
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
@@ -577,7 +570,6 @@
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
 
 ## Documented Hypotheses for Lancio Town Audit (Turn 7531)
-- **Hypothesis 1 (Lancio Dock Pier Lateral Columns - DISPROVED Turns 7594-7595)**: All three columns (32, 25), (33, 25), and (34, 25) exhaustively probed with 'A' facing South into water; confirmed 100% inert with no prompts or boat presence.
 - **Hypothesis 2 (Professor Ivo Lab Research Wing)**: The server workstations at (23-24, 8-9), research table at (21-23, 4), and green fluid incubator apparatus at (18-19, 5-6) have not been directly interacted with using 'A'. Inspecting them may yield story logs or prompt new dialogue from Professor Ivo.
 - **Hypothesis 3 (Southwest Coastline & Beach)**: Sand coastline at columns 14-20, rows 14-17 remains uninspected for hidden items or NPCs.
 - **Hypothesis 4 (Route 1 / Lancio Field Items)**: The visible Pok�ball item at (38, 4) north of Lancio pond or Route 1 cut tree bypasses may yield HM Cut or progression tools.
