@@ -127,12 +127,12 @@
 ## Points of Interest & Buildings
 - **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16). Interior desk at (7, 4); Nurse Joy heals party; exit mat at (7, 8). No PokéMart vendor inside (verified Turns 795-805).
 - **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue (advancing through multiple ellipsis textboxes until he is startled), then kicks Asher outside to (25, 11).
-- **House (Northeast)**: Located at (40, 9) east of pond. Non-enterable decorative building; tested walking north into (40, 9) on Turn 1048, resulting in solid collision with no door warp or text interaction.
+- **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9) on Turn 7659, resulting in solid collision with house foundation. No doors or interior entrance.
 - **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar (verified Turns 308-309).
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
 ## Visible Field Items
-- **Pokéball Item 1**: Golden ball at (38, 4) north of pond; west bank blocked by pines at (31, 7); east corridor blocked when moving north from (39, 8) into row 7 (collision at pond bank/house boundary). Likely requires Surf or Route 1 loop.
+- **Pokball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
 - **Pokéball Item 2**: Visible in the far northeast corner above the pond.
 
 ## Professor Ivo's Pokémon Laboratory (Interior)
@@ -146,10 +146,10 @@
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
   - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
-  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pok�mon?").
+  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pokmon?").
   - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
   - Wooden research desk at (21-23, 4) (Verified Turn 7627): Inert decorative fixture.
-  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pok�mon books."
+  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pokmon books."
   - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 ## Southwest Beach & Coastline
 - **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
@@ -168,7 +168,7 @@
 - **Fisherman**: Located at (38, 22) near harbor dock. Dialogue: "You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come." (ambient).
 
 - **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
-- **Professor Ivo Dialogue Audit (Verified Turn 6913-6916)**: When spoken to in her laboratory East Research Wing at (20, 6), Professor Ivo says: "Hey, Ashi, how's your new Pokémon?" (ambient post-starter dialogue; no new story prompts or items regarding Dad's disappearance).
+
 
 <hr>
 
@@ -212,27 +212,27 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you".
-- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pok�mon can't attack me! I have many repels... They keep wild Pok�mon away.". Ambient advice.
-- **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you".
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokï¿½mon can't attack me! I have many repels... They keep wild Pokï¿½mon away.". Ambient advice.
+- **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your PokÃ©mon get injured you can easily heal those damages in a PokÃ©mon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
   - Starly (Lv3, Normal/Flying; verified Turn 481).
-  - Nidoran♀ (Lv3, Poison; verified Turn 494).
-  - Nidoran♂ (Lv2, Poison; verified Turn 1069).
+  - Nidoranâ (Lv3, Poison; verified Turn 494).
+  - Nidoranâ (Lv2, Poison; verified Turn 1069).
   - Pidgey (Lv2, Normal/Flying; verified Turn 520).
   - Mareep (Lv3, Electric; verified Turns 722, 821).
   - Weedle (Lv2, Bug/Poison; verified Turn 833).
   - Bidoof (Lv2, Normal; verified Turn 877).
   - Caterpie (Lv2, Bug; verified Turn 890).
   - Rattata (Lv3, Normal; verified Turn 1859).
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 PokÃ©mon) (verified Turn 666-667). Post-defeat dialogue: "My PokÃ©mon was completely destroyed by yours... I'm a bit embarrassed!".
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 PokÃ©mon). Post-defeat dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue ("Now that you got your sample, go and enjoy freedom!").
 - **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
-- **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
+- **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for PokÃ©mon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
@@ -240,7 +240,6 @@
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
 - **Southern to Northern Meadow Connection (Verified Turns 1105-1106, 6835-6846)**: Dirt corridor along row 44 bypasses hedges between (21, 44) and (26, 44), connecting north via column 26 to row 41 and east to the sand clearing at (32, 39) and Cottage at (37, 24).
-- **Meadow Dirt Path Wild Encounters (Verified Turn 6837)**: Wild Pokémon encounters (such as Caterpie Lv2) can trigger on the dirt / flower petal tiles throughout this meadow corridor even though they look like dirt path.
 - **Row 20 Cottage Branch Ledge Loop Constraints (Verified Turns 1879, 6794-6795, 6835-6846)**: The curved red branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Traversal cannot be reversed northward over the ledge; returning north is accessed via the verified row 25 connection to the Northwest Clearing.
 - **Pine Tree Obstacle at (36, 11)**: Blocks eastward traversal along row 11.
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
@@ -571,9 +570,6 @@
 ## Critical Summary Correction & Active Hypotheses (Turn 7487)
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
 
-## Documented Hypotheses for Lancio Town Audit (Turn 7531)
-- **Hypothesis 2 (Professor Ivo Lab Research Wing - DISPROVED Turns 7621-7629)**: Incubator ('Better not mess with that machine.'), Ivo (ambient dialogue), server tower (inert), research desk (inert), bookshelf ('crammed full of Pok�mon books'). Lab fixtures contain zero quest items or story triggers.
-- **Macro-Strategy Redirect (Turn 7632)**: Lancio Town prologue elements are fully exhausted. Returning immediately to Sovio City to investigate the active progression gates (Metro Station attendants/turnstiles, Valora's location, and Sovio Sewers).
 
 
 <hr>
