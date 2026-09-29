@@ -391,6 +391,7 @@
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
   - **Corner PC Terminal at (12, 1) (Verified Turn 7195, 7206)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
+  - **Framed Town Map at (11, 0) (Verified Turn 7212)**: Interacting facing Up from (11, 1) displays "A Town Map.".
 
   - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
 
