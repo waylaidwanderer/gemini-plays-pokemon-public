@@ -14,9 +14,14 @@
 - Tile (30, 9) verified walkable on Turn 7300. The column 30 bridge is an open passage heading north to the Northeast Wooden Staircase at (30, 4).
 - What causal trigger or interaction in the game world has been overlooked that allows Asher to find Jackson?
 ## Active Audit & Investigation Plan (Turn 7442)
-- Jackson ran outside into Sovio City during the tremor (Turn 1437) and has had zero interactions with Asher since.
 - **Baseline Party Audit (Turn 7431)**: Sirius Lv14 (40/40 HP, no item), Zephyr Lv2 (13/13 HP, no item). Both at full health.
 - **Baseline Trainer Card Audit (Turn 7437)**: ID 54592, Name Asher, Money ¥8196, Time 44:05. Front lists 8 *ROUNDS slots (all 0/8 unearned). Back lists 6 badge/round silhouettes (all unearned). S-logo on back. Zero tournament passes or registration stamps.
 - **Baseline Bag Inventory Audit (Turn 7448)**: Items (Potion x1, Poison Barb x1, Nugget x1), Poké Balls (Timer Ball x1), Key Items (HuPhone [registered S], TM Case). Fully audited: zero quest items, keycards, or letters present.
 ## Critical Summary Correction & Active Hypotheses (Turn 7487)
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
+
+## Documented Hypotheses for Lancio Town Audit (Turn 7531)
+- **Hypothesis 1 (Lancio Dock Pier Lateral Columns)**: Lateral pier columns 32 and 34 at (32-34, 25-26) were not probed with 'A' on Turn 6893. Probing them may reveal Harry's boat, ferry passage back to Inizio Isle, or interaction scripts.
+- **Hypothesis 2 (Professor Ivo Lab Research Wing)**: The server workstations at (23-24, 8-9), research table at (21-23, 4), and green fluid incubator apparatus at (18-19, 5-6) have not been directly interacted with using 'A'. Inspecting them may yield story logs or prompt new dialogue from Professor Ivo.
+- **Hypothesis 3 (Southwest Coastline & Beach)**: Sand coastline at columns 14-20, rows 14-17 remains uninspected for hidden items or NPCs.
+- **Hypothesis 4 (Route 1 / Lancio Field Items)**: The visible Pok�ball item at (38, 4) north of Lancio pond or Route 1 cut tree bypasses may yield HM Cut or progression tools.
