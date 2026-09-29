@@ -458,18 +458,15 @@
 - **Target Location**: 'Somewhere deep in the Sovio Sewers'.
 
 ## Sewer Sector Search Log
-- [x] Upper Entrance Landing (1F, rows 21-23): Puddle tiles across rows 21-22 (columns 32-35) fully audited with 'A' on Turn 6086; no hidden items or toy.
-- [ ] Lower Central Corridor (columns 26-27, rows 18-27): Puddle alcove at (28, 19) and black square at (28, 23) audited with 'A' (Turn 6308, confirmed solid/non-interactive); rest of corridor traversed on foot without exhaustive 'A'-press audit.
-- [x] Western Lower Wing & Corridors: Audited with 'A' on Turns 6396-6407: tiles (19-22, 28), (21-22, 27), square puddle (17-18, 27-28), column 18 corridor (rows 18-26), Grunt 2 platform (18, 21-22), column 17 puddle (rows 18-20), and row 17 walkway (columns 11-17 up to cracked rock at 10, 17) — all confirmed empty.
-- [x] Western Upper Terrace (row 12, columns 13-18): Traversed and bounded (cols 13-18) on Turns 6130-6132; shallow puddle at (14-15, 11) audited with 'A' on Turn 6412 (empty); verified devoid of items, NPCs, or exits.
-- [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
-- [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
-- [x] Southwest Corridor (columns 7-8): Pocket traversed and audited across rows 25-28 on Turns 6432-6450 (empty); northward passage blocked at (7, 24) and (8, 23) by breakable rocks requiring HM Rock Smash.
-- [ ] Toy Search Status: Not found in any audited puddles or walkways. Whether the toy is an invisible floor item requiring A-presses on every tile, located behind Rock Smash obstacles, or obtained via another mechanic is unverified.
-- [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
-- [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
+- **Audited Sectors (Confirmed Empty)**:
+  - Upper Entrance Landing (rows 21-23), Western Lower Wing & Corridors (Turn 6396-6407), Western Upper Terrace (Turn 6412), Northern Elevated Gangway (Turn 4509-4518), Eastern Storage Room at (37, 14), Southern Canal (Turn 3118-3133), and Dark Sector / Basement (Turn 4549-4576).
+- **Obstacles Remaining**:
+  - Southwest Corridor (cols 7-8) and Dark Sector (22, 10) are blocked by cracked rocks requiring HM Rock Smash.
+- **Toy Search Status**: Unfound in all accessible sewer sectors. May require Rock Smash, an un-triggered NPC event, or another game mechanic.
+
 ## Visual Observations
 - Old Man at (51, 15) displays active quest icon (scroll and quill bubble) over head (verified Turn 6172).
+
 
 <hr>
 
@@ -557,9 +554,10 @@
   - Tile (49, 18) facing Up into (49, 17) collides with solid curb (verified Turn 6569).
   - Signpost at (50-51, 18): Interacting with 'A' facing Up from (50-51, 19) reads signpost ("Sovio Metro Station / Route 2 ---->").
   - Old Man at (51, 15) currently displays active quest icon (scroll/quill bubble).
-- Untested Leads in Sovio City:
-  - Column 52: Tested on Turn 6644. Stepping Right from (51, 19) into (52, 19) immediately triggers the East Exit barrier ("I can't go yet... I have things to do!") and forces Asher back to (51, 19). Access to Column 52 rows 14-18 from the pavement is physically blocked by the barrier, the signpost, and the building wall.
-  - Green door at (48, 14) on the terrace above the Metro Station: Interior never entered.
+- Verified Inaccessible Exterior Boundaries:
+  - East Exit (52, 19): Verified story barrier on Turn 6644 ("I can't go yet... I have things to do!").
+  - East Terrace & Green Door (48, 14): Walled off by solid curbs (col 47, row 17), signpost (50-51, 18), and building siding; confirmed physically inaccessible from the overworld pavement.
+- Remaining Question: Where did Dad go on the surface of Sovio City after running out of the Metro Station during the tremor?
 - Metro Station Lobby (Verified Turns 6337-6340): Audited entire lobby including western waiting chairs at (16, 23-25); confirmed 100% empty of NPCs. Valora and Dad are not in the lobby.
 
 <hr>
