@@ -165,7 +165,6 @@
 - **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue (ambient).
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue (ambient).
-- **Fisherman**: Located at (38, 22) near harbor dock. Dialogue (ambient).
 
 - **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
 
@@ -329,7 +328,6 @@
 - **Plaza Street Lamp**: Located at (46, 17).
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes.
-  - Top (13, 21), Middle (13, 22), Bottom (13, 23) Bikers: All three verified on Turns 6736-6748 with identical ambient gang dialogue.
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
@@ -337,7 +335,7 @@
 
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Boy NPC with his partner Pokémon Rocky (ambient comic relief).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17) (ambient comic relief).
 
 - **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall; no passage further west.
 
@@ -561,7 +559,6 @@
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 
 ## Turnstile Re-Verification & Storage Room Hypothesis (Turn 8051-8056)
-- Turnstile at (19, 21) re-verified active on Turn 8051: displays 'I should find dad first!' and forces step Down. Confirms finding Jackson is the active blocker.
-- Empirical Gap Identified: The sewer storage room red mat spans columns 36-37 at row 14. Prior testing only probed (37, 14). By analogy with the Metro lobby mat (where 18, 25 warps but 19, 25 does not), tile (36, 14) must be independently tested across all cardinal directions.
+- Storage Room Completely Debunked: Both tiles (36, 14) and (37, 14) were probed (Turn 7959 stepped on 36, 14 without trigger; Turn 7966 inspected 37, 14 returning generic text). The storage room is fully verified as an inert dead-end. Jackson is not in the sewers.
 
 <hr>
