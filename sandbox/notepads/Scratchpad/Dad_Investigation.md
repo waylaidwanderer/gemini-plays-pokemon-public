@@ -12,6 +12,6 @@
   - Signpost at (50-51, 18): Interacting with 'A' facing Up from (50-51, 19) reads signpost ("Sovio Metro Station / Route 2 ---->").
   - Old Man at (51, 15) currently displays active quest icon (scroll/quill bubble).
 - Untested Leads in Sovio City:
-  - Column 52 north of row 19 (rows 14-18): Never tested for northern passage around the signpost to access the East Terrace or the green door at (48, 14).
+  - Column 52: Tested on Turn 6644. Stepping Right from (51, 19) into (52, 19) immediately triggers the East Exit barrier ("I can't go yet... I have things to do!") and forces Asher back to (51, 19). Access to Column 52 rows 14-18 from the pavement is physically blocked by the barrier, the signpost, and the building wall.
   - Green door at (48, 14) on the terrace above the Metro Station: Interior never entered.
 - Metro Station Lobby (Verified Turns 6337-6340): Audited entire lobby including western waiting chairs at (16, 23-25); confirmed 100% empty of NPCs. Valora and Dad are not in the lobby.
