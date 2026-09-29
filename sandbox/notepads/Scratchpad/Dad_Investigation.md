@@ -15,8 +15,8 @@
 1. **Route 1 Northwest Clearing Exploration**:
    - The northern sector beyond Youngster Mike (29, 20) and Lass Sonia (27, 15) around rows 15-19. Column 28 bypass reaches (28, 19). Needs thorough audit to verify whether any northern path, cave entrance, or story trigger exists.
 2. **Post-Sewer Trigger Verification in Sovio City**:
-   - In Turn 2279-2716, Jackson was freed from the sewers, after which Dad and Valora departed toward the station.
-   - Did Dad or Valora move to an un-checked tile, or does an interaction with an NPC (e.g. Metro station exterior or plaza) advance the flag?
+   - Ground Truth: Metro turnstile enforces 'I should find dad first!' and Route 2 enforces 'I can't go yet... I have things to do!'.
+   - Test whether any specific dialogue trigger, un-inspected object, or event flag in Sovio City or Route 1 updates the game state to register finding Jackson.
 3. **Side Quest 'Machop\'s Toy' Scope**:
    - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
 4. **Regional Progression Trigger**:
