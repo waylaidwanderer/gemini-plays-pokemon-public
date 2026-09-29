@@ -336,7 +336,7 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17) (ambient comic relief).
 
-- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576)**: Cobblestone lane along rows 16-24 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building is solid collision from row 16 down to row 24+.
+- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building is verified solid collision specifically at rows 16, 18, 19, and 20.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
@@ -552,13 +552,13 @@
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Sub-Containers Audited (Turns 7994, 8559-8562): PC Item Storage and Mailbox verified empty. TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
-- Storage Room Debunked (Turns 7959-7966): Both tiles (36, 14) and (37, 14) were probed; confirmed generic inert dead-end with no trigger or interior map. Jackson is not in the accessible sewers.
+- Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted.
+- Storage Room (Turns 5628, 7959-7966): Door tiles (36, 14) and (37, 14) display 'Its a simple storage room...'. Eastern dead-end requires rigorous tile-by-tile coordinate and trigger re-canvassing.
 ## Active Untested Regional Leads & Story Hypotheses
-1. **Unexamined Mechanics & Key Items**:
-   - Inspect Bag pockets and HuPhone menu apps for unexamined functions or contacts.
-2. **Side Quest 'Machop\'s Toy' Scope**:
+1. **Side Quest 'Machop\'s Toy' Scope**:
    - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
+2. **Systematic Sewer Re-Canvassing**:
+   - Jackson's last confirmed cutscene appearance was in a sewer storage room. Conduct a rigorous sector-by-sector audit of the Eastern Storage Room approach (36-37, 14), elevated gangways, ladder, and Dark Sector basement for overlooked triggers or clues.
 
 
 <hr>
