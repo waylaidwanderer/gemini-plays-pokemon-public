@@ -16,6 +16,6 @@
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey [Verified Turn 6550], or 'This Quest hasn't been completed yet!' for uncompleted quests).
   - 'Quest Status': Displays canned message: 'You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!' (does not display specific objective hints).
-- **Quest Limit**: Only ONE active side quest can be in progress at a time; accepting a new quest prompts cancellation of the active quest.
+
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 - **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
