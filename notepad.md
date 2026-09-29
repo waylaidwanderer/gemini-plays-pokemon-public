@@ -245,7 +245,7 @@
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
-- **Youngster Mike Obstacle at (29, 20) (Verified Turns 6983-6991)**: Impassable NPC at (29, 20) blocks northward traversal along column 29; bypass west via column 28.
+
 - **Pine Tree Obstacle at (46, 10)**: Solid pine tree blocks eastward traversal at (45, 10); bypass south via row 11.
 - **Mushroom/Obstacle at (39, 20)**: Solid obstacle between cottage roof and branch blocks stepping Up from (39, 21).
 - **Pine Tree Forest Wall at Column 44**: Solid pine forest terminates row 28 eastward passage.
