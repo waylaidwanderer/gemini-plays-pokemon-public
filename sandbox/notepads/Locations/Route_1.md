@@ -56,12 +56,13 @@
 - **Pine Tree Obstacle at (32, 24) (Verified Turn 4315)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
+- **Central Pine Tree Obstacle at (11, 45) (Verified Turn 6858)**: Direct westward traversal along row 45 from (12, 45) collides with the Central Pine Tree trunk at (11, 45).
+- **Pine Tree Obstacle at (12, 42) (Verified Turn 6867)**: Stepping Up from (12, 43) collides with a solid pine tree trunk at (12, 42).
+- **Billboard Obstacle at (11, 48) (Verified Turn 6863)**: Stepping West from (12, 48) collides with the billboard right post / obstacle at (11, 48).
+- **Central Pine Tree Obstacle at (11, 46) (Verified Turn 6877)**: Stepping West from (12, 46) collides with solid obstacle / tree at (11, 46).
+
 ## Verified Traversal Corridors (Sequential Waypoint Map)
 - **Track 8 to Eastern Meadow**: (53, 0) south along column 53 to (53, 10) outside Signpost 4 at (50, 10).
 - **Upper Spire Bypass**: From (53, 10), south to (53, 13), west to (51, 13), south through tall grass along column 51 past red rock spire (53, 15) to (51, 18).
 - **Lower Spire & Pine Bypass**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19) to (46, 19), then south along column 46 past the lower red spire (48, 20) down to (46, 23).
 - **Dead-End Meadow Alcove**: Row 11 west from column 53 past defeated Duke (45, 12) into row 8-10 alcove dead-ends against solid pine trees at (34, 8) and (40, 5).
-- **Central Pine Tree Obstacle at (11, 45) (Verified Turn 6858)**: Direct westward traversal along row 45 from (12, 45) collides with the Central Pine Tree trunk at (11, 45).
-- **Pine Tree Obstacle at (12, 42) (Verified Turn 6867)**: Stepping Up from (12, 43) collides with a solid pine tree trunk at (12, 42).
-- **Billboard Obstacle at (11, 48) (Verified Turn 6863)**: Stepping West from (12, 48) collides with the billboard right post / obstacle at (11, 48).
-- **Central Pine Tree Obstacle at (11, 46) (Verified Turn 6877)**: Stepping West from (12, 46) collides with solid obstacle / tree at (11, 46).
