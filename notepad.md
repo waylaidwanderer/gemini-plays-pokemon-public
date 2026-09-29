@@ -272,7 +272,7 @@
 - **Mailbox**: Portable PC mailbox (audited empty Turn 4005).
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
-  - Exclusively tracks side quests ('Lost Pidgey', 'Lost Toy', 'Egg Research', 'Medic!', 'Squirtle Gang'). Main story progression milestones are NOT tracked in the Quest Log app.
+  - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
   - 'Quest List': Lists side quests and marks completion status ('This Quest hasn't been completed yet!').
   - 'Quest Status': Displays canned message: 'You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!' (does not display specific objective hints).
 - **Quest Limit**: Only ONE active side quest can be in progress at a time; accepting a new quest prompts cancellation of the active quest.
@@ -335,7 +335,7 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner PokÃ©mon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
 
-- **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall (settling at 12, 17 facing Left); no passage further west.
+- **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall; no passage further west.
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
 - **Central Plaza**: Located around (40-50, 10-18) containing the PokÃ©mon Center, Metro Station entrance, and residential house.
@@ -468,7 +468,8 @@
 - [x] Western Upper Terrace (row 12, columns 13-18): Traversed and bounded (cols 13-18) on Turns 6130-6132; shallow puddle at (14-15, 11) audited with 'A' on Turn 6412 (empty); verified devoid of items, NPCs, or exits.
 - [x] Northern Elevated Gangway (row 5, columns 15-27): Puddles at (14-15, 4) and (26-27, 5) tested with 'A' on Turns 4509 and 4518; no hidden items or toy.
 - [x] Eastern Storage Room at (37, 14): Inspected with 'A' ("Its a simple storage room...") and tested stepping Down (solid collision/non-enterable). No interior room exists; toy absent.
-- [x] Southwest Corridor (columns 7-8): Pocket traversed and audited across rows 25-28 on Turns 6432-6450 (empty); northward passage blocked at (7, 24) and (8, 23) by breakable rocks requiring HM Rock Smash. Toy absent in all accessible sewer areas.
+- [x] Southwest Corridor (columns 7-8): Pocket traversed and audited across rows 25-28 on Turns 6432-6450 (empty); northward passage blocked at (7, 24) and (8, 23) by breakable rocks requiring HM Rock Smash.
+- [ ] Toy Search Status: Not found in any audited puddles or walkways. Whether the toy is an invisible floor item requiring A-presses on every tile, located behind Rock Smash obstacles, or obtained via another mechanic is unverified.
 - [x] Southern Canal (columns 12-13, rows 32-36): Searched Turn 3118-3133 (Poison Barb found at 22, 36; canal verified dead end with no exits/toy).
 - [x] Dark Sector / Basement (Discovered Turn 4549): Upper 3x3 alcove searched (Nugget found at 23, 4); corridor along rows 9-10 fully mapped; Rock Smash obstacle at (22, 10); south wall at row 10; western alcove dead-end at (13, 8). Fully explored; toy absent.
 ## Visual Observations
@@ -541,8 +542,7 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; impassable without HM Rock Smash.
 - **Western Alcove & Mat**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9).
-## Southwest Pocket Audit (Verified Turns 6432-6450)
-- **Southwest Pocket & Puddles**: Tiles across columns 7-8 and rows 25-28, including the shallow puddle at (7-8, 26-27) and stone borders at row 28, were systematically traversed and audited with 'A'. Confirmed completely empty of hidden items or Machop's toy. Northward progression in column 7 remains blocked at (7, 24) and (8, 23) by breakable rocks requiring HM Rock Smash.
+
 
 <hr>
 
@@ -554,7 +554,7 @@
 - Tremor occurred inside Sovio Metro Station (Turn 1437).
 - Dad ran outside the station to investigate the tremor.
 - Sovio Sewers: Grunts vacated after Marie's radio broadcast (Turn 2682); storage room inspected ("Its a simple storage room...").
-- Conclusion: ALL accessible residential interiors and facilities in Sovio City contain ZERO direct story progression leads.
+- Tested Interiors: Explored residences at (39, 7), (29, 14), (13, 15), (31, 26), and Pok�mon Center (44, 12); no direct dialogue leads or triggers found at tested coordinates.
 - East Terrace: Access borders from plaza curbs are impassable on foot (col 47, row 16-17 curb tested Turn 5409, 6166). Old Man at (51, 15) is behind Phanpy (51, 16), curb (row 17), and 2-tile signpost at (50-51, 18); verified completely out of interaction range from pavement (Turn 6208).
 
 - Metro Station Lobby (Verified Turns 6337-6340): Audited entire lobby including western waiting chairs at (16, 23-25); confirmed 100% empty of NPCs. Valora and Dad are not in the lobby.
