@@ -562,6 +562,4 @@
 3. **Side Quest 'Machop\'s Toy' Scope**:
    - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
 
-   - Verify whether any dialogue or interaction on Route 1 or Lancio Town can trigger Dad's appearance at the Metro platform.
-
 <hr>
