@@ -541,6 +541,8 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; impassable without HM Rock Smash.
 - **Western Alcove & Mat**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9).
+## Southwest Pocket Audit (Verified Turns 6432-6450)
+- **Southwest Pocket & Puddles**: Tiles across columns 7-8 and rows 25-28, including the shallow puddle at (7-8, 26-27) and stone borders at row 28, were systematically traversed and audited with 'A'. Confirmed completely empty of hidden items or Machop's toy. Northward progression in column 7 remains blocked at (7, 24) and (8, 23) by breakable rocks requiring HM Rock Smash.
 
 <hr>
 
