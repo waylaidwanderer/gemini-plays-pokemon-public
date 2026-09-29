@@ -44,10 +44,10 @@
 - **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested Turn 3348, solid non-enterable collision with no warp or text prompt.
 
 ## Overworld Residents & NPCs
-- **Green-haired Girl**: Located at (22, 14). Dialogue: "Lancio has such pretty flowers, I wanna collect them all!" (ambient).
-- **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!" (ambient).
-- **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me." (ambient).
-- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh." (ambient).
-- **Fisherman**: Located at (38, 22) near harbor dock. Dialogue: "You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come." (ambient).
+- **Green-haired Girl**: Located at (22, 14). Dialogue (ambient).
+- **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue (ambient).
+- **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
+- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue (ambient).
+- **Fisherman**: Located at (38, 22) near harbor dock. Dialogue (ambient).
 
 - **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.

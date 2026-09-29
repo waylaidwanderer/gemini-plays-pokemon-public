@@ -11,8 +11,8 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you".
-- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away.". Ambient advice.
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). (ambient advice).
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
@@ -26,11 +26,11 @@
   - Bidoof (Lv2, Normal; verified Turn 877).
   - Caterpie (Lv2, Bug; verified Turn 890).
   - Rattata (Lv3, Normal; verified Turn 1859).
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
-- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue ("Now that you got your sample, go and enjoy freedom!").
-- **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Defeated.
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated.
+- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue.
+- **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. (ambient).
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
