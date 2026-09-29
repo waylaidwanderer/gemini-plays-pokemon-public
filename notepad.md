@@ -524,7 +524,7 @@
 ## Wild Encounters
 - Koffing (Lv4-7, Poison; verified Turns 1720, 2205, 2405, 2734, 2751)
 - Grimer (Lv5-7, Poison; verified Turns 2121, 2246, 2416, 2666)
-- Purrloin (Lv4-6, Dark; verified Turns 2351, 2424, 2431, 2741)
+- Purrloin (Lv4-7, Dark; verified Turns 2351, 2424, 2431, 2741, 7746)
 - Poochyena (Lv5-7, Dark; verified Turns 2346, 2364, 2589)
 - Klink (Lv4-7, Steel; verified Turns 2393, 2658)
 - Trubbish (Lv4-6, Poison; verified Turns 2576, 2597)
