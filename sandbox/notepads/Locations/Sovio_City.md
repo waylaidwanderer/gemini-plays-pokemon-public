@@ -77,7 +77,7 @@
 
   - Stairs leading back up to Sovio City overworld at (24, 24).
 
-  - Train Schedule Board on north wall at (23, 23): lists "AMOR 16:00" and "ALHIA 20:00". Interacting directly with 'A' from (23, 24) produces no text or dialogue (negative interaction verified Turn 2924).
+  - **Train Timetable Board (Verified Turn 7149)**: Located on north wall at (23, 23). Interacting facing Up from (23, 24) opens dialogue: "It's a timetable showing...". Disproved prior Turn 2924 note which failed due to facing Left.
 
   - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399)**: Scanner pillars at (18, 21) and (20, 21) with passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 
