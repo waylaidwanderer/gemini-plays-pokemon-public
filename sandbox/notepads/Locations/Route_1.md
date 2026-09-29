@@ -59,7 +59,7 @@
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
 - **Sand Highway to Southern Meadow Gap (Verified Turn 4194-4195)**: The hedge row along row 39 terminates at column 33; tile (32, 39) is a fully passable open gap directly south of (32, 38) connecting the sand clearing to the southern meadow trail at (30, 39) and (29, 41).
-- **Pine Tree Obstacle at (32, 24) (Verified Turn 4315)**: Directly north of (32, 25); solid pine tree collision blocking direct northward movement along column 32.
+- **Pine Tree Obstacle at (32, 24)**: Solid pine tree blocks direct northward movement along column 32.
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
 - **Central Pine Tree Perimeter Collisions (Verified Turns 6858-6877)**: Columns 10-12 across rows 42-48 form the impassable Central Pine Tree and billboard barrier dividing western and eastern grass.
