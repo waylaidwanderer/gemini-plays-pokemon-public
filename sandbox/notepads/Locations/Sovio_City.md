@@ -110,7 +110,7 @@
 
 ## Residential House (Northwest - Machop Family) (Verified Turn 5950)
 
-- **Entrance**: Teal door at (13, 15) (accessible directly; verified Turn 5950).
+- **Entrance**: Teal door at (14, 15) (column 13 is the left doorframe/knob; entrance warp is at 14, 15; verified Turns 5950, 7850).
 
 - **Interior 1F**: Entrance mat at (5, 36).
 
