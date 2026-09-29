@@ -44,8 +44,8 @@
 - **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
 - **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
 
-## Sovio Metro Tremor & Jackson's Disappearance (Turns 1437-2716)
+## Sovio Metro Tremor & Jackson's Disappearance (Turns 1437-Present)
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
-- **Sovio Sewers & Team Siara Captivity**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts held Jackson captive in the sewers awaiting Commander Marie.
-- **Siara Retreat**: Asher confronted the grunts guarding the storage room until Marie broadcast a general radio retreat order. Team Siara vacated the sewers.
+- **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
+- **Jackson's Status (Empirically Verified)**: Jackson was never physically found, seen, or confirmed liberated in the sewers; the storage room at (37, 14) was empty. Asher's active internal monologue at the Metro turnstile remains "I should find dad first!".
