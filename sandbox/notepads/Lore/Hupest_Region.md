@@ -48,4 +48,3 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Status (Empirically Verified)**: Jackson was never physically found, seen, or confirmed liberated in the sewers; the storage room at (37, 14) was empty. Asher's active internal monologue at the Metro turnstile remains "I should find dad first!".
