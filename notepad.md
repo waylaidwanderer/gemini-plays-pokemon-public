@@ -248,7 +248,6 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10, 47-48) are bypassed south via row 50 under the blue-capped boy (11, 49).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
   - Solid cut-tree obstacle at (5, 44) requires HM Cut.
-- **Cottage East Flank**: Impassable pine tree trunk at (42, 25) with solid forest wall spanning columns 43+; no eastern passage from Cottage sector.
 
 - **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
 - **Route 1 Traversal & Boundary Analysis**:
@@ -557,12 +556,9 @@
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
 - Storage Room Debunked (Turns 7959-7966): Both tiles (36, 14) and (37, 14) were probed; confirmed generic inert dead-end with no trigger or interior map. Jackson is not in the accessible sewers.
 ## Active Untested Regional Leads & Story Hypotheses
-1. **Route 1 Traversal Reconciled (Verified Turns 8408-8428)**:
-   - The Northwest Clearing connects directly east via the central tall grass meadow (rows 10-12) to Bug Catcher Duke (45, 12).
-   - Clearing fully audited; zero story triggers or secret caves exist on Route 1. Lancio Town and Route 1 are fully exhausted. All progression focus remains on Sovio City.
-2. **Post-Sewer Trigger Verification in Sovio City**:
+1. **Post-Sewer Trigger Verification in Sovio City**:
    - Did Dad or Valora move to an un-checked tile, or does an interaction with an NPC (e.g. Metro station exterior or plaza) advance the flag?
-3. **Side Quest 'Machop\'s Toy' Scope**:
+2. **Side Quest 'Machop\'s Toy' Scope**:
    - Given by Old Man (51, 15). Target is 'somewhere deep in the Sovio Sewers'. Accessible sewer areas are audited empty; deep sector requires Rock Smash. Old Man explicitly states: "If you can't find it its fine. You can leave if you wanna."
 
 <hr>
