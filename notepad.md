@@ -165,7 +165,7 @@
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh." (ambient).
 - **Fisherman**: Located at (38, 22) near harbor dock. Dialogue: "You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come." (ambient).
 
-- **Lancio Harbor Boat Audit (Verified Turn 6893)**: Wooden pier ends at row 25 with row 26 being water. Harry is not present and no boat is moored at column 33. Interacting with 'A' facing south into the water at (33, 25) yields no prompt or dialogue; lateral columns 32 and 34 not yet exhaustively probed.
+- **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
 - **Professor Ivo Dialogue Audit (Verified Turn 6913-6916)**: When spoken to in her laboratory East Research Wing at (20, 6), Professor Ivo says: "Hey, Ashi, how's your new Pokémon?" (ambient post-starter dialogue; no new story prompts or items regarding Dad's disappearance).
 
 <hr>
@@ -210,7 +210,7 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49) facing south. Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you". Ambient advice.
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (10, 48) beneath the left half of the signboard facing south (verified Turn 7579). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pok�mon can jump out and attack you". Row 49 directly south of the boy connects column 11 across to column 9.
 - **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pok�mon can't attack me! I have many repels... They keep wild Pok�mon away.". Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
@@ -251,9 +251,9 @@
 - **Northwest Clearing Bypass (Verified Turns 7054-7062)**: Column 28 is fully walkable across rows 20-23 ((28, 23), (28, 22), (28, 21), (28, 20)), providing the open corridor directly west of Youngster Mike (29, 20) to reach the northern clearing at (28, 19). Stepping West from (29, 24) into (28, 24) collides with a solid pine tree.
 - **Central Pine Tree Top at (11, 43)**: Apex foliage of the central pine tree blocks (11, 43), preventing direct westward traversal along row 43 past column 12.
 - **Pine Tree Obstacle at (33, 8)**: Solid pine tree blocks westward passage along row 8.
-- **Red Rock Spire at (35, 8) (Verified Turn 7070)**: Small red layered conical spire blocks stepping Up from (35, 9); bypass east via (36, 9) into the northern meadow corridor.
+- **Red Rock Spire at (35, 8)**: Small red layered conical spire blocks stepping Up from (35, 9); bypass east via (36, 9) into the northern meadow corridor.
 - **Pine Tree Obstacle at (40, 5)**: Solid pine tree blocks eastward traversal along row 5.
-- **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor; tested Turns 3462-3463.
+- **Red Conical Spire at (53, 15)**: A solid, non-interactive red layered conical rock feature situated in the tall grass strip along the eastern meadow corridor.
 - **Pine Tree Barrier at (30, 10)**: Solid pine tree blocks northward movement from trail at (30, 11).
 - **Hedge/Obstacle Collisions at (30, 14) & (30, 17)**: Direct westward traversal from (31, 14) is blocked by solid collision at (30, 14). Direct southward traversal from (30, 16) is blocked by solid hedge collision at (30, 17).
 - **Dead-End Trail Pocket at (30, 16)**: Traversed via column 30 dirt corridor from row 12; dead-ends south at row 17 against a hedge and east at column 31 against pine trees. Must backtrack north to row 12.
@@ -261,15 +261,12 @@
 - **Pine Tree Obstacle at (32, 24)**: Solid pine tree blocks direct northward movement along column 32.
 
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
-- **Central Pine Tree Perimeter Collisions (Verified Turns 6858-6877)**: Columns 10-12 across rows 42-48 form the impassable Central Pine Tree and billboard barrier dividing western and eastern grass.
-- **Central Pine Tree Apex (11-12, 42-43)**: Foliage blocks northward passage along rows 42-43.
-- **Billboard Obstacle at (11, 48)**: Signpost right post blocks westward entry along row 48.
-- **Central Pine Tree Obstacle at (11, 46)**: Tree trunk collision blocks westward traversal along row 46.
 
 ## Verified Traversal Corridors (Sequential Waypoint Map)
 - **Track 8 to Eastern Meadow**: (53, 0) south along column 53 to (53, 10) outside Signpost 4 at (50, 10).
 - **Upper Spire Bypass**: From (53, 10), south to (53, 13), west to (51, 13), south through tall grass along column 51 past red rock spire (53, 15) to (51, 18).
-- **Lower Spire & Pine Bypass**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19) to (46, 19), then south along column 46 past the lower red spire (48, 20) down to (46, 23).
+- **Lower Spire & Branch Ledge Route**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19), (46, 19) to (40, 19), then jump south over the curved branch ledge to (40, 21) in the Cottage sector.
+- **Column 46 Cul-de-Sac**: Column 46 south of row 19 dead-ends at (46, 23) into solid pine trees south and west; not a throughway.
 - **Dead-End Meadow Alcove**: Row 11 west from column 53 past defeated Duke (45, 12) into row 8-10 alcove dead-ends against solid pine trees at (34, 8) and (40, 5).
 
 <hr>
@@ -346,7 +343,7 @@
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
-- **Sewer Manholes (Decorative)**: Located at (13, 27) and (13, 19). Verified on Turns 1537 and 4424-4425 as inert, walkable decorative road tiles.
+- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), and (40, 13). Verified on Turns 1537, 4424-4425, and 7493 as inert, walkable decorative road tiles.
 
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 
@@ -362,7 +359,7 @@
 
 - **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features an inert decorative teal door at (48, 14) on an elevated wooden terrace (tested Turn 7459). Terrace is accessible from street via row 15 curb at (47, 15). Old Man (51, 15) and Machop (51, 16) reside on terrace outside the door.
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features an inert decorative teal door at (48, 14) on an elevated wooden terrace. Terrace is accessible from street via row 15 curb at (47, 15). Old Man (51, 15) and Machop (51, 16) reside on terrace outside the door.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
@@ -395,7 +392,6 @@
   - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
   - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
-  - Jackson Absence: Audited on Turn 7466; Jackson is not inside.
 
 ## Sovio Metro Station (Verified Turn 1388)
 
@@ -573,14 +569,18 @@
 - The sewer corridors were fully mapped thousands of turns ago. Storage room (37, 14) is confirmed decorative ("Its a simple storage room...").
 - Tile (30, 9) verified walkable on Turn 7300. The column 30 bridge is an open passage heading north to the Northeast Wooden Staircase at (30, 4).
 - What causal trigger or interaction in the game world has been overlooked that allows Asher to find Jackson?
-## Active Audit & Investigation Plan (Turn 7442)
-- Jackson ran outside into Sovio City during the tremor (Turn 1437) and has had zero interactions with Asher since.
-- Current Audit: Completing foundational inventory audit (Bag pockets), then methodically testing unverified angles/paths in Sovio City (Old Man terrace perimeter, Machop house family, and plaza perimeter).
+## Baseline Audits (Turns 7431-7448)
 - **Baseline Party Audit (Turn 7431)**: Sirius Lv14 (40/40 HP, no item), Zephyr Lv2 (13/13 HP, no item). Both at full health.
 - **Baseline Trainer Card Audit (Turn 7437)**: ID 54592, Name Asher, Money ¥8196, Time 44:05. Front lists 8 *ROUNDS slots (all 0/8 unearned). Back lists 6 badge/round silhouettes (all unearned). S-logo on back. Zero tournament passes or registration stamps.
 - **Baseline Bag Inventory Audit (Turn 7448)**: Items (Potion x1, Poison Barb x1, Nugget x1), Poké Balls (Timer Ball x1), Key Items (HuPhone [registered S], TM Case). Fully audited: zero quest items, keycards, or letters present.
 ## Critical Summary Correction & Active Hypotheses (Turn 7487)
 - **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
-- **Active Inspection**: Testing circular manhole feature at (39, 13) outside Pokémon Center on row 14 paved avenue.
+
+## Documented Hypotheses for Lancio Town Audit (Turn 7531)
+- **Hypothesis 1 (Lancio Dock Pier Lateral Columns - DISPROVED Turns 7594-7595)**: All three columns (32, 25), (33, 25), and (34, 25) exhaustively probed with 'A' facing South into water; confirmed 100% inert with no prompts or boat presence.
+- **Hypothesis 2 (Professor Ivo Lab Research Wing)**: The server workstations at (23-24, 8-9), research table at (21-23, 4), and green fluid incubator apparatus at (18-19, 5-6) have not been directly interacted with using 'A'. Inspecting them may yield story logs or prompt new dialogue from Professor Ivo.
+- **Hypothesis 3 (Southwest Coastline & Beach)**: Sand coastline at columns 14-20, rows 14-17 remains uninspected for hidden items or NPCs.
+- **Hypothesis 4 (Route 1 / Lancio Field Items)**: The visible Pok�ball item at (38, 4) north of Lancio pond or Route 1 cut tree bypasses may yield HM Cut or progression tools.
+
 
 <hr>
