@@ -576,8 +576,8 @@
 ## Active Audit & Investigation Plan (Turn 7442)
 - Jackson ran outside into Sovio City during the tremor (Turn 1437) and has had zero interactions with Asher since.
 - Current Audit: Completing foundational inventory audit (Bag pockets), then methodically testing unverified angles/paths in Sovio City (Old Man terrace perimeter, Machop house family, and plaza perimeter).
-- **Turn 7431 Party Audit**: Confirmed Sirius Lv14 (40/40 HP, no item) and Zephyr Lv2 (13/13 HP, no item). Currently auditing Trainer Card and Bag for overlooked quest triggers.
-- **Turn 7437 Trainer Card Audit**: Confirmed ID 54592, Name Asher, Money ¥8196, Time 44:05. Front lists 8 *ROUNDS slots (all 0/8 unearned). Back lists 6 badge/round silhouettes (all unearned). S-logo displayed on back. No special tournament pass or registration stamp active.
-- **Turn 7448 Bag Inventory Audit**: Confirmed Items (Potion x1, Poison Barb x1, Nugget x1), Poké Balls (Timer Ball x1), Key Items (HuPhone [registered S], TM Case). No quest items, keys, or letters present.
+- **Baseline Party Audit (Turn 7431)**: Sirius Lv14 (40/40 HP, no item), Zephyr Lv2 (13/13 HP, no item). Both at full health.
+- **Baseline Trainer Card Audit (Turn 7437)**: ID 54592, Name Asher, Money ¥8196, Time 44:05. Front lists 8 *ROUNDS slots (all 0/8 unearned). Back lists 6 badge/round silhouettes (all unearned). S-logo on back. Zero tournament passes or registration stamps.
+- **Baseline Bag Inventory Audit (Turn 7448)**: Items (Potion x1, Poison Barb x1, Nugget x1), Poké Balls (Timer Ball x1), Key Items (HuPhone [registered S], TM Case). Fully audited: zero quest items, keycards, or letters present.
 
 <hr>
