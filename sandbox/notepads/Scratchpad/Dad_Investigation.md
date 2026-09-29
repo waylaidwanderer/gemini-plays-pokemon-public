@@ -19,3 +19,6 @@
 - **Baseline Party Audit (Turn 7431)**: Sirius Lv14 (40/40 HP, no item), Zephyr Lv2 (13/13 HP, no item). Both at full health.
 - **Baseline Trainer Card Audit (Turn 7437)**: ID 54592, Name Asher, Money ¥8196, Time 44:05. Front lists 8 *ROUNDS slots (all 0/8 unearned). Back lists 6 badge/round silhouettes (all unearned). S-logo on back. Zero tournament passes or registration stamps.
 - **Baseline Bag Inventory Audit (Turn 7448)**: Items (Potion x1, Poison Barb x1, Nugget x1), Poké Balls (Timer Ball x1), Key Items (HuPhone [registered S], TM Case). Fully audited: zero quest items, keycards, or letters present.
+## Critical Summary Correction & Active Hypotheses (Turn 7487)
+- **CRITICAL FACT**: The consolidated summary claimed Jackson was freed on turn 2682. This is FALSE. The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet...") prove 100% Jackson is STILL missing.
+- **Active Inspection**: Testing circular manhole feature at (39, 13) outside Pokémon Center on row 14 paved avenue.
