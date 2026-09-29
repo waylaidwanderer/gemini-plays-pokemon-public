@@ -37,6 +37,7 @@
 - **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15. Features a green/teal exterior door with circular knob at (48, 14), framed by windows, on an elevated stone terrace. Ground-floor street curbs at column 47 and row 16 block direct access from west and south. Tile (46, 13) is walkable stone pavement outside the Pokémon Center, but stepping east into (47, 13) collides with the solid terrace curb (verified Turn 6329). Tile (49, 18) facing Up into (49, 17) collides with the solid terrace curb (verified Turn 6569). Stepping Up from (46, 13) into (46, 12) collides with the solid wall/curb (verified Turn 7187).
+- **Eastern Terrace Perimeter (Verified Turn 7231)**: At (51, 19) facing Up, (51, 18) is the solid signpost right post. Column 52 (rows 14-18) is the solid exterior wall of the eastern building. No exterior walkway or ramp connects the street to the elevated terrace on the eastern flank.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
@@ -45,6 +46,7 @@
 - **NPCs**: Blonde girl at (44-45, 24-26) (dialogue verified Turn 5549: "I'm supposed to meet someone here, but he doesn't seem to show up..." - ambient, waiting for the boy near the pond); boy in pink shirt waiting for a girl near the pond (Turn 2841).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
+- **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -64,7 +66,7 @@
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
   - **Corner PC Terminal at (12, 1) (Verified Turn 7195, 7206)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
-  - **Framed Town Map at (11, 0) (Verified Turn 7212)**: Interacting facing Up from (11, 1) displays "A Town Map.".
+  - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
   - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
 

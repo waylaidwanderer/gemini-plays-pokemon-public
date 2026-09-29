@@ -64,8 +64,7 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Location Status (Verified Turns 6606, 6931)**: Jackson was NEVER physically located inside the sewer storage room; grunts evacuated an empty room awaiting Marie. Jackson was last seen running outside into Sovio City to investigate the tremor and remains missing.
-
+- **Jackson's Location Status**: Jackson was last seen running outside into Sovio City to investigate the tremor. In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. When inspected on Turn 5628, the storage room at (37, 14) was empty ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
 
 <hr>
 
@@ -552,5 +551,33 @@
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; impassable without HM Rock Smash.
 - **Western Alcove & Mat**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9).
 
+
+<hr>
+
+<h1><code>Scratchpad/Dad_Investigation</code></h1>
+
+# Scratchpad: Investigating Jackson's Whereabouts
+
+## Active Hypotheses & Open Questions
+1. **Hypothesis A (Sewer Depths & Rock Smash)**:
+   - Dad was held captive in the sewers during the tremor cutscene.
+   - When Marie broadcast the retreat, grunts vacated.
+   - Unexplored areas in Sovio Sewers:
+     - Southwest corridor behind cracked rocks (cols 7-8).
+     - Dark Sector behind cracked rocks at (22, 10).
+     - Can Asher obtain HM Rock Smash anywhere? Where is Rock Smash found in Pokémon Sors?
+2. **Hypothesis B (Sovio City Surface Triggers)**:
+   - Metro turnstile: "I should find dad first!"
+   - Route 2 exit: "I can't go yet... I have things to do!"
+   - Could an NPC in Sovio City have new dialogue triggered by sewer events?
+   - Residential houses:
+     - Wii house at (39, 7): Not checked since Turn 1447! Needs re-audit!
+     - Gumball house at (29, 14): Checked Turn 5933.
+     - Karate house at (13, 15): Checked Turn 5950.
+     - Name Rater at (31, 26): Checked Turn 3091.
+3. **Hypothesis C (Terrace Building (48, 14))**:
+   - Elevated terrace has door at (48, 14).
+   - West curb solid at (47, 13); south curb solid at (49, 17); east solid at (52, 14-18).
+   - If no exterior path exists, is there an interior warp from another location?
 
 <hr>
