@@ -235,7 +235,9 @@
 - **Hedge Obstacle at (29, 25) (Verified Turn 6808)**: Stepping Down from (29, 24) collides with a solid hedge, blocking direct southward movement along column 29.
 - **Cottage Entrance Alignment**: At (36, 24) is a solid exterior wall; actual door is at (37, 24).
 - **Pond Shoreline Dead End**: Path at (43, 38-41) terminates into deep water and pine trees; no passable eastern exit along pond bank without Surf.
-- **Southern to Northern Meadow Connection (Verified Turn 1105-1106)**: From row 44 at column 20, the path leads east through tall grass to column 27-28, down through row 42, east through (29, 41), and north through column 29 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24).
+- **Southern to Northern Meadow Connection (Verified Turns 1105-1106, 6835-6846)**: From row 44 at column 20, the path leads east along row 45 through tall grass, north through the hedge gap at (26, 44), up along column 26 (rows 43-42) to row 41, east through (27-28, 41) to (29, 41), north through column 29 (rows 40-39) past the cypress tree at (28, 39), and east along row 39 into the sand clearing at (32, 39). Column 36 leads north to the Route 1 Cottage at (37, 24). Note: Going south from (29, 41) along column 29 is blocked at (29, 44) by a solid pine tree collision (verified Turn 6835).
+- **Meadow Dirt Path Wild Encounters (Verified Turn 6837)**: Wild Pokémon encounters (such as Caterpie Lv2) can trigger on the dirt / flower petal tiles throughout this meadow corridor even though they look like dirt path.
+- **Row 20 Cottage Branch Ledge Loop Constraints (Verified Turns 1879, 6794-6795, 6835-6846)**: The curved red branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Traversal cannot be reversed northward over the ledge; returning north requires a full counter-clockwise circuit down the sand highway to row 39, through the meadow bypass (col 26-29, rows 39-45), west along Route 1 southern road, and north through the clearing.
 - **Row 46 Pine Obstruction**: Walking east along row 46 terminates at column 25 due to a pine tree collision at (26, 46). Southern meadow bypass at rows 42-44 must be used instead.
 - **Pine Barrier at (4, 42)**: Direct northward movement from (4, 43) is blocked by a pine tree trunk at (4, 42).
 - **Cypress Tree at (28, 39)**: Direct eastward movement from (27, 39) is blocked by a solid cypress tree at (28, 39).
@@ -256,7 +258,6 @@
 - **Upper Spire Bypass**: From (53, 10), south to (53, 13), west to (51, 13), south through tall grass along column 51 past red rock spire (53, 15) to (51, 18).
 - **Lower Spire & Pine Bypass**: From (51, 18), west to (50, 18), south to (50, 19), west along row 19 through (49, 19), (48, 19), (47, 19) to (46, 19), then south along column 46 past the lower red spire (48, 20) down to (46, 23).
 - **Dead-End Meadow Alcove**: Row 11 west from column 53 past defeated Duke (45, 12) into row 8-10 alcove dead-ends against solid pine trees at (34, 8) and (40, 5).
-
 
 <hr>
 
