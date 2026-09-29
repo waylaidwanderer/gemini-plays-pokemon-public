@@ -161,11 +161,11 @@
 - **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested Turn 3348, solid non-enterable collision with no warp or text prompt.
 
 ## Overworld Residents & NPCs
-- **Green-haired Girl**: Located at (22, 14). Dialogue: "Lancio has such pretty flowers, I wanna collect them all!" (ambient).
-- **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!" (ambient).
-- **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me." (ambient).
-- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh." (ambient).
-- **Fisherman**: Located at (38, 22) near harbor dock. Dialogue: "You know kid... fishing taught me one very important thing in life. However it goes, you must stay calm and patient, because if you do, good things might come." (ambient).
+- **Green-haired Girl**: Located at (22, 14). Dialogue (ambient).
+- **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue (ambient).
+- **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
+- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue (ambient).
+- **Fisherman**: Located at (38, 22) near harbor dock. Dialogue (ambient).
 
 - **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
 
@@ -212,8 +212,8 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you".
-- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away.". Ambient advice.
+- **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). (ambient advice).
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
@@ -227,11 +227,11 @@
   - Bidoof (Lv2, Normal; verified Turn 877).
   - Caterpie (Lv2, Bug; verified Turn 890).
   - Rattata (Lv3, Normal; verified Turn 1859).
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Post-defeat dialogue: "My Pokémon was completely destroyed by yours... I'm a bit embarrassed!".
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Post-defeat dialogue: "Hmm, more harmony maybe?".
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
-- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue ("Now that you got your sample, go and enjoy freedom!").
-- **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. Dialogue: "The power of science is incredible! / Erm... why is it that astonishing now?".
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Defeated.
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated.
+- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue.
+- **NPC 3 (Lass in pink shirt)**: Located at (41, 37) in Route 1 clearing, facing west. (ambient).
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
@@ -337,7 +337,7 @@
 
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Dialogue: "This is my partner, Rocky! / He's the best...", followed by Rocky: "Rocky: ..." (ambient comic relief).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Boy NPC with his partner Pokémon Rocky (ambient comic relief).
 
 - **West Avenue Boundary (Verified Turns 6365-6366)**: Cobblestone lane past Machop house terminates at column 11 into a solid modern office building wall; no passage further west.
 
@@ -555,7 +555,7 @@
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Ground Truth: Cutscene (Turn 1666-1707) depicted Jackson held captive in the sewer storage room at (37, 14).
+- Ground Truth: Cutscene (Turn 1666-1707) depicted Jackson held captive in a sewer storage room whose exact coordinates are unverified; (37, 14) is an impassable dead-end.
 - Storage Room Empirical Re-Test (Turns 7966-7969): Standing on red mat at (37, 14) and pressing 'A' displays 'Its a simple storage room...'. Stepping Down off the mat collides with impassable chasm void. Verified as an impassable dead-end in its current state.
 - Surface Audit Complete (Turns 7810-7910): Every surface building and NPC in Sovio City verified ambient.
 - Sub-Containers Audited (Turn 7994): TM Case contains only TM17 (Protect) and TM48 (Work Up); zero HMs. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted. Bag audit complete: zero keys, zero passes, zero field moves.
