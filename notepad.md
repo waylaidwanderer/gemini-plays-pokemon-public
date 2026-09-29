@@ -426,7 +426,7 @@
 
 - **Interior 1F**: Entrance mat at (5, 36).
 
-  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
+  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Verified 100% ambient flavor text across multi-turn tests (Turns 8810-8819).
 
   - Family Machop at (6, 34); ambient interaction.
 
