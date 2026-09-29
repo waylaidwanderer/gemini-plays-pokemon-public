@@ -47,7 +47,7 @@
 - Trubbish (Lv4-6, Poison; verified Turns 2576, 2597)
 - Stunky (Lv4, Poison/Dark; female verified Turn 1991, male verified Turn 5474)
 - Honedge (Lv5, Steel/Ghost; female verified Turn 2140, male verified Turn 5808)
-- Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
+- Zubat (Lv5-6, Poison/Flying; female verified Turn 2718, male verified Turn 7395)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (Lv6, Normal; female verified Turn 3136, male verified Turn 5837)
 - Shuppet (female) (Lv6, Ghost; verified Turn 4570)

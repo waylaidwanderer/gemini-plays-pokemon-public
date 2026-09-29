@@ -538,7 +538,7 @@
 - Trubbish (Lv4-6, Poison; verified Turns 2576, 2597)
 - Stunky (Lv4, Poison/Dark; female verified Turn 1991, male verified Turn 5474)
 - Honedge (Lv5, Steel/Ghost; female verified Turn 2140, male verified Turn 5808)
-- Zubat (female) (Lv5, Poison/Flying; verified Turn 2718)
+- Zubat (Lv5-6, Poison/Flying; female verified Turn 2718, male verified Turn 7395)
 - Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
 - Dunsparce (Lv6, Normal; female verified Turn 3136, male verified Turn 5837)
 - Shuppet (female) (Lv6, Ghost; verified Turn 4570)
@@ -553,7 +553,6 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; impassable without HM Rock Smash.
 - **Western Alcove & Mat (Verified Turns 4549, 7316-7317)**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
-
 
 <hr>
 
