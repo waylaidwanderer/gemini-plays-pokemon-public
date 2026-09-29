@@ -264,7 +264,7 @@
 - **Central Pine Tree Perimeter Collisions (Verified Turns 6858-6877)**: Columns 10-12 across rows 42-48 form the impassable Central Pine Tree and billboard barrier dividing western and eastern grass.
 - **Central Pine Tree Apex (11-12, 42-43)**: Foliage blocks northward passage along rows 42-43.
 - **Billboard Obstacle at (11, 48)**: Signpost right post blocks westward entry along row 48.
-- **Central Pine Tree Obstacle at (11, 46) (Verified Turn 6877)**: Stepping West from (12, 46) collides with solid obstacle / tree at (11, 46).
+- **Central Pine Tree Obstacle at (11, 46)**: Tree trunk collision blocks westward traversal along row 46.
 
 ## Verified Traversal Corridors (Sequential Waypoint Map)
 - **Track 8 to Eastern Meadow**: (53, 0) south along column 53 to (53, 10) outside Signpost 4 at (50, 10).
