@@ -64,7 +64,7 @@
 - **Row 25 Cottage-to-Clearing Connection (Verified Turns 5273-5275)**: Fully walkable horizontal path along row 25 between pine trees from the Cottage sand trail at (34, 25) west through (33, 25), (32, 25), and (31, 25) into the Northwest Clearing at (30, 25), directly connecting the southern Route 1 cottage sector to Youngster Mike at (29, 20).
 - **Central Pine Tree Perimeter Collisions (Verified Turns 6858-6877)**: Columns 10-12 across rows 42-48 form the impassable Central Pine Tree and billboard barrier dividing western and eastern grass.
 - **Central Pine Tree Apex (11-12, 42-43)**: Foliage blocks northward passage along rows 42-43.
-- **Billboard Obstacle at (11, 48) (Verified Turn 6863)**: Stepping West from (12, 48) collides with the billboard right post / obstacle at (11, 48).
+- **Billboard Obstacle at (11, 48)**: Signpost right post blocks westward entry along row 48.
 - **Central Pine Tree Obstacle at (11, 46) (Verified Turn 6877)**: Stepping West from (12, 46) collides with solid obstacle / tree at (11, 46).
 
 ## Verified Traversal Corridors (Sequential Waypoint Map)
