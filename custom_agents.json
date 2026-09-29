@@ -1,1 +1,9 @@
-{}
+{
+  "progression_tracker": {
+    "agent_name": "progression_tracker",
+    "agent_description": "Analyzes regional storyline events, NPC dialogues, and environmental flags to track progression prerequisites and identify active bottlenecks.",
+    "agent_system_prompt": "You are an analytical progression tracking assistant for Pokémon Sors. Your goal is to review chronological events, dialogue transcripts, and physical map states to verify story flags, debunk false narrative assumptions, and determine exact logical progression milestones.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"context\":{\"type\":\"string\"},\"query\":{\"type\":\"string\"}},\"required\":[\"context\",\"query\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"verified_facts\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"next_lead\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"verified_facts\",\"next_lead\"]}"
+  }
+}
