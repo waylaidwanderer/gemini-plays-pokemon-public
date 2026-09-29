@@ -13,7 +13,7 @@
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
 - **NPC 1 (Blue Cap)**: Boy in blue backwards cap at (12, 49-50) facing south (Signboard left post is at 10, 48). Dialogue: "I gotta be careful when I walk around in the tall grass... / Wild Pokémon can jump out and attack you".
 - **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Dialogue: "Wild Pokï¿½mon can't attack me! I have many repels... They keep wild Pokï¿½mon away.". Ambient advice.
-- **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your PokÃ©mon get injured you can easily heal those damages in a PokÃ©mon Center or with Potions."
+- **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
   - Wooper (Lv3, Water/Ground; verified Turn 458).
