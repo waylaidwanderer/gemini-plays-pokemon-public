@@ -59,5 +59,5 @@
     - (48, 14): Solid pine tree trunk blocks eastward traversal along row 14 from (47, 14).
     - (47, 15): Pine tree foliage blocks southward traversal along column 47 from row 14.
     - Verified bypass: Row 12 connects Duke's meadow directly east through (46, 12), (47, 12), (48, 12), (49, 12) into the blue flowers at (50-51, 12) and the eastern highway at column 52-53 leading north to Sovio City (verified Turn 8449).
-- **Central Meadow North Collision Test (Verified Turn 10356)**: At (26, 39), stepping north into (26, 38) is blocked by a pine tree trunk. The meadow trail curves east through bird tracks at (27-29, 39-40) into the Sand Highway at (32, 39).
+- **Central Meadow North Collision Tests (Verified Turns 10356, 10796)**: At (26, 39), stepping north into (26, 38) is blocked by a pine tree trunk. At (30, 39), stepping north into (30, 38) is blocked by a pine tree trunk. The meadow trail curves east through bird tracks at (27-29, 39-40) into the Sand Highway at (32, 39).
 - **Cottage East Ledge (Verified Turns 10781-10786)**: Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
