@@ -194,6 +194,7 @@
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
 - **Appearance**: Custom sprite wearing a red/black scarf
+- **Current EXP**: 1838 (197 to Lv15, verified Turn 9307)
 
 <hr>
 
