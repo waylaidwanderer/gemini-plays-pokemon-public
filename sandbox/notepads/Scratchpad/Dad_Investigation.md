@@ -1,23 +1,31 @@
-# Scratchpad: Investigating Jackson's Whereabouts
+# Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Verified Ground Truths
-- Tremor occurred in Sovio Metro Station (Turn 1437); Jackson ran outside into Sovio City to investigate.
-- Turnstile gate at (19, 21) in Metro lobby triggers: "I should find dad first!" and forces Asher 1 step Down to (19, 22) (empirically re-verified Turns 7150-7153, 9018).
-- Route 2 exit at (52, 19-20) in Sovio City triggers: "I can't go yet... I have things to do!"
-- "Machop's Toy" is an isolated side quest; per Engine.md, side quests are tracked separately from main progression flags and do not gate regional story barriers.
-- Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
-- Macro-Traversal across Route 1 to Lancio Town is conclusively rejected: exhaustively checked multiple times (Turns 3167-3543, 4064-4337, 5152, 6892-7211, 7489-7635), all NPCs retain identical ambient dialogue. The roadblocks are local to Sovio City.
-- Sewers Conclusively Verified Inert: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) have been repeatedly audited and confirmed inert. Grunts permanently retreated on Turn 2682; storage room displays generic inspection text.
-- Northern Alcove Conclusively Enclosed (Turns 9097-9101): Alleyway along column 40 up to (40, 9) terminates in solid foundation walls between tan building, Pokémon Center, and house (39, 7). Zero exterior side passages exist.
+## Current Blockers & Ground Truths
+- Metro Station turnstile at (19, 21): Triggers "I should find dad first!" and repels player 1 step South.
+- Route 2 exit at (52, 19-21): Triggers "I can't go yet... I have things to do!" and repels player 1 step West.
+- Jackson last seen departing the Metro Station lobby into Sovio City following the seismic tremor (Turn 1437).
+- Team Siara grunts permanently retreated from Sovio Sewers after Marie's broadcast (Turn 2682). All accessible sewer sectors confirmed fully cleared and inert.
 
-## Active Analysis & Inventory / Party State
-- Party: Slot 1 Sirius (Riolu Lv14, HP 40/40, Fighting), Slot 2 Zephyr (Pidgey Lv2, HP 13/13, Normal/Flying).
-- Bag: Items (Potion x1, Poison Barb x1, Nugget x1); Poké Balls (Timer Ball x1); Key Items (HuPhone, TM Case); TMs (TM17 Protect, TM48 Work Up). Zero HMs in possession.
-- Storage: PC Item Storage, Mailbox, and Box 1 are completely empty. HuPhone apps: Item Storage, World Map, Quest Log.
+## Active Hypotheses & Falsification Protocols
 
-## Active Investigation Strategy & Focus
-1. **Sewer Status Resolution**:
-   - The sewers have been audited across multiple cycles with zero changes since Team Siara's retreat on Turn 2682.
-   - Returning to the sewers without any new surface trigger or key item is an ungrounded circular traversal loop.
-2. **Current Surface Focus**:
-   - The roadblock is the turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!").
+### Hypothesis 1: Side Quest State Dependency
+- **Proposition**: Having the side quest "Lost Toy" actively open may be gating or interfering with other event flags or NPC interactions in Sovio City.
+- **Test Protocol**:
+  1. Navigate to the elevated terrace at (51, 15).
+  2. Speak to the Old Man and select "Yes" to cancel the active "Lost Toy" quest.
+  3. Re-test Metro turnstile at (19, 21) and Route 2 barrier at (52, 19).
+- **Falsification Criteria**: If turnstile continues to output "I should find dad first!" after quest cancellation, side quest state is definitively ruled out as the blocker.
+
+### Hypothesis 2: Exhaustive Surface NPC Persistence & Trigger Audit
+- **Proposition**: An NPC in Sovio City possesses a secondary dialogue branch or progression trigger activated only upon repeated or sequential interaction (similar to the Protect TM boy in Lancio Town).
+- **Test Protocol**:
+  1. Systematically interact with every surface NPC in Sovio City (Bikers, boy with Rocky, Gumball family, Karate couple, park visitors, terrace residents).
+  2. Test persistent dialogue (3+ presses of 'A') to check for multi-textbox shifts.
+- **Falsification Criteria**: If all NPCs cycle to identical baseline dialogue strings with no flag updates, NPC interaction is ruled out.
+
+### Hypothesis 3: Unchecked Environmental or Structural Features in Sovio City
+- **Proposition**: An unmapped entrance, back door, or interactive object in Sovio City holds the clue or passage to Jackson.
+- **Test Protocol**:
+  1. Inspect the alleyways around Central Plaza and West Avenue.
+  2. Test interaction on all unique objects (vending machines, decorative fixtures, notices).
+- **Falsification Criteria**: If all fixtures confirm solid inert collision without script execution, structural triggers are ruled out.
