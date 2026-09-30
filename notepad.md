@@ -66,6 +66,12 @@
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
 - **Jackson's Location Status**: In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. The storage room at (36-37, 14) was verified inert ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
 
+## Southwest Regional Map Topology (Verified Turn 9924 via sw_map.png)
+- **Inizio Isle**: Isolated green island node in the far southwest ocean.
+- **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects exclusively northeast via Route 1 to Sovio City.
+- **Sovio City**: Red rectangular urban node. Connects southwest via Route 1 to Lancio Town, and east via Route 2 toward eastern junctions and Amor City.
+- **Southern Coast Node**: Separate green node on the south-central coast connected to eastern route junctions and coastal settlements.
+
 
 <hr>
 
@@ -133,7 +139,7 @@
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
 ## Visible Field Items
-- **Pokball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
+- **Pok� Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
 - **Pokéball Item 2**: Visible in the far northeast corner above the pond.
 
 ## Professor Ivo's Pokémon Laboratory (Interior)
@@ -147,10 +153,10 @@
   - Connected to foyer via hallway at row 10 (columns 13-16).
   - Sunlit diagonal wood flooring throughout research room.
   - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
-  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pokmon?").
+  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pok�mon?").
   - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
   - Wooden research desk at (21-23, 4) (Verified Turn 7627): Inert decorative fixture.
-  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pokmon books."
+  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pok�mon books."
   - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 ## Southwest Beach & Coastline
 - **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
@@ -359,7 +365,7 @@
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
-- **South Sidewalk & Name Rater Courtyard Connection (Verified Turns 8986-8998)**: Paved corridor along row 27-28 south of Central Park pond. The western dead end at (22-23, 27) in front of the building wall leads east past Name Rater house (31, 26). Row 27 above the Jigglypuff gathering (33-35, 28) is fully walkable, connecting directly east into Central Park's diamond-paved boulevard at row 26 (columns 36-43).
+- **South Sidewalk & Children's Gathering (Verified Turns 8986-8998, 9914-9922)**: Paved corridor along rows 27-28 south of Central Park pond. West of Name Rater house (31, 26) is a dead end at (22-23, 27). East of Name Rater house at (33-35, 28) is a children's gathering around a Jigglypuff: Little Girl at (33, 28) ('Mom told me that she will evolve if she touches a Moon Stone!'), Jigglypuff at (34, 28) ('Puff Puff!'), and Boy at (35, 28) ('Yeah Jigglypuff!'). Confirmed 100% ambient flavor.
 
 - **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
