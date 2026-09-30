@@ -325,7 +325,7 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Plaza Street Lamp**: Located at (46, 17).
-- **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), trash can at (43, 20), and blonde girl at (43, 22). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
+- **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), and trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide ambient motorcycle gang flavor text (verified Turns 8567, 8572, 8806-8807).
 
@@ -355,7 +355,8 @@
 
 - **South Sidewalk & Name Rater Courtyard Connection (Verified Turns 8986-8998)**: Paved corridor along row 27-28 south of Central Park pond. The western dead end at (22-23, 27) in front of the building wall leads east past Name Rater house (31, 26). Row 27 above the Jigglypuff gathering (33-35, 28) is fully walkable, connecting directly east into Central Park's diamond-paved boulevard at row 26 (columns 36-43).
 
-- **NPCs**: Blonde girl at (44-45, 24-26) and boy in pink shirt at (31, 22) verified as an ambient pair waiting on opposite sides of the pond.
+- **Blonde Girl (Verified Turn 9137-9139)**: Located at (43, 24) on the east bank of the pond facing north. Ambient dialogue: 'I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?' Waiting for her online date.
+- **Boy in Pink Shirt (Verified Turns 9156-9157)**: Located around (31-33, 20-22) on the west bank of the pond. Ambient dialogue: 'I\'m supposed to meet a girl here, but she doesn\'t seem to show up... Was I catfished?' Waiting for his online date (identical mirror dialogue to the blonde girl on the east bank; confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
@@ -417,7 +418,7 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV, Mother at (27, 33); ambient dialogue.
+- **Interior 1F (Audited Turns 9161-9168)**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ('I love this show!'). Mother at (27, 33) ('My son is watching some cartoon... Why is the goldfish the cat's brother in it though?'). Wide-screen TV at (25-26, 30) displays 'There's a cartoon running. Its about a blue cat who's brother is a... fish?' (inspecting side gives easter egg: 'Why am I staring at the TV's side?'). Confirmed 100% ambient pop-culture easter egg room with zero story flags.
 
 - **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
 
@@ -552,18 +553,17 @@
 - "Machop's Toy" is an optional side quest given by Old Man (51, 15); cancelling it on Turn 3162 did NOT alter the turnstile or Route 2 barrier. It has no verified link to the main storyline.
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 - Macro-Traversal across Route 1 to Lancio Town is conclusively rejected: exhaustively checked multiple times (Turns 3167-3543, 4064-4337, 5152, 6892-7211, 7489-7635), all NPCs retain identical ambient dialogue. The roadblocks are local to Sovio City.
+- Sewers Conclusively Verified Inert: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) have been repeatedly audited and confirmed inert. Grunts permanently retreated on Turn 2682; storage room displays generic inspection text.
+- Northern Alcove Conclusively Enclosed (Turns 9097-9101): Alleyway along column 40 up to (40, 9) terminates in solid foundation walls between tan building, Pokémon Center, and house (39, 7). Zero exterior side passages exist.
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
 ## Active Investigation Leads & Hypotheses
-1. **Hypothesis: Overlooked Outdoor Sector in Sovio City**:
-   - Mechanic/Entity: Jackson, Valora, or a story trigger located in an unexplored or re-triggered outdoor overworld tile in Sovio City.
-   - Test Method: Systematically search Sovio City outdoor sectors beyond the central plaza and west avenue.
-   - Falsification: If all outdoor sectors terminate in solid perimeter walls without NPCs or triggers, move to internal structure audit.
-
-2. **Sewers & Route 1 Conclusively Verified Inert**:
-   - Result: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) and Route 1 / Lancio Town have been repeatedly audited and confirmed inert. Progression requires discovering unresolved local business in Sovio City.
+1. **Hypothesis: Overlooked Interior Trigger or City Interaction**:
+   - Mechanic/Entity: Jackson, Valora, or an unresolved story trigger located inside an overworld residence, facility, or specific NPC interaction in Sovio City (e.g. Central West Gumball residence 29, 14, or Central Park residents).
+   - Test Method: Systematically finish surveying Central Park residents and inspect residential interiors.
+   - Falsification: If all residents and interiors retain identical ambient text, evaluate remaining urban mechanics.
 
 
 <hr>
