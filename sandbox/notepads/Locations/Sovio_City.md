@@ -3,6 +3,7 @@
 ## Geography & Connections
 
 - **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
+  - **Southern Avenue Bounds (Verified Turn 9776-9781)**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
 
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 
@@ -138,4 +139,3 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
-- **Southern Avenue Bounds (Verified Turn 9776-9781)**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
