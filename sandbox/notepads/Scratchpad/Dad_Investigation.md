@@ -44,3 +44,19 @@
   3. Systematically probe northward progression across columns 5-9 between rows 44 and 40.
 - **Falsification Criteria**:
   - If columns 5-9 are completely enclosed northward by impassable collision (trees, fences, ledges, or mandatory Cut obstacles) with zero passable corridors leading north into the Northwest Clearing.
+
+- **Status**: FALSIFIED (Turns 10388-10396). Empirical tests confirmed: (9, 44) is blocked by a pine tree trunk (Turn 10388); (5, 44) is solid collision and inert to 'A' (Turns 10394-10395); (7, 44) is blocked by a pine tree trunk (Turn 10395). Rows 40-42 form an unbroken wall of dense pine trees across columns 5-10. Zero northward exits exist in the western sector.
+
+## Hypothesis 9 (Investigation of West Flank of Sand Highway / Central Meadow for Corridor to Northwest Clearing)
+- **Proposition**: The connection to the northern half of Route 1 (Northwest Clearing: Youngster Mike at 29, 20 and Lass Sonia at 27, 15) branches off westward from the Sand Highway (columns 33-35, rows 26-36) or through the central meadow (columns 28-32, rows 38-40).
+- **Rationale**:
+  1. The western sector (columns 5-18) is completely blocked northward by rows 40-42 (Hypothesis 8 falsified).
+  2. The Cottage basin is an enclosed dead-end to the north with the row 20 ledge strictly a one-way southward drop.
+  3. The Sand Highway spans rows 26-38 at columns 34-37, running parallel to the Northwest Clearing (columns 27-29, rows 15-25), with rows 26-36 westward unprobed.
+  4. The early game route from Lancio Town to Sovio City passed through the bird tracks into the meadow, defeated Mike and Sonia, and continued east to Duke and Sovio City.
+- **Protocol**:
+  1. Return east along row 44 to the hedge gap at (26, 43).
+  2. Ascend into the central meadow to (29, 40) / (32, 39).
+  3. Systematically probe westward progression from the Sand Highway at rows 28-36 to locate the open corridor into the Northwest Clearing.
+- **Falsification Criteria**:
+  - If the entire western flank of the Sand Highway from row 26 to row 38 is completely sealed by impassable collision (trees/fences) with zero westward openings leading into the Northwest Clearing.
