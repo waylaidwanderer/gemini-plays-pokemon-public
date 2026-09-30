@@ -14,7 +14,7 @@
 - **Hypothesis 12A (Central Meadow Row 38 Exit)**: Falsified Turn 10906-10907. Verified via grid/visual that row 38 across columns 26-31 is an unbroken horizontal wall of pine tree trunks with dense forest north. Central Meadow has zero northern exits.
 
 ## Active Investigation: Route 1 Macro Connectivity
-- **Hypothesis 12B (Row 44 Western Sector Northbound Corridor - DISCOVERED & VERIFIED Turn 10919)**:
-  - **Discovery**: At (24, 43), a slender bush sits at (24, 42). Immediately to its east, column 25 is an open, unobstructed grassy lane extending north across rows 43 to 37 between the pine trees!
-  - **Connectivity**: Column 25 ascends directly north into the Northwest Clearing (Youngster Mike at 29, 20 and Lass Sonia at 27, 15), providing the long-sought unblocked northbound bypass around the row 20 one-way ledge to reach Bug Catcher Duke (45, 12) and Sovio City (53, 0)!
-  - **Plan**: Advance north along column 25 through rows 42-37 into the Northwest Clearing, then head northeast to Duke and Sovio City.
+- **Hypothesis 12B (Row 44 Western Sector Northbound Corridor - Proposed Turn 10919)**:
+  - **Hypothesis**: Northbound transit to Youngster Mike (29, 20) and Lass Sonia (27, 15) branches northward from the row 44 main corridor between columns 19 and 25 (near Signboard 2 at 19, 42). Visual inspection shows a candidate opening along column 25.
+  - **Empirical Status (Unverified)**: At (24, 43), tile (24, 42) is a solid bush. Column 25 visually appears to be an open lane extending north across rows 43 to 37 between pine trees, but has not yet been traversed or verified.
+  - **Plan**: Flee wild Wooper battle at (24, 43). Step Right to (25, 43), then step-test passability strictly tile-by-tile north along column 25 through rows 42-37 into the Northwest Clearing, then head northeast to Duke and Sovio City.
