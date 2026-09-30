@@ -1,1 +1,9 @@
-{}
+{
+  "narrative_detective": {
+    "agent_name": "narrative_detective",
+    "agent_description": "Analyzes narrative state, progression triggers, and foundational assumptions in Pokémon Sors.",
+    "agent_system_prompt": "You are a narrative detective for Pokémon Sors. You specialize in examining story progression, identifying logical discrepancies between context summaries and verified in-game facts, and synthesizing multi-turn evidence to isolate the true progression trigger.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"focus_question\": {\"type\": \"string\"}, \"known_facts\": {\"type\": \"string\"}}, \"required\": [\"focus_question\", \"known_facts\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"core_hypothesis\": {\"type\": \"string\"}, \"recommended_check\": {\"type\": \"string\"}}, \"required\": [\"core_hypothesis\", \"recommended_check\"]}"
+  }
+}
