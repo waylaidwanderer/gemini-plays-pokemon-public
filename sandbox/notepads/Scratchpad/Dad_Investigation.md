@@ -13,10 +13,10 @@
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge. Central meadow row 37 is blocked by pine trees at (26, 38) and (30, 38).
 
 ## Active Investigation: Route 1 Macro Connectivity
-- **Hypothesis 12 (Macro Route 1 Topology Re-Evaluation)**:
-  - **Proposition**: Progression requires reaching Sovio City by navigating the true Route 1 connection between the southern region and northern sector.
+- **Hypothesis 12 (Macro Route 1 Topology Re-Evaluation & Western Bypass)**:
+  - **Proposition**: Northbound transit from Lancio Town to Sovio City bypasses the row 20 one-way ledge via the western clearing containing Youngster Mike (29, 20) and Lass Sonia (27, 15), which connects north to Duke (45, 12) and Sovio City (53, 0).
   - **Audited Constraints**:
-    - Central Meadow northern perimeter is blocked by pine trees across columns 26-30 at rows 37-38.
-    - Row 44 dead-ends west at (24, 44) against hedges at (23, 44).
-    - Cottage area has one-way south-facing ledges at (40-41, 20).
-  - **Plan**: Re-evaluate foundational routing assumptions regarding how Sovio City is reached from southern Route 1.
+    - Southbound transit uses the eastern highway past Duke (45, 12), hopping down the row 20 ledge (40-41, 20) to the Cottage.
+    - Ledges are strictly one-way; eastern tall grass at (43, 26) contains a Cut tree blocking northbound passage.
+    - Central Meadow tested blocked at (26, 38) and (30, 38), but columns 27-29 remain untested between row 39 and row 20.
+  - **Plan**: Navigate southwest from (38, 28) down Sand Highway to Central Meadow (28-29, 40), then test stepping strictly North along column 28/29 into Youngster Mike's clearing (29, 20).
