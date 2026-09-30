@@ -17,9 +17,9 @@
 
 ## Strategic Direction: Breaking the Sovio City Loop
 - **Falsification Result**: Sovio City surface entities are 100% ruled out. Jackson is not present in any Sovio residence, plaza, or park.
-- **Next High-Value Investigation**:
-  - Proceed southwest across Route 1 to Lancio Town.
-  - Investigate Professor Ivo's Pokémon Laboratory in Lancio Town:
-    1. Check Professor Ivo's dialogue for updates following the sewer confrontation.
-    2. Re-examine the descending basement stairs at (12, 7) ("I probably shouldn't head down here...").
-    3. Re-check Lancio Town harbor and residents for narrative clues.
+- **Lancio Town Lab Findings (Verified Turns 11767-11774)**:
+  - Professor Ivo's dialogue at (20, 6) remains ambient ("Hey, Ashi, how's your new Pokémon?").
+  - Descending basement stairs at (12, 7) re-verified still blocked ("I probably shouldn't head down here...").
+  - Deduction: Professor Ivo's Lab currently contains no new story triggers or clues regarding Jackson.
+- **Next Investigation Target**:
+  - Re-examine Lancio Town Harbor (pier at columns 32-34, row 25) to check if any boat or NPC has appeared.
