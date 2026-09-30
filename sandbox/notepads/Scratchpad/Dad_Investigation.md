@@ -15,16 +15,9 @@
 - **Hypothesis 4 (Macro-Traversal & Level 15 Evolution)**: Falsified. Riolu evolves via friendship, not level 15. Lancio Town and Route 1 NPCs exhibit static ambient dialogue.
 - **Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)**: Falsified Turns 9856-9901. HuPhone apps (Item Storage, Mailbox, World Map, Quest Log) and Bag pockets audited static with zero interactive story triggers or progression tools.
 
-## Active Priority: Hypothesis 6 (Macro Exploration & Unvisited Regional Nodes)
-- **Proposition**: Progression requires discovering an overlooked physical pathway, building, or regional entity outside the local Sovio transit hubs.
+## Active Priority: Macro Exploration of Route 1 & Lancio Town Boundaries
+- **Proposition**: Progression requires discovering an overlooked physical pathway, building, or regional entity outside the local Sovio transit hubs. The sewer holding room at (36-37, 14) was verified inert on Turn 8637; returning there without new in-game variables is an exhausted loop.
 - **Protocol**:
-  1. Systematic re-evaluation of non-transit map nodes and unexplored boundaries.
-  2. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
-
-## Active Priority: Hypothesis 7 (Sewer Holding Room Threshold & Discovery Trigger Audit)
-- **Proposition**: The assumption that Jackson was rescued on Turn 2682 was an unverified narrative inference. Grunts vacated under Marie's retreat orders, but Asher never confirmed Jackson's escape. Asher's turnstile blocker ('I should find dad first!') persists because the post-withdrawal realization event at the holding room at (36-37, 14) was never triggered.
-- **Protocol**:
-  1. Return from Route 1 to Sovio City via Sand Highway, row 39 hedge gap, Northwest Clearing, and row 12 meadow trail.
-  2. Enter Sovio Metro Station and warp down into Sovio Sewers.
-  3. Re-navigate to the Eastern Storage Room at (36-37, 14).
-  4. Exhaustively test stepping onto all floor tiles and inspecting all facing directions (North, South, East, West) at the holding room threshold.
+  1. Systematic physical testing of unverified boundaries on Route 1 (including physical step-test of row 25 at column 34, and southern corridor).
+  2. Full exploration of Lancio Town southern and coastal boundaries.
+  3. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
