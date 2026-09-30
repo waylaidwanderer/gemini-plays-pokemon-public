@@ -375,7 +375,16 @@
 
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
 
+## Trainer Card Structure & Display (Verified Turns 11889-11890)
+- **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Pok� Ball icons for the Eclipse Tournament.
+- **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
+- **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
 
+## HuPhone App Architecture (Verified Turns 11899-11905)
+- **Main Apps**: Exactly three apps on main menu: 'Item Storage', 'World Map', 'Quest Log', followed by 'Back'.
+- **Item Storage / PC**: Opens portable PC interface with 'Item Storage', 'Mailbox', and 'Turn Off'. Both Item Storage and Mailbox audited empty.
+- **Quest Log Submenu**: Contains 'Quest List', 'Quest Status', and 'Back'.
+- **Quest List Status Feedback**: Selecting an uncompleted quest (e.g. Lost Toy) displays: "This Quest hasn't been completed yet!".
 
 
 <hr>
@@ -428,6 +437,7 @@
 - **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
+- **West Avenue North Boundary (Verified Turn 11870)**: At column 16, row 16 terminates into solid building foundation at (16, 15) and east wall at (17, 16); eastward traversal from Karate house must follow rows 17-18.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
@@ -648,7 +658,7 @@
 ## In-Game System & Menu Audit (Verified Turns 11887-11903)
 - **Turnstile Gating State**: Re-verified at (19, 21): stepping on turnstile pushes Asher back to (19, 22) with verbatim text: "I should find dad first!".
 - **Trainer Card**: ID 54592, Money ¥6196, Time 88:59. Front tracks "*ROUNDS" with 8 empty slots (Eclipse Tournament). Back has 6 dark badge silhouettes.
-- **Key Items Pocket**: Contains only HuPhone (registered to SELECT) and TM Case. Zero keys, keycards, or progression quest items held.
+- **Key Items Pocket**: Contains only HuPhone (registered to SELECT) and TM Case. Key Items pocket contains zero keys, keycards, or progression tools.
 - **PC Item Storage**: Audited empty ("There are no items.").
 - **PC Mailbox**: Audited empty ("There's no Mail here.").
 
