@@ -13,11 +13,9 @@
 
 ## Active Investigation Leads & Hypotheses
 1. **Hypothesis: Overlooked Outdoor Sector in Sovio City**:
-   - Mechanic/Entity: Jackson, Valora, or a story trigger located in an unexplored or re-triggered outdoor overworld tile in Sovio City (e.g. northern perimeter behind buildings, rows 0-6, alleyways).
+   - Mechanic/Entity: Jackson, Valora, or a story trigger located in an unexplored or re-triggered outdoor overworld tile in Sovio City.
    - Test Method: Systematically search Sovio City outdoor sectors beyond the central plaza and west avenue.
    - Falsification: If all outdoor sectors terminate in solid perimeter walls without NPCs or triggers, move to internal structure audit.
 
-2. **Hypothesis: Unresolved Sewer Event / Alternative Storage Room**:
-   - Mechanic/Entity: An uninspected sector or interactive feature in Sovio Sewers that directly resolves Dad's kidnapping cutscene.
-   - Test Method: Audit sewer corridors for any branch or tile interaction missed during previous sweeps.
-   - Falsification: If all reachable tiles have been probed with 'A' and remain inert, focus entirely on Sovio City surface.
+2. **Sewers & Route 1 Conclusively Verified Inert**:
+   - Result: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) and Route 1 / Lancio Town have been repeatedly audited and confirmed inert. Progression requires discovering unresolved local business in Sovio City.

@@ -90,6 +90,7 @@
 ## Residential House (North Central) (Verified Turns 1447, 7239-7245)
 
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
+- **Northern Alcove & Exterior Boundary (Audited Turns 9097-9101)**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the Pokémon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the Pokémon Center or residential row.
 
 - **Interior**: Entrance mat lands at (43, 36).
 
