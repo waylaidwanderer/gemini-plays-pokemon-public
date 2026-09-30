@@ -294,8 +294,7 @@
 - **Far-Western Sector Boundaries (Verified Turns 10523-10532)**: Column 4 has an open alcove at (4, 44) and (4, 43) adjacent to the Cut Tree at (5, 43-44); column 4 is blocked north at (4, 42) by a solid pine tree trunk. Column 3 is blocked at (3, 43) and (3, 44) by solid pine trees. Tile (1, 44) is a solid pine tree trunk. Tile (0, 45) is the boundary tile where stepping Left transitions into Lancio Town at (46, 14) outside eastern signboard (44-45, 13).
 - **Route 1 Macro Loop & Connectivity**:
   - **Southbound (Sovio -> Lancio)**: Take eastern highway south past Duke (45, 12) to the row 20 ledge (40, 19), jump down south to Cottage (37, 24), then take Sand Highway south to (32, 39) and west to Lancio Town (0, 45).
-  - **Northbound (Lancio -> Sovio) (Verified Turns 10941-10986)**: From Lancio Town (0, 45), follow row 44 east through column 26 hedge gap to Central Meadow, curve east to Sand Highway at (32, 39), head north to Cottage (37, 24), head west along row 25 to column 31, and step north through hedge opening at (31, 24) to (31, 23). Proceed through Northwest Clearing past Sonia to (32, 13), ascend column 32 through (32, 10) to row 10, follow row 10 east through (33-43, 10), bypass Duke (44, 12) via row 11 to (47-52, 11), and follow eastern highway north at column 53 across row 0 into Sovio City (15, 39). 100% physically traversed and verified.
-- **Row 43 Hedge Gap & Meadow Connector (Verified Turns 10250-10252)**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
+  - **Row 43 Hedge Gap & Meadow Connector (Verified Turns 10250-10252)**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
 - **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
 - **Cottage-to-Clearing & Sand Highway Connections**:
@@ -422,7 +421,7 @@
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
-- **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house. Probed from north (15, 17) and west (14, 18); verified non-interactive decorative fixtures.
+- **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
 
@@ -529,7 +528,7 @@
 
   - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Verified 100% ambient flavor text across multi-turn tests (Turns 8810-8819).
 
-  - Family Machop at (6, 34); ambient interaction.
+  - Family Machop at (6-7, 33-35); displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...' when Machop's Toy quest is active (Verified Turn 11438).
 
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 
