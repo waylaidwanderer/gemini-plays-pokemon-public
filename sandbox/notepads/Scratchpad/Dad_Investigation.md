@@ -10,6 +10,11 @@
   - *Deduction*: Jackson departed the Metro Station lobby following the seismic tremor (Turn 1437) to investigate the disturbance outside. Finding Jackson is the mandatory event flag to unlock Metro transit to Amor City.
 
 - **Testable Hypotheses**:
-  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, Testing Turn 12091+)**: The reactive dialogue on Machop at (6-7, 33-35) indicates the Karate House has an active script condition when Machop's Toy is active. Test if interacting with Karate trainer, girlfriend, Machop, or searching Karate house 1F/2F progresses the quest or unlocks an event.
-  2. **Hypothesis B (Sewers Storage Room / Hidden Key - Formulated Turn 12068)**: In Turn 1666-1707 cutscene, grunts held Jackson captive in sewer storage room. When grunts retreated (Turn 2682), storage room remained locked/inert. Test if an item or trigger unlocks storage room at (37, 14).
+  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, Testing Turn 12091+)**:
+     - *Hypothesis*: The reactive dialogue on Machop at (8, 35) indicates the Karate House has an active script condition when Machop's Toy is active.
+     - *Test Plan*: Interact with Machop, Karate trainer (3, 34), girlfriend (3, 33), and search 2F.
+     - *Falsification Criteria*: If Machop only displays flavor/ambient aggression text ('He seems a bit agressive...') and no resident/object provides an item, quest update, or story flag related to Jackson, Hypothesis A is conclusively FALSIFIED. (Stopping condition: single pass of 1F/2F).
+  2. **Hypothesis B (Sewers Storage Room - Formulated Turn 12068)**:
+     - *Hypothesis*: The storage room at (37, 14) where Jackson was held captive may open via an overworld event trigger or switch.
+     - *Constraint*: Inventory audit (Turn 11897) confirmed zero keys held. Falsification: If no observable trigger or switch is found on the surface or accessible sewer areas, Hypothesis B is FALSIFIED.
   3. **Hypothesis C (Surface NPCs with Unexamined Conditions - Formulated Turn 12068)**: Re-test key Sovio surface NPCs to verify if dialogue updates based on current story flags, avoiding premature "100% Falsified" assumptions.

@@ -3,7 +3,7 @@
 ## Overview & Connections
 - **Entrance**: Secret stairway on the south wall of Sovio Metro Station lobby at (18-19, 25).
 - **Landing (1F)**: Asher arrives at (37, 22) at the base of the wooden staircase.
-- **Staircase Up**: Located at (38, 22) leading back up to Sovio Metro Station.
+- **Staircase Up (Verified Turns 12106-12108)**: Located at (38, 22) leading back up to Sovio Metro Station; south side has solid railing blocking direct Up entry from (38, 23); must be entered from the west at (37, 22) stepping Right.
 - **Terrain & Features**:
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
