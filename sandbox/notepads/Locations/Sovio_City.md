@@ -65,7 +65,7 @@
   - **Corner PC Terminal at (12, 1) (Verified Turn 7195, 7206)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
   - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
-  - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
+  - **2F Staircase**: Located in northwest corner at columns 1-2, rows 1-2. Blue carpeted staircase with red railings leading up to the Pokémon Center second floor (2F)!
 
 ## Sovio Metro Station (Verified Turn 1388)
 
