@@ -25,8 +25,7 @@
 ## Strategic Direction: Breaking the Sovio City Loop
 - **Falsification Result**: Sovio City surface entities are 100% ruled out. Jackson is not present in any Sovio residence, plaza, or park.
 - **Next High-Value Investigation**:
-  - Depart Sovio City via Southern Avenue (columns 14-15, row 39) onto Route 1.
-  - Proceed southwest across Route 1 to Lancio Town.
+    - Proceed southwest across Route 1 to Lancio Town.
   - Investigate Professor Ivo's Pokémon Laboratory in Lancio Town:
     1. Check Professor Ivo's dialogue for updates following the sewer confrontation.
     2. Re-examine the descending basement stairs at (12, 7) ("I probably shouldn't head down here...").
