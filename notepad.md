@@ -312,6 +312,7 @@
     - (47, 15): Pine tree foliage blocks southward traversal along column 47 from row 14.
     - Verified bypass: Row 12 connects Duke's meadow directly east through (46, 12), (47, 12), (48, 12), (49, 12) into the blue flowers at (50-51, 12) and the eastern highway at column 52-53 leading north to Sovio City (verified Turn 8449).
 - **Central Meadow North Boundary (Verified Turn 10356)**: At (26, 39), northward traversal into row 38 is blocked by solid pine tree trunks across columns 24-30. The meadow trail curves east through bird tracks at (27-29, 39-40) into the Sand Highway at (32, 39).
+- **Cottage Sector North & East Boundary Audit (Verified Turns 10368-10374)**: Ledge at row 20 spans columns 40-41; tile (41, 20) is solid collision from below. East perimeter (columns 42-43) from row 21 to 26 consists of solid pine trees and hedges. The Cottage sector is strictly an enclosed basin accessible only via the Sand Highway from the south or by jumping down the row 20 ledge from the north.
 
 <hr>
 
