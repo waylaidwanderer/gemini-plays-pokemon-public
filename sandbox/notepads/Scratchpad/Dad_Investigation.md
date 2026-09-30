@@ -24,3 +24,6 @@
 - **H4 - Regional Structural & Narrative Investigation**:
   - Methodology: Inspect the covered passage under the two-story commercial building (rows 20-22, cols 47-51) and verify Lancaster / Route 1 connection points.
   - Falsification Criteria: All paths remain solid collision or trigger standard repellent barriers.
+
+- **Quest Update (Turn 11294)**: Accepted side quest from Old Man at (51, 15) ('Quest Accepted!'). Old Man stated Machop became aggressive after losing its favorite toy in the Sovio Sewers. Bubble icon changed from rolled-up scroll to written document.
+  - Progress (Turns 11315-11324): Pokémon Center exterior (44, 14) and north alcove (40, 8-12) confirmed vacant. House (39, 7) 1F resident re-audited; dialogue confirmed ambient ('I bought my son a Wii...').
