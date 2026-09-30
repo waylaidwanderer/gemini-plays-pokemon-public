@@ -38,20 +38,21 @@
 - **Eastern Storage Room (Audited Turn 8637)**: Located at the eastern dead-end at (36-37, 14) marked with a red capsule mat bearing a south-pointing arrow. Interacting facing South on (37, 14) displays: "Its a simple storage room...". Stepping Down bumps into south void edge with no walkable warp. North wall at rows 11-12 confirmed inert brick wall collision with no text or doors.
 
 ## Wild Encounters
-- Koffing (Lv4-7, Poison; verified Turns 1720, 2205, 2405, 2734, 2751)
-- Grimer (Lv5-7, Poison; verified Turns 2121, 2246, 2416, 2666)
-- Purrloin (Lv4-7, Dark; verified Turns 2351, 2424, 2431, 2741, 7746)
-- Poochyena (Lv5-7, Dark; verified Turns 2346, 2364, 2589)
-- Klink (Lv4-7, Steel; verified Turns 2393, 2658)
-- Trubbish (Lv4-6, Poison; verified Turns 2576, 2597)
-- Stunky (Lv4, Poison/Dark; female verified Turn 1991, male verified Turn 5474)
-- Honedge (Lv5, Steel/Ghost; female verified Turn 2140, male verified Turn 5808)
-- Zubat (Lv5-6, Poison/Flying; female verified Turn 2718, male verified Turn 7395)
-- Stunfisk (male) (Lv5, Ground/Electric; verified Turn 2747)
-- Dunsparce (Lv6, Normal; female verified Turn 3136, male verified Turn 5837)
-- Shuppet (female) (Lv6, Ghost; verified Turn 4570)
-- Croagunk (Lv5, Poison/Fighting; female verified Turn 4681, male verified Turn 5652)
-- Mimikyu (male) (Lv5, Ghost/Fairy; verified Turn 7326)
+- Koffing (Lv4-7, Poison)
+- Grimer (Lv5-7, Poison)
+- Purrloin (Lv4-7, Dark)
+- Poochyena (Lv5-7, Dark)
+- Klink (Lv4-7, Steel)
+- Trubbish (Lv4-6, Poison)
+- Stunky (Lv4, Poison/Dark)
+- Honedge (Lv5, Steel/Ghost)
+- Zubat (Lv5-6, Poison/Flying)
+- Stunfisk (Lv5, Ground/Electric)
+- Dunsparce (Lv6, Normal)
+- Shuppet (Lv6, Ghost)
+- Croagunk (Lv5, Poison/Fighting)
+- Mimikyu (Lv5, Ghost/Fairy)
+
 ## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
