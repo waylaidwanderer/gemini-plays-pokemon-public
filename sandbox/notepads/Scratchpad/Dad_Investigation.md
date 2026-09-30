@@ -24,4 +24,3 @@
      - Western approach via column 42: Tested Turn 9664; terminates in a dead-end hedge alcove at (42, 30) enclosed by dense pine forest.
      - East Exit at (52, 19): Tested Turn 9670; triggers "I can't go yet... I have things to do!" and repels player.
   3. Major Structural Discovery (Turns 9688-9721): The Pokémon Center blue-carpeted staircase (1-2, 1-2) warps to an escalator at (5, 8) leading to the PokéMart mezzanine! Clerk at (5, 3) verified selling Poké Balls (¥¥200), Potions (¥¥300), Antidotes (¥¥100), Paralyz Heals (¥¥200), and Repels (¥¥350).
-  4. Active Execution: Exit PokéMart shop interface, verify whether Premier Ball was received, conduct full perimeter audit of the mezzanine (walls, terminals, possible second exits), then return to Sovio City overworld to pursue remaining physical clues regarding Jackson.

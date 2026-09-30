@@ -3,8 +3,9 @@
 - **Burden of Proof / Empirical Verification**: After being poisoned by wild Nidoran♀ on Turn 499, Sirius walked over 150 overworld steps across Route 1 without taking a single point of poison damage. On Turn 658-659, opening the party menu showed Sirius at full 22/22 HP (PSN), and using a Potion yielded 'It won't have any effect.'
 - **Turn-in-Place Mechanic**: There is NO turn-in-place mechanic on foot; pressing a D-Pad direction always turns and attempts a forward step unless blocked by terrain collision.
 
-## Facilities & PokéMarts (Verified Turns 795-805, 9706)
+## Facilities & PokéMarts (Verified Turns 795-805, 9706, 9743)
 - **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center. Verified functional with clerk in Sovio City (Turn 9706). (Note: Lancio Town Pokémon Center's layout has not yet been visually re-inspected to confirm if it contains an identical mezzanine staircase; remains unverified until tested directly in-game).
+- **Bulk Poké Ball Purchases & Premier Ball Mechanic**: In Pokémon Sors, purchasing 10 Poké Balls does NOT grant a bonus Premier Ball. Empirical verification on Turn 9743 showed Bag containing exactly 10 Poké Balls, 1 Timer Ball (obtained earlier), and 0 Premier Balls.
 ## Quests & Mission Engine (Verified Turn 1378-1381)
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 ## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
@@ -21,6 +22,6 @@
 ## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551, 9743)
 - **Poké Balls Pocket (Verified Turn 9743)**: Contains 10 Poké Balls (purchased at Sovio PokéMart Mezzanine) and 1 Timer Ball (11 catching balls total).
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
-- **Key Items Pocket**: Contains HuPhone (displaying a red notification badge [5] as of Turn 9742) and TM Case. Zero keys, keycards, access badges, or event quest items held.
+- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Zero keys, keycards, access badges, or event quest items held.
 - **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
