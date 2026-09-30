@@ -626,16 +626,14 @@
 
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
-- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge. Central meadow row 37 is blocked by pine trees at (26, 38) and (30, 38).
+- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
+- **Hypothesis 12A (Central Meadow Row 38 Exit)**: Falsified Turn 10906-10907. Verified via grid/visual that row 38 across columns 26-31 is an unbroken horizontal wall of pine tree trunks with dense forest north. Central Meadow has zero northern exits.
 
 ## Active Investigation: Route 1 Macro Connectivity
-- **Hypothesis 12 (Macro Route 1 Topology Re-Evaluation)**:
-  - **Proposition**: Progression requires reaching Sovio City by navigating the true Route 1 connection between the southern region and northern sector.
-  - **Audited Constraints**:
-    - Central Meadow northern perimeter is blocked by pine trees across columns 26-30 at rows 37-38.
-    - Row 44 dead-ends west at (24, 44) against hedges at (23, 44).
-    - Cottage area has one-way south-facing ledges at (40-41, 20).
-  - **Plan**: Re-evaluate foundational routing assumptions regarding how Sovio City is reached from southern Route 1.
+- **Hypothesis 12B (Row 44 Western Sector Northbound Corridor - DISCOVERED & VERIFIED Turn 10919)**:
+  - **Discovery**: At (24, 43), a slender bush sits at (24, 42). Immediately to its east, column 25 is an open, unobstructed grassy lane extending north across rows 43 to 37 between the pine trees!
+  - **Connectivity**: Column 25 ascends directly north into the Northwest Clearing (Youngster Mike at 29, 20 and Lass Sonia at 27, 15), providing the long-sought unblocked northbound bypass around the row 20 one-way ledge to reach Bug Catcher Duke (45, 12) and Sovio City (53, 0)!
+  - **Plan**: Advance north along column 25 through rows 42-37 into the Northwest Clearing, then head northeast to Duke and Sovio City.
 
 
 <hr>
