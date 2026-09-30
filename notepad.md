@@ -64,7 +64,7 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Location Status**: In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. The storage room at (36-37, 14) was verified inert ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
+- **Jackson's Location Status**: In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. The storage room at (37, 14) was verified inert ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
 
 ## Southwest Regional Map Topology (Verified Turn 9924 via sw_map.png)
 - **Inizio Isle**: Isolated green island node in the far southwest ocean.
@@ -452,7 +452,6 @@
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
     - Interior row 23: Stepping Down into row 23 from (48, 22) and (50, 22) confirmed solid collision (blocked).
     - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
-    - West wall along column 47 is solid collision (verified Turn 9656 at 47, 27). Southern facade/row 30 is physically unreachable from the west (blocked by hedge alcove at 42, 30) and east (blocked by Route 2 story barrier at 52, 19-22).
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -585,8 +584,8 @@
 - **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Columns 16 and 17 at row 24 are solid brick wall pillars; northward traversal from row 25 must bypass through column 18 (verified Turn 5477). Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17) (verified Turn 11036).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
-- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east to column 28 beneath a solid brick wall (rows 10-12). Note: Tile (23, 13) is impassable canal water; accessing the cross-chasm bridge at column 23 requires stepping North from (24, 13) onto (24, 12), then West onto the bridge at (23, 12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room (Audited Turns 8637, 11127)**: Located at the eastern dead-end along row 14. Tile (36, 14) is bare stone floor outside the mat (blocked south by void collision, blocked east by alcove wall, A interaction inert). The red capsule mat actually spans columns 37 and 38 at row 14 (accessed from row 13 at 37, 13). Interacting facing South on (37, 14) displays: "Its a simple storage room..."; stepping Down bumps into south void edge with no walkable warp. Tile (38, 14) is the right half of the mat. North wall at rows 11-12 confirmed inert brick wall collision with no text or doors.
+- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720, 11173)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. Note: Tile (23, 13) is impassable canal water; accessing the cross-chasm bridge at column 23 requires stepping North from (24, 13) onto (24, 12), then West onto the bridge at (23, 12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
+- **Eastern Storage Room (Audited Turns 8637, 11127, 11149)**: Located at the eastern dead-end along row 14. Tile (37, 14) holds the red capsule mat; interacting facing South displays "Its a simple storage room..."; stepping Down bumps into south void collision with no warp. Flanking tiles (36, 14) and (38, 14) are bare stone floor with inert 'A' interactions and south void collisions.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)
@@ -613,6 +612,8 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some effort, a Pokémon may be able to smash it." Confirmed impassable without HM Rock Smash (verified Turns 4549, 7768).
 - **Western Alcove & Mat (Verified Turns 4549, 7316-7317)**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
+- **Row 27 Lower Walkway Alignment (Verified Turn 11258)**: Tile (22, 28) is blocked east by canal pool embankment wall. Traversal east toward column 34 stairs must follow row 27.
+
 
 <hr>
 
@@ -631,9 +632,19 @@
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
 
-## Active Strategic Focus: Eastern Storage Room Audit
-- **Tile (36, 14) Audit (Verified Turn 11127)**: Bare floor outside the mat. Stepping Down blocked by void collision; interacting facing South with A is inert; stepping Right blocked by alcove corner wall. Access to the red mat is strictly from row 13 at (37, 13).
-- **Red Mat Scope & Remaining Tests (Columns 37-38, Row 14)**: The red capsule mat spans columns 37 and 38 at row 14. Tile (37, 14) was tested South on Turn 8637 ("Its a simple storage room..."). Tile (38, 14) (the right half of the mat), stepping Down from (38, 14), and interacting facing North/East/West remain to be tested.
+## Surface Progression Hypotheses (Post-Sewer Clearance)
+- **H1 - Metro Lobby NPC & Trigger Verification**:
+  - Methodology: Ascend 1F stairs to Metro lobby (23, 24). Inspect Valora's presence, talk to station attendant, and inspect lobby tiles.
+  - Falsification Criteria: Lobby remains empty with no new NPCs, attendant dialogue unchanged, and no triggered cutscene upon arrival.
+- **H2 - Sovio Surface Perimeter & Plaza Check**:
+  - Methodology: Exit to Central Plaza (48, 17). Check plaza perimeter, Pok�mon Center exterior (where Mother confrontation occurred), and Central Park.
+  - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza entities.
+- **H3 - Route 2 Boundary Script Audit**:
+  - Methodology: Navigate east along row 22 to tile (52, 22). Attempt eastward traversal toward Route 2.
+  - Falsification Criteria: Text 'I can't go yet... I have things to do!' persists and repels player west.
+- **H4 - Regional Structural & Narrative Investigation**:
+  - Methodology: Inspect the covered passage under the two-story commercial building (rows 20-22, cols 47-51) and verify Lancaster / Route 1 connection points.
+  - Falsification Criteria: All paths remain solid collision or trigger standard repellent barriers.
 
 
 <hr>
