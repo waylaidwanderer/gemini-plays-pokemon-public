@@ -86,9 +86,7 @@
 
 - **Interior Layout**:
 
-  - Main lobby floor lands at (23, 24) on vertical red mat.
-
-  - Stairs leading back up to Sovio City overworld at (24, 24).
+  - Main lobby floor lands at (23, 24) on vertical red mat. Stairs leading back up to Sovio City overworld at (24, 24); entered from (23, 24) stepping Right (tile 24, 25 is blocked by south railing).
 
   - **Train Timetable Board (Verified Turn 7149, 7191)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24) or (23, 24) displays: "It's a timetable showing various destinations!". Row 23 is a solid brick wall east of column 20; no open counter or ticket window exists in the lobby.
 
