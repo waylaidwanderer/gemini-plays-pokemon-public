@@ -327,7 +327,7 @@
 - **Plaza Street Lamp**: Located at (46, 17).
 - **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), trash can at (43, 20), and blonde girl at (43, 22). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) share identical dialogue: '"vroom" "vroom" Jealous kid? We are the big guys here, the ultimate motorcycle gang!' (Asher: '... what a weird gang...'). Verified 100% ambient flavor text across all three members (Turns 8567, 8572, 8806-8807).
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide ambient motorcycle gang flavor text (verified Turns 8567, 8572, 8806-8807).
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
@@ -335,7 +335,7 @@
 
 - **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
 
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) dialogue: 'This is my partner, Rocky! He's the best...' (ambient comic relief; verified Turns 8908-8909).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
 
 - **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building is verified solid collision specifically at rows 16, 18, 19, and 20.
 
@@ -348,7 +348,7 @@
 - **East Exit Story Barrier (Verified Turns 6644, 7159, 8889)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside.
-  - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) / (62, 33) says: "Nana makes the best food! Weeeee!". Nana at (62, 31) says: "I'm cooking something for my dear grandkid. She loves my cooking." Audited 100% complete; ambient residence with no items or story triggers.
+  - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
@@ -446,7 +446,7 @@
 
 ## North-Central Commercial/Residential Block
 
-- **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Decorative exterior with no entrance.
+- **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
 
 <hr>
 
@@ -555,20 +555,13 @@
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
 ## Explicit Falsifiable Story Hypotheses
-1. **Hypothesis: Metro Attendant / Platform Trigger**:
-   - Mechanic/Entity: The station attendant at (22, 19) or dialogue triggers inside the Sovio Metro Station platform.
-   - Test Method: Inspect turnstile gate (19, 21) and interact with all reachable tiles/pillars around the gate to check for alternative interactions or attendant prompts.
-   - Falsification: If all interactable tiles around the turnstile gate solely return "I should find dad first!" and force Asher south without advancing the plot, this trigger is falsified.
+1. **Hypothesis: Building (32-37, 8-12) Facade & Interior** [FALSIFIED - Turns 9029-9033]:
+   - Empirical Result: Shutter tiles (34, 12) and (35, 12) verified solid collision with zero door warps and zero interaction scripts upon 'A' press. Confirmed 100% decorative exterior with no accessible entrance.
 
-2. **Hypothesis: Overlooked Sewer Trigger / Valora Presence**:
-   - Mechanic/Entity: Valora or a secondary sewer trigger that updates the quest state post-grunt retreat.
-   - Test Method: Systematically re-verify whether any NPC (e.g. Valora) or interactive tile exists in the sewers that was missed, specifically inspecting the storage room entrance at (36, 14) and (37, 14) and the ladder sectors.
-   - Falsification: If all accessible sewer tiles contain zero NPCs and the storage room continues to display "Its a simple storage room...", this location is fully inert.
-
-3. **Hypothesis: External Route / Professor Ivo Callback**:
-   - Mechanic/Entity: Professor Ivo in Lancio Town or an external trigger on Route 1.
-   - Test Method: Check if Professor Ivo has updated dialogue now that Riolu is officially named Sirius, or if an NPC on Route 1 / Lancio reacts to the post-tremor state.
-   - Falsification: If Professor Ivo continues to give default ambient dialogue ("Hey, Ashi, how's your new Pokmon?"), this lead is falsified.
+2. **Hypothesis: External Route 1 / Lancio Town Progression Leads**:
+   - Mechanic/Entity: Open southern connection to Route 1 and Lancio Town (Professor Ivo's Lab, Route 1 NPCs).
+   - Test Method: Travel south through the unblocked Route 1 gate at (14-15, 39) to inspect Route 1 landmarks and consult Professor Ivo with Sirius officially nicknamed.
+   - Falsification: If Professor Ivo and all Route 1 NPCs retain identical dialogue without advancing story flags, external leads are falsified.
 
 
 <hr>
