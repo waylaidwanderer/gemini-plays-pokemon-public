@@ -2,7 +2,7 @@
 
 ## Profile
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
-- **Nickname**: Sirius (Currently default "Riolu", pending Name Rater)
+- **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater Turn 8948)
 - **Gender**: Male (♂)
 - **Level**: Lv14
 - **Max HP**: 40
