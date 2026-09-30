@@ -10,13 +10,14 @@
 
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
-- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge. Central meadow row 37 is blocked by pine trees at (26, 38) and (30, 38).
+- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
+- **Hypothesis 12A (Central Meadow Row 38 Exit)**: Falsified Turn 10906-10907. Verified via grid/visual that row 38 across columns 26-31 is an unbroken horizontal wall of pine tree trunks with dense forest north. Central Meadow has zero northern exits.
 
 ## Active Investigation: Route 1 Macro Connectivity
-- **Hypothesis 12 (Macro Route 1 Topology Re-Evaluation & Western Bypass)**:
-  - **Proposition**: Northbound transit from Lancio Town to Sovio City bypasses the row 20 one-way ledge via the western clearing containing Youngster Mike (29, 20) and Lass Sonia (27, 15), which connects north to Duke (45, 12) and Sovio City (53, 0).
+- **Hypothesis 12B (Row 44 Western Sector Northbound Corridor)**:
+  - **Proposition**: Northbound transit to Youngster Mike (29, 20) and Lass Sonia (27, 15) branches northward from the row 44 main corridor between columns 19 and 25 (near Signboard 2 at 19, 42).
   - **Audited Constraints**:
-    - Southbound transit uses the eastern highway past Duke (45, 12), hopping down the row 20 ledge (40-41, 20) to the Cottage.
-    - Ledges are strictly one-way; eastern tall grass at (43, 26) contains a Cut tree blocking northbound passage.
-    - Central Meadow tested blocked at (26, 38) and (30, 38), but columns 27-29 remain untested between row 39 and row 20.
-  - **Plan**: Navigate southwest from (38, 28) down Sand Highway to Central Meadow (28-29, 40), then test stepping strictly North along column 28/29 into Youngster Mike's clearing (29, 20).
+    - Central Meadow (rows 39-41) dead-ends north at row 38 pine wall.
+    - Row 44 connects column 5 to column 26 hedge gap.
+    - Columns 19-25 north of row 44 have not been surveyed for the northbound branch leading into the Northwest Clearing (which terminates west at col 23 and north at row 10).
+  - **Plan**: Step south through hedge gap at (26, 41-43) to row 44, then walk west along row 44 toward Signboard 2 (19, 42) and probe every column north (columns 25 to 19).
