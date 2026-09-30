@@ -11,8 +11,6 @@
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
-- **Hypothesis 12A (Central Meadow Row 38 Exit)**: Falsified Turn 10906-10907. Verified via grid/visual that row 38 across columns 26-31 is an unbroken horizontal wall of pine tree trunks with dense forest north. Central Meadow has zero northern exits.
-- **Hypothesis 12B (Row 44 Western Sector Northbound Corridor)**: Falsified Turn 10930. Stepping north from (25, 41) into (25, 40) is blocked by pine tree foliage collision. Entire sector across columns 20-32 between rows 38-40 is an impassable pine forest barrier.
 
 ## Route 1 Macro Connectivity (VERIFIED Turn 10966)
 - **Verified Northbound Transit (Lancio Town -> Sovio City)**:
@@ -24,4 +22,4 @@
   - From Lass Sonia (27, 15), follow flower trail northeast through (30, 13) and (32, 13) into column 32.
   - Ascend north along column 32 through (32, 12), (32, 11), and (32, 10) (verified Turns 10953-10966).
   - Column 32 opens north into row 8-9 and connects east around the rock spire (33, 8) to the blue flower highway leading into Bug Catcher Duke's meadow (45, 12) and Sovio City (53, 0).
-  - **Status**: Complete Route 1 northbound circuit physically traversed and verified! Arrived at Bug Catcher Duke's meadow at (43, 10); taking row 12 bypass to column 53 north into Sovio City.
+  - **Status**: Route 1 northbound corridor physically verified from Lancio Town through Northwest Clearing and row 10 to (47, 11); currently advancing through column 53 to cross into Sovio City.
