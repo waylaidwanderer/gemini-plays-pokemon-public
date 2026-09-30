@@ -640,5 +640,8 @@
   - Column 32 opens north into row 8-9 and connects east around the rock spire (33, 8) to the blue flower highway leading into Bug Catcher Duke's meadow (45, 12) and Sovio City (53, 0).
   - **Status**: Complete Route 1 northbound circuit from Lancio Town to Sovio City 100% physically traversed and verified! Arrived in Sovio City at (15, 39) on Turn 10986. Advancing to Sovio Metro Station and Pokémon Center.
 
+## Active Strategic Focus
+- **Sewers Audited & Evacuated**: Team Siara permanently vacated the sewers (Turn 2682); Eastern Storage Room at (36-37, 14) confirmed inert (Turn 8637). Cyclical re-exploration of sewers is abandoned.
+- **Surface Investigation Plan**: Jackson ran into Sovio City to investigate the tremor. Returning to Sovio City to inspect unexamined sectors, including the northern facade of the commercial/residential building along rows 19-20 south of Central Plaza/signpost.
 
 <hr>
