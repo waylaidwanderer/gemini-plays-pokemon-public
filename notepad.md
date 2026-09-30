@@ -323,6 +323,7 @@
 ## Geography & Connections
 
 - **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
+  - **Southern Avenue Bounds (Verified Turn 9776-9781)**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
 
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 
@@ -458,7 +459,6 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
-- **Southern Avenue Bounds (Verified Turn 9776-9781)**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
 
 
 <hr>
@@ -569,23 +569,15 @@
 ## Falsified Hypotheses
 - **Hypothesis 1 (Side Quest State Dependency)**: Falsified Turn 9376. Cancelling "Lost Toy" did not affect Metro or Route 2 roadblocks.
 - **Hypothesis 2 (Surface NPC Persistence Audit)**: Falsified Turns 9462-9537. All surface civilian NPCs and residential structures in Sovio City strictly cycle ambient flavor dialogue with zero secondary branches or progression triggers.
+- **Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)**: Falsified Turns 9637-9788. All accessible structural fixtures (park barrels, alley walls, boundary alcoves, timetable display, scanner pillars, decorative manholes) empirically tested with zero interaction triggers.
 - **Hypothesis 4 (Macro-Traversal & Level 15 Evolution)**: Falsified. Riolu evolves via friendship, not level 15. Lancio Town and Route 1 NPCs exhibit static ambient dialogue.
 
-## Active Priority: Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)
-- **Proposition**: An unexamined structural fixture, interactive object, or hidden mechanism in Sovio Metro Station or Sovio City holds the trigger or clue to locate Jackson.
-- **Protocol & Empirical Results**:
-  1. Metro Station Lobby: Visited Turns 9637-9640 & 9676-9679. Turnstiles at (19, 21) trigger "I should find dad first!" and repel. Right scanner pillar at (20, 21) tested inert. Timetable display verified.
-  2. Central Plaza & South Fixtures:
-     - Park border trash barrel at (43, 20): Tested Turn 9648; inert decorative fixture.
-     - West wall of modern building at (47, 27): Tested Turn 9656; confirmed solid wall collision.
-     - Corner barrels at (46, 22) and (46, 28-29): Confirmed solid inert obstacles blocking direct passage.
-     - Western approach via column 42: Tested Turn 9664; terminates in a dead-end hedge alcove at (42, 30) enclosed by dense pine forest.
-     - East Exit at (52, 19): Tested Turn 9670; triggers "I can't go yet... I have things to do!" and repels player.
-  3. Major Structural Discovery (Turns 9688-9721): The Pokémon Center blue-carpeted staircase (1-2, 1-2) warps to an escalator at (5, 8) leading to the PokéMart mezzanine! Clerk at (5, 3) verified selling Poké Balls (¥200), Potions (¥300), Antidotes (¥100), Paralyz Heals (¥200), and Repels (¥350).
-
-  - Southern Avenue (Columns 14-15, Rows 28-39): Tested Turns 9775-9781. Passes under archway at rows 28-29. Row 30 east is completely blocked by dense pine forest. Road runs straight south between pine trees directly to Route 1 entrance at row 39.
-
-- Metro Station Turnstile Re-test (Verified Turn 9788): Stepping onto (19, 21) triggers verbatim 'I should find dad first!' and forces Asher 1 step South to (19, 22). Roadblock remains strictly active.
+## Active Priority: Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)
+- **Proposition**: A specific item interaction, inspection, or trigger in the Bag / Key Items / HuPhone is required to advance the story state, or a key item was obtained/needs to be used.
+- **Protocol**:
+  1. Inspect HuPhone apps thoroughly (Item Storage, Mailbox, World Map, Quest Log).
+  2. Inspect all inventory items in Bag (Key Items, Items, TMs/HMs) to see if any have a 'USE' or interaction prompt.
+  3. Falsification Criteria: If all items and apps produce standard UI responses without triggering any event flags, Hypothesis 5 is falsified.
 
 
 <hr>
