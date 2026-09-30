@@ -11,19 +11,21 @@
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
 
-## Active Strategic Focus: Eastern Storage Room Audit (FALSIFIED / COMPLETE)
-- **Comprehensive Eastern Storage Room Audit (Verified Turns 11127, 11144, 11149)**:
-  - (36, 14): Bare floor west of mat; south void collision, A interaction inert.
-  - (37, 14): Red capsule mat; stepping Down bumps into void collision (no warp); interacting facing South triggers "Its a simple storage room...".
-  - (38, 14): Bare floor east of mat; south void collision, A interaction inert.
-
 ## Next Strategic Objective: Sovio Metro & Surface Re-Investigation
 - Exit Sovio Sewers via the 1F staircase at (38, 22) into Sovio Metro Station.
 - Re-examine the Metro Station lobby (check all NPCs, corners, and inspect Valora/Dad triggers).
 - Re-examine Sovio City surface with a fresh perspective.
 
-## Narrative Analyst Progression Hypotheses (Post-Sewer Clearance)
-1. **H1 - Metro Lobby Trigger**: Emerge through sewer staircase into Metro lobby to check if Valora, Jackson, or station attendant triggers a cutscene or dialogue.
-2. **H2 - Metro Turnstile Status**: Test the turnstile at (19, 21) to verify if the 'find dad' flag has updated/cleared now that sewers are evacuated.
-3. **H3 - Sovio Surface Perimeter & Center**: Check outside the Pokémon Center (where Mother confronted Dad) and the Central Plaza for Jackson's presence.
-4. **H4 - Route 2 Boundary Test**: Check if Route 2 barrier at (52, 19-21) has lifted ('I can't go yet...').
+## Surface Progression Hypotheses (Post-Sewer Clearance)
+- **H1 - Metro Lobby NPC & Trigger Verification**:
+  - Methodology: Ascend 1F stairs to Metro lobby (23, 24). Inspect Valora's presence, talk to station attendant, and inspect lobby tiles.
+  - Falsification Criteria: Lobby remains empty with no new NPCs, attendant dialogue unchanged, and no triggered cutscene upon arrival.
+- **H2 - Sovio Surface Perimeter & Plaza Check**:
+  - Methodology: Exit to Central Plaza (48, 17). Check plaza perimeter, Pokémon Center exterior (where Mother confrontation occurred), and Central Park.
+  - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza entities.
+- **H3 - Route 2 Boundary Script Audit**:
+  - Methodology: Navigate east along row 22 to tile (52, 22). Attempt eastward traversal toward Route 2.
+  - Falsification Criteria: Text 'I can't go yet... I have things to do!' persists and repels player west.
+- **H4 - Regional Structural & Narrative Investigation**:
+  - Methodology: Inspect the covered passage under the two-story commercial building (rows 20-22, cols 47-51) and verify Lancaster / Route 1 connection points.
+  - Falsification Criteria: All paths remain solid collision or trigger standard repellent barriers.
