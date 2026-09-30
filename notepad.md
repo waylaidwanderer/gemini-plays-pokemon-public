@@ -124,56 +124,103 @@
 
 # Lancio Town
 
+
+
 ## Harbor / Dock
+
 - **Dock**: Wooden pier at rows 23-26, columns 32-34.
+
 - **Surroundings**:
+
   - Cobblestone/gravel path leads north from the dock into the main town.
+
   - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turn 3351-3352).
+
   - Ocean to south and west.
 
+
+
 ## Points of Interest & Buildings
-- **Pokémon Center**: Located east of the main north-south path at (34-37, 12-16). Interior desk at (7, 4); Nurse Joy heals party; exit mat at (7, 8). No PokéMart vendor inside (verified Turns 795-805).
+
+- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story on Turn 10057 (no northwest mezzanine staircase or PokéMart clerk).
+
 - **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue (advancing through multiple ellipsis textboxes until he is startled), then kicks Asher outside to (25, 11).
+
 - **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9) on Turn 7659, resulting in solid collision with house foundation. No doors or interior entrance.
+
 - **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar (verified Turns 308-309).
+
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
+
+
 ## Visible Field Items
-- **Pok� Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
-- **Pokéball Item 2**: Visible in the far northeast corner above the pond.
+
+- **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
+
+
+
 
 ## Professor Ivo's Pokémon Laboratory (Interior)
+
 - **Entrance Foyer**:
+
   - Door lands at (12, 12) on red mat facing north.
+
   - Green runner rug extends along column 12 from row 12 to row 9.
+
   - Framed regional map on wall at (17, 8) (Verified Turn 7614): Interacting facing Left from (18, 8) displays 'A Town Map.'
+
   - Red rug, table, and PC terminal in western wing.
-  - Stairs at north wall: blocked by railing at (11, 7) from row 8.
+
+  - Stairs at north wall (Verified Turn 10072): Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
+
 - **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
+
   - Connected to foyer via hallway at row 10 (columns 13-16).
+
   - Sunlit diagonal wood flooring throughout research room.
+
   - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
-  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pok�mon?").
+
+  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
+
   - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
+
   - Wooden research desk at (21-23, 4) (Verified Turn 7627): Inert decorative fixture.
-  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pok�mon books."
+
+  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pokémon books."
+
   - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
+
 ## Southwest Beach & Coastline
-- **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
+- **Coastline / Sandy Beach (Audited Turns 10076-10078)**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-18. Physical perimeter step-tested: westernmost land at (13, 16-17), southern peninsula at (15, 18), and eastern shoreline at (19, 17) are solid natural shorelines bordering open ocean (probed with 'A'; zero hidden warps, docks, or boat triggers).
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
 
 ## Eastern Border & Route 1 Exit
+
 - **Signboard**: Located at (44, 13) marking "Route 1 ----->".
+
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
+
 - **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested Turn 3348, solid non-enterable collision with no warp or text prompt.
 
+
+
 ## Overworld Residents & NPCs
+
 - **Green-haired Girl**: Located at (22, 14). Dialogue (ambient).
+
 - **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue (ambient).
+
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
+
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue (ambient).
 
+
+
 - **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
+
 
 
 <hr>
@@ -252,15 +299,12 @@
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
   - Dirt corridor along row 44 connects column 26 west to column 5 cobblestone road.
-  - Central Pine Tree at (10, 44-46) and Signboard at (10, 47-48) are bypassed south via row 50 under the blue-capped boy (11, 49).
+  - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
   - Solid cut-tree obstacle at (5, 44) requires HM Cut.
 
 - **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
-- **Route 1 Traversal & Boundary Analysis**:
-  - **Southward (Sovio -> Lancio)**: From Sovio City (53, 0), follow Eastern Meadow south past Signpost 4 (50, 10), Duke (45, 12), bypass east to col 51 at row 12, row 17 west to the row 20 ledge at (40, 19), jump south to Cottage (40, 21), Sand Highway south to row 39 gap (32, 39), southern meadow to row 44 dirt corridor, west past Central Pine Tree (row 50 bypass) to cobblestone road (0, 45).
-  - **Northward (Lancio -> Sovio)**: From Lancio Town (0, 45), walk east along row 44 to the Northwest Clearing entrance at row 25. Walk north past Lass Sonia (27, 15) to (30, 14), turn north to row 12, then east into the central tall grass meadow (rows 10-12, columns 32-45) reaching Bug Catcher Duke at (45, 12).
-  - **Eastern Meadow Obstacles & Collisions (Verified Turns 8416-8428)**:
+- **Eastern Meadow Obstacles & Collisions (Verified Turns 8416-8428)**:
     - (46, 9) and (46, 10): Solid pine tree trunks block direct eastward traversal along rows 9-10 from (45, 9-10).
     - (48, 14): Solid pine tree trunk blocks eastward traversal along row 14 from (47, 14).
     - (47, 15): Pine tree foliage blocks southward traversal along column 47 from row 14.
@@ -271,34 +315,60 @@
 <h1><code>Mechanics/Engine</code></h1>
 
 ## Status Conditions & Overworld Poison Mechanics (Verified Turn 659)
+
 - **Overworld Poison Damage**: Overworld poison damage is completely DISABLED in Pokémon Sors v1.3 (aligns with Gen 5+ / CFRU engine rules).
+
 - **Burden of Proof / Empirical Verification**: After being poisoned by wild Nidoran♀ on Turn 499, Sirius walked over 150 overworld steps across Route 1 without taking a single point of poison damage. On Turn 658-659, opening the party menu showed Sirius at full 22/22 HP (PSN), and using a Potion yielded 'It won't have any effect.'
+
 - **Turn-in-Place Mechanic**: There is NO turn-in-place mechanic on foot; pressing a D-Pad direction always turns and attempts a forward step unless blocked by terrain collision.
 
+
+
 ## Facilities & PokéMarts (Verified Turns 795-805, 9706, 9743)
-- **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center. Verified functional with clerk in Sovio City (Turn 9706). (Note: Lancio Town Pokémon Center's layout has not yet been visually re-inspected to confirm if it contains an identical mezzanine staircase; remains unverified until tested directly in-game).
+
+- **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center. Verified functional with clerk in Sovio City (Turn 9706). (Note: Lancio Town Pokémon Center verified single-story on Turn 10057; contains no mezzanine staircase or PokéMart vendor).
+
 - **Bulk Poké Ball Purchases & Premier Ball Mechanic**: In Pokémon Sors, purchasing 10 Poké Balls does NOT grant a bonus Premier Ball. Empirical verification on Turn 9743 showed Bag containing exactly 10 Poké Balls, 1 Timer Ball (obtained earlier), and 0 Premier Balls.
+
 ## Quests & Mission Engine (Verified Turn 1378-1381)
+
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
+
 ## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
+
 - **Item Storage**: Portable PC item storage (verified functional, audited empty Turn 9856: "There are no items.").
+
 - **Mailbox**: Portable PC mailbox (audited empty Turn 9860: "There's no Mail here.").
+
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
+
 - **Quest Log Scope & Structure**:
+
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
+
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey [Verified Turn 6550], or 'This Quest hasn't been completed yet!' for uncompleted quests).
+
   - 'Quest Status': Displays status for active quests without detailed objective hints.
+  - **Quest List Navigation**: In Pokémon Sors, the Quest List sub-menu does not dismiss with the B button; the player must explicitly navigate to 'Exit' from the list and press A.
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
+
 - **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
+
 ## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551, 9743)
+
 - **Poké Balls Pocket (Verified Turn 9743)**: Contains 10 Poké Balls (purchased at Sovio PokéMart Mezzanine) and 1 Timer Ball (11 catching balls total).
+
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
+
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Zero keys, keycards, access badges, or event quest items held.
+
 - **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
+
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
 
-- **HuPhone Quest List Navigation**: In Pok�mon Sors, the Quest List sub-menu does not dismiss with the B button; the player must explicitly navigate to 'Exit' from the list and press A.
+
+
 
 <hr>
 
@@ -556,18 +626,18 @@
 - **Hypothesis 4 (Macro-Traversal & Level 15 Evolution)**: Falsified. Riolu evolves via friendship, not level 15. Lancio Town and Route 1 NPCs exhibit static ambient dialogue.
 - **Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)**: Falsified Turns 9856-9901. HuPhone apps (Item Storage, Mailbox, World Map, Quest Log) and Bag pockets audited static with zero interactive story triggers or progression tools.
 
-## Active Priority: Hypothesis 6 (Macro Exploration & Unvisited Regional Nodes)
-- **Proposition**: Progression requires discovering an overlooked physical pathway, building, or regional entity outside the local Sovio transit hubs.
+## Active Priority: Macro Exploration of Route 1 & Lancio Town Boundaries
+- **Proposition**: Progression requires discovering an overlooked physical pathway, building, or regional entity outside the local Sovio transit hubs. The sewer holding room at (36-37, 14) was verified inert on Turn 8637; returning there without new in-game variables is an exhausted loop.
 - **Protocol**:
-  1. Systematic re-evaluation of non-transit map nodes and unexplored boundaries.
-  2. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
+  1. Route 1 southern corridor verified (row 48 signboard bypass). Macro exploration active in Lancio Town.
+  2. Full exploration of Lancio Town southern and coastal boundaries.
+  3. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
 
-## Active Priority: Hypothesis 7 (Sewer Holding Room Threshold & Discovery Trigger Audit)
-- **Proposition**: The assumption that Jackson was rescued on Turn 2682 was an unverified narrative inference. Grunts vacated under Marie's retreat orders, but Asher never confirmed Jackson's escape. Asher's turnstile blocker ('I should find dad first!') persists because the post-withdrawal realization event at the holding room at (36-37, 14) was never triggered.
-- **Protocol**:
-  1. Return from Route 1 to Sovio City via Sand Highway, row 39 hedge gap, Northwest Clearing, and row 12 meadow trail.
-  2. Enter Sovio Metro Station and warp down into Sovio Sewers.
-  3. Re-navigate to the Eastern Storage Room at (36-37, 14).
-  4. Exhaustively test stepping onto all floor tiles and inspecting all facing directions (North, South, East, West) at the holding room threshold.
+## Macro Exploration Audit Log (Turns 10042-10082)
+- **Lancio Pokémon Center (Verified Turn 10057)**: 100% audited single-story; no mezzanine staircase or PokéMart clerk. NPCs give ambient healing and regional PokéMart lore.
+- **Professor Ivo's Pokémon Laboratory (Verified Turns 10068-10072)**: Ivo gives static starter dialogue ("Hey, Ashi, how's your new Pokémon?"). Incubator machine gives static text. North wall stairs at (12, 7) lead down to a basement floor and trigger the story barrier text: "I probably shouldn't head down here...", repelling player to (12, 8).
+- **Southwest Beach & Coastline (Verified Turns 10076-10078)**: Step-tested perimeter from westernmost land (13, 16-17) to southern peninsula (15, 18) and eastern shore (19, 17); confirmed solid natural ocean boundaries with zero hidden warps, docks, or cave triggers.
+- **Active Navigation**: Testing Northwest House at (25, 10) and Lancio Harbor to complete Lancio Town audit.
+
 
 <hr>
