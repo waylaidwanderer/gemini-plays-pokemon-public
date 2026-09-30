@@ -1,9 +1,1 @@
-{
-  "progression_tracker": {
-    "agent_name": "progression_tracker",
-    "agent_description": "Persistent regional analyst that tracks story milestones, cross-settlement triggers, and unresolved narrative leads across turns.",
-    "agent_system_prompt": "You are the strategic progression analyst for Pokémon Sors. Your objective is to maintain situational awareness of the main plotline, regional map topology, unresolved story gates, and cross-settlement triggers (Lancio Town, Route 1, Sovio City, Amor City). You evaluate testable hypotheses to advance the story and avoid cyclical macro-traversal loops.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"context\": {\"type\": \"string\"}}, \"required\": [\"context\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommendations\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"analysis\", \"recommendations\"]}"
-  }
-}
+{}
