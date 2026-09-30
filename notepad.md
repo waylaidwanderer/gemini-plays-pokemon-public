@@ -452,7 +452,6 @@
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
     - Interior row 23: Stepping Down into row 23 from (48, 22) and (50, 22) confirmed solid collision (blocked).
     - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
-    - East exit barrier: At (52, 22), attempting to step South into (52, 23) triggers the East Exit story barrier ("I can't go yet... I have things to do!") and repels player 1 step West to (51, 22).
     - West wall along column 47 is solid collision (verified Turn 9656 at 47, 27). Southern facade/row 30 is physically unreachable from the west (blocked by hedge alcove at 42, 30) and east (blocked by Route 2 story barrier at 52, 19-22).
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
@@ -583,11 +582,11 @@
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
-- **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Columns 16 and 17 at row 24 are solid brick wall pillars; northward traversal from row 25 must bypass through column 18 (verified Turn 5477).
+- **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Columns 16 and 17 at row 24 are solid brick wall pillars; northward traversal from row 25 must bypass through column 18 (verified Turn 5477). Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17) (verified Turn 11036).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east to column 28 beneath a solid brick wall (rows 10-12). Note: Tile (23, 13) is impassable canal water; accessing the cross-chasm bridge at column 23 requires stepping North from (24, 13) onto (24, 12), then West onto the bridge at (23, 12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room (Audited Turn 8637)**: Located at the eastern dead-end at (36-37, 14) marked with a red capsule mat bearing a south-pointing arrow. Interacting facing South on (37, 14) displays: "Its a simple storage room...". Stepping Down bumps into south void edge with no walkable warp. North wall at rows 11-12 confirmed inert brick wall collision with no text or doors.
+- **Eastern Storage Room (Audited Turns 8637, 11127)**: Located at the eastern dead-end along row 14. Tile (36, 14) is bare stone floor outside the mat (blocked south by void collision, blocked east by alcove wall, A interaction inert). The red capsule mat actually spans columns 37 and 38 at row 14 (accessed from row 13 at 37, 13). Interacting facing South on (37, 14) displays: "Its a simple storage room..."; stepping Down bumps into south void edge with no walkable warp. Tile (38, 14) is the right half of the mat. North wall at rows 11-12 confirmed inert brick wall collision with no text or doors.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)
@@ -626,27 +625,15 @@
 - Route 2 exit at (52, 19-21): Triggers "I can't go yet... I have things to do!" and repels player 1 step West.
 - Jackson last seen departing the Metro Station lobby into Sovio City following the seismic tremor (Turn 1437).
 - Team Siara grunts permanently retreated from Sovio Sewers after Marie's broadcast (Turn 2682).
-- Eastern Storage Room at (36-37, 14): Audited inert Turn 8637 ("Its a simple storage room...").
 - Dark Sector / Basement: Explored; contains rugged Rock Smash rock at (22, 10) and Nugget at (23, 4). All accessible sewer sectors confirmed cleared and inert.
 
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
 
-## Route 1 Macro Connectivity (VERIFIED Turn 10966)
-- **Verified Northbound Transit (Lancio Town -> Sovio City)**:
-  - From Lancio Town (0, 45), walk east along row 44 to (26, 44).
-  - Step north through hedge gap (26, 41-43) into Central Meadow, curve east along bird tracks (28, 41) to Sand Highway at (32, 39).
-  - Walk north along Sand Highway (columns 36-37) to the Cottage at (37, 24).
-  - Heading west in front of Cottage along row 25 to column 31, step north through the hedge opening at (31, 24) to (31, 23).
-  - Open grassy corridor extends northwest directly into Northwest Clearing (Youngster Mike at 29, 20; Lass Sonia at 27, 15).
-  - From Lass Sonia (27, 15), follow flower trail northeast through (30, 13) and (32, 13) into column 32.
-  - Ascend north along column 32 through (32, 12), (32, 11), and (32, 10) (verified Turns 10953-10966).
-  - Column 32 opens north into row 8-9 and connects east around the rock spire (33, 8) to the blue flower highway leading into Bug Catcher Duke's meadow (45, 12) and Sovio City (53, 0).
-  - **Status**: Complete Route 1 northbound circuit from Lancio Town to Sovio City 100% physically traversed and verified! Arrived in Sovio City at (15, 39) on Turn 10986. Advancing to Sovio Metro Station and Pokémon Center.
+## Active Strategic Focus: Eastern Storage Room Audit
+- **Tile (36, 14) Audit (Verified Turn 11127)**: Bare floor outside the mat. Stepping Down blocked by void collision; interacting facing South with A is inert; stepping Right blocked by alcove corner wall. Access to the red mat is strictly from row 13 at (37, 13).
+- **Red Mat Scope & Remaining Tests (Columns 37-38, Row 14)**: The red capsule mat spans columns 37 and 38 at row 14. Tile (37, 14) was tested South on Turn 8637 ("Its a simple storage room..."). Tile (38, 14) (the right half of the mat), stepping Down from (38, 14), and interacting facing North/East/West remain to be tested.
 
-## Active Strategic Focus
-- **Sewers Audited & Evacuated**: Team Siara permanently vacated the sewers (Turn 2682); Eastern Storage Room at (36-37, 14) confirmed inert (Turn 8637). Cyclical re-exploration of sewers is abandoned.
-- **Surface Investigation Plan**: Jackson ran into Sovio City to investigate the tremor. Returning to Sovio City to inspect unexamined sectors, including the northern facade of the commercial/residential building along rows 19-20 south of Central Plaza/signpost.
 
 <hr>
