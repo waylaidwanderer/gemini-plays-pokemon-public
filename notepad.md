@@ -360,7 +360,8 @@
 - **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
-- **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
+- **South Sidewalk Boundary (Verified Turn 9652)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (46, 28-29) blocking passage directly east into the row 28-29 alley.
+- **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding, four blue windowpanes, and a brown wooden double door at (49-50, 29) facing south onto row 30 street. West wall along column 47 is solid collision (verified Turn 9656 at 47, 27).
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -560,10 +561,14 @@
 
 ## Active Priority: Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)
 - **Proposition**: An unexamined structural fixture, interactive object, or hidden mechanism in Sovio Metro Station or Sovio City holds the trigger or clue to locate Jackson.
-- **Protocol**:
-  1. Inspect Sovio Metro Station lobby fixtures: ticket vending machines, timetable board, station attendant from all accessible sides, turnstile scanner pillars, and perimeter walls. Check if Valora or another NPC is present or triggers new dialogue.
-  2. Inspect Sovio City Central Plaza and urban fixtures: phone booths, street lamps, trash cans, signposts, building facades, and park boundaries.
-- **Falsification Criteria**: If all fixtures confirm solid inert collision without script execution, structural triggers are ruled out.
+- **Protocol & Empirical Results**:
+  1. Metro Station Lobby: Visited Turns 9637-9640; turnstiles and exit verified functional. Platform side attendant and vending machines remain separated by turnstile gate.
+  2. Central Plaza Fixtures:
+     - Park border trash barrel at (43, 20): Tested Turn 9648; inert decorative fixture.
+     - West wall of modern building at (47, 27): Tested Turn 9656; confirmed solid wall collision.
+     - Corner barrels at (46, 22) and (46, 28-29): Confirmed solid inert obstacles blocking direct passage.
+  3. New Discovery (Turn 9656-Present): Two-story building at columns 47-51, rows 20-29. Features a south-facing wooden double door at (49-50, 29) accessible via row 30 street.
+  4. Active Execution: Navigating around the row 29 pine hedges via column 42 to row 30, then walking east to inspect the south-facing entrance at (49-50, 29).
 
 
 <hr>
