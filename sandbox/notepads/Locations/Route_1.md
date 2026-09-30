@@ -36,9 +36,9 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
-- **Sand Highway West Boundary (Verified Turn 10214)**: Row 28 terminates west at column 32 against a solid vertical wall of pine trees.
-- **Cottage Sector East Perimeter (Verified Turn 10212)**: Columns 41-43 at rows 27-32 form a tall grass patch flanked to the east by a solid wall of pine trees starting at column 44 with zero eastern exits.
-- **Southern Corridor North Boundary (Verified Turns 10179-10195)**: Columns 20 to 28 at rows 38-40 form a solid, unbroken horizontal pine tree wall with no passable openings. Northward traversal from the row 44 dirt corridor directly to the upper sector across columns 20-28 is 100% blocked.
+- **Route 1 Macro Loop & Northern Passage to Sovio City**:
+  - **Southbound (Sovio -> Lancio)**: Take eastern highway south past Duke (45, 12) to the row 20 ledge (40, 19), jump down south to Cottage (37, 24), then take Sand Highway south to (32, 39) and west to Lancio Town (0, 45).
+  - **Northbound (Lancio -> Sovio)**: From Lancio / southern path, proceed to the western corridor near Camper (18, 45) and Signboard 2 (19, 42). Ascend north through the western corridor to the Northwest Clearing (Youngster Mike at 29, 20 and Lass Sonia at 27, 15). Head east north of the ledge to Bug Catcher Duke's meadow (45, 12), then take row 12 east to the highway at columns 52-53 and head north into Sovio City (53, 0).
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
 - **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
 - **Cottage Sector & One-Way Ledge**: Red curved branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Cottage entrance is at (37, 24). Ledge cannot be reversed northward.
