@@ -589,5 +589,6 @@
   - Three Bikers (13, 21-23): Tested multi-textbox persistence on Biker 1 and Biker 2. Both cycle the exact same 2-line gang dialogue ("Jealous kid? / ultimate motorcycle gang!") followed by Asher's thought bubble; confirmed 100% ambient comedic NPCs with zero secondary branches.
   - Karate Couple (House 14, 15): Tested multi-textbox persistence on Karate trainer (3, 34) and girlfriend (3, 33). Both cycle the exact same 2-line martial arts debate ("debate over which fighting stlye is better / kickbox vs karate") and loop back to baseline; confirmed 100% ambient flavor text with zero secondary branches, battle challenges, or items.
   - Boy with Rocky (23, 17): Tested multi-textbox persistence (Turns 9486-9488). Cycles identical baseline dialogue ("This is my partner, Rocky! He's the best... / Rocky: ..."); confirmed 100% ambient comic relief with zero secondary branches.
+  - Gumball House Boy (25, 32): Tested multi-textbox persistence (Turns 9491-9493). Cycles identical 1-line dialogue ("I love this show!"); confirmed 100% ambient pop-culture easter egg.
 
 <hr>
