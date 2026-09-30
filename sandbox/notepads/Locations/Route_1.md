@@ -12,7 +12,7 @@
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
 - **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway (completed quest location; ambient advice).
-- **NPC 2 (Camper/Straw Hat)**: Located at (18, 45) facing south. Ambient advice.
+- **NPC 2 (Camper/Straw Hat)**: Located at (17, 44) facing south (verified Turn 11738). Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
@@ -61,7 +61,3 @@
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
   - Southward Hop: Stepping South from (41, 19) hops over the one-way ledge at row 20 and lands on (41, 21) in the Cottage yard (verified Turn 11716).
 - **Hidden Hedge Passage (Verified Turns 11554-11568)**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
-- **Duke Meadow & Eastern Highway Connector (Verified Turns 11599-11660)**:
-  - Walkable perimeter around Duke: (44, 12) and (44, 13) are open grass tiles; (45, 13), (46, 13), and (47, 13) are walkable floor tiles beneath the tree canopies along row 13.
-  - Solid collisions: Duke at (45, 12); pine tree at (48, 13) blocks eastward passage along row 13 (verified Turn 11660); pine tree trunks line row 14 at (44-48, 14).
-  - Row 12 Eastbound Corridor: Walkable path connecting Duke's meadow at (44-47, 12) east beneath the canopies directly into the Eastern Highway at columns 52-53 (traversed Turn 11480; (47, 12) verified walkable Turn 11613; (48, 12) verified walkable Turn 11679).
