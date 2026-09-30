@@ -11,11 +11,6 @@
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
 
-## Next Strategic Objective: Sovio Metro & Surface Re-Investigation
-- Exit Sovio Sewers via the 1F staircase at (38, 22) into Sovio Metro Station.
-- Re-examine the Metro Station lobby (check all NPCs, corners, and inspect Valora/Dad triggers).
-- Re-examine Sovio City surface with a fresh perspective.
-
 ## Surface Progression Hypotheses (Post-Sewer Clearance)
 - **H1 - Metro Lobby NPC & Trigger Verification**:
   - Methodology: Ascend 1F stairs to Metro lobby (23, 24). Inspect Valora's presence, talk to station attendant, and inspect lobby tiles.
