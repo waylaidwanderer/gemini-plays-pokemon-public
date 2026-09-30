@@ -50,7 +50,6 @@
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
     - Interior row 23: Stepping Down into row 23 from (48, 22) and (50, 22) confirmed solid collision (blocked).
     - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
-    - East exit barrier: At (52, 22), attempting to step South into (52, 23) triggers the East Exit story barrier ("I can't go yet... I have things to do!") and repels player 1 step West to (51, 22).
     - West wall along column 47 is solid collision (verified Turn 9656 at 47, 27). Southern facade/row 30 is physically unreachable from the west (blocked by hedge alcove at 42, 30) and east (blocked by Route 2 story barrier at 52, 19-22).
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)

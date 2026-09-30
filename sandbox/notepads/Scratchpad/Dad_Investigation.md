@@ -12,5 +12,5 @@
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
 
 ## Active Strategic Focus: Eastern Storage Room Audit
-- **Audit Parameter Gap at (36-37, 14)**: Turn 8637 audit only tested stepping/interacting South on tile (37, 14) ("Its a simple storage room..."). Tile (36, 14), stepping Down off the red mat from (36, 14), and interacting facing North/East/West remain completely untested.
-- **Test Protocol**: Navigate across catwalks to (36-37, 14), step onto (36, 14), test stepping Down, and test all interaction angles to verify if (36, 14) conceals an active entrance/trigger for Jackson's location.
+- **Tile (36, 14) Audit (Verified Turn 11127)**: Bare floor outside the mat. Stepping Down blocked by void collision; interacting facing South with A is inert; stepping Right blocked by alcove corner wall. Access to the red mat is strictly from row 13 at (37, 13).
+- **Red Mat Scope & Remaining Tests (Columns 37-38, Row 14)**: The red capsule mat spans columns 37 and 38 at row 14. Tile (37, 14) was tested South on Turn 8637 ("Its a simple storage room..."). Tile (38, 14) (the right half of the mat), stepping Down from (38, 14), and interacting facing North/East/West remain to be tested.
