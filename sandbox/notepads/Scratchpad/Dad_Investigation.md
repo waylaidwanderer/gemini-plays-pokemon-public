@@ -11,15 +11,3 @@
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
-
-## Route 1 Macro Connectivity (VERIFIED Turn 10966)
-- **Verified Northbound Transit (Lancio Town -> Sovio City)**:
-  - From Lancio Town (0, 45), walk east along row 44 to (26, 44).
-  - Step north through hedge gap (26, 41-43) into Central Meadow, curve east along bird tracks (28, 41) to Sand Highway at (32, 39).
-  - Walk north along Sand Highway (columns 36-37) to the Cottage at (37, 24).
-  - Heading west in front of Cottage along row 25 to column 31, step north through the hedge opening at (31, 24) to (31, 23).
-  - Open grassy corridor extends northwest directly into Northwest Clearing (Youngster Mike at 29, 20; Lass Sonia at 27, 15).
-  - From Lass Sonia (27, 15), follow flower trail northeast through (30, 13) and (32, 13) into column 32.
-  - Ascend north along column 32 through (32, 12), (32, 11), and (32, 10) (verified Turns 10953-10966).
-  - Column 32 opens north into row 8-9 and connects east around the rock spire (33, 8) to the blue flower highway leading into Bug Catcher Duke's meadow (45, 12) and Sovio City (53, 0).
-  - **Status**: Complete Route 1 northbound circuit from Lancio Town to Sovio City 100% physically traversed and verified! Arrived in Sovio City at (15, 39) on Turn 10986. Advancing to Sovio Metro Station and Pokémon Center.
