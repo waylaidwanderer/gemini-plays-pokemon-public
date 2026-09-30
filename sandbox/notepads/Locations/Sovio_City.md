@@ -44,7 +44,7 @@
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
 - **South Sidewalk Boundary (Verified Turn 9652)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (46, 28-29) blocking passage directly east into the row 28-29 alley.
-- **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding, four blue windowpanes, and a brown wooden double door at (49-50, 29) facing south onto row 30 street. West wall along column 47 is solid collision (verified Turn 9656 at 47, 27).
+- **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes. West wall along column 47 is solid collision (verified Turn 9656 at 47, 27). Southern facade/row 30 is physically unreachable from the west (blocked by hedge alcove at 42, 30) and east (blocked by Route 2 story barrier at 52, 19).
 
 ## Pokééémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -138,3 +138,4 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokééémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
+- **Southern Avenue Bounds (Verified Turn 9776-9781)**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
