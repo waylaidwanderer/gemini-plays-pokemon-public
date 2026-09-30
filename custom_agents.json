@@ -1,9 +1,1 @@
-{
-  "progression_strategist": {
-    "agent_name": "progression_strategist",
-    "agent_description": "Synthesizes regional lore, map topology, verified entity states, and blocker mechanics to propose novel progression hypotheses and uncover unexamined game states.",
-    "agent_system_prompt": "You are an expert game progression strategist and analytical reasoner. When provided with current progression blockers, verified entity states, and historical observations, you critically analyze assumptions, identify logical blindspots, and formulate actionable, testable progression hypotheses to break progression deadlocks.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_blockers\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"verified_leads\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"untested_hypotheses\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_blockers\", \"verified_leads\", \"untested_hypotheses\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"synthesis\": {\"type\": \"string\"}, \"blindspots\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_actions\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"synthesis\", \"blindspots\", \"recommended_actions\"]}"
-  }
-}
+{}
