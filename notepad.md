@@ -652,17 +652,12 @@
   - **Context**: Columns 12-18 are confirmed blocked northward by solid trees/hedges at rows 40-42.
   - **Resolution (Turn 10524)**: FALSIFIED for columns 3-4. Probed (4, 44) and (4, 43) (open alcove adjacent to Cut Tree), (4, 42) (solid pine tree trunk), (3, 44) and (3, 43) (solid pine trees). Northern passage at column 5 is gated by the Cut Tree.
 - **Central Meadow Row 38 Testing (Turns 10585-10587)**: (28, 40) blocked by small pine tree. (27, 38) confirmed solid pine tree trunk collision. Row 38 confirmed blocked across columns 26-29.
-## Turn 10602 Reflection & Sand Highway Survey
-- **Reflection**: Traversed the southern Route 1 corridor via Central Meadow and entered the Sand Highway at (35, 37).
-- **Western Boundary Survey**: Currently advancing north along the Sand Highway (columns 36-37) to systematically test west-facing tiles across rows 26-36 for unverified connections to the Northwest Clearing.
-- **Cottage East Perimeter Testing (Turn 10612)**: (40, 21) and (41, 21) confirmed blocked to the north by the row 20 ledge. Currently probing rows 22-23 at column 42 for the opening into the Eastern Meadow.
-- **Cottage East Perimeter Audit (Verified Turns 10614-10625)**: Column 42 tested across rows 21, 22, and 24: completely solid pine trees and trunks. Confirmed zero passage exists east from the Cottage area into the Eastern Meadow. The Cottage area is an isolated landing south of the row 20 one-way ledge, connecting exclusively south via the Sand Highway.
-- **Column 26 North Boundary Collision Test (Verified Turn 10645-10649)**: Stepping Up from (26, 39) into (26, 38) resulted in solid collision with a pine tree trunk. Column 26 is blocked north at row 38 by unbroken pine forest.
+- **Cottage East Perimeter Audit (Verified Turns 10614-10625)**: Column 42 tested across rows 21, 22, and 24: solid pine trees and trunks. Confirmed zero passage exists east from the Cottage area into the Eastern Meadow. The Cottage area is an isolated landing south of the row 20 one-way ledge, connecting exclusively south via the Sand Highway.
+- **Column 26 Collision Test (Verified Turn 10646)**: Stepping Up from (26, 39) into (26, 38) resulted in solid collision with a pine tree trunk.
 - **Hypothesis 11 (Route 1 Northbound Connection Survey)**:
-  - **Proposition**: Progression back to Sovio City requires finding the northbound passage out of the southern Route 1 loop.
+  - **Proposition**: Progression back to Sovio City requires identifying the verified northbound passage out of the southern Route 1 loop.
   - **Candidate Avenues**:
-    1. Avenue A: Signboard 2 sector (columns 18-21, rows 40-42) to test if the path to the Northwest Clearing (Mike at 29, 20) ascends from the western path.
-    2. Avenue B: Central Meadow columns 29-31 along row 38 where open grass exists north of the cypress trees.
-    3. Avenue C: Western boundary of the Sand Highway (columns 34-35, rows 27-36).
+    1. Avenue A: Signboard 2 sector (columns 18-21, rows 40-44) to audit whether the corridor toward Youngster Mike (29, 20) branches north from the southern path.
+    2. Avenue B: Western boundary of the Sand Highway (columns 34-35, rows 27-36) to audit for an unverified westward opening.
 
 <hr>
