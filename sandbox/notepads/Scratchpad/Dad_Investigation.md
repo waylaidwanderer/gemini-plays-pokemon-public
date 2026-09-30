@@ -19,6 +19,13 @@
   - Route 2 barrier at (52, 19): Tested post-cancellation on Turn 9409-9410; triggers "I can't go yet... I have things to do!" and repels player 1 step West.
 - **Conclusion**: Side quest state has zero bearing on regional roadblock scripts. Hypothesis 1 is 100% conclusively falsified and closed.
 
+### Hypothesis 2: Exhaustive Surface NPC Persistence & Trigger Audit
+- **Proposition**: An NPC in Sovio City possesses a secondary dialogue branch or progression trigger activated only upon repeated or sequential interaction (similar to the Protect TM boy in Lancio Town).
+- **Test Protocol**:
+  1. Systematically interact with every surface NPC in Sovio City (Bikers, boy with Rocky, Gumball family, Karate couple, park visitors, terrace residents).
+  2. Test persistent dialogue (3+ presses of 'A') to check for multi-textbox shifts.
+- **Falsification Criteria**: If all NPCs cycle to identical baseline dialogue strings with no flag updates, NPC interaction is ruled out.
+
 ### Hypothesis 3: Unchecked Environmental or Structural Features in Sovio City
 - **Proposition**: An unmapped entrance, back door, or interactive object in Sovio City holds the clue or passage to Jackson.
 - **Test Protocol**:
@@ -46,3 +53,4 @@
   - Boy with Rocky (23, 17): Tested multi-textbox persistence (Turns 9486-9488). Cycles identical baseline dialogue ("This is my partner, Rocky! He's the best... / Rocky: ..."); confirmed 100% ambient comic relief with zero secondary branches.
   - Gumball House Boy (25, 32): Tested multi-textbox persistence (Turns 9491-9493). Cycles identical 1-line dialogue ("I love this show!"); confirmed 100% ambient pop-culture easter egg.
   - Gumball House Mother (27, 33): Tested multi-textbox persistence (Turns 9494-9497). Cycles identical 2-line dialogue ("My son is watching some cartoon... / Why is the goldfish the cat's brother?"); confirmed 100% ambient pop-culture easter egg.
+  - North Central House Elderly Man (41, 33): Tested multi-textbox persistence (Turns 9522-9524). Cycles identical 2-line dialogue ("I bought my son a Wii... / Not sure why he asked for one its an old thing but whatever."); confirmed 100% ambient flavor text.
