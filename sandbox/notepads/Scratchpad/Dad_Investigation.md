@@ -50,6 +50,6 @@
   - Prop (b) Falsification: If Sand Highway west flank rows 30-36 are solid trees.
   - Prop (c) Falsification: If row 44 east of column 26 terminates in solid obstacles.
 - **Empirical Test Results (Turns 10415-10438)**:
-  - Prop (a) Status: FALSIFIED. Tile (31, 38) verified solid pine tree trunk (Turn 10415). Central Meadow row 38 is an unbroken pine tree line across columns 26-32.
+  - Prop (a) Status: FALSIFIED. Tested (26, 38) Turn 10356, (31, 38) Turn 10415, and (29, 38) Turn 10446; all verified solid pine tree trunks. Central Meadow row 38 is an unbroken pine tree line across columns 26-32 with zero openings.
   - Prop (c) Status: FALSIFIED. Row 44 past column 26 verified to dead-end at alcove (27, 44) enclosed east and south by solid pine trees and pond (Turn 10419).
   - Eastern Perimeter Test: Tile (42, 27) -> East to (43, 27) verified solid cypress/pine tree obstacle (Turn 10438). Columns 43-44 form an unbroken vertical pine tree wall from row 21 down to row 38.
