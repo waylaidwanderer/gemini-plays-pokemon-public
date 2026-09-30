@@ -33,7 +33,7 @@
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey [Verified Turn 6550], or 'This Quest hasn't been completed yet!' for uncompleted quests).
 
   - 'Quest Status': Displays status for active quests without detailed objective hints.
-  - **Quest List Navigation**: In Pokémon Sors, the Quest List sub-menu does not dismiss with the B button; the player must explicitly navigate to 'Exit' from the list and press A.
+  - **HuPhone Menu & Quest Navigation (Verified Turn 11311)**: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 
