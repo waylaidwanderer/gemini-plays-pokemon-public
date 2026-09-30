@@ -11,15 +11,12 @@
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
 ## Explicit Falsifiable Story Hypotheses
-1. **Hypothesis: Metro Attendant / Platform Trigger** [FALSIFIED - Turn 9018]:
-   - Empirical Result: Interacting with turnstile gate (19, 21) facing North with 'A' returns no prompt. Stepping onto (19, 21) triggers verbatim 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Attendant at (22, 19) remains unreachable on platform side. Gated strictly behind story event flag of finding Jackson.
+1. **Hypothesis: Building (32-37, 8-12) Facade & Interior**:
+   - Mechanic/Entity: Tan building with wooden shutters at (34-35, 12) between Pokémon Center and West Avenue.
+   - Test Method: Test collision and 'A' interaction on row 12 across columns 32-37.
+   - Falsification: If all facade tiles (32-37, 12) have solid collision and yield zero text prompts upon 'A' interaction, this building is confirmed 100% decorative with no entrance.
 
-2. **Hypothesis: Overlooked Sewer Trigger / Valora Presence**:
-   - Mechanic/Entity: Valora or a secondary sewer trigger that updates the quest state post-grunt retreat.
-   - Test Method: Systematically re-verify whether any NPC (e.g. Valora) or interactive tile exists in the sewers that was missed, specifically inspecting the storage room entrance at (36, 14) and (37, 14) and the ladder sectors.
-   - Falsification: If all accessible sewer tiles contain zero NPCs and the storage room continues to display "Its a simple storage room...", this location is fully inert.
-
-3. **Hypothesis: External Route / Professor Ivo Callback**:
-   - Mechanic/Entity: Professor Ivo in Lancio Town or an external trigger on Route 1.
-   - Test Method: Check if Professor Ivo has updated dialogue now that Riolu is officially named Sirius, or if an NPC on Route 1 / Lancio reacts to the post-tremor state.
-   - Falsification: If Professor Ivo continues to give default ambient dialogue ("Hey, Ashi, how's your new Pokmon?"), this lead is falsified.
+2. **Hypothesis: External Route 1 / Lancio Town Progression Leads**:
+   - Mechanic/Entity: Open southern connection to Route 1 and Lancio Town (Professor Ivo's Lab, Route 1 NPCs).
+   - Test Method: Travel south through the unblocked Route 1 gate at (14-15, 39) to inspect Route 1 landmarks and consult Professor Ivo with Sirius officially nicknamed.
+   - Falsification: If Professor Ivo and all Route 1 NPCs retain identical dialogue without advancing story flags, external leads are falsified.
