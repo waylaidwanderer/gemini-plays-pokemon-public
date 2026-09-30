@@ -54,3 +54,4 @@
   - Gumball House Boy (25, 32): Tested multi-textbox persistence (Turns 9491-9493). Cycles identical 1-line dialogue ("I love this show!"); confirmed 100% ambient pop-culture easter egg.
   - Gumball House Mother (27, 33): Tested multi-textbox persistence (Turns 9494-9497). Cycles identical 2-line dialogue ("My son is watching some cartoon... / Why is the goldfish the cat's brother?"); confirmed 100% ambient pop-culture easter egg.
   - North Central House Elderly Man (41, 33): Tested multi-textbox persistence (Turns 9522-9524). Cycles identical 2-line dialogue ("I bought my son a Wii... / Not sure why he asked for one its an old thing but whatever."); confirmed 100% ambient flavor text.
+  - North Central House Boy (44, 14): Tested multi-textbox persistence (Turns 9526-9528). Cycles identical 1-line dialogue ("I love the games on the Wii! / I'm playing my favorite right now."); confirmed 100% ambient flavor text.
