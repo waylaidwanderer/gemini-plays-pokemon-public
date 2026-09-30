@@ -289,6 +289,7 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
+- **Southern Corridor North Boundary (Verified Turns 10179-10195)**: Columns 20 to 28 at rows 38-40 form a solid, unbroken horizontal pine tree wall with no passable openings. Northward traversal from the row 44 dirt corridor directly to the upper sector across columns 20-28 is 100% blocked.
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
 - **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
 - **Cottage Sector & One-Way Ledge**: Red curved branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Cottage entrance is at (37, 24). Ledge cannot be reversed northward.
@@ -635,7 +636,10 @@
   2. Test Sovio City plaza and Pokémon Center for any reloaded event scripts or NPC dialogue shifts.
   3. Re-probe the Metro Station turnstile (19, 21), timetable, and attendant line-of-sight from (19, 22) and (20, 22).
   4. Descend into Sovio Sewers to the Eastern Storage Room at (36-37, 14); execute comprehensive 4-directional interaction testing (facing North, South, East, West on tiles 36,14 and 37,14).
-- **Falsification Criteria**: If all cardinal interactions at (36-37, 14) return identical static text ("Its a simple storage room...") and the Metro turnstile continues to repel with "I should find dad first!", Hypothesis 7 is FALSIFIED, proving the trigger does not reside within the sewer holding area or metro lobby.
-
+- **Falsification Criteria**:
+  - Prop (a) Falsification: If all 4 cardinal angles and item/party probes on the sewer storage room threshold at (36-37, 14) return static dialogue ("Its a simple storage room...").
+  - Prop (b) Falsification: If Metro Station turnstile (19, 21), attendant (22, 19), and lobby fixtures return static repulsion text ("I should find dad first!").
+  - Prop (c) Falsification: If a full re-survey of Sovio City surface NPCs and buildings following map reload confirms identical ambient text without new story flags.
+  - Overall Hypothesis 7 is FALSIFIED only when all three sub-propositions (a, b, c) have been empirically tested and falsified, proving the required trigger is located elsewhere.
 
 <hr>
