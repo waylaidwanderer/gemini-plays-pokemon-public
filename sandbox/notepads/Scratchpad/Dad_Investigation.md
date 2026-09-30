@@ -10,10 +10,13 @@
   - *Deduction*: Jackson departed the Metro Station lobby following the seismic tremor (Turn 1437) to investigate the disturbance outside. Finding Jackson is the mandatory event flag to unlock Metro transit to Amor City.
 
 - **Testable Hypotheses**:
-  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, Testing Turn 12091+)**:
-     - *Hypothesis*: The reactive dialogue on Machop at (8, 35) indicates the Karate House has an active script condition when Machop's Toy is active.
-     - *Test Plan*: Interact with Machop, Karate trainer (3, 34), girlfriend (3, 33), and search 2F.
-     - *Falsification Criteria*: If Machop only displays flavor/ambient aggression text ('He seems a bit agressive...') and no resident/object provides an item, quest update, or story flag related to Jackson, Hypothesis A is conclusively FALSIFIED. (Stopping condition: single pass of 1F/2F).
+  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, FALSIFIED Turn 12132)**:
+     - *Audited Results*:
+       - Machop at (9, 34) (Turn 12123): Displays only "Machop: Chop Chop!" / "He seems a bit agressive...". Zero items, zero quest updates.
+       - Karate Trainer at (3, 34) (Turn 12125): Ambient debate text ("kickbox is far better than karate").
+       - Girlfriend at (3, 33) (Turn 12127): Counterpart debate text ("karate is far better than kickboxing").
+       - 2F (Turn 12132): Empty room, generic bookshelf text ("It's crammed full of Pokémon books.").
+     - *Conclusion*: Conclusively FALSIFIED on Turn 12132. Karate House holds zero progression triggers or links to Jackson.
   2. **Hypothesis B (Sewers Storage Room - Formulated Turn 12068)**:
      - *Hypothesis*: The storage room at (37, 14) where Jackson was held captive may open via an overworld event trigger or switch.
      - *Constraint*: Inventory audit (Turn 11897) confirmed zero keys held. Falsification: If no observable trigger or switch is found on the surface or accessible sewer areas, Hypothesis B is FALSIFIED.
