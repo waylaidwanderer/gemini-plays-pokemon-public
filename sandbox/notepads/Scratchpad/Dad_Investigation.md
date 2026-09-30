@@ -15,6 +15,7 @@
 - **Hypothesis 4 (Macro-Traversal & Level 15 Evolution)**: Falsified. Riolu evolves via friendship, not level 15. Lancio Town and Route 1 NPCs exhibit static ambient dialogue.
 - **Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)**: Falsified Turns 9856-9901. HuPhone apps (Item Storage, Mailbox, World Map, Quest Log) and Bag pockets audited static with zero interactive story triggers or progression tools.
 - **Hypothesis 6 (Macro-Exploration of Route 1 & Lancio Town Boundaries)**: Falsified Turns 10042-10103. Route 1 southern corridor, Lancio Pokémon Center, Professor Ivo's Lab (basement stairs story-blocked), Southwest Beach, Northwest House (boy kicks out), Lancio Harbor pier (no boat/ferry), fisherman (ambient), and dockside house facade exhaustively audited. All regional perimeters remain strictly bounded with zero secondary branches or open warps.
+- **Hypothesis 8 (Western Sector Columns 5-9 Northbound Route)**: Falsified Turns 10388-10396. (5, 44), (7, 44), and (9, 44) are solid tree obstacles; rows 42-44 form an unbroken tree wall across columns 5-10 with zero northward exits.
 
 ## Hypothesis 7 (Empirical Re-evaluation of Transit Hub & Sewer Storage Triggers)
 - **Proposition**: Progression requires resolving Dad's status through an unverified interaction trigger rather than physical map discovery. Specifically, either:
@@ -31,32 +32,20 @@
   - Prop (b) Falsification: If Metro Station turnstile (19, 21), attendant (22, 19), and lobby fixtures return static repulsion text ("I should find dad first!").
   - Prop (c) Falsification: If a full re-survey of Sovio City surface NPCs and buildings following map reload confirms identical ambient text without new story flags.
   - Overall Hypothesis 7 is FALSIFIED only when all three sub-propositions (a, b, c) have been empirically tested and falsified, proving the required trigger is located elsewhere.
-## Hypothesis 8 (Investigation of Western Sector Columns 5-9 for Northbound Route)
-- **Proposition**: The northern half of Route 1 (leading to Northwest Clearing, Duke, and Sovio City) connects via the western sector (columns 5-9) rather than the central meadow or Cottage basin.
+## Hypothesis 9 (Investigation of Unexplored Route 1 Boundaries for Northbound Passage)
+- **Proposition**: The passable route to Sovio City (53, 0) connects via an unexplored boundary on Route 1, either:
+  (a) An unverified opening from the Central Meadow / bird tracks trail (columns 27-32, rows 38-40),
+  (b) Unchecked western corridors from the Sand Highway between rows 30-36 (below row 28 which was blocked at x=32), or
+  (c) Traversal extending east along row 44 past column 26.
 - **Rationale**:
-  1. The Cottage sector was empirically confirmed to be an enclosed basin; the row 20 ledge is strictly a one-way southward drop.
-  2. Columns 10-18 were previously tested and verified blocked north by hedges/trees.
-  3. Columns 5-9 at row 44-48 remain largely unprobed northward, except for a recorded Cut tree at (5, 44).
-  4. In the early game (Turns 458-1165), Asher successfully walked from Lancio Town to Sovio City before possessing HM Cut, proving a passable route exists that does not require Cut.
+  1. The Cottage sector is an enclosed dead-end basin with the row 20 ledge strictly a one-way southward drop.
+  2. The western sector (columns 5-18) is completely blocked northward by unbroken trees at rows 42-44 (Hypothesis 8 falsified).
+  3. Sovio City is located at (53, 0), and Bug Catcher Duke is at (45, 12).
 - **Protocol**:
-  1. Traverse west along row 44 from (24, 44) to the Central Pine Tree at (11, 44).
-  2. Bypass Central Pine Tree south via row 48 to reach column 9.
-  3. Systematically probe northward progression across columns 5-9 between rows 44 and 40.
+  1. Return to the overworld at (31, 40).
+  2. Probe row 38 across columns 28-32 in the Central Meadow to verify if an opening exists.
+  3. If Central Meadow is completely enclosed north, probe row 44 east of column 26.
 - **Falsification Criteria**:
-  - If columns 5-9 are completely enclosed northward by impassable collision (trees, fences, ledges, or mandatory Cut obstacles) with zero passable corridors leading north into the Northwest Clearing.
-
-- **Status**: FALSIFIED (Turns 10388-10396). Empirical tests confirmed: (9, 44) is blocked by a pine tree trunk (Turn 10388); (5, 44) is solid collision and inert to 'A' (Turns 10394-10395); (7, 44) is blocked by a pine tree trunk (Turn 10395). Rows 40-42 form an unbroken wall of dense pine trees across columns 5-10. Zero northward exits exist in the western sector.
-
-## Hypothesis 9 (Investigation of West Flank of Sand Highway / Central Meadow for Corridor to Northwest Clearing)
-- **Proposition**: The connection to the northern half of Route 1 (Northwest Clearing: Youngster Mike at 29, 20 and Lass Sonia at 27, 15) branches off westward from the Sand Highway (columns 33-35, rows 26-36) or through the central meadow (columns 28-32, rows 38-40).
-- **Rationale**:
-  1. The western sector (columns 5-18) is completely blocked northward by rows 40-42 (Hypothesis 8 falsified).
-  2. The Cottage basin is an enclosed dead-end to the north with the row 20 ledge strictly a one-way southward drop.
-  3. The Sand Highway spans rows 26-38 at columns 34-37, running parallel to the Northwest Clearing (columns 27-29, rows 15-25), with rows 26-36 westward unprobed.
-  4. The early game route from Lancio Town to Sovio City passed through the bird tracks into the meadow, defeated Mike and Sonia, and continued east to Duke and Sovio City.
-- **Protocol**:
-  1. Return east along row 44 to the hedge gap at (26, 43).
-  2. Ascend into the central meadow to (29, 40) / (32, 39).
-  3. Systematically probe westward progression from the Sand Highway at rows 28-36 to locate the open corridor into the Northwest Clearing.
-- **Falsification Criteria**:
-  - If the entire western flank of the Sand Highway from row 26 to row 38 is completely sealed by impassable collision (trees/fences) with zero westward openings leading into the Northwest Clearing.
+  - Prop (a) Falsification: If row 38 across columns 28-32 is completely solid trees.
+  - Prop (b) Falsification: If Sand Highway west flank rows 30-36 are solid trees.
+  - Prop (c) Falsification: If row 44 east of column 26 terminates in solid obstacles.
