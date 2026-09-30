@@ -441,7 +441,7 @@
 
 - **East Exit Story Barrier (Verified Turn 9256)**: Tiles (52, 19), (52, 20), and (52, 21) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-21 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside.
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) resides on terrace outside (verified Turn 12143: no Machop present on terrace; Machop was conflated with Karate house Machop).
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
@@ -494,9 +494,7 @@
 
 - **Interior Layout**:
 
-  - Main lobby floor lands at (23, 24) on vertical red mat.
-
-  - Stairs leading back up to Sovio City overworld at (24, 24).
+  - Main lobby floor lands at (23, 24) on vertical red mat. Stairs leading back up to Sovio City overworld at (24, 24); entered from (23, 24) stepping Right (tile 24, 25 is blocked by south railing).
 
   - **Train Timetable Board (Verified Turn 7149, 7191)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24) or (23, 24) displays: "It's a timetable showing various destinations!". Row 23 is a solid brick wall east of column 20; no open counter or ticket window exists in the lobby.
 
@@ -559,7 +557,7 @@
 ## Overview & Connections
 - **Entrance**: Secret stairway on the south wall of Sovio Metro Station lobby at (18-19, 25).
 - **Landing (1F)**: Asher arrives at (37, 22) at the base of the wooden staircase.
-- **Staircase Up**: Located at (38, 22) leading back up to Sovio Metro Station.
+- **Staircase Up (Verified Turns 12106-12108)**: Located at (38, 22) leading back up to Sovio Metro Station; south side has solid railing blocking direct Up entry from (38, 23); must be entered from the west at (37, 22) stepping Right.
 - **Terrain & Features**:
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
@@ -632,12 +630,20 @@
   - Route 2 Exit at (52, 19-21): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
-  - Active Quest: "Machop's Toy" (given by Old Man at 51, 15; family Machop in Karate house at 14, 15 reacts: "He seems a bit agressive...").
+  - Active Quest: NONE (Machop's Toy cancelled on Turn 12142 to clear the single active quest slot; verified free for new side quests or event triggers).
   - *Deduction*: Jackson departed the Metro Station lobby following the seismic tremor (Turn 1437) to investigate the disturbance outside. Finding Jackson is the mandatory event flag to unlock Metro transit to Amor City.
 
 - **Testable Hypotheses**:
-  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, Testing Turn 12091+)**: The reactive dialogue on Machop at (6-7, 33-35) indicates the Karate House has an active script condition when Machop's Toy is active. Test if interacting with Karate trainer, girlfriend, Machop, or searching Karate house 1F/2F progresses the quest or unlocks an event.
-  2. **Hypothesis B (Sewers Storage Room / Hidden Key - Formulated Turn 12068)**: In Turn 1666-1707 cutscene, grunts held Jackson captive in sewer storage room. When grunts retreated (Turn 2682), storage room remained locked/inert. Test if an item or trigger unlocks storage room at (37, 14).
+  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, FALSIFIED Turn 12132)**:
+     - *Audited Results*:
+       - Machop at (9, 34) (Turn 12123): Displays only "Machop: Chop Chop!" / "He seems a bit agressive...". Zero items, zero quest updates.
+       - Karate Trainer at (3, 34) (Turn 12125): Ambient debate text ("kickbox is far better than karate").
+       - Girlfriend at (3, 33) (Turn 12127): Counterpart debate text ("karate is far better than kickboxing").
+       - 2F (Turn 12132): Empty room, generic bookshelf text ("It's crammed full of Pok�mon books.").
+     - *Conclusion*: Conclusively FALSIFIED on Turn 12132. Karate House holds zero progression triggers or links to Jackson.
+  2. **Hypothesis B (Sewers Storage Room - Formulated Turn 12068)**:
+     - *Hypothesis*: The storage room at (37, 14) where Jackson was held captive may open via an overworld event trigger or switch.
+     - *Constraint*: Inventory audit (Turn 11897) confirmed zero keys held. Falsification: If no observable trigger or switch is found on the surface or accessible sewer areas, Hypothesis B is FALSIFIED.
   3. **Hypothesis C (Surface NPCs with Unexamined Conditions - Formulated Turn 12068)**: Re-test key Sovio surface NPCs to verify if dialogue updates based on current story flags, avoiding premature "100% Falsified" assumptions.
 
 
