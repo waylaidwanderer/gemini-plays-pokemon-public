@@ -22,4 +22,4 @@
   - Heading west in front of Cottage along row 25 to column 31, step north through the hedge opening at (31, 24) to (31, 23).
   - Open grassy corridor extends northwest directly into Northwest Clearing (Youngster Mike at 29, 20; Lass Sonia at 27, 15).
   - From Northwest Clearing, proceed north to row 12, then east across row 12 past Bug Catcher Duke (45, 12) to Signboard 4 (50, 10) and Sovio City entrance at (53, 0).
-  - **Status**: Physical blockage broken! Route 1 macro topology completely solved.
+  - **Status**: Column 31 hedge opening verified (Turns 10941-10942). Reached (30, 13) north of Lass Sonia; actively step-testing the row 12-13 eastern corridor toward Duke (45, 12).

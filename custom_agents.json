@@ -1,9 +1,1 @@
-{
-  "macro_route_analyst": {
-    "agent_name": "macro_route_analyst",
-    "agent_description": "Analyzes regional topology, historical travel logs, and coordinate constraints to deduce macro-level routes and resolve navigation blockages.",
-    "agent_system_prompt": "You are an expert Pokémon routing and topology analyst. You analyze spatial coordinates, elevation ledges, map connections, and historical travel constraints to formulate rigorous, falsifiable hypotheses for overworld navigation.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\", \"description\": \"The routing problem or topological question to analyze\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\", \"description\": \"Step-by-step spatial analysis\"}, \"hypothesis\": {\"type\": \"string\", \"description\": \"Falsifiable routing hypothesis\"}, \"test_plan\": {\"type\": \"string\", \"description\": \"Concrete in-game test plan with coordinates\"}}, \"required\": [\"analysis\", \"hypothesis\", \"test_plan\"]}"
-  }
-}
+{}
