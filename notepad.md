@@ -597,5 +597,9 @@
   - Terrace House Nana (62, 31): Tested multi-textbox persistence (Turns 9536-9537). Cycles identical 1-line dialogue ("I'm cooking something for my dear grandkid. She loves my cooking."); confirmed 100% ambient flavor text.
 - **Conclusion for Hypothesis 2**: 100% conclusively falsified. All surface civilian NPCs and residential structures in Sovio City strictly cycle ambient flavor dialogue with zero secondary branches or progression triggers.
 
+## Inventory & Ability Audit (Verified Turn 9549)
+- **TMs & HMs**: TM Case audited. Contains only TM17 (Protect) and TM48 (Work Up). No HMs (HM Rock Smash, Cut, Flash, Surf) are in possession.
+- **Key Items**: Key Items pocket contains only HuPhone and TM Case. No keys, access cards, or special quest items are held.
+- **Conclusion**: Progression cannot rely on breaking cracked rocks in the Sewers or Route 1 cut-trees. The blocker is purely story/event flag based.
 
 <hr>
