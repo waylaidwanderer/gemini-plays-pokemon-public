@@ -34,6 +34,5 @@
 ## Turn 10498 Reflection & Macro Routing Re-alignment
 - **Reflection**: Re-evaluated Route 1 topology. In early-game progression (Turns 666-1165), Asher traversed from Lancio to Sovio via the Northwest Clearing (Mike at 29, 20 and Sonia at 27, 15) to Duke (45, 12) and Sovio City (53, 0).
 - **Hypothesis 10 (Far-Western Sector Columns 0-4 Northbound Survey)**:
-  - **Context**: Columns 12-18 are confirmed blocked northward by solid trees/hedges at rows 40-42. Columns 0-4 (outside Lancio Town, rows 40-44) remain completely unprobed north of row 44.
-  - **Protocol**: Return west along row 45 to (4, 45), systematically probe north along columns 0-4 across rows 40-44 to verify whether an open corridor connects northward.
-- **Hypothesis 10 Resolution (Turn 10524)**: FALSIFIED. Probed (4, 44) and (4, 43) (open alcove adjacent to Cut Tree), (4, 42) (solid pine tree trunk), (3, 44) and (3, 43) (solid pine trees). Northward exit from far-western columns 0-4 does not exist without HM Cut at (5, 44).
+  - **Context**: Columns 12-18 are confirmed blocked northward by solid trees/hedges at rows 40-42.
+  - **Resolution (Turn 10524)**: FALSIFIED for columns 3-4. Probed (4, 44) and (4, 43) (open alcove adjacent to Cut Tree), (4, 42) (solid pine tree trunk), (3, 44) and (3, 43) (solid pine trees). Northern passage at column 5 is gated by the Cut Tree.

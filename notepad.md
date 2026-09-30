@@ -292,6 +292,7 @@
 ## Verified Boundaries & Obstacles
 - **Cottage Sector East Perimeter (Verified Turns 10212, 10321)**: Columns 43-44 at rows 26-28 are solid pine trees. Zero passage exists east from the Cottage/Signboard 3 area into the Eastern Meadow.
 - **Western Sector Tested Obstacles (Verified Turns 10271-10336)**: Columns 12-18 are confirmed blocked northward by hedges and pine trees: column 18 terminates at (18, 40) (pine tree trunk), column 17 at (17, 42) (hedge), column 16 at (16, 43) (hedge), column 15 at (15, 42) (hedge), column 14 at (14, 42) (hedge), column 13 at (13, 42) (hedge), column 12 at (12, 42) (hedge). Columns 10-11 are occupied by the Central Pine Tree and Signboard 1. Zero northward exits exist in the entire western sector (columns 10-18).
+- **Far-Western Sector Boundaries (Verified Turns 10523-10524)**: Column 4 has an open alcove at (4, 44) and (4, 43) adjacent to the Cut Tree at (5, 43-44); column 4 is blocked north at (4, 42) by a solid pine tree trunk. Column 3 is blocked at (3, 43) and (3, 44) by solid pine trees.
 - **Route 1 Macro Loop & Connectivity**:
   - **Southbound (Sovio -> Lancio)**: Take eastern highway south past Duke (45, 12) to the row 20 ledge (40, 19), jump down south to Cottage (37, 24), then take Sand Highway south to (32, 39) and west to Lancio Town (0, 45).
 - **Row 43 Hedge Gap & Meadow Connector (Verified Turns 10250-10252)**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
@@ -649,8 +650,7 @@
 ## Turn 10498 Reflection & Macro Routing Re-alignment
 - **Reflection**: Re-evaluated Route 1 topology. In early-game progression (Turns 666-1165), Asher traversed from Lancio to Sovio via the Northwest Clearing (Mike at 29, 20 and Sonia at 27, 15) to Duke (45, 12) and Sovio City (53, 0).
 - **Hypothesis 10 (Far-Western Sector Columns 0-4 Northbound Survey)**:
-  - **Context**: Columns 12-18 are confirmed blocked northward by solid trees/hedges at rows 40-42. Columns 0-4 (outside Lancio Town, rows 40-44) remain completely unprobed north of row 44.
-  - **Protocol**: Return west along row 45 to (4, 45), systematically probe north along columns 0-4 across rows 40-44 to verify whether an open corridor connects northward.
-- **Hypothesis 10 Resolution (Turn 10524)**: FALSIFIED. Probed (4, 44) and (4, 43) (open alcove adjacent to Cut Tree), (4, 42) (solid pine tree trunk), (3, 44) and (3, 43) (solid pine trees). Northward exit from far-western columns 0-4 does not exist without HM Cut at (5, 44).
+  - **Context**: Columns 12-18 are confirmed blocked northward by solid trees/hedges at rows 40-42.
+  - **Resolution (Turn 10524)**: FALSIFIED for columns 3-4. Probed (4, 44) and (4, 43) (open alcove adjacent to Cut Tree), (4, 42) (solid pine tree trunk), (3, 44) and (3, 43) (solid pine trees). Northern passage at column 5 is gated by the Cut Tree.
 
 <hr>
