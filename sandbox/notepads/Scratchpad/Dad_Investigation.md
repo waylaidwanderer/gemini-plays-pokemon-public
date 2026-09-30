@@ -19,4 +19,4 @@
     - Central Meadow northern perimeter is blocked by pine trees across columns 26-30 at rows 37-38.
     - Row 44 dead-ends west at (24, 44) against hedges at (23, 44).
     - Cottage area has one-way south-facing ledges at (40-41, 20).
-  - **Plan**: Investigate connections between the Sand Highway / Central Meadow and the western sector.
+  - **Plan**: Re-evaluate foundational routing assumptions regarding how Sovio City is reached from southern Route 1.
