@@ -1,6 +1,7 @@
 # Quest: Machop's Toy
 
 ## Details
+- **In-Engine Name**: Lost Toy (Verified Turn 9239 via HuPhone Quest Log)
 - **Giver**: Old Man with Machop at (51, 15) outside Sovio City Metro Station (partner verified as Machop on Turn 7461, responding "Machop: Chop Chop!").
 - **Status**: Active / In Progress (Terrace accessed via row 15 curb at (47, 15); Old Man at (51, 15) dialogue Turn 7455: "Thank you, the toy must be somewhere deep in the Sovio Sewers. If you can't find it its fine. You can leave if you wanna.").
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.

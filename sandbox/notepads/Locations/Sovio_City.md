@@ -12,15 +12,14 @@
 
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 
-- **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
-- **Plaza Street Lamp**: Located at (46, 17).
+- **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (46, 17), and (35, 23).
 - **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), and trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide ambient motorcycle gang flavor text (verified Turns 8567, 8572, 8806-8807).
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
-- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), and (40, 13). Verified on Turns 1537, 4424-4425, and 7493 as inert, walkable decorative road tiles.
+- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
 
@@ -32,7 +31,7 @@
 
 - **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
 
-- **East Exit Story Barrier (Verified Turns 6644, 7159, 8889, 9255-9256)**: Tiles (52, 19), (52, 20), and (52, 21) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-21 toward Route 2.
+- **East Exit Story Barrier (Verified Turn 9256)**: Tiles (52, 19), (52, 20), and (52, 21) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-21 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside.
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
@@ -81,7 +80,7 @@
 
   - **Train Timetable Board (Verified Turn 7149, 7191)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24) or (23, 24) displays: "It's a timetable showing various destinations!". Row 23 is a solid brick wall east of column 20; no open counter or ticket window exists in the lobby.
 
-  - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399, 7150-7153)**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars (verified Turn 7150-7153). Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
+  - **Turnstile Gate (Verified Turn 9018)**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars (verified Turn 7150-7153). Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
@@ -129,8 +128,6 @@
 - **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
 
 - **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
-
-- **Park Street Lamp**: Located at (35, 23) south of pond bank.
 
 ## North-Central Commercial/Residential Block
 

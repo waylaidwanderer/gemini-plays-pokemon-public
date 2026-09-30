@@ -10,8 +10,10 @@
 - Sewers Conclusively Verified Inert: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) have been repeatedly audited and confirmed inert. Grunts permanently retreated on Turn 2682; storage room displays generic inspection text.
 - Northern Alcove Conclusively Enclosed (Turns 9097-9101): Alleyway along column 40 up to (40, 9) terminates in solid foundation walls between tan building, Pokémon Center, and house (39, 7). Zero exterior side passages exist.
 
-## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
+## Active Analysis & Inventory / Party State
+- Party: Slot 1 Sirius (Riolu Lv14, HP 40/40, Fighting), Slot 2 Zephyr (Pidgey Lv2, HP 13/13, Normal/Flying).
+- Bag: Items (Potion x1, Poison Barb x1, Nugget x1); Poké Balls (Timer Ball x1); Key Items (HuPhone, TM Case); TMs (TM17 Protect, TM48 Work Up). Zero HMs in possession.
+- Storage: PC Item Storage, Mailbox, and Box 1 are completely empty. HuPhone apps: Item Storage, World Map, Quest Log.
 
 ## Active Investigation Strategy & Focus
 1. **Sewer Status Resolution**:
