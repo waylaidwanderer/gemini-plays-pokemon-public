@@ -20,3 +20,11 @@
 - **Protocol**:
   1. Systematic re-evaluation of non-transit map nodes and unexplored boundaries.
   2. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
+
+## Active Priority: Hypothesis 7 (Sewer Holding Room Threshold & Discovery Trigger Audit)
+- **Proposition**: The assumption that Jackson was rescued on Turn 2682 was an unverified narrative inference. Grunts vacated under Marie's retreat orders, but Asher never confirmed Jackson's escape. Asher's turnstile blocker ('I should find dad first!') persists because the post-withdrawal realization event at the holding room at (36-37, 14) was never triggered.
+- **Protocol**:
+  1. Return from Route 1 to Sovio City via Sand Highway, row 39 hedge gap, Northwest Clearing, and row 12 meadow trail.
+  2. Enter Sovio Metro Station and warp down into Sovio Sewers.
+  3. Re-navigate to the Eastern Storage Room at (36-37, 14).
+  4. Exhaustively test stepping onto all floor tiles and inspecting all facing directions (North, South, East, West) at the holding room threshold.
