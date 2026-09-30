@@ -36,6 +36,7 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
+- **Sand Highway West Boundary (Verified Turn 10214)**: Row 28 terminates west at column 32 against a solid vertical wall of pine trees.
 - **Cottage Sector East Perimeter (Verified Turn 10212)**: Columns 41-43 at rows 27-32 form a tall grass patch flanked to the east by a solid wall of pine trees starting at column 44 with zero eastern exits.
 - **Southern Corridor North Boundary (Verified Turns 10179-10195)**: Columns 20 to 28 at rows 38-40 form a solid, unbroken horizontal pine tree wall with no passable openings. Northward traversal from the row 44 dirt corridor directly to the upper sector across columns 20-28 is 100% blocked.
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
