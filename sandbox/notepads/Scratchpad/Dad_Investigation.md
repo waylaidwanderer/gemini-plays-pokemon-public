@@ -21,4 +21,3 @@
    - Returning to the sewers without any new surface trigger or key item is an ungrounded circular traversal loop.
 2. **Current Surface Focus**:
    - The roadblock is the turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!").
-   - Ascend immediately to Sovio City surface to search for unexamined surface interactions, mechanics, or triggers outside the sewers.
