@@ -21,3 +21,9 @@
   1. Route 1 southern corridor verified (row 48 signboard bypass). Macro exploration active in Lancio Town.
   2. Full exploration of Lancio Town southern and coastal boundaries.
   3. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
+
+## Macro Exploration Audit Log (Turns 10042-10082)
+- **Lancio Pokémon Center (Verified Turn 10057)**: 100% audited single-story; no mezzanine staircase or PokéMart clerk. NPCs give ambient healing and regional PokéMart lore.
+- **Professor Ivo's Pokémon Laboratory (Verified Turns 10068-10072)**: Ivo gives static starter dialogue ("Hey, Ashi, how's your new Pokémon?"). Incubator machine gives static text. North wall stairs at (12, 7) lead down to a basement floor and trigger the story barrier text: "I probably shouldn't head down here...", repelling player to (12, 8).
+- **Southwest Beach & Coastline (Verified Turns 10076-10078)**: Step-tested perimeter from westernmost land (13, 16-17) to southern peninsula (15, 18) and eastern shore (19, 17); confirmed solid natural ocean boundaries with zero hidden warps, docks, or cave triggers.
+- **Active Navigation**: Testing Northwest House at (25, 10) and Lancio Harbor to complete Lancio Town audit.
