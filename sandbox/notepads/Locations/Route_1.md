@@ -60,7 +60,9 @@
     - (46, 9) and (46, 10): Solid pine tree trunks block direct eastward traversal along rows 9-10 from (45, 9-10).
     - (48, 14): Solid pine tree trunk blocks eastward traversal along row 14 from (47, 14).
     - (47, 15): Pine tree foliage blocks southward traversal along column 47 from row 14.
-- **Cottage East Ledge (Verified Turns 10781-10786)**: Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
+- **Cottage East Ledge (Verified Turns 10781-11716)**:
+  - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
+  - Southward Hop: Stepping South from (41, 19) hops over the one-way ledge at row 20 and lands on (41, 21) in the Cottage yard (verified Turn 11716).
 - **Hidden Hedge Passage (Verified Turns 11554-11568)**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
 - **Duke Meadow & Eastern Highway Connector (Verified Turns 11599-11660)**:
   - Walkable perimeter around Duke: (44, 12) and (44, 13) are open grass tiles; (45, 13), (46, 13), and (47, 13) are walkable floor tiles beneath the tree canopies along row 13.
