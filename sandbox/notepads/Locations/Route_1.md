@@ -57,7 +57,9 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
-- **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
+- **Northwest Clearing Layout & Connections (Updated Turn 11851)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire both defeated. Connected to the south via the column 30 tall grass corridor (rows 20-26) to the Cottage area. Connected to the northeast via rock spire trail.
+- **Cottage-to-Clearing Column 30 Corridor (Verified Turns 11842-11845)**: Walkable corridor along column 30 from row 26 north through tall grass patches into the Northwest Clearing at (30, 20), providing a direct connection between the Cottage/Sand Highway and the Northwest Clearing.
+- **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
   - Southward Hop: Stepping South from (41, 19) hops over the one-way ledge at row 20 and lands on (41, 21) in the Cottage yard (verified Turn 11716).

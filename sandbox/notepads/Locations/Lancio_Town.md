@@ -10,7 +10,7 @@
 
   - Cobblestone/gravel path leads north from the dock into the main town.
 
-  - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turn 3351-3352).
+  - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turns 3351-3352, 11793-11796).
 
   - Ocean to south and west.
 
@@ -95,4 +95,4 @@
 
 
 
-- **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
+- **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595, 11789)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
