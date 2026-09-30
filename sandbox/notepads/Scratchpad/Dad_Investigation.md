@@ -11,10 +11,15 @@
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
 ## Explicit Falsifiable Story Hypotheses
-1. **Hypothesis: Building (32-37, 8-12) Facade & Interior** [FALSIFIED - Turns 9029-9033]:
-   - Empirical Result: Shutter tiles (34, 12) and (35, 12) verified solid collision with zero door warps and zero interaction scripts upon 'A' press. Confirmed 100% decorative exterior with no accessible entrance.
+1. **Hypothesis: Metro Attendant / Turnstile Interaction**:
+   - Mechanic/Entity: Station attendant at (22, 19) or specific dialogue trigger in the Metro lobby.
+   - Test Method: Return to Sovio Metro Station lobby and test all perimeter interactions around the turnstile gate (19, 21), columns 18-24.
+   - Falsification: If every tile returns "I should find dad first!" or is inert, the trigger lies elsewhere in the city.
 
-2. **Hypothesis: External Route 1 / Lancio Town Progression Leads**:
-   - Mechanic/Entity: Open southern connection to Route 1 and Lancio Town (Professor Ivo's Lab, Route 1 NPCs).
-   - Test Method: Travel south through the unblocked Route 1 gate at (14-15, 39) to inspect Route 1 landmarks and consult Professor Ivo with Sirius officially nicknamed.
-   - Falsification: If Professor Ivo and all Route 1 NPCs retain identical dialogue without advancing story flags, external leads are falsified.
+2. **Hypothesis: Jackson / Valora Overworld Location in Sovio**:
+   - Mechanic/Entity: Jackson or Valora positioned in an unexplored or re-triggered outdoor overworld tile in Sovio City.
+   - Test Method: Systematically search Sovio City outdoor sectors (e.g. the plaza benches, park perimeter, metro exterior).
+   - Falsification: If outdoor NPCs remain only the bikers, park duo, and Machop terrace family, check internal building triggers.
+
+3. **Macro-Traversal Loop Falsified**:
+   - Result: Retreating across Route 1 to Lancio Town is conclusively rejected per Critique 30. Roadblocks explicitly require resolving Dad's status locally within Sovio City.
