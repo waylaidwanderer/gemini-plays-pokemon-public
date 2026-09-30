@@ -19,13 +19,6 @@
   - Route 2 barrier at (52, 19): Tested post-cancellation on Turn 9409-9410; triggers "I can't go yet... I have things to do!" and repels player 1 step West.
 - **Conclusion**: Side quest state has zero bearing on regional roadblock scripts. Hypothesis 1 is 100% conclusively falsified and closed.
 
-### Hypothesis 2: Exhaustive Surface NPC Persistence & Trigger Audit
-- **Proposition**: An NPC in Sovio City possesses a secondary dialogue branch or progression trigger activated only upon repeated or sequential interaction (similar to the Protect TM boy in Lancio Town).
-- **Test Protocol**:
-  1. Systematically interact with every surface NPC in Sovio City (Bikers, boy with Rocky, Gumball family, Karate couple, park visitors, terrace residents).
-  2. Test persistent dialogue (3+ presses of 'A') to check for multi-textbox shifts.
-- **Falsification Criteria**: If all NPCs cycle to identical baseline dialogue strings with no flag updates, NPC interaction is ruled out.
-
 ### Hypothesis 3: Unchecked Environmental or Structural Features in Sovio City
 - **Proposition**: An unmapped entrance, back door, or interactive object in Sovio City holds the clue or passage to Jackson.
 - **Test Protocol**:
