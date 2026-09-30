@@ -13,14 +13,10 @@
 - **Hypothesis 2 (Surface NPC Persistence Audit)**: Falsified Turns 9462-9537. All surface civilian NPCs and residential structures in Sovio City strictly cycle ambient flavor dialogue with zero secondary branches or progression triggers.
 - **Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)**: Falsified Turns 9637-9788. All accessible structural fixtures (park barrels, alley walls, boundary alcoves, timetable display, scanner pillars, decorative manholes) empirically tested with zero interaction triggers.
 - **Hypothesis 4 (Macro-Traversal & Level 15 Evolution)**: Falsified. Riolu evolves via friendship, not level 15. Lancio Town and Route 1 NPCs exhibit static ambient dialogue.
+- **Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)**: Falsified Turns 9856-9901. HuPhone apps (Item Storage, Mailbox, World Map, Quest Log) and Bag pockets audited static with zero interactive story triggers or progression tools.
 
-## Active Priority: Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)
-- **Proposition**: A specific item interaction, inspection, or trigger in the Bag / Key Items / HuPhone is required to advance the story state, or a key item was obtained/needs to be used.
-- **Protocol & Empirical Log**:
-  1. HuPhone Apps:
-     - Item Storage: Audited Turn 9856; confirmed empty ("There are no items.").
-     - Mailbox: Audited Turn 9860; confirmed empty ("There's no Mail here.").
-     - World Map: Inspected Turns 9866-9872. Displays regional geography, Route 2, and Amor City.
-     - Quest Log: Audited Turns 9880-9888. Quest Status confirmed empty ("You aren't doing any Quest currently..."). Quest List Page 1 inspected. HuPhone menus require selecting explicit 'Exit'/'Back' options rather than B. Step 1 complete with zero story triggers.
-  2. Inspect all inventory items in Bag (Key Items, Items, TMs/HMs) to see if any have a 'USE' or interaction prompt.
-  3. Falsification Criteria: If all items and apps produce standard UI responses without triggering any event flags, Hypothesis 5 is falsified.
+## Active Priority: Hypothesis 6 (Macro Exploration & Unvisited Regional Nodes)
+- **Proposition**: Progression requires discovering an overlooked physical pathway, building, or regional entity outside the local Sovio transit hubs.
+- **Protocol**:
+  1. Systematic re-evaluation of non-transit map nodes and unexplored boundaries.
+  2. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
