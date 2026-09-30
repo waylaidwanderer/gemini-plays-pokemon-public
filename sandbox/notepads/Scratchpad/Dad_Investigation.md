@@ -24,4 +24,4 @@
   - From Lass Sonia (27, 15), follow flower trail northeast through (30, 13) and (32, 13) into column 32.
   - Ascend north along column 32 through (32, 12), (32, 11), and (32, 10) (verified Turns 10953-10966).
   - Column 32 opens north into row 8-9 and connects east around the rock spire (33, 8) to the blue flower highway leading into Bug Catcher Duke's meadow (45, 12) and Sovio City (53, 0).
-  - **Status**: Verified passage through column 32 gap to (32, 10); actively advancing east along row 8 toward Duke.
+  - **Status**: Complete Route 1 northbound circuit physically traversed and verified! Arrived at Bug Catcher Duke's meadow at (43, 10); taking row 12 bypass to column 53 north into Sovio City.
