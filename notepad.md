@@ -301,7 +301,7 @@
   - Row 25 terminates west in a dead-end alcove at (34, 24-25) enclosed by solid pine trees; does NOT connect to the Northwest Clearing.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
-  - Dirt corridor along row 44 connects column 26 west to column 5 cobblestone road.
+  - Dirt corridor along row 44 connects column 5 cobblestone road east past the column 26 hedge gap into the southeastern sector (verified walkable at (27, 44) and extending east).
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
