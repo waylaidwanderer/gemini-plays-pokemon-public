@@ -16,7 +16,11 @@
 
 ## Active Priority: Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)
 - **Proposition**: A specific item interaction, inspection, or trigger in the Bag / Key Items / HuPhone is required to advance the story state, or a key item was obtained/needs to be used.
-- **Protocol**:
-  1. Inspect HuPhone apps thoroughly (Item Storage, Mailbox, World Map, Quest Log).
+- **Protocol & Empirical Log**:
+  1. HuPhone Apps:
+     - Item Storage: Audited Turn 9856; confirmed empty ("There are no items.").
+     - Mailbox: Audited Turn 9860; confirmed empty ("There's no Mail here.").
+     - World Map: Inspected Turns 9866-9871. Displays regional geography, Route 2, and Amor City.
+     - Quest Log: Pending inspection (Next step).
   2. Inspect all inventory items in Bag (Key Items, Items, TMs/HMs) to see if any have a 'USE' or interaction prompt.
   3. Falsification Criteria: If all items and apps produce standard UI responses without triggering any event flags, Hypothesis 5 is falsified.
