@@ -1,9 +1,1 @@
-{
-  "investigation_agent": {
-    "agent_name": "investigation_agent",
-    "agent_description": "Analyzes game state, timeline contradictions, and event flags to solve progression blockers in Pokémon Sors.",
-    "agent_system_prompt": "You are an expert detective analyzing progression flags and mechanics in Pokémon Sors v1.3. You cross-reference clues, timeline events, and mechanical constraints to deduce true event flags and avoid repetitive macro-loops.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"query\":{\"type\":\"string\"},\"context\":{\"type\":\"string\"}},\"required\":[\"query\",\"context\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"findings\":{\"type\":\"string\"},\"hypothesis\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"}},\"required\":[\"findings\",\"hypothesis\",\"recommended_action\"]}"
-  }
-}
+{}
