@@ -17,6 +17,7 @@
 - **H2 - Sovio Surface Perimeter & Plaza Check**:
   - Methodology: Check Central Plaza perimeter, Pokémon Center exterior (where Mother confrontation occurred), and Central Park entities.
   - Progress (Turns 11315-11324): Pokémon Center exterior at (44, 14) and northern alcove at columns 39-40, rows 8-12 confirmed vacant. House (39, 7) 1F resident at (41, 33) re-audited; verbatim dialogue confirmed ambient: "I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."
+  - Progress (Turn 11377): Boy at (35, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Yeah Jigglypuff!".
   - Next Audit Targets:
     - South sidewalk & Jigglypuff gathering at (33-35, 28).
     - Name Rater house at (31, 26).
