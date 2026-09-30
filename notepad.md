@@ -305,7 +305,7 @@
   - Cottage West Alcove (Audited Turns 10760-10768): Heading west from the Cottage along rows 25-26 reaches (32, 25). Stepping North from (32, 25) into (32, 24) is blocked by a hedge. Stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
-  - Dirt corridor along row 44 connects column 5 cobblestone road east past Camper (18, 45) and Signboard 2 (19, 42) through (22-24, 44) to column 26 hedge gap (verified Turn 10916-10918), ending east at alcove (27, 44) which is blocked east and south by solid pine trees.
+  - Dirt corridor along row 44 connects column 5 cobblestone road east past Signboard 2 (19, 42) through (22-24, 44) to column 26 hedge gap (verified Turn 10916-10918), ending east at alcove (27, 44) which is blocked east and south by solid pine trees.
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
@@ -314,7 +314,6 @@
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
   - Southward Hop: Stepping South from (41, 19) hops over the one-way ledge at row 20 and lands on (41, 21) in the Cottage yard (verified Turn 11716).
 - **Hidden Hedge Passage (Verified Turns 11554-11568)**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
-
 
 <hr>
 
