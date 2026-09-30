@@ -546,13 +546,13 @@
 
 ## Active Hypotheses & Falsification Protocols
 
-### Hypothesis 1: Side Quest State Dependency
+### Hypothesis 1: Side Quest State Dependency (CONVINCINGLY FALSIFIED)
 - **Proposition**: Having the side quest "Lost Toy" actively open may be gating or interfering with other event flags or NPC interactions in Sovio City.
 - **Test Protocol**:
   1. Navigate to the elevated terrace at (51, 15).
-  2. Speak to the Old Man and select "Yes" to cancel the active "Lost Toy" quest.
-  3. Re-test Metro turnstile at (19, 21) and Route 2 barrier at (52, 19).
-- **Falsification Criteria**: If turnstile continues to output "I should find dad first!" after quest cancellation, side quest state is definitively ruled out as the blocker.
+  2. Speak to the Old Man and select "Yes" to cancel the active "Lost Toy" quest (Completed Turn 9358).
+  3. Re-test Metro turnstile at (19, 21) and Route 2 barrier at (52, 19) (Completed Turn 9376).
+- **Empirical Result (Turn 9376)**: Stepping onto (19, 21) continues to trigger "I should find dad first!" and forces Asher 1 step Down to (19, 22). Side quest state has zero bearing on the Metro turnstile barrier. Hypothesis 1 is conclusively rejected.
 
 ### Hypothesis 2: Exhaustive Surface NPC Persistence & Trigger Audit
 - **Proposition**: An NPC in Sovio City possesses a secondary dialogue branch or progression trigger activated only upon repeated or sequential interaction (similar to the Protect TM boy in Lancio Town).
@@ -567,6 +567,5 @@
   1. Inspect the alleyways around Central Plaza and West Avenue.
   2. Test interaction on all unique objects (vending machines, decorative fixtures, notices).
 - **Falsification Criteria**: If all fixtures confirm solid inert collision without script execution, structural triggers are ruled out.
-
 
 <hr>
