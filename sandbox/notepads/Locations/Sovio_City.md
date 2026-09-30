@@ -45,7 +45,7 @@
 - **South Sidewalk & Name Rater Courtyard Connection (Verified Turns 8986-8998)**: Paved corridor along row 27-28 south of Central Park pond. The western dead end at (22-23, 27) in front of the building wall leads east past Name Rater house (31, 26). Row 27 above the Jigglypuff gathering (33-35, 28) is fully walkable, connecting directly east into Central Park's diamond-paved boulevard at row 26 (columns 36-43).
 
 - **Blonde Girl (Verified Turn 9137-9139)**: Located at (43, 24) on the east bank of the pond facing north. Ambient dialogue: 'I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?' Waiting for her online date.
-- **Boy in Pink Shirt**: Wandering around (31-33, 20-22) on the west bank of the pond.
+- **Boy in Pink Shirt (Verified Turns 9156-9157)**: Located around (31-33, 20-22) on the west bank of the pond. Ambient dialogue: 'I\'m supposed to meet a girl here, but she doesn\'t seem to show up... Was I catfished?' Waiting for his online date (identical mirror dialogue to the blonde girl on the east bank; confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
