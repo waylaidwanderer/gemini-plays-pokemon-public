@@ -283,6 +283,7 @@
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Defeated.
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated.
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
+- **NPC 7 (Boy in Grass)**: Located around (11-12, 48-50) near Central Pine Tree, wandering. Dialogue: "I gotta be careful when I walk around in the tall grass..." (Verified Turn 10490).
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue.
 - **NPC 3 (Science Guy)**: Located around (39-41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?" (Verified Turn 10205). Clearing terminates east at column 42 in solid pine forest and coastal shoreline with zero eastern passages.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
@@ -646,7 +647,9 @@
   - Prop (c) Falsification: If a full re-survey of Sovio City surface NPCs and buildings following map reload confirms identical ambient text without new story flags.
   - Overall Hypothesis 7 is FALSIFIED only when all three sub-propositions (a, b, c) have been empirically tested and falsified, proving the required trigger is located elsewhere.
 ## Turn 10498 Reflection & Macro Routing Re-alignment
-- **Reflection**: Re-evaluated Route 1 topology. Falsified the assumption that Route 1 is a soft-lock/dead-end due to the row 20 ledge. In early-game progression (Turns 666-1165), Asher successfully traversed from Lancio to Sovio via the Northwest Clearing (Mike at 29, 20 and Sonia at 27, 15) to Duke (45, 12) and Sovio City (53, 0).
-- **Active Navigation**: Resuming eastward traversal along row 45 past Camper (18, 45) and Signboard 2 (19, 42) to access the northern corridor into the Northwest Clearing.
+- **Reflection**: Re-evaluated Route 1 topology. In early-game progression (Turns 666-1165), Asher traversed from Lancio to Sovio via the Northwest Clearing (Mike at 29, 20 and Sonia at 27, 15) to Duke (45, 12) and Sovio City (53, 0).
+- **Hypothesis 10 (Far-Western Sector Columns 0-4 Northbound Survey)**:
+  - **Context**: Columns 12-18 are confirmed blocked northward by solid trees/hedges at rows 40-42. Columns 0-4 (outside Lancio Town, rows 40-44) remain completely unprobed north of row 44.
+  - **Protocol**: Return west along row 45 to (4, 45), systematically probe north along columns 0-4 across rows 40-44 to verify whether an open corridor connects northward.
 
 <hr>
