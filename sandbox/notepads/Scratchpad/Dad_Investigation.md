@@ -18,6 +18,6 @@
 ## Active Priority: Macro Exploration of Route 1 & Lancio Town Boundaries
 - **Proposition**: Progression requires discovering an overlooked physical pathway, building, or regional entity outside the local Sovio transit hubs. The sewer holding room at (36-37, 14) was verified inert on Turn 8637; returning there without new in-game variables is an exhausted loop.
 - **Protocol**:
-  1. Systematic physical testing of unverified boundaries on Route 1 (including physical step-test of row 25 at column 34, and southern corridor).
+  1. Systematic physical testing of unverified boundaries on Route 1 and southern corridor.
   2. Full exploration of Lancio Town southern and coastal boundaries.
   3. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
