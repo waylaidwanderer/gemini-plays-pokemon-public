@@ -23,6 +23,8 @@
      - Corner barrels at (46, 22) and (46, 28-29): Confirmed solid inert obstacles blocking direct passage.
      - Western approach via column 42: Tested Turn 9664; terminates in a dead-end hedge alcove at (42, 30) enclosed by dense pine forest.
      - East Exit at (52, 19): Tested Turn 9670; triggers "I can't go yet... I have things to do!" and repels player.
-  3. Major Structural Discovery (Turns 9688-9721): The Pokémon Center blue-carpeted staircase (1-2, 1-2) warps to an escalator at (5, 8) leading to the PokéMart mezzanine! Clerk at (5, 3) verified selling Poké Balls (¥¥200), Potions (¥¥300), Antidotes (¥¥100), Paralyz Heals (¥¥200), and Repels (¥¥350).
+  3. Major Structural Discovery (Turns 9688-9721): The Pokémon Center blue-carpeted staircase (1-2, 1-2) warps to an escalator at (5, 8) leading to the PokéMart mezzanine! Clerk at (5, 3) verified selling Poké Balls (¥200), Potions (¥300), Antidotes (¥100), Paralyz Heals (¥200), and Repels (¥350).
 
   - Southern Avenue (Columns 14-15, Rows 28-39): Tested Turns 9775-9781. Passes under archway at rows 28-29. Row 30 east is completely blocked by dense pine forest. Road runs straight south between pine trees directly to Route 1 entrance at row 39.
+
+- Metro Station Turnstile Re-test (Verified Turn 9788): Stepping onto (19, 21) triggers verbatim 'I should find dad first!' and forces Asher 1 step South to (19, 22). Roadblock remains strictly active.
