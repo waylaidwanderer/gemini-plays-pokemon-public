@@ -21,7 +21,7 @@
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
 - **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house. Probed from north (15, 17) and west (14, 18); verified non-interactive decorative fixtures.
 
-- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576, 9294-9296)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
+- **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 

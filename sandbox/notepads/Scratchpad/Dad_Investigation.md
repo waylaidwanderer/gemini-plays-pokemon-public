@@ -15,10 +15,7 @@
 
 ## Active Priority: Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)
 - **Proposition**: An unexamined structural fixture, interactive object, or hidden mechanism in Sovio Metro Station or Sovio City holds the trigger or clue to locate Jackson.
-- **Immediate Plan**:
-  1. Exit Sovio Sewers via the upper landing staircase at (38, 22).
-  2. Inspect Sovio Metro Station lobby fixtures:
-     - Ticket vending machines, posters, station attendant interaction from different angles.
-     - Red mat and wall boundaries.
-  3. Inspect Central Plaza and City exterior fixtures:
-     - Phone booths, vending machines, trash cans, signposts, building perimeters.
+- **Protocol**:
+  1. Inspect Sovio Metro Station lobby fixtures: ticket vending machines, timetable board, station attendant from all accessible sides, turnstile scanner pillars, and perimeter walls. Check if Valora or another NPC is present or triggers new dialogue.
+  2. Inspect Sovio City Central Plaza and urban fixtures: phone booths, street lamps, trash cans, signposts, building facades, and park boundaries.
+- **Falsification Criteria**: If all fixtures confirm solid inert collision without script execution, structural triggers are ruled out.
