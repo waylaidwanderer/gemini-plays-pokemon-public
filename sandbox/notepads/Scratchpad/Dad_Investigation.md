@@ -21,9 +21,7 @@
   - Progress (Turn 11379): Jigglypuff at (34, 28) re-audited; verbatim cry confirmed: "Jigglypuff: Puff Puff!".
   - Progress (Turns 11381-11382): Little Girl at (33, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Mom told me that she will evolve if she touches a Moon Stone... if she touches a Moon Stone... I must keep her away from them!". South sidewalk gathering fully audited.
   - Progress (Turn 11388): Name Rater at (64, 14) inside house (31, 26) re-audited; verbatim dialogue confirmed standard facility: "Hello, hello! I am the official Name Rater!".
+  - Progress (Turn 11406): Boy in pink shirt at (31, 21) re-audited; verbatim dialogue confirmed ambient: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?".
   - Next Audit Targets:
-    - South sidewalk & Jigglypuff gathering at (33-35, 28).
-    - Name Rater house at (31, 26).
-    - West bank boy at (31-33, 20-22).
     - West Avenue entities & buildings (Boy & Rocky at 23-24, 17; Karate house at 14, 15; Bikers at 13, 21-23).
   - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza and park entities.
