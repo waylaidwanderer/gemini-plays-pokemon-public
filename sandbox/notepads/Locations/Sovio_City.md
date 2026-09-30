@@ -18,14 +18,14 @@
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner PokÃ©mon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
 - **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house. Probed from north (15, 17) and west (14, 18); verified non-interactive decorative fixtures.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
-- **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
+- **Central Plaza**: Located around (40-50, 10-18) containing the PokÃ©mon Center, Metro Station entrance, and residential house.
 
 - **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
 
@@ -46,10 +46,10 @@
 - **South Sidewalk Boundary (Verified Turn 9652)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (46, 28-29) blocking passage directly east into the row 28-29 alley.
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding, four blue windowpanes, and a brown wooden double door at (49-50, 29) facing south onto row 30 street. West wall along column 47 is solid collision (verified Turn 9656 at 47, 27).
 
-## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
+## PokÃ©mon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
-- **West Wall**: Solid exterior wall forms the western boundary of the Pokémon Center at column 40.
+- **West Wall**: Solid exterior wall forms the western boundary of the PokÃ©mon Center at column 40.
 
 - **Interior Layout & Audit (Verified Turns 4024-4048)**:
 
@@ -57,7 +57,7 @@
 
   - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint (verified Turn 4035).
 
-  - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
+  - Large decorative teal PokÃ© Ball floor motif at columns 6-8, rows 5-6.
 
   - Straw-hat Camper at (5, 7): Ambient dialogue regarding poisoned Weedle.
 
@@ -66,7 +66,7 @@
   - **Corner PC Terminal at (12, 1) (Verified Turn 7195, 7206)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
   - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
-  - **2F Staircase**: Located in northwest corner at columns 1-2, rows 1-2. Blue carpeted staircase with red railings leading up to the Pok�mon Center second floor (2F)!
+  - **2F Staircase**: Located in northwest corner at columns 1-2, rows 1-2. Blue carpeted staircase with red railings leading up to the Pokémon Center second floor (2F)!
 
 ## Sovio Metro Station (Verified Turn 1388)
 
@@ -86,8 +86,8 @@
 
 ## Residential House (North Central) (Verified Turns 1447, 7239-7245)
 
-- **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
-- **Northern Alcove & Exterior Boundary (Audited Turns 9097-9101)**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the Pokémon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the Pokémon Center or residential row.
+- **Entrance**: Teal door at (39, 7) north of PokÃ©mon Center plaza.
+- **Northern Alcove & Exterior Boundary (Audited Turns 9097-9101)**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the PokÃ©mon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the PokÃ©mon Center or residential row.
 
 - **Interior**: Entrance mat lands at (43, 36).
 
@@ -119,7 +119,7 @@
 
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 
-- **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of Pokémon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
+- **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of PokÃ©mon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
 
 ## South Central Sector
 
@@ -130,4 +130,4 @@
 
 ## North-Central Commercial/Residential Block
 
-- **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
+- **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between PokÃ©mon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
