@@ -355,8 +355,7 @@
 
 - **South Sidewalk & Name Rater Courtyard Connection (Verified Turns 8986-8998)**: Paved corridor along row 27-28 south of Central Park pond. The western dead end at (22-23, 27) in front of the building wall leads east past Name Rater house (31, 26). Row 27 above the Jigglypuff gathering (33-35, 28) is fully walkable, connecting directly east into Central Park's diamond-paved boulevard at row 26 (columns 36-43).
 
-- **Blonde Girl (Verified Turn 9137-9139)**: Located at (43, 24) on the east bank of the pond facing north. Ambient dialogue: 'I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?' Waiting for her online date.
-- **Boy in Pink Shirt (Verified Turns 9156-9157)**: Located around (31-33, 20-22) on the west bank of the pond. Ambient dialogue: 'I\'m supposed to meet a girl here, but she doesn\'t seem to show up... Was I catfished?' Waiting for his online date (identical mirror dialogue to the blonde girl on the east bank; confirmed 100% ambient flavor).
+- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
@@ -418,9 +417,9 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F (Audited Turns 9161-9168)**: Entrance mat at (23-24, 36). Boy at (25, 32) watching TV ('I love this show!'). Mother at (27, 33) ('My son is watching some cartoon... Why is the goldfish the cat's brother in it though?'). Wide-screen TV at (25-26, 30) displays 'There's a cartoon running. Its about a blue cat who's brother is a... fish?' (inspecting side gives easter egg: 'Why am I staring at the TV's side?'). Confirmed 100% ambient pop-culture easter egg room with zero story flags.
+- **Interior 1F (Audited Turns 9161-9168)**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30) all provide ambient flavor dialogue (confirmed 100% ambient pop-culture easter egg room with zero story flags).
 
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12) ("It's crammed full of Pokémon books."), blue PC terminal at (20, 12) (inert), sleeping resident in bed at (27, 15-16) (inert).
+- **Interior 2F (Audited Turns 5933, 9177)**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
 
 ## Residential House (Northwest - Machop Family) (Verified Turn 5950)
 
@@ -559,11 +558,13 @@
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
-## Active Investigation Leads & Hypotheses
-1. **Hypothesis: Overlooked Interior Trigger or City Interaction**:
-   - Mechanic/Entity: Jackson, Valora, or an unresolved story trigger located inside an overworld residence, facility, or specific NPC interaction in Sovio City (e.g. Central West Gumball residence 29, 14, or Central Park residents).
-   - Test Method: Systematically finish surveying Central Park residents and inspect residential interiors.
-   - Falsification: If all residents and interiors retain identical ambient text, evaluate remaining urban mechanics.
+## Active Investigation Strategy & Focus
+1. **Sewer Status Resolution**:
+   - The sewers have been audited across multiple cycles with zero changes since Team Siara's retreat on Turn 2682.
+   - Returning to the sewers without any new surface trigger or key item is an ungrounded circular traversal loop.
+2. **Current Surface Focus**:
+   - The roadblock is the turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!").
+   - Ascend immediately to Sovio City surface to search for unexamined surface interactions, mechanics, or triggers outside the sewers.
 
 
 <hr>
