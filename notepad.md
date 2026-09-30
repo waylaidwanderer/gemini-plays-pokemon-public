@@ -293,10 +293,10 @@
 - **Western Sector Tested Obstacles (Verified Turns 10271-10336)**: Columns 12-18 are confirmed blocked northward by hedges and pine trees: column 18 terminates at (18, 40) (pine tree trunk), column 17 at (17, 42) (hedge), column 16 at (16, 43) (hedge), column 15 at (15, 42) (hedge), column 14 at (14, 42) (hedge), column 13 at (13, 42) (hedge), column 12 at (12, 42) (hedge). Columns 10-11 are occupied by the Central Pine Tree and Signboard 1. Zero northward exits exist in the entire western sector (columns 10-18).
 - **Far-Western Sector Boundaries (Verified Turns 10523-10532)**: Column 4 has an open alcove at (4, 44) and (4, 43) adjacent to the Cut Tree at (5, 43-44); column 4 is blocked north at (4, 42) by a solid pine tree trunk. Column 3 is blocked at (3, 43) and (3, 44) by solid pine trees. Tile (1, 44) is a solid pine tree trunk. Tile (0, 45) is the boundary tile where stepping Left transitions into Lancio Town at (46, 14) outside eastern signboard (44-45, 13).
 - **Route 1 Macro Loop & Connectivity**:
-  - **Southbound (Sovio -> Lancio)**: Take eastern highway south past Duke (45, 12) to the row 20 ledge (40, 19), jump down south to Cottage (37, 24), then take Sand Highway south to (32, 39) and west to Lancio Town (0, 45).
-  - **Row 43 Hedge Gap & Meadow Connector (Verified Turns 10250-10252)**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
+- **Row 43 Hedge Gap & Meadow Connector (Verified Turns 10250-10252)**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
+- **Row 6 & 7 Northern Dead End (Verified Turns 11518, 11524-11544)**: At (34, 6), moving west into (33, 6) is blocked by a pine tree. At (34, 7), moving west into (33, 7) is also blocked by a solid pine tree trunk. Tile (34, 7) is a dead-end alcove bordered by the rock spire at (35, 7), hedge at (34, 8), and dense western pine forest. Confirmed zero westward passage exists from rows 6-7 into the Northwest Clearing.
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
-- **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
+- **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Note: Column 51 has a hedge at row 14, but the multi-tile highway corridor continues south along columns 52-53. 
 - **Cottage-to-Clearing & Sand Highway Connections**:
   - Cottage West Alcove (Audited Turns 10760-10768): Heading west from the Cottage along rows 25-26 reaches (32, 25). Stepping North from (32, 25) into (32, 24) is blocked by a hedge. Stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
@@ -310,9 +310,12 @@
     - (46, 9) and (46, 10): Solid pine tree trunks block direct eastward traversal along rows 9-10 from (45, 9-10).
     - (48, 14): Solid pine tree trunk blocks eastward traversal along row 14 from (47, 14).
     - (47, 15): Pine tree foliage blocks southward traversal along column 47 from row 14.
-    - Verified bypass: Row 12 connects Duke's meadow directly east through (46, 12), (47, 12), (48, 12), (49, 12) into the blue flowers at (50-51, 12) and the eastern highway at column 52-53 leading north to Sovio City (verified Turn 8449).
-- **Central Meadow North Collision Tests (Verified Turns 10356, 10796)**: At (26, 39), stepping north into (26, 38) is blocked by a pine tree trunk. At (30, 39), stepping north into (30, 38) is blocked by a pine tree trunk. The meadow trail curves east through bird tracks at (27-29, 39-40) into the Sand Highway at (32, 39).
 - **Cottage East Ledge (Verified Turns 10781-10786)**: Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
+- **Hidden Hedge Passage (Verified Turns 11554-11568)**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
+- **Duke Meadow & Eastern Highway Connector (Verified Turns 11599-11611)**:
+  - Walkable perimeter around Duke: (44, 12) and (44, 13) are walkable hedge tiles; (45, 13), (46, 13), and (47, 13) are walkable floor tiles beneath the tree canopies.
+  - Solid collisions: Duke at (45, 12); pine tree at (48, 13) blocks eastward passage along row 13; pine tree trunks line row 14 at (44-48, 14).
+  - Row 12 Eastbound Corridor: Traversed west from Eastern Highway into Duke's meadow on Turn 11480; eastbound traversal requires calm single-step test to avoid wild battle interruption confusion.
 
 <hr>
 
@@ -626,25 +629,17 @@
   - *Deduction*: Jackson departed the Metro Station lobby following the seismic tremor (Turn 1437) to investigate the disturbance outside. Finding Jackson is the mandatory event flag to unlock Metro transit to Amor City.
 
 ## Audited Entities & Verified Status
-- **Sovio Surface Audits**:
-  - Recent Sweep (Turns 11315-11452):
-    - Plaza exterior & northern alcove: Audited vacant (Turns 11315-11324).
-    - House (39, 7): Audited ambient (elderly Wii dad & 2F boy).
-    - South sidewalk children's gathering at (33-35, 28): Audited ambient (Little Girl, Boy, Jigglypuff).
-    - House (31, 26): Audited facility (Official Name Rater).
-    - Central Park west bank: Audited ambient (Boy in pink shirt at 31, 21: "Was I catfished?").
-    - West Avenue: Boy & Rocky at (23-24, 17) audited ambient; Karate house at (14, 15) audited ambient (1F debate, family Machop aggressive cry, 2F visually confirmed vacant); Three Bikers at (13, 21-23) audited ambient motorcycle gang; western boundary at column 11 visually confirmed solid office wall from column 12.
-  - Prior Sweeps:
-    - House (29, 14): Audited ambient (Gumball easter egg family & sleeping resident, Turns 9161-9168).
-    - Terrace house (49, 14): Audited ambient (Nana & granddaughter, Turns 7897-7907).
-    - Commercial roof (47-51, 20-22): Audited covered walkway connecting to Route 2 barrier.
+- **Sovio Surface Audits (100% Falsified)**:
+  - Plaza exterior & northern alcove: Audited vacant (Turns 11315-11324).
+  - All residences audited: House (39, 7) elderly resident; House (31, 26) Name Rater; House (29, 14) Gumball easter egg family; Terrace house (49, 14) Nana & granddaughter; Karate house (14, 15) couple & Machop.
+  - Central Park & Avenues audited: Online dating couple by pond; Boy & Rocky at (23-24, 17); Three Bikers at (13, 21-23); Children & Jigglypuff at (33-35, 28); Commercial covered roof (47-51, 20-22).
+  - Western boundary at column 11 confirmed solid office wall.
 - **Sovio Sewers**:
   - Mapped and audited tile-by-tile. Storage room at (37, 14) is inert ("Its a simple storage room..."). Grunts retreated on Turn 2682. Dark Sector contains Nugget (collected) and cracked rock at (22, 10) requiring HM Rock Smash. Southern canal contains Poison Barb. Repeating exhaustive sewer checks without a new regional event flag is unproductive.
 
 ## Strategic Direction: Breaking the Sovio City Loop
 - **Falsification Result**: Sovio City surface entities are 100% ruled out. Jackson is not present in any Sovio residence, plaza, or park.
 - **Next High-Value Investigation**:
-  - Depart Sovio City via Southern Avenue (columns 14-15, row 39) onto Route 1.
   - Proceed southwest across Route 1 to Lancio Town.
   - Investigate Professor Ivo's Pokémon Laboratory in Lancio Town:
     1. Check Professor Ivo's dialogue for updates following the sewer confrontation.
