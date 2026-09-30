@@ -14,7 +14,7 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
 - **Plaza Street Lamp**: Located at (46, 17).
-- **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), trash can at (43, 20), and blonde girl at (43, 22). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
+- **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), and trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide ambient motorcycle gang flavor text (verified Turns 8567, 8572, 8806-8807).
 
@@ -44,7 +44,8 @@
 
 - **South Sidewalk & Name Rater Courtyard Connection (Verified Turns 8986-8998)**: Paved corridor along row 27-28 south of Central Park pond. The western dead end at (22-23, 27) in front of the building wall leads east past Name Rater house (31, 26). Row 27 above the Jigglypuff gathering (33-35, 28) is fully walkable, connecting directly east into Central Park's diamond-paved boulevard at row 26 (columns 36-43).
 
-- **NPCs**: Blonde girl at (44-45, 24-26) and boy in pink shirt at (31, 22) verified as an ambient pair waiting on opposite sides of the pond.
+- **Blonde Girl (Verified Turn 9137-9139)**: Located at (43, 24) on the east bank of the pond facing north. Ambient dialogue: 'I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?' Waiting for her online date.
+- **Boy in Pink Shirt**: Wandering around (31-33, 20-22) on the west bank of the pond.
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **South Sidewalk Boundary (Verified Turns 7173-7174)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (47, 28-29) blocking passage.
