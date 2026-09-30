@@ -26,4 +26,8 @@
   2. Test Sovio City plaza and Pokémon Center for any reloaded event scripts or NPC dialogue shifts.
   3. Re-probe the Metro Station turnstile (19, 21), timetable, and attendant line-of-sight from (19, 22) and (20, 22).
   4. Descend into Sovio Sewers to the Eastern Storage Room at (36-37, 14); execute comprehensive 4-directional interaction testing (facing North, South, East, West on tiles 36,14 and 37,14).
-- **Falsification Criteria**: If all cardinal interactions at (36-37, 14) return identical static text ("Its a simple storage room...") and the Metro turnstile continues to repel with "I should find dad first!", Hypothesis 7 is FALSIFIED, proving the trigger does not reside within the sewer holding area or metro lobby.
+- **Falsification Criteria**:
+  - Prop (a) Falsification: If all 4 cardinal angles and item/party probes on the sewer storage room threshold at (36-37, 14) return static dialogue ("Its a simple storage room...").
+  - Prop (b) Falsification: If Metro Station turnstile (19, 21), attendant (22, 19), and lobby fixtures return static repulsion text ("I should find dad first!").
+  - Prop (c) Falsification: If a full re-survey of Sovio City surface NPCs and buildings following map reload confirms identical ambient text without new story flags.
+  - Overall Hypothesis 7 is FALSIFIED only when all three sub-propositions (a, b, c) have been empirically tested and falsified, proving the required trigger is located elsewhere.
