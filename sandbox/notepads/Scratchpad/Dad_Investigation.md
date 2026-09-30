@@ -16,7 +16,15 @@
   - Mapped and audited tile-by-tile. Storage room at (37, 14) is inert ("Its a simple storage room..."). Grunts retreated on Turn 2682. Dark Sector contains Nugget (collected) and cracked rock at (22, 10) requiring HM Rock Smash. Southern canal contains Poison Barb. Repeating exhaustive sewer checks without a new regional event flag is unproductive.
 
 ## Strategic Direction: Breaking the Sovio City Loop
+- **Falsification Result**: Sovio City surface entities are 100% ruled out. Jackson is not present in any Sovio residence, plaza, or park.
 - **Lancio Town Lab Findings (Verified Turns 11767-11774)**:
   - Professor Ivo's dialogue at (20, 6) remains ambient ("Hey, Ashi, how's your new Pokémon?").
   - Descending basement stairs at (12, 7) re-verified still blocked ("I probably shouldn't head down here...").
   - Deduction: Professor Ivo's Lab currently contains no new story triggers or clues regarding Jackson.
+
+## In-Game System & Menu Audit (Verified Turns 11887-11903)
+- **Turnstile Gating State**: Re-verified at (19, 21): stepping on turnstile pushes Asher back to (19, 22) with verbatim text: "I should find dad first!".
+- **Trainer Card**: ID 54592, Money ¥6196, Time 88:59. Front tracks "*ROUNDS" with 8 empty slots (Eclipse Tournament). Back has 6 dark badge silhouettes.
+- **Key Items Pocket**: Contains only HuPhone (registered to SELECT) and TM Case. Zero keys, keycards, or progression quest items held.
+- **PC Item Storage**: Audited empty ("There are no items.").
+- **PC Mailbox**: Audited empty ("There's no Mail here.").

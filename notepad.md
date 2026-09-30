@@ -645,5 +645,11 @@
   - Descending basement stairs at (12, 7) re-verified still blocked ("I probably shouldn't head down here...").
   - Deduction: Professor Ivo's Lab currently contains no new story triggers or clues regarding Jackson.
 
+## In-Game System & Menu Audit (Verified Turns 11887-11903)
+- **Turnstile Gating State**: Re-verified at (19, 21): stepping on turnstile pushes Asher back to (19, 22) with verbatim text: "I should find dad first!".
+- **Trainer Card**: ID 54592, Money ¥6196, Time 88:59. Front tracks "*ROUNDS" with 8 empty slots (Eclipse Tournament). Back has 6 dark badge silhouettes.
+- **Key Items Pocket**: Contains only HuPhone (registered to SELECT) and TM Case. Zero keys, keycards, or progression quest items held.
+- **PC Item Storage**: Audited empty ("There are no items.").
+- **PC Mailbox**: Audited empty ("There's no Mail here.").
 
 <hr>
