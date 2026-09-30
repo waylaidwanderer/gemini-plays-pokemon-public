@@ -571,4 +571,12 @@
   2. Test interaction on all unique objects (vending machines, decorative fixtures, notices).
 - **Falsification Criteria**: If all fixtures confirm solid inert collision without script execution, structural triggers are ruled out.
 
+### Hypothesis 4: Macro-Traversal & Level 15 Evolution (CONVINCINGLY FALSIFIED)
+- **Proposition**: Traveling to Route 1 / Lancio Town to train Sirius to Lv15 will trigger an evolution or story progression event with Professor Ivo.
+- **Empirical Findings & Falsification**:
+  1. Mechanics Check: Riolu's evolution is friendship/happiness-based (with daytime requirement), not tied to Level 15. Level 15 assumption was completely unfounded.
+  2. Map Check: Route 1 and Lancio Town have been visited repeatedly across thousands of turns; Professor Ivo and all town NPCs exhibit static ambient dialogue with zero progression triggers.
+  3. Roadblock Locality: Both roadblocks ('I should find dad first!' and 'I can't go yet... I have things to do!') are local to Sovio City and explicitly demand finding Dad.
+- **Conclusion**: Macro-traversal is completely ruled out. Immediate operational plan: conclude this wild encounter, then return north to Sovio City to directly execute Hypothesis 2 and Hypothesis 3.
+
 <hr>
