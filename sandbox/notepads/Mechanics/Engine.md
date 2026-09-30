@@ -18,8 +18,9 @@
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 - **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
-## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551)
+## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551, 9743)
+- **Poké Balls Pocket (Verified Turn 9743)**: Contains 10 Poké Balls (purchased at Sovio PokéMart Mezzanine) and 1 Timer Ball (11 catching balls total).
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
-- **Key Items Pocket**: Contains only HuPhone and TM Case. Zero keys, keycards, access badges, or event quest items held.
+- **Key Items Pocket**: Contains HuPhone (displaying a red notification badge [5] as of Turn 9742) and TM Case. Zero keys, keycards, access badges, or event quest items held.
 - **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
