@@ -16,10 +16,12 @@
 ## Active Priority: Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)
 - **Proposition**: An unexamined structural fixture, interactive object, or hidden mechanism in Sovio Metro Station or Sovio City holds the trigger or clue to locate Jackson.
 - **Protocol & Empirical Results**:
-  1. Metro Station Lobby: Visited Turns 9637-9640; turnstiles and exit verified functional. Platform side attendant and vending machines remain separated by turnstile gate.
-  2. Central Plaza Fixtures:
+  1. Metro Station Lobby: Visited Turns 9637-9640 & 9676-9679. Turnstiles at (19, 21) trigger "I should find dad first!" and repel. Right scanner pillar at (20, 21) tested inert. Timetable display verified.
+  2. Central Plaza & South Fixtures:
      - Park border trash barrel at (43, 20): Tested Turn 9648; inert decorative fixture.
      - West wall of modern building at (47, 27): Tested Turn 9656; confirmed solid wall collision.
      - Corner barrels at (46, 22) and (46, 28-29): Confirmed solid inert obstacles blocking direct passage.
-  3. New Discovery (Turn 9656-Present): Two-story building at columns 47-51, rows 20-29. Features a south-facing wooden double door at (49-50, 29) accessible via row 30 street.
-  4. Active Execution: Navigating around the row 29 pine hedges via column 42 to row 30, then walking east to inspect the south-facing entrance at (49-50, 29).
+     - Western approach via column 42: Tested Turn 9664; terminates in a dead-end hedge alcove at (42, 30) enclosed by dense pine forest.
+     - East Exit at (52, 19): Tested Turn 9670; triggers "I can't go yet... I have things to do!" and repels player.
+  3. Major Structural Discovery (Turn 9688): The Pokémon Center contains a blue-carpeted staircase in the northwest corner (columns 1-2, rows 1-2) leading up to 2F! Prior note claiming no 2F existed was a false negative that went uncorrected for nearly 4,000 turns.
+  4. Active Execution: Ascend Pokémon Center 2F staircase to investigate the second floor for NPCs, dialogue, or story triggers.

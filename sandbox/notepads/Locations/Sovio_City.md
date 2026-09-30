@@ -42,6 +42,7 @@
 - **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
+- **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
 - **South Sidewalk Boundary (Verified Turn 9652)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (46, 28-29) blocking passage directly east into the row 28-29 alley.
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding, four blue windowpanes, and a brown wooden double door at (49-50, 29) facing south onto row 30 street. West wall along column 47 is solid collision (verified Turn 9656 at 47, 27).
 
