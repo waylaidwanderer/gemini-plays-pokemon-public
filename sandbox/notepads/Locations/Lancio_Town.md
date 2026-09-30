@@ -70,12 +70,8 @@
   - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 
 ## Southwest Beach & Coastline
-
-- **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-17.
-
+- **Coastline / Sandy Beach (Audited Turns 10076-10078)**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-18. Physical perimeter step-tested: westernmost land at (13, 16-17), southern peninsula at (15, 18), and eastern shoreline at (19, 17) are solid natural shorelines bordering open ocean (probed with 'A'; zero hidden warps, docks, or boat triggers).
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
-
-
 
 ## Eastern Border & Route 1 Exit
 
