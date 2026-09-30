@@ -585,8 +585,9 @@
   1. Systematically interact with every surface NPC in Sovio City (Bikers, boy with Rocky, Gumball family, Karate couple, park visitors, terrace residents).
   2. Test persistent dialogue (3+ presses of 'A') to check for multi-textbox shifts.
 - **Falsification Criteria**: If all NPCs cycle to identical baseline dialogue strings with no flag updates, NPC interaction is ruled out.
-- **Empirical Results (Turns 9462-9478)**:
+- **Empirical Results (Turns 9462-9488)**:
   - Three Bikers (13, 21-23): Tested multi-textbox persistence on Biker 1 and Biker 2. Both cycle the exact same 2-line gang dialogue ("Jealous kid? / ultimate motorcycle gang!") followed by Asher's thought bubble; confirmed 100% ambient comedic NPCs with zero secondary branches.
   - Karate Couple (House 14, 15): Tested multi-textbox persistence on Karate trainer (3, 34) and girlfriend (3, 33). Both cycle the exact same 2-line martial arts debate ("debate over which fighting stlye is better / kickbox vs karate") and loop back to baseline; confirmed 100% ambient flavor text with zero secondary branches, battle challenges, or items.
+  - Boy with Rocky (23, 17): Tested multi-textbox persistence (Turns 9486-9488). Cycles identical baseline dialogue ("This is my partner, Rocky! He's the best... / Rocky: ..."); confirmed 100% ambient comic relief with zero secondary branches.
 
 <hr>
