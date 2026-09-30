@@ -11,10 +11,8 @@
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
 ## Explicit Falsifiable Story Hypotheses
-1. **Hypothesis: Metro Attendant / Platform Trigger**:
-   - Mechanic/Entity: The station attendant at (22, 19) or dialogue triggers inside the Sovio Metro Station platform.
-   - Test Method: Inspect turnstile gate (19, 21) and interact with all reachable tiles/pillars around the gate to check for alternative interactions or attendant prompts.
-   - Falsification: If all interactable tiles around the turnstile gate solely return "I should find dad first!" and force Asher south without advancing the plot, this trigger is falsified.
+1. **Hypothesis: Metro Attendant / Platform Trigger** [FALSIFIED - Turn 9018]:
+   - Empirical Result: Interacting with turnstile gate (19, 21) facing North with 'A' returns no prompt. Stepping onto (19, 21) triggers verbatim 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Attendant at (22, 19) remains unreachable on platform side. Gated strictly behind story event flag of finding Jackson.
 
 2. **Hypothesis: Overlooked Sewer Trigger / Valora Presence**:
    - Mechanic/Entity: Valora or a secondary sewer trigger that updates the quest state post-grunt retreat.
