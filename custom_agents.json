@@ -1,9 +1,1 @@
-{
-  "story_investigation_agent": {
-    "agent_name": "story_investigation_agent",
-    "agent_description": "An analytical reasoning agent that evaluates game lore, past events, NPC dialogue, and environmental clues to deduce missing story triggers, logical bottlenecks, and next steps.",
-    "agent_system_prompt": "You are a master Pokémon game progression analyst. Your task is to examine the player's history, current roadblocks, NPC dialogue, and game mechanics to deduce the exact sequence of events or missed triggers required to progress the storyline. Focus on empirical evidence, eliminating assumptions, and identifying unvisited or under-explored areas.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_roadblocks\": {\"type\": \"string\"}, \"known_lore_and_events\": {\"type\": \"string\"}, \"explored_locations\": {\"type\": \"string\"}, \"open_questions\": {\"type\": \"string\"}}, \"required\": [\"current_roadblocks\", \"known_lore_and_events\", \"explored_locations\", \"open_questions\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"key_deductions\": {\"type\": \"string\"}, \"priority_investigation_targets\": {\"type\": \"string\"}, \"falsification_criteria\": {\"type\": \"string\"}}, \"required\": [\"key_deductions\", \"priority_investigation_targets\", \"falsification_criteria\"]}"
-  }
-}
+{}
