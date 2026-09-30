@@ -21,9 +21,6 @@
   - Professor Ivo's dialogue at (20, 6) remains ambient ("Hey, Ashi, how's your new Pokémon?").
   - Descending basement stairs at (12, 7) re-verified still blocked ("I probably shouldn't head down here...").
   - Deduction: Professor Ivo's Lab currently contains no new story triggers or clues regarding Jackson.
-- **Next Investigation Target**:
-  - Re-examine Lancio Town Harbor (pier at columns 32-34, row 25) to check if any boat or NPC has appeared.
-
 - **Lancio Town Harbor Pier Re-verification (Turn 11789)**: Pier at (32-34, 22-25) is completely empty. No boat, no Harry, no interactions facing South into water.
 - **Fisherman Dialogue Re-verification (Turn 11793-11796)**: NPC at (38, 22) gives unchanged ambient advice about fishing and life.
 - **Lancio Town Investigation Complete**: Town contains zero active story triggers for finding Dad or unlocking Metro.
