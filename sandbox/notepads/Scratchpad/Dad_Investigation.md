@@ -23,5 +23,5 @@
      - Corner barrels at (46, 22) and (46, 28-29): Confirmed solid inert obstacles blocking direct passage.
      - Western approach via column 42: Tested Turn 9664; terminates in a dead-end hedge alcove at (42, 30) enclosed by dense pine forest.
      - East Exit at (52, 19): Tested Turn 9670; triggers "I can't go yet... I have things to do!" and repels player.
-  3. Major Structural Discovery (Turn 9688): The Pokémon Center contains a blue-carpeted staircase in the northwest corner (columns 1-2, rows 1-2) leading up to 2F! Prior note claiming no 2F existed was a false negative that went uncorrected for nearly 4,000 turns.
-  4. Active Execution: Ascend Pokémon Center 2F staircase to investigate the second floor for NPCs, dialogue, or story triggers.
+  3. Major Structural Discovery (Turn 9688): The PokÃ©mon Center contains a blue-carpeted staircase in the northwest corner (columns 1-2, rows 1-2) leading up to 2F! Prior note claiming no 2F existed was a false negative that went uncorrected for nearly 4,000 turns.
+  4. Active Execution: Ascend PokÃ©mon Center 2F staircase to investigate the second floor for NPCs, dialogue, or story triggers.
