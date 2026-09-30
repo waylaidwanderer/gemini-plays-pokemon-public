@@ -20,6 +20,7 @@
   - Progress (Turn 11377): Boy at (35, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Yeah Jigglypuff!".
   - Progress (Turn 11379): Jigglypuff at (34, 28) re-audited; verbatim cry confirmed: "Jigglypuff: Puff Puff!".
   - Progress (Turns 11381-11382): Little Girl at (33, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Mom told me that she will evolve if she touches a Moon Stone... if she touches a Moon Stone... I must keep her away from them!". South sidewalk gathering fully audited.
+  - Progress (Turn 11388): Name Rater at (64, 14) inside house (31, 26) re-audited; verbatim dialogue confirmed standard facility: "Hello, hello! I am the official Name Rater!".
   - Next Audit Targets:
     - South sidewalk & Jigglypuff gathering at (33-35, 28).
     - Name Rater house at (31, 26).
