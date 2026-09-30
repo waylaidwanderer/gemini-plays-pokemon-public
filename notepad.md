@@ -269,8 +269,9 @@
 - **Burden of Proof / Empirical Verification**: After being poisoned by wild Nidoran♀ on Turn 499, Sirius walked over 150 overworld steps across Route 1 without taking a single point of poison damage. On Turn 658-659, opening the party menu showed Sirius at full 22/22 HP (PSN), and using a Potion yielded 'It won't have any effect.'
 - **Turn-in-Place Mechanic**: There is NO turn-in-place mechanic on foot; pressing a D-Pad direction always turns and attempts a forward step unless blocked by terrain collision.
 
-## Facilities & PokéMarts (Verified Turns 795-805)
-- **Lancio Town Pokémon Center**: Contains no PokéMart clerk or item vendor inside (verified by full room inspection). NPC dialogue claiming PokéMarts are inside centers does not apply to Lancio Town.
+## Facilities & PokéMarts (Verified Turns 795-805, 9706, 9743)
+- **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center. Verified functional with clerk in Sovio City (Turn 9706). (Note: Lancio Town Pokémon Center's layout has not yet been visually re-inspected to confirm if it contains an identical mezzanine staircase; remains unverified until tested directly in-game).
+- **Bulk Poké Ball Purchases & Premier Ball Mechanic**: In Pokémon Sors, purchasing 10 Poké Balls does NOT grant a bonus Premier Ball. Empirical verification on Turn 9743 showed Bag containing exactly 10 Poké Balls, 1 Timer Ball (obtained earlier), and 0 Premier Balls.
 ## Quests & Mission Engine (Verified Turn 1378-1381)
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 ## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
@@ -284,9 +285,10 @@
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 - **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
-## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551)
+## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551, 9743)
+- **Poké Balls Pocket (Verified Turn 9743)**: Contains 10 Poké Balls (purchased at Sovio PokéMart Mezzanine) and 1 Timer Ball (11 catching balls total).
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
-- **Key Items Pocket**: Contains only HuPhone and TM Case. Zero keys, keycards, access badges, or event quest items held.
+- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Zero keys, keycards, access badges, or event quest items held.
 - **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
 
@@ -360,8 +362,9 @@
 - **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
+- **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
 - **South Sidewalk Boundary (Verified Turn 9652)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (46, 28-29) blocking passage directly east into the row 28-29 alley.
-- **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding, four blue windowpanes, and a brown wooden double door at (49-50, 29) facing south onto row 30 street. West wall along column 47 is solid collision (verified Turn 9656 at 47, 27).
+- **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes. West wall along column 47 is solid collision (verified Turn 9656 at 47, 27). Southern facade/row 30 is physically unreachable from the west (blocked by hedge alcove at 42, 30) and east (blocked by Route 2 story barrier at 52, 19).
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -383,7 +386,14 @@
   - **Corner PC Terminal at (12, 1) (Verified Turn 7195, 7206)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
   - **Framed Town Map at (11, 0) (Verified Turns 7212-7215)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
-  - Upper Floor: Verified on Turn 6076; no 2F staircase exists.
+  - **Upper Mezzanine & PokéMart (Verified Turns 9696-9721)**: Reached via the blue-carpeted staircase in the northwest corner at (1-2, 1-2), which warps to an escalator at (5, 8). Ascends north to the upper mezzanine floor. A PokéMart counter is staffed by a clerk at (5, 3) facing south across the counter at (5, 4).
+    - **Verified Shop Inventory**:
+      - Poké Ball: ¥200
+      - Potion: ¥300
+      - Antidote: ¥100
+      - Paralyz Heal: ¥200
+      - Repel: ¥350
+    - **Fixtures & Bounds**: Blue wall terminal/display at (6, 3) east of clerk (inert). Counter structure spans columns 3 to 6 across rows 3-4, completely enclosing clerk with no rear access. Escalator descends south at (5, 6-8) between red handrails. East flank: tile (7, 5) is walkable, (7, 4) solid collision. West flank: tiles (2, 3), (2, 4), (2, 5) walkable; north window wall at (2, 2) and counter side wall at (3, 3) solid collision. Mezzanine 100% audited.
 
 ## Sovio Metro Station (Verified Turn 1388)
 
@@ -448,6 +458,8 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
+- **Southern Avenue Bounds (Verified Turn 9776-9781)**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
+
 
 <hr>
 
@@ -562,13 +574,18 @@
 ## Active Priority: Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)
 - **Proposition**: An unexamined structural fixture, interactive object, or hidden mechanism in Sovio Metro Station or Sovio City holds the trigger or clue to locate Jackson.
 - **Protocol & Empirical Results**:
-  1. Metro Station Lobby: Visited Turns 9637-9640; turnstiles and exit verified functional. Platform side attendant and vending machines remain separated by turnstile gate.
-  2. Central Plaza Fixtures:
+  1. Metro Station Lobby: Visited Turns 9637-9640 & 9676-9679. Turnstiles at (19, 21) trigger "I should find dad first!" and repel. Right scanner pillar at (20, 21) tested inert. Timetable display verified.
+  2. Central Plaza & South Fixtures:
      - Park border trash barrel at (43, 20): Tested Turn 9648; inert decorative fixture.
      - West wall of modern building at (47, 27): Tested Turn 9656; confirmed solid wall collision.
      - Corner barrels at (46, 22) and (46, 28-29): Confirmed solid inert obstacles blocking direct passage.
-  3. New Discovery (Turn 9656-Present): Two-story building at columns 47-51, rows 20-29. Features a south-facing wooden double door at (49-50, 29) accessible via row 30 street.
-  4. Active Execution: Navigating around the row 29 pine hedges via column 42 to row 30, then walking east to inspect the south-facing entrance at (49-50, 29).
+     - Western approach via column 42: Tested Turn 9664; terminates in a dead-end hedge alcove at (42, 30) enclosed by dense pine forest.
+     - East Exit at (52, 19): Tested Turn 9670; triggers "I can't go yet... I have things to do!" and repels player.
+  3. Major Structural Discovery (Turns 9688-9721): The Pokémon Center blue-carpeted staircase (1-2, 1-2) warps to an escalator at (5, 8) leading to the PokéMart mezzanine! Clerk at (5, 3) verified selling Poké Balls (¥200), Potions (¥300), Antidotes (¥100), Paralyz Heals (¥200), and Repels (¥350).
+
+  - Southern Avenue (Columns 14-15, Rows 28-39): Tested Turns 9775-9781. Passes under archway at rows 28-29. Row 30 east is completely blocked by dense pine forest. Road runs straight south between pine trees directly to Route 1 entrance at row 39.
+
+- Metro Station Turnstile Re-test (Verified Turn 9788): Stepping onto (19, 21) triggers verbatim 'I should find dad first!' and forces Asher 1 step South to (19, 22). Roadblock remains strictly active.
 
 
 <hr>
