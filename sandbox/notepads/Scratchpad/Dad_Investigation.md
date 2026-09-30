@@ -9,15 +9,17 @@
 
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
-- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
+- **H1 (Metro Lobby NPC Audit)**: Falsified Turn 11270. Lobby is empty; Valora is absent; turnstile remains blocked by 'I should find dad first!'.
+- **H3 (Route 2 Boundary Audit)**: Falsified Turns 11079-11080. Row 22 at (52, 22) triggers repellent barrier 'I can't go yet... I have things to do!'.
+- **H4 (Commercial Building Covered Passage)**: Falsified Turns 11074-11081. Rows 20-22 are walkable covered floor; row 23 is solid interior collision; eastern connection leads only to the Route 2 barrier.
 
 ## Surface Progression Hypotheses (Post-Sewer Clearance)
 - **H2 - Sovio Surface Perimeter & Plaza Check**:
   - Methodology: Check Central Plaza perimeter, Pokémon Center exterior (where Mother confrontation occurred), and Central Park entities.
   - Progress (Turns 11315-11324): Pokémon Center exterior at (44, 14) and northern alcove at columns 39-40, rows 8-12 confirmed vacant. House (39, 7) 1F resident at (41, 33) re-audited; verbatim dialogue confirmed ambient: "I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."
   - Next Audit Targets:
-    - Blonde girl at (44, 25) on east bank of pond.
-    - Jigglypuff gathering at (33-35, 28) south of pond.
+    - South sidewalk & Jigglypuff gathering at (33-35, 28).
     - Name Rater house at (31, 26).
-    - Pink shirt boy at (31-33, 20-22) on west bank of pond.
+    - West bank boy at (31-33, 20-22).
+    - West Avenue entities & buildings (Boy & Rocky at 23-24, 17; Karate house at 14, 15; Bikers at 13, 21-23).
   - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza and park entities.
