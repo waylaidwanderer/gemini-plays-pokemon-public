@@ -73,7 +73,7 @@
       - Antidote: ¥100
       - Paralyz Heal: ¥200
       - Repel: ¥350
-    - **Fixtures & Bounds**: Blue wall terminal/display at (6, 3) east of clerk. Escalator descends south at (5, 6-8). East side: tile (7, 5) is walkable blue floor, but (7, 4) is solid collision blocking northward traversal on the east flank. West side audit in progress.
+    - **Fixtures & Bounds**: Blue wall terminal/display at (6, 3) east of clerk (inert). Counter structure spans columns 3 to 6 across rows 3-4, completely enclosing clerk with no rear access. Escalator descends south at (5, 6-8) between red handrails. East flank: tile (7, 5) is walkable, (7, 4) solid collision. West flank: tiles (2, 3), (2, 4), (2, 5) walkable; north window wall at (2, 2) and counter side wall at (3, 3) solid collision. Mezzanine 100% audited.
 
 ## Sovio Metro Station (Verified Turn 1388)
 
