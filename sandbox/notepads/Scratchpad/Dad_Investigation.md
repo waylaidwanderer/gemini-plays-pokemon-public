@@ -11,6 +11,14 @@
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
 
-## Active Strategic Focus: Eastern Storage Room Audit
-- **Tile (36, 14) Audit (Verified Turn 11127)**: Bare floor outside the mat. Stepping Down blocked by void collision; interacting facing South with A is inert; stepping Right blocked by alcove corner wall. Access to the red mat is strictly from row 13 at (37, 13).
-- **Red Mat Scope & Remaining Tests (Columns 37-38, Row 14)**: The red capsule mat spans columns 37 and 38 at row 14. Tile (37, 14) was tested South on Turn 8637 ("Its a simple storage room..."). Tile (38, 14) (the right half of the mat), stepping Down from (38, 14), and interacting facing North/East/West remain to be tested.
+## Active Strategic Focus: Eastern Storage Room Audit (FALSIFIED / COMPLETE)
+- **Comprehensive Eastern Storage Room Audit (Verified Turns 11127, 11144, 11149)**:
+  - (36, 14): Bare floor west of mat; south void collision, A interaction inert.
+  - (37, 14): Red capsule mat; stepping Down bumps into void collision (no warp); interacting facing South triggers "Its a simple storage room...".
+  - (38, 14): Bare floor east of mat; south void collision, A interaction inert.
+  - Conclusion: The sewer storage room is 100% empty and inert. Jackson is NOT in Sovio Sewers. All accessible sectors of Sovio Sewers (1F landing, lower walkways, southern canal, upper terrace, elevated gangway, dark sector basement) are fully cleared.
+
+## Next Strategic Objective: Sovio Metro & Surface Re-Investigation
+- Exit Sovio Sewers via the 1F staircase at (38, 22) into Sovio Metro Station.
+- Re-examine the Metro Station lobby (check all NPCs, corners, and inspect Valora/Dad triggers).
+- Re-examine Sovio City surface with a fresh perspective.
