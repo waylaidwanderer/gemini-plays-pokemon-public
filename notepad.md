@@ -311,6 +311,7 @@
     - (48, 14): Solid pine tree trunk blocks eastward traversal along row 14 from (47, 14).
     - (47, 15): Pine tree foliage blocks southward traversal along column 47 from row 14.
     - Verified bypass: Row 12 connects Duke's meadow directly east through (46, 12), (47, 12), (48, 12), (49, 12) into the blue flowers at (50-51, 12) and the eastern highway at column 52-53 leading north to Sovio City (verified Turn 8449).
+- **Central Meadow North Boundary (Verified Turn 10356)**: At (26, 39), northward traversal into row 38 is blocked by solid pine tree trunks across columns 24-30. The meadow trail curves east through bird tracks at (27-29, 39-40) into the Sand Highway at (32, 39).
 
 <hr>
 
