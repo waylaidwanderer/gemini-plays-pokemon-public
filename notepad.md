@@ -380,11 +380,7 @@
 - **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
 - **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
 
-## HuPhone App Architecture (Verified Turns 11899-11905)
-- **Main Apps**: Exactly three apps on main menu: 'Item Storage', 'World Map', 'Quest Log', followed by 'Back'.
-- **Item Storage / PC**: Opens portable PC interface with 'Item Storage', 'Mailbox', and 'Turn Off'. Both Item Storage and Mailbox audited empty.
-- **Quest Log Submenu**: Contains 'Quest List', 'Quest Status', and 'Back'.
-- **Quest List Status Feedback**: Selecting an uncompleted quest (e.g. Lost Toy) displays: "This Quest hasn't been completed yet!".
+
 
 <hr>
 
@@ -458,7 +454,6 @@
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
-- **South Sidewalk Boundary (Verified Turn 9652)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (46, 28-29) blocking passage directly east into the row 28-29 alley.
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes.
   - **Upper Roof Perimeter & Collision (Audited Turns 11074-11080)**:
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
@@ -647,18 +642,9 @@
 - **Sovio Sewers**:
   - Mapped and audited tile-by-tile. Storage room at (37, 14) is inert ("Its a simple storage room..."). Grunts retreated on Turn 2682. Dark Sector contains Nugget (collected) and cracked rock at (22, 10) requiring HM Rock Smash. Southern canal contains Poison Barb. Repeating exhaustive sewer checks without a new regional event flag is unproductive.
 
-## Strategic Direction: Breaking the Sovio City Loop
-- **Falsification Result**: Sovio City surface entities are 100% ruled out. Jackson is not present in any Sovio residence, plaza, or park.
-- **Lancio Town Lab Findings (Verified Turns 11767-11774)**:
-  - Professor Ivo's dialogue at (20, 6) remains ambient ("Hey, Ashi, how's your new Pokémon?").
-  - Descending basement stairs at (12, 7) re-verified still blocked ("I probably shouldn't head down here...").
-  - Deduction: Professor Ivo's Lab currently contains no new story triggers or clues regarding Jackson.
-
 ## In-Game System & Menu Audit (Verified Turns 11887-11903)
 - **Turnstile Gating State**: Re-verified at (19, 21): stepping on turnstile pushes Asher back to (19, 22) with verbatim text: "I should find dad first!".
 - **Trainer Card**: ID 54592, Money ¥6196, Time 88:59. Front tracks "*ROUNDS" with 8 empty slots (Eclipse Tournament). Back has 6 dark badge silhouettes.
-- **Key Items Pocket**: Contains only HuPhone (registered to SELECT) and TM Case. Key Items pocket contains zero keys, keycards, or progression tools.
-- **PC Item Storage**: Audited empty ("There are no items.").
 - **PC Mailbox**: Audited empty ("There's no Mail here.").
 
 <hr>
