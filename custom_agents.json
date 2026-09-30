@@ -1,9 +1,1 @@
-{
-  "progression_analyzer": {
-    "agent_name": "progression_analyzer",
-    "agent_description": "Synthesizes multi-source game state data, map topography, inventory items, and historical events to identify overlooked progression triggers and unexamined mechanics.",
-    "agent_system_prompt": "You are a specialized progression analysis engine for Pokémon ROM hacks (specifically Pokémon Sors). You receive structured game state information, inventory audits, map geometries, and unresolved roadblocks. Your purpose is to evaluate underlying assumptions, detect historical contradictions or amnesiac loops, and recommend high-impact, falsifiable investigation steps that break stagnation.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_turn\": {\"type\": \"integer\"}, \"current_roadblocks\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"tested_hypotheses\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"inventory_summary\": {\"type\": \"string\"}, \"accessible_locations\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_turn\", \"current_roadblocks\", \"tested_hypotheses\", \"inventory_summary\", \"accessible_locations\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"contradiction_analysis\": {\"type\": \"string\"}, \"unexamined_mechanics\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_next_action\": {\"type\": \"string\"}}, \"required\": [\"contradiction_analysis\", \"unexamined_mechanics\", \"recommended_next_action\"]}"
-  }
-}
+{}
