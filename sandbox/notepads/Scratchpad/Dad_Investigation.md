@@ -16,15 +16,9 @@
 - **Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)**: Falsified Turns 9856-9901. HuPhone apps (Item Storage, Mailbox, World Map, Quest Log) and Bag pockets audited static with zero interactive story triggers or progression tools.
 - **Hypothesis 6 (Macro-Exploration of Route 1 & Lancio Town Boundaries)**: Falsified Turns 10042-10103. Route 1 southern corridor, Lancio Pokémon Center, Professor Ivo's Lab (basement stairs story-blocked), Southwest Beach, Northwest House (boy kicks out), Lancio Harbor pier (no boat/ferry), fisherman (ambient), and dockside house facade exhaustively audited. All regional perimeters remain strictly bounded with zero secondary branches or open warps.
 
-## Turn 10498 Reflection & Macro Routing Re-alignment
-- **Reflection**: Re-evaluated Route 1 topology. In early-game progression (Turns 666-1165), Asher traversed from Lancio to Sovio via the Northwest Clearing (Mike at 29, 20 and Sonia at 27, 15) to Duke (45, 12) and Sovio City (53, 0).
-- **Hypothesis 10 (Far-Western Sector Columns 0-4 Northbound Survey)**:
-  - **Context**: Columns 12-18 are confirmed blocked northward by solid trees/hedges at rows 40-42.
-  - **Resolution (Turn 10524)**: FALSIFIED for columns 3-4. Probed (4, 44) and (4, 43) (open alcove adjacent to Cut Tree), (4, 42) (solid pine tree trunk), (3, 44) and (3, 43) (solid pine trees). Northern passage at column 5 is gated by the Cut Tree.
+
 - **Cottage East Perimeter Audit (Verified Turns 10614-10625)**: Column 42 tested across rows 21, 22, and 24: solid pine trees and trunks. Confirmed zero passage exists east from the Cottage area into the Eastern Meadow. The Cottage area is an isolated landing south of the row 20 one-way ledge, connecting exclusively south via the Sand Highway.
 - **Column 26 Collision Test (Verified Turn 10646)**: Stepping Up from (26, 39) into (26, 38) resulted in solid collision with a pine tree trunk.
 - **Hypothesis 11 (Route 1 Northbound Connection Survey)**:
   - **Proposition**: Progression back to Sovio City requires identifying the verified northbound passage out of the southern Route 1 loop.
-  - **Candidate Avenues**:
-    1. Avenue A: Signboard 2 sector (columns 18-21, rows 40-44) to audit whether the corridor toward Youngster Mike (29, 20) branches north from the southern path.
-    2. Avenue B: Western boundary of the Sand Highway (columns 34-35, rows 27-36) to audit for an unverified westward opening.
+  - **Active Focus**: Avenue A (Signboard 2 sector, columns 18-21, rows 40-44). Survey the path around Camper (18, 45) and Signboard 2 (19, 42) to find the verified corridor ascending toward Youngster Mike (29, 20). Note: Sand Highway western perimeters were previously verified enclosed on Turns 10605-10609 and are no longer candidate avenues.
