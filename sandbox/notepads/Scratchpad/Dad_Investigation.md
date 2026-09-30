@@ -21,3 +21,9 @@
 - Exit Sovio Sewers via the 1F staircase at (38, 22) into Sovio Metro Station.
 - Re-examine the Metro Station lobby (check all NPCs, corners, and inspect Valora/Dad triggers).
 - Re-examine Sovio City surface with a fresh perspective.
+
+## Narrative Analyst Progression Hypotheses (Post-Sewer Clearance)
+1. **H1 - Metro Lobby Trigger**: Emerge through sewer staircase into Metro lobby to check if Valora, Jackson, or station attendant triggers a cutscene or dialogue.
+2. **H2 - Metro Turnstile Status**: Test the turnstile at (19, 21) to verify if the 'find dad' flag has updated/cleared now that sewers are evacuated.
+3. **H3 - Sovio Surface Perimeter & Center**: Check outside the Pokémon Center (where Mother confronted Dad) and the Central Plaza for Jackson's presence.
+4. **H4 - Route 2 Boundary Test**: Check if Route 2 barrier at (52, 19-21) has lifted ('I can't go yet...').
