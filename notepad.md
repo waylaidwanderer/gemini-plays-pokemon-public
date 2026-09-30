@@ -577,6 +577,16 @@
   1. Mechanics Check: Riolu's evolution is friendship/happiness-based (with daytime requirement), not tied to Level 15. Level 15 assumption was completely unfounded.
   2. Map Check: Route 1 and Lancio Town have been visited repeatedly across thousands of turns; Professor Ivo and all town NPCs exhibit static ambient dialogue with zero progression triggers.
   3. Roadblock Locality: Both roadblocks ('I should find dad first!' and 'I can't go yet... I have things to do!') are local to Sovio City and explicitly demand finding Dad.
-- **Conclusion**: Macro-traversal is completely ruled out. Immediate operational plan: conclude this wild encounter, then return north to Sovio City to directly execute Hypothesis 2 and Hypothesis 3.
+- **Conclusion**: Macro-traversal is completely ruled out. Riolu's evolution is friendship-based, and Lancio Town / Route 1 NPCs exhibit static ambient dialogue.
+
+### Hypothesis 2: Exhaustive Surface NPC Persistence & Trigger Audit
+- **Proposition**: An NPC in Sovio City possesses a secondary dialogue branch or progression trigger activated only upon repeated or sequential interaction (similar to the Protect TM boy in Lancio Town).
+- **Test Protocol**:
+  1. Systematically interact with every surface NPC in Sovio City (Bikers, boy with Rocky, Gumball family, Karate couple, park visitors, terrace residents).
+  2. Test persistent dialogue (3+ presses of 'A') to check for multi-textbox shifts.
+- **Falsification Criteria**: If all NPCs cycle to identical baseline dialogue strings with no flag updates, NPC interaction is ruled out.
+- **Empirical Results (Turns 9462-9478)**:
+  - Three Bikers (13, 21-23): Tested multi-textbox persistence on Biker 1 and Biker 2. Both cycle the exact same 2-line gang dialogue ("Jealous kid? / ultimate motorcycle gang!") followed by Asher's thought bubble; confirmed 100% ambient comedic NPCs with zero secondary branches.
+  - Karate Couple (House 14, 15): Tested multi-textbox persistence on Karate trainer (3, 34) and girlfriend (3, 33). Both cycle the exact same 2-line martial arts debate ("debate over which fighting stlye is better / kickbox vs karate") and loop back to baseline; confirmed 100% ambient flavor text with zero secondary branches, battle challenges, or items.
 
 <hr>
