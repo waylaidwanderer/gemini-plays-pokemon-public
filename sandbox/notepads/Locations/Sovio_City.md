@@ -38,7 +38,7 @@
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
-- **South Sidewalk & Name Rater Courtyard Connection (Verified Turns 8986-8998)**: Paved corridor along row 27-28 south of Central Park pond. The western dead end at (22-23, 27) in front of the building wall leads east past Name Rater house (31, 26). Row 27 above the Jigglypuff gathering (33-35, 28) is fully walkable, connecting directly east into Central Park's diamond-paved boulevard at row 26 (columns 36-43).
+- **South Sidewalk & Children's Gathering (Verified Turns 8986-8998, 9914-9922)**: Paved corridor along rows 27-28 south of Central Park pond. West of Name Rater house (31, 26) is a dead end at (22-23, 27). East of Name Rater house at (33-35, 28) is a children's gathering around a Jigglypuff: Little Girl at (33, 28) ('Mom told me that she will evolve if she touches a Moon Stone!'), Jigglypuff at (34, 28) ('Puff Puff!'), and Boy at (35, 28) ('Yeah Jigglypuff!'). Confirmed 100% ambient flavor.
 
 - **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
