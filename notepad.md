@@ -284,6 +284,12 @@
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 - **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
+## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551)
+- **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
+- **Key Items Pocket**: Contains only HuPhone and TM Case. Zero keys, keycards, access badges, or event quest items held.
+- **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
+- **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
+
 
 <hr>
 
@@ -333,7 +339,7 @@
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
 - **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house. Probed from north (15, 17) and west (14, 18); verified non-interactive decorative fixtures.
 
-- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576, 9294-9296)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
+- **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
@@ -554,13 +560,10 @@
 
 ## Active Priority: Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)
 - **Proposition**: An unexamined structural fixture, interactive object, or hidden mechanism in Sovio Metro Station or Sovio City holds the trigger or clue to locate Jackson.
-- **Immediate Plan**:
-  1. Exit Sovio Sewers via the upper landing staircase at (38, 22).
-  2. Inspect Sovio Metro Station lobby fixtures:
-     - Ticket vending machines, posters, station attendant interaction from different angles.
-     - Red mat and wall boundaries.
-  3. Inspect Central Plaza and City exterior fixtures:
-     - Phone booths, vending machines, trash cans, signposts, building perimeters.
+- **Protocol**:
+  1. Inspect Sovio Metro Station lobby fixtures: ticket vending machines, timetable board, station attendant from all accessible sides, turnstile scanner pillars, and perimeter walls. Check if Valora or another NPC is present or triggers new dialogue.
+  2. Inspect Sovio City Central Plaza and urban fixtures: phone booths, street lamps, trash cans, signposts, building facades, and park boundaries.
+- **Falsification Criteria**: If all fixtures confirm solid inert collision without script execution, structural triggers are ruled out.
 
 
 <hr>
