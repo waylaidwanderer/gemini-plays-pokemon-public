@@ -32,7 +32,7 @@
 
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey [Verified Turn 6550], or 'This Quest hasn't been completed yet!' for uncompleted quests).
 
-  - 'Quest Status': Displays status for active quests without detailed objective hints.
+  - 'Quest Status': Displays status for active quests without detailed objective hints. When a quest is active, it displays: "You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!" Confirmed it does not provide objective tracking or location hints.
   - **HuPhone Menu & Quest Navigation (Verified Turn 11311)**: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
 ## PokÃ©mon Center Respawn Mechanics (Verified Turn 1815)
@@ -52,7 +52,7 @@
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
 
 ## Trainer Card Structure & Display (Verified Turns 11889-11890)
-- **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Poké Ball icons for the Eclipse Tournament.
+- **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Pokï¿½ Ball icons for the Eclipse Tournament.
 - **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
 - **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
 
