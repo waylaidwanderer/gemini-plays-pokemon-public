@@ -54,3 +54,5 @@
   - Prop (c) Status: FALSIFIED. Row 44 past column 26 verified to dead-end at alcove (27, 44) enclosed east and south by solid pine trees and pond (Turn 10419).
   - Eastern Perimeter Test: Tile (42, 27) -> East to (43, 27) verified solid cypress/pine tree obstacle (Turn 10438). Columns 43-44 form an unbroken vertical pine tree wall from row 21 down to row 38.
   - Row 20 Ledge Direct Test: Tile (40, 20) tested by pressing Up from (40, 21); confirmed solid collision from below (Turn 10454). Combined with Turn 10368 test of (41, 20), the entire row 20 curved branch is 100% impassable northward from below, functioning strictly as a one-way downward drop from (40, 19) to (40, 21).
+  - Eastern Perimeter Col 44 Probes (Verified Turns 10459-10464): Stepping East from (43, 30), (43, 32), and (43, 33) into column 44 confirmed solid pine trees. Stepping Down from (43, 33) into (43, 34) confirmed solid pine tree trunk. Column 44 is fully sealed south to row 34.
+  - Row 20 Ledge 'A' Interaction Probe (Verified Turn 10467): Pressing 'A' facing North at (40, 20) and (41, 20) yielded zero interaction text or script (inert scenery).
