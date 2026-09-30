@@ -465,7 +465,7 @@
   - Upper Entrance Landing (rows 21-23), Western Lower Wing & Corridors (Turn 6396-6407), Western Upper Terrace (Turn 6412), Northern Elevated Gangway (Turn 4509-4518), Eastern Storage Room at (37, 14), Southern Canal (Turn 3118-3133), and Dark Sector / Basement (Turn 4549-4576).
 - **Obstacles Remaining**:
   - Southwest Corridor (cols 7-8) and Dark Sector (22, 10) are blocked by cracked rocks requiring HM Rock Smash.
-- **Toy Search Status**: Unfound in all accessible sewer sectors. May require Rock Smash, an un-triggered NPC event, or another game mechanic.
+- **Toy Search Status**: Unfound as a visible overworld item in accessible sewer sectors.
 
 ## Visual Observations
 - Old Man at (51, 15) displays active quest icon (scroll and quill bubble) over head (verified Turn 6172).
@@ -510,7 +510,7 @@
 - **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Columns 16 and 17 at row 24 are solid brick wall pillars; northward traversal from row 25 must bypass through column 18 (verified Turn 5477).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
-- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665)**: From column 23 at row 13, a single-tile wide horizontal stone gangway runs along row 13 from column 24 to column 28 beneath a solid brick wall (rows 10-12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
+- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east to column 28 beneath a solid brick wall (rows 10-12). Note: Tile (23, 13) is impassable canal water; accessing the cross-chasm bridge at column 23 requires stepping North from (24, 13) onto (24, 12), then West onto the bridge at (23, 12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
 - **Eastern Storage Room (Audited Turn 8637)**: Located at the eastern dead-end at (36-37, 14) marked with a red capsule mat bearing a south-pointing arrow. Interacting facing South on (37, 14) displays: "Its a simple storage room...". Stepping Down bumps into south void edge with no walkable warp. North wall at rows 11-12 confirmed inert brick wall collision with no text or doors.
 
 ## Wild Encounters
@@ -552,10 +552,10 @@
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. HuPhone Quest Log verified: Lost Pidgey completed, Lost Toy active/uncompleted.
-## Active Untested Regional Leads & Story Hypotheses
-1. **Systematic Sewer Re-Canvassing**:
-   - Storage room threshold (36-37, 14) confirmed displaying 'Its a simple storage room...' with no walkable warp. Conduct a rigorous sector-by-sector audit of the Dark Sector basement (entered via 30, 4) and remaining unmapped catwalks for overlooked triggers or clues.
+- Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
+## Active Progression Barrier Tests
+1. **Route 2 East Exit Barrier (52, 19-20)**: Re-test the eastern exit barrier to verify current roadblock text and collision status post-sewer clearing (last audited Turn 7159).
+2. **Metro Turnstile Barrier (19, 21)**: Re-verified on Turn 8845 triggering 'I should find dad first!'.
 
 
 <hr>
