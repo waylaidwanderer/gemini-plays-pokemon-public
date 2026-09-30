@@ -239,7 +239,7 @@
 
 ## Verified Boundaries & Obstacles
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
-- **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 16 west to the row 20 ledge.
+- **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
 - **Cottage Sector & One-Way Ledge**: Red curved branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Cottage entrance is at (37, 24). Ledge cannot be reversed northward.
 - **Cottage-to-Clearing & Sand Highway Connections**:
   - Row 25 connects Cottage sand trail at (34, 25) west through pine trees to the Northwest Clearing at (30, 25).
