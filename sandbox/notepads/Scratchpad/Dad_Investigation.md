@@ -22,4 +22,4 @@
   - From Lass Sonia (27, 15), follow flower trail northeast through (30, 13) and (32, 13) into column 32.
   - Ascend north along column 32 through (32, 12), (32, 11), and (32, 10) (verified Turns 10953-10966).
   - Column 32 opens north into row 8-9 and connects east around the rock spire (33, 8) to the blue flower highway leading into Bug Catcher Duke's meadow (45, 12) and Sovio City (53, 0).
-  - **Status**: Route 1 northbound corridor physically verified from Lancio Town through Northwest Clearing and row 10 to (47, 11); currently advancing through column 53 to cross into Sovio City.
+  - **Status**: Complete Route 1 northbound circuit from Lancio Town to Sovio City 100% physically traversed and verified! Arrived in Sovio City at (15, 39) on Turn 10986. Advancing to Sovio Metro Station and Pokémon Center.
