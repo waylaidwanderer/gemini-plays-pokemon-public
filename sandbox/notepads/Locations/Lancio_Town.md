@@ -87,7 +87,7 @@
 
 - **Green-haired Girl**: Located at (22, 14). Dialogue (ambient).
 
-- **NPC in Cap**: Located at (31, 14) on the east avenue. Dialogue (ambient).
+- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turn 10098): "Living in a small town sucks... There's nothing to do."
 
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
 
