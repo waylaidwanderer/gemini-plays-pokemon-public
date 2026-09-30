@@ -25,3 +25,5 @@
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Zero keys, keycards, access badges, or event quest items held.
 - **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
+
+- **HuPhone Menu Navigation**: In Pokémon Sors, HuPhone multichoice sub-menus (like Quest List) do not dismiss with the B button; the player must explicitly select 'Exit' or 'Back' from the list and press A.
