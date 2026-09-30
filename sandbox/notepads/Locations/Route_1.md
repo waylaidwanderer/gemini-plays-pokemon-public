@@ -40,7 +40,7 @@
 - **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
 - **Cottage Sector & One-Way Ledge**: Red curved branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Cottage entrance is at (37, 24). Ledge cannot be reversed northward.
 - **Cottage-to-Clearing & Sand Highway Connections**:
-  - Row 25 connects Cottage sand trail at (34, 25) west through pine trees to the Northwest Clearing at (30, 25).
+  - Row 25 terminates west in a dead-end alcove at (34, 24-25) enclosed by solid pine trees; does NOT connect to the Northwest Clearing.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
   - Dirt corridor along row 44 connects column 26 west to column 5 cobblestone road.
