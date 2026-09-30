@@ -645,5 +645,8 @@
   - Prop (b) Falsification: If Metro Station turnstile (19, 21), attendant (22, 19), and lobby fixtures return static repulsion text ("I should find dad first!").
   - Prop (c) Falsification: If a full re-survey of Sovio City surface NPCs and buildings following map reload confirms identical ambient text without new story flags.
   - Overall Hypothesis 7 is FALSIFIED only when all three sub-propositions (a, b, c) have been empirically tested and falsified, proving the required trigger is located elsewhere.
+## Turn 10498 Reflection & Macro Routing Re-alignment
+- **Reflection**: Re-evaluated Route 1 topology. Falsified the assumption that Route 1 is a soft-lock/dead-end due to the row 20 ledge. In early-game progression (Turns 666-1165), Asher successfully traversed from Lancio to Sovio via the Northwest Clearing (Mike at 29, 20 and Sonia at 27, 15) to Duke (45, 12) and Sovio City (53, 0).
+- **Active Navigation**: Resuming eastward traversal along row 45 past Camper (18, 45) and Signboard 2 (19, 42) to access the northern corridor into the Northwest Clearing.
 
 <hr>
