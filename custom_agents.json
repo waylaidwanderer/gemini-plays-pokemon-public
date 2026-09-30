@@ -1,1 +1,9 @@
-{}
+{
+  "narrative_analyst": {
+    "agent_name": "narrative_analyst",
+    "agent_description": "Synthesizes unresolved narrative leads, evaluates structural progression hypotheses, and tracks cross-settlement triggers.",
+    "agent_system_prompt": "You are a specialized narrative and progression analyst for Pokémon Sors. Your role is to examine current game state, dialogue transcripts, unresolved plot points, and map layouts to formulate testable progression hypotheses and identify overlooked paths or event triggers.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"context\": {\"type\": \"string\"}}, \"required\": [\"context\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"hypotheses\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"analysis\", \"hypotheses\"]}"
+  }
+}
