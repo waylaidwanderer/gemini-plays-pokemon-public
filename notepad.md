@@ -345,7 +345,7 @@
 
 - **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
 
-- **East Exit Story Barrier (Verified Turns 6644, 7159)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
+- **East Exit Story Barrier (Verified Turns 6644, 7159, 8889)**: Both (52, 19) and (52, 20) trigger the story barrier text ("I can't go yet... I have things to do!"), preventing eastern passage along row 19 and row 20 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside.
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) / (62, 33) says: "Nana makes the best food! Weeeee!". Nana at (62, 31) says: "I'm cooking something for my dear grandkid. She loves my cooking." Audited 100% complete; ambient residence with no items or story triggers.
@@ -353,7 +353,7 @@
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
-- **South Sidewalk**: Paved corridor along row 27-28 south of Central Park pond.
+- **South Sidewalk & Name Rater Courtyard Connection (Verified Turns 8986-8998)**: Paved corridor along row 27-28 south of Central Park pond. The western dead end at (22-23, 27) in front of the building wall leads east past Name Rater house (31, 26). Row 27 above the Jigglypuff gathering (33-35, 28) is fully walkable, connecting directly east into Central Park's diamond-paved boulevard at row 26 (columns 36-43).
 
 - **NPCs**: Blonde girl at (44-45, 24-26) and boy in pink shirt at (31, 22) verified as an ambient pair waiting on opposite sides of the pond.
 
@@ -553,6 +553,22 @@
 
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
+
+## Explicit Falsifiable Story Hypotheses
+1. **Hypothesis: Metro Attendant / Platform Trigger**:
+   - Mechanic/Entity: The station attendant at (22, 19) or dialogue triggers inside the Sovio Metro Station platform.
+   - Test Method: Inspect turnstile gate (19, 21) and interact with all reachable tiles/pillars around the gate to check for alternative interactions or attendant prompts.
+   - Falsification: If all interactable tiles around the turnstile gate solely return "I should find dad first!" and force Asher south without advancing the plot, this trigger is falsified.
+
+2. **Hypothesis: Overlooked Sewer Trigger / Valora Presence**:
+   - Mechanic/Entity: Valora or a secondary sewer trigger that updates the quest state post-grunt retreat.
+   - Test Method: Systematically re-verify whether any NPC (e.g. Valora) or interactive tile exists in the sewers that was missed, specifically inspecting the storage room entrance at (36, 14) and (37, 14) and the ladder sectors.
+   - Falsification: If all accessible sewer tiles contain zero NPCs and the storage room continues to display "Its a simple storage room...", this location is fully inert.
+
+3. **Hypothesis: External Route / Professor Ivo Callback**:
+   - Mechanic/Entity: Professor Ivo in Lancio Town or an external trigger on Route 1.
+   - Test Method: Check if Professor Ivo has updated dialogue now that Riolu is officially named Sirius, or if an NPC on Route 1 / Lancio reacts to the post-tremor state.
+   - Falsification: If Professor Ivo continues to give default ambient dialogue ("Hey, Ashi, how's your new Pokmon?"), this lead is falsified.
 
 
 <hr>
