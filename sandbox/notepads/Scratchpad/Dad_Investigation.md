@@ -13,6 +13,10 @@
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge. Central meadow row 37 is blocked by pine trees at (26, 38) and (30, 38).
 
 ## Active Investigation: Route 1 Macro Connectivity
-- **Hypothesis 12 (Western Southern Corridor Columns 19-25)**:
-  - **Proposition**: Progression between southern Route 1 and northern Route 1 (Youngster Mike at 29, 20) connects via the western sector between Signboard 2 (19, 42) and column 26.
-  - **Plan**: Traverse through the column 26 hedge gap to row 44, head west past Camper (18, 45) to Signboard 2 (19, 42), and probe northbound tiles across columns 19-25.
+- **Hypothesis 12 (Macro Route 1 Topology Re-Evaluation)**:
+  - **Proposition**: Progression requires reaching Sovio City by navigating the true Route 1 connection between the southern region and northern sector.
+  - **Audited Constraints**:
+    - Central Meadow northern perimeter is blocked by pine trees across columns 26-30 at rows 37-38.
+    - Row 44 dead-ends west at (24, 44) against hedges at (23, 44).
+    - Cottage area has one-way south-facing ledges at (40-41, 20).
+  - **Plan**: Investigate connections between the Sand Highway / Central Meadow and the western sector.
