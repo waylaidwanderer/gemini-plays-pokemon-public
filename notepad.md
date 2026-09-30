@@ -144,7 +144,7 @@
 
 - **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story on Turn 10057 (no northwest mezzanine staircase or PokéMart clerk).
 
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue (advancing through multiple ellipsis textboxes until he is startled), then kicks Asher outside to (25, 11).
+- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions (verified Turn 10093) display "Get out!" and warp Asher outside to (25, 12).
 
 - **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9) on Turn 7659, resulting in solid collision with house foundation. No doors or interior entrance.
 
