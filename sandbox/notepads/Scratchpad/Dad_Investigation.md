@@ -10,12 +10,19 @@
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
 - **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
-- **H1 (Metro Lobby NPC & Trigger Audit)**: Falsified Turn 11270. Lobby is empty; Valora is absent; turnstile remains blocked by 'I should find dad first!'.
-- **H3 (Route 2 Boundary Script Audit)**: Falsified Turns 11079-11080. Row 22 at (52, 22) triggers repellent barrier 'I can't go yet... I have things to do!'.
-- **H4 (Commercial Building Covered Passage)**: Falsified Turns 11074-11081. Rows 20-22 are walkable covered floor; row 23 is solid interior collision; eastern connection leads only to the Route 2 barrier.
 
 ## Surface Progression Hypotheses (Post-Sewer Clearance)
+- **H1 - Metro Lobby NPC & Trigger Verification**:
+  - Methodology: Ascend 1F stairs to Metro lobby (23, 24). Inspect Valora's presence, talk to station attendant, and inspect lobby tiles.
+  - Falsification Criteria: Lobby remains empty with no new NPCs, attendant dialogue unchanged, and no triggered cutscene upon arrival.
 - **H2 - Sovio Surface Perimeter & Plaza Check**:
-  - Methodology: Check Central Plaza perimeter, Pokémon Center exterior (where Mother confrontation occurred), and Central Park entities.
-  - Observation (Turn 11276): Old Man at (51, 15) displays an active rolled-up scroll quest icon speech bubble above his head (side quest offer).
+  - Methodology: Exit to Central Plaza (48, 17). Check plaza perimeter, Pok�mon Center exterior (where Mother confrontation occurred), and Central Park.
   - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza entities.
+- **H3 - Route 2 Boundary Script Audit**:
+  - Methodology: Navigate east along row 22 to tile (52, 22). Attempt eastward traversal toward Route 2.
+  - Falsification Criteria: Text 'I can't go yet... I have things to do!' persists and repels player west.
+- **H4 - Regional Structural & Narrative Investigation**:
+  - Methodology: Inspect the covered passage under the two-story commercial building (rows 20-22, cols 47-51) and verify Lancaster / Route 1 connection points.
+  - Falsification Criteria: All paths remain solid collision or trigger standard repellent barriers.
+
+- **Quest Update (Turn 11294)**: Accepted side quest from Old Man at (51, 15) ('Quest Accepted!'). Old Man stated Machop became aggressive after losing its favorite toy in the Sovio Sewers. Bubble icon changed from rolled-up scroll to written document.

@@ -646,5 +646,6 @@
   - Methodology: Inspect the covered passage under the two-story commercial building (rows 20-22, cols 47-51) and verify Lancaster / Route 1 connection points.
   - Falsification Criteria: All paths remain solid collision or trigger standard repellent barriers.
 
+- **Quest Update (Turn 11294)**: Accepted side quest from Old Man at (51, 15) ('Quest Accepted!'). Old Man stated Machop became aggressive after losing its favorite toy in the Sovio Sewers. Bubble icon changed from rolled-up scroll to written document.
 
 <hr>
