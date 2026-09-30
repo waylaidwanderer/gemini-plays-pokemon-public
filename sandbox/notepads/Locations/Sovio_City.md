@@ -135,4 +135,4 @@
 
 ## North-Central Commercial/Residential Block
 
-- **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Decorative exterior with no entrance.
+- **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.

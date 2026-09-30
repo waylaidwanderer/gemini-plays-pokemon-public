@@ -11,10 +11,8 @@
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
 ## Explicit Falsifiable Story Hypotheses
-1. **Hypothesis: Building (32-37, 8-12) Facade & Interior**:
-   - Mechanic/Entity: Tan building with wooden shutters at (34-35, 12) between Pokémon Center and West Avenue.
-   - Test Method: Test collision and 'A' interaction on row 12 across columns 32-37.
-   - Falsification: If all facade tiles (32-37, 12) have solid collision and yield zero text prompts upon 'A' interaction, this building is confirmed 100% decorative with no entrance.
+1. **Hypothesis: Building (32-37, 8-12) Facade & Interior** [FALSIFIED - Turns 9029-9033]:
+   - Empirical Result: Shutter tiles (34, 12) and (35, 12) verified solid collision with zero door warps and zero interaction scripts upon 'A' press. Confirmed 100% decorative exterior with no accessible entrance.
 
 2. **Hypothesis: External Route 1 / Lancio Town Progression Leads**:
    - Mechanic/Entity: Open southern connection to Route 1 and Lancio Town (Professor Ivo's Lab, Route 1 NPCs).
