@@ -21,4 +21,9 @@
 - **Column 26 Collision Test (Verified Turn 10646)**: Stepping Up from (26, 39) into (26, 38) resulted in solid collision with a pine tree trunk.
 - **Hypothesis 11 (Route 1 Northbound Connection Survey)**:
   - **Proposition**: Progression back to Sovio City requires identifying the verified northbound passage out of the southern Route 1 loop.
-  - **Active Focus**: Avenue A (Signboard 2 sector, columns 18-21, rows 40-44). Survey the path around Camper (18, 45) and Signboard 2 (19, 42) to find the verified corridor ascending toward Youngster Mike (29, 20). Note: Sand Highway western perimeters were previously verified enclosed on Turns 10605-10609 and are no longer candidate avenues.
+  - **Audited Constraints**:
+    - Central Meadow & Southern Corridor: Columns 23-25 across rows 38-46 confirmed an unbroken solid barrier of hedges and pine trees (Turn 10731). Row 44 dead-ends at (24, 44).
+    - Sand Highway Western Boundary: Columns 34-35 enclosed by pine trees and Cottage alcove (34, 24-25) (Turns 10605-10609).
+    - Cottage East Perimeter: Column 42 is an unbroken vertical wall of pine trees across rows 21-34 (Turns 10459-10464, 10614-10625).
+    - Row 20 Ledge: One-way jump ledge heading south (40-41, 20).
+  - **Synthesis**: The entire southern sub-region (Lancio Town, Route 1 southern paths, Central Meadow, Sand Highway, Cottage) is an enclosed loop. Return to Sovio City / Northern Route 1 requires identifying the exact progression trigger or transition.
