@@ -23,8 +23,8 @@
   - Progress (Turn 11388): Name Rater at (64, 14) inside house (31, 26) re-audited; verbatim dialogue confirmed standard facility: "Hello, hello! I am the official Name Rater!".
   - Progress (Turn 11406): Boy in pink shirt at (31, 21) re-audited; verbatim dialogue confirmed ambient: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?".
   - Progress (Turns 11413-11415): Rocky at (24, 17) and Boy at (23, 17) re-audited; verbatim dialogue confirmed ambient comic relief: "It's just a normal rock..." and "This is my partner, Rocky! He's the best... Rocky: ...".
+  - Progress (Turns 11422-11429): Karate house at (14, 15) re-audited. 1F Karate trainer debate confirmed ambient ("We are having a debate over which fighting stlye is better" / "My girlfriend says kickbox is far better than karate..."); 2F visually confirmed vacant.
   - Next Audit Targets:
-    - Karate house at (14, 15) (interiors 1F/2F, karate couple & Machop).
     - Three Bikers at (13, 21-23).
     - West Avenue boundary (modern office building wall at column 11).
   - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza and park entities.
