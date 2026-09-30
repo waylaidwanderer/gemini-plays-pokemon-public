@@ -333,8 +333,6 @@
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), and (40, 13). Verified on Turns 1537, 4424-4425, and 7493 as inert, walkable decorative road tiles.
 
-- **Trainer Tips Signpost**: Located at (15, 18). Confirms overworld poison damage is disabled outside battle (Turn 1188).
-
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
 
 - **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building is verified solid collision specifically at rows 16, 18, 19, and 20.
@@ -549,7 +547,7 @@
 - Tremor occurred in Sovio Metro Station (Turn 1437); Jackson ran outside into Sovio City to investigate.
 - Turnstile gate at (19, 21) in Metro lobby triggers: "I should find dad first!" and forces Asher 1 step Down to (19, 22) (empirically re-verified Turns 7150-7153, 9018).
 - Route 2 exit at (52, 19-20) in Sovio City triggers: "I can't go yet... I have things to do!"
-- "Machop's Toy" is an optional side quest given by Old Man (51, 15); cancelling it on Turn 3162 did NOT alter the turnstile or Route 2 barrier. It has no verified link to the main storyline.
+- "Machop's Toy" is an isolated side quest; per Engine.md, side quests are tracked separately from main progression flags and do not gate regional story barriers.
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 - Macro-Traversal across Route 1 to Lancio Town is conclusively rejected: exhaustively checked multiple times (Turns 3167-3543, 4064-4337, 5152, 6892-7211, 7489-7635), all NPCs retain identical ambient dialogue. The roadblocks are local to Sovio City.
 - Sewers Conclusively Verified Inert: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) have been repeatedly audited and confirmed inert. Grunts permanently retreated on Turn 2682; storage room displays generic inspection text.
