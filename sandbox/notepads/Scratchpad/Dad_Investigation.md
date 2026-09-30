@@ -4,7 +4,7 @@
 - Tremor occurred in Sovio Metro Station (Turn 1437); Jackson ran outside into Sovio City to investigate.
 - Turnstile gate at (19, 21) in Metro lobby triggers: "I should find dad first!" and forces Asher 1 step Down to (19, 22) (empirically re-verified Turns 7150-7153, 9018).
 - Route 2 exit at (52, 19-20) in Sovio City triggers: "I can't go yet... I have things to do!"
-- "Machop's Toy" is an optional side quest given by Old Man (51, 15); cancelling it on Turn 3162 did NOT alter the turnstile or Route 2 barrier. It has no verified link to the main storyline.
+- "Machop's Toy" is an isolated side quest; per Engine.md, side quests are tracked separately from main progression flags and do not gate regional story barriers.
 - Neither the Karate trainer nor the Old Man mentions Rock Smash or any HM.
 - Macro-Traversal across Route 1 to Lancio Town is conclusively rejected: exhaustively checked multiple times (Turns 3167-3543, 4064-4337, 5152, 6892-7211, 7489-7635), all NPCs retain identical ambient dialogue. The roadblocks are local to Sovio City.
 - Sewers Conclusively Verified Inert: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) have been repeatedly audited and confirmed inert. Grunts permanently retreated on Turn 2682; storage room displays generic inspection text.
