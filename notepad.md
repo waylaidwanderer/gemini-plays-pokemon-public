@@ -323,15 +323,14 @@
 
 - **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 
-- **Street Lamps**: Located at (14, 27), (14, 24), and (16, 23).
-- **Plaza Street Lamp**: Located at (46, 17).
+- **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (46, 17), and (35, 23).
 - **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), and trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide ambient motorcycle gang flavor text (verified Turns 8567, 8572, 8806-8807).
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
-- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), and (40, 13). Verified on Turns 1537, 4424-4425, and 7493 as inert, walkable decorative road tiles.
+- **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
 
@@ -343,7 +342,7 @@
 
 - **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
 
-- **East Exit Story Barrier (Verified Turns 6644, 7159, 8889, 9255-9256)**: Tiles (52, 19), (52, 20), and (52, 21) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-21 toward Route 2.
+- **East Exit Story Barrier (Verified Turn 9256)**: Tiles (52, 19), (52, 20), and (52, 21) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-21 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside.
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
@@ -392,7 +391,7 @@
 
   - **Train Timetable Board (Verified Turn 7149, 7191)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24) or (23, 24) displays: "It's a timetable showing various destinations!". Row 23 is a solid brick wall east of column 20; no open counter or ticket window exists in the lobby.
 
-  - **Turnstile Gate (Verified Turns 2755, 2946, 2956, 4018, 5399, 7150-7153)**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars (verified Turn 7150-7153). Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
+  - **Turnstile Gate (Verified Turn 9018)**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars (verified Turn 7150-7153). Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
@@ -441,8 +440,6 @@
 
 - **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 
-- **Park Street Lamp**: Located at (35, 23) south of pond bank.
-
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
@@ -454,6 +451,7 @@
 # Quest: Machop's Toy
 
 ## Details
+- **In-Engine Name**: Lost Toy (Verified Turn 9239 via HuPhone Quest Log)
 - **Giver**: Old Man with Machop at (51, 15) outside Sovio City Metro Station (partner verified as Machop on Turn 7461, responding "Machop: Chop Chop!").
 - **Status**: Active / In Progress (Terrace accessed via row 15 curb at (47, 15); Old Man at (51, 15) dialogue Turn 7455: "Thank you, the toy must be somewhere deep in the Sovio Sewers. If you can't find it its fine. You can leave if you wanna.").
 - **Objective**: Retrieve Machop's lost favorite toy from the Sovio Sewers.
@@ -553,8 +551,10 @@
 - Sewers Conclusively Verified Inert: All accessible sectors of Sovio Sewers (storage room, catwalks, dark sector, canal) have been repeatedly audited and confirmed inert. Grunts permanently retreated on Turn 2682; storage room displays generic inspection text.
 - Northern Alcove Conclusively Enclosed (Turns 9097-9101): Alleyway along column 40 up to (40, 9) terminates in solid foundation walls between tan building, Pokémon Center, and house (39, 7). Zero exterior side passages exist.
 
-## Active Analysis & Investigation Findings (Reconciled Turn 7982)
-- Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
+## Active Analysis & Inventory / Party State
+- Party: Slot 1 Sirius (Riolu Lv14, HP 40/40, Fighting), Slot 2 Zephyr (Pidgey Lv2, HP 13/13, Normal/Flying).
+- Bag: Items (Potion x1, Poison Barb x1, Nugget x1); Poké Balls (Timer Ball x1); Key Items (HuPhone, TM Case); TMs (TM17 Protect, TM48 Work Up). Zero HMs in possession.
+- Storage: PC Item Storage, Mailbox, and Box 1 are completely empty. HuPhone apps: Item Storage, World Map, Quest Log.
 
 ## Active Investigation Strategy & Focus
 1. **Sewer Status Resolution**:
