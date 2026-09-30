@@ -46,10 +46,10 @@
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
 - **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
 - **Cottage-to-Clearing & Sand Highway Connections**:
-  - Row 25 terminates west in a dead-end alcove at (34, 24-25) enclosed by solid pine trees; does NOT connect to the Northwest Clearing.
+  - Cottage S-Bend Passage (Verified Turn 10764): Walkable S-bend through hedges west of the Cottage: from (36, 26), go west to (33, 25), north along column 33 through (33, 24-23), west to (32, 23), and north along column 32 through (32, 22-20) directly into the Northwest Clearing where Youngster Mike resides at (29, 20). This provides the verified two-way connection between the southern Route 1 loop and the northern clearing/highway toward Sovio City.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
-  - Dirt corridor along row 44 from column 5 cobblestone road terminates east at dead-end alcove (24, 44) enclosed by hedges at (23, 44), (24, 43), and (24, 45). Column 26 hedge gap connects exclusively to the Central Meadow and dead-ends south at row 44.
+  - Dirt corridor along row 44 connects column 5 cobblestone road east to column 26 hedge gap, ending at alcove (27, 44) which is blocked east and south by solid pine trees.
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
