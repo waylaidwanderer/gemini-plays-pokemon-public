@@ -49,7 +49,7 @@
 
   - Red rug, table, and PC terminal in western wing.
 
-  - Stairs at north wall (Verified Turn 10072): Wooden staircase leading down to a basement floor. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
+  - Stairs at north wall (Verified Turn 10072): Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
 
 - **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
 
