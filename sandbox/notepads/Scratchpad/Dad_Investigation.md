@@ -31,3 +31,16 @@
   - Prop (b) Falsification: If Metro Station turnstile (19, 21), attendant (22, 19), and lobby fixtures return static repulsion text ("I should find dad first!").
   - Prop (c) Falsification: If a full re-survey of Sovio City surface NPCs and buildings following map reload confirms identical ambient text without new story flags.
   - Overall Hypothesis 7 is FALSIFIED only when all three sub-propositions (a, b, c) have been empirically tested and falsified, proving the required trigger is located elsewhere.
+## Hypothesis 8 (Investigation of Western Sector Columns 5-9 for Northbound Route)
+- **Proposition**: The northern half of Route 1 (leading to Northwest Clearing, Duke, and Sovio City) connects via the western sector (columns 5-9) rather than the central meadow or Cottage basin.
+- **Rationale**:
+  1. The Cottage sector was empirically confirmed to be an enclosed basin; the row 20 ledge is strictly a one-way southward drop.
+  2. Columns 10-18 were previously tested and verified blocked north by hedges/trees.
+  3. Columns 5-9 at row 44-48 remain largely unprobed northward, except for a recorded Cut tree at (5, 44).
+  4. In the early game (Turns 458-1165), Asher successfully walked from Lancio Town to Sovio City before possessing HM Cut, proving a passable route exists that does not require Cut.
+- **Protocol**:
+  1. Traverse west along row 44 from (24, 44) to the Central Pine Tree at (11, 44).
+  2. Bypass Central Pine Tree south via row 48 to reach column 9.
+  3. Systematically probe northward progression across columns 5-9 between rows 44 and 40.
+- **Falsification Criteria**:
+  - If columns 5-9 are completely enclosed northward by impassable collision (trees, fences, ledges, or mandatory Cut obstacles) with zero passable corridors leading north into the Northwest Clearing.
