@@ -16,7 +16,8 @@
   3. Re-test Metro turnstile at (19, 21) and Route 2 barrier at (52, 19) (Completed Turn 9376).
 - **Empirical Result (Turn 9376-Present)**:
   - Metro turnstile at (19, 21): Tested post-cancellation on Turn 9376; continues to trigger "I should find dad first!" and repels player.
-  - Route 2 barrier at (52, 19-21): Currently navigating to Route 2 to test if the eastern barrier is affected by quest cancellation before finalizing hypothesis evaluation.
+  - Route 2 barrier at (52, 19): Tested post-cancellation on Turn 9409-9410; triggers "I can't go yet... I have things to do!" and repels player 1 step West.
+- **Conclusion**: Side quest state has zero bearing on regional roadblock scripts. Hypothesis 1 is 100% conclusively falsified and closed.
 
 ### Hypothesis 2: Exhaustive Surface NPC Persistence & Trigger Audit
 - **Proposition**: An NPC in Sovio City possesses a secondary dialogue branch or progression trigger activated only upon repeated or sequential interaction (similar to the Protect TM boy in Lancio Town).
