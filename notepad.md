@@ -638,16 +638,18 @@
   - Central Park: Audited ambient (Little Girl, Boy, Jigglypuff at 33-35, 28; Boy in pink shirt at 31, 21; Blonde girl across pond).
   - West Avenue: Audited ambient (Boy & Rocky at 23-24, 17; Karate house at 14, 15 1F debate & empty 2F).
 
-## Active Investigation: H2 Surface Completion
-- **Immediate Targets**:
-  - Three Bikers at (13, 21-23) facing east on West Avenue.
-  - West Avenue western boundary (office building wall at column 11).
-- **Post-H2 Branching Strategy**:
-  - Once West Avenue is audited, H2 (Sovio surface entities) is completely falsified.
-  - Evaluate unaddressed mechanics/locations:
-    1. Re-evaluate Sovio Sewers layout and hidden triggers/passages.
-    2. Lancio Town Lab basement stairs at (12, 7) ("I probably shouldn't head down here...").
-    3. Potential NPC triggers for HM01 Cut or HM06 Rock Smash across Hupest.
+## Falsification Results (Turn 11452)
+- **H2 (Sovio Surface Entities & Perimeter)**: 100% FALSIFIED.
+  - All Three Bikers at (13, 21-23) confirmed ambient motorcycle gang dialogue.
+  - West Avenue western boundary at column 11 confirmed solid office building wall.
+  - Every surface entity and residential interior across Sovio City verified ambient.
+
+## Next Branching Investigation: Beyond Sovio Surface
+- Primary hypothesis candidate: Jackson is located in an unaddressed area or trigger outside Sovio surface.
+- Branches under analysis:
+  1. Deep re-audit of Sovio Sewers layout for overlooked triggers, interactions, or passages.
+  2. Investigation of Lancio Town Professor Ivo's Lab basement stairs at (12, 7).
+  3. Regional triggers for HM01 Cut or HM06 Rock Smash.
 
 
 <hr>
