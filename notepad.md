@@ -333,8 +333,9 @@
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
+- **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (15, 19) at the junction between West Avenue and Karate house. Probed from north (15, 17) and west (14, 18); verified non-interactive decorative fixtures.
 
-- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building is verified solid collision specifically at rows 16, 18, 19, and 20.
+- **West Avenue Boundary (Verified Turns 6365-6366, 8574-8576, 9294-9296)**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
@@ -562,7 +563,6 @@
    - Returning to the sewers without any new surface trigger or key item is an ungrounded circular traversal loop.
 2. **Current Surface Focus**:
    - The roadblock is the turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!").
-   - Ascend immediately to Sovio City surface to search for unexamined surface interactions, mechanics, or triggers outside the sewers.
 
 
 <hr>
