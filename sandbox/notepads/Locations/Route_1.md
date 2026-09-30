@@ -49,7 +49,7 @@
   - Cottage West Alcove (Audited Turns 10760-10768): Heading west from the Cottage along rows 25-26 reaches (32, 25). Stepping North from (32, 25) into (32, 24) is blocked by a hedge. Stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk. Row 25 is an impassable dead-end alcove with no northern exit.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
-  - Southern Corridor (Row 44): Dirt road running east-west along row 44 connecting column 5 (Lancio Town approach) east past Camper (18, 45) and Signboard 2 (19, 42) to the column 26 hedge gap (verified Turn 10809).
+  - Southern Corridor (Row 44): Dirt corridor along row 44 connects Lancio Town approach (col 5) east to Camper (18, 45). Separately, column 26 hedge gap connects south to row 44, which dead-ends west at (24, 44) enclosed by hedges at (23, 44) and (24, 43) (verified Turns 10809, 10820).
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
