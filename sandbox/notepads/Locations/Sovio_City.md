@@ -8,9 +8,6 @@
 
 ## Exploration & Landmarks
 
-- **Entrance Path**: Paved road at columns 14-15 flanked by pine trees.
-
-- **Central Walkway**: Paved walkway at column 15 leads north between buildings into the central plaza.
 
 - **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (46, 17), and (35, 23).
 - **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), and trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
@@ -126,7 +123,6 @@
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
 
-- **Gathering**: South of Central Park pond: Boy cheering for Jigglypuff, Jigglypuff, and Girl mentioning Moon Stone evolution (all ambient).
 
 - **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 
