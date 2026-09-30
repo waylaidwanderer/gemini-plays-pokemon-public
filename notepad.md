@@ -354,7 +354,7 @@
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey [Verified Turn 6550], or 'This Quest hasn't been completed yet!' for uncompleted quests).
 
   - 'Quest Status': Displays status for active quests without detailed objective hints.
-  - **Quest List Navigation**: In Pokémon Sors, the Quest List sub-menu does not dismiss with the B button; the player must explicitly navigate to 'Exit' from the list and press A.
+  - **HuPhone Menu & Quest Navigation (Verified Turn 11311)**: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 
@@ -434,7 +434,7 @@
 
 - **East Exit Story Barrier (Verified Turn 9256)**: Tiles (52, 19), (52, 20), and (52, 21) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-21 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside (displays active side-quest scroll icon bubble over head, verified Turn 11276).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) and Machop (51, 16) reside on terrace outside.
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
@@ -442,7 +442,7 @@
 
 - **South Sidewalk & Children's Gathering (Verified Turns 8986-8998, 9914-9922)**: Paved corridor along rows 27-28 south of Central Park pond. West of Name Rater house (31, 26) is a dead end at (22-23, 27). East of Name Rater house at (33-35, 28) is a children's gathering around a Jigglypuff: Little Girl at (33, 28) ('Mom told me that she will evolve if she touches a Moon Stone!'), Jigglypuff at (34, 28) ('Puff Puff!'), and Boy at (35, 28) ('Yeah Jigglypuff!'). Confirmed 100% ambient flavor.
 
-- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
+- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (45, 26) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
@@ -584,7 +584,7 @@
 - **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Columns 16 and 17 at row 24 are solid brick wall pillars; northward traversal from row 25 must bypass through column 18 (verified Turn 5477). Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17) (verified Turn 11036).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
-- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720, 11173)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. Note: Tile (23, 13) is impassable canal water; accessing the cross-chasm bridge at column 23 requires stepping North from (24, 13) onto (24, 12), then West onto the bridge at (23, 12). At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
+- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720, 11173)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
 - **Eastern Storage Room (Audited Turns 8637, 11127, 11149)**: Located at the eastern dead-end along row 14. Tile (37, 14) holds the red capsule mat; interacting facing South displays "Its a simple storage room..."; stepping Down bumps into south void collision with no warp. Flanking tiles (36, 14) and (38, 14) are bare stone floor with inert 'A' interactions and south void collisions.
 
 ## Wild Encounters
@@ -630,23 +630,24 @@
 
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
-- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
+- **H1 (Metro Lobby NPC Audit)**: Falsified Turn 11270. Lobby is empty; Valora is absent; turnstile remains blocked by 'I should find dad first!'.
+- **H3 (Route 2 Boundary Audit)**: Falsified Turns 11079-11080. Row 22 at (52, 22) triggers repellent barrier 'I can't go yet... I have things to do!'.
+- **H4 (Commercial Building Covered Passage)**: Falsified Turns 11074-11081. Rows 20-22 are walkable covered floor; row 23 is solid interior collision; eastern connection leads only to the Route 2 barrier.
 
 ## Surface Progression Hypotheses (Post-Sewer Clearance)
-- **H1 - Metro Lobby NPC & Trigger Verification**:
-  - Methodology: Ascend 1F stairs to Metro lobby (23, 24). Inspect Valora's presence, talk to station attendant, and inspect lobby tiles.
-  - Falsification Criteria: Lobby remains empty with no new NPCs, attendant dialogue unchanged, and no triggered cutscene upon arrival.
 - **H2 - Sovio Surface Perimeter & Plaza Check**:
-  - Methodology: Exit to Central Plaza (48, 17). Check plaza perimeter, Pok�mon Center exterior (where Mother confrontation occurred), and Central Park.
-  - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza entities.
-- **H3 - Route 2 Boundary Script Audit**:
-  - Methodology: Navigate east along row 22 to tile (52, 22). Attempt eastward traversal toward Route 2.
-  - Falsification Criteria: Text 'I can't go yet... I have things to do!' persists and repels player west.
-- **H4 - Regional Structural & Narrative Investigation**:
-  - Methodology: Inspect the covered passage under the two-story commercial building (rows 20-22, cols 47-51) and verify Lancaster / Route 1 connection points.
-  - Falsification Criteria: All paths remain solid collision or trigger standard repellent barriers.
+  - Methodology: Check Central Plaza perimeter, Pokémon Center exterior (where Mother confrontation occurred), and Central Park entities.
+  - Progress (Turns 11315-11324): Pokémon Center exterior at (44, 14) and northern alcove at columns 39-40, rows 8-12 confirmed vacant. House (39, 7) 1F resident at (41, 33) re-audited; verbatim dialogue confirmed ambient: "I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."
+  - Progress (Turn 11377): Boy at (35, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Yeah Jigglypuff!".
+  - Progress (Turn 11379): Jigglypuff at (34, 28) re-audited; verbatim cry confirmed: "Jigglypuff: Puff Puff!".
+  - Progress (Turns 11381-11382): Little Girl at (33, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Mom told me that she will evolve if she touches a Moon Stone... if she touches a Moon Stone... I must keep her away from them!". South sidewalk gathering fully audited.
+  - Progress (Turn 11388): Name Rater at (64, 14) inside house (31, 26) re-audited; verbatim dialogue confirmed standard facility: "Hello, hello! I am the official Name Rater!".
+  - Next Audit Targets:
+    - South sidewalk & Jigglypuff gathering at (33-35, 28).
+    - Name Rater house at (31, 26).
+    - West bank boy at (31-33, 20-22).
+    - West Avenue entities & buildings (Boy & Rocky at 23-24, 17; Karate house at 14, 15; Bikers at 13, 21-23).
+  - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza and park entities.
 
-- **Quest Update (Turn 11294)**: Accepted side quest from Old Man at (51, 15) ('Quest Accepted!'). Old Man stated Machop became aggressive after losing its favorite toy in the Sovio Sewers. Bubble icon changed from rolled-up scroll to written document.
-  - Progress (Turns 11315-11324): Pokémon Center exterior (44, 14) and north alcove (40, 8-12) confirmed vacant. House (39, 7) 1F resident re-audited; dialogue confirmed ambient ('I bought my son a Wii...').
 
 <hr>
