@@ -284,11 +284,13 @@
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated.
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue.
-- **NPC 3 (Science Guy)**: Located around (41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?"
+- **NPC 3 (Science Guy)**: Located around (39-41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?" (Verified Turn 10205). Clearing terminates east at column 42 in solid pine forest and coastal shoreline with zero eastern passages.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
+- **Sand Highway West Boundary (Verified Turn 10214)**: Row 28 terminates west at column 32 against a solid vertical wall of pine trees.
+- **Cottage Sector East Perimeter (Verified Turn 10212)**: Columns 41-43 at rows 27-32 form a tall grass patch flanked to the east by a solid wall of pine trees starting at column 44 with zero eastern exits.
 - **Southern Corridor North Boundary (Verified Turns 10179-10195)**: Columns 20 to 28 at rows 38-40 form a solid, unbroken horizontal pine tree wall with no passable openings. Northward traversal from the row 44 dirt corridor directly to the upper sector across columns 20-28 is 100% blocked.
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
 - **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
