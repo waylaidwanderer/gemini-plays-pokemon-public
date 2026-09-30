@@ -656,5 +656,6 @@
 - **Reflection**: Traversed the southern Route 1 corridor via Central Meadow and entered the Sand Highway at (35, 37).
 - **Western Boundary Survey**: Currently advancing north along the Sand Highway (columns 36-37) to systematically test west-facing tiles across rows 26-36 for unverified connections to the Northwest Clearing.
 - **Cottage East Perimeter Testing (Turn 10612)**: (40, 21) and (41, 21) confirmed blocked to the north by the row 20 ledge. Currently probing rows 22-23 at column 42 for the opening into the Eastern Meadow.
+- **Cottage East Perimeter Audit (Verified Turns 10614-10625)**: Column 42 tested across rows 21, 22, and 24: completely solid pine trees and trunks. Confirmed zero passage exists east from the Cottage area into the Eastern Meadow. The Cottage area is an isolated landing south of the row 20 one-way ledge, connecting exclusively south via the Sand Highway.
 
 <hr>
