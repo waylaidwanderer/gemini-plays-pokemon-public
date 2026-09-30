@@ -620,34 +620,34 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Current Blockers & Ground Truths
-- Metro Station turnstile at (19, 21): Triggers "I should find dad first!" and repels player 1 step South.
-- Route 2 exit at (52, 19-21): Triggers "I can't go yet... I have things to do!" and repels player 1 step West.
-- Jackson last seen departing the Metro Station lobby into Sovio City following the seismic tremor (Turn 1437).
-- Team Siara grunts permanently retreated from Sovio Sewers after Marie's broadcast (Turn 2682).
-- Dark Sector / Basement: Explored; contains rugged Rock Smash rock at (22, 10) and Nugget at (23, 4). All accessible sewer sectors confirmed cleared and inert.
+## Core Deductions & Blocker Mechanics
+- **Blocker Distinction**:
+  - Route 2 exit at (52, 19-21): Displays "I can't go yet... I have things to do!" (Repels West).
+  - Sovio Metro turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
+  - *Deduction*: Dad previously stated the plan was to board the train to Amor City (Turn 1388). The train is the primary story route; Route 2 is secondary. Finding Jackson is the sole event flag required to unlock the Metro turnstile and advance the main story.
 
-## Falsified Hypotheses Index
-- **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
-- **H1 (Metro Lobby NPC Audit)**: Falsified Turn 11270. Lobby is empty; Valora is absent; turnstile remains blocked by 'I should find dad first!'.
-- **H3 (Route 2 Boundary Audit)**: Falsified Turns 11079-11080. Row 22 at (52, 22) triggers repellent barrier 'I can't go yet... I have things to do!'.
-- **H4 (Commercial Building Covered Passage)**: Falsified Turns 11074-11081. Rows 20-22 are walkable covered floor; row 23 is solid interior collision; eastern connection leads only to the Route 2 barrier.
+## Audited Entities & Verified Status
+- **Sovio Sewers**: Grunts retreated after Marie's radio directive (Turn 2682). Storage room at (37, 14) inert ("Its a simple storage room..."). Dark Sector contains Nugget (collected) and cracked rock at (22, 10) requiring HM Rock Smash.
+- **Sovio Surface - Central Plaza & Residences**:
+  - Plaza exterior & northern alcove: Audited vacant (Turns 11315-11324).
+  - House (39, 7): Audited ambient (elderly Wii dad & 2F boy).
+  - House (29, 14): Audited ambient (Gumball easter egg family & sleeping resident).
+  - House (31, 26): Audited facility (Official Name Rater).
+  - Terrace (49, 14): Audited ambient (Nana & granddaughter).
+  - Commercial roof (47-51, 20-22): Audited covered walkway connecting to Route 2 barrier.
+  - Central Park: Audited ambient (Little Girl, Boy, Jigglypuff at 33-35, 28; Boy in pink shirt at 31, 21; Blonde girl across pond).
+  - West Avenue: Audited ambient (Boy & Rocky at 23-24, 17; Karate house at 14, 15 1F debate & empty 2F).
 
-## Surface Progression Hypotheses (Post-Sewer Clearance)
-- **H2 - Sovio Surface Perimeter & Plaza Check**:
-  - Methodology: Check Central Plaza perimeter, Pokémon Center exterior (where Mother confrontation occurred), and Central Park entities.
-  - Progress (Turns 11315-11324): Pokémon Center exterior at (44, 14) and northern alcove at columns 39-40, rows 8-12 confirmed vacant. House (39, 7) 1F resident at (41, 33) re-audited; verbatim dialogue confirmed ambient: "I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."
-  - Progress (Turn 11377): Boy at (35, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Yeah Jigglypuff!".
-  - Progress (Turn 11379): Jigglypuff at (34, 28) re-audited; verbatim cry confirmed: "Jigglypuff: Puff Puff!".
-  - Progress (Turns 11381-11382): Little Girl at (33, 28) in Jigglypuff gathering re-audited; verbatim dialogue confirmed ambient: "Mom told me that she will evolve if she touches a Moon Stone... if she touches a Moon Stone... I must keep her away from them!". South sidewalk gathering fully audited.
-  - Progress (Turn 11388): Name Rater at (64, 14) inside house (31, 26) re-audited; verbatim dialogue confirmed standard facility: "Hello, hello! I am the official Name Rater!".
-  - Progress (Turn 11406): Boy in pink shirt at (31, 21) re-audited; verbatim dialogue confirmed ambient: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?".
-  - Progress (Turns 11413-11415): Rocky at (24, 17) and Boy at (23, 17) re-audited; verbatim dialogue confirmed ambient comic relief: "It's just a normal rock..." and "This is my partner, Rocky! He's the best... Rocky: ...".
-  - Progress (Turns 11422-11429): Karate house at (14, 15) re-audited. 1F Karate trainer debate confirmed ambient ("We are having a debate over which fighting stlye is better" / "My girlfriend says kickbox is far better than karate..."); 2F visually confirmed vacant.
-  - Next Audit Targets:
-    - Three Bikers at (13, 21-23).
-    - West Avenue boundary (modern office building wall at column 11).
-  - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza and park entities.
+## Active Investigation: H2 Surface Completion
+- **Immediate Targets**:
+  - Three Bikers at (13, 21-23) facing east on West Avenue.
+  - West Avenue western boundary (office building wall at column 11).
+- **Post-H2 Branching Strategy**:
+  - Once West Avenue is audited, H2 (Sovio surface entities) is completely falsified.
+  - Evaluate unaddressed mechanics/locations:
+    1. Re-evaluate Sovio Sewers layout and hidden triggers/passages.
+    2. Lancio Town Lab basement stairs at (12, 7) ("I probably shouldn't head down here...").
+    3. Potential NPC triggers for HM01 Cut or HM06 Rock Smash across Hupest.
 
 
 <hr>
