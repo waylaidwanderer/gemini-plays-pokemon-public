@@ -62,4 +62,4 @@
 - **Duke Meadow & Eastern Highway Connector (Verified Turns 11599-11611)**:
   - Walkable perimeter around Duke: (44, 12) and (44, 13) are walkable hedge tiles; (45, 13), (46, 13), and (47, 13) are walkable floor tiles beneath the tree canopies.
   - Solid collisions: Duke at (45, 12); pine tree at (48, 13) blocks eastward passage along row 13; pine tree trunks line row 14 at (44-48, 14).
-  - Row 12 Eastbound Corridor: Stepping North from (47, 13) into (47, 12) accesses the open row 12 corridor, which runs east through (48, 12) directly into the blue flowers at (49-50, 12) and connects to the Eastern Highway (columns 52-53).
+  - Row 12 Eastbound Corridor: Traversed west from Eastern Highway into Duke's meadow on Turn 11480; eastbound traversal requires calm single-step test to avoid wild battle interruption confusion.
