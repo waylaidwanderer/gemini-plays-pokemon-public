@@ -40,7 +40,7 @@
 
 - **South Sidewalk & Children's Gathering (Verified Turns 8986-8998, 9914-9922)**: Paved corridor along rows 27-28 south of Central Park pond. West of Name Rater house (31, 26) is a dead end at (22-23, 27). East of Name Rater house at (33-35, 28) is a children's gathering around a Jigglypuff: Little Girl at (33, 28) ('Mom told me that she will evolve if she touches a Moon Stone!'), Jigglypuff at (34, 28) ('Puff Puff!'), and Boy at (35, 28) ('Yeah Jigglypuff!'). Confirmed 100% ambient flavor.
 
-- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (43, 24) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
+- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (44, 25) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
