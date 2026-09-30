@@ -40,3 +40,4 @@
 ## Turn 10602 Reflection & Sand Highway Survey
 - **Reflection**: Traversed the southern Route 1 corridor via Central Meadow and entered the Sand Highway at (35, 37).
 - **Western Boundary Survey**: Currently advancing north along the Sand Highway (columns 36-37) to systematically test west-facing tiles across rows 26-36 for unverified connections to the Northwest Clearing.
+- **Cottage East Perimeter Testing (Turn 10612)**: (40, 21) and (41, 21) confirmed blocked to the north by the row 20 ledge. Currently probing rows 22-23 at column 42 for the opening into the Eastern Meadow.
