@@ -16,7 +16,6 @@
   - (36, 14): Bare floor west of mat; south void collision, A interaction inert.
   - (37, 14): Red capsule mat; stepping Down bumps into void collision (no warp); interacting facing South triggers "Its a simple storage room...".
   - (38, 14): Bare floor east of mat; south void collision, A interaction inert.
-  - Empirical Findings: Facing South on tile (37, 14) triggers text: "Its a simple storage room...". Downward movement from (36, 14), (37, 14), and (38, 14) is blocked by south void collision with no walkable doorway or warp. Jackson is not present in this tile interaction. All accessible sewer walkways have been traversed without detecting further story triggers.
 
 ## Next Strategic Objective: Sovio Metro & Surface Re-Investigation
 - Exit Sovio Sewers via the 1F staircase at (38, 22) into Sovio Metro Station.
