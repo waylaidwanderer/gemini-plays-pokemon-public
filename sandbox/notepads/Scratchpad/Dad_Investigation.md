@@ -53,3 +53,4 @@
   - Prop (a) Status: FALSIFIED. Tested (26, 38) Turn 10356, (31, 38) Turn 10415, and (29, 38) Turn 10446; all verified solid pine tree trunks. Central Meadow row 38 is an unbroken pine tree line across columns 26-32 with zero openings.
   - Prop (c) Status: FALSIFIED. Row 44 past column 26 verified to dead-end at alcove (27, 44) enclosed east and south by solid pine trees and pond (Turn 10419).
   - Eastern Perimeter Test: Tile (42, 27) -> East to (43, 27) verified solid cypress/pine tree obstacle (Turn 10438). Columns 43-44 form an unbroken vertical pine tree wall from row 21 down to row 38.
+  - Row 20 Ledge Direct Test: Tile (40, 20) tested by pressing Up from (40, 21); confirmed solid collision from below (Turn 10454). Combined with Turn 10368 test of (41, 20), the entire row 20 curved branch is 100% impassable northward from below, functioning strictly as a one-way downward drop from (40, 19) to (40, 21).
