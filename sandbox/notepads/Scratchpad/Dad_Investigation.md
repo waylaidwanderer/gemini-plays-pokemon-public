@@ -13,9 +13,10 @@
 ## Active Analysis & Investigation Findings (Reconciled Turn 7982)
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
-## Active Investigation Leads & Hypotheses
-1. **Hypothesis: Eastern Storage Room / Sewer Holding Cell Overlooked (Primary Lead)**:
-   - Prior Context Summary (Turn 2279-2716) claiming Jackson was freed and departed to the station was an LLM hallucination; the Metro turnstile still physically blocks passage with "I should find dad first!".
-   - Jackson was cutscene-confirmed captive in a sewer storage room. Turn 8637's inspection of (36-37, 14) only tested facing South on (37, 14) ("Its a simple storage room...") and never tested (36, 14), alternate facings, or interaction scripts under current grid tools.
-   - Test Method: Traverse to Eastern Storage Room (36-37, 14) via western ladder and northern gangway. Exhaustively inspect all tiles, facings, and mat properties using latest_grid.png.
-   - Falsification: If all tiles are conclusively confirmed inert, investigate Dark Sector basement and remaining sewer features.
+## Active Investigation Strategy & Focus
+1. **Sewer Status Resolution**:
+   - The sewers have been audited across multiple cycles with zero changes since Team Siara's retreat on Turn 2682.
+   - Returning to the sewers without any new surface trigger or key item is an ungrounded circular traversal loop.
+2. **Current Surface Focus**:
+   - The roadblock is the turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!").
+   - Ascend immediately to Sovio City surface to search for unexamined surface interactions, mechanics, or triggers outside the sewers.
