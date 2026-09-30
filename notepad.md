@@ -311,7 +311,6 @@
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
 - **Northwest Clearing Layout & Connections (Updated Turn 11851)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire both defeated. Connected to the south via the column 30 tall grass corridor (rows 20-26) to the Cottage area. Connected to the northeast via rock spire trail.
-- **Cottage-to-Clearing Column 30 Corridor (Verified Turns 11842-11845)**: Walkable corridor along column 30 from row 26 north through tall grass patches into the Northwest Clearing at (30, 20), providing a direct connection between the Cottage/Sand Highway and the Northwest Clearing.
 - **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
@@ -627,20 +626,19 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Core Deductions & Blocker Mechanics
-- **Blocker Distinction**:
-  - Route 2 exit at (52, 19-21): Displays "I can't go yet... I have things to do!" (Repels West).
-  - Sovio Metro turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
+## Investigation Status & Active Hypotheses (Updated Turn 12091)
+- **Verified Game State**:
+  - Metro Turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
+  - Route 2 Exit at (52, 19-21): Displays "I can't go yet... I have things to do!" (Repels West).
+  - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
+  - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
+  - Active Quest: "Machop's Toy" (given by Old Man at 51, 15; family Machop in Karate house at 14, 15 reacts: "He seems a bit agressive...").
   - *Deduction*: Jackson departed the Metro Station lobby following the seismic tremor (Turn 1437) to investigate the disturbance outside. Finding Jackson is the mandatory event flag to unlock Metro transit to Amor City.
 
-## Audited Entities & Verified Status
-- **Sovio Surface Audits (100% Falsified)**:
-  - Plaza exterior & northern alcove: Audited vacant (Turns 11315-11324).
-  - All residences audited: House (39, 7) elderly resident; House (31, 26) Name Rater; House (29, 14) Gumball easter egg family; Terrace house (49, 14) Nana & granddaughter; Karate house (14, 15) couple & Machop.
-  - Central Park & Avenues audited: Online dating couple by pond; Boy & Rocky at (23-24, 17); Three Bikers at (13, 21-23); Children & Jigglypuff at (33-35, 28); Commercial covered roof (47-51, 20-22).
-  - Western boundary at column 11 confirmed solid office wall.
-- **Sovio Sewers**:
-  - Mapped and audited tile-by-tile. Storage room at (37, 14) is inert ("Its a simple storage room..."). Grunts retreated on Turn 2682. Dark Sector contains Nugget (collected) and cracked rock at (22, 10) requiring HM Rock Smash. Southern canal contains Poison Barb. Repeating exhaustive sewer checks without a new regional event flag is unproductive.
+- **Testable Hypotheses**:
+  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, Testing Turn 12091+)**: The reactive dialogue on Machop at (6-7, 33-35) indicates the Karate House has an active script condition when Machop's Toy is active. Test if interacting with Karate trainer, girlfriend, Machop, or searching Karate house 1F/2F progresses the quest or unlocks an event.
+  2. **Hypothesis B (Sewers Storage Room / Hidden Key - Formulated Turn 12068)**: In Turn 1666-1707 cutscene, grunts held Jackson captive in sewer storage room. When grunts retreated (Turn 2682), storage room remained locked/inert. Test if an item or trigger unlocks storage room at (37, 14).
+  3. **Hypothesis C (Surface NPCs with Unexamined Conditions - Formulated Turn 12068)**: Re-test key Sovio surface NPCs to verify if dialogue updates based on current story flags, avoiding premature "100% Falsified" assumptions.
 
 
 <hr>
