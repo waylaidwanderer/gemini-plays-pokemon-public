@@ -194,7 +194,7 @@
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
 - **Appearance**: Custom sprite wearing a red/black scarf
-- **Current EXP**: 1838 (197 to Lv15, verified Turn 9307)
+
 
 <hr>
 
@@ -462,7 +462,7 @@
   - Southwest Corridor (cols 7-8) and Dark Sector (22, 10) are blocked by cracked rocks requiring HM Rock Smash.
 - **Toy Search Status**: Unfound as a visible overworld item in accessible sewer sectors.
 
-- Old Man at (51, 15) displays active quest icon (scroll and quill bubble) over head (verified Turn 6172).
+
 
 <hr>
 
@@ -552,7 +552,9 @@
   1. Navigate to the elevated terrace at (51, 15).
   2. Speak to the Old Man and select "Yes" to cancel the active "Lost Toy" quest (Completed Turn 9358).
   3. Re-test Metro turnstile at (19, 21) and Route 2 barrier at (52, 19) (Completed Turn 9376).
-- **Empirical Result (Turn 9376)**: Stepping onto (19, 21) continues to trigger "I should find dad first!" and forces Asher 1 step Down to (19, 22). Side quest state has zero bearing on the Metro turnstile barrier. Hypothesis 1 is conclusively rejected.
+- **Empirical Result (Turn 9376-Present)**:
+  - Metro turnstile at (19, 21): Tested post-cancellation on Turn 9376; continues to trigger "I should find dad first!" and repels player.
+  - Route 2 barrier at (52, 19-21): Currently navigating to Route 2 to test if the eastern barrier is affected by quest cancellation before finalizing hypothesis evaluation.
 
 ### Hypothesis 2: Exhaustive Surface NPC Persistence & Trigger Audit
 - **Proposition**: An NPC in Sovio City possesses a secondary dialogue branch or progression trigger activated only upon repeated or sequential interaction (similar to the Protect TM boy in Lancio Town).
