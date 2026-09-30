@@ -289,9 +289,11 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
-- **Route 1 Macro Loop & Northern Passage to Sovio City**:
+- **Cottage Sector East Perimeter (Verified Turns 10212, 10321)**: Columns 43-44 at rows 26-28 are solid pine trees. Zero passage exists east from the Cottage/Signboard 3 area into the Eastern Meadow.
+- **Western Sector Tested Obstacles (Verified Turns 10271-10336)**: Columns 12-18 are confirmed blocked northward by hedges and pine trees: column 18 terminates at (18, 40) (pine tree trunk), column 17 at (17, 42) (hedge), column 16 at (16, 43) (hedge), column 15 at (15, 42) (hedge), column 14 at (14, 42) (hedge), column 13 at (13, 42) (hedge), column 12 at (12, 42) (hedge). Columns 10-11 are occupied by the Central Pine Tree and Signboard 1. Zero northward exits exist in the entire western sector (columns 10-18).
+- **Route 1 Macro Loop & Connectivity**:
   - **Southbound (Sovio -> Lancio)**: Take eastern highway south past Duke (45, 12) to the row 20 ledge (40, 19), jump down south to Cottage (37, 24), then take Sand Highway south to (32, 39) and west to Lancio Town (0, 45).
-  - **Northbound (Lancio -> Sovio)**: From Lancio / southern path, proceed to the western corridor near Camper (18, 45) and Signboard 2 (19, 42). Ascend north through the western corridor to the Northwest Clearing (Youngster Mike at 29, 20 and Lass Sonia at 27, 15). Head east north of the ledge to Bug Catcher Duke's meadow (45, 12), then take row 12 east to the highway at columns 52-53 and head north into Sovio City (53, 0).
+- **Row 43 Hedge Gap & Meadow Connector (Verified Turns 10250-10252)**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
 - **Eastern Corridor & Meadow**: Connects Sovio City at (53, 0) south past Signpost 4 (50, 10), Bug Catcher Duke (45, 12), and the conical rock spire (53, 15). Direct southward traversal from Duke is blocked at (46, 15) by overlapping pine trees, requiring bypass east via row 12 to column 51, then along row 17 west to the row 20 ledge.
 - **Cottage Sector & One-Way Ledge**: Red curved branch at row 20 (columns 40-41) is a strictly one-way southward jumpable ledge from (40, 19) down to (40, 21), leading to the Cottage sector. Cottage entrance is at (37, 24). Ledge cannot be reversed northward.
@@ -302,7 +304,6 @@
   - Dirt corridor along row 44 connects column 26 west to column 5 cobblestone road.
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
-  - Solid cut-tree obstacle at (5, 44) requires HM Cut.
 
 - **Northwest Clearing Full Audit (Verified Turns 8227-8238)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire (ambient dialogue: 'Hmm, more harmony maybe?') both defeated. Clearing terminates north at rows 10-11 in solid horizontal hedges and dense pine forest, and west at column 23 in pine trees. Exhaustively verified devoid of caves, paths, items, or story triggers.
 - **Eastern Meadow Obstacles & Collisions (Verified Turns 8416-8428)**:
