@@ -36,7 +36,7 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
-- **Western Sector Tested Obstacles (Verified Turns 10271-10284)**: Column 18 terminates north at (18, 40) against a solid pine tree trunk; column 17 terminates north at (17, 42) against a hedge bush.
+- **Western Sector Tested Obstacles (Verified Turns 10271-10303)**: Columns 14-18 are confirmed blocked northward by hedges and pine trees: column 18 terminates at (18, 40) (pine tree trunk), column 17 at (17, 42) (hedge), column 16 at (16, 43) (hedge), column 15 at (15, 42) (hedge), column 14 at (14, 42) (hedge). Zero northward exits exist in columns 14-18.
 - **Route 1 Macro Loop & Connectivity**:
   - **Southbound (Sovio -> Lancio)**: Take eastern highway south past Duke (45, 12) to the row 20 ledge (40, 19), jump down south to Cottage (37, 24), then take Sand Highway south to (32, 39) and west to Lancio Town (0, 45).
   - **Northbound Route**: Ledge at row 20 (40, 19-21) above Cottage is strictly one-way southward and cannot be climbed.
