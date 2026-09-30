@@ -45,7 +45,6 @@
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 - **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
-- **South Sidewalk Boundary (Verified Turn 9652)**: Wooden sidewalk extends east along row 28 from (45, 28) to (46, 28); terminated east by solid grey barrels at (46, 28-29) blocking passage directly east into the row 28-29 alley.
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes.
   - **Upper Roof Perimeter & Collision (Audited Turns 11074-11080)**:
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
