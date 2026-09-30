@@ -64,7 +64,7 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Location Status**: Jackson was last seen running outside into Sovio City to investigate the tremor. In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. The storage room at (36-37, 14) was verified inert ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
+- **Jackson's Location Status**: In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room. The storage room at (36-37, 14) was verified inert ('Its a simple storage room...'). Jackson's current whereabouts remain unknown.
 
 
 <hr>
@@ -275,8 +275,8 @@
 ## Quests & Mission Engine (Verified Turn 1378-1381)
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 ## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
-- **Item Storage**: Portable PC item storage (verified functional, audited empty Turn 4000).
-- **Mailbox**: Portable PC mailbox (audited empty Turns 4005, 7127: "There's no Mail here.").
+- **Item Storage**: Portable PC item storage (verified functional, audited empty Turn 9856: "There are no items.").
+- **Mailbox**: Portable PC mailbox (audited empty Turn 9860: "There's no Mail here.").
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
@@ -292,6 +292,7 @@
 - **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
 
+- **HuPhone Quest List Navigation**: In Pok�mon Sors, the Quest List sub-menu does not dismiss with the B button; the player must explicitly navigate to 'Exit' from the list and press A.
 
 <hr>
 
@@ -452,13 +453,11 @@
 ## South Central Sector
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
-
-
 - **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
 
 ## North-Central Commercial/Residential Block
 
-- **Building at (32-37, 8-12) (Audited Turns 9029-9033)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
+- **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
 
 
 <hr>
@@ -549,13 +548,13 @@
 - **Hypothesis 2 (Surface NPC Persistence Audit)**: Falsified Turns 9462-9537. All surface civilian NPCs and residential structures in Sovio City strictly cycle ambient flavor dialogue with zero secondary branches or progression triggers.
 - **Hypothesis 3 (Environmental & Structural Features in Sovio Metro & City)**: Falsified Turns 9637-9788. All accessible structural fixtures (park barrels, alley walls, boundary alcoves, timetable display, scanner pillars, decorative manholes) empirically tested with zero interaction triggers.
 - **Hypothesis 4 (Macro-Traversal & Level 15 Evolution)**: Falsified. Riolu evolves via friendship, not level 15. Lancio Town and Route 1 NPCs exhibit static ambient dialogue.
+- **Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)**: Falsified Turns 9856-9901. HuPhone apps (Item Storage, Mailbox, World Map, Quest Log) and Bag pockets audited static with zero interactive story triggers or progression tools.
 
-## Active Priority: Hypothesis 5 (Inventory & Key Item Triggers / Bag Items / HuPhone Inspection)
-- **Proposition**: A specific item interaction, inspection, or trigger in the Bag / Key Items / HuPhone is required to advance the story state, or a key item was obtained/needs to be used.
+## Active Priority: Hypothesis 6 (Macro Exploration & Unvisited Regional Nodes)
+- **Proposition**: Progression requires discovering an overlooked physical pathway, building, or regional entity outside the local Sovio transit hubs.
 - **Protocol**:
-  1. Inspect HuPhone apps thoroughly (Item Storage, Mailbox, World Map, Quest Log).
-  2. Inspect all inventory items in Bag (Key Items, Items, TMs/HMs) to see if any have a 'USE' or interaction prompt.
-  3. Falsification Criteria: If all items and apps produce standard UI responses without triggering any event flags, Hypothesis 5 is falsified.
+  1. Systematic re-evaluation of non-transit map nodes and unexplored boundaries.
+  2. Falsification Criteria: If all physical perimeters remain strictly bounded, reformulate core assumptions.
 
 
 <hr>
