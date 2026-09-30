@@ -44,7 +44,7 @@
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
   - Dirt corridor along row 44 connects column 26 west to column 5 cobblestone road.
-  - Central Pine Tree at (10, 44-46) and Signboard at (10, 47-48): Row 50 is solid pine trees; southern bypass corridor being verified.
+  - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
   - Solid cut-tree obstacle at (5, 44) requires HM Cut.
 
