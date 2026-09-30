@@ -612,7 +612,6 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some effort, a Pokémon may be able to smash it." Confirmed impassable without HM Rock Smash (verified Turns 4549, 7768).
 - **Western Alcove & Mat (Verified Turns 4549, 7316-7317)**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
-- **Row 27 Lower Walkway Alignment (Verified Turn 11258)**: Tile (22, 28) is blocked east by canal pool embankment wall. Traversal east toward column 34 stairs must follow row 27.
 
 
 <hr>
@@ -644,8 +643,8 @@
   - Progress (Turn 11388): Name Rater at (64, 14) inside house (31, 26) re-audited; verbatim dialogue confirmed standard facility: "Hello, hello! I am the official Name Rater!".
   - Progress (Turn 11406): Boy in pink shirt at (31, 21) re-audited; verbatim dialogue confirmed ambient: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?".
   - Progress (Turns 11413-11415): Rocky at (24, 17) and Boy at (23, 17) re-audited; verbatim dialogue confirmed ambient comic relief: "It's just a normal rock..." and "This is my partner, Rocky! He's the best... Rocky: ...".
+  - Progress (Turns 11422-11429): Karate house at (14, 15) re-audited. 1F Karate trainer debate confirmed ambient ("We are having a debate over which fighting stlye is better" / "My girlfriend says kickbox is far better than karate..."); 2F visually confirmed vacant.
   - Next Audit Targets:
-    - Karate house at (14, 15) (interiors 1F/2F, karate couple & Machop).
     - Three Bikers at (13, 21-23).
     - West Avenue boundary (modern office building wall at column 11).
   - Falsification Criteria: No new NPCs, events, or dialogue variations across all plaza and park entities.
