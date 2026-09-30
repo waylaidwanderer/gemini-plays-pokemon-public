@@ -10,15 +10,16 @@
 
 ## Falsified Hypotheses Index
 - **Hypotheses 1-6 (Sovio & Lancio Comprehensive Audits)**: Falsified Turns 9376-10103. Side quests (Lost Toy cancel), surface NPCs, Sovio structural fixtures, Riolu Lv15 evolution, HuPhone apps, Lancio lab/dock/beach all confirmed non-triggers.
-- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. West alcove (32, 25) dead-ends at hedge (32, 24). East corridor (40-41, 20) is a one-way south-facing ledge.
+- **Hypothesis 11 (Cottage Northbound Exits)**: Falsified Turns 10760-10786. East corridor (40-41, 20) is a one-way south-facing ledge.
 - **Hypothesis 12A (Central Meadow Row 38 Exit)**: Falsified Turn 10906-10907. Verified via grid/visual that row 38 across columns 26-31 is an unbroken horizontal wall of pine tree trunks with dense forest north. Central Meadow has zero northern exits.
 - **Hypothesis 12B (Row 44 Western Sector Northbound Corridor)**: Falsified Turn 10930. Stepping north from (25, 41) into (25, 40) is blocked by pine tree foliage collision. Entire sector across columns 20-32 between rows 38-40 is an impassable pine forest barrier.
 
-## Active Investigation: Route 1 Macro Connectivity
-- **Hypothesis 13 (Cottage West to Northwest Clearing Connection)**:
-  - **Proposition**: The historical northbound path (Turn 458-772) traveled from Lancio Town past the Cottage (37, 24) westward into the Northwest Clearing (Mike at 29, 20; Sonia at 27, 15).
-  - **Audited Constraints**:
-    - Southern Route 1 (rows 38-44) is completely sealed off from the north by dense pine forest across all columns.
-    - Sand Highway provides unobstructed transit from row 39 up to the Cottage (37, 24).
-    - In `cottage_west_opening.png`, open grassy terrain is visible northwest of the hedges (columns 29-31, rows 22-25).
-  - **Plan**: Navigate via Sand Highway to the Cottage at (37, 25), head west along row 25-26 past column 32, and test all tiles heading northwest toward Youngster Mike (29, 20).
+## Route 1 Macro Connectivity (VERIFIED Turn 10942)
+- **Verified Northbound Transit (Lancio Town -> Sovio City)**:
+  - From Lancio Town (0, 45), walk east along row 44 to (26, 44).
+  - Step north through hedge gap (26, 41-43) into Central Meadow, curve east along bird tracks (28, 41) to Sand Highway at (32, 39).
+  - Walk north along Sand Highway (columns 36-37) to the Cottage at (37, 24).
+  - Heading west in front of Cottage along row 25 to column 31, step north through the hedge opening at (31, 24) to (31, 23).
+  - Open grassy corridor extends northwest directly into Northwest Clearing (Youngster Mike at 29, 20; Lass Sonia at 27, 15).
+  - From Northwest Clearing, proceed north to row 12, then east across row 12 past Bug Catcher Duke (45, 12) to Signboard 4 (50, 10) and Sovio City entrance at (53, 0).
+  - **Status**: Physical blockage broken! Route 1 macro topology completely solved.
