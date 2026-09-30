@@ -280,6 +280,7 @@
   - Caterpie (Lv2, Bug; verified Turn 890).
   - Rattata (Lv3, Normal; verified Turn 1859).
   - Pichu (Lv3, Electric; verified Turn 8158).
+  - Cleffa (Lv4, Fairy; verified Turn 11825).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon) (verified Turn 666-667). Defeated.
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated.
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow (verified Turn 5758); engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
@@ -641,9 +642,6 @@
   - Professor Ivo's dialogue at (20, 6) remains ambient ("Hey, Ashi, how's your new Pokémon?").
   - Descending basement stairs at (12, 7) re-verified still blocked ("I probably shouldn't head down here...").
   - Deduction: Professor Ivo's Lab currently contains no new story triggers or clues regarding Jackson.
-- **Next Investigation Target**:
-  - Re-examine Lancio Town Harbor (pier at columns 32-34, row 25) to check if any boat or NPC has appeared.
-
 - **Lancio Town Harbor Pier Re-verification (Turn 11789)**: Pier at (32-34, 22-25) is completely empty. No boat, no Harry, no interactions facing South into water.
 - **Fisherman Dialogue Re-verification (Turn 11793-11796)**: NPC at (38, 22) gives unchanged ambient advice about fishing and life.
 - **Lancio Town Investigation Complete**: Town contains zero active story triggers for finding Dad or unlocking Metro.
