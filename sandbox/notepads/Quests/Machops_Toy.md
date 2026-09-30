@@ -14,4 +14,3 @@
   - Southwest Corridor (cols 7-8) and Dark Sector (22, 10) are blocked by cracked rocks requiring HM Rock Smash.
 - **Toy Search Status**: Unfound as a visible overworld item in accessible sewer sectors.
 
-- Old Man at (51, 15) displays active quest icon (scroll and quill bubble) over head (verified Turn 6172).
