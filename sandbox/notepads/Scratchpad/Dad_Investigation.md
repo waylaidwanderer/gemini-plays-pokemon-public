@@ -14,7 +14,8 @@
 - Sub-Containers & Bag Audited (Turns 7994, 8559-8562, 8591, 8827-8831): PC Item Storage and Mailbox verified empty. TM Case contains TM17 (Protect) and TM48 (Work Up); zero HMs. Bag Items pocket contains: Potion x 1, Poison Barb x 1, Nugget x 1 (zero Repels). Poké Balls pocket: Timer Ball x 1. Key Items pocket contains ONLY HuPhone and TM Case. HuPhone audited: Item Storage (PC Item Storage & Mailbox), World Map, Quest Log; zero communication/call features. Someone's PC (Box 1) audited Turn 8869: completely empty (0 deposited Pokémon); party audited Turn 8927: Slot 1 Sirius (Riolu Lv14, HP 40/40), Slot 2 Zephyr (Pidgey Lv2, HP 13/13).
 
 ## Active Investigation Leads & Hypotheses
-1. **Hypothesis: Overlooked Interior Trigger or City Interaction**:
-   - Mechanic/Entity: Jackson, Valora, or an unresolved story trigger located inside an overworld residence, facility, or specific NPC interaction in Sovio City (e.g. Central West Gumball residence 29, 14, or Central Park residents).
-   - Test Method: Systematically finish surveying Central Park residents and inspect residential interiors.
-   - Falsification: If all residents and interiors retain identical ambient text, evaluate remaining urban mechanics.
+1. **Hypothesis: Eastern Storage Room / Sewer Holding Cell Overlooked (Primary Lead)**:
+   - Prior Context Summary (Turn 2279-2716) claiming Jackson was freed and departed to the station was an LLM hallucination; the Metro turnstile still physically blocks passage with "I should find dad first!".
+   - Jackson was cutscene-confirmed captive in a sewer storage room. Turn 8637's inspection of (36-37, 14) only tested facing South on (37, 14) ("Its a simple storage room...") and never tested (36, 14), alternate facings, or interaction scripts under current grid tools.
+   - Test Method: Traverse to Eastern Storage Room (36-37, 14) via western ladder and northern gangway. Exhaustively inspect all tiles, facings, and mat properties using latest_grid.png.
+   - Falsification: If all tiles are conclusively confirmed inert, investigate Dark Sector basement and remaining sewer features.
