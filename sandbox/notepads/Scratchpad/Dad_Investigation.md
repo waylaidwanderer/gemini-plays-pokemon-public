@@ -56,3 +56,14 @@
   - Row 20 Ledge Direct Test: Tile (40, 20) tested by pressing Up from (40, 21); confirmed solid collision from below (Turn 10454). Combined with Turn 10368 test of (41, 20), the entire row 20 curved branch is 100% impassable northward from below, functioning strictly as a one-way downward drop from (40, 19) to (40, 21).
   - Eastern Perimeter Col 44 Probes (Verified Turns 10459-10464): Stepping East from (43, 30), (43, 32), and (43, 33) into column 44 confirmed solid pine trees. Stepping Down from (43, 33) into (43, 34) confirmed solid pine tree trunk. Column 44 is fully sealed south to row 34.
   - Row 20 Ledge 'A' Interaction Probe (Verified Turn 10467): Pressing 'A' facing North at (40, 20) and (41, 20) yielded zero interaction text or script (inert scenery).
+## Hypothesis 10 (Investigation of Far-Western Sector Columns 0-4 for Northbound Route)
+- **Proposition**: The connection to the northern half of Route 1 (and Sovio City at 53, 0) connects via the far-western sector (columns 0-4) immediately east of the Lancio Town border (0, 45-46).
+- **Rationale**:
+  1. The central meadow (row 38), cottage basin (row 20 ledge), southern corridor (row 44 dead-end at 27, 44), and eastern perimeter (columns 43-44) are all empirically verified solid obstacles.
+  2. Historical audit of `Locations/Route_1.md` reveals that columns 0-4 have never been probed north of row 44 in the entire playthrough.
+  3. The cobblestone road entering from Lancio Town spans rows 44-46 at columns 0-5, leaving the northern boundary along rows 40-43 unmapped at columns 0-4.
+- **Protocol**:
+  1. Traverse to (4, 45) on Route 1.
+  2. Systematically probe northward progression across columns 4, 3, 2, 1, and 0 into rows 40-43.
+- **Falsification Criteria**:
+  - If columns 0-4 are completely enclosed to the north by solid pine trees/cliffs with zero passable corridors leading north.

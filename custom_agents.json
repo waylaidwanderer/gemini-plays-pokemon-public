@@ -1,9 +1,1 @@
-{
-  "route_topology_agent": {
-    "agent_name": "route_topology_agent",
-    "agent_description": "Synthesizes map topology, landmarks, and verified collision data to resolve route connectivity paradoxes and plan optimal navigation paths.",
-    "agent_system_prompt": "You are an expert map topology and pathfinding analyst for Pokémon games and ROM hacks. Your role is to examine spatial coordinates, terrain observations, trainer locations, and verified collision boundaries to identify the true layout of overworld routes, resolve perceived dead ends, and deduce overlooked walkable pathways.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"area_name\": {\"type\": \"string\"}, \"landmarks\": {\"type\": \"string\"}, \"verified_collisions\": {\"type\": \"string\"}, \"objective\": {\"type\": \"string\"}}, \"required\": [\"area_name\", \"landmarks\", \"verified_collisions\", \"objective\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"topological_analysis\": {\"type\": \"string\"}, \"deduced_path\": {\"type\": \"string\"}, \"next_test_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"topological_analysis\", \"deduced_path\", \"next_test_steps\"]}"
-  }
-}
+{}
