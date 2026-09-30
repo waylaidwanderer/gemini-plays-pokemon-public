@@ -36,6 +36,7 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
+- **Western Sector North Boundary (Verified Turns 10271-10284)**: Columns 10 to 20 are completely enclosed to the north by an unbroken, solid wall of pine trees and hedges across rows 40-42. Column 18 terminates at (18, 40) against a solid pine tree trunk; column 17 terminates at (17, 42) against a hedge bush. There are zero northward exits from the western sector (cols 10-20).
 - **Route 1 Macro Loop & Connectivity**:
   - **Southbound (Sovio -> Lancio)**: Take eastern highway south past Duke (45, 12) to the row 20 ledge (40, 19), jump down south to Cottage (37, 24), then take Sand Highway south to (32, 39) and west to Lancio Town (0, 45).
   - **Northbound Passage (Under Systematic Survey)**: Ledge at row 20 (40, 19-21) above Cottage is strictly one-way southward and cannot be reversed. True northbound passage to Northwest Clearing (Mike at 29, 20, Sonia at 27, 15) must be systematically mapped across western corridor (cols 11-19) near Camper (18, 45) and Signboard 2 (19, 42).
