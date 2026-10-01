@@ -18,7 +18,6 @@
 - **Hypothesis SS2 (Sovio Sewers Inner Sectors & Jackson Detention Cell)**:
   - **Rationale**: Progression analysis confirms the Metro blocker ('I should find dad first!') is hard-coded to Jackson's rescue event flag. Tile (37, 14) returning 'Its a simple storage room...' was an ambient prop, not Jackson's actual cutscene cell. Marie's broadcast (Turn 2682) cleared the grunts, but Jackson's sprite remains waiting in an accessible room, alcove, or platform in the sewer complex.
   - **Primary Objectives**:
-    - Dark Sector Audits (100% Complete Turn 15131): Northern alcove (22-24, 3-5), western corridor (cols 13-17, rows 7-10), red mat room (2, 38), and southern alcove (21, 10) verified devoid of Jackson or unmapped doors. Dark Sector fully ruled out.
     3. Sewer Main Floor Northern & Western Gangways: Trace every gangway, platform, and archway that may lead into the detention room seen in the Turn 1666 cutscene.
 
 ## Settled Hypotheses
