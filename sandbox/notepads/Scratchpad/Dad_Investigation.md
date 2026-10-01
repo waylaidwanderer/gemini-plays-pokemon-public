@@ -21,7 +21,8 @@
   - **Primary Targets**:
     1. Two-Story Commercial/Residential Building (columns 47-51, rows 20-29) south of Central Plaza. Verify whether any entrance exists or if lower story wooden siding has interaction triggers.
     2. Re-audit key Sovio City locations and dialogue triggers with fresh eyes.
-  - **Status**: In progress. Currently in Sovio City at (48, 18) auditing Target 1 (building at 47-51, 20-29).
+  - **Target 1 Audit Result (Audited Turns 14966-14969)**: The southern facade of the commercial building (columns 47-51, rows 28-31) consists of decorative wooden shutters flanked by blue window panes, matching the non-enterable decorative buildings elsewhere in Sovio City. Solid building wall at (47, 29) and trash cans at (46, 30-31) block the facade, and dense pine hedges at row 31 border the south. 100% decorative exterior scenery with zero accessible doors or progression triggers.
+  - **Conclusion**: Sovio City surface structures contain zero entry points or progression triggers. Validates progression_investigator deduction: progression is gated by locating Jackson within Sovio Sewers.
 
 ## Settled Hypotheses
 - **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
