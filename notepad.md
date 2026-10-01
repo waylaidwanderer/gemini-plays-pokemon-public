@@ -368,6 +368,31 @@
     3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
     4. Medic! (Listed on page 1; uninspected)
     5. Squirtle Gang (Listed on page 1; uninspected)
+  - **Page 2 Quests (Audited Turn 14867)**:
+    6. Lost Eevee
+    7. Kaboom
+    8. Valentines Gift
+    9. Angry Cubone Kid
+    10. Push it!
+  - **Page 3 Quests (Audited Turn 14871)**:
+    11. Oak's Research
+    12. Elm's Research
+    13. Rowan's Research
+    14. Cynthia's Research
+    15. Help for Barry
+  - **Page 4 Quests (Audited Turn 14874)**:
+    16. - Not available -
+    17. - Not available -
+    18. Roark's Opal
+    19. Pok�Dex!
+    20. Marine Point Hunter
+  - **Page 5 Quests (Audited Turn 14877)**:
+    21. Hugh's Pok�mon
+    22. Silver's Deal
+    23. Back to the...
+    24. Outcasts
+    25. The Mods of Cord
+  - **Full Quest Scope**: Exactly 25 quest entries across 5 pages (23 named quests + 2 '- Not available -' slots). Page 5 terminates with 'Previous' and 'Exit' (no 'Next' option).
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
   - 'Quest Status' (Empirically Verified Turns 12670, 14095): When a quest is active, displays system tutorial text ('You are already doing a Quest...'). When no quest is active, displays 'You aren't doing any Quest at the moment!'. Does not display quest titles or objective hints; side quest details must be obtained from NPC dialogue.
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
@@ -663,21 +688,25 @@
 - **Sovio Sewers Audited Features**:
   - Machop's Toy Quest: Completed Turn 13331 (Black Belt obtained).
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
-  - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room In-Depth Probe)**:
-  - **Rationale**: Both the Metro turnstile ('I should find dad first!') and Route 2 gate ('I can't go yet...') require finding Jackson. The cutscene (Turn 1666) showed grunts holding Jackson in a sewer storage room. While Marie's retreat (Turn 2682) cleared corridor grunts, previous audits of the Eastern Storage Room at (37, 14) merely pressed 'A' facing South from (37, 14), receiving ambient text ('Its a simple storage room...'). We must verify whether (37, 14) itself is a doorway that can be stepped into, or if specific adjacent tiles/angles reveal interaction scripts.
-  - **Status**: Testing in progress. Re-entering sewer row 13 gangway to perform a comprehensive tile inspection around (36-38, 13-14).
+- **Hypothesis SC2 (Sovio City Unexamined Spaces & System Triggers)**:
+  - **Rationale**: Sovio Sewers are completely exhausted across all sectors (Machop's toy returned, Siara grunts retreated, storage room verified ambient). Metro turnstile blocker explicitly checks Jackson's rescue flag ('I should find dad first!'). We must exit the sewers to Sovio City and systematically audit unexamined spaces, structures, and interaction mechanics.
+  - **Primary Targets**:
+    1. Two-Story Commercial/Residential Building (columns 47-51, rows 20-29) south of Central Plaza. Verify whether any entrance exists or if lower story wooden siding has interaction triggers.
+    2. Re-audit key Sovio City locations and dialogue triggers with fresh eyes.
+  - **Status**: Formulated. Currently exiting Sovio Sewers to commence investigation in Sovio City.
 
 ## Settled Hypotheses
-- **Hypothesis SC1 (Sovio City Exterior Perimeters - 100% AUDITED)**:
-  - Status: Settled Turn 14727. Southern Avenue tree lines, southwest lawn (12, 30), southwest building perimeter, rear Biker lane (col 12, rows 20-30), western office facade (col 11, rows 16-20), Karate house corner (12, 15), Gumball/tan building gap (31, 13), northern alcove (39, 7), and elevated terrace (cols 50-52, rows 15-17) are 100% verified solid boundaries. No external event triggers exist.
+- **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
+  - Status: Settled Turn 14727. Map edge perimeters (Southern Avenue tree lines, southwest lawn at 12, 30, rear Biker lane at col 12, western office boundary at col 11, northern alcove at 39, 7, and elevated terrace edge at col 52) are 100% verified solid dead-ends with no map exits. Note: Internal urban building facades and interactions within city limits remain subject to specific auditing under SC2.
 
 ## Archived Hypotheses (Exhausted / Evaluated)
+- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room - EXHAUSTED)**:
+  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149; Turn 14829 attempt aborted into wild combat). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor. Grunts retreated Turn 2682; sewers contain zero remaining progression triggers.
 - **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - Cartographic Deduction)**:
   - Status: Evaluated Turn 14674/14731. World Map shows Lancio Town as a coastal terminus connecting exclusively northeast to Route 1. Traversing east to Azluf Town is water-gated by regional topology and impossible on foot without Surf or water transport.
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - RECONCILED)**:
-  - Status: Concluded Turn 14428. The open loop (Western stairs -> Terrace -> Gangway -> Bridge -> Dark Sector) contains no roaming NPCs or triggers. Focus is restricted specifically to testing the Eastern Storage Room tile mechanics at (37, 14).
+  - Status: Concluded Turn 14428. The open loop (Western stairs -> Terrace -> Gangway -> Bridge -> Dark Sector) contains no roaming NPCs or triggers.
 
 <hr>
