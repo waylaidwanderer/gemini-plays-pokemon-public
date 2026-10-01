@@ -73,7 +73,7 @@
 - **Inizio Isle**: Isolated green island node in the far southwest ocean.
 - **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects exclusively northeast via Route 1 to Sovio City.
 - **Sovio City**: Red rectangular urban node. Connects southwest via Route 1 to Lancio Town, and east via Route 2 toward eastern junctions and Amor City.
-- **Southern Coast Node**: Separate green node on the south-central coast connected to eastern route junctions and coastal settlements.
+
 
 <hr>
 
@@ -667,14 +667,13 @@
 - **Sovio Buildings Audited This Cycle**:
   - SC1 (Pokémon Center 44, 12): Camper at (5, 7) Weedle text; Boy at (9, 6) PC text.
   - SC2 (North-Central House 39, 7): Elderly man repeats Wii text.
+  - SC5 (Machop Family House 14, 15): Karate couple debate static; Machop flavor text permanently 'He seems a bit agressive...' regardless of quest status (re-verified Turn 14148).
 - **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
 - **Deep Subterranean Sector (Sovio Sewers)**: Audited Turn 14052. 3x3 chamber (2, 38) perimeter walls probed inert; single-purpose quest room where Machop's toy was retrieved.
 
-## Unverified Leads & Active Hypotheses
-- **Hypothesis U1 (Unvisited Residences in Current Cycle)**:
-  - SC3 (Terrace House 49, 14 above Metro Station)
-  - SC4 (Gumball House 29, 14)
-  - SC5 (Machop Family House 14, 15)
-- **Hypothesis M1 (Metro Station Attendant / Platform)**: Can the station attendant or vending machine be spoken to, or is there an NPC in the lobby we missed?
+## Active Hypotheses & Primary Focus
+- **Hypothesis M1 (Metro Station Lobby & Attendant Audit)**: Audit the Sovio Metro Station lobby: can the station attendant at (22, 19) or vending machine at (18, 19) be interacted with across the gate/railing? Check all perimeter tiles of the lobby for missed NPCs or triggers.
+- **Hypothesis B1 (Primary Story Progression Trigger)**: Dad ran outside into Sovio City during the tremor. If the Metro turnstile still says 'I should find dad first!', determine whether a specific overworld location or interaction in Sovio triggers Dad's return or advances the story.
+
 
 <hr>
