@@ -678,5 +678,8 @@
   2. Subterranean Exploration: Checking other sewer mechanics, potential hidden switches, or unverified tiles beyond the single storage room at (37, 14).
   3. Interactive background elements: Metro timetable, ticket machines, or other civic fixtures.
 
+## Investigation Update (Turn 13474)
+- **Sovio City Surface Audit**: West Avenue verified ambient (Rocky boy, Karate couple, Bikers 1-3).
+- **Current Operational Plan**: Completing audit of Lancio Town (Professor Ivo's Lab and harbor) since we are currently adjacent on Route 1. If Lancio Town yields no triggers, return via Route 1 northbound corridor to Sovio City to investigate remaining civic structures, manholes, and tremor anomalies.
 
 <hr>
