@@ -34,7 +34,8 @@
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
 ## Hypothesis K: Eastern Flank & Two-Story Building Lower Story (Columns 51-52, Rows 22-30)
-- **Status**: ACTIVE.
-- **Rationale**: Prior audit (Turns 11074-11080) confirmed rows 20-22 are walkable beneath the two-story building roof, connecting eastward to (51, 22) and (52, 22). While eastward traversal from column 52 triggers the Route 2 story barrier, southward traversal along columns 51-52 past row 22 was never tested. Row 30 street beneath the building is blocked from the west (Turn 9664), suggesting the eastern flank may provide access to the lower building facade (rows 28-29) and unexplored southern street.
-- **Empirical Result (Turn 12919-12920)**: Stepping onto (52, 22) and attempting Down triggered the Route 2 story barrier ('I can't go yet... I have things to do!'). Column 52 row 22 is an active story barrier trigger.
-- **Test Protocol**: Navigate to (47, 19), step Down into roof passage at (47, 20-22), walk East to (51-52, 22), and probe southward traversal along columns 51 and 52.
+- **Status**: FALSIFIED (Turns 12919-12927).
+- **Findings**:
+  - Traversal east onto column 52 at row 22 triggers the Route 2 story barrier ('I can't go yet... I have things to do!') which repels West to (51, 22).
+  - Southward traversal from (51, 22) into (51, 23) confirmed solid collision (blocked Turn 12926).
+  - Confirmed: Zero southern passage exists through or around the building from rows 20-22; the roof passage is a dead-end corridor connecting Central Plaza to the Route 2 gate.
