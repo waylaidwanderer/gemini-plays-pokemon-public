@@ -161,3 +161,4 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
+  - **Inter-Building Gap Audit (Verified Turns 14717-14720)**: Gumball house east window at (30, 14) is solid wall (inert 'A'). Gap between Gumball house and tan building at (31, 13) is solid corner collision (inert 'A'); no alleyway or rear passage exists. Tan building window at (32, 12) is solid wall (inert 'A').
