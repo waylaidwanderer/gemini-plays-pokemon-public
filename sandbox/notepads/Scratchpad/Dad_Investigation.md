@@ -32,4 +32,4 @@
 - **Southern Canal (rows 32-36)**: Traversed; Poison Barb retrieved at (22, 36).
 - **Elevated Gangway (row 5)**: Traversed; TM48 retrieved at (27, 5).
 - **Southwest Corridor (cols 7-8)**: Impassable without Rock Smash.
-- **PRIMARY TARGET - Dark Sector / Basement at (30, 4)**: Reached via column 30 causeway into Northeast Wooden Staircase at (30, 4). Explicitly fits the Old Man's clue ('somewhere deep in the Sovio Sewers'). Active mission target to locate Machop's toy and search for Jackson.
+- **PRIMARY TARGET - Dark Sector / Basement at (30, 4)**: Reached via column 30 causeway into Northeast Wooden Staircase at (30, 4). Deepest unvisited subterranean sector. Primary objective: investigate for Jackson, Team Siara triggers, or progression mechanisms. Opportunistic secondary lead: locate Machop's lost toy per Old Man's clue ('deep in the Sovio Sewers').

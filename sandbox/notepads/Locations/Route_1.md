@@ -65,8 +65,6 @@
 - **Hidden Hedge Passage (Verified Turns 11554-11568)**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
 - **Verified Obstacles (Turns 12484-12546)**: Tile (30, 12), (34, 13), and (46, 10) confirmed solid collision (pine tree canopies/trunks); eastward traversal bypasses via row 11. Northward bypass around (34, 13) runs through row 10 meadow corridor. Row 43 is an unbroken horizontal hedge barrier across columns 19-25. Hedge gap at (19, 45) connects row 44 to row 46.
 
-## Complete Route 1 Two-Way Foot Traversal (Verified Turn 12562)
-- **Southern to Northern Sector (Lancio Town to Sovio City)**:
   1. From Lancio Town exit (0, 45), follow cobblestone path to (5, 45) and row 46 corridor east past Central Pine Tree (bypassed via row 48 at 10-11, 48).
   2. At (19, 46), step North through hedge gap at (19, 45) to row 44.
   3. Walk east along row 44 to column 26 hedge gap at (26, 44).
