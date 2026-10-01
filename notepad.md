@@ -663,11 +663,18 @@
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis LA1 (Lancio Town Southern Coastline & Azluf Connection Exploration)**:
-  - **Rationale**: World Map shows Azluf Town connects west along the coast to Lancio Town. The Metro turnstile and Route 2 gate in Sovio City remain blocked pending progression. In Lancio Town, the southern shoreline east of the fisherman at (38, 22) (columns 39-55, rows 22-26) has never been explored.
-  - **Plan**: Exit Sovio City south via Route 1 to Lancio Town harbor. Navigate east past the fisherman at (38, 22) to probe shoreline tiles for eastward/southeast coastal transitions toward Azluf Town.
+- **Hypothesis SC1 (Systematic Audit of Sovio City Exterior Perimeters & Structures)**:
+  - **Rationale**: The Metro turnstile blocker ('I should find dad first!') and Route 2 gate ('I can't go yet...') are both in Sovio City. Lancio Town is verified on-foot isolated (connecting exclusively northeast to Route 1 and ocean elsewhere; on-foot passage to Azluf is physically impossible without Surf). Looping back and forth across Route 1 without state changes is unproductive. Asher must systematically search Sovio City perimeters, alleyways, tree lines, and building facades to find Dad or trigger the next story event.
+  - **Plan**: Return to Sovio City immediately. Perform systematic, tile-by-tile boundary checks:
+    1. Southern Avenue tree lines (rows 28-38, columns 13 and 16).
+    2. Southwest building perimeter (columns 18-22, rows 26-29).
+    3. West Avenue western office building facade (column 11, rows 12-20).
+    4. North Central alleyways (around 32-37 and 39-40).
+    5. Plaza eastern boundaries and elevated terrace edges.
 
-## Archived Hypotheses (Exhausted)
+## Archived Hypotheses (Exhausted / Debunked)
+- **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - DEBUNKED)**:
+  - Status: Debunked Turn 14674. Lancio Town has no on-foot coastal exit to Azluf Town; regional geography confirms Lancio connects exclusively northeast to Route 1 and is otherwise surrounded by ocean. Requires water traversal/Surf not currently accessible.
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
   - Status: Concluded Turn 14428. Continuous loop traversed (Lower walkway -> Western stairs -> Upper terrace -> Wall ladder -> Northern Gangway -> Bridge -> Row 13 -> Dark Sector). Zero NPCs, cutscenes, or progression triggers encountered along this loop. 100% settled.
 
