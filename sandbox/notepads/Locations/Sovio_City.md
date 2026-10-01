@@ -29,6 +29,7 @@
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. Eastern facade of the office building at column 11 across rows 16-20 physically probed tile-by-tile with collision and 'A' interactions (audited Turns 14695, 14708, 14711); confirmed 100% solid wall with zero doors, secret entrances, or items. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
 - **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
+- **Inter-Building Gap Audit (Verified Turns 14717-14720)**: Solid walls at (30, 14), (31, 13), and (32, 12) confirmed with collision checks and 'A' interactions; no passage exists between Gumball house and tan building.
 
 - **Southwest Boundary (Verified Turns 2874, 14686)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision; no passage, hidden items, or NPCs present.
 
@@ -43,7 +44,6 @@
 
   - **Interior 1F (Verified Turns 7897, 8526, 14446)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...") re-verified 100% ambient post-quest (Turn 14446); Old Man and Machop are absent. 100% audited.
 
-- **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
