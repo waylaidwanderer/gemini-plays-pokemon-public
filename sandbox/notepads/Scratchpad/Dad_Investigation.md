@@ -16,10 +16,15 @@
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
-## Active Hypotheses & Primary Focus
-- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Unexhausted Frontier)**:
+## Active Hypotheses & Strategic Focus
+- **Hypothesis SO1 (Systematic Audit of Unexamined Regional Systems & Surface Connections)**:
+  - **Context**: The sewers are completely cleared (Marie radio retreat) and domestic residences are settled. The progression gate ("I should find dad first!" at Metro turnstile and "I can't go yet..." at Route 2 gate) requires finding Jackson or triggering the regional event that advances the story.
+  - **Plan**: Conclude outdoor town NPC audit (Bikers, Karate house), audit player Bag Key Items / regional items, and re-examine the physical boundaries of Sovio City, Route 1, and Lancio Town for any triggered event.
+
+## Archived Hypotheses (Exhausted)
+- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
+  - Status: Concluded Turn 14428. Continuous loop traversed (Lower walkway -> Western stairs -> Upper terrace -> Wall ladder -> Northern Gangway -> Bridge -> Row 13 -> Dark Sector). Zero NPCs, cutscenes, or progression triggers encountered along this loop. 100% settled.
   - **Context**: Surface and global systems (PC, Bag, residences, timetable) are verified 100% ambient/settled. The sole storyline thread tied to Jackson and Team Siara is the Sovio Sewers. We are executing a continuous, methodical mapping of all sewer sectors without aborting mid-transit.
-  - **Sector 1 Traversal (Verified Turns 14321-14337)**:
   - **Sector 2 Traversal (Verified Turns 14338-14341)**:
     - Row 5 east of column 23 verified: shallow puddle at (26-27, 5) terminates east at (27, 5) into impassable void chasm at column 28. Confirmed dead-end; does NOT connect directly to wooden staircase platform.
   - Vertical Bridge at column 23 (rows 6-12) traversed south from (23, 5) to (23, 13) (Verified Turn 14350). Confirmed complete connection from Northern Gangway (row 5) south across chasm to row 13 gangway.
