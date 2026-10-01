@@ -310,7 +310,7 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
-- **Northwest Clearing Layout & Connections (Audited Turns 12320-12538)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). Column 29 path runs north past Lass Sonia (27, 15) to row 13 and turns east through pink bird tracks at (30, 13); tile (30, 12) confirmed solid pine tree collision (Turn 12538). Eastern traversal along row 13 is currently under active exploration. Connected to south via column 30 corridor.
+- **Northwest Clearing Layout & Connections (Audited Turns 12320-12538)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). Column 29 path runs north past Lass Sonia (27, 15) to row 13 and turns east through pink bird tracks at (30, 13); tile (30, 12) confirmed solid pine tree collision (Turn 12538). Connected to south via column 30 corridor.
 - **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
@@ -656,7 +656,7 @@
 - **Hypothesis A (Karate House & Machop's Toy)**: Falsified Turn 12132. Residents and 2F audited 100% ambient flavor; cancelling quest cleared slot with no progression impact.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
 - **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
-- **Hypothesis D (Northwest Clearing Rows 14-22)**: Falsified Turn 12350. Youngster Mike and Lass Sonia ambient; western edge column 24 solid pine trees.
+- **Hypothesis D (Northwest Clearing Rows 14-22)**: Traversed & Connected. Clearing extends east along row 10/13 connecting seamlessly to Bug Catcher Duke and the Eastern Highway (resolved via Hypothesis G).
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 
@@ -668,10 +668,12 @@
 ## Next Investigation Target: Jackson's Whereabouts in Sovio City
 - **Core Mystery**: Metro Turnstile at (19, 21) continues to trigger: "I should find dad first!".
 - **Key Questions**:
-  1. Has the dialogue or state of the Metro Station attendant/turnstile changed?
+  1. Turnstile state verified Turn 12584: 'I should find dad first!' remains strictly active.
   2. Did Marie's retreat leave any clue in the Sewers or Metro lobby?
   3. Are there any overlooked interactive elements or NPCs in Sovio City?
-- **Immediate Plan**:
-  - Walk north along Southern Avenue (col 15) to West Avenue (row 18), proceed east to Central Plaza, and inspect the Metro Station.
+- **Verified In-Game Fact (Turn 12584)**:
+  - Stepped onto Metro Station turnstile at (19, 21): Triggers verbatim textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Turnstile barrier confirmed 100% active.
+- **Empirical Storage Room Fact (Audit Review)**:
+  - Tile (37, 14) displays verbatim 'Its a simple storage room...' with south void collision. Zero in-game text indicates a lock, keyhole, or character voice; narrative inference of captivity here is unverified.
 
 <hr>
