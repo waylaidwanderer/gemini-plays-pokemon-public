@@ -6,11 +6,11 @@
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
-  - Active Quest: NONE (verified free for new side quests or event triggers).
+  - Active Quest: Machop's Toy (accepted Turn 12622 from Old Man at 51, 15).
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Falsified Hypotheses (Condensed)
-- **Hypothesis A (Karate House & Machop's Toy)**: Falsified Turn 12132. Residents and 2F audited 100% ambient flavor; cancelling quest cleared slot with no progression impact.
+- **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro. Active testing of Machop's Toy quest rewards moved to Sub-Hypothesis 1.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
 - **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
@@ -25,8 +25,12 @@
 - **Status**: Quest Accepted on Turn 12622 from Old Man at (51, 15).
 - **Rationale**: Machop is associated with physical strength/rock manipulation. Sovio Sewers contains two cracked rock obstacles requiring HM Rock Smash (Dark Sector 22, 10 and Southwest corridor 10, 17). The Old Man stated the toy was lost in the sewers.
 - **Immediate Plan**:
-  1. Inspect the Quest Log entry for Machop's Toy to obtain developer hints.
-  2. Search accessible sewer sectors (walkways, puddles) to locate the toy.
+  1. Inspect Quest Log entry for developer hints. (COMPLETED Turn 12672: Verified Quest Status displays only generic system tutorial text across 3 textboxes; zero objective hints).
+  2. Bounded Search of Accessible Sewer Sectors:
+     - Eastern puddles (33-35, 22), (36-38, 27-28), and (28, 19) verified EMPTY (Turns 12641-12659).
+     - Traverse to Western Corridor and ascend to Western Upper Terrace at (14, 12).
+     - Check visible items and key platform features.
+     - BOUNDARY: If no visible item ball, interactable object, or prompt is found on Western Terrace / Gangway, conclude the toy is NOT accessible on the ground or requires an untried NPC interaction.
   3. Return toy to Old Man to test reward.
 - **Explicit Falsification Criteria**:
   - If the quest awards an ordinary item (e.g. consumable, berry, Poké Doll, minor cash) and does NOT grant HM Rock Smash, a key/keycard, or open a story event flag, Sub-Hypothesis 1 is IMMEDIATELY FALSIFIED and closed without further search.
