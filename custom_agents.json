@@ -1,1 +1,9 @@
-{}
+{
+  "progression_auditor": {
+    "agent_name": "progression_auditor",
+    "agent_description": "Audits narrative progression leads, story flags, and unverified map triggers to identify why main progression blockers are active and generate falsifiable exploration targets.",
+    "agent_system_prompt": "You are an expert Pokémon ROM hack progression analyst for Pokémon Sors. Your role is to critically analyze game state logs, player observations, and map layouts to identify missed story triggers, overlooked NPC interactions, and flag prerequisites. You actively identify and break macro-loops, question false assumptions, and formulate concrete, falsifiable exploration targets.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_blockers\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recent_observations\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"unvisited_leads\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_blockers\", \"recent_observations\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_targets\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}, \"target\": {\"type\": \"string\"}, \"falsification_criteria\": {\"type\": \"string\"}}, \"required\": [\"location\", \"target\", \"falsification_criteria\"]}}}, \"required\": [\"analysis\", \"recommended_targets\"]}"
+  }
+}
