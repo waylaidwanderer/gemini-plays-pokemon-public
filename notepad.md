@@ -388,7 +388,7 @@
 
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. (Lost Toy delivered Turn 13331).
 
-- **Items Pocket (Verified Turn 13183)**: Potion x 1, Poison Barb x 1, Nugget x 1. (0 Repels held; zero progression tools).
+- **Items Pocket (Verified Turn 13331)**: Potion x 1, Poison Barb x 1, Nugget x 1, Black Belt x 1 (Machop's Toy quest reward).
 
 - **Empirical Constraint & Equipment Mechanic (Verified Turn 13212)**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
 
