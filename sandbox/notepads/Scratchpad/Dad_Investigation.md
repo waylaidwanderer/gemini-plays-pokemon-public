@@ -15,6 +15,8 @@
   3. **Hypothesis C (Surface NPCs with Unexamined Conditions - On Hold)**: Re-testing key NPCs if story flags change.
   4. **Hypothesis D (Route 1 Northwest Clearing Western Expanse - FALSIFIED Turn 12350)**: Fully audited rows 14-22; western boundary solid pine trees at col 24, row 14 solid pine trees north; Mike and Sonia ambient.
   5. **Hypothesis E (Alternative Event Flag Mechanisms - FALSIFIED Turn 12410)**: HuPhone Item Storage, Mailbox, Quest Status, and World Map verified empty/static; passive checks do not trigger story flags.
-  6. **Hypothesis F (Northbound Route 1 Passage & Sovio City Reconnection - ACTIVE Turn 12421)**:
-     - *Hypothesis*: The physical northbound traversal from southern Route 1 (Cottage / Sand Highway) toward Sovio City does not pass through the enclosed Northwest Clearing, but via an unverified connector or the Eastern Meadow bypass.
-     - *Falsification Criteria*: If the eastern hedge bypass at (50-51, 18) is impassable northward from the lower meadow, and no other northbound corridor exists between columns 26 and 52, Route 1 northbound traversal requires a different mechanical path.
+  6. **Hypothesis F (Cottage East Corridor Northbound - FALSIFIED Turns 12444, 12455)**:
+     - Tile (40, 20) is confirmed impassable elevation ledge; 3 Up presses from (40, 21) yielded 0 tiles moved. The south-facing row 20 ledge strictly prevents northbound traversal from the Cottage yard.
+  7. **Hypothesis G (Southern Route 1 Northbound Connection to Sovio City - ACTIVE Turn 12455)**:
+     - *Premise*: Since players repeatedly travel from Lancio Town to Sovio City (verified Turns 818-1165, 10811-11002, 11792-11909) without HMs, a valid northbound traversal path must exist in the southern sector.
+     - *Investigation Scope*: Trace the connection from Sand Highway (columns 35-37, rows 26-38) and Northwest corridor to locate the true northbound bypass around the row 20 ledge.
