@@ -676,5 +676,6 @@
     - Confirmed 100% devoid of NPCs, items, or story triggers.
   - **Result**: Continuous loop traversed (Lower walkway row 28 cols 34-18 -> Western stairs 14, 17 -> Upper terrace 14, 12 -> Wall ladder 15, 11 -> Northern Gangway row 5 cols 15-27, dead end at 27, 5 -> Vertical Bridge col 23 rows 6-12 -> Row 13 gangway cols 23-30 -> Column 30 causeway -> Dark Sector corridor row 9 cols 30-16). Zero NPCs, cutscenes, or progression triggers encountered along this loop.
 
+- Turn 14501: Breakout from Sovio City executed. Ledge hopped into Cottage yard at (41, 21); traversing Sand Highway and southern corridor toward Lancio Town.
 
 <hr>
