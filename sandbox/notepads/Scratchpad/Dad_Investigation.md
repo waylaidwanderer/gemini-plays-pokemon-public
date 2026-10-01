@@ -32,4 +32,5 @@
   - Mezzanine Pok�Mart: Standard shop previously audited Turn 9696 (Pok� Ball, Potion, Antidote, Paralyz Heal, Repel).
   - Conclusion: Target 1 100% complete. Zero Dad presence or updated clues in Pok�mon Center.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
-  - Check non-enterable building facades and Central Park pond perimeter for post-sewer updates.
+  - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
+  - Next: Sweep tan commercial building facade (32-37, 8-12) and Central Park pond perimeter for post-sewer updates.
