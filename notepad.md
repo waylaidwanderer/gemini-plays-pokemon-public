@@ -233,11 +233,11 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater Turn 8948)
 - **Gender**: Male (♂)
-- **Level**: Lv14
-- **Max HP**: 40
+- **Level**: Lv15 (Turn 14335)
+- **Max HP**: 42 (Current HP: 27/42, Status: PAR)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: Attack 27 (C+), Defense 27 (A-), Sp. Atk 19 (C-), Sp. Def 22 (E), Speed 19 (C-)
+- **Stats (IV Grades)**: Attack 28 (C+), Defense 29 (A-), Sp. Atk 20 (C-), Sp. Def 23 (E), Speed 20 (C-)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
   - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
@@ -293,8 +293,8 @@
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
-- **Western Sector Tested Obstacles (Verified Turns 10271-10336)**: Columns 12-18 are confirmed blocked northward by hedges and pine trees: column 18 terminates at (18, 40) (pine tree trunk), column 17 at (17, 42) (hedge), column 16 at (16, 43) (hedge), column 15 at (15, 42) (hedge), column 14 at (14, 42) (hedge), column 13 at (13, 42) (hedge), column 12 at (12, 42) (hedge). Columns 10-11 are occupied by the Central Pine Tree and Signboard 1. Zero northward exits exist in the entire western sector (columns 10-18).
-- **Far-Western Sector Boundaries (Verified Turns 10523-10532)**: Column 4 has an open alcove at (4, 44) and (4, 43) adjacent to the Cut Tree at (5, 43-44); column 4 is blocked north at (4, 42) by a solid pine tree trunk. Column 3 is blocked at (3, 43) and (3, 44) by solid pine trees. Tile (1, 44) is a solid pine tree trunk. Tile (0, 45) is the boundary tile where stepping Left transitions into Lancio Town at (46, 14) outside eastern signboard (44-45, 13).
+- **Western Sector Boundaries (Verified Turns 10271-10336)**: Western sector (columns 10-18) is completely blocked northward along rows 40-43 by dense hedges, pine trees, and Signboard 1; zero northward exits exist.
+- **Far-Western Sector Boundaries (Verified Turns 10523-10532)**: Terminated northward by dense pine trees along rows 42-44 and the Cut Tree at (5, 44). Passable cobblestone lane along rows 45-46 transitions west at (0, 45) into Lancio Town.
 - **Row 43 Hedge Gap & Meadow Connector (Verified Turns 10250-10252)**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
 - **Row 6 & 7 Northern Dead End (Verified Turns 11518, 11524-11544)**: At (34, 6), moving west into (33, 6) is blocked by a pine tree. At (34, 7), moving west into (33, 7) is also blocked by a solid pine tree trunk. Tile (34, 7) is a dead-end alcove bordered by the rock spire at (35, 7), hedge at (34, 8), and dense western pine forest. Confirmed zero westward passage exists from rows 6-7 into the Northwest Clearing.
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
@@ -357,7 +357,7 @@
   3. **Quest Log**: Active objective tracker and completed quest list.
   4. **Back**: Closes HuPhone.
 - **Portable PC Interface (Item Storage app)**:
-  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel. 
+  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel (Audited Turn 14292: 'There are no items.'). 
   - **Mailbox**: Portable PC mailbox (Audited Turn 14291: 'There\'s no Mail here.'). 
   - **Turn Off**: Exits portable PC interface.
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
@@ -452,7 +452,7 @@
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
-  - **Old Man at (51, 15) & Machop at (51, 16)**: Ambient dialogue; Old Man expresses gratitude and Machop is calm.
+  - **Old Man at (51, 15) & Machop at (51, 16)**: Verified absent from the terrace post-quest (audited Turn 14196).
 
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 
@@ -473,11 +473,7 @@
 
   - **Upper Roof Perimeter & Collision (Audited Turns 11074-11080)**:
 
-    - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
-
-    - Interior row 23: Stepping Down into row 23 confirmed solid collision.
-
-    - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
+    - Walkable corridor beneath roof graphic connects row 19 through rows 20-22 east to column 52.
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -525,7 +521,7 @@
 
   - Main lobby floor lands at (23, 24) on vertical red mat. Stairs leading back up to Sovio City overworld at (24, 24); entered from (23, 24) stepping Right (tile 24, 25 is blocked by south railing).
 
-  - **Train Timetable Board (Verified Turn 7149, 7191)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24) or (23, 24) displays: "It's a timetable showing various destinations!". Row 23 is a solid brick wall east of column 20; no open counter or ticket window exists in the lobby.
+  - **Train Timetable Board (Verified Turns 7149, 7191, 14276, 14278)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
   - **Turnstile Gate (Verified Turn 9018)**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars (verified Turn 7150-7153). Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 
@@ -551,7 +547,7 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F (Audited Turns 9161-9168)**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30) all provide ambient flavor dialogue (Verified 0 items or story triggers.).
+- **Interior 1F (Audited Turns 9161-9168, 14246-14251)**: Entrance mat at (23-24, 36). Resident boy at (25, 32) repeats 'I love this show!', mother at (27, 33) repeats 'My son is watching some cartoon...', and wide-screen TV at (25-26, 30). Confirmed 100% ambient domestic flavor dialogue.
 
 - **Interior 2F (Audited Turns 5933, 9177)**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
 
@@ -594,22 +590,13 @@
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
-  - Item Found: Poison Barb collected at (22, 36) at the eastern dead-end of the Southern Canal (Turn 3133).
-  - Puddle Alcove (Verified Turn 1966): At (28, 19) north of column 26 corridor is an impassable dead-end puddle terminated by solid brick wall at row 18 and black void to the east.
-  - Eastern Lower Alcove (Verified Turn 1978): Lower walkway at columns 37-39, rows 27-28 is a dead-end alcove terminated by solid brick wall to the north and black void to the south and east.
-  - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
-  - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
-  - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
   - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). The vertical bridge crossing south across the chasm is located at column 23 (rows 6-12; visually verified Turn 14031).
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
   - Southwest Corridor & Obstruction (Verified Turns 2380-2386, 6138-6141): Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 17) and (9, 18) by two diagonal cracked rocks between the row 16 brick wall and row 19 void chasm (verified Turn 6140). Both approaches impassable without HM Rock Smash.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
-  - Stone Staircase (South Lower Descent) (Verified Turns 2390-2399): Located at columns 12-13, rows 28-31 with railing posts at (11, 29) and (14, 29); descends south from the row 27-28 walkway to the lower canal floor at rows 32-34.
   - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters (wild Koffing verified on tile 15, 8 on Turn 7788).
-  - Western Upper Terrace Bounds (Verified Turns 6130-6132): Spans columns 13 to 18 along row 12. Western boundary terminated by solid wall at column 12; eastern boundary terminated by solid wall at column 19. Contains stone staircase descent at column 14 (rows 13-16) and shallow puddle at (14-15, 11). Entire terrace fully explored and verified devoid of NPCs, doors, or exits.
 
 - **Column 30 Causeway & Northeast Wooden Staircase (Verified Turns 7294-7308)**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
-- **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
@@ -656,27 +643,37 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
 ## Core Blockers & Status
-- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!".
-- **Route 2 Gate**: Stepping onto (52, 19) triggers "I can't go yet... I have things to do!".
-- **Jackson Status**: Captured by Team Siara in sewers (Turn 1666-1707 cutscene). Jackson has remained missing, which is why turnstiles and Route 2 remain locked.
+- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22).
+- **Route 2 Gate**: Stepping onto (52, 19-22) triggers "I can't go yet... I have things to do!".
+- **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
-- **Lancio Town**: Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
-- **Route 1**: All trainers defeated; cottage boy gives Max Repel; open hedge passage connects column 30 to Northwest Clearing.
-- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), timetable (22, 24), and Central Park pond walkway (43-45, 23-26) return baseline ambient interactions.
-- **Sovio Metro Lobby (Audited Turn 14177)**: Turnstile at (19, 21) strictly triggers 'I should find dad first!' forcing player to (19, 22); platform attendant at (22, 19) is inaccessible behind brick wall; Route 2 boundary at (52, 19) strictly triggers 'I can't go yet... I have things to do!'.
-- **Sovio Buildings Audited This Cycle**:
-  - SC1 (Pokémon Center 44, 12): Camper at (5, 7) Weedle text; Boy at (9, 6) PC text.
-  - SC2 (North-Central House 39, 7): Elderly man repeats Wii text.
-  - SC5 (Machop Family House 14, 15): Karate couple debate static; Machop flavor text permanently 'He seems a bit agressive...' regardless of quest status (re-verified Turn 14148).
-- **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
-- **Deep Subterranean Sector (Sovio Sewers)**: Audited Turn 14052. 3x3 chamber (2, 38) perimeter walls probed inert; single-purpose quest room where Machop's toy was retrieved.
+- **Lancio Town**: Professor Ivo static ambient dialogue ("Hey, Ashi, how's your new Pokémon?"), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
+- **Route 1**: All trainers defeated; roadside cottage boy gifts Max Repel; open hedge passage connected; tall grass wild encounters catalogued.
+- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), Central Park pond walkway, and south sidewalk return baseline ambient interactions.
+- **Sovio Domestic Interiors (SC1-SC5, Name Rater)**: All 6 residences fully audited and verified 100% ambient/settled (detailed records in Locations/Sovio_City.md).
+- **Sovio Metro Lobby**:
+  - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
+  - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
+- **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pokémon) audited 100% empty. Party size/composition does not gate turnstile blocker.
+- **Sovio Sewers Audited Features**:
+  - Machop's Toy Quest: Completed Turn 13331 (Black Belt obtained).
+  - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
+  - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Primary Focus
-- **Hypothesis T1 (Terrace Complex & Post-Quest Resolution Audit)**:
-  - **Targets**: Old Man at (51, 15), Machop at (51, 16), and SC3 interior (49, 14: Granddaughter 63, 34; Nana 62, 31).
-  - **Method**: Ascend terrace curb at (47, 15) from west (46, 15), speak to Old Man and Machop, enter SC3 to verify indoor NPCs post-quest.
-  - **Falsification Criteria**: If Old Man/Machop repeat post-quest gratitude/calm text and Nana/Granddaughter repeat baseline flavor dialogue, declare Terrace Complex 100% settled/ambient.
+- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Unexhausted Frontier)**:
+  - **Context**: Surface and global systems (PC, Bag, residences, timetable) are verified 100% ambient/settled. The sole storyline thread tied to Jackson and Team Siara is the Sovio Sewers. We are executing a continuous, methodical mapping of all sewer sectors without aborting mid-transit.
+  - **Sector 1 Traversal (Verified Turns 14321-14337)**:
+  - **Sector 2 Traversal (Verified Turns 14338-14341)**:
+    - Row 5 east of column 23 verified: shallow puddle at (26-27, 5) terminates east at (27, 5) into impassable void chasm at column 28. Confirmed dead-end; does NOT connect directly to wooden staircase platform.
+  - Vertical Bridge at column 23 (rows 6-12) traversed south from (23, 5) to (23, 13) (Verified Turn 14350). Confirmed complete connection from Northern Gangway (row 5) south across chasm to row 13 gangway.
+  - **Sector 3 Traversal (Verified Turns 14356-14361)**:
+    - Northern alcove at (23, 8) verified (Nugget already collected Turn 4576).
+    - Rugged rock at (22, 10) confirmed intact (equipment-gated).
+    - Western alcove at (14-16, 9-10) verified (warp to Deep Subterranean Sector 2, 38 where Machop's toy was retrieved).
+    - Confirmed 100% devoid of NPCs, items, or story triggers.
+  - **Result**: Continuous loop traversed (Lower walkway row 28 cols 34-18 -> Western stairs 14, 17 -> Upper terrace 14, 12 -> Wall ladder 15, 11 -> Northern Gangway row 5 cols 15-27, dead end at 27, 5 -> Vertical Bridge col 23 rows 6-12 -> Row 13 gangway cols 23-30 -> Column 30 causeway -> Dark Sector corridor row 9 cols 30-16). Zero NPCs, cutscenes, or progression triggers encountered along this loop.
 
 
 <hr>
