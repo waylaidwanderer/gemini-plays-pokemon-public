@@ -14,11 +14,13 @@
   - SC1 (Pokémon Center 44, 12): Camper at (5, 7) Weedle text; Boy at (9, 6) PC text.
   - SC2 (North-Central House 39, 7): Elderly man repeats Wii text.
   - SC5 (Machop Family House 14, 15): Karate couple debate static; Machop flavor text permanently 'He seems a bit agressive...' regardless of quest status (re-verified Turn 14148).
+- SC3 (Terrace House 49, 14): Granddaughter at (63, 34) non-interactive; Nana at (62, 31) repeats cooking text ('I\'m cooking something for my dear grandkid. She loves my cooking.'); Old Man and Machop absent from terrace (audited Turn 14196-14203). Terrace Complex 100% settled/ambient.
 - **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
 - **Deep Subterranean Sector (Sovio Sewers)**: Audited Turn 14052. 3x3 chamber (2, 38) perimeter walls probed inert; single-purpose quest room where Machop's toy was retrieved.
 
 ## Active Hypotheses & Primary Focus
-- **Hypothesis T1 (Terrace Complex & Post-Quest Resolution Audit)**:
-  - **Targets**: Old Man at (51, 15), Machop at (51, 16), and SC3 interior (49, 14: Granddaughter 63, 34; Nana 62, 31).
-  - **Method**: Ascend terrace curb at (47, 15) from west (46, 15), speak to Old Man and Machop, enter SC3 to verify indoor NPCs post-quest.
-  - **Falsification Criteria**: If Old Man/Machop repeat post-quest gratitude/calm text and Nana/Granddaughter repeat baseline flavor dialogue, declare Terrace Complex 100% settled/ambient.
+- **Hypothesis S1 (Sewers Storage Room & Grunt Retreat Site Re-Audit)**:
+  - **Context**: Grunts vacated after Marie's radio order (Turn 2682), but Jackson was never located. The Eastern Storage Room at (37, 14) displayed 'Its a simple storage room...'. 
+  - **Targets**: Eastern Storage Room at (37, 14), red mat tile behavior, and adjacent canal perimeters.
+  - **Method**: Return to Sovio Sewers via Metro lobby mat (18-19, 25), navigate to (37, 14), systematically probe all adjacent tiles and mat entry orientations.
+  - **Falsification Criteria**: If (37, 14) and surrounding perimeter remain strictly inert with no entry or dialogue, rule out Eastern Storage Room as an accessible holding cell.
