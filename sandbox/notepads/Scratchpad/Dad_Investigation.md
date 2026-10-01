@@ -28,7 +28,7 @@
 - **Target 1: Sovio City Pokémon Center & Mezzanine PokéMart**
   - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
   - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
-  - Straw-hat Camper (5, 7): In progress.
+  - Straw-hat Camper (5, 7): Tested Turn 12813; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need t...").
   - Mezzanine PokéMart clerk (5, 3): Pending upstairs audit.
   - Protocol: Speak to all occupants to verify if dialogue updated or new clues are provided.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
