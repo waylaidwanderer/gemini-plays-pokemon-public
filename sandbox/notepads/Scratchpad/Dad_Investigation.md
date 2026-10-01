@@ -38,3 +38,7 @@
   - Traversal east onto column 52 at row 22 triggers the Route 2 story barrier ('I can't go yet... I have things to do!') which repels West to (51, 22).
   - Southward traversal from (51, 22) into (51, 23) confirmed solid collision (blocked Turn 12926).
   - Confirmed: Zero southern passage exists through or around the building from rows 20-22; the roof passage is a dead-end corridor connecting Central Plaza to the Route 2 gate.
+## Southern Avenue & Transition to Route 1 (Turns 12940-12946)
+- Traversed Southern Avenue along columns 14-15 from West Avenue past Three Bikers (13, 21-23), through the dark brick archway at rows 28-29, and down to row 39. Confirmed zero NPCs, doors, or items along the avenue.
+- All urban sectors of Sovio City (Central Plaza, Northern Row, West Avenue, Two-Story Building roof passage, Southern Avenue) 100% audited.
+- Transitioning south onto Route 1 to travel toward Lancio Town and consult Professor Ivo in the quest-free post-retreat state.
