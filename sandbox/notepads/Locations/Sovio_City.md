@@ -23,7 +23,7 @@
 - **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
-- **West Avenue North Boundary (Verified Turn 11870)**: At column 16, row 16 terminates into solid building foundation at (16, 15) and east wall at (17, 16); eastward traversal from Karate house must follow rows 17-18.
+- **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
 
 - **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
 
