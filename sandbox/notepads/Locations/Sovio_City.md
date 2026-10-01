@@ -20,7 +20,7 @@
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner PokÃ©mon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
-- **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house.
+- **West Avenue Signpost & Trash Can (Verified Turns 9294-9296, 12938)**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) at the junction between West Avenue and Karate house.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
 - **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
