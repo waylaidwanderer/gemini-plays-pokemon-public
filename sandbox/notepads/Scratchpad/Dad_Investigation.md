@@ -6,10 +6,7 @@
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
-- **Lancio Town**: Professor Ivo static ambient dialogue ("Hey, Ashi, how's your new Pokémon?"), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
-- **Route 1**: All trainers defeated; roadside cottage boy gifts Max Repel; open hedge passage connected; tall grass wild encounters catalogued.
-- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), Central Park pond walkway, and south sidewalk return baseline ambient interactions.
-- **Sovio Domestic Interiors (SC1-SC5, Name Rater)**: All 6 residences fully audited and verified 100% ambient/settled (detailed records in Locations/Sovio_City.md).
+- **External Settlements & Residences**: Lancio Town, Route 1, Sovio surface quadrants, and all 6 domestic residences remain settled (detailed records in Locations/*.md).
 - **Sovio Metro Lobby**:
   - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
   - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
