@@ -26,4 +26,4 @@
   - **Context**: Having confirmed that all Sovio residences, surface quadrants, Route 1, Lancio Town, and sewer sectors are settled/ambient, shuttling between surface and sewers without new variables is circular stagnation. The blocker flags ('I should find dad first!' and 'I have things to do!') may be gated by a non-spatial game mechanic.
   - **Targets**: Party composition (Sirius Lv14 solo; Zephyr in PC?), PC Boxes / Mailbox in Pokémon Center, HuPhone app configurations, or unexamined overworld mechanics.
   - **Method**: Check PC Box / Party system, verify if Zephyr (Pidgey) or an item/message is waiting in PC storage, test turnstile interaction from (19, 22) facing Up with 'A'.
-  - **Falsification Criteria**: If PC and party systems yield no new progression, evaluate other uninspected global interaction points.
+  - **Falsification Criteria**: If inspecting Someone's PC Box storage shows no progression items/flags, and withdrawing Zephyr (or manipulating party composition) does not alter the turnstile trigger at (19, 21), declare party size/composition strictly independent of the Jackson blocker and immediately falsify GT1.

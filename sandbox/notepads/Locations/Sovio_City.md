@@ -58,11 +58,7 @@
 
   - **Upper Roof Perimeter & Collision (Audited Turns 11074-11080)**:
 
-    - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
-
-    - Interior row 23: Stepping Down into row 23 confirmed solid collision.
-
-    - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
+    - Walkable corridor beneath roof graphic connects row 19 through rows 20-22 east to column 52.
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 
@@ -110,7 +106,7 @@
 
   - Main lobby floor lands at (23, 24) on vertical red mat. Stairs leading back up to Sovio City overworld at (24, 24); entered from (23, 24) stepping Right (tile 24, 25 is blocked by south railing).
 
-  - **Train Timetable Board (Verified Turn 7149, 7191)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24) or (23, 24) displays: "It's a timetable showing various destinations!". Row 23 is a solid brick wall east of column 20; no open counter or ticket window exists in the lobby.
+  - **Train Timetable Board (Verified Turns 7149, 7191, 14276, 14278)**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
   - **Turnstile Gate (Verified Turn 9018)**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars (verified Turn 7150-7153). Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 
