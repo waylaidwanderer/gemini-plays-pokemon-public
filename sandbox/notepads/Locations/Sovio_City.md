@@ -26,7 +26,7 @@
 
 - **West Avenue Signpost & Trash Can (Verified Turns 9294-9296, 12938, 14464)**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) probed with 'A' on Turn 14464; confirmed completely inert with zero items.
 
-- **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
+- **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. Eastern facade of the office building at column 11 across rows 16-20 physically probed tile-by-tile with collision and 'A' interactions (audited Turns 14695, 14708, 14711); confirmed 100% solid wall with zero doors, secret entrances, or items. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
 - **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
 
