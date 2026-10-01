@@ -13,7 +13,7 @@
 - **Hypothesis A (Karate House & Machop's Toy)**: Falsified Turn 12132. Residents and 2F audited 100% ambient flavor; cancelling quest cleared slot with no progression impact.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
 - **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
-- **Hypothesis D (Northwest Clearing Rows 14-22)**: Falsified Turn 12350. Youngster Mike and Lass Sonia ambient; western edge column 24 solid pine trees.
+- **Hypothesis D (Northwest Clearing Rows 14-22)**: Traversed & Connected. Clearing extends east along row 10/13 connecting seamlessly to Bug Catcher Duke and the Eastern Highway (resolved via Hypothesis G).
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 
@@ -25,8 +25,10 @@
 ## Next Investigation Target: Jackson's Whereabouts in Sovio City
 - **Core Mystery**: Metro Turnstile at (19, 21) continues to trigger: "I should find dad first!".
 - **Key Questions**:
-  1. Has the dialogue or state of the Metro Station attendant/turnstile changed?
+  1. Turnstile state verified Turn 12584: 'I should find dad first!' remains strictly active.
   2. Did Marie's retreat leave any clue in the Sewers or Metro lobby?
   3. Are there any overlooked interactive elements or NPCs in Sovio City?
-- **Immediate Plan**:
-  - Walk north along Southern Avenue (col 15) to West Avenue (row 18), proceed east to Central Plaza, and inspect the Metro Station.
+- **Verified In-Game Fact (Turn 12584)**:
+  - Stepped onto Metro Station turnstile at (19, 21): Triggers verbatim textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Turnstile barrier confirmed 100% active.
+- **Empirical Storage Room Fact (Audit Review)**:
+  - Tile (37, 14) displays verbatim 'Its a simple storage room...' with south void collision. Zero in-game text indicates a lock, keyhole, or character voice; narrative inference of captivity here is unverified.
