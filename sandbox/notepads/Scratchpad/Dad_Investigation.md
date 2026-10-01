@@ -22,7 +22,7 @@
      - *Constraint*: Inventory audit (Turn 11897) confirmed zero keys held. Falsification: If no observable trigger or switch is found on the surface or accessible sewer areas, Hypothesis B is FALSIFIED.
   3. **Hypothesis C (Surface NPCs with Unexamined Conditions - Formulated Turn 12068)**: Re-test key Sovio surface NPCs to verify if dialogue updates based on current story flags, avoiding premature "100% Falsified" assumptions.
 
-  4. **Hypothesis F (Route 1 Northwest Clearing Western Expanse - FALSIFIED Turn 12325)**:
+  4. **Hypothesis F (Route 1 Northwest Clearing Western Expanse - FALSIFIED Turn 12350)**:
      - *Empirical Audit*: Audited columns 24-28 across rows 14-22. Traversed to westernmost clearing edge at (24, 18) and (24, 15).
-     - *Verified Collision*: Columns 0 to 23 are an impenetrable, continuous wall of solid pine trees across rows 14-22. Row 14 is solid pine trees/trunks. Youngster Mike at (29, 20) provides ambient defeat dialogue ('My Pokémon was completely destroyed by yours...').
-     - *Conclusion*: Zero secret western paths or exits exist. Western boundary confirmed at column 24. Currently verifying Lass Sonia's dialogue at (27, 15).
+     - *Verified Collision*: Columns 0 to 23 are an impenetrable, continuous wall of solid pine trees across rows 14-22. Row 14 is solid pine trees/trunks. Youngster Mike at (29, 20) provides ambient defeat dialogue ('My Pokémon was completely destroyed by yours...'). Lass Sonia at (27, 15) provides ambient defeat dialogue ('Hmm, more harmony maybe?').
+     - *Conclusion*: Zero secret western paths, exits, or NPCs exist. Northwest Clearing is 100% audited; completely FALSIFIED with zero progression triggers.
