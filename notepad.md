@@ -386,7 +386,7 @@
 
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
 
-- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Zero keys, keycards, access badges, or event quest items held.
+- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon), TM Case, and Lost Toy (Machop's Clefairy Poké Doll, acquired Turn 13238).
 
 - **Items Pocket (Verified Turn 13183)**: Potion x 1, Poison Barb x 1, Nugget x 1. (0 Repels held; zero progression tools).
 
@@ -396,8 +396,6 @@
 - **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Poké Ball icons for the Eclipse Tournament.
 - **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
 - **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
-
-
 
 <hr>
 
