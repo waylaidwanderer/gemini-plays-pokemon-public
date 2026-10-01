@@ -642,11 +642,12 @@
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 
-## Active Investigation: Hypothesis G (Northwest Clearing Eastern Connector & Route 1 Reconnection)
-- **Premise**: In Turn 10811, Asher traversed Northwest Clearing past Youngster Mike and Lass Sonia to Bug Catcher Duke and Sovio City. Turn 12351 only probed (24, 14); columns 28-36 at rows 14-20 remain completely unmapped and form the primary candidate for the true northbound path.
-- **Falsification Bounds & Explicit Plan**:
-  1. *Row 44 Northern Boundary Audit (COMPLETED Turns 12484-12514)*: Row 43 is confirmed a solid unbroken hedge wall across columns 19-25; Camper is at (18, 43) facing south. Zero northbound exits exist along row 44.
-  2. *Retrace to Northwest Clearing*: Follow row 44 east to column 26 hedge gap, cross Meadow Trail to Sand Highway, and take column 30 corridor into Northwest Clearing.
-  3. *Audit Columns 28-36 (Rows 14-20)*: Systematically probe eastward and northward tiles around Lass Sonia (27, 15) and columns 28-36 to find the corridor connecting to Duke (45, 12) and Sovio City.
+## Active Investigation: Hypothesis G (Northwest Clearing Eastern Connector & Route 1 Reconnection - VERIFIED Turn 12552)
+- **Verified Northern Connection**:
+  - From Northwest Clearing column 29 row 13, the path turns east, bypasses pine obstacle (34, 13) via the row 10 meadow corridor, and successfully reaches (38, 10).
+  - The southern sector connects seamlessly to the northern meadow without jumping one-way ledges!
+- **Active Plan**:
+  - Traverse row 10 east past Bug Catcher Duke (45, 12) to Signpost 4 (50, 10) and the Eastern Highway (52, 12).
+  - Head north on the Eastern Highway into Sovio City at (53, 0).
 
 <hr>
