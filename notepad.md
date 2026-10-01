@@ -38,6 +38,9 @@
 - **Amor City**: Capital city of the Hupest Region.
 - **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
 - **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
+- **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City (verified Turn 14113 via World Map).
+- **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City (verified Turn 14113 via World Map).
+- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects west along the coast to Lancio Town, northwest via Route 2 to Sovio City, and east along the coast to Samurion City (verified Turn 14118 via World Map).
 
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
@@ -321,7 +324,6 @@
 
 - **Sand Highway Column 35 Bounds (Verified Turn 12970)**: Column 35 is blocked south at row 31 by pine tree border. Traversal south along Sand Highway must follow columns 36-37.
 - **Row 30 Forest Canopy Passage**: Tile (35, 30) and (34, 30) are walkable alcove tiles under the canopies, but (33, 30) is solid pine tree collision (verified Turns 13593-13595).
-- **Verified Obstacles (Turns 13597-13678)**: Solid collisions verified at (36, 11) (pine tree), (31, 38) (shrub/boundary), (29, 38) (pine tree trunk), (27, 38) (pine tree trunk), (28, 40) (columnar shrub base), (35, 24) (Cottage wall), and (34, 24) (pine tree trunk).
 
 
 <hr>
@@ -599,7 +601,7 @@
   - Central Corridor: Columns 26-27 form a 2-tile wide vertical corridor extending from the lower walkway at row 27 north to row 18 (terminating at a solid brick wall).
   - Black Square Feature: Located at (28, 23) set into the stone wall corner at the base of the elevated terrace; verified non-interactive decorative feature (no warp or text prompt).
   - Stone Staircase (Western Wing): Located at column 14 (rows 13-16); ascends from the lower western walkway at (14, 17) to the upper western terrace at (14, 12). Column 15 is blocked by the eastern railing post at (15, 16).
-  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). Column 22 dead-ends south at row 6 into the chasm; the actual vertical bridge crossing south across the chasm is at column 23 (rows 6-12; visually verified Turn 14031).
+  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). The vertical bridge crossing south across the chasm is located at column 23 (rows 6-12; visually verified Turn 14031).
   - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
   - Southwest Corridor & Obstruction (Verified Turns 2380-2386, 6138-6141): Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 17) and (9, 18) by two diagonal cracked rocks between the row 16 brick wall and row 19 void chasm (verified Turn 6140). Both approaches impassable without HM Rock Smash.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
