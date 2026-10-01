@@ -57,7 +57,9 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
-- **Northwest Clearing Layout & Connections (Updated Turn 11851)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire both defeated. Connected to the south via the column 30 tall grass corridor (rows 20-26) to the Cottage area. Connected to the northeast via rock spire trail.
+- **Northwest Clearing Layout & Connections (Updated Turn 12301)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire both defeated.
+  - Column 30 corridor bounds: Tile (30, 20) is blocked by a pine tree trunk, and (29, 21) is blocked by a horizontal hedge.
+  - Traversable entrance: The path into the clearing branches west from column 30 at row 22 via (29, 22) into tall grass at (28, 22), then heads north into the clearing west of Mike.
 - **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.

@@ -7,7 +7,6 @@
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..." (Exhausted/Inert; zero keys held).
   - Active Quest: NONE (Machop's Toy cancelled on Turn 12142).
-  - *Deduction*: Metro lobby audit is 100% falsified as containing hidden counters/triggers. Story flag requires locating Jackson or triggering narrative progress at regional hub.
 
 - **Hypotheses & Status**:
   1. **Hypothesis A (Karate House & Machop's Toy - FALSIFIED Turn 12132)**: Fully audited; all occupants ambient.
