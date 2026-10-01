@@ -439,7 +439,7 @@
 
 - **Metro Plaza Signpost (Verified Turns 2071, 6208)**: 2-tile wide wooden signpost at (50-51, 18) outside the Metro Station; solid collision at (50, 18) and (51, 18); reads "Sovio Metro Station / Route 2 ---->".
 
-- **East Exit Story Barrier (Verified Turn 9256)**: Tiles (52, 19), (52, 20), and (52, 21) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-21 toward Route 2.
+- **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) resides on terrace outside (verified Turn 12143: no Machop present on terrace; Machop was conflated with Karate house Machop).
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
@@ -627,7 +627,7 @@
 ## Investigation Status & Active Hypotheses (Updated Turn 12091)
 - **Verified Game State**:
   - Metro Turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
-  - Route 2 Exit at (52, 19-21): Displays "I can't go yet... I have things to do!" (Repels West).
+  - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West; verified Turn 12163).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
   - Active Quest: NONE (Machop's Toy cancelled on Turn 12142 to clear the single active quest slot; verified free for new side quests or event triggers).
