@@ -487,7 +487,7 @@
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
   - **Terrace Bounds & Audit (Verified Turn 14725)**: Tile (51, 15) is open floor (Old Man absent); (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole (inert 'A', Machop absent); (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
 
-  - **Interior 1F (Verified Turns 7897, 8526, 14446)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...") re-verified 100% ambient post-quest (Turn 14446); Old Man and Machop are absent. 100% audited.
+  - **Interior 1F (Verified Turns 7897, 8526, 14446)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
 
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
@@ -567,7 +567,7 @@
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
-## Residential House (North Central) (Audited Turns 1447, 7239-7245, 12848-12863)
+## Residential House (North Central) (Audited Turns 1447, 7239-7245, 12848-12863, 15400-15405)
 
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 
@@ -597,7 +597,7 @@
 
 - **Interior 1F**: Entrance mat at (5, 36).
 
-  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Re-verified 100% ambient debate dialogue post-quest (Turns 14467-14470); trainer prefers karate, girlfriend prefers kickboxing.
+  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
 
   - Family Machop at (6-7, 33-35); permanently displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...' regardless of quest status (verified post-quest Turn 14148; separate from Old Man's terrace Machop).
 
@@ -686,8 +686,8 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
 ## Core Blockers & Status
-- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22) (re-verified active Turn 14644).
-- **Route 2 Gate**: Stepping onto (52, 19-22) triggers "I can't go yet... I have things to do!" (re-verified active Turn 14647).
+- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22) (re-verified active Turn 15371).
+- **Route 2 Gate**: Stepping onto (52, 19-22) triggers "I can't go yet... I have things to do!" (re-verified active Turn 15374).
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
@@ -708,6 +708,6 @@
   - Status: Settled Turn 15261. Executed full 4-step physical protocol. Red mat at (37, 14) confirmed ambient single-line textbox ('Its a simple storage room...') and solid south void collision. Northern expansion (36-38, 12) and eastern boundary (col 39) verified solid walls with inert 'A'. Platform 100% ambient prop.
 
 - **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - 100% SETTLED & ARCHIVED)**:
-  - Status: Settled Turn 15341. Systematic boundary audit of rows 22-28, columns 6-19: (11, 28-26) floor, (11, 25) solid ledge (inert 'A'), (10-6, 26) floor & puddle, (6, 26) west wall (inert 'A'), (6, 27-28) floor, (6, 29) south void (inert 'A'). Zero hidden rooms, NPCs, or progression triggers. All accessible sectors of Sovio Sewers are now 100% accounted for. Jackson is not in the sewers.
+  - Status: Settled Turn 15341. Systematic boundary audit of rows 22-28, columns 6-19: (11, 28-26) floor, (11, 25) solid ledge (inert 'A'), (10-6, 26) floor & puddle, (6, 26) west wall (inert 'A'), (6, 27-28) floor, (6, 29) south void (inert 'A'). Zero hidden rooms, NPCs, or progression triggers. Zero hidden rooms, NPCs, or progression triggers found along audited open corridors.
 
 <hr>
