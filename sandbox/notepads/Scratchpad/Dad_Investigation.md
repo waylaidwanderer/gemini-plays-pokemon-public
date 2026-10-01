@@ -6,7 +6,7 @@
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
-  - Active Quest: Machop's Toy (accepted Turn 12622 from Old Man at 51, 15).
+  - Active Quest: None (Machop's Toy officially cancelled on Turn 12771 with Old Man at 51, 15; quest slot free).
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Falsified Hypotheses (Condensed)
@@ -25,4 +25,4 @@
 - **Rationale**: Jackson ran outside after the tremor (Turn 1437). Metro turnstiles explicitly demand 'I should find dad first!'.
 - **Immediate Plan**:
   2. Return to Sovio City surface.
-  3. Cancel or complete Machop's Toy quest with Old Man if needed, or inspect untested surface triggers in Sovio City.
+  3. Machop's Toy officially cancelled on Turn 12771. Focusing 100% on testing Hypothesis 1 (Metro lobby inspection) and Hypothesis 2 (exterior Central Plaza triggers).
