@@ -36,7 +36,13 @@
 
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) resides on terrace outside with Machop (51, 16); quest giver for 'Machop's Toy'. Dialogue reveals Machop became aggressive after losing his favorite toy in the Sovio Sewers.
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
+  - **Old Man at (51, 15) & 'Machop's Toy' Quest (Accepted Turn 13158, Clue Verified Turn 13162)**:
+    - Quest Offer: 'My Machop lost his favorite toy, and he became really agressive. I think he lost it in the Sovio Sewers, which is full of Pokémon... Apparently, I'm not a Pokémon Trainer, so it would be dangerous for me to wander around down there. May, I ask for your assistance, to find it for me?'
+    - Acceptance: 'Really? Thank you! I really appreciate your help!' -> 'Quest Accepted!'
+    - Active Clue: 'Thank you, the toy must be somewhere deep in the Sovio Sewers.'
+    - Abandonment Prompt: 'If you can't find it its fine. You can leave if you wanna. Do want to leave it? Yes/No' (Declined 'No' on Turn 13164 to keep quest active).
+    - Machop at (51, 16): 'Machop: Chop Chop!' (Verified Turn 13166).
 
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 
@@ -50,7 +56,7 @@
   - Boy at (35, 28): 'Yeah Jigglypuff!' (Turn 13138)
   Confirmed 100% ambient flavor; zero items, side quests, or story progression flags.
 
-- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157)**: Blonde girl at (45, 26) on the east bank of the pond and boy in pink shirt at (31-33, 20-22) on the west bank share identical ambient flavor dialogue waiting for an online date (confirmed 100% ambient flavor).
+- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157, Re-verified Turns 13140-13149)**: Boy at (32, 21) re-verified on Turn 13149: 'I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?'. Confirmed 100% ambient flavor.
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 
