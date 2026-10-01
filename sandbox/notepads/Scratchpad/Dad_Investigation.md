@@ -5,7 +5,6 @@
   - Metro Turnstile at (19, 21): Re-tested Turns 12777, 13055, 13058, 13109; strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
-  - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..." (Confirmed inert post-retreat on Turn 13081).
   - Active Quest: Machop's Toy COMPLETED (Turn 13331); rewarded Black Belt. Re-tested Metro turnstile at (19, 21) on Turns 13353-13355; confirmed strictly blocked by 'I should find dad first!'.
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
@@ -24,12 +23,3 @@
   1. Surface Information / Quests: Re-evaluating Machop's Toy quest from the Old Man at (51, 15) (lost deep in the sewers - could finding the toy or completing the quest open a passage or reward a required tool?).
   2. Subterranean Exploration: Checking other sewer mechanics, potential hidden switches, or unverified tiles beyond the single storage room at (37, 14).
   3. Interactive background elements: Metro timetable, ticket machines, or other civic fixtures.
-
-## Systematic Subterranean Inventory & Target Sectors (Sovio Sewers)
-- **Upper Landing (1F)**: Base of stairs at (37, 22), shallow puddle (32-35, 21-23), stairs down at (34, 24). Traversed.
-- **Lower Walkway (rows 27-28)**: Traversed between column 8 and 39.
-- **Eastern Storage Room at (37, 14)**: Verified 100% inert post-retreat ("Its a simple storage room...").
-- **Southern Canal (rows 32-36)**: Traversed; Poison Barb retrieved at (22, 36).
-- **Elevated Gangway (row 5)**: Traversed; TM48 retrieved at (27, 5).
-- **Southwest Corridor (cols 7-8)**: Impassable without Rock Smash.
-- **Dark Sector / Basement at (30, 4)**: Explored Turn 13205-13254. Found Rugged Rock at (22, 10), warp mat at (14-15, 9) leading to Deep Subterranean Sector at (2, 38), and retrieved Machop's Lost Toy at (2, 37). Note: Western hallway along row 8 (columns 13-15) remains uninspected.
