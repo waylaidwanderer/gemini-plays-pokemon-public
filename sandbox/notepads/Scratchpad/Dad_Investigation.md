@@ -1,24 +1,23 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Hypotheses (Turn 13591)
-- **Core Progression Blocker**: The Metro turnstile check requires finding Jackson ("I should find dad first!"). Route 2 gate displays "I can't go yet... I have things to do!".
-- **Settled / Audited Locations**:
-  - Machop's Toy quest: Completed Turn 13331 (rewarded Black Belt).
-  - Lancio Town: 100% audited; Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked (Turns 11767, 13506), harbor boat empty/discontinued.
-  - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
+## Core Blockers & Status
+- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!".
+- **Route 2 Gate**: Stepping onto (52, 19) triggers "I can't go yet... I have things to do!".
+- **Jackson Status**: Captured by Team Siara in sewers (Turn 1666-1707 cutscene). Jackson has remained missing, which is why turnstiles and Route 2 remain locked.
 
-## Settled Hypotheses (Sovio City Surface Audited)
-- Surface audits (plaza confrontation tiles 43-44, 13-15, timetable 22, 24, Central Park pond walkway 43-45, 23-26, and HuPhone storage) confirmed 100% inert / ambient (Turns 13717-13797).
-- Route 2 Gate (Verified Turn 13947): Stepping onto (52, 19) strictly triggers "I can't go yet... I have things to do!". Eastern exit is 100% blocked until story progression.
+## Verified / Settled Locations
+- **Lancio Town**: Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
+- **Route 1**: All trainers defeated; cottage boy gives Max Repel; open hedge passage connects column 30 to Northwest Clearing.
+- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), timetable (22, 24), and Central Park pond walkway (43-45, 23-26) return baseline ambient interactions.
+- **Sovio Buildings Audited This Cycle**:
+  - SC1 (Pokémon Center 44, 12): Camper at (5, 7) Weedle text; Boy at (9, 6) PC text.
+  - SC2 (North-Central House 39, 7): Elderly man repeats Wii text.
+- **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
 
-## Settled Hypotheses (Sovio City Audits Complete)
-- Target SC1 (Pokémon Center 44, 12): Audited Turns 13959-13971. Camper at (5, 7) repeats Weedle text; Boy at (9, 6) repeats PC text. Baseline ambient.
-- Target SC2 (North-Central House 39, 7): Audited Turn 13984. Elderly man repeats Wii text ('I bought my son a Wii...'). Baseline ambient.
-- Civilian residences (SC3-SC5) confirmed unrelated to Jackson's disappearance.
-- Route 2 Gate: Verified Turn 13947 strictly triggers "I can't go yet... I have things to do!".
-- Metro Turnstile: Verified strictly triggers "I should find dad first!".
-- Jackson Status: Captured by Team Siara in sewers (Turn 1666-1707 cutscene). The prior summary claim that Jackson was freed on Turn 2279 was an unverified hallucination; Jackson has remained missing, which is why turnstiles and Route 2 remain locked.
-
-## Active Hypotheses: Subterranean Investigation in Sovio Sewers
-- **Hypothesis S2 (Dark Sector / Basement Audit)**: Reached via column 30 causeway -> Northeast Wooden Staircase at (30, 4). Conduct thorough inspection of Dark Sector corridor (rows 9-10, cols 15-30), upper treasure alcove (23, 4), and perimeter walls for Jackson or Team Siara triggers.
-- **Hypothesis S3 (Deep Subterranean Sector Audit)**: Reached via red capsule mat at (14-15, 9) in Dark Sector to chamber at (2, 38). Thoroughly probe all perimeter tiles and walls for hidden passages or Jackson.
+## Unverified Leads & Active Hypotheses
+- **Hypothesis S3 (Deep Subterranean Sector)**: Chamber reached via red capsule mat at (14-15, 9) in Dark Sector to (2, 38). Machop's toy was found here; audit perimeter walls and examine if any triggers/passages exist.
+- **Hypothesis U1 (Unvisited Residences in Current Cycle)**:
+  - SC3 (Terrace House 49, 14 above Metro Station)
+  - SC4 (Gumball House 29, 14)
+  - SC5 (Machop Family House 14, 15)
+- **Hypothesis M1 (Metro Station Attendant / Platform)**: Can the station attendant or vending machine be spoken to, or is there an NPC in the lobby we missed?

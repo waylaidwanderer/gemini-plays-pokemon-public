@@ -654,21 +654,26 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Hypotheses (Turn 13591)
-- **Core Progression Blocker**: The Metro turnstile check requires finding Jackson ("I should find dad first!"). Route 2 gate displays "I can't go yet... I have things to do!".
-- **Settled / Audited Locations**:
-  - Machop's Toy quest: Completed Turn 13331 (rewarded Black Belt).
-  - Sovio Sewers (RE-EVALUATION NEEDED): Grunts retreated, storage room at (37, 14) displayed 'Its a simple storage room...'. However, narrative cutscenes placed Jackson captive underground, not on the surface. We must re-examine the sewers for missed mechanisms, alternative chambers, or progression triggers.
-  - Lancio Town: 100% audited; Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked (Turns 11767, 13506), harbor boat empty/discontinued.
-  - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
+## Core Blockers & Status
+- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!".
+- **Route 2 Gate**: Stepping onto (52, 19) triggers "I can't go yet... I have things to do!".
+- **Jackson Status**: Captured by Team Siara in sewers (Turn 1666-1707 cutscene). Jackson has remained missing, which is why turnstiles and Route 2 remain locked.
 
-## Settled Hypotheses (Sovio City Surface Audited)
-- Surface audits (plaza confrontation tiles 43-44, 13-15, timetable 22, 24, Central Park pond walkway 43-45, 23-26, and HuPhone storage) confirmed 100% inert / ambient (Turns 13717-13797).
+## Verified / Settled Locations
+- **Lancio Town**: Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
+- **Route 1**: All trainers defeated; cottage boy gives Max Repel; open hedge passage connects column 30 to Northwest Clearing.
+- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), timetable (22, 24), and Central Park pond walkway (43-45, 23-26) return baseline ambient interactions.
+- **Sovio Buildings Audited This Cycle**:
+  - SC1 (Pokémon Center 44, 12): Camper at (5, 7) Weedle text; Boy at (9, 6) PC text.
+  - SC2 (North-Central House 39, 7): Elderly man repeats Wii text.
+- **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
 
-## Active Hypotheses for Sovio Sewers
-- **Hypothesis S1 (Post-Quest Storage Room Inspection)**: Tested Turn 13886-13887 post-Machop's Toy completion. Interacting at (37, 14) still displays "Its a simple storage room...", and stepping Down does not warp. Unchanged.
-- **Hypothesis S2 (Dark Sector Rugged Rock & Chamber Sweep)**: Test rugged rock at (22, 10) in the Dark Sector with current party/bag state. Probe Dark Sector perimeter and upper alcove for alternative switches or triggers.
-- **Hypothesis S3 (Deep Subterranean Sector Exhaustive Probe)**: Re-visit subterranean room at (2, 38) where Lost Toy was found. Probe perimeter walls and arch for hidden passages.
-- **Hypothesis S4 (Southwest Corridor Rock Obstacle Check)**: Inspect cracked rocks at (10, 17) and (9, 18) blocking columns 7-8 to verify interaction prompt.
+## Unverified Leads & Active Hypotheses
+- **Hypothesis S3 (Deep Subterranean Sector)**: Chamber reached via red capsule mat at (14-15, 9) in Dark Sector to (2, 38). Machop's toy was found here; audit perimeter walls and examine if any triggers/passages exist.
+- **Hypothesis U1 (Unvisited Residences in Current Cycle)**:
+  - SC3 (Terrace House 49, 14 above Metro Station)
+  - SC4 (Gumball House 29, 14)
+  - SC5 (Machop Family House 14, 15)
+- **Hypothesis M1 (Metro Station Attendant / Platform)**: Can the station attendant or vending machine be spoken to, or is there an NPC in the lobby we missed?
 
 <hr>
