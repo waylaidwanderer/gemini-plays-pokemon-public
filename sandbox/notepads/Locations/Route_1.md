@@ -80,3 +80,5 @@
   11. Walk East along row 10 meadow past (38, 10) to (45, 10).
   12. Bypass pine tree (46, 10) via row 11 east past Signboard 4 (50, 10) onto Eastern Highway at (52, 11).
   13. Walk North along Eastern Highway (col 52-53) straight to (53, 0) to transition into Sovio City!
+
+- **Sand Highway Column 35 Bounds (Verified Turn 12970)**: Column 35 is blocked south at row 31 by pine tree border. Traversal south along Sand Highway must follow columns 36-37.
