@@ -557,7 +557,7 @@
 
 - **Interior 1F**: Entrance mat at (5, 36).
 
-  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Verified 100% ambient flavor text across multi-turn tests (Turns 8810-8819).
+  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Re-verified 100% ambient debate dialogue post-quest (Turns 14467-14470); trainer prefers karate, girlfriend prefers kickboxing.
 
   - Family Machop at (6-7, 33-35); permanently displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...' regardless of quest status (verified post-quest Turn 14148; separate from Old Man's terrace Machop).
 
@@ -591,7 +591,6 @@
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
   - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). The vertical bridge crossing south across the chasm is located at column 23 (rows 6-12; visually verified Turn 14031).
-  - Shallow Puddle & TM48 (Northern Corridor East): Walkable puddle at (26-27, 5); TM48 (Work Up - Normal, Status, PP 20; raises Attack and Sp. Atk) collected at (27, 5) on Turn 2243 (verified Turn 2270).
   - Southwest Corridor & Obstruction (Verified Turns 2380-2386, 6138-6141): Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 17) and (9, 18) by two diagonal cracked rocks between the row 16 brick wall and row 19 void chasm (verified Turn 6140). Both approaches impassable without HM Rock Smash.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters (wild Koffing verified on tile 15, 8 on Turn 7788).
@@ -648,10 +647,7 @@
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
-- **Lancio Town**: Professor Ivo static ambient dialogue ("Hey, Ashi, how's your new Pokémon?"), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
-- **Route 1**: All trainers defeated; roadside cottage boy gifts Max Repel; open hedge passage connected; tall grass wild encounters catalogued.
-- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), Central Park pond walkway, and south sidewalk return baseline ambient interactions.
-- **Sovio Domestic Interiors (SC1-SC5, Name Rater)**: All 6 residences fully audited and verified 100% ambient/settled (detailed records in Locations/Sovio_City.md).
+- **External Settlements & Residences**: Lancio Town, Route 1, Sovio surface quadrants, and all 6 domestic residences remain settled (detailed records in Locations/*.md).
 - **Sovio Metro Lobby**:
   - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
   - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
@@ -661,10 +657,15 @@
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
-## Active Hypotheses & Primary Focus
-- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Unexhausted Frontier)**:
+## Active Hypotheses & Strategic Focus
+- **Hypothesis SO1 (Systematic Audit of Unexamined Regional Systems & Surface Connections)**:
+  - **Context**: The sewers are completely cleared (Marie radio retreat) and domestic residences are settled. The progression gate ("I should find dad first!" at Metro turnstile and "I can't go yet..." at Route 2 gate) requires finding Jackson or triggering the regional event that advances the story.
+  - **Plan**: Conclude outdoor town NPC audit (Bikers, Karate house), audit player Bag Key Items / regional items, and re-examine the physical boundaries of Sovio City, Route 1, and Lancio Town for any triggered event.
+
+## Archived Hypotheses (Exhausted)
+- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
+  - Status: Concluded Turn 14428. Continuous loop traversed (Lower walkway -> Western stairs -> Upper terrace -> Wall ladder -> Northern Gangway -> Bridge -> Row 13 -> Dark Sector). Zero NPCs, cutscenes, or progression triggers encountered along this loop. 100% settled.
   - **Context**: Surface and global systems (PC, Bag, residences, timetable) are verified 100% ambient/settled. The sole storyline thread tied to Jackson and Team Siara is the Sovio Sewers. We are executing a continuous, methodical mapping of all sewer sectors without aborting mid-transit.
-  - **Sector 1 Traversal (Verified Turns 14321-14337)**:
   - **Sector 2 Traversal (Verified Turns 14338-14341)**:
     - Row 5 east of column 23 verified: shallow puddle at (26-27, 5) terminates east at (27, 5) into impassable void chasm at column 28. Confirmed dead-end; does NOT connect directly to wooden staircase platform.
   - Vertical Bridge at column 23 (rows 6-12) traversed south from (23, 5) to (23, 13) (Verified Turn 14350). Confirmed complete connection from Northern Gangway (row 5) south across chasm to row 13 gangway.
