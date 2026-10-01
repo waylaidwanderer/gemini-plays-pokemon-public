@@ -46,7 +46,7 @@
 
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
 
-- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case.
+- **Key Items Pocket (Audited Turn 14475)**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
 
 - **Items Pocket (Audited Turns 13369, 14474)**: Potion x 1, Poison Barb x 1, Nugget x 1.
 
