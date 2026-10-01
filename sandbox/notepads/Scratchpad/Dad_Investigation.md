@@ -6,7 +6,7 @@
   - Machop's Toy quest: Completed Turn 13331 (rewarded Black Belt).
   - Sovio Sewers: 100% audited; grunts retreated, storage room inert at (37, 14), rugged rock at (22, 10) requires specialized equipment.
   - Lancio Town: 100% audited; Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked (Turns 11767, 13506), harbor boat empty/discontinued.
-  - Route 1 Cottage Yard: Dead-end basin for northbound travel; row 20 ledge (39-41, 20) is strictly south-facing drop, west alcove (32, 25) blocked.
+  - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
 
 ## Active Focus & Specific Hypotheses for Sovio City
 - Returning to Sovio City via Route 1 to investigate Jackson's location:

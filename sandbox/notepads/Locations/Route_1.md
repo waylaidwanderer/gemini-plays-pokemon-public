@@ -50,7 +50,8 @@
   - Duke Meadow & Connector: Walkable perimeter around Duke at (45, 12) includes open grass tiles at (44, 12-13) and row 13 grass tiles at (45-47, 13). Tile (48, 13) is a solid pine tree trunk (verified Turn 11660). Pine tree trunks line row 14 at (44-48, 14). Row 12 is a walkable corridor connecting Duke's meadow at (44-47, 12) east beneath the canopies directly into the Eastern Highway at columns 52-53 (traversed Turn 11480; (47, 12) verified Turn 11613; (48, 12) verified Turn 11679).
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
-  - Cottage West Alcove (Audited Turns 10760-10768): Heading west from the Cottage along rows 25-26 reaches (32, 25). Stepping North from (32, 25) into (32, 24) is blocked by a hedge. Stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk.
+  - Cottage West Corridor & Column 30 Hedge Opening (Verified Turns 13643-13645): From the Cottage yard along row 26, the corridor runs west past columns 34-31 to column 30. At column 30, an open hedge gap across rows 22-25 connects directly north into the Northwest Clearing (Youngster Mike at 29, 20)!
+  - Cottage West Alcove: Stepping North from (32, 25) into (32, 24) is blocked by a hedge; stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
   - Dirt corridor along row 44 connects column 5 cobblestone road east past Signboard 2 (19, 42) through (22-24, 44) to column 26 hedge gap (verified Turn 10916-10918), ending east at alcove (27, 44) which is blocked east and south by solid pine trees.
