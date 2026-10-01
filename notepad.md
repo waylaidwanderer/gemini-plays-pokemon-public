@@ -662,7 +662,7 @@
   - Lancio Town: 100% audited; Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked (Turns 11767, 13506), harbor boat empty/discontinued.
   - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
 
-## Active Focus & Specific Hypotheses for Sovio City
+## Settled Hypotheses (Sovio City Surface Audited)
 - **Hypothesis 1 (Plaza Confrontation Ground Sweep)**: COMPLETED Turn 13717. Traversed (43-44, 13-15) outside Pok�mon Center; confirmed 100% inert with zero hidden items, dropped passes, or cutscene triggers.
 - **Hypothesis 2 (Metro Timetable Detailed Inspection)**: COMPLETED Turn 13725-13726. Tested facing Up from center at (22, 24); confirmed ambient flavor ("It's a timetable showing various destinations!").
 - **Hypothesis 3 (Central Park Pond Perimeter & Secluded Areas)**: COMPLETED Turn 13797. Audited pond perimeter and eastern walkway (43-45, 23-26); confirmed ambient blonde pedestrian and zero story triggers.
