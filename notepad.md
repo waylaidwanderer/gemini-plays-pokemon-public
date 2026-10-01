@@ -374,7 +374,7 @@
 - **Quest Log Scope & Structure**:
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
-  - 'Quest Status': Displays status for active quests without detailed objective hints.
+  - 'Quest Status' (Empirically Verified Turns 12670-12672): Displays fixed system tutorial text across 3 textboxes: 'You are already doing a Quest. / If you want to start another one, cancel the current Quest. / You can cancel a quest at by talking to [the provider]'. It does NOT display quest titles, descriptions, coordinates, or objective hints. All quest details must be obtained from NPC dialogue.
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
@@ -460,7 +460,7 @@
 
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) resides on terrace outside (verified Turn 12143).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) resides on terrace outside with Machop (51, 16); quest giver for 'Machop's Toy'. Dialogue reveals Machop became aggressive after losing his favorite toy in the Sovio Sewers.
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
@@ -637,43 +637,46 @@
 - **Western Alcove & Mat (Verified Turns 4549, 7316-7317)**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
 
 
+
 <hr>
 
 <h1><code>Scratchpad/Dad_Investigation</code></h1>
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 12481)
+## Investigation Status & Active Hypotheses (Updated Turn 12810)
 - **Verified Game State**:
-  - Metro Turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
+  - Metro Turnstile at (19, 21): Re-tested Turn 12777 (post-quest-cancellation & threshold sweep); strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
-  - Active Quest: NONE (verified free for new side quests or event triggers).
+  - Active Quest: None (Machop's Toy officially cancelled on Turn 12771 with Old Man at 51, 15; quest slot free).
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Falsified Hypotheses (Condensed)
-- **Hypothesis A (Karate House & Machop's Toy)**: Falsified Turn 12132. Residents and 2F audited 100% ambient flavor; cancelling quest cleared slot with no progression impact.
+- **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Traversed (45, 14) -> (45, 19) -> (49, 19) -> (49, 18) -> (48, 18); confirmed zero automated script triggers or cutscenes outside Metro portal.
+- **Hypothesis I (Pre-Turnstile Metro Lobby NPCs/Trigger)**: Tested Turn 12775-12777. Lobby contains zero NPCs (Dad and Valora absent); turnstile at (19, 21) strictly blocks passage with 'I should find dad first!'.
+- **Cognitive Correction on Jackson Status**: Context summary statements claiming Asher reunited with Jackson and Valora on Turn 2279-2716 are confirmed context summarization hallucinations. Verifiable ground truth: Jackson was held by grunts (Turn 1666), sewer storage room at (37, 14) is empty, and Jackson has NOT been found. Finding Jackson remains the active primary blocker.
+- **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
-- **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
-- **Hypothesis D (Northwest Clearing Rows 14-22)**: Traversed & Connected. Clearing extends east along row 10/13 connecting seamlessly to Bug Catcher Duke and the Eastern Highway (resolved via Hypothesis G).
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
+- **Hypothesis G (Route 1 Two-Way Connection)**: Verified Turn 12564. Confirmed two-way foot route between Lancio Town and Sovio City via row 10 meadow and Eastern Highway; documented in Locations/Route_1.md.
+- **Sub-Hypothesis 1 (Machop's Toy Ground Search in Sewers)**: CLOSED Turn 12724. Tested northern and western corridors (Western Terrace 14, 12; Northern Gangway 15-27, 5; puddles at 33-35, 22; 36-38, 27-28; 28, 19; 14-15, 11; 26-27, 5) with zero visible item balls or prompts found. Quest strategically deprioritized to refocus on primary story progression and locating Jackson on the surface.
 
-## Active Investigation: Hypothesis G (Northwest Clearing Eastern Connector & Route 1 Reconnection - FULLY VERIFIED Turn 12564)
-- **Verified Route 1 Two-Way Traverse**:
-  - Confirmed: From Northwest Clearing (29, 13), bypass pine canopy at (34, 13) via row 10 meadow, connect east past Duke to Eastern Highway (52, 12), and walk north to (53, 0) into Sovio City at (14, 39).
-  - Complete two-way foot traversal between Lancio Town and Sovio City without jumping any one-way ledges is 100% physically verified. Hypothesis G resolved and closed.
+## Active Investigation: Jackson's Whereabouts & Sovio City Surface Facilities
 
-## Next Investigation Target: Jackson's Whereabouts in Sovio City
-- **Core Mystery**: Metro Turnstile at (19, 21) continues to trigger: "I should find dad first!".
-- **Key Questions**:
-  1. Turnstile state verified Turn 12584: 'I should find dad first!' remains strictly active.
-  2. Did Marie's retreat leave any clue in the Sewers or Metro lobby?
-  3. Are there any overlooked interactive elements or NPCs in Sovio City?
-- **Verified In-Game Fact (Turn 12584)**:
-  - Stepped onto Metro Station turnstile at (19, 21): Triggers verbatim textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Turnstile barrier confirmed 100% active.
-- **Empirical Storage Room Fact (Audit Review)**:
-  - Tile (37, 14) displays verbatim 'Its a simple storage room...' with south void collision. Zero in-game text indicates a lock, keyhole, or character voice; narrative inference of captivity here is unverified.
+### Hypothesis J: Uninspected Sovio City Public Facilities & NPC States
+- **Status**: ACTIVE.
+- **Rationale**: Subterranean loops are exhausted (storage room 37, 14 inert, grunts vacated). Jackson disappeared onto the surface after the tremor (Turn 1437). Systematic check of civic/commercial facilities in Sovio City in the post-retreat state.
+- **Target 1: Sovio City Pok�mon Center (Audited 100% Complete Turns 12788-12821)**
+  - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
+  - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
+  - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pok�mon Center's service!").
+  - Mezzanine Pok�Mart: Standard shop previously audited Turn 9696 (Pok� Ball, Potion, Antidote, Paralyz Heal, Repel).
+  - Conclusion: Target 1 100% complete. Zero Dad presence or updated clues in Pok�mon Center.
+- **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
+  - Check non-enterable building facades and Central Park pond perimeter for post-sewer updates.
+
 
 <hr>
