@@ -658,7 +658,7 @@
 - **Core Progression Blocker**: The Metro turnstile check requires finding Jackson ("I should find dad first!"). Route 2 gate displays "I can't go yet... I have things to do!".
 - **Settled / Audited Locations**:
   - Machop's Toy quest: Completed Turn 13331 (rewarded Black Belt).
-  - Sovio Sewers: 100% audited; grunts retreated, storage room inert at (37, 14), rugged rock at (22, 10) requires specialized equipment.
+  - Sovio Sewers (RE-EVALUATION NEEDED): Grunts retreated, storage room at (37, 14) displayed 'Its a simple storage room...'. However, narrative cutscenes placed Jackson captive underground, not on the surface. We must re-examine the sewers for missed mechanisms, alternative chambers, or progression triggers.
   - Lancio Town: 100% audited; Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked (Turns 11767, 13506), harbor boat empty/discontinued.
   - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
 
@@ -667,6 +667,5 @@
 - **Hypothesis 2 (Metro Timetable Detailed Inspection)**: COMPLETED Turn 13725-13726. Tested facing Up from center at (22, 24); confirmed ambient flavor ("It's a timetable showing various destinations!").
 - **Hypothesis 3 (Central Park Pond Perimeter & Secluded Areas)**: Investigate park paths around (32-42, 20-30) south of the plaza for any NPCs or dropped items.
 - **Hypothesis 4 (Inventory & Key Item Inspection)**: HuPhone Mailbox audited Turn 13734 ('There's no Mail here.'). Items and Key Items audited.
-
 
 <hr>
