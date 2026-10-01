@@ -447,7 +447,7 @@
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
-- **West Avenue Signpost & Trash Can (Verified Turns 9294-9296)**: Wooden signpost at (15, 18) and trash can at (14, 19) at the junction between West Avenue and Karate house.
+- **West Avenue Signpost & Trash Can (Verified Turns 9294-9296, 12938)**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pok�mon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) at the junction between West Avenue and Karate house.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall with no doors or warps. Eastern facade of the office building visually and physically confirmed solid across rows 12-20.
 - **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
@@ -475,7 +475,7 @@
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes.
   - **Upper Roof Perimeter & Collision (Audited Turns 11074-11080)**:
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
-    - Interior row 23: Stepping Down into row 23 from (48, 22), (49, 22), and (50, 22) confirmed solid collision (blocked).
+    - Interior row 23: Stepping Down into row 23 from (48, 22), (49, 22), (50, 22), and (51, 22) confirmed solid collision (blocked Turns 11074, 12926).
     - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
@@ -661,7 +661,6 @@
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
-- **Hypothesis G (Route 1 Two-Way Connection)**: Verified Turn 12564. Confirmed two-way foot route between Lancio Town and Sovio City via row 10 meadow and Eastern Highway; documented in Locations/Route_1.md.
 - **Sub-Hypothesis 1 (Machop's Toy Ground Search in Sewers)**: CLOSED Turn 12724. Tested northern and western corridors (Western Terrace 14, 12; Northern Gangway 15-27, 5; puddles at 33-35, 22; 36-38, 27-28; 28, 19; 14-15, 11; 26-27, 5) with zero visible item balls or prompts found. Quest strategically deprioritized to refocus on primary story progression and locating Jackson on the surface.
 
 ## Active Investigation: Jackson's Whereabouts & Sovio City Surface Facilities
@@ -678,10 +677,11 @@
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
 ## Hypothesis K: Eastern Flank & Two-Story Building Lower Story (Columns 51-52, Rows 22-30)
-- **Status**: ACTIVE.
-- **Rationale**: Prior audit (Turns 11074-11080) confirmed rows 20-22 are walkable beneath the two-story building roof, connecting eastward to (51, 22) and (52, 22). While eastward traversal from column 52 triggers the Route 2 story barrier, southward traversal along columns 51-52 past row 22 was never tested. Row 30 street beneath the building is blocked from the west (Turn 9664), suggesting the eastern flank may provide access to the lower building facade (rows 28-29) and unexplored southern street.
-- **Empirical Result (Turn 12919-12920)**: Stepping onto (52, 22) and attempting Down triggered the Route 2 story barrier ('I can't go yet... I have things to do!'). Column 52 row 22 is an active story barrier trigger.
-- **Test Protocol**: Navigate to (47, 19), step Down into roof passage at (47, 20-22), walk East to (51-52, 22), and probe southward traversal along columns 51 and 52.
+- **Status**: FALSIFIED (Turns 12919-12927).
+- **Findings**:
+  - Traversal east onto column 52 at row 22 triggers the Route 2 story barrier ('I can't go yet... I have things to do!') which repels West to (51, 22).
+  - Southward traversal from (51, 22) into (51, 23) confirmed solid collision (blocked Turn 12926).
+  - Confirmed: Zero southern passage exists through or around the building from rows 20-22; the roof passage is a dead-end corridor connecting Central Plaza to the Route 2 gate.
 
 
 <hr>
