@@ -12,7 +12,7 @@
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
 - **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway (completed quest location; ambient advice).
-- **NPC 2 (Camper/Straw Hat)**: Located at (18, 43) facing south in front of Signboard 2 at (18, 42) (verified Turn 12513). Ambient advice.
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 43) facing south in front of Signboard 2 at (19, 42). Dialogue: "Haha! Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away." (Verified Turns 12513, 14586).
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
