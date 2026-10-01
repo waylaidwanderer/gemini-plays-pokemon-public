@@ -46,7 +46,7 @@
 
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
-- **Central Park Pond Feature (Audited Turn 15416-15417)**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; 'A' interaction facing South from (39, 16) is inert on foot.
+- **Central Park Pond Feature (Audited Turn 15416-15417)**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
 - **South Sidewalk & Children's Gathering (Audited Turns 13135-13138)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) verified 100% ambient flavor dialogue regarding Moon Stone evolution.
 
@@ -77,7 +77,8 @@
 
 - **West Wall**: Solid exterior wall forms the western boundary of the Pokémon Center at column 40.
 
-- **Interior Layout & Audit (Verified Turns 4024-4048)**:
+- **Interior Layout & Audit (Verified Turns 4024-4048, 15379-15389)**:
+  - Re-audited Turn 15379-15389: Nurse Joy greeting, Camper Weedle dialogue at (5, 7), and Boy PC dialogue at (9, 6) all confirmed static ambient post-sewers.
 
   - Exit mat at (7, 8).
 
