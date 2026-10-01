@@ -649,6 +649,6 @@
   4. **Hypothesis F (Route 1 Northwest Clearing Western Expanse - FALSIFIED Turn 12325)**:
      - *Empirical Audit*: Audited columns 24-28 across rows 14-22. Traversed to westernmost clearing edge at (24, 18) and (24, 15).
      - *Verified Collision*: Columns 0 to 23 are an impenetrable, continuous wall of solid pine trees across rows 14-22. Row 14 is solid pine trees/trunks. Youngster Mike at (29, 20) provides ambient defeat dialogue ('My Pokémon was completely destroyed by yours...').
-     - *Conclusion*: Zero secret western paths, exits, or NPCs exist. Northwest Clearing is a self-contained combat area with zero progression triggers. Hypothesis F is completely FALSIFIED.
+     - *Conclusion*: Zero secret western paths or exits exist. Western boundary confirmed at column 24. Currently verifying Lass Sonia's dialogue at (27, 15).
 
 <hr>
