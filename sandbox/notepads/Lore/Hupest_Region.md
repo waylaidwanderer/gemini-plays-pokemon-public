@@ -22,6 +22,8 @@
 - **Amor City**: Capital city of the Hupest Region.
 - **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
 - **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
+- **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City (verified Turn 14113 via World Map).
+- **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City (verified Turn 14113 via World Map).
 
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
