@@ -36,3 +36,12 @@
 ## Southern Avenue & Transition to Route 1 (Turns 12940-12946)
 - Traversed Southern Avenue along columns 14-15 from West Avenue past Three Bikers (13, 21-23), through the dark brick archway at rows 28-29, and down to row 39. Confirmed zero NPCs, doors, or items along the avenue.
 - Sovio City Sectors Audited: Central Plaza, Northern Row, West Avenue, Two-Story Building roof passage, Southern Avenue, South Sidewalk (rows 27-28, Name Rater house 31, 26, children's gathering 33-35, 28), and Central Park interior. 100% of all public surface sectors and buildings verified.
+
+## Structured Analysis of the 'Find Dad' Progression Flag (Turn 13060)
+- **Primary Blocker Re-verified**: Stepping onto turnstile at (19, 21) strictly displays "I should find dad first!" and repels south to (19, 22).
+- **Surface Audit 100% Complete**: All 7 surface sectors of Sovio City, 100% of Route 1, and 100% of Lancio Town have been physically audited in the post-retreat state. Jackson is not present as a surface overworld NPC.
+- **Subterranean Target (Sovio Sewers)**: Since surface spaces are exhausted, Jackson's rescue event or flag is tied to the subterranean space where the tremor originated and where Jackson was held captive.
+- **Investigation Plan**:
+  1. Descend into Sovio Sewers via Metro lobby red mat (18-19, 25).
+  2. Navigate directly to the Eastern Storage Room at (37, 14) along row 13 gangway.
+  3. Systematically test all interaction vectors and perimeter tiles around the storage room platform (36-38, 14) to verify how the door or event triggers.
