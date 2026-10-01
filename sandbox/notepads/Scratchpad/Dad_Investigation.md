@@ -17,15 +17,21 @@
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room In-Depth Probe)**:
-  - **Rationale**: Both the Metro turnstile ('I should find dad first!') and Route 2 gate ('I can't go yet...') require finding Jackson. The cutscene (Turn 1666) showed grunts holding Jackson in a sewer storage room. While Marie's retreat (Turn 2682) cleared corridor grunts, previous audits of the Eastern Storage Room at (37, 14) merely pressed 'A' facing South from (37, 14), receiving ambient text ('Its a simple storage room...'). We must verify whether (37, 14) itself is a doorway that can be stepped into, or if specific adjacent tiles/angles reveal interaction scripts.
-  - **Status**: Testing in progress. Re-entering sewer row 13 gangway to perform a comprehensive tile inspection around (36-38, 13-14).
+- **Hypothesis SC2 (Sovio City Unexamined Spaces & System Triggers)**:
+  - **Rationale**: Sovio Sewers are completely exhausted across all sectors (Machop's toy returned, Siara grunts retreated, storage room verified ambient). Metro turnstile blocker explicitly checks Jackson's rescue flag ('I should find dad first!'). We must exit the sewers to Sovio City and systematically audit unexamined spaces, structures, and interaction mechanics.
+  - **Primary Targets**:
+    1. Two-Story Commercial/Residential Building (columns 47-51, rows 20-29) south of Central Plaza. Verify whether any entrance exists or if lower story wooden siding has interaction triggers.
+    2. Review HuPhone Quest Log pages 2-5 for potential side-quest dependencies or flags.
+    3. Re-audit key Sovio City locations and dialogue triggers with fresh eyes.
+  - **Status**: Formulated. Currently exiting Sovio Sewers to commence investigation in Sovio City.
 
 ## Settled Hypotheses
 - **Hypothesis SC1 (Sovio City Exterior Perimeters - 100% AUDITED)**:
   - Status: Settled Turn 14727. Southern Avenue tree lines, southwest lawn (12, 30), southwest building perimeter, rear Biker lane (col 12, rows 20-30), western office facade (col 11, rows 16-20), Karate house corner (12, 15), Gumball/tan building gap (31, 13), northern alcove (39, 7), and elevated terrace (cols 50-52, rows 15-17) are 100% verified solid boundaries. No external event triggers exist.
 
 ## Archived Hypotheses (Exhausted / Evaluated)
+- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room - EXHAUSTED)**:
+  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149, 14829). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor. Grunts retreated Turn 2682; sewers contain zero remaining progression triggers.
 - **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - Cartographic Deduction)**:
   - Status: Evaluated Turn 14674/14731. World Map shows Lancio Town as a coastal terminus connecting exclusively northeast to Route 1. Traversing east to Azluf Town is water-gated by regional topology and impossible on foot without Surf or water transport.
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - RECONCILED)**:
