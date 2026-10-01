@@ -12,7 +12,7 @@
 - Surface audits (plaza confrontation tiles 43-44, 13-15, timetable 22, 24, Central Park pond walkway 43-45, 23-26, and HuPhone storage) confirmed 100% inert / ambient (Turns 13717-13797).
 
 ## Active Hypotheses for Sovio Sewers
-- **Hypothesis S1 (Post-Quest Storage Room Inspection)**: Inspect the storage room at (37, 14) post-Machop's Toy completion. Prior audits (Turns 8637, 11149) were before quest resolution. Test whether the red mat at (37, 14) now warps or displays new dialogue.
+- **Hypothesis S1 (Post-Quest Storage Room Inspection)**: Tested Turn 13886-13887 post-Machop's Toy completion. Interacting at (37, 14) still displays "Its a simple storage room...", and stepping Down does not warp. Unchanged.
 - **Hypothesis S2 (Dark Sector Rugged Rock & Chamber Sweep)**: Test rugged rock at (22, 10) in the Dark Sector with current party/bag state. Probe Dark Sector perimeter and upper alcove for alternative switches or triggers.
 - **Hypothesis S3 (Deep Subterranean Sector Exhaustive Probe)**: Re-visit subterranean room at (2, 38) where Lost Toy was found. Probe perimeter walls and arch for hidden passages.
 - **Hypothesis S4 (Southwest Corridor Rock Obstacle Check)**: Inspect cracked rocks at (10, 17) and (9, 18) blocking columns 7-8 to verify interaction prompt.
