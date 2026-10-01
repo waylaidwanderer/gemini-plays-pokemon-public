@@ -32,5 +32,12 @@
     - Northern gangway along row 5 traversed east from (15, 5) through shallow puddle at (16-17, 5) to column 23 junction.
     - Row 5 east of column 23 verified: shallow puddle at (26-27, 5) terminates east at (27, 5) into impassable void chasm at column 28. Confirmed dead-end; does NOT connect directly to wooden staircase platform.
   - Vertical Bridge at column 23 (rows 6-12) traversed south from (23, 5) to (23, 13) (Verified Turn 14350). Confirmed complete connection from Northern Gangway (row 5) south across chasm to row 13 gangway.
-  - **Active Lead / Next Target**: Row 13 gangway east to Column 30 Causeway (rows 6-10) and Northeast Wooden Staircase (30, 4) into Dark Sector / Basement (Sector 3).
-  - **Falsification Criteria**: If full traversal of row 13, column 30 causeway, and the Dark Sector reveals no new trigger, NPC, or interaction, declare physical sewer map fully exhausted.
+  - **Sector 3 Traversal (Verified Turns 14356-14361)**:
+    - Column 30 causeway ascended from (30, 13) north to (30, 5).
+    - Northeast Wooden Staircase entered at (30, 4), arriving at (30, 9) in Dark Sector basement.
+    - Dark Sector corridor along rows 9-10 fully traversed west from (30, 9) to (16, 9) under Flash spotlight.
+    - Northern alcove at (23, 8) verified (Nugget already collected Turn 4576).
+    - Rugged rock at (22, 10) confirmed intact (equipment-gated).
+    - Western alcove at (14-16, 9-10) verified (warp to Deep Subterranean Sector 2, 38 where Machop's toy was retrieved).
+    - Confirmed 100% devoid of NPCs, items, or story triggers.
+  - **Result**: Falsification criteria met. The physical sewer map across all accessible sectors (Sector 1, Sector 2, Sector 3, Lower Canals, and Subterranean Sector) is 100% AUDITED AND EXHAUSTED. Jackson is not physically located within any accessible tile of the sewers.
