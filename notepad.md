@@ -363,6 +363,12 @@
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
+  - **Page 1 Quests (Audited Turn 14485)**:
+    1. Lost Pidgey (Completed)
+    2. Lost Toy (Completed)
+    3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
+    4. Medic! (Uncompleted)
+    5. Squirtle Gang (Uncompleted)
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
   - 'Quest Status' (Empirically Verified Turns 12670, 14095): When a quest is active, displays system tutorial text ('You are already doing a Quest...'). When no quest is active, displays 'You aren't doing any Quest at the moment!'. Does not display quest titles or objective hints; side quest details must be obtained from NPC dialogue.
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
@@ -429,7 +435,7 @@
 
 - **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), and trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Biker 1 at (13, 21) (""vroom" "vroom" Jealous kid? / We are the big guys here, the ultimate motorcycle gang!") re-verified ambient Turn 14459; Bikers 2 (13, 22) and 3 (13, 23) undergoing sequential re-audit.
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!").
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
 
