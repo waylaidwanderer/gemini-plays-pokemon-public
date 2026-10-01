@@ -48,7 +48,7 @@
 
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Zero keys, keycards, access badges, or event quest items held.
 
-- **Items Pocket**: Repel, Poison Barb, Nugget, Potions. Zero progression-related tools.
+- **Items Pocket (Verified Turn 13183)**: Potion x 1, Poison Barb x 1, Nugget x 1. (0 Repels held; zero progression tools).
 
 - **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
 
