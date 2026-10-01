@@ -16,31 +16,26 @@
 - **Hypothesis D (Northwest Clearing Rows 14-22)**: Traversed & Connected. Clearing extends east along row 10/13 connecting seamlessly to Bug Catcher Duke and the Eastern Highway (resolved via Hypothesis G).
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
+- **Hypothesis G (Route 1 Two-Way Connection)**: Verified Turn 12564. Confirmed two-way foot route between Lancio Town and Sovio City via row 10 meadow and Eastern Highway; documented in Locations/Route_1.md.
 
-## Active Investigation: Hypothesis G (Northwest Clearing Eastern Connector & Route 1 Reconnection - FULLY VERIFIED Turn 12564)
-- **Verified Route 1 Two-Way Traverse**:
-  - Confirmed: From Northwest Clearing (29, 13), bypass pine canopy at (34, 13) via row 10 meadow, connect east past Duke to Eastern Highway (52, 12), and walk north to (53, 0) into Sovio City at (14, 39).
-  - Complete two-way foot traversal between Lancio Town and Sovio City without jumping any one-way ledges is 100% physically verified. Hypothesis G resolved and closed.
 
-## Next Investigation Target: Jackson's Whereabouts in Sovio City
-- **Core Mystery**: Metro Turnstile at (19, 21) continues to trigger: "I should find dad first!".
-- **Key Questions**:
-  1. Turnstile state verified Turn 12584: 'I should find dad first!' remains strictly active.
-  2. Did Marie's retreat leave any clue in the Sewers or Metro lobby?
-  3. Are there any overlooked interactive elements or NPCs in Sovio City?
-- **Verified In-Game Fact (Turn 12584)**:
-  - Stepped onto Metro Station turnstile at (19, 21): Triggers verbatim textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Turnstile barrier confirmed 100% active.
-- **Empirical Storage Room Fact (Audit Review)**:
-  - Tile (37, 14) displays verbatim 'Its a simple storage room...' with south void collision. Zero in-game text indicates a lock, keyhole, or character voice; narrative inference of captivity here is unverified.
 
-## Active Investigation: Hypothesis H (Machop's Toy Quest -> Progression Unlock)
+## Active Investigation: Jackson's Whereabouts & Progression Unlocks
+
+### Sub-Hypothesis 1: Machop's Toy Quest -> Progression Unlock
 - **Status**: Quest Accepted on Turn 12622 from Old Man at (51, 15).
-- **Rationale**: 
-  - Machop is a Fighting-type Pokémon universally linked to strength/rock manipulation. 
-  - Sovio Sewers contains two major obstacles strictly requiring HM Rock Smash: Dark Sector (22, 10) and Southwest Corridor (10, 17).
-  - The Old Man's Machop lost its favorite toy in the accessible sectors of Sovio Sewers.
-  - Completing this quest is hypothesized to reward HM Rock Smash, a key, or an event trigger that unlocks deeper sewer access to locate Jackson.
+- **Rationale**: Machop is associated with physical strength/rock manipulation. Sovio Sewers contains two cracked rock obstacles requiring HM Rock Smash (Dark Sector 22, 10 and Southwest corridor 10, 17). The Old Man stated the toy was lost in the sewers.
 - **Immediate Plan**:
-  1. Inspect the Quest Log entry for Machop's Toy to obtain developer hints / exact sewer location.
-  2. Search the accessible upper/lower sewer walkways and shallow puddles to locate the toy.
-  3. Return the toy to the Old Man to receive the reward and test for story progression.
+  1. Inspect the Quest Log entry for Machop's Toy to obtain developer hints.
+  2. Search accessible sewer sectors (walkways, puddles) to locate the toy.
+  3. Return toy to Old Man to test reward.
+- **Explicit Falsification Criteria**:
+  - If the quest awards an ordinary item (e.g. consumable, berry, Poké Doll, minor cash) and does NOT grant HM Rock Smash, a key/keycard, or open a story event flag, Sub-Hypothesis 1 is IMMEDIATELY FALSIFIED and closed without further search.
+
+### Sub-Hypothesis 2: Sovio City Exterior Boundary Triggers
+- **Status**: Secondary priority if Sub-Hypothesis 1 is falsified.
+- **Rationale**: Jackson fled outside after the tremor (Turn 1437). Systematic perimeter check of exterior alleys and building boundaries.
+- **Verified Facts**:
+  - Metro Turnstile at (19, 21): strictly active ('I should find dad first!').
+  - Route 2 Exit at (52, 19-22): strictly active ('I can't go yet... I have things to do!').
+  - Sewers Storage Room at (37, 14): displays 'Its a simple storage room...' with south void collision. Zero evidence of a lock or voice.
