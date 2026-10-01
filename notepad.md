@@ -265,7 +265,7 @@
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
 - **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway (completed quest location; ambient advice).
-- **NPC 2 (Camper/Straw Hat)**: Located at (17, 44) facing south (verified Turn 11738). Ambient advice.
+- **NPC 2 (Camper/Straw Hat)**: Located at (18, 43) facing south in front of Signboard 2 at (18, 42) (verified Turn 12513). Ambient advice.
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass (verified Turn 5113).
 - **Wild Encounters**:
@@ -310,12 +310,30 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
-- **Northwest Clearing Layout & Connections (Audited Turns 12320-12538)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). Column 29 path runs north past Lass Sonia (27, 15) to row 13 and turns east through pink bird tracks along row 13 corridor directly toward Bug Catcher Duke (45, 12) and Eastern Highway (52, 12). Connected to south via column 30 corridor.
+- **Northwest Clearing Layout & Connections (Audited Turns 12320-12538)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). Column 29 path runs north past Lass Sonia (27, 15) to row 13 and turns east through pink bird tracks at (30, 13); tile (30, 12) confirmed solid pine tree collision (Turn 12538). Eastern traversal along row 13 is currently under active exploration. Connected to south via column 30 corridor.
 - **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
   - Southward Hop: Stepping South from (41, 19) hops over the one-way ledge at row 20 and lands on (41, 21) in the Cottage yard (verified Turn 11716).
 - **Hidden Hedge Passage (Verified Turns 11554-11568)**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
+- **Verified Obstacles (Turns 12484-12546)**: Tile (30, 12), (34, 13), and (46, 10) confirmed solid collision (pine tree canopies/trunks); eastward traversal bypasses via row 11. Northward bypass around (34, 13) runs through row 10 meadow corridor. Row 43 is an unbroken horizontal hedge barrier across columns 19-25. Hedge gap at (19, 45) connects row 44 to row 46.
+
+## Complete Route 1 Two-Way Foot Traversal (Verified Turn 12562)
+- **Southern to Northern Sector (Lancio Town to Sovio City)**:
+  1. From Lancio Town exit (0, 45), follow cobblestone path to (5, 45) and row 46 corridor east past Central Pine Tree (bypassed via row 48 at 10-11, 48).
+  2. At (19, 46), step North through hedge gap at (19, 45) to row 44.
+  3. Walk east along row 44 to column 26 hedge gap at (26, 44).
+  4. Step North through (26, 43-42) into Meadow Trail, follow bird-track trail through (27, 41-42) and around shrub via (29, 40-41) and (30-31, 39).
+  5. Step northeast onto Sand Highway at (32-35, 38).
+  6. Walk North along Sand Highway (col 35-36) past Science Guy (39, 36) to row 25.
+  7. Turn West along row 25 to column 30, and walk North up column 30 corridor.
+  8. Bypass pine canopy at (30, 20) via column 28 to enter Northwest Clearing at (29, 19).
+  9. Follow column 29 path north past Youngster Mike (29, 20) and Lass Sonia (27, 15) to row 13 at (29, 13).
+  10. Turn East on row 13 to (33, 13), step North into row 10 meadow corridor (33, 10).
+  11. Walk East along row 10 meadow past (38, 10) to (45, 10).
+  12. Bypass pine tree (46, 10) via row 11 east past Signboard 4 (50, 10) onto Eastern Highway at (52, 11).
+  13. Walk North along Eastern Highway (col 52-53) straight to (53, 0) to transition into Sovio City!
+
 
 <hr>
 
@@ -349,8 +367,8 @@
   3. **Quest Log**: Active objective tracker and completed quest list.
   4. **Back**: Closes HuPhone.
 - **Portable PC Interface (Item Storage app)**:
-  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel. Audited empty (Turn 12381).
-  - **Mailbox**: Portable PC mailbox. Audited empty (Turn 12388: "There's no Mail here.").
+  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel. 
+  - **Mailbox**: Portable PC mailbox. 
   - **Turn Off**: Exits portable PC interface.
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
@@ -649,5 +667,6 @@
 - **Active Plan**:
   - Traverse row 10 east past Bug Catcher Duke (45, 12) to Signpost 4 (50, 10) and the Eastern Highway (52, 12).
   - Head north on the Eastern Highway into Sovio City at (53, 0).
+- Status: Reached Eastern Highway at (52, 11) on Turn 12562; entering Sovio City.
 
 <hr>
