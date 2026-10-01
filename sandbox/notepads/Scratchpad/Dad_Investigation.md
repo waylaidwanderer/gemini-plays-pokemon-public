@@ -1,6 +1,6 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 12724)
+## Investigation Status & Active Hypotheses (Updated Turn 12810)
 - **Verified Game State**:
   - Metro Turnstile at (19, 21): Re-tested Turn 12777 (post-quest-cancellation & threshold sweep); strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
@@ -15,7 +15,6 @@
 - **Cognitive Correction on Jackson Status**: Context summary statements claiming Asher reunited with Jackson and Valora on Turn 2279-2716 are confirmed context summarization hallucinations. Verifiable ground truth: Jackson was held by grunts (Turn 1666), sewer storage room at (37, 14) is empty, and Jackson has NOT been found. Finding Jackson remains the active primary blocker.
 - **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
-- **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 - **Hypothesis G (Route 1 Two-Way Connection)**: Verified Turn 12564. Confirmed two-way foot route between Lancio Town and Sovio City via row 10 meadow and Eastern Highway; documented in Locations/Route_1.md.
@@ -27,7 +26,10 @@
 - **Status**: ACTIVE.
 - **Rationale**: Subterranean loops are exhausted (storage room 37, 14 inert, grunts vacated). Jackson disappeared onto the surface after the tremor (Turn 1437). Systematic check of civic/commercial facilities in Sovio City in the post-retreat state.
 - **Target 1: Sovio City Pokémon Center & Mezzanine PokéMart**
-  - Nurse Joy counter, Camper (5, 7), Boy (8-9, 4-6), PC terminal (12, 1), Mezzanine clerk (5, 3).
+  - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
+  - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
+  - Straw-hat Camper (5, 7): In progress.
+  - Mezzanine PokéMart clerk (5, 3): Pending upstairs audit.
   - Protocol: Speak to all occupants to verify if dialogue updated or new clues are provided.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - Check non-enterable building facades and Central Park pond perimeter for post-sewer updates.
