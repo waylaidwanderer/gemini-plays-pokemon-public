@@ -36,4 +36,5 @@
 ## Hypothesis K: Eastern Flank & Two-Story Building Lower Story (Columns 51-52, Rows 22-30)
 - **Status**: ACTIVE.
 - **Rationale**: Prior audit (Turns 11074-11080) confirmed rows 20-22 are walkable beneath the two-story building roof, connecting eastward to (51, 22) and (52, 22). While eastward traversal from column 52 triggers the Route 2 story barrier, southward traversal along columns 51-52 past row 22 was never tested. Row 30 street beneath the building is blocked from the west (Turn 9664), suggesting the eastern flank may provide access to the lower building facade (rows 28-29) and unexplored southern street.
+- **Empirical Result (Turn 12919-12920)**: Stepping onto (52, 22) and attempting Down triggered the Route 2 story barrier ('I can't go yet... I have things to do!'). Column 52 row 22 is an active story barrier trigger.
 - **Test Protocol**: Navigate to (47, 19), step Down into roof passage at (47, 20-22), walk East to (51-52, 22), and probe southward traversal along columns 51 and 52.
