@@ -456,7 +456,7 @@
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes.
   - **Upper Roof Perimeter & Collision (Audited Turns 11074-11080)**:
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
-    - Interior row 23: Stepping Down into row 23 from (48, 22) and (50, 22) confirmed solid collision (blocked).
+    - Interior row 23: Stepping Down into row 23 from (48, 22), (49, 22), and (50, 22) confirmed solid collision (blocked).
     - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
