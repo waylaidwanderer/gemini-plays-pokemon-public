@@ -375,7 +375,7 @@
 
 - **Poké Balls Pocket (Verified Turn 9743)**: Contains 10 Poké Balls (purchased at Sovio PokéMart Mezzanine) and 1 Timer Ball (11 catching balls total).
 
-- **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
+- **TMs & HMs Pocket (Audited Turn 14477 via TM Case)**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
 
 - **Key Items Pocket (Audited Turn 14475)**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
 
