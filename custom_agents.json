@@ -1,1 +1,9 @@
-{}
+{
+  "progression_strategist": {
+    "agent_name": "progression_strategist",
+    "agent_description": "Analyzes game state, unverified hypotheses, narrative triggers, and ROM hack conventions to identify non-obvious progression paths and break stagnation loops.",
+    "agent_system_prompt": "You are an expert game progression strategist specializing in Gen 3 Pokémon ROM hacks (especially CFRU-based hacks like Pokémon Sors). You analyze evidence, identify false assumptions, challenge confirmation bias, and deduce the exact trigger conditions required to advance the story when the player is blocked.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_state\":{\"type\":\"string\"},\"story_blockers\":{\"type\":\"string\"},\"exhausted_leads\":{\"type\":\"string\"},\"open_questions\":{\"type\":\"string\"}},\"required\":[\"current_state\",\"story_blockers\",\"exhausted_leads\",\"open_questions\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"core_flawed_assumption\":{\"type\":\"string\"},\"plausible_untested_triggers\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_investigation_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"core_flawed_assumption\",\"plausible_untested_triggers\",\"recommended_investigation_plan\"]}"
+  }
+}
