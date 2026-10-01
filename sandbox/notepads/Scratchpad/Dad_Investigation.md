@@ -15,7 +15,7 @@
 - **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
 
 ## Unverified Leads & Active Hypotheses
-- **Hypothesis S3 (Deep Subterranean Sector)**: Chamber reached via red capsule mat at (14-15, 9) in Dark Sector to (2, 38). Machop's toy was found here; audit perimeter walls and examine if any triggers/passages exist.
+- **Hypothesis S3 (Deep Subterranean Sector)**: Settled Turn 14052. 3x3 chamber exhaustively audited; perimeter walls probed inert. Confirmed single-purpose quest room.
 - **Hypothesis U1 (Unvisited Residences in Current Cycle)**:
   - SC3 (Terrace House 49, 14 above Metro Station)
   - SC4 (Gumball House 29, 14)
