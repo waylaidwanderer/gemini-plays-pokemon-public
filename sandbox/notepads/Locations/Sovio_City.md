@@ -51,7 +51,7 @@
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 
-- **Central Park South Border (Verified Turn 9664)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30) completely enclosed by dense pine forest/hedges to the south (row 31), west (col 41), and east (col 43). Row 30 street beneath the two-story building is physically unreachable from the west.
+- **Central Park South Border & East Walkway (Verified Turns 9664, 13763-13783)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30). Columns 44-45 form a paved walkway connecting row 19 south to row 26, terminated at row 27 by a stone curb and dense bushes with a decorative sewer manhole at (42, 27). The two-story building facade at column 46 is solid wall across rows 24-29. Stepping Down from (47, 22) into row 23 or Left from (47, 22) into column 46 confirmed solid wall collisions.
 
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes.
 
