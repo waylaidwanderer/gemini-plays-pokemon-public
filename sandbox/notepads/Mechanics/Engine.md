@@ -50,7 +50,7 @@
 
 - **Items Pocket (Verified Turn 13183)**: Potion x 1, Poison Barb x 1, Nugget x 1. (0 Repels held; zero progression tools).
 
-- **Empirical Constraint**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). All current progression gates are strictly event-flag / story-trigger based.
+- **Empirical Constraint & Equipment Mechanic (Verified Turn 13212)**: Asher cannot interact with, cut, or smash any physical field obstacles (Cut trees on Route 1, cracked rocks in Sovio Sewers). Interacting with cracked rocks verbatim states: "It's a rugged rock, but with some equipment, I could smash it." Clearance of physical obstacles is mechanic-gated by specialized equipment.
 
 ## Trainer Card Structure & Display (Verified Turns 11889-11890)
 - **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Poké Ball icons for the Eclipse Tournament.
