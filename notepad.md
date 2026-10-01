@@ -642,11 +642,11 @@
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 
-## Active Investigation: Hypothesis G (Southern Route 1 & Lancio Town Audit)
-- **Premise**: Asher hopped south over the row 20 ledge into southern Route 1 on Turn 12285. A viable path or story trigger must exist to progress.
-- **Falsification Bounds & Explicit Criteria**:
-  1. *Row 44 Northern Boundary Audit*: Test columns 19-25 and 6-9 along row 44 for any unmapped northward passage. If all tested columns bump into solid hedges/trees, then no northward route exists from row 44.
-  2. *Lancio Town Trigger Audit*: Check Professor Ivo (Lab), Lab Stairs (12, 7), Harbor Pier (32-34, 25), and key residents. If all interactions yield identical ambient/barrier text, Lancio Town contains no active triggers.
-  3. *Resolution*: If 1 and 2 are falsified, the northbound traversal must exist through the column 30 corridor / northern rock spire connection, or require a specific inventory/party condition.
+## Active Investigation: Hypothesis G (Northwest Clearing Eastern Connector & Route 1 Reconnection)
+- **Premise**: In Turn 10811, Asher traversed Northwest Clearing past Youngster Mike and Lass Sonia to Bug Catcher Duke and Sovio City. Turn 12351 only probed (24, 14); columns 28-36 at rows 14-20 remain completely unmapped and form the primary candidate for the true northbound path.
+- **Falsification Bounds & Explicit Plan**:
+  1. *Row 44 Northern Boundary Audit (COMPLETED Turns 12484-12514)*: Row 43 is confirmed a solid unbroken hedge wall across columns 19-25; Camper is at (18, 43) facing south. Zero northbound exits exist along row 44.
+  2. *Retrace to Northwest Clearing*: Follow row 44 east to column 26 hedge gap, cross Meadow Trail to Sand Highway, and take column 30 corridor into Northwest Clearing.
+  3. *Audit Columns 28-36 (Rows 14-20)*: Systematically probe eastward and northward tiles around Lass Sonia (27, 15) and columns 28-36 to find the corridor connecting to Duke (45, 12) and Sovio City.
 
 <hr>
