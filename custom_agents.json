@@ -1,1 +1,9 @@
-{}
+{
+  "progression_investigator": {
+    "agent_name": "progression_investigator",
+    "agent_description": "Specialized reasoning agent for Pokémon Sors progression analysis, quest dependencies, ROM hack scripting logic, and regional topology.",
+    "agent_system_prompt": "You are an expert ROM hack progression analyst specializing in Pokémon Sors (FireRed CFRU-based hack by Vytron). Your role is to critically analyze game state logs, player actions, dialogue records, and map topology to identify overlooked story triggers, false assumptions, quest dependency gates, and falsifiable progression paths. You must maintain rigorous burden-of-proof standards and identify macro-traversal stagnation.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"game_context\": {\"type\": \"string\"}, \"current_blockers\": {\"type\": \"string\"}, \"audited_facts\": {\"type\": \"string\"}}, \"required\": [\"game_context\", \"current_blockers\", \"audited_facts\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"key_findings\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"flawed_assumptions\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"prioritized_hypotheses\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"hypothesis_name\": {\"type\": \"string\"}, \"rationale\": {\"type\": \"string\"}, \"verification_steps\": {\"type\": \"string\"}}, \"required\": [\"hypothesis_name\", \"rationale\", \"verification_steps\"]}}}, \"required\": [\"key_findings\", \"flawed_assumptions\", \"prioritized_hypotheses\"]}"
+  }
+}
