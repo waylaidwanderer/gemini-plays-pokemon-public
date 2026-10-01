@@ -16,7 +16,7 @@
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 - **Hypothesis G (Route 1 Two-Way Connection)**: Verified Turn 12564. Confirmed two-way foot route between Lancio Town and Sovio City via row 10 meadow and Eastern Highway; documented in Locations/Route_1.md.
-- **Sub-Hypothesis 1 (Machop's Toy Ground Search in Sewers)**: FALSIFIED / CLOSED Turn 12724. Exhaustive search across accessible sewer ground (Western Upper Terrace 14, 12; Northern Gangway 15-27, 5; all puddle tiles) confirmed zero visible item balls, interactable objects, or hidden item prompts. By explicit falsification criteria, the toy is not accessible on the ground or does not advance the main quest. Closed.
+- **Sub-Hypothesis 1 (Machop's Toy Ground Search in Sewers)**: CLOSED Turn 12724. Tested northern and western corridors (Western Terrace 14, 12; Northern Gangway 15-27, 5; puddles at 33-35, 22; 36-38, 27-28; 28, 19; 14-15, 11; 26-27, 5) with zero visible item balls or prompts found. Quest strategically deprioritized to refocus on primary story progression and locating Jackson on the surface.
 
 ## Active Investigation: Jackson's Whereabouts & Progression Unlocks
 
@@ -24,6 +24,5 @@
 - **Status**: ACTIVE. Returning to surface immediately.
 - **Rationale**: Jackson ran outside after the tremor (Turn 1437). Metro turnstiles explicitly demand 'I should find dad first!'.
 - **Immediate Plan**:
-  1. Exit Sovio Sewers via the ladder at (15, 5), lower stairs (14, 13-16), lower walkway, and ascending stairs at (34, 24) to Metro exit at (38, 22).
   2. Return to Sovio City surface.
   3. Cancel or complete Machop's Toy quest with Old Man if needed, or inspect untested surface triggers in Sovio City.
