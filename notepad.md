@@ -448,13 +448,7 @@
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
-  - **Old Man at (51, 15) & 'Machop's Toy' Quest (COMPLETED Turn 13331)**:
-    - Quest Offer: 'My Machop lost his favorite toy, and he became really agressive. I think he lost it in the Sovio Sewers, which is full of Pokémon... Apparently, I'm not a Pokémon Trainer, so it would be dangerous for me to wander around down there. May, I ask for your assistance, to find it for me?'
-    - Acceptance: 'Really? Thank you! I really appreciate your help!' -> 'Quest Accepted!'
-    - Active Clue: 'Thank you, the toy must be somewhere deep in the Sovio Sewers.'
-    - Lost Toy (Clefairy Poké Doll) retrieved from Deep Subterranean Sector at (2, 37) on Turn 13238.
-    - Delivery & Completion (Turn 13331): Delivered Lost Toy to Old Man; quest completed; rewarded with Black Belt (held item, boosts Fighting-type moves by 20%).
-    - Post-Completion Dialogue: Old Man thanks Asher; Machop at (51, 16) is calmed down.
+  - **Old Man at (51, 15) & 'Machop's Toy' Quest (COMPLETED Turn 13331)**: Lost Toy (Clefairy Poké Doll) retrieved from Deep Subterranean Sector at (2, 37) on Turn 13238. Delivered to Old Man; rewarded with Black Belt (+20% Fighting moves). Post-completion: Old Man thanks Asher; Machop at (51, 16) is calmed down.
 
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 
@@ -651,7 +645,7 @@
 - **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5).
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle (Verified Turns 13211-13212)**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
-- **Western Alcove & Warp Mat (Verified Turns 4549, 13225)**: Red capsule mat at (14-15, 9). Stepping Down from (15, 9) warps to a new subterranean chamber/sector at (2, 38). Walkway also continues north to (15, 8) and west along row 8 to (13, 8).
+- **Western Alcove & Warp Mat (Verified Turns 4549, 7316-7317, 13225)**: Red capsule mat at (14-15, 9). Stepping Down from (15, 9) warps to a new subterranean chamber/sector at (2, 38). The alcove terminates at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
 - **Deep Subterranean Sector (Discovered Turn 13225)**: Arrives at (2, 38) on a red capsule mat facing North in a dark room illuminated by spotlight. At (2, 37), interacting with the northern arch retrieved Machop's **Lost Toy** (Clefairy Poké Doll, Key Item; collected Turn 13238).
 
 <hr>
@@ -665,7 +659,6 @@
   - Metro Turnstile at (19, 21): Re-tested Turns 12777, 13055, 13058, 13109; strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
-  - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..." (Confirmed inert post-retreat on Turn 13081).
   - Active Quest: Machop's Toy COMPLETED (Turn 13331); rewarded Black Belt. Re-tested Metro turnstile at (19, 21) on Turns 13353-13355; confirmed strictly blocked by 'I should find dad first!'.
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
@@ -685,13 +678,5 @@
   2. Subterranean Exploration: Checking other sewer mechanics, potential hidden switches, or unverified tiles beyond the single storage room at (37, 14).
   3. Interactive background elements: Metro timetable, ticket machines, or other civic fixtures.
 
-## Systematic Subterranean Inventory & Target Sectors (Sovio Sewers)
-- **Upper Landing (1F)**: Base of stairs at (37, 22), shallow puddle (32-35, 21-23), stairs down at (34, 24). Traversed.
-- **Lower Walkway (rows 27-28)**: Traversed between column 8 and 39.
-- **Eastern Storage Room at (37, 14)**: Verified 100% inert post-retreat ("Its a simple storage room...").
-- **Southern Canal (rows 32-36)**: Traversed; Poison Barb retrieved at (22, 36).
-- **Elevated Gangway (row 5)**: Traversed; TM48 retrieved at (27, 5).
-- **Southwest Corridor (cols 7-8)**: Impassable without Rock Smash.
-- **Dark Sector / Basement at (30, 4)**: Explored Turn 13205-13254. Found Rugged Rock at (22, 10), warp mat at (14-15, 9) leading to Deep Subterranean Sector at (2, 38), and retrieved Machop's Lost Toy at (2, 37). Note: Western hallway along row 8 (columns 13-15) remains uninspected.
 
 <hr>
