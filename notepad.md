@@ -562,7 +562,7 @@
 ## South Central Sector
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) tested on Turn 5890: solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
-- **Residential House (South Central - Name Rater)**: Located at (31, 26). Resident: Official Name Rater (Turn 3091).
+- **Residential House (South Central - Name Rater) (Audited Turns 3091, 8948, 13028-13038)**: Located at (31, 26). Interior lands at (65, 17) on red exit mat. Resident: Official Name Rater at (64, 14) behind stool (64, 15). Confirmed standard nickname rating service; zero story triggers or clues regarding Jackson. Single-room interior with no rear rooms or stairs. 100% audited.
 
 ## North-Central Commercial/Residential Block
 
