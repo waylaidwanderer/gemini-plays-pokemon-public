@@ -563,7 +563,7 @@
 
   - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Verified 100% ambient flavor text across multi-turn tests (Turns 8810-8819).
 
-  - Family Machop at (6-7, 33-35); displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...' when Machop's Toy quest is active (Verified Turn 11438).
+  - Family Machop at (6-7, 33-35); permanently displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...' regardless of quest status (verified post-quest Turn 14148; separate from Old Man's terrace Machop).
 
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 
