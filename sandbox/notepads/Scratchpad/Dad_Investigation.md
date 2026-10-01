@@ -9,6 +9,7 @@
 
 ## Settled Hypotheses (Sovio City Surface Audited)
 - Surface audits (plaza confrontation tiles 43-44, 13-15, timetable 22, 24, Central Park pond walkway 43-45, 23-26, and HuPhone storage) confirmed 100% inert / ambient (Turns 13717-13797).
+- Route 2 Gate (Verified Turn 13947): Stepping onto (52, 19) strictly triggers "I can't go yet... I have things to do!". Eastern exit is 100% blocked until story progression.
 
 ## Active Hypotheses: Locating Jackson on the Surface
 - **Conclusion on Sewers**: Sovio Sewers 100% exhausted. S1 confirmed unchanged (Turn 13886-13887); S2/S4 rock obstacles require equipment not currently owned (Turn 13212); S3 deep room yielded Lost Toy only. All Team Siara grunts permanently retreated (Turn 2682). Jackson is NOT in the sewers.
