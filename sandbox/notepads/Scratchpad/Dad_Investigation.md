@@ -13,6 +13,4 @@
 
 ## Active Hypotheses: Locating Jackson on the Surface
 - **Conclusion on Sewers**: Sovio Sewers 100% exhausted. S1 confirmed unchanged (Turn 13886-13887); S2/S4 rock obstacles require equipment not currently owned (Turn 13212); S3 deep room yielded Lost Toy only. All Team Siara grunts permanently retreated (Turn 2682). Jackson is NOT in the sewers.
-- **Hypothesis F1 (Metro Station Platform & Attendant Trigger)**: Re-inspect the Metro Station lobby fixtures, ticket gate, timetable, and station attendant at (22, 19) from multiple angles to verify if an event triggers.
 - **Hypothesis F2 (Sovio City Exterior Survey)**: Re-survey Sovio City outdoor perimeter, alleyways, and civic structures.
-- **Hypothesis F3 (Lancio Town / Inizio Isle Route Check)**: Check if an event or trigger was activated in Lancio Town or if passage back to Inizio Isle has opened.
