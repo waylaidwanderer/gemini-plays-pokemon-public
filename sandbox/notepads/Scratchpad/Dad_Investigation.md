@@ -31,8 +31,8 @@
 
 ## Archived Hypotheses (Exhausted / Evaluated)
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room - EXHAUSTED)**:
-  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149, 14829). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor. Grunts retreated Turn 2682; sewers contain zero remaining progression triggers.
+  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149; Turn 14829 attempt aborted into wild combat). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor. Grunts retreated Turn 2682; sewers contain zero remaining progression triggers.
 - **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - Cartographic Deduction)**:
   - Status: Evaluated Turn 14674/14731. World Map shows Lancio Town as a coastal terminus connecting exclusively northeast to Route 1. Traversing east to Azluf Town is water-gated by regional topology and impossible on foot without Surf or water transport.
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - RECONCILED)**:
-  - Status: Concluded Turn 14428. The open loop (Western stairs -> Terrace -> Gangway -> Bridge -> Dark Sector) contains no roaming NPCs or triggers. Focus is restricted specifically to testing the Eastern Storage Room tile mechanics at (37, 14).
+  - Status: Concluded Turn 14428. The open loop (Western stairs -> Terrace -> Gangway -> Bridge -> Dark Sector) contains no roaming NPCs or triggers.
