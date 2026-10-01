@@ -310,7 +310,7 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
-- **Northwest Clearing Layout & Connections (Audited Turns 12320-12332)**: Youngster Mike at (29, 20) and Lass Sonia at (27, 15) on rock spire both defeated. Western boundary terminates at column 24; columns 0 to 23 are solid pine trees. Row 14 is solid pine trees/trunks. Connected to the south via the column 30 corridor. Youngster Mike provides defeat flavor dialogue.
+- **Northwest Clearing Layout & Connections (Audited Turns 12320-12332)**: Western boundary terminates at column 24; columns 0 to 23 are solid pine trees. Row 14 is solid pine trees/trunks. Connected to the south via the column 30 corridor.
 - **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
@@ -341,22 +341,23 @@
 
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 
-## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
-
-- **Item Storage**: Portable PC item storage (verified functional, audited empty Turn 9856: "There are no items.").
-
-- **Mailbox**: Portable PC mailbox (audited empty Turn 9860: "There's no Mail here.").
-
+## HuPhone Regional Device & Apps (Audited Turns 12375-12394)
+- **Access**: Activated via SELECT button or through BAG Key Items pocket.
+- **Main App Menu**:
+  1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
+  2. **World Map**: Static regional map viewer of Hupest with town nodes.
+  3. **Quest Log**: Active objective tracker and completed quest list.
+  4. **Back**: Closes HuPhone.
+- **Portable PC Interface (Item Storage app)**:
+  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel. Audited empty (Turn 12381).
+  - **Mailbox**: Portable PC mailbox. Audited empty (Turn 12388: "There's no Mail here.").
+  - **Turn Off**: Exits portable PC interface.
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
-
 - **Quest Log Scope & Structure**:
-
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
-
-  - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey [Verified Turn 6550], or 'This Quest hasn't been completed yet!' for uncompleted quests).
-
-  - 'Quest Status': Displays status for active quests without detailed objective hints. When a quest is active, it displays: "You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!" Confirmed it does not provide objective tracking or location hints.
-  - **HuPhone Menu & Quest Navigation (Verified Turn 11311)**: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
+  - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
+  - 'Quest Status': Displays status for active quests without detailed objective hints.
+  - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 
@@ -441,7 +442,7 @@
 
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) resides on terrace outside (verified Turn 12143: no Machop present on terrace; Machop was conflated with Karate house Machop).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896). Old Man (51, 15) resides on terrace outside (verified Turn 12143).
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 - **Eastern Flank (Verified Turn 7231)**: Signpost right post at (51, 18) and building exterior wall at col 52 form the eastern boundary of the plaza.
 
@@ -624,7 +625,7 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 12091)
+## Investigation Status & Active Hypotheses (Updated Turn 12365)
 - **Verified Game State**:
   - Metro Turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West; verified Turn 12163).
@@ -634,21 +635,14 @@
   - *Deduction*: Jackson departed the Metro Station lobby following the seismic tremor (Turn 1437) to investigate the disturbance outside. Finding Jackson is the mandatory event flag to unlock Metro transit to Amor City.
 
 - **Testable Hypotheses**:
-  1. **Hypothesis A (Karate House & Machop's Toy - Formulated Turn 12068, FALSIFIED Turn 12132)**:
-     - *Audited Results*:
-       - Machop at (9, 34) (Turn 12123): Displays only "Machop: Chop Chop!" / "He seems a bit agressive...". Zero items, zero quest updates.
-       - Karate Trainer at (3, 34) (Turn 12125): Ambient debate text ("kickbox is far better than karate").
-       - Girlfriend at (3, 33) (Turn 12127): Counterpart debate text ("karate is far better than kickboxing").
-       - 2F (Turn 12132): Empty room, generic bookshelf text ("It's crammed full of Pok�mon books.").
-     - *Conclusion*: Conclusively FALSIFIED on Turn 12132. Karate House holds zero progression triggers or links to Jackson.
-  2. **Hypothesis B (Sewers Storage Room - Formulated Turn 12068)**:
-     - *Hypothesis*: The storage room at (37, 14) where Jackson was held captive may open via an overworld event trigger or switch.
-     - *Constraint*: Inventory audit (Turn 11897) confirmed zero keys held. Falsification: If no observable trigger or switch is found on the surface or accessible sewer areas, Hypothesis B is FALSIFIED.
-  3. **Hypothesis C (Surface NPCs with Unexamined Conditions - Formulated Turn 12068)**: Re-test key Sovio surface NPCs to verify if dialogue updates based on current story flags, avoiding premature "100% Falsified" assumptions.
+  1. **Hypothesis A (Karate House & Machop's Toy - FALSIFIED Turn 12132)**: Audited all residents and 2F; 100% ambient flavor with zero progression triggers.
+  2. **Hypothesis B (Sewers Storage Room - On Hold)**: Storage room at (37, 14) is currently inert ("Its a simple storage room...").
+  3. **Hypothesis C (Surface NPCs with Unexamined Conditions - On Hold)**: Re-testing key NPCs if story flags change.
+  4. **Hypothesis D (Route 1 Northwest Clearing Western Expanse - FALSIFIED Turn 12350)**: Fully audited rows 14-22; western boundary solid pine trees at col 24, row 14 solid pine trees north; Mike and Sonia ambient.
+  5. **Hypothesis E (Alternative Event Flag Mechanisms - FALSIFIED Turn 12410)**: HuPhone Item Storage, Mailbox, Quest Status, and World Map verified empty/static; passive checks do not trigger story flags.
+  6. **Hypothesis F (Northbound Route 1 Passage & Sovio City Reconnection - ACTIVE Turn 12421)**:
+     - *Hypothesis*: The physical northbound traversal from southern Route 1 (Cottage / Sand Highway) toward Sovio City does not pass through the enclosed Northwest Clearing, but via an unverified connector or the Eastern Meadow bypass.
+     - *Falsification Criteria*: If the eastern hedge bypass at (50-51, 18) is impassable northward from the lower meadow, and no other northbound corridor exists between columns 26 and 52, Route 1 northbound traversal requires a different mechanical path.
 
-  4. **Hypothesis F (Route 1 Northwest Clearing Western Expanse - FALSIFIED Turn 12350)**:
-     - *Empirical Audit*: Audited columns 24-28 across rows 14-22. Traversed to westernmost clearing edge at (24, 18) and (24, 15).
-     - *Verified Collision*: Columns 0 to 23 are an impenetrable, continuous wall of solid pine trees across rows 14-22. Row 14 is solid pine trees/trunks. Youngster Mike at (29, 20) provides ambient defeat dialogue ('My Pokémon was completely destroyed by yours...'). Lass Sonia at (27, 15) provides ambient defeat dialogue ('Hmm, more harmony maybe?').
-     - *Conclusion*: Zero secret western paths, exits, or NPCs exist. Northwest Clearing is 100% audited; completely FALSIFIED with zero progression triggers.
 
 <hr>
