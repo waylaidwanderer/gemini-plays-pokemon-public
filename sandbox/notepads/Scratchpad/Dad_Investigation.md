@@ -11,7 +11,6 @@
   - Prof. Ivo at (20, 6): Re-verified ambient dialogue ("Hey, Ashi, how's your new Pokémon?", Turn 14524).
   - Harbor Pier at (32-34, 25): Re-verified empty; Harry/boat absent; ocean water inert (Turn 14527).
   - Fisherman at (38, 22): Ambient philosophical advice on patience (Turn 14528-14536).
-- **External Settlements & Residences**: Lancio Town, Route 1, Sovio surface quadrants, and all 6 domestic residences remain settled (detailed records in Locations/*.md).
 - **Sovio Metro Lobby**:
   - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
   - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
