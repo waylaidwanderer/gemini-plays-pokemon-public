@@ -34,7 +34,13 @@
       - (18, 24): Walkable floor.
       - (19, 24): Walkable floor. East boundary (20, 24) is solid brick wall collision; 'A' interaction inert.
       - (19, 25): Walkable floor. East boundary (20, 25) is solid brick wall collision; 'A' interaction inert.
-      - (18, 25), (17, 25): To probe (west boundary 16, 25).
+      - (18, 25): Walkable floor.
+      - (17, 25): Walkable floor.
+      - (16, 25): Walkable floor! (Wall does not block row 25 at column 16).
+    - **Row 26 (Turn 15314-15315)**:
+      - (16, 26): Walkable floor.
+      - (15, 26): Walkable floor. Arrived at (15, 26).
+      - Corridor continues west and south toward row 27 and column 12 stairs.
 
 ## Settled Hypotheses
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
