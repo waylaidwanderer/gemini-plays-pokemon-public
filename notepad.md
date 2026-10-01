@@ -175,7 +175,7 @@
 
   - Red rug, table, and PC terminal in western wing.
 
-  - Stairs at north wall (Verified Turns 10072, 11767): Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (re-verified still blocked on Turns 11767, 13506).
+  - Stairs at north wall (Verified Turns 10072, 11767, 13506, 14521): Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (re-verified still blocked on Turn 14521).
 
 - **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
 
@@ -185,7 +185,7 @@
 
   - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
 
-  - Professor Ivo at (20, 6) (Verified Turns 7625, 13511): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?"). Confirmed static post-tremor and post-sewers.
+  - Professor Ivo at (20, 6) (Verified Turns 7625, 13511, 14524): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?"). Confirmed static post-tremor and post-sewers.
 
   - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
 
@@ -221,7 +221,7 @@
 
 
 
-- **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595, 11789)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
+- **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595, 11789, 14527)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
 
 <hr>
 
@@ -671,17 +671,6 @@
 ## Archived Hypotheses (Exhausted)
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
   - Status: Concluded Turn 14428. Continuous loop traversed (Lower walkway -> Western stairs -> Upper terrace -> Wall ladder -> Northern Gangway -> Bridge -> Row 13 -> Dark Sector). Zero NPCs, cutscenes, or progression triggers encountered along this loop. 100% settled.
-  - **Context**: Surface and global systems (PC, Bag, residences, timetable) are verified 100% ambient/settled. The sole storyline thread tied to Jackson and Team Siara is the Sovio Sewers. We are executing a continuous, methodical mapping of all sewer sectors without aborting mid-transit.
-  - **Sector 2 Traversal (Verified Turns 14338-14341)**:
-    - Row 5 east of column 23 verified: shallow puddle at (26-27, 5) terminates east at (27, 5) into impassable void chasm at column 28. Confirmed dead-end; does NOT connect directly to wooden staircase platform.
-  - Vertical Bridge at column 23 (rows 6-12) traversed south from (23, 5) to (23, 13) (Verified Turn 14350). Confirmed complete connection from Northern Gangway (row 5) south across chasm to row 13 gangway.
-  - **Sector 3 Traversal (Verified Turns 14356-14361)**:
-    - Northern alcove at (23, 8) verified (Nugget already collected Turn 4576).
-    - Rugged rock at (22, 10) confirmed intact (equipment-gated).
-    - Western alcove at (14-16, 9-10) verified (warp to Deep Subterranean Sector 2, 38 where Machop's toy was retrieved).
-    - Confirmed 100% devoid of NPCs, items, or story triggers.
-  - **Result**: Continuous loop traversed (Lower walkway row 28 cols 34-18 -> Western stairs 14, 17 -> Upper terrace 14, 12 -> Wall ladder 15, 11 -> Northern Gangway row 5 cols 15-27, dead end at 27, 5 -> Vertical Bridge col 23 rows 6-12 -> Row 13 gangway cols 23-30 -> Column 30 causeway -> Dark Sector corridor row 9 cols 30-16). Zero NPCs, cutscenes, or progression triggers encountered along this loop.
 
-- Turn 14501: Breakout from Sovio City executed. Ledge hopped into Cottage yard at (41, 21); traversing Sand Highway and southern corridor toward Lancio Town.
 
 <hr>
