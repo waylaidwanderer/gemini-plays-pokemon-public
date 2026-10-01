@@ -24,3 +24,4 @@
 - **Active Plan**:
   - Traverse row 10 east past Bug Catcher Duke (45, 12) to Signpost 4 (50, 10) and the Eastern Highway (52, 12).
   - Head north on the Eastern Highway into Sovio City at (53, 0).
+- Status: Reached Eastern Highway at (52, 11) on Turn 12562; entering Sovio City.
