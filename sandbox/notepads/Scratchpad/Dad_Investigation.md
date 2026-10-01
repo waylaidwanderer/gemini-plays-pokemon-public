@@ -33,8 +33,6 @@
 - Sovio City Sectors Audited: Central Plaza, Northern Row, West Avenue, Two-Story Building roof passage, Southern Avenue, South Sidewalk (rows 27-28, Name Rater house 31, 26, children's gathering 33-35, 28), and Central Park interior. 100% of all public surface sectors and buildings verified.
 
 ## Structured Analysis of the 'Find Dad' Progression Flag (Turn 13060)
-- **Primary Blocker Re-verified**: Stepping onto turnstile at (19, 21) strictly displays "I should find dad first!" and repels south to (19, 22).
-- **Surface Audit 100% Complete**: All 7 surface sectors of Sovio City, 100% of Route 1, and 100% of Lancio Town have been physically audited in the post-retreat state. Jackson is not present as a surface overworld NPC.
 - **Subterranean Target (Sovio Sewers)**: Since surface spaces are exhausted, Jackson's rescue event or flag is tied to the subterranean space where the tremor originated and where Jackson was held captive.
 - **Investigation Results (Turn 13081)**:
   - Eastern Storage Room at (37, 14) re-tested: strictly displays "Its a simple storage room..." facing South, with solid void collision. Storage room is confirmed 100% inert post-retreat.
