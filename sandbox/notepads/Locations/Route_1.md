@@ -65,18 +65,5 @@
 - **Hidden Hedge Passage (Verified Turns 11554-11568)**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
 - **Verified Obstacles (Turns 12484-12546)**: Tile (30, 12), (34, 13), and (46, 10) confirmed solid collision (pine tree canopies/trunks); eastward traversal bypasses via row 11. Northward bypass around (34, 13) runs through row 10 meadow corridor. Row 43 is an unbroken horizontal hedge barrier across columns 19-25. Hedge gap at (19, 45) connects row 44 to row 46.
 
-  1. From Lancio Town exit (0, 45), follow cobblestone path to (5, 45) and row 46 corridor east past Central Pine Tree (bypassed via row 48 at 10-11, 48).
-  2. At (19, 46), step North through hedge gap at (19, 45) to row 44.
-  3. Walk east along row 44 to column 26 hedge gap at (26, 44).
-  4. Step North through (26, 43-42) into Meadow Trail, follow bird-track trail through (27, 41-42) and around shrub via (29, 40-41) and (30-31, 39).
-  5. Step northeast onto Sand Highway at (32-35, 38).
-  6. Walk North along Sand Highway (col 35-36) past Science Guy (39, 36) to row 25.
-  7. Turn West along row 25 to column 30, and walk North up column 30 corridor.
-  8. Bypass pine canopy at (30, 20) via column 28 to enter Northwest Clearing at (29, 19).
-  9. Follow column 29 path north past Youngster Mike (29, 20) and Lass Sonia (27, 15) to row 13 at (29, 13).
-  10. Turn East on row 13 to (33, 13), step North into row 10 meadow corridor (33, 10).
-  11. Walk East along row 10 meadow past (38, 10) to (45, 10).
-  12. Bypass pine tree (46, 10) via row 11 east past Signboard 4 (50, 10) onto Eastern Highway at (52, 11).
-  13. Walk North along Eastern Highway (col 52-53) straight to (53, 0) to transition into Sovio City!
 
 - **Sand Highway Column 35 Bounds (Verified Turn 12970)**: Column 35 is blocked south at row 31 by pine tree border. Traversal south along Sand Highway must follow columns 36-37.
