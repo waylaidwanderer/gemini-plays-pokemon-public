@@ -47,7 +47,10 @@
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
-- **Layout**: North stone wall at row 8; south boundary wall at row 10/11; 2-tile wide stone corridor along rows 9-10 connecting column 30 to column 15.
+- **Layout & Spatial Geometry** (Audited Turns 15064-15120):
+  - Eastern corridor (cols 21-30): Northern stone wall at row 8, corridor along row 9 with stairs up at (31, 9) and stone stairs north to upper alcove at (23, 8). Rugged rock obstacle at (22, 10).
+  - Western corridor & alcove (cols 13-17): Northern stone wall is at row 7. Row 8 is a walkable corridor connecting columns 13 to 17. Western boundary terminates at solid wall at column 12 (rows 8-9). Southern boundary at row 10.
+  - Red capsule mat at (14-15, 9); stepping Down from (15, 9) warps to Deep Subterranean toy room (2, 38). Tile (16, 9) has solid obstacle collision; traversal between western alcove and eastern corridor connects via row 8 (Up from 15, 9 to 15, 8, then east along row 8 to 17, 8, and down to 17, 9).
 - **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). (Audited Turns 15079-15082): All perimeter walls (north row 2, west col 21, east col 25) probed with 'A'; confirmed 100% solid walls with no secret doors, switches, or NPCs.
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle (Verified Turns 13211-13212)**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
