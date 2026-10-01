@@ -14,7 +14,7 @@
 ## Active Hypotheses: Locating Jackson on the Surface
 - **Conclusion on Sewers**: Sovio Sewers 100% exhausted. S1 confirmed unchanged (Turn 13886-13887); S2/S4 rock obstacles require equipment not currently owned (Turn 13212); S3 deep room yielded Lost Toy only. All Team Siara grunts permanently retreated (Turn 2682). Jackson is NOT in the sewers.
 ## Active Hypotheses: Locating Jackson in Sovio City
-- **Target SC2 (North-Central House 39, 7)**: Inspect 1F elderly man and 2F boy for story updates. Falsification: Both repeat baseline Wii dialogue.
+- **Target SC2 (North-Central House 39, 7)**: Tested Turn 13984. 1F elderly man repeats Wii dialogue ('I bought my son a Wii...'). Confirmed baseline ambient.
 - **Target SC3 (Terrace House 49, 14)**: Inspect Nana at (62, 31) and Granddaughter at (63, 34). Falsification: Repeat baseline text.
 - **Target SC4 (Gumball House 29, 14)**: Inspect mother, son, and 2F bedroom. Falsification: Repeat baseline text.
 - **Target SC5 (Machop Family House 14, 15)**: Re-check Karate trainer and girlfriend post-toy quest. Falsification: Repeat karate debate.
