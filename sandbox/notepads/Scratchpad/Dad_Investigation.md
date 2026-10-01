@@ -13,27 +13,23 @@
 - **Sovio Metro Lobby**:
   - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
   - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
-- **Sovio Sewers**:
-  - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; displays ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12). Confirmed decorative storage dead-end; not the holding cell from Turn 1666 cutscene.
+- **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pokémon) audited 100% empty. Party size/composition does not gate turnstile blocker.
+- **Sovio Sewers Audited Features**:
   - Machop's Toy Quest: Completed Turn 13331 (Black Belt obtained).
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
+  - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Primary Focus
-- **Hypothesis TB1 (Metro Timetable Columns 21-22 - FALSIFIED / SETTLED)**:
-  - Verified Turns 14276-14278: Columns 21 and 22 repeat identical baseline text. Entire board is confirmed purely decorative.
-
-- **Hypothesis GT1 (Global Trigger & Party / Inventory Mechanics - FALSIFIED / SETTLED)**:
-  - **Empirical Audit (Verified Turns 14291-14315)**:
-    - HuPhone Mailbox audited empty ('There's no Mail here.', Turn 14291).
-    - HuPhone Item Storage audited empty ('There are no items.', Turn 14292).
-    - Someone's PC Box 1 audited visually (Turn 14315): completely empty across all 30 slots; zero Pokémon stored in PC. Active party holds only Sirius (Lv14 Riolu).
-  - **Result**: Hypothesis GT1 is 100% FALSIFIED. Party size and PC storage do not gate the turnstile blocker ('I should find dad first!').
-
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Unexhausted Frontier)**:
-  - **Context**: All surface locations (SC1-SC5, Name Rater, Central Plaza/Park, West Avenue, Route 1, Lancio Town) and Metro timetable/systems are verified 100% ambient/settled. The sole storyline location tied to Jackson and Team Siara is the Sovio Sewers. Past attempts suffered cognitive thrashing by aborting after <10 tiles. We commit to a sustained, methodical exploration of the unexhausted sewer pathways.
-  - **Target Sectors**:
-    1. Lower Level Walkway & Western Wing (rows 24-28, columns 8-22).
-    2. Elevated Northern Gangway & Vertical Bridge (row 5, columns 15-23; rows 6-12, column 23).
-    3. Column 30 Causeway & Dark Sector Basement (ladder at col 30, staircase 30, 4).
-  - **Method**: Enter sewers via Metro lobby mat (18-19, 25), maintain steady forward progression through wild encounters, systematically trace every walkable branch to its true boundary.
-  - **Falsification Criteria**: A sewer branch is only settled when its boundary tiles and connections are visually confirmed on-screen and verified in intermediate states.
+  - **Context**: Surface and global systems (PC, Bag, residences, timetable) are verified 100% ambient/settled. The sole storyline thread tied to Jackson and Team Siara is the Sovio Sewers. We are executing a continuous, methodical mapping of all sewer sectors without aborting mid-transit.
+  - **Sector 1 Traversal (Verified Turns 14321-14337)**:
+    - Lower walkway from (34, 27) west across row 28 to (18, 28) verified continuous and open.
+    - Column 18 vertical corridor traversed north past Grunt 2's platform (18, 21-22) to row 18.
+    - Row 18 western approach leads to stone stairs at (14, 18).
+    - Stone stairs ascended along column 14 from row 17 to (14, 12) on Upper Western Terrace.
+    - Wall ladder at (15, 11) climbed north to (15, 5) on Northern Elevated Gangway.
+  - **Sector 2 Traversal (Verified Turns 14338-14341)**:
+    - Northern gangway along row 5 traversed east from (15, 5) through shallow puddle at (16-17, 5) to column 23 junction.
+    - Row 5 east of column 23 verified: shallow puddle at (26-27, 5) terminates east at (27, 5) into impassable void chasm at column 28. Confirmed dead-end; does NOT connect directly to wooden staircase platform.
+  - **Active Lead / Next Target**: Vertical Bridge at column 23 (rows 6-12) connecting row 5 south across the chasm to row 13.
+  - **Falsification Criteria**: If full traversal of the vertical bridge (col 23), the southern gangway (row 13), column 30 causeway, and the Dark Sector reveals no new trigger, NPC, or interaction, declare physical sewer map fully exhausted.
