@@ -40,6 +40,7 @@
 - Stunfisk (Lv5, Ground/Electric)
 - Dunsparce (Lv6, Normal)
 - Shuppet (Lv6, Ghost)
+- Gastly (Lv5-7, Ghost/Poison)
 - Croagunk (Lv5, Poison/Fighting)
 - Mimikyu (Lv5, Ghost/Fairy)
 
