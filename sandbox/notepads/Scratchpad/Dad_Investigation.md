@@ -17,6 +17,8 @@
   5. **Hypothesis E (Alternative Event Flag Mechanisms - FALSIFIED Turn 12410)**: HuPhone Item Storage, Mailbox, Quest Status, and World Map verified empty/static; passive checks do not trigger story flags.
   6. **Hypothesis F (Cottage East Corridor Northbound - FALSIFIED Turns 12444, 12455)**:
      - Tile (40, 20) is confirmed impassable elevation ledge; 3 Up presses from (40, 21) yielded 0 tiles moved. The south-facing row 20 ledge strictly prevents northbound traversal from the Cottage yard.
-  7. **Hypothesis G (Southern Route 1 Northbound Connection to Sovio City - ACTIVE Turn 12455)**:
-     - *Premise*: Since players repeatedly travel from Lancio Town to Sovio City (verified Turns 818-1165, 10811-11002, 11792-11909) without HMs, a valid northbound traversal path must exist in the southern sector.
-     - *Investigation Scope*: Trace the connection from Sand Highway (columns 35-37, rows 26-38) and Northwest corridor to locate the true northbound bypass around the row 20 ledge.
+  7. **Hypothesis G (Southern Route 1 & Lancio Town Exploration - ACTIVE Turn 12455)**:
+     - *Verified Southern Geometry*:
+       - Tall grass field east of Sand Highway (rows 27-32, cols 38-42) terminated east by solid pine trees at col 43.
+       - Row 39 ledge hops south into (32, 40-41); row 41 allows westward movement through (31-30, 41) into Meadow Trail at (29, 41).
+     - *Investigation Scope*: Audit row 44 corridor, western untested columns (19-25, 6-9), and Lancio Town for progression triggers or true route connections.
