@@ -17,13 +17,12 @@
 - **South Sidewalk Children's Gathering (Audited Turns 13135-13138)**: Tested Little Girl (33, 28) regarding Moon Stone, Jigglypuff (34, 28) ('Puff Puff!'), and Boy (35, 28) ('Yeah Jigglypuff!'). 100% verified ambient flavor.
 - **Eastern Storage Room in Sovio Sewers (Audited Turn 13081)**: Tile (37, 14) displays "Its a simple storage room..." with solid south void collision. Confirmed inert post-retreat.
 
-## Active Investigation & Strategic Analysis
-- **Core Progression Blocker**: The Metro turnstile check requires finding Jackson.
-- **Uninspected / Unresolved Avenues**:
-  1. Surface Information / Quests: Re-evaluating Machop's Toy quest from the Old Man at (51, 15) (lost deep in the sewers - could finding the toy or completing the quest open a passage or reward a required tool?).
-  2. Subterranean Exploration: Checking other sewer mechanics, potential hidden switches, or unverified tiles beyond the single storage room at (37, 14).
-  3. Interactive background elements: Metro timetable, ticket machines, or other civic fixtures.
-
-## Investigation Update (Turn 13474)
-- **Sovio City Surface Audit**: West Avenue verified ambient (Rocky boy, Karate couple, Bikers 1-3).
-- **Current Operational Plan**: Completing audit of Lancio Town (Professor Ivo's Lab and harbor) since we are currently adjacent on Route 1. If Lancio Town yields no triggers, return via Route 1 northbound corridor to Sovio City to investigate remaining civic structures, manholes, and tremor anomalies.
+## Active Investigation & Strategic Analysis (Updated Turn 13505)
+- **Core Progression Blocker**: The Metro turnstile check requires finding Jackson ("I should find dad first!").
+- **Resolved Leads (Audited & Closed)**:
+  - Machop's Toy quest: Completed Turn 13331 (rewarded Black Belt).
+  - Sovio Sewers: 100% audited; grunts retreated, storage room inert at (37, 14), rugged rock at (22, 10) mechanic-gated by smash equipment.
+  - Lancio Harbor: Repeated audits (Turns 6893, 7594, 11789) confirmed static/empty; permanently discontinued to avoid search stagnation.
+- **Active Focus & Next Steps**:
+  - Conclude final check of Professor Ivo's Lab (dialogue and basement stairs at 12, 7) to definitively close Lancio Town investigations.
+  - Return directly to Sovio City via Route 1 to investigate remaining civic structures, buildings, and ground anomalies to locate Jackson.
