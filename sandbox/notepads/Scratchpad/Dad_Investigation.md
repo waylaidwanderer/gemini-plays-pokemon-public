@@ -13,7 +13,6 @@
 - **Hypothesis A (Karate House & Machop's Toy)**: Falsified Turn 12132. Residents and 2F audited 100% ambient flavor; cancelling quest cleared slot with no progression impact.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
 - **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
-- **Hypothesis D (Northwest Clearing Rows 14-22)**: Traversed & Connected. Clearing extends east along row 10/13 connecting seamlessly to Bug Catcher Duke and the Eastern Highway (resolved via Hypothesis G).
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 - **Hypothesis G (Route 1 Two-Way Connection)**: Verified Turn 12564. Confirmed two-way foot route between Lancio Town and Sovio City via row 10 meadow and Eastern Highway; documented in Locations/Route_1.md.

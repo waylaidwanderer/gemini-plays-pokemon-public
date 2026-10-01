@@ -33,7 +33,7 @@
 - **Quest Log Scope & Structure**:
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
-  - 'Quest Status': Displays status for active quests without detailed objective hints.
+  - 'Quest Status': Displays status for active quests (currently undergoing empirical verification).
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
