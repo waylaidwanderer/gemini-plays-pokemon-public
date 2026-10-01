@@ -669,11 +669,13 @@
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
-- **Layout**: North stone wall at row 8; south boundary wall at row 10/11; 2-tile wide stone corridor along rows 9-10 connecting column 30 to column 15.
-- **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5).
+- **Layout & Spatial Geometry** (Audited Turns 15064-15120):
+  - Eastern corridor (cols 21-30): Northern stone wall at row 8, corridor along row 9 with stairs up at (31, 9) and stone stairs north to upper alcove at (23, 8). Rugged rock obstacle at (22, 10).
+  - Western corridor & alcove (cols 13-17): Northern stone wall is at row 7. Row 8 is a walkable corridor connecting columns 13 to 17. Western boundary terminates at solid wall at column 12 (rows 8-9). Southern boundary at row 10.
+  - Red capsule mat at (14-15, 9); stepping Down from (15, 9) warps to Deep Subterranean toy room (2, 38). Tile (16, 9) has solid obstacle collision; traversal between western alcove and eastern corridor connects via row 8 (Up from 15, 9 to 15, 8, then east along row 8 to 17, 8, and down to 17, 9).
+- **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). (Audited Turns 15079-15082): All perimeter walls (north row 2, west col 21, east col 25) probed with 'A'; confirmed 100% solid walls with no secret doors, switches, or NPCs.
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle (Verified Turns 13211-13212)**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
-- **Western Alcove & Warp Mat (Verified Turns 4549, 7316-7317, 13225)**: Red capsule mat at (14-15, 9). Stepping Down from (15, 9) warps to a new subterranean chamber/sector at (2, 38). The alcove terminates at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
 - **Deep Subterranean Sector (Discovered Turn 13225, Audited Turn 14052)**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy (Turn 13238). All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A' on Turn 14052; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
 
 <hr>
@@ -697,22 +699,19 @@
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS2 (Sovio Sewers Inner Perimeter & Jackson Rescue Flag)**:
-  - **Rationale**: Marie's retreat broadcast (Turn 2682) despawned hostile grunts, but Jackson's captive state was never cleared, leaving the Metro turnstile blocked ('I should find dad first!'). In Pokémon Sors / CFRU scripting, grunts guard the path leading directly to the captive NPC. We must advance to the terminus of the grunt corridor (upper gangway, storage room, and adjacent sectors) to locate Jackson's holding area and trigger his dialogue/rescue.
-  - **Primary Objectives**:
-    1. Ascend western stairs at (14, 17) to Western Terrace and take the wall ladder at (15, 6-10) to the northern gangway.
-    2. Cross the vertical bridge at column 23 to row 13 platform.
-    3. Systematically audit the eastern gangway (row 13) leading to the storage room at (37, 14), probing all wall segments, corridor thresholds, and the command post area where the Turn 2682 retreat fired.
+- **Hypothesis SS2 (Sovio Sewers Inner Sectors & Jackson Detention Cell)**:
+  - **Rationale**: Progression analysis confirms the Metro blocker ('I should find dad first!') is hard-coded to Jackson's rescue event flag. Tile (37, 14) returning 'Its a simple storage room...' was an ambient prop, not Jackson's actual cutscene cell. Marie's broadcast (Turn 2682) cleared the grunts, but Jackson's sprite remains waiting in an accessible room, alcove, or platform in the sewer complex.
+  - **Primary Objective**:
+    1. Sewer Western Terrace & Grunt 2 Platform Audit (Cols 14-19, Rows 11-23): Systematically probe terrace perimeter and Grunt 2's platform for Jackson or detention room entrance.
 
 ## Settled Hypotheses
-- **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**:
-  - Status: Settled Turn 14969. Commercial building southern facade (47-51, 28-31) verified decorative wooden shutters with trash can / hedge barriers and zero enterable doors. Surface structures contain zero entry points or progression triggers. Validates that Jackson's progression gate must be resolved within Sovio Sewers.
+- **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**: Verified decorative exterior with zero doors or triggers (documented in Locations/Sovio_City.md).
 - **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
   - Status: Settled Turn 14727. Map edge perimeters (Southern Avenue tree lines, southwest lawn at 12, 30, rear Biker lane at col 12, western office boundary at col 11, northern alcove at 39, 7, and elevated terrace edge at col 52) are 100% verified solid dead-ends with no map exits. Note: Internal urban building facades and interactions within city limits remain subject to specific auditing under SC2.
 
 ## Archived Hypotheses (Exhausted / Evaluated)
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room - EXHAUSTED)**:
-  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149; Turn 14829 attempt aborted into wild combat). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor. Grunts retreated Turn 2682; sewers contain zero remaining progression triggers.
+  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149; Turn 14829 attempt aborted into wild combat). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor. 
 
 
 <hr>
