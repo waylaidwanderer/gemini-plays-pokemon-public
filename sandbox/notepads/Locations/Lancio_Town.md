@@ -85,7 +85,7 @@
 
 ## Overworld Residents & NPCs
 
-- **Green-haired Girl**: Located at (23, 15) facing right (physically collided Turn 13498). Dialogue (ambient).
+- **Green-haired Girl**: Located at (23, 15) facing right. Dialogue (ambient).
 
 - **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turn 10098): "Living in a small town sucks... There's nothing to do."
 

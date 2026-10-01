@@ -24,5 +24,4 @@
   - Sovio Sewers: 100% audited; grunts retreated, storage room inert at (37, 14), rugged rock at (22, 10) mechanic-gated by smash equipment.
   - Lancio Harbor: Repeated audits (Turns 6893, 7594, 11789) confirmed static/empty; permanently discontinued to avoid search stagnation.
 - **Active Focus & Next Steps**:
-  - Conclude final check of Professor Ivo's Lab (dialogue and basement stairs at 12, 7) to definitively close Lancio Town investigations.
   - Return directly to Sovio City via Route 1 to investigate remaining civic structures, buildings, and ground anomalies to locate Jackson.
