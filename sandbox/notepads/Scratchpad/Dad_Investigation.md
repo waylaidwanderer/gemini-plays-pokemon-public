@@ -17,16 +17,16 @@
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS1 (Sovio Sewers Jackson Rescue Operation)**:
-  - **Rationale**: The 5-point exterior audit of Sovio City (Turns 14682-14727) confirmed 100% solid boundaries with zero outdoor event triggers. The Metro turnstile blocker specifically checks Jackson's rescue flag ('I should find dad first!'). Turn 1666 cutscene showed grunts holding Jackson captive in a sewer storage room. Marie's radio retreat (Turn 2682) cleared the grunts from the corridors, but Jackson himself has not been located or spoken to in the detention room. The rescue trigger must be executed inside Sovio Sewers before the Metro turnstile will clear.
-  - **Plan**: Enter Sovio Metro Station, descend into Sovio Sewers via the red capsule mat at (18-19, 25), and systematically search every branch and room (including the eastern dead-end storage room at 37, 14 and all side corridors) to locate Jackson and trigger his rescue dialogue.
+- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room In-Depth Probe)**:
+  - **Rationale**: Both the Metro turnstile ('I should find dad first!') and Route 2 gate ('I can't go yet...') require finding Jackson. The cutscene (Turn 1666) showed grunts holding Jackson in a sewer storage room. While Marie's retreat (Turn 2682) cleared corridor grunts, previous audits of the Eastern Storage Room at (37, 14) merely pressed 'A' facing South from (37, 14), receiving ambient text ('Its a simple storage room...'). We must verify whether (37, 14) itself is a doorway that can be stepped into, or if specific adjacent tiles/angles reveal interaction scripts.
+  - **Status**: Testing in progress. Re-entering sewer row 13 gangway to perform a comprehensive tile inspection around (36-38, 13-14).
 
 ## Settled Hypotheses
 - **Hypothesis SC1 (Sovio City Exterior Perimeters - 100% AUDITED)**:
   - Status: Settled Turn 14727. Southern Avenue tree lines, southwest lawn (12, 30), southwest building perimeter, rear Biker lane (col 12, rows 20-30), western office facade (col 11, rows 16-20), Karate house corner (12, 15), Gumball/tan building gap (31, 13), northern alcove (39, 7), and elevated terrace (cols 50-52, rows 15-17) are 100% verified solid boundaries. No external event triggers exist.
 
-## Archived Hypotheses (Exhausted / Debunked)
-- **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - DEBUNKED)**:
-  - Status: Debunked Turn 14674. Lancio Town has no on-foot coastal exit to Azluf Town; regional geography confirms Lancio connects exclusively northeast to Route 1 and is otherwise surrounded by ocean. Requires water traversal/Surf not currently accessible.
-- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
-  - Status: Concluded Turn 14428. Continuous loop traversed (Lower walkway -> Western stairs -> Upper terrace -> Wall ladder -> Northern Gangway -> Bridge -> Row 13 -> Dark Sector). Zero NPCs, cutscenes, or progression triggers encountered along this loop. 100% settled.
+## Archived Hypotheses (Exhausted / Evaluated)
+- **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - Cartographic Deduction)**:
+  - Status: Evaluated Turn 14674/14731. World Map shows Lancio Town as a coastal terminus connecting exclusively northeast to Route 1. Traversing east to Azluf Town is water-gated by regional topology and impossible on foot without Surf or water transport.
+- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - RECONCILED)**:
+  - Status: Concluded Turn 14428. The open loop (Western stairs -> Terrace -> Gangway -> Bridge -> Dark Sector) contains no roaming NPCs or triggers. Focus is restricted specifically to testing the Eastern Storage Room tile mechanics at (37, 14).
