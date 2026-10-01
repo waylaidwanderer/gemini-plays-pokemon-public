@@ -40,7 +40,7 @@
 - **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
 - **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City (verified Turn 14113 via World Map).
 - **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City (verified Turn 14113 via World Map).
-- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects west along the coast to Lancio Town, northwest via Route 2 to Sovio City, and east along the coast to Samurion City (verified Turn 14118 via World Map).
+- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City (verified Turn 14118 via World Map). Note: While the regional map shows a cartographic coastal relation to Lancio Town, physical in-game traversal between Lancio Town and Azluf Town is strictly water-gated and impossible on foot without Surf or specialized marine transport (verified Turn 14674).
 
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
@@ -434,9 +434,11 @@
 
 - **Park East Border Obstacles (Verified Turn 8801-8802)**: Street lamps at (43, 19) and (43, 21), and trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!").
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12; verified Turns 14698, 14701).
+  - **Rear Biker Lane (Column 12, Verified Turns 14695-14706)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall (probed with 'A'; inert).
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Verified Turn 2862: barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
+  - **West Facade & Sidewalk Bounds (Verified Turns 14690-14693)**: Sidewalk at (16-17, 26-27) is walkable. Moving Right into (18, 27) is solid foundation wall. Moving Up from (17, 26) into (17, 25) is solid concrete window frame wall. Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
@@ -448,7 +450,7 @@
 
 - **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
 
-- **Southwest Boundary (Verified Turn 2874)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; no passage or NPCs present.
+- **Southwest Boundary (Verified Turns 2874, 14686)**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision; no passage, hidden items, or NPCs present.
 
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 
@@ -665,10 +667,10 @@
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis SC1 (Systematic Audit of Sovio City Exterior Perimeters & Structures)**:
   - **Rationale**: The Metro turnstile blocker ('I should find dad first!') and Route 2 gate ('I can't go yet...') are both in Sovio City. Lancio Town is verified on-foot isolated (connecting exclusively northeast to Route 1 and ocean elsewhere; on-foot passage to Azluf is physically impossible without Surf). Looping back and forth across Route 1 without state changes is unproductive. Asher must systematically search Sovio City perimeters, alleyways, tree lines, and building facades to find Dad or trigger the next story event.
-  - **Plan**: Return to Sovio City immediately. Perform systematic, tile-by-tile boundary checks:
-    1. Southern Avenue tree lines (rows 28-38, columns 13 and 16).
-    2. Southwest building perimeter (columns 18-22, rows 26-29).
-    3. West Avenue western office building facade (column 11, rows 12-20).
+  - **Plan**: Perform systematic, tile-by-tile boundary checks in Sovio City:
+    1. Southern Avenue tree lines: (12, 30) lawn tested Turn 14686 (11, 30 solid pine tree collision; dead end); east row 30 dead-ends at col 18.
+    2. Southwest building perimeter: (18, 27) solid wall, (17, 25) solid wall, sidewalk at (16-17, 26-27) open.
+    3. West Avenue western facade & corridor behind Bikers: Col 12 walkable at rows 20-21 behind Bikers; (11, 20) solid building wall (tested Turn 14695). Probe col 11 rows 12-19.
     4. North Central alleyways (around 32-37 and 39-40).
     5. Plaza eastern boundaries and elevated terrace edges.
 
