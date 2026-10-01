@@ -54,10 +54,10 @@
     16. - Not available -
     17. - Not available -
     18. Roark's Opal
-    19. PokéDex!
+    19. Pokï¿½Dex!
     20. Marine Point Hunter
   - **Page 5 Quests (Audited Turn 14877)**:
-    21. Hugh's Pokémon
+    21. Hugh's Pokï¿½mon
     22. Silver's Deal
     23. Back to the...
     24. Outcasts

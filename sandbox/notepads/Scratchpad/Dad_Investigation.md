@@ -14,7 +14,6 @@
 - **Sovio Sewers Audited Features**:
   - Machop's Toy Quest: Completed Turn 13331 (Black Belt obtained).
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
-  - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis SC2 (Sovio City Unexamined Spaces & System Triggers)**:
@@ -26,7 +25,7 @@
   - **Status**: Formulated. Currently exiting Sovio Sewers to commence investigation in Sovio City.
 
 ## Settled Hypotheses
-- **Hypothesis SC1 (Sovio City Exterior Perimeters - 100% AUDITED)**:
+- **Hypothesis SC1 (Sovio City Exterior Physical Boundaries - 100% AUDITED)**:
   - Status: Settled Turn 14727. Southern Avenue tree lines, southwest lawn (12, 30), southwest building perimeter, rear Biker lane (col 12, rows 20-30), western office facade (col 11, rows 16-20), Karate house corner (12, 15), Gumball/tan building gap (31, 13), northern alcove (39, 7), and elevated terrace (cols 50-52, rows 15-17) are 100% verified solid boundaries. No external event triggers exist.
 
 ## Archived Hypotheses (Exhausted / Evaluated)
