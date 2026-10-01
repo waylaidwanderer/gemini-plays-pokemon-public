@@ -17,11 +17,16 @@
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 
-## Active Investigation: Hypothesis G (Northwest Clearing Eastern Connector & Route 1 Reconnection - VERIFIED Turn 12552)
-- **Verified Northern Connection**:
-  - From Northwest Clearing column 29 row 13, the path turns east, bypasses pine obstacle (34, 13) via the row 10 meadow corridor, and successfully reaches (38, 10).
-  - The southern sector connects seamlessly to the northern meadow without jumping one-way ledges!
-- **Active Plan**:
-  - Traverse row 10 east past Bug Catcher Duke (45, 12) to Signpost 4 (50, 10) and the Eastern Highway (52, 12).
-  - Head north on the Eastern Highway into Sovio City at (53, 0).
-- Status: Reached Eastern Highway at (52, 11) on Turn 12562; entering Sovio City.
+## Active Investigation: Hypothesis G (Northwest Clearing Eastern Connector & Route 1 Reconnection - FULLY VERIFIED Turn 12564)
+- **Verified Route 1 Two-Way Traverse**:
+  - Confirmed: From Northwest Clearing (29, 13), bypass pine canopy at (34, 13) via row 10 meadow, connect east past Duke to Eastern Highway (52, 12), and walk north to (53, 0) into Sovio City at (14, 39).
+  - Complete two-way foot traversal between Lancio Town and Sovio City without jumping any one-way ledges is 100% physically verified. Hypothesis G resolved and closed.
+
+## Next Investigation Target: Jackson's Whereabouts in Sovio City
+- **Core Mystery**: Metro Turnstile at (19, 21) continues to trigger: "I should find dad first!".
+- **Key Questions**:
+  1. Has the dialogue or state of the Metro Station attendant/turnstile changed?
+  2. Did Marie's retreat leave any clue in the Sewers or Metro lobby?
+  3. Are there any overlooked interactive elements or NPCs in Sovio City?
+- **Immediate Plan**:
+  - Walk north along Southern Avenue (col 15) to West Avenue (row 18), proceed east to Central Plaza, and inspect the Metro Station.
