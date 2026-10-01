@@ -12,11 +12,16 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pok�mon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Surface Narrative Triggers & Regional Leads**:
-  - With open corridors in Sovio Sewers physically mapped and no visible NPCs found, the investigation pivots to the surface:
-    1. Check Sovio Metro Station lobby NPCs and attendants.
-    2. Check Sovio City exterior NPCs and structures for tremor-related dialogue or events.
-    3. Re-examine potential prerequisite dependencies across Hupest.
+- **Hypothesis SS3 (Eastern Storage Room Multi-Directional Interaction Protocol)**:
+  - **Start Turn**: 15444
+  - **Status**: In Progress
+  - **Rationale**: The Turn 1666 cutscene localized Jackson's capture to the sewer storage room. Surface exploration confirmed that domestic interiors and landmarks remain static. We are returning to the Eastern Storage Room platform (rows 12-14, cols 36-38) to execute a rigorous multi-directional interaction protocol.
+  - **Test Protocol**:
+    1. Navigate to Eastern Platform at (36, 13).
+    2. Position at (37, 13) directly North of the red mat; press 'A' facing South toward (37, 14).
+    3. Step onto the red mat at (37, 14); press 'A' facing North, South, East, and West.
+    4. Test directional steps from (37, 14).
+    5. Check adjacent platform tiles (36, 14), (38, 14), (36, 12), (37, 12), (38, 12).
 
 ## Settled Hypotheses
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
