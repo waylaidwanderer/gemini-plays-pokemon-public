@@ -60,7 +60,7 @@
 
     - Northern boundary: Tile (47, 19) steps Down into (47, 20) (walkable). Rows 20-22 are passable floor beneath an overhead Layer 2 roof graphic spanning columns 47-51.
 
-    - Interior row 23: Stepping Down into row 23 from (48, 22), (49, 22), (50, 22), and (51, 22) confirmed solid collision (blocked Turns 11074, 12926).
+    - Interior row 23: Stepping Down into row 23 confirmed solid collision.
 
     - Eastern connection: Row 22 is open eastward through (49, 22), (50, 22), (51, 22), and (52, 22).
 
