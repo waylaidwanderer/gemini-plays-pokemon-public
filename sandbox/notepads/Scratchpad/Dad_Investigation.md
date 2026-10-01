@@ -20,5 +20,4 @@
 ## Active Investigation & Strategic Analysis
 - **Core Progression Blocker**: The Metro turnstile check requires finding Jackson.
 - **Uninspected / Unresolved Avenues**:
-  2. Subterranean Exploration: Checking other sewer mechanics, potential hidden switches, or unverified tiles beyond the single storage room at (37, 14).
   3. Interactive background elements: Metro timetable, ticket machines, or other civic fixtures.
