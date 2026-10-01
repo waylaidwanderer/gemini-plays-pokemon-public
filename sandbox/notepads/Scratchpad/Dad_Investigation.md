@@ -26,13 +26,15 @@
       - (18, 22): Walkable floor (Grunt 2 standing tile).
       - (17, 22): Walkable floor. West boundary (16, 22) is solid black void collision; 'A' interaction inert.
       - (19, 22): Walkable floor. East boundary (20, 22) is solid black void collision; 'A' interaction inert.
-    - **Rows 23-24 (Turns 15296-15304)**:
+    - **Rows 23-25 (Turns 15296-15308)**:
       - (18, 23): Walkable floor.
       - (17, 23): Walkable floor! Column 17 is a clear vertical passage connecting row 22 directly down to row 24.
       - (17, 24): Walkable floor.
       - (16, 24): Solid brick wall collision; 'A' interaction inert.
       - (18, 24): Walkable floor.
-      - (19, 24): To probe (east boundary 20, 24).
+      - (19, 24): Walkable floor. East boundary (20, 24) is solid brick wall collision; 'A' interaction inert.
+      - (19, 25): Walkable floor. East boundary (20, 25) is solid brick wall collision; 'A' interaction inert.
+      - (18, 25), (17, 25): To probe (west boundary 16, 25).
 
 ## Settled Hypotheses
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
