@@ -22,8 +22,18 @@
 - **Hypothesis TB1 (Metro Timetable Columns 21-22 - FALSIFIED / SETTLED)**:
   - Verified Turns 14276-14278: Columns 21 and 22 repeat identical baseline text. Entire board is confirmed purely decorative.
 
-- **Hypothesis GT1 (Global Trigger & Party / Inventory Mechanics Investigation)**:
-  - **Context**: Having confirmed that all Sovio residences, surface quadrants, Route 1, Lancio Town, and sewer sectors are settled/ambient, shuttling between surface and sewers without new variables is circular stagnation. The blocker flags ('I should find dad first!' and 'I have things to do!') may be gated by a non-spatial game mechanic.
-  - **Targets**: Party composition (Sirius Lv14 solo; Zephyr in PC?), PC Boxes / Mailbox in Pokémon Center, HuPhone app configurations, or unexamined overworld mechanics.
-  - **Method**: Check PC Box / Party system, verify if Zephyr (Pidgey) or an item/message is waiting in PC storage, test turnstile interaction from (19, 22) facing Up with 'A'.
-  - **Falsification Criteria**: If inspecting Someone's PC Box storage shows no progression items/flags, and withdrawing Zephyr (or manipulating party composition) does not alter the turnstile trigger at (19, 21), declare party size/composition strictly independent of the Jackson blocker and immediately falsify GT1.
+- **Hypothesis GT1 (Global Trigger & Party / Inventory Mechanics - FALSIFIED / SETTLED)**:
+  - **Empirical Audit (Verified Turns 14291-14315)**:
+    - HuPhone Mailbox audited empty ('There's no Mail here.', Turn 14291).
+    - HuPhone Item Storage audited empty ('There are no items.', Turn 14292).
+    - Someone's PC Box 1 audited visually (Turn 14315): completely empty across all 30 slots; zero Pokémon stored in PC. Active party holds only Sirius (Lv14 Riolu).
+  - **Result**: Hypothesis GT1 is 100% FALSIFIED. Party size and PC storage do not gate the turnstile blocker ('I should find dad first!').
+
+- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Unexhausted Frontier)**:
+  - **Context**: All surface locations (SC1-SC5, Name Rater, Central Plaza/Park, West Avenue, Route 1, Lancio Town) and Metro timetable/systems are verified 100% ambient/settled. The sole storyline location tied to Jackson and Team Siara is the Sovio Sewers. Past attempts suffered cognitive thrashing by aborting after <10 tiles. We commit to a sustained, methodical exploration of the unexhausted sewer pathways.
+  - **Target Sectors**:
+    1. Lower Level Walkway & Western Wing (rows 24-28, columns 8-22).
+    2. Elevated Northern Gangway & Vertical Bridge (row 5, columns 15-23; rows 6-12, column 23).
+    3. Column 30 Causeway & Dark Sector Basement (ladder at col 30, staircase 30, 4).
+  - **Method**: Enter sewers via Metro lobby mat (18-19, 25), maintain steady forward progression through wild encounters, systematically trace every walkable branch to its true boundary.
+  - **Falsification Criteria**: A sewer branch is only settled when its boundary tiles and connections are visually confirmed on-screen and verified in intermediate states.
