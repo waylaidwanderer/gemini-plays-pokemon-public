@@ -59,7 +59,7 @@
 
   - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
 
-  - Professor Ivo at (20, 6) (Verified Turn 7625): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
+  - Professor Ivo at (20, 6) (Verified Turns 7625, 13511): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?"). Confirmed static post-tremor and post-sewers.
 
   - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
 
