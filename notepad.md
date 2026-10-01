@@ -461,7 +461,7 @@
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
-  - **Old Man at (51, 15) & 'Machop's Toy' Quest (Lost Toy acquired Turn 13238; returning to deliver)**:
+  - **Old Man at (51, 15) & 'Machop's Toy' Quest (Lost Toy acquired Turn 13238)**:
     - Quest Offer: 'My Machop lost his favorite toy, and he became really agressive. I think he lost it in the Sovio Sewers, which is full of Pokémon... Apparently, I'm not a Pokémon Trainer, so it would be dangerous for me to wander around down there. May, I ask for your assistance, to find it for me?'
     - Acceptance: 'Really? Thank you! I really appreciate your help!' -> 'Quest Accepted!'
     - Active Clue: 'Thank you, the toy must be somewhere deep in the Sovio Sewers.'
