@@ -373,7 +373,7 @@
 
 ## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551, 9743)
 
-- **Poké Balls Pocket (Verified Turn 9743)**: Contains 10 Poké Balls (purchased at Sovio PokéMart Mezzanine) and 1 Timer Ball (11 catching balls total).
+- **Poké Balls Pocket (Audited Turns 9743, 14479)**: Contains 10 Poké Balls and 1 Timer Ball (11 catching balls total).
 
 - **TMs & HMs Pocket (Audited Turn 14477 via TM Case)**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
 
