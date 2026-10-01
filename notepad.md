@@ -209,7 +209,7 @@
 
 ## Overworld Residents & NPCs
 
-- **Green-haired Girl**: Located at (23, 15) facing right (physically collided Turn 13498). Dialogue (ambient).
+- **Green-haired Girl**: Located at (23, 15) facing right. Dialogue (ambient).
 
 - **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turn 10098): "Living in a small town sucks... There's nothing to do."
 
@@ -303,14 +303,15 @@
   - Duke Meadow & Connector: Walkable perimeter around Duke at (45, 12) includes open grass tiles at (44, 12-13) and row 13 grass tiles at (45-47, 13). Tile (48, 13) is a solid pine tree trunk (verified Turn 11660). Pine tree trunks line row 14 at (44-48, 14). Row 12 is a walkable corridor connecting Duke's meadow at (44-47, 12) east beneath the canopies directly into the Eastern Highway at columns 52-53 (traversed Turn 11480; (47, 12) verified Turn 11613; (48, 12) verified Turn 11679).
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
-  - Cottage West Alcove (Audited Turns 10760-10768): Heading west from the Cottage along rows 25-26 reaches (32, 25). Stepping North from (32, 25) into (32, 24) is blocked by a hedge. Stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk.
+  - Cottage West Corridor & Column 30 Hedge Opening (Verified Turns 13643-13645): From the Cottage yard along row 26, the corridor runs west past columns 34-31 to column 30. At column 30, an open hedge gap across rows 22-25 connects directly north into the Northwest Clearing (Youngster Mike at 29, 20)!
+  - Cottage West Alcove: Stepping North from (32, 25) into (32, 24) is blocked by a hedge; stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
   - Dirt corridor along row 44 connects column 5 cobblestone road east past Signboard 2 (19, 42) through (22-24, 44) to column 26 hedge gap (verified Turn 10916-10918), ending east at alcove (27, 44) which is blocked east and south by solid pine trees.
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
-- **Northwest Clearing Layout & Connections (Audited Turns 12320-12538)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). Column 29 path runs north past Lass Sonia (27, 15) to row 13 and turns east through pink bird tracks at (30, 13); tile (30, 12) confirmed solid pine tree collision (Turn 12538). Connected to south via column 30 corridor.
+- **Northwest Clearing Layout & Connections (Audited Turns 12320-13668)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). At row 13 east of column 29 is a dead-end alcove bounded by pine tree (29, 12) and horizontal hedge at (30, 13-14). The passable eastward corridor runs south of the hedge along row 15 through (28-31, 15), then cuts north through hedge gap at column 31 (rows 14-11) past pink bird tracks at (31, 13) and blue bird tracks at (31, 12) directly into row 11 meadow corridor. Connected to south via column 30 corridor.
 - **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
@@ -321,8 +322,8 @@
 
 - **Sand Highway Column 35 Bounds (Verified Turn 12970)**: Column 35 is blocked south at row 31 by pine tree border. Traversal south along Sand Highway must follow columns 36-37.
 - **Row 30 Forest Canopy Passage**: Tile (35, 30) and (34, 30) are walkable alcove tiles under the canopies, but (33, 30) is solid pine tree collision (verified Turns 13593-13595).
-- Tile (35, 24) confirmed solid collision (Cottage exterior wall; verified Turn 13602).
-- Tile (34, 24) confirmed solid collision (pine tree trunk; verified Turn 13603).
+- **Verified Obstacles (Turns 13597-13678)**: Solid collisions verified at (36, 11) (pine tree), (31, 38) (shrub/boundary), (29, 38) (pine tree trunk), (27, 38) (pine tree trunk), (28, 40) (columnar shrub base), (35, 24) (Cottage wall), and (34, 24) (pine tree trunk).
+
 
 <hr>
 
@@ -378,7 +379,7 @@
 
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case.
 
-- **Items Pocket (Audited Turn 13369)**: Potion x 1, Poison Barb x 1, Nugget x 1 (Black Belt equipped to Sirius Turn 13367).
+- **Items Pocket (Audited Turn 13369)**: Potion x 1, Poison Barb x 1, Nugget x 1.
 
 - **Empirical Constraint & Equipment Mechanic (Verified Turn 13212)**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
 
@@ -434,7 +435,7 @@
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) provides ambient dialogue about his rock partner Rocky. (ambient comic relief; verified Turns 8908-8909).
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) with his partner Pokémon Rocky at (24, 17). Interacting with Rocky at (24, 17) displays: 'It's just a normal rock...'. Boy at (23, 17) with partner rock Rocky at (24, 17) (verified Turns 8908-8909).
 
 - **West Avenue Signpost & Trash Can (Verified Turns 9294-9296, 12938)**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) at the junction between West Avenue and Karate house.
 
@@ -537,7 +538,7 @@
 
 - **Interior**: Entrance mat lands at (43, 36).
 
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Confirmed 100% ambient flavor retro gaming humor; zero items or story triggers.
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Verified 0 items or story triggers.
 
 - **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12), PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12). Confirmed 100% ambient flavor; zero items or story triggers.
 
@@ -549,7 +550,7 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F (Audited Turns 9161-9168)**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30) all provide ambient flavor dialogue (confirmed 100% ambient pop-culture easter egg room with zero story flags).
+- **Interior 1F (Audited Turns 9161-9168)**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30) all provide ambient flavor dialogue (Verified 0 items or story triggers.).
 
 - **Interior 2F (Audited Turns 5933, 9177)**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
 
@@ -653,32 +654,19 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 13501)
-- **Verified Game State**:
-  - Metro Turnstile at (19, 21): Re-tested Turns 12777, 13055, 13058, 13109; strictly displays "I should find dad first!" and repels South to (19, 22).
-  - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
-  - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
-  - Active Quest: Machop's Toy COMPLETED (Turn 13331); rewarded Black Belt. Re-tested Metro turnstile at (19, 21) on Turns 13353-13355; confirmed strictly blocked by 'I should find dad first!'.
-  - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
+## Investigation Status & Hypotheses (Turn 13591)
+- **Core Progression Blocker**: The Metro turnstile check requires finding Jackson ("I should find dad first!"). Route 2 gate displays "I can't go yet... I have things to do!".
+- **Settled / Audited Locations**:
+  - Machop's Toy quest: Completed Turn 13331 (rewarded Black Belt).
+  - Sovio Sewers: 100% audited; grunts retreated, storage room inert at (37, 14), rugged rock at (22, 10) requires specialized equipment.
+  - Lancio Town: 100% audited; Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked (Turns 11767, 13506), harbor boat empty/discontinued.
+  - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
 
-## Settled / Audited Locations & Hypotheses (Condensed)
-- **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Confirmed zero automated script triggers or cutscenes outside Metro portal.
-- **Hypothesis I (Pre-Turnstile Metro Lobby NPCs/Trigger)**: Tested Turns 12775-12777, 13109. Lobby contains zero NPCs (Dad and Valora absent); turnstile at (19, 21) strictly blocks passage with 'I should find dad first!'.
-- **Hypothesis K (Two-Story Building Roof/Flank)**: Falsified Turns 12919-12927. Row 22 leads only to Route 2 gate; southward traversal into row 23 blocked by solid collision.
-- **Target 1: Sovio City Pokémon Center (Audited Turns 12788-12883)**: 100% verified standard functions/ambient dialogue.
-- **Target 2: Northern Commercial/Residential Row**: House at (39, 7) (Audited Turns 12848-12863) verified ambient flavor (Wii console dialogue). House at (29, 14) (Gumball family) and (14, 15) (Karate couple) verified ambient.
-- **South Sidewalk Children's Gathering (Audited Turns 13135-13138)**: Tested Little Girl (33, 28) regarding Moon Stone, Jigglypuff (34, 28) ('Puff Puff!'), and Boy (35, 28) ('Yeah Jigglypuff!'). 100% verified ambient flavor.
-- **Eastern Storage Room in Sovio Sewers (Audited Turn 13081)**: Tile (37, 14) displays "Its a simple storage room..." with solid south void collision. Confirmed inert post-retreat.
+## Active Focus & Specific Hypotheses for Sovio City
+- **Hypothesis 1 (Plaza Confrontation Ground Sweep)**: COMPLETED Turn 13717. Traversed (43-44, 13-15) outside Pok�mon Center; confirmed 100% inert with zero hidden items, dropped passes, or cutscene triggers.
+- **Hypothesis 2 (Metro Timetable Detailed Inspection)**: COMPLETED Turn 13725-13726. Tested facing Up from center at (22, 24); confirmed ambient flavor ("It's a timetable showing various destinations!").
+- **Hypothesis 3 (Central Park Pond Perimeter & Secluded Areas)**: Investigate park paths around (32-42, 20-30) south of the plaza for any NPCs or dropped items.
+- **Hypothesis 4 (Inventory & Key Item Inspection)**: HuPhone Mailbox audited Turn 13734 ('There's no Mail here.'). Items and Key Items audited.
 
-## Active Investigation & Strategic Analysis
-- **Core Progression Blocker**: The Metro turnstile check requires finding Jackson.
-- **Uninspected / Unresolved Avenues**:
-  1. Surface Information / Quests: Re-evaluating Machop's Toy quest from the Old Man at (51, 15) (lost deep in the sewers - could finding the toy or completing the quest open a passage or reward a required tool?).
-  2. Subterranean Exploration: Checking other sewer mechanics, potential hidden switches, or unverified tiles beyond the single storage room at (37, 14).
-  3. Interactive background elements: Metro timetable, ticket machines, or other civic fixtures.
-
-## Investigation Update (Turn 13474)
-- **Sovio City Surface Audit**: West Avenue verified ambient (Rocky boy, Karate couple, Bikers 1-3).
-- **Current Operational Plan**: Completing audit of Lancio Town (Professor Ivo's Lab and harbor) since we are currently adjacent on Route 1. If Lancio Town yields no triggers, return via Route 1 northbound corridor to Sovio City to investigate remaining civic structures, manholes, and tremor anomalies.
 
 <hr>
