@@ -9,23 +9,22 @@
 - **Sovio Metro Lobby**:
   - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
   - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
-- **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 PokÃ©mon) audited 100% empty. Party size/composition does not gate turnstile blocker.
+- **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pokémon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 - **Sovio Sewers Audited Features**:
   - Machop's Toy Quest: Completed Turn 13331 (Black Belt obtained).
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
+  - Western Corridor & Grunt 2 Platform (Cols 14-19, Rows 11-27): Grunt 2 platform at (18, 21-22) verified empty on Turn 15205 (Grunt 2 retreated; Jackson not present).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS2 (Sovio Sewers Inner Sectors & Jackson Detention Cell)**:
-  - **Rationale**: Progression analysis confirms the Metro blocker ('I should find dad first!') is hard-coded to Jackson's rescue event flag. Tile (37, 14) returning 'Its a simple storage room...' was an ambient prop, not Jackson's actual cutscene cell. Marie's broadcast (Turn 2682) cleared the grunts, but Jackson's sprite remains waiting in an accessible room, alcove, or platform in the sewer complex.
-  - **Primary Objective**:
-    1. Sewer Western Corridor & Grunt 2 Platform Audit (Cols 14-19, Rows 11-27):
-       - Grunt 2 platform at (18, 21-22) verified empty (Grunt 2 retreated; Jackson not present).
+- **Hypothesis SS1 (Eastern Storage Room & Platform Boundary Protocol)**:
+  - **Rationale**: Jackson was held in a sewer storage room during the cutscene. Before permanently concluding the sewer is exhausted, execute an explicit, falsifiable physical audit of the platform at columns 36-38, rows 12-14.
+  - **Test Protocol**:
+    1. Red mat at (37, 14): Record exact verbatim text of 'A' interaction from (37, 13) and on (37, 14). Test step Down collision.
+    2. Platform northern expansion at row 12: Probe (36, 12), (37, 12), and (38, 12) for walkability and wall interactions.
+    3. Platform eastern boundary: Probe column 38 and column 39 collision.
+    4. Outcome: If all platform boundaries and interactions confirm inert/ambient, permanently settle and archive the Eastern Platform, concluding the sewer complex contains no further triggers.
 
 ## Settled Hypotheses
 - **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**: Verified decorative exterior with zero doors or triggers (documented in Locations/Sovio_City.md).
 - **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
-  - Status: Settled Turn 14727. Map edge perimeters (Southern Avenue tree lines, southwest lawn at 12, 30, rear Biker lane at col 12, western office boundary at col 11, northern alcove at 39, 7, and elevated terrace edge at col 52) are 100% verified solid dead-ends with no map exits. Note: Internal urban building facades and interactions within city limits remain subject to specific auditing under SC2.
-
-## Archived Hypotheses (Exhausted / Evaluated)
-- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room - EXHAUSTED)**:
-  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149; Turn 14829 attempt aborted into wild combat). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor.
+  - Status: Settled Turn 14727. Map edge perimeters are 100% verified solid dead-ends with no map exits.
