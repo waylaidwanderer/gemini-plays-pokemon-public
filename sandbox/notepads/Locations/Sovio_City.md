@@ -142,7 +142,7 @@
 
 - **Interior 1F**: Entrance mat at (5, 36).
 
-  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Verified 100% ambient flavor text across multi-turn tests (Turns 8810-8819).
+  - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better. Re-verified 100% ambient debate dialogue post-quest (Turns 14467-14470); trainer prefers karate, girlfriend prefers kickboxing.
 
   - Family Machop at (6-7, 33-35); permanently displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...' regardless of quest status (verified post-quest Turn 14148; separate from Old Man's terrace Machop).
 
