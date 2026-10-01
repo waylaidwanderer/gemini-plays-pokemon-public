@@ -699,21 +699,15 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pok�mon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS3 (Eastern Storage Room Multi-Directional Interaction Protocol)**:
-  - **Start Turn**: 15444
-  - **Status**: In Progress
-  - **Rationale**: The Turn 1666 cutscene localized Jackson's capture to the sewer storage room. Surface exploration confirmed that domestic interiors and landmarks remain static. We are returning to the Eastern Storage Room platform (rows 12-14, cols 36-38) to execute a rigorous multi-directional interaction protocol.
-  - **Test Protocol**:
-    1. Navigate to Eastern Platform at (36, 13).
-    2. Position at (37, 13) directly North of the red mat; press 'A' facing South toward (37, 14).
-    3. Step onto the red mat at (37, 14); press 'A' facing North, South, East, and West.
-    4. Test directional steps from (37, 14).
-    5. Check adjacent platform tiles (36, 14), (38, 14), (36, 12), (37, 12), (38, 12).
+- **Active Phase**: SS3 fully audited and settled. The Eastern Storage Room is confirmed as an empty ambient set piece post-retreat. Jackson is not in Sovio Sewers. Returning to surface (Sovio Metro Station / Sovio City) to investigate unexplored dialogue and progression triggers.
 
 ## Settled Hypotheses
-- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
-  - Status: Settled Turn 15261. Executed full 4-step physical protocol. Red mat at (37, 14) confirmed ambient single-line textbox ('Its a simple storage room...') and solid south void collision. Northern expansion (36-38, 12) and eastern boundary (col 39) verified solid walls with inert 'A'. Platform 100% ambient prop.
-
+- **Hypothesis SS3 (Eastern Storage Room Multi-Directional Interaction Protocol - 100% SETTLED & ARCHIVED)**:
+  - Status: Settled Turn 15480. Protocol verification:
+    1. Red mat at (37, 14) confirms text "Its a simple storage room..." facing South (Turn 15470).
+    2. Stepping Down off (37, 14) bumps into solid void collision at (37, 15) with zero warp (Turn 15472).
+    3. Platform bounds and red mat perimeter physically verified across Turns 15247-15261 and 15470-15479; no hidden switches, secret warps, or NPCs exist.
+    Conclusion: The Eastern Storage Room is confirmed as an empty ambient set piece post-Team Siara retreat. Jackson is definitively not here.
 - **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - 100% SETTLED & ARCHIVED)**:
   - Status: Settled Turn 15341. Systematic boundary audit of rows 22-28, columns 6-19: (11, 28-26) floor, (11, 25) solid ledge (inert 'A'), (10-6, 26) floor & puddle, (6, 26) west wall (inert 'A'), (6, 27-28) floor, (6, 29) south void (inert 'A'). Zero hidden rooms, NPCs, or progression triggers found along audited open corridors.
 
