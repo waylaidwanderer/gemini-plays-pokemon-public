@@ -12,12 +12,7 @@
 ## Settled / Falsified Hypotheses (Condensed)
 - **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Confirmed zero automated script triggers or cutscenes outside Metro portal.
 - **Hypothesis I (Pre-Turnstile Metro Lobby NPCs/Trigger)**: Tested Turn 12775-12777. Lobby contains zero NPCs (Dad and Valora absent); turnstile at (19, 21) strictly blocks passage with 'I should find dad first!'.
-- **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro.
-- **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
-- **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
-- **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
 - **Hypothesis K (Two-Story Building Roof/Flank)**: Falsified Turns 12919-12927. Row 22 leads only to Route 2 gate; southward traversal into row 23 blocked by solid collision.
-- **Sub-Hypothesis 1 (Machop's Toy Ground Search in Sewers)**: CLOSED Turn 12724. Tested northern and western corridors (Western Terrace 14, 12; Northern Gangway 15-27, 5; puddles at 33-35, 22; 36-38, 27-28; 28, 19; 14-15, 11; 26-27, 5) with zero visible item balls or prompts found. Quest strategically deprioritized to refocus on primary story progression and locating Jackson on the surface.
 
 ## Active Investigation: Jackson's Whereabouts & Sovio City Surface Facilities
 
@@ -41,7 +36,6 @@
 - **Primary Blocker Re-verified**: Stepping onto turnstile at (19, 21) strictly displays "I should find dad first!" and repels south to (19, 22).
 - **Surface Audit 100% Complete**: All 7 surface sectors of Sovio City, 100% of Route 1, and 100% of Lancio Town have been physically audited in the post-retreat state. Jackson is not present as a surface overworld NPC.
 - **Subterranean Target (Sovio Sewers)**: Since surface spaces are exhausted, Jackson's rescue event or flag is tied to the subterranean space where the tremor originated and where Jackson was held captive.
-- **Investigation Plan**:
-  1. Descend into Sovio Sewers via Metro lobby red mat (18-19, 25).
-  2. Navigate directly to the Eastern Storage Room at (37, 14) along row 13 gangway.
-  3. Systematically test all interaction vectors and perimeter tiles around the storage room platform (36-38, 14) to verify how the door or event triggers.
+- **Investigation Results (Turn 13081)**:
+  - Eastern Storage Room at (37, 14) re-tested: strictly displays "Its a simple storage room..." facing South, with solid void collision. Storage room is confirmed 100% inert post-retreat.
+  - Subterranean hypothesis for storage room (37, 14) is officially FALSIFIED. Jackson is not inside and the tile is inactive.
