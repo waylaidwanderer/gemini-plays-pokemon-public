@@ -12,35 +12,11 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pok�mon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS2 (Western Gauntlet & Corridor Boundary Probe - Rows 22-28, Cols 14-19)**:
-  - **Start Turn**: 15293
-  - **Status**: In Progress
-  - **Rationale**: The western gauntlet was the station of Grunt 2 and contains partition walls and corridor extensions south of row 22 that have never been physically probed with collision and 'A' interactions. The previous conclusion that this sector was settled was a scope-of-proof violation based solely on Grunt 2's despawn. Jackson or a detention partition may be located along these unprobed boundaries.
-  - **Test Protocol**:
-    1. Navigate from Eastern Gangway to Western Gauntlet via bridge, ladder, and stairs to (18, 22) [Completed Turn 15293].
-    2. Systematically probe the vertical corridor from row 22 to row 27: test east and west partition walls at rows 22, 23, 24, 25, 26 with directional bumps and 'A' presses.
-    3. Audit the row 27-28 horizontal corridor between columns 14 and 19: test north and south wall boundaries.
-    4. Record exact collision results and text prompts for every probed tile.
-  - **Empirical Results Log**:
-    - **Row 22 (Turn 15294)**:
-      - (18, 22): Walkable floor (Grunt 2 standing tile).
-      - (17, 22): Walkable floor. West boundary (16, 22) is solid black void collision; 'A' interaction inert.
-      - (19, 22): Walkable floor. East boundary (20, 22) is solid black void collision; 'A' interaction inert.
-    - **Rows 23-25 (Turns 15296-15308)**:
-      - (18, 23): Walkable floor.
-      - (17, 23): Walkable floor! Column 17 is a clear vertical passage connecting row 22 directly down to row 24.
-      - (17, 24): Walkable floor.
-      - (16, 24): Solid brick wall collision; 'A' interaction inert.
-      - (18, 24): Walkable floor.
-      - (19, 24): Walkable floor. East boundary (20, 24) is solid brick wall collision; 'A' interaction inert.
-      - (19, 25): Walkable floor. East boundary (20, 25) is solid brick wall collision; 'A' interaction inert.
-      - (18, 25): Walkable floor.
-      - (17, 25): Walkable floor.
-      - (16, 25): Walkable floor! (Wall does not block row 25 at column 16).
-    - **Row 26 (Turn 15314-15315)**:
-      - (16, 26): Walkable floor.
-      - (15, 26): Walkable floor. Arrived at (15, 26).
-      - Corridor continues west and south toward row 27 and column 12 stairs.
+- **Surface Narrative Triggers & Regional Leads**:
+  - With open corridors in Sovio Sewers physically mapped and no visible NPCs found, the investigation pivots to the surface:
+    1. Check Sovio Metro Station lobby NPCs and attendants.
+    2. Check Sovio City exterior NPCs and structures for tremor-related dialogue or events.
+    3. Re-examine potential prerequisite dependencies across Hupest.
 
 ## Settled Hypotheses
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
