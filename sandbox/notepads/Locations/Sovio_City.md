@@ -56,11 +56,19 @@
 
 - **Central Park South Border & East Walkway (Verified Turns 9664, 13763-13783)**: The western curb past the pine hedges at column 42 leads into a dead-end hedge alcove at (42, 30). Columns 44-45 form a paved walkway connecting row 19 south to row 26, terminated at row 27 by a stone curb and dense bushes with a decorative sewer manhole at (42, 27). The two-story building facade at column 46 is solid wall across rows 24-29. Stepping Down from (47, 22) into row 23 or Left from (47, 22) into column 46 confirmed solid wall collisions.
 
-- **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-29)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-29) features brown wooden siding and blue windowpanes.
+- **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-31)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-31) features brown wooden siding, blue windowpanes, and decorative wooden shutters.
 
   - **Upper Roof Perimeter & Collision (Audited Turns 11074-11080)**:
 
     - Walkable corridor beneath roof graphic connects row 19 through rows 20-22 east to column 52.
+
+  - **Southern Facade & Perimeter Collision (Audited Turns 14966-14969)**:
+
+    - Tan brick sidewalk runs south of Central Park pond to columns 44-46 across rows 28-30.
+    - Column 46 has two silver trash cans at (46, 30) and (46, 31); tested with 'A' on Turn 14966/14968 (inert, no items).
+    - Foundation wall at (47, 29) tested with 'Right' bump (solid collision).
+    - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
+    - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border. 100% decorative exterior with zero doors or interaction scripts.
 
 ## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
 

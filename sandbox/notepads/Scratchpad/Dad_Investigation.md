@@ -16,15 +16,16 @@
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SC2 (Sovio City Unexamined Spaces & System Triggers)**:
-  - **Rationale**: Sovio Sewers are completely exhausted across all sectors (Machop's toy returned, Siara grunts retreated, storage room verified ambient). Metro turnstile blocker explicitly checks Jackson's rescue flag ('I should find dad first!'). We must exit the sewers to Sovio City and systematically audit unexamined spaces, structures, and interaction mechanics.
-  - **Primary Targets**:
-    1. Two-Story Commercial/Residential Building (columns 47-51, rows 20-29) south of Central Plaza. Verify whether any entrance exists or if lower story wooden siding has interaction triggers.
-    2. Re-audit key Sovio City locations and dialogue triggers with fresh eyes.
-  - **Target 1 Audit Result (Audited Turns 14966-14969)**: The southern facade of the commercial building (columns 47-51, rows 28-31) consists of decorative wooden shutters flanked by blue window panes, matching the non-enterable decorative buildings elsewhere in Sovio City. Solid building wall at (47, 29) and trash cans at (46, 30-31) block the facade, and dense pine hedges at row 31 border the south. 100% decorative exterior scenery with zero accessible doors or progression triggers.
-  - **Conclusion**: Sovio City surface structures contain zero entry points or progression triggers. Validates progression_investigator deduction: progression is gated by locating Jackson within Sovio Sewers.
+- **Hypothesis SS2 (Sovio Sewers Inner Perimeter & Jackson Rescue Flag)**:
+  - **Rationale**: Marie's retreat broadcast (Turn 2682) despawned hostile grunts, but Jackson's captive state was never cleared, leaving the Metro turnstile blocked ('I should find dad first!'). In Pokémon Sors / CFRU scripting, grunts guard the path leading directly to the captive NPC. We must advance to the terminus of the grunt corridor (upper gangway, storage room, and adjacent sectors) to locate Jackson's holding area and trigger his dialogue/rescue.
+  - **Primary Objectives**:
+    1. Ascend western stairs at (14, 17) to Western Terrace and take the wall ladder at (15, 6-10) to the northern gangway.
+    2. Cross the vertical bridge at column 23 to row 13 platform.
+    3. Systematically audit the eastern gangway (row 13) leading to the storage room at (37, 14), probing all wall segments, corridor thresholds, and the command post area where the Turn 2682 retreat fired.
 
 ## Settled Hypotheses
+- **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**:
+  - Status: Settled Turn 14969. Commercial building southern facade (47-51, 28-31) verified decorative wooden shutters with trash can / hedge barriers and zero enterable doors. Surface structures contain zero entry points or progression triggers. Validates that Jackson's progression gate must be resolved within Sovio Sewers.
 - **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
   - Status: Settled Turn 14727. Map edge perimeters (Southern Avenue tree lines, southwest lawn at 12, 30, rear Biker lane at col 12, western office boundary at col 11, northern alcove at 39, 7, and elevated terrace edge at col 52) are 100% verified solid dead-ends with no map exits. Note: Internal urban building facades and interactions within city limits remain subject to specific auditing under SC2.
 
