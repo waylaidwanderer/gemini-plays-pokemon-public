@@ -644,7 +644,7 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 12810)
+## Investigation Status & Active Hypotheses (Updated Turn 12902)
 - **Verified Game State**:
   - Metro Turnstile at (19, 21): Re-tested Turn 12777 (post-quest-cancellation & threshold sweep); strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
@@ -654,7 +654,7 @@
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Falsified Hypotheses (Condensed)
-- **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Traversed (45, 14) -> (45, 19) -> (49, 19) -> (49, 18) -> (48, 18); confirmed zero automated script triggers or cutscenes outside Metro portal.
+- **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Confirmed zero automated script triggers or cutscenes outside Metro portal.
 - **Hypothesis I (Pre-Turnstile Metro Lobby NPCs/Trigger)**: Tested Turn 12775-12777. Lobby contains zero NPCs (Dad and Valora absent); turnstile at (19, 21) strictly blocks passage with 'I should find dad first!'.
 - **Cognitive Correction on Jackson Status**: Context summary statements claiming Asher reunited with Jackson and Valora on Turn 2279-2716 are confirmed context summarization hallucinations. Verifiable ground truth: Jackson was held by grunts (Turn 1666), sewer storage room at (37, 14) is empty, and Jackson has NOT been found. Finding Jackson remains the active primary blocker.
 - **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro.
@@ -677,6 +677,11 @@
   - Conclusion: Target 1 100% complete across both floors in post-retreat state under Burden of Proof.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
+## Hypothesis K: Eastern Flank & Two-Story Building Lower Story (Columns 51-52, Rows 22-30)
+- **Status**: ACTIVE.
+- **Rationale**: Prior audit (Turns 11074-11080) confirmed rows 20-22 are walkable beneath the two-story building roof, connecting eastward to (51, 22) and (52, 22). While eastward traversal from column 52 triggers the Route 2 story barrier, southward traversal along columns 51-52 past row 22 was never tested. Row 30 street beneath the building is blocked from the west (Turn 9664), suggesting the eastern flank may provide access to the lower building facade (rows 28-29) and unexplored southern street.
+- **Empirical Result (Turn 12919-12920)**: Stepping onto (52, 22) and attempting Down triggered the Route 2 story barrier ('I can't go yet... I have things to do!'). Column 52 row 22 is an active story barrier trigger.
+- **Test Protocol**: Navigate to (47, 19), step Down into roof passage at (47, 20-22), walk East to (51-52, 22), and probe southward traversal along columns 51 and 52.
 
 
 <hr>
