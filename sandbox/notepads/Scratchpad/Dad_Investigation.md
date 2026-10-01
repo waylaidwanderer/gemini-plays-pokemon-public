@@ -13,9 +13,9 @@
   - SC1 (Pokémon Center 44, 12): Camper at (5, 7) Weedle text; Boy at (9, 6) PC text.
   - SC2 (North-Central House 39, 7): Elderly man repeats Wii text.
 - **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
+- **Deep Subterranean Sector (Sovio Sewers)**: Audited Turn 14052. 3x3 chamber (2, 38) perimeter walls probed inert; single-purpose quest room where Machop's toy was retrieved.
 
 ## Unverified Leads & Active Hypotheses
-- **Hypothesis S3 (Deep Subterranean Sector)**: Settled Turn 14052. 3x3 chamber exhaustively audited; perimeter walls probed inert. Confirmed single-purpose quest room.
 - **Hypothesis U1 (Unvisited Residences in Current Cycle)**:
   - SC3 (Terrace House 49, 14 above Metro Station)
   - SC4 (Gumball House 29, 14)
