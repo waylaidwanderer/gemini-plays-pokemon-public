@@ -46,6 +46,7 @@
 
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
+- **Central Park Pond Feature (Audited Turn 15416-15417)**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; 'A' interaction facing South from (39, 16) is inert on foot.
 
 - **South Sidewalk & Children's Gathering (Audited Turns 13135-13138)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) verified 100% ambient flavor dialogue regarding Moon Stone evolution.
 
