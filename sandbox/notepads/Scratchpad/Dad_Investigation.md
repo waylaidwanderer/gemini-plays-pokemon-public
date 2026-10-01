@@ -12,11 +12,11 @@
 ## Settled / Falsified Hypotheses (Condensed)
 - **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Confirmed zero automated script triggers or cutscenes outside Metro portal.
 - **Hypothesis I (Pre-Turnstile Metro Lobby NPCs/Trigger)**: Tested Turn 12775-12777. Lobby contains zero NPCs (Dad and Valora absent); turnstile at (19, 21) strictly blocks passage with 'I should find dad first!'.
-- **Cognitive Correction on Jackson Status**: Context summary statements claiming Asher reunited with Jackson and Valora on Turn 2279-2716 are confirmed context summarization hallucinations. Verifiable ground truth: Jackson was held by grunts (Turn 1666), sewer storage room at (37, 14) is empty, and Jackson has NOT been found. Finding Jackson remains the active primary blocker.
 - **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
 - **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
 - **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
+- **Hypothesis K (Two-Story Building Roof/Flank)**: Falsified Turns 12919-12927. Row 22 leads only to Route 2 gate; southward traversal into row 23 blocked by solid collision.
 - **Sub-Hypothesis 1 (Machop's Toy Ground Search in Sewers)**: CLOSED Turn 12724. Tested northern and western corridors (Western Terrace 14, 12; Northern Gangway 15-27, 5; puddles at 33-35, 22; 36-38, 27-28; 28, 19; 14-15, 11; 26-27, 5) with zero visible item balls or prompts found. Quest strategically deprioritized to refocus on primary story progression and locating Jackson on the surface.
 
 ## Active Investigation: Jackson's Whereabouts & Sovio City Surface Facilities
@@ -32,12 +32,7 @@
   - Conclusion: Target 1 100% complete across both floors in post-retreat state under Burden of Proof.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
-## Hypothesis K: Eastern Flank & Two-Story Building Lower Story (Columns 51-52, Rows 22-30)
-- **Status**: FALSIFIED (Turns 12919-12927).
-- **Findings**:
-  - Traversal east onto column 52 at row 22 triggers the Route 2 story barrier ('I can't go yet... I have things to do!') which repels West to (51, 22).
-  - Southward traversal from (51, 22) into (51, 23) confirmed solid collision (blocked Turn 12926).
-  - Confirmed: Zero southern passage exists through or around the building from rows 20-22; the roof passage is a dead-end corridor connecting Central Plaza to the Route 2 gate.
+
 ## Southern Avenue & Transition to Route 1 (Turns 12940-12946)
 - Traversed Southern Avenue along columns 14-15 from West Avenue past Three Bikers (13, 21-23), through the dark brick archway at rows 28-29, and down to row 39. Confirmed zero NPCs, doors, or items along the avenue.
 - Sovio City Sectors Audited: Central Plaza, Northern Row, West Avenue, Two-Story Building roof passage, Southern Avenue.
