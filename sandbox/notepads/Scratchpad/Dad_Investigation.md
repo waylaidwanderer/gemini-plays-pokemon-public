@@ -20,8 +20,8 @@
 - **Deep Subterranean Sector (Sovio Sewers)**: Audited Turn 14052. 3x3 chamber (2, 38) perimeter walls probed inert; single-purpose quest room where Machop's toy was retrieved.
 
 ## Active Hypotheses & Primary Focus
-- **Hypothesis S1 (Sewers Storage Room & Grunt Retreat Site Re-Audit)**:
-  - **Context**: Grunts vacated after Marie's radio order (Turn 2682), but Jackson was never located. The Eastern Storage Room at (37, 14) displayed 'Its a simple storage room...'.
-  - **Targets**: Eastern Storage Room at (37, 14), red mat tile behavior, and adjacent canal perimeters.
-  - **Method**: Return to Sovio Sewers via Metro lobby mat (18-19, 25), navigate to (37, 14), systematically probe all adjacent tiles and mat entry orientations.
-  - **Falsification Criteria**: If (37, 14) and surrounding perimeter remain strictly inert with no entry or dialogue, rule out Eastern Storage Room as an accessible holding cell.
+- **Hypothesis SC4 (Gumball Residence SC4 Audit - Priority Lead)**:
+  - **Context**: SC4 (29, 14) was approached on Turn 14160 but abandoned at (28, 16) without entering. It is the sole uninspected residential interior in Sovio City this cycle, as identified by the critique and narrative_analyst agent.
+  - **Targets**: SC4 interior at (29, 14): 1F Mother at (27, 33), Boy at (25, 32), TV, and 2F bedroom resident at (27, 15-16).
+  - **Method**: Ascend from sewers to surface, traverse West Avenue to (29, 14), enter SC4, test all NPCs and fixtures for Dad clues or story progression triggers.
+  - **Falsification Criteria**: If all SC4 occupants repeat baseline flavor dialogue and no story flags/events update, declare SC4 100% settled/ambient.
