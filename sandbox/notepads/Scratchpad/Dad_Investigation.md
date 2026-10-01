@@ -17,12 +17,11 @@
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis SS2 (Sovio Sewers Inner Sectors & Jackson Detention Cell)**:
   - **Rationale**: Progression analysis confirms the Metro blocker ('I should find dad first!') is hard-coded to Jackson's rescue event flag. Tile (37, 14) returning 'Its a simple storage room...' was an ambient prop, not Jackson's actual cutscene cell. Marie's broadcast (Turn 2682) cleared the grunts, but Jackson's sprite remains waiting in an accessible room, alcove, or platform in the sewer complex.
-  - **Primary Objectives**:
-    3. Sewer Main Floor Northern & Western Gangways: Trace every gangway, platform, and archway that may lead into the detention room seen in the Turn 1666 cutscene.
+  - **Primary Objective**:
+    1. Sewer Western Terrace & Grunt 2 Platform Audit (Cols 14-19, Rows 11-23): Systematically probe terrace perimeter and Grunt 2's platform for Jackson or detention room entrance.
 
 ## Settled Hypotheses
-- **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**:
-  - Status: Settled Turn 14969. Commercial building southern facade (47-51, 28-31) verified decorative wooden shutters with trash can / hedge barriers and zero enterable doors. Surface structures contain zero entry points or progression triggers. Validates that Jackson's progression gate must be resolved within Sovio Sewers.
+- **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**: Verified decorative exterior with zero doors or triggers (documented in Locations/Sovio_City.md).
 - **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
   - Status: Settled Turn 14727. Map edge perimeters (Southern Avenue tree lines, southwest lawn at 12, 30, rear Biker lane at col 12, western office boundary at col 11, northern alcove at 39, 7, and elevated terrace edge at col 52) are 100% verified solid dead-ends with no map exits. Note: Internal urban building facades and interactions within city limits remain subject to specific auditing under SC2.
 
