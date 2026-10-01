@@ -42,18 +42,9 @@
       - (15, 26): Walkable floor. Arrived at (15, 26).
       - Corridor continues west and south toward row 27 and column 12 stairs.
 
-    - **Lower Floor & Boundaries (Turns 15333-15341)**:
-      - (11, 28) to (11, 26): Walkable floor along column 11.
-      - (11, 25): Solid elevation wall/ledge collision; 'A' interaction inert.
-      - (10-6, 26): Walkable floor and shallow puddle (cols 7-8).
-      - (6, 26): West wall collision verified; 'A' interaction inert.
-      - (6, 27-28): Walkable floor along column 6.
-      - (6, 29): South void boundary collision verified; 'A' interaction inert.
-      - Conclusion: Western Gauntlet and lower western floor 100% audited and verified empty.
-
 ## Settled Hypotheses
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
   - Status: Settled Turn 15261. Executed full 4-step physical protocol. Red mat at (37, 14) confirmed ambient single-line textbox ('Its a simple storage room...') and solid south void collision. Northern expansion (36-38, 12) and eastern boundary (col 39) verified solid walls with inert 'A'. Platform 100% ambient prop.
 
 - **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - 100% SETTLED & ARCHIVED)**:
-  - Status: Settled Turn 15341. Executed full systematic boundary audit of rows 22-28, columns 6-19. All partition walls, void boundaries, and elevation ledges verified solid with inert 'A' checks. Zero hidden rooms, NPCs, or progression triggers. All accessible sectors of Sovio Sewers are now 100% accounted for. Jackson is not in the sewers.
+  - Status: Settled Turn 15341. Systematic boundary audit of rows 22-28, columns 6-19: (11, 28-26) floor, (11, 25) solid ledge (inert 'A'), (10-6, 26) floor & puddle, (6, 26) west wall (inert 'A'), (6, 27-28) floor, (6, 29) south void (inert 'A'). Zero hidden rooms, NPCs, or progression triggers. All accessible sectors of Sovio Sewers are now 100% accounted for. Jackson is not in the sewers.

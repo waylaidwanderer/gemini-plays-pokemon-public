@@ -731,8 +731,7 @@
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
   - Status: Settled Turn 15261. Executed full 4-step physical protocol. Red mat at (37, 14) confirmed ambient single-line textbox ('Its a simple storage room...') and solid south void collision. Northern expansion (36-38, 12) and eastern boundary (col 39) verified solid walls with inert 'A'. Platform 100% ambient prop.
 
-    - **Lower Floor & Northern Ledge (Turn 15333-15334)**:
-      - (11, 28) to (11, 26): Walkable floor along column 11.
-      - (11, 25): Solid elevation wall/ledge collision; 'A' interaction inert.
+- **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - 100% SETTLED & ARCHIVED)**:
+  - Status: Settled Turn 15341. Systematic boundary audit of rows 22-28, columns 6-19: (11, 28-26) floor, (11, 25) solid ledge (inert 'A'), (10-6, 26) floor & puddle, (6, 26) west wall (inert 'A'), (6, 27-28) floor, (6, 29) south void (inert 'A'). Zero hidden rooms, NPCs, or progression triggers. All accessible sectors of Sovio Sewers are now 100% accounted for. Jackson is not in the sewers.
 
 <hr>
