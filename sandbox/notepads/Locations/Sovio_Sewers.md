@@ -63,7 +63,3 @@
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some effort, a Pokémon may be able to smash it." Confirmed impassable without HM Rock Smash (verified Turns 4549, 7768).
 - **Western Alcove & Mat (Verified Turns 4549, 7316-7317)**: Red capsule mat at (15, 9) is walkable floor (does not warp). Walkway continues north to (15, 8) and west along row 8 to (13, 8), terminating at solid walls north at row 7, west at column 12, and south at (13, 9). All tiles, the red mat, and perimeter walls at (15, 9), (15, 8), (14, 8), and (13, 8) were exhaustively probed with 'A' on Turn 7316-7317; confirmed completely inert with no hidden switches, secret doors, or items.
 
-- **Puddle Searches with Active Quest (Verified Turns 12641-12659)**:
-  - 1F landing shallow puddle tiles at (33-35, 22): exhaustively probed with 'A' (Turns 12641-12642); zero items/prompts.
-  - Eastern lower alcove shallow puddle at rows 27-28, columns 36-38: exhaustively probed with 'A' (Turns 12644-12649); zero items/prompts.
-  - Central corridor puddle alcove at (28, 19): probed with 'A' (Turns 12658-12659); zero items/prompts.
