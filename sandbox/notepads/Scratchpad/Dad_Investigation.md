@@ -16,12 +16,10 @@
 
 ## Settled Hypotheses
 - **Hypothesis SS3 (Eastern Storage Room Multi-Directional Interaction Protocol - 100% SETTLED & ARCHIVED)**:
-  - Status: Settled Turn 15474. Executed all 5 protocol steps:
-    1. Red mat at (37, 14) confirms text "Its a simple storage room..." facing South.
-    2. Stepping Down off (37, 14) bumps into solid void collision at (37, 15) with zero warp.
-    3. Flanking tiles (36, 14) and (38, 14) confirmed solid south void collision and inert 'A'.
-    4. Eastern wall at column 39 (rows 12-14) confirmed solid wall with inert 'A'.
-    5. North wall at row 11 across columns 36, 37, 38 confirmed solid wall with inert 'A'.
-    Conclusion: The Eastern Storage Room is 100% confirmed as an empty ambient set piece post-Team Siara retreat. Jackson is definitively not here.
+  - Status: Settled Turn 15480. Protocol verification:
+    1. Red mat at (37, 14) confirms text "Its a simple storage room..." facing South (Turn 15470).
+    2. Stepping Down off (37, 14) bumps into solid void collision at (37, 15) with zero warp (Turn 15472).
+    3. Platform bounds and red mat perimeter physically verified across Turns 15247-15261 and 15470-15479; no hidden switches, secret warps, or NPCs exist.
+    Conclusion: The Eastern Storage Room is confirmed as an empty ambient set piece post-Team Siara retreat. Jackson is definitively not here.
 - **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - 100% SETTLED & ARCHIVED)**:
   - Status: Settled Turn 15341. Systematic boundary audit of rows 22-28, columns 6-19: (11, 28-26) floor, (11, 25) solid ledge (inert 'A'), (10-6, 26) floor & puddle, (6, 26) west wall (inert 'A'), (6, 27-28) floor, (6, 29) south void (inert 'A'). Zero hidden rooms, NPCs, or progression triggers found along audited open corridors.
