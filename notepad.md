@@ -672,7 +672,11 @@
 - **Deep Subterranean Sector (Sovio Sewers)**: Audited Turn 14052. 3x3 chamber (2, 38) perimeter walls probed inert; single-purpose quest room where Machop's toy was retrieved.
 
 ## Active Hypotheses & Primary Focus
-- **Hypothesis M1 (Metro Station Lobby & Attendant Audit)**: Audit the Sovio Metro Station lobby: can the station attendant at (22, 19) or vending machine at (18, 19) be interacted with across the gate/railing? Check all perimeter tiles of the lobby for missed NPCs or triggers.
+- **Hypothesis M1 (Metro Station Lobby & Attendant Audit - AUDITED Turn 14177)**:
+  - Turnstile at (19, 21) strictly triggers 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Barrier remains active.
+  - Station attendant is stationed at (22, 19) on the platform side; physically inaccessible from the lobby across the solid brick wall/chairs.
+  - Timetable board at (21-23, 23) displays 'AMOR 16:00', 'ALHIA 20:00' with ambient destinations text.
+  - Conclusion: Train platform is gated by the prerequisite flag to locate Dad (Jackson).
 - **Hypothesis B1 (Primary Story Progression Trigger)**: Dad ran outside into Sovio City during the tremor. If the Metro turnstile still says 'I should find dad first!', determine whether a specific overworld location or interaction in Sovio triggers Dad's return or advances the story.
 
 
