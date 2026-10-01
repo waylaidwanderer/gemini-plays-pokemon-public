@@ -647,7 +647,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720, 11173)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room (Audited Turns 8637, 11127, 11149)**: Located at the eastern dead-end along row 14. Tile (37, 14) holds the red capsule mat; interacting facing South displays "Its a simple storage room..."; stepping Down bumps into south void collision with no warp. Flanking tiles (36, 14) and (38, 14) are bare stone floor with inert 'A' interactions and south void collisions.
+- **Eastern Storage Room & Platform (Audited Turns 8637, 11127, 11149, 15247-15261)**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat; interacting facing South displays verbatim: "Its a simple storage room..." and dismisses on 'A'; stepping Down bumps into south void collision with zero warp. Flanking tiles (36, 14) and (38, 14) have solid south void collision at row 15. North wall at row 11 (cols 36-38) has solid wall collision and inert 'A'. East wall at column 39 (rows 12-14) has solid wall collision and inert 'A'. West wall at (35, 12) has solid wall collision and inert 'A'. Platform 100% audited and verified ambient with zero warps, switches, items, or NPCs.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)
@@ -692,27 +692,44 @@
 
 ## Verified / Settled Locations
 - **Sovio Metro Lobby**:
-  - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
+  - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as decorative flavor text ("It's a timetable showing various destinations!").
   - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pok�mon) audited 100% empty. Party size/composition does not gate turnstile blocker.
-- **Sovio Sewers Audited Features**:
-  - Machop's Toy Quest: Completed Turn 13331 (Black Belt obtained).
-  - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
-  - Western Corridor & Grunt 2 Platform (Cols 14-19, Rows 11-27): Grunt 2 platform at (18, 21-22) verified empty on Turn 15205 (Grunt 2 retreated; Jackson not present).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS1 (Eastern Storage Room & Platform Boundary Protocol)**:
-  - **Rationale**: Jackson was held in a sewer storage room during the cutscene. Before permanently concluding the sewer is exhausted, execute an explicit, falsifiable physical audit of the platform at columns 36-38, rows 12-14.
+- **Hypothesis SS2 (Western Gauntlet & Corridor Boundary Probe - Rows 22-28, Cols 14-19)**:
+  - **Start Turn**: 15293
+  - **Status**: In Progress
+  - **Rationale**: The western gauntlet was the station of Grunt 2 and contains partition walls and corridor extensions south of row 22 that have never been physically probed with collision and 'A' interactions. The previous conclusion that this sector was settled was a scope-of-proof violation based solely on Grunt 2's despawn. Jackson or a detention partition may be located along these unprobed boundaries.
   - **Test Protocol**:
-    1. Red mat at (37, 14): Record exact verbatim text of 'A' interaction from (37, 13) and on (37, 14). Test step Down collision.
-    2. Platform northern expansion at row 12: Probe (36, 12), (37, 12), and (38, 12) for walkability and wall interactions.
-    3. Platform eastern boundary: Probe column 38 and column 39 collision.
-    4. Outcome: If all platform boundaries and interactions confirm inert/ambient, permanently settle and archive the Eastern Platform, concluding the sewer complex contains no further triggers.
+    1. Navigate from Eastern Gangway to Western Gauntlet via bridge, ladder, and stairs to (18, 22) [Completed Turn 15293].
+    2. Systematically probe the vertical corridor from row 22 to row 27: test east and west partition walls at rows 22, 23, 24, 25, 26 with directional bumps and 'A' presses.
+    3. Audit the row 27-28 horizontal corridor between columns 14 and 19: test north and south wall boundaries.
+    4. Record exact collision results and text prompts for every probed tile.
+  - **Empirical Results Log**:
+    - **Row 22 (Turn 15294)**:
+      - (18, 22): Walkable floor (Grunt 2 standing tile).
+      - (17, 22): Walkable floor. West boundary (16, 22) is solid black void collision; 'A' interaction inert.
+      - (19, 22): Walkable floor. East boundary (20, 22) is solid black void collision; 'A' interaction inert.
+    - **Rows 23-25 (Turns 15296-15308)**:
+      - (18, 23): Walkable floor.
+      - (17, 23): Walkable floor! Column 17 is a clear vertical passage connecting row 22 directly down to row 24.
+      - (17, 24): Walkable floor.
+      - (16, 24): Solid brick wall collision; 'A' interaction inert.
+      - (18, 24): Walkable floor.
+      - (19, 24): Walkable floor. East boundary (20, 24) is solid brick wall collision; 'A' interaction inert.
+      - (19, 25): Walkable floor. East boundary (20, 25) is solid brick wall collision; 'A' interaction inert.
+      - (18, 25): Walkable floor.
+      - (17, 25): Walkable floor.
+      - (16, 25): Walkable floor! (Wall does not block row 25 at column 16).
+    - **Row 26 (Turn 15314-15315)**:
+      - (16, 26): Walkable floor.
+      - (15, 26): Walkable floor. Arrived at (15, 26).
+      - Corridor continues west and south toward row 27 and column 12 stairs.
 
 ## Settled Hypotheses
-- **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**: Verified decorative exterior with zero doors or triggers (documented in Locations/Sovio_City.md).
-- **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
-  - Status: Settled Turn 14727. Map edge perimeters are 100% verified solid dead-ends with no map exits.
+- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
+  - Status: Settled Turn 15261. Executed full 4-step physical protocol. Red mat at (37, 14) confirmed ambient single-line textbox ('Its a simple storage room...') and solid south void collision. Northern expansion (36-38, 12) and eastern boundary (col 39) verified solid walls with inert 'A'. Platform 100% ambient prop.
 
 
 <hr>
