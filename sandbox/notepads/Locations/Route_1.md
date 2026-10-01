@@ -57,7 +57,7 @@
   - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48) (verified Turn 10039).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
-- **Northwest Clearing Layout & Connections (Audited Turns 12320-12538)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). Column 29 path runs north past Lass Sonia (27, 15) to row 13 and turns east through pink bird tracks at (30, 13); tile (30, 12) confirmed solid pine tree collision (Turn 12538). Connected to south via column 30 corridor.
+- **Northwest Clearing Layout & Connections (Audited Turns 12320-12538)**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). Column 29 path runs north past Lass Sonia (27, 15) to row 13 and turns east through pink bird tracks at (30, 13); tile (30, 12) confirmed solid pine tree collision (Turn 12538). Southern connection from Northwest Clearing requires empirical verification from southern meadow.
 - **Meadow Trail Obstacle Bounds (Verified Turns 11830-11834)**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
 - **Cottage East Ledge (Verified Turns 10781-11716)**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
