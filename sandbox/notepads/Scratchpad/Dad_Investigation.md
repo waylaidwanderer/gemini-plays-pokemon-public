@@ -29,8 +29,6 @@
   - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
   - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
   - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pokï¿½mon Center's service!").
-  - Mezzanine Pokï¿½Mart: Standard shop previously audited Turn 9696 (Pokï¿½ Ball, Potion, Antidote, Paralyz Heal, Repel).
-  - Conclusion: Target 1 100% complete. Zero Dad presence or updated clues in Pokï¿½mon Center.
+  - Mezzanine PokéMart: Prior check on Turn 9696 pre-dates sewer retreat. Post-retreat audit pending verification to satisfy Burden of Proof.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
-  - Next: Sweep tan commercial building facade (32-37, 8-12) and Central Park pond perimeter for post-sewer updates.
