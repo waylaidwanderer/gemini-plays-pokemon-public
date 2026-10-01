@@ -1,24 +1,25 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 12365)
+## Investigation Status & Active Hypotheses (Updated Turn 12481)
 - **Verified Game State**:
   - Metro Turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
-  - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West; verified Turn 12163).
+  - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
-  - Active Quest: NONE (Machop's Toy cancelled on Turn 12142 to clear the single active quest slot; verified free for new side quests or event triggers).
-  - *Deduction*: Jackson departed the Metro Station lobby following the seismic tremor (Turn 1437) to investigate the disturbance outside. Finding Jackson is the mandatory event flag to unlock Metro transit to Amor City.
+  - Active Quest: NONE (verified free for new side quests or event triggers).
+  - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
-- **Testable Hypotheses**:
-  1. **Hypothesis A (Karate House & Machop's Toy - FALSIFIED Turn 12132)**: Audited all residents and 2F; 100% ambient flavor with zero progression triggers.
-  2. **Hypothesis B (Sewers Storage Room - On Hold)**: Storage room at (37, 14) is currently inert ("Its a simple storage room...").
-  3. **Hypothesis C (Surface NPCs with Unexamined Conditions - On Hold)**: Re-testing key NPCs if story flags change.
-  4. **Hypothesis D (Route 1 Northwest Clearing Western Expanse - FALSIFIED Turn 12350)**: Fully audited rows 14-22; western boundary solid pine trees at col 24, row 14 solid pine trees north; Mike and Sonia ambient.
-  5. **Hypothesis E (Alternative Event Flag Mechanisms - FALSIFIED Turn 12410)**: HuPhone Item Storage, Mailbox, Quest Status, and World Map verified empty/static; passive checks do not trigger story flags.
-  6. **Hypothesis F (Cottage East Corridor Northbound - FALSIFIED Turns 12444, 12455)**:
-     - Tile (40, 20) is confirmed impassable elevation ledge; 3 Up presses from (40, 21) yielded 0 tiles moved. The south-facing row 20 ledge strictly prevents northbound traversal from the Cottage yard.
-  7. **Hypothesis G (Southern Route 1 & Lancio Town Exploration - ACTIVE Turn 12455)**:
-     - *Verified Southern Geometry*:
-       - Tall grass field east of Sand Highway (rows 27-32, cols 38-42) terminated east by solid pine trees at col 43.
-       - Row 39 ledge hops south into (32, 40-41); row 41 allows westward movement through (31-30, 41) into Meadow Trail at (29, 41).
-     - *Investigation Scope*: Audit row 44 corridor, western untested columns (19-25, 6-9), and Lancio Town for progression triggers or true route connections.
+## Settled / Falsified Hypotheses (Condensed)
+- **Hypothesis A (Karate House & Machop's Toy)**: Falsified Turn 12132. Residents and 2F audited 100% ambient flavor; cancelling quest cleared slot with no progression impact.
+- **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
+- **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
+- **Hypothesis D (Northwest Clearing Rows 14-22)**: Falsified Turn 12350. Youngster Mike and Lass Sonia ambient; western edge column 24 solid pine trees.
+- **Hypothesis E (HuPhone Menu Inspection)**: Falsified Turn 12410. Item Storage, Mailbox, Quest Log, and World Map verified empty/static; passive digital checks do not trigger story progression.
+- **Hypothesis F (Cottage East Ledge Northbound)**: Falsified Turns 12444, 12455. Row 20 ledge strictly prevents northward traversal from Cottage yard (0 tiles visited on 3 Up inputs).
+
+## Active Investigation: Hypothesis G (Southern Route 1 & Lancio Town Audit)
+- **Premise**: Asher hopped south over the row 20 ledge into southern Route 1 on Turn 12285. A viable path or story trigger must exist to progress.
+- **Falsification Bounds & Explicit Criteria**:
+  1. *Row 44 Northern Boundary Audit*: Test columns 19-25 and 6-9 along row 44 for any unmapped northward passage. If all tested columns bump into solid hedges/trees, then no northward route exists from row 44.
+  2. *Lancio Town Trigger Audit*: Check Professor Ivo (Lab), Lab Stairs (12, 7), Harbor Pier (32-34, 25), and key residents. If all interactions yield identical ambient/barrier text, Lancio Town contains no active triggers.
+  3. *Resolution*: If 1 and 2 are falsified, the northbound traversal must exist through the column 30 corridor / northern rock spire connection, or require a specific inventory/party condition.
