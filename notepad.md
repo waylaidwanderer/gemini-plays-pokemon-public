@@ -653,6 +653,11 @@
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
+- **Lancio Town Audit (Settled Turn 14528)**:
+  - Lab Stairs at (12, 7): Re-verified blocked ("I probably shouldn't head down here...", Turn 14521).
+  - Prof. Ivo at (20, 6): Re-verified ambient dialogue ("Hey, Ashi, how's your new Pokémon?", Turn 14524).
+  - Harbor Pier at (32-34, 25): Re-verified empty; Harry/boat absent; ocean water inert (Turn 14527).
+  - Fisherman at (38, 22): Ambient philosophical advice on patience (Turn 14528-14536).
 - **External Settlements & Residences**: Lancio Town, Route 1, Sovio surface quadrants, and all 6 domestic residences remain settled (detailed records in Locations/*.md).
 - **Sovio Metro Lobby**:
   - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
@@ -671,6 +676,5 @@
 ## Archived Hypotheses (Exhausted)
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
   - Status: Concluded Turn 14428. Continuous loop traversed (Lower walkway -> Western stairs -> Upper terrace -> Wall ladder -> Northern Gangway -> Bridge -> Row 13 -> Dark Sector). Zero NPCs, cutscenes, or progression triggers encountered along this loop. 100% settled.
-
 
 <hr>
