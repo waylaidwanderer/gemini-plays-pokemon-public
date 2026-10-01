@@ -14,7 +14,7 @@
 ## Active Hypotheses: Locating Jackson on the Surface
 - **Conclusion on Sewers**: Sovio Sewers 100% exhausted. S1 confirmed unchanged (Turn 13886-13887); S2/S4 rock obstacles require equipment not currently owned (Turn 13212); S3 deep room yielded Lost Toy only. All Team Siara grunts permanently retreated (Turn 2682). Jackson is NOT in the sewers.
 ## Active Hypotheses: Locating Jackson in Sovio City
-- **Target SC1 (Pokémon Center Audit)**: Enter Pokémon Center at (44, 12). Audit 1F NPCs (Camper at 5,7; Boy at 8,5), PC terminal, and 2F Mezzanine clerk for updated dialogue post-sewer retreat. Falsification: All return baseline text.
+- **Target SC1 (Pokémon Center Audit)**: Tested Turn 13959-13971. Camper at (5, 7) repeats Weedle text; Boy at (9, 6) repeats PC text. 1F NPCs confirmed 100% baseline ambient.
 - **Target SC2 (North-Central House 39, 7)**: Inspect 1F elderly man and 2F boy for story updates. Falsification: Both repeat baseline Wii dialogue.
 - **Target SC3 (Terrace House 49, 14)**: Inspect Nana at (62, 31) and Granddaughter at (63, 34). Falsification: Repeat baseline text.
 - **Target SC4 (Gumball House 29, 14)**: Inspect mother, son, and 2F bedroom. Falsification: Repeat baseline text.
