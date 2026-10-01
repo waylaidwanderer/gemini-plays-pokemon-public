@@ -62,4 +62,4 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle (Verified Turns 13211-13212)**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
 - **Western Alcove & Warp Mat (Verified Turns 4549, 13225)**: Red capsule mat at (14-15, 9). Stepping Down from (15, 9) warps to a new subterranean chamber/sector at (2, 38). Walkway also continues north to (15, 8) and west along row 8 to (13, 8).
-- **Deep Subterranean Sector (Discovered Turn 13225)**: Arrives at (2, 38) on a red capsule mat facing North in a dark room illuminated by spotlight.
+- **Deep Subterranean Sector (Discovered Turn 13225)**: Arrives at (2, 38) on a red capsule mat facing North in a dark room illuminated by spotlight. At (2, 37), interacting with the northern arch retrieved Machop's **Lost Toy** (Clefairy Poké Doll, Key Item; collected Turn 13238).
