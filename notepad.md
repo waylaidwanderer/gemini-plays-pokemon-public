@@ -703,9 +703,7 @@
   - **Rationale**: Progression analysis confirms the Metro blocker ('I should find dad first!') is hard-coded to Jackson's rescue event flag. Tile (37, 14) returning 'Its a simple storage room...' was an ambient prop, not Jackson's actual cutscene cell. Marie's broadcast (Turn 2682) cleared the grunts, but Jackson's sprite remains waiting in an accessible room, alcove, or platform in the sewer complex.
   - **Primary Objective**:
     1. Sewer Western Corridor & Grunt 2 Platform Audit (Cols 14-19, Rows 11-27):
-       - Western stairs (14, 16) descended into row 18 corridor.
        - Grunt 2 platform at (18, 21-22) verified empty (Grunt 2 retreated; Jackson not present).
-       - Proceeding south along column 18 corridor to row 27 intersection to audit lower horizontal walkway.
 
 ## Settled Hypotheses
 - **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**: Verified decorative exterior with zero doors or triggers (documented in Locations/Sovio_City.md).
