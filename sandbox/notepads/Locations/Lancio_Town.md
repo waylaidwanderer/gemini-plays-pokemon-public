@@ -10,7 +10,7 @@
 
   - Cobblestone/gravel path leads north from the dock into the main town.
 
-  - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turns 3351-3352, 11793-11796).
+  - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turns 3351-3352, 11793-11796, 14528-14536).
 
   - Ocean to south and west.
 
