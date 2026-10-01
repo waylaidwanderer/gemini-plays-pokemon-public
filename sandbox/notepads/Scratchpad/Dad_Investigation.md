@@ -15,7 +15,7 @@
        - Machop at (9, 34) (Turn 12123): Displays only "Machop: Chop Chop!" / "He seems a bit agressive...". Zero items, zero quest updates.
        - Karate Trainer at (3, 34) (Turn 12125): Ambient debate text ("kickbox is far better than karate").
        - Girlfriend at (3, 33) (Turn 12127): Counterpart debate text ("karate is far better than kickboxing").
-       - 2F (Turn 12132): Empty room, generic bookshelf text ("It's crammed full of Pokémon books.").
+       - 2F (Turn 12132): Empty room, generic bookshelf text ("It's crammed full of Pokmon books.").
      - *Conclusion*: Conclusively FALSIFIED on Turn 12132. Karate House holds zero progression triggers or links to Jackson.
   2. **Hypothesis B (Sewers Storage Room - Formulated Turn 12068)**:
      - *Hypothesis*: The storage room at (37, 14) where Jackson was held captive may open via an overworld event trigger or switch.
