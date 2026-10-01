@@ -1,6 +1,6 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 13144)
+## Investigation Status & Active Hypotheses (Updated Turn 13501)
 - **Verified Game State**:
   - Metro Turnstile at (19, 21): Re-tested Turns 12777, 13055, 13058, 13109; strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
