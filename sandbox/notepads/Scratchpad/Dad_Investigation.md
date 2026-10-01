@@ -6,7 +6,7 @@
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..." (Confirmed inert post-retreat on Turn 13081).
-  - Active Quest: Machop's Toy (Accepted Turn 13158; Lost Toy retrieved from Deep Subterranean Sector at 2, 37 on Turn 13238; currently delivering to Old Man at 51, 15).
+  - Active Quest: Machop's Toy COMPLETED (Turn 13331); rewarded Black Belt. Re-tested Metro turnstile at (19, 21) on Turns 13353-13355; confirmed strictly blocked by 'I should find dad first!'.
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Audited Locations & Hypotheses (Condensed)
