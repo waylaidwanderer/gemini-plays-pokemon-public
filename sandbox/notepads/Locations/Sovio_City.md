@@ -45,13 +45,9 @@
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
-- **South Sidewalk & Children's Gathering (Audited 100% Complete Turns 13135-13138 under Burden of Proof)**: Paved corridor along rows 27-28 south of Central Park pond. East of Name Rater house at (33-35, 28) is a children's gathering around a Jigglypuff. Re-tested all 3 NPCs individually:
-  - Little Girl at (33, 28): 'Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!' (Turns 13135-13136)
-  - Jigglypuff at (34, 28): 'Jigglypuff: Puff Puff!' (Turn 13137)
-  - Boy at (35, 28): 'Yeah Jigglypuff!' (Turn 13138)
-  Confirmed 100% ambient flavor; zero items, side quests, or story progression flags.
+- **South Sidewalk & Children's Gathering (Audited Turns 13135-13138)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) verified 100% ambient flavor dialogue regarding Moon Stone evolution.
 
-- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157, Re-verified Turns 13140-13149)**: Boy at (32, 21) re-verified on Turn 13149: 'I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?'. Confirmed 100% ambient flavor.
+- **Central Park Boy in Pink Shirt (Audited Turn 13149)**: Boy at (32, 21) verified 100% ambient humor dialogue ('catfished').
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 
