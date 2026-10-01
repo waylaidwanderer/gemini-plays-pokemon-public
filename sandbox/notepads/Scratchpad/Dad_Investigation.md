@@ -17,14 +17,13 @@
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SC1 (Systematic Audit of Sovio City Exterior Perimeters & Structures)**:
-  - **Rationale**: The Metro turnstile blocker ('I should find dad first!') and Route 2 gate ('I can't go yet...') are both in Sovio City. Lancio Town is verified on-foot isolated (connecting exclusively northeast to Route 1 and ocean elsewhere; on-foot passage to Azluf is physically impossible without Surf). Looping back and forth across Route 1 without state changes is unproductive. Asher must systematically search Sovio City perimeters, alleyways, tree lines, and building facades to find Dad or trigger the next story event.
-  - **Plan**: Perform systematic, tile-by-tile boundary checks in Sovio City:
-    1. Southern Avenue tree lines: (12, 30) lawn tested Turn 14686 (11, 30 solid pine tree collision; dead end); east row 30 dead-ends at col 18. [AUDITED]
-    2. Southwest building perimeter: (18, 27) solid wall, (17, 25) solid wall, sidewalk at (16-17, 26-27) open. [AUDITED]
-    3. West Avenue western facade & corridor behind Bikers: Col 12 fully open rows 20-30 behind Bikers to southwest lawn. Column 11 rows 16-20 solid office wall with 0 doors/scripts; (12, 15) solid Karate house wall. [AUDITED]
-    4. North Central alleyways: Probe columns 30-31 between Gumball house (29, 14) and tan building (32-37), and alleyway (39-40) north to house (39, 7).
-    5. Plaza eastern boundaries and elevated terrace edges: (51-52, 15-17) terrace floor open, east wall solid at col 52, south terminated by signpost at (51, 18). [AUDITED]
+- **Hypothesis SS1 (Sovio Sewers Jackson Rescue Operation)**:
+  - **Rationale**: The 5-point exterior audit of Sovio City (Turns 14682-14727) confirmed 100% solid boundaries with zero outdoor event triggers. The Metro turnstile blocker specifically checks Jackson's rescue flag ('I should find dad first!'). Turn 1666 cutscene showed grunts holding Jackson captive in a sewer storage room. Marie's radio retreat (Turn 2682) cleared the grunts from the corridors, but Jackson himself has not been located or spoken to in the detention room. The rescue trigger must be executed inside Sovio Sewers before the Metro turnstile will clear.
+  - **Plan**: Enter Sovio Metro Station, descend into Sovio Sewers via the red capsule mat at (18-19, 25), and systematically search every branch and room (including the eastern dead-end storage room at 37, 14 and all side corridors) to locate Jackson and trigger his rescue dialogue.
+
+## Settled Hypotheses
+- **Hypothesis SC1 (Sovio City Exterior Perimeters - 100% AUDITED)**:
+  - Status: Settled Turn 14727. Southern Avenue tree lines, southwest lawn (12, 30), southwest building perimeter, rear Biker lane (col 12, rows 20-30), western office facade (col 11, rows 16-20), Karate house corner (12, 15), Gumball/tan building gap (31, 13), northern alcove (39, 7), and elevated terrace (cols 50-52, rows 15-17) are 100% verified solid boundaries. No external event triggers exist.
 
 ## Archived Hypotheses (Exhausted / Debunked)
 - **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - DEBUNKED)**:
