@@ -695,7 +695,7 @@
   - **Primary Targets**:
     1. Two-Story Commercial/Residential Building (columns 47-51, rows 20-29) south of Central Plaza. Verify whether any entrance exists or if lower story wooden siding has interaction triggers.
     2. Re-audit key Sovio City locations and dialogue triggers with fresh eyes.
-  - **Status**: Formulated. Currently exiting Sovio Sewers to commence investigation in Sovio City.
+  - **Status**: In progress. Currently in Sovio City at (48, 18) auditing Target 1 (building at 47-51, 20-29).
 
 ## Settled Hypotheses
 - **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
