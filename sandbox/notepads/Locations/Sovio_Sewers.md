@@ -24,7 +24,6 @@
   - Western Upper Terrace Bounds (Verified Turns 6130-6132): Spans columns 13 to 18 along row 12. Western boundary terminated by solid wall at column 12; eastern boundary terminated by solid wall at column 19. Contains stone staircase descent at column 14 (rows 13-16) and shallow puddle at (14-15, 11). Entire terrace fully explored and verified devoid of NPCs, doors, or exits.
 
 - **Column 30 Causeway & Northeast Wooden Staircase (Verified Turns 7294-7308)**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
-- **Upper Chasm Void at (28, 5) (Verified Turn 3747)**: Tested stepping east from (27, 5) into (28, 5); confirmed solid collision as (28, 5) is an impassable chasm void.
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
