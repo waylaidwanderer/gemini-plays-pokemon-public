@@ -57,4 +57,3 @@
 - **Inizio Isle**: Isolated green island node in the far southwest ocean.
 - **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects exclusively northeast via Route 1 to Sovio City.
 - **Sovio City**: Red rectangular urban node. Connects southwest via Route 1 to Lancio Town, and east via Route 2 toward eastern junctions and Amor City.
-- **Southern Coast Node**: Separate green node on the south-central coast connected to eastern route junctions and coastal settlements.
