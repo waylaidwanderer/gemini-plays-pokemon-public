@@ -32,3 +32,15 @@
   - Stepped onto Metro Station turnstile at (19, 21): Triggers verbatim textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Turnstile barrier confirmed 100% active.
 - **Empirical Storage Room Fact (Audit Review)**:
   - Tile (37, 14) displays verbatim 'Its a simple storage room...' with south void collision. Zero in-game text indicates a lock, keyhole, or character voice; narrative inference of captivity here is unverified.
+
+## Active Investigation: Hypothesis H (Machop's Toy Quest -> Progression Unlock)
+- **Status**: Quest Accepted on Turn 12622 from Old Man at (51, 15).
+- **Rationale**: 
+  - Machop is a Fighting-type Pokémon universally linked to strength/rock manipulation. 
+  - Sovio Sewers contains two major obstacles strictly requiring HM Rock Smash: Dark Sector (22, 10) and Southwest Corridor (10, 17).
+  - The Old Man's Machop lost its favorite toy in the accessible sectors of Sovio Sewers.
+  - Completing this quest is hypothesized to reward HM Rock Smash, a key, or an event trigger that unlocks deeper sewer access to locate Jackson.
+- **Immediate Plan**:
+  1. Inspect the Quest Log entry for Machop's Toy to obtain developer hints / exact sewer location.
+  2. Search the accessible upper/lower sewer walkways and shallow puddles to locate the toy.
+  3. Return the toy to the Old Man to receive the reward and test for story progression.
