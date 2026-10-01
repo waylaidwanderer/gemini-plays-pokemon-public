@@ -521,16 +521,16 @@
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
-## Residential House (North Central) (Verified Turns 1447, 7239-7245)
+## Residential House (North Central) (Audited Turns 1447, 7239-7245, 12848-12863)
 
-- **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
-- **Northern Alcove & Exterior Boundary (Audited Turns 9097-9101)**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the Pokémon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the Pokémon Center or residential row.
+- **Entrance**: Teal door at (39, 7) north of Pok�mon Center plaza.
+- **Northern Alcove & Exterior Boundary (Audited Turns 9097-9101)**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the Pok�mon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the Pok�mon Center or residential row.
 
 - **Interior**: Entrance mat lands at (43, 36).
 
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33); ambient dialogue.
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Confirmed 100% ambient flavor retro gaming humor; zero items or story triggers.
 
-- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12); ambient dialogue.
+- **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12), PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12). Confirmed 100% ambient flavor; zero items or story triggers.
 
 ## City Signpost (Verified Turn 1476)
 
@@ -673,9 +673,9 @@
   - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
   - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
   - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pok�mon Center's service!").
-  - Mezzanine Pok�Mart: Standard shop previously audited Turn 9696 (Pok� Ball, Potion, Antidote, Paralyz Heal, Repel).
-  - Conclusion: Target 1 100% complete. Zero Dad presence or updated clues in Pok�mon Center.
+  - Mezzanine Pok�Mart: Prior check on Turn 9696 pre-dates sewer retreat. Post-retreat audit pending verification to satisfy Burden of Proof.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
-  - Check non-enterable building facades and Central Park pond perimeter for post-sewer updates.
+  - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
+
 
 <hr>
