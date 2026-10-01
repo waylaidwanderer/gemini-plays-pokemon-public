@@ -31,5 +31,6 @@
   - **Sector 2 Traversal (Verified Turns 14338-14341)**:
     - Northern gangway along row 5 traversed east from (15, 5) through shallow puddle at (16-17, 5) to column 23 junction.
     - Row 5 east of column 23 verified: shallow puddle at (26-27, 5) terminates east at (27, 5) into impassable void chasm at column 28. Confirmed dead-end; does NOT connect directly to wooden staircase platform.
-  - **Active Lead / Next Target**: Vertical Bridge at column 23 (rows 6-12) connecting row 5 south across the chasm to row 13.
-  - **Falsification Criteria**: If full traversal of the vertical bridge (col 23), the southern gangway (row 13), column 30 causeway, and the Dark Sector reveals no new trigger, NPC, or interaction, declare physical sewer map fully exhausted.
+  - Vertical Bridge at column 23 (rows 6-12) traversed south from (23, 5) to (23, 13) (Verified Turn 14350). Confirmed complete connection from Northern Gangway (row 5) south across chasm to row 13 gangway.
+  - **Active Lead / Next Target**: Row 13 gangway east to Column 30 Causeway (rows 6-10) and Northeast Wooden Staircase (30, 4) into Dark Sector / Basement (Sector 3).
+  - **Falsification Criteria**: If full traversal of row 13, column 30 causeway, and the Dark Sector reveals no new trigger, NPC, or interaction, declare physical sewer map fully exhausted.
