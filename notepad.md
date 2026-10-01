@@ -458,8 +458,8 @@
 
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
-  - **Old Man at (51, 15) & Machop at (51, 16)**: Verified absent from the terrace post-quest (audited Turn 14196).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
+  - **Terrace Bounds & Audit (Verified Turn 14725)**: Tile (51, 15) is open floor (Old Man absent); (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole (inert 'A', Machop absent); (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
 
   - **Interior 1F (Verified Turns 7897, 8526, 14446)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...") re-verified 100% ambient post-quest (Turn 14446); Old Man and Machop are absent. 100% audited.
 
@@ -672,7 +672,7 @@
     2. Southwest building perimeter: (18, 27) solid wall, (17, 25) solid wall, sidewalk at (16-17, 26-27) open. [AUDITED]
     3. West Avenue western facade & corridor behind Bikers: Col 12 fully open rows 20-30 behind Bikers to southwest lawn. Column 11 rows 16-20 solid office wall with 0 doors/scripts; (12, 15) solid Karate house wall. [AUDITED]
     4. North Central alleyways: Probe columns 30-31 between Gumball house (29, 14) and tan building (32-37), and alleyway (39-40) north to house (39, 7).
-    5. Plaza eastern boundaries and elevated terrace edges.
+    5. Plaza eastern boundaries and elevated terrace edges: (51-52, 15-17) terrace floor open, east wall solid at col 52, south terminated by signpost at (51, 18). [AUDITED]
 
 ## Archived Hypotheses (Exhausted / Debunked)
 - **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - DEBUNKED)**:
