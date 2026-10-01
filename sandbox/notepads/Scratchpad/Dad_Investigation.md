@@ -24,7 +24,7 @@
     2. Southwest building perimeter: (18, 27) solid wall, (17, 25) solid wall, sidewalk at (16-17, 26-27) open. [AUDITED]
     3. West Avenue western facade & corridor behind Bikers: Col 12 fully open rows 20-30 behind Bikers to southwest lawn. Column 11 rows 16-20 solid office wall with 0 doors/scripts; (12, 15) solid Karate house wall. [AUDITED]
     4. North Central alleyways: Probe columns 30-31 between Gumball house (29, 14) and tan building (32-37), and alleyway (39-40) north to house (39, 7).
-    5. Plaza eastern boundaries and elevated terrace edges.
+    5. Plaza eastern boundaries and elevated terrace edges: (51-52, 15-17) terrace floor open, east wall solid at col 52, south terminated by signpost at (51, 18). [AUDITED]
 
 ## Archived Hypotheses (Exhausted / Debunked)
 - **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - DEBUNKED)**:
