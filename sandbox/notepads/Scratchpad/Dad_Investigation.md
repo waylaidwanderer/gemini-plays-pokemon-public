@@ -17,5 +17,8 @@
      - Audited columns 24-28 across rows 14-22. Traversed to westernmost edge at (24, 18) and (24, 15).
      - Columns 0 to 23 are an impenetrable wall of solid pine trees across rows 14-22. Row 14 is solid pine trees/trunks.
      - Mike at (29, 20) and Sonia at (27, 15) confirmed ambient defeat flavor dialogue. 100% FALSIFIED.
-  5. **Hypothesis E (Alternative Event Flag Mechanisms - ACTIVE Turn 12365)**:
-     - Test non-NPC event triggers: inspect HuPhone apps (Item Storage, Mailbox, World Map, Quest Log), inspect Key Items/Bag items, check PC terminals, and examine interactive objects.
+  5. **Hypothesis E (Alternative Event Flag Mechanisms - ACTIVE Turn 12381)**:
+     - *HuPhone Portable PC Audit*:
+       - Item Storage (Turn 12381): Verified empty ('There are no items.'). Zero stored items.
+       - Mailbox: Currently auditing.
+     - Test non-NPC event triggers: inspect Mailbox, World Map, Quest Log, Key Items/Bag items, and field interactions.
