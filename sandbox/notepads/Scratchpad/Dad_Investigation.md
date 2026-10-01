@@ -9,10 +9,10 @@
   - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
 
 ## Settled Hypotheses (Sovio City Surface Audited)
-- **Hypothesis 1 (Plaza Confrontation Ground Sweep)**: COMPLETED Turn 13717. Traversed (43-44, 13-15) outside Pok�mon Center; confirmed 100% inert with zero hidden items, dropped passes, or cutscene triggers.
-- **Hypothesis 2 (Metro Timetable Detailed Inspection)**: COMPLETED Turn 13725-13726. Tested facing Up from center at (22, 24); confirmed ambient flavor ("It's a timetable showing various destinations!").
-- **Hypothesis 3 (Central Park Pond Perimeter & Secluded Areas)**: COMPLETED Turn 13797. Audited pond perimeter and eastern walkway (43-45, 23-26); confirmed ambient blonde pedestrian and zero story triggers.
-- **Hypothesis 4 (Inventory & Key Item Inspection)**: HuPhone Mailbox audited Turn 13734 ('There's no Mail here.'). Items and Key Items audited.
+- Surface audits (plaza confrontation tiles 43-44, 13-15, timetable 22, 24, Central Park pond walkway 43-45, 23-26, and HuPhone storage) confirmed 100% inert / ambient (Turns 13717-13797).
 
 ## Active Hypotheses for Sovio Sewers
 - **Hypothesis S1 (Post-Quest Storage Room Inspection)**: Inspect the storage room at (37, 14) post-Machop's Toy completion. Prior audits (Turns 8637, 11149) were before quest resolution. Test whether the red mat at (37, 14) now warps or displays new dialogue.
+- **Hypothesis S2 (Dark Sector Rugged Rock & Chamber Sweep)**: Test rugged rock at (22, 10) in the Dark Sector with current party/bag state. Probe Dark Sector perimeter and upper alcove for alternative switches or triggers.
+- **Hypothesis S3 (Deep Subterranean Sector Exhaustive Probe)**: Re-visit subterranean room at (2, 38) where Lost Toy was found. Probe perimeter walls and arch for hidden passages.
+- **Hypothesis S4 (Southwest Corridor Rock Obstacle Check)**: Inspect cracked rocks at (10, 17) and (9, 18) blocking columns 7-8 to verify interaction prompt.
