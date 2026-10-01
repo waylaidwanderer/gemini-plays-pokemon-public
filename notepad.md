@@ -643,7 +643,7 @@
 
 ## Topography & Connectivity
 - **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
-- **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Columns 16 and 17 at row 24 are solid brick wall pillars; northward traversal from row 25 must bypass through column 18 (verified Turn 5477). Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17) (verified Turn 11036).
+- **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Column 16 is walkable at rows 25-26, and column 17 connects rows 22-24 (verified Turns 15302, 15314). Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17) (verified Turn 11036).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720, 11173)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
@@ -697,35 +697,11 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pok�mon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS2 (Western Gauntlet & Corridor Boundary Probe - Rows 22-28, Cols 14-19)**:
-  - **Start Turn**: 15293
-  - **Status**: In Progress
-  - **Rationale**: The western gauntlet was the station of Grunt 2 and contains partition walls and corridor extensions south of row 22 that have never been physically probed with collision and 'A' interactions. The previous conclusion that this sector was settled was a scope-of-proof violation based solely on Grunt 2's despawn. Jackson or a detention partition may be located along these unprobed boundaries.
-  - **Test Protocol**:
-    1. Navigate from Eastern Gangway to Western Gauntlet via bridge, ladder, and stairs to (18, 22) [Completed Turn 15293].
-    2. Systematically probe the vertical corridor from row 22 to row 27: test east and west partition walls at rows 22, 23, 24, 25, 26 with directional bumps and 'A' presses.
-    3. Audit the row 27-28 horizontal corridor between columns 14 and 19: test north and south wall boundaries.
-    4. Record exact collision results and text prompts for every probed tile.
-  - **Empirical Results Log**:
-    - **Row 22 (Turn 15294)**:
-      - (18, 22): Walkable floor (Grunt 2 standing tile).
-      - (17, 22): Walkable floor. West boundary (16, 22) is solid black void collision; 'A' interaction inert.
-      - (19, 22): Walkable floor. East boundary (20, 22) is solid black void collision; 'A' interaction inert.
-    - **Rows 23-25 (Turns 15296-15308)**:
-      - (18, 23): Walkable floor.
-      - (17, 23): Walkable floor! Column 17 is a clear vertical passage connecting row 22 directly down to row 24.
-      - (17, 24): Walkable floor.
-      - (16, 24): Solid brick wall collision; 'A' interaction inert.
-      - (18, 24): Walkable floor.
-      - (19, 24): Walkable floor. East boundary (20, 24) is solid brick wall collision; 'A' interaction inert.
-      - (19, 25): Walkable floor. East boundary (20, 25) is solid brick wall collision; 'A' interaction inert.
-      - (18, 25): Walkable floor.
-      - (17, 25): Walkable floor.
-      - (16, 25): Walkable floor! (Wall does not block row 25 at column 16).
-    - **Row 26 (Turn 15314-15315)**:
-      - (16, 26): Walkable floor.
-      - (15, 26): Walkable floor. Arrived at (15, 26).
-      - Corridor continues west and south toward row 27 and column 12 stairs.
+- **Surface Narrative Triggers & Regional Leads**:
+  - With open corridors in Sovio Sewers physically mapped and no visible NPCs found, the investigation pivots to the surface:
+    1. Check Sovio Metro Station lobby NPCs and attendants.
+    2. Check Sovio City exterior NPCs and structures for tremor-related dialogue or events.
+    3. Re-examine potential prerequisite dependencies across Hupest.
 
 ## Settled Hypotheses
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room & Platform - 100% SETTLED & ARCHIVED)**:
