@@ -37,7 +37,7 @@
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
-  - **Old Man at (51, 15) & Machop at (51, 16)**: Ambient dialogue; Old Man expresses gratitude and Machop is calm.
+  - **Old Man at (51, 15) & Machop at (51, 16)**: Verified absent from the terrace post-quest (audited Turn 14196).
 
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 
@@ -136,7 +136,7 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F (Audited Turns 9161-9168)**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30) all provide ambient flavor dialogue (Verified 0 items or story triggers.).
+- **Interior 1F (Audited Turns 9161-9168, 14246-14251)**: Entrance mat at (23-24, 36). Resident boy at (25, 32) repeats 'I love this show!', mother at (27, 33) repeats 'My son is watching some cartoon...', and wide-screen TV at (25-26, 30). Confirmed 100% ambient domestic flavor dialogue.
 
 - **Interior 2F (Audited Turns 5933, 9177)**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
 
