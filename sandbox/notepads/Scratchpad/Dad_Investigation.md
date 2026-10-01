@@ -9,7 +9,7 @@
   - Route 1 Cottage Yard & West Passage (Verified Turns 13643-13645): Row 26 runs west from Cottage yard past columns 34-31 to column 30, where an open hedge gap leads directly north into the Northwest Clearing!
 
 ## Active Focus & Specific Hypotheses for Sovio City
-- **Hypothesis 1 (Plaza Confrontation Ground Sweep)**: Step-test the central plaza tiles outside Pokémon Center at (41-46, 13-16) where Dad confronted Mother, to check for dropped items or cutscene triggers.
-- **Hypothesis 2 (Metro Timetable Detailed Inspection)**: Re-examine timetable board at (21-23, 23) from columns 21, 22, 23 to check for train ticket or schedule triggers.
+- **Hypothesis 1 (Plaza Confrontation Ground Sweep)**: COMPLETED Turn 13717. Traversed (43-44, 13-15) outside Pokémon Center; confirmed 100% inert with zero hidden items, dropped passes, or cutscene triggers.
+- **Hypothesis 2 (Metro Timetable Detailed Inspection)**: COMPLETED Turn 13725-13726. Tested facing Up from center at (22, 24); confirmed ambient flavor ("It's a timetable showing various destinations!").
 - **Hypothesis 3 (Central Park Pond Perimeter & Secluded Areas)**: Investigate park paths around (32-42, 20-30) south of the plaza for any NPCs or dropped items.
 - **Hypothesis 4 (Inventory & Key Item Inspection)**: Verify all items in Bag pockets to ensure no unexamined story triggers or equipment exist.
