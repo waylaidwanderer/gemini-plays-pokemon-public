@@ -15,12 +15,12 @@
   - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SS2 (Sovio Sewers Inner Perimeter & Jackson Rescue Flag)**:
-  - **Rationale**: Marie's retreat broadcast (Turn 2682) despawned hostile grunts, but Jackson's captive state was never cleared, leaving the Metro turnstile blocked ('I should find dad first!'). In Pokémon Sors / CFRU scripting, grunts guard the path leading directly to the captive NPC. We must advance to the terminus of the grunt corridor (upper gangway, storage room, and adjacent sectors) to locate Jackson's holding area and trigger his dialogue/rescue.
+- **Hypothesis SS2 (Sovio Sewers Inner Sectors & Jackson Detention Cell)**:
+  - **Rationale**: Progression analysis confirms the Metro blocker ('I should find dad first!') is hard-coded to Jackson's rescue event flag. Tile (37, 14) returning 'Its a simple storage room...' was an ambient prop, not Jackson's actual cutscene cell. Marie's broadcast (Turn 2682) cleared the grunts, but Jackson's sprite remains waiting in an accessible room, alcove, or platform in the sewer complex.
   - **Primary Objectives**:
-    1. Ascend western stairs at (14, 17) to Western Terrace and take the wall ladder at (15, 6-10) to the northern gangway.
-    2. Cross the vertical bridge at column 23 to row 13 platform.
-    3. Systematically audit the eastern gangway (row 13) leading to the storage room at (37, 14), probing all wall segments, corridor thresholds, and the command post area where the Turn 2682 retreat fired.
+    1. Dark Sector Upper Alcove (22-24, 3-5): Ascend stairs at (23, 8) and thoroughly probe all alcove walls, corners, and tile interactions.
+    2. Dark Sector Western Corridors & Perimeter: Check for any overlooked doors or partitions.
+    3. Sewer Main Floor Northern & Western Gangways: Trace every gangway, platform, and archway that may lead into the detention room seen in the Turn 1666 cutscene.
 
 ## Settled Hypotheses
 - **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**:
