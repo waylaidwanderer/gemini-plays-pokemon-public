@@ -448,12 +448,13 @@
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
-  - **Old Man at (51, 15) & 'Machop's Toy' Quest (Lost Toy acquired Turn 13238)**:
+  - **Old Man at (51, 15) & 'Machop's Toy' Quest (COMPLETED Turn 13331)**:
     - Quest Offer: 'My Machop lost his favorite toy, and he became really agressive. I think he lost it in the Sovio Sewers, which is full of Pokémon... Apparently, I'm not a Pokémon Trainer, so it would be dangerous for me to wander around down there. May, I ask for your assistance, to find it for me?'
     - Acceptance: 'Really? Thank you! I really appreciate your help!' -> 'Quest Accepted!'
     - Active Clue: 'Thank you, the toy must be somewhere deep in the Sovio Sewers.'
-    - Abandonment Prompt: 'If you can't find it its fine. You can leave if you wanna. Do want to leave it? Yes/No' (Declined 'No' on Turn 13164 to keep quest active).
-    - Machop at (51, 16): 'Machop: Chop Chop!' (Verified Turn 13166).
+    - Lost Toy (Clefairy Poké Doll) retrieved from Deep Subterranean Sector at (2, 37) on Turn 13238.
+    - Delivery & Completion (Turn 13331): Delivered Lost Toy to Old Man; quest completed; rewarded with Black Belt (held item, boosts Fighting-type moves by 20%).
+    - Post-Completion Dialogue: Old Man thanks Asher; Machop at (51, 16) is calmed down.
 
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 
@@ -665,7 +666,7 @@
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..." (Confirmed inert post-retreat on Turn 13081).
-  - Active Quest: Machop's Toy (Accepted Turn 13158; Lost Toy retrieved from Deep Subterranean Sector at 2, 37 on Turn 13238; currently delivering to Old Man at 51, 15).
+  - Active Quest: Machop's Toy COMPLETED (Turn 13331); rewarded Black Belt. Re-tested Metro turnstile at (19, 21) on Turns 13353-13355; confirmed strictly blocked by 'I should find dad first!'.
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Audited Locations & Hypotheses (Condensed)
