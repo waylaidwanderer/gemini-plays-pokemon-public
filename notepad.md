@@ -299,7 +299,7 @@
 - **Northeast Meadow & Eastern Highway (Verified Turns 8416-11708)**:
   - Eastern Highway column 52 runs south from (52, 12) through (52, 13-15) to (52, 16) past the conical rock spire at (53, 16), and continues south through the pine tree canopy at (52, 17) (verified Turn 11706).
   - Row 16 Hedge Corridor: At (52, 16), a dead-end corridor runs West through (51-48, 16) between hedges, terminating at the solid pine tree trunk at (47, 16) (verified Turn 11696). From (48, 16), tile (48, 15) to the north is walkable grass beneath the tree (verified Turn 11701).
-  - South Meadow Bypass: From (52, 17), the main path turns West into blue flowers at (51, 17) and descends South through the hedge gap at (50-51, 18) into the lower meadow toward the row 20 ledge and Cottage.
+  - South Meadow Bypass (Verified Turns 13442, 13454): From (52, 17), the path turns West into blue flowers at (51, 17), continues West along row 17 past hedges to column 45, and descends South through (45, 18-20) into the lower meadow toward the row 20 ledge and Cottage.
   - Duke Meadow & Connector: Walkable perimeter around Duke at (45, 12) includes open grass tiles at (44, 12-13) and row 13 grass tiles at (45-47, 13). Tile (48, 13) is a solid pine tree trunk (verified Turn 11660). Pine tree trunks line row 14 at (44-48, 14). Row 12 is a walkable corridor connecting Duke's meadow at (44-47, 12) east beneath the canopies directly into the Eastern Highway at columns 52-53 (traversed Turn 11480; (47, 12) verified Turn 11613; (48, 12) verified Turn 11679).
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
@@ -373,9 +373,9 @@
 
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
 
-- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. (Lost Toy delivered Turn 13331).
+- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case.
 
-- **Items Pocket (Verified Turn 13331)**: Potion x 1, Poison Barb x 1, Nugget x 1, Black Belt x 1 (Machop's Toy quest reward).
+- **Items Pocket (Audited Turn 13369)**: Potion x 1, Poison Barb x 1, Nugget x 1 (Black Belt equipped to Sirius Turn 13367).
 
 - **Empirical Constraint & Equipment Mechanic (Verified Turn 13212)**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
 
@@ -456,13 +456,9 @@
 
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 
-- **South Sidewalk & Children's Gathering (Audited 100% Complete Turns 13135-13138 under Burden of Proof)**: Paved corridor along rows 27-28 south of Central Park pond. East of Name Rater house at (33-35, 28) is a children's gathering around a Jigglypuff. Re-tested all 3 NPCs individually:
-  - Little Girl at (33, 28): 'Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!' (Turns 13135-13136)
-  - Jigglypuff at (34, 28): 'Jigglypuff: Puff Puff!' (Turn 13137)
-  - Boy at (35, 28): 'Yeah Jigglypuff!' (Turn 13138)
-  Confirmed 100% ambient flavor; zero items, side quests, or story progression flags.
+- **South Sidewalk & Children's Gathering (Audited Turns 13135-13138)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) verified 100% ambient flavor dialogue regarding Moon Stone evolution.
 
-- **Blonde Girl & Boy in Pink Shirt (Audited Turns 9137-9157, Re-verified Turns 13140-13149)**: Boy at (32, 21) re-verified on Turn 13149: 'I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?'. Confirmed 100% ambient flavor.
+- **Central Park Boy in Pink Shirt (Audited Turn 13149)**: Boy at (32, 21) verified 100% ambient humor dialogue ('catfished').
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 
