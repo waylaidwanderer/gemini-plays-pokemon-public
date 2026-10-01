@@ -14,4 +14,4 @@
   2. **Hypothesis B (Sewers Storage Room at 37, 14 - EXHAUSTED)**: Verified inert text ("Its a simple storage room..."). No keys held.
   3. **Hypothesis C (Sovio City Exterior Perimeters - FALSIFIED Turn 12239)**: Commercial roof passage and West Avenue northern boundaries confirmed solid continuous walls.
   4. **Hypothesis D (Metro Lobby Audit - FALSIFIED Turn 12253)**: Mapped columns 15-18; blue chairs at (17, 24) inert; west wall solid; zero service booths or NPCs. Turnstile re-confirmed displaying "I should find dad first!".
-  5. **Hypothesis E (Lancio Town Regional Trigger - ACTIVE)**: Backtrack south via Route 1 to Lancio Town to consult Professor Ivo on 1F of her lab and inspect Lancio Harbor / origin house for post-sewer progression flags.
+  5. **Hypothesis E (Lancio Town Regional Trigger - ACTIVE)**: Backtrack south via Route 1 to Lancio Town to consult Professor Ivo on 1F of her lab and inspect Lancio Harbor for post-sewer progression flags.
