@@ -1,6 +1,6 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Investigation Status & Active Hypotheses (Updated Turn 12810)
+## Investigation Status & Active Hypotheses (Updated Turn 12902)
 - **Verified Game State**:
   - Metro Turnstile at (19, 21): Re-tested Turn 12777 (post-quest-cancellation & threshold sweep); strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
@@ -10,7 +10,7 @@
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Falsified Hypotheses (Condensed)
-- **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Traversed (45, 14) -> (45, 19) -> (49, 19) -> (49, 18) -> (48, 18); confirmed zero automated script triggers or cutscenes outside Metro portal.
+- **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Confirmed zero automated script triggers or cutscenes outside Metro portal.
 - **Hypothesis I (Pre-Turnstile Metro Lobby NPCs/Trigger)**: Tested Turn 12775-12777. Lobby contains zero NPCs (Dad and Valora absent); turnstile at (19, 21) strictly blocks passage with 'I should find dad first!'.
 - **Cognitive Correction on Jackson Status**: Context summary statements claiming Asher reunited with Jackson and Valora on Turn 2279-2716 are confirmed context summarization hallucinations. Verifiable ground truth: Jackson was held by grunts (Turn 1666), sewer storage room at (37, 14) is empty, and Jackson has NOT been found. Finding Jackson remains the active primary blocker.
 - **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro.
