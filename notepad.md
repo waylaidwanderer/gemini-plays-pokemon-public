@@ -668,4 +668,7 @@
 - **Hypothesis 3 (Central Park Pond Perimeter & Secluded Areas)**: COMPLETED Turn 13797. Audited pond perimeter and eastern walkway (43-45, 23-26); confirmed ambient blonde pedestrian and zero story triggers.
 - **Hypothesis 4 (Inventory & Key Item Inspection)**: HuPhone Mailbox audited Turn 13734 ('There's no Mail here.'). Items and Key Items audited.
 
+## Active Hypotheses for Sovio Sewers
+- **Hypothesis S1 (Post-Quest Storage Room Inspection)**: Inspect the storage room at (37, 14) post-Machop's Toy completion. Prior audits (Turns 8637, 11149) were before quest resolution. Test whether the red mat at (37, 14) now warps or displays new dialogue.
+
 <hr>
