@@ -48,7 +48,7 @@
 - **South Sidewalk & Children's Gathering (Audited Turns 13135-13138)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) verified 100% ambient flavor dialogue regarding Moon Stone evolution.
 
 - **Central Park Boy in Pink Shirt (Audited Turn 13149)**: Boy at (32, 21) verified 100% ambient humor dialogue ('catfished').
-- **Central Park Blonde Girl (Audited Turn 13797)**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up...". Ambient counterpart to the boy at (32, 21).
+- **Central Park Blonde Girl (Audited Turn 13797)**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Ambient counterpart to the boy at (32, 21).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 
