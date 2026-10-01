@@ -94,16 +94,16 @@
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
-## Residential House (North Central) (Verified Turns 1447, 7239-7245)
+## Residential House (North Central) (Audited Turns 1447, 7239-7245, 12848-12863)
 
-- **Entrance**: Teal door at (39, 7) north of PokÃ©mon Center plaza.
-- **Northern Alcove & Exterior Boundary (Audited Turns 9097-9101)**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the PokÃ©mon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the PokÃ©mon Center or residential row.
+- **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
+- **Northern Alcove & Exterior Boundary (Audited Turns 9097-9101)**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the Pokémon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the Pokémon Center or residential row.
 
 - **Interior**: Entrance mat lands at (43, 36).
 
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 32) before stairs to 2F in northeast corner. Resident elderly man sitting at (41, 33); ambient dialogue.
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Confirmed 100% ambient flavor retro gaming humor; zero items or story triggers.
 
-- **Layout (2F)**: Resident boy at (44, 14). Stairs back down at (40-41, 12); ambient dialogue.
+- **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12), PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12). Confirmed 100% ambient flavor; zero items or story triggers.
 
 ## City Signpost (Verified Turn 1476)
 
