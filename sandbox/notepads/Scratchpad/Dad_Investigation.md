@@ -11,8 +11,8 @@
 ## Settled Hypotheses (Sovio City Surface Audited)
 - Surface audits (plaza confrontation tiles 43-44, 13-15, timetable 22, 24, Central Park pond walkway 43-45, 23-26, and HuPhone storage) confirmed 100% inert / ambient (Turns 13717-13797).
 
-## Active Hypotheses for Sovio Sewers
-- **Hypothesis S1 (Post-Quest Storage Room Inspection)**: Tested Turn 13886-13887 post-Machop's Toy completion. Interacting at (37, 14) still displays "Its a simple storage room...", and stepping Down does not warp. Unchanged.
-- **Hypothesis S2 (Dark Sector Rugged Rock & Chamber Sweep)**: Test rugged rock at (22, 10) in the Dark Sector with current party/bag state. Probe Dark Sector perimeter and upper alcove for alternative switches or triggers.
-- **Hypothesis S3 (Deep Subterranean Sector Exhaustive Probe)**: Re-visit subterranean room at (2, 38) where Lost Toy was found. Probe perimeter walls and arch for hidden passages.
-- **Hypothesis S4 (Southwest Corridor Rock Obstacle Check)**: Inspect cracked rocks at (10, 17) and (9, 18) blocking columns 7-8 to verify interaction prompt.
+## Active Hypotheses: Locating Jackson on the Surface
+- **Conclusion on Sewers**: Sovio Sewers 100% exhausted. S1 confirmed unchanged (Turn 13886-13887); S2/S4 rock obstacles require equipment not currently owned (Turn 13212); S3 deep room yielded Lost Toy only. All Team Siara grunts permanently retreated (Turn 2682). Jackson is NOT in the sewers.
+- **Hypothesis F1 (Metro Station Platform & Attendant Trigger)**: Re-inspect the Metro Station lobby fixtures, ticket gate, timetable, and station attendant at (22, 19) from multiple angles to verify if an event triggers.
+- **Hypothesis F2 (Sovio City Exterior Survey)**: Re-survey Sovio City outdoor perimeter, alleyways, and civic structures.
+- **Hypothesis F3 (Lancio Town / Inizio Isle Route Check)**: Check if an event or trigger was activated in Lancio Town or if passage back to Inizio Isle has opened.
