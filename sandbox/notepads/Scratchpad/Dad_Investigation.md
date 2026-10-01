@@ -1,31 +1,29 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
 ## Core Blockers & Status
-- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!".
-- **Route 2 Gate**: Stepping onto (52, 19) triggers "I can't go yet... I have things to do!".
-- **Jackson Status**: Captured by Team Siara in sewers (Turn 1666-1707 cutscene). Jackson has remained missing, which is why turnstiles and Route 2 remain locked.
+- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22).
+- **Route 2 Gate**: Stepping onto (52, 19-22) triggers "I can't go yet... I have things to do!".
+- **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
-- **Lancio Town**: Professor Ivo's dialogue static ambient (Turns 7625, 13511), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
-- **Route 1**: All trainers defeated; cottage boy gives Max Repel; open hedge passage connects column 30 to Northwest Clearing.
-- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), timetable (22, 24), and Central Park pond walkway (43-45, 23-26) return baseline ambient interactions.
-- **Sovio Metro Lobby (Audited Turn 14177)**: Turnstile at (19, 21) strictly triggers 'I should find dad first!' forcing player to (19, 22); platform attendant at (22, 19) is inaccessible behind brick wall.
-- **Sovio Route 2 Boundary (Audited Turn 14189)**: Barrier at (52, 19-22) strictly triggers 'I can't go yet... I have things to do!' forcing player back.
-- **Sovio Buildings Audited This Cycle**:
-  - SC1 (Pokémon Center 44, 12): Camper at (5, 7) Weedle text; Boy at (9, 6) PC text.
-  - SC2 (North-Central House 39, 7): Elderly man repeats Wii text.
-  - SC3 (Terrace House 49, 14): Granddaughter at (63, 34) non-interactive; Nana at (62, 31) repeats cooking text ('I\'m cooking something for my dear grandkid. She loves my cooking.'); Old Man and Machop absent from terrace (audited Turn 14196-14203). Terrace Complex 100% settled/ambient.
-  - SC4 (Gumball House 29, 14): 1F Boy repeats 'I love this show!', 1F Mother repeats 'My son is watching some cartoon... Why is the goldfish the cat\'s brother...', 2F resident in bed at (27, 15-16) confirmed inert (audited Turns 14246-14262). SC4 100% settled/ambient.
-  - SC5 (Machop Family House 14, 15): Karate couple debate static; Machop flavor text permanently 'He seems a bit agressive...' regardless of quest status (re-verified Turn 14148).
-- **Machop's Toy Quest**: Completed Turn 13331 (Black Belt obtained).
-- **Deep Subterranean Sector (Sovio Sewers)**: Audited Turn 14052. 3x3 chamber (2, 38) perimeter walls probed inert; single-purpose quest room where Machop's toy was retrieved.
+- **Lancio Town**: Professor Ivo static ambient dialogue ("Hey, Ashi, how's your new Pokémon?"), lab basement stairs blocked ("I probably shouldn't head down here..."), harbor boat empty/discontinued.
+- **Route 1**: All trainers defeated; roadside cottage boy gifts Max Repel; open hedge passage connected; tall grass wild encounters catalogued.
+- **Sovio Surface**: Plaza confrontation tiles (43-44, 13-15), Central Park pond walkway, and south sidewalk return baseline ambient interactions.
+- **Sovio Domestic Interiors (SC1-SC5, Name Rater)**: All 6 residences fully audited and verified 100% ambient/settled (detailed records in Locations/Sovio_City.md).
+- **Sovio Metro Lobby**:
+  - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
+  - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
+- **Sovio Sewers**:
+  - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; displays ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12). Confirmed decorative storage dead-end; not the holding cell from Turn 1666 cutscene.
+  - Machop's Toy Quest: Completed Turn 13331 (Black Belt obtained).
+  - Deep Subterranean Sector (2, 38): Audited Turn 14052; single-purpose quest room, all perimeter walls inert.
 
 ## Active Hypotheses & Primary Focus
-- **Hypothesis SC4 (Gumball Residence SC4 Audit - COMPLETE)**:
-  - Audited 1F Boy (25, 32: 'I love this show!'), 1F Mother (27, 33: 'My son is watching some cartoon...'), and 2F Resident in bed (27, 15: inert). Falsification criteria met: SC4 declared 100% ambient/settled. All 6 Sovio domestic interiors (SC1-SC5, Name Rater) are now fully audited and verified ambient.
+- **Hypothesis TB1 (Metro Timetable Columns 21-22 - FALSIFIED / SETTLED)**:
+  - Verified Turns 14276-14278: Columns 21 and 22 repeat identical baseline text. Entire board is confirmed purely decorative.
 
-- **Hypothesis TB1 (Metro Timetable Columns 21-22 & Platform Perimeter)**:
-  - **Context**: Critique noted Turn 14173 tested timetable at (23, 24) with no textbox, leaving columns 21-22 untested.
-  - **Targets**: Metro Timetable Board at (21, 24) and (22, 24).
-  - **Method**: Exit SC4 to West Avenue, traverse east to Metro Station lobby, probe timetable facing North from columns 21 and 22 with 'A'.
-  - **Falsification Criteria**: If both columns 21 and 22 produce no dialogue or repeat baseline timetable text, timetable board is settled as purely decorative.
+- **Hypothesis GT1 (Global Trigger & Party / Inventory Mechanics Investigation)**:
+  - **Context**: Having confirmed that all Sovio residences, surface quadrants, Route 1, Lancio Town, and sewer sectors are settled/ambient, shuttling between surface and sewers without new variables is circular stagnation. The blocker flags ('I should find dad first!' and 'I have things to do!') may be gated by a non-spatial game mechanic.
+  - **Targets**: Party composition (Sirius Lv14 solo; Zephyr in PC?), PC Boxes / Mailbox in Pokémon Center, HuPhone app configurations, or unexamined overworld mechanics.
+  - **Method**: Check PC Box / Party system, verify if Zephyr (Pidgey) or an item/message is waiting in PC storage, test turnstile interaction from (19, 22) facing Up with 'A'.
+  - **Falsification Criteria**: If PC and party systems yield no new progression, evaluate other uninspected global interaction points.
