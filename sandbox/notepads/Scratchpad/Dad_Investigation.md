@@ -2,7 +2,7 @@
 
 ## Investigation Status & Active Hypotheses (Updated Turn 12724)
 - **Verified Game State**:
-  - Metro Turnstile at (19, 21): Displays "I should find dad first!" (Repels South).
+  - Metro Turnstile at (19, 21): Re-tested Turn 12777 (post-quest-cancellation & threshold sweep); strictly displays "I should find dad first!" and repels South to (19, 22).
   - Route 2 Exit at (52, 19-22): Displays "I can't go yet... I have things to do!" (Repels West).
   - Professor Ivo's Lab Stairs at (12, 7): Displays "I probably shouldn't head down here..."
   - Sovio Sewers Storage Room at (37, 14): Displays "Its a simple storage room..."
@@ -10,6 +10,9 @@
   - *Core Fact*: Jackson remains MISSING following the seismic tremor (Turn 1437). Every primary progression gate confirms finding Jackson is mandatory to advance.
 
 ## Settled / Falsified Hypotheses (Condensed)
+- **Hypothesis H (Central Plaza Exterior Threshold Sweep)**: Tested Turn 12774. Traversed (45, 14) -> (45, 19) -> (49, 19) -> (49, 18) -> (48, 18); confirmed zero automated script triggers or cutscenes outside Metro portal.
+- **Hypothesis I (Pre-Turnstile Metro Lobby NPCs/Trigger)**: Tested Turn 12775-12777. Lobby contains zero NPCs (Dad and Valora absent); turnstile at (19, 21) strictly blocks passage with 'I should find dad first!'.
+- **Cognitive Correction on Jackson Status**: Context summary statements claiming Asher reunited with Jackson and Valora on Turn 2279-2716 are confirmed context summarization hallucinations. Verifiable ground truth: Jackson was held by grunts (Turn 1666), sewer storage room at (37, 14) is empty, and Jackson has NOT been found. Finding Jackson remains the active primary blocker.
 - **Hypothesis A (Karate House Direct Story Gate)**: Falsified Turn 12132. Karate House residents and 2F audited ambient flavor; cancelling quest did not unlock Metro.
 - **Hypothesis B (Sewers Storage Room)**: On hold. Room at (37, 14) currently inert ("Its a simple storage room...").
 - **Hypothesis C (Surface NPCs with Unexamined Conditions)**: On hold pending new story triggers.
@@ -18,11 +21,13 @@
 - **Hypothesis G (Route 1 Two-Way Connection)**: Verified Turn 12564. Confirmed two-way foot route between Lancio Town and Sovio City via row 10 meadow and Eastern Highway; documented in Locations/Route_1.md.
 - **Sub-Hypothesis 1 (Machop's Toy Ground Search in Sewers)**: CLOSED Turn 12724. Tested northern and western corridors (Western Terrace 14, 12; Northern Gangway 15-27, 5; puddles at 33-35, 22; 36-38, 27-28; 28, 19; 14-15, 11; 26-27, 5) with zero visible item balls or prompts found. Quest strategically deprioritized to refocus on primary story progression and locating Jackson on the surface.
 
-## Active Investigation: Jackson's Whereabouts & Progression Unlocks
+## Active Investigation: Jackson's Whereabouts & Sovio City Surface Facilities
 
-### Primary Focus: Jackson's Whereabouts & Sovio City Progression Triggers
-- **Status**: ACTIVE. Returning to surface immediately.
-- **Rationale**: Jackson ran outside after the tremor (Turn 1437). Metro turnstiles explicitly demand 'I should find dad first!'.
-- **Immediate Plan**:
-  2. Return to Sovio City surface.
-  3. Machop's Toy officially cancelled on Turn 12771. Focusing 100% on testing Hypothesis 1 (Metro lobby inspection) and Hypothesis 2 (exterior Central Plaza triggers).
+### Hypothesis J: Uninspected Sovio City Public Facilities & NPC States
+- **Status**: ACTIVE.
+- **Rationale**: Subterranean loops are exhausted (storage room 37, 14 inert, grunts vacated). Jackson disappeared onto the surface after the tremor (Turn 1437). Systematic check of civic/commercial facilities in Sovio City in the post-retreat state.
+- **Target 1: Sovio City Pokémon Center & Mezzanine PokéMart**
+  - Nurse Joy counter, Camper (5, 7), Boy (8-9, 4-6), PC terminal (12, 1), Mezzanine clerk (5, 3).
+  - Protocol: Speak to all occupants to verify if dialogue updated or new clues are provided.
+- **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
+  - Check non-enterable building facades and Central Park pond perimeter for post-sewer updates.
