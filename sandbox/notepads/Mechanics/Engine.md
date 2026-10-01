@@ -46,7 +46,7 @@
 
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs (HM01 Cut, HM06 Rock Smash, Surf, Flash, etc.) in possession.
 
-- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. (Lost Toy delivered Turn 13331).
+- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case.
 
 - **Items Pocket (Verified Turn 13331)**: Potion x 1, Poison Barb x 1, Nugget x 1, Black Belt x 1 (Machop's Toy quest reward).
 
