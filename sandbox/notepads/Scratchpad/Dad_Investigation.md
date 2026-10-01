@@ -20,13 +20,12 @@
   - **Rationale**: Sovio Sewers are completely exhausted across all sectors (Machop's toy returned, Siara grunts retreated, storage room verified ambient). Metro turnstile blocker explicitly checks Jackson's rescue flag ('I should find dad first!'). We must exit the sewers to Sovio City and systematically audit unexamined spaces, structures, and interaction mechanics.
   - **Primary Targets**:
     1. Two-Story Commercial/Residential Building (columns 47-51, rows 20-29) south of Central Plaza. Verify whether any entrance exists or if lower story wooden siding has interaction triggers.
-    2. Review HuPhone Quest Log pages 2-5 for potential side-quest dependencies or flags.
-    3. Re-audit key Sovio City locations and dialogue triggers with fresh eyes.
+    2. Re-audit key Sovio City locations and dialogue triggers with fresh eyes.
   - **Status**: Formulated. Currently exiting Sovio Sewers to commence investigation in Sovio City.
 
 ## Settled Hypotheses
-- **Hypothesis SC1 (Sovio City Exterior Physical Boundaries - 100% AUDITED)**:
-  - Status: Settled Turn 14727. Southern Avenue tree lines, southwest lawn (12, 30), southwest building perimeter, rear Biker lane (col 12, rows 20-30), western office facade (col 11, rows 16-20), Karate house corner (12, 15), Gumball/tan building gap (31, 13), northern alcove (39, 7), and elevated terrace (cols 50-52, rows 15-17) are 100% verified solid boundaries. No external event triggers exist.
+- **Hypothesis SC1 (Sovio City Exterior Map Boundaries - 100% AUDITED)**:
+  - Status: Settled Turn 14727. Map edge perimeters (Southern Avenue tree lines, southwest lawn at 12, 30, rear Biker lane at col 12, western office boundary at col 11, northern alcove at 39, 7, and elevated terrace edge at col 52) are 100% verified solid dead-ends with no map exits. Note: Internal urban building facades and interactions within city limits remain subject to specific auditing under SC2.
 
 ## Archived Hypotheses (Exhausted / Evaluated)
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room - EXHAUSTED)**:
