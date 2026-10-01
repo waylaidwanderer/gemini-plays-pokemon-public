@@ -702,7 +702,10 @@
 - **Hypothesis SS2 (Sovio Sewers Inner Sectors & Jackson Detention Cell)**:
   - **Rationale**: Progression analysis confirms the Metro blocker ('I should find dad first!') is hard-coded to Jackson's rescue event flag. Tile (37, 14) returning 'Its a simple storage room...' was an ambient prop, not Jackson's actual cutscene cell. Marie's broadcast (Turn 2682) cleared the grunts, but Jackson's sprite remains waiting in an accessible room, alcove, or platform in the sewer complex.
   - **Primary Objective**:
-    1. Sewer Western Terrace & Grunt 2 Platform Audit (Cols 14-19, Rows 11-23): Systematically probe terrace perimeter and Grunt 2's platform for Jackson or detention room entrance.
+    1. Sewer Western Corridor & Grunt 2 Platform Audit (Cols 14-19, Rows 11-27):
+       - Western stairs (14, 16) descended into row 18 corridor.
+       - Grunt 2 platform at (18, 21-22) verified empty (Grunt 2 retreated; Jackson not present).
+       - Proceeding south along column 18 corridor to row 27 intersection to audit lower horizontal walkway.
 
 ## Settled Hypotheses
 - **Hypothesis SC2 (Sovio City Commercial Building & Surface Audits - 100% SETTLED)**: Verified decorative exterior with zero doors or triggers (documented in Locations/Sovio_City.md).
@@ -711,7 +714,6 @@
 
 ## Archived Hypotheses (Exhausted / Evaluated)
 - **Hypothesis SS1 (Sovio Sewers Eastern Storage Room - EXHAUSTED)**:
-  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149; Turn 14829 attempt aborted into wild combat). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor. 
-
+  - Status: Concluded Turn 14836. Audited multiple times (Turns 8637, 11127, 11149; Turn 14829 attempt aborted into wild combat). Tile (37, 14) displays ambient text 'Its a simple storage room...'; south tile is void chasm collision. Flanking tiles (36, 14) and (38, 14) are bare stone floor.
 
 <hr>
