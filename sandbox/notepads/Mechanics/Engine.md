@@ -56,6 +56,13 @@
     18. Roark's Opal
     19. PokéDex!
     20. Marine Point Hunter
+  - **Page 5 Quests (Audited Turn 14877)**:
+    21. Hugh's Pokémon
+    22. Silver's Deal
+    23. Back to the...
+    24. Outcasts
+    25. The Mods of Cord
+  - **Full Quest Scope**: Exactly 25 quest entries across 5 pages (23 named quests + 2 '- Not available -' slots). Page 5 terminates with 'Previous' and 'Exit' (no 'Next' option).
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
   - 'Quest Status' (Empirically Verified Turns 12670, 14095): When a quest is active, displays system tutorial text ('You are already doing a Quest...'). When no quest is active, displays 'You aren't doing any Quest at the moment!'. Does not display quest titles or objective hints; side quest details must be obtained from NPC dialogue.
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
