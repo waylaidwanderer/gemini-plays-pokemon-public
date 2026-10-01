@@ -175,7 +175,7 @@
 
   - Red rug, table, and PC terminal in western wing.
 
-  - Stairs at north wall (Verified Turns 10072, 11767, 13506, 14521): Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (re-verified still blocked on Turn 14521).
+  - Stairs at north wall (Verified Turns 10072, 11767, 13506, 14521): Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
 
 - **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
 
@@ -366,8 +366,8 @@
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
     3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
-    4. Medic! (Uncompleted)
-    5. Squirtle Gang (Uncompleted)
+    4. Medic! (Listed on page 1; uninspected)
+    5. Squirtle Gang (Listed on page 1; uninspected)
   - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
   - 'Quest Status' (Empirically Verified Turns 12670, 14095): When a quest is active, displays system tutorial text ('You are already doing a Quest...'). When no quest is active, displays 'You aren't doing any Quest at the moment!'. Does not display quest titles or objective hints; side quest details must be obtained from NPC dialogue.
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
@@ -652,12 +652,7 @@
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
-- **Lancio Town Audit (Settled Turn 14528)**:
-  - Lab Stairs at (12, 7): Re-verified blocked ("I probably shouldn't head down here...", Turn 14521).
-  - Prof. Ivo at (20, 6): Re-verified ambient dialogue ("Hey, Ashi, how's your new Pokémon?", Turn 14524).
-  - Harbor Pier at (32-34, 25): Re-verified empty; Harry/boat absent; ocean water inert (Turn 14527).
-  - Fisherman at (38, 22): Ambient philosophical advice on patience (Turn 14528-14536).
-- **External Settlements & Residences**: Lancio Town, Route 1, Sovio surface quadrants, and all 6 domestic residences remain settled (detailed records in Locations/*.md).
+- **Lancio Town Audit (Settled Turn 14528)**: Laboratory and Harbor verified static (details in Locations/Lancio_Town.md).
 - **Sovio Metro Lobby**:
   - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as purely decorative flavor text ("It's a timetable showing various destinations!").
   - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
@@ -668,9 +663,9 @@
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SO1 (Systematic Audit of Unexamined Regional Systems & Surface Connections)**:
-  - **Context**: The sewers are completely cleared (Marie radio retreat) and domestic residences are settled. The progression gate ("I should find dad first!" at Metro turnstile and "I can't go yet..." at Route 2 gate) requires finding Jackson or triggering the regional event that advances the story.
-  - **Plan**: Conclude outdoor town NPC audit (Bikers, Karate house), audit player Bag Key Items / regional items, and re-examine the physical boundaries of Sovio City, Route 1, and Lancio Town for any triggered event.
+- **Hypothesis SO1 (Regional Progression Trigger Investigation)**:
+  - **Context**: The sewers have been exhaustively looped (Turn 14428 settled) and tile (37, 14) repeatedly returns ambient text ('Its a simple storage room...'). Returning to (37, 14) without a new key, HM, or story flag will not yield new results. The progression gate ('I should find dad first!' and 'I can't go yet...') requires discovering the true regional trigger.
+  - **Plan**: Traverse Route 1 north to Eastern Highway and Sovio City. Re-examine potential triggers in Sovio City (Metro station attendants, central plaza NPCs) and investigate unexplored regional connections.
 
 ## Archived Hypotheses (Exhausted)
 - **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
