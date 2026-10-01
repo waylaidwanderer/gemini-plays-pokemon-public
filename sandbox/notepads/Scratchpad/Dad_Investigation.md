@@ -25,10 +25,11 @@
 ### Hypothesis J: Uninspected Sovio City Public Facilities & NPC States
 - **Status**: ACTIVE.
 - **Rationale**: Subterranean loops are exhausted (storage room 37, 14 inert, grunts vacated). Jackson disappeared onto the surface after the tremor (Turn 1437). Systematic check of civic/commercial facilities in Sovio City in the post-retreat state.
-- **Target 1: Sovio City Pokï¿½mon Center (Audited 100% Complete Turns 12788-12821)**
+- **Target 1: Sovio City Pokémon Center (Audited 100% Complete Turns 12788-12821, 12876-12883)**
   - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
   - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
-  - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pokï¿½mon Center's service!").
-  - Mezzanine PokéMart: Prior check on Turn 9696 pre-dates sewer retreat. Post-retreat audit pending verification to satisfy Burden of Proof.
+  - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pokémon Center's service!").
+  - Mezzanine PokéMart (Audited Turns 12881-12883): Post-retreat check verified clerk at (5, 3) offers standard shop menu ("Hi, there! May I help you?"). Zero additional NPCs or story clues on mezzanine floor.
+  - Conclusion: Target 1 100% complete across both floors in post-retreat state under Burden of Proof.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
