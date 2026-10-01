@@ -669,18 +669,18 @@
 ### Hypothesis J: Uninspected Sovio City Public Facilities & NPC States
 - **Status**: ACTIVE.
 - **Rationale**: Subterranean loops are exhausted (storage room 37, 14 inert, grunts vacated). Jackson disappeared onto the surface after the tremor (Turn 1437). Systematic check of civic/commercial facilities in Sovio City in the post-retreat state.
-- **Target 1: Sovio City Pok�mon Center (Audited 100% Complete Turns 12788-12821, 12876-12883)**
+- **Target 1: Sovio City Pokemon Center (Audited 100% Complete Turns 12788-12821, 12876-12883)**
   - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
   - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
-  - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pok�mon Center's service!").
-  - Mezzanine Pok�Mart (Audited Turns 12881-12883): Post-retreat check verified clerk at (5, 3) offers standard shop menu ("Hi, there! May I help you?"). Zero additional NPCs or story clues on mezzanine floor.
+  - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pokemon Center's service!").
+  - Mezzanine PokeMart (Audited Turns 12881-12883): Post-retreat check verified clerk at (5, 3) offers standard shop menu ("Hi, there! May I help you?"). Zero additional NPCs or story clues on mezzanine floor.
   - Conclusion: Target 1 100% complete across both floors in post-retreat state under Burden of Proof.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - House (39, 7) (Audited 100% Complete Turns 12848-12863): 1F elderly man at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.") and 2F boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now.") confirmed 100% ambient flavor. Zero Dad clues or items.
 
 ## Southern Avenue & Transition to Route 1 (Turns 12940-12946)
 - Traversed Southern Avenue along columns 14-15 from West Avenue past Three Bikers (13, 21-23), through the dark brick archway at rows 28-29, and down to row 39. Confirmed zero NPCs, doors, or items along the avenue.
-- Sovio City Sectors Audited: Central Plaza, Northern Row, West Avenue, Two-Story Building roof passage, Southern Avenue.
-- Sovio City Sectors PENDING Audit: South Sidewalk (rows 27-28 south of Central Park pond, Name Rater house 31, 26, children's gathering 33-35, 28) and Central Park interior.
+- Sovio City Sectors Audited: Central Plaza, Northern Row, West Avenue, Two-Story Building roof passage, Southern Avenue, South Sidewalk (rows 27-28, Name Rater house 31, 26, children's gathering 33-35, 28), and Central Park interior. 100% of all public surface sectors and buildings verified.
+
 
 <hr>
