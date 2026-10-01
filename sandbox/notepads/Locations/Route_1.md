@@ -69,4 +69,3 @@
 
 - **Sand Highway Column 35 Bounds (Verified Turn 12970)**: Column 35 is blocked south at row 31 by pine tree border. Traversal south along Sand Highway must follow columns 36-37.
 - **Row 30 Forest Canopy Passage**: Tile (35, 30) and (34, 30) are walkable alcove tiles under the canopies, but (33, 30) is solid pine tree collision (verified Turns 13593-13595).
-- **Verified Obstacles (Turns 13597-13678)**: Solid collisions verified at (36, 11) (pine tree), (31, 38) (shrub/boundary), (29, 38) (pine tree trunk), (27, 38) (pine tree trunk), (28, 40) (columnar shrub base), (35, 24) (Cottage wall), and (34, 24) (pine tree trunk).
