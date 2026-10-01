@@ -582,6 +582,7 @@
 
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
 
+
 <hr>
 
 <h1><code>Locations/Sovio_Sewers</code></h1>
@@ -665,20 +666,18 @@
   - Eastern Storage Room at (37, 14): Audited Turns 8637, 11127, 11149; ambient "Its a simple storage room..." with solid south void collision. Row 13 east of col 24 runs beneath solid north brick wall (rows 10-12).
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SC1 (Systematic Audit of Sovio City Exterior Perimeters & Structures)**:
-  - **Rationale**: The Metro turnstile blocker ('I should find dad first!') and Route 2 gate ('I can't go yet...') are both in Sovio City. Lancio Town is verified on-foot isolated (connecting exclusively northeast to Route 1 and ocean elsewhere; on-foot passage to Azluf is physically impossible without Surf). Looping back and forth across Route 1 without state changes is unproductive. Asher must systematically search Sovio City perimeters, alleyways, tree lines, and building facades to find Dad or trigger the next story event.
-  - **Plan**: Perform systematic, tile-by-tile boundary checks in Sovio City:
-    1. Southern Avenue tree lines: (12, 30) lawn tested Turn 14686 (11, 30 solid pine tree collision; dead end); east row 30 dead-ends at col 18. [AUDITED]
-    2. Southwest building perimeter: (18, 27) solid wall, (17, 25) solid wall, sidewalk at (16-17, 26-27) open. [AUDITED]
-    3. West Avenue western facade & corridor behind Bikers: Col 12 fully open rows 20-30 behind Bikers to southwest lawn. Column 11 rows 16-20 solid office wall with 0 doors/scripts; (12, 15) solid Karate house wall. [AUDITED]
-    4. North Central alleyways: Probe columns 30-31 between Gumball house (29, 14) and tan building (32-37), and alleyway (39-40) north to house (39, 7).
-    5. Plaza eastern boundaries and elevated terrace edges: (51-52, 15-17) terrace floor open, east wall solid at col 52, south terminated by signpost at (51, 18). [AUDITED]
+- **Hypothesis SS1 (Sovio Sewers Eastern Storage Room In-Depth Probe)**:
+  - **Rationale**: Both the Metro turnstile ('I should find dad first!') and Route 2 gate ('I can't go yet...') require finding Jackson. The cutscene (Turn 1666) showed grunts holding Jackson in a sewer storage room. While Marie's retreat (Turn 2682) cleared corridor grunts, previous audits of the Eastern Storage Room at (37, 14) merely pressed 'A' facing South from (37, 14), receiving ambient text ('Its a simple storage room...'). We must verify whether (37, 14) itself is a doorway that can be stepped into, or if specific adjacent tiles/angles reveal interaction scripts.
+  - **Status**: Testing in progress. Re-entering sewer row 13 gangway to perform a comprehensive tile inspection around (36-38, 13-14).
 
-## Archived Hypotheses (Exhausted / Debunked)
-- **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - DEBUNKED)**:
-  - Status: Debunked Turn 14674. Lancio Town has no on-foot coastal exit to Azluf Town; regional geography confirms Lancio connects exclusively northeast to Route 1 and is otherwise surrounded by ocean. Requires water traversal/Surf not currently accessible.
-- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - EXHAUSTED)**:
-  - Status: Concluded Turn 14428. Continuous loop traversed (Lower walkway -> Western stairs -> Upper terrace -> Wall ladder -> Northern Gangway -> Bridge -> Row 13 -> Dark Sector). Zero NPCs, cutscenes, or progression triggers encountered along this loop. 100% settled.
+## Settled Hypotheses
+- **Hypothesis SC1 (Sovio City Exterior Perimeters - 100% AUDITED)**:
+  - Status: Settled Turn 14727. Southern Avenue tree lines, southwest lawn (12, 30), southwest building perimeter, rear Biker lane (col 12, rows 20-30), western office facade (col 11, rows 16-20), Karate house corner (12, 15), Gumball/tan building gap (31, 13), northern alcove (39, 7), and elevated terrace (cols 50-52, rows 15-17) are 100% verified solid boundaries. No external event triggers exist.
 
+## Archived Hypotheses (Exhausted / Evaluated)
+- **Hypothesis LA1 (Lancio Town Southern Coastline to Azluf - Cartographic Deduction)**:
+  - Status: Evaluated Turn 14674/14731. World Map shows Lancio Town as a coastal terminus connecting exclusively northeast to Route 1. Traversing east to Azluf Town is water-gated by regional topology and impossible on foot without Surf or water transport.
+- **Hypothesis SE1 (Sustained Exploration of Sovio Sewers Loop - RECONCILED)**:
+  - Status: Concluded Turn 14428. The open loop (Western stairs -> Terrace -> Gangway -> Bridge -> Dark Sector) contains no roaming NPCs or triggers. Focus is restricted specifically to testing the Eastern Storage Room tile mechanics at (37, 14).
 
 <hr>
