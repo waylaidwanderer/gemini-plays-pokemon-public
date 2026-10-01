@@ -19,10 +19,10 @@
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis SC1 (Systematic Audit of Sovio City Exterior Perimeters & Structures)**:
   - **Rationale**: The Metro turnstile blocker ('I should find dad first!') and Route 2 gate ('I can't go yet...') are both in Sovio City. Lancio Town is verified on-foot isolated (connecting exclusively northeast to Route 1 and ocean elsewhere; on-foot passage to Azluf is physically impossible without Surf). Looping back and forth across Route 1 without state changes is unproductive. Asher must systematically search Sovio City perimeters, alleyways, tree lines, and building facades to find Dad or trigger the next story event.
-  - **Plan**: Return to Sovio City immediately. Perform systematic, tile-by-tile boundary checks:
-    1. Southern Avenue tree lines (rows 28-38, columns 13 and 16).
-    2. Southwest building perimeter (columns 18-22, rows 26-29).
-    3. West Avenue western office building facade (column 11, rows 12-20).
+  - **Plan**: Perform systematic, tile-by-tile boundary checks in Sovio City:
+    1. Southern Avenue tree lines: (12, 30) lawn tested Turn 14686 (11, 30 solid pine tree collision; dead end); east row 30 dead-ends at col 18.
+    2. Southwest building perimeter: (18, 27) solid wall, (17, 25) solid wall, sidewalk at (16-17, 26-27) open.
+    3. West Avenue western facade & corridor behind Bikers: Col 12 walkable at rows 20-21 behind Bikers; (11, 20) solid building wall (tested Turn 14695). Probe col 11 rows 12-19.
     4. North Central alleyways (around 32-37 and 39-40).
     5. Plaza eastern boundaries and elevated terrace edges.
 
