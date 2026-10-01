@@ -18,22 +18,23 @@
 
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
 
-## HuPhone Regional Device & Apps (Verified Turns 1520, 4012, 6028, 6198)
-
-- **Item Storage**: Portable PC item storage (verified functional, audited empty Turn 9856: "There are no items.").
-
-- **Mailbox**: Portable PC mailbox (audited empty Turn 9860: "There's no Mail here.").
-
+## HuPhone Regional Device & Apps (Audited Turns 12375-12394)
+- **Access**: Activated via SELECT button or through BAG Key Items pocket.
+- **Main App Menu**:
+  1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
+  2. **World Map**: Static regional map viewer of Hupest with town nodes.
+  3. **Quest Log**: Active objective tracker and completed quest list.
+  4. **Back**: Closes HuPhone.
+- **Portable PC Interface (Item Storage app)**:
+  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel. Audited empty (Turn 12381).
+  - **Mailbox**: Portable PC mailbox. Audited empty (Turn 12388: "There's no Mail here.").
+  - **Turn Off**: Exits portable PC interface.
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
-
 - **Quest Log Scope & Structure**:
-
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
-
-  - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey [Verified Turn 6550], or 'This Quest hasn't been completed yet!' for uncompleted quests).
-
-  - 'Quest Status': Displays status for active quests without detailed objective hints. When a quest is active, it displays: "You are already doing a Quest. If you want to start another one, cancel the current Quest. You can cancel a quest at by talking to its provider!" Confirmed it does not provide objective tracking or location hints.
-  - **HuPhone Menu & Quest Navigation (Verified Turn 11311)**: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
+  - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
+  - 'Quest Status': Displays status for active quests without detailed objective hints.
+  - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
 ## Pokémon Center Respawn Mechanics (Verified Turn 1815)
 
