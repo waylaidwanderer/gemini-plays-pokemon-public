@@ -678,8 +678,4 @@
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - Check non-enterable building facades and Central Park pond perimeter for post-sewer updates.
 
-## Reflection & Operational Status (Turn 12838)
-- Completed 100% audit of Target 1 (Sovio City Pokémon Center). All NPCs and services confirmed ambient/standard.
-- Entering Sovio Sewers via the Metro Station red mat to investigate the storage room at (37, 14) and check all adjacent facings and wall tiles for potential interaction triggers.
-
 <hr>
