@@ -37,7 +37,7 @@
 - **East Exit Story Barrier (Verified Turns 9256, 12163)**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-15 on an elevated wooden terrace accessible via row 15 curb at (47, 15) (accessible only from west at 46, 15; south edge has solid railing). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
-  - **Old Man at (51, 15) & 'Machop's Toy' Quest (COMPLETED Turn 13331)**: Lost Toy (Clefairy Poké Doll) retrieved from Deep Subterranean Sector at (2, 37) on Turn 13238. Delivered to Old Man; rewarded with Black Belt (+20% Fighting moves). Post-completion: Old Man thanks Asher; Machop at (51, 16) is calmed down.
+  - **Old Man at (51, 15) & Machop at (51, 16)**: Ambient dialogue; Old Man expresses gratitude and Machop is calm.
 
   - **Interior 1F (Verified Turn 7897-7907, 8521-8526)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 34) and Nana at (62, 31) provide ambient flavor dialogue. Audited 100% complete; ambient residence with no items or story triggers.
 
