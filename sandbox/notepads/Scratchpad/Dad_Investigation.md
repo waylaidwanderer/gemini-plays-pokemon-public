@@ -25,11 +25,15 @@
 ### Hypothesis J: Uninspected Sovio City Public Facilities & NPC States
 - **Status**: ACTIVE.
 - **Rationale**: Subterranean loops are exhausted (storage room 37, 14 inert, grunts vacated). Jackson disappeared onto the surface after the tremor (Turn 1437). Systematic check of civic/commercial facilities in Sovio City in the post-retreat state.
-- **Target 1: Sovio City Pokémon Center (Audited 100% Complete Turns 12788-12821)**
+- **Target 1: Sovio City Pokï¿½mon Center (Audited 100% Complete Turns 12788-12821)**
   - Nurse Joy counter: Tested Turns 12788-12790; standard healing sequence, sets respawn checkpoint, zero story dialogue.
   - Boy in blue shirt: Tested Turns 12806-12808; confirmed unchanged ambient advice regarding corner PC ("Please feel free to use that PC in the corner. The receptionist told me so.").
-  - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pokémon Center's service!").
-  - Mezzanine PokéMart: Standard shop previously audited Turn 9696 (Poké Ball, Potion, Antidote, Paralyz Heal, Repel).
-  - Conclusion: Target 1 100% complete. Zero Dad presence or updated clues in Pokémon Center.
+  - Straw-hat Camper (5, 7): Tested Turns 12813-12816; confirmed unchanged ambient dialogue regarding poisoned Weedle ("My weedle got poisoned so I will need the Pokï¿½mon Center's service!").
+  - Mezzanine Pokï¿½Mart: Standard shop previously audited Turn 9696 (Pokï¿½ Ball, Potion, Antidote, Paralyz Heal, Repel).
+  - Conclusion: Target 1 100% complete. Zero Dad presence or updated clues in Pokï¿½mon Center.
 - **Target 2: Northern Commercial/Residential Row & Central Park Flanks**
   - Check non-enterable building facades and Central Park pond perimeter for post-sewer updates.
+
+## Reflection & Operational Status (Turn 12838)
+- Completed 100% audit of Target 1 (Sovio City PokÃ©mon Center). All NPCs and services confirmed ambient/standard.
+- Entering Sovio Sewers via the Metro Station red mat to investigate the storage room at (37, 14) and check all adjacent facings and wall tiles for potential interaction triggers.
