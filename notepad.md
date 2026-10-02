@@ -712,7 +712,7 @@
 ### Hypothesis H28: Subterranean Environmental Audit & Equipment Investigation
 - **Premise**: With all Sovio City surface facilities, residential interiors, and outdoor perimeters conclusively eliminated, the only location tied directly to Jackson's disappearance and Team Siara's confrontation is the Sovio Sewers. We must investigate the post-retreat subterranean environment to identify any overlooked interaction vectors or equipment mechanics.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Descend to Sovio Sewers)**: ACTIVE. Walk from (23, 24) across Metro lobby row 24 to red mat at (18-19, 25) and descend into Sovio Sewers.
-  - **Milestone 2 (Subterranean Landing & Corridor Audit)**: Upon arriving at (37, 22), inspect the landing and upper walkways for any altered event flags or interactive points.
+  - **Milestone 1 (Descend to Sovio Sewers)**: COMPLETED (Turn 17410). Physically descended from Metro lobby red mat (18, 25) into Sovio Sewers; arrived at landing (37, 22).
+  - **Milestone 2 (Upper Landing & Puddle Physical Audit)**: ACTIVE. From (37, 22), inspect the shallow puddle (cols 32-35, rows 21-23), northern wall, and western walkway towards (22, 20) for any hidden objects, switches, or interactable tiles.
 
 <hr>
