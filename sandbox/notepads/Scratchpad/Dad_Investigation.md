@@ -18,11 +18,12 @@
 - **West Avenue Exterior Landmarks (H34)**: Boy Rocky at (23, 17) and partner rock at (24, 17) re-verified static flavor text ("Rocky: ...", "It's just a normal rock..."). Southwest lawn (12-13, 30) verified dead-end pine boundary with zero items or hidden triggers.
 
 - **Central Park Pond Feature (H35)**: Tested Turn 17705-17708. North curb/bank at (39, 17) has solid collision from row 16; interacting South into (39, 18) yields zero text. Confirmed non-interactive on foot.
+- **Camper Dialogue Audit (H36)**: Straw-hat Camper at (5, 7) in Sovio Pokémon Center confirmed static flavor text ("My weedle got poisoned so I will need the Pokémon Center's service! Ironic isn't it?"). Does not trigger Quest 4 "Medic!" or request Antidote.
 
 ## Active Hypotheses for Progression
-### Hypothesis H36: Storage Room Access & Quest Triggers ("Medic!")
-- **Premise**: Main story progression (finding Dad) is blocked at the turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!"). In the HuPhone Quest Log, Quest 4 is named "Medic!", and inside Sovio Pokémon Center a camper specifically complains his Weedle is poisoned. We test whether the camper triggers Quest 4 "Medic!" or provides a story clue.
+### Hypothesis H37: Pokémon Center PC Terminal & Storage Audit
+- **Premise**: Physical NPCs and surface landmarks in Sovio City have yielded zero progression triggers. We audit the physical PC terminal at (12, 1) in the Pokémon Center, specifically checking Someone's PC (Pokémon storage / gift Pokémon) and Mailbox for any unread messages or story items.
 - **Plan**:
-  1. Enter Sovio Pokémon Center at (44, 12).
-  2. Talk directly to the straw-hat Camper at (5, 7).
-  3. Check if dialogue initiates "Medic!" or requests an Antidote.
+  1. Boot up PC terminal at (12, 1).
+  2. Inspect Someone's PC -> Withdraw Pokémon.
+  3. Inspect Asher's PC -> Mailbox.
