@@ -1,82 +1,3 @@
-<h1><code>Main</code></h1>
-
-# Game Info
-- Title: Pokémon Sors
-- Developer: Vytron (2015-2021)
-- Version: 1.3 (Basic Version)
-- Region: Hupest Region
-
-# Guidelines & Active Reminders
-- Nicknaming: Always nickname every Pokémon creatively!
-- Text Speed: FAST
-
-<hr>
-
-<h1><code>Lore/Hupest_Region</code></h1>
-
-# Hupest Region Lore & Story Background
-
-## Key Entities & Figures
-- **Asher**: Protagonist. Raised as heir to the Siara Mafia to conquer the world; currently living with his father after his parents divorced; resolved to forge his own destiny.
-- **Mother**: Current sole leader of the Siara Mafia; obsessed with a dangerous science project to achieve world domination.
-- **Father (Jackson)**: Former co-leader of Siara Mafia (addressed as Jackson by Mrs. Ivo); opposed the science project due to its catastrophic danger; took Asher away and operates from the shadows to dismantle Siara.
-- **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
-- **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
-
-- **Mrs. Ivo**: Leading Pokémon Professor of the Hupest Region. Scientist with brown hair and pink glasses, wearing a white lab coat over a pink dress. Known Asher since his childhood (affectionately calls him "Ashi") and hasn't seen him in years.
-- **Harry**: Father's friend and associate who operates the boat at Inizio Isle dock; addresses Asher as "young master". Providing passage to Lancio Town.
-- **Valora**: Cyan-haired girl Asher rescued from Team Siara outside Sovio City Pokémon Center. Inspired by Asher, she is traveling to Amor City to qualify for the Eclipse Tournament and become stronger.
-
-## Starting Setting
-- **Inizio Isle**: Starting location where Asher and his father reside.
-
-## Regional History & Events
-- **300-Year Anniversary**: Commemorates 300 years of human-Pokémon coexistence in Hupest.
-- **Eclipse Tournament**: Major international tournament organized in Hupest for the 300-year anniversary; open to trainers worldwide. Does not require traditional Gym Badges to qualify. Registration is open for 3 days; the championship starts 15 days later.
-
-## Major Cities & Points of Interest
-- **Amor City**: Capital city of the Hupest Region.
-- **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
-- **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
-- **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City (verified Turn 14113 via World Map).
-- **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City (verified Turn 14113 via World Map).
-- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City (verified Turn 14118 via World Map). Note: While the regional map shows a cartographic coastal relation to Lancio Town, physical in-game traversal between Lancio Town and Azluf Town is strictly water-gated and impossible on foot without Surf or specialized marine transport (verified Turn 14674).
-
-## Key Items & Technology
-- **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
-  - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
-- **Torn Scarf**: An old, scorched scarf found with Riolu by Professor Ivo when she discovered him. Held / worn by Sirius (Riolu) as part of his custom sprite/form (not stored in Bag Items pocket; verified Turn 5875).
-## Asher & Riolu Flashback (5 Years Ago)
-- **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
-## Mother's Return & Siara Syndicate Movements
-- **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
-
-## World Map Geography (Verified Turn 637)
-- **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
-- **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
-## Sovio City Confrontation (Turns 1225-1318)
-- **Confrontation**: In Sovio City central plaza outside the Pokémon Center, Dad confronted Mother, leader of the Siara Mafia, who was flanked by two grunts.
-- **The Eclipse Project Unveiled**: Mother announced the completion of 'The Eclipse Project' as a test run diversion and summoned altered Eclipse Pidgey bearing a distinct dark aura and the Eclipse insignia.
-- **Asher's Intervention**: When an altered Pidgey threatened a cyan-haired civilian (Valora), Asher stepped between them to defend her.
-- **Aftermath**: The Siara Mafia withdrew; Dad praised Asher's courage, cautioned him about the Eclipse threat, and instructed him to meet at the Sovio Metro Station.
-## Sovio Metro Departure to Amor City (Turns 1388-1394)
-- **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
-- **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
-
-## Sovio Metro Tremor & Jackson's Disappearance (Turns 1437-Present)
-- **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
-- **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
-- **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Location Status**: In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room.
-
-## Southwest Regional Map Topology (Verified Turn 9924 via sw_map.png)
-- **Inizio Isle**: Isolated green island node in the far southwest ocean.
-- **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects exclusively northeast via Route 1 to Sovio City.
-- **Sovio City**: Red rectangular urban node. Connects southwest via Route 1 to Lancio Town, and east via Route 2 toward eastern junctions and Amor City.
-
-
-<hr>
-
 <h1><code>Locations/Inizio_Isle</code></h1>
 
 # Inizio Isle - Asher's Home
@@ -225,32 +146,6 @@
 
 <hr>
 
-<h1><code>Party/Sirius_Riolu</code></h1>
-
-# Sirius (Riolu) - Starter Pokémon
-
-## Profile
-- **Species**: Riolu (Regional Dex No. 161, Fighting-type)
-- **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater Turn 8948)
-- **Gender**: Male (♂)
-- **Level**: Lv15 (Turn 14335)
-- **Max HP**: 42 (Current HP: 42/42, Status: None)
-- **Nature**: Relaxed (+Def, -Speed)
-- **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: Attack 28 (C+), Defense 29 (A-), Sp. Atk 20 (C-), Sp. Def 23 (E), Speed 20 (C-)
-- **Moves**:
-  - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
-  - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
-  - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48 Turn 2334)
-  - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
-  - *Declined*: Counter (Physical Fighting, offered Lv12 on Turn 1853; declined to retain priority STAB offense)
-- **OT / ID**: Asher / 54592
-- **Met**: Lancio Town at Lv5
-- **Appearance**: Custom sprite wearing a red/black scarf
-- **Held Item**: Black Belt (boosts Fighting-type moves by 20%; equipped Turn 13367)
-
-<hr>
-
 <h1><code>Locations/Route_1</code></h1>
 
 # Route 1
@@ -324,121 +219,6 @@
 
 - **Sand Highway Column 35 Bounds (Verified Turn 12970)**: Column 35 is blocked south at row 31 by pine tree border. Traversal south along Sand Highway must follow columns 36-37.
 - **Row 30 Forest Canopy Passage**: Tile (35, 30) and (34, 30) are walkable alcove tiles under the canopies, but (33, 30) is solid pine tree collision (verified Turns 13593-13595).
-
-<hr>
-
-<h1><code>Mechanics/Engine</code></h1>
-
-## Status Conditions & Overworld Poison Mechanics (Verified Turn 659)
-
-- **Overworld Poison Damage**: Overworld poison damage is completely DISABLED in Pokémon Sors v1.3 (aligns with Gen 5+ / CFRU engine rules).
-
-- **Burden of Proof / Empirical Verification**: After being poisoned by wild Nidoran♀ on Turn 499, Sirius walked over 150 overworld steps across Route 1 without taking a single point of poison damage. On Turn 658-659, opening the party menu showed Sirius at full 22/22 HP (PSN), and using a Potion yielded 'It won't have any effect.'
-
-- **Turn-in-Place Mechanic**: There is NO turn-in-place mechanic on foot; pressing a D-Pad direction always turns and attempts a forward step unless blocked by terrain collision.
-
-
-
-## Facilities & PokéMarts (Verified Turns 795-805, 9706, 9743)
-
-- **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center. Verified functional with clerk in Sovio City (Turn 9706). (Note: Lancio Town Pokémon Center verified single-story on Turn 10057; contains no mezzanine staircase or PokéMart vendor).
-
-- **Bulk Poké Ball Purchases & Premier Ball Mechanic**: In Pokémon Sors, purchasing 10 Poké Balls does NOT grant a bonus Premier Ball. Empirical verification on Turn 9743 showed Bag containing exactly 10 Poké Balls, 1 Timer Ball (obtained earlier), and 0 Premier Balls.
-
-## Quests & Mission Engine (Verified Turn 1378-1381)
-
-- **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
-
-## HuPhone Regional Device & Apps (Audited Turns 12375-12394)
-- **Access**: Activated via SELECT button or through BAG Key Items pocket.
-- **Main App Menu**:
-  1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
-  2. **World Map**: Static regional map viewer of Hupest with town nodes.
-  3. **Quest Log**: Active objective tracker and completed quest list.
-  4. **Back**: Closes HuPhone.
-- **Portable PC Interface (Item Storage app)**:
-  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel (Audited Turn 14292: 'There are no items.'). 
-  - **Mailbox**: Portable PC mailbox (Audited Turn 14291: 'There\'s no Mail here.'). 
-  - **Turn Off**: Exits portable PC interface.
-- **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
-- **Quest Log Scope & Structure**:
-  - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
-  - **Page 1 Quests (Audited Turn 14485)**:
-    1. Lost Pidgey (Completed)
-    2. Lost Toy (Completed)
-    3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
-    4. Medic! (Listed on page 1; uninspected)
-    5. Squirtle Gang (Listed on page 1; uninspected)
-  - **Page 2 Quests (Audited Turn 14867)**:
-    6. Lost Eevee
-    7. Kaboom
-    8. Valentines Gift
-    9. Angry Cubone Kid
-    10. Push it!
-  - **Page 3 Quests (Audited Turn 14871)**:
-    11. Oak's Research
-    12. Elm's Research
-    13. Rowan's Research
-    14. Cynthia's Research
-    15. Help for Barry
-  - **Page 4 Quests (Audited Turn 14874)**:
-    16. - Not available -
-    17. - Not available -
-    18. Roark's Opal
-    19. Pok�Dex!
-    20. Marine Point Hunter
-  - **Page 5 Quests (Audited Turn 14877)**:
-    21. Hugh's Pok�mon
-    22. Silver's Deal
-    23. Back to the...
-    24. Outcasts
-    25. The Mods of Cord
-  - **Full Quest Scope**: Exactly 25 quest entries across 5 pages (23 named quests + 2 '- Not available -' slots). Page 5 terminates with 'Previous' and 'Exit' (no 'Next' option).
-  - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
-  - 'Quest Status' (Empirically Verified Turns 12670, 14095): When a quest is active, displays system tutorial text ('You are already doing a Quest...'). When no quest is active, displays 'You aren't doing any Quest at the moment!'. Does not display quest titles or objective hints; side quest details must be obtained from NPC dialogue.
-  - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
-
-## Pokémon Center Respawn Mechanics (Verified Turn 1815)
-
-- **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
-
-## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551, 9743)
-
-- **Poké Balls Pocket (Audited Turns 9743, 14479)**: Contains 10 Poké Balls and 1 Timer Ball (11 catching balls total).
-
-- **TMs & HMs Pocket (Audited Turn 14477 via TM Case)**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
-
-- **Key Items Pocket (Audited Turn 14475)**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
-
-- **Items Pocket (Audited Turns 13369, 14474)**: Potion x 1, Poison Barb x 1, Nugget x 1.
-
-- **Empirical Constraint & Equipment Mechanic (Verified Turn 13212)**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
-
-## Trainer Card Structure & Display (Verified Turns 11889-11890)
-- **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Poké Ball icons for the Eclipse Tournament.
-- **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
-- **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
-
-<hr>
-
-<h1><code>Party/Zephyr_Pidgey</code></h1>
-
-# Zephyr (Pidgey) - Teammate
-
-## Profile
-- **Species**: Pidgey (Regional Dex No. 016, Normal/Flying)
-- **Nickname**: Zephyr
-- **Gender**: Male (♂)
-- **Level**: Lv2
-- **Caught**: Route 1 (Turn 532) in standard Poké Ball
-- **Nature**: Mild (+Sp. Atk, -Def)
-- **OT / ID**: Asher / 54592
-- **Met**: Route 1 at Lv2
-- **Item**: None
-- **Ability**: Keen Eye (Prevents loss of accuracy)
-- **Stats (IV Grades)**: HP 13 (D+), Attack 7 (C), Defense 5 (C-), Sp. Atk 6 (C+), Sp. Def 6 (D-), Speed 7 (A)
-- **Moves**:
-  - Tackle (Normal, Physical, 35 PP)
 
 <hr>
 
@@ -680,6 +460,226 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle (Verified Turns 13211-13212)**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
 - **Deep Subterranean Sector (Discovered Turn 13225, Audited Turn 14052)**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy (Turn 13238). All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A' on Turn 14052; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
+
+<hr>
+
+<h1><code>Lore/Hupest_Region</code></h1>
+
+# Hupest Region Lore & Story Background
+
+## Key Entities & Figures
+- **Asher**: Protagonist. Raised as heir to the Siara Mafia to conquer the world; currently living with his father after his parents divorced; resolved to forge his own destiny.
+- **Mother**: Current sole leader of the Siara Mafia; obsessed with a dangerous science project to achieve world domination.
+- **Father (Jackson)**: Former co-leader of Siara Mafia (addressed as Jackson by Mrs. Ivo); opposed the science project due to its catastrophic danger; took Asher away and operates from the shadows to dismantle Siara.
+- **Siara Mafia**: Hegemonic criminal syndicate in Hupest controlling politics and economy.
+- **The Science Project**: Research capable of world domination; central cause of the parental rift and regional threat.
+
+- **Mrs. Ivo**: Leading Pokémon Professor of the Hupest Region. Scientist with brown hair and pink glasses, wearing a white lab coat over a pink dress. Known Asher since his childhood (affectionately calls him "Ashi") and hasn't seen him in years.
+- **Harry**: Father's friend and associate who operates the boat at Inizio Isle dock; addresses Asher as "young master". Providing passage to Lancio Town.
+- **Valora**: Cyan-haired girl Asher rescued from Team Siara outside Sovio City Pokémon Center. Inspired by Asher, she is traveling to Amor City to qualify for the Eclipse Tournament and become stronger.
+
+## Starting Setting
+- **Inizio Isle**: Starting location where Asher and his father reside.
+
+## Regional History & Events
+- **300-Year Anniversary**: Commemorates 300 years of human-Pokémon coexistence in Hupest.
+- **Eclipse Tournament**: Major international tournament organized in Hupest for the 300-year anniversary; open to trainers worldwide. Does not require traditional Gym Badges to qualify. Registration is open for 3 days; the championship starts 15 days later.
+
+## Major Cities & Points of Interest
+- **Amor City**: Capital city of the Hupest Region.
+- **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
+- **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
+- **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City (verified Turn 14113 via World Map).
+- **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City (verified Turn 14113 via World Map).
+- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City (verified Turn 14118 via World Map). Note: While the regional map shows a cartographic coastal relation to Lancio Town, physical in-game traversal between Lancio Town and Azluf Town is strictly water-gated and impossible on foot without Surf or specialized marine transport (verified Turn 14674).
+
+## Key Items & Technology
+- **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
+  - **Apps**: Item Storage (portable PC item storage), World Map (regional map viewer), Quest Log (active objective tracker).
+- **Torn Scarf**: An old, scorched scarf found with Riolu by Professor Ivo when she discovered him. Held / worn by Sirius (Riolu) as part of his custom sprite/form (not stored in Bag Items pocket; verified Turn 5875).
+## Asher & Riolu Flashback (5 Years Ago)
+- **Origin of Riolu & Torn Scarf**: 5 years ago in a forest clearing, young Asher found an injured baby Riolu. Asher gave his own scarf to Riolu to bandage his injuries. Riolu kept the scarf for 5 years until Professor Ivo rescued him. When Professor Ivo returned the scarf to Asher, it triggered Asher's memory of their fateful first meeting.
+## Mother's Return & Siara Syndicate Movements
+- **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
+
+## World Map Geography (Verified Turn 637)
+- **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
+- **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
+## Sovio City Confrontation (Turns 1225-1318)
+- **Confrontation**: In Sovio City central plaza outside the Pokémon Center, Dad confronted Mother, leader of the Siara Mafia, who was flanked by two grunts.
+- **The Eclipse Project Unveiled**: Mother announced the completion of 'The Eclipse Project' as a test run diversion and summoned altered Eclipse Pidgey bearing a distinct dark aura and the Eclipse insignia.
+- **Asher's Intervention**: When an altered Pidgey threatened a cyan-haired civilian (Valora), Asher stepped between them to defend her.
+- **Aftermath**: The Siara Mafia withdrew; Dad praised Asher's courage, cautioned him about the Eclipse threat, and instructed him to meet at the Sovio Metro Station.
+## Sovio Metro Departure to Amor City (Turns 1388-1394)
+- **Train to Amor City**: Dad met Asher inside the Sovio City Metro Station. The schedule board lists trains to Amor (16:00) and Alhia (20:00).
+- **Dad's Reassurance**: When Asher asked about the Eclipse Pokémon and what happened with Mother outside the Pokémon Center, Dad reassured him: "I'm on it, so don't worry so much. But I can tell you on the way. Come on! Let's go!" Dad and Asher prepared to board the train to Amor City.
+
+## Sovio Metro Tremor & Jackson's Disappearance (Turns 1437-Present)
+- **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station (Turn 1437).
+- **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
+- **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
+- **Jackson's Location Status**: In Turn 1666-1707, a cutscene depicted grunts holding Jackson captive in a sewer storage room.
+
+## Southwest Regional Map Topology (Verified Turn 9924 via sw_map.png)
+- **Inizio Isle**: Isolated green island node in the far southwest ocean.
+- **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects exclusively northeast via Route 1 to Sovio City.
+- **Sovio City**: Red rectangular urban node. Connects southwest via Route 1 to Lancio Town, and east via Route 2 toward eastern junctions and Amor City.
+
+
+<hr>
+
+<h1><code>Main</code></h1>
+
+# Game Info
+- Title: Pokémon Sors
+- Developer: Vytron (2015-2021)
+- Version: 1.3 (Basic Version)
+- Region: Hupest Region
+
+# Guidelines & Active Reminders
+- Nicknaming: Always nickname every Pokémon creatively!
+- Text Speed: FAST
+
+<hr>
+
+<h1><code>Mechanics/Engine</code></h1>
+
+## Status Conditions & Overworld Poison Mechanics (Verified Turn 659)
+
+- **Overworld Poison Damage**: Overworld poison damage is completely DISABLED in Pokémon Sors v1.3 (aligns with Gen 5+ / CFRU engine rules).
+
+- **Burden of Proof / Empirical Verification**: After being poisoned by wild Nidoran♀ on Turn 499, Sirius walked over 150 overworld steps across Route 1 without taking a single point of poison damage. On Turn 658-659, opening the party menu showed Sirius at full 22/22 HP (PSN), and using a Potion yielded 'It won't have any effect.'
+
+- **Turn-in-Place Mechanic**: There is NO turn-in-place mechanic on foot; pressing a D-Pad direction always turns and attempts a forward step unless blocked by terrain collision.
+
+
+
+## Facilities & PokéMarts (Verified Turns 795-805, 9706, 9743)
+
+- **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center. Verified functional with clerk in Sovio City (Turn 9706). (Note: Lancio Town Pokémon Center verified single-story on Turn 10057; contains no mezzanine staircase or PokéMart vendor).
+
+- **Bulk Poké Ball Purchases & Premier Ball Mechanic**: In Pokémon Sors, purchasing 10 Poké Balls does NOT grant a bonus Premier Ball. Empirical verification on Turn 9743 showed Bag containing exactly 10 Poké Balls, 1 Timer Ball (obtained earlier), and 0 Premier Balls.
+
+## Quests & Mission Engine (Verified Turn 1378-1381)
+
+- **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
+
+## HuPhone Regional Device & Apps (Audited Turns 12375-12394)
+- **Access**: Activated via SELECT button or through BAG Key Items pocket.
+- **Main App Menu**:
+  1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
+  2. **World Map**: Static regional map viewer of Hupest with town nodes.
+  3. **Quest Log**: Active objective tracker and completed quest list.
+  4. **Back**: Closes HuPhone.
+- **Portable PC Interface (Item Storage app)**:
+  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel (Audited Turn 14292: 'There are no items.'). 
+  - **Mailbox**: Portable PC mailbox (Audited Turn 14291: 'There\'s no Mail here.'). 
+  - **Turn Off**: Exits portable PC interface.
+- **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
+- **Quest Log Scope & Structure**:
+  - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
+  - **Page 1 Quests (Audited Turn 14485)**:
+    1. Lost Pidgey (Completed)
+    2. Lost Toy (Completed)
+    3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
+    4. Medic! (Listed on page 1; uninspected)
+    5. Squirtle Gang (Listed on page 1; uninspected)
+  - **Page 2 Quests (Audited Turn 14867)**:
+    6. Lost Eevee
+    7. Kaboom
+    8. Valentines Gift
+    9. Angry Cubone Kid
+    10. Push it!
+  - **Page 3 Quests (Audited Turn 14871)**:
+    11. Oak's Research
+    12. Elm's Research
+    13. Rowan's Research
+    14. Cynthia's Research
+    15. Help for Barry
+  - **Page 4 Quests (Audited Turn 14874)**:
+    16. - Not available -
+    17. - Not available -
+    18. Roark's Opal
+    19. Pok�Dex!
+    20. Marine Point Hunter
+  - **Page 5 Quests (Audited Turn 14877)**:
+    21. Hugh's Pok�mon
+    22. Silver's Deal
+    23. Back to the...
+    24. Outcasts
+    25. The Mods of Cord
+  - **Full Quest Scope**: Exactly 25 quest entries across 5 pages (23 named quests + 2 '- Not available -' slots). Page 5 terminates with 'Previous' and 'Exit' (no 'Next' option).
+  - 'Quest List': Lists side quests and marks completion status ('This Quest has been completed!' for finished quests like Lost Pidgey, or 'This Quest hasn't been completed yet!' for uncompleted quests).
+  - 'Quest Status' (Empirically Verified Turns 12670, 14095): When a quest is active, displays system tutorial text ('You are already doing a Quest...'). When no quest is active, displays 'You aren't doing any Quest at the moment!'. Does not display quest titles or objective hints; side quest details must be obtained from NPC dialogue.
+  - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
+
+## Pokémon Center Respawn Mechanics (Verified Turn 1815)
+
+- **Whiteout / Blackout Respawn Point**: Respawn points are set only when speaking to Nurse Joy at the counter to heal. Simply entering a Pokémon Center without talking to Nurse Joy does NOT register a new checkpoint.
+
+## Verified Inventory State & Field Move Capabilities (Audited Turns 9548-9551, 9743)
+
+- **Poké Balls Pocket (Audited Turns 9743, 14479)**: Contains 10 Poké Balls and 1 Timer Ball (11 catching balls total).
+
+- **TMs & HMs Pocket (Audited Turn 14477 via TM Case)**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
+
+- **Key Items Pocket (Audited Turn 14475)**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
+
+- **Items Pocket (Audited Turns 13369, 14474)**: Potion x 1, Poison Barb x 1, Nugget x 1.
+
+- **Empirical Constraint & Equipment Mechanic (Verified Turn 13212)**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
+
+## Trainer Card Structure & Display (Verified Turns 11889-11890)
+- **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Poké Ball icons for the Eclipse Tournament.
+- **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
+- **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
+
+<hr>
+
+<h1><code>Party/Sirius_Riolu</code></h1>
+
+# Sirius (Riolu) - Starter Pokémon
+
+## Profile
+- **Species**: Riolu (Regional Dex No. 161, Fighting-type)
+- **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater Turn 8948)
+- **Gender**: Male (♂)
+- **Level**: Lv15 (Turn 14335)
+- **Max HP**: 42 (Current HP: 42/42, Status: None)
+- **Nature**: Relaxed (+Def, -Speed)
+- **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
+- **Stats (IV Grades)**: Attack 28 (C+), Defense 29 (A-), Sp. Atk 20 (C-), Sp. Def 23 (E), Speed 20 (C-)
+- **Moves**:
+  - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
+  - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
+  - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48 Turn 2334)
+  - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
+  - *Declined*: Counter (Physical Fighting, offered Lv12 on Turn 1853; declined to retain priority STAB offense)
+- **OT / ID**: Asher / 54592
+- **Met**: Lancio Town at Lv5
+- **Appearance**: Custom sprite wearing a red/black scarf
+- **Held Item**: Black Belt (boosts Fighting-type moves by 20%; equipped Turn 13367)
+
+<hr>
+
+<h1><code>Party/Zephyr_Pidgey</code></h1>
+
+# Zephyr (Pidgey) - Teammate
+
+## Profile
+- **Species**: Pidgey (Regional Dex No. 016, Normal/Flying)
+- **Nickname**: Zephyr
+- **Gender**: Male (♂)
+- **Level**: Lv2
+- **Caught**: Route 1 (Turn 532) in standard Poké Ball
+- **Nature**: Mild (+Sp. Atk, -Def)
+- **OT / ID**: Asher / 54592
+- **Met**: Route 1 at Lv2
+- **Item**: None
+- **Ability**: Keen Eye (Prevents loss of accuracy)
+- **Stats (IV Grades)**: HP 13 (D+), Attack 7 (C), Defense 5 (C-), Sp. Atk 6 (C+), Sp. Def 6 (D-), Speed 7 (A)
+- **Moves**:
+  - Tackle (Normal, Physical, 35 PP)
 
 <hr>
 
