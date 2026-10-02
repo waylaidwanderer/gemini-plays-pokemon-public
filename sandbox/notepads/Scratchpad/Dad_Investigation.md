@@ -21,4 +21,11 @@
     2. Turnstile passage at (19, 21): Physically re-probed; triggers "I should find dad first!" and forces 1 step south.
     3. Eastern perimeter: Wall terminates directly at stairs (24, 24); zero eastern alcoves exist.
     4. Conclusively verified: Dad and Valora are absent from the Metro lobby; zero new switches/items present.
-  - **Milestone 3 (Pokémon Center 2F Mezzanine Comprehensive Traversal)**: ACTIVE. Exit Metro Station to Central Plaza (48, 17), enter Pokémon Center at (44, 12), ascend escalator to 2F mezzanine, and physically traverse all corners and perimeter tiles.
+  - **Milestone 3 (Pokémon Center 2F Mezzanine Comprehensive Traversal)**: COMPLETED (Turn 17352). Traversed west flank (cols 1-4, rows 3-5), east flank (cols 6-7, rows 4-5), north windows, and clerk booth. Clerk confirmed standard PokéMart inventory; electronic terminal verified inert. Conclusively eliminated 2F Mezzanine as a progression trigger.
+
+### Hypothesis H27: Grounded Equipment & Subterranean Obstacle Investigation
+- **Premise**: With civic facilities (Metro lobby, PokeCenter 1F & 2F) and civilian residences fully audited, the hard physical constraints are the rugged rocks at (10, 18) and (22, 10) in Sovio Sewers ("It's a rugged rock, but with some equipment, I could smash it") and the locked sewer storage room at (37, 14). We must formulate and execute grounded tests to identify the equipment source or bypass vectors.
+- **Decomposed Milestones**:
+  - **Milestone 1 (Descend to 1F and Exit Pokémon Center)**: ACTIVE. Take escalator down to 1F and exit to Central Plaza.
+  - **Milestone 2 (Audit Outdoor South & East Sovio City Perimeters)**: Physically inspect the southern sidewalk (rows 27-31) and Route 2 gate boundary to ensure zero outdoor NPCs or dropped items were missed.
+  - **Milestone 3 (Subterranean Tile & Equipment Audit)**: Descend to Sovio Sewers via Metro Station; systematically probe tiles around the grunts' retreat path and storage room (37, 14) for dropped keys or equipment.
