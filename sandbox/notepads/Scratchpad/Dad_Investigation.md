@@ -23,7 +23,9 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H37: Pokémon Center PC Terminal & Storage Audit
 - **Premise**: Physical NPCs and surface landmarks in Sovio City have yielded zero progression triggers. We audit the physical PC terminal at (12, 1) in the Pokémon Center, specifically checking Someone's PC (Pokémon storage / gift Pokémon) and Mailbox for any unread messages or story items.
+- **Audit Findings**:
+  - Someone's PC (Box 1): Completely empty (0 Pokémon, 0 eggs).
 - **Plan**:
-  1. Boot up PC terminal at (12, 1).
-  2. Inspect Someone's PC -> Withdraw Pokémon.
-  3. Inspect Asher's PC -> Mailbox.
+  1. Boot up PC terminal at (12, 1) (Complete).
+  2. Inspect Someone's PC -> Withdraw Pokémon (Complete, 0 stored Pokémon).
+  3. Inspect Asher's PC -> Mailbox (In progress).
