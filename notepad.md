@@ -434,7 +434,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension is impassable due to a solid brick wall at (29, 11). Southern extension at (29, 14) terminates at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat with a downward arrow motif (tested Turn 17204: walkable). Stepping Down from (37, 14) into row 15 bumps into solid impassable boundary with zero active downward warp (tested Turn 17206). Interacting facing South displays verbatim: "Its a simple storage room..." (tested Turn 17207). Storage room appears locked/inactive in current state pending a prerequisite event, key, or story flag.
+- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) form an open 3x3 stone platform. Tile (37, 14) holds a red horizontal capsule mat with a black downward arrow motif pointing South. Facing South from (37, 14) and pressing A displays verbatim: "Its a simple storage room..". Stepping Down from (37, 14) into row 15 bumps into solid impassable collision. Comprehensive perimeter audit (Turns 18183-18239): facing North, East, and West at (37, 14) yields zero interaction; tile (36, 14) South and West confirmed zero interaction; tile (38, 14) South and East confirmed zero interaction; north wall at row 12 across columns 36, 37, 38 confirmed zero interaction. Confirmed platform contains strictly the single inspection trigger at (37, 14) with zero secondary warps, keys, or switches.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)
@@ -531,7 +531,7 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station.
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Location Status**: A cutscene depicted grunts holding Jackson captive in a sewer storage room.
+- **Jackson's Location Status**: Dad investigated the tremor outside in Sovio City and remains missing. While earlier notes hypothesized he was held in the sewers, exhaustive audits confirmed the sewer storage room is empty with zero Siara presence. His true location remains unresolved.
 
 ## Verified Regional World Map Topology (Audited Turn 18080)
 - **Inizio Isle**: Isolated green island node in the far southwest ocean; Asher's hometown.
@@ -711,37 +711,22 @@
 ## Core Verified Blockers
 - **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City (re-verified Turn 17681).
 - **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step south to (19, 22) (re-verified Turn 17675).
-- **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Field obstacle clearance requires specialized player equipment rather than traditional HM moves. Zero equipment currently in possession.
+- **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Requires specialized equipment not yet obtained.
 
 ## Settled Inquiries
-- **Route 1, Lancio Town & Inizio Isle (H24)**: 100% audited; verified devoid of active triggers for Jackson.
-- **Sovio Surface Residences & Facilities (H26)**: All civilian homes (Karate, Gumball, Wii, Nana, Name Rater), Pokémon Center (1F & 2F), and Metro lobby alcoves 100% physically audited; zero story triggers or NPCs present.
-- **Sovio Outdoor Perimeters (H27)**: Southern sidewalk (rows 27-31), Central Park, and Route 2 barrier (52, 19-22) audited; barrier active, NPCs ambient.
-- **Central Park Dating Pair & Jigglypuff (Turns 17921, 17925)**: Blonde girl (44, 24) and boy (32, 20) share ambient "catfished" dialogue; Jigglypuff (34, 28) ambient cry. Falsified as progression triggers.
-- **Central Park North Pond Feature (Turn 17952)**: Approached north bank at (37, 17); pond water completely clear/empty with zero interactive triggers. Falsified as progression trigger.
-- **Sewer Comprehensive Audit (H28/H33/H38)**: 100% mapped and audited. Upper landing, lower corridors (row 28), western terrace, catwalks, Dark Sector, and storage platform (36-38, 12-14) contain zero dropped keys, switches, or items. Rugged rocks require specialized equipment. Storage door at (37, 14) displays "Its a simple storage room..." with impassable south collision. All sewer avenues are completely settled and cleared of internal triggers.
-- **Inventory & System Audit (H32)**: Items Pocket (Potion x1, Poison Barb x1, Antidote x1), Key Items (HuPhone registered to SELECT, TM Case), Poké Balls (Timer Ball x1, Poké Ball x10). Zero equipment or keys in possession.
-- **PC Terminal & Storage Audit (H37, Turns 17713-17734)**: Someone's PC Box 1 empty (0 Pokémon, 0 eggs); Asher's PC Item Storage contains only Nugget x 1; Mailbox displays "There's no Mail here.". Zero items, messages, or progression flags present in PC.
-- **Southern Avenue & Southern Boundary (Turns 17967-17979)**: 100% audited. Southern Avenue transitions from stone curb (rows 28-29) onto open grassy avenue (rows 30-40) flanked by pine trees; completely devoid of NPCs, items, or hidden passages. Seamlessly transitions into Route 1 at (53, 0) without any story barrier. Falsified as progression trigger.
-- **Route 1 Overworld & Cottage NPC Re-audit (Turns 17983-18031)**: 100% audited. All trainers and residents repeat static baseline dialogue with zero post-tremor changes or story triggers:
-  1. Bug Catcher Duke (45, 12): "You really must be something to be able to counter my defense..." (verified Turn 17983).
-  2. Lass Sonia (27, 15): "Hmm, more harmony maybe?" (verified Turn 18010).
-  3. Youngster Mike (29, 20): "My Pok�mon was completely destroyed by yours..." (verified Turn 18014).
-  4. Cottage Boy (4, 9 / 6, 7): "Now that you got your sample, go and enjoy freedom!" (verified Turn 18031).
-  Concluded: Route 1 contains zero active progression triggers.
+- **Route 1, Lancio Town & Inizio Isle**: 100% audited; verified devoid of active triggers for Jackson.
+- **Sovio Sewers & Eastern Platform**: 100% audited. Corridors cleared of grunts. Storage platform (36-38, 12-14) confirmed to contain solely the static decorative text "Its a simple storage room.." at (37, 14). Zero NPCs, items, or keys present.
+- **Inventory & System Audit**: Bag items (Items, Balls, TMs, Key Items), party moves (Sirius, Zephyr), Trainer Card, and PC audited. Zero unexamined progression items or field moves present.
+- **Commercial Building Roof Passage (rows 20-22, cols 47-51)**: Covered passage connects to Route 2 barrier at (52, 22). Zero doors or triggers.
 
 ## Active Hypotheses for Progression
-### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)
-- **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
-- **Investigation Targets & Results**:
-  1. Commercial Building Corridor (rows 20-22, cols 47-51) [AUDITED & FALSIFIED]: Walkable covered passage connecting row 19 through rows 20-22 east to column 52. Stepping onto (52, 22) triggers Route 2 barrier text 'I can't go yet... I have things to do!'. West bound at (47, 22), south bound at row 23. Zero doors, NPCs, or items under roof.
-  2. Inventory & Bag Mechanics [AUDITED]: Items: Potion x1, Poison Barb x1, Antidote x1. Key Items: HuPhone (SELECT shortcut), TM Case (contains TM17 Protect, TM48 Work Up; 0 HMs). Balls: Timer Ball x1, Poké Ball x10. Berries: Empty. Zero keys, field equipment, or unregistered progression items present in Bag.
-  3. Sewer Storage Platform (36-38, 12-14) [AUDITED & SETTLED]:
-     - (37, 14): Red horizontal capsule mat with downward arrow pointing South. Facing South and pressing A displays 'Its a simple storage room..'. Stepping Down into row 15 bumps into solid impassable collision. Facing North, East, West produces zero interaction.
-     - (36, 14): Facing South and West confirmed zero interaction.
-     - (38, 14): Facing South and East confirmed zero interaction.
-     - North Wall (row 12): Facing North across cols 36, 37, 38 into row 11 brick wall confirmed zero interaction.
-     Concluded: Platform contains exclusively the single-tile inspection trigger at (37, 14) with zero secondary warps, keys, or switches.
-  4. Party & Menu Audit [AUDITED]: Sirius (Lv15 Riolu, Black Belt, 0 field moves), Zephyr (Lv2 Pidgey, 0 field moves), Trainer Card (0 badges, 0 rounds won). Zero field abilities or unregistered mechanics present.
+### Hypothesis H40: Sovio City Surface Re-evaluation & Unresolved Triggers (Start: Turn 18242)
+- **Premise**: Jackson ran outside into Sovio City to investigate the tremor. With the sewers, Route 1, and Bag inventory fully audited, the progression trigger must reside on the surface of Sovio City.
+- **Investigation Targets**:
+  1. Metro Lobby & Turnstile Re-test: Return to Metro Station lobby to verify if turnstile trigger or timetable dialogue has updated post-sewer clearance.
+  2. Central Plaza: Inspect the plaza area outside the Pokémon Center where the initial confrontation with Mother occurred.
+  3. West Avenue & Unexamined Buildings: Systematically re-audit the Machop/Karate house (14, 15), Gumball house (29, 14), tan building shutters (34-35, 12), and modern office building facade (col 11).
+  4. Central Park & Outdoor NPCs: Re-verify whether any outdoor residents react to the post-tremor situation.
+
 
 <hr>
