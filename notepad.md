@@ -332,7 +332,7 @@
 
       - Repel: $350
 
-    - **Fixtures & Bounds**: Blue wall terminal/display at (6, 3) east of clerk (inert). Counter structure spans columns 3 to 6 across rows 3-4, completely enclosing clerk with no rear access. Escalator descends south at (5, 6-8) between red handrails. East flank: tile (7, 5) is walkable, (7, 4) solid collision. West flank: tiles (2, 3), (2, 4), (2, 5) walkable; north window wall at (2, 2) and counter side wall at (3, 3) solid collision. Mezzanine 100% audited.
+    - **Fixtures & Bounds**: Blue wall terminal/display at (6, 3) east of clerk (inert). Counter structure spans columns 3 to 6 across rows 3-4, completely enclosing clerk with no rear access. Escalator descends south at (5, 6-8) between red handrails. East flank: tile (7, 5) is walkable, (7, 4) solid collision. West flank: tiles (2, 3), (2, 4), (2, 5) walkable; north window wall at (2, 2) and counter side wall at (3, 3) solid collision.
 
 ## Sovio Metro Station
 
@@ -392,7 +392,7 @@
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) have solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall.
 
-- **Residential House (South Central - Name Rater)**: Located at (31, 26). Interior lands at (65, 17) on red exit mat. Resident: Official Name Rater at (64, 14) behind stool (64, 15). Confirmed standard nickname rating service; zero story triggers or clues regarding Jackson. Single-room interior with no rear rooms or stairs. 100% audited.
+- **Residential House (South Central - Name Rater)**: Located at (31, 26). Interior lands at (65, 17) on red exit mat. Resident: Official Name Rater at (64, 14) behind stool (64, 15). Confirmed standard nickname rating service.
 
 ## North-Central Commercial/Residential Block
 
@@ -702,10 +702,9 @@
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Field obstacle clearance requires specialized player equipment rather than traditional HM moves. Zero equipment currently in possession.
 
 ## Settled Inquiries
-- **Sovio Metro Turnstile & Sewer Storage Room (Hypothesis H25 - Settled)**: In Turn 17175, Metro turnstile (19, 21) confirmed still blocked by "I should find dad first!". In Turn 17204-17207, Eastern Storage Room mat at (37, 14) was rigorously audited: tile (37, 14) is walkable, but stepping Down bumps into impassable boundary at row 15 (no active downward warp), and interacting facing South displays verbatim: "Its a simple storage room..." Storage room appears locked/inactive in the current game state pending a prerequisite event, key, or story trigger.
-- **Sovio City Surface Initial Exploration**: All 5 residential buildings, interior residents, and public fixtures (Bikers, Rocky, street lamps, signposts) were checked during early exploration and confirmed ambient. Specific post-retreat event triggers (such as locating Valora or examining the Metro turnstile state after Marie's radio order) remain to be systematically verified.
-- **Route 1 Column 52 Hedge**: Probed (52, 13); confirmed solid hedge collision at rows 14-16 with embedded rock spire. Column 52 does not continue south directly.
-- **Route 1 & Lancio Town Audit (Hypothesis H24 - Settled: FAILED)**: All 5 milestones completed. Thoroughly audited all accessible surface pathways, residents, and facilities across Route 1 and Lancio Town (excluding HM Cut at (5, 44), water-gated terrain at (38, 4), and locked lab basement stairs at (12, 7)). Progression triggers for locating Jackson are confirmed localized to Sovio City or its subterranean sectors.
+- **Sovio Metro Turnstile & Sewer Storage Room (H25)**: Turnstile (19, 21) remains blocked by "I should find dad first!". Sewer storage room mat (37, 14) confirmed walkable but south transition is impassable/inactive ("Its a simple storage room...").
+- **Route 1 & Lancio Town Audit (H24)**: Traversal verified devoid of active triggers for Jackson.
+- **Route 1 Column 52 Hedge**: Probed (52, 13); solid collision at rows 14-16.
 
 ## Active Hypotheses for Progression
 
@@ -727,7 +726,8 @@
   - **Milestone 1 (Ascend to Metro Station Lobby)**: COMPLETED (Turn 17232). Arrived at (23, 24) on exit mat via autonomous subagent sewer_transit.
   - **Milestone 2 (Audit Metro Lobby Accessible Perimeter)**: COMPLETED (Turn 17232). Verified entire accessible lobby from (23, 24): zero NPCs present, turnstile still prompts "I should find dad first!", Valora is absent.
   - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: COMPLETED (Turn 17240). Elevated terrace (cols 47-51, rows 14-17) audited: zero NPCs present. Nana's house at (49, 14) audited: granddaughter and Nana both confirmed 100% ambient flavor dialogue.
-  - **Milestone 4 (Audit Pokémon Center 1F & 2F Mezzanine)**: ACTIVE. Enter Pokémon Center at (44, 12) to inspect every NPC on 1F and 2F mezzanine for Valora or updated story dialogue.
-  - **Milestone 5 (Audit Sovio City Residential Row & Route 2 Border)**: Check all residential homes (Karate, Gumball, Wii, Name Rater) and the Route 2 border structure for updated triggers.
+  - **Milestone 4 (Audit Pokémon Center 1F & 2F Mezzanine)**: COMPLETED 1F (Turn 17248-17253). Camper and Boy confirmed ambient; mezzanine bypassed.
+  - **Milestone 5 (Audit Sovio City Residential Row & Route 2 Border)**: ACTIVE. Route 2 barrier at (52, 20) confirmed blocked ("I can't go yet..."). Auditing Karate House at (14, 15), then Gumball (29, 14), Wii (39, 7), and Name Rater (31, 26).
+
 
 <hr>
