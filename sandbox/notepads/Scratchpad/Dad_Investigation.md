@@ -15,7 +15,7 @@
 ### Hypothesis H40: Sovio City Surface Re-evaluation & Unresolved Triggers (Start: Turn 18242)
 - **Premise**: Jackson ran outside into Sovio City to investigate the tremor. With the sewers, Route 1, and Bag inventory fully audited, the progression trigger must reside on the surface of Sovio City.
 - **Investigation Targets**:
-  1. Metro Lobby & Turnstile Re-test: Return to Metro Station lobby to verify if turnstile trigger or timetable dialogue has updated post-sewer clearance.
+  1. Metro Lobby & Turnstile Re-test [VERIFIED ACTIVE]: Tested (19, 21) post-sewer clearance; triggers 'I should find dad first!' and forces player to (19, 22). Gate remains blocked.
   2. Central Plaza: Inspect the plaza area outside the Pokémon Center where the initial confrontation with Mother occurred.
   3. West Avenue & Unexamined Buildings: Systematically re-audit the Machop/Karate house (14, 15), Gumball house (29, 14), tan building shutters (34-35, 12), and modern office building facade (col 11).
   4. Central Park & Outdoor NPCs: Re-verify whether any outdoor residents react to the post-tremor situation.
