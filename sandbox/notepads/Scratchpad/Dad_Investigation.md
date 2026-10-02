@@ -26,5 +26,5 @@
 - **Premise**: With all civilian residences, outdoor park sectors, and sewer corridors conclusively eliminated, the Metro Station is the primary hub directly tied to Jackson's arrival, the tremor, and the Amor City departure. We conduct a full coordinate and perimeter audit of the Metro Station lobby (east flank past column 24, west flank past column 18, and all counter/wall tiles) to identify any overlooked NPC, ticket clerk, counter interaction, or trigger.
 - **Milestones**:
   - **Milestone 1 (Exit House & Return to Metro Station)**: COMPLETED (Turn 17544). Exited Gumball house, pathed east to Central Plaza, and entered Metro Station; arrived at (23, 24).
-  - **Milestone 2 (Lobby Perimeter & Counter Audit)**: Systematically probe east boundary (cols 24-28), west boundary (cols 14-18), and counter/wall interactions.
+  - **Milestone 2 (Lobby Perimeter & Counter Audit)**: ACTIVE. Audited west chairs at (16, 24-25) (inert). Visually confirmed platform has 4 blue chairs and yellow vending machine with 0 NPCs. Now testing turnstile gate at (19, 21).
   - **Milestone 3 (Evaluate Findings)**: Record all tile boundaries and check for new dialogue or triggers.
