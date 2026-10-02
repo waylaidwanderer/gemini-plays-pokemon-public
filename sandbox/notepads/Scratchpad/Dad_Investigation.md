@@ -11,14 +11,17 @@
 - **Sovio Outdoor Perimeters (H27)**: Southern sidewalk (rows 27-31), Central Park, and Route 2 barrier (52, 19-22) audited; barrier active, NPCs ambient.
 - **Sewer Storage Room (37, 14)**: Audited post-retreat (Turn 17207); mat is walkable, south transition is solid, interacting displays "Its a simple storage room...".
 - **Sewer Subterranean Audit (H28)**: 100% physically mapped; upper landing, lower corridor (row 28), western terrace, catwalks, and Dark Sector contain zero interactive triggers, items, or NPCs post-retreat. Rugged rocks require specialized equipment.
+- **Central Park Dating Couple (H29)**: Speaking to blonde girl (44, 24) and pink-shirt boy (33, 22) sequentially produces static reciprocal dialogue ("Was I catfished?"); verified zero quest triggers, items, or progression changes.
 
 ## Active Hypotheses for Progression
 
 
 
-### Hypothesis H29: Central Park Dating Couple Investigation
-- **Premise**: Two NPCs in Central Park (the boy at 33, 20 and the blonde girl at 43-45, 23-26) have reciprocal dialogue stating they were supposed to meet someone by the pond and wondering if they were catfished. We test whether interacting with them sequentially initiates a side quest (such as 'Valentines Gift'), yields an item/equipment, or triggers progression dialogue.
+
+
+### Hypothesis H30: Gumball House 2F Resident & Interior Audit
+- **Premise**: On 2F of the residential house at (29, 14), there is a sleeping resident in bed at (27, 15-16) and a PC terminal at (20, 12). Neither has been interacted with or documented with verbatim dialogue/responses. We test both to verify whether they contain a story trigger, NPC dialogue, or progression clue.
 - **Milestones**:
-  - **Milestone 1 (Locate & Speak to Blonde Girl)**: COMPLETED. Spoke to blonde girl at (44, 24); verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?"
-  - **Milestone 2 (Locate & Speak to Pink-Shirt Boy)**: Path around pond north of bank to (33, 20) and interact with the boy in pink shirt.
-  - **Milestone 3 (Verify Quest / Trigger Outcome)**: Check dialogue changes, HuPhone quest status, and inventory.
+  - **Milestone 1 (Enter House & Ascend to 2F)**: Path from (33, 21) north to (29, 14), enter door, and take stairs at (26, 32) up to 2F (lands at 26, 12).
+  - **Milestone 2 (Inspect Sleeping Resident & PC)**: Interact facing bed at (27, 15-16) and PC terminal at (20, 12).
+  - **Milestone 3 (Evaluate Outcome)**: Record verbatim text and check for progression triggers.
