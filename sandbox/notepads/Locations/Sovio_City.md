@@ -66,7 +66,6 @@
 
     - Tan brick sidewalk runs south of Central Park pond to columns 44-46 across rows 28-30.
     - Column 46 has two silver trash cans at (46, 30) and (46, 31); inert with no items.
-    - Foundation wall at (47, 29) tested with 'Right' bump (solid collision).
     - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
     - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border. 100% decorative exterior with zero doors or interaction scripts.
 
@@ -116,7 +115,7 @@
 
   - Main lobby floor lands at (23, 24) on vertical red mat. Stairs leading back up to Sovio City overworld at (24, 24); entered from (23, 24) stepping Right (tile 24, 25 is blocked by south railing).
 
-  - **Metro Lobby Fixture Audit**: Tile (23, 25) south of landing mat (23, 24) probed; confirmed open flat floor mat border / non-interactive against stairs railing. Ticket scanner pillars at (18, 21) and (20, 21) confirmed non-interactive decorative obstacle tiles.
+  - **Metro Lobby Fixtures**: Ticket scanner pillars at (18, 21) and (20, 21) are decorative obstacles.
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
