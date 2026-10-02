@@ -145,7 +145,7 @@
 
 - **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30).
 
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16)
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (22-23, 12) reads "It's crammed full of Pokémon books.", blue PC terminal at (20, 12) is inert, and bed at (27, 15-16) has a sleeping resident with zero interaction triggers.
 
 ## Residential House (Northwest - Machop Family)
 

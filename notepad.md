@@ -372,7 +372,7 @@
 
 - **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30).
 
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16)
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (22-23, 12) reads "It's crammed full of Pokémon books.", blue PC terminal at (20, 12) is inert, and bed at (27, 15-16) has a sleeping resident with zero interaction triggers.
 
 ## Residential House (Northwest - Machop Family)
 
@@ -709,6 +709,7 @@
 - **Sewer Storage Room (37, 14)**: Audited post-retreat (Turn 17207); mat is walkable, south transition is solid, interacting displays "Its a simple storage room...".
 - **Sewer Subterranean Audit (H28)**: 100% physically mapped; upper landing, lower corridor (row 28), western terrace, catwalks, and Dark Sector contain zero interactive triggers, items, or NPCs post-retreat. Rugged rocks require specialized equipment.
 - **Central Park Dating Couple (H29)**: Speaking to blonde girl (44, 24) and pink-shirt boy (33, 22) sequentially produces static reciprocal dialogue ("Was I catfished?"); verified zero quest triggers, items, or progression changes.
+- **Gumball House 2F Audit (H30)**: Bed/sleeping resident at (27, 15-16) and blue PC terminal at (20, 12) verified 100% inert decorative scenery; green bookshelf at (22, 12) displays generic "It's crammed full of Pokémon books.". Zero progression triggers or clues.
 
 ## Active Hypotheses for Progression
 
@@ -716,11 +717,13 @@
 
 
 
-### Hypothesis H30: Gumball House 2F Resident & Interior Audit
-- **Premise**: On 2F of the residential house at (29, 14), there is a sleeping resident in bed at (27, 15-16) and a PC terminal at (20, 12). Neither has been interacted with or documented with verbatim dialogue/responses. We test both to verify whether they contain a story trigger, NPC dialogue, or progression clue.
+
+
+### Hypothesis H31: Sovio Metro Station Lobby Comprehensive Audit
+- **Premise**: With all civilian residences, outdoor park sectors, and sewer corridors conclusively eliminated, the Metro Station is the primary hub directly tied to Jackson's arrival, the tremor, and the Amor City departure. We conduct a full coordinate and perimeter audit of the Metro Station lobby (east flank past column 24, west flank past column 18, and all counter/wall tiles) to identify any overlooked NPC, ticket clerk, counter interaction, or trigger.
 - **Milestones**:
-  - **Milestone 1 (Enter House & Ascend to 2F)**: COMPLETED (Turn 17530). Entered Gumball house at (29, 14) and ascended stairs from (21, 31) to 2F; arrived at (26, 12).
-  - **Milestone 2 (Inspect Sleeping Resident & PC)**: Interact facing bed at (27, 15-16) and PC terminal at (20, 12).
-  - **Milestone 3 (Evaluate Outcome)**: Record verbatim text and check for progression triggers.
+  - **Milestone 1 (Exit House & Return to Metro Station)**: Descend stairs to 1F, exit to Sovio City (29, 14), path east along row 15 to (48, 18), and enter Metro portal at (48, 17) (lands at 23, 24).
+  - **Milestone 2 (Lobby Perimeter & Counter Audit)**: Systematically probe east boundary (cols 24-28), west boundary (cols 14-18), and counter/wall interactions.
+  - **Milestone 3 (Evaluate Findings)**: Record all tile boundaries and check for new dialogue or triggers.
 
 <hr>
