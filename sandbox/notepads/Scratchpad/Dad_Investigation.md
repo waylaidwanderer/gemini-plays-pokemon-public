@@ -16,7 +16,7 @@
 - **Target Coordinates & Results**:
   1. Sovio Metro Station turnstile (19, 21): Confirmed locked by "I should find dad first!" with 1-tile downward pushback.
   2. Route 2 entrance barrier (52, 19): Confirmed locked by "I can't go yet... I have things to do!" with 1-tile leftward pushback to (51, 19).
-  3. Metro Station Ticket Counter & Attendant: Test direct interaction facing North across row 21-22 toward the attendant at (22, 19).
-  4. Central Plaza and city fixtures audit.
-- **Pass Criteria**: Attendant dialogue triggers ticket purchase, story guidance, or flag advancement; or barrier clears.
-- **Fail Criteria**: Attendant remains non-interactable from all accessible lobby tiles; dialogue remains ambient.
+  3. Metro Station Attendant: Tested Turn 16481. Grounded visual inspection of the platform side confirms no attendant is present at (22, 19); the platform chairs are empty. Attendant interaction hypothesis is FALSIFIED.
+  4. Sovio City Triggers & Investigation: Systematically probe unexamined tiles, script triggers, and objects in Sovio City.
+- **Pass Criteria**: Locate Jackson, trigger a cutscene/dialogue, or clear the turnstile/Route 2 barrier.
+- **Fail Criteria**: Target entities remain non-interactable without state changes.
