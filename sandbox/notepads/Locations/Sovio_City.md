@@ -4,7 +4,7 @@
 
 - **South**: Connects to Route 1 at columns 14-15, row 39. transitions directly to Route 1 at (53, 0) without any story barrier text.
 
-  - **Southern Avenue Bounds**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
+  - **Southern Avenue Bounds**: At (15, 30), the avenue transitions from the stone curb of rows 28-29 onto an open grassy lawn flanked by pine trees. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
 
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 
