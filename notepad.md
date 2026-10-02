@@ -699,14 +699,11 @@
 - **H3 (Lower Eastern Sewer Basin Rim, rows 28-32, cols 34-37)**: AUDITED & SETTLED (Turn 16136). Enclosed dead-end basin rim; zero warps, items, or NPCs.
 - **H4 (Elevated Metro Terrace & House 49, 14)**: FALSIFIED (Turn 16177). Terrace deck empty; Nana and Granddaughter repeat static ambient cooking dialogue; zero leads.
 - **H5 (Metro Lobby & Platform Boundary Probing)**: FALSIFIED (Turn 16185). North wall at cols 21-22 is timetable board; turnstile blocks with "I should find dad first!"; scanner pillars, west chairs, and west wall are completely non-interactive; attendant unreachable.
+- **H6 (Karate House 14, 15)**: FALSIFIED (Turn 16188). Karate guy, girlfriend, and Machop repeat static flavor dialogue; 2F bedroom empty; zero leads.
 
 ## Active Hypotheses
 
-### Hypothesis H6: Karate House (14, 15)
-- **Premise**: Northwest residential house at (14, 15) contains Karate trainer, girlfriend, family Machop, and a 2F bedroom. They may offer new dialogue, trade, or clues post-sewers.
-- **Test Coordinates**: Enter House (14, 15), probe Karate Guy at (3, 34), girlfriend at (3, 33), Machop at (6, 34), and 2F bedroom.
-- **Pass Criteria**: New dialogue, item, trade, or story flag.
-- **Fail Criteria**: Static debate dialogue ("karate vs kickboxing") and ambient text with zero leads.
+
 
 
 <hr>
