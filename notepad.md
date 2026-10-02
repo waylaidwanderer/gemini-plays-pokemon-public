@@ -713,8 +713,8 @@
   - **Milestone 1 (Duke Meadow to Northwest Clearing) [COMPLETED]**: Successfully traversed Duke Meadow, ascended to row 9 bypass via column 44, navigated west across row 9 (cols 44-35), descended through (35, 10-11) and traversed row 11 west to the column 31 hedge opening at (31, 11).
   - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pok�mon was completely destroyed by yours..."); confirmed their post-defeat dialogue remains ambient with no new prompts.
   - **Milestone 3 (Sand Highway & Cottage Bypass) [COMPLETED]**: Navigated south along column 30, east through row 26 corridor to Sand Highway, and south along Sand Highway past NPC 1 to the hedge gap at (32, 39).
-  - **Milestone 4 (Southern Corridor to Lancio Town) [IN PROGRESS]**: Follow meadow trail through column 26 hedge gap to row 44 southern corridor, traversing west past Signboard 2 (19, 42) and Central Pine Tree (10, 46) to Lancio Town.
-  - **Milestone 5 (Lancio Town & Southern Terminus)**: Verify whether any new variables emerge along Route 1's southern corridor before reaching Lancio Town, noting prior audits showed Ivo and the harbor static post-tremor.
+  - **Milestone 4 (Southern Corridor to Lancio Town) [COMPLETED]**: Traversed meadow trail around columnar shrub, passed through column 26 hedge gap, and followed row 44 southern corridor west past Signboard 2, Camper, Central Pine Tree, and Signboard 1 to the Lancio Town boundary at (0, 46); confirmed 100% static terrain with zero post-tremor blockers or story barriers.
+  - **Milestone 5 (Lancio Town & Southern Terminus) [IN PROGRESS]**: Audit Lancio Town entrance, harbor, and Professor Ivo's Lab to complete the regional audit under Hypothesis H24.
 - **Pass Criteria**: Discover new dialogue, an active event trigger, a key progression item (e.g. equipment or HM), or an accessible path to advance the main story.
 - **Fail Criteria**: Complete uninterrupted traversal across all 5 milestones yields only previously documented static dialogue and obstacles.
 
