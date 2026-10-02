@@ -50,7 +50,7 @@
 
 - **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone (verified Turn 15779).
 
-- **Central Park Boy in Pink Shirt**: Boy at (32, 21) verified 100% ambient humor dialogue ('catfished').
+- **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?" Confirmed 100% ambient humor dialogue and counterpart to the blonde girl at (43-45, 23-26).
 - **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (32, 21).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
@@ -116,6 +116,8 @@
 - **Interior Layout**:
 
   - Main lobby floor lands at (23, 24) on vertical red mat. Stairs leading back up to Sovio City overworld at (24, 24); entered from (23, 24) stepping Right (tile 24, 25 is blocked by south railing).
+
+  - **Metro Lobby Fixture Audit**: Tile (23, 25) south of landing mat (23, 24) probed; confirmed open flat floor mat border / non-interactive against stairs railing. Ticket scanner pillars at (18, 21) and (20, 21) confirmed non-interactive decorative obstacle tiles.
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
