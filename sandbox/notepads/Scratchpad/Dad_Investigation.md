@@ -1,7 +1,7 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
 ## Core Blockers & Status
-- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22) (re-verified active Turn 15518).
+- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22) (re-verified active Turn 15747).
 - **Route 2 Gate**: Stepping onto (52, 19-22) triggers "I can't go yet... I have things to do!" (re-verified active Turn 15374).
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
@@ -12,29 +12,24 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pokémon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis D3 (Sovio City Specific Unexamined Variables & Narrative Triggers)**:
-  - **Rationale**: With Lancio Town conclusively and exhaustively audited as negative, the progression gate to resolve the turnstile blocker ("I should find dad first!") must reside in Sovio City, where Dad ran during the tremor. Rather than vague exploration, we execute a strict, coordinate-anchored protocol targeting specific unexamined variables:
-  - **Protocol & Target Coordinates**:
-    1. **Target D3.1: Metro Station Lobby & Turnstile Barrier Re-verification (RE-VERIFIED ACTIVE Turn 15747)**:
-       - Coordinates: (19, 21) in Sovio Metro Station lobby.
-       - Results: Stepping onto (19, 21) from (19, 22) triggers verbatim "I should find dad first!" and forces Asher 1 step Down. Confirmed 100% active with zero active side quests.
-    2. **Target D3.2: Karate House Post-Quest Interaction (SETTLED & ARCHIVED Turn 15739)**:
-       - Results: Karate trainer at (3, 34) and girlfriend at (3, 33) tested post-quest. They repeat their static karate vs kickboxing debate dialogue. Family Machop at (7, 34) remains ambient. Confirmed 100% ambient flavor; zero quests, equipment, or story triggers.
-    3. **Target D3.3: Confrontation Plaza & Surroundings (SETTLED & ARCHIVED Turn 15727)**:
-       - Results: Traversed rows 14-16 across columns 37-44 outside Pokémon Center; zero invisible script triggers, fallen items, or dialogue cues.
+- **Hypothesis Q1 (Comprehensive Quest Log & Field Equipment Audit)**:
+  - **Rationale**: Surface and sewer locations are fully audited as negative for Jackson. Field obstacles in Sewers (rugged rock at 22, 10 and southwest corridor) require specialized equipment ("with some equipment, I could smash it"). Uninspected side quests in the HuPhone Quest Log (Page 1: Medic!, Squirtle Gang; Page 2: Lost Eevee, Kaboom, Push it!) may provide narrative progression or field equipment.
+  - **Protocol**: Open HuPhone Quest Log via SELECT, inspect quest descriptions for entries 3-10, and identify active quest opportunities and equipment sources.
 
 ## Settled Hypotheses
+- **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED & ARCHIVED Turn 15747)**:
+  - Target D3.1 (Metro Turnstile): Re-verified active ("I should find dad first!") on Turn 15747 with 0 active side quests.
+  - Target D3.2 (Karate House): Tested post-quest Turn 15739; trainer and girlfriend repeat static fighting style debate. Family Machop ambient.
+  - Target D3.3 (Central Plaza): Traversed confrontation tiles (rows 14-16, cols 37-44) Turn 15726-15727; zero invisible script triggers or items.
 - **Hypothesis D2 (Lancio Harbor Physical Ferry Probe - SETTLED & ARCHIVED)**:
-  - Status: Settled Turn 15642.
-  - Pier Columns (32-34, 25): Physically probed facing South with 'A' on Turn 15640; completely inert. No moored boat, no Harry, zero ocean triggers.
-  - Fisherman at (38, 22): Spoken to on Turns 15641-15642; repeats ambient fishing advice ("You know kid... fishing taught me one very important thing..."). Zero updates.
-  - Conclusion: Lancio Harbor pier (32-34, 25) and Fisherman (38, 22) verified inert post-sewers; no ferry transport or boat triggers present.
+  - Pier Columns (32-34, 25): Probed facing South on Turn 15640; inert, no moored boat, no Harry.
+  - Fisherman at (38, 22): Spoken to on Turns 15641-15642; ambient advice.
 - **Hypothesis D1 (Surface & Lab Audit - SETTLED & ARCHIVED)**:
-  - Sovio Metro Lobby (Turn 15518): Turnstile strictly blocked by 'I should find dad first!'. Zero NPCs in lobby.
-  - Sovio Pokémon Center (Turns 15526-15530): Camper (Weedle) and Boy (PC) confirmed ambient.
-  - Ivo Lab Basement Stairs at (12, 7) (Turn 15595): Re-verified blocked by 'I probably shouldn't head down here...'. Conclusively future story area.
-  - Professor Ivo at (20, 6) (Turn 15597): Re-verified ambient ('Hey, Ashi, how's your new Pokémon?').
-- **Hypothesis SS3 (Eastern Storage Room Platform - SETTLED & ARCHIVED)**:
-  - Red mat at (37, 14) displays ambient text "Its a simple storage room...". Bounded platform confirmed devoid of doors, warps, or NPCs.
+  - Sovio Metro Lobby (Turn 15518): Turnstile strictly blocked by 'I should find dad first!'.
+  - Sovio Pokémon Center (Turns 15526-15530, 15722): Camper (Weedle joke) and Boy (PC) confirmed ambient.
+  - Ivo Lab Basement Stairs at (12, 7) (Turn 15595): Blocked by 'I probably shouldn't head down here...'.
+  - Professor Ivo at (20, 6) (Turn 15597): Ambient ('Hey, Ashi, how's your new Pokémon?').
+- **Hypothesis SS3 (Eastern Storage Room Platform - SETTLED & ARCHIVED Turn 15480)**:
+  - Red mat at (37, 14) displays ambient text "Its a simple storage room...". Bounded platform confirmed devoid of doors, warps, or NPCs. Jackson is definitively not here.
 - **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - SETTLED & ARCHIVED)**:
   - Corridors (rows 22-28, cols 6-19) audited. Blocked by breakable rocks; zero hidden rooms or NPCs.
