@@ -719,10 +719,10 @@
 
 ### Hypothesis H14: Falsification of Sewer Return & Focus on Unresolved Surface Flags
 - **Premise**: Re-entering Sovio Sewers without new tools, keys, or world-state changes is redundant; tile (37, 14) was verified static and empty on Turn 16291. Jackson is not in the accessible sewer sectors. Therefore, the progression flag or trigger must reside on the surface (Sovio City, Route 1, or Lancio Town) in an unverified mechanic, inventory capability, or unexplored trigger.
-- **Target Coordinates**:
-  1. Sovio Metro Station platform edge / attendant perimeter (cols 18-24, rows 21-24).
-  2. Route 2 entrance barrier perimeter (cols 50-52, rows 19-22).
-  3. Professor Ivo's laboratory basement perimeter and dialogue.
+- **Target Coordinates & Results**:
+  1. Sovio Metro Station turnstile (19, 21): Tested Turn 16424. Confirmed locked by "I should find dad first!" with 1-tile downward pushback.
+  2. Route 2 entrance barrier (52, 19): Tested Turn 16429. Confirmed locked by "I can't go yet... I have things to do!" with 1-tile leftward pushback to (51, 19).
+  3. Professor Ivo's laboratory basement perimeter and dialogue in Lancio Town.
 - **Pass Criteria**: Advance the main story trigger, clear the turnstile blocker, or clear the Route 2 barrier.
 - **Fail Criteria**: Interactions yield standard ambient dialogue without state changes.
 
