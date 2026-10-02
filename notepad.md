@@ -707,5 +707,6 @@
   - **Rationale**: Domestic residences and ambient NPCs are confirmed static. Jackson was kidnapped during the tremor cutscene (Turn 1666) and Team Siara retreated (Turn 2682). Turnstile gate requires finding Dad. We must expand search beyond the 4-building circuit to unexamined physical pathways and regional connections.
   - **Action Plan**: Systematically test unchecked physical pathways and boundary connections across Sovio City and adjacent routes.
 
+- **Rocky Interaction (24, 17)**: Re-verified Turn 15988: displays "It's just a normal rock...". Ambient humor confirmed.
 
 <hr>
