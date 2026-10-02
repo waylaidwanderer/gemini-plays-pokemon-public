@@ -7,6 +7,7 @@
 - **Storage Room (Sewers 37, 14)**: Red capsule mat displays "Its a simple storage room..." and has solid void collision to south with zero warp.
 
 ## Settled Hypotheses
+- **Hypothesis Q1 (HuPhone Quest Log Audit - SETTLED Turn 15897)**: Entries 3 (Egg Research), 4 (Medic!), and 5 (Squirtle Gang) all return generic string "This Quest hasn't been completed yet!" and exit interface. HuPhone Quest Log contains zero narrative descriptions, objective hints, or equipment clues for uncompleted quests; does not advance story.
 - **Hypothesis Q2 (Central Park Online Dating)**: Both Blonde Girl (43-45, 23-26) and Pink-shirt Boy (33, 20) provide symmetrical ambient humor ("Was I catfished?"). 100% ambient flavor; zero quest or story triggers.
 - **Hypothesis SB1 (Sewers Physical Rock Obstacles)**: Field clearance is strictly equipment-gated.
 - **Hypotheses D1-D3 & SS2-SS3**: Lancio pier, Ivo Lab stairs, Camper, Name Rater, Bikers, Karate house, and Eastern sewer platform verified ambient.
