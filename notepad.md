@@ -702,8 +702,10 @@
 - **H6 (Karate House 14, 15)**: FALSIFIED (Turn 16188). Karate guy, girlfriend, and Machop repeat static flavor dialogue; 2F bedroom empty; zero leads.
 - **H7 (Three Bikers & Southwest Sector)**: FALSIFIED (Turn 16193). Bikers repeat static motorcycle gang dialogue; column 12 lane, southwest lawn (12, 30), and building west facade are inert with zero leads.
 - **H8 (Rocky & Partner Boy)**: FALSIFIED (Turn 16194). Boy repeats partner rock dialogue; Rocky is an inert normal rock; zero leads.
+- **H9 (Name Rater 31, 26)**: FALSIFIED (Turn 16195). Name Rater provides standard nickname rating service; zero story leads.
 
 ## Active Hypotheses
+
 
 
 
