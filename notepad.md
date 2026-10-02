@@ -719,14 +719,12 @@
 - **Inventory & System Audit**: Bag items (Items, Balls, TMs, Key Items), party moves (Sirius, Zephyr), Trainer Card, and PC audited. Zero unexamined progression items or field moves present.
 
 ## Active Hypotheses for Progression
-### Hypothesis H41: Regional Facilities & Professor Ivo's Lab Investigation (Start: Turn 18332)
-- **Premise**: Jackson investigating the regional threat of the Eclipse Project may have coordinated with Professor Ivo, or the basement of Professor Ivo's Pokémon Laboratory in Lancio Town may now be accessible following Team Siara's retreat from the sewers.
-- **Investigation Targets**:
-  1. Travel across Route 1 to Lancio Town, observing any changes at Route 1 landmarks (Cottage, Cut Tree at 5, 44).
-  2. Enter Professor Ivo's Pokémon Laboratory in Lancio Town:
-     - Descending basement staircase (12, 7): Tested Turn 18380-18381; barrier ("I probably shouldn't head down here...") remains active.
-     - Professor Ivo (20, 6): Spoken to; repeats baseline dialogue ("Hey, Ashi, how's your new Pokémon?"). Zero story updates.
-  3. Check Lancio Town harbor dock (32-34, 23-26): Pier (32-34, 23-25) verified devoid of boats/Harry; testing pier edge (34, 25) and Fisherman (38, 22).
+### Hypothesis H41: Regional Facilities & Professor Ivo's Lab Investigation [FALSIFIED]
+- **Empirical Test Results (Turns 18332-18393)**:
+  - Professor Ivo's Lab basement stairs (12, 7): Barrier text ("I probably shouldn't head down here...") remains active.
+  - Professor Ivo (20, 6): Repeats baseline ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
+  - Lancio Harbor Pier (32-34, 23-25): No boat, no Harry; pier edge (34, 25) water interaction yields zero prompts.
+- **Falsification Verdict**: Jackson never retreated to Lancio Town, and regional facilities in Lancio Town remain inactive. The progression trigger strictly resides in Sovio City / Metro Station.
   4. Check Lancio Town harbor dock (32-34, 23-26) for Harry's boat status.
 
 
