@@ -267,7 +267,7 @@
 - **East Exit Story Barrier**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior.
-  - **Terrace Bounds & Audit**: Tile (51, 15) is open floor (Old Man absent); (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole (Machop absent); (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
+  - **Terrace Bounds & Audit**: Tile (51, 15) is open floor; (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole; (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
 
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
 
