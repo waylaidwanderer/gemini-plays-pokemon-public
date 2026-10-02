@@ -44,11 +44,10 @@
 - **Row 43 Hedge Gap & Meadow Connector**: Walkable gap at column 26 (rows 43 to 41) connects the row 44 southern corridor north into the meadow trail, which curves east through bird tracks at (28, 41) and (31, 41) to the Sand Highway at (32, 39).
 - **Row 6 & 7 Northern Dead End**: At (34, 6), moving west into (33, 6) is blocked by a pine tree. At (34, 7), moving west into (33, 7) is also blocked by a solid pine tree trunk. Tile (34, 7) is a dead-end alcove bordered by the rock spire at (35, 7), hedge at (34, 8), and dense western pine forest. Confirmed zero westward passage exists from rows 6-7 into the Northwest Clearing.
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
-- **Northeast Meadow & Eastern Highway**:
-  - Eastern Highway column 52 runs south from (52, 12) through (52, 13-15) to (52, 16) past the conical rock spire at (53, 16), and continues south through the pine tree canopy at (52, 17).
-  - Row 16 Hedge Corridor: At (52, 16), a dead-end corridor runs West through (51-48, 16) between hedges, terminating at the solid pine tree trunk at (47, 16). From (48, 16), tile (48, 15) to the north is walkable grass beneath the tree.
-  - South Meadow Bypass: From (52, 17), the path turns West into blue flowers at (51, 17), continues West along row 17 past hedges to column 45, and descends South through (45, 18-20) into the lower meadow toward the row 20 ledge and Cottage.
-  - Duke Meadow & Connector: Walkable perimeter around Duke at (45, 12) includes open grass tiles at (44, 12-13) and row 13 grass tiles at (45-47, 13). Tile (48, 13) is a solid pine tree trunk. Pine tree trunks line row 14 at (44-48, 14). Row 12 is a walkable corridor connecting Duke's meadow at (44-47, 12) east beneath the canopies directly into the Eastern Highway at columns 52-53; (48, 12) open grass.
+- **Northeast Meadow & Dead-End Bounds**:
+  - Columns 52-53 connect south from Sovio City (53, 0) to row 12 in the northeast meadow.
+  - South of row 12: Column 52 dead-ends at row 13 into dense horizontal hedges (rows 14-16) and a conical rock spire. Zero southward passage exists along columns 52-53.
+  - Duke Meadow & Connector: Row 12 is an open corridor connecting column 52 west across columns 45-51 into Duke's meadow at (45, 12).
   - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. Passable traversal requires stepping Up at (35, 11) to the row 9 open grass lane at (35, 9), following row 9 east to column 44, and stepping Down south into Duke's meadow.
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
