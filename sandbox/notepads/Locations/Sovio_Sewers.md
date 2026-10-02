@@ -9,7 +9,13 @@
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
-  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23. The vertical bridge crossing south across the chasm is located at column 23 (rows 6-12; visually verified Turn 14031).
+  - Elevated Gangway (Northern Corridor):
+    - Horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23.
+    - Western terminus at (14, 4-5) bordering void chasm at column 13 and row 6.
+    - Shallow puddles at (15, 4) and (25, 5).
+    - Northern wall is solid brick along row 4 (columns 16-22). Recessed alcove at (23, 4) ends at solid brick wall at row 3 (probed with 'A'; inert).
+    - Eastern terminus at (25, 5) dead-ends at vertical void chasm at column 26 (probed facing East with 'A'; inert).
+    - Vertical bridge crossing south across the chasm is located at column 23 (rows 6-12).
   - Southwest Corridor & Obstruction: Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 18) and (9, 17) by two diagonal rugged rocks between the row 16 brick wall and row 19 void chasm. Interacting with 'A' facing West into (10, 18) displays verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.'. Both approaches require equipment.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Western Terrace Wall Ladder: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters (wild Koffing verified on tile 15, 8 on Turn 7788).
