@@ -707,10 +707,10 @@
 
 ## Active Hypotheses for Dad & Progression
 
-### Hypothesis H20: Professor Ivo Starter Evaluation in Lancio Town
-- **Premise**: All entities in Sovio City and Sovio Sewers are confirmed static/ambient, yet Route 2 ("I can't go yet... I have things to do!") and Metro turnstiles ("I should find dad first!") remain locked. Professor Ivo in Lancio Town repeatedly asks "Hey, Ashi, how's your new Pokémon?". Starter Sirius (Riolu) leveled from Lv5 to Lv15 and learned Mach Punch. In Pokémon design, professors evaluate starter growth to bestow key items, HM field moves, or advance story flags.
-- **Target Coordinates**: Professor Ivo in Lancio Town Laboratory at (20, 6).
-- **Pass Criteria**: Professor Ivo triggers new dialogue, awards an item/move, or advances progression flags.
-- **Fail Criteria**: Professor Ivo repeats the exact 1-line ambient query without change.
+### Hypothesis H21: Terrace Deck East Boundary & Signpost Bypass Audit
+- **Premise**: In Sovio City, the east exit to Route 2 was documented as blocked at rows 19-22 ("I can't go yet... I have things to do!"). Directly north of the Route 2 road, tile (51, 17) is an open walkable tile behind the wooden signpost at (50-51, 18). While building collision was documented at (52, 15-16), the boundary at (52, 17) and (52, 18) directly behind the signpost has never been probed for collision, passage, or script triggers.
+- **Target Coordinates**: Elevated terrace deck at (51, 17). Face East and test movement / interaction against (52, 17).
+- **Pass Criteria**: Detect a walkable path to Route 2, a script trigger, or a hidden item behind the signpost.
+- **Fail Criteria**: (52, 17) is solid obstacle/building collision with no interactive trigger.
 
 <hr>
