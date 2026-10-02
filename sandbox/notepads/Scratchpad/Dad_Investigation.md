@@ -17,7 +17,7 @@
 
 ## Settled Hypotheses
 - **Hypothesis SB1 (Sewers Physical Rock Obstacles - SETTLED Turn 15828)**:
-  - Dark Sector rugged rock at (22, 10) and southwest corridor rugged rocks at (10, 18) / (9, 17) both verified to display verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.' with zero move prompts. Field clearance is strictly equipment-gated.
+  - Dark Sector rugged rock at (22, 10) and southwest corridor rugged rock at (10, 18) both verified to display verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.' with zero move prompts (tile 9, 17 unprobed directly). Field clearance is strictly equipment-gated.
 - **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED Turn 15747)**: Turnstile (19, 21) active; Karate House (14, 15) ambient debate; Central Plaza confrontation tiles clean.
 - **Hypotheses D1 & D2 (Surface & Lancio Audits - SETTLED)**: Lancio pier inert; Ivo Lab stairs blocked; Ivo ambient; Camper (5, 7) ambient joke.
 - **Hypotheses SS2 & SS3 (Sewer Corridors & Platform - SETTLED)**: Eastern storage mat (37, 14) ambient text with void collision. Jackson not present.
