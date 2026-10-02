@@ -386,7 +386,7 @@
 
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 
-- **Interior 2F**: Bookshelf at (3-4, 12) ("It's crammed full of Pokémon books."), desk at (1-2, 12), bed at (3, 14-16), stairs down to 1F at (6-7, 12-14) with red mat at (8, 12). No NPCs or items.
+- **Interior 2F**: Stairs down to 1F at (6-7, 12). No NPCs or items.
 
 ## South Central Sector
 
