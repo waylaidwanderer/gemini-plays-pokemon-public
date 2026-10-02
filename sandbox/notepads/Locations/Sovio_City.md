@@ -131,7 +131,7 @@
 
 - **Interior**: Entrance mat lands at (43, 36).
 
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Verified 0 items or story triggers.
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.").
 
 - **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12), PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12). Confirmed 100% ambient flavor; zero items or story triggers.
 

@@ -358,7 +358,7 @@
 
 - **Interior**: Entrance mat lands at (43, 36).
 
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Verified 0 items or story triggers.
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.").
 
 - **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12), PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12). Confirmed 100% ambient flavor; zero items or story triggers.
 
@@ -707,16 +707,11 @@
 - **Sovio Surface Residences & Facilities (H26)**: All civilian homes (Karate, Gumball, Wii, Nana, Name Rater), Pokémon Center (1F & 2F), and Metro lobby alcoves 100% physically audited; zero story triggers or NPCs present.
 - **Sovio Outdoor Perimeters (H27)**: Southern sidewalk (rows 27-31), Central Park, and Route 2 barrier (52, 19-22) audited; barrier active, NPCs ambient.
 - **Sewer Storage Room (37, 14)**: Audited post-retreat (Turn 17207); mat is walkable, south transition is solid, interacting displays "Its a simple storage room...".
+- **Sewer Subterranean Audit (H28)**: 100% physically mapped; upper landing, lower corridor (row 28), western terrace, catwalks, and Dark Sector contain zero interactive triggers, items, or NPCs post-retreat. Rugged rocks require specialized equipment.
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H28: Subterranean Environmental Audit & Equipment Investigation (Concluded)
-- **Premise**: Comprehensive physical audit of Sovio Sewers post-retreat to verify all potential vectors for Jackson, equipment, or story triggers.
-- **Decomposed Milestones**:
-  - **Milestone 1 (Descend to Sovio Sewers)**: COMPLETED. Arrived at landing (37, 22).
-  - **Milestone 2 (Upper Landing & Puddle Physical Audit)**: COMPLETED. Confirmed shallow puddle is empty, and column 31 is a solid architectural block with no direct western passage.
-  - **Milestone 3 (Lower Floor & Western Catwalk Audit)**: COMPLETED. Re-traversed row 28, western stairs (14, 17), terrace (14, 12), ladder (15, 6-10), and northern gangway (row 5) to bridge (23, 6). Confirmed zero interactive objects, switches, or NPCs exist on these corridors.
-- **Conclusion**: The entire Sovio Sewers network is fully audited and static. Rugged rocks remain gated by equipment, and the storage room is inert ("Its a simple storage room..."). Progress must be triggered on the surface or via unexplored game mechanics. Returning to Sovio City.
+
 
 ### Hypothesis H29: Central Park Dating Couple Investigation
 - **Premise**: Two NPCs in Central Park (the boy at 33, 20 and the blonde girl at 43-45, 23-26) have reciprocal dialogue stating they were supposed to meet someone by the pond and wondering if they were catfished. We test whether interacting with them sequentially initiates a side quest (such as 'Valentines Gift'), yields an item/equipment, or triggers progression dialogue.
