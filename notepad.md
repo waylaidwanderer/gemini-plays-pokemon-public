@@ -715,16 +715,12 @@
 - **Sewer Storage Room & Platform Audit (H33)**: Fully audited platform (36-38, 12-14); doorway at (37, 14) is an inactive warp that bumps and displays "Its a simple storage room...". Platform tiles (37, 12 alcove; 38, 13-14 floor; 36, 14 void) contain zero items or switches. Doorway is currently inactive/locked from the outside.
 
 - **PC Terminal & Storage Audit (H37, Turns 17713-17734)**: Someone's PC Box 1 empty (0 Pokémon, 0 eggs); Asher's PC Item Storage contains only Nugget x 1; Mailbox displays "There's no Mail here.". Zero items, messages, or progression flags present in PC.
+- **Sewer Patrol & Storage Room Door Audit (H38)**: Grunt patrol locations (platform 18, 21-22; terrace 12-17, 11-12; north gangway; catwalk) 100% audited; zero dropped keys or switches. Door at (37, 14) displays "Its a simple storage room..." and has solid collision to row 15. The door is impassable/locked from the outside.
 
 ## Active Hypotheses for Progression
-### Hypothesis H38: Sewer Storage Room Unlock & Patrol Position Audit (Concluded - Refuted)
-- **Audit Findings**:
-  - Grunt 2's platform (17-18, 21-22): 100% audited. Zero dropped keys, items, or hidden mechanisms present.
-  - Western Terrace (12-17, 11-12): 100% audited. Zero dropped keys, items, or hidden switches present.
-  - Northern Gangway (row 5, cols 15-25): 100% audited. Alcove (23, 4) and dead-end (25, 5) contain zero dropped keys, items, or switches.
-  - Column 23 Bridge (rows 6-12): 100% audited. Zero dropped keys or items.
-  - Row 13 Catwalk & Causeway (30-37, 13): 100% audited. Zero dropped items or hidden triggers.
-  - Storage Room Door (37, 14): Re-verified (Turn 17799-17802). Interacting facing South displays verbatim "Its a simple storage room...". Stepping Down bumps into impassable void boundary with zero active warp.
-- **Conclusion**: Sovio Sewers is completely cleared and devoid of progression triggers. Jackson is not present in the sewers, and no keys or switches exist. Progression must be found outside the sewers.
+### Hypothesis H39: Storage Room Key / Access Mechanism Investigation
+- **Premise**: Jackson was explicitly shown held captive in a sewer storage room in the cutscene. The door at (37, 14) displays "Its a simple storage room..." and has solid collision to the south, indicating it is locked/inaccessible from the outside without a key, event flag, or specific unlock mechanism. All civilian residences (Karate, Gumball, Nana, Wii, Name Rater) are confirmed ambient.
+- **Question**: Where is the key or mechanism to unlock the storage room door at (37, 14)?
+- **Candidates**: 1. Metro Station attendant at (22, 18-19) / ticket counter. 2. Valora's current location post-tremor. 3. Equipment to smash rugged rocks blocking alternate corridors. 4. Storage room platform north alcove at (37, 12).
 
 <hr>
