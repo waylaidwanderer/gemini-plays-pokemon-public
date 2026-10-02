@@ -717,19 +717,14 @@
 - **PC Terminal & Storage Audit (H37, Turns 17713-17734)**: Someone's PC Box 1 empty (0 Pokémon, 0 eggs); Asher's PC Item Storage contains only Nugget x 1; Mailbox displays "There's no Mail here.". Zero items, messages, or progression flags present in PC.
 
 ## Active Hypotheses for Progression
-### Hypothesis H38: Sewer Storage Room Unlock & Patrol Position Audit
-- **Premise**: Cutscene explicitly showed Jackson held captive by Team Siara in a sewer storage room. The platform door at (37, 14) displays "Its a simple storage room..." and has solid collision, indicating it cannot be opened without a specific key, event flag, or prerequisite trigger. We audit the former grunt battle locations in Sovio Sewers (such as Grunt 2's platform at 18, 21-22 and the lower walkway) to check for dropped keys, hidden switches, or overlooked triggers.
+### Hypothesis H38: Sewer Storage Room Unlock & Patrol Position Audit (Concluded - Refuted)
 - **Audit Findings**:
   - Grunt 2's platform (17-18, 21-22): 100% audited. Zero dropped keys, items, or hidden mechanisms present.
   - Western Terrace (12-17, 11-12): 100% audited. Zero dropped keys, items, or hidden switches present.
   - Northern Gangway (row 5, cols 15-25): 100% audited. Alcove (23, 4) and dead-end (25, 5) contain zero dropped keys, items, or switches.
   - Column 23 Bridge (rows 6-12): 100% audited. Zero dropped keys or items.
-- **Plan**:
-  1. Exit Pokémon Center to Sovio City (Complete).
-  2. Enter Sovio Sewers via Metro Station mat at (18-19, 25) (Complete).
-  3. Inspect Grunt 2's platform (18, 21-22) (Complete, 0 items).
-  4. Inspect rugged rock (10, 18) and Western Terrace (Complete, 0 items).
-  5. Audit Northern Gangway (row 5) and Bridge (Complete, 0 items).
-  6. Audit row 13 catwalk and column 30 causeway (In progress).
+  - Row 13 Catwalk & Causeway (30-37, 13): 100% audited. Zero dropped items or hidden triggers.
+  - Storage Room Door (37, 14): Re-verified (Turn 17799-17802). Interacting facing South displays verbatim "Its a simple storage room...". Stepping Down bumps into impassable void boundary with zero active warp.
+- **Conclusion**: Sovio Sewers is completely cleared and devoid of progression triggers. Jackson is not present in the sewers, and no keys or switches exist. Progression must be found outside the sewers.
 
 <hr>
