@@ -65,9 +65,9 @@
 
 ## Points of Interest & Buildings
 
-- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner leading to upper mezzanine. Resident man at (8, 4) explains regional integrated PokéMarts: "Did you know? Pokémon Centers have PokéMarts built into them in this region! In certain regions PokéMarts are separate buildings though...".
+- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner leading to upper mezzanine. Resident man at (9, 4) explains regional integrated PokéMarts: "Did you know? Pokémon Centers have PokéMarts built into them in this region! In certain regions PokéMarts are separate buildings though...".
 
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12). Confirmed 100% static post-sewers (Turn 16957).
+- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
 - **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); solid building foundation with no accessible doors or entrance.
 
@@ -106,7 +106,7 @@
 
   - Cylindrical incubator apparatus at (18-19, 5-6): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
 
-  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?"). Confirmed static post-tremor and post-sewers.
+  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
 
   - Server tower at (23, 8-9): Inert decorative fixture.
 
@@ -136,9 +136,9 @@
 
 - **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
 
-- **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me." Confirmed 100% ambient post-sewers.
+- **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me."
 
-- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh." Confirmed 100% ambient post-sewers.
+- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."
 
 
 
@@ -714,8 +714,8 @@
   - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pokï¿½mon was completely destroyed by yours..."); confirmed their post-defeat dialogue remains ambient with no new prompts.
   - **Milestone 3 (Sand Highway & Cottage Bypass) [COMPLETED]**: Navigated south along column 30, east through row 26 corridor to Sand Highway, and south along Sand Highway past NPC 1 to the hedge gap at (32, 39).
   - **Milestone 4 (Southern Corridor to Lancio Town) [COMPLETED]**: Traversed meadow trail around columnar shrub, passed through column 26 hedge gap, and followed row 44 southern corridor west past Signboard 2, Central Pine Tree, and Signboard 1 to the Lancio Town boundary at (0, 46); confirmed 100% static terrain with zero post-tremor blockers or story barriers. Note: Camper at (18, 43) was bypassed during wild grass transit and not directly engaged in dialogue.
-  - **Milestone 5 (Lancio Town & Southern Terminus) [COMPLETED]**: 100% audited all accessible structures, residents, and fixtures: Cap NPC (32, 14) ('Living in a small town sucks...'), Old Couple (32-33, 8) (ambient), Professor Ivo (20, 6) ('Hey, Ashi, how's your new Pokémon?'), Lab basement stairs (12, 7) ('I probably shouldn't head down here.'), Northwest House (44, 4) ('Get out!'), Harbor Pier (open water, boat absent), Fisherman (38, 22) (patience philosophy), and Pokémon Center (fedora man at 8, 4 verified; northwest escalator discovered).
-- **Hypothesis H24 Outcome**: FAILED. Traversing Route 1 and Lancio Town yielded zero new leads, zero equipment/HMs, and zero main quest progression triggers. Accessible Route 1 and Lancio Town sectors are thoroughly exhausted for locating Jackson.
+  - **Milestone 5 (Lancio Town & Southern Terminus) [IN PROGRESS]**: 100% audited all accessible structures, residents, and fixtures: Cap NPC (32, 14) ('Living in a small town sucks...'), Old Couple (32-33, 8) (ambient), Professor Ivo (20, 6) ('Hey, Ashi, how's your new Pokémon?'), Lab basement stairs (12, 7) ('I probably shouldn't head down here.'), Northwest House (44, 4) ('Get out!'), Harbor Pier (open water, boat absent), Fisherman (38, 22) (patience philosophy), and Pokémon Center (fedora man at (9, 4) verified; now interviewing boy at (6, 7) and testing northwest mezzanine escalator).
+- **Current Evaluation**: Milestone 5 active. Auditing boy at (6, 7) and northwest mezzanine escalator to conclude regional audit under Hypothesis H24.
 
 ## Next Investigation Phase (Contingency for H24 Resolution)
 - **Premise**: If Milestone 5 concludes with Professor Ivo and the harbor remaining static, Hypothesis H24 will be fully settled as FAILED. Once Northwest House (25, 10), Harbor Pier, and Lancio Pokémon Center (37, 14) are verified, this will rigorously exhaust Route 1 and Lancio Town as potential locations for Jackson or progression triggers.
