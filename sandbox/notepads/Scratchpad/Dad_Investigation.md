@@ -17,7 +17,7 @@
   - **Protocol & Target Coordinates**:
     1. **Target D3.1: Metro Station Lobby & Turnstile Barrier Re-verification**:
        - Coordinates: (19, 21) in Sovio Metro Station lobby.
-       - Test: Approach turnstile from (19, 22) facing North. Verify if blocker text ("I should find dad first!") remains active with the side quest log fully resolved. Also probe scanner pillars at (18, 21) and (20, 21) and attendant at (22, 19).
+       - Test: Approach turnstile from (19, 22) facing North. Verify if blocker text ("I should find dad first!") remains active with the side quest log fully resolved.
     2. **Target D3.2: Karate House Post-Quest Interaction**:
        - Coordinates: (14, 15) in Sovio City northwest.
        - Test: Enter interior at (5, 36). Speak to Karate trainer (3, 34), girlfriend (3, 33), and family Machop (6-7, 34) now that the Lost Toy quest is completed and cleared from the active quest log.
