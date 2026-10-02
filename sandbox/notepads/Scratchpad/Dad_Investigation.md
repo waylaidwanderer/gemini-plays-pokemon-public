@@ -6,27 +6,7 @@
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Zero equipment currently in possession.
 - **Storage Room Mat (Sewers 37, 14)**: Displays "Its a simple storage room..." and has solid void collision to south with zero warp. Closed inquiry.
 
-## Settled Hypotheses
-- **H1 (South Commercial Roof Passage, cols 47-51, rows 20-22)**: FALSIFIED (Turn 16147). Plain traversable corridor with solid walls; zero doors, items, or triggers.
-- **H2 (Tan Building Facade along row 12 across cols 32-37)**: FALSIFIED (Turn 16148). Solid foundation wall collision across all columns; 100% decorative exterior.
-- **H3 (Lower Eastern Sewer Basin Rim, rows 28-32, cols 34-37)**: AUDITED & SETTLED (Turn 16136). Enclosed dead-end basin rim; zero warps, items, or NPCs.
-- **H4 (Elevated Metro Terrace & House 49, 14)**: FALSIFIED (Turn 16177). Terrace deck empty; Nana and Granddaughter repeat static ambient cooking dialogue; zero leads.
-- **H5 (Metro Lobby & Platform Boundary Probing)**: FALSIFIED (Turn 16185). North wall at cols 21-22 is timetable board; turnstile blocks with "I should find dad first!"; scanner pillars, west chairs, and west wall are completely non-interactive; attendant unreachable.
-- **H6 (Karate House 14, 15)**: FALSIFIED (Turn 16188). Karate guy, girlfriend, and Machop repeat static flavor dialogue; 2F bedroom empty; zero leads.
-- **H7 (Three Bikers & Southwest Sector)**: FALSIFIED (Turn 16193). Bikers repeat static motorcycle gang dialogue; column 12 lane, southwest lawn (12, 30), and building west facade are inert with zero leads.
-- **H8 (Rocky & Partner Boy)**: FALSIFIED (Turn 16194). Boy repeats partner rock dialogue; Rocky is an inert normal rock; zero leads.
-- **H10 (Central Park Pond Feature)**: FALSIFIED (Turn 16198). North bank at (39, 17) and south bank at (39, 19) tested facing (39, 18); motif is inert decorative scenery with zero interaction scripts.
-- **H9 (Name Rater 31, 26)**: FALSIFIED (Turn 16195). Name Rater provides standard nickname rating service; zero story leads.
+## Settled Inquiries
+- **Audited Domestic Buildings & Public Sector**: Karate House (14, 15), Gumball House (29, 14), North House (39, 7), Terrace House (49, 14), South Commercial Building (47-51, 20-22), Tan Building facade (32-37, 12), Name Rater (31, 26), Bikers (13, 21-23), Rocky (24, 17), Metro lobby (cols 15-24), and Sewer lower eastern basin rim (cols 34-37, rows 28-32). All confirmed static ambient entities with zero story progression triggers.
 
 ## Active Hypotheses
-
-
-
-
-
-
-### Hypothesis H10: Central Park Pond Feature at (39, 18)
-- **Premise**: In Central Park pond, a round lavender creature/motif floats at (39, 18). Prior notes assumed it was out of reach from row 16. If (39, 17) is walkable, Asher can probe directly south into (39, 18) with 'A'.
-- **Test Coordinates**: Walk to (39, 17), face South into (39, 18), press 'A'.
-- **Pass Criteria**: Dialogue, battle, item, or reaction triggers.
-- **Fail Criteria**: (39, 17) is unwalkable or interacting facing South yields zero response.
