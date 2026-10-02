@@ -724,8 +724,8 @@
 - **Investigation Targets**:
   1. Travel across Route 1 to Lancio Town, observing any changes at Route 1 landmarks (Cottage, Cut Tree at 5, 44).
   2. Enter Professor Ivo's Pokémon Laboratory in Lancio Town:
-     - Test descending basement staircase at (12, 7) to check if the barrier ("I probably shouldn't head down here...") has lifted.
-     - Speak with Professor Ivo at (20, 6) for updated story dialogue regarding Dad and the Eclipse Project.
+     - Descending basement staircase (12, 7): Tested Turn 18380-18381; barrier ("I probably shouldn't head down here...") remains active.
+     - Professor Ivo (20, 6): Currently speaking to her to check for updated story dialogue regarding Dad, Mother, and the Eclipse Project.
   4. Check Lancio Town harbor dock (32-34, 23-26) for Harry's boat status.
 
 
