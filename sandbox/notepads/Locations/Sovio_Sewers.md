@@ -57,3 +57,12 @@
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
 - **Deep Subterranean Sector (Discovered Turn 13225, Audited Turn 14052)**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy (Turn 13238). All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A' on Turn 14052; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
 - **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal. 100% audited enclosed dead-end rim with solid void to south/east; zero items or warps.
+- **Western Terrace Audit (Completed Turn 16243-16250)**:
+  - Terrace spans columns 11 to 17 across rows 11-12.
+  - North perimeter wall at row 10 across columns 11-14 and 16-17 (solid brick wall probed with 'A'; inert).
+  - South perimeter has stairs descending at column 14 (rows 12-16) and solid stone railings at row 13 (columns 11-13 and 15-17).
+  - East perimeter has solid stone wall/railing at column 18.
+  - West perimeter has solid stone wall at column 10 across rows 11-12 (probed with 'A'; inert).
+  - Ladder ascending to Northern Gangway (row 5) is located at column 15, rows 6-10.
+  - Floor tiles contain wild encounters (e.g. wild Dunsparce Lv5).
+  - Verified 100% bare platform with zero items, hidden switches, or secret passages.
