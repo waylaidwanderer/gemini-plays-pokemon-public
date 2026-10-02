@@ -18,5 +18,5 @@
 - **Premise**: Jackson remains held captive in the sewer storage room behind the locked door at (37, 14). The sewers are fully mapped and contain no internal keys or switches. The mechanism to unlock the door or progress the story must originate from the broader world.
 - **Investigation Targets**:
   1. Central Park dating pair & Jigglypuff: Concluded - Falsified (Turns 17921, 17925). Blonde girl (44, 24) and boy (32, 20) share identical ambient "catfished" joke dialogue. Jigglypuff (34, 28) displays standard ambient cry. Falsified as progression triggers.
-  2. Central Park North Pond Creature (39, 18): Approach north pond bank at (39, 17) and test interaction with 'A'. Falsification: If water boundary blocks with no text, feature is confirmed ambient water scenery.
-  3. Southwest Avenue & Route 1 Archway (15, 28-30): Audit southern perimeter and archway collision for overlooked passages or NPC triggers.
+  2. Central Park North Pond Feature (39, 18): Concluded - Falsified (Turn 17952). Approached north bank at (37, 17); pond water is completely clear/empty with zero interactive triggers. Falsified as a progression trigger.
+  3. Southwest Avenue & Route 1 Archway (15, 28-30): Audit southern perimeter, Biker gang lane, and archway collision for overlooked passages or NPC triggers.
