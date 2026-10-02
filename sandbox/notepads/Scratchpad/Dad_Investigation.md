@@ -23,3 +23,12 @@
   - **Milestone 3 (Unchecked Sewers Topography & Equipment Sources)**:
     1. Re-examine the cutscene origin: If Jackson was held by grunts in a storage room, verify whether another door or passage exists that was overlooked (e.g. elevated walkways, hidden ladders).
     2. Investigate the "Equipment" mechanic: Determine where specialized rock-smashing equipment is obtained in Sovio City to clear the rugged rocks at (10, 18) and (22, 10).
+
+### Hypothesis H26: Sovio City Surface Systematic Search for Valora & Jackson Triggers
+- **Premise**: With the Sovio Sewers (including the storage room at 37, 14) and the western region (Route 1, Lancio Town) completely exhausted and proven ambient, the story progression trigger ("I should find dad first!" at Metro turnstile and "I can't go yet..." at Route 2) is strictly localized to the Sovio City surface. A systematic, tile-by-tile audit of the Metro lobby perimeter, Central Plaza, elevated terrace, Pokémon Center, and city residences is required to locate Valora and find Jackson's trail.
+- **Decomposed Milestones**:
+  - **Milestone 1 (Ascend to Metro Station Lobby)**: Return from Sovio Sewers via the (38, 22) staircase to the Metro lobby at (23, 24).
+  - **Milestone 2 (Audit Metro Lobby Accessible Perimeter)**: Systematically walk and inspect the eastern waiting area (cols 24-28, rows 21-25) and western seating alcove (cols 15-18).
+  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: Re-examine Central Plaza outside the Pokémon Center and inspect the elevated terrace at (47-51, 13-17) and Nana's house (49, 14).
+  - **Milestone 4 (Audit Pokémon Center 1F & 2F Mezzanine)**: Inspect every NPC inside the Pokémon Center for Valora or updated story dialogue.
+  - **Milestone 5 (Audit Sovio City Residential Row & Route 2 Border)**: Check all residential homes (Karate, Gumball, Wii, Name Rater) and the Route 2 border structure for updated triggers.
