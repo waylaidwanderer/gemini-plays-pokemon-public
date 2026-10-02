@@ -202,12 +202,11 @@
   - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. 
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
-  - Cottage West Corridor & Column 30 Hedge Opening: From the Cottage yard along row 26, the corridor runs west past columns 34-31 to column 30. Column 30 corridor connects north through rows 25-21 to (30, 21), where row 20 is blocked north by a solid pine tree trunk at (30, 20). Accessing the Northwest Clearing requires stepping west from (30, 21) across walkable clover ground at (29, 21) and (28, 21), then north along column 28 past Youngster Mike at (29, 20) into the clearing.
+  - Cottage West Corridor & Column 30 Hedge Opening: From the Cottage yard along row 26, the corridor runs west past columns 34-31 to column 30. Column 30 corridor connects north through rows 25-21 to (30, 21), where row 20 is blocked north by a solid pine tree trunk at (30, 20).
   - Cottage West Alcove: Stepping North from (32, 25) into (32, 24) is blocked by a hedge; stepping North from (33, 25) into (33, 24) is blocked by a pine tree trunk.
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
   - Dirt corridor along row 44 connects column 5 cobblestone road east past Signboard 2 (19, 42) through (22-24, 44) to column 26 hedge gap, ending east at alcove (27, 44) which is blocked east and south by solid pine trees.
-  - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
 - **Northwest Clearing Layout & Connections**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). At row 13 east of column 29 is a dead-end alcove bounded by pine tree (29, 12) and horizontal hedge at (30, 13-14). The passable eastward corridor runs south of the hedge along row 15 through (28-31, 15), then cuts north through hedge gap at column 31 (rows 14-11) past pink bird tracks at (31, 13) and blue bird tracks at (31, 12) directly into row 11 meadow corridor. Connected to south via column 30 corridor.
