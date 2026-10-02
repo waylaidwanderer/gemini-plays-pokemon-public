@@ -370,7 +370,7 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30).
+- **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32) (ambient dialogue: "I love this show!"), mother at (27, 33) (ambient dialogue: "My son is watching some cartoon..."), and wide-screen TV at (25-26, 30). Confirmed 100% ambient flavor text.
 
 - **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (22-23, 12) reads "It's crammed full of Pokémon books.", blue PC terminal at (20, 12) is inert.
 
