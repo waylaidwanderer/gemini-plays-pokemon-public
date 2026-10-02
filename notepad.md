@@ -710,11 +710,12 @@
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H28: Subterranean Environmental Audit & Equipment Investigation
-- **Premise**: With all Sovio City surface facilities, residential interiors, and outdoor perimeters conclusively eliminated, the only location tied directly to Jackson's disappearance and Team Siara's confrontation is the Sovio Sewers. We must investigate the post-retreat subterranean environment to identify any overlooked interaction vectors or equipment mechanics.
+### Hypothesis H28: Subterranean Environmental Audit & Equipment Investigation (Concluded)
+- **Premise**: Comprehensive physical audit of Sovio Sewers post-retreat to verify all potential vectors for Jackson, equipment, or story triggers.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Descend to Sovio Sewers)**: COMPLETED (Turn 17410). Physically descended from Metro lobby red mat (18, 25) into Sovio Sewers; arrived at landing (37, 22).
+  - **Milestone 1 (Descend to Sovio Sewers)**: COMPLETED. Arrived at landing (37, 22).
   - **Milestone 2 (Upper Landing & Puddle Physical Audit)**: COMPLETED. Confirmed shallow puddle is empty, and column 31 is a solid architectural block with no direct western passage.
-  - **Milestone 3 (Lower Floor & Western Catwalk Audit)**: ACTIVE. Descend stone stairs at (34, 24-27) to lower sewer floor at row 28, then advance along lower corridor toward western platform and elevated gangways.
+  - **Milestone 3 (Lower Floor & Western Catwalk Audit)**: COMPLETED. Re-traversed row 28, western stairs (14, 17), terrace (14, 12), ladder (15, 6-10), and northern gangway (row 5) to bridge (23, 6). Confirmed zero interactive objects, switches, or NPCs exist on these corridors.
+- **Conclusion**: The entire Sovio Sewers network is fully audited and static. Rugged rocks remain gated by equipment, and the storage room is inert ("Its a simple storage room..."). Progress must be triggered on the surface or via unexplored game mechanics. Returning to Sovio City.
 
 <hr>
