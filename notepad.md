@@ -721,9 +721,7 @@
 
 ## Active Hypotheses for Progression
 ### Hypothesis H44: Sovio Pokémon Center PC & Facility Audit
-- **Premise**: With player inventory and portable storage audited, check Someone's PC (Pokémon Storage System) at (12, 1) in the Pokémon Center for any stored Pokémon or items, and re-examine facility interactions.
-- **Investigation Targets**:
-  1. Walk north along column 44 into Sovio Pokémon Center at (44, 12).
-  2. Access the corner PC at (12, 1) and inspect Someone's PC / Pokémon Storage Boxes.
+- **Premise**: Checking Someone's PC at (12, 1) in the Pokémon Center to verify if any off-party Pokémon or held items exist in storage boxes. Concluding this audit closes all surface-level menu/facility checks.
+- **Next Direction**: Conclude H44 and redirect investigation to the physical field obstacles gating unexplored sewer branches (rugged rocks at 22, 10 and 10, 18).
 
 <hr>
