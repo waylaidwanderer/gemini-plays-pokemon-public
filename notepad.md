@@ -699,9 +699,13 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pokémon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis Q1 (Comprehensive Quest Log & Field Equipment Audit)**:
-  - **Rationale**: Surface and sewer locations are fully audited as negative for Jackson. Field obstacles in Sewers (rugged rock at 22, 10 and southwest corridor) require specialized equipment ("with some equipment, I could smash it"). Uninspected side quests in the HuPhone Quest Log (Page 1: Medic!, Squirtle Gang; Page 2: Lost Eevee, Kaboom, Push it!) may provide narrative progression or field equipment.
-  - **Protocol**: Open HuPhone Quest Log via SELECT, inspect quest descriptions for entries 3-10, and identify active quest opportunities and equipment sources.
+- **Hypothesis Q2 (Central Park NPCs, Valentines Gift & Field Equipment Clues)**:
+  - **Rationale**: The turnstile barrier ('I should find dad first!') requires finding Dad. Field obstacles in sewers (rugged rock at 22, 10 and southwest corridor) require rock smash equipment ('with some equipment, I could smash it'). Equipment in modern hacks is gated by side quests or NPCs. Central Park features an online dating couple separated by the pond (Pink-shirt Boy at 32, 21 and Blonde Girl at 43-45, 23-26) matching Quest 8 ('Valentines Gift').
+  - **Protocol**:
+    1. Ascend to Sovio City Central Park.
+    2. Speak to Blonde Girl on east pond walkway (43-45, 23-26); record verbatim dialogue.
+    3. Speak to Pink-shirt Boy at (32, 21); test if cross-interaction triggers a quest or item.
+    4. Speak to children with Jigglypuff at (33-35, 28); verify if Moon Stone trade or quest exists.
 
 ## Settled Hypotheses
 - **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED & ARCHIVED Turn 15747)**:
