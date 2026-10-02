@@ -701,15 +701,15 @@
 
 ## Settled Inquiries
 - **Sovio City Surface Exhausted**: All residences (Karate House, Gumball House, North Wii House, Terrace House, Name Rater) and public sector NPCs/fixtures (Bikers, Rocky, street lamps, signposts, terrace boundaries) verified ambient with zero story advancement.
-- **Lancio Town & Route 1 Disconnected from Jackson**: In-game testing confirmed Professor Ivo's dialogue is static post-tremor/post-sewers. Route 1 column 52 dead-ends into hedges at row 13. Traveling to Lancio Town lacks empirical connection to Jackson's disappearance.
+- **Sovio Sewers Storage Room Tested**: Interacting with the storage room door mat at (37, 14) displays "Its a simple storage room..." with no interactive mechanisms present in our current state. Re-testing without a new variable (key item or equipment) is redundant under the Burden of Proof.
+- **Route 1 Column 52 Hedge**: Probed (52, 13); confirmed solid hedge collision at rows 14-16 with embedded rock spire. Column 52 does not continue south directly.
 
-## Active Hypotheses for Dad & Progression
+## Active Hypotheses for Progression
 
-### Hypothesis H23: Sovio Sewers Storage Room & Hostage Resolution Audit
-- **Premise**: When Asher first entered the Sovio Sewers, a cutscene established that Team Siara grunts were holding Jackson captive in a sewer storage room. Asher defeated the guarding grunts, after which Marie broadcast a radio retreat order and the grunts vacated. However, Jackson was never rescued from the room; interacting facing south at (37, 14) merely displayed "Its a simple storage room...". The hostage event remains unresolved, which directly causes the Metro turnstile to block progression with "I should find dad first!".
-- **Target Coordinates**: Sovio Sewers Eastern Storage Room platform at (36-38, 12-14).
-- **Pass Criteria**: Identify an interaction trigger, key mechanism, door access method, or event flag that unlocks or accesses the storage room and resolves Jackson's hostage status.
-- **Fail Criteria**: Exhaustive multi-angle inspection of the door mat at (37, 14), perimeter tiles, and inventory usage yields identical static text with no progression.
-
+### Hypothesis H24: Route 1 Western Corridor & Regional Connectivity Audit
+- **Premise**: Route 1 row 12 connects Duke's meadow west to the Northwest Clearing, Cottage bypass, Sand Highway, and Lancio Town approach. The regional search space outside Sovio City has not been systematically traversed to its western terminus since the tremor event. Testing the full westward corridor will determine if regional event triggers, NPCs, or progression items exist outside Sovio City.
+- **Target Coordinates**: Route 1 row 12 corridor (cols 45-52), Northwest Clearing (cols 24-31), Sand Highway (rows 26-38), and Lancio Town border (0, 45).
+- **Pass Criteria**: Discover new dialogue, an active event trigger, a key progression item (e.g. equipment or HM), or an accessible path to advance the main story.
+- **Fail Criteria**: Complete uninterrupted traversal of Route 1's western corridors to Lancio Town yields only previously documented static dialogue and obstacles.
 
 <hr>
