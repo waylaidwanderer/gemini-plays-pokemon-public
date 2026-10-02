@@ -25,6 +25,6 @@
 ### Hypothesis H31: Sovio Metro Station Lobby Comprehensive Audit
 - **Premise**: With all civilian residences, outdoor park sectors, and sewer corridors conclusively eliminated, the Metro Station is the primary hub directly tied to Jackson's arrival, the tremor, and the Amor City departure. We conduct a full coordinate and perimeter audit of the Metro Station lobby (east flank past column 24, west flank past column 18, and all counter/wall tiles) to identify any overlooked NPC, ticket clerk, counter interaction, or trigger.
 - **Milestones**:
-  - **Milestone 1 (Exit House & Return to Metro Station)**: Descend stairs to 1F, exit to Sovio City (29, 14), path east along row 15 to (48, 18), and enter Metro portal at (48, 17) (lands at 23, 24).
+  - **Milestone 1 (Exit House & Return to Metro Station)**: COMPLETED (Turn 17544). Exited Gumball house, pathed east to Central Plaza, and entered Metro Station; arrived at (23, 24).
   - **Milestone 2 (Lobby Perimeter & Counter Audit)**: Systematically probe east boundary (cols 24-28), west boundary (cols 14-18), and counter/wall interactions.
   - **Milestone 3 (Evaluate Findings)**: Record all tile boundaries and check for new dialogue or triggers.
