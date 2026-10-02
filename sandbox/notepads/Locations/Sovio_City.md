@@ -45,8 +45,6 @@
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
 
 ## Southeast Corridor & Central Park
-- **Central Park Pond Feature**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
-
 - **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Boy at (35, 28) cheering: "Yeah Jigglypuff!" Jigglypuff at (34, 28) displays cry: "Jigglypuff: Puff Puff!". Confirmed ambient Pokémon and flavor dialogue.
 
 - **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?"

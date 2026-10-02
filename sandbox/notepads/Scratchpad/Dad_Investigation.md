@@ -20,5 +20,4 @@
 ### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)
 - **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
 - **Investigation Targets**:
-  1. Southern Avenue & Southern Border (15, 30-39): Audit southern grassy corridor, tree borders, and transition to Route 1 for overlooked NPCs or triggers.
-  2. Broader Regional Re-audit: Check for post-tremor changes or overlooked interactions across Route 1 and Lancio Town.
+  1. Broader Regional Re-audit: Check for post-tremor changes or overlooked interactions across Route 1 and Lancio Town.
