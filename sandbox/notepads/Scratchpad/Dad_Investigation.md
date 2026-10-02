@@ -12,7 +12,12 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pok�mon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Active Phase**: SS3 fully audited and settled. The Eastern Storage Room is confirmed as an empty ambient set piece post-retreat. Jackson is not in Sovio Sewers. Returning to surface (Sovio Metro Station / Sovio City) to investigate unexplored dialogue and progression triggers.
+- **Hypothesis D1 (Jackson / Valora Surface Progression Trigger Investigation)**:
+  - **Rationale**: The Metro turnstile strictly blocks train boarding with 'I should find dad first!'. Jackson ran outside to investigate the tremor, and Team Siara retreated from the sewers. If Jackson is not in the audited sewer platform, either Jackson escaped to a surface location, an NPC holds critical dialogue regarding the tremor/Jackson, or a regional event flag must be triggered.
+  - **Test Protocol**:
+    1. Ascend to Sovio Metro Station lobby; inspect turnstile and lobby interactions.
+    2. Check Central Plaza and Pokémon Center for any dialogue updates post-sewer retreat.
+    3. Verify Route 1 and Lancio Town Lab (Professor Ivo) for story updates regarding Jackson.
 
 ## Settled Hypotheses
 - **Hypothesis SS3 (Eastern Storage Room Multi-Directional Interaction Protocol - 100% SETTLED & ARCHIVED)**:

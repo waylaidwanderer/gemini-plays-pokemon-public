@@ -78,7 +78,6 @@
 - **West Wall**: Solid exterior wall forms the western boundary of the Pokémon Center at column 40.
 
 - **Interior Layout & Audit (Verified Turns 4024-4048, 15379-15389)**:
-  - Re-audited Turn 15379-15389: Nurse Joy greeting, Camper Weedle dialogue at (5, 7), and Boy PC dialogue at (9, 6) all confirmed static ambient post-sewers.
 
   - Exit mat at (7, 8).
 
