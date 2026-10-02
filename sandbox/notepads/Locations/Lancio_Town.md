@@ -95,4 +95,4 @@
 
 
 
-- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. The pier terminates at open water; Harry and his boat are currently absent, and no ferry service is active.
+- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. The pier terminates at open water.
