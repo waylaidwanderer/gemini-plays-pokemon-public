@@ -11,21 +11,12 @@
 
 ## Active Hypotheses for Dad & Progression
 
-### Hypothesis H14: Falsification of Sewer Return & Focus on Unresolved Surface Flags
-- **Premise**: Re-entering Sovio Sewers without new tools, keys, or world-state changes is redundant; tile (37, 14) was verified static and empty on Turn 16291. Jackson is not in the accessible sewer sectors. Therefore, the progression flag or trigger must reside on the surface (Sovio City, Route 1, or Lancio Town) in an unverified mechanic, inventory capability, or unexplored trigger.
+### Hypothesis H14: Unexamined Mechanics & Attendant Interaction within Sovio City
+- **Premise**: The turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") explicitly indicate unresolved tasks within Sovio City. Past assumptions that the Metro attendant at (22, 19) is 'unreachable' conflated walking collision with interaction capability. In subway stations, attendants are spoken to across counters. Testing direct 'A' interaction across the counter at columns 21-22 evaluates whether ticket issuance, dialogue, or story triggers exist.
 - **Target Coordinates & Results**:
-  1. Sovio Metro Station turnstile (19, 21): Tested Turn 16424. Confirmed locked by "I should find dad first!" with 1-tile downward pushback.
-  2. Route 2 entrance barrier (52, 19): Tested Turn 16429. Confirmed locked by "I can't go yet... I have things to do!" with 1-tile leftward pushback to (51, 19).
-  3. Professor Ivo's laboratory basement perimeter and dialogue in Lancio Town.
-- **Pass Criteria**: Advance the main story trigger, clear the turnstile blocker, or clear the Route 2 barrier.
-- **Fail Criteria**: Interactions yield standard ambient dialogue without state changes.
-
-### Hypothesis H15: Quest 3 ("Egg Research") Activation with Professor Ivo Post-Quest-2 Completion
-- **Premise**: Prior to Turn 13344, the player had an active side quest ("Lost Toy"), which under CFRU/Sors engine rules ("Single Active Quest Limit") strictly prevented any NPC from offering a new side quest. On Turn 13344, Quest 2 was completed, clearing the active quest flag ("You aren't doing any Quest at the moment!"). In the HuPhone Quest Log, Quest 3 is "Egg Research", matching Professor Ivo (the leading Pokémon Professor of Hupest, who operates an incubator apparatus in her laboratory). With the active quest slot now completely empty, interacting with Professor Ivo or her incubator machine at (18-20, 5-6) in Lancio Town evaluates whether she initiates Quest 3 ("Egg Research"), provides a Pokémon Egg, or unlocks new laboratory dialogue/equipment.
-- **Test Coordinates**:
-  1. Lancio Town Pokémon Laboratory (17, 11-12 entrance).
-  2. Professor Ivo at (20, 6).
-  3. Incubator apparatus at (18-19, 5-6).
-  4. Lab basement stairs at (12, 7).
-- **Pass Criteria**: Professor Ivo or the incubator triggers dialogue offering Quest 3 ("Egg Research"), gifts a Pokémon Egg/Key Item, unlocks the basement stairs, or advances the story flag.
-- **Fail Criteria**: Professor Ivo continues to display only ambient text ("Hey, Ashi, how's your new Pokémon?") and the incubator remains inert with no quest prompt.
+  1. Sovio Metro Station turnstile (19, 21): Confirmed locked by "I should find dad first!" with 1-tile downward pushback.
+  2. Route 2 entrance barrier (52, 19): Confirmed locked by "I can't go yet... I have things to do!" with 1-tile leftward pushback to (51, 19).
+  3. Metro Station Ticket Counter & Attendant: Test direct interaction facing North across row 21-22 toward the attendant at (22, 19).
+  4. Central Plaza and city fixtures audit.
+- **Pass Criteria**: Attendant dialogue triggers ticket purchase, story guidance, or flag advancement; or barrier clears.
+- **Fail Criteria**: Attendant remains non-interactable from all accessible lobby tiles; dialogue remains ambient.
