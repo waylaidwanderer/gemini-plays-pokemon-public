@@ -39,7 +39,7 @@
 
 - **East Exit Story Barrier**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior (verified Turn 7896).
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior .
   - **Terrace Bounds & Audit**: Tile (51, 15) is open floor (Old Man absent); (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole (inert 'A', Machop absent); (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
 
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
@@ -48,7 +48,7 @@
 ## Southeast Corridor & Central Park
 - **Central Park Pond Feature**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
-- **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone (verified Turn 15779).
+- **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone .
 
 - **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?" Confirmed 100% ambient humor dialogue and counterpart to the blonde girl at (43-45, 23-26).
 - **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (32, 21).
@@ -73,7 +73,7 @@
 
 ## Pokémon Center
 
-- **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
+- **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall).
 
 - **West Wall**: Solid exterior wall forms the western boundary of the Pokémon Center at column 40.
 
