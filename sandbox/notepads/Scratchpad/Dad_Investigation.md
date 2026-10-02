@@ -23,5 +23,6 @@
      - Partner rock (24, 17): Inspected; confirmed displays "It's just a normal rock...".
      - Karate house (14, 15): 1F Karate trainer & girlfriend repeat baseline martial arts debate text (zero tremor reaction); 2F audited 100% empty (no NPCs/items). House cleared.
      - Biker 1 (13, 21): Spoken to; repeats baseline motorcycle gang text (zero tremor reaction).
-     - Next: Biker 2 & 3, rear lane (col 12) down to row 30, and office building facade (col 11).
+     - Biker 2 (13, 22): Spoken to; identical "vroom" text; confirming baseline.
+     - Next: Biker 3 (13, 23), rear lane (col 12) down to row 30, and office building facade (col 11).
   4. Central Park & Outdoor NPCs: Re-verify whether any outdoor residents react to the post-tremor situation.
