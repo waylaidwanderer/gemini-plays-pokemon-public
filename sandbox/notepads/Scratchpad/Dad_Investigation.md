@@ -36,3 +36,10 @@
   - Tile (37, 14): Red capsule mat. Interacting South displays verbatim: "Its a simple storage room...". Stepping South bumps into solid collision with no active warp.
   - Tile (36, 14): Impassable void boundary.
   - Conclusion: Eastern Storage Platform 100% physically audited. Jackson is not present in the storage room or platform.
+
+### Hypothesis H34: Sovio Metro Station Platform & Attendant Investigation
+- **Premise**: Physical audits confirm Jackson is not in Sovio Sewers. The turnstile (19, 21) blocks platform entry with "I should find dad first!", while an attendant stands at (22, 19). We investigate whether interacting with the attendant from the gate or checking Dad's surface investigation path resolves the blocker.
+- **Plan**:
+  1. Return to Sovio Metro Station lobby via sewer_transit (In progress).
+  2. Inspect the turnstile and attendant from (18-21, 21).
+  3. Sweep Sovio City exterior along the tremor investigation path.
