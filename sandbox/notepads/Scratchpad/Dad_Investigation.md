@@ -13,6 +13,7 @@
 - **Test Coordinates**: Systematically step across columns 47-51 along rows 20-22 and probe all north-facing and south-facing wall tiles with 'A'.
 - **Pass Criteria**: Discovery of an enterable doorway warp, NPC interaction, or item.
 - **Fail Criteria**: All tiles under the roof graphic are plain traversable walkway with solid walls and zero interactable scripts.
+- **Result (Tested Turn 16147)**: FALSIFIED. Columns 47-51 along rows 20-22 audited tile-by-tile facing North and South; confirmed plain traversable corridor with zero doors, hidden triggers, or items.
 
 ### Hypothesis H2: Tan Building Exterior Facade (Sovio City)
 - **Premise**: Tan building at columns 32-37, rows 8-12 was only checked at shutters (34-35, 12). A real door may exist at columns 32-33 or 36-37.
