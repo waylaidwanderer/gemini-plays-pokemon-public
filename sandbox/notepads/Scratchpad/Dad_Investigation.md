@@ -14,3 +14,11 @@
 
 ## Active Hypotheses
 
+
+### Hypothesis H5: Metro Station Lobby & Platform Boundary Probing
+- **Premise**: In the Metro lobby, turnstile at (19, 21) triggers "I should find dad first!". Station attendant is at (22, 18-19). Can the attendant, counter at cols 21-22, scanner pillars, or western blue chairs (cols 15-17) be interacted with to provide information or advance the story?
+- **Test Coordinates**:
+  1. Metro lobby (21-22, row 22): probe facing North toward platform attendant and counter.
+  2. Metro lobby (15-17, rows 22-25): probe blue chairs and west wall.
+- **Pass Criteria**: Dialogue from attendant or discovery of an interactable object/trigger advancing the search for Dad.
+- **Fail Criteria**: Attendant is unreachable behind barrier; chairs/counters are inert; turnstile continues to block with "I should find dad first!".
