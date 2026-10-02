@@ -16,9 +16,9 @@
 - **Premise**: Route 1 row 12 connects Duke's meadow west to the Northwest Clearing, Cottage bypass, Sand Highway, and Lancio Town approach. The regional search space outside Sovio City has not been systematically traversed to its western terminus since the tremor event. Testing the full westward corridor will determine if regional event triggers, NPCs, or progression items exist outside Sovio City.
 - **Decomposed Milestones**:
   - **Milestone 1 (Duke Meadow to Northwest Clearing) [COMPLETED]**: Successfully traversed Duke Meadow, ascended to row 9 bypass via column 44, navigated west across row 9 (cols 44-35), descended through (35, 10-11) and traversed row 11 west to the column 31 hedge opening at (31, 11).
-  - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pokémon was completely destroyed by yours..."); confirmed 100% static ambient dialogue with zero post-tremor changes.
+  - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pokémon was completely destroyed by yours..."); confirmed their post-defeat dialogue remains ambient with no new prompts.
   - **Milestone 3 (Sand Highway & Cottage Bypass) [IN PROGRESS]**: Navigate south along column 30 and rows 26-38 through the bird track trail and hedge gap at (32, 39).
   - **Milestone 4 (Southern Corridor to Lancio Town)**: Follow row 44 west past Signboard 2 (19, 42) and Central Pine Tree (10, 46) to the Lancio Town transition at (0, 45-46).
-  - **Milestone 5 (Lancio Town Audit)**: Check Lancio Harbor pier for boat/ferry status and consult Professor Ivo's Lab for progression flags.
+  - **Milestone 5 (Lancio Town & Southern Terminus)**: Verify whether any new variables emerge along Route 1's southern corridor before reaching Lancio Town, noting prior audits showed Ivo and the harbor static post-tremor.
 - **Pass Criteria**: Discover new dialogue, an active event trigger, a key progression item (e.g. equipment or HM), or an accessible path to advance the main story.
 - **Fail Criteria**: Complete uninterrupted traversal across all 5 milestones yields only previously documented static dialogue and obstacles.

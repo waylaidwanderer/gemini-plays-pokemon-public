@@ -185,7 +185,7 @@
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Single room with no rear exits or stairs; resident boy provides ambient dialogue.
 - **NPC 3 (Science Guy)**: Located around (39-41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?". Clearing terminates east at column 42 in solid pine forest and coastal shoreline with zero eastern passages.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads 'Warning! Be on the lookout for Pokémon Trainers who want to fight.'
-  - **Cottage Bypass Collision Note**: Tile (40, 26) is solid signpost collision blocking direct westward traversal from (41, 26). Traversal west toward the Sand Highway must step Up to row 25 (open dirt north of signpost at 40, 25), then proceed west across columns 40-36.
+  - **Cottage Bypass Collision Note**: Tile (40, 26) is solid signpost collision blocking direct westward traversal from (41, 26).
 - **Route 1 Signpost 4**: Wooden signpost at (50, 10) in the far northeast meadow facing south; reads "Sovio City Up ahead".
 
 ## Verified Boundaries & Obstacles
@@ -434,7 +434,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension is impassable due to a solid brick wall at (29, 11). Southern extension at (29, 14) terminates at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat; interacting facing South displays verbatim: "Its a simple storage room..." and dismisses on 'A'; Platform verified ambient with zero active warps or mechanisms in current state.
+- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat; interacting facing South displays verbatim: "Its a simple storage room..." Platform verified ambient with zero active warps or mechanisms in current state.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)
@@ -711,10 +711,10 @@
 - **Premise**: Route 1 row 12 connects Duke's meadow west to the Northwest Clearing, Cottage bypass, Sand Highway, and Lancio Town approach. The regional search space outside Sovio City has not been systematically traversed to its western terminus since the tremor event. Testing the full westward corridor will determine if regional event triggers, NPCs, or progression items exist outside Sovio City.
 - **Decomposed Milestones**:
   - **Milestone 1 (Duke Meadow to Northwest Clearing) [COMPLETED]**: Successfully traversed Duke Meadow, ascended to row 9 bypass via column 44, navigated west across row 9 (cols 44-35), descended through (35, 10-11) and traversed row 11 west to the column 31 hedge opening at (31, 11).
-  - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pok�mon was completely destroyed by yours..."); confirmed 100% static ambient dialogue with zero post-tremor changes.
+  - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pok�mon was completely destroyed by yours..."); confirmed their post-defeat dialogue remains ambient with no new prompts.
   - **Milestone 3 (Sand Highway & Cottage Bypass) [IN PROGRESS]**: Navigate south along column 30 and rows 26-38 through the bird track trail and hedge gap at (32, 39).
   - **Milestone 4 (Southern Corridor to Lancio Town)**: Follow row 44 west past Signboard 2 (19, 42) and Central Pine Tree (10, 46) to the Lancio Town transition at (0, 45-46).
-  - **Milestone 5 (Lancio Town Audit)**: Check Lancio Harbor pier for boat/ferry status and consult Professor Ivo's Lab for progression flags.
+  - **Milestone 5 (Lancio Town & Southern Terminus)**: Verify whether any new variables emerge along Route 1's southern corridor before reaching Lancio Town, noting prior audits showed Ivo and the harbor static post-tremor.
 - **Pass Criteria**: Discover new dialogue, an active event trigger, a key progression item (e.g. equipment or HM), or an accessible path to advance the main story.
 - **Fail Criteria**: Complete uninterrupted traversal across all 5 milestones yields only previously documented static dialogue and obstacles.
 
