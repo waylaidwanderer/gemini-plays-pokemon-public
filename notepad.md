@@ -370,7 +370,7 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32) repeats 'I love this show!', mother at (27, 33) repeats 'My son is watching some cartoon...', and wide-screen TV at (25-26, 30). Interacting with the TV from the side at (24, 30) facing East displays verbatim: "Why am I staring at the TV's side?". Confirmed 100% ambient domestic flavor dialogue.
+- **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32) repeats 'I love this show!', mother at (27, 33) repeats 'My son is watching some cartoon...', and wide-screen TV at (25-26, 30). Interacting with the TV from the front at (26, 31) facing North displays verbatim: "There's a cartoon running on the TV! / Its about a blue cat who's brother is a... fish?". Interacting from the side at (24, 30) facing East displays verbatim: "Why am I staring at the TV's side?". Confirmed 100% ambient pop-culture easter egg dialogue.
 
 - **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) confirmed completely inert with zero interaction scripts.
 
