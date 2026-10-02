@@ -710,26 +710,23 @@
 
 ## Core Verified Blockers
 - **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City (re-verified Turn 17681).
-- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step south to (19, 22) (re-verified Turn 17675).
+- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step south to (19, 22) (re-verified Turn 18443; pillars at 18, 21 and 20, 21 verified solid collision; zero NPCs in lobby).
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Requires specialized equipment not yet obtained.
 
-## Settled Inquiries
-- **Sovio Sewers & Eastern Platform**: 100% audited. Corridors cleared of grunts. Storage platform (36-38, 12-14) confirmed to contain solely the static decorative text "Its a simple storage room.." at (37, 14). Zero NPCs, items, or keys present.
-- **Sovio City West Avenue**: Audited Turns 18285-18332. Boy Rocky (23, 17) & Rocky (24, 17) baseline flavor; Karate house (14, 15) 1F martial arts debate, 2F empty; Biker 1 (13, 21) & Biker 2 (13, 22) baseline motorcycle gang dialogue.
-- **Lancio Town & Regional Facilities (Hypothesis H41 FALSIFIED)**: Audited Turns 18332-18393. Professor Ivo's Lab basement stairs (12, 7) remain blocked ("I probably shouldn't head down here..."). Professor Ivo (20, 6) repeats baseline dialogue ("Hey, Ashi, how's your new Pokémon?"). Lancio Harbor pier (32-34, 23-25) verified devoid of boats/Harry, water inert. Fisherman (38, 22) baseline advice. Confirmed Jackson never retreated to Lancio Town.
-- **Inventory & System Audit**: Bag items (Items, Balls, TMs, Key Items), party moves (Sirius, Zephyr), Trainer Card, and PC audited. Zero unexamined progression items or field moves present.
+## Settled Inquiries & Exhausted Spaces (DO NOT RE-EXPLORE)
+- **Sovio Sewers & Eastern Platform**: 100% audited. Corridors cleared of grunts following Marie's radio order. Storage platform (36-38, 12-14) confirmed static text "Its a simple storage room.." at (37, 14). Zero NPCs, items, or keys present.
+- **Sovio City West Avenue**: Audited Turns 18285-18332. Boy Rocky (23, 17) & Rocky (24, 17) baseline flavor; Karate house (14, 15) martial arts debate, 2F empty; Bikers (13, 21-23) baseline gang dialogue; rear biker lane column 12 connects to southwest lawn.
+- **Sovio City Central Park & Pond (Exhausted)**: Boy in pink shirt (33, 20) and Blonde Girl (44, 23-26) verified static ambient dialogue ("catfished") (Turns 17921, 18449). Southern walkway kids with Jigglypuff (33-35, 28) verified flavor (Turn 17925). Pond bank (Turn 17952) and Southern Avenue (15, 28-39) verified devoid of triggers (Turns 17967-17979, 18418).
+- **Sovio City Central Plaza & Terrace (Exhausted)**: House (49, 14) Nana & Granddaughter static cooking flavor (Turn 18117-18118). Pokémon Center (camper/boy) and PC audited (Turn 18098).
+- **Lancio Town & Regional Facilities (Hypothesis H41 FALSIFIED)**: Audited Turns 18332-18393. Professor Ivo's Lab basement stairs (12, 7) remain blocked ("I probably shouldn't head down here..."). Professor Ivo (20, 6) repeats baseline dialogue. Lancio Harbor pier verified devoid of boats/Harry, water inert. Fisherman (38, 22) baseline advice.
+- **Inventory & System Audit**: Bag items, party moves, Trainer Card, and PC audited. Zero unexamined progression items or field moves present.
+- **Hypothesis H42 (FALSIFIED)**: Central Plaza, Central Park, and Metro lobby verified devoid of unresolved triggers, items, or NPCs connecting to Jackson.
 
 ## Active Hypotheses for Progression
-### Hypothesis H42: Sovio City Plaza & Central Park Investigation (Start: Turn 18417)
-- **Premise**: Jackson ran outside into Sovio City immediately upon feeling the seismic tremor to investigate its source. With the sewers, West Avenue, and Lancio Town conclusively audited and cleared, Jackson's investigation trail must reside within Sovio City's central/eastern districts (Central Plaza confrontation site, Central Park perimeter, or Metro vicinity).
+### Hypothesis H43: System Menu & Bag Field Item Verification
+- **Premise**: If all accessible overworld NPCs and maps in Sovio City, Lancio Town, and Sovio Sewers are exhausted, progression must stem from an in-game menu, item interaction, or unexamined system feature (e.g. HuPhone apps, Key Items, or PC Boxes).
 - **Investigation Targets**:
-  1. Southern Avenue North: Walk north from (15, 39) along columns 14-15 to row 28 stone curb.
-  2. Central Plaza Confrontation Site: Inspect the plaza area outside the Pokémon Center (41-46, 12-18) where Mother's Eclipse Pidgey confrontation occurred.
-  3. Central Park & Metro Surroundings: Probe park perimeter (rows 18-30, cols 32-46) and Metro entrance area for any unresolved clues or trigger tiles.
-
-## Grounded Metro Station Audit (Turn 18442)
-- **Turnstile Physical Geometry**: Bounded by scanner pillars at (18, 21) and (20, 21). Passage is strictly 1 tile wide at (19, 21).
-- **Lobby Population**: Confirmed zero NPCs present (neither Jackson nor Valora are in the lobby).
-- **Turnstile Trigger**: Moving north onto (19, 21) triggers "I should find dad first!" and pushes Asher south to (19, 22). Platform waiting area (vending machine, blue seats) remains blocked until Jackson's event flag resolves.
+  1. Open Bag and inspect Key Items / TMs / Items for any interactive use effects.
+  2. Open HuPhone and check if any app has unread content or callable options.
 
 <hr>
