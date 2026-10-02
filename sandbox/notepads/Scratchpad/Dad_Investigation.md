@@ -33,4 +33,6 @@
   - Tile (37, 12): Walkable 1-tile recessed alcove; north wall (37, 11), east wall (38, 12), and west wall (36, 12) have solid collision with zero interaction text.
   - Tile (38, 13): Walkable stone floor. Interacting East into (39, 13) produces zero text; north wall (38, 12) is solid collision.
   - Tile (38, 14): Walkable stone floor. Interacting East into (39, 14) produces zero text. Interacting South into (38, 15) produces zero text; south boundary is impassable void.
-  - Tile (37, 14): Red capsule mat. Interacting South displays verbatim: "Its a simple storage room...".
+  - Tile (37, 14): Red capsule mat. Interacting South displays verbatim: "Its a simple storage room...". Stepping South bumps into solid collision with no active warp.
+  - Tile (36, 14): Impassable void boundary.
+  - Conclusion: Eastern Storage Platform 100% physically audited. Jackson is not present in the storage room or platform.
