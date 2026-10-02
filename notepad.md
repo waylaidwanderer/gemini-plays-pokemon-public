@@ -312,7 +312,7 @@
 
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
-  - Straw-hat Camper at (5, 7): Ambient dialogue regarding poisoned Weedle.
+  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?'). Confirmed does not accept Antidote or trigger 'Medic!' quest (verified Turn 15722).
 
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
@@ -397,7 +397,6 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) empirically tested: solid collision, zero door warps, zero 'A' interaction scripts; confirmed 100% decorative exterior with no accessible entrance.
-
 
 <hr>
 
