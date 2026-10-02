@@ -698,5 +698,14 @@
 
 ## Active Hypotheses
 
+### Hypothesis H11: Sovio Sewers Unexamined Sectors & Drop Sites Audit
+- **Premise**: Team Siara grunts retreated on Turn 2682. In Gen 3 engine design, defeated/retreating grunts often drop key items (e.g., Storage Key) on the floor tiles where they stood, or unexamined platforms (Grunt 2 platform at 18, 21-22, Western Terrace at 11-15, rows 11-16, and row 5 gangway) contain the story trigger or captive Dad.
+- **Test Coordinates**:
+  1. Grunt 2's platform at (18, 21-22): probe all floor tiles with 'A'.
+  2. Western Terrace (cols 11-15, rows 11-16): probe all tiles and walls.
+  3. Northern Gangway along row 5: probe north wall and gangway tiles.
+  4. Eastern platform at (36-38, 12-14): re-examine storage room and floor tiles where the final grunt stood.
+- **Pass Criteria**: Discovery of a dropped key item, interactable trigger, NPC, or dialogue advancing the search for Dad.
+- **Fail Criteria**: All tested platforms and floor tiles are completely bare with zero items or triggers.
 
 <hr>
