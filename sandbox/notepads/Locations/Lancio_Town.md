@@ -18,7 +18,8 @@
 
 ## Points of Interest & Buildings
 
-- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner leading to upper mezzanine. Resident man at (9, 4) explains regional integrated PokéMarts: "Did you know? Pokémon Centers have PokéMarts built into them in this region! In certain regions PokéMarts are separate buildings though...". Resident boy at (6, 5) provides ambient advice: "Pokémon Centers heal your tired, hurt, or fainted Pokémon. They make all Pokémon completely healthy.".
+- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner at (2, 0-1) leading to upper mezzanine. Resident man at (9, 4) explains regional integrated PokéMarts: "Did you know? Pokémon Centers have PokéMarts built into them in this region! In certain regions PokéMarts are separate buildings though...". Resident boy at (6, 5) provides ambient advice: "Pokémon Centers heal your tired, hurt, or fainted Pokémon. They make all Pokémon completely healthy.".
+  - **Upper Mezzanine & PokéMart**: Escalator warps to (5, 8). Counter staffed by clerk at (5, 3) facing south across counter at (5, 4). Verified inventory: Poké Ball ($200), Potion ($300), Antidote ($100), Paralyz Heal ($200), Repel ($350) (identical to Sovio City PokéMart). 100% audited.
 
 - **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
