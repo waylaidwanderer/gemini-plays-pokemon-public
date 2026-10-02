@@ -229,7 +229,7 @@
 
 ## Geography & Connections
 
-- **South**: Connects to Route 1 at columns 14-15, row 39. transitions directly to Route 1 at (53, 0) without any story barrier text.
+- **South**: Connects to Route 1 at columns 14-15, row 40-41; transitions directly to Route 1 at (53, 0) without any story barrier text.
 
   - **Southern Avenue Bounds**: At (15, 30), the avenue transitions from the stone curb of rows 28-29 onto an open grassy lawn flanked by pine trees. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
 
@@ -715,6 +715,7 @@
 - **Sewer Comprehensive Audit (H28/H33/H38)**: 100% mapped and audited. Upper landing, lower corridors (row 28), western terrace, catwalks, Dark Sector, and storage platform (36-38, 12-14) contain zero dropped keys, switches, or items. Rugged rocks require specialized equipment. Storage door at (37, 14) displays "Its a simple storage room..." with impassable south collision. All sewer avenues are completely settled and cleared of internal triggers.
 - **Inventory & System Audit (H32)**: Items Pocket (Potion x1, Poison Barb x1, Antidote x1), Key Items (HuPhone registered to SELECT, TM Case), Poké Balls (Timer Ball x1, Poké Ball x10). Zero equipment or keys in possession.
 - **PC Terminal & Storage Audit (H37, Turns 17713-17734)**: Someone's PC Box 1 empty (0 Pokémon, 0 eggs); Asher's PC Item Storage contains only Nugget x 1; Mailbox displays "There's no Mail here.". Zero items, messages, or progression flags present in PC.
+- **Southern Avenue & Southern Boundary (Turns 17967-17979)**: 100% audited. Southern Avenue transitions from stone curb (rows 28-29) onto open grassy avenue (rows 30-40) flanked by pine trees; completely devoid of NPCs, items, or hidden passages. Seamlessly transitions into Route 1 at (53, 0) without any story barrier. Falsified as progression trigger.
 
 ## Active Hypotheses for Progression
 ### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)

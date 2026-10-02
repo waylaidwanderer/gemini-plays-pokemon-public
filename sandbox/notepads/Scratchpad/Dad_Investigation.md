@@ -14,6 +14,7 @@
 - **Sewer Comprehensive Audit (H28/H33/H38)**: 100% mapped and audited. Upper landing, lower corridors (row 28), western terrace, catwalks, Dark Sector, and storage platform (36-38, 12-14) contain zero dropped keys, switches, or items. Rugged rocks require specialized equipment. Storage door at (37, 14) displays "Its a simple storage room..." with impassable south collision. All sewer avenues are completely settled and cleared of internal triggers.
 - **Inventory & System Audit (H32)**: Items Pocket (Potion x1, Poison Barb x1, Antidote x1), Key Items (HuPhone registered to SELECT, TM Case), Poké Balls (Timer Ball x1, Poké Ball x10). Zero equipment or keys in possession.
 - **PC Terminal & Storage Audit (H37, Turns 17713-17734)**: Someone's PC Box 1 empty (0 Pokémon, 0 eggs); Asher's PC Item Storage contains only Nugget x 1; Mailbox displays "There's no Mail here.". Zero items, messages, or progression flags present in PC.
+- **Southern Avenue & Southern Boundary (Turns 17967-17979)**: 100% audited. Southern Avenue transitions from stone curb (rows 28-29) onto open grassy avenue (rows 30-40) flanked by pine trees; completely devoid of NPCs, items, or hidden passages. Seamlessly transitions into Route 1 at (53, 0) without any story barrier. Falsified as progression trigger.
 
 ## Active Hypotheses for Progression
 ### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)
