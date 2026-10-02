@@ -231,7 +231,7 @@
 
 - **South**: Connects to Route 1 at columns 14-15, row 40-41; transitions directly to Route 1 at (53, 0) without any story barrier text.
 
-  - **Southern Avenue Bounds**: At (15, 30), the avenue transitions from the stone curb of rows 28-29 onto an open grassy lawn flanked by pine trees. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
+  - **Southern Avenue Bounds**: At (15, 30), the avenue transitions from the stone curb of rows 28-29 onto an open grassy lawn flanked by pine trees. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 40-41).
 
 - **East**: Connects to Route 2 toward Amor City (verified via World Map).
 
@@ -725,7 +725,6 @@
 ### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)
 - **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
 - **Investigation Targets**:
-  1. Route 1 Re-audit: Concluded & Falsified (Turns 17983-18031). Duke, Sonia, Mike, and Cottage Boy verified identical baseline dialogue.
-  2. Sovio City & Metro Focus: Return to Sovio City to investigate unaddressed vectors around the Metro Station, Central Plaza, and the Sewers.
+  1. Sovio City & Metro Focus: Return to Sovio City to investigate unaddressed vectors around the Metro Station, Central Plaza, and the Sewers.
 
 <hr>

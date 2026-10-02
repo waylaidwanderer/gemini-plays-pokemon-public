@@ -26,5 +26,4 @@
 ### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)
 - **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
 - **Investigation Targets**:
-  1. Route 1 Re-audit: Concluded & Falsified (Turns 17983-18031). Duke, Sonia, Mike, and Cottage Boy verified identical baseline dialogue.
-  2. Sovio City & Metro Focus: Return to Sovio City to investigate unaddressed vectors around the Metro Station, Central Plaza, and the Sewers.
+  1. Sovio City & Metro Focus: Return to Sovio City to investigate unaddressed vectors around the Metro Station, Central Plaza, and the Sewers.
