@@ -16,6 +16,12 @@
 - **Metro Station Lobby Audit (H31)**: Lobby 100% audited; west wall chairs (16, 24-25) confirmed inert decorative scenery. Platform visually audited: 4 blue chairs, yellow vending machine, station attendant at (22, 19). Turnstile passage at (19, 21) actively triggers 'I should find dad first!' and forces step back to (19, 22).
 
 ## Active Hypotheses for Progression
+### Hypothesis H32: Inventory, Key Items & System Mechanics Audit
+- **Premise**: Physical overworld audits across Sovio City, Route 1, and Lancio Town confirm Jackson is not an overworld NPC waiting to be spoken to. We systematically audit all Bag pockets, Key Items, and Trainer Card / HuPhone interfaces to test for non-NPC progression triggers or prerequisites.
+- **Milestones**:
+  - **Milestone 1 (Open & Inspect Bag)**: Return to Start menu, select Bag, and audit all pockets (Items, Key Items, Poké Balls, TMs, Berries).
+  - **Milestone 2 (Inspect Key Items & HuPhone Functions)**: Verify if any Key Item has an unused 'USE' option or trigger.
+  - **Milestone 3 (Audit Trainer Card & Save/Clock Mechanics)**: Check Trainer Card details and evaluate external conditions.
 
 
 
