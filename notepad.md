@@ -249,7 +249,7 @@
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
-- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock..."). Verified 100% ambient humor dialogue.
+- **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock...").
 
 - **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) confirmed completely inert with zero items.
 
@@ -274,10 +274,10 @@
 ## Southeast Corridor & Central Park
 - **Central Park Pond Feature**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
-- **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor. Boy at (35, 28) cheering: "Yeah Jigglypuff!" Confirmed 100% ambient flavor dialogue.
+- **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Boy at (35, 28) cheering: "Yeah Jigglypuff!"
 
-- **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?" Confirmed 100% ambient humor dialogue and counterpart to the blonde girl at (43-45, 23-26).
-- **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (33, 20).
+- **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?"
+- **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?"
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 
@@ -294,7 +294,7 @@
     - Tan brick sidewalk runs south of Central Park pond to columns 44-46 across rows 28-30.
     - Column 46 has two silver trash cans at (46, 30) and (46, 31); inert with no items.
     - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
-    - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border. 100% decorative exterior with zero doors or interaction scripts.
+    - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border.
 
 ## Pokémon Center
 
@@ -467,7 +467,7 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove.
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
 - **Deep Subterranean Sector**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy. Perimeter walls (rows 35-38, columns 0-4) are solid walls. Single-purpose quest room.
-- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal. 100% audited enclosed dead-end rim with solid void to south/east; zero items or warps.
+- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal.
 - **Western Terrace Layout**:
   - Terrace floor extends across columns 12 to 17 on rows 11-12.
   - South perimeter has stairs descending at column 14 (rows 12-16) and solid stone railings at row 13 (columns 11-13 and 15-17).

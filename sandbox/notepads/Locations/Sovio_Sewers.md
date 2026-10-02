@@ -63,7 +63,7 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove.
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
 - **Deep Subterranean Sector**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy. Perimeter walls (rows 35-38, columns 0-4) are solid walls. Single-purpose quest room.
-- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal. 100% audited enclosed dead-end rim with solid void to south/east; zero items or warps.
+- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal.
 - **Western Terrace Layout**:
   - Terrace floor extends across columns 12 to 17 on rows 11-12.
   - South perimeter has stairs descending at column 14 (rows 12-16) and solid stone railings at row 13 (columns 11-13 and 15-17).
