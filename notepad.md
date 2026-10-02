@@ -710,7 +710,7 @@
 - **Route 1, Lancio Town & Inizio Isle (H24)**: 100% audited; verified devoid of active triggers for Jackson.
 - **Sovio Surface Residences & Facilities (H26)**: All civilian homes (Karate, Gumball, Wii, Nana, Name Rater), Pokémon Center (1F & 2F), and Metro lobby alcoves 100% physically audited; zero story triggers or NPCs present.
 - **Sovio Outdoor Perimeters (H27)**: Southern sidewalk (rows 27-31), Central Park, and Route 2 barrier (52, 19-22) audited; barrier active, NPCs ambient.
-- **Sewer Storage Room (37, 14)**: Audited post-retreat (Turn 17207); mat is walkable, south transition is solid, interacting displays "Its a simple storage room...".
+- **Sewer Storage Room Preliminary Check (37, 14)**: Tested Turn 17207 from (37, 14) facing south; displayed "Its a simple storage room...". Re-opened for comprehensive multi-tile platform audit under H33.
 - **Sewer Subterranean Audit (H28)**: 100% physically mapped; upper landing, lower corridor (row 28), western terrace, catwalks, and Dark Sector contain zero interactive triggers, items, or NPCs post-retreat. Rugged rocks require specialized equipment.
 - **Central Park Dating Couple (H29)**: Speaking to blonde girl (44, 24) and pink-shirt boy (33, 22) sequentially produces static reciprocal dialogue ("Was I catfished?"); verified zero quest triggers, items, or progression changes.
 - **Gumball House 2F Audit (H30)**: Bed/sleeping resident at (27, 15-16) and blue PC terminal at (20, 12) verified 100% inert decorative scenery; green bookshelf at (22, 12) displays generic "It's crammed full of Pokémon books.". Zero progression triggers or clues.
