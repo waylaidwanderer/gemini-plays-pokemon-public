@@ -198,7 +198,7 @@
   - Eastern Highway column 52 runs south from (52, 12) through (52, 13-15) to (52, 16) past the conical rock spire at (53, 16), and continues south through the pine tree canopy at (52, 17).
   - Row 16 Hedge Corridor: At (52, 16), a dead-end corridor runs West through (51-48, 16) between hedges, terminating at the solid pine tree trunk at (47, 16). From (48, 16), tile (48, 15) to the north is walkable grass beneath the tree.
   - South Meadow Bypass: From (52, 17), the path turns West into blue flowers at (51, 17), continues West along row 17 past hedges to column 45, and descends South through (45, 18-20) into the lower meadow toward the row 20 ledge and Cottage.
-  - Duke Meadow & Connector: Walkable perimeter around Duke at (45, 12) includes open grass tiles at (44, 12-13) and row 13 grass tiles at (45-47, 13). Tile (48, 13) is a solid pine tree trunk. Pine tree trunks line row 14 at (44-48, 14). Row 12 is a walkable corridor connecting Duke's meadow at (44-47, 12) east beneath the canopies directly into the Eastern Highway at columns 52-53 verified Turn 11613; (48, 12) verified Turn 11679).
+  - Duke Meadow & Connector: Walkable perimeter around Duke at (45, 12) includes open grass tiles at (44, 12-13) and row 13 grass tiles at (45-47, 13). Tile (48, 13) is a solid pine tree trunk. Pine tree trunks line row 14 at (44-48, 14). Row 12 is a walkable corridor connecting Duke's meadow at (44-47, 12) east beneath the canopies directly into the Eastern Highway at columns 52-53; (48, 12) open grass).
   - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. Passable traversal requires stepping Up at (35, 11) to the row 9 open grass lane at (35, 9), following row 9 east to column 44, and stepping Down south into Duke's meadow.
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
@@ -348,7 +348,7 @@
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
-  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars (verified Turn 7150-7153). Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
+  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: station attendant in blue uniform at (22, 19), yellow vending machine at (18, 19), and blue chairs along northwest wall.
 
 - **Sovio Sewers Secret Entrance**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
@@ -462,7 +462,7 @@
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
 - **Deep Subterranean Sector (Discovered Turn 13225, Audited Turn 14052)**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy (Turn 13238). All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A' on Turn 14052; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
-- **Lower Eastern Walkway (Audited Turn 16136)**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal. 100% audited enclosed dead-end rim with solid void to south/east; zero items or warps.
+- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal. 100% audited enclosed dead-end rim with solid void to south/east; zero items or warps.
 
 <hr>
 
@@ -687,17 +687,25 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Core Blockers & Verified Physical Constraints
-- **Route 2 Barrier (52, 19-22)**: Re-verified active on Turn 15965 ("I can't go yet... I have things to do!").
-- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step down to (19, 22). Platform attendant at (22, 18) is behind platform barrier.
-- **Rugged Rocks (Sewers)**: Verified at (22, 10) and (10, 18); requires specialized equipment to smash ("It's a rugged rock, but with some equipment, I could smash it."). Zero equipment in possession.
-- **Storage Room Mat (Sewers 37, 14)**: Displays "Its a simple storage room..." and has solid void collision to south with zero warp.
-- **Metro Lobby Fixtures**: Scanner pillars at (18, 21) and (20, 21) non-interactive; tile (23, 25) is inert floor mat edge.
+## Core Verified Blockers
+- **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City.
+- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step south to (19, 22). Attendant at (22, 18-19) is unreachable behind solid wall/turnstile structure.
+- **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Zero equipment currently in possession.
+- **Storage Room Mat (Sewers 37, 14)**: Displays "Its a simple storage room..." and has solid void collision to south with zero warp. Closed inquiry: storage room does not contain Jackson and has no active warp.
 
-## Active Hypotheses & Strategic Focus
-- **Hypothesis D6 (Investigating Unexamined Pathways & Regional Story Connections)**:
-  - **Rationale**: Domestic residences and ambient NPCs are confirmed static. Jackson was kidnapped during the tremor cutscene (Turn 1666) and Team Siara retreated (Turn 2682). Turnstile gate requires finding Dad. We must expand search beyond the 4-building circuit to unexamined physical pathways and regional connections.
-  - **Action Plan**: Systematically test unchecked physical pathways and boundary connections across Sovio City and adjacent routes.
+## Structured Hypotheses
+
+### Hypothesis H1: Covered Passage beneath Roof in South Commercial Block (Sovio City)
+- **Premise**: Columns 47-51, rows 20-22 feature a walkable covered corridor beneath a roof graphic connecting row 19 east to column 52. An unprobed door or NPC trigger may exist under this roof.
+- **Test Coordinates**: Systematically step across columns 47-51 along rows 20-22 and probe all north-facing and south-facing wall tiles with 'A'.
+- **Pass Criteria**: Discovery of an enterable doorway warp, NPC interaction, or item.
+- **Fail Criteria**: All tiles under the roof graphic are plain traversable walkway with solid walls and zero interactable scripts.
+
+### Hypothesis H2: Tan Building Exterior Facade (Sovio City)
+- **Premise**: Tan building at columns 32-37, rows 8-12 was only checked at shutters (34-35, 12). A real door may exist at columns 32-33 or 36-37.
+- **Test Coordinates**: Probe foundation and wall tiles along row 12 across columns 32, 33, 36, 37 with collision and 'A'.
+- **Pass Criteria**: Discovery of an entrance door warp or interaction prompt.
+- **Fail Criteria**: All facade tiles return solid wall collision with zero warps or text prompts.
 
 
 <hr>
