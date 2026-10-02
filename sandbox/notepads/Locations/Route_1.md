@@ -60,7 +60,7 @@
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
 - **Northwest Clearing Layout & Connections**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). At row 13 east of column 29 is a dead-end alcove bounded by pine tree (29, 12) and horizontal hedge at (30, 13-14). The passable eastward corridor runs south of the hedge along row 15 through (28-31, 15), then cuts north through hedge gap at column 31 (rows 14-11) past pink bird tracks at (31, 13) and blue bird tracks at (31, 12) directly into row 11 meadow corridor. Connected to south via column 30 corridor.
-- **Meadow Trail Obstacle Bounds**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40). Traversal between the column 26 hedge gap and Sand Highway must bypass south along row 41 (blue flower tiles) before cutting north to row 39.
+  - **Meadow Trail Obstacle Bounds**: Columnar shrub at (28, 39) and (28, 40) is solid collision (2 tiles tall), completely blocking direct eastward traversal from (27, 39-40).
 - **Cottage East Ledge**:
   - Ledge spans columns 39-41 at row 20. Stepping North from (40, 21) or (41, 21) is completely blocked by the one-way south-facing ledge. Pine trees block column 42. Confirmed zero northbound passage exists east of the Cottage.
   - Southward Hop: Stepping South from (41, 19) hops over the one-way ledge at row 20 and lands on (41, 21) in the Cottage yard.
