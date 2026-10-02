@@ -705,29 +705,15 @@
 - **Sovio City Surface Exhausted**: All residences (Karate House, Gumball House, North Wii House, Terrace House, Name Rater) and public sector NPCs/fixtures (Bikers, Rocky, street lamps, signposts, terrace boundaries) verified ambient with zero story advancement.
 - **Sovio Sewers Storage Room Tested**: Interacting with the storage room door mat at (37, 14) displays "Its a simple storage room..." with no interactive mechanisms present in our current state. Re-testing without a new variable (key item or equipment) is redundant under the Burden of Proof.
 - **Route 1 Column 52 Hedge**: Probed (52, 13); confirmed solid hedge collision at rows 14-16 with embedded rock spire. Column 52 does not continue south directly.
+- **Route 1 & Lancio Town Audit (Hypothesis H24 - Settled: FAILED)**: All 5 milestones completed. Conclusively audited Route 1 (Duke's meadow, row 9 bypass, Northwest clearing with Sonia & Mike, Sand highway, cottage, southern corridor) and Lancio Town (all residents, Professor Ivo's Lab, harbor pier, and Pokémon Center mezzanine PokéMart). Zero story advancement, NPCs, or progression triggers exist outside Sovio City.
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H24: Route 1 Western Corridor & Regional Connectivity Audit
-- **Premise**: Route 1 row 12 connects Duke's meadow west to the Northwest Clearing, Cottage bypass, Sand Highway, and Lancio Town approach. The regional search space outside Sovio City has not been systematically traversed to its western terminus since the tremor event. Testing the full westward corridor will determine if regional event triggers, NPCs, or progression items exist outside Sovio City.
+### Hypothesis H25: Sovio City Metro Station & Sovio Sewers Re-Audit for Jackson & Valora
+- **Premise**: With the western region conclusively eliminated, the story progression blocker ("I should find dad first!" at the Metro turnstile and "I can't go yet..." at Route 2) is strictly localized to Sovio City or its subterranean sectors.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Duke Meadow to Northwest Clearing) [COMPLETED]**: Successfully traversed Duke Meadow, ascended to row 9 bypass via column 44, navigated west across row 9 (cols 44-35), descended through (35, 10-11) and traversed row 11 west to the column 31 hedge opening at (31, 11).
-  - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pokï¿½mon was completely destroyed by yours..."); confirmed their post-defeat dialogue remains ambient with no new prompts.
-  - **Milestone 3 (Sand Highway & Cottage Bypass) [COMPLETED]**: Navigated south along column 30, east through row 26 corridor to Sand Highway, and south along Sand Highway past NPC 1 to the hedge gap at (32, 39).
-  - **Milestone 4 (Southern Corridor to Lancio Town) [COMPLETED]**: Traversed meadow trail around columnar shrub, passed through column 26 hedge gap, and followed row 44 southern corridor west past Signboard 2, Central Pine Tree, and Signboard 1 to the Lancio Town boundary at (0, 46); confirmed 100% static terrain with zero post-tremor blockers or story barriers. Note: Camper at (18, 43) was bypassed during wild grass transit and not directly engaged in dialogue.
-  - **Milestone 5 (Lancio Town & Southern Terminus) [IN PROGRESS]**: 100% audited all accessible structures, residents, and fixtures: Cap NPC (32, 14) ('Living in a small town sucks...'), Old Couple (32-33, 8) (ambient), Professor Ivo (20, 6) ('Hey, Ashi, how's your new Pokémon?'), Lab basement stairs (12, 7) ('I probably shouldn't head down here.'), Northwest House (44, 4) ('Get out!'), Harbor Pier (open water, boat absent), Fisherman (38, 22) (patience philosophy), and Pokémon Center (fedora man at (9, 4) verified; now interviewing boy at (6, 7) and testing northwest mezzanine escalator).
-- **Current Evaluation**: Milestone 5 concluding. Audited boy at (6, 5) ("Pokémon Centers heal your tired, hurt, or fainted Pokémon. They make all Pokémon completely healthy."). Testing northwest mezzanine escalator before wrapping up regional audit under Hypothesis H24.
-
-## Next Investigation Phase (Contingency for H24 Resolution)
-- **Premise**: If Milestone 5 concludes with Professor Ivo and the harbor remaining static, Hypothesis H24 will be fully settled as FAILED. Once Northwest House (25, 10), Harbor Pier, and Lancio Pokémon Center (37, 14) are verified, this will rigorously exhaust Route 1 and Lancio Town as potential locations for Jackson or progression triggers.
-- **Critical Re-evaluation of Foundational Assumptions**:
-  - Jackson was seen in the sewers cutscene in a storage room. Marie ordered a retreat. Asher checked (37, 14) which said "Its a simple storage room...".
-  - Why does the Metro turnstile still say "I should find dad first!"? Dad MUST still be somewhere, or a specific trigger has not been tripped.
-  - Unchecked / premature dismissals to systematically re-verify:
-    1. **Valora's current whereabouts**: Where did Valora go after the sewers retreat? Was she in the Metro Station or outside?
-    2. **Sewers interaction angles**: Can the storage room at (37, 14) be interacted with using specific inventory items or keys?
-    3. **Metro Station attendees / objects**: Station attendant at (22, 19), timetable board, vending machine.
-    4. **Sovio City NPCs post-retreat**: Did any NPC in Sovio City update their dialogue after Team Siara retreated from the sewers?
-
+  - **Milestone 1 (Return Transit to Sovio City)**: Exit Lancio Pokémon Center, navigate east across Route 1, and re-enter Sovio City at row 39.
+  - **Milestone 2 (Sovio Metro Station In-Depth Re-Audit)**: Systematically re-inspect every tile, NPC, and fixture in the Metro lobby: station attendant, timetable, vending machine, and check if Valora is present.
+  - **Milestone 3 (Sovio Sewers Storage Room Re-Inspection)**: Descend into Sovio Sewers, navigate to the eastern platform, and comprehensively re-test the storage room at (37, 14) from all angles and with inventory items.
 
 <hr>
