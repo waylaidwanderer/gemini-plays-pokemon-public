@@ -712,10 +712,10 @@
 - **Premise**: With the western region (Route 1, Lancio Town, Inizio Isle) conclusively eliminated, the story progression blocker ("I should find dad first!" at the Metro turnstile and "I can't go yet..." at Route 2) is strictly localized to Sovio City or its subterranean sectors. Macro-traversal oscillation back to Lancio is strictly prohibited.
 - **Decomposed Milestones**:
   - **Milestone 1 (Return Transit to Sovio City)**: Exit Lancio Pokémon Center, navigate east across Route 1, and re-enter Sovio City at row 39.
-  - **Milestone 2 (Sovio Metro Station Systematic Re-Audit)**: Inspect unverified targets in Metro lobby:
-    1. Search for Valora: Check if Valora is present in any tile of the Metro lobby or Sovio City plaza.
-    2. Station Attendant interaction: Test interacting with the station attendant at (22, 19) from all accessible angles around the turnstile railing.
-    3. Lobby fixtures: Re-audit the vending machine at (18, 19) and eastern lobby perimeter.
+  - **Milestone 2 (Sovio Metro Station Lobby & Valora Search)**:
+    1. Valora Search: Systematically check Sovio City Central Plaza, Pokémon Center, and Metro Station accessible lobby for Valora's presence.
+    2. Metro Lobby Accessible Perimeter: Audit all accessible tiles in the Metro lobby before the turnstile (scanner pillars, ticket counter, entrance corners).
+    3. Turnstile State: Verify whether the turnstile trigger changes or displays new text once Sovio City exterior is re-checked.
   - **Milestone 3 (Unchecked Sewers Topography & Equipment Sources)**:
     1. Re-examine the cutscene origin: If Jackson was held by grunts in a storage room, verify whether another door or passage exists that was overlooked (e.g. elevated walkways, hidden ladders).
     2. Investigate the "Equipment" mechanic: Determine where specialized rock-smashing equipment is obtained in Sovio City to clear the rugged rocks at (10, 18) and (22, 10).
