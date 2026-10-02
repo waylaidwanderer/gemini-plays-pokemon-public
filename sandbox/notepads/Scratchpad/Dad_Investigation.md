@@ -17,6 +17,6 @@
 ### Hypothesis H28: Search for Valora & Jackson Progression Triggers in Sovio Sewers
 - **Premise**: With all Sovio City surface facilities, residential interiors, and outdoor perimeters 100% verified devoid of Jackson or active event flags, the only remaining location tied directly to the tremor and Team Siara confrontation is the Sovio Sewers. Valora entered the sewers during the initial cutscene and has never been located on the surface or audited underground. We must systematically search the sewers to locate Valora and inspect the post-retreat subterranean environment.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Transit to Sovio Sewers via Metro Station)**: ACTIVE. Walk west from (51, 19) to Metro portal at (48, 17), cross lobby to red mat at (18-19, 25), and descend to Sovio Sewers (37, 22).
-  - **Milestone 2 (Sewer Upper Landing & Lower Walkways Audit)**: Inspect landing (37, 22), upper puddle (32-35, 21-23), and lower walkways (rows 24-28) for Valora or new event flags.
+  - **Milestone 1 (Transit to Sovio Sewers via Metro Station)**: COMPLETED (Turn 17399). Transited from Central Plaza through Metro lobby and descended red mat (18-19, 25) into Sovio Sewers (37, 22).
+  - **Milestone 2 (Sewer Upper Landing & Lower Walkways Audit)**: ACTIVE. Inspect landing (37, 22), upper puddle (32-35, 21-23), and lower walkways (rows 24-28) for Valora or new event flags.
   - **Milestone 3 (Eastern Gangway & Storage Room Platform Inspection)**: Traverse row 13 gangway to storage room platform (cols 36-38, rows 12-14) to audit the post-retreat storage area.
