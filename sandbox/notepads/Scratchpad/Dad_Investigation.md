@@ -20,3 +20,4 @@
 - **Test Coordinates**: Probe foundation and wall tiles along row 12 across columns 32, 33, 36, 37 with collision and 'A'.
 - **Pass Criteria**: Discovery of an entrance door warp or interaction prompt.
 - **Fail Criteria**: All facade tiles return solid wall collision with zero warps or text prompts.
+- **Result (Tested Turn 16148)**: FALSIFIED. Columns 32-37 along row 12 audited tile-by-tile; all returned solid wall collision with zero doors or interaction scripts. Tan building is 100% decorative exterior.
