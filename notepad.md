@@ -69,7 +69,7 @@
 
 - **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
-- **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9), resulting in solid collision with house foundation. No doors or interior entrance.
+- **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); solid building foundation with no accessible doors or entrance.
 
 - **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar.
 
@@ -136,9 +136,9 @@
 
 - **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
 
-- **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
+- **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me." Confirmed 100% ambient post-sewers.
 
-- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue (ambient).
+- **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh." Confirmed 100% ambient post-sewers.
 
 
 
@@ -713,10 +713,21 @@
   - **Milestone 1 (Duke Meadow to Northwest Clearing) [COMPLETED]**: Successfully traversed Duke Meadow, ascended to row 9 bypass via column 44, navigated west across row 9 (cols 44-35), descended through (35, 10-11) and traversed row 11 west to the column 31 hedge opening at (31, 11).
   - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pok�mon was completely destroyed by yours..."); confirmed their post-defeat dialogue remains ambient with no new prompts.
   - **Milestone 3 (Sand Highway & Cottage Bypass) [COMPLETED]**: Navigated south along column 30, east through row 26 corridor to Sand Highway, and south along Sand Highway past NPC 1 to the hedge gap at (32, 39).
-  - **Milestone 4 (Southern Corridor to Lancio Town) [COMPLETED]**: Traversed meadow trail around columnar shrub, passed through column 26 hedge gap, and followed row 44 southern corridor west past Signboard 2, Camper, Central Pine Tree, and Signboard 1 to the Lancio Town boundary at (0, 46); confirmed 100% static terrain with zero post-tremor blockers or story barriers.
-  - **Milestone 5 (Lancio Town & Southern Terminus) [IN PROGRESS]**: Audit Lancio Town entrance, harbor, and Professor Ivo's Lab to complete the regional audit under Hypothesis H24.
+  - **Milestone 4 (Southern Corridor to Lancio Town) [COMPLETED]**: Traversed meadow trail around columnar shrub, passed through column 26 hedge gap, and followed row 44 southern corridor west past Signboard 2, Central Pine Tree, and Signboard 1 to the Lancio Town boundary at (0, 46); confirmed 100% static terrain with zero post-tremor blockers or story barriers. Note: Camper at (18, 43) was bypassed during wild grass transit and not directly engaged in dialogue.
+  - **Milestone 5 (Lancio Town & Southern Terminus) [IN PROGRESS]**: Auditing Lancio Town residents, harbor, and Professor Ivo's Lab. Verified Cap NPC (32, 14), Old Woman (33, 8), and Old Man (32, 8) retain 100% ambient dialogue post-sewers. Now advancing to Professor Ivo's Lab to audit lab interior, Professor Ivo, and basement stairs.
 - **Pass Criteria**: Discover new dialogue, an active event trigger, a key progression item (e.g. equipment or HM), or an accessible path to advance the main story.
 - **Fail Criteria**: Complete uninterrupted traversal across all 5 milestones yields only previously documented static dialogue and obstacles.
+
+## Next Investigation Phase (Contingency for H24 Resolution)
+- **Premise**: If Milestone 5 concludes with Professor Ivo and the harbor remaining static, Hypothesis H24 will be fully settled as FAILED. This conclusively exhausts Route 1 and Lancio Town as potential locations for Jackson or progression triggers.
+- **Critical Re-evaluation of Foundational Assumptions**:
+  - Jackson was seen in the sewers cutscene in a storage room. Marie ordered a retreat. Asher checked (37, 14) which said "Its a simple storage room...".
+  - Why does the Metro turnstile still say "I should find dad first!"? Dad MUST still be somewhere, or a specific trigger has not been tripped.
+  - Unchecked / premature dismissals to systematically re-verify:
+    1. **Valora's current whereabouts**: Where did Valora go after the sewers retreat? Was she in the Metro Station or outside?
+    2. **Sewers interaction angles**: Was the storage room at (37, 14) inspected from all walkable angles (front, side) or with specific Key Items / buttons?
+    3. **Metro Station attendees / objects**: Station attendant at (22, 19), timetable board, vending machine.
+    4. **Sovio City NPCs post-retreat**: Did any NPC in Sovio City update their dialogue after Team Siara retreated from the sewers?
 
 
 <hr>
