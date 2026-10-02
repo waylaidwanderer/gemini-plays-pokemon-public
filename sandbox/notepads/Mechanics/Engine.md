@@ -22,7 +22,7 @@
   3. **Quest Log**: Active objective tracker and completed quest list.
   4. **Back**: Closes HuPhone.
 - **Portable PC Interface (Item Storage app)**:
-  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel (contains no stored items). 
+  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel (contains Nugget x 1; audited Turn 18461). 
   - **Mailbox**: Portable PC mailbox (no mail present). 
   - **Turn Off**: Exits portable PC interface.
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
