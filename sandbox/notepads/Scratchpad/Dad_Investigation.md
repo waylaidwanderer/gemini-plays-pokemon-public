@@ -11,14 +11,12 @@
 - **H2 (Tan Building Facade along row 12 across cols 32-37)**: FALSIFIED (Turn 16148). Solid foundation wall collision across all columns; 100% decorative exterior.
 - **H3 (Lower Eastern Sewer Basin Rim, rows 28-32, cols 34-37)**: AUDITED & SETTLED (Turn 16136). Enclosed dead-end basin rim; zero warps, items, or NPCs.
 - **H4 (Elevated Metro Terrace & House 49, 14)**: FALSIFIED (Turn 16177). Terrace deck empty; Nana and Granddaughter repeat static ambient cooking dialogue; zero leads.
+- **H5 (Metro Lobby & Platform Boundary Probing)**: FALSIFIED (Turn 16185). North wall at cols 21-22 is timetable board; turnstile blocks with "I should find dad first!"; scanner pillars, west chairs, and west wall are completely non-interactive; attendant unreachable.
 
 ## Active Hypotheses
 
-
-### Hypothesis H5: Metro Station Lobby & Platform Boundary Probing
-- **Premise**: In the Metro lobby, turnstile at (19, 21) triggers "I should find dad first!". Station attendant is at (22, 18-19). Can the attendant, counter at cols 21-22, scanner pillars, or western blue chairs (cols 15-17) be interacted with to provide information or advance the story?
-- **Test Coordinates**:
-  1. Metro lobby (21-22, row 22): probe facing North toward platform attendant and counter.
-  2. Metro lobby (15-17, rows 22-25): probe blue chairs and west wall.
-- **Pass Criteria**: Dialogue from attendant or discovery of an interactable object/trigger advancing the search for Dad.
-- **Fail Criteria**: Attendant is unreachable behind barrier; chairs/counters are inert; turnstile continues to block with "I should find dad first!".
+### Hypothesis H6: Karate House (14, 15)
+- **Premise**: Northwest residential house at (14, 15) contains Karate trainer, girlfriend, family Machop, and a 2F bedroom. They may offer new dialogue, trade, or clues post-sewers.
+- **Test Coordinates**: Enter House (14, 15), probe Karate Guy at (3, 34), girlfriend at (3, 33), Machop at (6, 34), and 2F bedroom.
+- **Pass Criteria**: New dialogue, item, trade, or story flag.
+- **Fail Criteria**: Static debate dialogue ("karate vs kickboxing") and ambient text with zero leads.
