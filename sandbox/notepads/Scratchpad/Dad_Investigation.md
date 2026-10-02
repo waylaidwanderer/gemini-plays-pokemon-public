@@ -17,7 +17,10 @@
   - **Execution Record**:
     - Step 1 (Sovio Metro Lobby, Turn 15518): Turnstile passage at (19, 21) tested directly; confirmed strictly blocked by scripted trigger 'I should find dad first!' forcing 1 step Down to (19, 22). Zero NPCs present in lobby.
     - Step 2 (Sovio Pokémon Center, Turns 15526-15530): Straw-hat Camper at (5, 7) re-checked with zero active quests; confirmed ambient joke dialogue regarding Weedle ('Ironic isn't it?'). Boy at (8, 6) confirmed ambient PC tutorial dialogue.
-    - Step 3 (Route 1 & Lancio Town Exploration - IN PROGRESS, Turn 15542+): Transitioned onto Route 1 at (53, 4). Traveling southwest to investigate wider regional constraints, Lancio Town Lab (Professor Ivo), and untraveled routes.
+    - Step 3 (Route 1 & Lancio Town Regional Investigation - IN PROGRESS, Turn 15542+): Transitioned onto Route 1 at (53, 4). Moving southwest to Lancio Town to test 3 specific falsifiable hypotheses:
+      (a) Ivo Lab Basement Stairs (12, 7): Test if barrier text ('I probably shouldn't head down here...') has updated post-sewer clearing.
+      (b) Lancio Harbor Dock (32-34, 25): Test if Harry or ferry transport has returned to provide passage to Inizio Isle.
+      (c) Route 1 / Lancio Field Moves: Re-evaluate Cut Tree at (5, 44) and check town residents for field ability equipment.
 
 ## Settled Hypotheses
 - **Hypothesis SS3 (Eastern Storage Room Platform - 100% SETTLED & ARCHIVED)**:
