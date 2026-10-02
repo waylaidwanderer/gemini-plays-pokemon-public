@@ -714,22 +714,14 @@
 - **Inventory & System Audit (H32)**: Items Pocket (Potion x1, Poison Barb x1, Antidote x1), Key Items (HuPhone registered to SELECT, TM Case), Poké Balls (Timer Ball x1, Poké Ball x10). Zero equipment or keys in possession.
 - **Sewer Storage Room & Platform Audit (H33)**: Fully audited platform (36-38, 12-14); doorway at (37, 14) is an inactive warp that bumps and displays "Its a simple storage room...". Platform tiles (37, 12 alcove; 38, 13-14 floor; 36, 14 void) contain zero items or switches. Doorway is currently inactive/locked from the outside.
 
-## Active Hypotheses for Progression
-### Hypothesis H37: Pokémon Center PC Terminal & Storage Audit (Start: Turn 17713)
-- **Premise**: Physical NPCs and surface landmarks in Sovio City have yielded zero progression triggers. We audit the physical PC terminal at (12, 1) in the Pokémon Center, specifically checking Someone's PC (Pokémon storage / gift Pokémon) and Mailbox for any unread messages or story items.
-- **Audit Findings**:
-  - Someone's PC (Box 1): Completely empty (0 Pokémon, 0 eggs).
-  - Asher's PC (Item Storage): Contains Nugget x 1 (retrieved from Dark Sector). Zero keys or equipment stored.
-- **Plan**:
-  1. Boot up PC terminal at (12, 1) (Complete).
-  2. Inspect Someone's PC -> Withdraw Pokémon (Complete, 0 stored Pokémon).
-  3. Inspect Asher's PC -> Item Storage (Complete, Nugget x 1).
-  4. Inspect Asher's PC -> Mailbox (In progress).
+- **PC Terminal & Storage Audit (H37, Turns 17713-17734)**: Someone's PC Box 1 empty (0 Pokémon, 0 eggs); Asher's PC Item Storage contains only Nugget x 1; Mailbox displays "There's no Mail here.". Zero items, messages, or progression flags present in PC.
 
-### Hypothesis H38: Sewer Storage Room Unlock & Capture Investigation
-- **Premise**: Cutscene explicitly showed Jackson held captive by Team Siara in a sewer storage room. The platform door at (37, 14) displays "Its a simple storage room..." and has solid collision, indicating it cannot be opened without a specific key, event flag, or prerequisite trigger.
+## Active Hypotheses for Progression
+### Hypothesis H38: Sewer Storage Room Unlock & Patrol Position Audit
+- **Premise**: Cutscene explicitly showed Jackson held captive by Team Siara in a sewer storage room. The platform door at (37, 14) displays "Its a simple storage room..." and has solid collision, indicating it cannot be opened without a specific key, event flag, or prerequisite trigger. We audit the former grunt battle locations in Sovio Sewers (such as Grunt 2's platform at 18, 21-22 and the lower walkway) to check for dropped keys, hidden switches, or overlooked triggers.
 - **Plan**:
-  1. Complete Mailbox audit (H37).
-  2. Investigate potential unlock mechanisms: re-audit sewer layout for dropped keys, investigate Siara broadcast origin, or identify missing prerequisite triggers in Sovio City.
+  1. Exit Pokémon Center to Sovio City.
+  2. Enter Sovio Sewers via Metro Station mat at (18-19, 25).
+  3. Systematically inspect Grunt 2's platform (18, 21-22) and adjacent walkway tiles for dropped items or interactive mechanisms.
 
 <hr>
