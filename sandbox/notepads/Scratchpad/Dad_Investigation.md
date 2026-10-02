@@ -9,9 +9,12 @@
 - **Sovio Sewers**: Accessible open walkways and eastern storage platform (37, 14 simple storage room) audited. However, subterranean branches behind rugged rocks at (22, 10) and (10, 18) remain physically blocked and unexplored.
 - **Sovio City**: Residential interiors (houses at 14, 15; 29, 14; 31, 26; 39, 7; 49, 14), Central Plaza, and Central Park NPCs provide baseline ambient flavor. Blonde Girl at (43, 25) directly verified ambient "catfished" dialogue (Turn 18492).
 - **Lancio Town**: Professor Ivo's Lab accessible 1F audited (basement stairs at 12, 7 trigger "I probably shouldn't head down here..."). Harbor pier vacant.
-- **Inventory & System (Hypothesis H43 Complete)**: Audited Turns 18456-18488. Bag pockets (Items, Key Items, TMs, Balls) and HuPhone (Item Storage: Nugget x 1; Mailbox empty; World Map; Quest Log 25 entries) confirmed devoid of keys, rock-smashing equipment, or unread progression mail.
+- **System & Inventory (Hypotheses H43 & H44 Complete)**: Audited Turns 18456-18515. Bag pockets (Items, Key Items, TMs, Balls), HuPhone (Item Storage: Nugget x 1; Mailbox empty; World Map; Quest Log 25 entries), and Someone's PC Box 1 (completely empty) confirmed devoid of keys, off-party Pokémon, rock-smashing equipment, or unread progression mail. Surface facilities and menus exhausted.
 
 ## Active Hypotheses for Progression
-### Hypothesis H44: Sovio Pokémon Center PC & Facility Audit
-- **Premise**: Checking Someone's PC at (12, 1) in the Pokémon Center to verify if any off-party Pokémon or held items exist in storage boxes. Concluding this audit closes all surface-level menu/facility checks.
-- **Next Direction**: Conclude H44 and redirect investigation to the physical field obstacles gating unexplored sewer branches (rugged rocks at 22, 10 and 10, 18).
+### Hypothesis H45: Sovio Sewers Physical Obstacle & Subterranean Branch Investigation
+- **Premise**: With all surface facilities and menus conclusively exhausted, the only unpassed boundaries in the accessible game world are the rugged rocks gating subterranean branches in the Sovio Sewers (Dark Sector at 22, 10 and Southwest Corridor at 10, 18). Investigation must focus on testing these physical obstacles, auditing adjacent tiles, and determining how clearance is achieved.
+- **Immediate Plan**:
+  1. Exit Pokémon Center PC and building.
+  2. Travel to Sovio Metro Station and descend via red mat at (18-19, 25) into Sovio Sewers.
+  3. Deploy subagent `sewer_transit` for autonomous traversal to target obstacles.
