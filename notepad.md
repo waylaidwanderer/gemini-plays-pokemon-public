@@ -258,7 +258,7 @@
 - **West Avenue North Boundary**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29).
 - **Inter-Building Gap**: Solid walls at (30, 14), (31, 13), and (32, 12) prevent passage between the Gumball house and the tan building.
 
-- **Southwest Boundary**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision; no passage, hidden items, or NPCs present.
+- **Southwest Boundary**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision.
 
 - **Central Plaza**: Located around (40-50, 10-18) containing the Pokémon Center, Metro Station entrance, and residential house.
 
@@ -370,9 +370,9 @@
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
-- **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30). Confirmed 100% ambient domestic non-plot elements.
+- **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32), mother at (27, 33), and wide-screen TV at (25-26, 30).
 
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) confirmed completely inert with zero interaction scripts.
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16)
 
 ## Residential House (Northwest - Machop Family)
 
@@ -410,6 +410,7 @@
 - **Staircase Up**: Located at (38, 22) leading back up to Sovio Metro Station; south side has solid railing blocking direct Up entry from (38, 23); must be entered from the west at (37, 22) stepping Right.
 - **Terrain & Features**:
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
+  - Upper landing western boundary: Tile (31, 22) and the gray brick structure spanning columns 27-31 (rows 21-27) is an impassable solid architectural block; there is no direct westward path from the upper landing across row 22.
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool. Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
