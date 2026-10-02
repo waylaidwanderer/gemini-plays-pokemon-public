@@ -28,4 +28,10 @@
 - **Investigation Targets & Results**:
   1. Commercial Building Corridor (rows 20-22, cols 47-51) [AUDITED & FALSIFIED]: Walkable covered passage connecting row 19 through rows 20-22 east to column 52. Stepping onto (52, 22) triggers Route 2 barrier text 'I can't go yet... I have things to do!'. West bound at (47, 22), south bound at row 23. Zero doors, NPCs, or items under roof.
   2. Inventory & Bag Mechanics [AUDITED]: Items: Potion x1, Poison Barb x1, Antidote x1. Key Items: HuPhone (SELECT shortcut), TM Case (contains TM17 Protect, TM48 Work Up; 0 HMs). Balls: Timer Ball x1, Poké Ball x10. Berries: Empty. Zero keys, field equipment, or unregistered progression items present in Bag.
-  3. Sewer Storage Platform (36-38, 12-14) [PARTIAL - IN PROGRESS]: Tile (37, 14) holds red capsule mat with downward arrow motif pointing South. Facing South from (37, 14) and pressing A displays 'Its a simple storage room..'. Stepping Down into row 15 bumps into solid impassable collision. Remaining perimeter tests (36, 12-14), (38, 12-14), and north wall (row 11-12) to be systematically audited after party audit.
+  3. Sewer Storage Platform (36-38, 12-14) [AUDITED & SETTLED]:
+     - (37, 14): Red horizontal capsule mat with downward arrow pointing South. Facing South and pressing A displays 'Its a simple storage room..'. Stepping Down into row 15 bumps into solid impassable collision. Facing North, East, West produces zero interaction.
+     - (36, 14): Facing South and West confirmed zero interaction.
+     - (38, 14): Facing South and East confirmed zero interaction.
+     - North Wall (row 12): Facing North across cols 36, 37, 38 into row 11 brick wall confirmed zero interaction.
+     Concluded: Platform contains exclusively the single-tile inspection trigger at (37, 14) with zero secondary warps, keys, or switches.
+  4. Party & Menu Audit [AUDITED]: Sirius (Lv15 Riolu, Black Belt, 0 field moves), Zephyr (Lv2 Pidgey, 0 field moves), Trainer Card (0 badges, 0 rounds won). Zero field abilities or unregistered mechanics present.
