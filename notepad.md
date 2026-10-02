@@ -533,10 +533,19 @@
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
 - **Jackson's Location Status**: A cutscene depicted grunts holding Jackson captive in a sewer storage room.
 
-## Southwest Regional Map Topology
-- **Inizio Isle**: Isolated green island node in the far southwest ocean.
-- **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects exclusively northeast via Route 1 to Sovio City.
-- **Sovio City**: Red rectangular urban node. Connects southwest via Route 1 to Lancio Town, and east via Route 2 toward eastern junctions and Amor City.
+## Verified Regional World Map Topology (Audited Turn 18080)
+- **Inizio Isle**: Isolated green island node in the far southwest ocean; Asher's hometown.
+- **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects northeast via Route 1 to Sovio City. Location of Professor Ivo's Lab.
+- **Sovio City**: Red rectangular urban node (subtitle: "Metro Station"). Connects southwest via Route 1 to Lancio Town, and east via Route 2.
+- **Route 2**: Regional highway extending east from Sovio City. Splits into:
+  1. Northern mountain route passing through **Mt. Gerhana** directly to Samurion City.
+  2. Southern coastal route passing through **Azluf Town** directly to Samurion City.
+- **Mt. Gerhana**: Mountain landmark and waypoint located between Sovio City and Samurion City.
+- **Azluf Town**: Coastal green town node located southeast of Sovio City along the southern shore.
+- **Samurion City**: Major port/industrial city on the south-central coast (red node with Pok� Ball symbol, subtitle: "Metro Station"). Connects west to Sovio City via Route 2 (coastal and mountain branches), and north directly to Amor City via dual Metro train tracks.
+- **Amor City**: Giant blue central metropolitan hub of Hupest. Regional capital and host city of the Eclipse Tournament / Amor Sports Center. Major transit hub with routes radiating to all quadrants.
+- **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
+- **Southeast Offshore Island**: Island containing 1 red town and 1 blue coastal port.
 
 <hr>
 
