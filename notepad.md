@@ -643,6 +643,11 @@
 - **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Poké Ball icons for the Eclipse Tournament.
 - **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
 - **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
+## Start Menu Structure & Pokédex Status
+- **Start Menu Entries**: Displays Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit.
+- **Empirical Pokédex Status**: The Pokédex menu option is completely ABSENT from the Start Menu, confirming Asher does not currently possess a Pokédex device.
+- **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open (e.g., Time: 09:59:55).
+
 
 <hr>
 
