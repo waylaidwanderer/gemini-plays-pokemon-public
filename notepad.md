@@ -722,8 +722,8 @@
 ### Hypothesis H27: Grounded Equipment & Subterranean Obstacle Investigation
 - **Premise**: With civic facilities (Metro lobby, PokeCenter 1F & 2F) and civilian residences fully audited, the hard physical constraints are the rugged rocks at (10, 18) and (22, 10) in Sovio Sewers ("It's a rugged rock, but with some equipment, I could smash it") and the locked sewer storage room at (37, 14). We must formulate and execute grounded tests to identify the equipment source or bypass vectors.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Descend to 1F and Exit Pokémon Center)**: ACTIVE. Take escalator down to 1F and exit to Central Plaza.
-  - **Milestone 2 (Audit Outdoor South & East Sovio City Perimeters)**: Physically inspect the southern sidewalk (rows 27-31) and Route 2 gate boundary to ensure zero outdoor NPCs or dropped items were missed.
-  - **Milestone 3 (Subterranean Tile & Equipment Audit)**: Descend to Sovio Sewers via Metro Station; systematically probe tiles around the grunts' retreat path and storage room (37, 14) for dropped keys or equipment.
+  - **Milestone 1 (Descend to 1F and Exit Pokémon Center)**: COMPLETED (Turn 17367). Descended 2F escalator, traversed 1F, and exited to Central Plaza (44, 12).
+  - **Milestone 2 (Transit to Sovio Sewers via Metro Station)**: ACTIVE. Path from (44, 12) across Central Plaza to Metro Station (48, 17), then take the secret red mat at (18-19, 25) into Sovio Sewers.
+  - **Milestone 3 (Subterranean Tile & Equipment Audit)**: Descend to Sovio Sewers; systematically probe tiles along the gangway (row 13), grunts' retreat path, and storage room (37, 14) for dropped keys, equipment, or switches.
 
 <hr>
