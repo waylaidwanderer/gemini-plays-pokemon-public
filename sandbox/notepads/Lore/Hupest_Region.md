@@ -35,9 +35,6 @@
 ## Mother's Return & Siara Syndicate Movements
 - **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
 
-## World Map Geography (Verified Turn 637)
-- **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
-- **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
 ## Sovio City Confrontation (Turns 1225-1318)
 - **Confrontation**: In Sovio City central plaza outside the Pokémon Center, Dad confronted Mother, leader of the Siara Mafia, who was flanked by two grunts.
 - **The Eclipse Project Unveiled**: Mother announced the completion of 'The Eclipse Project' as a test run diversion and summoned altered Eclipse Pidgey bearing a distinct dark aura and the Eclipse insignia.

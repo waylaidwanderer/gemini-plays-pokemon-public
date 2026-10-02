@@ -504,9 +504,6 @@
 ## Mother's Return & Siara Syndicate Movements
 - **Mother's Return**: Dad revealed that Asher's mother has returned with her syndicate (Siara Mafia) along with something Dad feared would return (the dangerous science project).
 
-## World Map Geography (Verified Turn 637)
-- **Sovio City**: City located northeast of Route 1; contains a Metro Station; connects to Route 2.
-- **Route 2**: Route running east from Sovio City towards the eastern junction and Amor City.
 ## Sovio City Confrontation (Turns 1225-1318)
 - **Confrontation**: In Sovio City central plaza outside the Pokémon Center, Dad confronted Mother, leader of the Siara Mafia, who was flanked by two grunts.
 - **The Eclipse Project Unveiled**: Mother announced the completion of 'The Eclipse Project' as a test run diversion and summoned altered Eclipse Pidgey bearing a distinct dark aura and the Eclipse insignia.
@@ -690,8 +687,6 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
 ## Core Blockers & Verified Physical Constraints
-- **Park East Border Trash Can (43, 20)**: Probed with 'A' on Turn 15969; confirmed completely inert with zero items.
-- **Commercial Building Covered Corridor (47-51, 20-22)**: Traced on Turn 15968; confirmed solid foundation wall on south (row 23) and west (col 46) with zero doors or triggers.
 - **Route 2 Barrier (52, 19-22)**: Re-verified active on Turn 15965 ("I can't go yet... I have things to do!").
 - **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step down to (19, 22). Platform attendant at (22, 18) is behind platform barrier.
 - **Rugged Rocks (Sewers)**: Verified at (22, 10) and (10, 18); requires specialized equipment to smash ("It's a rugged rock, but with some equipment, I could smash it."). Zero equipment in possession.
