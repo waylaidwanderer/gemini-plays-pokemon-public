@@ -17,4 +17,5 @@
 - **Premise**: With all Sovio City surface facilities, residential interiors, and outdoor perimeters conclusively eliminated, the only location tied directly to Jackson's disappearance and Team Siara's confrontation is the Sovio Sewers. We must investigate the post-retreat subterranean environment to identify any overlooked interaction vectors or equipment mechanics.
 - **Decomposed Milestones**:
   - **Milestone 1 (Descend to Sovio Sewers)**: COMPLETED (Turn 17410). Physically descended from Metro lobby red mat (18, 25) into Sovio Sewers; arrived at landing (37, 22).
-  - **Milestone 2 (Upper Landing & Puddle Physical Audit)**: ACTIVE. From (37, 22), inspect the shallow puddle (cols 32-35, rows 21-23), northern wall, and western walkway towards (22, 20) for any hidden objects, switches, or interactable tiles.
+  - **Milestone 2 (Upper Landing & Puddle Physical Audit)**: COMPLETED. Confirmed shallow puddle is empty, and column 31 is a solid architectural block with no direct western passage.
+  - **Milestone 3 (Lower Floor & Western Catwalk Audit)**: ACTIVE. Descend stone stairs at (34, 24-27) to lower sewer floor at row 28, then advance along lower corridor toward western platform and elevated gangways.
