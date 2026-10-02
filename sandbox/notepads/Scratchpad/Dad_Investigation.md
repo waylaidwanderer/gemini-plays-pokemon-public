@@ -18,7 +18,7 @@
 - **Route 1 Overworld & Cottage NPC Re-audit (Turns 17983-18031)**: 100% audited. All trainers and residents repeat static baseline dialogue with zero post-tremor changes or story triggers:
   1. Bug Catcher Duke (45, 12): "You really must be something to be able to counter my defense..." (verified Turn 17983).
   2. Lass Sonia (27, 15): "Hmm, more harmony maybe?" (verified Turn 18010).
-  3. Youngster Mike (29, 20): "My Pokémon was completely destroyed by yours..." (verified Turn 18014).
+  3. Youngster Mike (29, 20): "My Pokï¿½mon was completely destroyed by yours..." (verified Turn 18014).
   4. Cottage Boy (4, 9 / 6, 7): "Now that you got your sample, go and enjoy freedom!" (verified Turn 18031).
   Concluded: Route 1 contains zero active progression triggers.
 
@@ -27,3 +27,6 @@
 - **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
 - **Investigation Targets**:
   1. Sovio City & Metro Focus: Return to Sovio City to investigate unaddressed vectors around the Metro Station, Central Plaza, and the Sewers.
+## Reflection & Status Audit (Turn 18112)
+- **Sovio PokÃ©mon Center**: Nurse Joy healing sequence 100% completed. Sovio City checkpoint officially registered. Party fully restored.
+- **Terrace & Central Plaza Inspection**: Proceeding from Central Plaza (44, 13) to elevated wooden terrace (rows 13-17, columns 47-51) above the Metro portal to re-audit Nana's house and terrace bounds.

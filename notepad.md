@@ -735,5 +735,8 @@
 - **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
 - **Investigation Targets**:
   1. Sovio City & Metro Focus: Return to Sovio City to investigate unaddressed vectors around the Metro Station, Central Plaza, and the Sewers.
+## Reflection & Status Audit (Turn 18112)
+- **Sovio Pokémon Center**: Nurse Joy healing sequence 100% completed. Sovio City checkpoint officially registered. Party fully restored.
+- **Terrace & Central Plaza Inspection**: Proceeding from Central Plaza (44, 13) to elevated wooden terrace (rows 13-17, columns 47-51) above the Metro portal to re-audit Nana's house and terrace bounds.
 
 <hr>
