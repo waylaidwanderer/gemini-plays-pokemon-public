@@ -705,7 +705,7 @@
 - **Sovio City Surface Exhausted**: All residences (Karate House, Gumball House, North Wii House, Terrace House, Name Rater) and public sector NPCs/fixtures (Bikers, Rocky, street lamps, signposts, terrace boundaries) verified ambient with zero story advancement.
 - **Sovio Sewers Storage Room at (37, 14)**: Verified ambient ("Its a simple storage room..."). Settled as inert without a new variable (key item or equipment). Under the Burden of Proof, blind re-testing is prohibited.
 - **Route 1 Column 52 Hedge**: Probed (52, 13); confirmed solid hedge collision at rows 14-16 with embedded rock spire. Column 52 does not continue south directly.
-- **Route 1 & Lancio Town Audit (Hypothesis H24 - Settled: FAILED)**: All 5 milestones completed. Conclusively audited Route 1 (Duke's meadow, row 9 bypass, Northwest clearing with Sonia & Mike, Sand highway, cottage, southern corridor) and Lancio Town (all residents, Professor Ivo's Lab, harbor pier, and Pokémon Center mezzanine PokéMart). Zero story advancement, NPCs, or progression triggers exist outside Sovio City.
+- **Route 1 & Lancio Town Audit (Hypothesis H24 - Settled: FAILED)**: All 5 milestones completed. Thoroughly audited all accessible surface pathways, residents, and facilities across Route 1 and Lancio Town (excluding HM Cut at (5, 44), water-gated terrain at (38, 4), and locked lab basement stairs at (12, 7)). Progression triggers for locating Jackson are confirmed localized to Sovio City or its subterranean sectors.
 
 ## Active Hypotheses for Progression
 
@@ -720,6 +720,5 @@
   - **Milestone 3 (Unchecked Sewers Topography & Equipment Sources)**:
     1. Re-examine the cutscene origin: If Jackson was held by grunts in a storage room, verify whether another door or passage exists that was overlooked (e.g. elevated walkways, hidden ladders).
     2. Investigate the "Equipment" mechanic: Determine where specialized rock-smashing equipment is obtained in Sovio City to clear the rugged rocks at (10, 18) and (22, 10).
-
 
 <hr>
