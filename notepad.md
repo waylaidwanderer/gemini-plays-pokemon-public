@@ -718,4 +718,11 @@
   - **Milestone 3 (Lower Floor & Western Catwalk Audit)**: COMPLETED. Re-traversed row 28, western stairs (14, 17), terrace (14, 12), ladder (15, 6-10), and northern gangway (row 5) to bridge (23, 6). Confirmed zero interactive objects, switches, or NPCs exist on these corridors.
 - **Conclusion**: The entire Sovio Sewers network is fully audited and static. Rugged rocks remain gated by equipment, and the storage room is inert ("Its a simple storage room..."). Progress must be triggered on the surface or via unexplored game mechanics. Returning to Sovio City.
 
+### Hypothesis H29: Central Park Dating Couple Investigation
+- **Premise**: Two NPCs in Central Park (the boy at 33, 20 and the blonde girl at 43-45, 23-26) have reciprocal dialogue stating they were supposed to meet someone by the pond and wondering if they were catfished. We test whether interacting with them sequentially initiates a side quest (such as 'Valentines Gift'), yields an item/equipment, or triggers progression dialogue.
+- **Milestones**:
+  - **Milestone 1 (Locate & Speak to Blonde Girl)**: ACTIVE. Walk south along column 44 to (44, 21-25) and interact with the wandering blonde girl.
+  - **Milestone 2 (Locate & Speak to Pink-Shirt Boy)**: Path around pond north of bank to (33, 20) and interact with the boy in pink shirt.
+  - **Milestone 3 (Verify Quest / Trigger Outcome)**: Check dialogue changes, HuPhone quest status, and inventory.
+
 <hr>
