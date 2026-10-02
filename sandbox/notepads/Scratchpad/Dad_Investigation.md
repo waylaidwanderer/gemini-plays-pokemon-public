@@ -28,8 +28,8 @@
 ### Hypothesis H26: Sovio City Surface Systematic Search for Valora & Jackson Triggers
 - **Premise**: With the sewer storage room (37, 14) currently inactive and western routes exhausted, the immediate story progression triggers are localized to Sovio City surface (finding Valora, investigating equipment sources for rugged rocks, and locating Jackson). A systematic, tile-by-tile audit of the Metro lobby perimeter, Central Plaza, elevated terrace, Pok�mon Center, and city residences is required to locate Valora and find Jackson's trail.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Ascend to Metro Station Lobby)**: Return from Sovio Sewers via the (38, 22) staircase to the Metro lobby at (23, 24).
-  - **Milestone 2 (Audit Metro Lobby Accessible Perimeter)**: Systematically walk and inspect the eastern waiting area (cols 24-28, rows 21-25) and western seating alcove (cols 15-18).
-  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: Re-examine Central Plaza outside the Pok�mon Center and inspect the elevated terrace at (47-51, 13-17) and Nana's house (49, 14).
+  - **Milestone 1 (Ascend to Metro Station Lobby)**: COMPLETED (Turn 17232). Arrived at (23, 24) on exit mat via autonomous subagent sewer_transit.
+  - **Milestone 2 (Audit Metro Lobby Accessible Perimeter)**: COMPLETED (Turn 17232). Verified entire accessible lobby from (23, 24): zero NPCs present, turnstile still prompts "I should find dad first!", Valora is absent.
+  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: ACTIVE. Ascend to Central Plaza (48, 18), inspect the elevated terrace (47-51, 13-17), and check Nana's residence (49, 14).
   - **Milestone 4 (Audit Pok�mon Center 1F & 2F Mezzanine)**: Inspect every NPC inside the Pok�mon Center for Valora or updated story dialogue.
   - **Milestone 5 (Audit Sovio City Residential Row & Route 2 Border)**: Check all residential homes (Karate, Gumball, Wii, Name Rater) and the Route 2 border structure for updated triggers.
