@@ -8,7 +8,6 @@
 ## Settled Inquiries
 - **Sovio Metro Turnstile & Sewer Storage Room (H25)**: Turnstile (19, 21) remains blocked by "I should find dad first!". Sewer storage room mat (37, 14) confirmed walkable but south transition is impassable/inactive ("Its a simple storage room...").
 - **Route 1 & Lancio Town Audit (H24)**: Traversal verified devoid of active triggers for Jackson.
-- **Route 1 Column 52 Hedge**: Probed (52, 13); solid collision at rows 14-16.
 - **Karate House (14, 15)**: Audited Turn 17282-17297. Karate trainer, girlfriend, and Machop all confirmed 100% ambient flavor.
 
 ## Active Hypotheses for Progression
