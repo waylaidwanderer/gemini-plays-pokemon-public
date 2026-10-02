@@ -22,10 +22,11 @@
   - Grunt 2's platform (17-18, 21-22): 100% audited. Zero dropped keys, items, or hidden mechanisms present.
   - Western Terrace (12-17, 11-12): 100% audited. Zero dropped keys, items, or hidden switches present.
   - Northern Gangway (row 5, cols 15-25): 100% audited. Alcove (23, 4) and dead-end (25, 5) contain zero dropped keys, items, or switches.
+  - Column 23 Bridge (rows 6-12): 100% audited. Zero dropped keys or items.
 - **Plan**:
   1. Exit Pokémon Center to Sovio City (Complete).
   2. Enter Sovio Sewers via Metro Station mat at (18-19, 25) (Complete).
   3. Inspect Grunt 2's platform (18, 21-22) (Complete, 0 items).
   4. Inspect rugged rock (10, 18) and Western Terrace (Complete, 0 items).
-  5. Audit Northern Gangway (row 5) (Complete, 0 items).
-  6. Audit vertical bridge (col 23) and row 13 catwalk (In progress).
+  5. Audit Northern Gangway (row 5) and Bridge (Complete, 0 items).
+  6. Audit row 13 catwalk and column 30 causeway (In progress).
