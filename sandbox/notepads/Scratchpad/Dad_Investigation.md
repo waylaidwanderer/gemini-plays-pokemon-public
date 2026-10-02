@@ -18,3 +18,8 @@
   1. Southern Avenue North: Walk north from (15, 39) along columns 14-15 to row 28 stone curb.
   2. Central Plaza Confrontation Site: Inspect the plaza area outside the Pokémon Center (41-46, 12-18) where Mother's Eclipse Pidgey confrontation occurred.
   3. Central Park & Metro Surroundings: Probe park perimeter (rows 18-30, cols 32-46) and Metro entrance area for any unresolved clues or trigger tiles.
+
+## Grounded Metro Station Audit (Turn 18442)
+- **Turnstile Physical Geometry**: Bounded by scanner pillars at (18, 21) and (20, 21). Passage is strictly 1 tile wide at (19, 21).
+- **Lobby Population**: Confirmed zero NPCs present (neither Jackson nor Valora are in the lobby).
+- **Turnstile Trigger**: Moving north onto (19, 21) triggers "I should find dad first!" and pushes Asher south to (19, 22). Platform waiting area (vending machine, blue seats) remains blocked until Jackson's event flag resolves.
