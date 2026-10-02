@@ -36,8 +36,8 @@
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
     3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
-    4. Medic! (Listed on page 1; uninspected)
-    5. Squirtle Gang (Listed on page 1; uninspected)
+    4. Medic! (Uncompleted; displays "This Quest hasn't been completed yet!")
+    5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
   - **Page 2 Quests (Audited Turn 14867)**:
     6. Lost Eevee
     7. Kaboom

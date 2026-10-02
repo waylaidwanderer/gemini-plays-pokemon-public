@@ -182,7 +182,7 @@
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated. Post-defeat ambient dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
 - **NPC 7 (Boy in Grass)**: Located around (11-12, 48-50) near Central Pine Tree, wandering. Dialogue: "I gotta be careful when I walk around in the tall grass...".
-- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. single room with no rear exits or stairs; resident boy provides ambient dialogue.
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Single room with no rear exits or stairs; resident boy provides ambient dialogue.
 - **NPC 3 (Science Guy)**: Located around (39-41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?". Clearing terminates east at column 42 in solid pine forest and coastal shoreline with zero eastern passages.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads 'Warning! Be on the lookout for Pokémon Trainers who want to fight.'
   - **Cottage Bypass Collision Note**: Tile (40, 26) is solid signpost collision blocking direct westward traversal from (41, 26). Traversal west toward the Sand Highway must step Up to row 25 (open dirt north of signpost at 40, 25), then proceed west across columns 40-36.
@@ -275,7 +275,7 @@
 ## Southeast Corridor & Central Park
 - **Central Park Pond Feature**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
-- **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone .
+- **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone.
 
 - **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?" Confirmed 100% ambient humor dialogue and counterpart to the blonde girl at (43-45, 23-26).
 - **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (33, 20).
@@ -595,8 +595,8 @@
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
     3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
-    4. Medic! (Listed on page 1; uninspected)
-    5. Squirtle Gang (Listed on page 1; uninspected)
+    4. Medic! (Uncompleted; displays "This Quest hasn't been completed yet!")
+    5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
   - **Page 2 Quests (Audited Turn 14867)**:
     6. Lost Eevee
     7. Kaboom
@@ -706,7 +706,7 @@
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Field obstacle clearance requires specialized player equipment rather than traditional HM moves. Zero equipment currently in possession.
 
 ## Settled & Exhausted Inquiries
-- **Sovio Sewers 100% Cleared**: Grunt 2 platform (18, 21-22), Western Terrace (cols 11-17, rows 11-12), Northern Gangway (row 5, cols 14-25), Eastern Storage Room platform (36-38, 12-14), column 23 vertical bridge, column 30 causeway, Dark Sector / Basement, Deep Subterranean room, Lower Eastern Walkway (cols 34-37, rows 28-32), and Southern Canal corridor (cols 10-22, rows 32-36). All grunts retreated on Turn 2682; Team Siara grunts retreated on Turn 2682. Jackson is not present in the sewer corridors or storage room. No items, hidden triggers, or NPCs remain in Sovio Sewers. Sewers inquiry is permanently CLOSED.
+- **Sovio Sewers 100% Cleared**: Grunt 2 platform (18, 21-22), Western Terrace (cols 11-17, rows 11-12), Northern Gangway (row 5, cols 14-25), Eastern Storage Room platform (36-38, 12-14), column 23 vertical bridge, column 30 causeway, Dark Sector / Basement, Deep Subterranean room, Lower Eastern Walkway (cols 34-37, rows 28-32), and Southern Canal corridor (cols 10-22, rows 32-36). All grunts retreated on Turn 2682. Jackson is not present in the sewer corridors or storage room. No items, hidden triggers, or NPCs remain in Sovio Sewers. Sewers inquiry is permanently CLOSED.
 - **Audited Domestic Buildings & Public Sector**: Karate House (14, 15), Gumball House (29, 14), North House (39, 7), Terrace House (49, 14), South Commercial Building (47-51, 20-22), Tan Building facade (32-37, 12), Bikers (13, 21-23), Rocky (24, 17), Metro lobby (cols 15-24). All confirmed static ambient entities.
 
 ## Active Hypotheses for Dad & Progression
