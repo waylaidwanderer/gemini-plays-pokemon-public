@@ -6,23 +6,17 @@
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Requires specialized equipment not yet obtained.
 
 ## Settled Inquiries
-- **Route 1, Lancio Town & Inizio Isle**: 100% audited; verified devoid of active triggers for Jackson.
 - **Sovio Sewers & Eastern Platform**: 100% audited. Corridors cleared of grunts. Storage platform (36-38, 12-14) confirmed to contain solely the static decorative text "Its a simple storage room.." at (37, 14). Zero NPCs, items, or keys present.
+- **Sovio City West Avenue**: Audited Turns 18285-18332. Boy Rocky (23, 17) & Rocky (24, 17) baseline flavor; Karate house (14, 15) 1F martial arts debate, 2F empty; 3 Bikers (13, 21-23) baseline motorcycle gang dialogue; office building wall (col 11) solid. Confirmed zero progression triggers on West Avenue.
 - **Inventory & System Audit**: Bag items (Items, Balls, TMs, Key Items), party moves (Sirius, Zephyr), Trainer Card, and PC audited. Zero unexamined progression items or field moves present.
-- **Commercial Building Roof Passage (rows 20-22, cols 47-51)**: Covered passage connects to Route 2 barrier at (52, 22). Zero doors or triggers.
 
 ## Active Hypotheses for Progression
-### Hypothesis H40: Sovio City Surface Re-evaluation & Unresolved Triggers (Start: Turn 18242)
-- **Premise**: Jackson ran outside into Sovio City to investigate the tremor. With the sewers, Route 1, and Bag inventory fully audited, the progression trigger must reside on the surface of Sovio City.
+### Hypothesis H41: Regional Facilities & Professor Ivo's Lab Investigation (Start: Turn 18332)
+- **Premise**: Jackson investigating the regional threat of the Eclipse Project may have coordinated with Professor Ivo, or the basement of Professor Ivo's Pokémon Laboratory in Lancio Town may now be accessible following Team Siara's retreat from the sewers.
 - **Investigation Targets**:
-  1. Metro Lobby & Turnstile Re-test [VERIFIED ACTIVE]: Tested (19, 21) post-sewer clearance; triggers 'I should find dad first!' and forces player to (19, 22). Gate remains blocked.
-  2. Central Plaza: Inspect the plaza area outside the Pokémon Center where the initial confrontation with Mother occurred.
-  3. West Avenue & Unexamined Buildings [IN PROGRESS]:
-     - Tan building shutters (34-35, 12): Tested collision & interaction; confirmed 100% solid decorative facade with zero text.
-     - Boy Rocky (23, 17): Spoken to; repeats baseline dialogue ("This is my partner, Rocky! He's the best...").
-     - Partner rock (24, 17): Inspected; confirmed displays "It's just a normal rock...".
-     - Karate house (14, 15): 1F Karate trainer & girlfriend repeat baseline martial arts debate text (zero tremor reaction); 2F audited 100% empty (no NPCs/items). House cleared.
-     - Biker 1 (13, 21): Spoken to; repeats baseline motorcycle gang text (zero tremor reaction).
-     - Biker 2 (13, 22): Spoken to; identical "vroom" text; confirming baseline.
-     - Next: Biker 3 (13, 23), rear lane (col 12) down to row 30, and office building facade (col 11).
-  4. Central Park & Outdoor NPCs: Re-verify whether any outdoor residents react to the post-tremor situation.
+  1. Dismiss Biker 2 text and exit Sovio City south via Southern Avenue (cols 14-15, rows 28-41) onto Route 1.
+  2. Travel across Route 1 to Lancio Town, observing any changes at Route 1 landmarks (Cottage, Cut Tree at 5, 44).
+  3. Enter Professor Ivo's Pokémon Laboratory in Lancio Town:
+     - Test descending basement staircase at (12, 7) to check if the barrier ("I probably shouldn't head down here...") has lifted.
+     - Speak with Professor Ivo at (20, 6) for updated story dialogue regarding Dad and the Eclipse Project.
+  4. Check Lancio Town harbor dock (32-34, 23-26) for Harry's boat status.
