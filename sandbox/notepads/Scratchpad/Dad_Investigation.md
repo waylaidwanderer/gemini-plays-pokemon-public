@@ -14,9 +14,9 @@
 ### Hypothesis H11: Sovio Sewers Unexamined Sectors & Drop Sites Audit
 - **Premise**: Team Siara grunts retreated on Turn 2682. In Gen 3 engine design, unexamined platforms (Grunt 2 platform at 18, 21-22, Western Terrace at 11-15, rows 11-16, and row 5 gangway) may contain the story trigger or captive Dad.
 - **Test 1 (Grunt 2 Platform at 18, 21-22)**: AUDITED (Turn 16229/16231). Tiles (18, 22) and (18, 21) probed facing all 4 directions with 'A'; confirmed 100% bare floor with zero items or hidden triggers.
+- **Test 2 (Western Terrace at 12-17, rows 11-12)**: AUDITED (Turn 16240-16250). Probed floor and perimeter walls; confirmed bare terrace with wild encounters (Dunsparce), zero items, switches, or story triggers.
 - **Active Tests**:
-  1. Western Terrace (cols 11-15, rows 11-16) and Western Stairs (14, 17): probe all tiles, walls, and potential doorway warps.
-  2. Northern Gangway along row 5: probe north wall and gangway tiles.
-  3. Eastern platform at (36-38, 12-14): re-verify storage room surroundings.
+  1. Northern Gangway along row 5: IN PROGRESS. Currently at (14, 4); traversing row 5 East toward column 23 to test north wall and verify column 23 connectivity.
+  2. Eastern platform at (36-38, 12-14): re-verify storage room surroundings.
 - **Pass Criteria**: Discovery of an interactable trigger, NPC, or dialogue advancing the search for Dad.
 - **Fail Criteria**: All tested platforms and floor tiles are completely bare with zero items or triggers.
