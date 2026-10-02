@@ -712,8 +712,8 @@
 ### Hypothesis H27: Sovio City Outdoor Southern Perimeter & Equipment Vector Audit
 - **Premise**: With civic facilities (Metro lobby, PokeCenter 1F & 2F) and indoor residences fully audited, the remaining physical outdoor territory in Sovio City is the southern perimeter (rows 27-31 south of Central Park pond and the southeast corridor). We must execute a grounded physical traversal of this area to verify all outdoor tiles, NPCs, and boundaries before drawing conclusions.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Exit Metro Station to Central Plaza)**: ACTIVE. Take stairs at (24, 24) to emerge outside at (48, 17).
-  - **Milestone 2 (Physical Traversal of Southern Sidewalk & Central Park South)**: Path south along columns 44-46 to rows 27-31. Physically traverse rows 27-28 west to column 33, inspect the dead-end hedge alcove at (42, 30), and verify the building perimeter at (47-51, 28-31).
+  - **Milestone 1 (Exit Metro Station to Central Plaza)**: COMPLETED (Turn 17374). Ascended stairs at (24, 24) and emerged outside in Central Plaza at (48, 17).
+  - **Milestone 2 (Physical Traversal of Southern Sidewalk & Central Park South)**: ACTIVE. Path south along columns 44-46 to rows 27-31. Physically traverse rows 27-28 west to column 33, inspect the dead-end hedge alcove at (42, 30), and verify the building perimeter at (47-51, 28-31).
   - **Milestone 3 (Route 2 Barrier Re-Verification & Boundary Audit)**: Inspect the eastern corridor leading to the Route 2 barrier at (52, 19-22) under the building overhang to confirm state and check for any outdoor event triggers.
 
 <hr>
