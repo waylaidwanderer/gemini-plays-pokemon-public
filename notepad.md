@@ -162,7 +162,7 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway (completed quest location; ambient advice).
+- **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway.
 - **NPC 2 (Camper/Straw Hat)**: Located at (18, 43) facing south in front of Signboard 2 at (19, 42). Dialogue: "Haha! Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away.".
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass.
@@ -199,7 +199,12 @@
   - Columns 52-53 connect south from Sovio City (53, 0) to row 12 in the northeast meadow.
   - South of row 12: Column 52 dead-ends at row 13 into dense horizontal hedges (rows 14-16) and a conical rock spire.
   - Duke Meadow & Connector: Row 12 is an open corridor connecting column 52 west across columns 45-51 into Duke's meadow at (45, 12).
-  - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. 
+  - Row 11 Canopy Obstacle: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision.
+  - Row 9 Bypass Corridor: Walkable connector from row 11 to Duke's Meadow:
+    - From (31, 11), follow row 11 east to (35, 11).
+    - Ascend north through (35, 10) to row 9 at (35, 9).
+    - Follow row 9 east across columns 35-44 to (44, 9).
+    - Descend south through (44, 10-11) into Duke's Meadow at (45, 12). 
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
   - Cottage West Corridor & Column 30 Hedge Opening: From the Cottage yard along row 26, the corridor runs west past columns 34-31 to column 30. Column 30 corridor connects north through rows 25-21 to (30, 21), where row 20 is blocked north by a solid pine tree trunk at (30, 20).
@@ -381,7 +386,7 @@
 
   - Karate trainer at (3, 34) and blonde girlfriend at (3, 33) having a debate over whether karate or kickboxing is better.
 
-  - Family Machop at (6-7, 33-35); permanently displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...' regardless of quest status (separate from Old Man's terrace Machop).
+  - Family Machop at (6-7, 33-35); permanently displays 'Machop: Chop Chop!' followed by 'He seems a bit agressive...'.
 
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 
@@ -701,7 +706,7 @@
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Field obstacle clearance requires specialized player equipment rather than traditional HM moves. Zero equipment currently in possession.
 
 ## Settled Inquiries
-- **Sovio City Surface Exhausted**: All residences (Karate House, Gumball House, North Wii House, Terrace House, Name Rater) and public sector NPCs/fixtures (Bikers, Rocky, street lamps, signposts, terrace boundaries) verified ambient with zero story advancement.
+- **Sovio City Surface Initial Exploration**: All 5 residential buildings, interior residents, and public fixtures (Bikers, Rocky, street lamps, signposts) were checked during early exploration and confirmed ambient. Specific post-retreat event triggers (such as locating Valora or examining the Metro turnstile state after Marie's radio order) remain to be systematically verified.
 - **Sovio Sewers Storage Room at (37, 14)**: Verified ambient ("Its a simple storage room..."). Settled as inert without a new variable (key item or equipment). Under the Burden of Proof, blind re-testing is prohibited.
 - **Route 1 Column 52 Hedge**: Probed (52, 13); confirmed solid hedge collision at rows 14-16 with embedded rock spire. Column 52 does not continue south directly.
 - **Route 1 & Lancio Town Audit (Hypothesis H24 - Settled: FAILED)**: All 5 milestones completed. Thoroughly audited all accessible surface pathways, residents, and facilities across Route 1 and Lancio Town (excluding HM Cut at (5, 44), water-gated terrain at (38, 4), and locked lab basement stairs at (12, 7)). Progression triggers for locating Jackson are confirmed localized to Sovio City or its subterranean sectors.

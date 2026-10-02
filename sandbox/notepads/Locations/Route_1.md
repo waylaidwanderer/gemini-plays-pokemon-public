@@ -11,7 +11,7 @@
 
 ## Wild Encounters & Overworld NPCs
 - **Tall Grass Patches**: Located at columns 5-9 and 11+ along rows 44-49.
-- **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway (completed quest location; ambient advice).
+- **NPC 1 (Blue Cap & Pidgey)**: Boy in blue backwards cap at (34, 37) with Pidgey at (33, 37) on the Sand Highway.
 - **NPC 2 (Camper/Straw Hat)**: Located at (18, 43) facing south in front of Signboard 2 at (19, 42). Dialogue: "Haha! Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away.".
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass.
@@ -48,7 +48,12 @@
   - Columns 52-53 connect south from Sovio City (53, 0) to row 12 in the northeast meadow.
   - South of row 12: Column 52 dead-ends at row 13 into dense horizontal hedges (rows 14-16) and a conical rock spire.
   - Duke Meadow & Connector: Row 12 is an open corridor connecting column 52 west across columns 45-51 into Duke's meadow at (45, 12).
-  - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. 
+  - Row 11 Canopy Obstacle: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision.
+  - Row 9 Bypass Corridor: Walkable connector from row 11 to Duke's Meadow:
+    - From (31, 11), follow row 11 east to (35, 11).
+    - Ascend north through (35, 10) to row 9 at (35, 9).
+    - Follow row 9 east across columns 35-44 to (44, 9).
+    - Descend south through (44, 10-11) into Duke's Meadow at (45, 12). 
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
   - Cottage West Corridor & Column 30 Hedge Opening: From the Cottage yard along row 26, the corridor runs west past columns 34-31 to column 30. Column 30 corridor connects north through rows 25-21 to (30, 21), where row 20 is blocked north by a solid pine tree trunk at (30, 20).

@@ -6,7 +6,7 @@
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Field obstacle clearance requires specialized player equipment rather than traditional HM moves. Zero equipment currently in possession.
 
 ## Settled Inquiries
-- **Sovio City Surface Exhausted**: All residences (Karate House, Gumball House, North Wii House, Terrace House, Name Rater) and public sector NPCs/fixtures (Bikers, Rocky, street lamps, signposts, terrace boundaries) verified ambient with zero story advancement.
+- **Sovio City Surface Initial Exploration**: All 5 residential buildings, interior residents, and public fixtures (Bikers, Rocky, street lamps, signposts) were checked during early exploration and confirmed ambient. Specific post-retreat event triggers (such as locating Valora or examining the Metro turnstile state after Marie's radio order) remain to be systematically verified.
 - **Sovio Sewers Storage Room at (37, 14)**: Verified ambient ("Its a simple storage room..."). Settled as inert without a new variable (key item or equipment). Under the Burden of Proof, blind re-testing is prohibited.
 - **Route 1 Column 52 Hedge**: Probed (52, 13); confirmed solid hedge collision at rows 14-16 with embedded rock spire. Column 52 does not continue south directly.
 - **Route 1 & Lancio Town Audit (Hypothesis H24 - Settled: FAILED)**: All 5 milestones completed. Thoroughly audited all accessible surface pathways, residents, and facilities across Route 1 and Lancio Town (excluding HM Cut at (5, 44), water-gated terrain at (38, 4), and locked lab basement stairs at (12, 7)). Progression triggers for locating Jackson are confirmed localized to Sovio City or its subterranean sectors.
