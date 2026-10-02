@@ -20,4 +20,8 @@
 ### Hypothesis H39: Storage Room Key / Access Mechanism Investigation
 - **Premise**: Jackson was explicitly shown held captive in a sewer storage room in the cutscene. The door at (37, 14) displays "Its a simple storage room..." and has solid collision to the south, indicating it is locked/inaccessible from the outside without a key, event flag, or specific unlock mechanism. All civilian residences (Karate, Gumball, Nana, Wii, Name Rater) are confirmed ambient.
 - **Question**: Where is the key or mechanism to unlock the storage room door at (37, 14)?
-- **Candidates**: 1. Metro Station attendant at (22, 18-19) / ticket counter. 2. Valora's current location post-tremor. 3. Equipment to smash rugged rocks blocking alternate corridors. 4. Storage room platform north alcove at (37, 12).
+- **Candidates**: 
+  1. Metro Station attendant / ticket counter: Falsified (Turn 17901 - platform is physically empty; no attendant exists on platform).
+  2. Valora's current location post-tremor.
+  3. Equipment to smash rugged rocks blocking alternate corridors.
+  4. Storage room platform north alcove at (37, 12).
