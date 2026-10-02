@@ -702,9 +702,9 @@
 - **Hypothesis D3 (Sovio City Specific Unexamined Variables & Narrative Triggers)**:
   - **Rationale**: With Lancio Town conclusively and exhaustively audited as negative, the progression gate to resolve the turnstile blocker ("I should find dad first!") must reside in Sovio City, where Dad ran during the tremor. Rather than vague exploration, we execute a strict, coordinate-anchored protocol targeting specific unexamined variables:
   - **Protocol & Target Coordinates**:
-    1. **Target D3.1: Metro Station Lobby & Turnstile Barrier Re-verification**:
+    1. **Target D3.1: Metro Station Lobby & Turnstile Barrier Re-verification (RE-VERIFIED ACTIVE Turn 15747)**:
        - Coordinates: (19, 21) in Sovio Metro Station lobby.
-       - Test: Approach turnstile from (19, 22) facing North. Verify if blocker text ("I should find dad first!") remains active with the side quest log fully resolved.
+       - Results: Stepping onto (19, 21) from (19, 22) triggers verbatim "I should find dad first!" and forces Asher 1 step Down. Confirmed 100% active with zero active side quests.
     2. **Target D3.2: Karate House Post-Quest Interaction (SETTLED & ARCHIVED Turn 15739)**:
        - Results: Karate trainer at (3, 34) and girlfriend at (3, 33) tested post-quest. They repeat their static karate vs kickboxing debate dialogue. Family Machop at (7, 34) remains ambient. Confirmed 100% ambient flavor; zero quests, equipment, or story triggers.
     3. **Target D3.3: Confrontation Plaza & Surroundings (SETTLED & ARCHIVED Turn 15727)**:
