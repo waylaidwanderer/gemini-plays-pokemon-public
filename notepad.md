@@ -67,7 +67,7 @@
 
 - **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story (no northwest mezzanine staircase or PokéMart clerk).
 
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
+- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12). Confirmed 100% static post-sewers (Turn 16957).
 
 - **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); solid building foundation with no accessible doors or entrance.
 
@@ -714,7 +714,7 @@
   - **Milestone 2 (Northwest Clearing Audit) [COMPLETED]**: Probed Lass Sonia (27, 15) ("Hmm, more harmony maybe?") and Youngster Mike (29, 20) ("My Pok�mon was completely destroyed by yours..."); confirmed their post-defeat dialogue remains ambient with no new prompts.
   - **Milestone 3 (Sand Highway & Cottage Bypass) [COMPLETED]**: Navigated south along column 30, east through row 26 corridor to Sand Highway, and south along Sand Highway past NPC 1 to the hedge gap at (32, 39).
   - **Milestone 4 (Southern Corridor to Lancio Town) [COMPLETED]**: Traversed meadow trail around columnar shrub, passed through column 26 hedge gap, and followed row 44 southern corridor west past Signboard 2, Central Pine Tree, and Signboard 1 to the Lancio Town boundary at (0, 46); confirmed 100% static terrain with zero post-tremor blockers or story barriers. Note: Camper at (18, 43) was bypassed during wild grass transit and not directly engaged in dialogue.
-  - **Milestone 5 (Lancio Town & Southern Terminus) [IN PROGRESS]**: Auditing Lancio Town residents, harbor, and Professor Ivo's Lab. Verified Cap NPC (32, 14), Old Woman (33, 8), and Old Man (32, 8) retain 100% ambient dialogue post-sewers. Audited Professor Ivo at (20, 6) ('Hey, Ashi, how's your new Pok�mon?' - static) and basement stairs at (12, 7) ('I probably shouldn't head down here.' - barrier active). Now auditing remaining accessible Lancio Town structures to ensure empirical completeness under Burden of Proof: Northwest House (25, 10), Harbor Pier (32-34, 23-25), and Lancio Pok�mon Center (37, 14).
+  - **Milestone 5 (Lancio Town & Southern Terminus) [IN PROGRESS]**: Auditing Lancio Town residents, harbor, and Professor Ivo's Lab. Verified Cap NPC (32, 14), Old Woman (33, 8), and Old Man (32, 8) retain 100% ambient dialogue post-sewers. Audited Professor Ivo at (20, 6) ('Hey, Ashi, how's your new Pok�mon?' - static) and basement stairs at (12, 7) ('I probably shouldn't head down here.' - barrier active). Audited Northwest House boy at (44, 4) ('Get out!' - static). Now proceeding to Harbor Pier (32-34, 23-25) and Lancio Pok�mon Center (37, 14) to conclude Milestone 5.
 - **Pass Criteria**: Discover new dialogue, an active event trigger, a key progression item (e.g. equipment or HM), or an accessible path to advance the main story.
 - **Fail Criteria**: Complete uninterrupted traversal across all 5 milestones yields only previously documented static dialogue and obstacles.
 
