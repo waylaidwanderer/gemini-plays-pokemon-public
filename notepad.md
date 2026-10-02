@@ -198,7 +198,7 @@
 - **Northeast Meadow & Dead-End Bounds**:
   - Columns 52-53 connect south from Sovio City (53, 0) to row 12 in the northeast meadow.
   - South of row 12: Column 52 dead-ends at row 13 into dense horizontal hedges (rows 14-16) and a conical rock spire.
-  - Duke Meadow & Connector: Row 12 is an open corridor connecting column 52 west across columns 45-51 into Duke's meadow at (45, 12).
+  - Duke Meadow & Western Gateway: Row 12 connects column 52 west to Duke at (45, 12). From (46, 12), stepping Up to (46, 11), Left to (45, 11), and Up to (45, 10) connects directly west across columns 44-35 via the Row 9/10 Bypass Corridor into the rest of Route 1.
   - Row 11 Canopy Obstacle: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision.
   - Row 9 Bypass Corridor: Open horizontal corridor connecting row 11 at (35, 11) via (35, 9-10) eastward across columns 35-44 into Duke's Meadow at (45, 12).
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
