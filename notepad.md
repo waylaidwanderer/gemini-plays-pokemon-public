@@ -710,14 +710,10 @@
 
 ## Active Hypotheses for Dad & Progression
 
-### Hypothesis H14: Unexamined Mechanics & Attendant Interaction within Sovio City
-- **Premise**: The turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") explicitly indicate unresolved tasks within Sovio City. Past assumptions that the Metro attendant at (22, 19) is 'unreachable' conflated walking collision with interaction capability. In subway stations, attendants are spoken to across counters. Testing direct 'A' interaction across the counter at columns 21-22 evaluates whether ticket issuance, dialogue, or story triggers exist.
-- **Target Coordinates & Results**:
-  1. Sovio Metro Station turnstile (19, 21): Confirmed locked by "I should find dad first!" with 1-tile downward pushback.
-  2. Route 2 entrance barrier (52, 19): Confirmed locked by "I can't go yet... I have things to do!" with 1-tile leftward pushback to (51, 19).
-  3. Metro Station Attendant: Visually verified present on platform side at (22, 19) in blue uniform. However, physically unreachable from lobby side across brick wall and blocked turnstile ('I should find dad first!').
-  4. Sovio City Triggers & Investigation: Systematically probe unexamined tiles, script triggers, and objects in Sovio City to locate Jackson and resolve the progression block.
-- **Pass Criteria**: Locate Jackson, trigger a cutscene/dialogue, or clear the turnstile/Route 2 barrier.
-- **Fail Criteria**: Target entities remain non-interactable without state changes.
+### Hypothesis H20: Professor Ivo Starter Evaluation in Lancio Town
+- **Premise**: All entities in Sovio City and Sovio Sewers are confirmed static/ambient, yet Route 2 ("I can't go yet... I have things to do!") and Metro turnstiles ("I should find dad first!") remain locked. Professor Ivo in Lancio Town repeatedly asks "Hey, Ashi, how's your new Pokémon?". Starter Sirius (Riolu) leveled from Lv5 to Lv15 and learned Mach Punch. In Pokémon design, professors evaluate starter growth to bestow key items, HM field moves, or advance story flags.
+- **Target Coordinates**: Professor Ivo in Lancio Town Laboratory at (20, 6).
+- **Pass Criteria**: Professor Ivo triggers new dialogue, awards an item/move, or advances progression flags.
+- **Fail Criteria**: Professor Ivo repeats the exact 1-line ambient query without change.
 
 <hr>
