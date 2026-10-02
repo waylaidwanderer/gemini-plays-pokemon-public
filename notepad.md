@@ -117,7 +117,7 @@
   - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 
 ## Southwest Beach & Coastline
-- **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-18. Physical perimeter step-tested: westernmost land at (13, 16-17), southern peninsula at (15, 18), and eastern shoreline at (19, 17) are solid natural shorelines bordering open ocean (probed with 'A'; zero hidden warps, docks, or boat triggers).
+- **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-18. Westernmost land at (13, 16-17), southern peninsula at (15, 18), and eastern shoreline at (19, 17) are natural shorelines bordering open ocean.
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
 
 ## Eastern Border & Route 1 Exit
@@ -126,7 +126,7 @@
 
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
 
-- **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested across columns 35-37 at row 21, solid non-enterable collision with no warp or text prompt.
+- **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); non-enterable decorative exterior.
 
 
 
@@ -196,7 +196,7 @@
 - **Northern Sector Boundaries**: Dense pine forest lines rows 5-8 and row 11; row 9 dead-ends west at column 32 against solid pine trees and hedges with no passable western connection to the Northwest Clearing.
 - **Northeast Meadow & Dead-End Bounds**:
   - Columns 52-53 connect south from Sovio City (53, 0) to row 12 in the northeast meadow.
-  - South of row 12: Column 52 dead-ends at row 13 into dense horizontal hedges (rows 14-16) and a conical rock spire. Zero southward passage exists along columns 52-53.
+  - South of row 12: Column 52 dead-ends at row 13 into dense horizontal hedges (rows 14-16) and a conical rock spire.
   - Duke Meadow & Connector: Row 12 is an open corridor connecting column 52 west across columns 45-51 into Duke's meadow at (45, 12).
   - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. Passable traversal requires stepping Up at (35, 11) to the row 9 open grass lane at (35, 9), following row 9 east to column 44, and stepping Down south into Duke's meadow.
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
@@ -237,13 +237,13 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (46, 17), and (35, 23).
 
-- **Park East Border Obstacles**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) (probed with 'A'; confirmed inert with zero items). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
+- **Park East Border Obstacles**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) . Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
-  - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall (probed with 'A'; inert).
+  - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall .
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
-  - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable. Moving Right into (18, 27) is solid foundation wall. Moving Up from (17, 26) into (17, 25) is solid concrete window frame wall. Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
+  - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable.  Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
 
@@ -265,7 +265,7 @@
 - **East Exit Story Barrier**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior.
-  - **Terrace Bounds & Audit**: Tile (51, 15) is open floor (Old Man absent); (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole (inert 'A', Machop absent); (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
+  - **Terrace Bounds & Audit**: Tile (51, 15) is open floor (Old Man absent); (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole (Machop absent); (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
 
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
 
@@ -415,8 +415,8 @@
     - Horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23.
     - Western terminus at (14, 4-5) bordering void chasm at column 13 and row 6.
     - Shallow puddles at (15, 4) and (25, 5).
-    - Northern wall is solid brick along row 4 (columns 16-22). Recessed alcove at (23, 4) ends at solid brick wall at row 3 (probed with 'A'; inert).
-    - Eastern terminus at (25, 5) dead-ends at vertical void chasm at column 26 (probed facing East with 'A'; inert).
+    - Northern wall is solid brick along row 4 (columns 16-22). Recessed alcove at (23, 4) ends at solid brick wall at row 3.
+    - Eastern terminus at (25, 5) dead-ends at vertical void chasm at column 26.
     - Vertical bridge crossing south across the chasm is located at column 23 (rows 6-12).
   - Southwest Corridor & Obstruction: Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 18) and (9, 17) by two diagonal rugged rocks between the row 16 brick wall and row 19 void chasm. Interacting with 'A' facing West into (10, 18) displays verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.'. Both approaches require equipment.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
@@ -460,10 +460,10 @@
   - Eastern corridor (cols 21-30): Northern stone wall at row 8, corridor along row 9 with stairs up at (31, 9) and stone stairs north to upper alcove at (23, 8). Rugged rock obstacle at (22, 10).
   - Western corridor & alcove (cols 13-17): Northern stone wall is at row 7. Row 8 is a walkable corridor connecting columns 13 to 17. Western boundary terminates at solid wall at column 12 (rows 8-9). Southern boundary at row 10.
   - Red capsule mat at (14-15, 9); stepping Down from (15, 9) warps to Deep Subterranean toy room (2, 38). Tile (16, 9) has solid obstacle collision; traversal between western alcove and eastern corridor connects via row 8 (Up from 15, 9 to 15, 8, then east along row 8 to 17, 8, and down to 17, 9).
-- **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). All perimeter walls (north row 2, west col 21, east col 25) probed with 'A'; confirmed 100% solid walls with no secret doors, switches, or NPCs.
+- **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). Perimeter walls (north row 2, west col 21, east col 25) are solid stone walls.
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove.
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
-- **Deep Subterranean Sector**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy. All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A'; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
+- **Deep Subterranean Sector**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy. Perimeter walls (rows 35-38, columns 0-4) are solid walls. Single-purpose quest room.
 - **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal. 100% audited enclosed dead-end rim with solid void to south/east; zero items or warps.
 - **Western Terrace Layout**:
   - Terrace floor extends across columns 12 to 17 on rows 11-12.
