@@ -26,10 +26,10 @@
     2. Investigate the "Equipment" mechanic: Determine where specialized rock-smashing equipment is obtained in Sovio City to clear the rugged rocks at (10, 18) and (22, 10).
 
 ### Hypothesis H26: Sovio City Surface Systematic Search for Valora & Jackson Triggers
-- **Premise**: With the sewer storage room (37, 14) currently inactive and western routes exhausted, the immediate story progression triggers are localized to Sovio City surface (finding Valora, investigating equipment sources for rugged rocks, and locating Jackson). A systematic, tile-by-tile audit of the Metro lobby perimeter, Central Plaza, elevated terrace, Pokémon Center, and city residences is required to locate Valora and find Jackson's trail.
+- **Premise**: With the sewer storage room (37, 14) currently inactive and western routes exhausted, the immediate story progression triggers are localized to Sovio City surface (finding Valora, investigating equipment sources for rugged rocks, and locating Jackson). A systematic, tile-by-tile audit of the Metro lobby perimeter, Central Plaza, elevated terrace, Pokï¿½mon Center, and city residences is required to locate Valora and find Jackson's trail.
 - **Decomposed Milestones**:
   - **Milestone 1 (Ascend to Metro Station Lobby)**: Return from Sovio Sewers via the (38, 22) staircase to the Metro lobby at (23, 24).
   - **Milestone 2 (Audit Metro Lobby Accessible Perimeter)**: Systematically walk and inspect the eastern waiting area (cols 24-28, rows 21-25) and western seating alcove (cols 15-18).
-  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: Re-examine Central Plaza outside the Pokémon Center and inspect the elevated terrace at (47-51, 13-17) and Nana's house (49, 14).
-  - **Milestone 4 (Audit Pokémon Center 1F & 2F Mezzanine)**: Inspect every NPC inside the Pokémon Center for Valora or updated story dialogue.
+  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: Re-examine Central Plaza outside the Pokï¿½mon Center and inspect the elevated terrace at (47-51, 13-17) and Nana's house (49, 14).
+  - **Milestone 4 (Audit Pokï¿½mon Center 1F & 2F Mezzanine)**: Inspect every NPC inside the Pokï¿½mon Center for Valora or updated story dialogue.
   - **Milestone 5 (Audit Sovio City Residential Row & Route 2 Border)**: Check all residential homes (Karate, Gumball, Wii, Name Rater) and the Route 2 border structure for updated triggers.
