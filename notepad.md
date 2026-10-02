@@ -725,6 +725,6 @@
   1. Exit Pokémon Center to Sovio City (Complete).
   2. Enter Sovio Sewers via Metro Station mat at (18-19, 25) (Complete).
   3. Inspect Grunt 2's platform (18, 21-22) (Complete, 0 items).
-  4. Settle wild encounter and inspect northern corridor / western stairs (14, 17).
+  4. Inspect rugged rock (10, 18) and ascend western stairs (14, 17) to audit Western Terrace (In progress).
 
 <hr>
