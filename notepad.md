@@ -686,7 +686,7 @@
 - **Nickname**: Zephyr
 - **Gender**: Male (♂)
 - **Level**: Lv2
-- **Caught**: Route 1 (Turn 532) in standard Poké Ball
+- **Caught**: Route 1 in standard Poké Ball
 - **Nature**: Mild (+Sp. Atk, -Def)
 - **OT / ID**: Asher / 54592
 - **Met**: Route 1 at Lv2
