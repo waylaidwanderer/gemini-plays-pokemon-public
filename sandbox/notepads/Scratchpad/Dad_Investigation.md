@@ -16,7 +16,7 @@
 ### Hypothesis H25: Sovio City Metro Station & Unchecked Subterranean Vectors
 - **Premise**: With the western region (Route 1, Lancio Town, Inizio Isle) conclusively eliminated, the story progression blocker ("I should find dad first!" at the Metro turnstile and "I can't go yet..." at Route 2) is strictly localized to Sovio City or its subterranean sectors. Macro-traversal oscillation back to Lancio is strictly prohibited.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Return Transit to Sovio City)**: Exit Lancio Pokémon Center, navigate east across Route 1, and re-enter Sovio City at row 39.
+  - **Milestone 1 (Return Transit to Sovio City)**: COMPLETED (Turn 17156). Re-entered Sovio City Southern Avenue at (14, 39).
   - **Milestone 2 (Sovio Metro Station Lobby & Valora Search)**:
     1. Valora Search: Systematically check Sovio City Central Plaza, Pokémon Center, and Metro Station accessible lobby for Valora's presence.
     2. Metro Lobby Accessible Perimeter: Audit all accessible tiles in the Metro lobby before the turnstile (scanner pillars, ticket counter, entrance corners).
