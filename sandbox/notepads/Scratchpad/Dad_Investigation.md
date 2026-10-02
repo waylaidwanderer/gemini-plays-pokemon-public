@@ -16,13 +16,16 @@
 - **Metro Station Lobby Audit (H31)**: Lobby 100% audited; west wall chairs (16, 24-25) confirmed inert decorative scenery. Platform visually audited: 4 blue chairs, yellow vending machine, station attendant at (22, 19). Turnstile passage at (19, 21) actively triggers 'I should find dad first!' and forces step back to (19, 22).
 
 ## Active Hypotheses for Progression
-### Hypothesis H32: Inventory, Key Items & System Mechanics Audit
-- **Premise**: Physical overworld audits across Sovio City, Route 1, and Lancio Town confirm Jackson is not an overworld NPC waiting to be spoken to. We systematically audit all Bag pockets, Key Items, and Trainer Card / HuPhone interfaces to test for non-NPC progression triggers or prerequisites.
-- **Verified Inventory State (Turns 17578-17579)**:
-  - **Items Pocket**: Potion x 1, Poison Barb x 1, Antidote x 1.
-  - **Key Items Pocket**: HuPhone, TM Case. Exclusively 2 Key Items present.
-  - Zero rock-smashing equipment, secret keys, or quest progression items exist in inventory.
-- **Milestones**:
-  - **Milestone 1 (Open & Inspect Bag)**: In progress. Items & Key Items audited. Checking remaining pockets (Poké Balls, TMs, Berries).
-  - **Milestone 2 (Inspect Key Items & HuPhone Functions)**: HuPhone verified registered to SELECT; TM Case holds TMs.
-  - **Milestone 3 (Audit Trainer Card & Save/Clock Mechanics)**: Check Trainer Card details and evaluate external conditions.
+### Hypothesis H32: Inventory, Key Items & System Mechanics Audit (Settled)
+- **Verified Inventory State**:
+  - Items Pocket: Potion x 1, Poison Barb x 1, Antidote x 1.
+  - Key Items Pocket: HuPhone (registered to SELECT), TM Case.
+  - Poké Balls Pocket: Timer Ball x 1, Poké Ball x 10.
+  - Conclusion: Zero rock-smashing equipment, secret keys, or quest items exist in inventory; progression is not triggered by passive inventory items.
+
+### Hypothesis H33: Exhaustive Sewer Storage Room & Platform Investigation
+- **Premise**: Cutscene established Jackson was held captive by Team Siara in a sewer storage room. The eastern storage platform (columns 36-38, rows 12-14) was previously checked only once from (37, 14) facing south on Turn 17207. A thorough multi-tile audit of all platform coordinates, facing angles, and potential interaction triggers is required.
+- **Plan**:
+  1. Return to Sovio Sewers via the Metro Station entrance at (18-19, 25).
+  2. Traverse to the Eastern Storage Platform (columns 36-38, rows 12-14).
+  3. Systematically test every walkable platform tile, inspect each wall boundary from all four cardinal directions, and verify whether Jackson or an interactive trigger is accessible.
