@@ -713,14 +713,10 @@
 
 ### Hypothesis H12: Unvisited or Uninteracted Surface Triggers in Sovio City & Route 1
 - **Premise**: Following Team Siara's retreat, Jackson was not found in the accessible sewer areas. Since Jackson is not inside the sewers or the Metro platform, the progression trigger must reside in an unfulfilled overworld requirement or an overlooked NPC interaction.
-- **Sub-hypothesis H12a (Central Park Pond Feature)**:
-  - There is a lavender motif/creature floating in the pond at (39, 18).
-  - Check if any NPC or path interacts with the pond perimeter.
 - **Sub-hypothesis H12b (Quest Engine / Side Quest Prerequisite)**:
   - In Pokémon Sors, the HuPhone tracks quests. Lost Pidgey and Lost Toy are completed.
   - Check whether starting/completing another side quest (or speaking to specific quest givers like the Camper with poisoned Weedle, or Professor Ivo, or the Fisherman) advances the world state or unlocks equipment.
 - **Sub-hypothesis H12c (Re-checking Metro Platform Attendant & Exterior)**:
   - Examine the exact triggers in the Metro lobby and Central Plaza surrounding the station.
-
 
 <hr>
