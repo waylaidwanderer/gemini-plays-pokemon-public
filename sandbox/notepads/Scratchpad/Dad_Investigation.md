@@ -17,17 +17,12 @@
 - **Sewer Storage Room & Platform Audit (H33)**: Fully audited platform (36-38, 12-14); doorway at (37, 14) is an inactive warp that bumps and displays "Its a simple storage room...". Platform tiles (37, 12 alcove; 38, 13-14 floor; 36, 14 void) contain zero items or switches. Doorway is currently inactive/locked from the outside.
 - **West Avenue Exterior Landmarks (H34)**: Boy Rocky at (23, 17) and partner rock at (24, 17) re-verified static flavor text ("Rocky: ...", "It's just a normal rock..."). Southwest lawn (12-13, 30) verified dead-end pine boundary with zero items or hidden triggers.
 
-## Active Hypotheses for Progression
-### Hypothesis H35: Central Park Pond Shoreline Interaction
-- **Premise**: In `Locations/Sovio_City.md`, a round lavender floating creature/motif at (39, 18) in the north pond water was previously dismissed as "out of reach (2 tiles away from 39, 16)". However, tile (39, 17) is the shoreline bank directly adjacent to (39, 18). Testing from (39, 17) facing South will determine whether this is an interactive entity (such as a water Pokémon or story trigger) reachable on foot.
-- **Falsification Criteria**: If tile (39, 17) is impassable water collision, or if interacting South from (39, 17) produces zero textbox/trigger, the pond feature is confirmed non-interactive on foot.
-- **Plan**:
-  1. Walk North along Southern Avenue to row 17.
-  2. Walk East to column 39 at (39, 17).
-  3. Face South toward (39, 18) and press A.
+- **Central Park Pond Feature (H35)**: Tested Turn 17705-17708. North curb/bank at (39, 17) has solid collision from row 16; interacting South into (39, 18) yields zero text. Confirmed non-interactive on foot.
 
-### Hypothesis H36: Storage Room Access & Unlock Prerequisites
-- **Premise**: Jackson was depicted captive in a sewer storage room in the cutscene. The door at (37, 14) displays "Its a simple storage room..." and solid collision, indicating it cannot be opened without a specific key, event flag, or prerequisite trigger.
+## Active Hypotheses for Progression
+### Hypothesis H36: Storage Room Access & Quest Triggers ("Medic!")
+- **Premise**: Main story progression (finding Dad) is blocked at the turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!"). In the HuPhone Quest Log, Quest 4 is named "Medic!", and inside Sovio Pokémon Center a camper specifically complains his Weedle is poisoned. We test whether the camper triggers Quest 4 "Medic!" or provides a story clue.
 - **Plan**:
-  1. Complete H35 pond test.
-  2. Re-examine potential quest givers and NPCs for unlock items (e.g. HuPhone side quests such as "Medic!", which may involve medical rescue).
+  1. Enter Sovio Pokémon Center at (44, 12).
+  2. Talk directly to the straw-hat Camper at (5, 7).
+  3. Check if dialogue initiates "Medic!" or requests an Antidote.
