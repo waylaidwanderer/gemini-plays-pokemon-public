@@ -18,3 +18,12 @@
   - Check whether starting/completing another side quest (or speaking to specific quest givers like the Camper with poisoned Weedle, or Professor Ivo, or the Fisherman) advances the world state or unlocks equipment.
 - **Sub-hypothesis H12c (Re-checking Metro Platform Attendant & Exterior)**:
   - Examine the exact triggers in the Metro lobby and Central Plaza surrounding the station.
+
+### Hypothesis H13: Unresolved Jackson Rescue in Sovio Sewers
+- **Premise**: In Turn 1666-1707, Team Siara grunts held Jackson captive in a sewer storage room. The context summary for Turn 2279-2716 claimed Jackson was freed, but the physical game state continues to block the train turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!"). This discrepancy indicates Jackson was never actually rescued or the rescue sequence was never completed.
+- **Test Coordinates**:
+  1. Metro lobby (cols 18-19, row 25): Re-enter Sovio Sewers.
+  2. Sewer storage room platform (cols 36-38, rows 12-14): Audit tile (37, 14) and surrounding platform for dropped keys, missed interaction triggers, or uncompleted event scripts.
+  3. Grunt positions and pathways in Sovio Sewers.
+- **Pass Criteria**: Locate Jackson, trigger a dialogue/cutscene advancing the rescue, or find an item/key that opens the storage room door.
+- **Fail Criteria**: Platform and sewer entities remain static with no new interactions or items found.
