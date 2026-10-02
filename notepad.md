@@ -275,7 +275,7 @@
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **Central Park Pond Feature (Audited Turn 15416-15417)**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
-- **South Sidewalk & Children's Gathering (Audited Turns 13135-13138, 15779)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone (verified Turn 15779). Jigglypuff (34, 28) and Boy (35, 28) previously audited Turns 13135-13138.
+- **South Sidewalk & Children's Gathering (Audited Turns 13135-13138, 15779)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone (verified Turn 15779).
 
 - **Central Park Boy in Pink Shirt (Audited Turn 13149)**: Boy at (32, 21) verified 100% ambient humor dialogue ('catfished').
 - **Central Park Blonde Girl (Audited Turns 13797, 15774)**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (32, 21).
@@ -693,27 +693,21 @@
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
-- **Sovio Metro Lobby**: Timetable Board (cols 21-23) verified decorative flavor text ("It's a timetable showing various destinations!"). Platform attendant (22, 19) inaccessible behind solid wall.
+- **Sovio Metro Lobby**: Timetable Board (cols 21-23) verified decorative flavor text. Platform attendant (22, 19) inaccessible behind solid wall.
 - **Global Storage Systems**: HuPhone Mailbox, Item Storage, and Someone's PC Box 1 audited 100% empty.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis SB1 (Sewers Physical Barriers & Obstacle Clearance Audit)**:
-  - **Rationale**: Surface locations in Sovio and Lancio are fully settled as negative. In Sovio Sewers, two physical barrier clusters gate unvisited territory: the rugged rock at (22, 10) in the Dark Sector, and the cracked rocks at (10, 17) / (9, 18) leading to the southwest corridor. Investigating these physical obstacles directly tests how field clearance is triggered.
-  - **Protocol**:
-    1. Navigate from Sovio City Central Park back to Sovio Metro Station and descend into Sovio Sewers.
-    2. Reach Dark Sector via column 30 causeway and Northeast Wooden Staircase (30, 4).
-    3. Approach rugged rock at (22, 10); test interaction, party move prompts (Sirius Mach Punch/Metal Claw), and verify exact obstacle requirements.
-    4. Navigate to western floor (rows 17-25, cols 7-10); directly inspect cracked rocks at (10, 17) and (9, 18).
+- **Hypothesis Q2 (Central Park Online Dating Cross-Interaction)**:
+  - **Rationale**: On Turn 15774, Blonde Girl dialogue recorded ('Was I catfished?'). The intended follow-up with Pink-shirt Boy at (32, 21) failed on Turn 15779 due to a collision at pond curb (32, 27). The cross-interaction remains unexecuted.
+  - **Protocol**: Navigate to (32, 21) via northern boulevard (rows 15-16) to avoid the pond curb completely. Speak directly with Pink-shirt Boy at (32, 21) and test if he responds to the Blonde Girl or triggers Quest 8 ('Valentines Gift').
+- **Hypothesis SB1 (Sewers Southwest Corridor Cracked Rocks Audit)**:
+  - **Rationale**: Rugged rock at (22, 10) re-verified on Turn 15809 to strictly require 'some equipment' without move prompts. The cracked rocks at (10, 17) / (9, 18) leading to the southwest corridor (cols 7-8) have not been inspected with modern protocol.
+  - **Protocol**: Navigate to western sewer floor (rows 17-25, cols 7-10); directly inspect cracked rocks at (10, 17) and (9, 18) with 'A'.
 
 ## Settled Hypotheses
-- **Hypothesis Q2 (Central Park NPCs - SETTLED & ARCHIVED Turn 15779)**:
-  - Blonde Girl (43-45, 23-26) dialogue verified ambient catfished humor ('Was I catfished?' Turn 15774). Little Girl (33, 28) verified ambient flavor ('I must keep her away from them!' Turn 15779). Pink-shirt Boy (32, 21) previously verified ambient catfished humor. Confirmed zero side quest triggers or items.
-- **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED & ARCHIVED Turn 15747)**:
-  - Metro Turnstile (19, 21) re-verified active ("I should find dad first!"). Karate House (14, 15) trainer & girlfriend repeat static karate/kickboxing debate (Turn 15739). Central Plaza confrontation tiles (rows 14-16, cols 37-44) clean of invisible triggers (Turn 15727).
-- **Hypotheses D1 & D2 (Surface & Lancio Audits - SETTLED & ARCHIVED)**:
-  - Lancio Harbor pier (32-34, 25) inert, no boat/Harry (Turn 15640); Fisherman (38, 22) ambient (Turn 15642); Ivo Lab basement stairs (12, 7) story blocked (Turn 15595); Professor Ivo (20, 6) ambient (Turn 15597); Camper (5, 7) ambient Weedle joke (Turn 15722).
-- **Hypotheses SS2 & SS3 (Sewer Corridors & Platform - SETTLED & ARCHIVED)**:
-  - Eastern storage platform (36-38, 12-14) mat (37, 14) displays ambient text ("Its a simple storage room...") with solid south void collision (Turn 15480). Southern canal (rows 32-36) and western lower floor fully traversed and cleared.
+- **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED Turn 15747)**: Turnstile (19, 21) active; Karate House (14, 15) ambient debate; Central Plaza confrontation tiles clean.
+- **Hypotheses D1 & D2 (Surface & Lancio Audits - SETTLED)**: Lancio pier inert; Ivo Lab stairs blocked; Ivo ambient; Camper (5, 7) ambient joke.
+- **Hypotheses SS2 & SS3 (Sewer Corridors & Platform - SETTLED)**: Eastern storage mat (37, 14) ambient text with void collision. Jackson not present.
 
 
 <hr>
