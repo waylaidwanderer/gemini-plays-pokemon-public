@@ -18,14 +18,11 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H32: Inventory, Key Items & System Mechanics Audit
 - **Premise**: Physical overworld audits across Sovio City, Route 1, and Lancio Town confirm Jackson is not an overworld NPC waiting to be spoken to. We systematically audit all Bag pockets, Key Items, and Trainer Card / HuPhone interfaces to test for non-NPC progression triggers or prerequisites.
+- **Verified Inventory State (Turns 17578-17579)**:
+  - **Items Pocket**: Potion x 1, Poison Barb x 1, Antidote x 1.
+  - **Key Items Pocket**: HuPhone, TM Case. Exclusively 2 Key Items present.
+  - Zero rock-smashing equipment, secret keys, or quest progression items exist in inventory.
 - **Milestones**:
-  - **Milestone 1 (Open & Inspect Bag)**: Return to Start menu, select Bag, and audit all pockets (Items, Key Items, Poké Balls, TMs, Berries).
-  - **Milestone 2 (Inspect Key Items & HuPhone Functions)**: Verify if any Key Item has an unused 'USE' option or trigger.
+  - **Milestone 1 (Open & Inspect Bag)**: In progress. Items & Key Items audited. Checking remaining pockets (Poké Balls, TMs, Berries).
+  - **Milestone 2 (Inspect Key Items & HuPhone Functions)**: HuPhone verified registered to SELECT; TM Case holds TMs.
   - **Milestone 3 (Audit Trainer Card & Save/Clock Mechanics)**: Check Trainer Card details and evaluate external conditions.
-
-
-
-
-
-
-

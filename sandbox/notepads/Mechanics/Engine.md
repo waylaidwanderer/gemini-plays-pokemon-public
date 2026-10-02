@@ -75,7 +75,7 @@
 
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
 
-- **Items Pocket**: Potion x 1, Antidote x 2, Poison Barb x 1, Nugget x 1.
+- **Items Pocket**: Potion x 1, Poison Barb x 1, Antidote x 1.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
 
