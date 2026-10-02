@@ -725,7 +725,10 @@
 - **Investigation Targets**:
   1. Metro Lobby & Turnstile Re-test [VERIFIED ACTIVE]: Tested (19, 21) post-sewer clearance; triggers 'I should find dad first!' and forces player to (19, 22). Gate remains blocked.
   2. Central Plaza: Inspect the plaza area outside the Pokémon Center where the initial confrontation with Mother occurred.
-  3. West Avenue & Unexamined Buildings: Systematically re-audit the Machop/Karate house (14, 15), Gumball house (29, 14), tan building shutters (34-35, 12), and modern office building facade (col 11).
+  3. West Avenue & Unexamined Buildings [IN PROGRESS]:
+     - Tan building shutters (34-35, 12): Tested collision & interaction; confirmed 100% solid decorative facade with zero text.
+     - Boy Rocky (23, 17): Spoken to; repeats baseline dialogue ("This is my partner, Rocky! He's the best...").
+     - Next: Inspect partner rock (24, 17), Karate house (14, 15), 3 Bikers (13, 21-23), and office building facade (col 11).
   4. Central Park & Outdoor NPCs: Re-verify whether any outdoor residents react to the post-tremor situation.
 
 
