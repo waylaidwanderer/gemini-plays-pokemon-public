@@ -25,10 +25,7 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)
 - **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
-- **Investigation Targets**:
-  1. Commercial Building Corridor (rows 20-22, cols 47-51): Test whether the covered passage or facade contains unexamined doors or triggers.
-  2. Inventory / Bag Mechanics: Inspect all items, field moves, and unregistered options.
-  3. Sewer Storage Platform Re-examination: Systematically test all interaction angles and perimeter tiles at the Eastern Storage Room (36-38, 12-14).
-## Reflection & Status Audit (Turn 18112-18129)
-- **Sovio Pokémon Center**: Nurse Joy healing sequence 100% completed. Sovio City checkpoint officially registered. Party fully restored.
-- **Terrace Residence Audit (Turn 18129)**: Nana and Granddaughter confirmed baseline ambient dialogue; zero items or quest triggers.
+- **Investigation Targets & Results**:
+  1. Commercial Building Corridor (rows 20-22, cols 47-51) [AUDITED & FALSIFIED]: Walkable covered passage connecting row 19 through rows 20-22 east to column 52. Stepping onto (52, 22) triggers Route 2 barrier text 'I can't go yet... I have things to do!'. West bound at (47, 22), south bound at row 23. Zero doors, NPCs, or items under roof.
+  2. Inventory & Bag Mechanics [AUDITED]: Items: Potion x1, Poison Barb x1, Antidote x1. Key Items: HuPhone (SELECT shortcut), TM Case (contains TM17 Protect, TM48 Work Up; 0 HMs). Balls: Timer Ball x1, Poké Ball x10. Berries: Empty. Zero keys, field equipment, or unregistered progression items present in Bag.
+  3. Sewer Storage Platform (36-38, 12-14) [PARTIAL - IN PROGRESS]: Tile (37, 14) holds red capsule mat with downward arrow motif pointing South. Facing South from (37, 14) and pressing A displays 'Its a simple storage room..'. Stepping Down into row 15 bumps into solid impassable collision. Remaining perimeter tests (36, 12-14), (38, 12-14), and north wall (row 11-12) to be systematically audited after party audit.
