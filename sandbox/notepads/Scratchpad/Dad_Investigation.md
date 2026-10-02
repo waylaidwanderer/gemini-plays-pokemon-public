@@ -18,3 +18,7 @@
   1. Exit Pokémon Center PC and building.
   2. Travel to Sovio Metro Station and descend via red mat at (18-19, 25) into Sovio Sewers.
   3. Deploy subagent `sewer_transit` for autonomous traversal to target obstacles.
+## Grounded Obstacle Audit (Turn 18558)
+- **Southwest Rugged Rock (10, 18)**: Verified verbatim: "It's a rugged rock, but with some equipment, I could smash it." Gating columns 7-8 and row 24 curb.
+- **Dark Sector Rugged Rock (22, 10)**: Verified verbatim: "It's a rugged rock, but with some equipment, I could smash it." Positioned at (22, 10) south of row 9 corridor.
+- **Current Position**: Dark Sector at (21, 9) facing South; actively probing southern boundary and adjacent tiles.
