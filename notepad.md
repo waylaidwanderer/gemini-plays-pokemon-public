@@ -731,6 +731,6 @@
   2. Traverse to the Eastern Storage Platform (columns 36-38, rows 12-14) (Complete, reached Turn 17620).
   3. Systematically test every walkable platform tile, inspect each wall boundary from all four cardinal directions, and verify whether Jackson or an interactive trigger is accessible (In progress).
 - **Audit Log**:
-  - Tile (37, 12): Walkable stone floor. Interacting North into (37, 11) produces zero text.
+  - Tile (37, 12): Walkable 1-tile recessed alcove; north wall (37, 11), east wall (38, 12), and west wall (36, 12) have solid collision with zero interaction text.
 
 <hr>
