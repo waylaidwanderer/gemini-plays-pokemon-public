@@ -18,7 +18,7 @@
 
 ## Points of Interest & Buildings
 
-- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner leading to upper mezzanine. Resident man at (9, 4) explains regional integrated PokéMarts: "Did you know? Pokémon Centers have PokéMarts built into them in this region! In certain regions PokéMarts are separate buildings though...".
+- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner leading to upper mezzanine. Resident man at (9, 4) explains regional integrated PokéMarts: "Did you know? Pokémon Centers have PokéMarts built into them in this region! In certain regions PokéMarts are separate buildings though...". Resident boy at (5, 5) provides ambient advice: "Pokémon Centers heal your tired, hurt, or fainted Pokémon...".
 
 - **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
