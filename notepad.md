@@ -719,13 +719,13 @@
 - **Sub-hypothesis H12c (Re-checking Metro Platform Attendant & Exterior)**:
   - Examine the exact triggers in the Metro lobby and Central Plaza surrounding the station.
 
-### Hypothesis H13: Unresolved Jackson Rescue in Sovio Sewers
-- **Premise**: In Turn 1666-1707, Team Siara grunts held Jackson captive in a sewer storage room. The context summary for Turn 2279-2716 claimed Jackson was freed, but the physical game state continues to block the train turnstile ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!"). This discrepancy indicates Jackson was never actually rescued or the rescue sequence was never completed.
-- **Test Coordinates**:
-  1. Metro lobby (cols 18-19, row 25): Re-enter Sovio Sewers.
-  2. Sewer storage room platform (cols 36-38, rows 12-14): Audit tile (37, 14) and surrounding platform for dropped keys, missed interaction triggers, or uncompleted event scripts.
-  3. Grunt positions and pathways in Sovio Sewers.
-- **Pass Criteria**: Locate Jackson, trigger a dialogue/cutscene advancing the rescue, or find an item/key that opens the storage room door.
-- **Fail Criteria**: Platform and sewer entities remain static with no new interactions or items found.
+### Hypothesis H14: Falsification of Sewer Return & Focus on Unresolved Surface Flags
+- **Premise**: Re-entering Sovio Sewers without new tools, keys, or world-state changes is redundant; tile (37, 14) was verified static and empty on Turn 16291. Jackson is not in the accessible sewer sectors. Therefore, the progression flag or trigger must reside on the surface (Sovio City, Route 1, or Lancio Town) in an unverified mechanic, inventory capability, or unexplored trigger.
+- **Target Coordinates**:
+  1. Sovio Metro Station platform edge / attendant perimeter (cols 18-24, rows 21-24).
+  2. Route 2 entrance barrier perimeter (cols 50-52, rows 19-22).
+  3. Professor Ivo's laboratory basement perimeter and dialogue.
+- **Pass Criteria**: Advance the main story trigger, clear the turnstile blocker, or clear the Route 2 barrier.
+- **Fail Criteria**: Interactions yield standard ambient dialogue without state changes.
 
 <hr>
