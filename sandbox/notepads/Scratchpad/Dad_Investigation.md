@@ -7,7 +7,6 @@
 
 ## Settled Inquiries
 - **Sovio City Surface Initial Exploration**: All 5 residential buildings, interior residents, and public fixtures (Bikers, Rocky, street lamps, signposts) were checked during early exploration and confirmed ambient. Specific post-retreat event triggers (such as locating Valora or examining the Metro turnstile state after Marie's radio order) remain to be systematically verified.
-- **Sovio Sewers Storage Room at (37, 14)**: Previously inspected only by pressing 'A' from (37, 13) ("Its a simple storage room..."). Re-opened under Hypothesis H25 Milestone 3 to test physical collision and downward warp mechanics (stepping onto (37, 14) and walking Down).
 - **Route 1 Column 52 Hedge**: Probed (52, 13); confirmed solid hedge collision at rows 14-16 with embedded rock spire. Column 52 does not continue south directly.
 - **Route 1 & Lancio Town Audit (Hypothesis H24 - Settled: FAILED)**: All 5 milestones completed. Thoroughly audited all accessible surface pathways, residents, and facilities across Route 1 and Lancio Town (excluding HM Cut at (5, 44), water-gated terrain at (38, 4), and locked lab basement stairs at (12, 7)). Progression triggers for locating Jackson are confirmed localized to Sovio City or its subterranean sectors.
 

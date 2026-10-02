@@ -12,10 +12,10 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (46, 17), and (35, 23).
 
-- **Park East Border Obstacles**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) . Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
+- **Park East Border Obstacles**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
-  - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall .
+  - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall.
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable.  Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
@@ -28,7 +28,7 @@
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. The eastern facade of the office building at column 11 across rows 16-20 is a continuous solid wall with no doors or entrances. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
-- **West Avenue North Boundary **: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29).
+- **West Avenue North Boundary**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29).
 - **Inter-Building Gap**: Solid walls at (30, 14), (31, 13), and (32, 12) prevent passage between the Gumball house and the tan building.
 
 - **Southwest Boundary**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision; no passage, hidden items, or NPCs present.
