@@ -719,7 +719,7 @@
 ### Hypothesis H30: Gumball House 2F Resident & Interior Audit
 - **Premise**: On 2F of the residential house at (29, 14), there is a sleeping resident in bed at (27, 15-16) and a PC terminal at (20, 12). Neither has been interacted with or documented with verbatim dialogue/responses. We test both to verify whether they contain a story trigger, NPC dialogue, or progression clue.
 - **Milestones**:
-  - **Milestone 1 (Enter House & Ascend to 2F)**: Path from (33, 21) north to (29, 14), enter door, and take stairs at (26, 32) up to 2F (lands at 26, 12).
+  - **Milestone 1 (Enter House & Ascend to 2F)**: COMPLETED (Turn 17530). Entered Gumball house at (29, 14) and ascended stairs from (21, 31) to 2F; arrived at (26, 12).
   - **Milestone 2 (Inspect Sleeping Resident & PC)**: Interact facing bed at (27, 15-16) and PC terminal at (20, 12).
   - **Milestone 3 (Evaluate Outcome)**: Record verbatim text and check for progression triggers.
 
