@@ -504,7 +504,7 @@
 - **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
 - **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City.
 - **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City.
-- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City. Note: While the regional map shows a cartographic coastal relation to Lancio Town, physical in-game traversal between Lancio Town and Azluf Town is strictly water-gated and impossible on foot without Surf or specialized marine transport.
+- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City.
 
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.

@@ -24,7 +24,7 @@
 - **Lancio Town**: Town where Mrs. Ivo's PokÃ©mon Lab is located.
 - **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City.
 - **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City.
-- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City. Note: While the regional map shows a cartographic coastal relation to Lancio Town, physical in-game traversal between Lancio Town and Azluf Town is strictly water-gated and impossible on foot without Surf or specialized marine transport.
+- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City.
 
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
@@ -62,7 +62,7 @@
   2. Southern coastal route passing through **Azluf Town** directly to Samurion City.
 - **Mt. Gerhana**: Mountain landmark and waypoint located between Sovio City and Samurion City.
 - **Azluf Town**: Coastal green town node located southeast of Sovio City along the southern shore.
-- **Samurion City**: Major port/industrial city on the south-central coast (red node with Poké Ball symbol, subtitle: "Metro Station"). Connects west to Sovio City via Route 2 (coastal and mountain branches), and north directly to Amor City via dual Metro train tracks.
+- **Samurion City**: Major port/industrial city on the south-central coast (red node with Pokï¿½ Ball symbol, subtitle: "Metro Station"). Connects west to Sovio City via Route 2 (coastal and mountain branches), and north directly to Amor City via dual Metro train tracks.
 - **Amor City**: Giant blue central metropolitan hub of Hupest. Regional capital and host city of the Eclipse Tournament / Amor Sports Center. Major transit hub with routes radiating to all quadrants.
 - **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
 - **Southeast Offshore Island**: Island containing 1 red town and 1 blue coastal port.
