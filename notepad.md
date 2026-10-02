@@ -705,25 +705,15 @@
 - **Sovio Metro Turnstile & Sewer Storage Room (H25)**: Turnstile (19, 21) remains blocked by "I should find dad first!". Sewer storage room mat (37, 14) confirmed walkable but south transition is impassable/inactive ("Its a simple storage room...").
 - **Route 1 & Lancio Town Audit (H24)**: Traversal verified devoid of active triggers for Jackson.
 - **Karate House (14, 15)**: Audited Turn 17282-17297. Karate trainer, girlfriend, and Machop all confirmed 100% ambient flavor.
+- **Civic Facilities Audit (H26)**: Metro lobby alcoves (western seating cols 16-17, eastern perimeter wall) and Pokémon Center 2F Mezzanine (west flank, east flank, clerk booth, terminal) 100% physically audited (Turns 17318-17352) and confirmed devoid of story triggers or NPCs.
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H26: Sovio Civic Facilities Audit (Metro Lobby Alcoves & Pokémon Center Mezzanine)
-- **Premise**: With civilian residential houses confirmed ambient and western routes exhausted, investigations must focus strictly on the primary civic facilities tied directly to the incident: the Sovio Metro Station lobby (where Dad vanished and Valora was last present) and the unverified Pokémon Center 2F Mezzanine perimeter.
+### Hypothesis H27: Sovio City Outdoor Southern Perimeter & Equipment Vector Audit
+- **Premise**: With civic facilities (Metro lobby, PokeCenter 1F & 2F) and indoor residences fully audited, the remaining physical outdoor territory in Sovio City is the southern perimeter (rows 27-31 south of Central Park pond and the southeast corridor). We must execute a grounded physical traversal of this area to verify all outdoor tiles, NPCs, and boundaries before drawing conclusions.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Transit to Central Plaza)**: COMPLETED (Turn 17318). Reached Central Plaza and entered Sovio Metro Station.
-  - **Milestone 2 (Sovio Metro Station Lobby Physical Traversal)**: COMPLETED (Turn 17325). 100% audited all accessible lobby tiles:
-    1. Western seating alcove (cols 16-17, rows 22-25): Blue chairs and perimeter walls physically tested and verified inert scenery.
-    2. Turnstile passage at (19, 21): Physically re-probed; triggers "I should find dad first!" and forces 1 step south.
-    3. Eastern perimeter: Wall terminates directly at stairs (24, 24); zero eastern alcoves exist.
-    4. Conclusively verified: Dad and Valora are absent from the Metro lobby; zero new switches/items present.
-  - **Milestone 3 (Pokémon Center 2F Mezzanine Comprehensive Traversal)**: COMPLETED (Turn 17352). Traversed west flank (cols 1-4, rows 3-5), east flank (cols 6-7, rows 4-5), north windows, and clerk booth. Clerk confirmed standard PokéMart inventory; electronic terminal verified inert. Conclusively eliminated 2F Mezzanine as a progression trigger.
-
-### Hypothesis H27: Grounded Equipment & Subterranean Obstacle Investigation
-- **Premise**: With civic facilities (Metro lobby, PokeCenter 1F & 2F) and civilian residences fully audited, the hard physical constraints are the rugged rocks at (10, 18) and (22, 10) in Sovio Sewers ("It's a rugged rock, but with some equipment, I could smash it") and the locked sewer storage room at (37, 14). We must formulate and execute grounded tests to identify the equipment source or bypass vectors.
-- **Decomposed Milestones**:
-  - **Milestone 1 (Descend to 1F and Exit Pokémon Center)**: COMPLETED (Turn 17367). Descended 2F escalator, traversed 1F, and exited to Central Plaza (44, 12).
-  - **Milestone 2 (Transit to Sovio Sewers via Metro Station)**: ACTIVE. Path from (44, 12) across Central Plaza to Metro Station (48, 17), then take the secret red mat at (18-19, 25) into Sovio Sewers.
-  - **Milestone 3 (Subterranean Tile & Equipment Audit)**: Descend to Sovio Sewers; systematically probe tiles along the gangway (row 13), grunts' retreat path, and storage room (37, 14) for dropped keys, equipment, or switches.
+  - **Milestone 1 (Exit Metro Station to Central Plaza)**: ACTIVE. Take stairs at (24, 24) to emerge outside at (48, 17).
+  - **Milestone 2 (Physical Traversal of Southern Sidewalk & Central Park South)**: Path south along columns 44-46 to rows 27-31. Physically traverse rows 27-28 west to column 33, inspect the dead-end hedge alcove at (42, 30), and verify the building perimeter at (47-51, 28-31).
+  - **Milestone 3 (Route 2 Barrier Re-Verification & Boundary Audit)**: Inspect the eastern corridor leading to the Route 2 barrier at (52, 19-22) under the building overhang to confirm state and check for any outdoor event triggers.
 
 <hr>
