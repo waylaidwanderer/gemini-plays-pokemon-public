@@ -57,7 +57,7 @@
 
   - Cobblestone/gravel path leads north from the dock into the main town.
 
-  - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues (verified Turns 3351-3352, 11793-11796, 14528-14536).
+  - NPC trainer with red cap at (38, 22): Fisherman who shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues.
 
   - Ocean to south and west.
 
@@ -67,11 +67,11 @@
 
 - **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story on Turn 10057 (no northwest mezzanine staircase or PokéMart clerk).
 
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions (verified Turn 10093) display "Get out!" and warp Asher outside to (25, 12).
+- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
 - **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9) on Turn 7659, resulting in solid collision with house foundation. No doors or interior entrance.
 
-- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar (verified Turns 308-309).
+- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar.
 
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
@@ -92,7 +92,7 @@
 
   - Green runner rug extends along column 12 from row 12 to row 9.
 
-  - Framed regional map on wall at (17, 8) (Verified Turn 7614): Interacting facing Left from (18, 8) displays 'A Town Map.'
+  - Framed regional map on wall at (17, 8): Interacting facing Left from (18, 8) displays 'A Town Map.'
 
   - Red rug, table, and PC terminal in western wing.
 
@@ -104,20 +104,20 @@
 
   - Sunlit diagonal wood flooring throughout research room.
 
-  - Cylindrical incubator apparatus at (18-19, 5-6) (Verified Turn 7621): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
+  - Cylindrical incubator apparatus at (18-19, 5-6): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
 
-  - Professor Ivo at (20, 6) (Verified Turns 7625, 13511, 14524): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?"). Confirmed static post-tremor and post-sewers.
+  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?"). Confirmed static post-tremor and post-sewers.
 
-  - Server tower at (23, 8-9) (Verified Turn 7626): Inert decorative fixture.
+  - Server tower at (23, 8-9): Inert decorative fixture.
 
-  - Wooden research desk at (21-23, 4) (Verified Turn 7627): Inert decorative fixture.
+  - Wooden research desk at (21-23, 4): Inert decorative fixture.
 
-  - Bookshelf at (24, 4) (Verified Turn 7629): Displays "It's crammed full of Pokémon books."
+  - Bookshelf at (24, 4): Displays "It's crammed full of Pokémon books."
 
   - Blue computer workstation at (24, 8-9): Inaccessible behind server tower.
 
 ## Southwest Beach & Coastline
-- **Coastline / Sandy Beach (Audited Turns 10076-10078)**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-18. Physical perimeter step-tested: westernmost land at (13, 16-17), southern peninsula at (15, 18), and eastern shoreline at (19, 17) are solid natural shorelines bordering open ocean (probed with 'A'; zero hidden warps, docks, or boat triggers).
+- **Coastline / Sandy Beach**: Located southwest of Professor Ivo's Lab at columns 14-20, rows 14-18. Physical perimeter step-tested: westernmost land at (13, 16-17), southern peninsula at (15, 18), and eastern shoreline at (19, 17) are solid natural shorelines bordering open ocean (probed with 'A'; zero hidden warps, docks, or boat triggers).
 - **Terrain**: Sand patch flanked by grass to north (row 14) and east (columns 20-21). Ocean water borders south (row 18+) and west.
 
 ## Eastern Border & Route 1 Exit
@@ -134,7 +134,7 @@
 
 - **Green-haired Girl**: Located at (23, 15) facing right. Dialogue (ambient).
 
-- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turns 10098, 15590): "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
+- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
 
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
 
@@ -142,7 +142,7 @@
 
 
 
-- **Lancio Harbor Boat Audit (Verified Turns 6893, 7594-7595, 11789, 14527)**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
+- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
 
 <hr>
 
@@ -409,29 +409,29 @@
 ## Overview & Connections
 - **Entrance**: Secret stairway on the south wall of Sovio Metro Station lobby at (18-19, 25).
 - **Landing (1F)**: Asher arrives at (37, 22) at the base of the wooden staircase.
-- **Staircase Up (Verified Turns 12106-12108)**: Located at (38, 22) leading back up to Sovio Metro Station; south side has solid railing blocking direct Up entry from (38, 23); must be entered from the west at (37, 22) stepping Right.
+- **Staircase Up**: Located at (38, 22) leading back up to Sovio Metro Station; south side has solid railing blocking direct Up entry from (38, 23); must be entered from the west at (37, 22) stepping Right.
 - **Terrain & Features**:
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
-  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). The vertical bridge crossing south across the chasm is located at column 23 (rows 6-12; visually verified Turn 14031).
-  - Southwest Corridor & Obstruction (Verified Turns 2380-2386, 6138-6141): Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 18) and (9, 17) by two diagonal rugged rocks between the row 16 brick wall and row 19 void chasm. Interacting with 'A' facing West into (10, 18) displays verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.' (verified Turn 15828; tile 9, 17 unprobed directly). Both approaches require equipment.
+  - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23. The vertical bridge crossing south across the chasm is located at column 23 (rows 6-12; visually verified Turn 14031).
+  - Southwest Corridor & Obstruction: Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 18) and (9, 17) by two diagonal rugged rocks between the row 16 brick wall and row 19 void chasm. Interacting with 'A' facing West into (10, 18) displays verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.'. Both approaches require equipment.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
-  - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters (wild Koffing verified on tile 15, 8 on Turn 7788).
+  - Western Terrace Wall Ladder: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters (wild Koffing verified on tile 15, 8 on Turn 7788).
 
-- **Column 30 Causeway & Northeast Wooden Staircase (Verified Turns 7294-7308)**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
+- **Column 30 Causeway & Northeast Wooden Staircase**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
 
 ## Topography & Connectivity
-- **Lower Level Connectivity (Verified Turn 2131-2133)**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
-- **Lower Western Corridor (Verified Turns 2390, 3624)**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Column 16 is walkable at rows 25-26, and column 17 connects rows 22-24 (verified Turns 15302, 15314). Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17) (verified Turn 11036).
+- **Lower Level Connectivity**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
+- **Lower Western Corridor**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Column 16 is walkable at rows 25-26, and column 17 connects rows 22-24. Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
-- **Southern Canal Corridor (Verified Turns 2402, 3118-3133)**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
-- **Eastern Gangway & Column 28 Junction (Verified Turns 2650-2665, 3657-3665, 8720, 11173)**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room & Platform (Audited Turns 8637, 11127, 11149, 15247-15261)**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat; interacting facing South displays verbatim: "Its a simple storage room..." and dismisses on 'A'; stepping Down bumps into south void collision with zero warp. Flanking tiles (36, 14) and (38, 14) have solid south void collision at row 15. North wall at row 11 (cols 36-38) has solid wall collision and inert 'A'. East wall at column 39 (rows 12-14) has solid wall collision and inert 'A'. West wall at (35, 12) has solid wall collision and inert 'A'. Platform 100% audited and verified ambient with zero warps, switches, items, or NPCs.
+- **Southern Canal Corridor**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
+- **Eastern Gangway & Column 28 Junction**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
+- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat; interacting facing South displays verbatim: "Its a simple storage room..." and dismisses on 'A'; stepping Down bumps into south void collision with zero warp. Flanking tiles (36, 14) and (38, 14) have solid south void collision at row 15. North wall at row 11 (cols 36-38) has solid wall collision and inert 'A'. East wall at column 39 (rows 12-14) has solid wall collision and inert 'A'. West wall at (35, 12) has solid wall collision and inert 'A'. Platform 100% audited and verified ambient with zero warps, switches, items, or NPCs.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)
@@ -454,13 +454,13 @@
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
-- **Layout & Spatial Geometry** (Audited Turns 15064-15120):
+- **Layout & Spatial Geometry**:
   - Eastern corridor (cols 21-30): Northern stone wall at row 8, corridor along row 9 with stairs up at (31, 9) and stone stairs north to upper alcove at (23, 8). Rugged rock obstacle at (22, 10).
   - Western corridor & alcove (cols 13-17): Northern stone wall is at row 7. Row 8 is a walkable corridor connecting columns 13 to 17. Western boundary terminates at solid wall at column 12 (rows 8-9). Southern boundary at row 10.
   - Red capsule mat at (14-15, 9); stepping Down from (15, 9) warps to Deep Subterranean toy room (2, 38). Tile (16, 9) has solid obstacle collision; traversal between western alcove and eastern corridor connects via row 8 (Up from 15, 9 to 15, 8, then east along row 8 to 17, 8, and down to 17, 9).
-- **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). (Audited Turns 15079-15082): All perimeter walls (north row 2, west col 21, east col 25) probed with 'A'; confirmed 100% solid walls with no secret doors, switches, or NPCs.
+- **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5).: All perimeter walls (north row 2, west col 21, east col 25) probed with 'A'; confirmed 100% solid walls with no secret doors, switches, or NPCs.
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
-- **Rock Smash Obstacle (Verified Turns 13211-13212)**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
+- **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
 - **Deep Subterranean Sector (Discovered Turn 13225, Audited Turn 14052)**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy (Turn 13238). All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A' on Turn 14052; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
 
 <hr>
@@ -690,22 +690,17 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
 ## Core Blockers & Verified Physical Constraints
-- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step down to (19, 22).
+- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step down to (19, 22). Platform attendant at (22, 18) is behind platform barrier.
 - **Route 2 Gate (52, 19-22)**: Triggers "I can't go yet... I have things to do!".
-- **Rugged Rocks (Sewers)**: Verified at (22, 10) and (10, 18); displays "It's a rugged rock, but with some equipment, I could smash it.". Zero equipment in possession.
+- **Rugged Rocks (Sewers)**: Verified at (22, 10) and (10, 18); requires specialized equipment to smash ("It's a rugged rock, but with some equipment, I could smash it."). Zero equipment in possession.
 - **Storage Room Mat (Sewers 37, 14)**: Displays "Its a simple storage room..." and has solid void collision to south with zero warp.
-- **Metro Lobby Fixtures**: Scanner pillars at (18, 21) and (20, 21) non-interactive; tile (23, 25) is inert floor mat edge. Platform attendant at (22, 18) inaccessible behind turnstile gate.
-
-## Settled Hypotheses
-- **Hypothesis Q1 (Quest Log Scope - SETTLED Turn 15895)**: Inspected entries 3 (Egg Research), 4 (Medic!), and 5 (Squirtle Gang). All three return verbatim "This Quest hasn't been completed yet!" and exit to overworld. HuPhone Quest Log does not provide narrative directions or equipment hints for uncompleted quests. Entries 6-10 remain unobserved.
-- **Hypothesis Q2 (Central Park Online Dating - SETTLED Turn 15858)**: Both Blonde Girl (43-45, 23-26) and Pink-shirt Boy (33, 20) confirmed symmetrical ambient dialogue ("Was I catfished?"). 100% ambient flavor; zero quest or story triggers.
+- **Metro Lobby Fixtures**: Scanner pillars at (18, 21) and (20, 21) non-interactive; tile (23, 25) is inert floor mat edge.
+- **Domestic Residences**: Nana's house (49, 14), House (39, 7), Gumball house (29, 14), Karate house (14, 15), Name Rater (31, 26) verified ambient domestic flavor dialogue.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis V1 (Investigating Valora's Disappearance and Post-Tremor Whereabouts)**:
-  - **Rationale**: Prior to the tremor (Turn 1437), Valora was standing with Asher and Dad in the Metro Station preparing to travel to Amor City. During the tremor, Dad ran outside. When Asher entered the sewers, Valora was present in the cutscene (Turn 1666). Following the Siara retreat (Turn 2682), Valora has not been seen in the Metro lobby, Pokémon Center, or sewers.
-  - **Falsifiable Test**: Systematically check locations where Valora could have gone after the tremor: (1) inspect the Pokémon Center interior and mezzanine for Valora or new NPC dialogue, (2) check the residential structures and terrace in Sovio City, and (3) check the Route 1 / Lancio boundary.
-  - **Success Criteria**: Locating Valora, triggering new dialogue regarding Jackson or Amor City, or obtaining a progression key item.
-  - **Failure Criteria**: Confirming Valora is absent from all accessible Sovio City nodes.
+- **Hypothesis D6 (Investigating Unexamined Pathways & Regional Story Connections)**:
+  - **Rationale**: Domestic residences and ambient NPCs are confirmed static. Jackson was kidnapped during the tremor cutscene (Turn 1666) and Team Siara retreated (Turn 2682). Turnstile gate requires finding Dad. We must expand search beyond the 4-building circuit to unexamined physical pathways and regional connections.
+  - **Action Plan**: Systematically test unchecked physical pathways and boundary connections across Sovio City and adjacent routes.
 
 
 <hr>
