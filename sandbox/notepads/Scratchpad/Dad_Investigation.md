@@ -1,23 +1,17 @@
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Core Blockers & Status
-- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22) (re-verified active Turn 15747).
-- **Route 2 Gate**: Stepping onto (52, 19-22) triggers "I can't go yet... I have things to do!" (re-verified active Turn 15374).
-- **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
-
-## Verified / Settled Locations
-- **Sovio Metro Lobby**: Timetable Board (cols 21-23) verified decorative flavor text. Platform attendant (22, 19) inaccessible behind solid wall.
-- **Global Storage Systems**: HuPhone Mailbox, Item Storage, and Someone's PC Box 1 audited 100% empty.
-
-## Active Hypotheses & Strategic Focus
-- **Hypothesis Q2 (Central Park Online Dating Cross-Interaction)**:
-  - **Rationale**: On Turn 15774, Blonde Girl dialogue recorded ('Was I catfished?'). The intended follow-up with Pink-shirt Boy at (32, 21) failed on Turn 15779 due to a collision at pond curb (32, 27). The cross-interaction remains unexecuted.
-  - **Protocol**: Navigate to (32, 21) via northern boulevard (rows 15-16) to avoid the pond curb completely. Speak directly with Pink-shirt Boy at (32, 21) and test if he responds to the Blonde Girl or triggers Quest 8 ('Valentines Gift').
-
+## Core Blockers & Verified Constraints
+- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step down to (19, 22).
+- **Route 2 Gate (52, 19-22)**: Triggers "I can't go yet... I have things to do!".
+- **Rugged Rocks (Sewers)**: Verified at (22, 10) and (10, 18); requires specialized equipment to smash ("It's a rugged rock, but with some equipment, I could smash it."). Zero equipment in possession.
+- **Storage Room (Sewers 37, 14)**: Red capsule mat displays "Its a simple storage room..." and has solid void collision to south with zero warp.
 
 ## Settled Hypotheses
-- **Hypothesis SB1 (Sewers Physical Rock Obstacles - SETTLED Turn 15828)**:
-  - Dark Sector rugged rock at (22, 10) and southwest corridor rugged rock at (10, 18) both verified to display verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.' with zero move prompts (tile 9, 17 unprobed directly). Field clearance is strictly equipment-gated.
-- **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED Turn 15747)**: Turnstile (19, 21) active; Karate House (14, 15) ambient debate; Central Plaza confrontation tiles clean.
-- **Hypotheses D1 & D2 (Surface & Lancio Audits - SETTLED)**: Lancio pier inert; Ivo Lab stairs blocked; Ivo ambient; Camper (5, 7) ambient joke.
-- **Hypotheses SS2 & SS3 (Sewer Corridors & Platform - SETTLED)**: Eastern storage mat (37, 14) ambient text with void collision. Jackson not present.
+- **Hypothesis Q2 (Central Park Online Dating)**: Both Blonde Girl (43-45, 23-26) and Pink-shirt Boy (33, 20) provide symmetrical ambient humor ("Was I catfished?"). 100% ambient flavor; zero quest or story triggers.
+- **Hypothesis SB1 (Sewers Physical Rock Obstacles)**: Field clearance is strictly equipment-gated.
+- **Hypotheses D1-D3 & SS2-SS3**: Lancio pier, Ivo Lab stairs, Camper, Name Rater, Bikers, Karate house, and Eastern sewer platform verified ambient.
+
+## Active Hypotheses & Strategic Focus
+- **Hypothesis M1 (Metro Station Platform & Attendant Investigation)**:
+  - **Rationale**: The turnstile gate at (19, 21) triggers "I should find dad first!". The platform side contains a station attendant at (22, 19). Can the attendant or platform elements be interacted with across the counter/gate, or is there an alternative way to trigger Dad's appearance?
+  - **Plan**: Inspect Metro Station platform boundaries, check if any NPC in the station or plaza reacts, and re-examine the cutscene sequence where Dad ran outside.

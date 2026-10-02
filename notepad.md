@@ -272,7 +272,7 @@
   - **Interior 1F (Verified Turns 7897, 8526, 14446)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
 
 
-## Southeast Corridor & Central Park (Verified Turns 1569-1572)
+## Southeast Corridor & Central Park
 - **Central Park Pond Feature (Audited Turn 15416-15417)**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
 - **South Sidewalk & Children's Gathering (Audited Turns 13135-13138, 15779)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone (verified Turn 15779).
@@ -298,7 +298,7 @@
     - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
     - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border. 100% decorative exterior with zero doors or interaction scripts.
 
-## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
+## Pokémon Center
 
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
 
@@ -336,7 +336,7 @@
 
     - **Fixtures & Bounds**: Blue wall terminal/display at (6, 3) east of clerk (inert). Counter structure spans columns 3 to 6 across rows 3-4, completely enclosing clerk with no rear access. Escalator descends south at (5, 6-8) between red handrails. East flank: tile (7, 5) is walkable, (7, 4) solid collision. West flank: tiles (2, 3), (2, 4), (2, 5) walkable; north window wall at (2, 2) and counter side wall at (3, 3) solid collision. Mezzanine 100% audited.
 
-## Sovio Metro Station (Verified Turn 1388)
+## Sovio Metro Station
 
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 
@@ -350,7 +350,7 @@
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
-## Residential House (North Central) (Audited Turns 1447, 7239-7245, 12848-12863, 15400-15405)
+## Residential House (North Central)
 
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 
@@ -362,11 +362,11 @@
 
 - **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12), PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12). Confirmed 100% ambient flavor; zero items or story triggers.
 
-## City Signpost (Verified Turn 1476)
+## City Signpost
 
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
 
-## Residential House (Central West - Gumball Family) (Verified Turn 5933)
+## Residential House (Central West - Gumball Family)
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
@@ -374,7 +374,7 @@
 
 - **Interior 2F (Audited Turns 5933, 9177)**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
 
-## Residential House (Northwest - Machop Family) (Verified Turn 5950)
+## Residential House (Northwest - Machop Family)
 
 - **Entrance**: Teal door at (14, 15) (column 13 is the left doorframe/knob; entrance warp is at 14, 15; verified Turns 5950, 7850).
 
@@ -687,27 +687,21 @@
 
 # Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
 
-## Core Blockers & Status
-- **Metro Turnstile**: Stepping onto (19, 21) triggers "I should find dad first!" and forces Asher 1 step down to (19, 22) (re-verified active Turn 15747).
-- **Route 2 Gate**: Stepping onto (52, 19-22) triggers "I can't go yet... I have things to do!" (re-verified active Turn 15374).
-- **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
-
-## Verified / Settled Locations
-- **Sovio Metro Lobby**: Timetable Board (cols 21-23) verified decorative flavor text. Platform attendant (22, 19) inaccessible behind solid wall.
-- **Global Storage Systems**: HuPhone Mailbox, Item Storage, and Someone's PC Box 1 audited 100% empty.
-
-## Active Hypotheses & Strategic Focus
-- **Hypothesis Q2 (Central Park Online Dating Cross-Interaction)**:
-  - **Rationale**: On Turn 15774, Blonde Girl dialogue recorded ('Was I catfished?'). The intended follow-up with Pink-shirt Boy at (32, 21) failed on Turn 15779 due to a collision at pond curb (32, 27). The cross-interaction remains unexecuted.
-  - **Protocol**: Navigate to (32, 21) via northern boulevard (rows 15-16) to avoid the pond curb completely. Speak directly with Pink-shirt Boy at (32, 21) and test if he responds to the Blonde Girl or triggers Quest 8 ('Valentines Gift').
-
+## Core Blockers & Verified Constraints
+- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step down to (19, 22).
+- **Route 2 Gate (52, 19-22)**: Triggers "I can't go yet... I have things to do!".
+- **Rugged Rocks (Sewers)**: Verified at (22, 10) and (10, 18); requires specialized equipment to smash ("It's a rugged rock, but with some equipment, I could smash it."). Zero equipment in possession.
+- **Storage Room (Sewers 37, 14)**: Red capsule mat displays "Its a simple storage room..." and has solid void collision to south with zero warp.
 
 ## Settled Hypotheses
-- **Hypothesis SB1 (Sewers Physical Rock Obstacles - SETTLED Turn 15828)**:
-  - Dark Sector rugged rock at (22, 10) and southwest corridor rugged rock at (10, 18) both verified to display verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.' with zero move prompts (tile 9, 17 unprobed directly). Field clearance is strictly equipment-gated.
-- **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED Turn 15747)**: Turnstile (19, 21) active; Karate House (14, 15) ambient debate; Central Plaza confrontation tiles clean.
-- **Hypotheses D1 & D2 (Surface & Lancio Audits - SETTLED)**: Lancio pier inert; Ivo Lab stairs blocked; Ivo ambient; Camper (5, 7) ambient joke.
-- **Hypotheses SS2 & SS3 (Sewer Corridors & Platform - SETTLED)**: Eastern storage mat (37, 14) ambient text with void collision. Jackson not present.
+- **Hypothesis Q2 (Central Park Online Dating)**: Both Blonde Girl (43-45, 23-26) and Pink-shirt Boy (33, 20) provide symmetrical ambient humor ("Was I catfished?"). 100% ambient flavor; zero quest or story triggers.
+- **Hypothesis SB1 (Sewers Physical Rock Obstacles)**: Field clearance is strictly equipment-gated.
+- **Hypotheses D1-D3 & SS2-SS3**: Lancio pier, Ivo Lab stairs, Camper, Name Rater, Bikers, Karate house, and Eastern sewer platform verified ambient.
+
+## Active Hypotheses & Strategic Focus
+- **Hypothesis M1 (Metro Station Platform & Attendant Investigation)**:
+  - **Rationale**: The turnstile gate at (19, 21) triggers "I should find dad first!". The platform side contains a station attendant at (22, 19). Can the attendant or platform elements be interacted with across the counter/gate, or is there an alternative way to trigger Dad's appearance?
+  - **Plan**: Inspect Metro Station platform boundaries, check if any NPC in the station or plaza reacts, and re-examine the cutscene sequence where Dad ran outside.
 
 
 <hr>

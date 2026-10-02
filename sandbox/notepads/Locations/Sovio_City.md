@@ -45,7 +45,7 @@
   - **Interior 1F (Verified Turns 7897, 8526, 14446)**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
 
 
-## Southeast Corridor & Central Park (Verified Turns 1569-1572)
+## Southeast Corridor & Central Park
 - **Central Park Pond Feature (Audited Turn 15416-15417)**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
 - **South Sidewalk & Children's Gathering (Audited Turns 13135-13138, 15779)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone (verified Turn 15779).
@@ -71,7 +71,7 @@
     - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
     - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border. 100% decorative exterior with zero doors or interaction scripts.
 
-## Pokémon Center (Verified Turns 1330, 4024-4048, 5518-5527)
+## Pokémon Center
 
 - **Exterior Entrance**: Blue glass door at (44, 12) (column 45 is solid wall; verified Turn 2758).
 
@@ -109,7 +109,7 @@
 
     - **Fixtures & Bounds**: Blue wall terminal/display at (6, 3) east of clerk (inert). Counter structure spans columns 3 to 6 across rows 3-4, completely enclosing clerk with no rear access. Escalator descends south at (5, 6-8) between red handrails. East flank: tile (7, 5) is walkable, (7, 4) solid collision. West flank: tiles (2, 3), (2, 4), (2, 5) walkable; north window wall at (2, 2) and counter side wall at (3, 3) solid collision. Mezzanine 100% audited.
 
-## Sovio Metro Station (Verified Turn 1388)
+## Sovio Metro Station
 
 - **Entrance**: Blue subway portal with 'M' logo at (48, 17) in Central Plaza; entered from south at row 18.
 
@@ -123,7 +123,7 @@
 
 - **Sovio Sewers Secret Entrance (Verified Turn 1666)**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
-## Residential House (North Central) (Audited Turns 1447, 7239-7245, 12848-12863, 15400-15405)
+## Residential House (North Central)
 
 - **Entrance**: Teal door at (39, 7) north of Pokémon Center plaza.
 
@@ -135,11 +135,11 @@
 
 - **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12), PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12). Confirmed 100% ambient flavor; zero items or story triggers.
 
-## City Signpost (Verified Turn 1476)
+## City Signpost
 
 - **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
 
-## Residential House (Central West - Gumball Family) (Verified Turn 5933)
+## Residential House (Central West - Gumball Family)
 
 - **Entrance**: Teal door at (29, 14) (note: column 28 is the wall/pillar).
 
@@ -147,7 +147,7 @@
 
 - **Interior 2F (Audited Turns 5933, 9177)**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
 
-## Residential House (Northwest - Machop Family) (Verified Turn 5950)
+## Residential House (Northwest - Machop Family)
 
 - **Entrance**: Teal door at (14, 15) (column 13 is the left doorframe/knob; entrance warp is at 14, 15; verified Turns 5950, 7850).
 
