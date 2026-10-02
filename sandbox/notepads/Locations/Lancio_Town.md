@@ -87,7 +87,7 @@
 
 - **Green-haired Girl**: Located at (23, 15) facing right. Dialogue (ambient).
 
-- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turns 10098, 15590): "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!" (100% ambient flavor).
+- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turns 10098, 15590): "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
 
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
 

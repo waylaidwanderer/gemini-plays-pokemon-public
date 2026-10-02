@@ -134,7 +134,7 @@
 
 - **Green-haired Girl**: Located at (23, 15) facing right. Dialogue (ambient).
 
-- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turns 10098, 15590): "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!" (100% ambient flavor).
+- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue (verified Turns 10098, 15590): "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
 
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue (ambient).
 
@@ -704,10 +704,11 @@
   - **Execution Record**:
     - Step 1 (Sovio Metro Lobby, Turn 15518): Turnstile passage at (19, 21) tested directly; confirmed strictly blocked by scripted trigger 'I should find dad first!' forcing 1 step Down to (19, 22). Zero NPCs present in lobby.
     - Step 2 (Sovio Pokémon Center, Turns 15526-15530): Straw-hat Camper at (5, 7) re-checked with zero active quests; confirmed ambient joke dialogue regarding Weedle ('Ironic isn't it?'). Boy at (8, 6) confirmed ambient PC tutorial dialogue.
-    - Step 3 (Route 1 & Lancio Town Regional Investigation - IN PROGRESS, Turn 15542+): Transitioned onto Route 1 at (53, 4). Moving southwest to Lancio Town to test 3 specific falsifiable hypotheses:
-      (a) Ivo Lab Basement Stairs (12, 7): Test if barrier text ('I probably shouldn't head down here...') has updated post-sewer clearing.
-      (b) Lancio Harbor Dock (32-34, 25): Test if Harry or ferry transport has returned to provide passage to Inizio Isle.
-      (c) Route 1 / Lancio Field Moves: Re-evaluate Cut Tree at (5, 44) and check town residents for field ability equipment.
+    - Step 3 (Lancio Town Audit - COMPLETED Turn 15597):
+      (a) Ivo Lab Basement Stairs (12, 7): Re-verified active Turn 15595 ('I probably shouldn't head down here...'). Conclusively blocked (future story milestone).
+      (b) Professor Ivo (20, 6): Re-verified Turn 15597; dialogue remains 'Hey, Ashi, how's your new Pokémon?'. No updates.
+      (c) Lancio Harbor Dock: Past audits (Turns 7595, 14527) confirmed inert; no narrative basis connects Jackson to Inizio Isle.
+      Conclusion: Lancio Town contains zero progression triggers. Macro-traversal to Lancio Town is archived as exhausted.
 
 ## Settled Hypotheses
 - **Hypothesis SS3 (Eastern Storage Room Platform - 100% SETTLED & ARCHIVED)**:
