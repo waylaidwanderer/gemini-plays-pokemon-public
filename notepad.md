@@ -725,7 +725,8 @@
   1. Travel across Route 1 to Lancio Town, observing any changes at Route 1 landmarks (Cottage, Cut Tree at 5, 44).
   2. Enter Professor Ivo's Pokémon Laboratory in Lancio Town:
      - Descending basement staircase (12, 7): Tested Turn 18380-18381; barrier ("I probably shouldn't head down here...") remains active.
-     - Professor Ivo (20, 6): Currently speaking to her to check for updated story dialogue regarding Dad, Mother, and the Eclipse Project.
+     - Professor Ivo (20, 6): Spoken to; repeats baseline dialogue ("Hey, Ashi, how's your new Pokémon?"). Zero story updates.
+  3. Check Lancio Town harbor dock (32-34, 23-26) for Harry's boat status.
   4. Check Lancio Town harbor dock (32-34, 23-26) for Harry's boat status.
 
 
