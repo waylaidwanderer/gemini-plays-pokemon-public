@@ -24,6 +24,6 @@
 ### Hypothesis H29: Central Park Dating Couple Investigation
 - **Premise**: Two NPCs in Central Park (the boy at 33, 20 and the blonde girl at 43-45, 23-26) have reciprocal dialogue stating they were supposed to meet someone by the pond and wondering if they were catfished. We test whether interacting with them sequentially initiates a side quest (such as 'Valentines Gift'), yields an item/equipment, or triggers progression dialogue.
 - **Milestones**:
-  - **Milestone 1 (Locate & Speak to Blonde Girl)**: ACTIVE. Walk south along column 44 to (44, 21-25) and interact with the wandering blonde girl.
+  - **Milestone 1 (Locate & Speak to Blonde Girl)**: COMPLETED. Spoke to blonde girl at (44, 24); verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?"
   - **Milestone 2 (Locate & Speak to Pink-Shirt Boy)**: Path around pond north of bank to (33, 20) and interact with the boy in pink shirt.
   - **Milestone 3 (Verify Quest / Trigger Outcome)**: Check dialogue changes, HuPhone quest status, and inventory.
