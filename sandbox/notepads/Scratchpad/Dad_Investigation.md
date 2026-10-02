@@ -30,13 +30,13 @@
   - Status: Settled Turn 15642.
   - Pier Columns (32-34, 25): Physically probed facing South with 'A' on Turn 15640; completely inert. No moored boat, no Harry, zero ocean triggers.
   - Fisherman at (38, 22): Spoken to on Turns 15641-15642; repeats ambient fishing advice ("You know kid... fishing taught me one very important thing..."). Zero updates.
-  - Conclusion: Lancio Town is 100% physically audited and completely exhausted. Zero progression triggers exist in Lancio Town.
+  - Conclusion: Lancio Harbor pier (32-34, 25) and Fisherman (38, 22) verified inert post-sewers; no ferry transport or boat triggers present.
 - **Hypothesis D1 (Surface & Lab Audit - SETTLED & ARCHIVED)**:
   - Sovio Metro Lobby (Turn 15518): Turnstile strictly blocked by 'I should find dad first!'. Zero NPCs in lobby.
   - Sovio Pokémon Center (Turns 15526-15530): Camper (Weedle) and Boy (PC) confirmed ambient.
   - Ivo Lab Basement Stairs at (12, 7) (Turn 15595): Re-verified blocked by 'I probably shouldn't head down here...'. Conclusively future story area.
   - Professor Ivo at (20, 6) (Turn 15597): Re-verified ambient ('Hey, Ashi, how's your new Pokémon?').
-- **Hypothesis SS3 (Eastern Storage Room Platform - 100% SETTLED & ARCHIVED)**:
-  - Status: Settled Turn 15480. Red mat at (37, 14) confirms text "Its a simple storage room..." facing South (Turn 15470) and solid south void collision with zero warp (Turn 15472). Platform perimeter walls (rows 11-15, cols 36-39) confirmed solid with inert 'A'. The storage room is an empty ambient set piece post-retreat; Jackson is definitively not here.
-- **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - 100% SETTLED & ARCHIVED)**:
-  - Status: Settled Turn 15341. Systematic boundary audit of rows 22-28, columns 6-19: (11, 28-26) floor, (11, 25) solid ledge, (10-6, 26) floor & puddle, (6, 26) west wall, (6, 27-28) floor, (6, 29) south void. Zero hidden rooms, NPCs, or progression triggers along audited corridors.
+- **Hypothesis SS3 (Eastern Storage Room Platform - SETTLED & ARCHIVED)**:
+  - Red mat at (37, 14) displays ambient text "Its a simple storage room...". Bounded platform confirmed devoid of doors, warps, or NPCs.
+- **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - SETTLED & ARCHIVED)**:
+  - Corridors (rows 22-28, cols 6-19) audited. Blocked by breakable rocks; zero hidden rooms or NPCs.
