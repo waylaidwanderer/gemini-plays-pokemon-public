@@ -310,7 +310,7 @@
 
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
-  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?'). Confirmed does not accept Antidote or trigger 'Medic!' quest.
+  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?').
 
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
@@ -435,7 +435,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension is impassable due to a solid brick wall at (29, 11). Southern extension at (29, 14) terminates at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat; interacting facing South displays verbatim: "Its a simple storage room..." Platform verified ambient with zero active warps or mechanisms in current state.
+- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat with a downward arrow motif (tested Turn 17204: walkable). Stepping Down from (37, 14) into row 15 bumps into solid impassable boundary with zero active downward warp (tested Turn 17206). Interacting facing South displays verbatim: "Its a simple storage room..." (tested Turn 17207). Storage room appears locked/inactive in current state pending a prerequisite event, key, or story flag.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)

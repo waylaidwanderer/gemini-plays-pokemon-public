@@ -83,7 +83,7 @@
 
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
-  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?'). Confirmed does not accept Antidote or trigger 'Medic!' quest.
+  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?').
 
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
