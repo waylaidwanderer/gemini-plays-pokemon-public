@@ -700,5 +700,7 @@
 - **Lancio Lab Re-Audit (Turns 16069-16071)**:
   - Basement stairs at (12, 7): Confirmed active story barrier verbatim: "I probably shouldn't head down here...".
   - Professor Ivo at (20, 6): Confirmed static ambient dialogue verbatim: "Hey, Ashi, how's your new Pokémon?".
+- **Harbor Dock (32-34, 25)**: Re-audited Turn 16076. Harry and boat absent; confirmed empty ocean water.
+- **Hypothesis L1 Concluded**: Lancio Town audit complete. Lab basement (12, 7), Ivo (20, 6), and Harbor dock (32-34, 25) show zero new story flags. Returning to Sovio City to investigate.
 
 <hr>
