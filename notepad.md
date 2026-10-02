@@ -714,11 +714,18 @@
 - **Inventory & System Audit (H32)**: Items Pocket (Potion x1, Poison Barb x1, Antidote x1), Key Items (HuPhone registered to SELECT, TM Case), Poké Balls (Timer Ball x1, Poké Ball x10). Zero equipment or keys in possession.
 - **PC Terminal & Storage Audit (H37, Turns 17713-17734)**: Someone's PC Box 1 empty (0 Pokémon, 0 eggs); Asher's PC Item Storage contains only Nugget x 1; Mailbox displays "There's no Mail here.". Zero items, messages, or progression flags present in PC.
 - **Southern Avenue & Southern Boundary (Turns 17967-17979)**: 100% audited. Southern Avenue transitions from stone curb (rows 28-29) onto open grassy avenue (rows 30-40) flanked by pine trees; completely devoid of NPCs, items, or hidden passages. Seamlessly transitions into Route 1 at (53, 0) without any story barrier. Falsified as progression trigger.
+- **Route 1 Overworld & Cottage NPC Re-audit (Turns 17983-18031)**: 100% audited. All trainers and residents repeat static baseline dialogue with zero post-tremor changes or story triggers:
+  1. Bug Catcher Duke (45, 12): "You really must be something to be able to counter my defense..." (verified Turn 17983).
+  2. Lass Sonia (27, 15): "Hmm, more harmony maybe?" (verified Turn 18010).
+  3. Youngster Mike (29, 20): "My Pok�mon was completely destroyed by yours..." (verified Turn 18014).
+  4. Cottage Boy (4, 9 / 6, 7): "Now that you got your sample, go and enjoy freedom!" (verified Turn 18031).
+  Concluded: Route 1 contains zero active progression triggers.
 
 ## Active Hypotheses for Progression
 ### Hypothesis H39: External Unlock & Progression Search (Start: Turn 17886)
 - **Premise**: Jackson investigated the tremor and remains missing. While cutscene showed grunts with Jackson in a sewer room, (37, 14) displays "Its a simple storage room..." without standard lock messaging. The mechanical trigger to clear the Metro turnstile block ("I should find dad first!") must be identified through systematic investigation of accessible areas and events.
 - **Investigation Targets**:
-  1. Broader Regional Re-audit: Check for post-tremor changes or overlooked interactions across Route 1 and Lancio Town.
+  1. Route 1 Re-audit: Concluded & Falsified (Turns 17983-18031). Duke, Sonia, Mike, and Cottage Boy verified identical baseline dialogue.
+  2. Sovio City & Metro Focus: Return to Sovio City to investigate unaddressed vectors around the Metro Station, Central Plaza, and the Sewers.
 
 <hr>
