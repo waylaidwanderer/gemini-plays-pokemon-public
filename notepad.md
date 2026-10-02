@@ -275,7 +275,7 @@
 ## Southeast Corridor & Central Park (Verified Turns 1569-1572)
 - **Central Park Pond Feature (Audited Turn 15416-15417)**: At (39, 18) in the north pond water, a round lavender floating creature/motif is visible; north bank at (39, 17) is solid water boundary; interaction trigger is out of reach on foot (2 tiles away from 39, 16); requires Surf or water-based access to test.
 
-- **South Sidewalk & Children's Gathering (Audited Turns 13135-13138, 15779)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone. Jigglypuff (34, 28), and Boy (35, 28).
+- **South Sidewalk & Children's Gathering (Audited Turns 13135-13138, 15779)**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone (verified Turn 15779). Jigglypuff (34, 28) and Boy (35, 28) previously audited Turns 13135-13138.
 
 - **Central Park Boy in Pink Shirt (Audited Turn 13149)**: Boy at (32, 21) verified 100% ambient humor dialogue ('catfished').
 - **Central Park Blonde Girl (Audited Turns 13797, 15774)**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (32, 21).
@@ -693,37 +693,27 @@
 - **Jackson Status**: Captured by Team Siara during tremor cutscene (Turn 1666). Marie broadcast radio retreat on Turn 2682. Jackson's whereabouts remain the central progression gate.
 
 ## Verified / Settled Locations
-- **Sovio Metro Lobby**:
-  - Timetable Board (columns 21-23): Verified Turns 7149, 14276-14278 as decorative flavor text ("It's a timetable showing various destinations!").
-  - Platform Attendant at (22, 19): Inaccessible behind solid north brick wall at row 23; platform passage gated at turnstile (19, 21).
-- **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pokémon) audited 100% empty. Party size/composition does not gate turnstile blocker.
+- **Sovio Metro Lobby**: Timetable Board (cols 21-23) verified decorative flavor text ("It's a timetable showing various destinations!"). Platform attendant (22, 19) inaccessible behind solid wall.
+- **Global Storage Systems**: HuPhone Mailbox, Item Storage, and Someone's PC Box 1 audited 100% empty.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis Q2 (Central Park NPCs, Valentines Gift & Field Equipment Clues)**:
-  - **Rationale**: The turnstile barrier ('I should find dad first!') requires finding Dad. Field obstacles in sewers (rugged rock at 22, 10 and southwest corridor) require rock smash equipment ('with some equipment, I could smash it'). Equipment in modern hacks is gated by side quests or NPCs. Central Park features an online dating couple separated by the pond (Pink-shirt Boy at 32, 21 and Blonde Girl at 43-45, 23-26) matching Quest 8 ('Valentines Gift').
+- **Hypothesis SB1 (Sewers Physical Barriers & Obstacle Clearance Audit)**:
+  - **Rationale**: Surface locations in Sovio and Lancio are fully settled as negative. In Sovio Sewers, two physical barrier clusters gate unvisited territory: the rugged rock at (22, 10) in the Dark Sector, and the cracked rocks at (10, 17) / (9, 18) leading to the southwest corridor. Investigating these physical obstacles directly tests how field clearance is triggered.
   - **Protocol**:
-    1. Ascend to Sovio City Central Park.
-    2. Speak to Blonde Girl on east pond walkway (43-45, 23-26); record verbatim dialogue.
-    3. Speak to Pink-shirt Boy at (32, 21); test if cross-interaction triggers a quest or item.
-    4. Speak to children with Jigglypuff at (33-35, 28); verify if Moon Stone trade or quest exists.
+    1. Navigate from Sovio City Central Park back to Sovio Metro Station and descend into Sovio Sewers.
+    2. Reach Dark Sector via column 30 causeway and Northeast Wooden Staircase (30, 4).
+    3. Approach rugged rock at (22, 10); test interaction, party move prompts (Sirius Mach Punch/Metal Claw), and verify exact obstacle requirements.
+    4. Navigate to western floor (rows 17-25, cols 7-10); directly inspect cracked rocks at (10, 17) and (9, 18).
 
 ## Settled Hypotheses
+- **Hypothesis Q2 (Central Park NPCs - SETTLED & ARCHIVED Turn 15779)**:
+  - Blonde Girl (43-45, 23-26) dialogue verified ambient catfished humor ('Was I catfished?' Turn 15774). Little Girl (33, 28) verified ambient flavor ('I must keep her away from them!' Turn 15779). Pink-shirt Boy (32, 21) previously verified ambient catfished humor. Confirmed zero side quest triggers or items.
 - **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED & ARCHIVED Turn 15747)**:
-  - Target D3.1 (Metro Turnstile): Re-verified active ("I should find dad first!") on Turn 15747 with 0 active side quests.
-  - Target D3.2 (Karate House): Tested post-quest Turn 15739; trainer and girlfriend repeat static fighting style debate. Family Machop ambient.
-  - Target D3.3 (Central Plaza): Traversed confrontation tiles (rows 14-16, cols 37-44) Turn 15726-15727; zero invisible script triggers or items.
-- **Hypothesis D2 (Lancio Harbor Physical Ferry Probe - SETTLED & ARCHIVED)**:
-  - Pier Columns (32-34, 25): Probed facing South on Turn 15640; inert, no moored boat, no Harry.
-  - Fisherman at (38, 22): Spoken to on Turns 15641-15642; ambient advice.
-- **Hypothesis D1 (Surface & Lab Audit - SETTLED & ARCHIVED)**:
-  - Sovio Metro Lobby (Turn 15518): Turnstile strictly blocked by 'I should find dad first!'.
-  - Sovio Pokémon Center (Turns 15526-15530, 15722): Camper (Weedle joke) and Boy (PC) confirmed ambient.
-  - Ivo Lab Basement Stairs at (12, 7) (Turn 15595): Blocked by 'I probably shouldn't head down here...'.
-  - Professor Ivo at (20, 6) (Turn 15597): Ambient ('Hey, Ashi, how's your new Pokémon?').
-- **Hypothesis SS3 (Eastern Storage Room Platform - SETTLED & ARCHIVED Turn 15480)**:
-  - Red mat at (37, 14) displays ambient text "Its a simple storage room...". Bounded platform confirmed devoid of doors, warps, or NPCs. Jackson is definitively not here.
-- **Hypothesis SS2 (Western Gauntlet & Lower Western Floor Probe - SETTLED & ARCHIVED)**:
-  - Corridors (rows 22-28, cols 6-19) audited. Blocked by breakable rocks; zero hidden rooms or NPCs.
+  - Metro Turnstile (19, 21) re-verified active ("I should find dad first!"). Karate House (14, 15) trainer & girlfriend repeat static karate/kickboxing debate (Turn 15739). Central Plaza confrontation tiles (rows 14-16, cols 37-44) clean of invisible triggers (Turn 15727).
+- **Hypotheses D1 & D2 (Surface & Lancio Audits - SETTLED & ARCHIVED)**:
+  - Lancio Harbor pier (32-34, 25) inert, no boat/Harry (Turn 15640); Fisherman (38, 22) ambient (Turn 15642); Ivo Lab basement stairs (12, 7) story blocked (Turn 15595); Professor Ivo (20, 6) ambient (Turn 15597); Camper (5, 7) ambient Weedle joke (Turn 15722).
+- **Hypotheses SS2 & SS3 (Sewer Corridors & Platform - SETTLED & ARCHIVED)**:
+  - Eastern storage platform (36-38, 12-14) mat (37, 14) displays ambient text ("Its a simple storage room...") with solid south void collision (Turn 15480). Southern canal (rows 32-36) and western lower floor fully traversed and cleared.
 
 
 <hr>
