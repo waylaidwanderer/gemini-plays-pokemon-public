@@ -21,6 +21,6 @@
      - Tan building shutters (34-35, 12): Tested collision & interaction; confirmed 100% solid decorative facade with zero text.
      - Boy Rocky (23, 17): Spoken to; repeats baseline dialogue ("This is my partner, Rocky! He's the best...").
      - Partner rock (24, 17): Inspected; confirmed displays "It's just a normal rock...".
-     - Karate house (14, 15): Entered 1F; inspecting residents for updated dialogue.
+     - Karate house (14, 15): 1F Karate trainer & girlfriend repeat baseline martial arts debate text (zero tremor reaction); checking 2F.
      - Next: 3 Bikers (13, 21-23) and office building facade (col 11).
   4. Central Park & Outdoor NPCs: Re-verify whether any outdoor residents react to the post-tremor situation.
