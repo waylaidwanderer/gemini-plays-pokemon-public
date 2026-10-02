@@ -721,10 +721,12 @@
 - **Premise**: Cutscene explicitly showed Jackson held captive by Team Siara in a sewer storage room. The platform door at (37, 14) displays "Its a simple storage room..." and has solid collision, indicating it cannot be opened without a specific key, event flag, or prerequisite trigger. We audit the former grunt battle locations in Sovio Sewers (such as Grunt 2's platform at 18, 21-22 and the lower walkway) to check for dropped keys, hidden switches, or overlooked triggers.
 - **Audit Findings**:
   - Grunt 2's platform (17-18, 21-22): 100% audited. Zero dropped keys, items, or hidden mechanisms present.
+  - Western Terrace (12-17, 11-12): 100% audited. Zero dropped keys, items, or hidden switches present.
 - **Plan**:
   1. Exit Pokémon Center to Sovio City (Complete).
   2. Enter Sovio Sewers via Metro Station mat at (18-19, 25) (Complete).
   3. Inspect Grunt 2's platform (18, 21-22) (Complete, 0 items).
-  4. Inspect rugged rock (10, 18) and ascend western stairs (14, 17) to audit Western Terrace (In progress).
+  4. Inspect rugged rock (10, 18) and Western Terrace (Complete, 0 items).
+  5. Audit Northern Gangway (row 5) and bridge (In progress).
 
 <hr>
