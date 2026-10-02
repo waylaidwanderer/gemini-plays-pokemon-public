@@ -730,5 +730,6 @@
 - **Southwest Rugged Rock (10, 18)**: Verified verbatim: "It's a rugged rock, but with some equipment, I could smash it." Gating columns 7-8 and row 24 curb.
 - **Dark Sector Rugged Rock (22, 10)**: Verified verbatim: "It's a rugged rock, but with some equipment, I could smash it." Positioned at (22, 10) south of row 9 corridor.
 - **Current Position**: Dark Sector at (21, 9) facing South; actively probing southern boundary and adjacent tiles.
+- **Dark Sector Perimeter Audit (Turns 18559-18563)**: Probed tile (21, 10) directly west of rock. Row 11 is solid south elevation wall; tile (20, 10) is solid corner wall. Rugged rock at (22, 10) confirmed seated in south alcove. Ascended stairs at (31, 9) to upper sewers at (31, 4).
 
 <hr>
