@@ -726,8 +726,8 @@
 - **Decomposed Milestones**:
   - **Milestone 1 (Ascend to Metro Station Lobby)**: COMPLETED (Turn 17232). Arrived at (23, 24) on exit mat via autonomous subagent sewer_transit.
   - **Milestone 2 (Audit Metro Lobby Accessible Perimeter)**: COMPLETED (Turn 17232). Verified entire accessible lobby from (23, 24): zero NPCs present, turnstile still prompts "I should find dad first!", Valora is absent.
-  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: ACTIVE. Ascend to Central Plaza (48, 18), inspect the elevated terrace (47-51, 13-17), and check Nana's residence (49, 14).
-  - **Milestone 4 (Audit Pok�mon Center 1F & 2F Mezzanine)**: Inspect every NPC inside the Pok�mon Center for Valora or updated story dialogue.
+  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: COMPLETED (Turn 17240). Elevated terrace (cols 47-51, rows 14-17) audited: zero NPCs present. Nana's house at (49, 14) audited: granddaughter and Nana both confirmed 100% ambient flavor dialogue.
+  - **Milestone 4 (Audit Pokémon Center 1F & 2F Mezzanine)**: ACTIVE. Enter Pokémon Center at (44, 12) to inspect every NPC on 1F and 2F mezzanine for Valora or updated story dialogue.
   - **Milestone 5 (Audit Sovio City Residential Row & Route 2 Border)**: Check all residential homes (Karate, Gumball, Wii, Name Rater) and the Route 2 border structure for updated triggers.
 
 <hr>
