@@ -711,5 +711,10 @@
 
 
 
+### Hypothesis H10: Central Park Pond Feature at (39, 18)
+- **Premise**: In Central Park pond, a round lavender creature/motif floats at (39, 18). Prior notes assumed it was out of reach from row 16. If (39, 17) is walkable, Asher can probe directly south into (39, 18) with 'A'.
+- **Test Coordinates**: Walk to (39, 17), face South into (39, 18), press 'A'.
+- **Pass Criteria**: Dialogue, battle, item, or reaction triggers.
+- **Fail Criteria**: (39, 17) is unwalkable or interacting facing South yields zero response.
 
 <hr>
