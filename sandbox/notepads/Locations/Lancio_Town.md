@@ -18,13 +18,13 @@
 
 ## Points of Interest & Buildings
 
-- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story on Turn 10057 (no northwest mezzanine staircase or PokéMart clerk).
+- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story (no northwest mezzanine staircase or PokéMart clerk).
 
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
+- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
-- **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9) on Turn 7659, resulting in solid collision with house foundation. No doors or interior entrance.
+- **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9), resulting in solid collision with house foundation. No doors or interior entrance.
 
-- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar.
+- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar.
 
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
@@ -32,7 +32,7 @@
 
 ## Visible Field Items
 
-- **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
+- **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
 
 
 
@@ -51,7 +51,7 @@
 
 - Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
 
-- **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
+- **East Research Wing (Comprehensive Audit)**:
 
   - Connected to foyer via hallway at row 10 (columns 13-16).
 
@@ -79,7 +79,7 @@
 
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
 
-- **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested Turns 3348 and 10102 across columns 35-37 at row 21, solid non-enterable collision with no warp or text prompt.
+- **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested across columns 35-37 at row 21, solid non-enterable collision with no warp or text prompt.
 
 
 
@@ -95,4 +95,4 @@
 
 
 
-- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
+- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.

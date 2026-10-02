@@ -65,13 +65,13 @@
 
 ## Points of Interest & Buildings
 
-- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story on Turn 10057 (no northwest mezzanine staircase or PokéMart clerk).
+- **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Verified single-story (no northwest mezzanine staircase or PokéMart clerk).
 
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) on Turn 5152 after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
+- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
-- **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9) on Turn 7659, resulting in solid collision with house foundation. No doors or interior entrance.
+- **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); tested walking east into (40, 9), resulting in solid collision with house foundation. No doors or interior entrance.
 
-- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) on Turn 306 ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar.
+- **Professor Ivo's Pokémon Laboratory**: Verified via signpost at (21, 13) ("Ivo's Pokémon Laboratory"). Large facility in the far northwest with burgundy roof, grey pillars, and red foundation trim. Verified entrance door at (17, 11-12); column 18 is a solid exterior pillar.
 
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
@@ -79,7 +79,7 @@
 
 ## Visible Field Items
 
-- **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot on Turn 7658: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
+- **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
 
 
 
@@ -98,7 +98,7 @@
 
 - Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
 
-- **East Research Wing (Comprehensive Audit Verified Turns 7621-7629)**:
+- **East Research Wing (Comprehensive Audit)**:
 
   - Connected to foyer via hallway at row 10 (columns 13-16).
 
@@ -126,7 +126,7 @@
 
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
 
-- **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested Turns 3348 and 10102 across columns 35-37 at row 21, solid non-enterable collision with no warp or text prompt.
+- **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); tested across columns 35-37 at row 21, solid non-enterable collision with no warp or text prompt.
 
 
 
@@ -142,7 +142,7 @@
 
 
 
-- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean on Turns 7594-7595; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
+- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. All three pier columns (32, 25), (33, 25), and (34, 25) were exhaustively probed with 'A' facing South into the ocean; confirmed 100% inert with no hidden ferry prompts, interaction scripts, or boat triggers.
 
 <hr>
 
@@ -266,7 +266,7 @@
 
 - **East Exit Story Barrier**: Tiles (52, 19), (52, 20), (52, 21), and (52, 22) trigger the story barrier text ("I can't go yet... I have things to do!"), completely blocking eastern passage along rows 19-22 toward Route 2.
 
-- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior .
+- **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior.
   - **Terrace Bounds & Audit**: Tile (51, 15) is open floor (Old Man absent); (52, 15) is solid eastern building wall. Tile (51, 16) has decorative sewer manhole (inert 'A', Machop absent); (52, 16) is solid eastern building wall. Tile (51, 17) is walkable floor behind the wooden signpost; tile (51, 18) is the solid signpost.
 
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid...").
@@ -278,7 +278,7 @@
 - **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Confirmed 100% ambient flavor; does not request or trade Moon Stone .
 
 - **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?" Confirmed 100% ambient humor dialogue and counterpart to the blonde girl at (43-45, 23-26).
-- **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (32, 21).
+- **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" Confirmed verbatim counterpart to the boy at (33, 20).
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
 
@@ -706,13 +706,13 @@
 - **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Field obstacle clearance requires specialized player equipment rather than traditional HM moves. Zero equipment currently in possession.
 
 ## Settled & Exhausted Inquiries
-- **Sovio Sewers 100% Cleared**: Grunt 2 platform (18, 21-22), Western Terrace (cols 11-17, rows 11-12), Northern Gangway (row 5, cols 14-25), Eastern Storage Room platform (36-38, 12-14), column 23 vertical bridge, column 30 causeway, Dark Sector / Basement, Deep Subterranean room, Lower Eastern Walkway (cols 34-37, rows 28-32), and Southern Canal corridor (cols 10-22, rows 32-36). All grunts retreated on Turn 2682; Jackson was freed on Turn 2716 and departed toward the station. No items, hidden triggers, or NPCs remain in Sovio Sewers. Sewers inquiry is permanently CLOSED.
+- **Sovio Sewers 100% Cleared**: Grunt 2 platform (18, 21-22), Western Terrace (cols 11-17, rows 11-12), Northern Gangway (row 5, cols 14-25), Eastern Storage Room platform (36-38, 12-14), column 23 vertical bridge, column 30 causeway, Dark Sector / Basement, Deep Subterranean room, Lower Eastern Walkway (cols 34-37, rows 28-32), and Southern Canal corridor (cols 10-22, rows 32-36). All grunts retreated on Turn 2682; Team Siara grunts retreated on Turn 2682. Jackson is not present in the sewer corridors or storage room. No items, hidden triggers, or NPCs remain in Sovio Sewers. Sewers inquiry is permanently CLOSED.
 - **Audited Domestic Buildings & Public Sector**: Karate House (14, 15), Gumball House (29, 14), North House (39, 7), Terrace House (49, 14), South Commercial Building (47-51, 20-22), Tan Building facade (32-37, 12), Bikers (13, 21-23), Rocky (24, 17), Metro lobby (cols 15-24). All confirmed static ambient entities.
 
 ## Active Hypotheses for Dad & Progression
 
 ### Hypothesis H12: Unvisited or Uninteracted Surface Triggers in Sovio City & Route 1
-- **Premise**: Jackson and Valora departed toward the station on Turn 2716. Since Jackson is not inside the sewers or the Metro platform, the progression trigger must reside in an unfulfilled overworld requirement or an overlooked NPC interaction.
+- **Premise**: Following Team Siara's retreat, Jackson was not found in the accessible sewer areas. Since Jackson is not inside the sewers or the Metro platform, the progression trigger must reside in an unfulfilled overworld requirement or an overlooked NPC interaction.
 - **Sub-hypothesis H12a (Central Park Pond Feature)**:
   - There is a lavender motif/creature floating in the pond at (39, 18).
   - Check if any NPC or path interacts with the pond perimeter.
