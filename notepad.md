@@ -705,29 +705,15 @@
 - **Sovio Metro Turnstile & Sewer Storage Room (H25)**: Turnstile (19, 21) remains blocked by "I should find dad first!". Sewer storage room mat (37, 14) confirmed walkable but south transition is impassable/inactive ("Its a simple storage room...").
 - **Route 1 & Lancio Town Audit (H24)**: Traversal verified devoid of active triggers for Jackson.
 - **Route 1 Column 52 Hedge**: Probed (52, 13); solid collision at rows 14-16.
+- **Karate House (14, 15)**: Audited Turn 17282-17297. Karate trainer, girlfriend, and Machop all confirmed 100% ambient flavor.
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H25: Sovio City Metro Station & Unchecked Subterranean Vectors
-- **Premise**: With the western region (Route 1, Lancio Town, Inizio Isle) conclusively eliminated, the story progression blocker ("I should find dad first!" at the Metro turnstile and "I can't go yet..." at Route 2) is strictly localized to Sovio City or its subterranean sectors. Macro-traversal oscillation back to Lancio is strictly prohibited.
+### Hypothesis H26: Sovio Civic Facilities Audit (Metro Lobby Alcoves & Pokémon Center Mezzanine)
+- **Premise**: With civilian residential houses confirmed ambient and western routes exhausted, investigations must focus strictly on the primary civic facilities tied directly to the incident: the Sovio Metro Station lobby (where Dad vanished and Valora was last present) and the unverified Pokémon Center 2F Mezzanine perimeter.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Return Transit to Sovio City)**: COMPLETED (Turn 17156). Re-entered Sovio City Southern Avenue at (14, 39).
-  - **Milestone 2 (Sovio Metro Station Lobby & Valora Search)**:
-    1. Valora Search: Systematically check Sovio City Central Plaza, Pokémon Center, and Metro Station accessible lobby for Valora's presence.
-    2. Metro Lobby Accessible Perimeter: Audit all accessible tiles in the Metro lobby before the turnstile (scanner pillars, ticket counter, entrance corners).
-    3. Turnstile State: Verify whether the turnstile trigger changes or displays new text once Sovio City exterior is re-checked.
-  - **Milestone 3 (Unchecked Sewers Topography & Equipment Sources)**:
-    1. Re-examine the cutscene origin: If Jackson was held by grunts in a storage room, verify whether another door or passage exists that was overlooked (e.g. elevated walkways, hidden ladders).
-    2. Investigate the "Equipment" mechanic: Determine where specialized rock-smashing equipment is obtained in Sovio City to clear the rugged rocks at (10, 18) and (22, 10).
-
-### Hypothesis H26: Sovio City Surface Systematic Search for Valora & Jackson Triggers
-- **Premise**: With the sewer storage room (37, 14) currently inactive and western routes exhausted, the immediate story progression triggers are localized to Sovio City surface (finding Valora, investigating equipment sources for rugged rocks, and locating Jackson). A systematic, tile-by-tile audit of the Metro lobby perimeter, Central Plaza, elevated terrace, Pok�mon Center, and city residences is required to locate Valora and find Jackson's trail.
-- **Decomposed Milestones**:
-  - **Milestone 1 (Ascend to Metro Station Lobby)**: COMPLETED (Turn 17232). Arrived at (23, 24) on exit mat via autonomous subagent sewer_transit.
-  - **Milestone 2 (Audit Metro Lobby Accessible Perimeter)**: COMPLETED (Turn 17232). Verified entire accessible lobby from (23, 24): zero NPCs present, turnstile still prompts "I should find dad first!", Valora is absent.
-  - **Milestone 3 (Audit Sovio City Central Plaza & Elevated Terrace)**: COMPLETED (Turn 17240). Elevated terrace (cols 47-51, rows 14-17) audited: zero NPCs present. Nana's house at (49, 14) audited: granddaughter and Nana both confirmed 100% ambient flavor dialogue.
-  - **Milestone 4 (Audit Pokémon Center 1F & 2F Mezzanine)**: COMPLETED 1F (Turn 17248-17253). Camper and Boy confirmed ambient; mezzanine bypassed.
-  - **Milestone 5 (Audit Sovio City Residential Row & Route 2 Border)**: ACTIVE. Route 2 barrier at (52, 20) confirmed blocked ("I can't go yet..."). Auditing Karate House at (14, 15), then Gumball (29, 14), Wii (39, 7), and Name Rater (31, 26).
-
+  - **Milestone 1 (Transit to Central Plaza)**: ACTIVE. Path east from (24, 18) past Central Park to Metro Station entrance at (48, 17).
+  - **Milestone 2 (Sovio Metro Station Lobby Physical Traversal)**: PENDING. Perform a rigorous tile-by-tile audit of the western seating alcove (cols 15-18), eastern waiting area (cols 24-28), ticket counters, and attendant counter. Prior check from (23, 24) failed to visit these alcoves.
+  - **Milestone 3 (Pokémon Center 2F Mezzanine Comprehensive Traversal)**: PENDING. Ascend escalator and physically traverse all corners and perimeter tiles of the mezzanine floor to ensure no NPCs or triggers were overlooked.
 
 <hr>
