@@ -16,6 +16,10 @@
 ### Hypothesis H26: Sovio Civic Facilities Audit (Metro Lobby Alcoves & Pokémon Center Mezzanine)
 - **Premise**: With civilian residential houses confirmed ambient and western routes exhausted, investigations must focus strictly on the primary civic facilities tied directly to the incident: the Sovio Metro Station lobby (where Dad vanished and Valora was last present) and the unverified Pokémon Center 2F Mezzanine perimeter.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Transit to Central Plaza)**: ACTIVE. Path east from (24, 18) past Central Park to Metro Station entrance at (48, 17).
-  - **Milestone 2 (Sovio Metro Station Lobby Physical Traversal)**: PENDING. Perform a rigorous tile-by-tile audit of the western seating alcove (cols 15-18), eastern waiting area (cols 24-28), ticket counters, and attendant counter. Prior check from (23, 24) failed to visit these alcoves.
-  - **Milestone 3 (Pokémon Center 2F Mezzanine Comprehensive Traversal)**: PENDING. Ascend escalator and physically traverse all corners and perimeter tiles of the mezzanine floor to ensure no NPCs or triggers were overlooked.
+  - **Milestone 1 (Transit to Central Plaza)**: COMPLETED (Turn 17318). Reached Central Plaza and entered Sovio Metro Station.
+  - **Milestone 2 (Sovio Metro Station Lobby Physical Traversal)**: COMPLETED (Turn 17325). 100% audited all accessible lobby tiles:
+    1. Western seating alcove (cols 16-17, rows 22-25): Blue chairs and perimeter walls physically tested and verified inert scenery.
+    2. Turnstile passage at (19, 21): Physically re-probed; triggers "I should find dad first!" and forces 1 step south.
+    3. Eastern perimeter: Wall terminates directly at stairs (24, 24); zero eastern alcoves exist.
+    4. Conclusively verified: Dad and Valora are absent from the Metro lobby; zero new switches/items present.
+  - **Milestone 3 (Pokémon Center 2F Mezzanine Comprehensive Traversal)**: ACTIVE. Exit Metro Station to Central Plaza (48, 17), enter Pokémon Center at (44, 12), ascend escalator to 2F mezzanine, and physically traverse all corners and perimeter tiles.
