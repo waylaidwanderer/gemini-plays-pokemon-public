@@ -10,12 +10,13 @@
 - **Route 1 & Lancio Town Audit (H24)**: Traversal verified devoid of active triggers for Jackson.
 - **Karate House (14, 15)**: Audited Turn 17282-17297. Karate trainer, girlfriend, and Machop all confirmed 100% ambient flavor.
 - **Civic Facilities Audit (H26)**: Metro lobby alcoves (western seating cols 16-17, eastern perimeter wall) and Pokémon Center 2F Mezzanine (west flank, east flank, clerk booth, terminal) 100% physically audited (Turns 17318-17352) and confirmed devoid of story triggers or NPCs.
+- **Outdoor Perimeters & Route 2 Barrier (H27)**: Southern sidewalk (rows 27-31), southeast trash cans (46, 30), Jigglypuff gathering (33-35, 28), and Route 2 barrier (52, 19-22) 100% physically audited (Turns 17374-17396). Barrier confirmed active ("I can't go yet... I have things to do!"); all outdoor NPCs confirmed ambient flavor.
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H27: Sovio City Outdoor Southern Perimeter & Equipment Vector Audit
-- **Premise**: With civic facilities (Metro lobby, PokeCenter 1F & 2F) and indoor residences fully audited, the remaining physical outdoor territory in Sovio City is the southern perimeter (rows 27-31 south of Central Park pond and the southeast corridor). We must execute a grounded physical traversal of this area to verify all outdoor tiles, NPCs, and boundaries before drawing conclusions.
+### Hypothesis H28: Search for Valora & Jackson Progression Triggers in Sovio Sewers
+- **Premise**: With all Sovio City surface facilities, residential interiors, and outdoor perimeters 100% verified devoid of Jackson or active event flags, the only remaining location tied directly to the tremor and Team Siara confrontation is the Sovio Sewers. Valora entered the sewers during the initial cutscene and has never been located on the surface or audited underground. We must systematically search the sewers to locate Valora and inspect the post-retreat subterranean environment.
 - **Decomposed Milestones**:
-  - **Milestone 1 (Exit Metro Station to Central Plaza)**: COMPLETED (Turn 17374). Ascended stairs at (24, 24) and emerged outside in Central Plaza at (48, 17).
-  - **Milestone 2 (Physical Traversal of Southern Sidewalk & Central Park South)**: COMPLETED (Turn 17388). Traversed southern perimeter (rows 27-31): southeast trash cans/facade (46, 30), hedge border (40-42, 30), Cheering Boy (35, 28), Jigglypuff (34, 28), and Little Girl (33, 28). All verified ambient flavor; zero items or triggers present.
-  - **Milestone 3 (Route 2 Barrier Re-Verification & Boundary Audit)**: ACTIVE. Inspect the eastern corridor leading to the Route 2 barrier at (52, 19-22) under the building overhang to confirm state and check for any outdoor event triggers.
+  - **Milestone 1 (Transit to Sovio Sewers via Metro Station)**: ACTIVE. Walk west from (51, 19) to Metro portal at (48, 17), cross lobby to red mat at (18-19, 25), and descend to Sovio Sewers (37, 22).
+  - **Milestone 2 (Sewer Upper Landing & Lower Walkways Audit)**: Inspect landing (37, 22), upper puddle (32-35, 21-23), and lower walkways (rows 24-28) for Valora or new event flags.
+  - **Milestone 3 (Eastern Gangway & Storage Room Platform Inspection)**: Traverse row 13 gangway to storage room platform (cols 36-38, rows 12-14) to audit the post-retreat storage area.
