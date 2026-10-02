@@ -48,7 +48,7 @@
   - Columns 52-53 connect south from Sovio City (53, 0) to row 12 in the northeast meadow.
   - South of row 12: Column 52 dead-ends at row 13 into dense horizontal hedges (rows 14-16) and a conical rock spire.
   - Duke Meadow & Connector: Row 12 is an open corridor connecting column 52 west across columns 45-51 into Duke's meadow at (45, 12).
-  - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. Passable traversal requires stepping Up at (35, 11) to the row 9 open grass lane at (35, 9), following row 9 east to column 44, and stepping Down south into Duke's meadow.
+  - Row 11 Canopy Obstacle & Row 9 Bypass: Eastbound traversal along row 11 is blocked at (36, 11) by solid pine tree canopy collision. 
   - Obstacles & Collisions: Solid pine tree trunks at (46, 9) and (46, 10) block direct eastward traversal from (45, 9-10). Pine tree trunk at (48, 14) and foliage at (47, 15) block southward passage from row 14.
 - **Cottage-to-Clearing & Sand Highway Connections**:
   - Cottage West Corridor & Column 30 Hedge Opening: From the Cottage yard along row 26, the corridor runs west past columns 34-31 to column 30. Column 30 corridor connects north through rows 25-21 to (30, 21), where row 20 is blocked north by a solid pine tree trunk at (30, 20). Accessing the Northwest Clearing requires stepping west from (30, 21) across walkable clover ground at (29, 21) and (28, 21), then north along column 28 past Youngster Mike at (29, 20) into the clearing.
@@ -66,5 +66,5 @@
   - Southward Hop: Stepping South from (41, 19) hops over the one-way ledge at row 20 and lands on (41, 21) in the Cottage yard.
 - **Hidden Hedge Passage**: At columns 37-38, rows 6-8, a secret passable passage cuts south through the hedge: from (36, 6) east through (37, 6) and (38, 6), then south through (38, 7) and (38, 8) directly onto the row 9 open grass lane at (38, 9). Connects the northern rock spire clearing south to Duke's meadow.
 
-- **Sand Highway Column 35 Bounds**: Column 35 is blocked south at row 31 by pine tree border. Traversal south along Sand Highway must follow columns 36-37.
+- **Sand Highway Column 35 Bounds**: Column 35 is blocked south at row 31 by pine tree border. 
 - **Row 30 Forest Canopy Passage**: Tile (35, 30) and (34, 30) are walkable alcove tiles under the canopies, but (33, 30) is solid pine tree collision.
