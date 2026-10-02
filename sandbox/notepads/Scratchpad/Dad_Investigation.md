@@ -12,20 +12,25 @@
 - **Global Storage Systems (Verified Turns 14291-14315)**: HuPhone Mailbox ('There's no Mail here.'), HuPhone Item Storage ('There are no items.'), and Someone's PC Box 1 (0 Pokémon) audited 100% empty. Party size/composition does not gate turnstile blocker.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis D2 (Lancio Harbor Physical Ferry Probe)**:
-  - **Rationale**: Jackson and Harry are close associates who brought Asher from Inizio Isle. Hypothesis D1 Step 3 planned to test the dock but cited old pre-sewer notes (Turn 14527) instead of physical verification. To maintain empirical rigor, physically probe the pier columns at (32-34, 25) to test if Harry, a moored boat, or an interaction trigger is present post-sewer clearing.
-  - **Testable Variables & Protocol**:
-    1. Resolve active wild battle on Route 1.
-    2. Traverse west to Lancio Town (0, 45) and south to the harbor pier at (32-34, 25).
-    3. Physically inspect tiles (32, 25), (33, 25), and (34, 25) facing South into the ocean with 'A'.
-    4. Speak with Fisherman at (38, 22) to verify if dialogue has changed post-sewer clearing.
-- **Hypothesis D3 (Sovio City Specific Unexamined Variables Contingency)**:
-  - **Rationale**: If Lancio Harbor is confirmed physically inert, the progression trigger must lie in Sovio City. Rather than general re-examination, test specific high-value unexamined variables:
-    1. Re-confront Metro Station Turnstile at (19, 21) with empty quest log / refreshed party.
-    2. Physical probe of Sovio Metro train tracks / platform boundary if reachable via any hidden tiles.
-    3. Re-examine the Karate House Machop and resident at (14, 15) post-toy quest completion.
+- **Hypothesis D3 (Sovio City Specific Unexamined Variables & Narrative Triggers)**:
+  - **Rationale**: With Lancio Town conclusively and exhaustively audited as negative, the progression gate to resolve the turnstile blocker ("I should find dad first!") must reside in Sovio City, where Dad ran during the tremor. Rather than vague exploration, we execute a strict, coordinate-anchored protocol targeting specific unexamined variables:
+  - **Protocol & Target Coordinates**:
+    1. **Target D3.1: Metro Station Lobby & Turnstile Barrier Re-verification**:
+       - Coordinates: (19, 21) in Sovio Metro Station lobby.
+       - Test: Approach turnstile from (19, 22) facing North. Verify if blocker text ("I should find dad first!") remains active with the side quest log fully resolved. Also probe scanner pillars at (18, 21) and (20, 21) and attendant at (22, 19).
+    2. **Target D3.2: Karate House Post-Quest Interaction**:
+       - Coordinates: (14, 15) in Sovio City northwest.
+       - Test: Enter interior at (5, 36). Speak to Karate trainer (3, 34), girlfriend (3, 33), and family Machop (6-7, 34) now that the Lost Toy quest is completed and cleared from the active quest log.
+    3. **Target D3.3: Confrontation Plaza & Surroundings**:
+       - Coordinates: (40-48, 10-18) outside Sovio Pokémon Center.
+       - Test: Inspect the central plaza tiles where Dad, Mother, and the grunts stood during Turns 1225-1318 to verify if an invisible trigger, fallen item, or narrative cue exists.
 
 ## Settled Hypotheses
+- **Hypothesis D2 (Lancio Harbor Physical Ferry Probe - SETTLED & ARCHIVED)**:
+  - Status: Settled Turn 15642.
+  - Pier Columns (32-34, 25): Physically probed facing South with 'A' on Turn 15640; completely inert. No moored boat, no Harry, zero ocean triggers.
+  - Fisherman at (38, 22): Spoken to on Turns 15641-15642; repeats ambient fishing advice ("You know kid... fishing taught me one very important thing..."). Zero updates.
+  - Conclusion: Lancio Town is 100% physically audited and completely exhausted. Zero progression triggers exist in Lancio Town.
 - **Hypothesis D1 (Surface & Lab Audit - SETTLED & ARCHIVED)**:
   - Sovio Metro Lobby (Turn 15518): Turnstile strictly blocked by 'I should find dad first!'. Zero NPCs in lobby.
   - Sovio Pokémon Center (Turns 15526-15530): Camper (Weedle) and Boy (PC) confirmed ambient.
