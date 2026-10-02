@@ -703,23 +703,24 @@
 ## Core Verified Blockers
 - **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City.
 - **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher 1 step south to (19, 22). Attendant at (22, 18-19) is unreachable behind solid wall/turnstile structure.
-- **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Zero equipment currently in possession.
-- **Storage Room Mat (Sewers 37, 14)**: Displays "Its a simple storage room..." and has solid void collision to south with zero warp. Closed inquiry.
+- **Rugged Rocks (Sewers)**: (22, 10) and (10, 18) display "It's a rugged rock, but with some equipment, I could smash it." Field obstacle clearance requires specialized player equipment rather than traditional HM moves. Zero equipment currently in possession.
 
-## Settled Inquiries
-- **Audited Domestic Buildings & Public Sector**: Karate House (14, 15), Gumball House (29, 14), North House (39, 7), Terrace House (49, 14), South Commercial Building (47-51, 20-22), Tan Building facade (32-37, 12), Bikers (13, 21-23), Rocky (24, 17), Metro lobby (cols 15-24), and Sewer lower eastern basin rim (cols 34-37, rows 28-32). All confirmed static ambient entities with zero story progression triggers.
+## Settled & Exhausted Inquiries
+- **Sovio Sewers 100% Cleared**: Grunt 2 platform (18, 21-22), Western Terrace (cols 11-17, rows 11-12), Northern Gangway (row 5, cols 14-25), Eastern Storage Room platform (36-38, 12-14), column 23 vertical bridge, column 30 causeway, Dark Sector / Basement, Deep Subterranean room, Lower Eastern Walkway (cols 34-37, rows 28-32), and Southern Canal corridor (cols 10-22, rows 32-36). All grunts retreated on Turn 2682; Jackson was freed on Turn 2716 and departed toward the station. No items, hidden triggers, or NPCs remain in Sovio Sewers. Sewers inquiry is permanently CLOSED.
+- **Audited Domestic Buildings & Public Sector**: Karate House (14, 15), Gumball House (29, 14), North House (39, 7), Terrace House (49, 14), South Commercial Building (47-51, 20-22), Tan Building facade (32-37, 12), Bikers (13, 21-23), Rocky (24, 17), Metro lobby (cols 15-24). All confirmed static ambient entities.
 
-## Active Hypotheses
+## Active Hypotheses for Dad & Progression
 
-### Hypothesis H11: Sovio Sewers Unexamined Sectors & Drop Sites Audit
-- **Premise**: Team Siara grunts retreated on Turn 2682. In Gen 3 engine design, unexamined platforms (Grunt 2 platform at 18, 21-22, Western Terrace at 11-15, rows 11-16, and row 5 gangway) may contain the story trigger or captive Dad.
-- **Test 1 (Grunt 2 Platform at 18, 21-22)**: AUDITED (Turn 16229/16231). Tiles (18, 22) and (18, 21) probed facing all 4 directions with 'A'; confirmed 100% bare floor with zero items or hidden triggers.
-- **Test 2 (Western Terrace at 12-17, rows 11-12)**: AUDITED (Turn 16240-16250). Probed floor and perimeter walls; confirmed bare terrace with wild encounters (Dunsparce), zero items, switches, or story triggers.
-- **Test 3 (Northern Gangway along row 5, cols 14-25)**: AUDITED (Turn 16254-16278). Walked entire gangway, probed north wall at (14, 3) and (23, 3), tested west dead-end at (14, 4-5) and east dead-end at (25, 5); confirmed 100% bare gangway with wild encounters (Koffing, Klink) and zero items, switches, or story triggers.
-- **Active Tests**:
-  1. Column 23 Vertical Bridge & Eastern Platform (rows 12-14, cols 36-38): descend bridge to row 13 and re-verify storage room surroundings.
-- **Pass Criteria**: Discovery of an interactable trigger, NPC, or dialogue advancing the search for Dad.
-- **Fail Criteria**: All tested platforms and floor tiles are completely bare with zero items or triggers.
+### Hypothesis H12: Unvisited or Uninteracted Surface Triggers in Sovio City & Route 1
+- **Premise**: Jackson and Valora departed toward the station on Turn 2716. Since Jackson is not inside the sewers or the Metro platform, the progression trigger must reside in an unfulfilled overworld requirement or an overlooked NPC interaction.
+- **Sub-hypothesis H12a (Central Park Pond Feature)**:
+  - There is a lavender motif/creature floating in the pond at (39, 18).
+  - Check if any NPC or path interacts with the pond perimeter.
+- **Sub-hypothesis H12b (Quest Engine / Side Quest Prerequisite)**:
+  - In Pokémon Sors, the HuPhone tracks quests. Lost Pidgey and Lost Toy are completed.
+  - Check whether starting/completing another side quest (or speaking to specific quest givers like the Camper with poisoned Weedle, or Professor Ivo, or the Fisherman) advances the world state or unlocks equipment.
+- **Sub-hypothesis H12c (Re-checking Metro Platform Attendant & Exterior)**:
+  - Examine the exact triggers in the Metro lobby and Central Plaza surrounding the station.
 
 
 <hr>
