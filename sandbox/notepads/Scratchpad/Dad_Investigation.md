@@ -11,3 +11,6 @@
 - **Hypothesis D6 (Investigating Unexamined Pathways & Regional Story Connections)**:
   - **Rationale**: Domestic residences and ambient NPCs are confirmed static. Jackson was kidnapped during the tremor cutscene (Turn 1666) and Team Siara retreated (Turn 2682). Turnstile gate requires finding Dad. We must expand search beyond the 4-building circuit to unexamined physical pathways and regional connections.
   - **Action Plan**: Systematically test unchecked physical pathways and boundary connections across Sovio City and adjacent routes.
+- **Lancio Lab Re-Audit (Turns 16069-16071)**:
+  - Basement stairs at (12, 7): Confirmed active story barrier verbatim: "I probably shouldn't head down here...".
+  - Professor Ivo at (20, 6): Confirmed static ambient dialogue verbatim: "Hey, Ashi, how's your new Pokémon?".
