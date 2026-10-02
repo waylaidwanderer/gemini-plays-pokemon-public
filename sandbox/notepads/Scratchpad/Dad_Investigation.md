@@ -40,6 +40,6 @@
 ### Hypothesis H34: Sovio Metro Station Platform & Attendant Investigation
 - **Premise**: Physical audits confirm Jackson is not in Sovio Sewers. The turnstile (19, 21) blocks platform entry with "I should find dad first!", while an attendant stands at (22, 19). We investigate whether interacting with the attendant from the gate or checking Dad's surface investigation path resolves the blocker.
 - **Plan**:
-  1. Return to Sovio Metro Station lobby via sewer_transit (In progress).
-  2. Inspect the turnstile and attendant from (18-21, 21).
-  3. Sweep Sovio City exterior along the tremor investigation path.
+  1. Return to Sovio Metro Station lobby via sewer_transit (Complete, Turn 17675).
+  2. Inspect the turnstile and attendant from (18-21, 21) (Verified: turnstile triggers "I should find dad first!" and forces step to 19, 22; attendant unreachable).
+  3. Sweep Sovio City exterior along the tremor investigation path (In progress).
