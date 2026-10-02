@@ -14,6 +14,11 @@
 
 ### Hypothesis H24: Route 1 Western Corridor & Regional Connectivity Audit
 - **Premise**: Route 1 row 12 connects Duke's meadow west to the Northwest Clearing, Cottage bypass, Sand Highway, and Lancio Town approach. The regional search space outside Sovio City has not been systematically traversed to its western terminus since the tremor event. Testing the full westward corridor will determine if regional event triggers, NPCs, or progression items exist outside Sovio City.
-- **Target Coordinates**: Route 1 row 12 corridor (cols 45-52), Northwest Clearing (cols 24-31), Sand Highway (rows 26-38), and Lancio Town border (0, 45).
+- **Decomposed Milestones**:
+  - **Milestone 1 (Duke Meadow to Northwest Clearing)**: Ascend column 44 to row 9 bypass, follow row 9 west across columns 44-35, and descend at column 35 into the Northwest Clearing.
+  - **Milestone 2 (Northwest Clearing Audit)**: Probe Lass Sonia (27, 15) and Youngster Mike (29, 20) for post-tremor dialogue updates or event flags.
+  - **Milestone 3 (Sand Highway & Cottage Bypass)**: Navigate south along column 30 and rows 26-38 through the bird track trail and hedge gap at (32, 39).
+  - **Milestone 4 (Southern Corridor to Lancio Town)**: Follow row 44 west past Signboard 2 (19, 42) and Central Pine Tree (10, 46) to the Lancio Town transition at (0, 45-46).
+  - **Milestone 5 (Lancio Town Audit)**: Check Lancio Harbor pier for boat/ferry status and consult Professor Ivo's Lab for progression flags.
 - **Pass Criteria**: Discover new dialogue, an active event trigger, a key progression item (e.g. equipment or HM), or an accessible path to advance the main story.
-- **Fail Criteria**: Complete uninterrupted traversal of Route 1's western corridors to Lancio Town yields only previously documented static dialogue and obstacles.
+- **Fail Criteria**: Complete uninterrupted traversal across all 5 milestones yields only previously documented static dialogue and obstacles.
