@@ -13,6 +13,7 @@
 - **Sewer Subterranean Audit (H28)**: 100% physically mapped; upper landing, lower corridor (row 28), western terrace, catwalks, and Dark Sector contain zero interactive triggers, items, or NPCs post-retreat. Rugged rocks require specialized equipment.
 - **Central Park Dating Couple (H29)**: Speaking to blonde girl (44, 24) and pink-shirt boy (33, 22) sequentially produces static reciprocal dialogue ("Was I catfished?"); verified zero quest triggers, items, or progression changes.
 - **Gumball House 2F Audit (H30)**: Bed/sleeping resident at (27, 15-16) and blue PC terminal at (20, 12) verified 100% inert decorative scenery; green bookshelf at (22, 12) displays generic "It's crammed full of Pokémon books.". Zero progression triggers or clues.
+- **Metro Station Lobby Audit (H31)**: Lobby 100% audited; west wall chairs (16, 24-25) confirmed inert decorative scenery. Platform visually audited: 4 blue chairs, yellow vending machine, station attendant at (22, 19). Turnstile passage at (19, 21) actively triggers 'I should find dad first!' and forces step back to (19, 22).
 
 ## Active Hypotheses for Progression
 
@@ -22,9 +23,3 @@
 
 
 
-### Hypothesis H31: Sovio Metro Station Lobby Comprehensive Audit
-- **Premise**: With all civilian residences, outdoor park sectors, and sewer corridors conclusively eliminated, the Metro Station is the primary hub directly tied to Jackson's arrival, the tremor, and the Amor City departure. We conduct a full coordinate and perimeter audit of the Metro Station lobby (east flank past column 24, west flank past column 18, and all counter/wall tiles) to identify any overlooked NPC, ticket clerk, counter interaction, or trigger.
-- **Milestones**:
-  - **Milestone 1 (Exit House & Return to Metro Station)**: COMPLETED (Turn 17544). Exited Gumball house, pathed east to Central Plaza, and entered Metro Station; arrived at (23, 24).
-  - **Milestone 2 (Lobby Perimeter & Counter Audit)**: ACTIVE. Audited west chairs at (16, 24-25) (inert). Visually confirmed platform has 4 blue chairs and yellow vending machine with 0 NPCs. Now testing turnstile gate at (19, 21).
-  - **Milestone 3 (Evaluate Findings)**: Record all tile boundaries and check for new dialogue or triggers.
