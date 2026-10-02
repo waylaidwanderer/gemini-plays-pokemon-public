@@ -178,7 +178,7 @@
   - Rattata (Lv3, Normal).
   - Pichu (Lv3, Electric).
   - Cleffa (Lv4, Fairy).
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pok�mon). Defeated. Post-defeat ambient dialogue: "My Pok�mon was completely destroyed by yours...".
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon). Defeated. Post-defeat ambient dialogue: "My Pokémon was completely destroyed by yours...".
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated. Post-defeat ambient dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Defeated. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
 - **NPC 7 (Boy in Grass)**: Located around (11-12, 48-50) near Central Pine Tree, wandering. Dialogue: "I gotta be careful when I walk around in the tall grass...".
@@ -206,7 +206,7 @@
   - Sand Highway runs south from Cottage (columns 35-37) across rows 26-38 to the hedge gap at (32, 39), connecting directly to the southern meadow trail at (30, 39) and (29, 41).
 - **Southern Corridor & Lancio Town Approach**:
   - Dirt corridor along row 44 connects column 5 cobblestone road east past Signboard 2 (19, 42) through (22-24, 44) to column 26 hedge gap, ending east at alcove (27, 44) which is blocked east and south by solid pine trees.
-  - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47): Bypassed west via row 48 directly under the signboard posts at (11, 48) and (10, 48).
+  - Central Pine Tree at (10, 44-46) and Signboard at (10-11, 46-47).
   - Cobblestone road at row 45 leads west past column 5 into Lancio Town at (0, 45-46).
 
 - **Northwest Clearing Layout & Connections**: Western boundary terminates at column 24 (cols 0-23 solid pine trees). Row 14 western flank blocked at (24, 14). At row 13 east of column 29 is a dead-end alcove bounded by pine tree (29, 12) and horizontal hedge at (30, 13-14). The passable eastward corridor runs south of the hedge along row 15 through (28-31, 15), then cuts north through hedge gap at column 31 (rows 14-11) past pink bird tracks at (31, 13) and blue bird tracks at (31, 12) directly into row 11 meadow corridor. Connected to south via column 30 corridor.
