@@ -414,7 +414,7 @@
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
   - Elevated Gangway (Northern Corridor): A horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23 (verified Turns 2198, 3648). The vertical bridge crossing south across the chasm is located at column 23 (rows 6-12; visually verified Turn 14031).
-  - Southwest Corridor & Obstruction (Verified Turns 2380-2386, 6138-6141): Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 17) and (9, 18) by two diagonal cracked rocks between the row 16 brick wall and row 19 void chasm (verified Turn 6140). Both approaches impassable without HM Rock Smash.
+  - Southwest Corridor & Obstruction (Verified Turns 2380-2386, 6138-6141): Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 18) and (9, 17) by two diagonal rugged rocks between the row 16 brick wall and row 19 void chasm. Interacting with 'A' displays verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.' (verified Turn 15828). Both approaches require equipment.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Western Terrace Wall Ladder (Verified Turn 4507): Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters (wild Koffing verified on tile 15, 8 on Turn 7788).
 
@@ -700,11 +700,11 @@
 - **Hypothesis Q2 (Central Park Online Dating Cross-Interaction)**:
   - **Rationale**: On Turn 15774, Blonde Girl dialogue recorded ('Was I catfished?'). The intended follow-up with Pink-shirt Boy at (32, 21) failed on Turn 15779 due to a collision at pond curb (32, 27). The cross-interaction remains unexecuted.
   - **Protocol**: Navigate to (32, 21) via northern boulevard (rows 15-16) to avoid the pond curb completely. Speak directly with Pink-shirt Boy at (32, 21) and test if he responds to the Blonde Girl or triggers Quest 8 ('Valentines Gift').
-- **Hypothesis SB1 (Sewers Southwest Corridor Cracked Rocks Audit)**:
-  - **Rationale**: Rugged rock at (22, 10) re-verified on Turn 15809 to strictly require 'some equipment' without move prompts. The cracked rocks at (10, 17) / (9, 18) leading to the southwest corridor (cols 7-8) have not been inspected with modern protocol.
-  - **Protocol**: Navigate to western sewer floor (rows 17-25, cols 7-10); directly inspect cracked rocks at (10, 17) and (9, 18) with 'A'.
+
 
 ## Settled Hypotheses
+- **Hypothesis SB1 (Sewers Physical Rock Obstacles - SETTLED Turn 15828)**:
+  - Dark Sector rugged rock at (22, 10) and southwest corridor rugged rocks at (10, 18) / (9, 17) both verified to display verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.' with zero move prompts. Field clearance is strictly equipment-gated.
 - **Hypothesis D3 (Sovio City Specific Unexamined Variables - SETTLED Turn 15747)**: Turnstile (19, 21) active; Karate House (14, 15) ambient debate; Central Plaza confrontation tiles clean.
 - **Hypotheses D1 & D2 (Surface & Lancio Audits - SETTLED)**: Lancio pier inert; Ivo Lab stairs blocked; Ivo ambient; Camper (5, 7) ambient joke.
 - **Hypotheses SS2 & SS3 (Sewer Corridors & Platform - SETTLED)**: Eastern storage mat (37, 14) ambient text with void collision. Jackson not present.
