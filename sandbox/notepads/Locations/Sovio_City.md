@@ -2,7 +2,7 @@
 
 ## Geography & Connections
 
-- **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
+- **South**: Connects to Route 1 at columns 14-15, row 39. transitions directly to Route 1 at (53, 0) without any story barrier text.
 
   - **Southern Avenue Bounds**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
 
@@ -14,8 +14,8 @@
 
 - **Park East Border Obstacles**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) (probed with 'A'; confirmed inert with zero items). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12; verified Turns 14698, 14701).
-  - **Rear Biker Lane (Column 12, Verified Turns 14695-14706)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall (probed with 'A'; inert).
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
+  - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall (probed with 'A'; inert).
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable. Moving Right into (18, 27) is solid foundation wall. Moving Up from (17, 26) into (17, 25) is solid concrete window frame wall. Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
@@ -24,11 +24,11 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock..."). Verified 100% ambient humor dialogue.
 
-- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) probed with 'A' on Turn 14464; confirmed completely inert with zero items.
+- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) confirmed completely inert with zero items.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. Eastern facade of the office building at column 11 across rows 16-20 physically probed tile-by-tile with collision and 'A' interactions confirmed 100% solid wall with zero doors, secret entrances, or items. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
-- **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
+- **West Avenue North Boundary **: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
 - **Inter-Building Gap Audit**: Solid walls at (30, 14), (31, 13), and (32, 12) confirmed with collision checks and 'A' interactions; no passage exists between Gumball house and tan building.
 
 - **Southwest Boundary**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision; no passage, hidden items, or NPCs present.
@@ -85,7 +85,7 @@
 
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
-  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?'). Confirmed does not accept Antidote or trigger 'Medic!' quest (verified Turn 15722).
+  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?'). Confirmed does not accept Antidote or trigger 'Medic!' quest.
 
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
@@ -147,7 +147,7 @@
 
 - **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32) repeats 'I love this show!', mother at (27, 33) repeats 'My son is watching some cartoon...', and wide-screen TV at (25-26, 30). Confirmed 100% ambient domestic flavor dialogue.
 
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) confirmed completely inert with zero interaction scripts.
 
 ## Residential House (Northwest - Machop Family)
 

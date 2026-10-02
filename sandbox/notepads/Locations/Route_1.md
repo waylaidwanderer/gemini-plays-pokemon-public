@@ -16,23 +16,23 @@
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass.
 - **Wild Encounters**:
-  - Wooper (Lv3, Water/Ground; verified Turn 458).
-  - Starly (Lv3, Normal/Flying; verified Turn 481).
-  - Nidoran♀ (Lv3, Poison; verified Turn 494).
-  - Nidoran♂ (Lv2, Poison; verified Turn 1069).
-  - Pidgey (Lv2, Normal/Flying; verified Turn 520).
-  - Mareep (Lv3, Electric; verified Turns 722, 821).
-  - Weedle (Lv2, Bug/Poison; verified Turn 833).
-  - Bidoof (Lv2, Normal; verified Turn 877).
-  - Caterpie (Lv2, Bug; verified Turn 890).
-  - Rattata (Lv3, Normal; verified Turn 1859).
-  - Pichu (Lv3, Electric; verified Turn 8158).
-  - Cleffa (Lv4, Fairy; verified Turn 11825).
+  - Wooper (Lv3, Water/Ground).
+  - Starly (Lv3, Normal/Flying).
+  - Nidoran♀ (Lv3, Poison).
+  - Nidoran♂ (Lv2, Poison).
+  - Pidgey (Lv2, Normal/Flying).
+  - Mareep (Lv3, Electric).
+  - Weedle (Lv2, Bug/Poison).
+  - Bidoof (Lv2, Normal).
+  - Caterpie (Lv2, Bug).
+  - Rattata (Lv3, Normal).
+  - Pichu (Lv3, Electric).
+  - Cleffa (Lv4, Fairy).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon). Defeated.
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated. Post-defeat ambient dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
 - **NPC 7 (Boy in Grass)**: Located around (11-12, 48-50) near Central Pine Tree, wandering. Dialogue: "I gotta be careful when I walk around in the tall grass...".
-- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue.
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. single room with no rear exits or stairs; resident boy provides ambient dialogue.
 - **NPC 3 (Science Guy)**: Located around (39-41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?". Clearing terminates east at column 42 in solid pine forest and coastal shoreline with zero eastern passages.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads 'Warning! Be on the lookout for Pokémon Trainers who want to fight.'
   - **Cottage Bypass Collision Note**: Tile (40, 26) is solid signpost collision blocking direct westward traversal from (41, 26). Traversal west toward the Sand Highway must step Up to row 25 (open dirt north of signpost at 40, 25), then proceed west across columns 40-36.

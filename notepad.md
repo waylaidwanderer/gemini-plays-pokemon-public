@@ -166,23 +166,23 @@
 - **Signboard 2 (Trainer Tips)**: Located at (19, 42) north of path; reads "Trainer Tips! If your Pokémon get injured you can easily heal those damages in a Pokémon Center or with Potions."
 - **Cut Tree**: Located at (5, 44) between pine trees; solid obstacle requiring HM Cut to pass.
 - **Wild Encounters**:
-  - Wooper (Lv3, Water/Ground; verified Turn 458).
-  - Starly (Lv3, Normal/Flying; verified Turn 481).
-  - Nidoran♀ (Lv3, Poison; verified Turn 494).
-  - Nidoran♂ (Lv2, Poison; verified Turn 1069).
-  - Pidgey (Lv2, Normal/Flying; verified Turn 520).
-  - Mareep (Lv3, Electric; verified Turns 722, 821).
-  - Weedle (Lv2, Bug/Poison; verified Turn 833).
-  - Bidoof (Lv2, Normal; verified Turn 877).
-  - Caterpie (Lv2, Bug; verified Turn 890).
-  - Rattata (Lv3, Normal; verified Turn 1859).
-  - Pichu (Lv3, Electric; verified Turn 8158).
-  - Cleffa (Lv4, Fairy; verified Turn 11825).
+  - Wooper (Lv3, Water/Ground).
+  - Starly (Lv3, Normal/Flying).
+  - Nidoran♀ (Lv3, Poison).
+  - Nidoran♂ (Lv2, Poison).
+  - Pidgey (Lv2, Normal/Flying).
+  - Mareep (Lv3, Electric).
+  - Weedle (Lv2, Bug/Poison).
+  - Bidoof (Lv2, Normal).
+  - Caterpie (Lv2, Bug).
+  - Rattata (Lv3, Normal).
+  - Pichu (Lv3, Electric).
+  - Cleffa (Lv4, Fairy).
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon). Defeated.
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated. Post-defeat ambient dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow; engaged Asher at (43, 12). Team: Burmy Lv6. Defeated.
 - **NPC 7 (Boy in Grass)**: Located around (11-12, 48-50) near Central Pine Tree, wandering. Dialogue: "I gotta be careful when I walk around in the tall grass...".
-- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Interior audited on Turns 7039-7042: single room with no rear exits or stairs; resident boy provides ambient dialogue.
+- **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. single room with no rear exits or stairs; resident boy provides ambient dialogue.
 - **NPC 3 (Science Guy)**: Located around (39-41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?". Clearing terminates east at column 42 in solid pine forest and coastal shoreline with zero eastern passages.
 - **Route 1 Signpost 3**: Wooden signpost at (40, 26) outside the cottage facing south; reads 'Warning! Be on the lookout for Pokémon Trainers who want to fight.'
   - **Cottage Bypass Collision Note**: Tile (40, 26) is solid signpost collision blocking direct westward traversal from (41, 26). Traversal west toward the Sand Highway must step Up to row 25 (open dirt north of signpost at 40, 25), then proceed west across columns 40-36.
@@ -229,7 +229,7 @@
 
 ## Geography & Connections
 
-- **South**: Connects to Route 1 at columns 14-15, row 39. Verified open on Turns 3004 and 3240; transitions directly to Route 1 at (53, 0) without any story barrier text.
+- **South**: Connects to Route 1 at columns 14-15, row 39. transitions directly to Route 1 at (53, 0) without any story barrier text.
 
   - **Southern Avenue Bounds**: At (15, 30), the avenue passes through a dark brick archway at rows 28-29. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 39).
 
@@ -241,8 +241,8 @@
 
 - **Park East Border Obstacles**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) (probed with 'A'; confirmed inert with zero items). Row 18 inside park is blocked by pond bank at (41, 18). The open east-west boulevard between Central Plaza and West Avenue runs north of Central Park along rows 14-15.
 
-- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12; verified Turns 14698, 14701).
-  - **Rear Biker Lane (Column 12, Verified Turns 14695-14706)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall (probed with 'A'; inert).
+- **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
+  - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall (probed with 'A'; inert).
 
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable. Moving Right into (18, 27) is solid foundation wall. Moving Up from (17, 26) into (17, 25) is solid concrete window frame wall. Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
@@ -251,11 +251,11 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock..."). Verified 100% ambient humor dialogue.
 
-- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) probed with 'A' on Turn 14464; confirmed completely inert with zero items.
+- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) confirmed completely inert with zero items.
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. Eastern facade of the office building at column 11 across rows 16-20 physically probed tile-by-tile with collision and 'A' interactions confirmed 100% solid wall with zero doors, secret entrances, or items. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
-- **West Avenue North Boundary (Updated Turn 12238)**: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
+- **West Avenue North Boundary **: Solid commercial building facade extends across columns 16-26; tile (26, 15) is solid building foundation wall where the block steps south from Gumball house (column 29); eastward/westward traversal between Gumball house and West Avenue must follow rows 17-18.
 - **Inter-Building Gap Audit**: Solid walls at (30, 14), (31, 13), and (32, 12) confirmed with collision checks and 'A' interactions; no passage exists between Gumball house and tan building.
 
 - **Southwest Boundary**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision; no passage, hidden items, or NPCs present.
@@ -312,7 +312,7 @@
 
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
-  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?'). Confirmed does not accept Antidote or trigger 'Medic!' quest (verified Turn 15722).
+  - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?'). Confirmed does not accept Antidote or trigger 'Medic!' quest.
 
   - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
@@ -374,7 +374,7 @@
 
 - **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32) repeats 'I love this show!', mother at (27, 33) repeats 'My son is watching some cartoon...', and wide-screen TV at (25-26, 30). Confirmed 100% ambient domestic flavor dialogue.
 
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) empirically tested with 'A' on Turn 9177; confirmed completely inert with zero interaction scripts.
+- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (23, 12), blue PC terminal at (20, 12), and sleeping resident in bed at (27, 15-16) confirmed completely inert with zero interaction scripts.
 
 ## Residential House (Northwest - Machop Family)
 
@@ -414,7 +414,7 @@
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
-  - Item Found: Repel collected at (22, 20) on walkway north of the pool (Turn 1964). Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
+  - Item Found: Repel collected at (22, 20) on walkway north of the pool. Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
   - Elevated Gangway (Northern Corridor):
     - Horizontal stone gangway along row 5 connecting column 15 across the chasm to column 23.
     - Western terminus at (14, 4-5) bordering void chasm at column 13 and row 6.
@@ -424,19 +424,19 @@
     - Vertical bridge crossing south across the chasm is located at column 23 (rows 6-12).
   - Southwest Corridor & Obstruction: Vertical corridor at columns 7-8 contains breakable-style rocks. Attempting to move north from row 25 is blocked by an impassable elevation curb at row 24. Furthermore, accessing this corridor from the east along row 17 is completely blocked at (10, 18) and (9, 17) by two diagonal rugged rocks between the row 16 brick wall and row 19 void chasm. Interacting with 'A' facing West into (10, 18) displays verbatim: 'It\'s a rugged rock, but with some equipment, I could smash it.'. Both approaches require equipment.
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
-  - Western Terrace Wall Ladder: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters (wild Koffing verified on tile 15, 8 on Turn 7788).
+  - Western Terrace Wall Ladder: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters.
 
 - **Column 30 Causeway & Northeast Wooden Staircase**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
 
 ## Active Missions & Enemies
-- **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive (Turn 2682); sewer corridors vacated.
+- **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive; sewer corridors vacated.
 
 ## Topography & Connectivity
 - **Lower Level Connectivity**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
 - **Lower Western Corridor**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Column 16 is walkable at rows 25-26, and column 17 connects rows 22-24. Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
-- **Eastern Gangway & Column 28 Junction**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension was empirically tested on Turns 3657-3658 and proved IMPASSABLE due to a solid brick wall at (29, 11). Southern extension at (29, 14) was empirically tested on Turn 3665 and proved to terminate at the black void chasm with (29, 15) impassable void. 
+- **Eastern Gangway & Column 28 Junction**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension is impassable due to a solid brick wall at (29, 11). Southern extension at (29, 14) terminates at the black void chasm with (29, 15) impassable void. 
 - **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) are walkable stone platform. Tile (37, 14) holds the red capsule mat; interacting facing South displays verbatim: "Its a simple storage room..." and dismisses on 'A'; stepping Down bumps into south void collision with zero warp. Flanking tiles (36, 14) and (38, 14) have solid south void collision at row 15. North wall at row 11 (cols 36-38) has solid wall collision and inert 'A'. East wall at column 39 (rows 12-14) has solid wall collision and inert 'A'. West wall at (35, 12) has solid wall collision and inert 'A'. Platform 100% audited and verified ambient with zero warps, switches, items, or NPCs.
 
 ## Wild Encounters
@@ -456,7 +456,7 @@
 - Croagunk (Lv5, Poison/Fighting)
 - Mimikyu (Lv5, Ghost/Fairy)
 
-## Sovio Sewers - Dark Sector / Basement (Discovered Turn 4549)
+## Sovio Sewers - Dark Sector / Basement
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
 - **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
@@ -465,9 +465,9 @@
   - Western corridor & alcove (cols 13-17): Northern stone wall is at row 7. Row 8 is a walkable corridor connecting columns 13 to 17. Western boundary terminates at solid wall at column 12 (rows 8-9). Southern boundary at row 10.
   - Red capsule mat at (14-15, 9); stepping Down from (15, 9) warps to Deep Subterranean toy room (2, 38). Tile (16, 9) has solid obstacle collision; traversal between western alcove and eastern corridor connects via row 8 (Up from 15, 9 to 15, 8, then east along row 8 to 17, 8, and down to 17, 9).
 - **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). All perimeter walls (north row 2, west col 21, east col 25) probed with 'A'; confirmed 100% solid walls with no secret doors, switches, or NPCs.
-- **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove (Turn 4576).
+- **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove.
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
-- **Deep Subterranean Sector (Discovered Turn 13225, Audited Turn 14052)**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy (Turn 13238). All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A' on Turn 14052; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
+- **Deep Subterranean Sector**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy. All perimeter walls (rows 35-38, columns 0-4) exhaustively probed with 'A'; confirmed 100% inert with zero hidden passages or additional triggers. Single-purpose quest room.
 - **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal. 100% audited enclosed dead-end rim with solid void to south/east; zero items or warps.
 - **Western Terrace Layout**:
   - Terrace floor extends across columns 12 to 17 on rows 11-12.
