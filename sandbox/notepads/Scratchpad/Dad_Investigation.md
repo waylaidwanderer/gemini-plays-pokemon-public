@@ -29,3 +29,18 @@
 
 3. **Target 3: Central Plaza Planter & Pond Perimeter (Rows 15-17, Columns 38-43)**: COMPLETE (FALSIFIED).
    - Empirical Result: Walked the entire stone curb from column 38 to 43 facing South into each tile (38-43, 16) with A. Inspected water/fish animation at (39, 17) -> non-interactive fountain ripple sprite. Inspected white and blue flowerbeds and curb edges -> all completely inert with zero hidden items, tremor text, or interactions. Hypothesis H111 fully concluded.
+
+## Active Hypothesis H112: Systematic Audit of Sovio City Southern Grassy Perimeters
+- **Premise**: Central and northern urban sectors, facades, facilities, and the Metro tremor site have been conclusively falsified. The southern sector contains open grassy lawns, pine borders, and the rear of the southwest building along Southern Avenue.
+- **Rules of Engagement**: Maintain disciplined spatial auditing. Do not re-enter static civilian interiors or re-trigger known blockers.
+
+### Test Targets & Protocols:
+1. **Target 1: Southwest Lawn & Building South Border (Column 12, Rows 28-30)**
+   - Location: Rear of the southwest building at (12, 30) accessible via the lane behind the Bikers.
+   - Action: Walk along column 12 to row 30, inspect southern building foundation and pine tree border.
+   - Success: Hidden path, item, or NPC dialogue.
+   - Failure: Inert solid boundary.
+
+2. **Target 2: Southern Avenue Grassy Border (Rows 28-35, Columns 14-17)**
+   - Location: Open grassy lawn transition at (15, 30) flanked by pine trees.
+   - Action: Audit perimeter tiles and tree interfaces along columns 14-17 between rows 28 and 35.
