@@ -18,10 +18,4 @@
   1. Return north across Route 1 to Sovio City -> COMPLETE (Turn 22031).
   2. Enter Sovio Metro Station and descend to Sewers via (18-19, 25) red mat -> COMPLETE (Turn 22040).
   3. Inspect column 28 wall feature and test walkability/climbability from row 27 -> COMPLETE.
-     - Turn 22045: Player at (28, 27) facing North pressed Up into (28, 26). Visited 0 tiles (blocked by solid wall curb collision).
-     - Turn 22055: Player stepped Left to (27, 27) and Up to (27, 26) successfully. (27, 26) is walkable!
-     - Turn 22056: Player pressed Up from (27, 26) and moved to (27, 25)! BREAKTHROUGH: Column 27 is an open vertical corridor cutting north through the central brick wall!
-     - Turn 22057: Player pressed Up twice from (27, 25) and moved to (27, 23)! Arrived beside the black opening at (28, 23).
-     - Turn 22061: Stepped Right from (27, 23) into (28, 23). Result: 0 tiles visited (solid pit collision). (28, 23) is an impassable pit obstacle.
-     - Turn 22062: Pressed A facing East into (28, 23). Result: Zero interaction.
 - **Conclusion**: COMPLETE (FALSIFIED as interactive opening). (28, 23) is an inert 1x1 void/pit obstacle in the terrace floor. However, the investigation proved column 27 is an open vertical corridor (rows 22-26) linking the lower walkway (row 28) directly to the upper terrace (row 22) and northern corridor.
