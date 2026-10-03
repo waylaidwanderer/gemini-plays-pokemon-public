@@ -22,4 +22,5 @@
      - Turn 22055: Player stepped Left to (27, 27) and Up to (27, 26) successfully. (27, 26) is walkable!
      - Turn 22056: Player pressed Up from (27, 26) and moved to (27, 25)! BREAKTHROUGH: Column 27 is an open vertical corridor cutting north through the central brick wall!
      - Turn 22057: Player pressed Up twice from (27, 25) and moved to (27, 23)! Arrived beside the black opening at (28, 23).
-     - Turn 22058: Testing Right from (27, 23) into (28, 23) to test if the black opening is a pit, warp, or solid collision.
+     - Turn 22061: Stepped Right from (27, 23) into (28, 23). Result: 0 tiles visited (solid pit collision). (28, 23) is an impassable pit obstacle.
+     - Turn 22062: Testing A facing East into (28, 23) to verify if an inspection trigger exists.
