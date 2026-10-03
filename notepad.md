@@ -675,9 +675,9 @@
   - Turn 20888-20895 Bag Audit: Confirmed 3-pocket engine (Items, Key Items, Pok� Balls). Key Items contain strictly HuPhone (registered to Select) and TM Case. No Train Ticket or specialized equipment present.
   - Turn 20908 Metro Fixture Audit: Left scanner (18, 21) and right scanner (20, 21) directly interacted with and confirmed 100% inert. Turnstile (19, 21) re-confirmed active ("I should find dad first!"). Platform chairs confirmed empty decorative benches.
 - **Active Audit Steps**:
-  1. Complete party summary audit: Sirius (Pages 2 & 3 stats/moves/details) and Zephyr summary.
-  2. Inspect Trainer Card (Front & Back details) and Option settings.
-  3. Inspect HuPhone World Map & Quest Log for unexamined features.
+  1. Complete party summary audit: Sirius (Pages 1-3) and Zephyr (Pages 1-3) 100% verified. [COMPLETED]
+  2. Inspect Trainer Card (Front: 8 empty rounds, �8096, Back: 6 silhouettes) and Option settings (standard CFRU, Text Fast). [COMPLETED]
+  3. Inspect HuPhone World Map (cursor/town blurbs) & Quest Log details. [IN PROGRESS]
 - **Falsifiable Success Criteria**: Discovering an unexamined system action or trigger, locating Jackson, or lifting the turnstile blocker ("I should find dad first!").
 
 
