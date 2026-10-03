@@ -678,5 +678,6 @@
      - Access elevated terrace via (47, 15) and test alignments along the terrace floor (Nana's house exterior, wall crest at 50, 16).
      - Audit central commercial structures and alignment interactions in Sovio City.
      - *Falsification Boundary*: Falsified if all tested fixtures have zero interaction or only confirmed ambient text.
+- **Terrace Floor & Interior Audit (Turns 22876-22892)**: Circular stone cover at (51, 16) verified inert from (51, 16), (50, 16), (51, 17). East wall at (51, 14-16) verified solid high-rise foundation wall with zero doors/interactions. North window at (50, 14) verified inert. Granddaughter at (63, 34) re-interviewed: verbatim ambient text ('Nana makes the best food! Weeeee!'). Terrace sector 100% static.
 
 <hr>
