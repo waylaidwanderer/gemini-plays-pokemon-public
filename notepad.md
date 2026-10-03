@@ -713,15 +713,16 @@
 - H84 (Surface Gate & Re-Sweep of Civilians / Bag / Lobby - Turns 20042-20130): FALSIFIED. Bag audited standard (no pending key items or letters), Metro lobby verified 100% empty with turnstile firmly gated by "I should find dad first!", Route 2 firmly gated by "I can't go yet... I have things to do!", and re-interrogating Central Park online dating couple (44, 24 and 31, 21), Boy Rocky (23, 17), and Karate House residents (14, 15) confirmed 100% static baseline with zero new items or triggers.
 - H85 (Early-Game Quest Givers & Equipment Premise - Turns 20133-20162): FALSIFIED. Camper at (5, 7) has strictly ambient dialogue with zero quest prompt or reaction to Antidote/Potion. Furthermore, per Mechanics/Engine.md, sidequests are explicitly decoupled from main story milestones; the premise that optional sidequests gate main story progress or supply mandatory equipment is falsified. Aborted the ungrounded macro-loop trek to Lancio Town.
 - H86 (Sovio City Building & Sewer Triggers - Turns 20162-20246): FALSIFIED. Eastern storage room platform at (37, 14) verified static inspection trigger with solid collision at (37, 15) and zero NPCs/items. Northern boulevard tan building facade at (32-37, 8-12) and shutters at (34-35, 12) confirmed solid collision with zero interactions or secret doors.
+- H87 Variable 2 (Residential 2F Bedroom Sweep - Turns 20251-20283): FALSIFIED. House (39, 7) 2F (boy, TV Easter egg, inert PC/bed) and Gumball House (29, 14) 2F (sleeping bed, framed map, bookshelf, PC) confirmed 100% static civilian baselines. Pruned from investigation per critique instructions.
 
 ## Active Hypotheses for Progression
-### Hypothesis H87: Comprehensive Surface Investigation of Jackson's Tremor Inquiry Site (Started: Turn 20251)
-- **Premise**: Jackson explicitly ran outside into Sovio City to investigate the seismic tremor. Sewers are fully audited static baseline with zero evidence Jackson ever entered. Route 2 and Metro train platform remain story-gated. Therefore, Jackson or the manifestation of his investigation must be located within Sovio City's exterior zones or structural perimeters.
+### Hypothesis H88: Systematic Investigation of Unverified Outdoor Seismic Impact Sites
+- **Premise**: Jackson ran outside into Sovio City to investigate the seismic tremor. Outdoor city corridors, boundaries, and regional perimeter transitions must be audited for physical tremor manifestations, altered NPC placements, or story triggers.
 - **Isolated Variables**:
-  1. Systematic audit of upper northern alleyways and background perimeters (rows 0-10 around column 40 and residential blocks).
-  2. Complete interaction sweep of upper 2F floors (Karate house 2F, Gumball house 2F, Wii house 2F) for story triggers or missed items.
-  3. Inspect perimeter boundaries and corners of Central Park and the southern elevated sectors.
-- **Falsifiable Success Criteria**: Locating Jackson, finding a physical event/trigger associated with the tremor, or clearing the turnstile prerequisite.
+  1. Audit Central Park southern elevation perimeter and park boundaries (rows 20-31, columns 30-46).
+  2. Audit the southwest building perimeter and barrel obstruction at (18-21, 26-29) for physical damage or entrance triggers.
+  3. Audit the Route 2 barrier threshold at (52, 19-22) and check if any visual tremor fissure or clue exists.
+- **Falsifiable Success Criteria**: Locating Jackson, finding physical evidence of the tremor, or clearing the turnstile prerequisite.
 
 
 <hr>
