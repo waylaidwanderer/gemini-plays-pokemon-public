@@ -19,9 +19,9 @@
 - **Outcome**: Audited rows 20-22 across columns 47-51 beneath commercial building roof canopy. Confirmed row 23 is solid south wall; rows 20-22 form a continuous covered passageway terminating east at column 52 with the Route 2 story barrier ("I can't go yet... I have things to do!"). Zero interactive doors, switches, or hidden triggers exist beneath the roof canopy.
 
 ## Active Hypotheses for Progression
-### Hypothesis H47: Sewer Storage Room Key & Metro Station Staff Investigation
-- **Premise**: Jackson was captured by Team Siara and locked in the sewer storage room at (37, 14). Following the grunts' retreat, the storage room door remains locked/blocked ("Its a simple storage room.."). The departure blocker ("I should find dad first!") will only resolve once Jackson is freed. We hypothesize a key, switch, or trigger was left behind by the grunts or is located in the Metro Station.
+### Hypothesis H47: Sewer Storage Room Key & Metro Station Lobby Trigger Audit
+- **Premise**: Jackson was captured by Team Siara during the tremor. Sewer storage room at (37, 14) displays 'Its a simple storage room...' and row 15 is solid collision (audited Turns 18767-18770). Grunt 2 platform at (18, 21-22) holds zero items. We hypothesize the progression flag requires auditing the full Metro Station lobby footprint to trigger story advancement.
 - **Immediate Plan**:
-  1. Enter Metro Station lobby from Central Plaza.
-  2. Inspect Metro Station lobby fixtures and boundaries.
-  3. Re-enter sewers to inspect Grunt battle platforms (Grunt 2 at 18, 21-22) for dropped keys or triggers.
+  1. Ascend to Sovio Metro Station lobby via sewer_transit.
+  2. Systematically traverse and probe all Metro lobby tiles (rows 21-25, columns 18-24).
+  3. Test turnstile gate, timetable, and lobby perimeter for scripted event triggers.
