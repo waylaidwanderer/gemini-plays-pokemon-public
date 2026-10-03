@@ -717,7 +717,6 @@
 ### Hypothesis H86: Return to Sovio City & Investigate Unexamined Structural Buildings & Sewer Triggers (Started: Turn 20162)
 - **Premise**: Main story progression is strictly localized to the Sovio City incident (Jackson's disappearance following the tremor). Distant regions (Route 1, Lancio Town) are confirmed static baselines with zero main story triggers. We immediately return from Route 1 to Sovio City to investigate unexamined physical building perimeters and the primary sewer event origin.
 - **Isolated Variables**:
-  1. Return north from Route 1 (37, 10) to Sovio City entrance (53, 0).
   2. Audit unexamined building facades along the northern boulevard (the tan building at 32-37, 8-12 and commercial block).
   3. Re-examine the primary sewer storage room platform at (37, 14) and grunt retreat paths for missed triggers or dropped items.
 - **Falsifiable Success Criteria**: Locating Jackson, a key item, or clearing the turnstile prerequisite.
