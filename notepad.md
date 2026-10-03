@@ -669,10 +669,10 @@
   - HuPhone PC App: Mailbox verified empty ("There's no Mail here."), Item Storage empty.
   - HuPhone World Map: Regional viewer showing Asher at Sovio City, zero destination waypoints or flashing icons.
   - HuPhone Quest Log: Quest Status inactive ("You aren't doing any Quest at the moment!"). Quest List Page 1 verified (Lost Pidgey & Lost Toy completed, 3 unstarted).
-- **Target 2: Inventory & Party Interaction Audit (Turns 21241-21245)**: COMPLETE / IN PROGRESS.
-  - Party Summary Audit: Sirius confirmed Lv16 Riolu (OT Asher / 54592, Relaxed, Lancio Lv5, HP 45/45, holding Black Belt). Zephyr confirmed Lv2 Pidgey (HP 13/13, no item). Zero hidden/unclaimed story items in party.
-  - Party Lead Swap: Testing Zephyr (Pidgey) as party lead to evaluate if Pidgey presence alters Sovio City dialogue or triggers.
-  - Bag Items: Potion x1, Poison Barb x1, Antidote x1, Nugget x1, TM17, TM48, TM Case, 10 Pok� Balls, 1 Timer Ball.
+- **Target 2: Inventory & Party Interaction Audit (Turns 21241-21264)**: COMPLETE (FALSIFIED).
+  - Party Summary Audit: Sirius Lv16 Riolu (holding Black Belt), Zephyr Lv2 Pidgey (no item). Zero story items in party or PC.
+  - Party Lead Swap Test: Swapped Zephyr to Slot 1 (Party Lead) and tested Metro turnstile gate at (19, 21). Result: Verbatim "I should find dad first!" textbox persisted without change. Falsified party lead hypothesis.
+  - Bag Items: Potion x1, Poison Barb x1, Antidote x1, Nugget x1, TM17, TM48, TM Case, 10 Poke Balls, 1 Timer Ball.
 - **Target 3: Sovio City Non-Obvious Environmental Triggers**: PENDING.
 
 
