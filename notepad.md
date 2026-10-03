@@ -675,7 +675,7 @@
 - **Milestones**:
   1. Dismiss Biker textbox and open Start Menu -> COMPLETE (Turn 22506).
   2. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
-  3. Test party lead reordering (switch Zephyr Pidgey to Slot 1) and test TM17 Protect compatibility -> IN PROGRESS.
+  3. Test party lead reordering (switch Zephyr Pidgey to Slot 1) -> IN PROGRESS (executing swap in Party menu).
   4. Test if party configuration resolves Metro Turnstile blocker.
 
 <hr>
