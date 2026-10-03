@@ -719,14 +719,21 @@
 - H60 (Night Cycle), H61 (Inventory/Triggers), H62 (Corridor), H63 (Lobby & Storage Room): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
 
 ## Active Hypotheses for Progression
-### Hypothesis H65: Sovio City Surface Event Trigger & NPC Protocol
-- **Premise**: Sewers and Metro lobby turnstiles are verified cleared and inert. Progression trigger for Jackson's location resides on the Sovio City surface or via a specific dialogue condition.
-- **Audited Targets & Protocol**:
-  1. Exit Pokémon Center to Central Plaza (44, 12). [COMPLETED - Turn 19447]
-  2. Inspect Central Plaza perimeter. [COMPLETED - Turn 19448: Visually verified zero NPCs in Central Plaza]
-  3. Re-verify Route 2 barrier at (52, 19-22). [COMPLETED - Turn 19450: Verbatim 'I can't go yet... I have things to do!' triggered at (52, 19); barrier 100% active]
-  4. Inspect West Avenue rear lane (column 12) behind the Bikers and the office building wall at column 11. [ACTIVE]
-  5. Audit Central Park southern and eastern walkways for any new NPC or triggered event after sewer grunts retreated.
-- **Status**: ACTIVE. Step 4 (West Avenue rear lane & office wall) underway.
+### Hypothesis H65: Sovio City Surface Event Trigger & NPC Protocol - FALSIFIED
+- **Premise**: Progression trigger for Jackson resides on the Sovio City surface or via surface dialogue flags.
+- **Audit Findings**:
+  1. Central Plaza (44, 12-19): Zero NPCs present; perimeter inert.
+  2. Route 2 Barrier (52, 19-22): Verbatim 'I can't go yet... I have things to do!' re-verified 100% active at (52, 19) (Turn 19450).
+  3. West Avenue & Rear Lane (cols 11-28): Boy Rocky verified flavor text; Bikers verified flavor text; column 11 modern office wall verified continuous solid collision with zero doors/openings.
+  4. Central Park (rows 18-28): Boy in pink shirt (33, 20), Little Girl (33, 28), Jigglypuff (34, 28), and east walkway verified ambient flavor text.
+- **Conclusion**: FALSIFIED. Sovio City surface is 100% audited and static; no progression trigger exists on the surface.
+
+### Hypothesis H66: Southern Transit & Regional Anchor Audit (Route 1 & Lancio Town)
+- **Premise**: With Sovio City surface and Metro lobby verified static and blocked, the trigger for Jackson or main story progression lies in the connected southern sectors (Route 1 landmarks or Professor Ivo's Lab in Lancio Town).
+- **Protocol**:
+  1. Walk south via Southern Avenue (cols 14-15) to Route 1 transition at (53, 0).
+  2. Audit Route 1 northern clearing, cottage (37, 24), and trainers/NPCs.
+  3. Enter Lancio Town and consult Professor Ivo at her laboratory regarding the Eclipse incident and Jackson.
+- **Status**: ACTIVE. Step 1 (heading to Southern Avenue exit) underway.
 
 <hr>
