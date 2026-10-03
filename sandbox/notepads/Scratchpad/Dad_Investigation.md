@@ -25,10 +25,10 @@
   1. Transition to Route 1 at (53, 0). [COMPLETED - Turn 19472]
   2. Audit Route 1 Battle Trainers (Duke, Sonia, Mike). [COMPLETED - Turns 19474-19487: All 3 verified baseline post-defeat flavor text]
   3. Audit Route 1 Cottage (37, 24). [COMPLETED - Turn 19497: Resident boy verified baseline post-gift flavor text]
-  4. Audit Route 1 Civilians along Lancio transit (NPC 1 Pidgey boy at 34, 37; NPC 2 Camper at 18, 43; NPC 7 Grass boy at 11-12, 48-50). [ACTIVE]
+  4. Audit Route 1 Civilians along Lancio transit. [COMPLETED - Turns 19497-19520: Cottage boy (37, 24) and Grass boy (10, 50) verified baseline flavor text]
   5. Enter Lancio Town and audit key anchors:
      - Professor Ivo at (20, 6) in Lab East Wing.
      - Lab basement stairs at (12, 7) (check if "I probably shouldn't head down here..." barrier changed).
      - Incubator apparatus at (18-19, 5-6).
      - Harbor Dock at (32-34, 23-25) (check for Harry / moored vessel).
-- **Status**: ACTIVE. Step 4 (transit to Lancio Town via Route 1 southern corridor) underway.
+- **Status**: ACTIVE. Step 5 (transit into Lancio Town) underway.
