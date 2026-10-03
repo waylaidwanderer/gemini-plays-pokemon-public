@@ -22,8 +22,6 @@
    - Candidate: Eastern wall of modern office high-rise at Column 11 across Rows 16-20.
    - Empirical Results: Inspected from Column 12 across rows 20, 19, 18, 17, and 16 facing West with A. All 5 tiles are completely inert solid foundation collision with zero text, intercom, or hidden entrances. 100% falsified.
 
-3. **Target 3C: South Central Building Shutters (Columns 24-25, Row 26)**
+3. **Target 3C: South Central Building Shutters (Columns 24-25, Row 26)**: COMPLETE (FALSIFIED).
    - Candidate: Decorative wooden shutters between Name Rater and southwest building.
-   - Action: Face North from (24, 27) and (25, 27), press A.
-   - Success: Warp or text.
-   - Failure: Inert.
+   - Empirical Results: Inspected facing North from (25, 27) into (25, 26) and from (24, 27) into (24, 26) with A. Both tiles are completely inert solid wall collision with zero warp or dialogue. 100% falsified.
