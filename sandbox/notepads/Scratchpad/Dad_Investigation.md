@@ -12,7 +12,7 @@
 ## Concluded Hypotheses
 - H60 (Night Cycle), H61 (Inventory/Triggers), H62 (Corridor), H63 (Lobby & Storage Room): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
 - H65 (Sovio City Exterior Paths & NPCs): FALSIFIED. Exterior corridors, Route 2 barrier (52, 19), West Ave rear lane (col 12), and Central Park NPCs (Boy in pink shirt, Little Girl, Jigglypuff, east walkway) verified static with zero progression flags.
-- H66 (Southern Regional Anchors - Route 1 & Lancio Town): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, and Grass boy verified baseline. PENDING AUDIT: Camper NPC 2 (18, 43), Pidgey boy NPC 1 (34, 37), Science guy NPC 3 (39-41, 36). Lancio Town Lab (basement stairs restricted 'I probably shouldn't head down here', Prof Ivo baseline text 'Hey, Ashi, how's your new Pokémon?', incubator baseline text) and Harbor Dock (pier empty, zero boats, no Harry) verified 100% baseline.
+- H66 (Southern Regional Anchors - Route 1 & Lancio Town): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, Grass boy, and Camper NPC 2 (verified baseline: 'Haha! Wild Pokémon can't attack me! I have many repels... They keep wild Pokémon away.') audited. PENDING AUDIT: Pidgey boy NPC 1 (34, 37), Science guy NPC 3 (39-41, 36). Lancio Town Lab (basement stairs restricted 'I probably shouldn't head down here', Prof Ivo baseline text 'Hey, Ashi, how's your new Pokémon?', incubator baseline text) and Harbor Dock (pier empty, zero boats, no Harry) verified 100% baseline.
 
 ## Active Hypotheses for Progression
 ### Hypothesis H67: Sovio City Residential Interiors Post-Sewer Audit
