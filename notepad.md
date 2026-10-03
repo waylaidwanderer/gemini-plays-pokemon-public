@@ -344,7 +344,7 @@
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
-  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, blue chairs along northwest wall, and an NPC in a blue uniform and conductor cap seated in the blue chair along the northeast wall.
+  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and two empty blue chairs along northeast wall (audited empty Turn 18976).
 
 - **Sovio Sewers Secret Entrance**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
@@ -715,21 +715,17 @@
 - **Storage Room (37, 14)**: Verified single static inspection trigger ("Its a simple storage room..") with solid collision at (37, 15); platform fully audited.
 
 ## Concluded Hypotheses
-- **H50 (Dark Sector Perimeter Audit)**: Concluded Turn 18905. All perimeter tiles match documented solid stone walls, upper alcove (Nugget collected at 23, 4), subterranean toy room (Machop's toy collected at 2, 37), and rugged rock at (22, 10). Zero unmapped exits or story triggers exist in the Dark Sector.
-- **H51 (Central Park Pond Flowers)**: Concluded Turn 18951. Tile (42, 18) is standard walkable grass with decorative blue flower cluster matching the symmetrical 4-corner pond pattern (pink NW/SE, blue NE/SW). Non-interactive.
-- **H52 (Central Park Fixtures & Dating NPCs)**: Concluded Turn 18962. Silver trash can at (43, 20) confirmed completely inert. Blonde Girl at (44, 26) and Pink Shirt Boy at (33, 20) confirmed static ambient humor NPCs.
-- **H53 (Tan Building Facade Audit)**: Concluded Turn 18968. Columns 32-37 along row 12 confirmed 100% solid foundation wall with zero doors or interactive triggers.
-- **H54 (Metro Turnstile 'A' Interaction & Platform Visual Audit)**: Concluded Turn 18976. Pressing 'A' facing North from (19, 22) into (19, 21) produces zero interaction (confirming it is solely an on-step trigger). High-resolution visual crop of the platform confirms all four blue chairs (NW and NE) are completely empty; prior summary references to a seated conductor were sprite misinterpretations of the blue chairs.
-- **H55 (Southwest Building Facade & Barrels Audit)**: Concluded Turn 18986. Shutters at (18, 28) and foundation curb at (18, 29) confirmed solid collision with zero interaction. Barrels at (19-21, 28-29) are completely enclosed behind solid elevation curb and pine border. Confirmed decorative filler building.
+- **H50**: Dark Sector perimeters match solid stone walls; rock at (22, 10) requires equipment.
+- **H51**: Central Park pond flowers are non-interactive decorative flora.
+- **H52**: Central Park trash can inert; dating couple at (33, 20) / (44, 26) are static ambient humor.
+- **H53**: Tan Building facade (32-37, 12) confirmed 100% solid foundation wall.
+- **H54**: Turnstile 'A' has zero interaction; platform chairs verified empty (no conductor).
+- **H55**: Southwest Building (18-21, 26-29) confirmed solid decorative exterior.
 
 ## Active Hypotheses for Progression
-### Hypothesis H56: Inventory & HuPhone Portable PC Audit
-- **Premise**: With all Sovio City buildings, parks, and sewers confirmed exhausted, testing unexamined inventory mechanics. Withdrawing stored Nugget from portable PC into active Bag to ensure key items/valuables are on hand.
-- **Test Plan**:
-  1. Open HuPhone via SELECT button at (17, 29).
-  2. Launch Item Storage app -> Withdraw Item -> Retrieve Nugget into Bag.
-  3. Check Mailbox for unread progression mail.
-  4. Navigate to 'Back' / 'Turn Off' and press A to close cleanly.
+### Hypothesis H56: Inventory & Mailbox Audit
+- **Premise**: Checking portable PC for unread mail or system flags. Withdrawing Nugget into Bag.
+- **Test Plan**: Withdraw Nugget, check Mailbox, close HuPhone.
 
 
 <hr>
