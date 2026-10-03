@@ -714,20 +714,16 @@
 - **Rugged Rocks (Sovio Sewers)**: Obstacles at (22, 10) in Dark Sector and (10, 18) / (9, 17) in southwest corridor require specialized equipment.
 - **Storage Room (37, 14)**: Verified single static inspection trigger ("Its a simple storage room..") with solid collision at (37, 15); platform fully audited.
 
-## Active Hypotheses for Progression
-### Hypothesis H50: Dark Sector Northeast Staircase & Perimeter Audit
-- **Premise**: Testing if the spotlight-illuminated Dark Sector (entered via 30, 4) contains any unmapped tiles or interactive triggers.
-- **Falsifiable Test**:
-  1. Enter staircase at (30, 4) to arrive at Dark Sector (31, 9).
-  2. Audit eastern boundary at column 31 and northern corridor along row 9.
-  3. Falsified if all perimeter tiles match documented solid stone walls and rugged rock at (22, 10).
+## Concluded Hypotheses
+- **H50 (Dark Sector Perimeter Audit)**: Concluded Turn 18905. All perimeter tiles match documented solid stone walls, upper alcove (Nugget collected at 23, 4), subterranean toy room (Machop's toy collected at 2, 37), and rugged rock at (22, 10). Zero unmapped exits or story triggers exist in the Dark Sector.
 
+## Active Hypotheses for Progression
 ### Hypothesis H51: Central Park Pond Edge Ground Graphic Audit
-- **Premise**: In Turn 18855, visual crop 'pond_grass_item.png' revealed a distinct blue ground graphic on the grass strip at the northeast edge of Central Park pond (approx cols 41-43, rows 18-19).
+- **Premise**: In Turn 18855, visual crop 'pond_grass_item.png' revealed a distinct blue ground graphic on the grass strip at the northeast edge of Central Park pond (approx cols 41-43, rows 18-19). This unexamined visual feature may be an item, footprints, or an interactive story trigger.
 - **Falsifiable Test**:
-  1. Return to Sovio City Central Park.
-  2. Navigate to the northeast pond grass border.
-  3. Inspect the graphic coordinates directly and test interaction with 'A' to verify if it represents an item, tracks, or decorative flora.
+  1. Exit Sovio Sewers via Metro Station to Central Plaza.
+  2. Navigate to Central Park northeast pond grass border (columns 41-43, rows 18-20).
+  3. Inspect the ground graphic coordinates directly and test interaction with 'A' to verify if it is an item, tracks, or decorative flora.
 
 
 <hr>
