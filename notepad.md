@@ -669,8 +669,8 @@
 ## Active Hypothesis H116: Lancio Town Harbor, Pier Terminus & Overlooked Residents
 - **Premise**: Past investigations dismissed Lancio Town based only on Professor Ivo and the lab basement stairs, without rigorously testing the harbor dock, pier terminus, or town residents. Given that Dad traveled to the mainland via Harry's boat and Harry operates between Inizio Isle and Lancio Town, investigating the harbor pier terminus and all unverified residents in Lancio Town provides a concrete, grounded test.
 - **Milestones**:
-  1. Traverse south through Route 1 past the clearing and cottage to Lancio Town.
-  2. Audit the Harbor Pier, the pier water edge (rows 23-26, cols 32-34), and the dockside building (35-38, 19-21).
-  3. Audit remaining town residents and outdoor interactables.
+  1. Traverse south through Route 1 past the clearing and cottage to Lancio Town. (COMPLETE)
+  2. Audit the Harbor Pier, the pier water edge (rows 23-26, cols 32-34), and the dockside building (35-38, 19-21). (COMPLETE - FALSIFIED: Pier water edge inert, dockside building sliding door is solid decorative collision, Fisherman provides ambient text.)
+  3. Audit remaining town residents and outdoor interactables. (IN PROGRESS: NPC in Cap at 33, 14, then plaza residents.)
 
 <hr>
