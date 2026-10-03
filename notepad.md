@@ -717,6 +717,13 @@
 - H75 (HuPhone Quest Log Audit - Turns 19871-19884): FALSIFIED. Empirically tested uncompleted quest entries in Quest List (e.g. Egg Research); confirmed they verbatim display 'This Quest hasn't been completed yet!' without providing objective telemetry, targets, or equipment clues. Side quest objectives must be acquired from NPC quest givers in the overworld.
 
 ## Active Hypotheses for Progression
+### Hypothesis H76: Systematic Party Telemetry & Confrontation Plaza Re-Evaluation (Started: Turn 19887)
+- **Premise**: Physical traversal across all surface and sewer corridors has repeatedly yielded static baseline dialogue across turns 19100-19886. The core story blocker remains 'I should find dad first!' at the Metro turnstile (19, 21) and 'I can't go yet... I have things to do!' at Route 2 (52, 19). We hypothesize that progression gating is tied to an internal game state flag (such as party readiness, starter telemetry, in-game clock transition, or an uninspected event trigger in Central Plaza where Dad and Mother originally confronted each other).
+- **Protocol**:
+  1. Open START Menu to record exact in-game clock time and audit party telemetry (Sirius & Zephyr).
+  2. Navigate from (48, 18) into Central Plaza confrontation site outside the Pokémon Center (columns 42-45, rows 13-15).
+  3. Sweep the confrontation perimeter to test if a physical or invisible event script triggers at the exact locus of Mother's Eclipse demonstration.
+- **Falsifiable Success Criteria**: Discovering a new event trigger/cutscene at the confrontation site, or identifying an internal condition required to advance.
 
 
 <hr>
