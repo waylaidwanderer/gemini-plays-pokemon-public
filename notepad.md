@@ -196,7 +196,7 @@
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels block the shutters at (19-21, 28-29) and solid elevation curb at (18, 28-29) blocks access with zero interaction; confirmed decorative exterior.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable. Facing East into (18, 26) and (18, 27) confirms solid wall with decorative blue windows and zero interaction. Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
 
-- **Sewer Manholes**: Located at (13, 27), (13, 19), (34, 15) [corrected from 40, 13], (54, 19), and (54, 21). Road fixtures across the city.
+- **Sewer Manholes**: Located at (13, 27), (13, 19), (34, 15), (54, 19), and (54, 21). Road fixtures across the city.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock...").
 
