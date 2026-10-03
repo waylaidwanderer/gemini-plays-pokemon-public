@@ -344,7 +344,7 @@
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
-  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and two empty blue chairs along northeast wall.
+  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and an empty lower blue chair and an upper blue chair occupied by a seated station attendant / conductor in blue uniform and cap.
 
 - **Sovio Sewers Secret Entrance**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
@@ -710,18 +710,29 @@
 
 ## Core Verified Blockers
 - **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City.
-- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher south to (19, 22).
+- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher south to (19, 22). Conductor in blue uniform observed seated on platform side.
 - **Rugged Rocks (Sovio Sewers)**: Obstacles at (22, 10) in Dark Sector and (10, 18) / (9, 17) in southwest corridor require specialized equipment.
 - **Storage Room (37, 14)**: Verified single static inspection trigger ("Its a simple storage room..") with solid collision at (37, 15); platform fully audited.
 
 ## Jackson & Narrative Status Audit
 - **Narrative Truth**: Jackson ran outside the Sovio Metro Station into Sovio City to investigate the seismic tremor.
 - **Route 1 & Lancio Town Falsification**: Route 1 and Lancio Town are baseline starting areas with zero link to Jackson's disappearance.
-- **Sovio Metro Lobby Audits**: The Timetable board ("It's a timetable showing various destinations!") is verified decorative flavor text with zero script triggers. In-game RTC does not govern train departures.
+- **Sovio Metro Lobby Audits**: Timetable board is decorative flavor text. Turnstile passage at (19, 21) triggers "I should find dad first!".
 
-## Unexamined Mechanics & Open Leads
-1. **Sovio City Map Boundaries & Exploration**: What parts of Sovio City remain unvisited or untested? Have all building perimeters, alcoves, and dialogue trees been fully explored?
-2. **Key Items & Bag Interaction**: Does any item in our possession interact with the environment or trigger progression?
-3. **Where Did Dad Go Outside Metro?**: Dad ran outside into Sovio City immediately after the tremor. What happened on the surface during or right after the tremor?
+## Concrete Falsifiable Hypotheses for Progression
+### Hypothesis H60: Night Cycle NPC & Event Changes in Sovio City
+- **Premise**: In-game time has transitioned into nighttime (past 20:00). NPC locations, dialogue trees, or accessible areas in Sovio City may update at night.
+- **Test Protocol**:
+  1. Exit Metro Station to Sovio City surface.
+  2. Inspect Central Plaza, Central Park, and West Avenue NPCs at night.
+  3. Falsified if all NPC positions and dialogues remain completely identical to daytime baseline.
+
+### Hypothesis H61: Inventory / Key Item Environmental Triggers
+- **Premise**: An item in possession (HuPhone, TM Case, or held item) triggers story progression when inspected or activated at a specific location.
+- **Test Protocol**:
+  1. Audit Key Items and Bag functions.
+  2. Test SELECT registration and item usage in Metro lobby and Central Plaza.
+  3. Falsified if no unique interactions or prompts occur.
+
 
 <hr>
