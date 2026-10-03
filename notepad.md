@@ -666,19 +666,15 @@
 - **H97: Communication Channel, Inventory & Surface House Audit (Turns 20761-20820)**: FALSIFIED. Audited HuPhone Mailbox/Item Storage (empty), World Map, Quest Log (no active quests), Bag Key Items (HuPhone, TM Case), surface residences (terrace and Wii houses static), and Route 2 barrier.
 - **H98: Subterranean Investigation in Sovio Sewers (Turns 20821-20851)**: FALSIFIED. Complete re-traversal of Sovio Sewers (lower walkway row 28, western corridor, Western Terrace, Northern Gangway row 5, vertical bridge col 23, row 13 catwalk, storage room platform 37, 14) confirmed 100% vacated with zero NPCs, dropped items, or active progression triggers. Storage room at (37, 14) displays static inspection text ("Its a simple storage room..").
 - **H99: Player Menus, Devices & Party State Audit (Turns 20886-20938)**: FALSIFIED. 100% comprehensive audit across Bag (3 pockets, strictly HuPhone and TM Case in Key Items), Party summaries (Sirius and Zephyr all 3 pages verified, standard moves/abilities, no field moves), Trainer Card (Front: 8 empty rounds, �8096, Back: 6 silhouettes), Options (standard GBA settings, Fast text), HuPhone (Item Storage/Mailbox empty, World Map verified, Quest Log confirmed zero active quests), and Metro Station fixtures (scanners inert, platform chairs empty). Progression is NOT gated by an unexamined menu toggle, inventory item, or party option.
+- **H101: Overlooked Narrative Event Triggers Audit (Turns 20944-20982)**: FALSIFIED. Comprehensive audit across Sovio Pok�mon Center (Nurse Joy heal cycle, Corner PC storage/mail empty, Framed Town Map), Route 2 barrier (re-confirmed "I can't go yet... I have things to do!" at 52, 19), Central Plaza terrace, and park walkways confirmed 100% static with zero narrative cutscenes or flags. Progression is not triggered by checking facilities or outdoor grounds in Sovio City.
 
 ## Active Hypotheses for Progression
-### Hypothesis H101: Investigation of Overlooked Narrative Event Triggers
-- **Core Premise Questioning**: For thousands of turns, exploration operated on the assumption that Jackson is physically standing as an overworld NPC in Sovio City, Lancio Town, or the Sewers waiting to be spoken to. However, exhaustive audits confirm Jackson's sprite is not present anywhere in these maps. Therefore, "finding Dad" is not a sprite-interaction event; it must be an event flag triggered by interacting with a key story figure, inspecting a critical narrative fixture, or advancing an unresolved prerequisite.
-- **Empirical Test Results**:
-  - Turns 20944-20949 Nurse Joy: Standard heal cycle completed, official Sovio City checkpoint registered, zero narrative announcements.
-  - Turns 20950-20966 Corner PC Terminal (12, 1): Someone's PC Box 1 (0 Pok�mon stored), Asher's PC Mailbox ("There's no Mail here."), Asher's PC Item Storage ("There are no items."), logged off cleanly.
-  - Turns 20967-20969 Framed Town Map (11, 0): Standard regional map display, identical to HuPhone World Map.
-- **Investigative Avenues**:
-  1. **Sovio Pok�mon Center Audit**: CONCLUDED. All internal fixtures (Nurse Joy, PC terminal, Town Map) verified 100% standard with zero story flags.
-  2. **Route 2 Eastern Boundary ("I can't go yet... I have things to do!")**: CONCLUDED. Re-confirmed active at (52, 19) in Turn 20974 verbatim: "I can't go yet... I have things to do!".
-  3. **Central Plaza & Outdoor Narrative Re-evaluation**: CONCLUDED. Central Plaza confrontation grounds, elevated terrace, and outdoor perimeters verified static with zero story triggers.
-- **Falsifiable Success Criteria**: Triggering a new story dialogue/cutscene, learning Jackson's true status, or lifting the turnstile blocker ("I should find dad first!").
+### Hypothesis H102: Investigation of Route 1 Southern Highway & Unresolved Quest Prerequisites
+- **Core Premise Questioning**: If Sovio City facilities, residences, sewers, and menus are exhausted, and Route 2 is barred by "I can't go yet... I have things to do!", the only unblocked physical exit is the Southern Avenue leading to Route 1. We must evaluate whether an unvisited prerequisite on Route 1 or an unresolved trigger in the southern corridor advances the story state.
+- **Audit Steps**:
+  1. Traverse south sidewalk west across rows 27-28 to Southern Avenue (column 15).
+  2. Evaluate Southern Avenue and Route 1 connection for story triggers.
+- **Falsifiable Success Criteria**: Triggering a new narrative event or lifting the story barriers.
 
 
 <hr>
