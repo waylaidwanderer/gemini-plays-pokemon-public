@@ -735,10 +735,10 @@
      - Granddaughter (63, 33): Baseline ("Nana makes the best food! Weeeee!").
      - Nana (62, 31): Baseline ("I'm cooking something for my dear grandkid. She loves my cooking.").
      - Conclusion: House 4 is 100% baseline flavor text. Zero items/leads.
-  6. Audit Name Rater House at (31, 26). [PENDING - ACTIVE]
+  6. Audit Name Rater House at (31, 26). [AUDITING - Turn 19677]
 - **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
 - **Falsification Threshold**: If all 5 residential interiors remain strictly in their baseline flavor states, H67 is falsified.
-- **Status**: ACTIVE. House 1, 2, 3, 4 completed baseline; moving to House 5 (Name Rater).
+- **Status**: CONCLUDING. All 5 residential houses audited baseline. Private civilian houses confirmed devoid of progression flags.
 
 
 <hr>
