@@ -689,7 +689,9 @@
 - **Premise**: Dad ran outside into Sovio City directly from the Metro Station lobby during the tremor. Civilian dialogue re-audits are completely falsified. Dad never entered the sewers (old summary hallucination). Progression must stem from an outdoor event trigger, unvisited physical coordinates, or an interaction at the tremor source/epicenter in Sovio City.
 - **Milestones**:
   1. Complete South Sidewalk to East Walkway loop and return to Central Plaza -> COMPLETE (Turn 22323).
-  2. Audit Central Plaza, Metro Station exterior, and eastern Route 2 approach for outdoor triggers -> IN PROGRESS.
-  3. Verify exact Metro Station lobby perimeter and platform interaction.
+  2. Audit Central Plaza, Metro Station exterior, and eastern Route 2 approach for outdoor triggers -> COMPLETE (Turn 22325: Route 2 barrier confirmed active "I can't go yet... I have things to do!").
+  3. Verify exact Metro Station lobby perimeter and platform interaction -> COMPLETE (Turn 22332: Platform verified 100% empty via photographic crop; turnstile confirmed blocked "I should find dad first!").
+  4. Audit Sovio Pokémon Center Mezzanine & PC Storage -> IN PROGRESS.
+  5. Audit North Central Park Pond Bank (columns 35-43, rows 16-18) & Southwest Lawn for tremor epicenter clues.
 
 <hr>
