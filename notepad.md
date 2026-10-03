@@ -676,6 +676,11 @@
   3. Descend stone stairs at (34, 24) to the lower sewer floor.
   4. Traverse lower walkway (row 28) and investigate western platform / Grunt 2 post (18, 21-22).
   5. Check elevated gangway (row 5) and eastern storage room platform (36-38, 12-14).
+- **Empirical Findings (Turns 20823-20847)**:
+  - Traversed lower sewer floor (row 28), Grunt 2 post (18, 22), western stairs, and Western Terrace: completely vacated, zero NPCs or dropped items.
+  - Climbed wall ladder (15, 6-10), traversed northern gangway (row 5) and vertical bridge (col 23): clear.
+  - Traversed row 13 catwalk to Eastern Storage Room Platform (36-38, 12-14); at (37, 14), re-tested red mat facing South with 'A': confirmed static inspection text "Its a simple storage room..." with impassable collision. Storage room platform is completely vacant with zero grunts or NPCs.
+  - Ascended column 30 causeway to upper platform (30, 6) outside Northeast Wooden Staircase.
 - **Falsifiable Success Criteria**: Locating Jackson, triggering a narrative cutscene, or resolving the turnstile blocker ("I should find dad first!").
 
 
