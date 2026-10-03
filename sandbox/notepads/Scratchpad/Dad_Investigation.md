@@ -30,4 +30,5 @@
 
 ## Facilities Audit (Sovio Pokémon Center)
 - **Straw-Hat Camper (5, 7)**: COMPLETE (FALSIFIED). Spoke with Camper while carrying Antidote in bag. Text displayed verbatim ambient dialogue ("My weedle got poisoned... Ironic isn't it?"). Zero quest trigger or item handoff.
-- **Resident Boy (8, 6)**: Currently testing.
+- **Resident Boy (8, 6)**: Ambient dialogue ('Please feel free to use that PC in the corner.').
+- **PC Terminal (12, 1)**: COMPLETE (FALSIFIED). Someone's PC Box 1 visually audited on screen; 100% empty (30 empty slots, no stored or gift Pokémon). Asher's PC Item Storage and Mailbox previously confirmed empty via HuPhone PC app. Zero items or Pokémon in PC storage.
