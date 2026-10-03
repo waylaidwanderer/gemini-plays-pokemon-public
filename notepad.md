@@ -710,19 +710,9 @@
 - H60-H82 (Exhaustive Baselines Across Sewers, Route 1, Lancio Town, Sovio City): FALSIFIED. Sewers cleared, storage room (37, 14) static, exterior paths, barriers, all residences, PC Box 1, and subterranean sewers verified static baseline.
 - H84-H89 (Surface, 2F Bedrooms, Seismic Sites, Attendant/Railing - Turns 20042-20308): FALSIFIED. Comprehensive sweep confirmed static baselines across exterior thresholds (Route 2 barrier at 52, 19 firmly blocked; trash can at 30, 28 inert), residential 2F bedrooms (Wii Easter egg, decorative sleeping bed at 27, 15, inert framed maps), and Metro Station lobby (north wall is solid brick supporting timetable, chairs inert, platform chairs empty per Turn 20098 optical illusion check, turnstiles firmly gated by "I should find dad first!").
 
+- H90 (System Menu & Inventory State Audit - Turns 20312-20341): FALSIFIED. Bag (4 items, Key Items: HuPhone, TM Case), party, Trainer Card ($6096, ID 54592), and HuPhone Quest Status audited. Zero unread items, keys, or pending side quests exist. Main progression is strictly gated by an overworld event trigger.
+
 ## Active Hypotheses for Progression
-### Hypothesis H90: Systematic Audit of Unverified Progression Triggers
-- **Premise**: Physical traversal through local corridors (Metro portal, Route 2 barrier, Central Park walkway, residential bedrooms) is completely exhausted and confirmed static. Progression must rely on an unverified interaction mechanism, system menu state, or unexamined trigger.
-- **Isolated Variables**:
-  1. Inspect Bag items, Key Items, and Pokémon party status directly in-game for unexamined interactions or use triggers.
-  2. Audit Trainer Card, money, and system options.
-  3. Re-evaluate physical overworld triggers in Sovio City that have not been tested in recent turns.
-- **Falsifiable Success Criteria**: Identifying an actionable in-game lead, updating dialogue, or clearing the turnstile prerequisite.
-- **Findings (Turn 20332)**:
-  - Variable 1 & 2 Evaluated: Bag audited (4 standard items, Key Items strictly HuPhone and TM Case). Party audited (Sirius Lv16 with Black Belt; Zephyr Lv2). Trainer Card audited ($6096, ID 54592, 8 tournament round slots, 6 badge silhouettes). HuPhone Quest Status confirms verbatim: "You aren't doing any Quest currently...". Zero unread letters, keys, or active side quests exist in the system state.
-
-- **Conclusion (Turn 20341)**: H90 FALSIFIED. System menus and inventory contain zero hidden keys, letters, or active quest flags. Main story progression is strictly gated by an overworld event trigger.
-
 ### Hypothesis H91: Ground-Truth Audit of Jackson's Post-Tremor Location
 - **Premise**: Past context summaries claimed Jackson was freed from the sewers, but verified ground truth shows the Metro turnstile still blocks Asher with "I should find dad first!". Jackson has not been rescued or met since running outside following the tremor.
 - **Isolated Variables**:
