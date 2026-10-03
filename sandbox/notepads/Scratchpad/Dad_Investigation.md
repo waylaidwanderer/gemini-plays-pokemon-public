@@ -14,14 +14,16 @@
 - H65 (Sovio City Exterior Paths & NPCs): FALSIFIED. Exterior corridors, Route 2 barrier (52, 19), West Ave rear lane (col 12), and Central Park NPCs (Boy in pink shirt, Little Girl, Jigglypuff, east walkway) verified static with zero progression flags.
 - H66 (Southern Regional Anchors & Route 1 Civilians): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, and all civilians (Grass boy at 11, 48; Camper at 17, 44; Pidgey boy at 34, 37; Science guy at 39, 37) audited as baseline flavor text. Lancio Town Lab (basement restricted, Prof Ivo and machine baseline) and Harbor Dock (pier empty, zero boats) verified 100% baseline.
 - H67 (Sovio City Residential Interiors): FALSIFIED. All 5 residential houses (Karate/Machop, Gumball, Wii, Nana's Terrace, Name Rater) audited baseline. Private civilian houses confirmed devoid of progression flags.
+- H68 (Sovio Metro Station Lobby & Turnstiles Deep Audit): FALSIFIED. West chairs (17, 23-24) and scanner pillars (18, 21; 20, 21) are decorative. Timetable board (21-23, 23) displays static destinations text. Turnstile (19, 21) remains strictly blocked ('I should find dad first!'). Platform chairs verified empty. Lobby contains zero active progression triggers or hidden switches.
 
 ## Active Hypotheses for Progression
-### Hypothesis H68: Sovio Metro Station Deep Lobby & Trigger Audit (Started: Turn 19700)
-- **Premise**: With all 5 residential interiors in Sovio City strictly verified baseline, we return to the origin point of Jackson's disappearance: the Sovio Metro Station lobby.
-- **Protocol**:
-  1. Enter Metro Station from Central Plaza at (48, 17).
-  2. Inspect every fixture, wall, counter, and NPC in the lobby (attendant booth, ticket machines, vending machine, chairs, sewer entrance mat).
-  3. Re-test turnstile interaction and observe if any new cutscene or prompt triggers.
-- **Falsifiable Success Criteria**: Finding Valora, an attendant offering new dialogue, or a trigger that updates the quest state or turnstile barrier.
 
-- Turnstile Re-test (Turn 19702): Stepping onto (19, 21) confirms 'I should find dad first!' remains 100% active, forcing Asher back to (19, 22). Platform chairs confirmed completely empty.
+### Hypothesis H69: Untracked Game Systems, Bag Pockets & Equipment Audit (Started: Turn 19714)
+- **Premise**: With all overworld maps (Sovio City, Route 1, Lancio Town, Sovio Sewers), NPCs, residences, and Metro lobby fixtures empirically verified as static/baseline, progress is gated by an untracked game system, inventory interaction, Key Item, or equipment mechanic (e.g. equipment to smash rugged rocks, registered key items, or Start Menu options).
+- **Protocol**:
+  1. Dismiss timetable textbox and open Start Menu.
+  2. Open Bag and audit every pocket (Items, Key Items, Poké Balls, TMs, Berries).
+  3. Inspect party Pokémon (Sirius, Zephyr) for held items, forms, or interactions.
+  4. Test overworld button controls (L button, R button, Select).
+  5. Inspect Options menu for engine features (e.g. Auto-run, DexNav, Quick-save).
+- **Falsifiable Success Criteria**: Discovering an unused Key Item, equipment tool, app feature, or control toggle that enables field obstacle clearance or narrative advancement.
