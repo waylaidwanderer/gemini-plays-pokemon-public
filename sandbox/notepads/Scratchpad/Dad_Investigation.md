@@ -16,3 +16,13 @@
   - Variable 2 (Clock/Timetable correlation): In-game Start Menu clock is real-time ticking (RTC), unlinked to the static 16:00 timetable text. Timetable is ambient world-building.
   - Variable 3 (Metro Station lobby audit): Audited blue chairs, scanner pillars, and timetable board. Turnstile at (19, 21) reliably triggers "I should find dad first!" and pushes Asher down to (19, 22).
   - Conclusion: No hidden local triggers or clock mechanisms exist in Central Plaza or the Metro Station lobby.
+
+## Active Hypotheses for Progression
+### Hypothesis H94: Resolution of Jackson's Location & Sewers Storage Room Trigger
+- **Premise**: Main story progression is blocked at the Metro turnstile by the script "I should find dad first!". Given that Team Siara held Jackson in the sewers storage room during the post-tremor cutscene, we must determine Jackson's physical or scripted status.
+- **Isolated Testing Variables**:
+  1. Deep empirical audit of Eastern Storage Room platform (36-38, 12-14) in Sovio Sewers: testing all approach angles, mat tiles (36, 14; 37, 14; 38, 14), facing directions, and Bag items.
+  2. Systematic survey of all non-equipment sewer corridors (elevated gangways, lower walkways, canal borders, Dark Sector alcoves) to verify if Jackson, Valora, or an interactive object exists in the sewers.
+- **Falsifiable Success Criteria**: Triggering dialogue with Jackson or Valora, opening the storage room door, finding a key item, or updating the turnstile script at (19, 21).
+- **Findings**:
+  - Variable 1: In progress.
