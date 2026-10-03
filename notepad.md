@@ -717,17 +717,15 @@
 ## Critical Grounding: Jackson Status Audit
 - **Summary Hallucination Identified**: Past context summary (turns 2279-2716) claimed Jackson was freed. Grounded game evidence confirms Jackson was NEVER freed and remains missing.
 - **Current Objective Grounding**: Metro turnstile explicitly commands "I should find dad first!". Route 2 exit blocks with "I can't go yet... I have things to do!". Both confirm locating Dad is the required prerequisite.
-- **Sewers Audited**: Sovio Sewers are 100% explored, vacated by Team Siara, and contain no NPCs. Re-entering sewers is prohibited.
+- **Sovio City & Sewers Audited**: Sovio City surface (Plaza, West Ave, Southern Ave) and Sovio Sewers are 100% explored with zero progression triggers. Re-entering Sovio City urban circuit without new external leads is suspended.
 
 ## Active Hypotheses for Progression
-### Hypothesis H57: Sovio City Overworld Trigger & NPC Audit
-- **Premise**: When the tremor occurred, Dad ran outside from the Metro Station into Sovio City. An event trigger, NPC interaction, or route boundary advances the search for Dad.
-- **Concluded Sub-hypotheses**:
-  - **H57a (Plaza Sweep)**: Systematic sweep of Central Plaza tiles (cols 41-48, rows 12-16) confirmed 0 triggers.
-  - **H57b (Center NPCs)**: Camper, Nurse Joy, and Blue Shirt Boy audited; all yield identical baseline text.
-- **Active Sub-hypothesis H57c: Southern Avenue Corridor & Route 1 Boundary Audit**:
-  - **Concluded Targets**: Boy Rocky, Rocky, Karate Trainer, Girlfriend, and Machop all confirmed baseline ambient text.
-  - **Active Targets**: Southern Avenue corridor (cols 14-15, rows 21-40) and Route 1 transition (rows 40-41).
-  - **Test Plan**: 1. Exit Karate House to West Avenue. 2. Sweep south along Southern Avenue (cols 14-15) past Bikers to row 40 to test for triggers or external route connections.
+### Hypothesis H58: External Route & Landmark Audit (Route 1 & Lancio Town)
+- **Premise**: With Sovio City's urban circuit exhausted, external locations outside Sovio City contain the trigger, item, or encounter needed to advance the search for Jackson.
+- **Target Zones**:
+  1. Route 1 Northeast Meadow & Rock Spire clearing (cols 33-53, rows 0-12).
+  2. Route 1 Cottage grounds & coastal clearing (cols 37-42, rows 24-38).
+  3. Lancio Town facilities (Pokémon Center interior, Lab West Wing & basement check).
+- **Test Plan**: 1. Advance south from (53, 0) through northeast meadow to row 12. 2. Sweep west past Duke (45, 12) toward the central clearings.
 
 <hr>
