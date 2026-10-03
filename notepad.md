@@ -367,7 +367,7 @@
 
 - **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32) and mother at (27, 33) provide ambient television flavor text (Gumball Easter egg). Wide-screen TV at (25-26, 30). Confirmed 100% ambient civilian residence.
 
-- **Interior 2F**: Stairs at (26, 12). Generic bookshelf at (22-23, 12) reads "It's crammed full of Pokémon books.", blue PC terminal at (20, 12) is inert.
+- **Interior 2F**: Stairs at (26, 12). Bed with sleeping figure at (27, 15-16). Generic bookshelf at (22-23, 12) reads "It's crammed full of Pokémon books.", blue PC terminal at (20, 12) is inert.
 
 ## Residential House (Northwest - Machop Family)
 
