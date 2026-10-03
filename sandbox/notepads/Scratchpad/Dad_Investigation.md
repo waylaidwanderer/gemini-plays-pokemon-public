@@ -12,9 +12,13 @@
 - **Sovio Metro Lobby Audits**: Timetable board is decorative flavor text. Turnstile passage at (19, 21) triggers "I should find dad first!".
 
 ## Concluded Hypotheses
-- H60 (Night Cycle), H61 (Inventory/Environmental Triggers), H62 (Commercial Building Corridor): FALSIFIED.
+- H60 (Night Cycle), H61 (Inventory/Triggers), H62 (Corridor), H63 (Lobby & Storage Room): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
 
 ## Active Hypotheses for Progression
-### Hypothesis H63: Sovio Metro Station Lobby & Secret Passage Investigation
-- **Premise**: Re-evaluating Metro lobby and sewer triggers to identify the missing progression flag for Jackson.
-- **Status**: IN PROGRESS. Lobby blue chairs verified inert. Re-auditing sewer network and planning return to Metro Station platform.
+### Hypothesis H64: Sovio Metro Station Platform Attendant & Surface Trigger Investigation
+- **Premise**: With sewers fully audited and cleared, the missing progression trigger for Jackson resides on the surface in Sovio City or via the Metro platform attendant/conductor.
+- **Test Protocol**:
+  1. Return to Sovio Metro Station lobby via (38, 22) stairs.
+  2. Inspect the seated attendant/conductor at the turnstiles and test interactions from all adjacent angles.
+  3. Re-examine Sovio City surface landmarks and NPCs for any triggered changes.
+- **Status**: IN PROGRESS. Exiting sewers via sewer_transit.
