@@ -688,8 +688,8 @@
 ## Active Hypothesis H123: Outdoor Tremor Epicenter & Unexplored Spatial Geometry Audit
 - **Premise**: Dad ran outside into Sovio City directly from the Metro Station lobby during the tremor. Civilian dialogue re-audits are completely falsified. Dad never entered the sewers (old summary hallucination). Progression must stem from an outdoor event trigger, unvisited physical coordinates, or an interaction at the tremor source/epicenter in Sovio City.
 - **Milestones**:
-  1. Complete South Sidewalk to East Walkway loop and return to Central Plaza -> IN PROGRESS.
-  2. Audit Central Plaza, Metro Station exterior, and eastern Route 2 approach for outdoor triggers.
+  1. Complete South Sidewalk to East Walkway loop and return to Central Plaza -> COMPLETE (Turn 22323).
+  2. Audit Central Plaza, Metro Station exterior, and eastern Route 2 approach for outdoor triggers -> IN PROGRESS.
   3. Verify exact Metro Station lobby perimeter and platform interaction.
 
 <hr>
