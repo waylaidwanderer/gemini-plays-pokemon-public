@@ -735,6 +735,7 @@
 - Bag Audit (Turn 19722): 100% completed. Items: Potion x1, Poison Barb x1, Antidote x1, Nugget x1. Poké Balls: Timer Ball x1, Poké Ball x10. Key Items: HuPhone (Select), TM Case. Confirmed zero equipment or keys in Bag.
 - Option Menu Audit (Turn 19735): Standard 7-item Gen 3 Option menu (Text Speed: Fast, Battle Scene: On, Battle Style: Shift, Sound: Stereo, Button Mode: Help, Frame: Type 1, Cancel). Confirmed zero custom engine toggles, auto-run settings, or difficulty modes.
 - HuPhone PC Storage Audit (Turn 19743): 'Withdraw Item' verified completely empty ('There are no items.'). 'Mailbox' verified completely empty ('There's no Mail here.'). Party Sirius summary pending visual inspection.
+- HuPhone Quest Status (Turn 19747): Confirmed 'You aren't doing any Quest currently...'. Zero active quests.
 
 
 <hr>
