@@ -669,17 +669,12 @@
 - **Rules of Engagement**: Focus exclusively on the Metro Station lobby and platform perimeter. Do NOT re-trigger the passage tile (19, 21) until all adjacent interactive objects and dialogue targets have been audited.
 
 ### Test Targets & Protocols:
-1. **Target 1: Transit Officer & Railing Interface (Columns 21-23, Row 22)**
-   - Candidate: The blue-uniformed transit officer seated in the blue chair along the northeast wall past the turnstile.
-   - Action: Approach row 22 at columns 21, 22, and 23. Face North toward the seated officer across the divider/railing and press A.
-   - Success: Dialogue regarding train tickets, station status, tremor aftermath, or Dad's whereabouts.
-   - Failure: Inert barrier collision with zero text.
+1. **Target 1: Transit Officer & Railing Interface (Columns 21-23, Row 22)**: COMPLETE (FALSIFIED).
+   - Empirical Result: Visual inspection of platform confirms blue seats are empty (zero NPCs present on platform). Row 22 column 21 is solid brick foundation wall with no open counter/railing. Target 1 falsified.
 
-2. **Target 2: Scanner Pillars (Columns 18 & 20, Row 22)**
-   - Candidate: Scanner pillars flanking passage tile (19, 21).
-   - Action: Stand at (18, 22) and (20, 22), face North, and press A to inspect for card reader/ticket slot interactions.
-   - Success: Inspection text, card prompt, or mechanical feedback.
-   - Failure: Completely inert collision.
+2. **Target 2: Scanner Pillars (Columns 18 & 20, Row 22)**: IN PROGRESS.
+   - Right Scanner Pillar (20, 21): Inspected facing North from (20, 22) with A -> completely inert solid collision with zero text.
+   - Left Scanner Pillar (18, 21): Currently testing from (18, 22) facing North.
 
 3. **Target 3: Metro Station Vending Machine & Schedule Board Re-Check**
    - Action: Verify if vending machine can be interacted with across the western barrier or if secondary schedule board interactions exist.
