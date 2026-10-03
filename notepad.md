@@ -666,11 +666,9 @@
 - **Rules of Engagement**: Do NOT re-trigger the Metro turnstile or Route 2 barrier unless a new verified state or item has been obtained.
 
 ### Test Targets & Protocols:
-1. **Target 3A: Wall Medallion & East Terrace Fixtures (Columns 50-51, Rows 14-17)**
-   - Candidate: Circular grey medallion at (51, 16) mounted on the wall above the signpost, and the wall interface at column 51-52.
-   - Action: Ascend to terrace at (47, 15), walk to column 51, inspect wall facing East and South.
-   - Success: Inspection text, secret switch, or hidden warp.
-   - Failure: Inert solid collision.
+1. **Target 3A: Wall Medallion & East Terrace Fixtures (Columns 50-51, Rows 14-17)**: COMPLETE (FALSIFIED).
+   - Candidate: Circular grey medallion at (51, 16) and eastern wall interface at column 52.
+   - Empirical Results: Inspected wall facing East at (51, 15) and (51, 16) -> solid inert wall. Stepped directly onto medallion tile at (51, 16) -> decorative floor graphic with zero text or trigger. Inspected back of signpost facing South at (51, 17) -> inert. Inspected wall shutters facing East at (51, 17) -> inert solid collision. 100% falsified.
 
 2. **Target 3B: West Avenue Office Facade (Column 11, Rows 16-20)**
    - Candidate: The eastern wall of the modern high-rise terminating West Avenue.
