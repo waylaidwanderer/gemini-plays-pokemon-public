@@ -170,7 +170,6 @@
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
-- **Row 43 Northern Corridor Collision**: Row 43 is blocked to the west at (11, 43) by solid pine tree canopy collision; does not connect west across column 11.
 - **Row 48 Southern Bypass**: Row 48 runs directly beneath Signboard 1 at (10-11, 47), connecting the eastern Route 1 corridor (column 12) directly west across columns 8-11 into the western clearing and cobblestone road.
 
 <hr>
