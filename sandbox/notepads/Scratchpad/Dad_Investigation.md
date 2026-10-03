@@ -14,12 +14,7 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H45: Sovio Sewers Physical Obstacle & Subterranean Branch Investigation
 - **Premise**: With all surface facilities and menus conclusively exhausted, the only unpassed boundaries in the accessible game world are the rugged rocks gating subterranean branches in the Sovio Sewers (Dark Sector at 22, 10 and Southwest Corridor at 10, 18). Investigation must focus on testing these physical obstacles, auditing adjacent tiles, and determining how clearance is achieved.
-- **Immediate Plan**:
-  1. Exit Pokémon Center PC and building.
-  2. Travel to Sovio Metro Station and descend via red mat at (18-19, 25) into Sovio Sewers.
-  3. Deploy subagent `sewer_transit` for autonomous traversal to target obstacles.
 ## Grounded Obstacle Audit (Turn 18558)
 - **Southwest Rugged Rock (10, 18)**: Verified verbatim: "It's a rugged rock, but with some equipment, I could smash it." Gating columns 7-8 and row 24 curb.
 - **Dark Sector Rugged Rock (22, 10)**: Verified verbatim: "It's a rugged rock, but with some equipment, I could smash it." Positioned at (22, 10) south of row 9 corridor.
-- **Current Position**: Dark Sector at (21, 9) facing South; actively probing southern boundary and adjacent tiles.
-- **Dark Sector Perimeter Audit (Turns 18559-18563)**: Probed tile (21, 10) directly west of rock. Row 11 is solid south elevation wall; tile (20, 10) is solid corner wall. Rugged rock at (22, 10) confirmed seated in south alcove. Ascended stairs at (31, 9) to upper sewers at (31, 4).
+- **Dark Sector Perimeter Audit (Turns 18559-18563)**: Probed tile (21, 10) directly west of rock. Row 11 is solid south elevation wall; tile (20, 10) is solid corner wall. Rugged rock at (22, 10) confirmed seated in south alcove. Ascended stairs at (31, 9) to upper sewers at (31, 4). Transferred to Locations/Sovio_Sewers.
