@@ -21,5 +21,5 @@
 - **Premise**: Non-spatial state is clean (H124 complete). Auditing untested physical fixtures in the Metro Station lobby before moving outside.
 - **Milestones**:
   1. Inspect red fixture at (24, 25) -> COMPLETE. Verified as vertical red entrance mat on floor (23, 24-25); tile (24, 25) is open floor beside stairs with no interaction.
-  2. Inspect turnstile scanner pillars: Left pillar (18, 21) confirmed inert. Right pillar (20, 21) -> IN PROGRESS.
-  3. Inspect west wall seating at (15, 24-26).
+  2. Inspect turnstile scanner pillars: Left pillar (18, 21) and right pillar (20, 21) confirmed completely inert decorative fixtures -> COMPLETE (Turn 22469).
+  3. Inspect west wall seating at (15, 24-26) -> IN PROGRESS.
