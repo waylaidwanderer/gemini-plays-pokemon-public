@@ -717,17 +717,22 @@
 - H66 (Southern Regional Anchors & Route 1 Civilians): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, and all civilians (Grass boy at 11, 48; Camper at 17, 44; Pidgey boy at 34, 37; Science guy at 39, 37) audited as baseline flavor text. Lancio Town Lab (basement restricted, Prof Ivo and machine baseline) and Harbor Dock (pier empty, zero boats) verified 100% baseline.
 
 ## Active Hypotheses for Progression
-### Hypothesis H67: Sovio City Residential Interiors Post-Sewer Audit
+### Hypothesis H67: Sovio City Residential Interiors Post-Sewer Audit (Started: Turn 19611)
 - **Premise**: With exterior surface paths, Metro lobby turnstiles, and southern regional anchors (Route 1, Lancio Town) strictly audited, the post-sewer progression trigger or Jackson lead resides inside Sovio City's residential interiors.
 - **Audited Targets & Protocol**:
-  1. Return north via Route 1 to Sovio City. [ACTIVE]
-  2. Audit Residential House Northwest (Karate / Machop House at 14, 15).
-  3. Audit Residential House Central-West (Gumball House at 29, 14).
+  1. Return north via Route 1 to Sovio City. [COMPLETED - Turn 19638]
+  2. Audit Residential House Northwest (Karate / Machop House at 14, 15). [AUDITED - BASELINE]
+     - Karate trainer at (3, 34): Baseline debate text ("We are having a debate over which fighting stlye is better... My girlfriend says kickbox is far better than karate...").
+     - Family Machop at (7, 33): Baseline ("Machop: Chop Chop!" / "He seems a bit agressive...").
+     - Blonde girlfriend at (3, 33): Baseline debate text ("We are having a debate over which fighting stlye is better...").
+     - Conclusion: House 1 is 100% baseline flavor text. Zero items/leads.
+  3. Audit Residential House Central-West (Gumball House at 29, 14). [PENDING - ACTIVE]
   4. Audit Residential House North-Central (Wii House at 39, 7).
   5. Audit Terrace House above Metro (Nana's House at 49, 14).
   6. Audit Name Rater House at (31, 26).
 - **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
-- **Status**: ACTIVE. Step 1 (transit north to Sovio City) underway.
+- **Falsification Threshold**: If all 5 residential interiors remain strictly in their baseline flavor states, H67 is falsified.
+- **Status**: ACTIVE. House 1 completed baseline; moving to House 2 (Gumball House).
 
 
 <hr>
