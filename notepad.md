@@ -724,8 +724,9 @@
 - **Premise**: With Sovio City's urban circuit exhausted, external locations outside Sovio City contain the trigger, item, or encounter needed to advance the search for Jackson.
 - **Audited Zones**:
   - Target 1 (Rock Spire Clearing & Northeast Meadow): Duke verified baseline, rock spire (35, 7) and alcove (34, 6-7) confirmed inert scenery.
+  - Target 2 (Route 1 Cottage & Coastal Clearing): Cottage boy and Science Guy confirmed baseline ambient text.
 - **Active Target**:
-  - Target 2: Route 1 Cottage grounds & coastal clearing (cols 37-42, rows 24-38).
-- **Test Plan**: 1. Traverse row 9 bypass and column 31/30 corridor to Cottage grounds at row 26. 2. Audit Cottage exterior, coastal clearing, and Sand Highway.
+  - Target 3: Lancio Town facilities (Lab PC terminal & basement, Pokémon Center, Harbor pier).
+- **Test Plan**: 1. Advance southwest via Sand Highway (col 32 gap) and row 44 southern corridor to Lancio Town (0, 45). 2. Audit Professor Ivo's Lab western PC and basement stairs. 3. Check Harbor dock.
 
 <hr>
