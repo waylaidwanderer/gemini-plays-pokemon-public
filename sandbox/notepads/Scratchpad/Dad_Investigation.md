@@ -23,4 +23,4 @@
   1. Inspect the two blue chairs at (17, 24) and (17, 25) in the lobby.
   2. Inspect the scanner pillars at (18, 21) and (20, 21).
   3. Re-enter the secret sewer entrance at (18-19, 25) to re-audit the sewer storage room and western corridors.
-- **Status**: IN PROGRESS. Entering Metro Station to begin lobby fixture audit.
+- **Status**: IN PROGRESS. Lobby blue chairs at (17, 24-25) verified 100% inert. Re-entering Sovio Sewers via (18, 25) to audit storage room and grunt platforms.
