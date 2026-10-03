@@ -670,7 +670,9 @@
 - **Premise**: Team Siara has retreated from Sovio Sewers following Marie's directive. Jackson ran outside into Central Plaza during the tremor. Both the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") remain active. We hypothesize a progression trigger (updated NPC dialogue, outdoor trigger tile, or side quest interaction) exists in Sovio City.
 - **Milestones**:
   1. Exit Metro Station to Central Plaza (48, 18) -> COMPLETE (Turn 22097).
-  2. Inspect Central Plaza perimeter, elevated terrace (49, 14), and key outdoor NPCs in Sovio City -> BYPASSED (Exited south to Route 1).
+  2. Inspect Central Plaza perimeter, elevated terrace (49, 14), and key outdoor NPCs in Sovio City:
+     - Elevated terrace residence (49, 14) (Turn 22288-22290): Granddaughter ("Nana makes the best food! Weeeee!") and Nana ("I'm cooking something for my dear grandkid...") confirmed 100% ambient flavor text.
+     - Central Plaza perimeter & remaining outdoor checkpoints -> IN PROGRESS.
   3. Route 1 & Lancio Town Audit:
      - 3a. Route 1 Cottage resident (Turn 22134) -> COMPLETE (FALSIFIED: Max Repel given; ambient text "Now that you got your sample, go and enjoy freedom!").
      - 3b. Route 1 Cut tree at (5, 44) (Turn 22183) -> COMPLETE (FALSIFIED: inert collision, no interaction text).
