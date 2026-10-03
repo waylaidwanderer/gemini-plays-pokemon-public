@@ -366,7 +366,7 @@
 
 - **Interior 1F**: Entrance mat at (23-24, 36). Resident boy at (25, 32) and mother at (27, 33) provide ambient television flavor text (Gumball Easter egg). Wide-screen TV at (25-26, 30). Confirmed 100% ambient civilian residence.
 
-- **Interior 2F**: Stairs at (26, 12). Bed with sleeping figure at (27, 15-16) displays verbatim "She's sleeping...". Generic bookshelf at (22-23, 12) reads "It's crammed full of Pokémon books.", blue PC terminal at (20, 12) is inert. Confirmed decorative flavor.
+- **Interior 2F**: Stairs at (26, 12). Bed with sleeping figure at (27, 15-16) displays verbatim "She's sleeping..." followed by "Wait why am I all alone in a sleeping girl's room?!". Generic bookshelf at (22-23, 12) reads "It's crammed full of Pokémon books.", blue PC terminal at (20, 12) is inert. Confirmed decorative comedic Easter egg.
 
 ## Residential House (Northwest - Machop Family)
 
