@@ -18,9 +18,14 @@
 - **Premise**: During the tremor at Sovio Metro Station, Dad ran outside into Sovio City to investigate the source of the tremor (Dad never entered the sewers). The Metro turnstile blocks Asher with "I should find dad first!", confirming Dad is located somewhere in Sovio City investigating the tremor. Platform chairs confirmed empty (no transit officer).
 - **Core Testable Variables**:
   1. Audit regional devices and Key Items (HuPhone apps: Item Storage, World Map, Quest Log, Town Map interaction).
-  2. Check for physical effects of the tremor in Sovio City (cracks, structural changes, new paths, blocked passages, outdoor fixtures).
-  3. Re-examine potential tremor investigation sites where Dad would go: Central Plaza (confrontation site), Park borders, Metro entrance terrace, and city perimeters.
+  2. Audit unvisited structural connections and boundary tiles in Sovio Metro Station and Sovio Sewers.
 - **Milestones**:
-  1. Heal party at Sovio Pokémon Center with Nurse Joy -> IN PROGRESS (Turn 22741).
-  2. Systematic audit of HuPhone and Key Items.
-  3. Physical inspection of Sovio City outdoor sectors for tremor-related changes.
+  1. Heal party at Sovio Pokémon Center with Nurse Joy -> COMPLETE (Turn 22744). Sirius fully restored to 47/47 HP, cured of PSN, and Sovio checkpoint registered.
+  2. Systematic audit of HuPhone apps -> COMPLETE (Turn 22759):
+     - World Map: Audited. Shows standard regional topology; zero quest markers or destination highlights.
+     - Quest Log (Quest Status): Audited. Verbatim: "You aren't doing any Quest currently...". Side quest tracker is empty.
+     - Quest Log (Quest List): Audited (25 quests across 5 pages). Page 1: Lost Pidgey and Lost Toy completed.
+     - Item Storage (Withdraw Item): Audited. Verbatim: "There are no items." Zero items stored in PC.
+     - Item Storage (Mailbox): Audited. Verbatim: "There's no Mail here." Zero mail present.
+     - Conclusion: HuPhone contains zero pending items, unread mail, or active story objectives.
+  3. Audit Bag Key Items & Metro Station structural boundaries -> IN PROGRESS (Turn 22771).
