@@ -11,6 +11,7 @@
 
 ## Concluded Hypotheses
 - H60-H65 (Sewers, Lobby, Sovio City Exterior Corridors & NPCs - Turns 19100-19470): FALSIFIED. Sewers cleared, (37, 14) storage room static, exterior paths, barriers (52, 19), and civilians verified baseline.
+- H74 (Sovio Sewers Subterranean Epicenter Audit - Turns 19802-19838): FALSIFIED. Confirmed sewers remain fully cleared and static; premise that Jackson was captive in sewers was a summary artifact. Jackson ran outside to Sovio City upon the tremor.
 - H66 (Southern Regional Anchors & Route 1 Civilians): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, and all civilians (Grass boy at 11, 48; Camper at 17, 44; Pidgey boy at 34, 37; Science guy at 39, 37) audited as baseline flavor text. Lancio Town Lab (basement restricted, Prof Ivo and machine baseline) and Harbor Dock (pier empty, zero boats) verified 100% baseline.
 - H67 (Sovio City Residential Interiors - Turns 19611-19688): FALSIFIED. All 5 residential houses (Karate/Machop, Gumball, Wii, Nana's Terrace, Name Rater) audited baseline. Private civilian houses confirmed devoid of progression flags.
 - H68 (Sovio Metro Station Lobby & Turnstiles Deep Audit - Turns 19700-19714): FALSIFIED. West chairs (17, 23-24) and scanner pillars (18, 21; 20, 21) are decorative. Timetable board (21-23, 23) displays static destinations text. Turnstile (19, 21) remains strictly blocked ('I should find dad first!'). Platform chairs verified empty. Lobby contains zero active progression triggers or hidden switches.
@@ -21,10 +22,4 @@
 - H73 (Sovio Pokémon Center PC & Town Map Telemetry - Turns 19786-19801): FALSIFIED. Physical PC Someone's PC Box 1 verified completely empty (0/30 slots occupied; remaining boxes uninspected). Town Map confirmed standard regional viewer. Clinic telemetry contains zero Jackson leads.
 
 ## Active Hypotheses for Progression
-### Hypothesis H74: Sovio Sewers Seismic Epicenter & Subterranean Investigation (Started: Turn 19802)
-- **Premise**: Jackson ran outside the Metro Station specifically to investigate the seismic tremor that shook the facility. The only regional location physically tied to seismic activity and Team Siara operations is the subterranean sector (Sovio Sewers). All surface residences, administrative menus, and overworld civilians across 3 maps have been verified baseline. We descend into Sovio Sewers to investigate the physical epicenter of the tremor, audit subterranean pathways, and locate the physical source of Team Siara's operations or Jackson's trail.
-- **Protocol**:
-  1. Exit Pokémon Center into Central Plaza (44, 12).
-  2. Navigate to Sovio Metro Station portal (48, 17) and descend into sewers via red mat at (18, 25).
-  3. Systematically survey the subterranean sector: check all catwalks, canal boundaries, and elevation curbs for seismic impact, cracks, or alterations.
-- **Falsifiable Success Criteria**: Finding Jackson, discovering newly opened subterranean passages, or locating physical evidence of the seismic epicenter.
+
