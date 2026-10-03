@@ -623,7 +623,7 @@
     24. Outcasts
     25. The Mods of Cord
   - **Full Quest Scope**: Exactly 25 quest entries across 5 pages (23 named quests + 2 '- Not available -' slots). Page 5 terminates with 'Previous' and 'Exit' (no 'Next' option).
-  - 'Quest List': Displays side quests across 5 pages. Selecting any quest opens its full dedicated Quest Description card displaying the quest title, target NPC, target location, objective requirements, and rewards (e.g. 'Egg Research' requires bringing an Egg to Mrs. Ivo in Lancio Town; 'Medic!' requires bringing Fresh Water in the Pokémon Center). Completed quests are marked with a completed stamp, while uncompleted quests show their active objective criteria.
+  - 'Quest List': Displays side quests across 5 pages. Selecting an uncompleted quest displays verbatim: 'This Quest hasn't been completed yet!'. Selecting a completed quest displays 'This Quest has been completed!'. The Quest List functions as a completion tracker and does not provide active objective hints or cards for unstarted quests.
   - 'Quest Status': When a quest is active, displays the currently tracked quest status and system instructions. When no quest is active, displays 'You aren't doing any Quest at the moment!'.
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
@@ -714,16 +714,9 @@
 ## Concluded Hypotheses
 - H60-H65 (Sewers, Lobby, Sovio City Exterior Corridors & NPCs - Turns 19100-19470): FALSIFIED. Sewers cleared, (37, 14) storage room static, exterior paths, barriers (52, 19), and civilians verified baseline.
 - H66-H74 (Regional Anchors, Residences, Systems, Terrace, Corridor, PC & Sewers - Turns 19470-19838): FALSIFIED. Route 1/Lancio Town, all 5 residences, lobby fixtures, terrace/corridor walls, PC Box 1, and subterranean sewers re-verified static baseline with zero new items or triggers.
+- H75 (HuPhone Quest Log Audit - Turns 19871-19884): FALSIFIED. Empirically tested uncompleted quest entries in Quest List (e.g. Egg Research); confirmed they verbatim display 'This Quest hasn't been completed yet!' without providing objective telemetry, targets, or equipment clues. Side quest objectives must be acquired from NPC quest givers in the overworld.
 
 ## Active Hypotheses for Progression
-### Hypothesis H75: Systematic Quest Log Audit & Objective Telemetry (Started: Turn 19871)
-- **Premise**: Physical exploration of all surface and subterranean tiles (H60-H74) confirmed 100% baseline with zero physical NPCs advancing the plot. In-game evidence proves the HuPhone Quest Log stores comprehensive dedicated mission cards detailing targets, locations, items, and rewards for regional missions. Inspecting the Quest Description cards across Pages 1-5 will reveal actionable quest targets, regional quest givers, equipment rewards (such as rock-smashing equipment), and potential progression unlocks without blind overworld tile-walking.
-- **Protocol**:
-  1. Press SELECT from overworld to launch the HuPhone device.
-  2. Navigate to 'Quest Log' (Option 3) and select 'Quest List' (Option 1).
-  3. Systematically inspect the Quest Description cards for Page 1 quests (Egg Research, Medic!, Squirtle Gang) and Page 2 quests (Lost Eevee, Kaboom, Valentines Gift, Angry Cubone Kid, Push it!).
-  4. Record exact targets, locations, requirements, and rewards into Mechanics/Engine.md.
-- **Falsifiable Success Criteria**: Extracting explicit in-game mission objectives, discovering equipment/item sources, or identifying active quest triggers that advance regional progression.
 
 
 <hr>
