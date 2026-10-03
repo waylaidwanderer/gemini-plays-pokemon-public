@@ -722,8 +722,8 @@
 - **Audited Targets**:
   1. Camper NPC 2 at (17, 44-45): AUDITED (verified baseline flavor text).
   2. Pidgey boy NPC 1 at (34, 37): AUDITED (verified baseline post-quest flavor text: "Thank you so much for finding my precious Pidgey.").
-  3. Science guy NPC 3 at (39-41, 36): PENDING.
-- **Status**: ACTIVE. Approaching Sand Highway.
+  3. Science guy NPC 3 at (39, 37): AUDITED (verified baseline flavor text: "The power of science is incredible! Erm... why is it that astonishing now?").
+- **Status**: CONCLUDED / FALSIFIED. All Route 1 civilians, landmarks, and Lancio Town anchors confirmed baseline.
 
 ### Hypothesis H67: Sovio City Residential Interiors Post-Sewer Audit
 - **Premise**: With exterior surface paths, Metro lobby turnstiles, and southern regional anchors (Route 1, Lancio Town) strictly audited, the post-sewer progression trigger or Jackson lead resides inside Sovio City's residential interiors.
