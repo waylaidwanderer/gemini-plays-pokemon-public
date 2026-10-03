@@ -15,11 +15,13 @@
 - H86 (Sovio City Building & Sewer Triggers - Turns 20162-20246): FALSIFIED. Eastern storage room platform at (37, 14) verified static inspection trigger with solid collision at (37, 15) and zero NPCs/items. Northern boulevard tan building facade at (32-37, 8-12) and shutters at (34-35, 12) confirmed solid collision with zero interactions or secret doors.
 - H87 (Residential 2F Bedroom Sweep - Turns 20251-20283): FALSIFIED. House (39, 7) 2F (boy, TV Easter egg, inert PC/bed) and Gumball House (29, 14) 2F (sleeping bed, framed map, bookshelf, PC) confirmed 100% static civilian baselines. Pruned from investigation per critique instructions.
 - H88 (Outdoor Seismic Impact Sites - Turns 20285-20301): FALSIFIED. Central Park southern perimeter (rows 27-28), Route 2 barrier (52, 19-22), and southwest building exterior confirmed standard baseline with zero physical fissures, altered NPCs, or tremor artifacts. Trash can at (30, 28) confirmed completely inert.
+- H89 (Metro Station Attendant & Railing Interaction - Turns 20302-20308): FALSIFIED. North wall at columns 21-23 is solid brick with timetable board mounted; staircase at column 24 has solid side banister with zero open railing to interact with the seated officer on the platform. West wall lobby chairs (rows 22-25) confirmed non-interactive with zero dropped items. Passage to platform remains strictly gated by the (19, 21) turnstile trigger ("I should find dad first!").
 
 ## Active Hypotheses for Progression
-### Hypothesis H89: Metro Station Attendant & Railing Interaction (Started: Turn 20302)
-- **Premise**: Stepping onto turnstile tile (19, 21) triggers a scripted push-back ("I should find dad first!"). However, visual inspection of the platform reveals an attendant/officer in a blue uniform and cap seated in the northeast blue chair (around column 24, row 18). Rather than triggering the turnstile script, we must test interacting across the lobby railing (columns 23-24, row 21) directly with this attendant or adjacent fixtures to ascertain train boarding requirements or Dad's whereabouts.
+### Hypothesis H90: Investigation of System State & Regional Quest Triggers (Started: Turn 20309)
+- **Premise**: All physical overworld and subterranean baselines in Sovio City are verified exhausted (turnstiles firmly gated by "I should find dad first!", Route 2 gated by "I can't go yet... I have things to do!", sewers vacated, exterior civilians static). The gating flag must be linked to an uninspected system state or regional trigger outside the local macro-loop.
 - **Isolated Variables**:
-  1. Approach the northeast lobby railing at (23-24, 21) and attempt to speak across the railing to the seated officer.
-  2. Test interaction with the right flank of the timetable board and eastern lobby wall fixtures.
-- **Falsifiable Success Criteria**: Triggering dialogue with the seated attendant, obtaining train passage, or updating the turnstile prerequisite.
+  1. Inspect HuPhone Quest Status and Quest Log for pending story or side objectives.
+  2. Inspect Bag key items and party status for unread letters or hold items.
+  3. Evaluate regional anchors (Professor Ivo's lab basement prerequisite or Route 1 cut tree).
+- **Falsifiable Success Criteria**: Identifying an active quest objective, receiving a new story prompt, or clearing the turnstile prerequisite.
