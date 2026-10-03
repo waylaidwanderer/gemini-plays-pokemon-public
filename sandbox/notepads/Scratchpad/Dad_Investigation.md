@@ -21,3 +21,7 @@
        * Sector B (Central Park & East Walkway): COMPLETE. Walkway (rows 19-27), trash cans at (46, 22-23) and (46, 30-31), South Sidewalk (rows 27-28), and Central Park interior (col 34, rows 18-25) audited.
        * Sector C (West Avenue & Commercial Block): COMPLETE. West Avenue street (rows 16-18, cols 11-30), Karate House (14, 15), Bikers (13, 21-23), Southern Avenue (cols 14-15, rows 23-30), and commercial block shutters (34-35, 12-13) audited with zero tremor triggers.
      - Synthesis: All outdoor sectors (A, B, C) verified devoid of Jackson or active tremor triggers. Transitioning investigation into interior facilities: Sovio Metro Station lobby fixtures, transit officer, and platform gates.
+  5. Metro Station & Terminal Facilities Audit -> IN PROGRESS.
+     - *Turn 21868*: Camera scroll at (19, 21) confirms uniformed transit officer seated in northeast platform chair. Gate script confirms "I should find dad first!" remains active.
+     - *Turn 21877*: Bag Key Items audited: only HuPhone and TM Case present.
+     - *Turn 21894-21895*: Booted up Pokémon Center PC at (12, 1). Accessing Someone's PC storage system to inspect Box storage.
