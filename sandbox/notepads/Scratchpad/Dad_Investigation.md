@@ -22,3 +22,4 @@
      - Baseline EXP to Lv17: 482 EXP (Start: 2638 EXP, Target: 3120 EXP).
      - Battle 1: Caterpie Lv2 -> +15 EXP (Sirius: 2653 EXP, Deficit: 467 EXP).
      - Battle 2: Caterpie Lv2 -> +15 EXP (Sirius: 2668 EXP, Deficit: 452 EXP).
+     - Battle 3: Pidgey Lv3 -> +23 EXP (Sirius: 2691 EXP, Deficit: 429 EXP).
