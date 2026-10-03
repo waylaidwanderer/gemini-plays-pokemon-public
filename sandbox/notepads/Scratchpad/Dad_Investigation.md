@@ -19,3 +19,5 @@
   2. Party Audit & Lead Reorder -> COMPLETE (Turn 22524). Sirius 100% audited across Pages 1-3. Zephyr swapped to Slot 1.
   3. Swap Sirius back to Slot 1 (lead) -> COMPLETE (Turn 22537). Sirius (Lv16 Riolu) confirmed lead; Zephyr (Lv2 Pidgey) in Slot 2.
   4. Battle wild encounters on Route 1 to gain 482 EXP and level Sirius to Lv17 -> IN PROGRESS.
+     - Baseline EXP to Lv17: 482 EXP (Start: 2638 EXP, Target: 3120 EXP).
+     - Battle 1: Caterpie Lv2 -> +15 EXP (Sirius: 2653 EXP, Deficit: 467 EXP).
