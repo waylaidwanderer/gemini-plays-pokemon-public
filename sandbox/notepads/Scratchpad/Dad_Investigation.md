@@ -28,6 +28,6 @@
   5. Enter Lancio Town and audit key anchors:
      - Lab basement stairs at (12, 7): Re-verified 100% active/restricted ("I probably shouldn't head down here" - Turn 19537).
      - Professor Ivo at (20, 6): Re-verified 100% baseline flavor text ("Hey, Ashi, how's your new Pokémon?" - Turn 19539).
-     - Incubator apparatus at (18-19, 5-6). [ACTIVE]
-     - Harbor Dock at (32-34, 23-25) (check for Harry / moored vessel).
-- **Status**: ACTIVE. Step 5 (Incubator apparatus audit) underway.
+     - Incubator apparatus at (18-19, 5-6): Re-verified 100% baseline text ("Better not mess with that machine." - Turn 19540).
+     - Harbor Dock at (32-34, 23-25) (check for Harry / moored vessel). [ACTIVE]
+- **Status**: ACTIVE. Step 5 (Harbor Dock audit) underway.
