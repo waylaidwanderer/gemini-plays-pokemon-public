@@ -720,23 +720,17 @@
 - H66 (Southern Regional Anchors & Route 1 Civilians): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, and all civilians (Grass boy at 11, 48; Camper at 17, 44; Pidgey boy at 34, 37; Science guy at 39, 37) audited as baseline flavor text. Lancio Town Lab (basement restricted, Prof Ivo and machine baseline) and Harbor Dock (pier empty, zero boats) verified 100% baseline.
 - H67 (Sovio City Residential Interiors): FALSIFIED. All 5 residential houses (Karate/Machop, Gumball, Wii, Nana's Terrace, Name Rater) audited baseline. Private civilian houses confirmed devoid of progression flags.
 - H68 (Sovio Metro Station Lobby & Turnstiles Deep Audit): FALSIFIED. West chairs (17, 23-24) and scanner pillars (18, 21; 20, 21) are decorative. Timetable board (21-23, 23) displays static destinations text. Turnstile (19, 21) remains strictly blocked ('I should find dad first!'). Platform chairs verified empty. Lobby contains zero active progression triggers or hidden switches.
+- H69 (Untracked Game Systems, Bag Pockets & Equipment Audit): CONCLUDED. Bag 100% audited (Potion x1, Poison Barb x1, Antidote x1, Nugget x1; Timer Ball x1, Poké Ball x10; HuPhone, TM Case; zero equipment/keys). Party verified (Sirius Lv15 Black Belt, Zephyr Lv2, zero field moves). Options menu verified (standard Gen 3, Button Mode: Help, zero custom toggles). HuPhone PC Item Storage empty ('There are no items.'), Mailbox empty ('There's no Mail here.'), Quest Status empty ('You aren't doing any Quest currently...'). Overworld L and R buttons tested inert.
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H69: Untracked Game Systems, Bag Pockets & Equipment Audit (Started: Turn 19714)
-- **Premise**: With all overworld maps (Sovio City, Route 1, Lancio Town, Sovio Sewers), NPCs, residences, and Metro lobby fixtures empirically verified as static/baseline, progress is gated by an untracked game system, inventory interaction, Key Item, or equipment mechanic (e.g. equipment to smash rugged rocks, registered key items, or Start Menu options).
+### Hypothesis H70: Sovio City Elevated Terrace & Vantage Point Deep Audit (Started: Turn 19754)
+- **Premise**: When the tremor occurred, Dad ran outside the Metro Station to investigate. The elevated wooden terrace at columns 47-51, rows 13-17 is situated directly above the Metro portal, serving as the prime vantage point overlooking the city. Only Nana's door at (49, 14) was previously checked; the remaining terrace tiles (cols 47-51, rows 14-17) have never been fully swept.
 - **Protocol**:
-  1. Dismiss timetable textbox and open Start Menu.
-  2. Open Bag and audit every pocket (Items, Key Items, Poké Balls, TMs, Berries).
-  3. Inspect party Pokémon (Sirius, Zephyr) for held items, forms, or interactions.
-  4. Test overworld button controls (L button, R button, Select).
-  5. Inspect Options menu for engine features (e.g. Auto-run, DexNav, Quick-save).
-- **Falsifiable Success Criteria**: Discovering an unused Key Item, equipment tool, app feature, or control toggle that enables field obstacle clearance or narrative advancement.
-- Bag Audit (Turn 19722): 100% completed. Items: Potion x1, Poison Barb x1, Antidote x1, Nugget x1. Poké Balls: Timer Ball x1, Poké Ball x10. Key Items: HuPhone (Select), TM Case. Confirmed zero equipment or keys in Bag.
-- Option Menu Audit (Turn 19735): Standard 7-item Gen 3 Option menu (Text Speed: Fast, Battle Scene: On, Battle Style: Shift, Sound: Stereo, Button Mode: Help, Frame: Type 1, Cancel). Confirmed zero custom engine toggles, auto-run settings, or difficulty modes.
-- HuPhone PC Storage Audit (Turn 19743): 'Withdraw Item' verified completely empty ('There are no items.'). 'Mailbox' verified completely empty ('There's no Mail here.'). Party Sirius summary pending visual inspection.
-- HuPhone Quest Status (Turn 19747): Confirmed 'You aren't doing any Quest currently...'. Zero active quests.
-- Sirius Profile Audit (Turn 19751): Visually verified Sirius (Riolu Lv15, holding Black Belt, Relaxed nature, Quick Feet, moves: Metal Claw, Quick Attack, Work Up, Mach Punch). Confirmed zero field moves.
+  1. Ascend Metro stairs at (24, 24) to Central Plaza (48, 18).
+  2. Ascend terrace curb at (47, 15).
+  3. Systematically sweep all terrace tiles (columns 47-51, rows 13-17) and inspect railings, corners, and east perimeter.
+- **Falsifiable Success Criteria**: Finding Jackson, an NPC, or triggering an overworld script cutscene on the terrace.
 
 
 <hr>
