@@ -732,6 +732,7 @@
   4. Test overworld button controls (L button, R button, Select).
   5. Inspect Options menu for engine features (e.g. Auto-run, DexNav, Quick-save).
 - **Falsifiable Success Criteria**: Discovering an unused Key Item, equipment tool, app feature, or control toggle that enables field obstacle clearance or narrative advancement.
+- Bag Audit (Turn 19722): 100% completed. Items: Potion x1, Poison Barb x1, Antidote x1, Nugget x1. Poké Balls: Timer Ball x1, Poké Ball x10. Key Items: HuPhone (Select), TM Case. Confirmed zero equipment or keys in Bag.
 
 
 <hr>
