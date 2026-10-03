@@ -720,6 +720,8 @@
   2. Inspect Southern Avenue (rows 28-40) and transition to Route 1.
   3. Re-evaluate Professor Ivo and regional trigger dependencies in Lancio Town.
 - **Falsifiable Success Criteria**: Triggering an updated dialogue line, receiving a story item/Pokédex, or clearing the turnstile requirement.
+- **Findings (Turn 20422)**:
+  - Variable 1 Evaluated: Central Park south sidewalk entities (Boy at 35, 28, Jigglypuff at 34, 28, Little Girl at 33, 28) audited in-game. Verified 100% ambient flavor text ('Yeah Jigglypuff!', 'Jigglypuff: Puff Puff!', Moon Stone dialogue) with zero story triggers.
 
 
 <hr>
