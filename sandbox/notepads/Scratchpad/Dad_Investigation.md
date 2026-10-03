@@ -15,5 +15,5 @@
 - **Status**: IN PROGRESS.
   - Target 1 (Lab Basement Stairs at 12, 7): VERIFIED GATED at Turn 21436 ('I probably shouldn't head down here...').
   - Target 2 (Professor Ivo at 20, 6): VERIFIED STATIC at Turn 21438/21441 ('Hey, Ashi, how's your new Pokémon?').
-  - Target 3 (Western Foyer PC & Fixtures): Currently auditing western wing at (7-9, 10).
+  - Target 3 (Western Breakroom Fixtures): COMPLETE. Verified breakroom kitchen with table, coffee mug, refrigerator (inert), sink (inert), TV (inert), bookshelf ('It\'s crammed full of Pokémon books.'). No PC terminal or secret triggers.
   - Next Target: Lancio Harbor Pier & Fisherman before returning to investigate Sovio Sewers storage room/grunts.
