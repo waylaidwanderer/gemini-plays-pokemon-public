@@ -673,4 +673,11 @@
   3. Party State Audit: Sirius Lv16 Page 1 Info viewed (Black Belt held, Relaxed nature, OT Asher). Skills/moves and Zephyr summary not viewed -> PARTIALLY AUDITED (Turn 22430).
   4. Device Audit: Mailbox confirmed empty ("There's no Mail here."). Item Storage empty -> COMPLETE (Turn 22443).
 
+## Active Hypothesis H125: Metro Station Lobby Fixture & Interaction Audit
+- **Premise**: Non-spatial state is clean (H124 complete). Auditing untested physical fixtures in the Metro Station lobby before moving outside.
+- **Milestones**:
+  1. Inspect red cylindrical fixture at (24, 25) from (23, 25) facing East -> IN PROGRESS.
+  2. Inspect turnstile scanner pillars at (18, 21) and (20, 21) from row 22.
+  3. Inspect west wall seating at (15, 24-26).
+
 <hr>
