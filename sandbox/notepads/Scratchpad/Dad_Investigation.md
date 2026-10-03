@@ -14,5 +14,9 @@
 - **Milestones**:
   1. Traverse Route 1 to enter Sovio City -> COMPLETE (Turn 21714).
   2. Heal at Sovio Pokémon Center counter to re-register checkpoint -> COMPLETE (Turn 21728).
-  3. Systematically audit all accessible Sovio City outdoor sectors, fixtures, and manholes for Jackson's presence or tremor triggers -> IN PROGRESS.
-     - Exterior and Metro lobby fixtures audited; all ambient NPCs verified unchanged. Re-evaluating Sovio City triggers and Dad's trajectory after exiting the station.
+  3. Sewer Descent Audit (Turns 21765-21790): Descended to (34, 26), resolved wild Stunky battle, verified sewers remain cleared of Siara personnel with zero active tremor triggers, ascended back to surface -> COMPLETE.
+  4. Systematically audit accessible Sovio City outdoor sectors for Jackson's presence or tremor triggers -> IN PROGRESS.
+     - Hypothesis H118 Protocol: Dad exited Metro Station (48, 17) to investigate the tremor. Test concrete sectors:
+       * Sector A (Central Plaza & North Corridor): Audit perimeter around Pokémon Center (cols 40-46, rows 10-14) and residential alcove (cols 38-41, rows 6-9).
+       * Sector B (Central Park & East Walkway): Audit pond perimeter (cols 32-46, rows 18-26) and building facade (cols 47-51, rows 20-28).
+       * Sector C (West Avenue & Commercial Block): Audit street along rows 16-18 (cols 11-30) and facades of commercial block (cols 32-37, rows 8-12).
