@@ -721,5 +721,13 @@
 - **Findings (Turn 20332)**:
   - Variable 1 & 2 Evaluated: Bag audited (4 standard items, Key Items strictly HuPhone and TM Case). Party audited (Sirius Lv16 with Black Belt; Zephyr Lv2). Trainer Card audited ($6096, ID 54592, 8 tournament round slots, 6 badge silhouettes). HuPhone Quest Status confirms verbatim: "You aren't doing any Quest currently...". Zero unread letters, keys, or active side quests exist in the system state.
 
+- **Conclusion (Turn 20341)**: H90 FALSIFIED. System menus and inventory contain zero hidden keys, letters, or active quest flags. Main story progression is strictly gated by an overworld event trigger.
+
+### Hypothesis H91: Ground-Truth Audit of Jackson's Post-Tremor Location
+- **Premise**: Past context summaries claimed Jackson was freed from the sewers, but verified ground truth shows the Metro turnstile still blocks Asher with "I should find dad first!". Jackson has not been rescued or met since running outside following the tremor.
+- **Isolated Variables**:
+  1. Audit Sovio City surface perimeter, Central Plaza, and terrace areas directly outside the Metro Station portal.
+  2. Inspect potential exterior event triggers or unexamined entities in Sovio City.
+- **Falsifiable Success Criteria**: Locating Jackson, triggering a story event, or clearing the turnstile blocker.
 
 <hr>
