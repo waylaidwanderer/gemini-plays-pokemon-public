@@ -673,11 +673,14 @@
   3. Party State Audit: Sirius Lv16 Page 1 Info verified (Black Belt held, Relaxed nature, OT Asher). Zero unusual held forms -> COMPLETE (Turn 22430).
   4. Device Audit: Mailbox confirmed empty ("There's no Mail here."). Item Storage empty -> COMPLETE (Turn 22443).
 
-## Active Hypothesis H125: Metro Turnstile Gate Facing Interaction Test
-- **Premise**: Both scanner pillars (18, 21) and (20, 21) confirmed inert. Testing facing 'A' interaction directly into turnstile passage (19, 21) from (19, 22).
+## Concluded Hypothesis H125: Metro Lobby & Turnstile Verification
+- **Results**: Verified red floor mat (23, 24-25) and tile (24, 25); both scanner pillars (18, 21) and (20, 21) confirmed inert decorative scenery. Stepping into (19, 21) re-confirms blocker ('I should find dad first!') with platform transit officer seated.
+
+## Active Hypothesis H126: Sovio City Quest & Story Requirement Investigation
+- **Premise**: Route 2 explicitly states 'I can't go yet... I have things to do!'. Page 1 of HuPhone Quest Log lists early quests: 'Medic!' (Quest 4), 'Squirtle Gang' (Quest 5), 'Egg Research' (Quest 3). Now that zero quests are active (Lost Toy was completed), test if Sovio NPCs trigger these quests or resolve story blockers.
 - **Milestones**:
-  1. Inspect red entrance mat (23, 24-25) and tile (24, 25) -> COMPLETE (Turn 22461).
-  2. Inspect scanner pillars at (18, 21) and (20, 21) -> COMPLETE (Turn 22469). Both confirmed inert decorative fixtures.
-  3. Face North from (19, 22) and test 'A' interaction into turnstile gate (19, 21) -> IN PROGRESS.
+  1. Exit Metro Station to Sovio City Central Plaza -> IN PROGRESS.
+  2. Speak to Straw-hat Camper at (5, 7) in Pokémon Center to test for 'Medic!' quest trigger.
+  3. Speak to Bikers on West Avenue (13, 21-23) to test for 'Squirtle Gang' quest trigger.
 
 <hr>
