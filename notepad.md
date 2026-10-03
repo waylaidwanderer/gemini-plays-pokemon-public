@@ -676,7 +676,7 @@
        * Sector C (West Avenue & Commercial Block): COMPLETE. West Avenue street (rows 16-18, cols 11-30), Karate House (14, 15), Bikers (13, 21-23), Southern Avenue (cols 14-15, rows 23-30), and commercial block shutters (34-35, 12-13) audited with zero tremor triggers.
      - Synthesis: All outdoor sectors (A, B, C) verified devoid of Jackson or active tremor triggers. Transitioning investigation into interior facilities: Sovio Metro Station lobby fixtures, transit officer, and platform gates.
   5. Metro Station & Terminal Facilities Audit -> IN PROGRESS.
-     - *Turn 21868*: Camera scroll at (19, 21) confirms uniformed transit officer seated in northeast platform chair. Gate script confirms "I should find dad first!" remains active.
+     - *Turn 21868-21945*: Platform visual audit confirms platform chairs (both northeast and northwest) are completely EMPTY with zero NPCs present. Gate script at (19, 21) confirms "I should find dad first!" pushes player south to (19, 22).
      - *Terminal Audit (Turns 21896-21898)*: Someone's PC storage system (Box 1) audited at Sovio Pokémon Center; verified completely empty with zero stored Pokémon or eggs.
 
 <hr>
