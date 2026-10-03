@@ -22,3 +22,4 @@
      - *Turn 21754*: Circular sewer manhole at (40, 27) tested: completely inert floor scenery tile (walkable, zero collision, no inspection script).
      - *Turn 21762-21763*: Stepped onto turnstile gate at (19, 21). Script displays verbatim: "I should find dad first!" and forces player south to (19, 22). Camera scroll confirms uniformed transit officer seated in northeast platform chair. Gate remains active.
      - *Turn 21764-21765*: Inspected blue passenger chairs on lobby west wall (17, 23-24): completely inert scenery fixtures. Descending into Sovio Sewers via (18-19, 25) mat.
+     - *Turn 21766*: Arrived in Sovio Sewers at (37, 22) via Metro lobby mat. Descending stone stairs at column 34 to audit subterranean corridors, Eastern Storage Room, and Dark Sector for tremor evidence.
