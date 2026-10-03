@@ -27,3 +27,7 @@
 
 3. **Target 3: Metro Station Vending Machine & Schedule Board Re-Check**
    - Action: Verify if vending machine can be interacted with across the western barrier or if secondary schedule board interactions exist.
+
+## Facilities Audit (Sovio Pokémon Center)
+- **Straw-Hat Camper (5, 7)**: COMPLETE (FALSIFIED). Spoke with Camper while carrying Antidote in bag. Text displayed verbatim ambient dialogue ("My weedle got poisoned... Ironic isn't it?"). Zero quest trigger or item handoff.
+- **Resident Boy (8, 6)**: Currently testing.
