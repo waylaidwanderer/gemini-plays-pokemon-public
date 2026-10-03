@@ -677,7 +677,6 @@
      - Synthesis: All outdoor sectors (A, B, C) verified devoid of Jackson or active tremor triggers. Transitioning investigation into interior facilities: Sovio Metro Station lobby fixtures, transit officer, and platform gates.
   5. Metro Station & Terminal Facilities Audit -> IN PROGRESS.
      - *Turn 21868*: Camera scroll at (19, 21) confirms uniformed transit officer seated in northeast platform chair. Gate script confirms "I should find dad first!" remains active.
-     - *Turn 21877*: Bag Key Items audited: only HuPhone and TM Case present.
-     - *Turn 21894-21895*: Booted up Pokémon Center PC at (12, 1). Accessing Someone's PC storage system to inspect Box storage.
+     - *Terminal Audit (Turns 21896-21898)*: Someone's PC storage system (Box 1) audited at Sovio Pokémon Center; verified completely empty with zero stored Pokémon or eggs.
 
 <hr>
