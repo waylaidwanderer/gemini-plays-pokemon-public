@@ -715,21 +715,22 @@
 - **Storage Room (37, 14)**: Verified single static inspection trigger ("Its a simple storage room..") with solid collision at (37, 15); platform fully audited.
 
 ## Concluded Hypotheses
-- **H50**: Dark Sector perimeters match solid stone walls; rock at (22, 10) requires equipment.
 - **H51**: Central Park pond flowers are non-interactive decorative flora.
 - **H52**: Central Park trash can inert; dating couple at (33, 20) / (44, 26) are static ambient humor.
-- **H53**: Tan Building facade (32-37, 12) confirmed 100% solid foundation wall.
-- **H54**: Turnstile 'A' has zero interaction; platform chairs verified empty (no conductor).
-- **H55**: Southwest Building (18-21, 26-29) confirmed solid decorative exterior.
 - **H56**: HuPhone portable PC audited. Nugget withdrawn into active Bag; mailbox confirmed empty.
 
 ## Critical Grounding: Jackson Status Audit
 - **Summary Hallucination Identified**: Past context summary (turns 2279-2716) claimed Jackson was freed. Grounded game evidence confirms Jackson was NEVER freed and remains missing.
 - **Current Objective Grounding**: Metro turnstile explicitly commands "I should find dad first!". Route 2 exit blocks with "I can't go yet... I have things to do!". Both confirm locating Dad is the required prerequisite.
+- **Sewers Audited**: Sovio Sewers are 100% explored, vacated by Team Siara, and contain no NPCs. Re-entering sewers is prohibited.
 
 ## Active Hypotheses for Progression
-### Hypothesis H57: Locating Jackson in Sovio City
-- **Premise**: When the tremor occurred, Dad ran outside from the Metro Station into Sovio City to investigate. Asher must locate Dad in Sovio City to resolve the blocker.
-- **Test Plan**: 1. Exit HuPhone. 2. Re-examine Sovio City for any triggers, missed interactions, or locations Dad could have investigated.
+### Hypothesis H57: Central Plaza & Overworld Trigger Search in Sovio City
+- **Premise**: When the tremor occurred, Dad ran outside from the Metro Station into Sovio City Central Plaza. A trigger tile, event flag, or NPC interaction on the surface of Sovio City advances the search for Dad.
+- **Boundaries & Sequence**:
+  1. Return immediately to Sovio City surface (Central Plaza at 48, 18).
+  2. Sub-hypothesis H57a: Systematic sweep of Central Plaza tiles (columns 41-48, rows 12-16) in front of the Pokémon Center where Dad last interacted with Mother.
+  3. Sub-hypothesis H57b: Re-speak with Central Plaza / Pokémon Center NPCs (Nurse Joy, Camper, Blue Shirt Boy) with Nugget in inventory to verify if inventory state triggers new dialogue.
+- **Falsification Criteria**: If all plaza tiles and surface NPCs yield identical dialogue and zero triggers, expand boundary to West Avenue and Southern Avenue.
 
 <hr>
