@@ -179,9 +179,9 @@
   - Rattata (Lv3, Normal).
   - Pichu (Lv3, Electric).
   - Cleffa (Lv4, Fairy).
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon). Defeated. Post-defeat ambient dialogue: "My Pokémon was completely destroyed by yours...".
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated. Post-defeat ambient dialogue: "Hmm, more harmony maybe?".
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow. Team: Burmy Lv6. Defeated. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in Route 1 northwest clearing, facing east. Team: Rattata Lv5 (1 Pokémon). Defeated.
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) perched on rock spire in Route 1 clearing, facing east. Team: Cherubi (1 Pokémon). Defeated.
+- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in eastern meadow. Team: Burmy Lv6. Defeated.
 - **NPC 7 (Boy in Grass)**: Located around (11-12, 48-50) near Central Pine Tree, wandering. Dialogue: "I gotta be careful when I walk around in the tall grass...".
 - **Route 1 Cottage**: Located at (37, 24) in the far northeast; interior at (4, 9); resident boy gifts a Max Repel. Single room with no rear exits or stairs; resident boy provides ambient dialogue.
 - **NPC 3 (Science Guy)**: Located around (39-41, 36) in Route 1 clearing, wandering. Dialogue: "The power of science is incredible! Erm... why is it that astonishing now?". Clearing terminates east at column 42 in solid pine forest and coastal shoreline with zero eastern passages.
@@ -309,8 +309,6 @@
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
   - Straw-hat Camper at (5, 7): Ambient humor dialogue ('My weedle got poisoned so I will need the Pokémon Center\'s... Ironic isn\'t it?').
-
-  - Boy in blue shirt at (8-9, 4-6): Ambient dialogue mentioning the corner PC.
 
   - **Corner PC Terminal at (12, 1)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
 
