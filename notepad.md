@@ -718,6 +718,8 @@
   1. Inspect Grunt 2's platform at (18, 21-22) for floor items, hidden triggers, or dialogue.
   2. Inspect western stairs at (14, 17) and western terrace approach.
 - **Falsifiable Success Criteria**: Locating an item, trigger, or clue on Grunt 2's platform or falsifying residual sewer presence.
+- **Findings (Turn 20403)**:
+  - Variable 1 Evaluated: Grunt 2's platform at (18, 21-22) thoroughly audited in-game. Verified completely bare stone floor; zero items, hidden switches, or residual dialogue. Concluding sewer grunt positions do not hold physical items or clues.
 
 
 <hr>
