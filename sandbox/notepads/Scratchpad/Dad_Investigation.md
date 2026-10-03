@@ -16,7 +16,7 @@
   1. Exit Metro Station to Central Plaza (48, 18) -> COMPLETE (Turn 22097).
   2. Inspect Central Plaza perimeter, elevated terrace (49, 14), and key outdoor NPCs in Sovio City:
      - Elevated terrace residence (49, 14) (Turn 22288-22290): Granddaughter ("Nana makes the best food! Weeeee!") and Nana ("I'm cooking something for my dear grandkid...") confirmed 100% ambient flavor text.
-     - House (39, 7) 1F (Turn 22304): Elderly resident confirmed ambient Wii text ("I bought my son a Wii...").
+     - House (39, 7) (Turn 22304, 22307): 1F elderly resident ("I bought my son a Wii...") and 2F boy ("I love the games on the Wii!...") confirmed 100% ambient flavor text.
      - Central Plaza perimeter & remaining checkpoints -> IN PROGRESS.
   3. Route 1 & Lancio Town Audit:
      - 3a. Route 1 Cottage resident (Turn 22134) -> COMPLETE (FALSIFIED: Max Repel given; ambient text "Now that you got your sample, go and enjoy freedom!").
