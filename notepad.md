@@ -232,7 +232,7 @@
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-31)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-31) features brown wooden siding, blue windowpanes, and decorative wooden shutters.
 
   - **Upper Roof Perimeter & Collision**:
-    - Confirmed solid building facade. Physical movement in Turn 20802-20803 proved attempting to move south from (51, 21) into (51, 22) is blocked by solid collision; there is no walkable corridor beneath the roof.
+    - Confirmed solid building facade. Confirmed solid building facade with no walkable corridor beneath the roof.
 
   - **Southern Facade & Perimeter Collision**:
 
@@ -663,24 +663,21 @@
 - **Route 1 Cut Tree (Turns 20616-20622)**: Performed stationary interaction facing North into Cut tree at (5, 44); confirmed zero dialogue prompt appears without Cut learned.
 - **H95: Lancio Town Regional & Facility Audit (Turns 20616-20723)**: FALSIFIED. Comprehensive empirical audit across Lancio Town confirmed that all facilities, residents, and harbor pier are static with zero progression triggers. Concluded zero external story triggers exist in Lancio Town.
 - **H96: Multi-Angle Decorative Tile Pixel-Hunting (Turns 20724-20760)**: FALSIFIED. Pixel-hunting orientation-dependent interaction on decorative road tiles is ungrounded in engine mechanics; abandoned per critique.
-- **H97: Communication Channel, Inventory & Surface House Audit (Turns 20761-20820)**: FALSIFIED for surface house triggers. Empirical results:
-  - HuPhone Mailbox & Item Storage: Audited empty ("There's no Mail here", "There are no items").
-  - HuPhone Quest Log & World Map: World Map clean, Quest Status confirms "You aren't doing any Quest currently...".
-  - Bag Key Items: Strictly HuPhone and TM Case; Pok� Balls, Items, TMs standard.
-  - Metro Lobby: Turnstile re-confirmed "I should find dad first!", platform chairs verified empty.
-  - Surface Residences: Re-audited terrace house (49, 14) and Wii house (39, 7) (both confirmed 100% static ambient dialogue).
-  - Route 2 Barrier: Re-confirmed active ("I can't go yet... I have things to do!"). Column 51 roof collision confirmed solid.
-- **H98: Subterranean Investigation in Sovio Sewers (Turns 20821-20851)**: FALSIFIED. Complete re-traversal of Sovio Sewers (lower walkway row 28, western corridor, Western Terrace, Northern Gangway row 5, vertical bridge col 23, row 13 catwalk, storage room platform 37, 14) confirmed 100% vacated with zero NPCs, dropped items, or active progression triggers. The storage room at (37, 14) re-confirmed static inspection text ("Its a simple storage room.."). The Dark Sector was previously cleared (Nugget and Lost Toy retrieved), and rugged rocks require equipment not currently possessed.
-
-- **H99: Player Menus, Devices & Party State Audit (Turns 20886-20938)**: CONCLUDED / FALSIFIED. Comprehensive audit across Bag (3-pocket engine, Key Items strictly HuPhone and TM Case; zero tickets or equipment), Party (Sirius Lv16, Zephyr Lv2, all 3 summary pages audited, standard abilities/moves, Black Belt held, no field moves), Trainer Card (Front: 8 empty rounds, �8096, Back: 6 silhouettes), Options (standard GBA settings, Fast text), HuPhone (Item Storage/Mailbox empty, World Map verified, Quest Log confirmed zero active quests), and Metro Station fixtures (scanner pillars inert, platform chairs empty). Confirmed progression is NOT gated by an unexamined menu toggle, inventory item, or party option.
+- **H97: Communication Channel, Inventory & Surface House Audit (Turns 20761-20820)**: FALSIFIED. Audited HuPhone Mailbox/Item Storage (empty), World Map, Quest Log (no active quests), Bag Key Items (HuPhone, TM Case), surface residences (terrace and Wii houses static), and Route 2 barrier.
+- **H98: Subterranean Investigation in Sovio Sewers (Turns 20821-20851)**: FALSIFIED. Complete re-traversal of Sovio Sewers (lower walkway row 28, western corridor, Western Terrace, Northern Gangway row 5, vertical bridge col 23, row 13 catwalk, storage room platform 37, 14) confirmed 100% vacated with zero NPCs, dropped items, or active progression triggers. Storage room at (37, 14) displays static inspection text ("Its a simple storage room..").
+- **H99: Player Menus, Devices & Party State Audit (Turns 20886-20938)**: FALSIFIED. 100% comprehensive audit across Bag (3 pockets, strictly HuPhone and TM Case in Key Items), Party summaries (Sirius and Zephyr all 3 pages verified, standard moves/abilities, no field moves), Trainer Card (Front: 8 empty rounds, �8096, Back: 6 silhouettes), Options (standard GBA settings, Fast text), HuPhone (Item Storage/Mailbox empty, World Map verified, Quest Log confirmed zero active quests), and Metro Station fixtures (scanners inert, platform chairs empty). Progression is NOT gated by an unexamined menu toggle, inventory item, or party option.
 
 ## Active Hypotheses for Progression
 ### Hypothesis H101: Investigation of Overlooked Narrative Event Triggers
 - **Core Premise Questioning**: For thousands of turns, exploration operated on the assumption that Jackson is physically standing as an overworld NPC in Sovio City, Lancio Town, or the Sewers waiting to be spoken to. However, exhaustive audits confirm Jackson's sprite is not present anywhere in these maps. Therefore, "finding Dad" is not a sprite-interaction event; it must be an event flag triggered by interacting with a key story figure, inspecting a critical narrative fixture, or advancing an unresolved prerequisite.
+- **Empirical Test Results**:
+  - Turns 20944-20949 Nurse Joy: Standard heal cycle completed, official Sovio City checkpoint registered, zero narrative announcements.
+  - Turns 20950-20966 Corner PC Terminal (12, 1): Someone's PC Box 1 (0 Pok�mon stored), Asher's PC Mailbox ("There's no Mail here."), Asher's PC Item Storage ("There are no items."), logged off cleanly.
+  - Turns 20967-20969 Framed Town Map (11, 0): Standard regional map display, identical to HuPhone World Map.
 - **Investigative Avenues**:
-  1. **Sovio Pok�mon Center Audit**: Re-examine Nurse Joy, the PC terminal, and residents specifically regarding news or updates following the Siara retreat.
+  1. **Sovio Pok�mon Center Audit**: CONCLUDED. All internal fixtures (Nurse Joy, PC terminal, Town Map) verified 100% standard with zero story flags.
   2. **Route 2 Eastern Boundary ("I can't go yet... I have things to do!")**: Re-evaluate what explicit prerequisites ("things to do") are required before Asher can leave Sovio City.
-  3. **Valora & Central Plaza Investigation**: Search for clues regarding Valora's destination or Jackson's movements following the Metro tremor.
+  3. **Central Plaza & Outdoor Narrative Re-evaluation**: Re-examine Central Plaza confrontation grounds and outdoor environment for story triggers.
 - **Falsifiable Success Criteria**: Triggering a new story dialogue/cutscene, learning Jackson's true status, or lifting the turnstile blocker ("I should find dad first!").
 
 

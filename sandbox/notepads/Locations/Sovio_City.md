@@ -58,7 +58,7 @@
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-31)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-31) features brown wooden siding, blue windowpanes, and decorative wooden shutters.
 
   - **Upper Roof Perimeter & Collision**:
-    - Confirmed solid building facade. Physical movement in Turn 20802-20803 proved attempting to move south from (51, 21) into (51, 22) is blocked by solid collision; there is no walkable corridor beneath the roof.
+    - Confirmed solid building facade. Confirmed solid building facade with no walkable corridor beneath the roof.
 
   - **Southern Facade & Perimeter Collision**:
 
