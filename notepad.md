@@ -674,5 +674,10 @@
   5. Metro Station & Terminal Facilities Audit -> COMPLETE.
      - Findings: Platform gates script at (19, 21) triggers "I should find dad first!" and forces player south to (19, 22). Uniformed transit officer seated in northeast platform chair beyond gates facing left. Lobby scanner pillars (18, 21), (20, 21) and west seating (16, 23-25) verified completely inert. Pokémon Center PC storage (Box 1) audited empty.
      - Synthesis: All interior facilities, terminals, and gate fixtures in Metro Station and Pokémon Center audited with zero unresolved leads. Jackson is not inside terminal facilities.
+## Active Hypothesis H119: Auditing Road Fixtures & Surface Tremor Triggers
+- **Premise**: Dad ran outside to investigate the source of the tremor. Testing surface road fixtures, sewer manholes, and unexamined interaction points in Sovio City.
+- **Milestones**:
+  1. Route 2 East Exit Barrier Test: COMPLETE (Turn 21979-21980). Verified currently ACTIVE at (52, 19) with "I can't go yet... I have things to do!", pushing player west to (51, 19).
+  2. Sewer Manhole Audit at (40, 13) outside Pokémon Center -> IN PROGRESS.
 
 <hr>
