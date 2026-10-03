@@ -717,12 +717,12 @@
 
 ## Active Hypotheses for Progression
 ### Hypothesis H78: Sovio City Overworld Perimeter & Tremor Investigation (Started: Turn 19963)
-- **Premise**: Jackson ran outside into Sovio City during the seismic tremor to investigate what caused it. Turnstiles remain blocked until Dad is found. Having cleared distant locations (Route 1, Lancio) and subterranean sewers, we must systematically audit Sovio City overworld for the source of the tremor, unvisited tiles, off-screen perimeters, and untriggered events.
-- **Protocol**:
-  1. Inspect Central Plaza and the elevated terrace area above Metro Station (columns 47-51, rows 13-17).
-  2. Audit the northern alcoves and behind-building perimeters around Pokémon Center (columns 38-46, rows 7-12).
-  3. Audit the eastern Route 2 approach and covered corridor (columns 47-52, rows 19-23).
-  4. Audit West Avenue and southwest sector (columns 11-26, rows 16-30).
+- **Premise**: Jackson ran outside into Sovio City during the seismic tremor to investigate what caused it. Turnstiles remain blocked until Dad is found. Having cleared distant locations (Route 1, Lancio) and subterranean sewers, we systematically audit Sovio City overworld for the source of the tremor, unvisited tiles, off-screen perimeters, and untriggered events.
+- **Audit Findings**:
+  - **Protocol 1 (Elevated Terrace, cols 47-51, rows 13-17 - Turns 19965-19971)**: FALSIFIED. Terrace floor extends east to column 51 on rows 14-16. Modern high-rise building starts at column 52 with solid collision at (52, 15) and (51, 14). Decorative manhole at (51, 16) is inert. Behind signpost at (51, 17) dead-ends against signpost back (51, 18).
+  - **Protocol 2 (Pokémon Center East Flank & Northern Alcove, cols 38-46, rows 7-13 - Turns 19971-19975)**: FALSIFIED. Tile (46, 12) is solid curb/wall corner of Pokémon Center; zero north passage. Northern alleyway along column 40 runs from (40, 15) to house (39, 7) at (40, 9); fully enclosed by Pokémon Center west wall and tan building east wall with zero side alleys.
+  - **Protocol 3 (Covered Corridor & Route 2 Approach, cols 47-52, rows 19-23 - Turns 19976-19977)**: FALSIFIED. Covered corridor beneath roof graphic connects rows 19-22 east to column 52, which triggers story barrier ("I can't go yet... I have things to do!").
+  - **Protocol 4 (West Avenue & Southwest Sector, cols 11-26, rows 16-30)**: In progress.
 - **Falsifiable Success Criteria**: Locating Jackson, triggering a tremor-related story event, or clearing the turnstile prerequisite.
 
 
