@@ -668,13 +668,12 @@
 - **H99: Player Menus, Devices & Party State Audit (Turns 20886-20938)**: FALSIFIED. 100% comprehensive audit across Bag (3 pockets, strictly HuPhone and TM Case in Key Items), Party summaries (Sirius and Zephyr all 3 pages verified, standard moves/abilities, no field moves), Trainer Card (Front: 8 empty rounds, �8096, Back: 6 silhouettes), Options (standard GBA settings, Fast text), HuPhone (Item Storage/Mailbox empty, World Map verified, Quest Log confirmed zero active quests), and Metro Station fixtures (scanners inert, platform chairs empty). Progression is NOT gated by an unexamined menu toggle, inventory item, or party option.
 - **H101: Overlooked Narrative Event Triggers Audit (Turns 20944-20982)**: FALSIFIED. Comprehensive audit across Sovio Pok�mon Center (Nurse Joy heal cycle, Corner PC storage/mail empty, Framed Town Map), Route 2 barrier (re-confirmed "I can't go yet... I have things to do!" at 52, 19), Central Plaza terrace, and park walkways confirmed 100% static with zero narrative cutscenes or flags. Progression is not triggered by checking facilities or outdoor grounds in Sovio City.
 
+- **H102: South Sidewalk Westward Traversal to Southern Avenue (Turns 20984-20995)**: FALSIFIED. Empirical testing confirmed that walking West from (23, 27) and (23, 28) into column 22 is blocked by solid building foundation collision at (22, 27-28). The South Sidewalk terminates at column 22 and does not connect west to Southern Avenue on rows 27-28.
+
 ## Active Hypotheses for Progression
-### Hypothesis H102: Investigation of Route 1 Southern Highway & Unresolved Quest Prerequisites
-- **Core Premise Questioning**: If Sovio City facilities, residences, sewers, and menus are exhausted, and Route 2 is barred by "I can't go yet... I have things to do!", the only unblocked physical exit is the Southern Avenue leading to Route 1. We must evaluate whether an unvisited prerequisite on Route 1 or an unresolved trigger in the southern corridor advances the story state.
-- **Audit Steps**:
-  1. Traverse south sidewalk west across rows 27-28 to Southern Avenue (column 15).
-  2. Evaluate Southern Avenue and Route 1 connection for story triggers.
-- **Falsifiable Success Criteria**: Triggering a new narrative event or lifting the story barriers.
+### Hypothesis H103: Systematic Re-Investigation of Open Avenues and Prerequisites
+- **Premise**: Route 2 exit triggers "I can't go yet... I have things to do!" and Metro turnstile triggers "I should find dad first!". Physical testing confirmed the South Sidewalk dead-ends at (22, 27-28). To avoid cycling the same 5 familiar nodes (Metro, Center, Terrace, Barrier, Sidewalk), systematically examine open avenues and unexamined paths without falling into repetitive loops.
+- **Audit Focus**: Trace open pathways north through Central Park to boulevard (rows 14-15) and evaluate unexplored avenues.
 
 
 <hr>
