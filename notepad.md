@@ -239,7 +239,7 @@
   - **Southern Facade & Perimeter Collision**:
 
     - Tan brick sidewalk runs south of Central Park pond to columns 44-46 across rows 28-30.
-    - Column 46 has two silver trash cans at (46, 22) and (46, 23) beside the roof curb; confirmed inert with zero items.
+    - Column 46 has two silver trash cans at (46, 22) and (46, 23) beside the roof curb (confirmed inert with zero items), and two silver trash cans at (46, 30) and (46, 31) beside the southern facade curb (confirmed inert with zero items).
     - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
     - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border.
 
