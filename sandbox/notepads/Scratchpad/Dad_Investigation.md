@@ -16,13 +16,14 @@
 - H67 (Sovio City Residential Interiors): FALSIFIED. All 5 residential houses (Karate/Machop, Gumball, Wii, Nana's Terrace, Name Rater) audited baseline. Private civilian houses confirmed devoid of progression flags.
 - H68 (Sovio Metro Station Lobby & Turnstiles Deep Audit): FALSIFIED. West chairs (17, 23-24) and scanner pillars (18, 21; 20, 21) are decorative. Timetable board (21-23, 23) displays static destinations text. Turnstile (19, 21) remains strictly blocked ('I should find dad first!'). Platform chairs verified empty. Lobby contains zero active progression triggers or hidden switches.
 - H69 (Untracked Game Systems, Bag Pockets & Equipment Audit): CONCLUDED. Bag 100% audited (Potion x1, Poison Barb x1, Antidote x1, Nugget x1; Timer Ball x1, Poké Ball x10; HuPhone, TM Case; zero equipment/keys). Party verified (Sirius Lv15 Black Belt, Zephyr Lv2, zero field moves). Options menu verified (standard Gen 3, Button Mode: Help, zero custom toggles). HuPhone PC Item Storage empty ('There are no items.'), Mailbox empty ('There's no Mail here.'), Quest Status empty ('You aren't doing any Quest currently...'). Overworld L and R buttons tested inert.
+- H70 (Sovio City Elevated Terrace & Vantage Point Deep Audit): FALSIFIED. Swept all terrace floor tiles (cols 47-51, rows 14-16), tested round emblem at (50, 16) (decorative), windows, and perimeter railings. Terrace is completely devoid of NPCs, switches, or script triggers.
 
 ## Active Hypotheses for Progression
 
-### Hypothesis H70: Sovio City Elevated Terrace & Vantage Point Deep Audit (Started: Turn 19754)
-- **Premise**: When the tremor occurred, Dad ran outside the Metro Station to investigate. The elevated wooden terrace at columns 47-51, rows 13-17 is situated directly above the Metro portal, serving as the prime vantage point overlooking the city. Only Nana's door at (49, 14) was previously checked; the remaining terrace tiles (cols 47-51, rows 14-17) have never been fully swept.
+### Hypothesis H71: Central Plaza & Route 2 Approach Perimeter Audit (Started: Turn 19763)
+- **Premise**: With the elevated terrace, residential houses, and internal game systems fully audited as baseline, the next progression lead or trigger must be located along the Central Plaza exterior, specifically the covered corridor beneath the building roof (columns 47-51, rows 20-22) and the Route 2 approach at column 52.
 - **Protocol**:
-  1. Ascend Metro stairs at (24, 24) to Central Plaza (48, 18).
-  2. Ascend terrace curb at (47, 15).
-  3. Systematically sweep all terrace tiles (columns 47-51, rows 13-17) and inspect railings, corners, and east perimeter.
-- **Falsifiable Success Criteria**: Finding Jackson, an NPC, or triggering an overworld script cutscene on the terrace.
+  1. Step down from behind the signpost to Central Plaza (49, 18).
+  2. Navigate into the covered corridor (columns 47-51, rows 19-22).
+  3. Inspect all wall tiles, recesses, and the exact boundary at column 52.
+- **Falsifiable Success Criteria**: Triggering a new script event, finding an NPC, or identifying an unblocked passage.
