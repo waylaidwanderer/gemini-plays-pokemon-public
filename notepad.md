@@ -687,5 +687,13 @@
   - **Metro Lobby Fixture Audit**: Left scanner (18, 21) and right scanner (20, 21) confirmed 100% inert. Platform chairs confirmed empty decorative benches. Turnstile (19, 21) triggers `I should find dad first!` and forces Asher to (19, 22).
 - **Conclusion**: All player menus, device applications, party states, and station lobby fixtures are 100% static with zero hidden progression triggers. Progression is NOT gated by an unexamined menu toggle or inventory item.
 
+### Hypothesis H100: Systematic Audit of Sovio City Road Manholes & Exterior Fixtures
+- **Premise**: If all player systems/menus, civilian residences, and station fixtures are documented static, and Dad ran outside to "investigate the source of the tremor", the progression trigger to satisfy "I should find dad first!" must be an outdoor physical environmental trigger or transition in Sovio City that has not yet been activated.
+- **Audit Steps**:
+  1. Exit HuPhone and emerge into Central Plaza via Metro Station stairs (24, 24) -> (48, 18).
+  2. Directly inspect and interact with Manhole (40, 13) outside Pok�mon Center.
+  3. Inspect Manhole (13, 19) and Manhole (13, 27) on West Avenue / Southern Avenue.
+- **Falsifiable Success Criteria**: Triggering a new story dialogue/event, discovering an underground connection, or lifting the turnstile blocker ("I should find dad first!").
+
 
 <hr>
