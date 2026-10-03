@@ -712,7 +712,6 @@
 
 ## Jackson & Narrative Status Audit
 - **Narrative Truth**: Jackson ran outside the Sovio Metro Station into Sovio City to investigate the seismic tremor.
-- **Sovio Metro Lobby Audits**: Timetable board is decorative flavor text. Turnstile passage at (19, 21) triggers "I should find dad first!".
 
 ## Concluded Hypotheses
 - H60 (Night Cycle), H61 (Inventory/Triggers), H62 (Corridor), H63 (Lobby & Storage Room): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
