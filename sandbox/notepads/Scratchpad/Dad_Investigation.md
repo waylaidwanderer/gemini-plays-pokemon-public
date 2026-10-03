@@ -14,9 +14,4 @@
 - **H114 Sovio City Independent Variable Testing**: COMPLETE (FALSIFIED). Camper dialogue unaffected by Antidote; Metro turnstile verified occupied by platform attendant while gate script ('I should find dad first!') pushes player back; Karate House 2F confirmed generic civilian bedroom with standard flavor text and zero progression triggers.
 - **H115 Route 1 Northwest Boundary Audit**: COMPLETE (FALSIFIED). Visual inspection at (26, 13) confirms Route 1 western and northern perimeters terminate at solid pine tree canopy; no open pathways to Mt. Gerhana or unmapped areas exist beyond the rock spire.
 
-## Active Hypothesis H116: Lancio Town Harbor, Pier Terminus & Overlooked Residents
-- **Premise**: Past investigations dismissed Lancio Town based only on Professor Ivo and the lab basement stairs, without rigorously testing the harbor dock, pier terminus, or town residents. Given that Dad traveled to the mainland via Harry's boat and Harry operates between Inizio Isle and Lancio Town, investigating the harbor pier terminus and all unverified residents in Lancio Town provides a concrete, grounded test.
-- **Milestones**:
-  1. Traverse south through Route 1 past the clearing and cottage to Lancio Town. (COMPLETE)
-  2. Audit the Harbor Pier, the pier water edge (rows 23-26, cols 32-34), and the dockside building (35-38, 19-21). (COMPLETE - FALSIFIED: Pier water edge inert, dockside building sliding door is solid decorative collision, Fisherman provides ambient text.)
-  3. Audit remaining town residents and outdoor interactables. (IN PROGRESS: NPC in Cap at 33, 14, then plaza residents.)
+- **H116 Lancio Town Harbor, Pier Terminus & Overlooked Residents**: COMPLETE (FALSIFIED). Harbor pier terminates at open water, Harry absent, dockside building (35, 20) is solid decorative facade, Fisherman shares ambient philosophy text; all town residents audited with verbatim proof (Cap boy: Amor City text; Plaza couple: Sinnoh/home text; Green-haired girl: pretty flowers; NW house boy: 'Get out!'; Professor Ivo: 'how's your new Pokémon?'; Lab basement stairs: 'I probably shouldn't head down here...'). Zero progression triggers in Lancio Town.
