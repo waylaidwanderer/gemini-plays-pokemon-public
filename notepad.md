@@ -670,18 +670,14 @@
 - **H102: South Sidewalk Westward Traversal to (22, 27-28) (Turns 20984-20995)**: FALSIFIED. Sidewalk terminates west at column 22 on rows 27-28 against building foundation collision.
 - **H103: Southern Avenue Thoroughfare & Route 1 Connection (Turns 21032-21041)**: FALSIFIED. Southern Avenue (columns 14-15) is an open connection to Route 1 with zero barrier text. Route 1 trainers (Duke at 45, 12; Sonia at 27, 15) remain in static defeated post-battle text. Early-route trainers and southern border do not advance the Sovio Metro tremor plot; macro-traversal south to Lancio Town is redundant and falsified.
 
+- **H104: Metro Station Turnstile Interaction & Platform Audit (Turns 21088-21089)**: FALSIFIED. Stationary A-press facing North from (19, 22) into turnstile passage (19, 21) produces zero interaction. Visual inspection confirms platform chairs are empty decorative benches with zero station attendant sprite present. Scanner pillars at (18, 21) and (20, 21) are inert. Turnstile is purely a step-on barrier checking the prerequisite of locating Jackson ("I should find dad first!").
+
 ## Active Hypotheses for Progression
-### Hypothesis H104: Sovio Metro Station Turnstile Interaction & Lobby Boundary Audit
-- **Premise**: Main story progression is explicitly gated at the Metro turnstile: "I should find dad first!". Prior audits of the Metro lobby focused only on the central axis and stepping directly onto (19, 21). Unexamined variables remain:
-  1. Interacting with the station attendant sitting on the platform side across the turnstile from (19, 22), (18, 22), or (20, 22).
-  2. Inspecting the east and west boundary tiles of the Metro lobby for unvisited fixtures or NPCs.
-- **Audit Steps**:
-  1. Return north from Route 1 to Sovio City via Southern Avenue.
-  2. Enter Sovio Metro Station at (48, 17).
-  3. Approach turnstiles at (19, 22) and test facing North/Northwest/Northeast to interact with the station attendant.
-  4. Inspect east/west lobby perimeter tiles.
-- **Falsifiable Success Criteria**: Triggering new dialogue from the station attendant or advancing the train departure flag.
-- **Falsifiable Failure Criteria**: Attendant is completely non-interactive across the turnstile, and lobby perimeter tiles are confirmed static walls.
+### Hypothesis H105: Investigation of Jackson's Prerequisite & Unresolved Mechanics
+- **Premise**: Both story barriers (Metro turnstile: "I should find dad first!", Route 2: "I can't go yet... I have things to do!") explicitly require finding Jackson before Asher can depart Sovio City. All surface residences, outdoor roads, defeated trainers, and metro lobby fixtures have been confirmed static.
+- **Investigation Targets**:
+  1. Sovio Sewers: Re-examine the storage room platform (37, 14), Dark Sector, and the Team Siara retreat aftermath for unresolved triggers or items.
+  2. Inventory & Equipment: Audit whether an item, phone feature, or specific interaction unlocks the rugged rocks or storage room.
 
 
 <hr>
