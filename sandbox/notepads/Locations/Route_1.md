@@ -11,7 +11,7 @@
 - **Signboard 3 (Trainer Warning)**: Located at (40, 26) outside the cottage; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Signboard 4 (Sovio City Approach)**: Located at (50, 10) in northeast meadow; reads "Sovio City Up ahead."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
-- **Route 1 Cottage**: Located at (37, 24); interior at (4, 9). Resident boy gifts a Max Repel. Single room with no rear exits.
+- **Route 1 Cottage**: Located at (37, 24); interior at (4, 9). Resident boy at (6, 7) gifted a Max Repel; subsequent dialogue displays verbatim: "Now that you got your sample, go and enjoy freedom!". Single room with no rear exits.
 
 ## Overworld Obstacles & Key Features
 - **Cut Tree**: Located at (5, 44) between pine trees, directly north of the cobblestone road at (5, 45). Field obstacle blocking northern forest access.
