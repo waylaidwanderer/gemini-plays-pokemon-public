@@ -691,7 +691,7 @@
   1. Complete South Sidewalk to East Walkway loop and return to Central Plaza -> COMPLETE (Turn 22323).
   2. Audit Central Plaza, Metro Station exterior, and eastern Route 2 approach for outdoor triggers -> COMPLETE (Turn 22325: Route 2 barrier confirmed active "I can't go yet... I have things to do!").
   3. Verify exact Metro Station lobby perimeter and platform interaction -> COMPLETE (Turn 22332: Platform verified 100% empty via photographic crop; turnstile confirmed blocked "I should find dad first!").
-  4. Audit Sovio Pokémon Center Mezzanine & PC Storage -> IN PROGRESS.
-  5. Audit North Central Park Pond Bank (columns 35-43, rows 16-18) & Southwest Lawn for tremor epicenter clues.
+  4. Audit Sovio Pokémon Center Mezzanine & PC Storage -> COMPLETE (Mezzanine clerk standard shop dialogue; PC redundant with HuPhone).
+  5. Audit North Central Park Pond Bank (columns 35-43, rows 16-18) & Southwest Lawn for tremor epicenter clues -> IN PROGRESS.
 
 <hr>
