@@ -679,5 +679,6 @@
   1. Sovio Sewers: Re-examine the storage room platform (37, 14), Dark Sector, and the Team Siara retreat aftermath for unresolved triggers or items.
   2. Inventory & Equipment: Audit whether an item, phone feature, or specific interaction unlocks the rugged rocks or storage room.
 
+- **Turn 21129-21135 Audit (Storage Room 37, 14)**: Verified firsthand that interacting facing South at (37, 14) displays verbatim "Its a simple storage room..." with solid collision to the south. Platform is 100% devoid of active story triggers or NPCs. Proceeding to audit Dark Sector via column 30 causeway.
 
 <hr>
