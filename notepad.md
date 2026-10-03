@@ -244,7 +244,7 @@
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
   - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall.
 
-- **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels block the shutters at (19-21, 28-29) and solid elevation curb at (18, 28-29) blocks access with zero interaction (audited Turns 18985-18986); confirmed decorative exterior.
+- **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels block the shutters at (19-21, 28-29) and solid elevation curb at (18, 28-29) blocks access with zero interaction; confirmed decorative exterior.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable.  Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
@@ -344,7 +344,7 @@
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
-  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and two empty blue chairs along northeast wall (audited empty Turn 18976).
+  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and two empty blue chairs along northeast wall.
 
 - **Sovio Sewers Secret Entrance**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
