@@ -675,9 +675,9 @@
 ### Hypothesis H95: Lancio Town Story & Side Quest Audit
 - **Premise**: With Sovio Metro blocked by "I should find dad first!" and Route 2 blocked by "I can't go yet... I have things to do!", audit Lancio Town to test if external triggers, updated dialogues, or uncompleted side quests (Medic!, Egg Research, Squirtle Gang) unlock progression.
 - **Specific Falsifiable Tests & Expected Baselines**:
-  1. **Cap NPC at (32, 15)**:
+  1. **Cap NPC at (32, 14)**:
      - Baseline: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!"
-     - Falsification: If baseline repeats, mark NPC as static flavor.
+     - Result (Turn 20675-20676): FALSIFIED. Textbox verbatim displayed baseline ("Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!"). Confirmed 100% static ambient flavor with zero quest or story triggers.
   2. **Professor Ivo's Pokémon Laboratory**:
      - Professor Ivo at (20, 6): Baseline is "Hey, Ashi, how's your new Pokémon?". Test if dialogue updates regarding Dad's disappearance or the tremor.
      - Lab Basement Stairs at (12, 7): Baseline is "I probably shouldn't head down here...". Test if barrier lifts or trigger activates.
