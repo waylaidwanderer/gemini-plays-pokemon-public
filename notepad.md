@@ -329,7 +329,7 @@
 
   - Wooden staircase at (8, 31-33) with red vertical mat at (7, 32) leading to 2F.
 
-- **Interior 2F**: Stairs down to 1F at (6-7, 12). No NPCs or items.
+- **Interior 2F**: Stairs down to 1F at (7-8, 12) with red mat at (8, 12). North wall fixtures: Blue cabinet at (5, 11-12) displays verbatim: "Wow! Tons of Pokémon stuff!". Green bookshelf at (3-4, 11), study desk at (1-2, 11), bed at (2-3, 13-14).
 
 ## South Central Sector
 
