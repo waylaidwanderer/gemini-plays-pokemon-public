@@ -22,3 +22,4 @@
 - **Falsifiable Success Criteria**: Locating Jackson, a key item, or clearing the turnstile prerequisite.
 - **Findings (Turn 20193)**:
   - Variable 3 Evaluated: Re-examined Eastern Storage Room platform at (37, 14). Facing South on red mat displays verbatim: "Its a simple storage room...". Confirmed solid collision at (37, 15), zero dropped items, keys, or NPCs. Variable 3 concluded static baseline.
+  - Variable 2 Evaluated: Audited tan building facade (32-37, 8-12) and wooden shutters at (34-35, 12). Solid collision, zero interaction, completely decorative exterior. Variable 2 concluded static baseline.
