@@ -666,8 +666,8 @@
 
 ## Active Hypothesis H114: Sovio City Independent Variable Testing
 - **Premise**: Generic exploration of urban walls and manholes is falsified. Progress requires testing specific, unverified independent variables in Sovio City:
-  1. Target 1: Camper's poisoned Weedle in Pokémon Center (test holding Antidote to see if Quest #4 'Medic!' triggers).
-  2. Target 2: Verify exact turnstile script trigger and conditions inside Sovio Metro Station.
+  1. Target 1 (Camper with Antidote): COMPLETE (FALSIFIED). Spoke with Antidote in Bag at Turn 21493-21494; dialogue remains strictly static ambient humor ('My weedle got poisoned... / Ironic isn\'t it?'). Zero quest trigger or item exchange.
+  2. Target 2: Investigate Metro Station lobby and exact turnstile/platform interaction state.
 - **Rules of Engagement**: Zero wandering of familiar maps or re-testing generic collision. Focus strictly on documented independent variables.
 
 <hr>
