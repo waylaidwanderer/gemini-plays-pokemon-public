@@ -19,3 +19,4 @@
      - *Turn 21742*: Nana at (62, 31) tested: "I'm cooking something for my dear grandkid. She loves my cooking." (Ambient text).
      - *Turn 21746*: Route 2 boundary at (52, 19) tested: "I can't go yet... I have things to do!" (Story barrier confirmed active).
      - *Turn 21748*: Blonde Girl at (44, 24) tested: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?" (Ambient text).
+     - *Turn 21754*: Circular sewer manhole at (40, 27) tested: completely inert floor scenery tile (walkable, zero collision, no inspection script).
