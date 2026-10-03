@@ -711,16 +711,16 @@
 - H60-H65 (Sewers, Lobby, Sovio City Exterior Corridors & NPCs - Turns 19100-19470): FALSIFIED. Sewers cleared, (37, 14) storage room static, exterior paths, barriers (52, 19), and civilians verified baseline.
 - H66-H74 (Regional Anchors, Residences, Systems, Terrace, Corridor, PC & Sewers - Turns 19470-19838): FALSIFIED. Route 1/Lancio Town, all 5 residences, lobby fixtures, terrace/corridor walls, PC Box 1, and subterranean sewers re-verified static baseline with zero new items or triggers.
 - H75 (HuPhone Quest Log Audit - Turns 19871-19884): FALSIFIED. Empirically tested uncompleted quest entries in Quest List (e.g. Egg Research); confirmed they verbatim display 'This Quest hasn't been completed yet!' without providing objective telemetry, targets, or equipment clues. Side quest objectives must be acquired from NPC quest givers in the overworld.
+- H76 (Starter Level Milestone to Lv16): REJECTED. Riolu evolves via daytime Friendship, not Lv16; Professor Ivo checks no level target. Walking to Route 1 is an ungrounded scope violation repeating the exhausted 800-turn loop.
 
 ## Active Hypotheses for Progression
-### Hypothesis H76: Starter Level Milestone & Growth Evaluation (Started: Turn 19887)
-- **Premise**: Protocol 1 completed: Sirius audited at Lv15 (HP 42/42, Atk 28, Def 29, Sp. Atk 20, Sp. Def 23, Speed 20) with 2505 EXP, needing exactly 30 EXP to reach Lv16. In-game clock recorded at 23:33 (night). Critiques confirm physical exploration across Sovio City and sewers is exhausted (H60-H75). We isolate the starter growth variable: Professor Ivo specifically asks 'Hey, Ashi, how's your new Pokémon?'. We hypothesize that raising Sirius to Lv16 (a standard starter milestone) triggers new dialogue from Professor Ivo or satisfies a progression flag.
+### Hypothesis H77: Metro Station & Central Plaza Immediate Epicenter Audit (Started: Turn 19932)
+- **Premise**: Jackson ran outside into Sovio City during the seismic tremor that shook the Metro Station. The turnstile explicitly requires finding Dad ('I should find dad first!'). Physical traversal across distant maps (Route 1, Lancio Town) and sewers is exhausted. Following critique guidance, we critically evaluate untriggered events, interactions, and prerequisites in the immediate area where the tremor and Dad's disappearance occurred (Metro Station lobby and Central Plaza).
 - **Protocol**:
-  1. Close Start Menu to return to overworld at (48, 18).
-  2. Navigate south via Southern Avenue to Route 1 grass.
-  3. Win ONE wild battle to earn >= 30 EXP and level Sirius to Lv16.
-  4. Inspect any new move prompts or evolution checks upon leveling up.
-- **Falsifiable Success Criteria**: Sirius leveling to Lv16, triggering new dialogue with Professor Ivo in Lancio Town, or changing game state flags.
+  1. Return East along row 15 boulevard to Central Plaza (44, 15) and Metro portal (48, 18).
+  2. Inspect the Metro Station portal (48, 17), the plaza signpost (50, 18), wall emblem (50, 16), and immediate exterior perimeter.
+  3. Enter the Metro Station lobby and audit all fixtures, scanner pillars (18, 21; 20, 21), timetable (21-23, 23), and platform boundary.
+- **Falsifiable Success Criteria**: Triggering a new story event, locating Jackson, or clearing the turnstile block.
 
 
 <hr>
