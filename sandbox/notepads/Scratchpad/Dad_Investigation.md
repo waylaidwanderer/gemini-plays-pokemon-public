@@ -25,11 +25,12 @@
      - Resident boy at (25, 32): Baseline ("I love this show!").
      - Mother at (27, 33): Baseline ("My son is watching some cartoon...").
      - Conclusion: House 2 is 100% baseline flavor text. Zero items/leads.
-  4. Audit Residential House North-Central (Wii House at 39, 7). [IN PROGRESS]
-     - Elderly man 1F at (41, 33): AUDITED (Turn 19664) - Baseline ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Zero items/leads.
-     - Resident boy 2F at (44, 14): AUDITING [ACTIVE].
-  5. Audit Terrace House above Metro (Nana's House at 49, 14).
+  4. Audit Residential House North-Central (Wii House at 39, 7). [AUDITED - BASELINE]
+     - Elderly man 1F (41, 33): Baseline ("I bought my son a Wii...").
+     - Resident boy 2F (44, 14): Baseline ("I love the games on the Wii! I'm playing my favorite right now.").
+     - Conclusion: House 3 is 100% baseline flavor text. Zero items/leads.
+  5. Audit Terrace House above Metro (Nana's House at 49, 14). [PENDING - ACTIVE]
   6. Audit Name Rater House at (31, 26).
 - **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
 - **Falsification Threshold**: If all 5 residential interiors remain strictly in their baseline flavor states, H67 is falsified.
-- **Status**: ACTIVE. House 1 & 2 completed baseline; moving to House 3 (Wii House).
+- **Status**: ACTIVE. House 1, 2, 3 completed baseline; moving to House 4 (Nana's House).
