@@ -673,8 +673,8 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H95: Regional Investigation of External Triggers & Route 1 Obstacles
 - **Empirical Test - Route 1 Cut Tree (Turn 20616-20622)**: Performed stationary, unchained 'A' interaction facing North from (5, 45) into the Cut tree at (5, 44). Confirmed ZERO textbox or dialogue prompt appears when Cut is unlearned; the tree acts as an inert solid tile obstacle blocking the path north into the forest.
-- **Evaluation of Lancio Town & Macro-Oscillation**:
-  - Critique analysis: Professor Ivo's post-Siara dialogue ("Hey, Ashi, how's your new Pok�mon?") and lab basement barrier ("I probably shouldn't head down here...") were documented static, and no causal inventory item, story flag, or quest milestone has changed since Turn 243. Trekking to Lancio Town without a new game state variable repeats past macro-oscillation.
+- **Active Empirical Plan - Lancio Town Audit**:
+  - Proceed west into Lancio Town to empirically audit Professor Ivo's dialogue, basement stairs barrier at (12, 7), Lancio Harbor, and town residents to rigorously test for external progression triggers or side quest leads.
 - **Next Direction & Root Cause Analysis**:
   - The core progression block is the Metro Station turnstile: "I should find dad first!".
   - When the tremor occurred at the Metro Station, Dad ran outside into Sovio City to investigate the source of the tremor.
