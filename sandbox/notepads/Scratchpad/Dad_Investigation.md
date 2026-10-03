@@ -36,3 +36,11 @@
 - **Turnstile Blocker Grounding**: The turnstile literally states 'I should find dad first!' and Route 2 states 'I can't go yet... I have things to do!'. Finding Dad is the sole active blocker gating the train to Amor City.
 - **Summary Hallucination Audit**: Prior context summary claimed Dad was freed and departed toward the station at turn 2716, but this contradicts the persistent 'I should find dad first!' trigger. Dad has not been found.
 - **Next Step**: Ascend from Sovio Sewers back to Sovio Metro Station lobby and Central Plaza, then systematically audit all potential locations for Dad or event triggers related to Dad's disappearance.
+## Active Hypothesis H129: Jackson's Whereabouts & Progression Blocker Audit
+- **Premise**: Dad ran outside into Sovio City during the tremor to investigate. The Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") prove Dad has not been found. Prior context summaries claiming Dad was freed at turn 2716 are confirmed hallucinations.
+- **Sub-Hypotheses & Testable Variables**:
+  1. **H129-A (Eastern Perimeter & Route 2 Approach)**: Systematically audit the eastern edge of Central Plaza (columns 50-55, rows 16-23), including the wall crest at (50, 16), building facade at columns 52-54, and the Route 2 boundary tiles.
+     - *Falsification Boundary*: Falsified if all tiles along columns 50-55 (rows 16-23) are confirmed impassable or trigger only the known Route 2 barrier text with zero new NPCs, doors, or flags.
+  2. **H129-B (Central Plaza Fixture & Alignment Audit)**: Verify exact alignment interactions with Central Plaza structures, including the Metro Station portal exterior and the terrace building.
+     - *Falsification Boundary*: Falsified if all fixtures have zero interaction or only confirmed ambient text.
+  3. **H129-C (Regional Dependency Re-Evaluation)**: If H129-A and H129-B yield no progress, audit external dependencies: Route 1 Cut tree at (5, 44) and Professor Ivo's Lab restricted basement stairs at (12, 7) to determine if an external item/equipment trigger is required.
