@@ -11,6 +11,9 @@
 - **H111 Central Plaza Tremor & Confrontation Nodes**: COMPLETE (FALSIFIED). Manhole at (40, 13), northern alcove (col 40, rows 7-12), and pond/planter curb (rows 15-17, cols 38-43) all inert.
 - **H112 Sovio City Southern Grassy Perimeters**: COMPLETE (FALSIFIED). Column 12 dead-end lawn terminates at solid pine tree (11, 30); Southern Avenue (cols 14-15) flanked by solid pines leading directly to Route 1.
 
-## Active Hypothesis H113: Re-evaluating Over-scoped Falsifications
-- **Premise**: Prior notes broadly declared Sewers, Route 1, and Lancio Town '100% FALSIFIED' and 'permanently abandoned'. Progress requires testing which specific interaction in connected zones was prematurely dismissed without exhaustive verification.
-- **Immediate Target**: Deep audit of Professor Ivo's Lab in Lancio Town and Route 1 key points, completely exiting the Sovio City carousel.
+## Active Hypothesis H113: Lancio Town & Connected Zones Empirical Audit
+- **Status**: IN PROGRESS.
+  - Target 1 (Lab Basement Stairs at 12, 7): VERIFIED GATED at Turn 21436 ('I probably shouldn't head down here...').
+  - Target 2 (Professor Ivo at 20, 6): VERIFIED STATIC at Turn 21438/21441 ('Hey, Ashi, how's your new Pokémon?').
+  - Target 3 (Western Foyer PC & Fixtures): Currently auditing western wing at (7-9, 10).
+  - Next Target: Lancio Harbor Pier & Fisherman before returning to investigate Sovio Sewers storage room/grunts.
