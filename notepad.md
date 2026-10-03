@@ -667,10 +667,12 @@
 - **H120 Civilian Dialogue & Inventory Prerequisites**: COMPLETE (FALSIFIED). Camper dialogue verified ambient under zero active quests; party state, trainer card, and bag verified clear of hidden items.
 
 ## Active Hypothesis H121: Sovio Sewers (28, 23) Structural Feature Audit
-- **Premise**: In Turn 21927, an unexamined black rectangular opening in the lower sewer brick wall was measured at (28, 23). The initial approach was aborted at Turn 21928 due to a wild encounter, leaving this structural feature completely untested.
+- **Premise**: In Turn 21927, an unexamined black rectangular opening in the lower sewer brick wall was measured at (28, 23).
 - **Milestones**:
-  1. Return north across Route 1 to Sovio City -> IN PROGRESS.
-  2. Enter Sovio Metro Station and descend to Sewers via (18-19, 25) red mat.
-  3. Descend column 34 stairs to row 28 and traverse west to column 28 to systematically inspect (28, 23).
+  1. Return north across Route 1 to Sovio City -> COMPLETE (Turn 22031).
+  2. Enter Sovio Metro Station and descend to Sewers via (18-19, 25) red mat -> COMPLETE (Turn 22040).
+  3. Inspect column 28 wall feature and test walkability/climbability from row 27 -> IN PROGRESS.
+     - Turn 22045: Player at (28, 27) facing North pressed Up into (28, 26). Visited 0 tiles (blocked by solid wall curb collision).
+     - Turn 22055: Player testing column 27 by stepping Left to (27, 27) and pressing Up into (27, 26).
 
 <hr>
