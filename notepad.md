@@ -668,6 +668,7 @@
 - **Premise**: Generic exploration of urban walls and manholes is falsified. Progress requires testing specific, unverified independent variables in Sovio City:
   1. Target 1 (Camper with Antidote): COMPLETE (FALSIFIED). Spoke with Antidote in Bag at Turn 21493-21494; dialogue remains strictly static ambient humor ('My weedle got poisoned... / Ironic isn\'t it?'). Zero quest trigger or item exchange.
   2. Target 2 (Metro Turnstile & Lobby Audit): COMPLETE. Stepping onto (19, 21) triggers verbatim 'I should find dad first!' and forces Asher down to (19, 22). Platform visual inspection confirms a uniformed transit officer sitting in the northeast chair, yellow vending kiosk at north wall, two empty chairs northwest. Schedule board displays AMOR 16:00 / ALMIA 20:00.
+  3. Target 3 (West Avenue & Karate House 2F Audit): IN PROGRESS. Moving west along rows 14-15 boulevard to inspect West Avenue residences and verify Karate House 2F fixtures for overlooked triggers.
 - **Rules of Engagement**: Zero wandering of familiar maps or re-testing generic collision. Focus strictly on documented independent variables.
 
 <hr>
