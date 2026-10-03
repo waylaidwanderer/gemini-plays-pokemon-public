@@ -658,22 +658,31 @@
 
 ## Concluded Hypotheses Summary
 - **Sewers, Lancio Town, and Route 1 Fully Audited (Turns 7232-21195)**: FALSIFIED. Comprehensive traversals across thousands of turns empirically verified that Sovio Sewers (corridors vacated, storage room inert, Dark Sector empty), Lancio Town (facilities, lab, harbor pier), and Route 1 (defeated trainers, cut tree gated by HM Cut) contain zero active story triggers, items, or NPCs to advance the tremor plot. Macro-cycling between these zones is permanently abandoned.
+- **H107 Target 1 (System & Device Audit)**: COMPLETE. In-game clock 07:35:58, HuPhone Mailbox empty, Item Storage empty, World Map unmarked, Quest Log inactive.
+- **H107 Target 2 (Party Lead Swap to Zephyr)**: COMPLETE (FALSIFIED). Zephyr Lv2 Pidgey swapped to Slot 1; tested at Metro turnstile (19, 21) and Route 2 barrier (52, 19). Both barriers triggered identical blocking text ("I should find dad first!" and "I can't go yet..."). Party lead does not satisfy either gate.
 
-## Active Hypotheses for Progression
-### Hypothesis H107: Investigation of Neglected In-Game Mechanics and Non-Spatial Triggers
-- **Premise**: Physical exploration of all 4 accessible maps has been exhausted. Progression gate ("I should find dad first!") must be triggered by an untested interaction, unperformed game mechanic, or neglected player action rather than walking into familiar nodes.
-- **Target 1: System & Device Audit (Turns 21211-21237)**: COMPLETE.
-  - In-game Real-Time Clock: 07:35:58 (Morning).
-  - Option Menu: Standard CFRU settings (Fast text, Shift style, Help button mode, Frame 1).
-  - Trainer Card: Front has 8 empty *ROUNDS icons (Eclipse Tournament), $6096, 146h playtime. Back has 6 empty crest/badge slots.
-  - HuPhone PC App: Mailbox verified empty ("There's no Mail here."), Item Storage empty.
-  - HuPhone World Map: Regional viewer showing Asher at Sovio City, zero destination waypoints or flashing icons.
-  - HuPhone Quest Log: Quest Status inactive ("You aren't doing any Quest at the moment!"). Quest List Page 1 verified (Lost Pidgey & Lost Toy completed, 3 unstarted).
-- **Target 2: Inventory & Party Interaction Audit (Turns 21241-21264)**: COMPLETE (FALSIFIED).
-  - Party Summary Audit: Sirius Lv16 Riolu (holding Black Belt), Zephyr Lv2 Pidgey (no item). Zero story items in party or PC.
-  - Party Lead Swap Test: Swapped Zephyr to Slot 1 (Party Lead) and tested Metro turnstile gate at (19, 21). Result: Verbatim "I should find dad first!" textbox persisted without change. Falsified party lead hypothesis.
-  - Bag Items: Potion x1, Poison Barb x1, Antidote x1, Nugget x1, TM17, TM48, TM Case, 10 Poke Balls, 1 Timer Ball.
-- **Target 3: Sovio City Non-Obvious Environmental Triggers**: PENDING.
+## Active Hypothesis H108: Systematic Audit of Sovio City Environmental Triggers
+- **Premise**: Physical traversal of major roads and obvious doors is exhausted. Progression trigger must involve an untested facade, interactive wall fixture, or non-obvious environmental tile in Sovio City.
+- **Rules of Engagement**: Do NOT re-trigger the Metro turnstile or Route 2 barrier unless a new verified state or item has been obtained.
+
+### Test Targets & Protocols:
+1. **Target 3A: Wall Medallion & East Terrace Fixtures (Columns 50-51, Rows 14-17)**
+   - Candidate: Circular grey medallion at (51, 16) mounted on the wall above the signpost, and the wall interface at column 51-52.
+   - Action: Ascend to terrace at (47, 15), walk to column 51, inspect wall facing East and South.
+   - Success: Inspection text, secret switch, or hidden warp.
+   - Failure: Inert solid collision.
+
+2. **Target 3B: West Avenue Office Facade (Column 11, Rows 16-20)**
+   - Candidate: The eastern wall of the modern high-rise terminating West Avenue.
+   - Action: Walk along column 12 from row 16 to 20, facing West at each tile and pressing A.
+   - Success: Intercom, door warp, or dialogue.
+   - Failure: Completely inert solid wall across all 5 tiles.
+
+3. **Target 3C: South Central Building Shutters (Columns 24-25, Row 26)**
+   - Candidate: Decorative wooden shutters between Name Rater and southwest building.
+   - Action: Face North from (24, 27) and (25, 27), press A.
+   - Success: Warp or text.
+   - Failure: Inert.
 
 
 <hr>
