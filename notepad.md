@@ -675,7 +675,8 @@
      - Test: Verify if Harry, a vessel, or new maritime trigger is present.
      - Fisherman at (38, 22): Baseline is ambient fishing advice. Test if quest or story trigger is offered.
   4. **Town Residents**:
-     - TM17 House at (25, 10): Test if boy has new dialogue beyond "Get out!".
+     - TM17 House at (25, 10):
+       - Result (Turn 20706-20707): FALSIFIED. Textbox verbatim displayed baseline ("Get out!") and kicks Asher outside. Confirmed 100% static behavior.
      - Old Couple at (32-33, 8): Baseline is 30-year residency / Sinnoh flavor. Test for tremor or side quest leads.
 - **Decision Rule**: Execute tests 1 through 4 sequentially. If all baseline conditions repeat with zero updates, conclude and archive Hypothesis H95 as FALSIFIED before moving to any new geographic region.
 
