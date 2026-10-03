@@ -23,4 +23,4 @@
   2. Walk south to row 19 beneath the building roof (columns 47-51).
   3. Methodically test tiles along rows 19, 20, 21, 22 for entrance warps, doors, or inspection triggers.
   4. Falsified if all tiles are purely open corridor leading only to Route 2 barrier.
-- **Status**: IN PROGRESS. Exiting Pokémon Center to begin audit.
+- **Status**: IN PROGRESS. Reached (48, 22) beneath roof graphic. Row 23 at column 48 is solid wall collision with zero interaction facing South. Testing east along row 21-22.
