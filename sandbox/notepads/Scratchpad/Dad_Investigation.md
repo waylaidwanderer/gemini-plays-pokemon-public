@@ -17,7 +17,7 @@
 ## Active Hypothesis H127: Mechanical Pre-Condition & Party State Investigation
 - **Premise**: Spatial search exhausted. Testing unexamined mechanical game state variables: party lead reordering, trainer card metrics, TM compatibility, and team size.
 - **Milestones**:
-  1. Dismiss Biker textbox and open Start Menu -> IN PROGRESS.
-  2. Inspect Trainer Card (ASHER) for money, rounds, and trainer stats.
+  1. Dismiss Biker textbox and open Start Menu -> COMPLETE (Turn 22506).
+  2. Inspect Trainer Card (ASHER) for money, rounds, and trainer stats -> IN PROGRESS.
   3. Test party lead reordering (switch Zephyr Pidgey to Slot 1) and test TM17 Protect compatibility.
   4. Test if party configuration resolves Metro Turnstile blocker.
