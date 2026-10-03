@@ -11,21 +11,15 @@
 - **Route 1 & Lancio Town Falsification**: Route 1 and Lancio Town are baseline starting areas with zero link to Jackson's disappearance.
 - **Sovio Metro Lobby Audits**: Timetable board is decorative flavor text. Turnstile passage at (19, 21) triggers "I should find dad first!".
 
-## Concrete Falsifiable Hypotheses for Progression
+## Concrete Hypotheses & Test Outcomes
 ### Hypothesis H60: Night Cycle NPC & Event Changes in Sovio City
-- **Premise**: In-game time has transitioned into nighttime (past 20:00). NPC locations, dialogue trees, or accessible areas in Sovio City may update at night.
-- **Test Protocol**:
-  1. Exit Metro Station to Sovio City surface.
-  2. Inspect Central Plaza, Central Park, and West Avenue NPCs at night.
-  3. Falsified if all NPC positions and dialogues remain completely identical to daytime baseline.
+- **Premise**: In-game time transition into nighttime (past 20:00) updates NPC locations, dialogue trees, or accessible areas.
+- **Outcome**: FALSIFIED (Turns 19176–19188). Route 2 barrier, blonde girl, and boy in pink shirt exhibit identical baseline behavior and dialogue. Night cycle is purely a cosmetic lighting filter.
 
 ### Hypothesis H61: Inventory / Key Item Environmental Triggers
 - **Premise**: An item in possession (HuPhone, TM Case, or held item) triggers story progression when inspected or activated at a specific location.
 - **Test Protocol**:
-  1. Audit Key Items and Bag functions.
+  1. Audit Key Items and Bag functions (HuPhone Mailbox, apps, TM Case, Items pocket).
   2. Test SELECT registration and item usage in Metro lobby and Central Plaza.
   3. Falsified if no unique interactions or prompts occur.
-
-- **Night Test (Turn 19176)**: Route 2 barrier at (52, 19) displays identical baseline text ('I can't go yet... I have things to do!'). Barrier remains active at night.
-- **Night Test (Turn 19182)**: Central Park blonde girl displays identical baseline text ('I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?'). Night cycle does not alter dialogue.
-- **Night Test (Turn 19188)**: Central Park boy in pink shirt displays identical baseline text ('I'm supposed to meet a girl here...'). Hypothesis H60 is completely FALSIFIED: night cycle is purely cosmetic and does not alter NPC scripts or progression flags.
+- **Status**: IN PROGRESS. HuPhone Mailbox verified empty (Turn 19198).
