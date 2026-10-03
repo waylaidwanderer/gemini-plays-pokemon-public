@@ -19,4 +19,5 @@
   2. Enter Sovio Metro Station and descend to Sewers via (18-19, 25) red mat -> COMPLETE (Turn 22040).
   3. Inspect column 28 wall feature and test walkability/climbability from row 27 -> IN PROGRESS.
      - Turn 22045: Player at (28, 27) facing North pressed Up into (28, 26). Visited 0 tiles (blocked by solid wall curb collision).
-     - Turn 22055: Player testing column 27 by stepping Left to (27, 27) and pressing Up into (27, 26).
+     - Turn 22055: Player stepped Left to (27, 27) and Up to (27, 26) successfully. (27, 26) is walkable!
+     - Turn 22056: Testing Up from (27, 26) into (27, 25) to test ladder climbing.
