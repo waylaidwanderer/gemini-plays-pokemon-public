@@ -24,6 +24,6 @@
 - **Protocol**:
   1. Transition to Route 1 at (53, 0). [COMPLETED - Turn 19472]
   2. Audit Route 1 NPCs (Duke, Sonia, Mike). [COMPLETED - Turns 19474-19487: Duke, Sonia, and Mike all verified baseline post-defeat flavor text]
-  3. Route via column 30 to Cottage (37, 24) and audit interior. [ACTIVE]
-  4. Enter Lancio Town and audit Professor Ivo's Lab and Harbor Dock.
-- **Status**: ACTIVE. Step 3 (Cottage audit) underway.
+  3. Route via column 30 to Cottage (37, 24) and audit interior. [COMPLETED - Turn 19497: Resident boy verified baseline post-gift flavor text ("Now that you got your sample, go and enjoy freedom!")]
+  4. Enter Lancio Town and audit Professor Ivo's Lab and Harbor Dock. [ACTIVE]
+- **Status**: ACTIVE. Step 4 (transit to Lancio Town) underway.
