@@ -10,10 +10,8 @@
 - **H110 Metro Station Tremor Epicenter Audit**: COMPLETE (FALSIFIED). Platform chairs empty, scanner pillars and west wall inert, schedule board is decorative flavor text.
 - **H111 Central Plaza Tremor & Confrontation Nodes**: COMPLETE (FALSIFIED). Manhole at (40, 13), northern alcove (col 40, rows 7-12), and pond/planter curb (rows 15-17, cols 38-43) all inert.
 - **H112 Sovio City Southern Grassy Perimeters**: COMPLETE (FALSIFIED). Column 12 dead-end lawn terminates at solid pine tree (11, 30); Southern Avenue (cols 14-15) flanked by solid pines leading directly to Route 1.
+- **H113 Lancio Town Laboratory & Connected Nodes Audit**: COMPLETE (FALSIFIED). Verified at Turns 21436-21448: Basement stairs remain story-gated ('I probably shouldn't head down here...'), Professor Ivo dialogue remains static ('Hey, Ashi, how's your new Pokémon?'), western breakroom contains standard kitchen/dining fixtures with zero PC terminal or story triggers. Lancio Town has zero active progression triggers.
 
-## Active Hypothesis H113: Lancio Town & Connected Zones Empirical Audit
-- **Status**: IN PROGRESS.
-  - Target 1 (Lab Basement Stairs at 12, 7): VERIFIED GATED at Turn 21436 ('I probably shouldn't head down here...').
-  - Target 2 (Professor Ivo at 20, 6): VERIFIED STATIC at Turn 21438/21441 ('Hey, Ashi, how's your new Pokémon?').
-  - Target 3 (Western Breakroom Fixtures): COMPLETE. Verified breakroom kitchen with table, coffee mug, refrigerator (inert), sink (inert), TV (inert), bookshelf ('It\'s crammed full of Pokémon books.'). No PC terminal or secret triggers.
-  - Next Target: Lancio Harbor Pier & Fisherman before returning to investigate Sovio Sewers storage room/grunts.
+## Active Hypothesis H114: Re-evaluating Sovio City Progression Triggers
+- **Premise**: Lancio Town, Route 1, and the sewer layout are static and fully documented. Progression gates ('I should find dad first!' and 'I can't go yet... I have things to do!') are localized to Sovio City. We must test concrete, unverified interaction triggers in Sovio City rather than repeating multi-zone macro-circuits.
+- **Rules of Engagement**: Zero re-testing of verified static nodes. Focus on specific untested interactions and state variables.
