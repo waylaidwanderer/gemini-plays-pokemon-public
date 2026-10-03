@@ -18,4 +18,11 @@
 - H80 (Southwest Building West Facade Audit - Turns 20004-20006): FALSIFIED. Navigated to sidewalk at (17, 26-27). Facing East into (18, 26) and (18, 27) and pressing A confirms solid, inert building facade with decorative blue windowpanes; zero doors, warps, or story triggers exist.
 
 ## Active Hypotheses for Progression
+### Hypothesis H82: Metro Station Portal Exterior Fixture Audit (Started: Turn 20023)
+- **Premise**: Jackson ran outside of the Metro Station during the tremor to investigate the epicenter. The immediate threshold of his disappearance is the exterior subway portal at (48, 17) and adjacent architectural fixtures (portal side pillars at 47, 17 and 49, 17; wall relief at 50, 16; signpost at 50, 18). We audit these threshold fixtures to verify if an uninspected trigger, note, or event exists.
+- **Protocol**:
+  1. Dismiss turnstile textbox with B, exit upstairs via (24, 24) to Central Plaza (48, 18).
+  2. Inspect the subway portal frame facing North/East at (47, 17-18) and North/West at (49, 17-18).
+  3. Re-read the Metro Plaza signpost at (50, 18) facing North.
+- **Falsifiable Success Criteria**: Triggering new inspection text, discovering a clue, or confirming inert geometry.
 
