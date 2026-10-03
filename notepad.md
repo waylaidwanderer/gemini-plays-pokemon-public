@@ -722,8 +722,8 @@
   - **Protocol 1 (Elevated Terrace, cols 47-51, rows 13-17 - Turns 19965-19971)**: FALSIFIED. Terrace floor extends east to column 51 on rows 14-16. Modern high-rise building starts at column 52 with solid collision at (52, 15) and (51, 14). Decorative manhole at (51, 16) is inert. Behind signpost at (51, 17) dead-ends against signpost back (51, 18).
   - **Protocol 2 (Pokémon Center East Flank & Northern Alcove, cols 38-46, rows 7-13 - Turns 19971-19975)**: FALSIFIED. Tile (46, 12) is solid curb/wall corner of Pokémon Center; zero north passage. Northern alleyway along column 40 runs from (40, 15) to house (39, 7) at (40, 9); fully enclosed by Pokémon Center west wall and tan building east wall with zero side alleys.
   - **Protocol 3 (Covered Corridor & Route 2 Approach, cols 47-52, rows 19-23 - Turns 19976-19977)**: FALSIFIED. Covered corridor beneath roof graphic connects rows 19-22 east to column 52, which triggers story barrier ("I can't go yet... I have things to do!").
-  - **Protocol 4 (West Avenue & Southwest Sector, cols 11-26, rows 16-30)**: In progress.
-- **Falsifiable Success Criteria**: Locating Jackson, triggering a tremor-related story event, or clearing the turnstile prerequisite.
+  - **Protocol 4 (West Avenue & Southwest Sector, cols 11-26, rows 16-30 - Turns 19990-19993)**: FALSIFIED. West Avenue terminates west at column 11 into solid office building wall. Three Bikers at (13, 21-23), Karate house at (14, 15), Boy Rocky at (23, 17), Gumball house at (29, 14), and rear biker lane/southwest lawn confirmed static civilian baseline with zero story triggers.
+- **Conclusion**: H78 FALSIFIED. Sovio City overworld perimeters and civilians contain zero triggers for Dad's whereabouts or the turnstile prerequisite.
 
 
 <hr>
