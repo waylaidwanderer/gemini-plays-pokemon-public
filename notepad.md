@@ -666,16 +666,14 @@
 - **H123 Outdoor Tremor & Physical Audit**: Central Plaza, park, southwest lawn, rear biker lane, and sewers storage door (37, 14) ("Its a simple storage room..") verified static.
 - **H124 Non-Spatial Audit**: Verified Bag items/Key Items (HuPhone, TM Case, Potion, Antidote, Nugget), Sirius Lv16 Info, Mailbox/PC empty.
 - **H125 Metro Lobby & Turnstile**: Floor mat (23, 24-25) and scanner pillars (18, 21)/(20, 21) confirmed inert scenery. Turnstile (19, 21) re-confirms blocker ('I should find dad first!').
+- **H126 Sovio City Quest Trigger Audit**: Camper (5, 7) and Bikers (13, 21-23) confirmed strictly ambient dialogue under 0 active quests; neither triggers Page 1 quests.
 
-## Concluded Hypothesis H126: Sovio City Quest Trigger Investigation
-- **Results**: Verified Straw-hat Camper (5, 7) in Center repeats ambient Weedle dialogue under 0 active quests (does not trigger 'Medic!'). Verified Bikers (13, 21-23) on West Avenue repeat ambient motorcycle flavor text under 0 active quests (does not trigger 'Squirtle Gang'). Page 1 side quests are not triggered by these NPCs.
-
-## Active Hypothesis H127: Mechanical Pre-Condition & Party State Investigation
-- **Premise**: Spatial search exhausted. Testing unexamined mechanical game state variables: party lead reordering, trainer card metrics, TM compatibility, and team size.
+## Active Hypothesis H127: Mechanical Progression & Level-Up Investigation
+- **Premise**: 126 spatial/dialogue hypotheses exhausted. Testing unexamined mechanical progression variables: leveling up Sirius to Lv17 (482 EXP needed) to test daytime friendship evolution into Lucario and Professor Ivo dialogue reaction.
 - **Milestones**:
-  1. Dismiss Biker textbox and open Start Menu -> COMPLETE (Turn 22506).
-  2. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
-  3. Party State Audit -> COMPLETE (Turn 22524). Sirius 100% verified across all 3 pages; Zephyr (Pidgey Lv2) swapped to Slot 1 as party lead.
-  4. Test if party configuration (Pidgey lead) resolves Metro Turnstile blocker -> IN PROGRESS.
+  1. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
+  2. Party Audit & Lead Reorder -> COMPLETE (Turn 22524). Sirius 100% audited across Pages 1-3. Zephyr swapped to Slot 1.
+  3. Swap Sirius back to Slot 1 (lead) for wild battle readiness -> IN PROGRESS.
+  4. Battle wild encounters on Route 1 to gain 482 EXP and level Sirius to Lv17.
 
 <hr>
