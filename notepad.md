@@ -724,9 +724,9 @@
 ### Hypothesis H64: Sovio Metro Station Platform Attendant & Surface Trigger Investigation
 - **Premise**: With sewers fully audited and cleared, the missing progression trigger for Jackson resides on the surface in Sovio City or via the Metro platform attendant/conductor.
 - **Test Protocol**:
-  1. Return to Sovio Metro Station lobby via (38, 22) stairs.
-  2. Inspect the seated attendant/conductor at the turnstiles and test interactions from all adjacent angles.
-  3. Re-examine Sovio City surface landmarks and NPCs for any triggered changes.
-- **Status**: IN PROGRESS. Emerged at (48, 18) in Central Plaza. Conducting surface trigger audit and checking Metro platform attendant angles.
+  1. Return to Sovio Metro Station lobby via (38, 22) stairs. [COMPLETED - Turn 19344]
+  2. Inspect the seated attendant/conductor at the turnstiles and test interactions from all adjacent angles. [COMPLETED - Turns 19362-19368: Scanner pillars (18, 21) and (20, 21) 100% inert; gate (19, 21) triggers 'I should find dad first!'; platform chairs visually confirmed empty. Conductor hypothesis falsified.]
+  3. Re-examine Sovio City surface landmarks and NPCs for any triggered changes. [ACTIVE]
+- **Status**: IN PROGRESS. Step 2 concluded (conductor hypothesis falsified; platform chairs empty). Surface audit active.
 
 <hr>
