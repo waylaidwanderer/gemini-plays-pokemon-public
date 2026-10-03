@@ -20,25 +20,13 @@
   - Route 2 Barrier: Re-confirmed active ("I can't go yet... I have things to do!"). Column 51 roof collision confirmed solid.
 - **H98: Subterranean Investigation in Sovio Sewers (Turns 20821-20851)**: FALSIFIED. Complete re-traversal of Sovio Sewers (lower walkway row 28, western corridor, Western Terrace, Northern Gangway row 5, vertical bridge col 23, row 13 catwalk, storage room platform 37, 14) confirmed 100% vacated with zero NPCs, dropped items, or active progression triggers. The storage room at (37, 14) re-confirmed static inspection text ("Its a simple storage room.."). The Dark Sector was previously cleared (Nugget and Lost Toy retrieved), and rugged rocks require equipment not currently possessed.
 
-## Active Hypotheses for Progression
-### Hypothesis H99: Critical Investigation of Unexamined Systems, Menus & Progression Triggers
-- **Premise**: If all subterranean sewer corridors, Lancio Town facilities, surface residences, Central Park visitors, and Biker NPCs are documented static, the progression trigger required to satisfy "I should find dad first!" must lie in an unexamined game system, menu option, device feature, or unverified narrative avenue rather than repeated outdoor sweeps.
-- **Empirical Test Results (100% Completed)**:
-  - **Bag Audit**: Confirmed 3-pocket engine (Items, Key Items, Poké Balls). Key Items contain strictly HuPhone (registered to Select) and TM Case. No Train Ticket, no equipment. Items, Poké Balls, TMs verified standard.
-  - **Party Audit**: Sirius (Lv16 Riolu, Relaxed, Quick Feet, Black Belt held, no field moves) and Zephyr (Lv2 Pidgey, Mild, Keen Eye, no held item, Tackle). All 3 pages audited.
-  - **Trainer Card Audit**: Front (Asher, ID 54592, Money ¥8096, Time 148:58, 8 empty tournament rounds) and Back (6 dark badge silhouettes, regional crest).
-  - **Option Menu Audit**: Standard GBA options (Text Speed Fast, Battle Scene On, Shift, Stereo, Help, Type 1). Zero custom CFRU toggles or difficulty settings.
-  - **HuPhone Audit**:
-    - Item Storage & Mailbox: Audited empty.
-    - World Map: Verified interactive controls (`+ Move`). Audited all regional nodes and subtitles: Sovio City (Metro Station), Route 2, Azluf Town, Route 3, Mt. Gerhana, Samurion City, Route 4 (railway corridor), Amor City (Metro Station), Route 16, Aurin Town.
-    - Quest Log: Quest Status confirmed verbatim `You aren't doing any Quest currently...`. Quest List verified 23 named quests across 5 pages.
-  - **Metro Lobby Fixture Audit**: Left scanner (18, 21) and right scanner (20, 21) confirmed 100% inert. Platform chairs confirmed empty decorative benches. Turnstile (19, 21) triggers `I should find dad first!` and forces Asher to (19, 22).
-- **Conclusion**: All player menus, device applications, party states, and station lobby fixtures are 100% static with zero hidden progression triggers. Progression is NOT gated by an unexamined menu toggle or inventory item.
+- **H99: Player Menus, Devices & Party State Audit (Turns 20886-20938)**: CONCLUDED / FALSIFIED. Comprehensive audit across Bag (3-pocket engine, Key Items strictly HuPhone and TM Case; zero tickets or equipment), Party (Sirius Lv16, Zephyr Lv2, all 3 summary pages audited, standard abilities/moves, Black Belt held, no field moves), Trainer Card (Front: 8 empty rounds, ¥8096, Back: 6 silhouettes), Options (standard GBA settings, Fast text), HuPhone (Item Storage/Mailbox empty, World Map verified, Quest Log confirmed zero active quests), and Metro Station fixtures (scanner pillars inert, platform chairs empty). Confirmed progression is NOT gated by an unexamined menu toggle, inventory item, or party option.
 
-### Hypothesis H100: Systematic Audit of Sovio City Road Manholes & Exterior Fixtures
-- **Premise**: If all player systems/menus, civilian residences, and station fixtures are documented static, and Dad ran outside to "investigate the source of the tremor", the progression trigger to satisfy "I should find dad first!" must be an outdoor physical environmental trigger or transition in Sovio City that has not yet been activated.
-- **Audit Steps**:
-  1. Exit HuPhone and emerge into Central Plaza via Metro Station stairs (24, 24) -> (48, 18).
-  2. Directly inspect and interact with Manhole (40, 13) outside Pokémon Center.
-  3. Inspect Manhole (13, 19) and Manhole (13, 27) on West Avenue / Southern Avenue.
-- **Falsifiable Success Criteria**: Triggering a new story dialogue/event, discovering an underground connection, or lifting the turnstile blocker ("I should find dad first!").
+## Active Hypotheses for Progression
+### Hypothesis H101: Investigation of Overlooked Narrative Event Triggers
+- **Core Premise Questioning**: For thousands of turns, exploration operated on the assumption that Jackson is physically standing as an overworld NPC in Sovio City, Lancio Town, or the Sewers waiting to be spoken to. However, exhaustive audits confirm Jackson's sprite is not present anywhere in these maps. Therefore, "finding Dad" is not a sprite-interaction event; it must be an event flag triggered by interacting with a key story figure, inspecting a critical narrative fixture, or advancing an unresolved prerequisite.
+- **Investigative Avenues**:
+  1. **Sovio Pokémon Center Audit**: Re-examine Nurse Joy, the PC terminal, and residents specifically regarding news or updates following the Siara retreat.
+  2. **Route 2 Eastern Boundary ("I can't go yet... I have things to do!")**: Re-evaluate what explicit prerequisites ("things to do") are required before Asher can leave Sovio City.
+  3. **Valora & Central Plaza Investigation**: Search for clues regarding Valora's destination or Jackson's movements following the Metro tremor.
+- **Falsifiable Success Criteria**: Triggering a new story dialogue/cutscene, learning Jackson's true status, or lifting the turnstile blocker ("I should find dad first!").
