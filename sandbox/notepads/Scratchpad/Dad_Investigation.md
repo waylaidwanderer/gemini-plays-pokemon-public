@@ -27,3 +27,4 @@
   3. Falsified if no unique interactions or prompts occur.
 
 - **Night Test (Turn 19176)**: Route 2 barrier at (52, 19) displays identical baseline text ('I can't go yet... I have things to do!'). Barrier remains active at night.
+- **Night Test (Turn 19182)**: Central Park blonde girl displays identical baseline text ('I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?'). Night cycle does not alter dialogue.
