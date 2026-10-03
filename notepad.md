@@ -736,6 +736,7 @@
 
 - **Night Test (Turn 19176)**: Route 2 barrier at (52, 19) displays identical baseline text ('I can't go yet... I have things to do!'). Barrier remains active at night.
 - **Night Test (Turn 19182)**: Central Park blonde girl displays identical baseline text ('I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?'). Night cycle does not alter dialogue.
+- **Night Test (Turn 19188)**: Central Park boy in pink shirt displays identical baseline text ('I'm supposed to meet a girl here...'). Hypothesis H60 is completely FALSIFIED: night cycle is purely cosmetic and does not alter NPC scripts or progression flags.
 
 
 <hr>
