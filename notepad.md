@@ -723,9 +723,9 @@
 ### Hypothesis H59: Sovio Metro Station & City Interface/Mechanic Investigation
 - **Premise**: Jackson's disappearance occurred in Sovio City / Metro Station. The turnstile barrier ("I should find dad first!") is tied to an unexamined mechanic, interface, timing, or trigger within the Sovio City / Metro Station environment.
 - **Test Variables**:
-  1. In-Game Real-Time Clock: Check current in-game time via Start menu HUD vs train schedule (Amor 16:00, Alhia 20:00).
-  2. Station Fixtures & Objects: Re-audit Metro Station lobby fixtures (vending machine, pillars, turnstile, timetable) and interactions.
-  3. City Ground Search: Re-examine the immediate vicinity of the Metro Station exterior and plaza where the tremor occurred.
-- **Test Plan**: 1. Turn around and return north through Route 1 to Sovio City. 2. Check in-game clock on Start menu. 3. Enter Metro Station to test mechanics.
+  1. In-Game Real-Time Clock: Verified at 19:39:32 (RTC synchronized). Schedule: Amor 16:00, Alhia 20:00 (~20 mins to 20:00 train).
+  2. Station Fixtures & Objects: Re-audit Metro Station lobby fixtures (scanner pillars at 18/20, 21, turnstile gate, timetable board, waiting chairs).
+  3. City Ground Search: Re-examine Central Plaza and Metro portal surroundings where Dad ran outside during the tremor.
+- **Test Plan**: 1. Close menu and return north through Route 1 to Sovio City. 2. Enter Metro Station to test mechanics and station fixtures.
 
 <hr>
