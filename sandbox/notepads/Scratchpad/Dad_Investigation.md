@@ -19,4 +19,4 @@
   3. Verify exact Metro Station lobby perimeter and platform interaction -> COMPLETE (Turn 22332: Platform verified 100% empty via photographic crop; turnstile confirmed blocked "I should find dad first!").
   4. Audit Sovio Pokémon Center Mezzanine & PC Storage -> COMPLETE (Mezzanine clerk standard shop dialogue; PC redundant with HuPhone).
   5. Audit North Central Park Pond Bank (columns 35-43, rows 16-18) & Southwest Lawn (rows 29-31) -> COMPLETE (Turn 22357-22361: all outdoor terrain verified clear of physical tremor anomalies).
-  6. Decisive Storage Room (37, 14) Falsification Check -> IN PROGRESS (Currently on column 23 bridge; walking 15 steps east to 37, 14. Strict Falsification Criteria: If 37, 14 displays verbatim "Its a simple storage room..", sewer trigger hypotheses are permanently closed and falsified).
+  6. Decisive Storage Room (37, 14) Falsification Check -> COMPLETE (FALSIFIED: Turn 22386 displays verbatim "Its a simple storage room..."). Sewers contain zero story triggers; permanently closed.
