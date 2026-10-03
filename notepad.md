@@ -378,6 +378,14 @@
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive; sewer corridors vacated.
 
 ## Topography & Connectivity
+- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal.
+- **Western Terrace Layout**:
+  - Terrace floor extends across columns 12 to 17 on rows 11-12.
+  - South perimeter has stairs descending at column 14 (rows 12-16) and solid stone railings at row 13 (columns 11-13 and 15-17).
+  - East perimeter is bounded by solid stone wall/railing at column 18.
+  - West perimeter extends past column 12 toward column 10 wall border.
+  - Ladder ascending to Northern Gangway (row 5) is located at column 15, rows 6-10.
+  - Floor tiles contain wild encounters (e.g. wild Dunsparce Lv5).
 - **Lower Level Connectivity**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
 - **Lower Western Corridor**: From (8, 28), row 27 is an open walkway running east to column 16. A vertical corridor at columns 17-18 leads north toward Grunt 2's platform at (18, 21-22) and the western stairs. Note: Column 16 is walkable at rows 25-26, and column 17 connects rows 22-24. Column 18 vertical corridor terminates north at row 18 at a solid brick wall (18, 17) before turning west along row 18 toward the stairs at (14, 17).
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
@@ -415,14 +423,6 @@
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
   - **Alcove Perimeter Bounds**: Tile (21, 10) directly west of the rock is walkable floor. Tile (20, 10) is a solid corner wall. Row 11 across columns 20-22 is a solid south elevation wall, confirming the rock at (22, 10) sits in a 1-tile recess.
 - **Deep Subterranean Sector**: Isolated 3x3 chamber (columns 1-3, rows 36-38). Arrives at (2, 38) on red capsule mat facing North. At (2, 37), retrieved Machop's Lost Toy. Perimeter walls (rows 35-38, columns 0-4) are solid walls. Single-purpose quest room.
-- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal.
-- **Western Terrace Layout**:
-  - Terrace floor extends across columns 12 to 17 on rows 11-12.
-  - South perimeter has stairs descending at column 14 (rows 12-16) and solid stone railings at row 13 (columns 11-13 and 15-17).
-  - East perimeter is bounded by solid stone wall/railing at column 18.
-  - West perimeter extends past column 12 toward column 10 wall border.
-  - Ladder ascending to Northern Gangway (row 5) is located at column 15, rows 6-10.
-  - Floor tiles contain wild encounters (e.g. wild Dunsparce Lv5).
 
 <hr>
 
@@ -684,6 +684,9 @@
      - Item Storage (Withdraw Item): Audited. Verbatim: "There are no items." Zero items stored in PC.
      - Item Storage (Mailbox): Audited. Verbatim: "There's no Mail here." Zero mail present.
      - Conclusion: HuPhone contains zero pending items, unread mail, or active story objectives.
-  3. Audit Bag Key Items & Metro Station structural boundaries -> IN PROGRESS (Turn 22771).
+  3. Audit Bag Key Items & Metro Station structural boundaries -> COMPLETE (Turn 22785):
+     - Bag Key Items: Audited. Contains exclusively HuPhone (registered) and TM Case (0 other Key Items).
+     - Metro Lobby: Turnstile at (19, 21) triggers "I should find dad first!" and forces step down to (19, 22). Platform chairs verified empty mirrored passenger furniture (zero NPCs present). Scanner pillars and blue chairs confirmed inert scenery. Timetable displays decorative schedule flavor text.
+     - Sewer re-entry check: Grounded in lore that Dad ran outside into Sovio City during the tremor (Dad never entered the sewers). Sewers remain in verified post-retreat state.
 
 <hr>
