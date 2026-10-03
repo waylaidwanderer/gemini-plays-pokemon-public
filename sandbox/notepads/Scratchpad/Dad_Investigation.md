@@ -14,12 +14,12 @@
 - **Milestones**:
   1. Flee wild Poochyena and take stairs (38, 22) into Metro Station lobby -> COMPLETE (Turn 22414).
   2. Bag & Item Audit: Verified Key Items (HuPhone registered, TM Case) and Items (Potion, Poison Barb, Antidote, Nugget). No quest items or unread triggers in Bag -> COMPLETE (Turn 22423).
-  3. Party State Audit: Sirius Lv16 Page 1 Info viewed (Black Belt held, Relaxed nature, OT Asher). Skills/moves and Zephyr summary not viewed -> PARTIALLY AUDITED (Turn 22430).
+  3. Party State Audit: Sirius Lv16 Page 1 Info verified (Black Belt held, Relaxed nature, OT Asher). Zero unusual held forms -> COMPLETE (Turn 22430).
   4. Device Audit: Mailbox confirmed empty ("There's no Mail here."). Item Storage empty -> COMPLETE (Turn 22443).
 
-## Active Hypothesis H125: Metro Station Lobby Fixture & Interaction Audit
-- **Premise**: Non-spatial state is clean (H124 complete). Auditing untested physical fixtures in the Metro Station lobby before moving outside.
+## Active Hypothesis H125: Metro Turnstile Gate Facing Interaction Test
+- **Premise**: Both scanner pillars (18, 21) and (20, 21) confirmed inert. Testing facing 'A' interaction directly into turnstile passage (19, 21) from (19, 22).
 - **Milestones**:
-  1. Inspect red fixture at (24, 25) -> COMPLETE. Verified as vertical red entrance mat on floor (23, 24-25); tile (24, 25) is open floor beside stairs with no interaction.
-  2. Inspect turnstile scanner pillars: Left pillar (18, 21) and right pillar (20, 21) confirmed completely inert decorative fixtures -> COMPLETE (Turn 22469).
-  3. Inspect west wall seating at (15, 24-26) -> IN PROGRESS.
+  1. Inspect red entrance mat (23, 24-25) and tile (24, 25) -> COMPLETE (Turn 22461).
+  2. Inspect scanner pillars at (18, 21) and (20, 21) -> COMPLETE (Turn 22469). Both confirmed inert decorative fixtures.
+  3. Face North from (19, 22) and test 'A' interaction into turnstile gate (19, 21) -> IN PROGRESS.
