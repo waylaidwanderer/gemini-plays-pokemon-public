@@ -18,11 +18,9 @@
    - Candidate: Circular grey medallion at (51, 16) and eastern wall interface at column 52.
    - Empirical Results: Inspected wall facing East at (51, 15) and (51, 16) -> solid inert wall. Stepped directly onto medallion tile at (51, 16) -> decorative floor graphic with zero text or trigger. Inspected back of signpost facing South at (51, 17) -> inert. Inspected wall shutters facing East at (51, 17) -> inert solid collision. 100% falsified.
 
-2. **Target 3B: West Avenue Office Facade (Column 11, Rows 16-20)**
-   - Candidate: The eastern wall of the modern high-rise terminating West Avenue.
-   - Action: Walk along column 12 from row 16 to 20, facing West at each tile and pressing A.
-   - Success: Intercom, door warp, or dialogue.
-   - Failure: Completely inert solid wall across all 5 tiles.
+2. **Target 3B: West Avenue Office Facade (Column 11, Rows 16-20)**: COMPLETE (FALSIFIED).
+   - Candidate: Eastern wall of modern office high-rise at Column 11 across Rows 16-20.
+   - Empirical Results: Inspected from Column 12 across rows 20, 19, 18, 17, and 16 facing West with A. All 5 tiles are completely inert solid foundation collision with zero text, intercom, or hidden entrances. 100% falsified.
 
 3. **Target 3C: South Central Building Shutters (Columns 24-25, Row 26)**
    - Candidate: Decorative wooden shutters between Name Rater and southwest building.
