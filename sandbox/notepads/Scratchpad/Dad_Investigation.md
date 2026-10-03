@@ -11,13 +11,8 @@
 - H92 (Outdoor Fringes & Regional Connections - Turns 20415-20431): FALSIFIED. Central Park south sidewalk entities (Boy at 35, 28, Jigglypuff at 34, 28, Little Girl at 33, 28) verified ambient flavor text. Southern Avenue (rows 28-40) verified open transit corridor to Route 1 with zero leads. Lancio Town trek aborted per Burden of Proof (no game state variables changed since Turn 243).
 
 ## Active Hypotheses for Progression
-### Hypothesis H93: Resolution of Sovio Central Story Sites & Metro Gate Preconditions
-- **Premise**: Both progression barriers ("I should find dad first!" at turnstile 19, 21 and "I can't go yet... I have things to do!" at Route 2 52, 19) are gated by an unresolved local prerequisite in Sovio City. Testing genuinely novel variables rather than repeating circular macro-loops.
-- **Isolated Variables**:
-  1. Systematic sweep of remaining Central Plaza confrontation tiles (cols 41, 42, 45, 46 along rows 13-15) where the Siara confrontation took place (narrowed from earlier 3-tile sample).
-  2. Inspect Start Menu in-game clock time against the Metro Timetable schedule (Amor 16:00 / Almia 20:00) to test schedule/clock correlation.
-  3. Inspect Metro Station lobby corners, ticket machine fixtures, and exact interaction responses.
-- **Falsifiable Success Criteria**: Uncovering an item/trigger in Central Plaza, identifying a clock schedule mechanic, or resolving the turnstile blocker.
-- **Findings (Turn 20443-20458)**:
-  - Sampled tiles (43, 14), (43, 13), (44, 13), (45, 13) in Central Plaza showed 0 items.
-  - Pokémon Center audited: Camper ambient humor (poisoned Weedle), resident boy at (8, 6) ambient PC advice, PC Item Storage empty ('There are no items.'), Asher's PC Mailbox empty ('There's no Mail here.'), Someone's PC Box 1 empty.
+- H93 (Sovio Central Story Sites & Metro Gate Preconditions - Turns 20443-20488): FALSIFIED.
+  - Variable 1 (Central Plaza tiles): Full sweep of columns 41-46 across rows 13-15 confirmed 100% devoid of hidden items, triggers, or interactions.
+  - Variable 2 (Clock/Timetable correlation): In-game Start Menu clock is real-time ticking (RTC), unlinked to the static 16:00 timetable text. Timetable is ambient world-building.
+  - Variable 3 (Metro Station lobby audit): Audited blue chairs, scanner pillars, and timetable board. Turnstile at (19, 21) reliably triggers "I should find dad first!" and pushes Asher down to (19, 22).
+  - Conclusion: No hidden local triggers or clock mechanisms exist in Central Plaza or the Metro Station lobby.
