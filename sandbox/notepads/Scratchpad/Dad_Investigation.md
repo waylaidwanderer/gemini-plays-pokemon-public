@@ -19,10 +19,11 @@
 - H70 (Sovio City Elevated Terrace & Vantage Point Deep Audit): FALSIFIED. Swept all terrace floor tiles (cols 47-51, rows 14-16), tested round emblem at (50, 16) (decorative), windows, and perimeter railings. Terrace is completely devoid of NPCs, switches, or script triggers.
 
 ## Active Hypotheses for Progression
-### Hypothesis H72: Covered Corridor Deep Wall & Interior Audit (Started: Turn 19781)
-- **Premise**: With all game systems, Bag pockets, PC storage, and overworld civilians verified baseline, we audit the internal structure of the covered corridor (columns 47-51, rows 20-22) beneath the commercial building roof. We will systematically test every wall tile (north wall at row 20, south wall at row 23, west terminus at column 47) for hidden doors, switches, or interactable objects.
+### Hypothesis H73: Sovio City Pokémon Center PC Telemetry & Town Map Deep Audit (Started: Turn 19786)
+- **Premise**: With all Bag pockets, overworld paths, residential houses, and the terrace verified baseline, we audit the physical PC terminal at (12, 1) inside the Sovio Pokémon Center. The HuPhone only accesses Item Storage; the physical terminal hosts Someone's PC (Pokémon Storage System) and Professor evaluation. We will inspect Pokémon Storage (Boxes 1-14, Move Items) for deposited/gift Pokémon or stored items, and examine the framed Town Map at (11, 0) for regional story cues.
 - **Protocol**:
-  1. Exit Party screen and Start Menu back to overworld at (51, 20).
-  2. Sweep west along row 20 to column 47, inspecting northern wall tiles.
-  3. Sweep rows 21 and 22, inspecting southern wall tiles along row 23.
-- **Falsifiable Success Criteria**: Finding an interactive door, switch, or passage inside the covered corridor.
+  1. Dismiss Route 2 barrier text with B, navigate out of covered corridor to Central Plaza (44, 15).
+  2. Enter Pokémon Center at (44, 12).
+  3. Access PC at (12, 1): check Someone's PC (Boxes, Move Items) and Professor evaluation.
+  4. Access Town Map at (11, 0): inspect regional node descriptions.
+- **Falsifiable Success Criteria**: Finding a deposited/gift Pokémon, stored item, or narrative cue on the PC or Town Map.
