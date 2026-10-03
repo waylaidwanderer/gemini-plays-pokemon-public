@@ -667,11 +667,15 @@
 - **H124 Non-Spatial Audit**: Verified Bag items/Key Items (HuPhone, TM Case, Potion, Antidote, Nugget), Sirius Lv16 Info, Mailbox/PC empty.
 - **H125 Metro Lobby & Turnstile**: Floor mat (23, 24-25) and scanner pillars (18, 21)/(20, 21) confirmed inert scenery. Turnstile (19, 21) re-confirms blocker ('I should find dad first!').
 
-## Active Hypothesis H126: Sovio City Quest & Story Requirement Investigation
-- **Premise**: Route 2 explicitly states 'I can't go yet... I have things to do!'. Testing if unstarted Page 1 side quests trigger under 0 active quests.
+## Concluded Hypothesis H126: Sovio City Quest Trigger Investigation
+- **Results**: Verified Straw-hat Camper (5, 7) in Center repeats ambient Weedle dialogue under 0 active quests (does not trigger 'Medic!'). Verified Bikers (13, 21-23) on West Avenue repeat ambient motorcycle flavor text under 0 active quests (does not trigger 'Squirtle Gang'). Page 1 side quests are not triggered by these NPCs.
+
+## Active Hypothesis H127: Mechanical Pre-Condition & Party State Investigation
+- **Premise**: Spatial search exhausted. Testing unexamined mechanical game state variables: party lead reordering, trainer card metrics, TM compatibility, and team size.
 - **Milestones**:
-  1. Exit Metro Station to Sovio City Central Plaza -> COMPLETE (Turn 22482).
-  2. Speak to Straw-hat Camper at (5, 7) -> COMPLETE (FALSIFIED). Camper repeats ambient Weedle dialogue under 0 active quests.
-  3. Speak to Bikers on West Avenue (13, 21-23) -> COMPLETE (FALSIFIED). Bikers repeat ambient motorcycle flavor text ('We are the big guys here, the ultimate motorcycle gang!') under 0 active quests; does not trigger 'Squirtle Gang'.
+  1. Dismiss Biker textbox and open Start Menu -> IN PROGRESS.
+  2. Inspect Trainer Card (ASHER) for money, rounds, and trainer stats.
+  3. Test party lead reordering (switch Zephyr Pidgey to Slot 1) and test TM17 Protect compatibility.
+  4. Test if party configuration resolves Metro Turnstile blocker.
 
 <hr>
