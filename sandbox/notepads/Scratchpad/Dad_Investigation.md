@@ -23,3 +23,4 @@
      - Battle 1: Caterpie Lv2 -> +15 EXP (Sirius: 2653 EXP, Deficit: 467 EXP).
      - Battle 2: Caterpie Lv2 -> +15 EXP (Sirius: 2668 EXP, Deficit: 452 EXP).
      - Battle 3: Pidgey Lv3 -> +23 EXP (Sirius: 2691 EXP, Deficit: 429 EXP).
+     - Battle 4: Nidoran♂ Lv3 -> +25 EXP (Sirius: 2716 EXP, Deficit: 404 EXP).
