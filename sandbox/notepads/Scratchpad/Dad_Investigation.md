@@ -19,12 +19,12 @@
 - **H103: Southern Avenue Thoroughfare & Route 1 Connection (Turns 21032-21041)**: FALSIFIED. Southern Avenue (columns 14-15) is an open connection to Route 1 with zero barrier text. Route 1 trainers (Duke at 45, 12; Sonia at 27, 15) remain in static defeated post-battle text. Early-route trainers and southern border do not advance the Sovio Metro tremor plot; macro-traversal south to Lancio Town is redundant and falsified.
 
 - **H104: Metro Station Turnstile Interaction & Platform Audit (Turns 21088-21089)**: FALSIFIED. Stationary A-press facing North from (19, 22) into turnstile passage (19, 21) produces zero interaction. Visual inspection confirms platform chairs are empty decorative benches with zero station attendant sprite present. Scanner pillars at (18, 21) and (20, 21) are inert. Turnstile is purely a step-on barrier checking the prerequisite of locating Jackson ("I should find dad first!").
+- **H105: Re-Investigation of Sovio Sewers Storage Room & Dark Sector (Turns 21106-21155)**: FALSIFIED. Storage room at (37, 14) re-verified static ("Its a simple storage room..."). Dark Sector upper alcove at (23, 4) confirmed empty. Rugged rock at (22, 10) re-verified static ("It's a rugged rock, but with some equipment, I could smash it."). Bag audit confirmed zero equipment/tools. Sovio Sewers confirmed completely static with zero unresolved story triggers or NPCs. Macro-cycling back to sewers is permanently abandoned.
 
 ## Active Hypotheses for Progression
-### Hypothesis H105: Investigation of Jackson's Prerequisite & Unresolved Mechanics
-- **Premise**: Both story barriers (Metro turnstile: "I should find dad first!", Route 2: "I can't go yet... I have things to do!") explicitly require finding Jackson before Asher can depart Sovio City. All surface residences, outdoor roads, defeated trainers, and metro lobby fixtures have been confirmed static.
-- **Investigation Targets**:
-  1. Sovio Sewers: Re-examine the storage room platform (37, 14), Dark Sector, and the Team Siara retreat aftermath for unresolved triggers or items.
-  2. Inventory & Equipment: Audit whether an item, phone feature, or specific interaction unlocks the rugged rocks or storage room.
-
-- **Turn 21129-21135 Audit (Storage Room 37, 14)**: Verified firsthand that interacting facing South at (37, 14) displays verbatim "Its a simple storage room..." with solid collision to the south. Platform is 100% devoid of active story triggers or NPCs. Proceeding to audit Dark Sector via column 30 causeway.
+### Hypothesis H106: Investigation of Sovio Metro Lobby Unmapped Geometry & Surface Investigation
+- **Premise**: With sewers definitively falsified, the search for Dad must focus on unmapped surface and interior geometry. In the Sovio Metro Station lobby, only columns 18-24 have been documented; the western expanse of the lobby (columns <18) has never been mapped or audited.
+- **Plan**:
+  1. Exit Dark Sector via stairs at (31, 9) and navigate back through sewers to Metro Station lobby stairs at (38, 22).
+  2. Map and audit the entire western section of the Metro Station lobby (columns 10-17, rows 21-25).
+  3. Inspect all ticket windows, booths, or station master fixtures.
