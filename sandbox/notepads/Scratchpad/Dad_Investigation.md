@@ -12,22 +12,18 @@
 ## Concluded Hypotheses
 - H60 (Night Cycle), H61 (Inventory/Triggers), H62 (Corridor), H63 (Lobby & Storage Room): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
 - H65 (Sovio City Exterior Paths & NPCs): FALSIFIED. Exterior corridors, Route 2 barrier (52, 19), West Ave rear lane (col 12), and Central Park NPCs (Boy in pink shirt, Little Girl, Jigglypuff, east walkway) verified static with zero progression flags.
+- H66 (Southern Regional Anchors - Route 1 & Lancio Town): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), landmarks (Cottage), and civilians (Grass boy) verified 100% baseline flavor text. Lancio Town Lab (basement stairs restricted 'I probably shouldn't head down here', Prof Ivo baseline text 'Hey, Ashi, how's your new Pokémon?', incubator baseline text) and Harbor Dock (pier empty, zero boats, no Harry) verified 100% baseline.
 
 ## Active Hypotheses for Progression
-### Hypothesis H66: Southern Transit & Regional Anchor Audit (Route 1 & Lancio Town)
-- **Premise**: With Sovio City surface paths and Metro lobby verified static and blocked, test whether Jackson or regional story progression anchors exist in the accessible southern region (Route 1 landmarks and Professor Ivo's Lab in Lancio Town).
-- **Falsifiable Success Criteria**:
-  1. Route 1: Any NPC offering non-flavor dialogue regarding the tremor, Team Siara, or Jackson's movements, or an updated physical passage.
-  2. Lancio Town: Professor Ivo acknowledging the Eclipse incident / Jackson, unlocking the lab basement stairs at (12, 7), or Harry returning to the dock.
-- **Falsification Threshold**: If Route 1 anchors and Lancio Town anchors remain strictly in their initial baseline states, H66 is falsified.
-- **Protocol**:
-  1. Transition to Route 1 at (53, 0). [COMPLETED - Turn 19472]
-  2. Audit Route 1 Battle Trainers (Duke, Sonia, Mike). [COMPLETED - Turns 19474-19487: All 3 verified baseline post-defeat flavor text]
-  3. Audit Route 1 Cottage (37, 24). [COMPLETED - Turn 19497: Resident boy verified baseline post-gift flavor text]
-  4. Audit Route 1 Civilians along Lancio transit. [COMPLETED - Turns 19497-19520: Cottage boy (37, 24) and Grass boy (10, 50) verified baseline flavor text]
-  5. Enter Lancio Town and audit key anchors:
-     - Lab basement stairs at (12, 7): Re-verified 100% active/restricted ("I probably shouldn't head down here" - Turn 19537).
-     - Professor Ivo at (20, 6): Re-verified 100% baseline flavor text ("Hey, Ashi, how's your new Pokémon?" - Turn 19539).
-     - Incubator apparatus at (18-19, 5-6): Re-verified 100% baseline text ("Better not mess with that machine." - Turn 19540).
-     - Harbor Dock at (32-34, 23-25) (check for Harry / moored vessel). [ACTIVE]
-- **Status**: ACTIVE. Step 5 (Harbor Dock audit) underway.
+### Hypothesis H67: Sovio City Residential Interiors Post-Sewer Audit
+- **Premise**: With exterior surface paths, Metro lobby turnstiles, and southern regional anchors (Route 1, Lancio Town) strictly falsified as baseline, the post-sewer progression trigger or Jackson lead resides inside Sovio City's residential interiors.
+- **Audited Targets & Protocol**:
+  1. Return north via Route 1 to Sovio City. [ACTIVE]
+  2. Audit Residential House Northwest (Karate / Machop House at 14, 15).
+  3. Audit Residential House Central-West (Gumball House at 29, 14).
+  4. Audit Residential House North-Central (Wii House at 39, 7).
+  5. Audit Terrace House above Metro (Nana's House at 49, 14).
+  6. Audit Name Rater House at (31, 26).
+- **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
+- **Falsification Threshold**: If all 5 residential interiors remain strictly in their baseline flavor states, H67 is falsified.
+- **Status**: ACTIVE. Step 1 (return transit to Sovio City) underway.
