@@ -670,12 +670,16 @@
 
 - **H127 Mechanical Level-Up (FALSIFIED)**: Leveled Sirius to Lv17. Sirius did not evolve into Lucario. Metro turnstile (19, 21) re-confirmed static ('I should find dad first!'). Route 2 barrier (52, 19) re-confirmed static ('I can't go yet... I have things to do!'). Mechanical leveling has zero effect on story flags. 100% FALSIFIED and closed. Backtracking to Lancio discontinued.
 
-## Active Hypothesis H128: Jackson & Valora Post-Tremor Location Investigation
-- **Premise**: Following the sewer raid, Dad and Valora exited the sewers into Sovio City/Metro. Asher is blocked by 'I should find dad first!' at the Metro turnstiles. Returning to Sovio City to investigate where Dad or Valora relocated.
+## Active Hypothesis H128: Jackson's Tremor Investigation in Sovio City
+- **Premise**: During the tremor at Sovio Metro Station, Dad ran outside into Sovio City to investigate the source of the tremor (Dad never entered the sewers). The Metro turnstile blocks Asher with "I should find dad first!", confirming Dad is located somewhere in Sovio City investigating the tremor. Platform chairs confirmed empty (no transit officer).
+- **Core Testable Variables**:
+  1. Audit regional devices and Key Items (HuPhone apps: Item Storage, World Map, Quest Log, Town Map interaction).
+  2. Check for physical effects of the tremor in Sovio City (cracks, structural changes, new paths, blocked passages, outdoor fixtures).
+  3. Re-examine potential tremor investigation sites where Dad would go: Central Plaza (confrontation site), Park borders, Metro entrance terrace, and city perimeters.
 - **Milestones**:
-  1. Return to Sovio City via Route 1 northeast corridor (53, 0).
-  2. Heal party at Sovio Pok�mon Center with Nurse Joy.
-  3. Re-examine Sovio City key locations: Metro Station lobby, platform, Pok�mon Center, and plaza.
+  1. Heal party at Sovio Pok�mon Center with Nurse Joy -> IN PROGRESS (Turn 22741).
+  2. Systematic audit of HuPhone and Key Items.
+  3. Physical inspection of Sovio City outdoor sectors for tremor-related changes.
 
 
 <hr>
