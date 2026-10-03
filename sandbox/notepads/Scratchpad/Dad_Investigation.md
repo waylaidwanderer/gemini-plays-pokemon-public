@@ -11,17 +11,12 @@
 - **H111 Central Plaza Tremor & Confrontation Nodes**: COMPLETE (FALSIFIED). Manhole at (40, 13), northern alcove (col 40, rows 7-12), and pond/planter curb (rows 15-17, cols 38-43) all inert.
 - **H112 Sovio City Southern Grassy Perimeters**: COMPLETE (FALSIFIED). Column 12 dead-end lawn terminates at solid pine tree (11, 30); Southern Avenue (cols 14-15) flanked by solid pines leading directly to Route 1.
 - **H113 Lancio Town Laboratory Audit**: COMPLETE (FALSIFIED). Verified at Turns 21436-21448: Basement stairs remain story-gated ('I probably shouldn't head down here...'), Professor Ivo dialogue remains static ('Hey, Ashi, how's your new Pokémon?'), western breakroom contains standard kitchen/dining fixtures with zero PC terminal or story triggers. Lab interior has no active progression triggers.
+- **H114 Sovio City Independent Variable Testing**: COMPLETE (FALSIFIED). Camper dialogue unaffected by Antidote; Metro turnstile verified occupied by platform attendant while gate script ('I should find dad first!') pushes player back; Karate House 2F confirmed generic civilian bedroom with standard flavor text and zero progression triggers.
+- **H115 Route 1 Northwest Boundary Audit**: COMPLETE (FALSIFIED). Visual inspection at (26, 13) confirms Route 1 western and northern perimeters terminate at solid pine tree canopy; no open pathways to Mt. Gerhana or unmapped areas exist beyond the rock spire.
 
-## Active Hypothesis H114: Sovio City Independent Variable Testing
-- **Premise**: Generic exploration of urban walls and manholes is falsified. Progress requires testing specific, unverified independent variables in Sovio City:
-  1. Target 1 (Camper with Antidote): COMPLETE (FALSIFIED). Spoke with Antidote in Bag at Turn 21493-21494; dialogue remains strictly static ambient humor ('My weedle got poisoned... / Ironic isn\'t it?'). Zero quest trigger or item exchange.
-  2. Target 2 (Metro Turnstile & Lobby Audit): COMPLETE. Stepping onto (19, 21) triggers verbatim 'I should find dad first!' and forces Asher down to (19, 22). Platform visual inspection confirms a uniformed transit officer sitting in the northeast chair, yellow vending kiosk at north wall, two empty chairs northwest. Schedule board displays AMOR 16:00 / ALMIA 20:00.
-  3. Target 3 (West Avenue & Karate House 2F Audit): COMPLETE (FALSIFIED). Verified Karate House 2F contains generic civilian bedroom furniture (blue cabinet: 'Wow! Tons of Pokémon stuff!', green bookshelf: 'It\'s crammed full of Pokémon books.', desk, bed) with zero NPCs, items, or story triggers.
-- **Rules of Engagement**: Zero wandering of familiar maps or re-testing generic collision. Focus strictly on documented independent variables.
-
-## Active Hypothesis H115: Route 1 Northwest Sector & Rock Spire Boundary Investigation
-- **Premise**: In Sovio City, all civilian houses, environmental facades, and NPCs are fully audited and falsified. Southern Avenue leads directly to Route 1 at (53, 0) without any story barrier. On Route 1, the entire northwest quadrant (rows 0-40, columns 0-25) past Youngster Mike (29, 20) and Lass Sonia (27, 15) has never been systematically mapped or explored. Given that Mt. Gerhana is located near Sovio City and the seismic tremor shook the region, investigating the northwest terrain of Route 1 may reveal the source of the tremor, Jackson's trail, or new progression pathways.
+## Active Hypothesis H116: Lancio Town Harbor, Pier Terminus & Overlooked Residents
+- **Premise**: Past investigations dismissed Lancio Town based only on Professor Ivo and the lab basement stairs, without rigorously testing the harbor dock, pier terminus, or town residents. Given that Dad traveled to the mainland via Harry's boat and Harry operates between Inizio Isle and Lancio Town, investigating the harbor pier terminus and all unverified residents in Lancio Town provides a concrete, grounded test.
 - **Milestones**:
-  1. Navigate south through Southern Avenue to Route 1 at (53, 0).
-  2. Travel to the Northwest Clearing (29, 20) and Rock Spire (27, 15).
-  3. Map the western and northern boundaries of the rock spire / clearing to determine if pathways lead further northwest.
+  1. Traverse south through Route 1 past the clearing and cottage to Lancio Town.
+  2. Audit the Harbor Pier, the pier water edge (rows 23-26, cols 32-34), and the dockside building (35-38, 19-21).
+  3. Audit remaining town residents and outdoor interactables.
