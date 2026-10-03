@@ -674,7 +674,7 @@
 - **Milestones**:
   1. Flee wild Poochyena and take stairs (38, 22) into Metro Station lobby -> COMPLETE (Turn 22414).
   2. Comprehensive Bag & Item Audit: Verified Key Items (HuPhone, TM Case; HuPhone options Use/Deselect/Cancel) and Items (Potion, Poison Barb, Antidote, Nugget). No quest items or unread triggers in Bag -> COMPLETE (Turn 22423).
-  3. Party State Audit: Inspect Summary screens for Sirius and Zephyr (check held item, custom Torn Scarf interaction, moves, and stats).
-  4. Test HuPhone submenus inside Metro Station lobby (World Map, Item Storage).
+  3. Party State Audit: Sirius Lv16 (Relaxed, Black Belt, standard stats/moves), Zephyr Lv2 (standard). No hidden items or form triggers -> COMPLETE (Turn 22433).
+  4. Test HuPhone submenus inside Metro Station lobby (World Map, Item Storage) -> IN PROGRESS.
 
 <hr>
