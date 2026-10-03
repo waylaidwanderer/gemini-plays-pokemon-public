@@ -32,6 +32,5 @@
    - Candidate: The narrow corridor between Pokémon Center and tan building leading north to house (39, 7).
    - Action: Walk North along column 40 from row 12 to row 8, inspect walls and door approach.
 
-## Breakthrough: Uncontacted NPC Discovered Behind Pokémon Center!
-- **Discovery (Turn 21353)**: Visual inspection of the northern alcove revealed an NPC sprite clearly visible behind the northwest apex of the Pokémon Center roof at columns 41-42, rows 6-7 (wearing blue/cyan clothes/hair).
-- **Target**: Approach the NPC along column 41 (rows 7-8) and initiate dialogue.
+## Architectural Audit: Pokémon Center Roof Corner
+- **Audit Result (Turns 21353-21357)**: FALSIFIED. The visual anomaly at the northwest roof corner is an architectural roof spire / antenna (symmetrical to the identical spire on the northeast roof corner). Tile (41, 7-8) terminates at solid building foundation. Northern alcove is completely enclosed with zero rear exits or NPCs.
