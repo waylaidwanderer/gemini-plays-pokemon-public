@@ -7,12 +7,12 @@
 ## Concluded Hypotheses Summary
 - **H114 Sovio City Independent Variable Testing**: COMPLETE (FALSIFIED). Camper dialogue unaffected by Antidote; Metro turnstile verified occupied by platform attendant while gate script ('I should find dad first!') pushes player back; Karate House 2F confirmed generic civilian bedroom with standard flavor text and zero progression triggers.
 - **H115 Route 1 Northwest Boundary Audit**: COMPLETE (FALSIFIED). Visual inspection at (26, 13) confirms Route 1 western and northern perimeters terminate at solid pine tree canopy; no open pathways to Mt. Gerhana or unmapped areas exist beyond the rock spire.
+- **H116 Lancio Town Comprehensive Audit**: COMPLETE (FALSIFIED). Harbor pier terminates at open water, Harry absent, dockside building (35, 20) is solid decorative facade, Fisherman shares ambient philosophy text; all town residents and Pokémon Center audited. Note: Healed at Lancio Pokémon Center Turn 21645 (current respawn checkpoint: Lancio Town).
+- **H117 Sovio Metro Attendant Interaction**: COMPLETE (FALSIFIED). Attendant is seated across tracks behind solid collision; turnstile script explicitly requires finding Dad first. Searching station is invalid.
 
-- **H116 Lancio Town Harbor, Pier Terminus & Overlooked Residents**: COMPLETE (FALSIFIED). Harbor pier terminates at open water, Harry absent, dockside building (35, 20) is solid decorative facade, Fisherman shares ambient philosophy text; all town residents audited with verbatim proof (Cap boy: Amor City text; Plaza couple: Sinnoh/home text; Green-haired girl: pretty flowers; NW house boy: 'Get out!'; Professor Ivo: 'how's your new Pokémon?'; Lab basement stairs: 'I probably shouldn't head down here...'). Zero progression triggers in Lancio Town.
-
-## Active Hypothesis H117: Sovio Metro Station Deep Platform & Transit Officer Investigation
-- **Premise**: Lancio Town and Route 1 are fully audited and falsified. In Sovio City, the story gate is localized to the Metro Station platform turnstile ('I should find dad first!'). While stepping on (19, 21) triggers the pushback script, the platform contains a uniformed transit officer, a yellow vending kiosk, and platform fixtures. We must systematically test if the transit officer or platform can be interacted with across adjacent tiles (e.g. from 20, 22 or 21, 21), or if specific game state conditions trigger platform access.
+## Active Hypothesis H118: Sovio City Outdoor Investigation for Jackson (Dad)
+- **Premise**: Dad explicitly ran outside into Sovio City during the seismic tremor to investigate its source. The Metro turnstile gate script directly confirms Asher must find Dad first. Dad must be located in an outdoor area, perimeter, or sector of Sovio City.
 - **Milestones**:
-  1. Travel through Route 1 to Sovio City.
-  2. Enter Sovio Metro Station.
-  3. Perform exhaustive perimeter interaction test around the turnstile barrier and transit officer.
+  1. Traverse Route 1 to enter Sovio City.
+  2. Heal at Sovio City Pokémon Center to restore checkpoint to Sovio City.
+  3. Systematically search outdoor areas of Sovio City: Central Plaza perimeter, Central Park, West Avenue alleys, and southern borders.
