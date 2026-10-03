@@ -20,3 +20,6 @@
   2. Audit unexamined building facades along the northern boulevard (the tan building at 32-37, 8-12 and commercial block).
   3. Re-examine the primary sewer storage room platform at (37, 14) and grunt retreat paths for missed triggers or dropped items.
 - **Falsifiable Success Criteria**: Locating Jackson, a key item, or clearing the turnstile prerequisite.
+- **Findings (Turn 20193)**:
+  - Variable 3 Evaluated: Re-examined Eastern Storage Room platform at (37, 14). Facing South on red mat displays verbatim: "Its a simple storage room...". Confirmed solid collision at (37, 15), zero dropped items, keys, or NPCs. Variable 3 concluded static baseline.
+  - Active Protocol: Returning to surface to execute Variable 2 (audit tan building perimeter at 32-37, 8-12 along northern boulevard).
