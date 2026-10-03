@@ -672,7 +672,7 @@
   4. Systematically audit accessible Sovio City outdoor sectors for Jackson's presence or tremor triggers -> IN PROGRESS.
      - Hypothesis H118 Protocol: Dad exited Metro Station (48, 17) to investigate the tremor. Test concrete sectors:
        * Sector A (Central Plaza & North Corridor): COMPLETE. Perimeters of Pokémon Center (cols 41-46, rows 12-14) and northern alcove (cols 37-41, rows 8-12) confirmed enclosed by solid walls; house at (39, 7) audited.
-       * Sector B (Central Park & East Walkway): IN PROGRESS. Auditing pond perimeter (cols 32-46, rows 18-26) and building facade (cols 47-51, rows 20-28).
-       * Sector C (West Avenue & Commercial Block): Audit street along rows 16-18 (cols 11-30) and facades of commercial block (cols 32-37, rows 8-12).
+       * Sector B (Central Park & East Walkway): COMPLETE. Walkway (rows 19-27), trash cans at (46, 22-23) and (46, 30-31), South Sidewalk (rows 27-28), and Central Park interior (col 34, rows 18-25) audited.
+       * Sector C (West Avenue & Commercial Block): IN PROGRESS. Auditing street along rows 16-18 (cols 11-30) and facades of commercial block (cols 32-37, rows 8-12).
 
 <hr>
