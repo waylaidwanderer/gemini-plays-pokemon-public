@@ -673,7 +673,7 @@
 - **Premise**: Spatial exploration across all accessible regions (Sovio City, Sewers, Route 1, Lancio Town) is 100% exhausted. Every civilian, building, and physical tile produces static results. Progression must depend on a non-spatial game state variable, item activation, or device interaction to resolve 'I should find dad first!'.
 - **Milestones**:
   1. Flee wild Poochyena and take stairs (38, 22) into Metro Station lobby -> COMPLETE (Turn 22414).
-  2. Comprehensive Bag & Item Audit: Test 'Use' / inspection on all Key Items (HuPhone, TM Case) and bag items -> IN PROGRESS.
+  2. Comprehensive Bag & Item Audit: Verified Key Items (HuPhone, TM Case; HuPhone options Use/Deselect/Cancel) and Items (Potion, Poison Barb, Antidote, Nugget). No quest items or unread triggers in Bag -> COMPLETE (Turn 22423).
   3. Party State Audit: Inspect Summary screens for Sirius and Zephyr (check held item, custom Torn Scarf interaction, moves, and stats).
   4. Test HuPhone submenus inside Metro Station lobby (World Map, Item Storage).
 
