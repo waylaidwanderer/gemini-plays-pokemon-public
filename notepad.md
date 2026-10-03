@@ -679,7 +679,8 @@
      - Baseline: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!"
      - Result (Turn 20675-20676): FALSIFIED. Textbox verbatim displayed baseline ("Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!"). Confirmed 100% static ambient flavor with zero quest or story triggers.
   2. **Professor Ivo's Pokémon Laboratory**:
-     - Professor Ivo at (20, 6): Baseline is "Hey, Ashi, how's your new Pokémon?". Test if dialogue updates regarding Dad's disappearance or the tremor.
+     - Professor Ivo at (20, 6): Baseline is "Hey, Ashi, how's your new Pokémon?".
+       - Result (Turn 20683-20684): FALSIFIED. Textbox verbatim displayed baseline ("Hey, Ashi, how's your new Pokémon?"). Zero updated story dialogue regarding Dad, the tremor, or Team Siara. Confirmed 100% static ambient flavor.
      - Lab Basement Stairs at (12, 7): Baseline is "I probably shouldn't head down here...". Test if barrier lifts or trigger activates.
   3. **Lancio Harbor & Dock (32-34, 23-25)**:
      - Baseline: Pier empty, Harry/boat absent.
