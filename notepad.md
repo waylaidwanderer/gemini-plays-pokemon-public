@@ -750,5 +750,6 @@
   3. Re-test turnstile interaction and observe if any new cutscene or prompt triggers.
 - **Falsifiable Success Criteria**: Finding Valora, an attendant offering new dialogue, or a trigger that updates the quest state or turnstile barrier.
 
+- Turnstile Re-test (Turn 19702): Stepping onto (19, 21) confirms 'I should find dad first!' remains 100% active, forcing Asher back to (19, 22). Platform chairs confirmed completely empty.
 
 <hr>
