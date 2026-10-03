@@ -18,6 +18,7 @@
 - **Row 20 Cottage Ledge**: One-way south-facing ledge spanning columns 39-41 at row 20. Jumpable from north to south; blocks northbound passage east of the cottage.
 - **Row 43 Northern Corridor Collision**: Row 43 is blocked to the west at (11, 43) by solid pine tree canopy collision; does not connect west across column 11.
 - **Row 43 Hedge Gap**: Passable gap at column 26 (rows 41-43) connecting the southern corridor to the Sand Highway.
+- **Row 48 Southern Bypass**: Row 48 runs directly beneath Signboard 1 at (10-11, 47), connecting the eastern Route 1 corridor (column 12) directly west across columns 8-11 into the western clearing and cobblestone road.
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 43) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
@@ -30,4 +31,3 @@
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
-- **Row 48 Southern Bypass**: Row 48 runs directly beneath Signboard 1 at (10-11, 47), connecting the eastern Route 1 corridor (column 12) directly west across columns 8-11 into the western clearing and cobblestone road.

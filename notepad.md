@@ -158,6 +158,7 @@
 - **Row 20 Cottage Ledge**: One-way south-facing ledge spanning columns 39-41 at row 20. Jumpable from north to south; blocks northbound passage east of the cottage.
 - **Row 43 Northern Corridor Collision**: Row 43 is blocked to the west at (11, 43) by solid pine tree canopy collision; does not connect west across column 11.
 - **Row 43 Hedge Gap**: Passable gap at column 26 (rows 41-43) connecting the southern corridor to the Sand Highway.
+- **Row 48 Southern Bypass**: Row 48 runs directly beneath Signboard 1 at (10-11, 47), connecting the eastern Route 1 corridor (column 12) directly west across columns 8-11 into the western clearing and cobblestone road.
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 43) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
@@ -170,7 +171,6 @@
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
-- **Row 48 Southern Bypass**: Row 48 runs directly beneath Signboard 1 at (10-11, 47), connecting the eastern Route 1 corridor (column 12) directly west across columns 8-11 into the western clearing and cobblestone road.
 
 <hr>
 
@@ -661,7 +661,7 @@
 - **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City.
 
 ## Concluded Hypotheses Summary
-- **H118 Sovio City & Terminal Facilities Audit**: COMPLETE (EXHAUSTED). Outdoor sectors A, B, C verified clear. Terminal facilities (PC Box 1 empty, Metro Station lobby fixtures, scanner pillars inert, transit officer verified seated on platform beyond turnstiles).
+- **H118 Sovio City & Terminal Facilities Audit**: COMPLETE (EXHAUSTED). Outdoor sectors A, B, C verified clear. Terminal facilities (PC Box 1 empty, Metro Station lobby fixtures, scanner pillars inert, transit officer seated in northeast chair on platform beyond turnstiles).
 - **H119 Road Fixtures & Manhole Audit**: COMPLETE (FALSIFIED). Route 2 barrier confirmed active at (52, 19). Manhole covers at (40, 13), (29, 16), and (51, 16), and commercial shutters at (34-35, 12) confirmed non-interactable decorative scenery.
 - **H120 Sovio Center Camper Dialogue & Key Items Audit**: COMPLETE (FALSIFIED). Camper Weedle dialogue verified ambient under zero active quests; bag verified containing only HuPhone and TM Case with no hidden quest triggers.
 - **H121 Sovio Sewers (28, 23) Structural Feature Audit**: COMPLETE (FALSIFIED). (28, 23) confirmed inert 1x1 floor pit obstacle; column 27 discovered as vertical corridor (rows 22-26) linking lower walkway (row 28) directly to upper terrace (row 22) and northern corridor.

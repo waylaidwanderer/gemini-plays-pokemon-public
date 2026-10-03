@@ -5,7 +5,7 @@
 - **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City.
 
 ## Concluded Hypotheses Summary
-- **H118 Sovio City & Terminal Facilities Audit**: COMPLETE (EXHAUSTED). Outdoor sectors A, B, C verified clear. Terminal facilities (PC Box 1 empty, Metro Station lobby fixtures, scanner pillars inert, transit officer verified seated on platform beyond turnstiles).
+- **H118 Sovio City & Terminal Facilities Audit**: COMPLETE (EXHAUSTED). Outdoor sectors A, B, C verified clear. Terminal facilities (PC Box 1 empty, Metro Station lobby fixtures, scanner pillars inert, transit officer seated in northeast chair on platform beyond turnstiles).
 - **H119 Road Fixtures & Manhole Audit**: COMPLETE (FALSIFIED). Route 2 barrier confirmed active at (52, 19). Manhole covers at (40, 13), (29, 16), and (51, 16), and commercial shutters at (34-35, 12) confirmed non-interactable decorative scenery.
 - **H120 Sovio Center Camper Dialogue & Key Items Audit**: COMPLETE (FALSIFIED). Camper Weedle dialogue verified ambient under zero active quests; bag verified containing only HuPhone and TM Case with no hidden quest triggers.
 - **H121 Sovio Sewers (28, 23) Structural Feature Audit**: COMPLETE (FALSIFIED). (28, 23) confirmed inert 1x1 floor pit obstacle; column 27 discovered as vertical corridor (rows 22-26) linking lower walkway (row 28) directly to upper terrace (row 22) and northern corridor.
