@@ -12,11 +12,13 @@
 - **H52 (Central Park Fixtures & Dating NPCs)**: Concluded Turn 18962. Silver trash can at (43, 20) confirmed completely inert. Blonde Girl at (44, 26) and Pink Shirt Boy at (33, 20) confirmed static ambient humor NPCs.
 - **H53 (Tan Building Facade Audit)**: Concluded Turn 18968. Columns 32-37 along row 12 confirmed 100% solid foundation wall with zero doors or interactive triggers.
 - **H54 (Metro Turnstile 'A' Interaction & Platform Visual Audit)**: Concluded Turn 18976. Pressing 'A' facing North from (19, 22) into (19, 21) produces zero interaction (confirming it is solely an on-step trigger). High-resolution visual crop of the platform confirms all four blue chairs (NW and NE) are completely empty; prior summary references to a seated conductor were sprite misinterpretations of the blue chairs.
+- **H55 (Southwest Building Facade & Barrels Audit)**: Concluded Turn 18986. Shutters at (18, 28) and foundation curb at (18, 29) confirmed solid collision with zero interaction. Barrels at (19-21, 28-29) are completely enclosed behind solid elevation curb and pine border. Confirmed decorative filler building.
 
 ## Active Hypotheses for Progression
-### Hypothesis H55: Southwest Sector Fixtures & Barrels Audit
-- **Premise**: The Southwest Building at (18-21, 26-29) features shutters blocked by barrels/trash cans at (19-20, 28) and an adjacent sidewalk at (16-17, 26-27). This area has never been audited with 'A' interaction tests for hidden switches, items, or triggers.
+### Hypothesis H56: Inventory & HuPhone Portable PC Audit
+- **Premise**: With all Sovio City buildings, parks, and sewers confirmed exhausted, testing unexamined inventory mechanics. Withdrawing stored Nugget from portable PC into active Bag to ensure key items/valuables are on hand.
 - **Test Plan**:
-  1. Exit Metro Station lobby at (24, 24) to Central Plaza (48, 17).
-  2. Navigate west across Central Boulevard to column 16, then south along Southern Avenue sidewalk to (16-17, 26-28).
-  3. Inspect barrels/trash cans at (19-20, 28) with 'A' and audit building perimeters.
+  1. Open HuPhone via SELECT button at (17, 29).
+  2. Launch Item Storage app -> Withdraw Item -> Retrieve Nugget into Bag.
+  3. Check Mailbox for unread progression mail.
+  4. Navigate to 'Back' / 'Turn Off' and press A to close cleanly.

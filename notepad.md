@@ -244,7 +244,7 @@
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
   - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall.
 
-- **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels/trash cans block the shutters at (19-20, 28) and solid collision at (18, 28); decorative exterior with no accessible entrance.
+- **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels block the shutters at (19-21, 28-29) and solid elevation curb at (18, 28-29) blocks access with zero interaction (audited Turns 18985-18986); confirmed decorative exterior.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable.  Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
 
 - **Sewer Manholes (Decorative)**: Located at (13, 27), (13, 19), (40, 13), (54, 19), and (54, 21). Verified inert, walkable decorative road tiles.
@@ -720,14 +720,16 @@
 - **H52 (Central Park Fixtures & Dating NPCs)**: Concluded Turn 18962. Silver trash can at (43, 20) confirmed completely inert. Blonde Girl at (44, 26) and Pink Shirt Boy at (33, 20) confirmed static ambient humor NPCs.
 - **H53 (Tan Building Facade Audit)**: Concluded Turn 18968. Columns 32-37 along row 12 confirmed 100% solid foundation wall with zero doors or interactive triggers.
 - **H54 (Metro Turnstile 'A' Interaction & Platform Visual Audit)**: Concluded Turn 18976. Pressing 'A' facing North from (19, 22) into (19, 21) produces zero interaction (confirming it is solely an on-step trigger). High-resolution visual crop of the platform confirms all four blue chairs (NW and NE) are completely empty; prior summary references to a seated conductor were sprite misinterpretations of the blue chairs.
+- **H55 (Southwest Building Facade & Barrels Audit)**: Concluded Turn 18986. Shutters at (18, 28) and foundation curb at (18, 29) confirmed solid collision with zero interaction. Barrels at (19-21, 28-29) are completely enclosed behind solid elevation curb and pine border. Confirmed decorative filler building.
 
 ## Active Hypotheses for Progression
-### Hypothesis H55: Southwest Sector Fixtures & Barrels Audit
-- **Premise**: The Southwest Building at (18-21, 26-29) features shutters blocked by barrels/trash cans at (19-20, 28) and an adjacent sidewalk at (16-17, 26-27). This area has never been audited with 'A' interaction tests for hidden switches, items, or triggers.
+### Hypothesis H56: Inventory & HuPhone Portable PC Audit
+- **Premise**: With all Sovio City buildings, parks, and sewers confirmed exhausted, testing unexamined inventory mechanics. Withdrawing stored Nugget from portable PC into active Bag to ensure key items/valuables are on hand.
 - **Test Plan**:
-  1. Exit Metro Station lobby at (24, 24) to Central Plaza (48, 17).
-  2. Navigate west across Central Boulevard to column 16, then south along Southern Avenue sidewalk to (16-17, 26-28).
-  3. Inspect barrels/trash cans at (19-20, 28) with 'A' and audit building perimeters.
+  1. Open HuPhone via SELECT button at (17, 29).
+  2. Launch Item Storage app -> Withdraw Item -> Retrieve Nugget into Bag.
+  3. Check Mailbox for unread progression mail.
+  4. Navigate to 'Back' / 'Turn Off' and press A to close cleanly.
 
 
 <hr>
