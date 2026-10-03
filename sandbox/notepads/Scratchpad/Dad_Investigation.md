@@ -15,10 +15,12 @@
 - H60 (Night Cycle), H61 (Inventory/Triggers), H62 (Corridor), H63 (Lobby & Storage Room): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
 
 ## Active Hypotheses for Progression
-### Hypothesis H64: Sovio Metro Station Platform Attendant & Surface Trigger Investigation
-- **Premise**: With sewers fully audited and cleared, the missing progression trigger for Jackson resides on the surface in Sovio City or via the Metro platform attendant/conductor.
-- **Test Protocol**:
-  1. Return to Sovio Metro Station lobby via (38, 22) stairs. [COMPLETED - Turn 19344]
-  2. Inspect the seated attendant/conductor at the turnstiles and test interactions from all adjacent angles. [COMPLETED - Turns 19362-19368: Scanner pillars (18, 21) and (20, 21) 100% inert; gate (19, 21) triggers 'I should find dad first!'; platform chairs visually confirmed empty. Conductor hypothesis falsified.]
-  3. Re-examine Sovio City surface landmarks and NPCs for any triggered changes. [ACTIVE]
-- **Status**: IN PROGRESS. Step 2 concluded (conductor hypothesis falsified; platform chairs empty). Surface audit active.
+### Hypothesis H65: Sovio City Surface Event Trigger & NPC Protocol
+- **Premise**: Sewers and Metro lobby turnstiles are verified cleared and inert. Progression trigger for Jackson's location resides on the Sovio City surface or via a specific dialogue condition.
+- **Audited Targets & Protocol**:
+  1. Exit Pokémon Center to Central Plaza (44, 12).
+  2. Inspect Central Plaza perimeter and talk to the girl/resident near the Metro portal.
+  3. Re-verify the Route 2 barrier at (52, 19-22) and examine the building facade at (47-51, 20-22).
+  4. Inspect West Avenue rear lane (column 12) behind the Bikers and the office building wall at column 11.
+  5. Audit Central Park southern and eastern walkways for any new NPC or triggered event after sewer grunts retreated.
+- **Status**: ACTIVE. Step 1 (exit Pokémon Center) underway.
