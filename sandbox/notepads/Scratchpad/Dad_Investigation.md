@@ -25,3 +25,6 @@
   2. Audit Camper and interactions inside the Pokémon Center.
   3. Inspect Metro Station lobby fixtures and examine exact turnstile condition.
 - **Falsifiable Success Criteria**: Uncovering a physical trigger/item in Central Plaza, updating an interaction, or clearing the turnstile blocker.
+- **Findings (Turn 20443-20457)**:
+  - Variable 1 Evaluated: Central Plaza confrontation plaza outside Pokémon Center (rows 12-15, cols 42-46) swept tile-by-tile. Verified 0 dropped items, 0 hidden switches, 0 story triggers.
+  - Variable 2 Evaluated: Pokémon Center entities and terminal audited in-game. Camper verified ambient humor (poisoned Weedle, no reaction to Antidote in bag). Resident boy at (8, 6) verified ambient PC advice. PC Terminal Item Storage audited empty ('There are no items.'). Asher's PC Mailbox audited empty ('There's no Mail here.'). Main PC boot menu verified standard (only Someone's PC, Asher's PC, Log Off; zero custom options). Pokémon Center 100% static baseline.
