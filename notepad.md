@@ -734,5 +734,7 @@
   2. Test SELECT registration and item usage in Metro lobby and Central Plaza.
   3. Falsified if no unique interactions or prompts occur.
 
+- **Night Test (Turn 19176)**: Route 2 barrier at (52, 19) displays identical baseline text ('I can't go yet... I have things to do!'). Barrier remains active at night.
+
 
 <hr>
