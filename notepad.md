@@ -731,9 +731,9 @@
   4. Audit Route 1 Civilians along Lancio transit. [COMPLETED - Turns 19497-19520: Cottage boy (37, 24) and Grass boy (10, 50) verified baseline flavor text]
   5. Enter Lancio Town and audit key anchors:
      - Lab basement stairs at (12, 7): Re-verified 100% active/restricted ("I probably shouldn't head down here" - Turn 19537).
-     - Professor Ivo at (20, 6) in Lab East Wing. [ACTIVE]
-     - Incubator apparatus at (18-19, 5-6).
+     - Professor Ivo at (20, 6): Re-verified 100% baseline flavor text ("Hey, Ashi, how's your new Pokémon?" - Turn 19539).
+     - Incubator apparatus at (18-19, 5-6). [ACTIVE]
      - Harbor Dock at (32-34, 23-25) (check for Harry / moored vessel).
-- **Status**: ACTIVE. Step 5 (Professor Ivo dialogue audit) underway.
+- **Status**: ACTIVE. Step 5 (Incubator apparatus audit) underway.
 
 <hr>
