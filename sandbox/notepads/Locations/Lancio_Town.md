@@ -1,7 +1,5 @@
 # Lancio Town
 
-
-
 ## Harbor / Dock
 
 - **Dock**: Wooden pier at rows 23-26, columns 32-34.
@@ -12,14 +10,12 @@
 
   - Ocean to south and west.
 
-
-
 ## Points of Interest & Buildings
 
 - **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner at (2, 0-1) leading to upper mezzanine. Resident man at (9, 4) explains regional integrated PokéMarts: "Did you know? Pokémon Centers have PokéMarts built into them in this region! In certain regions PokéMarts are separate buildings though...". Resident boy at (6, 5) provides ambient advice: "Pokémon Centers heal your tired, hurt, or fainted Pokémon. They make all Pokémon completely healthy.".
   - **Upper Mezzanine & PokéMart**: Escalator warps to (5, 8). Counter staffed by clerk at (5, 3) facing south across counter at (5, 4). Verified inventory: Poké Ball ($200), Potion ($300), Antidote ($100), Paralyz Heal ($200), Repel ($350) (identical to Sovio City PokéMart). 100% audited.
 
-- **Residential House (Northwest)**: Located at (25, 10). Resident boy at (44, 4) gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
+- **Residential House (Northwest)**: Located at (25, 10). Interior entrance mat at (39, 8); resident boy at (44, 4). Gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12).
 
 - **House (Northeast)**: Located at (40-42, 6-9) east of pond. Non-enterable decorative building with aquarium window at (40, 8-9); solid building foundation with no accessible doors or entrance.
 
@@ -27,14 +23,9 @@
 
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
-
-
 ## Visible Field Items
 
 - **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
-
-
-
 
 ## Professor Ivo's Pokémon Laboratory (Interior)
 
@@ -80,8 +71,6 @@
 
 - **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); non-enterable decorative exterior.
 
-
-
 ## Overworld Residents & NPCs
 
 - **Green-haired Girl**: Located at (23, 15) facing right. Dialogue (ambient).
@@ -92,8 +81,6 @@
 
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."
 
-
 - **Fisherman (Red Cap)**: Located at (38, 22) near the harbor dock. Shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues.
-
 
 - **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. The pier terminates at open water.
