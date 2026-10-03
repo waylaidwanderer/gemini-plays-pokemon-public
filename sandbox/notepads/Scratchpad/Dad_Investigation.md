@@ -23,11 +23,14 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H99: Critical Investigation of Unexamined Systems, Menus & Progression Triggers
 - **Premise**: If all subterranean sewer corridors, Lancio Town facilities, surface residences, Central Park visitors, and Biker NPCs are documented static, the progression trigger required to satisfy "I should find dad first!" must lie in an unexamined game system, menu option, device feature, or unverified narrative avenue rather than repeated outdoor sweeps.
-- **Empirical Test Results**:
-  - Turn 20888-20895 Bag Audit: Confirmed 3-pocket engine (Items, Key Items, Poké Balls). Key Items contain strictly HuPhone (registered to Select) and TM Case. No Train Ticket or specialized equipment present.
-  - Turn 20908 Metro Fixture Audit: Left scanner (18, 21) and right scanner (20, 21) directly interacted with and confirmed 100% inert. Turnstile (19, 21) re-confirmed active ("I should find dad first!"). Platform chairs confirmed empty decorative benches.
-- **Active Audit Steps**:
-  1. Complete party summary audit: Sirius (Pages 1-3) and Zephyr (Pages 1-3) 100% verified. [COMPLETED]
-  2. Inspect Trainer Card (Front: 8 empty rounds, ¥8096, Back: 6 silhouettes) and Option settings (standard CFRU, Text Fast). [COMPLETED]
-  3. Inspect HuPhone World Map (cursor/town blurbs) & Quest Log details. [IN PROGRESS]
-- **Falsifiable Success Criteria**: Discovering an unexamined system action or trigger, locating Jackson, or lifting the turnstile blocker ("I should find dad first!").
+- **Empirical Test Results (100% Completed)**:
+  - **Bag Audit**: Confirmed 3-pocket engine (Items, Key Items, Poké Balls). Key Items contain strictly HuPhone (registered to Select) and TM Case. No Train Ticket, no equipment. Items, Poké Balls, TMs verified standard.
+  - **Party Audit**: Sirius (Lv16 Riolu, Relaxed, Quick Feet, Black Belt held, no field moves) and Zephyr (Lv2 Pidgey, Mild, Keen Eye, no held item, Tackle). All 3 pages audited.
+  - **Trainer Card Audit**: Front (Asher, ID 54592, Money ¥8096, Time 148:58, 8 empty tournament rounds) and Back (6 dark badge silhouettes, regional crest).
+  - **Option Menu Audit**: Standard GBA options (Text Speed Fast, Battle Scene On, Shift, Stereo, Help, Type 1). Zero custom CFRU toggles or difficulty settings.
+  - **HuPhone Audit**:
+    - Item Storage & Mailbox: Audited empty.
+    - World Map: Verified interactive controls (`+ Move`). Audited all regional nodes and subtitles: Sovio City (Metro Station), Route 2, Azluf Town, Route 3, Mt. Gerhana, Samurion City, Route 4 (railway corridor), Amor City (Metro Station), Route 16, Aurin Town.
+    - Quest Log: Quest Status confirmed verbatim `You aren't doing any Quest currently...`. Quest List verified 23 named quests across 5 pages.
+  - **Metro Lobby Fixture Audit**: Left scanner (18, 21) and right scanner (20, 21) confirmed 100% inert. Platform chairs confirmed empty decorative benches. Turnstile (19, 21) triggers `I should find dad first!` and forces Asher to (19, 22).
+- **Conclusion**: All player menus, device applications, party states, and station lobby fixtures are 100% static with zero hidden progression triggers. Progression is NOT gated by an unexamined menu toggle or inventory item.
