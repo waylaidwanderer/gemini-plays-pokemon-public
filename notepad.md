@@ -533,7 +533,7 @@
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
 
-## Verified Regional World Map Topology (Audited Turn 18080)
+## Verified Regional World Map Topology
 - **Inizio Isle**: Isolated green island node in the far southwest ocean; Asher's hometown.
 - **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects northeast via Route 1 to Sovio City. Location of Professor Ivo's Lab.
 - **Sovio City**: Red rectangular urban node (subtitle: "Metro Station"). Connects southwest via Route 1 to Lancio Town, and east via Route 2.
@@ -589,7 +589,7 @@
   3. **Quest Log**: Active objective tracker and completed quest list.
   4. **Back**: Closes HuPhone.
 - **Portable PC Interface (Item Storage app)**:
-  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel (contains Nugget x 1; audited Turn 18461). 
+  - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel.
   - **Mailbox**: Portable PC mailbox (no mail present). 
   - **Turn Off**: Exits portable PC interface.
 - **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
