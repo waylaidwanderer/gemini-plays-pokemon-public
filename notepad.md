@@ -672,8 +672,8 @@
   3. Sewer Descent Audit (Turns 21765-21790): Descended to (34, 26), resolved wild Stunky battle, verified sewers remain cleared of Siara personnel with zero active tremor triggers, ascended back to surface -> COMPLETE.
   4. Systematically audit accessible Sovio City outdoor sectors for Jackson's presence or tremor triggers -> IN PROGRESS.
      - Hypothesis H118 Protocol: Dad exited Metro Station (48, 17) to investigate the tremor. Test concrete sectors:
-       * Sector A (Central Plaza & North Corridor): Audit perimeter around Pokémon Center (cols 40-46, rows 10-14) and residential alcove (cols 38-41, rows 6-9).
-       * Sector B (Central Park & East Walkway): Audit pond perimeter (cols 32-46, rows 18-26) and building facade (cols 47-51, rows 20-28).
+       * Sector A (Central Plaza & North Corridor): COMPLETE. Perimeters of Pokémon Center (cols 41-46, rows 12-14) and northern alcove (cols 37-41, rows 8-12) confirmed enclosed by solid walls; house at (39, 7) audited.
+       * Sector B (Central Park & East Walkway): IN PROGRESS. Auditing pond perimeter (cols 32-46, rows 18-26) and building facade (cols 47-51, rows 20-28).
        * Sector C (West Avenue & Commercial Block): Audit street along rows 16-18 (cols 11-30) and facades of commercial block (cols 32-37, rows 8-12).
 
 <hr>
