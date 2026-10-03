@@ -671,9 +671,8 @@
      - Lab Basement Stairs at (12, 7): Baseline is "I probably shouldn't head down here...".
        - Result (Turn 20685-20686): FALSIFIED. Stepping onto (12, 7) triggers verbatim baseline ("I probably shouldn't head down here..."). Confirmed barrier is 100% active and static.
   3. **Lancio Harbor & Dock (32-34, 23-25)**:
-     - Baseline: Pier empty, Harry/boat absent.
-     - Test: Verify if Harry, a vessel, or new maritime trigger is present.
-     - Fisherman at (38, 22): Baseline is ambient fishing advice. Test if quest or story trigger is offered.
+     - Pier (32-34, 23-25): Result (Turn 20721-20722): FALSIFIED. Pier is completely empty, Harry is absent, no vessel is moored, and zero maritime triggers exist.
+     - Fisherman at (38, 22): Baseline is ambient fishing advice. Testing currently.
   4. **Town Residents**:
      - TM17 House at (25, 10):
        - Result (Turn 20706-20707): FALSIFIED. Textbox verbatim displayed baseline ("Get out!") and kicks Asher outside. Confirmed 100% static behavior.
