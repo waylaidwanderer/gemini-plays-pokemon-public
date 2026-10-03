@@ -688,5 +688,9 @@
      - Bag Key Items: Audited. Contains exclusively HuPhone (registered) and TM Case (0 other Key Items).
      - Metro Lobby: Turnstile at (19, 21) triggers "I should find dad first!" and forces step down to (19, 22). Platform chairs verified empty mirrored passenger furniture (zero NPCs present). Scanner pillars and blue chairs confirmed inert scenery. Timetable displays decorative schedule flavor text.
      - Sewer re-entry check: Grounded in lore that Dad ran outside into Sovio City during the tremor (Dad never entered the sewers). Sewers remain in verified post-retreat state.
+## Reflection & Hypothesis Review (Turn 22823)
+- **Turnstile Blocker Grounding**: The turnstile literally states 'I should find dad first!' and Route 2 states 'I can't go yet... I have things to do!'. Finding Dad is the sole active blocker gating the train to Amor City.
+- **Summary Hallucination Audit**: Prior context summary claimed Dad was freed and departed toward the station at turn 2716, but this contradicts the persistent 'I should find dad first!' trigger. Dad has not been found.
+- **Next Step**: Ascend from Sovio Sewers back to Sovio Metro Station lobby and Central Plaza, then systematically audit all potential locations for Dad or event triggers related to Dad's disappearance.
 
 <hr>
