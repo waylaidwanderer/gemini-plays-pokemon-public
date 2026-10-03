@@ -718,6 +718,13 @@
 - H80 (Southwest Building West Facade Audit - Turns 20004-20006): FALSIFIED. Navigated to sidewalk at (17, 26-27). Facing East into (18, 26) and (18, 27) and pressing A confirms solid, inert building facade with decorative blue windowpanes; zero doors, warps, or story triggers exist.
 
 ## Active Hypotheses for Progression
+### Hypothesis H81: Pokémon Center Nurse Joy Healing & Event State Refresh (Started: Turn 20012)
+- **Premise**: In Turn 1329, completing a party heal with Nurse Joy at the Sovio Pokémon Center counter was the exact prerequisite that advanced the story and spawned Dad at the Metro Station. In recent turns (e.g. Turn 19788-19803), the center was entered solely for PC Box 1 and Town Map audits without speaking to Nurse Joy. We execute a full party heal with Nurse Joy at the counter (7, 4) to verify if this refreshes the pending story event flag or clears the turnstile prerequisite.
+- **Protocol**:
+  1. Navigate east from West Avenue (15, 19) along row 18 and row 15 boulevard to Central Plaza (44, 15), then north into Pokémon Center at (44, 12).
+  2. Approach counter at (7, 4) and speak to Nurse Joy to heal party to full health.
+  3. Verify if new story dialogue occurs, and re-test Metro turnstile at (19, 21).
+- **Falsifiable Success Criteria**: Nurse Joy dialogue change, new event sequence triggered, or turnstile block cleared.
 
 
 <hr>
