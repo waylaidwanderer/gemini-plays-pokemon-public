@@ -5,17 +5,21 @@
 - **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City.
 
 ## Concluded Hypotheses Summary
-- **H114 Sovio City Independent Variable Testing**: COMPLETE (FALSIFIED). Camper dialogue unaffected by Antidote; Metro turnstile verified occupied by platform attendant while gate script ('I should find dad first!') pushes player back; Karate House 2F confirmed generic civilian bedroom with standard flavor text and zero progression triggers.
-- **H115 Route 1 Northwest Boundary Audit**: COMPLETE (FALSIFIED). Visual inspection at (26, 13) confirms Route 1 western and northern perimeters terminate at solid pine tree canopy; no open pathways to Mt. Gerhana or unmapped areas exist beyond the rock spire.
-- **H116 Lancio Town Comprehensive Audit**: COMPLETE (FALSIFIED). Harbor pier terminates at open water, Harry absent, dockside building (35, 20) is solid decorative facade, Fisherman shares ambient philosophy text; all town residents and Pokémon Center audited. Note: Healed at Lancio Pokémon Center Turn 21645 (current respawn checkpoint: Lancio Town).
 - **H118 Sovio City & Terminal Facilities Audit**: COMPLETE (EXHAUSTED). Outdoor sectors A, B, C verified clear. Terminal facilities (PC Box 1 empty, Metro Station lobby fixtures, scanner pillars inert, transit officer verified seated on platform beyond turnstiles).
 - **H119 Road Fixtures & Manhole Audit**: COMPLETE (FALSIFIED). Route 2 barrier confirmed active at (52, 19). Manhole covers at (40, 13), (29, 16), and (51, 16), and commercial shutters at (34-35, 12) confirmed non-interactable decorative scenery.
 - **H120 Sovio Center Camper Dialogue & Key Items Audit**: COMPLETE (FALSIFIED). Camper Weedle dialogue verified ambient under zero active quests; bag verified containing only HuPhone and TM Case with no hidden quest triggers.
 - **H121 Sovio Sewers (28, 23) Structural Feature Audit**: COMPLETE (FALSIFIED). (28, 23) confirmed inert 1x1 floor pit obstacle; column 27 discovered as vertical corridor (rows 22-26) linking lower walkway (row 28) directly to upper terrace (row 22) and northern corridor.
 
 ## Active Hypothesis H122: Sovio City Post-Sewer Progression Trigger Audit
-- **Premise**: Team Siara has retreated from Sovio Sewers following Marie's directive. Jackson ran outside into Central Plaza during the tremor. Both the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") remain active. We hypothesize a progression trigger (updated NPC dialogue, outdoor trigger tile, or side quest interaction) exists in Sovio City or along Route 1.
+- **Premise**: Team Siara has retreated from Sovio Sewers following Marie's directive. Jackson ran outside into Central Plaza during the tremor. Both the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") remain active. We hypothesize a progression trigger (updated NPC dialogue, outdoor trigger tile, or side quest interaction) exists in Sovio City.
 - **Milestones**:
   1. Exit Metro Station to Central Plaza (48, 18) -> COMPLETE (Turn 22097).
-  2. Inspect Central Plaza perimeter, elevated terrace (49, 14), and key outdoor NPCs in Sovio City -> BYPASSED (Exited directly south to Route 1; prior H118 baseline stands).
-  3. Audit Route 1 and Lancio Town for Page 1 side quests ("Egg Research", "Medic!", "Squirtle Gang"), Cut tree (5, 44), and lab basement triggers -> IN PROGRESS.
+  2. Inspect Central Plaza perimeter, elevated terrace (49, 14), and key outdoor NPCs in Sovio City -> BYPASSED (Exited south to Route 1).
+  3. Route 1 & Lancio Town Audit:
+     - 3a. Route 1 Cottage resident (Turn 22134) -> COMPLETE (FALSIFIED: Max Repel given; ambient text "Now that you got your sample, go and enjoy freedom!").
+     - 3b. Route 1 Cut tree at (5, 44) (Turn 22183) -> COMPLETE (FALSIFIED: inert collision, no interaction text).
+     - 3c. Lancio Town Green-haired girl at (24, 15) (Turn 22189) -> COMPLETE (FALSIFIED: ambient text "Lancio has such pretty flowers...").
+     - 3d. Lancio Lab basement stairs at (12, 7) (Turn 22192) -> COMPLETE (FALSIFIED: story barrier active "I probably shouldn't head down here...").
+     - 3e. Lancio Lab Professor Ivo at (20, 6) (Turn 22195) -> COMPLETE (FALSIFIED: ambient greeting "Hey, Ashi, how's your new Pokémon?").
+     - 3f. Outcome -> Route 1 & Lancio Town search space 100% FALSIFIED and EXHAUSTED.
+  4. Return to Sovio City via Route 1 to investigate Dad's physical whereabouts and the tremor epicenter -> IN PROGRESS.
