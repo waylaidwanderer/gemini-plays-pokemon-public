@@ -10,11 +10,12 @@
 - **H50 (Dark Sector Perimeter Audit)**: Concluded Turn 18905. All perimeter tiles match documented solid stone walls, upper alcove (Nugget collected at 23, 4), subterranean toy room (Machop's toy collected at 2, 37), and rugged rock at (22, 10). Zero unmapped exits or story triggers exist in the Dark Sector.
 - **H51 (Central Park Pond Flowers)**: Concluded Turn 18951. Tile (42, 18) is standard walkable grass with decorative blue flower cluster matching the symmetrical 4-corner pond pattern (pink NW/SE, blue NE/SW). Non-interactive.
 - **H52 (Central Park Fixtures & Dating NPCs)**: Concluded Turn 18962. Silver trash can at (43, 20) confirmed completely inert. Blonde Girl at (44, 26) and Pink Shirt Boy at (33, 20) confirmed static ambient humor NPCs.
+- **H53 (Tan Building Facade Audit)**: Concluded Turn 18968. Columns 32-37 along row 12 confirmed 100% solid foundation wall with zero doors or interactive triggers.
 
 ## Active Hypotheses for Progression
-### Hypothesis H53: Systematic Sovio City Exterior Building Facade & Unverified Tile Audit
-- **Premise**: With Sewers, Metro lobby, and known interiors verified, five exterior structures were previously assumed to be 'decorative non-enterable' without exhaustive tile-by-tile collision and interaction testing. We hypothesize one of these buildings (specifically Tan Building at 32-37, 8-12 or Southwest Building at 18-21, 26-29) contains an accessible entrance or interaction.
+### Hypothesis H54: Metro Turnstile 'A' Interaction & Attendant Audit
+- **Premise**: Every previous approach to the Metro turnstile stepped directly onto script tile (19, 21), which triggers the movement pushback. We hypothesize that facing North from (19, 22) and pressing 'A' interacts with the turnstile gate, prompts for a ticket, or checks an untried interaction method.
 - **Test Plan**:
-  1. Navigate to Tan Building (32-37, 8-12) south of Pokémon Center.
-  2. Audit all facade tiles along rows 12-13 and side perimeters.
-  3. If negative, audit Southwest Building (18-21, 26-29) perimeters.
+  1. Navigate to Sovio Metro Station entrance at (48, 17) and enter lobby.
+  2. Position at (19, 22) facing North toward turnstile passage (19, 21).
+  3. Press 'A' directly without stepping forward. Document response.
