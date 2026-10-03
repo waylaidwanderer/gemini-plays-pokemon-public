@@ -615,8 +615,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 45 (C), Attack 30 (C+), Defense 30 (A-), Sp. Atk 21 (C-), Sp. Def 24 (E), Speed 22 (C-)
-- **EXP**: 2638 (Gained 56 EXP from wild Lv6 Stunky at Turn 21789)
-- **Current HP**: 34/45 (took 11 damage from Stunky's Aftermath)
+- **EXP**: 2638
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
   - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
