@@ -22,4 +22,4 @@
   1. Audit Key Items and Bag functions (HuPhone Mailbox, apps, TM Case, Items pocket).
   2. Test SELECT registration and item usage in Metro lobby and Central Plaza.
   3. Falsified if no unique interactions or prompts occur.
-- **Status**: IN PROGRESS. HuPhone Mailbox verified empty (Turn 19198).
+- **Status**: IN PROGRESS. HuPhone Mailbox ('There's no Mail here.') and Item Storage ('There are no items.') both verified empty (Turns 19198-19202).
