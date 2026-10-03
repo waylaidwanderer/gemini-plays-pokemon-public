@@ -10,10 +10,10 @@
 - H60-H94 (Baseline Sweeps & Local Trigger Invalidation - Turns 7232-20521): FALSIFIED. Comprehensive audits across Sovio City, the Metro Station, and Sovio Sewers confirmed that all civilian residences (Wii house 39, 7; Gumball house 29, 14; Karate house 14, 15; Terrace house 49, 14; Name Rater 31, 26), Central Plaza confrontation ground tiles (cols 41-46, rows 13-15), in-game Start Menu RTC schedule correlation, Metro lobby fixtures/turnstiles, and post-retreat sewer platforms/storage rooms are 100% static with zero hidden progression triggers. Jackson was never verified held in the sewers, and local Sovio/sewer options are completely exhausted.
 
 ## Active Hypotheses for Progression
-### Hypothesis H95: Regional Systematic Search & Untested Progression Mechanics
-- **Premise**: Progression in Sovio City is blocked at the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!"). Sovio City local residences, plaza tiles, and sewers are verified 100% static. Therefore, progression requires investigating untested regional mechanisms or external narrative triggers outside Sovio City.
-- **Isolated Testing Variables**:
-  1. Route 1 Untested Features: Audit bird tracks, roadside NPCs, cut trees, and clearing perimeters.
-  2. Professor Ivo's Pokémon Laboratory (Lancio Town): Perform a comprehensive, deep audit of Professor Ivo, the incubator machine, the Town Map, the PC workstation, and the lab basement stairs trigger.
-  3. Lancio Town Harbor & Coastline: Audit the dock, fisherman, residents, and shoreline.
-- **Falsifiable Success Criteria**: Updating dialogue with Professor Ivo, obtaining an item/equipment (e.g. Rock Smash equipment or Cut), unlocking the lab basement, discovering a new story trigger, or changing the turnstile script at (19, 21).
+### Hypothesis H95: Regional Investigation of External Triggers & Progression Gating
+- **Premise**: With Sovio City local residences, confrontation plaza tiles, and post-retreat sewer corridors verified 100% static, the turnstile blocker ("I should find dad first!") must be gated by an unresolved external story interaction or narrative event in Lancio Town or Route 1.
+- **Novel Testing Conditions**:
+  1. Professor Ivo's Pokémon Laboratory (Lancio Town): Test if Professor Ivo's dialogue updates regarding Dad's disappearance following the Siara retreat; test if the lab basement stairs barrier at (12, 7) remains active.
+  2. Lancio Town Quest Givers & Residents: Inquire with town residents (TM17 boy, Cap boy, Old Couple, Fisherman) to identify potential quest givers for uncompleted quests (Egg Research, Medic!, Squirtle Gang) or dialogue concerning the tremor.
+  3. Route 1 Cut Obstacle & Perimeters: Verify interaction text on the Cut tree at (5, 44) to establish whether HM Cut or specialized equipment is required, and audit roadside NPCs for new narrative prompts.
+- **Falsifiable Success Criteria**: Observing updated dialogue with Professor Ivo, obtaining a new Key Item/equipment, unlocking the lab basement, accepting a new side quest, or altering the turnstile script at (19, 21).
