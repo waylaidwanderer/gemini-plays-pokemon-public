@@ -21,4 +21,4 @@
   1. Return to Sovio Metro Station lobby via (38, 22) stairs.
   2. Inspect the seated attendant/conductor at the turnstiles and test interactions from all adjacent angles.
   3. Re-examine Sovio City surface landmarks and NPCs for any triggered changes.
-- **Status**: IN PROGRESS. Exiting sewers via sewer_transit.
+- **Status**: IN PROGRESS. Emerged at (48, 18) in Central Plaza. Conducting surface trigger audit and checking Metro platform attendant angles.
