@@ -70,6 +70,8 @@
 
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
+- **Town Signpost**: 2-tile wooden billboard located at (27-28, 14) on the main avenue; reads "Lancio Town / The town of blooming".
+
 ## Visible Field Items
 
 - **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
