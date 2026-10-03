@@ -675,7 +675,7 @@
 - **Milestones**:
   1. Dismiss Biker textbox and open Start Menu -> COMPLETE (Turn 22506).
   2. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
-  3. Party State Audit -> IN PROGRESS. Sirius Page 1 (Relaxed, Black Belt) and Page 2 Skills verified: HP 34/45, Atk 30, Def 30, SpAtk 21, SpDef 24, Speed 22, Quick Feet (Turn 22518). Auditing moves and Zephyr.
+  3. Party State Audit -> IN PROGRESS. Sirius 100% verified: Page 1 (Relaxed, Black Belt), Page 2 (HP 34/45, Atk 30, Def 30, SpAtk 21, SpDef 24, Speed 22, Quick Feet), Page 3 (Metal Claw, Quick Attack, Work Up, Mach Punch) (Turn 22520). Switching to Zephyr summary.
   4. Test if party configuration resolves Metro Turnstile blocker.
 
 <hr>
