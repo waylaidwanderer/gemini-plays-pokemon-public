@@ -725,12 +725,14 @@
 - **Sewers Audited**: Sovio Sewers are 100% explored, vacated by Team Siara, and contain no NPCs. Re-entering sewers is prohibited.
 
 ## Active Hypotheses for Progression
-### Hypothesis H57: Central Plaza & Overworld Trigger Search in Sovio City
-- **Premise**: When the tremor occurred, Dad ran outside from the Metro Station into Sovio City Central Plaza. A trigger tile, event flag, or NPC interaction on the surface of Sovio City advances the search for Dad.
-- **Boundaries & Sequence**:
-  1. Return immediately to Sovio City surface (Central Plaza at 48, 18).
-  2. Sub-hypothesis H57a: Systematic sweep of Central Plaza tiles (columns 41-48, rows 12-16) in front of the Pokémon Center where Dad last interacted with Mother.
-  3. Sub-hypothesis H57b: Re-speak with Central Plaza / Pokémon Center NPCs (Nurse Joy, Camper, Blue Shirt Boy) with Nugget in inventory to verify if inventory state triggers new dialogue.
-- **Falsification Criteria**: If all plaza tiles and surface NPCs yield identical dialogue and zero triggers, expand boundary to West Avenue and Southern Avenue.
+### Hypothesis H57: Sovio City Overworld Trigger & NPC Audit
+- **Premise**: When the tremor occurred, Dad ran outside from the Metro Station into Sovio City. An event trigger, NPC interaction, or route boundary advances the search for Dad.
+- **Concluded Sub-hypotheses**:
+  - **H57a (Plaza Sweep)**: Systematic sweep of Central Plaza tiles (cols 41-48, rows 12-16) confirmed 0 triggers.
+  - **H57b (Center NPCs)**: Camper, Nurse Joy, and Blue Shirt Boy audited with Nugget in inventory; all yield identical baseline text.
+- **Active Sub-hypothesis H57c: West Avenue & Southern Avenue Audit**:
+  - **Boundaries**: West Avenue (rows 14-20, cols 11-28) and Southern Avenue (rows 21-40, cols 14-15).
+  - **Target NPCs & Fixtures**: Boy Rocky & Rocky (23-24, 17), Karate family & Machop (house 14, 15), Gumball family (house 29, 14), Bikers (13, 21-23), and Route 1 transition (rows 40-41).
+  - **Test Plan**: 1. Exit Pokémon Center to Central Plaza. 2. Walk West along row 15 boulevard to West Avenue. 3. Re-audit West Avenue NPCs and check Southern Avenue.
 
 <hr>
