@@ -674,7 +674,8 @@
      - Elevated terrace residence (49, 14) (Turn 22288-22290): Granddaughter ("Nana makes the best food! Weeeee!") and Nana ("I'm cooking something for my dear grandkid...") confirmed 100% ambient flavor text.
      - House (39, 7) (Turn 22304, 22307): 1F elderly resident ("I bought my son a Wii...") and 2F boy ("I love the games on the Wii!...") confirmed 100% ambient flavor text.
      - West Avenue Boy Rocky (Turn 22313): Confirmed ambient text ("This is my partner, Rocky! He's the best...").
-     - Central Park Boy in Pink Shirt (31, 21) -> IN PROGRESS.
+     - Central Park Boy in Pink Shirt (33, 22) (Turn 22318): Confirmed ambient text ("I'm supposed to meet a girl here... Was I catfished?").
+     - South Sidewalk & East Walkway -> IN PROGRESS.
   3. Route 1 & Lancio Town Audit:
      - 3a. Route 1 Cottage resident (Turn 22134) -> COMPLETE (FALSIFIED: Max Repel given; ambient text "Now that you got your sample, go and enjoy freedom!").
      - 3b. Route 1 Cut tree at (5, 44) (Turn 22183) -> COMPLETE (FALSIFIED: inert collision, no interaction text).
