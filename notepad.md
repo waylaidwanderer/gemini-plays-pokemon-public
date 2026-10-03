@@ -722,10 +722,10 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H58: External Route & Landmark Audit (Route 1 & Lancio Town)
 - **Premise**: With Sovio City's urban circuit exhausted, external locations outside Sovio City contain the trigger, item, or encounter needed to advance the search for Jackson.
-- **Target Zones**:
-  1. Route 1 Northeast Meadow & Rock Spire clearing (cols 33-53, rows 0-12).
-  2. Route 1 Cottage grounds & coastal clearing (cols 37-42, rows 24-38).
-  3. Lancio Town facilities (Pokémon Center interior, Lab West Wing & basement check).
-- **Test Plan**: 1. Advance south from (53, 0) through northeast meadow to row 12. 2. Sweep west past Duke (45, 12) toward the central clearings.
+- **Audited Zones**:
+  - Target 1 (Rock Spire Clearing & Northeast Meadow): Duke verified baseline, rock spire (35, 7) and alcove (34, 6-7) confirmed inert scenery.
+- **Active Target**:
+  - Target 2: Route 1 Cottage grounds & coastal clearing (cols 37-42, rows 24-38).
+- **Test Plan**: 1. Traverse row 9 bypass and column 31/30 corridor to Cottage grounds at row 26. 2. Audit Cottage exterior, coastal clearing, and Sand Highway.
 
 <hr>
