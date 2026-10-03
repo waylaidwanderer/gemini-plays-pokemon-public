@@ -77,7 +77,7 @@
 
   - Exit mat at (7, 8).
 
-  - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint (re-registered Turn 22275).
+  - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint.
 
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
