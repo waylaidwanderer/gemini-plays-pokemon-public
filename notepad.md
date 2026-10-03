@@ -725,11 +725,7 @@
 - **Outcome**: Verified both southwest rock (10, 18) and Dark Sector rock (22, 10) require specialized equipment. Perimeter bounds transferred to Locations/Sovio_Sewers. Subterranean exploration gated until equipment obtained.
 
 ## Active Hypotheses for Progression
-### Hypothesis H46: Commercial Building Roof Corridor Audit (Columns 47-51, Rows 20-22)
-- **Premise**: With Central Park and residential interiors exhausted, the covered walkway beneath the two-story building roof south of Central Plaza remains to be systematically probed for interactive features, side doors, or event triggers.
-- **Immediate Plan**:
-  1. Navigate north from (33, 20) to row 15.
-  2. Traverse east along row 15 to column 47.
-  3. Enter covered corridor at (47, 20) and audit tiles across rows 20-22.
+### Hypothesis H46: Commercial Building Roof Corridor Audit (Concluded Turn 18703)
+- **Outcome**: Audited rows 20-22 across columns 47-51 beneath commercial building roof canopy. Confirmed row 23 is solid south wall; rows 20-22 form a continuous covered passageway terminating east at column 52 with the Route 2 story barrier ("I can't go yet... I have things to do!"). Zero interactive doors, switches, or hidden triggers exist beneath the roof canopy.
 
 <hr>
