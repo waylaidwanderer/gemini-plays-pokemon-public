@@ -115,7 +115,7 @@
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
-  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and two empty blue chairs along northeast wall (confirmed empty seating with zero NPCs present).
+  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and a uniformed transit officer seated in the northeast blue chair.
 
 - **Sovio Sewers Secret Entrance**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
