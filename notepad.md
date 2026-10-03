@@ -713,6 +713,12 @@
 - H75-H82 (Quest Log, Level Milestone, Metro Lobby, Overworld Perimeters, Mailbox, Facades, Healing, Portal Fixtures - Turns 19871-20028): FALSIFIED. Audited HuPhone apps, level 16 scope, lobby timetable/chairs, all Sovio exterior perimeters, Southwest facade, Nurse Joy party heal, and portal threshold; confirmed static civilian baseline and persistent gate flags.
 
 ## Active Hypotheses for Progression
+### Hypothesis H84: Surface Gate & Progression Prerequisite Evaluation (Started: Turn 20042)
+- **Premise**: All subterranean sewer areas are confirmed static baseline with zero progression flags. Progression is strictly gated at the surface: Metro Turnstile (19, 21) requiring finding Dad, and Route 2 (52, 19-22) requiring completing pending tasks ("I can't go yet... I have things to do!"). We exit the sewers and systematically investigate why the surface progression remains gated, testing untried surface mechanics, dialogue trees, and inventory interactions.
+- **Protocol**:
+  1. Flee wild battle, return up the stairs to Metro Station lobby (23, 24), and exit to Central Plaza (48, 18).
+  2. Systematically evaluate unexamined surface triggers and potential prerequisite conditions.
+- **Falsifiable Success Criteria**: Identifying the prerequisite condition that clears either gate.
 
 
 <hr>
