@@ -38,3 +38,11 @@
 - **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
 - **Falsification Threshold**: If all 5 residential interiors remain strictly in their baseline flavor states, H67 is falsified.
 - **Status**: FALSIFIED. All 5 residential houses in Sovio City audited and confirmed 100% baseline. Civilian houses contain zero progression triggers or Jackson leads.
+
+### Hypothesis H68: Sovio Metro Station Deep Lobby & Trigger Audit (Started: Turn 19700)
+- **Premise**: With all 5 residential interiors in Sovio City strictly verified baseline, we return to the origin point of Jackson's disappearance: the Sovio Metro Station lobby.
+- **Protocol**:
+  1. Enter Metro Station from Central Plaza at (48, 17).
+  2. Inspect every fixture, wall, counter, and NPC in the lobby (attendant booth, ticket machines, vending machine, chairs, sewer entrance mat).
+  3. Re-test turnstile interaction and observe if any new cutscene or prompt triggers.
+- **Falsifiable Success Criteria**: Finding Valora, an attendant offering new dialogue, or a trigger that updates the quest state or turnstile barrier.
