@@ -25,8 +25,9 @@
 - **Rules of Engagement**: Focus exclusively on untested outdoor Central Plaza nodes. Do NOT re-enter static civilian interiors or re-trigger known blockers.
 
 ### Test Targets & Protocols:
-1. **Target 1: Central Plaza Sewer Manhole at (40, 13)**
-   - Location: Circular manhole fixture at (40, 13) west of Pokémon Center door.
-   - Action: Approach from (40, 14) facing North (or 41, 13 facing West) and press A.
-   - Success: Inspection text, rumble/tremor mention, or access prompt.
-   - Failure: Inert road graphic with zero interaction.
+1. **Target 1: Central Plaza Sewer Manhole at (40, 13)**: COMPLETE (FALSIFIED).
+   - Empirical Result: Approached from (40, 14) facing North into (40, 13) with A, and stepped directly onto (40, 13) with A. Confirmed completely inert decorative road graphic with zero text or access.
+
+2. **Target 2: Northern Central Plaza Alleyway & Perimeter (Column 40, Rows 7-12)**: IN PROGRESS.
+   - Candidate: The narrow corridor between Pokémon Center and tan building leading north to house (39, 7).
+   - Action: Walk North along column 40 from row 12 to row 8, inspect walls and door approach.
