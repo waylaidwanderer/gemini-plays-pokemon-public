@@ -730,10 +730,10 @@
   3. Audit Route 1 Cottage (37, 24). [COMPLETED - Turn 19497: Resident boy verified baseline post-gift flavor text]
   4. Audit Route 1 Civilians along Lancio transit. [COMPLETED - Turns 19497-19520: Cottage boy (37, 24) and Grass boy (10, 50) verified baseline flavor text]
   5. Enter Lancio Town and audit key anchors:
-     - Professor Ivo at (20, 6) in Lab East Wing.
-     - Lab basement stairs at (12, 7) (check if "I probably shouldn't head down here..." barrier changed).
+     - Lab basement stairs at (12, 7): Re-verified 100% active/restricted ("I probably shouldn't head down here" - Turn 19537).
+     - Professor Ivo at (20, 6) in Lab East Wing. [ACTIVE]
      - Incubator apparatus at (18-19, 5-6).
      - Harbor Dock at (32-34, 23-25) (check for Harry / moored vessel).
-- **Status**: ACTIVE. Step 5 (transit into Lancio Town) underway.
+- **Status**: ACTIVE. Step 5 (Professor Ivo dialogue audit) underway.
 
 <hr>
