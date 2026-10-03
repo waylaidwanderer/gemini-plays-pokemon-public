@@ -344,7 +344,7 @@
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
-  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, and blue chairs along northwest and northeast walls.
+  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, blue chairs along northwest wall, and an NPC in a blue uniform and conductor cap seated in the blue chair along the northeast wall.
 
 - **Sovio Sewers Secret Entrance**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
@@ -728,11 +728,11 @@
 - **Outcome**: Audited rows 20-22 across columns 47-51 beneath commercial building roof canopy. Confirmed row 23 is solid south wall; rows 20-22 form a continuous covered passageway terminating east at column 52 with the Route 2 story barrier ("I can't go yet... I have things to do!"). Zero interactive doors, switches, or hidden triggers exist beneath the roof canopy.
 
 ## Active Hypotheses for Progression
-### Hypothesis H47: Sewer Storage Room Key & Metro Station Lobby Trigger Audit
-- **Premise**: Jackson was captured by Team Siara during the tremor. Sewer storage room at (37, 14) displays 'Its a simple storage room...' and row 15 is solid collision (audited Turns 18767-18770). Grunt 2 platform at (18, 21-22) holds zero items. We hypothesize the progression flag requires auditing the full Metro Station lobby footprint to trigger story advancement.
+### Hypothesis H47: Metro Station Lobby Systematic Tile & Boundary Audit
+- **Premise**: Jackson investigated the tremor outside in Sovio City and remains missing; sewer storage room at (37, 14) displays 'Its a simple storage room...' with solid collision and no Siara presence. Turnstile gate (19, 21) enforces 'I should find dad first!'. A conductor NPC is seated on the platform side. We hypothesize an untriggered event tile or interaction in the Metro Station lobby is required to advance the departure sequence.
 - **Immediate Plan**:
-  1. Ascend to Sovio Metro Station lobby via sewer_transit.
-  2. Systematically traverse and probe all Metro lobby tiles (rows 21-25, columns 18-24).
-  3. Test turnstile gate, timetable, and lobby perimeter for scripted event triggers.
+  1. Re-enter Metro Station from Central Plaza (48, 17).
+  2. Systematically step on every tile in the lobby footprint (rows 22-25, columns 18-24).
+  3. Probe lobby chairs (cols 16-17, rows 22-24), timetable columns (21-23), and ticket pillars.
 
 <hr>
