@@ -682,5 +682,11 @@
      - Battle 4: Nidoran♂ Lv3 -> +25 EXP (Sirius: 2716 EXP, Deficit: 404 EXP).
      - Battle 5: Mareep Lv2 -> +16 EXP (Sirius: 2732 EXP, Deficit: 388 EXP).
      - Battle 6: Rattata Lv3 -> +24 EXP (Sirius: 2756 EXP, Deficit: 364 EXP).
+     - Battle 7: Weedle Lv2 -> +15 EXP (Sirius: 2771 EXP, Deficit: 349 EXP).
+     - Grind Route Pivot: Relocating to Sovio Sewers for high-yield encounters (Lv5-7 Dunsparce/Grimer ~80-120 EXP) to reach Lv17 in 3-4 battles instead of 18.
+  5. Falsification Protocol:
+     - Evolution Check: If Sirius hits Lv17 during daytime without evolving, friendship evolution premise is falsified.
+     - Blocker Checks: Inspect (1) Metro Turnstile (19, 21), (2) Route 2 exit (52, 19-22), (3) Professor Ivo in Lancio Lab (20, 6).
+     - Conclusion Rule: If all three remain static, H127 is 100% FALSIFIED.
 
 <hr>
