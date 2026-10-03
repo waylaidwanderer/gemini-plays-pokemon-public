@@ -18,11 +18,10 @@
   1. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
   2. Party Audit & Lead Reorder -> COMPLETE (Turn 22524). Sirius 100% audited across Pages 1-3. Zephyr swapped to Slot 1.
   3. Swap Sirius back to Slot 1 (lead) -> COMPLETE (Turn 22537). Sirius (Lv16 Riolu) confirmed lead; Zephyr (Lv2 Pidgey) in Slot 2.
-  4. Battle wild encounters in Sovio Sewers to gain 482 EXP and level Sirius to Lv17 -> IN PROGRESS.
-     - Benchmarks: Started Turn 22504. Current: Turn 22651 (147 turns elapsed).
-     - Progress: Battles 1-13 yielded +481 EXP total (B13 Koffing Lv6 gave +97 EXP). Sirius at 3119/3120 EXP (Deficit: 1 EXP). Sirius at 40/45 HP.
-     - Active Venue: Sovio Sewers. Battle 14 is guaranteed to trigger Lv17 and initiate Milestone 5 Falsification Protocol.
-  5. Falsification Protocol:
-     - Evolution Check: If Sirius reaches Lv17 during daytime and does not evolve, evolution criteria was not met at this level.
+  4. Battle wild encounters in Sovio Sewers to gain 482 EXP and level Sirius to Lv17 -> COMPLETE (Turn 22658).
+     - Benchmarks: Started Turn 22504. Completed Turn 22658 (154 turns elapsed).
+     - Progress: Battles 1-14 yielded +529 EXP total (B14 Purrloin Lv6 gave +48 EXP). Sirius reached Lv17 (HP 42/47)!
+  5. Falsification Protocol -> IN PROGRESS:
+     - Evolution Check: Observing whether Sirius evolves into Lucario.
      - Blocker Checks upon Lv17: Inspect (1) Metro Turnstile (19, 21), (2) Route 2 exit (52, 19-22), (3) Professor Ivo in Lancio Lab (20, 6).
      - Strict Cutoff: If all three remain static upon reaching Lv17, H127 is 100% FALSIFIED and closed; no further level grinding.
