@@ -20,8 +20,8 @@
   3. Swap Sirius back to Slot 1 (lead) -> COMPLETE (Turn 22537). Sirius (Lv16 Riolu) confirmed lead; Zephyr (Lv2 Pidgey) in Slot 2.
   4. Battle wild encounters in Sovio Sewers to gain 482 EXP and level Sirius to Lv17 -> IN PROGRESS.
      - Benchmarks: Started Turn 22504. Current: Turn 22651 (147 turns elapsed).
-     - Progress: Battles 1-12 yielded +384 EXP total (B12 Poochyena Lv7 gave +55 EXP). Sirius at 3022/3120 EXP (Deficit: 98 EXP). Sirius at 45/45 HP, full PP.
-     - Active Venue: Sovio Sewers for high-yield encounters (40-120 EXP per battle).
+     - Progress: Battles 1-13 yielded +481 EXP total (B13 Koffing Lv6 gave +97 EXP). Sirius at 3119/3120 EXP (Deficit: 1 EXP). Sirius at 40/45 HP.
+     - Active Venue: Sovio Sewers. Battle 14 is guaranteed to trigger Lv17 and initiate Milestone 5 Falsification Protocol.
   5. Falsification Protocol:
      - Evolution Check: If Sirius reaches Lv17 during daytime and does not evolve, evolution criteria was not met at this level.
      - Blocker Checks upon Lv17: Inspect (1) Metro Turnstile (19, 21), (2) Route 2 exit (52, 19-22), (3) Professor Ivo in Lancio Lab (20, 6).
