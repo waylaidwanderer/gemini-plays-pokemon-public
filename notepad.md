@@ -675,7 +675,7 @@
      - House (39, 7) (Turn 22304, 22307): 1F elderly resident ("I bought my son a Wii...") and 2F boy ("I love the games on the Wii!...") confirmed 100% ambient flavor text.
      - West Avenue Boy Rocky (Turn 22313): Confirmed ambient text ("This is my partner, Rocky! He's the best...").
      - Central Park Boy in Pink Shirt (33, 22) (Turn 22318): Confirmed ambient text ("I'm supposed to meet a girl here... Was I catfished?").
-     - South Sidewalk & East Walkway -> IN PROGRESS.
+     - South Sidewalk Children & Jigglypuff (Turn 22320): Confirmed ambient flavor text. Civilian re-audit in Sovio City is 100% FALSIFIED.
   3. Route 1 & Lancio Town Audit:
      - 3a. Route 1 Cottage resident (Turn 22134) -> COMPLETE (FALSIFIED: Max Repel given; ambient text "Now that you got your sample, go and enjoy freedom!").
      - 3b. Route 1 Cut tree at (5, 44) (Turn 22183) -> COMPLETE (FALSIFIED: inert collision, no interaction text).
@@ -683,6 +683,13 @@
      - 3d. Lancio Lab basement stairs at (12, 7) (Turn 22192) -> COMPLETE (FALSIFIED: story barrier active "I probably shouldn't head down here...").
      - 3e. Lancio Lab Professor Ivo at (20, 6) (Turn 22195) -> COMPLETE (FALSIFIED: ambient greeting "Hey, Ashi, how's your new Pokémon?").
      - 3f. Outcome -> Audited variables (Cottage resident, Cut tree at 5, 44, Green-haired girl, Lab basement, Professor Ivo) confirmed inert/ambient/blocked with zero progression triggers.
-  4. Return to Sovio City via Route 1 to investigate Dad's physical whereabouts and the tremor epicenter -> IN PROGRESS.
+  4. Return to Sovio City via Route 1 -> COMPLETE (Turn 22268).
+
+## Active Hypothesis H123: Outdoor Tremor Epicenter & Unexplored Spatial Geometry Audit
+- **Premise**: Dad ran outside into Sovio City directly from the Metro Station lobby during the tremor. Civilian dialogue re-audits are completely falsified. Dad never entered the sewers (old summary hallucination). Progression must stem from an outdoor event trigger, unvisited physical coordinates, or an interaction at the tremor source/epicenter in Sovio City.
+- **Milestones**:
+  1. Complete South Sidewalk to East Walkway loop and return to Central Plaza -> IN PROGRESS.
+  2. Audit Central Plaza, Metro Station exterior, and eastern Route 2 approach for outdoor triggers.
+  3. Verify exact Metro Station lobby perimeter and platform interaction.
 
 <hr>
