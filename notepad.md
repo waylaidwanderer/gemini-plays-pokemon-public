@@ -664,12 +664,13 @@
 - **H116 Lancio Town Comprehensive Audit**: COMPLETE (FALSIFIED). Harbor pier terminates at open water, Harry absent, dockside building (35, 20) is solid decorative facade, Fisherman shares ambient philosophy text; all town residents and Pokémon Center audited. Note: Healed at Lancio Pokémon Center Turn 21645 (current respawn checkpoint: Lancio Town).
 - **H118 Sovio City & Terminal Facilities Audit**: COMPLETE (EXHAUSTED). Outdoor sectors A, B, C verified clear. Terminal facilities (PC Box 1 empty, Metro Station lobby fixtures, scanner pillars inert, transit officer verified seated on platform beyond turnstiles).
 - **H119 Road Fixtures & Manhole Audit**: COMPLETE (FALSIFIED). Route 2 barrier confirmed active at (52, 19). Manhole covers at (40, 13), (29, 16), and (51, 16), and commercial shutters at (34-35, 12) confirmed non-interactable decorative scenery.
+- **H120 Civilian Dialogue & Inventory Prerequisites**: COMPLETE (FALSIFIED). Camper dialogue verified ambient under zero active quests; party state, trainer card, and bag verified clear of hidden items.
 
-## Active Hypothesis H120: Challenging the "Physical Dad Search" Premise
-- **Premise**: Every physical map, outdoor sector, residence, and facility in Sovio City, Lancio Town, and Sewers has been searched with zero unresolved physical leads. "I should find dad first!" and "I can't go yet... I have things to do!" must be evaluated against non-physical prerequisites: party state, dialogue conditions, and progression triggers.
+## Active Hypothesis H121: Sovio Sewers (28, 23) Structural Feature Audit
+- **Premise**: In Turn 21927, an unexamined black rectangular opening in the lower sewer brick wall was measured at (28, 23). The initial approach was aborted at Turn 21928 due to a wild encounter, leaving this structural feature completely untested.
 - **Milestones**:
-  1. Audit Party and Trainer Status: COMPLETE (Sirius Lv16, Zephyr Lv2, $6096, 6 crest silhouettes, 8 tournament round slots).
-  2. Test persistent dialogue and specific interaction triggers with key figures (Professor Ivo, Valora's origin point, or quest NPCs).
-  3. Pokémon Center Camper Audit (Turn 21996-21997): Camper at (5, 7) verified ambient humor dialogue ("My weedle got poisoned... Ironic isn't it?") under zero active quests; does not offer "Medic!" quest or request Antidote.
+  1. Return north across Route 1 to Sovio City -> IN PROGRESS.
+  2. Enter Sovio Metro Station and descend to Sewers via (18-19, 25) red mat.
+  3. Descend column 34 stairs to row 28 and traverse west to column 28 to systematically inspect (28, 23).
 
 <hr>
