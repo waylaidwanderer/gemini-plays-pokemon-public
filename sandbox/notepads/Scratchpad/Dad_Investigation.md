@@ -31,5 +31,5 @@
        - Result (Turn 20706-20707): FALSIFIED. Textbox verbatim displayed baseline ("Get out!") and kicks Asher outside. Confirmed 100% static behavior.
      - Old Couple at (32-33, 8):
        - Old Man at (32, 8): Result (Turn 20715-20716): FALSIFIED. Textbox verbatim displayed baseline ("I have grown up in this place, and I never want to leave it... This is home for me."). Confirmed static ambient flavor.
-       - Old Woman at (33, 8): Baseline is 30-year residency / Sinnoh flavor. Test for tremor or side quest leads.
+       - Old Woman at (33, 8): Result (Turn 20717-20718): FALSIFIED. Textbox verbatim displayed baseline ("With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."). Confirmed static ambient flavor.
 - **Decision Rule**: Execute tests 1 through 4 sequentially. If all baseline conditions repeat with zero updates, conclude and archive Hypothesis H95 as FALSIFIED before moving to any new geographic region.
