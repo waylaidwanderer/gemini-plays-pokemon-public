@@ -289,7 +289,7 @@
 
   - **Train Timetable Board**: Located on north wall spanning columns 21-23 at row 23. Interacting facing Up from (21, 24), (22, 24), or (23, 24) displays verbatim: "It's a timetable showing various destinations!". Confirmed 100% decorative flavor text across all columns with zero story triggers.
 
-  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and two blue chairs along the northeast wall with a Station Attendant (blue uniform and blue peaked cap) sitting in the northern chair facing west.
+  - **Turnstile Gate**: Scanner pillars at (18, 21) and (20, 21) are non-interactive decorative pillars. Passage at (19, 21). Stepping onto (19, 21) triggers scripted textbox 'I should find dad first!' and forces Asher 1 step Down to (19, 22). Beyond turnstile on platform side: yellow vending machine at north wall, two empty blue chairs along northwest wall, and two empty blue chairs along the northeast wall.
 
 - **Sovio Sewers Secret Entrance**: Red horizontal capsule mat against south wall at (18-19, 25). Stepping Down from (18, 25) off the mat warps directly into the **Sovio Sewers**!
 
@@ -671,10 +671,13 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H99: Critical Investigation of Unexamined Systems, Menus & Progression Triggers
 - **Premise**: If all subterranean sewer corridors, Lancio Town facilities, surface residences, Central Park visitors, and Biker NPCs are documented static, the progression trigger required to satisfy "I should find dad first!" must lie in an unexamined game system, menu option, device feature, or unverified narrative avenue rather than repeated outdoor sweeps.
-- **Audit Steps**:
-  1. Comprehensive audit of player menus & systems: Start Menu options, Pok�mon party interactions (Sirius/Zephyr summary, held items), Bag item descriptions, Trainer Card details.
-  2. Re-examine HuPhone applications and device functions for unverified contacts or triggers.
-  3. Re-examine Metro Station lobby fixtures and platform boundary conditions.
+- **Empirical Test Results**:
+  - Turn 20888-20895 Bag Audit: Confirmed 3-pocket engine (Items, Key Items, Pok� Balls). Key Items contain strictly HuPhone (registered to Select) and TM Case. No Train Ticket or specialized equipment present.
+  - Turn 20908 Metro Fixture Audit: Left scanner (18, 21) and right scanner (20, 21) directly interacted with and confirmed 100% inert. Turnstile (19, 21) re-confirmed active ("I should find dad first!"). Platform chairs confirmed empty decorative benches.
+- **Active Audit Steps**:
+  1. Complete party summary audit: Sirius (Pages 2 & 3 stats/moves/details) and Zephyr summary.
+  2. Inspect Trainer Card (Front & Back details) and Option settings.
+  3. Inspect HuPhone World Map & Quest Log for unexamined features.
 - **Falsifiable Success Criteria**: Discovering an unexamined system action or trigger, locating Jackson, or lifting the turnstile blocker ("I should find dad first!").
 
 

@@ -23,8 +23,11 @@
 ## Active Hypotheses for Progression
 ### Hypothesis H99: Critical Investigation of Unexamined Systems, Menus & Progression Triggers
 - **Premise**: If all subterranean sewer corridors, Lancio Town facilities, surface residences, Central Park visitors, and Biker NPCs are documented static, the progression trigger required to satisfy "I should find dad first!" must lie in an unexamined game system, menu option, device feature, or unverified narrative avenue rather than repeated outdoor sweeps.
-- **Audit Steps**:
-  1. Comprehensive audit of player menus & systems: Start Menu options, Pokémon party interactions (Sirius/Zephyr summary, held items), Bag item descriptions, Trainer Card details.
-  2. Re-examine HuPhone applications and device functions for unverified contacts or triggers.
-  3. Re-examine Metro Station lobby fixtures and platform boundary conditions.
+- **Empirical Test Results**:
+  - Turn 20888-20895 Bag Audit: Confirmed 3-pocket engine (Items, Key Items, Poké Balls). Key Items contain strictly HuPhone (registered to Select) and TM Case. No Train Ticket or specialized equipment present.
+  - Turn 20908 Metro Fixture Audit: Left scanner (18, 21) and right scanner (20, 21) directly interacted with and confirmed 100% inert. Turnstile (19, 21) re-confirmed active ("I should find dad first!"). Platform chairs confirmed empty decorative benches.
+- **Active Audit Steps**:
+  1. Complete party summary audit: Sirius (Pages 2 & 3 stats/moves/details) and Zephyr summary.
+  2. Inspect Trainer Card (Front & Back details) and Option settings.
+  3. Inspect HuPhone World Map & Quest Log for unexamined features.
 - **Falsifiable Success Criteria**: Discovering an unexamined system action or trigger, locating Jackson, or lifting the turnstile blocker ("I should find dad first!").
