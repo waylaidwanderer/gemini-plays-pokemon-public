@@ -708,6 +708,7 @@
 - **Storage Room (37, 14)**: Verified single static inspection trigger ("Its a simple storage room..") with solid collision at (37, 15); platform fully audited.
 
 ## Concluded Hypotheses
+- H80 (Southwest Building West Facade Audit - Turns 20004-20006): FALSIFIED. Navigated to sidewalk at (17, 26-27). Facing East into (18, 26) and (18, 27) and pressing A confirms solid, inert building facade with decorative blue windowpanes; zero doors, warps, or story triggers exist.
 - H79 (HuPhone Mailbox & World Map Audit - Turns 19995-20000): FALSIFIED. HuPhone Item Storage > Mailbox displays 'There's no Mail here.' (zero messages). World Map shows standard Hupest topology with no quest markers.
 - H60-H65 (Sewers, Lobby, Sovio City Exterior Corridors & NPCs - Turns 19100-19470): FALSIFIED. Sewers cleared, (37, 14) storage room static, exterior paths, barriers (52, 19), and civilians verified baseline.
 - H66-H74 (Regional Anchors, Residences, Systems, Terrace, Corridor, PC & Sewers - Turns 19470-19838): FALSIFIED. Route 1/Lancio Town, all 5 residences, lobby fixtures, terrace/corridor walls, PC Box 1, and subterranean sewers re-verified static baseline with zero new items or triggers.
@@ -727,12 +728,6 @@
 - **Conclusion**: H78 FALSIFIED. Sovio City overworld perimeters and civilians contain zero triggers for Dad's whereabouts or the turnstile prerequisite.
 
 
-### Hypothesis H80: Southwest Building West Facade & Southern Sector Audit (Started: Turn 20004)
-- **Premise**: The Southwest Building at (18-21, 26-29) has barrels blocking its southern shutters at (19-21, 28-29), but its West Facade borders a paved sidewalk at columns 16-17, rows 26-27. We systematically audit the west facade facing East at (17, 26) and (17, 27) to verify if an uninspected entrance door, warp, or story trigger exists.
-- **Protocol**:
-  1. Navigate south from West Avenue past row 20 to the west sidewalk at (16-17, 26-27).
-  2. Inspect the west wall at (18, 26) and (18, 27) facing East.
-  3. Verify if an entrance or dialogue trigger exists.
-- **Falsifiable Success Criteria**: Discovering an enterable door, story trigger, or confirming solid wall.
+
 
 <hr>
