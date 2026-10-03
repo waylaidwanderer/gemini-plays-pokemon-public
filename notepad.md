@@ -677,5 +677,10 @@
   1. **H131-A (Metro Lobby Thorough Inspection)**: Re-examine the Metro Station lobby (columns 17-24, rows 21-25) from all angles: inspect the timetable board at (21-23, 23) from front and sides, test the blue passenger chairs along the west wall at (17, 22-24) to see if sitting/interacting is possible, and test the scanner pillars at (18, 21) and (20, 21).
   2. **H131-B (Turnstile Camera & Sightline Check)**: From (19, 22), inspect the platform view through the turnstiles: determine if any NPC, officer, or object is visible or interactive on the platform side.
   - *Falsification Boundary*: Falsified if all lobby fixtures and turnstile alignments yield only confirmed flavor text and the persistent 'I should find dad first!' pushback.
+- **H131-A & H131-B Empirical Results (Turn 22933)**:
+  - Left scanner pillar (18, 21) and right scanner pillar (20, 21) verified 0 interaction text.
+  - West wall chairs: (17, 24) walkable floor, rows 22-23 solid collision, 0 interaction text.
+  - Turnstile gate at (19, 21) re-confirmed: triggers 'I should find dad first!' and forces Asher south to (19, 22).
+  - CRITICAL SIGHTLINE CORRECTION: A uniformed transit officer (blue police cap, blue uniform) IS SEATED in the northeast platform chair (facing west)! Prior notes claiming 'zero NPCs' were false.
 
 <hr>
