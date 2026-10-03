@@ -721,7 +721,7 @@
 - **Premise**: Remaining unverified civilians on Route 1 (Pidgey boy NPC 1 at 34, 37; Science guy NPC 3 at 39-41, 36) may hold dialogue clues, items, or triggers.
 - **Audited Targets**:
   1. Camper NPC 2 at (17, 44-45): AUDITED (verified baseline flavor text).
-  2. Pidgey boy NPC 1 at (34, 37): PENDING [ACTIVE].
+  2. Pidgey boy NPC 1 at (34, 37): AUDITED (verified baseline post-quest flavor text: "Thank you so much for finding my precious Pidgey.").
   3. Science guy NPC 3 at (39-41, 36): PENDING.
 - **Status**: ACTIVE. Approaching Sand Highway.
 
