@@ -719,18 +719,19 @@
 - **Route 1 & Lancio Town Falsification**: Route 1 and Lancio Town are baseline starting areas with zero link to Jackson's disappearance.
 - **Sovio Metro Lobby Audits**: Timetable board is decorative flavor text. Turnstile passage at (19, 21) triggers "I should find dad first!".
 
-## Concrete Hypotheses & Test Outcomes
-### Hypothesis H60: Night Cycle NPC & Event Changes in Sovio City
-- **Premise**: In-game time transition into nighttime (past 20:00) updates NPC locations, dialogue trees, or accessible areas.
-- **Outcome**: FALSIFIED (Turns 19176�19188). Route 2 barrier, blonde girl, and boy in pink shirt exhibit identical baseline behavior and dialogue. Night cycle is purely a cosmetic lighting filter.
+## Concluded Hypotheses
+- **Hypothesis H60 (Night Cycle Audit)**: FALSIFIED (Turns 19176�19188). Route 2 barrier, blonde girl, and boy in pink shirt exhibit identical baseline behavior and dialogue. Night cycle is purely cosmetic.
+- **Hypothesis H61 (Inventory & Environmental Triggers)**: FALSIFIED (Turns 19194�19225). HuPhone Mailbox and Item Storage are empty; Bag items hold no environmental triggers; Nana's house and Pok�mon Center Camper verified baseline flavor text.
 
-### Hypothesis H61: Inventory / Key Item Environmental Triggers
-- **Premise**: An item in possession (HuPhone, TM Case, or held item) triggers story progression when inspected or activated at a specific location.
+## Active Hypotheses for Progression
+### Hypothesis H62: North Facade Audit of Commercial Building (Columns 47-51, Rows 19-22)
+- **Premise**: The two-story building at columns 47-51 south of Central Plaza has an accessible entrance along its covered northern corridor (rows 19-22) beneath the roof graphic.
 - **Test Protocol**:
-  1. Audit Key Items and Bag functions (HuPhone Mailbox, apps, TM Case, Items pocket).
-  2. Test SELECT registration and item usage in Metro lobby and Central Plaza.
-  3. Falsified if no unique interactions or prompts occur.
-- **Status**: IN PROGRESS. HuPhone Mailbox ('There's no Mail here.') and Item Storage ('There are no items.') both verified empty (Turns 19198-19202).
+  1. Exit Pok�mon Center to Central Plaza.
+  2. Walk south to row 19 beneath the building roof (columns 47-51).
+  3. Methodically test tiles along rows 19, 20, 21, 22 for entrance warps, doors, or inspection triggers.
+  4. Falsified if all tiles are purely open corridor leading only to Route 2 barrier.
+- **Status**: IN PROGRESS. Exiting Pok�mon Center to begin audit.
 
 
 <hr>
