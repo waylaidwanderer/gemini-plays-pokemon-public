@@ -668,20 +668,14 @@
 - **H125 Metro Lobby & Turnstile**: Floor mat (23, 24-25) and scanner pillars (18, 21)/(20, 21) confirmed inert scenery. Turnstile (19, 21) re-confirms blocker ('I should find dad first!').
 - **H126 Sovio City Quest Trigger Audit**: Camper (5, 7) and Bikers (13, 21-23) confirmed strictly ambient dialogue under 0 active quests; neither triggers Page 1 quests.
 
-## Active Hypothesis H127: Mechanical Progression & Level-Up Investigation
-- **Premise**: 126 spatial/dialogue hypotheses exhausted. Testing unexamined mechanical progression variables: leveling up Sirius to Lv17 (482 EXP needed) to test daytime friendship evolution into Lucario and Professor Ivo dialogue reaction.
+- **H127 Mechanical Level-Up (FALSIFIED)**: Leveled Sirius to Lv17. Sirius did not evolve into Lucario. Metro turnstile (19, 21) re-confirmed static ('I should find dad first!'). Route 2 barrier (52, 19) re-confirmed static ('I can't go yet... I have things to do!'). Mechanical leveling has zero effect on story flags. 100% FALSIFIED and closed. Backtracking to Lancio discontinued.
+
+## Active Hypothesis H128: Jackson & Valora Post-Tremor Location Investigation
+- **Premise**: Following the sewer raid, Dad and Valora exited the sewers into Sovio City/Metro. Asher is blocked by 'I should find dad first!' at the Metro turnstiles. Returning to Sovio City to investigate where Dad or Valora relocated.
 - **Milestones**:
-  1. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
-  2. Party Audit & Lead Reorder -> COMPLETE (Turn 22524). Sirius 100% audited across Pages 1-3. Zephyr swapped to Slot 1.
-  3. Swap Sirius back to Slot 1 (lead) -> COMPLETE (Turn 22537). Sirius (Lv16 Riolu) confirmed lead; Zephyr (Lv2 Pidgey) in Slot 2.
-  4. Battle wild encounters in Sovio Sewers to gain 482 EXP and level Sirius to Lv17 -> COMPLETE (Turn 22658).
-     - Benchmarks: Started Turn 22504. Completed Turn 22658 (154 turns elapsed).
-     - Progress: Battles 1-14 yielded +529 EXP total (B14 Purrloin Lv6 gave +48 EXP). Sirius reached Lv17 (HP 42/47)!
-  5. Falsification Protocol -> IN PROGRESS:
-     - Evolution Check: COMPLETE (Turn 22658). Sirius reached Lv17 (Stats: HP 47, Atk 32, Def 31, SpAtk 22, SpDef 25, Speed 23) but did NOT evolve into Lucario. Friendship threshold not met at this level.
-     - Blocker Check 1: COMPLETE (Turn 22665). STATIC / FAILED: Turnstile (19, 21) still triggers "I should find dad first!". Level 17 does not unlock Metro.
-     - Blocker Check 2: COMPLETE (Turn 22667). STATIC / FAILED: Route 2 barrier (52, 19) still triggers "I can't go yet... I have things to do!". Level 17 does not unlock Route 2.
-     - Blocker Check 3: IN PROGRESS -> Heading to Lancio Lab to check Professor Ivo (20, 6).
-     - Strict Cutoff: If all three remain static upon reaching Lv17, H127 is 100% FALSIFIED and closed; no further level grinding.
+  1. Return to Sovio City via Route 1 northeast corridor (53, 0).
+  2. Heal party at Sovio Pok�mon Center with Nurse Joy.
+  3. Re-examine Sovio City key locations: Metro Station lobby, platform, Pok�mon Center, and plaza.
+
 
 <hr>
