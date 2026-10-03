@@ -355,7 +355,7 @@
 - **Staircase Up**: Located at (38, 22) leading back up to Sovio Metro Station; south side has solid railing blocking direct Up entry from (38, 23); must be entered from the west at (37, 22) stepping Right.
 - **Terrain & Features**:
   - Stone-rimmed shallow puddle on the upper landing at columns 32-35, rows 21-23 (fully walkable without Surf).
-  - Upper landing western boundary: Tile (31, 22) and the gray brick structure spanning columns 27-31 (rows 21-27) is an impassable solid architectural block; there is no direct westward path from the upper landing across row 22.
+  - Column 27 Vertical Corridor: Fully walkable vertical corridor (rows 22-26) paved with circular cobblestones that cuts through the central brick structure, directly connecting the lower sewer walkway (row 27-28) to the upper terrace at row 22 and the northern corridor. Tile (28, 23) is an impassable 1x1 floor pit with zero interaction.
   - Impassable central brick wall at columns 33-35, rows 16-20 directly north of the shallow puddle.
   - Stone stairway leading down to the lower sewer floor at column 34, row 24 (passable descent along column 34; column 35 blocked by railing post).
   - Item Found: Repel collected at (22, 20) on walkway north of the pool. Note: (22, 20) is a dead-end ledge separated from the western platform by a void chasm at columns 20-21.
