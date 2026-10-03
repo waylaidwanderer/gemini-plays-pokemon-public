@@ -20,4 +20,5 @@
   3. Inspect column 28 wall feature and test walkability/climbability from row 27 -> IN PROGRESS.
      - Turn 22045: Player at (28, 27) facing North pressed Up into (28, 26). Visited 0 tiles (blocked by solid wall curb collision).
      - Turn 22055: Player stepped Left to (27, 27) and Up to (27, 26) successfully. (27, 26) is walkable!
-     - Turn 22056: Testing Up from (27, 26) into (27, 25) to test ladder climbing.
+     - Turn 22056: Player pressed Up from (27, 26) and moved to (27, 25)! BREAKTHROUGH: Column 27 is an open vertical corridor cutting north through the central brick wall!
+     - Turn 22057: Moving North from (27, 25) to (27, 23) to inspect the black opening at (28, 23) and the upper northern path.
