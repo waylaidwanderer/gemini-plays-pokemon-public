@@ -724,12 +724,17 @@
 - **Falsifiable Success Criteria**:
   1. Route 1: Any NPC offering non-flavor dialogue regarding the tremor, Team Siara, or Jackson's movements, or an updated physical passage.
   2. Lancio Town: Professor Ivo acknowledging the Eclipse incident / Jackson, unlocking the lab basement stairs at (12, 7), or Harry returning to the dock.
-- **Falsification Threshold**: If Route 1 landmarks (Cottage, Duke, Sonia, Mike) and Lancio Town anchors (Professor Ivo, lab basement, harbor dock) remain strictly in their initial baseline states, H66 is falsified.
+- **Falsification Threshold**: If Route 1 anchors and Lancio Town anchors remain strictly in their initial baseline states, H66 is falsified.
 - **Protocol**:
   1. Transition to Route 1 at (53, 0). [COMPLETED - Turn 19472]
-  2. Audit Route 1 NPCs (Duke, Sonia, Mike). [COMPLETED - Turns 19474-19487: Duke, Sonia, and Mike all verified baseline post-defeat flavor text]
-  3. Route via column 30 to Cottage (37, 24) and audit interior. [COMPLETED - Turn 19497: Resident boy verified baseline post-gift flavor text ("Now that you got your sample, go and enjoy freedom!")]
-  4. Enter Lancio Town and audit Professor Ivo's Lab and Harbor Dock. [ACTIVE]
-- **Status**: ACTIVE. Step 4 (transit to Lancio Town) underway.
+  2. Audit Route 1 Battle Trainers (Duke, Sonia, Mike). [COMPLETED - Turns 19474-19487: All 3 verified baseline post-defeat flavor text]
+  3. Audit Route 1 Cottage (37, 24). [COMPLETED - Turn 19497: Resident boy verified baseline post-gift flavor text]
+  4. Audit Route 1 Civilians along Lancio transit (NPC 1 Pidgey boy at 34, 37; NPC 2 Camper at 18, 43; NPC 7 Grass boy at 11-12, 48-50). [ACTIVE]
+  5. Enter Lancio Town and audit key anchors:
+     - Professor Ivo at (20, 6) in Lab East Wing.
+     - Lab basement stairs at (12, 7) (check if "I probably shouldn't head down here..." barrier changed).
+     - Incubator apparatus at (18-19, 5-6).
+     - Harbor Dock at (32-34, 23-25) (check for Harry / moored vessel).
+- **Status**: ACTIVE. Step 4 (transit to Lancio Town via Route 1 southern corridor) underway.
 
 <hr>
