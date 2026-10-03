@@ -679,8 +679,8 @@
      - Progress: Battles 1-14 yielded +529 EXP total (B14 Purrloin Lv6 gave +48 EXP). Sirius reached Lv17 (HP 42/47)!
   5. Falsification Protocol -> IN PROGRESS:
      - Evolution Check: COMPLETE (Turn 22658). Sirius reached Lv17 (Stats: HP 47, Atk 32, Def 31, SpAtk 22, SpDef 25, Speed 23) but did NOT evolve into Lucario. Friendship threshold not met at this level.
-     - Blocker Check 1: Testing Metro Turnstile at (19, 21).
-     - Blocker Check 2: Testing Route 2 exit at (52, 19-22).
+     - Blocker Check 1: COMPLETE (Turn 22665). STATIC / FAILED: Stepping on turnstile (19, 21) still triggers "I should find dad first!". Character level does not unlock Metro.
+     - Blocker Check 2: IN PROGRESS -> Testing Route 2 exit at (52, 19-22).
      - Blocker Check 3: Testing Professor Ivo in Lancio Lab at (20, 6).
      - Strict Cutoff: If all three remain static upon reaching Lv17, H127 is 100% FALSIFIED and closed; no further level grinding.
 
