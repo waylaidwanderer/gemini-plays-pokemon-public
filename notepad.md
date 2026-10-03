@@ -667,24 +667,17 @@
   - Fisherman at (38, 22): Ambient fishing advice.
   Concluded: Zero external story triggers or side quest leads exist in Lancio Town. The progression blocker ("I should find dad first!") is strictly rooted in Sovio City.
 
+- **H96: Multi-Angle Decorative Tile Pixel-Hunting (Turns 20724-20760)**: FALSIFIED. Pixel-hunting orientation-dependent interaction on decorative road tiles is ungrounded in engine mechanics; overworld tile scripts do not feature hidden 4-directional triggers. Abandoned per critique.
+
 ## Active Hypotheses for Progression
-### Hypothesis H96: Tremor Environmental Consequences & Multi-Angle Structural Audit in Sovio City
-- **Premise**: When the sudden seismic tremor shook the Sovio Metro Station, Dad immediately ran outside into Sovio City to investigate the source of the tremor. Main story progression ("I should find dad first!") is gated by locating Dad or triggering an event tied to the tremor's environmental consequences. Features previously dismissed as "decorative" (sewer manholes, terrace structures, turnstile scanners, or single-angle interactions) must be systematically audited with active multi-angle inspections.
-- **Targets for Systematic Multi-Angle Testing in Sovio City**:
-  1. **Sewer Manholes across Sovio City**:
-     - Manhole at (40, 13) in northern alcove outside Wii house / Pokémon Center.
-     - Manholes at (54, 19) and (54, 21) near the eastern Route 2 border.
-     - Central Park manhole at (42, 27) near the southern bushes.
-     - West Avenue manholes at (13, 19) and (13, 27).
-     - Terrace manhole at (51, 16) above the Metro portal.
-     - *Testing Protocol*: Interact with 'A' from all adjacent cardinal directions (North, South, East, West) and step directly onto each tile.
-  2. **Sovio Metro Lobby Structural & Inspection Targets**:
-     - Scanner pillars at (18, 21) and (20, 21): Test 'A' interactions from South, East, and West.
-     - North wall timetable board (21-23, 23): Retest each column.
-     - Platform edge and station attendant interaction.
-  3. **Central Plaza Confrontation Ground**:
-     - Re-audit the exact tiles where Mother, Grunts, and altered Pidgey stood outside the Pokémon Center.
-- **Falsifiable Success Criteria**: Triggering a new inspection dialogue, opening an underground passage/manhole, finding Jackson, or lifting the turnstile script ("I should find dad first!").
+### Hypothesis H97: Core Premise Re-evaluation & Communication / Inventory Audit
+- **Premise**: If all physical search spaces appear exhausted, the progression gate is not an arbitrary orientation-dependent script on a decorative tile. We must audit our communication channels (HuPhone Mailbox, HuPhone Quest Status/World Map, Key Items, PC Mailbox), re-verify the narrative directive, and re-examine any overlooked triggers in Sovio City or the Metro Station.
+- **Audit Steps**:
+  1. **HuPhone Portable PC Mailbox & Storage**: Inspected at Turn 20763-20764; Mailbox confirmed "There's no Mail here", Item Storage confirmed "There are no items."
+  2. **HuPhone Quest Log & World Map**: Inspected World Map at Turn 20766 (no quest markers/blinking indicators); inspecting Quest Status at Turn 20766-20767.
+  3. **Bag Key Items & Direct Usage**: Open Bag, inspect every pocket (especially Key Items), and test active usage of items.
+  4. **Narrative & Local Trigger Re-examination**: Review exact dialogue triggers in Sovio Metro Station and re-audit potential overlooked NPCs or interactive objects.
+- **Falsifiable Success Criteria**: Discovering an active quest status, receiving a new narrative objective, or locating Jackson.
 
 
 <hr>
