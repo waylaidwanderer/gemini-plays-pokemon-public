@@ -43,6 +43,8 @@
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid..."). Fixtures along north wall (row 30): Stove at (63, 30) ("The stove is on... Something's boiling."), Refrigerator at (64, 30) ("Its a fridge... Seems be from the newest brand."), Television at (65, 30) ("The TV is off..."). Dining table at (65, 32).
 
 ## Southeast Corridor & Central Park
+- **Southwest Central Park Gateway**: Column 34 at rows 26-27 is a completely open, unblocked gateway directly connecting the south sidewalk (rows 27-28) north into Central Park plaza (row 25 and north).
+
 - **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Boy at (35, 28) cheering: "Yeah Jigglypuff!" Jigglypuff at (34, 28) displays cry: "Jigglypuff: Puff Puff!". Confirmed ambient Pokémon and flavor dialogue.
 
 - **Central Park Boy in Pink Shirt**: Located at (33, 20) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?"
@@ -162,4 +164,3 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) are decorative exterior with solid collision and no accessible entrance.
-- **Southwest Central Park Gateway**: Column 34 at rows 26-27 is a completely open, unblocked gateway directly connecting the south sidewalk (rows 27-28) north into Central Park plaza (row 25 and north).
