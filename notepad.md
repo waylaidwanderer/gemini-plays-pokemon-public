@@ -727,12 +727,14 @@
 ### Hypothesis H46: Commercial Building Roof Corridor Audit (Concluded Turn 18703)
 - **Outcome**: Audited rows 20-22 across columns 47-51 beneath commercial building roof canopy. Confirmed row 23 is solid south wall; rows 20-22 form a continuous covered passageway terminating east at column 52 with the Route 2 story barrier ("I can't go yet... I have things to do!"). Zero interactive doors, switches, or hidden triggers exist beneath the roof canopy.
 
+### Hypothesis H47: Metro Station Lobby Systematic Tile & Boundary Audit (Concluded Turn 18818)
+- **Outcome**: Systematically stepped on all lobby floor coordinates across rows 22-25, columns 18-24. Probed west waiting chairs at (17, 22-24) (inert), west pillar at (18, 21) (inert), east pillar at (20, 21) (inert), and timetable at (21-23, 23) (flavor text). Turnstile at (19, 21) strictly triggers 'I should find dad first!'. Zero hidden triggers, items, or switches exist in the Metro lobby.
+
 ## Active Hypotheses for Progression
-### Hypothesis H47: Metro Station Lobby Systematic Tile & Boundary Audit
-- **Premise**: Jackson investigated the tremor outside in Sovio City and remains missing; sewer storage room at (37, 14) displays 'Its a simple storage room...' with solid collision and no Siara presence. Turnstile gate (19, 21) enforces 'I should find dad first!'. A conductor NPC is seated on the platform side. We hypothesize an untriggered event tile or interaction in the Metro Station lobby is required to advance the departure sequence.
+### Hypothesis H48: Regional Transit & Overworld Event Trigger Audit
+- **Premise**: With sewers, Metro lobby, and town buildings audited, the departure blocker ('I should find dad first!') requires an external event trigger. We hypothesize Dad's whereabouts or the story progression flag is located along the Route 1 / Lancio Town regional axis or requires a specific overworld trigger.
 - **Immediate Plan**:
-  1. Re-enter Metro Station from Central Plaza (48, 17).
-  2. Systematically step on every tile in the lobby footprint (rows 22-25, columns 18-24).
-  3. Probe lobby chairs (cols 16-17, rows 22-24), timetable columns (21-23), and ticket pillars.
+  1. Exit Metro Station to Central Plaza (48, 18).
+  2. Re-examine Central Plaza and Route 1 connection for story advancement triggers.
 
 <hr>
