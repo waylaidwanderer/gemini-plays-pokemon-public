@@ -23,7 +23,7 @@
 - **Falsification Threshold**: If Route 1 landmarks (Cottage, Duke, Sonia, Mike) and Lancio Town anchors (Professor Ivo, lab basement, harbor dock) remain strictly in their initial baseline states, H66 is falsified.
 - **Protocol**:
   1. Transition to Route 1 at (53, 0). [COMPLETED - Turn 19472]
-  2. Audit Route 1 northeast meadow (Duke at 45, 12, Signpost at 50, 10). [COMPLETED - Turn 19474: Duke verified baseline post-defeat flavor text]
-  3. Route west via Row 9/10 bypass corridor to Cottage (37, 24) and clearing. [ACTIVE]
+  2. Audit Route 1 NPCs (Duke, Sonia, Mike). [COMPLETED - Turns 19474-19487: Duke, Sonia, and Mike all verified baseline post-defeat flavor text]
+  3. Route via column 30 to Cottage (37, 24) and audit interior. [ACTIVE]
   4. Enter Lancio Town and audit Professor Ivo's Lab and Harbor Dock.
-- **Status**: ACTIVE. Step 3 (westbound transit via bypass corridor) underway.
+- **Status**: ACTIVE. Step 3 (Cottage audit) underway.
