@@ -724,8 +724,15 @@
 ### Hypothesis H45: Sovio Sewers Physical Obstacles (Concluded Turn 18563)
 - **Outcome**: Verified both southwest rock (10, 18) and Dark Sector rock (22, 10) require specialized equipment. Perimeter bounds transferred to Locations/Sovio_Sewers. Subterranean exploration gated until equipment obtained.
 
-## Active Hypotheses for Progression
 ### Hypothesis H46: Commercial Building Roof Corridor Audit (Concluded Turn 18703)
 - **Outcome**: Audited rows 20-22 across columns 47-51 beneath commercial building roof canopy. Confirmed row 23 is solid south wall; rows 20-22 form a continuous covered passageway terminating east at column 52 with the Route 2 story barrier ("I can't go yet... I have things to do!"). Zero interactive doors, switches, or hidden triggers exist beneath the roof canopy.
+
+## Active Hypotheses for Progression
+### Hypothesis H47: Sewer Storage Room Key & Metro Station Staff Investigation
+- **Premise**: Jackson was captured by Team Siara and locked in the sewer storage room at (37, 14). Following the grunts' retreat, the storage room door remains locked/blocked ("Its a simple storage room.."). The departure blocker ("I should find dad first!") will only resolve once Jackson is freed. We hypothesize a key, switch, or trigger was left behind by the grunts or is located in the Metro Station.
+- **Immediate Plan**:
+  1. Enter Metro Station lobby from Central Plaza.
+  2. Inspect Metro Station lobby fixtures and boundaries.
+  3. Re-enter sewers to inspect Grunt battle platforms (Grunt 2 at 18, 21-22) for dropped keys or triggers.
 
 <hr>
