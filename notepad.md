@@ -681,5 +681,6 @@
      - Battle 3: Pidgey Lv3 -> +23 EXP (Sirius: 2691 EXP, Deficit: 429 EXP).
      - Battle 4: Nidoran♂ Lv3 -> +25 EXP (Sirius: 2716 EXP, Deficit: 404 EXP).
      - Battle 5: Mareep Lv2 -> +16 EXP (Sirius: 2732 EXP, Deficit: 388 EXP).
+     - Battle 6: Rattata Lv3 -> +24 EXP (Sirius: 2756 EXP, Deficit: 364 EXP).
 
 <hr>
