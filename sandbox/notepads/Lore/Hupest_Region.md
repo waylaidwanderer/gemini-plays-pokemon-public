@@ -52,13 +52,16 @@
 ## Verified Regional World Map Topology
 - **Inizio Isle**: Isolated green island node in the far southwest ocean; Asher's hometown.
 - **Lancio Town**: Coastal green node on the southwest tip of the mainland. Connects northeast via Route 1 to Sovio City. Location of Professor Ivo's Lab.
+- **Route 1**: Coastal route connecting Lancio Town to Sovio City.
 - **Sovio City**: Red rectangular urban node (subtitle: "Metro Station"). Connects southwest via Route 1 to Lancio Town, and east via Route 2.
-- **Route 2**: Regional highway extending east from Sovio City. Splits into:
-  1. Northern mountain route passing through **Mt. Gerhana** directly to Samurion City.
-  2. Southern coastal route passing through **Azluf Town** directly to Samurion City.
-- **Mt. Gerhana**: Mountain landmark and waypoint located between Sovio City and Samurion City.
+- **Route 2**: Coastal highway extending east from Sovio City to Azluf Town.
 - **Azluf Town**: Coastal green town node located southeast of Sovio City along the southern shore.
-- **Samurion City**: Major port/industrial city on the south-central coast (red node with Pokï¿½ Ball symbol, subtitle: "Metro Station"). Connects west to Sovio City via Route 2 (coastal and mountain branches), and north directly to Amor City via dual Metro train tracks.
-- **Amor City**: Giant blue central metropolitan hub of Hupest. Regional capital and host city of the Eclipse Tournament / Amor Sports Center. Major transit hub with routes radiating to all quadrants.
+- **Route 3**: Southern coastal highway connecting Azluf Town east to Samurion City.
+- **Mt. Gerhana**: Mountain landmark and waypoint located between Sovio City and Samurion City along northern mountain route.
+- **Samurion City**: Major port/industrial city on the south-central coast (red node with Poké Ball symbol). Connects west to Azluf Town via Route 3 and Mt. Gerhana, and north to Amor City via Route 4.
+- **Route 4**: Dual railway transit corridor connecting Samurion City north to Amor City.
+- **Amor City**: Giant blue central metropolitan hub of Hupest (subtitle: "Metro Station"). Regional capital and host city of the Eclipse Tournament / Amor Sports Center.
+- **Route 16**: Eastern highway connecting Amor City east to Aurin Town.
+- **Aurin Town**: Green town node located east of Amor City.
 - **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
 - **Southeast Offshore Island**: Island containing 1 red town and 1 blue coastal port.
