@@ -721,11 +721,15 @@
 - **H53**: Tan Building facade (32-37, 12) confirmed 100% solid foundation wall.
 - **H54**: Turnstile 'A' has zero interaction; platform chairs verified empty (no conductor).
 - **H55**: Southwest Building (18-21, 26-29) confirmed solid decorative exterior.
+- **H56**: HuPhone portable PC audited. Nugget withdrawn into active Bag; mailbox confirmed empty.
+
+## Critical Grounding: Jackson Status Audit
+- **Summary Hallucination Identified**: Past context summary (turns 2279-2716) claimed Jackson was freed. Grounded game evidence confirms Jackson was NEVER freed and remains missing.
+- **Current Objective Grounding**: Metro turnstile explicitly commands "I should find dad first!". Route 2 exit blocks with "I can't go yet... I have things to do!". Both confirm locating Dad is the required prerequisite.
 
 ## Active Hypotheses for Progression
-### Hypothesis H56: Inventory & Mailbox Audit
-- **Premise**: Checking portable PC for unread mail or system flags. Withdrawing Nugget into Bag.
-- **Test Plan**: Withdraw Nugget, check Mailbox, close HuPhone.
-
+### Hypothesis H57: Locating Jackson in Sovio City
+- **Premise**: When the tremor occurred, Dad ran outside from the Metro Station into Sovio City to investigate. Asher must locate Dad in Sovio City to resolve the blocker.
+- **Test Plan**: 1. Exit HuPhone. 2. Re-examine Sovio City for any triggers, missed interactions, or locations Dad could have investigated.
 
 <hr>
