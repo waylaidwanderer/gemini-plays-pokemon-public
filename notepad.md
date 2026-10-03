@@ -285,8 +285,7 @@
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-31)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-31) features brown wooden siding, blue windowpanes, and decorative wooden shutters.
 
   - **Upper Roof Perimeter & Collision**:
-
-    - Walkable corridor beneath roof graphic connects row 19 through rows 20-22 east to column 52.
+    - Walkable corridor beneath roof graphic extends along row 22 from column 47 to column 51, connecting north via column 51 to row 19, and east to column 52 (Route 2 barrier). Column 46 and row 23 are solid building walls. Verified no doors or secret passages exist under the roof.
 
   - **Southern Facade & Perimeter Collision**:
 
