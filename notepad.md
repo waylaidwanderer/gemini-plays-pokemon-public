@@ -268,6 +268,7 @@
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior.
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid..."). Fixtures along north wall (row 30): Stove at (63, 30) ("The stove is on... Something's boiling."), Refrigerator at (64, 30) ("Its a fridge... Seems be from the newest brand."), Television at (65, 30) ("The TV is off..."). Dining table at (65, 32).
+  - **Terrace Exterior Audit**: Terrace extends east to column 51 across rows 14-16. Modern high-rise building starts at column 52; solid wall at (52, 15) and (51, 14). Decorative circular manhole cover on terrace floor at (51, 16) is inert. Tile (51, 17) is walkable behind the right post of the signpost (51, 18).
 
 ## Southeast Corridor & Central Park
 - **Southwest Central Park Gateway**: Column 34 at rows 26-27 is a completely open, unblocked gateway directly connecting the south sidewalk (rows 27-28) north into Central Park plaza (row 25 and north).
