@@ -722,17 +722,17 @@
 - **Audited Targets & Protocol**:
   1. Return north via Route 1 to Sovio City. [COMPLETED - Turn 19638]
   2. Audit Residential House Northwest (Karate / Machop House at 14, 15). [AUDITED - BASELINE]
-     - Karate trainer at (3, 34): Baseline debate text ("We are having a debate over which fighting stlye is better... My girlfriend says kickbox is far better than karate...").
-     - Family Machop at (7, 33): Baseline ("Machop: Chop Chop!" / "He seems a bit agressive...").
-     - Blonde girlfriend at (3, 33): Baseline debate text ("We are having a debate over which fighting stlye is better...").
-     - Conclusion: House 1 is 100% baseline flavor text. Zero items/leads.
-  3. Audit Residential House Central-West (Gumball House at 29, 14). [PENDING - ACTIVE]
-  4. Audit Residential House North-Central (Wii House at 39, 7).
+     - Karate trainer (3, 34), Machop (7, 33), Girlfriend (3, 33) all verified baseline debate flavor text. Zero items/leads.
+  3. Audit Residential House Central-West (Gumball House at 29, 14). [AUDITED - BASELINE]
+     - Resident boy at (25, 32): Baseline ("I love this show!").
+     - Mother at (27, 33): Baseline ("My son is watching some cartoon...").
+     - Conclusion: House 2 is 100% baseline flavor text. Zero items/leads.
+  4. Audit Residential House North-Central (Wii House at 39, 7). [PENDING - ACTIVE]
   5. Audit Terrace House above Metro (Nana's House at 49, 14).
   6. Audit Name Rater House at (31, 26).
 - **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
 - **Falsification Threshold**: If all 5 residential interiors remain strictly in their baseline flavor states, H67 is falsified.
-- **Status**: ACTIVE. House 1 completed baseline; moving to House 2 (Gumball House).
+- **Status**: ACTIVE. House 1 & 2 completed baseline; moving to House 3 (Wii House).
 
 
 <hr>
