@@ -84,7 +84,7 @@
 
   - Framed regional map on wall at (17, 8): Interacting facing Left from (18, 8) displays 'A Town Map.'
 
-  - Red rug, table, and PC terminal in western wing.
+  - Western wing breakroom: table with coffee cup on red rug (cols 5-6, rows 7-8), refrigerator at (7, 5), sink at (5, 5), TV at (3, 5), bookshelf at (1, 5) (all decorative breakroom fixtures).
 
 - Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
 
