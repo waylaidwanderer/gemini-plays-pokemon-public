@@ -21,6 +21,6 @@
 - **Protocol**:
   1. Exit Karate House to West Avenue. [COMPLETED: Turn 20137]
   2. Travel east along West Avenue and northern boulevard to Sovio City Pokémon Center (44, 12).
-  3. Speak to Straw-hat Camper at (5, 7) with Antidote in Bag to test if 'Medic!' sidequest initiates.
+  3. Speak to Straw-hat Camper at (5, 7) with Antidote in Bag to test if 'Medic!' sidequest initiates. [COMPLETED: Turn 20144-20145. FALSIFIED: Camper dialogue remains strictly identical ambient text ('My weedle got poisoned so I will need the Pokémon Center\'s service! Ironic isn\'t it?'), with zero quest prompt or item reaction. H85a falsified.]
   4. If Camper remains ambient flavor, travel through Route 1 to Lancio Town Lab to test Professor Ivo for 'Egg Research'.
 - **Falsification Criteria**: If the Camper's dialogue remains strictly identical and no quest prompt is offered, H85a (Camper = Medic!) is falsified.
