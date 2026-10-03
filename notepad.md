@@ -712,28 +712,24 @@
 
 ## Jackson & Narrative Status Audit
 - **Narrative Truth**: Jackson ran outside the Sovio Metro Station into Sovio City to investigate the seismic tremor.
-- **Route 1 & Lancio Town Falsification**: Route 1 and Lancio Town are baseline starting areas with zero link to Jackson's disappearance.
 - **Sovio Metro Lobby Audits**: Timetable board is decorative flavor text. Turnstile passage at (19, 21) triggers "I should find dad first!".
 
 ## Concluded Hypotheses
 - H60 (Night Cycle), H61 (Inventory/Triggers), H62 (Corridor), H63 (Lobby & Storage Room): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
+- H65 (Sovio City Exterior Paths & NPCs): FALSIFIED. Exterior corridors, Route 2 barrier (52, 19), West Ave rear lane (col 12), and Central Park NPCs (Boy in pink shirt, Little Girl, Jigglypuff, east walkway) verified static with zero progression flags.
 
 ## Active Hypotheses for Progression
-### Hypothesis H65: Sovio City Surface Event Trigger & NPC Protocol - FALSIFIED
-- **Premise**: Progression trigger for Jackson resides on the Sovio City surface or via surface dialogue flags.
-- **Audit Findings**:
-  1. Central Plaza (44, 12-19): Zero NPCs present; perimeter inert.
-  2. Route 2 Barrier (52, 19-22): Verbatim 'I can't go yet... I have things to do!' re-verified 100% active at (52, 19) (Turn 19450).
-  3. West Avenue & Rear Lane (cols 11-28): Boy Rocky verified flavor text; Bikers verified flavor text; column 11 modern office wall verified continuous solid collision with zero doors/openings.
-  4. Central Park (rows 18-28): Boy in pink shirt (33, 20), Little Girl (33, 28), Jigglypuff (34, 28), and east walkway verified ambient flavor text.
-- **Conclusion**: FALSIFIED. Sovio City surface is 100% audited and static; no progression trigger exists on the surface.
-
 ### Hypothesis H66: Southern Transit & Regional Anchor Audit (Route 1 & Lancio Town)
-- **Premise**: With Sovio City surface and Metro lobby verified static and blocked, the trigger for Jackson or main story progression lies in the connected southern sectors (Route 1 landmarks or Professor Ivo's Lab in Lancio Town).
+- **Premise**: With Sovio City surface paths and Metro lobby verified static and blocked, test whether Jackson or regional story progression anchors exist in the accessible southern region (Route 1 landmarks and Professor Ivo's Lab in Lancio Town).
+- **Falsifiable Success Criteria**:
+  1. Route 1: Any NPC offering non-flavor dialogue regarding the tremor, Team Siara, or Jackson's movements, or an updated physical passage.
+  2. Lancio Town: Professor Ivo acknowledging the Eclipse incident / Jackson, unlocking the lab basement stairs at (12, 7), or Harry returning to the dock.
+- **Falsification Threshold**: If Route 1 landmarks (Cottage, Duke, Sonia, Mike) and Lancio Town anchors (Professor Ivo, lab basement, harbor dock) remain strictly in their initial baseline states, H66 is falsified.
 - **Protocol**:
-  1. Walk south via Southern Avenue (cols 14-15) to Route 1 transition at (53, 0).
-  2. Audit Route 1 northern clearing, cottage (37, 24), and trainers/NPCs.
-  3. Enter Lancio Town and consult Professor Ivo at her laboratory regarding the Eclipse incident and Jackson.
-- **Status**: ACTIVE. Step 1 (heading to Southern Avenue exit) underway.
+  1. Transition to Route 1 at (53, 0). [COMPLETED - Turn 19472]
+  2. Audit Route 1 northeast meadow (Duke at 45, 12, Signpost at 50, 10). [ACTIVE]
+  3. Route west via Row 9/10 bypass corridor to Cottage (37, 24) and clearing.
+  4. Enter Lancio Town and audit Professor Ivo's Lab and Harbor Dock.
+- **Status**: ACTIVE. Step 2 (Route 1 northeast meadow audit) underway.
 
 <hr>
