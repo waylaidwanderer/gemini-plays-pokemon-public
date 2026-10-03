@@ -19,5 +19,12 @@
 - H80 (Southwest Building West Facade Audit - Turns 20004-20006): FALSIFIED. Navigated to sidewalk at (17, 26-27). Facing East into (18, 26) and (18, 27) and pressing A confirms solid, inert building facade with decorative blue windowpanes; zero doors, warps, or story triggers exist.
 
 ## Active Hypotheses for Progression
+### Hypothesis H83: Sovio Sewers Jackson Rescue & Storage Room Mechanism Audit (Started: Turn 20029)
+- **Premise**: When the tremor occurred, Team Siara abducted Jackson into the Sovio Sewers. Asher defeated the grunts guarding the storage room (37, 14), after which Marie retreated. However, Jackson was never witnessed being freed, and the storage room was never entered (inspected as "Its a simple storage room.." with solid collision at 37, 15). The turnstile block ("I should find dad first!") remains active because Jackson has not been rescued. We audit the sewers for dropped keys from defeated grunts, hidden switches, or alternative entry mechanisms to access the storage room and rescue Jackson.
+- **Protocol**:
+  1. Dismiss signpost text at (50, 19), enter Metro Station at (48, 17), and descend into Sovio Sewers via (18-19, 25).
+  2. Audit grunt defeat tiles along the western corridor (cols 16-18, rows 21-26) and eastern catwalk for dropped keys or hidden items.
+  3. Re-examine the storage room platform (36-38, 12-14) and adjacent wall geometry for entry switches or triggers.
+- **Falsifiable Success Criteria**: Locating a dropped key/item, unlocking the storage room, triggering a dialogue scene with Jackson, or clearing the turnstile block.
 
 
