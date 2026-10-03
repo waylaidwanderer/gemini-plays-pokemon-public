@@ -23,8 +23,7 @@
 ## Bag Audit Results (Turn 20085)
 - **Items Pocket**: Potion x1, Poison Barb x1, Antidote x1, Nugget x1.
 - All pockets confirmed standard baseline. No key items, mail, or special items pending.
-- Proceeding to Protocol 4: Comprehensive audit of Metro Station lobby boundaries and unexamined surface triggers.
+
 ## Metro Station Lobby Audit Results (Turn 20099)
 - Turnstile (19, 21) confirmed firmly blocked by scripted prompt: "I should find dad first!", pushing Asher to (19, 22).
 - Lobby and visible platform 100% verified empty.
-- Proceeding to Protocol 5: Systematic investigation of Central Plaza and surface triggers.
