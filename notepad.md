@@ -500,9 +500,6 @@
 - **Amor City**: Capital city of the Hupest Region.
 - **Amor Sports Center**: Facility in Amor City where trainers go to register/qualify for the Eclipse Tournament.
 - **Lancio Town**: Town where Mrs. Ivo's Pokémon Lab is located.
-- **Samurion City**: Major city on the south-central coast featuring a Metro Station; connects west toward Sovio City and north directly to Amor City.
-- **Mt. Gerhana**: Mountain landmark/route junction located east of Sovio City along the path to Samurion City.
-- **Azluf Town**: Coastal green node located southeast of Sovio City along Route 2; connects northwest via Route 2 to Sovio City, and east along the coast to Samurion City.
 
 ## Key Items & Technology
 - **HuPhone**: Multi-purpose regional device (gifted by Dad on departure morning); stored in Key Items pocket.
@@ -662,7 +659,6 @@
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
 - **Level**: Lv15
-- **Max HP**: 42 (Current HP: 42/42, Status: None)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 42 (C), Attack 28 (C+), Defense 29 (A-), Sp. Atk 20 (C-), Sp. Def 23 (E), Speed 20 (C-)

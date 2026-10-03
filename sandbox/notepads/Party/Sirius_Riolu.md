@@ -5,7 +5,6 @@
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
 - **Level**: Lv15
-- **Max HP**: 42 (Current HP: 42/42, Status: None)
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 42 (C), Attack 28 (C+), Defense 29 (A-), Sp. Atk 20 (C-), Sp. Def 23 (E), Speed 20 (C-)
