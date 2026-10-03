@@ -708,23 +708,16 @@
 - **Storage Room (37, 14)**: Verified single static inspection trigger ("Its a simple storage room..") with solid collision at (37, 15); platform fully audited.
 
 ## Concluded Hypotheses
-- H60-H91 (Comprehensive Baseline Sweeps - Turns 7232-20412): FALSIFIED. Sewers cleared and vacated post-Marie retreat (storage room 37, 14 static trigger; grunt platforms empty bare stone; rugged rocks equipment-gated). Surface residences verified static Easter eggs (Wii house 39, 7 Sonic game; Gumball house 29, 14 TV humor and 2F bed comedy dialogue 'Wait why am I all alone in a sleeping girl's room?!'; Karate house 14, 15 flavor; Terrace house 49, 14 cooking flavor; Name Rater 31, 26 service). Covered roof corridor (cols 47-51, row 22) verified dead-end connecting to Route 2 barrier. System state (Bag 4 items, HuPhone, TM Case; Party Sirius Lv16, Zephyr Lv2; Trainer Card; Quest Log 0 active) verified clean with zero pending items/quests.
-- H92 (Outdoor Fringes & Regional Connections - Turns 20415-20431): FALSIFIED. Central Park south sidewalk entities (Boy at 35, 28, Jigglypuff at 34, 28, Little Girl at 33, 28) verified ambient flavor text. Southern Avenue (rows 28-40) verified open transit corridor to Route 1 with zero leads. Lancio Town trek aborted per Burden of Proof (no game state variables changed since Turn 243).
-- H93 (Sovio Central Story Sites & Metro Gate Preconditions - Turns 20443-20488): FALSIFIED.
-  - Variable 1 (Central Plaza tiles): Full sweep of columns 41-46 across rows 13-15 confirmed 100% devoid of hidden items, triggers, or interactions.
-  - Variable 2 (Clock/Timetable correlation): In-game Start Menu clock is real-time ticking (RTC), unlinked to the static 16:00 timetable text. Timetable is ambient world-building.
-  - Variable 3 (Metro Station lobby audit): Audited blue chairs, scanner pillars, and timetable board. Turnstile at (19, 21) reliably triggers "I should find dad first!" and pushes Asher down to (19, 22).
-  - Conclusion: No hidden local triggers or clock mechanisms exist in Central Plaza or the Metro Station lobby.
-- H94 (Sewers Storage Room Re-Audit - Turn 20521): FALSIFIED / INVALIDATED. Re-auditing storage room (37, 14) without intervening variable change violates Burden of Proof. Storage room (37, 14) is a verified static inspection trigger ("Its a simple storage room.."). Jackson was never verified held in sewers.
+- H60-H94 (Baseline Sweeps & Local Trigger Invalidation - Turns 7232-20521): FALSIFIED. Comprehensive audits across Sovio City, the Metro Station, and Sovio Sewers confirmed that all civilian residences (Wii house 39, 7; Gumball house 29, 14; Karate house 14, 15; Terrace house 49, 14; Name Rater 31, 26), Central Plaza confrontation ground tiles (cols 41-46, rows 13-15), in-game Start Menu RTC schedule correlation, Metro lobby fixtures/turnstiles, and post-retreat sewer platforms/storage rooms are 100% static with zero hidden progression triggers. Jackson was never verified held in the sewers, and local Sovio/sewer options are completely exhausted.
 
 ## Active Hypotheses for Progression
 ### Hypothesis H95: Regional Systematic Search & Untested Progression Mechanics
 - **Premise**: Progression in Sovio City is blocked at the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!"). Sovio City local residences, plaza tiles, and sewers are verified 100% static. Therefore, progression requires investigating untested regional mechanisms or external narrative triggers outside Sovio City.
 - **Isolated Testing Variables**:
-  1. Professor Ivo's Pokémon Laboratory (Lancio Town): Perform a comprehensive, deep audit of Professor Ivo, the incubator machine, the Town Map, the PC workstation, and the lab basement stairs trigger.
-  2. Lancio Town Harbor & Coastline: Audit the dock, fisherman, residents, and shoreline.
-  3. Route 1 Untested Features: Audit bird tracks, roadside NPCs, and clearing perimeters.
-- **Falsifiable Success Criteria**: Updating dialogue with Professor Ivo, obtaining an item/equipment (e.g. Rock Smash equipment or Cut), unlocking the lab basement, or changing the turnstile script at (19, 21).
+  1. Route 1 Untested Features: Audit bird tracks, roadside NPCs, cut trees, and clearing perimeters.
+  2. Professor Ivo's Pokémon Laboratory (Lancio Town): Perform a comprehensive, deep audit of Professor Ivo, the incubator machine, the Town Map, the PC workstation, and the lab basement stairs trigger.
+  3. Lancio Town Harbor & Coastline: Audit the dock, fisherman, residents, and shoreline.
+- **Falsifiable Success Criteria**: Updating dialogue with Professor Ivo, obtaining an item/equipment (e.g. Rock Smash equipment or Cut), unlocking the lab basement, discovering a new story trigger, or changing the turnstile script at (19, 21).
 
 
 <hr>
