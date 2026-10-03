@@ -73,7 +73,7 @@
 
 ## Overworld Residents & NPCs
 
-- **Green-haired Girl**: Located at (23, 15) facing right. Dialogue (ambient).
+- **Green-haired Girl**: Located at (23, 14-15) facing right. Verbatim dialogue: "Lancio has such pretty flowers, / I wanna collect them all!". Confirmed ambient resident.
 
 - **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
 
