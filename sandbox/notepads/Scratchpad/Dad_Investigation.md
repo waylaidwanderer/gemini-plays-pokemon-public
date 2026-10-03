@@ -33,7 +33,8 @@
      - Granddaughter (63, 33): Baseline ("Nana makes the best food! Weeeee!").
      - Nana (62, 31): Baseline ("I'm cooking something for my dear grandkid. She loves my cooking.").
      - Conclusion: House 4 is 100% baseline flavor text. Zero items/leads.
-  6. Audit Name Rater House at (31, 26). [AUDITING - Turn 19677]
+  6. Audit Name Rater House at (31, 26). [AUDITED - BASELINE]
+     - Name Rater (64, 14): Baseline nickname rating prompt ("Want me to rate the nicknames of your Pokémon?"). Zero Jackson leads.
 - **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
 - **Falsification Threshold**: If all 5 residential interiors remain strictly in their baseline flavor states, H67 is falsified.
-- **Status**: CONCLUDING. All 5 residential houses audited baseline. Private civilian houses confirmed devoid of progression flags.
+- **Status**: FALSIFIED. All 5 residential houses in Sovio City audited and confirmed 100% baseline. Civilian houses contain zero progression triggers or Jackson leads.
