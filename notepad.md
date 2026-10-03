@@ -720,13 +720,17 @@
 - H66 (Southern Regional Anchors & Route 1 Civilians): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, and all civilians (Grass boy at 11, 48; Camper at 17, 44; Pidgey boy at 34, 37; Science guy at 39, 37) audited as baseline flavor text. Lancio Town Lab (basement restricted, Prof Ivo and machine baseline) and Harbor Dock (pier empty, zero boats) verified 100% baseline.
 - H67 (Sovio City Residential Interiors): FALSIFIED. All 5 residential houses (Karate/Machop, Gumball, Wii, Nana's Terrace, Name Rater) audited baseline. Private civilian houses confirmed devoid of progression flags.
 - H68 (Sovio Metro Station Lobby & Turnstiles Deep Audit): FALSIFIED. West chairs (17, 23-24) and scanner pillars (18, 21; 20, 21) are decorative. Timetable board (21-23, 23) displays static destinations text. Turnstile (19, 21) remains strictly blocked ('I should find dad first!'). Platform chairs verified empty. Lobby contains zero active progression triggers or hidden switches.
-- H69 (Untracked Game Systems, Bag Pockets & Equipment Audit): CONCLUDED. Bag 100% audited (Potion x1, Poison Barb x1, Antidote x1, Nugget x1; Timer Ball x1, Poké Ball x10; HuPhone, TM Case; zero equipment/keys). Party verified (Sirius Lv15 Black Belt, Zephyr Lv2, zero field moves). Options menu verified (standard Gen 3, Button Mode: Help, zero custom toggles). HuPhone PC Item Storage empty ('There are no items.'), Mailbox empty ('There's no Mail here.'), Quest Status empty ('You aren't doing any Quest currently...'). Overworld L and R buttons tested inert.
+- H69 (Untracked Game Systems, Bag Pockets & Equipment Audit): CONCLUDED. Bag 100% audited (Potion x1, Poison Barb x1, Antidote x1, Nugget x1; Timer Ball x1, Poké Ball x10; HuPhone, TM Case; zero equipment/keys). Party verified with visual proof (Turn 19780: Sirius Lv15 Black Belt, Relaxed nature, Quick Feet, moves: Metal Claw, Quick Attack, Work Up, Mach Punch; Zephyr Lv2; zero field moves). Options menu verified (standard Gen 3, Button Mode: Help, zero custom toggles). HuPhone PC Item Storage empty ('There are no items.'), Mailbox empty ('There's no Mail here.'), Quest Status empty ('You aren't doing any Quest currently...'). Overworld L and R buttons tested inert.
 - H70 (Sovio City Elevated Terrace & Vantage Point Deep Audit): FALSIFIED. Swept all terrace floor tiles (cols 47-51, rows 14-16), tested round emblem at (50, 16) (decorative), windows, and perimeter railings. Terrace is completely devoid of NPCs, switches, or script triggers.
 
 ## Active Hypotheses for Progression
-- H71 (Central Plaza Corridor & Route 2 Approach - Turns 19763-19770): FALSIFIED. Route 2 barrier at (52, 19) re-confirmed active ('I can't go yet... I have things to do!'). Corridor beneath roof verified as documented under H62/H65.
-
-## Active Hypotheses for Progression
+### Hypothesis H72: Covered Corridor Deep Wall & Interior Audit (Started: Turn 19781)
+- **Premise**: With all game systems, Bag pockets, PC storage, and overworld civilians verified baseline, we audit the internal structure of the covered corridor (columns 47-51, rows 20-22) beneath the commercial building roof. We will systematically test every wall tile (north wall at row 20, south wall at row 23, west terminus at column 47) for hidden doors, switches, or interactable objects.
+- **Protocol**:
+  1. Exit Party screen and Start Menu back to overworld at (51, 20).
+  2. Sweep west along row 20 to column 47, inspecting northern wall tiles.
+  3. Sweep rows 21 and 22, inspecting southern wall tiles along row 23.
+- **Falsifiable Success Criteria**: Finding an interactive door, switch, or passage inside the covered corridor.
 
 
 <hr>
