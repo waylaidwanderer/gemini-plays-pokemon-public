@@ -674,4 +674,11 @@
   3. Inspect column 28 wall feature and test walkability/climbability from row 27 -> COMPLETE.
 - **Conclusion**: COMPLETE (FALSIFIED as interactive opening). (28, 23) is an inert 1x1 void/pit obstacle in the terrace floor. However, the investigation proved column 27 is an open vertical corridor (rows 22-26) linking the lower walkway (row 28) directly to the upper terrace (row 22) and northern corridor.
 
+## Active Hypothesis H122: Sovio City Post-Sewer Progression Trigger Audit
+- **Premise**: Team Siara has retreated from Sovio Sewers following Marie's directive. Jackson ran outside into Central Plaza during the tremor. Both the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") remain active. We hypothesize a progression trigger (updated NPC dialogue, outdoor trigger tile, or side quest interaction) exists in Sovio City or along Route 1.
+- **Milestones**:
+  1. Exit Metro Station to Central Plaza (48, 18) -> IN PROGRESS.
+  2. Inspect Central Plaza perimeter, elevated terrace (49, 14), and key outdoor NPCs in Sovio City to check for post-sewer dialogue updates.
+  3. If Sovio City dialogue remains ambient, audit Route 1 and Lancio Town for Page 1 side quests ("Egg Research", "Medic!", "Squirtle Gang").
+
 <hr>
