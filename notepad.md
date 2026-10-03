@@ -670,5 +670,6 @@
 - **Milestones**:
   1. Audit Party and Trainer Status: COMPLETE (Sirius Lv16, Zephyr Lv2, $6096, 6 crest silhouettes, 8 tournament round slots).
   2. Test persistent dialogue and specific interaction triggers with key figures (Professor Ivo, Valora's origin point, or quest NPCs).
+  3. Pokémon Center Camper Audit (Turn 21996-21997): Camper at (5, 7) verified ambient humor dialogue ("My weedle got poisoned... Ironic isn't it?") under zero active quests; does not offer "Medic!" quest or request Antidote.
 
 <hr>
