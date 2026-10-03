@@ -586,7 +586,6 @@
   - **Item Storage**: Submenu with Withdraw Item, Deposit Item, Toss Item, Cancel.
   - **Mailbox**: Portable PC mailbox (no mail present). 
   - **Turn Off**: Exits portable PC interface.
-- **World Map**: Static regional map viewer of Hupest with town nodes; does not show active quest pins or arrows.
 - **Quest Log Scope & Structure**:
   - Tracks side quests across 5 pages (23 named quests + 2 '- Not available -' slots). Main story progression milestones are NOT tracked in the Quest Log app.
   - **Page 1 Quests**:
