@@ -532,7 +532,6 @@
 - **The Tremor**: While Asher, Dad, and Valora prepared to board the train to Amor City inside the Sovio Metro Station, a sudden seismic tremor violently shook the station.
 - **Dad's Investigation**: Dad immediately ran outside into Sovio City to investigate the source of the tremor.
 - **Sovio Sewers & Team Siara Presence**: Asher discovered a hidden entrance behind a red mat in the Metro lobby leading down into the Sovio Sewers. Team Siara grunts guarded a storage room awaiting Commander Marie. Asher confronted the grunts until Marie broadcast a general radio retreat order, after which the grunts vacated the sewers.
-- **Jackson's Location Status**: Dad investigated the tremor outside in Sovio City and remains missing. While earlier notes hypothesized he was held in the sewers, exhaustive audits confirmed the sewer storage room is empty with zero Siara presence. His true location remains unresolved.
 
 ## Verified Regional World Map Topology (Audited Turn 18080)
 - **Inizio Isle**: Isolated green island node in the far southwest ocean; Asher's hometown.
