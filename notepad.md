@@ -727,7 +727,9 @@
      - Resident boy at (25, 32): Baseline ("I love this show!").
      - Mother at (27, 33): Baseline ("My son is watching some cartoon...").
      - Conclusion: House 2 is 100% baseline flavor text. Zero items/leads.
-  4. Audit Residential House North-Central (Wii House at 39, 7). [PENDING - ACTIVE]
+  4. Audit Residential House North-Central (Wii House at 39, 7). [IN PROGRESS]
+     - Elderly man 1F at (41, 33): AUDITED (Turn 19664) - Baseline ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever."). Zero items/leads.
+     - Resident boy 2F at (44, 14): AUDITING [ACTIVE].
   5. Audit Terrace House above Metro (Nana's House at 49, 14).
   6. Audit Name Rater House at (31, 26).
 - **Falsifiable Success Criteria**: Any resident offering updated dialogue regarding the tremor, Team Siara, Jackson, or granting a key/progression flag.
