@@ -680,7 +680,7 @@
 - **Premise**: Route 2 explicitly states 'I can't go yet... I have things to do!'. Page 1 of HuPhone Quest Log lists early quests: 'Medic!' (Quest 4), 'Squirtle Gang' (Quest 5), 'Egg Research' (Quest 3). Now that zero quests are active (Lost Toy was completed), test if Sovio NPCs trigger these quests or resolve story blockers.
 - **Milestones**:
   1. Exit Metro Station to Sovio City Central Plaza -> COMPLETE (Turn 22482).
-  2. Speak to Straw-hat Camper at (5, 7) in Pokémon Center to test for 'Medic!' quest trigger.
-  3. Speak to Bikers on West Avenue (13, 21-23) to test for 'Squirtle Gang' quest trigger.
+  2. Speak to Straw-hat Camper at (5, 7) -> COMPLETE (FALSIFIED). Camper repeats ambient Weedle dialogue under 0 active quests; does not trigger 'Medic!'.
+  3. Speak to Bikers on West Avenue (13, 21-23) to test for 'Squirtle Gang' quest trigger -> IN PROGRESS.
 
 <hr>
