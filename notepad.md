@@ -667,10 +667,6 @@
   - Target 1 (Transit Officer / Railing): Platform chairs empty (zero NPCs); row 22 col 21 solid brick wall.
   - Target 2 (Scanner Pillars): Both pillars (18, 21) and (20, 21) and west wall (17, 22) completely inert solid collision.
   - Target 3 (Vending Machine & Schedule Board): Vending machine unreachable on platform; Schedule board is decorative flavor text.
-- **Central Facilities Audit**: COMPLETE (FALSIFIED).
-  - Camper (5, 7): Strictly ambient flavor joke ("My weedle got poisoned... Ironic isn't it?"). Antidote does not trigger quest.
-  - PC Terminal (12, 1): Someone's PC Box 1 visually audited empty (30 empty slots); Asher's PC Item Storage and Mailbox empty.
-  - Framed Town Map (11, 0): Audited on screen; static regional reference map with zero active waypoints or route markers.
 
 ## Active Hypothesis H111: Systematic Audit of Central Plaza Tremor & Confrontation Nodes
 - **Premise**: Jackson ran outside into Central Plaza to investigate the seismic tremor. The tremor must have originated or left an observable trace at an outdoor node in Central Plaza (e.g. sewer manhole at 40, 13, plaza alleyway, or perimeter bounds).
@@ -680,12 +676,14 @@
 1. **Target 1: Central Plaza Sewer Manhole at (40, 13)**: COMPLETE (FALSIFIED).
    - Empirical Result: Approached from (40, 14) facing North into (40, 13) with A, and stepped directly onto (40, 13) with A. Confirmed completely inert decorative road graphic with zero text or access.
 
-2. **Target 2: Northern Central Plaza Alleyway & Perimeter (Column 40, Rows 7-12)**: IN PROGRESS.
-   - Candidate: The narrow corridor between Pokémon Center and tan building leading north to house (39, 7).
-   - Action: Walk North along column 40 from row 12 to row 8, inspect walls and door approach.
+2. **Target 2: Northern Central Plaza Alleyway & Perimeter (Column 40, Rows 7-12)**: COMPLETE (FALSIFIED).
+   - Empirical Result: Audited north wall (40, 7) and east corner (41, 8) next to Pokémon Center roof; confirmed solid foundation collision with zero interaction. The visual anomaly at the northwest roof corner (42, 6-7) was verified as a symmetrical architectural roof spire / antenna (identical to northeast roof corner spire). Northern alcove is completely enclosed with zero rear exits or hidden NPCs.
 
-## Architectural Audit: Pokémon Center Roof Corner
-- **Audit Result (Turns 21353-21357)**: FALSIFIED. The visual anomaly at the northwest roof corner is an architectural roof spire / antenna (symmetrical to the identical spire on the northeast roof corner). Tile (41, 7-8) terminates at solid building foundation. Northern alcove is completely enclosed with zero rear exits or NPCs.
+3. **Target 3: Central Plaza Planter & Pond Perimeter (Rows 15-17, Columns 38-43)**
+   - Candidate: The decorative raised stone curb, lawn, white/blue flower clusters, and water basin border at rows 15-16 directly south of the Pokémon Center.
+   - Action: Walk along row 15 from column 38 to 43, facing South into each curb/lawn tile (38-43, 16) and pressing A to test for hidden items or inspection triggers.
+   - Success: Dialogue, hidden item discovery sound/textbox, or structural tremor observation.
+   - Failure: Completely inert curb collision across all tested tiles with zero textbox.
 
 
 <hr>
