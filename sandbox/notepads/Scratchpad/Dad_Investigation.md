@@ -18,9 +18,9 @@
 ### Hypothesis H65: Sovio City Surface Event Trigger & NPC Protocol
 - **Premise**: Sewers and Metro lobby turnstiles are verified cleared and inert. Progression trigger for Jackson's location resides on the Sovio City surface or via a specific dialogue condition.
 - **Audited Targets & Protocol**:
-  1. Exit Pokémon Center to Central Plaza (44, 12).
-  2. Inspect Central Plaza perimeter and talk to the girl/resident near the Metro portal.
-  3. Re-verify the Route 2 barrier at (52, 19-22) and examine the building facade at (47-51, 20-22).
-  4. Inspect West Avenue rear lane (column 12) behind the Bikers and the office building wall at column 11.
+  1. Exit Pokémon Center to Central Plaza (44, 12). [COMPLETED - Turn 19447]
+  2. Inspect Central Plaza perimeter. [COMPLETED - Turn 19448: Visually verified zero NPCs in Central Plaza]
+  3. Re-verify Route 2 barrier at (52, 19-22). [COMPLETED - Turn 19450: Verbatim 'I can't go yet... I have things to do!' triggered at (52, 19); barrier 100% active]
+  4. Inspect West Avenue rear lane (column 12) behind the Bikers and the office building wall at column 11. [ACTIVE]
   5. Audit Central Park southern and eastern walkways for any new NPC or triggered event after sewer grunts retreated.
-- **Status**: ACTIVE. Step 1 (exit Pokémon Center) underway.
+- **Status**: ACTIVE. Step 4 (West Avenue rear lane & office wall) underway.
