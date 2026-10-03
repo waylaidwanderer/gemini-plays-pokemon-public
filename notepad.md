@@ -128,7 +128,7 @@
 
 - **Old Woman**: Located at (33, 8) near pond plaza. Dialogue: "With my husband we have been living here for over 30 years... I haven't grown up here though. I used to live in Sinnoh."
 
-- **Fisherman (Red Cap)**: Located at (38, 22) near the harbor dock. Shares ambient philosophical advice about staying calm and patient while fishing; does not provide items or story clues.
+- **Fisherman (Red Cap)**: Located at (38, 22) near the harbor dock. Verbatim dialogue: "You know kid... fishing taught me one very important thing in life. / However it goes, you must stay calm and patient, because if you do, good things might come." Does not provide Old Rod or story progression.
 
 - **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. The pier terminates at open water.
 
