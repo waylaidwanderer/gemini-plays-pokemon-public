@@ -599,7 +599,7 @@
 ## Start Menu Structure & Pokédex Status
 - **Start Menu Entries**: Displays Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit.
 - **Empirical Pokédex Status**: The Pokédex menu option is completely ABSENT from the Start Menu, confirming Asher does not currently possess a Pokédex device.
-- **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open (e.g., Time: 09:59:55).
+- **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open; synchronizes with host system clock (verified 11:54:54 at Turn 21971).
 
 <hr>
 
