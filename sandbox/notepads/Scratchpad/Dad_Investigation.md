@@ -18,19 +18,10 @@
   1. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
   2. Party Audit & Lead Reorder -> COMPLETE (Turn 22524). Sirius 100% audited across Pages 1-3. Zephyr swapped to Slot 1.
   3. Swap Sirius back to Slot 1 (lead) -> COMPLETE (Turn 22537). Sirius (Lv16 Riolu) confirmed lead; Zephyr (Lv2 Pidgey) in Slot 2.
-  4. Battle wild encounters on Route 1 to gain 482 EXP and level Sirius to Lv17 -> IN PROGRESS.
-     - Baseline EXP to Lv17: 482 EXP (Start: 2638 EXP, Target: 3120 EXP).
-     - Battle 1: Caterpie Lv2 -> +15 EXP (Sirius: 2653 EXP, Deficit: 467 EXP).
-     - Battle 2: Caterpie Lv2 -> +15 EXP (Sirius: 2668 EXP, Deficit: 452 EXP).
-     - Battle 3: Pidgey Lv3 -> +23 EXP (Sirius: 2691 EXP, Deficit: 429 EXP).
-     - Battle 4: Nidoran♂ Lv3 -> +25 EXP (Sirius: 2716 EXP, Deficit: 404 EXP).
-     - Battle 5: Mareep Lv2 -> +16 EXP (Sirius: 2732 EXP, Deficit: 388 EXP).
-     - Battle 6: Rattata Lv3 -> +24 EXP (Sirius: 2756 EXP, Deficit: 364 EXP).
-     - Battle 7: Weedle Lv2 -> +15 EXP (Sirius: 2771 EXP, Deficit: 349 EXP).
-     - Battle 8: Croagunk Lv5 -> +42 EXP (Sirius: 2813 EXP, Deficit: 307 EXP).
-     - Battle 9: Purrloin Lv4 -> +32 EXP (Sirius: 2845 EXP, Deficit: 275 EXP).
-     - Grind Route Pivot: Relocating to Sovio Sewers for high-yield encounters (Lv5-7 Dunsparce/Grimer ~80-120 EXP) to reach Lv17 in 3-4 battles instead of 18.
+  4. Battle wild encounters in Sovio Sewers to gain 482 EXP and level Sirius to Lv17 -> IN PROGRESS.
+     - Progress: Battles 1-9 (Route 1 & Sewers) yielded +207 EXP total. Sirius at 2845/3120 EXP (Deficit: 275 EXP).
+     - Active Venue: Sovio Sewers for high-yield encounters (40-120 EXP per battle).
   5. Falsification Protocol:
-     - Evolution Check: If Sirius hits Lv17 during daytime without evolving, friendship evolution premise is falsified.
-     - Blocker Checks: Inspect (1) Metro Turnstile (19, 21), (2) Route 2 exit (52, 19-22), (3) Professor Ivo in Lancio Lab (20, 6).
-     - Conclusion Rule: If all three remain static, H127 is 100% FALSIFIED.
+     - Evolution Check: If Sirius reaches Lv17 during daytime and does not evolve, evolution criteria was not met at this level.
+     - Blocker Checks upon Lv17: Inspect (1) Metro Turnstile (19, 21), (2) Route 2 exit (52, 19-22), (3) Professor Ivo in Lancio Lab (20, 6).
+     - Strict Cutoff: If all three remain static upon reaching Lv17, H127 is 100% FALSIFIED and closed; no further level grinding.
