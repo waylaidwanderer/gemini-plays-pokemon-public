@@ -672,9 +672,10 @@
 1. **Target 1: Transit Officer & Railing Interface (Columns 21-23, Row 22)**: COMPLETE (FALSIFIED).
    - Empirical Result: Visual inspection of platform confirms blue seats are empty (zero NPCs present on platform). Row 22 column 21 is solid brick foundation wall with no open counter/railing. Target 1 falsified.
 
-2. **Target 2: Scanner Pillars (Columns 18 & 20, Row 22)**: IN PROGRESS.
+2. **Target 2: Scanner Pillars (Columns 18 & 20, Row 22)**: COMPLETE (FALSIFIED).
    - Right Scanner Pillar (20, 21): Inspected facing North from (20, 22) with A -> completely inert solid collision with zero text.
-   - Left Scanner Pillar (18, 21): Currently testing from (18, 22) facing North.
+   - Left Scanner Pillar (18, 21): Inspected facing North from (18, 22) with A -> completely inert solid collision with zero text.
+   - West Wall (17, 22): Inspected facing West from (18, 22) with A -> completely inert solid collision. All scanner fixtures completely inert.
 
 3. **Target 3: Metro Station Vending Machine & Schedule Board Re-Check**
    - Action: Verify if vending machine can be interacted with across the western barrier or if secondary schedule board interactions exist.
