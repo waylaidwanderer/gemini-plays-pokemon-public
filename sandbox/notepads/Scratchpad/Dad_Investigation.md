@@ -25,3 +25,5 @@
      - *Platform & Fixtures Audit (Turns 21868-21952)*: Camera scroll at (19, 21) confirms uniformed transit officer seated in northeast platform chair facing left. Gate script at (19, 21) triggers "I should find dad first!" and forces player south to (19, 22). Left scanner pillar (18, 21) and right scanner pillar (20, 21) verified inert. West wall chairs (16, 23-25) verified inert.
      - *Terminal Audit (Turns 21896-21898)*: Someone's PC storage system (Box 1) audited at Sovio Pokémon Center; verified completely empty with zero stored Pokémon or eggs.
      - Synthesis: All interior facilities, terminals, and gate fixtures in Metro Station and Pokémon Center audited with zero unresolved leads. Jackson is not inside terminal facilities.
+  6. Elevated Terrace East Boundary Audit -> IN PROGRESS.
+     - Protocol: Navigate onto wooden terrace via (47, 15) curb, move to eastern terminus at (51, 16-17), and test collision/warps into column 52.
