@@ -715,8 +715,7 @@
 - **Narrative Truth**: Jackson ran outside the Sovio Metro Station into Sovio City to investigate the seismic tremor.
 
 ## Concluded Hypotheses
-- H60 (Night Cycle - Turns 19100-19150), H61 (Inventory/Triggers - Turns 19150-19200), H62 (Corridor - Turns 19200-19250), H63 (Lobby & Storage Room - Turns 19250-19300): FALSIFIED. Verified (37, 14) displays static text "Its a simple storage room..." with zero warps or triggers. Sewers fully cleared.
-- H65 (Sovio City Exterior Paths & NPCs - Turns 19440-19470): FALSIFIED. Exterior corridors, Route 2 barrier (52, 19), West Ave rear lane (col 12), and Central Park NPCs (Boy in pink shirt, Little Girl, Jigglypuff, east walkway) verified static with zero progression flags.
+- H60-H65 (Sewers, Lobby, Sovio City Exterior Corridors & NPCs - Turns 19100-19470): FALSIFIED. Sewers cleared, (37, 14) storage room static, exterior paths, barriers (52, 19), and civilians verified baseline.
 - H66 (Southern Regional Anchors & Route 1 Civilians): FALSIFIED. Route 1 trainers (Duke, Sonia, Mike), Cottage, and all civilians (Grass boy at 11, 48; Camper at 17, 44; Pidgey boy at 34, 37; Science guy at 39, 37) audited as baseline flavor text. Lancio Town Lab (basement restricted, Prof Ivo and machine baseline) and Harbor Dock (pier empty, zero boats) verified 100% baseline.
 - H67 (Sovio City Residential Interiors - Turns 19611-19688): FALSIFIED. All 5 residential houses (Karate/Machop, Gumball, Wii, Nana's Terrace, Name Rater) audited baseline. Private civilian houses confirmed devoid of progression flags.
 - H68 (Sovio Metro Station Lobby & Turnstiles Deep Audit - Turns 19700-19714): FALSIFIED. West chairs (17, 23-24) and scanner pillars (18, 21; 20, 21) are decorative. Timetable board (21-23, 23) displays static destinations text. Turnstile (19, 21) remains strictly blocked ('I should find dad first!'). Platform chairs verified empty. Lobby contains zero active progression triggers or hidden switches.
