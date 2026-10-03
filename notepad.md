@@ -732,6 +732,7 @@
   3. Access PC at (12, 1): check Someone's PC (Boxes, Move Items) and Professor evaluation.
   4. Access Town Map at (11, 0): inspect regional node descriptions.
 - **Falsifiable Success Criteria**: Finding a deposited/gift Pokémon, stored item, or narrative cue on the PC or Town Map.
+- Someone's PC Audit (Turn 19795): Box 1 visually confirmed completely empty (0/30 slots occupied, PKMN Data gray/blank). Zero deposited or gift Pokémon.
 
 
 <hr>
