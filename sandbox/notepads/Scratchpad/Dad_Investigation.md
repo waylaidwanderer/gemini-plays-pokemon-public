@@ -31,3 +31,7 @@
 2. **Target 2: Northern Central Plaza Alleyway & Perimeter (Column 40, Rows 7-12)**: IN PROGRESS.
    - Candidate: The narrow corridor between Pokémon Center and tan building leading north to house (39, 7).
    - Action: Walk North along column 40 from row 12 to row 8, inspect walls and door approach.
+
+## Breakthrough: Uncontacted NPC Discovered Behind Pokémon Center!
+- **Discovery (Turn 21353)**: Visual inspection of the northern alcove revealed an NPC sprite clearly visible behind the northwest apex of the Pokémon Center roof at columns 41-42, rows 6-7 (wearing blue/cyan clothes/hair).
+- **Target**: Approach the NPC along column 41 (rows 7-8) and initiate dialogue.
