@@ -677,13 +677,9 @@
    - Left Scanner Pillar (18, 21): Inspected facing North from (18, 22) with A -> completely inert solid collision with zero text.
    - West Wall (17, 22): Inspected facing West from (18, 22) with A -> completely inert solid collision. All scanner fixtures completely inert.
 
-3. **Target 3: Metro Station Vending Machine & Schedule Board Re-Check**
-   - Action: Verify if vending machine can be interacted with across the western barrier or if secondary schedule board interactions exist.
-
-## Facilities Audit (Sovio Pokémon Center)
-- **Straw-Hat Camper (5, 7)**: COMPLETE (FALSIFIED). Spoke with Camper while carrying Antidote in bag. Text displayed verbatim ambient dialogue ("My weedle got poisoned... Ironic isn't it?"). Zero quest trigger or item handoff.
-- **Resident Boy (8, 6)**: Ambient dialogue ('Please feel free to use that PC in the corner.').
-- **PC Terminal (12, 1)**: COMPLETE (FALSIFIED). Someone's PC Box 1 visually audited on screen; 100% empty (30 empty slots, no stored or gift Pokémon). Asher's PC Item Storage and Mailbox previously confirmed empty via HuPhone PC app. Zero items or Pokémon in PC storage.
+3. **Target 3: Metro Station Vending Machine & Schedule Board Re-Check**: COMPLETE (FALSIFIED).
+   - Vending Machine: Located inside the train platform at (18, 17); physically unreachable from lobby due to solid brick wall and turnstile gate.
+   - Schedule Board (21-23, 23): Re-inspected across all columns; confirmed 100% static decorative flavor text ("It's a timetable showing various destinations!"). Zero interactive depth or story triggers. Hypothesis H110 fully concluded.
 
 
 <hr>
