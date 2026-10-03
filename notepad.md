@@ -736,6 +736,7 @@
 - Option Menu Audit (Turn 19735): Standard 7-item Gen 3 Option menu (Text Speed: Fast, Battle Scene: On, Battle Style: Shift, Sound: Stereo, Button Mode: Help, Frame: Type 1, Cancel). Confirmed zero custom engine toggles, auto-run settings, or difficulty modes.
 - HuPhone PC Storage Audit (Turn 19743): 'Withdraw Item' verified completely empty ('There are no items.'). 'Mailbox' verified completely empty ('There's no Mail here.'). Party Sirius summary pending visual inspection.
 - HuPhone Quest Status (Turn 19747): Confirmed 'You aren't doing any Quest currently...'. Zero active quests.
+- Sirius Profile Audit (Turn 19751): Visually verified Sirius (Riolu Lv15, holding Black Belt, Relaxed nature, Quick Feet, moves: Metal Claw, Quick Attack, Work Up, Mach Punch). Confirmed zero field moves.
 
 
 <hr>
