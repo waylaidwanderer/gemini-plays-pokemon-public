@@ -24,6 +24,6 @@
   - Turns 20967-20969 Framed Town Map (11, 0): Standard regional map display, identical to HuPhone World Map.
 - **Investigative Avenues**:
   1. **Sovio Pokémon Center Audit**: CONCLUDED. All internal fixtures (Nurse Joy, PC terminal, Town Map) verified 100% standard with zero story flags.
-  2. **Route 2 Eastern Boundary ("I can't go yet... I have things to do!")**: Re-evaluate what explicit prerequisites ("things to do") are required before Asher can leave Sovio City.
+  2. **Route 2 Eastern Boundary ("I can't go yet... I have things to do!")**: CONCLUDED. Re-confirmed active at (52, 19) in Turn 20974 verbatim: "I can't go yet... I have things to do!".
   3. **Central Plaza & Outdoor Narrative Re-evaluation**: Re-examine Central Plaza confrontation grounds and outdoor environment for story triggers.
 - **Falsifiable Success Criteria**: Triggering a new story dialogue/cutscene, learning Jackson's true status, or lifting the turnstile blocker ("I should find dad first!").
