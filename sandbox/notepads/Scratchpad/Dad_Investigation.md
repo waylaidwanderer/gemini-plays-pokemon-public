@@ -27,6 +27,7 @@
      - Battle 5: Mareep Lv2 -> +16 EXP (Sirius: 2732 EXP, Deficit: 388 EXP).
      - Battle 6: Rattata Lv3 -> +24 EXP (Sirius: 2756 EXP, Deficit: 364 EXP).
      - Battle 7: Weedle Lv2 -> +15 EXP (Sirius: 2771 EXP, Deficit: 349 EXP).
+     - Battle 8: Croagunk Lv5 -> +42 EXP (Sirius: 2813 EXP, Deficit: 307 EXP).
      - Grind Route Pivot: Relocating to Sovio Sewers for high-yield encounters (Lv5-7 Dunsparce/Grimer ~80-120 EXP) to reach Lv17 in 3-4 battles instead of 18.
   5. Falsification Protocol:
      - Evolution Check: If Sirius hits Lv17 during daytime without evolving, friendship evolution premise is falsified.
