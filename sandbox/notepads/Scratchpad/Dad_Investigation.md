@@ -20,7 +20,8 @@
   2. **Professor Ivo's Pokémon Laboratory**:
      - Professor Ivo at (20, 6): Baseline is "Hey, Ashi, how's your new Pokémon?".
        - Result (Turn 20683-20684): FALSIFIED. Textbox verbatim displayed baseline ("Hey, Ashi, how's your new Pokémon?"). Zero updated story dialogue regarding Dad, the tremor, or Team Siara. Confirmed 100% static ambient flavor.
-     - Lab Basement Stairs at (12, 7): Baseline is "I probably shouldn't head down here...". Test if barrier lifts or trigger activates.
+     - Lab Basement Stairs at (12, 7): Baseline is "I probably shouldn't head down here...".
+       - Result (Turn 20685-20686): FALSIFIED. Stepping onto (12, 7) triggers verbatim baseline ("I probably shouldn't head down here..."). Confirmed barrier is 100% active and static.
   3. **Lancio Harbor & Dock (32-34, 23-25)**:
      - Baseline: Pier empty, Harry/boat absent.
      - Test: Verify if Harry, a vessel, or new maritime trigger is present.
