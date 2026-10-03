@@ -669,13 +669,13 @@
 - **H98: Subterranean Investigation in Sovio Sewers (Turns 20821-20851)**: FALSIFIED. Complete re-traversal of Sovio Sewers (lower walkway row 28, western corridor, Western Terrace, Northern Gangway row 5, vertical bridge col 23, row 13 catwalk, storage room platform 37, 14) confirmed 100% vacated with zero NPCs, dropped items, or active progression triggers. The storage room at (37, 14) re-confirmed static inspection text ("Its a simple storage room.."). The Dark Sector was previously cleared (Nugget and Lost Toy retrieved), and rugged rocks require equipment not currently possessed.
 
 ## Active Hypotheses for Progression
-### Hypothesis H99: Sovio City Critical Environmental & Narrative Re-evaluation
-- **Premise**: If all subterranean sewer areas, Lancio Town, Route 1, and surface civilian bedrooms are static, the progression trigger required to satisfy Dad's directive ("I should find dad first!") must be a specific unexplored condition, dialogue sequence, or environmental trigger in Sovio City itself that has been overlooked or assumed inactive.
+### Hypothesis H99: Critical Investigation of Unexamined Systems, Menus & Progression Triggers
+- **Premise**: If all subterranean sewer corridors, Lancio Town facilities, surface residences, Central Park visitors, and Biker NPCs are documented static, the progression trigger required to satisfy "I should find dad first!" must lie in an unexamined game system, menu option, device feature, or unverified narrative avenue rather than repeated outdoor sweeps.
 - **Audit Steps**:
-  1. Return to Sovio City overworld via Metro Station stairs (38, 22) -> (24, 24).
-  2. Critical analysis of Sovio City outdoor spaces: Re-evaluate Central Park interactions (Boy in Pink Shirt and Blonde Girl sequence), Biker gang interactions, and unexplored perimeter tiles.
-  3. Re-examine the Metro Station lobby and attendants.
-- **Falsifiable Success Criteria**: Triggering a new narrative event, locating Jackson, or lifting the turnstile blocker ("I should find dad first!").
+  1. Comprehensive audit of player menus & systems: Start Menu options, Pok�mon party interactions (Sirius/Zephyr summary, held items), Bag item descriptions, Trainer Card details.
+  2. Re-examine HuPhone applications and device functions for unverified contacts or triggers.
+  3. Re-examine Metro Station lobby fixtures and platform boundary conditions.
+- **Falsifiable Success Criteria**: Discovering an unexamined system action or trigger, locating Jackson, or lifting the turnstile blocker ("I should find dad first!").
 
 
 <hr>
