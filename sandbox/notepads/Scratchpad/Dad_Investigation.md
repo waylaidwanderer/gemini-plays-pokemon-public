@@ -17,5 +17,5 @@
 - **Milestones**:
   1. Inspect Trainer Card (ASHER) -> COMPLETE (Turn 22509). Money: ¥6096, Playtime: 158:06, Rounds: 0/8, Badges: 0/6.
   2. Party Audit & Lead Reorder -> COMPLETE (Turn 22524). Sirius 100% audited across Pages 1-3. Zephyr swapped to Slot 1.
-  3. Swap Sirius back to Slot 1 (lead) for wild battle readiness -> IN PROGRESS.
-  4. Battle wild encounters on Route 1 to gain 482 EXP and level Sirius to Lv17.
+  3. Swap Sirius back to Slot 1 (lead) -> COMPLETE (Turn 22537). Sirius (Lv16 Riolu) confirmed lead; Zephyr (Lv2 Pidgey) in Slot 2.
+  4. Battle wild encounters on Route 1 to gain 482 EXP and level Sirius to Lv17 -> IN PROGRESS.
