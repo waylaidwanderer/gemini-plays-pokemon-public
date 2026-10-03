@@ -14,5 +14,5 @@
 - **Premise**: Dad explicitly ran outside into Sovio City during the tremor to investigate its source. The Metro turnstile gates train departure with 'I should find dad first!'.
 - **Milestones**:
   1. Traverse Route 1 to enter Sovio City -> COMPLETE (Turn 21714).
-  2. Heal at Sovio Pokémon Center counter to re-register checkpoint -> IN PROGRESS (Turn 21722).
+  2. Heal at Sovio Pokémon Center counter to re-register checkpoint -> COMPLETE (Turn 21728).
   3. Systematically audit all accessible Sovio City outdoor sectors and civilians for Jackson's presence or updated dialogue regarding the tremor.
