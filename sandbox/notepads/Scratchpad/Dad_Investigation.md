@@ -7,6 +7,7 @@
 - **Storage Room (37, 14)**: Verified single static inspection trigger ("Its a simple storage room..") with solid collision at (37, 15); platform fully audited.
 
 ## Concluded Hypotheses
+- H82 (Metro Station Portal Exterior Fixture Audit - Turns 20023-20028): FALSIFIED. Inspected portal left pillar (47, 17) and right pillar (49, 17) facing North; zero interaction. Re-read signpost at (50, 18) facing North; confirms standard baseline text ('Sovio Metro Station / Route 2 ---->'). No exterior threshold triggers exist.
 - H81 (Pokémon Center Nurse Joy Healing & Event State Refresh - Turns 20012-20022): FALSIFIED. Full party heal and checkpoint refresh completed with Nurse Joy at counter (7, 4). Re-testing Metro turnstile at (19, 21) verbatim triggers 'I should find dad first!'. Party healing does not clear the turnstile prerequisite.
 - H60-H65 (Sewers, Lobby, Sovio City Exterior Corridors & NPCs - Turns 19100-19470): FALSIFIED. Sewers cleared, (37, 14) storage room static, exterior paths, barriers (52, 19), and civilians verified baseline.
 - H66-H74 (Regional Anchors, Residences, Systems, Terrace, Corridor, PC & Sewers - Turns 19470-19838): FALSIFIED. Route 1/Lancio Town, all 5 residences, lobby fixtures, terrace/corridor walls, PC Box 1, and subterranean sewers re-verified static baseline with zero new items or triggers.
@@ -18,11 +19,5 @@
 - H80 (Southwest Building West Facade Audit - Turns 20004-20006): FALSIFIED. Navigated to sidewalk at (17, 26-27). Facing East into (18, 26) and (18, 27) and pressing A confirms solid, inert building facade with decorative blue windowpanes; zero doors, warps, or story triggers exist.
 
 ## Active Hypotheses for Progression
-### Hypothesis H82: Metro Station Portal Exterior Fixture Audit (Started: Turn 20023)
-- **Premise**: Jackson ran outside of the Metro Station during the tremor to investigate the epicenter. The immediate threshold of his disappearance is the exterior subway portal at (48, 17) and adjacent architectural fixtures (portal side pillars at 47, 17 and 49, 17; wall relief at 50, 16; signpost at 50, 18). We audit these threshold fixtures to verify if an uninspected trigger, note, or event exists.
-- **Protocol**:
-  1. Dismiss turnstile textbox with B, exit upstairs via (24, 24) to Central Plaza (48, 18).
-  2. Inspect the subway portal frame facing North/East at (47, 17-18) and North/West at (49, 17-18).
-  3. Re-read the Metro Plaza signpost at (50, 18) facing North.
-- **Falsifiable Success Criteria**: Triggering new inspection text, discovering a clue, or confirming inert geometry.
+
 
