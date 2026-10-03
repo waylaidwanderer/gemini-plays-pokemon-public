@@ -675,7 +675,7 @@
   2. Party Audit & Lead Reorder -> COMPLETE (Turn 22524). Sirius 100% audited across Pages 1-3. Zephyr swapped to Slot 1.
   3. Swap Sirius back to Slot 1 (lead) -> COMPLETE (Turn 22537). Sirius (Lv16 Riolu) confirmed lead; Zephyr (Lv2 Pidgey) in Slot 2.
   4. Battle wild encounters in Sovio Sewers to gain 482 EXP and level Sirius to Lv17 -> IN PROGRESS.
-     - Progress: Battles 1-10 yielded +273 EXP total (B10 Trubbish Lv7 gave +66 EXP). Sirius at 2911/3120 EXP (Deficit: 209 EXP). Sirius fully healed at Pokémon Center (45/45 HP, full PP).
+     - Progress: Battles 1-11 yielded +329 EXP total (B11 Purrloin Lv7 gave +56 EXP). Sirius at 2967/3120 EXP (Deficit: 153 EXP). Sirius at 45/45 HP, full PP.
      - Active Venue: Sovio Sewers for high-yield encounters (40-120 EXP per battle).
   5. Falsification Protocol:
      - Evolution Check: If Sirius reaches Lv17 during daytime and does not evolve, evolution criteria was not met at this level.
