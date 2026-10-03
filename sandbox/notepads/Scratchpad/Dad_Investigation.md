@@ -25,4 +25,4 @@
 - **Milestones**:
   1. Exit Metro Station to Sovio City Central Plaza -> COMPLETE (Turn 22482).
   2. Speak to Straw-hat Camper at (5, 7) -> COMPLETE (FALSIFIED). Camper repeats ambient Weedle dialogue under 0 active quests; does not trigger 'Medic!'.
-  3. Speak to Bikers on West Avenue (13, 21-23) to test for 'Squirtle Gang' quest trigger -> IN PROGRESS.
+  3. Speak to Bikers on West Avenue (13, 21-23) -> COMPLETE (FALSIFIED). Bikers repeat ambient motorcycle flavor text ("vroom" "vroom" Jealous kid? / We are the big guys here, the ultimate motorcycle gang!) under 0 active quests; does not trigger 'Squirtle Gang'.
