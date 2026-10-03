@@ -725,9 +725,9 @@
 - **Concluded Sub-hypotheses**:
   - **H57a (Plaza Sweep)**: Systematic sweep of Central Plaza tiles (cols 41-48, rows 12-16) confirmed 0 triggers.
   - **H57b (Center NPCs)**: Camper, Nurse Joy, and Blue Shirt Boy audited; all yield identical baseline text.
-- **Active Sub-hypothesis H57c: West Avenue & Southern Avenue Audit**:
-  - **Boundaries**: West Avenue (rows 14-20, cols 11-28) and Southern Avenue (rows 21-40, cols 14-15).
-  - **Target NPCs & Fixtures**: Boy Rocky & Rocky (audited baseline), Karate family & Machop, Bikers (13, 21-23), and Route 1 transition (rows 40-41).
-  - **Test Plan**: 1. Complete Karate house check. 2. Sweep Southern Avenue corridor to Route 1.
+- **Active Sub-hypothesis H57c: Southern Avenue Corridor & Route 1 Boundary Audit**:
+  - **Concluded Targets**: Boy Rocky, Rocky, Karate Trainer, Girlfriend, and Machop all confirmed baseline ambient text.
+  - **Active Targets**: Southern Avenue corridor (cols 14-15, rows 21-40) and Route 1 transition (rows 40-41).
+  - **Test Plan**: 1. Exit Karate House to West Avenue. 2. Sweep south along Southern Avenue (cols 14-15) past Bikers to row 40 to test for triggers or external route connections.
 
 <hr>
