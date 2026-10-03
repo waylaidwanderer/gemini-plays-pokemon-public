@@ -12,10 +12,11 @@
 - H75 (HuPhone Quest Log Audit - Turns 19871-19884): FALSIFIED. Empirically tested uncompleted quest entries in Quest List (e.g. Egg Research); confirmed they verbatim display 'This Quest hasn't been completed yet!' without providing objective telemetry, targets, or equipment clues. Side quest objectives must be acquired from NPC quest givers in the overworld.
 
 ## Active Hypotheses for Progression
-### Hypothesis H76: Systematic Party Telemetry & Confrontation Plaza Re-Evaluation (Started: Turn 19887)
-- **Premise**: Physical traversal across all surface and sewer corridors has repeatedly yielded static baseline dialogue across turns 19100-19886. The core story blocker remains 'I should find dad first!' at the Metro turnstile (19, 21) and 'I can't go yet... I have things to do!' at Route 2 (52, 19). We hypothesize that progression gating is tied to an internal game state flag (such as party readiness, starter telemetry, in-game clock transition, or an uninspected event trigger in Central Plaza where Dad and Mother originally confronted each other).
+### Hypothesis H76: Starter Level Milestone & Growth Evaluation (Started: Turn 19887)
+- **Premise**: Protocol 1 completed: Sirius audited at Lv15 (HP 42/42, Atk 28, Def 29, Sp. Atk 20, Sp. Def 23, Speed 20) with 2505 EXP, needing exactly 30 EXP to reach Lv16. In-game clock recorded at 23:33 (night). Critiques confirm physical exploration across Sovio City and sewers is exhausted (H60-H75). We isolate the starter growth variable: Professor Ivo specifically asks 'Hey, Ashi, how's your new Pokémon?'. We hypothesize that raising Sirius to Lv16 (a standard starter milestone) triggers new dialogue from Professor Ivo or satisfies a progression flag.
 - **Protocol**:
-  1. Open START Menu to record exact in-game clock time and audit party telemetry (Sirius & Zephyr).
-  2. Navigate from (48, 18) into Central Plaza confrontation site outside the Pokémon Center (columns 42-45, rows 13-15).
-  3. Sweep the confrontation perimeter to test if a physical or invisible event script triggers at the exact locus of Mother's Eclipse demonstration.
-- **Falsifiable Success Criteria**: Discovering a new event trigger/cutscene at the confrontation site, or identifying an internal condition required to advance.
+  1. Close Start Menu to return to overworld at (48, 18).
+  2. Navigate south via Southern Avenue to Route 1 grass.
+  3. Win ONE wild battle to earn >= 30 EXP and level Sirius to Lv16.
+  4. Inspect any new move prompts or evolution checks upon leveling up.
+- **Falsifiable Success Criteria**: Sirius leveling to Lv16, triggering new dialogue with Professor Ivo in Lancio Town, or changing game state flags.
