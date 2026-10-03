@@ -675,8 +675,9 @@
        * Sector B (Central Park & East Walkway): COMPLETE. Walkway (rows 19-27), trash cans at (46, 22-23) and (46, 30-31), South Sidewalk (rows 27-28), and Central Park interior (col 34, rows 18-25) audited.
        * Sector C (West Avenue & Commercial Block): COMPLETE. West Avenue street (rows 16-18, cols 11-30), Karate House (14, 15), Bikers (13, 21-23), Southern Avenue (cols 14-15, rows 23-30), and commercial block shutters (34-35, 12-13) audited with zero tremor triggers.
      - Synthesis: All outdoor sectors (A, B, C) verified devoid of Jackson or active tremor triggers. Transitioning investigation into interior facilities: Sovio Metro Station lobby fixtures, transit officer, and platform gates.
-  5. Metro Station & Terminal Facilities Audit -> IN PROGRESS.
-     - *Platform Audit (Turns 21868-21947)*: Camera scroll at (19, 21) confirms uniformed transit officer seated in northeast platform chair facing left. Gate script at (19, 21) triggers "I should find dad first!" and forces player south to (19, 22). Left scanner pillar at (18, 21) verified inert.
+  5. Metro Station & Terminal Facilities Audit -> COMPLETE.
+     - *Platform & Fixtures Audit (Turns 21868-21952)*: Camera scroll at (19, 21) confirms uniformed transit officer seated in northeast platform chair facing left. Gate script at (19, 21) triggers "I should find dad first!" and forces player south to (19, 22). Left scanner pillar (18, 21) and right scanner pillar (20, 21) verified inert. West wall chairs (16, 23-25) verified inert.
      - *Terminal Audit (Turns 21896-21898)*: Someone's PC storage system (Box 1) audited at Sovio Pokémon Center; verified completely empty with zero stored Pokémon or eggs.
+     - Synthesis: All interior facilities, terminals, and gate fixtures in Metro Station and Pokémon Center audited with zero unresolved leads. Jackson is not inside terminal facilities.
 
 <hr>
