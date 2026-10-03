@@ -21,5 +21,5 @@
      - 3c. Lancio Town Green-haired girl at (24, 15) (Turn 22189) -> COMPLETE (FALSIFIED: ambient text "Lancio has such pretty flowers...").
      - 3d. Lancio Lab basement stairs at (12, 7) (Turn 22192) -> COMPLETE (FALSIFIED: story barrier active "I probably shouldn't head down here...").
      - 3e. Lancio Lab Professor Ivo at (20, 6) (Turn 22195) -> COMPLETE (FALSIFIED: ambient greeting "Hey, Ashi, how's your new Pokémon?").
-     - 3f. Outcome -> Route 1 & Lancio Town search space 100% FALSIFIED and EXHAUSTED.
+     - 3f. Outcome -> Audited variables (Cottage resident, Cut tree at 5, 44, Green-haired girl, Lab basement, Professor Ivo) confirmed inert/ambient/blocked with zero progression triggers.
   4. Return to Sovio City via Route 1 to investigate Dad's physical whereabouts and the tremor epicenter -> IN PROGRESS.
