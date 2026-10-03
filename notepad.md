@@ -671,4 +671,11 @@
   3. Target 3 (West Avenue & Karate House 2F Audit): COMPLETE (FALSIFIED). Verified Karate House 2F contains generic civilian bedroom furniture (blue cabinet: 'Wow! Tons of Pokémon stuff!', green bookshelf: 'It\'s crammed full of Pokémon books.', desk, bed) with zero NPCs, items, or story triggers.
 - **Rules of Engagement**: Zero wandering of familiar maps or re-testing generic collision. Focus strictly on documented independent variables.
 
+## Active Hypothesis H115: Route 1 Northwest Sector & Rock Spire Boundary Investigation
+- **Premise**: In Sovio City, all civilian houses, environmental facades, and NPCs are fully audited and falsified. Southern Avenue leads directly to Route 1 at (53, 0) without any story barrier. On Route 1, the entire northwest quadrant (rows 0-40, columns 0-25) past Youngster Mike (29, 20) and Lass Sonia (27, 15) has never been systematically mapped or explored. Given that Mt. Gerhana is located near Sovio City and the seismic tremor shook the region, investigating the northwest terrain of Route 1 may reveal the source of the tremor, Jackson's trail, or new progression pathways.
+- **Milestones**:
+  1. Navigate south through Southern Avenue to Route 1 at (53, 0).
+  2. Travel to the Northwest Clearing (29, 20) and Rock Spire (27, 15).
+  3. Map the western and northern boundaries of the rock spire / clearing to determine if pathways lead further northwest.
+
 <hr>
