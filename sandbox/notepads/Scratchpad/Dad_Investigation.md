@@ -27,8 +27,5 @@
 2. **Target 2: Northern Central Plaza Alleyway & Perimeter (Column 40, Rows 7-12)**: COMPLETE (FALSIFIED).
    - Empirical Result: Audited north wall (40, 7) and east corner (41, 8) next to Pokémon Center roof; confirmed solid foundation collision with zero interaction. The visual anomaly at the northwest roof corner (42, 6-7) was verified as a symmetrical architectural roof spire / antenna (identical to northeast roof corner spire). Northern alcove is completely enclosed with zero rear exits or hidden NPCs.
 
-3. **Target 3: Central Plaza Planter & Pond Perimeter (Rows 15-17, Columns 38-43)**
-   - Candidate: The decorative raised stone curb, lawn, white/blue flower clusters, and water basin border at rows 15-16 directly south of the Pokémon Center.
-   - Action: Walk along row 15 from column 38 to 43, facing South into each curb/lawn tile (38-43, 16) and pressing A to test for hidden items or inspection triggers.
-   - Success: Dialogue, hidden item discovery sound/textbox, or structural tremor observation.
-   - Failure: Completely inert curb collision across all tested tiles with zero textbox.
+3. **Target 3: Central Plaza Planter & Pond Perimeter (Rows 15-17, Columns 38-43)**: COMPLETE (FALSIFIED).
+   - Empirical Result: Walked the entire stone curb from column 38 to 43 facing South into each tile (38-43, 16) with A. Inspected water/fish animation at (39, 17) -> non-interactive fountain ripple sprite. Inspected white and blue flowerbeds and curb edges -> all completely inert with zero hidden items, tremor text, or interactions. Hypothesis H111 fully concluded.
