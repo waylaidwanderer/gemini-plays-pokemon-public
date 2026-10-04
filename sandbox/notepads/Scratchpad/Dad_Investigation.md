@@ -15,6 +15,7 @@
 - **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
 - **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
 - **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
+- **HuPhone World Map & Quest Log (Turns 27333-27341)**: World Map node interactions (Sovio City / Metro Station) confirmed inert; Quest Status ("You aren't doing any Quest currently...") and Quest List Pages 1-3 verified static side-quest tracker with zero story triggers.
 
 ## Structured Progression Decision Tree by System Type
 1. **System 1: Party State & Pokémon Mechanics**
@@ -22,14 +23,12 @@
 2. **System 2: Interactive World Objects & Facility Terminals**
    - *Hypothesis*: Progression flag is set via an interactive terminal or facility object rather than an overworld NPC sprite.
    - *Remaining Unverified Variables*: Sovio Pokémon Center Framed Town Map at (11, 0), Pokémon Center service counter, and Lancio Lab incubator apparatus at (18-19, 5-6).
-   - *Test Plan*: Inspect Framed Town Map at (11, 0) and speak with Nurse Joy at counter after completing Metro lobby checks.
+   - *Test Plan*: Exit Metro lobby, enter Sovio Pokémon Center, inspect Framed Town Map at (11, 0), and speak with Nurse Joy at counter.
 3. **System 3: HuPhone Apps & Communication Systems**
-   - *Hypothesis*: The HuPhone contains an unactivated trigger or regional reference that updates story state.
-   - *Remaining Unverified Variables*: World Map hover nodes and Quest Log Pages 2-5.
-   - *Test Plan*: Open HuPhone via SELECT, step through Quest Log Pages 2-5, and inspect World Map nodes.
+   - *Status*: Audited and verified negative (Turns 27333-27341).
 4. **System 4: Story Script & Trigger Flags (Unverified NPC Dialogues)**
    - *Hypothesis*: Event triggers depend on front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (System 3 - HuPhone Quest Log Pages 2-5 & World Map - Active)**: Open HuPhone via SELECT, inspect Quest Log Pages 2-5 and World Map hover nodes.
-- **Audit Target 2 (System 2 & 4 - Framed Town Map & Unverified Interior Dialogues)**: Test Framed Town Map at (11, 0) and Nurse Joy counter in Pokémon Center, and verify direct front-facing dialogue with the elderly man in House (39, 7) and Karate House (14, 15) occupants.
+- **Audit Target 1 (System 2 - Sovio Pokémon Center Framed Town Map & Service Counter - Active)**: Exit Metro Station to Central Plaza, enter Sovio Pokémon Center at (44, 12), inspect Framed Town Map at (11, 0), and speak with Nurse Joy at (7, 5).
+- **Audit Target 2 (System 4 - Unverified Front-Facing Interior Dialogues)**: Verify direct front-facing dialogue with the elderly man at (41, 33) in House (39, 7) and the occupants in Karate House (14, 15).
