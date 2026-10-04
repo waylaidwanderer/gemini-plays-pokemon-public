@@ -19,12 +19,13 @@
 - **Specific Unexplored Progression Variables to Test**:
   1. *Metro Station Interior Audit*: Concluded. West lobby blue chairs at (17, 22-24) confirmed inert. West wall solid at column 17. Lobby 100% verified static baseline.
   2. *Central Plaza & Tremor Epicenter*: Concluded. Fountain perimeter audit completed (walkable terrace, decorative non-interactive corner floor textures). Central Plaza verified inert.
-  3. *West Avenue North Facade & Northwest Sector*: Audit the commercial building facade (columns 16-26, rows 15-16), checking for doors, alleyways, or triggers.
-  4. *Key Item / Bag Inspection*: Test key items or dialogue triggers if relevant.
+  3. *West Avenue North Facade & Northwest Sector*: Concluded. Shutters at (24-25, 16) confirmed solid decorative wall with zero interaction. Entire facade along columns 16-26 is solid wall with blue windows.
+  4. *Eastern Perimeter & Route 2 Barrier*: Concluded. Tested at (52, 19); verified 100% active blocker ("I can't go yet... I have things to do!").
+  5. *Key Item / Bag & Menu Inspection*: Active. Check Bag pockets and party items for any overlooked interactive elements.
 - **Falsification & Stopping Boundaries**:
-  - Do NOT re-investigate already proven solid structures (e.g. Tan building facade, office building at col 11).
+  - Do NOT re-investigate already proven solid structures (e.g. Tan building facade, office building at col 11, commercial facade).
   - Do NOT search for unverified characters like Valora without direct in-game evidence.
-  - If Metro Station lobby perimeter audits and outdoor perimeter bounds yield zero new triggers within 20 turns, mark H138 falsified and pivot.
+  - If physical perimeter and interior checks yield zero new triggers, pivot to inventory and mechanic triggers.
 - **Current Plan**:
-  1. Ascend stairs at (24, 24) to Sovio City Central Plaza.
-  2. Navigate west along row 18 to audit the commercial building facade (columns 16-26, rows 15-16).
+  1. Press B to dismiss Route 2 blocker textbox and settle at (51, 19).
+  2. Open Start Menu and inspect Bag pockets.
