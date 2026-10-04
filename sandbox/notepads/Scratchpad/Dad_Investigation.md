@@ -17,13 +17,14 @@
 ## Active Hypothesis H138: Jackson Search Space Expansion & Sovio City Progression Investigation
 - **Premise**: With Sewers, Lancio Town, and digital systems conclusively verified static, Dad is not hidden in any side dungeon or external town. The narrative context: Dad ran out into Sovio City to investigate the tremor. We must systematically investigate unexamined narrative triggers, buildings, and perimeter bounds in Sovio City.
 - **Specific Unexplored Progression Variables to Test**:
-  1. *Metro Station Interior Audit*: Check ticket counter windows, vending machine, and platform perimeter in the Metro Station lobby (columns 12-17).
-  2. *Central Plaza & Tremor Epicenter*: Fountain perimeter audit completed (walkable terrace, decorative non-interactive corner floor textures). Central Plaza verified inert.
-  3. *Key Item / Bag Inspection*: Test key items or dialogue triggers if relevant.
+  1. *Metro Station Interior Audit*: Concluded. West lobby blue chairs at (17, 22-24) confirmed inert. West wall solid at column 17. Lobby 100% verified static baseline.
+  2. *Central Plaza & Tremor Epicenter*: Concluded. Fountain perimeter audit completed (walkable terrace, decorative non-interactive corner floor textures). Central Plaza verified inert.
+  3. *West Avenue North Facade & Northwest Sector*: Audit the commercial building facade (columns 16-26, rows 15-16), checking for doors, alleyways, or triggers.
+  4. *Key Item / Bag Inspection*: Test key items or dialogue triggers if relevant.
 - **Falsification & Stopping Boundaries**:
   - Do NOT re-investigate already proven solid structures (e.g. Tan building facade, office building at col 11).
   - Do NOT search for unverified characters like Valora without direct in-game evidence.
   - If Metro Station lobby perimeter audits and outdoor perimeter bounds yield zero new triggers within 20 turns, mark H138 falsified and pivot.
 - **Current Plan**:
-  1. Step north off fountain terrace back to row 15 boulevard.
-  2. Enter Sovio Metro Station at (48, 17) to conduct a targeted audit of the west lobby (columns 12-17), ticket counter windows, and vending machines.
+  1. Ascend stairs at (24, 24) to Sovio City Central Plaza.
+  2. Navigate west along row 18 to audit the commercial building facade (columns 16-26, rows 15-16).
