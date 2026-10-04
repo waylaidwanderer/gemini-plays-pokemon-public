@@ -17,5 +17,5 @@
 - **Action Plan**:
   1. Open HuPhone via SELECT.
   2. Access Item Storage app -> check 'Withdraw Item' to verify if any items, tickets, or equipment are stored. [TESTED Turn 24446: Displays "There are no items." Confirmed empty].
-  3. Check 'Mailbox' on HuPhone PC.
+  3. Check 'Mailbox' on HuPhone PC. [TESTED Turn 24449: Displays "There's no Mail here." Confirmed empty].
   4. Inspect Party summary and held item states.
