@@ -684,7 +684,7 @@
 - **Central Plaza Perimeter (Cols 41-46, Rows 12-16)**: Systematically swept confrontation perimeter outside Pokémon Center; 100% verified inert with zero hidden tripwires or story scripts.
 - **Northern Alcove & Exterior (Cols 40-41, Rows 7-9)**: House (39, 7) alleyway and gap at (41, 8) confirmed dead-ends against building walls.
 - **West Avenue Commercial Facade & Boundaries**: Columns 16-22 beneath the giant billboard audited with direct 'A' interaction (100% inert). Karate house entered at (14, 15). Western boundary along columns 11-12 (rows 16-24) confirmed continuous solid office building wall.
-- **Sovio City Residential Interiors & Overworld NPCs**: Verified post-tremor static ambient dialogue for Elderly Man at (41, 33) in House (39, 7) (Turn 27354), Son on 2F of House (39, 7) (Turn 26539), Nana & Granddaughter in Terrace House (49, 14) (Turns 27223-27224), Boy & Mother in Gumball House (29, 14) (Turns 26547-26551), Karate Trainer at (3, 34) and Blonde Girlfriend at (3, 33) in Karate House (14, 15) (Turns 27358-27361), Blonde Girl in Central Park (Turn 26733), and Camper in Sovio Pokémon Center (Turn 26715).
+- **Sovio City Residential Interiors & Overworld NPCs**: Verified post-tremor static ambient dialogue for Elderly Man at (41, 33) in House (39, 7) (Turn 27354), Son on 2F of House (39, 7) (Turn 26539), Nana & Granddaughter in Terrace House (49, 14) (Turns 27223-27224), Boy & Mother in Gumball House (29, 14) (Turns 26547-26551), Karate Trainer at (3, 34) and Blonde Girlfriend at (3, 33) in Karate House (14, 15) (Turns 27358-27361), Three Bikers at (13, 21-23) (Turns 27370-27371), Boy Rocky at (23, 17) & Rocky at (24, 17) (Turn 27373), Central Park Boy in Pink Shirt at (33, 21-22) (Turn 27374), Blonde Girl in Central Park (Turn 26733), and Camper in Sovio Pokémon Center (Turn 26715). Trash cans at (14, 19) and (31, 17) verified 100% inert (Turns 27371 & 27374).
 - **Sovio Sewers**: Grunts vacated following Marie's radio directive. Eastern Storage Platform door (37, 14) displays "Its a simple storage room.." (Turn 26919). Rugged rocks at (10, 18) and (22, 10) require specialized smashing equipment.
 - **Route 1 & Lancio Town**: Post-tremor checks verified static dialogue for Route 1 trainers Duke, Sonia, Mike, and Cottage boy (Turns 26646-26693), and Lancio Lab Professor Ivo ("Hey, Ashi, how's your new Pokémon?") and basement stairs barrier (Turns 27076-27080). Lancio harbor pier verified empty (Turn 27068).
 - **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
@@ -697,14 +697,14 @@
 1. **System 1: Party State & Pokémon Mechanics**
    - *Status*: Audited and verified negative (Turn 27306).
 2. **System 2: Interactive World Objects & Facility Terminals**
-   - *Status*: Sovio Pokémon Center PC (12, 1), Framed Town Map (11, 0), and Nurse Joy counter (7, 4) audited and verified negative (Turns 27326-27351). Lancio Lab incubator apparatus at (18-19, 5-6) previously documented static ("Better not mess with that machine.").
+   - *Status*: Sovio Pokémon Center PC (12, 1), Framed Town Map (11, 0), Nurse Joy counter (7, 4), and city trash cans (14, 19 & 31, 17) audited and verified negative (Turns 27326-27374). Lancio Lab incubator apparatus at (18-19, 5-6) previously documented static ("Better not mess with that machine.").
 3. **System 3: HuPhone Apps & Communication Systems**
    - *Status*: Item Storage, Mailbox, Quest Status, all 5 pages of Quest List (Pages 1-5), and Sovio City World Map nodes audited and verified negative (Turns 27185-27365).
 4. **System 4: Story Script & Trigger Flags (Interior & Overworld NPCs)**
-   - *Status*: All Sovio City residential interiors verified post-tremor (House 39, 7, Terrace House 49, 14, Gumball House 29, 14, Karate House 14, 15).
-   - *Remaining Unverified Variables*: Post-tremor verification of West Avenue and Central Park exterior NPCs (Bikers at 13, 21-23, Boy Rocky at 23, 17, Pink Shirt Boy at 33, 22, South Sidewalk children at 33-35, 28).
+   - *Status*: All Sovio City residential interiors and West Avenue / Central Park north NPCs verified post-tremor (Turns 27223-27374).
+   - *Remaining Unverified Variables*: South Sidewalk NPCs (Little Girl at 33, 28, Jigglypuff at 34, 28, Boy at 35, 28) and Name Rater at (31, 26).
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (System 4 - Exit Karate House & Audit West Avenue / Central Park Exterior NPCs - Active)**: Close HuPhone Quest List Page 5 via Exit, step out of Karate House (14, 15), and verify post-tremor dialogue with the Bikers at (13, 21-23) and Boy Rocky at (23, 17).
+- **Audit Target 1 (System 4 - South Sidewalk NPCs & Name Rater - Active)**: Dismiss Pink shirt boy dialogue at (33, 20), walk down column 34 to (34, 27), and verify post-tremor dialogue for Jigglypuff (34, 28), Little Girl (33, 28), Boy (35, 28), and Name Rater (31, 26).
 
 <hr>
