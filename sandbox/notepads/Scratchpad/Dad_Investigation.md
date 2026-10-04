@@ -15,4 +15,3 @@
 - **Hypothesis P1 (Regional Synthesis & Professor Ivo Consultation)**:
   - Premise: Domestic civilian residences and ambient NPCs in Sovio City have been thoroughly audited and confirmed static. The story progression lock gating the Metro platform ("I should find dad first!") and Route 2 ("I can't go yet...") requires resolving the post-tremor story trigger. As Jackson disappeared following the Team Siara incident, the most credible story authority is Professor Ivo in Lancio Town.
   - Test: Re-examine Lancio Town (Professor Ivo's Lab, lab basement stairs, harbor dock) and Route 1 for any updated dialogue, items, or field triggers.
-  - Execution Status: Actively committed to full field verification. Navigating south across Route 1 directly to Lancio Town.
