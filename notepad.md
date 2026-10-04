@@ -705,7 +705,8 @@
    - *Hypothesis*: The event "find dad" is not a physical NPC search, but a specific prerequisite interaction that changes Asher's internal dialogue or Metro attendant behavior.
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (Facility Terminals)**: Exit Metro Station to Sovio Pokémon Center; access corner PC terminal at (12, 1) and test all PC options (Someone's PC, Asher's PC, Professor's network).
-- **Audit Target 2 (Party & Sirius Inspection)**: Open Pokémon menu from Start Menu to inspect Sirius and Zephyr status and held items.
+- **Audit Target 1 (Facility Terminals - Audited Turn 27326)**: Sovio Pokémon Center PC terminal at (12, 1) 100% verified negative: Someone's PC Box 1 is empty, Asher's PC Item Storage is empty ("There are no items."), and Mailbox is empty ("There's no Mail here."). Zero custom network options.
+- **Audit Target 2 (Party & Sirius Inspection - Audited Turn 27306)**: Sirius (Lv17 Riolu, custom Torn Scarf form, Black Belt, moves: Metal Claw/Quick Attack/Work Up/Mach Punch, 3705 EXP) and Zephyr (Lv2 Pidgey, Tackle/Protect) inspected; both fully healthy with standard status.
+- **Audit Target 3 (Train Timetable & RTC Schedule Analysis)**: Metro electronic board lists Amor train at 16:00 and Alhia train at 20:00. In-game RTC clock is currently ~15:54. Investigate whether the boarding event or Dad's appearance triggers at 16:00.
 
 <hr>
