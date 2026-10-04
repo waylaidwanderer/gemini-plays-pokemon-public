@@ -14,4 +14,7 @@
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis D1 (HuPhone & Bag State Verification)**:
   - Premise: Re-verify HuPhone (Quest Status, Quest Log, Mailbox) and Bag Key Items for any overlooked status or trigger flag after recent events.
-  - Test: Open HuPhone via SELECT, inspect Quest Status, and check Mailbox/Bag.
+  - Test & Findings (Turns 26225-26246):
+    - Quest Status (Turn 26229): Displays "You aren't doing any Quest currently...". Zero active side quests or tracked story flags.
+    - PC Mailbox (Turn 26239): Displays "There's no Mail here.". Zero unread/system mail.
+    - Bag Audit (In Progress): Opening Start Menu -> Bag to verify Key Items and Items pocket.
