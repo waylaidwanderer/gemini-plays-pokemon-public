@@ -608,6 +608,7 @@
 - **Start Menu Entries**: Displays Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit.
 - **Empirical Pokédex Status**: The Pokédex menu option is completely ABSENT from the Start Menu, confirming Asher does not currently possess a Pokédex device.
 - **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open; synchronizes with host system clock.
+- **TM Reusability**: Confirmed infinite use in Pokémon Sors v1.3; TM48 (Work Up) remains in the TM Case after being taught to Sirius.
 
 <hr>
 
