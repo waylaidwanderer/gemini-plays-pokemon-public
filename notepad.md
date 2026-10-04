@@ -205,7 +205,7 @@
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels block the shutters at (19-21, 28-29) and solid elevation curb at (18, 28-29) blocks access with zero interaction; confirmed decorative exterior.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable. Facing East into (18, 26) and (18, 27) confirms solid wall with decorative blue windows and zero interaction. Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
 
-- **Sewer Manholes**: Located at (13, 27), (13, 19), (29, 16), (34, 15), (40, 13), (54, 19), and (54, 21). Empirically verified at (13, 19), (34, 15), and (40, 13) completely inert to 'A' interaction with zero text or warps; purely decorative road fixtures.
+- **Sewer Manholes**: Located at (13, 28), (13, 19), (29, 16), (34, 15), (40, 13), (54, 19), and (54, 21). Empirically verified at (13, 28), (13, 19), (29, 16), (34, 15), and (40, 13) completely inert to 'A' interaction with zero text or warps; purely decorative road fixtures.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock...").
 
@@ -680,13 +680,18 @@
 - **Route 2 Eastern Exit (52, 19-22)**: Scripted barrier verified at (52, 21) on Turn 26205-26215; triggers verbatim "I can't go yet... I have things to do!" and forces Asher west to (51, 21).
 
 ## Concluded & Disproven Hypotheses (Archived)
-- **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093 (0 Repels, 1 Potion, 1 Poison Barb, 1 Antidote).
-- **E1 (Covered Corridor & Tan Building Facades)**: Disproven (Turns 26360-26368); covered corridor south wall at (48-51, 22) confirmed solid collision along row 23; Tan Building double shutters at (34-35, 12) confirmed solid decorative wall with zero interaction.
-
-- **S1 (Sewer Post-Tremor Final Verification)**: Concluded (Turns 26418-26440); Target 1 (Eastern Storage Platform 37, 14) confirmed 100% inert across all 4 facings and perimeter bounds; Target 2 (Dark Sector) confirmed rugged rock (22, 10) equipment-gated ("It's a rugged rock, but with some equipment, I could smash it.") and subterranean chamber (2, 38) static/empty. Sovio Sewers conclusively verified 100% exhausted. Enforcing Exit Rule to permanently close sewer search space.
+- **S1 (Sovio Sewers Post-Tremor Audit)**: Concluded (Turns 26418-26440); Target 1 (Eastern Storage Platform 37, 14) confirmed 100% inert across all 4 facings and bounds. Target 2 (Dark Sector): rock (22, 10) confirmed equipment-gated; subterranean mat (15, 9) triggered immediate return warp. Sewers 100% exhausted. Enforced Exit Rule.
 
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis R1 (Exterior Regional Progression Focus)**:
-  - Premise: Sovio Sewers is 100% exhausted. The story blocker "I should find dad first!" gates Metro departure. Focus 100% on exterior Sovio City and regional connections (Lancio Town, Professor Ivo's Lab, Route 1) to identify unexamined story triggers.
+  - Premise: Sovio Sewers is 100% exhausted. The story blocker "I should find dad first!" gates Metro departure. Jackson ran outside into Sovio City during the tremor. Since public exterior Sovio City props are inert, Jackson or an active story event must exist in an unexamined exterior facility or regional connection.
+  - Target 1: Professor Ivo's Pokémon Laboratory Basement & Facilities (Lancio Town).
+    - Coordinates: (12, 7) basement stairs mat.
+    - Test Action: Inspect lab basement stairs, incubator terminal, and Professor Ivo to test if post-sewer game flag updated dialogue or basement barrier.
+    - Falsification Criteria: If Professor Ivo repeats ambient dialogue ("Hey, Ashi...") and basement stairs repeat "I probably shouldn't head down here...", mark Lab exhausted.
+  - Target 2: Route 1 NPCs & Roadside Cottage (Route 1).
+    - Coordinates: Roadside cottage (37, 24), NPC 8 (Girl in Pink Vest at 38-40, 36).
+    - Test Action: Speak to NPC 8 to log dialogue (currently undocumented in notes) and re-check cottage resident.
+    - Falsification Criteria: If NPC 8 is ambient civilian and cottage is unchanged, mark Route 1 exhausted.
 
 <hr>
