@@ -214,7 +214,7 @@
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. The eastern facade of the office building at column 11 across rows 16-20 is a continuous solid wall with no doors or entrances. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
-- **West Avenue North Boundary**: Solid commercial building facade extends across columns 16-26 with blue windows and brown shutters beneath a large screen/billboard. Shutters at (24-25, 16) above Rocky (24, 17) confirmed solid decorative wall with zero interaction. Traversal west connects via row 18.
+- **West Avenue North Boundary**: Solid commercial building facade extends across columns 16-26 with blue windows and brown shutters beneath a large screen/billboard. Shutters at (24-25, 16) above Rocky (24, 17) and the entire western facade across columns 16-22 (row 16, inspected facing North from row 17 in Turn 27286) are confirmed solid decorative walls with zero interaction. Traversal west connects via row 17/18.
 - **Inter-Building Gap**: Solid walls at (30, 14), (31, 13), and (32, 12) prevent passage between the Gumball house and the tan building.
 
 - **Southwest Boundary**: The pine tree border at rows 29-31 terminates into a dead-end lawn at (12, 30) against the southern building wall; tile (11, 30) confirmed solid pine tree collision.
@@ -689,6 +689,7 @@
 - **Route 1 & Lancio Town**: All Route 1 trainers defeated, cottage resident gifted Max Repel. Lancio harbor pier has no boat moored. Professor Ivo lab basement stairs blocked ("I probably shouldn't head down here...").
 - **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
 - **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
+- **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
 
 ## Structured Progression Decision Tree by System Type
 1. **System 1: Party State & Pokémon Mechanics**
@@ -701,12 +702,11 @@
    - *Hypothesis*: The HuPhone contains an unactivated trigger or regional reference that updates story state.
    - *Remaining Unverified Variables*: World Map hover nodes and Quest Log Pages 2-5.
    - *Test Plan*: Open HuPhone via SELECT, step through Quest Log Pages 2-5, and inspect World Map nodes.
-4. **System 4: Story Script & Trigger Flags (RTC Schedule & Unverified NPC Dialogues)**
-   - *Hypothesis*: Event triggers depend on RTC train schedule (16:00 Amor departure) or front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
+4. **System 4: Story Script & Trigger Flags (Unverified NPC Dialogues)**
+   - *Hypothesis*: Event triggers depend on front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (16:00 RTC Train Schedule Test - Active)**: Test turnstile at (19, 21) now that RTC is past 16:00. If it still triggers "I should find dad first!", falsify the RTC hypothesis immediately.
-- **Audit Target 2 (System 3 - HuPhone Quest Log Pages 2-5 & World Map)**: Open HuPhone right in the lobby to verify Quest Log Pages 2-5 and World Map hover nodes.
-- **Audit Target 3 (System 2 & 4 - Framed Town Map & Unverified Interior Dialogues)**: Test Framed Town Map at (11, 0) in Pokémon Center, and verify direct front-facing dialogue with the elderly man in House (39, 7) and Karate House (14, 15) occupants.
+- **Audit Target 1 (System 3 - HuPhone Quest Log Pages 2-5 & World Map - Active)**: Open HuPhone via SELECT, inspect Quest Log Pages 2-5 and World Map hover nodes.
+- **Audit Target 2 (System 2 & 4 - Framed Town Map & Unverified Interior Dialogues)**: Test Framed Town Map at (11, 0) and Nurse Joy counter in Pokémon Center, and verify direct front-facing dialogue with the elderly man in House (39, 7) and Karate House (14, 15) occupants.
 
 <hr>

@@ -14,6 +14,7 @@
 - **Route 1 & Lancio Town**: All Route 1 trainers defeated, cottage resident gifted Max Repel. Lancio harbor pier has no boat moored. Professor Ivo lab basement stairs blocked ("I probably shouldn't head down here...").
 - **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
 - **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
+- **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
 
 ## Structured Progression Decision Tree by System Type
 1. **System 1: Party State & Pokémon Mechanics**
@@ -26,10 +27,9 @@
    - *Hypothesis*: The HuPhone contains an unactivated trigger or regional reference that updates story state.
    - *Remaining Unverified Variables*: World Map hover nodes and Quest Log Pages 2-5.
    - *Test Plan*: Open HuPhone via SELECT, step through Quest Log Pages 2-5, and inspect World Map nodes.
-4. **System 4: Story Script & Trigger Flags (RTC Schedule & Unverified NPC Dialogues)**
-   - *Hypothesis*: Event triggers depend on RTC train schedule (16:00 Amor departure) or front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
+4. **System 4: Story Script & Trigger Flags (Unverified NPC Dialogues)**
+   - *Hypothesis*: Event triggers depend on front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (16:00 RTC Train Schedule Test - Active)**: Test turnstile at (19, 21) now that RTC is past 16:00. If it still triggers "I should find dad first!", falsify the RTC hypothesis immediately.
-- **Audit Target 2 (System 3 - HuPhone Quest Log Pages 2-5 & World Map)**: Open HuPhone right in the lobby to verify Quest Log Pages 2-5 and World Map hover nodes.
-- **Audit Target 3 (System 2 & 4 - Framed Town Map & Unverified Interior Dialogues)**: Test Framed Town Map at (11, 0) in Pokémon Center, and verify direct front-facing dialogue with the elderly man in House (39, 7) and Karate House (14, 15) occupants.
+- **Audit Target 1 (System 3 - HuPhone Quest Log Pages 2-5 & World Map - Active)**: Open HuPhone via SELECT, inspect Quest Log Pages 2-5 and World Map hover nodes.
+- **Audit Target 2 (System 2 & 4 - Framed Town Map & Unverified Interior Dialogues)**: Test Framed Town Map at (11, 0) and Nurse Joy counter in Pokémon Center, and verify direct front-facing dialogue with the elderly man in House (39, 7) and Karate House (14, 15) occupants.
