@@ -685,4 +685,14 @@
 - **H166 (Northeast Route 2 Boundary Audit)**: Collision tests against column 52 rows 17-18 confirmed continuous solid building facade east of signpost (51, 18). Bypass corridor non-existent. Falsified.
 - **H167 (Metro Lobby Fixtures & Seating Audit)**: Tested all three west chairs at col 16 (rows 22-24); confirmed solid obstacle collision, zero seating mechanics, zero text. Probed scanner pillars at (18, 21) and (20, 21) with A; confirmed completely inert decorative fixtures. Platform verified empty. Falsified.
 
+## Active Hypothesis H168: Central Park Southeast Boundary & Hedge Alcove Audit
+- **Premise**: Prior audits mapped the eastern walkway (cols 44-45, rows 19-26) and south sidewalk (rows 27-28), but the dead-end hedge alcove at column 42 (rows 27-30) and the south curb boundary have not been explicitly tested for hidden items, trigger tiles, or environmental clues regarding the tremor.
+- **Action Plan**:
+  1. Sleep 300ms for overworld fade-in at (48, 18).
+  2. Walk West to column 44 (44, 18).
+  3. Walk South along column 44 to row 26 (44, 26).
+  4. Step West to column 42 (42, 26) and navigate South into the hedge alcove at (42, 30).
+  5. Probe the alcove perimeter with A.
+- **Falsification Boundary**: If (42, 27-30) contains strictly inert hedge collision with zero items or triggers, H168 is falsified.
+
 <hr>
