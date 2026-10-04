@@ -12,3 +12,12 @@
 - **Interactive World Map (H160-A)**: Interactive regional viewer tested (Turns 24367-24370); cursor moves across nodes with hover banners, but pressing A yields zero fast-travel or teleport prompts. Fixed yellow pin tracks Sovio City. Confirmed purely informative map viewer.
 - **Commercial Economy & Liquid Funds (H160)**: Liquidated Nugget for $5,000 (Money: $11,096) at Sovio PokéMart (Turn 24398). Tested Metro turnstile at (19, 21) (Turn 24434: blocked by "I should find dad first!") and Route 2 barrier at (52, 19) (Turn 24437: blocked by "I can't go yet... I have things to do!"). Confirmed neither liquid wealth nor PokéMart sales transactions alter progression barrier scripts.
 - **System & Interface Verification (H162)**: HuPhone portable PC Item Storage ("There are no items.") and Mailbox ("There's no Mail here.") audited 100% empty (Turns 24446, 24449). Confirmed no stored items, equipment, or letters from Dad exist in system storage.
+
+## Active Hypothesis H164: Unexamined Quest Hooks (Page 1) and Novel Regional Mechanics
+- **Premise**: Progressing past the Metro turnstile ("I should find dad first!") is not gated by locating a physical Dad NPC sprite in the overworld (disproven across exhaustive physical audits). Per critique guidance, progression is gated by unexamined Page 1 quest hooks (Quest 3: Egg Research, Quest 4: Medic!, Quest 5: Squirtle Gang) or novel regional mechanics.
+- **Action Plan**:
+  1. Ascend to Sovio City surface at (48, 17).
+  2. Test Quest 4 "Medic!" hook: Investigate Camper at (5, 7) in Sovio Pokémon Center regarding his poisoned Weedle (testing persistent dialogue, Antidote interaction, and staff dialogue with zero active quests).
+  3. Test Quest 3 "Egg Research" hook: Audit Professor Ivo's Lab incubator apparatus and interactions.
+  4. Test Quest 5 "Squirtle Gang" hook: Audit regional water bodies for Squirtle encounters.
+- **Falsification Boundary**: Document the trigger conditions and outcomes for each Page 1 quest hook to determine their relationship to regional progression.
