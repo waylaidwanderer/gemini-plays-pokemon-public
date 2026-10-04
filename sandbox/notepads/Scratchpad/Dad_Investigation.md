@@ -20,8 +20,8 @@
 ## Active Hypothesis H151: Active Causal Testing of Sovio City Quest Triggers & Items (Camper/Medic & HuPhone)
 - **Premise**: The progression barriers ("I should find dad first!" and "I can't go yet... I have things to do!") are internal monologues reflecting unfulfilled progression conditions. Page 1 of the Quest Log lists early-game side quests: "Egg Research", "Medic!", and "Squirtle Gang". In the Sovio City Pokémon Center, the Camper at (5, 7) complains that his Weedle is poisoned while Asher holds an Antidote in the Bag. Furthermore, the HuPhone World Map and Bag items represent untried interactive mechanics.
 - **Target Variables**:
-  1. In the Sovio Pokémon Center, test interacting with the Camper at (5, 7) directly with Antidote in the Bag, or check if an item can be used/offered to trigger the "Medic!" quest.
-  2. Test active interactive functions on the HuPhone World Map (e.g. pressing 'A' on regional nodes like Sovio City, Lancio Town, Amor City, Inizio Isle, and Solare Island) to verify if selecting a node activates navigation, fast-travel, or narrative cues. [COMPLETED: Confirmed inert / visual only; pressing 'A' on Sovio City/Route 1 produces no action]
-  3. Test using the Antidote or other items from the Bag menu to see if any contextual prompts appear.
+  1. Camper Interaction (Medic! Quest): Confirmed static baseline per Turn 23913 audit; talking to Camper with Antidote in bag yields unchanged ambient joke dialogue. No item handoff prompt exists. Concluded static.
+  2. HuPhone World Map: Empirically tested in Turn 24038; pressing 'A' on location nodes produces no action or menu. Visual display viewer only. Concluded inert.
+  3. Bag & Item Interactive Prompts: Inspect item submenus (Antidote, Potion, Poison Barb, Nugget, Key Items) to audit untried commands, descriptions, or contextual uses.
 - **Causal Mechanism**: If progression is gated by town tasks ("I have things to do!") or registering/triggering specific quests (like "Medic!"), activating these causal variables will change the internal monologue state or provide actionable progression clues.
-- **Stopping Boundary**: Return to Sovio City, execute tests 1-3, document exact game responses, and evaluate changes to the Metro and Route 2 internal monologues.
+- **Stopping Boundary**: Complete testing of Target 3, document exact game responses, and evaluate changes to progression blockers.
