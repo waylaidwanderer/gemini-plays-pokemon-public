@@ -683,16 +683,10 @@
 - **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093 (0 Repels, 1 Potion, 1 Poison Barb, 1 Antidote).
 - **E1 (Covered Corridor & Tan Building Facades)**: Disproven (Turns 26360-26368); covered corridor south wall at (48-51, 22) confirmed solid collision along row 23; Tan Building double shutters at (34-35, 12) confirmed solid decorative wall with zero interaction.
 
+- **S1 (Sewer Post-Tremor Final Verification)**: Concluded (Turns 26418-26440); Target 1 (Eastern Storage Platform 37, 14) confirmed 100% inert across all 4 facings and perimeter bounds; Target 2 (Dark Sector) confirmed rugged rock (22, 10) equipment-gated ("It's a rugged rock, but with some equipment, I could smash it.") and subterranean chamber (2, 38) static/empty. Sovio Sewers conclusively verified 100% exhausted. Enforcing Exit Rule to permanently close sewer search space.
+
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis S1 (Sewer Post-Tremor Final Verification)**:
-  - Premise: Team Siara grunts vacated following Marie's radio retreat order. Systematically audit the remaining focal points to verify whether any dropped item, unexamined trigger, or directional interaction exists before permanently closing the sewer search space.
-  - Target 1: Eastern Storage Platform (36-38, 12-14) and storage door mat at (37, 14).
-    - Protocol: Inspect (37, 14) from all 4 directional facings (North, South, East, West). Test platform perimeter bounds at (36, 14) and (38, 14).
-    - Empirical Findings (Turns 26418-26425): (37, 14) facing South displays static "Its a simple storage room..."; stepping Down bumps into solid wall (no walk-off warp); (36, 14) facing South inert; (37, 14) facing North inert; (38, 14) facing South inert; (37, 14) facing West inert; (37, 14) facing East inert; (38, 14) stepping East confirmed solid void boundary.
-    - Status: 100% EXHAUSTED & CONFIRMED INERT.
-  - Target 2: Dark Sector / Basement (30, 4).
-    - Protocol: Ascend causeway at column 30, enter wooden staircase at (30, 4). Audit room perimeter, rock smash obstacle (22, 10), and subterranean mat (14-15, 9).
-    - Falsifiable Criteria: If obstacles remain equipment-gated and subterranean chamber remains static, confirm 100% exhausted.
-  - Exit Rule: Upon confirming Targets 1 and 2, permanently archive Sovio Sewers and shift progression focus 100% to exterior regional investigation.
+- **Hypothesis R1 (Exterior Regional Progression Focus)**:
+  - Premise: Sovio Sewers is 100% exhausted. The story blocker "I should find dad first!" gates Metro departure. Focus 100% on exterior Sovio City and regional connections (Lancio Town, Professor Ivo's Lab, Route 1) to identify unexamined story triggers.
 
 <hr>
