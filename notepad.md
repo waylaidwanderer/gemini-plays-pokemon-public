@@ -687,12 +687,14 @@
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
 ## Active Investigation
-### Hypothesis H11: Locating the Source of the Tremor in Sovio City (Active)
-- **Premise**: Dad immediately ran outside into Sovio City to investigate the source of the tremor. The source of the tremor has never been identified or located. Finding Dad requires identifying where the tremor originated or where Dad tracked it in Sovio City.
+### Hypothesis H10: Southern Regional Transit & Lancio Post-Tremor Story Audit (Active)
+- **Premise**: Progression in Sovio City is blocked at the Metro turnstiles ("I should find dad first!") and Route 2 ("I can't go yet... I have things to do!"). All Sovio City urban fixtures (manholes, Central Plaza perimeter, residential interiors, covered corridor, park shoreline) and Sovio Sewers (storage room at 37, 14 confirmed solid in Turn 26918) are verified inert negative constraints. The open outbound path is south to Route 1 and Lancio Town. Dad's closest regional ally and confidante is Professor Ivo in Lancio Town. We must test whether the post-sewer/post-tremor state triggers changes on Route 1 (cottage, cut tree, meadow) or in Lancio Town (Professor Ivo's lab dialogue, lab basement stairs at 12, 7, or harbor dock).
 - **Test Protocol**:
-  1. Ascend to Sovio City surface via the Metro Station lobby stairs.
-  2. Systematically audit unexamined environmental anomalies and structures: Central Park pond shoreline and perimeter, the covered commercial corridor (rows 20-22), and western avenue boundaries.
-  3. Interrogate whether environmental changes or physical interactions reveal the tremor's epicenter.
-- **Falsification Criteria**: If all environmental fixtures, shorelines, and perimeter boundaries in Sovio City yield zero interactions or changes, physical exploration of the tremor source is eliminated.
+  1. Travel south from Sovio City along columns 14-15 into Route 1.
+  2. On Route 1, check the Cut tree at (5, 44) and roadside cottage at (37, 24).
+  3. Travel west into Lancio Town.
+  4. Audit the harbor dock at rows 23-26, columns 32-34.
+  5. Enter Professor Ivo's Lab; speak directly to Professor Ivo at (20, 6) and physically step onto the basement stairs at (12, 7).
+- **Falsification Criteria**: If Route 1 shows zero changes, the harbor dock remains empty, Professor Ivo repeats static dialogue ("Hey, Ashi, how's your new Pokémon?"), and lab basement stairs remain blocked ("I probably shouldn't head down here..."), then Lancio Town and Route 1 are conclusively eliminated as active story triggers.
 
 <hr>
