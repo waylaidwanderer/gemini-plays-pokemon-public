@@ -688,9 +688,8 @@
 ### Hypothesis H3: Sovio City Localized Triggers & Novel Interactions (Active)
 - **Premise**: Testing whether unexamined NPC interactions, inventory items, or system triggers in Sovio City advance the story state or reveal Jackson's whereabouts.
 - **Protocol & Falsification Criteria**:
-  1. Target A (Pokémon Center Camper at 5, 7): The camper complains "My weedle got poisoned so I will need the Pokémon Center's... Ironic isn't it?". Test direct interaction with an Antidote in inventory. Falsification: If camper repeats static humor dialogue without accepting Antidote or opening a prompt, Target A is falsified.
+  1. Target A (Pokémon Center Camper at 5, 7): Concluded Turn 26716 - Falsified. Tested with Antidote in inventory; repeated static humor dialogue ("My weedle got poisoned... / Ironic isn't it?") with zero choice prompts or quest triggers.
   2. Target B (Central Park Couple at 33, 22 & 43-45, 23-26): Test cross-interaction between pink-shirt boy and wandering blonde girl. Falsification: If girl repeats identical catfishing text without recognizing boy, Target B is falsified.
   3. Target C (System & Inventory Items Audit): Audit Bag Key Items, TM Case, and HuPhone features for unexamined active triggers.
-
 
 <hr>
