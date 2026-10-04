@@ -316,11 +316,11 @@
 
 - **Northern Alcove & Exterior Boundary**: Paved alleyway along column 40 runs north from (40, 15) past decorative sewer manhole at (40, 13) to (40, 9) in front of house (39, 7). The entire northern alcove is completely enclosed: west flank is bordered by the solid wall of the tan building (32-37, 8-12); east flank is bordered by the solid west wall and red roof of the Pokémon Center (41-46, 9-12); north flank terminates at the foundation and walls of house (39, 7) and background structure at rows 0-6. Verified zero rear alleyways, side passages, or exits behind the Pokémon Center or residential row.
 
-- **Interior**: Entrance mat lands at (43, 36).
+- **Interior**: Entrance mat lands at (43, 36). Fully audited (Turns 25764–25783).
 
-- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.").
+- **Layout (1F)**: Dining table with tea mug, red mat at (45, 31) before stairs to 2F at (46, 31). Resident elderly man sitting at (41, 33) tested for multi-turn persistent dialogue; confirmed 100% static ambient dialogue ("I bought my son a Wii... Not sure why he asked for one its an old thing but whatever.").
 
-- **Layout (2F)**: Resident boy at (44, 14) ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12) displays verbatim: "There's a game running!" / "There's a blue hedgehog... with a sword?" (Sonic and the Black Knight Easter egg). PC desk at (46, 11). Stairs back down at (40-41, 12) with red mat at (41, 12).
+- **Layout (2F)**: Resident boy at (44, 14) tested for multi-turn persistent dialogue; confirmed 100% static ambient dialogue ("I love the games on the Wii! I'm playing my favorite right now."). TV cabinet at (44-45, 11-12) displays verbatim: "There's a game running!" / "There's a blue hedgehog... with a sword?" (Sonic and the Black Knight Easter egg). White Wii console sits on floor at (45, 13). PC desk at (46, 11-12) is an inaccessible background fixture behind the Wii and bed. Entire residence confirmed 100% exhausted ambient civilian structure.
 
 ## City Signpost
 
