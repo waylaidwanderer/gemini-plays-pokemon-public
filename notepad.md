@@ -701,5 +701,6 @@
     - Rocky & Boy Rocky (23-24, 17): Interacted with Rocky ("It's just a normal rock...") and Boy Rocky ("He's the best...", "Rocky: ..."). Ambient dialogue only.
     - West Avenue Trash Can (14, 19): Interacted facing West; zero interaction text (inert).
     - Southwest Manhole (13, 28): Stepped onto manhole; zero interaction text (inert).
+    - Southwest Dead-End Lawn (12, 30): Physically verified; terminus against pine trees and solid wall, zero interaction text (inert).
 
 <hr>
