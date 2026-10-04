@@ -700,6 +700,7 @@
     - Target 3 (Boy Rocky & partner rock at 23-24, 17): Audited Turn 25635. Boy Rocky retains identical ambient dialogue ("This is my partner, Rocky! He's the best..."). Zero tremor/Dad leads.
     - Target 4 (Gumball House at 29, 14): Audited Turns 25638-25643. 1F Boy ambient TV text, 2F sleeping girl in bed. Zero tremor/Dad leads.
     - Target 5 (Central Park Boy in Pink Shirt at 32, 20): Audited Turn 25652. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?". Ambient dating humor. Zero tremor/Dad leads.
-    - Target 6 (Central Park Fountain Terrace & Central Plaza): Next target.
+    - Target 6 (Terrace House above Metro at 49, 14): Audited Turns 25658-25662. Granddaughter retains ambient text ("Nana makes the best food! Weeeee!"). Zero tremor/Dad leads.
+    - Target 7 (Outdoor Terrace Deck & Metro Plaza at 47-51, 14-18): Next target.
 
 <hr>
