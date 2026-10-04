@@ -694,4 +694,13 @@
   2. Metro Station Turnstile Re-Evaluation (COMPLETED Turn 26868): Stepped onto (19, 21); confirmed verbatim "I should find dad first!" remains active. Checkpoint heal did not clear barrier.
   3. East Exit & Route 2 Approach (COMPLETED Turn 26874): Stepped onto (52, 19); confirmed verbatim "I can't go yet... I have things to do!" triggers along row 19, pushing player back to (51, 19). All physical perimeter tripwires are verified active/inert.
 
+### Hypothesis H9: Sewer Storage Room Physical Collision & Entry Audit (Active)
+- **Premise**: The red horizontal capsule mat with a downward arrow at (37, 14) in Sovio Sewers was labeled "impassable scenery fixture" based solely on reading the 'A' interaction text ("Its a simple storage room.."). In Pokémon Sors, all red arrow mats (Metro entrance at 18-19, 25; Dark Sector at 14-15, 9; building doors) function as warps entered by stepping DOWN off the mat into the adjacent tile. We must test whether walking South from (37, 14) into (37, 15) triggers a warp or encounters solid collision.
+- **Test Protocol**:
+  1. Enter Sovio Metro Station and descend via the red mat into Sovio Sewers.
+  2. Navigate along catwalks to the Eastern Storage Platform (columns 36-38, rows 12-14).
+  3. Stand at (37, 14) on the red mat and press Down to test if (37, 15) warps or collides.
+  4. Test adjacent tiles (36, 14) and (38, 14).
+- **Falsification Criteria**: If pressing Down from (37, 14) produces solid collision with 0 tile movement and no map transition occurs across all row 14 tiles, the storage room is conclusively confirmed as an impassable physical barrier.
+
 <hr>
