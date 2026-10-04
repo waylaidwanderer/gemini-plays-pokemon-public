@@ -24,8 +24,6 @@
 ## Active Hypothesis H143: Sovio City Focused Investigation (Jackson's Whereabouts)
 - **Premise**: Jackson ran outside into Sovio City during the tremor. The Metro turnstile blocker ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") are exclusively rooted in Sovio City. We must return to Sovio City via the northern highway (past Duke to 53, 0) and conduct a rigorous, targeted re-audit of Sovio City to locate Jackson or trigger his return.
 - **Target Variables**:
-  1. Complete transit from Route 1 (38, 10) east past Duke (45, 12) to Sovio City entrance (53, 0).
-  2. In Sovio City, systematically re-examine every outdoor sector and building for un-triggered events, Jackson, or Valora.
+  1. In Sovio City, systematically re-examine every outdoor sector and building for un-triggered events, Jackson, or Valora.
 - **Current Plan**:
-  1. Follow row 10 east past Duke (45, 12) directly to Sovio City gateway (53, 0).
-  2. Enter Sovio City and begin targeted re-examination.
+  1. Enter Sovio City and begin targeted re-examination.
