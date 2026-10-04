@@ -10,7 +10,6 @@
 - **Sovio City Exterior & Residents**: All residential interiors (Nana/granddaughter, elderly Wii man/son, Gumball family, Karate family/Machop, Name Rater) and outdoor NPCs (Bikers, Boy Rocky, Central Park dating couple, Jigglypuff family, Pokémon Center Camper/Boy) repeat static ambient dialogue.
 - **Sovio Sewers**: Grunts retreated following Marie's radio directive; all corridors vacated. Eastern Storage Platform (37, 14) confirmed physically impassable: stepping Down into (37, 15) produces solid collision (0 tiles visited, no warp), and interacting facing South displays verbatim "Its a simple storage room..".
 - **Sovio City Central Plaza Perimeter**: Stepped across all exterior plaza tiles (rows 14-16, columns 41-46) where the Siara confrontation occurred; confirmed 100% inert with zero active tripwires or story scripts.
-- **HuPhone World Map**: Passive topological viewer; hovering displays location banners; START snaps to [X] (Close Map); button 'A' on location nodes is inert (no fast travel). Player location pin is dynamic.
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
 ## Active Investigation
