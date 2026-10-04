@@ -14,8 +14,9 @@
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
 ## Active Investigation
-### Hypothesis H7: Pokémon Center PC Network & Sovio City Post-Tremor State Audit (Active)
-- **Premise**: With all outdoor NPCs and physical fixtures confirmed static, we investigate unexamined digital communication channels and core facility state:
-  1. Pokémon Center PC Terminal (12, 1): Audit Someone's PC, Asher's PC, and check for Professor Ivo / system network mail regarding the tremor or Jackson's movements.
-  2. Pokémon Center Nurse Joy: Verify if healing or speaking with Nurse Joy triggers any post-sewer story flag or dialogue update.
-- **Protocol**: Travel north from Southern Avenue into Pokémon Center, access PC at (12, 1), inspect all sub-menus and mail, speak to Nurse Joy.
+### Hypothesis H8: Sovio City Overworld Tile Trigger & Sequence Audit (Active)
+- **Premise**: Per critique, progression is strictly localized within Sovio City; all static NPCs, menus, and sewers are exhausted. We are auditing unexamined physical tile triggers and overworld coordinates in Sovio City to advance the post-tremor state:
+  1. Central Plaza & Pokémon Center Perimeter: Step across all exterior tiles where the confrontation occurred (columns 41-46, rows 12-14) and the northern alcove in front of house (39, 7).
+  2. Metro Station Turnstile Re-Evaluation: Following the fresh checkpoint heal with Nurse Joy (Turn 26839), verify whether the turnstile tripwire at (19, 21) updates its state.
+  3. East Exit & Route 2 Approach: Audit row 18 at column 52-55 and the manhole at (55, 19).
+- **Protocol**: Exit Pokémon Center to Central Plaza, test confrontation tiles (41-46, 12-14), enter Metro Station to test turnstile (19, 21), and audit East approach.
