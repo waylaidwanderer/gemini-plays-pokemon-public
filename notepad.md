@@ -688,14 +688,14 @@
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
 ## Active Investigation & Progression Re-evaluation (Updated Turn 27272)
-### Hypothesis H12: Central Plaza Confrontation Perimeter Audit
-- **Premise**: Lancio Town, Route 1, the HuPhone, all Sovio City civilian residences, the Metro Station lobby (turnstiles, pillars, attendant, timetable), and the Sovio Sewers (vacated grunts, storage room door inert) are confirmed static negative constraints. Progress requires resolving the post-tremor story trigger to find Dad ("I should find dad first!").
-- **Verified Audits**:
-  - **Metro Lobby Turnstile Audit (Turns 27247-27249)**: Scanner pillars (18, 21) and (20, 21), walls at (17, 22) and (21, 22), and platform attendant confirmed inert/inaccessible.
-  - **Northern Alcove Audit (Turns 27260-27263)**: Alleyway along column 40 and gap at (41, 8) confirmed dead-ends against building walls.
-  - **Sovio Sewers Status**: Corridors vacated, storage room door displays "Its a simple storage room..", rugged rocks require smashing equipment. No active story events present.
+### Hypothesis H12: Central Plaza Confrontation Perimeter Audit (Verified Negative Turns 27278-27279)
+- **Central Plaza Audit Outcome**: Systematically swept rows 13-16 across columns 41-45 in front of the Pokémon Center. 100% verified inert with zero invisible triggers, tripwires, or story scripts.
+
+### Hypothesis H13: West Avenue Commercial Billboard Facade & Northwest Boundary Audit
+- **Premise**: Central Plaza, Metro Station, civilian residences, and Sovio Sewers are confirmed negative constraints. West Avenue contains a large commercial building beneath a giant billboard spanning columns 16-26 along row 16, as well as the Karate house at (14, 15) and western column 11 boundary.
 - **Active Focus & Empirical Plan**:
-  1. Flee wild encounter at (31, 28) and ascend stairs immediately to Central Plaza outside.
-  2. Methodically audit the Central Plaza confrontation site (columns 41-46, rows 12-16) outside the Pokémon Center where Mother, Dad, and the Siara grunts originally confronted each other.
+  1. Traverse west along West Avenue (row 18) to column 23.
+  2. Methodically audit the northern facade of the commercial building across columns 16-23 (rows 16-17) for accessible entrances or story triggers.
+  3. Inspect the northwest perimeter around the Karate house (14, 15) and column 11-12 boundary.
 
 <hr>
