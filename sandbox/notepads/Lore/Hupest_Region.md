@@ -58,10 +58,10 @@
 - **Azluf Town**: Coastal green town node located southeast of Sovio City along the southern shore.
 - **Route 3**: Southern coastal highway connecting Azluf Town east to Samurion City.
 - **Mt. Gerhana**: Mountain landmark and waypoint located between Sovio City and Samurion City along northern mountain route.
-- **Samurion City**: Major port/industrial city on the south-central coast (red node with Poké Ball symbol). Connects west to Azluf Town via Route 3 and Mt. Gerhana, and north to Amor City via Route 4.
+- **Samurion City**: Major port/industrial city on the south-central coast (red node with Pokï¿½ Ball symbol). Connects west to Azluf Town via Route 3 and Mt. Gerhana, and north to Amor City via Route 4.
 - **Route 4**: Dual railway transit corridor connecting Samurion City north to Amor City.
 - **Amor City**: Giant blue central metropolitan hub of Hupest (subtitle: "Metro Station"). Regional capital and host city of the Eclipse Tournament / Amor Sports Center.
 - **Route 16**: Eastern highway connecting Amor City east to Aurin Town.
 - **Aurin Town**: Green town node located east of Amor City.
 - **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
-- **Southeast Offshore Island**: Island containing 1 red town and 1 blue coastal port.
+- **Cord Island**: Southeast offshore island containing 1 red town and 1 blue coastal port (verified via World Map).

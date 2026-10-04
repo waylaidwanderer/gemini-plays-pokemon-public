@@ -494,8 +494,7 @@
 - **Route 16**: Eastern highway connecting Amor City east to Aurin Town.
 - **Aurin Town**: Green town node located east of Amor City.
 - **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
-- **Southeast Offshore Island**: Island containing 1 red town and 1 blue coastal port.
-
+- **Cord Island**: Southeast offshore island containing 1 red town and 1 blue coastal port (verified via World Map).
 
 <hr>
 
