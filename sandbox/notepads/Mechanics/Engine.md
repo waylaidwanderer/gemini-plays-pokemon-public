@@ -71,8 +71,6 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Poké Balls Pocket**: Contains 10 Poké Balls and 1 Timer Ball (11 catching balls total).
-
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
