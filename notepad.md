@@ -678,11 +678,12 @@
 - **Commercial Economy & Liquid Funds (H160)**: Liquidated Nugget for $5,000 (Money: $11,096) at Sovio PokéMart (Turn 24398). Tested Metro turnstile at (19, 21) (Turn 24434: blocked by "I should find dad first!") and Route 2 barrier at (52, 19) (Turn 24437: blocked by "I can't go yet... I have things to do!"). Confirmed neither liquid wealth nor PokéMart sales transactions alter progression barrier scripts.
 - **System & Interface Verification (H162)**: HuPhone portable PC Item Storage ("There are no items.") and Mailbox ("There's no Mail here.") audited 100% empty (Turns 24446, 24449). Confirmed no stored items, equipment, or letters from Dad exist in system storage.
 
-## Active Hypothesis H163: Jackson's Physical Location in Sovio Sewers / Dark Sector Basement
-- **Premise**: Gating flag at Metro turnstile ("I should find dad first!") requires resolving Jackson's status. Testing whether Jackson is physically present in the Dark Sector basement (entered at 30, 4).
-- **Falsification Boundary**: If no NPC or active trigger is found upon surveying Dark Sector rows 8-9 and the upper alcove (cols 13-32), H163 is decisively FALSIFIED, the sewers will be evacuated, and all subterranean searches permanently terminated.
-- **Action Plan**:
-  1. Complete navigation across Northern Gangway (row 5) and column 30 causeway into Northeast Wooden Staircase at (30, 4).
-  2. Survey Dark Sector corridors and alcove for Jackson. [Upper alcove (23, 4) audited 100% EMPTY on Turn 24500. Western corridor rows 8-9 (cols 13-20) surveyed to west wall (13, 8) on Turn 24504: 100% EMPTY. Next checking red mat subterranean room (2, 38) before declaring H163 falsified].
+## Active Hypothesis H163: Jackson's Physical Location in Sovio Sewers / Dark Sector Basement [FALSIFIED]
+- **Audit Results**:
+  1. Upper alcove (23, 4): Audited 100% empty (Nugget collected).
+  2. Western corridor rows 8-9 (cols 13-20): Audited 100% empty.
+  3. Rugged rock at (22, 10): Blocks south path, requires specialized equipment.
+  4. Deep Subterranean room (2, 38): Audited 100% empty (Turn 24509/24513).
+- **Conclusion**: Jackson is definitively NOT present anywhere in Sovio Sewers or its Dark Sector/subterranean basements. H163 is decisively FALSIFIED. All subterranean searches are permanently terminated. Evacuating sewers to the surface.
 
 <hr>
