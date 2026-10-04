@@ -58,7 +58,7 @@
 - **Two-Story Commercial/Residential Building (Columns 47-51, Rows 20-31)**: Large structure south of Central Plaza. Upper story has modern grey roof and large dark windows. Lower story (rows 28-31) features brown wooden siding, blue windowpanes, and decorative wooden shutters.
 
   - **Upper Roof Perimeter & Collision**:
-    - Covered corridor confirmed beneath the northern roof section! Walkable along column 48 across rows 20-22 (entered south from 48, 19). Row 23 is blocked to the south. At row 22, Asher can step west into (47, 22) (peeking beside the trash can at 46, 22); row 23 from (47, 22) is blocked.
+    - Covered corridor confirmed beneath the northern roof section! Spans rows 20-22 across columns 47 to 51. Entrances/exits: north at (48, 19-20) and (51, 19-20); west onto sidewalk at (46-47, 21), and west balcony peek at (47, 22). Row 23 is solid wall across all columns. Eastern boundary at (51, 22) borders Route 2 barrier at (52, 22).
 
   - **Southern Facade & Perimeter Collision**:
 
