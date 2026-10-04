@@ -154,6 +154,7 @@
 - **Route 1 Cottage**: Located at (37, 24); interior at (4, 9). Resident boy at (6, 7) gifted a Max Repel; subsequent dialogue displays verbatim: "Now that you got your sample, go and enjoy freedom!". Single room with no rear exits.
 
 ## Overworld Obstacles & Key Features
+- **Cypress Bypass (Sand Highway Southern Connection)**: From the southern corridor (row 43), enter column 26 north to row 41, traverse east along the blue flower corridor across (27-29, 41) south of the cypress trees, turn north through column 29 (rows 40-39) east of the cypress trees, and step east onto the Sand Highway at (30-32, 39).
 - **Cut Tree**: Located at (5, 44) between pine trees, directly north of the cobblestone road at (5, 45). Confirmed completely inert to 'A' inspection (no dialogue or interaction text); functions as a solid physical obstacle blocking northern forest access.
 - **Row 20 Cottage Ledge**: One-way south-facing ledge spanning columns 39-41 at row 20. Jumpable from north to south; blocks northbound passage east of the cottage.
 - **Northern Hedge Corridor (Row 11)**: Passable 1-tile horizontal corridor along row 11 (columns 30-34) connecting the northern red rock meadow (column 34, row 10) west into the Northwest Clearing.
@@ -203,7 +204,7 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (35, 19), (46, 17), and (35, 23).
 
-- **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) (confirmed completely inert with zero items). The open east-west boulevard runs north along rows 14-15. Northern stone curb at (41, 16) is fully walkable and grants access south onto the grey stone terrace around the fountain. Terrace tiles at (41-43, 17-18) are walkable; water basin rim starts at (41, 18). Symmetrical blue/pink corner markings on the terrace floor at (38, 17), (42, 18), (38, 24), and (42, 25) are non-interactive decorative pavement textures.
+- **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21). The open east-west boulevard runs north along rows 14-15. Northern stone curb at (41, 16) is fully walkable and grants access south onto the grey stone terrace around the fountain. Terrace tiles at (41-43, 17-18) are walkable; water basin rim starts at (41, 18). Symmetrical blue/pink corner markings on the terrace floor at (38, 17), (42, 18), (38, 24), and (42, 25) are non-interactive decorative pavement textures.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
   - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall.
@@ -215,7 +216,7 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock...").
 
-- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) confirmed completely inert with zero items. Trash can at (31, 17) east of City Signpost confirmed completely inert. Trash can at (30, 28) outside Name Rater house confirmed completely inert.
+- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around".
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. The eastern facade of the office building at column 11 across rows 16-20 is a continuous solid wall with no doors or entrances. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
@@ -254,7 +255,6 @@
   - **Southern Facade & Perimeter Collision**:
 
     - Tan brick sidewalk runs south of Central Park pond to columns 44-46 across rows 28-30.
-    - Column 46 has two silver trash cans at (46, 22) and (46, 23) beside the roof curb (confirmed inert with zero items), and two silver trash cans at (46, 30) and (46, 31) beside the southern facade curb (confirmed inert with zero items).
     - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
     - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border.
 
@@ -690,19 +690,8 @@
 - **Exhausted Areas (Turns 25413–25772)**: Sovio Sewers (1F, Dark Sector, Deep Subterranean, storage room at 37, 14), Sovio City residences/civilians, and Metro Station audited post-tremor; confirmed devoid of new NPCs or active triggers, with Metro turnstile ("I should find dad first!") and Route 2 ("I can't go yet...") remaining locked.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis P1 (Regional Synthesis & Professor Ivo Consultation)**:
-  - Premise: As Jackson disappeared following the Team Siara incident, Professor Ivo in Lancio Town was audited for updated regional authority dialogue or basement access.
-  - Findings (Turns 26052-26061):
-    - Lab Basement Stairs (12, 7): Re-verified Turn 26052, verbatim "I probably shouldn't head down here..." (100% unchanged).
-    - Professor Ivo (20, 6): Re-verified Turns 26058-26061, verbatim "Hey, Ashi, how's your new Pokémon?" (100% unchanged).
-    - Outcome: Hypothesis P1 disproven for Professor Ivo's Lab; no active post-tremor story triggers in the laboratory.
-
-- **Hypothesis P2 (Lancio Town Harbor Dock Audit)**:
-  - Premise: Complete the Lancio Town audit by verifying the harbor pier (columns 32-34, rows 23-25) and Fisherman (38, 22) for any boat arrival, Harry presence, or sea-transit trigger.
-  - Findings (Turns 26075-26084):
-    - Harbor Pier (rows 23-25): Completely vacant, no boat moored, Harry absent.
-    - Fisherman (38, 22): Verbatim ambient dialogue "However it goes, you must stay calm and patient..." (100% unchanged).
-    - Outcome: Hypothesis P2 disproven; harbor remains inactive.
+- **Hypothesis P1 (Professor Ivo Consultation)**: Disproven (Turns 26052-26061); lab basement stairs locked ("I probably shouldn't head down here..."), Ivo ambient ("Hey, Ashi, how's your new Pokémon?").
+- **Hypothesis P2 (Lancio Town Harbor Dock Audit)**: Disproven (Turns 26075-26084); wooden pier vacant, Harry absent, Fisherman ambient ("However it goes, you must stay calm and patient...").
 
 - **Hypothesis P3 (Sovio Metro Station & Post-Tremor Investigation Vectors)**:
   - Premise: Jackson ran outside into Sovio City during the tremor (Turn 1329-1437) and was never seen again; the sewer storage room was confirmed empty/unrelated. To resolve "I should find dad first!", we must test unexamined interaction vectors and mechanics rather than repeating static civilian dialogue:

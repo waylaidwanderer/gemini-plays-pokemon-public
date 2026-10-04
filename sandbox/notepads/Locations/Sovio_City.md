@@ -12,7 +12,7 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (35, 19), (46, 17), and (35, 23).
 
-- **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) (confirmed completely inert with zero items). The open east-west boulevard runs north along rows 14-15. Northern stone curb at (41, 16) is fully walkable and grants access south onto the grey stone terrace around the fountain. Terrace tiles at (41-43, 17-18) are walkable; water basin rim starts at (41, 18). Symmetrical blue/pink corner markings on the terrace floor at (38, 17), (42, 18), (38, 24), and (42, 25) are non-interactive decorative pavement textures.
+- **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21). The open east-west boulevard runs north along rows 14-15. Northern stone curb at (41, 16) is fully walkable and grants access south onto the grey stone terrace around the fountain. Terrace tiles at (41-43, 17-18) are walkable; water basin rim starts at (41, 18). Symmetrical blue/pink corner markings on the terrace floor at (38, 17), (42, 18), (38, 24), and (42, 25) are non-interactive decorative pavement textures.
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
   - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall.
@@ -24,7 +24,7 @@
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock...").
 
-- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around". Trash can at (14, 19) confirmed completely inert with zero items. Trash can at (31, 17) east of City Signpost confirmed completely inert. Trash can at (30, 28) outside Name Rater house confirmed completely inert.
+- **West Avenue Signpost & Trash Can**: Wooden signpost at (15, 18) reads "Trainer Tips! If your Pokémon gets poisoned, it will take damage during battles. However, it won't when you walk around".
 
 - **West Avenue Boundary**: Cobblestone lane along rows 16-20 terminates west at column 11 into a solid modern office building wall. The eastern facade of the office building at column 11 across rows 16-20 is a continuous solid wall with no doors or entrances. Corner tile (12, 15) is solid foundation wall of the Karate house.
 
@@ -63,7 +63,6 @@
   - **Southern Facade & Perimeter Collision**:
 
     - Tan brick sidewalk runs south of Central Park pond to columns 44-46 across rows 28-30.
-    - Column 46 has two silver trash cans at (46, 22) and (46, 23) beside the roof curb (confirmed inert with zero items), and two silver trash cans at (46, 30) and (46, 31) beside the southern facade curb (confirmed inert with zero items).
     - Facade at (47-51, 30-31) features decorative wooden shutters flanked by blue windows; non-enterable decorative scenery.
     - Dense pine hedges border the south at row 31 (columns 41-45), and row 32 is solid tree/hedge border.
 
