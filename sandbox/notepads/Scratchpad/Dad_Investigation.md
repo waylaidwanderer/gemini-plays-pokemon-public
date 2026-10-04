@@ -15,12 +15,19 @@
 - **H135-A (Eastern Platform & Storage Mat - CONCLUDED)**: Audited all 9 platform tiles (36-38, 12-14). Door at (37, 14) confirmed verbatim: "Its a simple storage room...". Row 15 solid collision. Zero items/switches.
 - **H135-B & H135-C**: Suspended without exhaustive traversal to break out of internal Sovio loop per critique directive.
 
-## Active Hypothesis H136: External Investigation for Dad's Trail & Tremor Origin (Initiated Turn 23102)
-- **Premise**: Sovio City overworld and Sewers Eastern Platform have been repeatedly audited with zero Dad sightings. Dad ran outside to investigate the seismic tremor. The tremor source or Dad's trail must be external to Sovio City (Route 1, Lancio Town, Professor Ivo's Lab) or tied to an equipment progression mechanic (smashing rugged rocks).
+## Concluded Hypothesis H136: External Investigation for Dad's Trail & Tremor Origin (Concluded Turn 23307)
+- **Premise**: Sovio City overworld and Sewers Eastern Platform had been audited with zero Dad sightings. Investigated external leads (Route 1, Lancio Town, field equipment).
 - **Sub-Hypotheses**:
   - **H136-A (Route 1 Traversal & Reconnaissance - CONCLUDED Turn 23218)**: Successfully traversed southern bypass and cobblestone road to Lancio Town; Cut tree verified intact at (5, 44).
   - **H136-B (Lancio Town & Professor Ivo's Lab - CONCLUDED / FALSIFIED Turn 23247)**: Comprehensive empirical audit completed across all Lancio facilities and residents: Professor Ivo (starter line), basement stairs ("probably shouldn't head down here"), incubator ("better not mess with that machine"), TM boy ("Get out!"), Old Man & Woman (pond flavor text), dock fisherman (fishing lesson flavor), pier (empty, no boat), Pokémon Center patrons (integrated mart and healing flavor). All confirmed 100% static baseline. Zero leads on Dad or tremor.
   - **H136-C (Field Equipment & Rock Smash Mechanics - CONCLUDED / FALSIFIED Turn 23307)**: Comprehensive empirical audit across all potential equipment targets: (a) Professor Ivo / Lab staff [VERIFIED ZERO TOOLS], (b) Lancio Town TM house boy at 25, 10 [VERIFIED: "Get out!", ZERO TOOLS], (c) Lancio dock fisherman at 38, 22 [VERIFIED: static fishing flavor, ZERO TOOLS], (d) Sovio City karate house / Machop family at (14, 15) [CONCLUDED STATIC in H118-H123: martial arts debate & aggressive Machop flavor, zero equipment], (e) PokéMart stock [VERIFIED Turn 23306-23307: Poké Ball $200, Potion $300, Antidote $100, Paralyz Heal $200, Repel $350, Cancel; zero equipment]. *Conclusion*: Rock-smashing equipment is not obtainable from any accessible regional vendor or civilian; rugged rock obstacles are mechanic-gated for later progression.
+
+## Active Hypothesis H137: Post-Retreat Subterranean & Digital System Audit (Initiated Turn 23314)
+- **Premise**: All surface facilities, civilians, and external routes (Route 1, Lancio Town) are confirmed static baseline. The unresolved story blocker ("I should find dad first!") must originate from either unexamined subterranean sectors post-retreat or digital system interactions.
+- **Sub-Hypotheses**:
+  - **H137-A (HuPhone System & Quest Status Audit - ACTIVE Turn 23314)**: Inspect HuPhone Mailbox, Quest Status, and app triggers for any pending communications or directives.
+  - **H137-B (Sovio Sewers Post-Retreat Sector Audit - PENDING)**: Systematically audit all accessible sectors of Sovio Sewers (Western Terrace, Northern Gangway, Dark Sector basement, and Eastern Storage platform) to verify whether any dropped item, NPC, or passage exists post-Marie retreat.
 - **Current Plan**:
-  1. Traverse through Route 1 Northeast Meadow into Sovio City at gateway (53, 0).
-  2. In Sovio City, systematically audit unverified mechanics and physical spaces outside the Metro lobby.
+  1. Exit Pokémon Center into Central Plaza at (44, 13).
+  2. Execute H137-A: Open and inspect HuPhone apps (Mailbox, Quest Status).
+  3. Execute H137-B: Enter Sovio Sewers via Metro lobby red mat to systematically audit post-retreat sewer sectors.
