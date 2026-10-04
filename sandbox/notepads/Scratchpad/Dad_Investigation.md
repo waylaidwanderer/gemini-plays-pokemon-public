@@ -16,6 +16,6 @@
 - **Premise**: All accessible physical overworld NPC interactions and commercial wealth have failed to clear the turnstile blocker ("I should find dad first!"). Testing whether progression is gated by an unexamined system mechanism: HuPhone portable PC Item Storage (checking for stored items/tickets/equipment from Dad), Mailbox, or Party/Item interactions.
 - **Action Plan**:
   1. Open HuPhone via SELECT.
-  2. Access Item Storage app -> check 'Withdraw Item' to verify if any items, tickets, or equipment are stored.
+  2. Access Item Storage app -> check 'Withdraw Item' to verify if any items, tickets, or equipment are stored. [TESTED Turn 24446: Displays "There are no items." Confirmed empty].
   3. Check 'Mailbox' on HuPhone PC.
   4. Inspect Party summary and held item states.
