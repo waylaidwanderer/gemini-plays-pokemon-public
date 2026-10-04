@@ -86,3 +86,6 @@
 - **Empirical Pokédex Status**: The Pokédex menu option is completely ABSENT from the Start Menu, confirming Asher does not currently possess a Pokédex device.
 - **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open; synchronizes with host system clock.
 - **TM Reusability**: Confirmed infinite use in Pokémon Sors v1.3; TM48 (Work Up) remains in the TM Case after being taught to Sirius.
+
+## Custom Emulator SDK & Sandbox Execution Limits
+- **Script Button Accumulator Limit**: The sandbox Python environment enforces a cumulative session limit on button commands executed via Python scripts/mgba. When this limit is reached, any script attempting button commands will abort with 'Maximum cumulative limit of 100 buttons per script execution exceeded'. Controller button commands should strictly use the native press_buttons tool.

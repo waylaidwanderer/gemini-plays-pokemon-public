@@ -38,6 +38,7 @@
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) on rock spire. Team: Cherubi Lv5. Defeated.
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in northeast meadow. Team: Burmy Lv6. Defeated.
 - **NPC 7 (Blue Cap Boy & Pidgey)**: Located at (34, 37) on Sand Highway. Owner of the lost Pidgey (Quest Completed).
+- **NPC 8 (Girl in Pink Vest)**: Located at (38-40, 36) on the path between Sand Highway and the eastern clearing.
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
