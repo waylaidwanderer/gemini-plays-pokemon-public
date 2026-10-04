@@ -406,7 +406,7 @@
 - Koffing (Lv4-7, Poison)
 - Grimer (Lv5-7, Poison)
 - Purrloin (Lv4-7, Dark)
-- Poochyena (Lv5-7, Dark)
+- Poochyena (Lv4-7, Dark)
 - Klink (Lv4-7, Steel)
 - Trubbish (Lv4-6, Poison)
 - Stunky (Lv4, Poison/Dark)
@@ -680,11 +680,6 @@
 - **Route 2 Eastern Exit (52, 19-22)**: Scripted barrier verified at (52, 21) on Turn 26205-26215; triggers verbatim "I can't go yet... I have things to do!" and forces Asher west to (51, 21).
 
 ## Concluded & Disproven Hypotheses (Archived)
-- **P1 (Professor Ivo)**: Disproven (Turn 26058); ambient dialogue only, lab basement locked.
-- **P2 (Lancio Dock)**: Disproven (Turn 26083); pier vacant, Harry absent, Fisherman ambient.
-- **C1 (Camper Antidote)**: Disproven (Turn 26186); Camper does not accept Antidote.
-- **C2 (Valora Tracing)**: Disproven (Turn 26201); Valora not present at any public station/checkpoint.
-- **C3 (Physical Tremor Anomaly / Eastern Route 2 Barrier)**: Disproven (Turns 26205, 26215); covered corridor clear, Route 2 hard-blocked by "I can't go yet...".
 - **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093 (0 Repels, 1 Potion, 1 Poison Barb, 1 Antidote).
 - **E1 (Covered Corridor & Tan Building Facades)**: Disproven (Turns 26360-26368); covered corridor south wall at (48-51, 22) confirmed solid collision along row 23; Tan Building double shutters at (34-35, 12) confirmed solid decorative wall with zero interaction.
 
