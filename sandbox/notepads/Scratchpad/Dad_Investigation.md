@@ -19,11 +19,13 @@
 
 - **Quest Triggers & Bag/Map Items (H151 - CONCLUDED)**: Camper dialogue static with Antidote in bag. HuPhone World Map is visual only (pressing 'A' on nodes does nothing). Nugget 'Use' yields standard Ivo refusal text. TM17 taught to Zephyr. Digital and bag systems verified static baseline.
 
-## Active Hypothesis H152: Causal Audit of Untested Party Configuration & Central Plaza Story Triggers
-- **Premise**: Progression blockers "I should find dad first!" (Metro turnstile) and "I can't go yet... I have things to do!" (Route 2) are internal monologues reflecting unfulfilled game conditions. In Pokémon Sors, story triggers may depend on party state (e.g. Zephyr the Pidgey in slot 1, given Mother's Eclipse Pidgey plotline) or specific overworld trigger coordinates in Central Plaza outside the Metro portal.
+- **Party Lead Configuration (H152 - CONCLUDED)**: Leading with Zephyr (Lv2 Pidgey, Tackle + Protect) vs Sirius yields identical verbatim text at Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!"). Party lead order is not the gating variable.
+
+## Active Hypothesis H153: Causal Audit of Sovio Unresolved Civilian Quests & Plaza Triggers
+- **Premise**: Route 2 exit blocker ("I can't go yet... I have things to do!") indicates uncompleted town tasks or unfulfilled event prerequisites in Sovio City. Central Park contains an apparent unresolved interaction (Boy at 33, 22 and Blonde Girl at 43-45, 23-26 both lamenting being stood up/catfished on opposite sides of the pond), matching Quest Log entry 'Valentines Gift' (Quest 8). Furthermore, the elevated terrace at (49, 14) and adjacent Central Plaza fixtures may contain untried interaction flags.
 - **Target Variables**:
-  1. Party Order Switch: [COMPLETED] Zephyr (Lv2 Pidgey, Tackle + Protect) swapped into Slot 1; Sirius (Lv17 Riolu) placed in Slot 2. Lead Pokémon updated.
-  2. Metro Station Platform & Turnstile Verification: [COMPLETED] Stepping onto turnstile (19, 21) with Zephyr (Pidgey) leading still displays verbatim "I should find dad first!" and forces player south to (19, 22). No change in story flag or dialogue. Concluded static.
-  3. Route 2 Barrier Re-evaluation: Test Route 2 boundary at column 52 with the altered party configuration to observe if "I have things to do!" monologue changes.
-- **Causal Mechanism**: If the game tracks party lead or specific story prerequisites linked to the Pidgey/Eclipse narrative, altering the party configuration or checking Central Plaza with the updated team may advance the story flag.
-- **Stopping Boundary**: Execute party swap, re-test Metro turnstile and Route 2 barrier, record exact before/after dialogue, and conclude H152.
+  1. Terrace & House Audit (49, 14): Re-inspect elevated terrace floor, signpost rear at (51, 17), and residence fixtures (stove, fridge, TV) to confirm zero unexamined triggers.
+  2. Central Park Dating Pair Causal Interaction: Speak sequentially to Blonde Girl (43-45, 23-26) and Boy in Pink Shirt (33, 22) within the same contiguous sequence to verify if cross-talking triggers dialogue progression, a delivery prompt, or quest registration.
+  3. Re-verify Route 2 and Metro Turnstile: Check if resolving civilian dialogues alters "I have things to do!" or "I should find dad first!".
+- **Causal Mechanism**: If Route 2's blocker "I have things to do!" is tied to town side quests or civilian resolution (such as uniting the dating couple in Central Park), completing these interactions will update the story flag or clear the barrier.
+- **Stopping Boundary**: Execute targets 1 and 2, record exact dialogue responses, check Route 2 barrier, and conclude H153.
