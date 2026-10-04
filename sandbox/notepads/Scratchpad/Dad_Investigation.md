@@ -20,11 +20,12 @@
 - **Premise**: With all physical overworld sectors, interiors, and inventory items verified static, progression cannot be achieved by re-walking urban tiles. We must investigate fundamentally distinct, untested game systems and mechanics.
 - **Specific Unexplored Variables to Test**:
   1. *Trainer Card Audit*: Concluded. Front (ID 54592, Money ¥6096, 8 empty tournament round slots) and Back (regional sun/hand emblem, 6 empty crest silhouettes) 100% verified baseline.
-  2. *Clock & Timetable Mechanics*: Active. Metro Station schedule lists Amor at 16:00 and Almia at 20:00. Current clock is ~19:56. Heading into Metro Station lobby to observe the 20:00 threshold.
-  3. *Field Shortcuts / Select Key Mechanics*: Verify HuPhone response on overworld tiles or any special interaction triggers.
+  2. *Clock & Timetable Mechanics*: Concluded. Timetable board at (22, 23) displays static destination flavor text ("It's a timetable showing various destinations!").
+  3. *HuPhone Item Storage / Withdraw Item Audit*: Active. Audit portable PC Item Storage via Withdraw Item to check for stored items, tickets, or equipment.
 - **Falsification & Stopping Boundaries**:
   - Strictly prohibit re-auditing previously verified static coordinates (fountain, Pokémon Center exterior, West Avenue facade, turnstile angles).
   - Conclude each system check within 5 turns before pivoting.
 - **Current Plan**:
-  1. Exit Trainer Card and Start Menu back to Overworld at (51, 19).
-  2. Enter Sovio Metro Station at (48, 17) to position near the timetable board / turnstile before 20:00.
+  1. Press B to dismiss timetable text box.
+  2. Press Select to open HuPhone interface.
+  3. Enter Item Storage -> Item Storage -> Withdraw Item.
