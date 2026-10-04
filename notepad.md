@@ -157,17 +157,16 @@
 - **Cut Tree**: Located at (5, 44) between pine trees, directly north of the cobblestone road at (5, 45). Confirmed completely inert to 'A' inspection (no dialogue or interaction text); functions as a solid physical obstacle blocking northern forest access.
 - **Row 20 Cottage Ledge**: One-way south-facing ledge spanning columns 39-41 at row 20. Jumpable from north to south; blocks northbound passage east of the cottage.
 - **Row 43 Northern Corridor Collision**: Row 43 is blocked to the west at (11, 43) by solid pine tree canopy collision; does not connect west across column 11.
-- **Row 43 Hedge Gap**: Passable gap at column 26 (rows 41-43) connecting the southern corridor (rows 44-49) north into the western corridor (leading toward Youngster Mike at 29, 20).
-- **South Sand Highway Passage**: A 1-tile gap in the row 39 hedge line at (36, 39) leads into a 1-tile vertical corridor down column 36 across rows 39-41, but terminates in a dead-end at (36, 41) blocked by a solid pine tree at (36, 42).
+- **South Sand Highway Boundary**: Row 39 hedge line and dense pine trees (columns 31-35, rows 36-39) border the southern Sand Highway; column 36 gap at (36, 39) dead-ends at pine tree (36, 42).
 - **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
 - **Pine Tree & Terrain Barriers**:
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
-  - Pine tree at (31, 38) and hedge line at row 39 block westward traversal from the southern Sand Highway dead-end (row 38).
+  - Pine tree at (31, 38) and hedge line at row 39 block westward traversal from the southern Sand Highway (row 38).
   - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
-  - Pine tree at (27, 23) and (28-29, 25) blocks southward traversal down columns 27-29.
+  - Pine trees at (27, 23) and (28-29, 25) block southward traversal down columns 27-29.
   - Rock spire at (26, 18-19) is an elevated ledge entered from (27, 18); blocks south/west movement. Lass Sonia stands on northern spire at (26, 14).
-  - Column 31 tall grass corridor (rows 22-25) connects the cottage grounds (32, 26) north to Youngster Mike (29, 20) in the Northwest Clearing.
+  - Column 31 tall grass corridor (rows 22-25) connects the cottage grounds (32, 26) north to Youngster Mike (29, 20).
   - Hedge bush at (41, 42) blocks southward traversal down column 41 from (41, 41).
   - Hedge bush at (42, 42) blocks southward traversal from (42, 41) along the eastern shoreline.
 
