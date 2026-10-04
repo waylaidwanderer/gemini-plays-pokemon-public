@@ -35,3 +35,9 @@
   - Hovering cursor over nodes updates top-left banner dynamically (e.g. "Amor City / Amor Dept.", "Sovio City / Metro Station", "Route 4", "Route 16").
   - The yellow marker pin with black tip represents the Player's current location (Asher at Sovio City), not a fixed story marker.
   - Pressing 'A' on location nodes is completely inert: zero menus, zero fast-travel prompts. World Map is a passive navigational reference.
+
+### Hypothesis H6: Post-Tremor Sovereign Trigger Audit (Active)
+- **Premise**: Jackson ran outside into Sovio City during the tremor. We are auditing unexamined exterior post-tremor interaction points:
+  1. Elevated Terrace (47-51, 14-16) above Metro Station: Audit exterior terrace tiles, manhole fixture at (51, 16), and resident Old Man post-quest dialogue.
+  2. Metro Station Turnstile Direct Interaction: Stand at (19, 22) facing North into (19, 21), press 'A' without stepping forward to test for direct attendant/turnstile interaction dialogue.
+- **Falsification**: If terrace fixtures and Old Man repeat static dialogue, and turnstile direct 'A' produces identical barrier text or is inert, investigate southern overland vectors.

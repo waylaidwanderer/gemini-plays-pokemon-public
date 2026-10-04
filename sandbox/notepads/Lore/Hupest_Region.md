@@ -68,4 +68,4 @@
 ## Interactive World Map Findings (HuPhone)
 - **Divampa Cave**: Verified cave/mountain landmark in the central-south mountain sector between the southern routes and Amor City.
 - **Mulberry Town & Route 9**: Verified town and route nodes on the western island archipelago.
-- **Solare Island & Fixed Pin Marker**: An isolated island node in the far northwest ocean connected via dashed sea route from the western island; verified in-game name 'Solare Island'; holds a permanent fixed marker pin (yellow body, green wings, black tip).
+- **Solare Island**: An isolated island node in the far northwest ocean connected via dashed sea route from the western island.
