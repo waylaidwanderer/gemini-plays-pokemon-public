@@ -687,26 +687,15 @@
 - **Sovio City Central Plaza Perimeter**: Stepped across all exterior plaza tiles (rows 14-16, columns 41-46) where the Siara confrontation occurred; confirmed 100% inert with zero active tripwires or story scripts.
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
-## Active Investigation & Progression Re-evaluation (Updated Turn 27151)
-### Hypothesis H11: Sovio City Plot & Metro Platform Attendant Audit (Updated Turn 27241)
-- **Premise**: Lancio Town, Route 1, the HuPhone, and all Sovio City civilian residences (Nana, Wii house, Gumball, Karate, Name Rater) are confirmed static negative constraints. The Covered Commercial Corridor was 100% audited and confirmed inert (Turns 27213-27216). Progression is gated strictly by finding Dad to clear the Metro turnstiles ("I should find dad first!").
-- **Rigorous Falsification & Focus**:
-  1. Civilian interiors are permanently eliminated from active investigation.
-  2. Primary audit target is the Sovio Metro Station:
-     - Audit the Metro platform attendant in the northeast blue chair (visually confirmed Turn 27202): test if interaction is possible from any accessible lobby tile or angle.
-     - Audit timetable board, scanner pillars, and turnstile perimeter from all adjacent coordinates.
-  3. Secondary audit target: Central Plaza confrontation perimeter where Mother and grunts withdrew.
-- **HuPhone In-Game System Audit (Verified Turns 27184-27192)**:
-  1. Quest Status: Confirmed verbatim: "You aren't doing any Quest currently...". Zero active side quests or story tracking in Quest Log.
-  2. Quest List: Page 1 shows Lost Pidgey (Completed), Lost Toy (Completed), Egg Research/Medic/Squirtle Gang (Uncompleted).
-  3. Mailbox: Confirmed verbatim: "There's no Mail here.". Zero incoming messages from Dad or others.
-  4. Item Storage (Withdraw Item): Confirmed verbatim: "There are no items.". Zero stored items in PC.
-- **Deduction & Focus**: Personal communication and quest systems are 100% verified empty. Active objective remains resolving the Metro turnstile barrier ("I should find dad first!") by focusing strictly on plot-relevant Metro and Central Plaza triggers.
-- **Metro Lobby Turnstile Audit (Turns 27247-27249)**:
-  1. Right scanner pillar at (20, 21) tested facing North: confirmed inert.
-  2. Brick wall at (21, 22) beneath platform attendant tested facing East: confirmed inert.
-  3. Left scanner pillar at (18, 21) tested facing North: confirmed inert.
-  4. West brick wall at (17, 22) tested facing West: confirmed inert.
-  5. Platform attendant: visually confirmed seated in northeast chair on platform, physically inaccessible behind turnstile barrier. Turnstile gate is 100% audited; progress requires resolving external story event.
+## Active Investigation & Progression Re-evaluation (Updated Turn 27272)
+### Hypothesis H12: Central Plaza Confrontation Perimeter Audit
+- **Premise**: Lancio Town, Route 1, the HuPhone, all Sovio City civilian residences, the Metro Station lobby (turnstiles, pillars, attendant, timetable), and the Sovio Sewers (vacated grunts, storage room door inert) are confirmed static negative constraints. Progress requires resolving the post-tremor story trigger to find Dad ("I should find dad first!").
+- **Verified Audits**:
+  - **Metro Lobby Turnstile Audit (Turns 27247-27249)**: Scanner pillars (18, 21) and (20, 21), walls at (17, 22) and (21, 22), and platform attendant confirmed inert/inaccessible.
+  - **Northern Alcove Audit (Turns 27260-27263)**: Alleyway along column 40 and gap at (41, 8) confirmed dead-ends against building walls.
+  - **Sovio Sewers Status**: Corridors vacated, storage room door displays "Its a simple storage room..", rugged rocks require smashing equipment. No active story events present.
+- **Active Focus & Empirical Plan**:
+  1. Flee wild encounter at (31, 28) and ascend stairs immediately to Central Plaza outside.
+  2. Methodically audit the Central Plaza confrontation site (columns 41-46, rows 12-16) outside the Pokémon Center where Mother, Dad, and the Siara grunts originally confronted each other.
 
 <hr>
