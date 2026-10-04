@@ -680,4 +680,12 @@
 
 - **Progression Gating & Central Plaza Audit (H165)**: Central Plaza confrontation ground tiles (cols 42-46, rows 13-16 outside Pokémon Center) audited with zero active triggers. Inventory, Trainer Card (8 round slots, 6 crest silhouettes), and Sirius profile audited. Turnstile gate (19, 21) confirmed static ("I should find dad first!"). Falsified.
 
+## Active Hypothesis H166: Northeast Route 2 Transition and Column 52 Boundary Audit
+- **Premise**: Prior East Exit barrier audits strictly documented rows 19-22 at column 52 ("I can't go yet... I have things to do!"). Rows 17 and 18 at column 52 (east of the signpost at 50-51, 18 and walkable tile 51, 17) have never been empirically tested for collision, triggers, or a bypass corridor toward Route 2.
+- **Action Plan**:
+  1. Dismiss turnstile text with B and ascend stairs at (24, 24) to Sovio City overworld (48, 18).
+  2. Walk East to signpost at (50-51, 18) and navigate to (51, 17).
+  3. Test movement East into (52, 17) and (52, 18).
+- **Falsification Boundary**: If (52, 17) and (52, 18) exhibit solid building collision or trigger the identical story barrier ("I can't go yet... I have things to do!"), H166 is falsified, confirming column 52 is continuously blocked across all rows.
+
 <hr>
