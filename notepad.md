@@ -693,15 +693,11 @@
 ## Active Grounded Hypotheses & Physical Inspection Log
 - **Metro Platform Verification (Turn 25352)**:
   - Turnstile at (19, 21) gates the platform with "I should find dad first!". Visual audit confirms platform contains only yellow vending machine, 2 blue chairs NW, and 2 blue chairs NE; zero NPCs or ticket counters present.
-- **Hypothesis T2 (Repel-Assisted Subterranean Sewer Audit)**:
-  - Inventory: Acquired Repel x 9 from Sovio PokéMart mezzanine (Turn 25377). Money: ¥7,946.
-  - Strict Third Descent Protocol:
-    1. Enter Sovio Sewers via (18, 25) in Metro lobby.
-    2. Immediately activate Repel from Bag (Lv17 Sirius leads party, 100% suppressing Lv4-7 wild encounters).
-    3. Route west along row 28 straight to column 18, then north along columns 17-18 to western stairs (14, 16).
-    4. Ascend to Western Terrace (14, 12) and climb ladder at (15, 11) to Northern Gangway (row 5).
-    5. Cross bridge at column 23, follow row 13 east to storage room platform (37, 14) and audit tiles. Confirmed: tile (37, 14) red arrow mat displays "Its a simple storage room..." facing south; downward movement blocked by void edge.
-    6. Audit column 30 causeway and Dark Sector staircase at (30, 4). Climbed column 30 causeway to (31, 4), preparing to enter Dark Sector.
-    7. No aborting: Repel guarantees zero battle interruptions for 900 total steps.
+- **Hypothesis T2 (Repel-Assisted Subterranean Sewer Audit - COMPLETED)**:
+  - Repel-assisted subterranean audit executed turns 25413-25455.
+  - Storage room at (37, 14) re-verified static ("Its a simple storage room...").
+  - Dark Sector and Deep Subterranean fully documented and cleared (Nugget, Lost Toy).
+  - Conclusion: Sewers are completely exhausted of NPCs, items, and triggers. Dad is not underground.
+  - Active Plan: Systematic surface investigation across Sovio City facilities and residences.
 
 <hr>
