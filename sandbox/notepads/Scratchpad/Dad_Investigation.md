@@ -19,8 +19,3 @@
 - **Routing Plan**:
   1. Continue northeast across Route 1 via column 30 low hedge (30, 13) and Northern Meadow to Sovio City gateway (53, 0).
   2. In Sovio City, audit all key locations and check whether any interaction triggers Dad's event.
-- **Routing Plan**:
-  1. Exit Professor Ivo's Lab into Lancio Town.
-  2. Traverse east through Lancio Town avenue onto Route 1 cobblestone road (0, 45-46).
-  3. Route east through Route 1 (Southern Bypass, Cypress Bypass, Northwest Clearing corridor, meadow) to Sovio City gateway (53, 0).
-  4. Enter Sovio Metro Station and descend into Sovio Sewers.
