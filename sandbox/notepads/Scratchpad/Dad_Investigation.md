@@ -15,14 +15,11 @@
 - **H128 Regional Devices & Metro Boundaries**: Audited HuPhone (0 mail/stored items/active quests), Bag (HuPhone, TM Case only), Metro turnstile/chairs/timetable, and Sewers post-retreat state. All static.
 - **H129 Eastern Boundary & Commercial Shutters (FALSIFIED)**: Route 2 barrier at (52, 19) blocks east with story barrier. Elevated terrace fixtures (circular cover at 51, 16; window at 50, 14; east wall at 51, 14-16) and Nana's house interior verified static. Building C shutters (34-35, 12) and Building B shutters (24-25, 26) verified solid collision with zero interaction text. 100% FALSIFIED and concluded.
 
-## Active Hypothesis H131: Metro Station Platform & Ticket/Turnstile Mechanism
-- **Premise**: Dad was preparing to board the train to Amor City with Asher and Valora when the tremor hit. The turnstile triggers "I should find dad first!". Inquire into Metro Station mechanisms, attendants, timetable, and whether an item, interaction, or specific condition triggers Dad's return or turnstile passage.
+- **H131 Metro Station Platform & Attendant (FALSIFIED)**: Verified lobby fixtures (timetable, chairs, scanner pillars) have 0 interactive flags. Seated platform transit officer is unreachable beyond turnstile. Turnstile gate (19, 21) persistently pushes back with 'I should find dad first!'. 100% FALSIFIED.
+
+## Active Hypothesis H132: Sovio City Overworld Re-Survey for Event Triggers
+- **Premise**: Dad fled into Sovio City during the tremor. Since Metro passage is blocked until Dad is found, re-survey Sovio City overworld sectors for any overlooked triggers or environmental shifts.
 - **Sub-Hypotheses & Testable Variables**:
-  1. **H131-A (Metro Lobby Thorough Inspection)**: Re-examine the Metro Station lobby (columns 17-24, rows 21-25) from all angles: inspect the timetable board at (21-23, 23) from front and sides, test the blue passenger chairs along the west wall at (17, 22-24) to see if sitting/interacting is possible, and test the scanner pillars at (18, 21) and (20, 21).
-  2. **H131-B (Turnstile Camera & Sightline Check)**: From (19, 22), inspect the platform view through the turnstiles: determine if any NPC, officer, or object is visible or interactive on the platform side.
-  - *Falsification Boundary*: Falsified if all lobby fixtures and turnstile alignments yield only confirmed flavor text and the persistent 'I should find dad first!' pushback.
-- **H131-A & H131-B Empirical Results (Turn 22933)**:
-  - Left scanner pillar (18, 21) and right scanner pillar (20, 21) verified 0 interaction text.
-  - West wall chairs: (17, 24) walkable floor, rows 22-23 solid collision, 0 interaction text.
-  - Turnstile gate at (19, 21) re-confirmed: triggers 'I should find dad first!' and forces Asher south to (19, 22).
-  - CRITICAL SIGHTLINE CORRECTION: A uniformed transit officer (blue police cap, blue uniform) IS SEATED in the northeast platform chair (facing west)! Prior notes claiming 'zero NPCs' were false.
+  1. **H132-A (Central Plaza & North Sectors)**: Survey Central Plaza hub and perimeter to check if any NPC dialogue or trigger has changed.
+  2. **H132-B (West Avenue & Southern Corridors)**: Re-examine West Avenue and southern residential perimeter.
+  - *Falsification Boundary*: Falsified if all overworld sectors and NPCs remain completely static.
