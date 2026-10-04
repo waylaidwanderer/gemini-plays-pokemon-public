@@ -14,17 +14,23 @@
 - **Mechanical Level-Up (H127, H139)**: Sirius Lv17, Zephyr Lv2, inventory verified.
 - **Sovio Sewers Audits (H135, H137-B - CONCLUDED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero story flags.
 
-## Active Hypothesis H146: Non-Spatial System & In-Game Device Audit
-- **Premise**: Physical spatial exploration across all available maps (Lancio, Route 1, Sovio City, Sewers) has confirmed 100% static baselines with zero overworld NPCs representing Jackson. As directed by critique, progression may be gated by non-spatial game mechanics (HuPhone app features, item activation, party inspection, or Trainer Card/system state).
-- **Target Variables**:
-  1. Open HuPhone via SELECT and systematically inspect all app screens and submenus.
-  2. Inspect Start Menu party status, Sirius held item/summary, and Trainer Card.
-- **Current Plan**:
-  1. Press SELECT to open HuPhone interface.
-  2. Review apps and inspect active options.
+## Concluded Hypothesis H146: Non-Spatial System & In-Game Device Audit (CONCLUDED - FALSIFIED)
+- **Premise**: Progression gated by non-spatial system triggers (HuPhone apps, party inspection, or Trainer Card state).
+- **Findings (Turns 23822-23866)**:
+  - HuPhone Item Storage: 0 items deposited.
+  - HuPhone Mailbox: 0 messages.
+  - HuPhone Quest Log: 0 active quests ("You aren't doing any Quest at the moment!").
+  - HuPhone World Map: Fully browsed; static regional nodes (Solare Island marker, Divampa Cave, Mulberry Town verified).
+  - Trainer Card: Front (Asher ID 54592, 0 badges, 8 tournament round slots); Back (6 dark crest silhouettes).
+  - Party Summary: Sirius Lv17 Relaxed (OT Asher 54592, met Lancio Lv5, Held Item: Black Belt; moves: Metal Claw, Quick Attack, Work Up, Mach Punch). Zephyr Lv2 Pidgey (Mild, Keen Eye, Tackle).
+- **Conclusion**: Falsified. No non-spatial flags, unread messages, or menu triggers unlock progression.
 
-## H146 Audit Progress & Reflection 23865 Findings
-- HuPhone: Item Storage (empty), Mailbox (empty), Quest Status ("You aren't doing any Quest at the moment!"), World Map (interactive, Solare Island fixed pin, Divampa Cave, Mulberry Town verified).
-- Trainer Card: Front displays Asher ID 54592, 0 Badges, 8 Eclipse Tournament round slots; Back displays 6 dark crest silhouettes.
-- Party Status: Sirius Lv17 Relaxed nature, OT Asher 54592, met Lancio Town Lv5, Held Item: Black Belt (verified in summary Page 1). Moves: Metal Claw, Quick Attack, Work Up, Mach Punch. Zephyr Lv2 Pidgey.
-- Next: Conclude party audit and evaluate overworld trigger states outside sewers.
+## Active Hypothesis H147: Sovio Pokémon Center PC & Facility State Audit
+- **Premise**: Progression blocker "I should find dad first!" may require checking in-game communications, PC mail/storage, or an internal trigger in Sovio Pokémon Center.
+- **Target Variables**:
+  1. Nurse Joy counter interaction at (7, 3): Check heal dialogue and respawn registration.
+  2. Corner PC Terminal at (12, 1): Inspect Asher's PC (Mailbox & Item Storage) and Someone's PC boxes.
+  3. Resident NPCs: Camper at (5, 7) and Resident Boy at (8, 6).
+  4. Framed Town Map at (11, 0).
+- **Testing Criteria**: Confirm whether PC terminal, mailbox, or NPCs exhibit any state changes post-sewers.
+- **Stopping Boundary**: Complete inspection of targets 1-4 inside Pokémon Center, record exact findings, and conclude H147.
