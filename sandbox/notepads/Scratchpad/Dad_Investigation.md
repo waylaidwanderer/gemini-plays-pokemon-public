@@ -28,10 +28,13 @@
 - **Premise**: All surface facilities, civilians, and external routes (Route 1, Lancio Town) are confirmed static baseline. The unresolved story blocker ("I should find dad first!") must originate from either unexamined subterranean sectors post-retreat or digital system interactions.
 - **Sub-Hypotheses**:
   - **H137-A (HuPhone System & Quest Status Audit - CONCLUDED Turn 23328)**: Comprehensive audit completed across all digital apps: World Map (zero objective flags/markers), Mailbox ("There's no Mail here."), Quest Log (Page 1 verified; main story milestones confirmed absent). HuPhone contains zero pending communications or active directives.
-  - **H137-B (Sovio Sewers Post-Retreat Sector Audit - ACTIVE Turn 23328)**: Systematically audit all accessible sectors of Sovio Sewers (Western Terrace, Northern Gangway, Dark Sector basement, and Eastern Storage platform) to verify whether any dropped item, NPC, or passage exists post-Marie retreat.
-  - **Stopping Condition & Falsification Boundary**: If Western Terrace, Northern Gangway, and Dark Sector basement confirm identical static geometry with zero NPCs, items, or triggers, H137-B is permanently FALSIFIED and Sovio Sewers will be permanently closed as an investigation avenue.
+  - **H137-B (Sovio Sewers Post-Retreat Sector Audit - ACTIVE Turn 23328)**: Systematically audit accessible sectors of Sovio Sewers post-Marie retreat.
+    - *Western Terrace (Audited Turn 23382)*: Rows 11-12, cols 12-17 verified 100% static baseline; 0 NPCs, 0 items, 0 triggers.
+    - *Wall Ladder (Audited Turn 23383)*: Col 15, rows 6-10 circular-ring ladder verified clear; connects to row 5.
+    - *Northern Gangway (Audited Turns 23390-23392)*: Row 5 gangway (cols 15-23) verified 100% static; 0 NPCs, 0 items.
+    - *Column 23 Bridge (Traversed Turns 23398-23400)*: Connects row 5 south across void chasm to row 13 at (23, 13).
+  - **Stopping Condition & Falsification Boundary**: Inspect Eastern Storage Platform (36-38, 12-14) and storage door (37, 14). If confirmed static baseline with zero NPCs/items/triggers, H137-B is permanently FALSIFIED and Sovio Sewers will be permanently closed as an investigation avenue.
 - **Current Plan**:
-  1. Ascend column 14 western stairs to Western Terrace (rows 11-12).
-  2. Climb column 15 wall ladder to Northern Gangway (row 5).
-  3. Traverse column 23 bridge to row 13 and audit Dark Sector basement and Eastern Platform.
-  4. Conclude H137-B and pivot outside this loop.
+  1. Walk east along row 13 to Eastern Storage Platform at (36-38, 12-14).
+  2. Inspect storage door at (37, 14) facing South.
+  3. Formally conclude H137-B as falsified and exit Sovio Sewers.
