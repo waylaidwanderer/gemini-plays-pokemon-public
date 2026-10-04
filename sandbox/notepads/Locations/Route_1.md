@@ -20,6 +20,10 @@
 - **Row 43 Hedge Gap**: Passable gap at column 26 (rows 41-43) connecting the southern corridor to the Sand Highway.
 - **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
+- **Pine Tree & Terrain Barriers**:
+  - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
+  - Pine tree at (31, 38) and hedge line at row 39 block westward traversal from the southern Sand Highway dead-end (row 38).
+  - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 43) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
