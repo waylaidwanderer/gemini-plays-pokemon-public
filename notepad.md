@@ -197,7 +197,7 @@
 
 - **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (35, 19), (46, 17), and (35, 23).
 
-- **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21). The open east-west boulevard runs north along rows 14-15. Northern stone curb at (41, 16) is fully walkable and grants access south onto the grey stone terrace around the fountain. Terrace tiles at (41-43, 17-18) are walkable; water basin rim starts at (41, 18). Symmetrical blue/pink corner markings on the terrace floor at (38, 17), (42, 18), (38, 24), and (42, 25) are non-interactive decorative pavement textures.
+- **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21). The open east-west boulevard runs north along rows 14-15. The park features a clover-shaped pond with brown shoreline and water surrounded by grass within the stone curb. Northern stone curb at (41, 16) steps south onto grass at (41, 17). Water shoreline begins at row 18 (solid collision from 41, 17). Grass contains white flower patches (northwest) and blue flower patches (northeast).
 
 - **Three Bikers (Non-hostile NPC gang)**: Positioned at column 13, rows 21-23, facing east on motorbikes. Bikers 1 (13, 21), 2 (13, 22), and 3 (13, 23) provide identical ambient motorcycle gang flavor text ("We are the big guys here, the ultimate motorcycle gang!") when spoken to from both front (east) and behind (west at column 12).
   - **Rear Biker Lane (Column 12)**: Column 12 is a completely open, 1-tile wide paved lane behind the Bikers connecting West Avenue (row 20) continuously south to row 30 (southwest lawn). Tile (11, 20) is solid modern office building foundation wall.
@@ -226,7 +226,7 @@
 
 - **Building Above Metro Station (Plaza East)**: Two-story building directly above Metro portal at columns 47-51, rows 13-17 on an elevated wooden terrace accessible via row 15 curb at (47, 15). Features a teal door with entrance warp at (49, 14) (column 48 is left doorframe/knob). Leads into building interior.
   - **Interior 1F**: Entrance mat lands at (63-64, 35). Single-story residence (no 2F stairs). Granddaughter at (63, 33) ("Nana makes the best food! Weeeee!") and Nana at (62, 31) ("I'm cooking something for my dear grandkid..."). Fixtures along north wall (row 30): Stove at (63, 30) ("The stove is on... Something's boiling."), Refrigerator at (64, 30) ("Its a fridge... Seems be from the newest brand."), Television at (65, 30) ("The TV is off..."). Dining table at (65, 32).
-  - **Terrace Exterior Audit**: Terrace extends east to column 51 across rows 14-16. Modern high-rise building starts at column 52; solid wall at (52, 15) and (51, 14). Decorative circular manhole cover on terrace floor at (51, 16) is inert. Tile (51, 17) is walkable behind the right post of the signpost (51, 18).
+  - **Terrace Exterior Audit**: Terrace extends east to column 51 across rows 14-16. Modern high-rise building starts at column 52; solid wall at (52, 15) and (51, 14). Tile (51, 17) is walkable behind the right post of the signpost (51, 18).
 
 ## Southeast Corridor & Central Park
 - **Southwest Central Park Gateway**: Column 34 at rows 26-27 is a completely open, unblocked gateway directly connecting the south sidewalk (rows 27-28) north into Central Park plaza (row 25 and north).
