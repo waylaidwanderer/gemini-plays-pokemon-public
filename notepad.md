@@ -166,7 +166,6 @@
   - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
   - Pine trees at (27, 23) and (28-29, 25) block southward traversal down columns 27-29.
   - Rock spire at (26, 18-19) is an elevated ledge entered from (27, 18); blocks south/west movement. Lass Sonia stands on northern spire at (26, 14).
-  - Column 31 tall grass corridor (rows 22-25) connects the cottage grounds (32, 26) north to Youngster Mike (29, 20).
   - Hedge bush at (41, 42) blocks southward traversal down column 41 from (41, 41).
   - Hedge bush at (42, 42) blocks southward traversal from (42, 41) along the eastern shoreline.
 
