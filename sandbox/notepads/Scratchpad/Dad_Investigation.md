@@ -13,8 +13,8 @@
 - **H172 (Sovio City Rigorous Investigation)**:
   - **Premise**: The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet... I have things to do!") are localized to Sovio City. Dad or the trigger to resolve the post-sewer situation must be in Sovio City.
   - **Audit Targets**:
-    1. Pokémon Center: Resident Boy at (8, 4) ("Please feel free to use that PC..."), Corner PC at (12, 1) [Box 1 empty, Mailbox empty ("There's no Mail here."), Item Storage empty ("There are no items.") - verified Turns 25026-25034], Town Map (11, 0), Mezzanine PokéMart clerk (5, 3) & upper floor.
-    2. Central Plaza: Exterior plaza tiles, terrace house at (49, 14) (Nana & grandkid), North Central house at (39, 7) (Wii).
+    1. Pokémon Center: Ground floor audited [Nurse Joy, Camper at (5, 7), Resident Boy at (8, 4), Corner PC at (12, 1) verified Box 1/Mailbox/Item Storage empty, Framed Town Map at (11, 0) verified opening regional map UI]. Upper mezzanine audited [PokéMart clerk at (5, 3), standard inventory confirmed, Nugget sold]. Target 1 COMPLETE.
+    2. Central Plaza: Exterior plaza tiles, terrace house at (49, 14) (Nana & grandkid), North Central house at (39, 7) (Wii). [IN PROGRESS: Navigating to terrace house at 49, 14].
     3. Route 2 Gate: Physical re-test of rows 19-22 at column 52.
     4. Central Park: Date couple (33, 22 & 43-45, 23-26), children & Jigglypuff (33-35, 28), fountain terrace.
     5. West Avenue: Boy Rocky & Rocky (23-24, 17), Gumball house (29, 14), Karate house (14, 15), Name Rater (31, 26), Bikers (13, 21-23).
