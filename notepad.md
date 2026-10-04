@@ -691,16 +691,12 @@
 
 ## Active Grounded Hypotheses & Physical Inspection Log
 - **Hypothesis O1 (Sovio City Outdoor Search for Jackson & Tremor Epicenter)**:
-  - Jackson ran outside into Sovio City to investigate the tremor. Systematic outdoor audit log:
-    - Central Park fountain basin rim at (42, 18): Inspected facing West with 'A' (Turn 25245: inert, zero text/items).
-    - Southeast Central Park hedge alcove at (42, 28-30): Walkway audited (Turn 25255: clear).
-    - Southeast Central Park pavement at (40, 27): Inspected with 'A' (Turn 25256: inert cobblestone).
-    - Central Plaza outside Pokémon Center (40-44, 14): Audited (Turns 25264-25265: clear, no visible clues or triggers).
-    - Pokémon Center interior: Audited (Turns 25268-25277: Camper at 5, 7 confirmed identical ambient Weedle dialogue; Upper Mezzanine PokéMart clerk confirmed standard shop inventory, zero story triggers).
-- **Hypothesis T2 (Sovio Sewers Subterranean Tremor Site & Clearance Audit)**:
-  - Commit to an uninterrupted subterranean investigation of Sovio Sewers:
-    a. Eastern storage room platform at (37, 14): Audit platform tiles, red mat, and door.
-    b. Dark Sector basement via (30, 4) staircase: Audit corridor, rugged rock at (22, 10), and Deep Subterranean room (2, 38).
-    c. Southwest corridor: Audit rugged rocks at (10, 18) and (9, 17).
+  - Jackson ran outside into Sovio City to investigate the tremor.
+  - Fountain perimeter and southeast park paths audited with zero clues.
+- **Metro Platform Verification (Turn 25352)**:
+  - Turnstile at (19, 21) gates the platform with "I should find dad first!". Visual audit confirms platform contains only yellow vending machine, 2 blue chairs NW, and 2 blue chairs NE; zero NPCs or ticket counters present.
+- **Hypothesis T2 (Repel-Assisted Subterranean Sewer Audit)**:
+  - Acquire Repels from Sovio PokéMart mezzanine to eliminate wild encounters (Sirius Lv17 vs Lv4-7 wild pool).
+  - Execute uninterrupted navigation through western terrace, northern catwalks, and storage room platform (37, 14).
 
 <hr>
