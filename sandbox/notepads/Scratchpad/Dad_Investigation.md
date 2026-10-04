@@ -18,4 +18,4 @@
 - **Falsification Boundary**: If no NPC or active trigger is found upon surveying Dark Sector rows 8-9 and the upper alcove (cols 13-32), H163 is decisively FALSIFIED, the sewers will be evacuated, and all subterranean searches permanently terminated.
 - **Action Plan**:
   1. Complete navigation across Northern Gangway (row 5) and column 30 causeway into Northeast Wooden Staircase at (30, 4).
-  2. Survey Dark Sector corridors and alcove for Jackson. [Upper alcove at (23, 4) audited 100% EMPTY on Turn 24500. Now surveying western corridor (cols 13-17)].
+  2. Survey Dark Sector corridors and alcove for Jackson. [Upper alcove (23, 4) audited 100% EMPTY on Turn 24500. Western corridor rows 8-9 (cols 13-20) surveyed to west wall (13, 8) on Turn 24504: 100% EMPTY. Next checking red mat subterranean room (2, 38) before declaring H163 falsified].
