@@ -13,8 +13,7 @@
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis D1.3 (Systematic Audit of Unvisited/Peripheral Exterior Sectors)**:
   - Premise: Having exhausted Central Plaza, civilian interiors, and the Eastern Exit, we must investigate the remaining peripheral exterior sectors and structural anomalies of Sovio City.
-  - **Sub-target A: Central Park Southwest Gateway & Plaza (Cols 33-35, Rows 22-26)**:
-    - Inspect the open gateway at (34, 26-27), the Central Park plaza area around (33-35, 22-25), and the western pond shoreline.
+  - **Sub-target A: Central Park Southwest Gateway & Plaza (Cols 33-35, Rows 22-26)**: Concluded Turns 26589-26591. Traversed gateway (34, 26-27), audited plaza (rows 22-26) and western shoreline (36, 22); zero interactive triggers or items. Now heading to Sub-target C.
   - **Sub-target B: Dead-End Hedge Alcove (42, 30)**: Concluded Turn 26588. Tested all facings; confirmed standard decorative hedge dead-end with zero items or triggers.
   - **Sub-target C: Southwest Perimeter & Rear Biker Lane (Col 12, Rows 20-30)**:
     - Audit Rear Biker Lane (column 12, rows 20-30) and southwest dead-end lawn (12-15, 30).
