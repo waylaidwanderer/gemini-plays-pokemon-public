@@ -168,10 +168,6 @@
   - Pine tree at (30, 17) blocks southward traversal down column 30 from (30, 16).
   - Pine tree at (31, 27) blocks southward traversal down column 31 from (31, 26).
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
-  - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
-  - Pine trees at (27, 23) and (28-29, 25) block southward traversal down columns 27-29.
-  - Hedge bush at (41, 42) blocks southward traversal down column 41 from (41, 41).
-  - Hedge bush at (42, 42) blocks southward traversal from (42, 41) along the eastern shoreline.
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 44) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
@@ -687,20 +683,22 @@
 - **Route 2 Eastern Exit (52, 19-22)**: Trigger text "I can't go yet... I have things to do!" completely blocks eastern passage along rows 19-22 toward Route 2.
 
 ## Empirical Survey Findings
-- **Exhausted Areas (Turns 25413–25772)**: Sovio Sewers (1F, Dark Sector, Deep Subterranean, storage room at 37, 14), Sovio City residences/civilians, and Metro Station audited post-tremor; confirmed devoid of new NPCs or active triggers, with Metro turnstile ("I should find dad first!") and Route 2 ("I can't go yet...") remaining locked.
+- **Exhausted Areas (Turns 25413–25772)**: Sovio Sewers (1F, Dark Sector, Deep Subterranean, storage room at 37, 14), Sovio City residences/civilians, and Metro Station audited post-tremor; confirmed devoid of new NPCs or active triggers.
 
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis P1 (Professor Ivo Consultation)**: Disproven (Turns 26052-26061); lab basement stairs locked ("I probably shouldn't head down here..."), Ivo ambient ("Hey, Ashi, how's your new Pokémon?").
 - **Hypothesis P2 (Lancio Town Harbor Dock Audit)**: Disproven (Turns 26075-26084); wooden pier vacant, Harry absent, Fisherman ambient ("However it goes, you must stay calm and patient...").
 
-- **Hypothesis P3 (Sovio Metro Station & Post-Tremor Investigation Vectors)**:
-  - Premise: Jackson ran outside into Sovio City during the tremor (Turn 1329-1437) and was never seen again; the sewer storage room was confirmed empty/unrelated. To resolve "I should find dad first!", we must test unexamined interaction vectors and mechanics rather than repeating static civilian dialogue:
-    1. Untested surface triggers or object interactions in Sovio City (fountain rim, signs, specific building facades).
-    2. Targeted inspection of Metro platform turnstile mechanics or schedule board variations.
-  - Action: Return to Sovio City via Route 1 and execute targeted tests of unexamined triggers.
+- **Hypothesis C1 (Gameplay Prerequisite - Side Quest / Dialogue Trigger)**:
+  - Premise: Progression past the Metro turnstile may be gated by satisfying an active regional prerequisite rather than clicking static props. In Sovio City, Camper (5, 7) has a poisoned Weedle while we possess an Antidote (aligns with Page 1 Quest 'Medic!').
+  - Action: Speak to Camper in Sovio Pokémon Center with Antidote in inventory to test if this triggers a quest acceptance or resolution.
 
-- **Hypothesis P4 (HuPhone & Bag Field Trigger Check)**:
-  - Premise: Check if any Key Item, HuPhone app (Item Storage, Mailbox, Quest Log), or Select trigger was missed or needs activation to trigger Jackson's appearance.
+- **Hypothesis C2 (The Missing Character - Valora Tracing)**:
+  - Premise: Valora was present in the Metro Station during the tremor (Turn 1329-1437) and vanished from subsequent audits. If Jackson is missing, Valora was his companion during the departure attempt.
+  - Action: Conduct a targeted visual search for Valora (cyan hair sprite) across Sovio City and Metro sectors rather than repeating known static civilian dialogues.
+
+- **Hypothesis C3 (Post-Tremor Epicenter & Structural Evidence)**:
+  - Premise: The tremor was an explicit physical event. Look for altered tiles, rubble, or structural anomalies in Sovio City that represent the physical source or aftermath of the tremor.
 
 
 <hr>
