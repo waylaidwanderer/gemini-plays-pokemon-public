@@ -17,6 +17,6 @@
 ### Hypothesis H8: Sovio City Overworld Tile Trigger & Sequence Audit (Active)
 - **Premise**: Auditing localized physical tile triggers in Sovio City to advance the post-tremor state:
   1. Central Plaza & Pokémon Center Perimeter (COMPLETED Turn 26861): Stepped across all exterior plaza tiles (rows 14-16, columns 41-46) where the Siara confrontation occurred; confirmed 100% inert with zero active tripwires or story scripts.
-  2. Metro Station Turnstile Re-Evaluation (IN PROGRESS): Following the fresh checkpoint heal with Nurse Joy (Turn 26839), verify whether the turnstile tripwire at (19, 21) updates its state or dialogue.
+  2. Metro Station Turnstile Re-Evaluation (COMPLETED Turn 26868): Stepped onto (19, 21); confirmed verbatim "I should find dad first!" remains active. Checkpoint heal did not clear barrier.
   3. East Exit & Route 2 Approach: Audit row 18 at column 52-55 and the manhole at (55, 19).
 - **Protocol**: Enter Metro Station, step onto turnstile tripwire (19, 21) to test state, then proceed to East approach audit.
