@@ -20,4 +20,5 @@
   - Audit Progress:
     - Target 1 (Three Bikers at 13, 21-23): Audited Turns 25614-25616. Biker 3 retains identical ambient dialogue ("vroom vroom Jealous kid?... We are the big guys here..."). No tremor/Dad updates.
     - Target 2 (Karate House at 14, 15): Audited Turns 25618-25630. 1F Karate Trainer/girlfriend retain ambient fighting style debate text; 2F bedroom completely empty. Zero tremor/Dad leads.
-    - Target 3 (Boy Rocky & partner rock at 23-24, 17): Next target.
+    - Target 3 (Boy Rocky & partner rock at 23-24, 17): Audited Turn 25635. Boy Rocky retains identical ambient dialogue ("This is my partner, Rocky! He's the best..."). Zero tremor/Dad leads.
+    - Target 4 (Gumball House at 29, 14): Next target.
