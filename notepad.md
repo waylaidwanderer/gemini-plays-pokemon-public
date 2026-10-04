@@ -205,7 +205,7 @@
 - **Southwest Building**: Structure at (18-21, 26-29) with decorative wooden siding and shutters. Barrels block the shutters at (19-21, 28-29) and solid elevation curb at (18, 28-29) blocks access with zero interaction; confirmed decorative exterior.
   - **West Facade & Sidewalk Bounds**: Sidewalk at (16-17, 26-27) is walkable. Facing East into (18, 26) and (18, 27) confirms solid wall with decorative blue windows and zero interaction. Southern Avenue street lamp at (14, 24) and base at (14, 25) block westward access from (15, 25).
 
-- **Sewer Manholes**: Located at (13, 27), (13, 19), (34, 15), (40, 13), (54, 19), and (54, 21). Empirically verified at (13, 19), (34, 15), and (40, 13) completely inert to 'A' interaction with zero text or warps; purely decorative road fixtures. Note: Tile (29, 16) on tan sidewalk in front of Gumball House verified plain pavement (no manhole).
+- **Sewer Manholes**: Located at (13, 27), (13, 19), (29, 16), (34, 15), (40, 13), (54, 19), and (54, 21). Empirically verified at (13, 19), (34, 15), and (40, 13) completely inert to 'A' interaction with zero text or warps; purely decorative road fixtures.
 
 - **West Avenue**: Paved road at row 18 heading west from Central Plaza. Boy NPC at (23, 17) ("This is my partner, Rocky! He's the best...") with his partner Pokémon Rocky at (24, 17) ("It's just a normal rock...").
 
@@ -685,12 +685,11 @@
 - **C1 (Camper Antidote)**: Disproven (Turn 26186); Camper does not accept Antidote.
 - **C2 (Valora Tracing)**: Disproven (Turn 26201); Valora not present at any public station/checkpoint.
 - **C3 (Physical Tremor Anomaly / Eastern Route 2 Barrier)**: Disproven (Turns 26205, 26215); covered corridor clear, Route 2 hard-blocked by "I can't go yet...".
+- **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093 (0 Repels, 1 Potion, 1 Poison Barb, 1 Antidote).
+- **E1 (Covered Corridor & Tan Building Facades)**: Disproven (Turns 26360-26368); covered corridor south wall at (48-51, 22) confirmed solid collision along row 23; Tan Building double shutters at (34-35, 12) confirmed solid decorative wall with zero interaction.
 
 ## Active Hypotheses & Strategic Focus
-- **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093.
-
-## Active Hypotheses & Strategic Focus
-- **Hypothesis E1 (Sovio City Unexamined Physical Interactions)**:
+- **Hypothesis E2 (Sovio City Investigation Synthesis)**:
   - Premise: Jackson ran outside into Sovio City post-tremor. Investigate tangible physical areas in Sovio City to locate Jackson or trigger progression.
   - Empirical Survey Logs (Turns 26270-26306):
     - Central Park Pond Rim (41, 17-18): Stepped onto grass at (41, 17); shoreline at row 18 is solid barrier; zero interaction text facing South.

@@ -10,12 +10,11 @@
 - **C1 (Camper Antidote)**: Disproven (Turn 26186); Camper does not accept Antidote.
 - **C2 (Valora Tracing)**: Disproven (Turn 26201); Valora not present at any public station/checkpoint.
 - **C3 (Physical Tremor Anomaly / Eastern Route 2 Barrier)**: Disproven (Turns 26205, 26215); covered corridor clear, Route 2 hard-blocked by "I can't go yet...".
+- **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093 (0 Repels, 1 Potion, 1 Poison Barb, 1 Antidote).
+- **E1 (Covered Corridor & Tan Building Facades)**: Disproven (Turns 26360-26368); covered corridor south wall at (48-51, 22) confirmed solid collision along row 23; Tan Building double shutters at (34-35, 12) confirmed solid decorative wall with zero interaction.
 
 ## Active Hypotheses & Strategic Focus
-- **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093.
-
-## Active Hypotheses & Strategic Focus
-- **Hypothesis E1 (Sovio City Unexamined Physical Interactions)**:
+- **Hypothesis E2 (Sovio City Investigation Synthesis)**:
   - Premise: Jackson ran outside into Sovio City post-tremor. Investigate tangible physical areas in Sovio City to locate Jackson or trigger progression.
   - Empirical Survey Logs (Turns 26270-26306):
     - Central Park Pond Rim (41, 17-18): Stepped onto grass at (41, 17); shoreline at row 18 is solid barrier; zero interaction text facing South.
