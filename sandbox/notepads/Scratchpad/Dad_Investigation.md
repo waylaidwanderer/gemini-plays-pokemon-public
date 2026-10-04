@@ -15,6 +15,6 @@
 - **Premise**: Main roads and primary facility counters are fully audited and static. Investigate secluded off-path alcoves and uninspected perimeter tiles in Sovio City for hidden triggers, environmental interactions, or concealed paths.
 - **Sub-Hypotheses & Empirical Progress**:
   - **H134-A (Central Park South Hedge Alcove - CONCLUDED)**: Audited alcove at (42, 30); hedges (42, 31) and (41, 30) confirmed 0 hidden items. Row 32 confirmed solid pine tree collision. Trash cans at (46, 30-31) confirmed inert. 0 items/triggers found.
-  - **H134-B (Northern Alley Alcove at 38-41, 7-9)**: Inspect the secluded perimeter around house (39, 7) and inter-building clearances.
+  - **H134-B (Northern Alley Alcove - CONCLUDED)**: Audited entire perimeter around house (39, 7). Northwest corner (38, 8), north wall (38-40, 7), and northeast curb (41, 8-9) confirmed solid collision with 0 hidden items, switches, or passages. Concluded.
   - **H134-C (Metro Station Non-Trigger Alignments)**: Inspect turnstiles, attendant sightlines, and platform interactions from non-step-on angles.
   - *Falsification Boundary*: Falsified if all targeted alcoves and alignments yield only confirmed collision and zero progression flags.
