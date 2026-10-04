@@ -26,7 +26,7 @@
 - **NPC 3 (Science Guy)**: Wanders in eastern clearing at (39-41, 36). Ambient dialogue praising science.
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in northwest clearing. Team: Rattata Lv5. Defeated.
 - **NPC 5 (Lass Sonia)**: Located at (27, 15) on rock spire. Team: Cherubi Lv5. Defeated.
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in northeast meadow. Team: Burmy Lv6. Defeated.
+- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in northeast meadow. Team: Burmy Lv6. Defeated. Post-battle dialogue: "You really must be something to be able to counter my defense...".
 - **NPC 7 (Blue Cap Boy & Pidgey)**: Located at (34, 37) on Sand Highway. Owner of the lost Pidgey (Quest Completed).
 
 ## Wild Encounters
