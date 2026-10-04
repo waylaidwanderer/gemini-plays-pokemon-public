@@ -13,17 +13,13 @@
 - **Sovio Sewers Audits (H135, H137-B, H156-T1)**: Main sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge) verified static baseline. Storage Room Platform at (37, 14) re-verified Turn 24206-24207 with South facing ("Its a simple storage room..."), East (38, 14), and West (36, 14) confirmed completely inert with zero switches or items. Grunts permanently vacated; rugged rocks require equipment.
 - **Hardware, Inventory & Party Systems (H124, H127, H128, H133, H137-A, H139, H140, H146, H148, H151, H152)**: HuPhone (Item Storage, Mailbox, World Map visual only), PC (empty), Mart inventory, Bag items (TM Case infinite use, Nugget sellable), and party lead configuration (Zephyr vs Sirius) verified static with zero delta on turnstile ("I should find dad first!") or Route 2 barrier ("I can't go yet... I have things to do!").
 
-## Active Hypothesis H156: Investigation of Subterranean Dark Sector & Unchecked Core Systems (Initiated Turn 24152)
-- **Premise**: The Metro turnstile (19, 21) ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") block departure from Sovio City. Surface residences, civic fixtures, external towns (Lancio, Route 1), and the Sewer Storage Room (37, 14 - re-verified Turn 24206 verbatim "Its a simple storage room...") are 100% static baselines. The origin of the seismic tremor remains unresolved. The subterranean Dark Sector (Flash-lit basement) has only been partially mapped along rows 8-9 and may contain unmapped passages, or progress may require uninspected inventory/app mechanics.
-- **Target Variables**:
-  1. Dark Sector Western Corridor Audit: Probe western corridor and alcove (cols 13-17, rows 8-9) including perimeter bounds around col 12 wall and red mat (15, 9) to complete Dark Sector mapping.
-  2. Core Systems & Bag Audit: Inspect HuPhone registered functions and Key Items pocket for interactive progression items.
-- **Causal Mechanism**: If an unvisited branch point in the Dark Sector contains the source of the tremor or an interactive trigger, navigating to it will advance the narrative flag and clear the Metro turnstile block.
-- **Stopping Boundary**: Complete perimeter survey of the Dark Sector basement, document exact boundary coordinates, and test the Metro turnstile at (19, 21).
+## Hypothesis H156: Subterranean Dark Sector & Unchecked Core Systems (Concluded / Deferred)
+- **Outcome**: Target Variable 1 (Dark Sector Western Corridor cols 13-17) was partially probed up to col 21-23; alcove at (23, 4) cleared (Nugget retrieved). Western extension was aborted due to repeated wild encounters and player decision to exit the Dark Sector. Remains INCOMPLETE/DEFERRED. Target Variable 2 (Core Systems / Bag Audit) deferred to safe overworld environment (Metro Station lobby).
 
-## Hypothesis H157: Exhaustive Sovio City Ground Search for Jackson
-- **Premise**: The Dark Sector and Sewers are 100% mapped and clear. Jackson ran outside into Sovio City to investigate the seismic tremor. The Metro turnstile block ("I should find dad first!") requires speaking to Jackson in Sovio City to trigger the narrative flag.
+## Hypothesis H157: Unchecked Metro Station Lobby Sectors & Core Systems Audit
+- **Premise**: Prior outdoor loops (H118-H155) verified surface residences and outdoor streets are static. The Metro Station lobby records only document columns 17-24 (west chairs, turnstile at 19, 21, stairs at 24, 24). The eastern sector of the Metro lobby (east of column 24) and station personnel/booths remain unverified.
 - **Action Plan**:
-  1. Exit Dark Sector via stairs at (31, 9) to upper sewer platform (30, 4).
-  2. Ascend to Metro Station lobby (38, 22) and exit into Sovio City surface.
-  3. Perform a rigorous, tile-by-tile search of all unexplored/overlooked outdoor areas of Sovio City (east plaza perimeter, alleyways, park corners, and southern borders).
+  1. Navigate from Sovio Sewers (26, 28) through lower corridor and column 34 stairs to Metro stairs at (38, 22).
+  2. Ascend to Metro Station lobby.
+  3. Audit eastern sector of the lobby (columns 25+) for attendants, ticket counters, or interactive triggers.
+  4. Perform Core Systems & Bag Audit (Key Items, HuPhone functions, party configuration) in the safe lobby environment.
