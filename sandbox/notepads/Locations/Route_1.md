@@ -30,7 +30,7 @@
 - **NPC 2 (Boy in Grass)**: Wanders near Central Pine Tree at (11-12, 48-50). Ambient warning about wild grass.
 - **NPC 3 (Science Guy)**: Wanders in eastern clearing at (39-41, 36). Ambient dialogue praising science.
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in northwest clearing. Team: Rattata Lv5. Defeated.
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) on rock spire. Team: Cherubi Lv5. Defeated.
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) on rock spire. Team: Cherubi Lv5. Defeated. Post-defeat dialogue: "Hmm, more harmony maybe?".
 - **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in northeast meadow. Team: Burmy Lv6. Defeated. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
 - **NPC 7 (Blue Cap Boy & Pidgey)**: Located at (34, 37) on Sand Highway. Owner of the lost Pidgey (Quest Completed).
 - **NPC 8 (Girl in Pink Vest)**: Located at (38-40, 36) on the path between Sand Highway and the eastern clearing.
