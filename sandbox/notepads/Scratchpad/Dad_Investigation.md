@@ -21,9 +21,14 @@
 
 - **Route 1 Northwest Clearing & External Transit (H142 - CONCLUDED / FALSIFIED)**: Youngster Mike (29, 20) post-defeat dialogue re-audited verbatim: "My Pokémon was completely destroyed by yours...". Confirmed 100% static post-defeat state with zero connection to the Sovio Metro crisis. External routes completely falsified as avenues for resolving the station turnstile blocker.
 
-## Active Hypothesis H143: Sovio City Focused Investigation (Jackson's Whereabouts)
-- **Premise**: Jackson ran outside into Sovio City during the tremor. The Metro turnstile blocker ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") are exclusively rooted in Sovio City. We must return to Sovio City via the northern highway (past Duke to 53, 0) and conduct a rigorous, targeted re-audit of Sovio City to locate Jackson or trigger his return.
+## Active Hypothesis H145: Comprehensive Sovio Sewers Re-Audit for Jackson & Story Resolution
+- **Premise**: Physical overworld audits across Lancio Town, Route 1, and Sovio City have confirmed all buildings, NPCs, and boundaries at 100% static baseline. The sewer storage room inspection text ("Its a simple storage room..") was previously assumed to prove Jackson was never held there, leading to the abandonment of sewer exploration. We must re-examine Sovio Sewers systematically—including the Dark Sector basement, subterranean chamber, lower walkways, and canal perimeters—to test whether Jackson or an un-triggered story event remains underground.
 - **Target Variables**:
-  1. In Sovio City, systematically re-examine every outdoor sector and building for un-triggered events, Jackson, or Valora.
+  1. Transition through Metro Station (48, 17) onto red mat (18-19, 25) into Sovio Sewers.
+  2. Audit Dark Sector basement (Northeast wooden staircase at 30, 4) and subterranean room (15, 9).
+  3. Audit western terrace, northern gangway (row 5), and storage platform (37, 14).
+- **Falsification & Stopping Boundaries**:
+  - If all sewer sectors are fully traversed and confirmed devoid of NPCs, triggers, or interactive items, conclude H145 as FALSIFIED.
 - **Current Plan**:
-  1. Enter Sovio City and begin targeted re-examination.
+  1. Step into Metro Station at (48, 17).
+  2. Walk to red mat at (18-19, 25) and descend into Sovio Sewers.
