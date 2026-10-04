@@ -230,7 +230,7 @@
   - **Terrace Exterior**: Terrace extends east to column 51 across rows 14-16. Modern high-rise building starts at column 52; solid wall at (52, 15) and (51, 14). Tile (51, 17) is blocked by solid signpost collision from row 16 terrace. Column 51, row 16 features a decorative sewer manhole on the terrace floor.
 
 ## Southeast Corridor & Central Park
-- **Southwest Central Park Gateway**: Column 34 at rows 26-27 is a completely open, unblocked gateway directly connecting the south sidewalk (rows 27-28) north into Central Park plaza (row 25 and north).
+- **Southwest Central Park Curb Boundary**: Row 27 across columns 33-36 and column 36/37 across rows 27-30 form a continuous solid stone curb separating the south tan brick sidewalk (rows 27-30) from the purple diamond floor of Central Park plaza (row 26 and north) (verified via `latest_grid.png` Turn 27384).
 
 - **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-29 south of Central Park pond. Little Girl at (33, 28) ("Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!"), Boy at (35, 28) ("Yeah Jigglypuff!"), and Jigglypuff at (34, 28) ("Jigglypuff: Puff Puff!") verified post-tremor (Turns 27375-27376). Street lamp at (28, 26-27) with trash can at (28, 28) (audited facing Left from 29, 28 in Turn 27376; confirmed 100% inert), plus two stacked trash cans at (22, 30-31) (audited facing Left from 23, 30-31 in Turn 27377; confirmed 100% inert).
 
