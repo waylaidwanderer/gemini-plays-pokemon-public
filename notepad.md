@@ -693,10 +693,10 @@
   - Open subterranean floor is exhausted; search focus permanently shifted to surface world.
 
 ## Active Forward-Looking Hypotheses
-- **Hypothesis S1 (External Regional Story Trigger / Route 1 & Lancio Audit - Initiated Turn 25508)**:
-  - Premise: If Dad is not in Sovio City and the Metro turnstile requires finding Dad, then the event triggering Dad's return or resolving his disappearance is located along the Route 1 / Lancio Town corridor (e.g. Professor Ivo in Lancio Lab, or an unvisited Route 1 trigger).
-  - Scope Note: Post-tremor audit of Sovio City only verified Central Plaza, Metro portal, and Pokémon Center. West Avenue, Central Park, and residences remain unverified post-sewer retreat.
-  - Protocol: Traverse Route 1 to Lancio Town -> audit Professor Ivo's Lab (incubator, Ivo, restricted basement stairs) and Lancio residents -> if unfulfilled, return to conduct a rigorous, documented post-tremor audit of all Sovio City sectors.
-  - Expected Outcome: Uncovering an updated dialogue flag, quest trigger, or story event that resolves "I should find dad first!".
+- **Hypothesis S1 (External Regional Story Trigger / Route 1 & Lancio Audit - Falsified Turns 25550-25593)**:
+  - Conclusion: Inaccessible on foot. Physical terrain audits confirmed Route 1 north section does not connect south to Lancio Town (Row 20 ledge is one-way southbound, Sand Highway dead-ends at row 39 hedges, Eastern Clearing dead-ends at shoreline, Northwest Clearing bounded by spires/pines).
+- **Hypothesis S2 (Sovio City Comprehensive Post-Sewer Audit - ACTIVE)**:
+  - Premise: Dad ran outside into Sovio City to investigate the tremor. Post-sewer retreat, Asher has not searched West Avenue, Central Park, or residential interiors.
+  - Protocol: Return to Sovio City via Route 1 meadow corridor -> systematically audit West Avenue (Karate house, Biker lane, office building), Central Park, and residences to locate Jackson and resolve the Metro turnstile barrier.
 
 <hr>
