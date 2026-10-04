@@ -689,5 +689,6 @@
 - **Stopping Boundary**: Complete testing of Targets 3-P2, 1, and 2, record findings, and conclude H149.
 - Target 1 (Lab Stairs at 12, 7): Verified barrier text verbatim ("I probably shouldn't head down here..."). 100% static baseline.
 - Target 1 (Professor Ivo at 20, 6): Verified dialogue verbatim ("Hey, Ashi, how's your new Pokémon?"). 100% static baseline.
+- Target 1 (Incubator Apparatus at 18-19, 5-6): Verified interaction text verbatim ("Better not mess with that machine."). 100% static baseline.
 
 <hr>
