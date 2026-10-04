@@ -22,6 +22,6 @@
   - **H136-B (Lancio Town & Professor Ivo's Lab - PENDING, Initiated Turn 23102)**: Consult Professor Ivo, re-test basement stairs at (12, 7), check incubator apparatus and Town Map for new triggers. *Falsification*: Falsified if Professor Ivo and lab fixtures remain static.
   - **H136-C (Field Equipment & Rock Smash Mechanics - PENDING, Initiated Turn 23102)**: Investigate how to obtain rock-smashing equipment to clear rugged rock obstacles in Sovio Sewers. *Falsification*: Falsified if no NPC or facility offers field tools.
 - **Current Plan**:
-  1. Traverse Route 1 via Sand Highway to Lancio Town.
+  1. Traverse Route 1 southern bypass (row 48) west into Lancio Town.
   2. Consult Professor Ivo and test basement stairs at (12, 7) in Lancio Lab.
   3. Investigate methods to obtain rock-smashing equipment.
