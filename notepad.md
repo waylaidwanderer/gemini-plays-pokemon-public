@@ -687,8 +687,7 @@
 - A sudden seismic tremor shook the station. Dad ran outside into Sovio City to investigate the source.
 - Team Siara operated in the Sovio Sewers beneath the station awaiting Commander Marie.
 - Asher fought through the sewers; Marie broadcast a radio retreat order and all grunts vacated the sewers.
-- Verified: In Turn 24206, the sewer storage room at (37, 14) displayed "Its a simple storage room..". Jackson was not observed inside; narrative establishes Dad ran outside into Sovio City during the tremor. The descent in Turn 25231 was aborted at (27, 28) without reaching (37, 14).
-- Active Barriers: Metro turnstile (19, 21) triggers "I should find dad first!"; Route 2 (52, 19-22) triggers "I can't go yet... I have things to do!".
+- Verified: In Turn 24206, the sewer storage room at (37, 14) displayed "Its a simple storage room..". Jackson was not observed inside.
 
 ## Active Grounded Hypotheses & Physical Inspection Log
 - **Hypothesis O1 (Sovio City Outdoor Search for Jackson & Tremor Epicenter)**:
