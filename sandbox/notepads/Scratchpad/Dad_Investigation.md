@@ -18,17 +18,10 @@
 ## Active Hypothesis H136: External Investigation for Dad's Trail & Tremor Origin (Initiated Turn 23102)
 - **Premise**: Sovio City overworld and Sewers Eastern Platform have been repeatedly audited with zero Dad sightings. Dad ran outside to investigate the seismic tremor. The tremor source or Dad's trail must be external to Sovio City (Route 1, Lancio Town, Professor Ivo's Lab) or tied to an equipment progression mechanic (smashing rugged rocks).
 - **Sub-Hypotheses**:
-  - **H136-A (Route 1 Traversal & Reconnaissance - ACTIVE)**: Route through Northwest Clearing and Sand Highway to Lancio Town; audit overworld features (Cut tree at 5, 44, roadside cottage, trainers).
-  - **H136-B (Lancio Town & Professor Ivo's Lab - PENDING)**: Consult Professor Ivo, re-test basement stairs at (12, 7), check incubator apparatus and Town Map for new triggers.
-  - **H136-C (Field Equipment & Rock Smash Mechanics - PENDING)**: Investigate how to obtain rock-smashing equipment to clear rugged rock obstacles in Sovio Sewers.
+  - **H136-A (Route 1 Traversal & Reconnaissance - ACTIVE, Initiated Turn 23117)**: Route through Northwest Clearing and Sand Highway to Lancio Town; audit overworld features (Cut tree at 5, 44, roadside cottage). *Falsification*: Falsified if Route 1 contains zero new dialogue, items, or changes.
+  - **H136-B (Lancio Town & Professor Ivo's Lab - PENDING, Initiated Turn 23102)**: Consult Professor Ivo, re-test basement stairs at (12, 7), check incubator apparatus and Town Map for new triggers. *Falsification*: Falsified if Professor Ivo and lab fixtures remain static.
+  - **H136-C (Field Equipment & Rock Smash Mechanics - PENDING, Initiated Turn 23102)**: Investigate how to obtain rock-smashing equipment to clear rugged rock obstacles in Sovio Sewers. *Falsification*: Falsified if no NPC or facility offers field tools.
 - **Current Plan**:
-  1. Traverse Route 1 via Northwest Clearing and Sand Highway to Lancio Town.
+  1. Traverse Route 1 via Sand Highway to Lancio Town.
   2. Consult Professor Ivo and test basement stairs at (12, 7) in Lancio Lab.
   3. Investigate methods to obtain rock-smashing equipment.
-- *Falsification Boundary*: Falsified if external locations contain zero new dialogue, events, or equipment.
-
-## Major Breakthrough: Summary Hallucination Unmasked
-- Past Context Summaries claimed Jackson was rescued from the sewer storage room in turns 2279-2716.
-- In-game ground truth: Jackson was never found in the sewers. During the seismic tremor, Dad ran outside into Sovio City to investigate.
-- The sewer storage room was merely an empty Siara post ('Its a simple storage room..').
-- Asher has NOT found Dad yet; the Metro turnstile correctly states 'I should find dad first!'.
