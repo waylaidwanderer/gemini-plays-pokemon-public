@@ -17,5 +17,5 @@
     - *Terrace House (49, 14)*: Audited Turns 26526-26528. Granddaughter (63, 33) repeats "Nana makes the best food! Weeeee!" and Nana (62, 31) repeats "I'm cooking something for my dear grandkid. She loves my cooking...". Entire residence confirmed static ambient civilian home. Target 1 fully complete.
   - **Target 2: Systematic Sovio City Urban & NPC Audit**:
     - North-Central: House at (39, 7) audited Turns 26534-26539. 1F elderly man (41, 33) repeats ambient Wii text; 2F son (44, 14) repeats ambient gaming text ("I love the games on the Wii!"). House confirmed 100% static ambient residence. Next: Tan Building (32-37, 8-12) facade and West Avenue.
-    - Central-West & Northwest: House at (29, 14) (Gumball family) and House at (14, 15) (Karate family).
+    - Central-West & Northwest: House at (29, 14) (1F boy at 25, 32 verified Turn 26547 repeating "I love this show!"; currently speaking to Mother at 27, 33) and House at (14, 15) (Karate family).
     - West Avenue & Southwest: Office building facade (col 11), Name Rater (31, 26), and buildings at (23-28, 24-26) / (18-21, 26-29).
