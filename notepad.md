@@ -677,7 +677,7 @@
 - **Central Plaza Event Tiles**: Ground tiles outside Pokémon Center (rows 13-16, cols 40-46) have zero active scripted triggers.
 
 ## Concluded Feature Audits
-- **H170 (Sovio City Post-Tremor Surface Investigation)**: Surface audit of Sovio City boundaries and residences yielded zero new triggers; transitioned directly to H171 macro-audit of Lancio Town.
+*(None active; macro-investigation currently scoped to H171)*
 
 ## Active Hypotheses & Strategic Planning
 - **H171 (Lancio Town & Professor Ivo Macro-Audit)**:
