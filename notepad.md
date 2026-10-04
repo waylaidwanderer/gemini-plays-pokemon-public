@@ -675,16 +675,16 @@
 ## Active Hypothesis H139: Live Bag & In-Game Menu Verification
 - **Premise**: With all physical sectors, boundaries, sub-dungeons, and NPCs across Sovio City, Sovio Sewers, Route 1, and Lancio Town conclusively proven static, physical exploration cannot advance the game. We must eliminate unverified assumptions regarding inventory state by conducting a live, direct in-game audit of all Bag pockets and party items.
 - **Specific Progression Variables to Test**:
-  1. *Items Pocket*: Audit current quantity and description of items.
-  2. *Key Items Pocket*: Audit current key items (HuPhone, TM Case, or any overlooked items).
-  3. *TMs & HMs Pocket*: Verify TM Case contents.
-  4. *Party Pokémon Inspection*: Inspect Sirius and Zephyr summary screens, held items, and moves.
+  1. *Items Pocket*: Concluded. Audited in-game turn 23532: Potion x1, Poison Barb x1, Antidote x1, Nugget x1.
+  2. *Key Items Pocket*: Concluded. Audited in-game turn 23528: HuPhone (Select shortcut registered), TM Case. Exactly 2 Key Items.
+  3. *TMs & HMs (TM Case)*: Concluded. Audited in-game turn 23537: TM17 (Protect), TM48 (Work Up). Exactly 2 TMs, zero HMs.
+  4. *Poké Balls Pocket*: Concluded. Audited in-game turn 23527: Timer Ball x1, Poké Ball x10.
+  5. *Party Pokémon Inspection*: In progress. Inspect Sirius and Zephyr summary screens, held items, and moves.
 - **Falsification & Stopping Boundaries**:
   - If all Bag pockets and party screens match established notes with zero usable or unregistered items, H139 is concluded and we will pivot to unexplored gameplay systems (e.g. Trainer Card, clock/time triggers, or specific dialogue sequences).
   - Strictly avoid walking loops across overworld tiles while conducting menu verification.
 - **Current Plan**:
-  1. Press Start to open the Start Menu.
-  2. Navigate to BAG and press A.
-  3. Cycle through and record each pocket (Items, Key Items, Poké Balls, TMs/HMs).
+  1. Press B twice to exit TM Case and Bag back to Overworld.
+  2. Open Start Menu and select Pokémon to audit Sirius and Zephyr.
 
 <hr>
