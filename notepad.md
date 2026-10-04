@@ -666,25 +666,25 @@
 
 ## Consolidated Concluded Hypotheses Summary
 - **Overworld & Civilians (H118-H123, H126, H129, H132, H134)**: Thoroughfares, residences (Nana, Wii, Gumball, Karate, Name Rater), and ambient NPCs confirmed static baseline.
-- **Digital Systems & Facilities (H124, H128, H133, H137-A)**: HuPhone (empty mailbox, 0 active quests, static map), Bag (2 key items), PC (empty), Mart (standard stock) verified static.
+- **Digital Systems & Facilities (H124, H128, H133, H137-A)**: HuPhone (empty mailbox, 0 active quests, static map), PC (empty), Mart (standard stock) verified static. Prior claim of Bag being static was based on turn 16209 screenshots; live verification underway in H139.
 - **Mechanical Level-Up (H127)**: Leveled Sirius to Lv17. No evolution, zero story effect.
 - **External Routes & Lancio Town (H136)**: Route 1 cottage/trainers static; Lancio lab (Ivo starter line, blocked stairs, machine inert), TM boy ("Get out!"), dock/fisherman static; PokéMart/civilians confirm zero field equipment obtainable.
 - **Sovio Sewers Comprehensive Audit (H135, H137-B - FALSIFIED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero items, zero story flags. Sewers permanently CLOSED.
+- **Sovio City Physical Perimeters & Fixtures (H138 - FALSIFIED)**: Metro Station lobby (west seating), Central Plaza fountain perimeter (walkable curb/terrace, decorative floor markings), West Avenue commercial facade (shutters at 24-25, 16 solid), and Route 2 barrier (active at 52, 19) 100% verified static baseline. Zero new triggers or passages exist in the overworld.
 
-## Active Hypothesis H138: Jackson Search Space Expansion & Sovio City Progression Investigation
-- **Premise**: With Sewers, Lancio Town, and digital systems conclusively verified static, Dad is not hidden in any side dungeon or external town. The narrative context: Dad ran out into Sovio City to investigate the tremor. We must systematically investigate unexamined narrative triggers, buildings, and perimeter bounds in Sovio City.
-- **Specific Unexplored Progression Variables to Test**:
-  1. *Metro Station Interior Audit*: Concluded. West lobby blue chairs at (17, 22-24) confirmed inert. West wall solid at column 17. Lobby 100% verified static baseline.
-  2. *Central Plaza & Tremor Epicenter*: Concluded. Fountain perimeter audit completed (walkable terrace, decorative non-interactive corner floor textures). Central Plaza verified inert.
-  3. *West Avenue North Facade & Northwest Sector*: Concluded. Shutters at (24-25, 16) confirmed solid decorative wall with zero interaction. Entire facade along columns 16-26 is solid wall with blue windows.
-  4. *Eastern Perimeter & Route 2 Barrier*: Concluded. Tested at (52, 19); verified 100% active blocker ("I can't go yet... I have things to do!").
-  5. *Key Item / Bag & Menu Inspection*: Active. Check Bag pockets and party items for any overlooked interactive elements.
+## Active Hypothesis H139: Live Bag & In-Game Menu Verification
+- **Premise**: With all physical sectors, boundaries, sub-dungeons, and NPCs across Sovio City, Sovio Sewers, Route 1, and Lancio Town conclusively proven static, physical exploration cannot advance the game. We must eliminate unverified assumptions regarding inventory state by conducting a live, direct in-game audit of all Bag pockets and party items.
+- **Specific Progression Variables to Test**:
+  1. *Items Pocket*: Audit current quantity and description of items.
+  2. *Key Items Pocket*: Audit current key items (HuPhone, TM Case, or any overlooked items).
+  3. *TMs & HMs Pocket*: Verify TM Case contents.
+  4. *Party Pokémon Inspection*: Inspect Sirius and Zephyr summary screens, held items, and moves.
 - **Falsification & Stopping Boundaries**:
-  - Do NOT re-investigate already proven solid structures (e.g. Tan building facade, office building at col 11, commercial facade).
-  - Do NOT search for unverified characters like Valora without direct in-game evidence.
-  - If physical perimeter and interior checks yield zero new triggers, pivot to inventory and mechanic triggers.
+  - If all Bag pockets and party screens match established notes with zero usable or unregistered items, H139 is concluded and we will pivot to unexplored gameplay systems (e.g. Trainer Card, clock/time triggers, or specific dialogue sequences).
+  - Strictly avoid walking loops across overworld tiles while conducting menu verification.
 - **Current Plan**:
-  1. Press B to dismiss Route 2 blocker textbox and settle at (51, 19).
-  2. Open Start Menu and inspect Bag pockets.
+  1. Press Start to open the Start Menu.
+  2. Navigate to BAG and press A.
+  3. Cycle through and record each pocket (Items, Key Items, Poké Balls, TMs/HMs).
 
 <hr>
