@@ -21,7 +21,7 @@
 - **Specific Unexplored Variables to Test**:
   1. *Trainer Card Audit*: Concluded. Front (ID 54592, Money ¥6096, 8 empty tournament round slots) and Back (regional sun/hand emblem, 6 empty crest silhouettes) 100% verified baseline.
   2. *Clock & Timetable Mechanics*: Concluded. Timetable board at (22, 23) displays static destination flavor text ("It's a timetable showing various destinations!").
-  3. *HuPhone Item Storage / Withdraw Item Audit*: Active. Audit portable PC Item Storage via Withdraw Item to check for stored items, tickets, or equipment.
+  3. *HuPhone Item Storage / Withdraw Item Audit*: Concluded. Direct in-game verification: PC Item Storage is completely empty ("There are no items."). Zero items, tickets, or equipment stored.
 - **Falsification & Stopping Boundaries**:
   - Strictly prohibit re-auditing previously verified static coordinates (fountain, Pokémon Center exterior, West Avenue facade, turnstile angles).
   - Conclude each system check within 5 turns before pivoting.
