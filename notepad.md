@@ -686,12 +686,11 @@
 - **Central Plaza Event Tiles**: Ground tiles outside Pokémon Center (rows 13-16, cols 40-46) have zero active scripted triggers.
 
 ## Concluded Feature Audits
-*(None active; macro-investigation currently scoped to H171)*
+- **H171 (Lancio Town & Professor Ivo Macro-Audit)**: FALSIFIED (Turns 24906-24962). Physical collision mapping of Route 1 proves that Lancio Town and the southern corridor (rows 44-49) are completely unreachable from northern Route 1; the southern Sand Highway dead-ends at row 41/42 against pine trees and shoreline cliffs, and the Northwest Clearing dead-ends at rows 23-27 against dense pine trees. Historical records also confirm Lancio Town residents and lab basement remain static. The 'find dad first' progression flag is strictly localized to Sovio City.
 
 ## Active Hypotheses & Strategic Planning
-- **H171 (Lancio Town & Professor Ivo Macro-Audit)**:
-  - **Premise**: With Sovio City surface and subterranean baselines exhausted, Dad or a critical story trigger may reside in Lancio Town (Professor Ivo's Lab or Harry's dock passage).
-  - **Plan**: Traverse Route 1 southwest to Lancio Town without aborting. Audit: 1) Lancio harbor pier for Harry/boat, 2) Professor Ivo's dialogue and lab fixtures, 3) Lab basement stairs.
-  - **Verification**: Complete all three audit steps before concluding the hypothesis.
+- **H172 (Sovio City Rigorous Investigation)**:
+  - **Premise**: The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet... I have things to do!") are localized to Sovio City. Dad or the trigger to resolve the post-sewer situation must be in Sovio City.
+  - **Plan**: Return north through Route 1 to Sovio City (via Sand Highway, cottage, and northeast meadow to gateway 53, 0). Re-examine Sovio City landmarks, buildings, NPCs, and interactions with fresh eyes and zero unverified assumptions.
 
 <hr>
