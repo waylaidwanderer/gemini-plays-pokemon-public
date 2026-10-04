@@ -65,3 +65,8 @@
 - **Aurin Town**: Green town node located east of Amor City.
 - **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
 - **Cord Island**: Southeast offshore island containing 1 red town and 1 blue coastal port (verified via World Map).
+## Interactive World Map Findings (HuPhone)
+- **Interactive D-Pad Navigation**: The HuPhone World Map app is fully interactive via D-pad (+Move). Hovering over nodes dynamically displays location banners in the top-left corner.
+- **Divampa Cave**: Verified cave/mountain landmark in the central-south mountain sector between the southern routes and Amor City.
+- **Mulberry Town & Route 9**: Verified town and route nodes on the western island archipelago.
+- **Top-Left Island & Fixed Pin Marker**: An isolated island node in the far northwest ocean connected via dashed sea route from the western island; holds a permanent fixed marker pin (yellow body, green wings, black tip).
