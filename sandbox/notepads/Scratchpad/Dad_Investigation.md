@@ -18,8 +18,8 @@
 ## Active Hypothesis H136: External Investigation for Dad's Trail & Tremor Origin (Initiated Turn 23102)
 - **Premise**: Sovio City overworld and Sewers Eastern Platform have been repeatedly audited with zero Dad sightings. Dad ran outside to investigate the seismic tremor. The tremor source or Dad's trail must be external to Sovio City (Route 1, Lancio Town, Professor Ivo's Lab) or tied to an equipment progression mechanic (smashing rugged rocks).
 - **Sub-Hypotheses**:
-  - **H136-A (Route 1 Traversal & Reconnaissance - ACTIVE, Initiated Turn 23117)**: Route through Northwest Clearing and Sand Highway to Lancio Town; audit overworld features (Cut tree at 5, 44, roadside cottage). *Falsification*: Falsified if Route 1 contains zero new dialogue, items, or changes.
-  - **H136-B (Lancio Town & Professor Ivo's Lab - PENDING, Initiated Turn 23102)**: Consult Professor Ivo, re-test basement stairs at (12, 7), check incubator apparatus and Town Map for new triggers. *Falsification*: Falsified if Professor Ivo and lab fixtures remain static.
+  - **H136-A (Route 1 Traversal & Reconnaissance - CONCLUDED Turn 23218)**: Successfully traversed southern bypass and cobblestone road to Lancio Town; Cut tree verified intact at (5, 44).
+  - **H136-B (Lancio Town & Professor Ivo's Lab - ACTIVE Turn 23218)**: Consult Professor Ivo, re-test basement stairs at (12, 7), check incubator apparatus and Town Map for new triggers. *Falsification*: Falsified if Professor Ivo and lab fixtures remain static.
   - **H136-C (Field Equipment & Rock Smash Mechanics - PENDING, Initiated Turn 23102)**: Investigate how to obtain rock-smashing equipment to clear rugged rock obstacles in Sovio Sewers. *Falsification*: Falsified if no NPC or facility offers field tools.
 - **Current Plan**:
   1. Traverse Route 1 southern bypass (row 48) west into Lancio Town.
