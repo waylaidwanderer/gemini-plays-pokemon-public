@@ -671,10 +671,10 @@
 
 ## Active Hypothesis H135: Deep Systematic Sovio Sewers Audit
 - **Premise**: Previous sewer visits were superficial bounce-backs. With all surface sectors and facility counters confirmed static, conduct an exhaustive post-retreat survey of all sewer sectors.
-- **Sub-Hypotheses & Testable Variables**:
-  1. **H135-A (Eastern Platform & Storage Mat at 37, 14)**: Inspect all 9 platform tiles (36-38, 12-14) and the storage door mat from all 4 directional alignments.
-  2. **H135-B (Dark Sector / Basement & Toy Chamber)**: Re-traverse column 30 causeway to the Dark Sector; audit all corridor walls, rock obstacle alignments, and subterranean room.
-  3. **H135-C (Western Terrace & Northern Gangway)**: Traverse western terrace ladder and northern catwalk for any overlooked items or trigger tiles.
+- **Sub-Hypotheses & Empirical Progress**:
+  - **H135-A (Eastern Platform & Storage Mat - CONCLUDED)**: Audited all 9 platform tiles (36-38, 12-14). Door at (37, 14) confirmed verbatim: "Its a simple storage room...". Row 15 confirmed solid impassable collision. North wall (row 11) and east/west void borders confirmed solid with 0 items/switches. Concluded.
+  - **H135-B (Dark Sector / Basement & Toy Chamber)**: Re-traverse column 30 causeway to the Dark Sector; audit all corridor walls, rock obstacle alignments, and subterranean room.
+  - **H135-C (Western Terrace & Northern Gangway)**: Traverse western terrace ladder and northern catwalk for any overlooked items or trigger tiles.
   - *Falsification Boundary*: Falsified if every sewer sector contains only verified static geometry and zero NPCs or interactive triggers.
 
 <hr>
