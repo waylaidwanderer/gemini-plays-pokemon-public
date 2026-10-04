@@ -11,11 +11,11 @@
 
 ### Hypothesis H2: Route 1 Localized Survey (Concluded Turn 26693 - Falsified)
 - **Result**: Bug Catcher Duke (45, 12), Lass Sonia (27, 15), Youngster Mike (29, 20), and Roadside Cottage boy (6, 7) all produced identical pre-tremor static dialogue. Falsification criteria met.
-- **Conclusion**: Route 1 received zero post-tremor state changes. Backtracking south to Lancio Town is formally aborted. Progression is strictly localized within Sovio City.
+- **Conclusion**: Route 1 received zero post-tremor state changes. Backtracking south to Lancio Town is formally aborted. Investigation shifts focus away from southern overland routes toward unexamined systems and localized town triggers.
 
 ### Hypothesis H3: Sovio City Localized Triggers & Novel Interactions (Active)
-- **Premise**: Story progression blocker "I should find dad first!" is localized to Sovio City. Unexplored novel interactions, items, or quest triggers in town may advance the story state or reveal Jackson's whereabouts.
-- **Protocol**:
-  1. Target A (Pokémon Center Camper at 5, 7): The camper complains "My weedle got poisoned so I will need the Pokémon Center's... Ironic isn't it?". Test giving an Antidote from inventory or interacting to trigger Quest 4 ("Medic!").
-  2. Target B (Central Park Couple at 33, 22 & 43-45, 23-26): Test cross-interaction between the pink-shirt boy and wandering blonde girl (both claiming to be catfished) to trigger Quest 8 ("Valentines Gift").
-  3. Target C (Sewers Storage Room & Field Mechanics): Re-evaluate the storage room door at (37, 14) and rock smash interactions.
+- **Premise**: Testing whether unexamined NPC interactions, inventory items, or system triggers in Sovio City advance the story state or reveal Jackson's whereabouts.
+- **Protocol & Falsification Criteria**:
+  1. Target A (Pokémon Center Camper at 5, 7): The camper complains "My weedle got poisoned so I will need the Pokémon Center's... Ironic isn't it?". Test direct interaction with an Antidote in inventory. Falsification: If camper repeats static humor dialogue without accepting Antidote or opening a prompt, Target A is falsified.
+  2. Target B (Central Park Couple at 33, 22 & 43-45, 23-26): Test cross-interaction between pink-shirt boy and wandering blonde girl. Falsification: If girl repeats identical catfishing text without recognizing boy, Target B is falsified.
+  3. Target C (System & Inventory Items Audit): Audit Bag Key Items, TM Case, and HuPhone features for unexamined active triggers.
