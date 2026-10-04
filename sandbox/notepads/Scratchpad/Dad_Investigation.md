@@ -25,9 +25,9 @@
 ## Active Hypothesis H137: Post-Retreat Subterranean & Digital System Audit (Initiated Turn 23314)
 - **Premise**: All surface facilities, civilians, and external routes (Route 1, Lancio Town) are confirmed static baseline. The unresolved story blocker ("I should find dad first!") must originate from either unexamined subterranean sectors post-retreat or digital system interactions.
 - **Sub-Hypotheses**:
-  - **H137-A (HuPhone System & Quest Status Audit - ACTIVE Turn 23314)**: Inspect HuPhone Mailbox, Quest Status, and app triggers for any pending communications or directives.
-  - **H137-B (Sovio Sewers Post-Retreat Sector Audit - PENDING)**: Systematically audit all accessible sectors of Sovio Sewers (Western Terrace, Northern Gangway, Dark Sector basement, and Eastern Storage platform) to verify whether any dropped item, NPC, or passage exists post-Marie retreat.
+  - **H137-A (HuPhone System & Quest Status Audit - CONCLUDED Turn 23328)**: Comprehensive audit completed across all digital apps: World Map (zero objective flags/markers), Mailbox ("There's no Mail here."), Quest Log (Page 1 verified; main story milestones confirmed absent). HuPhone contains zero pending communications or active directives.
+  - **H137-B (Sovio Sewers Post-Retreat Sector Audit - ACTIVE Turn 23328)**: Systematically audit all accessible sectors of Sovio Sewers (Western Terrace, Northern Gangway, Dark Sector basement, and Eastern Storage platform) to verify whether any dropped item, NPC, or passage exists post-Marie retreat.
 - **Current Plan**:
-  1. Exit Pokémon Center into Central Plaza at (44, 13).
-  2. Execute H137-A: Open and inspect HuPhone apps (Mailbox, Quest Status).
-  3. Execute H137-B: Enter Sovio Sewers via Metro lobby red mat to systematically audit post-retreat sewer sectors.
+  1. Close HuPhone (Turn Off PC, Back on main menu).
+  2. Walk east to Metro Station entrance at (48, 17) and descend into Sovio Sewers via lobby red mat (18-19, 25).
+  3. Execute systematic post-retreat audit across all sewer sectors.
