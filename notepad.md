@@ -321,7 +321,7 @@
 
 ## City Signpost
 
-- **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'.
+- **Location**: Wooden signpost at (29-30, 18); reads 'Sovio City / The city of Union'. Trash can at (31, 17) east of signpost audited facing Right from (30, 17) (Turn 27374); confirmed 100% inert with zero text or items.
 
 ## Residential House (Central West - Gumball Family)
 
