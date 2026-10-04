@@ -13,13 +13,13 @@
 - **Result**: Bug Catcher Duke (45, 12), Lass Sonia (27, 15), Youngster Mike (29, 20), and Roadside Cottage boy (6, 7) all produced identical pre-tremor static dialogue. Falsification criteria met.
 - **Conclusion**: Route 1 received zero post-tremor state changes. Backtracking south to Lancio Town is formally aborted. Investigation shifts focus away from southern overland routes toward unexamined systems and localized town triggers.
 
-### Hypothesis H3: Sovio City Localized Triggers & Novel Interactions (Active)
+### Hypothesis H3: Sovio City Localized Triggers & Novel Interactions (Concluded - Falsified)
 - **Premise**: Testing whether unexamined NPC interactions, inventory items, or system triggers in Sovio City advance the story state or reveal Jackson's whereabouts.
 - **Protocol & Falsification Criteria**:
   1. Target A (Pokémon Center Camper at 5, 7): Concluded Turn 26716 - Falsified. Tested with Antidote in inventory; repeated static humor dialogue ("My weedle got poisoned... / Ironic isn't it?") with zero choice prompts or quest triggers.
   2. Target B (Central Park Couple at 33, 22 & 43-45, 23-26): Concluded Turn 26735 - Falsified. Interviewed blonde girl at (44, 26); repeated verbatim static text ("I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?") with zero choice prompts or quest triggers. Both NPCs are static ambient humor.
   3. Target C (System & Inventory Items Audit): Concluded Turn 26741 - Falsified. Key Items pocket holds only HuPhone (registered to SELECT) and TM Case. Items pocket holds Potion, Poison Barb, Antidote. Zero event items, passes, or equipment present.
+- **Hypothesis H3 Conclusion**: Falsified across all targets.
 
-### Hypothesis H4: Sovio Sewers Eastern Storage Platform Warp & Interaction Verification (Active)
-- **Premise**: The storage room platform at (37, 14) holds a red horizontal capsule mat with a downward arrow pointing South. In Sors engine, directional red capsule mats function as warps (cf. Metro lobby 18-19, 25 and Dark Sector 14-15, 9). Past notes recorded "Its a simple storage room.." from 'A' interaction facing south from (37, 13), but physical walk-over / Down step from (37, 14) into row 15 has not been rigorously verified.
-- **Protocol**: Travel to Metro Station, descend to Sovio Sewers, navigate across row 13 catwalk to Eastern Storage Platform (37, 14). Test stepping Down directly from (37, 14) and record collision / warp behavior.
+### Hypothesis H4: Sovio Sewers Eastern Storage Platform (Abandoned - Invalid)
+- **Status**: Formally abandoned per critique and prior exhaustive multi-directional collision checks. Jackson was never imprisoned in the sewers (he investigated outside in Sovio City during the tremor, while sewer grunts awaited Marie). The storage door is a static scenery fixture. Sovio Sewers are fully exhausted for main story progression.
