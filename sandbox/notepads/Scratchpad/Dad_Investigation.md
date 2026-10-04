@@ -9,15 +9,12 @@
 - **E1 (Covered Corridor & Tan Building Facades)**: Disproven (Turns 26360-26368); covered corridor south wall at (48-51, 22) confirmed solid collision along row 23; Tan Building double shutters at (34-35, 12) confirmed solid decorative wall with zero interaction.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis E2 (Sovio City Investigation Synthesis)**:
-  - Premise: Jackson ran outside into Sovio City post-tremor. Investigate tangible physical areas in Sovio City to locate Jackson or trigger progression.
-  - Empirical Survey Logs (Turns 26270-26306):
-    - Central Park Pond Rim (41, 17-18): Stepped onto grass at (41, 17); shoreline at row 18 is solid barrier; zero interaction text facing South.
-    - Central Plaza Alley Manhole (40, 13): Stepped onto manhole; zero interaction text.
-    - West Avenue Approach Manhole (34, 15): Stepped onto manhole; zero interaction text.
-    - Gumball Sidewalk (29, 16): Stepped onto tile; plain tan pavement, zero interaction text.
-    - Central West Trash Can (31, 17): Interacted facing South; zero interaction text (inert).
-    - Rocky & Boy Rocky (23-24, 17): Interacted with Rocky ("It's just a normal rock...") and Boy Rocky ("He's the best...", "Rocky: ..."). Ambient dialogue only.
-    - West Avenue Trash Can (14, 19): Interacted facing West; zero interaction text (inert).
-    - Southwest Manhole (13, 28): Stepped onto manhole; zero interaction text (inert).
-    - Southwest Dead-End Lawn (12, 30): Physically verified; terminus against pine trees and solid wall, zero interaction text (inert).
+- **Hypothesis S1 (Sewer Post-Tremor Final Verification)**:
+  - Premise: Team Siara grunts vacated following Marie's radio retreat order. Systematically audit the remaining focal points to verify whether any dropped item, unexamined trigger, or directional interaction exists before permanently closing the sewer search space.
+  - Target 1: Eastern Storage Platform (36-38, 12-14) and storage door mat at (37, 14).
+    - Protocol: Inspect (37, 14) from all 4 directional facings (North, South, East, West). Test platform perimeter bounds at (36, 14) and (38, 14).
+    - Falsifiable Criteria: If all tiles yield static 'Its a simple storage room..' or inert collision, confirm 100% exhausted.
+  - Target 2: Dark Sector / Basement (30, 4).
+    - Protocol: Ascend causeway at column 30, enter wooden staircase at (30, 4). Audit room perimeter, rock smash obstacle (22, 10), and subterranean mat (14-15, 9).
+    - Falsifiable Criteria: If obstacles remain equipment-gated and subterranean chamber remains static, confirm 100% exhausted.
+  - Exit Rule: Upon confirming Targets 1 and 2, permanently archive Sovio Sewers and shift progression focus 100% to exterior regional investigation.
