@@ -10,7 +10,7 @@
 - **Mechanical Level-Up (H127)**: Leveled Sirius to Lv17. No evolution, zero effect on story flags.
 - **Sewers Post-Retreat (H121, H128)**: Grunts vacated post-Marie retreat; storage room door at (37, 14) displays "Its a simple storage room.."; rugged rocks gate SW corridor and Dark Sector.
 
-- **H134 Off-Path Nooks & Hidden Alignments (FALSIFIED)**: Central Park south hedge alcove (42, 30) verified 0 items/triggers; northern alley perimeter (38-41, 7-9) verified 0 items/triggers; Metro platform verified 100% empty of NPCs via 2x crop (prior transit officer notes were visual artifact of empty chair headrests); turnstile passage and scanner pillars verified inert from non-trigger angles. 100% FALSIFIED.
+- **H134 Off-Path Nooks & Hidden Alignments**: Central Park south hedge alcove (42, 30) verified 0 items/triggers; northern alley perimeter (38-41, 7-9) verified 0 items/triggers; Metro platform confirmed to have a Transit Officer in blue uniform/cap stationed by the east chairs, confirming the platform is an active transit zone gated by finding Dad; turnstile passage and scanner pillars verified inert from non-trigger angles.
 
 ## Active Hypothesis H135: Deep Systematic Sovio Sewers Audit
 - **Premise**: Previous sewer visits were superficial bounce-backs. With all surface sectors and facility counters confirmed static, conduct an exhaustive post-retreat survey of all sewer sectors.
