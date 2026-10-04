@@ -30,9 +30,16 @@
   3. **Resident Boy (8-9, 6)**: Wandering civilian explaining PC terminal.
 - **Conclusion**: Pokémon Center patrons are static ambient baselines with zero latent progression hooks.
 
-## Active Hypothesis H159: Elevated Terrace Floor & Overlooked Narrative Triggers
-- **Premise**: In earlier turns, the Old Man and Machop occupied the elevated terrace above the Metro Station (47-51, 14-16) for the 'Lost Toy' side quest. Since completing 'Lost Toy' in Turn 13344, the physical terrace floor and perimeter have not been re-audited. Prior attempt in Turn 24324 collided with the street lamp at (47, 17) and did not reach the terrace.
+## Hypothesis H159: Elevated Terrace Floor & Nana's Residence (Concluded)
+- **Empirical Findings (Turns 24340-24343)**:
+  1. **Terrace Floor & Perimeter**: Terrace floor at columns 47-51, rows 14-16 is clear of NPCs or items. Circular fixture at (51, 16) is inert decorative scenery. High-rise east wall at column 52 solid.
+  2. **Nana's Residence (49, 14)**: Nana at (62, 31) spoken to; displayed verbatim: "I'm cooking something for my dear grandkid. She loves my cooking." (100% ambient flavor text). Granddaughter at (63, 33) and kitchen appliances verified static baseline.
+- **Conclusion**: Elevated terrace and Nana's residence are static ambient scenery with zero narrative triggers.
+
+## Active Hypothesis H160: External Map Survey & Professor Ivo Lab Investigation
+- **Premise**: Every residence, outdoor NPC, and sewer corridor in Sovio City is confirmed static baseline. However, the south exit to Route 1 has NO story barrier, permitting travel to Route 1 and Lancio Town. Professor Ivo in Lancio Town is Jackson's primary confidante and researcher; her lab contains restricted basement stairs at (12, 7) and an incubator at (18-19, 5-6).
 - **Action Plan**:
-  1. From (44, 12), step south to row 15: (44, 15).
-  2. Walk east along row 15 across the curb at (47, 15) onto the wooden terrace to (51, 15).
-  3. Audit terrace floor tiles, interact with the teal door at (49, 14) / Nana's residence, and inspect the eastern wall boundary at column 51.
+  1. Exit Nana's house to terrace (49, 15) and descend to Central Plaza.
+  2. Walk south along Southern Avenue (cols 14-15) to Route 1 gateway.
+  3. Traverse Route 1 to Lancio Town.
+  4. Audit Professor Ivo's Lab: test Professor Ivo's dialogue post-sewer clearance, inspect basement stairs at (12, 7), and check incubator at (18-19, 5-6).
