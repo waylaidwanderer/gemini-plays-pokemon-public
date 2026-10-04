@@ -691,7 +691,15 @@
 
 ## Active Hypotheses & Strategic Focus
 - **Hypothesis E1 (Sovio City Unexamined Physical Interactions)**:
-  - Premise: Jackson ran outside into Sovio City post-tremor. Investigate tangible unexamined physical interactions in Sovio City (elevated terrace, West Avenue fixtures, sewer manholes, and unmapped perimeters) to locate Jackson or trigger the progression flag.
-  - Test: Systematically survey Sovio City exterior starting from Central Plaza and elevated terrace.
+  - Premise: Jackson ran outside into Sovio City post-tremor. Investigate tangible physical areas in Sovio City to locate Jackson or trigger progression.
+  - Empirical Survey Logs (Turns 26270-26306):
+    - Central Park Pond Rim (41, 17-18): Stepped onto grass at (41, 17); shoreline at row 18 is solid barrier; zero interaction text facing South.
+    - Central Plaza Alley Manhole (40, 13): Stepped onto manhole; zero interaction text.
+    - West Avenue Approach Manhole (34, 15): Stepped onto manhole; zero interaction text.
+    - Gumball Sidewalk (29, 16): Stepped onto tile; plain tan pavement, zero interaction text.
+    - Central West Trash Can (31, 17): Interacted facing South; zero interaction text (inert).
+    - Rocky & Boy Rocky (23-24, 17): Interacted with Rocky ("It's just a normal rock...") and Boy Rocky ("He's the best...", "Rocky: ..."). Ambient dialogue only.
+    - West Avenue Trash Can (14, 19): Interacted facing West; zero interaction text (inert).
+    - Southwest Manhole (13, 28): Stepped onto manhole; zero interaction text (inert).
 
 <hr>
