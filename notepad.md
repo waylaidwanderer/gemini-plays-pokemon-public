@@ -669,15 +669,15 @@
 - **External Routes & Lancio Town (H136)**: Route 1 cottage/trainers static; Lancio lab (Ivo starter line, blocked stairs, machine inert), TM boy ("Get out!"), dock/fisherman static; PokéMart/civilians confirm zero field equipment obtainable.
 - **Sovio Sewers Comprehensive Audit (H135, H137-B - FALSIFIED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero items, zero story flags. Sewers permanently CLOSED.
 
-## Active Hypothesis H138: Jackson Search Space Expansion & Unexamined Overworld Triggers
-- **Premise**: With Sewers, Lancio Town, and digital systems conclusively verified static, Dad is not hidden in any side dungeon or external town. The narrative context: Dad ran out into Sovio City to investigate the tremor. We must exit sewers and test genuinely unexamined overworld variables.
-- **Genuinely Unexplored Avenues & Variables to Test**:
-  1. *Station Schedule & Attendant Alignment*: Re-examine the lobby timetable board and turnstiles with different party leader / items to verify if an attendant or trigger spawns after full sewer retreat.
-  2. *Central Plaza & Tremor Epicenter*: Inspect the plaza cobblestones, fountain rim, and street fixtures between the Center and Metro for subtle environmental interaction points.
-  3. *West Avenue Biker Gang / Blocked Passages*: Investigate the office building perimeter behind the Bikers at column 12.
+## Active Hypothesis H138: Jackson Search Space Expansion & Sovio City Progression Investigation
+- **Premise**: With Sewers, Lancio Town, and digital systems conclusively verified static, Dad is not hidden in any side dungeon or external town. The narrative context: Dad ran out into Sovio City to investigate the tremor. We must exit sewers and systematically investigate unexamined narrative triggers in Sovio City.
+- **Specific Unexplored Progression Variables to Test**:
+  1. *Metro Station Attendant / Platform Access*: Audit the ticket counters, vending machine, and platform perimeter in the Metro Station.
+  2. *Central Plaza & Tremor Epicenter*: Systematically audit all dialogue and objects in Sovio City Central Plaza (fountain, Pokémon Center staff/patrons, signposts) for post-sewer progression triggers.
+  3. *Key Item / Bag Inspection*: Verify if any item obtained earlier (e.g. Nugget, Repel, Poison Barb, TM17, TM48, Torn Scarf) has an interaction in Sovio City.
 - **Current Plan**:
-  1. Exit Sovio Sewers via column 38 stairs to Metro Station lobby.
-  2. Ascend to Sovio City Central Plaza.
+  1. Exit Sovio Sewers via column 38 stairs at (38, 22) to Metro Station lobby.
+  2. Ascend stairs at (24, 24) to Central Plaza.
   3. Execute systematic check of unexplored overworld triggers.
 
 <hr>
