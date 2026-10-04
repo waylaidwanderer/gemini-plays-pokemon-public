@@ -688,16 +688,17 @@
 - A sudden seismic tremor shook the station. Dad ran outside into Sovio City to investigate the source.
 - Team Siara operated in the Sovio Sewers beneath the station awaiting Commander Marie.
 - Asher fought through the sewers; Marie broadcast a radio retreat order and all grunts vacated the sewers.
-- Verified: The storage room at (37, 14) is an inert empty room displaying "Its a simple storage room..". Jackson was NOT in that room; Jackson ran outside into Sovio City during the tremor.
-- However, the Metro turnstile still triggers "I should find dad first!", and Route 2 triggers "I can't go yet... I have things to do!".
+- Verified: In Turn 24206, the sewer storage room at (37, 14) displayed "Its a simple storage room..". Jackson was not observed inside; narrative establishes Dad ran outside into Sovio City during the tremor. The descent in Turn 25231 was aborted at (27, 28) without reaching (37, 14).
+- Active Barriers: Metro turnstile (19, 21) triggers "I should find dad first!"; Route 2 (52, 19-22) triggers "I can't go yet... I have things to do!".
 
-## Active Grounded Hypotheses
+## Active Grounded Hypotheses & Physical Inspection Log
 - **Hypothesis O1 (Sovio City Outdoor Search for Jackson & Tremor Epicenter)**:
-  - Jackson ran outside into Sovio City to investigate the tremor.
-  - Systematically search outdoor Sovio City locations directly connected to the tremor:
-    a. Central Plaza perimeter (outside Metro Station portal, Pokémon Center surroundings).
-    b. Central Park (fountain basin, pond perimeter, southern pathways).
-    c. Where is Valora? Valora was in the station during the tremor and may have followed Jackson outside or know his location.
+  - Jackson ran outside into Sovio City to investigate the tremor. Systematic outdoor audit log:
+    - Central Park fountain basin rim at (42, 18): Inspected facing West with 'A' (Turn 25245: inert, zero text/items).
+    - Southeast Central Park hedge alcove at (42, 28-30): Walkway audited (Turn 25255: clear).
+    - Southeast Central Park pavement at (40, 27): Inspected with 'A' (Turn 25256: inert cobblestone).
+    - Central Plaza outside Pokémon Center (40-44, 14): In progress (Turns 25264-25265).
+    - Pokémon Center interior (Camper at 5, 7 and Upper Mezzanine): Target for Turns 25266+.
 - **Hypothesis O2 (Metro Station Platform Gating Trigger)**:
   - Re-examine what conditions resolve "I should find dad first!".
 
