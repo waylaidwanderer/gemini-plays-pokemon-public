@@ -24,6 +24,7 @@
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
   - Pine tree at (31, 38) and hedge line at row 39 block westward traversal from the southern Sand Highway dead-end (row 38).
   - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
+  - Hedge bush at (41, 42) blocks southward traversal down column 41 from (41, 41).
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 43) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
@@ -36,4 +37,3 @@
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
-- **Eastern Coastal Corridor**: Columns 41-42 form an open coastal passage along the eastern shoreline connecting Science Guy's clearing (row 36) south past the row 40 pine tree forest directly into the southern corridor (rows 44-49).
