@@ -676,14 +676,14 @@
 ## Active Hypothesis H140: Alternative System & Mechanic Investigation
 - **Premise**: With all physical overworld sectors, interiors, and inventory items verified static, progression cannot be achieved by re-walking urban tiles. We must investigate fundamentally distinct, untested game systems and mechanics.
 - **Specific Unexplored Variables to Test**:
-  1. *Trainer Card Audit*: Inspect Asher's Trainer Card via Start Menu to check tournament registration status, rounds, crests, and back side.
-  2. *Clock & Timetable Mechanics*: Metro Station schedule lists Amor at 16:00 and Almia at 20:00. The current in-game clock is ~19:52. Observe if the impending 20:00 mark alters any station or world state.
+  1. *Trainer Card Audit*: Concluded. Front (ID 54592, Money ¥6096, 8 empty tournament round slots) and Back (regional sun/hand emblem, 6 empty crest silhouettes) 100% verified baseline.
+  2. *Clock & Timetable Mechanics*: Active. Metro Station schedule lists Amor at 16:00 and Almia at 20:00. Current clock is ~19:56. Heading into Metro Station lobby to observe the 20:00 threshold.
   3. *Field Shortcuts / Select Key Mechanics*: Verify HuPhone response on overworld tiles or any special interaction triggers.
 - **Falsification & Stopping Boundaries**:
   - Strictly prohibit re-auditing previously verified static coordinates (fountain, Pokémon Center exterior, West Avenue facade, turnstile angles).
   - Conclude each system check within 5 turns before pivoting.
 - **Current Plan**:
-  1. Press B twice to exit Party screen and Start Menu to Overworld.
-  2. Open Start Menu and select ASHER to audit the Trainer Card.
+  1. Exit Trainer Card and Start Menu back to Overworld at (51, 19).
+  2. Enter Sovio Metro Station at (48, 17) to position near the timetable board / turnstile before 20:00.
 
 <hr>
