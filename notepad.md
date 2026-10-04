@@ -677,4 +677,13 @@
 - **Sovio Sewers Audits (H135, H137-B)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Grunts permanently vacated; rugged rocks require equipment.
 - **Hardware, Inventory & Party Systems (H124, H127, H128, H133, H137-A, H139, H140, H146, H148, H151, H152)**: HuPhone (Item Storage, Mailbox, World Map visual only), PC (empty), Mart inventory, Bag items (TM Case infinite use, Nugget sellable), and party lead configuration (Zephyr vs Sirius) verified static with zero delta on turnstile ("I should find dad first!") or Route 2 barrier ("I can't go yet... I have things to do!").
 
+## Active Hypothesis H154: Causal Audit of Uninspected Central Plaza Fixtures (Fountain Basin & Metro East Lobby)
+- **Premise**: Progression blockers "I should find dad first!" (Metro turnstile) and "I can't go yet... I have things to do!" (Route 2) are internal monologues reflecting unfulfilled progression conditions. While overworld NPCs are static, key structural fixtures in Central Plaza—specifically the central fountain water basin at (41, 17-18) and the uninspected east partition of the Metro lobby (columns 24-26, rows 21-23 north of the stairs)—have never been systematically audited for inspection text, hidden items, or interaction triggers.
+- **Target Variables**:
+  1. Central Park Fountain Water Basin (41, 17-18): Stand at the northern stone terrace curb at (41, 17), face South into the water basin rim at (41, 18), and press 'A' to test for interaction text, inspection prompts, or item triggers.
+  2. Metro Station East Lobby Partition (cols 24-26, rows 21-23): Re-enter Metro Station, navigate north of the exit stairs to column 24-25, rows 21-23, and audit the east wall fixtures and ticket counter partition with 'A'.
+  3. Re-evaluate Progression Blockers: Verify if inspecting these key civic fixtures updates the internal monologue at the Metro turnstile or Route 2 barrier.
+- **Causal Mechanism**: If progression is tied to examining civic landmarks following the tremor (investigating the central fountain where seismic activity manifests or the Metro station's information fixtures), triggering these interactive prompts will update Asher's internal state.
+- **Stopping Boundary**: Complete inspection of targets 1 and 2, record exact before/after responses, and conclude H154.
+
 <hr>
