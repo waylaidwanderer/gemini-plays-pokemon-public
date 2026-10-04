@@ -678,17 +678,15 @@
 - **Non-Spatial System & In-Game Devices (H146 - CONCLUDED)**: HuPhone apps (Item Storage 0 items, Mailbox 0 messages, Quest Log 0 active, World Map verified), Trainer Card (Front: Asher ID 54592, 0 Badges, 8 round slots; Back: 6 crest silhouettes), Party summary (Sirius Lv17 Relaxed, Black Belt; Zephyr Lv2 Tackle) 100% verified static baseline.
 - **Sovio Pokémon Center Facilities & State (H147 - CONCLUDED)**: Nurse Joy (standard heal & respawn checkpoint registered), Asher's PC (Mailbox empty verbatim, Item Storage empty verbatim), Someone's PC (Box 1 30-slot grid audited empty), Framed Town Map (functional regional map displaying player at Sovio City), and resident NPCs (Straw-hat Camper at 5, 7; Resident Boy at 8-10, 4-6) verified 100% static baseline.
 - **Metro Station Partition & Turnstiles (H148 - CONCLUDED)**: Scanner pillars at (18, 21) and (20, 21) verified 100% inert. Turnstile passage at (19, 21) verified as the single trigger tile displaying verbatim "I should find dad first!" and forcing player south to (19, 22). Platform side chairs verified empty furniture per map documentation.
+- **Lancio Town & Route 1 External Anchors (H149 - CONCLUDED)**: Professor Ivo (ambient dialogue), Lab stairs (barrier locked), incubator (inert), harbor pier (Harry/boat absent), Fisherman (patience text), Route 1 cottage resident (static sample text), and Cut tree (inert physical obstacle) verified 100% static baseline.
 
-## Hypothesis H149: External Anchor Audit in Lancio Town & Route 1
-- **Premise**: All local entities in Sovio City, Metro lobby, and Sewers are static baselines. Testing external facilities for narrative triggers or physical state updates.
-- **Target 3 (Part 1 - Cottage at 37, 24)**: Verified resident boy dialogue verbatim ("Now that you got your sample, go and enjoy freedom!"). 100% static baseline.
-- **Target 3 (Part 2 - Cut Tree at 5, 44)**: Verified 100% inert solid obstacle with zero inspection text or interaction prompts.
-- **Target 1 (Lancio Town Lab)**: Test Professor Ivo's dialogue at (20, 6), incubator apparatus at (18-19, 5-6), and basement stairs at (12, 7).
-- **Target 2 (Lancio Town Harbor)**: Check pier at (32-34, 23-25).
-- **Causal Mechanism**: If Jackson or Professor Ivo relocated or updated flags following the Siara sewer retreat, speaking to Professor Ivo or inspecting lab fixtures should advance story dialogue or unlock basement access.
-- **Stopping Boundary**: Complete testing of Targets 3-P2, 1, and 2, record findings, and conclude H149.
-- Target 1 (Lab Stairs at 12, 7): Verified barrier text verbatim ("I probably shouldn't head down here..."). 100% static baseline.
-- Target 1 (Professor Ivo at 20, 6): Verified dialogue verbatim ("Hey, Ashi, how's your new Pokémon?"). 100% static baseline.
-- Target 1 (Incubator Apparatus at 18-19, 5-6): Verified interaction text verbatim ("Better not mess with that machine."). 100% static baseline.
+## Active Hypothesis H150: Commercial Building Roof Corridor & Sub-Roof Passage Verification (Columns 47-51, Rows 19-27)
+- **Premise**: In Turn 11008, a covered passage beneath the commercial building roof south of Central Plaza was discovered before being dismissed as solid collision. If a walkable corridor exists beneath the roof structure connecting Central Plaza (row 19) south toward rows 27-30 or an eastern alcove, Dad or an event trigger may reside in this secluded zone.
+- **Target Variables**:
+  1. Row 19/20 boundary across columns 47 to 51: Test vertical passage Down from row 19 into rows 20-23 under the grey roof canopy.
+  2. Column 46 boundary between trash cans (46, 22-23) and facade: Test horizontal passage East into columns 47-48 beneath the roof.
+  3. Eastern boundary along column 51/52 (rows 20-25): Test passage from Route 2 road south into the building flank.
+- **Causal Mechanism**: If the commercial building roof is an awning/canopy with an active sub-roof corridor rather than solid collision, navigating beneath the awning will reveal previously hidden ground, event triggers, or Jackson.
+- **Stopping Boundary**: Test all entry angles (North from row 19, West from col 46, East from col 52) into columns 47-51, rows 20-25, record exact collision coordinates, and conclude H150.
 
 <hr>
