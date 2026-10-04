@@ -18,8 +18,13 @@
 
 - **Hypothesis C2 (Valora Tracing & Scripted Handoff)**:
   - Premise: Valora was present in the Metro Station when Dad departed. If an event handoff occurred, she may be stationed at a specific transit or gathering point.
-  - Test Criteria: Inspect specific locations for a cyan-haired sprite: (1) Metro Station platform / attendant desk, (2) Sovio City Central Plaza fountain perimeter, (3) East Exit Route 2 checkpoint. If absent from all three by Turn 26230, mark C2 as disproven.
+  - Findings (Turns 26196-26205):
+    - Central Plaza fountain perimeter (Turn 26196): Negative, Valora absent.
+    - Metro Station platform & lobby (Turns 26199-26201): Negative, Valora and attendant absent; all chairs empty.
+    - East Exit Route 2 checkpoint (Turn 26205): Negative, Valora absent.
+  - Outcome: Disproven; Valora is not stationed at any public gathering or transit checkpoint in Sovio City.
 
 - **Hypothesis C3 (Tremor Epicenter & Physical Anomaly Testing)**:
-  - Premise: The tremor was an explicit physical event. Test specific structural anomaly candidates in Sovio City: (1) Eastern roof covered corridor (rows 20-22, cols 47-51), (2) Cracked pavement / manhole fixtures near the station entrance, (3) Route 2 border trigger condition.
-  - Test Criteria: Step on each candidate tile coordinate and check for scripted text or state changes. Conclude by Turn 26260.
+  - Findings (Turns 26200-26205):
+    - Metro turnstile (19, 21): Direct 'A' interaction yields zero text; step-on script triggers "I should find dad first!". Platform chairs audited empty.
+    - Eastern covered corridor (rows 20-22, cols 47-51): Traversed completely; standard covered pathway with zero NPCs, hidden items, or physical tremor anomalies.
