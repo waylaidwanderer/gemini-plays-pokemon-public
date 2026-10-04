@@ -666,9 +666,8 @@
 - **Sewers Post-Retreat (H121, H128)**: Grunts vacated post-Marie retreat; storage room door at (37, 14) displays "Its a simple storage room.."; rugged rocks gate SW corridor and Dark Sector.
 - **H134 Off-Path Nooks & Hidden Alignments**: Central Park south hedge alcove (42, 30) verified 0 items/triggers; northern alley perimeter (38-41, 7-9) verified 0 items/triggers; Metro platform verified inaccessible past turnstile; turnstile passage and scanner pillars verified inert from non-trigger angles.
 
-## Concluded Hypothesis H135: Sovio Sewers Sector Audit (ABANDONED/PARTIAL)
+## Concluded Hypothesis H135: Sovio Sewers Sector Audit (CONCLUDED)
 - **H135-A (Eastern Platform & Storage Mat - CONCLUDED)**: Audited all 9 platform tiles (36-38, 12-14). Door at (37, 14) confirmed verbatim: "Its a simple storage room...". Row 15 solid collision. Zero items/switches.
-- **H135-B & H135-C**: Suspended without exhaustive traversal to break out of internal Sovio loop per critique directive.
 
 ## Concluded Hypothesis H136: External Investigation for Dad's Trail & Tremor Origin (Concluded Turn 23307)
 - **Premise**: Sovio City overworld and Sewers Eastern Platform had been audited with zero Dad sightings. Investigated external leads (Route 1, Lancio Town, field equipment).
