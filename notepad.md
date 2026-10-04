@@ -164,9 +164,6 @@
 - **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
 - **Pine Tree & Terrain Barriers**:
-  - Pine tree at (38, 11) blocks southward passage down column 38 from row 10.
-  - Pine tree at (41, 14) blocks westward traversal along row 14.
-  - Pine tree at (46, 15) blocks southward passage down column 46 from row 14.
   - Pine tree at (30, 17) blocks southward traversal down column 30 from (30, 16).
   - Pine tree at (31, 27) blocks southward traversal down column 31 from (31, 26).
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
@@ -613,7 +610,7 @@
 
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
 
-- **Items Pocket**: Standard consumable items (Potions, Status Heals, Repels, Poison Barb). Note: Bag interface natively tracks real-time consumable counts.
+- **Items Pocket**: Potion x1, Poison Barb x1, Antidote x1 (verified Turn 26093; 0 Repels in possession). Note: Bag interface natively tracks real-time consumable counts.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
 
@@ -707,12 +704,11 @@
     - Fisherman (38, 22): Verbatim ambient dialogue "However it goes, you must stay calm and patient..." (100% unchanged).
     - Outcome: Hypothesis P2 disproven; harbor remains inactive.
 
-- **Hypothesis P3 (Sovio Metro Station & Post-Rescue Disappearance Tracing)**:
-  - Premise: When Jackson and Valora were freed from the sewer storage room (Turn 2279-2716), they departed toward the station. If Jackson is not in the Metro lobby, where did he physically stop? Either:
-    1. A specific interaction trigger in the Metro Station lobby (e.g. speaking to a specific NPC, inspecting the schedule board, or interacting with the turnstile gate from a different angle/tile).
-    2. Jackson went to a prominent surface location in Sovio City (such as the Pokémon Center counter/mezzanine, the central plaza where Mother appeared, or the fountain).
-    3. An overlooked sewer location or NPC cutscene trigger that must be re-triggered.
-  - Action: Following Lancio Harbor audit, return to Sovio City via Route 1, systematically audit the Metro Station lobby (including turnstile sides, timetable, attendant) and the Pokémon Center (counter, PC, upper mezzanine).
+- **Hypothesis P3 (Sovio Metro Station & Post-Tremor Investigation Vectors)**:
+  - Premise: Jackson ran outside into Sovio City during the tremor (Turn 1329-1437) and was never seen again; the sewer storage room was confirmed empty/unrelated. To resolve "I should find dad first!", we must test unexamined interaction vectors and mechanics rather than repeating static civilian dialogue:
+    1. Untested surface triggers or object interactions in Sovio City (fountain rim, signs, specific building facades).
+    2. Targeted inspection of Metro platform turnstile mechanics or schedule board variations.
+  - Action: Return to Sovio City via Route 1 and execute targeted tests of unexamined triggers.
 
 - **Hypothesis P4 (HuPhone & Bag Field Trigger Check)**:
   - Premise: Check if any Key Item, HuPhone app (Item Storage, Mailbox, Quest Log), or Select trigger was missed or needs activation to trigger Jackson's appearance.

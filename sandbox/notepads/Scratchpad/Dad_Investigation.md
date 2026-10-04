@@ -22,12 +22,11 @@
     - Fisherman (38, 22): Verbatim ambient dialogue "However it goes, you must stay calm and patient..." (100% unchanged).
     - Outcome: Hypothesis P2 disproven; harbor remains inactive.
 
-- **Hypothesis P3 (Sovio Metro Station & Post-Rescue Disappearance Tracing)**:
-  - Premise: When Jackson and Valora were freed from the sewer storage room (Turn 2279-2716), they departed toward the station. If Jackson is not in the Metro lobby, where did he physically stop? Either:
-    1. A specific interaction trigger in the Metro Station lobby (e.g. speaking to a specific NPC, inspecting the schedule board, or interacting with the turnstile gate from a different angle/tile).
-    2. Jackson went to a prominent surface location in Sovio City (such as the Pokémon Center counter/mezzanine, the central plaza where Mother appeared, or the fountain).
-    3. An overlooked sewer location or NPC cutscene trigger that must be re-triggered.
-  - Action: Following Lancio Harbor audit, return to Sovio City via Route 1, systematically audit the Metro Station lobby (including turnstile sides, timetable, attendant) and the Pokémon Center (counter, PC, upper mezzanine).
+- **Hypothesis P3 (Sovio Metro Station & Post-Tremor Investigation Vectors)**:
+  - Premise: Jackson ran outside into Sovio City during the tremor (Turn 1329-1437) and was never seen again; the sewer storage room was confirmed empty/unrelated. To resolve "I should find dad first!", we must test unexamined interaction vectors and mechanics rather than repeating static civilian dialogue:
+    1. Untested surface triggers or object interactions in Sovio City (fountain rim, signs, specific building facades).
+    2. Targeted inspection of Metro platform turnstile mechanics or schedule board variations.
+  - Action: Return to Sovio City via Route 1 and execute targeted tests of unexamined triggers.
 
 - **Hypothesis P4 (HuPhone & Bag Field Trigger Check)**:
   - Premise: Check if any Key Item, HuPhone app (Item Storage, Mailbox, Quest Log), or Select trigger was missed or needs activation to trigger Jackson's appearance.

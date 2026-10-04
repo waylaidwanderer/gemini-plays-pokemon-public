@@ -24,9 +24,6 @@
 - **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
 - **Pine Tree & Terrain Barriers**:
-  - Pine tree at (38, 11) blocks southward passage down column 38 from row 10.
-  - Pine tree at (41, 14) blocks westward traversal along row 14.
-  - Pine tree at (46, 15) blocks southward passage down column 46 from row 14.
   - Pine tree at (30, 17) blocks southward traversal down column 30 from (30, 16).
   - Pine tree at (31, 27) blocks southward traversal down column 31 from (31, 26).
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
