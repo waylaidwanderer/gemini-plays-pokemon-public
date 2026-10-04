@@ -13,7 +13,8 @@
   - Premise: Team Siara grunts vacated following Marie's radio retreat order. Systematically audit the remaining focal points to verify whether any dropped item, unexamined trigger, or directional interaction exists before permanently closing the sewer search space.
   - Target 1: Eastern Storage Platform (36-38, 12-14) and storage door mat at (37, 14).
     - Protocol: Inspect (37, 14) from all 4 directional facings (North, South, East, West). Test platform perimeter bounds at (36, 14) and (38, 14).
-    - Falsifiable Criteria: If all tiles yield static 'Its a simple storage room..' or inert collision, confirm 100% exhausted.
+    - Empirical Findings (Turns 26418-26425): (37, 14) facing South displays static "Its a simple storage room..."; stepping Down bumps into solid wall (no walk-off warp); (36, 14) facing South inert; (37, 14) facing North inert; (38, 14) facing South inert; (37, 14) facing West inert; (37, 14) facing East inert; (38, 14) stepping East confirmed solid void boundary.
+    - Status: 100% EXHAUSTED & CONFIRMED INERT.
   - Target 2: Dark Sector / Basement (30, 4).
     - Protocol: Ascend causeway at column 30, enter wooden staircase at (30, 4). Audit room perimeter, rock smash obstacle (22, 10), and subterranean mat (14-15, 9).
     - Falsifiable Criteria: If obstacles remain equipment-gated and subterranean chamber remains static, confirm 100% exhausted.

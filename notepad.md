@@ -400,7 +400,7 @@
 - **Upper Level Connectivity**: The stone stairway at column 34 (rows 24-27) connects the lower floor to the upper landing (1F). The upper landing terminates north into solid brick walls at row 20.
 - **Southern Canal Corridor**: Descends via stone staircase at columns 12-13 (rows 28-31) to rows 32-36. Western terminus at column 10 (solid wall collision at 9, 33). Eastern terminus at column 22 with Poison Barb at (22, 36) and vertical canal water chasm at column 23. Fully explored and verified devoid of NPCs or exits.
 - **Eastern Gangway & Column 28 Junction**: From column 24 at row 13, a single-tile wide horizontal stone gangway runs east along row 13 all the way to column 36 beneath a solid brick wall (rows 10-12). Note: Row 14 west of column 36 is impassable void chasm; traversal east/west must follow row 13. At column 28-29 is a junction: northern extension is impassable due to a solid brick wall at (29, 11). Southern extension at (29, 14) terminates at the black void chasm with (29, 15) impassable void. 
-- **Eastern Storage Room & Platform**: Located at the eastern dead-end along rows 12-14, columns 36-38. Floor tiles at (36-38, 12-14) form an open 3x3 stone platform. Tile (37, 14) holds a red horizontal capsule mat with a black downward arrow motif pointing South. Facing South from (37, 14) and pressing A displays verbatim: "Its a simple storage room..". Stepping Down from (37, 14) into row 15 bumps into solid impassable collision. Confirmed platform contains strictly the single inspection trigger at (37, 14) with zero secondary warps, keys, or switches.
+- **Eastern Storage Platform (Audit Complete Turns 26418-26425)**: Located at eastern dead-end along rows 12-14, columns 36-38. 3x3 stone platform. Tile (37, 14) holds red horizontal capsule mat with downward arrow pointing South. Multi-directional audit confirmed: facing South displays "Its a simple storage room.."; stepping Down bumps into solid collision (no walk-off warp); facing North, East, and West are inert with zero triggers; western bound (36, 14) and eastern bound (38, 14) facing South are inert solid collision; stepping East from (38, 14) is void boundary. 100% verified single-purpose decorative room with zero secondary triggers.
 
 ## Wild Encounters
 - Koffing (Lv4-7, Poison)
@@ -688,7 +688,8 @@
   - Premise: Team Siara grunts vacated following Marie's radio retreat order. Systematically audit the remaining focal points to verify whether any dropped item, unexamined trigger, or directional interaction exists before permanently closing the sewer search space.
   - Target 1: Eastern Storage Platform (36-38, 12-14) and storage door mat at (37, 14).
     - Protocol: Inspect (37, 14) from all 4 directional facings (North, South, East, West). Test platform perimeter bounds at (36, 14) and (38, 14).
-    - Falsifiable Criteria: If all tiles yield static 'Its a simple storage room..' or inert collision, confirm 100% exhausted.
+    - Empirical Findings (Turns 26418-26425): (37, 14) facing South displays static "Its a simple storage room..."; stepping Down bumps into solid wall (no walk-off warp); (36, 14) facing South inert; (37, 14) facing North inert; (38, 14) facing South inert; (37, 14) facing West inert; (37, 14) facing East inert; (38, 14) stepping East confirmed solid void boundary.
+    - Status: 100% EXHAUSTED & CONFIRMED INERT.
   - Target 2: Dark Sector / Basement (30, 4).
     - Protocol: Ascend causeway at column 30, enter wooden staircase at (30, 4). Audit room perimeter, rock smash obstacle (22, 10), and subterranean mat (14-15, 9).
     - Falsifiable Criteria: If obstacles remain equipment-gated and subterranean chamber remains static, confirm 100% exhausted.
