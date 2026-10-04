@@ -19,16 +19,13 @@
 
 - **Route 1 Southern Features & Cut Tree (H141 - CONCLUDED / FALSIFIED)**: Audited northern meadow red rock (35, 7), Roadside Cottage exterior (37, 24), southern bypass, and Cut tree at (5, 44). Cut tree confirmed inert solid obstacle (requires HM01 Cut).
 
-## Active Hypothesis H142: Route 1 Northwest Clearing & Western Transit
-- **Premise**: With the southern highway, northern meadow, and Cut tree perimeter audited, the remaining unexplored Route 1 non-highway territory is the Northwest Clearing (Youngster Mike at 29, 20 and Lass Sonia at 27, 15). We must empirically audit these entities and the transit connecting east past Duke to Sovio City.
+- **Route 1 Northwest Clearing & External Transit (H142 - CONCLUDED / FALSIFIED)**: Youngster Mike (29, 20) post-defeat dialogue re-audited verbatim: "My Pokémon was completely destroyed by yours...". Confirmed 100% static post-defeat state with zero connection to the Sovio Metro crisis. External routes completely falsified as avenues for resolving the station turnstile blocker.
+
+## Active Hypothesis H143: Sovio City Focused Investigation (Jackson's Whereabouts)
+- **Premise**: Jackson ran outside into Sovio City during the tremor. The Metro turnstile blocker ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") are exclusively rooted in Sovio City. We must return to Sovio City via the northern highway (past Duke to 53, 0) and conduct a rigorous, targeted re-audit of Sovio City to locate Jackson or trigger his return.
 - **Target Variables**:
-  1. Youngster Mike at (29, 20): Check dialogue and surrounding terrain.
-  2. Lass Sonia at (27, 15): Check rock spire and surrounding path.
-  3. Transit connection from Sonia (27, 15) east past Duke (45, 12) to Sovio City gate (53, 0).
-- **Falsification & Stopping Boundaries**:
-  - Do not enter Sovio City until Mike (29, 20) and Sonia (27, 15) are audited.
-  - Route through the Sand Highway to reach the Northwest Clearing.
+  1. Complete transit from Route 1 (38, 10) east past Duke (45, 12) to Sovio City entrance (53, 0).
+  2. In Sovio City, systematically re-examine every outdoor sector and building for un-triggered events, Jackson, or Valora.
 - **Current Plan**:
-  1. Navigate east along row 44 to the hedge gap at (27, 43).
-  2. Enter the Sand Highway at (32, 40) and head north to row 25 (the cottage front yard).
-  3. Head west into the Northwest Clearing to audit Youngster Mike (29, 20) and Lass Sonia (27, 15).
+  1. Follow row 10 east past Duke (45, 12) directly to Sovio City gateway (53, 0).
+  2. Enter Sovio City and begin targeted re-examination.
