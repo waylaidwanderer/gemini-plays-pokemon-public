@@ -15,16 +15,13 @@
 - **Sovio Sewers Audits (H135, H137-B - CONCLUDED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero story flags.
 - **Non-Spatial System & In-Game Devices (H146 - CONCLUDED)**: HuPhone apps (Item Storage 0 items, Mailbox 0 messages, Quest Log 0 active, World Map verified), Trainer Card (Front: Asher ID 54592, 0 Badges, 8 round slots; Back: 6 crest silhouettes), Party summary (Sirius Lv17 Relaxed, Black Belt; Zephyr Lv2 Tackle) 100% verified static baseline.
 - **Sovio Pokémon Center Facilities & State (H147 - CONCLUDED)**: Nurse Joy (standard heal & respawn checkpoint registered), Asher's PC (Mailbox empty verbatim, Item Storage empty verbatim), Someone's PC (Box 1 30-slot grid audited empty), Framed Town Map (functional regional map displaying player at Sovio City), and resident NPCs (Straw-hat Camper at 5, 7; Resident Boy at 8-10, 4-6) verified 100% static baseline.
-- **Metro Station Partition & Turnstiles (H148 - CONCLUDED)**: Scanner pillars at (18, 21) and (20, 21) verified 100% inert. Turnstile passage at (19, 21) verified as the single trigger tile displaying verbatim "I should find dad first!" and forcing player south to (19, 22). Station attendant visible seated on platform side at (22, 19).
+- **Metro Station Partition & Turnstiles (H148 - CONCLUDED)**: Scanner pillars at (18, 21) and (20, 21) verified 100% inert. Turnstile passage at (19, 21) verified as the single trigger tile displaying verbatim "I should find dad first!" and forcing player south to (19, 22). Platform side chairs verified empty furniture per map documentation.
 
-## Active Hypothesis H149: External Anchor Audit in Lancio Town & Route 1
-- **Premise**: All physical and digital entities in Sovio City, Metro lobby, and Sewers are 100% static. Progression trigger may reside in external anchor maps (Lancio Town or Route 1) where Dad and Professor Ivo originated.
-- **Target Variables**:
-  1. Lancio Town Lab: Re-verify Professor Ivo's dialogue at (20, 6), incubator apparatus at (18-19, 5-6), and basement stairs barrier text at (12, 7).
-  2. Lancio Town Harbor: Check dock/pier at (32-34, 23-25) for boat or NPC presence.
-  3. Route 1 Corridor: Check roadside cottage resident at (37, 24) and Cut tree obstacle at (5, 44).
-- **Testing Criteria**: Determine if any external facility, resident, or obstacle exhibits state updates or trigger flags.
-- **Stopping Boundary**: Complete testing of targets 1-3 across Lancio Town and Route 1, record findings, and conclude H149.
-## H149 Audit Execution Progress (Turns 23922-23931)
-- Target 3 (Part 1: Cottage at 37, 24): Verified resident boy dialogue verbatim ("Now that you got your sample, go and enjoy freedom!"). 100% static baseline.
-- Next: Inspect Cut tree obstacle at (5, 44), then proceed into Lancio Town for Lab and Harbor audits.
+## Hypothesis H149: External Anchor Audit in Lancio Town & Route 1
+- **Premise**: All local entities in Sovio City, Metro lobby, and Sewers are static baselines. Testing external facilities for narrative triggers or physical state updates.
+- **Target 3 (Part 1 - Cottage at 37, 24)**: Verified resident boy dialogue verbatim ("Now that you got your sample, go and enjoy freedom!"). 100% static baseline.
+- **Target 3 (Part 2 - Cut Tree at 5, 44)**: Test physical collision and interaction text.
+- **Target 1 (Lancio Town Lab)**: Test Professor Ivo's dialogue at (20, 6), incubator apparatus at (18-19, 5-6), and basement stairs at (12, 7).
+- **Target 2 (Lancio Town Harbor)**: Check pier at (32-34, 23-25).
+- **Causal Mechanism**: If Jackson or Professor Ivo relocated or updated flags following the Siara sewer retreat, speaking to Professor Ivo or inspecting lab fixtures should advance story dialogue or unlock basement access.
+- **Stopping Boundary**: Complete testing of Targets 3-P2, 1, and 2, record findings, and conclude H149.
