@@ -13,10 +13,4 @@
 - **Commercial Economy & Liquid Funds (H160)**: Liquidated Nugget for $5,000 (Money: $11,096) at Sovio PokéMart (Turn 24398). Tested Metro turnstile at (19, 21) (Turn 24434: blocked by "I should find dad first!") and Route 2 barrier at (52, 19) (Turn 24437: blocked by "I can't go yet... I have things to do!"). Confirmed neither liquid wealth nor PokéMart sales transactions alter progression barrier scripts.
 - **System & Interface Verification (H162)**: HuPhone portable PC Item Storage ("There are no items.") and Mailbox ("There's no Mail here.") audited 100% empty (Turns 24446, 24449). Confirmed no stored items, equipment, or letters from Dad exist in system storage.
 
-## Active Hypothesis H165: Investigation of Progression Gating Flags and Event Triggers
-- **Premise**: Physical searches for a Dad overworld NPC sprite across all accessible maps (Sovio City, Sovio Sewers, Route 1, Lancio Town) have proven that Jackson does not exist as an independent overworld NPC sprite. Gating flags at the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") must be resolved through an uncompleted story trigger or menu/system interaction.
-- **Action Plan**:
-  1. Audit Central Plaza event area (columns 40-46, rows 12-16 outside Pokémon Center) for scripted trigger tiles where the Team Siara confrontation occurred.
-  2. Audit inventory, Trainer Card, and Party state for novel triggers.
-  3. Document outcomes and verify turnstile state.
-- **Falsification Boundary**: If no trigger tile or menu interaction alters the turnstile flag, record exact coordinates tested and expand analysis to remaining unverified mechanics.
+- **Progression Gating & Central Plaza Audit (H165)**: Central Plaza confrontation ground tiles (cols 42-46, rows 13-16 outside Pokémon Center) audited with zero active triggers. Inventory, Trainer Card (8 round slots, 6 crest silhouettes), and Sirius profile audited. Turnstile gate (19, 21) confirmed static ("I should find dad first!"). Falsified.
