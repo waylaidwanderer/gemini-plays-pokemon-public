@@ -675,34 +675,16 @@
 - **External Routes & Lancio Town (H136, H141, H142)**: Lancio Town, Lab main floor, Route 1 (Cut tree at 5, 44, cottage, defeated trainers Mike/Sonia/Duke) 100% static post-defeat baseline.
 - **Mechanical Level-Up (H127, H139)**: Sirius Lv17, Zephyr Lv2, inventory verified.
 - **Sovio Sewers Audits (H135, H137-B - CONCLUDED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero story flags.
+- **Non-Spatial System & In-Game Devices (H146 - CONCLUDED)**: HuPhone apps (Item Storage 0 items, Mailbox 0 messages, Quest Log 0 active, World Map verified), Trainer Card (Front: Asher ID 54592, 0 Badges, 8 round slots; Back: 6 crest silhouettes), Party summary (Sirius Lv17 Relaxed, Black Belt; Zephyr Lv2 Tackle) 100% verified static baseline.
+- **Sovio Pokémon Center Facilities & State (H147 - CONCLUDED)**: Nurse Joy (standard heal & respawn checkpoint registered), Asher's PC (Mailbox empty verbatim, Item Storage empty verbatim), Someone's PC (Box 1 30-slot grid audited empty), Framed Town Map (functional regional map displaying player at Sovio City), and resident NPCs (Straw-hat Camper at 5, 7; Resident Boy at 8-10, 4-6) verified 100% static baseline.
 
-## Concluded Hypothesis H146: Non-Spatial System & In-Game Device Audit (CONCLUDED - FALSIFIED)
-- **Premise**: Progression gated by non-spatial system triggers (HuPhone apps, party inspection, or Trainer Card state).
-- **Findings (Turns 23822-23866)**:
-  - HuPhone Item Storage: 0 items deposited.
-  - HuPhone Mailbox: 0 messages.
-  - HuPhone Quest Log: 0 active quests ("You aren't doing any Quest at the moment!").
-  - HuPhone World Map: Fully browsed; static regional nodes (Solare Island marker, Divampa Cave, Mulberry Town verified).
-  - Trainer Card: Front (Asher ID 54592, 0 badges, 8 tournament round slots); Back (6 dark crest silhouettes).
-  - Party Summary: Sirius Lv17 Relaxed (OT Asher 54592, met Lancio Lv5, Held Item: Black Belt; moves: Metal Claw, Quick Attack, Work Up, Mach Punch). Zephyr Lv2 Pidgey (Mild, Keen Eye, Tackle).
-- **Conclusion**: Falsified. No non-spatial flags, unread messages, or menu triggers unlock progression.
-
-## Active Hypothesis H147: Sovio Pokémon Center PC & Facility State Audit
-- **Premise**: Progression blocker "I should find dad first!" may require checking in-game communications, PC mail/storage, or an internal trigger in Sovio Pokémon Center.
+## Active Hypothesis H148: Metro Station Lobby & Platform Boundary Audit
+- **Premise**: Progression blocker "I should find dad first!" gates passage at turnstile (19, 21). When external city and regional facilities are static, the trigger may reside directly in the Metro Station lobby (untested tiles around turnstile, scanner pillars, platform perimeter, or timetable board).
 - **Target Variables**:
-  1. Nurse Joy counter interaction at (7, 3): Check heal dialogue and respawn registration.
-  2. Corner PC Terminal at (12, 1): Inspect Asher's PC (Mailbox & Item Storage) and Someone's PC boxes.
-  3. Resident NPCs: Camper at (5, 7) and Resident Boy at (8, 6).
-  4. Framed Town Map at (11, 0).
-- **Testing Criteria**: Confirm whether PC terminal, mailbox, or NPCs exhibit any state changes post-sewers.
-- **Stopping Boundary**: Complete inspection of targets 1-4 inside Pokémon Center, record exact findings, and conclude H147.
-## H147 Audit Execution Progress (Turns 23885-23909)
-- Target 1 (Nurse Joy at 7, 3): Verified standard heal dialogue, full HP/PP restored, Sovio Center respawn checkpoint registered.
-- Target 2 (PC Terminal at 12, 1):
-  - Asher's PC Mailbox: Audited empty verbatim ("There's no Mail here.").
-  - Asher's PC Item Storage: Audited empty verbatim ("There are no items.").
-  - Someone's PC Box Storage: Audited empty (Box 1 30-slot grid visually inspected; 0 stored Pokémon).
-- Target 4 (Framed Town Map at 11, 0): Verified functional interactive regional Town Map displaying player marker at Sovio City.
-- Target 3 (Resident NPCs): Resident Boy at (8, 6)/(9, 5) verified. Camper at (5, 7) pending final check to conclude H147.
+  1. Turnstile passage at (19, 21): Re-verify exact trigger boundary and forced movement direction.
+  2. Scanner pillars at (18, 21) and (20, 21): Test 'A' inspection collision from south (row 22).
+  3. Platform partition boundary along row 21 (cols 17-23): Check for any interactive dialogue or object inspection across turnstile partition.
+- **Testing Criteria**: Determine if any tile or fixture along the row 21 partition triggers new dialogue or alters the turnstile lock.
+- **Stopping Boundary**: Complete testing of targets 1-3 along row 21 partition in Metro lobby, record exact findings, and conclude H148.
 
 <hr>
