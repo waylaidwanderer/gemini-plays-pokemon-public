@@ -19,4 +19,4 @@
   - Protocol: Return to Sovio City via Route 1 meadow corridor -> systematically audit West Avenue (Karate house, Biker lane, office building), Central Park, and residences to locate Jackson and resolve the Metro turnstile barrier.
   - Audit Progress:
     - Target 1 (Three Bikers at 13, 21-23): Audited Turns 25614-25616. Biker 3 retains identical ambient dialogue ("vroom vroom Jealous kid?... We are the big guys here..."). No tremor/Dad updates.
-    - Target 2 (Karate House at 14, 15): Currently auditing interior 1F occupants and 2F.
+    - Target 2 (Karate House at 14, 15): Audited 1F Karate Trainer (retains ambient fighting style debate text). Heading up to 2F.
