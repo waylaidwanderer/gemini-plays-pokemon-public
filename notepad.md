@@ -683,13 +683,6 @@
 - **H163 (Subterranean Jackson Audit)**: Exhaustive physical audit of Sovio Sewers, Dark Sector basement, and deep room (2, 38) confirmed Jackson's absolute absence. Subterranean searches permanently terminated. Falsified.
 - **H165 (Central Plaza Scripted Tiles & UI Audit)**: Paved confrontation area and all start menu subsystems verified clear of active triggers. Falsified.
 - **H166 (Northeast Route 2 Boundary Audit)**: Collision tests against column 52 rows 17-18 confirmed continuous solid building facade east of signpost (51, 18). Bypass corridor non-existent. Falsified.
-
-## Active Hypothesis H167: Metro Station Fixture & Interaction Mechanics Audit
-- **Premise**: All surface residences, sewers, and external geography have been exhaustively categorized as static baselines. Testing whether any unverified mechanical interaction inside the Metro Station lobby (e.g. seating collision at column 17 chairs, directional interactions with turnstile pillars, or ticket purchase prompts) alters player state or triggers progression.
-- **Action Plan**:
-  1. Walk West to (18, 24) and test Left movement into chair (17, 24) to determine if sitting/waiting mechanic exists.
-  2. Test chairs at (17, 23) and (17, 22).
-  3. Probe scanner pillars at (18, 21) and (20, 21) from adjacent tiles with A.
-- **Falsification Boundary**: If all three chairs exhibit standard solid obstacle collision with zero sitting animations, and scanner pillars remain inert, H167 is falsified, confirming all lobby fixtures are purely decorative.
+- **H167 (Metro Lobby Fixtures & Seating Audit)**: Tested all three west chairs at col 16 (rows 22-24); confirmed solid obstacle collision, zero seating mechanics, zero text. Probed scanner pillars at (18, 21) and (20, 21) with A; confirmed completely inert decorative fixtures. Platform verified empty. Falsified.
 
 <hr>
