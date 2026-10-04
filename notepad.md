@@ -600,9 +600,7 @@
 
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
 
-- **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
 
-- **Items Pocket**: Potion x1, Poison Barb x1, Antidote x1 (verified Turn 26093; 0 Repels in possession). Note: Bag interface natively tracks real-time consumable counts.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
 
