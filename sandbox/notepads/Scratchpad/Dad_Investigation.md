@@ -31,3 +31,7 @@
   2. Launch World Map app.
   3. Move cursor to examine key regional nodes: Solare Island (marker pin), Amor City, Sovio City, Lancio Town, Inizio Isle.
   4. Test button interactions ('A', 'Select', 'Start') on each location and record system responses.
+- **World Map Findings (Turn 26780)**:
+  - Hovering cursor over nodes updates top-left banner dynamically (e.g. "Amor City / Amor Dept.", "Sovio City / Metro Station", "Route 4", "Route 16").
+  - The yellow marker pin with black tip represents the Player's current location (Asher at Sovio City), not a fixed story marker.
+  - Pressing 'A' on location nodes is completely inert: zero menus, zero fast-travel prompts. World Map is a passive navigational reference.
