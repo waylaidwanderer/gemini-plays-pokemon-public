@@ -18,7 +18,7 @@
 ## Active Hypothesis H155: Causal Audit of Unexamined Residential Fixtures (Karate Bed & Wii PC Desk)
 - **Premise**: Progression blockers "I should find dad first!" and "I can't go yet... I have things to do!" may be gated by a time-of-day state (Metro schedule board lists AMOR 16:00, while current RTC clock is 22:56 night) or uninspected electronic fixtures. In custom ROM hacks with day/night cycles, beds frequently serve as rest/time-advancement mechanics. The bed at (2-3, 13-14) on 2F of the Karate House (14, 15) and the PC desk at (46, 11) on 2F of the Wii House (39, 7) have not been audited for interactive inspection triggers.
 - **Target Variables**:
-  1. Karate House 2F Bed (2-3, 13-14): Enter Karate House at (14, 15), ascend to 2F, face bed at (2-3, 13-14), and press 'A' to test for a sleep/rest/time-advance prompt.
+  1. Karate House 2F Bed (2-3, 13-14): [COMPLETED] Inspected facing West from (4, 13) with 'A'. Completely inert; zero dialogue, zero rest/time-advance mechanic. Concluded inert.
   2. Wii House 2F PC Desk (46, 11): Enter house at (39, 7), ascend to 2F, face PC desk at (46, 11), and press 'A' to test for interaction prompts.
   3. Re-evaluate Progression Blockers: Check if resting or fixture inspection updates the Metro turnstile or Route 2 barrier text.
 - **Causal Mechanism**: If advancing time or interacting with residential terminals updates story flags or clears the Metro departure condition, testing these fixtures will trigger state progression.
