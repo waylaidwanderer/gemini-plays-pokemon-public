@@ -36,3 +36,4 @@
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
+- **Eastern Coastal Corridor**: Columns 41-42 form an open coastal passage along the eastern shoreline connecting Science Guy's clearing (row 36) south past the row 40 pine tree forest directly into the southern corridor (rows 44-49).
