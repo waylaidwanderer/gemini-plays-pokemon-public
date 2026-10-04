@@ -89,7 +89,7 @@
 
   - **Framed Town Map at (11, 0)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
-  - **Upper Mezzanine & PokéMart**: Reached via the blue-carpeted staircase in the northwest corner at (1-2, 1-2), which warps to an escalator at (5, 8). Ascends north to the upper mezzanine floor. A PokéMart counter is staffed by a clerk at (5, 3) facing south across the counter at (5, 4).
+  - **Upper Mezzanine & PokéMart**: Reached via the blue-carpeted staircase/escalator in the northwest corner at (2, 1), which warps to an escalator at (5, 8) ascending north to the upper mezzanine floor. The ground floor pillar occupies columns 2-4 across rows 3-6; access to the escalator requires navigating around the camper (5, 7) via the southern aisle along row 8 (columns 2-6), then walking north along the column 1 corridor (rows 2-7) and stepping east into (2, 1). A PokéMart counter on the mezzanine is staffed by a clerk at (5, 3) facing south across the counter at (5, 4).
 
     - **Verified Shop Inventory**:
 
