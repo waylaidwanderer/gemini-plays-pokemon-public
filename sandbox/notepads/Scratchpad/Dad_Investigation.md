@@ -27,3 +27,6 @@
   3. Mailbox: Confirmed verbatim: "There's no Mail here.". Zero incoming messages from Dad or others.
   4. Item Storage (Withdraw Item): Confirmed verbatim: "There are no items.". Zero stored items in PC.
 - **Deduction & Focus**: Personal communication and quest systems are 100% verified empty. Active objective remains resolving the Metro turnstile barrier ("I should find dad first!") by focusing strictly on plot-relevant Metro and Central Plaza triggers.
+- **Metro Lobby Turnstile Audit (Turns 27247-27248)**:
+  1. Right scanner pillar at (20, 21) tested facing North: confirmed inert.
+  2. Brick wall at (21, 22) beneath platform attendant tested facing East: confirmed inert.
