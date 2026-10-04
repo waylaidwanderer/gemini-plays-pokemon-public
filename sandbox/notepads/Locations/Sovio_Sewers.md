@@ -32,7 +32,7 @@
   - Terrace floor extends across columns 12 to 17 on rows 11-12.
   - South perimeter has stairs descending at column 14 (rows 12-16) and solid stone railings at row 13 (columns 11-13 and 15-17).
   - East perimeter is bounded by solid stone wall/railing at column 18.
-  - West perimeter: Terrace floor verified walkable west to column 12 (rows 11-12); exact collision coordinates of the western wall border beyond column 12 remain unverified.
+  - West perimeter: Terrace floor verified walkable west to column 12 (rows 11-12); column 11 (rows 11-12) is a solid stone wall bordering the void chasm at columns 8-10 (verified Turn 27406).
   - Ladder ascending to Northern Gangway (row 5) is located at column 15, rows 6-10.
   - Floor tiles contain wild encounters (e.g. wild Dunsparce Lv5).
 - **Lower Level Connectivity**: The lower walkway connects directly to the western wing via row 28 at (24, 28) into the western corridor (columns 20-21) and the western platform.
