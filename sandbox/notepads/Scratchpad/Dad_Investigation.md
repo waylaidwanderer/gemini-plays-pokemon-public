@@ -2,19 +2,21 @@
 
 ## Core Active Progression Barriers
 - **Metro Turnstile (19, 21)**: Scripted barrier triggers verbatim "I should find dad first!" and forces Asher south to (19, 22). Re-verified Turn 26515. Gates train platform to Amor City.
-- **Route 2 Eastern Exit (52, 19-22)**: Scripted barrier verified at (52, 21); triggers verbatim "I can't go yet... I have things to do!" and forces Asher west to (51, 21).
+- **Route 2 Eastern Exit (52, 19-22)**: Scripted barrier verified at (52, 19-21); triggers verbatim "I can't go yet... I have things to do!" and forces Asher west to (51, 19-21). Re-verified Turn 26558.
 
 ## Concluded & Disproven Hypotheses (Archived)
 - **S1 (Sovio Sewers Post-Tremor Audit)**: Concluded (Turns 26418-26440); Eastern Storage Platform (37, 14) confirmed static decorative room ("Its a simple storage room.."). Dark Sector rugged rock equipment-gated. Sewers 100% exhausted.
 - **R1 (Lancio Town / Lab / Route 1 Backtracking)**: Disproven. Backtracking to Lancio Town/Route 1 is ungrounded as Professor Ivo ("Hey, Ashi...") and lab basement stairs ("I probably shouldn't head down here...") were verified static post-tremor on Turns 26052 and 26058, with zero new items or badges acquired.
+- **D1.1 (Central Plaza Facilities Audit)**: Concluded (Turns 26501-26528). Pokémon Center (44, 12) east wing empty; Terrace House (49, 14) Nana/Granddaughter repeat ambient cooking text; Covered corridor (48-51, 20-22) row 23 solid wall.
+- **D1.2 (Eastern Exit / Route 2 Audit)**: Concluded (Turns 26558-26571). Barrier at (52, 19) repeats "I can't go yet... I have things to do!"; Signpost at (50-51, 18) reads "Sovio Metro Station / Route 2 ---->"; Terrace fixture at (50-51, 16) confirmed decorative manhole floor graphic; HuPhone mailbox checked empty ("There's no Mail here.").
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis D1 (Sovio City Urban Investigation)**:
-  - Premise: Jackson ran outside into Sovio City during the tremor to investigate. The Metro turnstile explicitly requires finding Dad ("I should find dad first!"). Therefore, Jackson or the event triggering his return must be located in Sovio City.
-  - **Target 1: Central Plaza Facilities**:
-    - *Pokémon Center (44, 12)*: Audited Turns 26501-26504. Ground floor east wing (columns 10-13, row 8) verified vacant of NPCs or items. Mezzanine and main floor contain standard staff and ambient dialogue.
-    - *Covered Corridor (48-51, 20-22)*: Audited Turn 26508. Row 23 southern wall at (48, 22) confirmed solid collision with zero text or interactive triggers.
-    - *Terrace House (49, 14)*: Audited Turns 26526-26528. Granddaughter (63, 33) repeats "Nana makes the best food! Weeeee!" and Nana (62, 31) repeats "I'm cooking something for my dear grandkid. She loves my cooking...". Entire residence confirmed static ambient civilian home. Target 1 fully complete.
-  - **Target 2: Grounded Investigation of Tremor & Team Siara Withdrawal**:
-    - Focus on physical and narrative variables of the tremor and Siara's retreat rather than ambient civilian homes.
-    - Eastern Exit / Route 2 Approach (columns 50-52, rows 17-22): Inspect signpost at (50-51, 18), rear walkable tile at (51, 17), and Route 2 barrier at (52, 19-22) where Team Siara withdrew eastward.
+- **Hypothesis D1.3 (Systematic Audit of Unvisited/Peripheral Exterior Sectors)**:
+  - Premise: Having exhausted Central Plaza, civilian interiors, and the Eastern Exit, we must investigate the remaining peripheral exterior sectors and structural anomalies of Sovio City.
+  - **Sub-target A: Central Park Southwest Gateway & Plaza (Cols 33-35, Rows 22-26)**:
+    - Inspect the open gateway at (34, 26-27), the Central Park plaza area around (33-35, 22-25), and the western pond shoreline.
+  - **Sub-target B: Dead-End Hedge Alcove (42, 30)**:
+    - Inspect the southern curb and hedge alcove at (42, 30).
+  - **Sub-target C: Southwest Perimeter & Rear Biker Lane (Col 12, Rows 20-30)**:
+    - Audit Rear Biker Lane (column 12, rows 20-30) and southwest dead-end lawn (12-15, 30).
+  - **Falsification / Exit Criteria**: If all peripheral exterior sectors yield only ambient collision and zero narrative triggers, conclude all exterior Sovio City geography is 100% verified.
