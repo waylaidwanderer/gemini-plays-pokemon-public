@@ -88,7 +88,7 @@
 
   - Western wing breakroom: table with coffee cup on red rug (cols 5-6, rows 7-8), refrigerator at (7, 5), sink at (5, 5), TV at (3, 5), bookshelf at (1, 5) (all decorative breakroom fixtures).
 
-- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (baseline established Turns 9950, 11500, 16600, 23500; re-verified unchanged post-tremor on Turn 26052).
+- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
 
 - **East Research Wing (Comprehensive Audit)**:
 
@@ -98,7 +98,7 @@
 
   - Cylindrical incubator apparatus at (18-19, 5-6): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
 
-  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?") (baseline established Turns 3167, 7500, 11500, 16600, 23500; re-verified unchanged post-tremor on Turn 26058).
+  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
 
   - Server tower at (23, 8-9): Inert decorative fixture.
 
