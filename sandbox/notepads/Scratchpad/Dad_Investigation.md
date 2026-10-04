@@ -24,3 +24,10 @@
 
 ## Active Investigation: Inventory Audit & Progression Re-evaluation (Started Turn 27081)
 - **Objective**: Conduct a complete, rigorous audit of the player's Bag (Items, Key Items, Poké Balls, TMs) and party state to re-evaluate the core assumptions behind the Metro turnstile barrier ("I should find dad first!") and Route 2 barrier ("I can't go yet...").
+### Hypothesis H11: Sovio Sewers Storage Platform & Metro Attendant Audit (Active - Started Turn 27093)
+- **Premise**: With Lancio Town and Route 1 conclusively eliminated (H10 falsified) and inventory audited, the progression gate to Amor City resides strictly within the Sovio City / Metro / Sewers sector. We return to Sovio City and systematically audit: (1) the Eastern Storage Platform (37, 14) in Sovio Sewers—testing all surrounding wall tiles, mat angles, and potential hidden triggers—and (2) the Metro Station lobby and platform attendant to determine the exact event required to clear the "I should find dad first!" tripwire.
+- **Routing Plan**:
+  1. Exit Professor Ivo's Lab into Lancio Town.
+  2. Traverse east through Lancio Town avenue onto Route 1 cobblestone road (0, 45-46).
+  3. Route east through Route 1 (Southern Bypass, Cypress Bypass, Northwest Clearing corridor, meadow) to Sovio City gateway (53, 0).
+  4. Enter Sovio Metro Station and descend into Sovio Sewers.
