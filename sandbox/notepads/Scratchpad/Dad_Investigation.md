@@ -9,26 +9,26 @@
 - **Central Plaza Perimeter (Cols 41-46, Rows 12-16)**: Systematically swept confrontation perimeter outside Pokémon Center; 100% verified inert with zero hidden tripwires or story scripts.
 - **Northern Alcove & Exterior (Cols 40-41, Rows 7-9)**: House (39, 7) alleyway and gap at (41, 8) confirmed dead-ends against building walls.
 - **West Avenue Commercial Facade & Boundaries**: Columns 16-22 beneath the giant billboard audited with direct 'A' interaction (100% inert). Karate house entered at (14, 15). Western boundary along columns 11-12 (rows 16-24) confirmed continuous solid office building wall.
-- **Sovio City Residential Interiors & Overworld NPCs**: All residences (Nana/granddaughter, elderly Wii man/son, Gumball family, Karate couple/Machop, Name Rater) and exterior NPCs (Bikers, Boy Rocky, Central Park dating couple, Jigglypuff family, Pokémon Center Camper/Boy) display static ambient dialogue.
-- **Sovio Sewers**: Grunts vacated following Marie's radio directive. Eastern Storage Platform door (37, 14) displays "Its a simple storage room..". Rugged rocks at (10, 18) and (22, 10) require specialized smashing equipment. Entire sewer network confirmed physically exhausted.
-- **Route 1 & Lancio Town**: All Route 1 trainers defeated, cottage resident gifted Max Repel. Lancio harbor pier has no boat moored. Professor Ivo lab basement stairs blocked ("I probably shouldn't head down here...").
+- **Sovio City Residential Interiors & Overworld NPCs**: Verified post-tremor static ambient dialogue for Elderly Man at (41, 33) in House (39, 7) (Turn 27354), Son on 2F of House (39, 7) (Turn 26539), Nana & Granddaughter in Terrace House (49, 14) (Turns 27223-27224), Boy & Mother in Gumball House (29, 14) (Turns 26547-26551), Karate Trainer at (3, 34) in Karate House (14, 15) (Turns 27358-27359), Blonde Girl in Central Park (Turn 26733), and Camper in Sovio Pokémon Center (Turn 26715).
+- **Sovio Sewers**: Grunts vacated following Marie's radio directive. Eastern Storage Platform door (37, 14) displays "Its a simple storage room.." (Turn 26919). Rugged rocks at (10, 18) and (22, 10) require specialized smashing equipment.
+- **Route 1 & Lancio Town**: Post-tremor checks verified static dialogue for Route 1 trainers Duke, Sonia, Mike, and Cottage boy (Turns 26646-26693), and Lancio Lab Professor Ivo ("Hey, Ashi, how's your new Pokémon?") and basement stairs barrier (Turns 27076-27080). Lancio harbor pier verified empty (Turn 27068).
 - **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
 - **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
 - **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
-- **HuPhone World Map & Quest Log (Turns 27333-27341)**: World Map node interactions (Sovio City / Metro Station) confirmed inert; Quest Status ("You aren't doing any Quest currently...") and Quest List Pages 1-3 verified static side-quest tracker with zero story triggers.
+- **HuPhone World Map & Quest Log Pages 1-3 (Turns 27333-27341)**: World Map node interactions on Sovio City and Metro Station confirmed inert; Quest Status ("You aren't doing any Quest currently...") and Quest List Pages 1-3 verified static side-quest tracker (Pages 4-5 pending completion).
 - **Sovio Pokémon Center Framed Town Map & Counter (Turns 27346-27351)**: Framed Town Map at (11, 0) verified identical to HuPhone World Map; Nurse Joy service counter at (7, 4) completed full healing cycle with standard dialogue.
 
 ## Structured Progression Decision Tree by System Type
 1. **System 1: Party State & Pokémon Mechanics**
    - *Status*: Audited and verified negative (Turn 27306).
 2. **System 2: Interactive World Objects & Facility Terminals**
-   - *Hypothesis*: Progression flag is set via an interactive terminal or facility object rather than an overworld NPC sprite.
-   - *Remaining Unverified Variables*: Lancio Lab incubator apparatus at (18-19, 5-6) (Sovio Pokémon Center PC, Framed Town Map, and Nurse Joy counter verified negative).
+   - *Status*: Sovio Pokémon Center PC (12, 1), Framed Town Map (11, 0), and Nurse Joy counter (7, 4) audited and verified negative (Turns 27326-27351). Lancio Lab incubator apparatus at (18-19, 5-6) previously documented static ("Better not mess with that machine.").
 3. **System 3: HuPhone Apps & Communication Systems**
-   - *Status*: Audited and verified negative (Turns 27333-27341).
-4. **System 4: Story Script & Trigger Flags (Unverified NPC Dialogues)**
-   - *Hypothesis*: Event triggers depend on front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
+   - *Hypothesis*: The HuPhone contains an unactivated trigger or quest reference.
+   - *Status*: Item Storage, Mailbox, Quest Status, Quest List Pages 1-3, and Sovio City World Map nodes verified negative (Turns 27185-27341).
+   - *Remaining Unverified Variables*: Quest List Pages 4 and 5 (desynced in Turn 27341 before reaching Page 4).
+4. **System 4: Story Script & Trigger Flags (Interior & Overworld NPCs)**
+   - *Status*: Elderly man at (41, 33) in House (39, 7) and Karate trainer at (3, 34) in Karate House (14, 15) verified static (Turns 27354-27359). Completing blonde girlfriend (3, 33) dialogue in Turn 27361.
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (System 4 - Unverified Front-Facing Interior Dialogues - Active)**: Exit Sovio Pokémon Center, enter House (39, 7) to test direct front-facing dialogue with the elderly man at (41, 33), then test front-facing dialogue with the occupants in Karate House (14, 15).
-- **Audit Target 2 (System 2 - Lancio Lab Apparatus & Remaining Regional Terminals)**: If Sovio interior dialogues return negative, inspect remaining regional interactive objects.
+- **Audit Target 1 (System 4 & System 3 - Complete Blonde Girlfriend Dialogue & HuPhone Quest List Pages 4-5 - Active)**: Advance blonde girlfriend dialogue at (3, 33) to completion, then open HuPhone via SELECT and use sufficient menu settle delays (600ms) to inspect Quest List Pages 4 and 5.
