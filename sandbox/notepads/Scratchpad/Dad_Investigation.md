@@ -23,5 +23,5 @@
   - Strictly prohibit re-walking Central Plaza, West Avenue, or Metro lobby tiles.
   - Route directly south along Southern Avenue to Route 1.
 - **Current Plan**:
-  1. Navigate south along Southern Avenue (columns 14-15) to Route 1 gateway (row 40-41).
-  2. Transition to Route 1 and audit specific features.
+  1. Navigate south along Route 1 corridor from (53, 0) toward the northeast meadow and Signboard 4 at (50, 10).
+  2. Audit Bug Catcher Duke at (45, 12), the Roadside Cottage at (37, 24), and western features.
