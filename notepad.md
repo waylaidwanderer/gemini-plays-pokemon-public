@@ -158,7 +158,7 @@
 - **Row 20 Cottage Ledge**: One-way south-facing ledge spanning columns 39-41 at row 20. Jumpable from north to south; blocks northbound passage east of the cottage.
 - **Row 43 Northern Corridor Collision**: Row 43 is blocked to the west at (11, 43) by solid pine tree canopy collision; does not connect west across column 11.
 - **Row 43 Hedge Gap**: Passable gap at column 26 (rows 41-43) connecting the southern corridor (rows 44-49) north into the western corridor (leading toward Youngster Mike at 29, 20).
-- **South Sand Highway Passage**: A 1-tile gap in the row 39 hedge line at (36, 39) and vertical grass aisle down column 36 (rows 39-41+) between pine trees, connecting the Sand Highway directly south into the southern corridor (rows 41-49).
+- **South Sand Highway Passage**: A 1-tile gap in the row 39 hedge line at (36, 39) leads into a 1-tile vertical corridor down column 36 across rows 39-41, but terminates in a dead-end at (36, 41) blocked by a solid pine tree at (36, 42).
 - **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
 - **Pine Tree & Terrain Barriers**:
