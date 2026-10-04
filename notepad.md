@@ -687,11 +687,11 @@
 - **C3 (Physical Tremor Anomaly / Eastern Route 2 Barrier)**: Disproven (Turns 26205, 26215); covered corridor clear, Route 2 hard-blocked by "I can't go yet...".
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis D1 (HuPhone & Bag State Verification)**:
-  - Premise: Re-verify HuPhone (Quest Status, Quest Log, Mailbox) and Bag Key Items for any overlooked status or trigger flag after recent events.
-  - Test & Findings (Turns 26225-26246):
-    - Quest Status (Turn 26229): Displays "You aren't doing any Quest currently...". Zero active side quests or tracked story flags.
-    - PC Mailbox (Turn 26239): Displays "There's no Mail here.". Zero unread/system mail.
-    - Bag Audit (In Progress): Opening Start Menu -> Bag to verify Key Items and Items pocket.
+- **D1 (HuPhone & Bag Audit)**: Concluded (Turns 26225-26246); Quest Status confirmed empty ("You aren't doing any Quest currently..."), Mailbox confirmed empty ("There's no Mail here."), Bag inventory verified unchanged since Turn 26093.
+
+## Active Hypotheses & Strategic Focus
+- **Hypothesis E1 (Sovio City Unexamined Physical Interactions)**:
+  - Premise: Jackson ran outside into Sovio City post-tremor. Investigate tangible unexamined physical interactions in Sovio City (elevated terrace, West Avenue fixtures, sewer manholes, and unmapped perimeters) to locate Jackson or trigger the progression flag.
+  - Test: Systematically survey Sovio City exterior starting from Central Plaza and elevated terrace.
 
 <hr>
