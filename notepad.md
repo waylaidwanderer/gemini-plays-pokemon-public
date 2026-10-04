@@ -681,18 +681,16 @@
 
 ## Active Hypotheses & Test Protocols
 
-### Hypothesis H1: Metro Station Comprehensive Audit
-- **Premise**: Progression blocker "I should find dad first!" may require an interaction or trigger within the Metro Station itself that was previously overlooked or assumed purely decorative.
-- **Protocol**:
-  1. Navigate to Sovio Metro Station at (48, 17) and enter lobby.
-  2. Inspect every fixture in the lobby: ticket counters, timetable across all positions, turnstile scanners, seating, and attendant kiosk.
-  3. Verify whether any NPC or hidden prompt is available.
+### Hypothesis H1: Metro Station Comprehensive Audit (Concluded Turn 26628)
+- **Result**: Timetable (23, 24), scanner pillars (18, 21 & 20, 21), turnstile gate (19, 21), and west seating (16, 22-24) audited. Lobby is 100% free of interactive triggers, hidden items, or NPCs. Conductor is visible on the platform side, inaccessible behind the turnstiles. Conclusion: "I should find dad first!" is strictly an external game state flag gated outside the station.
 
-### Hypothesis H2: Unverified Regional Overworld Audit
-- **Premise**: Jackson ran outside into Sovio City during the tremor. If the trigger is outside, regional pathways connecting to Sovio City (including Route 1 approaches and Lancio Town) require rigorous, tile-by-tile empirical verification rather than broad assumptions.
+### Hypothesis H2: Regional Overworld Audit (Route 1 & Lancio Town) (Active)
+- **Premise**: Jackson ran outside into Sovio City during the tremor. Since all Sovio City facilities and exterior boundaries are audited, the unresolved trigger must reside along the regional pathway connecting south (Route 1 and Lancio Town).
 - **Protocol**:
-  1. Once H1 is executed, if unresolved, re-survey Route 1 and Lancio Town systematically.
-  2. Test all NPCs, buildings, and environmental fixtures with direct interaction.
+  1. Exit Metro Station to Central Plaza at (48, 18).
+  2. Navigate south via Southern Avenue (columns 14-15, rows 30-41) to Route 1 gateway at (53, 0).
+  3. Systematically survey Route 1: roadside cottage, meadow, NPC dialogues, and the Cut tree obstacle.
+  4. Continue to Lancio Town: harbor dock, town NPCs, and Professor Ivo's Lab for post-tremor changes.
 
 ## Disproven Findings (Empirically Verified)
 - Southwest boundary pine tree gap at (11, 30): Confirmed inert building window reflection behind solid tree collision (tested Turn 26606).
