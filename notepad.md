@@ -702,7 +702,10 @@
 
 - **Hypothesis P2 (Lancio Town Harbor Dock Audit)**:
   - Premise: Complete the Lancio Town audit by verifying the harbor pier (columns 32-34, rows 23-25) and Fisherman (38, 22) for any boat arrival, Harry presence, or sea-transit trigger.
-  - Action: Inspect the wooden pier at rows 23-25 and interact with Fisherman at (38, 22).
+  - Findings (Turns 26075-26084):
+    - Harbor Pier (rows 23-25): Completely vacant, no boat moored, Harry absent.
+    - Fisherman (38, 22): Verbatim ambient dialogue "However it goes, you must stay calm and patient..." (100% unchanged).
+    - Outcome: Hypothesis P2 disproven; harbor remains inactive.
 
 - **Hypothesis P3 (Sovio Metro Station & Post-Rescue Disappearance Tracing)**:
   - Premise: When Jackson and Valora were freed from the sewer storage room (Turn 2279-2716), they departed toward the station. If Jackson is not in the Metro lobby, where did he physically stop? Either:
