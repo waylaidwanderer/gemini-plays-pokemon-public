@@ -679,11 +679,10 @@
 - **System & Interface Verification (H162)**: HuPhone portable PC Item Storage ("There are no items.") and Mailbox ("There's no Mail here.") audited 100% empty (Turns 24446, 24449). Confirmed no stored items, equipment, or letters from Dad exist in system storage.
 
 ## Active Hypothesis H163: Jackson's Physical Location in Sovio Sewers / Dark Sector Basement
-- **Premise**: Progression flag gating the Metro turnstiles ("I should find dad first!") requires physically locating and speaking to Jackson following Team Siara's withdrawal. The Dark Sector basement (entered at 30, 4) remains incompletely traversed.
+- **Premise**: Gating flag at Metro turnstile ("I should find dad first!") requires resolving Jackson's status. Testing whether Jackson is physically present in the Dark Sector basement (entered at 30, 4).
+- **Falsification Boundary**: If no NPC or active trigger is found upon surveying Dark Sector rows 8-9 and the upper alcove (cols 13-32), H163 is decisively FALSIFIED, the sewers will be evacuated, and all subterranean searches permanently terminated.
 - **Action Plan**:
-  1. Dismiss mailbox prompt and enter Sovio Metro Station portal at (48, 17).
-  2. Descend to Sovio Sewers via red mat at (18-19, 25).
-  3. Ascend to upper level, climb ladder at (15, 6-10), cross northern gangway to column 30 causeway, and enter Northeast Wooden Staircase at (30, 4).
-  4. Methodically explore every tile and alcove of the Dark Sector basement to locate Jackson.
+  1. Complete navigation across Northern Gangway (row 5) and column 30 causeway into Northeast Wooden Staircase at (30, 4).
+  2. Survey Dark Sector corridors and alcove for Jackson.
 
 <hr>
