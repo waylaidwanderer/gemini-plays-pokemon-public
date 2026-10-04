@@ -236,7 +236,8 @@
 
 - **South Sidewalk & Children's Gathering**: Paved corridor along rows 27-28 south of Central Park pond. Little Girl at (33, 28) dialogue: "Mom told me that she will evolve if she touches a Moon Stone... I must keep her away from them!" Boy at (35, 28) cheering: "Yeah Jigglypuff!" Jigglypuff at (34, 28) displays cry: "Jigglypuff: Puff Puff!". Confirmed ambient Pokémon and flavor dialogue.
 
-- **Central Park Boy in Pink Shirt**: Located at (33, 22) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?" Confirmed dialogue does not update after speaking to the blonde girl.
+- **Central Park Boy in Pink Shirt**: Located at (33, 22) facing east. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?"
+- **Central Park Inspections (Turns 25245-25256)**: Fountain water basin rim at (42, 18) inspected facing West with 'A' (Turn 25245: inert, zero text/items). Southeast hedge alcove at (42, 28-30) audited (Turn 25255). Pavement tile at (40, 27) inspected with 'A' (Turn 25256: inert, zero text/items).
 - **Central Park Blonde Girl**: Wandering pedestrian along the east pond walkway (43-45, 23-26). Verbatim dialogue: "I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?"
 
 - **Eastern Boundary**: Row 27 terminates at column 46 into a solid building wall.
