@@ -27,14 +27,11 @@
   - Pine tree at (38, 11) blocks southward passage down column 38 from row 10.
   - Pine tree at (41, 14) blocks westward traversal along row 14.
   - Pine tree at (46, 15) blocks southward passage down column 46 from row 14.
-  - Solid pine tree forest wall at (33, 6) blocks westward traversal along row 6.
   - Pine tree at (30, 17) blocks southward traversal down column 30 from (30, 16).
   - Pine tree at (31, 27) blocks southward traversal down column 31 from (31, 26).
-  - Dense horizontal hedge rows at rows 9-10 border the northern meadow corridor, leaving a 1-tile walkable gap at column 38.
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
   - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
   - Pine trees at (27, 23) and (28-29, 25) block southward traversal down columns 27-29.
-  - Rock spire at (26, 18-19) is an elevated ledge entered from (27, 18); blocks south/west movement. Lass Sonia stands on northern spire at (26, 14).
   - Hedge bush at (41, 42) blocks southward traversal down column 41 from (41, 41).
   - Hedge bush at (42, 42) blocks southward traversal from (42, 41) along the eastern shoreline.
 
