@@ -687,13 +687,11 @@
 - **Sovio City Central Plaza Perimeter**: Stepped across all exterior plaza tiles (rows 14-16, columns 41-46) where the Siara confrontation occurred; confirmed 100% inert with zero active tripwires or story scripts.
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
-## Active Investigation
 ## Active Investigation & Progression Re-evaluation (Updated Turn 27151)
 ### Hypothesis H11: Sovio City Post-Tremor Exploration & Event Flag Audit
 - **Premise**: Lancio Town and Route 1 have zero active story triggers (verified negative). The progression gate to Amor City resides strictly in Sovio City. Rather than re-testing verified static objects like the storage room door, we need to locate where Dad (Jackson) went after the tremor, check all unvisited or re-triggered areas in Sovio City, inspect the HuPhone quest log/apps, and identify the exact unresolved event clearing the Metro turnstile barrier ("I should find dad first!").
 - **Routing Plan**:
-  1. Continue northeast across Route 1 via column 30 low hedge (30, 13) and Northern Meadow to Sovio City gateway (53, 0).
-  2. In Sovio City, audit all key locations and check whether any interaction triggers Dad's event.
+  1. In Sovio City, audit all key locations and check whether any interaction triggers Dad's event.
 - **HuPhone In-Game System Audit (Verified Turns 27184-27192)**:
   1. Quest Status: Confirmed verbatim: "You aren't doing any Quest currently...". Zero active side quests or story tracking in Quest Log.
   2. Quest List: Page 1 shows Lost Pidgey (Completed), Lost Toy (Completed), Egg Research/Medic/Squirtle Gang (Uncompleted).
