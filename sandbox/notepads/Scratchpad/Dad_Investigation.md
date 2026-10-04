@@ -19,9 +19,9 @@
 - **Premise**: Sovio City overworld and Sewers Eastern Platform have been repeatedly audited with zero Dad sightings. Dad ran outside to investigate the seismic tremor. The tremor source or Dad's trail must be external to Sovio City (Route 1, Lancio Town, Professor Ivo's Lab) or tied to an equipment progression mechanic (smashing rugged rocks).
 - **Sub-Hypotheses**:
   - **H136-A (Route 1 Traversal & Reconnaissance - CONCLUDED Turn 23218)**: Successfully traversed southern bypass and cobblestone road to Lancio Town; Cut tree verified intact at (5, 44).
-  - **H136-B (Lancio Town & Professor Ivo's Lab - ACTIVE Turn 23218)**: Consult Professor Ivo, re-test basement stairs at (12, 7), check incubator apparatus and Town Map for new triggers. *Falsification*: Falsified if Professor Ivo and lab fixtures remain static.
-  - **H136-C (Field Equipment & Rock Smash Mechanics - PENDING, Initiated Turn 23102)**: Investigate how to obtain rock-smashing equipment to clear rugged rock obstacles in Sovio Sewers. *Falsification*: Falsified if no NPC or facility offers field tools.
+  - **H136-B (Lancio Town & Professor Ivo's Lab - ACTIVE Turn 23218)**: Consult Professor Ivo, re-test basement stairs at (12, 7), inspect incubator apparatus and Town Map, and audit key Lancio outdoor residents (dock fisherman at 38, 22, pond couple at 32-33, 8, Pokémon Center patrons). *Falsification*: Falsified if Professor Ivo, lab fixtures, and Lancio residents/facilities remain static with zero updates.
+  - **H136-C (Field Equipment & Rock Smash Mechanics - PENDING, Initiated Turn 23102)**: Investigate potential sources for rock-smashing equipment: (a) Professor Ivo / Lab staff, (b) Lancio Town TM house (boy at 25, 10), (c) Lancio dock fisherman (38, 22), (d) Sovio City karate house / Machop family, (e) PokéMart stock/special clerk inventory. *Falsification*: Falsified if all targeted NPCs (a-d) and shop inventories (e) confirm zero field equipment items or triggers.
 - **Current Plan**:
-  1. Traverse Route 1 southern bypass (row 48) west into Lancio Town.
-  2. Consult Professor Ivo and test basement stairs at (12, 7) in Lancio Lab.
-  3. Investigate methods to obtain rock-smashing equipment.
+  1. Consult Professor Ivo and test basement stairs at (12, 7) in Lancio Lab.
+  2. Audit Lancio Town key residents/locations (dock fisherman, pond couple, Pokémon Center) for updated dialogue regarding the tremor or Jackson.
+  3. Investigate methods to obtain rock-smashing equipment across defined targets (a-e).
