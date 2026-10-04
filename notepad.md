@@ -680,24 +680,32 @@
 - **Route 2 Eastern Exit (52, 19-22)**: Scripted barrier triggers verbatim "I can't go yet... I have things to do!" and forces Asher west.
 
 ## Distilled Physical Constraints & Verified Negative Facts
-- **Metro Station Lobby**: Timetable, west seating, and scanner pillars are inert. Direct 'A' on turnstile from (19, 22) produces zero dialogue; barrier is strictly a walk-over tripwire on (19, 21).
-- **Route 1**: All trainers (Duke, Sonia, Mike) and cottage resident have static pre-tremor dialogue.
-- **Sovio City Exterior & Residents**: All residential interiors (Nana/granddaughter, elderly Wii man/son, Gumball family, Karate family/Machop, Name Rater) and outdoor NPCs (Bikers, Boy Rocky, Central Park dating couple, Jigglypuff family, Pokémon Center Camper/Boy) repeat static ambient dialogue.
-- **Sovio Sewers**: Grunts retreated following Marie's radio directive; all corridors vacated. Eastern Storage Platform (37, 14) confirmed physically impassable: stepping Down into (37, 15) produces solid collision (0 tiles visited, no warp), and interacting facing South displays verbatim "Its a simple storage room..".
-- **Sovio City Central Plaza Perimeter**: Stepped across all exterior plaza tiles (rows 14-16, columns 41-46) where the Siara confrontation occurred; confirmed 100% inert with zero active tripwires or story scripts.
-- **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
+- **Metro Station Lobby & Platform**: Turnstile (19, 21) is a walk-over tripwire forcing step Down to (19, 22). Scanner pillars (18, 21) / (20, 21) and brick walls (cols 21-23, row 23) are solid obstacles. Platform attendant is seated at (21, 18) facing west, physically unreachable. Timetable board (cols 21-23, row 23) displays static destination flavor text.
+- **Central Plaza Perimeter (Cols 41-46, Rows 12-16)**: Systematically swept confrontation perimeter outside Pokémon Center; 100% verified inert with zero hidden tripwires or story scripts.
+- **Northern Alcove & Exterior (Cols 40-41, Rows 7-9)**: House (39, 7) alleyway and gap at (41, 8) confirmed dead-ends against building walls.
+- **West Avenue Commercial Facade & Boundaries**: Columns 16-22 beneath the giant billboard audited with direct 'A' interaction (100% inert). Karate house entered at (14, 15). Western boundary along columns 11-12 (rows 16-24) confirmed continuous solid office building wall.
+- **Sovio City Residential Interiors & Overworld NPCs**: All residences (Nana/granddaughter, elderly Wii man/son, Gumball family, Karate couple/Machop, Name Rater) and exterior NPCs (Bikers, Boy Rocky, Central Park dating couple, Jigglypuff family, Pokémon Center Camper/Boy) display static ambient dialogue.
+- **Sovio Sewers**: Grunts vacated following Marie's radio directive. Eastern Storage Platform door (37, 14) displays "Its a simple storage room..". Rugged rocks at (10, 18) and (22, 10) require specialized smashing equipment. Entire sewer network confirmed physically exhausted.
+- **Route 1 & Lancio Town**: All Route 1 trainers defeated, cottage resident gifted Max Repel. Lancio harbor pier has no boat moored. Professor Ivo lab basement stairs blocked ("I probably shouldn't head down here...").
 
-## Active Investigation & Progression Re-evaluation (Updated Turn 27272)
-### Hypothesis H12: Central Plaza Confrontation Perimeter Audit (Verified Negative Turns 27278-27279)
-- **Central Plaza Audit Outcome**: Systematically swept rows 13-16 across columns 41-45 in front of the Pokémon Center. 100% verified inert with zero invisible triggers, tripwires, or story scripts.
+## Structured Progression Decision Tree by System Type
+1. **System 1: Party State & Pokémon Mechanics**
+   - *Hypothesis*: Progression requires a specific party condition, move, or Sirius mechanic.
+   - *Variables*: Sirius (Lv17 Riolu, custom Torn Scarf sprite, Black Belt, moves: Metal Claw/Quick Attack/Work Up/Mach Punch), Zephyr (Lv2 Pidgey, moves: Tackle/Protect).
+   - *Test Plan*: Inspect Pokémon summary screens, move details, and verify if any party member or held item interacts with world objects.
+2. **System 2: Interactive World Objects & Facility Terminals**
+   - *Hypothesis*: Progression flag is set via an interactive terminal, PC, or facility object rather than an overworld NPC sprite.
+   - *Variables*: Sovio Pokémon Center corner PC terminal at (12, 1), Framed Town Map at (11, 0), Pokémon Center service counter, Lancio Lab incubator apparatus at (18-19, 5-6).
+   - *Test Plan*: Systematically access each PC menu option (Someone's PC, Asher's PC, Professor's PC) and facility terminal to check for unread messages, logs, or network triggers.
+3. **System 3: HuPhone Apps & Communication Systems**
+   - *Hypothesis*: The HuPhone contains an unactivated trigger or regional reference that updates story state.
+   - *Variables*: Item Storage, World Map hover nodes, Quest Log (Pages 1-5).
+   - *Test Plan*: Verify all app submenus and examine whether interacting with specific regional map nodes or key items produces new prompts.
+4. **System 4: Story Script & Trigger Flags**
+   - *Hypothesis*: The event "find dad" is not a physical NPC search, but a specific prerequisite interaction that changes Asher's internal dialogue or Metro attendant behavior.
 
-### Hypothesis H13: West Avenue Commercial Billboard Facade & Northwest Boundary Audit (Verified Negative Turns 27286-27289)
-- **Facade & Boundary Audit Outcome**: Audited columns 16-22 along row 16-17 beneath billboard with direct 'A' interaction: 100% inert. Karate house entered at (14, 15). Western boundary along column 11-12 from row 16 to 24 confirmed solid modern office building wall. 100% verified negative.
-
-### Hypothesis H14: Metro Station Platform Attendant & Barrier Audit (Verified Turn 27296)
-- **Turnstile Barrier**: Re-confirmed verbatim on (19, 21): "I should find dad first!" forcing 1 step Down to (19, 22). Direct 'A' facing North into (19, 21) from (19, 22) produces zero dialogue.
-- **Scanner Pillars & Wall**: Right scanner pillar (20, 21) and wall across columns 21-23 are solid barriers blocking direct access to the platform.
-- **Platform Attendant**: Visually re-confirmed seated in upper blue chair at (21, 18) facing west on the platform, physically unreachable behind the turnstile tripwire.
-- **Conclusion**: The Metro barrier is strictly controlled by game flag (finding Dad).
+## Active Empirical Investigation Plans
+- **Audit Target 1 (Facility Terminals)**: Exit Metro Station to Sovio Pokémon Center; access corner PC terminal at (12, 1) and test all PC options (Someone's PC, Asher's PC, Professor's network).
+- **Audit Target 2 (Party & Sirius Inspection)**: Open Pokémon menu from Start Menu to inspect Sirius and Zephyr status and held items.
 
 <hr>
