@@ -158,7 +158,7 @@
 - **Row 20 Cottage Ledge**: One-way south-facing ledge spanning columns 39-41 at row 20. Jumpable from north to south; blocks northbound passage east of the cottage.
 - **Row 43 Northern Corridor Collision**: Row 43 is blocked to the west at (11, 43) by solid pine tree canopy collision; does not connect west across column 11.
 - **Row 43 Hedge Gap**: Passable gap at column 26 (rows 41-43) connecting the southern corridor to the Sand Highway.
-- **Southern Bypass & Cobblestone Connection**: To bypass the central pine tree and Signboard 1 from the east: walk west along row 46 to (12, 46), step Down through (12, 47) to (12, 48), walk west along row 48 beneath Signboard 1 to (7, 48), step Up to (7, 46), and continue west along the cobblestone road (rows 45-46) into Lancio Town at (0, 45-46).
+- **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 43) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
