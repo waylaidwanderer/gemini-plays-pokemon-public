@@ -22,12 +22,17 @@
   - **H136-B (Lancio Town & Professor Ivo's Lab - CONCLUDED / FALSIFIED Turn 23247)**: Comprehensive empirical audit completed across all Lancio facilities and residents: Professor Ivo (starter line), basement stairs ("probably shouldn't head down here"), incubator ("better not mess with that machine"), TM boy ("Get out!"), Old Man & Woman (pond flavor text), dock fisherman (fishing lesson flavor), pier (empty, no boat), Pokémon Center patrons (integrated mart and healing flavor). All confirmed 100% static baseline. Zero leads on Dad or tremor.
   - **H136-C (Field Equipment & Rock Smash Mechanics - CONCLUDED / FALSIFIED Turn 23307)**: Comprehensive empirical audit across all potential equipment targets: (a) Professor Ivo / Lab staff [VERIFIED ZERO TOOLS], (b) Lancio Town TM house boy at 25, 10 [VERIFIED: "Get out!", ZERO TOOLS], (c) Lancio dock fisherman at 38, 22 [VERIFIED: static fishing flavor, ZERO TOOLS], (d) Sovio City karate house / Machop family at (14, 15) [CONCLUDED STATIC in H118-H123: martial arts debate & aggressive Machop flavor, zero equipment], (e) PokéMart stock [VERIFIED Turn 23306-23307: Poké Ball $200, Potion $300, Antidote $100, Paralyz Heal $200, Repel $350, Cancel; zero equipment]. *Conclusion*: Rock-smashing equipment is not obtainable from any accessible regional vendor or civilian; rugged rock obstacles are mechanic-gated for later progression.
 
+## Critical Ground Truth: Debunked Storage Room Hallucination
+- **Storage Room (37, 14)**: Verified 100% empty storage room displaying verbatim: "Its a simple storage room..". There was NEVER any cutscene or event freeing Jackson inside this room, and Jackson was never held there. Jackson ran outside into Sovio City during the tremor. Any claims of Jackson being rescued at (37, 14) were context summarizer hallucinations.
+
 ## Active Hypothesis H137: Post-Retreat Subterranean & Digital System Audit (Initiated Turn 23314)
 - **Premise**: All surface facilities, civilians, and external routes (Route 1, Lancio Town) are confirmed static baseline. The unresolved story blocker ("I should find dad first!") must originate from either unexamined subterranean sectors post-retreat or digital system interactions.
 - **Sub-Hypotheses**:
   - **H137-A (HuPhone System & Quest Status Audit - CONCLUDED Turn 23328)**: Comprehensive audit completed across all digital apps: World Map (zero objective flags/markers), Mailbox ("There's no Mail here."), Quest Log (Page 1 verified; main story milestones confirmed absent). HuPhone contains zero pending communications or active directives.
   - **H137-B (Sovio Sewers Post-Retreat Sector Audit - ACTIVE Turn 23328)**: Systematically audit all accessible sectors of Sovio Sewers (Western Terrace, Northern Gangway, Dark Sector basement, and Eastern Storage platform) to verify whether any dropped item, NPC, or passage exists post-Marie retreat.
+  - **Stopping Condition & Falsification Boundary**: If Western Terrace, Northern Gangway, and Dark Sector basement confirm identical static geometry with zero NPCs, items, or triggers, H137-B is permanently FALSIFIED and Sovio Sewers will be permanently closed as an investigation avenue.
 - **Current Plan**:
-  1. Close HuPhone (Turn Off PC, Back on main menu).
-  2. Walk east to Metro Station entrance at (48, 17) and descend into Sovio Sewers via lobby red mat (18-19, 25).
-  3. Execute systematic post-retreat audit across all sewer sectors.
+  1. Ascend column 14 western stairs to Western Terrace (rows 11-12).
+  2. Climb column 15 wall ladder to Northern Gangway (row 5).
+  3. Traverse column 23 bridge to row 13 and audit Dark Sector basement and Eastern Platform.
+  4. Conclude H137-B and pivot outside this loop.
