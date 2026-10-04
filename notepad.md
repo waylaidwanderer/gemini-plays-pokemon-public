@@ -678,13 +678,12 @@
 - **Commercial Economy & Liquid Funds (H160)**: Liquidated Nugget for $5,000 (Money: $11,096) at Sovio PokéMart (Turn 24398). Tested Metro turnstile at (19, 21) (Turn 24434: blocked by "I should find dad first!") and Route 2 barrier at (52, 19) (Turn 24437: blocked by "I can't go yet... I have things to do!"). Confirmed neither liquid wealth nor PokéMart sales transactions alter progression barrier scripts.
 - **System & Interface Verification (H162)**: HuPhone portable PC Item Storage ("There are no items.") and Mailbox ("There's no Mail here.") audited 100% empty (Turns 24446, 24449). Confirmed no stored items, equipment, or letters from Dad exist in system storage.
 
-## Active Hypothesis H164: Unexamined Quest Hooks (Page 1) and Novel Regional Mechanics
-- **Premise**: Progressing past the Metro turnstile ("I should find dad first!") is not gated by locating a physical Dad NPC sprite in the overworld (disproven across exhaustive physical audits). Per critique guidance, progression is gated by unexamined Page 1 quest hooks (Quest 3: Egg Research, Quest 4: Medic!, Quest 5: Squirtle Gang) or novel regional mechanics.
+## Active Hypothesis H165: Investigation of Progression Gating Flags and Event Triggers
+- **Premise**: Physical searches for a Dad overworld NPC sprite across all accessible maps (Sovio City, Sovio Sewers, Route 1, Lancio Town) have proven that Jackson does not exist as an independent overworld NPC sprite. Gating flags at the Metro turnstile ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") must be resolved through an uncompleted story trigger or menu/system interaction.
 - **Action Plan**:
-  1. Ascend to Sovio City surface at (48, 17).
-  2. Test Quest 4 "Medic!" hook: Investigate Camper at (5, 7) in Sovio Pokémon Center regarding his poisoned Weedle (testing persistent dialogue, Antidote interaction, and staff dialogue with zero active quests).
-  3. Test Quest 3 "Egg Research" hook: Audit Professor Ivo's Lab incubator apparatus and interactions.
-  4. Test Quest 5 "Squirtle Gang" hook: Audit regional water bodies for Squirtle encounters.
-- **Falsification Boundary**: Document the trigger conditions and outcomes for each Page 1 quest hook to determine their relationship to regional progression.
+  1. Audit Central Plaza event area (columns 40-46, rows 12-16 outside Pokémon Center) for scripted trigger tiles where the Team Siara confrontation occurred.
+  2. Audit inventory, Trainer Card, and Party state for novel triggers.
+  3. Document outcomes and verify turnstile state.
+- **Falsification Boundary**: If no trigger tile or menu interaction alters the turnstile flag, record exact coordinates tested and expand analysis to remaining unverified mechanics.
 
 <hr>
