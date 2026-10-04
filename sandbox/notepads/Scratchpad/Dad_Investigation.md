@@ -6,8 +6,6 @@
 
 ## Empirical Survey Findings
 - **Civilians & Dialogue Audit (Turns 25751–25772)**:
-  - Pokémon Center: Straw-hat Camper (5, 7) and Resident Boy (8, 6) tested for multi-turn persistent dialogue; confirmed 100% static ambient dialogue.
-  - House (39, 7) 1F: Elderly Man (41, 33) tested for multi-turn persistent dialogue; confirmed static ambient dialogue ("Not sure why he asked for one its an old thing but whatever.").
   - Premise Correction: Early context summary claims of Jackson calling for help from the sewer storage room / being held captive there are unverified hallucinations; the room simply displays static inspection text ("Its a simple storage room..").
 - **Sovio Sewers Survey (Turns 25413–25495)**: All accessible open floor tiles in 1F, Dark Sector basement, and Deep Subterranean chamber audited under Repel. No NPCs, items, or cutscene triggers present post-tremor. Storage room (37, 14) displays static flavor text ("Its a simple storage room.."). Equipment-gated obstacles remain: rugged rocks at (10, 18), (9, 17), and Dark Sector (22, 10).
 - **Route 1 Traversal Constraints**: Northern section does not connect south to Lancio Town on foot (row 39 hedge lines, shoreline cliffs, rock spires).
