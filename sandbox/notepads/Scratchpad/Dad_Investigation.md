@@ -24,3 +24,4 @@
   - Route directly south along Southern Avenue to Route 1.
 - **Current Plan**:
   1. Exit northern meadow and navigate south past Duke toward Roadside Cottage (37, 24) and western Route 1 features (Lass Sonia spire, Youngster Mike clearing, Cut tree perimeter).
+- **Outcome & Conclusion (H141 - CONCLUDED / FALSIFIED)**: Audited Route 1 northern meadow & red rock (35, 7), Roadside Cottage perimeter (37, 24), southern bypass, and Cut tree at (5, 44). Confirmed Cut tree is solid, inert to 'A' (requires HM01 Cut), and zero new story triggers, NPCs, or items exist on Route 1. Route 1 non-highway exploration yields strictly static baseline.
