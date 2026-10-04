@@ -29,6 +29,7 @@
   - Pine tree at (46, 15) blocks southward passage down column 46 from row 14.
   - Solid pine tree forest wall at (33, 6) blocks westward traversal along row 6.
   - Pine tree at (30, 17) blocks southward traversal down column 30 from (30, 16).
+  - Pine tree at (31, 27) blocks southward traversal down column 31 from (31, 26).
   - Dense horizontal hedge rows at rows 9-10 border the northern meadow corridor, leaving a 1-tile walkable gap at column 38.
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
   - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
