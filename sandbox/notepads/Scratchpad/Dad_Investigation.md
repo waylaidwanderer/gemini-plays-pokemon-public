@@ -16,5 +16,5 @@
 - **Premise**: Nugget liquidated for $5,000 at Sovio PokéMart (Money: $11,096). Testing whether possessing sufficient travel funds / commercial transaction flags cleared the Metro turnstile blocker or Route 2 exit barrier.
 - **Action Plan**:
   1. Return from Sovio Sewers to Metro Station lobby via stairs at (38, 22).
-  2. Inspect Metro Station turnstiles at (19, 21) to verify if "I should find dad first!" remains or if access to Amor train platform is granted.
+  2. Inspect Metro Station turnstiles at (19, 21) to verify if "I should find dad first!" remains or if access to Amor train platform is granted. [TESTED Turn 24434: Still displays "I should find dad first!" and forces Asher to (19, 22). Confirmed liquid capital ($11,096) does NOT clear turnstile].
   3. If still blocked, inspect Route 2 eastern exit at (52, 19-22) on Sovio City surface.
