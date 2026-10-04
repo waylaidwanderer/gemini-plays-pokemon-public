@@ -683,7 +683,12 @@
 ## Active Hypotheses & Strategic Planning
 - **H170 (Sovio City Post-Tremor Surface Investigation & Jackson Disappearance)**:
   - **Premise**: When the tremor occurred inside the Metro Station, Dad ran outside into Sovio City to investigate. Asher is gated at the Metro turnstiles by "I should find dad first!". The subterranean sewers are verified exhausted (grunts permanently retreated, storage room 37, 14 confirmed inert "Its a simple storage room.."). Subterranean searches are definitively terminated. Jackson's location or the post-tremor progression trigger must exist on the surface of Sovio City or in unvisited sectors.
-  - **Investigation**: Exit the sewers immediately. Re-examine Sovio City surface: check all boundary tiles, test the confrontation plaza tiles outside the Pokémon Center, audit the building facades, and verify if an overlooked path or trigger exists on the surface.
-  - **Falsification Criteria**: If an exhaustive surface audit of Sovio City yields zero triggers, proceed to execute a complete, rigorous audit of Lancio Town and Professor Ivo's Lab without premature abortion.
+  - **Investigation**: Re-examine Sovio City surface: check all boundary tiles, audit the building facades, and verify if an overlooked path or trigger exists on the surface.
+  - **Status**: Surface audit in Sovio City yielded zero progression triggers or new dialogue. Initiating rigorous, unaborted macro-excursion to Lancio Town and Professor Ivo's Lab (H171).
+
+- **H171 (Lancio Town & Professor Ivo Macro-Audit)**:
+  - **Premise**: With Sovio City surface and subterranean baselines exhausted, Dad or a critical story trigger may reside in Lancio Town (Professor Ivo's Lab or Harry's dock passage).
+  - **Plan**: Traverse Route 1 southwest to Lancio Town without aborting. Audit: 1) Lancio harbor pier for Harry/boat, 2) Professor Ivo's dialogue and lab fixtures, 3) Lab basement stairs.
+  - **Verification**: Complete all three audit steps before concluding the hypothesis.
 
 <hr>
