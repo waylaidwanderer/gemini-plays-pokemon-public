@@ -20,7 +20,7 @@
 ## Hypothesis H149: External Anchor Audit in Lancio Town & Route 1
 - **Premise**: All local entities in Sovio City, Metro lobby, and Sewers are static baselines. Testing external facilities for narrative triggers or physical state updates.
 - **Target 3 (Part 1 - Cottage at 37, 24)**: Verified resident boy dialogue verbatim ("Now that you got your sample, go and enjoy freedom!"). 100% static baseline.
-- **Target 3 (Part 2 - Cut Tree at 5, 44)**: Test physical collision and interaction text.
+- **Target 3 (Part 2 - Cut Tree at 5, 44)**: Verified 100% inert solid obstacle with zero inspection text or interaction prompts.
 - **Target 1 (Lancio Town Lab)**: Test Professor Ivo's dialogue at (20, 6), incubator apparatus at (18-19, 5-6), and basement stairs at (12, 7).
 - **Target 2 (Lancio Town Harbor)**: Check pier at (32-34, 23-25).
 - **Causal Mechanism**: If Jackson or Professor Ivo relocated or updated flags following the Siara sewer retreat, speaking to Professor Ivo or inspecting lab fixtures should advance story dialogue or unlock basement access.
