@@ -164,7 +164,6 @@
 - **South Sand Highway Boundary**: Row 39 hedge line and dense pine trees (columns 31-35, rows 36-39) border the southern Sand Highway; column 36 gap at (36, 39) dead-ends at pine tree (36, 42).
 - **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
-- **Pine Tree & Terrain Barriers**:
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 44) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
@@ -178,6 +177,7 @@
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
+
 
 <hr>
 
@@ -498,7 +498,7 @@
 - **Azluf Town**: Coastal green town node located southeast of Sovio City along the southern shore.
 - **Route 3**: Southern coastal highway connecting Azluf Town east to Samurion City.
 - **Mt. Gerhana**: Mountain landmark and waypoint located between Sovio City and Samurion City along northern mountain route.
-- **Samurion City**: Major port/industrial city on the south-central coast (red node with Pok� Ball symbol). Connects west to Azluf Town via Route 3 and Mt. Gerhana, and north to Amor City via Route 4.
+- **Samurion City**: Major port/industrial city on the south-central coast (red node with Poké Ball symbol). Connects west to Azluf Town via Route 3 and Mt. Gerhana, and north to Amor City via Route 4.
 - **Route 4**: Dual railway transit corridor connecting Samurion City north to Amor City.
 - **Amor City**: Giant blue central metropolitan hub of Hupest (subtitle: "Metro Station"). Regional capital and host city of the Eclipse Tournament / Amor Sports Center.
 - **Route 16**: Eastern highway connecting Amor City east to Aurin Town.
