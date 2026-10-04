@@ -5,7 +5,6 @@
 - **Route 2 Eastern Exit (52, 19-22)**: Trigger text "I can't go yet... I have things to do!" completely blocks eastern passage along rows 19-22 toward Route 2.
 
 ## Empirical Survey Findings
-- **Sovio Metro Platform**: Visual audit (Turn 25352) confirmed platform contains vending machine and chairs; zero ticket attendants or NPCs present. Gated strictly by turnstile barrier (19, 21).
 - **Sovio Sewers Survey (Turns 25413–25495)**:
   - All accessible open floor tiles in 1F, Dark Sector basement, and Deep Subterranean chamber audited under Repel.
   - No NPCs, new items, or cutscene triggers present post-tremor. Storage room (37, 14) displays static flavor text.
@@ -13,8 +12,11 @@
   - Open subterranean floor is exhausted; search focus permanently shifted to surface world.
 
 ## Active Forward-Looking Hypotheses
-- **Hypothesis S1 (External Regional Story Trigger / Route 1 & Lancio Audit - Falsified Turns 25550-25593)**:
-  - Conclusion: Inaccessible on foot. Physical terrain audits confirmed Route 1 north section does not connect south to Lancio Town (Row 20 ledge is one-way southbound, Sand Highway dead-ends at row 39 hedges, Eastern Clearing dead-ends at shoreline, Northwest Clearing bounded by spires/pines).
+- **Hypothesis S1 (External Regional Story Trigger / Route 1 & Lancio Audit - Concluded Turns 25550-25593)**:
+  - Conclusion: Route 1 southward traversal to Lancio Town is obstructed by row 39 hedge lines, shoreline cliffs, and rock spires. Deferred in favor of local Sovio City investigation.
 - **Hypothesis S2 (Sovio City Comprehensive Post-Sewer Audit - ACTIVE)**:
   - Premise: Dad ran outside into Sovio City to investigate the tremor. Post-sewer retreat, Asher has not searched West Avenue, Central Park, or residential interiors.
   - Protocol: Return to Sovio City via Route 1 meadow corridor -> systematically audit West Avenue (Karate house, Biker lane, office building), Central Park, and residences to locate Jackson and resolve the Metro turnstile barrier.
+  - Audit Progress:
+    - Target 1 (Three Bikers at 13, 21-23): Audited Turns 25614-25616. Biker 3 retains identical ambient dialogue ("vroom vroom Jealous kid?... We are the big guys here..."). No tremor/Dad updates.
+    - Target 2 (Karate House at 14, 15): Currently auditing interior 1F occupants and 2F.
