@@ -14,7 +14,7 @@
   - **Target 1: Central Plaza Facilities**:
     - *Pokémon Center (44, 12)*: Audited Turns 26501-26504. Ground floor east wing (columns 10-13, row 8) verified vacant of NPCs or items. Mezzanine and main floor contain standard staff and ambient dialogue.
     - *Covered Corridor (48-51, 20-22)*: Audited Turn 26508. Row 23 southern wall at (48, 22) confirmed solid collision with zero text or interactive triggers.
-    - *Terrace House (49, 14)*: Granddaughter (63, 33) verified Turn 26527 repeating ambient text: "Nana makes the best food! Weeeee!". Currently speaking to Nana (62, 31).
+    - *Terrace House (49, 14)*: Audited Turns 26526-26528. Granddaughter (63, 33) repeats "Nana makes the best food! Weeeee!" and Nana (62, 31) repeats "I'm cooking something for my dear grandkid. She loves my cooking...". Entire residence confirmed static ambient civilian home. Target 1 fully complete.
   - **Target 2: Systematic Sovio City Urban & NPC Audit**:
     - North-Central: House at (39, 7) (elderly man and son with Wii) and Tan Building (32-37, 8-12) facade.
     - Central-West & Northwest: House at (29, 14) (Gumball family) and House at (14, 15) (Karate family).
