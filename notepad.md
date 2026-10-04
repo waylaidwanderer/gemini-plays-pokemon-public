@@ -189,7 +189,7 @@
 
 ## Exploration & Landmarks
 
-- **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (46, 17), and (35, 23).
+- **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (35, 19), (46, 17), and (35, 23).
 
 - **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) (confirmed completely inert with zero items). The open east-west boulevard runs north along rows 14-15. Northern stone curb at (41, 16) is fully walkable and grants access south onto the grey stone terrace around the fountain. Terrace tiles at (41-43, 17-18) are walkable; water basin rim starts at (41, 18). Symmetrical blue/pink corner markings on the terrace floor at (38, 17), (42, 18), (38, 24), and (42, 25) are non-interactive decorative pavement textures.
 
@@ -678,8 +678,6 @@
 - **Non-Spatial System & In-Game Devices (H146 - CONCLUDED)**: HuPhone apps (Item Storage 0 items, Mailbox 0 messages, Quest Log 0 active, World Map verified), Trainer Card (Front: Asher ID 54592, 0 Badges, 8 round slots; Back: 6 crest silhouettes), Party summary (Sirius Lv17 Relaxed, Black Belt; Zephyr Lv2 Tackle) 100% verified static baseline.
 - **Sovio Pokémon Center Facilities & State (H147 - CONCLUDED)**: Nurse Joy (standard heal & respawn checkpoint registered), Asher's PC (Mailbox empty verbatim, Item Storage empty verbatim), Someone's PC (Box 1 30-slot grid audited empty), Framed Town Map (functional regional map displaying player at Sovio City), and resident NPCs (Straw-hat Camper at 5, 7; Resident Boy at 8-10, 4-6) verified 100% static baseline.
 - **Metro Station Partition & Turnstiles (H148 - CONCLUDED)**: Scanner pillars at (18, 21) and (20, 21) verified 100% inert. Turnstile passage at (19, 21) verified as the single trigger tile displaying verbatim "I should find dad first!" and forcing player south to (19, 22). Platform side chairs verified empty furniture per map documentation.
-
-- **Eastern Boundary & Route 2 Barrier (H150 - CONCLUDED/DISCARDED)**: Flanking coordinates (columns 51-53 north and south of Route 2) are verified solid geometry (high-rise foundation at row 15, terrace wall at row 14, commercial building at rows 20-31). The barrier at (52, 19-22) is an internal monologue ("I can't go yet... I have things to do!") rather than a bypassable physical gate. Spatial search concluded.
 
 ## Active Hypothesis H151: Active Causal Testing of Sovio City Quest Triggers & Items (Camper/Medic & HuPhone)
 - **Premise**: The progression barriers ("I should find dad first!" and "I can't go yet... I have things to do!") are internal monologues reflecting unfulfilled progression conditions. Page 1 of the Quest Log lists early-game side quests: "Egg Research", "Medic!", and "Squirtle Gang". In the Sovio City Pokémon Center, the Camper at (5, 7) complains that his Weedle is poisoned while Asher holds an Antidote in the Bag. Furthermore, the HuPhone World Map and Bag items represent untried interactive mechanics.

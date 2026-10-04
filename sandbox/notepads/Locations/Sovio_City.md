@@ -10,7 +10,7 @@
 
 ## Exploration & Landmarks
 
-- **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (46, 17), and (35, 23).
+- **Street Lamps**: Located at (14, 27), (14, 24), (16, 23), (35, 19), (46, 17), and (35, 23).
 
 - **Park East Border & Fountain Perimeter**: Street lamps at (43, 19) and (43, 21), and silver trash can at (43, 20) (confirmed completely inert with zero items). The open east-west boulevard runs north along rows 14-15. Northern stone curb at (41, 16) is fully walkable and grants access south onto the grey stone terrace around the fountain. Terrace tiles at (41-43, 17-18) are walkable; water basin rim starts at (41, 18). Symmetrical blue/pink corner markings on the terrace floor at (38, 17), (42, 18), (38, 24), and (42, 25) are non-interactive decorative pavement textures.
 
