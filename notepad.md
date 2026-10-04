@@ -607,7 +607,7 @@
 
 - **Key Items Pocket**: Contains HuPhone (registered to SELECT, indicated by the red marker icon) and TM Case. Exclusively 2 Key Items present.
 
-- **Items Pocket**: Potion x 1, Poison Barb x 1, Antidote x 1, Repel x 9 (purchased Sovio PokéMart for $3,150).
+- **Items Pocket**: Potion x 1, Poison Barb x 1, Antidote x 1, Repel x 9.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
 
