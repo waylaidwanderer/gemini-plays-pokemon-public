@@ -12,13 +12,17 @@
 
 - **H134 Off-Path Nooks & Hidden Alignments**: Central Park south hedge alcove (42, 30) verified 0 items/triggers; northern alley perimeter (38-41, 7-9) verified 0 items/triggers; Metro platform confirmed to have a Transit Officer in blue uniform/cap stationed by the east chairs, confirming the platform is an active transit zone gated by finding Dad; turnstile passage and scanner pillars verified inert from non-trigger angles.
 
-## Active Hypothesis H135: Deep Systematic Sovio Sewers Audit
-- **Premise**: Previous sewer visits were superficial bounce-backs. With all surface sectors and facility counters confirmed static, conduct an exhaustive post-retreat survey of all sewer sectors.
-- **Sub-Hypotheses & Empirical Progress**:
-  - **H135-A (Eastern Platform & Storage Mat - CONCLUDED)**: Audited all 9 platform tiles (36-38, 12-14). Door at (37, 14) confirmed verbatim: "Its a simple storage room...". Row 15 confirmed solid impassable collision. North wall (row 11) and east/west void borders confirmed solid with 0 items/switches. Concluded.
-  - **H135-B (Dark Sector / Basement & Toy Chamber)**: Re-traverse column 30 causeway to the Dark Sector; audit all corridor walls, rock obstacle alignments, and subterranean room.
-  - **H135-C (Western Terrace & Northern Gangway)**: Traverse western terrace ladder and northern catwalk for any overlooked items or trigger tiles.
-  - *Falsification Boundary*: Falsified if every sewer sector contains only verified static geometry and zero NPCs or interactive triggers.
+## Concluded Hypothesis H135: Sovio Sewers Sector Audit (ABANDONED/PARTIAL)
+- **H135-A (Eastern Platform & Storage Mat - CONCLUDED)**: Audited all 9 platform tiles (36-38, 12-14). Door at (37, 14) confirmed verbatim: "Its a simple storage room...". Row 15 solid collision. Zero items/switches.
+- **H135-B & H135-C**: Suspended without exhaustive traversal to break out of internal Sovio loop per critique directive.
+
+## Active Hypothesis H136: External Investigation for Dad's Trail & Tremor Origin
+- **Premise**: Sovio City overworld and Sewers Eastern Platform have been repeatedly audited with zero Dad sightings. Dad ran outside to investigate the seismic tremor. The tremor source or Dad's trail must be external to Sovio City (Route 1, Lancio Town, Professor Ivo's Lab) or tied to an equipment progression mechanic (smashing rugged rocks).
+- **Plan**:
+  1. Exit Metro Station to Sovio City Central Plaza at (48, 18).
+  2. Inspect Central Plaza and exterior surroundings.
+  3. Head south via Southern Avenue to Route 1 and Lancio Town to investigate Professor Ivo's Lab and seek rock-smashing equipment.
+- *Falsification Boundary*: Falsified if external locations contain zero new dialogue, events, or equipment.
 
 ## Major Breakthrough: Summary Hallucination Unmasked
 - Past Context Summaries claimed Jackson was rescued from the sewer storage room in turns 2279-2716.
