@@ -696,5 +696,13 @@
   4. Framed Town Map at (11, 0).
 - **Testing Criteria**: Confirm whether PC terminal, mailbox, or NPCs exhibit any state changes post-sewers.
 - **Stopping Boundary**: Complete inspection of targets 1-4 inside Pokémon Center, record exact findings, and conclude H147.
+## H147 Audit Execution Progress (Turns 23885-23909)
+- Target 1 (Nurse Joy at 7, 3): Verified standard heal dialogue, full HP/PP restored, Sovio Center respawn checkpoint registered.
+- Target 2 (PC Terminal at 12, 1):
+  - Asher's PC Mailbox: Audited empty verbatim ("There's no Mail here.").
+  - Asher's PC Item Storage: Audited empty verbatim ("There are no items.").
+  - Someone's PC Box Storage: Audited empty (Box 1 30-slot grid visually inspected; 0 stored Pokémon).
+- Target 4 (Framed Town Map at 11, 0): Verified functional interactive regional Town Map displaying player marker at Sovio City.
+- Target 3 (Resident NPCs): Resident Boy at (8, 6)/(9, 5) verified. Camper at (5, 7) pending final check to conclude H147.
 
 <hr>
