@@ -695,6 +695,6 @@
     2. Central Plaza: Exterior plaza tiles, terrace house at (49, 14) [Audited: Granddaughter ("Nana makes the best food! Weeeee!") and Nana ("I'm cooking something for my dear grandkid...") confirmed 100% unchanged. House complete], North Central house at (39, 7) [Audited: 1F elderly man at (41, 33) confirmed unchanged; 2F was not interacted with during visit]. Target 2 COMPLETE.
     3. Route 2 Gate: Physical re-test of rows 19-22 at column 52 [COMPLETE: Physically tested at (52, 19) in Turn 25095; verbatim barrier text confirmed active: "I can't go yet... I have things to do!"]. Target 3 COMPLETE.
     4. Central Park: Date couple (33, 22 & 43-45, 23-26), children & Jigglypuff (33-35, 28), fountain terrace [Visually identified during transit; not interacted with].
-    5. West Avenue: Boy Rocky & Rocky (23-24, 17), Gumball house (29, 14), Karate house (14, 15), Name Rater (31, 26), Bikers (13, 21-23) [IN PROGRESS: Biker 3 at (13, 23) page 1: '"vroom" "vroom" Jealous kid?'].
+    5. West Avenue: Boy Rocky & Rocky (23-24, 17), Gumball house (29, 14), Karate house (14, 15), Name Rater (31, 26), Bikers (13, 21-23) [IN PROGRESS: Biker 3 confirmed (p1: "vroom vroom Jealous kid?", p2: "We are the big guys here..."), now auditing Biker 2 at (13, 22)].
 
 <hr>
