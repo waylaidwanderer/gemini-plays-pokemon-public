@@ -688,11 +688,10 @@
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
 ## Active Investigation
-### Hypothesis H8: Sovio City Overworld Tile Trigger & Sequence Audit (Active)
-- **Premise**: Auditing localized physical tile triggers in Sovio City to advance the post-tremor state:
+### Hypothesis H8: Sovio City Overworld Tile Trigger & Sequence Audit (Completed)
+- **Results**:
   1. Central Plaza & Pokémon Center Perimeter (COMPLETED Turn 26861): Stepped across all exterior plaza tiles (rows 14-16, columns 41-46) where the Siara confrontation occurred; confirmed 100% inert with zero active tripwires or story scripts.
   2. Metro Station Turnstile Re-Evaluation (COMPLETED Turn 26868): Stepped onto (19, 21); confirmed verbatim "I should find dad first!" remains active. Checkpoint heal did not clear barrier.
-  3. East Exit & Route 2 Approach: Audit row 18 at column 52-55 and the manhole at (55, 19).
-- **Protocol**: Enter Metro Station, step onto turnstile tripwire (19, 21) to test state, then proceed to East approach audit.
+  3. East Exit & Route 2 Approach (COMPLETED Turn 26874): Stepped onto (52, 19); confirmed verbatim "I can't go yet... I have things to do!" triggers along row 19, pushing player back to (51, 19). All physical perimeter tripwires are verified active/inert.
 
 <hr>
