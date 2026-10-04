@@ -13,7 +13,8 @@
   - Open subterranean floor is exhausted; search focus permanently shifted to surface world.
 
 ## Active Forward-Looking Hypotheses
-- **Hypothesis S1 (External Regional Story Trigger / Route 1 & Lancio Audit)**:
+- **Hypothesis S1 (External Regional Story Trigger / Route 1 & Lancio Audit - Initiated Turn 25508)**:
   - Premise: If Dad is not in Sovio City and the Metro turnstile requires finding Dad, then the event triggering Dad's return or resolving his disappearance is located along the Route 1 / Lancio Town corridor (e.g. Professor Ivo in Lancio Lab, or an unvisited Route 1 trigger).
-  - Protocol: Exit sewers to Metro Station -> exit to Sovio Central Plaza -> travel south via Southern Avenue (cols 14-15, rows 28-41) to Route 1 -> traverse Route 1 to Lancio Town -> test interactions at Professor Ivo's Lab (incubator, Ivo, restricted basement stairs) and Lancio residents.
+  - Scope Note: Post-tremor audit of Sovio City only verified Central Plaza, Metro portal, and Pokémon Center. West Avenue, Central Park, and residences remain unverified post-sewer retreat.
+  - Protocol: Traverse Route 1 to Lancio Town -> audit Professor Ivo's Lab (incubator, Ivo, restricted basement stairs) and Lancio residents -> if unfulfilled, return to conduct a rigorous, documented post-tremor audit of all Sovio City sectors.
   - Expected Outcome: Uncovering an updated dialogue flag, quest trigger, or story event that resolves "I should find dad first!".
