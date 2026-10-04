@@ -28,7 +28,6 @@
   - Pine tree at (27, 23) and (28-29, 25) blocks southward traversal down columns 27-29; vertical corridor routes south along column 30.
   - Hedge bush at (41, 42) blocks southward traversal down column 41 from (41, 41).
   - Hedge bush at (42, 42) blocks southward traversal from (42, 41) along the eastern shoreline.
-  - Pine tree at (36, 42) blocks southward traversal down column 36 from (36, 41).
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 43) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
