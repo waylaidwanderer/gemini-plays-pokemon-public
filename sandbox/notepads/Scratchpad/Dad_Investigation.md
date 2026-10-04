@@ -11,10 +11,12 @@
 - **Metro Lobby & Platform Sightline (H125, H131)**: Lobby fixtures (timetable, chairs, pillars) inert; transit officer seated on platform unreachable past turnstile.
 - **Sewers Post-Retreat (H121, H128)**: Grunts vacated post-Marie retreat; storage room door at (37, 14) displays "Its a simple storage room.."; rugged rocks gate SW corridor and Dark Sector.
 
-## Active Hypothesis H134: Off-Path Nooks & Hidden Alignments Audit
-- **Premise**: Main roads and primary facility counters are fully audited and static. Investigate secluded off-path alcoves and uninspected perimeter tiles in Sovio City for hidden triggers, environmental interactions, or concealed paths.
-- **Sub-Hypotheses & Empirical Progress**:
-  - **H134-A (Central Park South Hedge Alcove - CONCLUDED)**: Audited alcove at (42, 30); hedges (42, 31) and (41, 30) confirmed 0 hidden items. Row 32 confirmed solid pine tree collision. Trash cans at (46, 30-31) confirmed inert. 0 items/triggers found.
-  - **H134-B (Northern Alley Alcove - CONCLUDED)**: Audited entire perimeter around house (39, 7). Northwest corner (38, 8), north wall (38-40, 7), and northeast curb (41, 8-9) confirmed solid collision with 0 hidden items, switches, or passages. Concluded.
-  - **H134-C (Metro Station Non-Trigger Alignments)**: Inspect turnstiles, attendant sightlines, and platform interactions from non-step-on angles.
-  - *Falsification Boundary*: Falsified if all targeted alcoves and alignments yield only confirmed collision and zero progression flags.
+- **H134 Off-Path Nooks & Hidden Alignments (FALSIFIED)**: Central Park south hedge alcove (42, 30) verified 0 items/triggers; northern alley perimeter (38-41, 7-9) verified 0 items/triggers; Metro platform verified 100% empty of NPCs via 2x crop (prior transit officer notes were visual artifact of empty chair headrests); turnstile passage and scanner pillars verified inert from non-trigger angles. 100% FALSIFIED.
+
+## Active Hypothesis H135: Deep Systematic Sovio Sewers Audit
+- **Premise**: Previous sewer visits were superficial bounce-backs. With all surface sectors and facility counters confirmed static, conduct an exhaustive post-retreat survey of all sewer sectors.
+- **Sub-Hypotheses & Testable Variables**:
+  1. **H135-A (Eastern Platform & Storage Mat at 37, 14)**: Inspect all 9 platform tiles (36-38, 12-14) and the storage door mat from all 4 directional alignments.
+  2. **H135-B (Dark Sector / Basement & Toy Chamber)**: Re-traverse column 30 causeway to the Dark Sector; audit all corridor walls, rock obstacle alignments, and subterranean room.
+  3. **H135-C (Western Terrace & Northern Gangway)**: Traverse western terrace ladder and northern catwalk for any overlooked items or trigger tiles.
+  - *Falsification Boundary*: Falsified if every sewer sector contains only verified static geometry and zero NPCs or interactive triggers.
