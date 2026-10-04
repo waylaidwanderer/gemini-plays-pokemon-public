@@ -179,7 +179,7 @@
   - Hedge bush at (42, 42) blocks southward traversal from (42, 41) along the eastern shoreline.
 
 ## Overworld NPCs & Trainers
-- **NPC 1 (Camper/Straw Hat)**: Located at (18, 43) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
+- **NPC 1 (Camper/Straw Hat)**: Located at (18, 44) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
 - **NPC 2 (Boy in Grass)**: Wanders near Central Pine Tree at (11-12, 48-50). Ambient warning about wild grass.
 - **NPC 3 (Science Guy)**: Wanders in eastern clearing at (39-41, 36). Ambient dialogue praising science.
 - **NPC 4 (Youngster Mike)**: Located at (29, 20) in northwest clearing. Team: Rattata Lv5. Defeated.
