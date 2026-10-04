@@ -689,7 +689,7 @@
 - **Premise**: Testing whether unexamined NPC interactions, inventory items, or system triggers in Sovio City advance the story state or reveal Jackson's whereabouts.
 - **Protocol & Falsification Criteria**:
   1. Target A (Pokémon Center Camper at 5, 7): Concluded Turn 26716 - Falsified. Tested with Antidote in inventory; repeated static humor dialogue ("My weedle got poisoned... / Ironic isn't it?") with zero choice prompts or quest triggers.
-  2. Target B (Central Park Couple at 33, 22 & 43-45, 23-26): Test cross-interaction between pink-shirt boy and wandering blonde girl. Falsification: If girl repeats identical catfishing text without recognizing boy, Target B is falsified.
-  3. Target C (System & Inventory Items Audit): Audit Bag Key Items, TM Case, and HuPhone features for unexamined active triggers.
+  2. Target B (Central Park Couple at 33, 22 & 43-45, 23-26): Concluded Turn 26735 - Falsified. Interviewed blonde girl at (44, 26); repeated verbatim static text ("I'm supposed to meet someone here, but he doesn't seem to show up... Was I catfished?") with zero choice prompts or quest triggers. Both NPCs are static ambient humor.
+  3. Target C (System & Inventory Items Audit): Active. Audit Bag Key Items, TM Case, HuPhone features, and player state for unexamined triggers or missed interactions.
 
 <hr>
