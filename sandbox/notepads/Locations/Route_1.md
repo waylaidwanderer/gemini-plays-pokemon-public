@@ -24,7 +24,7 @@
   - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
   - Pine tree at (31, 38) and hedge line at row 39 block westward traversal from the southern Sand Highway dead-end (row 38).
   - Pine tree at (29, 26) blocks westward traversal from column 30 at row 26.
-  - Pine tree at (27, 23) blocks southward traversal down column 27; western vertical corridor routes south along column 28.
+  - Pine tree at (27, 23) and (28-29, 25) blocks southward traversal down columns 27-29; vertical corridor routes south along column 30.
   - Hedge bush at (41, 42) blocks southward traversal down column 41 from (41, 41).
   - Hedge bush at (42, 42) blocks southward traversal from (42, 41) along the eastern shoreline.
 
