@@ -24,17 +24,21 @@
 ## Critical Ground Truth: Debunked Storage Room Hallucination
 - **Storage Room (37, 14)**: Verified 100% empty storage room displaying verbatim: "Its a simple storage room..". There was NEVER any cutscene or event freeing Jackson inside this room, and Jackson was never held there. Jackson ran outside into Sovio City during the tremor. Any claims of Jackson being rescued at (37, 14) were context summarizer hallucinations.
 
-## Active Hypothesis H137: Post-Retreat Subterranean & Digital System Audit (Initiated Turn 23314)
-- **Premise**: All surface facilities, civilians, and external routes (Route 1, Lancio Town) are confirmed static baseline. The unresolved story blocker ("I should find dad first!") must originate from either unexamined subterranean sectors post-retreat or digital system interactions.
+## Concluded Hypothesis H137: Post-Retreat Subterranean & Digital System Audit (Concluded Turn 23425 - FALSIFIED)
+- **Premise**: All surface facilities, civilians, and external routes (Route 1, Lancio Town) were confirmed static baseline. Investigated subterranean sectors post-retreat and digital systems for Dad's trail.
 - **Sub-Hypotheses**:
-  - **H137-A (HuPhone System & Quest Status Audit - CONCLUDED Turn 23328)**: Comprehensive audit completed across all digital apps: World Map (zero objective flags/markers), Mailbox ("There's no Mail here."), Quest Log (Page 1 verified; main story milestones confirmed absent). HuPhone contains zero pending communications or active directives.
-  - **H137-B (Sovio Sewers Post-Retreat Sector Audit - ACTIVE Turn 23328)**: Systematically audit accessible sectors of Sovio Sewers post-Marie retreat.
+  - **H137-A (HuPhone System & Quest Status Audit - CONCLUDED Turn 23328)**: Comprehensive audit completed across all digital apps: World Map (zero objective flags/markers), Mailbox ("There's no Mail here."), Quest Log (Page 1 verified; main story milestones confirmed absent). Zero pending communications.
+  - **H137-B (Sovio Sewers Post-Retreat Sector Audit - CONCLUDED / FALSIFIED Turn 23425)**: Comprehensive audit completed across all accessible sewer sectors post-retreat:
     - *Western Terrace (Audited Turn 23382)*: Rows 11-12, cols 12-17 verified 100% static baseline; 0 NPCs, 0 items, 0 triggers.
-    - *Wall Ladder (Audited Turn 23383)*: Col 15, rows 6-10 circular-ring ladder verified clear; connects to row 5.
+    - *Wall Ladder (Audited Turn 23383)*: Col 15, rows 6-10 circular-ring ladder verified clear; connects row 11 to row 5.
     - *Northern Gangway (Audited Turns 23390-23392)*: Row 5 gangway (cols 15-23) verified 100% static; 0 NPCs, 0 items.
     - *Column 23 Bridge (Traversed Turns 23398-23400)*: Connects row 5 south across void chasm to row 13 at (23, 13).
-  - **Stopping Condition & Falsification Boundary**: Inspect Eastern Storage Platform (36-38, 12-14) and storage door (37, 14). If confirmed static baseline with zero NPCs/items/triggers, H137-B is permanently FALSIFIED and Sovio Sewers will be permanently closed as an investigation avenue.
+    - *Eastern Storage Platform & Door (37, 14) (Audited Turn 23425)*: Displays verbatim "Its a simple storage room.."; row 15 solid collision; 0 NPCs, 0 items, 0 triggers.
+    *Conclusion*: Sovio Sewers post-retreat is 100% static baseline with zero Dad leads or story flags. H137-B is permanently FALSIFIED. Sovio Sewers is permanently CLOSED.
+
+## Active Hypothesis H138: Metro Platform Access & Jackson Reunion Pivot (Initiated Turn 23425)
+- **Premise**: With Sewers, Lancio Town, Route 1, and digital systems conclusively verified static, Dad is not hidden in any side dungeon or external town. The narrative context: Dad ran out to check the tremor, and Valora was at the station. We must exit the sewers back to the Metro lobby and re-examine the immediate transit environment.
 - **Current Plan**:
-  1. Walk east along row 13 to Eastern Storage Platform at (36-38, 12-14).
-  2. Inspect storage door at (37, 14) facing South.
-  3. Formally conclude H137-B as falsified and exit Sovio Sewers.
+  1. Dismiss storage door textbox and navigate back through sewers to wooden staircase at (38, 22).
+  2. Ascend to Metro Station lobby.
+  3. Re-examine Metro Station lobby, turnstiles, and immediate surface perimeter.
