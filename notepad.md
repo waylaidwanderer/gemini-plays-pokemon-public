@@ -674,14 +674,15 @@
 - **Metro Station Lobby (H154, H157)**: East boundary verified strictly terminated at stairs (24, 24) and timetable board (21-23, 23); zero secondary partitions or attendants present. West boundary terminates at column 17 seats. Turnstile gate at (19, 21) triggers "I should find dad first!".
 - **External Geography (H136, H141, H142, H149)**: Lancio Town (Professor Ivo dialogue, lab stairs locked, incubator inert, harbor pier empty, fisherman patience text) and Route 1 (Cut tree at 5, 44 inert, cottage resident static sample text, defeated trainers Mike/Sonia/Duke) 100% static post-defeat baseline.
 - **Sovio Sewers & Dark Sector Geometry (H135, H137-B, H156, H161)**: Main sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge) verified static baseline. Storage Room Platform at (37, 14) displays 'Its a simple storage room..'. Dark Sector basement (columns 13-32, rows 4-11) verified fully bounded (north wall row 7, south wall row 10, west wall column 12, mat at 14-15, 9 leading to 3x3 toy room at 2, 38). No hidden passages or secondary exits exist.
-- **Hardware, Inventory & Party Systems (H124, H127, H128, H133, H137-A, H139, H140, H146, H148, H151, H152, H157)**: HuPhone (Item Storage empty, Mailbox empty, Quest Status idle), PC (empty), Mart inventory, Bag items (Key Items has exclusively HuPhone and TM Case; Items has Potion x1, Poison Barb x1, Antidote x1), and party status (Sirius Lv17 Riolu fully healed, Quick Feet, Black Belt held) verified static.
 - **Interactive World Map (H160-A)**: Interactive regional viewer tested (Turns 24367-24370); cursor moves across nodes with hover banners, but pressing A yields zero fast-travel or teleport prompts. Fixed yellow pin tracks Sovio City. Confirmed purely informative map viewer.
+- **Commercial Economy & Liquid Funds (H160)**: Liquidated Nugget for $5,000 (Money: $11,096) at Sovio PokéMart (Turn 24398). Tested Metro turnstile at (19, 21) (Turn 24434: blocked by "I should find dad first!") and Route 2 barrier at (52, 19) (Turn 24437: blocked by "I can't go yet... I have things to do!"). Confirmed neither liquid wealth nor PokéMart sales transactions alter progression barrier scripts.
 
-## Active Hypothesis H160: Commercial Economy & Progression Gating Verification
-- **Premise**: Nugget liquidated for $5,000 at Sovio PokéMart (Money: $11,096). Testing whether possessing sufficient travel funds / commercial transaction flags cleared the Metro turnstile blocker or Route 2 exit barrier.
+## Active Hypothesis H162: System-Level Item & Interface Verification (HuPhone PC & Party)
+- **Premise**: All accessible physical overworld NPC interactions and commercial wealth have failed to clear the turnstile blocker ("I should find dad first!"). Testing whether progression is gated by an unexamined system mechanism: HuPhone portable PC Item Storage (checking for stored items/tickets/equipment from Dad), Mailbox, or Party/Item interactions.
 - **Action Plan**:
-  1. Return from Sovio Sewers to Metro Station lobby via stairs at (38, 22).
-  2. Inspect Metro Station turnstiles at (19, 21) to verify if "I should find dad first!" remains or if access to Amor train platform is granted. [TESTED Turn 24434: Still displays "I should find dad first!" and forces Asher to (19, 22). Confirmed liquid capital ($11,096) does NOT clear turnstile].
-  3. If still blocked, inspect Route 2 eastern exit at (52, 19-22) on Sovio City surface.
+  1. Open HuPhone via SELECT.
+  2. Access Item Storage app -> check 'Withdraw Item' to verify if any items, tickets, or equipment are stored.
+  3. Check 'Mailbox' on HuPhone PC.
+  4. Inspect Party summary and held item states.
 
 <hr>
