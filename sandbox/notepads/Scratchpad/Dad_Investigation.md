@@ -12,9 +12,6 @@
 - Verified: In Turn 24206, the sewer storage room at (37, 14) displayed "Its a simple storage room..". Jackson was not observed inside.
 
 ## Active Grounded Hypotheses & Physical Inspection Log
-- **Hypothesis O1 (Sovio City Outdoor Search for Jackson & Tremor Epicenter)**:
-  - Jackson ran outside into Sovio City to investigate the tremor.
-  - Fountain perimeter and southeast park paths audited with zero clues.
 - **Metro Platform Verification (Turn 25352)**:
   - Turnstile at (19, 21) gates the platform with "I should find dad first!". Visual audit confirms platform contains only yellow vending machine, 2 blue chairs NW, and 2 blue chairs NE; zero NPCs or ticket counters present.
 - **Hypothesis T2 (Repel-Assisted Subterranean Sewer Audit)**:
