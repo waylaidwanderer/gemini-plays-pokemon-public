@@ -22,6 +22,6 @@
 - **Target Variables**:
   1. Camper Interaction (Medic! Quest): Confirmed static baseline per Turn 23913 audit; talking to Camper with Antidote in bag yields unchanged ambient joke dialogue. No item handoff prompt exists. Concluded static.
   2. HuPhone World Map: Empirically tested in Turn 24038; pressing 'A' on location nodes produces no action or menu. Visual display viewer only. Concluded inert.
-  3. Bag & Item Interactive Prompts: Inspect item submenus (Antidote, Potion, Poison Barb, Nugget, Key Items) to audit untried commands, descriptions, or contextual uses.
+  3. Bag & Item Interactive Prompts: [COMPLETED] TM Case confirmed infinite use (TM17 taught to Zephyr). Nugget "Use" yields Ivo refusal text ("This isn't the time to use that!"). Antidote/Potion standard medicine. Items pocket audited.
 - **Causal Mechanism**: If progression is gated by town tasks ("I have things to do!") or registering/triggering specific quests (like "Medic!"), activating these causal variables will change the internal monologue state or provide actionable progression clues.
-- **Stopping Boundary**: Complete testing of Target 3, document exact game responses, and evaluate changes to progression blockers.
+- **Outcome & Conclusion**: Target variables 1-3 evaluated. Camper dialogue static, World Map visual only, Bag items standard. Internal monologues ("I should find dad first!", "I can't go yet... I have things to do!") remain unchanged.
