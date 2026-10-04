@@ -21,6 +21,6 @@
     2. Immediately activate Repel from Bag (Lv17 Sirius leads party, 100% suppressing Lv4-7 wild encounters).
     3. Route west along row 28 straight to column 18, then north along columns 17-18 to western stairs (14, 16).
     4. Ascend to Western Terrace (14, 12) and climb ladder at (15, 11) to Northern Gangway (row 5).
-    5. Cross bridge at column 23, follow row 13 east to storage room platform (37, 14) and audit tiles.
-    6. Audit column 30 causeway and Dark Sector staircase at (30, 4).
+    5. Cross bridge at column 23, follow row 13 east to storage room platform (37, 14) and audit tiles. Confirmed: tile (37, 14) red arrow mat displays "Its a simple storage room..." facing south; downward movement blocked by void edge.
+    6. Audit column 30 causeway and Dark Sector staircase at (30, 4). Climbed column 30 causeway to (31, 4), preparing to enter Dark Sector.
     7. No aborting: Repel guarantees zero battle interruptions for 900 total steps.
