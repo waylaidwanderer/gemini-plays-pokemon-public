@@ -672,18 +672,15 @@
 - **Sovio Sewers Comprehensive Audit (H135, H137-B - FALSIFIED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero items, zero story flags. Sewers permanently CLOSED.
 - **Sovio City Physical Perimeters & Fixtures (H138 - FALSIFIED)**: Metro Station lobby (west seating), Central Plaza fountain perimeter (walkable curb/terrace, decorative floor markings), West Avenue commercial facade (shutters at 24-25, 16 solid), and Route 2 barrier (active at 52, 19) 100% verified static baseline. Zero new triggers or passages exist in the overworld.
 - **Live Inventory & Party Verification (H139 - CONCLUDED)**: Audited all Bag pockets directly in-game: Items (Potion x1, Poison Barb x1, Antidote x1, Nugget x1), Key Items (HuPhone registered to Select, TM Case), TMs (TM17 Protect, TM48 Work Up, 0 HMs), Poké Balls (Timer Ball x1, Poké Ball x10), and Party Pokémon (Sirius Lv17, Zephyr Lv2). 100% matches established baseline.
+- **Alternative System & Mechanic Audits (H140 - CONCLUDED)**: Trainer Card (ID 54592, Money ¥6096, 8 empty tournament rounds, 6 empty crest silhouettes), Timetable Board (scenic text), 20:00 clock threshold (turnstile at 19, 21 repeats static blocker), and HuPhone Item Storage (Withdraw Item audited empty: "There are no items.") 100% verified static baseline.
 
-## Active Hypothesis H140: Alternative System & Mechanic Investigation
-- **Premise**: With all physical overworld sectors, interiors, and inventory items verified static, progression cannot be achieved by re-walking urban tiles. We must investigate fundamentally distinct, untested game systems and mechanics.
-- **Specific Unexplored Variables to Test**:
-  1. *Trainer Card Audit*: Concluded. Front (ID 54592, Money ¥6096, 8 empty tournament round slots) and Back (regional sun/hand emblem, 6 empty crest silhouettes) 100% verified baseline.
-  2. *Clock & Timetable Mechanics*: Concluded. At 20:00 threshold, timetable and turnstile at (19, 21) verified static ("I should find dad first!"). Timetable is scenic narrative lore.
-  3. *HuPhone Item Storage / Withdraw Item Audit*: Concluded. Direct in-game verification: PC Item Storage is completely empty ("There are no items."). Zero items, tickets, or equipment stored.
+## Active Hypothesis H141: Route 1 Thorough Audit & Southern Expansion
+- **Premise**: With all physical overworld sectors, interiors, digital systems, inventory, and mechanics in Sovio City and Sovio Sewers 100% conclusively verified static, continuing to pace urban tiles violates stopping conditions. We must expand the search space outside Sovio City. Route 1 is the only unblocked external gateway. We will exit south and audit Route 1's non-highway features (Cottage surroundings, meadow, Cut tree perimeter, rock spire).
 - **Falsification & Stopping Boundaries**:
-  - Strictly prohibit re-auditing previously verified static coordinates (fountain, Pokémon Center exterior, West Avenue facade, turnstile angles).
-  - Conclude each system check within 5 turns before pivoting.
+  - Strictly prohibit re-walking Central Plaza, West Avenue, or Metro lobby tiles.
+  - Route directly south along Southern Avenue to Route 1.
 - **Current Plan**:
-  1. Press B to dismiss turnstile blocker text and settle at (19, 22).
-  2. Formulate new investigation vector.
+  1. Navigate south along Southern Avenue (columns 14-15) to Route 1 gateway (row 40-41).
+  2. Transition to Route 1 and audit specific features.
 
 <hr>
