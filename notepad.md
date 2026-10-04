@@ -688,15 +688,19 @@
 - **Terrace Exterior**: Elevated terrace above Metro portal has no active NPCs or secret passages; manhole at (51, 16) is inert.
 
 ## Active Investigation & Progression Re-evaluation (Updated Turn 27151)
-### Hypothesis H11: Sovio City Post-Tremor Exploration & Event Flag Audit
-- **Premise**: Lancio Town and Route 1 have zero active story triggers (verified negative). The progression gate to Amor City resides strictly in Sovio City. Rather than re-testing verified static objects like the storage room door, we need to locate where Dad (Jackson) went after the tremor, check all unvisited or re-triggered areas in Sovio City, inspect the HuPhone quest log/apps, and identify the exact unresolved event clearing the Metro turnstile barrier ("I should find dad first!").
-- **Routing Plan**:
-  1. In Sovio City, audit all key locations and check whether any interaction triggers Dad's event.
+### Hypothesis H11: Sovio City Plot & Metro Platform Attendant Audit (Updated Turn 27241)
+- **Premise**: Lancio Town, Route 1, the HuPhone, and all Sovio City civilian residences (Nana, Wii house, Gumball, Karate, Name Rater) are confirmed static negative constraints. The Covered Commercial Corridor was 100% audited and confirmed inert (Turns 27213-27216). Progression is gated strictly by finding Dad to clear the Metro turnstiles ("I should find dad first!").
+- **Rigorous Falsification & Focus**:
+  1. Civilian interiors are permanently eliminated from active investigation.
+  2. Primary audit target is the Sovio Metro Station:
+     - Audit the Metro platform attendant in the northeast blue chair (visually confirmed Turn 27202): test if interaction is possible from any accessible lobby tile or angle.
+     - Audit timetable board, scanner pillars, and turnstile perimeter from all adjacent coordinates.
+  3. Secondary audit target: Central Plaza confrontation perimeter where Mother and grunts withdrew.
 - **HuPhone In-Game System Audit (Verified Turns 27184-27192)**:
   1. Quest Status: Confirmed verbatim: "You aren't doing any Quest currently...". Zero active side quests or story tracking in Quest Log.
   2. Quest List: Page 1 shows Lost Pidgey (Completed), Lost Toy (Completed), Egg Research/Medic/Squirtle Gang (Uncompleted).
   3. Mailbox: Confirmed verbatim: "There's no Mail here.". Zero incoming messages from Dad or others.
   4. Item Storage (Withdraw Item): Confirmed verbatim: "There are no items.". Zero stored items in PC.
-- **Deduction & Focus**: All personal communication and quest systems are 100% verified empty. Active objective remains finding Dad in Sovio City to clear the Metro turnstile barrier ("I should find dad first!").
+- **Deduction & Focus**: Personal communication and quest systems are 100% verified empty. Active objective remains resolving the Metro turnstile barrier ("I should find dad first!") by focusing strictly on plot-relevant Metro and Central Plaza triggers.
 
 <hr>
