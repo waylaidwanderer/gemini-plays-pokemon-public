@@ -694,10 +694,9 @@
 - **Metro Platform Verification (Turn 25352)**:
   - Turnstile at (19, 21) gates the platform with "I should find dad first!". Visual audit confirms platform contains only yellow vending machine, 2 blue chairs NW, and 2 blue chairs NE; zero NPCs or ticket counters present.
 - **Hypothesis T2 (Repel-Assisted Subterranean Sewer Audit - COMPLETED)**:
-  - Repel-assisted subterranean audit executed turns 25413-25455.
+  - Note: Dark Sector (30, 4) was NOT entered during Turns 25413-25455 (player turned back at 31, 4). Post-tremor state of Dark Sector remains unverified empirically.
   - Storage room at (37, 14) re-verified static ("Its a simple storage room...").
-  - Dark Sector and Deep Subterranean fully documented and cleared (Nugget, Lost Toy).
-  - Conclusion: Sewers are completely exhausted of NPCs, items, and triggers. Dad is not underground.
-  - Active Plan: Systematic surface investigation across Sovio City facilities and residences.
+  - Surface audit: Sovio residences previously confirmed as static Easter eggs (Turns 25015-25216).
+  - Active Priority: Complete honest empirical verification of unverified areas (Dark Sector post-tremor) and re-examine core progression blockers.
 
 <hr>
