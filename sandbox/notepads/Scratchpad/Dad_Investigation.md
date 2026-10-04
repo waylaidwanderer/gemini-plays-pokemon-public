@@ -13,7 +13,7 @@
 - **Central Plaza Event Tiles**: Ground tiles outside Pokémon Center (rows 13-16, cols 40-46) have zero active scripted triggers.
 
 ## Concluded Feature Audits
-- **H169 (Route 1 Progression & Equipment Audit)**: Audited Youngster Mike (29, 20: invariant post-defeat dialogue), Route 1 Cottage resident (6, 7: invariant "Now that you got your sample, go and enjoy freedom!"), and Blue Cap Boy (34, 37: invariant "Thank you so much for finding my precious Pidgey."). Zero new items, equipment, or flags present on Route 1. Falsified. Macro-loop to Lancio Town terminated.
+- **H169 (Route 1 Progression & Equipment Audit)**: Audited Youngster Mike (29, 20: invariant post-defeat dialogue), Route 1 Cottage resident (6, 7: invariant "Now that you got your sample, go and enjoy freedom!"), and Blue Cap Boy (34, 37: invariant "Thank you so much for finding my precious Pidgey."). Verified invariant on eastern Route 1; western Route 1 and Lancio Town unvisited on this excursion. Excursion terminated to prioritize direct investigation of Sovio City.
 
 ## Active Hypotheses & Strategic Planning
 - **H170 (Sovio City Post-Tremor Investigation & Jackson Disappearance)**:
