@@ -676,17 +676,23 @@
 # Scratchpad: Post-Tremor Investigation & Progression Hypotheses
 
 ## Core Active Progression Barriers
-- **Metro Turnstile (19, 21)**: Scripted barrier triggers verbatim "I should find dad first!" and forces Asher south to (19, 22). Gates train platform to Amor City.
+- **Metro Turnstile (19, 21)**: Scripted barrier triggers verbatim "I should find dad first!" and forces Asher south to (19, 22). Re-verified Turn 26515. Gates train platform to Amor City.
 - **Route 2 Eastern Exit (52, 19-22)**: Scripted barrier verified at (52, 21); triggers verbatim "I can't go yet... I have things to do!" and forces Asher west to (51, 21).
 
 ## Concluded & Disproven Hypotheses (Archived)
-- **S1 (Sovio Sewers Post-Tremor Audit)**: Concluded (Turns 26418-26440); Eastern Storage Platform (37, 14) confirmed static decorative room ("Its a simple storage room.."). Dark Sector rugged rock equipment-gated. Sewers 100% exhausted. Enforced Exit Rule.
-- **R1 (Lancio Town / Lab / Route 1 Backtracking)**: Rejected per Critique Turn 26490. Backtracking to Lancio Town/Route 1 is an ungrounded macro-loop. No new items, badges, or game variables have been acquired since Turn 26052 when Professor Ivo and the lab basement were verified static post-tremor.
+- **S1 (Sovio Sewers Post-Tremor Audit)**: Concluded (Turns 26418-26440); Eastern Storage Platform (37, 14) confirmed static decorative room ("Its a simple storage room.."). Dark Sector rugged rock equipment-gated. Sewers 100% exhausted.
+- **R1 (Lancio Town / Lab / Route 1 Backtracking)**: Disproven. Backtracking to Lancio Town/Route 1 is ungrounded as Professor Ivo ("Hey, Ashi...") and lab basement stairs ("I probably shouldn't head down here...") were verified static post-tremor on Turns 26052 and 26058, with zero new items or badges acquired.
 
 ## Active Hypotheses & Strategic Focus
-- **Hypothesis D1 (Sovio City Investigation)**:
-  - Premise: Jackson ran outside into Sovio City during the tremor to investigate. The Metro turnstile explicitly requires finding Dad ("I should find dad first!"). Therefore, Jackson or the unresolved event triggering his return must be located in Sovio City.
-  - Target 1: Central Plaza facilities. Check Pokémon Center (44, 12) interior (especially eastern lounge/seating area) and Terrace House (49, 14) for any missed dialogue or triggers.
-  - Target 2: Audit all Sovio City exterior structures, doors, and NPCs systematically to identify any unexamined interactive entities.
+- **Hypothesis D1 (Sovio City Urban Investigation)**:
+  - Premise: Jackson ran outside into Sovio City during the tremor to investigate. The Metro turnstile explicitly requires finding Dad ("I should find dad first!"). Therefore, Jackson or the event triggering his return must be located in Sovio City.
+  - **Target 1: Central Plaza Facilities**:
+    - *Pokémon Center (44, 12)*: Audited Turns 26501-26504. Ground floor east wing (columns 10-13, row 8) verified vacant of NPCs or items. Mezzanine and main floor contain standard staff and ambient dialogue.
+    - *Covered Corridor (48-51, 20-22)*: Audited Turn 26508. Row 23 southern wall at (48, 22) confirmed solid collision with zero text or interactive triggers.
+    - *Terrace House (49, 14)*: Currently investigating. Enter teal door from (47, 15) curb; audit Nana (62, 31), Granddaughter (63, 33), and appliances (63-65, 30) for updated post-tremor dialogue.
+  - **Target 2: Systematic Sovio City Urban & NPC Audit**:
+    - North-Central: House at (39, 7) (elderly man and son with Wii) and Tan Building (32-37, 8-12) facade.
+    - Central-West & Northwest: House at (29, 14) (Gumball family) and House at (14, 15) (Karate family).
+    - West Avenue & Southwest: Office building facade (col 11), Name Rater (31, 26), and buildings at (23-28, 24-26) / (18-21, 26-29).
 
 <hr>
