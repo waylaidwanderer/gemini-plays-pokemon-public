@@ -702,6 +702,6 @@
     - Target 5 (Central Park Boy in Pink Shirt at 32, 20): Audited Turn 25652. Verbatim dialogue: "I'm supposed to meet a girl here, but she doesn't seem to show up... Was I catfished?". Ambient dating humor. Zero tremor/Dad leads.
     - Target 6 (Terrace House above Metro at 49, 14): Audited Turns 25658-25662. Granddaughter retains ambient text ("Nana makes the best food! Weeeee!"). Zero tremor/Dad leads.
     - Target 7 (Terrace Deck & Route 2 Exit at 52, 19): Audited Turn 25676. Route 2 barrier confirmed STILL ACTIVE ("I can't go yet... I have things to do!").
-    - Target 8 (Sovio Metro Station Lobby & Turnstiles at 48, 17): Next target.
+    - Target 8 (Sovio Metro Station Lobby & Turnstiles at 19, 21): Testing turnstiles for progression.
 
 <hr>
