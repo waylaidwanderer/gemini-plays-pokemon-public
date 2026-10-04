@@ -690,9 +690,8 @@
     - *Pokémon Center (44, 12)*: Audited Turns 26501-26504. Ground floor east wing (columns 10-13, row 8) verified vacant of NPCs or items. Mezzanine and main floor contain standard staff and ambient dialogue.
     - *Covered Corridor (48-51, 20-22)*: Audited Turn 26508. Row 23 southern wall at (48, 22) confirmed solid collision with zero text or interactive triggers.
     - *Terrace House (49, 14)*: Audited Turns 26526-26528. Granddaughter (63, 33) repeats "Nana makes the best food! Weeeee!" and Nana (62, 31) repeats "I'm cooking something for my dear grandkid. She loves my cooking...". Entire residence confirmed static ambient civilian home. Target 1 fully complete.
-  - **Target 2: Systematic Sovio City Urban & NPC Audit**:
-    - North-Central: House at (39, 7) audited Turns 26534-26539. 1F elderly man (41, 33) repeats ambient Wii text; 2F son (44, 14) repeats ambient gaming text ("I love the games on the Wii!"). House confirmed 100% static ambient residence.
-    - Central-West: House at (29, 14) audited Turns 26546-26551. 1F boy (25, 32) repeats "I love this show!"; Mother (27, 33) repeats "My son is watching some cartoon...". Confirmed ambient cartoon Easter egg residence. Next: Karate House (14, 15).
-    - West Avenue & Southwest: Office building facade (col 11), Name Rater (31, 26), and buildings at (23-28, 24-26) / (18-21, 26-29).
+  - **Target 2: Grounded Investigation of Tremor & Team Siara Withdrawal**:
+    - Focus on physical and narrative variables of the tremor and Siara's retreat rather than ambient civilian homes.
+    - Eastern Exit / Route 2 Approach (columns 50-52, rows 17-22): Inspect signpost at (50-51, 18), rear walkable tile at (51, 17), and Route 2 barrier at (52, 19-22) where Team Siara withdrew eastward.
 
 <hr>
