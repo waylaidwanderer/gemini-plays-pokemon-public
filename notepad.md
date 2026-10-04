@@ -676,25 +676,28 @@
 
 <h1><code>Scratchpad/Dad_Investigation</code></h1>
 
-# Scratchpad: Progression Gating & Investigation Constraints
+# Scratchpad: Post-Tremor Investigation & Progression Hypotheses
 
 ## Core Active Progression Barriers
-- **Metro Turnstile (19, 21)**: Scripted barrier triggers "I should find dad first!" and forces Asher south to (19, 22). Gates train platform to Amor City. Verified active Turn 25010-25011.
-- **Route 2 Eastern Exit (52, 19-22)**: Continuous boundary blockage (rows 14-18 solid building facade collision; rows 19-22 trigger story barrier "I can't go yet... I have things to do!").
-- **Professor Ivo's Lab Basement Stairs (12, 7)**: Red mat trigger displays "I probably shouldn't head down here..." in Lancio Town.
+- **Metro Turnstile (19, 21)**: Scripted barrier triggers verbatim "I should find dad first!" and forces Asher south to (19, 22). Gates train platform to Amor City.
+- **Route 2 Eastern Exit (52, 19-22)**: Trigger text "I can't go yet... I have things to do!" completely blocks eastern passage along rows 19-22 toward Route 2.
 
-## Active Investigation Baselines
-- **System & Inventory**: Liquid wealth ($11,096), Poké Balls (10 Poké Balls, 1 Timer Ball), TMs (TM17, TM48).
-- **Party State**: Sirius (Riolu Lv17, HP 47/47, full health), Zephyr (Pidgey Lv2). Checkpoint set at Sovio City Pokémon Center (Turn 25017-25018).
+## Context & Narrative Premise
+- Asher, Dad (Jackson), and Valora prepared to board the train to Amor City in the Sovio Metro Station.
+- A sudden seismic tremor shook the station. Dad ran outside into Sovio City to investigate the source.
+- Team Siara operated in the Sovio Sewers beneath the station; in an initial cutscene, grunts held Jackson in a storage room awaiting Commander Marie.
+- Asher fought through the sewers; Marie broadcast a radio retreat order and all grunts vacated the sewers.
+- However, the Metro turnstile still triggers "I should find dad first!", and the storage room door at (37, 14) displays "Its a simple storage room..". Jackson and Valora are unaccounted for.
 
-## Active Hypotheses & Strategic Planning
-- **H172 (Sovio City Rigorous Investigation)**:
-  - **Premise**: The Metro turnstile ("I should find dad first!") and Route 2 exit ("I can't go yet... I have things to do!") are localized to Sovio City. Dad or the trigger to resolve the post-sewer situation must be in Sovio City.
-  - **Audit Targets**:
-    1. Pokémon Center: Ground floor audited [Nurse Joy, Resident Boy at (8, 4), Corner PC at (12, 1) verified Box 1/Mailbox/Item Storage empty, Framed Town Map at (11, 0) verified opening regional map UI; Camper at (5, 7) and Upper Mezzanine were skipped during recent visit Turns 25015-25048].
-    2. Central Plaza: Exterior plaza tiles, terrace house at (49, 14) [Audited: Granddaughter ("Nana makes the best food! Weeeee!") and Nana ("I'm cooking something for my dear grandkid...") confirmed 100% unchanged. House complete], North Central house at (39, 7) [Audited: 1F elderly man at (41, 33) confirmed unchanged; 2F was not interacted with during visit]. Target 2 COMPLETE.
-    3. Route 2 Gate: Physical re-test of rows 19-22 at column 52 [COMPLETE: Physically tested at (52, 19) in Turn 25095; verbatim barrier text confirmed active: "I can't go yet... I have things to do!"]. Target 3 COMPLETE.
-    4. Central Park: Date couple (33, 22 & 43-45, 23-26), children & Jigglypuff (33-35, 28), fountain terrace [Visually identified during transit; not interacted with].
-    5. West Avenue: Three Bikers at (13, 21-23) [Audited: motorcycle gang flavor text]; Karate house at (14, 15) [Audited: 1F Karate couple debate; 2F blue cabinet and bookshelf verified; Machop unverified due to wandering]; Boy Rocky & Rocky at (23-24, 17); Gumball house at (29, 14); Name Rater at (31, 26).
+## Testable Hypotheses Focused on Tremor & Subterranean Site
+- **Hypothesis T1 (Metro Station Platform & Attendant Trigger)**:
+  - Re-examine the Metro Station lobby and platform perimeter.
+  - Verify every tile and interaction in the station lobby (turnstiles, timetable, ticket counters, seating) post-sewers.
+- **Hypothesis T2 (Sovio Sewers Storage Room & Subterranean Audit)**:
+  - Jackson was shown in the sewers storage room. After grunts retreated, what physical state was left?
+  - Re-examine platform (37, 14), walls, and triggers.
+  - Audit rugged rock barriers at (10, 18)/(9, 17) in southwest corridor and (22, 10) in Dark Sector to verify if any alternate passage or clue was uncovered by the tremor.
+- **Hypothesis T3 (Valora's Whereabouts as Bridge to Jackson)**:
+  - Valora entered the station with Asher and Dad. Locate where Valora is positioned or if she provides dialogue directing Asher to Jackson.
 
 <hr>
