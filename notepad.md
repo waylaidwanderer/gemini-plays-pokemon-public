@@ -690,8 +690,7 @@
   - Premise: Having exhausted Central Plaza, civilian interiors, and the Eastern Exit, we must investigate the remaining peripheral exterior sectors and structural anomalies of Sovio City.
   - **Sub-target A: Central Park Southwest Gateway & Plaza (Cols 33-35, Rows 22-26)**:
     - Inspect the open gateway at (34, 26-27), the Central Park plaza area around (33-35, 22-25), and the western pond shoreline.
-  - **Sub-target B: Dead-End Hedge Alcove (42, 30)**:
-    - Inspect the southern curb and hedge alcove at (42, 30).
+  - **Sub-target B: Dead-End Hedge Alcove (42, 30)**: Concluded Turn 26588. Tested all facings; confirmed standard decorative hedge dead-end with zero items or triggers.
   - **Sub-target C: Southwest Perimeter & Rear Biker Lane (Col 12, Rows 20-30)**:
     - Audit Rear Biker Lane (column 12, rows 20-30) and southwest dead-end lawn (12-15, 30).
   - **Falsification / Exit Criteria**: If all peripheral exterior sectors yield only ambient collision and zero narrative triggers, conclude all exterior Sovio City geography is 100% verified.
