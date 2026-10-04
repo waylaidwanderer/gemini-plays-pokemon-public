@@ -5,7 +5,6 @@
 - **Route 2 Eastern Exit (52, 19-22)**: Trigger text "I can't go yet... I have things to do!" completely blocks eastern passage along rows 19-22 toward Route 2.
 
 ## Empirical Survey Findings
-- **Commercial Building Roof Corridor (Columns 47-48, Rows 20-22)**: Walkable covered passage confirmed beneath the northern roof section. Entered south from (48, 19) into (48, 20-22). Row 23 is blocked to the south. At row 22, Asher can step west into (47, 22) peeking out beside the trash can at (46, 22); row 23 from (47, 22) is blocked.
 - **Sovio Sewers Survey (Turns 25413–25495)**: All accessible open floor tiles in 1F, Dark Sector basement, and Deep Subterranean chamber audited under Repel. No NPCs, items, or cutscene triggers present post-tremor. Storage room (37, 14) displays static flavor text ("Its a simple storage room.."). Equipment-gated obstacles remain: rugged rocks at (10, 18), (9, 17), and Dark Sector (22, 10).
 - **Route 1 Traversal Constraints**: Northern section does not connect south to Lancio Town on foot (row 39 hedge lines, shoreline cliffs, rock spires).
 - **Sovio City Surface Audit (Turns 25614–25676)**: All civilian residences (Karate house, Gumball house, terrace house above Metro), Bikers, Boy Rocky, Central Park daters, and Route 2 barrier (52, 19) audited. All civilian NPCs retain static ambient dialogue. Route 2 exit remains gated ("I can't go yet... I have things to do!").
