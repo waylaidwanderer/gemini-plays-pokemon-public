@@ -349,7 +349,7 @@
 
 - **Building at (23-28, 24-26)**: Two-story building between Name Rater and southwest building. Decorative wooden shutters at (24-25, 26) have solid collision with no warp or text. Sidewalk terminates west at column 22 against southwest building wall with solid collision.
 
-- **Residential House (South Central - Name Rater)**: Located at (31, 26). Interior lands at (65, 17) on red exit mat. Resident: Official Name Rater at (64, 14) behind stool (64, 15) (verified post-tremor Turn 27378: "Hello, hello! I am the official Name Rater!"). Confirmed standard nickname rating service.
+- **Residential House (South Central - Name Rater)**: Located at (31, 26). Interior lands at (65, 17) on red exit mat. Resident: Official Name Rater at (64, 14) behind stool (64, 15) (verified post-tremor Turn 27378: "Hello, hello! I am the official Name Rater!"). North wall fixtures (verified Turn 27381): bookshelves at (64-65, 12) ("It's crammed full of Pokémon books.") and TV at (62, 12) ("The TV is off..."). Confirmed standard nickname rating service.
 
 ## North-Central Commercial/Residential Block
 
@@ -704,6 +704,6 @@
    - *Status*: Every single Sovio City residential interior and overworld NPC verified post-tremor with explicit turn citations (Turns 26539-27378).
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (Name Rater North Wall Fixtures & Post-Summarization Synthesis - Active)**: Dismiss Name Rater dialogue at (65, 14), step to (65, 13) to inspect north wall fixtures (61-66, 12), and synthesize next non-spatial or boundary hypothesis.
+- **Audit Target 1 (Sovio Sewers Unverified Boundaries & Storage Platform - Active)**: Name Rater house (31, 26) north wall fixtures verified inert (Turn 27381). In `Locations/Sovio_Sewers`, the Western Terrace west boundary beyond column 12 (rows 11-12) is explicitly marked unverified. Navigate to Sovio Sewers via Metro Station to test the Western Terrace west of column 12 and inspect the Eastern Storage Platform (36-38, 12-14).
 
 <hr>
