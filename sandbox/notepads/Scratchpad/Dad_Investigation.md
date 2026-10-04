@@ -19,6 +19,6 @@
   1. Travel south from Sovio City into Route 1. (Completed)
   2. On Route 1, check the Cut tree at (5, 44).
   3. Travel west into Lancio Town.
-  4. Audit the harbor dock at rows 23-26, columns 32-34.
+  4. Audit the harbor dock at rows 23-26, columns 32-34. (Completed - Turn 27068: pier empty, Harry absent, no boat moored)
   5. Enter Professor Ivo's Lab; speak directly to Professor Ivo at (20, 6) and physically step onto the basement stairs at (12, 7).
 - **Falsification Criteria**: If Route 1 shows zero changes, the harbor dock remains empty, Professor Ivo repeats static dialogue ("Hey, Ashi, how's your new Pokémon?"), and lab basement stairs remain blocked ("I probably shouldn't head down here..."), then Lancio Town and Route 1 are conclusively eliminated as active story triggers.
