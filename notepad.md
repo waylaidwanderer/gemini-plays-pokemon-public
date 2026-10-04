@@ -682,5 +682,6 @@
 - **Current Plan**:
   1. Dismiss Duke's dialogue (verified static baseline) and route west along row 11 toward column 37.
   2. Audit the northern clearing, Roadside Cottage (37, 24) perimeter, and western Route 1 features.
+- **Route 1 Northern Meadow & Red Rock (35, 7)**: Red object at (35, 7) audited directly with A and walk tests; confirmed solid decorative rock with zero interaction. Meadow is the site of the completed 'Lost Pidgey' side quest.
 
 <hr>
