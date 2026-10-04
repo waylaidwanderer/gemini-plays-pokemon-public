@@ -20,12 +20,11 @@
 - **Premise**: With all physical overworld sectors, interiors, and inventory items verified static, progression cannot be achieved by re-walking urban tiles. We must investigate fundamentally distinct, untested game systems and mechanics.
 - **Specific Unexplored Variables to Test**:
   1. *Trainer Card Audit*: Concluded. Front (ID 54592, Money ¥6096, 8 empty tournament round slots) and Back (regional sun/hand emblem, 6 empty crest silhouettes) 100% verified baseline.
-  2. *Clock & Timetable Mechanics*: Concluded. Timetable board at (22, 23) displays static destination flavor text ("It's a timetable showing various destinations!").
+  2. *Clock & Timetable Mechanics*: Concluded. At 20:00 threshold, timetable and turnstile at (19, 21) verified static ("I should find dad first!"). Timetable is scenic narrative lore.
   3. *HuPhone Item Storage / Withdraw Item Audit*: Concluded. Direct in-game verification: PC Item Storage is completely empty ("There are no items."). Zero items, tickets, or equipment stored.
 - **Falsification & Stopping Boundaries**:
   - Strictly prohibit re-auditing previously verified static coordinates (fountain, Pokémon Center exterior, West Avenue facade, turnstile angles).
   - Conclude each system check within 5 turns before pivoting.
 - **Current Plan**:
-  1. Press B to dismiss timetable text box.
-  2. Press Select to open HuPhone interface.
-  3. Enter Item Storage -> Item Storage -> Withdraw Item.
+  1. Press B to dismiss turnstile blocker text and settle at (19, 22).
+  2. Formulate new investigation vector.
