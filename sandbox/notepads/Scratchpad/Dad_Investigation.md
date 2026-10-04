@@ -17,9 +17,11 @@
 
 - **H131 Metro Station Platform & Attendant (FALSIFIED)**: Verified lobby fixtures (timetable, chairs, scanner pillars) have 0 interactive flags. Seated platform transit officer is unreachable beyond turnstile. Turnstile gate (19, 21) persistently pushes back with 'I should find dad first!'. 100% FALSIFIED.
 
-## Active Hypothesis H132: Sovio City Overworld Re-Survey for Event Triggers
-- **Premise**: Dad fled into Sovio City during the tremor. Since Metro passage is blocked until Dad is found, re-survey Sovio City overworld sectors for any overlooked triggers or environmental shifts.
+- **H132 Sovio City Overworld Re-Survey (FALSIFIED)**: Conducted full physical circuit across West Avenue, Karate House, Bikers, Southern Avenue lawn (row 30), South Sidewalk, Name Rater exterior, and Central Park loop. All overworld NPCs, fixtures, and sector boundaries remain completely static. Dad is not present in Sovio City overworld. 100% FALSIFIED.
+
+## Active Hypothesis H133: Pokémon Center Facility & Terminal Audit
+- **Premise**: If overworld sectors contain no physical trace of Dad, investigate the central hub facility (Pokémon Center) for any overlooked digital communications, PC messages, mezzanine fixtures, or clerk dialogue.
 - **Sub-Hypotheses & Testable Variables**:
-  1. **H132-A (Central Plaza & North Sectors)**: Survey Central Plaza hub and perimeter to check if any NPC dialogue or trigger has changed.
-  2. **H132-B (West Avenue & Southern Corridors)**: Re-examine West Avenue and southern residential perimeter.
-  - *Falsification Boundary*: Falsified if all overworld sectors and NPCs remain completely static.
+  1. **H133-A (PC Terminal & Mailbox Check)**: Boot up the corner PC at (12, 1) and inspect Someone's PC, Asher's Item Storage, and Mailbox for any incoming messages or system flags.
+  2. **H133-B (Mezzanine & Patrons)**: Inspect the upper mezzanine clerk and patrons to verify if any dialogue relates to the tremor or transit.
+  - *Falsification Boundary*: Falsified if all terminals, patrons, and clerk yield only standard service and ambient dialogue.
