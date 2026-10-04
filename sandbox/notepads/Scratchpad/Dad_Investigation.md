@@ -16,19 +16,19 @@
 - **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
 - **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
 - **HuPhone World Map & Quest Log (Turns 27333-27341)**: World Map node interactions (Sovio City / Metro Station) confirmed inert; Quest Status ("You aren't doing any Quest currently...") and Quest List Pages 1-3 verified static side-quest tracker with zero story triggers.
+- **Sovio Pokémon Center Framed Town Map & Counter (Turns 27346-27351)**: Framed Town Map at (11, 0) verified identical to HuPhone World Map; Nurse Joy service counter at (7, 4) completed full healing cycle with standard dialogue.
 
 ## Structured Progression Decision Tree by System Type
 1. **System 1: Party State & Pokémon Mechanics**
    - *Status*: Audited and verified negative (Turn 27306).
 2. **System 2: Interactive World Objects & Facility Terminals**
    - *Hypothesis*: Progression flag is set via an interactive terminal or facility object rather than an overworld NPC sprite.
-   - *Remaining Unverified Variables*: Sovio Pokémon Center Framed Town Map at (11, 0), Pokémon Center service counter, and Lancio Lab incubator apparatus at (18-19, 5-6).
-   - *Test Plan*: Exit Metro lobby, enter Sovio Pokémon Center, inspect Framed Town Map at (11, 0), and speak with Nurse Joy at counter.
+   - *Remaining Unverified Variables*: Lancio Lab incubator apparatus at (18-19, 5-6) (Sovio Pokémon Center PC, Framed Town Map, and Nurse Joy counter verified negative).
 3. **System 3: HuPhone Apps & Communication Systems**
    - *Status*: Audited and verified negative (Turns 27333-27341).
 4. **System 4: Story Script & Trigger Flags (Unverified NPC Dialogues)**
    - *Hypothesis*: Event triggers depend on front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (System 2 - Sovio Pokémon Center Framed Town Map & Service Counter - Active)**: Exit Metro Station to Central Plaza, enter Sovio Pokémon Center at (44, 12), inspect Framed Town Map at (11, 0), and speak with Nurse Joy at (7, 5).
-- **Audit Target 2 (System 4 - Unverified Front-Facing Interior Dialogues)**: Verify direct front-facing dialogue with the elderly man at (41, 33) in House (39, 7) and the occupants in Karate House (14, 15).
+- **Audit Target 1 (System 4 - Unverified Front-Facing Interior Dialogues - Active)**: Exit Sovio Pokémon Center, enter House (39, 7) to test direct front-facing dialogue with the elderly man at (41, 33), then test front-facing dialogue with the occupants in Karate House (14, 15).
+- **Audit Target 2 (System 2 - Lancio Lab Apparatus & Remaining Regional Terminals)**: If Sovio interior dialogues return negative, inspect remaining regional interactive objects.
