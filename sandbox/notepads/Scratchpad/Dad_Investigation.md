@@ -17,11 +17,13 @@
 - **Sovio Pokémon Center Facilities & State (H147 - CONCLUDED)**: Nurse Joy (standard heal & respawn checkpoint registered), Asher's PC (Mailbox empty verbatim, Item Storage empty verbatim), Someone's PC (Box 1 30-slot grid audited empty), Framed Town Map (functional regional map displaying player at Sovio City), and resident NPCs (Straw-hat Camper at 5, 7; Resident Boy at 8-10, 4-6) verified 100% static baseline.
 - **Metro Station Partition & Turnstiles (H148 - CONCLUDED)**: Scanner pillars at (18, 21) and (20, 21) verified 100% inert. Turnstile passage at (19, 21) verified as the single trigger tile displaying verbatim "I should find dad first!" and forcing player south to (19, 22). Platform side chairs verified empty furniture per map documentation.
 
-## Active Hypothesis H150: Sovio City East Boundary & Route 2 Barrier Perimeter Audit
-- **Premise**: Progression blocker "I can't go yet... I have things to do!" gates eastern exit along rows 19-22 at column 52. Testing the full perimeter of eastern Sovio City along columns 51-53 north and south of the barrier to verify exact trigger limits and collision bounds.
+- **Eastern Boundary & Route 2 Barrier (H150 - CONCLUDED/DISCARDED)**: Flanking coordinates (columns 51-53 north and south of Route 2) are verified solid geometry (high-rise foundation at row 15, terrace wall at row 14, commercial building at rows 20-31). The barrier at (52, 19-22) is an internal monologue ("I can't go yet... I have things to do!") rather than a bypassable physical gate. Spatial search concluded.
+
+## Active Hypothesis H151: Active Causal Testing of Sovio City Quest Triggers & Items (Camper/Medic & HuPhone)
+- **Premise**: The progression barriers ("I should find dad first!" and "I can't go yet... I have things to do!") are internal monologues reflecting unfulfilled progression conditions. Page 1 of the Quest Log lists early-game side quests: "Egg Research", "Medic!", and "Squirtle Gang". In the Sovio City Pokémon Center, the Camper at (5, 7) complains that his Weedle is poisoned while Asher holds an Antidote in the Bag. Furthermore, the HuPhone World Map and Bag items represent untried interactive mechanics.
 - **Target Variables**:
-  1. Route 2 Barrier Boundary (col 52, rows 18-23): Re-verify exact trigger tiles and check rows 18 and 23.
-  2. Southeast Facade Perimeter (cols 51-53, rows 23-31): Test collision south of the Route 2 road along the eastern edge of the commercial building.
-  3. Northeast Boundary (cols 51-53, rows 14-18): Test collision north of Route 2 road behind the elevated terrace and high-rise foundation.
-- **Causal Mechanism**: If the story barrier is tied specifically to road tiles 19-22, auditing the adjacent perimeter tiles will establish whether any side passage, unmapped tile, or trigger boundary exists along the eastern city limit.
-- **Stopping Boundary**: Complete testing of targets 1-3 along columns 51-53 in eastern Sovio City, record exact findings, and conclude H150.
+  1. In the Sovio Pokémon Center, test interacting with the Camper at (5, 7) directly with Antidote in the Bag, or check if an item can be used/offered to trigger the "Medic!" quest.
+  2. Test active interactive functions on the HuPhone World Map (e.g. pressing 'A' on regional nodes like Sovio City, Lancio Town, Amor City, Inizio Isle, and Solare Island) to verify if selecting a node activates navigation, fast-travel, or narrative cues.
+  3. Test using the Antidote or other items from the Bag menu to see if any contextual prompts appear.
+- **Causal Mechanism**: If progression is gated by town tasks ("I have things to do!") or registering/triggering specific quests (like "Medic!"), activating these causal variables will change the internal monologue state or provide actionable progression clues.
+- **Stopping Boundary**: Return to Sovio City, execute tests 1-3, document exact game responses, and evaluate changes to the Metro and Route 2 internal monologues.
