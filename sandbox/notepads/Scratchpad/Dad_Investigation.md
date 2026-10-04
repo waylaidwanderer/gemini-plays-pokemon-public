@@ -12,7 +12,7 @@
 - **Digital Systems & Facilities (H124, H128, H133, H137-A, H140)**: HuPhone (empty mailbox, 0 active quests, static map), PC (empty), Mart (standard stock), Trainer Card (ID 54592, 8 rounds), Timetable Board (scenic text) 100% verified static.
 - **External Routes & Lancio Town (H136, H141, H142)**: Lancio Town, Lab main floor, Route 1 (Cut tree at 5, 44, cottage, defeated trainers Mike/Sonia/Duke) 100% static post-defeat baseline.
 - **Mechanical Level-Up (H127, H139)**: Sirius Lv17, Zephyr Lv2, inventory verified.
-- **Sovio Sewers Audits (H135, H137-B, H145 - CONCLUDED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero story flags.
+- **Sovio Sewers Audits (H135, H137-B - CONCLUDED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero story flags.
 
 ## Active Hypothesis H146: Non-Spatial System & In-Game Device Audit
 - **Premise**: Physical spatial exploration across all available maps (Lancio, Route 1, Sovio City, Sewers) has confirmed 100% static baselines with zero overworld NPCs representing Jackson. As directed by critique, progression may be gated by non-spatial game mechanics (HuPhone app features, item activation, party inspection, or Trainer Card/system state).

@@ -499,10 +499,9 @@
 - **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
 - **Cord Island**: Southeast offshore island containing 1 red town and 1 blue coastal port (verified via World Map).
 ## Interactive World Map Findings (HuPhone)
-- **Interactive D-Pad Navigation**: The HuPhone World Map app is fully interactive via D-pad (+Move). Hovering over nodes dynamically displays location banners in the top-left corner.
 - **Divampa Cave**: Verified cave/mountain landmark in the central-south mountain sector between the southern routes and Amor City.
 - **Mulberry Town & Route 9**: Verified town and route nodes on the western island archipelago.
-- **Top-Left Island & Fixed Pin Marker**: An isolated island node in the far northwest ocean connected via dashed sea route from the western island; holds a permanent fixed marker pin (yellow body, green wings, black tip).
+- **Solare Island & Fixed Pin Marker**: An isolated island node in the far northwest ocean connected via dashed sea route from the western island; verified in-game name 'Solare Island'; holds a permanent fixed marker pin (yellow body, green wings, black tip).
 
 <hr>
 
@@ -542,7 +541,7 @@
 - **Access**: Activated via SELECT button or through BAG Key Items pocket.
 - **Main App Menu**:
   1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
-  2. **World Map**: Static regional map viewer of Hupest with town nodes.
+  2. **World Map**: Interactive regional map viewer of Hupest navigated via D-pad (+Move). Dynamically displays location hover banners (e.g. Solare Island, Divampa Cave, Mulberry Town) in the top-left corner.
   3. **Quest Log**: Active objective tracker and completed quest list.
   4. **Back**: Closes HuPhone.
 - **Portable PC Interface (Item Storage app)**:
@@ -675,7 +674,7 @@
 - **Digital Systems & Facilities (H124, H128, H133, H137-A, H140)**: HuPhone (empty mailbox, 0 active quests, static map), PC (empty), Mart (standard stock), Trainer Card (ID 54592, 8 rounds), Timetable Board (scenic text) 100% verified static.
 - **External Routes & Lancio Town (H136, H141, H142)**: Lancio Town, Lab main floor, Route 1 (Cut tree at 5, 44, cottage, defeated trainers Mike/Sonia/Duke) 100% static post-defeat baseline.
 - **Mechanical Level-Up (H127, H139)**: Sirius Lv17, Zephyr Lv2, inventory verified.
-- **Sovio Sewers Audits (H135, H137-B, H145 - CONCLUDED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero story flags.
+- **Sovio Sewers Audits (H135, H137-B - CONCLUDED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero story flags.
 
 ## Active Hypothesis H146: Non-Spatial System & In-Game Device Audit
 - **Premise**: Physical spatial exploration across all available maps (Lancio, Route 1, Sovio City, Sewers) has confirmed 100% static baselines with zero overworld NPCs representing Jackson. As directed by critique, progression may be gated by non-spatial game mechanics (HuPhone app features, item activation, party inspection, or Trainer Card/system state).

@@ -18,7 +18,7 @@
 - **Access**: Activated via SELECT button or through BAG Key Items pocket.
 - **Main App Menu**:
   1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
-  2. **World Map**: Static regional map viewer of Hupest with town nodes.
+  2. **World Map**: Interactive regional map viewer of Hupest navigated via D-pad (+Move). Dynamically displays location hover banners (e.g. Solare Island, Divampa Cave, Mulberry Town) in the top-left corner.
   3. **Quest Log**: Active objective tracker and completed quest list.
   4. **Back**: Closes HuPhone.
 - **Portable PC Interface (Item Storage app)**:
