@@ -23,9 +23,16 @@
   5. **Nurse Joy Service**: Fully healed at Sovio Center counter; poison cured, HP restored to 47/47, checkpoint registered.
 - **Conclusion**: Core systems, inventory, and party state are fully documented static baselines with zero latent progression flags or uncollected mail.
 
-## Active Hypothesis H158: Center Patron Interactions & Quest Hook Evaluation
-- **Premise**: With core systems audited and party fully healed, inspect Pokémon Center patrons (Straw-hat Camper at 5, 7 regarding poisoned Weedle / 'Medic!' quest hook, and Resident Boy at 8, 6) to test for dialogue updates or side quest activations.
+## Hypothesis H158: Center Patron Interactions & Quest Hook Evaluation (Concluded)
+- **Empirical Findings (Turns 24331-24335)**:
+  1. **Nurse Joy Service**: Sirius restored to full 47/47 HP, poison cured, official Sovio City checkpoint updated.
+  2. **Straw-Hat Camper (5, 7)**: Spoken to with healthy party and Antidote in bag; displayed verbatim: "My weedle got poisoned so I will need the Pokémon Center's service!" followed by "Ironic isn't it?". 100% ambient flavor text; zero quest hooks or item requests.
+  3. **Resident Boy (8-9, 6)**: Wandering civilian explaining PC terminal.
+- **Conclusion**: Pokémon Center patrons are static ambient baselines with zero latent progression hooks.
+
+## Active Hypothesis H159: Elevated Terrace Floor & Overlooked Narrative Triggers
+- **Premise**: In earlier turns, the Old Man and Machop occupied the elevated terrace above the Metro Station (47-51, 14-16) for the 'Lost Toy' side quest. Since completing 'Lost Toy' in Turn 13344, the physical terrace floor and perimeter have not been re-audited. Prior attempt in Turn 24324 collided with the street lamp at (47, 17) and did not reach the terrace.
 - **Action Plan**:
-  1. Dismiss Nurse Joy farewell textbox at (7, 4).
-  2. Step south to row 7 and left to (6, 7) facing Camper (5, 7); interact with A.
-  3. Record dialogue verbatim and check for quest initiation or item request.
+  1. From (44, 12), step south to row 15: (44, 15).
+  2. Walk east along row 15 across the curb at (47, 15) onto the wooden terrace to (51, 15).
+  3. Audit terrace floor tiles, interact with the teal door at (49, 14) / Nana's residence, and inspect the eastern wall boundary at column 51.
