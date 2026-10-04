@@ -694,4 +694,12 @@
 ### Hypothesis H4: Sovio Sewers Eastern Storage Platform (Abandoned - Invalid)
 - **Status**: Formally abandoned per critique and prior exhaustive multi-directional collision checks. Jackson was never imprisoned in the sewers (he investigated outside in Sovio City during the tremor, while sewer grunts awaited Marie). The storage door is a static scenery fixture. Sovio Sewers are fully exhausted for main story progression.
 
+### Hypothesis H5: HuPhone Regional World Map & Destination Inspection (Active)
+- **Premise**: Investigating unexplored menu capabilities and regional mechanics per critique. The HuPhone contains an interactive World Map with hover banners and a permanent marker pin on Solare Island. We are testing whether interacting with the World Map (hovering, pressing 'A' on towns/landmarks, testing Select/Start) reveals fast-travel options, story destination markers, or quest clues regarding Jackson's whereabouts.
+- **Protocol**:
+  1. Open HuPhone via SELECT button in Sovio City overworld (48, 18).
+  2. Launch World Map app.
+  3. Move cursor to examine key regional nodes: Solare Island (marker pin), Amor City, Sovio City, Lancio Town, Inizio Isle.
+  4. Test button interactions ('A', 'Select', 'Start') on each location and record system responses.
+
 <hr>
