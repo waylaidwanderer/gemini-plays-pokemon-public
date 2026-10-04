@@ -165,9 +165,6 @@
 - **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
 - **Pine Tree & Terrain Barriers**:
-  - Pine tree at (30, 17) blocks southward traversal down column 30 from (30, 16).
-  - Pine tree at (31, 27) blocks southward traversal down column 31 from (31, 26).
-  - Pine tree at (35, 31) blocks direct southward passage down column 35 (Sand Highway opens on column 37).
 
 ## Overworld NPCs & Trainers
 - **NPC 1 (Camper/Straw Hat)**: Located at (18, 44) near Signboard 2. Dialogue explains Repels keep wild Pokémon away.
@@ -264,7 +261,7 @@
 
   - Exit mat at (7, 8).
 
-  - Main Nurse Joy counter straight north along column 7 at row 3/4. Restores party to full health and registers the official Sovio City respawn checkpoint.
+  - Main Nurse Joy counter straight north along column 7 at row 3/4 (row 4 is solid counter boundary; interaction occurs facing North across counter from row 5). Restores party to full health and registers official Sovio City respawn checkpoint.
 
   - Large decorative teal Poké Ball floor motif at columns 6-8, rows 5-6.
 
@@ -694,12 +691,13 @@
   - Findings (Turns 26185-26186): Spoke to Camper with Antidote in bag; verbatim ambient dialogue ("My weedle got poisoned so I will need the Pokémon Center's service! / Ironic isn't it?") with zero choice prompt or item transfer.
   - Outcome: Disproven; Camper is not an active recipient for Antidote.
 
-- **Hypothesis C2 (The Missing Character - Valora Tracing)**:
-  - Premise: Valora was present in the Metro Station during the tremor (Turn 1329-1437) and vanished from subsequent audits. If Jackson is missing, Valora was his companion during the departure attempt.
-  - Action: Conduct a targeted visual search for Valora (cyan hair sprite) across Sovio City and Metro sectors rather than repeating known static civilian dialogues.
+- **Hypothesis C2 (Valora Tracing & Scripted Handoff)**:
+  - Premise: Valora was present in the Metro Station when Dad departed. If an event handoff occurred, she may be stationed at a specific transit or gathering point.
+  - Test Criteria: Inspect specific locations for a cyan-haired sprite: (1) Metro Station platform / attendant desk, (2) Sovio City Central Plaza fountain perimeter, (3) East Exit Route 2 checkpoint. If absent from all three by Turn 26230, mark C2 as disproven.
 
-- **Hypothesis C3 (Post-Tremor Epicenter & Structural Evidence)**:
-  - Premise: The tremor was an explicit physical event. Look for altered tiles, rubble, or structural anomalies in Sovio City that represent the physical source or aftermath of the tremor.
+- **Hypothesis C3 (Tremor Epicenter & Physical Anomaly Testing)**:
+  - Premise: The tremor was an explicit physical event. Test specific structural anomaly candidates in Sovio City: (1) Eastern roof covered corridor (rows 20-22, cols 47-51), (2) Cracked pavement / manhole fixtures near the station entrance, (3) Route 2 border trigger condition.
+  - Test Criteria: Step on each candidate tile coordinate and check for scripted text or state changes. Conclude by Turn 26260.
 
 
 <hr>
