@@ -13,11 +13,11 @@
 - **Sovio Sewers Audits (H135, H137-B)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Grunts permanently vacated; rugged rocks require equipment.
 - **Hardware, Inventory & Party Systems (H124, H127, H128, H133, H137-A, H139, H140, H146, H148, H151, H152)**: HuPhone (Item Storage, Mailbox, World Map visual only), PC (empty), Mart inventory, Bag items (TM Case infinite use, Nugget sellable), and party lead configuration (Zephyr vs Sirius) verified static with zero delta on turnstile ("I should find dad first!") or Route 2 barrier ("I can't go yet... I have things to do!").
 
-## Active Hypothesis H156: Systematic Investigation of Sovio Sewers Story Flag Triggers
-- **Premise**: Gating script at Metro turnstile (19, 21) ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") requires triggering Jackson's location/rescue flag. Prior audits established that all Sovio City residences, civilians, and external towns (Lancio, Route 1) are static baselines. The sewer storage room at (37, 14) and the sewer sectors where Team Siara was active represent the canonical narrative source of the tremor and Jackson's abduction.
-- **Independent Variables**:
-  1. Re-inspect the Sewer Storage Room doorway at (37, 14) with specific directional interactions (facing South, East, West) and check for hidden triggers or key items.
-  2. Comprehensive audit of the Dark Sector basement (cols 13-31, rows 3-12) to verify if unvisited tiles or hidden passages exist beyond the spotlight perimeter.
-  3. Check if any sewer NPC or item trigger was left uncollected.
-- **Causal Mechanism**: If Jackson's presence or a progression flag in the sewers triggers the completion of the tremor investigation, activating it will update the Metro turnstile script and allow departure to Amor City.
-- **Stopping Boundary**: Complete targeted re-audit of the sewers (Storage Room platform 37, 14 and Dark Sector perimeter), document exact responses, and return to Metro turnstile to evaluate gating state.
+## Active Hypothesis H156: Investigation of Subterranean Dark Sector & Unchecked Core Systems (Initiated Turn 24152)
+- **Premise**: The Metro turnstile (19, 21) ("I should find dad first!") and Route 2 barrier ("I can't go yet... I have things to do!") block departure from Sovio City. Surface residences, civic fixtures, external towns (Lancio, Route 1), and the Sewer Storage Room (37, 14 - re-verified Turn 24206 verbatim "Its a simple storage room...") are 100% static baselines. The origin of the seismic tremor remains unresolved. The subterranean Dark Sector (Flash-lit basement) has only been partially mapped along rows 8-9 and may contain unmapped passages, or progress may require uninspected inventory/app mechanics.
+- **Target Variables**:
+  1. Storage Room Platform (37, 14): [COMPLETED Turn 24206-24207] Facing South displays "Its a simple storage room..."; facing East/West inert. Concluded 100% static baseline.
+  2. Dark Sector Perimeter Audit: Navigate from column 30 causeway into Northeast Wooden Staircase (30, 4) to Dark Sector basement (31, 9); systematically probe the dark spotlight boundaries (north, south, east, west) to confirm map boundaries and detect any unvisited warps or stairs.
+  3. Core Systems & Bag Audit: Inspect HuPhone registered functions and Key Items pocket for interactive progression items.
+- **Causal Mechanism**: If an unvisited branch point in the Dark Sector contains the source of the tremor or an interactive trigger, navigating to it will advance the narrative flag and clear the Metro turnstile block.
+- **Stopping Boundary**: Complete perimeter survey of the Dark Sector basement, document exact boundary coordinates, and test the Metro turnstile at (19, 21).
