@@ -689,9 +689,10 @@
 - **Hypothesis P1 (Professor Ivo Consultation)**: Disproven (Turns 26052-26061); lab basement stairs locked ("I probably shouldn't head down here..."), Ivo ambient ("Hey, Ashi, how's your new Pokémon?").
 - **Hypothesis P2 (Lancio Town Harbor Dock Audit)**: Disproven (Turns 26075-26084); wooden pier vacant, Harry absent, Fisherman ambient ("However it goes, you must stay calm and patient...").
 
-- **Hypothesis C1 (Gameplay Prerequisite - Side Quest / Dialogue Trigger)**:
-  - Premise: Progression past the Metro turnstile may be gated by satisfying an active regional prerequisite rather than clicking static props. In Sovio City, Camper (5, 7) has a poisoned Weedle while we possess an Antidote (aligns with Page 1 Quest 'Medic!').
-  - Action: Speak to Camper in Sovio Pokémon Center with Antidote in inventory to test if this triggers a quest acceptance or resolution.
+- **Hypothesis C1 (Camper / Medic Quest with Antidote)**:
+  - Premise: Test if Camper (5, 7) accepts Antidote to resolve poisoned Weedle / 'Medic!' quest.
+  - Findings (Turns 26185-26186): Spoke to Camper with Antidote in bag; verbatim ambient dialogue ("My weedle got poisoned so I will need the Pokémon Center's service! / Ironic isn't it?") with zero choice prompt or item transfer.
+  - Outcome: Disproven; Camper is not an active recipient for Antidote.
 
 - **Hypothesis C2 (The Missing Character - Valora Tracing)**:
   - Premise: Valora was present in the Metro Station during the tremor (Turn 1329-1437) and vanished from subsequent audits. If Jackson is missing, Valora was his companion during the departure attempt.
