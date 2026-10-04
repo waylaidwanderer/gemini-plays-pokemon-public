@@ -23,7 +23,7 @@
 - **Premise**: Progression blockers "I should find dad first!" (Metro turnstile) and "I can't go yet... I have things to do!" (Route 2) are internal monologues reflecting unfulfilled game conditions. In Pokémon Sors, story triggers may depend on party state (e.g. Zephyr the Pidgey in slot 1, given Mother's Eclipse Pidgey plotline) or specific overworld trigger coordinates in Central Plaza outside the Metro portal.
 - **Target Variables**:
   1. Party Order Switch: [COMPLETED] Zephyr (Lv2 Pidgey, Tackle + Protect) swapped into Slot 1; Sirius (Lv17 Riolu) placed in Slot 2. Lead Pokémon updated.
-  2. Metro Station Platform & Turnstile Verification: From Central Plaza, enter Sovio Metro Station and re-evaluate turnstile passage (19, 21) and adjacent lobby triggers with Zephyr leading.
+  2. Metro Station Platform & Turnstile Verification: [COMPLETED] Stepping onto turnstile (19, 21) with Zephyr (Pidgey) leading still displays verbatim "I should find dad first!" and forces player south to (19, 22). No change in story flag or dialogue. Concluded static.
   3. Route 2 Barrier Re-evaluation: Test Route 2 boundary at column 52 with the altered party configuration to observe if "I have things to do!" monologue changes.
 - **Causal Mechanism**: If the game tracks party lead or specific story prerequisites linked to the Pidgey/Eclipse narrative, altering the party configuration or checking Central Plaza with the updated team may advance the story flag.
 - **Stopping Boundary**: Execute party swap, re-test Metro turnstile and Route 2 barrier, record exact before/after dialogue, and conclude H152.
