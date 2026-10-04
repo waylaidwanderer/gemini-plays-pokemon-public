@@ -669,7 +669,7 @@
 - **Overworld & Civilians (H118-H123, H126, H129, H132, H134)**: Thoroughfares, residences (Nana, Wii, Gumball, Karate, Name Rater), and ambient NPCs confirmed static baseline.
 - **Digital Systems & Facilities (H124, H128, H133, H137-A)**: HuPhone (empty mailbox, 0 active quests, static map), PC (empty), Mart (standard stock) verified static.
 - **Mechanical Level-Up (H127)**: Leveled Sirius to Lv17. No evolution, zero story effect.
-- **External Routes & Lancio Town (H136)**: Route 1 cottage/trainers static; Lancio lab (Ivo starter line, blocked stairs, machine inert), TM boy ("Get out!"), dock/fisherman static; PokéMart/civilians confirm zero field equipment obtainable.
+- **External Routes & Lancio Town (H136)**: Preliminary thoroughfares checked (cottage interior, Lab main floor, Lancio residences/mart); deeper clearings and full perimeter exploration ongoing under H141.
 - **Sovio Sewers Comprehensive Audit (H135, H137-B - FALSIFIED)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Eastern Platform door at 37, 14, Dark Sector basement) 100% verified static baseline. Zero NPCs, zero items, zero story flags. Sewers permanently CLOSED.
 - **Sovio City Physical Perimeters & Fixtures (H138 - FALSIFIED)**: Metro Station lobby (west seating), Central Plaza fountain perimeter (walkable curb/terrace, decorative floor markings), West Avenue commercial facade (shutters at 24-25, 16 solid), and Route 2 barrier (active at 52, 19) 100% verified static baseline. Zero new triggers or passages exist in the overworld.
 - **Live Inventory & Party Verification (H139 - CONCLUDED)**: Audited all Bag pockets directly in-game: Items (Potion x1, Poison Barb x1, Antidote x1, Nugget x1), Key Items (HuPhone registered to Select, TM Case), TMs (TM17 Protect, TM48 Work Up, 0 HMs), Poké Balls (Timer Ball x1, Poké Ball x10), and Party Pokémon (Sirius Lv17, Zephyr Lv2). 100% matches established baseline.
@@ -681,8 +681,6 @@
   - Strictly prohibit re-walking Central Plaza, West Avenue, or Metro lobby tiles.
   - Route directly south along Southern Avenue to Route 1.
 - **Current Plan**:
-  1. Dismiss Duke's dialogue (verified static baseline) and route west along row 11 toward column 37.
-  2. Audit the northern clearing, Roadside Cottage (37, 24) perimeter, and western Route 1 features.
-- **Route 1 Northern Meadow & Red Rock (35, 7)**: Red object at (35, 7) audited directly with A and walk tests; confirmed solid decorative rock with zero interaction. Meadow is the site of the completed 'Lost Pidgey' side quest.
+  1. Exit northern meadow and navigate south past Duke toward Roadside Cottage (37, 24) and western Route 1 features (Lass Sonia spire, Youngster Mike clearing, Cut tree perimeter).
 
 <hr>
