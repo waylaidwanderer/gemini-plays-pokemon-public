@@ -1,24 +1,20 @@
-# Scratchpad: Investigating Jackson's Whereabouts & Progression Blockers
+# Scratchpad: Progression Gating & Investigation Constraints
 
-## Core Verified Blockers
-- **Metro Turnstile (19, 21)**: Triggers "I should find dad first!" and forces Asher south to (19, 22). Gates train to Amor City.
-- **Route 2 Barrier (52, 19-22)**: Triggers "I can't go yet... I have things to do!" and blocks eastern exit from Sovio City.
+## Core Active Progression Barriers
+- **Metro Turnstile (19, 21)**: Scripted barrier triggers "I should find dad first!" and forces Asher south to (19, 22). Gates train platform to Amor City.
+- **Route 2 Eastern Exit (52, 17-22)**: Continuous boundary blockage (rows 14-18 solid building facade collision; rows 19-22 trigger story barrier "I can't go yet... I have things to do!").
+- **Professor Ivo's Lab Basement Stairs (12, 7)**: Red mat trigger displays "I probably shouldn't head down here..." in Lancio Town.
 
-## Consolidated Concluded Hypotheses Summary
-- **Overworld, Residences & Civic Fixtures (H118-H123, H126, H129, H132, H134, H143, H147, H153, H154, H155, H158, H159)**: All residences (Nana, Wii, Gumball, Karate, Name Rater; beds and PC desks inert), ambient NPCs (bikers, boy Rocky, park dating couple, Jigglypuff children, Center patrons Camper/Boy), civic fixtures (fountain basin at 41, 18, elevated terrace at 47-51, 14-16, manhole at 51, 16), and Pokémon Center services verified 100% static baseline.
-- **Metro Station Lobby (H154, H157)**: East boundary verified strictly terminated at stairs (24, 24) and timetable board (21-23, 23); zero secondary partitions or attendants present. West boundary terminates at column 17 seats. Turnstile gate at (19, 21) triggers "I should find dad first!".
-- **External Geography (H136, H141, H142, H149)**: Lancio Town (Professor Ivo dialogue, lab stairs locked, incubator inert, harbor pier empty, fisherman patience text) and Route 1 (Cut tree at 5, 44 inert, cottage resident static sample text, defeated trainers Mike/Sonia/Duke) 100% static post-defeat baseline.
-- **Sovio Sewers Audits (H135, H137-B, H156, H163)**: All sectors (Western Terrace, Wall Ladder, Northern Gangway, Col 23 bridge, Col 30 causeway, Storage Room at 37, 14, Dark Sector upper alcove 23, 4, Dark Sector western corridor, and Deep Subterranean room 2, 38) audited 100% empty of story triggers or NPCs. Jackson is definitively absent from Sovio Sewers. All subterranean searches permanently terminated.
-- **Interactive World Map (H160-A)**: Interactive regional viewer tested (Turns 24367-24370); cursor moves across nodes with hover banners, but pressing A yields zero fast-travel or teleport prompts. Fixed yellow pin tracks Sovio City. Confirmed purely informative map viewer.
-- **Commercial Economy & Liquid Funds (H160)**: Liquidated Nugget for $5,000 (Money: $11,096) at Sovio PokéMart (Turn 24398). Tested Metro turnstile at (19, 21) (Turn 24434: blocked by "I should find dad first!") and Route 2 barrier at (52, 19) (Turn 24437: blocked by "I can't go yet... I have things to do!"). Confirmed neither liquid wealth nor PokéMart sales transactions alter progression barrier scripts.
-- **System & Interface Verification (H162)**: HuPhone portable PC Item Storage ("There are no items.") and Mailbox ("There's no Mail here.") audited 100% empty (Turns 24446, 24449). Confirmed no stored items, equipment, or letters from Dad exist in system storage.
+## Categorical Exhaustion & Invariant Baselines
+- **Subterranean Sewers**: 100% audited across all sectors (Upper catwalks, ladders, storage room 37, 14, Dark Sector basement, deep room 2, 38, southern canal). Team Siara grunts permanently vacated. No NPCs or story triggers present.
+- **Overworld Civilians & Residences**: All residential interiors (Nana, Wii, Gumball, Karate, Name Rater) and overworld civilians across Sovio City, Route 1, and Lancio Town are verified static post-defeat baselines.
+- **Regional Geography & Obstacles**: Route 1 (Cut tree 5, 44, cottage resident, defeated trainers) and Lancio Town (Professor Ivo dialogue, incubator, harbor dock) are verified static baselines.
+- **System, Economy & Inventory**: HuPhone Item Storage and Mailbox are 100% empty. Liquid wealth ($11,096) and PokéMart transactions have zero effect on story flags. Trainer Card (8 empty round icons, 6 crest silhouettes) and party profiles verified standard.
+- **Central Plaza Event Tiles**: Ground tiles outside Pokémon Center (rows 13-16, cols 40-46) have zero active scripted triggers.
 
-- **Progression Gating & Central Plaza Audit (H165)**: Central Plaza confrontation ground tiles (cols 42-46, rows 13-16 outside Pokémon Center) audited with zero active triggers. Inventory, Trainer Card (8 round slots, 6 crest silhouettes), and Sirius profile audited. Turnstile gate (19, 21) confirmed static ("I should find dad first!"). Falsified.
-
-## Active Hypothesis H166: Northeast Route 2 Transition and Column 52 Boundary Audit
-- **Premise**: Prior East Exit barrier audits strictly documented rows 19-22 at column 52 ("I can't go yet... I have things to do!"). Rows 17 and 18 at column 52 (east of the signpost at 50-51, 18 and walkable tile 51, 17) have never been empirically tested for collision, triggers, or a bypass corridor toward Route 2.
-- **Action Plan**:
-  1. Dismiss turnstile text with B and ascend stairs at (24, 24) to Sovio City overworld (48, 18).
-  2. Walk East to signpost at (50-51, 18) and navigate to (51, 17).
-  3. Test movement East into (52, 17) and (52, 18).
-- **Falsification Boundary**: If (52, 17) and (52, 18) exhibit solid building collision or trigger the identical story barrier ("I can't go yet... I have things to do!"), H166 is falsified, confirming column 52 is continuously blocked across all rows.
+## Concluded Hypotheses Summary (Categorical Synthesis)
+- **H118-H159 (Surface Overworld Audits)**: All accessible civilian residences, ambient NPCs, civic fixtures, and service facilities across Sovio City, Route 1, and Lancio Town audited as invariant post-confrontation baselines. Falsified.
+- **H160-H162 (Economic & System Storage Audits)**: PokéMart transactions, liquid wealth, and portable PC storage confirmed unrelated to gating flags. Falsified.
+- **H163 (Subterranean Jackson Audit)**: Exhaustive physical audit of Sovio Sewers, Dark Sector basement, and deep room (2, 38) confirmed Jackson's absolute absence. Subterranean searches permanently terminated. Falsified.
+- **H165 (Central Plaza Scripted Tiles & UI Audit)**: Paved confrontation area and all start menu subsystems verified clear of active triggers. Falsified.
+- **H166 (Northeast Route 2 Boundary Audit)**: Collision tests against column 52 rows 17-18 confirmed continuous solid building facade east of signpost (51, 18). Bypass corridor non-existent. Falsified.
