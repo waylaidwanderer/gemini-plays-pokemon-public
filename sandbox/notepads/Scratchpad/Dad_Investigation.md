@@ -20,3 +20,10 @@
   2. Core Systems & Bag Audit: Inspect HuPhone registered functions and Key Items pocket for interactive progression items.
 - **Causal Mechanism**: If an unvisited branch point in the Dark Sector contains the source of the tremor or an interactive trigger, navigating to it will advance the narrative flag and clear the Metro turnstile block.
 - **Stopping Boundary**: Complete perimeter survey of the Dark Sector basement, document exact boundary coordinates, and test the Metro turnstile at (19, 21).
+
+## Hypothesis H157: Exhaustive Sovio City Ground Search for Jackson
+- **Premise**: The Dark Sector and Sewers are 100% mapped and clear. Jackson ran outside into Sovio City to investigate the seismic tremor. The Metro turnstile block ("I should find dad first!") requires speaking to Jackson in Sovio City to trigger the narrative flag.
+- **Action Plan**:
+  1. Exit Dark Sector via stairs at (31, 9) to upper sewer platform (30, 4).
+  2. Ascend to Metro Station lobby (38, 22) and exit into Sovio City surface.
+  3. Perform a rigorous, tile-by-tile search of all unexplored/overlooked outdoor areas of Sovio City (east plaza perimeter, alleyways, park corners, and southern borders).
