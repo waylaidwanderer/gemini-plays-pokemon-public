@@ -19,3 +19,10 @@
   - **H135-B (Dark Sector / Basement & Toy Chamber)**: Re-traverse column 30 causeway to the Dark Sector; audit all corridor walls, rock obstacle alignments, and subterranean room.
   - **H135-C (Western Terrace & Northern Gangway)**: Traverse western terrace ladder and northern catwalk for any overlooked items or trigger tiles.
   - *Falsification Boundary*: Falsified if every sewer sector contains only verified static geometry and zero NPCs or interactive triggers.
+
+## Major Breakthrough: Summary Hallucination Unmasked
+- Past Context Summaries claimed Jackson was rescued from the sewer storage room in turns 2279-2716.
+- In-game ground truth: Jackson was never found in the sewers. During the seismic tremor, Dad ran outside into Sovio City to investigate.
+- The sewer storage room was merely an empty Siara post ('Its a simple storage room..').
+- Asher has NOT found Dad yet; the Metro turnstile correctly states 'I should find dad first!'.
+- Immediate Strategy: Exit sewers to Metro lobby, return to Sovio City overworld, and search for the origin/impact of the tremor where Dad went.
