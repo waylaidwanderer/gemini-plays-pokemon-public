@@ -270,7 +270,7 @@
 
   - Resident Boy at (8, 6/4): Explains PC terminal ('Please feel free to use that PC in the corner. / The receptionist told me so. It's so kind of her!').
 
-  - **Corner PC Terminal at (12, 1)**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system. Someone's PC and Asher's PC (Item Storage audited empty) verified functional.
+  - **Corner PC Terminal at (12, 1) & East Pillar Routing**: Fully interactive! Interacting facing Up from (12, 1) displays "Asher booted up the PC." and opens the PC menu system (Someone's PC Box 1, Asher's PC Item Storage, and Mailbox all verified empty; no Professor's PC option). Direct northward movement along column 12 is blocked by the eastern architectural pillar at (11-12, 3-6) (stopping at 12, 7); reaching (12, 1) requires stepping right to the column 13 aisle at (13, 7), walking north to (13, 1), and stepping left to (12, 1).
 
   - **Framed Town Map at (11, 0)**: Interacting facing Up from (11, 1) displays "A Town Map." and opens the full interactive regional Town Map interface (D-pad moves cursor to inspect towns and routes, B exits).
 
@@ -687,26 +687,26 @@
 - **Sovio City Residential Interiors & Overworld NPCs**: All residences (Nana/granddaughter, elderly Wii man/son, Gumball family, Karate couple/Machop, Name Rater) and exterior NPCs (Bikers, Boy Rocky, Central Park dating couple, Jigglypuff family, Pokémon Center Camper/Boy) display static ambient dialogue.
 - **Sovio Sewers**: Grunts vacated following Marie's radio directive. Eastern Storage Platform door (37, 14) displays "Its a simple storage room..". Rugged rocks at (10, 18) and (22, 10) require specialized smashing equipment. Entire sewer network confirmed physically exhausted.
 - **Route 1 & Lancio Town**: All Route 1 trainers defeated, cottage resident gifted Max Repel. Lancio harbor pier has no boat moored. Professor Ivo lab basement stairs blocked ("I probably shouldn't head down here...").
+- **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
+- **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
 
 ## Structured Progression Decision Tree by System Type
 1. **System 1: Party State & Pokémon Mechanics**
-   - *Hypothesis*: Progression requires a specific party condition, move, or Sirius mechanic.
-   - *Variables*: Sirius (Lv17 Riolu, custom Torn Scarf sprite, Black Belt, moves: Metal Claw/Quick Attack/Work Up/Mach Punch), Zephyr (Lv2 Pidgey, moves: Tackle/Protect).
-   - *Test Plan*: Inspect Pokémon summary screens, move details, and verify if any party member or held item interacts with world objects.
+   - *Status*: Audited and verified negative (Turn 27306).
 2. **System 2: Interactive World Objects & Facility Terminals**
-   - *Hypothesis*: Progression flag is set via an interactive terminal, PC, or facility object rather than an overworld NPC sprite.
-   - *Variables*: Sovio Pokémon Center corner PC terminal at (12, 1), Framed Town Map at (11, 0), Pokémon Center service counter, Lancio Lab incubator apparatus at (18-19, 5-6).
-   - *Test Plan*: Systematically access each PC menu option (Someone's PC, Asher's PC, Professor's PC) and facility terminal to check for unread messages, logs, or network triggers.
+   - *Hypothesis*: Progression flag is set via an interactive terminal or facility object rather than an overworld NPC sprite.
+   - *Remaining Unverified Variables*: Sovio Pokémon Center Framed Town Map at (11, 0), Pokémon Center service counter, and Lancio Lab incubator apparatus at (18-19, 5-6).
+   - *Test Plan*: Inspect Framed Town Map at (11, 0) and speak with Nurse Joy at counter after completing Metro lobby checks.
 3. **System 3: HuPhone Apps & Communication Systems**
    - *Hypothesis*: The HuPhone contains an unactivated trigger or regional reference that updates story state.
-   - *Variables*: Item Storage, World Map hover nodes, Quest Log (Pages 1-5).
-   - *Test Plan*: Verify all app submenus and examine whether interacting with specific regional map nodes or key items produces new prompts.
-4. **System 4: Story Script & Trigger Flags**
-   - *Hypothesis*: The event "find dad" is not a physical NPC search, but a specific prerequisite interaction that changes Asher's internal dialogue or Metro attendant behavior.
+   - *Remaining Unverified Variables*: World Map hover nodes and Quest Log Pages 2-5.
+   - *Test Plan*: Open HuPhone via SELECT, step through Quest Log Pages 2-5, and inspect World Map nodes.
+4. **System 4: Story Script & Trigger Flags (RTC Schedule & Unverified NPC Dialogues)**
+   - *Hypothesis*: Event triggers depend on RTC train schedule (16:00 Amor departure) or front-facing NPC dialogue skipped during prior visits (e.g., elderly man at 41, 33 in House 39, 7; Karate House 14, 15 occupants).
 
 ## Active Empirical Investigation Plans
-- **Audit Target 1 (Facility Terminals - Audited Turn 27326)**: Sovio Pokémon Center PC terminal at (12, 1) 100% verified negative: Someone's PC Box 1 is empty, Asher's PC Item Storage is empty ("There are no items."), and Mailbox is empty ("There's no Mail here."). Zero custom network options.
-- **Audit Target 2 (Party & Sirius Inspection - Audited Turn 27306)**: Sirius (Lv17 Riolu, custom Torn Scarf form, Black Belt, moves: Metal Claw/Quick Attack/Work Up/Mach Punch, 3705 EXP) and Zephyr (Lv2 Pidgey, Tackle/Protect) inspected; both fully healthy with standard status.
-- **Audit Target 3 (Train Timetable & RTC Schedule Analysis)**: Metro electronic board lists Amor train at 16:00 and Alhia train at 20:00. In-game RTC clock is currently ~15:54. Investigate whether the boarding event or Dad's appearance triggers at 16:00.
+- **Audit Target 1 (16:00 RTC Train Schedule Test - Active)**: Test turnstile at (19, 21) now that RTC is past 16:00. If it still triggers "I should find dad first!", falsify the RTC hypothesis immediately.
+- **Audit Target 2 (System 3 - HuPhone Quest Log Pages 2-5 & World Map)**: Open HuPhone right in the lobby to verify Quest Log Pages 2-5 and World Map hover nodes.
+- **Audit Target 3 (System 2 & 4 - Framed Town Map & Unverified Interior Dialogues)**: Test Framed Town Map at (11, 0) in Pokémon Center, and verify direct front-facing dialogue with the elderly man in House (39, 7) and Karate House (14, 15) occupants.
 
 <hr>
