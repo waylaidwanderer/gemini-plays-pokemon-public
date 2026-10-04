@@ -7,7 +7,7 @@
 
 ## Categorical Exhaustion & Invariant Baselines
 - **Subterranean Sewers**: 100% audited across all sectors (Upper catwalks, ladders, storage room 37, 14, Dark Sector basement, deep room 2, 38, southern canal). Team Siara grunts permanently vacated. No NPCs or story triggers present.
-- **Overworld Civilians & Residences**: All residential interiors (Nana, Wii, Gumball, Karate, Name Rater) and overworld civilians across Sovio City and Route 1 are verified static post-defeat baselines.
+- **Overworld Civilians & Residences**: All residential interiors (Nana, Wii, Gumball, Karate, Name Rater) and overworld civilians across Sovio City are verified static post-defeat baselines.
 - **System, Economy & Inventory**: HuPhone Item Storage and Mailbox are 100% empty. Liquid wealth ($11,096) and PokéMart transactions have zero effect on story flags. Trainer Card (8 empty round icons, 6 crest silhouettes) and party profiles verified standard.
 - **Central Plaza Event Tiles**: Ground tiles outside Pokémon Center (rows 13-16, cols 40-46) have zero active scripted triggers.
 
