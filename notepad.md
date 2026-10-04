@@ -687,5 +687,6 @@
 - **Target 2 (Lancio Town Harbor)**: Check pier at (32-34, 23-25).
 - **Causal Mechanism**: If Jackson or Professor Ivo relocated or updated flags following the Siara sewer retreat, speaking to Professor Ivo or inspecting lab fixtures should advance story dialogue or unlock basement access.
 - **Stopping Boundary**: Complete testing of Targets 3-P2, 1, and 2, record findings, and conclude H149.
+- Target 1 (Lab Stairs at 12, 7): Verified barrier text verbatim ("I probably shouldn't head down here..."). 100% static baseline.
 
 <hr>
