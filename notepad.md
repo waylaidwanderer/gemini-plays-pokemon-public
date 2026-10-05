@@ -261,6 +261,14 @@
   - **Hidden Item (`48, 35`)**: Interacting with the small purple stone at `(48, 35)` on the southern ridge overlook yields **Revive x1** (collected Turn 27705).
 - **Eastern Tall Grass Corridor (`cols 51-55, rows 24-35`)**:
   - **Black Belt Cameron** rotating at `(53, 30)` (`"Punch, kick, jab!"`): Uses 2 Pokémon—Machop (♂, Lv9) and Mankey (♀, Lv10); defeat quote: *"Ah man..."*; awards `₽720`; post-battle overworld quote: *"A martial artist beaten by a kid... Doesn't sound too cool."* (verified Turns 27707-27716).
+  - **Northern Overhead Wooden Bridge & Western Underpass (`cols 36-50, rows 29-38`)**:
+    - Overhead wooden bridge spans `cols 37-50, rows 30-32` (`latest_grid.png` Turns 27701, 27704).
+    - **Upper Bridge Deck**: Hiker stationed at `(42, 30)` facing South; connects west to an elevated ledge (`36-38, 26-32`) holding a Poké Ball item ball around `(35-36, 29)`.
+    - **Lower Ground Underpass (`cols 40-46, rows 29-38`)**: Passing south under the bridge at `(43-45, 30-32)` leads to a trainer at `(43, 33)`, a red-capped trainer at `(42, 35)`, and a pond at `(41-46, 37-38)` with a swimming Slowpoke at `(42, 37)`.
+  - **Southbound Wooden Bridge & Eastern Plateau (`cols 53-70, rows 31-39`)**:
+    - **Southbound Wooden Bridge**: Extends south from the eastern corridor at `(53-55, 36+)` (`latest_grid.png` Turn 27718).
+    - **Lower Southeastern Ledge (`cols 58-62, rows 37-39`)**: Contains a small orange sphere at `(60, 37)` above a southern staircase at `(59-61, 39)`.
+    - **Eastern Plateau (`cols 58-70, rows 31-38`)**: Reached via wooden stairs at `(58, 33-34)`. At `(64, 34-36)`, two dark rugged rocks at `(65, 35)` and `(64, 36)` sit between the cliff (`63, 35-36`) and pine tree (`66-67, 32-34`), blocking the path to the eastern pond (`70+, 36-38`).
 
 <hr>
 
@@ -767,7 +775,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 51 (C), Attack 35 (C+), Defense 36 (A-), Sp. Atk 25 (C-), Sp. Def 28 (E), Speed 26 (C-)
-- **Current Condition**: 33/51 HP, Paralyzed (healed +20 HP via Potion in Turn 27696)
+- **Current Condition**: 25/51 HP, Paralyzed (healed +20 HP via Potion in Turn 27696; took 8 damage from Black Belt Cameron's Lv10 Mankey in Turn 27713)
 - **EXP**: Lv19 (reached during Route 2 rival battle against Valora, Turn 27670)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)

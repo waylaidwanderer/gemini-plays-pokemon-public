@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 51 (C), Attack 35 (C+), Defense 36 (A-), Sp. Atk 25 (C-), Sp. Def 28 (E), Speed 26 (C-)
-- **Current Condition**: 33/51 HP, Paralyzed (healed +20 HP via Potion in Turn 27696)
+- **Current Condition**: 25/51 HP, Paralyzed (healed +20 HP via Potion in Turn 27696; took 8 damage from Black Belt Cameron's Lv10 Mankey in Turn 27713)
 - **EXP**: Lv19 (reached during Route 2 rival battle against Valora, Turn 27670)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
