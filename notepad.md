@@ -247,7 +247,7 @@
   - **Pokémon Day-Care Entrance** at `(38, 20)` (red-roofed cottage topped with giant Pokémon Eggs):
     - **Interior (`7, 11` exit mat)**: Contains Day-Care Lady at `(7, 7)`, PC terminal at `(10, 8)`, and a male Scientist at `(4, 10)` (*"I'm researching Pokémon Eggs, but no luck so far..."*, verified Turns 27685-27687).
   - **Quest NPC ("Egg Research", Quest #3)** at `(40, 21)` directly outside the Day-Care: Female scientist in glasses and lab coat with purple quest bubble. Asks: *"Oh hey! You're a Pokémon Trainer, right? I need your help... You know those rocks that make Happinies evolve? Could you find one for me?"* Accepted in Turn 27680. Gives post-accept hint: *"I heard you can catch Happinies here... They are rare, but they're said to keep those eggs with themselves from time to time. Maybe by catching one, you could get that egg easily..."* (verified Turns 27680-27683).
-  - **Northern Staircase** at `(31-33, 17-18)` ascending north from the Day-Care plateau.
+  - **Northern Staircase & Day-Care Yard (`cols 30-41, rows 12-18`)**: Stone staircase at `(31-33, 17-18)` ascends north from the Day-Care plateau to a small terrace (`cols 30-34, rows 13-16`; bounded on the north by a cliff at `row 12`). At `(35, 15)`, the **Day-Care Man** stands at the gap of the fenced Day-Care yard (`cols 35-41, rows 12-16`), which contains an overworld **Eevee** (`38, 13`) and **Togepi** (`39, 15`) (verified Turns 27689-27691).
   - **Rival Battle with Valora (`37, 22`)**: Stepping onto `(37, 22)` in front of the Pokémon Day-Care triggers a cutscene where **Valora** steps out beside Asher (`38, 22`), admires the Day-Care, and challenges Asher to a 4-Pokémon rival battle to stay sharp for the Eclipse Tournament (verified Turns 27652-27678):
     - **Pokémon 1**: Cleffa (♂, Lv7; Fairy-type; knows Encore, Metronome).
     - **Pokémon 2**: Ralts (♀, Lv8; Psychic/Fairy-type; knows Double Team, Growl).
@@ -663,7 +663,7 @@
   - **Page 1 Quests**:
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
-    3. Egg Research (Uncompleted; displays "This Quest hasn't been completed yet!")
+    3. Egg Research (Active Quest — accepted at Route 2 `40, 21` in Turn 27680; find an Oval Stone held by wild Happiny on Route 2)
     4. Medic! (Uncompleted; displays "This Quest hasn't been completed yet!")
     5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
   - **Page 2 Quests**:
@@ -760,6 +760,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 51 (C), Attack 35 (C+), Defense 36 (A-), Sp. Atk 25 (C-), Sp. Def 28 (E), Speed 26 (C-)
+- **Current Condition**: 13/51 HP, Paralyzed (as of Turn 27676 after defeating Valora)
 - **EXP**: Lv19 (reached during Route 2 rival battle against Valora, Turn 27670)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
