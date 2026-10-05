@@ -33,4 +33,5 @@
   - **Bug Catcher Gough (`28, 36`, facing East)**:
     - **Pre-Battle Quote**: *"What is a bug catcher like doing here? You will see!"*
     - **Team (2 Pokémon)**:
-      - **Pokémon 1**: Dwebble (♂, Lv13; Bug/Rock).
+      - **Pokémon 1**: Dwebble (♂, Lv13; Bug/Rock; Ability: Sturdy; knows Sand Attack).
+      - **Pokémon 2**: Dustox (Bug/Poison).
