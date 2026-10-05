@@ -31,7 +31,7 @@
     - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate).
     - **Pokémon 3**: Trapinch (♂, Lv13; Ground; knows Bulldoze).
   - **Outcome**: Defeat quote: *"That was quick..."* (verified Turns 28120-28129).
-- **Western Pond Ledge & Super Potion (`27, 25`)**: Descending from Hiker Zion's ridge (`33, 23 -> 33, 27 -> 30, 27`) and ascending the wooden stairs at `(29-30, 26)` leads to `(27, 25)` on the western side of the underground pond, where a **Super Potion** spray-bottle sprite rests on the ground (collected Turn 28132).
+- **Western Pond Ledge & Super Potion (`27, 25`)**: Descending from Hiker Zion's ridge (`33, 23 -> 33, 27 -> 30, 27`) and ascending the wooden stairs at `(29-30, 26)` leads to `(27-31, 25)` on the southern/western side of the underground pond (`28-30, 21-24`), where a **Super Potion** spray-bottle sprite rests at `(27, 25)` (collected Turn 28132); bounded on the west and south by a diagonal cliff ridge at `(26, 25)` and `(27, 26)` (`latest_grid.png` Turn 28508, verified Turn 28509).
 - **Southern Corridor & Terraced Cliffs (`cols 22-33, rows 27-38`)** (`latest_grid.png` Turns 28132, 28147, 28159):
   - From the bottom of the pond stairs (`30, 27`), the cavern floor continues south past a 2x2 rock cone (`31-32, 28-29`) and a rectangular floor pit (`30-31, 33-34`) along `column 29` (`29, 31 -> 29, 38`, with an inert small rock at `31, 38`).
   - Terraced western cliffs (`cols 23-28, rows 27-37`) feature small rocks at `(26, 31)`, `(27, 32)`, and `(26, 35)`, while the southern corridor wraps west along `row 38` (`cols 22-30`) and north along `column 22` (`22, 38 -> 22, 32`) onto the southern end of the B1F north-south wooden bridge.
