@@ -41,4 +41,4 @@
   - **Collector Marsh (`20, 20`, facing East)**:
     - **Pre-Battle Quote**: *"H-hey, you like rare Pokémon? Wanna see mine?"*
     - **Team (1 Pokémon)**:
-      - **Pokémon 1**: Emolga (♂, Lv14; Electric/Flying). (verified Turns 28161-28164).
+      - **Pokémon 1**: Emolga (♂, Lv14; Electric/Flying; knows Charge and Spark). (verified Turns 28161-28171).
