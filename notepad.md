@@ -464,10 +464,11 @@
     - **Pokémon 3**: Eevee (♂, Lv11; Normal).
     - **Pokémon 4**: Chimchar (♂, Lv12; Fire-type Sinnoh starter ace; knows Taunt).
     - **Outcome & Post-Battle**: Defeat quote: *"Wow, you are actually experienced! Nice!"*; awards `₽1344`. Post-battle, Lucas says: *"Haha, nice, it was a great battle for sure. I really gotta train myself up if I wanna breeze through. Well, see you later in the tournament!"* and departs east along the purple brick road into Azluf Town (verified Turns 27758-27773).
-- **Closed-Off Northern Enclave (`cols 35-45, rows 8-16`)** (`latest_grid.png` Turns 28098, 28100 & 28379; screen Turn 28380):
+- **Closed-Off Northern Enclave (`cols 35-45, rows 8-16`)** (`latest_grid.png` Turns 28098, 28100, 28379 & 28484):
   - Accessible ONLY from exterior **Mt. Gerhana** (`2, 6` cave entrance with signboard at `4, 7`: *"Route 2 / A hidden path"*), emerging at `(38, 9)` below the cave mouth at `(38, 8)`.
   - Enclosed on the south by the Pokémon Day-Care fence (`35-41, 12-16`), pine tree (`41-42, 17-18`), boulder (`43-44, 15-16`), and cliffs (`45+, 15-18`).
-  - Contains a pale flower patch at `(39, 11)`, a blue flower patch at `(40, 10)`, and a sunken rocky basin at `(42-44, 11-13)` (entered via stone stairs at `43-44, 10`, and completely enclosed by solid cliff walls on the west at `col 41`, south at `row 14`, and east at `col 45`, verified Turn 28380; site of the medicinal flower for Quest #4 "Medic!", which requires Quest #4 to be active).
+  - Contains an inert pale flower patch at `(39, 11)`, an inert blue flower patch at `(40, 10)`, and a sunken rocky basin at `(42-45, 11-13)` (entered via northern stone stairs at `43-44, 10` from `43-44, 9`, with a walkable low southern rim at `43-44, 14` leading onto the southern grass strip `42-45, 14-15`).
+  - **Cure Flower (`45, 14`) — Quest #4 ("Medic!")**: When **Quest #4 ("Medic!")** is active, an orange item sphere spawns at **`(45, 14)`** on the southern grass strip below the sunken basin; interacting with `(45, 14)` from `(44, 14)` yields the **Cure Flower** into the Key Items Pocket (verified Turn 28485).
 
 <hr>
 
