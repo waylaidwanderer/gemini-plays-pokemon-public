@@ -221,6 +221,16 @@
 
 <hr>
 
+<h1><code>Locations/Route_2</code></h1>
+
+# Route 2
+
+## Geography & Connections
+- **North**: Connects to Sovio City (`columns 60-63, row 40`) at `columns 6-9, row 0` (verified Turn 27589).
+- **East / Southeast**: Leads toward **Azluf Town**, where Professor Ivo is waiting to meet Asher (per Dad's briefing in Turn 27559).
+
+<hr>
+
 <h1><code>Locations/Sovio_City</code></h1>
 
 # Sovio City
@@ -231,7 +241,7 @@
 
   - **Southern Avenue Bounds**: At (15, 30), the avenue transitions from the stone curb of rows 28-29 onto an open grassy lawn flanked by pine trees. Eastward traversal into row 30 is completely blocked by solid pine trees starting at column 18. The avenue continues south along columns 14-15 between dense pine tree borders directly toward Route 1 (row 40-41).
 
-- **East**: Connects to Route 2 toward Amor City (verified via World Map).
+- **East / Southeast (Route 2 Connection)**: From Central Plaza, the eastern boulevard runs east across `columns 52-65, rows 19-20` (manholes at `55, 19` and `59, 22`, street lamps at `60, 22-23` and `63, 19-21`, trash can at `63, 23`), then curves south along `columns 60-63` (`rows 20-40`) through a flower-lined grassy avenue (`rows 31-40`) that transitions directly onto **Route 2** at `(6-9, 0)` (verified Turns 27586-27589).
 
 ## Exploration & Landmarks
 
