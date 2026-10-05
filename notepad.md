@@ -699,6 +699,6 @@
 - **Sovio Pokémon Center Framed Town Map & Counter (Turns 27346-27351)**: Framed Town Map at (11, 0) verified identical to HuPhone World Map; Nurse Joy service counter at (7, 4) completed full healing cycle with standard dialogue.
 
 ## Active Empirical Investigation Plans
-- **Step 1 (Audit Lower Eastern Walkway 34-37, 28-32 with Repels - Active)**: Column 27 Vertical Corridor (Turn 27488), Southern Canal Corridor (Turn 27490), Southwest Corridor (Turn 27492), Eastern Storage Platform (Turn 27494), Column 30-31 Junction (Turns 27495-27496), and Column 23 Bridge Landing (Turn 27497) verified. Renew Repel on row 18 and inspect the Lower Eastern Walkway (34-37, 28-32) via `latest_grid.png` to complete the 1F Sovio Sewers grid audit.
+- **Step 1 (Audit Sovio Sewers Dark Sector / Basement 30, 4 with Repels & Coordinate Grids - Active)**: 1F Sovio Sewers coordinate grid audit 100% completed (Turns 27488-27501). Test Metro Turnstile (19, 21) and right mat tile (19, 25), then traverse with Repels active to the Northeast Wooden Staircase at (30, 4) to audit the Dark Sector / Basement and Deep Subterranean Chamber (15, 9) with `latest_grid.png` and turn citations.
 
 <hr>
