@@ -14,3 +14,11 @@
   - Two wooden staircases leading up to the Main Lobby:
     - West staircase at `(14-15, 35-36)` with vertical red mat at `(13, 35-36)` (reached via row 37 beneath the stairs); stepping `Right` from `(13, 35)` into `(14, 35)` warps to the **Amor Metro Station Main Lobby** at `(9, 3)`.
     - East staircase at `(22-23, 35-36)` with vertical red mat at `(24, 35-36)`.
+## Amor City Battle Centre / Metro Main Lobby
+- **Upper Mezzanine (`rows 3-6`)**:
+  - West staircase (`7-8, 3-4`) with vertical red mat at `(9, 3-4)` connects back to the Amor Metro Station Lower Concourse (`14, 35`).
+  - East staircase (`12-13, 3-4`) with vertical red mat at `(11, 3-4)`.
+  - Two blue escalators at `column 5` (`rows 7-9`) and `column 15` (`rows 7-9`) descend to the ground floor.
+- **Ground Floor (`rows 10-19`)**:
+  - Central curved red reception counter (`8-12, 10-12`) with Battle Centre Assistant at `(10, 10)` and Poké Ball floor emblem at `(9-11, 13-15)`.
+  - Stepping down the west escalator to `(5, 9)` triggers the Eclipse Tournament registration cutscene with Dad and Valora, where Asher receives the **Metro Pass** and registers for the tournament before encountering **Frio** at `(10, 14)`.
