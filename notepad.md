@@ -789,7 +789,12 @@
 - **Items Pocket (Audited Turn 27826)**: Contains Poison Barb x1, Antidote x1, Repel x8, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x5 (purchased 5 Berry Juice and 5 Moomoo Milk at Claire's Organic Market in Azluf Town in Turns 27825-27826 with ₽3410 remaining; found Max Repel at Route 2 `60, 37` in Turn 27744; found hidden Revive at Route 2 `48, 35` in Turn 27705).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Poké Balls Pocket (Audited Turn 27601)**: Contains Timer Ball x1, Poké Ball x8 (10 prior to Route 2; 2 thrown at wild Lv6 Starly in Turns 27598 and 27601).
-- **Key Items Pocket (Audited Turn 27560, Turn 27597, Turn 27799 & Turn 27854)**: Contains HuPhone (registered to [SELECT]), TM Case, **Metro Pass** (received from Dad in Amor City Battle Centre in Turn 27560; grants travel access on the Hupest Metro Line), **Eclipse Band** (received from Professor Ivo in Azluf Town in Turn 27799; channels the power of single-use meteorite **Eclipse Shards** to permanently transform a Pokémon into its Eclipse Form), and **Fishing Rod** (received from the Fisherman at `37, 30` in southeastern Azluf Town in Turn 27854).
+- **Key Items Pocket (Audited Turn 27862)**:
+  - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
+  - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
+  - **Metro Pass**: *"Its a card that can be used at the e-ticket reader gates to travel on the Hupest Metro Line."*
+  - **Eclipse Band**: *"A special band designed to channel the power of Eclipse Shards to allow Eclipsing!"* (received from Professor Ivo in Azluf Town, Turn 27799).
+  - **Fishing Rod**: *"A new, high-quality fishing rod. Use it by any body of water to fish for wild Pokémon."* (received from Fisherman at `37, 30` in Azluf Town, Turn 27854).
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash (verified at `6, 23` and `22, 10` in Sovio Sewers, Turns 27495 & 27512).
