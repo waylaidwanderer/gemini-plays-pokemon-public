@@ -91,7 +91,7 @@
 - **Southern Ledge Item Sphere (`15, 47`)**: Uncollected orange item sphere in a coastal cliff alcove south of `row 46`; enclosed by cliff walls on the north, west, and east and open only to the southern ocean water at `row 49` (**Surf-gated**, verified Turn 27887).
 - **Mt. Gerhana Southern Entrance (`27, 14`)**: Reached via the northern stone stairs (`26-27, 18`) at the top of the `cols 26-27` avenue.
   - **Signboard (`25, 16`)**: Interacted from `(25, 17)`, reads verbatim: *"Mt. Gerhana"* (verified Turn 27845).
-  - **Worker Guard (`27, 15`)**: Blocks the cave entrance prior to Round One of the Eclipse Tournament: *"I'm sorry kid, but there are some mine works going on... We will move out of the way later!"* (verified Turn 27845).
+  - **Worker Guard (`27, 15`)**: Blocks the cave entrance prior to Round One of the Eclipse Tournament: *"I'm sorry kid, but there are some mine works going on... We will move out of the way later!"* (verified Turn 27845). After Asher wins Round One of the Eclipse Tournament and accepts Frio's challenge, the guard is gone and stepping onto `(27, 14)` enters **Mt. Gerhana** (verified Turn 28074).
 - **Eastern House — Professor Oak's House (`31, 24`)**: Blue-roofed cottage at the eastern end of the `row 26` purple brick road (`37, 10` interior exit mat).
   - **Professor Oak (`40, 7`)**: Kanto Pokémon Professor with a side quest bubble (**Quest #11: "Oak's Research"**): *"Oh, hello there! You must be a Pokémon Trainer! You also seem to have a PokéDex, may I check it? Wow, this is a well made PokéDex! It's way more complex than mine... However it's pretty empty... Oh, how rude of me, I didn't even introduce myself... My name is Oak, I'm a Pokémon professor from the Kanto Region. I research Pokémon and gather data of them... Would you help me in my research? Yes/No"* (verified Turns 27848-27849).
 - **Southeastern Coastal Ridge & Fishing Rod Giver (`37, 30`)**: Reached via stone stairs at `(34-35, 29)` south of Professor Oak's house.
@@ -242,6 +242,16 @@
 - **Fisherman (Red Cap)**: Located at (38, 22) near the harbor dock. Verified post-tremor (Turn 27467, 3 boxes): "You know kid... fishing taught me one very important thing in life." / "However it goes, you must stay calm and patient, because if you" / "calm and patient, because if you do, good things might come." Does not provide Old Rod or story progression.
 
 - **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored; the pier terminates at open water (verified post-tremor Turn 27068).
+
+<hr>
+
+<h1><code>Locations/Mt_Gerhana</code></h1>
+
+# Mt. Gerhana
+
+## Geography & Connections
+- **Southern Entrance**: Connects to Azluf Town at `(27, 14)` (unlocked after winning Round One of the Eclipse Tournament, verified Turn 28074).
+- **Lore & Significance**: Site of the **Eclipse Rock**, which Frio was ordered to recover after Round One of the Eclipse Tournament; also connects to a closed-off spot on Route 2 where the medicinal flower for the Azluf Town Lighthouse gentleman's sick Spearow ("Medic!" Quest #4) grows.
 
 <hr>
 
