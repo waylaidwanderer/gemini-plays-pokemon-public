@@ -464,7 +464,11 @@
           - **Pokémon 2**: Skorupi (♀, Lv9; Poison/Bug; knows Poison Sting).
           - **Pokémon 3**: Dwebble (♀, Lv9; Bug/Rock; knows Withdraw).
         - **Outcome**: Defeat quote: *"Why you..."*; awards `₽432` (verified Turns 28561-28576).
-      - South of Explorer Ben (`37-39, 59`), a flower-lined path winds south and east around tall grass patches (`37, 59 -> 39, 60 -> 39, 63 -> 46, 63 -> 46, 61 -> 48, 61 -> 48, 58+`, with an inert rock cone at `43, 62`, verified Turns 28578-28580).
+      - South of Explorer Ben (`37-39, 59`), a flower-lined path winds south and east around tall grass patches (`37, 59 -> 39, 60 -> 39, 63 -> 46, 63 -> 46, 61 -> 48, 61 -> 48, 58 -> 52, 58`, with inert rock cones at `43, 62` and `47, 56`, verified Turns 28578-28581).
+      - **Picnicker Alice (`53, 58`, facing South)**:
+        - **Pre-Battle Quote**: *"Don't you love this place? Its great for picknics."*
+        - **Team (1 Pokémon)**: Pansage (♂, Lv11; Grass).
+        - **Outcome**: Defeat quote: *"..."*; awards `₽440` (verified Turns 28581-28585).
   - **Southbound Wooden Bridge & Eastern Plateau (`cols 53-70, rows 31-39`)**:
     - **Southbound Wooden Bridge**: Extends south from the eastern corridor at `(53-55, 36+)` (`latest_grid.png` Turn 27718). **Hiker Jerry** stands at `(55, 42)` facing West (`"Ahh a Trainer! Would you fancy a battle?"`): Uses 3 Pokémon—Geodude (♀, Lv9; Sturdy, Rock Polish), Geodude (♂, Lv9; Sturdy, Rock Polish), and Machop (♂, Lv9; Bide); defeat quote: *"Oh no..."*; awards `₽360`; post-battle overworld quote: *"I guess I'll return to hiking and exploring the place!"* (verified Turns 27723-27740).
     - **Lower Southeastern Ledge (`cols 58-62, rows 37-39`)**: Reached via stone staircase at `(59-61, 39-42)`; contains an orange item sphere at `(60, 37)` yielding **Max Repel x1** (collected Turn 27744).
