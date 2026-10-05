@@ -251,9 +251,9 @@
 
 ## Geography & Connections
 - **Southern Entrance (`6, 30` interior <- `27, 14` Azluf Town)**: Connects to Azluf Town at `(27, 14)` (unlocked after winning Round One of the Eclipse Tournament, verified Turn 28074-28076). Stepping `Down` from `(6, 30)` exits back to Azluf Town.
-- **Northern Ladder (`9, 19` interior <-> `13, 9` exterior clearing) & 1F Northern Terrace (`cols 8-16, rows 11-21`)**:
+- **Northern Ladder (`9, 19` interior <-> `13, 9` exterior clearing) & Unvisited Northwestern 1F Plateau (`cols 13-16, rows 6-15`)**:
   - Ascending the wooden stairs north of Roark at `(8-10, 21-22)` reaches `(9, 20)`. Stepping north onto the base of the ladder at `(9, 19)` warps out to an exterior mountain clearing of **Mt. Gerhana** at `(13, 10)` in front of the cave mouth at `(13, 9)` (verified Turns 28090-28092).
-  - **Main Path Northeast of Roark (`cols 12-16, rows 11-22`)**: While `(9-10, 20)` is separated from `(12, 20-21)` by an east-facing cliff wall at `(11, 20-21)` (`latest_grid.png` Turn 28306), the main cavern floor continues north directly behind/northeast of Roark (`13, 23`) via `(13-14, 22) -> (14, 21)` to an orange item sphere at `(14, 21)`, diagonal wooden stairs at `(15, 19-20)`, and a female Trainer at `(13, 18)` guarding the upper northern plateau (`cols 13-16, rows 11-18`, with a floor pit at `15-16, 13-14`).
+  - **Solid Wall Behind Roark (`cols 11-18, rows 18-22`) & Unvisited Northwestern 1F Plateau (`cols 13-16, rows 6-15`)**: Directly behind Roark (`13, 23`), the cavern floor at `(14-15, 21-22)` is closed off on the north and west by solid cliff walls (`cols 11-18, rows 18-20`, verified Turn 28313). Further north in the northwestern quadrant of 1F (`cols 13-16, rows 6-15`, spotted on the left side of the screen near the end of Turn 28294's northbound walk along `col 21, rows 16->6`) lies an unvisited plateau containing an orange item sphere, diagonal wooden stairs, a female Trainer, and a rectangular floor pit.
   - **Exterior Mountain Pass (`13, 10` -> `6, 14` -> `5, 9` -> `2, 6`)**: Descending the mountain steps (`13, 11-13`) and following the canyon pass west along `row 14` (`cols 6-13`) and north along `cols 4-6` (`rows 7-14`) leads to a second cave entrance at `(2, 6)` with a wooden signboard at `(4, 7)` (interacted from `4, 8`) reading verbatim: *"Route 2 / A hidden path"* (verified Turns 28092-28095). Stepping into `(2, 6)` exits to the closed-off northern enclave of **Route 2** at `(38, 9)` directly behind the Pokémon Day-Care yard (verified Turn 28098).
 - **Eastern Underpass Bridge (`cols 16-24, rows 23-25`) & Upper North-South Bridge (`cols 19-21, rows 20-27`)**:
   - **From the main cavern floor east of Roark (`14-15, 23-25`)**, a horizontal wooden bridge at `cols 16-24, rows 23-25` passes directly underneath the elevated north-south wooden bridge (`cols 19-21`) to reach the **1F Eastern Cavern Floor (`cols 24-33, rows 23-26`)** (verified Turn 28106).
@@ -327,14 +327,13 @@
       - **Pokémon 1**: Makuhita (♀, Lv13; Fighting).
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
     - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
-- **Southern 1F Platform (`18-28+, 28-31`) & Hiker Frost (`22, 28`)**:
-  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`).
+- **Southern 1F Platform (`18-28, 28-31`) & Hiker Frost (`22, 28`)**:
+  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`), and bounded on the east by a cliff wall at `col 28` (verified Turn 28318).
   - **Hiker Frost (`22, 28`, facing West)**:
     - **Pre-Battle Quote**: *"Ohohoho, a Trainer? What are you doing here?"*
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Gligar (♀, Lv15; Ground/Flying; knows Payback, Harden, Sand Attack, and Quick Attack).
     - **Outcome**: Defeat quote: *"..."* (verified Turns 28243-28251).
-  - **Unexplored Eastern Staircase (`28, 28-29`)**: East of Hiker Frost (`22, 28`), the southern 1F platform continues east along `rows 28-30` to wooden stairs at `(28, 28-29)` (visible in Turn 28303 filmstrip frame `#169`).
   - **Southern Pit Ladder (`20, 33-35` -> Lower Pit Chamber `5, 28`)**: At the southern edge of the 1F platform (`20, 33-35`), a wooden ladder descends into the lower pit chamber at `(5, 28)` (verified Turns 28253-28257).
 - **Lower Pit Chamber (`5, 28` Entry from 1F `20, 35`)**:
   - **Mine Workers & Blocked Passages (`14, 25` & `14, 34`)**: Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)` (*"We are doing some work here..."*, standing in the 1-tile gap above the cliff corner at `11, 28` to block the northern cave archway at `14, 25`), `(13, 29)` (*"We are cleaning up the path here, wait until we are done! We still have a lot of work to do though..."*), `(13, 32)`, and `(15, 31)` (*"Ahh, when will we finish this?!"*) alongside a Machop at `(14, 32)` (*"Machop: Chop! Chop!"*) block both the northern exit (`14, 25`) and the boulders surrounding the floor ladder at `(14, 34)` (`latest_grid.png` Turns 28257, 28259, verified Turns 28257-28291).
