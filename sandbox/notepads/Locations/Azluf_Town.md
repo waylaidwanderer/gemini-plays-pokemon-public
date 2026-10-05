@@ -30,6 +30,7 @@
   - **Woman in Beret (`22, 7`)**: *"Yeah I totally agree! Dynamax is so overrated! Its just Pokémon becoming big."* (verified Turn 27833).
   - **Man in Glasses (`22, 6`)**: *"Yeah I totally agree! Z moves are so overrated, they are just boosted moves!"* (verified Turn 27833).
 - **Old Woman on Central Avenue (`21-22, 34-35`)**: *"There's a myth in this town, that one of Lake Guardians, Azelf, shows up here once a year. Because of this legend, the people made a statue in respect to them!"* (verified Turn 27837).
-- **Northern House (`22, 24`) & Northeast Road (`cols 21-28, rows 22-28`)**:
-  - Purple brick avenue runs north along `cols 20-22` to `row 26`, where a second blue-roofed cottage stands at `(22, 24)` (`3, 9` interior exit mat, housing two Scientists at `3, 6` and `7, 6`), and the road branches east along `rows 26-28` to `cols 26-27` before turning north (`cols 26-27, rows 22-25`, verified Turn 27838).
+- **Northern House — Move Deleter's House (`22, 24`) & Northeast Road (`cols 21-28, rows 22-28`)**:
+  - Purple brick avenue runs north along `cols 20-22` to `row 26`, where a second blue-roofed cottage stands at `(22, 24)` (`3, 9` interior exit mat), and the road branches east along `rows 26-28` to `cols 26-27` before turning north (`cols 26-27, rows 22-25`, verified Turn 27838).
+  - **Move Deleter (`3, 6`)**: Male Scientist at the table: *"Hi! My herbs can delete moves! I can make Pokémon forget their moves. Would you like me to do that? Yes/No"* (verified Turn 27841).
 - **Southern Ledge Item Sphere (`13, 47`)**: Uncollected orange item sphere visible on a rocky depression/ledge at `(13, 47)` south of the Sinnoh Lake Guardians monument (observed Turn 27811).
