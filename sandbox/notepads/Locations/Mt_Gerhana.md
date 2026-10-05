@@ -49,8 +49,8 @@
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Emolga (♂, Lv14; Electric/Flying; knows Charge and Spark).
     - **Outcome**: Defeat quote: *"I thought they are unbeatable!"*; awards `₽560` (verified Turns 28161-28174).
-- **Western B1F Staircases (`cols 15-17, rows 21-26`) & Coworker Garner (`15, 23` -> `16, 23`)**:
-  - Two consecutive wooden staircases (`15-17, 21-22` and `15-17, 25-26`, separated by a landing at `15-17, 23-24`) descend from the upper western terrace (`cols 15-18, rows 16-20`) to the lower western floor (`cols 15-19, rows 27+`).
+- **Western B1F Staircases (`cols 15-17, rows 21-26`), Upper Western Terrace (`cols 15-18, rows 15-20`) & Coworker Garner (`15, 23`)** (`latest_grid.png` Turns 28710-28711):
+  - Bounded on the west (`cols 11-14`) by a 3-tier cliff wall and black void and on the north (`row 14`) by an upper cliff wall. Two consecutive wooden staircases (`15-17, 21-22` and `15-17, 25-26`, separated by a landing at `15-17, 23-24`) descend from the Upper Western Terrace (`cols 15-18, rows 15-20`) to the Lower Western Floor (`cols 15-19, rows 27-30`, bounded on the south at `rows 30-31` by a 2-tier cliff wall).
   - **Coworker Garner (`15, 23`, facing East)**:
     - **Pre-Battle Quote**: *"We just finished our clean up works on this level and I have nothing to do... Wanna battle?"*
     - **Team (3 Pokémon)**:
@@ -58,8 +58,8 @@
       - **Pokémon 2**: Machop (♂, Lv13; Fighting; knows Focus Energy).
       - **Pokémon 3**: Geodude (♀, Lv14; Rock/Ground; knows Rock Polish).
     - **Outcome**: Defeat quote: *"My god..."*; awards `₽560` (verified Turns 28179-28188).
-- **B1F Underpass (`17, 27 -> 23, 27 -> 25, 25`) & Eastern Staircase (`25-26, 15-18 -> 25, 14`)**:
-  - From the bottom of the lower western stairs (`17, 27`), the cavern floor passes underneath the north-south wooden bridge (`cols 20-22, rows 27-31`) to `(23, 27)`, wraps north/east around the boulder at `(23-24, 23-24)` via `(23, 25) -> (25, 25)`, and ascends the eastern staircase (`25-26, 18 -> 25-26, 15`) onto the northern B1F platform (`cols 22-30, rows 7-14`, verified Turns 28190-28192).
+- **B1F Underpass (`17, 27 -> 23, 27 -> 25, 25`) & Eastern Staircase (`25-26, 15-18 -> 26, 12`)** (`latest_grid.png` Turns 28711-28712):
+  - From the bottom of the lower western stairs (`16-17, 27`), the cavern floor passes underneath the north-south wooden bridge (`cols 20-22, rows 27-31`) to `(23, 27)`, wraps north/east around the 2x2 boulder at `(23-24, 23-24)` via `(23, 25) -> (25, 25)`, and ascends the eastern staircase (`25-26, 18 -> 25-26, 15`) onto the northern B1F platform (`25-26, 14 -> 26, 12`, verified Turns 28190-28192 & 28712).
 - **Northern B1F Platform (`cols 23-32, rows 7-14`) & Cave Archway (`29, 7`)**:
   - Bounded on the southwest by the deep chasm (`cols 19-24, rows 13-15`), leads north to a cave archway at `(29, 7)` (`latest_grid.png` Turn 28193), and is sealed off on the east by two 2x2 rock cones at `(31-32, 10-11)` and `(33-34, 11-12)` against a 2-tier boundary cliff wall (`35-38, 9-13`, verified via `latest_grid.png` Turn 28520 and collision testing Turns 28520-28522).
   - **Hiker Griffin (`28, 10`, rotating)**:
