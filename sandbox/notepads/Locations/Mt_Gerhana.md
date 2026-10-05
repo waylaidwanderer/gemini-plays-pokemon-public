@@ -16,6 +16,7 @@
 - **Gulpin**: Encountered at Lv10 (♂, Poison) on the upper terrace at `(29, 20)` (verified Turns 28109-28110).
 - **Roggenrola**: Encountered at Lv10 (♀, Rock) on the upper terrace at `(29, 20)` (verified Turns 28112-28114).
 - **Aron**: Encountered at Lv7 (♀, Steel/Rock) at the base of the northern ladder at `(9, 20)` (verified Turn 28327).
+- **Zubat**: Encountered at Lv8 (♂, Poison/Flying) near the southern entrance at `(7, 27)` (verified Turn 28332).
 
 ## Story Events & Landmarks
 - **Southern Entrance Cutscene (`6, 29`)**: Stepping north from `(6, 30)` onto `(6, 29)` triggers a cutscene with **Valora** (`7, 29`), who wonders what the Eclipse Rock looks like (*"This is the place I think. I wonder how that rock looks... Will we even know when we find it?"* / Asher: *"I'm sure we will, it must be something very unique..."*). The camera cuts deeper into Mt. Gerhana, where **Frio** remarks *"I must be close to it... And there's no sign of that prick as well. I thought he will at least show up so that I can mess with him... Oh well."* before descending a wooden ladder into a lower pit (verified Turns 28077-28078).
