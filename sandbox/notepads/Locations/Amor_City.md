@@ -28,6 +28,12 @@
   - Interacting with Frio at `(10, 13)` from `(10, 14)` after registration displays verbatim: *"Maybe we shouldn't be bothering this prick..."* (verified Turn 27565).
   - Southern exit mat at `(9-11, 21)` is flanked by two lower blue escalators at `column 4` (`rows 19-22`) and `column 16` (`rows 19-22`) (`latest_grid.png` Turn 27566).
   - **Lower Arena Concourse (`rows 22-27`)**: Reached by descending the lower blue escalators at `(4, 19-22)` or `(16, 19-22)` (`latest_grid.png` Turn 27974 & physical traversal Turns 27975-27976; reached from reception by routing around the diamond pillars at `6-7, 14-18` or `13-14, 14-18` via `row 13`). Features a lower floor with a red mat at `(9-11, 27)` leading to the Eclipse Tournament arenas (per the receptionist's instructions in Turns 27971-27972).
+  - **Tournament Arena Lobby (`15, 7` -> `row 17`)** (`latest_grid.png` Turns 27978, 27980):
+    - Entry mat from the Lower Arena Concourse lands at `(15, 7)` (`cols 14-16, row 7`).
+    - Corridor runs west along `row 6` (`cols 11-15`), south along `columns 11-12` (`rows 6-15`), and opens into a horizontal arena lobby (`cols 6-19+, rows 14-17`) with a lower blue escalator at `(6, 16-19)` on the west and a row of numbered round arena entrance mats along `row 17`:
+      - **Round 1 Arena Entrance (`9-11, 17`)**: Unguarded red Poké Ball mat at `(10, 17)`; stepping `Down` off `(10, 17)` warps into the **Round 1 Arena** (verified Turn 27980).
+      - **Round 2 Arena Entrance (`12-14, 17`)**: Guarded by blue-capped attendant at `(13, 17)` (*"This is where Round 2 will take place in... Not yet though."*, verified Turn 27980).
+      - **Round 3 Arena Entrance (`16-18, 17`)**: Guarded by blue-capped attendant at `(17, 17)`.
 - **Exterior Plaza (`53-66, 24-29`)** (`latest_grid.png` Turn 27568 & physical interaction Turn 27568):
   - Stepping `Down` on the Battle Centre exit mat at `(10, 21)` warps outside to `(59, 25)` in Amor City (door at `59, 24`, verified Turn 27566-27567).
   - Signboard at `(56-57, 25)` interacted from `(57, 26)` reads verbatim: *"Amor Metro Station / Amor Battle Centre"* (verified Turn 27568).
