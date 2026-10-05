@@ -4,12 +4,12 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv23
+- **Level**: Lv24
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: HP 61 (C), Attack 42 (C+), Defense 42 (A-), Sp. Atk 29 (C-), Sp. Def 33 (E), Speed 31 (C-)
-- **Current Condition**: 41/61 HP, Healthy
-- **EXP**: Lv23 (reached during battle against Hiker Zion on Mt. Gerhana B1F, Turn 28122)
+- **Stats (IV Grades)**: HP 63 (C), Attack 43 (C+), Defense 45 (A-), Sp. Atk 30 (C-), Sp. Def 35 (E), Speed 32 (C-)
+- **Current Condition**: 43/63 HP, Healthy
+- **EXP**: Lv24 (reached during battle against Collector Marsh on Mt. Gerhana B1F, Turn 28171)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)

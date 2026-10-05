@@ -874,7 +874,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 28138)**: Contains Poison Barb x1, Antidote x1, Repel x7, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x5, Super Potion x1 (collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; used 1 Repel in Turn 28138; Poké Balls Pocket has Poké Ball x6).
+- **Items Pocket (Audited Turn 28167)**: Contains Poison Barb x1, Antidote x1, Repel x6, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x4, Super Potion x1 (collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; auto-renewed Repel at `29, 38` in Turn 28159; used 1 Moomoo Milk on Sirius in Turn 28167; Poké Balls Pocket has Poké Ball x6).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 27961)**: Contains **Poké Ball x10** (purchased 10 Poké Balls for ₽2000 at the Sovio City PokéMart in Turn 27961, with ₽2274 remaining).
@@ -972,12 +972,12 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv23
+- **Level**: Lv24
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: HP 61 (C), Attack 42 (C+), Defense 42 (A-), Sp. Atk 29 (C-), Sp. Def 33 (E), Speed 31 (C-)
-- **Current Condition**: 41/61 HP, Healthy
-- **EXP**: Lv23 (reached during battle against Hiker Zion on Mt. Gerhana B1F, Turn 28122)
+- **Stats (IV Grades)**: HP 63 (C), Attack 43 (C+), Defense 45 (A-), Sp. Atk 30 (C-), Sp. Def 35 (E), Speed 32 (C-)
+- **Current Condition**: 43/63 HP, Healthy
+- **EXP**: Lv24 (reached during battle against Collector Marsh on Mt. Gerhana B1F, Turn 28171)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
