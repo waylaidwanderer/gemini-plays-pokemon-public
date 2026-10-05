@@ -64,3 +64,6 @@
       - **Pokémon 3**: Geodude (♂, Lv13; Rock/Ground; Ability: Sturdy; knows Magnitude).
       - **Pokémon 4**: Onix (♂, Lv13; Rock/Ground; knows Curse and Rock Tomb).
     - **Outcome**: Defeat quote: *"Ah, that's a shocker."*; awards `₽520` (verified Turns 28193-28215).
+- **Northern 1F Chamber (`24, 6` Entry from B1F `29, 7`) & Moon Stone Ledge (`24, 13`)**:
+  - Stepping into the B1F cave archway at `(29, 7)` warps to the northern chamber of **Mt. Gerhana 1F** at `(24, 6)` (`latest_grid.png` Turn 28218).
+  - Walking west and south (`24, 6 -> 21, 6 -> 21, 13`) and ascending the diagonal wooden stairs at `(22, 13-14)` reaches the elevated ledge at `(23, 12-14)`, where an orange item sphere at `(24, 13)` contains a **Moon Stone** (collected Turn 28223).
