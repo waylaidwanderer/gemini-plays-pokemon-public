@@ -267,7 +267,7 @@
     - **Lower Ground Underpass (`cols 40-46, rows 29-38`)**: Passing south under the bridge at `(43-45, 30-32)` leads to a trainer at `(43, 33)`, a red-capped trainer at `(42, 35)`, and a pond at `(41-46, 37-38)` with a swimming Slowpoke at `(42, 37)`.
   - **Southbound Wooden Bridge & Eastern Plateau (`cols 53-70, rows 31-39`)**:
     - **Southbound Wooden Bridge**: Extends south from the eastern corridor at `(53-55, 36+)` (`latest_grid.png` Turn 27718). **Hiker Jerry** stands at `(55, 42)` facing West (`"Ahh a Trainer! Would you fancy a battle?"`): Uses 3 Pokémon—Geodude (♀, Lv9; Sturdy, Rock Polish), Geodude (♂, Lv9; Sturdy, Rock Polish), and Machop (♂, Lv9; Bide); defeat quote: *"Oh no..."*; awards `₽360`; post-battle overworld quote: *"I guess I'll return to hiking and exploring the place!"* (verified Turns 27723-27740).
-    - **Lower Southeastern Ledge (`cols 58-62, rows 37-39`)**: Contains a small orange sphere at `(60, 37)` above a southern staircase at `(59-61, 39)`.
+    - **Lower Southeastern Ledge (`cols 58-62, rows 37-39`)**: Reached via stone staircase at `(59-61, 39-42)`; contains an orange item sphere at `(60, 37)` yielding **Max Repel x1** (collected Turn 27744).
     - **Eastern Plateau (`cols 58-70, rows 31-38`)**: Reached via wooden stairs at `(58, 33-34)`. At `(64, 34-36)`, two dark rugged rocks at `(65, 35)` and `(64, 36)` sit between the cliff (`63, 35-36`) and pine tree (`66-67, 32-34`), blocking the path to the eastern pond (`70+, 36-38`).
 
 <hr>
@@ -714,7 +714,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 27705)**: Contains Poison Barb x1, Antidote x1, Repel x8, Revive x1 (found hidden Revive at Route 2 `48, 35` in Turn 27705; Potion x1 used on Sirius in Turn 27696; purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
+- **Items Pocket (Audited Turn 27744)**: Contains Poison Barb x1, Antidote x1, Repel x8, Revive x1, Max Repel x1 (found Max Repel in orange item sphere at Route 2 `60, 37` in Turn 27744; found hidden Revive at Route 2 `48, 35` in Turn 27705; Potion x1 used on Sirius in Turn 27696; purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Poké Balls Pocket (Audited Turn 27601)**: Contains Timer Ball x1, Poké Ball x8 (10 prior to Route 2; 2 thrown at wild Lv6 Starly in Turns 27598 and 27601).
 - **Key Items Pocket (Audited Turn 27560 & Turn 27597)**: Contains HuPhone (registered to [SELECT]), TM Case, and **Metro Pass** (received from Dad in Amor City Battle Centre in Turn 27560; grants travel access on the Hupest Metro Line).
