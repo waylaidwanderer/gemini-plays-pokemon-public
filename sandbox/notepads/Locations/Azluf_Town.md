@@ -56,4 +56,4 @@
   - **Sailor (`28, 45`)**: *"The town's lighthouse is what brings light to the coast at night so that ships can easily navigate."* (verified Turn 27879).
   - **Azluf Town Lighthouse (`34, 46`)**: Cottage attached to the coastal lighthouse tower (`53, 9` interior exit mat).
     - **Sick Spearow (`53, 5`)**: *"Spearow: Spear... / He seems sick..."* (verified Turn 27882).
-    - **Old Gentleman (`52, 5`) — Quest #4 ("Medic!")**: Explains: *"My Spearow... He's really sick... He can be cured, but for that I need a special type of flower... I heard it grows on Route 2, in a closed off spot, only accessible from Mt. Gerhana. So... will you help me? Yes/No"* (verified Turns 27883-27885; gated behind Mt. Gerhana access).
+    - **Old Gentleman (`52, 5`) — Quest #4 ("Medic!", Active)**: Explains: *"My Spearow... He's really sick... He can be cured, but for that I need a special type of flower... I heard it grows on Route 2, in a closed off spot, only accessible from Mt. Gerhana. So... will you help me? Yes/No"* (verified Turns 27883-27885; accepted in Turn 28461).

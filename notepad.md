@@ -110,7 +110,7 @@
   - **Sailor (`28, 45`)**: *"The town's lighthouse is what brings light to the coast at night so that ships can easily navigate."* (verified Turn 27879).
   - **Azluf Town Lighthouse (`34, 46`)**: Cottage attached to the coastal lighthouse tower (`53, 9` interior exit mat).
     - **Sick Spearow (`53, 5`)**: *"Spearow: Spear... / He seems sick..."* (verified Turn 27882).
-    - **Old Gentleman (`52, 5`) — Quest #4 ("Medic!")**: Explains: *"My Spearow... He's really sick... He can be cured, but for that I need a special type of flower... I heard it grows on Route 2, in a closed off spot, only accessible from Mt. Gerhana. So... will you help me? Yes/No"* (verified Turns 27883-27885; gated behind Mt. Gerhana access).
+    - **Old Gentleman (`52, 5`) — Quest #4 ("Medic!", Active)**: Explains: *"My Spearow... He's really sick... He can be cured, but for that I need a special type of flower... I heard it grows on Route 2, in a closed off spot, only accessible from Mt. Gerhana. So... will you help me? Yes/No"* (verified Turns 27883-27885; accepted in Turn 28461).
 
 <hr>
 
@@ -259,7 +259,7 @@
 # Mt. Gerhana
 
 ## Geography & Connections
-- **Southern Entrance (`6, 30` interior <- `27, 14` Azluf Town)**: Connects to Azluf Town at `(27, 14)` (unlocked after winning Round One of the Eclipse Tournament, verified Turn 28074-28076). Stepping `Down` from `(6, 30)` exits back to Azluf Town.
+- **Southern Entrance (`6, 30` interior <- `27, 14` Azluf Town)**: Connects to Azluf Town at `(27, 14)` (unlocked after winning Round One of the Eclipse Tournament, verified Turn 28074-28076). Stepping `Down` from `(6, 30)` exits back to Azluf Town. The western side of the 1F main cavern (`cols 5-9, rows 23-29`, where a Hiker wanders around `8, 23-25` and a small rock sits at `5, 25`) is closed off on the west by the solid outer cave wall at `col 4` (`latest_grid.png` Turn 28447, verified Turn 28448).
 - **Northern Ladder (`9, 19` -> `9, 17` interior <-> `13, 9` exterior clearing)**:
   - Ascending the wooden stairs north of Roark at `(8-10, 21-22)` reaches `(9, 20)`. Climbing the vertical wall ladder rungs from `(9, 19)` up to `(9, 17)` warps out to an exterior mountain clearing of **Mt. Gerhana** at `(13, 10)` in front of the cave mouth at `(13, 9)` (verified Turns 28090-28092 & 28328-28329).
   - **Solid Wall Behind Roark (`cols 11-18, rows 18-22`)**: Directly behind Roark (`13, 23`), the cavern floor at `(14-15, 21-22)` is closed off on the north and west by solid cliff walls (`cols 11-18, rows 18-20`, verified Turn 28313), while `rows 14-15` is a north-facing cliff wall dropping down into the Northern 1F Chamber (`cols 18-25, rows 6-16`, bounded on the west at `cols 17-18` by the outer map wall, verified Turns 28331 & 28358).
