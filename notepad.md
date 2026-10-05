@@ -33,9 +33,10 @@
   - **Tournament Arena Lobby (`15, 7` -> `row 17`)** (`latest_grid.png` Turns 27978, 27980):
     - Entry mat from the Lower Arena Concourse lands at `(15, 7)` (`cols 14-16, row 7`).
     - Corridor runs west along `row 6` (`cols 11-15`), south along `columns 11-12` (`rows 6-15`), and opens into a horizontal arena lobby (`cols 6-19+, rows 14-17`) with a lower blue escalator at `(6, 16-19)` on the west and a row of numbered round arena entrance mats along `row 17`:
-      - **Round 1 Arena Entrance (`9-11, 17`)**: Unguarded red Poké Ball mat at `(10, 17)` prior to Round One; stepping `Down` off `(10, 17)` warps into the **Round 1 Arena** (verified Turn 27980). After Asher wins Round One, a blue-capped attendant stands at `(10, 17)` guarding the entrance (verified Turn 28021).
+      - **Round 1 Arena Entrance (`9-11, 17`)**: Unguarded red Poké Ball mat at `(10, 17)` prior to Round One; stepping `Down` off `(10, 17)` warps into the **Round 1 Arena** (verified Turn 27980). After Asher wins Round One, a blue-capped attendant stands at `(10, 17)` guarding the entrance (*"The round has already ended... Congrats for advancing forward!"*, verified Turn 28021).
       - **Round 2 Arena Entrance (`12-14, 17`)**: Guarded by blue-capped attendant at `(13, 17)` (*"This is where Round 2 will take place in... Not yet though."*, verified Turn 27980).
       - **Round 3 Arena Entrance (`16-18, 17`)**: Guarded by blue-capped attendant at `(17, 17)`.
+    - **Post-Round-One Cutscene (`11, 9` -> `10, 9`, Turns 28021-28027)**: Stepping north onto `(11, 9)` after winning Round One triggers a cutscene with **Valora** (who also won her Round One group), the **Host** PA announcement concluding Round 1, and **Frio**, who challenges Asher to a race to **Mt. Gerhana** to find the **Eclipse Rock** before Valora joins Asher to travel to Mt. Gerhana.
   - **Round 1 Arena & Eclipse Tournament Round One (`4, 14` -> `14, 14`)** (`latest_grid.png` Turns 27983-27984 & physical completion Turns 27981-28020):
     - **Bracket & Format**: Entering `(10, 17)` displays the 8-trainer Round One bracket screen (`7, 17` map coordinate): Left side features **Asher vs. Camper Paul** and **Youngster vs. Youngster Chad**; Right side features **Roark vs. Picnicker** and **Bug Catcher Jim vs. Ruin Maniac**. No automatic healing occurs between the 3 consecutive matches.
     - **Cyber-Arena Layout**: For each match, the player materializes on a white/cyan teleporter pad at `(4, 14)`. Walking `Right 10` along `row 14` (`(4, 14) -> (14, 14)`) crosses the narrow chasm bridge (`12-13, 14-15`, where an Arena Attendant stands at `13, 15`: *"Good luck, Trainer!"*) onto the white-outlined trainer box at `(14, 14)`, which walks both trainers onto the stage (`16, 14`) and morphs the cyber-arena into a holographic rocky cavern battlefield.
@@ -717,11 +718,13 @@
 
 - **Amor Battle Center Text Message (Round One Summons)**: Immediately after Professor Ivo departed (Turns 27805-27806), Asher received a text message on his HuPhone from the **Amor Battle Center**: *"Dear Contestant! The very first round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*. Asher resolved to head back to Amor City for Round One and hoped Valora would make it in time as well.
 
-## Eclipse Tournament Round One — Victory Over Roark
+## Eclipse Tournament Round One — Victory Over Roark & Frio's Mt. Gerhana Challenge
 - **Round One Bracket & Matches (Turns 27981-28020)**: Inside the Amor City Battle Center's Round 1 Arena, Asher competed in an 8-trainer single-elimination bracket on a holographic cyber-arena stage:
   1. **Quarterfinals**: Defeated **Camper Paul** (Buizel Lv11, Pidgey Lv11, Bulbasaur Lv12).
   2. **Semifinals**: Defeated **Youngster Chad** (Rattata Lv11, Timburr Lv12, Electrike Lv12), while Sinnoh Gym Leader **Roark** defeated Bug Catcher Jim on the opposite side of the bracket.
   3. **Round One Finals**: Defeated Sinnoh Gym Leader **Roark** (Hippopotas Lv12, Cranidos Lv12, Onix Lv13) to win his Round One bracket and advance to Round Two of the Eclipse Tournament.
+- **Post-Round-One Reunion with Valora & Host Announcement (Turns 28021-28023)**: In the Tournament Arena Lobby (`11, 9`), Valora ran up to Asher and shared that she also won her Round One group. Over the PA loudspeaker, the Host announced the conclusion of Round 1 and told advancing trainers to relax until notified for Round 2.
+- **Frio's Race to Mt. Gerhana for the Eclipse Rock (Turns 28023-28027)**: **Frio** arrived in the corridor (`10, 11`), mocked the Round 1 competitors, and received a call instructing him to head to **Mt. Gerhana** to recover a mineral called the **Eclipse Rock**. Frio challenged Asher to a race to Mt. Gerhana: if Asher finds the Eclipse Rock first, he can keep it and uncover the answers to Eclipsing; if Frio finds it first, Frio will use the artifact to get closer to cracking the secret of Eclipsing. After Frio departed, Valora insisted on accompanying Asher so he wouldn't face Frio alone (*"Okay, got it, I'll follow like a shadow!"*) and joined Asher's party as a companion to head to Mt. Gerhana.
 
 <hr>
 
