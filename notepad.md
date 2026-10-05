@@ -914,7 +914,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 28242)**: Contains Poison Barb x1, Antidote x1, Repel x5, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x2, Super Potion x1, Moon Stone x1 (collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; auto-renewed Repel in Turns 28159 & 28226; used 1 Moomoo Milk on Sirius in Turns 28167, 28219 & 28241; collected Moon Stone on Mt. Gerhana 1F at `24, 13` in Turn 28223; Poké Balls Pocket has Poké Ball x6).
+- **Items Pocket (Audited Turn 28255)**: Contains Poison Barb x1, Antidote x1, Repel x5, Revive x1, Max Repel x1, Berry Juice x4, Moomoo Milk x2, Super Potion x1, Moon Stone x1 (collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; auto-renewed Repel in Turns 28159 & 28226; used 1 Moomoo Milk on Sirius in Turns 28167, 28219 & 28241; used 1 Berry Juice on Sirius in Turn 28254; collected Moon Stone on Mt. Gerhana 1F at `24, 13` in Turn 28223; Poké Balls Pocket has Poké Ball x6).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 28136)**: Contains **Poké Ball x6** (purchased 10 Poké Balls at Sovio City PokéMart in Turn 27961; used 4 Poké Balls catching Pulsar the Grubbin and Vega the Shinx on Route 2 in Turns 28038-28057).
@@ -1017,7 +1017,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 65 (C), Attack 45 (C+), Defense 46 (A-), Sp. Atk 31 (C-), Sp. Def 36 (E), Speed 34 (C-)
-- **Current Condition**: 45/65 HP, Paralyzed (activates Quick Feet +50% Speed boost)
+- **Current Condition**: 65/65 HP, Paralyzed (activates Quick Feet +50% Speed boost)
 - **EXP**: Lv25 (reached during battle against Hiker Griffin on Mt. Gerhana B1F, Turn 28210)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
