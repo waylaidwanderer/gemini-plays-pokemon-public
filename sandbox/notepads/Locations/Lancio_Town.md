@@ -77,7 +77,7 @@
 
 - **Green-haired Girl**: Located at (23, 14-15) facing right. Verbatim dialogue: "Lancio has such pretty flowers, / I wanna collect them all!". Confirmed ambient resident.
 
-- **NPC in Cap**: Located at (31-32, 14) on the east avenue. Dialogue: "Living in a small town sucks... There's nothing to do. I wanna live in the big capital, Amor City!".
+- **NPC in Cap**: Wanders at (32-33, 13-14) on the east avenue. Verified post-tremor (Turn 27461, 2 boxes): "Living in a small town sucks... There's nothing to do." / "I wanna live in the big capital, Amor City!".
 
 - **Old Man**: Located at (32, 8) near pond plaza. Dialogue: "I have grown up in this place, and I never want to leave it... This is home for me."
 
