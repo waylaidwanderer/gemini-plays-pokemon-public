@@ -900,7 +900,7 @@
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
     3. Egg Research (Uncompleted — accepted at Route 2 `40, 21` in Turn 27680 and canceled in Turn 28402; find an Oval Stone held by wild Happiny on Route 2)
-    4. Medic! (Uncompleted; displays "This Quest hasn't been completed yet!")
+    4. Medic! (Active Quest — accepted at Azluf Town Lighthouse `52, 5` in Turn 28461; find the medicinal flower for the sick Spearow in the closed-off northern enclave of Route 2 accessible via Mt. Gerhana)
     5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
   - **Page 2 Quests**:
     6. Lost Eevee
@@ -917,7 +917,7 @@
   - **Page 4 Quests**:
     16. - Not available -
     17. - Not available -
-    18. Roark's Opal
+    18. Roark's Opal (Completed in Turn 28444; rewarded all 11 Fossils)
     19. Pokédex!
     20. Marine Point Hunter
   - **Page 5 Quests**:
