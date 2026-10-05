@@ -75,7 +75,7 @@
 - **Items Pocket (Audited Turn 28167)**: Contains Poison Barb x1, Antidote x1, Repel x6, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x4, Super Potion x1 (collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; auto-renewed Repel at `29, 38` in Turn 28159; used 1 Moomoo Milk on Sirius in Turn 28167; Poké Balls Pocket has Poké Ball x6).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 27961)**: Contains **Poké Ball x10** (purchased 10 Poké Balls for ₽2000 at the Sovio City PokéMart in Turn 27961, with ₽2274 remaining).
+- **Poké Balls Pocket (Audited Turn 28136)**: Contains **Poké Ball x6** (purchased 10 Poké Balls at Sovio City PokéMart in Turn 27961; used 4 Poké Balls catching Pulsar the Grubbin and Vega the Shinx on Route 2 in Turns 28038-28057).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*

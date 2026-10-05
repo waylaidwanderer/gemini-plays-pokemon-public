@@ -37,8 +37,9 @@
       - **Pokémon 2**: Dustox (♀, Lv13; Bug/Poison; knows Confusion).
     - **Outcome**: Defeat quote: *"Oh my..."*; awards `₽676` (verified Turns 28148-28158).
 - **B1F North-South Wooden Bridge (`cols 20-22, rows 17-32`)** (`latest_grid.png` Turn 28161):
-  - Spans north from `(20-22, 32)` to `(20-22, 17)`, connecting at the northern end (`row 16`) to both the western staircases (`cols 15-17`) and the eastern staircase (`25-26, 15-18`).
+  - Spans north from `(20-22, 32)` to `(20-22, 17)`, connecting at the northern end (`row 16`) to both the western staircases (`cols 15-17, rows 21-26`, where a Hiker Trainer stands at `15, 22`) and the eastern staircase (`25-26, 15-18`).
   - **Collector Marsh (`20, 20`, facing East)**:
     - **Pre-Battle Quote**: *"H-hey, you like rare Pokémon? Wanna see mine?"*
     - **Team (1 Pokémon)**:
-      - **Pokémon 1**: Emolga (♂, Lv14; Electric/Flying; knows Charge and Spark). (verified Turns 28161-28171).
+      - **Pokémon 1**: Emolga (♂, Lv14; Electric/Flying; knows Charge and Spark).
+    - **Outcome**: Defeat quote: *"I thought they are unbeatable!"*; awards `₽560` (verified Turns 28161-28174).
