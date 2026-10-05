@@ -26,3 +26,6 @@
     7. White Herb (`₽100`)
     8. Mental Herb (`₽100`)
     9. Leaf Stone (`₽2100`) (verified Turns 27823-27825).
+- **Northeast House (`25, 32`)**: Blue-roofed cottage east of the north-south avenue (`21, 9` interior exit mat).
+  - **Woman in Beret (`22, 7`)**: *"Yeah I totally agree! Dynamax is so overrated! Its just Pokémon becoming big."* (verified Turn 27833).
+  - **Man in Glasses (`22, 6`)**: *"Yeah I totally agree! Z moves are so overrated, they are just boosted moves!"* (verified Turn 27833).
