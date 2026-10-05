@@ -27,7 +27,7 @@
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive; sewer corridors vacated.
 
 ## Topography & Connectivity
-- **Lower Eastern Walkway**: Extends east from column 34 staircase along row 28 to column 37, with shallow puddle at (37, 27). Column 37 continues south to row 32, then turns west along row 32 across columns 36-34 bordering the southern edge of the water basin, terminating at (34, 32) against the vertical water canal.
+- **Lower Eastern Walkway**: Extends east from column 34 staircase along rows 27-28 to an eastern alcove at (38-39, 27-28) with a shallow puddle at (38-39, 27) (`latest_grid.png` & verified Turn 27500; note: column 34 staircase must be entered from the south at 34, 28 due to the side railing at 35, 27). Column 37 continues south from row 28 to row 32, then turns west along row 32 across columns 36-32 bordering the southern edge of the water basin, terminating at (32, 32) against the vertical green canal water chasm at columns 30-31 (verified Turn 27500).
 - **Western Terrace Layout**:
   - Terrace floor extends across columns 12 to 17 on rows 11-12.
   - South perimeter has stairs descending at column 14 (rows 12-16) and solid stone railings at row 13 (columns 11-13 and 15-17).
