@@ -81,7 +81,7 @@
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
     - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
 - **Southern 1F Platform (`18-28, 28-35`), Hiker Frost (`22, 28`) & Cliff-Top Ledge (`24-35, 28`)**:
-  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`), and bounded on the south (`row 35`) and along `col 28, rows 29-35` by cliff walls and dark pits (`15-19, 33-35` and `27, 32-35`, verified Turns 28318 & 28364), while a walkable 1-tile cliff-top ledge extends east along `row 28` (`24, 28 -> 35, 28`, where the **Rare Opal** spawned at `35, 28` during Quest #18, verified Turns 28426-28432).
+  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`), and bounded on the south (`row 35`) and along `col 28, rows 29-35` by cliff walls and dark pits (`15-19, 33-35` and `27, 32-35`, verified Turns 28318 & 28364), while a walkable 1-tile cliff-top ledge extends east along `row 28` (`24, 28 -> 35, 28`, where the **Rare Opal** spawned at `35, 28` during Quest #18 and terminates at the solid eastern outer cave wall at `col 36`, verified via `latest_grid.png` Turn 28512).
   - **Hiker Frost (`22, 28`, facing West)**:
     - **Pre-Battle Quote**: *"Ohohoho, a Trainer? What are you doing here?"*
     - **Team (1 Pokémon)**:
