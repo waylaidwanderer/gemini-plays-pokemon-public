@@ -430,7 +430,9 @@
   - Western corridor & alcove (cols 13-17): Northern stone wall is at row 7. Row 8 is a walkable corridor connecting columns 13 to 17. Western boundary terminates at solid wall at column 12 (rows 8-9). Southern boundary at row 10.
   - Red capsule mat at (14-15, 9); stepping Down from (15, 9) warps to Deep Subterranean toy room (2, 38). Tile (16, 9) has solid obstacle collision; traversal between western alcove and eastern corridor connects via row 8 (Up from 15, 9 to 15, 8, then east along row 8 to 17, 8, and down to 17, 9).
 - **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). Verified 100% inert perimeter walls (north row 2 across cols 22-24, west col 21, east col 25). Single-purpose treasure room.
-- **Southeastern Corridor & Stairs Alcove**: Row 10 is walkable cobblestone floor beneath the entrance stairs (`31, 10` to `32, 10`) and extending west along row 10 from `(30, 10)`. Row 11 at `(28-30, 11)` is confirmed solid southern wall/boundary (`latest_grid.png` Turn 27510; note: prior `dark_sector_east_unmasked.png` was a fade-out frame of the Upper Sewers 1F at `30, 4`, not the Dark Sector).
+- **Southeastern Corridor & Southern Stone Staircase (25, 11-13)**: Row 10 is walkable cobblestone floor from `(32, 10)` west to `(23, 10)`. At `(25, 11-13)`, a 1-tile stone staircase (flanked by stone railings at cols 24 and 26) descends south to a lower Dark Sector floor at `(25, 14-15)`.
+  - **Lower Southern Corridor & Frio's Chamber Warp (26, 23)**: From `(25, 14-15)` (bounded east by wall at col 26), the corridor runs west along rows 14-15 to `(21, 14-15)` (rugged rock at `21, 16`), then south along columns 21-23 across rows 16-23 (rugged rocks at `23, 20` and `21, 23`), and east along rows 22-23 across columns 23-28. At `(25-26, 23)` on the southern wall is a red capsule warp mat; stepping `Down` from `(26, 23)` warps into the **Southern Subterranean Chamber** at `(32, 38)`.
+  - **Southern Subterranean Chamber (32, 38)**: Isolated chamber with red exit mat at `(32, 38)` and shallow puddle at `(31-33, 35-37)`. Stepping onto `(32, 37)` triggers the mandatory story cutscene with **Frio** (disguised in a Team Siara uniform at `32, 35`), who defeats Asher with his Eclipsing Gible and departs, prompting Asher: *"Ahh crap, I should rush back to Dad and Valora!"* (verified Turns 27521-27528).
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove.
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
   - **Alcove Perimeter Bounds**: Tile (21, 10) directly west of the rock is walkable floor. Tile (20, 10) is a solid corner wall. Row 11 across columns 20-22 is a solid south elevation wall, confirming the rock at (22, 10) sits in a 1-tile recess.
@@ -511,6 +513,11 @@
 - **Divampa Cave**: Verified cave/mountain landmark in the central-south mountain sector between the southern routes and Amor City.
 - **Mulberry Town & Route 9**: Verified town and route nodes on the western island archipelago.
 - **Solare Island**: An isolated island node in the far northwest ocean connected via dashed sea route from the western island.
+
+## Sovio Sewers Dark Sector & Confrontation with Frio
+- **Frio ("Young Master" Disguised in Siara Uniform)**: In the Southern Dark Sector subterranean chamber (`32, 38`), Asher discovered a blonde trainer named **Frio** wearing a Team Siara grunt uniform standing in a puddle (`32, 35`).
+- **The Artifact & Eclipsing**: Frio declared: *"Great... I finally found this too... Now its complete! With this... I can finally do it. Hehe, she will be so happy if it actually works... As she wanted."* When Asher mentioned standing up for a friend, Frio mocked friendship as weakness (*"There are no real friends... They drag you down, never respect you, and backstab you whenever it is benefical to them."*).
+- **Frio's Eclipsed Gible**: Frio overwhelmed Asher in a scripted battle flash using a Gible undergoing **"Eclipsing"**. Before departing, Frio introduced himself (*"My name is Frio... Remember that name well, because you'll never win against me!"*), hinted at his Gible's transformation (*"For now settle with me only saying 'Eclipsing'..."*), and left Asher to rush back to Dad and Valora.
 
 <hr>
 
@@ -699,6 +706,6 @@
 - **Sovio Pokémon Center Framed Town Map & Counter (Turns 27346-27351)**: Framed Town Map at (11, 0) verified identical to HuPhone World Map; Nurse Joy service counter at (7, 4) completed full healing cycle with standard dialogue.
 
 ## Active Empirical Investigation Plans
-- **Sweep Dark Sector Row 10 Southern Boundary (Cols 23-28) & Re-evaluate Unchecked Map Trigger Tiles (Active)**: Verified in Turn 27510 via `latest_grid.png` that `screenshots/dark_sector_east_unmasked.png` was actually the fade-out transition frame of Upper Sewers (1F) at `(30, 4)` (showing the column 30 causeway and northern gangway puddle), and that `(28-30, 11)` in the Dark Sector is a solid southern boundary wall. Walking west along row 10 from `(29, 10)` across columns 28-23 to verify the southern boundary of the Dark Sector eastern corridor before ascending back to the Upper Sewers.
+- **BREAKTHROUGH COMPLETED - Rush Back to Dad and Valora After Frio Cutscene (Active)**: In Turns 27513-27528, discovered the undocumented stone staircase at `(25, 11-13)` in the Dark Sector, navigated the southern corridor (`cols 21-28, rows 14-23`) to the red warp mat at `(26, 23)`, entered the Southern Subterranean Chamber at `(32, 38)`, and triggered the mandatory story cutscene with **Frio** at `(32, 37)`! Frio departed and Asher stated: *"Ahh crap, I should rush back to Dad and Valora!"* Now exiting `(32, 38)` and returning through the Dark Sector to reunite with Dad and Valora (checking the Sovio Sewers / Metro Station).
 
 <hr>
