@@ -312,8 +312,8 @@
     - **Pokémon 4**: Popplio (♂, Lv9; Water-type starter ace; knows Water Gun).
     - **Outcome & Post-Battle**: Defeat quote: *"Oh my... I didn't have a chance."*; awards `₽1008`. Post-battle, Asher tells her *"It was a nice battle, but you gotta try harder than that."* Valora replies: *"I knoooow, I'll train more so when Round One comes, I'll be ready to advance through! I'll go ahead now, see ya in Azluf!"* and departs southeast along the pink sand path toward Azluf Town.
 - **Central Ridge & Overhead Bridge Underpass (`cols 46-50, rows 24-38`)**:
-  - Wooden stairs at `(46, 26-27)` ascend east from the Day-Care path onto a rocky ridge (`cols 47-49`).
-  - A second set of wooden stairs at `(50, 25-26)` descends east from the ridge into the eastern tall grass corridor (`cols 51+`).
+  - Wooden stairs at `(46, 26)` (with railings at `46, 25` and `46, 27`) ascend east from the Day-Care path onto a rocky ridge (`cols 47-49`).
+  - A second set of wooden stairs at `(50, 25)` (with railings at `50, 24` and `50, 26`) descends east from the ridge into the eastern tall grass corridor (`cols 51+`).
   - Walking south along `column 49` (`rows 25-30`) passes east of a boulder (`47-48, 28-29`) and **underneath** the northern overhead wooden bridge (`rows 30-32`) onto a southern ridge overlook (`47-48, 33-34`).
   - **Hidden Item (`48, 35`)**: Interacting with the small purple stone at `(48, 35)` on the southern ridge overlook yields **Revive x1** (collected Turn 27705).
 - **Eastern Tall Grass Corridor (`cols 51-55, rows 24-35`)**:
