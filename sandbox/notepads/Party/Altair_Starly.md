@@ -7,7 +7,7 @@
 - **Level**: Lv6
 - **Ability**: Keen Eye (Prevents loss of accuracy; verified Turn 27904)
 - **Caught**: Route 2 at `(12, 10)` in standard Poké Ball (Turns 27592-27605)
-- **HP**: 20/20 HP (verified via Party menu in Turn 27627)
+- **HP**: 0/20 HP (fainted against wild Lv10 Whismur in Turn 28671)
 - **Moves**:
   - Slot 1: Growl (Normal, Status, 40 PP)
   - Slot 2: Tackle (Normal, Physical)

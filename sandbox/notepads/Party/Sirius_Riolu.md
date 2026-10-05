@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 67 (C), Attack 47 (C+), Defense 48 (A-), Sp. Atk 32 (C-), Sp. Def 37 (E), Speed 35 (C-)
-- **Current Condition**: 34/67 HP, Paralyzed (activates Quick Feet +50% Speed boost; verified after battling Explorer Ben in Turn 28576)
+- **Current Condition**: 17/67 HP, Paralyzed (activates Quick Feet +50% Speed boost; verified via Party menu in Turn 28676)
 - **EXP**: Lv26 (reached during battle against Bug Catcher Nicolas on Route 2, Turn 28555)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
