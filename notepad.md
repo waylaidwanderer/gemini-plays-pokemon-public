@@ -66,7 +66,16 @@
   - Bald elder at `(15, 42)` facing the monument: *"The 3 Sinnoh Lake Guardians... They are said to be the shapers of the human mind. Knowledge, emotions and willpower. Seeing it with my very own eyes... What a marvelous creation!"* (verified Turns 27808-27809).
 - **Town Signboard (`6-7, 34`)**: Interacted from `(7, 35)`, reads verbatim: *"Azluf Town / A cozy, coastal town"* (verified Turn 27813).
 - **Azluf Town Pokémon Center (`12, 33`)**: Located on the northern side of the western entrance road (`row 34`).
-  - **Interior (`7, 8` exit mat)**: Nurse Joy at `(7, 2)` (counter at `7, 4`); PC at `(12, 1)`; mezzanine escalator at `(2, 0)`.
+  - **Interior (`7, 8` exit mat)**: Nurse Joy at `(7, 2)` (counter at `7, 4`); PC at `(12, 1)`; mezzanine escalator at `(2, 0)` (reached via `row 8 -> col 1 -> 2, 1 -> 2, 0`).
+  - **Azluf Town PokéMart Mezzanine (`5, 8` escalator landing, clerk at `5, 3` / counter at `5, 5`)**:
+    1. Poké Ball (`₽200`)
+    2. Great Ball (`₽600`)
+    3. Potion (`₽300`)
+    4. Super Potion (`₽700`)
+    5. Antidote (`₽100`)
+    6. Paralyz Heal (`₽200`)
+    7. Awakening (`₽250`)
+    8. Repel (`₽350`) (verified Turns 28340-28343).
   - **Broken-Arm Trainer (`8, 4`)**: *"Ma'am, my arm hurts, I think I've broken it... / Nurse: I'm sorry but this is a Pokémon Center, but I can call the ambulance for you..."* (verified Turn 27818).
   - **Wandering Female Scientist (`4-5, 5-6`)**: *"I'm on a research trip, I'm just taking a small break here..."* (verified Turn 27820).
 - **Claire's Organic Market (`16-19, 30-33`)**: Outdoor market stall with orange awning east of the Pokémon Center, staffed by **Claire** (`17, 32`, *"Hello, welcome to Claire's organic market!"*) and her **Bulbasaur** (`18, 32`).
