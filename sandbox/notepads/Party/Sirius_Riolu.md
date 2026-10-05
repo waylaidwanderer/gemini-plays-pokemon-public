@@ -7,7 +7,7 @@
 - **Level**: Lv23
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: HP 61 (C), Attack 40 (C+), Defense 40 (A-), Sp. Atk 28 (C-), Sp. Def 32 (E), Speed 29 (C-)
+- **Stats (IV Grades)**: HP 61 (C), Attack 42 (C+), Defense 42 (A-), Sp. Atk 29 (C-), Sp. Def 33 (E), Speed 31 (C-)
 - **Current Condition**: 61/61 HP, Healthy
 - **EXP**: Lv23 (reached during battle against Hiker Zion on Mt. Gerhana B1F, Turn 28122)
 - **Moves**:
