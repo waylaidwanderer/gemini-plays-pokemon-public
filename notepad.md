@@ -778,7 +778,9 @@
 
 ## Quests & Mission Engine
 
-- **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors. When attempting to accept a new side quest while one is in progress, the NPC explains: "You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!", followed immediately by an in-dialogue choice prompt: "Would you like to cancel you current quest? Yes/No" (cursor defaults to No).
+- **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors.
+  - **At the Current Quest's Provider**: Speaking to the NPC who gave the currently active quest explains: *"You are already doing a quest... In order to start a new quest, you need to cancel the one in progress!"*, followed by an in-dialogue choice prompt: *"Would you like to cancel you current quest? Yes/No"* (cursor defaults to No).
+  - **At Any Other Quest Provider**: Attempting to accept a side quest from a different NPC while a quest is already active displays verbatim: *"You are already doing a Quest! Cancel the Quest in progress at the provider to start a new one."* without offering a cancellation prompt—you must return to the original quest provider to cancel an active quest (verified with Roark in Mt. Gerhana, Turn 28087).
 
 ## HuPhone Regional Device & Apps
 - **Access**: Activated via SELECT button or through BAG Key Items pocket.
