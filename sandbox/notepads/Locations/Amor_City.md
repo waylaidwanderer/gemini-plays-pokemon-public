@@ -23,7 +23,7 @@
   - East staircase (`12-13, 3-4`) with vertical red mat at `(11, 3-4)`.
   - Two blue escalators at `column 5` (`rows 7-9`) and `column 15` (`rows 7-9`) descend to the ground floor.
 - **Ground Floor (`rows 10-21`)** (`latest_grid.png` Turns 27565-27566 & physical traversal Turns 27556-27566):
-  - Central curved red reception counter (`8-12, 10-12`) with Battle Centre Assistant at `(10, 10)` and Poké Ball floor emblem at `(9-11, 13-15)`.
+  - Central curved red reception counter (`8-12, 10-12`) with Battle Centre Assistant at `(10, 10)` (repeats standard tournament overview post-Round 1, verified Turn 28829) and Poké Ball floor emblem at `(9-11, 13-15)`.
   - Stepping down the west escalator to `(5, 9)` (Turn 27555) triggers the Eclipse Tournament registration cutscene with Dad and Valora (Turns 27556-27561), where Asher receives the **Metro Pass** and registers for the tournament before encountering **Frio** at `(10, 14)` (Turns 27561-27564).
   - Interacting with Frio at `(10, 13)` from `(10, 14)` after registration displays verbatim: *"Maybe we shouldn't be bothering this prick..."* (verified Turn 27565).
   - Southern exit mat at `(9-11, 21)` is flanked by two lower blue escalators at `column 4` (`rows 19-22`) and `column 16` (`rows 19-22`) (`latest_grid.png` Turn 27566).
