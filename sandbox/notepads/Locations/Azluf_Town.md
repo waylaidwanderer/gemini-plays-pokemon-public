@@ -15,3 +15,14 @@
   - **Interior (`7, 8` exit mat)**: Nurse Joy at `(7, 2)` (counter at `7, 4`); PC at `(12, 1)`; mezzanine escalator at `(2, 0)`.
   - **Broken-Arm Trainer (`8, 4`)**: *"Ma'am, my arm hurts, I think I've broken it... / Nurse: I'm sorry but this is a Pokémon Center, but I can call the ambulance for you..."* (verified Turn 27818).
   - **Wandering Female Scientist (`4-5, 5-6`)**: *"I'm on a research trip, I'm just taking a small break here..."* (verified Turn 27820).
+- **Claire's Organic Market (`16-19, 30-33`)**: Outdoor market stall with orange awning east of the Pokémon Center, staffed by **Claire** (`17, 32`, *"Hello, welcome to Claire's organic market!"*) and her **Bulbasaur** (`18, 32`).
+  - **Inventory**:
+    1. Moomoo Milk (`₽500`)
+    2. EnergyPowder (`₽500`)
+    3. Energy Root (`₽800`)
+    4. Heal Powder (`₽450`)
+    5. Revival Herb (`₽2800`)
+    6. Berry Juice (`₽100`)
+    7. White Herb (`₽100`)
+    8. Mental Herb (`₽100`)
+    9. Leaf Stone (`₽2100`) (verified Turns 27823-27825).
