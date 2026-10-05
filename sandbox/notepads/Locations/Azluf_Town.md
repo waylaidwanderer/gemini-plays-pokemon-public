@@ -12,8 +12,8 @@
   - Bald elder at `(15, 42)` facing the monument: *"The 3 Sinnoh Lake Guardians... They are said to be the shapers of the human mind. Knowledge, emotions and willpower. Seeing it with my very own eyes... What a marvelous creation!"* (verified Turns 27808-27809).
 - **Town Signboard (`6-7, 34`)**: Interacted from `(7, 35)`, reads verbatim: *"Azluf Town / A cozy, coastal town"* (verified Turn 27813).
 - **Azluf Town Pokémon Center (`12, 33`)**: Located on the northern side of the western entrance road (`row 34`).
-  - **Interior (`7, 8` exit mat)**: Nurse Joy at `(7, 2)` (counter at `7, 4`); PC at `(12, 1)`; mezzanine escalator at `(2, 0)` (reached via `row 8 -> col 1 -> 2, 1 -> 2, 0`).
-  - **Azluf Town PokéMart Mezzanine (`5, 8` escalator landing, clerk at `5, 3` / counter at `5, 5`)**:
+  - **Interior (`7-8, 8` exit mat; stepping `Down` from `7, 8` exits to `12, 34`)**: Nurse Joy at `(7, 2)` (counter at `7, 4`); PC at `(12, 1)`; pillars at `(3, 5-7)` and `(11, 5-7)` (bypassed along `row 8`); mezzanine staircase at `(2, 0)` (reached via `row 8 -> col 1 -> 2, 3 -> Up 7`).
+  - **Azluf Town PokéMart Mezzanine (seamless same-map staircase transition; `7 Up` from `2, 3` reaches the counter at `5, 5`, clerk at `5, 3`)**:
     1. Poké Ball (`₽200`)
     2. Great Ball (`₽600`)
     3. Potion (`₽300`)
