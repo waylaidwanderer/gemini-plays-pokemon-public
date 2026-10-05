@@ -74,4 +74,4 @@
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Makuhita (♀, Lv13; Fighting).
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
-    - **Outcome**: Defeat quote: *"What a strength!"* (verified Turns 28226-28238).
+    - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
