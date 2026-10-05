@@ -519,6 +519,11 @@
 - **The Artifact & Eclipsing**: Frio declared: *"Great... I finally found this too... Now its complete! With this... I can finally do it. Hehe, she will be so happy if it actually works... As she wanted."* When Asher mentioned standing up for a friend, Frio mocked friendship as weakness (*"There are no real friends... They drag you down, never respect you, and backstab you whenever it is benefical to them."*).
 - **Frio's Eclipsed Gible**: Frio overwhelmed Asher in a scripted battle flash using a Gible undergoing **"Eclipsing"**. Before departing, Frio introduced himself (*"My name is Frio... Remember that name well, because you'll never win against me!"*), hinted at his Gible's transformation (*"For now settle with me only saying 'Eclipsing'..."*), and left Asher to rush back to Dad and Valora.
 
+## Sovio Metro Platform Reunion & Train to Amor City
+- **Reunion with Dad & Valora (19, 20)**: After confronting Frio in the Southern Dark Sector, Asher passed through the Sovio Metro Station turnstile onto `(19, 20)` where Dad (`18, 18`) and Valora (`19, 19`) were waiting. Asher reported encountering the "young master" Frio, his Eclipsing Gible, and Frio's claim of completing something.
+- **Boarding the Train (21, 9)**: Dad promised: *"Alright, I'll tell you everything on the way... Okay? Its time for you to know the truth. Let's go."* Dad, Valora, and Asher walked north onto the train platform and boarded the train to Amor City at `(21, 9)`.
+- **Train Journey & Siara Lab Flashback**: Inside the moving train car, Dad, Asher, and Valora took seats on the right side, and Dad began recounting a flashback to when he and Asher's mother worked together in a Siara research laboratory containing two green incubation pods.
+
 <hr>
 
 <h1><code>Main</code></h1>
@@ -610,7 +615,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turns 27439-27494)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x12 (purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 8 sprayed across Turns 27439-27494).
+- **Items Pocket (Audited Turns 27439-27532)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x8 (purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Poké Balls Pocket (Audited Turn 27393)**: Contains Timer Ball x1, Poké Ball x10.
 - **Key Items Pocket (Audited Turn 27086 & Turn 27394)**: Contains ONLY HuPhone (registered to [SELECT]) and TM Case. Zero other key items (no passes, keys, or map gadgets).
@@ -679,33 +684,5 @@
 - **Moves**:
   - Slot 1: Tackle (Normal, Physical, 35 PP)
   - Slot 2: Protect (Normal, Status, 10 PP; taught via TM17)
-
-<hr>
-
-<h1><code>Scratchpad/Dad_Investigation</code></h1>
-
-# Scratchpad: Post-Tremor Investigation & Progression Hypotheses
-
-## Core Active Progression Barriers
-- **Metro Turnstile (19, 21)**: Scripted barrier triggers verbatim "I should find dad first!" and forces Asher south to (19, 22). Gates train platform to Amor City.
-- **Route 2 Eastern Exit (52, 19-22)**: Scripted barrier triggers verbatim "I can't go yet... I have things to do!" and forces Asher west.
-
-## Distilled Physical Constraints & Verified Negative Facts
-- **Metro Station Lobby & Platform**: Turnstile (19, 21) is a walk-over tripwire forcing step Down to (19, 22). Scanner pillars (18, 21) / (20, 21) and brick walls (cols 21-23, row 23) are solid obstacles. Platform attendant is seated at (21, 18) facing west, physically unreachable. Timetable board (cols 21-23, row 23) displays static destination flavor text.
-- **Central Plaza Confrontation Area (Cols 41-45, Rows 13-16)**: Swept rows 13-16 across columns 41-45 outside Pokémon Center (Turns 27278-27279); verified inert across those tiles.
-- **Northern Alcove & Exterior (Cols 40-41, Rows 7-9)**: House (39, 7) alleyway and gap at (41, 8) confirmed dead-ends against building walls.
-- **West Avenue Commercial Facade & Boundaries**: Columns 16-22 beneath the giant billboard audited with direct 'A' interaction (100% inert). Karate house entered at (14, 15). Western boundary along columns 11-12 (rows 16-24) confirmed continuous solid office building wall.
-- **Sovio City Residential Interiors & Overworld NPCs**: Verified post-tremor static ambient dialogue for Elderly Man at (41, 33) in House (39, 7) (Turn 27354), Son on 2F of House (39, 7) (Turn 26539), Nana & Granddaughter in Terrace House (49, 14) (Turns 27223-27224), Boy & Mother in Gumball House (29, 14) (Turns 26547-26551), Karate Trainer at (3, 34) and Blonde Girlfriend at (3, 33) in Karate House (14, 15) (Turns 27358-27361), Three Bikers at (13, 21-23) (Turns 27370-27371), Boy Rocky at (23, 17) & Rocky at (24, 17) (Turn 27373), Central Park Boy in Pink Shirt at (33, 21-22) (Turn 27374), Blonde Girl in Central Park (Turn 26733), South Sidewalk Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) (Turns 27375-27376), Name Rater at (64, 14) and north wall fixtures in House (31, 26) (Turns 27378-27381), and Camper in Sovio Pokémon Center (Turn 26715). All 5 city trash cans at (14, 19), (31, 17), (28, 28), and (22, 30-31) verified 100% inert (Turns 27371-27377).
-- **Sovio Sewers (100% Verified with Coordinate Grids)**: Grunts vacated following Marie's radio directive. Western Terrace west boundary verified solid wall at column 11 (rows 11-12) (Turn 27406). Column 27 Vertical Corridor north end (26-28, 19) and Repel Ledge (22-28, 20) verified bounded by brick walls (22-28, 16-19) and void chasms (cols 20-21 and 29-31) (`latest_grid.png` Turn 27488). Southern Canal Corridor (8-22, 32-36) verified bounded by void chasm at col 7 and vertical canal water chasm at col 23 (`latest_grid.png` & Turn 27490). Southwest Corridor (4-8, 23-28) verified blocked at (6, 23) and (7, 22) by two diagonal rugged rocks (`latest_grid.png` & Turn 27492). Eastern Storage Platform (36-38, 12-14) verified: red mat at (37, 14) facing South into (37, 15) displays "Its a simple storage room..." (Turns 26919, 27414), and all remaining perimeter tiles (36, 14; 38, 14; 38, 13; 38, 12; 37, 12; 36, 12) tested and verified inert (Turn 27494). Column 30-31 Junction (30-31, 14) and Column 23 Bridge Landing (22-24, 12-14) verified (`latest_grid.png` & Turns 27495-27497). Lower Eastern Walkway (32-37, 32 and 37-39, 27-28) verified bounded by void chasm at col 40 and vertical canal water chasm at cols 30-31 (`latest_grid.png` & Turn 27500). Rugged rocks at (6, 23), (10, 18), and (22, 10) require specialized smashing equipment.
-- **Route 1 (100% Verified Post-Tremor)**: Verified static post-tremor dialogue for all 8 Route 1 NPCs: Bug Catcher Duke at (45, 12) (Turn 26646), Lass Sonia at (27, 15) (Turn 26680), Youngster Mike at (29, 20) (Turn 26681), Roadside Cottage boy at (37, 24 -> 6, 7) (Turn 26692), Blue Cap Boy at (34, 37) with Pidgey at (33, 37) (Turn 27446), Science Guy at (39-41, 35-37) (Turn 27453), Camper at (16-18, 43-45) (Turn 27456), and Boy in Grass at (10-12, 48-50: "I gotta be careful when I walk around in the tall grass..." / "Wild Pokémon can jump out and attack you!") (Turn 27457).
-- **Lancio Town Residents & Interiors (Verified Post-Tremor)**: Verified Lancio Lab Professor Ivo (20, 6) + basement stairs barrier (12, 7) + Lancio harbor pier (Turns 27068-27080), NPC in Cap at (32-33, 13-14) (Turn 27461), Old Man at (32, 8) and Old Woman at (33, 8) (Turn 27463), Lancio Pokémon Center Man at (9, 4) and Boy at (5-6, 5-6) (Turns 27465-27466), Fisherman at (38, 22) (Turn 27467), Northwest House boy at (25, 10 -> 44, 4: "Get out!") (Turn 27471), and Green-haired Girl at (22-24, 14-15: "Lancio has such pretty flowers, I wanna collect them all!") (Turn 27476).
-- **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
-- **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
-- **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
-- **HuPhone World Map & Quest Log Pages 1-5 (Turns 27333-27365)**: World Map node interactions on Sovio City and Metro Station confirmed inert; Quest Status ("You aren't doing any Quest currently...") and all 5 pages of Quest List (Pages 1-5, 25 slots) visually verified as static side-quest tracker with zero story triggers.
-- **Sovio Pokémon Center Framed Town Map & Counter (Turns 27346-27351)**: Framed Town Map at (11, 0) verified identical to HuPhone World Map; Nurse Joy service counter at (7, 4) completed full healing cycle with standard dialogue.
-
-## Active Empirical Investigation Plans
-- **BREAKTHROUGH COMPLETED - Rush Back to Dad and Valora After Frio Cutscene (Active)**: In Turns 27513-27528, discovered the undocumented stone staircase at `(25, 11-13)` in the Dark Sector, navigated the southern corridor (`cols 21-28, rows 14-23`) to the red warp mat at `(26, 23)`, entered the Southern Subterranean Chamber at `(32, 38)`, and triggered the mandatory story cutscene with **Frio** at `(32, 37)`! Frio departed and Asher stated: *"Ahh crap, I should rush back to Dad and Valora!"* Now exiting `(32, 38)` and returning through the Dark Sector to reunite with Dad and Valora (checking the Sovio Sewers / Metro Station).
 
 <hr>
