@@ -327,9 +327,9 @@
       - **Pokémon 3**: Geodude (♂, Lv13; Rock/Ground; Ability: Sturdy; knows Magnitude).
       - **Pokémon 4**: Onix (♂, Lv13; Rock/Ground; knows Curse and Rock Tomb).
     - **Outcome**: Defeat quote: *"Ah, that's a shocker."*; awards `₽520` (verified Turns 28193-28215).
-- **Northern 1F Chamber (`24, 6` Entry from B1F `29, 7`) & Moon Stone Ledge (`24, 13`)**:
-  - Stepping into the B1F cave archway at `(29, 7)` warps to the northern chamber of **Mt. Gerhana 1F** at `(24, 6)` (`latest_grid.png` Turn 28218).
-  - Walking west and south (`24, 6 -> 21, 6 -> 21, 13`) and ascending the diagonal wooden stairs at `(22, 13-14)` reaches the elevated ledge at `(23, 12-14)`, where an orange item sphere at `(24, 13)` contains a **Moon Stone** (collected Turn 28223).
+- **Northern 1F Chamber (`24, 6` Entry from B1F `29, 6`) & Moon Stone Ledge (`24, 13`)**:
+  - Stepping into the B1F cave archway at `(29, 6)` warps to the northern chamber of **Mt. Gerhana 1F** at `(24, 7)` (`latest_grid.png` Turn 28358; bounded by solid outer cave walls on the north at `row 4`, west at `cols 17-18`, and east at `col 27`, with a solid-collision rectangular pit at `24-25, 10-11` verified Turn 28359).
+  - Walking west and south (`24, 7 -> 20, 7 -> 20, 13`) and ascending the diagonal wooden stairs at `(22, 13-14)` reaches the elevated ledge at `(23, 11-12)`, where an orange item sphere at `(24, 13)` contains a **Moon Stone** (collected Turn 28223).
 - **1F North-South Wooden Bridge (`cols 19-21, rows 17-27`) & Black Belt Joss (`19, 20`)**:
   - Spans south from the northern 1F chamber (`19-21, 17`) over the horizontal underpass bridge (`cols 16-24, rows 23-25`).
   - **Black Belt Joss (`19, 20`, facing East)**:
@@ -338,8 +338,8 @@
       - **Pokémon 1**: Makuhita (♀, Lv13; Fighting).
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
     - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
-- **Southern 1F Platform (`18-28, 28-31`) & Hiker Frost (`22, 28`)**:
-  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`), and bounded on the east by a cliff wall at `col 28` (verified Turn 28318).
+- **Southern 1F Platform (`18-28, 28-35`) & Hiker Frost (`22, 28`)**:
+  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`), and bounded on the east (`col 28`) and south (`row 35`) by cliff walls and dark pits (`15-19, 33-35` and `27, 32-35`, verified Turns 28318 & 28364).
   - **Hiker Frost (`22, 28`, facing West)**:
     - **Pre-Battle Quote**: *"Ohohoho, a Trainer? What are you doing here?"*
     - **Team (1 Pokémon)**:
@@ -347,7 +347,7 @@
     - **Outcome**: Defeat quote: *"..."* (verified Turns 28243-28251).
   - **Southern Pit Ladder (`20, 33-35` -> Lower Pit Chamber `5, 28`)**: At the southern edge of the 1F platform (`20, 33-35`), a wooden ladder descends into the lower pit chamber at `(5, 28)` (verified Turns 28253-28257).
 - **Lower Pit Chamber (`5, 28` Entry from 1F `20, 35`)**:
-  - **Mine Workers & Blocked Passages (`14, 25` & `14, 34`)**: Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)` (*"We are doing some work here..."*, standing in the 1-tile gap above the cliff corner at `11, 28` to block the northern cave archway at `14, 25`), `(13, 29)` (*"We are cleaning up the path here, wait until we are done! We still have a lot of work to do though..."*), `(13, 32)`, and `(15, 31)` (*"Ahh, when will we finish this?!"*) alongside a Machop at `(14, 32)` (*"Machop: Chop! Chop!"*) block both the northern exit (`14, 25`) and the boulders surrounding the floor ladder at `(14, 34)` (`latest_grid.png` Turns 28257, 28259, verified Turns 28257-28291).
+  - **Mine Workers & Blocked Passages (`14, 25` & `14, 34`)**: Enclosed on the west (`col 1`), south (`row 32`), and east (`col 17`) by solid cave walls (`latest_grid.png` Turns 28361-28362). Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)` (*"We are doing some work here..."*, standing in the 1-tile gap above the cliff corner at `11, 28` to block the northern cave archway at `14, 25`), `(13, 29)` (*"We are cleaning up the path here, wait until we are done! We still have a lot of work to do though..."*), `(13, 32)` (*"We are cleaning up the path to deeper parts of the cave... We still have a lot of work to do though..."*, verified Turn 28363), and `(15, 31)` (*"Ahh, when will we finish this?!"*) alongside a Machop at `(14, 32)` (*"Machop: Chop! Chop!"*) block both the northern exit (`14, 25`) and the boulders (`13, 33`, `14, 33`, `15, 32`, `13, 34`, `15, 34`) surrounding the floor ladder at `(14, 34)`.
 
 <hr>
 
