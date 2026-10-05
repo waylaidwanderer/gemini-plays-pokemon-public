@@ -443,7 +443,7 @@
   - **Black Belt Cameron** rotating at `(53, 30)` (`"Punch, kick, jab!"`): Uses 2 Pokémon—Machop (♂, Lv9) and Mankey (♀, Lv10); defeat quote: *"Ah man..."*; awards `₽720`; post-battle overworld quote: *"A martial artist beaten by a kid... Doesn't sound too cool."* (verified Turns 27707-27716).
   - **Northern Overhead Wooden Bridge & Western Underpass (`cols 36-50, rows 29-38`)**:
     - Overhead wooden bridge spans `cols 37-50, rows 30-32` (`latest_grid.png` Turns 27701, 27704).
-    - **Upper Bridge Deck (`cols 37-50, rows 30-32`, entered from `51, 30-32`)**: Connects west to an elevated ledge (`35-36, 28-32`) holding an item sphere at `(35, 29)`.
+    - **Upper Bridge Deck (`cols 37-50, rows 30-32`, entered from `51, 30-32`)**: Connects west to an elevated ledge (`35-36, 28-32`) holding a golden item sphere at `(35, 28)` yielding **Silk Scarf x1** (collected Turn 28397).
       - **Hiker Frank (`42, 30`, facing South)**:
         - **Pre-Battle Quote**: *"Don't you think these bridges are kind of unsafe? Though not more dangerous than me in a Pokémon battle!"*
         - **Team (2 Pokémon)**: Roggenrola (♀, Lv10; Rock) and Diglett (♂, Lv11; Ground; knows Sand Attack).
@@ -935,7 +935,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 28381)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Moomoo Milk x2, Super Potion x1, Moon Stone x1, Repel x10 (purchased 15 Repels for ₽5,250 at Azluf Town PokéMart in Turn 28343, leaving ₽4,124; used 5 Repels in Turns 28351, 28355, 28360, 28367 & 28381; collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; collected Moon Stone on Mt. Gerhana 1F at `24, 13` in Turn 28223; Poké Balls Pocket has Poké Ball x6).
+- **Items Pocket (Audited Turn 28397)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Moomoo Milk x2, Super Potion x1, Moon Stone x1, Repel x9, Silk Scarf x1 (purchased 15 Repels for ₽5,250 at Azluf Town PokéMart in Turn 28343, leaving ₽4,124, and earned ₽440 from Hiker Frank in Turn 28394 for ₽4,564; used 6 Repels in Turns 28351, 28355, 28360, 28367, 28381 & 28388; collected Silk Scarf on Route 2 at `35, 28` in Turn 28397; Poké Balls Pocket has Poké Ball x6).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 28136)**: Contains **Poké Ball x6** (purchased 10 Poké Balls at Sovio City PokéMart in Turn 27961; used 4 Poké Balls catching Pulsar the Grubbin and Vega the Shinx on Route 2 in Turns 28038-28057).
