@@ -699,7 +699,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turns 27439-27532)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x8 (purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
+- **Items Pocket (Audited Turn 27696)**: Contains Poison Barb x1, Antidote x1, Repel x8 (Potion x1 used on Sirius in Turn 27696; purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Poké Balls Pocket (Audited Turn 27601)**: Contains Timer Ball x1, Poké Ball x8 (10 prior to Route 2; 2 thrown at wild Lv6 Starly in Turns 27598 and 27601).
 - **Key Items Pocket (Audited Turn 27560 & Turn 27597)**: Contains HuPhone (registered to [SELECT]), TM Case, and **Metro Pass** (received from Dad in Amor City Battle Centre in Turn 27560; grants travel access on the Hupest Metro Line).
@@ -760,7 +760,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 51 (C), Attack 35 (C+), Defense 36 (A-), Sp. Atk 25 (C-), Sp. Def 28 (E), Speed 26 (C-)
-- **Current Condition**: 13/51 HP, Paralyzed (as of Turn 27676 after defeating Valora)
+- **Current Condition**: 33/51 HP, Paralyzed (healed +20 HP via Potion in Turn 27696)
 - **EXP**: Lv19 (reached during Route 2 rival battle against Valora, Turn 27670)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
