@@ -789,7 +789,8 @@
 
 - **Items Pocket (Audited Turn 27826)**: Contains Poison Barb x1, Antidote x1, Repel x8, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x5 (purchased 5 Berry Juice and 5 Moomoo Milk at Claire's Organic Market in Azluf Town in Turns 27825-27826 with ₽3410 remaining; found Max Repel at Route 2 `60, 37` in Turn 27744; found hidden Revive at Route 2 `48, 35` in Turn 27705).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
-- **Poké Balls Pocket (Audited Turn 27601)**: Contains Timer Ball x1, Poké Ball x8 (10 prior to Route 2; 2 thrown at wild Lv6 Starly in Turns 27598 and 27601).
+- **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
+- **Poké Balls Pocket (Audited Turn 27869)**: Contains Timer Ball x1, Poké Ball x6 (8 prior to Azluf Town; 2 thrown to catch wild Lv6 Remoraid in Turns 27868-27869).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
@@ -807,6 +808,7 @@
 ## Start Menu Structure & Pokédex Status
 - **Start Menu Entries**: Displays Pokédex, Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit.
 - **Empirical Pokédex Status & Special Function**: Asher received the **PokéDex** from Professor Ivo in Azluf Town in Turn 27801 (commissioned for Asher by Jackson). In addition to standard entries, the PokéDex registers the **stats**, **abilities**, and **habitat** of caught Pokémon (verified Turn 27802).
+- **Pokédex Table of Contents (Audited Turn 27859)**: Tracks `Seen` and `Owned` counts across two regional dex categories (`Colen` and `Hupest`), with 54 Hupest species and 17 Colen species pre-marked as `Seen` upon receipt.
 - **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open; synchronizes with host system clock.
 - **TM Reusability**: Confirmed infinite use in Pokémon Sors v1.3; TM48 (Work Up) remains in the TM Case after being taught to Sirius.
 
