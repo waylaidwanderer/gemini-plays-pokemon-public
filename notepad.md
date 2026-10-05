@@ -254,6 +254,11 @@
     - **Pokémon 3**: Mareep (♀, Lv8; pink wool sprite; Electric-type; knows Growl, Tackle).
     - **Pokémon 4**: Popplio (♂, Lv9; Water-type starter ace; knows Water Gun).
     - **Outcome & Post-Battle**: Defeat quote: *"Oh my... I didn't have a chance."*; awards `₽1008`. Post-battle, Asher tells her *"It was a nice battle, but you gotta try harder than that."* Valora replies: *"I knoooow, I'll train more so when Round One comes, I'll be ready to advance through! I'll go ahead now, see ya in Azluf!"* and departs southeast along the pink sand path toward Azluf Town.
+- **Central Ridge & Overhead Bridge Underpass (`cols 46-50, rows 24-38`)**:
+  - Wooden stairs at `(46, 26-27)` ascend east from the Day-Care path onto a rocky ridge (`cols 47-49`).
+  - A second set of wooden stairs at `(50, 25-26)` descends east from the ridge into the eastern tall grass corridor (`cols 51+`).
+  - Walking south along `column 49` (`rows 25-30`) passes east of a boulder (`47-48, 28-29`) and **underneath** the northern overhead wooden bridge (`rows 30-32`) onto a southern ridge overlook (`47-48, 33-34`).
+  - **Hidden Item (`48, 35`)**: Interacting with the small purple stone at `(48, 35)` on the southern ridge overlook yields **Revive x1** (collected Turn 27705).
 
 <hr>
 
@@ -699,7 +704,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 27696)**: Contains Poison Barb x1, Antidote x1, Repel x8 (Potion x1 used on Sirius in Turn 27696; purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
+- **Items Pocket (Audited Turn 27705)**: Contains Poison Barb x1, Antidote x1, Repel x8, Revive x1 (found hidden Revive at Route 2 `48, 35` in Turn 27705; Potion x1 used on Sirius in Turn 27696; purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Poké Balls Pocket (Audited Turn 27601)**: Contains Timer Ball x1, Poké Ball x8 (10 prior to Route 2; 2 thrown at wild Lv6 Starly in Turns 27598 and 27601).
 - **Key Items Pocket (Audited Turn 27560 & Turn 27597)**: Contains HuPhone (registered to [SELECT]), TM Case, and **Metro Pass** (received from Dad in Amor City Battle Centre in Turn 27560; grants travel access on the Hupest Metro Line).

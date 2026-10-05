@@ -70,7 +70,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 27696)**: Contains Poison Barb x1, Antidote x1, Repel x8 (Potion x1 used on Sirius in Turn 27696; purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
+- **Items Pocket (Audited Turn 27705)**: Contains Poison Barb x1, Antidote x1, Repel x8, Revive x1 (found hidden Revive at Route 2 `48, 35` in Turn 27705; Potion x1 used on Sirius in Turn 27696; purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Poké Balls Pocket (Audited Turn 27601)**: Contains Timer Ball x1, Poké Ball x8 (10 prior to Route 2; 2 thrown at wild Lv6 Starly in Turns 27598 and 27601).
 - **Key Items Pocket (Audited Turn 27560 & Turn 27597)**: Contains HuPhone (registered to [SELECT]), TM Case, and **Metro Pass** (received from Dad in Amor City Battle Centre in Turn 27560; grants travel access on the Hupest Metro Line).
