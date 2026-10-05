@@ -53,4 +53,5 @@
     - **Pokémon 1**: Starly (♂, Lv10; Normal/Flying).
     - **Pokémon 2**: Porygon (Lv11; Normal).
     - **Pokémon 3**: Eevee (♂, Lv11; Normal).
-    - **Pokémon 4**: Chimchar (Fire-type Sinnoh starter ace).
+    - **Pokémon 4**: Chimchar (♂, Lv12; Fire-type Sinnoh starter ace; knows Taunt).
+    - **Outcome & Post-Battle**: Defeat quote: *"Wow, you are actually experienced! Nice!"*; awards `₽1344`. Post-battle, Lucas says: *"Haha, nice, it was a great battle for sure. I really gotta train myself up if I wanna breeze through. Well, see you later in the tournament!"* and departs east along the purple brick road into Azluf Town (verified Turns 27758-27773).
