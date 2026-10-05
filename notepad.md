@@ -279,6 +279,12 @@
 - **Aron**: Encountered at Lv7 (♀, Steel/Rock) at the base of the northern ladder at `(9, 20)` (verified Turn 28327).
 - **Zubat**: Encountered at Lv8 (♂, Poison/Flying) near the southern entrance at `(7, 27)` (verified Turn 28332) and at Lv7 (♂, Poison/Flying) at `(6, 28)` (caught in a Poké Ball, nicknamed **Umbra**, and sent to Box 1 in Turns 28659-28662).
 - **Whismur**: Encountered at Lv10 (♂, Normal; knows Disarming Voice and Pound) near the southern entrance at `(6, 28)` (caught in a Poké Ball, nicknamed **Quasar**, and sent to Box 1 in Turns 28665-28678).
+- **Pawniard**: Encountered at Lv8 (♀, Dark/Steel) on B1F at `(31, 27)` and `(29, 32)` (verified Turns 28726 & 28728).
+- **Phanpy**: Encountered at Lv10 (♀, Ground) on B1F at `(26, 28)` and `(25, 23)` (verified Turns 28727 & 28732).
+- **Paras**: Encountered at Lv10 (♀, Bug/Grass) on B1F at `(16, 16)` (verified Turn 28730).
+- **Drilbur**: Encountered at Lv10 (♀, Ground) on B1F at `(16, 27)` and at Lv11 (♂, Ground) at `(25, 21)` (verified Turns 28731 & 28738).
+- **Diglett**: Encountered at Lv11 (♀, Ground; Ability: Arena Trap) on B1F at `(25, 12)` (verified Turns 28733-28735).
+- **Tympole**: Encountered at Lv8 (♂, Water) on B1F at `(28, 8)` (verified Turn 28737).
 
 ## Story Events & Landmarks
 - **Southern Entrance Cutscene (`6, 29`)**: Stepping north from `(6, 30)` onto `(6, 29)` triggers a cutscene with **Valora** (`7, 29`), who wonders what the Eclipse Rock looks like (*"This is the place I think. I wonder how that rock looks... Will we even know when we find it?"* / Asher: *"I'm sure we will, it must be something very unique..."*). The camera cuts deeper into Mt. Gerhana, where **Frio** remarks *"I must be close to it... And there's no sign of that prick as well. I thought he will at least show up so that I can mess with him... Oh well."* before descending a wooden ladder into a lower pit (verified Turns 28077-28078).
@@ -295,7 +301,7 @@
   - **Outcome**: Defeat quote: *"That was quick..."* (verified Turns 28120-28129).
 - **Western Pond Ledge & Super Potion (`27, 25`)**: Descending from Hiker Zion's ridge (`33, 23 -> 33, 27 -> 30, 27`) and ascending the wooden stairs at `(29-30, 26)` leads to `(27-31, 25)` on the southern/western side of the underground pond (`28-30, 21-24`), where a **Super Potion** spray-bottle sprite rests at `(27, 25)` (collected Turn 28132); bounded on the west and south by a diagonal cliff ridge at `(26, 25)` and `(27, 26)` (`latest_grid.png` Turn 28508, verified Turn 28509).
 - **Southern Corridor & Terraced Cliffs (`cols 22-33, rows 27-38`)** (`latest_grid.png` Turns 28132, 28147, 28159):
-  - From the bottom of the pond stairs (`30, 27`), the cavern floor continues south past a 2x2 rock cone (`31-32, 28-29`) and a rectangular floor pit (`30-31, 33-34`) along `column 29` (`29, 31 -> 29, 38`, with an inert small rock at `31, 38`).
+  - From the bottom of the pond stairs (`30, 27`), the cavern floor continues south past a 2x2 rock cone (`31-32, 28-29`) and a solid-collision rectangular floor pit (`30-31, 33-35`, verified from `29, 33-35` and `30, 36` via `latest_grid.png` in Turn 28720) along `column 29` (`29, 31 -> 29, 38`, with an inert small rock at `31, 38`).
   - Terraced western cliffs (`cols 23-28, rows 27-37`) feature small rocks at `(26, 31)`, `(27, 32)`, and `(26, 35)`, while the southern corridor wraps west along `row 38` (`cols 22-30`) and north along `column 22` (`22, 38 -> 22, 32`) onto the southern end of the B1F north-south wooden bridge.
   - **Bug Catcher Gough (`28, 36`, facing East)**:
     - **Pre-Battle Quote**: *"What is a bug catcher like doing here? You will see!"*
@@ -963,7 +969,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 28693)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Silk Scarf x1, Exp. Share x1, **Green Shard x1** (hidden item found at Route 2 `46, 52` in Turn 28589), **Repel x3** (purchased 4 at Azluf Town PokéMart in Turn 28693, leaving ₽256; used 1 at Mt. Gerhana 1F `6, 30` in Turn 28700), plus 11 Fossils received from Roark upon completing Quest #18 ("Roark's Opal") in Turns 28443-28445: **Old Amber x1**, **Helix Fossil x1**, **Dome Fossil x1**, **Skull Fossil x1**, **Armor Fossil x1**, **Cover Fossil x1**, **Plume Fossil x1**, **Jaw Fossil x1**, **Sail Fossil x1**, **Root Fossil x1**, and **Claw Fossil x1**.
+- **Items Pocket (Audited Turn 28693)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Silk Scarf x1, Exp. Share x1, **Green Shard x1** (hidden item found at Route 2 `46, 52` in Turn 28589), **Repel x0** (purchased 4 at Azluf Town PokéMart in Turn 28693, leaving ₽256; used all 4 in Mt. Gerhana across Turns 28700-28718), plus 11 Fossils received from Roark upon completing Quest #18 ("Roark's Opal") in Turns 28443-28445: **Old Amber x1**, **Helix Fossil x1**, **Dome Fossil x1**, **Skull Fossil x1**, **Armor Fossil x1**, **Cover Fossil x1**, **Plume Fossil x1**, **Jaw Fossil x1**, **Sail Fossil x1**, **Root Fossil x1**, and **Claw Fossil x1**.
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 28677)**: Contains **Poké Ball x0** (purchased 4 Poké Balls at Azluf Town PokéMart in Turn 28654, used 1 catching Umbra the Zubat in Turn 28660 and 3 catching Quasar the Whismur in Turns 28665-28676; **11 Owned species** in PokéDex: Riolu, Pidgey, Starly, Remoraid, Grubbin, Shinx, Roggenrola, Geodude, Zubat, Whismur, plus gift Bulbasaur received from Professor Oak in Turn 28681).
