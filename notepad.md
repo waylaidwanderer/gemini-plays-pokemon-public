@@ -60,7 +60,7 @@
 ## Points of Interest & Buildings
 
 - **Pokémon Center**: Located east of the main north-south path at (36-39, 11-15); door at (37, 14). Interior exit mat at (7, 8). Features blue-carpeted escalator in northwest corner at (2, 0-1) leading to upper mezzanine. Resident man at (9, 4) verified post-tremor (Turn 27465, 3 boxes): "Did you know?" / "Pokémon Centers have PokéMarts built into them in this region!" / "In certain regions PokéMarts are separate buildings though...". Resident boy at (5-6, 5-6) verified post-tremor (Turn 27466, 2 boxes): "Pokémon Centers heal your tired, hurt, or fainted Pokémon." / "They make all Pokémon completely healthy.". Northeast PC kiosk at (9-10, 0-1) is enclosed behind the service counter as a decorative fixture; PC access is handled via the Sovio City terminal or HuPhone app.
-  - **Upper Mezzanine & PokéMart**: Escalator warps to (5, 8). Counter staffed by clerk at (5, 3) facing south across counter at (5, 4). Verified inventory: Poké Ball ($200), Potion ($300), Antidote ($100), Paralyz Heal ($200), Repel ($350) (identical to Sovio City PokéMart). 100% audited.
+  - **Upper Mezzanine & PokéMart**: Escalator warps to (5, 8). Counter staffed by clerk at (5, 3) facing south across counter at (5, 4). Verified inventory: Poké Ball ($200), Potion ($300), Antidote ($100), Paralyz Heal ($200), Repel ($350) (identical to Sovio City PokéMart).
 
 - **Residential House (Northwest)**: Located at (25, 10). Interior entrance mat at (39, 8); resident boy at (44, 4). Gifts TM17 (Protect) after persistent dialogue, then kicks Asher outside to (25, 11). Subsequent interactions display "Get out!" and warp Asher outside to (25, 12) (verified post-tremor Turn 27471).
 
@@ -70,7 +70,9 @@
 
 - **Town Plaza & Pond**: Northeast of center; contains a pond, bench.
 
-- **Town Signpost**: 2-tile wooden billboard located at (27-28, 14) on the main avenue; reads "Lancio Town / The town of blooming".
+- **Town Signpost**: 2-tile wooden billboard located at (28-29, 13) on the main avenue; reads "Lancio Town / The town of blooming" (`latest_grid.png` Turn 27459).
+
+- **East Avenue Bottleneck (31-32, 14)**: Single-tile east-west bottleneck along row 14 bounded by solid pine trees at (30-31, 12-13) and (30-31, 15-16) and the NPC in Cap's wander box at (32-33, 13-14) (`latest_grid.png` Turn 27459, verified Turn 27475).
 
 ## Visible Field Items
 
@@ -88,7 +90,7 @@
 
   - Western wing breakroom: table with coffee cup on red rug (cols 5-6, rows 7-8), refrigerator at (7, 5), sink at (5, 5), TV at (3, 5), bookshelf at (1, 5) (all decorative breakroom fixtures).
 
-- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here...".
+- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (verified post-tremor Turn 27076).
 
 - **East Research Wing (Comprehensive Audit)**:
 
@@ -98,7 +100,7 @@
 
   - Cylindrical incubator apparatus at (18-19, 5-6): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
 
-  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?").
+  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?", verified post-tremor Turn 27080).
 
   - Server tower at (23, 8-9): Inert decorative fixture.
 
@@ -118,7 +120,7 @@
 
 - **Exit Path**: Cobblestone road at rows 14-15 leads directly east past column 44 into Route 1.
 
-- **House (South / Dockside)**: Located at (35-38, 19-21) northeast of pier. Decorative building with sliding door facade at (35, 20); non-enterable decorative exterior.
+- **House (South / Dockside) & Column 39 Harbor Lane**: Located at (35-38, 17-20) northeast of pier (`latest_grid.png` Turn 27459). Decorative building with sliding door facade; non-enterable exterior. Column 39 across rows 15-22 east of the house forms a walkable north-south lane connecting the main avenue to the Fisherman at (38, 22) (verified Turn 27467).
 
 ## Overworld Residents & NPCs
 
@@ -132,7 +134,7 @@
 
 - **Fisherman (Red Cap)**: Located at (38, 22) near the harbor dock. Verified post-tremor (Turn 27467, 3 boxes): "You know kid... fishing taught me one very important thing in life." / "However it goes, you must stay calm and patient, because if you" / "calm and patient, because if you do, good things might come." Does not provide Old Rod or story progression.
 
-- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored. The pier terminates at open water.
+- **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored; the pier terminates at open water (verified post-tremor Turn 27068).
 
 <hr>
 
@@ -151,7 +153,7 @@
 - **Signboard 3 (Trainer Warning)**: Located at (40, 26) outside the cottage; reads "Warning! Be on the lookout for Pokémon Trainers who want to fight."
 - **Signboard 4 (Sovio City Approach)**: Located at (50, 10) in northeast meadow; reads "Sovio City Up ahead."
 - **Central Pine Tree**: Located at (10, 44-46) dividing western and eastern grass patches.
-- **Route 1 Cottage**: Located at (37, 24); interior at (4, 9). Resident boy at (6, 7) gifted a Max Repel; subsequent dialogue displays verbatim: "Now that you got your sample, go and enjoy freedom!". Single room with no rear exits.
+- **Route 1 Cottage**: Located at (37, 24); interior at (4, 9). Resident boy at (6, 7) gifted a Max Repel; subsequent dialogue displays verbatim: "Now that you got your sample, go and enjoy freedom!" (verified post-tremor Turn 26692). Single room with no rear exits.
 
 ## Overworld Obstacles & Key Features
 - **Cypress Bypass (Sand Highway Southern Connection)**: From the southern corridor (row 43), enter column 26 north to row 41, traverse east along the blue flower corridor across (27-29, 41) south of the cypress trees, turn north through column 29 (rows 40-39) east of the cypress trees, and step east onto the Sand Highway at (30-32, 39).
@@ -162,7 +164,7 @@
 - **Row 43 Northern Corridor Collision**: Row 43 is blocked to the west at (11, 43) by solid pine tree canopy collision; does not connect west across column 11.
 - **Row 43 Hedge Gap**: Passable gap at column 26 (rows 41-43) connecting the southern corridor (rows 44-49) north into the western corridor (empirical routing from south).
 - **South Sand Highway Boundary**: Row 39 hedge line and dense pine trees (columns 31-35, rows 36-39) border the southern Sand Highway; column 36 gap at (36, 39) dead-ends at pine tree (36, 42).
-- **Southern Bypass**: Open path around the central pine tree and Signboard 1 connecting rows 46 and 48 west directly onto the cobblestone road (rows 45-46) into Lancio Town.
+- **Southern Bypass**: Open path around the central pine tree (10-11, 44-46) and Signboard 1 (10-11, 47) connecting rows 46 and 48-49 west onto the cobblestone road (rows 45-46) into Lancio Town. Note: pine tree at (5-6, 48-50) blocks stepping south from (5, 48) to (5, 49) (verified Turn 27479).
 - **Decorative Red Rock (35, 7)**: Located in the northern meadow where the 'Lost Pidgey' was found. Confirmed solid decorative obstacle with zero 'A' interaction.
 - **Passable Low Hedge Tiles**: Low hedge/bush tiles at (33, 11), (30, 13), and (26, 15) are confirmed fully walkable terrain on foot.
 - **Row 11 Traversal & Meadow Entrance**: Row 11 does not connect westward across column 40 due to a solid pine tree at (39, 11). Access to the Northern Hedge Corridor (row 11) from the east requires entering the northern red rock meadow at (34, 10).
@@ -171,9 +173,9 @@
 - **NPC 1 (Camper/Straw Hat)**: Wanders around (16-18, 43-45) near Signboard 2. Verified post-tremor (Turn 27456, 3 boxes): "Haha!" / "Wild Pokémon can't attack me! I have many repels..." / "I have many repels... They keep wild Pokémon away.".
 - **NPC 2 (Boy in Grass)**: Wanders near Central Pine Tree at (10-12, 48-50). Verified post-tremor (Turn 27457, 2 boxes): "I gotta be careful when I walk around in the tall grass..." / "Wild Pokémon can jump out and attack you!".
 - **NPC 3 (Science Guy / Pink Vest Guy)**: Wanders in eastern clearing at (39-41, 35-37) (`latest_grid.png` Turn 27447 confirms single NPC in this clearing, consolidating former duplicate NPC 8 entry). Verified post-tremor (Turn 27453, 2 boxes): "The power of science is incredible!" / "Erm... why is it that astonishing now?".
-- **NPC 4 (Youngster Mike)**: Located at (29, 20) in northwest clearing. Team: Rattata Lv5. Defeated. Post-defeat dialogue: "My Pokémon was completely destroyed by yours...".
-- **NPC 5 (Lass Sonia)**: Located at (27, 15) on rock spire. Team: Cherubi Lv5. Defeated. Post-defeat dialogue: "Hmm, more harmony maybe?".
-- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in northeast meadow. Team: Burmy Lv6. Defeated. Post-defeat dialogue: "You really must be something to be able to counter my defense...".
+- **NPC 4 (Youngster Mike)**: Located at (29, 20) in northwest clearing. Team: Rattata Lv5. Defeated. Post-defeat dialogue: "My Pokémon was completely destroyed by yours..." (verified post-tremor Turn 26681).
+- **NPC 5 (Lass Sonia)**: Located at (27, 15) on rock spire. Team: Cherubi Lv5. Defeated. Post-defeat dialogue: "Hmm, more harmony maybe?" (verified post-tremor Turn 26680).
+- **NPC 6 (Bug Catcher Duke)**: Located at (45, 12) in northeast meadow. Team: Burmy Lv6. Defeated. Post-defeat dialogue: "You really must be something to be able to counter my defense..." (verified post-tremor Turn 26646).
 - **NPC 7 (Blue Cap Boy & Pidgey)**: Located at (34, 37) on Sand Highway with Pidgey at (33, 37). Owner of the lost Pidgey (Quest Completed). Verified post-tremor (Turn 27446): Boy displays "Thank you so much for finding my precious Pidgey." and Pidgey displays "Pidgey: Pi Pi!".
 
 ## Wild Encounters
@@ -689,24 +691,14 @@
 - **Sovio City Residential Interiors & Overworld NPCs**: Verified post-tremor static ambient dialogue for Elderly Man at (41, 33) in House (39, 7) (Turn 27354), Son on 2F of House (39, 7) (Turn 26539), Nana & Granddaughter in Terrace House (49, 14) (Turns 27223-27224), Boy & Mother in Gumball House (29, 14) (Turns 26547-26551), Karate Trainer at (3, 34) and Blonde Girlfriend at (3, 33) in Karate House (14, 15) (Turns 27358-27361), Three Bikers at (13, 21-23) (Turns 27370-27371), Boy Rocky at (23, 17) & Rocky at (24, 17) (Turn 27373), Central Park Boy in Pink Shirt at (33, 21-22) (Turn 27374), Blonde Girl in Central Park (Turn 26733), South Sidewalk Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) (Turns 27375-27376), Name Rater at (64, 14) and north wall fixtures in House (31, 26) (Turns 27378-27381), and Camper in Sovio Pokémon Center (Turn 26715). All 5 city trash cans at (14, 19), (31, 17), (28, 28), and (22, 30-31) verified 100% inert (Turns 27371-27377).
 - **Sovio Sewers**: Grunts vacated following Marie's radio directive. Western Terrace west boundary verified solid wall at column 11 (rows 11-12) (Turn 27406). Eastern Storage Platform door at (37, 14) facing South into (37, 15) displays "Its a simple storage room..." (Turns 26919, 27414). Rugged rocks at (10, 18) and (22, 10) require specialized smashing equipment.
 - **Route 1 (100% Verified Post-Tremor)**: Verified static post-tremor dialogue for all 8 Route 1 NPCs: Bug Catcher Duke at (45, 12) (Turn 26646), Lass Sonia at (27, 15) (Turn 26680), Youngster Mike at (29, 20) (Turn 26681), Roadside Cottage boy at (37, 24 -> 6, 7) (Turn 26692), Blue Cap Boy at (34, 37) with Pidgey at (33, 37) (Turn 27446), Science Guy at (39-41, 35-37) (Turn 27453), Camper at (16-18, 43-45) (Turn 27456), and Boy in Grass at (10-12, 48-50: "I gotta be careful when I walk around in the tall grass..." / "Wild Pokémon can jump out and attack you!") (Turn 27457).
-- **Lancio Town (100% Verified Post-Tremor)**: Verified Lancio Lab Professor Ivo + basement stairs barrier + Lancio harbor pier (Turns 27068-27080), NPC in Cap at (31-33, 13-14) (Turn 27461), Old Man at (32, 8) and Old Woman at (33, 8) (Turn 27463), Lancio Pokémon Center Man at (9, 4) and Boy at (5-6, 5-6) (Turns 27465-27466), Fisherman at (38, 22) (Turn 27467), Northwest House boy at (25, 10 -> 44, 4: "Get out!") (Turn 27471), and Green-haired Girl at (22-24, 14-15: "Lancio has such pretty flowers, I wanna collect them all!") (Turn 27476).
+- **Lancio Town Residents & Interiors (Verified Post-Tremor)**: Verified Lancio Lab Professor Ivo (20, 6) + basement stairs barrier (12, 7) + Lancio harbor pier (Turns 27068-27080), NPC in Cap at (32-33, 13-14) (Turn 27461), Old Man at (32, 8) and Old Woman at (33, 8) (Turn 27463), Lancio Pokémon Center Man at (9, 4) and Boy at (5-6, 5-6) (Turns 27465-27466), Fisherman at (38, 22) (Turn 27467), Northwest House boy at (25, 10 -> 44, 4: "Get out!") (Turn 27471), and Green-haired Girl at (22-24, 14-15: "Lancio has such pretty flowers, I wanna collect them all!") (Turn 27476).
 - **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
 - **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
 - **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
 - **HuPhone World Map & Quest Log Pages 1-5 (Turns 27333-27365)**: World Map node interactions on Sovio City and Metro Station confirmed inert; Quest Status ("You aren't doing any Quest currently...") and all 5 pages of Quest List (Pages 1-5, 25 slots) visually verified as static side-quest tracker with zero story triggers.
 - **Sovio Pokémon Center Framed Town Map & Counter (Turns 27346-27351)**: Framed Town Map at (11, 0) verified identical to HuPhone World Map; Nurse Joy service counter at (7, 4) completed full healing cycle with standard dialogue.
 
-## Structured Progression Decision Tree by System Type
-1. **System 1: Party State & Pokémon Mechanics**
-   - *Status*: Audited and verified negative (Turn 27306).
-2. **System 2: Interactive World Objects & Facility Terminals**
-   - *Status*: Sovio Pokémon Center PC (12, 1), Framed Town Map (11, 0), Nurse Joy counter (7, 4), and all 5 Sovio City trash cans (14, 19, 31, 17, 28, 28, 22, 30-31) audited and verified negative (Turns 27326-27377).
-3. **System 3: HuPhone Apps & Communication Systems**
-   - *Status*: Item Storage, Mailbox, Quest Status, all 5 pages of Quest List (Pages 1-5), and Sovio City World Map nodes audited and verified negative (Turns 27185-27365).
-4. **System 4: Story Script & Trigger Flags (Interior & Overworld NPCs)**
-   - *Status*: Sovio City, Route 1, and Lancio Town NPCs and residential/facility interiors 100% verified post-tremor (Turns 26539-27476). Remaining Sovio Sewers sub-corridor gaps being audited with Repels active.
-
 ## Active Empirical Investigation Plans
-- **Step 1 (Audit Remaining Sovio Sewers Sub-Corridors with Repels - Active)**: Return from Lancio Town across Route 1 into Sovio Sewers with 16 Repels active to verify: (a) Column 27 Vertical Corridor (27, 19-28) & Repel Ledge (22, 20) via `latest_grid.png`, (b) Southern Canal Corridor (10-22, 32-36) & Southwest Corridor (7-8, 25-28), and (c) Eastern Storage Platform adjacent tiles (36, 12-14 & 38, 12-14).
+- **Step 1 (Audit Remaining Sovio Sewers Sub-Corridors with Repels - Active)**: Return from Route 1 into Sovio Sewers with 16 Repels active to verify: (a) Column 27 Vertical Corridor (27, 19-28) & Repel Ledge (22, 20) via `latest_grid.png`, (b) Southern Canal Corridor (10-22, 32-36) & Southwest Corridor (7-8, 25-28), and (c) Eastern Storage Platform adjacent tiles (36, 12-14 & 38, 12-14).
 
 <hr>
