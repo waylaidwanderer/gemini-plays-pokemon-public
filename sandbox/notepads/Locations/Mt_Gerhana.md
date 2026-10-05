@@ -40,4 +40,5 @@
   - Spans north from `(20-22, 32)` to `(20-22, 17)`, connecting at the northern end (`row 16`) to both the western staircases (`cols 15-17`) and the eastern staircase (`25-26, 15-18`).
   - **Collector Marsh (`20, 20`, facing East)**:
     - **Pre-Battle Quote**: *"H-hey, you like rare Pokémon? Wanna see mine?"*
-    - **Team (1 Pokémon)**: (verified Turns 28161-28163).
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Emolga (♂, Lv14; Electric/Flying). (verified Turns 28161-28164).
