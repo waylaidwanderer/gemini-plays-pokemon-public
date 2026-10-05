@@ -682,6 +682,18 @@
 ## Custom Emulator SDK & Sandbox Execution Limits
 - **Script Button Accumulator Limit**: The sandbox Python environment enforces a cumulative session limit on button commands executed via Python scripts/mgba. When this limit is reached, any script attempting button commands will abort with 'Maximum cumulative limit of 100 buttons per script execution exceeded'. Controller button commands should strictly use the native press_buttons tool.
 - **Tool Limitation (stun_npc)**: The `stun_npc` tool fails with 'Error: Map objects data is unavailable' on this ROM/engine build. Do not invoke `stun_npc`.
+## Hupest Metro Line Transit Mechanics
+- **Boarding the Train**: With the **Metro Pass** in the Key Items pocket, stepping into a station's entry turnstile lane (e.g. `17, 24` in Amor Metro Station) prompts *"Do you want to use the Hupest Metro Line? Yes/No"*. Selecting *Yes* walks the player onto the platform into the train car (`11, 8`) with the announcement *"Please mind the closing doors!"*.
+- **Selecting a Destination Inside the Train Car (Seat Trigger)**: Inside the moving 3-car train (`cols 1-24, rows 4-8`), stepping onto an empty purple passenger seat (such as stepping `Left` from `5, 5` into the seat at `4, 5`) sits Asher down and opens the prompt: *"Which city do you want to go to?"* with a destination list of 8 stations:
+  1. `Amor`
+  2. `Sovio`
+  3. `Samurion`
+  4. `Destino`
+  5. `Galinor`
+  6. `E.S.`
+  7. `Colen`
+  8. `Dis Bay`
+  Selecting a station not yet unlocked displays *"You can't go to that city yet!"* (verified Turn 27582).
 
 <hr>
 
