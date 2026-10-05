@@ -252,6 +252,7 @@
 ## Geography & Connections
 - **Southern Entrance (`6, 30` interior <- `27, 14` Azluf Town)**: Connects to Azluf Town at `(27, 14)` (unlocked after winning Round One of the Eclipse Tournament, verified Turn 28074-28076). Stepping `Down` from `(6, 30)` exits back to Azluf Town.
 - **Northern Ladder (`9, 19` interior <-> `13, 9` exterior clearing)**: Stepping onto the base of the northern ladder at `(9, 19)` (above the wooden stairs at `8-10, 21-22`) warps out to an exterior mountain clearing of **Mt. Gerhana** at `(13, 10)` in front of the cave mouth at `(13, 9)` (verified Turns 28090-28092).
+  - **Exterior Mountain Pass (`13, 10` -> `6, 14` -> `5, 9` -> `2, 6`)**: Descending the mountain steps (`13, 11-13`) and following the canyon pass west along `row 14` (`cols 6-13`) and north along `cols 4-6` (`rows 7-14`) leads to a second cave entrance at `(2, 6)` with a wooden signboard at `(4, 7)` (interacted from `4, 8`) reading verbatim: *"Route 2 / A hidden path"* (verified Turns 28092-28095).
 - **Lore & Significance**: Site of the **Eclipse Rock**, which Frio was ordered to recover after Round One of the Eclipse Tournament; also connects to a closed-off spot on Route 2 where the medicinal flower for the Azluf Town Lighthouse gentleman's sick Spearow ("Medic!" Quest #4) grows.
 
 ## Story Events & Landmarks
