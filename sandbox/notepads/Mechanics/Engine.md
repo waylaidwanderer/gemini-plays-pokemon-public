@@ -83,8 +83,8 @@
 - **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
 - **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
 ## Start Menu Structure & Pokédex Status
-- **Start Menu Entries**: Displays Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit.
-- **Empirical Pokédex Status**: The Pokédex menu option is completely ABSENT from the Start Menu, confirming Asher does not currently possess a Pokédex device.
+- **Start Menu Entries**: Displays Pokédex, Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit.
+- **Empirical Pokédex Status & Special Function**: Asher received the **PokéDex** from Professor Ivo in Azluf Town in Turn 27801 (commissioned for Asher by Jackson). In addition to standard entries, the PokéDex registers the **stats**, **abilities**, and **habitat** of caught Pokémon (verified Turn 27802).
 - **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open; synchronizes with host system clock.
 - **TM Reusability**: Confirmed infinite use in Pokémon Sors v1.3; TM48 (Work Up) remains in the TM Case after being taught to Sirius.
 
