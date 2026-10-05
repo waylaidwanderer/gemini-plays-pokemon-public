@@ -292,7 +292,7 @@
 - **Northern Entrance Clearing (`cols 6-15, rows 0-12`)** (`latest_grid.png` Turns 27590-27591):
   - Tall grass patch spans `cols 6-15, rows 6-12`.
   - Wooden signboard at `(12-13, 8)` interacted from `(12, 9)` reads verbatim: *"Route 2 / Careful on the Bridges!"* (verified Turn 27591).
-  - Patrolling female NPC in green beret at `(14, 10-11)` (visually observed via `latest_grid.png` Turns 27590-27591; not yet interacted with).
+  - **Patrolling Beret Girl (`13-15, 9-12`)**: *"I wonder if I can find a Mime Jr. around here... I heard they are pretty rare."* (verified Turn 27952).
 - **Southern Corridor (`cols 12-25, rows 13-25`)** (`latest_grid.png` Turns 27607, 27621-27622):
   - **Lass Karina** at `(15, 17)` facing East (`"Let's have a fun Pokémon battle!"`): Uses Pikachu (♂, Lv8) and Ducklett (♀, Lv8); awards `₽512` and states post-battle: *"That was pretty amazingly fun! You have totally exhausted me..."* (verified Turns 27609-27620).
   - Clear non-grass path runs south along `column 17` (`rows 20-24`) into a horizontal dirt/flower corridor along `row 24` (`cols 12-25`).
