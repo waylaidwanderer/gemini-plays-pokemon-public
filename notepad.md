@@ -303,12 +303,16 @@
     - **Outcome**: Defeat quote: *"My god..."*; awards `₽560` (verified Turns 28179-28188).
 - **B1F Underpass (`17, 27 -> 23, 27 -> 25, 25`) & Eastern Staircase (`25-26, 15-18 -> 25, 14`)**:
   - From the bottom of the lower western stairs (`17, 27`), the cavern floor passes underneath the north-south wooden bridge (`cols 20-22, rows 27-31`) to `(23, 27)`, wraps north/east around the boulder at `(23-24, 23-24)` via `(23, 25) -> (25, 25)`, and ascends the eastern staircase (`25-26, 18 -> 25-26, 15`) onto the northern B1F platform (`cols 22-30, rows 7-14`, verified Turns 28190-28192).
-- **Northern B1F Platform (`cols 22-30, rows 7-14`) & Cave Archway (`29, 7`)**:
-  - Connects west via wooden stairs at `(22, 13-14)` to an elevated ledge with an item sphere at `(24, 13)`, and north to a cave archway at `(29, 7)` (`latest_grid.png` Turn 28193).
+- **Northern B1F Platform (`cols 23-32, rows 7-14`) & Cave Archway (`29, 7`)**:
+  - Bounded on the southwest by the deep chasm (`cols 19-24, rows 13-15`) and leads north to a cave archway at `(29, 7)` (`latest_grid.png` Turn 28193).
   - **Hiker Griffin (`28, 10`, rotating)**:
     - **Pre-Battle Quote**: *"I have a goal, to hike the highest mountains all over Hupest. I wanna build some confidence by battling first though... Wanna help?"*
     - **Team (4 Pokémon)**:
       - **Pokémon 1**: Geodude (♀, Lv13; Rock/Ground; Ability: Sturdy; knows Rock Polish).
+      - **Pokémon 2**: Roggenrola (♂, Lv12; Rock; knows Harden).
+      - **Pokémon 3**: Geodude (♂, Lv13; Rock/Ground; Ability: Sturdy; knows Magnitude).
+      - **Pokémon 4**: Onix (♂, Lv13; Rock/Ground; knows Curse and Rock Tomb).
+    - **Outcome**: Defeat quote: *"Ah, that's a shocker."* (verified Turns 28193-28215).
 
 <hr>
 
@@ -995,7 +999,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 65 (C), Attack 45 (C+), Defense 46 (A-), Sp. Atk 31 (C-), Sp. Def 36 (E), Speed 34 (C-)
-- **Current Condition**: 31/65 HP, Paralyzed (activates Quick Feet +50% Speed boost)
+- **Current Condition**: 27/65 HP, Paralyzed (activates Quick Feet +50% Speed boost)
 - **EXP**: Lv25 (reached during battle against Hiker Griffin on Mt. Gerhana B1F, Turn 28210)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
