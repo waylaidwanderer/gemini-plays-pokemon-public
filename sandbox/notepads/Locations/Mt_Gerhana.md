@@ -21,6 +21,7 @@
 - **Entry Chamber (`cols 30-38, rows 12-19`)**: Reached by descending the floor ladder from 1F `(29, 18)` to B1F `(37, 15)` (`latest_grid.png` Turns 28116-28117). Contains an inert small rock at `(38, 19)`, a western passage at `cols 30-32`, an eastern corridor around `(37, 20-21)` -> `cols 39-41` heading north, and wooden stairs at `(33-35, 20)` descending onto a central ridge (`cols 33-35, rows 21-26`).
 - **Hiker Zion (`35, 23`, facing West)**:
   - **Pre-Battle Quote**: *"Ahoy, you are exploring the caves too?"*
-  - **Team (2 Pokémon)**:
+  - **Team (3 Pokémon)**:
     - **Pokémon 1**: Sandshrew (♀, Lv12; Ground).
-    - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate). (verified Turns 28120-28125).
+    - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate).
+    - **Pokémon 3**: Trapinch (♂, Lv13; Ground). (verified Turns 28120-28127).
