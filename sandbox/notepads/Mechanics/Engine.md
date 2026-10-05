@@ -37,7 +37,7 @@
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
     3. Egg Research (Uncompleted — accepted at Route 2 `40, 21` in Turn 27680 and canceled in Turn 28402; find an Oval Stone held by wild Happiny on Route 2)
-    4. Medic! (Active Quest — accepted at Azluf Town Lighthouse `52, 5` in Turn 28461; find the medicinal flower for the sick Spearow in the closed-off northern enclave of Route 2 accessible via Mt. Gerhana)
+    4. Medic! (Completed in Turn 28495 — delivered Cure Flower from Route 2 `45, 14` to Old Gentleman at Azluf Town Lighthouse `52, 5`; rewarded **Exp. Share**)
     5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
   - **Page 2 Quests**:
     6. Lost Eevee
@@ -72,7 +72,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 28478)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Moomoo Milk x2, Super Potion x1, Moon Stone x1, Repel x12, Silk Scarf x1, plus 11 Fossils received from Roark upon completing Quest #18 ("Roark's Opal") in Turns 28443-28445: **Old Amber x1**, **Helix Fossil x1**, **Dome Fossil x1**, **Skull Fossil x1**, **Armor Fossil x1**, **Cover Fossil x1**, **Plume Fossil x1**, **Jaw Fossil x1**, **Sail Fossil x1**, **Root Fossil x1**, and **Claw Fossil x1** (purchased 13 Repels for ₽4,550 at Azluf Town PokéMart in Turn 28468, leaving ₽14; used 1 Repel in Turn 28478; Poké Balls Pocket has Poké Ball x6).
+- **Items Pocket (Audited Turn 28495)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Moomoo Milk x2, Super Potion x1, Moon Stone x1, Repel x12, Silk Scarf x1, Exp. Share x1, plus 11 Fossils received from Roark upon completing Quest #18 ("Roark's Opal") in Turns 28443-28445: **Old Amber x1**, **Helix Fossil x1**, **Dome Fossil x1**, **Skull Fossil x1**, **Armor Fossil x1**, **Cover Fossil x1**, **Plume Fossil x1**, **Jaw Fossil x1**, **Sail Fossil x1**, **Root Fossil x1**, and **Claw Fossil x1** (purchased 13 Repels for ₽4,550 at Azluf Town PokéMart in Turn 28468, leaving ₽14; used 1 Repel in Turn 28478; Poké Balls Pocket has Poké Ball x6).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 28136)**: Contains **Poké Ball x6** (purchased 10 Poké Balls at Sovio City PokéMart in Turn 27961; used 4 Poké Balls catching Pulsar the Grubbin and Vega the Shinx on Route 2 in Turns 28038-28057).
