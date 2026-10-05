@@ -50,5 +50,7 @@
 - **Southeastern Exit & Lucas Rival Encounter (`75, 56`)**:
   - Stone staircase at `(74-76, 55-56)` descends south onto a pink sand path leading directly to the Azluf Town signboard (`77, 57`) and purple brick road (`77-81, 58-59`).
   - Stepping onto `(75, 56)` triggers a cutscene where **Lucas** (from Sinnoh, previously seen registering at the Amor City Battle Centre) approaches at `(75, 54)`, introduces himself (*"Anyways, the name's Lucas, I'm from Sinnoh and I came here to win!"*), and challenges Asher to a friendly 4-Pokémon battle (*"Oh, I know! How about a battle? No stakes, just to see who's the stronger as of now."*):
-    - **Pokémon 1**: Starly.
-    - **Pokémon 2-4**: Pending reveal.
+    - **Pokémon 1**: Starly (♂, Lv10; Normal/Flying).
+    - **Pokémon 2**: Porygon (Lv11; Normal).
+    - **Pokémon 3**: Eevee (♂, Lv11; Normal).
+    - **Pokémon 4**: Pending reveal.
