@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 63 (C), Attack 43 (C+), Defense 45 (A-), Sp. Atk 30 (C-), Sp. Def 35 (E), Speed 32 (C-)
-- **Current Condition**: 43/63 HP, Healthy
+- **Current Condition**: 43/63 HP, Paralyzed (activates Quick Feet +50% Speed boost)
 - **EXP**: Lv24 (reached during battle against Collector Marsh on Mt. Gerhana B1F, Turn 28171)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)

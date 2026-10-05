@@ -292,6 +292,15 @@
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Emolga (♂, Lv14; Electric/Flying; knows Charge and Spark).
     - **Outcome**: Defeat quote: *"I thought they are unbeatable!"*; awards `₽560` (verified Turns 28161-28174).
+- **Western B1F Staircases (`cols 15-17, rows 21-26`) & Coworker Garner (`15, 23` -> `16, 23`)**:
+  - Two consecutive wooden staircases (`15-17, 21-22` and `15-17, 25-26`, separated by a landing at `15-17, 23-24`) descend from the upper western terrace (`cols 15-18, rows 16-20`) to the lower western floor (`cols 15-19, rows 27+`).
+  - **Coworker Garner (`15, 23`, facing East)**:
+    - **Pre-Battle Quote**: *"We just finished our clean up works on this level and I have nothing to do... Wanna battle?"*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Magnemite (Lv13; Electric/Steel; Ability: Sturdy; knows Thunder Wave).
+      - **Pokémon 2**: Machop (♂, Lv13; Fighting; knows Focus Energy).
+      - **Pokémon 3**: Geodude (♀, Lv14; Rock/Ground; knows Rock Polish).
+    - **Outcome**: Defeat quote: *"My god..."*; awards `₽560` (verified Turns 28179-28188).
 
 <hr>
 
@@ -977,7 +986,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 63 (C), Attack 43 (C+), Defense 45 (A-), Sp. Atk 30 (C-), Sp. Def 35 (E), Speed 32 (C-)
-- **Current Condition**: 43/63 HP, Healthy
+- **Current Condition**: 43/63 HP, Paralyzed (activates Quick Feet +50% Speed boost)
 - **EXP**: Lv24 (reached during battle against Collector Marsh on Mt. Gerhana B1F, Turn 28171)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
