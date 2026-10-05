@@ -9,6 +9,13 @@
   - Turnstile gate at `(19, 24)` flanked by scanner pillars (`18, 24` and `20, 24`) and two station officers (`18, 23` and `20, 25`).
   - Ticket booths on the west (`13-16, 24-25`) and east (`21-24, 24-25`), yellow vending machines at `(16, 26)` and `(21, 26)`, and blue benches along the west (`col 12`) and east (`col 25`) walls.
   - Stepping onto `(18, 20)` triggers an arrival cutscene where Asher passes through the turnstile to `(19, 24)` and Valora (`19, 25`) says: *"Ahh, here we are at last. Let's go, your dad is waiting for us down in the main lobby!"* before walking west to column 17 and south past the central brick pillar (`18-19, 28-32`) into the main lobby.
+- **Lower Concourse (`rows 30-37`)**:
+  - Central brick pillar (`18-19, 28-32`) with two yellow vending machines at its south face (`18-19, 32-33`), flanked by open vertical walkways at `columns 16-17` and `columns 20-21`.
+  - Blue chairs at `(16, 31-33)` and `(21, 30-32)`.
+  - Train timetable boards ("AMOR 16:00 / ALHIA 20:00") on the brick walls at `(12-15, 33)` and `(22-25, 33)`.
+  - Two wooden staircases leading up to the Main Lobby:
+    - West staircase at `(14-15, 35-36)` with vertical red mat at `(13, 35-36)` (reached via row 37 beneath the stairs); stepping `Right` from `(13, 35)` into `(14, 35)` warps to the **Amor Metro Station Main Lobby** at `(9, 3)`.
+    - East staircase at `(22-23, 35-36)` with vertical red mat at `(24, 35-36)`.
 
 <hr>
 
