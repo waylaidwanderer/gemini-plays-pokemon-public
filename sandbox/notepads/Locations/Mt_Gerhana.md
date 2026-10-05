@@ -78,13 +78,14 @@
       - **Pokémon 1**: Makuhita (♀, Lv13; Fighting).
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
     - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
-- **Southern 1F Platform (`18-28, 28-31`) & Hiker Frost (`22, 28`)**:
+- **Southern 1F Platform (`18-28+, 28-31`) & Hiker Frost (`22, 28`)**:
   - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`).
   - **Hiker Frost (`22, 28`, facing West)**:
     - **Pre-Battle Quote**: *"Ohohoho, a Trainer? What are you doing here?"*
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Gligar (♀, Lv15; Ground/Flying; knows Payback, Harden, Sand Attack, and Quick Attack).
     - **Outcome**: Defeat quote: *"..."* (verified Turns 28243-28251).
-  - **Southern Pit Ladder (`20, 33-35` -> Lower Pit Chamber `5, 28`)**: At the southern edge of the 1F platform (`20, 33-35`), a wooden ladder descends into the lower pit chamber at `(5, 28)` (the ladder Frio descended in the entrance cutscene, verified Turns 28253-28257).
+  - **Unexplored Eastern Staircase (`28, 28-29`)**: East of Hiker Frost (`22, 28`), the southern 1F platform continues east along `rows 28-30` to wooden stairs at `(28, 28-29)` (visible in Turn 28303 filmstrip frame `#169`).
+  - **Southern Pit Ladder (`20, 33-35` -> Lower Pit Chamber `5, 28`)**: At the southern edge of the 1F platform (`20, 33-35`), a wooden ladder descends into the lower pit chamber at `(5, 28)` (verified Turns 28253-28257).
 - **Lower Pit Chamber (`5, 28` Entry from 1F `20, 35`)**:
   - **Mine Workers & Blocked Passages (`14, 25` & `14, 34`)**: Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)` (*"We are doing some work here..."*, standing in the 1-tile gap above the cliff corner at `11, 28` to block the northern cave archway at `14, 25`), `(13, 29)` (*"We are cleaning up the path here, wait until we are done! We still have a lot of work to do though..."*), `(13, 32)`, and `(15, 31)` (*"Ahh, when will we finish this?!"*) alongside a Machop at `(14, 32)` (*"Machop: Chop! Chop!"*) block both the northern exit (`14, 25`) and the boulders surrounding the floor ladder at `(14, 34)` (`latest_grid.png` Turns 28257, 28259, verified Turns 28257-28291).
