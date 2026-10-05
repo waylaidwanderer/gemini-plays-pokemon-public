@@ -273,7 +273,8 @@
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Sandshrew (♀, Lv12; Ground).
     - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate).
-    - **Pokémon 3**: Trapinch (♂, Lv13; Ground). (verified Turns 28120-28127).
+    - **Pokémon 3**: Trapinch (♂, Lv13; Ground; knows Bulldoze).
+  - **Outcome**: Defeat quote: *"That was quick..."* (verified Turns 28120-28129).
 
 <hr>
 
@@ -959,7 +960,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 61 (C), Attack 42 (C+), Defense 42 (A-), Sp. Atk 29 (C-), Sp. Def 33 (E), Speed 31 (C-)
-- **Current Condition**: 61/61 HP, Healthy
+- **Current Condition**: 48/61 HP, Healthy
 - **EXP**: Lv23 (reached during battle against Hiker Zion on Mt. Gerhana B1F, Turn 28122)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)

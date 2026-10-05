@@ -24,4 +24,5 @@
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Sandshrew (♀, Lv12; Ground).
     - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate).
-    - **Pokémon 3**: Trapinch (♂, Lv13; Ground). (verified Turns 28120-28127).
+    - **Pokémon 3**: Trapinch (♂, Lv13; Ground; knows Bulldoze).
+  - **Outcome**: Defeat quote: *"That was quick..."* (verified Turns 28120-28129).
