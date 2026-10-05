@@ -319,7 +319,7 @@
 - **B1F Underpass (`17, 27 -> 23, 27 -> 25, 25`) & Eastern Staircase (`25-26, 15-18 -> 25, 14`)**:
   - From the bottom of the lower western stairs (`17, 27`), the cavern floor passes underneath the north-south wooden bridge (`cols 20-22, rows 27-31`) to `(23, 27)`, wraps north/east around the boulder at `(23-24, 23-24)` via `(23, 25) -> (25, 25)`, and ascends the eastern staircase (`25-26, 18 -> 25-26, 15`) onto the northern B1F platform (`cols 22-30, rows 7-14`, verified Turns 28190-28192).
 - **Northern B1F Platform (`cols 23-32, rows 7-14`) & Cave Archway (`29, 7`)**:
-  - Bounded on the southwest by the deep chasm (`cols 19-24, rows 13-15`) and leads north to a cave archway at `(29, 7)` (`latest_grid.png` Turn 28193).
+  - Bounded on the southwest by the deep chasm (`cols 19-24, rows 13-15`), leads north to a cave archway at `(29, 7)` (`latest_grid.png` Turn 28193), and is sealed off on the east by two 2x2 rock cones at `(31-32, 10-11)` and `(33-34, 11-12)` against a 2-tier boundary cliff wall (`35-38, 9-13`, verified via `latest_grid.png` Turn 28520 and collision testing Turns 28520-28522).
   - **Hiker Griffin (`28, 10`, rotating)**:
     - **Pre-Battle Quote**: *"I have a goal, to hike the highest mountains all over Hupest. I wanna build some confidence by battling first though... Wanna help?"*
     - **Team (4 Pokémon)**:
@@ -329,8 +329,8 @@
       - **Pokémon 4**: Onix (♂, Lv13; Rock/Ground; knows Curse and Rock Tomb).
     - **Outcome**: Defeat quote: *"Ah, that's a shocker."*; awards `₽520` (verified Turns 28193-28215).
 - **Northern 1F Chamber (`24, 6` Entry from B1F `29, 6`) & Moon Stone Ledge (`24, 13`)**:
-  - Stepping into the B1F cave archway at `(29, 6)` warps to the northern chamber of **Mt. Gerhana 1F** at `(24, 7)` (`latest_grid.png` Turn 28358; bounded by solid outer cave walls on the north at `row 4`, west at `cols 17-18`, and east at `col 27`, with a solid-collision rectangular pit at `24-25, 10-11` verified Turn 28359).
-  - Walking west and south (`24, 7 -> 20, 7 -> 20, 13`) and ascending the diagonal wooden stairs at `(22, 13-14)` reaches the elevated ledge at `(23, 11-12)`, where an orange item sphere at `(24, 13)` contains a **Moon Stone** (collected Turn 28223).
+  - Stepping into the B1F cave archway at `(29, 6)` warps to the northern chamber of **Mt. Gerhana 1F** at `(24, 7)` (`latest_grid.png` Turn 28358; bounded by solid outer cave walls on the north at `row 4`, west at `cols 17-18`, and east at `col 27`).
+  - Walking west and south (`24, 7 -> 20, 7 -> 20, 13`) and ascending the diagonal wooden stairs at `(22, 13-14)` reaches the elevated ledge (`23-25, 9-13`), which contains a solid-collision 2x2 rectangular pit at `(24-25, 10-11)` (verified from `23, 10-11` in Turn 28526), an inert small rock at `(24, 14)` (verified Turn 28527), and an orange item sphere at `(24, 13)` yielding a **Moon Stone** (collected Turn 28223).
 - **1F North-South Wooden Bridge (`cols 19-21, rows 17-27`) & Black Belt Joss (`19, 20`)**:
   - Spans south from the northern 1F chamber (`19-21, 17`) over the horizontal underpass bridge (`cols 16-24, rows 23-25`).
   - **Black Belt Joss (`19, 20`, facing East)**:
@@ -340,7 +340,7 @@
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
     - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
 - **Southern 1F Platform (`18-28, 28-35`), Hiker Frost (`22, 28`) & Cliff-Top Ledge (`24-35, 28`)**:
-  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`), and bounded on the south (`row 35`) and along `col 28, rows 29-35` by cliff walls and dark pits (`15-19, 33-35` and `27, 32-35`, verified Turns 28318 & 28364), while a walkable 1-tile cliff-top ledge extends east along `row 28` (`24, 28 -> 35, 28`, where the **Rare Opal** spawned at `35, 28` during Quest #18 and terminates at the solid eastern outer cave wall at `col 36`, verified via `latest_grid.png` Turn 28512).
+  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`), and bounded on the south (`rows 35-37`, with a 2x2 rock cone at `23-24, 33-34` blocking a small closed alcove at `23-24, 35-36` against a south-facing cliff wall at `row 37`, verified via `latest_grid.png` Turn 28529 and screen Turn 28530) and along `col 28, rows 29-35` by cliff walls, inert small rocks (`26, 33` and `29, 32`), and dark pits (`17-22, 34-36` and `27-28, 33-36`), while a walkable 1-tile cliff-top ledge extends east along `row 28` (`24, 28 -> 35, 28`, where the **Rare Opal** spawned at `35, 28` during Quest #18 and terminates at the solid eastern outer cave wall at `col 36`, verified via `latest_grid.png` Turn 28512).
   - **Hiker Frost (`22, 28`, facing West)**:
     - **Pre-Battle Quote**: *"Ohohoho, a Trainer? What are you doing here?"*
     - **Team (1 Pokémon)**:
@@ -348,7 +348,7 @@
     - **Outcome**: Defeat quote: *"..."* (verified Turns 28243-28251).
   - **Southern Pit Ladder (`20, 33-35` -> Lower Pit Chamber `5, 28`)**: At the southern edge of the 1F platform (`20, 33-35`), a wooden ladder descends into the lower pit chamber at `(5, 28)` (verified Turns 28253-28257).
 - **Lower Pit Chamber (`5, 28` Entry from 1F `20, 35`)**:
-  - **Mine Workers & Blocked Passages (`14, 25` & `14, 34`)**: Enclosed on the west (`col 1`), south (`row 32`), and east (`col 17`) by solid cave walls (`latest_grid.png` Turns 28361-28362). Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)` (*"We are doing some work here..."*, standing in the 1-tile gap above the cliff corner at `11, 28` to block the northern cave archway at `14, 25`), `(13, 29)` (*"We are cleaning up the path here, wait until we are done! We still have a lot of work to do though..."*), `(13, 32)` (*"We are cleaning up the path to deeper parts of the cave... We still have a lot of work to do though..."*, verified Turn 28363), and `(15, 31)` (*"Ahh, when will we finish this?!"*) alongside a Machop at `(14, 32)` (*"Machop: Chop! Chop!"*) block both the northern exit (`14, 25`) and the boulders (`13, 33`, `14, 33`, `15, 32`, `13, 34`, `15, 34`) surrounding the floor ladder at `(14, 34)`.
+  - **Mine Workers & Blocked Passages (`14, 25` & `14, 34`)**: Enclosed on the west (`col 4`), south (`row 34`), and east (`col 17`) by solid cave walls (`latest_grid.png` Turns 28361-28362 & 28517), with inert small rocks at `(14, 28)` and `(5, 32)` (on the western ledge `cols 5-6, rows 28-34`, verified Turns 28517-28518) and a cliff edge at `(12, 33)` separating `(12, 32)` from `(13, 33)` (verified Turn 28516). Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)` (*"We are doing some work here..."*, standing in the 1-tile gap above the cliff corner at `11, 28` to block the northern cave archway at `14, 25`), `(13, 29)` (*"We are cleaning up the path here, wait until we are done! We still have a lot of work to do though..."*), `(13, 32)` (*"We are cleaning up the path to deeper parts of the cave... We still have a lot of work to do though..."*, verified Turn 28363 & 28516), and `(15, 31)` (*"Ahh, when will we finish this?!"*) alongside a Machop at `(14, 32)` (*"Machop: Chop! Chop!"*) block both the northern exit (`14, 25`) and the boulders (`13, 33`, `14, 33`, `15, 32`, `13, 34`, `15, 34`) surrounding the floor ladder at `(14, 34)`.
 
 <hr>
 
