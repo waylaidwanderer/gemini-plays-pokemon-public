@@ -1016,7 +1016,7 @@
 - **Level**: Lv6
 - **Ability**: Keen Eye (Prevents loss of accuracy; verified Turn 27904)
 - **Caught**: Route 2 at `(12, 10)` in standard Poké Ball (Turns 27592-27605)
-- **HP**: 0/20 HP (fainted against wild Lv10 Whismur in Turn 28671)
+- **HP**: 20/20 HP (healed to full by Nurse Joy in Turn 28688)
 - **Moves**:
   - Slot 1: Growl (Normal, Status, 40 PP)
   - Slot 2: Tackle (Normal, Physical)
@@ -1034,7 +1034,7 @@
 - **Gender**: Male (♂)
 - **Level**: Lv6
 - **Caught**: Azluf Town (`36, 31` fishing into `36, 32`) in standard Poké Ball (Turns 27865-27873)
-- **HP**: 0/21 HP (fainted against wild Lv10 Whismur in Turn 28675)
+- **HP**: 21/21 HP (healed to full by Nurse Joy in Turn 28688)
 - **Moves**:
   - Slot 1: Water Gun (Water, Special, 40 power, 100% acc, STAB; verified Turn 28673)
 
@@ -1068,7 +1068,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 67 (C), Attack 47 (C+), Defense 48 (A-), Sp. Atk 32 (C-), Sp. Def 37 (E), Speed 35 (C-)
-- **Current Condition**: 17/67 HP, Paralyzed (activates Quick Feet +50% Speed boost; verified via Party menu in Turn 28676)
+- **Current Condition**: 67/67 HP, Healthy (healed to full by Nurse Joy in Azluf Town Pokémon Center in Turn 28688)
 - **EXP**: Lv26 (reached during battle against Bug Catcher Nicolas on Route 2, Turn 28555)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
