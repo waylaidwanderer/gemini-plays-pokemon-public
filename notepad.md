@@ -122,7 +122,7 @@
 
 ## Overworld Residents & NPCs
 
-- **Green-haired Girl**: Located at (23, 14-15) facing right. Verbatim dialogue: "Lancio has such pretty flowers, / I wanna collect them all!". Confirmed ambient resident.
+- **Green-haired Girl**: Wanders in 2x2 box at (22-24, 14-15). Verified post-tremor (Turn 27476, 1 box): "Lancio has such pretty flowers, I wanna collect them all!".
 
 - **NPC in Cap**: Wanders at (32-33, 13-14) on the east avenue. Verified post-tremor (Turn 27461, 2 boxes): "Living in a small town sucks... There's nothing to do." / "I wanna live in the big capital, Amor City!".
 
@@ -601,7 +601,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 27439, 27448, 27462)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x17 (purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 1st sprayed Turn 27439, 2nd sprayed via auto-prompt Turn 27448, 3rd sprayed via auto-prompt Turn 27462).
+- **Items Pocket (Audited Turns 27439-27474)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x16 (purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 4 sprayed across Turns 27439-27474).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Poké Balls Pocket (Audited Turn 27393)**: Contains Timer Ball x1, Poké Ball x10.
 - **Key Items Pocket (Audited Turn 27086 & Turn 27394)**: Contains ONLY HuPhone (registered to [SELECT]) and TM Case. Zero other key items (no passes, keys, or map gadgets).
@@ -689,7 +689,7 @@
 - **Sovio City Residential Interiors & Overworld NPCs**: Verified post-tremor static ambient dialogue for Elderly Man at (41, 33) in House (39, 7) (Turn 27354), Son on 2F of House (39, 7) (Turn 26539), Nana & Granddaughter in Terrace House (49, 14) (Turns 27223-27224), Boy & Mother in Gumball House (29, 14) (Turns 26547-26551), Karate Trainer at (3, 34) and Blonde Girlfriend at (3, 33) in Karate House (14, 15) (Turns 27358-27361), Three Bikers at (13, 21-23) (Turns 27370-27371), Boy Rocky at (23, 17) & Rocky at (24, 17) (Turn 27373), Central Park Boy in Pink Shirt at (33, 21-22) (Turn 27374), Blonde Girl in Central Park (Turn 26733), South Sidewalk Little Girl (33, 28), Jigglypuff (34, 28), and Boy (35, 28) (Turns 27375-27376), Name Rater at (64, 14) and north wall fixtures in House (31, 26) (Turns 27378-27381), and Camper in Sovio Pokémon Center (Turn 26715). All 5 city trash cans at (14, 19), (31, 17), (28, 28), and (22, 30-31) verified 100% inert (Turns 27371-27377).
 - **Sovio Sewers**: Grunts vacated following Marie's radio directive. Western Terrace west boundary verified solid wall at column 11 (rows 11-12) (Turn 27406). Eastern Storage Platform door at (37, 14) facing South into (37, 15) displays "Its a simple storage room..." (Turns 26919, 27414). Rugged rocks at (10, 18) and (22, 10) require specialized smashing equipment.
 - **Route 1 (100% Verified Post-Tremor)**: Verified static post-tremor dialogue for all 8 Route 1 NPCs: Bug Catcher Duke at (45, 12) (Turn 26646), Lass Sonia at (27, 15) (Turn 26680), Youngster Mike at (29, 20) (Turn 26681), Roadside Cottage boy at (37, 24 -> 6, 7) (Turn 26692), Blue Cap Boy at (34, 37) with Pidgey at (33, 37) (Turn 27446), Science Guy at (39-41, 35-37) (Turn 27453), Camper at (16-18, 43-45) (Turn 27456), and Boy in Grass at (10-12, 48-50: "I gotta be careful when I walk around in the tall grass..." / "Wild Pokémon can jump out and attack you!") (Turn 27457).
-- **Lancio Town (Partial Checks)**: Verified Lancio Lab Professor Ivo + basement stairs barrier + Lancio harbor pier (Turns 27068-27080), NPC in Cap at (31-33, 13-14) (Turn 27461), Old Man at (32, 8) and Old Woman at (33, 8) (Turn 27463), Lancio Pokémon Center Man at (9, 4) and Boy at (5-6, 5-6) (Turns 27465-27466), Fisherman at (38, 22) (Turn 27467), and Northwest House boy at (25, 10 -> 44, 4: "Get out!") (Turn 27471). Auditing Green-haired Girl (23, 15) now.
+- **Lancio Town (100% Verified Post-Tremor)**: Verified Lancio Lab Professor Ivo + basement stairs barrier + Lancio harbor pier (Turns 27068-27080), NPC in Cap at (31-33, 13-14) (Turn 27461), Old Man at (32, 8) and Old Woman at (33, 8) (Turn 27463), Lancio Pokémon Center Man at (9, 4) and Boy at (5-6, 5-6) (Turns 27465-27466), Fisherman at (38, 22) (Turn 27467), Northwest House boy at (25, 10 -> 44, 4: "Get out!") (Turn 27471), and Green-haired Girl at (22-24, 14-15: "Lancio has such pretty flowers, I wanna collect them all!") (Turn 27476).
 - **Party State & Summaries (Turn 27306)**: Sirius (Lv17 Riolu) and Zephyr (Lv2 Pidgey) summary pages, moves, and held items inspected; standard status with zero progression triggers.
 - **Sovio Pokémon Center PC Terminal (Turn 27326)**: Corner PC at (12, 1) verified 100% empty across Someone's PC (Box 1), Asher's PC (Item Storage & Mailbox), with no Professor's PC network option.
 - **16:00 RTC Train Schedule (Turn 27332)**: Turnstile at (19, 21) tested at 16:03 RTC; still triggers verbatim "I should find dad first!". RTC train schedule hypothesis falsified.
@@ -704,9 +704,9 @@
 3. **System 3: HuPhone Apps & Communication Systems**
    - *Status*: Item Storage, Mailbox, Quest Status, all 5 pages of Quest List (Pages 1-5), and Sovio City World Map nodes audited and verified negative (Turns 27185-27365).
 4. **System 4: Story Script & Trigger Flags (Interior & Overworld NPCs)**
-   - *Status*: Sovio City residential interiors and overworld NPCs verified post-tremor (Turns 26539-27381). Unverified NPCs/areas on Route 1, Lancio Town, and remaining sewer sub-corridors require Repel-supported verification.
+   - *Status*: Sovio City, Route 1, and Lancio Town NPCs and residential/facility interiors 100% verified post-tremor (Turns 26539-27476). Remaining Sovio Sewers sub-corridor gaps being audited with Repels active.
 
 ## Active Empirical Investigation Plans
-- **Step 1 (Audit Remaining Route 1 & Lancio Town NPCs with Repels - Active)**: Speak with wandering Science Guy at (39-41, 35-37), traverse Cypress Bypass to southern Route 1 to verify Camper at (18, 44) and Boy in Grass at (11-12, 48-50), and continue into Lancio Town to verify all residents and interiors with turn-cited verbatim dialogue.
+- **Step 1 (Audit Remaining Sovio Sewers Sub-Corridors with Repels - Active)**: Return from Lancio Town across Route 1 into Sovio Sewers with 16 Repels active to verify: (a) Column 27 Vertical Corridor (27, 19-28) & Repel Ledge (22, 20) via `latest_grid.png`, (b) Southern Canal Corridor (10-22, 32-36) & Southwest Corridor (7-8, 25-28), and (c) Eastern Storage Platform adjacent tiles (36, 12-14 & 38, 12-14).
 
 <hr>
