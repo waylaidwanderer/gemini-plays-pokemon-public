@@ -33,9 +33,15 @@
   - **Tournament Arena Lobby (`15, 7` -> `row 17`)** (`latest_grid.png` Turns 27978, 27980):
     - Entry mat from the Lower Arena Concourse lands at `(15, 7)` (`cols 14-16, row 7`).
     - Corridor runs west along `row 6` (`cols 11-15`), south along `columns 11-12` (`rows 6-15`), and opens into a horizontal arena lobby (`cols 6-19+, rows 14-17`) with a lower blue escalator at `(6, 16-19)` on the west and a row of numbered round arena entrance mats along `row 17`:
-      - **Round 1 Arena Entrance (`9-11, 17`)**: Unguarded red Poké Ball mat at `(10, 17)`; stepping `Down` off `(10, 17)` warps into the **Round 1 Arena** (verified Turn 27980).
+      - **Round 1 Arena Entrance (`9-11, 17`)**: Unguarded red Poké Ball mat at `(10, 17)` prior to Round One; stepping `Down` off `(10, 17)` warps into the **Round 1 Arena** (verified Turn 27980). After Asher wins Round One, a blue-capped attendant stands at `(10, 17)` guarding the entrance (verified Turn 28021).
       - **Round 2 Arena Entrance (`12-14, 17`)**: Guarded by blue-capped attendant at `(13, 17)` (*"This is where Round 2 will take place in... Not yet though."*, verified Turn 27980).
       - **Round 3 Arena Entrance (`16-18, 17`)**: Guarded by blue-capped attendant at `(17, 17)`.
+  - **Round 1 Arena & Eclipse Tournament Round One (`4, 14` -> `14, 14`)** (`latest_grid.png` Turns 27983-27984 & physical completion Turns 27981-28020):
+    - **Bracket & Format**: Entering `(10, 17)` displays the 8-trainer Round One bracket screen (`7, 17` map coordinate): Left side features **Asher vs. Camper Paul** and **Youngster vs. Youngster Chad**; Right side features **Roark vs. Picnicker** and **Bug Catcher Jim vs. Ruin Maniac**. No automatic healing occurs between the 3 consecutive matches.
+    - **Cyber-Arena Layout**: For each match, the player materializes on a white/cyan teleporter pad at `(4, 14)`. Walking `Right 10` along `row 14` (`(4, 14) -> (14, 14)`) crosses the narrow chasm bridge (`12-13, 14-15`, where an Arena Attendant stands at `13, 15`: *"Good luck, Trainer!"*) onto the white-outlined trainer box at `(14, 14)`, which walks both trainers onto the stage (`16, 14`) and morphs the cyber-arena into a holographic rocky cavern battlefield.
+    - **Match 1 (Quarterfinals — Camper Paul)**: Pre-battle quote: *"I came here to win! And I'm gonna!"*; uses 3 Pokémon—Buizel (♀, Lv11), Pidgey (♀, Lv11), and Bulbasaur (♂, Lv12); defeat quote: *"Nooooo! I lost the very first battle..."*; awards `₽576` (verified Turns 27985-27995).
+    - **Match 2 (Semifinals — Youngster Chad)**: Pre-battle quote: *"I have won one battle! I'll win this one as well!"*; uses 3 Pokémon—Rattata (♂, Lv11), Timburr (♀, Lv12; Bide), and Electrike (♀, Lv12); defeat quote: *"How in the..."*; awards `₽624` (verified Turns 27996-28007).
+    - **Match 3 (Round One Finals — PKMN Trainer / Leader Roark)**: Pre-battle quote: *"My name is Roark. I'm a gym leader from Sinnoh. May the stronger Trainer win!"*; uses 3 Pokémon (displayed with 4 Poké Ball icons in HUD)—Hippopotas (♂, Lv12; Sand Stream, Sand Tomb, +1 Potion), Cranidos (♂, Lv12; Mold Breaker), and Onix (♀, Lv13); defeat quote: *"... / Looks like this is the end for me. Thanks for the battle!"*; awards `₽1456` (verified Turns 28008-28019). Winning Round One returns Asher to `(10, 16)` in the Tournament Arena Lobby.
 - **Exterior Plaza (`53-66, 24-29`)** (`latest_grid.png` Turn 27568 & physical interaction Turn 27568):
   - Stepping `Down` on the Battle Centre exit mat at `(10, 21)` warps outside to `(59, 25)` in Amor City (door at `59, 24`, verified Turn 27566-27567).
   - Signboard at `(56-57, 25)` interacted from `(57, 26)` reads verbatim: *"Amor Metro Station / Amor Battle Centre"* (verified Turn 27568).
@@ -710,6 +716,12 @@
 - **The Custom PokéDex**: At Jackson's request, Ivo also gave Asher a custom **PokéDex** (Turn 27801) that registers the **stats**, **abilities**, and **habitat** of caught Pokémon before departing (verified Turns 27779-27803).
 
 - **Amor Battle Center Text Message (Round One Summons)**: Immediately after Professor Ivo departed (Turns 27805-27806), Asher received a text message on his HuPhone from the **Amor Battle Center**: *"Dear Contestant! The very first round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*. Asher resolved to head back to Amor City for Round One and hoped Valora would make it in time as well.
+
+## Eclipse Tournament Round One — Victory Over Roark
+- **Round One Bracket & Matches (Turns 27981-28020)**: Inside the Amor City Battle Center's Round 1 Arena, Asher competed in an 8-trainer single-elimination bracket on a holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Camper Paul** (Buizel Lv11, Pidgey Lv11, Bulbasaur Lv12).
+  2. **Semifinals**: Defeated **Youngster Chad** (Rattata Lv11, Timburr Lv12, Electrike Lv12), while Sinnoh Gym Leader **Roark** defeated Bug Catcher Jim on the opposite side of the bracket.
+  3. **Round One Finals**: Defeated Sinnoh Gym Leader **Roark** (Hippopotas Lv12, Cranidos Lv12, Onix Lv13) to win his Round One bracket and advance to Round Two of the Eclipse Tournament.
 
 <hr>
 
