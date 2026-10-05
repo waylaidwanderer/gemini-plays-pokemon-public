@@ -266,6 +266,14 @@
 - **Southern Entrance Cutscene (`6, 29`)**: Stepping north from `(6, 30)` onto `(6, 29)` triggers a cutscene with **Valora** (`7, 29`), who wonders what the Eclipse Rock looks like (*"This is the place I think. I wonder how that rock looks... Will we even know when we find it?"* / Asher: *"I'm sure we will, it must be something very unique..."*). The camera cuts deeper into Mt. Gerhana, where **Frio** remarks *"I must be close to it... And there's no sign of that prick as well. I thought he will at least show up so that I can mess with him... Oh well."* before descending a wooden ladder into a lower pit (verified Turns 28077-28078).
 - **Sinnoh Gym Leader Roark (`13, 23`) — Quest #18 ("Roark's Opal")**: Standing east of the northern stairs (`8-10, 21-22`) with a side quest bubble: *"Hmm, no, not here... Oh, hello there, Asher! Didn't expect to see you so soon after my loss again... So, what's up? / Asher: Just passing by... What about you? / Roark: Ah, you see... I am looking for a rare gem, an Opal to be specific. I love collecting rare minerals and such, but I can't find any... Oh, I know! I know it might be a lot to ask, but will you help me find an Opal? Yes/No"* (verified Turns 28084-28086).
 
+## Mt. Gerhana B1F (`37, 15` Ladder Entry)
+- **Entry Chamber (`cols 30-38, rows 12-19`)**: Reached by descending the floor ladder from 1F `(29, 18)` to B1F `(37, 15)` (`latest_grid.png` Turns 28116-28117). Contains an inert small rock at `(38, 19)`, a western passage at `cols 30-32`, an eastern corridor around `(37, 20-21)` -> `cols 39-41` heading north, and wooden stairs at `(33-35, 20)` descending onto a central ridge (`cols 33-35, rows 21-26`).
+- **Hiker Zion (`35, 23`, facing West)**:
+  - **Pre-Battle Quote**: *"Ahoy, you are exploring the caves too?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Sandshrew (♀, Lv12; Ground).
+    - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate). (verified Turns 28120-28125).
+
 <hr>
 
 <h1><code>Locations/Route_1</code></h1>
