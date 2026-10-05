@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 56 (C), Attack 38 (C+), Defense 39 (A-), Sp. Atk 27 (C-), Sp. Def 31 (E), Speed 28 (C-)
-- **Current Condition**: 26/56 HP, Paralyzed (reached Lv21 after defeating Lucas's Eevee on Route 2, Turn 27768)
+- **Current Condition**: 56/56 HP, Healthy (healed at Azluf Town Pokémon Center in Turn 27815)
 - **EXP**: Lv21 (reached during Route 2 rival battle against Lucas, Turn 27768)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
