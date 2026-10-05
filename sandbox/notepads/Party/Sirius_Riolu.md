@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 61 (C), Attack 42 (C+), Defense 42 (A-), Sp. Atk 29 (C-), Sp. Def 33 (E), Speed 31 (C-)
-- **Current Condition**: 48/61 HP, Healthy
+- **Current Condition**: 21/61 HP, Healthy
 - **EXP**: Lv23 (reached during battle against Hiker Zion on Mt. Gerhana B1F, Turn 28122)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)

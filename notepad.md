@@ -283,7 +283,7 @@
     - **Pre-Battle Quote**: *"What is a bug catcher like doing here? You will see!"*
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Dwebble (♂, Lv13; Bug/Rock; Ability: Sturdy; knows Sand Attack).
-      - **Pokémon 2**: Dustox (Bug/Poison).
+      - **Pokémon 2**: Dustox (♀, Lv13; Bug/Poison; knows Confusion). (verified Turns 28148-28158).
 
 <hr>
 
@@ -969,7 +969,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 61 (C), Attack 42 (C+), Defense 42 (A-), Sp. Atk 29 (C-), Sp. Def 33 (E), Speed 31 (C-)
-- **Current Condition**: 48/61 HP, Healthy
+- **Current Condition**: 21/61 HP, Healthy
 - **EXP**: Lv23 (reached during battle against Hiker Zion on Mt. Gerhana B1F, Turn 28122)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)

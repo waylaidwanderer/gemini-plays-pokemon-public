@@ -34,4 +34,4 @@
     - **Pre-Battle Quote**: *"What is a bug catcher like doing here? You will see!"*
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Dwebble (♂, Lv13; Bug/Rock; Ability: Sturdy; knows Sand Attack).
-      - **Pokémon 2**: Dustox (Bug/Poison).
+      - **Pokémon 2**: Dustox (♀, Lv13; Bug/Poison; knows Confusion). (verified Turns 28148-28158).
