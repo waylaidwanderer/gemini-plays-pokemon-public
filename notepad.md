@@ -602,7 +602,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 27395)**: Contains Potion x1, Poison Barb x1, Antidote x1 (0 Repels remaining).
+- **Items Pocket (Audited Turn 27439)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x20 (purchased 20 Repels at Sovio PokéMart in Turn 27432; ₽946 remaining).
 - **Poké Balls Pocket (Audited Turn 27393)**: Contains Timer Ball x1, Poké Ball x10.
 - **Key Items Pocket (Audited Turn 27086 & Turn 27394)**: Contains ONLY HuPhone (registered to [SELECT]) and TM Case. Zero other key items (no passes, keys, or map gadgets).
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
@@ -706,6 +706,6 @@
    - *Status*: Sovio City residential interiors and overworld NPCs verified post-tremor (Turns 26539-27381). Unverified NPCs/areas on Route 1, Lancio Town, and remaining sewer sub-corridors require Repel-supported verification.
 
 ## Active Empirical Investigation Plans
-- **Step 1 (Restock Repels at Sovio PokéMart - Active)**: Exit Sovio Sewers to Sovio City Pokémon Center (44, 12), ascend northwest escalator (2, 1) to PokéMart clerk (5, 3), and purchase Repels ($350 each) to prevent wild encounter interruptions during systematic exploration.
+- **Step 1 (Audit Remaining Route 1 & Lancio Town NPCs with Repels - Active)**: 20 Repels purchased at Sovio PokéMart (Turn 27432). Spray Repel at (53, 1) on Route 1 and systematically verify post-tremor dialogue for the remaining 5 Route 1 NPCs (Blue Cap Boy & Pidgey at 34, 37; Girl in Pink Vest at 38-40, 36; Science Guy at 39-41, 36; Camper at 18, 44; Boy in Grass at 11-12, 48-50) and Lancio Town residents.
 
 <hr>

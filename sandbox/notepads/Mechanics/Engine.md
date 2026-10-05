@@ -71,7 +71,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 27395)**: Contains Potion x1, Poison Barb x1, Antidote x1 (0 Repels remaining).
+- **Items Pocket (Audited Turn 27439)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x20 (purchased 20 Repels at Sovio PokéMart in Turn 27432; ₽946 remaining).
 - **Poké Balls Pocket (Audited Turn 27393)**: Contains Timer Ball x1, Poké Ball x10.
 - **Key Items Pocket (Audited Turn 27086 & Turn 27394)**: Contains ONLY HuPhone (registered to [SELECT]) and TM Case. Zero other key items (no passes, keys, or map gadgets).
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
