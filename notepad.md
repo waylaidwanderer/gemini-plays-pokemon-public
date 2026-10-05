@@ -859,7 +859,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 27826)**: Contains Poison Barb x1, Antidote x1, Repel x8, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x5 (purchased 5 Berry Juice and 5 Moomoo Milk at Claire's Organic Market in Azluf Town in Turns 27825-27826 with ₽3410 remaining; found Max Repel at Route 2 `60, 37` in Turn 27744; found hidden Revive at Route 2 `48, 35` in Turn 27705).
+- **Items Pocket (Audited Turn 28138)**: Contains Poison Barb x1, Antidote x1, Repel x7, Revive x1, Max Repel x1, Berry Juice x5, Moomoo Milk x5, Super Potion x1 (collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; used 1 Repel in Turn 28138; Poké Balls Pocket has Poké Ball x6).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 27961)**: Contains **Poké Ball x10** (purchased 10 Poké Balls for ₽2000 at the Sovio City PokéMart in Turn 27961, with ₽2274 remaining).
