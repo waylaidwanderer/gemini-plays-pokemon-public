@@ -669,7 +669,6 @@
     23. Back to the...
     24. Outcasts
     25. The Mods of Cord
-  - 'Quest List': Displays side quests across 5 pages. Selecting an uncompleted quest displays verbatim: 'This Quest hasn't been completed yet!'. Selecting a completed quest displays 'This Quest has been completed!'. The Quest List functions as a completion tracker and does not provide active objective hints or cards for unstarted quests.
   - 'Quest Status': When a quest is active, displays the currently tracked quest status and system instructions. When no quest is active, displays 'You aren't doing any Quest at the moment!'.
   - HuPhone Menu & Quest Navigation: Neither the main HuPhone app menu nor the Quest List dismiss with the B button. The player must explicitly navigate down to 'Back' or 'Exit' and press A to close them.
 
@@ -681,11 +680,11 @@
 
 - **Items Pocket (Audited Turns 27439-27532)**: Contains Potion x1, Poison Barb x1, Antidote x1, Repel x8 (purchased 20 Repels at Sovio PokéMart in Turn 27432 with ₽946 remaining; 12 sprayed across Turns 27439-27532).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
-- **Poké Balls Pocket (Audited Turn 27393)**: Contains Timer Ball x1, Poké Ball x10.
-- **Key Items Pocket (Audited Turn 27560)**: Contains HuPhone (registered to [SELECT]), TM Case, and **Metro Pass** (received from Dad in Amor City Battle Centre in Turn 27560; grants travel access on the Hupest Metro Line).
+- **Poké Balls Pocket (Audited Turn 27601)**: Contains Timer Ball x1, Poké Ball x8 (10 prior to Route 2; 2 thrown at wild Lv6 Starly in Turns 27598 and 27601).
+- **Key Items Pocket (Audited Turn 27560 & Turn 27597)**: Contains HuPhone (registered to [SELECT]), TM Case, and **Metro Pass** (received from Dad in Amor City Battle Centre in Turn 27560; grants travel access on the Hupest Metro Line).
 - **TMs & HMs Pocket**: Contains only TM17 (Protect) and TM48 (Work Up). Zero HMs in possession.
 
-- **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash.
+- **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash (verified at `6, 23` and `22, 10` in Sovio Sewers, Turns 27495 & 27512).
 
 ## Trainer Card Structure & Display
 - **Front Layout**: Name (Asher), ID No. (54592), Money, Playtime. Features '*ROUNDS' row tracking 8 Poké Ball icons for the Eclipse Tournament.
@@ -701,17 +700,13 @@
 - **Script Button Accumulator Limit**: The sandbox Python environment enforces a cumulative session limit on button commands executed via Python scripts/mgba. When this limit is reached, any script attempting button commands will abort with 'Maximum cumulative limit of 100 buttons per script execution exceeded'. Controller button commands should strictly use the native press_buttons tool.
 - **Tool Limitation (stun_npc)**: The `stun_npc` tool fails with 'Error: Map objects data is unavailable' on this ROM/engine build. Do not invoke `stun_npc`.
 ## Hupest Metro Line Transit Mechanics
-- **Boarding the Train**: With the **Metro Pass** in the Key Items pocket, stepping into a station's entry turnstile lane (e.g. `17, 24` in Amor Metro Station) prompts *"Do you want to use the Hupest Metro Line? Yes/No"*. Selecting *Yes* walks the player onto the platform into the train car (`11, 8`) with the announcement *"Please mind the closing doors!"*.
-- **Selecting a Destination Inside the Train Car (Seat Trigger)**: Inside the moving 3-car train (`cols 1-24, rows 4-8`), stepping onto an empty purple passenger seat (such as stepping `Left` from `5, 5` into the seat at `4, 5`) sits Asher down and opens the prompt: *"Which city do you want to go to?"* with a destination list of 8 stations:
-  1. `Amor`
-  2. `Sovio`
-  3. `Samurion`
-  4. `Destino`
-  5. `Galinor`
-  6. `E.S.`
-  7. `Colen`
-  8. `Dis Bay`
-  Selecting a station not yet unlocked displays *"You can't go to that city yet!"* (verified Turn 27582).
+- **Boarding the Train**: With the **Metro Pass** in the Key Items pocket, stepping into a station's entry turnstile lane (e.g. `17, 24` in Amor Metro Station, verified Turn 27572) prompts *"Do you want to use the Hupest Metro Line? Yes/No"*. Selecting *Yes* walks the player onto the platform into the train car (`11, 8`) with the announcement *"Please mind the closing doors!"* (verified Turn 27574).
+- **Train Interior Layout (`cols 1-24, rows 4-8`, verified via `latest_grid.png` Turns 27575, 27578, 27581)**:
+  - **Western Car (`cols 1-6`)**: Green door mat at `(2-4, 8)` (inert while moving); elderly man at `(1, 8)` (*"The Hupest Metro Lines are very famous for foreigners..."*, Turn 27581); Italian woman at `(3, 5)` (*"Vengo da una regione lontana! E tu?"*, Turn 27581); German man at `(4, 8)` (*"Früher waren Spiele originell!..."*, Turn 27581).
+  - **West Gangway (`7-8, 7`)**: Connects Western and Middle cars along row 7; glasses passenger at `(7, 6)` (*"He's texting something on a messaging app... 'Day 69 of asking for a dating sim in sors.'"*, Turn 27576).
+  - **Middle Car (`cols 9-14`)**: Green door mat at `(10-12, 8)` (arrival spawn at `11, 8`); Hungarian blonde girl at `(9, 5)` (*"Kíváncsi vagyok mikor jön ki a Pokémon Sors teljes verziója..."*, Turn 27580); passenger at `(14, 6)` refreshing a game site showing a fella in a red fedora talking to a Darkrai (Turn 27578).
+  - **East Gangway (`15-16, 7`) & Eastern Car (`cols 17-22`) & Far-East Gangway (`23-24, 7`)**: Green door mat at `(18-20, 8)`; Japanese passenger in Team Siara suit at `(22, 8)` (*"Watashi wa Joto kara kimashita..."*, Turn 27578); eastern end terminates at `(24, 7)` (Turn 27579).
+- **Selecting a Destination Inside the Train Car (`4, 5` Seat Trigger)**: Stepping `Left` from `(5, 5)` into the purple passenger seat at `(4, 5)` sits Asher down and opens the prompt: *"Which city do you want to go to?"* with a destination list of 8 stations (`Amor`, `Sovio`, `Samurion`, `Destino`, `Galinor`, `E.S.`, `Colen`, `Dis Bay`). Selecting a station not yet unlocked displays *"You can't go to that city yet!"* (verified Turn 27582), while selecting an unlocked station such as `Sovio` announces *"The next station is... Sovio City!"* and warps to the destination station platform (`22, 17` in Sovio Metro Station, verified Turns 27583-27584).
 
 <hr>
 
