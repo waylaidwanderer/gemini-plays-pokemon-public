@@ -8,3 +8,4 @@
 - **Caught**: Route 2 at `(11, 9)` in standard Poké Ball (Turns 28037-28041)
 - **Moves**:
   - Knows Vice Grip (Normal, Physical; observed in wild battle Turn 28039)
+- **HP**: 18/18 HP (verified via Party menu in Turn 28200)

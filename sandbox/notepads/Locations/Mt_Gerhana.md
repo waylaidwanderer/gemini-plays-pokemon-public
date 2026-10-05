@@ -52,3 +52,11 @@
       - **Pokémon 2**: Machop (♂, Lv13; Fighting; knows Focus Energy).
       - **Pokémon 3**: Geodude (♀, Lv14; Rock/Ground; knows Rock Polish).
     - **Outcome**: Defeat quote: *"My god..."*; awards `₽560` (verified Turns 28179-28188).
+- **B1F Underpass (`17, 27 -> 23, 27 -> 25, 25`) & Eastern Staircase (`25-26, 15-18 -> 25, 14`)**:
+  - From the bottom of the lower western stairs (`17, 27`), the cavern floor passes underneath the north-south wooden bridge (`cols 20-22, rows 27-31`) to `(23, 27)`, wraps north/east around the boulder at `(23-24, 23-24)` via `(23, 25) -> (25, 25)`, and ascends the eastern staircase (`25-26, 18 -> 25-26, 15`) onto the northern B1F platform (`cols 22-30, rows 7-14`, verified Turns 28190-28192).
+- **Northern B1F Platform (`cols 22-30, rows 7-14`) & Cave Archway (`29, 7`)**:
+  - Connects west via wooden stairs at `(22, 13-14)` to an elevated ledge with an item sphere at `(24, 13)`, and north to a cave archway at `(29, 7)` (`latest_grid.png` Turn 28193).
+  - **Hiker Griffin (`28, 10`, rotating)**:
+    - **Pre-Battle Quote**: *"I have a goal, to hike the highest mountains all over Hupest. I wanna build some confidence by battling first though... Wanna help?"*
+    - **Team (4 Pokémon)**:
+      - **Pokémon 1**: Geodude (♀, Lv13; Rock/Ground; Ability: Sturdy; knows Rock Polish).
