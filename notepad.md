@@ -259,6 +259,8 @@
   - A second set of wooden stairs at `(50, 25-26)` descends east from the ridge into the eastern tall grass corridor (`cols 51+`).
   - Walking south along `column 49` (`rows 25-30`) passes east of a boulder (`47-48, 28-29`) and **underneath** the northern overhead wooden bridge (`rows 30-32`) onto a southern ridge overlook (`47-48, 33-34`).
   - **Hidden Item (`48, 35`)**: Interacting with the small purple stone at `(48, 35)` on the southern ridge overlook yields **Revive x1** (collected Turn 27705).
+- **Eastern Tall Grass Corridor (`cols 51-55, rows 24-35`)**:
+  - **Black Belt Cameron** rotating at `(53, 30)` (`"Punch, kick, jab!"`): Uses 2 Pokémon—Machop (♂, Lv9) and Mankey (♀, Lv10); defeat quote: *"Ah man..."*; awards `₽720` (verified Turns 27707-27715).
 
 <hr>
 
