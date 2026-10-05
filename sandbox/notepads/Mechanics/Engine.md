@@ -14,7 +14,8 @@
 
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors.
   - **At the Current Quest's Provider**: Speaking to the NPC who gave the currently active quest repeats their quest hint and then prompts: *"If you find this too hard you can just say no too... / Wanna cancel the Quest? Yes/No"* (cursor defaults to **Yes**; pressing A selects Yes and cancels the quest with *"Its okay, it seems like a difficult task anyway..."*, verified at Route 2 `40, 21` in Turn 28402).
-  - **At Any Other Quest Provider**: Attempting to accept a side quest from a different NPC while a quest is already active displays verbatim: *"You are already doing a Quest! Cancel the Quest in progress at the provider to start a new one."* without offering a cancellation prompt—you must return to the original quest provider to cancel an active quest (verified with Roark in Mt. Gerhana, Turn 28087).
+  - **At Any Other Quest Provider**: Attempting to accept a normal side quest from a different NPC while a normal quest is already active displays verbatim: *"You are already doing a Quest! Cancel the Quest in progress at the provider to start a new one."* without offering a cancellation prompt—you must return to the original quest provider to cancel an active quest (verified with Roark in Mt. Gerhana, Turn 28087).
+  - **Special Quests Exception**: Quests marked with a yellow speech bubble icon (such as Quest #11 "Oak's Research") are **Special Quests**: *"These quests have a different icon from the rest. They are far more complicated than the normal quests you can take. Completing them might take longer than an ordinary quest. These quests usually have multiple tasks for multiple rewards, and their fullest completion might arc through the entire game! They can't be cancelled, however this doesn't affect other Quests! Special Quests can be in progress besides pending Quests!"* (verified Turn 28502).
 
 ## HuPhone Regional Device & Apps
 - **Access**: Activated via SELECT button or through BAG Key Items pocket.
@@ -46,7 +47,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1: show Professor Oak the PokéDex with 10 Pokémon caught)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research

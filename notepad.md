@@ -102,7 +102,7 @@
   - **Signboard (`25, 16`)**: Interacted from `(25, 17)`, reads verbatim: *"Mt. Gerhana"* (verified Turn 27845).
   - **Worker Guard (`27, 15`)**: Blocks the cave entrance prior to Round One of the Eclipse Tournament: *"I'm sorry kid, but there are some mine works going on... We will move out of the way later!"* (verified Turn 27845). After Asher wins Round One of the Eclipse Tournament and accepts Frio's challenge, the guard is gone and stepping onto `(27, 14)` enters **Mt. Gerhana** (verified Turn 28074).
 - **Eastern House — Professor Oak's House (`31, 24`)**: Blue-roofed cottage at the eastern end of the `row 26` purple brick road (`37, 10` interior exit mat).
-  - **Professor Oak (`40, 7`)**: Kanto Pokémon Professor with a side quest bubble (**Quest #11: "Oak's Research"**): *"Oh, hello there! You must be a Pokémon Trainer! You also seem to have a PokéDex, may I check it? Wow, this is a well made PokéDex! It's way more complex than mine... However it's pretty empty... Oh, how rude of me, I didn't even introduce myself... My name is Oak, I'm a Pokémon professor from the Kanto Region. I research Pokémon and gather data of them... Would you help me in my research? Yes/No"* (verified Turns 27848-27849).
+  - **Professor Oak (`40, 7`) — Special Quest #11 ("Oak's Research", Active)**: Kanto Pokémon Professor with a yellow Special Quest bubble: *"Oh, hello there! You must be a Pokémon Trainer! You also seem to have a PokéDex, may I check it? Wow, this is a well made PokéDex! It's way more complex than mine... However it's pretty empty... Oh, how rude of me, I didn't even introduce myself... My name is Oak, I'm a Pokémon professor from the Kanto Region. I research Pokémon and gather data of them... Would you help me in my research? Yes/No"* (verified Turns 27848-27849). Accepting the quest (Turn 28501) triggers the **Special Quests!** tutorial and assigns **Task 1**: *"You first task will be to show me the PokéDex with 10 Pokémon caught."* (verified Turn 28502).
 - **Southeastern Coastal Ridge & Fishing Rod Giver (`37, 30`)**: Reached via stone stairs at `(34-35, 29)` south of Professor Oak's house.
   - **Fisherman (`37, 30`)**: Asks *"Tell me, kid... Do you like fishing? Yes/No"*. Answering *Yes* rewards the **Fishing Rod** (*"Take this, it might help you relax and also help you catch Pokémon! Obtained the Fishing Rod!"*, verified Turn 27854).
   - **Wild Fishing Encounters (`36, 31` facing `36, 32`)**: **Remoraid** (♂, Lv6; Water-type, verified Turn 27865).
@@ -879,7 +879,8 @@
 
 - **Single Active Quest Limit & Cancellation**: The player can only have ONE active side quest at a time in Pokémon Sors.
   - **At the Current Quest's Provider**: Speaking to the NPC who gave the currently active quest repeats their quest hint and then prompts: *"If you find this too hard you can just say no too... / Wanna cancel the Quest? Yes/No"* (cursor defaults to **Yes**; pressing A selects Yes and cancels the quest with *"Its okay, it seems like a difficult task anyway..."*, verified at Route 2 `40, 21` in Turn 28402).
-  - **At Any Other Quest Provider**: Attempting to accept a side quest from a different NPC while a quest is already active displays verbatim: *"You are already doing a Quest! Cancel the Quest in progress at the provider to start a new one."* without offering a cancellation prompt—you must return to the original quest provider to cancel an active quest (verified with Roark in Mt. Gerhana, Turn 28087).
+  - **At Any Other Quest Provider**: Attempting to accept a normal side quest from a different NPC while a normal quest is already active displays verbatim: *"You are already doing a Quest! Cancel the Quest in progress at the provider to start a new one."* without offering a cancellation prompt—you must return to the original quest provider to cancel an active quest (verified with Roark in Mt. Gerhana, Turn 28087).
+  - **Special Quests Exception**: Quests marked with a yellow speech bubble icon (such as Quest #11 "Oak's Research") are **Special Quests**: *"These quests have a different icon from the rest. They are far more complicated than the normal quests you can take. Completing them might take longer than an ordinary quest. These quests usually have multiple tasks for multiple rewards, and their fullest completion might arc through the entire game! They can't be cancelled, however this doesn't affect other Quests! Special Quests can be in progress besides pending Quests!"* (verified Turn 28502).
 
 ## HuPhone Regional Device & Apps
 - **Access**: Activated via SELECT button or through BAG Key Items pocket.
@@ -911,7 +912,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1: show Professor Oak the PokéDex with 10 Pokémon caught)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
