@@ -98,7 +98,7 @@
   - **Move Deleter (`3, 6`)**: Male Scientist at the table: *"Hi! My herbs can delete moves! I can make Pokémon forget their moves. Would you like me to do that? Yes/No"* (verified Turn 27841).
   - **In-Game Trade — Excadrill for Golem (`7, 6`)**: Female Scientist on the right side of the room: *"I'm looking for the Pokémon Golem! Wanna trade one for my Excadrill? Yes/No"* (verified Turn 27842).
 - **Southern Ledge Item Sphere (`15, 47`)**: Uncollected orange item sphere in a coastal cliff alcove south of `row 46`; enclosed by cliff walls on the north, west, and east and open only to the southern ocean water at `row 49` (**Surf-gated**, verified Turn 27887).
-- **Mt. Gerhana Southern Entrance (`27, 14`)**: Reached via the northern stone stairs (`26-27, 18`) at the top of the `cols 26-27` avenue. (Note: In Turn 28346 filmstrip frames `#430-#468`, an unvisited stone staircase at `20, 11-12` leading to an upper grassy path at `20-21, 9-10` was spotted to the west across the cliff wall/trees from `27, 14`).
+- **Mt. Gerhana Southern Entrance (`27, 14`)**: Reached via the northern stone stairs (`26-27, 18`) at the top of the `cols 26-27` avenue (bounded on the west at `cols 22-24` by cliffs and pine trees separating Azluf Town from the Route 2 border stairs visible at `20-21, 13-14`, verified Turns 28371-28372).
   - **Signboard (`25, 16`)**: Interacted from `(25, 17)`, reads verbatim: *"Mt. Gerhana"* (verified Turn 27845).
   - **Worker Guard (`27, 15`)**: Blocks the cave entrance prior to Round One of the Eclipse Tournament: *"I'm sorry kid, but there are some mine works going on... We will move out of the way later!"* (verified Turn 27845). After Asher wins Round One of the Eclipse Tournament and accepts Frio's challenge, the guard is gone and stepping onto `(27, 14)` enters **Mt. Gerhana** (verified Turn 28074).
 - **Eastern House — Professor Oak's House (`31, 24`)**: Blue-roofed cottage at the eastern end of the `row 26` purple brick road (`37, 10` interior exit mat).
@@ -260,9 +260,9 @@
 
 ## Geography & Connections
 - **Southern Entrance (`6, 30` interior <- `27, 14` Azluf Town)**: Connects to Azluf Town at `(27, 14)` (unlocked after winning Round One of the Eclipse Tournament, verified Turn 28074-28076). Stepping `Down` from `(6, 30)` exits back to Azluf Town.
-- **Northern Ladder (`9, 19` -> `9, 17` interior <-> `13, 9` exterior clearing) & Unvisited Northwestern 1F Plateau (`cols 13-16, rows 6-15`)**:
+- **Northern Ladder (`9, 19` -> `9, 17` interior <-> `13, 9` exterior clearing)**:
   - Ascending the wooden stairs north of Roark at `(8-10, 21-22)` reaches `(9, 20)`. Climbing the vertical wall ladder rungs from `(9, 19)` up to `(9, 17)` warps out to an exterior mountain clearing of **Mt. Gerhana** at `(13, 10)` in front of the cave mouth at `(13, 9)` (verified Turns 28090-28092 & 28328-28329).
-  - **Solid Wall Behind Roark (`cols 11-18, rows 18-22`) & Unvisited Northwestern 1F Plateau (`cols 13-16, rows 6-15`)**: Directly behind Roark (`13, 23`), the cavern floor at `(14-15, 21-22)` is closed off on the north and west by solid cliff walls (`cols 11-18, rows 18-20`, verified Turn 28313), while `rows 14-15` is a north-facing cliff wall dropping down into `rows 6-13` (verified Turn 28331). Further north in the northwestern quadrant of 1F (`cols 13-16, rows 6-15`, spotted on the left side of the screen near the end of Turn 28294's northbound walk along `col 21, rows 16->6`) lies an unvisited plateau containing an orange item sphere, diagonal wooden stairs, a female Trainer, and a rectangular floor pit.
+  - **Solid Wall Behind Roark (`cols 11-18, rows 18-22`)**: Directly behind Roark (`13, 23`), the cavern floor at `(14-15, 21-22)` is closed off on the north and west by solid cliff walls (`cols 11-18, rows 18-20`, verified Turn 28313), while `rows 14-15` is a north-facing cliff wall dropping down into the Northern 1F Chamber (`cols 18-25, rows 6-16`, bounded on the west at `cols 17-18` by the outer map wall, verified Turns 28331 & 28358).
   - **Exterior Mountain Pass (`13, 10` -> `13, 15` -> `6, 14` -> `5, 9` -> `2, 6`)**: Descending the mountain steps (`13, 11-15`, bounded on the south at `row 17` and east at `col 18` by solid mountain walls, verified Turn 28329-28330) and following the canyon pass west along `rows 14-15` (`cols 6-13`) and north along `cols 4-6` (`rows 7-14`) leads to a second cave entrance at `(2, 6)` with a wooden signboard at `(4, 7)` (interacted from `4, 8`) reading verbatim: *"Route 2 / A hidden path"* (verified Turns 28092-28095). Stepping into `(2, 6)` exits to the closed-off northern enclave of **Route 2** at `(38, 9)` directly behind the Pokémon Day-Care yard (verified Turn 28098).
 - **Eastern Underpass Bridge (`cols 16-24, rows 23-25`) & Upper North-South Bridge (`cols 19-21, rows 20-27`)**:
   - **From the main cavern floor east of Roark (`14-15, 23-25`)**, a horizontal wooden bridge at `cols 16-24, rows 23-25` passes directly underneath the elevated north-south wooden bridge (`cols 19-21`) to reach the **1F Eastern Cavern Floor (`cols 24-33, rows 23-26`)** (verified Turn 28106).
@@ -460,10 +460,10 @@
     - **Pokémon 3**: Eevee (♂, Lv11; Normal).
     - **Pokémon 4**: Chimchar (♂, Lv12; Fire-type Sinnoh starter ace; knows Taunt).
     - **Outcome & Post-Battle**: Defeat quote: *"Wow, you are actually experienced! Nice!"*; awards `₽1344`. Post-battle, Lucas says: *"Haha, nice, it was a great battle for sure. I really gotta train myself up if I wanna breeze through. Well, see you later in the tournament!"* and departs east along the purple brick road into Azluf Town (verified Turns 27758-27773).
-- **Closed-Off Northern Enclave (`cols 35-45, rows 8-16`)** (`latest_grid.png` Turns 28098, 28100):
+- **Closed-Off Northern Enclave (`cols 35-45, rows 8-16`)** (`latest_grid.png` Turns 28098, 28100 & 28379; screen Turn 28380):
   - Accessible ONLY from exterior **Mt. Gerhana** (`2, 6` cave entrance with signboard at `4, 7`: *"Route 2 / A hidden path"*), emerging at `(38, 9)` below the cave mouth at `(38, 8)`.
   - Enclosed on the south by the Pokémon Day-Care fence (`35-41, 12-16`), pine tree (`41-42, 17-18`), boulder (`43-44, 15-16`), and cliffs (`45+, 15-18`).
-  - Contains a pale flower patch at `(39, 11)`, a blue flower patch at `(40, 10)`, and a sunken rocky basin at `(43-44, 10-13)` (site of the medicinal flower for Quest #4 "Medic!", which requires Quest #4 to be active).
+  - Contains a pale flower patch at `(39, 11)`, a blue flower patch at `(40, 10)`, and a sunken rocky basin at `(42-44, 11-13)` (entered via stone stairs at `43-44, 10`, and completely enclosed by solid cliff walls on the west at `col 41`, south at `row 14`, and east at `col 45`, verified Turn 28380; site of the medicinal flower for Quest #4 "Medic!", which requires Quest #4 to be active).
 
 <hr>
 
@@ -931,7 +931,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 28351)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Moomoo Milk x2, Super Potion x1, Moon Stone x1, Repel x15 (purchased 15 Repels for ₽5,250 at Azluf Town PokéMart in Turn 28343, leaving ₽4,124; collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; collected Moon Stone on Mt. Gerhana 1F at `24, 13` in Turn 28223; Poké Balls Pocket has Poké Ball x6).
+- **Items Pocket (Audited Turn 28381)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Moomoo Milk x2, Super Potion x1, Moon Stone x1, Repel x10 (purchased 15 Repels for ₽5,250 at Azluf Town PokéMart in Turn 28343, leaving ₽4,124; used 5 Repels in Turns 28351, 28355, 28360, 28367 & 28381; collected Super Potion on Mt. Gerhana B1F at `27, 25` in Turn 28132; collected Moon Stone on Mt. Gerhana 1F at `24, 13` in Turn 28223; Poké Balls Pocket has Poké Ball x6).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 28136)**: Contains **Poké Ball x6** (purchased 10 Poké Balls at Sovio City PokéMart in Turn 27961; used 4 Poké Balls catching Pulsar the Grubbin and Vega the Shinx on Route 2 in Turns 28038-28057).
