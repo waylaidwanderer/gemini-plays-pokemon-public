@@ -62,7 +62,7 @@
 ## Sovio Sewers - Dark Sector / Basement
 - **Access**: Reached via the column 30 wall ladder and entering the Northeast Wooden Staircase at (30, 4).
 - **Environment**: Dark zone with circular spotlight illumination (Flash mechanic).
-- **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform.
+- **Staircase Up**: Located at (31, 9) leading back up to the sewer upper platform (`31, 4`); features a bottom handrail blocking `Up` from `(31, 10)`, so it must be entered by stepping `Right` from `(30, 9)` into `(31, 9)` (verified Turn 29086).
 - **Layout & Spatial Geometry**:
   - Eastern corridor (cols 21-30): Northern stone wall at row 8, corridor along row 9 with stairs up at (31, 9) and stone stairs north to upper alcove at (23, 8). Rugged rock obstacle at (22, 10). Row 8 across columns 18-20 connects the eastern corridor (at 21, 9 -> 20, 8) to the western corridor (at 17, 8).
   - Western corridor & alcove (cols 13-17): Northern stone wall is at row 7. Row 8 is a walkable corridor connecting columns 13 to 17. Western boundary terminates at solid wall at column 12 (rows 8-9). Southern boundary at row 10.
