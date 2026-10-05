@@ -4,11 +4,11 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv18
+- **Level**: Lv19
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: HP 49 (C), Attack 33 (C+), Defense 34 (A-), Sp. Atk 23 (C-), Sp. Def 27 (E), Speed 25 (C-)
-- **EXP**: 3844+ (at Lv18)
+- **Stats (IV Grades)**: HP 51 (C), Attack 35 (C+), Defense 36 (A-), Sp. Atk 25 (C-), Sp. Def 28 (E), Speed 26 (C-)
+- **EXP**: Lv19 (reached during Route 2 rival battle against Valora, Turn 27670)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
   - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
