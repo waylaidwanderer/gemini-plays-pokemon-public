@@ -275,7 +275,7 @@
     - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate).
     - **Pokémon 3**: Trapinch (♂, Lv13; Ground; knows Bulldoze).
   - **Outcome**: Defeat quote: *"That was quick..."* (verified Turns 28120-28129).
-- **Western Pond Ledge & Super Potion (`27, 25`)**: Descending from Hiker Zion's ridge (`33, 23 -> 33, 27 -> 30, 27`) and ascending the wooden stairs at `(29-30, 26)` leads to `(27, 25)` on the western side of the underground pond, where a **Super Potion** spray-bottle sprite rests on the ground (collected Turn 28132).
+- **Western Pond Ledge & Super Potion (`27, 25`)**: Descending from Hiker Zion's ridge (`33, 23 -> 33, 27 -> 30, 27`) and ascending the wooden stairs at `(29-30, 26)` leads to `(27, 25)` on the western side of the underground pond, where a **Super Potion** spray-bottle sprite rests on the ground (collected Turn 28132). From `(27, 25)`, a north-south wooden bridge at `cols 20-22` is visible to the west, with a white-and-blue gem/crystal sprite sitting on a rock on the bridge at `(20, 18)` (verified Turn 28140).
 
 <hr>
 
