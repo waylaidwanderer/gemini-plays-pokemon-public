@@ -333,8 +333,7 @@
     - **Outcome**: Defeat quote: *"..."* (verified Turns 28243-28251).
   - **Southern Pit Ladder (`20, 33-35` -> Lower Pit Chamber `5, 28`)**: At the southern edge of the 1F platform (`20, 33-35`), a wooden ladder descends into the lower pit chamber at `(5, 28)` (the ladder Frio descended in the entrance cutscene, verified Turns 28253-28257).
 - **Lower Pit Chamber (`5, 28` Entry from 1F `20, 35`)**:
-  - **Mine Workers & Blocked Floor Ladder (`14, 34`)**: Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)`, `(13, 29)`, `(13, 32)`, and `(15, 31)` alongside a Machop at `(14, 32)` surround boulders blocking the floor ladder at `(14, 34)` (`latest_grid.png` Turns 28257 & 28259).
-  - **Eastern Plateau (`cols 12-15, rows 26-34`) & Northern Cave Exit Archway (`14, 25`)**: Ascending the diagonal wooden stairs at `(11, 31-32)` from `(10, 31)` reaches `(12, 30)` on the eastern plateau, which leads north via `(12, 27) -> (14, 27) -> (14, 26)` to the cave exit archway at `(14, 25)` (`latest_grid.png` Turn 28259).
+  - **Mine Workers & Blocked Passages (`14, 25` & `14, 34`)**: Workers at `(8, 30)` (*"We are doing some work here, kid!"*), `(11, 27)` (*"We are doing some work here..."*), `(13, 29)` (*"We are cleaning up the path here, wait until we are done! We still have a lot of work to do though..."*), `(13, 32)`, and `(15, 31)` alongside a Machop at `(14, 32)` block both the floor ladder at `(14, 34)` (with boulders) and access to the lower-level northern cave exit archway at `(14, 25)` (`latest_grid.png` Turns 28257, 28259 & 28261).
 
 <hr>
 
