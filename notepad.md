@@ -710,6 +710,19 @@
 
 <hr>
 
+<h1><code>Party/Altair_Starly</code></h1>
+
+# Altair (Starly) - Teammate
+
+## Profile
+- **Species**: Starly (Normal/Flying)
+- **Nickname**: Altair
+- **Gender**: Male (♂)
+- **Level**: Lv6
+- **Caught**: Route 2 at `(12, 10)` in standard Poké Ball (Turns 27592-27605)
+
+<hr>
+
 <h1><code>Party/Sirius_Riolu</code></h1>
 
 # Sirius (Riolu) - Starter Pokémon
