@@ -21,7 +21,7 @@
   - Shallow Puddles (Southwest): Located at (7-8, 26-27) south of the column 7-8 corridor, and at (17-18, 27-28) east of the southern staircase.
   - Western Terrace Wall Ladder: Located at column 15, rows 6-10. A vertical climbable circular-ring ladder on the brick wall directly connects the upper western terrace at (15, 11) to the northern elevated gangway at (15, 5). Ladder tiles contain wild cave encounters.
 
-- **Column 30 Causeway & Northeast Wooden Staircase**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a fully walkable 1-tile stone causeway across rows 6-10 connecting to the upper platform. At the top, the Northeast Wooden Staircase structure spans columns 29-30 at rows 4-5, with an east-facing opening at (30, 4) entered by stepping Left from (31, 4), leading into the Dark Sector / Basement.
+- **Column 30 Causeway & Northeast Wooden Staircase**: Tile (30, 12) is open stone walkway on row 13. Directly north, column 30 is a walkable 1-tile stone causeway across rows 6-12 connecting to the upper platform (`30, 6` is blocked on the north by the doorway wall at `30, 5` and crate at `29, 5`). From `(30, 6)`, step `Right 1` to `(31, 6)`, `Up 2` to `(31, 4)`, and `Left 1` into the east-facing doorway at `(30, 4)` to enter the Dark Sector / Basement at `(31, 9)` (verified Turn 29067).
 
 ## Active Missions & Enemies
 - **Team Siara Presence**: All grunts permanently retreated following Marie's radio directive; sewer corridors vacated.
