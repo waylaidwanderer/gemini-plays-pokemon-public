@@ -456,7 +456,13 @@
         - **Pre-Battle Quote**: *"Hope you got some repels, because my bugs are too much!"*
         - **Team (2 Pokémon)**: Wurmple (♂, Lv9; Bug; knows String Shot) and Yanma (♂, Lv10; Bug/Flying; Ability: Speed Boost; knows Quick Attack and Double Team).
         - **Outcome**: Defeat quote: *"Even my Yanma?!"*; awards `₽520` (verified Turns 28550-28556; Sirius reached Lv26).
-      - South of Bug Catcher Nicolas along `col 37` (`37, 46 -> 37, 56`), a horizontal gap at `(38-41, 53)` leads into a closed tall-grass pocket (`41-44, 46-52`, bounded on the east by a cliff wall at `col 45`, verified via `latest_grid.png` Turn 28559), while a one-way ledge spans `(36-38, 57)` above a **Camper Trainer** at `(39, 59)`.
+      - South of Bug Catcher Nicolas along `col 37` (`37, 46 -> 37, 56`), a horizontal gap at `(38-41, 53)` leads into a closed tall-grass pocket (`41-44, 46-52`, bounded on the east by a cliff wall at `col 45`, verified via `latest_grid.png` Turn 28559), while a one-way ledge spans `(36-38, 57)` above **Explorer Ben** at `(39, 59)`.
+      - **Explorer Ben (`39, 59` -> `38, 59`, facing West)**:
+        - **Pre-Battle Quote**: *"Haha, you used the shortcut too, now you must battle me!"*
+        - **Team (3 Pokémon)**:
+          - **Pokémon 1**: Sandshrew (♀, Lv9; Ground; knows Sand Attack).
+          - **Pokémon 2**: Skorupi (♀, Lv9; Poison/Bug; knows Poison Sting).
+          - **Pokémon 3**: Dwebble (♀, Lv9; Bug/Rock; knows Withdraw).
   - **Southbound Wooden Bridge & Eastern Plateau (`cols 53-70, rows 31-39`)**:
     - **Southbound Wooden Bridge**: Extends south from the eastern corridor at `(53-55, 36+)` (`latest_grid.png` Turn 27718). **Hiker Jerry** stands at `(55, 42)` facing West (`"Ahh a Trainer! Would you fancy a battle?"`): Uses 3 Pokémon—Geodude (♀, Lv9; Sturdy, Rock Polish), Geodude (♂, Lv9; Sturdy, Rock Polish), and Machop (♂, Lv9; Bide); defeat quote: *"Oh no..."*; awards `₽360`; post-battle overworld quote: *"I guess I'll return to hiking and exploring the place!"* (verified Turns 27723-27740).
     - **Lower Southeastern Ledge (`cols 58-62, rows 37-39`)**: Reached via stone staircase at `(59-61, 39-42)`; contains an orange item sphere at `(60, 37)` yielding **Max Repel x1** (collected Turn 27744).
