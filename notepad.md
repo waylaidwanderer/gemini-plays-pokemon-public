@@ -463,6 +463,8 @@
           - **Pokémon 1**: Sandshrew (♀, Lv9; Ground; knows Sand Attack).
           - **Pokémon 2**: Skorupi (♀, Lv9; Poison/Bug; knows Poison Sting).
           - **Pokémon 3**: Dwebble (♀, Lv9; Bug/Rock; knows Withdraw).
+        - **Outcome**: Defeat quote: *"Why you..."*; awards `₽432` (verified Turns 28561-28576).
+      - South of Explorer Ben (`37-39, 59`), a flower-lined path winds south and east around tall grass patches (`37, 59 -> 39, 60 -> 39, 63 -> 46, 63 -> 46, 61 -> 48, 61 -> 48, 58+`, with an inert rock cone at `43, 62`, verified Turns 28578-28580).
   - **Southbound Wooden Bridge & Eastern Plateau (`cols 53-70, rows 31-39`)**:
     - **Southbound Wooden Bridge**: Extends south from the eastern corridor at `(53-55, 36+)` (`latest_grid.png` Turn 27718). **Hiker Jerry** stands at `(55, 42)` facing West (`"Ahh a Trainer! Would you fancy a battle?"`): Uses 3 Pokémon—Geodude (♀, Lv9; Sturdy, Rock Polish), Geodude (♂, Lv9; Sturdy, Rock Polish), and Machop (♂, Lv9; Bide); defeat quote: *"Oh no..."*; awards `₽360`; post-battle overworld quote: *"I guess I'll return to hiking and exploring the place!"* (verified Turns 27723-27740).
     - **Lower Southeastern Ledge (`cols 58-62, rows 37-39`)**: Reached via stone staircase at `(59-61, 39-42)`; contains an orange item sphere at `(60, 37)` yielding **Max Repel x1** (collected Turn 27744).
@@ -1055,7 +1057,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 67 (C), Attack 47 (C+), Defense 48 (A-), Sp. Atk 32 (C-), Sp. Def 37 (E), Speed 35 (C-)
-- **Current Condition**: 61/67 HP, Paralyzed (activates Quick Feet +50% Speed boost)
+- **Current Condition**: 34/67 HP, Paralyzed (activates Quick Feet +50% Speed boost; verified after battling Explorer Ben in Turn 28576)
 - **EXP**: Lv26 (reached during battle against Bug Catcher Nicolas on Route 2, Turn 28555)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
