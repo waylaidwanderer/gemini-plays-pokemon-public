@@ -48,7 +48,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1: show Professor Oak the PokéDex with 10 Pokémon caught)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2: show Professor Oak the PokéDex with 25 Pokémon caught)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
@@ -77,7 +77,7 @@
 - **Items Pocket (Audited Turn 28654)**: Contains Poison Barb x1, Antidote x1, Revive x1, Berry Juice x4, Moomoo Milk x2, Moon Stone x1, Silk Scarf x1, Exp. Share x1, **Green Shard x1** (hidden item found at Route 2 `46, 52` in Turn 28589), plus 11 Fossils received from Roark upon completing Quest #18 ("Roark's Opal") in Turns 28443-28445: **Old Amber x1**, **Helix Fossil x1**, **Dome Fossil x1**, **Skull Fossil x1**, **Armor Fossil x1**, **Cover Fossil x1**, **Plume Fossil x1**, **Jaw Fossil x1**, **Sail Fossil x1**, **Root Fossil x1**, and **Claw Fossil x1**.
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 28677)**: Contains **Poké Ball x0** (purchased 4 Poké Balls at Azluf Town PokéMart in Turn 28654, used 1 catching Umbra the Zubat in Turn 28660 and 3 catching Quasar the Whismur in Turns 28665-28676; **10 Owned species** in PokéDex: Riolu, Pidgey, Starly, Remoraid, Grubbin, Shinx, Roggenrola, Geodude, Zubat, Whismur).
+- **Poké Balls Pocket (Audited Turn 28677)**: Contains **Poké Ball x0** (purchased 4 Poké Balls at Azluf Town PokéMart in Turn 28654, used 1 catching Umbra the Zubat in Turn 28660 and 3 catching Quasar the Whismur in Turns 28665-28676; **11 Owned species** in PokéDex: Riolu, Pidgey, Starly, Remoraid, Grubbin, Shinx, Roggenrola, Geodude, Zubat, Whismur, plus gift Bulbasaur received from Professor Oak in Turn 28681).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
