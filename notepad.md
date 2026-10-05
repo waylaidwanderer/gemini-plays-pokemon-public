@@ -312,7 +312,7 @@
       - **Pokémon 2**: Roggenrola (♂, Lv12; Rock; knows Harden).
       - **Pokémon 3**: Geodude (♂, Lv13; Rock/Ground; Ability: Sturdy; knows Magnitude).
       - **Pokémon 4**: Onix (♂, Lv13; Rock/Ground; knows Curse and Rock Tomb).
-    - **Outcome**: Defeat quote: *"Ah, that's a shocker."* (verified Turns 28193-28215).
+    - **Outcome**: Defeat quote: *"Ah, that's a shocker."*; awards `₽520` (verified Turns 28193-28215).
 
 <hr>
 
