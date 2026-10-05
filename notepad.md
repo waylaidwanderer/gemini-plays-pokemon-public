@@ -275,16 +275,21 @@
     - **Pokémon 2**: Sandile (♂, Lv12; Ground/Dark; Ability: Intimidate).
     - **Pokémon 3**: Trapinch (♂, Lv13; Ground; knows Bulldoze).
   - **Outcome**: Defeat quote: *"That was quick..."* (verified Turns 28120-28129).
-- **Western Pond Ledge & Super Potion (`27, 25`)**: Descending from Hiker Zion's ridge (`33, 23 -> 33, 27 -> 30, 27`) and ascending the wooden stairs at `(29-30, 26)` leads to `(27, 25)` on the western side of the underground pond, where a **Super Potion** spray-bottle sprite rests on the ground (collected Turn 28132). From `(27, 25)`, a north-south wooden bridge at `cols 20-22` is visible to the west, with a white-and-blue gem/crystal sprite sitting on a rock on the bridge at `(20, 18)` (verified Turn 28140).
-- **Southern Corridor & Terraced Cliffs (`cols 22-33, rows 27-38`)** (`latest_grid.png` Turns 28132, 28147):
-  - From the bottom of the pond stairs (`30, 27`), the cavern floor continues south past a 2x2 rock cone (`31-32, 28-29`) and a rectangular floor pit (`30-31, 33-34`) along `column 29` (`29, 31 -> 29, 36`).
-  - Terraced western cliffs (`cols 23-28, rows 27-37`) feature small rocks at `(26, 31)`, `(27, 32)`, and `(26, 35)`, while the southern corridor wraps west below `(28, 36)` along `row 38` (`cols 23-29`) and north along `cols 22-23` onto the southern end of the B1F north-south wooden bridge at `(22, 32)`.
+- **Western Pond Ledge & Super Potion (`27, 25`)**: Descending from Hiker Zion's ridge (`33, 23 -> 33, 27 -> 30, 27`) and ascending the wooden stairs at `(29-30, 26)` leads to `(27, 25)` on the western side of the underground pond, where a **Super Potion** spray-bottle sprite rests on the ground (collected Turn 28132).
+- **Southern Corridor & Terraced Cliffs (`cols 22-33, rows 27-38`)** (`latest_grid.png` Turns 28132, 28147, 28159):
+  - From the bottom of the pond stairs (`30, 27`), the cavern floor continues south past a 2x2 rock cone (`31-32, 28-29`) and a rectangular floor pit (`30-31, 33-34`) along `column 29` (`29, 31 -> 29, 38`, with an inert small rock at `31, 38`).
+  - Terraced western cliffs (`cols 23-28, rows 27-37`) feature small rocks at `(26, 31)`, `(27, 32)`, and `(26, 35)`, while the southern corridor wraps west along `row 38` (`cols 22-30`) and north along `column 22` (`22, 38 -> 22, 32`) onto the southern end of the B1F north-south wooden bridge.
   - **Bug Catcher Gough (`28, 36`, facing East)**:
     - **Pre-Battle Quote**: *"What is a bug catcher like doing here? You will see!"*
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Dwebble (♂, Lv13; Bug/Rock; Ability: Sturdy; knows Sand Attack).
       - **Pokémon 2**: Dustox (♀, Lv13; Bug/Poison; knows Confusion).
     - **Outcome**: Defeat quote: *"Oh my..."*; awards `₽676` (verified Turns 28148-28158).
+- **B1F North-South Wooden Bridge (`cols 20-22, rows 17-32`)** (`latest_grid.png` Turn 28161):
+  - Spans north from `(20-22, 32)` to `(20-22, 17)`, connecting at the northern end (`row 16`) to both the western staircases (`cols 15-17`) and the eastern staircase (`25-26, 15-18`).
+  - **Collector Marsh (`20, 20`, facing East)**:
+    - **Pre-Battle Quote**: *"H-hey, you like rare Pokémon? Wanna see mine?"*
+    - **Team (1 Pokémon)**: (verified Turns 28161-28163).
 
 <hr>
 
