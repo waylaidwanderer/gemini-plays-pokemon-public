@@ -286,6 +286,7 @@
 ## Wild Pokémon Encounters
 - **Starly**: Encountered at Lv6 (♂) in the northern tall grass at `(12, 10)` (verified Turn 27592) and Lv4 (♂) in the southern clearing at `(64, 48)` (verified Turn 27894).
 - **Gligar**: Encountered at Lv4 (♀, Ground/Flying) in the eastern corridor tall grass at `(55, 29)` (verified Turn 27898).
+- **Pikipek**: Encountered at Lv3 (♂, Normal/Flying) in the eastern corridor tall grass at `(51, 27)` (verified Turn 27918).
 
 ## Landmarks & NPCs
 - **Northern Entrance Clearing (`cols 6-15, rows 0-12`)** (`latest_grid.png` Turns 27590-27591):
