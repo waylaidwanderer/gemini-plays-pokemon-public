@@ -53,4 +53,4 @@
     - **Pokémon 1**: Starly (♂, Lv10; Normal/Flying).
     - **Pokémon 2**: Porygon (Lv11; Normal).
     - **Pokémon 3**: Eevee (♂, Lv11; Normal).
-    - **Pokémon 4**: Pending reveal.
+    - **Pokémon 4**: Chimchar (Fire-type Sinnoh starter ace).
