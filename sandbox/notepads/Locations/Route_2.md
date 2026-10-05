@@ -10,6 +10,7 @@
 - **Grubbin**: Encountered at Lv4 (♂, Bug) in the northern entrance clearing tall grass at `(11, 9)` (verified Turn 28037).
 - **Shinx**: Encountered at Lv3 (♀, Electric) in the eastern corridor tall grass at `(53, 26)` (verified Turn 28052).
 - **Budew**: Encountered at Lv5 (♂, Grass/Poison) in the eastern corridor tall grass at `(54, 26)` (verified Turn 28061).
+- **Yamper**: Encountered at Lv4 (Electric) in the eastern corridor tall grass at `(54, 31)` (verified Turn 28877).
 
 ## Landmarks & NPCs
 - **Northern Entrance Clearing (`cols 6-15, rows 0-12`)** (`latest_grid.png` Turns 27590-27591):
