@@ -111,6 +111,7 @@
   - **Azluf Town Lighthouse (`34, 46`)**: Cottage attached to the coastal lighthouse tower (`53, 9` interior exit mat).
     - **Sick Spearow (`53, 5`)**: *"Spearow: Spear... / He seems sick..."* (verified Turn 27882).
     - **Old Gentleman (`52, 5`) — Quest #4 ("Medic!", Completed)**: Explains: *"My Spearow... He's really sick... He can be cured, but for that I need a special type of flower... I heard it grows on Route 2, in a closed off spot, only accessible from Mt. Gerhana. So... will you help me? Yes/No"* (verified Turns 27883-27885; accepted in Turn 28461). Delivering the **Cure Flower** (collected at Route 2 `45, 14` in Turn 28485) cures his Spearow, completes Quest #4, and rewards the **Exp. Share** into the Items Pocket (verified Turn 28495).
+  - **Eastern Cliff Overlook Behind Lighthouse (`44, 46` & `44, 47`)**: Romantic couple looking out over the sea—young man at `(44, 46)` (*"It isn't as beautiful as you..."*, verified Turn 28497) and girl at `(44, 47)` (*"The sea is so beautiful isn't it?"*, verified Turn 28498).
 
 <hr>
 
