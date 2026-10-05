@@ -4,18 +4,18 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv19
+- **Level**: Lv20
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: HP 51 (C), Attack 35 (C+), Defense 36 (A-), Sp. Atk 25 (C-), Sp. Def 28 (E), Speed 26 (C-)
-- **Current Condition**: 25/51 HP, Paralyzed (healed +20 HP via Potion in Turn 27696; took 8 damage from Black Belt Cameron's Lv10 Mankey in Turn 27713)
-- **EXP**: Lv19 (reached during Route 2 rival battle against Valora, Turn 27670)
+- **Stats (IV Grades)**: HP 54 (C), Attack 37 (C+), Defense 37 (A-), Sp. Atk 26 (C-), Sp. Def 29 (E), Speed 27 (C-)
+- **Current Condition**: 24/54 HP, Paralyzed (reached Lv20 after defeating Hiker Jerry's team on Route 2, Turn 27736)
+- **EXP**: Lv20 (reached during Route 2 battle against Hiker Jerry, Turn 27736)
 - **Moves**:
-  - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP)
-  - Slot 2: Quick Attack (Normal, Physical, Priority +1, 30 PP)
+  - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
+  - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
   - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
-  - *Declined*: Counter (Physical Fighting, offered Lv12; declined to retain priority STAB offense)
+  - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
 - **Appearance**: Custom sprite wearing a red/black scarf
