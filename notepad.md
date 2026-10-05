@@ -899,7 +899,7 @@
   - **Page 1 Quests**:
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
-    3. Egg Research (Active Quest — accepted at Route 2 `40, 21` in Turn 27680; find an Oval Stone held by wild Happiny on Route 2)
+    3. Egg Research (Uncompleted — accepted at Route 2 `40, 21` in Turn 27680 and canceled in Turn 28402; find an Oval Stone held by wild Happiny on Route 2)
     4. Medic! (Uncompleted; displays "This Quest hasn't been completed yet!")
     5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
   - **Page 2 Quests**:
