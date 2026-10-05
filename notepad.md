@@ -324,6 +324,13 @@
       - **Pokémon 1**: Makuhita (♀, Lv13; Fighting).
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
     - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
+- **Southern 1F Platform (`18-28, 28-31`) & Hiker Frost (`22, 28`)**:
+  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`).
+  - **Hiker Frost (`22, 28`, facing West)**:
+    - **Pre-Battle Quote**: *"Ohohoho, a Trainer? What are you doing here?"*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Gligar (♀, Lv15; Ground/Flying; knows Payback, Harden, Sand Attack, and Quick Attack).
+    - **Outcome**: Defeat quote: *"..."* (verified Turns 28243-28251).
 
 <hr>
 
@@ -1010,7 +1017,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 65 (C), Attack 45 (C+), Defense 46 (A-), Sp. Atk 31 (C-), Sp. Def 36 (E), Speed 34 (C-)
-- **Current Condition**: 65/65 HP, Paralyzed (activates Quick Feet +50% Speed boost)
+- **Current Condition**: 45/65 HP, Paralyzed (activates Quick Feet +50% Speed boost)
 - **EXP**: Lv25 (reached during battle against Hiker Griffin on Mt. Gerhana B1F, Turn 28210)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)

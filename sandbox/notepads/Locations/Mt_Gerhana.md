@@ -75,3 +75,10 @@
       - **Pokémon 1**: Makuhita (♀, Lv13; Fighting).
       - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
     - **Outcome**: Defeat quote: *"What a strength!"*; awards `₽1008` (verified Turns 28226-28238).
+- **Southern 1F Platform (`18-28, 28-31`) & Hiker Frost (`22, 28`)**:
+  - Reached at the southern end of the 1F north-south wooden bridge (`21, 28`).
+  - **Hiker Frost (`22, 28`, facing West)**:
+    - **Pre-Battle Quote**: *"Ohohoho, a Trainer? What are you doing here?"*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Gligar (♀, Lv15; Ground/Flying; knows Payback, Harden, Sand Attack, and Quick Attack).
+    - **Outcome**: Defeat quote: *"..."* (verified Turns 28243-28251).
