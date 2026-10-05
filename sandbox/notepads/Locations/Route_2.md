@@ -22,3 +22,7 @@
   - **Pokémon Day-Care Entrance** at `(38, 20)` (red-roofed cottage topped with giant Pokémon Eggs).
   - **Quest NPC** with purple quest bubble at `(40, 21)` directly outside the Day-Care.
   - **Northern Staircase** at `(31-33, 17-18)` ascending north from the Day-Care plateau.
+  - **Rival Battle with Valora (`37, 22`)**: Stepping onto `(37, 22)` in front of the Pokémon Day-Care triggers a cutscene where **Valora** steps out beside Asher (`38, 22`), admires the Day-Care, and challenges Asher to a 4-Pokémon rival battle to stay sharp for the Eclipse Tournament (verified Turns 27652-27655):
+    - **Pokémon 1**: Cleffa (♂, Lv7; Fairy-type; knows Encore, Metronome).
+    - **Pokémon 2**: Ralts (♀, Lv8; Psychic/Fairy-type; knows Double Team).
+    - **Pokémon 3-4**: Pending reveal.
