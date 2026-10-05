@@ -26,6 +26,10 @@
   - Stepping down the west escalator to `(5, 9)` triggers the Eclipse Tournament registration cutscene with Dad and Valora, where Asher receives the **Metro Pass** and registers for the tournament before encountering **Frio** at `(10, 14)`.
   - Interacting with Frio at `(10, 13)` after registration displays: *"Maybe we shouldn't be bothering this prick..."*.
   - Southern exit mat at `(9-11, 21)` is flanked by two lower blue escalators at `column 4` (`rows 19-22`) and `column 16` (`rows 19-22`).
+- **Exterior Plaza (`53-65, 24-28`)**:
+  - Exiting the Battle Centre at `(10, 21)` warps outside to `(59, 25)` in Amor City (door at `59, 24`).
+  - Signboard at `(56-57, 25)` reads: *"Amor Metro Station / Amor Battle Centre"*.
+  - Construction workers at `(53, 27)` and `(66, 27)` block the western and eastern streets of Amor City during the initial visit, stating: *"I'm sorry but the city is closed off due to constructions!"*.
 
 <hr>
 
