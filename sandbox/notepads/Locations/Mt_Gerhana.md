@@ -67,3 +67,11 @@
 - **Northern 1F Chamber (`24, 6` Entry from B1F `29, 7`) & Moon Stone Ledge (`24, 13`)**:
   - Stepping into the B1F cave archway at `(29, 7)` warps to the northern chamber of **Mt. Gerhana 1F** at `(24, 6)` (`latest_grid.png` Turn 28218).
   - Walking west and south (`24, 6 -> 21, 6 -> 21, 13`) and ascending the diagonal wooden stairs at `(22, 13-14)` reaches the elevated ledge at `(23, 12-14)`, where an orange item sphere at `(24, 13)` contains a **Moon Stone** (collected Turn 28223).
+- **1F North-South Wooden Bridge (`cols 19-21, rows 17-27`) & Black Belt Joss (`19, 20`)**:
+  - Spans south from the northern 1F chamber (`19-21, 17`) over the horizontal underpass bridge (`cols 16-24, rows 23-25`).
+  - **Black Belt Joss (`19, 20`, facing East)**:
+    - **Pre-Battle Quote**: *"Aren't you scared of falling down? And how about losing a battle?"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Makuhita (♀, Lv13; Fighting).
+      - **Pokémon 2**: Pancham (♀, Lv14; Fighting; knows Work Up and Karate Chop).
+    - **Outcome**: Defeat quote: *"What a strength!"* (verified Turns 28226-28238).
