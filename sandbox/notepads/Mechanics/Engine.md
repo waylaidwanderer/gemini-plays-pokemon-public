@@ -38,7 +38,7 @@
   - **Page 1 Quests**:
     1. Lost Pidgey (Completed)
     2. Lost Toy (Completed)
-    3. Egg Research (Uncompleted — accepted at Route 2 `40, 21` in Turn 27680 and canceled in Turn 28402; find an Oval Stone held by wild Happiny on Route 2)
+    3. Egg Research (Completed in Turn 29330 — caught a wild Happiny holding an Oval Stone at Route 2 `52-53, 26`, moved the Oval Stone to the Bag via the Day-Care PC `10, 8`, and delivered it to the scientist at Route 2 `40, 21`; rewarded a **Pokémon Egg** sent to Box 1; **7 Poké Balls** remaining and **12 Owned species** in PokéDex)
     4. Medic! (Completed in Turn 28495 — delivered Cure Flower from Route 2 `45, 14` to Old Gentleman at Azluf Town Lighthouse `52, 5`; rewarded **Exp. Share**)
     5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
   - **Page 2 Quests**:
