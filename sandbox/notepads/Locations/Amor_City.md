@@ -20,7 +20,7 @@
 ## Amor City Battle Centre / Metro Main Lobby
 - **Upper Mezzanine (`rows 3-6`)** (`latest_grid.png` Turn 27555 & physical traversal Turns 27555, 27569):
   - West staircase (`7-8, 3-4`) with vertical red mat at `(9, 3-4)` connects to the Amor Metro Station Lower Concourse (`13, 35`).
-  - East staircase (`12-13, 3-4`) with vertical red mat at `(11, 3-4)`.
+  - East staircase (`12-13, 3-4`) with vertical red mat at `(11, 3-4)`: stepping `Right` from the top mat tile `(11, 3)` onto `(12, 3)` warps to `(24, 35)` in the Amor Metro Station Lower Concourse (whereas `(12-13, 4)` are walkable stair tiles, verified Turn 29660). Ground floor features Ace Trainer Male at `(6, 12)` and Ace Trainer Female at `(14, 13)`, while the Tournament Arena Lobby features Round 1-4 guards at `(10, 17)`, `(13, 17)`, `(17, 17)`, `(20, 17)` and Round 5-8 guards at `(10, 26)`, `(13, 26)`, `(17, 26)`, `(20, 26)` (verified Turns 29639-29655). In Amor City Exterior, stepping onto `(66, 28)` or `(66, 29)` triggers the Eastern Construction Worker at `(66, 27)` (*"I'm sorry but the city is closed off due to constructions!"*, verified Turns 29635-29636).
   - Two blue escalators at `column 5` (`rows 7-9`) and `column 15` (`rows 7-9`) descend to the ground floor.
 - **Ground Floor (`rows 10-21`)** (`latest_grid.png` Turns 27565-27566 & physical traversal Turns 27556-27566):
   - Central curved red reception counter (`8-12, 10-12`) with Battle Centre Assistant at `(10, 10)` (repeats standard tournament overview post-Round 1, verified Turn 28829) and Poké Ball floor emblem at `(9-11, 13-15)`.
