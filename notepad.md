@@ -7,5 +7,6 @@
 - **Bug Catcher Gough (B1F 28, 36)**: "My plan was to beat you, but I guess I failed..."
 - **Underground Pond Fishing Test (B1F 28, 25 facing 28, 24)**: Non-fishable decorative water ("Ivo: Asher! This isn't the time to use that!").
 - **Hiker Zion (B1F 35, 23)**: "What an astonishing battle! The whole cave was echoing from it."
+- **Wandering Hiker (1F Eastern Cavern Floor 29, 25)**: "There are caves laying deeper in the mountain, a lot of the areas that are located deeper are closed off though..."
 
 <hr>
