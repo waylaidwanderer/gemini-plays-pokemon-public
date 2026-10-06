@@ -50,7 +50,8 @@
 - **Eastern House — Professor Oak's House (`31, 24`)**: Blue-roofed cottage at the eastern end of the `row 26` purple brick road (`37, 10` interior exit mat).
   - **Professor Oak (`40, 7`) — Special Quest #11 ("Oak's Research", Active)**: Kanto Pokémon Professor with a yellow Special Quest bubble: *"Oh, hello there! You must be a Pokémon Trainer! You also seem to have a PokéDex, may I check it? Wow, this is a well made PokéDex! It's way more complex than mine... However it's pretty empty... Oh, how rude of me, I didn't even introduce myself... My name is Oak, I'm a Pokémon professor from the Kanto Region. I research Pokémon and gather data of them... Would you help me in my research? Yes/No"* (verified Turns 27848-27849).
     - **Task 1 (10 Pokémon Caught — Completed Turn 28681)**: Showing Professor Oak the PokéDex with 10 Owned species rewards a gift **Bulbasaur** (sent to Box 1, bringing Owned species to 11; verified Turns 28681-28682).
-    - **Task 2 (25 Pokémon Caught — Active)**: *"Your next task will be to show me the PokéDex with 25 Pokémon caught."* (verified Turn 28682).
+    - **Task 2 (25 Pokémon Caught — Completed Turn 29958)**: Showing Professor Oak the PokéDex with 25+ Hupest Owned species rewards a gift **Charmander** (sent to Box 1, verified via PokéDex Turn 29993).
+    - **Task 3 (50 Pokémon Caught — Active)**: Assigned upon completing Task 2 (verified Turn 29958).
 - **Southeastern Coastal Ridge & Fishing Rod Giver (`37, 30`)**: Reached via stone stairs at `(34-35, 29)` south of Professor Oak's house.
   - **Fisherman (`37, 30`)**: Asks *"Tell me, kid... Do you like fishing? Yes/No"*. Answering *Yes* rewards the **Fishing Rod** (*"Take this, it might help you relax and also help you catch Pokémon! Obtained the Fishing Rod!"*, verified Turn 27854).
   - **Wild Fishing Encounters (`36, 31` facing `36, 32`)**: **Remoraid** (♂, Lv6; Water-type, verified Turn 27865).
