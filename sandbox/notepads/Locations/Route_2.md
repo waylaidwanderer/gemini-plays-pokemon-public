@@ -64,7 +64,7 @@
           - **Pokémon 2**: Skorupi (♀, Lv9; Poison/Bug; knows Poison Sting).
           - **Pokémon 3**: Dwebble (♀, Lv9; Bug/Rock; knows Withdraw).
         - **Outcome**: Defeat quote: *"Why you..."*; awards `₽432` (verified Turns 28561-28576).
-      - South of Explorer Ben (`37-39, 59`), a flower-lined path winds south and east around tall grass patches (`37, 59 -> 39, 60 -> 39, 63 -> 46, 63 -> 46, 61 -> 48, 61 -> 48, 58 -> 52, 58`, with inert rock cones at `43, 62` and `47, 56`, verified Turns 28578-28581).
+      - South of Explorer Ben (`37-39, 59`), a flower-lined path winds south and east around tall grass patches (`37, 59 -> 39, 60 -> 39, 63 -> 46, 63 -> 46, 61 -> 48, 61 -> 48, 58 -> 52, 58`, with inert rock cones at `43, 62` and `47, 56`, verified Turns 28578-28581), while walking west from `(37, 59)` via `(37, 60 -> 26, 60 -> 26, 58)` leads into a closed western tall-grass pocket (`cols 21-25, rows 55-58`) where interacting with the small rock at **`(22, 57)`** yields a hidden **Max Ether x1** (collected Turn 30459).
       - **Picnicker Alice (`53, 58`, facing South)**:
         - **Pre-Battle Quote**: *"Don't you love this place? Its great for picknics."*
         - **Team (1 Pokémon)**: Pansage (♂, Lv11; Grass).

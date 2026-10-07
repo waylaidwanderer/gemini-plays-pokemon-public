@@ -99,7 +99,8 @@
   - **Move Deleter (`3, 6`)**: Male Scientist at the table: *"Hi! My herbs can delete moves! I can make Pokémon forget their moves. Would you like me to do that? Yes/No"* (verified Turn 27841).
   - **In-Game Trade — Excadrill for Golem (`7, 6`)**: Female Scientist on the right side of the room: *"I'm looking for the Pokémon Golem! Wanna trade one for my Excadrill? Yes/No"* (verified Turn 27842).
 - **Southern Ledge Item Sphere (`15, 47`)**: Uncollected orange item sphere in a coastal cliff alcove south of `row 46`; enclosed by cliff walls on the north, west, and east and open only to the southern ocean water at `row 49` (**Surf-gated**, verified Turn 27887).
-- **Mt. Gerhana Southern Entrance (`27, 14`)**: Reached via the northern stone stairs (`26-27, 18`) at the top of the `cols 26-27` avenue (bounded on the west at `cols 22-24` by cliffs and pine trees separating Azluf Town from the Route 2 border stairs visible at `20-21, 13-14`, verified Turns 28371-28372).
+- **Mt. Gerhana Southern Entrance (`27, 14`)**: Reached via the northern stone stairs (`26-27, 18`) at the top of the `cols 26-27` avenue (bounded on the west at `cols 22-24` by cliffs and pine trees separating Azluf Town from the decorative border stairs visible at `20-21, 13-14`, verified Turns 28371-28372 & 29419).
+  - **Verified Collision-Free Route Between Azluf Pokémon Center (`12, 34`) & Mt. Gerhana (`27, 14`)**: `(12, 34) <-> (12, 35) <-> (16, 35) <-> (16, 34) <-> (21, 34) <-> (21, 28) <-> (23, 28) <-> (23, 27) <-> (27, 27) <-> (27, 14)` (37 steps total, bypassing the streetlamps at `15, 34` and `24, 26`, verified Turns 30763, 30794 & 30806).
   - **Signboard (`25, 16`)**: Interacted from `(25, 17)`, reads verbatim: *"Mt. Gerhana"* (verified Turn 27845).
   - **Worker Guard (`27, 15`)**: Blocks the cave entrance prior to Round One of the Eclipse Tournament: *"I'm sorry kid, but there are some mine works going on... We will move out of the way later!"* (verified Turn 27845). After Asher wins Round One of the Eclipse Tournament and accepts Frio's challenge, the guard is gone and stepping onto `(27, 14)` enters **Mt. Gerhana** (verified Turn 28074).
 - **Eastern House — Professor Oak's House (`31, 24`)**: Blue-roofed cottage at the eastern end of the `row 26` purple brick road (`37, 10` interior exit mat).
@@ -479,7 +480,7 @@
           - **Pokémon 2**: Skorupi (♀, Lv9; Poison/Bug; knows Poison Sting).
           - **Pokémon 3**: Dwebble (♀, Lv9; Bug/Rock; knows Withdraw).
         - **Outcome**: Defeat quote: *"Why you..."*; awards `₽432` (verified Turns 28561-28576).
-      - South of Explorer Ben (`37-39, 59`), a flower-lined path winds south and east around tall grass patches (`37, 59 -> 39, 60 -> 39, 63 -> 46, 63 -> 46, 61 -> 48, 61 -> 48, 58 -> 52, 58`, with inert rock cones at `43, 62` and `47, 56`, verified Turns 28578-28581).
+      - South of Explorer Ben (`37-39, 59`), a flower-lined path winds south and east around tall grass patches (`37, 59 -> 39, 60 -> 39, 63 -> 46, 63 -> 46, 61 -> 48, 61 -> 48, 58 -> 52, 58`, with inert rock cones at `43, 62` and `47, 56`, verified Turns 28578-28581), while walking west from `(37, 59)` via `(37, 60 -> 26, 60 -> 26, 58)` leads into a closed western tall-grass pocket (`cols 21-25, rows 55-58`) where interacting with the small rock at **`(22, 57)`** yields a hidden **Max Ether x1** (collected Turn 30459).
       - **Picnicker Alice (`53, 58`, facing South)**:
         - **Pre-Battle Quote**: *"Don't you love this place? Its great for picknics."*
         - **Team (1 Pokémon)**: Pansage (♂, Lv11; Grass).
@@ -1103,10 +1104,13 @@
 - **Species**: Shinx (Electric-type; evolves into Luxio -> Luxray)
 - **Nickname**: Vega (named after Alpha Lyrae, the bright blue-white star of the Summer Triangle alongside Altair)
 - **Gender**: Female (♀)
-- **Level**: Lv3
+- **Level**: Lv8
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 16/16 HP (verified via Party menu in Turn 28200)
+- **HP**: 25/25 HP (healed to full by Nurse Joy in Turn 30807)
+- **Moves**:
+  - Slot 1: Tackle (Normal, Physical)
+  - Slot 2: Leer (Normal, Status; learned at Lv5)
 
 <hr>
 
