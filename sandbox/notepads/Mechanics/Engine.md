@@ -48,7 +48,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **44 Hupest / 13 Colen Owned species** as of Turn 30809 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, and **Trumbeak** `#44`)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **45 Hupest / 16 Colen Owned species** as of Turn 30857 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, and **Lucario** `#45`)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research

@@ -953,7 +953,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **44 Hupest / 13 Colen Owned species** as of Turn 30809 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, and **Trumbeak** `#44`)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **45 Hupest / 16 Colen Owned species** as of Turn 30857 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, and **Lucario** `#45`)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
@@ -1075,18 +1075,18 @@
 
 <h1><code>Party/Sirius_Riolu</code></h1>
 
-# Sirius (Riolu) - Starter Pokémon
+# Sirius (Lucario) - Starter Pokémon
 
 ## Profile
-- **Species**: Riolu (Regional Dex No. 161, Fighting-type)
+- **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv29
+- **Level**: Lv30
 - **Nature**: Relaxed (+Def, -Speed)
-- **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
-- **Stats (IV Grades)**: HP 67 (C), Attack 47 (C+), Defense 48 (A-), Sp. Atk 32 (C-), Sp. Def 37 (E), Speed 35 (C-)
-- **Current Condition**: 76/76 HP, Healthy (healed to full by Nurse Joy in Azluf Town Pokémon Center in Turn 30807)
-- **EXP**: Lv29 (reached during Mt. Gerhana training, Turn 30764)
+- **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
+- **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
+- **Current Condition**: 81/89 HP, Healthy
+- **EXP**: Lv30 (evolved into Lucario during Mt. Gerhana training)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
