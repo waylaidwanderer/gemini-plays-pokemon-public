@@ -953,7 +953,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **47 Hupest / 17 Colen Owned species** as of Turn 30903 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, **Lucario** `#45`, **Charmeleon** `#46`, and **Luxio** `#47`)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **48 Hupest / 17 Colen Owned species** as of Turn 30949 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, **Lucario** `#45`, **Charmeleon** `#46`, **Luxio** `#47`, and **Flaaffy** `#48`)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
@@ -1088,10 +1088,10 @@
 - **Current Condition**: 71/93 HP, Healthy
 - **EXP**: Lv31 (evolved into Lucario at Lv30 during Mt. Gerhana training)
 - **Moves**:
-  - Slot 1: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
+  - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
   - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48)
-  - Slot 4: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
+  - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
