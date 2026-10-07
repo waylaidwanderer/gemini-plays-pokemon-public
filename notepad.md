@@ -291,6 +291,9 @@
 - **Woobat**: Encountered at Lv9 (♂, Psychic/Flying) on B1F at `(16, 17)` (verified Turn 28757).
 - **Shellos**: Encountered at Lv10 (♀, West Sea Pink form, Water) on 1F at `(14, 24)` (verified Turn 28781).
 - **Mawile**: Encountered at Lv8 (♀, Steel/Fairy) on B1F at `(29, 32)` (verified Turn 29152).
+- **Makuhita**: Encountered and caught on 1F at `(11, 24)` (Turn 30006).
+- **Mienfoo**: Encountered at Lv6–8 (Fighting) on 1F at `(6, 26-28)` (verified Turns 30538 & 30569).
+- **Onix**: Encountered at Lv8 (Rock/Ground) on 1F at `(6, 27)` (verified Turn 30766).
 
 ## Story Events & Landmarks
 - **Southern Entrance Cutscene (`6, 29`)**: Stepping north from `(6, 30)` onto `(6, 29)` triggers a cutscene with **Valora** (`7, 29`), who wonders what the Eclipse Rock looks like (*"This is the place I think. I wonder how that rock looks... Will we even know when we find it?"* / Asher: *"I'm sure we will, it must be something very unique..."*). The camera cuts deeper into Mt. Gerhana, where **Frio** remarks *"I must be close to it... And there's no sign of that prick as well. I thought he will at least show up so that I can mess with him... Oh well."* before descending a wooden ladder into a lower pit (verified Turns 28077-28078).
@@ -950,7 +953,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **28 Hupest / 12 Colen Owned species** as of Turn 29993 after hatching the Quest #3 Egg into **Togepi**)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **44 Hupest / 13 Colen Owned species** as of Turn 30809 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, and **Trumbeak** `#44`)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
@@ -1020,20 +1023,21 @@
 
 <h1><code>Party/Altair_Starly</code></h1>
 
-# Altair (Starly) - Teammate
+# Altair (Staravia) - Teammate
 
 ## Profile
-- **Species**: Starly (Normal/Flying)
+- **Species**: Staravia (Normal/Flying; evolved from Starly at Lv14 in Turn 30644)
 - **Nickname**: Altair
 - **Gender**: Male (♂)
-- **Level**: Lv6
-- **Ability**: Keen Eye (Prevents loss of accuracy; verified Turn 27904)
+- **Level**: Lv14 (stored in Box 1)
+- **Ability**: Intimidate (evolved from Keen Eye Starly)
 - **Caught**: Route 2 at `(12, 10)` in standard Poké Ball (Turns 27592-27605)
-- **HP**: 20/20 HP (healed to full by Nurse Joy in Turn 28688)
+- **HP**: 40/40 HP
 - **Moves**:
-  - Slot 1: Growl (Normal, Status, 40 PP)
+  - Slot 1: Wing Attack (Flying, Physical, 60 power, 100% acc, 35 PP, STAB; learned at Lv9)
   - Slot 2: Tackle (Normal, Physical)
-  - Slot 3: Quick Attack (Normal, Physical, Priority +1) (verified Turn 27904)
+  - Slot 3: Quick Attack (Normal, Physical, Priority +1)
+  - Slot 4: Double Team (Normal, Status; learned at Lv13)
 
 <hr>
 
@@ -1077,18 +1081,18 @@
 - **Species**: Riolu (Regional Dex No. 161, Fighting-type)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv26
+- **Level**: Lv29
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Quick Feet (Boosts Speed by 50% if suffering from a major status condition)
 - **Stats (IV Grades)**: HP 67 (C), Attack 47 (C+), Defense 48 (A-), Sp. Atk 32 (C-), Sp. Def 37 (E), Speed 35 (C-)
-- **Current Condition**: 67/67 HP, Healthy (healed to full by Nurse Joy in Azluf Town Pokémon Center in Turn 28688)
-- **EXP**: Lv26 (reached during battle against Bug Catcher Nicolas on Route 2, Turn 28555)
+- **Current Condition**: 76/76 HP, Healthy (healed to full by Nurse Joy in Azluf Town Pokémon Center in Turn 30807)
+- **EXP**: Lv29 (reached during Mt. Gerhana training, Turn 30764)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
   - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
-  - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined)
+  - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
 - **Appearance**: Custom sprite wearing a red/black scarf
