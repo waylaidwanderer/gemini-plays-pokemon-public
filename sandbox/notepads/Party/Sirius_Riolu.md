@@ -4,17 +4,17 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv30
+- **Level**: Lv31
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 81/89 HP, Healthy
-- **EXP**: Lv30 (evolved into Lucario during Mt. Gerhana training)
+- **Current Condition**: 71/93 HP, Healthy
+- **EXP**: Lv31 (evolved into Lucario at Lv30 during Mt. Gerhana training)
 - **Moves**:
-  - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
+  - Slot 1: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
   - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48)
-  - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
+  - Slot 4: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
   - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5

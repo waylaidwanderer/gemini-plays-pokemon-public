@@ -953,7 +953,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **45 Hupest / 16 Colen Owned species** as of Turn 30857 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, and **Lucario** `#45`)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **47 Hupest / 17 Colen Owned species** as of Turn 30903 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, **Lucario** `#45`, **Charmeleon** `#46`, and **Luxio** `#47`)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
@@ -1081,17 +1081,17 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv30
+- **Level**: Lv31
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 81/89 HP, Healthy
-- **EXP**: Lv30 (evolved into Lucario during Mt. Gerhana training)
+- **Current Condition**: 71/93 HP, Healthy
+- **EXP**: Lv31 (evolved into Lucario at Lv30 during Mt. Gerhana training)
 - **Moves**:
-  - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
+  - Slot 1: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
   - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48)
-  - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
+  - Slot 4: Metal Claw (Steel, Physical, 50 power, 95% acc, 35 PP; 10% chance to raise Attack +1)
   - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
 - **OT / ID**: Asher / 54592
 - **Met**: Lancio Town at Lv5
@@ -1102,19 +1102,21 @@
 
 <h1><code>Party/Vega_Shinx</code></h1>
 
-# Vega (Shinx) - Teammate
+# Vega (Luxio) - Teammate
 
 ## Profile
-- **Species**: Shinx (Electric-type; evolves into Luxio -> Luxray)
+- **Species**: Luxio (Electric-type; evolved from Shinx at Lv15 in Turn 30885)
 - **Nickname**: Vega (named after Alpha Lyrae, the bright blue-white star of the Summer Triangle alongside Altair)
 - **Gender**: Female (♀)
-- **Level**: Lv8
+- **Level**: Lv15
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 25/25 HP (healed to full by Nurse Joy in Turn 30807)
+- **HP**: 20/46 HP
 - **Moves**:
-  - Slot 1: Tackle (Normal, Physical)
+  - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
+  - Slot 3: Charge (Electric, Status; learned at Lv9)
+  - Slot 4: Tackle (Normal, Physical)
 
 <hr>
 
