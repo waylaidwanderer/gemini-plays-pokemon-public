@@ -953,7 +953,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **48 Hupest / 17 Colen Owned species** as of Turn 30949 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, **Lucario** `#45`, **Charmeleon** `#46`, **Luxio** `#47`, and **Flaaffy** `#48`)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **49 Hupest / 18 Colen Owned species** as of Turn 30995 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, **Lucario** `#45`, **Charmeleon** `#46`, **Luxio** `#47`, **Flaaffy** `#48`, and **Nidorina** `#49`)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
@@ -1081,12 +1081,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv31
+- **Level**: Lv32
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 71/93 HP, Healthy
-- **EXP**: Lv31 (evolved into Lucario at Lv30 during Mt. Gerhana training)
+- **Current Condition**: 52/97 HP, Healthy
+- **EXP**: Lv32 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
