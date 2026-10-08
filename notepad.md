@@ -107,7 +107,7 @@
   - **Professor Oak (`40, 7`) — Special Quest #11 ("Oak's Research", Active)**: Kanto Pokémon Professor with a yellow Special Quest bubble: *"Oh, hello there! You must be a Pokémon Trainer! You also seem to have a PokéDex, may I check it? Wow, this is a well made PokéDex! It's way more complex than mine... However it's pretty empty... Oh, how rude of me, I didn't even introduce myself... My name is Oak, I'm a Pokémon professor from the Kanto Region. I research Pokémon and gather data of them... Would you help me in my research? Yes/No"* (verified Turns 27848-27849).
     - **Task 1 (10 Pokémon Caught — Completed Turn 28681)**: Showing Professor Oak the PokéDex with 10 Owned species rewards a gift **Bulbasaur** (sent to Box 1, bringing Owned species to 11; verified Turns 28681-28682).
     - **Task 2 (25 Pokémon Caught — Completed Turn 29958)**: Showing Professor Oak the PokéDex with 25+ Hupest Owned species rewards a gift **Charmander** (sent to Box 1, verified via PokéDex Turn 29993).
-    - **Task 3 (50 Pokémon Caught — Active)**: Assigned upon completing Task 2 (verified Turn 29958).
+    - **Task 3 (45/50 Pokémon Caught — Completed Turn 31043)**: Showing Professor Oak the PokéDex with 50 Hupest Owned species rewards a gift **Squirtle** (bringing Owned species to **51 Hupest / 20 Colen**, verified Turns 31043-31045). Subsequent interaction displays: *"Thank you, this will be enough, but come back later, I might have some more tasks for you!"* (verified Turn 31045).
 - **Southeastern Coastal Ridge & Fishing Rod Giver (`37, 30`)**: Reached via stone stairs at `(34-35, 29)` south of Professor Oak's house.
   - **Fisherman (`37, 30`)**: Asks *"Tell me, kid... Do you like fishing? Yes/No"*. Answering *Yes* rewards the **Fishing Rod** (*"Take this, it might help you relax and also help you catch Pokémon! Obtained the Fishing Rod!"*, verified Turn 27854).
   - **Wild Fishing Encounters (`36, 31` facing `36, 32`)**: **Remoraid** (♂, Lv6; Water-type, verified Turn 27865).
@@ -953,7 +953,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3: show Professor Oak the PokéDex with 50 Pokémon caught; **50 Hupest / 19 Colen Owned species** achieved in Turn 31039 after catching **Drilbur** `#39` and evolving **Kakuna** `#40`, **Beedrill** `#41`, **Staravia** `#42`, **Ivysaur** `#43`, **Trumbeak** `#44`, **Lucario** `#45`, **Charmeleon** `#46`, **Luxio** `#47`, **Flaaffy** `#48`, **Nidorina** `#49`, and **Nidorino** `#50`)
+    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3 [45/50 Pokémon caught] completed in Turn 31043, rewarding **Squirtle** and bringing Owned species to **51 Hupest / 20 Colen**; Professor Oak now states *"Thank you, this will be enough, but come back later, I might have some more tasks for you!"*, verified Turn 31045)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
