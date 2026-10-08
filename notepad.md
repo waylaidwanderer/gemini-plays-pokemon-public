@@ -761,7 +761,7 @@
   - Red capsule mat at (14-15, 9); stepping Down from (15, 9) warps to Deep Subterranean toy room (2, 38). Tile (16, 9) has solid obstacle collision; traversal between western alcove and eastern corridor connects via row 8 (Up from 15, 9 to 15, 8, then east along row 8 to 17, 8, and down to 17, 9).
 - **Staircase North**: Stone staircase at (23, 8) ascends to an upper 3x3 treasure alcove (columns 22-24, rows 3-5). Verified 100% inert perimeter walls (north row 2 across cols 22-24, west col 21, east col 25). Single-purpose treasure room.
 - **Southeastern Corridor & Southern Stone Staircase (25, 11-13)**: Row 10 is walkable cobblestone floor from `(32, 10)` west to `(23, 10)`. At `(25, 11-13)`, a 1-tile stone staircase (flanked by stone railings at cols 24 and 26) descends south to a lower Dark Sector floor at `(25, 14-15)`.
-  - **Lower Southern Corridor & Frio's Chamber Warp (26, 23)**: From `(25, 14-15)` (bounded east by wall at col 26), the corridor runs west along rows 14-15 to `(21, 14-15)` (rugged rock at `21, 16`), then south along columns 21-23 across rows 16-23 (rugged rocks at `23, 20` and `21, 23`), and east along rows 22-23 across columns 23-28. At `(25-26, 23)` on the southern wall is a red capsule warp mat; stepping `Down` from `(26, 23)` warps into the **Southern Subterranean Chamber** at `(32, 38)`.
+  - **Lower Southern Corridor & Frio's Chamber Warp (26, 23)**: From `(25, 14-15)` (bounded east by wall at col 26), the corridor runs west along rows 14-15 to `(21, 14-15)` (rugged rock at `21, 16`), then south along columns 21-23 across rows 16-23 (rugged rocks at `23, 20` and `21, 23`), and east along rows 22-23 across columns 23-28 (where `cols 27-28, rows 21-23` form a 2x3 dead-end corner enclosed by solid walls at `row 20`, `col 29`, and `row 24`, verified Turns 31244-31251). At `(26-27, 23)` on the southern wall is a red capsule warp mat; stepping `Down` from `(26, 23)` or `(27, 23)` warps into the **Southern Subterranean Chamber** at `(32, 38)`.
   - **Southern Subterranean Chamber (32, 38)**: Isolated chamber with red exit mat at `(32, 38)` and shallow puddle at `(31-33, 35-37)`. Stepping onto `(32, 37)` triggers the mandatory story cutscene with **Frio** (disguised in a Team Siara uniform at `32, 35`), who defeats Asher with his Eclipsing Gible and departs, prompting Asher: *"Ahh crap, I should rush back to Dad and Valora!"* (verified Turns 27521-27528).
 - **Item Found (Dark Sector)**: Nugget collected at (23, 4) in the upper treasure alcove.
 - **Rock Smash Obstacle**: Located at (22, 10) in the southern wall of the row 9 corridor; interacting displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed field obstacle clearance requires specialized player equipment rather than traditional HM moves.
@@ -979,7 +979,8 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 28817)**: Contains Poison Barb x1, Antidote x1, Berry Juice x4, Silk Scarf x1, Exp. Share x1, **Green Shard x1** (hidden item found at Route 2 `46, 52` in Turn 28589), **Repel x0** (sold Revive x1 for ₽750 and purchased 2 Repels for ₽700 at Azluf Town PokéMart in Turns 28796-28797, leaving ₽306; used both Repels on Route 2 in Turns 28806 & 28812; verified sell prices: Revive ₽750, Claw Fossil/Silk Scarf/Antidote/Poison Barb ₽50 each), plus 11 Fossils received from Roark upon completing Quest #18 ("Roark's Opal") in Turns 28443-28445: **Old Amber x1**, **Helix Fossil x1**, **Dome Fossil x1**, **Skull Fossil x1**, **Armor Fossil x1**, **Cover Fossil x1**, **Plume Fossil x1**, **Jaw Fossil x1**, **Sail Fossil x1**, **Root Fossil x1**, and **Claw Fossil x1**.
+- **Items Pocket (Audited Turn 31236)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109; all previously obtained fossils, revives, and repels were sold or consumed to fund Poké Ball purchases).
+- **Key Items Pocket (Audited Turn 31235)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, and **Rare Opal** (retained in Key Items after completing Quest #18).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
 - **Poké Balls Pocket (Audited Turn 31109)**: Contains **Poké Ball x0** (**51 Hupest / 20 Colen Owned species** in PokéDex; received **Destiny Knot x1** from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109; `₽56` cash remaining).
@@ -1085,7 +1086,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 26/100 HP, Healthy
+- **Current Condition**: 100/100 HP, Healthy
 - **EXP**: Lv33 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
