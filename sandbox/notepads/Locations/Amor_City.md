@@ -2,7 +2,7 @@
 
 ## Amor Metro Station
 - **Arrival Platform** (`latest_grid.png` & physical arrival Turn 27547):
-  - Train from Sovio City arrives at the northern boarding platform (`18, 17`) in front of the green-striped train doors (`row 16`, `cols 17-23`).
+  - Train from Sovio City arrives at the northern boarding platform (`18, 17`) on initial story arrival, whereas subsequent Hupest Metro Line trips to `Amor` spawn the player directly at `(20, 26)` in the Upper Ticket Concourse (verified Turn 31408).
   - Yellow safety line spans `row 17` (`cols 14-23`); diamond-tiled walkway narrows south through `columns 17-19` (`rows 18-21`) into the station waiting area (`row 22+`) with blue chairs on the eastern wall (`20, 20-22`).
 - **Upper Ticket Concourse (`rows 22-29`)** (`latest_grid.png` Turn 27550 & physical traversal Turns 27548-27551, 27571-27572):
   - **East Turnstile Lane (Exit Only, `19, 23-24`)**: Flanked by scanner pillars (`18, 24` and `20, 24`) and station officer at `(20, 25)`. Attempting to walk north through `(19, 23-24)` from the concourse displays verbatim: *"This is where you exit, not enter!"* and steps the player south (verified Turn 27571).
