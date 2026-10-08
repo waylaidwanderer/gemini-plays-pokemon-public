@@ -48,7 +48,7 @@
     9. Angry Cubone Kid
     10. Push it!
   - **Page 3 Quests**:
-    11. Oak's Research (Special Quest, Active — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3 [45/50 Pokémon caught] completed in Turn 31043, rewarding **Squirtle** and bringing Owned species to **51 Hupest / 20 Colen**; Professor Oak now states *"Thank you, this will be enough, but come back later, I might have some more tasks for you!"*, verified Turn 31045)
+    11. Oak's Research (Special Quest — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3 [45/50 Pokémon caught] completed in Turn 31043, rewarding **Squirtle** and bringing Owned species to **51 Hupest / 20 Colen**; Professor Oak now states *"Thank you, this will be enough, but come back later, I might have some more tasks for you!"* and `Quest Status` reports *"You aren't doing any Quest currently..."*, while `Page 3 -> 11. Oak's Research` still displays *"This Quest hasn't been completed yet."*, verified Turns 31045-31051)
     12. Elm's Research
     13. Rowan's Research
     14. Cynthia's Research
