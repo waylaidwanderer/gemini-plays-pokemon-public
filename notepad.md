@@ -701,7 +701,11 @@
 - **Upper Mining Plateau (`cols 40-52, rows 18-25`)**:
   - **Mine Warning Signpost (`46, 19`)**: Interacted from `(46, 20)`, reads verbatim: *"Warning! / Collapse of mine is possible!"* (verified Turn 32012).
   - **Collapsed Mine Entrance (`44, 18-19`) & Coworker (`43, 19`) — Quest #7 ("Kaboom", Active)**: The mine ladder at `(44, 18-19)` is blocked by three rubble piles (`43, 18`, `44, 18`, `45, 19`). Speaking to the Coworker at `(43, 19)` from `(43, 20)` explains that a Magnitude caused the mine entrance to collapse and that he accidentally dropped his **dynamite** in a **patch of sand**, initiating **Quest #7 ("Kaboom")** (*"I think I dropped it into a patch of sand... / I hope you will find something!"*, accepted Turn 32015).
-  - **Southbound Wooden Staircase (`cols 34-36, rows 24-25`)**: Descends south from `(34-36, 23)` onto the lower central path (`34-36, 26-27`, verified Turn 32023).
+  - **Coworker Dario (`37, 22`, facing South)**:
+    - **Pre-Battle Quote**: *"I should be working, but I like winning battles against by passing trainer much more!"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Bronzor (Lv21; Steel/Psychic).
+  - **Southbound Wooden Staircase (`cols 34-36, rows 24-25`) & Adjacent Landmarks**: Descends south from `(34-36, 23)` onto the lower central path (`34-36, 26-27`, verified Turn 32023). Spotted a **sand patch** to the northwest around `(31, 19-21)`, a female trainer at `(33, 26)` (with a patrolling Police Officer below at `33, 28`), and a golden **item sphere** at `(40, 28)` behind the pine tree top `(41, 28)` (verified Turn 32023).
 
 <hr>
 
