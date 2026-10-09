@@ -10,3 +10,5 @@
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Venonat (♂, Lv16; Bug/Poison).
     - **Pokémon 2**: Beedrill (♀, Lv17; Bug/Poison).
+    - **Pokémon 3**: Butterfree (♀, Lv16; Bug/Flying).
+  - **Outcome**: Defeat quote: *"Oh nooo!"* (verified Turns 31724-31748).
