@@ -62,6 +62,10 @@
   - **Pre-Battle Quote**: *"Yeah yeah! / I advanced through the first round, I'll advance through this one too!"*
   - **Team (3 Pokémon)**: Swadloon (♀, Lv19; Bug/Grass; knows GrassWhistle and String Shot), Lombre (♂, Lv19; Water/Grass; knows Fake Out), and Ivysaur (♂, Lv20; Grass/Poison).
   - **Outcome**: Defeat quote: *"How could this be?"*; awards `₽800` (verified Turns 31918-31930).
+- **Match 2 (Semifinals — Lass Stacy)**:
+  - **Pre-Battle Quote**: *"Teehee! / What a cute opponent I have here!"*
+  - **Team (3 Pokémon)**: Flaaffy (♀, Lv20; Electric), Palpitoad (♂, Lv20; Water/Ground), and Purugly (♀, Lv20; Normal).
+  - **Outcome**: Defeat quote: *"Argh!"*; awards `₽1,280` (verified Turns 31932-31937).
 
 <hr>
 
