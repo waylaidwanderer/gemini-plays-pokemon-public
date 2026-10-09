@@ -1258,7 +1258,7 @@
     5. Squirtle Gang (Completed in Turn 31891 — reunited the lost Squirtle from Samurion City `33, 25` with its family at `(46, 13)` on Route 4 South/Central via the eastern southbound branch `cols 44-46` of Route 4 North; rewarded **Itemfinder**)
   - **Page 2 Quests**:
     6. Lost Eevee
-    7. Kaboom
+    7. Kaboom (Active — accepted from Coworker at Route 6 `43, 19` in Turn 32015; find the lost dynamite dropped in a patch of sand to clear the collapsed Route 6 mine entrance)
     8. Valentines Gift
     9. Angry Cubone Kid
     10. Push it!
