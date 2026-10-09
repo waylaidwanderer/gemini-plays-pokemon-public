@@ -162,7 +162,7 @@
   - Located at the western end of the eastern stone street (`cols 41-59, rows 19-22`), with a wooden signpost at `(47, 19)` (interacted from `47, 20`, reading verbatim: *"Destino Metro Station / Up ahead"*, verified Turn 32194) and a wandering pigtail girl around `(47-48, 20-22)`.
   - **Interior (`7, 8` exit mat)**: Nurse Joy at `(7, 2)` (counter at `7, 4`; healed party and registered respawn checkpoint in Turn 32187); glasses man at `(6, 4)` (*"Health care is top notch for Pokémon... I wonder if it will ever be this good for humans."*, Turn 32188); wandering woman with dark bun around `(9-10, 6-7)`; PC terminal at `(12, 1)`; PokéMart mezzanine staircase at `(2, 0)` (connected seamlessly on the same map to `5, 7`, clerk at `5, 3` selling Poké Ball `₽200`, Great Ball `₽600`, Potion `₽300`, Super Potion `₽700`, Antidote `₽100`, Paralyz Heal `₽200`, Awakening `₽250`, Burn Heal `₽250`, Repel `₽350`, and Super Repel `₽500`, verified Turns 32191-32192).
 - **Destino Metro Station Archway & Guard (`45, 14`)**:
-  - North of the Pokémon Center (`cols 44-46, rows 13-18`), a green-uniformed worker at `(45, 14)` guards the northern archway leading to the Destino Metro Station: *"I'm sorry but the metro station is under renovation. Come back later"* (verified Turn 32194).
+  - North of the Pokémon Center (`cols 44-46, rows 13-18`), a green-uniformed worker at `(45, 14)` initially guarded the northern archway leading to the Destino Metro Station (*"I'm sorry but the metro station is under renovation. Come back later"*, verified Turn 32194) until clearing Destino Mine and receiving the Round 3 summons at `(37, 31)` (Turns 32488-32491).
 - **Town Signboard (`37-38, 19`)**:
   - Located immediately west of the Pokémon Center (interacted from `38, 20`); reads verbatim: *"Destino City / The industrial mine city"* (verified Turn 32194).
 - **Western Street Roadblock (`34, 19-21`)**:
@@ -1427,6 +1427,11 @@
   - Much more experienced now, Asher channeled his Eclipser aura and calmed the Eclipsed Tyranitar back to its normal form without collapsing.
   - As the Tyranitar departed, a falling rock dropped toward Valora at `(14, 16)`; Frio shouted *"Watch out, idiot!"* and pulled Valora to safety before brushing off her thanks (*"Tch, whatever, be more cautious later, Blueberry..."*) and departing.
   - Picking up the rock that fell at `(14, 16)`, Asher obtained a **Clear Shard** (which can be restored into an active **Eclite Shard** using Professor Ivo's Eclicizer in Lancio Town) and automatically stepped out of the Inner Den to `(9, 17)` in the Triple-Staircase Chamber.
+- **Amor Battle Center Round Three Summons & Valora's Message (`37, 31`, Turns 32488-32491)**:
+  - Stepping onto `(37, 31)` outside Destino Mine in Destino City triggers two HuPhone text messages:
+    1. **Amor Battle Center**: *"Dear Contestant! The third round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*.
+    2. **Valora**: *"Heyy, I got the message from the tourney organizers, so I'm in Amor participating! I'll text ya once I'm done, see you later ;)"*.
+  - Asher resolves to take the newly reopened Destino City Metro Station back to Amor City for Round Three (*"Alright, let's take a metro to Amor and get to business!"*).
 
 <hr>
 

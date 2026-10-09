@@ -219,3 +219,8 @@
   - Much more experienced now, Asher channeled his Eclipser aura and calmed the Eclipsed Tyranitar back to its normal form without collapsing.
   - As the Tyranitar departed, a falling rock dropped toward Valora at `(14, 16)`; Frio shouted *"Watch out, idiot!"* and pulled Valora to safety before brushing off her thanks (*"Tch, whatever, be more cautious later, Blueberry..."*) and departing.
   - Picking up the rock that fell at `(14, 16)`, Asher obtained a **Clear Shard** (which can be restored into an active **Eclite Shard** using Professor Ivo's Eclicizer in Lancio Town) and automatically stepped out of the Inner Den to `(9, 17)` in the Triple-Staircase Chamber.
+- **Amor Battle Center Round Three Summons & Valora's Message (`37, 31`, Turns 32488-32491)**:
+  - Stepping onto `(37, 31)` outside Destino Mine in Destino City triggers two HuPhone text messages:
+    1. **Amor Battle Center**: *"Dear Contestant! The third round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*.
+    2. **Valora**: *"Heyy, I got the message from the tourney organizers, so I'm in Amor participating! I'll text ya once I'm done, see you later ;)"*.
+  - Asher resolves to take the newly reopened Destino City Metro Station back to Amor City for Round Three (*"Alright, let's take a metro to Amor and get to business!"*).
