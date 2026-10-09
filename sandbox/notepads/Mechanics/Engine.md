@@ -78,7 +78,7 @@
 - **Key Items Pocket (Audited Turn 31235)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, and **Rare Opal** (retained in Key Items after completing Quest #18).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 31109)**: Contains **Poké Ball x0** (**51 Hupest / 20 Colen Owned species** in PokéDex; received **Destiny Knot x1** from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109; `₽56` cash remaining).
+- **Poké Balls Pocket (Audited Turn 31768)**: Contains **Great Ball x9** and **Poké Ball x10** (purchased at Samurion City PokéMart in Turn 31755; used 1 Great Ball to catch Patrat in Turn 31764, bringing Owned species to **53** in PokéDex; `₽2,334` cash remaining).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
