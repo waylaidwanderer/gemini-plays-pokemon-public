@@ -415,7 +415,10 @@
     - Descending the southbound staircase at `(19-22, 12)` reaches the lower central ridge (`cols 19-24, rows 13-19`), which connects south onto the encounter-free **Central Wooden Bridge (`cols 21-23, rows 20-37`)** (`latest_grid.png` Turns 31654, 31657 & 31659).
     - At the southern end of the bridge (`22, 38`), two **Team Siara Grunts** flank the narrow canyon passage at **`(21, 39)`** (facing East) and **`(23, 39)`** (facing West); direct interaction is inert, while stepping onto **`(22, 39)`** triggers a dual confrontation:
       - **Siara Grunts (`21, 39` & `23, 39`, triggered at `22, 39`)**: Pre-battle quotes: *"Grunt 1: You aren't going to pass through here, kiddo! / Grunt 2: Yeah we are turning ya back!"*; uses 4 Pokémon—Elekid (♂, Lv14; Electric), Makuhita (♂, Lv15; Fighting; knows Fake Out), Magby (♂, Lv14; Fire; knows SmokeScreen), and Meditite (♂, Lv15; Fighting/Psychic; knows Detect); defeat quotes: *"Grunt 1: Noooooo! / Grunt 2: How could this happen, it was 2 versus one?"*; awards `₽1560` (verified Turns 31660-31674).
-    - **Southern Floor Ladder (`22, 45` -> Deep Eclite Chamber `14, 22`)**: Located 6 tiles south of `(22, 39)` along `column 22` (`latest_grid.png` Turn 31675); stepping onto `(22, 45)` descends into the **Deep Eclite Chamber** at `(14, 22)` (`latest_grid.png` Turn 31676), which immediately triggers a confrontation cutscene where Asher walks up to `(14, 13)` before **Marie ("Mom")**, **Frio**, the red-haired Team Siara officer (*"???"*), and three grunts standing in front of a massive prime **Eclite Crystal** (verified Turns 31675-31680).
+    - **Southern Floor Ladder (`22, 45` -> Deep Eclite Chamber `14, 22`)**: Located 6 tiles south of `(22, 39)` along `column 22` (`latest_grid.png` Turn 31675); stepping onto `(22, 45)` descends into the **Deep Eclite Chamber** at `(14, 22)` (`latest_grid.png` Turn 31676), which immediately triggers a confrontation cutscene where Asher walks up to `(14, 13)` before **Marie ("Mom")**, **Frio**, **Siara Admin Flo** (*"???"*), and three grunts standing in front of a massive prime **Eclite Crystal** (verified Turns 31675-31686):
+      - After Asher exposes Marie's plan to weaponize Eclipsing, Marie admits she adopted Frio after her divorce from Jackson, prompting Frio to defect from Team Siara and depart.
+      - **Dad (Jackson)**, **Valora**, and **Professor Ivo** arrive to back up Asher and hold off the grunts while **Siara Admin Flo** (`14, 12`) battles Asher (party is automatically healed to full HP/PP and cured of status conditions prior to the battle):
+        - **Siara Admin Flo (`14, 12`)**: Uses 4 Pokémon (plus Super Potion)—Larvesta (♂, Lv16; Bug/Fire), Salandit (♂, Lv16; Poison/Fire; knows Dragon Rage), Trubbish (♂, Lv17; Poison; Ability: Aftermath), and Grovyle (Grass) (verified Turns 31687-31696).
 
 <hr>
 
@@ -1010,6 +1013,17 @@
   - `???`: *"Let's go over this once again... Our job is to find the largest Eclite piece that is said to be located around here."*
   - When Frio asks about the smaller fragments and warns that Asher will show up, the grunt says they will collect the smaller fragments and guard the area from intruders, while the officer remarks: *"Don't worry about the kid, Frio... He won't even reach us."*
   - **Shared Eclipser Ancestry**: Before following the officer south across the wooden bridge, Frio thinks to himself: *"I wonder... Will you come and stop us, Asher? Will you really try to stop us from uncovering the truth about your... no, our ancestors?"*—revealing that Frio and Asher share Eclipser ancestors.
+
+## Deep Eclite Chamber of Mt. Gerhana — Frio's Adoption Revelation, Defection & Showdown with Siara Admin Flo
+- **Marie ("Mom") & The Prime Eclite Crystal (`22, 45` -> `14, 22` -> `14, 13`, Turns 31675-31678)**: Descending the southern floor ladder at `(22, 45)` into the Deep Eclite Chamber (`14, 22`) triggers a confrontation at `(14, 13)` before **Marie ("Mom")**, **Frio**, the red-haired Team Siara officer, and three grunts standing in front of a massive prime **Eclite Crystal**.
+- **Frio's Adoption & Defection from Team Siara (Turns 31678-31685)**:
+  - When Asher addresses Marie as *"Mother"*, Frio is stunned and calls Marie *"Mom"*, unaware of Asher's existence.
+  - Asher exposes Marie's past: that she was married to Asher's father (Jackson), worked on Eclipsing with him, and drove Jackson to leave Siara with Asher when she insisted on weaponizing Eclipsing.
+  - Confronted by Frio (*"...Am I... adopted, by chance?"*), Marie admits that Frio's biological parents died when he was a baby and that she adopted him after her divorce from Jackson.
+  - Realizing that Marie lied to him about preserving Eclipser heritage to protect people and Pokémon and only adopted and used him as a tool to weaponize Eclipsing, Frio renounces Marie (*"...You are not my Mother! You just used me for your selfish desires, you lunatic! ... As an Eclipser my duty isn't to dominate people. As an Eclipser I'm supposed to do what's right for the people."*) and defects from Team Siara (*"I'm done with Siara. Good luck progressing without me!"*).
+- **Arrival of Dad, Valora & Professor Ivo & Boss Battle with Siara Admin Flo (Turns 31685-31696)**:
+  - After Frio departs, Marie's most trusted red-haired commander introduces herself as **Siara Admin Flo** and steps up (`14, 12`) to eliminate Asher.
+  - Just in time, **Dad (Jackson)**, **Valora**, and **Professor Ivo** arrive behind Asher to hold off the Team Siara grunts while Asher battles **Siara Admin Flo** (who uses Larvesta Lv16, Salandit Lv16, Trubbish Lv17, and Grovyle).
 
 <hr>
 
