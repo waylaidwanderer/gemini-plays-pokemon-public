@@ -407,6 +407,9 @@
     - **Siara Grunt (`16, 27`, rotating)**: Pre-battle quote: *"She didn't stop you? My, my..."*; uses 2 Pokémon—Yamask (♂, Lv15; Ghost) and Gulpin (♂, Lv16; Poison); defeat quote: *"Hooow?"* (verified Turns 31612-31616).
     - **Siara Grunt (`10, 22`, rotating)**: Pre-battle quote: *"This might disappoint you, but I can't let you go more forward!"*; uses 3 Pokémon—Croagunk (♂, Lv15; Poison/Fighting), Drifloon (♂, Lv16; Ghost/Flying; Ability: Aftermath), and Stunky (♂, Lv15; Poison/Dark); defeat quote: *"..."* (verified Turns 31622-31628).
     - **Siara Grunt (`10, 13` -> `10, 15`, facing South)**: Pre-battle quote: *"Don't try to stop us, we can't disappoint Miss Marie!"*; uses 2 Pokémon—Diglett (♀, Lv16; Ground) and Trapinch (♂, Lv16; Ground); defeat quote: *"My god..."* (verified Turns 31635-31640).
+  - **Northwestern Eclite Chamber (`cols 7-18, rows 6-14`)**:
+    - Contains an underground water pool at `(8-10, 9-12)`, a purple Eclite crystal embedded in the northern wall at `(10-11, 6-7)` guarded by two **Team Siara Grunts** at `(10, 8)` and `(14, 8)`, and an eastbound wooden staircase at `(17, 9-11)` ascending onto the central ridge (`cols 18-24`), which connects to a lower westbound staircase at `(18, 13-14)` leading to a golden TM sphere at `(16, 14)` and the southern Eclite crystal (`16-17, 19-20`) guarded by a grunt at `(14, 20)` (`latest_grid.png` Turns 31635, 31643 & 31645).
+    - **Siara Grunt (`14, 8` -> `14, 9`, facing South)**: Pre-battle quote: *"What the?! What happened to everyone? Weren't there guards all over the place?"*; uses 1 Pokémon—Rotom (Lv17; Electric/Ghost; knows Double Team and Thunder Wave) (verified Turns 31645-31651).
 
 <hr>
 
@@ -1210,7 +1213,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 81/106 HP, Healthy
+- **Current Condition**: 81/106 HP, Paralyzed (PAR)
 - **EXP**: Lv35 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; reached Lv35 in Turn 31637)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
