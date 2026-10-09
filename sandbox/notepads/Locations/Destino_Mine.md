@@ -27,7 +27,7 @@
 - **Western Section (`cols 35-44, rows 41-49`)**:
   - **Overhead Blue Pipe (`col 44`)**: Passable horizontally across `rows 46-49`, solid along `rows 40-45`.
   - **Machop (`43, 44`) & Orange Mining Machine (`40-42, 44-45`)**: Machop stands at `(43, 44)` beside the machine (`"Machop: Chop! Chop!"`, verified Turn 32243). An NPC is visible north of the machine near `(42, 41)`.
-  - **Small Rocks (`40, 49` & `35, 49`)**: `(40, 49)` verified inert in Turn 32249.
+  - **Small Rocks (`40, 49` & `35, 49`)**: Both verified inert in Turns 32249 & 32261.
   - **Minecart Tracks (`rows 47-48`), Coworker Marvin (`38, 48` -> `39, 48`), & Northbound Staircase (`35-36, 44-45`)**:
     - Tracks run west below the northbound staircase at `(35-36, 44-45)`.
     - **Coworker Marvin (`38, 48` -> `39, 48`, rotating)**:
