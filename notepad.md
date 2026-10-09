@@ -587,6 +587,7 @@
   - **Pre-Battle Quote**: *"The sound of the river is so relaxing and perfect for training!"*
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Makuhita (♂, Lv17; Fighting).
+    - **Pokémon 2**: Sawk (♂; Fighting).
 - **Bug Catcher Joel (`43, 50`, rotating)**:
   - **Pre-Battle Quote**: *"Many bugs love water, so I am here to catch some besides the river!"*
   - **Team (3 Pokémon)**:
