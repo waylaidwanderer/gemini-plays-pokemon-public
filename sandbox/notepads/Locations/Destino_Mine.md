@@ -60,4 +60,4 @@
         - **Outcome**: Defeat quote: *"These kids... aaargh!"*; awards `₽2,600`. Both defeated grunts flee north to warn their group, and Valora rejoins Asher at `(26, 35)` (verified Turns 32308-32309).
   - **Visible Landmarks Around `(26, 35)`**:
     - **Western Cliff Ledge Floor Ladder (`19, 36`)**: Visible on the raised western cliff ledge (`cols 17-20, rows 35-38`).
-    - **Eastern Ledge Item Sphere (`31, 35`)**: Golden item sphere visible behind the 2x2 boulder (`31-32, 35-36`) above the staircase at `(30-31, 38-39)`.
+    - **Eastern Ledge Item Sphere (`32, 35`)**: Reached by ascending the double northbound staircases at `(36, 45)` and `(36, 40)` to `(36, 37)` (where small rocks at `36, 36` and `37, 37` are inert) and walking behind the top row of the 2x2 boulder (`34, 37 -> 34, 35 -> 33, 35`); yields **TM37 (Sandstorm)** (verified Turns 32313-32318).
