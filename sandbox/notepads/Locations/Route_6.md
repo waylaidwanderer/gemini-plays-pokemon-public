@@ -44,7 +44,12 @@
 - **Upper Northern Plateau (`cols 21-41, rows 6-20`)**:
   - **Northbound Wooden Staircase (`cols 27-29, rows 16-17`)**: Ascends north from the rocky mountain ridge crossroads (`28, 20`) to `(28, 15)` (verified Turn 32079).
   - **Trainer Tips Signpost (`35, 16`)**: Interacted from `(35, 17)`, reads verbatim: *"Trainer Tips! / Hidden items might be hiding on the ground unvisible to the eye."* (verified Turn 32081).
-  - **Small Rock Cones (`41, 15`, `32, 19`, `24, 7`, & `20, 14`)**: `(41, 15)` verified inert in Turn 32081.
+  - **Small Rock Cones (`41, 15`, `32, 19`, `24, 7`, & `20, 14`)**: `(41, 15)` and `(20, 14)` verified inert in Turns 32081 & 32099.
+  - **Hiker Travis (`15, 17`, facing East)**:
+    - **Pre-Battle Quote**: *"I heard some criminals were sighted here... / I'm gonna knock each and every one out!"*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Gurdurr (♂, Lv25; Fighting).
+    - **Outcome**: Awards `₽1,000` (verified Turns 32100-32103).
   - **Youngster Scott (`39, 9`, facing South)**:
     - **Pre-Battle Quote**: *"If you think you can run without a Pokémon Battle, you are very wrong!"*
     - **Team (2 Pokémon)**:
