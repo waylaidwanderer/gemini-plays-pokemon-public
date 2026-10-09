@@ -589,6 +589,7 @@
     - **Pokémon 1**: Makuhita (♂, Lv17; Fighting).
     - **Pokémon 2**: Sawk (♂, Lv18; Fighting; Ability: Sturdy; knows Counter).
     - **Pokémon 3**: Stufful (♂, Lv18; Normal/Fighting).
+  - **Outcome**: Defeat quote: *"Darn..."* (verified Turns 31824-31833).
 - **Bug Catcher Joel (`43, 50`, rotating)**:
   - **Pre-Battle Quote**: *"Many bugs love water, so I am here to catch some besides the river!"*
   - **Team (3 Pokémon)**:
