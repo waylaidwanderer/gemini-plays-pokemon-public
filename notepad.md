@@ -234,7 +234,10 @@
     - Stepping onto `(26, 36)` triggers **Frio** to arrive (`25, 35`) and clear the central rocks (`26-27, 33-34`). The two stranded grunts immediately challenge Asher (`26, 35`) and Valora (`26, 36`) while Frio heads north under the bridge (`26, 30`):
       - **Siara Grunt (`25, 35`)**:
         - **Team (3 Pokémon)**: Mightyena (♀, Lv24; Dark; Ability: Intimidate), Toxicroak (♀, Lv25; Poison/Fighting), Haunter (♀, Lv24; Ghost/Poison).
-        - **Defeat Quote**: *"These kids... aaargh!"* (verified Turn 32308).
+        - **Outcome**: Defeat quote: *"These kids... aaargh!"*; awards `₽2,600`. Both defeated grunts flee north to warn their group, and Valora rejoins Asher at `(26, 35)` (verified Turns 32308-32309).
+  - **Visible Landmarks Around `(26, 35)`**:
+    - **Western Cliff Ledge Floor Ladder (`19, 36`)**: Visible on the raised western cliff ledge (`cols 17-20, rows 35-38`).
+    - **Eastern Ledge Item Sphere (`31, 35`)**: Golden item sphere visible behind the 2x2 boulder (`31-32, 35-36`) above the staircase at `(30-31, 38-39)`.
 
 <hr>
 
