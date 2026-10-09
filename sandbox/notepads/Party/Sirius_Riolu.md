@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 131), Attack (C+, 122), Defense (A-, 117), Sp. Atk (C-, 113), Sp. Def (E, 78), Speed (C-, 80)
-- **Current Condition**: 64/131 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv44 in Turn 32339; paralyzed by Siara Grunt's Seviper in Turn 32331; 64/131 HP after defeating Siara Grunt 4's Swoobat in Turn 32364)
+- **Current Condition**: 46/131 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv44 in Turn 32339; paralyzed by Siara Grunt's Seviper in Turn 32331; 46/131 HP after defeating Siara Grunt 6's Mantine in Turn 32401)
 - **EXP**: Lv44 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv44 defeating Siara Grunt 2's Zangoose in Destino Mine 2F in Turn 32339)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)

@@ -1553,7 +1553,8 @@
     - **Row 2**: `(0,2)=M/m`, `(1,2)=N/n`, `(2,2)=O/o`, `(3,2)=P/p`, `(4,2)=Q/q`, `(5,2)=R/r`, `(6,2)=S/s`
     - **Row 3**: `(0,3)=T/t`, `(1,3)=U/u`, `(2,3)=V/v`, `(3,3)=W/w`, `(4,3)=X/x`, `(5,3)=Y/y`, `(6,3)=Z/z`
   - **Page Flip & Two-Part PC Box Transfer**: Pressing `Select` to toggle uppercase/lowercase requires `sleep 800` before subsequent D-Pad inputs. After pressing `Start` -> `A` to confirm a nickname when the party is full, two sequential messages appear (`"<Name> was transferred to Someone's PC.▼"` followed by `"It was placed in Box 'Box2.'"`), both of which ignore `B` presses and require pressing **`A`** twice (`A, sleep 1800, A, sleep 2500`) to return to the overworld (verified Turn 32248).
-- **Battle Bag Fade-In Delay (`2500ms`) & Cursor Memory**: Pressing `A` on `Bag` during battle requires a `sleep 2500` pause for the Bag UI fade-in animation to complete before D-Pad inputs register. Subsequent Bag openings within the same battle remember both the last opened pocket (e.g. `Poké Balls`) and the last highlighted row (verified Turns 31763-31776).
+- **Battle Bag Fade-In Delay (`3000ms`) & Cursor Memory**: Pressing `A` on `Bag` during battle requires a `sleep 3000` pause for the Bag UI fade-in animation to complete before D-Pad or `A` inputs register (`2500ms` can be ~100ms too short; verified Turns 32393 & 32397). Subsequent Bag openings within the same battle remember both the last opened pocket (e.g. `Items` or `Poké Balls`) and the last highlighted row (verified Turns 31763-31776 & 32393-32399).
+- **Side-Facing Wooden Staircase Collision (`3-Tile Tall Graphic`)**: On 3-tile tall side-facing wooden staircases (such as `25, 22-24` in Destino Mine 2F), the tile adjacent to the top railing (`24, 22`) has solid cliff collision; approach along the row aligned with the middle step (`24, 23 -> 25, 23`), which automatically steps diagonally onto the top step (`25, 22`; verified Turns 32379-32380).
 - **Samurion City Pokémon Center Exit Routing**: Stepping `Down` off `(7, 8)` inside the Samurion City Pokémon Center requires `sleep 2500` for the door warp to settle at `(23, 48)`, followed by `Right 2` to `(25, 48)` -> `Down 1` to `(25, 49)` -> `Right 3` to `(28, 49)` to bypass the Pokémon Center window (`24, 47`) and southern house roof peak (`24, 50`) (verified Turns 31757-31760).
 
 <hr>
@@ -1622,7 +1623,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 131), Attack (C+, 122), Defense (A-, 117), Sp. Atk (C-, 113), Sp. Def (E, 78), Speed (C-, 80)
-- **Current Condition**: 64/131 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv44 in Turn 32339; paralyzed by Siara Grunt's Seviper in Turn 32331; 64/131 HP after defeating Siara Grunt 4's Swoobat in Turn 32364)
+- **Current Condition**: 46/131 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv44 in Turn 32339; paralyzed by Siara Grunt's Seviper in Turn 32331; 46/131 HP after defeating Siara Grunt 6's Mantine in Turn 32401)
 - **EXP**: Lv44 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv44 defeating Siara Grunt 2's Zangoose in Destino Mine 2F in Turn 32339)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
