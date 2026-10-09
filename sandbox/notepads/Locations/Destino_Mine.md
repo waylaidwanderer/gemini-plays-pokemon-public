@@ -104,3 +104,4 @@
   - **Pre-Battle Quote**: *"These machines are actually really handy, I gotta give them that! / Not as handy as my Pokémon though when it comes to destroying kids!"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Mantine (♀, Lv26; Water/Flying; knows Water Pulse).
+  - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turn 32402). Post-battle quote: *"This is all wrong... How dare you..."*.
