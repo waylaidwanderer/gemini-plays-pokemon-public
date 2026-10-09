@@ -276,6 +276,7 @@
     - **Pokémon 2**: Krokorok (♀, Lv25; Ground/Dark; Ability: Intimidate).
     - **Pokémon 3**: Durant (♂, Lv25; Bug/Steel).
   - **Outcome**: Defeat quote: *"This is awkwards."*; awards `₽2,600` (verified Turns 32370-32378).
+  - **Raised Plateau Item Sphere (`29, 21`)**: Reached via the wooden staircase at `(25, 22-23)` (`24, 23 -> 25, 22 -> 29, 22`); yields **Fire Stone x1** (collected Turn 32381).
 
 <hr>
 
@@ -1492,7 +1493,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 32271)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Thunder Stone x1** (collected at Route 6 `23, 21` in Turn 32168), **Rocky Helmet x1** (rewarded at Route 6 `43, 19` for completing Quest #7 "Kaboom" in Turn 32170), **Repel x0**, **Super Repel x8** (purchased 10 at Destino City PokéMart in Turn 32192, used 1 at Destino Mine `27, 48` in Turn 32271 and 1 at `37, 15` in Turn 32367), **Super Potion x7** (used 1 healing Sirius to 60/123 HP in Turn 32135), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098), and **Red Shard x1** (collected at Destino Mine `40, 13` in Turn 32208).
+- **Items Pocket (Audited Turn 32271)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Thunder Stone x1** (collected at Route 6 `23, 21` in Turn 32168), **Rocky Helmet x1** (rewarded at Route 6 `43, 19` for completing Quest #7 "Kaboom" in Turn 32170), **Repel x0**, **Super Repel x8** (purchased 10 at Destino City PokéMart in Turn 32192, used 1 at Destino Mine `27, 48` in Turn 32271 and 1 at `37, 15` in Turn 32367), **Super Potion x7** (used 1 healing Sirius to 60/123 HP in Turn 32135), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098), **Red Shard x1** (collected at Destino Mine `40, 13` in Turn 32208), and **Fire Stone x1** (collected at Destino Mine 2F `29, 21` in Turn 32381).
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).

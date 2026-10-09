@@ -99,3 +99,4 @@
     - **Pokémon 2**: Krokorok (♀, Lv25; Ground/Dark; Ability: Intimidate).
     - **Pokémon 3**: Durant (♂, Lv25; Bug/Steel).
   - **Outcome**: Defeat quote: *"This is awkwards."*; awards `₽2,600` (verified Turns 32370-32378).
+  - **Raised Plateau Item Sphere (`29, 21`)**: Reached via the wooden staircase at `(25, 22-23)` (`24, 23 -> 25, 22 -> 29, 22`); yields **Fire Stone x1** (collected Turn 32381).
