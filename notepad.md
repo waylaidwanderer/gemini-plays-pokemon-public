@@ -559,6 +559,8 @@
   - Stepping onto `(28, 50)` triggers **Valora** (`28, 49`) to greet Asher and report that she saw **Frio** enter the **Samurion Dojo** (`31, 47`).
   - Asher and Valora automatically enter the Samurion Dojo (`31, 47`) and walk through the foyer into the main hall (`6, 5`), where **Frio** (`5, 4`) is seated beside his sensei, the **Dojo Master** (`7, 4`, flanked by two seated masters at `2, 7` and `10, 9` and four Black Belts at `4, 7`, `4, 9`, `8, 7`, `8, 9`).
   - The Dojo Master identifies Asher as *"the other Eclipser"*, and Frio announces that **Team Siara** has arrived to retrieve more Eclite by making their way into the **closed segments of Mt. Gerhana**. After Frio departs, Asher resolves to call Dad and Professor Ivo and stop Team Siara in Mt. Gerhana, returning outside to `(31, 48)`.
+- **Post-Dojo Cutscene & Newly Opened Western Cave Entrance (`30, 48`, Turns 31565-31566)**:
+  - Stepping onto `(30, 48)` triggers Asher's call to Dad and Ivo and reveals a red-haired female Team Siara commander (*"???"*) and grunt smashing open the 5 rugged rocks blocking a northern **Mt. Gerhana** cave entrance located directly west of the Samurion City Pokémon Center (`cols 14-18, rows 41-43`, with a wooden signboard to its right). Asher asks Valora to wait in Samurion City for Dad and Ivo while he heads into the newly opened cave.
 
 <hr>
 
@@ -970,6 +972,10 @@
   - When Frio introduced Asher (*"He's the kid I was talking about."*), the Dojo Master remarked: *"The other Eclipser? So there's another..."*—revealing that people who possess the hereditary bloodline power to channel Eclite are called **Eclipsers**.
   - **Team Siara Opens the Closed Segments of Mt. Gerhana**: Suddenly sensing Team Siara's arrival, Frio announced: *"Who else but Siara? We will retrieve more Eclite. And for that we gotta make our way into the closed segments of Mt. Gerhana. I'm off now, thank you sensei for your time."* and departed toward Mt. Gerhana.
   - Determined to stop Team Siara from seizing more Eclite in the deeper segments of Mt. Gerhana, Asher told Valora: *"I'm gonna call Dad and Ivo. We gotta go and stop Siara, now!"* before stepping outside the Samurion Dojo to `(31, 48)`.
+- **Team Siara Smashes Open the Western Samurion Cave Entrance to Mt. Gerhana (`30, 48`, Turns 31565-31566)**:
+  - Stepping west onto `(30, 48)` outside the Samurion Dojo triggers a cutscene where Asher calls Dad and Professor Ivo.
+  - Meanwhile, immediately west of the Samurion City Pokémon Center, a red-haired female Team Siara officer (*"???"* / *"madam"*) and a grunt smash away five rugged rocks blocking a northern cave entrance into the closed segments of **Mt. Gerhana** (*"Alright, time to smash the last pieces our roadblock... Yes, now we can start the operation... Call all units!"*).
+  - Asher tells Valora to wait in Samurion City until Dad and Professor Ivo arrive while he goes ahead into the newly opened cave to see how big the situation is (*"Uhh, alright, but be very careful, okay?"*).
 
 <hr>
 
