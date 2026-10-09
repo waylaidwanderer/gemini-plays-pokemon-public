@@ -386,7 +386,7 @@
   - **Team Siara Eclite Theft Cutscene & Gauntlet (`18, 15` -> `25, 15`, Turns 31525-31532)**: Returning across the western bridge after Valora's text message in Lancio Town triggers a cutscene at `(18, 15)` where four **Team Siara Grunts** have mined and taken the giant Eclite crystal to deliver to Team Siara HQ for Marie. Recognizing Asher from the Sovio Sewers, the grunts challenge Asher at `(25, 15)`:
     - **Siara Grunt 3 (`26, 15`)**: Uses 2 Pokémon—Duskull (♂, Lv14; Ghost) and Shuppet (♀, Lv14; Ghost); defeat quote: *"Noooo"*; awards `₽1456` and retreats east across the bridge (verified Turns 31527-31531).
     - **Siara Grunt 1 (`27, 14` -> `26, 15`)**: Pre-battle quote: *"Come on, he can't be that strong!"*; uses 1 Pokémon—Mareanie (♂, Lv15; Poison/Water); defeat quote: *"How could this no one pummel me?!"*; awards `₽1560` and retreats east across the bridge (verified Turns 31532-31534).
-    - **Siara Grunts (Grunt 2 & Grunt 4 at `26, 15-16`)**: Step up together (*"Grunt 2 & 4: We will be the ones to take care of you!"*) with 4 Pokémon, leading with Nidoran♀ (Lv13; Poison).
+    - **Siara Grunts (Grunt 2 & Grunt 4 at `26, 15-16`)**: Pre-battle quote: *"Grunt 2 & 4: We will be the ones to take care of you!"*; uses 4 Pokémon—Nidoran♀ (Lv13; Poison), Nidoran♂ (Lv14; Poison), Murkrow (♂, Lv14; Dark/Flying), and Misdreavus (♀, Lv15; Ghost) (verified Turns 31535-31542; Sirius reached Lv34 and learned Aura Sphere).
 
 <hr>
 
@@ -1138,16 +1138,16 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv33
+- **Level**: Lv34
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 100/100 HP, Healthy
-- **EXP**: Lv33 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32)
+- **Current Condition**: 103/103 HP, Healthy
+- **EXP**: Lv34 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
-  - Slot 3: Work Up (Normal, Status, 20 PP; raises Attack and Sp. Atk by +1 stage; taught via TM48)
+  - Slot 3: Aura Sphere (Fighting, Special, 80 power, never misses, STAB, 20 PP; learned at Lv34 replacing Work Up)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
 - **OT / ID**: Asher / 54592
