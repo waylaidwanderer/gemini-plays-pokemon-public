@@ -42,3 +42,11 @@
       - **Team (1 Pokémon)**:
         - **Pokémon 1**: Steelix (♂, Lv26; Steel/Ground; knows Iron Defense).
       - **Outcome**: Defeat quote: *"Oh no."* ; awards `₽1,040` (verified Turns 32262-32267).
+    - **Coworker Rudy (`20, 45` -> `22, 45`, facing East)**:
+      - **Pre-Battle Quote**: *"So we back in the mine, got our pickaxe swinging from side to side!"*
+      - **Team (4 Pokémon)**:
+        - **Pokémon 1**: Rhyhorn (♂, Lv23; Ground/Rock).
+        - **Pokémon 2**: Gurdurr (♂, Lv25; Fighting).
+        - **Pokémon 3**: Palpitoad (♀, Lv24; Water/Ground).
+        - **Pokémon 4**: Bronzor (Lv24; Steel/Psychic).
+      - **Outcome**: Defeat quote: *"Oh man"*; awards `₽1,000` (verified Turns 32274-32285).
