@@ -289,10 +289,12 @@
     - **Pokémon 2**: Wobbuffet (♂, Lv25; Psychic; Ability: Shadow Tag; knows Mirror Coat, Counter, Destiny Bond, and Safeguard).
     - **Pokémon 3**: Umbreon (♂, Lv26; Dark; knows Feint Attack).
   - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turns 32426-32427). Small rocks at `(30, 29)` and `(35, 31)` are inert (verified Turns 32427-32428).
-- **Southern Wall Ladder (`31, 29` <-> 1F `19, 36`) & Unexplored Southeastern 2F Corridor (`cols 36-47, rows 24-35`)**:
+- **Southern Wall Ladder (`31, 29` <-> 1F `19, 36`), Explored Southeastern 2F Corridor, & Far-Eastern Ledge**:
   - The wall ladder at `(31, 29)` warps up to `(19, 36)` on the raised western cliff ledge of Destino Mine 1F (verified Turns 32429-32430), where small rocks at `(16, 34)` and `(17, 33)` are inert (verified Turn 32433) and a miner stands at `(19, 29)` beside a broken mining machine (`20-21, 27-28`, verified Turn 32434).
-  - Crossing the 1F overhead wooden bridge (`cols 26-28, row 30`) from `(19, 30)` to `(30, 30)` reaches the 1F upper eastern ledge (small rock at `30, 29` inert, verified Turn 32435) and the upper cave archway at **`(35, 28)`**, which enters the **Deep Triple-Staircase Chamber** of Destino Mine at **`(9, 7)`** (exit at `9, 6`, verified Turns 32436-32438).
-  - On 2F, a continuous rock ridge along `cols 34-36` separates `(31, 29)` from the unexplored southern minecart track corridor (`cols 37-47, rows 24-35`, south of Siara Grunt 2 at `41, 21` and Siara Grunt 3 at `47, 23`).
+  - Crossing the 1F overhead wooden bridge (`cols 26-28, row 30`) from `(19, 30)` to `(30, 30)` reaches the 1F upper eastern ledge (small rocks at `30, 29` and `35, 32` both inert, verified Turns 32435 & 32439) and the upper cave archway at **`(35, 28)`**, which enters the **Deep Triple-Staircase Chamber** of Destino Mine at **`(9, 7)`** (exit at `9, 6`, verified Turns 32436-32438).
+  - On 2F, a continuous rock ridge along `cols 34-36` separates `(31, 29)` from the southeastern minecart track corridor (`cols 37-47, rows 24-32`, south of Siara Grunt 2 at `41, 21` and Siara Grunt 3 at `47, 23`), where the minecart tracks terminate at `(42, 28)`, the western boulder pocket terminates at `(37, 22)` and `(37, 28)`, and the far-eastern ledge east of the blue pipe (`cols 51-52`) terminates at `(54, 23)` with no sign of Evy on the 2F map (verified Turns 32444-32449).
+## Deep Triple-Staircase Chamber (`9, 7` -> `9, 17`) & Inner Den (`12, 19`+)
+- **Triple-Staircase Passage (`9, 7` -> `9, 17`)**: Entered from the 1F upper eastern cave archway (`35, 28` <-> `9, 6`). Stepping onto the second landing at `(9, 13)` triggers a tremor from the southern den (`"It came from that den! / Frio must be in there already... Let's go!"`, verified Turn 32456). Stepping south off `(9, 17)` (`▼` at `9, 18`) enters the **Inner Den** at **`(12, 19)`** (verified Turn 32461).
 
 <hr>
 
