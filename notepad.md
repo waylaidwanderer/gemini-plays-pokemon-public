@@ -572,8 +572,9 @@
 # Route 4
 
 ## Geography & Connections
-- **North (`cols 24-29, row 0`)**: Connects via the northern purple-sand avenue to **Amor City** (verified from `27, 3` in Turn 31845).
-- **South (`cols 49-51, row 60`)**: Connects via northern pagoda gate staircase to **Samurion City** (`cols 25-27, row 0`; verified Turn 31718).
+- **Two-Segment Vertical Map Structure**:
+  - **Route 4 South/Central (`rows 0-60`)**: Connects at the south (`cols 49-51, row 60`) via the northern pagoda gate staircase to **Samurion City** (`cols 25-27, row 0`; verified Turn 31718), and transitions seamlessly at the north (`cols 24-29, row 0`) onto **Route 4 North** (`cols 24-29, row 49`; verified Turn 31874).
+  - **Route 4 North (`rows 0-50`)**: Extends north from `(27, 49)` toward **Amor City** and provides the northern overland connection to the eastern purple-sand road (`cols 44-46, rows 0-17` on Route 4 South/Central) leading down to the lost Squirtle's family at `(45, 17)`.
 ## Wild Pokémon
 - **Ducklett**: Encountered at Lv13 (♂, Water/Flying) in the southern tall grass at `(44, 53)` (verified Turn 31722).
 - **Patrat**: Encountered at Lv11 (♀, Normal) in the southern tall grass at `(44, 50)` (caught in a Great Ball, nicknamed **Vomor**, and transferred to Box 2 as 53rd Owned species in Turns 31763-31768).
