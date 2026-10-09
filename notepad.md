@@ -288,7 +288,7 @@
     - **Pokémon 1**: Scyther (♀, Lv25; Bug/Flying; knows Agility).
     - **Pokémon 2**: Wobbuffet (♂, Lv25; Psychic; Ability: Shadow Tag; knows Mirror Coat, Counter, Destiny Bond, and Safeguard).
     - **Pokémon 3**: Umbreon (♂, Lv26; Dark; knows Feint Attack).
-  - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turns 32426-32427). Small rock at `(30, 29)` is inert (verified Turn 32427).
+  - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turns 32426-32427). Small rocks at `(30, 29)` and `(35, 31)` are inert (verified Turns 32427-32428).
 
 <hr>
 
