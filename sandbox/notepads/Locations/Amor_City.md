@@ -73,6 +73,7 @@
 - **Central Northbound Street (`cols 42-44, rows 12-28`) & Northern Westbound Street (`cols 18-44, rows 12-13`)**:
   - From the main avenue (`43, 29`), an open northbound street runs along `columns 42-44` (`rows 12-28`) to a northern junction at `(43, 12-13)`.
   - Two construction workers at `(45, 12-13)` block the eastbound branch, while the westbound street along `rows 12-13` (`cols 18-44`) is open and leads to the northwestern vertical avenue along `column 18` (with a streetlamp at `17, 10-12`, verified Turn 31965).
-- **Northwestern Route 6 Signboard (`14-15, 7`) & Route 6 Gatehouse (`6, 8`)**:
-  - Following `column 18` north from `(18, 13)` to `(18, 8)` reaches the northwestern gatehouse street (`cols 6-18, rows 8-9`).
+- **Northwestern Route 6 Signboard (`14-15, 7`) & Route 6 Gatehouse (`7, 7` <-> `14, 7`)**:
+  - Following `column 18` north from `(18, 13)` to `(18, 7)` reaches the northwestern gatehouse street (`cols 7-18, rows 7-8`).
   - Wooden signboard at `(14-15, 7)` (interacted from `15, 8`) reads verbatim: *"Route 6 / <-------"* (verified Turn 31969).
+  - Stepping `Left` along `row 7` (`(9, 7) -> (8, 7) -> (7, 7)`) enters the **Route 6 Gatehouse** at `(14, 7)` (verified Turn 31971).
