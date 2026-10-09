@@ -4,7 +4,8 @@
 - **Main Entrance (`47, 7-8` <-> Destino City `39, 28`)**: Connects at `(47, 7)` to the southern mining plaza of **Destino City** (`39, 28`; verified Turn 32202).
 - **Route 6 Stone Tower Chamber (`11, 46-47` <-> Route 6 `44, 18`)**: Separate small chamber entered from Route 6 (`44, 18` after completing Quest #7 "Kaboom"), containing an ancient stone tower at `(10-12, 53-55)` (*"It's a stone tower... / It appears to have been built many years ago"*, verified Turn 32175).
 ## Wild Pokémon
-- **Numel**: Encountered at Lv18 (♀, Fire/Ground) on 1F at `(46, 14)` (caught in a Great Ball as 59th Owned species in Turns 32210-32213).
+- **Numel**: Encountered at Lv18 (♀, Fire/Ground) on 1F at `(46, 14)` (caught in a Great Ball, nicknamed **Etna**, and transferred to Box 2 as 59th Owned species in Turns 32210-32214).
+- **Diglett**: Encountered at Lv18 (♀, Ground) on 1F at `(47, 14)` (caught in a Great Ball, nicknamed **Gaia**, as 60th Owned species in Turns 32217-32221).
 ## Main Entrance Cavern (`cols 40-54, rows 4-14`)
 - **Valora Cutscene (`47, 9`, Turns 32203-32204)**: Stepping south onto `(47, 9)` from the entrance (`47, 8`) triggers Asher and Valora to deduce that Team Siara must have gone deeper into the mine.
 - **Landmarks & NPCs**:

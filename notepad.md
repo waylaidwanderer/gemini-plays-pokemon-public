@@ -181,7 +181,8 @@
 - **Main Entrance (`47, 7-8` <-> Destino City `39, 28`)**: Connects at `(47, 7)` to the southern mining plaza of **Destino City** (`39, 28`; verified Turn 32202).
 - **Route 6 Stone Tower Chamber (`11, 46-47` <-> Route 6 `44, 18`)**: Separate small chamber entered from Route 6 (`44, 18` after completing Quest #7 "Kaboom"), containing an ancient stone tower at `(10-12, 53-55)` (*"It's a stone tower... / It appears to have been built many years ago"*, verified Turn 32175).
 ## Wild Pokémon
-- **Numel**: Encountered at Lv18 (♀, Fire/Ground) on 1F at `(46, 14)` (caught in a Great Ball as 59th Owned species in Turns 32210-32213).
+- **Numel**: Encountered at Lv18 (♀, Fire/Ground) on 1F at `(46, 14)` (caught in a Great Ball, nicknamed **Etna**, and transferred to Box 2 as 59th Owned species in Turns 32210-32214).
+- **Diglett**: Encountered at Lv18 (♀, Ground) on 1F at `(47, 14)` (caught in a Great Ball, nicknamed **Gaia**, as 60th Owned species in Turns 32217-32221).
 ## Main Entrance Cavern (`cols 40-54, rows 4-14`)
 - **Valora Cutscene (`47, 9`, Turns 32203-32204)**: Stepping south onto `(47, 9)` from the entrance (`47, 8`) triggers Asher and Valora to deduce that Team Siara must have gone deeper into the mine.
 - **Landmarks & NPCs**:
@@ -1402,7 +1403,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 32212)**: Contains **Poké Ball x10** and **Great Ball x9** (caught Lv18 Numel at Destino Mine `46, 14` in Turn 32212, nicknamed **Etna**, bringing Owned species to **59** in PokéDex; **Red Shard x1** also added to Items Pocket at `40, 13` in Turn 32208).
+- **Poké Balls Pocket (Audited Turn 32220)**: Contains **Poké Ball x10** and **Great Ball x8** (caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, and Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, bringing Owned species to **60** in PokéDex; **Red Shard x1** also added to Items Pocket at `40, 13` in Turn 32208).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
