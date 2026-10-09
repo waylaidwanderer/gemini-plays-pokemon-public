@@ -18,3 +18,5 @@
   - Stepping onto `(49, 31)` triggers the cutscene with the **Police Officer** (`49, 30`) and **Valora**, after which Valora joins Asher (`54, 31`) to pursue the lost Team Siara Grunt up the northern staircase (`cols 46-48, rows 26-27`, verified Turns 32003-32007).
 - **Upper Mining Plateau (`cols 40-52, rows 18-25`)**:
   - **Mine Warning Signpost (`46, 19`)**: Interacted from `(46, 20)`, reads verbatim: *"Warning! / Collapse of mine is possible!"* (verified Turn 32012).
+  - **Collapsed Mine Entrance (`44, 18-19`) & Coworker (`43, 19`) — Quest #7 ("Kaboom", Active)**: The mine ladder at `(44, 18-19)` is blocked by three rubble piles (`43, 18`, `44, 18`, `45, 19`). Speaking to the Coworker at `(43, 19)` from `(43, 20)` explains that a Magnitude caused the mine entrance to collapse and that he accidentally dropped his **dynamite** in a **patch of sand**, initiating **Quest #7 ("Kaboom")** (*"I think I dropped it into a patch of sand... / I hope you will find something!"*, accepted Turn 32015).
+  - **Westbound Wooden Staircase (`38-39, 24-25`)**: Descends west from `(40, 24-25)` toward the western section of Route 6.
