@@ -386,7 +386,7 @@
   - **Team Siara Eclite Theft Cutscene & Gauntlet (`18, 15` -> `25, 15`, Turns 31525-31532)**: Returning across the western bridge after Valora's text message in Lancio Town triggers a cutscene at `(18, 15)` where four **Team Siara Grunts** have mined and taken the giant Eclite crystal to deliver to Team Siara HQ for Marie. Recognizing Asher from the Sovio Sewers, the grunts challenge Asher at `(25, 15)`:
     - **Siara Grunt 3 (`26, 15`)**: Uses 2 Pokémon—Duskull (♂, Lv14; Ghost) and Shuppet (♀, Lv14; Ghost); defeat quote: *"Noooo"*; awards `₽1456` and retreats east across the bridge (verified Turns 31527-31531).
     - **Siara Grunt 1 (`27, 14` -> `26, 15`)**: Pre-battle quote: *"Come on, he can't be that strong!"*; uses 1 Pokémon—Mareanie (♂, Lv15; Poison/Water); defeat quote: *"How could this no one pummel me?!"*; awards `₽1560` and retreats east across the bridge (verified Turns 31532-31534).
-    - **Siara Grunts (Grunt 2 & Grunt 4 at `26, 15-16`)**: Pre-battle quote: *"Grunt 2 & 4: We will be the ones to take care of you!"*; uses 4 Pokémon—Nidoran♀ (Lv13; Poison), Nidoran♂ (Lv14; Poison), Murkrow (♂, Lv14; Dark/Flying), and Misdreavus (♀, Lv15; Ghost) (verified Turns 31535-31542; Sirius reached Lv34 and learned Aura Sphere).
+    - **Siara Grunts (Grunt 2 & Grunt 4 at `26, 15-16`)**: Pre-battle quote: *"Grunt 2 & 4: We will be the ones to take care of you!"*; uses 4 Pokémon—Nidoran♀ (Lv13; Poison), Nidoran♂ (Lv14; Poison), Murkrow (♂, Lv14; Dark/Flying), and Misdreavus (♀, Lv15; Ghost); defeat quote: *"He... / ...defeated both of us!"*; awards `₽1560` (verified Turns 31535-31543; Sirius reached Lv34 and learned Aura Sphere).
 
 <hr>
 
@@ -932,7 +932,7 @@
   - Recalling that **Samurion City** connects to Azluf Town through **Mt. Gerhana**, Asher decides to check on the **Eclite** crystal in Mt. Gerhana on the way there, and the game automatically fast-travels Asher to **`(77, 59)`** at the eastern end of Route 2 outside Azluf Town.
 
 ## Upper Mt. Gerhana — Team Siara Steals the Eclite Crystal
-- **Theft of the Eclite Crystal (`18, 15` -> `25, 15`, Turns 31525-31527)**: Upon returning to the Upper Cave Chamber of Mt. Gerhana on the way to Samurion City, Asher found four **Team Siara Grunts** standing where the giant purple Eclite crystal had been (`26-29, 14-18`), having mined and taken the entire crystal to deliver it to **Team Siara HQ** on **Marie**'s ("milady") orders. Recognizing Asher from the Sovio Sewers, Grunt 3 (`26, 15`) stepped forward to battle him.
+- **Theft of the Eclite Crystal (`18, 15` -> `25, 15`, Turns 31525-31543)**: Upon returning to the Upper Cave Chamber of Mt. Gerhana on the way to Samurion City, Asher found four **Team Siara Grunts** standing where the giant purple Eclite crystal had been (`26-29, 14-18`), having mined and taken the entire crystal to deliver it to **Team Siara HQ** on **Marie**'s ("milady") orders. Recognizing Asher from the Sovio Sewers, Grunt 3 (`26, 15`), Grunt 1 (`27, 14`), and Grunts 2 & 4 (`26, 15-16`) battled Asher in a 3-battle gauntlet before retreating east across the chasm bridge.
 
 <hr>
 
