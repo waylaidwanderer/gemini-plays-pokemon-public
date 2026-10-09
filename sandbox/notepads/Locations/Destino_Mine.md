@@ -26,7 +26,7 @@
   - **Outcome**: Defeat quote: *"B-but my Pokémon"*; awards `₽960` (verified Turns 32232-32242).
 - **Western Section (`cols 35-44, rows 41-49`)**:
   - **Overhead Blue Pipe (`col 44`)**: Passable horizontally across `rows 46-49`, solid along `rows 40-45`.
-  - **Machop (`43, 44`), Orange Mining Machine (`40-42, 44-45`), & Crystal Alcove (`42, 40`)**: Machop stands at `(43, 44)` beside the machine (`"Machop: Chop! Chop!"`, verified Turn 32243). North of the machine across a cliff wall (`40-42, 41-43`), a small purple/teal Eclite crystal shard sits at `(42, 40)` next to a stalagmite at `(41, 40)` (observed via `latest_grid.png` Turn 32315).
+  - **Machop (`43, 44`), Orange Mining Machine (`40-42, 44-45`), & Potion Bottle Alcove (`42, 40`)**: Machop stands at `(43, 44)` beside the machine (`"Machop: Chop! Chop!"`, verified Turn 32243). North of the machine across a cliff wall (`40-42, 41-43`), a potion bottle item sprite sits at `(42, 40)` next to a stalagmite at `(41, 40)` (observed via `latest_grid.png` Turn 32315; matches the potion bottle sprite verified at 2F `47, 20` in Turn 32445).
   - **Small Rocks (`40, 49`, `35, 49`, `25, 49`, & `22, 49`)**: All four verified inert in Turns 32249, 32261, 32272, & 32273.
   - **Minecart Tracks (`rows 47-48`), Coworker Marvin (`38, 48` -> `39, 48`), & Northbound Staircase (`35-36, 44-45`)**:
     - Tracks run west below the northbound staircase at `(35-36, 44-45)`.
