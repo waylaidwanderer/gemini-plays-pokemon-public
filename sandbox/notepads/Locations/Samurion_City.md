@@ -1,6 +1,7 @@
 # Samurion City
 
 ## Geography & Connections
+- **North (`cols 25-27, row 0`)**: Connects via the northern pagoda gate bridge and staircase (`26, 6 -> 26, 0`) to **Route 4** (`50, 60`; verified Turn 31718).
 - **Southwest Mountain Cave (`39, 64` -> Upper Mt. Gerhana Cave `53, 8`)**: Stepping out of the eastern exit archway (`53, 8`) in the Upper Cave Chamber of Mt. Gerhana emerges at `(39, 65)` in **Samurion City** below the cave mouth at `(39, 64)` (verified Turn 31549).
 ## Southern Pagoda Outskirts (`cols 17-43, rows 65-79`)
 - **Southwest Mountain Ridge & Staircase (`39, 65` -> `37, 74` -> `33, 75`)**: From the Upper Mt. Gerhana exit (`39, 65`), a mountain ridge path runs south along `cols 38-40` (`rows 65-75`) to a westbound wooden staircase at `(37, 73-75)` descending into the Southern Pagoda Plaza (`cols 21-35, rows 71-75`, verified Turns 31549-31551).
