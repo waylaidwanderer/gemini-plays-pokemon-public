@@ -410,6 +410,10 @@
   - **Northwestern Eclite Chamber (`cols 7-18, rows 6-14`) & Water Stone (`16, 14`)**:
     - Contains an underground water pool at `(8-10, 9-12)`, a purple Eclite crystal embedded in the northern wall at `(10-11, 6-7)` guarded by two **Team Siara Grunts** at `(10, 8)` and `(14, 8)`, and an eastbound wooden staircase at `(17, 9-11)` ascending onto the central ridge (`cols 18-24`), which connects via a southbound staircase (`19-22, 12`) and lower westbound staircase (`18, 13-15`) to a golden item sphere at **`(16, 14)`** yielding a **Water Stone** (collected Turn 31654; `latest_grid.png` Turns 31635, 31643, 31645 & 31653-31654).
     - **Siara Grunt (`14, 8` -> `14, 9`, facing South)**: Pre-battle quote: *"What the?! What happened to everyone? Weren't there guards all over the place?"*; uses 1 Pokémon—Rotom (Lv17; Electric/Ghost; knows Double Team and Thunder Wave); defeat quote: *"I see..."* (verified Turns 31645-31652).
+  - **Central Ridge (`cols 19-24, rows 9-19`), Central Wooden Bridge (`cols 21-23, rows 20-37`) & Southern Bridge Exit (`cols 20-24, rows 38-44`)**:
+    - Ascending the eastbound diagonal staircase at `(17, 9-11)` reaches `(19, 9)` beside a purple Eclite crystal at `(20-21, 8-9)` and a northbound wooden staircase at `(22-24, 7-8)` (`latest_grid.png` Turn 31653).
+    - Descending the southbound staircase at `(19-22, 12)` reaches the lower central ridge (`cols 19-24, rows 13-19`), which connects south onto the encounter-free **Central Wooden Bridge (`cols 21-23, rows 20-37`)** (`latest_grid.png` Turns 31654, 31657 & 31659).
+    - At the southern end of the bridge (`22, 38`), two **Team Siara Grunts** flank the narrow canyon passage at **`(21, 39)`** (facing East) and **`(23, 39)`** (facing West) (verified Turn 31660).
 
 <hr>
 
