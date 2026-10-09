@@ -268,6 +268,11 @@
   - **Pre-Battle Quote**: *"I'm honestly only doing all this because of the payment... / I got kids to raise you know, so I gotta do, what I gotta do!"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Swoobat (♀, Lv26; Psychic/Flying).
+  - **Outcome**: Awards `₽2,704` (verified Turns 32364-32365).
+- **Siara Grunt 5 (`26, 19`, female grunt on western upper passage)**:
+  - **Pre-Battle Quote**: *"I hate trespassers... / Sorry, kiddo!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Bronzor (Lv24; Steel/Psychic).
 
 <hr>
 
