@@ -6,7 +6,7 @@
   - **Route 6 Main (`69, 37`+)**: Wooden signboard at `(68-69, 36)` (interacted from `69, 37`) reads verbatim: *"Route 6 / The mines just beneath..."* (verified Turn 31976).
 ## Wild Pokémon
 - **Timburr**: Encountered at Lv17 (♀, Fighting) in the upper mining plateau tall grass at `(43, 21)` (caught in a Great Ball, nicknamed **Xyla**, and transferred to Box 2 as 55th Owned species in Turns 32018-32021).
-- **Growlithe**: Encountered at Lv16 (♂, Fire; Ability: Intimidate) in the upper mining plateau tall grass at `(38, 23)` (verified Turn 32025).
+- **Growlithe**: Encountered at Lv16 (♂, Fire; Ability: Intimidate) in the upper mining plateau tall grass at `(38, 23)` (caught in a Great Ball as 56th Owned species in Turn 32031).
 ## Landmarks, NPCs & Rival Encounter
 - **Eastern Tall Grass Patches (`60-63, 33-36` & `62-66, 27-29`)**: Flanking the eastern dirt road (`cols 56-66, rows 30-37`). A wandering Bug Catcher patrols `(63-65, 28-29)`, and a 1-tile grass pocket at `(65, 26)` terminates at solid pine trees (`64-65, 25`, verified Turn 31980).
 - **PKMN Trainer Valora (`58, 30` Cutscene Trigger — Second Rival Battle)**:
@@ -22,4 +22,4 @@
 - **Upper Mining Plateau (`cols 40-52, rows 18-25`)**:
   - **Mine Warning Signpost (`46, 19`)**: Interacted from `(46, 20)`, reads verbatim: *"Warning! / Collapse of mine is possible!"* (verified Turn 32012).
   - **Collapsed Mine Entrance (`44, 18-19`) & Coworker (`43, 19`) — Quest #7 ("Kaboom", Active)**: The mine ladder at `(44, 18-19)` is blocked by three rubble piles (`43, 18`, `44, 18`, `45, 19`). Speaking to the Coworker at `(43, 19)` from `(43, 20)` explains that a Magnitude caused the mine entrance to collapse and that he accidentally dropped his **dynamite** in a **patch of sand**, initiating **Quest #7 ("Kaboom")** (*"I think I dropped it into a patch of sand... / I hope you will find something!"*, accepted Turn 32015).
-  - **Westbound Wooden Staircase (`38-39, 24-25`)**: Descends west from `(40, 24-25)` toward the western section of Route 6.
+  - **Southbound Wooden Staircase (`cols 34-36, rows 24-25`)**: Descends south from `(34-36, 23)` onto the lower central path (`34-36, 26-27`, verified Turn 32023).

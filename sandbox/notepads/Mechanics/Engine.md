@@ -78,7 +78,7 @@
 - **Key Items Pocket (Audited Turn 31891)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 32020)**: Contains **Ultra Ball x1** (collected at Route 4 `14, 39` in Turn 31797), **Great Ball x5**, and **Poké Ball x8** (caught Timburr at Route 6 `43, 21` in Turn 32020, bringing Owned species to **55** in PokéDex).
+- **Poké Balls Pocket (Audited Turn 32031)**: Contains **Ultra Ball x1** (collected at Route 4 `14, 39` in Turn 31797) and **Poké Ball x8** (used final Great Ball catching Growlithe at Route 6 `38, 23` in Turn 32031, bringing Owned species to **56** in PokéDex).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*

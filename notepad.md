@@ -685,7 +685,7 @@
   - **Route 6 Main (`69, 37`+)**: Wooden signboard at `(68-69, 36)` (interacted from `69, 37`) reads verbatim: *"Route 6 / The mines just beneath..."* (verified Turn 31976).
 ## Wild Pokémon
 - **Timburr**: Encountered at Lv17 (♀, Fighting) in the upper mining plateau tall grass at `(43, 21)` (caught in a Great Ball, nicknamed **Xyla**, and transferred to Box 2 as 55th Owned species in Turns 32018-32021).
-- **Growlithe**: Encountered at Lv16 (♂, Fire; Ability: Intimidate) in the upper mining plateau tall grass at `(38, 23)` (verified Turn 32025).
+- **Growlithe**: Encountered at Lv16 (♂, Fire; Ability: Intimidate) in the upper mining plateau tall grass at `(38, 23)` (caught in a Great Ball as 56th Owned species in Turn 32031).
 ## Landmarks, NPCs & Rival Encounter
 - **Eastern Tall Grass Patches (`60-63, 33-36` & `62-66, 27-29`)**: Flanking the eastern dirt road (`cols 56-66, rows 30-37`). A wandering Bug Catcher patrols `(63-65, 28-29)`, and a 1-tile grass pocket at `(65, 26)` terminates at solid pine trees (`64-65, 25`, verified Turn 31980).
 - **PKMN Trainer Valora (`58, 30` Cutscene Trigger — Second Rival Battle)**:
@@ -701,7 +701,7 @@
 - **Upper Mining Plateau (`cols 40-52, rows 18-25`)**:
   - **Mine Warning Signpost (`46, 19`)**: Interacted from `(46, 20)`, reads verbatim: *"Warning! / Collapse of mine is possible!"* (verified Turn 32012).
   - **Collapsed Mine Entrance (`44, 18-19`) & Coworker (`43, 19`) — Quest #7 ("Kaboom", Active)**: The mine ladder at `(44, 18-19)` is blocked by three rubble piles (`43, 18`, `44, 18`, `45, 19`). Speaking to the Coworker at `(43, 19)` from `(43, 20)` explains that a Magnitude caused the mine entrance to collapse and that he accidentally dropped his **dynamite** in a **patch of sand**, initiating **Quest #7 ("Kaboom")** (*"I think I dropped it into a patch of sand... / I hope you will find something!"*, accepted Turn 32015).
-  - **Westbound Wooden Staircase (`38-39, 24-25`)**: Descends west from `(40, 24-25)` toward the western section of Route 6.
+  - **Southbound Wooden Staircase (`cols 34-36, rows 24-25`)**: Descends south from `(34-36, 23)` onto the lower central path (`34-36, 26-27`, verified Turn 32023).
 
 <hr>
 
@@ -1296,7 +1296,7 @@
 - **Key Items Pocket (Audited Turn 31891)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 32020)**: Contains **Ultra Ball x1** (collected at Route 4 `14, 39` in Turn 31797), **Great Ball x5**, and **Poké Ball x8** (caught Timburr at Route 6 `43, 21` in Turn 32020, bringing Owned species to **55** in PokéDex).
+- **Poké Balls Pocket (Audited Turn 32031)**: Contains **Ultra Ball x1** (collected at Route 4 `14, 39` in Turn 31797) and **Poké Ball x8** (used final Great Ball catching Growlithe at Route 6 `38, 23` in Turn 32031, bringing Owned species to **56** in PokéDex).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
