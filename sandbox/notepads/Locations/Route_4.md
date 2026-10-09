@@ -40,3 +40,9 @@
     - **Pokémon 3**: Nidorina (♀, Lv17; Poison).
     - **Pokémon 4**: Bayleef (♂, Lv18; Grass).
     - **Outcome**: Defeat quote: *"Oh my... let's hope I'm not gonna need to fight you this round"*; awards `₽2016` (`₽6,182` cash total), heals Asher's party to full HP/PP (*"Wow, that was... intense. Thanks for the quick battle! Here, let me heal your Pokémon. We should both get going now, see ya at the tournament!"*), and departs north across the bridge (verified Turns 31803-31810).
+- **Northern Riverbank (`cols 11-29, rows 19-26`)**:
+  - Small rock at `(16, 25)` is inert and blocks direct southern access from `(16, 24)` onto the western riverbank strip `(9-16, 26)` (verified Turns 31816-31817).
+  - **Picnicker Katrina (`24, 20`, facing South)**:
+    - **Pre-Battle Quote**: *"Hehe, you can't pass here!"*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Roselia (♂, Lv17; Grass/Poison).
