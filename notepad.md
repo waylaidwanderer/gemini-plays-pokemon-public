@@ -688,6 +688,8 @@
   - Stepping west onto `(58, 30)` triggers **Valora** (`57, 30`) to greet Asher, talk about enjoying the Eclipse Tournament while worrying about Team Siara's plan, and challenge Asher to a friendly 4-Pokémon rival battle to see how much they have grown (verified Turns 31981-31984):
     - **Pokémon 1**: Clefairy (♀, Lv21; Fairy).
     - **Pokémon 2**: Kirlia (♀, Lv21; Psychic/Fairy).
+    - **Pokémon 3**: Brionne (♂, Lv23; Water).
+    - **Pokémon 4**: Flaaffy (♂, Lv22; Electric).
 
 <hr>
 
