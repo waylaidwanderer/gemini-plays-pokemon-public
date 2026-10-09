@@ -256,6 +256,12 @@
     - **Pokémon 1**: Weezing (♂, Lv24; Poison; knows Self-Destruct).
     - **Pokémon 2**: Zangoose (♀, Lv25; Normal).
   - **Outcome**: Defeat quote: *"Arghhh!"*; awards `₽2,600` (verified Turns 32334-32342).
+- **Siara Grunt 3 (`47, 24` -> `47, 23`, rotating)**:
+  - **Pre-Battle Quote**: *"We were driven here to secure the area for a unit retracting material from the mine..."*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Murkrow (♀, Lv24; Dark/Flying; knows Night Shade).
+    - **Pokémon 2**: Absol (♂, Lv25; Dark; knows Swords Dance).
+  - **Outcome**: Defeat quote: *"..."* (verified Turns 32344-32350).
 
 <hr>
 
@@ -1597,7 +1603,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 131), Attack (C+, 122), Defense (A-, 117), Sp. Atk (C-, 113), Sp. Def (E, 78), Speed (C-, 80)
-- **Current Condition**: 122/131 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv44 in Turn 32339; paralyzed by Siara Grunt's Seviper in Turn 32331)
+- **Current Condition**: 98/131 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv44 in Turn 32339; paralyzed by Siara Grunt's Seviper in Turn 32331)
 - **EXP**: Lv44 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv44 defeating Siara Grunt 2's Zangoose in Destino Mine 2F in Turn 32339)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)

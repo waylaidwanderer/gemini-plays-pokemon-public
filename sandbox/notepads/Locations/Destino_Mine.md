@@ -79,3 +79,9 @@
     - **Pokémon 1**: Weezing (♂, Lv24; Poison; knows Self-Destruct).
     - **Pokémon 2**: Zangoose (♀, Lv25; Normal).
   - **Outcome**: Defeat quote: *"Arghhh!"*; awards `₽2,600` (verified Turns 32334-32342).
+- **Siara Grunt 3 (`47, 24` -> `47, 23`, rotating)**:
+  - **Pre-Battle Quote**: *"We were driven here to secure the area for a unit retracting material from the mine..."*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Murkrow (♀, Lv24; Dark/Flying; knows Night Shade).
+    - **Pokémon 2**: Absol (♂, Lv25; Dark; knows Swords Dance).
+  - **Outcome**: Defeat quote: *"..."* (verified Turns 32344-32350).
