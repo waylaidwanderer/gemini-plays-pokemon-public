@@ -50,3 +50,5 @@
         - **Pokémon 3**: Palpitoad (♀, Lv24; Water/Ground).
         - **Pokémon 4**: Bronzor (Lv24; Steel/Psychic).
       - **Outcome**: Defeat quote: *"Oh man"*; awards `₽1,000` (verified Turns 32274-32285).
+- **Northwestern Corridor & Team Siara Rockfall (`cols 18-32, rows 30-41`)**:
+  - **Team Siara Rockfall Cutscene (`24, 40`, Turns 32287-32292)**: Stepping onto `(24, 40)` triggers a cutscene where four Team Siara Grunts start their operation and drop a rockfall across `(24-29, 33-35)` to block outsiders, accidentally stranding two grunts on the south side (`23, 35` and `23, 36`, facing East) while the other two grunts depart across the overhead wooden bridge (`26-27, 30-31`). Completing this cutscene also clears the two Machop (`27, 39-40`) that previously blocked the eastern staircase (`26, 39-41`).
