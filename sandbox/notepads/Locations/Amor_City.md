@@ -64,3 +64,7 @@
   - **Pre-Battle Quote**: *"Teehee! / What a cute opponent I have here!"*
   - **Team (3 Pokémon)**: Flaaffy (♀, Lv20; Electric), Palpitoad (♂, Lv20; Water/Ground), and Purugly (♀, Lv20; Normal).
   - **Outcome**: Defeat quote: *"Argh!"*; awards `₽1,280` (verified Turns 31932-31937).
+- **Match 3 (Round Two Finals — PKMN Trainer Cheryl)**:
+  - **Pre-Battle Quote**: *"Hello, Trainer! / My name is Cheryl. / I came from the Sinnoh Region, I hope my journey wasn't a waste. / Let's enjoy our fight"*
+  - **Team (4 Pokémon)**: Drifloon (♂, Lv20; Ghost/Flying; Ability: Aftermath), Wailmer (♂, Lv20; Water), Wormadam (♀, Lv20; Plant Cloak, Bug/Grass; knows Protect), and Chansey (♀, Lv21; Normal).
+  - **Outcome**: Defeat quote: *"My my... / I guess this is the end for me..."*; awards `₽1,260` and crowns Asher winner of his Round 2 group (verified Turns 31940-31953).
