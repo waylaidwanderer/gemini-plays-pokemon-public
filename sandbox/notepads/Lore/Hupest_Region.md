@@ -133,3 +133,6 @@
   2. Combines small, weak **Eclite Pieces** into a single fully powered **Eclite Shard**.
 - **Controlled Eclipsing Experiment & Gift Eclipsed Pidgey (Turns 31502-31504)**: Using an **Eclite Shard** provided by Ivo, Asher Eclipsed a **Pidgey** on command and stayed conscious afterward, showing his body is slowly adapting to the energy drain. Ivo gifted the **Eclipsed Pidgey** to Asher (Turn 31504) to help him train.
 - **Professor Ivo's Private Request (Turn 31505)**: After Dad and Valora stepped outside to wait, Ivo privately asked Asher to train himself, become a strong Trainer, and master Eclipsing to counter whatever Team Siara is planning, suggesting he can also gather Eclite from the giant Eclite crystal in **Mt. Gerhana**.
+- **Valora's HuPhone Message & Fast-Travel to Azluf Town Border (`21, 14` -> Route 2 `77, 59`, Turn 31508)**:
+  - Stepping onto `(21, 14)` outside Professor Ivo's Laboratory in Lancio Town triggers a text message from **Valora**: *"Hey! Your dad had to go take care of some business, so he left, and I set off to Samurion City. Let's meet up there!"*
+  - Recalling that **Samurion City** connects to Azluf Town through **Mt. Gerhana**, Asher decides to check on the **Eclite** crystal in Mt. Gerhana on the way there, and the game automatically fast-travels Asher to **`(77, 59)`** at the eastern end of Route 2 outside Azluf Town.

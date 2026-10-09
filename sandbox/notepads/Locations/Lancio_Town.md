@@ -88,3 +88,4 @@
 - **Fisherman (Red Cap)**: Located at (38, 22) near the harbor dock. Verified post-tremor (Turn 27467, 3 boxes): "You know kid... fishing taught me one very important thing in life." / "However it goes, you must stay calm and patient, because if you" / "calm and patient, because if you do, good things might come." Does not provide Old Rod or story progression.
 
 - **Lancio Harbor Boat Audit**: Wooden pier spans columns 32-34 across rows 23-25, ending at row 25 with row 26 being water. Harry is not present and no boat is moored; the pier terminates at open water (verified post-tremor Turn 27068).
+- **Post-Basement Lab HuPhone Trigger (`21, 14`, Turn 31508)**: Stepping onto `(21, 14)` south of the Lab signpost after receiving the Eclipsed Pidgey triggers Valora's text message inviting Asher to meet her in **Samurion City** via **Mt. Gerhana**, and automatically warps Asher to Route 2 `(77, 59)` at the western border of Azluf Town.
