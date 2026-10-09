@@ -7,6 +7,7 @@
 - **Numel**: Encountered at Lv18 (♀, Fire/Ground) on 1F at `(46, 14)` (caught in a Great Ball, nicknamed **Etna**, and transferred to Box 2 as 59th Owned species in Turns 32210-32214).
 - **Diglett**: Encountered at Lv18 (♀, Ground) on 1F at `(47, 14)` (caught in a Great Ball, nicknamed **Gaia**, as 60th Owned species in Turns 32217-32221).
 - **Klink**: Encountered at Lv17 (Steel) on 1F at `(50, 45)` (already owned; verified Turn 32230).
+- **Trapinch**: Encountered at Lv14 (♀, Ground) on 1F at `(42, 49)` (caught in a Poké Ball, nicknamed **Dune**, and transferred to Box 2 as 61st Owned species in Turns 32245-32248).
 ## Main Entrance Cavern (`cols 40-54, rows 4-14`)
 - **Valora Cutscene (`47, 9`, Turns 32203-32204)**: Stepping south onto `(47, 9)` from the entrance (`47, 8`) triggers Asher and Valora to deduce that Team Siara must have gone deeper into the mine.
 - **Landmarks & NPCs**:
