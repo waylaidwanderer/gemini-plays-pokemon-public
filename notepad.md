@@ -583,6 +583,7 @@
   - **Southern Riverbank Signboard (`43-44, 35`)**: Interacted from `(44, 36)`, reads verbatim: *"Route 4 / Road to Amor"* (verified Turn 31784).
   - **Northern Bridge Signboard (`17-18, 22`)**: Interacted from `(18, 23)`, reads verbatim: *"North: Amor City / South: Samurion City"* (verified Turn 31815).
 - **Southwestern Riverside Alcove (`10-14, 38-39`) & Ultra Ball (`14, 39`)**: Golden item sphere at `(14, 39)` yields **Ultra Ball x1** (collected Turn 31797); the riverbank path behind the pine tree tops (`row 38`) terminates at the water edge at `(10, 38)` (verified Turn 31797).
+- **Eastern Northern-Riverbank Alcove (`34-39, 20-21`) & Oval Stone (`39, 20`)**: Reached behind the tall grass patch (`31-33, 21`); golden item sphere at `(39, 20)` yields **Oval Stone x1** (collected Turn 31853). Across the pine tree wall (`36-41, 16-19`), a Squirtle is visible at `(45, 17)` in a purple-sand riverside clearing (`cols 42-45, rows 16-19`).
 - **Small Rocks (`42, 44`, `36, 38`, `32, 35`, `25, 36`, & `26, 23`)**: Inert (verified Turns 31769, 31785, 31786, 31792, & 31822).
 - **Black Belt Hamid (`28, 16`, rotating)**:
   - **Pre-Battle Quote**: *"The sound of the river is so relaxing and perfect for training!"*
