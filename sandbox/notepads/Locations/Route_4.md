@@ -12,13 +12,19 @@
   - **Northern Bridge Signboard (`17-18, 22`)**: Interacted from `(18, 23)`, reads verbatim: *"North: Amor City / South: Samurion City"* (verified Turn 31815).
 - **Southwestern Riverside Alcove (`10-14, 38-39`) & Ultra Ball (`14, 39`)**: Golden item sphere at `(14, 39)` yields **Ultra Ball x1** (collected Turn 31797); the riverbank path behind the pine tree tops (`row 38`) terminates at the water edge at `(10, 38)` (verified Turn 31797).
 - **Small Rocks (`42, 44`, `36, 38`, `32, 35`, `25, 36`, & `26, 23`)**: Inert (verified Turns 31769, 31785, 31786, 31792, & 31822).
-- **Black Belt Hamid (`29, 16`, rotating)**:
+- **Black Belt Hamid (`28, 16`, rotating)**:
   - **Pre-Battle Quote**: *"The sound of the river is so relaxing and perfect for training!"*
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Makuhita (♂, Lv17; Fighting).
     - **Pokémon 2**: Sawk (♂, Lv18; Fighting; Ability: Sturdy; knows Counter).
     - **Pokémon 3**: Stufful (♂, Lv18; Normal/Fighting).
   - **Outcome**: Defeat quote: *"Darn..."* (verified Turns 31824-31833).
+- **Bug Catcher Montel (`27, 9`, rotating)**:
+  - **Pre-Battle Quote**: *"Bug spray ain't gonna protect you from my Pokémon!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Whirlipede (♀, Lv18; Bug/Poison).
+    - **Pokémon 2**: Heracross (♂, Lv18; Bug/Fighting; knows Endure).
+  - **Outcome**: Defeat quote: *"B-but how?"*; awards `₽936` (verified Turns 31836-31842).
 - **Bug Catcher Joel (`43, 50`, rotating)**:
   - **Pre-Battle Quote**: *"Many bugs love water, so I am here to catch some besides the river!"*
   - **Team (3 Pokémon)**:
