@@ -1653,7 +1653,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 134), Attack (C+, 124), Defense (A-, 119), Sp. Atk (C-, 116), Sp. Def (E, 79), Speed (C-, 81)
-- **Current Condition**: 134/134 HP, Paralyzed (Healed to full HP with 2 Super Potions at Destino Mine `9, 13` in Turn 32459; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410; paralyzed by Siara Grunt's Seviper in Turn 32331)
+- **Current Condition**: 134/134 HP, Healthy (Healed at Destino City Pokémon Center in Turn 32494; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410)
 - **EXP**: Lv45 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv45 defeating Siara Executive's Scyther in Destino Mine 2F in Turn 32410)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
@@ -1679,7 +1679,7 @@
 - **Level**: Lv16 (leveled up defeating Siara Executive's Lv25 Wobbuffet in Destino Mine 2F in Turn 32423; Stats: HP 48, Attack 32, Defense 23, Sp. Atk 24, Sp. Def 18, Speed 26)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 16/48 HP (Healed at Destino City Pokémon Center in Turn 32187; 16/48 HP after defeating Siara Executive's Wobbuffet in Turn 32423)
+- **HP**: 48/48 HP (Healed at Destino City Pokémon Center in Turn 32494)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
