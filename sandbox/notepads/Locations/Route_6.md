@@ -9,6 +9,7 @@
 - **Growlithe**: Encountered at Lv16 (♂, Fire; Ability: Intimidate) in the upper mining plateau tall grass at `(38, 23)` (caught in a Great Ball, nicknamed **Pyro**, and transferred to Box 2 as 56th Owned species in Turns 32025-32033).
 - **Bunnelby**: Encountered at Lv15 (♀, Normal) in the lower central tall grass at `(38, 28)` (caught in a Poké Ball, nicknamed **Lepus**, and transferred to Box 2 as 57th Owned species in Turns 32056-32059).
 - **Swadloon**: Encountered at Lv16 (♀, Bug/Grass) in the lower central tall grass at `(34, 29)` (caught in a Poké Ball, nicknamed **Sylva**, and transferred to Box 2 as 58th Owned species in Turns 32062-32068).
+- **Ledyba**: Encountered at Lv20 (♀, Bug/Flying) in the lower central tall grass at `(35, 29)` (verified Turn 32178).
 ## Landmarks, NPCs & Rival Encounter
 - **Eastern Tall Grass Patches (`60-63, 33-36` & `62-66, 27-29`)**: Flanking the eastern dirt road (`cols 56-66, rows 30-37`). A wandering Bug Catcher patrols `(63-65, 28-29)`, and a 1-tile grass pocket at `(65, 26)` terminates at solid pine trees (`64-65, 25`, verified Turn 31980).
 - **PKMN Trainer Valora (`58, 30` Cutscene Trigger — Second Rival Battle)**:
