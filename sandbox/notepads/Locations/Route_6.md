@@ -16,3 +16,5 @@
     - **Outcome**: Defeat quote: *"A loss again... ahhh!"*; awards `₽1,380`.
 - **Police Officer (`49, 30`) & Northern Mountain Staircase (`cols 46-48, rows 26-27`)**:
   - Stepping onto `(49, 31)` triggers the cutscene with the **Police Officer** (`49, 30`) and **Valora**, after which Valora joins Asher (`54, 31`) to pursue the lost Team Siara Grunt up the northern staircase (`cols 46-48, rows 26-27`, verified Turns 32003-32007).
+- **Upper Mining Plateau (`cols 40-52, rows 18-25`)**:
+  - **Mine Warning Signpost (`46, 19`)**: Interacted from `(46, 20)`, reads verbatim: *"Warning! / Collapse of mine is possible!"* (verified Turn 32012).
