@@ -1182,6 +1182,9 @@
   2. **Semifinals**: Defeated **Lass Stacy** (Flaaffy Lv20, Palpitoad Lv20, Purugly Lv20), while Sinnoh's **Cheryl** defeated Worker Josh on the opposite side of the bracket.
   3. **Round Two Finals**: Defeated **PKMN Trainer Cheryl** from the Sinnoh Region (Drifloon Lv20, Wailmer Lv20, Plant Cloak Wormadam Lv20, Chansey Lv21) to win his Round Two group and advance to Round Three of the Eclipse Tournament.
 - **Valora's HuPhone Text Message (`9, 26`, Turns 31955-31956)**: Upon returning to the Lower Arena Concourse (`9, 26`), Asher received a text message on his HuPhone from **Valora**: *"I heard your Round took a bit longer than for everyone else, so I decided to train a bit on Route 6 in the meantime. I passed so I'm still going strong! Let's meet up at Route 6!"*.
+## Route 6 — Rival Match with Valora & The Escaping Team Siara Grunt
+- **Second Rival Battle with Valora (`58, 30`, Turns 31981-31996)**: On Route 6, Valora told Asher she was also enjoying the Eclipse Tournament despite worrying about Team Siara's plan, and challenged him to a 5-Pokémon rival battle (Clefairy Lv21, Kirlia Lv21, Brionne Lv23, Flaaffy Lv22, Roselia Lv21) to test their growth.
+- **Police Officer & Team Siara Grunt Cutscene (Turns 31996-32000)**: Immediately after the battle, a **Police Officer** further west on Route 6 shouted *"Freeze!"* at a **Team Siara Grunt** who had lagged behind the rest of a Team Siara group. When the officer demanded to know where the gang went and tried to arrest him, the grunt shouted *"L-look! A donut truck!"* to distract the officer and bolted north up the mountain staircase.
 
 <hr>
 
