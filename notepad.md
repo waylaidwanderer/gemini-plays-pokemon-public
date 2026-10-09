@@ -593,6 +593,10 @@
     - **Pokémon 1**: Staravia (♂, Lv17; Normal/Flying; Ability: Intimidate).
     - **Pokémon 2**: Prinplup (♂, Lv17; Water).
   - **Outcome**: Defeat quote: *"Oh my..."* (verified Turns 31779-31783).
+- **Lass Sherry (`30, 37`, rotating)**:
+  - **Pre-Battle Quote**: *"Ahh the water is sooo beautiful! A perfect background for the sweet victory!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Corsola (♀, Lv18; Water/Rock).
 
 <hr>
 
@@ -1220,7 +1224,7 @@
 
 ## UI & Transition Timing Mechanics (Verified Turns 31758-31768)
 - **Nicknaming Screen PC Transfer Dismissal (`A` Required)**: At the end of the nicknaming screen (`+Move A:OK B:Back`), the final `"<Nickname> was transferred to Box 'Box2.'"` message ignores `B` presses—you must press **`A`** to dismiss the message and return to the overworld (verified Turn 31767-31768). Additionally, pressing `Select` on the nicknaming keyboard to toggle uppercase/lowercase requires `sleep 800` before subsequent D-Pad inputs so the page-flip animation completes.
-- **Battle Bag Fade-In Delay (`2500ms`)**: Pressing `A` on `Bag` during battle requires a `sleep 2500` pause for the Bag UI fade-in animation to complete before pressing `Right, Right` to switch from Pocket 1 (`Items`) to Pocket 3 (`Poké Balls`) (verified Turns 31763-31764).
+- **Battle Bag Fade-In Delay (`2500ms`) & Cursor Memory**: Pressing `A` on `Bag` during battle requires a `sleep 2500` pause for the Bag UI fade-in animation to complete before D-Pad inputs register. Subsequent Bag openings within the same battle remember both the last opened pocket (e.g. `Poké Balls`) and the last highlighted row (verified Turns 31763-31776).
 - **Samurion City Pokémon Center Exit Routing**: Stepping `Down` off `(7, 8)` inside the Samurion City Pokémon Center requires `sleep 2500` for the door warp to settle at `(23, 48)`, followed by `Right 2` to `(25, 48)` -> `Down 1` to `(25, 49)` -> `Right 3` to `(28, 49)` to bypass the Pokémon Center window (`24, 47`) and southern house roof peak (`24, 50`) (verified Turns 31757-31760).
 
 <hr>

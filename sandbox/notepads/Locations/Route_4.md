@@ -22,3 +22,7 @@
     - **Pokémon 1**: Staravia (♂, Lv17; Normal/Flying; Ability: Intimidate).
     - **Pokémon 2**: Prinplup (♂, Lv17; Water).
   - **Outcome**: Defeat quote: *"Oh my..."* (verified Turns 31779-31783).
+- **Lass Sherry (`30, 37`, rotating)**:
+  - **Pre-Battle Quote**: *"Ahh the water is sooo beautiful! A perfect background for the sweet victory!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Corsola (♀, Lv18; Water/Rock).
