@@ -110,4 +110,5 @@
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Scyther (♀, Lv25; Bug/Flying; knows Agility).
     - **Pokémon 2**: Wobbuffet (♂, Lv25; Psychic; Ability: Shadow Tag; knows Mirror Coat, Counter, Destiny Bond, and Safeguard).
-    - **Pokémon 3**: Umbreon.
+    - **Pokémon 3**: Umbreon (♂, Lv26; Dark; knows Feint Attack).
+  - **Outcome**: Defeat quote: *"Noooo!"* (verified Turn 32426).
