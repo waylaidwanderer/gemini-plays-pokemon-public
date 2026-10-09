@@ -109,4 +109,5 @@
   - **Pre-Battle Quote**: *"The heck?! / Weren't there a bunch of grunts guarding the area? / Why does it always end like this..."*
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Scyther (♀, Lv25; Bug/Flying; knows Agility).
-    - **Pokémon 2**: Wobbuffet.
+    - **Pokémon 2**: Wobbuffet (♂, Lv25; Psychic; Ability: Shadow Tag; knows Mirror Coat, Counter, Destiny Bond, and Safeguard).
+    - **Pokémon 3**: Umbreon.
