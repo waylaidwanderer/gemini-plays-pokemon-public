@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 120), Attack (C+, 111), Defense (A-, 107), Sp. Atk (C-, 103), Sp. Def (E, 71), Speed (C-, 73)
-- **Current Condition**: 120/120 HP, Healthy
+- **Current Condition**: 79/120 HP, Healthy
 - **EXP**: Lv40 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv40 defeating Coworker Dario's Bronzor on Route 6 in Turn 32037 and declined Swords Dance)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)

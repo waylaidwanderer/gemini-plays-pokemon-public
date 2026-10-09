@@ -1310,7 +1310,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 32074)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Repel x4** (used 1 at Route 6 `33, 29` in Turn 32074), **Super Potion x8** (used 2 healing Sirius to 120/120 HP in Turn 32074), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), and **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053).
+- **Items Pocket (Audited Turn 32075)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Repel x4** (used 1 at Route 6 `33, 29` in Turn 32074), **Super Potion x9** (used 1 healing Sirius to 79/120 HP in Turn 32075), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), and **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053).
 - **Key Items Pocket (Audited Turn 31891)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
@@ -1429,7 +1429,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 120), Attack (C+, 111), Defense (A-, 107), Sp. Atk (C-, 103), Sp. Def (E, 71), Speed (C-, 73)
-- **Current Condition**: 120/120 HP, Healthy
+- **Current Condition**: 79/120 HP, Healthy
 - **EXP**: Lv40 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv40 defeating Coworker Dario's Bronzor on Route 6 in Turn 32037 and declined Swords Dance)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
