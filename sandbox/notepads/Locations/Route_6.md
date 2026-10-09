@@ -74,3 +74,5 @@
       - **Pokémon 3**: Golbat (♂, Lv24; Poison/Flying; knows Air Cutter).
       - **Pokémon 4**: Purugly (♂, Lv24; Normal).
       - **Outcome**: Defeated in Turns 32145-32154, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`).
+  - **Northwestern Staircase Terrace (`cols 4-12, rows 13-20`)**:
+    - **Small Rock (`8, 19`)**: Interacted from `(8, 18)`, yields a hidden **Super Repel x1** (collected Turn 32157).
