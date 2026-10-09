@@ -192,6 +192,13 @@
   - **Side Quest Explorer (`42, 12`) — Quest #6 ("Lost Eevee", Active)**: Standing in the western alcove above small rocks (`42, 13`, `41, 14`, & `45, 14`, all verified inert Turns 32208-32215), a stalagmite (`40, 11`, inert), and a golden item sphere at **`(40, 13)`** that yields **Red Shard x1** (collected Turn 32208). Asks the player to help find his missing partner Eevee, **Evy**, on the **second level** of Destino Mine while he searches the first level (accepted Turn 32207).
   - **Miners (`47-49, 10-12` & `52, 13`)**: A wandering miner patrols near the entrance tracks, and a second miner stands beside an orange mining machine (`50-52, 11-12`) at `(52, 13)` (*"These machines help us with all the mining work. / Technology really makes this industry strive!"*, verified Turn 32216).
   - **Southern Tunnel Doorway (`50, 16` -> `50, 17` <-> Main 1F Chamber `50, 42`)**: Stepping south from `(50, 14)` -> `(50, 15)` -> `(50, 16)` displays a downward exit arrow (`▼`) at `(50, 17)`; pressing `Down` from `(50, 16)` warps into the **Main 1F Chamber** of Destino Mine at **`(50, 42)`** below the northern archway (`50, 41`, verified Turns 32225-32227; note that `49, 15 -> 49, 16` is solid wall).
+## Main 1F Chamber (`cols 35-55, rows 40-55`)
+- **Northern Archway (`50, 41` -> `50, 42` <-> Entrance Cavern `50, 16`)**: Connects back to the southern tunnel doorway of the Main Entrance Cavern (`50, 16`; verified Turn 32227).
+- **Coworker Eddie (`45, 46`, facing South)**:
+  - **Pre-Battle Quote**: *"These mining equipment here are really heavy... / Not as heavy as my Pokémon though!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Aron (♀, Lv24; Steel/Rock; Ability: Sturdy; knows Protect and Roar).
+    - **Pokémon 2**: Onix (♀, Lv24; Rock/Ground).
 
 <hr>
 
@@ -1516,12 +1523,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv41
+- **Level**: Lv42
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 123), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 123/123 HP, Healthy (Healed at Destino City Pokémon Center in Turn 32187)
-- **EXP**: Lv41 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; reached Lv41 defeating Camper Peter's Floette on Route 6 in Turn 32095)
+- **Stats (IV Grades)**: HP (C, 125), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
+- **Current Condition**: 125/125 HP, Healthy (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv42 in Turn 32240)
+- **EXP**: Lv42 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; reached Lv42 defeating Coworker Eddie's Onix in Destino Mine in Turn 32240)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
