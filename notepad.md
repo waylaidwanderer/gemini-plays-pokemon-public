@@ -734,7 +734,7 @@
     - **Pre-Battle Quote**: *"Police Officers have raided the place... I wonder why."*
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Skiploom (♀, Lv23; Grass/Flying).
-      - **Pokémon 2**: Spinda (Normal).
+      - **Pokémon 2**: Spinda (♂, Lv24; Normal).
   - **Western Item Spheres & Lost Team Siara Grunt**:
     - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 23, 6 -> 23, 12)` past the wandering Police Officer at `(21-22, 9)`.
     - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
