@@ -105,3 +105,8 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Mantine (♀, Lv26; Water/Flying; knows Water Pulse).
   - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turn 32402). Post-battle quote: *"This is all wrong... How dare you..."*.
+- **Siara Executive (`27, 30` -> `27, 31`, facing South)**:
+  - **Pre-Battle Quote**: *"The heck?! / Weren't there a bunch of grunts guarding the area? / Why does it always end like this..."*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Scyther (♀, Lv25; Bug/Flying; knows Agility).
+    - **Pokémon 2**: Wobbuffet.

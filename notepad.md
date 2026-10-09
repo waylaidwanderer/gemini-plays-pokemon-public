@@ -282,6 +282,11 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Mantine (♀, Lv26; Water/Flying; knows Water Pulse).
   - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turn 32402). Post-battle quote: *"This is all wrong... How dare you..."*.
+- **Siara Executive (`27, 30` -> `27, 31`, facing South)**:
+  - **Pre-Battle Quote**: *"The heck?! / Weren't there a bunch of grunts guarding the area? / Why does it always end like this..."*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Scyther (♀, Lv25; Bug/Flying; knows Agility).
+    - **Pokémon 2**: Wobbuffet.
 
 <hr>
 
@@ -1620,12 +1625,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv44
+- **Level**: Lv45
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 131), Attack (C+, 122), Defense (A-, 117), Sp. Atk (C-, 113), Sp. Def (E, 78), Speed (C-, 80)
-- **Current Condition**: 46/131 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv44 in Turn 32339; paralyzed by Siara Grunt's Seviper in Turn 32331; 46/131 HP after defeating Siara Grunt 6's Mantine in Turn 32401)
-- **EXP**: Lv44 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv44 defeating Siara Grunt 2's Zangoose in Destino Mine 2F in Turn 32339)
+- **Stats (IV Grades)**: HP (C, 134), Attack (C+, 124), Defense (A-, 119), Sp. Atk (C-, 116), Sp. Def (E, 79), Speed (C-, 81)
+- **Current Condition**: 49/134 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410; paralyzed by Siara Grunt's Seviper in Turn 32331)
+- **EXP**: Lv45 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv45 defeating Siara Executive's Scyther in Destino Mine 2F in Turn 32410)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
