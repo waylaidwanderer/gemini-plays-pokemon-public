@@ -185,7 +185,7 @@
 - **Landmarks & NPCs**:
   - **Large Boulder (`49-50, 8-9`)**: Flanking the east side of the entrance archway.
   - **Overhead Blue Pipe & Red Support Girders (`col 44`, `43, 9-12`, `45, 10-12`)**: The western alcove (`cols 40-42`) is reached by routing along `row 8` (`45, 9 -> 45, 8 -> 42, 8`) above the top cap of the western girder (`43, 9`).
-  - **Side Quest Explorer (`42, 12`)**: Standing in the western alcove above a small rock (`42, 13`), stalagmite (`40, 11`), and golden item sphere (`40, 13`).
+  - **Side Quest Explorer (`42, 12`) — Quest #6 ("Lost Eevee", Active)**: Standing in the western alcove above a small rock (`42, 13`), stalagmite (`40, 11`), and golden item sphere (`40, 13`). Asks the player to help find his missing partner Eevee, **Evy**, on the **second level** of Destino Mine while he searches the first level (accepted Turn 32207).
   - **Miners (`47-49, 10-12` & `52, 13`)**: A wandering miner patrols near the entrance tracks, and a second miner stands beside an orange mining machine (`50-52, 11-12`) at `(52, 13)`.
 
 <hr>
