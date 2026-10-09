@@ -28,7 +28,7 @@
       - **Pokémon 1**: Bronzor (Lv21; Steel/Psychic).
       - **Pokémon 2**: Graveler (♀, Lv21; Rock/Ground).
     - **Outcome**: Defeat quote: *"Noooo"*; awards `₽840` (verified Turns 32035-32043).
-  - **Southbound Wooden Staircase (`cols 34-36, rows 24-25`) & Adjacent Landmarks**: Descends south from `(34-36, 23)` onto the lower central path (`34-36, 26-27`, verified Turn 32023). Spotted a **sand patch** to the northwest around `(31, 19-21)`, a patrolling Police Officer at `(33, 28)`, and a golden **item sphere** at `(40, 28)` behind the pine tree top `(41, 28)` (verified Turn 32023).
+  - **Southbound Wooden Staircase (`cols 34-36, rows 24-25`) & TinyMushroom (`41, 28`)**: Descends south from `(34-36, 23)` onto the lower central sand landing (`34-36, 26-27`, verified Turn 32023). A golden item sphere at `(41, 28)` behind the pine tree top (interacted from `40, 28`) yields **TinyMushroom x1** (collected Turn 32053). Spotted a **sand patch** to the northwest around `(31, 19-21)` and a Police Officer at `(33, 28)`.
 - **Psychic Hugo (`33, 26`, facing South)**:
   - **Pre-Battle Quote**: *"Watch out my PokéBall is floating to you!"*
   - **Team (2 Pokémon)**:
