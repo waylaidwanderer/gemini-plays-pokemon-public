@@ -617,7 +617,8 @@
     - **Pre-Battle Quote**: *"Hehe, you can't pass here!"*
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Roselia (♂, Lv17; Grass/Poison).
-      - **Pokémon 2**: Grotle (Grass).
+      - **Pokémon 2**: Grotle (♂, Lv18; Grass).
+    - **Outcome**: Defeat quote: *"..."*; awards `₽720` (`₽6,902` cash total; verified Turns 31818-31822).
 
 <hr>
 
