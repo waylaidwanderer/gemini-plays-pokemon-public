@@ -418,7 +418,8 @@
     - **Southern Floor Ladder (`22, 45` -> Deep Eclite Chamber `14, 22`)**: Located 6 tiles south of `(22, 39)` along `column 22` (`latest_grid.png` Turn 31675); stepping onto `(22, 45)` descends into the **Deep Eclite Chamber** at `(14, 22)` (`latest_grid.png` Turn 31676), which immediately triggers a confrontation cutscene where Asher walks up to `(14, 13)` before **Marie ("Mom")**, **Frio**, **Siara Admin Flo** (*"???"*), and three grunts standing in front of a massive prime **Eclite Crystal** (verified Turns 31675-31686):
       - After Asher exposes Marie's plan to weaponize Eclipsing, Marie admits she adopted Frio after her divorce from Jackson, prompting Frio to defect from Team Siara and depart.
       - **Dad (Jackson)**, **Valora**, and **Professor Ivo** arrive to back up Asher and hold off the grunts while **Siara Admin Flo** (`14, 12`) battles Asher (party is automatically healed to full HP/PP and cured of status conditions prior to the battle):
-        - **Siara Admin Flo (`14, 12`)**: Uses 4 Pokémon (plus Super Potion)—Larvesta (♂, Lv16; Bug/Fire), Salandit (♂, Lv16; Poison/Fire; knows Dragon Rage), Trubbish (♂, Lv17; Poison; Ability: Aftermath), and Grovyle (Grass) (verified Turns 31687-31696).
+        - **Siara Admin Flo (`14, 12`)**: Pre-battle quote: *"My name is Flo, Miss Marie trusts me the most. So I'll live up to that and take you out!"*; uses 4 Pokémon (plus Super Potion)—Larvesta (♂, Lv16; Bug/Fire), Salandit (♂, Lv16; Poison/Fire; knows Dragon Rage), Trubbish (♂, Lv17; Poison; Ability: Aftermath), and Grovyle (♂, Lv18; Grass; knows Quick Attack); defeat quote: *"Gosh darn it! How could this kid... How dare he!"*; awards `₽2160` (verified Turns 31687-31698).
+      - After Flo's defeat, Marie orders Team Siara to retreat (*"Don't worry... I don't need that kid to succeed. My plan... my plan is just about to begin, for now we retreat."*), leaving Asher (`14, 13`), Dad (`14, 15`), Valora (`12, 15`), and Professor Ivo (`15, 16`) before the prime Eclite Crystal (verified Turn 31698).
 
 <hr>
 
@@ -1021,9 +1022,10 @@
   - Asher exposes Marie's past: that she was married to Asher's father (Jackson), worked on Eclipsing with him, and drove Jackson to leave Siara with Asher when she insisted on weaponizing Eclipsing.
   - Confronted by Frio (*"...Am I... adopted, by chance?"*), Marie admits that Frio's biological parents died when he was a baby and that she adopted him after her divorce from Jackson.
   - Realizing that Marie lied to him about preserving Eclipser heritage to protect people and Pokémon and only adopted and used him as a tool to weaponize Eclipsing, Frio renounces Marie (*"...You are not my Mother! You just used me for your selfish desires, you lunatic! ... As an Eclipser my duty isn't to dominate people. As an Eclipser I'm supposed to do what's right for the people."*) and defects from Team Siara (*"I'm done with Siara. Good luck progressing without me!"*).
-- **Arrival of Dad, Valora & Professor Ivo & Boss Battle with Siara Admin Flo (Turns 31685-31696)**:
+- **Arrival of Dad, Valora & Professor Ivo & Boss Battle with Siara Admin Flo (Turns 31685-31698)**:
   - After Frio departs, Marie's most trusted red-haired commander introduces herself as **Siara Admin Flo** and steps up (`14, 12`) to eliminate Asher.
-  - Just in time, **Dad (Jackson)**, **Valora**, and **Professor Ivo** arrive behind Asher to hold off the Team Siara grunts while Asher battles **Siara Admin Flo** (who uses Larvesta Lv16, Salandit Lv16, Trubbish Lv17, and Grovyle).
+  - Just in time, **Dad (Jackson)**, **Valora**, and **Professor Ivo** arrive behind Asher to hold off the Team Siara grunts while Asher battles and defeats **Siara Admin Flo** (who uses Larvesta Lv16, Salandit Lv16, Trubbish Lv17, and Grovyle Lv18).
+  - **Team Siara's Retreat**: Following Flo's defeat, Marie orders a retreat, telling Flo: *"Don't worry... I don't need that kid to succeed. My plan... my plan is just about to begin, for now we retreat."* before vanishing with Flo and the grunts, leaving Asher, Dad, Valora, and Professor Ivo before the prime Eclite Crystal (`14, 13`).
 
 <hr>
 
@@ -1229,12 +1231,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv35
+- **Level**: Lv36
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 106/106 HP, Healthy
-- **EXP**: Lv35 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; reached Lv35 in Turn 31637)
+- **Current Condition**: 67/109 HP, Healthy
+- **EXP**: Lv36 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; reached Lv36 defeating Siara Admin Flo in Turn 31697)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
