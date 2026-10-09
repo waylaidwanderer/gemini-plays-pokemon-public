@@ -1146,6 +1146,12 @@
   - Frio informs Asher that **Amor City** can be reached easily on foot from Samurion City by passing north through **Route 4**. When Asher offers to help Frio find his parents, Frio remarks that while Asher is no longer the antagonist in his life, they are still rivals rather than friends before heading north toward Route 4.
 ## Route 4 River Bridge — Friendly Match with Lyra from Johto
 - **Lyra's Challenge (`19, 34`, Turns 31799-31810)**: On the wooden bridge spanning the Route 4 river, **Lyra** from the Johto region recognized Asher from the Amor City Battle Centre registration and challenged him to a friendly 4-Pokémon match (Marill Lv16, Vulpix Lv17, Nidorina Lv17, Bayleef Lv18). After Asher swept her team, Lyra healed his party (*"Wow, that was... intense. Thanks for the quick battle! Here, let me heal your Pokémon."*) and headed north toward Amor City (*"We should both get going now, see ya at the tournament!"*).
+## Eclipse Tournament Round Two — Victory Over Cheryl & Valora's Route 6 Summons
+- **Round Two Bracket & Matches (Turns 31914-31953)**: Inside the Amor City Battle Centre's Round 2 Arena (`13, 17`), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Picnicker Raginald** (Swadloon Lv19, Lombre Lv19, Ivysaur Lv20).
+  2. **Semifinals**: Defeated **Lass Stacy** (Flaaffy Lv20, Palpitoad Lv20, Purugly Lv20), while Sinnoh's **Cheryl** defeated Worker Josh on the opposite side of the bracket.
+  3. **Round Two Finals**: Defeated **PKMN Trainer Cheryl** from the Sinnoh Region (Drifloon Lv20, Wailmer Lv20, Plant Cloak Wormadam Lv20, Chansey Lv21) to win his Round Two group and advance to Round Three of the Eclipse Tournament.
+- **Valora's HuPhone Text Message (`9, 26`, Turns 31955-31956)**: Upon returning to the Lower Arena Concourse (`9, 26`), Asher received a text message on his HuPhone from **Valora**: *"I heard your Round took a bit longer than for everyone else, so I decided to train a bit on Route 6 in the meantime. I passed so I'm still going strong! Let's meet up at Route 6!"*.
 
 <hr>
 
