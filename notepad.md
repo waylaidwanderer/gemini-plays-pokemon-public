@@ -595,6 +595,9 @@
   - Stepping onto `(30, 48)` triggers Asher's call to Dad and Ivo and reveals a red-haired female Team Siara commander (*"???"*) and grunt smashing open the 5 rugged rocks blocking a northern **Mt. Gerhana** cave entrance at **`(18, 39)`** on the Western Terrace above the Samurion City Pokémon Center (with a wooden signboard at `20, 40` interacted from `20, 41` reading verbatim: *"Mt. Gerhana"*, verified Turn 31576).
   - **Verified Collision-Free Route Between Samurion Pokémon Center (`23, 48`) & Western Mt. Gerhana Cave (`18, 39`)**: `(23, 48) <-> (23, 49) <-> (28, 49) <-> (28, 40) <-> (26, 40 staircase shifts diagonally to row 39) <-> (21, 39) <-> (21, 41 passable top tip of rock spire) <-> (18, 41) <-> (18, 40) <-> (18, 39)` (verified Turns 31573-31579).
 
+## Northern Boulevard & Plaza (`cols 21-36, rows 15-35`)
+- **Frio Cutscene & Round 2 Summons (`28, 26`, Turns 31706-31712)**: Stepping north onto `(28, 26)` alongside the western pink flower garden (`cols 21-26, rows 26-34`) triggers **Frio** to emerge from `(26, 27)` in casual purple attire, recount the 300-year history of the five Samurion Pokémon Tamers who became the first **Eclipsers**, and receive the **Amor Battle Center** text message announcing Round 2 of the Eclipse Tournament and the temporary shutdown of the Hupest Metro Line for maintenance. Frio tells Asher to travel north on foot through **Route 4** to reach Amor City before departing north.
+
 <hr>
 
 <h1><code>Locations/Sovio_City</code></h1>
@@ -1031,6 +1034,16 @@
   - After Team Siara's retreat, Valora shared that she, Dad, and Professor Ivo bumped into Frio leaving the cave in tears.
   - Professor Ivo noted that Marie mentioned a plan about to begin and no longer needing Frio, while Asher resolved to get answers from Frio about Eclipsing.
   - Dad reminded Asher and Valora that Round 2 of the Eclipse Tournament is starting soon in Amor City, and Asher suggested taking the Samurion City Metro Station back to Amor City (*"Alright, let's head to Amor City! I heard this city has a Metro station."*), automatically warping outside the western Mt. Gerhana cave entrance in **Samurion City** at `(18, 40)`.
+
+## Samurion City Boulevard — Frio's History of the Five Eclipser Tamers & Route 4 to Amor City
+- **Frio's New Attire & Search for His Parents (`28, 26`, Turns 31706-31708)**: Emerging from the Samurion City flower garden (`26, 27`) in casual purple clothes after ditching his Team Siara uniform, Frio tells Asher that he is still competing in the Eclipse Tournament and intends to find out who his biological parents really were through their connection to the Eclipsers.
+- **The Five Tamers of Samurion & Origin of the Eclipsers (Turns 31708-31710)**:
+  - Frio recounts how the chaos of The Great Eclipse 300 years ago was stopped: when the meteorite exploded and scattered **Eclite** across Hupest, **Samurion City** was the only safe zone for people and Pokémon due to its walls.
+  - Five brave **Pokémon Tamers** from Samurion City stood up to fight the Eclipsed Pokémon, discovered the source of the phenomenon (Eclite), and became the first **Eclipsers**—able to channel Eclite naturally to control and revert Eclipsed Pokémon.
+  - After resolving the chaos, the five warriors swore to protect the innocent and passed their bloodline power and knowledge down through generations so there would always be people to protect it from evil hands, making Asher and Frio descendants of those nameless heroes.
+- **Amor Battle Center Round 2 Summons & Metro Maintenance (Turns 31710-31712)**:
+  - Both Asher and Frio simultaneously receive a text message on their HuPhones from the **Amor Battle Center**: *"Dear Contestant! The second round of the Eclipse Tournament is going to start in a few hours. We are sending this message way before the event because due to maintence, the metro lines aren't functioning. We want to assure everyone is notified in time so that they won't be late! Good luck, Pokémon Trainer! - Amor Battle Center"*.
+  - Frio informs Asher that **Amor City** can be reached easily on foot from Samurion City by passing north through **Route 4**. When Asher offers to help Frio find his parents, Frio remarks that while Asher is no longer the antagonist in his life, they are still rivals rather than friends before heading north toward Route 4.
 
 <hr>
 
