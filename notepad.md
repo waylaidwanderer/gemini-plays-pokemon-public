@@ -180,6 +180,13 @@
 ## Geography & Connections
 - **Main Entrance (`47, 7-8` <-> Destino City `39, 28`)**: Connects at `(47, 7)` to the southern mining plaza of **Destino City** (`39, 28`; verified Turn 32202).
 - **Route 6 Stone Tower Chamber (`11, 46-47` <-> Route 6 `44, 18`)**: Separate small chamber entered from Route 6 (`44, 18` after completing Quest #7 "Kaboom"), containing an ancient stone tower at `(10-12, 53-55)` (*"It's a stone tower... / It appears to have been built many years ago"*, verified Turn 32175).
+## Main Entrance Cavern (`cols 40-54, rows 4-14`)
+- **Valora Cutscene (`47, 9`, Turns 32203-32204)**: Stepping south onto `(47, 9)` from the entrance (`47, 8`) triggers Asher and Valora to deduce that Team Siara must have gone deeper into the mine.
+- **Landmarks & NPCs**:
+  - **Large Boulder (`49-50, 8-9`)**: Flanking the east side of the entrance archway.
+  - **Overhead Blue Pipe & Red Support Girders (`col 44`, `43, 9-12`, `45, 10-12`)**: The western alcove (`cols 40-42`) is reached by routing along `row 8` (`45, 9 -> 45, 8 -> 42, 8`) above the top cap of the western girder (`43, 9`).
+  - **Side Quest Explorer (`42, 12`)**: Standing in the western alcove above a small rock (`42, 13`), stalagmite (`40, 11`), and golden item sphere (`40, 13`).
+  - **Miners (`47-49, 10-12` & `52, 13`)**: A wandering miner patrols near the entrance tracks, and a second miner stands beside an orange mining machine (`50-52, 11-12`) at `(52, 13)`.
 
 <hr>
 
@@ -1290,6 +1297,10 @@
   - On the western intermediate terrace of Route 6 (`20, 24`), Asher and Valora cornered the lost Team Siara Grunt (`21, 24`), who panicked and admitted that Marie had warned Team Siara about Asher.
   - Begging to be spared as a straggler who got left behind, the grunt revealed that he overheard his companions talking about *"mines and the city laying nearby"*.
   - Valora recalled that the nearby city, **Destino City**, is a mining settlement, and concluded that Team Siara must have headed to **Destino City**. As Asher and Valora turned to leave (`19, 24`), the grunt tried to stop them with a 4-Pokémon team (Carvanha Lv23, Swoobat Lv24, Golbat Lv24, Purugly Lv24), which Asher swept with Sirius (Turns 32144-32154).
+## Destino City & Destino Mine Investigation
+- **Arrival in Destino City & Entrance to Destino Mine (`59, 20` -> `39, 28` -> `47, 9`, Turns 32183-32204)**:
+  - Arriving in **Destino City** ("The industrial mine city") from Route 6 (`59, 20`), Asher found the Destino Metro Station (`45, 14`) closed for renovation and the western city street (`34, 20`) gated until investigating the **Destino Mine**.
+  - Descending the diagonal stone staircase (`36, 23` -> `30, 26`) to the southern mining plaza and entering the main **Destino Mine** (`39, 28` -> `47, 9`), Asher and Valora noted there was no visible trace of Team Siara at the entrance. Asher reasoned that the Route 6 grunt wouldn't have fought to stop them if he had given a false location, and Valora suggested heading deeper into the mine to find Team Siara's operation.
 
 <hr>
 
