@@ -68,3 +68,8 @@
   - **Pre-Battle Quote**: *"Hello, Trainer! / My name is Cheryl. / I came from the Sinnoh Region, I hope my journey wasn't a waste. / Let's enjoy our fight"*
   - **Team (4 Pokémon)**: Drifloon (♂, Lv20; Ghost/Flying; Ability: Aftermath), Wailmer (♂, Lv20; Water), Wormadam (♀, Lv20; Plant Cloak, Bug/Grass; knows Protect), and Chansey (♀, Lv21; Normal).
   - **Outcome**: Defeat quote: *"My my... / I guess this is the end for me..."*; awards `₽1,260` and crowns Asher winner of his Round 2 group (verified Turns 31940-31953).
+## Post-Round-2 Street Layout & Route to Northern Amor City (Verified Turns 31958-31965)
+- **Eastern Avenue Extension (`cols 60-74, rows 27-30`)**: After winning Round 2, the construction worker at `(66, 27)` is gone, opening the main avenue east to `column 74`, where three construction workers at `(75, 28)`, `(75, 29)`, and `(75, 30)` block further eastbound progress (*"I'm sorry, there are still construction going on in the city!"*, verified Turn 31960).
+- **Central Northbound Street (`cols 42-44, rows 12-28`) & Northern Westbound Street (`cols 18-44, rows 12-13`)**:
+  - From the main avenue (`43, 29`), an open northbound street runs along `columns 42-44` (`rows 12-28`) to a northern junction at `(43, 12-13)`.
+  - Two construction workers at `(45, 12-13)` block the eastbound branch, while the westbound street along `rows 12-13` (`cols 18-44`) is open and leads to the northwestern vertical avenue along `column 18` (with a streetlamp at `17, 10-12`, verified Turn 31965).
