@@ -85,3 +85,5 @@
     - **Pokémon 1**: Murkrow (♀, Lv24; Dark/Flying; knows Night Shade).
     - **Pokémon 2**: Absol (♂, Lv25; Dark; knows Swords Dance).
   - **Outcome**: Defeat quote: *"..."*; awards `₽2,600` (verified Turns 32344-32350).
+- **Upper Eastern Ledge (`cols 48-55, rows 14-27`)**:
+  - Reached via the double eastbound staircases at `(46, 22-24)` and `(48, 21-23)`; small rocks at `(49, 25)` and `(54, 18)` (across the overhead blue pipe at `cols 51-52`) are both verified inert (Turns 32351-32352). Connects north along `col 49` (`49, 21 -> 49, 15`) onto the overhead wooden bridge (`cols 35-48, rows 14-16`).
