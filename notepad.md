@@ -199,6 +199,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Aron (♀, Lv24; Steel/Rock; Ability: Sturdy; knows Protect and Roar).
     - **Pokémon 2**: Onix (♀, Lv24; Rock/Ground).
+  - **Outcome**: Defeat quote: *"B-but my Pokémon"*; awards `₽960` (verified Turns 32232-32242).
 
 <hr>
 
