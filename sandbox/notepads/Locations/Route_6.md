@@ -67,7 +67,7 @@
     - **Outcome**: Defeat quote: *"Ah whatever..."*; awards `₽1,152` (verified Turns 32089-32097).
   - **Western Item Spheres & Lost Team Siara Grunt**:
     - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 25, 8 -> 23, 8 -> 23, 12)`; yields **King's Rock x1** (collected Turn 32098).
-    - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
+    - **Middle Western Item Sphere (`23, 21`)**: Reached on the lower grass terrace via `(27, 21 -> 27, 24 -> 25, 24 -> 25, 22 -> 23, 22)` behind the pine tree top; yields **Thunder Stone x1** (collected Turn 32168).
     - **Lost Team Siara Grunt (`21, 24`, facing South)**: Cornered from `(21, 25)` (`-> 20, 24`, Turns 32140-32144); reveals that Team Siara headed to the nearby mining settlement of **Destino City**, and then stops Asher and Valora at `(19, 24)` to battle:
       - **Pokémon 1**: Carvanha (♂, Lv23; Water/Dark; knows Aqua Jet).
       - **Pokémon 2**: Swoobat (♀, Lv24; Psychic/Flying; knows Imprison).

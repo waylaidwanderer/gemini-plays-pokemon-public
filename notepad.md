@@ -746,7 +746,7 @@
     - **Outcome**: Defeat quote: *"Ah whatever..."*; awards `₽1,152` (verified Turns 32089-32097).
   - **Western Item Spheres & Lost Team Siara Grunt**:
     - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 25, 8 -> 23, 8 -> 23, 12)`; yields **King's Rock x1** (collected Turn 32098).
-    - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
+    - **Middle Western Item Sphere (`23, 21`)**: Reached on the lower grass terrace via `(27, 21 -> 27, 24 -> 25, 24 -> 25, 22 -> 23, 22)` behind the pine tree top; yields **Thunder Stone x1** (collected Turn 32168).
     - **Lost Team Siara Grunt (`21, 24`, facing South)**: Cornered from `(21, 25)` (`-> 20, 24`, Turns 32140-32144); reveals that Team Siara headed to the nearby mining settlement of **Destino City**, and then stops Asher and Valora at `(19, 24)` to battle:
       - **Pokémon 1**: Carvanha (♂, Lv23; Water/Dark; knows Aqua Jet).
       - **Pokémon 2**: Swoobat (♀, Lv24; Psychic/Flying; knows Imprison).
@@ -1351,7 +1351,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 32159)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Repel x2** (auto-renewed 1 at Route 6 `5, 13` in Turn 32159), **Super Repel x1** (hidden item on small rock at Route 6 `8, 19`, collected Turn 32157), **Super Potion x7** (used 1 healing Sirius to 60/123 HP in Turn 32135), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), and **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098).
+- **Items Pocket (Audited Turn 32168)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Thunder Stone x1** (collected at Route 6 `23, 21` in Turn 32168), **Repel x1** (auto-renewed 1 at Route 6 `39, 14` in Turn 32166), **Super Repel x1** (hidden item on small rock at Route 6 `8, 19`, collected Turn 32157), **Super Potion x7** (used 1 healing Sirius to 60/123 HP in Turn 32135), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), and **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098).
 - **Key Items Pocket (Audited Turn 32110)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891), and **Dynamite** (collected at Route 6 `27, 34` for Quest #7 "Kaboom" in Turn 32110).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
