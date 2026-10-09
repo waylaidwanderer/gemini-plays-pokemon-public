@@ -728,7 +728,8 @@
     - **Pre-Battle Quote**: *"If you think you can run without a Pokémon Battle, you are very wrong!"*
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Raticate (♂, Lv23; Normal).
-      - **Pokémon 2**: Luxio (Electric).
+      - **Pokémon 2**: Luxio (♂, Lv24; Electric; Ability: Intimidate; knows Charge).
+    - **Outcome**: Defeat quote: *"Oh boy..."* (verified Turns 32083-32087).
 
 <hr>
 
