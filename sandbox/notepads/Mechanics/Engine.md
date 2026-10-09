@@ -121,3 +121,8 @@
   1. Restores powerless **Clear Shards** into active **Eclite Shards**.
   2. Combines smaller **Eclite Pieces** into a single fully powered **Eclite Shard**.
   - Professor Ivo noted that Eclite Pieces / Clear Shards can also be obtained from the giant Eclite crystal in Upper Mt. Gerhana (`27, 14`).
+
+## UI & Transition Timing Mechanics (Verified Turns 31758-31768)
+- **Nicknaming Screen PC Transfer Dismissal (`A` Required)**: At the end of the nicknaming screen (`+Move A:OK B:Back`), the final `"<Nickname> was transferred to Box 'Box2.'"` message ignores `B` presses—you must press **`A`** to dismiss the message and return to the overworld (verified Turn 31767-31768). Additionally, pressing `Select` on the nicknaming keyboard to toggle uppercase/lowercase requires `sleep 800` before subsequent D-Pad inputs so the page-flip animation completes.
+- **Battle Bag Fade-In Delay (`2500ms`)**: Pressing `A` on `Bag` during battle requires a `sleep 2500` pause for the Bag UI fade-in animation to complete before pressing `Right, Right` to switch from Pocket 1 (`Items`) to Pocket 3 (`Poké Balls`) (verified Turns 31763-31764).
+- **Samurion City Pokémon Center Exit Routing**: Stepping `Down` off `(7, 8)` inside the Samurion City Pokémon Center requires `sleep 2500` for the door warp to settle at `(23, 48)`, followed by `Right 2` to `(25, 48)` -> `Down 1` to `(25, 49)` -> `Right 3` to `(28, 49)` to bypass the Pokémon Center window (`24, 47`) and southern house roof peak (`24, 50`) (verified Turns 31757-31760).
