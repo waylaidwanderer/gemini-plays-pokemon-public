@@ -157,6 +157,10 @@
 
 ## Geography & Connections
 - **East (`59, 20` <-> `60, 20` Warp <-> Route 6 `0-1, 9`)**: Arriving west from Route 6 (`0, 9`) warps to the eastern paved square at `(59, 20)` in **Destino City**, while stepping east from `(59, 20)` onto `(60, 20)` warps back to Route 6 (`1, 9`; verified Turns 32183-32184). The eastern street runs west from `(59, 20)` via `(58, 20 -> 58, 22-23 -> 52, 22-23)` below a fire hydrant at `(55, 21)`.
+## Facilities & Points of Interest
+- **Destino City Pokémon Center (`41, 18`, exits to `41, 19`)**:
+  - Located at the western end of the eastern stone street (`cols 41-59, rows 19-22`), with a wooden signpost at `(47, 19)` and a wandering pigtail girl around `(47-48, 20-22)`.
+  - **Interior (`7, 8` exit mat)**: Nurse Joy at `(7, 2)` (counter at `7, 4`; healed party and registered respawn checkpoint in Turn 32187); glasses man at `(6, 4)`; woman with dark bun at `(9, 6)`; PC terminal at `(12, 1)`; PokéMart mezzanine staircase at `(2, 0)`.
 
 <hr>
 
@@ -1481,7 +1485,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 123), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 40/123 HP, Healthy
+- **Current Condition**: 123/123 HP, Healthy (Healed at Destino City Pokémon Center in Turn 32187)
 - **EXP**: Lv41 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; reached Lv41 defeating Camper Peter's Floette on Route 6 in Turn 32095)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
@@ -1507,7 +1511,7 @@
 - **Level**: Lv15
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 0/46 HP (Fainted vs. scripted Lv20 Gible in Turn 32120)
+- **HP**: 46/46 HP (Healed at Destino City Pokémon Center in Turn 32187)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
