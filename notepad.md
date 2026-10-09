@@ -406,6 +406,7 @@
     - **Siara Grunt (`20, 25` -> `20, 27`, facing South)**: Guarding the purple Eclite crystal embedded in the cliff wall at `(20, 24)`; pre-battle quote: *"Ahahaha, no no no! This bridge marks your final steps."*; uses 1 Pokémon—Combusken (♂, Lv16; Fire/Fighting); defeat quote: *"I was saying yours, not mine!"* (verified Turns 31609-31611).
     - **Siara Grunt (`16, 27`, rotating)**: Pre-battle quote: *"She didn't stop you? My, my..."*; uses 2 Pokémon—Yamask (♂, Lv15; Ghost) and Gulpin (♂, Lv16; Poison); defeat quote: *"Hooow?"* (verified Turns 31612-31616).
     - **Siara Grunt (`10, 22`, rotating)**: Pre-battle quote: *"This might disappoint you, but I can't let you go more forward!"*; uses 3 Pokémon—Croagunk (♂, Lv15; Poison/Fighting), Drifloon (♂, Lv16; Ghost/Flying; Ability: Aftermath), and Stunky (♂, Lv15; Poison/Dark); defeat quote: *"..."* (verified Turns 31622-31628).
+    - **Siara Grunt (`10, 13` -> `10, 15`, facing South)**: Pre-battle quote: *"Don't try to stop us, we can't disappoint Miss Marie!"*; uses 2 Pokémon—Diglett (♀, Lv16; Ground) and Trapinch (♂, Lv16; Ground); defeat quote: *"My god..."* (verified Turns 31635-31640).
 
 <hr>
 
