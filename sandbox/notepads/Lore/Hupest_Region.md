@@ -151,3 +151,9 @@
   - Stepping west onto `(30, 48)` outside the Samurion Dojo triggers a cutscene where Asher calls Dad and Professor Ivo.
   - Meanwhile, immediately west of the Samurion City Pokémon Center, a red-haired female Team Siara officer (*"???"* / *"madam"*) and a grunt smash away five rugged rocks blocking a northern cave entrance into the closed segments of **Mt. Gerhana** (*"Alright, time to smash the last pieces our roadblock... Yes, now we can start the operation... Call all units!"*).
   - Asher tells Valora to wait in Samurion City until Dad and Professor Ivo arrive while he goes ahead into the newly opened cave to see how big the situation is (*"Uhh, alright, but be very careful, okay?"*).
+
+## Closed Segments of Mt. Gerhana — Team Siara Briefing & Frio's Shared Ancestry Hint
+- **Team Siara's Eclite Operation (`23, 12` -> `30, 10`, Turns 31582-31585)**: Upon descending the floor ladder at `(23, 12)` inside the newly opened Samurion cave entrance of Mt. Gerhana, a cutscene shows the red-haired female Team Siara officer (*"???"*) briefing **Frio** and a grunt:
+  - `???`: *"Let's go over this once again... Our job is to find the largest Eclite piece that is said to be located around here."*
+  - When Frio asks about the smaller fragments and warns that Asher will show up, the grunt says they will collect the smaller fragments and guard the area from intruders, while the officer remarks: *"Don't worry about the kid, Frio... He won't even reach us."*
+  - **Shared Eclipser Ancestry**: Before following the officer south across the wooden bridge, Frio thinks to himself: *"I wonder... Will you come and stop us, Asher? Will you really try to stop us from uncovering the truth about your... no, our ancestors?"*—revealing that Frio and Asher share Eclipser ancestors.
