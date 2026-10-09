@@ -229,6 +229,12 @@
       - **Outcome**: Defeat quote: *"Oh man"*; awards `₽1,000` (verified Turns 32274-32285).
 - **Northwestern Corridor & Team Siara Rockfall (`cols 18-32, rows 30-41`)**:
   - **Team Siara Rockfall Cutscene (`24, 40`, Turns 32287-32292)**: Stepping onto `(24, 40)` triggers a cutscene where four Team Siara Grunts start their operation and drop a rockfall across `(24-29, 33-35)` to block outsiders, accidentally stranding two grunts on the south side (`23, 35` and `23, 36`, facing East) while the other two grunts depart across the overhead wooden bridge (`26-27, 30-31`). Completing this cutscene also clears the two Machop (`27, 39-40`) that previously blocked the eastern staircase (`26, 39-41`).
+  - **Stranded Team Siara Grunts (`23, 36-37` -> `25, 35-36`) & Frio's Rockfall Clearance (`26-27, 33-34`, Turns 32293-32308)**:
+    - Initially, the two stranded grunts at `(23, 36-37)` whisper and blame each other for stopping at a bakery for sweets and getting locked on the wrong side of the rockfall.
+    - Stepping onto `(26, 36)` triggers **Frio** to arrive (`25, 35`) and clear the central rocks (`26-27, 33-34`). The two stranded grunts immediately challenge Asher (`26, 35`) and Valora (`26, 36`) while Frio heads north under the bridge (`26, 30`):
+      - **Siara Grunt (`25, 35`)**:
+        - **Team (3 Pokémon)**: Mightyena (♀, Lv24; Dark; Ability: Intimidate), Toxicroak (♀, Lv25; Poison/Fighting), Haunter (♀, Lv24; Ghost/Poison).
+        - **Defeat Quote**: *"These kids... aaargh!"* (verified Turn 32308).
 
 <hr>
 
@@ -1347,6 +1353,9 @@
   - Upon reaching `(24, 40)` on the western side of Destino Mine 1F, Asher and Valora spotted four **Team Siara Grunts** ahead (`26, 35`, `27, 36`, `27, 31`, and `26, 30`).
   - Declaring *"Alright, let's start the operation!"*, the two northern grunts ascended onto the overhead wooden bridge and triggered a rockfall (`24-29, 33-35`) to seal the northern ground passage against *"that blondie"* (Frio) and *"the hair dyed kid"* (Asher).
   - However, the two southern grunts realized they had accidentally stood on the wrong side of the rockfall and locked themselves out of their own operation. Calling them morons, the two grunts on the upper bridge went ahead to get help while leaving the two stranded grunts at `(23, 35-36)`—simultaneously clearing the two Machop that had been blocking the eastern staircase at `(26, 39-41)`.
+- **Frio's Arrival & Clearing the Rockfall (`26, 36` -> `26, 35`, Turns 32295-32308)**:
+  - Examining the rockfall at `(26, 36)` prompted **Frio** to arrive from the south (`25, 35`), explaining that after passing Round 2 of the Eclipse Tournament he heard Team Siara was planning something in Destino City.
+  - Frio smashed open the center of the rockfall (`26-27, 33-34`) under the wooden bridge, causing the two stranded Team Siara Grunts to rush over (`25, 35-36`). Calling Valora *"Smurfette"*, Frio left the two grunts to Asher and Valora while he went ahead north under the wooden bridge (`26, 30`). Asher defeated his grunt (`25, 35`; Mightyena Lv24, Toxicroak Lv25, Haunter Lv24) while Valora handled the second grunt (`25, 36`).
 
 <hr>
 

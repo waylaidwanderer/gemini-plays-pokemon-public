@@ -52,3 +52,9 @@
       - **Outcome**: Defeat quote: *"Oh man"*; awards `₽1,000` (verified Turns 32274-32285).
 - **Northwestern Corridor & Team Siara Rockfall (`cols 18-32, rows 30-41`)**:
   - **Team Siara Rockfall Cutscene (`24, 40`, Turns 32287-32292)**: Stepping onto `(24, 40)` triggers a cutscene where four Team Siara Grunts start their operation and drop a rockfall across `(24-29, 33-35)` to block outsiders, accidentally stranding two grunts on the south side (`23, 35` and `23, 36`, facing East) while the other two grunts depart across the overhead wooden bridge (`26-27, 30-31`). Completing this cutscene also clears the two Machop (`27, 39-40`) that previously blocked the eastern staircase (`26, 39-41`).
+  - **Stranded Team Siara Grunts (`23, 36-37` -> `25, 35-36`) & Frio's Rockfall Clearance (`26-27, 33-34`, Turns 32293-32308)**:
+    - Initially, the two stranded grunts at `(23, 36-37)` whisper and blame each other for stopping at a bakery for sweets and getting locked on the wrong side of the rockfall.
+    - Stepping onto `(26, 36)` triggers **Frio** to arrive (`25, 35`) and clear the central rocks (`26-27, 33-34`). The two stranded grunts immediately challenge Asher (`26, 35`) and Valora (`26, 36`) while Frio heads north under the bridge (`26, 30`):
+      - **Siara Grunt (`25, 35`)**:
+        - **Team (3 Pokémon)**: Mightyena (♀, Lv24; Dark; Ability: Intimidate), Toxicroak (♀, Lv25; Poison/Fighting), Haunter (♀, Lv24; Ghost/Poison).
+        - **Defeat Quote**: *"These kids... aaargh!"* (verified Turn 32308).
