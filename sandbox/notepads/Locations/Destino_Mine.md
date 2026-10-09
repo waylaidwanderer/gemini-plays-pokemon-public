@@ -17,7 +17,7 @@
   - **Miners (`47-49, 10-12` & `52, 13`)**: A wandering miner patrols near the entrance tracks, and a second miner stands beside an orange mining machine (`50-52, 11-12`) at `(52, 13)` (*"These machines help us with all the mining work. / Technology really makes this industry strive!"*, verified Turn 32216).
   - **Southern Tunnel Doorway (`50, 16` -> `50, 17` <-> Main 1F Chamber `50, 42`)**: Stepping south from `(50, 14)` -> `(50, 15)` -> `(50, 16)` displays a downward exit arrow (`▼`) at `(50, 17)`; pressing `Down` from `(50, 16)` warps into the **Main 1F Chamber** of Destino Mine at **`(50, 42)`** below the northern archway (`50, 41`, verified Turns 32225-32227; note that `49, 15 -> 49, 16` is solid wall).
 ## Main 1F Chamber (`cols 35-55, rows 40-55`)
-- **Northern Archway (`50, 41` -> `50, 42` <-> Entrance Cavern `50, 16`)**: Connects back to the southern tunnel doorway of the Main Entrance Cavern (`50, 16`; verified Turn 32227).
+- **Northern Archway (`50, 41` -> `50, 42` <-> Entrance Cavern `50, 16`)**: Connects back to the southern tunnel doorway of the Main Entrance Cavern (`50, 16`; verified Turn 32227). The eastern side of the chamber (`cols 46-56, rows 40-50`) contains two orange mining machines (`46-48, 43-44` and `52-54, 47-48`) and terminates at the eastern rock wall (`cols 55-56`, verified Turns 32485-32486).
 - **Coworker Eddie (`45, 46`, facing South)**:
   - **Pre-Battle Quote**: *"These mining equipment here are really heavy... / Not as heavy as my Pokémon though!"*
   - **Team (2 Pokémon)**:
