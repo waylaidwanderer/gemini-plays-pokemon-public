@@ -28,3 +28,6 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Corsola (♀, Lv18; Water/Rock).
   - **Outcome**: Defeat quote: *"I meant my victory"*; awards `₽1152` (verified Turns 31789-31792).
+- **Wooden River Bridge (`cols 18-20, rows 31-36`) & Western Pier (`cols 16-17, rows 32-33`)**:
+  - Spans north across the Route 4 river from `(18-20, 36)` to `(18-20, 31+)`, with a western pier extension at `(16-17, 32-33)` where a Tuber stands at `(16, 32)` facing East (`latest_grid.png` Turns 31795-31796).
+  - **PKMN Trainer Lyra (`19, 34` Bridge Trigger)**: Stepping north onto `(19, 34)` triggers **Lyra** from the Johto region to walk up onto `(19, 35)` (verified Turn 31799).
