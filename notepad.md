@@ -261,7 +261,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Murkrow (♀, Lv24; Dark/Flying; knows Night Shade).
     - **Pokémon 2**: Absol (♂, Lv25; Dark; knows Swords Dance).
-  - **Outcome**: Defeat quote: *"..."* (verified Turns 32344-32350).
+  - **Outcome**: Defeat quote: *"..."*; awards `₽2,600` (verified Turns 32344-32350).
 
 <hr>
 
