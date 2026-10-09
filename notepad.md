@@ -159,8 +159,12 @@
 - **East (`59, 20` <-> `60, 20` Warp <-> Route 6 `0-1, 9`)**: Arriving west from Route 6 (`0, 9`) warps to the eastern paved square at `(59, 20)` in **Destino City**, while stepping east from `(59, 20)` onto `(60, 20)` warps back to Route 6 (`1, 9`; verified Turns 32183-32184). The eastern street runs west from `(59, 20)` via `(58, 20 -> 58, 22-23 -> 52, 22-23)` below a fire hydrant at `(55, 21)`.
 ## Facilities & Points of Interest
 - **Destino City Pokémon Center (`41, 18`, exits to `41, 19`)**:
-  - Located at the western end of the eastern stone street (`cols 41-59, rows 19-22`), with a wooden signpost at `(47, 19)` and a wandering pigtail girl around `(47-48, 20-22)`.
+  - Located at the western end of the eastern stone street (`cols 41-59, rows 19-22`), with a wooden signpost at `(47, 19)` (interacted from `47, 20`, reading verbatim: *"Destino Metro Station / Up ahead"*, verified Turn 32194) and a wandering pigtail girl around `(47-48, 20-22)`.
   - **Interior (`7, 8` exit mat)**: Nurse Joy at `(7, 2)` (counter at `7, 4`; healed party and registered respawn checkpoint in Turn 32187); glasses man at `(6, 4)` (*"Health care is top notch for Pokémon... I wonder if it will ever be this good for humans."*, Turn 32188); wandering woman with dark bun around `(9-10, 6-7)`; PC terminal at `(12, 1)`; PokéMart mezzanine staircase at `(2, 0)` (connected seamlessly on the same map to `5, 7`, clerk at `5, 3` selling Poké Ball `₽200`, Great Ball `₽600`, Potion `₽300`, Super Potion `₽700`, Antidote `₽100`, Paralyz Heal `₽200`, Awakening `₽250`, Burn Heal `₽250`, Repel `₽350`, and Super Repel `₽500`, verified Turns 32191-32192).
+- **Destino Metro Station Archway & Guard (`45, 14`)**:
+  - North of the Pokémon Center (`cols 44-46, rows 13-18`), a green-uniformed worker at `(45, 14)` guards the northern archway leading to the Destino Metro Station: *"I'm sorry but the metro station is under renovation. Come back later"* (verified Turn 32194).
+- **Town Signboard (`37-38, 19`)**:
+  - Located immediately west of the Pokémon Center (interacted from `38, 20`); reads verbatim: *"Destino City / The industrial mine city"* (verified Turn 32194).
 
 <hr>
 
