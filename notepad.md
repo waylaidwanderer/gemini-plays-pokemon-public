@@ -604,7 +604,7 @@
   - **PKMN Trainer Lyra (`19, 34` Bridge Trigger)**: Stepping north onto `(19, 34)` triggers **Lyra** from the Johto region to walk up onto `(19, 35)`, recognize Asher from the Amor City Battle Centre, and challenge him to a friendly 4-Pokémon battle (*"Hehe, I won't hold back!"*, verified Turns 31799-31803):
     - **Pokémon 1**: Marill (♂, Lv16; Water/Fairy).
     - **Pokémon 2**: Vulpix (♀, Lv17; Fire).
-    - **Pokémon 3**: Nidorina (♀; Poison).
+    - **Pokémon 3**: Nidorina (♀, Lv17; Poison).
 
 <hr>
 
