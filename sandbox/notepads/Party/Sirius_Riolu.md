@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 10/109 HP, Healthy
+- **Current Condition**: 109/109 HP, Healthy
 - **EXP**: Lv36 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; reached Lv36 on Route 4 in Turn 31737)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
