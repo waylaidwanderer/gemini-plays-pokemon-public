@@ -1347,12 +1347,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv37
+- **Level**: Lv38
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 112), Attack (C+, 103), Defense (A-, 100), Sp. Atk (C-, 96), Sp. Def (E, 66), Speed (C-, 68)
-- **Current Condition**: 112/112 HP, Healthy
-- **EXP**: Lv37 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv37 defeating Lyra on Route 4 in Turn 31809)
+- **Stats (IV Grades)**: HP (C, 114), Attack (C+, 106), Defense (A-, 102), Sp. Atk (C-, 98), Sp. Def (E, 68), Speed (C-, 70)
+- **Current Condition**: 114/114 HP, Healthy
+- **EXP**: Lv38 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv38 defeating Picnicker Raginald's Swadloon in Round 2 of the Eclipse Tournament in Turn 31925)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
