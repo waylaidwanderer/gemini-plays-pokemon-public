@@ -33,6 +33,7 @@
 - **Onix**: Encountered at Lv8 (Rock/Ground) on 1F at `(6, 27)` (verified Turn 30766).
 - **Carbink**: Encountered at Lv8 (Rock/Fairy) on the 1F Northeastern Terrace at `(27, 18)` (verified Turn 31342).
 - **Dwebble**: Encountered at Lv13 (♂, Bug/Rock) in the Closed Segment Eclite Cavern at `(32, 28)` (verified Turn 31607).
+- **Nincada**: Encountered at Lv10 (♀, Bug/Ground) in the Closed Segment Eclite Cavern at `(9, 18)` (verified Turn 31633).
 
 ## Story Events & Landmarks
 - **Southern Entrance Cutscene (`6, 29`)**: Stepping north from `(6, 30)` onto `(6, 29)` triggers a cutscene with **Valora** (`7, 29`), who wonders what the Eclipse Rock looks like (*"This is the place I think. I wonder how that rock looks... Will we even know when we find it?"* / Asher: *"I'm sure we will, it must be something very unique..."*). The camera cuts deeper into Mt. Gerhana, where **Frio** remarks *"I must be close to it... And there's no sign of that prick as well. I thought he will at least show up so that I can mess with him... Oh well."* before descending a wooden ladder into a lower pit (verified Turns 28077-28078).
