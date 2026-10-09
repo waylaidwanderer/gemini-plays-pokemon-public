@@ -167,8 +167,9 @@
   - Located immediately west of the Pokémon Center (interacted from `38, 20`); reads verbatim: *"Destino City / The industrial mine city"* (verified Turn 32194).
 - **Western Street Roadblock (`34, 19-21`)**:
   - Stepping west onto `col 34` (`34, 20`) prior to investigating the Destino Mine displays verbatim: *"We should check what's the deal with the Destino Mine!"* and steps the player east to `(35, 20)` (verified Turn 32195).
-- **Southern Avenue toward Destino Mine (`cols 36-46, rows 22+`)**:
-  - Directly south of the Destino City Pokémon Center (`41, 18`), the tan curb along `row 22` (`cols 36-44`) is passable and leads south into the mining district (`rows 23+`), where a female resident in a pink shirt patrols around `(41, 22-24)`.
+- **Southern Avenue & Diagonal Staircase toward Destino Mine (`cols 32-46, rows 22-30`)**:
+  - Directly south of the Destino City Pokémon Center (`41, 18`), the tan curb along `row 22` (`cols 36-44`) is passable and leads south into the upper dirt plaza (`cols 36-46, rows 23-29`), where a female resident in a pink shirt patrols around `(40-41, 22-24)` (*"The city is huge... I need to find a Burger Kingler..."*, verified Turn 32197).
+  - At the western edge of the upper dirt plaza (`36, 23-24`), a diagonal stone staircase (`35, 24 -> 32, 27`) descends down-left to the lower plaza leading east to the main **Destino Mine** entrance (`39, 28-29`).
 
 <hr>
 
