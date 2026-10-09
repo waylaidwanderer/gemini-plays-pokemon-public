@@ -756,7 +756,7 @@
   - **Northwestern Staircase Terrace (`cols 4-12, rows 13-20`) & Upper Destino Road (`cols 0-8, rows 7-12`)**:
     - **Small Rock (`8, 19`)**: Interacted from `(8, 18)`, yields a hidden **Super Repel x1** (collected Turn 32157).
     - **Rock Cones (`8, 15` & `12, 16`)**: Inert (verified Turn 32158).
-    - **Upper Northwestern Staircase (`4-6, 13-14`)**: Ascends north from the sand patch (`4-6, 15`) to `(5, 12)` (terminating on the east at trees `cols 9-12, rows 8-12` and leading northwest onto a stone-paved road at `cols 0-2, rows 7-11` toward **Destino City**, verified Turns 32159-32161).
+    - **Upper Northwestern Staircase (`4-6, 13-14`)**: Ascends north from the sand patch (`4-6, 15`) to `(5, 12)` (terminating on the east at trees `cols 9-12, rows 8-12` and leading northwest onto a stone-paved road at `cols 0-1, rows 8-9` that transitions west onto `(-1, 8-9)` into **Destino City**, verified via `latest_grid.png` Turn 32161).
 
 <hr>
 
