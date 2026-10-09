@@ -41,3 +41,7 @@
     - **Pokémon 1**: Musharna (♂, Lv23; Psychic; inflicts Sleep).
     - **Pokémon 2**: Kadabra (♂, Lv23; Psychic; knows Night Shade and Barrier).
   - **Outcome**: Awards `₽828` (verified Turns 32045-32052).
+- **Upper Northern Plateau (`cols 21-41, rows 6-20`)**:
+  - **Northbound Wooden Staircase (`cols 27-29, rows 16-17`)**: Ascends north from the rocky mountain ridge crossroads (`28, 20`) to `(28, 15)` (verified Turn 32079).
+  - **Trainer Tips Signpost (`35, 16`)**: Interacted from `(35, 17)`, reads verbatim: *"Trainer Tips! / Hidden items might be hiding on the ground unvisible to the eye."* (verified Turn 32081).
+  - **Small Rock Cone (`41, 15`)**: Inert (verified Turn 32081).
