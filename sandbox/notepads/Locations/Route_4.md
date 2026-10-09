@@ -1,6 +1,7 @@
 # Route 4
 
 ## Geography & Connections
+- **North (`cols 24-29, row 0`)**: Connects via the northern purple-sand avenue to **Amor City** (verified from `27, 3` in Turn 31845).
 - **South (`cols 49-51, row 60`)**: Connects via northern pagoda gate staircase to **Samurion City** (`cols 25-27, row 0`; verified Turn 31718).
 ## Wild Pokémon
 - **Ducklett**: Encountered at Lv13 (♂, Water/Flying) in the southern tall grass at `(44, 53)` (verified Turn 31722).
