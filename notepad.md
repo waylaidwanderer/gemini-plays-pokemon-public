@@ -273,6 +273,9 @@
   - **Pre-Battle Quote**: *"I hate trespassers... / Sorry, kiddo!"*
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Bronzor (Lv24; Steel/Psychic).
+    - **Pokémon 2**: Krokorok (♀, Lv25; Ground/Dark; Ability: Intimidate).
+    - **Pokémon 3**: Durant (♂, Lv25; Bug/Steel).
+  - **Outcome**: Defeat quote: *"This is awkwards."*; awards `₽2,600` (verified Turns 32370-32378).
 
 <hr>
 
