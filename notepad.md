@@ -684,7 +684,7 @@
   - **Route 6 Eastern Approach (`cols 0-16, rows 17-19`)**: Connects at the east (`16, 18` <-> Route 6 Gatehouse `1, 7` <-> Amor City `7, 7`, verified Turns 31971-31973) and transitions seamlessly at the west (`0, 17-18`) onto **Route 6 Main** (`69, 37-38`, verified Turn 31975).
   - **Route 6 Main (`69, 37`+)**: Wooden signboard at `(68-69, 36)` (interacted from `69, 37`) reads verbatim: *"Route 6 / The mines just beneath..."* (verified Turn 31976).
 ## Wild Pokémon
-- **Timburr**: Encountered at Lv17 (♀, Fighting) in the upper mining plateau tall grass at `(43, 21)` (verified Turn 32018).
+- **Timburr**: Encountered at Lv17 (♀, Fighting) in the upper mining plateau tall grass at `(43, 21)` (caught in a Great Ball, nicknamed **Xyla**, and transferred to Box 2 as 55th Owned species in Turns 32018-32021).
 ## Landmarks, NPCs & Rival Encounter
 - **Eastern Tall Grass Patches (`60-63, 33-36` & `62-66, 27-29`)**: Flanking the eastern dirt road (`cols 56-66, rows 30-37`). A wandering Bug Catcher patrols `(63-65, 28-29)`, and a 1-tile grass pocket at `(65, 26)` terminates at solid pine trees (`64-65, 25`, verified Turn 31980).
 - **PKMN Trainer Valora (`58, 30` Cutscene Trigger — Second Rival Battle)**:
@@ -1295,7 +1295,7 @@
 - **Key Items Pocket (Audited Turn 31891)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 31797)**: Contains **Ultra Ball x1** (collected at Route 4 `14, 39` in Turn 31797), **Great Ball x6**, and **Poké Ball x8** (purchased 10 of each at Samurion City PokéMart in Turn 31755; caught Patrat in Turn 31764 and Cascoon in Turn 31776, bringing Owned species to **54** in PokéDex; `₽4,166` cash remaining).
+- **Poké Balls Pocket (Audited Turn 32020)**: Contains **Ultra Ball x1** (collected at Route 4 `14, 39` in Turn 31797), **Great Ball x5**, and **Poké Ball x8** (caught Timburr at Route 6 `43, 21` in Turn 32020, bringing Owned species to **55** in PokéDex).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
