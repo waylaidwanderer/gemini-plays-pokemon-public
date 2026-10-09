@@ -15,3 +15,7 @@
     - **Pokémon 2**: Beedrill (♀, Lv17; Bug/Poison).
     - **Pokémon 3**: Butterfree (♀, Lv16; Bug/Flying).
   - **Outcome**: Defeat quote: *"Oh nooo!"* (verified Turns 31724-31748).
+- **Picnicker Imaan (`42, 42`, facing East)**:
+  - **Pre-Battle Quote**: *"Oh boy, time for a battle!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Staravia (♂, Lv17; Normal/Flying; Ability: Intimidate).
