@@ -126,4 +126,4 @@
   - **Eastern Chasm Bridge (`cols 31-46, rows 16-18`), Eastern Landing (`cols 47-55, rows 16-21`), TM39 Rock Tomb (`43, 9`) & Eastern Exit Archway (`53, 8`)**:
     - Crossing the eastern wooden bridge (`cols 31-46, rows 16-18`) reaches the eastern landing (`cols 47-55, rows 16-21`) and a northbound wooden staircase at `(49-51, 12-15)` leading up to the upper eastern ledge (`cols 43-54, rows 8-11`, verified Turns 31544-31547).
     - **TM39 (Rock Tomb) (`43, 9`)**: Golden item sphere on the western side of the upper eastern ledge (`43, 9`, interacted from `44, 9`; collected Turn 31547).
-    - **Eastern Exit Archway (`53, 8`)**: Located on the northeastern side of the upper eastern ledge (`53, 8`, entered from `53, 9` stepping `Up`; verified Turn 31547).
+    - **Eastern Exit Archway (`53, 8` -> Samurion City `39, 65`)**: Located on the northeastern side of the upper eastern ledge (`53, 8`, entered from `53, 9` stepping `Up`); exits directly into **Samurion City** at `(39, 65)` below the cave mouth at `(39, 64)` (verified Turns 31547-31549).

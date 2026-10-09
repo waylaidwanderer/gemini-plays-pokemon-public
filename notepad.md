@@ -391,7 +391,7 @@
   - **Eastern Chasm Bridge (`cols 31-46, rows 16-18`), Eastern Landing (`cols 47-55, rows 16-21`), TM39 Rock Tomb (`43, 9`) & Eastern Exit Archway (`53, 8`)**:
     - Crossing the eastern wooden bridge (`cols 31-46, rows 16-18`) reaches the eastern landing (`cols 47-55, rows 16-21`) and a northbound wooden staircase at `(49-51, 12-15)` leading up to the upper eastern ledge (`cols 43-54, rows 8-11`, verified Turns 31544-31547).
     - **TM39 (Rock Tomb) (`43, 9`)**: Golden item sphere on the western side of the upper eastern ledge (`43, 9`, interacted from `44, 9`; collected Turn 31547).
-    - **Eastern Exit Archway (`53, 8`)**: Located on the northeastern side of the upper eastern ledge (`53, 8`, entered from `53, 9` stepping `Up`; verified Turn 31547).
+    - **Eastern Exit Archway (`53, 8` -> Samurion City `39, 65`)**: Located on the northeastern side of the upper eastern ledge (`53, 8`, entered from `53, 9` stepping `Up`); exits directly into **Samurion City** at `(39, 65)` below the cave mouth at `(39, 64)` (verified Turns 31547-31549).
 
 <hr>
 
@@ -535,6 +535,15 @@
   - Enclosed on the west by the solid 2x2 outdoor boulder at `(36-37, 10-11)` and cliff wall at `(35, 9-10)` (verified solid across all 4 boulder tiles in Turn 31347), and on the south by the Pokémon Day-Care fence (`35-41, 12-16`), pine tree (`41-42, 17-18`), boulder (`43-44, 15-16`), and cliffs (`45+, 15-18`).
   - Contains an inert pale flower patch at `(39, 11)`, an inert blue flower patch at `(40, 10)`, and a sunken rocky basin at `(42-45, 11-13)` (entered via northern stone stairs at `43-44, 10` from `43-44, 9`, with a walkable low southern rim at `43-44, 14` leading onto the southern grass strip `42-45, 14-15`).
   - **Cure Flower (`45, 14`) — Quest #4 ("Medic!")**: When **Quest #4 ("Medic!")** is active, an orange item sphere spawns at **`(45, 14)`** on the southern grass strip below the sunken basin; interacting with `(45, 14)` from `(44, 14)` yields the **Cure Flower** into the Key Items Pocket (verified Turn 28485).
+
+<hr>
+
+<h1><code>Locations/Samurion_City</code></h1>
+
+# Samurion City
+
+## Geography & Connections
+- **Southwest Mountain Cave (`39, 64` -> Upper Mt. Gerhana Cave `53, 8`)**: Stepping out of the eastern exit archway (`53, 8`) in the Upper Cave Chamber of Mt. Gerhana emerges at `(39, 65)` in **Samurion City** below the cave mouth at `(39, 64)` (verified Turn 31549).
 
 <hr>
 
