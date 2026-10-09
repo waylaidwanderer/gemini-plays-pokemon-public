@@ -729,7 +729,7 @@
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Raticate (♂, Lv23; Normal).
       - **Pokémon 2**: Luxio (♂, Lv24; Electric; Ability: Intimidate; knows Charge).
-    - **Outcome**: Defeat quote: *"Oh boy..."* (verified Turns 32083-32087).
+    - **Outcome**: Defeat quote: *"Oh boy..."*; awards `₽1,248` (verified Turns 32083-32087).
 
 <hr>
 
