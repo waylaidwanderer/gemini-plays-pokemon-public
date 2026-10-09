@@ -44,5 +44,6 @@
   - Small rock at `(16, 25)` is inert and blocks direct southern access from `(16, 24)` onto the western riverbank strip `(9-16, 26)` (verified Turns 31816-31817).
   - **Picnicker Katrina (`24, 20`, facing South)**:
     - **Pre-Battle Quote**: *"Hehe, you can't pass here!"*
-    - **Team (1 Pokémon)**:
+    - **Team (2 Pokémon)**:
       - **Pokémon 1**: Roselia (♂, Lv17; Grass/Poison).
+      - **Pokémon 2**: Grotle (Grass).
