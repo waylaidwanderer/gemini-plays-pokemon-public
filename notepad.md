@@ -1459,7 +1459,13 @@
   - Professor Ivo noted that Eclite Pieces / Clear Shards can also be obtained from the giant Eclite crystal in Upper Mt. Gerhana (`27, 14`).
 
 ## UI & Transition Timing Mechanics (Verified Turns 31758-31768)
-- **Nicknaming Screen PC Transfer Dismissal (`A` Required)**: At the end of the nicknaming screen (`+Move A:OK B:Back`), the final `"<Nickname> was transferred to Box 'Box2.'"` message ignores `B` presses—you must press **`A`** to dismiss the message and return to the overworld (verified Turn 31767-31768). Additionally, pressing `Select` on the nicknaming keyboard to toggle uppercase/lowercase requires `sleep 800` before subsequent D-Pad inputs so the page-flip animation completes.
+- **Nicknaming Screen Layout & PC Transfer Dismissal (`A` Required)**:
+  - **7x4 Keyboard Grid `(col, row)`**:
+    - **Row 0**: `(0,0)=A/a`, `(1,0)=B/b`, `(2,0)=C/c`, `(3,0)=D/d`, `(4,0)=E/e`, `(5,0)=F/f`, `(6,0)=.`
+    - **Row 1**: `(0,1)=G/g`, `(1,1)=H/h`, `(2,1)=I/i`, `(3,1)=J/j`, `(4,1)=K/k`, `(5,1)=L/l`, `(6,1)=,`
+    - **Row 2**: `(0,2)=M/m`, `(1,2)=N/n`, `(2,2)=O/o`, `(3,2)=P/p`, `(4,2)=Q/q`, `(5,2)=R/r`, `(6,2)=S/s`
+    - **Row 3**: `(0,3)=T/t`, `(1,3)=U/u`, `(2,3)=V/v`, `(3,3)=W/w`, `(4,3)=X/x`, `(5,3)=Y/y`, `(6,3)=Z/z`
+  - **Page Flip & Two-Part PC Box Transfer**: Pressing `Select` to toggle uppercase/lowercase requires `sleep 800` before subsequent D-Pad inputs. After pressing `Start` -> `A` to confirm a nickname when the party is full, two sequential messages appear (`"<Name> was transferred to Someone's PC.▼"` followed by `"It was placed in Box 'Box2.'"`), both of which ignore `B` presses and require pressing **`A`** twice (`A, sleep 1800, A, sleep 2500`) to return to the overworld (verified Turn 32248).
 - **Battle Bag Fade-In Delay (`2500ms`) & Cursor Memory**: Pressing `A` on `Bag` during battle requires a `sleep 2500` pause for the Bag UI fade-in animation to complete before D-Pad inputs register. Subsequent Bag openings within the same battle remember both the last opened pocket (e.g. `Poké Balls`) and the last highlighted row (verified Turns 31763-31776).
 - **Samurion City Pokémon Center Exit Routing**: Stepping `Down` off `(7, 8)` inside the Samurion City Pokémon Center requires `sleep 2500` for the door warp to settle at `(23, 48)`, followed by `Right 2` to `(25, 48)` -> `Down 1` to `(25, 49)` -> `Right 3` to `(28, 49)` to bypass the Pokémon Center window (`24, 47`) and southern house roof peak (`24, 50`) (verified Turns 31757-31760).
 
