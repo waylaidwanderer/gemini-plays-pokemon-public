@@ -19,3 +19,5 @@
   - **Pre-Battle Quote**: *"Oh boy, time for a battle!"*
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Staravia (♂, Lv17; Normal/Flying; Ability: Intimidate).
+    - **Pokémon 2**: Prinplup (♂, Lv17; Water).
+  - **Outcome**: Defeat quote: *"Oh my..."* (verified Turns 31779-31783).
