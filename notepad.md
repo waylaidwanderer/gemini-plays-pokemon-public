@@ -52,7 +52,15 @@
   - **Main Avenue Connection (`rows 29-30`)**: Upon arriving via Route 4 for Round 2, the `(53, 27)` construction roadblock is cleared, connecting `(26, 29)` directly east along `row 29` to the **Amor City Battle Centre** (`59, 24`, verified Turn 31910).
   - Stepping `Down` on the Battle Centre exit mat at `(10, 21)` warps outside to `(59, 25)` in Amor City (door at `59, 24`, verified Turn 27566-27567).
   - Signboard at `(56-57, 25)` interacted from `(57, 26)` reads verbatim: *"Amor Metro Station / Amor Battle Centre"* (verified Turn 27568).
-  - Western street passage at `(53, 27)` is physically blocked by a construction worker who states verbatim when interacted with from `(54, 27)`: *"I'm sorry but the city is closed off due to constructions!"* (verified Turn 27568). A second construction worker sprite is visually present in the corresponding eastern street passage at `(66, 27)` (`latest_grid.png` Turn 27568; not physically interacted with).
+  - Eastern street passage at `(66, 27)` is blocked by a construction worker (*"I'm sorry but the city is closed off due to constructions!"*, verified Turns 29635-29636).
+
+## Round 2 Arena & Eclipse Tournament Round Two (`13, 17` -> `4, 14` -> `14, 14`)
+- **Bracket & Format (Entered Turn 31914 at `13, 17` -> `7, 17` Bracket Screen)**:
+  - **Left Bracket**: **Asher vs. Picnicker Raginald** (Match 1) and **Ace Trainer Male vs. Camper** (Match 2).
+  - **Right Bracket**: **Cheryl (from Sinnoh) vs. Ace Trainer Female** (Match 3) and **Worker vs. Black Belt** (Match 4).
+- **Match 1 (Quarterfinals — Picnicker Raginald)**:
+  - **Pre-Battle Quote**: *"Yeah yeah! / I advanced through the first round, I'll advance through this one too!"*
+  - **Lead Pokémon**: Swadloon (♀, Lv19; Bug/Grass).
 
 <hr>
 
@@ -637,8 +645,8 @@
     - **Pokémon 3**: Nidorina (♀, Lv17; Poison).
     - **Pokémon 4**: Bayleef (♂, Lv18; Grass).
     - **Outcome**: Defeat quote: *"Oh my... let's hope I'm not gonna need to fight you this round"*; awards `₽2016` (`₽6,182` cash total), heals Asher's party to full HP/PP (*"Wow, that was... intense. Thanks for the quick battle! Here, let me heal your Pokémon. We should both get going now, see ya at the tournament!"*), and departs north across the bridge (verified Turns 31803-31810).
-- **Northern Riverbank (`cols 11-33, rows 19-26`)**:
-  - Small rock at `(16, 25)` is inert and blocks direct southern access from `(16, 24)` onto the western riverbank strip `(9-16, 26)` (verified Turns 31816-31817); uninspected riverside leads for Quest #5 ("Squirtle Gang") include stepping around `(16, 25)` via `(17, 24) -> (17, 25) -> (17, 26) -> (16, 26)`, the northern side of the western tree block (`cols 9-17, rows < 19`), and the eastern northern-riverbank branch at `(27-33, 22-23)` (`latest_grid.png` Turns 31818 & 31823).
+- **Northern Riverbank (`cols 11-39, rows 19-26`)**:
+  - Small rock at `(16, 25)` is inert and blocks direct southern access from `(16, 24)` onto the western riverbank strip `(10-13, 26)` (verified Turns 31816-31817 & 31850).
   - **Picnicker Katrina (`24, 20`, facing South)**:
     - **Pre-Battle Quote**: *"Hehe, you can't pass here!"*
     - **Team (2 Pokémon)**:
