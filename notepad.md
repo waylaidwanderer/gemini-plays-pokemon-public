@@ -1237,7 +1237,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 31886)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Repel x6** (purchased 10 at Samurion City PokéMart in Turn 31755; 6 remaining as of Turn 31886), **Super Potion x10**, and **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853).
+- **Items Pocket (Audited Turn 31896)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Repel x5** (purchased 10 at Samurion City PokéMart in Turn 31755; 5 remaining after renewing at Route 4 North `30, 19` in Turn 31896), **Super Potion x10**, and **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853).
 - **Key Items Pocket (Audited Turn 31891)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
@@ -1352,12 +1352,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv38
+- **Level**: Lv39
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 114), Attack (C+, 106), Defense (A-, 102), Sp. Atk (C-, 98), Sp. Def (E, 68), Speed (C-, 70)
-- **Current Condition**: 114/114 HP, Healthy
-- **EXP**: Lv38 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv38 defeating Picnicker Raginald's Swadloon in Round 2 of the Eclipse Tournament in Turn 31925)
+- **Stats (IV Grades)**: HP (C, 117), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
+- **Current Condition**: 82/117 HP, Healthy
+- **EXP**: Lv39 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv39 defeating Cheryl's Wormadam in the Round 2 Finals of the Eclipse Tournament in Turn 31949)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
