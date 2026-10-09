@@ -169,7 +169,7 @@
   - Stepping west onto `col 34` (`34, 20`) prior to investigating the Destino Mine displays verbatim: *"We should check what's the deal with the Destino Mine!"* and steps the player east to `(35, 20)` (verified Turn 32195).
 - **Southern Avenue & Diagonal Staircase toward Destino Mine (`cols 32-46, rows 22-30`)**:
   - Directly south of the Destino City Pokémon Center (`41, 18`), the tan curb along `row 22` (`cols 36-44`) is passable and leads south into the upper dirt plaza (`cols 36-46, rows 23-29`), where a female resident in a pink shirt patrols around `(40-41, 22-24)` (*"The city is huge... I need to find a Burger Kingler..."*, verified Turn 32197).
-  - At the western edge of the upper dirt plaza (`36, 23`), stepping onto `(36, 23)` warps down the diagonal stone staircase to `(30, 26)` on the lower plaza (where a wandering Sailor patrols `29-30, 28-30` and a residential house sits at `25, 30`), leading east along `rows 29-31` to the main **Destino Mine** entrance (`39, 28-29`, verified Turns 32198-32200).
+  - At the western edge of the upper dirt plaza (`36, 23`), stepping onto `(36, 23)` warps down the diagonal stone staircase to `(30, 26)` on the lower plaza (where a wandering Sailor patrols `29-30, 28-30` and a residential house sits at `25, 30`), leading east along `rows 29-31` to the main **Destino Mine** entrance at **`(39, 28)`** (flanked by a miner at `40, 30` saying *"We miners work hard everyday to dig up resources."* and a wooden signpost at `41, 30` reading verbatim: *"Destino Mine"*, verified Turns 32198-32201).
 
 <hr>
 
