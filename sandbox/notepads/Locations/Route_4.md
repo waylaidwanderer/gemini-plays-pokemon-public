@@ -8,7 +8,7 @@
 - **Cascoon**: Encountered at Lv12 (♀, Bug) in the tall grass at `(43, 45)` (caught in a Great Ball, nicknamed **Nyx**, and transferred to Box 2 as 54th Owned species in Turns 31770-31778).
 ## Trainers & Landmarks
 - **Route 4 Signboard (`43-44, 35`)**: Interacted from `(44, 36)`, reads verbatim: *"Route 4 / Road to Amor"* (verified Turn 31784).
-- **Small Rock (`42, 44`)**: Inert (verified from `42, 45` in Turn 31769).
+- **Small Rocks (`42, 44` & `36, 38`)**: Inert (verified Turns 31769 & 31785).
 - **Bug Catcher Joel (`43, 50`, rotating)**:
   - **Pre-Battle Quote**: *"Many bugs love water, so I am here to catch some besides the river!"*
   - **Team (3 Pokémon)**:
