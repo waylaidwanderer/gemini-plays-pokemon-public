@@ -7,7 +7,9 @@
 - **Patrat**: Encountered at Lv11 (♀, Normal) in the southern tall grass at `(44, 50)` (caught in a Great Ball, nicknamed **Vomor**, and transferred to Box 2 as 53rd Owned species in Turns 31763-31768).
 - **Cascoon**: Encountered at Lv12 (♀, Bug) in the tall grass at `(43, 45)` (caught in a Great Ball, nicknamed **Nyx**, and transferred to Box 2 as 54th Owned species in Turns 31770-31778).
 ## Trainers & Landmarks
-- **Route 4 Signboard (`43-44, 35`)**: Interacted from `(44, 36)`, reads verbatim: *"Route 4 / Road to Amor"* (verified Turn 31784).
+- **Route 4 Signboards**:
+  - **Southern Riverbank Signboard (`43-44, 35`)**: Interacted from `(44, 36)`, reads verbatim: *"Route 4 / Road to Amor"* (verified Turn 31784).
+  - **Northern Bridge Signboard (`17-18, 22`)**: Interacted from `(18, 23)`, reads verbatim: *"North: Amor City / South: Samurion City"* (verified Turn 31815).
 - **Southwestern Riverside Alcove (`10-14, 38-39`) & Ultra Ball (`14, 39`)**: Golden item sphere at `(14, 39)` yields **Ultra Ball x1** (collected Turn 31797); the riverbank path behind the pine tree tops (`row 38`) terminates at the water edge at `(10, 38)` (verified Turn 31797).
 - **Small Rocks (`42, 44`, `36, 38`, `32, 35`, & `25, 36`)**: Inert (verified Turns 31769, 31785, 31786, & 31792).
 - **Bug Catcher Joel (`43, 50`, rotating)**:
