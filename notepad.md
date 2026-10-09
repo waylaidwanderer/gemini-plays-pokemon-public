@@ -597,6 +597,7 @@
   - **Pre-Battle Quote**: *"Ahh the water is sooo beautiful! A perfect background for the sweet victory!"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Corsola (♀, Lv18; Water/Rock).
+  - **Outcome**: Defeat quote: *"I meant my victory"*; awards `₽1152` (verified Turns 31789-31792).
 
 <hr>
 
