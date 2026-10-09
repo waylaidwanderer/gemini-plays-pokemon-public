@@ -295,6 +295,9 @@
   - On 2F, a continuous rock ridge along `cols 34-36` separates `(31, 29)` from the southeastern minecart track corridor (`cols 37-47, rows 24-32`, south of Siara Grunt 2 at `41, 21` and Siara Grunt 3 at `47, 23`), where the minecart tracks terminate at `(42, 28)`, the western boulder pocket terminates at `(37, 22)` and `(37, 28)`, and the far-eastern ledge east of the blue pipe (`cols 51-52`) terminates at `(54, 23)` with no sign of Evy on the 2F map (verified Turns 32444-32449).
 ## Deep Triple-Staircase Chamber (`9, 7` -> `9, 17`) & Inner Den (`12, 19`+)
 - **Triple-Staircase Passage (`9, 7` -> `9, 17`)**: Entered from the 1F upper eastern cave archway (`35, 28` <-> `9, 6`). Stepping onto the second landing at `(9, 13)` triggers a tremor from the southern den (`"It came from that den! / Frio must be in there already... Let's go!"`, verified Turn 32456). Stepping south off `(9, 17)` (`▼` at `9, 18`) enters the **Inner Den** at **`(12, 19)`** (verified Turn 32461).
+- **Inner Den (`12, 19` <-> Triple-Staircase Chamber `9, 17`)**:
+  - Stepping north onto `(12, 18)` triggers the confrontation with **Frio** (`14, 14`) and four **Team Siara Grunts** digging up fossils to resurrect and Eclipse ancient Pokémon for Marie (Turns 32462-32472).
+  - After Frio defeats all four grunts, Asher calms and reverts the **Eclipsed Tyranitar** released by the retreating grunts, Frio pulls Valora away from a falling rock at `(14, 16)` before departing, and Asher collects the **Clear Shard** at `(14, 16)` before automatically exiting to `(9, 17)` in the Triple-Staircase Chamber (verified Turns 32466-32472).
 
 <hr>
 
@@ -1416,6 +1419,14 @@
 - **Frio's Arrival & Clearing the Rockfall (`26, 36` -> `26, 35`, Turns 32295-32308)**:
   - Examining the rockfall at `(26, 36)` prompted **Frio** to arrive from the south (`25, 35`), explaining that after passing Round 2 of the Eclipse Tournament he heard Team Siara was planning something in Destino City.
   - Frio smashed open the center of the rockfall (`26-27, 33-34`) under the wooden bridge, causing the two stranded Team Siara Grunts to rush over (`25, 35-36`). Calling Valora *"Smurfette"*, Frio left the two grunts to Asher and Valora while he went ahead north under the wooden bridge (`26, 30`). Asher defeated his grunt (`25, 35`; Mightyena Lv24, Toxicroak Lv25, Haunter Lv24) while Valora handled the second grunt (`25, 36`).
+- **Destino Mine Inner Den — Team Siara's Fossil Plot, The Eclipsed Tyranitar & The Clear Shard (`12, 18` -> `13, 15`, Turns 32462-32472)**:
+  - Inside the Inner Den (`12, 19`), Asher and Valora joined **Frio** (`14, 14`) confronting four **Team Siara Grunts** around a mining machine (`8-10, 14-15`) who were digging up fossils.
+  - One of the grunts revealed **Marie**'s objective in Destino Mine: *"We will ecplise ancient Pokémon, which we will resurrect from these fossils!"*
+  - Telling Asher and Valora to stay out of it (*"Tch, stay out... I'll show you all what I can do!"*), Frio single-handedly defeated all four Team Siara Grunts.
+  - Before retreating with the stolen fossils, the lead grunt threw a Poké Ball releasing a rampaging **Eclipsed Tyranitar** (`12, 12`). When Valora warned Asher not to pass out like in Mt. Gerhana, Frio was puzzled (*"Huh? Did he pass out? But... as an eclipser he should have been fine..."*).
+  - Much more experienced now, Asher channeled his Eclipser aura and calmed the Eclipsed Tyranitar back to its normal form without collapsing.
+  - As the Tyranitar departed, a falling rock dropped toward Valora at `(14, 16)`; Frio shouted *"Watch out, idiot!"* and pulled Valora to safety before brushing off her thanks (*"Tch, whatever, be more cautious later, Blueberry..."*) and departing.
+  - Picking up the rock that fell at `(14, 16)`, Asher obtained a **Clear Shard** (which can be restored into an active **Eclite Shard** using Professor Ivo's Eclicizer in Lancio Town) and automatically stepped out of the Inner Den to `(9, 17)` in the Triple-Staircase Chamber.
 
 <hr>
 
