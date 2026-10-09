@@ -26,4 +26,5 @@
     - **Pre-Battle Quote**: *"I should be working, but I like winning battles against by passing trainer much more!"*
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Bronzor (Lv21; Steel/Psychic).
+      - **Pokémon 2**: Graveler (♀, Lv21; Rock/Ground).
   - **Southbound Wooden Staircase (`cols 34-36, rows 24-25`) & Adjacent Landmarks**: Descends south from `(34-36, 23)` onto the lower central path (`34-36, 26-27`, verified Turn 32023). Spotted a **sand patch** to the northwest around `(31, 19-21)`, a female trainer at `(33, 26)` (with a patrolling Police Officer below at `33, 28`), and a golden **item sphere** at `(40, 28)` behind the pine tree top `(41, 28)` (verified Turn 32023).
