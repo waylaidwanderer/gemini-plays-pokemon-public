@@ -54,8 +54,9 @@
 
 ## Round 2 Arena & Eclipse Tournament Round Two (`13, 17` -> `4, 14` -> `14, 14`)
 - **Bracket & Format (Entered Turn 31914 at `13, 17` -> `7, 17` Bracket Screen)**:
-  - **Left Bracket**: **Asher vs. Picnicker Raginald** (Match 1) and **Ace Trainer Male vs. Camper** (Match 2).
-  - **Right Bracket**: **Cheryl (from Sinnoh) vs. Ace Trainer Female** (Match 3) and **Worker vs. Black Belt** (Match 4).
+  - **Left Bracket**: **Asher vs. Picnicker Raginald** (Match 1) and **Ace Trainer Male vs. Ruin Maniac/Camper** (Match 2; won by Ruin Maniac/Camper).
+  - **Right Bracket**: **Cheryl (from Sinnoh) vs. Ace Trainer Female** (Match 3; won by Cheryl) and **Worker vs. Black Belt** (Match 4; won by Worker).
 - **Match 1 (Quarterfinals — Picnicker Raginald)**:
   - **Pre-Battle Quote**: *"Yeah yeah! / I advanced through the first round, I'll advance through this one too!"*
-  - **Lead Pokémon**: Swadloon (♀, Lv19; Bug/Grass).
+  - **Team (3 Pokémon)**: Swadloon (♀, Lv19; Bug/Grass; knows GrassWhistle and String Shot), Lombre (♂, Lv19; Water/Grass; knows Fake Out), and Ivysaur (♂, Lv20; Grass/Poison).
+  - **Outcome**: Defeat quote: *"How could this be?"*; awards `₽800` (verified Turns 31918-31930).
