@@ -42,7 +42,7 @@
     4. Medic! (Completed in Turn 28495 — delivered Cure Flower from Route 2 `45, 14` to Old Gentleman at Azluf Town Lighthouse `52, 5`; rewarded **Exp. Share**)
     5. Squirtle Gang (Completed in Turn 31891 — reunited the lost Squirtle from Samurion City `33, 25` with its family at `(46, 13)` on Route 4 South/Central via the eastern southbound branch `cols 44-46` of Route 4 North; rewarded **Itemfinder**)
   - **Page 2 Quests**:
-    6. Lost Eevee
+    6. Lost Eevee (Active — accepted from Explorer at Destino Mine 1F `42, 12` in Turn 32207; find his missing partner Eevee "Evy" on the second level of Destino Mine)
     7. Kaboom (Completed in Turn 32170 — found the lost Dynamite in the southwestern sand patch at Route 6 `27, 34`, defeated the ambushing Lv20 Gible, and delivered the Dynamite to the Coworker at Route 6 `43, 19` to blast open the collapsed Route 6 mine entrance at `44, 18-19`; rewarded **Rocky Helmet**)
     8. Valentines Gift
     9. Angry Cubone Kid

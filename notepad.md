@@ -185,7 +185,7 @@
 - **Landmarks & NPCs**:
   - **Large Boulder (`49-50, 8-9`)**: Flanking the east side of the entrance archway.
   - **Overhead Blue Pipe & Red Support Girders (`col 44`, `43, 9-12`, `45, 10-12`)**: The western alcove (`cols 40-42`) is reached by routing along `row 8` (`45, 9 -> 45, 8 -> 42, 8`) above the top cap of the western girder (`43, 9`).
-  - **Side Quest Explorer (`42, 12`) — Quest #6 ("Lost Eevee", Active)**: Standing in the western alcove above a small rock (`42, 13`), stalagmite (`40, 11`), and golden item sphere (`40, 13`). Asks the player to help find his missing partner Eevee, **Evy**, on the **second level** of Destino Mine while he searches the first level (accepted Turn 32207).
+  - **Side Quest Explorer (`42, 12`) — Quest #6 ("Lost Eevee", Active)**: Standing in the western alcove above small rocks (`42, 13` & `41, 14`, `42, 13` inert), a stalagmite (`40, 11`, inert), and a golden item sphere at **`(40, 13)`** that yields **Red Shard x1** (collected Turn 32208). Asks the player to help find his missing partner Eevee, **Evy**, on the **second level** of Destino Mine while he searches the first level (accepted Turn 32207).
   - **Miners (`47-49, 10-12` & `52, 13`)**: A wandering miner patrols near the entrance tracks, and a second miner stands beside an orange mining machine (`50-52, 11-12`) at `(52, 13)`.
 
 <hr>
@@ -1364,7 +1364,7 @@
     4. Medic! (Completed in Turn 28495 — delivered Cure Flower from Route 2 `45, 14` to Old Gentleman at Azluf Town Lighthouse `52, 5`; rewarded **Exp. Share**)
     5. Squirtle Gang (Completed in Turn 31891 — reunited the lost Squirtle from Samurion City `33, 25` with its family at `(46, 13)` on Route 4 South/Central via the eastern southbound branch `cols 44-46` of Route 4 North; rewarded **Itemfinder**)
   - **Page 2 Quests**:
-    6. Lost Eevee
+    6. Lost Eevee (Active — accepted from Explorer at Destino Mine 1F `42, 12` in Turn 32207; find his missing partner Eevee "Evy" on the second level of Destino Mine)
     7. Kaboom (Completed in Turn 32170 — found the lost Dynamite in the southwestern sand patch at Route 6 `27, 34`, defeated the ambushing Lv20 Gible, and delivered the Dynamite to the Coworker at Route 6 `43, 19` to blast open the collapsed Route 6 mine entrance at `44, 18-19`; rewarded **Rocky Helmet**)
     8. Valentines Gift
     9. Angry Cubone Kid
