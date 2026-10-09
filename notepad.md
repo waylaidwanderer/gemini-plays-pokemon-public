@@ -401,6 +401,8 @@
   - **Northern Corridor (`cols 27-35, rows 10-29`)**: Features purple Eclite crystals embedded in the upper cliff wall (`28-29, 8`) and leads south along `column 30` (`30, 10 -> 30, 19`) past an underground water channel (`25-30, rows 19-28`) to two patrolling **Team Siara Grunts**:
     - **Siara Grunt (`30, 20`, facing East)**: Pre-battle quote: *"H-huh? Isn't this area supposed to be closed from intruders?"*; uses 2 Pokémon—Remoraid (♀, Lv15; Water) and Wartortle (♂, Lv16; Water); defeat quote: *"He really means business!"*; awards `₽1664` (verified Turns 31589-31595).
     - **Siara Grunt (`31, 28` -> `31, 26`, rotating)**: Pre-battle quote: *"What the? Am I seeing things because of spinning around so much?"*; uses 3 Pokémon—Sandshrew (♀, Lv14; Ground), Phantump (♀, Lv15; Ghost/Grass), and Stunky (♂, Lv15; Poison/Dark); defeat quote: *"Noooo, it was real!"* (verified Turns 31597-31604).
+  - **Bridge Underpass (`cols 21-23, rows 27-30`) & Western Floor (`cols 15-20, rows 24-32`)**:
+    - **Siara Grunt (`20, 25` -> `20, 27`, facing South)**: Guarding the purple Eclite crystal embedded in the cliff wall at `(20, 24)`; pre-battle quote: *"Ahahaha, no no no! This bridge marks your final steps."*; uses 1 Pokémon—Combusken (♂, Lv16; Fire/Fighting); defeat quote: *"I was saying yours, not mine!"* (verified Turns 31609-31611).
 
 <hr>
 
