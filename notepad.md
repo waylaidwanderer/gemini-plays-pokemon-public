@@ -1204,12 +1204,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv35
+- **Level**: Lv34
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
 - **Stats (IV Grades)**: HP (C), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 78/106 HP, Healthy
-- **EXP**: Lv35 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; reached Lv35 in Turn 31628)
+- **Current Condition**: 78/103 HP, Healthy
+- **EXP**: Lv34 (~99% to Lv35; evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Force Palm (Fighting, Physical, 60 power, 100% acc, STAB, 10 PP; 30% chance to Paralyze; learned at Lv20 replacing Quick Attack)
