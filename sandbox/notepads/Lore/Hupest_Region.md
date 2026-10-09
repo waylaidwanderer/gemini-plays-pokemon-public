@@ -169,3 +169,7 @@
   - After Frio departs, Marie's most trusted red-haired commander introduces herself as **Siara Admin Flo** and steps up (`14, 12`) to eliminate Asher.
   - Just in time, **Dad (Jackson)**, **Valora**, and **Professor Ivo** arrive behind Asher to hold off the Team Siara grunts while Asher battles and defeats **Siara Admin Flo** (who uses Larvesta Lv16, Salandit Lv16, Trubbish Lv17, and Grovyle Lv18).
   - **Team Siara's Retreat**: Following Flo's defeat, Marie orders a retreat, telling Flo: *"Don't worry... I don't need that kid to succeed. My plan... my plan is just about to begin, for now we retreat."* before vanishing with Flo and the grunts, leaving Asher, Dad, Valora, and Professor Ivo before the prime Eclite Crystal (`14, 13`).
+- **Post-Battle Discussion & Departure for Amor City (`14, 13` -> Samurion City `18, 40`, Turns 31699-31704)**:
+  - After Team Siara's retreat, Valora shared that she, Dad, and Professor Ivo bumped into Frio leaving the cave in tears.
+  - Professor Ivo noted that Marie mentioned a plan about to begin and no longer needing Frio, while Asher resolved to get answers from Frio about Eclipsing.
+  - Dad reminded Asher and Valora that Round 2 of the Eclipse Tournament is starting soon in Amor City, and Asher suggested taking the Samurion City Metro Station back to Amor City (*"Alright, let's head to Amor City! I heard this city has a Metro station."*), automatically warping outside the western Mt. Gerhana cave entrance in **Samurion City** at `(18, 40)`.
