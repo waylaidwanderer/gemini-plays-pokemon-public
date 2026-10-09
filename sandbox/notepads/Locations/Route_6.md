@@ -32,5 +32,6 @@
 - **Psychic Hugo (`33, 26`, facing South)**:
   - **Pre-Battle Quote**: *"Watch out my PokéBall is floating to you!"*
   - **Team (2 Pokémon)**:
-    - **Pokémon 1**: Musharna (♂, Lv23; Psychic).
-    - **Pokémon 2**: Kadabra (Psychic).
+    - **Pokémon 1**: Musharna (♂, Lv23; Psychic; inflicts Sleep).
+    - **Pokémon 2**: Kadabra (♂, Lv23; Psychic; knows Night Shade and Barrier).
+  - **Outcome**: Awards `₽828` (verified Turns 32045-32052).
