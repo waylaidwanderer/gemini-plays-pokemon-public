@@ -45,3 +45,8 @@
   - **Northbound Wooden Staircase (`cols 27-29, rows 16-17`)**: Ascends north from the rocky mountain ridge crossroads (`28, 20`) to `(28, 15)` (verified Turn 32079).
   - **Trainer Tips Signpost (`35, 16`)**: Interacted from `(35, 17)`, reads verbatim: *"Trainer Tips! / Hidden items might be hiding on the ground unvisible to the eye."* (verified Turn 32081).
   - **Small Rock Cone (`41, 15`)**: Inert (verified Turn 32081).
+  - **Youngster Scott (`39, 9`, facing South)**:
+    - **Pre-Battle Quote**: *"If you think you can run without a Pokémon Battle, you are very wrong!"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Raticate (♂, Lv23; Normal).
+      - **Pokémon 2**: Luxio (Electric).
