@@ -554,8 +554,11 @@
 
 ## Southern Residential Block & Pokémon Center Plaza (`cols 21-36, rows 46-59`)
 - **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)`, with two residents standing on the avenue at `(27, 53)` and `(27, 52)` (`latest_grid.png` Turn 31559).
-- **Samurion City Pokémon Center (`23, 47`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 49)`. A traditional house (`31, 47`), large billboard (`34-35, 48`), and straw-hat NPC (`35, 49`) sit opposite on the eastern side of the avenue.
-- **Valora Reunion Cutscene (`28, 50`, Turn 31560+)**: Stepping onto `(28, 50)` triggers **Valora** (`28, 49`) to walk down and greet Asher (*"You finally made it, what took you so long?"*).
+- **Samurion City Pokémon Center (`23, 47`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 49)`. Opposite on the eastern side of the avenue sits the **Samurion Dojo (`31, 47`)**, flanked by a wooden dojo signboard (`32-33, 48`) and straw-hat NPC (`35, 49`).
+- **Valora Reunion & Samurion Dojo Cutscene (`28, 50` -> `31, 47` -> `6, 5`, Turns 31560-31564)**:
+  - Stepping onto `(28, 50)` triggers **Valora** (`28, 49`) to greet Asher and report that she saw **Frio** enter the **Samurion Dojo** (`31, 47`).
+  - Asher and Valora automatically enter the Samurion Dojo (`31, 47`) and walk through the foyer into the main hall (`6, 5`), where **Frio** (`5, 4`) is seated beside his sensei, the **Dojo Master** (`7, 4`, flanked by two seated masters at `2, 7` and `10, 9` and four Black Belts at `4, 7`, `4, 9`, `8, 7`, `8, 9`).
+  - The Dojo Master identifies Asher as *"the other Eclipser"*, and Frio announces that **Team Siara** has arrived to retrieve more Eclite by making their way into the **closed segments of Mt. Gerhana**. After Frio departs, Asher resolves to call Dad and Professor Ivo and stop Team Siara in Mt. Gerhana, returning outside to `(31, 48)`.
 
 <hr>
 
@@ -959,6 +962,14 @@
 
 ## Upper Mt. Gerhana — Team Siara Steals the Eclite Crystal
 - **Theft of the Eclite Crystal (`18, 15` -> `25, 15`, Turns 31525-31543)**: Upon returning to the Upper Cave Chamber of Mt. Gerhana on the way to Samurion City, Asher found four **Team Siara Grunts** standing where the giant purple Eclite crystal had been (`26-29, 14-18`), having mined and taken the entire crystal to deliver it to **Team Siara HQ** on **Marie**'s ("milady") orders. Recognizing Asher from the Sovio Sewers, Grunt 3 (`26, 15`), Grunt 1 (`27, 14`), and Grunts 2 & 4 (`26, 15-16`) battled Asher in a 3-battle gauntlet before retreating east across the chasm bridge.
+
+## Samurion City — Reunion with Valora, The Samurion Dojo & The Eclipsers
+- **Reunion with Valora Outside the Pokémon Center (`28, 50`, Turns 31560-31562)**: After Asher defeated the four Team Siara Grunts in Upper Mt. Gerhana and emerged into Samurion City (`39, 65`), he met **Valora** at `(28, 50)`. Asher told her that Team Siara grunts stole the Eclite crystal from Mt. Gerhana, and Valora revealed that she saw **Frio** enter the **Samurion Dojo** (`31, 47`).
+- **The Samurion Dojo, The Dojo Master & "Eclipsers" (`31, 47` -> `6, 5`, Turns 31562-31564)**:
+  - Inside the Samurion Dojo, Asher and Valora found **Frio** (`5, 4`) seated beside the **Dojo Master** (`7, 4`), whom Frio addressed as *"sensei"*.
+  - When Frio introduced Asher (*"He's the kid I was talking about."*), the Dojo Master remarked: *"The other Eclipser? So there's another..."*—revealing that people who possess the hereditary bloodline power to channel Eclite are called **Eclipsers**.
+  - **Team Siara Opens the Closed Segments of Mt. Gerhana**: Suddenly sensing Team Siara's arrival, Frio announced: *"Who else but Siara? We will retrieve more Eclite. And for that we gotta make our way into the closed segments of Mt. Gerhana. I'm off now, thank you sensei for your time."* and departed toward Mt. Gerhana.
+  - Determined to stop Team Siara from seizing more Eclite in the deeper segments of Mt. Gerhana, Asher told Valora: *"I'm gonna call Dad and Ivo. We gotta go and stop Siara, now!"* before stepping outside the Samurion Dojo to `(31, 48)`.
 
 <hr>
 

@@ -12,5 +12,8 @@
 
 ## Southern Residential Block & Pokémon Center Plaza (`cols 21-36, rows 46-59`)
 - **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)`, with two residents standing on the avenue at `(27, 53)` and `(27, 52)` (`latest_grid.png` Turn 31559).
-- **Samurion City Pokémon Center (`23, 47`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 49)`. A traditional house (`31, 47`), large billboard (`34-35, 48`), and straw-hat NPC (`35, 49`) sit opposite on the eastern side of the avenue.
-- **Valora Reunion Cutscene (`28, 50`, Turn 31560+)**: Stepping onto `(28, 50)` triggers **Valora** (`28, 49`) to walk down and greet Asher (*"You finally made it, what took you so long?"*).
+- **Samurion City Pokémon Center (`23, 47`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 49)`. Opposite on the eastern side of the avenue sits the **Samurion Dojo (`31, 47`)**, flanked by a wooden dojo signboard (`32-33, 48`) and straw-hat NPC (`35, 49`).
+- **Valora Reunion & Samurion Dojo Cutscene (`28, 50` -> `31, 47` -> `6, 5`, Turns 31560-31564)**:
+  - Stepping onto `(28, 50)` triggers **Valora** (`28, 49`) to greet Asher and report that she saw **Frio** enter the **Samurion Dojo** (`31, 47`).
+  - Asher and Valora automatically enter the Samurion Dojo (`31, 47`) and walk through the foyer into the main hall (`6, 5`), where **Frio** (`5, 4`) is seated beside his sensei, the **Dojo Master** (`7, 4`, flanked by two seated masters at `2, 7` and `10, 9` and four Black Belts at `4, 7`, `4, 9`, `8, 7`, `8, 9`).
+  - The Dojo Master identifies Asher as *"the other Eclipser"*, and Frio announces that **Team Siara** has arrived to retrieve more Eclite by making their way into the **closed segments of Mt. Gerhana**. After Frio departs, Asher resolves to call Dad and Professor Ivo and stop Team Siara in Mt. Gerhana, returning outside to `(31, 48)`.
