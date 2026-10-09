@@ -413,7 +413,8 @@
   - **Central Ridge (`cols 19-24, rows 9-19`), Central Wooden Bridge (`cols 21-23, rows 20-37`) & Southern Bridge Exit (`cols 20-24, rows 38-44`)**:
     - Ascending the eastbound diagonal staircase at `(17, 9-11)` reaches `(19, 9)` beside a purple Eclite crystal at `(20-21, 8-9)` and a northbound wooden staircase at `(22-24, 7-8)` (`latest_grid.png` Turn 31653).
     - Descending the southbound staircase at `(19-22, 12)` reaches the lower central ridge (`cols 19-24, rows 13-19`), which connects south onto the encounter-free **Central Wooden Bridge (`cols 21-23, rows 20-37`)** (`latest_grid.png` Turns 31654, 31657 & 31659).
-    - At the southern end of the bridge (`22, 38`), two **Team Siara Grunts** flank the narrow canyon passage at **`(21, 39)`** (facing East) and **`(23, 39)`** (facing West) (verified Turn 31660).
+    - At the southern end of the bridge (`22, 38`), two **Team Siara Grunts** flank the narrow canyon passage at **`(21, 39)`** (facing East) and **`(23, 39)`** (facing West); direct interaction is inert, while stepping onto **`(22, 39)`** triggers a dual confrontation:
+      - **Siara Grunts (`21, 39` & `23, 39`, triggered at `22, 39`)**: Pre-battle quotes: *"Grunt 1: You aren't going to pass through here, kiddo! / Grunt 2: Yeah we are turning ya back!"*; uses 4 Pokémon—Elekid (♂, Lv14; Electric), Makuhita (♂, Lv15; Fighting; knows Fake Out), Magby (♂, Lv14; Fire; knows SmokeScreen), and Meditite (♂, Lv15; Fighting/Psychic; knows Detect); defeat quotes: *"Grunt 1: Noooooo! / Grunt 2: How could this happen, it was 2 versus one?"*; awards `₽1560` (verified Turns 31660-31674).
 
 <hr>
 
