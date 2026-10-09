@@ -52,4 +52,20 @@
     - **Outcome**: Awards `₽1,000` (verified Turns 32100-32103).
     - **Elevated Wooden Bridge (`cols 16-18, rows 20-28`) & Southern Cliff Terrace (`cols 9-23, rows 29-36`)**: South of Hiker Travis (`15, 17`), an elevated wooden bridge with solid lateral side-rails spans `rows 20-28` over the intermediate terrace (`cols 10-22, rows 20-26`) and lands on the southern cliff terrace at `(16, 29)` (verified Turns 32104-32106). From the southern cliff terrace, two westbound staircases at `(10, 32-34)` and `(8, 33-35)` descend to `(7, 35)`, connecting north along `col 7` and `row 27` (`cols 7-12`) onto the western intermediate terrace (`cols 7-22, rows 21-27`) and underneath the elevated wooden bridge (`16-18, 24-26`) to the lost Team Siara Grunt at `(21, 24)` (verified Turns 32136-32139). Stepping onto the western sand patch at `(12, 21)` below the northbound staircase (`10-12, 18-19`) displays *"We must deal with that grunt, quick!"* and steps the player `Down 1` to `(12, 22)` until the grunt is defeated (verified Turn 32139). Two eastbound staircases at `(22, 32-34)` and `(24, 33-35)` descend from the southern cliff terrace to the southwestern sand patch (`26-28, 33-35`, verified Turns 32107-32109).
     - **Southwestern Sand Patch & Dynamite (`27, 34`)**: Reached from the southern cliff terrace (`16, 29`) via the two eastbound staircases at `(22, 32)` and `(24, 34)`; the golden item sphere in the center of the sand patch (`27, 34`) yields the **Dynamite** (into the Key Items Pocket) for **Quest #7 ("Kaboom")** (*"This must be the dynamite, that coworker was looking for..."*, collected Turn 32110) and immediately triggers a scripted ambush by a wild **Gible** (♀, Lv20; Dragon/Ground; knows Sandstorm, Sand Tomb, Take Down, and Dragon Rage; verified Turns 32112-32132). Small rock cones at `(14, 31)`, `(15, 34)`, `(18, 33)`, `(23, 36)`, and `(9, 36)` are inert (verified Turns 32108-32109 & 32137).
+  - **Youngster Scott (`39, 9`, facing South)**:
+    - **Pre-Battle Quote**: *"If you think you can run without a Pokémon Battle, you are very wrong!"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Raticate (♂, Lv23; Normal).
+      - **Pokémon 2**: Luxio (♂, Lv24; Electric; Ability: Intimidate; knows Charge).
+    - **Outcome**: Defeat quote: *"Oh boy..."*; awards `₽1,248` (verified Turns 32083-32087).
+  - **Camper Peter (`26, 5`, facing South)**:
+    - **Pre-Battle Quote**: *"Police Officers have raided the place... I wonder why."*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Skiploom (♀, Lv23; Grass/Flying).
+      - **Pokémon 2**: Spinda (♂, Lv24; Normal).
+      - **Pokémon 3**: Floette (♀, Lv24; Fairy; knows Copycat).
+    - **Outcome**: Defeat quote: *"Ah whatever..."*; awards `₽1,152` (verified Turns 32089-32097).
+  - **Western Item Spheres & Lost Team Siara Grunt**:
+    - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 25, 8 -> 23, 8 -> 23, 12)`; yields **King's Rock x1** (collected Turn 32098).
+    - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
     - **Lost Team Siara Grunt (`21, 24`, facing South)**: Standing on the western trail below the cliff (`20-21, 21-23`, spotted Turn 32078).
