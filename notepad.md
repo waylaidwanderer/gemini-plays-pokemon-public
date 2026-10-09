@@ -752,9 +752,11 @@
       - **Pokémon 2**: Swoobat (♀, Lv24; Psychic/Flying; knows Imprison).
       - **Pokémon 3**: Golbat (♂, Lv24; Poison/Flying; knows Air Cutter).
       - **Pokémon 4**: Purugly (♂, Lv24; Normal).
-      - **Outcome**: Defeated in Turns 32145-32154, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`).
-  - **Northwestern Staircase Terrace (`cols 4-12, rows 13-20`)**:
+      - **Outcome**: Defeated in Turns 32145-32154, clearing the patrolling Police Officers from Route 6, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`), and automatically warping Asher and Valora to `(11, 21)` (verified Turn 32156).
+  - **Northwestern Staircase Terrace (`cols 4-12, rows 13-20`) & Upper Destino Road (`cols 0-8, rows 7-12`)**:
     - **Small Rock (`8, 19`)**: Interacted from `(8, 18)`, yields a hidden **Super Repel x1** (collected Turn 32157).
+    - **Rock Cones (`8, 15` & `12, 16`)**: Inert (verified Turn 32158).
+    - **Upper Northwestern Staircase (`4-6, 13-14`)**: Ascends north from the sand patch (`4-6, 15`) to `(5, 12)` (terminating on the east at trees `cols 9-12, rows 8-12` and leading northwest onto a stone-paved road at `cols 0-2, rows 7-11` toward **Destino City**, verified Turns 32159-32161).
 
 <hr>
 
@@ -1349,7 +1351,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 32157)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Repel x3** (renewed 1 at Route 6 `15, 30` in Turn 32107), **Super Repel x1** (hidden item on small rock at Route 6 `8, 19`, collected Turn 32157), **Super Potion x7** (used 1 healing Sirius to 60/123 HP in Turn 32135; 0 Poké Balls / Ultra Balls remain in the Poké Balls Pocket as of Turn 32132), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), and **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098).
+- **Items Pocket (Audited Turn 32159)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Repel x2** (auto-renewed 1 at Route 6 `5, 13` in Turn 32159), **Super Repel x1** (hidden item on small rock at Route 6 `8, 19`, collected Turn 32157), **Super Potion x7** (used 1 healing Sirius to 60/123 HP in Turn 32135), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), and **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098).
 - **Key Items Pocket (Audited Turn 32110)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891), and **Dynamite** (collected at Route 6 `27, 34` for Quest #7 "Kaboom" in Turn 32110).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
@@ -1468,7 +1470,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 123), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 60/123 HP, Healthy
+- **Current Condition**: 52/123 HP, Healthy
 - **EXP**: Lv41 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; reached Lv41 defeating Camper Peter's Floette on Route 6 in Turn 32095)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
@@ -1494,7 +1496,7 @@
 - **Level**: Lv15
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 44/46 HP
+- **HP**: 0/46 HP (Fainted vs. scripted Lv20 Gible in Turn 32120)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)

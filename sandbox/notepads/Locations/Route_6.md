@@ -73,6 +73,8 @@
       - **Pokémon 2**: Swoobat (♀, Lv24; Psychic/Flying; knows Imprison).
       - **Pokémon 3**: Golbat (♂, Lv24; Poison/Flying; knows Air Cutter).
       - **Pokémon 4**: Purugly (♂, Lv24; Normal).
-      - **Outcome**: Defeated in Turns 32145-32154, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`).
-  - **Northwestern Staircase Terrace (`cols 4-12, rows 13-20`)**:
+      - **Outcome**: Defeated in Turns 32145-32154, clearing the patrolling Police Officers from Route 6, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`), and automatically warping Asher and Valora to `(11, 21)` (verified Turn 32156).
+  - **Northwestern Staircase Terrace (`cols 4-12, rows 13-20`) & Upper Destino Road (`cols 0-8, rows 7-12`)**:
     - **Small Rock (`8, 19`)**: Interacted from `(8, 18)`, yields a hidden **Super Repel x1** (collected Turn 32157).
+    - **Rock Cones (`8, 15` & `12, 16`)**: Inert (verified Turn 32158).
+    - **Upper Northwestern Staircase (`4-6, 13-14`)**: Ascends north from the sand patch (`4-6, 15`) to `(5, 12)` (terminating on the east at trees `cols 9-12, rows 8-12` and leading northwest onto a stone-paved road at `cols 0-2, rows 7-11` toward **Destino City**, verified Turns 32159-32161).
