@@ -702,7 +702,7 @@
   - Stepping onto `(49, 31)` triggers the cutscene with the **Police Officer** (`49, 30`) and **Valora**, after which Valora joins Asher (`54, 31`) to pursue the lost Team Siara Grunt up the northern staircase (`cols 46-48, rows 26-27`, verified Turns 32003-32007).
 - **Upper Mining Plateau (`cols 40-52, rows 18-25`)**:
   - **Mine Warning Signpost (`46, 19`)**: Interacted from `(46, 20)`, reads verbatim: *"Warning! / Collapse of mine is possible!"* (verified Turn 32012).
-  - **Collapsed Mine Entrance (`44, 18-19`) & Coworker (`43, 19`) — Quest #7 ("Kaboom", Active)**: The mine ladder at `(44, 18-19)` is blocked by three rubble piles (`43, 18`, `44, 18`, `45, 19`). Speaking to the Coworker at `(43, 19)` from `(43, 20)` explains that a Magnitude caused the mine entrance to collapse and that he accidentally dropped his **dynamite** in a **patch of sand**, initiating **Quest #7 ("Kaboom")** (*"I think I dropped it into a patch of sand... / I hope you will find something!"*, accepted Turn 32015).
+  - **Route 6 Mine Entrance (`44, 18-19`) & Coworker (`43, 19`) — Quest #7 ("Kaboom", Completed)**: Initially blocked by three rubble piles (`43, 18`, `44, 18`, `45, 19`). Speaking to the Coworker at `(43, 19)` initiates **Quest #7 ("Kaboom")** to find the **Dynamite** he dropped in a patch of sand (accepted Turn 32015). Delivering the Dynamite from `(27, 34)` to the Coworker at `(43, 19)` blasts open the mine entrance at `(44, 18-19)` (*"Fire in the hole!"*) and rewards a **Rocky Helmet** into the Items Pocket, completing Quest #7 and placing the player at `(44, 21)` (verified Turn 32170).
   - **Coworker Dario (`37, 22`, facing South)**:
     - **Pre-Battle Quote**: *"I should be working, but I like winning battles against by passing trainer much more!"*
     - **Team (2 Pokémon)**:
@@ -1320,7 +1320,7 @@
     5. Squirtle Gang (Completed in Turn 31891 — reunited the lost Squirtle from Samurion City `33, 25` with its family at `(46, 13)` on Route 4 South/Central via the eastern southbound branch `cols 44-46` of Route 4 North; rewarded **Itemfinder**)
   - **Page 2 Quests**:
     6. Lost Eevee
-    7. Kaboom (Active — accepted from Coworker at Route 6 `43, 19` in Turn 32015; find the lost dynamite dropped in a patch of sand to clear the collapsed Route 6 mine entrance)
+    7. Kaboom (Completed in Turn 32170 — found the lost Dynamite in the southwestern sand patch at Route 6 `27, 34`, defeated the ambushing Lv20 Gible, and delivered the Dynamite to the Coworker at Route 6 `43, 19` to blast open the collapsed Route 6 mine entrance at `44, 18-19`; rewarded **Rocky Helmet**)
     8. Valentines Gift
     9. Angry Cubone Kid
     10. Push it!
