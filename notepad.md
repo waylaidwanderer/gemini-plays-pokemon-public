@@ -724,11 +724,12 @@
   - **Northbound Wooden Staircase (`cols 27-29, rows 16-17`)**: Ascends north from the rocky mountain ridge crossroads (`28, 20`) to `(28, 15)` (verified Turn 32079).
   - **Trainer Tips Signpost (`35, 16`)**: Interacted from `(35, 17)`, reads verbatim: *"Trainer Tips! / Hidden items might be hiding on the ground unvisible to the eye."* (verified Turn 32081).
   - **Small Rock Cones (`41, 15`, `32, 19`, `24, 7`, & `20, 14`)**: `(41, 15)` and `(20, 14)` verified inert in Turns 32081 & 32099.
-  - **Hiker Travis (`15, 17`, facing East)**:
+  - **Hiker Travis (`15, 17`, facing East) & Western Bridge/Terrace Topology**:
     - **Pre-Battle Quote**: *"I heard some criminals were sighted here... / I'm gonna knock each and every one out!"*
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Gurdurr (♂, Lv25; Fighting).
     - **Outcome**: Awards `₽1,000` (verified Turns 32100-32103).
+    - **Elevated Wooden Bridge (`cols 16-18, rows 20-28`) & Southern Cliff Terrace (`cols 9-23, rows 29-36`)**: South of Hiker Travis (`15, 17`), an elevated wooden bridge with solid lateral side-rails spans `rows 20-28` over the intermediate terrace (`cols 10-22, rows 20-26`) and lands on the southern cliff terrace at `(16, 29)` (verified Turns 32104-32106). From the southern cliff terrace, a westbound staircase at `(10, 32-34)` leads around the western cliff toward the upper-west staircase (`10-12, 18-19`) and the intermediate terrace (`cols 10-22, rows 20-26`, which passes underneath the wooden bridge `16-18, 24-26` to the lost Team Siara Grunt at `21, 24`), while two eastbound staircases at `(22, 32-34)` and `(24, 33-35)` descend to the southwestern sand patch (`26-28, 33-35`, verified Turns 32107-32109).
   - **Youngster Scott (`39, 9`, facing South)**:
     - **Pre-Battle Quote**: *"If you think you can run without a Pokémon Battle, you are very wrong!"*
     - **Team (2 Pokémon)**:
