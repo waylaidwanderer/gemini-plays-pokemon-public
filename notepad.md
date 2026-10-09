@@ -381,6 +381,7 @@
     - Crossing the western wooden bridge (`cols 11-24, rows 14-16`, with small rocks at `23, 16` and `24, 14`) and stepping onto `(24, 15)` triggers the confrontation with **Frio** (`27, 16`) in front of the giant purple **Eclite** crystal monolith (`26-28, 12-14`).
     - Frio explains that the crystal and Eclipse Shards are made of **Eclite**, and that Eclipsing is a hereditary power carried in the user's bloodline which Eclite and the Eclipse Band merely channel.
     - When a wild **Aggron** touches the crystal and transforms into a violent **Eclipsed Aggron** (`27, 14`), Asher's inner bloodline power and **Eclipse Band** resonate with the Eclite to calm and revert the Aggron. Stunned, Frio remarks *"You seem way more unique than I actually anticipated. Very well... We will meet again, Asher"* and departs east across the eastern wooden bridge (`cols 29+, rows 16-18`).
+    - **Mandatory Post-Frio Eclite Crystal Interaction (`27, 15` facing `27, 14`, Turns 31488-31489)**: After Frio departs east across the bridge, stepping to `(27, 15)` and pressing `A` facing `Up` into the Eclite Crystal (`27, 14`) triggers the mandatory follow-up cutscene where Asher reflects on resonating with the Eclite, feels heavy and exhausted from the bloodline power drain, and collapses on the cave floor, waking up in his bedroom on **Inizio Isle** (`6, 4`) alongside Dad (`7, 4`) and Valora (`5, 5`).
 
 <hr>
 
@@ -908,6 +909,11 @@
   - A violent tremor shook the cavern and dimmed the light as a wild **Aggron** emerged from the Eclite crystal (`27, 14`) and transformed into a rampaging **Eclipsed Aggron** from direct contact with the Eclite.
   - While Frio urged Asher to run because neither of them could handle such a powerful Eclipse form yet, Asher felt a familiar inner power awaken (*"I have a weird feeling... It feels familiar, yet so new..."*). Surrounded by a crimson aura, **Asher's Eclipse Band resonated with the Eclite**, calming the Eclipsed Aggron and reverting it to normal before it returned into the crystal.
   - Shocked (*"H-how did you do that? (No... he isn't supposed to...)"*), Frio realized Asher possesses the bloodline power of Eclipsing (*"Very interesting... You seem way more unique than I actually anticipated. Very well... We will meet again, Asher"*) and departed east across the chasm bridge (`cols 29+, rows 16-18`).
+- **Eclite Exhaustion Collapse & Inizio Isle Bedroom Reunion (`27, 15` -> `6, 4`, Turns 31488-31493)**:
+  - Interacting with the Eclite Crystal (`27, 14`) after Frio's departure causes Asher to reflect on being worthy of the Eclipsing power before collapsing from severe exhaustion (*"Agh, why do I feel so tired! My body feels heavy... I feel... really... exhausted..."*).
+  - Asher wakes up in his bed on **Inizio Isle** (`6, 4`) with **Dad** (`7, 4`) and **Valora** (`5, 5`). Valora explains that after feeling the tremor outside the upper cave, she ran inside, found Asher unconscious, and called Dad from Asher's HuPhone to bring him home immediately.
+  - After Asher recounts everything Frio revealed about **Eclite**, the Eclipsed Aggron, and how Asher reverted it, Asher urges Dad to visit **Professor Ivo's Laboratory** in Lancio Town (*"Dad! We should head to Ivo's place! ... I need to tell her every information Frio provided."*). Realizing Ivo already told Asher about her past, Dad agrees (*"So she told him about her past... I guess I have no choice. You should rest a bit first, gain some energy and then we will pay her visit, okay?"*) and heads downstairs.
+  - Before Valora leaves the room, Asher stops her to thank her for worrying about him, and Valora makes him pinky-promise not to put himself in such reckless danger again.
 
 <hr>
 
