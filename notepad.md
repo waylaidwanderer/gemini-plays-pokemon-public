@@ -685,6 +685,7 @@
   - **Route 6 Main (`69, 37`+)**: Wooden signboard at `(68-69, 36)` (interacted from `69, 37`) reads verbatim: *"Route 6 / The mines just beneath..."* (verified Turn 31976).
 ## Wild Pokémon
 - **Timburr**: Encountered at Lv17 (♀, Fighting) in the upper mining plateau tall grass at `(43, 21)` (caught in a Great Ball, nicknamed **Xyla**, and transferred to Box 2 as 55th Owned species in Turns 32018-32021).
+- **Growlithe**: Encountered at Lv16 (♂, Fire; Ability: Intimidate) in the upper mining plateau tall grass at `(38, 23)` (verified Turn 32025).
 ## Landmarks, NPCs & Rival Encounter
 - **Eastern Tall Grass Patches (`60-63, 33-36` & `62-66, 27-29`)**: Flanking the eastern dirt road (`cols 56-66, rows 30-37`). A wandering Bug Catcher patrols `(63-65, 28-29)`, and a 1-tile grass pocket at `(65, 26)` terminates at solid pine trees (`64-65, 25`, verified Turn 31980).
 - **PKMN Trainer Valora (`58, 30` Cutscene Trigger — Second Rival Battle)**:
