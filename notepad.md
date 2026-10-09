@@ -579,6 +579,7 @@
 - **Cascoon**: Encountered at Lv12 (♀, Bug) in the tall grass at `(43, 45)` (caught in a Great Ball, nicknamed **Nyx**, and transferred to Box 2 as 54th Owned species in Turns 31770-31778).
 ## Trainers & Landmarks
 - **Route 4 Signboard (`43-44, 35`)**: Interacted from `(44, 36)`, reads verbatim: *"Route 4 / Road to Amor"* (verified Turn 31784).
+- **Southwestern Riverside Alcove (`10-14, 38-39`) & Ultra Ball (`14, 39`)**: Golden item sphere at `(14, 39)` yields **Ultra Ball x1** (collected Turn 31797); the riverbank path behind the pine tree tops (`row 38`) terminates at the water edge at `(10, 38)` (verified Turn 31797).
 - **Small Rocks (`42, 44`, `36, 38`, `32, 35`, & `25, 36`)**: Inert (verified Turns 31769, 31785, 31786, & 31792).
 - **Bug Catcher Joel (`43, 50`, rotating)**:
   - **Pre-Battle Quote**: *"Many bugs love water, so I am here to catch some besides the river!"*
@@ -1179,7 +1180,7 @@
 - **Key Items Pocket (Audited Turn 31235)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, and **Rare Opal** (retained in Key Items after completing Quest #18).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 31778)**: Contains **Great Ball x6** and **Poké Ball x8** (purchased 10 of each at Samurion City PokéMart in Turn 31755; caught Patrat in Turn 31764 and Cascoon in Turn 31776, bringing Owned species to **54** in PokéDex; `₽2,334` cash remaining).
+- **Poké Balls Pocket (Audited Turn 31797)**: Contains **Ultra Ball x1** (collected at Route 4 `14, 39` in Turn 31797), **Great Ball x6**, and **Poké Ball x8** (purchased 10 of each at Samurion City PokéMart in Turn 31755; caught Patrat in Turn 31764 and Cascoon in Turn 31776, bringing Owned species to **54** in PokéDex; `₽4,166` cash remaining).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
