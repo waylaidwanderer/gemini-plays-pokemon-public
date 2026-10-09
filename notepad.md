@@ -577,6 +577,7 @@
 - **Ducklett**: Encountered at Lv13 (♂, Water/Flying) in the southern tall grass at `(44, 53)` (verified Turn 31722).
 - **Patrat**: Encountered at Lv11 (♀, Normal) in the southern tall grass at `(44, 50)` (caught in a Great Ball, nicknamed **Vomor**, and transferred to Box 2 as 53rd Owned species in Turns 31763-31768).
 - **Cascoon**: Encountered at Lv12 (♀, Bug) in the tall grass at `(43, 45)` (caught in a Great Ball, nicknamed **Nyx**, and transferred to Box 2 as 54th Owned species in Turns 31770-31778).
+- **Litleo**: Encountered at Lv13 (♀, Fire/Normal) in the northern tall grass at `(26, 10)` (verified Turn 31847).
 ## Trainers & Landmarks
 - **Route 4 Signboards**:
   - **Southern Riverbank Signboard (`43-44, 35`)**: Interacted from `(44, 36)`, reads verbatim: *"Route 4 / Road to Amor"* (verified Turn 31784).
