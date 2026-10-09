@@ -205,7 +205,15 @@
   - **Overhead Blue Pipe (`col 44`)**: Passable horizontally across `rows 46-49`, solid along `rows 40-45`.
   - **Machop (`43, 44`) & Orange Mining Machine (`40-42, 44-45`)**: Machop stands at `(43, 44)` beside the machine (`"Machop: Chop! Chop!"`, verified Turn 32243). An NPC is visible north of the machine near `(42, 41)`.
   - **Small Rocks (`40, 49` & `35, 49`)**: `(40, 49)` verified inert in Turn 32249.
-  - **Minecart Tracks (`rows 47-48`), Miner (`38, 48`), & Northbound Staircase (`35-36, 44-45`)**: Tracks run west below the northbound staircase at `(35-36, 44-45)`.
+  - **Minecart Tracks (`rows 47-48`), Coworker Marvin (`38, 48` -> `39, 48`), & Northbound Staircase (`35-36, 44-45`)**:
+    - Tracks run west below the northbound staircase at `(35-36, 44-45)`.
+    - **Coworker Marvin (`38, 48` -> `39, 48`, rotating)**:
+      - **Pre-Battle Quote**: *"These hats are to protect us during work... and battles!"*
+      - **Team (3 Pokémon)**:
+        - **Pokémon 1**: Graveler (♂, Lv24; Rock/Ground).
+        - **Pokémon 2**: Boldore (♂, Lv24; Rock).
+        - **Pokémon 3**: Larvitar (♂, Lv24; Rock/Ground).
+      - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽960` (verified Turns 32252-32259).
 
 <hr>
 
