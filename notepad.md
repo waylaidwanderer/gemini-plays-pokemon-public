@@ -616,8 +616,8 @@
     - **Pokémon 3**: Nidorina (♀, Lv17; Poison).
     - **Pokémon 4**: Bayleef (♂, Lv18; Grass).
     - **Outcome**: Defeat quote: *"Oh my... let's hope I'm not gonna need to fight you this round"*; awards `₽2016` (`₽6,182` cash total), heals Asher's party to full HP/PP (*"Wow, that was... intense. Thanks for the quick battle! Here, let me heal your Pokémon. We should both get going now, see ya at the tournament!"*), and departs north across the bridge (verified Turns 31803-31810).
-- **Northern Riverbank (`cols 11-29, rows 19-26`)**:
-  - Small rock at `(16, 25)` is inert and blocks direct southern access from `(16, 24)` onto the western riverbank strip `(9-16, 26)` (verified Turns 31816-31817).
+- **Northern Riverbank (`cols 11-33, rows 19-26`)**:
+  - Small rock at `(16, 25)` is inert and blocks direct southern access from `(16, 24)` onto the western riverbank strip `(9-16, 26)` (verified Turns 31816-31817); uninspected riverside leads for Quest #5 ("Squirtle Gang") include stepping around `(16, 25)` via `(17, 24) -> (17, 25) -> (17, 26) -> (16, 26)`, the northern side of the western tree block (`cols 9-17, rows < 19`), and the eastern northern-riverbank branch at `(27-33, 22-23)` (`latest_grid.png` Turns 31818 & 31823).
   - **Picnicker Katrina (`24, 20`, facing South)**:
     - **Pre-Battle Quote**: *"Hehe, you can't pass here!"*
     - **Team (2 Pokémon)**:
@@ -1320,7 +1320,7 @@
 - **Gender**: Male (♂)
 - **Level**: Lv37
 - **Nature**: Relaxed (+Def, -Speed)
-- **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
+- **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 112), Attack (C+, 103), Defense (A-, 100), Sp. Atk (C-, 96), Sp. Def (E, 66), Speed (C-, 68)
 - **Current Condition**: 112/112 HP, Healthy
 - **EXP**: Lv37 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv37 defeating Lyra on Route 4 in Turn 31809)

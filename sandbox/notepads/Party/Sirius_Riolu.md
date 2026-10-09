@@ -6,7 +6,7 @@
 - **Gender**: Male (♂)
 - **Level**: Lv37
 - **Nature**: Relaxed (+Def, -Speed)
-- **Ability**: Steadfast / Inner Focus / Justified (evolved from Quick Feet Riolu)
+- **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 112), Attack (C+, 103), Defense (A-, 100), Sp. Atk (C-, 96), Sp. Def (E, 66), Speed (C-, 68)
 - **Current Condition**: 112/112 HP, Healthy
 - **EXP**: Lv37 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; reached Lv37 defeating Lyra on Route 4 in Turn 31809)
