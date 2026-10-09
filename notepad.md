@@ -214,6 +214,11 @@
         - **Pokémon 2**: Boldore (♂, Lv24; Rock).
         - **Pokémon 3**: Larvitar (♂, Lv24; Rock/Ground).
       - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽960` (verified Turns 32252-32259).
+    - **Coworker Ifan (`32, 46`, facing South)**:
+      - **Pre-Battle Quote**: *"My diamond pickaxe can mine anything!"*
+      - **Team (1 Pokémon)**:
+        - **Pokémon 1**: Steelix (♂, Lv26; Steel/Ground; knows Iron Defense).
+      - **Outcome**: Defeat quote: *"Oh no."* ; awards `₽1,040` (verified Turns 32262-32267).
 
 <hr>
 
