@@ -14,3 +14,5 @@
     - **Pokémon 4**: Flaaffy (♂, Lv22; Electric).
     - **Pokémon 5**: Roselia (♂, Lv21; Grass/Poison).
     - **Outcome**: Defeat quote: *"A loss again... ahhh!"*; awards `₽1,380`.
+- **Police Officer (`49, 30`) & Northern Mountain Staircase (`cols 46-48, rows 26-27`)**:
+  - Stepping onto `(49, 31)` triggers the cutscene with the **Police Officer** (`49, 30`) and **Valora**, after which Valora joins Asher (`54, 31`) to pursue the lost Team Siara Grunt up the northern staircase (`cols 46-48, rows 26-27`, verified Turns 32003-32007).
