@@ -9,3 +9,8 @@
   - **West (`cols 21-27, rows 74-75`)**: Leads to a westbound wooden staircase at `(19, 73-75)` ascending onto a western mountain terrace (`cols 17-18, rows 71-78`).
   - **South (`cols 27-29, rows 76-79`)**: Pink sand avenue extending south (with a lower mountain staircase visible at `32, 77` connecting east to `cols 40-43`).
   - **North (`cols 27-29, rows 65-73`)**: Passes underneath an overhead pagoda bridge (`cols 26-30, row 68-69`, where a uniformed officer stands at `27, 68`) between two red pagoda towers (`20-25, 65-72` and `31-36, 65-72`) and ascends a grand wooden staircase (`cols 27-29, rows 66-58`) into the main city (verified Turns 31556-31558).
+
+## Southern Residential Block & Pokémon Center Plaza (`cols 21-36, rows 46-59`)
+- **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)`, with two residents standing on the avenue at `(27, 53)` and `(27, 52)` (`latest_grid.png` Turn 31559).
+- **Samurion City Pokémon Center (`23, 47`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 49)`. A traditional house (`31, 47`), large billboard (`34-35, 48`), and straw-hat NPC (`35, 49`) sit opposite on the eastern side of the avenue.
+- **Valora Reunion Cutscene (`28, 50`, Turn 31560+)**: Stepping onto `(28, 50)` triggers **Valora** (`28, 49`) to walk down and greet Asher (*"You finally made it, what took you so long?"*).

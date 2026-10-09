@@ -552,6 +552,11 @@
   - **South (`cols 27-29, rows 76-79`)**: Pink sand avenue extending south (with a lower mountain staircase visible at `32, 77` connecting east to `cols 40-43`).
   - **North (`cols 27-29, rows 65-73`)**: Passes underneath an overhead pagoda bridge (`cols 26-30, row 68-69`, where a uniformed officer stands at `27, 68`) between two red pagoda towers (`20-25, 65-72` and `31-36, 65-72`) and ascends a grand wooden staircase (`cols 27-29, rows 66-58`) into the main city (verified Turns 31556-31558).
 
+## Southern Residential Block & Pokémon Center Plaza (`cols 21-36, rows 46-59`)
+- **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)`, with two residents standing on the avenue at `(27, 53)` and `(27, 52)` (`latest_grid.png` Turn 31559).
+- **Samurion City Pokémon Center (`23, 47`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 49)`. A traditional house (`31, 47`), large billboard (`34-35, 48`), and straw-hat NPC (`35, 49`) sit opposite on the eastern side of the avenue.
+- **Valora Reunion Cutscene (`28, 50`, Turn 31560+)**: Stepping onto `(28, 50)` triggers **Valora** (`28, 49`) to walk down and greet Asher (*"You finally made it, what took you so long?"*).
+
 <hr>
 
 <h1><code>Locations/Sovio_City</code></h1>
@@ -946,7 +951,7 @@
 - **The Eclicizer (`11, 12-14`, Turns 31501-31502)**: Professor Ivo unveiled a machine she built called the **Eclicizer**, which has two functions:
   1. Restores powerless **Clear Shards** (clear Eclite crystals that look like normal crystals) into active **Eclite Shards**.
   2. Combines small, weak **Eclite Pieces** into a single fully powered **Eclite Shard**.
-- **Controlled Eclipsing Experiment & Gift Eclipsed Pidgey (Turns 31502-31504)**: Using an **Eclite Shard** provided by Ivo, Asher Eclipsed a **Pidgey** on command and stayed conscious afterward, showing his body is slowly adapting to the energy drain. Ivo gifted the **Eclipsed Pidgey** to Asher (Turn 31504) to help him train.
+- **Controlled Eclipsing Experiment & Gift Eclipsed Pidgey (Turns 31502-31504)**: Using an **Eclite Shard** provided by Ivo, Asher Eclipsed a **Pidgey** on command and stayed conscious afterward, showing his body is slowly adapting to the energy drain. Ivo gifted the **Eclipsed Pidgey** to Asher (Turn 31504) to help him train (automatically sent to PC Box 1 because all 6 party slots were full, bringing Owned Pokédex species to `52` and cash to `₽4632`, verified Turn 31553).
 - **Professor Ivo's Private Request (Turn 31505)**: After Dad and Valora stepped outside to wait, Ivo privately asked Asher to train himself, become a strong Trainer, and master Eclipsing to counter whatever Team Siara is planning, suggesting he can also gather Eclite from the giant Eclite crystal in **Mt. Gerhana**.
 - **Valora's HuPhone Message & Fast-Travel to Azluf Town Border (`21, 14` -> Route 2 `77, 59`, Turn 31508)**:
   - Stepping onto `(21, 14)` outside Professor Ivo's Laboratory in Lancio Town triggers a text message from **Valora**: *"Hey! Your dad had to go take care of some business, so he left, and I set off to Samurion City. Let's meet up there!"*
