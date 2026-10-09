@@ -240,6 +240,14 @@
     - **Eastern Ledge Item Sphere (`32, 35`)**: Reached by ascending the double northbound staircases at `(36, 45)` and `(36, 40)` to `(36, 37)` (where small rocks at `36, 36` and `37, 37` are inert) and walking behind the top row of the 2x2 boulder (`34, 37 -> 34, 35 -> 33, 35`); yields **TM37 (Sandstorm)** (verified Turns 32313-32318).
   - **Northern Bridge Passage (`27, 34` -> `27, 24`) & Wall Ladder (`27, 24` <-> 2F `44, 10`)**:
     - Passing north under the overhead wooden bridge (`cols 26-28, rows 29-33`, where `26, 32-33` and `28, 32-33` are solid support pillars and `col 27` is the open center lane) leads to a northern alcove containing small rocks at `(26, 27)` and `(28, 25)` (both verified inert in Turn 32320; `(28, 35)` south of the bridge is also inert, verified Turn 32311), a stalagmite at `(26, 24)`, and a **wall ladder** at **`(27, 24)`** (`Up` onto `27, 24` displays `▲` at `27, 23`; pressing `Up` warps to the **Second Level (2F)** at **`(44, 10)`** facing North. Note: pressing `Down` while standing directly on `(44, 10)` warps back to `(27, 24)`—step `Right` to `(45, 10)` or `Left` to `(43, 10)` to dismount the ladder, verified Turns 32321-32324).
+## Second Level (2F) (`44, 10`+)
+- **Northern Ladder Entrance (`44, 10` <-> 1F `27, 24`)**: Arrives at `(44, 10)` facing North; small rock at `(46, 11)` is inert (verified Turn 32324).
+- **Overhead Wooden Bridge (`cols 35-48, rows 14-16`)**: A **Team Siara Grunt** stands on top of the bridge at `(41, 14)` facing South, while the ground passage passes underneath along `col 43` (`43, 13 -> 43, 17`, verified Turn 32326).
+- **Siara Grunt 1 (`43, 18`, facing West)**:
+  - **Pre-Battle Quote**: *"What the?! / Didn't we block off the path?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Arbok (♂, Lv24; Poison; Ability: Intimidate).
+    - **Pokémon 2**: Seviper (♀, Lv25; Poison; knows Glare).
 
 <hr>
 
@@ -1581,7 +1589,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 128), Attack (C+), Defense (A-), Sp. Atk (C-), Sp. Def (E), Speed (C-)
-- **Current Condition**: 128/128 HP, Healthy (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv43 in Turn 32282)
+- **Current Condition**: 128/128 HP, Paralyzed (Healed at Destino City Pokémon Center in Turn 32187; leveled up to Lv43 in Turn 32282; paralyzed by Siara Grunt's Seviper in Turn 32331)
 - **EXP**: Lv43 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; reached Lv43 defeating Coworker Rudy's Palpitoad in Destino Mine in Turn 32282)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
