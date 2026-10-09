@@ -9,3 +9,4 @@
   - **Pre-Battle Quote**: *"Many bugs love water, so I am here to catch some besides the river!"*
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Venonat (♂, Lv16; Bug/Poison).
+    - **Pokémon 2**: Beedrill (♀, Lv17; Bug/Poison).
