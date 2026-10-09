@@ -164,6 +164,7 @@
 - **Destino Metro Station (`45, 13` <-> Station Interior `23, 24`)**:
   - North of the Pokémon Center (`cols 44-46, rows 13-18`), a green-uniformed worker at `(45, 14)` initially guarded the northern archway leading to the Destino Metro Station (*"I'm sorry but the metro station is under renovation. Come back later"*, verified Turn 32194) until clearing Destino Mine and receiving the Round 3 summons at `(37, 31)` (Turns 32488-32491).
   - Stepping north onto `(45, 13)` after the guard vacates enters the **Destino Metro Station** at **`(23, 24)`** (verified Turn 32497).
+  - **Interior Layout**: Walk `Left 4` to `(19, 24)`, `Up 7` through the concourse archway (`19, 21`) to `(19, 17)`, `Right 1` to `(20, 17)`, and `Up 1` onto the turnstile lane at **`(20, 16)`** (between the two officers at `19, 15` and `21, 15`) to trigger the Hupest Metro Line boarding prompt (verified Turns 32498-32501).
 - **Town Signboard (`37-38, 19`)**:
   - Located immediately west of the Pokémon Center (interacted from `38, 20`); reads verbatim: *"Destino City / The industrial mine city"* (verified Turn 32194).
 - **Western Street Roadblock (`34, 19-21`)**:
