@@ -165,6 +165,10 @@
   - North of the Pokémon Center (`cols 44-46, rows 13-18`), a green-uniformed worker at `(45, 14)` guards the northern archway leading to the Destino Metro Station: *"I'm sorry but the metro station is under renovation. Come back later"* (verified Turn 32194).
 - **Town Signboard (`37-38, 19`)**:
   - Located immediately west of the Pokémon Center (interacted from `38, 20`); reads verbatim: *"Destino City / The industrial mine city"* (verified Turn 32194).
+- **Western Street Roadblock (`34, 19-21`)**:
+  - Stepping west onto `col 34` (`34, 20`) prior to investigating the Destino Mine displays verbatim: *"We should check what's the deal with the Destino Mine!"* and steps the player east to `(35, 20)` (verified Turn 32195).
+- **Southern Avenue toward Destino Mine (`cols 36-46, rows 22+`)**:
+  - Directly south of the Destino City Pokémon Center (`41, 18`), the tan curb along `row 22` (`cols 36-44`) is passable and leads south into the mining district (`rows 23+`), where a female resident in a pink shirt patrols around `(41, 22-24)`.
 
 <hr>
 
