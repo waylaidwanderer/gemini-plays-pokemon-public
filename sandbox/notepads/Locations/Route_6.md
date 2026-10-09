@@ -44,7 +44,7 @@
 - **Upper Northern Plateau (`cols 21-41, rows 6-20`)**:
   - **Northbound Wooden Staircase (`cols 27-29, rows 16-17`)**: Ascends north from the rocky mountain ridge crossroads (`28, 20`) to `(28, 15)` (verified Turn 32079).
   - **Trainer Tips Signpost (`35, 16`)**: Interacted from `(35, 17)`, reads verbatim: *"Trainer Tips! / Hidden items might be hiding on the ground unvisible to the eye."* (verified Turn 32081).
-  - **Small Rock Cones (`41, 15`, `32, 19`, & `24, 7`)**: `(41, 15)` verified inert in Turn 32081.
+  - **Small Rock Cones (`41, 15`, `32, 19`, `24, 7`, & `20, 14`)**: `(41, 15)` verified inert in Turn 32081.
   - **Youngster Scott (`39, 9`, facing South)**:
     - **Pre-Battle Quote**: *"If you think you can run without a Pokémon Battle, you are very wrong!"*
     - **Team (2 Pokémon)**:
@@ -57,8 +57,9 @@
       - **Pokémon 1**: Skiploom (♀, Lv23; Grass/Flying).
       - **Pokémon 2**: Spinda (♂, Lv24; Normal).
       - **Pokémon 3**: Floette (♀, Lv24; Fairy; knows Copycat).
+    - **Outcome**: Defeat quote: *"Ah whatever..."*; awards `₽1,152` (verified Turns 32089-32097).
   - **Western Item Spheres & Lost Team Siara Grunt**:
-    - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 23, 6 -> 23, 12)` past the wandering Police Officer at `(21-22, 9)`.
+    - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 25, 8 -> 23, 8 -> 23, 12)`; yields **King's Rock x1** (collected Turn 32098).
     - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
     - **Southwestern Sand Patch Item Sphere (`27, 34`)**: Located in the center of the southwestern sand patch (`cols 26-28, rows 33-35`).
     - **Lost Team Siara Grunt (`21, 24`, facing South)**: Standing on the western trail below the cliff (`20-21, 21-23`, spotted Turn 32078).
