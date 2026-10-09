@@ -393,6 +393,12 @@
     - **TM39 (Rock Tomb) (`43, 9`)**: Golden item sphere on the western side of the upper eastern ledge (`43, 9`, interacted from `44, 9`; collected Turn 31547).
     - **Eastern Exit Archway (`53, 8` -> Samurion City `39, 65`)**: Located on the northeastern side of the upper eastern ledge (`53, 8`, entered from `53, 9` stepping `Up`); exits directly into **Samurion City** at `(39, 65)` below the cave mouth at `(39, 64)` (verified Turns 31547-31549).
 
+## Closed Segments of Mt. Gerhana (`18, 39` Samurion Western Terrace Entrance)
+- **Entry Chamber (`31, 12` Exit Mat <-> Samurion City `18, 39`)**: Stepping into the newly opened northern cave entrance at `(18, 39)` on the Samurion City Western Terrace arrives at `(31, 12)` (`latest_grid.png` Turns 31580-31581). Walking west across the chamber (`31, 12 -> 31, 10 -> 22, 10 -> 22, 12 -> 23, 12`) reaches a floor ladder at **`(23, 12)`** (verified Turns 31581-31582).
+- **Eclite Cavern (`30, 10` Ladder Arrival <- Entry Chamber `23, 12`)**:
+  - **Team Siara Briefing Cutscene (Turns 31583-31585)**: Descending from `(23, 12)` to `(30, 10)` triggers a cutscene showing the red-haired female Team Siara officer (*"???"*) briefing **Frio** and a grunt on finding the largest Eclite piece in the cavern while grunts collect smaller fragments and guard against intruders; Frio wonders whether Asher will try to stop them from uncovering the truth about their shared ancestors before following the officer south across a wooden bridge.
+  - **Northern Corridor (`cols 27-33, rows 10-21`)**: Features purple Eclite crystals embedded in the upper cliff wall (`28-29, 8`) and leads south along `column 30` (`30, 10 -> 30, 19`) past an underground water channel (`27-29, 19-21`) to the first patrolling **Team Siara Grunt** at **`(30, 20)`** (`latest_grid.png` Turns 31586-31588).
+
 <hr>
 
 <h1><code>Locations/Route_1</code></h1>
@@ -553,7 +559,9 @@
   - **North (`cols 27-29, rows 65-73`)**: Passes underneath an overhead pagoda bridge (`cols 26-30, row 68-69`, where a uniformed officer stands at `27, 68`) between two red pagoda towers (`20-25, 65-72` and `31-36, 65-72`) and ascends a grand wooden staircase (`cols 27-29, rows 66-58`) into the main city (verified Turns 31556-31558).
 
 ## Southern Residential Block & Pokémon Center Plaza (`cols 21-36, rows 46-59`)
-- **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)`, with two residents standing on the avenue at `(27, 53)` and `(27, 52)` (`latest_grid.png` Turn 31559).
+- **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)` (`latest_grid.png` Turn 31559).
+  - **Male Resident (`27, 53`)**: *"Are you from somewhere foreign? Because it looks like it. / Samurion is well known for its unique culture after all!"* (verified Turn 31559).
+  - **Female Resident (`27, 52`)**: *"Isn't the architecture so beautiful?"* (verified Turn 31559).
 - **Samurion City Pokémon Center (`23, 47`) & Town Signboard (`26, 48`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 48)` (interacted from `26, 49`, reading verbatim: *"Samurion City / The city of Culture"*, verified Turn 31574). Opposite on the eastern side of the avenue sits the **Samurion Dojo (`31, 47`)**, flanked by a wooden dojo signboard (`33-34, 48`) and straw-hat NPC (`36, 48`).
   - **Interior (`7, 8` exit mat -> exits to `23, 48`)**: Nurse Joy at `(7, 2)` (counter at `7, 4`; healed and registered respawn checkpoint in Turn 31570); PC terminal at `(12, 1)` (reached via `row 8 -> col 13 -> 13, 1 -> 12, 1` around the eastern pillar at `11-12, 3-7`); Town Map at `(11, 0)`; wandering Bald Elder around `(5-7, 4-7)`; PokéMart mezzanine staircase in northwest corner (`latest_grid.png` Turn 31569).
 - **Valora Reunion & Samurion Dojo Cutscene (`28, 50` -> `31, 47` -> `6, 5`, Turns 31560-31564)**:
