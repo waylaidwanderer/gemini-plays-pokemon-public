@@ -747,7 +747,12 @@
   - **Western Item Spheres & Lost Team Siara Grunt**:
     - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 25, 8 -> 23, 8 -> 23, 12)`; yields **King's Rock x1** (collected Turn 32098).
     - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
-    - **Lost Team Siara Grunt (`21, 24`, facing South)**: Cornered from `(21, 25)` (`-> 20, 24`, Turns 32140-32143); surrenders without a battle and reveals that Team Siara headed to the nearby mining settlement of **Destino City**, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`).
+    - **Lost Team Siara Grunt (`21, 24`, facing South)**: Cornered from `(21, 25)` (`-> 20, 24`, Turns 32140-32144); reveals that Team Siara headed to the nearby mining settlement of **Destino City**, and then stops Asher and Valora at `(19, 24)` to battle:
+      - **Pokémon 1**: Carvanha (♂, Lv23; Water/Dark; knows Aqua Jet).
+      - **Pokémon 2**: Swoobat (♀, Lv24; Psychic/Flying; knows Imprison).
+      - **Pokémon 3**: Golbat (♂, Lv24; Poison/Flying; knows Air Cutter).
+      - **Pokémon 4**: Purugly (♂, Lv24; Normal).
+      - **Outcome**: Defeated in Turns 32145-32154, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`).
 
 <hr>
 
@@ -1246,7 +1251,7 @@
 - **Interrogation of the Lost Team Siara Grunt & Destino City Lead (`20, 24`, Turns 32140-32143)**:
   - On the western intermediate terrace of Route 6 (`20, 24`), Asher and Valora cornered the lost Team Siara Grunt (`21, 24`), who panicked and admitted that Marie had warned Team Siara about Asher.
   - Begging to be spared as a straggler who got left behind, the grunt revealed that he overheard his companions talking about *"mines and the city laying nearby"*.
-  - Valora recalled that the nearby city, **Destino City**, is a mining settlement, and concluded that Team Siara must have headed to **Destino City**. Asher and Valora resolved to travel to Destino City and investigate Team Siara's operation for themselves.
+  - Valora recalled that the nearby city, **Destino City**, is a mining settlement, and concluded that Team Siara must have headed to **Destino City**. As Asher and Valora turned to leave (`19, 24`), the grunt tried to stop them with a 4-Pokémon team (Carvanha Lv23, Swoobat Lv24, Golbat Lv24, Purugly Lv24), which Asher swept with Sirius (Turns 32144-32154).
 
 <hr>
 

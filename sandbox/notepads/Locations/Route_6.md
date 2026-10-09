@@ -68,4 +68,9 @@
   - **Western Item Spheres & Lost Team Siara Grunt**:
     - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 25, 8 -> 23, 8 -> 23, 12)`; yields **King's Rock x1** (collected Turn 32098).
     - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
-    - **Lost Team Siara Grunt (`21, 24`, facing South)**: Cornered from `(21, 25)` (`-> 20, 24`, Turns 32140-32143); surrenders without a battle and reveals that Team Siara headed to the nearby mining settlement of **Destino City**, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`).
+    - **Lost Team Siara Grunt (`21, 24`, facing South)**: Cornered from `(21, 25)` (`-> 20, 24`, Turns 32140-32144); reveals that Team Siara headed to the nearby mining settlement of **Destino City**, and then stops Asher and Valora at `(19, 24)` to battle:
+      - **Pokémon 1**: Carvanha (♂, Lv23; Water/Dark; knows Aqua Jet).
+      - **Pokémon 2**: Swoobat (♀, Lv24; Psychic/Flying; knows Imprison).
+      - **Pokémon 3**: Golbat (♂, Lv24; Poison/Flying; knows Air Cutter).
+      - **Pokémon 4**: Purugly (♂, Lv24; Normal).
+      - **Outcome**: Defeated in Turns 32145-32154, unlocking the northwestern sand patch (`12, 21`) and northbound staircase (`10-12, 18-19`).
