@@ -34,4 +34,4 @@
     - **Pokémon 1**: Marill (♂, Lv16; Water/Fairy).
     - **Pokémon 2**: Vulpix (♀, Lv17; Fire).
     - **Pokémon 3**: Nidorina (♀, Lv17; Poison).
-    - **Pokémon 4**: Bayleef (Grass).
+    - **Pokémon 4**: Bayleef (♂, Lv18; Grass).
