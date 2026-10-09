@@ -745,7 +745,7 @@
   - **Western Item Spheres & Lost Team Siara Grunt**:
     - **Upper Northwestern Item Sphere (`23, 13`)**: Reached via `(26, 6 -> 25, 8 -> 23, 8 -> 23, 12)`; yields **King's Rock x1** (collected Turn 32098).
     - **Middle Western Item Sphere (`23, 21`)**: Located behind the pine tree top `(24, 21)` above the lost Team Siara Grunt (`21, 24`).
-    - **Southwestern Sand Patch & Dynamite (`27, 34`)**: Reached from the southern cliff terrace (`16, 29`) via the two eastbound staircases at `(22, 32)` and `(24, 34)`; the golden item sphere in the center of the sand patch (`27, 34`) yields the **Dynamite** (into the Key Items Pocket) for **Quest #7 ("Kaboom")** (*"This must be the dynamite, that coworker was looking for..."*, collected Turn 32110). Small rock cones at `(14, 31)`, `(15, 34)`, `(18, 33)`, and `(23, 36)` are inert (verified Turns 32108-32109).
+    - **Southwestern Sand Patch & Dynamite (`27, 34`)**: Reached from the southern cliff terrace (`16, 29`) via the two eastbound staircases at `(22, 32)` and `(24, 34)`; the golden item sphere in the center of the sand patch (`27, 34`) yields the **Dynamite** (into the Key Items Pocket) for **Quest #7 ("Kaboom")** (*"This must be the dynamite, that coworker was looking for..."*, collected Turn 32110) and immediately triggers a scripted ambush by a wild **Gible** (♀, Lv20; Dragon/Ground; knows Sandstorm; verified Turns 32112-32117). Small rock cones at `(14, 31)`, `(15, 34)`, `(18, 33)`, and `(23, 36)` are inert (verified Turns 32108-32109).
     - **Lost Team Siara Grunt (`21, 24`, facing South)**: Standing on the western trail below the cliff (`20-21, 21-23`, spotted Turn 32078).
 
 <hr>
@@ -1482,12 +1482,12 @@
 - **Level**: Lv15
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 20/46 HP
+- **HP**: 44/46 HP
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
   - Slot 3: Charge (Electric, Status; learned at Lv9)
-  - Slot 4: Tackle (Normal, Physical)
+  - Slot 4: Baby-Doll Eyes (Fairy, Status, Priority +1, lowers target's Attack -1; verified Turn 32118)
 
 <hr>
 
