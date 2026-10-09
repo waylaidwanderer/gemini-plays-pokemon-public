@@ -35,3 +35,4 @@
     - **Pokémon 2**: Vulpix (♀, Lv17; Fire).
     - **Pokémon 3**: Nidorina (♀, Lv17; Poison).
     - **Pokémon 4**: Bayleef (♂, Lv18; Grass).
+    - **Outcome**: Defeat quote: *"Oh my... let's hope I'm not gonna need to fight you this round"*; awards `₽2016` (`₽6,182` cash total), heals Asher's party to full HP/PP (*"Wow, that was... intense. Thanks for the quick battle! Here, let me heal your Pokémon. We should both get going now, see ya at the tournament!"*), and departs north across the bridge (verified Turns 31803-31810).

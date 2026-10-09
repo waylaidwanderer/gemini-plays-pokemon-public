@@ -606,6 +606,7 @@
     - **Pokémon 2**: Vulpix (♀, Lv17; Fire).
     - **Pokémon 3**: Nidorina (♀, Lv17; Poison).
     - **Pokémon 4**: Bayleef (♂, Lv18; Grass).
+    - **Outcome**: Defeat quote: *"Oh my... let's hope I'm not gonna need to fight you this round"*; awards `₽2016` (`₽6,182` cash total), heals Asher's party to full HP/PP (*"Wow, that was... intense. Thanks for the quick battle! Here, let me heal your Pokémon. We should both get going now, see ya at the tournament!"*), and departs north across the bridge (verified Turns 31803-31810).
 
 <hr>
 
@@ -1088,6 +1089,8 @@
 - **Amor Battle Center Round 2 Summons & Metro Maintenance (Turns 31710-31712)**:
   - Both Asher and Frio simultaneously receive a text message on their HuPhones from the **Amor Battle Center**: *"Dear Contestant! The second round of the Eclipse Tournament is going to start in a few hours. We are sending this message way before the event because due to maintence, the metro lines aren't functioning. We want to assure everyone is notified in time so that they won't be late! Good luck, Pokémon Trainer! - Amor Battle Center"*.
   - Frio informs Asher that **Amor City** can be reached easily on foot from Samurion City by passing north through **Route 4**. When Asher offers to help Frio find his parents, Frio remarks that while Asher is no longer the antagonist in his life, they are still rivals rather than friends before heading north toward Route 4.
+## Route 4 River Bridge — Friendly Match with Lyra from Johto
+- **Lyra's Challenge (`19, 34`, Turns 31799-31810)**: On the wooden bridge spanning the Route 4 river, **Lyra** from the Johto region recognized Asher from the Amor City Battle Centre registration and challenged him to a friendly 4-Pokémon match (Marill Lv16, Vulpix Lv17, Nidorina Lv17, Bayleef Lv18). After Asher swept her team, Lyra healed his party (*"Wow, that was... intense. Thanks for the quick battle! Here, let me heal your Pokémon."*) and headed north toward Amor City (*"We should both get going now, see ya at the tournament!"*).
 
 <hr>
 
