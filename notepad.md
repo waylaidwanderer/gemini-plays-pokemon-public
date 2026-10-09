@@ -398,6 +398,7 @@
 - **Eclite Cavern (`30, 10` Ladder Arrival <- Entry Chamber `23, 12`)**:
   - **Team Siara Briefing Cutscene (Turns 31583-31585)**: Descending from `(23, 12)` to `(30, 10)` triggers a cutscene showing the red-haired female Team Siara officer (*"???"*) briefing **Frio** and a grunt on finding the largest Eclite piece in the cavern while grunts collect smaller fragments and guard against intruders; Frio wonders whether Asher will try to stop them from uncovering the truth about their shared ancestors before following the officer south across a wooden bridge.
   - **Northern Corridor (`cols 27-33, rows 10-21`)**: Features purple Eclite crystals embedded in the upper cliff wall (`28-29, 8`) and leads south along `column 30` (`30, 10 -> 30, 19`) past an underground water channel (`27-29, 19-21`) to the first patrolling **Team Siara Grunt** at **`(30, 20)`** (`latest_grid.png` Turns 31586-31588).
+    - **Siara Grunt (`30, 20`, facing East)**: Pre-battle quote: *"H-huh? Isn't this area supposed to be closed from intruders?"*; uses 2 Pokémon—Remoraid (♀, Lv15; Water) and Wartortle (♂, Lv16; Water); defeat quote: *"He really means business!"*; awards `₽1664` (verified Turns 31589-31595).
 
 <hr>
 
