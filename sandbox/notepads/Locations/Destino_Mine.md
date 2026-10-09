@@ -61,8 +61,9 @@
   - **Visible Landmarks Around `(26, 35)`**:
     - **Western Cliff Ledge Floor Ladder (`19, 36`)**: Visible on the raised western cliff ledge (`cols 17-20, rows 35-38`).
     - **Eastern Ledge Item Sphere (`32, 35`)**: Reached by ascending the double northbound staircases at `(36, 45)` and `(36, 40)` to `(36, 37)` (where small rocks at `36, 36` and `37, 37` are inert) and walking behind the top row of the 2x2 boulder (`34, 37 -> 34, 35 -> 33, 35`); yields **TM37 (Sandstorm)** (verified Turns 32313-32318).
-  - **Northern Bridge Passage (`27, 34` -> `27, 24`) & Wall Ladder (`27, 24` <-> 2F `44, 10`)**:
+  - **Northern Bridge Passage (`27, 34` -> `27, 24`), Upper Bridge Ledges (`cols 20-34, rows 24-31`), & Wall Ladder (`27, 24` <-> 2F `44, 10`)**:
     - Passing north under the overhead wooden bridge (`cols 26-28, rows 29-33`, where `26, 32-33` and `28, 32-33` are solid support pillars and `col 27` is the open center lane) leads to a northern alcove containing small rocks at `(26, 27)` and `(28, 25)` (both verified inert in Turn 32320; `(28, 35)` south of the bridge is also inert, verified Turn 32311), a stalagmite at `(26, 24)`, and a **wall ladder** at **`(27, 24)`** (`Up` onto `27, 24` displays `▲` at `27, 23`; pressing `Up` warps to the **Second Level (2F)** at **`(44, 10)`** facing North. Note: pressing `Down` while standing directly on `(44, 10)` warps back to `(27, 24)`—step `Right` to `(45, 10)` or `Left` to `(43, 10)` to dismount the ladder, verified Turns 32321-32324).
+    - The overhead wooden bridge (`cols 26-28, rows 29-31`) connects a western upper ledge (`cols 20-25, rows 24-31`, containing an orange mining machine at `20-21, 27-28` and a stalagmite at `23, 29`) to an eastern upper ledge (`cols 29-34, rows 24-31`, containing a small rock at `30, 29` and a cave archway at `34, 28`, observed via `latest_grid.png` Turn 32320).
 ## Second Level (2F) (`44, 10`+)
 - **Northern Ladder Entrance (`44, 10` <-> 1F `27, 24`)**: Arrives at `(44, 10)` facing North; small rock at `(46, 11)` is inert (verified Turn 32324).
 - **Overhead Wooden Bridge (`cols 35-48, rows 14-16`)**: A **Team Siara Grunt** stands on top of the bridge at `(41, 14)` facing South, while the ground passage passes underneath along `col 43` (`43, 13 -> 43, 17`, verified Turn 32326).
@@ -71,6 +72,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Arbok (♂, Lv24; Poison; Ability: Intimidate).
     - **Pokémon 2**: Seviper (♀, Lv25; Poison; knows Glare).
+  - **Outcome**: Defeat quote: *"You are strong!"*; awards `₽2,500` (verified Turn 32333).
 - **Siara Grunt 2 (`41, 21`, female grunt facing East)**:
   - **Pre-Battle Quote**: *"So you are telling me those idiots didn't just lock themselves out, but lost to some kids too?"*
   - **Team (2 Pokémon)**:
