@@ -603,6 +603,7 @@
   - Spans north across the Route 4 river from `(18-20, 36)` to `(18-20, 31+)`, with a western pier extension at `(16-17, 32-33)` where a Tuber stands at `(16, 32)` facing East (`latest_grid.png` Turns 31795-31796).
   - **PKMN Trainer Lyra (`19, 34` Bridge Trigger)**: Stepping north onto `(19, 34)` triggers **Lyra** from the Johto region to walk up onto `(19, 35)`, recognize Asher from the Amor City Battle Centre, and challenge him to a friendly 4-Pokémon battle (*"Hehe, I won't hold back!"*, verified Turns 31799-31803):
     - **Pokémon 1**: Marill (♂, Lv16; Water/Fairy).
+    - **Pokémon 2**: Vulpix (♀, Lv17; Fire).
 
 <hr>
 
