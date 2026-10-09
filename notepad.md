@@ -576,8 +576,9 @@
 ## Wild Pokémon
 - **Ducklett**: Encountered at Lv13 (♂, Water/Flying) in the southern tall grass at `(44, 53)` (verified Turn 31722).
 - **Patrat**: Encountered at Lv11 (♀, Normal) in the southern tall grass at `(44, 50)` (caught in a Great Ball, nicknamed **Vomor**, and transferred to Box 2 as 53rd Owned species in Turns 31763-31768).
-- **Cascoon**: Encountered at Lv12 (♀, Bug) in the tall grass at `(43, 45)` (verified Turn 31770).
+- **Cascoon**: Encountered at Lv12 (♀, Bug) in the tall grass at `(43, 45)` (caught in a Great Ball, nicknamed **Nyx**, and transferred to Box 2 as 54th Owned species in Turns 31770-31778).
 ## Trainers & Landmarks
+- **Small Rock (`42, 44`)**: Inert (verified from `42, 45` in Turn 31769).
 - **Bug Catcher Joel (`43, 50`, rotating)**:
   - **Pre-Battle Quote**: *"Many bugs love water, so I am here to catch some besides the river!"*
   - **Team (3 Pokémon)**:
@@ -1166,7 +1167,7 @@
 - **Key Items Pocket (Audited Turn 31235)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, and **Rare Opal** (retained in Key Items after completing Quest #18).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 31768)**: Contains **Great Ball x9** and **Poké Ball x10** (purchased at Samurion City PokéMart in Turn 31755; used 1 Great Ball to catch Patrat in Turn 31764, bringing Owned species to **53** in PokéDex; `₽2,334` cash remaining).
+- **Poké Balls Pocket (Audited Turn 31778)**: Contains **Great Ball x6** and **Poké Ball x8** (purchased 10 of each at Samurion City PokéMart in Turn 31755; caught Patrat in Turn 31764 and Cascoon in Turn 31776, bringing Owned species to **54** in PokéDex; `₽2,334` cash remaining).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
