@@ -281,7 +281,7 @@
   - **Pre-Battle Quote**: *"These machines are actually really handy, I gotta give them that! / Not as handy as my Pokémon though when it comes to destroying kids!"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Mantine (♀, Lv26; Water/Flying; knows Water Pulse).
-  - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turn 32402). Post-battle quote: *"This is all wrong... How dare you..."*.
+  - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turn 32402). Post-battle quote: *"This is all wrong... How dare you..."*. Small rocks at `(25, 27)`, `(22, 29)`, and `(20, 26)` are verified inert (Turn 32403).
 - **Siara Executive (`27, 30` -> `27, 31`, facing South)**:
   - **Pre-Battle Quote**: *"The heck?! / Weren't there a bunch of grunts guarding the area? / Why does it always end like this..."*
   - **Team (3 Pokémon)**:
@@ -289,6 +289,9 @@
     - **Pokémon 2**: Wobbuffet (♂, Lv25; Psychic; Ability: Shadow Tag; knows Mirror Coat, Counter, Destiny Bond, and Safeguard).
     - **Pokémon 3**: Umbreon (♂, Lv26; Dark; knows Feint Attack).
   - **Outcome**: Defeat quote: *"Noooo!"*; awards `₽2,704` (verified Turns 32426-32427). Small rocks at `(30, 29)` and `(35, 31)` are inert (verified Turns 32427-32428).
+- **Southern Wall Ladder (`31, 29` <-> 1F `19, 36`) & Unexplored Southeastern 2F Corridor (`cols 36-47, rows 24-35`)**:
+  - The wall ladder at `(31, 29)` warps up to `(19, 36)` on the raised western cliff ledge of Destino Mine 1F (verified Turns 32429-32430), which leads north onto the 1F overhead wooden bridge (`cols 26-28, rows 29-31`) and upper cave archway (`34, 28`).
+  - East of `(34, 32)` on 2F, an open passage (`cols 36-37, rows 27-32`, with a small rock at `37, 30`) connects into the unexplored southern minecart track corridor south of Siara Grunt 2 (`41, 21`) and Siara Grunt 3 (`47, 23`) (`cols 38-47, rows 24-35`).
 
 <hr>
 
