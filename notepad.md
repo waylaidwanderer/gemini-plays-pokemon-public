@@ -597,6 +597,7 @@
 
 ## Northern Boulevard & Plaza (`cols 21-36, rows 15-35`)
 - **Frio Cutscene & Round 2 Summons (`28, 26`, Turns 31706-31712)**: Stepping north onto `(28, 26)` alongside the western pink flower garden (`cols 21-26, rows 26-34`) triggers **Frio** to emerge from `(26, 27)` in casual purple attire, recount the 300-year history of the five Samurion Pokémon Tamers who became the first **Eclipsers**, and receive the **Amor Battle Center** text message announcing Round 2 of the Eclipse Tournament and the temporary shutdown of the Hupest Metro Line for maintenance. Frio tells Asher to travel north on foot through **Route 4** to reach Amor City before departing north.
+- **Trainer & Lost Squirtle (`33, 25` & `34, 25`) — Quest #5 ("Squirtle Gang", Active)**: Standing outside the house (`31, 24`) west of the Samurion Metro Station entrance (`37, 24`). Explains: *"Aw poor little guy... Ah hey! You're a Pokémon Trainer, right? You see... this Squirtle has lost its family and I found him all alone on Route 4. Can you help me? No, this poor Squirtle reuniting with it's family? Yes/No"* (verified Turns 31714-31715). Accepting the quest causes the Squirtle (`34, 25`) to accompany Asher and gives the hint: *"I found him by the river in a more closed off, hidden area... I hope you can help him out!"* (accepted Turn 31715).
 
 <hr>
 
@@ -1105,7 +1106,7 @@
     2. Lost Toy (Completed)
     3. Egg Research (Completed in Turn 29330 — caught a wild Happiny holding an Oval Stone at Route 2 `52-53, 26`, moved the Oval Stone to the Bag via the Day-Care PC `10, 8`, and delivered it to the scientist at Route 2 `40, 21`; rewarded a **Pokémon Egg** sent to Box 1; **7 Poké Balls** remaining and **12 Owned species** in PokéDex)
     4. Medic! (Completed in Turn 28495 — delivered Cure Flower from Route 2 `45, 14` to Old Gentleman at Azluf Town Lighthouse `52, 5`; rewarded **Exp. Share**)
-    5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
+    5. Squirtle Gang (Active — accepted at Samurion City `33, 25` in Turn 31715; hint: *"I found him by the river in a more closed off, hidden area... I hope you can help him out!"* on Route 4)
   - **Page 2 Quests**:
     6. Lost Eevee
     7. Kaboom

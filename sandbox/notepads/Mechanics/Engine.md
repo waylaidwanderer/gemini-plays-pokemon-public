@@ -40,7 +40,7 @@
     2. Lost Toy (Completed)
     3. Egg Research (Completed in Turn 29330 — caught a wild Happiny holding an Oval Stone at Route 2 `52-53, 26`, moved the Oval Stone to the Bag via the Day-Care PC `10, 8`, and delivered it to the scientist at Route 2 `40, 21`; rewarded a **Pokémon Egg** sent to Box 1; **7 Poké Balls** remaining and **12 Owned species** in PokéDex)
     4. Medic! (Completed in Turn 28495 — delivered Cure Flower from Route 2 `45, 14` to Old Gentleman at Azluf Town Lighthouse `52, 5`; rewarded **Exp. Share**)
-    5. Squirtle Gang (Uncompleted; displays "This Quest hasn't been completed yet!")
+    5. Squirtle Gang (Active — accepted at Samurion City `33, 25` in Turn 31715; hint: *"I found him by the river in a more closed off, hidden area... I hope you can help him out!"* on Route 4)
   - **Page 2 Quests**:
     6. Lost Eevee
     7. Kaboom
