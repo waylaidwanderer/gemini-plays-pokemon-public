@@ -71,3 +71,8 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Arbok (♂, Lv24; Poison; Ability: Intimidate).
     - **Pokémon 2**: Seviper (♀, Lv25; Poison; knows Glare).
+- **Siara Grunt 2 (`41, 21`, female grunt facing East)**:
+  - **Pre-Battle Quote**: *"So you are telling me those idiots didn't just lock themselves out, but lost to some kids too?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Weezing (♂, Lv24; Poison; knows Self-Destruct).
+    - **Pokémon 2**: Zangoose (♀, Lv25; Normal).
