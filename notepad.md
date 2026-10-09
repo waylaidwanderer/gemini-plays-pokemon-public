@@ -602,6 +602,7 @@
 - **Wooden River Bridge (`cols 18-20, rows 26-36`), Western Pier (`cols 16-17, rows 31-33`) & Eastern Pier (`cols 21-22, rows 29-30`)**:
   - Spans north across the Route 4 river from `(18-20, 36)` to `(18-20, 26+)`.
   - **Tuber & Big Brother (`16, 32` & `16, 31`)**: Friendly NPCs on the western pier: *"Can I jump in the water, big bro? / Yes, but be careful and stay close!"* (verified Turn 31811).
+  - **Fisherman (`22, 28`)**: Friendly NPC on the eastern pier: *"Ahh fishing... / One of the fun and chill activities..."* (verified Turn 31813).
   - **PKMN Trainer Lyra (`19, 34` Bridge Trigger)**: Stepping north onto `(19, 34)` triggers **Lyra** from the Johto region to walk up onto `(19, 35)`, recognize Asher from the Amor City Battle Centre, and challenge him to a friendly 4-Pokémon battle (*"Hehe, I won't hold back!"*, verified Turns 31799-31803):
     - **Pokémon 1**: Marill (♂, Lv16; Water/Fairy).
     - **Pokémon 2**: Vulpix (♀, Lv17; Fire).
