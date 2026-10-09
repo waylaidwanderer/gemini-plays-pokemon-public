@@ -14,6 +14,7 @@
   - **Southern Riverbank Signboard (`43-44, 35`)**: Interacted from `(44, 36)`, reads verbatim: *"Route 4 / Road to Amor"* (verified Turn 31784).
   - **Northern Bridge Signboard (`17-18, 22`)**: Interacted from `(18, 23)`, reads verbatim: *"North: Amor City / South: Samurion City"* (verified Turn 31815).
   - **Route 4 North Trainer Tips Signpost (`25, 40`)**: Interacted from `(25, 41)`, reads verbatim: *"Trainer Tips! / Sometimes one area can be sliced up to different segments based on their Pokémon inhabitant variety."* (verified Turn 31878).
+  - **Amor City Gatehouse Signboard (`26-27, 15` on Route 4 North)**: Interacted from `(27, 16)`, reads verbatim: *"Amor City / ----->"* (verified Turn 31897).
 - **Southwestern Riverside Alcove (`10-14, 38-39`) & Ultra Ball (`14, 39`)**: Golden item sphere at `(14, 39)` yields **Ultra Ball x1** (collected Turn 31797); the riverbank path behind the pine tree tops (`row 38`) terminates at the water edge at `(10, 38)` (verified Turn 31797).
 - **Eastern Northern-Riverbank Alcove (`34-39, 20-21`) & Oval Stone (`39, 20`)**: Reached behind the tall grass patch (`31-33, 21`); golden item sphere at `(39, 20)` yields **Oval Stone x1** (collected Turn 31853). Separated from the Squirtle Gang clearing (`cols 42-53, rows 12-19`) by solid pine trees (`36-41, 16-19`).
 - **Squirtle Gang Clearing (`cols 42-53, rows 12-19` on Route 4 South/Central) — Quest #5 ("Squirtle Gang", Completed)**:
