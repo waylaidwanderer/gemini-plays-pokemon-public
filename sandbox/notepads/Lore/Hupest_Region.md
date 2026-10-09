@@ -136,3 +136,6 @@
 - **Valora's HuPhone Message & Fast-Travel to Azluf Town Border (`21, 14` -> Route 2 `77, 59`, Turn 31508)**:
   - Stepping onto `(21, 14)` outside Professor Ivo's Laboratory in Lancio Town triggers a text message from **Valora**: *"Hey! Your dad had to go take care of some business, so he left, and I set off to Samurion City. Let's meet up there!"*
   - Recalling that **Samurion City** connects to Azluf Town through **Mt. Gerhana**, Asher decides to check on the **Eclite** crystal in Mt. Gerhana on the way there, and the game automatically fast-travels Asher to **`(77, 59)`** at the eastern end of Route 2 outside Azluf Town.
+
+## Upper Mt. Gerhana — Team Siara Steals the Eclite Crystal
+- **Theft of the Eclite Crystal (`18, 15` -> `25, 15`, Turns 31525-31527)**: Upon returning to the Upper Cave Chamber of Mt. Gerhana on the way to Samurion City, Asher found four **Team Siara Grunts** standing where the giant purple Eclite crystal had been (`26-29, 14-18`), having mined and taken the entire crystal to deliver it to **Team Siara HQ** on **Marie**'s ("milady") orders. Recognizing Asher from the Sovio Sewers, Grunt 3 (`26, 15`) stepped forward to battle him.

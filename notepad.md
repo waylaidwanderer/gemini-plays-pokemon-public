@@ -383,6 +383,7 @@
     - Frio explains that the crystal and Eclipse Shards are made of **Eclite**, and that Eclipsing is a hereditary power carried in the user's bloodline which Eclite and the Eclipse Band merely channel.
     - When a wild **Aggron** touches the crystal and transforms into a violent **Eclipsed Aggron** (`27, 14`), Asher's inner bloodline power and **Eclipse Band** resonate with the Eclite to calm and revert the Aggron. Stunned, Frio remarks *"You seem way more unique than I actually anticipated. Very well... We will meet again, Asher"* and departs east across the eastern wooden bridge (`cols 29+, rows 16-18`).
     - **Mandatory Post-Frio Eclite Crystal Interaction (`27, 15` facing `27, 14`, Turns 31488-31489)**: After Frio departs east across the bridge, stepping to `(27, 15)` and pressing `A` facing `Up` into the Eclite Crystal (`27, 14`) triggers the mandatory follow-up cutscene where Asher reflects on resonating with the Eclite, feels heavy and exhausted from the bloodline power drain, and collapses on the cave floor, waking up in his bedroom on **Inizio Isle** (`6, 4`) alongside Dad (`7, 4`) and Valora (`5, 5`).
+  - **Team Siara Eclite Theft Cutscene (`18, 15` -> `25, 15`, Turns 31525-31527)**: Returning across the western bridge after Valora's text message in Lancio Town triggers a cutscene at `(18, 15)` where four **Team Siara Grunts** have mined and taken the giant Eclite crystal to deliver to Team Siara HQ for Marie. Recognizing Asher from the Sovio Sewers, **Siara Grunt 3** (`26, 15`) challenges Asher to a battle (leads with Duskull ♂ Lv14).
 
 <hr>
 
@@ -926,6 +927,9 @@
 - **Valora's HuPhone Message & Fast-Travel to Azluf Town Border (`21, 14` -> Route 2 `77, 59`, Turn 31508)**:
   - Stepping onto `(21, 14)` outside Professor Ivo's Laboratory in Lancio Town triggers a text message from **Valora**: *"Hey! Your dad had to go take care of some business, so he left, and I set off to Samurion City. Let's meet up there!"*
   - Recalling that **Samurion City** connects to Azluf Town through **Mt. Gerhana**, Asher decides to check on the **Eclite** crystal in Mt. Gerhana on the way there, and the game automatically fast-travels Asher to **`(77, 59)`** at the eastern end of Route 2 outside Azluf Town.
+
+## Upper Mt. Gerhana — Team Siara Steals the Eclite Crystal
+- **Theft of the Eclite Crystal (`18, 15` -> `25, 15`, Turns 31525-31527)**: Upon returning to the Upper Cave Chamber of Mt. Gerhana on the way to Samurion City, Asher found four **Team Siara Grunts** standing where the giant purple Eclite crystal had been (`26-29, 14-18`), having mined and taken the entire crystal to deliver it to **Team Siara HQ** on **Marie**'s ("milady") orders. Recognizing Asher from the Sovio Sewers, Grunt 3 (`26, 15`) stepped forward to battle him.
 
 <hr>
 
