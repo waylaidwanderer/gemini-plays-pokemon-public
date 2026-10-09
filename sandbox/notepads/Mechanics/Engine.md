@@ -114,3 +114,10 @@
 
 ## Battle UI & Type Effectiveness Indicators
 - **Move Box Effectiveness Highlighting**: In the CFRU battle Fight menu, the selected move's box dynamically changes color to indicate type effectiveness against the active opponent (e.g. highlights **light green** when a move is super-effective, such as Steel-type Metal Claw against Fairy-type Cleffa or Psychic/Fairy-type Ralts; verified Turn 27656).
+
+## Eclipsing & The Eclicizer Machine
+- **True Eclipsing Requirements**: Requires a worthy bloodline wielder (such as Asher or Frio), the **Eclipse Band**, and a powered **Eclite Shard** (which breaks upon a single use and permanently transforms the target Pokémon into its Eclipsed form).
+- **The Eclicizer (Professor Ivo's Basement Lab in Lancio Town)**:
+  1. Restores powerless **Clear Shards** into active **Eclite Shards**.
+  2. Combines smaller **Eclite Pieces** into a single fully powered **Eclite Shard**.
+  - Professor Ivo noted that Eclite Pieces / Clear Shards can also be obtained from the giant Eclite crystal in Upper Mt. Gerhana (`27, 14`).

@@ -212,7 +212,7 @@
 
   - Western wing breakroom: table with coffee cup on red rug (cols 5-6, rows 7-8), refrigerator at (7, 5), sink at (5, 5), TV at (3, 5), bookshelf at (1, 5) (all decorative breakroom fixtures).
 
-- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (verified post-tremor Turn 27076).
+- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Prior to the Upper Mt. Gerhana Eclite Crystal awakening, stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (verified Turn 31497). After speaking with Professor Ivo at (20, 6) in Turn 31498 following the Mt. Gerhana collapse, she leads Asher down (12, 7) into her **Basement Laboratory** (`16, 17` stairs up; **Eclicizer** machine at `11, 12-14`).
 
 - **East Research Wing (Comprehensive Audit)**:
 
@@ -915,6 +915,14 @@
   - After Asher recounts everything Frio revealed about **Eclite**, the Eclipsed Aggron, and how Asher reverted it, Asher urges Dad to visit **Professor Ivo's Laboratory** in Lancio Town (*"Dad! We should head to Ivo's place! ... I need to tell her every information Frio provided."*). Realizing Ivo already told Asher about her past, Dad agrees (*"So she told him about her past... I guess I have no choice. You should rest a bit first, gain some energy and then we will pay her visit, okay?"*) and heads downstairs.
   - Before Valora leaves the room, Asher stops her to thank her for worrying about him, and Valora makes him pinky-promise not to put himself in such reckless danger again.
 
+## Lancio Town — Professor Ivo's Basement Laboratory, The Eclicizer & Gift Eclipsed Pidgey
+- **True vs. Artificial Eclipsing (Turns 31498-31501)**: After resting for 12 hours on Inizio Isle and sailing to the Lancio Town dock (`33, 25`), Asher met Professor Ivo in her East Research Wing (`20, 6`), and she led him down the previously blocked foyer stairs (`12, 7`) into her **Basement Laboratory** (`11, 16`) where Dad (`11, 17`) and Valora (`11, 15`) were waiting. When Dad asked how Siara used Eclipsing despite the bloodline requirement, Ivo explained that Siara's method is **Artificial Eclipsing** (*"a mere copy of what this power originally is"*), whereas **true Eclipsing** requires a worthy bloodline wielder (currently only Asher and Frio are known).
+- **The Eclicizer (`11, 12-14`, Turns 31501-31502)**: Professor Ivo unveiled a machine she built called the **Eclicizer**, which has two functions:
+  1. Restores powerless **Clear Shards** (clear Eclite crystals that look like normal crystals) into active **Eclite Shards**.
+  2. Combines small, weak **Eclite Pieces** into a single fully powered **Eclite Shard**.
+- **Controlled Eclipsing Experiment & Gift Eclipsed Pidgey (Turns 31502-31504)**: Using an **Eclite Shard** provided by Ivo, Asher Eclipsed a **Pidgey** on command and stayed conscious afterward, showing his body is slowly adapting to the energy drain. Ivo gifted the **Eclipsed Pidgey** to Asher (Turn 31504) to help him train.
+- **Professor Ivo's Private Request (Turn 31505)**: After Dad and Valora stepped outside to wait, Ivo privately asked Asher to train himself, become a strong Trainer, and master Eclipsing to counter whatever Team Siara is planning, suggesting he can also gather Eclite from the giant Eclite crystal in **Mt. Gerhana**.
+
 <hr>
 
 <h1><code>Main</code></h1>
@@ -1049,6 +1057,13 @@
 
 ## Battle UI & Type Effectiveness Indicators
 - **Move Box Effectiveness Highlighting**: In the CFRU battle Fight menu, the selected move's box dynamically changes color to indicate type effectiveness against the active opponent (e.g. highlights **light green** when a move is super-effective, such as Steel-type Metal Claw against Fairy-type Cleffa or Psychic/Fairy-type Ralts; verified Turn 27656).
+
+## Eclipsing & The Eclicizer Machine
+- **True Eclipsing Requirements**: Requires a worthy bloodline wielder (such as Asher or Frio), the **Eclipse Band**, and a powered **Eclite Shard** (which breaks upon a single use and permanently transforms the target Pokémon into its Eclipsed form).
+- **The Eclicizer (Professor Ivo's Basement Lab in Lancio Town)**:
+  1. Restores powerless **Clear Shards** into active **Eclite Shards**.
+  2. Combines smaller **Eclite Pieces** into a single fully powered **Eclite Shard**.
+  - Professor Ivo noted that Eclite Pieces / Clear Shards can also be obtained from the giant Eclite crystal in Upper Mt. Gerhana (`27, 14`).
 
 <hr>
 
