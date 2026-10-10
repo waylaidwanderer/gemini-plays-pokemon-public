@@ -27,3 +27,4 @@
   - **Southeastern Terrace & Cave Entrance**:
     - **Professor Ivo (`36, 46`)**: Waiting on the southeastern grass terrace below the cliff staircase (`33, 44-45`).
     - **Dad / Jackson (`36, 42`)**: Standing on the upper plateau in front of the **cave entrance (`36, 40`)** leading down to the abandoned undersea Team Siara laboratory.
+- **Tentacruel** (♀, Lv27; Water/Poison; caught in Ultra Ball at `27, 31` in Turn 34356, nicknamed **Medusa**, transferred to Box 3; brings PokéDex Owned count to **80**, fulfilling Task 2 of Special Quest #12 `"Elm's Research"`).
