@@ -1275,6 +1275,9 @@
   - **Eastern Ledge Item (`42, 42`)**: Purple potion bottle sprite visible on the lower eastern terrace (`cols 40-43, rows 41-44`).
   - **Northern Staircase (`32-33, 37`)**: Stone staircase leading north into the Solare Island forest.
   - **Forest Entrance Archway (`32-33, 31` <-> Solare Island Forest `57-58, 32`)**: Stepping north into `(33, 31)` warps into the **Solare Island Forest** at `(58, 32)` (verified Turn 33067).
+- **Solare Island Forest**:
+  - **Southern Entrance Clearing (`cols 50-61, rows 24-32`)**:
+    - **Ancient Stone Plate #2 (`57, 25`)**: Interacted from `(57, 26)`, reads verbatim: *"It looks like an ancient stone plate... / There's some text carved in! / = 'Whoeve... ste... shall beware. Th... gem ... the key...' / It's barely readable, and the rest is completely messed up..."* (verified Turn 33070).
 
 <hr>
 
