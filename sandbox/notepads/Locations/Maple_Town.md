@@ -2,6 +2,7 @@
 
 ## Geography & Connections
 - **North (`28-30, 0` <-> Route 13 `48-50, 49`)**: Seamless northern border connecting the southern dirt road of **Route 13** onto the main northern road of **Maple Town** at `(28-30, 0)` (verified Turn 34046).
+- **West (`0, 16-17` <-> Route 8)**: Western border road leading onto **Route 8**; marked by the wooden signboard at `(1-2, 16)` (interacted from `2, 17`), which reads verbatim: *"Route 8 / <------"* (verified Turn 34074).
 - **Maple Town Pokémon Center (`34, 10`, exits to `34, 10-11`)**: Located on the east side of the northern entrance road (`cols 32-36, rows 6-10`); a short wooden fence at `(31-32, 9-10)` sits to the left of the building, so the entrance door at `(34, 10)` is reached via `row 11` (`30, 11 -> 34, 11 -> 34, 10`, verified Turn 34056).
   - **Ground Floor**: Nurse Joy at `(7, 2)` (counter at `7, 4`; healed and registered checkpoint in Turn 34056); trainer at `(8, 5)` (*"Pokémon can still learn techniques after canceling evolution. Evolution can wait until new moves have been learned."*, verified Turn 34058); mezzanine stairs at `(2, 1)` -> `Up 4` to `(5, 6)`.
   - **Mezzanine PokéMart (`5, 5`)**: Sells standard PokéMart supplies including **Ultra Balls** (`₽1200`; purchased 30 in Turn 34063).
