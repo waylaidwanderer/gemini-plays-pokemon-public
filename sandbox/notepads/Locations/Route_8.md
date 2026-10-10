@@ -49,7 +49,8 @@
   - **Outcome**: Defeated in Turns 34126-34129 (*"Falling right off.."*; awards `₽1,480`).
 - **Gentleman Leslie (`7, 18`, facing `Down` in the western corridor)**:
   - **Pre-Battle Quote**: *"Hello, young man... / Would you fancy a battle?"*
-  - **Team (2 Pokémon)**:
+  - **Team (3 Pokémon)**:
     - **Pokémon 1**: Pidgeot (♂, Lv37; Normal/Flying; OHKO'd by Sirius's `Meteor Mash` for `1363 EXP`).
     - **Pokémon 2**: Talonflame (♂, Lv37; Fire/Flying; knows Nature Power [turns into Stun Spore on grass]; 2HKO'd by Sirius's `Aura Sphere` for `1387 EXP`, leveling Sirius to Lv66).
-  - **Outcome**: Defeated in Turns 34152-34160.
+    - **Pokémon 3**: Decidueye (♂, Lv37; Grass/Ghost; knows Foresight; OHKO'd by Sirius's `Meteor Mash`).
+  - **Outcome**: Defeated in Turns 34152-34163.
