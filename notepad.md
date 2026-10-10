@@ -1600,6 +1600,11 @@
     - **Pokémon 3**: Medicham (♀, Lv36; Fighting/Psychic; OHKO'd by Sirius's `Meteor Mash` for `1179 EXP`).
     - **Pokémon 4**: Infernape (♂, Lv36; Fire/Fighting; OHKO'd by Sirius's `Bulldoze` for `1611 EXP`).
   - **Outcome**: Defeated in Turns 34103-34112 (*"Retreat attack"*; awards `₽2,592`).
+- **Collector Winston (`22, 19`, rotating on the overhead wooden bridge `20-22, 16-25`)**:
+  - **Pre-Battle Quote**: *"Hehe I just bought this Pokémon, they are pretty rare!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Heatmor (♂, Lv38; Fire; OHKO'd by Sirius's `Bulldoze` for `1375 EXP`).
+  - **Outcome**: Defeated in Turns 34122-34125 (*"All that money to waste."*; awards `₽1,520`).
 
 <hr>
 
