@@ -1173,6 +1173,8 @@
     - **Pokémon 1**: Ninetales (♀, Lv36; Fire; Ability: Drought; OHKO'd by Sirius's `Bulldoze` for `1372 EXP`).
     - **Pokémon 2**: Simisear (♂, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1341 EXP`).
   - **Outcome**: Defeated in Turns 33941-33946.
+## Story Events
+- **Reconciliation with Valora in the Wheat Field (`32, 26` -> `39, 32`, Turns 33947-33952)**: Stepping onto `(32, 26)` triggers a cutscene where Asher meets **Valora** (`32, 28`), follows her into the golden wheat field (`39, 31-32`), apologizes and hugs her following Dad's advice, and promises never to leave her behind before they head toward **Maple Town** together.
 
 <hr>
 
@@ -2190,6 +2192,9 @@
 - **Bugiaret Island Routes & Towns**: Confirmed that **Galinor City** connects south via **Route 13** and **Route 8** to **Mulberry Town** (southwest green square) and **Maple Town** (southeast green square, directly adjacent to the Location 3 offshore island), and west/south via **Route 9** and **Route 7**.
 - **Northeast & Eastern Mainland**: **Route 14** and **Hupestian Ruins / Mt. Nit** lead northeast from Amor City to **Eclipse Square** (`E.S.` on the Hupest Metro Line), while the eastern coast features **Wild Area** and **Dis Bay** (`Metro Station`).
 - **Cord Island**: Southeast offshore island containing **Route 18** and **Battle Marine**.
+## Route 13 Wheat Field — Reconciliation with Valora (`32, 26` -> `39, 32`, Turns 33947-33952)
+- **Heart-to-Heart in the Wheat Field**: Encountering **Valora** on Route 13 (`32, 28`) on the way to Maple Town, Asher remembered Dad's advice from Route 16 and asked to talk. Valora led Asher into the golden wheat field (`39, 31-32`) for privacy and tearfully confessed that despite everything they had been through together, she felt they still had much to learn about each other, wondered what was going on between Asher and Dawn, and was afraid of drifting apart from him.
+- **Asher's Promise**: Hugging Valora and apologizing for making her worry, Asher promised he would never leave her behind, vowed to open up to her more from now on, and offered to help guide her toward her goal of becoming strong and independent. Flustered (*"'ba-dump' A-alright... I mean... Alright! ... Gah... why is my heart beating so fast..."*), Valora reconciled with Asher and joined him to meet Dad and Professor Ivo in **Maple Town**.
 
 <hr>
 

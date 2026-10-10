@@ -14,3 +14,5 @@
     - **Pokémon 1**: Ninetales (♀, Lv36; Fire; Ability: Drought; OHKO'd by Sirius's `Bulldoze` for `1372 EXP`).
     - **Pokémon 2**: Simisear (♂, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1341 EXP`).
   - **Outcome**: Defeated in Turns 33941-33946.
+## Story Events
+- **Reconciliation with Valora in the Wheat Field (`32, 26` -> `39, 32`, Turns 33947-33952)**: Stepping onto `(32, 26)` triggers a cutscene where Asher meets **Valora** (`32, 28`), follows her into the golden wheat field (`39, 31-32`), apologizes and hugs her following Dad's advice, and promises never to leave her behind before they head toward **Maple Town** together.
