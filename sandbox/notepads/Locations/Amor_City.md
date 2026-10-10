@@ -215,4 +215,4 @@
     - **Pokémon 3**: Metang (Lv35; Steel/Psychic; knows Stealth Rock; defeated by Sirius's `Aura Sphere` + `Bulldoze` for `1147 EXP`, leveling Sirius to Lv63).
     - **Pokémon 4**: Blaziken (♂, Lv36; Fire/Fighting; OHKO'd by Sirius's `Bulldoze`).
     - **Pokémon 5**: Gyarados (♂, Lv36; Water/Flying; knows Dragon Dance; 2HKO'd by Sirius's `Aura Sphere` for `1650 EXP`).
-  - **Outcome**: Defeated in Turns 33891-33904 (*"Know your enemy... / Just as much as you know yourself."*), crowning Asher winner of his Round 6 group and advancing him to Round 7 of the Eclipse Tournament.
+  - **Outcome**: Defeated in Turns 33891-33904 (*"Know your enemy... / Just as much as you know yourself. / That's the key to victory, but it seems like you already gained a good grasp on that concept... / Thank you for the battle!"*; awards `₽4,144`), crowning Asher winner of his Round 6 group and advancing him to Round 7 of the Eclipse Tournament.

@@ -217,7 +217,7 @@
     - **Pokémon 3**: Metang (Lv35; Steel/Psychic; knows Stealth Rock; defeated by Sirius's `Aura Sphere` + `Bulldoze` for `1147 EXP`, leveling Sirius to Lv63).
     - **Pokémon 4**: Blaziken (♂, Lv36; Fire/Fighting; OHKO'd by Sirius's `Bulldoze`).
     - **Pokémon 5**: Gyarados (♂, Lv36; Water/Flying; knows Dragon Dance; 2HKO'd by Sirius's `Aura Sphere` for `1650 EXP`).
-  - **Outcome**: Defeated in Turns 33891-33904 (*"Know your enemy... / Just as much as you know yourself."*), crowning Asher winner of his Round 6 group and advancing him to Round 7 of the Eclipse Tournament.
+  - **Outcome**: Defeated in Turns 33891-33904 (*"Know your enemy... / Just as much as you know yourself. / That's the key to victory, but it seems like you already gained a good grasp on that concept... / Thank you for the battle!"*; awards `₽4,144`), crowning Asher winner of his Round 6 group and advancing him to Round 7 of the Eclipse Tournament.
 
 <hr>
 
@@ -2151,6 +2151,11 @@
     - In a flashback (*"A little bit earlier..."*), the mysterious boy (`???`, wearing a grey cap and red scarf) confronted **Siara Admin Flo** and two grunts inside the Aur Factory inner chamber (`16, 9`), asking what they planned to do with the gems. Once her grunts retrieved the **second gem** from the stone pedestal (`16, 8`) and signaled that the helicopter had arrived, Flo escaped by helicopter with the gem, while the boy's female colleague ordered him over the phone not to pursue them and to return.
     - Entering the chamber moments later (`16, 9`), Asher and Dad spotted the mysterious boy before he vanished in a flash to escape. Inspecting the empty sphere socket on the pedestal (`16, 8`, identical to the formation on Solare Island), Asher and Dad suspected the boy might have taken whatever was inside.
     - Immediately afterward, Asher received a HuPhone text message from the **Amor Battle Center** summoning him to **Round Six of the Eclipse Tournament**, and Dad told Asher to head back to Amor City for Round Six while Dad calls Professor Ivo to arrange another meeting.
+## Eclipse Tournament Round Six — Victory Over Sinnoh's Riley
+- **Round Six Bracket & Matches (Turns 33867-33905)**: Inside the Amor City Battle Centre's Round 6 Arena (`13, 26` in the Lower Arena Ring), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Scientist Albert** (Ditto Lv35, Manectric Lv35, Porygon-Z Lv36, Cryogonal Lv35).
+  2. **Semifinals**: Defeated **Sailor Kyle** (Pelipper Lv35, Machamp Lv36, Whiscash Lv35, Poliwrath Lv36), while Sinnoh's **Riley** defeated Ruin Maniac Burt on the opposite side of the bracket.
+  3. **Round Six Finals**: Defeated **PKMN Trainer Riley** from the Sinnoh Region (Absol Lv35, Lucario Lv37, Metang Lv35, Blaziken Lv36, Gyarados Lv36) to win his Round Six group and advance to Round Seven of the Eclipse Tournament.
 
 <hr>
 
