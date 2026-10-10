@@ -9,7 +9,7 @@
 - **Staravia**: Encountered at Lv17 (♂, Normal/Flying; already owned) in the tall grass at `(29, 85)` on Route 12 Main (verified Turn 32700).
 ## Trainers, Landmarks & Items (Route 12 Main)
 - **Side-Quest Provider NPC (`16, 75`)**: Chubby boy in blue overalls with an exclamation (`!`) speech bubble standing on the upper cliff plateau at `(16, 75)` above the east-facing staircase `(18, 75-76)` (reached via the northbound staircase at `26-28, 74`; observed Turn 32684).
-- **East-Facing Wooden Staircase (`32-33, 88-89`)**: Located on the southeastern edge of the middle terrace east of `(26, 85)` (observed Turn 32691).
+- **Southbound Shortcut Staircase (`32-34, 88-89`) & One-Way Ledge (`32-34, 91`)**: Located on the southeastern edge of the middle terrace; leads south over a one-way ledge at `(32-34, 91)` back down to Bird Keeper Jett's terrace (verified Turn 32703).
 - **Rock Cones (`24, 104`, `34, 98`, `39, 98`, & `20, 92`)**: All four verified inert (Turns 32634, 32641, & 32663); `(34, 98)` and `(39, 98)` flank the northbound wooden staircase at `(37-38, 95-96)`, while `(20, 92)` sits east of the northbound wooden staircase at `(15-17, 90-91)`.
 - **Rugged Rock (`20, 76`) & Item Ball (`21, 76`)**: Located on a middle cliff ledge reached via the east-facing staircase at `(18, 75-76)`; the rugged rock at `(20, 76)` blocks access to the item ball at `(21, 76)` until rock-smashing equipment is obtained (observed Turn 32667).
 - **Hiker Calum (`29, 104`, facing South)**:
