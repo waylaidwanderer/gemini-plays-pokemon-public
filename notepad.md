@@ -766,7 +766,7 @@
 
 ## Geography & Connections
 - **North (`28-30, 0` <-> Route 13 `48-50, 49`)**: Seamless northern border connecting the southern dirt road of **Route 13** onto the main northern road of **Maple Town** at `(28-30, 0)` (verified Turn 34046).
-- **West (`0, 16-17` <-> Route 8)**: Western border road leading onto **Route 8**; marked by the wooden signboard at `(1-2, 16)` (interacted from `2, 17`), which reads verbatim: *"Route 8 / <------"* (verified Turn 34074).
+- **West (`0, 16-17` <-> Route 8 `59, 20-21`)**: Seamless western border road leading onto **Route 8** (verified Turn 34089); marked by the wooden signboard at `(1-2, 16)` (interacted from `2, 17`), which reads verbatim: *"Route 8 / <------"* (verified Turn 34074).
 - **Maple Town Pokémon Center (`34, 10`, exits to `34, 10-11`)**: Located on the east side of the northern entrance road (`cols 32-36, rows 6-10`); a short wooden fence at `(31-32, 9-10)` sits to the left of the building, so the entrance door at `(34, 10)` is reached via `row 11` (`30, 11 -> 34, 11 -> 34, 10`, verified Turn 34056).
   - **Ground Floor**: Nurse Joy at `(7, 2)` (counter at `7, 4`; healed and registered checkpoint in Turn 34056); trainer at `(8, 5)` (*"Pokémon can still learn techniques after canceling evolution. Evolution can wait until new moves have been learned."*, verified Turn 34058); mezzanine stairs at `(2, 1)` -> `Up 4` to `(5, 6)`.
   - **Mezzanine PokéMart (`5, 5`)**: Sells standard PokéMart supplies including **Ultra Balls** (`₽1200`; purchased 30 in Turn 34063).
@@ -1561,6 +1561,16 @@
     - **Small Rock (`8, 19`)**: Interacted from `(8, 18)`, yields a hidden **Super Repel x1** (collected Turn 32157).
     - **Rock Cones (`8, 15` & `12, 16`)**: Inert (verified Turn 32158).
     - **Upper Northwestern Staircase (`4-6, 13-14`)**: Ascends north from the sand patch (`4-6, 15`) to `(5, 12)` (terminating on the east at trees `cols 9-12, rows 8-12` and leading northwest onto a stone-paved road at `cols 0-1, rows 8-9` that transitions west onto `(-1, 8-9)` into **Destino City**, verified via `latest_grid.png` Turn 32161).
+
+<hr>
+
+<h1><code>Locations/Route_8</code></h1>
+
+# Route 8 (Bugiaret Island)
+
+## Geography & Connections
+- **East (`59, 20-21` <-> Maple Town `0, 16-17`)**: Seamless eastern border connecting the western road of **Maple Town** onto **Route 8** at `(59, 20-21)` (verified Turn 34089).
+- **Eastern Signboard (`52-53, 20`)**: Located along the eastern entrance road of Route 8.
 
 <hr>
 
