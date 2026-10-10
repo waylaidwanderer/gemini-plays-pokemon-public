@@ -776,6 +776,10 @@
     - **Pokémon 2**: Whirlipede (♂, Lv27; Bug/Poison; knows Protect).
     - **Pokémon 3**: Forretress (♂, Lv27; Bug/Steel).
   - **Outcome**: Defeat quote: *"Nooo!"*; awards `₽1,404` (verified Turns 32780-32788).
+- **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
+  - **Female Trainer (`28, 52`, facing South)**: Guards the eastern clearing (`cols 28-30, rows 53-56`) between the tall grass patches.
+  - **Northbound Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Reached by heading east past the female trainer at `(28, 52)` and south through the eastern grass/path to `(30-32, 59)`.
+  - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
 
 <hr>
 
@@ -1790,7 +1794,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 145), Attack (C+, 135), Defense (A-, 130), Sp. Atk (C-, 126), Sp. Def (E, 86), Speed (C-, 89)
-- **Current Condition**: 64/145 HP, Healthy (healed at Destino City Pokémon Center in Turn 32562; leveled up to Lv49 defeating Hiker Abid's Lairon in Turn 32735)
+- **Current Condition**: 64/145 HP, Healthy (healed at Destino City Pokémon Center in Turn 32562; leveled up to Lv49 defeating Hiker Abid's Lairon in Turn 32735; party's Lv15 Flaaffy fainted against Hiker Abid's Lairon in Turn 32730)
 - **EXP**: Lv49 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv49 defeating Hiker Abid's Lairon in Turn 32735)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 145), Attack (C+, 135), Defense (A-, 130), Sp. Atk (C-, 126), Sp. Def (E, 86), Speed (C-, 89)
-- **Current Condition**: 64/145 HP, Healthy (healed at Destino City Pokémon Center in Turn 32562; leveled up to Lv49 defeating Hiker Abid's Lairon in Turn 32735)
+- **Current Condition**: 64/145 HP, Healthy (healed at Destino City Pokémon Center in Turn 32562; leveled up to Lv49 defeating Hiker Abid's Lairon in Turn 32735; party's Lv15 Flaaffy fainted against Hiker Abid's Lairon in Turn 32730)
 - **EXP**: Lv49 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv49 defeating Hiker Abid's Lairon in Turn 32735)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
