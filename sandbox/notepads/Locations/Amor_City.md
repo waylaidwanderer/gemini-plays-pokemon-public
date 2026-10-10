@@ -137,3 +137,15 @@
     - **Pokémon 4**: Feraligatr (♂, Lv31; Water).
   - **Outcome**: Defeat quote: *"What the?! / Arghhh! / Now that I look at you, you do remind me of someone I really don't like... / Looks like my Pokémon were worthless... they were weak!"*; awards `₽3,472` and crowns Asher winner of his Round 4 group (verified Turns 32977-32987).
 - **Post-Round-4 Cutscene Trigger (`14, 6` in Tournament Arena Lobby, Turn 32989)**: Stepping onto `(14, 6)` after winning Round 4 triggers Dad's HuPhone text message asking Asher to meet him in front of the Amor City Battle Centre (`59, 25`) so he can pick Asher up for Professor Ivo's emergency meeting.
+## Round 5 Arena & Eclipse Tournament Round Five (`10, 26` -> `4, 14` -> `14, 14`)
+- **Round 5 Arena Entrance (`10, 26` in Lower Arena Ring)**: Unguarded after receiving the Round 5 HuPhone summons in Professor Ivo's Basement Lab (Turn 33425); stepping `Down` through `(10, 26)` warps to the 8-trainer Round 5 Bracket Screen (`7, 17`, verified Turn 33429).
+- **Round 5 Bracket**:
+  - **Left Side**: **Asher** vs. **Cooltrainer Summer** (Match 1) and **Worker** vs. **Camper** (Match 2).
+  - **Right Side**: **Barry (from Sinnoh)** vs. **Camper** (Match 3) and **Black Belt** vs. **Lass** (Match 4).
+- **Match 1 (Quarterfinals — Cooltrainer Summer)**:
+  - **Pre-Battle Quote**: *"May the stronger Trainer win, even though that's obviously me."*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Florges (♀, Lv32; Fairy; OHKO'd by Sirius's `Meteor Mash` for `1384 EXP`).
+    - **Pokémon 2**: Cacturne (♂, Lv32; Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1213 EXP`).
+    - **Pokémon 3**: Venusaur (♀, Lv32; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1425 EXP`, leveling Sirius to Lv57).
+  - **Outcome**: Defeat quote: *"This is... no, impossible!"* (verified Turns 33431-33434).

@@ -139,6 +139,18 @@
     - **Pokémon 4**: Feraligatr (♂, Lv31; Water).
   - **Outcome**: Defeat quote: *"What the?! / Arghhh! / Now that I look at you, you do remind me of someone I really don't like... / Looks like my Pokémon were worthless... they were weak!"*; awards `₽3,472` and crowns Asher winner of his Round 4 group (verified Turns 32977-32987).
 - **Post-Round-4 Cutscene Trigger (`14, 6` in Tournament Arena Lobby, Turn 32989)**: Stepping onto `(14, 6)` after winning Round 4 triggers Dad's HuPhone text message asking Asher to meet him in front of the Amor City Battle Centre (`59, 25`) so he can pick Asher up for Professor Ivo's emergency meeting.
+## Round 5 Arena & Eclipse Tournament Round Five (`10, 26` -> `4, 14` -> `14, 14`)
+- **Round 5 Arena Entrance (`10, 26` in Lower Arena Ring)**: Unguarded after receiving the Round 5 HuPhone summons in Professor Ivo's Basement Lab (Turn 33425); stepping `Down` through `(10, 26)` warps to the 8-trainer Round 5 Bracket Screen (`7, 17`, verified Turn 33429).
+- **Round 5 Bracket**:
+  - **Left Side**: **Asher** vs. **Cooltrainer Summer** (Match 1) and **Worker** vs. **Camper** (Match 2).
+  - **Right Side**: **Barry (from Sinnoh)** vs. **Camper** (Match 3) and **Black Belt** vs. **Lass** (Match 4).
+- **Match 1 (Quarterfinals — Cooltrainer Summer)**:
+  - **Pre-Battle Quote**: *"May the stronger Trainer win, even though that's obviously me."*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Florges (♀, Lv32; Fairy; OHKO'd by Sirius's `Meteor Mash` for `1384 EXP`).
+    - **Pokémon 2**: Cacturne (♂, Lv32; Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1213 EXP`).
+    - **Pokémon 3**: Venusaur (♀, Lv32; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1425 EXP`, leveling Sirius to Lv57).
+  - **Outcome**: Defeat quote: *"This is... no, impossible!"* (verified Turns 33431-33434).
 
 <hr>
 
@@ -2115,12 +2127,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv56
+- **Level**: Lv57
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 164), Attack (C+, 153), Defense (A-, 148), Sp. Atk (C-, 143), Sp. Def (E, 97), Speed (C-, 101)
-- **Current Condition**: 164/164 HP, Healthy (restored to 100% HP and full PP at the Destino City Pokémon Center in Turn 33396 after reaching Lv56 against Siara Admin Harry)
-- **EXP**: Lv56 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383)
+- **Stats (IV Grades)**: HP (C, 167), Attack (C+, 156), Defense (A-, 150), Sp. Atk (C-, 145), Sp. Def (E, 99), Speed (C-, 103)
+- **Current Condition**: 143/167 HP, Healthy (restored to 100% HP and full PP at the Destino City Pokémon Center in Turn 33396; reached Lv57 defeating Cooltrainer Summer's Venusaur Lv32 in Round 5 Quarterfinals in Turn 33434)
+- **EXP**: Lv57 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
