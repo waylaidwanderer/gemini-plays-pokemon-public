@@ -11,3 +11,4 @@
   - **Pre-Battle Quote**: *"Hello there, kid, sorry but this is a dangerous place for you!"*
   - **Team (2 Pokémon)**: Toxicroak (♂, Lv35; Poison/Fighting; `1290 EXP`) and Cacturne (♂, Lv35; Grass/Dark; `1327 EXP`).
   - **Outcome**: Defeated in Turns 33767-33772 (`"..."`).
+- **Rebar Pit Beams (`27-28, 24`)**: While `(27-28, 23)` and `(27-28, 25)` of the indoor floor pit are impassable, the horizontal metal rebar beam across `row 24` (`27-28, 24`) is walkable and connects `(26, 24)` directly to `(29, 24)` (verified Turn 33776).
