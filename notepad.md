@@ -775,10 +775,11 @@
   - **Pokémon Move Maniac / Move Reminder (`44, 8`)**: Female Farmer who teaches forgotten level-up moves in exchange for **two TinyMushrooms** or **one Big Mushroom** (*"I'm the Pokémon Move Maniac. I know every single move that Pokémon learn growing up. I'm also a mushroom maniac. Bring me two Tinymushrooms, or one Big Mushroom."*, verified Turn 34067).
   - **Move Deleter (`44, 6`)**: Male Farmer behind the Move Maniac whose herbs make Pokémon forget moves (*"Hi! My herbs can delete moves! I can make Pokémon forget their moves."*, verified Turn 34068).
 - **Maple Farm Signpost (`20, 15`)**: Interacted from `(20, 16)` beside the broken fence twigs (`21, 14-15`), reads verbatim: *"Maple Farm"* (verified Turn 34071).
-- **Southern Maple Town Courtyard (`cols 12-27, rows 18-27`)**:
-  - **Eastern House (`25, 23`, interior exit mat at `21-22, 10`)**: Contains a male Farmer at `(19, 5)`, a female Farmer at `(23, 5)`, a wandering Persian (`16-18, 5-6`), and a northern staircase (`18, 2-3`).
-  - **Western House (`15, 23`)**: Reached from the central avenue via the log fence gap at `(18, 24)` -> `(17, 24)` -> walkable wheat top-tips `(17, 25) -> (15, 25)` -> `(15, 24) -> (15, 23)` (bypassing the solid wheat stalk at `16, 22-24`).
-  - **Southeastern Road (`cols 20-27+, rows 25-26`)**: Branches east from `(20, 25-26)` south of the Eastern House.
+- **Southern Maple Town Courtyard (`cols 12-27, rows 18-27`) & Shoreline (`rows 28-30`)**:
+  - **Eastern House (`25, 23`, interior exit mat at `21-22, 10`)**: Contains a male Farmer at `(19-20, 5)`, a female Farmer at `(23, 5)`, a wandering Meowth/Persian (`16-19, 5-6`), and a decorative northern wall staircase graphic (`18, 2-3`; verified non-warping in Turn 34086).
+  - **Western House (`15, 23`, interior exit mat at `6, 10`)**: Reached from the central avenue via the log fence gap at `(18, 24)` -> `(17, 24)` -> walkable wheat top-tips `(17, 25) -> (15, 25)` -> `(15, 24) -> (15, 23)` (bypassing the solid wheat stalk at `16, 22-24`). Contains a wandering female Farmer at `(5-6, 4-5)` with a Meowth (`1, 7`) and an Eevee (`3, 6`; verified Turns 34083-34084).
+  - **Southeastern Road (`cols 20-26, rows 25-26`)**: Branches east from `(20, 25-26)` south of the Eastern House and terminates at trees (`27-30, 17-27`).
+  - **Southern Shoreline Cliff Staircase (`15-17, 29`) & Fence Gap (`31-32, 27`)**: Observed south of the `row 27` fence overlooking the southern coast (Turn 34085).
 - **Townsfolk & NPCs**:
   - **Female Farmer (`16-17, 18`)**: *"Maple Town provides a huge portion of Hupest's food supplies"* (verified Turn 34071).
   - **Male Farmer (`9-10, 15-16`)**: *"Only the best of quality here, when it comes to the crops."* (verified Turn 34073).
@@ -1575,6 +1576,9 @@
   - A one-way east-facing ledge at `(36, 24-27)` blocks direct westbound ground travel along `rows 24-27`.
   - **Eastern Plateau Staircase (`37-39, 20-23`)**: Climbs onto the central plateau (`cols 32-39, rows 18-19`), which descends west via the **Western Plateau Staircase (`31-33, 20-23`)**.
   - **Upper Ridge Staircase (`33-35, 16-17`)**: Climbs from the central plateau (`33-35, 18`) onto the upper rocky ridge (`cols 32-42, rows 15-16`), where an item ball at **`(42, 15)`** yields **Ultra Ball x1** (interacted from `41, 15`; verified Turn 34101).
+- **Central Valley & Western Bridge (`cols 21-30, rows 17-28`)**:
+  - **Northern Cliff Staircase (`25-27, 17`)**: Located north of `(25-26, 20)` with a trainer standing near `(25, 19)` (observed Turn 34103).
+  - **Wooden Bridge / Staircase (`21-23, 21-25`) & Item Ball (`24, 24`)**: Golden item ball located at **`(24, 24)`** immediately east of the wooden bridge (`21-23, 21-25`; observed Turn 34103).
 
 ## Trainers & NPCs
 - **Wandering Farmer (`47-48, 22-24`)**: Friendly NPC wandering above the eastern tall grass patch (`40-50, 22-28`).
@@ -1584,6 +1588,13 @@
     - **Pokémon 1**: Sudowoodo (♂, Lv37; Rock; Ability: Sturdy; knows Rock Tomb; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1069 EXP`).
     - **Pokémon 2**: Lairon (♂, Lv37; Steel/Rock; Ability: Sturdy; knows Metal Sound; defeated by Sirius's 2x `Mach Punch` for `1204 EXP`).
   - **Outcome**: Defeated in Turns 34095-34101 (*"Oh nooo!"*; awards `₽1,480`).
+- **Battle Girl Kelsey (`28, 22`, rotating in tall grass west of the plateau)**:
+  - **Pre-Battle Quote**: *"Drop kick!"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Hakamo-o (♀, Lv35; Dragon/Fighting; OHKO'd by Sirius's `Meteor Mash` for `1102 EXP`).
+    - **Pokémon 2**: Poliwrath (♀, Lv35; Water/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1387 EXP`).
+    - **Pokémon 3**: Medicham (♀, Lv36; Fighting/Psychic; OHKO'd by Sirius's `Meteor Mash` for `1179 EXP`).
+    - **Pokémon 4**: Infernape (♂, Lv36; Fire/Fighting).
 
 <hr>
 
