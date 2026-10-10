@@ -318,3 +318,6 @@
   1. **Quarterfinals**: Defeated **Scientist Albert** (Ditto Lv35, Manectric Lv35, Porygon-Z Lv36, Cryogonal Lv35).
   2. **Semifinals**: Defeated **Sailor Kyle** (Pelipper Lv35, Machamp Lv36, Whiscash Lv35, Poliwrath Lv36), while Sinnoh's **Riley** defeated Ruin Maniac Burt on the opposite side of the bracket.
   3. **Round Six Finals**: Defeated **PKMN Trainer Riley** from the Sinnoh Region (Absol Lv35, Lucario Lv37, Metang Lv35, Blaziken Lv36, Gyarados Lv36) to win his Round Six group and advance to Round Seven of the Eclipse Tournament.
+- **Post-Round-6 HuPhone Message from Dad (`12, 25` in Lower Arena Ring, Turn 33906)**:
+  - Stepping onto `(12, 25)` after winning Round 6 triggers a HuPhone text message from **Dad**: *"Hey, son! I heard the round ended. Hope you did well, I managed to call Ivo and we are meeting in Maple Town! We also texted Valora, so we're all metting up there!"*.
+  - Asher resolves to head to **Maple Town** to meet Dad, Professor Ivo, and Valora.
