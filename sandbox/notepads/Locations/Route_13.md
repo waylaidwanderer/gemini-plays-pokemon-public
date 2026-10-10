@@ -30,4 +30,6 @@
     - **Pokémon 2**: Tauros (♂, Lv37; Normal; OHKO'd by Sirius's `Aura Sphere` for `1672 EXP`, leveling Sirius to Lv64).
   - **Outcome**: Defeated in Turns 33962-33966.
 ## Items
-- **Wheat Field Item (`25, 35`)**: Golden item ball located in the western side of the wheat field (`latest_grid.png` Turn 33954).
+- **Stick x1 (`25, 35`)**: Collected from the golden item ball at `(25, 35)` in the western wheat field (interacted from `26, 35`; verified Turn 33966).
+## Spatial & Terrain Mechanics
+- **Wheat Field Crop Row Collision**: In the Route 13 wheat fields, the lower/middle stalks of the vertical wheat rows (`29-32, 33-36` and `25-27, 28-34`) have solid wall collision, while the top-tip rows (`row 32` at `28-32, 32` and `row 35` at `25-28, 35`) and green grass aisles (`column 28` and `columns 33-35`) are walkable (verified Turns 33961-33966).
