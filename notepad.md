@@ -766,10 +766,10 @@
 
 ## Geography & Connections
 - **North (`28-30, 0` <-> Route 13 `48-50, 49`)**: Seamless northern border connecting the southern dirt road of **Route 13** onto the main northern road of **Maple Town** at `(28-30, 0)` (verified Turn 34046).
-- **Maple Town Pokémon Center (`34, 8`)**: Located on the east side of the northern entrance road (`cols 32-36, rows 4-8`).
+- **Maple Town Pokémon Center (`34, 8`)**: Located on the east side of the northern entrance road (`cols 32-36, rows 4-8`); a wooden fence post at `(31, 8-9)` sits to the left of the building, so the entrance door at `(34, 8)` is reached via `row 10` (`30, 10 -> 34, 10 -> 34, 8`, verified Turn 34053).
 
 ## Story Events
-- **Reunion with Dad, Professor Ivo & Valora (`29, 7`, Turn 34046+)**: Stepping south onto `(29, 7)` triggers the reunion cutscene with Valora (`28, 7`), Dad (`28, 9`), and Professor Ivo.
+- **Reunion with Dad, Professor Ivo & Valora & Frio's Eavesdropping (`29, 7`, Turns 34046-34049)**: Stepping south onto `(29, 7)` triggers the reunion cutscene with Valora (`28, 7`), Dad (`28, 9`), and Professor Ivo. When Professor Ivo explains that the third energy signal is underwater and they need specific clues to locate it, Valora and Asher spot **Frio** eavesdropping at `(28, 12)`. Frio recognizes the underwater location (*"Underwater location? No... They can't be talking about that damn place..."*), realizes he made eye contact with them, and walks west into Maple Town along `row 12`.
 
 <hr>
 
@@ -2262,6 +2262,9 @@
 ## Route 13 Wheat Field — Reconciliation with Valora (`32, 26` -> `39, 32`, Turns 33947-33952)
 - **Heart-to-Heart in the Wheat Field**: Encountering **Valora** on Route 13 (`32, 28`) on the way to Maple Town, Asher remembered Dad's advice from Route 16 and asked to talk. Valora led Asher into the golden wheat field (`39, 31-32`) for privacy and tearfully confessed that despite everything they had been through together, she felt they still had much to learn about each other, wondered what was going on between Asher and Dawn, and was afraid of drifting apart from him.
 - **Asher's Promise**: Hugging Valora and apologizing for making her worry, Asher promised he would never leave her behind, vowed to open up to her more from now on, and offered to help guide her toward her goal of becoming strong and independent. Flustered (*"'ba-dump' A-alright... I mean... Alright! ... Gah... why is my heart beating so fast..."*), Valora reconciled with Asher and joined him to meet Dad and Professor Ivo in **Maple Town**.
+## Maple Town — Reunion with Dad & Professor Ivo & Frio's Eavesdropping (`29, 7`, Turns 34046-34049)
+- **Location 3 Underwater Briefing**: Meeting **Dad (Jackson)** and **Professor Ivo** outside the Maple Town Pokémon Center (`29, 7`), Asher and Valora learned that Professor Ivo's gladness at their reconciliation was tempered by a difficult obstacle: the third Eclite/gem signal at **Location 3** is deep underwater, and scanning the sea floor without specific clues would take too long.
+- **Frio's Recognition of the Underwater Location**: Valora and Asher spotted **Frio** eavesdropping behind Professor Ivo (`28, 12`). Recognizing the underwater place they were discussing (*"Underwater location? No... They can't be talking about that damn place..."*), Frio realized he had made eye contact with Asher and Valora and hurried west into Maple Town (`row 12`).
 
 <hr>
 
