@@ -797,6 +797,12 @@
     - **Pokémon 2**: Arcanine (♂, Lv28; Fire).
     - **Pokémon 3**: Tropius (♂, Lv28; Grass/Flying).
   - **Outcome**: Defeat quote: *"Looks like I wasn't wrong..."* (verified Turns 32813-32824).
+- **Picnicker Casper (`10, 38` -> `13, 38`, rotating)**:
+  - **Pre-Battle Quote**: *"My dude! / Wanna battle?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Ninetales (♀, Lv28; Fire).
+    - **Pokémon 2**: Houndoom (♂, Lv28; Dark/Fire).
+  - **Outcome**: Defeat quote: *"Nooo!"*; awards `₽1,120` (verified Turns 32837-32843).
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
