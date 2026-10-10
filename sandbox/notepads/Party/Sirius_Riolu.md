@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 136), Attack (C+, 127), Defense (A-, 123), Sp. Atk (C-, 118), Sp. Def (E, 81), Speed (C-, 83)
-- **Current Condition**: 136/136 HP, Paralyzed (healed to full via Hyper Potion in Turn 32530; leveled up to Lv46 defeating Black Belt Lee's Dewott in Turn 32538)
+- **Current Condition**: 136/136 HP, Healthy (healed at Destino City Pokémon Center in Turn 32562; leveled up to Lv46 defeating Black Belt Lee's Dewott in Turn 32538)
 - **EXP**: Lv46 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv46 defeating Black Belt Lee's Dewott in the Round 3 Semifinals in Turn 32538)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
