@@ -15,7 +15,7 @@
   - **Seated Father (`6, 48`)**: *"Going to a store from here is such a pain."* (verified Turn 32920).
   - **Little Blonde Girl (`3, 50`)**: *"Oh my... / The almighty fridge has no milk... / Dad! We need to get some milk!"* (verified Turn 32920).
 - **Central Stone Staircase (`24-26, 24-26`)**: Leads north between the West Cabin (`22, 28`) and East Cabin (`29, 28`) toward the upper level of Jarro Town.
-- **Hiker Outside East Cabin (`27, 29`, rotating stationary)**: *"Fresh air, nature everywhere... / The perfect place to live!"* (verified Turn 32921). Because he stands at `(27, 29)` between the East Cabin wall (`27, 28`) and the lamppost (`27, 30-32`), the East Cabin (`29, 28`) and eastern signboard (`33, 29`) are reached by routing south along `column 22` (`rows 29-33+`) around the southern pine trees.
+- **Hiker Outside East Cabin (`27, 29` <-> `28, 30`, wandering)**: *"Fresh air, nature everywhere... / The perfect place to live!"* (verified Turn 32921). Wanders in the area south of the East Cabin (`26-28, 29-30`); when he stands at `(27, 29)`, he temporarily blocks the narrow 1-tile bottleneck between the East Cabin wall (`27, 28`) and the lamppost (`27, 30-32`) until he steps aside to `(28, 30)` (verified Turn 32931).
 - **Middle Terrace (`rows 14-23`, reached via Central Stone Staircase `24-26, 24-26`)**:
   - **Quest #9 Provider ("Angry Cubone Kid", `22, 15`)**: Boy in a brown cap standing in front of a fenced snow pen containing a **Cubone** (`23, 13`).
   - **Northwest Cabin (`18, 15` <-> `6, 37`)**: Empty interior (likely belongs to the boy outside at `22, 15`; verified Turn 32929).
