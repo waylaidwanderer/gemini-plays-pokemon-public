@@ -255,6 +255,10 @@
   - Stepping onto `(22, 33)` triggers a cutscene where Asher remarks that the path looks like a dead end, and **Dad (Jackson)** inspects the dark ground pit (`25-26, 29-31`) from `(26, 28)`, discovers a ladder inside the pit (*"Yes! There's a ladder! We can get down and back easily with this. Let's keep going!"*), and descends into `(26, 29)`.
 ## Aur Factory 1F (`26, 29` Ladder Entrance)
 - **Entry Room (`cols 19-27, rows 26-33`)**: Reached by stepping `Down` from `(26, 28)` into `(26, 29)` on the Aur Factory exterior map (climbs down the wall ladder to `26, 29` -> `24, 30` on Aur Factory 1F; verified Turns 33761-33764). Features indoor tall grass patches at `(19-21, 28-33)` and a passage leading north along `columns 19-21`.
+- **Gangster Russel (`25, 23`, facing `Down` beside the indoor floor pit at `27-28, 23-24`)**:
+  - **Pre-Battle Quote**: *"Hello there, kid, sorry but this is a dangerous place for you!"*
+  - **Team (2 Pokémon)**: Toxicroak (♂, Lv35; Poison/Fighting; `1290 EXP`) and Cacturne (♂, Lv35; Grass/Dark; `1327 EXP`).
+  - **Outcome**: Defeated in Turns 33767-33772 (`"..."`).
 
 <hr>
 
