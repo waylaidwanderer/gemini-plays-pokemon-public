@@ -4,12 +4,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv58
+- **Level**: Lv59
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 170), Attack (C+, 159), Defense (A-, 154), Sp. Atk (C-, 148), Sp. Def (E, 101), Speed (C-, 104)
-- **Current Condition**: 170/170 HP, Healthy (reached Lv58 defeating Gentleman Thomas's Lv33 Arcanine on Route 16 in Turn 33585)
-- **EXP**: Lv58 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585)
+- **Stats (IV Grades)**: HP (C, 172), Attack (C+, 161), Defense (A-, 156), Sp. Atk (C-, 150), Sp. Def (E, 102), Speed (C-, 106)
+- **Current Condition**: 145/172 HP, Healthy (reached Lv59 defeating Lass Emy's Lv34 Victreebel on Route 16 in Turn 33607)
+- **EXP**: Lv59 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
