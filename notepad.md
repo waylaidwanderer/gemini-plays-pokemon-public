@@ -771,7 +771,11 @@
   - **Outcome**: Defeat quote: *"..."*; awards `₽1,344` (verified Turns 32761-32765).
 - **Bug Catcher Humza (`23, 55`, rotating)**:
   - **Pre-Battle Quote**: *"I'm here to catch the greatest bug Pokémon!"*
-  - **Team (3 Pokémon)**: In progress (Turn 32780).
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Scyther (♀, Lv27; Bug/Flying).
+    - **Pokémon 2**: Whirlipede (♂, Lv27; Bug/Poison; knows Protect).
+    - **Pokémon 3**: Forretress (♂, Lv27; Bug/Steel).
+  - **Outcome**: Battled in Turns 32780-32786.
 
 <hr>
 
