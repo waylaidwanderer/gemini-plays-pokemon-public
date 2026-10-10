@@ -822,6 +822,7 @@
 
 ## Story Events
 - **Reunion with Dad, Professor Ivo & Valora & Frio's Eavesdropping (`29, 7`, Turns 34046-34049)**: Stepping south onto `(29, 7)` triggers the reunion cutscene with Valora (`28, 7`), Dad (`28, 9`), and Professor Ivo. When Professor Ivo explains that the third energy signal is underwater and they need specific clues to locate it, Valora and Asher spot **Frio** eavesdropping at `(28, 12)`. Frio recognizes the underwater location (*"Underwater location? No... They can't be talking about that damn place..."*), realizes he made eye contact with them, and walks west into Maple Town along `row 12`.
+- **Southeastern Shoreline Staircase (`43, 15` -> `43, 18` Water Border)**: Unlocked after winning Round 7 when Professor Ivo texts Asher to come to the small isle south of Maple Town (`Turns 34312-34315`). Stepping `Down 2` from `(43, 15)` to `(43, 17)` reaches the shoreline border at `(43, 18)`, where FastSwift launches south into the sea channel (`cols 42-46`).
 
 <hr>
 
