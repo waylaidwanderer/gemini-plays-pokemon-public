@@ -16,3 +16,13 @@
   - **Outcome**: Defeated in Turns 33941-33946.
 ## Story Events
 - **Reconciliation with Valora in the Wheat Field (`32, 26` -> `39, 32`, Turns 33947-33952)**: Stepping onto `(32, 26)` triggers a cutscene where Asher meets **Valora** (`32, 28`), follows her into the golden wheat field (`39, 31-32`), apologizes and hugs her following Dad's advice, and promises never to leave her behind before they head toward **Maple Town** together.
+- **Farmer Adelle (`30, 31`, facing `Down` at `30, 32`)**:
+  - **Pre-Battle Quote**: *"I took my Pokémon out for a walk, wanna see them?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Miltank (♀, Lv36; Normal; OHKO'd by Sirius's `Aura Sphere` for `1542 EXP`).
+    - **Pokémon 2**: Rapidash (♀, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1480 EXP`).
+    - **Pokémon 3**: Persian (♀, Lv36; Normal; OHKO'd by Sirius's `Mach Punch`).
+  - **Outcome**: Defeated in Turns 33954-33961.
+- **Straw-Hat Trainer (`29, 35`, facing `Right` across `30-32, 35`)**: Located in the southern wheat field.
+## Items
+- **Wheat Field Item (`25, 35`)**: Golden item ball located in the western side of the wheat field (`latest_grid.png` Turn 33954).

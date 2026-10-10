@@ -1175,6 +1175,16 @@
   - **Outcome**: Defeated in Turns 33941-33946.
 ## Story Events
 - **Reconciliation with Valora in the Wheat Field (`32, 26` -> `39, 32`, Turns 33947-33952)**: Stepping onto `(32, 26)` triggers a cutscene where Asher meets **Valora** (`32, 28`), follows her into the golden wheat field (`39, 31-32`), apologizes and hugs her following Dad's advice, and promises never to leave her behind before they head toward **Maple Town** together.
+- **Farmer Adelle (`30, 31`, facing `Down` at `30, 32`)**:
+  - **Pre-Battle Quote**: *"I took my Pokémon out for a walk, wanna see them?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Miltank (♀, Lv36; Normal; OHKO'd by Sirius's `Aura Sphere` for `1542 EXP`).
+    - **Pokémon 2**: Rapidash (♀, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1480 EXP`).
+    - **Pokémon 3**: Persian (♀, Lv36; Normal; OHKO'd by Sirius's `Mach Punch`).
+  - **Outcome**: Defeated in Turns 33954-33961.
+- **Straw-Hat Trainer (`29, 35`, facing `Right` across `30-32, 35`)**: Located in the southern wheat field.
+## Items
+- **Wheat Field Item (`25, 35`)**: Golden item ball located in the western side of the wheat field (`latest_grid.png` Turn 33954).
 
 <hr>
 
@@ -2295,7 +2305,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 33933)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x10** (used 1 on Lv27 Ponyta on Route 13 in Turn 33933), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x1** (collected at Aurin Town Western Bay `27, 26` in Turn 33661), and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848; caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, Lv14 Trapinch at `42, 49` in Turn 32246, nicknamed **Dune**, Lv17 Teddiursa at Route 12 Main `18, 97` in Turn 32653, nicknamed **Ursa**, Lv23 Spewpa at Solare Island Forest `26, 30` in Turn 33109, nicknamed **Silk**, Lv22 Shelmet at Solare Island Forest `25, 25` in Turn 33117, nicknamed **Visor**, Lv25 Ferroseed at Solare Island Forest `9, 12` in Turn 33155, nicknamed **Mace**, Lv23 Unown at Solare Island Forest `16, 17` in Turn 33166, nicknamed **Rune**, Lv22 Barboach at Aurin Town Western Bay `7, 22` in Turn 33653, nicknamed **Richter**, Lv20 Horsea at Aurin Town Western Bay `25, 22` in Turn 33664, nicknamed **Triton**, Lv24 Volbeat at Aurin Town Approaches `46, 24` in Turn 33694, nicknamed **Lumen**, and Lv27 Ponyta at Route 13 `12, 12` in Turn 33933, nicknamed **Ignis**, bringing Owned species to **70** in PokéDex).
+- **Poké Balls Pocket (Audited Turn 33933)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x10** (used 1 to catch wild Lv27 Ponyta on Route 13 at `12, 12` in Turn 33933, transferred to Box 2), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x1** (collected at Aurin Town Western Bay `27, 26` in Turn 33661), and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **70**.
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
