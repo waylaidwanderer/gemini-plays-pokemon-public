@@ -276,6 +276,10 @@
   - **Pre-Battle Quote**: *"Why is a kid wandering out here? / Don't you know this is a messy place?"*
   - **Team (1 Pokémon)**: Seismitoad (♀, Lv36; Water/Ground).
   - **Outcome**: Defeated in Turns 33808-33811 (*"Ah... / You are well aware, I see..."*).
+- **Black Belt Jack (`15, 17`, facing `Right` in front of the northwestern ground pit at `11-12, 15-17`)**:
+  - **Pre-Battle Quote**: *"Tch, what is this? / Now anyone can just venture around?"*
+  - **Team (3 Pokémon)**: Crabominable (♀, Lv35; Fighting/Ice; `1252 EXP`), Cloyster (♂, Lv35; Water/Ice), and Weavile (♂, Lv35; Dark/Ice; `1342 EXP`).
+  - **Outcome**: Defeated in Turns 33818-33822 (`"Oh."`; awards `₽2,520`).
 
 <hr>
 
