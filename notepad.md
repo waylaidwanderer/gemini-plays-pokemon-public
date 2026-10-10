@@ -832,6 +832,11 @@
     - **Pokémon 2**: Graveler (♂, Lv28; Rock/Ground; Ability: Sturdy; knows Bide).
     - **Pokémon 3**: Sableye (♀, Lv29; Dark/Ghost; knows Fake Out).
   - **Outcome**: Defeated in Turns 32861-32869.
+- **Explorer Gwion (`28, 16`, facing South)**:
+  - **Pre-Battle Quote**: *"Hello, fellow explorer, since you got up here, let me reward you!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Amoonguss (♀, Lv29; Grass/Poison).
+  - **Outcome**: Defeat quote: *"..."*; awards `₽1,392` (verified Turns 32877-32882).
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
