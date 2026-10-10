@@ -158,6 +158,14 @@
     - **Pokémon 2**: Gyarados (♂, Lv32; Water/Flying; Ability: Intimidate; knows Leer; 2HKO'd by Sirius's `Aura Sphere` for `1467 EXP`).
     - **Pokémon 3**: Sharpedo (♂, Lv33; Water/Dark; OHKO'd by Sirius's non-contact `Aura Sphere` for `1237 EXP`).
   - **Outcome**: Defeat quote: *"We... we failed buddy."*; awards `₽1,188`, while Sinnoh's **Barry** defeated Black Belt Adam on the opposite side of the bracket (verified Turns 33436-33439).
+- **Match 3 (Round Five Finals — PKMN Trainer Barry)**:
+  - **Pre-Battle Quote**: *"Hey hey hey! / You look awfully familiar... / Ah yes! You must be that guy from the Galtino Bridge! / You are quite famous among us, competitors... / Ah, anyway! My name is Barry! I came from sinnoh, you probably know one of my friends though. / She was the one you saved back there. Dark hair, beanie, familiar? / Ah, I'm just stalling our battle! Let's get to it already!"*
+  - **Team (4 Pokémon, +2 Hyper Potions)**:
+    - **Pokémon 1**: Staraptor (♂, Lv32; Normal/Flying; Ability: Intimidate; Held Item: Rocky Helmet; OHKO'd by Sirius's `Meteor Mash` for `1179 EXP`).
+    - **Pokémon 2**: Hitmontop (♂, Lv33; Fighting; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `975 EXP`).
+    - **Pokémon 3**: Empoleon (♂, Lv34; Water/Steel; custom Ability: Sturdiness [reduces super-effective damage]; knows Scald; defeated by Sirius's `Aura Sphere` for `1530 EXP`).
+    - **Pokémon 4**: Roserade (♀, Lv33; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1441 EXP`).
+  - **Outcome**: Defeat quote: *"'Thud' Oh man... / Even though my Dad is a Frontier Brain... I still failed"*; awards `₽3,808` and crowns Asher winner of his Round 5 group (verified Turns 33443-33455).
 
 <hr>
 
@@ -1915,6 +1923,11 @@
 - **Solare Island Epilogue — The Mysterious Investigator (`14, 15`, Turns 33421-33423)**: After Professor Ivo called the authorities for a boat to bring Asher, Dad, Valora, and herself back to her laboratory in Lancio Town, an unknown trainer (`???`, wearing a cap, red scarf, and green vest) emerged from behind the trees at the Solare Island Inner Shrine (`14, 15`). Reporting over the phone to a female colleague whose radar had detected an odd signal there, he noted that a perfectly shaped sphere appeared to have been taken from the rock formation by the people in the helicopters he heard earlier, photographed the shrine for her, and departed.
 ## Lancio Town Basement Lab Briefing & Round Five Summons
 - **Post-Solare Island Briefing (`14, 16` in Ivo's Basement Lab -> Amor City `59, 27`, Turns 33423-33425)**: Back in Professor Ivo's Basement Laboratory in Lancio Town, Ivo admitted they still do not know the purpose of the gem Team Siara stole from Solare Island, and noted that while Jackson is studying the World Map for clues, the energy signals at the other two marked locations have grown much weaker. Just then, Asher received a HuPhone message from the **Amor Battle Center** summoning him to **Round Five of the Eclipse Tournament**, along with an advertisement announcing that the **Amor Department Store ("Amor Mall!")** has officially opened in Amor City. Professor Ivo and Dad told Asher and Valora to compete in Round 5 in Amor City and return to the lab in Lancio Town afterward while they try to pinpoint the remaining signals, automatically fast-traveling Asher to **`(59, 27)`** outside the **Amor City Battle Centre**.
+## Eclipse Tournament Round Five — Victory Over Sinnoh's Barry
+- **Round Five Bracket & Matches (Turns 33429-33455)**: Inside the Amor City Battle Centre's Round 5 Arena (`10, 26` in the Lower Arena Ring), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Cooltrainer Summer** (Florges Lv32, Cacturne Lv32, Venusaur Lv32).
+  2. **Semifinals**: Defeated **Fisherman Otis** (Octillery Lv32, Gyarados Lv32, Sharpedo Lv33), while Sinnoh's **Barry** defeated Black Belt Adam on the opposite side of the bracket.
+  3. **Round Five Finals**: Defeated **PKMN Trainer Barry** from the Sinnoh Region (Dawn's childhood friend, who recognized Asher from Galtino Bridge; uses Staraptor Lv32, Hitmontop Lv33, Empoleon Lv34, and Roserade Lv33) to win his Round Five group and advance to Round Six of the Eclipse Tournament.
 
 <hr>
 
@@ -2138,7 +2151,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 167), Attack (C+, 156), Defense (A-, 150), Sp. Atk (C-, 145), Sp. Def (E, 99), Speed (C-, 103)
-- **Current Condition**: 143/167 HP, Healthy (restored to 100% HP and full PP at the Destino City Pokémon Center in Turn 33396; reached Lv57 defeating Cooltrainer Summer's Venusaur Lv32 in Round 5 Quarterfinals in Turn 33434)
+- **Current Condition**: 67/167 HP, Healthy (restored to 100% HP and full PP at the Destino City Pokémon Center in Turn 33396; reached Lv57 defeating Cooltrainer Summer's Venusaur Lv32 in Round 5 Quarterfinals in Turn 33434; swept Fisherman Otis and Sinnoh's Barry to win Round 5 in Turn 33454)
 - **EXP**: Lv57 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

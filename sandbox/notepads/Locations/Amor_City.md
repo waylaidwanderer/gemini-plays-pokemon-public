@@ -156,3 +156,11 @@
     - **Pokémon 2**: Gyarados (♂, Lv32; Water/Flying; Ability: Intimidate; knows Leer; 2HKO'd by Sirius's `Aura Sphere` for `1467 EXP`).
     - **Pokémon 3**: Sharpedo (♂, Lv33; Water/Dark; OHKO'd by Sirius's non-contact `Aura Sphere` for `1237 EXP`).
   - **Outcome**: Defeat quote: *"We... we failed buddy."*; awards `₽1,188`, while Sinnoh's **Barry** defeated Black Belt Adam on the opposite side of the bracket (verified Turns 33436-33439).
+- **Match 3 (Round Five Finals — PKMN Trainer Barry)**:
+  - **Pre-Battle Quote**: *"Hey hey hey! / You look awfully familiar... / Ah yes! You must be that guy from the Galtino Bridge! / You are quite famous among us, competitors... / Ah, anyway! My name is Barry! I came from sinnoh, you probably know one of my friends though. / She was the one you saved back there. Dark hair, beanie, familiar? / Ah, I'm just stalling our battle! Let's get to it already!"*
+  - **Team (4 Pokémon, +2 Hyper Potions)**:
+    - **Pokémon 1**: Staraptor (♂, Lv32; Normal/Flying; Ability: Intimidate; Held Item: Rocky Helmet; OHKO'd by Sirius's `Meteor Mash` for `1179 EXP`).
+    - **Pokémon 2**: Hitmontop (♂, Lv33; Fighting; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `975 EXP`).
+    - **Pokémon 3**: Empoleon (♂, Lv34; Water/Steel; custom Ability: Sturdiness [reduces super-effective damage]; knows Scald; defeated by Sirius's `Aura Sphere` for `1530 EXP`).
+    - **Pokémon 4**: Roserade (♀, Lv33; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1441 EXP`).
+  - **Outcome**: Defeat quote: *"'Thud' Oh man... / Even though my Dad is a Frontier Brain... I still failed"*; awards `₽3,808` and crowns Asher winner of his Round 5 group (verified Turns 33443-33455).
