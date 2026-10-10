@@ -1605,6 +1605,12 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Heatmor (♂, Lv38; Fire; OHKO'd by Sirius's `Bulldoze` for `1375 EXP`).
   - **Outcome**: Defeated in Turns 34122-34125 (*"All that money to waste."*; awards `₽1,520`).
+- **Hiker Aiden (`15, 27`, facing `Up`/`Right` in tall grass west of the bridge)**:
+  - **Pre-Battle Quote**: *"As the altitude raises, so does my excitement for a fight!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Solrock (Lv37; Rock/Psychic; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1188 EXP`).
+    - **Pokémon 2**: Lunatone (Lv37; Rock/Psychic; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1188 EXP`).
+  - **Outcome**: Defeated in Turns 34126-34129 (*"Falling right off.."*; awards `₽1,480`).
 
 <hr>
 
