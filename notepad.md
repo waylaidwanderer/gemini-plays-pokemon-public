@@ -2110,7 +2110,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 164), Attack (C+, 153), Defense (A-, 148), Sp. Atk (C-, 143), Sp. Def (E, 97), Speed (C-, 101)
-- **Current Condition**: 0/164 HP [FNT] (reached Lv56 [78/164 HP] defeating Siara Admin Harry's Zoroark Lv32 at `14, 17` in Turn 33381; fainted to Siara Admin Harry's Eclipsed Vikavolt Lv33 `Discharge` in Turn 33387)
+- **Current Condition**: 164/164 HP, Healthy (restored to 100% HP and full PP at the Destino City Pokémon Center in Turn 33396 after reaching Lv56 against Siara Admin Harry)
 - **EXP**: Lv56 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
