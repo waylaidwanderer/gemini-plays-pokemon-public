@@ -407,6 +407,7 @@
   - **Northwest Cabin (`18, 15` <-> `6, 37`)**: Empty interior (likely belongs to the boy outside at `22, 15`; verified Turn 32929).
   - **Police Officer (`15, 17`, facing East)**: *"Being a police officer in such a quiet little town is such an easy and calm job..."* (verified Turn 32930).
   - **Upper Ridge & Northeast Cabin (`29-30, 18-19` Staircase)**: A rugged rock at `(31, 14)` blocks access to the Northeast Cabin until rock-smashing equipment is obtained (verified Turn 32931).
+- **East Cabin (`29, 28` <-> `6, 23`)**: Contains a **Meowth** (`5, 20-21`; *"Meowth: Meooooow"*) and a wandering **Old Woman** (`8-9, 20-22`; verified Turns 32933-32935).
 
 <hr>
 
