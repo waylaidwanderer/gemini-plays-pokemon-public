@@ -2136,7 +2136,7 @@
   - **Page 4 Quests**:
     16. - Not available -
     17. - Not available -
-    18. Roark's Opal (Completed in Turn 28444; rewarded all 11 Fossils)
+    18. Roark's Opal (Completed in Turn 28444; rewarded all 11 Fossils; verified in Turn 33743 that PC Item Storage is currently empty and 0 fossils remain in Bag/PC)
     19. Pokédex!
     20. Marine Point Hunter
   - **Page 5 Quests**:
