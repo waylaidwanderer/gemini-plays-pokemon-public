@@ -193,6 +193,14 @@
 - **Round 6 Bracket**:
   - **Left Side**: **Asher** vs. **Albert** (Match 1) and **Gentleman** vs. **Sailor** (Match 2).
   - **Right Side**: **Riley (from Sinnoh)** vs. **Ace Trainer Male** (Match 3) and **Ruin Maniac** vs. **Ace Trainer Female** (Match 4).
+- **Match 1 (Quarterfinals — Scientist Albert)**:
+  - **Pre-Battle Quote**: *"This will serve as a great way to research strong Pokémon!"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Ditto (Lv35; Normal; OHKO'd by Sirius's `Mach Punch` for `457 EXP`).
+    - **Pokémon 2**: Manectric (♂, Lv35; Electric; OHKO'd by Sirius's `Bulldoze` for `1260 EXP`, leveling Sirius to Lv62).
+    - **Pokémon 3**: Porygon-Z (Lv36; Normal; OHKO'd by Sirius's `Mach Punch` for `1426 EXP`).
+    - **Pokémon 4**: Cryogonal (Lv35; Ice; OHKO'd by Sirius's `Mach Punch` for `1350 EXP`).
+  - **Outcome**: Defeated in Turns 33872-33879.
 
 <hr>
 
