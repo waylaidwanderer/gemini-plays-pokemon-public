@@ -19,3 +19,8 @@
     - **Pokémon 1**: Togetic (♂, Lv26; Fairy/Flying).
     - **Pokémon 2**: Skarmory (♀, Lv26; Steel/Flying; knows Air Cutter).
   - **Outcome**: Defeat quote: *"Nooooo!"*; awards `₽624` (verified Turns 32642-32645).
+- **Hiker Carlton (`22, 99`, facing South)**:
+  - **Pre-Battle Quote**: *"These cliffs... / They are very steep, perfect for me!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Nidoking (♂, Lv27; Poison/Ground).
+  - **Outcome**: Defeat quote: *"Oh no, I slipped"*; awards `₽1,080` (verified Turns 32648-32650).

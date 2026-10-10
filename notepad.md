@@ -709,6 +709,11 @@
     - **Pokémon 1**: Togetic (♂, Lv26; Fairy/Flying).
     - **Pokémon 2**: Skarmory (♀, Lv26; Steel/Flying; knows Air Cutter).
   - **Outcome**: Defeat quote: *"Nooooo!"*; awards `₽624` (verified Turns 32642-32645).
+- **Hiker Carlton (`22, 99`, facing South)**:
+  - **Pre-Battle Quote**: *"These cliffs... / They are very steep, perfect for me!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Nidoking (♂, Lv27; Poison/Ground).
+  - **Outcome**: Defeat quote: *"Oh no, I slipped"*; awards `₽1,080` (verified Turns 32648-32650).
 
 <hr>
 
@@ -1723,7 +1728,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 139), Attack (C+, 130), Defense (A-, 125), Sp. Atk (C-, 121), Sp. Def (E, 83), Speed (C-, 85)
-- **Current Condition**: 117/139 HP, Healthy (healed at Destino City Pokémon Center in Turn 32562; leveled up to Lv47 defeating Bird Keeper Jett's Togetic in Turn 32642)
+- **Current Condition**: 104/139 HP, Healthy (healed at Destino City Pokémon Center in Turn 32562; leveled up to Lv47 defeating Bird Keeper Jett's Togetic in Turn 32642)
 - **EXP**: Lv47 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv47 defeating Bird Keeper Jett's Togetic on Route 12 Main in Turn 32642)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
