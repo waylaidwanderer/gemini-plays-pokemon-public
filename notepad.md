@@ -2177,6 +2177,7 @@
 - **In-Battle X-Item Dismissal & Consecutive Destiny Bond Mechanic (Verified Turns 33129-33130)**: Using a stat-boosting item (`X Special`) from the Bag in battle prints `"<Pokémon>'s <Stat> rose!▼"` inside the Bag screen, which requires an explicit `A`/`B` press before closing the Bag and executing the opponent's turn. Unlike Gen 7+, consecutive `Destiny Bond` does NOT fail in this engine build (verified when a Siara Grunt's Wobbuffet successfully used `Destiny Bond` on consecutive turns in Turns 33126 and 33130).
 ## FastSwift Service App (Overworld Surfing Mechanic)
 - **FastSwift App (`76, 12` on Route 16, Turn 33629)**: Gifted by Dad (Jackson) on Route 16 when the bridge to Aurin Town is found collapsed. Installs the **FastSwift** service app on the **HuPhone**, allowing the player to rent an inflatable boat and surf across any body of water simply by pressing **`A`** when facing a water tile (no HM Surf move slot required).
+  - **Shoreline Border Tile Behavior (Verified Turns 33642, 33658-33660, 33670)**: The brown rocky water-edge border tiles (e.g. `77, 22` on Route 16 or `22, 26` and `27, 23` in Aurin Town Western Bay) are treated as **water tiles** by the engine. Pressing `A` while standing on an adjacent land tile facing the shoreline border tile immediately mounts the FastSwift inflatable boat onto that border tile with no confirmation dialogue, and pressing a D-Pad direction from a shoreline border tile toward an adjacent walkable land tile immediately dismounts onto land.
 
 <hr>
 
