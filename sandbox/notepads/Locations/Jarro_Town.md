@@ -25,3 +25,5 @@
 - **Ecly Festival Lantern Path (`cols 33-38, rows 21-31`)**:
   - **Ecly Festival Signboard (`33, 29`)**: Interacted from `(32, 29)`, reads verbatim: *"Ecly Festival / Held every year here in Jarro Town / Be sure to bring your friends!"* (verified Turn 32937).
   - **Festival Girl (`33-34, 31`, wandering)**: *"The Ecly Festival... / I love that festival so much! / I feel all young nostalgic..."* (verified Turn 32938).
+  - **Explorer (`35, 25`)**: Standing under the festival lanterns south of the ruins entrance (*"The Ancient Hupestian Ruins..."*, verified Turn 32939).
+  - **Ancient Hupestian Ruins Signboard (`34, 21`) & Entrance (`36, 20-21`)**: Signboard at `(34, 21)` (interacted from `34, 22`) reads verbatim: *"Ancient Hupestian Ruins"* (verified Turns 32939-32940), beside **Professor Ivo** waiting at `(36, 21)` in front of the ruins entrance.
