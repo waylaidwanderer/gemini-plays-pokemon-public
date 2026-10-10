@@ -665,7 +665,7 @@
   - **Staircase 3**: `(24, 11) -> Right 2 -> (26, 12)` (verified Turn 34379).
 - **Orange Mining Machine & Northern Archway (`27-30, 6-12`)**:
   - An abandoned Team Siara orange mining machine sits at `(28-30, 11-12)`.
-  - Walking `Up 2` from `(27, 12)` to `(27, 10)` and `Right 1` to `(28, 10)` aligns with the northern passage under the wooden support archway (`28-29, 6-9`, flanked by wooden pillars at `col 27` and `col 30`).
+  - Walking `Up 2` from `(27, 12)` to `(27, 10)` and `Right 1` to `(28, 10)`, then `Up 2` onto `(28, 8)` under the wooden support archway warps to `(5, 15)` in the Undersea Laboratory Stairwell (verified Turn 34381).
 
 <hr>
 
