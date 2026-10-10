@@ -1658,8 +1658,9 @@
 - **Southwestern Tall Grass & Staircase (`cols 1-8, rows 27-36`)**:
   - **Patrolling Black Belt (`3, 27-30`)**: Patrols north and south through the western tall grass.
   - **Side-Facing Wooden Staircase (`8, 31-34`)**: Climbs east from `(7, 32)` onto the eastern rocky plateau at `(9, 31-32)` (verified Turn 34198).
-- **Eastern Rocky Plateau (`cols 9-24, rows 20-35`)**:
-  - **Northwestern Descending Staircase (`16-17, 24`) & Max Potion (`13, 25`)**: A 2-tile wide wooden staircase at `(16-17, 24)` descends from the plateau (`16-17, 25`) into an enclosed lower green grass nook (`cols 13-17, rows 18-25`, closed off by trees on the north), giving access to a spray-bottle sprite at **`(13, 25)`** yielding **Max Potion x1** (interacted from `14, 25`; verified Turns 34208, 34215), while the main plateau path continues north and east via `(19, 26 -> 19, 23 -> 23, 23)`.
+- **Eastern Rocky Plateau (`cols 9-29, rows 18-35`)**:
+  - **Northwestern Descending Staircase (`16-17, 24`) & Max Potion (`13, 25`)**: A 2-tile wide wooden staircase at `(16-17, 24)` descends from the plateau (`16-17, 25`) into an enclosed lower green grass nook (`cols 13-17, rows 18-25`, closed off by trees on the north), giving access to a spray-bottle sprite at **`(13, 25)`** yielding **Max Potion x1** (interacted from `14, 25`; verified Turns 34208, 34215), while the main plateau path continues north and east via `(19, 26 -> 20, 24 -> 20, 22 -> 21, 20 -> 24, 20 -> 27, 20 -> 27, 19)`.
+  - **Northeastern Descending Staircase (`27-28, 18`)**: Descends north from `(27-28, 19)` on the rocky plateau onto the northern green grass corridor (`27-28, 17`, verified Turn 34224).
 
 ## Trainers & NPCs
 - **Hiker Miguel (`17, 29`, facing `Down` in tall grass)**:
@@ -1668,6 +1669,12 @@
     - **Pokémon 1**: Nidoking (♂, Lv38; Poison/Ground; OHKO'd by Sirius's `Bulldoze` for `1587 EXP`).
     - **Pokémon 2**: Dugtrio (♂, Lv38; Ground; knows Mud Bomb; OHKO'd by Sirius's `Mach Punch` for `1245 EXP`).
   - **Outcome**: Defeated in Turns 34201-34206.
+- **Trainer at `(26, 26)` (facing `Left` across tall grass on the rocky plateau)**: Observed Turn 34220.
+- **Hiker Wily (`26, 19`, facing `Right` in front of the northeastern staircase `27-28, 18`)**:
+  - **Pre-Battle Quote**: *"Just another wimpy hiker... / Let me show you how real hiking is done!"* (triggered at `27, 19` in Turn 34224).
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Aggron (♀, Lv40; Steel/Rock; Ability: Sturdy; knows Metal Sound; 2HKO'd by Sirius's `Mach Punch` for `1756 EXP`).
+  - **Outcome**: Defeated in Turns 34225-34228.
 ## Wild Pokémon Encounters
 - **Tall Grass (`cols 1-8, rows 27-36` & `cols 13-18, rows 19-32`)**:
   - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 3 in Turn 34213, bringing Owned species to **77**).
@@ -2620,7 +2627,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 192), Attack (C+, 180), Defense (A-, 173), Sp. Atk (C-, 168), Sp. Def (E, 114), Speed (C-, 118)
-- **Current Condition**: 106/192 HP, Paralyzed (verified on battle screen in Turn 34218)
+- **Current Condition**: 146/192 HP, Paralyzed (verified on upscaled battle screen in Turn 34228)
 - **EXP**: Lv66 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
