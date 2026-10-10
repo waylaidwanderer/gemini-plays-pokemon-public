@@ -86,11 +86,11 @@
     - **Pokémon 2**: Whirlipede (♂, Lv27; Bug/Poison; knows Protect).
     - **Pokémon 3**: Forretress (♂, Lv27; Bug/Steel).
   - **Outcome**: Defeat quote: *"Nooo!"*; awards `₽1,404` (verified Turns 32780-32788).
-- **Nurse Joy (`28, 52`, facing South)**:
+- **Nurse Joy (`28, 52`, facing South — Repeatable Party Healer)**:
   - **Pre-Battle Quote**: *"Oh what is a a poor little boy doing out here?"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Blissey (♀, Lv28; Normal; awards 1,530 EXP).
-  - **Outcome**: Defeat quote: *"My my... I really underestimated you..."* (verified Turns 32793-32797).
+  - **Outcome & Healing Service**: Defeat quote: *"My my... I really underestimated you..."*; awards `₽112`. Speaking to her after battle prompts *"The battles up here must exhaust you a lot... Do you want me to heal your Pokémon? Yes/No"*, fully healing the party on demand (verified Turns 32793-32798).
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
-  - **Northbound Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Reached by heading east past Nurse Joy at `(28, 52)` and south through the eastern grass/path to `(30-32, 59)`.
+  - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
