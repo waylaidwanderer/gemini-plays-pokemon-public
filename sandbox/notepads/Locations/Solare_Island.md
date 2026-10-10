@@ -14,3 +14,7 @@
 - **Solare Island Forest**:
   - **Southern Entrance Clearing (`cols 50-61, rows 24-32`)**:
     - **Ancient Stone Plate #2 (`57, 25`)**: Interacted from `(57, 26)`, reads verbatim: *"It looks like an ancient stone plate... / There's some text carved in! / = 'Whoeve... ste... shall beware. Th... gem ... the key...' / It's barely readable, and the rest is completely messed up..."* (verified Turn 33070).
+  - **Western Barrier Shrine (`cols 31-39, rows 24-32`)**:
+    - **Team Siara Grunts (`34, 31` & `36, 32`)**: Separated from their squad after touching a crystal that activated the ancient defense barrier (`col 33, rows 29-31`).
+    - **Ancient Stone Plate #3 (`38, 30`)**: Read during the cutscene at `(38, 31)` (Turn 33073): *"'Onl... the one... worthy... ca.. clear the pa... to... truth. Le...crystal be... guidance...'"*.
+    - **Shrine Courtyard (`cols 32-38, rows 24-27`)**: Reached via the stone staircase at `(35-36, 28-29)`; contains a large blue crystal at `(35, 25)` and a yellow crystal orb at `(32, 27)`.
