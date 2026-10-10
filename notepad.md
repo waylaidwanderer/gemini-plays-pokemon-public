@@ -1289,6 +1289,8 @@
     - **Northern Siara Grunt (`21, 22`)**: Visible on the path north of the stone ruin wall (`rows 23-24, cols 23-30`; observed Turn 33088).
     - **Decorative Ruin Lantern Pillars (`32, 27`, `24, 31`, `17, 28`)**: Small yellow spheres atop green vine pillars along the ruin walls (sometimes partially obscured by tree canopies like `24, 31`); strictly decorative background/wall tiles rather than interactive crystals or items (verified Turn 33096).
     - **Wild Encounters**: **Spewpa** (Lv23; caught at `26, 30` in Turn 33109 after chipping to ~48% yellow HP with two `0.5x` resisted `Mach Punches` against `+6` Defense from `Harden`), **Shelmet** (Lv22; caught at `25, 25` in Turn 33117 after chipping ~26% HP and inflicting Paralysis with Lv16 Vega's `Spark`).
+    - **S-Curve Stone Ruin Corridor (`cols 16-25, rows 24-28`)**: Connects `(25, 25)` west via `(21, 25) -> (21, 28) -> (17, 28) -> (16, 25)` between the vertical stone walls at `col 22 (rows 26-28)` and `cols 18-19 (rows 24-27)` (verified Turn 33119).
+    - **Western Clearing & Ruin Walls (`cols 9-18, rows 19-30`)**: From `(16, 25)`, clear grass leads north via `(16, 22-23)` toward a purple rock/crystal at `(18, 22)` and the northern terrace (`rows 19-22`), as well as west/southwest around the ruin walls at `(12, 22)` and `(11, 29)` (observed Turn 33121).
 
 <hr>
 
@@ -2054,7 +2056,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 159), Attack (C+, 148), Defense (A-, 143), Sp. Atk (C-, 138), Sp. Def (E, 94), Speed (C-, 98)
-- **Current Condition**: 156/159 HP, Healthy (full party healed and checkpoint registered at Jarro Town Pokémon Center in Turn 32914; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091)
+- **Current Condition**: 142/159 HP, Healthy (full party healed and checkpoint registered at Destino City Pokémon Center in Turn 32998; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091)
 - **EXP**: Lv54 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
@@ -2080,7 +2082,7 @@
 - **Level**: Lv16 (leveled up defeating Siara Executive's Lv25 Wobbuffet in Destino Mine 2F in Turn 32423; Stats: HP 48, Attack 32, Defense 23, Sp. Atk 24, Sp. Def 18, Speed 26)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 48/48 HP (Healthy; verified full HP on Party screen in Turn 32530)
+- **HP**: 28/48 HP (Healthy; chipped and paralyzed wild Lv22 Shelmet with Spark in Solare Island Forest in Turn 33116)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
