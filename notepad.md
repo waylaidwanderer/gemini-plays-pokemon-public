@@ -151,6 +151,12 @@
     - **Pokémon 2**: Cacturne (♂, Lv32; Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1213 EXP`).
     - **Pokémon 3**: Venusaur (♀, Lv32; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1425 EXP`, leveling Sirius to Lv57).
   - **Outcome**: Defeat quote: *"This is... no, impossible!"* (verified Turns 33431-33434).
+- **Match 2 (Semifinals — Fisherman Otis)**:
+  - **Pre-Battle Quote**: *"This fishing rod has been through a lot... / Let me show you what we caught together over the years!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Octillery (♂, Lv32; Water; OHKO'd by Sirius's `Aura Sphere` for `1123 EXP`).
+    - **Pokémon 2**: Gyarados (♂, Lv32; Water/Flying; Ability: Intimidate; knows Leer; 2HKO'd by Sirius's `Aura Sphere` for `1467 EXP`).
+    - **Pokémon 3**: Sharpedo (♂, Lv33; Water/Dark; OHKO'd by Sirius's non-contact `Aura Sphere`).
 
 <hr>
 
