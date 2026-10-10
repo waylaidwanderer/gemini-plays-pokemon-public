@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 134), Attack (C+, 124), Defense (A-, 119), Sp. Atk (C-, 116), Sp. Def (E, 79), Speed (C-, 81)
-- **Current Condition**: 134/134 HP, Healthy (Healed at Destino City Pokémon Center in Turn 32494; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410)
+- **Current Condition**: 94/134 HP, Paralyzed (entered Round 3 at 45/134 HP Paralyzed after the Turn 32494 Pokémon Center dialogue did not complete; healed +50 HP via Super Potion in Turn 32515; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410)
 - **EXP**: Lv45 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv45 defeating Siara Executive's Scyther in Destino Mine 2F in Turn 32410)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)

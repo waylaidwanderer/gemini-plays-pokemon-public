@@ -77,3 +77,11 @@
   - Following `column 18` north from `(18, 13)` to `(18, 7)` reaches the northwestern gatehouse street (`cols 7-18, rows 7-8`).
   - Wooden signboard at `(14-15, 7)` (interacted from `15, 8`) reads verbatim: *"Route 6 / <-------"* (verified Turn 31969).
   - Stepping `Left` along `row 7` (`(9, 7) -> (8, 7) -> (7, 7)`) enters the **Route 6 Gatehouse** at `(14, 7)` (verified Turn 31971).
+## Round 3 Arena & Eclipse Tournament Round Three (`17, 17` -> `4, 14` -> `14, 14`)
+- **Round 3 Arena Entrance (`17, 17`)**: Unguarded after receiving the Round 3 HuPhone summons in Destino City (Turn 32489); stepping `Down` through `(17, 17)` warps to the 8-trainer Round 3 Bracket Screen (`7, 17`, verified Turn 32507).
+- **Match 1 (Quarterfinals — Juggler Tony)**:
+  - **Pre-Battle Quote**: *"Interesting.. / May I take this win?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Togetic (♂, Lv25; Fairy/Flying).
+    - **Pokémon 2**: Ninjask (♀, Lv25; Bug/Flying; Ability: Speed Boost; knows Agility, Sand Attack, and Fury Cutter).
+  - *In progress (verified Turns 32510-32520).*

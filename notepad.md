@@ -79,6 +79,14 @@
   - Following `column 18` north from `(18, 13)` to `(18, 7)` reaches the northwestern gatehouse street (`cols 7-18, rows 7-8`).
   - Wooden signboard at `(14-15, 7)` (interacted from `15, 8`) reads verbatim: *"Route 6 / <-------"* (verified Turn 31969).
   - Stepping `Left` along `row 7` (`(9, 7) -> (8, 7) -> (7, 7)`) enters the **Route 6 Gatehouse** at `(14, 7)` (verified Turn 31971).
+## Round 3 Arena & Eclipse Tournament Round Three (`17, 17` -> `4, 14` -> `14, 14`)
+- **Round 3 Arena Entrance (`17, 17`)**: Unguarded after receiving the Round 3 HuPhone summons in Destino City (Turn 32489); stepping `Down` through `(17, 17)` warps to the 8-trainer Round 3 Bracket Screen (`7, 17`, verified Turn 32507).
+- **Match 1 (Quarterfinals — Juggler Tony)**:
+  - **Pre-Battle Quote**: *"Interesting.. / May I take this win?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Togetic (♂, Lv25; Fairy/Flying).
+    - **Pokémon 2**: Ninjask (♀, Lv25; Bug/Flying; Ability: Speed Boost; knows Agility, Sand Attack, and Fury Cutter).
+  - *In progress (verified Turns 32510-32520).*
 
 <hr>
 
@@ -300,6 +308,7 @@
 - **Inner Den (`12, 19` <-> Triple-Staircase Chamber `9, 17`)**:
   - Stepping north onto `(12, 18)` triggers the confrontation with **Frio** (`14, 14`) and four **Team Siara Grunts** digging up fossils to resurrect and Eclipse ancient Pokémon for Marie (Turns 32462-32472).
   - After Frio defeats all four grunts, Asher calms and reverts the **Eclipsed Tyranitar** released by the retreating grunts, Frio pulls Valora away from a falling rock at `(14, 16)` before departing, and Asher collects the **Clear Shard** at `(14, 16)` before automatically exiting to `(9, 17)` in the Triple-Staircase Chamber (verified Turns 32466-32472).
+  - **Quest #6 ("Lost Eevee") Lead in Inner Den (`11, 13`)**: During the Inner Den fossil cutscene (Turn 32465), an Eevee sprite is visible at `(11, 13)` behind the Team Siara Grunts; because the cutscene automatically exits the player to `(9, 17)` in the Triple-Staircase Chamber, re-entering the Inner Den (`9, 17 -> 12, 19`) after Round 3 should allow interacting with Evy at `(11, 13)`.
 
 <hr>
 
@@ -1529,7 +1538,7 @@
 
 ## Verified Inventory State & Field Move Capabilities
 
-- **Items Pocket (Audited Turn 32271)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Thunder Stone x1** (collected at Route 6 `23, 21` in Turn 32168), **Rocky Helmet x1** (rewarded at Route 6 `43, 19` for completing Quest #7 "Kaboom" in Turn 32170), **Repel x0**, **Super Repel x5** (purchased 10 at Destino City PokéMart in Turn 32192, used 1 at Destino Mine `27, 48` in Turn 32271, 1 at `37, 15` in Turn 32367, 1 at `47, 15` in Turn 32442, 1 at `33, 30` in Turn 32475, and 1 at `36, 43` in Turn 32483), **Super Potion x1** (used 4 at Destino Mine 2F in Turns 32390, 32394, 32397, & 32399, and 2 at Destino Mine `9, 13` in Turn 32459), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098), **Red Shard x1** (collected at Destino Mine `40, 13` in Turn 32208), **Fire Stone x1** (collected at Destino Mine 2F `29, 21` in Turn 32381), **Hyper Potion x1** (collected from potion bottle sprite at Destino Mine 2F `47, 20` in Turn 32445), and **Clear Shard x1** (obtained at Destino Mine Inner Den `13, 15` in Turn 32471).
+- **Items Pocket (Audited Turn 32515)**: Contains **Destiny Knot x1** (received from Professor Ivo in Lancio Town at 50 Owned species in Turn 31109), **Water Stone x1** (collected at `(16, 14)` in the Closed Segment of Mt. Gerhana in Turn 31654), **Thunder Stone x1** (collected at Route 6 `23, 21` in Turn 32168), **Rocky Helmet x1** (rewarded at Route 6 `43, 19` for completing Quest #7 "Kaboom" in Turn 32170), **Repel x0**, **Super Repel x4** (purchased 10 at Destino City PokéMart in Turn 32192; active Super Repel expired at `15, 15` in the Tournament Arena Lobby without renewal in Turn 32507), **Super Potion x1** (`Super Potion x2` confirmed in Bag in Turn 32515; used 1 on Sirius in Turn 32515), **Oval Stone x1** (collected at Route 4 `39, 20` in Turn 31853), **TinyMushroom x1** (collected at Route 6 `41, 28` in Turn 32053), **King's Rock x1** (collected at Route 6 `23, 13` in Turn 32098), **Red Shard x1** (collected at Destino Mine `40, 13` in Turn 32208), **Fire Stone x1** (collected at Destino Mine 2F `29, 21` in Turn 32381), **Hyper Potion x1** (collected from potion bottle sprite at Destino Mine 2F `47, 20` in Turn 32445), and **Clear Shard x1** (obtained at Destino Mine Inner Den `13, 15` in Turn 32471).
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
@@ -1655,7 +1664,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 134), Attack (C+, 124), Defense (A-, 119), Sp. Atk (C-, 116), Sp. Def (E, 79), Speed (C-, 81)
-- **Current Condition**: 134/134 HP, Healthy (Healed at Destino City Pokémon Center in Turn 32494; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410)
+- **Current Condition**: 94/134 HP, Paralyzed (entered Round 3 at 45/134 HP Paralyzed after the Turn 32494 Pokémon Center dialogue did not complete; healed +50 HP via Super Potion in Turn 32515; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410)
 - **EXP**: Lv45 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv45 defeating Siara Executive's Scyther in Destino Mine 2F in Turn 32410)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
@@ -1681,7 +1690,7 @@
 - **Level**: Lv16 (leveled up defeating Siara Executive's Lv25 Wobbuffet in Destino Mine 2F in Turn 32423; Stats: HP 48, Attack 32, Defense 23, Sp. Atk 24, Sp. Def 18, Speed 26)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 48/48 HP (Healed at Destino City Pokémon Center in Turn 32494)
+- **HP**: 16/48 HP (Healthy; Turn 32494 Pokémon Center dialogue exited before healing completed)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
