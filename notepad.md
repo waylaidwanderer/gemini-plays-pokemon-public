@@ -730,6 +730,12 @@
     - **Pokémon 1**: Tranquill (♂, Lv27; Normal/Flying; knows Detect).
     - **Pokémon 2**: Jellicent (♂, Lv27; Water/Ghost; knows Water Pulse).
   - **Outcome**: Defeat quote: *"Why?!"*; awards `₽1,080` (verified Turns 32669-32683; Sirius leveled up to Lv48 and learned Meteor Mash replacing Metal Claw).
+- **Black Belt Dane (`30, 81` -> `28, 81`, rotating)**:
+  - **Pre-Battle Quote**: *"Serious Puuunch!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Toxicroak (♂, Lv27; Poison/Fighting).
+    - **Pokémon 2**: Hawlucha (♂, Lv27; Fighting/Flying).
+  - **Outcome**: Defeated in Turns 32685-32689.
 
 <hr>
 
