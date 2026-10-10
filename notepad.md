@@ -760,6 +760,19 @@
 
 <hr>
 
+<h1><code>Locations/Maple_Town</code></h1>
+
+# Maple Town (Bugiaret Island)
+
+## Geography & Connections
+- **North (`28-30, 0` <-> Route 13 `48-50, 49`)**: Seamless northern border connecting the southern dirt road of **Route 13** onto the main northern road of **Maple Town** at `(28-30, 0)` (verified Turn 34046).
+- **Maple Town Pokémon Center (`34, 8`)**: Located on the east side of the northern entrance road (`cols 32-36, rows 4-8`).
+
+## Story Events
+- **Reunion with Dad, Professor Ivo & Valora (`29, 7`, Turn 34046+)**: Stepping south onto `(29, 7)` triggers the reunion cutscene with Valora (`28, 7`), Dad (`28, 9`), and Professor Ivo.
+
+<hr>
+
 <h1><code>Locations/Mt_Gerhana</code></h1>
 
 # Mt. Gerhana
@@ -1161,6 +1174,7 @@
 
 ## Geography & Connections
 - **North (`14-15, 0` <-> Galinor City `14-15, 86`)**: Seamless northern border connecting the southern sandy trail of **Galinor City** onto **Route 13** at `(14-15, 0)` (verified Turn 33927).
+- **South (`48-50, 49` <-> Maple Town `28-30, 0`)**: Seamless southern border connecting the fenced southern dirt road of the Route 13 wheat fields (`49, 49`) directly into **Maple Town** at `(29, 0)` (verified Turn 34046).
 - **Northern Signboard (`19-20, 11`)**: Interacted from `(19, 12)`, reads verbatim: *"Route 13 / The route of agriculture"* (verified Turn 33937).
 ## Wild Pokémon Encounters
 - **Tall Grass (`11-17, 10-16` & `17-29, 39-47`)**:

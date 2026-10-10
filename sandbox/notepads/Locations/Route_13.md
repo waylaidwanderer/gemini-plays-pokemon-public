@@ -2,6 +2,7 @@
 
 ## Geography & Connections
 - **North (`14-15, 0` <-> Galinor City `14-15, 86`)**: Seamless northern border connecting the southern sandy trail of **Galinor City** onto **Route 13** at `(14-15, 0)` (verified Turn 33927).
+- **South (`48-50, 49` <-> Maple Town `28-30, 0`)**: Seamless southern border connecting the fenced southern dirt road of the Route 13 wheat fields (`49, 49`) directly into **Maple Town** at `(29, 0)` (verified Turn 34046).
 - **Northern Signboard (`19-20, 11`)**: Interacted from `(19, 12)`, reads verbatim: *"Route 13 / The route of agriculture"* (verified Turn 33937).
 ## Wild Pokémon Encounters
 - **Tall Grass (`11-17, 10-16` & `17-29, 39-47`)**:
