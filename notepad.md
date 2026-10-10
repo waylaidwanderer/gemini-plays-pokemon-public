@@ -1297,6 +1297,10 @@
     - **Eastern Short-Grass Corridor (`row 14, cols 16-23+`)**: Unexplored clear short-grass path extending east along `row 14` between the autumn trees (`rows 11-13`) and the stone ruin wall (`rows 15-16`; observed Turn 33143).
     - **Northwest Stone Wall (`cols 10-15, rows 8-11`) & Rock Cone (`12, 12`)**: From `(16, 14)`, `Up 2, Left 3` reaches `(13, 12)` beside a rock cone at `(12, 12)` and above a thin wall (`cols 13-15, row 13`). Stepping `Down 1, Left 2, Up 1, Left 2` via `(13, 13) -> (11, 13) -> (11, 12) -> (9, 12)` reaches the western passage along `col 9 (rows 8-12)`, which leads north to a tan dirt trail at `(6-9, 7-9)` (verified Turns 33144-33145).
     - **Northwest Clearing & Team Siara Squad (`cols 4-9, rows 3-9`)**: At the top of `col 9` (`9, 8`), a tan dirt clearing (`cols 5-8, rows 6-9`) is occupied by **five Team Siara Grunts** (`6, 6` facing south, `4, 5` facing east, `5, 5` facing north, `7, 5` facing west, and `6, 4` facing south) blocking a northern forest archway (`5-6, 3-4`). Interacting with the front grunt at `(6, 6)` from `(6, 7)` displays verbatim: *"We are blocking this suspiciously placed area! / You definitely won't need to come back here later!"* (verified Turn 33160).
+  - **North-Central & Eastern Ruin Corridors (`cols 24-35, rows 10-20`)**:
+    - **Crossing at `(22, 18) -> (25, 18)`**: From `(16, 17)`, walking `Right 6` to `(22, 17)`, `Down 1` to `(22, 18)`, and `Right 3` to `(25, 18)` passes underneath the rock cone at `(23, 17)` onto the flower corridor (`cols 24-27, rows 12-17`) east of the vertical stone wall (`col 24, rows 12-16`; verified Turn 33169).
+    - **Patrolling Siara Grunt (`24-26, 19-20`)**: Patrols east-west along `rows 19-20` south of the thin stone wall at `(25-26, 18)` (observed Turns 33169-33170).
+    - **Stationary Siara Grunt (`30, 14`) & Blue Barrier #2 (`col 34, rows 13-15`)**: Passing under the stone wall at `(27-28, 15-16)` along `row 17` (`25, 17 -> 29, 17`) leads to a stationary Team Siara Grunt at `(30, 14)` facing south over tall grass (`30, 15-17`), with a second glowing blue energy barrier visible to the east at `col 34, rows 13-15` (observed Turn 33170).
 
 <hr>
 
