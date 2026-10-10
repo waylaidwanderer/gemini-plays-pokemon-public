@@ -13,3 +13,9 @@
     - **Pokémon 2**: Omanyte (♀, Lv26; Rock/Water).
     - **Pokémon 3**: Quagsire (♂, Lv26; Water/Ground).
   - **Outcome**: Defeated in Turns 32634-32639; awards `₽1,040`.
+- **Bird Keeper Jett (`29, 94` -> `31, 94`, facing East)**:
+  - **Pre-Battle Quote**: *"Hehe, hey there? / Wanna lose?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Togetic (♂, Lv26; Fairy/Flying).
+    - **Pokémon 2**: Skarmory (♀, Lv26; Steel/Flying; knows Air Cutter).
+  - **Outcome**: Defeat quote: *"Nooooo!"*; awards `₽624` (verified Turns 32642-32645).
