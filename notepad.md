@@ -1574,7 +1574,7 @@
 - **Eastern Plateau & Ledge Bypass (`cols 31-39, rows 15-27`)**:
   - A one-way east-facing ledge at `(36, 24-27)` blocks direct westbound ground travel along `rows 24-27`.
   - **Eastern Plateau Staircase (`37-39, 20-23`)**: Climbs onto the central plateau (`cols 32-39, rows 18-19`), which descends west via the **Western Plateau Staircase (`31-33, 20-23`)**.
-  - **Upper Ridge Staircase (`33-35, 16-17`)**: Climbs from the central plateau (`33-35, 18`) onto the upper rocky ridge (`cols 32-42, rows 15-16`), where an item ball sits at **`(42, 15)`** (`latest_grid.png` Turn 34095).
+  - **Upper Ridge Staircase (`33-35, 16-17`)**: Climbs from the central plateau (`33-35, 18`) onto the upper rocky ridge (`cols 32-42, rows 15-16`), where an item ball at **`(42, 15)`** yields **Ultra Ball x1** (interacted from `41, 15`; verified Turn 34101).
 
 ## Trainers & NPCs
 - **Wandering Farmer (`47-48, 22-24`)**: Friendly NPC wandering above the eastern tall grass patch (`40-50, 22-28`).
@@ -2403,7 +2403,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 34064)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x31** (purchased 30 at Maple Town PokéMart in Turn 34063), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **73**.
+- **Poké Balls Pocket (Audited Turn 34102)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x32** (purchased 30 at Maple Town PokéMart in Turn 34063 and collected 1 at Route 8 `42, 15` in Turn 34101), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **73**.
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
