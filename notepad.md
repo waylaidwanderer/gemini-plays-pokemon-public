@@ -234,6 +234,8 @@
   - At the western edge of the upper dirt plaza (`36, 23`), stepping `Left` from `(36, 23)` onto `(35, 23)` warps down the diagonal stone staircase to `(30, 26)` on the lower plaza (where a wandering Sailor patrols `29-30, 28-30`), leading east along `rows 29-31` to the main **Destino Mine** entrance at **`(39, 28)`** (flanked by a miner at `40, 30` saying *"We miners work hard everyday to dig up resources."* and a wooden signpost at `41, 30` reading verbatim: *"Destino Mine"*, verified Turns 32198-32201).
   - **Lower Plaza Residential House (`25, 30` <-> Interior `5, 51`)**: Reached via the `row 31` sidewalk (`28, 31 -> 25, 31 -> 25, 30`); interior features a woman at `(6, 48)` (*"Hehe... / Bird is the word! / Everyone knows bird is the word"*) and decorative non-enterable stairs at `(1-2, 47)` (verified Turns 32569-32570).
 - **Western Destino City (`cols 0-35, rows 18-21`)**:
+  - **Professor Elm's Apartment (`33, 18` <-> `5, 9`)**: **Professor Elm** from the Johto region is seated at `(6, 6)` (interacted from `5, 6`) and provides **Special Quest #12 ("Elm's Research")**. Task 1 (`60 species caught`) rewards a **Pokémon Egg**, and Task 2 requires **80 species caught** (verified Turns 33005-33007).
+  - **Western Apartment (`23, 18` <-> `5, 23`)**: Empty 1F interior with decorative stairs (verified Turn 33004).
   - **Gentleman (`25, 21`)**: *"Back in my day this city used to be even richer! / Then all this fancy technology came and coal became less important!"* (verified Turn 33002).
 
 <hr>
@@ -1803,7 +1805,7 @@
     10. Push it!
   - **Page 3 Quests**:
     11. Oak's Research (Special Quest — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3 [45/50 Pokémon caught] completed in Turn 31043, rewarding **Squirtle** and bringing Owned species to **51 Hupest / 20 Colen**; Professor Oak now states *"Thank you, this will be enough, but come back later, I might have some more tasks for you!"* and `Quest Status` reports *"You aren't doing any Quest currently..."*, while `Page 3 -> 11. Oak's Research` still displays *"This Quest hasn't been completed yet."*, verified Turns 31045-31051)
-    12. Elm's Research
+    12. Elm's Research (Special Quest — accepted at Destino City `33, 18` -> `6, 6` in Turn 33006; Task 1 [60 species caught] completed immediately in Turn 33007 with 62 Owned species, rewarding a **Pokémon Egg**; Task 2 assigned: show Professor Elm a PokéDex with **80 species caught**)
     13. Rowan's Research
     14. Cynthia's Research
     15. Help for Barry
