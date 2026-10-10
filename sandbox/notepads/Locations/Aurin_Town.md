@@ -10,6 +10,7 @@
   - Uncollected purple spray-bottle item sprite observed at `(26, 34)` on the southern tip of the peninsula beyond the tree line (`rows 31-33`, observed Turn 33669).
 - **Eastern Peninsula Landing & Wooden Bridge (`cols 32-44, rows 23-32`)**:
   - Shoreline landing at `(32, 23)` -> `(32, 24)` leads past tall grass (`28-34, 27-30`) to a wooden bridge at `(37-41, 27-29)`.
+  - **Wild Tall Grass Encounters**: Wild **Volbeat** (caught Lv24 ♂ at `46, 24` in Turn 33694, nicknamed **Lumen**).
   - **Cooltrainer Alan (`39, 27`, facing `Down` on the wooden bridge)**:
     - **Pre-Battle Quote**: *"You crossed the water, right? / You must be a skilled Trainer!"*
     - **Team (3 Pokémon)**: Manectric (♂, Lv34; Electric), Gastrodon (♂, Lv35; Water/Ground; `1245 EXP`), and Feraligatr (♀, Lv34; Water; knows Scary Face; `1530 EXP`).
