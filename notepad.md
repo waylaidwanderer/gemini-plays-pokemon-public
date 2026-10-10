@@ -787,6 +787,13 @@
     - **Pokémon 1**: Roselia (♀, Lv27; Grass/Poison).
     - **Pokémon 2**: Politoed (♀, Lv28; Water; Ability: Drizzle).
   - **Outcome**: Defeat quote: *"And how strong"*; awards `₽1,792` (verified Turns 32804-32811; Sirius leveled up to Lv50).
+- **Cooltrainer Joely (`41, 41` -> `38, 41`, facing West)**:
+  - **Pre-Battle Quote**: *"You there! / You look like a strong opponent! / We battle, now!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Lycanroc (♂, Lv27; Rock).
+    - **Pokémon 2**: Arcanine (♂, Lv28; Fire).
+    - **Pokémon 3**: Tropius (♂, Lv28; Grass/Flying).
+  - **Outcome**: Defeat quote: *"Looks like I wasn't wrong..."* (verified Turns 32813-32824).
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
