@@ -238,3 +238,12 @@
     - **Pokémon 3**: Blaziken (♂, Lv38; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1701 EXP`).
     - **Pokémon 4**: Emboar (♂, Lv38; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1693 EXP`).
   - **Outcome**: Defeated in Turns 34288-34295 (*"I... I lost?"*; awards `₽2,736`), while Unova's **Hugh** defeated Scientist Jesse on the opposite side of the bracket.
+- **Match 3 (Round Seven Finals — PKMN Trainer Hugh)**:
+  - **Pre-Battle Quote**: *"Hi! You must be Asher! / Man, battling with you feels so surreal... / My name is Hugh! / I came all the way from the Unova Region, and I'm not gonna lose! / My sister is definitely watching the broadcast so I can't"*
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Unfezant (♂, Lv37; Normal/Flying; OHKO'd by Sirius's `Aura Sphere` for `1363 EXP`).
+    - **Pokémon 2**: Bouffalant (♀, Lv38; Normal; OHKO'd by Sirius's `Aura Sphere` for `1399 EXP`).
+    - **Pokémon 3**: Simisage (♂, Lv37; Grass; OHKO'd by Sirius's `Aura Sphere` for `1378 EXP`).
+    - **Pokémon 4**: Eelektross (♀, Lv38; Electric; Ability: Levitate; survived `Aura Sphere` in red HP and used `Volt Switch` into Samurott; later KO'd by Sirius's `Aura Sphere` for `1563 EXP`).
+    - **Pokémon 5**: Samurott (♂, Lv39; Water; OHKO'd by Sirius's `Aura Sphere` for `1737 EXP`, leveling Sirius to Lv68).
+  - **Outcome**: Defeated in Turns 34299-34307 (*"I... lost. / I couldn't achieve victory for my partners, nor my little sister... / Well, whatever. I'm just happy to know you are a Trainer others can count on every time."*; awards `₽4,368`), crowning Asher winner of his Round 7 group and advancing him to Round 8 of the Eclipse Tournament.

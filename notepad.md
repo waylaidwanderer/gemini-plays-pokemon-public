@@ -240,6 +240,15 @@
     - **Pokémon 3**: Blaziken (♂, Lv38; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1701 EXP`).
     - **Pokémon 4**: Emboar (♂, Lv38; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1693 EXP`).
   - **Outcome**: Defeated in Turns 34288-34295 (*"I... I lost?"*; awards `₽2,736`), while Unova's **Hugh** defeated Scientist Jesse on the opposite side of the bracket.
+- **Match 3 (Round Seven Finals — PKMN Trainer Hugh)**:
+  - **Pre-Battle Quote**: *"Hi! You must be Asher! / Man, battling with you feels so surreal... / My name is Hugh! / I came all the way from the Unova Region, and I'm not gonna lose! / My sister is definitely watching the broadcast so I can't"*
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Unfezant (♂, Lv37; Normal/Flying; OHKO'd by Sirius's `Aura Sphere` for `1363 EXP`).
+    - **Pokémon 2**: Bouffalant (♀, Lv38; Normal; OHKO'd by Sirius's `Aura Sphere` for `1399 EXP`).
+    - **Pokémon 3**: Simisage (♂, Lv37; Grass; OHKO'd by Sirius's `Aura Sphere` for `1378 EXP`).
+    - **Pokémon 4**: Eelektross (♀, Lv38; Electric; Ability: Levitate; survived `Aura Sphere` in red HP and used `Volt Switch` into Samurott; later KO'd by Sirius's `Aura Sphere` for `1563 EXP`).
+    - **Pokémon 5**: Samurott (♂, Lv39; Water; OHKO'd by Sirius's `Aura Sphere` for `1737 EXP`, leveling Sirius to Lv68).
+  - **Outcome**: Defeated in Turns 34299-34307 (*"I... lost. / I couldn't achieve victory for my partners, nor my little sister... / Well, whatever. I'm just happy to know you are a Trainer others can count on every time."*; awards `₽4,368`), crowning Asher winner of his Round 7 group and advancing him to Round 8 of the Eclipse Tournament.
 
 <hr>
 
@@ -2438,6 +2447,11 @@
 ## Mulberry Town — Frio's Terror, Round Seven Summons & Wager (`11, 18`, Turns 34175-34179)
 - **Confronting Frio Outside the Western House (`8, 17` -> `11, 18`)**: In the southern plaza of Mulberry Town (`11, 18`), Asher and Valora spotted **Frio** exiting the unoccupied western house (`8, 17`, whose signpost at `9, 18` reads *"For sale! Call 515-808-2362 for details."* and whose 2F bedroom rug at `19, 6` holds an **Eclite Shard**, verified Turns 34181-34184), where he claimed to be handling personal business. (A neighboring townswoman at `14, 19-20` reveals that Frio was the son of the couple who lived in that house next door before disappearing—and that according to rumors, the family was attacked by weird Pokémon and sacrificed themselves to save their child, verified Turns 34191-34193.) When Asher and Valora explained that Team Siara had stolen two gems and that the third energy signal was at an underwater location, Frio's face was covered in terror (*"U-underwater location? Siara? Some gems?"*).
 - **Round Seven Summons & Frio's Wager**: Just as Valora pleaded with Frio for information and he hesitated, all three trainers received a HuPhone text message from the **Amor Battle Center** summoning them to **Round Seven of the Eclipse Tournament**. Frio proposed a wager: if Asher advances through Round 7, Frio will share what he knows about the underwater location (*"If you manage to get through the round, I will give you two the information you need... So make sure to win! Besides... I didn't change my mind about battling you in the Finals!"*). Before heading north, Frio advised Asher that the fastest way back to Amor City is by taking the Metro from **Galinor City** via **Route 9** (*"Going through Route 9 might be better than where you came from. Good luck... Asher..."*).
+## Eclipse Tournament Round Seven — Victory Over Unova's Hugh
+- **Round Seven Bracket & Matches (Turns 34269-34307)**: Inside the Amor City Battle Centre's Round 7 Arena (`17, 26` in the Lower Arena Ring), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Gentleman Jonathan** (Arcanine Lv37, Alomomola Lv38, Lumineon Lv37, Manectric Lv38).
+  2. **Semifinals**: Defeated **Battle Girl Sachi** (Medicham Lv37, Hariyama Lv37, Blaziken Lv38, Emboar Lv38), while Unova's **Hugh** defeated Scientist Jesse on the opposite side of the bracket.
+  3. **Round Seven Finals**: Defeated **PKMN Trainer Hugh** from the Unova Region (Unfezant Lv37, Bouffalant Lv38, Simisage Lv37, Eelektross Lv38, Samurott Lv39) to win his Round Seven group and advance to Round Eight of the Eclipse Tournament.
 
 <hr>
 
@@ -2662,12 +2676,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv67
+- **Level**: Lv68
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 194), Attack (C+, 183), Defense (A-, 177), Sp. Atk (C-, 170), Sp. Def (E, 116), Speed (C-, 120)
-- **Current Condition**: 194/194 HP, Healthy (healed to full HP/PP and cured of paralysis at Galinor City Pokémon Center in Turn 34255)
-- **EXP**: Lv67 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276)
+- **Stats (IV Grades)**: HP (C, 197), Attack (C+, 185), Defense (A-, 179), Sp. Atk (C-, 172), Sp. Def (E, 117), Speed (C-, 122)
+- **Current Condition**: 169/197 HP, Healthy (took 28 damage from Hugh's Eelektross in Round 7 Finals)
+- **EXP**: Lv68 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
