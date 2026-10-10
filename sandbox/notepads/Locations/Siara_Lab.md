@@ -81,3 +81,7 @@
   - **Blue Control Console (`17, 17`)**: Located above `(17, 18)`; displays *"Code Yellow / Location: B4F Code: 0420"* and grants **Code Yellow** (verified Turn 34458).
   - **Key Item (`11, 18`)**: **Ec Card** sitting on the broken table (interacted with from `12, 18` facing `Left` via `col 12` around the floor-hole ring at `13-15, 17-19`; collected Turn 34460).
   - **Marie's 2015–2016 Diary (`13, 20`)**: Dated *"2015. June 6th"* and *"2016. April 5th"*: *"2015. June 6th / I managed to make a quick and cheap way of Eclipsing Pokémon! / I also created a special band for Frio that he can use to Eclipse Pokémon, helping his training. / ... / ... / 2016. April 5th / This is bad! This is bad! / Eclipse Pokémon have gone berserk all over the Laboratory! / We can't control all of them... / We need to leave immediately and seal this lab away!"* (verified Turn 34461).
+  - **Purple Wall Plaque (`9, 16`)**: Reads *"Number of failed experiments: 405 / Number of successful experiments: 1"* (verified Turn 34463).
+- **B4F Dormitory (`cols 16-29, rows 19-28`, behind Code Yellow Door `21-22, 17-18`)**:
+  - Unlocked from `(21, 17)` facing `Down` toward `(21, 18)` using **Code Yellow (`0420`)**, stepping Asher into the corridor at `(21, 19)` (verified Turn 34466).
+  - Contains two beds at `(18, 25-26)` and `(26, 25-26)` and a purple wall plaque at `(28, 24-25)`.
