@@ -122,3 +122,9 @@
     - **Pokémon 3**: Banette (♀, Lv27; Ghost; Ability: Cursed Body).
     - **Pokémon 4**: Vigoroth (♀, Lv28; Normal).
   - **Outcome**: Defeat quote: *"Losing to a kid... / What an awkward way to end this"*; awards `₽1,008` (verified Turns 32960-32967).
+- **Match 2 (Semifinals — Hiker Tom)**:
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Carnivine (♀, Lv28; Grass; Ability: Levitate).
+    - **Pokémon 2**: Cryogonal (Lv29; Ice).
+    - **Pokémon 3**: Quilladin (♂, Lv28; Grass).
+  - **Outcome**: Defeat quote: *"What the? / Wasn't I focusing enough?"*; awards `₽1,160`, while Johto's **Silver** defeated the Picnicker on the opposite side of the bracket (verified Turns 32971-32974).
