@@ -111,6 +111,11 @@
   - At the northern end of `column 18` (`18, 12-13`), a westbound street runs along `rows 12-13` (`cols 7-18`).
   - Wooden signboard at `(11-12, 12)` (interacted from `11, 13`) reads verbatim: *"Route 12 / <-------"* (verified Turn 32628).
   - Stepping `Left` from `(7, 12)` onto `(6, 12)` enters the **Route 12 Gatehouse** (the most northerly tunnel in Amor City; verified Turn 32629).
+## Round 4 Arena & Eclipse Tournament Round Four (`20, 17` -> `4, 14` -> `14, 14`)
+- **Round 4 Arena Entrance (`20, 17`)**: Unguarded after receiving the Round 4 HuPhone summons in Jarro Town (`36, 29`, Turn 32949); stepping `Down` through `(20, 17)` warps to the 8-trainer Round 4 Bracket Screen (`7, 17`, verified Turn 32957).
+- **Round 4 Bracket**:
+  - **Left Side**: **Asher** vs. **Scientist/Collector** (Match 1) and **Ace Trainer Male** vs. **Hiker** (Match 2).
+  - **Right Side**: **Silver (from Johto)** vs. **Worker** (Match 3) and **Picnicker** vs. **Black Belt** (Match 4).
 
 <hr>
 
