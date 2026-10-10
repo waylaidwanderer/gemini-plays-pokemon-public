@@ -1325,6 +1325,9 @@
       3. **Blue Crystal #3 (`2, 31-32`) & Hupestian Wall Symbol #3 (`3, 30`)** -> With Blue Barrier #3 gone, stepping onto `(2, 31)` ( revealing a third Hupestian Wall Symbol & Hole on the wall at `3, 30`) and facing `Down` to touch `(2, 32)` displays *"The weird barrier somwhere far away is gone!"* and deactivates **Blue Barrier #2 (`col 34, rows 15-16`)** in the northeast courtyard (verified Turns 33353-33355).
       4. **Blue Crystal #2 (`38, 11-12`) & Hupestian Wall Symbol #4 (`44, 13`)** -> Passing east through `(34, 15)` to `(38, 13)` and touching `(38, 12)` pans the camera east and deactivates **Blue Barrier #5 (`col 45, rows 14-16`)** (located below a fourth Hupestian Wall Symbol & Hole at `44, 13`; verified Turns 33356-33357).
     - **Eastern Sector Team Siara Grunt (`41, 17`)**: Stands behind the horizontal stone wall at `(41, 17)` and challenges the player at `(41, 15)` (*"I feel all nauseous... / I wonder what makes me dizzy..."*; Swalot♂ Lv31, Toxicroak♀ Lv31, Weezing♂ Lv31; `₽3224`, defeated Turns 33358-33365).
+  - **Northeast Clearing (`cols 45-55, rows 8-16`)**:
+    - **Ancient Stone Plate #4 (`52, 11`)**: Interacted from `(52, 12)`, reads verbatim: *"It looks like an ancient stone plate... / There's some text carved in! / 'Ones... got this fa... may st... in' / It's barely readable, and the rest is completely messed up..."* (verified Turn 33370).
+    - **Northeast Forest Archway (`48-50, 8`)**: Located directly north of the sand patch (`48-50, 11-13`); bounded on the west by the pine tree at `(46-47, 7-9)` and on the east by the stone ruin wall (`51-53, 9-10`) and trees (`54-59, 8-16`; verified via Turn 33371 `latest_grid.png`).
 
 <hr>
 
