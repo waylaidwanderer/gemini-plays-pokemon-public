@@ -31,3 +31,6 @@
   - **Western Cliff Island & Broken Bridge End (`cols 8-17, rows 8-16`, Verified Turns 33715-33716)**:
     - Reached from `(16, 12)` by weaving behind the top tree canopies along `row 12` (`16, 12 -> 12, 12`) and `row 13` (`12, 13 -> 9, 13 -> 9, 12`).
     - **TM18 (Rain Dance, `8, 12`)**: Gold item ball on the broken western bridge end at `(8, 12)` (collected Turn 33716).
+## Aurin Town Proper (`cols 1+, rows 1-24`, Entered Turn 33721)
+- **Weathered Concrete House (`8, 17`)**: Dilapidated concrete house with broken windows and vines covering the door at `(8, 17)` (cannot be entered).
+- **Arrival Cutscene with Dad & Aur Factory Lead (`9, 19`, Turns 33722-33726)**: Stepping onto `(9, 19)` triggers a cutscene with **Dad (Jackson)** (`10, 19`) and a local man (`11, 19`), who reveals that Pokémon in the ruins of **Aur Factory** (up the northern stairs at `13-15, 14-16`) have been behaving violently and abnormally. Dad recognizes **Aur Factory** from years ago and joins Asher to investigate it.

@@ -226,6 +226,9 @@
   - **Western Cliff Island & Broken Bridge End (`cols 8-17, rows 8-16`, Verified Turns 33715-33716)**:
     - Reached from `(16, 12)` by weaving behind the top tree canopies along `row 12` (`16, 12 -> 12, 12`) and `row 13` (`12, 13 -> 9, 13 -> 9, 12`).
     - **TM18 (Rain Dance, `8, 12`)**: Gold item ball on the broken western bridge end at `(8, 12)` (collected Turn 33716).
+## Aurin Town Proper (`cols 1+, rows 1-24`, Entered Turn 33721)
+- **Weathered Concrete House (`8, 17`)**: Dilapidated concrete house with broken windows and vines covering the door at `(8, 17)` (cannot be entered).
+- **Arrival Cutscene with Dad & Aur Factory Lead (`9, 19`, Turns 33722-33726)**: Stepping onto `(9, 19)` triggers a cutscene with **Dad (Jackson)** (`10, 19`) and a local man (`11, 19`), who reveals that Pokémon in the ruins of **Aur Factory** (up the northern stairs at `13-15, 14-16`) have been behaving violently and abnormally. Dad recognizes **Aur Factory** from years ago and joins Asher to investigate it.
 
 <hr>
 
@@ -2043,6 +2046,10 @@
 - **Father-Son Talk & Location 3 Cutscene (`75, 12` on Route 16 & `10, 16` Offshore Island, Turns 33630-33641)**:
   - Noticing Asher spacing out since Round 5, Dad gave Asher advice on apologizing to make peace even when you aren't sure what you did wrong.
   - Meanwhile, on a small offshore island south of Galinor City (**Location 3**), **Professor Ivo** and **Valora** deduced that the third signal is underwater (adjacent to a deep ocean dive trench). When Ivo asked why Valora was helping them, Valora shared that Asher's bravery in Sovio City inspired her to become strong, and Ivo thanked her for being a true friend to Asher—before accidentally letting slip that she once had feelings for Jackson before Marie ("that lunatic") appeared.
+## Aurin Town — The Slum of Hupest & The Ruins of Aur Factory (`9, 19`, Turns 33722-33726)
+- **Arrival in Aurin Town (`9, 19`)**: Upon entering **Aurin Town** from Route 16 East (`60, 18` <-> `1, 18`), **Dad (Jackson)** met Asher at `(9, 19)` and described Aurin Town as *"The slum of Hupest. This is where most criminals and deliquents band together..."*.
+- **Clue About the Old Factory Ruins (`11, 19`)**: Questioning a local man at `(11, 19)` about anything unnaturally weird happening recently, Dad and Asher learned that wild Pokémon in the **old factory's ruins** (at the top of the northern stairs) have been behaving abnormally and violently attacking people.
+- **Aur Factory**: Recognizing the ruined facility at the top of the northern cliff stairs as **Aur Factory** (*"Aur Factory huh... Or at least what's left of it. ... Yes... I know it quite well, but I never thought I would see it again after all those years... Let's go!"*), Dad joined Asher to investigate the ruins of **Aur Factory**.
 
 <hr>
 
