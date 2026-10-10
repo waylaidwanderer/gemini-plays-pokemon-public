@@ -84,4 +84,5 @@
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Togetic (♂, Lv25; Fairy/Flying).
     - **Pokémon 2**: Ninjask (♀, Lv25; Bug/Flying; Ability: Speed Boost; knows Agility, Sand Attack, and Fury Cutter).
-  - *In progress (verified Turns 32510-32520).*
+    - **Pokémon 3**: Luxio (♀, Lv26; Electric; knows Spark and Thunder Fang).
+  - **Outcome**: Defeat quote: *"Losing at this point... / How embarrassing"*; awards `₽1,040` (verified Turns 32510-32525).
