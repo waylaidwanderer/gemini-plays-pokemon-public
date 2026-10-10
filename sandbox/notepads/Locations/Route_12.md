@@ -130,6 +130,13 @@
     - **Pokémon 2**: Hariyama (♂, Lv28; Fighting).
     - **Pokémon 3**: Gastrodon (♀, Lv28; Water/Ground).
   - **Outcome**: Defeat quote: *"..."*; awards `₽1,680` (verified Turns 32852-32859; Sirius leveled up to Lv51).
+- **Hiker Ayman (`15, 19` -> `14, 19`, rotating)**:
+  - **Pre-Battle Quote**: *"Ahoy, you fancy a battle?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Minior (Lv28; Meteor Form, Rock/Flying).
+    - **Pokémon 2**: Graveler (♂, Lv28; Rock/Ground; Ability: Sturdy; knows Bide).
+    - **Pokémon 3**: Sableye (♀, Lv29; Dark/Ghost; knows Fake Out).
+  - **Outcome**: Defeated in Turns 32861-32869.
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
