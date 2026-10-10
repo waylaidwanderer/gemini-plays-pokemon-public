@@ -62,3 +62,8 @@
     - **Pokémon 1**: Torkoal (♂, Lv27; Fire; Ability: Drought).
     - **Pokémon 2**: Klang (Lv27; Steel).
   - **Outcome**: Defeat quote: *"Oh my."*; awards `₽1,080` (verified Turns 32706-32710).
+- **Collector Rob (`31, 68`, facing South on overhead wooden bridge)**:
+  - **Pre-Battle Quote**: *"Hehe, yo, wanna see my rare Pokémon?"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Bouffalant (♂, Lv28; Normal).
+  - **Outcome**: Battled in Turns 32714-32717.
