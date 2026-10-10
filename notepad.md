@@ -966,6 +966,8 @@
   - **Signpost (`9, 18`)**: Interacted from `(9, 19)` outside the house Frio exited (`8, 17`), reads verbatim: *"For sale! / Call 515-808-2362 for details."* (verified Turn 34181).
   - **1F (`6, 8` Exit Mat & `6, 2` Upstairs Mat)**: Unoccupied house; walking `Left 1` from `(6, 8)` to `(5, 8)`, `Up 6` to `(5, 2)`, and `Right 2` across the red mat `(6, 2)` onto the stairs `(7, 2)` warps to **2F** at `(22, 3)` (verified Turn 34182).
   - **2F (`22, 3` Arrival Mat & Eclite Shard at `19, 6`)**: Contains a golden item ball on the bedroom rug at **`(19, 6)`** yielding a fully powered **Eclite Shard x1** (interacted from `19, 7`; verified Turn 34184), confirming the house's connection to Frio's Eclipser family heritage.
+- **Eastern House (`16, 17`, exits to `16, 18`; interior exit mat at `36, 8`)**:
+  - **In-Game Trade Resident (`35, 5`)**: Male NPC seated at the table who offers to trade his **Rhydon** for a **Lairon** (*"Hello, there! Do you happen to have a Lairon? / Would you agree to a trade for my Rhydon?"*, verified Turns 34189-34190).
 
 <hr>
 
