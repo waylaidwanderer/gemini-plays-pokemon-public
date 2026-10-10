@@ -1570,7 +1570,7 @@
 
 ## Geography & Connections
 - **East (`59, 20-21` <-> Maple Town `0, 16-17`)**: Seamless eastern border connecting the western road of **Maple Town** onto **Route 8** at `(59, 20-21)` (verified Turn 34089).
-- **Eastern Signboard (`52-53, 20`)**: Located along the eastern entrance road of Route 8.
+- **Eastern Signboard (`52-53, 20`)**: Interacted from `(53, 21)`, reads verbatim: *"Route 8 / The path to Mulberry"* (verified Turn 34090).
 
 <hr>
 
