@@ -2091,12 +2091,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv55
+- **Level**: Lv56
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 161), Attack (C+, 151), Defense (A-, 146), Sp. Atk (C-, 140), Sp. Def (E, 96), Speed (C-, 99)
-- **Current Condition**: 75/161 HP, Healthy (full party healed and checkpoint registered at Destino City Pokémon Center in Turn 32998; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091; revived to 79/159 HP in Turn 33137, chipped wild Lv20 Sigilyph in Turn 33174, restored to 73/159 HP via Super Potion in Turn 33185, and reached Lv55 [75/161 HP] defeating Siara Grunt's Passimian Lv33 at `8, 30` in Turn 33210; full party status audited in Turn 33185: Slot 1 Sirius Lv55 75/161 HP, Slot 2 BARON Lv16 0/46 HP [FNT], Slot 3 NEJn Lv16 0/49 HP [FNT], Slot 4 Quasar Lv10 34/34 HP, Slot 5 Flaaffy Lv15 23/50 HP, Slot 6 VEGA Lv16 28/48 HP)
-- **EXP**: Lv55 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210)
+- **Stats (IV Grades)**: HP (C, 164), Attack (C+, 153), Defense (A-, 148), Sp. Atk (C-, 143), Sp. Def (E, 97), Speed (C-, 101)
+- **Current Condition**: 78/164 HP, Healthy (full party healed and checkpoint registered at Destino City Pokémon Center in Turn 32998; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091; revived to 79/159 HP in Turn 33137, chipped wild Lv20 Sigilyph in Turn 33174, restored to 73/159 HP via Super Potion in Turn 33185, reached Lv55 [75/161 HP] defeating Siara Grunt's Passimian Lv33 at `8, 30` in Turn 33210, and reached Lv56 [78/164 HP] defeating Siara Admin Harry's Zoroark Lv32 at `14, 17` in Turn 33381)
+- **EXP**: Lv56 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
