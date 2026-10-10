@@ -729,7 +729,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Tranquill (♂, Lv27; Normal/Flying; knows Detect).
     - **Pokémon 2**: Jellicent (♂, Lv27; Water/Ghost; knows Water Pulse).
-  - **Outcome**: Defeated in Turns 32669-32681 (Sirius leveled up to Lv48 and learned Meteor Mash replacing Metal Claw).
+  - **Outcome**: Defeat quote: *"Why?!"*; awards `₽1,080` (verified Turns 32669-32683; Sirius leveled up to Lv48 and learned Meteor Mash replacing Metal Claw).
 
 <hr>
 
