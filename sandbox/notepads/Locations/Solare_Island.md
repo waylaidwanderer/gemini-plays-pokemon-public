@@ -14,7 +14,7 @@
 - **Solare Island Forest**:
   - **Southern Entrance Clearing (`cols 44-61, rows 24-32`)**:
     - **Ancient Stone Plate #2 (`57, 25`)**: Interacted from `(57, 26)`, reads verbatim: *"It looks like an ancient stone plate... / There's some text carved in! / = 'Whoeve... ste... shall beware. Th... gem ... the key...' / It's barely readable, and the rest is completely messed up..."* (verified Turn 33070).
-    - **Northern Tall-Grass Branch (`cols 46-47, rows 26-29`)**: Unexplored northern passage between the orange autumn trees at `(46-47, 26-29)` (observed Turn 33072).
+    - **Tall-Grass Alcove (`cols 46-47, rows 26-29`)**: Dead-end tall-grass alcove between the orange autumn trees at `(46-47, 26-29)`, terminating at the tree trunk at `(46-47, 25)` (verified Turn 33220).
   - **Western Barrier Shrine (`cols 31-39, rows 24-32`)**:
     - **Team Siara Grunts (`34, 31` & `36, 32`)**: Separated from their squad after touching a crystal that activated the ancient defense barrier (`col 33, rows 29-31`).
     - **Ancient Stone Plate #3 (`38, 30`)**: Read during the cutscene at `(38, 31)` (Turn 33073): *"'Onl... the one... worthy... ca.. clear the pa... to... truth. Le...crystal be... guidance...'"*.
