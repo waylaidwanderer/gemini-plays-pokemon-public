@@ -21,3 +21,9 @@
 
 ## Wild Pokémon Encounters (Surfing)
 - **Wailmer** (♂, Lv31; Water; caught in 2nd Ultra Ball at `27, 23` in Turn 34326, nicknamed **Baleen**, transferred to Box 3; brings PokéDex Owned count to **79**).
+- **Small Offshore Isle (Location 3 — `cols 24-38, rows 32-48`)**:
+  - **Western Landing (`25-26, 40-43`)**: Enclosed by trees (`27-30, 44-47`) and a cliff wall (`31, 40-44`); cannot reach the eastern plateau directly from the western landing (verified Turn 34339).
+  - **Northeastern Clearing (`32-34, 36`)**: Reached by surfing around the northern coast (`row 31`); contains a **gold item ball** at `(32, 36)` above a south-facing ledge (`32-34, 37`).
+  - **Southeastern Terrace & Cave Entrance**:
+    - **Professor Ivo (`36, 46`)**: Waiting on the southeastern grass terrace below the cliff staircase (`33, 44-45`).
+    - **Dad / Jackson (`36, 42`)**: Standing on the upper plateau in front of the **cave entrance (`36, 40`)** leading down to the abandoned undersea Team Siara laboratory.
