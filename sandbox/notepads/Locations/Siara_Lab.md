@@ -17,3 +17,6 @@
     - Because the security doors cannot be opened without power, Asher must **find the generator room and turn the main generator back on**.
     - Ivo also warns Asher that the abandoned laboratory is crawling with **Eclipsed Pokémon**.
   - **Purple Wall Plaque (`38, 5`)**: Reads *"B2F / Lobby"* (confirming `1F–5F` on the elevator panel correspond to subterranean undersea levels `B1F–B5F`, verified Turn 34391).
+  - **Wild Eclipsed Pokémon Encounters**:
+    - Floor tiles inside the Abandoned Undersea Laboratory can trigger wild **Eclipsed Pokémon** encounters (such as **Eclipsed Pikachu**♀ Lv40, which knows `Eclipse Zap`) even while a Repel / Super Repel is active (verified Turn 34393).
+    - Wild Eclipsed Pokémon can be fled from normally via `Run` (*"Got away safely!"*, verified Turn 34396) or targeted with Poké Balls (verified Turn 34395).

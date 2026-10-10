@@ -1844,6 +1844,9 @@
     - Because the security doors cannot be opened without power, Asher must **find the generator room and turn the main generator back on**.
     - Ivo also warns Asher that the abandoned laboratory is crawling with **Eclipsed Pokémon**.
   - **Purple Wall Plaque (`38, 5`)**: Reads *"B2F / Lobby"* (confirming `1F–5F` on the elevator panel correspond to subterranean undersea levels `B1F–B5F`, verified Turn 34391).
+  - **Wild Eclipsed Pokémon Encounters**:
+    - Floor tiles inside the Abandoned Undersea Laboratory can trigger wild **Eclipsed Pokémon** encounters (such as **Eclipsed Pikachu**♀ Lv40, which knows `Eclipse Zap`) even while a Repel / Super Repel is active (verified Turn 34393).
+    - Wild Eclipsed Pokémon can be fled from normally via `Run` (*"Got away safely!"*, verified Turn 34396) or targeted with Poké Balls (verified Turn 34395).
 
 <hr>
 
@@ -2644,7 +2647,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 34356)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x8** (used 12 Ultra Balls and 1 Dive Ball catching wild Lv27 Tentacruel at Hupest Sea `27, 31` in Turn 34356), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **80** (fulfills Task 2 of Professor Elm's Research!).
+- **Poké Balls Pocket (Audited Turn 34395)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x7** (used 1 testing capture on wild Lv40 Eclipsed Pikachu at Undersea Lab B2F `38, 8` in Turn 34395), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **80** (fulfills Task 2 of Professor Elm's Research!).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
@@ -2773,7 +2776,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 197), Attack (C+, 185), Defense (A-, 179), Sp. Atk (C-, 172), Sp. Def (E, 117), Speed (C-, 122)
-- **Current Condition**: 161/197 HP, Healthy (healed with Hyper Potion in Turn 34351, then took 11 damage from wild Tentacruel's Bubble Beam in Turn 34354)
+- **Current Condition**: 138/197 HP, Healthy (took 23 damage from wild Lv40 Eclipsed Pikachu's `Eclipse Zap` in Turn 34396)
 - **EXP**: Lv68 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
