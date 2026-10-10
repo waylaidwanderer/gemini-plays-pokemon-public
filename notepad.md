@@ -188,6 +188,11 @@
       - **Left Clerk (`6, 5` facing `Up`)**: Sells `Guard Spec.` (`₽700`), `Dire Hit` (`₽650`), `X Attack` (`₽500`), `X Defend` (`₽550`), `X Speed` (`₽350`), `X Accuracy` (`₽950`), `X Special` (`₽350`), `Poké Doll` (`₽1000`), `HP Up` (`₽9800`), `Protein` (`₽9800`), `Iron` (`₽9800`), `Carbos` (`₽9800`), `Calcium` (`₽9800`), and `Zinc` (`₽9800`).
       - **Right Clerk (`14, 5` facing `Up`)**: Sells `Sea Incense` (`₽9600`), `Lax Incense` (`₽9600`), `Power Weight` (`₽1500`), `Power Bracer` (`₽1500`), `Power Belt` (`₽1500`), `Power Anklet` (`₽1500`), `Power Lens` (`₽1500`), and `Power Band` (`₽1500`).
     - **5F (Amor Lotto, Clerk at `10, 5` facing `Up`)**: Runs the **Amor Lotto** for `₽4,500` per ticket (`"Hello, would you like to participate in the Amor Lotto? It costs 4500 dollars and you can win awesome prizes!"`). No staircase leads higher than 5F.
+## Round 6 Arena & Eclipse Tournament Round Six (`13, 26` -> `4, 14` -> `14, 14`)
+- **Round 6 Arena Entrance (`13, 26` in Lower Arena Ring)**: Unguarded after receiving the Round 6 HuPhone summons in Aur Factory (Turn 33863); stepping `Down` through `(13, 26)` warps to the 8-trainer Round 6 Bracket Screen (`7, 17`, verified Turn 33867).
+- **Round 6 Bracket**:
+  - **Left Side**: **Asher** vs. **Albert** (Match 1) and **Gentleman** vs. **Sailor** (Match 2).
+  - **Right Side**: **Riley (from Sinnoh)** vs. **Ace Trainer Male** (Match 3) and **Ruin Maniac** vs. **Ace Trainer Female** (Match 4).
 
 <hr>
 
@@ -294,7 +299,7 @@
   - **Eastern Rebar Beam (`21-22, 21`)**: Connects `(20, 21)` east across the pit to `(23, 21)`, leading to the third Gold Item Ball at `(28, 22)` containing **Scrap Metal** (#3 of 3, collected into Key Items Pocket in Turn 33843) and an eastern staircase at `(25-27, 16-19)`.
   - **Fenced Alcove (`12-14, 24-25`) & Overhead Bridge (`12-14, 18-23`)**: `(12-14, 18-23)` is a two-elevation overhead bridge: the upper terrace (`rows 20-22`) crosses east-west on Elevation 2, while `columns 12-14` (`rows 14-25`) form a lower underpass on Elevation 1 connecting `(12-14, 14)` (reached via the northern loop `25-27, 16-19 -> 26, 8 -> 17, 8 -> 17, 14 -> 15, 14`) south underneath the bridge to `(12-14, 24-25)`, where **Luxury Ball x1** sits at `(13, 25)` (collected Turn 33848; verified Turn 33853).
   - **Northern Doorway (`13, 9`)**: Guarded by a Gangster at `(13, 10)` at the north end of the `(12-14, 10-14)` corridor until the 3 Scrap Metals are delivered to the gang leader at `(12, 35)` (*"Oh! You got 3, as I asked you to... Wow, I'm impressed. / Asher gave the Scrap Metal to the shady guy. / I don't know why you two are investigating around here, but I hope you will find whatever you two are looking for..."*, verified Turn 33855).
-- **Inner Pedestal Chamber (`13, 9` -> `16, 9`, Turns 33857-33864)**: Stepping into the northern doorway at `(13, 9)` triggers the cutscene showing **Siara Admin Flo** escaping by helicopter with the second gem from the pedestal (`16, 8`), the mysterious boy (`???`) vanishing upon Asher and Dad's arrival, and the **Amor Battle Center** HuPhone summons for **Round Six of the Eclipse Tournament**.
+- **Inner Pedestal Chamber (`13, 9` -> `16, 9` -> Amor City South `88, 24`, Turns 33857-33865)**: Stepping into the northern doorway at `(13, 9)` triggers the cutscene showing **Siara Admin Flo** escaping by helicopter with the second gem from the pedestal (`16, 8`), the mysterious boy (`???`) vanishing upon Asher and Dad's arrival, and the **Amor Battle Center** HuPhone summons for **Round Six of the Eclipse Tournament**, which automatically fast-travels Asher to **`(88, 24)`** outside the Route 16 Gatehouse in **Amor City South**.
 
 <hr>
 

@@ -186,3 +186,8 @@
       - **Left Clerk (`6, 5` facing `Up`)**: Sells `Guard Spec.` (`₽700`), `Dire Hit` (`₽650`), `X Attack` (`₽500`), `X Defend` (`₽550`), `X Speed` (`₽350`), `X Accuracy` (`₽950`), `X Special` (`₽350`), `Poké Doll` (`₽1000`), `HP Up` (`₽9800`), `Protein` (`₽9800`), `Iron` (`₽9800`), `Carbos` (`₽9800`), `Calcium` (`₽9800`), and `Zinc` (`₽9800`).
       - **Right Clerk (`14, 5` facing `Up`)**: Sells `Sea Incense` (`₽9600`), `Lax Incense` (`₽9600`), `Power Weight` (`₽1500`), `Power Bracer` (`₽1500`), `Power Belt` (`₽1500`), `Power Anklet` (`₽1500`), `Power Lens` (`₽1500`), and `Power Band` (`₽1500`).
     - **5F (Amor Lotto, Clerk at `10, 5` facing `Up`)**: Runs the **Amor Lotto** for `₽4,500` per ticket (`"Hello, would you like to participate in the Amor Lotto? It costs 4500 dollars and you can win awesome prizes!"`). No staircase leads higher than 5F.
+## Round 6 Arena & Eclipse Tournament Round Six (`13, 26` -> `4, 14` -> `14, 14`)
+- **Round 6 Arena Entrance (`13, 26` in Lower Arena Ring)**: Unguarded after receiving the Round 6 HuPhone summons in Aur Factory (Turn 33863); stepping `Down` through `(13, 26)` warps to the 8-trainer Round 6 Bracket Screen (`7, 17`, verified Turn 33867).
+- **Round 6 Bracket**:
+  - **Left Side**: **Asher** vs. **Albert** (Match 1) and **Gentleman** vs. **Sailor** (Match 2).
+  - **Right Side**: **Riley (from Sinnoh)** vs. **Ace Trainer Male** (Match 3) and **Ruin Maniac** vs. **Ace Trainer Female** (Match 4).
