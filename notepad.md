@@ -2179,7 +2179,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 167), Attack (C+, 156), Defense (A-, 150), Sp. Atk (C-, 145), Sp. Def (E, 99), Speed (C-, 103)
-- **Current Condition**: 67/167 HP, Healthy (restored to 100% HP and full PP at the Destino City Pokémon Center in Turn 33396; reached Lv57 defeating Cooltrainer Summer's Venusaur Lv32 in Round 5 Quarterfinals in Turn 33434; swept Fisherman Otis and Sinnoh's Barry to win Round 5 in Turn 33454)
+- **Current Condition**: 167/167 HP, Healthy (restored to 100% HP with a Hyper Potion in Amor City North in Turn 33522 after sweeping Round 5 of the Eclipse Tournament)
 - **EXP**: Lv57 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
