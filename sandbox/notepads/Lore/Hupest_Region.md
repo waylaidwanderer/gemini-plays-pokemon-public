@@ -271,3 +271,12 @@
   - Upon arriving in **Galinor City** ("The luxury resort city") at `(47, 47)`, Valora marveled at how huge and fancy the city is and wondered how they would find their boat ride.
   - Asher immediately received a HuPhone text message from **Dad**: *"Asher, I already called Harry, he should be waiting at the Cargo Loading Bay. I told him you will get there earlier, could you find him and wait for us? We will be there soon too!"*.
   - Asher and Valora set out to locate **Harry** at the **Cargo Loading Bay** in Galinor City.
+## Galinor Cargo Loading Bay — Harry's Double Agent Revelation & Voyage to Solare Island
+- **Reunion with Harry, Dad & Professor Ivo (`28, 18` -> `28, 17`, Turns 33057-33060)**:
+  - On the Middle Pier of the Galinor Cargo Loading Bay (`28, 17-19`), Asher and Valora met **Harry**, and **Dad (Jackson)** and **Professor Ivo** arrived right behind them (`28-29, 17`).
+  - Confirming they were all prepared to go after Team Siara, Harry invited everyone to board his ship (`28, 20`).
+- **Harry's Past as a Former Siara Admin & Jackson's Double Agent (`28, 18`, Turns 33059-33060)**:
+  - Before boarding, Asher noticed Harry was wearing a Team Siara uniform and asked why.
+  - Harry revealed that he used to be very poor until Jackson gave him a job at Team Siara when Jackson was still a Boss, and that Harry even served as a **Siara Admin** alongside **Flo** (whom Harry noted is **Marie's cousin**) before stepping down to a regular grunt role.
+  - When Jackson left Siara, Harry wanted to follow him because he agreed with what Jackson stood for, so Jackson asked Harry to stay inside Team Siara as a **double agent** to feed Jackson intelligence on Siara's operations without actively participating in their schemes.
+  - Promising not to tell Dad that Harry shared the secret, Asher boarded the ship with Harry, and they sailed to **Solare Island** (`36, 51`, Turn 33060).

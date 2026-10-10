@@ -389,7 +389,7 @@
   - **Wooden Bridge (`cols 46-48, rows 15-31`)**: Connects north from `(47, 32)` across the channel onto the northern headland (`47, 12`), where a dirt path runs west along `rows 11-12`.
   - **Northern Headland Sailor (`32, 11`) & Dive Ball (`35, 6`)**: Sailor at `(32, 11)` stands beside a round boulder (`31, 9`) and shipping containers (*"Whew... lifting this was a real workout... / Haha, you should see the surprised look on your face! / Nah, we lift these containers with the help of Pokémon and equipment from the cargo ships."*, verified Turn 33048). Walking north up the 1-tile gap at `column 35` (`35, 11 -> 35, 7`) to the item ball at **`(35, 6)`** yields **Dive Ball x1** (verified Turn 33048).
   - **Western Pier (`cols 17-22, rows 14-21`)**: Accessed via the ramp at `(21, 14)` beside the Sailor at `(21, 12)`. Behind the green shipping container (`cols 18-20, rows 16-19`), a stone sprite at **`(18, 20)`** yields **Water Stone x1** (interacted from `19, 20`; verified Turn 33054).
-  - **Middle Pier (`cols 26-31, rows 14-21`)**: Accessed via the ramp at `row 14` (`cols 27-30`); **Harry** waits near the southern end (`28, 18-19`).
+  - **Middle Pier (`cols 26-31, rows 14-21`)**: Accessed via the ramp at `row 14` (`cols 27-30`); **Harry** waits at `(28, 19)` in front of his ship (`28, 20`). Speaking to Harry from `(28, 18)` triggers the cutscene with Valora, Dad, and Professor Ivo and sails to **Solare Island** (`36, 51`, Turns 33057-33060).
 
 <hr>
 
@@ -1792,6 +1792,15 @@
   - Upon arriving in **Galinor City** ("The luxury resort city") at `(47, 47)`, Valora marveled at how huge and fancy the city is and wondered how they would find their boat ride.
   - Asher immediately received a HuPhone text message from **Dad**: *"Asher, I already called Harry, he should be waiting at the Cargo Loading Bay. I told him you will get there earlier, could you find him and wait for us? We will be there soon too!"*.
   - Asher and Valora set out to locate **Harry** at the **Cargo Loading Bay** in Galinor City.
+## Galinor Cargo Loading Bay — Harry's Double Agent Revelation & Voyage to Solare Island
+- **Reunion with Harry, Dad & Professor Ivo (`28, 18` -> `28, 17`, Turns 33057-33060)**:
+  - On the Middle Pier of the Galinor Cargo Loading Bay (`28, 17-19`), Asher and Valora met **Harry**, and **Dad (Jackson)** and **Professor Ivo** arrived right behind them (`28-29, 17`).
+  - Confirming they were all prepared to go after Team Siara, Harry invited everyone to board his ship (`28, 20`).
+- **Harry's Past as a Former Siara Admin & Jackson's Double Agent (`28, 18`, Turns 33059-33060)**:
+  - Before boarding, Asher noticed Harry was wearing a Team Siara uniform and asked why.
+  - Harry revealed that he used to be very poor until Jackson gave him a job at Team Siara when Jackson was still a Boss, and that Harry even served as a **Siara Admin** alongside **Flo** (whom Harry noted is **Marie's cousin**) before stepping down to a regular grunt role.
+  - When Jackson left Siara, Harry wanted to follow him because he agreed with what Jackson stood for, so Jackson asked Harry to stay inside Team Siara as a **double agent** to feed Jackson intelligence on Siara's operations without actively participating in their schemes.
+  - Promising not to tell Dad that Harry shared the secret, Asher boarded the ship with Harry, and they sailed to **Solare Island** (`36, 51`, Turn 33060).
 
 <hr>
 
