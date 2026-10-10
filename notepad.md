@@ -1913,6 +1913,14 @@
   - Unlocked via the left panel `(21, 18)` (from `21, 17` facing `Down` or from `21, 19` facing `Up`) using **Code Yellow (`0420`)** (verified Turns 34466 & 34472).
   - **Purple Wall Plaque (`28, 25`)**: Reads *"Ailing room"* (verified Turn 34470).
   - **Item (`37, 28`)**: **TM10 (Dark Pulse)** located at the far eastern end of the Ailing Room (collected Turn 34472).
+## Floor B5F (`8, 18` Elevator Exit; Requires Ec Card)
+- **Elevator Doorway (`8, 18`)**: Connects to the facility elevator (`6, 15`).
+- **Breached Security Door (`7-9, 10-11`)**: Smashed open down the center (`col 8`); purple wall plaque at `(6, 10-11)` is blank.
+- **B5F Inner Chamber (`cols 5-11, rows 3-8`)**:
+  - **Third Gem Pedestal (`8, 3`)**: Stone formation holding the third gem.
+  - **Confrontation with PKMN Trainer `???` (`8, 6` -> `8, 5`, Turns 34477-34490)**:
+    - Mistaking Asher and Jackson for Team Siara members after seeing them at Aur Factory, `???` (`Staraptor♀ Lv40`, `Aggron♂ Lv41`, `Samurott♂ Lv41`, `Sceptile♂ Lv42` holding Rocky Helmet) battled Asher at `(8, 7)` before learning that Asher, Jackson, Professor Ivo, and Valora are fighting against Team Siara.
+  - **Table (`10-11, 4`)**: Contains a blue console at `(10, 4)` and notes/diary at `(11, 4)`.
 
 <hr>
 
