@@ -136,3 +136,4 @@
     - **Pokémon 3**: Magnezone (Lv30; Electric/Steel; Ability: Sturdy; knows Iron Defense).
     - **Pokémon 4**: Feraligatr (♂, Lv31; Water).
   - **Outcome**: Defeat quote: *"What the?! / Arghhh! / Now that I look at you, you do remind me of someone I really don't like... / Looks like my Pokémon were worthless... they were weak!"*; awards `₽3,472` and crowns Asher winner of his Round 4 group (verified Turns 32977-32987).
+- **Post-Round-4 Cutscene Trigger (`14, 6` in Tournament Arena Lobby, Turn 32989)**: Stepping onto `(14, 6)` after winning Round 4 triggers Dad's HuPhone text message asking Asher to meet him in front of the Amor City Battle Centre (`59, 25`) so he can pick Asher up for Professor Ivo's emergency meeting.

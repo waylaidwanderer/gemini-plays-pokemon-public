@@ -249,3 +249,6 @@
   1. **Quarterfinals**: Defeated **Super Nerd Eugene** (Haunter Lv27, Diggersby Lv28, Banette Lv27, Vigoroth Lv28).
   2. **Semifinals**: Defeated **Hiker Tom** (Carnivine Lv28, Cryogonal Lv29, Quilladin Lv28), while Johto's **Silver** defeated the Worker and Picnicker on the opposite side of the bracket.
   3. **Round Four Finals**: Defeated **PKMN Trainer Silver** from the Johto Region (Weavile Lv29, Crobat Lv29, Magnezone Lv30, Feraligatr Lv31) to win his Round Four group and advance to Round Five of the Eclipse Tournament.
+- **Post-Round-4 HuPhone Message from Dad (`14, 6` in Tournament Arena Lobby, Turn 32989)**:
+  - Stepping onto `(14, 6)` in the Tournament Arena Lobby after winning Round 4 triggers a HuPhone text message from **Dad**: *"Hey son, I heard Round 4 has ended, I'll be in front of the Battle Center to pick you up. Ivo called me to pick you up for an emergency meeting!"*.
+  - Asher wonders what could be so urgent and heads outside to meet Dad in front of the Amor City Battle Centre.
