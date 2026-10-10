@@ -1725,6 +1725,12 @@
 - **Post-Round-4 HuPhone Message from Dad (`14, 6` in Tournament Arena Lobby, Turn 32989)**:
   - Stepping onto `(14, 6)` in the Tournament Arena Lobby after winning Round 4 triggers a HuPhone text message from **Dad**: *"Hey son, I heard Round 4 has ended, I'll be in front of the Battle Center to pick you up. Ivo called me to pick you up for an emergency meeting!"*.
   - Asher wonders what could be so urgent and heads outside to meet Dad in front of the Amor City Battle Centre.
+## Lancio Town Emergency Meeting — Three Eclite Energy Readings & Mission to Galinor City
+- **Professor Ivo's Emergency Briefing (`59, 26` in Amor City -> `1, 8` in Ivo's Basement Lab, Turns 32991-32993)**:
+  - Outside the Amor City Battle Centre (`59, 26`), Dad met Asher after Round 4 and brought him back to Professor Ivo's Basement Laboratory in Lancio Town (`1, 8`), where **Professor Ivo** (`0, 6`) and **Valora** (`0, 8`, who also passed Round 4) were waiting.
+  - Displaying the Hupest World Map, Professor Ivo revealed that she detected abnormal energy readings resembling **Eclipse Shards / Eclite** at **three marked locations** (an offshore island dot in the bay south of the Destino–Galinor bridge, Solare Island in the far northwest, and a northern mountain location east of Jarro Town, plus a blue square marker east of Amor City), with the strongest readings coming from **Location 1**.
+  - **Mission to Galinor City**: Professor Ivo asked Asher and Valora to head to **Galinor City** and find a boat ride to the island at Location 1 while she and Dad (Jackson) investigate whether Team Siara is headed there.
+  - **Transit via Sovio Metro & Destino City**: Dad explained that because **Galinor Station** is currently closed due to a leak, Asher and Valora can take the Metro as far as **Destino City** and cross the western bridge from Destino City to reach **Galinor City**. Dad then drove Asher and Valora to the **Sovio City Metro Station** (`48, 18`).
 
 <hr>
 
