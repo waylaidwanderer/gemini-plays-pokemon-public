@@ -12,3 +12,7 @@
   - **Pre-Battle Quote**: *"Hey! You there! / Wanna battle?"*
   - **Team (3 Pokémon)**: Sawk (♂, Lv33; Fighting; `1152 EXP`), Krokorok (♀, Lv33; Ground/Dark; Ability: Intimidate; `868 EXP`), and Conkeldurr (♂, Lv34; Fighting; `1405 EXP`).
   - **Outcome**: Defeated in Turns 33588-33593 (`"..."`).
+- **Cooltrainer Jane (`32, 8` -> `30, 8`, facing `Left`)**:
+  - **Pre-Battle Quote**: *"Agh, I'm gonna go home..."*
+  - **Team (4 Pokémon)**: Seadra (♂, Lv33; Water; `1095 EXP`), Alomomola (♀, Lv34; Water; `1201 EXP`), Floatzel (♀, Lv33; Water; `1179 EXP`), and Araquanid (♀, Lv34; Water/Bug; `1158 EXP`).
+  - **Outcome**: Defeated in Turns 33595-33603 (*"I like to come out here to take a break from the concrete jungle of Amor. / And sometimes to battle."*).
