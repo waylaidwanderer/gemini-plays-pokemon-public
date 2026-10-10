@@ -41,7 +41,16 @@
 - **Southern Corridor (`cols 8-10, rows 11-19`)**:
   - Floor hole at `(10, 15)` (`col 9` is completely clear from `9, 6` to `9, 19`).
   - **Purple Door Mat (`9, 19` <-> B3F Machine Room `29, 4`)**: Stepping `Down` off `(9, 19)` enters the **B3F Machine Room** at `(29, 4)` (verified Turn 34411).
-  - **Eastern Branch (`cols 11-17, rows 15-19`)**: Contains a purple wall plaque at `(12, 17)` and a staircase mat at `(16, 18-19)`.
+- **Eastern Branch (`cols 11-17, rows 15-19`)**:
+  - **Purple Wall Plaque (`12, 17`)**: Reads *"V Generator Room V"* (verified Turn 34422).
+  - **Ascending Staircase (`17, 18` via Red Mat `16, 18-19`)**: Ascends to the **B2F Southern Area** at `(30, 16)` (verified Turn 34423).
+
+## B2F Southern Area (`30, 16` from B3F Eastern Staircase `17, 18` & B2F Lobby `34-35, 10-13`)
+- **Descending Staircase (`28-29, 16-17` via Red Mat `30, 16-17`)**: Descends to the B3F Eastern Branch at `(16, 18)`.
+- **Objects & Consoles**:
+  - **Research Notes (`34, 18`)**: Located on the southern table below `(34, 17)`.
+  - **Blue Control Console (`36, 16`)**: Located above `(36, 17)`.
+  - **Glowing Object (`38, 16`)**: Located in the eastern alcove behind the yellow crates at `(37, 15-16)` and `(38, 17-18)`.
 
 ## B3F Machine Room (`29, 4` from B3F Corridor `9, 19`)
 - **Doorway Exit (`29, 3`)**: Warps back to the B3F Corridor at `(9, 19)`.
