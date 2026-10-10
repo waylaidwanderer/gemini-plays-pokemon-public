@@ -41,3 +41,9 @@
 - **Orange Mining Machine & Northern Archway (`27-30, 6-12`)**:
   - An abandoned Team Siara orange mining machine sits at `(28-30, 11-12)`.
   - Walking `Up 2` from `(27, 12)` to `(27, 10)` and `Right 1` to `(28, 10)`, then `Up 2` onto `(28, 8)` under the wooden support archway warps to `(5, 15)` in the Undersea Laboratory Stairwell (verified Turn 34381).
+## Undersea Laboratory Stairwell (`5, 15` -> `5, 4`)
+- **Entrance (`5, 15` <-> Location 3 Cave Passage `28, 8`)**: Stepping `Down` off `(5, 15)` exits back to the cave passage (verified Turn 34382).
+- **Elevator Doorway Cutscene (`5, 7` -> `5, 4`, Turns 34382-34384)**:
+  - Stepping north onto `(5, 7)` triggers a cutscene with **Professor Ivo** (`5, 4`), **Dad (Jackson)** (`3, 5`), and **Valora** (`6, 6`).
+  - Professor Ivo notes that despite the lab being at least 10 years old, the electricity is still running. Dad repairs the jammed elevator panel at `(4, 4)`, and Ivo, Dad, and Valora enter the elevator doorway at `(5, 4)`.
+  - Stepping `Up` into `(5, 4)` enters the **Abandoned Undersea Laboratory Elevator** (`6, 15`), which automatically prompts: *"Choose the floor you would like to enter!"* (`5F`, `4F`, `3F`, `2F`, `1F`).
