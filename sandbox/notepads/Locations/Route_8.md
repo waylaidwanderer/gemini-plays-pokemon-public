@@ -8,8 +8,12 @@
   - **Eastern Plateau Staircase (`37-39, 20-23`)**: Climbs onto the central plateau (`cols 32-39, rows 18-19`), which descends west via the **Western Plateau Staircase (`31-33, 20-23`)**.
   - **Upper Ridge Staircase (`33-35, 16-17`)**: Climbs from the central plateau (`33-35, 18`) onto the upper rocky ridge (`cols 32-42, rows 15-16`), where an item ball at **`(42, 15)`** yields **Ultra Ball x1** (interacted from `41, 15`; verified Turn 34101).
 - **Central Valley & Western Bridge (`cols 21-30, rows 17-28`)**:
-  - **Northern Cliff Staircase (`25-27, 17`)**: Located north of `(25-26, 20)` with a trainer standing near `(25, 19)` (observed Turn 34103).
-  - **Wooden Bridge / Staircase (`21-23, 21-25`) & Item Ball (`24, 24`)**: Golden item ball located at **`(24, 24)`** immediately east of the wooden bridge (`21-23, 21-25`; observed Turn 34103).
+  - **Northern Cliff Staircase (`24-26, 17-19`)**: Located north of `(24-26, 20)` with a trainer standing near `(25, 19)` (observed Turn 34103).
+  - **Overhead Wooden Bridge (`21-22, 19-25`), One-Way Ledge (`24, 22-23`) & Golden Item Ball (`23, 23`)**: A golden item ball sits at **`(23, 23)`** (below twigs at `23, 22-23`), enclosed on the east by a 2-tile one-way east-facing ledge (`24, 22-23`) and on the south by solid cliff lip collision at `(23-24, 24)` (verified Turns 34113-34114).
+
+## Wild Pokémon Encounters
+- **Tall Grass (`40-50, 22-28` & `25-32, 21-28`)**:
+  - **Floette** (♀, Lv27, Red Flower; Fairy; knows Wish and Magical Leaf; encountered at `25, 23` in Turn 34115).
 
 ## Trainers & NPCs
 - **Wandering Farmer (`47-48, 22-24`)**: Friendly NPC wandering above the eastern tall grass patch (`40-50, 22-28`).
