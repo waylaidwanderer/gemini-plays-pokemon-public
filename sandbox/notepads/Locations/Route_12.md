@@ -118,7 +118,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Trapinch (♀, Lv28; Ground).
     - **Pokémon 2**: Venomoth (♂, Lv28; Bug/Poison).
-  - **Outcome**: Defeated in Turns 32844-32848 (Sirius leveled up to Lv51).
+  - **Outcome**: Defeat quote: *"Nooo it got tore apart!"*; awards `₽1,456` (verified Turns 32844-32849).
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
