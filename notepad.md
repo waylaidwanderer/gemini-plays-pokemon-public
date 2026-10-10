@@ -766,7 +766,8 @@
 
 ## Geography & Connections
 - **North (`28-30, 0` <-> Route 13 `48-50, 49`)**: Seamless northern border connecting the southern dirt road of **Route 13** onto the main northern road of **Maple Town** at `(28-30, 0)` (verified Turn 34046).
-- **Maple Town Pokémon Center (`34, 8`)**: Located on the east side of the northern entrance road (`cols 32-36, rows 4-8`); a wooden fence post at `(31, 8-9)` sits to the left of the building, so the entrance door at `(34, 8)` is reached via `row 10` (`30, 10 -> 34, 10 -> 34, 8`, verified Turn 34053).
+- **Maple Town Pokémon Center (`34, 10`, exits to `34, 11`)**: Located on the east side of the northern entrance road (`cols 32-36, rows 6-10`); a short wooden fence at `(31-32, 9-10)` sits to the left of the building, so the entrance door at `(34, 10)` is reached via `row 11` (`30, 11 -> 34, 11 -> 34, 10`, verified Turn 34056). Nurse Joy at `(7, 2)` (counter at `7, 4`; healed and registered checkpoint in Turn 34056).
+- **Maple Town Signboard (`38-39, 10`)**: Located immediately east of the Maple Town Pokémon Center.
 
 ## Story Events
 - **Reunion with Dad, Professor Ivo & Valora & Frio's Eavesdropping (`29, 7`, Turns 34046-34049)**: Stepping south onto `(29, 7)` triggers the reunion cutscene with Valora (`28, 7`), Dad (`28, 9`), and Professor Ivo. When Professor Ivo explains that the third energy signal is underwater and they need specific clues to locate it, Valora and Asher spot **Frio** eavesdropping at `(28, 12)`. Frio recognizes the underwater location (*"Underwater location? No... They can't be talking about that damn place..."*), realizes he made eye contact with them, and walks west into Maple Town along `row 12`.
@@ -2491,7 +2492,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 189), Attack (C+, 177), Defense (A-, 171), Sp. Atk (C-, 165), Sp. Def (E, 112), Speed (C-, 117)
-- **Current Condition**: 139/189 HP, Healthy (healed to full HP and PP at Western Amor City Pokémon Center in Turn 33913; leveled up to Lv65 defeating Farmer Megan's Meganium in Turn 34018)
+- **Current Condition**: 189/189 HP, Healthy (healed to full HP and PP and cured of paralysis at Maple Town Pokémon Center in Turn 34056)
 - **EXP**: Lv65 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
