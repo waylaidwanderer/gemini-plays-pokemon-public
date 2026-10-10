@@ -960,6 +960,8 @@
 - **East (`21, 10-11` <-> Route 8 `0, 8-9`)**: Seamless eastern border connecting the western road of **Route 8** into **Mulberry Town** at `(21, 10-11)` (verified Turn 34168).
 - **Mulberry Town Pokémon Center (`15, 9`, exits to `15, 10`)**: Located on the north side of the eastern entrance road (`cols 13-17, rows 5-9`). Nurse Joy at `(7, 2)` (counter at `7, 4`; healed party and registered active respawn checkpoint in Turn 34169).
 - **Mulberry Town Signboard (`6-7, 10`)**: Interacted from `(7, 11)`, reads verbatim: *"Mulberry Town / The twin of Maple"* (verified Turn 34173).
+## Story Events
+- **Frio's Wager & Round Seven Summons (`11, 18` -> `11, 17`, Turns 34175-34179)**: Stepping onto `(11, 18)` in the southern plaza triggers a cutscene with **Valora** (`12, 18`) and **Frio** (who exits the Western House at `8, 17`). Hearing about Team Siara, the stolen gems, and the underwater Location 3 signal fills Frio with terror. When the **Amor Battle Center** texts all three trainers to announce **Round Seven of the Eclipse Tournament**, Frio promises to tell Asher and Valora what he knows about the underwater location if Asher wins Round 7, and advises taking **Route 9** north to **Galinor City** to catch the Metro back to Amor City.
 
 <hr>
 
@@ -2354,6 +2356,9 @@
 ## Maple Town — Reunion with Dad & Professor Ivo & Frio's Eavesdropping (`29, 7`, Turns 34046-34049)
 - **Location 3 Underwater Briefing**: Meeting **Dad (Jackson)** and **Professor Ivo** outside the Maple Town Pokémon Center (`29, 7`), Asher and Valora learned that Professor Ivo's gladness at their reconciliation was tempered by a difficult obstacle: the third Eclite/gem signal at **Location 3** is deep underwater, and scanning the sea floor without specific clues would take too long.
 - **Frio's Recognition of the Underwater Location**: Valora and Asher spotted **Frio** eavesdropping behind Professor Ivo (`28, 12`). Recognizing the underwater place they were discussing (*"Underwater location? No... They can't be talking about that damn place..."*), Frio realized he had made eye contact with Asher and Valora and hurried west into Maple Town (`row 12`).
+## Mulberry Town — Frio's Terror, Round Seven Summons & Wager (`11, 18`, Turns 34175-34179)
+- **Confronting Frio Outside the Western House (`8, 17` -> `11, 18`)**: In the southern plaza of Mulberry Town (`11, 18`), Asher and Valora spotted **Frio** exiting the western house (`8, 17`), where he claimed to be handling personal business. When Asher and Valora explained that Team Siara had stolen two gems and that the third energy signal was at an underwater location, Frio's face was covered in terror (*"U-underwater location? Siara? Some gems?"*).
+- **Round Seven Summons & Frio's Wager**: Just as Valora pleaded with Frio for information and he hesitated, all three trainers received a HuPhone text message from the **Amor Battle Center** summoning them to **Round Seven of the Eclipse Tournament**. Frio proposed a wager: if Asher advances through Round 7, Frio will share what he knows about the underwater location (*"If you manage to get through the round, I will give you two the information you need... So make sure to win! Besides... I didn't change my mind about battling you in the Finals!"*). Before heading north, Frio advised Asher that the fastest way back to Amor City is by taking the Metro from **Galinor City** via **Route 9** (*"Going through Route 9 might be better than where you came from. Good luck... Asher..."*).
 
 <hr>
 
