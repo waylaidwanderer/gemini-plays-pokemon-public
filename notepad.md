@@ -1167,6 +1167,7 @@
   - **Ponyta** (♂, Lv27; Fire; caught in 1 Ultra Ball at `12, 12` in Turn 33933, transferred to Box 2, bringing Owned species to **70**).
   - **Yanma** (♀, Lv25; Bug/Flying; Ability: Speed Boost; knows Supersonic and Sonic Boom; caught at `20, 43` in Turn 33982, nicknamed **Anis**, transferred to Box 2, bringing Owned species to **71**).
   - **Vespiquen** (♀, Lv26; Bug/Flying; Ability: Pressure; knows Pursuit and Fury Swipes; chipped to ~34% HP with 2x Mach Punch and caught in 1 Ultra Ball at `19, 41` in Turn 34007, nicknamed **Regina**, transferred to Box 2, bringing Owned species to **72**).
+  - **Tangela** (♀, Lv30; Grass; knows Mega Drain, Stun Spore, Growth, and Amnesia; chipped to ~25% HP with 2x Bulldoze and caught in an Ultra Ball at `44, 38` in Turn 34033, nicknamed **Liana**, transferred to Box 2, bringing Owned species to **73**).
 ## Trainers & NPCs
 - **Picnicker (`14-15, 14-16`, wandering in tall grass)**: Friendly NPC wandering in the northern grass patch.
 - **Gentleman Rick (`30, 21`, facing `Right` across `31-33, 21`)**:
@@ -2345,7 +2346,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 34007)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x7** (used 1 to catch wild Lv26 Vespiquen on Route 13 at `19, 41` in Turn 34007, nicknamed **Regina** and transferred to Box 2), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **72**.
+- **Poké Balls Pocket (Audited Turn 34034)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x1** (used 6 catching wild Lv30 Tangela on Route 13 at `44, 38` in Turn 34033, nicknamed **Liana** and transferred to Box 2), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **73**.
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*

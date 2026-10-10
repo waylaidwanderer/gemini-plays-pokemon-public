@@ -8,6 +8,7 @@
   - **Ponyta** (♂, Lv27; Fire; caught in 1 Ultra Ball at `12, 12` in Turn 33933, transferred to Box 2, bringing Owned species to **70**).
   - **Yanma** (♀, Lv25; Bug/Flying; Ability: Speed Boost; knows Supersonic and Sonic Boom; caught at `20, 43` in Turn 33982, nicknamed **Anis**, transferred to Box 2, bringing Owned species to **71**).
   - **Vespiquen** (♀, Lv26; Bug/Flying; Ability: Pressure; knows Pursuit and Fury Swipes; chipped to ~34% HP with 2x Mach Punch and caught in 1 Ultra Ball at `19, 41` in Turn 34007, nicknamed **Regina**, transferred to Box 2, bringing Owned species to **72**).
+  - **Tangela** (♀, Lv30; Grass; knows Mega Drain, Stun Spore, Growth, and Amnesia; chipped to ~25% HP with 2x Bulldoze and caught in an Ultra Ball at `44, 38` in Turn 34033, nicknamed **Liana**, transferred to Box 2, bringing Owned species to **73**).
 ## Trainers & NPCs
 - **Picnicker (`14-15, 14-16`, wandering in tall grass)**: Friendly NPC wandering in the northern grass patch.
 - **Gentleman Rick (`30, 21`, facing `Right` across `31-33, 21`)**:
