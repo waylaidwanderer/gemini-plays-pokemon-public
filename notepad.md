@@ -781,6 +781,12 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Blissey (♀, Lv28; Normal; awards 1,530 EXP).
   - **Outcome & Healing Service**: Defeat quote: *"My my... I really underestimated you..."*; awards `₽112`. Speaking to her after battle prompts *"The battles up here must exhaust you a lot... Do you want me to heal your Pokémon? Yes/No"*, fully healing the party on demand (verified Turns 32793-32798).
+- **Lass Wanda (`37, 48` -> `36, 48`, rotating)**:
+  - **Pre-Battle Quote**: *"Hihi, what a cute opponent!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Roselia (♀, Lv27; Grass/Poison).
+    - **Pokémon 2**: Politoed (♀, Lv28; Water; Ability: Drizzle).
+  - **Outcome**: Defeat quote: *"And how strong"*; awards `₽1,792` (verified Turns 32804-32811; Sirius leveled up to Lv50).
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
