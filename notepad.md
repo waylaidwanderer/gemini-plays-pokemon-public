@@ -284,6 +284,14 @@
 - **The Gang Leader's Deal (`10, 36`, Turns 33824-33826)**:
   - Descending the northwestern exterior ground pit ladder (`12, 14 -> 12, 15`) onto `(10, 36)` triggers a cutscene where **Dad (Jackson)** is negotiating with the local gang leader (`Man`, a Black Belt at `12, 35`) and two Gangsters.
   - Recognizing Asher's name and reputation as a skilled Pokémon Trainer, the gang leader offers a deal: gather **3 Scrap Metals** from the more dangerous locations around the factory ruins, and he will grant Dad and Asher a free pass through his territory.
+- **Lower & Upper Staircases (`16-18, 31-33` & `16-18, 22-25`)**:
+  - From `(10, 36)`, walking east along `row 36` bypasses the gang leader (`12, 35`) and reaches the lower staircase (`16-18, 31-33`).
+  - **Furnace Alcove (`cols 19-24, rows 26-29`)**: Reached via the 1-tile gap at `(19, 30 -> 19, 29)`; contains an old furnace (`21-22, 26-27`, `"I wonder what these were used for back in the day..."`) and an indoor rugged rock at `(24, 29)`.
+  - Routing along `column 15` (`15, 30 -> 15, 26 -> 17, 26`) reaches the upper staircase (`16-18, 22-25`) to the northern terrace (`rows 18-23`).
+- **Northern Terrace (`cols 2-24, rows 18-26`, Verified Turns 33832-33835)**:
+  - **Narrow Stone Pillar (`8, 24 -> 8, 25`)**: Stepping `Down` from `(8, 23)` onto `(8, 24)` slides to `(8, 25)` directly in front of the Gold Item Ball at `(8, 26)`.
+  - **Western Rebar Beam (`3-4, 20`)**: Connects `(5, 20)` west across the pit to `(2, 20)` below the Gold Item Ball at `(2, 19)`.
+  - **Eastern Rebar Beam (`21-22, 21`)**: Connects `(20, 21)` east across the pit to `(23, 21)`.
 
 <hr>
 
