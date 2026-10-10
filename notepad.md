@@ -171,8 +171,9 @@
   - Riding up the escalator at `(6, 17)`, **Valora** spots Dawn leaving and feels a pang of jealousy (*"Yet... why is she being so close to him? I have known him way longer"*). Though she also passed Round 5, Valora avoids meeting Asher's eyes and urges him to return to Professor Ivo's laboratory immediately, automatically fast-traveling them to **`(9, 18)`** in Professor Ivo's Basement Lab in Lancio Town.
 ## Post-Round-5 Eastern Amor City & Amor City Northeast (`cols 75-92` & `64, 24` Amor Dept.)
 - **Cleared Construction Barrier (`75, 28-30`, Verified Turn 33465)**: After winning Round 5 of the Eclipse Tournament, the three construction workers at `(75, 28-30)` in Amor City South are gone, opening the main avenue east to `columns 85-86`.
-- **Eastern Northbound Avenue (`cols 85-86`, Verified Turns 33467-33475, 33520, 33560-33566)**:
-  - Runs north from `(85, 29)` to `(86, 0)` (with a streetlamp at `85, 21` and an overhead skybridge spanning `rows 16-18`). The right side (`cols 87-94`) is continuous solid border skyscrapers along the entire avenue (including at `86, 7-8`, verified Turn 33520).
+- **Eastern Northbound Avenue (`cols 85-86`, Verified Turns 33467-33475, 33520, 33560-33580)**:
+  - Runs north from `(85, 29)` to `(86, 0)` (with a streetlamp at `85, 21` and an overhead skybridge spanning `rows 16-20`).
+  - **Route 16 Gatehouse (`87, 24` -> `88, 24` <-> `1, 7`, Verified Turn 33579)**: Located on the east side of `column 86` at `rows 23-24` beneath a diagonal blue glass canopy and warm tan interior doorway light; stepping `Right` from `(87, 24)` onto `(88, 24)` warps into the **Route 16 Gatehouse** at `(1, 7)`!
   - **Decorative Building Facade (`80, 12`, Verified Turn 33473)**: Located west of `(86, 12-15)` with a wandering female Scientist at `(83-84, 12-15)`; the door at `(80, 12)` does not open.
   - **Interior Cross-Avenues (`rows 12-15`, `col 51-52`, `col 73`, Verified Turns 33559-33566)**: `rows 12-15` connects `(18, 12-13)` east to `(86, 12-15)`. `column 73` connects `(73, 13)` south to `(73, 29)`, while `column 51-52` connects `(51, 13)` north across `(51, 0)` South <-> `(51, 43)` North to `(51, 26)` in Amor City North.
 - **Amor City Northeast (`86, 0` South <-> `86, 43` North, Verified Turns 33475-33563)**:
