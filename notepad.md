@@ -1210,6 +1210,11 @@
     - **Pokémon 1**: Golem (Lv36; Rock/Ground; Ability: Sturdy; knows Self-Destruct; fainted in Turn 33996).
     - **Pokémon 2**: Gigalith (♀, Lv37; Rock; Ability: Sand Stream; OHKO'd by Sirius's `Aura Sphere` for `1402 EXP` in Turn 33999).
   - **Outcome**: Defeated in Turns 33995-34000 (*"Oh, I almost slipped"*).
+- **Farmer Megan (`47, 43`, facing `Left` in the eastern wheat field)**:
+  - **Pre-Battle Quote**: *"Heyy, wanna fight in the crops?"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Meganium (♂, Lv38; Grass; OHKO'd by Sirius's `Meteor Mash` for `1693 EXP` in Turn 34018, leveling Sirius to Lv65).
+  - **Outcome**: Defeated in Turns 34015-34019.
 ## Items
 - **Stick x1 (`25, 35`)**: Collected from the golden item ball at `(25, 35)` in the western wheat field (interacted from `26, 35`; verified Turn 33966).
 - **Hyper Potion x1 (`8, 30`)**: Collected from the purple spray-bottle sprite at `(8, 30)` in the western green canyon nook below the `(10, 26-28)` staircase (interacted from `8, 29`; verified Turn 34001).
@@ -2462,12 +2467,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv64
+- **Level**: Lv65
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 186), Attack (C+, 175), Defense (A-, 169), Sp. Atk (C-, 163), Sp. Def (E, 111), Speed (C-, 115)
-- **Current Condition**: 186/186 HP, Healthy (healed to full HP and PP at Western Amor City Pokémon Center in Turn 33913; leveled up to Lv64 defeating Farmer Omar's Tauros in Turn 33965)
-- **EXP**: Lv64 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966)
+- **Stats (IV Grades)**: HP (C, 189), Attack (C+, 177), Defense (A-, 171), Sp. Atk (C-, 165), Sp. Def (E, 112), Speed (C-, 117)
+- **Current Condition**: 139/189 HP, Healthy (healed to full HP and PP at Western Amor City Pokémon Center in Turn 33913; leveled up to Lv65 defeating Farmer Megan's Meganium in Turn 34018)
+- **EXP**: Lv65 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)

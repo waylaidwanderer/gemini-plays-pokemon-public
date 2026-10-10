@@ -51,6 +51,11 @@
     - **Pokémon 1**: Golem (Lv36; Rock/Ground; Ability: Sturdy; knows Self-Destruct; fainted in Turn 33996).
     - **Pokémon 2**: Gigalith (♀, Lv37; Rock; Ability: Sand Stream; OHKO'd by Sirius's `Aura Sphere` for `1402 EXP` in Turn 33999).
   - **Outcome**: Defeated in Turns 33995-34000 (*"Oh, I almost slipped"*).
+- **Farmer Megan (`47, 43`, facing `Left` in the eastern wheat field)**:
+  - **Pre-Battle Quote**: *"Heyy, wanna fight in the crops?"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Meganium (♂, Lv38; Grass; OHKO'd by Sirius's `Meteor Mash` for `1693 EXP` in Turn 34018, leveling Sirius to Lv65).
+  - **Outcome**: Defeated in Turns 34015-34019.
 ## Items
 - **Stick x1 (`25, 35`)**: Collected from the golden item ball at `(25, 35)` in the western wheat field (interacted from `26, 35`; verified Turn 33966).
 - **Hyper Potion x1 (`8, 30`)**: Collected from the purple spray-bottle sprite at `(8, 30)` in the western green canyon nook below the `(10, 26-28)` staircase (interacted from `8, 29`; verified Turn 34001).
