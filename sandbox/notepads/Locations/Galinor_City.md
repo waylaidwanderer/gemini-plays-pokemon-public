@@ -9,4 +9,5 @@
   - **Quest #10 Provider ("Push it!", `54, 41`)**: Sailor with a side-quest icon standing among the green shipping containers at `(54, 41)` (verified Turn 33043).
 - **Galinor Cargo Loading Bay (`48, 32` Signboard & `cols 46-48, rows 15-31` Bridge)**:
   - **Signboard (`48, 32`)**: Interacted from `(48, 33)`, reads verbatim: *"Galinor Cargo Loading Bay"* (verified Turn 33044).
-  - **Wooden Bridge (`cols 46-48, rows 15-31`)**: Connects north from `(47, 32)` across the channel onto the **Galinor Cargo Loading Bay** pier.
+  - **Wooden Bridge (`cols 46-48, rows 15-31`)**: Connects north from `(47, 32)` across the channel onto the northern headland (`47, 12`), where a dirt path runs west along `rows 11-12`.
+  - **Northern Headland Sailor (`32, 11`) & Dive Ball (`35, 6`)**: Sailor at `(32, 11)` stands beside a round boulder (`31, 9`) and shipping containers (*"Whew... lifting this was a real workout... / Haha, you should see the surprised look on your face! / Nah, we lift these containers with the help of Pokémon and equipment from the cargo ships."*, verified Turn 33048). Walking north up the 1-tile gap at `column 35` (`35, 11 -> 35, 7`) to the item ball at **`(35, 6)`** yields **Dive Ball x1** (verified Turn 33048).
