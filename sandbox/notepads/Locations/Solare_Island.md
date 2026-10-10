@@ -75,4 +75,8 @@
       1. **Lapras♂ Lv32** (Water/Ice; OHKO'd by Sirius's `Aura Sphere` for `1501 EXP` in Turn 33376).
       2. **Shiftry♀ Lv33** (Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1279 EXP` in Turn 33378).
       3. **Zoroark♂ Lv32** (Dark; OHKO'd by Sirius's `Mach Punch` for `1440 EXP` in Turn 33380, leveling Sirius to Lv56).
-      4. **Eclipsed Vikavolt♂ Lv33** (holds `Leftovers`, uses `Discharge` and the priority signature move **`Eclipse Zap`**, features a purple Eclipse HP bar phase, and is **weak to Electric-type moves** [`2x` super-effective from Vega's `Spark`, verified Turn 33390]; Harry also uses up to 2 healing items when Eclipsed Vikavolt drops into low red HP; verified Turns 33384-33394).
+      4. **Eclipsed Vikavolt♂ Lv33** (holds `Leftovers`, uses `Discharge` and the priority signature move **`Eclipse Zap`**, features a purple Eclipse HP bar phase, is **weak to Electric-type moves** [`2x` super-effective from Vega's `Spark`, verified Turn 33390], and **double-resists Fighting-type moves** [`0.25x` from `Aura Sphere`, dealing ~14% HP, verified Turn 33416]; OHKO'd from 94% HP by Lv56 Sirius's `+1 Attack` STAB `Meteor Mash` for `1378 EXP` in Turn 33417, defeating Siara Admin Harry for `₽3960`!).
+  - **Helicopter Escape & Post-Battle Cutscene (`14, 16-18`, Turns 33418-33421)**:
+    - Upon defeat, **Siara Admin Harry** remarked: *"Seeing Marie's own son fight for his Dad... What an honor I must say"*.
+    - **Marie ("Mom")** ordered the grunts to get to business, and a helicopter hovered above the Inner Shrine and dropped a ladder. The grunts took the mysterious gem from the altar (`14, 14`, revealing a fifth **Hupestian Wall Symbol & Hole** on the altar wall behind the pedestal) and escaped with Marie and Harry.
+    - As **Dad (Jackson)** regained consciousness and wondered how Harry could betray him, **Professor Ivo** noted that *"Harry isn't someone who would betray a friend just like that..."*.
