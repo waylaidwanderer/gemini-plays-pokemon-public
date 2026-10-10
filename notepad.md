@@ -156,7 +156,8 @@
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Octillery (♂, Lv32; Water; OHKO'd by Sirius's `Aura Sphere` for `1123 EXP`).
     - **Pokémon 2**: Gyarados (♂, Lv32; Water/Flying; Ability: Intimidate; knows Leer; 2HKO'd by Sirius's `Aura Sphere` for `1467 EXP`).
-    - **Pokémon 3**: Sharpedo (♂, Lv33; Water/Dark; OHKO'd by Sirius's non-contact `Aura Sphere`).
+    - **Pokémon 3**: Sharpedo (♂, Lv33; Water/Dark; OHKO'd by Sirius's non-contact `Aura Sphere` for `1237 EXP`).
+  - **Outcome**: Defeat quote: *"We... we failed buddy."*; awards `₽1,188`, while Sinnoh's **Barry** defeated Black Belt Adam on the opposite side of the bracket (verified Turns 33436-33439).
 
 <hr>
 
