@@ -2,7 +2,7 @@
 
 ## Geography & Connections
 - **South (`6-7, 39` <-> Mulberry Town `4-5, 0`)**: Seamless southern border connecting the northern sandy trail of **Mulberry Town** onto **Route 9** at `(6-7, 39)` (verified Turn 34196).
-- **East (`66, 19-20` <-> Galinor City)**: Seamless eastern border connecting **Route 9** into **Galinor City**, marked by the wooden signboard at `(63-64, 18)` (interacted from `64, 19`), which reads verbatim: *"Galinor City / ----->"* (verified Turn 34250).
+- **East (`71, 19-20` <-> Galinor City `0, 59-60`)**: Seamless eastern border connecting **Route 9** into **Galinor City** at `(0, 59-60)` (verified Turn 34252), marked by the wooden signboard at `(63-64, 18)` (interacted from `64, 19`), which reads verbatim: *"Galinor City / ----->"* (verified Turn 34250).
 - **Southwestern Tall Grass & Staircase (`cols 1-8, rows 27-36`)**:
   - **Patrolling Black Belt (`3, 27-30`)**: Patrols north and south through the western tall grass.
   - **Side-Facing Wooden Staircase (`8, 31-34`)**: Climbs east from `(7, 32)` onto the eastern rocky plateau at `(9, 31-32)` (verified Turn 34198).

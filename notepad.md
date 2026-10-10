@@ -566,6 +566,7 @@
 
 ## Geography & Connections
 - **East (`69, 48-49` <-> Route 11 Main `0, 20-21`)**: Seamless map border connecting the western approach of **Galtino Bridge (Route 11)** onto the eastern trail of **Galinor City** at `(69, 48-49)` (verified Turn 33037).
+- **West (`0, 59-60` <-> Route 9 `71, 19-20`)**: Seamless western boulevard border connecting **Route 9** into **Galinor City** at `(0, 59-60)` (verified Turn 34252).
 - **Town Signboard (`52-53, 46`)**: Interacted from `(53, 47)`, reads verbatim: *"Galinor City / The luxury resort city"* (verified Turn 33039).
 - **Eastern Arrival Cutscene (`47, 47`, Turn 33041)**: Stepping west onto `(47, 47)` triggers a cutscene with **Valora** and a HuPhone text message from **Dad** instructing Asher and Valora to find **Harry** waiting for them at the **Cargo Loading Bay**.
 - **Cargo Container Yard (`cols 43-59, rows 35-45`)**:
@@ -1655,7 +1656,7 @@
 
 ## Geography & Connections
 - **South (`6-7, 39` <-> Mulberry Town `4-5, 0`)**: Seamless southern border connecting the northern sandy trail of **Mulberry Town** onto **Route 9** at `(6-7, 39)` (verified Turn 34196).
-- **East (`66, 19-20` <-> Galinor City)**: Seamless eastern border connecting **Route 9** into **Galinor City**, marked by the wooden signboard at `(63-64, 18)` (interacted from `64, 19`), which reads verbatim: *"Galinor City / ----->"* (verified Turn 34250).
+- **East (`71, 19-20` <-> Galinor City `0, 59-60`)**: Seamless eastern border connecting **Route 9** into **Galinor City** at `(0, 59-60)` (verified Turn 34252), marked by the wooden signboard at `(63-64, 18)` (interacted from `64, 19`), which reads verbatim: *"Galinor City / ----->"* (verified Turn 34250).
 - **Southwestern Tall Grass & Staircase (`cols 1-8, rows 27-36`)**:
   - **Patrolling Black Belt (`3, 27-30`)**: Patrols north and south through the western tall grass.
   - **Side-Facing Wooden Staircase (`8, 31-34`)**: Climbs east from `(7, 32)` onto the eastern rocky plateau at `(9, 31-32)` (verified Turn 34198).
