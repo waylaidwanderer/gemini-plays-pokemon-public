@@ -389,6 +389,13 @@
 ## Geography & Connections
 - **Southern Entrance (`10-12, 39` <-> Route 12 Main `10-12, 0`)**: Seamless transition at the southern lantern-lined path (`cols 10-12, row 39`) from the northern gateway arch of **Route 12 Main** (`10-12, 0`, verified Turn 32903).
 
+## Landmarks, Facilities & Key Events
+- **Jarro Town Pokémon Center (`14, 28`)**: Located along the southern entrance avenue (`col 11 -> row 29 -> 14, 28`).
+  - **Encounter with Sinnoh Champion Cynthia (`14, 29` -> `14, 30`, Turns 32905-32911+)**: Stepping onto `(14, 29)` outside the Pokémon Center door triggers a cutscene where **Cynthia**, Champion of the Sinnoh Region, exits the Pokémon Center (`14, 29`). She explains that she was invited as a special guest to watch the **Eclipse Tournament**, came to Jarro Town to visit the **Ancient Hupestian Ruins**, and noticed Asher's battles as having greater potential than even the other standout competitors (Frio and Valora).
+- **Town Signboard (`17-18, 28`)**: Located immediately east of the Pokémon Center.
+- **Southern Entrance Woman NPC (`16, 31`)**: Standing beside the lamppost southeast of the Pokémon Center.
+- **Old Gentleman & Zangoose (`20, 28` & `21, 28`)**: Standing outside the wooden cabin east of the Pokémon Center.
+
 <hr>
 
 <h1><code>Locations/Lancio_Town</code></h1>
@@ -708,6 +715,7 @@
 ## Wild Pokémon
 - **Teddiursa**: Encountered at Lv17 (♂, Normal) in the tall grass at `(18, 97)` on Route 12 Main (caught in a Poké Ball, nicknamed **Ursa**, and transferred to Box 2 as 62nd Owned species in Turns 32652-32654).
 - **Staravia**: Encountered at Lv17 (♂, Normal/Flying) at `(29, 85)` and Lv19 (♀) at `(18, 54)` in the tall grass on Route 12 Main (verified Turns 32700 & 32802).
+- **Spearow**: Encountered at Lv17 (♀, Normal/Flying) at `(22, 44)` and Lv18 (♀) at `(29, 14)` in the tall grass on Route 12 Main (verified Turns 32834 & 32884).
 ## Trainers, Landmarks & Items (Route 12 Main)
 - **Side-Quest Provider NPC (`16, 75` — Quest #8 "Valentines Gift")**: Chubby boy in blue overalls standing on the upper cliff plateau at `(16, 75)` (reached via the overhead bridge `35, 69 -> 18, 69` and western path `13, 70-73 -> 14, 73 -> 15, 74-75`). Accepting his quest (*"I made a bonquet of different flowers for the girl I like, but on my way to Amor City to visit her, wind made my flowers fly away... I think there is six missing... I'll look for three, I will leave the other three to you!"*, Turn 32745) tasks the player with finding 3 missing flowers (`Flower 1`, `Flower 2`, `Flower 3`, which use standard red/white Poké Ball item sprites):
   - **Flower 3 (`18, 47`)**: Standard Poké Ball sprite tucked in the tree nook south of the `(16, 43-45)` side-facing staircase (collected from `18, 46` into Key Items Pocket in Turn 32835).
@@ -1651,6 +1659,8 @@
 - **Post-Round-3 HuPhone Message from Professor Ivo (`11, 11`, Turns 32554-32556)**:
   - Stepping north onto `(11, 11)` in the Tournament Arena Lobby after winning Round 3 triggers a HuPhone text message from **Professor Ivo**: *"Hey, Asher! I heard Round 3 has ended, I hope you are still going strong! Anyway, I would like you to meet me in Jarro Town. There's something really interesting I would like to show you! You can reach the town from Route 12. The exit to the route is the most northerly tunnel in Amor, I'm on my way there too. See you there!"*.
   - Asher decides to text Valora and head to **Jarro Town** via **Route 12** (accessed through the northernmost tunnel in Amor City).
+## Jarro Town — Sinnoh Champion Cynthia & The Ancient Hupestian Ruins
+- **Encounter Outside the Jarro Town Pokémon Center (`14, 29` -> `14, 30`, Turns 32905-32911+)**: Upon arriving in snowy **Jarro Town** via Route 12 and approaching the Pokémon Center (`14, 29`), Asher bumped into **Cynthia**, Champion of the Sinnoh Region. Cynthia shared that she was invited as a special guest to watch the **Eclipse Tournament**, traveled to Jarro Town because of the **Ancient Hupestian Ruins**, and praised Asher's battle style and potential above the other notable competitors (whom Asher recognized as Frio and Valora).
 
 <hr>
 

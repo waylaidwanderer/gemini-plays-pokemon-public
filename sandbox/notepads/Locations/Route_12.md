@@ -9,6 +9,7 @@
 ## Wild Pokémon
 - **Teddiursa**: Encountered at Lv17 (♂, Normal) in the tall grass at `(18, 97)` on Route 12 Main (caught in a Poké Ball, nicknamed **Ursa**, and transferred to Box 2 as 62nd Owned species in Turns 32652-32654).
 - **Staravia**: Encountered at Lv17 (♂, Normal/Flying) at `(29, 85)` and Lv19 (♀) at `(18, 54)` in the tall grass on Route 12 Main (verified Turns 32700 & 32802).
+- **Spearow**: Encountered at Lv17 (♀, Normal/Flying) at `(22, 44)` and Lv18 (♀) at `(29, 14)` in the tall grass on Route 12 Main (verified Turns 32834 & 32884).
 ## Trainers, Landmarks & Items (Route 12 Main)
 - **Side-Quest Provider NPC (`16, 75` — Quest #8 "Valentines Gift")**: Chubby boy in blue overalls standing on the upper cliff plateau at `(16, 75)` (reached via the overhead bridge `35, 69 -> 18, 69` and western path `13, 70-73 -> 14, 73 -> 15, 74-75`). Accepting his quest (*"I made a bonquet of different flowers for the girl I like, but on my way to Amor City to visit her, wind made my flowers fly away... I think there is six missing... I'll look for three, I will leave the other three to you!"*, Turn 32745) tasks the player with finding 3 missing flowers (`Flower 1`, `Flower 2`, `Flower 3`, which use standard red/white Poké Ball item sprites):
   - **Flower 3 (`18, 47`)**: Standard Poké Ball sprite tucked in the tree nook south of the `(16, 43-45)` side-facing staircase (collected from `18, 46` into Key Items Pocket in Turn 32835).
