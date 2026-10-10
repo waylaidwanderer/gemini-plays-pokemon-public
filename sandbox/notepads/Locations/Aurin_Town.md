@@ -7,3 +7,9 @@
 - **Southern Peninsula (`cols 21-31, rows 22-30`)**:
   - Shoreline landing along `column 22` (`rows 26-30`) with a wandering Bug Catcher at `(22-26, 28-30)`.
   - Northern cove inlet at `(27, 23)` leads ashore to `(27, 24-25)` in front of an item ball at `(27, 26)` containing **Net Ball x1** (collected Turn 33661).
+- **Eastern Peninsula Landing & Wooden Bridge (`cols 32-44, rows 23-32`)**:
+  - Shoreline landing at `(32, 23)` -> `(32, 24)` leads past tall grass (`28-34, 27-30`) to a wooden bridge at `(37-41, 27-29)`.
+  - **Cooltrainer Alan (`39, 27`, facing `Down` on the wooden bridge)**:
+    - **Pre-Battle Quote**: *"You crossed the water, right? / You must be a skilled Trainer!"*
+    - **Team (3 Pokémon)**: Manectric (♂, Lv34; Electric), Gastrodon (♂, Lv35; Water/Ground; `1245 EXP`), and Feraligatr (♀, Lv34; Water; knows Scary Face; `1530 EXP`).
+    - **Outcome**: Defeated in Turns 33676-33687 (*"Maybe too skilled"*; awards `₽2,100`).
