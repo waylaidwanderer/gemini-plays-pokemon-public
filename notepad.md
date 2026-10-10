@@ -1043,6 +1043,9 @@
 ## Eastern Bridge Signboard (`65-66, 22`)
 - **Bridge Signboard (`65-66, 22`)**: Interacted from `(65, 23)`, reads verbatim: *"Route 16 / Use the bridge for your own responsibility!"* (verified Turn 33623).
 - **Wandering Traveler (`66-67, 23-24`)**: Non-hostile wandering overworld NPC near the signboard.
+## Eastern Cliffside & Collapsed Bridge (`cols 71-80, rows 8-24`)
+- **Wooden Staircase (`72-74, 17-20`)**: Connects the lower meadow (`72-74, 21`) to the upper cliffside (`72-74, 16`).
+- **Dad & FastSwift Service App Cutscene (`76, 12`, Turns 33627-33630)**: Stepping onto the narrow wooden plank at `(76, 12)` triggers a cutscene where Asher sees the bridge to **Aurin Town** has collapsed from a storm, and **Dad (Jackson)** joins him (`76, 13`) and gives Asher the **FastSwift** service app on his HuPhone (*"When facing a body of water, press the 'A Button' to surf."*).
 
 <hr>
 
@@ -1991,6 +1994,9 @@
 - **Splitting into Two Teams (`9, 18` in Ivo's Basement Lab -> Amor City `59, 27`, Turns 33461-33464)**:
   - In Professor Ivo's Basement Lab, Ivo showed on the World Map that they pinpointed the exact position of **Location 2** (east of Amor City) and that its energy signal has grown strong again, while **Location 3** (another offshore island) still emits a weaker signal in a general area.
   - Ivo and Jackson decided to split into two teams: **Professor Ivo and Valora** headed offshore to investigate **Location 3**, while **Dad (Jackson) and Asher** teamed up to tackle the more dangerous **Location 2**, which Dad explained can be reached via **Route 16** from Amor City, automatically warping Asher to **`(59, 27)`** outside the Amor City Battle Centre.
+## Route 16 Collapsed Bridge — Dad & The FastSwift Service App (`76, 12`, Turns 33627-33630)
+- **The Collapsed Bridge to Aurin Town (`76, 12`)**: At the eastern cliffside of Route 16 (`76, 12`), Asher discovered that the wooden bridge across the water had collapsed. **Dad (Jackson)** climbed up to join him (`76, 13`), noting that a storm had torn the bridge apart and explaining that **Aurin Town** lies on the other side of the water (*"It's not the friendliest place in the region, but we got no choice."*).
+- **The FastSwift Service App (Surfing Mechanic)**: To cross the water without the bridge, Dad gave Asher the **FastSwift** service app on his **HuPhone**, which rents an inflatable boat to surf across any body of water by pressing the **A Button** while facing water (*"Asher obtained the FastSwift service app on his HuPhone! / When facing a body of water, press the 'A Button' to surf."*).
 
 <hr>
 
@@ -2147,6 +2153,8 @@
 - **Side-Facing Wooden Staircase Collision (`3-Tile Tall Graphic`)**: On 3-tile tall side-facing wooden staircases (such as `25, 22-24` in Destino Mine 2F), the tile adjacent to the top railing (`24, 22`) has solid cliff collision; approach along the row aligned with the middle step (`24, 23 -> 25, 23`), which automatically steps diagonally onto the top step (`25, 22`; verified Turns 32379-32380).
 - **Samurion City Pokémon Center Exit Routing**: Stepping `Down` off `(7, 8)` inside the Samurion City Pokémon Center requires `sleep 2500` for the door warp to settle at `(23, 48)`, followed by `Right 2` to `(25, 48)` -> `Down 1` to `(25, 49)` -> `Right 3` to `(28, 49)` to bypass the Pokémon Center window (`24, 47`) and southern house roof peak (`24, 50`) (verified Turns 31757-31760).
 - **In-Battle X-Item Dismissal & Consecutive Destiny Bond Mechanic (Verified Turns 33129-33130)**: Using a stat-boosting item (`X Special`) from the Bag in battle prints `"<Pokémon>'s <Stat> rose!▼"` inside the Bag screen, which requires an explicit `A`/`B` press before closing the Bag and executing the opponent's turn. Unlike Gen 7+, consecutive `Destiny Bond` does NOT fail in this engine build (verified when a Siara Grunt's Wobbuffet successfully used `Destiny Bond` on consecutive turns in Turns 33126 and 33130).
+## FastSwift Service App (Overworld Surfing Mechanic)
+- **FastSwift App (`76, 12` on Route 16, Turn 33629)**: Gifted by Dad (Jackson) on Route 16 when the bridge to Aurin Town is found collapsed. Installs the **FastSwift** service app on the **HuPhone**, allowing the player to rent an inflatable boat and surf across any body of water simply by pressing **`A`** when facing a water tile (no HM Surf move slot required).
 
 <hr>
 

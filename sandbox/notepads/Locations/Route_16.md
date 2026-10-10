@@ -27,3 +27,6 @@
 ## Eastern Bridge Signboard (`65-66, 22`)
 - **Bridge Signboard (`65-66, 22`)**: Interacted from `(65, 23)`, reads verbatim: *"Route 16 / Use the bridge for your own responsibility!"* (verified Turn 33623).
 - **Wandering Traveler (`66-67, 23-24`)**: Non-hostile wandering overworld NPC near the signboard.
+## Eastern Cliffside & Collapsed Bridge (`cols 71-80, rows 8-24`)
+- **Wooden Staircase (`72-74, 17-20`)**: Connects the lower meadow (`72-74, 21`) to the upper cliffside (`72-74, 16`).
+- **Dad & FastSwift Service App Cutscene (`76, 12`, Turns 33627-33630)**: Stepping onto the narrow wooden plank at `(76, 12)` triggers a cutscene where Asher sees the bridge to **Aurin Town** has collapsed from a storm, and **Dad (Jackson)** joins him (`76, 13`) and gives Asher the **FastSwift** service app on his HuPhone (*"When facing a body of water, press the 'A Button' to surf."*).
