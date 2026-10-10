@@ -11,8 +11,13 @@
   - **Pokémon Move Maniac / Move Reminder (`44, 8`)**: Female Farmer who teaches forgotten level-up moves in exchange for **two TinyMushrooms** or **one Big Mushroom** (*"I'm the Pokémon Move Maniac. I know every single move that Pokémon learn growing up. I'm also a mushroom maniac. Bring me two Tinymushrooms, or one Big Mushroom."*, verified Turn 34067).
   - **Move Deleter (`44, 6`)**: Male Farmer behind the Move Maniac whose herbs make Pokémon forget moves (*"Hi! My herbs can delete moves! I can make Pokémon forget their moves."*, verified Turn 34068).
 - **Maple Farm Signpost (`20, 15`)**: Interacted from `(20, 16)` beside the broken fence twigs (`21, 14-15`), reads verbatim: *"Maple Farm"* (verified Turn 34071).
+- **Southern Maple Town Courtyard (`cols 12-27, rows 18-27`)**:
+  - **Eastern House (`25, 23`, interior exit mat at `21-22, 10`)**: Contains a male Farmer at `(19, 5)`, a female Farmer at `(23, 5)`, a wandering Persian (`16-18, 5-6`), and a northern staircase (`18, 2-3`).
+  - **Western House (`15, 23`)**: Reached from the central avenue via the log fence gap at `(18, 24)` -> `(17, 24)` -> walkable wheat top-tips `(17, 25) -> (15, 25)` -> `(15, 24) -> (15, 23)` (bypassing the solid wheat stalk at `16, 22-24`).
+  - **Southeastern Road (`cols 20-27+, rows 25-26`)**: Branches east from `(20, 25-26)` south of the Eastern House.
 - **Townsfolk & NPCs**:
   - **Female Farmer (`16-17, 18`)**: *"Maple Town provides a huge portion of Hupest's food supplies"* (verified Turn 34071).
+  - **Male Farmer (`9-10, 15-16`)**: *"Only the best of quality here, when it comes to the crops."* (verified Turn 34073).
 
 ## Story Events
 - **Reunion with Dad, Professor Ivo & Valora & Frio's Eavesdropping (`29, 7`, Turns 34046-34049)**: Stepping south onto `(29, 7)` triggers the reunion cutscene with Valora (`28, 7`), Dad (`28, 9`), and Professor Ivo. When Professor Ivo explains that the third energy signal is underwater and they need specific clues to locate it, Valora and Asher spot **Frio** eavesdropping at `(28, 12)`. Frio recognizes the underwater location (*"Underwater location? No... They can't be talking about that damn place..."*), realizes he made eye contact with them, and walks west into Maple Town along `row 12`.
