@@ -238,6 +238,9 @@
   - **Fossil Resurrection Lab (`32, 32` -> `55, 10`)**:
     - **Explorer (`59, 7`)**: *"Hello there, Trainer! Tell me, do you like fossils? Ancient life? Now you can enjoy both! With this great machine, you can revive ancient Pokémon from fossils! Just use the computer there"* (verified Turn 33740).
     - **Fossil Revival Computer (`56, 4`, interacted from `56, 5` facing `Up`)**: Blue computer terminal connected to the green bio-tank (`58-59, 4-5`); prompts *"Would you like to revive a fossil? Yes/No"* (verified Turn 33742).
+- **Aur Factory Gatehouse (`14, 3-5` -> `14, 0` <-> `14, 39` in Aur Factory, Verified Turns 33751-33754)**:
+  - **Parasol Lady (`13, 5`)**: *"Pokémon are acting so weird in the old factory's area!"* (verified Turn 33752).
+  - Walking north through the open gatehouse doorway (`14, 4 -> 14, 0`) transitions seamlessly onto `(14, 39)` in **Aur Factory**.
 
 <hr>
 
