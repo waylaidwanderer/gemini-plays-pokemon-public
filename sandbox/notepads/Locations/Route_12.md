@@ -67,3 +67,8 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Bouffalant (♂, Lv28; Normal).
   - **Outcome**: Defeated in Turns 32714-32718; awards `₽1,120`.
+- **Hiker Abid (`21, 68`, facing South on overhead wooden bridge)**:
+  - **Pre-Battle Quote**: *"Haha be careful not to fall while we battle!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Lairon (♂, Lv27; Steel/Rock; Ability: Sturdy; knows Protect, Roar, and Take Down).
+  - **Outcome**: In progress (Turns 32721-32731).
