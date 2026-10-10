@@ -52,6 +52,7 @@
   - **Outcome**: Defeated in Turns 33995-34000 (*"Oh, I almost slipped"*).
 ## Items
 - **Stick x1 (`25, 35`)**: Collected from the golden item ball at `(25, 35)` in the western wheat field (interacted from `26, 35`; verified Turn 33966).
+- **Hyper Potion x1 (`8, 30`)**: Collected from the purple spray-bottle sprite at `(8, 30)` in the western green canyon nook below the `(10, 26-28)` staircase (interacted from `8, 29`; verified Turn 34001).
 - **Western Cliff Ridge Item (`15, 43`)**: Item ball on the southern ledge of the western cliff ridge, gated by the rugged rock at `(15, 39)` (`latest_grid.png` Turns 33976 & 33987).
 ## Spatial & Terrain Mechanics
 - **Wheat Field Crop Row Collision**: In the Route 13 wheat fields, the lower/middle stalks of the vertical wheat rows (`29-32, 33-36` and `25-27, 28-34`) have solid wall collision, while the top-tip rows (`row 32` at `28-32, 32`, `row 35` at `25-28, 35`, and `row 39` at `30-35, 39`) and green grass aisles (`column 28` and `columns 33-36`) are walkable (verified Turns 33961-33975).
