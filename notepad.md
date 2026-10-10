@@ -260,6 +260,8 @@
   - **Team (2 Pokémon)**: Toxicroak (♂, Lv35; Poison/Fighting; `1290 EXP`) and Cacturne (♂, Lv35; Grass/Dark; `1327 EXP`).
   - **Outcome**: Defeated in Turns 33767-33772 (`"..."`).
 - **Rebar Pit Beams (`27-28, 24`)**: While `(27-28, 23)` and `(27-28, 25)` of the indoor floor pit are impassable, the horizontal metal rebar beam across `row 24` (`27-28, 24`) is walkable and connects `(26, 24)` directly to `(29, 24)` (verified Turn 33776).
+- **Eastern Rebar Pit (`34-36, 23-24`) & Central Staircase (`30-32, 19-22`)**: East of the first rebar pit (`27-28, 24`) lies an indoor tall grass patch (`30-33, 23-25`), a second rebar-bridged floor pit at `(34-36, 23-24)` (leading to a capsule item sprite at `38, 24`), and a wide staircase at `(30-32, 19-22)` ascending to the upper platform (`rows 14-21`).
+- **Upper Platform Landmarks (`cols 22-38, rows 14-21`)**: Features a wandering **Explorer** at `(22-24, 19-20)`, an **Item Ball** at `(22, 21)`, a rugged rock at `(37, 17)`, and a second **Gangster** at `(29, 17)` facing `Down`.
 
 <hr>
 
