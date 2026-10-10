@@ -198,4 +198,12 @@
     - **Pokémon 2**: Manectric (♂, Lv35; Electric; OHKO'd by Sirius's `Bulldoze` for `1260 EXP`, leveling Sirius to Lv62).
     - **Pokémon 3**: Porygon-Z (Lv36; Normal; OHKO'd by Sirius's `Mach Punch` for `1426 EXP`).
     - **Pokémon 4**: Cryogonal (Lv35; Ice; OHKO'd by Sirius's `Mach Punch` for `1350 EXP`).
-  - **Outcome**: Defeated in Turns 33872-33879.
+  - **Outcome**: Defeated in Turns 33872-33879 (`"Very, very impressive..."`; awards `₽1,728`).
+- **Match 2 (Semifinals — Sailor Kyle)**:
+  - **Pre-Battle Quote**: *"Let me show you what I learned as being part of the marine!"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Pelipper (♀, Lv35; Water/Flying; knows Shock Wave; 2HKO'd by Sirius's `Aura Sphere` for `1230 EXP`).
+    - **Pokémon 2**: Machamp (♂, Lv36; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1488 EXP`).
+    - **Pokémon 3**: Whiscash (♀, Lv35; Water/Ground; OHKO'd by Sirius's `Aura Sphere` for `1185 EXP`).
+    - **Pokémon 4**: Poliwrath (♀, Lv36; Water/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1426 EXP`).
+  - **Outcome**: Defeated in Turns 33884-33889 (*"All those years... / To lose to a kid?!"*; awards `₽2,016`).
