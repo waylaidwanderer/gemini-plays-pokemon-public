@@ -13,7 +13,7 @@
 
 ## Wild Pokémon Encounters
 - **Tall Grass (`40-50, 22-28` & `25-32, 21-28`)**:
-  - **Floette** (♀, Lv27, Red Flower; Fairy; knows Wish and Magical Leaf; encountered at `25, 23` in Turn 34115).
+  - **Floette** (♀, Lv27, Red Flower; Fairy; knows Wish and Magical Leaf; caught at full HP in 3 Ultra Balls at `25, 23` in Turn 34119, nicknamed **Camellia**, transferred to Box 2, bringing Owned species to **74**).
 
 ## Trainers & NPCs
 - **Wandering Farmer (`47-48, 22-24`)**: Friendly NPC wandering above the eastern tall grass patch (`40-50, 22-28`).
