@@ -761,7 +761,8 @@
   - **Pre-Battle Quote**: *"Haha be careful not to fall while we battle!"*
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Lairon (♂, Lv27; Steel/Rock; Ability: Sturdy; knows Protect, Roar, and Take Down).
-  - **Outcome**: In progress (Turns 32721-32731).
+    - **Pokémon 2**: Dugtrio (♂, Lv27; Ground).
+  - **Outcome**: Defeat quote: *"I'm the one who's gonna fall!"* (verified Turns 32721-32737; Sirius leveled up to Lv49).
 
 <hr>
 
