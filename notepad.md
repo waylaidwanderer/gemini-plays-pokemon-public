@@ -952,6 +952,16 @@
 
 <hr>
 
+<h1><code>Locations/Mulberry_Town</code></h1>
+
+# Mulberry Town (Bugiaret Island)
+
+## Geography & Connections
+- **East (`21, 10-11` <-> Route 8 `0, 8-9`)**: Seamless eastern border connecting the western road of **Route 8** into **Mulberry Town** at `(21, 10-11)` (verified Turn 34168).
+- **Mulberry Town Pokémon Center (`14, 9`)**: Located on the north side of the eastern entrance road (`cols 12-16, rows 5-9`).
+
+<hr>
+
 <h1><code>Locations/Route_1</code></h1>
 
 # Route 1
@@ -1571,7 +1581,7 @@
 
 ## Geography & Connections
 - **East (`59, 20-21` <-> Maple Town `0, 16-17`)**: Seamless eastern border connecting the western road of **Maple Town** onto **Route 8** at `(59, 20-21)` (verified Turn 34089).
-- **West (`0, 8-9` <-> Mulberry Town)**: Seamless western border road leading into **Mulberry Town**, marked by the wooden signboard at `(1-2, 8)` (interacted from `1, 9`), which reads verbatim: *"Mulberry Town / <-----"* (verified Turn 34167).
+- **West (`0, 8-9` <-> Mulberry Town `21, 10-11`)**: Seamless western border road leading into **Mulberry Town** (`21, 10-11`, verified Turn 34168), marked by the wooden signboard at `(1-2, 8)` (interacted from `1, 9`), which reads verbatim: *"Mulberry Town / <-----"* (verified Turn 34167).
 - **Eastern Signboard (`52-53, 20`)**: Interacted from `(53, 21)`, reads verbatim: *"Route 8 / The path to Mulberry"* (verified Turn 34090).
 - **Eastern Plateau & Ledge Bypass (`cols 31-39, rows 15-27`)**:
   - A one-way east-facing ledge at `(36, 24-27)` blocks direct westbound ground travel along `rows 24-27`.
