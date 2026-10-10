@@ -1671,7 +1671,7 @@
 - **Back Layout**: Displays 6 dark badge/crest silhouettes, red geometric stripes, and regional circular crest.
 - **Card Controls**: Pressing A on either side initiates a 3D flip animation between Front and Back. Pressing B when settled on the Front exits back to the Start Menu.
 ## Start Menu Structure & Pokédex Status
-- **Start Menu Entries**: Displays Pokédex, Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit.
+- **Start Menu Entries & Cursor Memory**: Displays Pokédex, Pokémon, Bag, Asher (Trainer Card), Save, Option, Exit. The Start Menu persists its last highlighted row across openings in the overworld rather than resetting to the top entry (verified Turn 32738). In battle, switching a Pokémon out (including via forced switch moves like `Roar`) and sending it back in later in the same battle resets its Fight menu cursor to Slot 1 (verified Turn 32734).
 - **Empirical Pokédex Status & Special Function**: Asher received the **PokéDex** from Professor Ivo in Azluf Town in Turn 27801 (commissioned for Asher by Jackson). In addition to standard entries, the PokéDex registers the **stats**, **abilities**, and **habitat** of caught Pokémon (verified Turn 27802).
 - **Pokédex Table of Contents (Audited Turn 27859)**: Tracks `Seen` and `Owned` counts across two regional dex categories (`Colen` and `Hupest`), with 54 Hupest species and 17 Colen species pre-marked as `Seen` upon receipt.
 - **In-Game Real-Time Clock**: Displayed in top-left HUD box when Start Menu is open; synchronizes with host system clock.
