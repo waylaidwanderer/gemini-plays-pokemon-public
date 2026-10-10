@@ -230,3 +230,11 @@
     - **Pokémon 3**: Lumineon (♂, Lv37; Water; OHKO'd by Sirius's `Aura Sphere` for `1276 EXP`).
     - **Pokémon 4**: Manectric (♂, Lv38; Electric; OHKO'd by Sirius's `Aura Sphere` for `1368 EXP`).
   - **Outcome**: Defeated in Turns 34274-34284; awards `₽2,736`.
+- **Match 2 (Semifinals — Battle Girl Sachi)**:
+  - **Pre-Battle Quote**: *"I made it far enough, I'm not gonna lose! / Full front assault!"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Medicham (♂, Lv37; Fighting/Psychic; OHKO'd by Sirius's `Aura Sphere` for `1212 EXP`).
+    - **Pokémon 2**: Hariyama (♂, Lv37; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1458 EXP`).
+    - **Pokémon 3**: Blaziken (♂, Lv38; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1701 EXP`).
+    - **Pokémon 4**: Emboar (♂, Lv38; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1693 EXP`).
+  - **Outcome**: Defeated in Turns 34288-34295 (*"I... I lost?"*; awards `₽2,736`), while Unova's **Hugh** defeated Scientist Jesse on the opposite side of the bracket.
