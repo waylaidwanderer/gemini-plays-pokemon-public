@@ -412,7 +412,7 @@
   - **Ecly Festival Signboard (`33, 29`)**: Interacted from `(32, 29)`, reads verbatim: *"Ecly Festival / Held every year here in Jarro Town / Be sure to bring your friends!"* (verified Turn 32937).
   - **Festival Girl (`33-34, 31`, wandering)**: *"The Ecly Festival... / I love that festival so much! / I feel all young nostalgic..."* (verified Turn 32938).
   - **Explorer (`35, 25`)**: Standing under the festival lanterns south of the ruins entrance (*"The Ancient Hupestian Ruins..."*, verified Turn 32939).
-  - **Ancient Hupestian Ruins Signboard (`34, 21`) & Entrance (`36, 20-21`)**: Signboard at `(34, 21)` (interacted from `34, 22`) reads verbatim: *"Ancient Hupestian Ruins"* (verified Turns 32939-32940), beside **Professor Ivo** waiting at `(36, 21)` in front of the ruins entrance.
+  - **Ancient Hupestian Ruins Signboard (`34, 21`) & Entrance (`36, 20-21`)**: Signboard at `(34, 21)` (interacted from `34, 22`) reads verbatim: *"Ancient Hupestian Ruins"* (verified Turns 32939-32940). Inside (`15, 13`), Professor Ivo translated the three-part **Eklissi Prophecy** inscribed beneath the three wall murals before returning to her laboratory in Lancio Town (verified Turns 32941-32946).
 
 <hr>
 
@@ -1679,6 +1679,13 @@
   - Asher decides to text Valora and head to **Jarro Town** via **Route 12** (accessed through the northernmost tunnel in Amor City).
 ## Jarro Town — Sinnoh Champion Cynthia & The Ancient Hupestian Ruins
 - **Encounter Outside the Jarro Town Pokémon Center & The Odd Keystone (`14, 29` -> `14, 30`, Turns 32905-32912)**: Upon arriving in snowy **Jarro Town** ("Highest of Hupest") via Route 12 and approaching the Pokémon Center (`14, 29`), Asher bumped into **Cynthia**, Champion of the Sinnoh Region. Cynthia shared that she was invited as a special guest to watch the **Eclipse Tournament**, traveled to Jarro Town because of the **Ancient Hupestian Ruins**, and praised Asher's battle style and potential above the other notable competitors (whom Asher recognized as Frio and Valora). Expecting great things from Asher in the future, Cynthia gifted him the **Odd Keystone** before departing south.
+- **Ancient Hupestian Ruins & The Eklissi Prophecy (`36, 21` -> `15, 13` -> `36, 21`, Turns 32941-32946)**:
+  - **The Eklissi Empire**: Inside the Ancient Hupestian Ruins (`15, 13`), Professor Ivo showed Asher three ancient stone carvings (`left: four-pointed star`, `center: winged eclipse emblem`, `right: circular lunar emblem`) inscribed in **Eklissi**, the language of an ancient empire that ruled the continent thousands of years ago before being wiped out.
+  - **The Three-Part Eklissi Prophecy**:
+    1. **Part 1 (Left Mural)**: *"A majestic light which once came to destroy us, will shine upon us in four millennias..."* — Suggesting the Eklissi empire was wiped out by a cataclysm that will return in 4,000 years, which Asher theorized could be the same ancient meteorite linked to the Great Eclipse.
+    2. **Part 2 (Right Mural)**: *"It was an angel which made the darkness of the night bright like the cherishing Sun!"* — Describing an angelic entity or meteorite explosion whose flash turned night as bright as the Sun.
+    3. **Part 3 (Center Mural)**: *"The angel lashed her anger on us and we perished to oblivion... But the next time the people will be ready... Three glimpses of light... three of the youth will arise to protect from her judgement, her anger"*
+  - **Connection to Eclipsing**: Agreeing with Asher that the Eklissi prophecy is directly connected to Eclipsing, Professor Ivo departed back to her laboratory in Lancio Town to research further details, while Asher wondered when the prophecy is supposed to come true and stepped back outside to `(36, 21)` in Jarro Town.
 
 <hr>
 
