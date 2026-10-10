@@ -48,9 +48,9 @@
 ## B2F Southern Area (`30, 16` from B3F Eastern Staircase `17, 18` & B2F Lobby `34-35, 10-13`)
 - **Descending Staircase (`28-29, 16-17` via Red Mat `30, 16-17`)**: Descends to the B3F Eastern Branch at `(16, 18)`.
 - **Objects & Consoles**:
-  - **Research Notes (`34, 18`)**: Located on the southern table below `(34, 17)`.
-  - **Blue Control Console (`36, 16`)**: Located above `(36, 17)`.
-  - **Glowing Object (`38, 16`)**: Located in the eastern alcove behind the yellow crates at `(37, 15-16)` and `(38, 17-18)`.
+  - **Marie's Diary (`34, 18`)**: Dated *"2011. April 5th"*: *"This is it! I have finally set up the entire Laboratory. Here I'll fully develop out Eclipsing, so that Jackson will believe that it's safe. Can you believe he left with our 5 year old son?! I can't mess this up. If I prove this is completely safe we can be a family again..."* (verified Turns 34426-34429).
+  - **Blue Control Console (`36, 16`)**: Displays *"Code Red / Location: B2F Code: 0203"* and grants **Code Red** to unlock the B2F northern security door (`30-31, 6`) (verified Turn 34429).
+  - **Item (`38, 16`)**: **Full Restore** located in the eastern alcove behind the yellow crates at `(37, 15-16)` and `(38, 17-18)` (collected Turn 34429).
 
 ## B3F Machine Room (`29, 4` from B3F Corridor `9, 19`)
 - **Doorway Exit (`29, 3`)**: Warps back to the B3F Corridor at `(9, 19)`.
