@@ -653,6 +653,10 @@
     - **Professor Ivo (`36, 46`)**: Waiting on the southeastern grass terrace below the cliff staircase (`33, 44-45`).
     - **Dad / Jackson (`36, 42`)**: Standing on the upper plateau in front of the **cave entrance (`36, 40`)** leading down to the abandoned undersea Team Siara laboratory.
 - **Tentacruel** (♀, Lv27; Water/Poison; caught in Ultra Ball at `27, 31` in Turn 34356, nicknamed **Medusa**, transferred to Box 3; brings PokéDex Owned count to **80**, fulfilling Task 2 of Special Quest #12 `"Elm's Research"`).
+- **Small Offshore Isle Reunion & Newly Opened Cave Entrance (`32, 46` -> `33, 46`, Turns 34372-34373)**:
+  - Stepping onto `(32, 46)` triggers the reunion with **Professor Ivo** (`36, 46`), **Valora** (`32, 47`), and **Dad (Jackson)** (`36, 42`).
+  - When Asher relays Frio's revelation about an abandoned undersea Team Siara laboratory, Professor Ivo shows them a newly opened hole/cave entrance (`36, 40`) that wasn't there during her earlier research with Valora, realizing Team Siara has most likely already broken into the old laboratory below.
+  - Professor Ivo, Valora, and Dad enter the cave (`36, 40`), leaving Asher at `(33, 46)` (`Right 3, Up 6` climbs the stairs at `35-36, 44-45` into the cave entrance `36, 40`).
 
 <hr>
 
@@ -2497,6 +2501,8 @@
   - In the Tournament Arena Lobby (`19, 13`), **Frio** kept his promise and revealed that the underwater Location 3 signal is most likely an old, abandoned **undersea laboratory of Team Siara** located below sea level near **Maple Town**.
   - When Asher invited Frio to help them end Team Siara once and for all, Frio confessed he hates Team Siara more than anything in his life—only having intervened in Destino Mine because they took an Eclite Shard from him—and refused to get involved with Marie, their experiments, or that lab ever again before walking away.
   - Moments later, Asher received an urgent HuPhone message from **Professor Ivo**: *"Asher! Quick pick up Valora and come here quick! We are on a small isle from Maple to the south, this is urgent!"*. Picking up Valora, Asher fast-traveled to the southern shoreline stairs of **Maple Town** (`43, 15`).
+## Small Offshore Isle (Location 3) — The Newly Opened Cave to the Abandoned Siara Lab
+- **Reunion on the Southeastern Terrace (`32, 46` -> `33, 46`, Turns 34372-34373)**: On the small offshore isle in Hupest Sea (`Location 3`), Asher and Valora reunited with **Professor Ivo** (`36, 46`) and **Dad (Jackson)** (`36, 42`). When Asher shared Frio's warning that Location 3 is an old, abandoned undersea laboratory of Team Siara, Professor Ivo revealed that a cave entrance (`36, 40`) had just been opened into the cliffside since her earlier visit—meaning Team Siara had most likely already breached the path to the undersea lab. Ivo, Dad, and Valora hurried inside (`36, 40`) with Asher following right behind.
 
 <hr>
 

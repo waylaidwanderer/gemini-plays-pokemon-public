@@ -28,3 +28,7 @@
     - **Professor Ivo (`36, 46`)**: Waiting on the southeastern grass terrace below the cliff staircase (`33, 44-45`).
     - **Dad / Jackson (`36, 42`)**: Standing on the upper plateau in front of the **cave entrance (`36, 40`)** leading down to the abandoned undersea Team Siara laboratory.
 - **Tentacruel** (♀, Lv27; Water/Poison; caught in Ultra Ball at `27, 31` in Turn 34356, nicknamed **Medusa**, transferred to Box 3; brings PokéDex Owned count to **80**, fulfilling Task 2 of Special Quest #12 `"Elm's Research"`).
+- **Small Offshore Isle Reunion & Newly Opened Cave Entrance (`32, 46` -> `33, 46`, Turns 34372-34373)**:
+  - Stepping onto `(32, 46)` triggers the reunion with **Professor Ivo** (`36, 46`), **Valora** (`32, 47`), and **Dad (Jackson)** (`36, 42`).
+  - When Asher relays Frio's revelation about an abandoned undersea Team Siara laboratory, Professor Ivo shows them a newly opened hole/cave entrance (`36, 40`) that wasn't there during her earlier research with Valora, realizing Team Siara has most likely already broken into the old laboratory below.
+  - Professor Ivo, Valora, and Dad enter the cave (`36, 40`), leaving Asher at `(33, 46)` (`Right 3, Up 6` climbs the stairs at `35-36, 44-45` into the cave entrance `36, 40`).
