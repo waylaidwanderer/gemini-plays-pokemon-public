@@ -694,6 +694,8 @@
 - **Two-Segment Structure**:
   - **Route 12 Eastern Approach (`28, 6` <-> `9, 0`)**: Connects at the east (`28, 6 <-> 29, 6` <-> Route 12 Gatehouse `1, 7 <-> 14, 7` <-> Amor City North `7, 12`, verified Turn 32629), features a wooden signboard at `(12-13, 5)` (interacted from `13, 6`, reading verbatim: *"Route 12 / <-------"*, verified Turn 32631), and transitions seamlessly at the north (`9, 0`) onto **Route 12 Main** (`33, 118`, verified Turn 32631).
   - **Route 12 Main (`33, 118` -> North)**: Main route corridor heading north/west from `(33, 118)` toward **Jarro Town**. Wooden signboard at `(28-29, 109)` (interacted from `28, 110`) reads verbatim: *"Route 12 / Border of the Cest Mountain System"*, beside a northbound wooden staircase at `(25-26, 108)` (verified Turn 32633).
+## Wild Pokémon
+- **Teddiursa**: Encountered at Lv17 (♂, Normal) in the tall grass at `(18, 97)` on Route 12 Main (caught in a Poké Ball, nicknamed **Ursa**, and transferred to Box 2 as 62nd Owned species in Turns 32652-32654).
 ## Trainers, Landmarks & Items (Route 12 Main)
 - **Rock Cones (`24, 104`, `34, 98`, & `39, 98`)**: All three verified inert (Turns 32634 & 32641); `(34, 98)` and `(39, 98)` flank the northbound wooden staircase at `(37-38, 95-96)`.
 - **Hiker Calum (`29, 104`, facing South)**:
@@ -1606,7 +1608,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 32247)**: Contains **Poké Ball x9** and **Great Ball x8** (caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, and Lv14 Trapinch at `42, 49` in Turn 32246, nicknamed **Dune**, bringing Owned species to **61** in PokéDex; **Red Shard x1** also added to Items Pocket at `40, 13` in Turn 32208).
+- **Poké Balls Pocket (Audited Turn 32653)**: Contains **Poké Ball x8** and **Great Ball x8** (caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, Lv14 Trapinch at `42, 49` in Turn 32246, nicknamed **Dune**, and Lv17 Teddiursa at Route 12 Main `18, 97` in Turn 32653, nicknamed **Ursa**, bringing Owned species to **62** in PokéDex).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
