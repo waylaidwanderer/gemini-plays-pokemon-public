@@ -769,6 +769,8 @@
   - **Galtino Bridge Signboard (`66-67, 19`)**: Interacted from `(66, 20)`, reads verbatim: *"Galtino Bridge / <------"* (verified Turn 33021).
   - **Southern Coastal Cliff & Beach Ledge (`cols 59-67, rows 22-32`)**:
     - Side-facing wooden staircase at `(61, 28-30)` (approached along `row 29`: `62, 29 <-> 60, 29`) leads down to the western beach ledge where a purple bottle sprite at **`(60, 27)`** yields **Carbos x1** (interacted from `60, 28`; verified Turn 33024).
+  - **Galtino Bridge Cutscene & Boss Eclipsed Pidgeot (`53, 20` -> `46, 20`, Turns 33028-33034)**:
+    - Stepping onto `(53, 20)` triggers a cutscene where **Dawn** (from Sinnoh) confronts three **Team Siara Grunts** blocking the bridge, who release a boss **Lv34 Eclipsed Pidgeot** (`859 EXP`; resists Fighting-type moves) as a diversion before fleeing west.
 
 <hr>
 
@@ -1755,6 +1757,14 @@
   - Displaying the Hupest World Map, Professor Ivo revealed that she detected abnormal energy readings resembling **Eclipse Shards / Eclite** at **three marked locations** (an offshore island dot in the bay south of the Destino–Galinor bridge, Solare Island in the far northwest, and a northern mountain location east of Jarro Town, plus a blue square marker east of Amor City), with the strongest readings coming from **Location 1**.
   - **Mission to Galinor City**: Professor Ivo asked Asher and Valora to head to **Galinor City** and find a boat ride to the island at Location 1 while she and Dad (Jackson) investigate whether Team Siara is headed there.
   - **Transit via Sovio Metro & Destino City**: Dad explained that because **Galinor Station** is currently closed due to a leak, Asher and Valora can take the Metro as far as **Destino City** and cross the western bridge from Destino City to reach **Galinor City**. Dad then drove Asher and Valora to the **Sovio City Metro Station** (`48, 18`).
+## Galtino Bridge (Route 11) — Team Siara Diversion, Eclipsed Pidgeot & Encounter with Sinnoh's Dawn
+- **Team Siara Roadblock & The Eclipsed Pidgeot (`53, 20` -> `46, 20`, Turns 33028-33033)**:
+  - Crossing onto **Galtino Bridge** (`53, 20`), Asher and Valora found a crowd of onlookers watching **Dawn** from the Sinnoh Region confront three **Team Siara Grunts** blocking the bridge.
+  - Realizing they were supposed to be on a boat/cruise and needed a distraction, the three grunts released a rampaging **Lv34 Eclipsed Pidgeot** on the bridge and fled west toward Galinor City.
+  - While Valora calmed the crowd of civilians, Asher stepped in front of Dawn (`46, 20`) and defeated the **Lv34 Eclipsed Pidgeot** (against which Fighting-type `Aura Sphere` was *not very effective*, confirming Eclipsed Pidgeot has altered typing).
+- **Introduction to Dawn & Valora's Teasing (`46, 20`, Turn 33033)**:
+  - After Asher calmed the situation, **Dawn** thanked him, wondered why the Pidgeot didn't look normal, introduced herself as a fellow **Eclipse Tournament** competitor who had noticed Asher's skill (*"Hehe, and not too ugly, that's for sure."*), and headed east toward Destino City (*"See ya later, in the tournament!"*).
+  - Rejoining Asher at `(46, 20)`, **Valora** teased him (*"You also seemed to have a bit too much fun after you were done... Oh, nothing, but who was she?"*) before continuing west across Galtino Bridge toward Galinor City.
 
 <hr>
 
