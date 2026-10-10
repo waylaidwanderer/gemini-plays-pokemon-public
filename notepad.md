@@ -756,7 +756,7 @@
   - **Pre-Battle Quote**: *"Hehe, yo, wanna see my rare Pokémon?"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Bouffalant (♂, Lv28; Normal).
-  - **Outcome**: Battled in Turns 32714-32717.
+  - **Outcome**: Defeated in Turns 32714-32718; awards `₽1,120`.
 
 <hr>
 
