@@ -1040,6 +1040,9 @@
   - **Pre-Battle Quote**: *"You are going down, just like Metros go underground here!"*
   - **Team (4 Pokémon)**: Tauros (♂, Lv34; Normal; Ability: Intimidate; `1536 EXP`), Vigoroth (♂, Lv34; Normal; `918 EXP`), Porygon2 (Lv34; Normal; Ability: Download; `1311 EXP`), and Toucannon (♂, Lv34; Normal/Flying; `1326 EXP`).
   - **Outcome**: Defeated in Turns 33611-33618 (*"I... I said you.."*; awards `₽1,768`).
+## Eastern Bridge Signboard (`65-66, 22`)
+- **Bridge Signboard (`65-66, 22`)**: Interacted from `(65, 23)`, reads verbatim: *"Route 16 / Use the bridge for your own responsibility!"* (verified Turn 33623).
+- **Wandering Traveler (`66-67, 23-24`)**: Non-hostile wandering overworld NPC near the signboard.
 
 <hr>
 
