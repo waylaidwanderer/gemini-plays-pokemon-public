@@ -15,3 +15,4 @@
   - **Seated Father (`6, 48`)**: *"Going to a store from here is such a pain."* (verified Turn 32920).
   - **Little Blonde Girl (`3, 50`)**: *"Oh my... / The almighty fridge has no milk... / Dad! We need to get some milk!"* (verified Turn 32920).
 - **Central Stone Staircase (`24-26, 24-26`)**: Leads north between the West Cabin (`22, 28`) and East Cabin (`29, 28`) toward the upper level of Jarro Town.
+- **Hiker Outside East Cabin (`27, 29`, rotating stationary)**: *"Fresh air, nature everywhere... / The perfect place to live!"* (verified Turn 32921). Because he stands at `(27, 29)` between the East Cabin wall (`27, 28`) and the lamppost (`27, 30-32`), the East Cabin (`29, 28`) and eastern signboard (`33, 29`) are reached by routing south along `column 22` (`rows 29-33+`) around the southern pine trees.
