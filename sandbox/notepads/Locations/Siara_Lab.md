@@ -60,3 +60,14 @@
   - Interacting with `(29, 12)` from `(29, 13)` flips the switch from red/blue to solid blue and restores main power to the facility (verified Turn 34415).
   - Immediately triggers a HuPhone call from **Professor Ivo**, who confirms power is restored, reports that the third energy signal is on the lowest floor (**B5F**, which requires an **Ec Card**), and warns Asher that something is approaching—triggering a scripted ambush by a wild **Lv40 Eclipsed Golem** at `(29, 13)` (OHKO'd by Sirius's `Aura Sphere` for `1011 EXP`, verified Turns 34415-34420).
 - **Item**: **Ultra Ball** at `(32, 14)` in the southeast corner (collected Turn 34420).
+## Floor B4F (`23, 6` Elevator Exit)
+- **Elevator & Floor Plaque (`23, 5` & `25, 5`)**:
+  - **Elevator Doorway (`23, 5`)**: Connects to the facility elevator (`6, 15`; exiting steps to `23, 7`).
+  - **Purple Wall Plaque (`25, 5`)**: Reads *"B4F / Community Room"* (verified Turn 34435).
+- **B4F Community Room (`cols 20-36, rows 6-18`)**:
+  - **Wild Eclipsed Pokémon**: Floor tiles trigger Lv40 wild Eclipsed Pokémon such as **Eclipsed Gengar** (verified Turn 34440).
+  - **Locked Security Door (`21-22, 16`)**: Password-protected security door in the southwest corridor.
+  - **Marie's 2013 Diary (`30, 15`)**: Dated *"2013. September 1st"*: *"I adopted the little boy from two years ago and named him Frio. / I have also made a groundbreaking discovery because of him! / The gem he always kept with himself seemed to calm Eclipsed Pokémon down... / Normally they are really violent, but the gem caused them to be controlable. / The test subjects still can't be kept outside of tubes but we found out the reason. / The process is tied to a material called 'Eclite'. / We tried using chemicals similar to the components of Eclite. / However due to Eclite's unique origin, it's not possible with Earth elements... / We need Eclite to continue on... A lot of it!"* (verified Turns 34437-34438).
+  - **Blue Control Console (`30, 17`)**: Located on the southern edge of the central table above `(30, 18)`.
+  - **Second Research Notes / Diary (`31, 17`)**: Located on the southern edge of the central table above `(31, 18)`.
+  - **Spray-Bottle Item (`36, 15`)**: Located in the eastern alcove below `(36, 14)`.
