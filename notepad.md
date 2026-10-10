@@ -1826,12 +1826,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv50
+- **Level**: Lv51
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 148), Attack (C+, 138), Defense (A-, 133), Sp. Atk (C-, 128), Sp. Def (E, 88), Speed (C-, 90)
-- **Current Condition**: 148/148 HP, Healthy (full party healed by Nurse Joy at Route 12 Main `28, 52` in Turn 32798; leveled up to Lv50 defeating Lass Wanda's Politoed in Turn 32809)
-- **EXP**: Lv50 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv50 defeating Lass Wanda's Politoed in Turn 32809)
+- **Stats (IV Grades)**: HP (C, 150), Attack (C+, 140), Defense (A-, 135), Sp. Atk (C-, 130), Sp. Def (E, 89), Speed (C-, 92)
+- **Current Condition**: 150/150 HP, Healthy (full party healed by Nurse Joy at Route 12 Main `28, 52` in Turn 32798; leveled up to Lv51 defeating Cooltrainer Troy's Kadabra in Turn 32855)
+- **EXP**: Lv51 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv51 defeating Cooltrainer Troy's Kadabra in Turn 32855)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
