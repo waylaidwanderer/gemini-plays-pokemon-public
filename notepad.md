@@ -1313,6 +1313,11 @@
 - **Western Exterior Terrace & Shoreline (`cols 4-18, rows 35-49`)**:
   - **Big Pearl (`17, 47`)**: Descending the stone staircases at `(12-13, 40-41)` and `(11-12, 44-45)` to the southwestern shoreline point (`16, 47`) and interacting with the gold ball sprite at **`(17, 47)`** yields **Big Pearl x1** (verified Turn 33249).
   - **Western Loop Path (`12, 43` -> `8, 43` -> `8, 41` -> `8, 40`)**: From `(12, 43)` between the two staircases, a grass path weaves west between the pine trees via `(8, 43) -> (8, 41) -> (8, 40)`, where it terminates at a solid cliff wall and pine trees (`cols 6-8, rows 35-40`; verified Turn 33250).
+  - **Horizontal Stone Ruin Wall Collision & Encounter-Free Short-Grass Highway (Verified Turns 33314-33328)**:
+    - Horizontal stone ruin walls consist of a walkable top-lip row, a **walkable upper brick row** (entered from above, where Asher walks behind the wall with only the top of his head visible), and a solid lower brick row (verified at `11-15, 28` and `4, 29`).
+    - **Blue Crystal #3 (`2, 31-32`)**: Completely enclosed by trees (`col 1`), stone walls (`2-3, 29-30` and `2, 34`), and `col 3` (`3, 30-31` Blue Barrier #3 and `3, 32-35` solid post/trees; verified via Turn 33313 `latest_grid.png` and tested row-by-row in Turns 33319-33321).
+    - **Blue Crystal #2 (`38, 11-12`) & Eastern Siara Grunt (`41, 17`)**: Located on the eastern side of `Blue Barrier #2` (`col 34, rows 14-16`) and the rugged rock (`35, 12`), with `(35, 10)` and `(36, 11)` verified solid from `(35, 11)` (Turn 33325 `latest_grid.png`).
+    - **100% Short-Grass Highway (`(9, 28) <-> (30, 20)`)**: Connects the Southwest Quadrant `(9, 28)` and Central S-Curve `(23, 25)` to the Northeast Courtyard border `(30, 20)` with zero tall-grass tiles via `(9, 28) -> (11, 27) -> (17, 27) -> (17, 21) -> (15, 21) -> (15, 19) -> (23, 19) -> (23, 18) -> (25, 18) -> (25, 20) -> (30, 20)` (verified Turns 33323-33328).
 
 <hr>
 
