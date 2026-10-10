@@ -207,3 +207,12 @@
     - **Pokémon 3**: Whiscash (♀, Lv35; Water/Ground; OHKO'd by Sirius's `Aura Sphere` for `1185 EXP`).
     - **Pokémon 4**: Poliwrath (♀, Lv36; Water/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1426 EXP`).
   - **Outcome**: Defeated in Turns 33884-33889 (*"All those years... / To lose to a kid?!"*; awards `₽2,016`).
+- **Match 3 (Round Six Finals — PKMN Trainer Riley)**:
+  - **Pre-Battle Quote**: *"Hello Trainer... / You are... oh! You are Asher! I heard quite a lot about you. / You must be a powerful trainer to create such a reputation for yourself without trying... / I'm also a Pokémon Trainer, only for fun... / My name is Riley! / Your team... hmm... / I sense your strong aura... / Please, show me what you can do!"*
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Absol (♀, Lv35; Dark; OHKO'd by Sirius's `Mach Punch`).
+    - **Pokémon 2**: Lucario (♂, Lv37; Fighting/Steel; OHKO'd by Sirius's `Aura Sphere` for `1458 EXP`).
+    - **Pokémon 3**: Metang (Lv35; Steel/Psychic; knows Stealth Rock; defeated by Sirius's `Aura Sphere` + `Bulldoze` for `1147 EXP`, leveling Sirius to Lv63).
+    - **Pokémon 4**: Blaziken (♂, Lv36; Fire/Fighting; OHKO'd by Sirius's `Bulldoze`).
+    - **Pokémon 5**: Gyarados (♂, Lv36; Water/Flying; knows Dragon Dance; 2HKO'd by Sirius's `Aura Sphere` for `1650 EXP`).
+  - **Outcome**: Defeated in Turns 33891-33904 (*"Know your enemy... / Just as much as you know yourself."*), crowning Asher winner of his Round 6 group and advancing him to Round 7 of the Eclipse Tournament.
