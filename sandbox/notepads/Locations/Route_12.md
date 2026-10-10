@@ -60,4 +60,4 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Torkoal (♂, Lv27; Fire; Ability: Drought).
     - **Pokémon 2**: Klang (Lv27; Steel).
-  - **Outcome**: Battled in Turns 32706-32709.
+  - **Outcome**: Defeat quote: *"Oh my."*; awards `₽1,080` (verified Turns 32706-32710).
