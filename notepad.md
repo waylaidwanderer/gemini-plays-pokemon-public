@@ -222,6 +222,9 @@
     - **Pre-Battle Quote**: *"Darn... the bridge has collapsed! / Be really careful!"*
     - **Team (2 Pokémon)**: Primeape (♂, Lv35; Fighting; `1117 EXP`) and Medicham (♀, Lv35; Fighting/Psychic; `1147 EXP`).
     - **Outcome**: Defeated in Turns 33710-33714 (`"..."`).
+  - **Western Cliff Island & Broken Bridge End (`cols 8-17, rows 8-16`, Verified Turns 33715-33716)**:
+    - Reached from `(16, 12)` by weaving behind the top tree canopies along `row 12` (`16, 12 -> 12, 12`) and `row 13` (`12, 13 -> 9, 13 -> 9, 12`).
+    - **TM18 (Rain Dance, `8, 12`)**: Gold item ball on the broken western bridge end at `(8, 12)` (collected Turn 33716).
 
 <hr>
 
@@ -2146,7 +2149,7 @@
   - **Metro Pass**: *"Its a card that can be used at the e-ticket reader gates to travel on the Hupest Metro Line."*
   - **Eclipse Band**: *"A special band designed to channel the power of Eclipse Shards to allow Eclipsing!"* (received from Professor Ivo in Azluf Town, Turn 27799).
   - **Fishing Rod**: *"A new, high-quality fishing rod. Use it by any body of water to fish for wild Pokémon."* (received from Fisherman at `37, 30` in Azluf Town, Turn 27854). Casting into water prints `. . .` dots and automatically resolves to either *"A Pokémon's on the hook!"* (requiring a single A/B press to start the wild battle, with no timing minigame) or *"Not even a nibble..."* (verified Turn 27865).
-- **TMs & HMs Pocket**: Contains TM03 (collected at Route 4 `53, 17` in Turn 31892), TM17 (Protect), TM37 (Sandstorm, collected in Destino Mine 1F at `32, 35` in Turn 32317), TM39 (Rock Tomb, collected in Upper Mt. Gerhana at `43, 9` in Turn 31547), and TM48 (Work Up). Zero HMs in possession.
+- **TMs & HMs Pocket**: Contains TM03 (collected at Route 4 `53, 17` in Turn 31892), TM17 (Protect), TM18 (Rain Dance, collected at Aurin Town Western Cliff Island `8, 12` in Turn 33716), TM37 (Sandstorm, collected in Destino Mine 1F at `32, 35` in Turn 32317), TM39 (Rock Tomb, collected in Upper Mt. Gerhana at `43, 9` in Turn 31547), and TM48 (Work Up). Zero HMs in possession.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash (verified at `6, 23` and `22, 10` in Sovio Sewers, Turns 27495 & 27512).
 

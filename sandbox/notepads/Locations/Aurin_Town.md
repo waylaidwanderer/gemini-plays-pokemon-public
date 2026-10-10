@@ -27,3 +27,6 @@
     - **Pre-Battle Quote**: *"Darn... the bridge has collapsed! / Be really careful!"*
     - **Team (2 Pokémon)**: Primeape (♂, Lv35; Fighting; `1117 EXP`) and Medicham (♀, Lv35; Fighting/Psychic; `1147 EXP`).
     - **Outcome**: Defeated in Turns 33710-33714 (`"..."`).
+  - **Western Cliff Island & Broken Bridge End (`cols 8-17, rows 8-16`, Verified Turns 33715-33716)**:
+    - Reached from `(16, 12)` by weaving behind the top tree canopies along `row 12` (`16, 12 -> 12, 12`) and `row 13` (`12, 13 -> 9, 13 -> 9, 12`).
+    - **TM18 (Rain Dance, `8, 12`)**: Gold item ball on the broken western bridge end at `(8, 12)` (collected Turn 33716).
