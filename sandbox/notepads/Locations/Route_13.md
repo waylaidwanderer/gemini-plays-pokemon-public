@@ -23,6 +23,11 @@
     - **Pokémon 2**: Rapidash (♀, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1480 EXP`).
     - **Pokémon 3**: Persian (♀, Lv36; Normal; OHKO'd by Sirius's `Mach Punch`).
   - **Outcome**: Defeated in Turns 33954-33961.
-- **Straw-Hat Trainer (`29, 35`, facing `Right` across `30-32, 35`)**: Located in the southern wheat field.
+- **Farmer Omar (`29, 35`, rotating between `Right` and `Left`)**:
+  - **Pre-Battle Quote**: *"I'm out here working... / Wanna battle on my break?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Staraptor (♂, Lv36; Normal/Flying; OHKO'd by Sirius's `Aura Sphere` for `1326 EXP`).
+    - **Pokémon 2**: Tauros (♂, Lv37; Normal; OHKO'd by Sirius's `Aura Sphere` for `1672 EXP`, leveling Sirius to Lv64).
+  - **Outcome**: Defeated in Turns 33962-33966.
 ## Items
 - **Wheat Field Item (`25, 35`)**: Golden item ball located in the western side of the wheat field (`latest_grid.png` Turn 33954).

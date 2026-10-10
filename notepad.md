@@ -1182,7 +1182,12 @@
     - **Pokémon 2**: Rapidash (♀, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1480 EXP`).
     - **Pokémon 3**: Persian (♀, Lv36; Normal; OHKO'd by Sirius's `Mach Punch`).
   - **Outcome**: Defeated in Turns 33954-33961.
-- **Straw-Hat Trainer (`29, 35`, facing `Right` across `30-32, 35`)**: Located in the southern wheat field.
+- **Farmer Omar (`29, 35`, rotating between `Right` and `Left`)**:
+  - **Pre-Battle Quote**: *"I'm out here working... / Wanna battle on my break?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Staraptor (♂, Lv36; Normal/Flying; OHKO'd by Sirius's `Aura Sphere` for `1326 EXP`).
+    - **Pokémon 2**: Tauros (♂, Lv37; Normal; OHKO'd by Sirius's `Aura Sphere` for `1672 EXP`, leveling Sirius to Lv64).
+  - **Outcome**: Defeated in Turns 33962-33966.
 ## Items
 - **Wheat Field Item (`25, 35`)**: Golden item ball located in the western side of the wheat field (`latest_grid.png` Turn 33954).
 
@@ -2427,12 +2432,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv63
+- **Level**: Lv64
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 183), Attack (C+, 172), Defense (A-, 166), Sp. Atk (C-, 160), Sp. Def (E, 109), Speed (C-, 113)
-- **Current Condition**: 183/183 HP, Healthy (healed to full HP and PP at Western Amor City Pokémon Center in Turn 33913 after leveling up to Lv63 in Turn 33896)
-- **EXP**: Lv63 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896)
+- **Stats (IV Grades)**: HP (C, 186), Attack (C+, 175), Defense (A-, 169), Sp. Atk (C-, 163), Sp. Def (E, 111), Speed (C-, 115)
+- **Current Condition**: 186/186 HP, Healthy (healed to full HP and PP at Western Amor City Pokémon Center in Turn 33913; leveled up to Lv64 defeating Farmer Omar's Tauros in Turn 33965)
+- **EXP**: Lv64 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
