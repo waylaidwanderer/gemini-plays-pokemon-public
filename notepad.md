@@ -580,6 +580,8 @@
 ## Southern Boulevard & Galinor Metro Station (`32, 59`)
 - **Galinor Metro Station (`32, 58`, exits to `32, 59`)**: Unlocked on the Hupest Metro Line destination menu (`4: Galinor`) after winning Round Six of the Eclipse Tournament (verified Turn 33919).
 - **Galinor City Pokémon Center (`28, 58`, exits to `28, 59`)**: Located immediately west of the Galinor Metro Station on the southern boulevard.
+- **Western Boulevard Signboard (`24-25, 59`)**: Interacted from `(25, 60)`, reads verbatim: *"Galinor Metro Station / ---> / Route 9 / <---"* (verified Turn 33924).
+- **Southwestern Avenue (`cols 18-19, rows 60-75`)**: Leads south from `(18-19, 60)` along the west side of the southern apartment blocks toward **Route 9**.
 
 <hr>
 
