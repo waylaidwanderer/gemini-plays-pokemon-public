@@ -46,3 +46,9 @@
     - **Pokémon 1**: Toxicroak (♂, Lv27; Poison/Fighting).
     - **Pokémon 2**: Hawlucha (♂, Lv27; Fighting/Flying).
   - **Outcome**: Defeat quote: *"Huh"*; awards `₽1,944` (verified Turns 32685-32690).
+- **Picnicker Pierce (`24, 86`, rotating)**:
+  - **Pre-Battle Quote**: *"The forests here are such perfect places for picnicking! / And winning battles!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Staravia (♀, Lv27; Normal/Flying).
+    - **Pokémon 2**: Floatzel (Lv27; Water).
+  - **Outcome**: Battled in Turns 32692-32695.
