@@ -12,5 +12,7 @@
 ## Trainers & NPCs
 - **Hiker Miguel (`17, 29`, facing `Down` in tall grass)**:
   - **Pre-Battle Quote**: *"You and me on the summit battle now!"* (triggered at `17, 30` in Turn 34200).
-  - **Team (5 Pokémon)**:
-    - **Pokémon 1**: Nidoking (♂, Lv38; Poison/Ground; OHKO'd by Sirius's `Bulldoze`).
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Nidoking (♂, Lv38; Poison/Ground; OHKO'd by Sirius's `Bulldoze` for `1587 EXP`).
+    - **Pokémon 2**: Dugtrio (♂, Lv38; Ground; knows Mud Bomb; OHKO'd by Sirius's `Mach Punch` for `1245 EXP`).
+  - **Outcome**: Defeated in Turns 34201-34206.
