@@ -116,6 +116,14 @@
 - **Round 4 Bracket**:
   - **Left Side**: **Asher** vs. **Scientist/Collector** (Match 1) and **Ace Trainer Male** vs. **Hiker** (Match 2).
   - **Right Side**: **Silver (from Johto)** vs. **Worker** (Match 3) and **Picnicker** vs. **Black Belt** (Match 4).
+- **Match 1 (Quarterfinals — Super Nerd Eugene)**:
+  - **Pre-Battle Quote**: *"Hehe a kid will be easy to defeat! / Bring it on"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Haunter (♂, Lv27; Ghost/Poison; Ability: Levitate).
+    - **Pokémon 2**: Diggersby (♂, Lv28; Normal/Ground).
+    - **Pokémon 3**: Banette (♀, Lv27; Ghost; Ability: Cursed Body).
+    - **Pokémon 4**: Vigoroth (♀, Lv28; Normal).
+  - **Outcome**: Defeat quote: *"Losing to a kid... / What an awkward way to end this"*; awards `₽1,008` (verified Turns 32960-32967).
 
 <hr>
 
