@@ -7,7 +7,8 @@
 ## Wild Pokémon
 - **Teddiursa**: Encountered at Lv17 (♂, Normal) in the tall grass at `(18, 97)` on Route 12 Main (caught in a Poké Ball, nicknamed **Ursa**, and transferred to Box 2 as 62nd Owned species in Turns 32652-32654).
 ## Trainers, Landmarks & Items (Route 12 Main)
-- **Rock Cones (`24, 104`, `34, 98`, & `39, 98`)**: All three verified inert (Turns 32634 & 32641); `(34, 98)` and `(39, 98)` flank the northbound wooden staircase at `(37-38, 95-96)`.
+- **Rock Cones (`24, 104`, `34, 98`, `39, 98`, & `20, 92`)**: All four verified inert (Turns 32634, 32641, & 32663); `(34, 98)` and `(39, 98)` flank the northbound wooden staircase at `(37-38, 95-96)`, while `(20, 92)` sits east of the northbound wooden staircase at `(15-17, 90-91)`.
+- **Rugged Rock (`20, 76`) & Item Ball (`21, 76`)**: Located on a middle cliff ledge reached via the east-facing staircase at `(18, 75-76)`; the rugged rock at `(20, 76)` blocks access to the item ball at `(21, 76)` until rock-smashing equipment is obtained (observed Turn 32667).
 - **Hiker Calum (`29, 104`, facing South)**:
   - **Pre-Battle Quote**: *"I'm going for a hike but I need some motivation... / Can my win here be that?"*
   - **Team (3 Pokémon)**:
