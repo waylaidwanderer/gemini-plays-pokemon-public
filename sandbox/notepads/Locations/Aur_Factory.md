@@ -24,3 +24,7 @@
   - **Team (2 Pokémon)**: Sigilyph (♂, Lv35; Psychic/Flying; `1290 EXP`) and Grumpig (♀, Lv35; Psychic; `1230 EXP`).
   - **Outcome**: Defeated in Turns 33800-33805.
 - **Ether (`29, 12`)**: Collected from purple spray-bottle sprite at `(29, 12)` via the fence gap at `column 27` (`rows 12-15`; verified Turn 33806).
+- **Criminal Harry (`24, 15`, facing `Down` in the tall grass on the northern exterior grounds)**:
+  - **Pre-Battle Quote**: *"Why is a kid wandering out here? / Don't you know this is a messy place?"*
+  - **Team (1 Pokémon)**: Seismitoad (♀, Lv36; Water/Ground).
+  - **Outcome**: Defeated in Turns 33808-33811 (*"Ah... / You are well aware, I see..."*).
