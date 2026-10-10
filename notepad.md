@@ -233,6 +233,8 @@
   - Directly south of the Destino City Pokémon Center (`41, 18`), the tan curb along `row 22` (`cols 36-44`) is passable and leads south into the upper dirt plaza (`cols 36-46, rows 23-29`), where a female resident in a pink shirt patrols around `(40-41, 22-24)` (*"The city is huge... I need to find a Burger Kingler..."*, verified Turn 32197).
   - At the western edge of the upper dirt plaza (`36, 23`), stepping `Left` from `(36, 23)` onto `(35, 23)` warps down the diagonal stone staircase to `(30, 26)` on the lower plaza (where a wandering Sailor patrols `29-30, 28-30`), leading east along `rows 29-31` to the main **Destino Mine** entrance at **`(39, 28)`** (flanked by a miner at `40, 30` saying *"We miners work hard everyday to dig up resources."* and a wooden signpost at `41, 30` reading verbatim: *"Destino Mine"*, verified Turns 32198-32201).
   - **Lower Plaza Residential House (`25, 30` <-> Interior `5, 51`)**: Reached via the `row 31` sidewalk (`28, 31 -> 25, 31 -> 25, 30`); interior features a woman at `(6, 48)` (*"Hehe... / Bird is the word! / Everyone knows bird is the word"*) and decorative non-enterable stairs at `(1-2, 47)` (verified Turns 32569-32570).
+- **Western Destino City (`cols 0-35, rows 18-21`)**:
+  - **Gentleman (`25, 21`)**: *"Back in my day this city used to be even richer! / Then all this fancy technology came and coal became less important!"* (verified Turn 33002).
 
 <hr>
 
