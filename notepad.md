@@ -740,8 +740,8 @@
   - **Pre-Battle Quote**: *"The forests here are such perfect places for picnicking! / And winning battles!"*
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Staravia (♀, Lv27; Normal/Flying).
-    - **Pokémon 2**: Floatzel (Lv27; Water).
-  - **Outcome**: Battled in Turns 32692-32695.
+    - **Pokémon 2**: Floatzel (♀, Lv27; Water; Ability: Drizzle).
+  - **Outcome**: Defeat quote: *"My Pokémon"*; awards `₽1,080` (verified Turns 32692-32697).
 
 <hr>
 
