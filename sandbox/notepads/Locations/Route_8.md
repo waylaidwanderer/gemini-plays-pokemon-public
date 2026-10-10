@@ -25,4 +25,5 @@
     - **Pokémon 1**: Hakamo-o (♀, Lv35; Dragon/Fighting; OHKO'd by Sirius's `Meteor Mash` for `1102 EXP`).
     - **Pokémon 2**: Poliwrath (♀, Lv35; Water/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1387 EXP`).
     - **Pokémon 3**: Medicham (♀, Lv36; Fighting/Psychic; OHKO'd by Sirius's `Meteor Mash` for `1179 EXP`).
-    - **Pokémon 4**: Infernape (♂, Lv36; Fire/Fighting).
+    - **Pokémon 4**: Infernape (♂, Lv36; Fire/Fighting; OHKO'd by Sirius's `Bulldoze` for `1611 EXP`).
+  - **Outcome**: Defeated in Turns 34103-34112 (*"Retreat attack"*; awards `₽2,592`).
