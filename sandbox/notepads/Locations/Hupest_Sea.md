@@ -32,3 +32,12 @@
   - Stepping onto `(32, 46)` triggers the reunion with **Professor Ivo** (`36, 46`), **Valora** (`32, 47`), and **Dad (Jackson)** (`36, 42`).
   - When Asher relays Frio's revelation about an abandoned undersea Team Siara laboratory, Professor Ivo shows them a newly opened hole/cave entrance (`36, 40`) that wasn't there during her earlier research with Valora, realizing Team Siara has most likely already broken into the old laboratory below.
   - Professor Ivo, Valora, and Dad enter the cave (`36, 40`), leaving Asher at `(33, 46)` (`Right 3, Up 6` climbs the stairs at `35-36, 44-45` into the cave entrance `36, 40`).
+## Location 3 Cave Passage (Undersea Lab Approach)
+- **Entrance (`13, 11` <-> Small Offshore Isle `36, 40`)**: Stepping `Down` off `(13, 11)` exits back to `(36, 40)` on the Small Offshore Isle (verified Turn 34375).
+- **Three Consecutive Descending Wooden Staircases (`20, 9 -> 26, 12`)**:
+  - **Staircase 1**: `(20, 9) -> Right 2 -> (22, 10)` (verified Turn 34378).
+  - **Staircase 2**: `(22, 10) -> Right 2 -> (24, 11)` (verified Turn 34379).
+  - **Staircase 3**: `(24, 11) -> Right 2 -> (26, 12)` (verified Turn 34379).
+- **Orange Mining Machine & Northern Archway (`27-30, 6-12`)**:
+  - An abandoned Team Siara orange mining machine sits at `(28-30, 11-12)`.
+  - Walking `Up 2` from `(27, 12)` to `(27, 10)` and `Right 1` to `(28, 10)` aligns with the northern passage under the wooden support archway (`28-29, 6-9`, flanked by wooden pillars at `col 27` and `col 30`).
