@@ -18,3 +18,4 @@
   - **Pre-Battle Quote**: *"Hey there, kid! / How much is in your wallet?"*
   - **Team (2 Pokémon)**: Machamp (♂, Lv35; Fighting; `1447 EXP`) and Cloyster (♂, Lv35; Water/Ice; `1522 EXP`).
   - **Outcome**: Defeated in Turns 33792-33795 (*"Clearly more than how much I'll ever have!"*). Rugged rocks sit at `(26, 9)` and `(33, 8)` beside a blue barrel at `(32, 8)`.
+- **Northern Exit Ladder (`36, 7` in Aur Factory 1F <-> `38, 10 -> 38, 11` on Aur Factory Exterior)**: Stepping onto `(36, 7)` and pressing `Up` climbs the wall ladder to `(38, 10)` on the northern exterior grounds of **Aur Factory**, where **Dad (Jackson)** waits at `(35, 15)` (verified Turn 33798).
