@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 159), Attack (C+, 148), Defense (A-, 143), Sp. Atk (C-, 138), Sp. Def (E, 94), Speed (C-, 98)
-- **Current Condition**: 79/159 HP, Healthy (full party healed and checkpoint registered at Destino City Pokémon Center in Turn 32998; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091; revived to 79/159 HP and defeated ambushing Siara Grunt's Gardevoir in Turn 33139)
+- **Current Condition**: 23/159 HP, Healthy (full party healed and checkpoint registered at Destino City Pokémon Center in Turn 32998; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091; revived to 79/159 HP in Turn 33137 and chipped wild Lv20 Sigilyph to ~12% red HP in Turn 33174)
 - **EXP**: Lv54 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
