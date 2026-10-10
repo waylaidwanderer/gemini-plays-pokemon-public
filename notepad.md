@@ -637,6 +637,12 @@
   - **Fisherman 1 (`26, 14`)**: Faces north at the eastern notch of the sandbar (cannot be spoken to directly from the water tile `26, 13` without dismounting onto land, verified Turn 34319).
   - **Fisherman 2 (`20, 15`)**: Faces south near the western edge of the sandbar (observed Turn 34319).
   - **Small Rock (`27, 15`)**: Located on the southeastern tip of the sandbar.
+- **Eastern Grassy Sandbar (`34, 15-17`)**: Features a red item ball at `(34, 16)` inside a small patch of grass (observed Turn 34321).
+- **Mid-Sea Rock Gap (`cols 26-28, rows 23-27`)**:
+  - **Male Swimmer (`26, 23`)**: Swims vertically along `column 26` between the rock clusters at `(23-24, 24-25)` and `(29-31, 25-27)`.
+
+## Wild Pokémon Encounters (Surfing)
+- **Wailmer** (♂, Lv31; Water; caught in 2nd Ultra Ball at `27, 23` in Turn 34326, nicknamed **Baleen**, transferred to Box 3; brings PokéDex Owned count to **79**).
 
 <hr>
 
@@ -2581,7 +2587,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 34218)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x22** (purchased 30 at Maple Town PokéMart in Turn 34063, collected 1 at Route 8 `42, 15` in Turn 34101, used 3 catching wild Lv27 Floette at `25, 23` in Turn 34119, used 3 catching wild Lv28 Gloom at `12, 22` in Turn 34136, used 1 catching wild Lv26 Audino at `13, 27` in Turn 34148, used 2 catching wild Lv28 Linoone at Route 9 `15, 22` in Turn 34212, and used 1 catching wild Lv27 Vigoroth at Route 9 `16, 22` in Turn 34217), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **78**.
+- **Poké Balls Pocket (Audited Turn 34326)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x20** (purchased 30 at Maple Town PokéMart in Turn 34063, collected 1 at Route 8 `42, 15` in Turn 34101, used 3 catching wild Lv27 Floette at `25, 23` in Turn 34119, used 3 catching wild Lv28 Gloom at `12, 22` in Turn 34136, used 1 catching wild Lv26 Audino at `13, 27` in Turn 34148, used 2 catching wild Lv28 Linoone at Route 9 `15, 22` in Turn 34212, used 1 catching wild Lv27 Vigoroth at Route 9 `16, 22` in Turn 34217, and used 2 catching wild Lv31 Wailmer at Hupest Sea `27, 23` in Turn 34326), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **79**.
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*

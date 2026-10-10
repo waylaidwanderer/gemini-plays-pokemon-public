@@ -12,3 +12,9 @@
   - **Fisherman 1 (`26, 14`)**: Faces north at the eastern notch of the sandbar (cannot be spoken to directly from the water tile `26, 13` without dismounting onto land, verified Turn 34319).
   - **Fisherman 2 (`20, 15`)**: Faces south near the western edge of the sandbar (observed Turn 34319).
   - **Small Rock (`27, 15`)**: Located on the southeastern tip of the sandbar.
+- **Eastern Grassy Sandbar (`34, 15-17`)**: Features a red item ball at `(34, 16)` inside a small patch of grass (observed Turn 34321).
+- **Mid-Sea Rock Gap (`cols 26-28, rows 23-27`)**:
+  - **Male Swimmer (`26, 23`)**: Swims vertically along `column 26` between the rock clusters at `(23-24, 24-25)` and `(29-31, 25-27)`.
+
+## Wild Pokémon Encounters (Surfing)
+- **Wailmer** (♂, Lv31; Water; caught in 2nd Ultra Ball at `27, 23` in Turn 34326, nicknamed **Baleen**, transferred to Box 3; brings PokéDex Owned count to **79**).
