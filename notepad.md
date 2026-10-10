@@ -210,6 +210,10 @@
     - **Pre-Battle Quote**: *"You crossed the water, right? / You must be a skilled Trainer!"*
     - **Team (3 Pokémon)**: Manectric (♂, Lv34; Electric), Gastrodon (♂, Lv35; Water/Ground; `1245 EXP`), and Feraligatr (♀, Lv34; Water; knows Scary Face; `1530 EXP`).
     - **Outcome**: Defeated in Turns 33676-33687 (*"Maybe too skilled"*; awards `₽2,100`).
+- **Hiker Jovan (`43, 18` -> `43, 19`, facing `Down` beside the wooden cliff staircase at `40-42, 14-18`)**:
+  - **Pre-Battle Quote**: *"I lost my precious job a long time ago... / The best I can do now is fighting Trainers passing by..."*
+  - **Team (3 Pokémon)**: Camerupt (♀, Lv34; Fire/Ground; `1275 EXP`), Excadrill (♂, Lv34; Ground/Steel; `1296 EXP`), and Nidoking (♂, Lv35; Poison/Ground; `1462 EXP`).
+  - **Outcome**: Defeated in Turns 33698-33706.
 
 <hr>
 
