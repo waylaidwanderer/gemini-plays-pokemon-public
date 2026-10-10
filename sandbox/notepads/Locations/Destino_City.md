@@ -23,3 +23,4 @@
   - **Western Apartment (`23, 18` <-> `5, 23`)**: Empty 1F interior with decorative stairs (verified Turn 33004).
   - **Gentleman (`25, 21`)**: *"Back in my day this city used to be even richer! / Then all this fancy technology came and coal became less important!"* (verified Turn 33002).
   - **Route 11 Signboard (`15-16, 19`)**: Interacted from `(17, 19)`, reads verbatim: *"Route 11 / <-------"* (verified Turn 33010).
+  - **Far-Western Apartment (`12, 18` <-> `5, 37`)**: Contains a blonde girl at `(7, 34)` (*"Grandma's bolognese is the best in the entire world"*) and her grandmother at `(6, 33)` (*"You know... / The key for good pasta is salting the water before doing anything"*; verified Turn 33011).
