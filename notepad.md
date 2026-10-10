@@ -396,7 +396,11 @@
   - **Encounter with Sinnoh Champion Cynthia & The Odd Keystone (`14, 29` -> `14, 30`, Turns 32905-32912)**: Stepping onto `(14, 29)` outside the Pokémon Center door triggers a cutscene where **Cynthia**, Champion of the Sinnoh Region, exits the Pokémon Center (`14, 29`). She explains that she was invited as a special guest to watch the **Eclipse Tournament**, came to Jarro Town because of the **Ancient Hupestian Ruins**, and noticed Asher's battles as having greater potential than even the other standout competitors (Frio and Valora). Before departing south toward Route 12, Cynthia gifts Asher the **Odd Keystone** (stored in the Items Pocket; fits the ancient stone tower in the secret Route 6 section of Destino Mine 1F).
 - **Town Signboard (`17-18, 29`)**: Interacted from `(16, 29)` or `(17-18, 30)`, reads verbatim: *"Jarro Town / Highest of Hupest"* (verified Turn 32916).
 - **Southern Entrance Woman NPC (`16, 31`)**: Standing beside the lamppost southeast of the Pokémon Center (*"Jarro is such a quiet little town!"*, verified Turn 32917).
-- **Old Gentleman & Zangoose (`20, 29` & `21, 29`)**: Standing outside the wooden cabin (`22, 28` door) east of the Pokémon Center (*"I used to be a Pokémon Trainer in my youngest days... / With my partner Zangoose we defeated every opponent!"*, verified Turn 32917).
+- **Old Gentleman & Zangoose (`20, 29` & `21, 29`)**: Standing outside the West Cabin (`22, 28` door) east of the Pokémon Center (*"I used to be a Pokémon Trainer in my youngest days... / With my partner Zangoose we defeated every opponent!"*; Zangoose: *"Zan Zan!"*, verified Turns 32917-32918).
+- **West Cabin (`22, 28` <-> `6, 51`)**:
+  - **Seated Father (`6, 48`)**: *"Going to a store from here is such a pain."* (verified Turn 32920).
+  - **Little Blonde Girl (`3, 50`)**: *"Oh my... / The almighty fridge has no milk... / Dad! We need to get some milk!"* (verified Turn 32920).
+- **Central Stone Staircase (`24-26, 24-26`)**: Leads north between the West Cabin (`22, 28`) and East Cabin (`29, 28`) toward the upper level of Jarro Town.
 
 <hr>
 
