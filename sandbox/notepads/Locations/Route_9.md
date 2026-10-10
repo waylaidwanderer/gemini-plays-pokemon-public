@@ -24,7 +24,12 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Aggron (♀, Lv40; Steel/Rock; Ability: Sturdy; knows Metal Sound; 2HKO'd by Sirius's `Mach Punch` for `1756 EXP`).
   - **Outcome**: Defeated in Turns 34225-34228.
-- **Trainer at `(38, 14)` (facing `Down` in tall grass east of the northern signboard)**: Observed Turn 34230.
+- **Cooltrainer Sofia (`38, 14`, facing `Down` in tall grass east of the northern signboard)**:
+  - **Pre-Battle Quote**: *"Hey hey! / How about a quick power demonstration?"* (triggered at `38, 15` in Turn 34232).
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Mimikyu (♂, Lv38; Ghost/Fairy; Ability: Sturdy; knows Shadow Claw; 2HKO'd by Sirius's `Meteor Mash` + `Bulldoze` for `1359 EXP`).
+    - **Pokémon 2**: Clefable (♀, Lv38; Fairy; OHKO'd by Sirius's `Meteor Mash` for `1050 EXP`).
+  - **Outcome**: Defeated in Turns 34233-34238.
 ## Wild Pokémon Encounters
 - **Tall Grass (`cols 1-8, rows 27-36` & `cols 13-18, rows 19-32`)**:
   - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 3 in Turn 34213, bringing Owned species to **77**).
