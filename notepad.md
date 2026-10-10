@@ -1163,8 +1163,9 @@
 - **North (`14-15, 0` <-> Galinor City `14-15, 86`)**: Seamless northern border connecting the southern sandy trail of **Galinor City** onto **Route 13** at `(14-15, 0)` (verified Turn 33927).
 - **Northern Signboard (`19-20, 11`)**: Interacted from `(19, 12)`, reads verbatim: *"Route 13 / The route of agriculture"* (verified Turn 33937).
 ## Wild Pokémon Encounters
-- **Tall Grass (`11-17, 10-16`)**:
+- **Tall Grass (`11-17, 10-16` & `18-29, 42-47`)**:
   - **Ponyta** (♂, Lv27; Fire; caught in 1 Ultra Ball at `12, 12` in Turn 33933, transferred to Box 2, bringing Owned species to **70**).
+  - **Yanma** (♀, Lv25; Bug/Flying; Ability: Speed Boost; knows Supersonic and Sonic Boom; caught at `20, 43` in Turn 33982, nicknamed **Anis**, transferred to Box 2, bringing Owned species to **71**).
 ## Trainers & NPCs
 - **Picnicker (`14-15, 14-16`, wandering in tall grass)**: Friendly NPC wandering in the northern grass patch.
 - **Gentleman Rick (`30, 21`, facing `Right` across `31-33, 21`)**:
@@ -2319,7 +2320,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 33933)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x10** (used 1 to catch wild Lv27 Ponyta on Route 13 at `12, 12` in Turn 33933, transferred to Box 2), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x1** (collected at Aurin Town Western Bay `27, 26` in Turn 33661), and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **70**.
+- **Poké Balls Pocket (Audited Turn 33982)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x8** (used 2 to catch wild Lv25 Yanma on Route 13 at `20, 43` in Turn 33982, nicknamed **Anis** and transferred to Box 2), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0** (used 1 on wild Lv25 Yanma in Turn 33979), and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **71**.
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
