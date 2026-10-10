@@ -229,3 +229,6 @@
   1. **Quarterfinals**: Defeated **Juggler Tony** (Togetic Lv25, Ninjask Lv25, Luxio Lv26).
   2. **Semifinals**: Defeated **Black Belt Lee** (Heracross Lv25, Hitmonlee Lv25, Dewott Lv26), while Sinnoh's **Aaron** defeated Ace Trainer Marcus on the opposite side of the bracket.
   3. **Round Three Finals**: Defeated **PKMN Trainer Aaron** from the Sinnoh region (Dustox Lv25, Yanmega Lv25, Vespiquen Lv26, Scizor Lv25) to win his Round Three group and advance to Round Four of the Eclipse Tournament.
+- **Post-Round-3 HuPhone Message from Professor Ivo (`11, 11`, Turns 32554-32556)**:
+  - Stepping north onto `(11, 11)` in the Tournament Arena Lobby after winning Round 3 triggers a HuPhone text message from **Professor Ivo**: *"Hey, Asher! I heard Round 3 has ended, I hope you are still going strong! Anyway, I would like you to meet me in Jarro Town. There's something really interesting I would like to show you! You can reach the town from Route 12. The exit to the route is the most northerly tunnel in Amor, I'm on my way there too. See you there!"*.
+  - Asher decides to text Valora and head to **Jarro Town** via **Route 12** (accessed through the northernmost tunnel in Amor City).

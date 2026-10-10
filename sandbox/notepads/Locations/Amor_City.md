@@ -101,3 +101,4 @@
     - **Pokémon 3**: Vespiquen (♀, Lv26; Bug/Flying; Ability: Pressure).
     - **Pokémon 4**: Scizor (♂, Lv25; Bug/Steel).
   - **Outcome**: Defeat quote: *"I guess you really were my final opponent... / Not just in this round but in the whole tournament... how shocking."*; awards `₽2,912` and crowns Asher winner of his Round 3 group (verified Turns 32542-32553).
+- **Post-Round-3 Cutscene Trigger (`11, 11` in Tournament Arena Lobby, Turns 32554-32556)**: Stepping north onto `(11, 11)` after winning Round 3 triggers Professor Ivo's HuPhone text message inviting Asher to meet her in **Jarro Town** via **Route 12** (reached through the most northerly tunnel in Amor City).
