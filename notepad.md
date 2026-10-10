@@ -837,6 +837,13 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Amoonguss (♀, Lv29; Grass/Poison).
   - **Outcome**: Defeat quote: *"..."*; awards `₽1,392` (verified Turns 32877-32882).
+- **Picnicker Gracie (`34, 13` -> `34, 11`, rotating)**:
+  - **Pre-Battle Quote**: *"Let me show you my strong Pokémon!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Lombre (♂, Lv28; Water/Grass).
+    - **Pokémon 2**: Swadloon (♀, Lv28; Bug/Grass; knows GrassWhistle, String Shot, and Razor Leaf).
+    - **Pokémon 3**: Leafeon (♀, Lv29; Grass).
+  - **Outcome**: Defeat quote: *"Nooooo!"*; awards `₽1,160` (verified Turns 32885-32899; Sirius leveled up to Lv52 and declined Dragon Pulse).
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
