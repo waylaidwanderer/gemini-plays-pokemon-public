@@ -169,6 +169,16 @@
 - **Post-Round-5 Cutscene with Dawn & Valora (`11, 10` in Tournament Arena Lobby -> `9, 18` in Ivo's Basement Lab, Turns 33457-33461)**:
   - Stepping onto `(11, 10)` in the Tournament Arena Lobby after winning Round 5 triggers **Dawn** to greet Asher (`"So, how's Mr. Famous doing?"`), invite him out for a drink or food to celebrate (which Asher declines because he has business to take care of and needs to pick someone up), and exchange phone numbers with him before departing.
   - Riding up the escalator at `(6, 17)`, **Valora** spots Dawn leaving and feels a pang of jealousy (*"Yet... why is she being so close to him? I have known him way longer"*). Though she also passed Round 5, Valora avoids meeting Asher's eyes and urges him to return to Professor Ivo's laboratory immediately, automatically fast-traveling them to **`(9, 18)`** in Professor Ivo's Basement Lab in Lancio Town.
+## Post-Round-5 Eastern Amor City & Amor City Northeast (`cols 75-92` & `64, 24` Amor Dept.)
+- **Cleared Construction Barrier (`75, 28-30`, Verified Turn 33465)**: After winning Round 5 of the Eclipse Tournament, the three construction workers at `(75, 28-30)` in Amor City South are gone, opening the main avenue east to `columns 85-86`.
+- **Eastern Northbound Avenue (`cols 85-86`, Verified Turns 33467-33475)**:
+  - Runs north from `(85, 29)` to `(86, 0)` (with a streetlamp at `85, 21` and an overhead skybridge spanning `rows 15-17`).
+  - **Decorative Building Facade (`80, 12`, Verified Turn 33473)**: Located west of `(86, 12-15)` with a wandering female Scientist at `(83-84, 12-15)`; the door at `(80, 12)` does not open.
+  - **Route 16 Avenue (`rows 7-8, cols 86-92+`, Observed Turn 33470)**: Branches east off `column 86` at `rows 7-8` in Amor City South (mirroring the Route 6 avenue on the west side at `rows 7-8`), with a wooden signboard at `(89-90, 6)`.
+- **Amor City Northeast (`86, 0` South <-> `86, 43` North, Verified Turns 33475-33480)**:
+  - Walking north across `(86, 0)` in Amor City South transitions seamlessly onto `(86, 43)` in Amor City Northeast.
+  - Three construction workers at `(85-87, 23)` block further north along `column 86` (verified Turn 33476).
+  - **Amor Department Store ("Amor Mall!", `64, 24` -> `8, 17`, Verified Turns 33477-33480)**: Reached by walking west from `(86, 26)` along `rows 26-27` to `(64, 26)` and north into the green-arched entrance at `(64, 24)`, which warps into **Amor Dept. 1F** at `(8, 17)`. An orange-roofed Pokémon Center building also stands south of the plaza at `(64, 31)`.
 
 <hr>
 
