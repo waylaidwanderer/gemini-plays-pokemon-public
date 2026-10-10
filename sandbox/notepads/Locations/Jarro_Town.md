@@ -5,7 +5,9 @@
 
 ## Landmarks, Facilities & Key Events
 - **Jarro Town Pokémon Center (`14, 28`)**: Located along the southern entrance avenue (`col 11 -> row 29 -> 14, 28`).
-  - **Encounter with Sinnoh Champion Cynthia (`14, 29` -> `14, 30`, Turns 32905-32911+)**: Stepping onto `(14, 29)` outside the Pokémon Center door triggers a cutscene where **Cynthia**, Champion of the Sinnoh Region, exits the Pokémon Center (`14, 29`). She explains that she was invited as a special guest to watch the **Eclipse Tournament**, came to Jarro Town to visit the **Ancient Hupestian Ruins**, and noticed Asher's battles as having greater potential than even the other standout competitors (Frio and Valora).
-- **Town Signboard (`17-18, 28`)**: Located immediately east of the Pokémon Center.
+  - **Nurse Joy (`7, 2`, counter at `7, 4`)**: Healed party and registered checkpoint in Turn 32914.
+  - **Patron (`8, 6`)**: *"You can't become a good Trainer with just one strong Pokémon. / But raising many Pokémon evenly is no easy task, either."* (verified Turn 32915).
+  - **Encounter with Sinnoh Champion Cynthia & The Odd Keystone (`14, 29` -> `14, 30`, Turns 32905-32912)**: Stepping onto `(14, 29)` outside the Pokémon Center door triggers a cutscene where **Cynthia**, Champion of the Sinnoh Region, exits the Pokémon Center (`14, 29`). She explains that she was invited as a special guest to watch the **Eclipse Tournament**, came to Jarro Town because of the **Ancient Hupestian Ruins**, and noticed Asher's battles as having greater potential than even the other standout competitors (Frio and Valora). Before departing south toward Route 12, Cynthia gifts Asher the **Odd Keystone** (stored in the Items Pocket; fits the ancient stone tower in the secret Route 6 section of Destino Mine 1F).
+- **Town Signboard (`17-18, 29`)**: Interacted from `(16, 29)` or `(17-18, 30)`, reads verbatim: *"Jarro Town / Highest of Hupest"* (verified Turn 32916).
 - **Southern Entrance Woman NPC (`16, 31`)**: Standing beside the lamppost southeast of the Pokémon Center.
-- **Old Gentleman & Zangoose (`20, 28` & `21, 28`)**: Standing outside the wooden cabin east of the Pokémon Center.
+- **Old Gentleman & Zangoose (`20, 29` & `21, 29`)**: Standing outside the wooden cabin (`22, 28` door) east of the Pokémon Center.
