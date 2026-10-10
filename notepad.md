@@ -1328,6 +1328,18 @@
   - **Northeast Clearing (`cols 45-55, rows 8-16`)**:
     - **Ancient Stone Plate #4 (`52, 11`)**: Interacted from `(52, 12)`, reads verbatim: *"It looks like an ancient stone plate... / There's some text carved in! / 'Ones... got this fa... may st... in' / It's barely readable, and the rest is completely messed up..."* (verified Turn 33370).
     - **Northeast Forest Archway (`48-50, 8`)**: Located directly north of the sand patch (`48-50, 11-13`); bounded on the west by the pine tree at `(46-47, 7-9)` and on the east by the stone ruin wall (`51-53, 9-10`) and trees (`54-59, 8-16`; verified via Turn 33371 `latest_grid.png`).
+- **Solare Island Inner Shrine (`14, 28` -> `14, 17`)**:
+  - **Connection**: Stepping north into the Northeast Forest Archway at `(49, 8)` in Solare Island Forest warps to `(14, 28)` in the Solare Island Inner Shrine and automatically walks Asher up to `(14, 26)` (verified Turn 33372).
+  - **The Enigmatic Gem & Marie's Ambush (`14, 14` -> `14, 17`, Turns 33373-33375)**:
+    - Dad (Jackson) and Professor Ivo join Asher and Valora at `(14, 26)` as Ivo's energy detector spikes toward the upper shrine altar (`14, 14`), where a glowing enigmatic gem rests.
+    - **Marie ("Mom")** arrives up the shrine stairs (`14, 19`) with two Team Siara Grunts (`13, 20` & `15, 20`) and reveals that because only a true Eclipser could lower the island's crystal barriers (and Frio refused to be lured in after defecting), Team Siara intentionally let Asher solve the barrier puzzle and lead them to the shrine.
+    - **Harry's Betrayal as Siara Admin Harry**: When Marie remarks that *"the four of us will be enough"*, **Harry** walks up the stairs in his Team Siara uniform (`14, 19`), punches Jackson aside (`14, 18 -> 13, 18`), and reveals that his "double agent" story at the Galinor Cargo Loading Bay was a lie—he is still loyal to Marie as **Siara Admin Harry** (*"Mom: Lesson number one about life, Ashi. Never trust anyone!"*).
+  - **Boss Battle — Siara Admin Harry (`14, 17`, Turns 33375-33391)**:
+    - **Team (4 Pokémon)**:
+      1. **Lapras♂ Lv32** (Water/Ice; OHKO'd by Sirius's `Aura Sphere` for `1501 EXP` in Turn 33376).
+      2. **Shiftry♀ Lv33** (Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1279 EXP` in Turn 33378).
+      3. **Zoroark♂ Lv32** (Dark; OHKO'd by Sirius's `Mach Punch` for `1440 EXP` in Turn 33380, leveling Sirius to Lv56).
+      4. **Eclipsed Vikavolt♂ Lv33** (holds `Leftovers`, uses `Discharge`, and is **weak to Electric-type moves** (`2x` super-effective from Vega's `Spark`, verified Turn 33390); Harry also uses up to 2 Hyper Potions/Full Restores when Eclipsed Vikavolt drops into low red HP).
 
 <hr>
 
@@ -1872,6 +1884,9 @@
   - Harry revealed that he used to be very poor until Jackson gave him a job at Team Siara when Jackson was still a Boss, and that Harry even served as a **Siara Admin** alongside **Flo** (whom Harry noted is **Marie's cousin**) before stepping down to a regular grunt role.
   - When Jackson left Siara, Harry wanted to follow him because he agreed with what Jackson stood for, so Jackson asked Harry to stay inside Team Siara as a **double agent** to feed Jackson intelligence on Siara's operations without actively participating in their schemes.
   - Promising not to tell Dad that Harry shared the secret, Asher boarded the ship with Harry, and they sailed to **Solare Island** (`36, 51`, Turn 33060).
+## Solare Island Inner Shrine — The Enigmatic Gem & Harry's Betrayal
+- **Team Siara's Trap (`14, 26` -> `14, 17`, Turns 33372-33375)**: After Asher deactivated all four ancient Eclipser crystal barriers in Solare Island Forest and reached the Inner Shrine altar (`14, 14`) with Valora, Dad (Jackson), and Professor Ivo to examine the enigmatic gem emitting the massive energy signal, **Marie ("Mom")** and two Team Siara Grunts ambushed them. Marie revealed that because only a true Eclipser could lower the island's barriers—and Frio refused to be lured in—she let Asher clear the path to the Inner Shrine for Team Siara.
+- **Siara Admin Harry's True Allegiance**: **Harry** arrived up the shrine stairs in his Team Siara uniform, knocked Jackson aside from behind, and revealed that he was never Jackson's double agent—he had remained loyal to Marie as **Siara Admin Harry** all along (*"Mom: Lesson number one about life, Ashi. Never trust anyone!"*), before challenging Asher to a 4-Pokémon boss battle (`Lapras♂ Lv32`, `Shiftry♀ Lv33`, `Zoroark♂ Lv32`, and **Eclipsed Vikavolt♂ Lv33**).
 
 <hr>
 
@@ -2095,7 +2110,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 164), Attack (C+, 153), Defense (A-, 148), Sp. Atk (C-, 143), Sp. Def (E, 97), Speed (C-, 101)
-- **Current Condition**: 78/164 HP, Healthy (full party healed and checkpoint registered at Destino City Pokémon Center in Turn 32998; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091; revived to 79/159 HP in Turn 33137, chipped wild Lv20 Sigilyph in Turn 33174, restored to 73/159 HP via Super Potion in Turn 33185, reached Lv55 [75/161 HP] defeating Siara Grunt's Passimian Lv33 at `8, 30` in Turn 33210, and reached Lv56 [78/164 HP] defeating Siara Admin Harry's Zoroark Lv32 at `14, 17` in Turn 33381)
+- **Current Condition**: 0/164 HP [FNT] (reached Lv56 [78/164 HP] defeating Siara Admin Harry's Zoroark Lv32 at `14, 17` in Turn 33381; fainted to Siara Admin Harry's Eclipsed Vikavolt Lv33 `Discharge` in Turn 33387)
 - **EXP**: Lv56 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

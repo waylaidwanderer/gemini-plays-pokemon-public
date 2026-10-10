@@ -64,3 +64,15 @@
   - **Northeast Clearing (`cols 45-55, rows 8-16`)**:
     - **Ancient Stone Plate #4 (`52, 11`)**: Interacted from `(52, 12)`, reads verbatim: *"It looks like an ancient stone plate... / There's some text carved in! / 'Ones... got this fa... may st... in' / It's barely readable, and the rest is completely messed up..."* (verified Turn 33370).
     - **Northeast Forest Archway (`48-50, 8`)**: Located directly north of the sand patch (`48-50, 11-13`); bounded on the west by the pine tree at `(46-47, 7-9)` and on the east by the stone ruin wall (`51-53, 9-10`) and trees (`54-59, 8-16`; verified via Turn 33371 `latest_grid.png`).
+- **Solare Island Inner Shrine (`14, 28` -> `14, 17`)**:
+  - **Connection**: Stepping north into the Northeast Forest Archway at `(49, 8)` in Solare Island Forest warps to `(14, 28)` in the Solare Island Inner Shrine and automatically walks Asher up to `(14, 26)` (verified Turn 33372).
+  - **The Enigmatic Gem & Marie's Ambush (`14, 14` -> `14, 17`, Turns 33373-33375)**:
+    - Dad (Jackson) and Professor Ivo join Asher and Valora at `(14, 26)` as Ivo's energy detector spikes toward the upper shrine altar (`14, 14`), where a glowing enigmatic gem rests.
+    - **Marie ("Mom")** arrives up the shrine stairs (`14, 19`) with two Team Siara Grunts (`13, 20` & `15, 20`) and reveals that because only a true Eclipser could lower the island's crystal barriers (and Frio refused to be lured in after defecting), Team Siara intentionally let Asher solve the barrier puzzle and lead them to the shrine.
+    - **Harry's Betrayal as Siara Admin Harry**: When Marie remarks that *"the four of us will be enough"*, **Harry** walks up the stairs in his Team Siara uniform (`14, 19`), punches Jackson aside (`14, 18 -> 13, 18`), and reveals that his "double agent" story at the Galinor Cargo Loading Bay was a lie—he is still loyal to Marie as **Siara Admin Harry** (*"Mom: Lesson number one about life, Ashi. Never trust anyone!"*).
+  - **Boss Battle — Siara Admin Harry (`14, 17`, Turns 33375-33391)**:
+    - **Team (4 Pokémon)**:
+      1. **Lapras♂ Lv32** (Water/Ice; OHKO'd by Sirius's `Aura Sphere` for `1501 EXP` in Turn 33376).
+      2. **Shiftry♀ Lv33** (Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1279 EXP` in Turn 33378).
+      3. **Zoroark♂ Lv32** (Dark; OHKO'd by Sirius's `Mach Punch` for `1440 EXP` in Turn 33380, leveling Sirius to Lv56).
+      4. **Eclipsed Vikavolt♂ Lv33** (holds `Leftovers`, uses `Discharge`, and is **weak to Electric-type moves** (`2x` super-effective from Vega's `Spark`, verified Turn 33390); Harry also uses up to 2 Hyper Potions/Full Restores when Eclipsed Vikavolt drops into low red HP).
