@@ -37,7 +37,16 @@
     - **Pokémon 2**: Mudsdale (♂, Lv37; Ground; OHKO'd by Sirius's `Aura Sphere` for `1387 EXP`).
     - **Pokémon 3**: Rapidash (♀, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1480 EXP`).
   - **Outcome**: Defeated in Turns 33970-33974 (*"Darn..."*).
+- **Black Belt Sive (`16, 35`, facing `Right` across `17-18, 35` on the western cliff plateau)**:
+  - **Pre-Battle Quote**: *"Falco Punch!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Passimian (Lv36; Fighting; OHKO'd by Sirius's `Aura Sphere` in Turn 33989).
 ## Items
 - **Stick x1 (`25, 35`)**: Collected from the golden item ball at `(25, 35)` in the western wheat field (interacted from `26, 35`; verified Turn 33966).
+- **Western Cliff Ridge Item (`15, 43`)**: Item ball on the southern ledge of the western cliff ridge, gated by the rugged rock at `(15, 39)` (`latest_grid.png` Turns 33976 & 33987).
 ## Spatial & Terrain Mechanics
-- **Wheat Field Crop Row Collision**: In the Route 13 wheat fields, the lower/middle stalks of the vertical wheat rows (`29-32, 33-36` and `25-27, 28-34`) have solid wall collision, while the top-tip rows (`row 32` at `28-32, 32` and `row 35` at `25-28, 35`) and green grass aisles (`column 28` and `columns 33-35`) are walkable (verified Turns 33961-33966).
+- **Wheat Field Crop Row Collision**: In the Route 13 wheat fields, the lower/middle stalks of the vertical wheat rows (`29-32, 33-36` and `25-27, 28-34`) have solid wall collision, while the top-tip rows (`row 32` at `28-32, 32`, `row 35` at `25-28, 35`, and `row 39` at `30-35, 39`) and green grass aisles (`column 28` and `columns 33-36`) are walkable (verified Turns 33961-33975).
+- **Western Fence Gates & Cliff Staircase**:
+  - Two openings in the western wheat-field fence at `(21-22, 39-40)` and `(21-22, 43)` lead west to `columns 19-20`.
+  - Heading south along `column 19` dead-ends at trees at `(19, 49)` with a continuous impassable fence along `column 20` (`20, 44-53`; verified Turns 33984-33986).
+  - Heading north along `column 19` from `(19, 43)` reaches the wooden cliff staircase at `(17-19, 36-38)`, which climbs onto the western cliff plateau (`cols 12-19, rows 31-38`; verified Turns 33986-33988).
