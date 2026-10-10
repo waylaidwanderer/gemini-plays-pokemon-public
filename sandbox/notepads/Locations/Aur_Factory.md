@@ -23,3 +23,4 @@
   - **Pre-Battle Quote**: *"I'm here looking for new Pokémon I could sell!"*
   - **Team (2 Pokémon)**: Sigilyph (♂, Lv35; Psychic/Flying; `1290 EXP`) and Grumpig (♀, Lv35; Psychic; `1230 EXP`).
   - **Outcome**: Defeated in Turns 33800-33805.
+- **Ether (`29, 12`)**: Collected from purple spray-bottle sprite at `(29, 12)` via the fence gap at `column 27` (`rows 12-15`; verified Turn 33806).
