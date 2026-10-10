@@ -402,6 +402,9 @@
   - **Little Blonde Girl (`3, 50`)**: *"Oh my... / The almighty fridge has no milk... / Dad! We need to get some milk!"* (verified Turn 32920).
 - **Central Stone Staircase (`24-26, 24-26`)**: Leads north between the West Cabin (`22, 28`) and East Cabin (`29, 28`) toward the upper level of Jarro Town.
 - **Hiker Outside East Cabin (`27, 29`, rotating stationary)**: *"Fresh air, nature everywhere... / The perfect place to live!"* (verified Turn 32921). Because he stands at `(27, 29)` between the East Cabin wall (`27, 28`) and the lamppost (`27, 30-32`), the East Cabin (`29, 28`) and eastern signboard (`33, 29`) are reached by routing south along `column 22` (`rows 29-33+`) around the southern pine trees.
+- **Middle Terrace (`rows 14-23`, reached via Central Stone Staircase `24-26, 24-26`)**:
+  - **Quest #9 Provider ("Angry Cubone Kid", `22, 15`)**: Boy in a brown cap standing in front of a fenced snow pen containing a **Cubone** (`23, 13`).
+  - **Northwest Cabin (`18, 15` <-> `6, 37`)**: Empty interior (likely belongs to the boy outside at `22, 15`; verified Turn 32929).
 
 <hr>
 
@@ -1734,7 +1737,7 @@
     6. Lost Eevee (Paused at Explorer `42, 12` in Destino Mine 1F in Turn 32613 after auditing all accessible tiles of 1F, 2F, and the Inner Den; frees the single active quest slot for Route 12 and Jarro Town until western Destino City unlocks)
     7. Kaboom (Completed in Turn 32170 — found the lost Dynamite in the southwestern sand patch at Route 6 `27, 34`, defeated the ambushing Lv20 Gible, and delivered the Dynamite to the Coworker at Route 6 `43, 19` to blast open the collapsed Route 6 mine entrance at `44, 18-19`; rewarded **Rocky Helmet**)
     8. Valentines Gift (Active — accepted from the boy in blue overalls at Route 12 Main `16, 75` in Turn 32745; objective is to find 3 missing flowers [standard Poké Ball sprites] across Route 12, with `Flower 3` collected at `18, 47` into Key Items Pocket in Turn 32835)
-    9. Angry Cubone Kid
+    9. Angry Cubone Kid (Provider located at Jarro Town `22, 15` in front of the fenced Cubone pen `23, 13`; observed Turn 32928)
     10. Push it!
   - **Page 3 Quests**:
     11. Oak's Research (Special Quest — accepted at Azluf Town `40, 7` in Turn 28501; Task 1 [10 Pokémon caught] completed in Turn 28681, rewarding **Bulbasaur**; Task 2 [25 Pokémon caught] completed in Turn 29958, rewarding **Charmander**; Task 3 [45/50 Pokémon caught] completed in Turn 31043, rewarding **Squirtle** and bringing Owned species to **51 Hupest / 20 Colen**; Professor Oak now states *"Thank you, this will be enough, but come back later, I might have some more tasks for you!"* and `Quest Status` reports *"You aren't doing any Quest currently..."*, while `Page 3 -> 11. Oak's Research` still displays *"This Quest hasn't been completed yet."*, verified Turns 31045-31051)
