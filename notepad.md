@@ -639,7 +639,10 @@
   - **Small Rock (`27, 15`)**: Located on the southeastern tip of the sandbar.
 - **Eastern Grassy Sandbar (`34, 15-17`)**: Features a red item ball at `(34, 16)` inside a small patch of grass (observed Turn 34321).
 - **Mid-Sea Rock Gap (`cols 26-28, rows 23-27`)**:
-  - **Male Swimmer (`26, 23`)**: Swims vertically along `column 26` between the rock clusters at `(23-24, 24-25)` and `(29-31, 25-27)`.
+  - **Swimmer♂ Avery (`26, 23`)**:
+    - **Pre-Battle Quote**: *"Swift! Swift faster!"*
+    - **Team (3 Pokémon)**: Seadra (♀, Lv39; Water; `1294 EXP`), Floatzel (♀, Lv39; Water; Ability: Drizzle; `1444 EXP`), Jellicent (♂, Lv39; Water/Ghost; `1404 EXP`).
+    - **Outcome**: Defeated in Turns 34328-34334 (*"One more lap"*; awards `₽468`).
 
 ## Wild Pokémon Encounters (Surfing)
 - **Wailmer** (♂, Lv31; Water; caught in 2nd Ultra Ball at `27, 23` in Turn 34326, nicknamed **Baleen**, transferred to Box 3; brings PokéDex Owned count to **79**).
