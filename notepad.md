@@ -765,7 +765,9 @@
   - **Outcome**: Defeat quote: *"I'm the one who's gonna fall!"*; awards `₽1,080` (verified Turns 32721-32738; Sirius leveled up to Lv49).
 - **Explorer Johnathan (`22, 60` -> `22, 61`, rotating)**:
   - **Pre-Battle Quote**: *"My explorer spirit needs a fiery battle!"*
-  - **Team (1 Pokémon)**: In progress (Turn 32762).
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Bronzong (Lv28; Steel/Psychic; knows Iron Defense).
+  - **Outcome**: Defeat quote: *"..."*; awards `₽1,344` (verified Turns 32761-32765).
 
 <hr>
 
