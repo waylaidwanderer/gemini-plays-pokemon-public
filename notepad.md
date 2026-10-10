@@ -1661,12 +1661,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv45
+- **Level**: Lv46
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 134), Attack (C+, 124), Defense (A-, 119), Sp. Atk (C-, 116), Sp. Def (E, 79), Speed (C-, 81)
-- **Current Condition**: 94/134 HP, Paralyzed (entered Round 3 at 45/134 HP Paralyzed after the Turn 32494 Pokémon Center dialogue did not complete; healed +50 HP via Super Potion in Turn 32515; leveled up to Lv45 defeating Siara Executive's Scyther in Turn 32410)
-- **EXP**: Lv45 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv45 defeating Siara Executive's Scyther in Destino Mine 2F in Turn 32410)
+- **Stats (IV Grades)**: HP (C, 136), Attack (C+, 127), Defense (A-, 123), Sp. Atk (C-, 118), Sp. Def (E, 81), Speed (C-, 83)
+- **Current Condition**: 136/136 HP, Paralyzed (healed to full via Hyper Potion in Turn 32530; leveled up to Lv46 defeating Black Belt Lee's Dewott in Turn 32538)
+- **EXP**: Lv46 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; reached Lv46 defeating Black Belt Lee's Dewott in the Round 3 Semifinals in Turn 32538)
 - **Moves**:
   - Slot 1: Metal Claw (Steel, Physical, 50 power, 95% acc, STAB, 35 PP; 10% chance to raise Attack +1; does not trigger cave wild Pokémon's Sturdiness damage-reduction popup)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
@@ -1691,7 +1691,7 @@
 - **Level**: Lv16 (leveled up defeating Siara Executive's Lv25 Wobbuffet in Destino Mine 2F in Turn 32423; Stats: HP 48, Attack 32, Defense 23, Sp. Atk 24, Sp. Def 18, Speed 26)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 16/48 HP (Healthy; Turn 32494 Pokémon Center dialogue exited before healing completed)
+- **HP**: 48/48 HP (Healthy; verified full HP on Party screen in Turn 32530)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
