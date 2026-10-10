@@ -7,3 +7,5 @@
   - **West (`0, 19-20` <-> Route 11 Main `76, 21-22`)**: Seamless map border connecting the 12-column eastern approach onto **Route 11 Main** at `(76, 21-22)` (verified Turn 33018).
 - **Route 11 Main & Galtino Bridge (`cols 0-76`)**:
   - **Galtino Bridge Signboard (`66-67, 19`)**: Interacted from `(66, 20)`, reads verbatim: *"Galtino Bridge / <------"* (verified Turn 33021).
+  - **Southern Coastal Cliff & Beach Ledge (`cols 59-67, rows 22-32`)**:
+    - Side-facing wooden staircase at `(61, 28-30)` (approached along `row 29`: `62, 29 <-> 60, 29`) leads down to the western beach ledge where a purple bottle sprite at **`(60, 27)`** yields **Carbos x1** (interacted from `60, 28`; verified Turn 33024).
