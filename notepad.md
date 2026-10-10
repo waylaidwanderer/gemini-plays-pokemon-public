@@ -722,7 +722,7 @@
     - **Pokémon 1**: Loudred (♀, Lv26; Normal).
     - **Pokémon 2**: Sandslash (♀, Lv26; Ground; knows Sand Tomb).
     - **Pokémon 3**: Granbull (♀, Lv27; Fairy).
-  - **Outcome**: Defeated in Turns 32656-32660 (Sirius at 75/139 HP).
+  - **Outcome**: Defeated in Turns 32656-32661; awards `₽1,620` (Sirius at 75/139 HP).
 
 <hr>
 
