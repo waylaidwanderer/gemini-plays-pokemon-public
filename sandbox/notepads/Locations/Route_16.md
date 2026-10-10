@@ -30,3 +30,8 @@
 ## Eastern Cliffside & Collapsed Bridge (`cols 71-80, rows 8-24`)
 - **Wooden Staircase (`72-74, 17-20`)**: Connects the lower meadow (`72-74, 21`) to the upper cliffside (`72-74, 16`).
 - **Dad & FastSwift Service App Cutscene (`76, 12`, Turns 33627-33630)**: Stepping onto the narrow wooden plank at `(76, 12)` triggers a cutscene where Asher sees the bridge to **Aurin Town** has collapsed from a storm, and **Dad (Jackson)** joins him (`76, 13`) and gives Asher the **FastSwift** service app on his HuPhone (*"When facing a body of water, press the 'A Button' to surf."*).
+- **Eastern Bay & Sandbar (`cols 77-89, rows 18-29`, Turns 33642-33648)**:
+  - Pressing `A` at `(76, 22)` facing the shoreline edge `(77, 22)` immediately mounts the FastSwift inflatable boat onto `(77, 22)`.
+  - A small sandbar with a rock at `(86, 22)` spans `(85-89, 21-24)`.
+  - **Wild Surf Encounters**: Wild **Wishiwashi** (Solo Form; encountered at `86, 25` in Turn 33645).
+  - **Seamless Transition to Eastern Map (`89, 25` <-> `6, 25`, Turn 33648)**: Surfing east past `column 89` transitions seamlessly onto `(6, 25)` of the rainy eastern bay / Aurin Town approaches map.

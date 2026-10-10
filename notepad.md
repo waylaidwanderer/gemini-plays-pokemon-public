@@ -191,6 +191,20 @@
 
 <hr>
 
+<h1><code>Locations/Aurin_Town</code></h1>
+
+# Aurin Town & Western Bay Approaches
+
+## Western Bay (`cols 0-27, rows 18-30`, Verified Turns 33648-33661)
+- **Seamless Western Connection**: Connects at `(6, 25)` <-> `(89, 25)` on Route 16.
+- **Sandbars**: Located at `(7-10, 24-27)` and `(16-17, 30)`.
+- **Wild Surf Encounters**: Wild **Barboach** (caught Lv22 ♂ at `7, 22` in Turn 33653, nicknamed **Richter**).
+- **Southern Peninsula (`cols 21-31, rows 22-30`)**:
+  - Shoreline landing along `column 22` (`rows 26-30`) with a wandering Bug Catcher at `(22-26, 28-30)`.
+  - Northern cove inlet at `(27, 23)` leads ashore to `(27, 24-25)` in front of an item ball at `(27, 26)`.
+
+<hr>
+
 <h1><code>Locations/Azluf_Town</code></h1>
 
 # Azluf Town
@@ -1046,6 +1060,11 @@
 ## Eastern Cliffside & Collapsed Bridge (`cols 71-80, rows 8-24`)
 - **Wooden Staircase (`72-74, 17-20`)**: Connects the lower meadow (`72-74, 21`) to the upper cliffside (`72-74, 16`).
 - **Dad & FastSwift Service App Cutscene (`76, 12`, Turns 33627-33630)**: Stepping onto the narrow wooden plank at `(76, 12)` triggers a cutscene where Asher sees the bridge to **Aurin Town** has collapsed from a storm, and **Dad (Jackson)** joins him (`76, 13`) and gives Asher the **FastSwift** service app on his HuPhone (*"When facing a body of water, press the 'A Button' to surf."*).
+- **Eastern Bay & Sandbar (`cols 77-89, rows 18-29`, Turns 33642-33648)**:
+  - Pressing `A` at `(76, 22)` facing the shoreline edge `(77, 22)` immediately mounts the FastSwift inflatable boat onto `(77, 22)`.
+  - A small sandbar with a rock at `(86, 22)` spans `(85-89, 21-24)`.
+  - **Wild Surf Encounters**: Wild **Wishiwashi** (Solo Form; encountered at `86, 25` in Turn 33645).
+  - **Seamless Transition to Eastern Map (`89, 25` <-> `6, 25`, Turn 33648)**: Surfing east past `column 89` transitions seamlessly onto `(6, 25)` of the rainy eastern bay / Aurin Town approaches map.
 
 <hr>
 
@@ -2100,7 +2119,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 33177)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x0**, and **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048; caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, Lv14 Trapinch at `42, 49` in Turn 32246, nicknamed **Dune**, Lv17 Teddiursa at Route 12 Main `18, 97` in Turn 32653, nicknamed **Ursa**, Lv23 Spewpa at Solare Island Forest `26, 30` in Turn 33109, nicknamed **Silk**, Lv22 Shelmet at Solare Island Forest `25, 25` in Turn 33117, nicknamed **Visor**, Lv25 Ferroseed at Solare Island Forest `9, 12` in Turn 33155, nicknamed **Mace**, and Lv23 Unown at Solare Island Forest `16, 17` in Turn 33166, nicknamed **Rune**, bringing Owned species to **66** in PokéDex).
+- **Poké Balls Pocket (Audited Turn 33653)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x13** (purchased 15 at Destino City PokéMart in Turn 33401 and used 2 to catch Lv22 Barboach in Turn 33653), and **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048; caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, Lv14 Trapinch at `42, 49` in Turn 32246, nicknamed **Dune**, Lv17 Teddiursa at Route 12 Main `18, 97` in Turn 32653, nicknamed **Ursa**, Lv23 Spewpa at Solare Island Forest `26, 30` in Turn 33109, nicknamed **Silk**, Lv22 Shelmet at Solare Island Forest `25, 25` in Turn 33117, nicknamed **Visor**, Lv25 Ferroseed at Solare Island Forest `9, 12` in Turn 33155, nicknamed **Mace**, Lv23 Unown at Solare Island Forest `16, 17` in Turn 33166, nicknamed **Rune**, and Lv22 Barboach at Aurin Town Western Bay `7, 22` in Turn 33653, nicknamed **Richter**, bringing Owned species to **67** in PokéDex).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
