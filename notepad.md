@@ -1581,7 +1581,9 @@
 - **Hiker Miguel (`36, 18`, facing `Down` on the central plateau)**:
   - **Pre-Battle Quote**: *"Greetings, fellow hiker!"*
   - **Team (2 Pokémon)**:
-    - **Pokémon 1**: Sudowoodo (♂, Lv37; Rock).
+    - **Pokémon 1**: Sudowoodo (♂, Lv37; Rock; Ability: Sturdy; knows Rock Tomb; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1069 EXP`).
+    - **Pokémon 2**: Lairon (♂, Lv37; Steel/Rock; Ability: Sturdy; knows Metal Sound; defeated by Sirius's 2x `Mach Punch` for `1204 EXP`).
+  - **Outcome**: Defeated in Turns 34095-34101 (*"Oh nooo!"*; awards `₽1,480`).
 
 <hr>
 
