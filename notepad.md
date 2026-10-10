@@ -408,6 +408,9 @@
   - **Police Officer (`15, 17`, facing East)**: *"Being a police officer in such a quiet little town is such an easy and calm job..."* (verified Turn 32930).
   - **Upper Ridge & Northeast Cabin (`29-30, 18-19` Staircase)**: A rugged rock at `(31, 14)` blocks access to the Northeast Cabin until rock-smashing equipment is obtained (verified Turn 32931).
 - **East Cabin (`29, 28` <-> `6, 23`)**: Contains a **Meowth** (`5, 20-21`; *"Meowth: Meooooow"*) and a wandering **Old Woman** (`8-9, 20-22`; verified Turns 32933-32935).
+- **Ecly Festival Lantern Path (`cols 33-38, rows 21-31`)**:
+  - **Ecly Festival Signboard (`33, 29`)**: Interacted from `(32, 29)`, reads verbatim: *"Ecly Festival / Held every year here in Jarro Town / Be sure to bring your friends!"* (verified Turn 32937).
+  - **Festival Girl (`33-34, 31`, wandering)**: *"The Ecly Festival... / I love that festival so much! / I feel all young nostalgic..."* (verified Turn 32938).
 
 <hr>
 
