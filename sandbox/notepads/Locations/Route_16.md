@@ -8,3 +8,7 @@
   - **Pre-Battle Quote**: *"Under the railway in the shade... / Such a perfect place to battle."*
   - **Team (2 Pokémon)**: Arcanine (♂, Lv33; Fire; Ability: Intimidate; `1506 EXP`) and Serperior (♂, Lv33; Grass; `1470 EXP`).
   - **Outcome**: Defeated in Turns 33583-33587 (`"Noooo!"`).
+- **Cooltrainer Brad (`21, 10`, facing `Left`)**:
+  - **Pre-Battle Quote**: *"Hey! You there! / Wanna battle?"*
+  - **Team (3 Pokémon)**: Sawk (♂, Lv33; Fighting; `1152 EXP`), Krokorok (♀, Lv33; Ground/Dark; Ability: Intimidate; `868 EXP`), and Conkeldurr (♂, Lv34; Fighting; `1405 EXP`).
+  - **Outcome**: Defeated in Turns 33588-33593 (`"..."`).
