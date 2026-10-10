@@ -214,6 +214,14 @@
   - **Pre-Battle Quote**: *"I lost my precious job a long time ago... / The best I can do now is fighting Trainers passing by..."*
   - **Team (3 Pokémon)**: Camerupt (♀, Lv34; Fire/Ground; `1275 EXP`), Excadrill (♂, Lv34; Ground/Steel; `1296 EXP`), and Nidoking (♂, Lv35; Poison/Ground; `1462 EXP`).
   - **Outcome**: Defeated in Turns 33698-33706.
+- **Upper Cliffside & Collapsed Bridge Eastern Span (`cols 17-48, rows 8-18`, Verified Turns 33706-33714)**:
+  - **Wooden Cliff Staircase (`40-42, 14-18`)**: Connects the lower meadow (`40-42, 19`) to the upper cliffside (`40-42, 14`).
+  - **Rugged Rock (`47, 12`)**: Blocks the narrow eastern cliff passage at `(47, 12)`.
+  - **Eastern Bridge Span (`18-37, 11-13`)**: Extends west from `(38, 12)` across the bay to the western cliff island (`cols 8-17`).
+  - **Black Belt Julio (`24, 13`, facing `Up` on the wooden bridge)**:
+    - **Pre-Battle Quote**: *"Darn... the bridge has collapsed! / Be really careful!"*
+    - **Team (2 Pokémon)**: Primeape (♂, Lv35; Fighting; `1117 EXP`) and Medicham (♀, Lv35; Fighting/Psychic; `1147 EXP`).
+    - **Outcome**: Defeated in Turns 33710-33714 (`"..."`).
 
 <hr>
 
