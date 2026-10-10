@@ -35,3 +35,19 @@
 
 ## Floor B3F (Western Stairwell Entry at `12, 11`)
 - **Ascending Staircase (`13-14, 11`)**: Accessed via the red mat at `(12, 11)`; returns to the B2F Western Stairwell & Computer Room (`4, 11`).
+- **Northern Elevator & Floor Plaque (`9, 5` & `11, 5`)**:
+  - **Elevator Doorway (`9, 5`)**: Connects to the facility elevator (`6, 15`).
+  - **Purple Wall Plaque (`11, 5`)**: Reads *"B3F / Machine Room"* (verified Turn 34409).
+- **Southern Corridor (`cols 8-10, rows 11-19`)**:
+  - Floor hole at `(10, 15)` (`col 9` is completely clear from `9, 6` to `9, 19`).
+  - **Purple Door Mat (`9, 19` <-> B3F Machine Room `29, 4`)**: Stepping `Down` off `(9, 19)` enters the **B3F Machine Room** at `(29, 4)` (verified Turn 34411).
+  - **Eastern Branch (`cols 11-17, rows 15-19`)**: Contains a purple wall plaque at `(12, 17)` and a staircase mat at `(16, 18-19)`.
+
+## B3F Machine Room (`29, 4` from B3F Corridor `9, 19`)
+- **Doorway Exit (`29, 3`)**: Warps back to the B3F Corridor at `(9, 19)`.
+- **Wild Eclipsed Pokémon**: Floor tiles trigger Lv40 wild Eclipsed Pokémon such as **Eclipsed Solrock** (verified Turn 34413).
+- **Main Generator Switch (`29, 12`)**:
+  - Reached via the western passage (`28, 4 -> 28, 7 -> 27, 7 -> 27, 13 -> 29, 13`).
+  - Interacting with `(29, 12)` from `(29, 13)` flips the switch from red/blue to solid blue and restores main power to the facility (verified Turn 34415).
+  - Immediately triggers a HuPhone call from **Professor Ivo**, who confirms power is restored, reports that the third energy signal is on the lowest floor (**B5F**, which requires an **Ec Card**), and warns Asher that something is approaching—triggering a scripted ambush by a wild **Lv40 Eclipsed Golem** at `(29, 13)` (OHKO'd by Sirius's `Aura Sphere` for `1011 EXP`, verified Turns 34415-34420).
+- **Item**: **Ultra Ball** at `(32, 14)` in the southeast corner (collected Turn 34420).

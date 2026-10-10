@@ -1862,6 +1862,22 @@
 
 ## Floor B3F (Western Stairwell Entry at `12, 11`)
 - **Ascending Staircase (`13-14, 11`)**: Accessed via the red mat at `(12, 11)`; returns to the B2F Western Stairwell & Computer Room (`4, 11`).
+- **Northern Elevator & Floor Plaque (`9, 5` & `11, 5`)**:
+  - **Elevator Doorway (`9, 5`)**: Connects to the facility elevator (`6, 15`).
+  - **Purple Wall Plaque (`11, 5`)**: Reads *"B3F / Machine Room"* (verified Turn 34409).
+- **Southern Corridor (`cols 8-10, rows 11-19`)**:
+  - Floor hole at `(10, 15)` (`col 9` is completely clear from `9, 6` to `9, 19`).
+  - **Purple Door Mat (`9, 19` <-> B3F Machine Room `29, 4`)**: Stepping `Down` off `(9, 19)` enters the **B3F Machine Room** at `(29, 4)` (verified Turn 34411).
+  - **Eastern Branch (`cols 11-17, rows 15-19`)**: Contains a purple wall plaque at `(12, 17)` and a staircase mat at `(16, 18-19)`.
+
+## B3F Machine Room (`29, 4` from B3F Corridor `9, 19`)
+- **Doorway Exit (`29, 3`)**: Warps back to the B3F Corridor at `(9, 19)`.
+- **Wild Eclipsed Pokémon**: Floor tiles trigger Lv40 wild Eclipsed Pokémon such as **Eclipsed Solrock** (verified Turn 34413).
+- **Main Generator Switch (`29, 12`)**:
+  - Reached via the western passage (`28, 4 -> 28, 7 -> 27, 7 -> 27, 13 -> 29, 13`).
+  - Interacting with `(29, 12)` from `(29, 13)` flips the switch from red/blue to solid blue and restores main power to the facility (verified Turn 34415).
+  - Immediately triggers a HuPhone call from **Professor Ivo**, who confirms power is restored, reports that the third energy signal is on the lowest floor (**B5F**, which requires an **Ec Card**), and warns Asher that something is approaching—triggering a scripted ambush by a wild **Lv40 Eclipsed Golem** at `(29, 13)` (OHKO'd by Sirius's `Aura Sphere` for `1011 EXP`, verified Turns 34415-34420).
+- **Item**: **Ultra Ball** at `(32, 14)` in the southeast corner (collected Turn 34420).
 
 <hr>
 
@@ -2562,6 +2578,7 @@
 - **Reunion on the Southeastern Terrace (`32, 46` -> `33, 46`, Turns 34372-34373)**: On the small offshore isle in Hupest Sea (`Location 3`), Asher and Valora reunited with **Professor Ivo** (`36, 46`) and **Dad (Jackson)** (`36, 42`). When Asher shared Frio's warning that Location 3 is an old, abandoned undersea laboratory of Team Siara, Professor Ivo revealed that a cave entrance (`36, 40`) had just been opened into the cliffside since her earlier visit—meaning Team Siara had most likely already breached the path to the undersea lab. Ivo, Dad, and Valora hurried inside (`36, 40`) with Asher following right behind.
 - **Entering the Abandoned Undersea Laboratory (`5, 7` -> `5, 4`, Turns 34382-34384)**: Inside the underground stairwell beneath the island cave, Professor Ivo noted that the 10-year-old facility still had electricity running. Dad repaired the jammed elevator panel (`4, 4`), and everyone entered the elevator (`6, 15`), which connects five floors (`5F` through `1F`).
 - **The Offline Main Generator & Eclipsed Pokémon Warning (`37, 6` on 2F, Turns 34389-34391)**: Stepping out onto Floor 2F (`37, 6`), Asher received a HuPhone call from **Professor Ivo**, who explained that only the elevator is running on a backup generator while all security doors remain locked until the **main generator** is turned back on in the **generator room**. Ivo also warned Asher to be careful because the abandoned undersea laboratory is full of **Eclipsed Pokémon**.
+- **Restoring the Main Generator & B5F Signal (`29, 12` in B3F Machine Room, Turns 34415-34420)**: In the B3F Machine Room (`29, 12`), Asher flipped the main generator switch to restore facility power. **Professor Ivo** called on the HuPhone to confirm the power was back on, revealed that the third energy signal is coming from the lowest floor (**B5F**, which requires an **Ec Card** to access), and warned Asher right before a rampaging **Lv40 Eclipsed Golem** ambushed him at the generator switch.
 
 <hr>
 
@@ -2662,7 +2679,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 34395)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x7** (used 1 testing capture on wild Lv40 Eclipsed Pikachu at Undersea Lab B2F `38, 8` in Turn 34395), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **80** (fulfills Task 2 of Professor Elm's Research!).
+- **Poké Balls Pocket (Audited Turn 34420)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x8** (used 1 testing capture on wild Lv40 Eclipsed Pikachu at Undersea Lab B2F `38, 8` in Turn 34395; collected 1 at B3F Machine Room `32, 14` in Turn 34420), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **80** (fulfills Task 2 of Professor Elm's Research!).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
