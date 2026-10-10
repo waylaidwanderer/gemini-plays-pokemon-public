@@ -412,7 +412,7 @@
   - **Ecly Festival Signboard (`33, 29`)**: Interacted from `(32, 29)`, reads verbatim: *"Ecly Festival / Held every year here in Jarro Town / Be sure to bring your friends!"* (verified Turn 32937).
   - **Festival Girl (`33-34, 31`, wandering)**: *"The Ecly Festival... / I love that festival so much! / I feel all young nostalgic..."* (verified Turn 32938).
   - **Explorer (`35, 25`)**: Standing under the festival lanterns south of the ruins entrance (*"The Ancient Hupestian Ruins..."*, verified Turn 32939).
-  - **Ancient Hupestian Ruins Signboard (`34, 21`) & Entrance (`36, 20-21`)**: Signboard at `(34, 21)` (interacted from `34, 22`) reads verbatim: *"Ancient Hupestian Ruins"* (verified Turns 32939-32940). Inside (`15, 13`), Professor Ivo translated the three-part **Eklissi Prophecy** inscribed beneath the three wall murals before returning to her laboratory in Lancio Town (verified Turns 32941-32946).
+  - **Ancient Hupestian Ruins Signboard (`34, 21`) & Entrance (`36, 20-21`)**: Signboard at `(34, 21)` (interacted from `34, 22`) reads verbatim: *"Ancient Hupestian Ruins"* (verified Turns 32939-32940). Inside (`15, 13`), Professor Ivo translated the three-part **Eklissi Prophecy** inscribed beneath the three wall murals before returning to her laboratory in Lancio Town (verified Turns 32941-32946). Stepping south onto `(36, 29)` afterward triggers the Round 4 HuPhone summons from the Amor Battle Center and fast-travels the player to `(25, 109)` on Route 12 Main (verified Turns 32948-32949).
 
 <hr>
 
@@ -1686,6 +1686,9 @@
     2. **Part 2 (Right Mural)**: *"It was an angel which made the darkness of the night bright like the cherishing Sun!"* — Describing an angelic entity or meteorite explosion whose flash turned night as bright as the Sun.
     3. **Part 3 (Center Mural)**: *"The angel lashed her anger on us and we perished to oblivion... But the next time the people will be ready... Three glimpses of light... three of the youth will arise to protect from her judgement, her anger"*
   - **Connection to Eclipsing**: Agreeing with Asher that the Eklissi prophecy is directly connected to Eclipsing, Professor Ivo departed back to her laboratory in Lancio Town to research further details, while Asher wondered when the prophecy is supposed to come true and stepped back outside to `(36, 21)` in Jarro Town.
+- **Amor Battle Center Round Four Summons & Fast-Travel to Route 12 (`36, 29` -> Route 12 Main `25, 109`, Turns 32948-32949)**:
+  - Stepping south onto `(36, 29)` along the Ecly Festival lantern path after visiting the Ancient Hupestian Ruins triggers a HuPhone text message from the **Amor Battle Center**: *"Dear Contestant! The fourth round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*.
+  - Immediately after reading the message, the game automatically fast-travels Asher to **`(25, 109)`** at the southern end of **Route 12 Main** outside Amor City.
 
 <hr>
 
