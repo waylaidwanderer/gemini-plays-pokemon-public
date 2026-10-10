@@ -22,3 +22,4 @@
   - **Professor Elm's Apartment (`33, 18` <-> `5, 9`)**: **Professor Elm** from the Johto region is seated at `(6, 6)` (interacted from `5, 6`) and provides **Special Quest #12 ("Elm's Research")**. Task 1 (`60 species caught`) rewards a **Pokémon Egg**, and Task 2 requires **80 species caught** (verified Turns 33005-33007).
   - **Western Apartment (`23, 18` <-> `5, 23`)**: Empty 1F interior with decorative stairs (verified Turn 33004).
   - **Gentleman (`25, 21`)**: *"Back in my day this city used to be even richer! / Then all this fancy technology came and coal became less important!"* (verified Turn 33002).
+  - **Route 11 Signboard (`15-16, 19`)**: Interacted from `(17, 19)`, reads verbatim: *"Route 11 / <-------"* (verified Turn 33010).
