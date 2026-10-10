@@ -253,6 +253,8 @@
 - **Stone Archway (`16, 35-36`) & Rugged Rocks (`14, 34` and `22, 32`)**: Passing north through the stone archway at `(16, 35-36)` leads to an overgrown path with a rugged rock blocking the western tree gap at `(14, 34)` and tall grass patches spanning `(19-23, 32-34)` and `(29-30, 30-32)`.
 - **Pit Ladder Cutscene with Dad (`22, 33` -> `25, 32`, Turns 33758-33759)**:
   - Stepping onto `(22, 33)` triggers a cutscene where Asher remarks that the path looks like a dead end, and **Dad (Jackson)** inspects the dark ground pit (`25-26, 29-31`) from `(26, 28)`, discovers a ladder inside the pit (*"Yes! There's a ladder! We can get down and back easily with this. Let's keep going!"*), and descends into `(26, 29)`.
+## Aur Factory 1F (`26, 29` Ladder Entrance)
+- **Entry Room (`cols 19-27, rows 26-33`)**: Reached by stepping `Down` from `(26, 28)` into `(26, 29)` on the Aur Factory exterior map (climbs down the wall ladder to `26, 29` -> `24, 30` on Aur Factory 1F; verified Turns 33761-33764). Features indoor tall grass patches at `(19-21, 28-33)` and a passage leading north along `columns 19-21`.
 
 <hr>
 
@@ -2074,6 +2076,7 @@
 - **Arrival in Aurin Town (`9, 19`)**: Upon entering **Aurin Town** from Route 16 East (`60, 18` <-> `1, 18`), **Dad (Jackson)** met Asher at `(9, 19)` and described Aurin Town as *"The slum of Hupest. This is where most criminals and deliquents band together..."*.
 - **Clue About the Old Factory Ruins (`11, 19`)**: Questioning a local man at `(11, 19)` about anything unnaturally weird happening recently, Dad and Asher learned that wild Pokémon in the **old factory's ruins** (at the top of the northern stairs) have been behaving abnormally and violently attacking people.
 - **Aur Factory**: Recognizing the ruined facility at the top of the northern cliff stairs as **Aur Factory** (*"Aur Factory huh... Or at least what's left of it. ... Yes... I know it quite well, but I never thought I would see it again after all those years... Let's go!"*), Dad joined Asher to investigate the ruins of **Aur Factory**.
+  - **Origin of Siara & Bankruptcy of Aur Inc. (`26, 29` -> `24, 30` in Aur Factory 1F, Turns 33761-33764)**: Descending the ladder inside the exterior ground pit (`26, 28 -> 26, 29`) into **Aur Factory 1F**, Dad revealed that when he was Asher's age, **Aur Inc.** was a thriving industrial factory manufacturing basic items, cars, and electronics, and **Aurin Town** housed its workers—including Asher's grandparents. When outside companies entered Hupest, Aur Inc. went bankrupt, leaving the workers jobless and turning Aurin Town into an impoverished slum. Jackson originally founded **Siara** to give the poor, unemployed people of Aurin Town jobs and achieve something big, before Marie took Siara down a dark path he could not support.
 
 <hr>
 
