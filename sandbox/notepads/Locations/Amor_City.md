@@ -220,5 +220,5 @@
 ## Round 7 Arena & Eclipse Tournament Round Seven (`17, 26` -> `4, 14` -> `14, 14`)
 - **Round 7 Arena Entrance (`17, 26` in Lower Arena Ring)**: Unguarded after receiving the Round 7 HuPhone summons in Mulberry Town (Turn 34178); stepping `Down` through `(17, 26)` warps to the 8-trainer Round 7 Bracket Screen (`7, 17`, verified Turn 34269).
 - **Round 7 Bracket**:
-  - **Left Side**: **Asher** vs. **Explorer/Gentleman** (Match 1) and **Camper** vs. **Black Belt** (Match 2).
+  - **Left Side**: **Asher** vs. **Jonathan** (Match 1) and **Camper** vs. **Black Belt** (Match 2).
   - **Right Side**: **Hugh (from Unova)** vs. **Ace Trainer Male** (Match 3) and **Scientist** vs. **Worker** (Match 4).
