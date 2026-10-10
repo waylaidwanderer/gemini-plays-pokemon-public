@@ -581,7 +581,7 @@
 - **Galinor Metro Station (`32, 58`, exits to `32, 59`)**: Unlocked on the Hupest Metro Line destination menu (`4: Galinor`) after winning Round Six of the Eclipse Tournament (verified Turn 33919).
 - **Galinor City Pokémon Center (`28, 58`, exits to `28, 59`)**: Located immediately west of the Galinor Metro Station on the southern boulevard.
 - **Western Boulevard Signboard (`24-25, 59`)**: Interacted from `(25, 60)`, reads verbatim: *"Galinor Metro Station / ---> / Route 9 / <---"* (verified Turn 33924).
-- **Southwestern Avenue (`cols 18-19, rows 60-75`)**: Leads south from `(18-19, 60)` along the west side of the southern apartment blocks toward **Route 9**.
+- **Southwestern Avenue (`cols 18-19, rows 60-75`) & Route 13 Border (`14-15, 86` <-> Route 13 `14-15, 0`)**: Following `column 18` south to `(18, 75)` and `column 14` south from `(14, 75)` transitions seamlessly at `(14, 86)` onto **Route 13** `(14, 0)` (verified Turn 33927).
 
 <hr>
 
@@ -1152,6 +1152,15 @@
 - **Northern Landmarks Around `(26, 53)` (Observed Turn 32789)**:
   - **Southbound Shortcut Staircase (`30-32, 58`) & One-Way Ledge (`30-32, 60`)**: Leads south from `(30-32, 57)` over a one-way ledge at `(30-32, 60)` back down to Explorer Johnathan's terrace (`row 61`).
   - **Upper Northbound Staircase (`25-27, 48-49`) & One-Way Ledge (`25-27, 51`)**: Located north of `(26, 52)` above a southbound one-way ledge at `(25-27, 51)`.
+
+<hr>
+
+<h1><code>Locations/Route_13</code></h1>
+
+# Route 13 (Bugiaret Island)
+
+## Geography & Connections
+- **North (`14-15, 0` <-> Galinor City `14-15, 86`)**: Seamless northern border connecting the southern sandy trail of **Galinor City** onto **Route 13** at `(14-15, 0)` (verified Turn 33927).
 
 <hr>
 
