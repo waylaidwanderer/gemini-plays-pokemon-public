@@ -93,3 +93,11 @@
     - **Pokémon 2**: Hitmonlee (♂, Lv25; Fighting; knows Protect).
     - **Pokémon 3**: Dewott (♂, Lv26; Water).
   - **Outcome**: Defeat quote: *"Argh!"*; awards `₽1,872` (verified Turns 32528-32540).
+- **Match 3 (Round Three Finals — PKMN Trainer Aaron)**:
+  - **Pre-Battle Quote**: *"Hmm, so you are gonna be my final opponent... / My name is Aaron. / I came from the Sinnoh region, and my goal is to become the greatest Trainer specializing Bug Pokémon! / Let this battle be my glow up."*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Dustox (♂, Lv25; Bug/Poison).
+    - **Pokémon 2**: Yanmega (♀, Lv25; Bug/Flying; knows Double Team).
+    - **Pokémon 3**: Vespiquen (♀, Lv26; Bug/Flying; Ability: Pressure).
+    - **Pokémon 4**: Scizor (♂, Lv25; Bug/Steel).
+  - **Outcome**: Defeat quote: *"I guess you really were my final opponent... / Not just in this round but in the whole tournament... how shocking."*; awards `₽2,912` and crowns Asher winner of his Round 3 group (verified Turns 32542-32553).

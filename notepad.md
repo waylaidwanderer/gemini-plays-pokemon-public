@@ -95,6 +95,14 @@
     - **Pokémon 2**: Hitmonlee (♂, Lv25; Fighting; knows Protect).
     - **Pokémon 3**: Dewott (♂, Lv26; Water).
   - **Outcome**: Defeat quote: *"Argh!"*; awards `₽1,872` (verified Turns 32528-32540).
+- **Match 3 (Round Three Finals — PKMN Trainer Aaron)**:
+  - **Pre-Battle Quote**: *"Hmm, so you are gonna be my final opponent... / My name is Aaron. / I came from the Sinnoh region, and my goal is to become the greatest Trainer specializing Bug Pokémon! / Let this battle be my glow up."*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Dustox (♂, Lv25; Bug/Poison).
+    - **Pokémon 2**: Yanmega (♀, Lv25; Bug/Flying; knows Double Team).
+    - **Pokémon 3**: Vespiquen (♀, Lv26; Bug/Flying; Ability: Pressure).
+    - **Pokémon 4**: Scizor (♂, Lv25; Bug/Steel).
+  - **Outcome**: Defeat quote: *"I guess you really were my final opponent... / Not just in this round but in the whole tournament... how shocking."*; awards `₽2,912` and crowns Asher winner of his Round 3 group (verified Turns 32542-32553).
 
 <hr>
 
@@ -1451,6 +1459,11 @@
     1. **Amor Battle Center**: *"Dear Contestant! The third round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*.
     2. **Valora**: *"Heyy, I got the message from the tourney organizers, so I'm in Amor participating! I'll text ya once I'm done, see you later ;)"*.
   - Asher resolves to take the newly reopened Destino City Metro Station back to Amor City for Round Three (*"Alright, let's take a metro to Amor and get to business!"*).
+## Eclipse Tournament Round Three — Victory Over Sinnoh's Aaron
+- **Round Three Bracket & Matches (Turns 32507-32553)**: Inside the Amor City Battle Centre's Round 3 Arena (`17, 17`), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Juggler Tony** (Togetic Lv25, Ninjask Lv25, Luxio Lv26).
+  2. **Semifinals**: Defeated **Black Belt Lee** (Heracross Lv25, Hitmonlee Lv25, Dewott Lv26), while Sinnoh's **Aaron** defeated Ace Trainer Marcus on the opposite side of the bracket.
+  3. **Round Three Finals**: Defeated **PKMN Trainer Aaron** from the Sinnoh region (Dustox Lv25, Yanmega Lv25, Vespiquen Lv26, Scizor Lv25) to win his Round Three group and advance to Round Four of the Eclipse Tournament.
 
 <hr>
 
