@@ -88,6 +88,13 @@
     - **Pokémon 2**: Ninjask (♀, Lv25; Bug/Flying; Ability: Speed Boost; knows Agility, Sand Attack, and Fury Cutter).
     - **Pokémon 3**: Luxio (♀, Lv26; Electric; knows Spark and Thunder Fang).
   - **Outcome**: Defeat quote: *"Losing at this point... / How embarrassing"*; awards `₽1,040` (verified Turns 32510-32525).
+- **Match 2 (Semifinals — Black Belt Lee)**:
+  - **Pre-Battle Quote**: *"Hello... / May the stronger Trainer win!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Heracross (♀, Lv25; Bug/Fighting; knows Counter).
+    - **Pokémon 2**: Hitmonlee (♂, Lv25; Fighting; knows Protect).
+    - **Pokémon 3**: Dewott (♂, Lv26; Water).
+  - **Outcome**: Defeat quote: *"Argh!"*; awards `₽1,872` (verified Turns 32528-32540).
 
 <hr>
 
