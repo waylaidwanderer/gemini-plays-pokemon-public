@@ -41,6 +41,9 @@
   - **Pre-Battle Quote**: *"Falco Punch!"*
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Passimian (Lv36; Fighting; OHKO'd by Sirius's `Aura Sphere` in Turn 33989).
+    - **Pokémon 2**: Hariyama (♂, Lv36; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1419 EXP` in Turn 33991).
+    - **Pokémon 3**: Sawk (♂, Lv36; Fighting; Ability: Sturdy; knows Bulk Up; defeated by Sirius's `Aura Sphere` + `Mach Punch` in Turns 33992-33993).
+  - **Outcome**: Defeated in Turns 33988-33993.
 ## Items
 - **Stick x1 (`25, 35`)**: Collected from the golden item ball at `(25, 35)` in the western wheat field (interacted from `26, 35`; verified Turn 33966).
 - **Western Cliff Ridge Item (`15, 43`)**: Item ball on the southern ledge of the western cliff ridge, gated by the rugged rock at `(15, 39)` (`latest_grid.png` Turns 33976 & 33987).
