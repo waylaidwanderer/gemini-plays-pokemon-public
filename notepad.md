@@ -763,6 +763,9 @@
     - **Pokémon 1**: Lairon (♂, Lv27; Steel/Rock; Ability: Sturdy; knows Protect, Roar, and Take Down).
     - **Pokémon 2**: Dugtrio (♂, Lv27; Ground).
   - **Outcome**: Defeat quote: *"I'm the one who's gonna fall!"*; awards `₽1,080` (verified Turns 32721-32738; Sirius leveled up to Lv49).
+- **Explorer Johnathan (`22, 60` -> `22, 61`, rotating)**:
+  - **Pre-Battle Quote**: *"My explorer spirit needs a fiery battle!"*
+  - **Team (1 Pokémon)**: In progress (Turn 32762).
 
 <hr>
 
@@ -1655,7 +1658,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), and **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 32653)**: Contains **Poké Ball x8** and **Great Ball x8** (caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, Lv14 Trapinch at `42, 49` in Turn 32246, nicknamed **Dune**, and Lv17 Teddiursa at Route 12 Main `18, 97` in Turn 32653, nicknamed **Ursa**, bringing Owned species to **62** in PokéDex).
+- **Poké Balls Pocket (Audited Turn 32754)**: Contains **Poké Ball x8**, **Great Ball x8**, and **Ultra Ball x1** (collected at Route 12 Main `33, 71` in Turn 32754; caught Lv18 Numel at `46, 14` in Turn 32212, nicknamed **Etna**, Lv18 Diglett at `47, 14` in Turn 32219, nicknamed **Gaia**, Lv14 Trapinch at `42, 49` in Turn 32246, nicknamed **Dune**, and Lv17 Teddiursa at Route 12 Main `18, 97` in Turn 32653, nicknamed **Ursa**, bringing Owned species to **62** in PokéDex).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*

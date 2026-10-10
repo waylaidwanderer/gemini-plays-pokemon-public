@@ -73,3 +73,6 @@
     - **Pokémon 1**: Lairon (♂, Lv27; Steel/Rock; Ability: Sturdy; knows Protect, Roar, and Take Down).
     - **Pokémon 2**: Dugtrio (♂, Lv27; Ground).
   - **Outcome**: Defeat quote: *"I'm the one who's gonna fall!"*; awards `₽1,080` (verified Turns 32721-32738; Sirius leveled up to Lv49).
+- **Explorer Johnathan (`22, 60` -> `22, 61`, rotating)**:
+  - **Pre-Battle Quote**: *"My explorer spirit needs a fiery battle!"*
+  - **Team (1 Pokémon)**: In progress (Turn 32762).
