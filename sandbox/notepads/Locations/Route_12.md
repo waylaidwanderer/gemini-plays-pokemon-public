@@ -55,3 +55,9 @@
     - **Pokémon 1**: Staravia (♀, Lv27; Normal/Flying).
     - **Pokémon 2**: Floatzel (♀, Lv27; Water; Ability: Drizzle).
   - **Outcome**: Defeat quote: *"My Pokémon"*; awards `₽1,080` (verified Turns 32692-32697).
+- **Hiker Arda (`39, 78`, facing East)**:
+  - **Pre-Battle Quote**: *"Doesn't it get a bit colder as you climb higher?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Torkoal (♂, Lv27; Fire; Ability: Drought).
+    - **Pokémon 2**: Klang (Lv27; Steel).
+  - **Outcome**: Battled in Turns 32706-32709.
