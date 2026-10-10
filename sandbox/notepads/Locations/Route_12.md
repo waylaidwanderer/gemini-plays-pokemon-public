@@ -45,4 +45,4 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Toxicroak (♂, Lv27; Poison/Fighting).
     - **Pokémon 2**: Hawlucha (♂, Lv27; Fighting/Flying).
-  - **Outcome**: Defeated in Turns 32685-32689.
+  - **Outcome**: Defeat quote: *"Huh"*; awards `₽1,944` (verified Turns 32685-32690).
