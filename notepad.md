@@ -1839,6 +1839,10 @@
 - **Elevator Lobby (`33-38, 5-10`)**:
   - **Elevator Doorway (`36, 5`)**: Enters the elevator (`6, 15`).
   - **Locked Northern Security Door (`30-31, 6`)**: Blocks a northern room containing a **gold item ball** at `(30, 4)`.
+  - **Professor Ivo's HuPhone Briefing (`37, 6`, Turns 34389-34391)**:
+    - Stepping onto `(37, 6)` triggers a HuPhone call from **Professor Ivo**, who explains that while the elevator is running on a backup generator, everything else in the facility is offline because the **main generator** is not running.
+    - Because the security doors cannot be opened without power, Asher must **find the generator room and turn the main generator back on**.
+    - Ivo also warns Asher that the abandoned laboratory is crawling with **Eclipsed Pokémon**.
 
 <hr>
 
@@ -2538,6 +2542,7 @@
 ## Small Offshore Isle (Location 3) — The Newly Opened Cave to the Abandoned Siara Lab
 - **Reunion on the Southeastern Terrace (`32, 46` -> `33, 46`, Turns 34372-34373)**: On the small offshore isle in Hupest Sea (`Location 3`), Asher and Valora reunited with **Professor Ivo** (`36, 46`) and **Dad (Jackson)** (`36, 42`). When Asher shared Frio's warning that Location 3 is an old, abandoned undersea laboratory of Team Siara, Professor Ivo revealed that a cave entrance (`36, 40`) had just been opened into the cliffside since her earlier visit—meaning Team Siara had most likely already breached the path to the undersea lab. Ivo, Dad, and Valora hurried inside (`36, 40`) with Asher following right behind.
 - **Entering the Abandoned Undersea Laboratory (`5, 7` -> `5, 4`, Turns 34382-34384)**: Inside the underground stairwell beneath the island cave, Professor Ivo noted that the 10-year-old facility still had electricity running. Dad repaired the jammed elevator panel (`4, 4`), and everyone entered the elevator (`6, 15`), which connects five floors (`5F` through `1F`).
+- **The Offline Main Generator & Eclipsed Pokémon Warning (`37, 6` on 2F, Turns 34389-34391)**: Stepping out onto Floor 2F (`37, 6`), Asher received a HuPhone call from **Professor Ivo**, who explained that only the elevator is running on a backup generator while all security doors remain locked until the **main generator** is turned back on in the **generator room**. Ivo also warned Asher to be careful because the abandoned undersea laboratory is full of **Eclipsed Pokémon**.
 
 <hr>
 
