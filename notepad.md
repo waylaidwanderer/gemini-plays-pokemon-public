@@ -1339,7 +1339,7 @@
       1. **Lapras♂ Lv32** (Water/Ice; OHKO'd by Sirius's `Aura Sphere` for `1501 EXP` in Turn 33376).
       2. **Shiftry♀ Lv33** (Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1279 EXP` in Turn 33378).
       3. **Zoroark♂ Lv32** (Dark; OHKO'd by Sirius's `Mach Punch` for `1440 EXP` in Turn 33380, leveling Sirius to Lv56).
-      4. **Eclipsed Vikavolt♂ Lv33** (holds `Leftovers`, uses `Discharge`, and is **weak to Electric-type moves** (`2x` super-effective from Vega's `Spark`, verified Turn 33390); Harry also uses up to 2 Hyper Potions/Full Restores when Eclipsed Vikavolt drops into low red HP).
+      4. **Eclipsed Vikavolt♂ Lv33** (holds `Leftovers`, uses `Discharge` and the priority signature move **`Eclipse Zap`**, features a purple Eclipse HP bar phase, and is **weak to Electric-type moves** [`2x` super-effective from Vega's `Spark`, verified Turn 33390]; Harry also uses up to 2 healing items when Eclipsed Vikavolt drops into low red HP; verified Turns 33384-33394).
 
 <hr>
 
