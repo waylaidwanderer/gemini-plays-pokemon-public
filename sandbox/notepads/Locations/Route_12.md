@@ -34,3 +34,9 @@
     - **Pokémon 2**: Sandslash (♀, Lv26; Ground; knows Sand Tomb).
     - **Pokémon 3**: Granbull (♀, Lv27; Fairy).
   - **Outcome**: Defeated in Turns 32656-32661; awards `₽1,620` (Sirius at 75/139 HP).
+- **Picnicker Sanna (`22, 78`, facing South)**:
+  - **Pre-Battle Quote**: *"A Pokémon Trainer? / That means a battle!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Tranquill (♂, Lv27; Normal/Flying; knows Detect).
+    - **Pokémon 2**: Jellicent (♂, Lv27; Water/Ghost; knows Water Pulse).
+  - **Outcome**: Defeated in Turns 32669-32681 (Sirius leveled up to Lv48 and learned Meteor Mash replacing Metal Claw).
