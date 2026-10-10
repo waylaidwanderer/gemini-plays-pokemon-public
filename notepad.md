@@ -1847,6 +1847,11 @@
   - **Wild Eclipsed Pokémon Encounters**:
     - Floor tiles inside the Abandoned Undersea Laboratory can trigger wild **Eclipsed Pokémon** encounters (such as **Eclipsed Pikachu**♀ Lv40, which knows `Eclipse Zap`) even while a Repel / Super Repel is active (verified Turn 34393).
     - Wild Eclipsed Pokémon can be fled from normally via `Run` (*"Got away safely!"*, verified Turn 34396) or targeted with Poké Balls (verified Turn 34395).
+  - **Western Corridor (`23-33, 8-9`)**:
+    - **Purple Wall Plaque (`27, 7`)**: Reads *"Doors are password protected! / If you forgot the code for a door, find the computer displaying it."* (verified Turn 34398).
+    - **Bookshelves (`23-26, 7-8`)**: Located along the northern wall.
+    - **Purple Door Mat (`25, 9`)**: Southern doorway mat leading into an adjacent room.
+  - **Southern Corridor (`34-35, 10-13+`)**: Extends south past the yellow crates at `(36, 12-13)`.
 
 <hr>
 
