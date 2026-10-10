@@ -1032,6 +1032,10 @@
   - **Pre-Battle Quote**: *"Agh, I'm gonna go home..."*
   - **Team (4 Pokémon)**: Seadra (♂, Lv33; Water; `1095 EXP`), Alomomola (♀, Lv34; Water; `1201 EXP`), Floatzel (♀, Lv33; Water; `1179 EXP`), and Araquanid (♀, Lv34; Water/Bug; `1158 EXP`).
   - **Outcome**: Defeated in Turns 33595-33603 (*"I like to come out here to take a break from the concrete jungle of Amor. / And sometimes to battle."*).
+- **Lass Emy (`40, 19`, facing `Left`)**:
+  - **Pre-Battle Quote**: *"Ooooh, a Pokémon Trainer! / Let's fight!"*
+  - **Team (2 Pokémon)**: Victreebel (♀, Lv34; Grass/Poison; knows Sweet Scent; `1390 EXP`) and Vileplume (♂, Lv34; Grass/Poison; `1339 EXP`).
+  - **Outcome**: Defeated in Turns 33605-33609 (`"Nooo!"`).
 
 <hr>
 
