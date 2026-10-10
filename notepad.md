@@ -577,6 +577,9 @@
   - **Northern Headland Sailor (`32, 11`) & Dive Ball (`35, 6`)**: Sailor at `(32, 11)` stands beside a round boulder (`31, 9`) and shipping containers (*"Whew... lifting this was a real workout... / Haha, you should see the surprised look on your face! / Nah, we lift these containers with the help of Pokémon and equipment from the cargo ships."*, verified Turn 33048). Walking north up the 1-tile gap at `column 35` (`35, 11 -> 35, 7`) to the item ball at **`(35, 6)`** yields **Dive Ball x1** (verified Turn 33048).
   - **Western Pier (`cols 17-22, rows 14-21`)**: Accessed via the ramp at `(21, 14)` beside the Sailor at `(21, 12)`. Behind the green shipping container (`cols 18-20, rows 16-19`), a stone sprite at **`(18, 20)`** yields **Water Stone x1** (interacted from `19, 20`; verified Turn 33054).
   - **Middle Pier (`cols 26-31, rows 14-21`)**: Accessed via the ramp at `row 14` (`cols 27-30`); **Harry** waits at `(28, 19)` in front of his ship (`28, 20`). Speaking to Harry from `(28, 18)` triggers the cutscene with Valora, Dad, and Professor Ivo and sails to **Solare Island** (`36, 51`, Turns 33057-33060).
+## Southern Boulevard & Galinor Metro Station (`32, 59`)
+- **Galinor Metro Station (`32, 58`, exits to `32, 59`)**: Unlocked on the Hupest Metro Line destination menu (`4: Galinor`) after winning Round Six of the Eclipse Tournament (verified Turn 33919).
+- **Galinor City Pokémon Center (`28, 58`, exits to `28, 59`)**: Located immediately west of the Galinor Metro Station on the southern boulevard.
 
 <hr>
 
