@@ -42,4 +42,4 @@
   - **Southern Staircase (`27-29, 27-30`)**: Descends to a lower plaza with a wandering Hiker (`33-34, 33-34`), a 2x2 dark ground pit (`29-30, 34-35`), and an unblocked concrete house doorway at `(32, 32)`.
   - **Fossil Resurrection Lab (`32, 32` -> `55, 10`)**:
     - **Explorer (`59, 7`)**: *"Hello there, Trainer! Tell me, do you like fossils? Ancient life? Now you can enjoy both! With this great machine, you can revive ancient Pokémon from fossils! Just use the computer there"* (verified Turn 33740).
-    - **Fossil Revival Computer (`55, 5`, interacted from `55, 6`)**: Blue computer terminal connected to the green bio-tank (`58-59, 4-5`).
+    - **Fossil Revival Computer (`56, 4`, interacted from `56, 5` facing `Up`)**: Blue computer terminal connected to the green bio-tank (`58-59, 4-5`); prompts *"Would you like to revive a fossil? Yes/No"* (verified Turn 33742).
