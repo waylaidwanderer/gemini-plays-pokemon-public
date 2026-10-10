@@ -17,4 +17,5 @@
   - **Outcome**: Defeated in Turns 34201-34206.
 ## Wild Pokémon Encounters
 - **Tall Grass (`cols 1-8, rows 27-36` & `cols 13-18, rows 19-32`)**:
-  - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 2 in Turn 34213, bringing Owned species to **77**).
+  - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 3 in Turn 34213, bringing Owned species to **77**).
+  - **Vigoroth** (♂, Lv27; Normal; caught at full HP in 1 Ultra Ball at `16, 22` in Turn 34217, nicknamed **Tempo** and transferred to Box 3 in Turn 34218, bringing Owned species to **78**).
