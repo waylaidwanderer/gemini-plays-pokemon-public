@@ -12,8 +12,10 @@
   - **Northern Staircase (`32-33, 37`)**: Stone staircase leading north into the Solare Island forest.
   - **Forest Entrance Archway (`32-33, 31` <-> Solare Island Forest `57-58, 32`)**: Stepping north into `(33, 31)` warps into the **Solare Island Forest** at `(58, 32)` (verified Turn 33067).
 - **Solare Island Forest**:
-  - **Southern Entrance Clearing (`cols 44-61, rows 24-32`)**:
+  - **Southern Entrance Clearing (`cols 44-62, rows 24-32`)**:
     - **Ancient Stone Plate #2 (`57, 25`)**: Interacted from `(57, 26)`, reads verbatim: *"It looks like an ancient stone plate... / There's some text carved in! / = 'Whoeve... ste... shall beware. Th... gem ... the key...' / It's barely readable, and the rest is completely messed up..."* (verified Turn 33070).
+    - **Hupestian Wall Symbol & Hole (`55, 24`)**: Carved into the stone ruin wall 2 tiles west of Ancient Stone Plate #2 (`55, 24`, interacted from `55, 25`); reads verbatim: *"There's a symbol in the wall... / There's also a hole. / It looks exactly like the one in the Hupestian Ruins!"* (verified Turn 33258).
+    - **Eastern Tree Border (`cols 60-62, rows 25-31`)**: The clearing terminates on the east at the solid pine tree border along `col 63` (`verified at 62, 26 in Turn 33258`).
     - **Tall-Grass Alcove (`cols 46-47, rows 26-29`)**: Dead-end tall-grass alcove between the orange autumn trees at `(46-47, 26-29)`, terminating at the tree trunk at `(46-47, 25)` (verified Turn 33220).
   - **Western Barrier Shrine (`cols 31-39, rows 24-32`)**:
     - **Team Siara Grunts (`34, 31` & `36, 32`)**: Separated from their squad after touching a crystal that activated the ancient defense barrier (`col 33, rows 29-31`).
