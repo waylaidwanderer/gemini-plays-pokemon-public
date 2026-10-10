@@ -769,6 +769,9 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Bronzong (Lv28; Steel/Psychic; knows Iron Defense).
   - **Outcome**: Defeat quote: *"..."*; awards `₽1,344` (verified Turns 32761-32765).
+- **Bug Catcher Humza (`23, 55`, rotating)**:
+  - **Pre-Battle Quote**: *"I'm here to catch the greatest bug Pokémon!"*
+  - **Team (3 Pokémon)**: In progress (Turn 32780).
 
 <hr>
 
