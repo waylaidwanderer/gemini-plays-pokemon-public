@@ -83,5 +83,6 @@
   - **Marie's 2015–2016 Diary (`13, 20`)**: Dated *"2015. June 6th"* and *"2016. April 5th"*: *"2015. June 6th / I managed to make a quick and cheap way of Eclipsing Pokémon! / I also created a special band for Frio that he can use to Eclipse Pokémon, helping his training. / ... / ... / 2016. April 5th / This is bad! This is bad! / Eclipse Pokémon have gone berserk all over the Laboratory! / We can't control all of them... / We need to leave immediately and seal this lab away!"* (verified Turn 34461).
   - **Purple Wall Plaque (`9, 16`)**: Reads *"Number of failed experiments: 405 / Number of successful experiments: 1"* (verified Turn 34463).
 - **B4F Ailing Room (`cols 16-38, rows 19-28`, behind Code Yellow Door `21-22, 17-18`)**:
-  - Unlocked from `(21, 17)` facing `Down` toward `(21, 18)` using **Code Yellow (`0420`)**, stepping Asher into the corridor at `(21, 19)` (verified Turn 34466).
+  - Unlocked via the left panel `(21, 18)` (from `21, 17` facing `Down` or from `21, 19` facing `Up`) using **Code Yellow (`0420`)** (verified Turns 34466 & 34472).
   - **Purple Wall Plaque (`28, 25`)**: Reads *"Ailing room"* (verified Turn 34470).
+  - **Item (`37, 28`)**: **TM10 (Dark Pulse)** located at the far eastern end of the Ailing Room (collected Turn 34472).

@@ -1910,8 +1910,9 @@
   - **Marie's 2015–2016 Diary (`13, 20`)**: Dated *"2015. June 6th"* and *"2016. April 5th"*: *"2015. June 6th / I managed to make a quick and cheap way of Eclipsing Pokémon! / I also created a special band for Frio that he can use to Eclipse Pokémon, helping his training. / ... / ... / 2016. April 5th / This is bad! This is bad! / Eclipse Pokémon have gone berserk all over the Laboratory! / We can't control all of them... / We need to leave immediately and seal this lab away!"* (verified Turn 34461).
   - **Purple Wall Plaque (`9, 16`)**: Reads *"Number of failed experiments: 405 / Number of successful experiments: 1"* (verified Turn 34463).
 - **B4F Ailing Room (`cols 16-38, rows 19-28`, behind Code Yellow Door `21-22, 17-18`)**:
-  - Unlocked from `(21, 17)` facing `Down` toward `(21, 18)` using **Code Yellow (`0420`)**, stepping Asher into the corridor at `(21, 19)` (verified Turn 34466).
+  - Unlocked via the left panel `(21, 18)` (from `21, 17` facing `Down` or from `21, 19` facing `Up`) using **Code Yellow (`0420`)** (verified Turns 34466 & 34472).
   - **Purple Wall Plaque (`28, 25`)**: Reads *"Ailing room"* (verified Turn 34470).
+  - **Item (`37, 28`)**: **TM10 (Dark Pulse)** located at the far eastern end of the Ailing Room (collected Turn 34472).
 
 <hr>
 
@@ -2724,7 +2725,7 @@
   - **Metro Pass**: *"Its a card that can be used at the e-ticket reader gates to travel on the Hupest Metro Line."*
   - **Eclipse Band**: *"A special band designed to channel the power of Eclipse Shards to allow Eclipsing!"* (received from Professor Ivo in Azluf Town, Turn 27799).
   - **Fishing Rod**: *"A new, high-quality fishing rod. Use it by any body of water to fish for wild Pokémon."* (received from Fisherman at `37, 30` in Azluf Town, Turn 27854). Casting into water prints `. . .` dots and automatically resolves to either *"A Pokémon's on the hook!"* (requiring a single A/B press to start the wild battle, with no timing minigame) or *"Not even a nibble..."* (verified Turn 27865).
-- **TMs & HMs Pocket**: Contains TM03 (collected at Route 4 `53, 17` in Turn 31892), TM08 (Payback, collected at Aur Factory 1F West `17, 17` in Turn 33815), TM17 (Protect), TM18 (Rain Dance, collected at Aurin Town Western Cliff Island `8, 12` in Turn 33716), TM27 (Return, collected at Hupest Sea Small Offshore Isle `32, 36` in Turn 34362), TM36 (Sludge Bomb, collected at Route 8 `21, 14` in Turn 34141), TM37 (Sandstorm, collected in Destino Mine 1F at `32, 35` in Turn 32317), TM39 (Rock Tomb, collected in Upper Mt. Gerhana at `43, 9` in Turn 31547), and TM48 (Work Up). Zero HMs in possession.
+- **TMs & HMs Pocket**: Contains TM03 (collected at Route 4 `53, 17` in Turn 31892), TM08 (Payback, collected at Aur Factory 1F West `17, 17` in Turn 33815), TM10 (Dark Pulse, collected at Undersea Lab B4F Ailing Room `37, 28` in Turn 34472), TM17 (Protect), TM18 (Rain Dance, collected at Aurin Town Western Cliff Island `8, 12` in Turn 33716), TM27 (Return, collected at Hupest Sea Small Offshore Isle `32, 36` in Turn 34362), TM36 (Sludge Bomb, collected at Route 8 `21, 14` in Turn 34141), TM37 (Sandstorm, collected in Destino Mine 1F at `32, 35` in Turn 32317), TM39 (Rock Tomb, collected in Upper Mt. Gerhana at `43, 9` in Turn 31547), and TM48 (Work Up). Zero HMs in possession.
 
 - **Empirical Constraint & Equipment Mechanic**: Interacting with cracked/rugged rocks in Sovio Sewers displays verbatim: "It's a rugged rock, but with some equipment, I could smash it." Confirmed that smashing rugged rocks is mechanic-gated by specialized equipment rather than traditional HM Rock Smash (verified at `6, 23` and `22, 10` in Sovio Sewers, Turns 27495 & 27512).
 
