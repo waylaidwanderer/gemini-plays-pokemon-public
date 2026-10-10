@@ -1188,6 +1188,13 @@
     - **Pokémon 1**: Staraptor (♂, Lv36; Normal/Flying; OHKO'd by Sirius's `Aura Sphere` for `1326 EXP`).
     - **Pokémon 2**: Tauros (♂, Lv37; Normal; OHKO'd by Sirius's `Aura Sphere` for `1672 EXP`, leveling Sirius to Lv64).
   - **Outcome**: Defeated in Turns 33962-33966.
+- **Farmer Lan (`32, 40`, rotating in the wheat field)**:
+  - **Pre-Battle Quote**: *"Wheat... wheat everywhere..."*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Mothim (♂, Lv36; Bug/Flying; OHKO'd by Sirius's `Meteor Mash` for `1141 EXP`).
+    - **Pokémon 2**: Mudsdale (♂, Lv37; Ground; OHKO'd by Sirius's `Aura Sphere` for `1387 EXP`).
+    - **Pokémon 3**: Rapidash (♀, Lv36; Fire; OHKO'd by Sirius's `Bulldoze` for `1480 EXP`).
+  - **Outcome**: Defeated in Turns 33970-33974 (*"Darn..."*).
 ## Items
 - **Stick x1 (`25, 35`)**: Collected from the golden item ball at `(25, 35)` in the western wheat field (interacted from `26, 35`; verified Turn 33966).
 ## Spatial & Terrain Mechanics
