@@ -1850,7 +1850,7 @@
   - **Western Corridor (`23-33, 8-9`)**:
     - **Purple Wall Plaque (`27, 7`)**: Reads *"Doors are password protected! / If you forgot the code for a door, find the computer displaying it."* (verified Turn 34398).
     - **Bookshelves (`23-26, 7-8`)**: Located along the northern wall.
-    - **Purple Door Mat (`25, 9`)**: Southern doorway mat leading into an adjacent room.
+    - **Purple Door Mat (`25, 9` <-> Western Stairwell Room `6, 7`)**: Stepping `Down` off `(25, 9)` warps into the **B2F Western Stairwell & Computer Room** at `(6, 7)` (doorway exit at `6, 6`; features a descending staircase with a red mat at the southwest corner and a computer/server station along the northern wall, verified Turn 34400).
   - **Southern Corridor (`34-35, 10-13+`)**: Extends south past the yellow crates at `(36, 12-13)`.
 
 <hr>
