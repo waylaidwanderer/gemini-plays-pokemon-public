@@ -771,6 +771,7 @@
     - Side-facing wooden staircase at `(61, 28-30)` (approached along `row 29`: `62, 29 <-> 60, 29`) leads down to the western beach ledge where a purple bottle sprite at **`(60, 27)`** yields **Carbos x1** (interacted from `60, 28`; verified Turn 33024).
   - **Galtino Bridge Cutscene & Boss Eclipsed Pidgeot (`53, 20` -> `46, 20`, Turns 33028-33034)**:
     - Stepping onto `(53, 20)` triggers a cutscene where **Dawn** (from Sinnoh) confronts three **Team Siara Grunts** blocking the bridge, who release a boss **Lv34 Eclipsed Pidgeot** (`859 EXP`; resists Fighting-type moves) as a diversion before fleeing west.
+  - **Galtino Bridge Midpoint Signboard (`35-36, 18`)**: Interacted from `(34, 18)`, reads verbatim: *"Galtino Bridge / Galinor City        Destino City / <-------                 ------->"* (verified Turn 33036), beside a green-haired boy at `(29, 20)` (*"Wow, you must be a strong trainer!"*, Turn 33035), a woman at `(32, 20)`, and a straw-hat boy around `(26, 18-21)`.
 
 <hr>
 
