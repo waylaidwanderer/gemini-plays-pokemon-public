@@ -10,5 +10,7 @@
   - **Northern Staircase (`16-18, 25`)**: Climbs north from the rocky plateau (`observed Turn 34199`).
 
 ## Trainers & NPCs
-- **Hiker at `(17, 29)` (facing `Down` in tall grass)**:
+- **Hiker Miguel (`17, 29`, facing `Down` in tall grass)**:
   - **Pre-Battle Quote**: *"You and me on the summit battle now!"* (triggered at `17, 30` in Turn 34200).
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Nidoking (♂, Lv38; Poison/Ground; OHKO'd by Sirius's `Bulldoze`).
