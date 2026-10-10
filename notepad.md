@@ -1997,6 +1997,9 @@
 ## Route 16 Collapsed Bridge — Dad & The FastSwift Service App (`76, 12`, Turns 33627-33630)
 - **The Collapsed Bridge to Aurin Town (`76, 12`)**: At the eastern cliffside of Route 16 (`76, 12`), Asher discovered that the wooden bridge across the water had collapsed. **Dad (Jackson)** climbed up to join him (`76, 13`), noting that a storm had torn the bridge apart and explaining that **Aurin Town** lies on the other side of the water (*"It's not the friendliest place in the region, but we got no choice."*).
 - **The FastSwift Service App (Surfing Mechanic)**: To cross the water without the bridge, Dad gave Asher the **FastSwift** service app on his **HuPhone**, which rents an inflatable boat to surf across any body of water by pressing the **A Button** while facing water (*"Asher obtained the FastSwift service app on his HuPhone! / When facing a body of water, press the 'A Button' to surf."*).
+- **Father-Son Talk & Location 3 Cutscene (`75, 12` on Route 16 & `10, 16` Offshore Island, Turns 33630-33641)**:
+  - Noticing Asher spacing out since Round 5, Dad gave Asher advice on apologizing to make peace even when you aren't sure what you did wrong.
+  - Meanwhile, on a small offshore island south of Galinor City (**Location 3**), **Professor Ivo** and **Valora** deduced that the third signal is underwater (adjacent to a deep ocean dive trench). When Ivo asked why Valora was helping them, Valora shared that Asher's bravery in Sovio City inspired her to become strong, and Ivo thanked her for being a true friend to Asher—before accidentally letting slip that she once had feelings for Jackson before Marie ("that lunatic") appeared.
 
 <hr>
 
