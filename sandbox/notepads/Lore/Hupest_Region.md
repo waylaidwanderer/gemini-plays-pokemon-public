@@ -321,3 +321,7 @@
 - **Post-Round-6 HuPhone Message from Dad (`12, 25` in Lower Arena Ring, Turn 33906)**:
   - Stepping onto `(12, 25)` after winning Round 6 triggers a HuPhone text message from **Dad**: *"Hey, son! I heard the round ended. Hope you did well, I managed to call Ivo and we are meeting in Maple Town! We also texted Valora, so we're all metting up there!"*.
   - Asher resolves to head to **Maple Town** to meet Dad, Professor Ivo, and Valora.
+## Post-Round-6 World Map Verification (Turns 33909-33916)
+- **Bugiaret Island Routes & Towns**: Confirmed that **Galinor City** connects south via **Route 13** and **Route 8** to **Mulberry Town** (southwest green square) and **Maple Town** (southeast green square, directly adjacent to the Location 3 offshore island), and west/south via **Route 9** and **Route 7**.
+- **Northeast & Eastern Mainland**: **Route 14** and **Hupestian Ruins / Mt. Nit** lead northeast from Amor City to **Eclipse Square** (`E.S.` on the Hupest Metro Line), while the eastern coast features **Wild Area** and **Dis Bay** (`Metro Station`).
+- **Cord Island**: Southeast offshore island containing **Route 18** and **Battle Marine**.
