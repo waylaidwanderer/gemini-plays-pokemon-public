@@ -249,6 +249,11 @@
     - **Pokémon 4**: Eelektross (♀, Lv38; Electric; Ability: Levitate; survived `Aura Sphere` in red HP and used `Volt Switch` into Samurott; later KO'd by Sirius's `Aura Sphere` for `1563 EXP`).
     - **Pokémon 5**: Samurott (♂, Lv39; Water; OHKO'd by Sirius's `Aura Sphere` for `1737 EXP`, leveling Sirius to Lv68).
   - **Outcome**: Defeated in Turns 34299-34307 (*"I... lost. / I couldn't achieve victory for my partners, nor my little sister... / Well, whatever. I'm just happy to know you are a Trainer others can count on every time."*; awards `₽4,368`), crowning Asher winner of his Round 7 group and advancing him to Round 8 of the Eclipse Tournament.
+- **Post-Round-7 Confrontation with Frio & Professor Ivo's Urgent Summons (`16, 25` -> `19, 13` in Tournament Arena Lobby -> Maple Town `43, 15`, Turns 34308-34312)**:
+  - Stepping onto `(16, 25)` after winning Round 7 warps Asher to `(19, 13)` in the upper Tournament Arena Lobby facing **Frio** (`19, 12`).
+  - Keeping his promise from Mulberry Town, Frio reveals that the underwater Location 3 signal is an old, abandoned **undersea laboratory of Team Siara** located below sea level close to **Maple Town**.
+  - When Asher asks Frio to join forces against Team Siara since Frio hates them more than anything, Frio refuses to get involved with Marie, Team Siara's experiments, or that undersea lab ever again (`"No! I'm not getting involved... I'm done with them! With that woman, with their experiments, with that damn Lab! I'm off now..."`) and departs.
+  - Immediately afterward, Asher receives an urgent HuPhone text message from **Professor Ivo**: *"Asher! Quick pick up Valora and come here quick! We are on a small isle from Maple to the south, this is urgent!"*. Asher finds Valora and fast-travels directly to **`(43, 15)`** at the southern shoreline stairs of **Maple Town**.
 
 <hr>
 
@@ -2452,6 +2457,10 @@
   1. **Quarterfinals**: Defeated **Gentleman Jonathan** (Arcanine Lv37, Alomomola Lv38, Lumineon Lv37, Manectric Lv38).
   2. **Semifinals**: Defeated **Battle Girl Sachi** (Medicham Lv37, Hariyama Lv37, Blaziken Lv38, Emboar Lv38), while Unova's **Hugh** defeated Scientist Jesse on the opposite side of the bracket.
   3. **Round Seven Finals**: Defeated **PKMN Trainer Hugh** from the Unova Region (Unfezant Lv37, Bouffalant Lv38, Simisage Lv37, Eelektross Lv38, Samurott Lv39) to win his Round Seven group and advance to Round Eight of the Eclipse Tournament.
+- **Post-Round-7 Revelation — The Abandoned Undersea Siara Laboratory & Ivo's Urgent Summons (`16, 25` -> `19, 13` -> Maple Town `43, 15`, Turns 34308-34312)**:
+  - In the Tournament Arena Lobby (`19, 13`), **Frio** kept his promise and revealed that the underwater Location 3 signal is most likely an old, abandoned **undersea laboratory of Team Siara** located below sea level near **Maple Town**.
+  - When Asher invited Frio to help them end Team Siara once and for all, Frio confessed he hates Team Siara more than anything in his life—only having intervened in Destino Mine because they took an Eclite Shard from him—and refused to get involved with Marie, their experiments, or that lab ever again before walking away.
+  - Moments later, Asher received an urgent HuPhone message from **Professor Ivo**: *"Asher! Quick pick up Valora and come here quick! We are on a small isle from Maple to the south, this is urgent!"*. Picking up Valora, Asher fast-traveled to the southern shoreline stairs of **Maple Town** (`43, 15`).
 
 <hr>
 
