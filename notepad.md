@@ -1616,6 +1616,12 @@
     - **Pokémon 1**: Solrock (Lv37; Rock/Psychic; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1188 EXP`).
     - **Pokémon 2**: Lunatone (Lv37; Rock/Psychic; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1188 EXP`).
   - **Outcome**: Defeated in Turns 34126-34129 (*"Falling right off.."*; awards `₽1,480`).
+- **Gentleman Leslie (`7, 18`, facing `Down` in the western corridor)**:
+  - **Pre-Battle Quote**: *"Hello, young man... / Would you fancy a battle?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Pidgeot (♂, Lv37; Normal/Flying; OHKO'd by Sirius's `Meteor Mash` for `1363 EXP`).
+    - **Pokémon 2**: Talonflame (♂, Lv37; Fire/Flying; knows Nature Power [turns into Stun Spore on grass]; 2HKO'd by Sirius's `Aura Sphere` for `1387 EXP`, leveling Sirius to Lv66).
+  - **Outcome**: Defeated in Turns 34152-34160.
 
 <hr>
 
@@ -2557,12 +2563,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv65
+- **Level**: Lv66
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 189), Attack (C+, 177), Defense (A-, 171), Sp. Atk (C-, 165), Sp. Def (E, 112), Speed (C-, 117)
-- **Current Condition**: 189/189 HP, Healthy (healed to full HP and PP and cured of paralysis at Maple Town Pokémon Center in Turn 34056)
-- **EXP**: Lv65 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018)
+- **Stats (IV Grades)**: HP (C, 192), Attack (C+, 180), Defense (A-, 173), Sp. Atk (C-, 168), Sp. Def (E, 114), Speed (C-, 118)
+- **Current Condition**: 183/192 HP, Paralyzed (paralyzed by Gentleman Leslie's Talonflame's Nature Power -> Stun Spore in Turn 34155)
+- **EXP**: Lv66 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
