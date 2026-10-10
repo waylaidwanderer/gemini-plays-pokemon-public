@@ -627,6 +627,16 @@
 
 ## Geography & Connections
 - **North (`27, 0` <-> Maple Town `42, 40`)**: Seamless northern sea border connecting the southeastern sea channel of **Maple Town** (`43, 18` -> `42, 39`) onto **Hupest Sea** at `(27, 0)` (verified Turn 34316).
+## Landmarks, Trainers & Points of Interest
+- **Northern Rock Clusters (`28-30, 4-5` & `27-29, 6-7`)**: Brown ocean rock formations just south of the Maple Town channel border (`27, 0`), with a clear vertical sea lane along `column 26` (verified Turn 34317).
+- **Northern Swimmers**:
+  - **Male Swimmer (`21, 8`)**: Stationed west of the northern rock cluster (observed Turn 34317).
+  - **Female Swimmer (`31-32, 7`)**: Swims horizontally east of the northern rock cluster (observed Turn 34317).
+- **Central Sandbar (`cols 19-28, rows 12-16`)**:
+  - **Single Tall Grass Tile (`21, 13`)**: Located near the northwest curve of the sandbar.
+  - **Fisherman 1 (`26, 14`)**: Faces north at the eastern notch of the sandbar (cannot be spoken to directly from the water tile `26, 13` without dismounting onto land, verified Turn 34319).
+  - **Fisherman 2 (`20, 15`)**: Faces south near the western edge of the sandbar (observed Turn 34319).
+  - **Small Rock (`27, 15`)**: Located on the southeastern tip of the sandbar.
 
 <hr>
 
