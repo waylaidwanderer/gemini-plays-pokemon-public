@@ -26,3 +26,10 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Nidoking (♂, Lv27; Poison/Ground).
   - **Outcome**: Defeat quote: *"Oh no, I slipped"*; awards `₽1,080` (verified Turns 32648-32650).
+- **Cooltrainer Albert (`16, 92`, facing East)**:
+  - **Pre-Battle Quote**: *"Yooo, wanna get higher on the mountain? Too bad!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Loudred (♀, Lv26; Normal).
+    - **Pokémon 2**: Sandslash (♀, Lv26; Ground; knows Sand Tomb).
+    - **Pokémon 3**: Granbull (♀, Lv27; Fairy).
+  - **Outcome**: Defeated in Turns 32656-32660 (Sirius at 75/139 HP).
