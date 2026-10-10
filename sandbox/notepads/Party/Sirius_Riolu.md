@@ -4,12 +4,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv53
+- **Level**: Lv54
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 156), Attack (C+, 145), Defense (A-, 140), Sp. Atk (C-, 135), Sp. Def (E, 92), Speed (C-, 96)
-- **Current Condition**: 156/156 HP, Healthy (full party healed and checkpoint registered at Jarro Town Pokémon Center in Turn 32914; reached Lv53 in Round 4 Finals against Silver in Turn 32979)
-- **EXP**: Lv53 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979)
+- **Stats (IV Grades)**: HP (C, 159), Attack (C+, 148), Defense (A-, 143), Sp. Atk (C-, 138), Sp. Def (E, 94), Speed (C-, 98)
+- **Current Condition**: 156/159 HP, Healthy (full party healed and checkpoint registered at Jarro Town Pokémon Center in Turn 32914; reached Lv54 defeating Siara Grunt's Granbull in Solare Island Forest in Turn 33091)
+- **EXP**: Lv54 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
