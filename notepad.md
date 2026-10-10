@@ -1852,6 +1852,11 @@
     - **Bookshelves (`23-26, 7-8`)**: Located along the northern wall.
     - **Purple Door Mat (`25, 9` <-> Western Stairwell Room `6, 7`)**: Stepping `Down` off `(25, 9)` warps into the **B2F Western Stairwell & Computer Room** at `(6, 7)` (doorway exit at `6, 6`; features a descending staircase with a red mat at the southwest corner and a computer/server station along the northern wall, verified Turn 34400).
   - **Southern Corridor (`34-35, 10-13+`)**: Extends south past the yellow crates at `(36, 12-13)`.
+## B2F Western Stairwell & Computer Room (`6, 7` from B2F Lobby `25, 9`)
+- **Doorway Exit (`6, 6`)**: Warps back to B2F Lobby at `(25, 9)`.
+- **Northern Wall (`cols 8-13, rows 8-9`)**: Bookshelves at `(8-9, 8-9)` and `(13+, 8-9)`, blue computer desk at `(10-11, 8-9)`, and server tower at `(12, 8-9)`.
+- **Cracked Floor Shadow (`5-7, 8-10`)**: 3x3 circular shadow centered on `(6, 9)` between the northern doorway (`6, 7`) and the southern floor (`row 10+`); `(7, 9)` has solid collision (verified Turn 34403).
+- **Descending Staircase (`2-3, 10-11`)**: Accessed via the red mat at `(4, 11)`.
 
 <hr>
 
