@@ -1682,7 +1682,13 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Mimikyu (♂, Lv38; Ghost/Fairy; Ability: Sturdy; knows Shadow Claw; 2HKO'd by Sirius's `Meteor Mash` + `Bulldoze` for `1359 EXP`).
     - **Pokémon 2**: Clefable (♀, Lv38; Fairy; OHKO'd by Sirius's `Meteor Mash` for `1050 EXP`).
-  - **Outcome**: Defeated in Turns 34233-34238.
+  - **Outcome**: Defeated in Turns 34233-34238 (*"Asher got ₽2,280 for winning!"*).
+- **Cooltrainer Albert (`51, 18`, rotating; walked left to `49, 18` when triggered at `48, 18`)**:
+  - **Pre-Battle Quote**: *"Good grief... / Another Trainer?!"* (triggered at `48, 18` in Turn 34240).
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Skarmory (♂, Lv38; Steel/Flying; Ability: Sturdy; knows Agility; 2HKO'd by Sirius's `Aura Sphere` + `Mach Punch` for `1368 EXP`).
+    - **Pokémon 2**: Probopass (♂, Lv38; Rock/Steel; OHKO'd by Sirius's `Mach Punch` for `1497 EXP`).
+  - **Outcome**: Defeated in Turns 34241-34248.
 ## Wild Pokémon Encounters
 - **Tall Grass (`cols 1-8, rows 27-36` & `cols 13-18, rows 19-32`)**:
   - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 3 in Turn 34213, bringing Owned species to **77**).
