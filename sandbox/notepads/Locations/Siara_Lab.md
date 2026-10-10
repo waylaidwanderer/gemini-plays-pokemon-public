@@ -16,3 +16,4 @@
     - Stepping onto `(37, 6)` triggers a HuPhone call from **Professor Ivo**, who explains that while the elevator is running on a backup generator, everything else in the facility is offline because the **main generator** is not running.
     - Because the security doors cannot be opened without power, Asher must **find the generator room and turn the main generator back on**.
     - Ivo also warns Asher that the abandoned laboratory is crawling with **Eclipsed Pokémon**.
+  - **Purple Wall Plaque (`38, 5`)**: Reads *"B2F / Lobby"* (confirming `1F–5F` on the elevator panel correspond to subterranean undersea levels `B1F–B5F`, verified Turn 34391).
