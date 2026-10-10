@@ -244,3 +244,8 @@
 - **Amor Battle Center Round Four Summons & Fast-Travel to Route 12 (`36, 29` -> Route 12 Main `25, 109`, Turns 32948-32949)**:
   - Stepping south onto `(36, 29)` along the Ecly Festival lantern path after visiting the Ancient Hupestian Ruins triggers a HuPhone text message from the **Amor Battle Center**: *"Dear Contestant! The fourth round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*.
   - Immediately after reading the message, the game automatically fast-travels Asher to **`(25, 109)`** at the southern end of **Route 12 Main** outside Amor City.
+## Eclipse Tournament Round Four — Victory Over Johto's Silver
+- **Round Four Bracket & Matches (Turns 32957-32987)**: Inside the Amor City Battle Centre's Round 4 Arena (`20, 17`), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Super Nerd Eugene** (Haunter Lv27, Diggersby Lv28, Banette Lv27, Vigoroth Lv28).
+  2. **Semifinals**: Defeated **Hiker Tom** (Carnivine Lv28, Cryogonal Lv29, Quilladin Lv28), while Johto's **Silver** defeated the Worker and Picnicker on the opposite side of the bracket.
+  3. **Round Four Finals**: Defeated **PKMN Trainer Silver** from the Johto Region (Weavile Lv29, Crobat Lv29, Magnezone Lv30, Feraligatr Lv31) to win his Round Four group and advance to Round Five of the Eclipse Tournament.

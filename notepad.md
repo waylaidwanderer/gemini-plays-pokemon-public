@@ -130,6 +130,14 @@
     - **Pokémon 2**: Cryogonal (Lv29; Ice).
     - **Pokémon 3**: Quilladin (♂, Lv28; Grass).
   - **Outcome**: Defeat quote: *"What the? / Wasn't I focusing enough?"*; awards `₽1,160`, while Johto's **Silver** defeated the Picnicker on the opposite side of the bracket (verified Turns 32971-32974).
+- **Match 3 (Round Four Finals — PKMN Trainer Silver)**:
+  - **Pre-Battle Quote**: *"So you are my final opponent this round... / My name is Silver, I came from the Johto Region... / You don't look like much, I bet my Pokémon will pummel you!"*
+  - **Team (4 Pokémon, +2 Hyper Potions)**:
+    - **Pokémon 1**: Weavile (♂, Lv29; Dark/Ice).
+    - **Pokémon 2**: Crobat (♀, Lv29; Poison/Flying).
+    - **Pokémon 3**: Magnezone (Lv30; Electric/Steel; Ability: Sturdy; knows Iron Defense).
+    - **Pokémon 4**: Feraligatr (♂, Lv31; Water).
+  - **Outcome**: Defeat quote: *"What the?! / Arghhh! / Now that I look at you, you do remind me of someone I really don't like... / Looks like my Pokémon were worthless... they were weak!"*; awards `₽3,472` and crowns Asher winner of his Round 4 group (verified Turns 32977-32987).
 
 <hr>
 
@@ -1708,6 +1716,11 @@
 - **Amor Battle Center Round Four Summons & Fast-Travel to Route 12 (`36, 29` -> Route 12 Main `25, 109`, Turns 32948-32949)**:
   - Stepping south onto `(36, 29)` along the Ecly Festival lantern path after visiting the Ancient Hupestian Ruins triggers a HuPhone text message from the **Amor Battle Center**: *"Dear Contestant! The fourth round of the Eclipse Tournament is about to start. Please, head back to the Battle Center in Amor City to participate in the round's battles. If you have any questions, be sure to ask the receptionist, in the building where you signed up. Good luck, Pokémon Trainer! - Amor Battle Center"*.
   - Immediately after reading the message, the game automatically fast-travels Asher to **`(25, 109)`** at the southern end of **Route 12 Main** outside Amor City.
+## Eclipse Tournament Round Four — Victory Over Johto's Silver
+- **Round Four Bracket & Matches (Turns 32957-32987)**: Inside the Amor City Battle Centre's Round 4 Arena (`20, 17`), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage:
+  1. **Quarterfinals**: Defeated **Super Nerd Eugene** (Haunter Lv27, Diggersby Lv28, Banette Lv27, Vigoroth Lv28).
+  2. **Semifinals**: Defeated **Hiker Tom** (Carnivine Lv28, Cryogonal Lv29, Quilladin Lv28), while Johto's **Silver** defeated the Worker and Picnicker on the opposite side of the bracket.
+  3. **Round Four Finals**: Defeated **PKMN Trainer Silver** from the Johto Region (Weavile Lv29, Crobat Lv29, Magnezone Lv30, Feraligatr Lv31) to win his Round Four group and advance to Round Five of the Eclipse Tournament.
 
 <hr>
 

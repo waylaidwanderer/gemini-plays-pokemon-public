@@ -128,3 +128,11 @@
     - **Pokémon 2**: Cryogonal (Lv29; Ice).
     - **Pokémon 3**: Quilladin (♂, Lv28; Grass).
   - **Outcome**: Defeat quote: *"What the? / Wasn't I focusing enough?"*; awards `₽1,160`, while Johto's **Silver** defeated the Picnicker on the opposite side of the bracket (verified Turns 32971-32974).
+- **Match 3 (Round Four Finals — PKMN Trainer Silver)**:
+  - **Pre-Battle Quote**: *"So you are my final opponent this round... / My name is Silver, I came from the Johto Region... / You don't look like much, I bet my Pokémon will pummel you!"*
+  - **Team (4 Pokémon, +2 Hyper Potions)**:
+    - **Pokémon 1**: Weavile (♂, Lv29; Dark/Ice).
+    - **Pokémon 2**: Crobat (♀, Lv29; Poison/Flying).
+    - **Pokémon 3**: Magnezone (Lv30; Electric/Steel; Ability: Sturdy; knows Iron Defense).
+    - **Pokémon 4**: Feraligatr (♂, Lv31; Water).
+  - **Outcome**: Defeat quote: *"What the?! / Arghhh! / Now that I look at you, you do remind me of someone I really don't like... / Looks like my Pokémon were worthless... they were weak!"*; awards `₽3,472` and crowns Asher winner of his Round 4 group (verified Turns 32977-32987).
