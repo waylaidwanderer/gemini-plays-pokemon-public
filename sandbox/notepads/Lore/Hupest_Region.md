@@ -63,7 +63,7 @@
 - **Amor City**: Giant blue central metropolitan hub of Hupest (subtitle: "Metro Station"). Regional capital and host city of the Eclipse Tournament / Amor Sports Center.
 - **Route 16**: Eastern highway connecting Amor City east to Aurin Town.
 - **Aurin Town**: Green town node located east of Amor City.
-- **Western Island**: Large western archipelago connected via a sea bridge from a mainland red port city; contains a northern red city and a triangle of 3 green towns.
+- **Western Island (Bugiaret Island)**: Large western archipelago connected via a sea bridge (Route 11) from Destino City to Galinor City; contains a northern red city (Galinor City) and a triangle of 3 green towns (including Mulberry Town).
 - **Cord Island**: Southeast offshore island containing 1 red town and 1 blue coastal port (verified via World Map).
 ## Interactive World Map Findings (HuPhone)
 - **Divampa Cave**: Verified cave/mountain landmark in the central-south mountain sector between the southern routes and Amor City.
