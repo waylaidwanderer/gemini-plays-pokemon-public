@@ -290,7 +290,7 @@
   - Routing along `column 15` (`15, 30 -> 15, 26 -> 17, 26`) reaches the upper staircase (`16-18, 22-25`) to the northern terrace (`rows 18-23`).
 - **Northern Terrace (`cols 2-24, rows 18-26`, Verified Turns 33832-33839)**:
   - **Narrow Stone Pillar (`8, 24 -> 8, 25`)**: Connects `(8, 23)` south to `(8, 25)` directly in front of the Gold Item Ball at `(8, 26)` containing **Scrap Metal** (#1 of 3, collected into Key Items Pocket in Turn 33835).
-  - **Western Stone Beam (`3-4, 21`)**: Walkable grey stone beam across `row 21` connecting `(5, 21)` west across the pit to `(2, 21)` below the Gold Item Ball at `(2, 19)` (verified Turn 33839; `(3-4, 19-20)` are solid pit collision).
+  - **Western Stone Beam (`3-4, 21`)**: Walkable grey stone beam across `row 21` connecting `(5, 21)` west across the pit to `(2, 21)` below the Gold Item Ball at `(2, 19)` containing **Scrap Metal** (#2 of 3, collected into Key Items Pocket in Turn 33841; `(3-4, 19-20)` are solid pit collision).
   - **Eastern Rebar Beam (`21-22, 21`)**: Connects `(20, 21)` east across the pit to `(23, 21)`.
 
 <hr>
