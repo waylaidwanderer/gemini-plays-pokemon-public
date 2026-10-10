@@ -1668,6 +1668,9 @@
     - **Pokémon 1**: Nidoking (♂, Lv38; Poison/Ground; OHKO'd by Sirius's `Bulldoze` for `1587 EXP`).
     - **Pokémon 2**: Dugtrio (♂, Lv38; Ground; knows Mud Bomb; OHKO'd by Sirius's `Mach Punch` for `1245 EXP`).
   - **Outcome**: Defeated in Turns 34201-34206.
+## Wild Pokémon Encounters
+- **Tall Grass (`cols 1-8, rows 27-36` & `cols 13-18, rows 19-32`)**:
+  - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 2 in Turn 34213, bringing Owned species to **77**).
 
 <hr>
 
@@ -2490,7 +2493,7 @@
 - **Key Items Pocket (Audited Turn 32170)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), and **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 34149)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x25** (purchased 30 at Maple Town PokéMart in Turn 34063, collected 1 at Route 8 `42, 15` in Turn 34101, used 3 catching wild Lv27 Floette at `25, 23` in Turn 34119, used 3 catching wild Lv28 Gloom at `12, 22` in Turn 34136, and used 1 catching wild Lv26 Audino at `13, 27` in Turn 34148), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **76**.
+- **Poké Balls Pocket (Audited Turn 34213)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x23** (purchased 30 at Maple Town PokéMart in Turn 34063, collected 1 at Route 8 `42, 15` in Turn 34101, used 3 catching wild Lv27 Floette at `25, 23` in Turn 34119, used 3 catching wild Lv28 Gloom at `12, 22` in Turn 34136, used 1 catching wild Lv26 Audino at `13, 27` in Turn 34148, and used 2 catching wild Lv28 Linoone at Route 9 `15, 22` in Turn 34212), **Dive Ball x1** (collected at Galinor City `35, 6` in Turn 33048), **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **77**.
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
@@ -2616,7 +2619,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 192), Attack (C+, 180), Defense (A-, 173), Sp. Atk (C-, 168), Sp. Def (E, 114), Speed (C-, 118)
-- **Current Condition**: 151/192 HP, Paralyzed (verified on battle screen in Turn 34206)
+- **Current Condition**: 146/192 HP, Paralyzed (verified on battle screen in Turn 34213)
 - **EXP**: Lv66 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

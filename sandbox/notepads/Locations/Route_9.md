@@ -15,3 +15,6 @@
     - **Pokémon 1**: Nidoking (♂, Lv38; Poison/Ground; OHKO'd by Sirius's `Bulldoze` for `1587 EXP`).
     - **Pokémon 2**: Dugtrio (♂, Lv38; Ground; knows Mud Bomb; OHKO'd by Sirius's `Mach Punch` for `1245 EXP`).
   - **Outcome**: Defeated in Turns 34201-34206.
+## Wild Pokémon Encounters
+- **Tall Grass (`cols 1-8, rows 27-36` & `cols 13-18, rows 19-32`)**:
+  - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 2 in Turn 34213, bringing Owned species to **77**).
