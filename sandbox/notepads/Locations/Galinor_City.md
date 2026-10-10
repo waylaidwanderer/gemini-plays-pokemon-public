@@ -7,3 +7,6 @@
 - **Cargo Container Yard (`cols 43-59, rows 35-45`)**:
   - **Police Officer (`46, 41-43`, patrolling)**: Patrols the central cobblestone avenue (`cols 46-48`).
   - **Quest #10 Provider ("Push it!", `54, 41`)**: Sailor with a side-quest icon standing among the green shipping containers at `(54, 41)` (verified Turn 33043).
+- **Galinor Cargo Loading Bay (`48, 32` Signboard & `cols 46-48, rows 15-31` Bridge)**:
+  - **Signboard (`48, 32`)**: Interacted from `(48, 33)`, reads verbatim: *"Galinor Cargo Loading Bay"* (verified Turn 33044).
+  - **Wooden Bridge (`cols 46-48, rows 15-31`)**: Connects north from `(47, 32)` across the channel onto the **Galinor Cargo Loading Bay** pier.
