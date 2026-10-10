@@ -266,3 +266,8 @@
 - **Introduction to Dawn & Valora's Teasing (`46, 20`, Turn 33033)**:
   - After Asher calmed the situation, **Dawn** thanked him, wondered why the Pidgeot didn't look normal, introduced herself as a fellow **Eclipse Tournament** competitor who had noticed Asher's skill (*"Hehe, and not too ugly, that's for sure."*), and headed east toward Destino City (*"See ya later, in the tournament!"*).
   - Rejoining Asher at `(46, 20)`, **Valora** teased him (*"You also seemed to have a bit too much fun after you were done... Oh, nothing, but who was she?"*) before continuing west across Galtino Bridge toward Galinor City.
+## Galinor City — Dad's Message & Search for the Cargo Loading Bay
+- **Arrival in Galinor City & Dad's Text (`47, 47`, Turn 33041)**:
+  - Upon arriving in **Galinor City** ("The luxury resort city") at `(47, 47)`, Valora marveled at how huge and fancy the city is and wondered how they would find their boat ride.
+  - Asher immediately received a HuPhone text message from **Dad**: *"Asher, I already called Harry, he should be waiting at the Cargo Loading Bay. I told him you will get there earlier, could you find him and wait for us? We will be there soon too!"*.
+  - Asher and Valora set out to locate **Harry** at the **Cargo Loading Bay** in Galinor City.

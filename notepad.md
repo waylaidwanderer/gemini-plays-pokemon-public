@@ -380,6 +380,7 @@
 ## Geography & Connections
 - **East (`69, 48-49` <-> Route 11 Main `0, 20-21`)**: Seamless map border connecting the western approach of **Galtino Bridge (Route 11)** onto the eastern trail of **Galinor City** at `(69, 48-49)` (verified Turn 33037).
 - **Town Signboard (`52-53, 46`)**: Interacted from `(53, 47)`, reads verbatim: *"Galinor City / The luxury resort city"* (verified Turn 33039).
+- **Eastern Arrival Cutscene (`47, 47`, Turn 33041)**: Stepping west onto `(47, 47)` triggers a cutscene with **Valora** and a HuPhone text message from **Dad** instructing Asher and Valora to find **Harry** waiting for them at the **Cargo Loading Bay**.
 
 <hr>
 
@@ -1777,6 +1778,11 @@
 - **Introduction to Dawn & Valora's Teasing (`46, 20`, Turn 33033)**:
   - After Asher calmed the situation, **Dawn** thanked him, wondered why the Pidgeot didn't look normal, introduced herself as a fellow **Eclipse Tournament** competitor who had noticed Asher's skill (*"Hehe, and not too ugly, that's for sure."*), and headed east toward Destino City (*"See ya later, in the tournament!"*).
   - Rejoining Asher at `(46, 20)`, **Valora** teased him (*"You also seemed to have a bit too much fun after you were done... Oh, nothing, but who was she?"*) before continuing west across Galtino Bridge toward Galinor City.
+## Galinor City — Dad's Message & Search for the Cargo Loading Bay
+- **Arrival in Galinor City & Dad's Text (`47, 47`, Turn 33041)**:
+  - Upon arriving in **Galinor City** ("The luxury resort city") at `(47, 47)`, Valora marveled at how huge and fancy the city is and wondered how they would find their boat ride.
+  - Asher immediately received a HuPhone text message from **Dad**: *"Asher, I already called Harry, he should be waiting at the Cargo Loading Bay. I told him you will get there earlier, could you find him and wait for us? We will be there soon too!"*.
+  - Asher and Valora set out to locate **Harry** at the **Cargo Loading Bay** in Galinor City.
 
 <hr>
 
