@@ -23,3 +23,5 @@
   - **Western Forest Clearing Beyond Barrier #1 (`cols 20-30, rows 21-31`)**:
     - **Siara Grunt (`24, 26`)**: Faces south in the tall grass (`"*How did you get in?! / Didn't those morons accidentally lock us in?*"*, Turn 33088; Granbull Lv30, Floatzel Lv30 [Drizzle], Herdier Lv31; `₽3224`, defeated Turns 33088-33095).
     - **Northern Siara Grunt (`21, 22`)**: Visible on the path north of the stone ruin wall (`rows 23-24, cols 23-30`; observed Turn 33088).
+    - **Decorative Ruin Lantern Pillars (`32, 27`, `24, 31`, `17, 28`)**: Small yellow spheres atop green vine pillars along the ruin walls (sometimes partially obscured by tree canopies like `24, 31`); strictly decorative background/wall tiles rather than interactive crystals or items (verified Turn 33096).
+    - **Wild Encounters**: **Spewpa** (Lv23; caught at `26, 30` in Turn 33109 after chipping to ~48% yellow HP with two `0.5x` resisted `Mach Punches` against `+6` Defense from `Harden`).
