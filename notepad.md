@@ -224,6 +224,14 @@
 - **Round 7 Bracket**:
   - **Left Side**: **Asher** vs. **Jonathan** (Match 1) and **Camper** vs. **Black Belt** (Match 2).
   - **Right Side**: **Hugh (from Unova)** vs. **Ace Trainer Male** (Match 3) and **Scientist** vs. **Worker** (Match 4).
+- **Match 1 (Quarterfinals — Gentleman Jonathan)**:
+  - **Pre-Battle Quote**: *"Greetings... / You can go first, I'm a gentleman"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Arcanine (♂, Lv37; Fire; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `1687 EXP`, leveling Sirius to Lv67).
+    - **Pokémon 2**: Alomomola (♂, Lv38; Water; OHKO'd by Sirius's `Aura Sphere`).
+    - **Pokémon 3**: Lumineon (♂, Lv37; Water; OHKO'd by Sirius's `Aura Sphere` for `1276 EXP`).
+    - **Pokémon 4**: Manectric (♂, Lv38; Electric; OHKO'd by Sirius's `Aura Sphere` for `1368 EXP`).
+  - **Outcome**: Defeated in Turns 34274-34284; awards `₽2,736`.
 
 <hr>
 
@@ -2644,12 +2652,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv66
+- **Level**: Lv67
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 192), Attack (C+, 180), Defense (A-, 173), Sp. Atk (C-, 168), Sp. Def (E, 114), Speed (C-, 118)
-- **Current Condition**: 192/192 HP, Healthy (healed to full HP/PP and cured of paralysis at Galinor City Pokémon Center in Turn 34255)
-- **EXP**: Lv66 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159)
+- **Stats (IV Grades)**: HP (C, 194), Attack (C+, 183), Defense (A-, 177), Sp. Atk (C-, 170), Sp. Def (E, 116), Speed (C-, 120)
+- **Current Condition**: 194/194 HP, Healthy (healed to full HP/PP and cured of paralysis at Galinor City Pokémon Center in Turn 34255)
+- **EXP**: Lv67 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)

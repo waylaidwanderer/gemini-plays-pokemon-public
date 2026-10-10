@@ -222,3 +222,11 @@
 - **Round 7 Bracket**:
   - **Left Side**: **Asher** vs. **Jonathan** (Match 1) and **Camper** vs. **Black Belt** (Match 2).
   - **Right Side**: **Hugh (from Unova)** vs. **Ace Trainer Male** (Match 3) and **Scientist** vs. **Worker** (Match 4).
+- **Match 1 (Quarterfinals — Gentleman Jonathan)**:
+  - **Pre-Battle Quote**: *"Greetings... / You can go first, I'm a gentleman"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Arcanine (♂, Lv37; Fire; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `1687 EXP`, leveling Sirius to Lv67).
+    - **Pokémon 2**: Alomomola (♂, Lv38; Water; OHKO'd by Sirius's `Aura Sphere`).
+    - **Pokémon 3**: Lumineon (♂, Lv37; Water; OHKO'd by Sirius's `Aura Sphere` for `1276 EXP`).
+    - **Pokémon 4**: Manectric (♂, Lv38; Electric; OHKO'd by Sirius's `Aura Sphere` for `1368 EXP`).
+  - **Outcome**: Defeated in Turns 34274-34284; awards `₽2,736`.
