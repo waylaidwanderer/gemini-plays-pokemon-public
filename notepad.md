@@ -261,7 +261,7 @@
   - **Outcome**: Defeated in Turns 33767-33772 (`"..."`).
 - **Rebar Pit Beams (`27-28, 24`)**: While `(27-28, 23)` and `(27-28, 25)` of the indoor floor pit are impassable, the horizontal metal rebar beam across `row 24` (`27-28, 24`) is walkable and connects `(26, 24)` directly to `(29, 24)` (verified Turn 33776).
 - **Eastern Rebar Pit (`34-36, 23-24`) & Central Staircase (`30-32, 19-22`)**: East of the first rebar pit (`27-28, 24`) lies an indoor tall grass patch (`30-33, 23-25`), a second rebar-bridged floor pit at `(34-36, 23-24)` (leading to a capsule item sprite at `38, 24`), and a wide staircase at `(30-32, 19-22)` ascending to the upper platform (`rows 14-21`).
-- **Upper Platform Landmarks (`cols 22-38, rows 14-21`)**: Features a wandering **Explorer** at `(22-24, 19-20)`, an **Item Ball** at `(22, 21)`, a rugged rock at `(37, 17)`, and a second **Gangster** at `(29, 17)` facing `Down`.
+- **Upper Platform Landmarks (`cols 22-38, rows 14-21`)**: Features a wandering **Explorer** at `(22-24, 19-20)`, an **Item Ball** at `(22, 21)`, a rugged rock at `(37, 17)`, and **Gangster Cony** at `(29, 17)` facing `Down` (*"Hey hey! What is a defenseless kid doing here?"*; uses Skuntank ♀ Lv35 [`1260 EXP`] and Absol ♂ Lv35 [`1305 EXP`]; defeated in Turns 33779-33785, `"What the?!"`).
 
 <hr>
 
@@ -2306,12 +2306,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv60
+- **Level**: Lv61
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 175), Attack (C+, 164), Defense (A-, 158), Sp. Atk (C-, 153), Sp. Def (E, 104), Speed (C-, 108)
-- **Current Condition**: 175/175 HP, Healthy (healed to full HP and PP at Aurin Town Pokémon Center in Turn 33728)
-- **EXP**: Lv60 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687)
+- **Stats (IV Grades)**: HP (C, 178), Attack (C+, 167), Defense (A-, 161), Sp. Atk (C-, 155), Sp. Def (E, 106), Speed (C-, 109)
+- **Current Condition**: 178/178 HP, Healthy (healed to full HP and PP at Aurin Town Pokémon Center in Turn 33728; leveled up to Lv61 in Turn 33783)
+- **EXP**: Lv61 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
