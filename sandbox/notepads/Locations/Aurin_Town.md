@@ -34,3 +34,4 @@
 ## Aurin Town Proper (`cols 1+, rows 1-24`, Entered Turn 33721)
 - **Weathered Concrete House (`8, 17`)**: Dilapidated concrete house with broken windows and vines covering the door at `(8, 17)` (cannot be entered).
 - **Arrival Cutscene with Dad & Aur Factory Lead (`9, 19`, Turns 33722-33726)**: Stepping onto `(9, 19)` triggers a cutscene with **Dad (Jackson)** (`10, 19`) and a local man (`11, 19`), who reveals that Pokémon in the ruins of **Aur Factory** (up the northern stairs at `13-15, 14-16`) have been behaving violently and abnormally. Dad recognizes **Aur Factory** from years ago and joins Asher to investigate it.
+- **Aurin Town Pokémon Center (`19, 17`, exits to `19, 18`)**: Nurse Joy at `(7, 2)` (counter at `7, 4`; healed and registered checkpoint in Turn 33728); PokéMart mezzanine escalator at northwest corner (`3, 2`).
