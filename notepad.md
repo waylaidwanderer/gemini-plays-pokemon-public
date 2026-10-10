@@ -166,6 +166,9 @@
     - **Pokémon 3**: Empoleon (♂, Lv34; Water/Steel; custom Ability: Sturdiness [reduces super-effective damage]; knows Scald; defeated by Sirius's `Aura Sphere` for `1530 EXP`).
     - **Pokémon 4**: Roserade (♀, Lv33; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1441 EXP`).
   - **Outcome**: Defeat quote: *"'Thud' Oh man... / Even though my Dad is a Frontier Brain... I still failed"*; awards `₽3,808` and crowns Asher winner of his Round 5 group (verified Turns 33443-33455).
+- **Post-Round-5 Cutscene with Dawn & Valora (`11, 10` in Tournament Arena Lobby -> `9, 18` in Ivo's Basement Lab, Turns 33457-33461)**:
+  - Stepping onto `(11, 10)` in the Tournament Arena Lobby after winning Round 5 triggers **Dawn** to greet Asher (`"So, how's Mr. Famous doing?"`), invite him out for a drink or food to celebrate (which Asher declines because he has business to take care of and needs to pick someone up), and exchange phone numbers with him before departing.
+  - Riding up the escalator at `(6, 17)`, **Valora** spots Dawn leaving and feels a pang of jealousy (*"Yet... why is she being so close to him? I have known him way longer"*). Though she also passed Round 5, Valora avoids meeting Asher's eyes and urges him to return to Professor Ivo's laboratory immediately, automatically fast-traveling them to **`(9, 18)`** in Professor Ivo's Basement Lab in Lancio Town.
 
 <hr>
 
@@ -1928,6 +1931,13 @@
   1. **Quarterfinals**: Defeated **Cooltrainer Summer** (Florges Lv32, Cacturne Lv32, Venusaur Lv32).
   2. **Semifinals**: Defeated **Fisherman Otis** (Octillery Lv32, Gyarados Lv32, Sharpedo Lv33), while Sinnoh's **Barry** defeated Black Belt Adam on the opposite side of the bracket.
   3. **Round Five Finals**: Defeated **PKMN Trainer Barry** from the Sinnoh Region (Dawn's childhood friend, who recognized Asher from Galtino Bridge; uses Staraptor Lv32, Hitmontop Lv33, Empoleon Lv34, and Roserade Lv33) to win his Round Five group and advance to Round Six of the Eclipse Tournament.
+- **Post-Round-5 Reunion with Dawn & Valora (`11, 10` in Tournament Arena Lobby, Turns 33457-33461)**:
+  - In the Tournament Arena Lobby after Round 5, **Dawn** greeted Asher as `"Mr. Famous"`, invited him out to celebrate, and exchanged phone numbers with him when he explained he was busy.
+  - Coming up the escalator (`6, 17`), **Valora** saw Dawn talking closely with Asher and became visibly flustered and jealous despite also passing Round 5, prompting them to head straight back to Professor Ivo's Basement Lab in Lancio Town (`9, 18`).
+## Lancio Town Location 2 Briefing & Mission to Route 16
+- **Splitting into Two Teams (`9, 18` in Ivo's Basement Lab -> Amor City `59, 27`, Turns 33461-33464)**:
+  - In Professor Ivo's Basement Lab, Ivo showed on the World Map that they pinpointed the exact position of **Location 2** (east of Amor City) and that its energy signal has grown strong again, while **Location 3** (another offshore island) still emits a weaker signal in a general area.
+  - Ivo and Jackson decided to split into two teams: **Professor Ivo and Valora** headed offshore to investigate **Location 3**, while **Dad (Jackson) and Asher** teamed up to tackle the more dangerous **Location 2**, which Dad explained can be reached via **Route 16** from Amor City, automatically warping Asher to **`(59, 27)`** outside the Amor City Battle Centre.
 
 <hr>
 
