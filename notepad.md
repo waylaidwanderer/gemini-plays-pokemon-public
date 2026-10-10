@@ -958,7 +958,7 @@
 
 ## Geography & Connections
 - **East (`21, 10-11` <-> Route 8 `0, 8-9`)**: Seamless eastern border connecting the western road of **Route 8** into **Mulberry Town** at `(21, 10-11)` (verified Turn 34168).
-- **Mulberry Town Pokémon Center (`15, 9`, exits to `15, 10`)**: Located on the north side of the eastern entrance road (`cols 13-17, rows 5-9`).
+- **Mulberry Town Pokémon Center (`15, 9`, exits to `15, 10`)**: Located on the north side of the eastern entrance road (`cols 13-17, rows 5-9`). Nurse Joy at `(7, 2)` (counter at `7, 4`; healed party and registered active respawn checkpoint in Turn 34169).
 
 <hr>
 
@@ -2579,7 +2579,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 192), Attack (C+, 180), Defense (A-, 173), Sp. Atk (C-, 168), Sp. Def (E, 114), Speed (C-, 118)
-- **Current Condition**: 183/192 HP, Paralyzed (paralyzed by Gentleman Leslie's Talonflame's Nature Power -> Stun Spore in Turn 34155)
+- **Current Condition**: 192/192 HP, Healthy (healed to full HP/PP and cured of paralysis at Mulberry Town Pokémon Center in Turn 34169)
 - **EXP**: Lv66 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
@@ -2605,7 +2605,7 @@
 - **Level**: Lv16 (leveled up defeating Siara Executive's Lv25 Wobbuffet in Destino Mine 2F in Turn 32423; Stats: HP 48, Attack 32, Defense 23, Sp. Atk 24, Sp. Def 18, Speed 26)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 28/48 HP (Healthy; chipped and paralyzed wild Lv22 Shelmet with Spark in Solare Island Forest in Turn 33116)
+- **HP**: 48/48 HP (Healthy; healed at Mulberry Town Pokémon Center in Turn 34169)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
