@@ -1857,6 +1857,11 @@
 - **Northern Wall (`cols 8-13, rows 8-9`)**: Bookshelves at `(8-9, 8-9)` and `(13+, 8-9)`, blue computer desk at `(10-11, 8-9)`, and server tower at `(12, 8-9)`.
 - **Cracked Floor Shadow (`5-7, 8-10`)**: 3x3 circular shadow centered on `(6, 9)` between the northern doorway (`6, 7`) and the southern floor (`row 10+`); `(7, 9)` has solid collision (verified Turn 34403).
 - **Descending Staircase (`2-3, 10-11`)**: Accessed via the red mat at `(4, 11)`.
+  - **Northern Computer Terminal (`10-11, 8-9`)**: Currently powered off while the main generator is offline (`row 10` is completely walkable from `5, 10` to `10, 10`; verified Turn 34405).
+  - **Staircase Warp (`3, 11` <-> B3F `12, 11`)**: Stepping onto `(3, 11)` from the red mat `(4, 11)` descends to **B3F** at `(12, 11)` (verified Turn 34406).
+
+## Floor B3F (Western Stairwell Entry at `12, 11`)
+- **Ascending Staircase (`13-14, 11`)**: Accessed via the red mat at `(12, 11)`; returns to the B2F Western Stairwell & Computer Room (`4, 11`).
 
 <hr>
 
