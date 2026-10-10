@@ -85,4 +85,4 @@
     - **Pokémon 1**: Scyther (♀, Lv27; Bug/Flying).
     - **Pokémon 2**: Whirlipede (♂, Lv27; Bug/Poison; knows Protect).
     - **Pokémon 3**: Forretress (♂, Lv27; Bug/Steel).
-  - **Outcome**: Defeat quote: *"Nooo!"* (verified Turns 32780-32787).
+  - **Outcome**: Defeat quote: *"Nooo!"*; awards `₽1,404` (verified Turns 32780-32788).
