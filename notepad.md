@@ -756,6 +756,15 @@
 
 <hr>
 
+<h1><code>Locations/Route_11</code></h1>
+
+# Route 11
+
+## Geography & Connections
+- **East (`11, 19-20` <-> Destino City `0, 19-20`)**: Seamless map border connecting the western cobblestone street of **Destino City** (`0, 19-20`) onto **Route 11** at `(11, 19-20)` (verified Turn 33016).
+
+<hr>
+
 <h1><code>Locations/Route_12</code></h1>
 
 # Route 12
