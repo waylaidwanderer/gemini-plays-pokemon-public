@@ -1036,6 +1036,10 @@
   - **Pre-Battle Quote**: *"Ooooh, a Pokémon Trainer! / Let's fight!"*
   - **Team (2 Pokémon)**: Victreebel (♀, Lv34; Grass/Poison; knows Sweet Scent; `1390 EXP`) and Vileplume (♂, Lv34; Grass/Poison; `1339 EXP`).
   - **Outcome**: Defeated in Turns 33605-33609 (`"Nooo!"`).
+- **Youngster Micky (`51, 21`, facing `Down` in front of the Metro Underground Tunnel Entrance at `cols 52+, rows 17-20`)**:
+  - **Pre-Battle Quote**: *"You are going down, just like Metros go underground here!"*
+  - **Team (4 Pokémon)**: Tauros (♂, Lv34; Normal; Ability: Intimidate; `1536 EXP`), Vigoroth (♂, Lv34; Normal; `918 EXP`), Porygon2 (Lv34; Normal; Ability: Download; `1311 EXP`), and Toucannon (♂, Lv34; Normal/Flying; `1326 EXP`).
+  - **Outcome**: Defeated in Turns 33611-33618 (*"I... I said you.."*; awards `₽1,768`).
 
 <hr>
 
