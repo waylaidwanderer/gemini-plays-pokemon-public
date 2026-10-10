@@ -239,6 +239,8 @@
   - **Gentleman (`25, 21`)**: *"Back in my day this city used to be even richer! / Then all this fancy technology came and coal became less important!"* (verified Turn 33002).
   - **Route 11 Signboard (`15-16, 19`)**: Interacted from `(17, 19)`, reads verbatim: *"Route 11 / <-------"* (verified Turn 33010).
   - **Far-Western Apartment (`12, 18` <-> `5, 37`)**: Contains a blonde girl at `(7, 34)` (*"Grandma's bolognese is the best in the entire world"*) and her grandmother at `(6, 33)` (*"You know... / The key for good pasta is salting the water before doing anything"*; verified Turn 33011).
+  - **Rear Cobblestone Alleyway (`18, 18` -> `20, 14`)**: Diagonal alleyway between the apartment blocks terminates in a decorative dead-end corner at `(20, 14)` (verified Turn 33015).
+  - **West Exit to Route 11 (`0, 19-20` <-> Route 11)**: The main western cobblestone street (`rows 19-20`) transitions seamlessly west at `col 0` onto **Route 11**.
 
 <hr>
 
