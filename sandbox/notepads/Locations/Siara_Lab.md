@@ -11,7 +11,7 @@
 ## Floor 2F (`36, 6` Elevator Exit)
 - **Elevator Lobby (`33-38, 5-10`)**:
   - **Elevator Doorway (`36, 5`)**: Enters the elevator (`6, 15`).
-  - **Locked Northern Security Door (`30-31, 6`)**: Blocks a northern room containing a **gold item ball** at `(30, 4)`.
+  - **Locked Northern Security Door (`30-31, 6`)**: Unlocked using **Code Red (`0203`)** obtained from the B2F Southern Area console at `(36, 16)` (automatically steps Asher inside to `30, 5`; contains an **Eclite Shard** at `30, 4`, collected Turn 34431).
   - **Professor Ivo's HuPhone Briefing (`37, 6`, Turns 34389-34391)**:
     - Stepping onto `(37, 6)` triggers a HuPhone call from **Professor Ivo**, who explains that while the elevator is running on a backup generator, everything else in the facility is offline because the **main generator** is not running.
     - Because the security doors cannot be opened without power, Asher must **find the generator room and turn the main generator back on**.
