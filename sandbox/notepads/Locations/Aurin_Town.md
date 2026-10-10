@@ -1,7 +1,8 @@
-# Aurin Town & Western Bay Approaches
+# Aurin Town & Route 16 Eastern Bay Approaches
 
-## Western Bay (`cols 0-27, rows 18-30`, Verified Turns 33648-33661)
-- **Seamless Western Connection**: Connects at `(6, 25)` <-> `(89, 25)` on Route 16.
+## Route 16 Eastern Bay (`cols 0-60, rows 8-34`, Verified Turns 33648-33721)
+- **Seamless Western Connection**: Connects at `(6, 25)` <-> `(89, 25)` on Route 16 West.
+- **Seamless Eastern Connection to Aurin Town (`60, 18` <-> `1, 18`, Turn 33721)**: Signboard at `(57-58, 17)` reads verbatim: *"Aurin Town / ------->"*. Walking east past `column 60` transitions seamlessly onto `(1, 18)` in **Aurin Town**.
 - **Sandbars**: Located at `(7-10, 24-27)` and `(16-17, 30)`.
 - **Wild Surf Encounters**: Wild **Barboach** (caught Lv22 ♂ at `7, 22` in Turn 33653, nicknamed **Richter**) and **Horsea** (caught Lv20 ♂ at `25, 22` in Turn 33664, nicknamed **Triton**).
 - **Southern Peninsula (`cols 21-31, rows 22-34`)**:
