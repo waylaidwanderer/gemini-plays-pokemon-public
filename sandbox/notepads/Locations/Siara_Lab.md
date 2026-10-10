@@ -66,8 +66,8 @@
   - **Purple Wall Plaque (`25, 5`)**: Reads *"B4F / Community Room"* (verified Turn 34435).
 - **B4F Community Room (`cols 20-36, rows 6-18`)**:
   - **Wild Eclipsed Pokémon**: Floor tiles trigger Lv40 wild Eclipsed Pokémon such as **Eclipsed Gengar** (verified Turn 34440).
-  - **Locked Security Door (`21-22, 16`)**: Password-protected security door in the southwest corridor.
+  - **Locked Security Door (`21-22, 17-18`)**: Password-protected security door in the southwest corridor (interacted with from `21, 16` facing `Down`; unlocked using **Code Green: `1115`**).
   - **Marie's 2013 Diary (`30, 15`)**: Dated *"2013. September 1st"*: *"I adopted the little boy from two years ago and named him Frio. / I have also made a groundbreaking discovery because of him! / The gem he always kept with himself seemed to calm Eclipsed Pokémon down... / Normally they are really violent, but the gem caused them to be controlable. / The test subjects still can't be kept outside of tubes but we found out the reason. / The process is tied to a material called 'Eclite'. / We tried using chemicals similar to the components of Eclite. / However due to Eclite's unique origin, it's not possible with Earth elements... / We need Eclite to continue on... A lot of it!"* (verified Turns 34437-34438).
-  - **Blue Control Console (`30, 17`)**: Located on the southern edge of the central table above `(30, 18)`.
-  - **Second Research Notes / Diary (`31, 17`)**: Located on the southern edge of the central table above `(31, 18)`.
-  - **Spray-Bottle Item (`36, 15`)**: Located in the eastern alcove below `(36, 14)`.
+  - **Blue Control Console (`30, 17`)**: Displays *"Code Green / Location: B4F Code: 1115"* and grants **Code Green** (verified Turn 34442).
+  - **Marie's 2014 Diary (`31, 17`)**: Dated *"2014. October 31st"*: *"I found out more of the origin of Eclipsing... / Apparently Frio is part of an Eclipser family... / A bloodline of people having the abillity to use Eclite as a way to channel their spirit and Eclipse Pokémon without technology. / I must train him here now! / I managed to make a test subject which doesn't require life sustaining equipment... / I can start training Frio's Eclipser power to get the full potential of the Eclite!"* (verified Turns 34442-34443).
+  - **Item (`36, 15`)**: **Revive** located in the eastern alcove below `(36, 14)` (collected Turn 34443).
