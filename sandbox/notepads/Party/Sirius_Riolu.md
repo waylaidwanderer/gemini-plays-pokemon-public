@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 230), Attack (C+, 217), Defense (A-, 210), Sp. Atk (C-, 202), Sp. Def (E, 137), Speed (C-, 143)
-- **Current Condition**: 88/230 HP, Healthy (`Meteor Mash 0/10`, `Return 8/20`, `Aura Sphere 10/20`, `Mach Punch 1/30`; defeated Gentleman Hank's Dusknoir and Charizard at Sors Road Upper Exterior `18, 9` in Turns 35324-35338)
+- **Current Condition**: 230/230 HP, Healthy (`Meteor Mash 0/10`, `Return 8/20`, `Aura Sphere 10/20`, `Mach Punch 1/30`; healed to full 230/230 HP with a Hyper Potion at Sors Road Upper Exterior `18, 9` in Turn 35343)
 - **EXP**: Lv80 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
