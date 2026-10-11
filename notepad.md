@@ -651,8 +651,8 @@
 - **Top 16 Ceremony (`17, 19`, Turns 35386-35387)**:
   - All 16 finalists stand facing the giant screen, with **Valora** to Asher's left, **Frio** to Asher's right, and **Dawn** and **Lucas** in the row behind them.
   - The host announces that the Top 16 begins with randomized 1-on-1 matches to determine the Top 8, pairing **Asher vs. Dawn** in the final Round of 16 match.
-- **Finals Cyber-Arena Layout (`8, 21` -> `13, 21` -> `16, 21`, Verified Turns 35388-35389)**:
-  - Competitors materialize on the white teleporter pad at `(8, 21)`. Walking `Right 5` (`(8, 21) -> (13, 21)`) steps onto the white-outlined trainer box at `(13, 21)`, which walks both trainers onto the holographic battlefield (`16, 21`).
+- **Finals Cyber-Arena Layout & Automatic PP Restoration (`8, 21` -> `13, 21` -> `16, 21`, Verified Turns 35388-35389 & 35406)**:
+  - Competitors materialize on the white teleporter pad at `(8, 21)`. Walking `Right 5` (`(8, 21) -> (13, 21)`) steps onto the white-outlined trainer box at `(13, 21)`, which walks both trainers onto the holographic battlefield (`16, 21`). Move PP is automatically restored to full at the start of each Finals match (verified Turn 35406).
 - **Round of 16 (Top 16) — Ec. Finalist Dawn (Turns 35389-35400)**:
   - **Pre-Battle Quote**: *"So the day has come... / Hehe, let's do this! / I need to win so I can spend that day with you hehe!"*
   - **Team (5 Pokémon)**:
