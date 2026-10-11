@@ -157,3 +157,9 @@
 - **Western Corridor & Second Underground Pool (`cols 8-19, rows 6-24`)**:
   - Stepping off the western end of the overhead wooden bridge (`14, 23`) onto `(12-13, 23)` and walking north along `column 12` (`12, 23 -> 12, 15`) reaches a second underground pool (`cols 8-15, rows 10-14`).
   - Launching the FastSwift boat from `(12, 15)` onto `(12, 14)` and surfing north (`Up 5`) dismounts onto the northern shore at `(12, 9)` near a Black Belt at `(15, 7)` (verified Turn 35182).
+- **Black Belt Arnold (`15, 7`, Rotating)**:
+  - **Pre-Battle Quote**: *"Chop chop!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Heracross (♂, Lv44; Bug/Fighting; knows Close Combat; OHKO'd by Sirius's `Meteor Mash` for `1885 EXP`, leveling Sirius to Lv78).
+    - **Pokémon 2**: Scrafty (♂, Lv45; Dark/Fighting; Ability: Intimidate; knows Scary Face; 2HKO'd by Sirius's `Mach Punch` for `1648 EXP`).
+  - **Outcome**: Defeated in Turns 35186-35194 (*"Oh wait.."*; awards `₽3,240`).

@@ -2360,6 +2360,12 @@
 - **Western Corridor & Second Underground Pool (`cols 8-19, rows 6-24`)**:
   - Stepping off the western end of the overhead wooden bridge (`14, 23`) onto `(12-13, 23)` and walking north along `column 12` (`12, 23 -> 12, 15`) reaches a second underground pool (`cols 8-15, rows 10-14`).
   - Launching the FastSwift boat from `(12, 15)` onto `(12, 14)` and surfing north (`Up 5`) dismounts onto the northern shore at `(12, 9)` near a Black Belt at `(15, 7)` (verified Turn 35182).
+- **Black Belt Arnold (`15, 7`, Rotating)**:
+  - **Pre-Battle Quote**: *"Chop chop!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Heracross (♂, Lv44; Bug/Fighting; knows Close Combat; OHKO'd by Sirius's `Meteor Mash` for `1885 EXP`, leveling Sirius to Lv78).
+    - **Pokémon 2**: Scrafty (♂, Lv45; Dark/Fighting; Ability: Intimidate; knows Scary Face; 2HKO'd by Sirius's `Mach Punch` for `1648 EXP`).
+  - **Outcome**: Defeated in Turns 35186-35194 (*"Oh wait.."*; awards `₽3,240`).
 
 <hr>
 
@@ -3224,12 +3230,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv77
+- **Level**: Lv78
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 222), Attack (C+, 209), Defense (A-, 202), Sp. Atk (C-, 195), Sp. Def (E, 132), Speed (C-, 137)
-- **Current Condition**: 167/222 HP, Healthy (`Meteor Mash 2/10`, `Bulldoze 7/20`, `Aura Sphere 0/20`, `Mach Punch 12/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
-- **EXP**: Lv77 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 225), Attack (C+, 212), Defense (A-, 204), Sp. Atk (C-, 197), Sp. Def (E, 134), Speed (C-, 139)
+- **Current Condition**: 110/225 HP, Healthy (`Meteor Mash 0/10`, `Bulldoze 7/20`, `Aura Sphere 0/20`, `Mach Punch 10/30`; leveled up to Lv78 defeating Black Belt Arnold's Heracross at Sors Road B1F `15, 8` in Turn 35189; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **EXP**: Lv78 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
