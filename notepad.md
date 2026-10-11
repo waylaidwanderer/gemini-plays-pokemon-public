@@ -1525,7 +1525,11 @@
       - **Pokémon 1**: Snorlax (♂, Lv43; Normal; knows Rollout; defeated by Sirius for `1419 EXP`, leveling Sirius to Lv74).
     - **Outcome**: Defeated in Turns 34919-34924 (awards `₽2,580`).
   - **PKMN Trainer Barry (`97, 23`, Triggered at `97, 21` on Staircase)**:
-    - **Upper Terrace Overview (`cols 90-101, rows 15-19`)**: At the top of the `(96-98, 20-21)` staircase stands a wandering Explorer NPC (`95-97, 17-19`), a mountain cabin at `(90-93, 15-17; door at 91, 17)`, a cave entrance to **Sors Road** at `(97, 16)`, and a wooden signpost at `(100, 16)` (interacted from `100, 17`, reading verbatim: *"Sors Road"*, verified Turn 34971).
+    - **Upper Terrace Overview (`cols 88-101, rows 15-19`)**:
+      - **Wandering Explorer NPC (`95-97, 17-19`)**.
+      - **Sors Road Cave Entrance (`97, 16`) & Signpost (`100, 16`)**: Interacted from `(100, 17)`, the signpost reads verbatim: *"Sors Road"* (verified Turn 34971).
+      - **Mountain Rest Cabin (`90-93, 15-17; door at 91, 17` <-> Interior `5, 9`)**: Contains an **Explorer merchant** at `(5, 6)` (*"Hello there, Traveler! Would you like to buy some goods for your journey"*) and a **Nurse Joy** by a bed at `(10, 6)` who heals the player's party (*"The battles up here must exhaust you a lot... / Do you want me to heal your Pokémon? Yes/No"*, verified Turn 34974).
+      - **Black Belt (`89, 17`) & Machop (`88, 17`)**: Blocking the western stairs at `(88-89, 15-16)` (*"With my Machop we will tear Sors Road apart!"* / *"Machop: Chop Chop! / He seems a bit agressive..."*, verified Turn 34974).
     - **Pre-Battle Dialogue**: *"Heeeey! / It's you again! / I'm still kind of salty I lost back there you know... / My friends are both in the Finals, so they will most likely face you. / I'm kind of curious who they will be fighting against... / Can I see it for myself?"*
     - **Team (5 Pokémon)**:
       - **Pokémon 1**: Staraptor (♂/♀, Lv42; Normal/Flying; Ability: Intimidate / Reckless; knows Brave Bird and ExtremeSpeed; OHKO'd by Sirius's `Aura Sphere` for `1548 EXP`).
