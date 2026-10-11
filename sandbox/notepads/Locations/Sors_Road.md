@@ -93,3 +93,6 @@
     - **Pokémon 1**: Nidoqueen (♀, Lv43; Poison/Ground; OHKO'd by Sirius's `Bulldoze` for `1786 EXP`).
     - **Pokémon 2**: Rhydon (♂, Lv44; Ground/Rock; OHKO'd by Sirius's `Aura Sphere` for `1923 EXP`).
   - **Outcome**: Defeated in Turns 35099-35105 (*"Oh."*; awards `₽1,760`).
+- **Eastern Staircases & Lower Terrace (`cols 48-57, rows 15-27`)**:
+  - From `(54, 15)`, a 3-tile-wide wooden staircase at `(55-57, 18-21)` descends to `(55, 22-23)`.
+  - **Thunder Stone (`55, 27`)**: Reached via the narrow 2-tile-wide southern staircase at `(55-56, 24-25)` to `(55, 26)` facing `Down` (collected in Turn 35108).
