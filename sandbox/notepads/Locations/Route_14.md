@@ -96,6 +96,11 @@
       - **Pokémon 2**: Conkeldurr (♂, Lv42; Fighting; knows Bulk Up and Scary Face; defeated by Sirius for `1701 EXP`).
       - **Pokémon 3**: Mudsdale (♂, Lv42; Ground; Ability: Stamina; knows HiHorsepower, Counter, and Body Slam; defeated by Sirius for `1575 EXP`).
     - **Outcome**: Defeated in Turns 34879-34896 (*"R-right"*; awards `₽2,520`). Stepping onto `(38, 32)` pulls Gina down from `(38, 30)` to `(38, 31)`, vacating `(38, 30)` so the player can pass through `(37, 30 -> 38, 30 -> 39, 30 -> 39, 28)` to the eastern side of the plateau.
+  - **Eastern Plateau Trail & Staircase (`43, 28 -> 49, 28 -> 50, 18 -> 54, 22 -> 54, 19`)**: From `(39, 28)`, the path runs east along `row 28` (`39, 28 -> 49, 28`), north along `columns 49-50` (`49, 28 -> 49, 23 -> 50, 18`), and east along `row 22` (`50, 22 -> 54, 22`) to the wooden staircase at `(53-55, 20-21)` leading up to `(54, 19)` (verified Turns 34897-34903).
+  - **Cooltrainer♀ Asui (`56, 19` -> `55, 19`, Facing Left)**:
+    - **Pre-Battle Quote**: *"Hello... / I can't let you pass..."*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Porygon-Z (Lv42; Normal).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:

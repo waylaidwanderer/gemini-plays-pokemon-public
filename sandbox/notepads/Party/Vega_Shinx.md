@@ -7,7 +7,7 @@
 - **Level**: Lv16 (leveled up defeating Siara Executive's Lv25 Wobbuffet in Destino Mine 2F in Turn 32423; Stats: HP 48, Attack 32, Defense 23, Sp. Atk 24, Sp. Def 18, Speed 26)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 0/48 HP (Fainted after triggering Intimidate against Cooltrainer Gina's Mudsdale at Route 14 East `38, 32` in Turn 34886)
+- **HP**: 24/48 HP (Revived in overworld at Route 14 East `54, 22` in Turn 34903)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
