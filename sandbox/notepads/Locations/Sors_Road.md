@@ -190,4 +190,4 @@
     - **Outcome**: Defeated in Turns 35221-35235 (*"Oh no."*; awards `₽2,700`).
   - **Upper Green-Grass Plateau Staircase (`32-34, 22-23` -> `33, 21`)**:
     - Climbs north from `(33, 24)` onto the upper green-grass plateau (`33, 21`).
-    - Features a gold item ball at `(30, 19)` below a rugged rock at `(30, 17)`, a northbound wooden staircase at `(39-40, 17-18)`, and **Cooltrainer♂ Futa** at `(37, 21)` facing `Up` (uses Toxicroak ♂ Lv44 and Hitmonchan ♂ Lv45; verified Turns 35238-35252).
+    - Features a gold item ball at `(30, 19)` below a rugged rock at `(30, 17)`, a northbound wooden staircase at `(39-40, 17-18)`, and **Cooltrainer♂ Futa** at `(37, 21)` facing `Up` (`"Damn, another Finalist!"` -> `"Yeah I'm sure you are one."`; uses Toxicroak ♂ Lv44 and Hitmonchan ♂ Lv45, both OHKO'd by Sirius's `Return`; awards `₽2,700`, verified Turns 35238-35252).
