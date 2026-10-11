@@ -372,3 +372,6 @@
 - **Route 14 River Bridge — Reunion with Valora (`26, 11`, Turns 34600-34601)**:
   - Crossing onto the wooden river bridge on Route 14 (`26, 11`), Asher reunited with **Valora** (`29, 11`), who happily shared that she also won her Round Eight group to qualify for the Finals and that Professor Ivo gave them the green light to head to **Eclipse Square** while Team Siara is quiet.
   - Insisting he wouldn't let her make such a long journey alone, Asher invited Valora to travel together, and she gladly joined him for the trek to Eclipse Square.
+- **Sors Road Entrance — Final Stretch to the Summit (`7, 33` in Sors Road 1F, Turns 34980-34982)**:
+  - Entering **Sors Road** (`7, 33`), Valora realized they had reached the final stretch before the Finals, while Asher admitted having a bad feeling about Team Siara suddenly going off the radar.
+  - Encouraging him not to worry about what hasn't happened yet (*"Let's get up to the summit and dominate the Finals!"*), Valora rejoined Asher to climb Sors Road to Eclipse Square.
