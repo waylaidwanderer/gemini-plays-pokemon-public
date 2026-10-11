@@ -43,3 +43,6 @@
       - **Pokémon 3**: Salazzle (♀, Lv49; Poison/Fire; OHKO'd by Sirius's `Return` for `1764 EXP`).
       - **Pokémon 4**: Volcarona (♂, Lv49; Bug/Fire; Ability: Flame Body; OHKO'd by Sirius's `Return`).
       - **Pokémon 5**: Sceptile (♂, Lv50; Grass; OHKO'd by Sirius's `Aura Sphere` for `2227 EXP`).
+    - **Outcome**: Defeated in Turns 35807-35818 (awards `₽6,000`). Flo contacts Marie over her communicator (*"Marie, we got to hurry! I'll head back to the lab too!"*) and retreats to the lab, while **Valora** rejoins Asher at `(5, 29)` to catch up with Micah and Frio.
+## Western Siara HQ Sector (`3, 10` Entrance Hall Teleporter <-> `23, 12`, Turn 35819)
+- Stepping onto the western glowing blue teleporter pad at `(3, 10)` in the Siara HQ Entrance Hall warps to `(23, 12)`, where a **Team Siara Grunt** (`20, 12 -> 22, 12`) immediately spots Asher (*"The intruders are here! / The intruders are here!"*).

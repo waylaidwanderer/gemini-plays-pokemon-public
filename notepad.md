@@ -2262,6 +2262,9 @@
       - **Pokémon 3**: Salazzle (♀, Lv49; Poison/Fire; OHKO'd by Sirius's `Return` for `1764 EXP`).
       - **Pokémon 4**: Volcarona (♂, Lv49; Bug/Fire; Ability: Flame Body; OHKO'd by Sirius's `Return`).
       - **Pokémon 5**: Sceptile (♂, Lv50; Grass; OHKO'd by Sirius's `Aura Sphere` for `2227 EXP`).
+    - **Outcome**: Defeated in Turns 35807-35818 (awards `₽6,000`). Flo contacts Marie over her communicator (*"Marie, we got to hurry! I'll head back to the lab too!"*) and retreats to the lab, while **Valora** rejoins Asher at `(5, 29)` to catch up with Micah and Frio.
+## Western Siara HQ Sector (`3, 10` Entrance Hall Teleporter <-> `23, 12`, Turn 35819)
+- Stepping onto the western glowing blue teleporter pad at `(3, 10)` in the Siara HQ Entrance Hall warps to `(23, 12)`, where a **Team Siara Grunt** (`20, 12 -> 22, 12`) immediately spots Asher (*"The intruders are here! / The intruders are here!"*).
 
 <hr>
 
@@ -3390,7 +3393,7 @@
   - Warping into the **Prison Cells** sector (`19, 21`), Asher overheard two **Team Siara Grunts** by the security desk bragging about locking **Valora** up and planning to sell her powerful Pokémon before heading to the **lounge** to rest.
   - Locating Valora inside the locked northwestern cell (`5, 26`), Asher promised to return right away with the cell key from the two grunts in the lounge.
   - Returning to the **Lounge** (`19, 6 -> 35, 7`), Asher defeated the Team Siara Grunt guarding the table (`Skuntank Lv49`, `Hippowdon Lv49`, `Toxicroak Lv49`, `Drapion Lv49`) and recovered **Valora's Pokémon** and the **Card Key** from `(36, 5)` (`Turns 35790-35800`).
-  - Unlocking Valora's cell (`5, 28`) with the **Prison Key** and returning her Pokémon, Asher was ambushed by **Siara Admin Flo** (`7, 29`), who placed Team Siara HQ on lockdown before Asher swept her 5-Pokémon team (`Garbodor Lv49`, `Gliscor Lv49`, `Salazzle Lv49`, `Volcarona Lv49`, `Sceptile Lv50`; `Turns 35804-35818`).
+  - Unlocking Valora's cell (`5, 28`) with the **Prison Key** and returning her Pokémon, Asher was ambushed by **Siara Admin Flo** (`7, 29`), who placed Team Siara HQ on lockdown before Asher swept her 5-Pokémon team (`Garbodor Lv49`, `Gliscor Lv49`, `Salazzle Lv49`, `Volcarona Lv49`, `Sceptile Lv50`; `₽6,000`, `Turns 35804-35818`). Following her defeat, Flo retreated to the lab to warn **Marie**, and **Valora** rejoined Asher (`5, 29`) to head through the Entrance Hall's western teleporter (`3, 10` -> `23, 12`) after **Micah** and **Frio**.
 
 <hr>
 
