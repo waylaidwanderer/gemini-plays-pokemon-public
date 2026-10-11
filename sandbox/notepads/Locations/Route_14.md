@@ -74,7 +74,7 @@
     - **Pokémon 5**: Scizor (♂, Lv42; Bug/Steel; knows Swords Dance and Bullet Punch; defeated by Sirius for `1800 EXP`).
   - **Outcome**: Defeated in Turns 34794-34824 (*"Darn... / I gotta try harder if I want to be the greatest Bug Type user..."*; post-battle, Aaron shares that his goal is to join the Sinnoh Elite Four and hopes watching Asher in the Finals will inspire him before departing east, verified Turn 34825).
 - **Overhead Bridge (`cols 32-34, rows 20-27`), Eastern Staircase (`cols 38-40, rows 20-21`), & Southern Ridge Item (`35, 26`)**:
-  - **Southern Ridge Item (`35, 26`)**: Purple spray bottle item sprite located on the cliff ridge immediately east of `(34, 26)` on the overhead bridge (reachable by interacting `Right` from `34, 26`, deduced Turn 34910).
+  - **Southern Ridge Item (`35, 26`)**: Purple spray bottle item sprite located on the cliff ridge (`level 3`) immediately east of `(34, 26)` on the overhead bridge (`level 4`; interacting `Right` from `34, 26` does not reach across the elevation difference, whereas `35, 26` connects from the southern plateau via the passable top half of the rock cone at `36, 28`, verified Turns 34958-34960).
   - **Cooltrainer♂ Lenny (`36, 22` -> `36, 23`, Facing Down)**:
     - **Pre-Battle Quote**: *"The cliff are so steep!"*
     - **Team (1 Pokémon, +1 Hyper Potion)**:
