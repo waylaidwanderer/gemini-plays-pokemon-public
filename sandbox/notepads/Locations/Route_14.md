@@ -107,6 +107,8 @@
   - **Far-Eastern Road & Staircase (`cols 56-97+, rows 18-27`)**: From `(56, 18)`, the path descends through `(60, 19 -> 62, 19 -> 62, 23)` onto the eastern dirt road along `row 23` (`66, 23 -> 76, 23`), climbs the 3-tile side-facing wooden staircase at `(77, 22-24)` (approached along `row 23` at `76, 23 -> 77, 23 -> 78, 22`), and continues straight east along `row 24` (`78, 22 -> 81, 22 -> 81, 24 -> 97, 24 -> 97, 22`) through the passable top canopy rows of the trees at `cols 90-97` to the next northbound wooden staircase at `(96-98, 20-21)` (verified Turns 34910-34918).
   - **Cooltrainer♂ (`92, 22` -> `92, 23`, Facing Down)**:
     - **Pre-Battle Quote**: *"Yo yo yooo! / You think you are almost there?"*
+    - **Team**:
+      - **Pokémon 1**: Snorlax (♂, Lv43; Normal).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
