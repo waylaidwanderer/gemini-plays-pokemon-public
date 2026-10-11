@@ -104,6 +104,7 @@
       - **Pokémon 2**: Exploud (♂, Lv43; Normal; knows Uproar; defeated by Sirius for `1695 EXP`).
     - **Outcome**: Defeated in Turns 34904-34907 (*"Maybe I can."*; awards `₽2,580`).
   - **Upper Terrace Item (`49, 10`)**: Reached from `(54, 19)` via `(54, 14 -> 52, 14 -> 52, 12 -> 50, 12 -> 50, 11 -> 49, 11)` facing `Up`; contains a **Nest Ball** (collected in Turn 34909).
+  - **Far-Eastern Road & Staircase (`cols 56-91+, rows 18-27`)**: From `(56, 18)`, the path descends through `(60, 19 -> 62, 19 -> 62, 23)` onto the eastern dirt road along `row 23` (`66, 23 -> 76, 23`), climbs the 3-tile side-facing wooden staircase at `(77, 22-24)` (approached along `row 23` at `76, 23 -> 77, 23 -> 78, 22`), and continues east through the tree corridor along `row 24` (`78, 22 -> 81, 22 -> 81, 24 -> 91, 24+`; verified Turns 34910-34916).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
