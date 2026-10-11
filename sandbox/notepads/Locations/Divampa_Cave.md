@@ -63,6 +63,11 @@
         - **Pokémon 2**: Conkeldurr (♂, Lv49; Fighting; OHKO'd by Sirius's `Aura Sphere` for `2026 EXP`).
         - **Pokémon 3**: Metang (Lv48; Steel/Psychic; OHKO'd by Sirius's `Dark Pulse` for `1573 EXP`).
       - **Outcome**: Defeat quote: *"This place does seem safe..."* (verified Turns 35610-35616).
-  - **Lower Magma Level Southeastern Plateau (`36, 26` Stairs), Nugget (`33, 27`), & Wall Ladder (`32, 23-24`)**:
+  - **Lower Magma Level Southeastern Plateau (`36, 26` Stairs), Nugget (`33, 27`), & Wall Ladder (`32, 23-24` <-> Magma Chamber `34, 30`)**:
     - Reached by jumping south over the `(40-44, 22)` one-way ledge to `(42, 24)` and climbing the middle step (`36, 26`) of the 3-tile side-facing wooden staircase (`36, 25-27`).
-    - Golden item ball at `(33, 27)` yields **Nugget x1** (collected Turn 35633), and a wooden wall ladder ascends at `(32, 22-24)`.
+    - Golden item ball at `(33, 27)` yields **Nugget x1** (collected Turn 35633), while a west-facing one-way ledge at `(29, 25-27)` overlooks a Hiker at `(28, 24)`.
+    - Climbing the wooden wall ladder at `(32, 22-24)` warps to **`(34, 30)`** on the southeastern Magma Chamber plateau (verified Turn 35635), which features a west-facing one-way ledge at `(31, 28-31)` returning to the `(30, 25)` loop, a smashable rugged rock at `(35, 27)` guarding a golden item ball at `(37, 27)`, and a spray-bottle item at `(39, 30)` on the east side of the T-shaped lava pool (`36-38, 28-31`, accessed from the southbound corridor `cols 44-45, rows 20-30` below `44, 19`).
+  - **Remaining Unexplored Vertical Connections**:
+    - **Magma Chamber Southeastern Corridor (`44, 19 -> 44, 25+`)**: Open southbound corridor between the `(43, 18-22)` wooden staircase and `(46-47, 20-23)` lava pool leading toward `(40-44, 25-30)` and the `(39, 30)` spray-bottle item.
+    - **Magma Chamber Western & Southwestern Floor Pits**: Pit at `(15-17, 18-21)` beside Burglar Ronald (`18, 17`) and pit at `(16-17, 23-24)` north of Black Belt Calude (`20, 26`).
+    - **Central Lava Island Wall Ladders**: Wall ladder at `(29, 14)` on the Lower Magma Level lava island (south of Engineer Wade `30, 8`) and wall ladder at `(28, 17)` on the Magma Chamber lava island (`with spray-bottle item at 26, 18`).
