@@ -2233,6 +2233,13 @@
       - **Pokémon 2**: Krookodile (♂, Lv44; Ground/Dark; OHKO'd by Sirius's `Mach Punch` for `1903 EXP`).
     - **Outcome**: Defeated in Turns 34997-35002 (`"..."`; awards `₽2,640`).
   - **Side-Facing Wooden Staircase (`28, 25-27`)**: Leads east onto the higher eastern ledge (`cols 29+`).
+- **Higher Eastern Ledge (`cols 29-36, rows 25-28`)**:
+  - **Cooltrainer♂ Hideo (`31, 25`, Facing Down)**:
+    - **Pre-Battle Quote**: *"Hey hey hey! / A fellow finalist as I see!"*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Cofagrigus (♂, Lv43; Ghost; Ability: Mummy; OHKO'd by Sirius's `Meteor Mash` for `1557 EXP`).
+    - **Outcome**: Defeated in Turns 35003-35005.
+  - **Northbound Wooden Staircase (`cols 32-34, rows 23-24`)**: Leads north onto the upper terrace (`33, 21-22`).
 
 <hr>
 
