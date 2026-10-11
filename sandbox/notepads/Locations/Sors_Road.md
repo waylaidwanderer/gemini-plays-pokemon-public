@@ -217,3 +217,9 @@
       - **Pokémon 2**: Rhydon (♀, Lv45; Ground/Rock; OHKO'd by Sirius's `Aura Sphere` for `1966 EXP`).
       - **Pokémon 3**: Ninetales (♀, Lv45; Fire; OHKO'd by Sirius's `Aura Sphere` for `1716 EXP`).
     - **Outcome**: Defeated in Turns 35298-35304 (`"."`; awards `₽1,800`).
+  - **Burglar Katy (`15, 21` -> `17, 21`, Facing Right)**:
+    - **Pre-Battle Quote**: *"Hehe you are almost there!"*
+    - **Team (1 Pokémon, +1 Hyper Potion)**:
+      - **Pokémon 1**: Exeggutor (♂, Lv45; Grass/Psychic; defeated by Sirius's `Return` for `2043 EXP`).
+    - **Outcome**: Defeated in Turns 35305-35309 (*"Yup."*; awards `₽3,960`).
+    - **Southwestern Staircase (`16-18, 22-23`)**: Descends from `(18, 21)` to `(18, 24 -> 14, 24)` to loop around the right-facing one-way ledge at `(15, 17-18)` toward the northwestern staircase at `(12, 16)`.
