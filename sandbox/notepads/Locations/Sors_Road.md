@@ -121,5 +121,7 @@
     - **Pokémon 1**: Throh (♂, Lv44; Fighting; OHKO'd by Sirius's `Meteor Mash` for `1536 EXP`).
     - **Pokémon 2**: Steelix (♀, Lv44; Steel/Ground; knows Crunch; 2HKO'd by Sirius's `Bulldoze` for `1848 EXP`).
   - **Outcome**: Defeated in Turns 35131-35137 (*"R-right"*; awards `₽1,760`).
-- **Western Upper Platform & Floor Ladder (`17, 5`)**:
-  - From `(29, 6)`, walking west along `rows 7-8` past Hiker Gerald (`26, 6`) and the 2x2 boulder (`22-23, 5-6`) reaches the western upper platform (`cols 15-21, rows 4-9`) and the **Floor Ladder** at `(17, 5)` (verified Turns 35140-35142).
+- **Western Upper Platform & Floor Ladder (`17, 6` <-> Sors Road B1F `10, 44`)**:
+  - From `(29, 6)`, walking west along `rows 7-8` past Hiker Gerald (`26, 6`) and the 2x2 boulder (`22-23, 5-6`) reaches the western upper platform (`cols 15-21, rows 4-9`) and the **Floor Ladder** whose warp tile is at `(17, 6)` (warping down to `10, 44` in **Sors Road B1F**, verified Turns 35140-35143).
+## Sors Road B1F (`10, 44` <-> Sors Road Upper Cavern `17, 6`)
+- **Southwestern Ladder Landing (`10, 44`)**: Wall ladder at `(10, 43)` returns to Sors Road Upper Cavern (`17, 6`). Features an Old Man / Expert at `(10, 46-47)` and an underground body of water to the east (`cols 15+`).
