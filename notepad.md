@@ -2334,7 +2334,7 @@
   - **Pre-Battle Quote**: *"One more lap!"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Primarina (♂, Lv45; Water/Fairy; OHKO'd by Sirius's `Meteor Mash` for `2005 EXP`).
-  - **Outcome**: Defeated in Turns 35149-35151.
+  - **Outcome**: Defeated in Turns 35149-35152 (*"Get out of my way"*; awards `₽540`).
 
 <hr>
 
