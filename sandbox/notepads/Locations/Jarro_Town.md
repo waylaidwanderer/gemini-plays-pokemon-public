@@ -20,6 +20,7 @@
   - **Quest #9 Provider ("Angry Cubone Kid", `22, 15`)**: Boy in a brown cap standing in front of a fenced snow pen containing a **Cubone** (`23, 13`).
   - **Northwest Cabin (`18, 15` <-> `6, 37`)**: Empty interior (likely belongs to the boy outside at `22, 15`; verified Turn 32929).
   - **Police Officer (`15, 17`, facing East)**: *"Being a police officer in such a quiet little town is such an easy and calm job..."* (verified Turn 32930).
+  - **TM44 (Rest) (`12, 24`)**: Golden item ball tucked behind the top-left corner of the Jarro Town Pokémon Center roof (`12, 24`, accessed by descending the `13-15, 21-22` staircase from the Middle Terrace to `13, 24` and facing `Left`; collected Turn 36016).
   - **Upper Ridge & Northeast Cabin (`29-30, 18-19` Staircase)**: A rugged rock at `(31, 14)` blocks access to the Northeast Cabin until rock-smashing equipment is obtained (verified Turn 32931).
 - **East Cabin (`29, 28` <-> `6, 23`)**: Contains a **Meowth** (`5, 20-21`; *"Meowth: Meooooow"*) and a wandering **Old Woman** (`8-9, 20-22`; verified Turns 32933-32935).
 - **Ecly Festival Lantern Path (`cols 33-38, rows 21-31`)**:
