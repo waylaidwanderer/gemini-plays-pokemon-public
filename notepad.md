@@ -953,6 +953,7 @@
   - **Festival Girl (`33-34, 31`, wandering)**: *"The Ecly Festival... / I love that festival so much! / I feel all young nostalgic..."* (verified Turn 32938).
   - **Explorer (`35, 25`)**: Standing under the festival lanterns south of the ruins entrance (*"The Ancient Hupestian Ruins..."*, verified Turn 32939).
   - **Ancient Hupestian Ruins Signboard (`34, 21`) & Entrance (`36, 20-21`)**: Signboard at `(34, 21)` (interacted from `34, 22`) reads verbatim: *"Ancient Hupestian Ruins"* (verified Turns 32939-32940). Inside (`14, 18` exit mat; murals along `row 11` at `9, 11` [Left], `14, 11` [Center, which ends with *"I see small cracks on this wall."*], and `19, 11` [Right], verified via `latest_grid.png` Turns 35994-35995), Professor Ivo translated the three-part **Eklissi Prophecy** inscribed beneath the three wall murals before returning to her laboratory in Lancio Town (verified Turns 32941-32946). Stepping south onto `(36, 29)` afterward triggers the Round 4 HuPhone summons from the Amor Battle Center and fast-travels the player to `(25, 109)` on Route 12 Main (verified Turns 32948-32949).
+  - **Post-Solare Island Reunion & Breached Central Wall (`14, 15` -> `14, 11`, Turns 36342-36345)**: Returning to the **Ancient Hupestian Ruins** after activating the Northern Solare Island light beam box triggers a reunion with **Dad**, **Valora**, and **Professor Ivo** at `(14, 15)` before the newly breached central archway at `(14, 11)` leading toward the mountain's peak.
 
 <hr>
 
@@ -3482,6 +3483,9 @@
   - Stepping north into `(6, 3)` warps to `(13, 15)` on the **Northern Side of Solare Island**.
   - Walking north along `column 13` onto `(13, 8)` before the ancient box at `(13, 6)` activates the box, firing a blue beam of light pointing toward the **Ancient Hupestian Ruins** in **Jarro Town** (*"Isn't that around Jarro Town? The Ancient Hupestian Ruins! / Siara must be heading up to the mountain's peak! / If that 'angel' is somewhere, it is gonna be there... I gotta hurry!"*).
   - **Unlocking the HuPhone `Soaring` App (Turn 36331)**: Completing the Northern Solare Island box cutscene permanently adds **`Soaring`** to the **HuPhone** menu (*"Soaring has been added to your HuPhone's menu! / Just choose the option 'Soaring' to call Latias!"*).
+## Ancient Hupestian Ruins Reunion & The Breached Peak Passage (`14, 15` -> `14, 11`, Turns 36342-36345)
+- **Reunion with Dad, Valora & Professor Ivo (`14, 15`)**: Soaring on **Latias** to **Jarro Town** (`16, 6`) and entering the **Ancient Hupestian Ruins** (`36, 20` -> `14, 15`), Asher reunited with **Dad (Jackson)** (`13, 15`), **Valora** (`14, 14`), and **Professor Ivo** (`15, 15`) in front of the central Eklissi prophecy mural (`14, 11`), which had been breached open into a cave archway.
+- **Team Siara's March to the Peak**: Valora reported that an army of Team Siara grunts and helicopters had marched into the ruins toward the mountain's peak, and that **Colen Champion Micah** and **Frio** had already gone ahead to meet up around the summit. Dad, Valora, and Professor Ivo joined Asher (`14, 15`) to ascend through the breached passage (`14, 11`) toward the summit.
 
 <hr>
 
