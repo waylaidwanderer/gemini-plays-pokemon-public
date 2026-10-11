@@ -96,3 +96,10 @@
 - **Eastern Staircases & Lower Terrace (`cols 48-57, rows 15-27`)**:
   - From `(54, 15)`, a 3-tile-wide wooden staircase at `(55-57, 18-21)` descends to `(55, 22-23)`.
   - **Thunder Stone (`55, 27`)**: Reached via the narrow 2-tile-wide southern staircase at `(55-56, 24-25)` to `(55, 26)` facing `Down` (collected in Turn 35108).
+- **Hiker Isaac (`50, 23`, Facing Up)**:
+  - **Pre-Battle Quote**: *"I hid behind this rock!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Barbaracle (♀, Lv43; Rock/Water; OHKO'd by Sirius's `Mach Punch` for `1612 EXP`).
+    - **Pokémon 2**: Hariyama (♂, Lv44; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1734 EXP`).
+    - **Pokémon 3**: Bronzong (Lv43; Steel/Psychic; OHKO'd by Sirius's `Aura Sphere` for `1612 EXP`, leveling Sirius to Lv77).
+  - **Outcome**: Defeated in Turns 35109-35115 (*"Well I guess you found me."*; awards `₽1,760`).

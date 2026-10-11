@@ -2299,6 +2299,13 @@
 - **Eastern Staircases & Lower Terrace (`cols 48-57, rows 15-27`)**:
   - From `(54, 15)`, a 3-tile-wide wooden staircase at `(55-57, 18-21)` descends to `(55, 22-23)`.
   - **Thunder Stone (`55, 27`)**: Reached via the narrow 2-tile-wide southern staircase at `(55-56, 24-25)` to `(55, 26)` facing `Down` (collected in Turn 35108).
+- **Hiker Isaac (`50, 23`, Facing Up)**:
+  - **Pre-Battle Quote**: *"I hid behind this rock!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Barbaracle (♀, Lv43; Rock/Water; OHKO'd by Sirius's `Mach Punch` for `1612 EXP`).
+    - **Pokémon 2**: Hariyama (♂, Lv44; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1734 EXP`).
+    - **Pokémon 3**: Bronzong (Lv43; Steel/Psychic; OHKO'd by Sirius's `Aura Sphere` for `1612 EXP`, leveling Sirius to Lv77).
+  - **Outcome**: Defeated in Turns 35109-35115 (*"Well I guess you found me."*; awards `₽1,760`).
 
 <hr>
 
@@ -3163,12 +3170,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv76
+- **Level**: Lv77
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 219), Attack (C+, 207), Defense (A-, 200), Sp. Atk (C-, 192), Sp. Def (E, 131), Speed (C-, 135)
-- **Current Condition**: 171/219 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 15/20`, `Aura Sphere 2/20`, `Mach Punch 20/30`; leveled up to Lv76 defeating Hiker Lukas's Machamp at Sors Road Exterior `21, 15` in Turn 35076; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
-- **EXP**: Lv76 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 222), Attack (C+, 209), Defense (A-, 202), Sp. Atk (C-, 195), Sp. Def (E, 132), Speed (C-, 137)
+- **Current Condition**: 174/222 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 15/20`, `Aura Sphere 0/20`, `Mach Punch 19/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **EXP**: Lv77 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
