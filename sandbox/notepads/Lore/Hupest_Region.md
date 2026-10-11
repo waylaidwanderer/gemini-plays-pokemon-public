@@ -436,3 +436,7 @@
     - Interacting with the central console (`13, 5`) dispensed the drained **Green Gem**, **Yellow Gem**, and **Purple Gem** into Asher's Key Items Pocket.
     - Frio connected the three gems to the **Hupestian Ruins** prophecy (*"The angel lashed her anger out... three shining stars..."*), warning that draining the gems had awakened the ancient entity for Marie's strange Poké Ball and that the three gems must be returned to their original shrines.
     - When a distant tremor shook the facility, **Colen Champion Micah** teleported outside to call his team and locate the tremor's source, and Asher, Valora, and Frio warped to the **Siara HQ Entrance Hall** (`10, 9`) to follow him outside (`10, 5`).
+  - **The Soul Dew & Summoning Latias Outside Siara HQ (`42, 15`, Turns 35887-35893)**:
+    - Outside the Siara HQ elevator (`37, 12 -> 42, 15`), **Colen Champion Micah** revealed that his team traced the seismic activity to **Northern Hupest**—the **Ancient Hupestian Ruins** in Jarro Town.
+    - To return the **Green Gem**, **Yellow Gem**, and **Purple Gem** to their three distant shrines quickly enough, Micah gave Asher the **Soul Dew** (`Items Pocket`), explaining that Legendary Pokémon choose to join trainers who prove themselves worthy.
+    - Focusing with the Soul Dew, Asher summoned the Legendary Pokémon **Latias** (`44, 15`), which landed before him waiting for Asher to prove his strength in battle.
