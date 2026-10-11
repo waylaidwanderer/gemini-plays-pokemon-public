@@ -64,6 +64,15 @@
 - **Seamless Map Transition to Route 14 East (`70, 24` West <-> `0, 24` East)**: Walking east along `row 24` past `(65, 24)` transitions seamlessly at `x=70` onto `(0, 24)` in **Route 14 East** (verified Turn 34789).
 ## Route 14 East (`cols 0+, rows 18-30`)
 - **Western Signboard (`9-10, 21`)**: Interacted from `(9, 22)`, reads verbatim: *"Eclipse Square / ----->"* (verified Turn 34790).
+- **PKMN Trainer Aaron (`28, 23`, Triggered at `30, 23` Before Overhead Bridge)**:
+  - **Pre-Battle Dialogue**: *"Wait up! / It's Asher himself! / You really impressed me back there I gotta say... / Hey, I know! / How about a quick rematch? / I'm only coming to see the Finals, after all, there are no stakes!"*
+  - **Team (5 Pokémon, +2 Full Restores)**:
+    - **Pokémon 1**: Dustox (♂, Lv41; Bug/Poison; OHKO'd by Sirius's `Meteor Mash` for `1405 EXP`).
+    - **Pokémon 2**: Drapion (♀, Lv42; Poison/Dark; knows Swords Dance; 2HKO'd by Sirius's `Bulldoze` for `1575 EXP`).
+    - **Pokémon 3**: Yanmega (♂, Lv41; Bug/Flying; OHKO'd by Sirius's `Meteor Mash` for `1581 EXP`).
+    - **Pokémon 4**: Vespiquen (♀, Lv41; Bug/Flying; Ability: Pressure; Held Item: Leftovers; knows Air Slash, Bug Buzz, and Roost; defeated by Sirius for `1458 EXP`).
+    - **Pokémon 5**: Scizor (♂, Lv42; Bug/Steel; knows Swords Dance and Bullet Punch; defeated by Sirius for `1800 EXP`).
+  - **Outcome**: Defeated in Turns 34794-34824 (*"Darn... / I gotta try harder if I want to be the greatest Bug Type user..."*).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
