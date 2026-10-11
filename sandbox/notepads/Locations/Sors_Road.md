@@ -176,3 +176,6 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Serperior (♀, Lv45; Grass; knows Coil; 2HKO'd by Sirius's `Mach Punch` for `2005 EXP`).
   - **Outcome**: Defeated in Turns 35205-35208 (*"My confidence"*; awards `₽2,700`).
+- **Northeastern Exit Archway (`29, 7` <-> Sors Road Upper Exterior Canyon `54, 27`)**:
+  - Stepping `Up` into `(29, 7)` warps outside to `(54, 27)` in an enclosed pocket canyon on the upper Sors Road Exterior map (`cols 47-66, rows 25-32`).
+  - **Timer Ball (`59, 31`)**: Reached from `(54, 27)` via `(54, 28 -> 58, 28 -> 58, 31)` facing `Right` (collected in Turn 35216).
