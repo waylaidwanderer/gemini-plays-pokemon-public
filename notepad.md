@@ -1840,6 +1840,12 @@
       - **Pokémon 1**: Roselia (♂, Lv17; Grass/Poison).
       - **Pokémon 2**: Grotle (♂, Lv18; Grass).
     - **Outcome**: Defeat quote: *"..."*; awards `₽720` (`₽6,902` cash total; verified Turns 31818-31822).
+## Western River Channel to Divampa Cave (`16, 33` -> `0, 32-33` <-> Divampa Cave Exterior `49, 7`)
+- **Launching West of the Wooden River Bridge (`16, 33`)**: Because the Wooden River Bridge (`cols 18-20, rows 26-36`) is at water level (`level 1`), surfing west from the eastern side dismounts onto `(20, 34)`. Stepping out onto the bottom-left tile of the **Western Pier (`16, 33`)** and pressing `A` facing `Left` launches the FastSwift boat onto `(15, 33)`, where the river channel runs west along `rows 32-33` across the western map boundary (`0, 32-33` <-> Divampa Cave River Map `49, 7`, verified Turns 35464-35467).
+- **Divampa Cave River Map (`cols 0-49, rows 0-30`)**:
+  - **Northern Channel & Grassy Bank (`49, 7 -> 28, 8 -> 24, 8`)**: Surfing west along `row 8` from `(49, 7)` dismounts onto the grassy sandbar at `(27, 8 -> 24, 8)` (where wild **Tangela Lv20** appear, verified Turn 35469). Relaunching south onto `(24, 9 -> 24, 11)` and surfing west along `row 11` reaches `(11, 11)`.
+  - **Wild Water Encounters**: **Horsea** (Lv8, verified Turn 35475) and **Mantine** (♂, Lv13; Water/Flying; knows Confuse Ray, Bubble Beam, and Bubble; encountered at `24, 19` in Turn 35478).
+  - **Divampa Cave Island (`cols 15-29, rows 20-26`)**: Features an upper grassy terrace (`cols 22-29, rows 20-21`), a lower sandy cliff terrace (`cols 18-29, rows 24-25`) with the **Divampa Cave entrance (`25, 23`)** and a southern staircase (`24-25, 25`), and a western shoreline landing at `(15-17, 24-25)` facing the western water channel (`column 5`, reached via `row 19` across `10, 19 -> 5, 19 -> 5, 25 -> 15, 24`, verified Turns 35474-35477).
 
 <hr>
 
