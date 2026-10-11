@@ -2250,6 +2250,9 @@
   - **North-West Cell (`cols 12-13, rows 27-28`)**: Locked.
   - **South-West Cell (`cols 12-13, rows 31-36`)**: Open; empty with an inactive dark teal pad at `(12, 36)`.
   - **Far-West North Cell (`cols 4-7, rows 24-28`, Valora's Cell)**: Locked (`5-6, 27-28`). Approaching `(5, 28)` triggers a reunion scene with **Valora** (`5, 26`), where Asher realizes the cell requires a key and resolves to track down the two grunts who went to the **lounge** (`Turns 35785-35786`).
+- **Lounge Showdown & The Card Key (`19, 6` <-> `35, 7`, Turns 35790-35800)**:
+  - Re-entering the Lounge (`35, 7`) after visiting Valora's cell triggers a confrontation with the two **Team Siara Grunts** (`34, 7` and `35, 6`), where Asher defeats the lead grunt (`Skuntank♂ Lv49`, `Hippowdon♂ Lv49`, `Toxicroak♂ Lv49`, `Drapion♂ Lv49`; awards `₽5,096`).
+  - Interacting with the Poké Ball on the table at `(36, 5)` (from `36, 6` facing `Up`) recovers **Valora's Pokémon** and the **Card Key** (*"These are Valora's Pokémon and a Card Key! / With this I can open the door!"*).
 
 <hr>
 
@@ -3377,6 +3380,7 @@
 - **Finding Valora in the Prison Cells (`19, 21` -> `5, 28`, Turns 35776-35786)**:
   - Warping into the **Prison Cells** sector (`19, 21`), Asher overheard two **Team Siara Grunts** by the security desk bragging about locking **Valora** up and planning to sell her powerful Pokémon before heading to the **lounge** to rest.
   - Locating Valora inside the locked northwestern cell (`5, 26`), Asher promised to return right away with the cell key from the two grunts in the lounge.
+  - Returning to the **Lounge** (`19, 6 -> 35, 7`), Asher defeated the Team Siara Grunt guarding the table (`Skuntank Lv49`, `Hippowdon Lv49`, `Toxicroak Lv49`, `Drapion Lv49`) and recovered **Valora's Pokémon** and the **Card Key** from `(36, 5)` (`Turns 35790-35800`).
 
 <hr>
 

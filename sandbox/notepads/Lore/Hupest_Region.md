@@ -425,3 +425,4 @@
 - **Finding Valora in the Prison Cells (`19, 21` -> `5, 28`, Turns 35776-35786)**:
   - Warping into the **Prison Cells** sector (`19, 21`), Asher overheard two **Team Siara Grunts** by the security desk bragging about locking **Valora** up and planning to sell her powerful Pokémon before heading to the **lounge** to rest.
   - Locating Valora inside the locked northwestern cell (`5, 26`), Asher promised to return right away with the cell key from the two grunts in the lounge.
+  - Returning to the **Lounge** (`19, 6 -> 35, 7`), Asher defeated the Team Siara Grunt guarding the table (`Skuntank Lv49`, `Hippowdon Lv49`, `Toxicroak Lv49`, `Drapion Lv49`) and recovered **Valora's Pokémon** and the **Card Key** from `(36, 5)` (`Turns 35790-35800`).
