@@ -2323,7 +2323,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Throh (♂, Lv44; Fighting; OHKO'd by Sirius's `Meteor Mash` for `1536 EXP`).
     - **Pokémon 2**: Steelix (♀, Lv44; Steel/Ground; knows Crunch; 2HKO'd by Sirius's `Bulldoze` for `1848 EXP`).
-  - **Outcome**: Defeated in Turns 35131-35136.
+  - **Outcome**: Defeated in Turns 35131-35137 (*"R-right"*; awards `₽1,760`).
 
 <hr>
 
