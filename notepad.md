@@ -2286,6 +2286,8 @@
   - Stepping onto the Right teleporter pad at `(41, 17)` in Room 2 warps to `(39, 25)` in Room 3 (`cols 36-42, rows 24-29`), which contains **Siara Grunt 6** at `(37, 25 -> 38, 25)` and four glowing blue teleporter pads at `(37, 27)` (Left), `(39, 27)` (Middle-Top), `(41, 27)` (Right), and `(39, 29)` (Bottom-Center -> solves the teleporter puzzle and warps to `24, 32` outside the Lab corridor).
   - **Siara Grunt 6 (`37, 25` -> `38, 25`)**: Pre-battle quote: *"To the lab? / No, right back into the ocean!"*; uses `Abomasnow♀ Lv50` (Grass/Ice; OHKO'd by Sirius's `Mach Punch` for `1852 EXP`) and `Lilligant♀ Lv50` (Grass; OHKO'd by Sirius's `Return` for `1800 EXP`); defeat quote: *"I sank"*; awards `₽5,200`.
   - **Verified Teleporter Puzzle Solution**: From `(4, 20)` -> **Room 1 Left (`38, 7`)** -> **Room 2 Right (`41, 17`)** -> **Room 3 Bottom-Center (`39, 29`, routed via `col 40`)** -> arrives at **`(24, 32)`**!
+- **Machine Room Entrance (`24, 32` Teleporter -> `19, 30` Doorway, Turn 35864)**:
+  - Wall sign at `(21, 30)` reads *"Machine Room"*; doorway is at `(19, 30)` (`cols 17-27, rows 30-34`).
 
 <hr>
 
