@@ -2218,6 +2218,13 @@
   - **Outcome**: Defeated in Turns 34986-34989 (`"."`; awards `₽1,720`).
 - **Western Upper Ridge (`cols 3-15, rows 20-28`, reached via wooden ramp at `9-11, 24`)**:
   - **Max Potion (`5, 20`)**: Collected from spray-bottle sprite at the northern end of the western upper ridge (`4, 25 -> 4, 21 -> 5, 21` facing `Up`) in Turn 34991.
+  - **Cooltrainer♂ Lao (`11, 26`, Facing Up)**:
+    - **Pre-Battle Quote**: *"To the peak huh? / Not through me!"*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Kingler (♂, Lv43; Water; knows Protect; OHKO'd by Sirius's `Aura Sphere` for `1897 EXP`).
+      - **Pokémon 2**: Crabominable (♀, Lv43; Fighting/Ice; OHKO'd by Sirius's `Mach Punch` for `1537 EXP`).
+      - **Pokémon 3**: Crawdaunt (♀, Lv43; Water/Dark; OHKO'd by Sirius's `Mach Punch` for `1483 EXP`).
+    - **Outcome**: Defeated in Turns 34992-34997 (*"Darn."*; awards `₽2,580`).
 
 <hr>
 
