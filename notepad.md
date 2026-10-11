@@ -2189,6 +2189,9 @@
 - **Upper Cargo Balcony (`20, 10` <-> `7, 4`, Turns 35707-35709)**:
   - Entering `(20, 10)` warps to `(7, 5)` on an upper balcony overlooking a **Team Siara Grunt** at `(6, 8)` (the grunt who locked `9, 4` and came to the cargo area to chill).
   - Stepping `Down` from `(7, 5)` triggers a stealth cutscene where Asher walks to `(7, 7)`, quietly grabs the **C. Room Key** (`Key Items Pocket`) from the table at `(8, 7)` behind the grunt's back (`"Alright, here's the key... / Now slowly... / Asher found one C. Room Key!"`), and automatically sneaks back out to `(20, 11)`.
+- **Cabin 2 (`9, 4` <-> `34, 8`, Turns 35711-35714)**:
+  - Unlocked by stepping `Up` into `(9, 4)` with the **C. Room Key**.
+  - Inside at `(33, 4)` (interacted from `33, 5` facing `Up`), Asher recovers his confiscated **Poké Balls and PokéDex** (`"Asher: Yes! All of my stuff is here! / Alright, let's pick them up and let's get out of here!"`).
 
 <hr>
 
@@ -3296,7 +3299,9 @@
   - A disguised Team Siara Grunt entered Asher's locked cabin (`6, 4`), called him *"peasant"*, and removed his mask to reveal **Frio**.
   - Frio explained that after returning to the abandoned undersea laboratory at Location 3 and reading Marie's old diaries (*"My entire life has been a lie... Now it's my turn so I decided to infiltrate Siara..."*), he overheard Team Siara's plot to kidnap **Valora** and ambush Asher.
   - Frio revealed that **Valora is safe and being held hostage at Team Siara HQ**, where the Cargo Ship is currently heading, and that Team Siara captured Asher to neutralize him as a threat.
-  - Untying Asher's ropes and returning his **HuPhone** (which has no signal aboard the ship), Frio explained that Asher's **PokéDex and Poké Balls** are kept in the next room, which is locked with a **Master Key**, and joined Asher in disguise to help him find the Master Key and sneak off the ship once it docks.
+  - Untying Asher's ropes and returning his **HuPhone** (which has no signal aboard the ship), Frio explained that Asher's **PokéDex and Poké Balls** are kept in the next room, which is locked with a key (**C. Room Key**), and joined Asher in disguise to help him find the key and sneak off the ship once it docks.
+- **Recovering Asher's Belongings Aboard the Cargo Ship (`20, 10` -> `7, 7` & `9, 4` -> `33, 5`, Turns 35707-35714)**:
+  - Following the Team Siara Grunt who locked Cabin 2 (`9, 4`) and went to chill in the Cargo Area, Asher entered the upper balcony doorway (`20, 10 -> 7, 5`), snuck behind the grunt (`6, 8`) to grab the **C. Room Key** from the table (`8, 7`), unlocked Cabin 2 (`9, 4 -> 34, 8`), and recovered his **Poké Balls and PokéDex** from the table at `(33, 4)`.
 
 <hr>
 
