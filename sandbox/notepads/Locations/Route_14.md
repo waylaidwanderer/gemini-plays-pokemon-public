@@ -108,7 +108,7 @@
   - **Cooltrainer♂ (`92, 22` -> `92, 23`, Facing Down)**:
     - **Pre-Battle Quote**: *"Yo yo yooo! / You think you are almost there?"*
     - **Team**:
-      - **Pokémon 1**: Snorlax (♂, Lv43; Normal).
+      - **Pokémon 1**: Snorlax (♂, Lv43; Normal; knows Rollout; defeated by Sirius for `1419 EXP`, leveling Sirius to Lv74).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
