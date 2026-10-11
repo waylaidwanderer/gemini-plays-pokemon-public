@@ -687,6 +687,10 @@
       - **Pokémon 2**: Houndoom (♀, Lv48; Dark/Fire; OHKO'd by Sirius's `Mach Punch` for `2097 EXP`).
       - **Pokémon 3**: Magneton (Lv48; Electric/Steel; OHKO'd by Sirius's `Aura Sphere` for `1656 EXP`).
     - **Outcome**: Defeat quote: *"Ahh, I'm gonna get cooked!"* (verified Turns 35601-35607).
+  - **Eastern Lower Magma Level Junction (`38, 14`) & Coworker Andrew (`41, 14` -> `39, 14`)**:
+    - Reached via `(34, 10 -> 34, 11 -> 38, 11 -> 38, 14)` past Hiker Nolan (`35, 10`).
+    - Branches to a **wooden wall ladder ascending at `(44, 15)`** (`rungs at 44, 12-16`) and a **southbound path** continuing along `columns 40-44, rows 15-17+`.
+    - **Coworker Andrew (`41, 14` -> `39, 14`, 3 Pokémon)**: Initiated battle in Turn 35610.
 
 <hr>
 
