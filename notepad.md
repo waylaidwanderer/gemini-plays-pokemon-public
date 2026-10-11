@@ -1486,7 +1486,8 @@
     - **Pokémon 4**: Vespiquen (♀, Lv41; Bug/Flying; Ability: Pressure; Held Item: Leftovers; knows Air Slash, Bug Buzz, and Roost; defeated by Sirius for `1458 EXP`).
     - **Pokémon 5**: Scizor (♂, Lv42; Bug/Steel; knows Swords Dance and Bullet Punch; defeated by Sirius for `1800 EXP`).
   - **Outcome**: Defeated in Turns 34794-34824 (*"Darn... / I gotta try harder if I want to be the greatest Bug Type user..."*; post-battle, Aaron shares that his goal is to join the Sinnoh Elite Four and hopes watching Asher in the Finals will inspire him before departing east, verified Turn 34825).
-- **Overhead Bridge (`cols 32-34, rows 20-27`), Eastern Staircase (`cols 38-40, rows 20-21`), & Southern Ridge Items (`35, 26` & `38, 29`)**:
+- **Overhead Bridge (`cols 32-34, rows 20-27`), Eastern Staircase (`cols 38-40, rows 20-21`), & Southern Ridge Item (`35, 26`)**:
+  - **Southern Ridge Item (`35, 26`)**: Purple spray bottle item sprite located on the cliff ridge immediately east of `(34, 26)` on the overhead bridge (reachable by interacting `Right` from `34, 26`, deduced Turn 34910).
   - **Cooltrainer♂ Lenny (`36, 22` -> `36, 23`, Facing Down)**:
     - **Pre-Battle Quote**: *"The cliff are so steep!"*
     - **Team (1 Pokémon, +1 Hyper Potion)**:
@@ -1524,6 +1525,7 @@
       - **Pokémon 1**: Snorlax (♂, Lv43; Normal; knows Rollout; defeated by Sirius for `1419 EXP`, leveling Sirius to Lv74).
     - **Outcome**: Defeated in Turns 34919-34924 (awards `₽2,580`).
   - **PKMN Trainer Barry (`97, 23`, Triggered at `97, 21` on Staircase)**:
+    - **Upper Terrace Overview (`cols 92-98, rows 15-19`)**: At the top of the `(96-98, 20-21)` staircase stands an Explorer/Ranger NPC at `(96, 18-19)` in front of a mountain cabin at `(92-94, 15-16)` (observed Turn 34927).
     - **Pre-Battle Dialogue**: *"Heeeey! / It's you again! / I'm still kind of salty I lost back there you know... / My friends are both in the Finals, so they will most likely face you. / I'm kind of curious who they will be fighting against... / Can I see it for myself?"*
     - **Team (5 Pokémon)**:
       - **Pokémon 1**: Staraptor (♂, Lv42; Normal/Flying; Ability: Intimidate; knows Brave Bird and ExtremeSpeed).
@@ -3055,7 +3057,7 @@
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
-  - Slot 3: Aura Sphere (Fighting, Special, 80 power, never misses, STAB, 10/20 PP remaining after Ether in Turn 34745; learned at Lv34 replacing Work Up)
+  - Slot 3: Aura Sphere (Fighting, Special, 80 power, never misses, STAB, 20 PP; learned at Lv34 replacing Work Up)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
 - **OT / ID**: Asher / 54592
