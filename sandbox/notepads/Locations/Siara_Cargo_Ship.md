@@ -35,3 +35,6 @@
   - **Cargo Area Crate Bridge (`23, 10` Red Mat <-> `60, 24` Doorway, Turns 35742-35744)**:
     - Stepping `Down` off the red mat at `(23, 10)` on the Lower Cabin Deck warps to `(60, 25)` on the southeastern walkway of the flooded Cargo Area.
     - Walking west to `(55, 25)` and north along the aligned green cargo crates (`cols 53-56, rows 20 -> 10`) yields **TM42 (Facade)** from the golden item ball at `(54, 16)` (collected Turn 35744).
+  - **Emergency Switch (`59, 5`) & Draining the Cargo Area (`20, 21`, Turns 35746-35748)**:
+    - Stepping from `(54, 10)` east across `(57-60, 10)` and north onto the **Emergency Switch Balcony** (`cols 56-60, rows 6-8`), the wall sign at `(57, 5)` reads *"Emergency Switch / Press in case of a leakage!"*.
+    - Pressing the Emergency Switch at `(59, 5)` triggers *"EMERGENCY ALERT! EMERGENCY ALERT! / LEAKAGE DETECTED! LEAKAGE DETECTED!"* and a brief scene in **Hupest Sea** (*"Somewhere in the middle of the Hupest Sea..."*), pumping out the flooded water and returning Asher to **`(20, 21)`** in the drained Cargo Area.

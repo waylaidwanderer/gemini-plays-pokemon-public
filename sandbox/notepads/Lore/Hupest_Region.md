@@ -412,3 +412,6 @@
   - As Asher stepped out of Cabin 2 (`9, 6`) with his recovered Pokémon and PokéDex, Team Siara Grunts rushed past in a panic to abandon ship.
   - **Frio** (`11, 6`) informed Asher that the Cargo Ship is leaking and sinking just short of **Team Siara HQ**, and explained that an emergency switch to slow the leak sits on a higher level inside the **Cargo Area** (`20, 16`), reachable only by crossing on top of the cargo crates.
   - Asher remembered spotting a `"cargo"` switch on the wall (`9, 4`) of the **Upper Cargo Balcony** (`20, 10`) where he snatched the key, realizing they can use it to align the crates and reach the emergency switch.
+- **Micah's Sceptile & The Emergency Switch (`14, 8` & `59, 5`, Turns 35731-35748)**:
+  - On the Lower Cabin Deck (`14, 8`), Colen Champion **Micah's Sceptile** emerged from the middle cabin (`15, 6`). Realizing Micah was attacking Team Siara's Cargo Ship without knowing Asher was aboard, Asher asked Sceptile to tell Micah to stop so they could buy time to contain the leak.
+  - Crossing the aligned cargo crates from `(60, 25)` to the **Emergency Switch Balcony** (`59, 6`), Asher flipped the Emergency Switch (`59, 5`), triggering the ship's emergency containment system and pumping the water out of the Cargo Area (`"Somewhere in the middle of the Hupest Sea..."`).

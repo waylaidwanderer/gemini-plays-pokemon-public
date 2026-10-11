@@ -2206,6 +2206,9 @@
   - **Cargo Area Crate Bridge (`23, 10` Red Mat <-> `60, 24` Doorway, Turns 35742-35744)**:
     - Stepping `Down` off the red mat at `(23, 10)` on the Lower Cabin Deck warps to `(60, 25)` on the southeastern walkway of the flooded Cargo Area.
     - Walking west to `(55, 25)` and north along the aligned green cargo crates (`cols 53-56, rows 20 -> 10`) yields **TM42 (Facade)** from the golden item ball at `(54, 16)` (collected Turn 35744).
+  - **Emergency Switch (`59, 5`) & Draining the Cargo Area (`20, 21`, Turns 35746-35748)**:
+    - Stepping from `(54, 10)` east across `(57-60, 10)` and north onto the **Emergency Switch Balcony** (`cols 56-60, rows 6-8`), the wall sign at `(57, 5)` reads *"Emergency Switch / Press in case of a leakage!"*.
+    - Pressing the Emergency Switch at `(59, 5)` triggers *"EMERGENCY ALERT! EMERGENCY ALERT! / LEAKAGE DETECTED! LEAKAGE DETECTED!"* and a brief scene in **Hupest Sea** (*"Somewhere in the middle of the Hupest Sea..."*), pumping out the flooded water and returning Asher to **`(20, 21)`** in the drained Cargo Area.
 
 <hr>
 
@@ -3320,6 +3323,9 @@
   - As Asher stepped out of Cabin 2 (`9, 6`) with his recovered Pokémon and PokéDex, Team Siara Grunts rushed past in a panic to abandon ship.
   - **Frio** (`11, 6`) informed Asher that the Cargo Ship is leaking and sinking just short of **Team Siara HQ**, and explained that an emergency switch to slow the leak sits on a higher level inside the **Cargo Area** (`20, 16`), reachable only by crossing on top of the cargo crates.
   - Asher remembered spotting a `"cargo"` switch on the wall (`9, 4`) of the **Upper Cargo Balcony** (`20, 10`) where he snatched the key, realizing they can use it to align the crates and reach the emergency switch.
+- **Micah's Sceptile & The Emergency Switch (`14, 8` & `59, 5`, Turns 35731-35748)**:
+  - On the Lower Cabin Deck (`14, 8`), Colen Champion **Micah's Sceptile** emerged from the middle cabin (`15, 6`). Realizing Micah was attacking Team Siara's Cargo Ship without knowing Asher was aboard, Asher asked Sceptile to tell Micah to stop so they could buy time to contain the leak.
+  - Crossing the aligned cargo crates from `(60, 25)` to the **Emergency Switch Balcony** (`59, 6`), Asher flipped the Emergency Switch (`59, 5`), triggering the ship's emergency containment system and pumping the water out of the Cargo Area (`"Somewhere in the middle of the Hupest Sea..."`).
 
 <hr>
 
