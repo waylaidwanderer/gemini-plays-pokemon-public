@@ -1469,8 +1469,10 @@
 ## Eastern Riverbank & Mountain Approach (`cols 54+, rows 20-35`)
 - **Cooltrainer♀ Becky (`58, 23` -> `58, 24`, Facing Down)**:
   - **Pre-Battle Quote**: *"Darn, Eclipse Square is so high up on the mountain!"*
-  - **Team (3 Pokémon)**:
-    - **Pokémon 1**: Roserade (Grass/Poison).
+  - **Team (3 Pokémon, +1 Hyper Potion)**:
+    - **Pokémon 1**: Roserade (♀, Lv41; Grass/Poison; knows Sweet Scent; defeated by Sirius's `Bulldoze` for `1791 EXP`).
+    - **Pokémon 2**: Donphan (♀, Lv41; Ground; Ability: Sturdy; knows Scary Face; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1660 EXP`).
+    - **Pokémon 3**: Ninetales (♀, Lv41; Fire; knows Confuse Ray).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
