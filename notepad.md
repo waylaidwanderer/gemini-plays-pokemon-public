@@ -1450,7 +1450,11 @@
 - **Cooltrainer♀ Susie (`33, 28` -> `33, 30`, Facing Down)**:
   - **Pre-Battle Quote**: *"There are so many Trainers going to the Eclipse Square... / Are you one of them?"*
   - **Team (4 Pokémon)**:
-    - **Pokémon 1**: Exeggutor (♀, Lv40; Grass/Psychic).
+    - **Pokémon 1**: Exeggutor (♀, Lv40; Grass/Psychic; knows Confusion; OHKO'd by Sirius's `Meteor Mash` for `1816 EXP`).
+    - **Pokémon 2**: Gorebyss (♀, Lv40; Water; OHKO'd by Sirius's `Aura Sphere` for `1525 EXP`).
+    - **Pokémon 3**: Clawitzer (♀, Lv41; Water; OHKO'd by Sirius's `Aura Sphere` for `877 EXP`).
+    - **Pokémon 4**: Victreebel (♀, Lv41; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1677 EXP`).
+  - **Outcome**: Defeated in Turns 34749-34757 (*"You definitely are!"*).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
