@@ -26,7 +26,7 @@
 - **Cell Layout**:
   - **Northeast Cell (`cols 31-34, rows 17-22`)**: Open at `col 33`; contains an inactive dark teal pad at `(33, 18)`.
   - **Southeast Cell (`cols 31-34, rows 27-32`)**: Open at `col 32`; empty with an inactive dark teal pad.
-  - **North-Central Cell (`cols 24-27, rows 17-22`)**: Locked (`25-26, 22-23`); contains a golden item ball at `(24, 17)` and an inactive dark teal pad at `(26, 18)`.
+  - **North-Central Cell (`cols 24-27, rows 17-22`)**: Locked (`25-26, 22-23`; unlocked with the **Prison Key** in Turn 35801); contains **Dusk Stone x1** at `(24, 17)` (collected Turn 35801) and an inactive dark teal pad at `(26, 18)`. Note that scrolling to `row 17` causes the door tiles at `(25-26, 22-23)` to reload from ROM; using the Prison Key from `(25, 22)` facing `Down` at `(25, 23)` re-opens and warps outside to `(25, 24)` (verified Turn 35802).
   - **South-Central Cell (`cols 24-27, rows 27-32`)**: Open at `col 25`; empty with an inactive dark teal pad at `(26, 31)`.
   - **North-West Cell (`cols 12-13, rows 27-28`)**: Locked.
   - **South-West Cell (`cols 12-13, rows 31-36`)**: Open; empty with an inactive dark teal pad at `(12, 36)`.
