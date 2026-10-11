@@ -13,3 +13,4 @@
   - **Eclipse Square Metro Station Entrance (`17, 9`)**: Escalator marked with `"M"` connecting to the Hupest Metro Line (`E.S.` station).
   - **Central Finals Staircase (`cols 20-22, rows 7-8`)**: Leads up to the **Top 16 Ceremony** and Finals Arena.
   - **Eastern Lobby & PokéMart Counter (`cols 23-29, rows 8-10`)**: Features a trainer at `(23, 9)` with a **Typhlosion** at `(24, 9)`, and an Explorer PokéMart clerk at `(27, 9)` (interacted from `27, 11` facing `Up`).
+  - **Upper Mezzanine & Finals Arena Entrance (`21, 1-2`, Cutscene Trigger at `21, 3`)**: Stepping onto `(21, 3)` before the red-curtained archway triggers a scene where Colen Champion **Micah** arrives to wish Asher good luck and heads west along the mezzanine to join Dad and Professor Ivo in the spectator auditorium (verified Turns 35382-35384).

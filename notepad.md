@@ -646,6 +646,7 @@
   - **Eclipse Square Metro Station Entrance (`17, 9`)**: Escalator marked with `"M"` connecting to the Hupest Metro Line (`E.S.` station).
   - **Central Finals Staircase (`cols 20-22, rows 7-8`)**: Leads up to the **Top 16 Ceremony** and Finals Arena.
   - **Eastern Lobby & PokéMart Counter (`cols 23-29, rows 8-10`)**: Features a trainer at `(23, 9)` with a **Typhlosion** at `(24, 9)`, and an Explorer PokéMart clerk at `(27, 9)` (interacted from `27, 11` facing `Up`).
+  - **Upper Mezzanine & Finals Arena Entrance (`21, 1-2`, Cutscene Trigger at `21, 3`)**: Stepping onto `(21, 3)` before the red-curtained archway triggers a scene where Colen Champion **Micah** arrives to wish Asher good luck and heads west along the mezzanine to join Dad and Professor Ivo in the spectator auditorium (verified Turns 35382-35384).
 
 <hr>
 
@@ -3110,6 +3111,7 @@
 - **Dawn & Valora's Finals Wager (`21, 12` in Finals Lobby, Turns 35373-35376)**:
   - Inside the Finals Lobby, **Dawn** and **Valora** introduced themselves, with Valora stepping protectively between Dawn and Asher when Dawn greeted Asher excitedly.
   - Dawn proposed a bet to Valora: whoever advances further in the Finals will win a full day with Asher (*"Whoever gets further now in the Finals, will win a day with Asher! How does that sound?"*), which Valora accepted (*"Don't worry Asher! I'll win her little game!"*) before the loudspeaker summoned all competitors to the arena for the **Top 16 Ceremony** and spectators to the auditorium.
+- **Colen Champion Micah Joins the Spectators (`21, 3` on Upper Mezzanine, Turns 35382-35384)**: Approaching the Finals Arena entrance archway (`21, 3`), Asher was greeted by **Micah**, Champion of the Colen Region, who arrived to watch Asher compete in the Finals after their battle in the undersea lab. Asher told Micah that Dad and Professor Ivo were looking for seats in the auditorium, and Micah wished Asher good luck before heading west toward the spectator seating.
 
 <hr>
 
