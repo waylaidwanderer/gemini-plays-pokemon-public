@@ -2215,7 +2215,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Conkeldurr (♂, Lv43; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1777 EXP`).
     - **Pokémon 2**: Lycanroc (♀, Lv43; Midday Form, Rock; OHKO'd by Sirius's `Aura Sphere` for `1566 EXP`).
-  - **Outcome**: Defeated in Turns 34986-34989.
+  - **Outcome**: Defeated in Turns 34986-34989 (`"."`; awards `₽1,720`).
 
 <hr>
 
