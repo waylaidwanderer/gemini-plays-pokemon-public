@@ -153,4 +153,4 @@
     - **Pre-Battle Quote**: *"Ohoho, another adventurer?"*
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Drampa (♀, Lv45; Normal/Dragon; OHKO'd by Sirius's `Mach Punch` for `1638 EXP`).
-    - **Outcome**: Defeated in Turns 35178-35180.
+    - **Outcome**: Defeated in Turns 35178-35181 (awards `₽1,800`).
