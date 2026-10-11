@@ -2291,6 +2291,11 @@
   - **Outcome**: Defeated in Turns 35089-35096 (*"Ah, now it makes sense."*; awards `₽2,640`).
 - **Upper Mountain Pass Routing (`cols 20-54, rows 7-15`)**:
   - From the top of the 4-tile northern wooden staircase at `(20-23, 12-13)`, the trail runs east along `row 11` (`21, 11 -> 27, 11 -> 40, 11`), steps around the 2x2 boulder (`41-42, 10-11`) via `row 12` (`40, 12 -> 44, 12 -> 44, 11 -> 48, 11`), and descends along `column 48` (`48, 11 -> 48, 14`) into the eastern tall grass patch (`cols 43-53, rows 12-15`, verified Turns 35079-35099).
+- **Hiker Ernest (`50, 14` -> `49, 14`, Facing Left)**:
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Nidoqueen (♀, Lv43; Poison/Ground; OHKO'd by Sirius's `Bulldoze` for `1786 EXP`).
+    - **Pokémon 2**: Rhydon (♂, Lv44; Ground/Rock; OHKO'd by Sirius's `Aura Sphere` for `1923 EXP`).
+  - **Outcome**: Defeated in Turns 35099-35104.
 
 <hr>
 
@@ -3159,7 +3164,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 219), Attack (C+, 207), Defense (A-, 200), Sp. Atk (C-, 192), Sp. Def (E, 131), Speed (C-, 135)
-- **Current Condition**: 171/219 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 16/20`, `Aura Sphere 3/20`, `Mach Punch 20/30`; leveled up to Lv76 defeating Hiker Lukas's Machamp at Sors Road Exterior `21, 15` in Turn 35076; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 171/219 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 15/20`, `Aura Sphere 2/20`, `Mach Punch 20/30`; leveled up to Lv76 defeating Hiker Lukas's Machamp at Sors Road Exterior `21, 15` in Turn 35076; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv76 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
