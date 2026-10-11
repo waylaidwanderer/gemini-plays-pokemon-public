@@ -67,6 +67,14 @@
   - Stepping onto the Right teleporter pad at `(41, 17)` in Room 2 warps to `(39, 25)` in Room 3 (`cols 36-42, rows 24-29`), which contains **Siara Grunt 6** at `(37, 25 -> 38, 25)` and four glowing blue teleporter pads at `(37, 27)` (Left), `(39, 27)` (Middle-Top), `(41, 27)` (Right), and `(39, 29)` (Bottom-Center -> solves the teleporter puzzle and warps to `24, 32` outside the Lab corridor).
   - **Siara Grunt 6 (`37, 25` -> `38, 25`)**: Pre-battle quote: *"To the lab? / No, right back into the ocean!"*; uses `Abomasnow♀ Lv50` (Grass/Ice; OHKO'd by Sirius's `Mach Punch` for `1852 EXP`) and `Lilligant♀ Lv50` (Grass; OHKO'd by Sirius's `Return` for `1800 EXP`); defeat quote: *"I sank"*; awards `₽5,200`.
   - **Verified Teleporter Puzzle Solution**: From `(4, 20)` -> **Room 1 Left (`38, 7`)** -> **Room 2 Right (`41, 17`)** -> **Room 3 Bottom-Center (`39, 29`, routed via `col 40`)** -> arrives at **`(24, 32)`**!
-- **Machine Room (`24, 32` Teleporter -> `19, 30` Doorway -> `5, 16`, Turns 35864-35866)**:
+- **Machine Room (`24, 32` Teleporter -> `19, 30` Doorway -> `5, 16`, Turns 35864-35878)**:
   - Wall sign at `(21, 30)` reads *"Machine Room"*; doorway at `(19, 30)` warps to `(5, 16)` in the Machine Room (`which also has a teleporter pad at 17, 15`).
-  - Walking north from `(10, 15 -> 12, 12)` into the central chamber (`13, 9`) triggers the confrontation where **Asher**, **Valora**, **Frio**, and **Colen Champion Micah** face **Mom (Marie)** (`13, 7`), **Siara Admin Harry** (`11, 7`), and **Siara Admin Flo** (`14, 6`) before the giant green machine holding the three stolen gems.
+  - **The Strange Poké Ball & Reawakening (`13, 9`)**: Walking north from `(10, 15 -> 12, 12)` into the central chamber (`13, 9`) triggers a confrontation where **Asher**, **Valora**, **Frio**, and **Colen Champion Micah** face **Mom (Marie)** (`13, 7`), **Siara Admin Harry** (`11, 7`), and **Siara Admin Flo** (`14, 6`) before the giant green machine holding the three stolen gems. Flo completes the process, draining the energy of all three gems to forge a strange purple **Poké Ball** (`13, 5`) and remarks: *"It's complete... And now that the gems have their energy used up... It will reawake."*
+  - **Marie & Flo's Departure (`16, 7`) & Boss Battle with Siara Admin Harry (`13, 7`, Turns 35868-35878)**:
+    - Marie and Flo step onto a hidden teleporter pad that materializes at `(16, 7)` and warp away with the strange Poké Ball while the `(5-9, 12)` electric barrier turns back on, and **Siara Admin Harry** steps up (`13, 7`) to hold off Asher's group (`automatically healing Asher's party to full HP/PP before battle`):
+    - **Team (5 Pokémon)**:
+      - **Pokémon 1**: Honchkrow (♀, Lv49; Dark/Flying; OHKO'd by Sirius's `Aura Sphere` for `1858 EXP`).
+      - **Pokémon 2**: Shiftry (♂, Lv50; Grass/Dark; Held Item: Life Orb; knows Sucker Punch; OHKO'd by Sirius's `Aura Sphere`).
+      - **Pokémon 3**: Zoroark (♂, Lv50; Dark; OHKO'd by Sirius's `Mach Punch` for `1917 EXP`).
+      - **Pokémon 4**: Lapras (♀, Lv49; Water/Ice; OHKO'd by Sirius's `Aura Sphere` for `2299 EXP`).
+      - **Pokémon 5**: Eclipsed Vikavolt (♂, Lv51; resists Fighting; Held Item: Leftovers; defeated by Sirius's `Dark Pulse` + `Return` for `2130 EXP`).
