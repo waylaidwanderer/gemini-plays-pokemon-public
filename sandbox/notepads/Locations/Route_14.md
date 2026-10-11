@@ -79,6 +79,15 @@
     - **Team (1 Pokémon, +1 Hyper Potion)**:
       - **Pokémon 1**: Altaria (♀, Lv43; Dragon/Flying; knows Dragon Dance, Cotton Guard, and Dragon Pulse; defeated by Sirius for `1731 EXP`).
     - **Outcome**: Defeated in Turns 34827-34832 (*"I think I'm gonna fall"*; awards `₽2,580`).
+  - **Upper Plateau Routing (`39, 21` & `44, 21 -> 44, 14`)**: The short staircase at `(39, 21 -> 39, 18)` leads only to a small enclosed overlook (`38-40, 18-19`), whereas the tall staircase at `(44, 21 -> 44, 14)` leads to the northern upper ridge (`row 14`), where walking west along `row 14` (`44, 14 -> 33, 14`) connects to the northern entrance of the overhead bridge (`cols 32-34, rows 16-27`), and a Poké Ball item sprite is visible in the northeastern trees at `(49, 10)` (verified Turns 34835-34837).
+  - **PKMN Trainer Silver (`33, 21` on Overhead Bridge)**:
+    - **Pre-Battle Dialogue**: *"You there! / What a coincidence... / I'm also going to the Eclipse Square to see which moron wins... / Hey, Asher... / What about a quick rematch? / I can't let that loss go!"*
+    - **Team (5 Pokémon, +1 Full Restore)**:
+      - **Pokémon 1**: Weavile (♀, Lv41; Dark/Ice; knows Low Kick; defeated by Sirius for `1572 EXP`, leveling Sirius to Lv73).
+      - **Pokémon 2**: Gengar (♂, Lv42; Ghost/Poison; Ability: Cursed Body; Held Item: Black Sludge; knows Will-O-Wisp, Focus Blast, and Protect; defeated by Sirius for `1710 EXP`).
+      - **Pokémon 3**: Crobat (♂, Lv41; Poison/Flying; Held Item: Black Sludge; knows Brave Bird; defeated by Sirius for `1791 EXP`).
+      - **Pokémon 4**: Magnezone (Lv42; Electric/Steel; knows Iron Defense and Thunderbolt).
+      - **Pokémon 5**: Feraligatr (in progress).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
