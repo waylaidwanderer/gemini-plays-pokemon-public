@@ -3478,7 +3478,7 @@
 
 - **Overworld Poison Damage**: Overworld poison damage is completely DISABLED in Pokémon Sors v1.3 (aligns with Gen 5+ / CFRU engine rules).
 
-- **Turn-in-Place Mechanic**: There is NO turn-in-place mechanic on foot; pressing a D-Pad direction always turns and attempts a forward step unless blocked by terrain collision.
+- **Turn-in-Place Mechanic**: On normal ground (roads, floors, water, and short grass), there is NO turn-in-place mechanic on foot; pressing a D-Pad direction turns and steps forward in a single press unless blocked by terrain collision. **Tall-Grass Exception (Verified Turn 36136)**: When standing on a **tall-grass tile**, pressing a D-Pad direction different from the player's current facing direction turns the player in place on the first press (allowing in-place spinning for wild encounters) and steps forward on the second press.
 
 ## Facilities & PokéMarts
 
