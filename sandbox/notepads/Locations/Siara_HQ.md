@@ -49,3 +49,7 @@
   - Spots Asher immediately upon warping onto `(23, 12)` (*"The intruders are here! / The intruders are here!"*).
   - **Team (2 Pokémon)**: `Medicham♀ Lv50` (Fighting/Psychic; knows Acupressure) and `Gallade♂ Lv50` (Psychic/Fighting; knows Protect and False Swipe).
   - **Outcome**: Defeated in Turns 35821-35830 (`"Noooo"`; awards `₽5,200`).
+- **Siara Grunt 2 (`18, 17`)**:
+  - Pre-battle quote: *"Oh hello there, would you like some water? / Or maybe a whole prison cell?"*
+  - **Team (2 Pokémon)**: `Bidoof♂ Lv50` (Normal; OHKO'd by Sirius's `Mach Punch` for `535 EXP`) and `Flygon♂ Lv50` (Ground/Dragon; OHKO'd by Sirius's `Aura Sphere` for `2110 EXP`).
+  - **Outcome**: Defeated in Turns 35831-35834 (`"."`; awards `₽5,200`).

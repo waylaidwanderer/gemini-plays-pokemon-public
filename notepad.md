@@ -2268,6 +2268,10 @@
   - Spots Asher immediately upon warping onto `(23, 12)` (*"The intruders are here! / The intruders are here!"*).
   - **Team (2 Pokémon)**: `Medicham♀ Lv50` (Fighting/Psychic; knows Acupressure) and `Gallade♂ Lv50` (Psychic/Fighting; knows Protect and False Swipe).
   - **Outcome**: Defeated in Turns 35821-35830 (`"Noooo"`; awards `₽5,200`).
+- **Siara Grunt 2 (`18, 17`)**:
+  - Pre-battle quote: *"Oh hello there, would you like some water? / Or maybe a whole prison cell?"*
+  - **Team (2 Pokémon)**: `Bidoof♂ Lv50` (Normal; OHKO'd by Sirius's `Mach Punch` for `535 EXP`) and `Flygon♂ Lv50` (Ground/Dragon; OHKO'd by Sirius's `Aura Sphere` for `2110 EXP`).
+  - **Outcome**: Defeated in Turns 35831-35834 (`"."`; awards `₽5,200`).
 
 <hr>
 
@@ -3626,7 +3630,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 241), Attack (C+, 228), Defense (A-, 220), Sp. Atk (C-, 212), Sp. Def (E, 144), Speed (C-, 150)
-- **Current Condition**: 236/241 HP, Healthy (`Dark Pulse 9/15`, `Return 16/20`, `Aura Sphere 14/20`, `Mach Punch 30/30`; cured Burn and restored to full HP with a Full Restore at Siara HQ `23, 12` in Turn 35827)
+- **Current Condition**: 236/241 HP, Healthy (`Dark Pulse 9/15`, `Return 16/20`, `Aura Sphere 13/20`, `Mach Punch 29/30`; cured Burn and restored to full HP with a Full Restore at Siara HQ `23, 12` in Turn 35827)
 - **EXP**: Lv84 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
