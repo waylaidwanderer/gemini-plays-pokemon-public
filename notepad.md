@@ -1263,7 +1263,7 @@
 - **Western Snow-Grass Corridor (`16, 24 -> 11, 24 -> 11, 32 -> 12, 34 -> 18, 35`, Turns 36351-36361)**:
   - Because the pine tree trunks at `(16-17, 28)` and `(20-21, 29)` and the cliff wall at `(24, 24-25)` block direct eastbound passage from `(18, 22)` to the `(25, 20-23)` staircase, walk west along `row 24` (`18, 24 -> 11, 24`, across the passable tree tops at `14-15, 24` and `12-13, 25`), south along `column 11` (`11, 24 -> 11, 32`), and east via `(12, 32 -> 12, 34 -> 14, 35 -> 18, 35)`.
 - **Observed Trainers & Staircases**:
-  - **Female Team Siara Grunt (`18, 34`, facing `Down`)**: Stands west of the southern northbound wooden staircase (`cols 19-21, rows 32-34`).
+  - **Female Team Siara Grunt (`18, 34`, facing `Down`)**: Stands west of the southern northbound wooden staircase (`cols 19-21, rows 32-34`). Pre-battle quote: *"We are the guard unit, we are not letting you pass!"*; uses **Eclipsed Bastiodon** (`♂, Lv50`, 2HKO'd by Sirius's `Dark Pulse` for `1852 EXP`) and **Eclipsed Rampardos** (`♂, Lv50`, OHKO'd by Sirius's `Dark Pulse` for `1852 EXP`, leveling Sirius to Lv86; defeated Turns 36362-36367).
   - **Female Team Siara Grunt (`24, 26`)**: Stands south of the eastern northbound wooden staircase (`25, 20-23`).
 
 <hr>
@@ -3737,11 +3737,11 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv85
+- **Level**: Lv86
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 244), Attack (C+, 231), Defense (A-, 223), Sp. Atk (C-, 214), Sp. Def (E, 146), Speed (C-, 152)
-- **Current Condition**: 244/244 HP, Healthy (`Dark Pulse 15/15`, `Return 20/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Jarro Town Pokémon Center in Turn 36337)
+- **Stats (IV Grades)**: HP (C, 247), Attack (C+, 231), Defense (A-, 223), Sp. Atk (C-, 214), Sp. Def (E, 146), Speed (C-, 152)
+- **Current Condition**: 197/247 HP, Healthy (`Dark Pulse 12/15`, `Return 20/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`)
 - **EXP**: Lv85 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
