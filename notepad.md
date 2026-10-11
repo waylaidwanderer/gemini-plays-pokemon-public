@@ -1437,7 +1437,7 @@
   - **Scolipede** (Lv34, ♂; Bug/Poison; knows Agility; caught at `36, 13` in Ultra Ball in Turn 34729 and nicknamed "Chitin", bringing Owned PokéDex species to 87).
 ## Route 14 River (`cols 27-31, rows 4-18`)
 - **Upstream Rock Barrier (`27, 6`, `28, 5`, `29, 4`)**: Launching the FastSwift boat from `(32, 7)` onto `(31, 7)` and surfing north to `(30, 5)` reveals a diagonal line of river rocks at `(27, 6)`, `(28, 5)`, and `(29, 4)` and curved shoreline at `(30, 4)` that completely block upstream passage beyond `row 5` (verified Turns 34611-34612).
-- **Downstream Passage Under the Wooden Bridge (`column 29`, `rows 5-28`)**: Surfing south along `column 29` passes directly underneath the overhead wooden river bridge (`rows 10-12`) into the downstream section, which terminates at a solid cliff wall along `row 29` (`cols 25-29`) with no southern landing (verified Turns 34612-34613 & 34640).
+- **Downstream Passage & Second Overhead Wooden Bridge (`column 27-29`, `rows 5-35+`)**: Surfing south along `column 29` passes underneath the northern wooden bridge (`rows 10-12`) to `(28, 26)`, where the river channel shifts slightly west to `columns 25-27` and passes underneath a **second overhead wooden bridge** at `rows 31-33` (verified Turn 34733).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
