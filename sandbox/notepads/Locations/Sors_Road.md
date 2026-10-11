@@ -163,3 +163,11 @@
     - **Pokémon 1**: Heracross (♂, Lv44; Bug/Fighting; knows Close Combat; OHKO'd by Sirius's `Meteor Mash` for `1885 EXP`, leveling Sirius to Lv78).
     - **Pokémon 2**: Scrafty (♂, Lv45; Dark/Fighting; Ability: Intimidate; knows Scary Face; 2HKO'd by Sirius's `Mach Punch` for `1648 EXP`).
   - **Outcome**: Defeated in Turns 35186-35194 (*"Oh wait.."*; awards `₽3,240`).
+- **Northern Ledge & Staircase to Exit Archway (`cols 17-31, rows 3-11`)**:
+  - From `(15, 8)`, walking `Right 2, Up 5, Right 7` reaches `(24, 3)` at the top of the northern wooden staircases (`cols 23-25, rows 4-5` and `rows 8-9`).
+- **Cooltrainer♂ Smith (`24, 7`, Rotating)**:
+  - **Pre-Battle Quote**: *"Nonono!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Houndoom (♀, Lv44; Dark/Fire; OHKO'd by Sirius's `Mach Punch` for `1923 EXP`).
+    - **Pokémon 2**: Aggron (♂, Lv45; Steel/Rock; OHKO'd by Sirius's `Mach Punch` for `1975 EXP`).
+  - **Outcome**: Defeated in Turns 35199-35204 (`"..."`; awards `₽2,700`).
