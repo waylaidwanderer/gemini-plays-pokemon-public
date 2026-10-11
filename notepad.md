@@ -2167,6 +2167,20 @@
 
 <hr>
 
+<h1><code>Locations/Siara_Cargo_Ship</code></h1>
+
+# Team Siara Cargo Ship
+
+## Overview & Story Context
+- Boarded from the **Divampa Cave Balcony** (`12, 8`) after Marie, Siara Admin Flo, and two Team Siara Grunts ambushed Asher at `(12, 12)` (Turns 35688-35691).
+- Currently sailing toward **Team Siara HQ**, where **Valora** is being held hostage.
+- **Frio** (disguised in a Team Siara Grunt uniform) unlocked Asher's cabin (`6, 4`), untied him, returned his **HuPhone**, and joined him to find the **Master Key** and recover Asher's **PokéDex and Poké Balls** from the adjacent locked room (Turns 35691-35695).
+
+## Cabin (`6, 4` Spawn, Exit Mat at `6, 6`)
+- Small ship cabin where Asher was tied up; red exit mat at `(6, 6)` exits to the Cargo Ship corridor.
+
+<hr>
+
 <h1><code>Locations/Siara_Lab</code></h1>
 
 # Abandoned Undersea Team Siara Laboratory (Location 3)
@@ -3267,6 +3281,11 @@
 ## Divampa Cave Balcony Ambush & Capture Aboard Team Siara's Cargo Ship (`12, 12` -> `6, 4`, Turns 35688-35691)
 - **The Balcony Ambush (`12, 12` on Divampa Cave Balcony)**: Emerging through the sunlit archway (`25, 9` in the Upper Basalt Chamber) onto the Divampa Cave balcony (`12, 20 -> 12, 12`), Asher confronted **Mom (Marie)** (`12, 10`) in front of the gangplank hatch (`12, 8`) of **Team Siara's Cargo Ship** docked against the ocean cliffside. When Asher demanded to see **Valora** before handing over the **Purple Gem**, Marie revealed Valora was aboard their Cargo Ship and signaled **Siara Admin Flo** (`12, 13`) and **two Team Siara Grunts** (`11, 12` and `13, 12`) to surround Asher 4-on-1.
 - **Captured as the Cargo Ship Sets Sail (`6, 4` Ship Cabin)**: Unable to fight all four at once, Asher was seized on Marie's orders (*"Take him inside, we are ready to set sail!"*), had his belongings taken, and was tied up with ropes inside a locked cabin (`6, 4`) aboard the departing **Team Siara Cargo Ship**.
+- **Frio's Infiltration & Rescue (`6, 4` Ship Cabin, Turns 35691-35695)**:
+  - A disguised Team Siara Grunt entered Asher's locked cabin (`6, 4`), called him *"peasant"*, and removed his mask to reveal **Frio**.
+  - Frio explained that after returning to the abandoned undersea laboratory at Location 3 and reading Marie's old diaries (*"My entire life has been a lie... Now it's my turn so I decided to infiltrate Siara..."*), he overheard Team Siara's plot to kidnap **Valora** and ambush Asher.
+  - Frio revealed that **Valora is safe and being held hostage at Team Siara HQ**, where the Cargo Ship is currently heading, and that Team Siara captured Asher to neutralize him as a threat.
+  - Untying Asher's ropes and returning his **HuPhone** (which has no signal aboard the ship), Frio explained that Asher's **PokéDex and Poké Balls** are kept in the next room, which is locked with a **Master Key**, and joined Asher in disguise to help him find the Master Key and sneak off the ship once it docks.
 
 <hr>
 
