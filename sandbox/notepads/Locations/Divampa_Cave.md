@@ -36,3 +36,9 @@
       - **Pokémon 1**: Blaziken (♂, Lv48; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere`).
       - **Pokémon 2**: Incineroar (♂, Lv49; Fire/Dark; OHKO'd by Sirius's `Aura Sphere` for `2194 EXP`).
     - **Outcome**: Defeat quote: *"Attack missed..."* (verified Turns 35572-35575).
+  - **Burglar Ronald (`18, 17`, Magma Chamber)**:
+    - **Pre-Battle Quote**: *"Be careful around these holes! / You can fall down..."*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Arcanine (♀, Lv48; Fire; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `2190 EXP`).
+      - **Pokémon 2**: Klinklang (Lv49; Steel; OHKO'd by Sirius's `Aura Sphere` for `2037 EXP`, leveling Sirius to Lv83).
+    - **Outcome**: Defeated in Turns 35578-35583.
