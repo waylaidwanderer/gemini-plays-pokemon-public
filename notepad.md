@@ -640,6 +640,12 @@
 - **HuPhone Call (`12, 11`)**: Stepping down the entrance stairs onto `(12, 11)` triggers a call from **Professor Ivo**, who warns Asher that **Divampa Cave** is known for its active volcanic activity and high temperatures (*"The temperature is said to be under the lethal value, but still if you feel weird, get out!"*), while Asher resolves to find the meeting point and save Valora.
 - **1F Floor Ladder (`10, 16`)**: Unexplored floor ladder located on the southwest side of the 1F Entrance Chamber (`observed Turn 35515`).
 - **1F Eastern Cave Doorway (`22, 16` -> `34, 19` Magma Chamber)**: Reached via the two side-facing wooden staircases (`16, 15` and `19, 16`); warps to `(34, 19)` in the Magma Chamber, where stepping onto `(35, 19)` triggers **Siara Admin Flo** at `(37, 19)`. Flo announces she is there to escort Asher to the meeting location on a cave balcony overlooking the ocean (*"The place is on a little cave balcony with a view to the ocean. Ms. Marie has a great taste in scenery... Let's get going..."*) and walks east past the Explorer at `(40, 20-21)` (verified Turns 35518-35521).
+- **Hiker Chip (`41, 12`, Magma Chamber)**:
+  - **Pre-Battle Quote**: *"Another brave Trainer down here!"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Lickilicky (♂, Lv48; Normal; OHKO'd by Sirius's `Aura Sphere` for `1851 EXP`).
+    - **Pokémon 2**: Golem (♂, Lv48; Rock/Ground; Ability: Sturdy; knows Earthquake; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1819 EXP`, leveling Sirius to Lv82).
+  - **Outcome**: Defeated in Turns 35525-35530.
 
 <hr>
 
