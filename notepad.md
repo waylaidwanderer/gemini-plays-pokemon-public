@@ -989,7 +989,7 @@
 
   - Western wing breakroom: table with coffee cup on red rug (cols 5-6, rows 7-8), refrigerator at (7, 5), sink at (5, 5), TV at (3, 5), bookshelf at (1, 5) (all decorative breakroom fixtures).
 
-- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Prior to the Upper Mt. Gerhana Eclite Crystal awakening, stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (verified Turn 31497). After speaking with Professor Ivo at (20, 6) in Turn 31498 following the Mt. Gerhana collapse, she leads Asher down (12, 7) into her **Basement Laboratory** (`16, 17` stairs up; **Eclicizer** machine at `11, 12-14`).
+- Stairs at north wall: Apparent descending wooden staircase. Accessed via red capsule mat at (12, 7) (tile 11, 7 is the side railing). Prior to the Upper Mt. Gerhana Eclite Crystal awakening, stepping onto (12, 7) triggers story barrier text: "I probably shouldn't head down here..." (verified Turn 31497). After speaking with Professor Ivo at (20, 6) in Turn 31498 following the Mt. Gerhana collapse, she leads Asher down (12, 7) into her **Basement Laboratory** (`16, 17` stairs up; **Eclicizer** machine at `11, 12-14`; verified empty of NPCs post-Siara HQ in Turn 36151).
 
 - **East Research Wing (Comprehensive Audit)**:
 
