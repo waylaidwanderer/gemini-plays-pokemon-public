@@ -652,7 +652,7 @@
   - **Lower Magma Level Southern Plateau (`13-14, 13` Stairs) & Cooltrainer Izzy (`13, 16`)**:
     - Reached by routing around the `(16-17, 11-12)` rock via `(18, 10 -> 15, 10 -> 15, 12 -> 13, 12)` and climbing the north-facing wooden staircase at `(13-14, 13)` (while an unexplored narrow cliff/passage sits at `17, 13+` east of the `16-17, 11-12` rock, observed Turn 35542).
     - **Cooltrainer Izzy (`13, 16` -> `13, 15`)**: Uses 2 Pokémon—`Araquanid♂ Lv49` (Water/Bug; OHKO'd by Sirius's `Return`) and `Dragalge♀ Lv49` (Poison/Dragon; OHKO'd by Sirius's `Return`); defeat quote: *"Darn..."* (verified Turns 35544-35550).
-    - **Western Ledge (`col 6`)**: Features an item ball at `(6, 17)` and a wooden wall ladder at `(6, 11-14)` (observed Turn 35543).
+    - **Western Ledge (`6, 17`, Turn 35552)**: Contains an item ball at `(6, 17)` yielding **Ultra Ball x1**, while the plateau continues south along `columns 11-13`.
 
 <hr>
 
@@ -3306,7 +3306,7 @@
 - **Key Items Pocket (Audited Turn 35245)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Berry Pouch** (verified empty in Turn 35245), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835), **Ec Card** (collected at Undersea Lab B4F West `11, 18` in Turn 34460; unlocks Floor `5F`/`B5F` on the lab elevator), and **Purple Gem** (entrusted by Professor Ivo in Lancio Town in Turn 35455 to rescue Valora at Divampa Cave).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 35501)**: Currently empty (`Poké Ball x0`, `Great Ball x0`, `Ultra Ball x0` [used final 13 catching Mantine 'Mobula' at Divampa Cave River `24, 19` in Turn 35501], `Nest Ball x0` [used 1 in Turn 35479], `Timer Ball x0` [used 1 in Turn 35493]). Total Owned species in PokéDex: **92** (completed Task 2 of Professor Elm's Research in Turn 34586; Task 3 requires 100 species, and Hugh's Quest #21 requires 150 species).
+- **Poké Balls Pocket (Audited Turn 35552)**: Contains **Ultra Ball x1** (collected at Divampa Cave Lower Magma Level `6, 17` in Turn 35552; used previous 13 Ultra Balls, 1 Nest Ball, and 1 Timer Ball catching Mantine 'Mobula' at Divampa Cave River `24, 19` in Turn 35501). Total Owned species in PokéDex: **92** (completed Task 2 of Professor Elm's Research in Turn 34586; Task 3 requires 100 species, and Hugh's Quest #21 requires 150 species).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*

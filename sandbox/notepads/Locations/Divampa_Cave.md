@@ -19,4 +19,4 @@
   - **Lower Magma Level Southern Plateau (`13-14, 13` Stairs) & Cooltrainer Izzy (`13, 16`)**:
     - Reached by routing around the `(16-17, 11-12)` rock via `(18, 10 -> 15, 10 -> 15, 12 -> 13, 12)` and climbing the north-facing wooden staircase at `(13-14, 13)` (while an unexplored narrow cliff/passage sits at `17, 13+` east of the `16-17, 11-12` rock, observed Turn 35542).
     - **Cooltrainer Izzy (`13, 16` -> `13, 15`)**: Uses 2 Pokémon—`Araquanid♂ Lv49` (Water/Bug; OHKO'd by Sirius's `Return`) and `Dragalge♀ Lv49` (Poison/Dragon; OHKO'd by Sirius's `Return`); defeat quote: *"Darn..."* (verified Turns 35544-35550).
-    - **Western Ledge (`col 6`)**: Features an item ball at `(6, 17)` and a wooden wall ladder at `(6, 11-14)` (observed Turn 35543).
+    - **Western Ledge (`6, 17`, Turn 35552)**: Contains an item ball at `(6, 17)` yielding **Ultra Ball x1**, while the plateau continues south along `columns 11-13`.
