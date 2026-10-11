@@ -420,3 +420,5 @@
   - Disembarking the Cargo Ship (`4, 10` -> `54, 7`) in a thunderstorm, Asher found **Frio** (`54, 9`) and **Colen Champion Micah** (`54, 11`), whose phone also had no signal.
   - When Micah mistook Frio for a *"Siara pebble"*, Frio ditched his grunt disguise and argued with Micah for nearly sinking the ship while Asher and the third orb were aboard.
   - Asher broke up their argument, reminding them that **Valora** is held captive inside Team Siara's base and that Team Siara now has all three orbs, and both **Frio** and **Micah** joined Asher (`54, 10`) to find a way into **Team Siara HQ**.
+- **Siara HQ Entrance Hall — Splitting Up to Rescue Valora & Recover the Three Gems (`10, 8`, Turn 35768)**:
+  - Riding the subterranean forest elevator (`39, 12`) down into **Team Siara HQ** (`10, 8`), **Colen Champion Micah** and **Frio** split up from Asher: Micah (remarking *"Are you the one who perhaps saved this planet once already?"*) takes Frio to locate where the three stolen orbs/gems are kept, while Frio directs Asher east toward the **prison cells** to rescue **Valora** and warns him to avoid being noticed.

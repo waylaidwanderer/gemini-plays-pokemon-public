@@ -2229,8 +2229,12 @@
   - Prompts *"This looks like a switch for this elevator... Should I use it? Yes/No"*.
   - Selecting *Yes* opens the purple hatch (`37, 12`) and rides the elevator down into **Siara HQ** (`10, 8`).
 
-## Siara HQ Entrance Hall (`10, 5` Elevator Doorway -> `10, 8`, Turn 35768)
-- Emerging from the elevator at `(10, 5 -> 10, 8)`, **Micah** (`9, 7`) and **Frio** (`10, 7`) join Asher to split up and search the base.
+## Siara HQ Entrance Hall (`10, 5` Elevator Doorway -> `10, 8`, Turns 35768-35769)
+- **Splitting Up (`10, 8`)**: Emerging from the elevator (`10, 5 -> 10, 8`), **Colen Champion Micah** (`9, 7`) and **Frio** (`10, 7`) split up with Asher: Micah and Frio head off to locate where the three stolen gems are kept, while Frio points Asher east (`Right`) toward the **prison cells** where **Valora** is being held hostage and warns him to avoid being noticed.
+- **Hall Layout (`cols 3-17, rows 5-11`)**:
+  - Elevator doorway at `(10, 5)` with a control panel at `(8, 5)` and purple wall sign at `(12, 5)`.
+  - Eastern doorway at `(16, 8)` with a control panel at `(14, 8)`.
+  - Glowing blue tile to the west at `(3, 10)` and dark teal tile at `(10, 9)`.
 
 <hr>
 
@@ -3353,6 +3357,8 @@
   - Disembarking the Cargo Ship (`4, 10` -> `54, 7`) in a thunderstorm, Asher found **Frio** (`54, 9`) and **Colen Champion Micah** (`54, 11`), whose phone also had no signal.
   - When Micah mistook Frio for a *"Siara pebble"*, Frio ditched his grunt disguise and argued with Micah for nearly sinking the ship while Asher and the third orb were aboard.
   - Asher broke up their argument, reminding them that **Valora** is held captive inside Team Siara's base and that Team Siara now has all three orbs, and both **Frio** and **Micah** joined Asher (`54, 10`) to find a way into **Team Siara HQ**.
+- **Siara HQ Entrance Hall — Splitting Up to Rescue Valora & Recover the Three Gems (`10, 8`, Turn 35768)**:
+  - Riding the subterranean forest elevator (`39, 12`) down into **Team Siara HQ** (`10, 8`), **Colen Champion Micah** and **Frio** split up from Asher: Micah (remarking *"Are you the one who perhaps saved this planet once already?"*) takes Frio to locate where the three stolen orbs/gems are kept, while Frio directs Asher east toward the **prison cells** to rescue **Valora** and warns him to avoid being noticed.
 
 <hr>
 
