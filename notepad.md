@@ -2225,6 +2225,14 @@
       - **Pokémon 2**: Crabominable (♀, Lv43; Fighting/Ice; OHKO'd by Sirius's `Mach Punch` for `1537 EXP`).
       - **Pokémon 3**: Crawdaunt (♀, Lv43; Water/Dark; OHKO'd by Sirius's `Mach Punch` for `1483 EXP`).
     - **Outcome**: Defeated in Turns 34992-34997 (*"Darn."*; awards `₽2,580`).
+- **Eastern Upper Ridge (`cols 19-28, rows 25-28`, reached via overhead bridge `16-18, 25-26`)**:
+  - **Cooltrainer♀ Nora (`25, 25`, Facing Down)**:
+    - **Pre-Battle Quote**: *"A trainer... / This means we fight!"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Banette (♂, Lv43; Ghost; OHKO'd by Sirius's `Meteor Mash` for `1648 EXP`, leveling Sirius to Lv75).
+      - **Pokémon 2**: Krookodile (♂, Lv44; Ground/Dark; OHKO'd by Sirius's `Mach Punch` for `1903 EXP`).
+    - **Outcome**: Defeated in Turns 34997-35002 (`"..."`).
+  - **Side-Facing Wooden Staircase (`28, 25-27`)**: Leads east onto the higher eastern ledge (`cols 29+`).
 
 <hr>
 
