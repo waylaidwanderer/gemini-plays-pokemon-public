@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 239), Attack (C+, 225), Defense (A-, 217), Sp. Atk (C-, 210), Sp. Def (E, 142), Speed (C-, 148)
-- **Current Condition**: 239/239 HP, Healthy (`Dark Pulse 14/15`, `Return 16/20`, `Aura Sphere 7/20`, `Mach Punch 25/30`; healed to full HP with a Hyper Potion at Divampa Cave `20, 12` in Turn 35682)
+- **Current Condition**: 239/239 HP, Healthy (`Dark Pulse 14/15`, `Return 16/20`, `Aura Sphere 7/20`, `Mach Punch 25/30`; healed to full HP with a Full Restore at Divampa Cave `12, 20` in Turn 35686)
 - **EXP**: Lv83 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)

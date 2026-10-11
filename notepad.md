@@ -2232,14 +2232,14 @@
 ## Siara HQ Entrance Hall (`10, 5` Elevator Doorway -> `10, 8`, Turns 35768-35769)
 - **Splitting Up (`10, 8`)**: Emerging from the elevator (`10, 5 -> 10, 8`), **Colen Champion Micah** (`9, 7`) and **Frio** (`10, 7`) split up with Asher: Micah and Frio head off to locate where the three stolen gems are kept, while Frio points Asher east (`Right`) toward the **prison cells** where **Valora** is being held hostage and warns him to avoid being noticed.
 - **Hall Layout (`cols 3-17, rows 5-11`)**:
-  - Elevator doorway at `(10, 5)` with a control panel at `(8, 5)` and purple wall sign at `(12, 5)`.
+  - Elevator doorway at `(10, 5)` with a control panel at `(8, 5)` and purple wall sign at `(12, 5)` (reads *"Exit"*, verified Turn 35769).
   - Eastern doorway at `(16, 8)` with a control panel at `(14, 8)`.
-  - Glowing blue tile to the west at `(3, 10)` and dark teal tile at `(10, 9)`.
+  - Glowing blue tile to the west at `(3, 10)` (approaching `(5, 10)` prior to rescuing Valora prints *"It's the way Micah and Frio went! I gott find Valora first! / Frio said the prison cells are the other way around!"*, verified Turn 35788) and dark teal tile at `(10, 9)`.
 ## Teleporter Chambers (`16, 8` Doorway -> `7, 3`, Turns 35769-35773)
 - **Chamber 1 (`cols 5-12, rows 3-6`)**: Entered at `(7, 3)` (`7, 2` doorway <-> Entrance Hall `16, 8`). Stepping onto the blue teleporter pad at `(11, 5)` warps to `(16, 5)` in Chamber 2.
 - **Chamber 2 — Prison Cells Hub (`cols 15-23, rows 4-6`)**:
   - Wall sign at `(23, 3)` reads *"Prison Cells"*.
-  - Left blue teleporter pad at `(16, 5)` (`<-> 11, 5`), bottom purple exit mat at `(19, 6)` (`<-> Side Room 35, 7`, which holds **Full Restore x1** at `38, 3`, collected Turn 35774), and right blue teleporter pad at `(22, 5)`.
+  - Left blue teleporter pad at `(16, 5)` (`<-> 11, 5`), bottom purple exit mat at `(19, 6)` (`<-> Lounge 35, 7`, which holds **Full Restore x1** at `38, 3` [collected Turn 35774] and where the two **Team Siara Grunts** [`34, 6` and `35, 5`] and **Valora's Poké Balls** on the table [`36, 5`] appear after Asher visits Valora's cell, verified Turns 35789-35790), and right blue teleporter pad at `(22, 5)`.
 ## Prison Cells Sector (`19, 21` Teleporter <-> Chamber 2 `22, 5`, Turns 35776-35786)
 - **Two Grunts Cutscene (`20, 23`, Turn 35777)**: Stepping to `(20, 23)` triggers a scene where two **Team Siara Grunts** at the security desk (`18, 28-29`) discuss locking **Valora** up and selling her Pokémon before heading to the **lounge** via the `(19, 21)` teleporter to rest.
 - **Cell Layout**:
@@ -3606,7 +3606,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 239), Attack (C+, 225), Defense (A-, 217), Sp. Atk (C-, 210), Sp. Def (E, 142), Speed (C-, 148)
-- **Current Condition**: 239/239 HP, Healthy (`Dark Pulse 14/15`, `Return 16/20`, `Aura Sphere 7/20`, `Mach Punch 25/30`; healed to full HP with a Hyper Potion at Divampa Cave `20, 12` in Turn 35682)
+- **Current Condition**: 239/239 HP, Healthy (`Dark Pulse 14/15`, `Return 16/20`, `Aura Sphere 7/20`, `Mach Punch 25/30`; healed to full HP with a Full Restore at Divampa Cave `12, 20` in Turn 35686)
 - **EXP**: Lv83 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
