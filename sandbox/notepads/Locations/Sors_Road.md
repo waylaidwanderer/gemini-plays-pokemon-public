@@ -52,7 +52,8 @@
   - **Gold Item Ball (`37, 6`)**: Located on the western side of the platform above the 1x2 rock cone at `(37, 7)` (separated from the eastern bridge platform by an elevation seam at `38, 9-10`, verified Turn 35017; reached from the lower northern path at `14-16, 18`).
   - **Northern Exit Archway (`44, 5` <-> Sors Road Exterior `15, 18`)**: Bright white doorway at the center of the northern wall; stepping `Up` into `(44, 5)` warps outside to `(15, 18)` on **Sors Road Exterior** (verified Turn 35018).
 ## Sors Road Exterior — Snowy Mountain Pass (`cols 8-25+, rows 10-25+`)
-- **Southern Cave Entrance (`15, 17` -> `15, 18` <-> Sors Road 1F `44, 5`)**: Exits from the northern platform of Sors Road 1F onto a snowy mountain pass with tall grass at `cols 13-19, rows 20-22` and a northbound wooden staircase at `cols 19-21, rows 18-19` (observed Turn 35019).
+- **Southern Cave Entrance (`15, 17` -> `15, 18` <-> Sors Road 1F `44, 5`)**: Exits from the northern platform of Sors Road 1F onto a snowy mountain pass with tall grass at `cols 12-20, rows 21-22`, an Explorer/Hiker trainer at `(19, 22)` facing `Up`, a northbound wooden staircase at `cols 20-22, rows 18-19`, and a second Explorer/Hiker trainer at `(20, 15)` on the upper terrace (verified via `latest_grid.png` Turn 35019).
 - **Wild Grass Encounters**:
   - **Krokorok** (♀, Lv35; Ground/Dark; knows Swagger; caught at `16, 21` in Ultra Ball in Turn 35026 and nicknamed "Sobek", bringing Owned PokéDex species to 88).
   - **Houndoom** (♀, Lv36; Dark/Fire; knows Feint Attack and Fire Fang; caught at `15, 21` in Ultra Ball in Turn 35036 and nicknamed "Hecate", bringing Owned PokéDex species to 89).
+  - **Druddigon** (♂, Lv30; Dragon; encountered at `15, 21` in Turn 35039).
