@@ -28,3 +28,4 @@
         - **Pokémon 2**: Flygon (♀, Lv49; Ground/Dragon; knows Dragon Rush; defeated by Sirius's `Return` + `Mach Punch`).
         - **Pokémon 3**: Skuntank (♂, Lv49; Poison/Dark; OHKO'd by Sirius's non-contact `Aura Sphere`).
       - **Outcome**: Defeated in Turns 35558-35564.
+    - **Wooden Wall Ladder (`26, 17` -> Magma Chamber `30, 25`, Turn 35567)**: Climbing the wooden wall ladder at `(26, 17)` warps back up to the Magma Chamber at `(30, 25)` (while another wooden wall ladder sits further southeast on the Lower Magma Level at `32, 22`).
