@@ -89,6 +89,11 @@
       - **Pokémon 4**: Magnezone (Lv42; Electric/Steel; knows Iron Defense, Thunderbolt, and Energy Ball; defeated by Sirius for `1899 EXP`).
       - **Pokémon 5**: Feraligatr (♂, Lv42; Water; Held Item: Life Orb; knows Liquidation; defeated by Sirius for `1890 EXP`).
     - **Outcome**: Defeated in Turns 34839-34873 (*"H-how?! / I lost twice in a row?!"*; awards `₽4,704`).
+  - **Cooltrainer♀ Gina (`38, 30` -> `38, 31`, Rotating `Down`/`Right`)**:
+    - **Pre-Battle Quote**: *"Nono! / I'm the one going to the top!"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Golem (♂, Lv41; Rock/Ground; knows Stealth Rock; defeated by Sirius for `1554 EXP`).
+      - **Pokémon 2**: Conkeldurr (♂, Lv42; Fighting; knows Bulk Up and Scary Face).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
