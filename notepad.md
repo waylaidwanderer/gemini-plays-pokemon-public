@@ -2287,8 +2287,8 @@
   - **Team (3 Pokémon)**:
     - **Pokémon 1**: Electabuzz (♂, Lv43; Electric; OHKO'd by Sirius's `Bulldoze` for `1437 EXP`).
     - **Pokémon 2**: Eelektross (♀, Lv43; Electric; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1768 EXP`).
-    - **Pokémon 3**: Klefki (♂, Lv44; Steel/Fairy; Ability: Prankster; knows SmokeScreen; OHKO'd by Sirius's `Aura Sphere`).
-  - **Outcome**: Defeated in Turns 35089-35095.
+    - **Pokémon 3**: Klefki (♂, Lv44; Steel/Fairy; Ability: Prankster; knows SmokeScreen; OHKO'd by Sirius's `Aura Sphere` for `1555 EXP`).
+  - **Outcome**: Defeated in Turns 35089-35096 (*"Ah, now it makes sense."*; awards `₽2,640`).
 
 <hr>
 
