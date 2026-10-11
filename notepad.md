@@ -2276,6 +2276,8 @@
   - Pre-battle quote: *"I'm gonna stop you and get a big promotion!"*
   - **Team (2 Pokémon)**: `Octillery♀ Lv50` (Water; knows Ice Beam) and `Palossand♂ Lv50` (Ghost/Ground; OHKO'd by Sirius's `Dark Pulse` for `1800 EXP`).
   - **Outcome**: Defeated in Turns 35838-35843 (`"Nooo!"`).
+- **Teleporter Pad (`4, 20` -> Security Switch Room `39, 5`, Turn 35844)**:
+  - Stepping onto the glowing blue teleporter pad at `(4, 20)` (south of the `6-8, 16` electric barrier) warps to `(39, 5)` in a small room (`cols 37-41, rows 4-8`) containing a control pillar at `(37, 5)`, a purple console at `(41, 5)`, and a Team Siara Grunt at `(39, 7)` flanked by two blue teleporter pads at `(38, 7)` and `(40, 7)`.
 
 <hr>
 
