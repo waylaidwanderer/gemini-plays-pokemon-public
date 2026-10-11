@@ -53,3 +53,5 @@
   - **Northern Exit Archway (`44, 5` <-> Sors Road Exterior `15, 18`)**: Bright white doorway at the center of the northern wall; stepping `Up` into `(44, 5)` warps outside to `(15, 18)` on **Sors Road Exterior** (verified Turn 35018).
 ## Sors Road Exterior — Snowy Mountain Pass (`cols 8-25+, rows 10-25+`)
 - **Southern Cave Entrance (`15, 17` -> `15, 18` <-> Sors Road 1F `44, 5`)**: Exits from the northern platform of Sors Road 1F onto a snowy mountain pass with tall grass at `cols 13-19, rows 20-22` and a northbound wooden staircase at `cols 19-21, rows 18-19` (observed Turn 35019).
+- **Wild Grass Encounters**:
+  - **Krokorok** (♀, Lv35; Ground/Dark; knows Swagger; caught at `16, 21` in Ultra Ball in Turn 35026 and nicknamed "Sobek", bringing Owned PokéDex species to 88).
