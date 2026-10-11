@@ -431,3 +431,8 @@
   - In the Machine Room (`13, 9`), **Asher** and **Valora** regrouped with **Frio** and **Colen Champion Micah** before **Mom (Marie)**, **Siara Admin Flo**, and **Siara Admin Harry**.
   - Flo completed the machine's process, draining the energy of the three stolen gems to create a strange purple **Poké Ball** (`13, 5`), and announced: *"It's complete... And now that the gems have their energy used up... It will reawake."*
   - Marie and Flo warped away via a hidden teleporter pad (`16, 7`) with the strange Poké Ball while **Siara Admin Harry** stayed behind (`"I'm sorry, Asher... But business is business..."`) to battle Asher (`Honchkrow Lv49`, `Shiftry Lv50`, `Zoroark Lv50`, `Lapras Lv49`, and **Eclipsed Vikavolt Lv51**), whom Asher swept `5-0`.
+  - **Recovering the Three Drained Gems & The Distant Tremor (`13, 6` -> `10, 9`, Turns 35881-35885)**:
+    - Following Harry's departure (`16, 7`), Frio realized what the machine was doing and told Asher to shut it off.
+    - Interacting with the central console (`13, 5`) dispensed the drained **Green Gem**, **Yellow Gem**, and **Purple Gem** into Asher's Key Items Pocket.
+    - Frio connected the three gems to the **Hupestian Ruins** prophecy (*"The angel lashed her anger out... three shining stars..."*), warning that draining the gems had awakened the ancient entity for Marie's strange Poké Ball and that the three gems must be returned to their original shrines.
+    - When a distant tremor shook the facility, **Colen Champion Micah** teleported outside to call his team and locate the tremor's source, and Asher, Valora, and Frio warped to the **Siara HQ Entrance Hall** (`10, 9`) to follow him outside (`10, 5`).

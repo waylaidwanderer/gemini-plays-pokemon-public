@@ -78,3 +78,8 @@
       - **Pokémon 3**: Zoroark (♂, Lv50; Dark; OHKO'd by Sirius's `Mach Punch` for `1917 EXP`).
       - **Pokémon 4**: Lapras (♀, Lv49; Water/Ice; OHKO'd by Sirius's `Aura Sphere` for `2299 EXP`).
       - **Pokémon 5**: Eclipsed Vikavolt (♂, Lv51; resists Fighting; Held Item: Leftovers; defeated by Sirius's `Dark Pulse` + `Return` for `2130 EXP`).
+  - **Shutting Down the Machine & Recovering the Three Gems (`13, 6`, Turns 35881-35885)**:
+    - After Siara Admin Harry warped away via `(16, 7)` (*"I'm sorry... I still succeeded... I hope I've bought enough time..."*; awards `₽6,120`) and the southern security gate (`cols 11-15, rows 11-13`) closed behind the group, **Frio** examined the machine (`11, 8`) and urged Asher to turn it off.
+    - Interacting with the central machine console (`13, 5` from `13, 6`) shut down the cylinders and dispensed all three drained gems—the **Green Gem**, **Yellow Gem**, and **Purple Gem**—into Asher's Key Items Pocket.
+    - Connecting the three gems to the **Ancient Hupestian Ruins** prophecy (*"The angel lashed her anger out... three shining stars..."*), Frio warned that draining the gems has awakened the ancient entity and that the three gems must be returned to where they were taken from.
+    - Immediately afterward, a distant tremor shook the base; **Colen Champion Micah** sensed it did not come from nearby, teleported outside to call his support team to pinpoint its origin, and Asher, Valora, and Frio warped back to `(10, 9)` in the **Siara HQ Entrance Hall** to exit the base via `(10, 5)`.
