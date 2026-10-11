@@ -38,3 +38,12 @@
     - **Pokémon 4**: Porygon-Z (Lv46; Normal; Ability: Download; OHKO'd by Sirius's `Aura Sphere` for `1822 EXP`).
     - **Pokémon 5**: Leafeon (♀, Lv46; Grass; OHKO'd by Sirius's `Aura Sphere` for `1813 EXP`).
   - **Outcome**: Swept `5-0` in Turns 35404-35415 (*"Again?! / Agh... I guess history really does repeat itself.."*; awards `₽4,700`), advancing Asher to the **Semifinals (Top 4)**.
+- **Semifinals (Top 4) — Ec. Finalist Valora (Turns 35418-35424)**:
+  - **Pre-Battle Dialogue**: *"Asher: ... So it has really come to this... / Valora: Mhm... but, hey! I was hoping we will be fighting together in the Finals! / Asher: Hehe, likewise, it sounds like a lot of fun! / Valora: Mhm, so don't go easy on me! Let's go!"*
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Clefable (♀, Lv47; Fairy; OHKO'd by Sirius's `Return` for `1299 EXP`, leveling Sirius to Lv81).
+    - **Pokémon 2**: Gardevoir (♀, Lv47; Psychic/Fairy; OHKO'd by Sirius's `Return` for `2094 EXP`).
+    - **Pokémon 3**: Ampharos (♂, Lv47; Electric; OHKO'd by Sirius's `Aura Sphere` for `1953 EXP`).
+    - **Pokémon 4**: Primarina (♂, Lv48; Water/Fairy; OHKO'd by Sirius's `Return` for `2139 EXP`).
+    - **Pokémon 5**: Roserade (♀, Lv47; Grass/Poison; OHKO'd by Sirius's `Return` for `2053 EXP`).
+  - **Outcome**: Swept `5-0` in Turns 35418-35424 (*"Oh my... / Thank you, Asher"*; awards `₽4,800`), advancing Asher to the **Grand Finals**.
