@@ -134,3 +134,7 @@
   - **Outcome**: Defeated in Turns 35149-35152 (*"Get out of my way"*; awards `₽540`).
 - **Eastern Shore & Northern Under-Bridge Corridor (`cols 28-31, rows 19-36`)**:
   - Dismounting onto `(28, 30)` and walking north along `column 29` (`29, 30 -> 29, 20`) passes underneath the overhead wooden bridge (`rows 22-24`) to a gold item ball at `(29, 19)` containing **TM23** (collected in Turn 35157).
+  - Uncollected item sprites observed on upper ledges: a gold item ball at `(17, 25)` above the downward-facing one-way ledges (`16-18, 26` and `19-21, 27`, observed Turn 35154), a purple spray bottle at `(22, 21)`, and an item sprite at `(34, 21)` north of the overhead wooden bridge (observed Turn 35157).
+- **Southeastern Double Staircases & Eastern Ridge (`cols 28-37, rows 20-36`)**:
+  - Surfing from `(29, 30)` onto `(29, 31)` via `(26, 31 -> 26, 36)` and dismounting onto `(28, 36)` leads to `(30, 35)`, where pressing `Right 6` climbs both 3-tile side-facing wooden staircases (`32, 34-36` and `35, 33-35`) onto the eastern ridge at `(36, 33)` (verified Turns 35158-35159).
+  - **Female Cooltrainer (`37, 31`, Facing Left)**: Pre-battle quote: *"The one who reaches the top is me!"* (encountered at `36, 31` in Turn 35159).
