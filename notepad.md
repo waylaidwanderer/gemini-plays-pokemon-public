@@ -646,6 +646,7 @@
     - **Pokémon 1**: Lickilicky (♂, Lv48; Normal; OHKO'd by Sirius's `Aura Sphere` for `1851 EXP`).
     - **Pokémon 2**: Golem (♂, Lv48; Rock/Ground; Ability: Sturdy; knows Earthquake; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1819 EXP`, leveling Sirius to Lv82).
   - **Outcome**: Defeated in Turns 35525-35530.
+- **Magma Chamber Pit (`26-30, 9-10` -> Lower Magma Level `29, 8`)**: Located west of `(31, 10)` (bypassed on the south via `row 11` toward the Scientist at `25, 10`). Stepping into `(30, 10)` drops Asher down to `(29, 8)` on the lower magma level directly in front of a Hiker/Explorer at `(30, 8)` (*"What the? Where did you come from?"*, verified Turn 35532).
 
 <hr>
 
