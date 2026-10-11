@@ -1528,7 +1528,12 @@
     - **Upper Terrace Overview (`cols 92-98, rows 15-19`)**: At the top of the `(96-98, 20-21)` staircase stands an Explorer/Ranger NPC at `(96, 18-19)` in front of a mountain cabin at `(92-94, 15-16)` (observed Turn 34927).
     - **Pre-Battle Dialogue**: *"Heeeey! / It's you again! / I'm still kind of salty I lost back there you know... / My friends are both in the Finals, so they will most likely face you. / I'm kind of curious who they will be fighting against... / Can I see it for myself?"*
     - **Team (5 Pokémon)**:
-      - **Pokémon 1**: Staraptor (♂, Lv42; Normal/Flying; Ability: Intimidate; knows Brave Bird and ExtremeSpeed).
+      - **Pokémon 1**: Staraptor (♂/♀, Lv42; Normal/Flying; Ability: Intimidate / Reckless; knows Brave Bird and ExtremeSpeed; OHKO'd by Sirius's `Aura Sphere` for `1548 EXP`).
+      - **Pokémon 2**: Snorlax (♂, Lv43; Normal; OHKO'd by Sirius's `Aura Sphere` for `1419 EXP`).
+      - **Pokémon 3**: Hitmontop (♂, Lv42; Fighting; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `1242 EXP`).
+      - **Pokémon 4**: Empoleon (♂, Lv43; Water/Steel; OHKO'd by Sirius's `Aura Sphere` for `1935 EXP`).
+      - **Pokémon 5**: Roserade (♂, Lv42; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` [+1 Attack] for `1836 EXP`).
+    - **Outcome**: Defeated in Turns 34961-34968 (*"THUD"*).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
