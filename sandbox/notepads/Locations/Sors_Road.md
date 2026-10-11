@@ -132,3 +132,5 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Primarina (♂, Lv45; Water/Fairy; OHKO'd by Sirius's `Meteor Mash` for `2005 EXP`).
   - **Outcome**: Defeated in Turns 35149-35152 (*"Get out of my way"*; awards `₽540`).
+- **Eastern Shore & Northern Under-Bridge Corridor (`cols 28-31, rows 19-36`)**:
+  - Dismounting onto `(28, 30)` and walking north along `column 29` (`29, 30 -> 29, 20`) passes underneath the overhead wooden bridge (`rows 22-24`) to a gold item ball at `(29, 19)` containing **TM23** (collected in Turn 35157).
