@@ -2272,6 +2272,10 @@
   - Pre-battle quote: *"Oh hello there, would you like some water? / Or maybe a whole prison cell?"*
   - **Team (2 Pokémon)**: `Bidoof♂ Lv50` (Normal; OHKO'd by Sirius's `Mach Punch` for `535 EXP`) and `Flygon♂ Lv50` (Ground/Dragon; OHKO'd by Sirius's `Aura Sphere` for `2110 EXP`).
   - **Outcome**: Defeated in Turns 35831-35834 (`"."`; awards `₽5,200`).
+- **Siara Grunt 3 (`13, 19`)**:
+  - Pre-battle quote: *"I'm gonna stop you and get a big promotion!"*
+  - **Team (2 Pokémon)**: `Octillery♀ Lv50` (Water; knows Ice Beam) and `Palossand♂ Lv50` (Ghost/Ground; OHKO'd by Sirius's `Dark Pulse` for `1800 EXP`).
+  - **Outcome**: Defeated in Turns 35838-35843 (`"Nooo!"`).
 
 <hr>
 
