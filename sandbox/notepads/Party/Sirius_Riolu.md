@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 244), Attack (C+, 231), Defense (A-, 223), Sp. Atk (C-, 214), Sp. Def (E, 146), Speed (C-, 152)
-- **Current Condition**: 224/244 HP, Healthy (`Dark Pulse 7/15`, `Return 14/20`, `Aura Sphere 11/20`, `Mach Punch 28/30`)
+- **Current Condition**: 244/244 HP, Healthy (`Dark Pulse 15/15`, `Return 20/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Jarro Town Pokémon Center in Turn 36337)
 - **EXP**: Lv85 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
