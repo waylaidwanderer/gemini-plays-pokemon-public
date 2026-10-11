@@ -1918,9 +1918,10 @@
 - **Breached Security Door (`7-9, 10-11`)**: Smashed open down the center (`col 8`); purple wall plaque at `(6, 10-11)` is blank.
 - **B5F Inner Chamber (`cols 5-11, rows 3-8`)**:
   - **Third Gem Pedestal (`8, 3`)**: Stone formation holding the third gem.
-  - **Confrontation with PKMN Trainer `???` (`8, 6` -> `8, 5`, Turns 34477-34490)**:
-    - Mistaking Asher and Jackson for Team Siara members after seeing them at Aur Factory, `???` (`Staraptor♀ Lv40`, `Aggron♂ Lv41`, `Samurott♂ Lv41`, `Sceptile♂ Lv42` holding Rocky Helmet) battled Asher at `(8, 7)` before learning that Asher, Jackson, Professor Ivo, and Valora are fighting against Team Siara.
-  - **Table (`10-11, 4`)**: Contains a blue console at `(10, 4)` and notes/diary at `(11, 4)`.
+  - **Confrontation with Colen Champion Micah (`8, 6` -> `8, 5`, Turns 34477-34494)**:
+    - Mistaking Asher and Jackson for Team Siara members after seeing them at Aur Factory, **Micah** (Champion of the Colen Region; uses `Staraptor♀ Lv40`, `Aggron♂ Lv41`, `Samurott♂ Lv41`, and `Sceptile♂ Lv42` holding Rocky Helmet) battled Asher at `(8, 7)` before learning that Asher, Jackson, Professor Ivo, and Valora are fighting against Team Siara.
+    - Micah retrieved the **Third Gem** from the stone pedestal (`8, 3`) and entrusted it to **Professor Ivo**, who hurried back to her laboratory in Lancio Town to secure it before Micah departed to his team's base.
+  - **Table (`10-11, 3`)**: Decorative blue console (`10, 3`) and notes (`11, 3`) (verified Turns 34495-34496).
 
 <hr>
 
@@ -2626,6 +2627,11 @@
 - **Marie's 2013 Diary on Frio, the Gem & Eclite (`30, 15` on B4F, Turns 34437-34438)**: In the B4F Community Room, Asher read a second diary entry written by **Marie** on **September 1st, 2013**: she adopted the little boy from two years earlier (whose parents in Mulberry Town were attacked by Eclipsed Pokémon), named him **Frio**, and discovered that a **gem** Frio always kept with him calmed violent Eclipsed Pokémon down and made them controllable. She also recorded that Eclipsing is tied to **Eclite**, whose extraterrestrial origin cannot be replicated with Earth elements, requiring Team Siara to gather large quantities of Eclite.
 - **Marie's 2014 Diary on Frio's Eclipser Bloodline (`31, 17` on B4F, Turns 34442-34443)**: Right beside the B4F console, Asher found a third diary entry written by **Marie** on **October 31st, 2014**: she discovered that **Frio** belongs to an **Eclipser** family—a bloodline able to channel their spirit through Eclite to Eclipse Pokémon without technology—and after creating a test subject that did not require life-sustaining equipment, she resolved to train Frio's Eclipser power in the undersea laboratory to unlock the full potential of Eclite.
 - **The Ec Card & Marie's 2015–2016 Evacuation Diary (`11, 18` & `13, 20` on B4F West, Turns 34460-34461)**: Inside the western room of B4F (unlocked with Code Green), Asher recovered the **Ec Card** from a broken table (`11, 18`) and read Marie's final diary entries (`13, 20`): on **June 6th, 2015**, she developed a quick, cheap method of Eclipsing Pokémon and crafted a special band for Frio's training; on **April 5th, 2016** (exactly five years after opening the lab), the Eclipsed Pokémon went berserk across the entire laboratory, forcing Marie and Team Siara to evacuate immediately and seal the facility away.
+- **B5F Inner Chamber — Colen Champion Micah & Securing the Third Gem (`8, 6` -> `8, 5`, Turns 34477-34494)**:
+  - Reaching the lowest floor (**B5F**) using the **Ec Card**, Asher found the mysterious boy (`???`) at the third gem pedestal (`8, 3`) before Team Siara arrived.
+  - Mistaking Asher and Dad (Jackson) for Team Siara members after seeing them at Aur Factory, the boy battled Asher (`Staraptor♀ Lv40`, `Aggron♂ Lv41`, `Samurott♂ Lv41`, `Sceptile♂ Lv42`).
+  - After Asher defeated him and cleared up the misunderstanding alongside Dad, Professor Ivo, and Valora, the boy introduced himself as **Micah, Champion of the Colen Region**, who came to Hupest with his support team to investigate Team Siara and learned about Eclipsing and the spheres from Cynthia.
+  - Micah retrieved the **Third Gem** from the pedestal (`8, 3`) and entrusted it to **Professor Ivo**, who immediately returned to her laboratory in Lancio Town to secure it, while Micah promised to help Asher's group take down Team Siara when the time comes.
 
 <hr>
 
