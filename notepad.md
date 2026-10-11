@@ -2413,6 +2413,13 @@
       - **Pokémon 2**: Donphan (♀, Lv45; Ground; Ability: Sturdy; knows Magnitude; 2HKO'd by Sirius's `Aura Sphere` for `1822 EXP`).
       - **Pokémon 3**: Rapidash (♀, Lv45; Fire; OHKO'd by Sirius's `Aura Sphere` for `1851 EXP`).
     - **Outcome**: Defeated in Turns 35286-35295 (awards `₽1,800`).
+  - **Hiker Dale (`21, 19`, Rotating)**:
+    - **Pre-Battle Quote**: *"Heeeey! / Can you hear me?!"*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Sudowoodo (♀, Lv44; Rock; OHKO'd by Sirius's `Aura Sphere` for `1272 EXP`).
+      - **Pokémon 2**: Rhydon (♀, Lv45; Ground/Rock; OHKO'd by Sirius's `Aura Sphere` for `1966 EXP`).
+      - **Pokémon 3**: Ninetales (♀, Lv45; Fire; OHKO'd by Sirius's `Aura Sphere` for `1716 EXP`).
+    - **Outcome**: Defeated in Turns 35298-35304 (`"."`; awards `₽1,800`).
 
 <hr>
 
@@ -3281,7 +3288,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 228), Attack (C+, 215), Defense (A-, 207), Sp. Atk (C-, 200), Sp. Def (E, 136), Speed (C-, 141)
-- **Current Condition**: 172/228 HP, Healthy (`Meteor Mash 0/10`, `Return 14/20`, `Aura Sphere 14/20`, `Mach Punch 1/30`; defeated Hiker Bernie at Sors Road Upper Exterior `32, 13` in Turns 35286-35295)
+- **Current Condition**: 172/228 HP, Healthy (`Meteor Mash 0/10`, `Return 14/20`, `Aura Sphere 11/20`, `Mach Punch 1/30`; swept Hiker Dale's 3-Pokémon team at Sors Road Upper Exterior `22, 19` in Turns 35298-35303)
 - **EXP**: Lv79 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

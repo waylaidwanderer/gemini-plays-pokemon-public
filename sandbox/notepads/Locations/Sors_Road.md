@@ -210,3 +210,10 @@
       - **Pokémon 2**: Donphan (♀, Lv45; Ground; Ability: Sturdy; knows Magnitude; 2HKO'd by Sirius's `Aura Sphere` for `1822 EXP`).
       - **Pokémon 3**: Rapidash (♀, Lv45; Fire; OHKO'd by Sirius's `Aura Sphere` for `1851 EXP`).
     - **Outcome**: Defeated in Turns 35286-35295 (awards `₽1,800`).
+  - **Hiker Dale (`21, 19`, Rotating)**:
+    - **Pre-Battle Quote**: *"Heeeey! / Can you hear me?!"*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Sudowoodo (♀, Lv44; Rock; OHKO'd by Sirius's `Aura Sphere` for `1272 EXP`).
+      - **Pokémon 2**: Rhydon (♀, Lv45; Ground/Rock; OHKO'd by Sirius's `Aura Sphere` for `1966 EXP`).
+      - **Pokémon 3**: Ninetales (♀, Lv45; Fire; OHKO'd by Sirius's `Aura Sphere` for `1716 EXP`).
+    - **Outcome**: Defeated in Turns 35298-35304 (`"."`; awards `₽1,800`).
