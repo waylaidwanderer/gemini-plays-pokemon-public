@@ -2400,6 +2400,7 @@
       - **Pokémon 1**: Accelgor (♂, Lv44; Bug; OHKO'd by Sirius's `Return` for `1630 EXP`).
       - **Pokémon 2**: Vikavolt (♂, Lv45; Bug/Electric; OHKO'd by Sirius's `Return` for `1879 EXP`, leveling Sirius to Lv79).
     - **Outcome**: Defeated in Turns 35255-35260.
+    - **Eastern Grass Routing & Max Ether (`59, 24`)**: Unlike cave rock cones, the 2x2 brown boulder at `(48-49, 22-23)` has solid collision on both rows; bypass Bug Catcher Lewis (`48, 21`) via `row 24` (`47, 21 -> 47, 24 -> 51, 24 -> 51, 21 -> 53, 21`). Following `row 24` east from `(53, 24)` to `(58, 24)` reaches a purple spray-bottle sprite at `(59, 24)` containing a **Max Ether** (collected in Turn 35262), while walking north along `column 53` (`53, 24 -> 53, 18 -> 56, 18 -> 56, 13`) climbs the northbound wooden staircase (`55-57, 15-16`) onto the upper terrace (`rows 9-14`, verified Turns 35261-35263).
 
 <hr>
 
