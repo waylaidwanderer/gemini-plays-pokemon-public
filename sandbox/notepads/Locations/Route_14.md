@@ -93,8 +93,9 @@
     - **Pre-Battle Quote**: *"Nono! / I'm the one going to the top!"*
     - **Team (3 Pokémon, +1 Hyper Potion)**:
       - **Pokémon 1**: Golem (♂, Lv41; Rock/Ground; knows Stealth Rock; defeated by Sirius for `1554 EXP`).
-      - **Pokémon 2**: Conkeldurr (♂, Lv42; Fighting; knows Bulk Up and Scary Face; defeated by Sirius).
-      - **Pokémon 3**: Mudsdale (♂, Lv42; Ground; Ability: Stamina; knows HiHorsepower).
+      - **Pokémon 2**: Conkeldurr (♂, Lv42; Fighting; knows Bulk Up and Scary Face; defeated by Sirius for `1701 EXP`).
+      - **Pokémon 3**: Mudsdale (♂, Lv42; Ground; Ability: Stamina; knows HiHorsepower, Counter, and Body Slam; defeated by Sirius for `1575 EXP`).
+    - **Outcome**: Defeated in Turns 34879-34896 (*"R-right"*; awards `₽2,520`). Stepping onto `(38, 32)` pulls Gina down from `(38, 30)` to `(38, 31)`, vacating `(38, 30)` so the player can pass through `(37, 30 -> 38, 30 -> 39, 30 -> 39, 28)` to the eastern side of the plateau.
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
