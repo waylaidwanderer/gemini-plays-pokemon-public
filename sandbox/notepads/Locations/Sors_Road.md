@@ -141,4 +141,4 @@
     - **Pre-Battle Quote**: *"The one who reaches the top is me!"*
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Sylveon (♂, Lv45; Fairy; OHKO'd by Sirius's `Meteor Mash` for `1773 EXP`).
-    - **Outcome**: Defeated in Turns 35159-35163.
+    - **Outcome**: Defeated in Turns 35159-35164 (*"Darn it!"*; awards `₽2,700`).
