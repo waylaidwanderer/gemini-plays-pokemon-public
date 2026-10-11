@@ -2518,6 +2518,7 @@
     - As **Dad (Jackson)** regained consciousness and wondered how Harry could betray him, **Professor Ivo** noted that *"Harry isn't someone who would betray a friend just like that... I'm sure he had his reasons to do what he ended up doing..."*. Checking the empty pedestal (`14, 15`), Ivo confirmed the energy readings vanished with the gem and called the authorities to send a boat to take them back to her laboratory in Lancio Town.
   - **Mysterious Trainer (`???`) Epilogue (`14, 15`, Turns 33421-33423)**:
     - Immediately after Asher's group departed Solare Island, a mysterious trainer (`???`, wearing a cap, red scarf, and green vest) stepped out from behind the autumn trees (`11, 14` -> `14, 15`) and reported over the phone to a female colleague that the ancient shrine's spherical pedestal was empty and that he had heard helicopters while crossing the forest. At her request, he photographed the shrine before heading back (*"Alright, all done, time to head back before she start to worry!"*).
+  - **Returning the Green Gem & The Echoing Voice (`14, 15`, Turns 36320-36321)**: Interacting with the empty pedestal at `(14, 14)` from `(14, 15)` places the **Green Gem** back into the socket (turning it glowing green) and triggers an **Echoing Voice**: *"Asher... asher... The box will show the path... The fight is drawing closer and closer... Find the box to lead your path... N...north..."*, directing Asher to look for the box on the **northern side of Solare Island** (the previously blocked Northwest Forest Archway at `5-6, 3-4`).
 
 <hr>
 
@@ -3470,6 +3471,9 @@
     - To return the **Green Gem**, **Yellow Gem**, and **Purple Gem** to their three distant shrines quickly enough, Micah gave Asher the **Soul Dew** (`Items Pocket`), explaining that Legendary Pokémon choose to join trainers who prove themselves worthy.
     - Focusing with the Soul Dew, Asher summoned the Legendary Pokémon **Latias** (`44, 15`) and defeated her (`Lv50`) in a trial of strength, earning her trust to ride on her back.
     - **Dividing the Three Shrines**: Micah and Frio took two of the gems to return them to their shrines (with Frio bringing Valora back to the mainland to call Dad and Professor Ivo), while Asher flew on **Latias** to **Solare Island** with the third gem before everyone regroups at the **Ancient Hupestian Ruins** in **Jarro Town**.
+  - **Returning the Green Gem to Solare Island & The Echoing Voice (`14, 15` in Solare Island Inner Shrine, Turns 36320-36321)**:
+    - Navigating across the northern sea route from **Galinor City Beach** (`13, 32 -> 12, 0` <-> Solare Island `41, 59`) to the **Solare Island Inner Shrine** (`14, 15`), Asher placed the **Green Gem** back into the shrine altar (`14, 14`).
+    - Immediately, an **Echoing Voice** called out to Asher: *"Asher... asher... The box will show the path... The fight is drawing closer and closer... Find the box to lead your path... N...north..."*, prompting Asher to search the **northern side of Solare Island** for the box.
 
 <hr>
 
