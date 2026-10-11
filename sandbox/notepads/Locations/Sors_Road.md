@@ -56,4 +56,4 @@
 - **Wild Grass Encounters**:
   - **Krokorok** (♀, Lv35; Ground/Dark; knows Swagger; caught at `16, 21` in Ultra Ball in Turn 35026 and nicknamed "Sobek", bringing Owned PokéDex species to 88).
   - **Houndoom** (♀, Lv36; Dark/Fire; knows Feint Attack and Fire Fang; caught at `15, 21` in Ultra Ball in Turn 35036 and nicknamed "Hecate", bringing Owned PokéDex species to 89).
-  - **Druddigon** (♂, Lv30; Dragon; encountered at `15, 21` in Turn 35039).
+  - **Druddigon** (♂, Lv30; Dragon; knows Dragon Claw, Dragon Rage, and Slash; caught at `15, 21` in Ultra Ball in Turn 35044 and nicknamed "Fafnir", bringing Owned PokéDex species to 90).
