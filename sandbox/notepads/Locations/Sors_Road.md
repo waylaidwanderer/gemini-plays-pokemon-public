@@ -64,5 +64,12 @@
     - **Pokémon 1**: Golem (♀, Lv42; Rock/Ground; Ability: Sturdy; knows Earthquake; 2HKO'd by Sirius's `Mach Punch` for `1593 EXP`).
     - **Pokémon 2**: Marowak (♂, Lv43; Ground; knows Endure; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1141 EXP`).
     - **Pokémon 3**: Shuckle (♀, Lv42; Bug/Rock; Ability: Sturdy; knows Acupressure; defeated by Sirius's `Meteor Mash` + `Mach Punch` for `720 EXP`).
-    - **Pokémon 4**: Crustle (♂, Lv43; Bug/Rock; Ability: Shell Armor; knows Shell Smash; OHKO'd by Sirius's +1 Attack `Mach Punch`, leveling Sirius to Lv76).
+    - **Pokémon 4**: Crustle (♂, Lv43; Bug/Rock; Ability: Shell Armor; knows Shell Smash; OHKO'd by Sirius's +1 Attack `Mach Punch`).
   - **Outcome**: Defeated in Turns 35059-35069.
+- **Hiker Lukas (`20, 15`, Facing Right)**:
+  - **Pre-Battle Quote**: *"Be careful on the cliffs, the storm makes everything dangerous!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Gastrodon (♂, Lv43; Water/Ground; OHKO'd by Sirius's `Aura Sphere` for `1528 EXP`).
+    - **Pokémon 2**: Machamp (♀, Lv43; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1777 EXP`, leveling Sirius to Lv76).
+    - **Pokémon 3**: Gigalith (♀, Lv43; Rock; OHKO'd by Sirius's `Aura Sphere` for `1630 EXP`).
+  - **Outcome**: Defeated in Turns 35073-35078.
