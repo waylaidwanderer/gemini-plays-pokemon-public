@@ -1518,10 +1518,13 @@
     - **Outcome**: Defeated in Turns 34904-34907 (*"Maybe I can."*; awards `₽2,580`).
   - **Upper Terrace Item (`49, 10`)**: Reached from `(54, 19)` via `(54, 14 -> 52, 14 -> 52, 12 -> 50, 12 -> 50, 11 -> 49, 11)` facing `Up`; contains a **Nest Ball** (collected in Turn 34909).
   - **Far-Eastern Road & Staircase (`cols 56-97+, rows 18-27`)**: From `(56, 18)`, the path descends through `(60, 19 -> 62, 19 -> 62, 23)` onto the eastern dirt road along `row 23` (`66, 23 -> 76, 23`), climbs the 3-tile side-facing wooden staircase at `(77, 22-24)` (approached along `row 23` at `76, 23 -> 77, 23 -> 78, 22`), and continues straight east along `row 24` (`78, 22 -> 81, 22 -> 81, 24 -> 97, 24 -> 97, 22`) through the passable top canopy rows of the trees at `cols 90-97` to the next northbound wooden staircase at `(96-98, 20-21)` (verified Turns 34910-34918).
-  - **Cooltrainer♂ (`92, 22` -> `92, 23`, Facing Down)**:
+  - **Cooltrainer♂ Malik (`92, 22` -> `92, 23`, Facing Down)**:
     - **Pre-Battle Quote**: *"Yo yo yooo! / You think you are almost there?"*
-    - **Team**:
+    - **Team (1 Pokémon)**:
       - **Pokémon 1**: Snorlax (♂, Lv43; Normal; knows Rollout; defeated by Sirius for `1419 EXP`, leveling Sirius to Lv74).
+    - **Outcome**: Defeated in Turns 34919-34924 (awards `₽2,580`).
+  - **PKMN Trainer Barry (`97, 23`, Triggered at `97, 21` on Staircase)**:
+    - **Pre-Battle Dialogue**: *"Heeeey! / It's you again! / I'm still kind of salty I lost back there you know... / My friends are both in the Finals, so they will most likely face you. / I'm kind of curious who they will be fighting against... / Can I see it for myself?"*
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
