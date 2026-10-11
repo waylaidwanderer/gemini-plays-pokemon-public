@@ -103,9 +103,9 @@
     - **Pokémon 2**: Hariyama (♂, Lv44; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1734 EXP`).
     - **Pokémon 3**: Bronzong (Lv43; Steel/Psychic; OHKO'd by Sirius's `Aura Sphere` for `1612 EXP`, leveling Sirius to Lv77).
   - **Outcome**: Defeated in Turns 35109-35115 (*"Well I guess you found me."*; awards `₽1,760`).
-- **Central Cliff Gap (`43, 21`) & Western Cave Approach (`cols 33-45, rows 17-25`)**:
-  - From the base of the eastern staircase (`55, 22`), walking west along `row 22` to `(44, 22)` and stepping `Up 1` to `(44, 21)` passes through the 1-tile cliff gap at `(43, 21)` onto `(40-42, 21)` above the 4-step southern staircase (`40-41, 22-25`).
-  - From `(40, 21)`, walking north to `(40, 19)` and west along `row 19` (`40, 19 -> 33, 19`) bypasses the stationary `Down`-facing Cooltrainer at `(36, 21)` and leads directly to the **Sors Road Upper Cave Entrance** at `(33, 17-18)` (verified Turns 35118-35120).
+- **Central Cliff Gap (`43, 21`), Southern Canyon Staircase (`40-41, 22-25`), & Western Cave Approach (`cols 33-45, rows 17-29`)**:
+  - From the base of the eastern staircase (`55, 22`), walking west along `row 22` to `(44, 22)` and stepping `Up 1` to `(44, 21)` passes through the 1-tile cliff gap at `(43, 21)` onto `(40-42, 21)` above the 4-step southern staircase (`40-41, 22-25`, which descends into an unexplored lower canyon corridor along `rows 27-28`, observed Turn 35120).
+  - From `(40, 21)`, walking north to `(40, 19)` and west along `row 19` (`40, 19 -> 33, 19`) leads to the **Sors Road Upper Cave Entrance** at `(33, 17-18)` (which warps to `29, 6` inside the **Sors Road Upper Cavern**, verified Turn 35129).
 - **Biker Alex (`36, 21` -> `36, 20`, Rotating)**:
   - **Pre-Battle Quote**: *"Wanna go back in? / Come on this weather is nothing!"*
   - **Team (3 Pokémon, +1 Hyper Potion)**:
@@ -113,3 +113,5 @@
     - **Pokémon 2**: Floatzel (♂, Lv44; Water; OHKO'd by Sirius's `Mach Punch` for `1630 EXP`).
     - **Pokémon 3**: Simipour (♂, Lv44; Water; 2HKO'd by Sirius's `Mach Punch` for `1639 EXP`).
   - **Outcome**: Defeated in Turns 35120-35128 (*"Now I see..."*; awards `₽880`).
+## Sors Road Upper Cavern (`29, 6` <-> Sors Road Exterior `33, 17`)
+- **Northern Entrance (`29, 5` -> `29, 6`)**: Connects back to Sors Road Exterior at `(33, 18)`. Features an Explorer/Hiker at `(26, 6)` facing `Down`.

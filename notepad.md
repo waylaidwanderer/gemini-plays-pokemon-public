@@ -2306,9 +2306,9 @@
     - **Pokémon 2**: Hariyama (♂, Lv44; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1734 EXP`).
     - **Pokémon 3**: Bronzong (Lv43; Steel/Psychic; OHKO'd by Sirius's `Aura Sphere` for `1612 EXP`, leveling Sirius to Lv77).
   - **Outcome**: Defeated in Turns 35109-35115 (*"Well I guess you found me."*; awards `₽1,760`).
-- **Central Cliff Gap (`43, 21`) & Western Cave Approach (`cols 33-45, rows 17-25`)**:
-  - From the base of the eastern staircase (`55, 22`), walking west along `row 22` to `(44, 22)` and stepping `Up 1` to `(44, 21)` passes through the 1-tile cliff gap at `(43, 21)` onto `(40-42, 21)` above the 4-step southern staircase (`40-41, 22-25`).
-  - From `(40, 21)`, walking north to `(40, 19)` and west along `row 19` (`40, 19 -> 33, 19`) bypasses the stationary `Down`-facing Cooltrainer at `(36, 21)` and leads directly to the **Sors Road Upper Cave Entrance** at `(33, 17-18)` (verified Turns 35118-35120).
+- **Central Cliff Gap (`43, 21`), Southern Canyon Staircase (`40-41, 22-25`), & Western Cave Approach (`cols 33-45, rows 17-29`)**:
+  - From the base of the eastern staircase (`55, 22`), walking west along `row 22` to `(44, 22)` and stepping `Up 1` to `(44, 21)` passes through the 1-tile cliff gap at `(43, 21)` onto `(40-42, 21)` above the 4-step southern staircase (`40-41, 22-25`, which descends into an unexplored lower canyon corridor along `rows 27-28`, observed Turn 35120).
+  - From `(40, 21)`, walking north to `(40, 19)` and west along `row 19` (`40, 19 -> 33, 19`) leads to the **Sors Road Upper Cave Entrance** at `(33, 17-18)` (which warps to `29, 6` inside the **Sors Road Upper Cavern**, verified Turn 35129).
 - **Biker Alex (`36, 21` -> `36, 20`, Rotating)**:
   - **Pre-Battle Quote**: *"Wanna go back in? / Come on this weather is nothing!"*
   - **Team (3 Pokémon, +1 Hyper Potion)**:
@@ -2316,6 +2316,8 @@
     - **Pokémon 2**: Floatzel (♂, Lv44; Water; OHKO'd by Sirius's `Mach Punch` for `1630 EXP`).
     - **Pokémon 3**: Simipour (♂, Lv44; Water; 2HKO'd by Sirius's `Mach Punch` for `1639 EXP`).
   - **Outcome**: Defeated in Turns 35120-35128 (*"Now I see..."*; awards `₽880`).
+## Sors Road Upper Cavern (`29, 6` <-> Sors Road Exterior `33, 17`)
+- **Northern Entrance (`29, 5` -> `29, 6`)**: Connects back to Sors Road Exterior at `(33, 18)`. Features an Explorer/Hiker at `(26, 6)` facing `Down`.
 
 <hr>
 
@@ -3055,7 +3057,7 @@
 - **Key Items Pocket (Audited Turn 34460)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835), and **Ec Card** (collected at Undersea Lab B4F West `11, 18` in Turn 34460; unlocks Floor `5F`/`B5F` on the lab elevator).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 35051)**: Contains **Poké Ball x0**, **Great Ball x0**, **Ultra Ball x13** (purchased 50 at Amor Dept. 2F `8, 5` for `₽60,000` in Turn 34672, leaving `₽36,966`; used 5 catching wild Lv32 Amoonguss "Morel" at Route 14 `38, 8` in Turns 34687-34691, 2 catching wild Lv33 Sharpedo "Mako" at Route 14 `29, 8` in Turns 34699, 4 catching wild Lv32 Unfezant "Plume" at Route 14 `37, 8` in Turns 34703-34704, 3 catching wild Lv33 Skarmory "Aegis" at Route 14 `36, 12` in Turns 34709-34711, 3 catching wild Lv30 Kangaskhan "Matron" at Route 14 `24, 18` in Turns 34719-34720, 3 catching wild Lv34 Scolipede "Chitin" at Route 14 `36, 13` in Turns 34728-34729, 4 catching wild Lv35 Krokorok "Sobek" at Sors Road Exterior `16, 21` in Turns 35022-35026, 7 catching wild Lv36 Houndoom "Hecate" at Sors Road Exterior `15, 21` in Turns 35030-35036, 4 catching wild Lv30 Druddigon "Fafnir" at Sors Road Exterior `15, 21` in Turns 35041-35044, and 2 catching wild Lv35 Claydol "Dogu" at Sors Road Exterior `16, 21` in Turns 35048-35050), **Nest Ball x1** (collected at Route 14 East `49, 10` in Turn 34909), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x0**. Total Owned species in PokéDex: **91** (completed Task 2 of Professor Elm's Research in Turn 34586; Task 3 requires 100 species, and Hugh's Quest #21 requires 150 species).
+- **Poké Balls Pocket (Audited Turn 35051)**: Contains **Poké Ball x0**, **Great Ball x0**, **Ultra Ball x13** (purchased 50 at Amor Dept. 2F `8, 5` for `₽60,000` in Turn 34672; used 37 catching 10 wild species across Route 14 and Sors Road Exterior in Turns 34687-35050), **Nest Ball x1** (collected at Route 14 East `49, 10` in Turn 34909), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x0**. Total Owned species in PokéDex: **91** (completed Task 2 of Professor Elm's Research in Turn 34586; Task 3 requires 100 species, and Hugh's Quest #21 requires 150 species).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
