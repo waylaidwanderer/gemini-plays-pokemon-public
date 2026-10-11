@@ -20,4 +20,4 @@
 - **Chamber 1 (`cols 5-12, rows 3-6`)**: Entered at `(7, 3)` (`7, 2` doorway <-> Entrance Hall `16, 8`). Stepping onto the blue teleporter pad at `(11, 5)` warps to `(16, 5)` in Chamber 2.
 - **Chamber 2 — Prison Cells Hub (`cols 15-23, rows 4-6`)**:
   - Wall sign at `(23, 3)` reads *"Prison Cells"*.
-  - Left blue teleporter pad at `(16, 5)` (`<-> 11, 5`), bottom purple exit mat at `(19, 6)`, and right blue teleporter pad at `(22, 5)`.
+  - Left blue teleporter pad at `(16, 5)` (`<-> 11, 5`), bottom purple exit mat at `(19, 6)` (`<-> Side Room 35, 7`, which holds **Full Restore x1** at `38, 3`, collected Turn 35774), and right blue teleporter pad at `(22, 5)`.
