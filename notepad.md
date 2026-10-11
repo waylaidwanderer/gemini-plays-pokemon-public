@@ -653,6 +653,7 @@
     - Reached by routing around the `(16-17, 11-12)` rock via `(18, 10 -> 15, 10 -> 15, 12 -> 13, 12)` and climbing the north-facing wooden staircase at `(13-14, 13)` (while an unexplored narrow cliff/passage sits at `17, 13+` east of the `16-17, 11-12` rock, observed Turn 35542).
     - **Cooltrainer Izzy (`13, 16` -> `13, 15`)**: Uses 2 Pokémon—`Araquanid♂ Lv49` (Water/Bug; OHKO'd by Sirius's `Return`) and `Dragalge♀ Lv49` (Poison/Dragon; OHKO'd by Sirius's `Return`); defeat quote: *"Darn..."* (verified Turns 35544-35550).
     - **Western Ledge (`6, 17`, Turn 35552)**: Contains an item ball at `(6, 17)` yielding **Ultra Ball x1**, while the plateau continues south along `columns 11-13`.
+    - **Blocked Southern Floor Ladder (`21, 35`, Turn 35556)**: Descending the south-facing staircase (`16-18, 24-25`) and following `column 16` south leads to `(16, 33)`, where a 2x2 boulder (`17-18, 33-34`) and three Mine Workers (`19, 34`, `20, 33`, `21, 32`) block access to a floor ladder at `(21, 35)`.
 
 <hr>
 
