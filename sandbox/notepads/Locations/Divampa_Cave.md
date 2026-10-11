@@ -42,3 +42,8 @@
       - **Pokémon 1**: Arcanine (♀, Lv48; Fire; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `2190 EXP`).
       - **Pokémon 2**: Klinklang (Lv49; Steel; OHKO'd by Sirius's `Aura Sphere` for `2037 EXP`, leveling Sirius to Lv83).
     - **Outcome**: Defeated in Turns 35578-35583.
+  - **Scientist Elliot (`25, 10`, Magma Chamber)**:
+    - **Pre-Battle Quote**: *"I'm researching the capabilities of lava as an energy resource..."*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Probopass (♂, Lv49; Rock/Steel; Ability: Sturdy; knows Lock-On; defeated by Sirius's `Mach Punch` x2 for `1932 EXP`).
+    - **Outcome**: Defeat quote: *"Man, I burned out.."*; awards `₽3,528` (verified Turns 35587-35591).
