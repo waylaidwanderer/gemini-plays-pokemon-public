@@ -43,6 +43,14 @@
     - **Pokémon 4**: Victreebel (♀, Lv41; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1677 EXP`).
   - **Outcome**: Defeated in Turns 34749-34757 (*"You definitely are!"*; awards `₽2,460`).
 - **Eastern Sunken Pit (`cols 35-38, rows 29-34`)**: Reached via `(32, 32 -> 32, 27 -> 37, 27 -> 37, 31)` down the 3-tile-wide northern pit stairs (`36-38, 29`). Contains a gold item ball at `(35, 32)` holding a **Protector** (collected from `35, 31` facing `Down` in Turn 34758).
+- **Central-Eastern Trail & Third Wooden River Bridge (`cols 35-54, rows 21-29`)**:
+  - From the northern pit stairs (`36, 28`), the path runs north along `column 36` (`36, 28 -> 36, 24`) and `column 35` (`35, 24 -> 35, 21`), east across the tall grass along `row 21` (`35, 21 -> 43, 21`), and south along `column 43` (`43, 21 -> 43, 26`) to the **Third Wooden River Bridge** (`cols 46-53, rows 25-27`, verified Turns 34760-34761; features a west-facing one-way return ledge at `41, 27-29`).
+- **PKMN Trainer Cheryl (`43, 25 -> 49, 26`, Triggered at `50, 26` on Third Wooden Bridge)**:
+  - **Pre-Battle Dialogue**: *"It seems like we meet again... / It's been a while since the second round... / I'm on my way to see the finals, but I'm also curious what it's like to fight against a finalist. / Would you show me?"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Drifblim (♀, Lv41; Ghost/Flying; OHKO'd by Sirius's `Meteor Mash` [+1 Attack] for `1528 EXP`).
+    - **Pokémon 2**: Blissey (♀, Lv42; Normal; knows Protect; OHKO'd by Sirius's `Mach Punch` for `2295 EXP`).
+    - **Pokémon 3**: Wailord (♂, Lv42; Water; OHKO'd by Sirius's `Aura Sphere` for `1809 EXP`, leveling Sirius to Lv72).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
