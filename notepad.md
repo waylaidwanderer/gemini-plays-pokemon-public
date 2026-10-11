@@ -1533,7 +1533,7 @@
       - **Pokémon 3**: Hitmontop (♂, Lv42; Fighting; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `1242 EXP`).
       - **Pokémon 4**: Empoleon (♂, Lv43; Water/Steel; OHKO'd by Sirius's `Aura Sphere` for `1935 EXP`).
       - **Pokémon 5**: Roserade (♂, Lv42; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` [+1 Attack] for `1836 EXP`).
-    - **Outcome**: Defeated in Turns 34961-34968 (*"THUD"*).
+    - **Outcome**: Defeated in Turns 34961-34969 (*"THUD / Ah... / Another humiliating loss... / Will I ever be like my Frontier Brain Dad"*; awards `₽4,816`). Post-battle, Barry remarks *"Dawn and Lucas have to be careful if they gonna fight you... / I don't envy them, but I hope they will manage!"* and heads north into the cave entrance at `(97, 16)`.
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
