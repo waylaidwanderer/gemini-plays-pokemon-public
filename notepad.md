@@ -662,6 +662,15 @@
     - **Pokémon 4**: Torterra (♀, Lv46; Grass/Ground; OHKO'd by Sirius's `Aura Sphere` for `2049 EXP`).
     - **Pokémon 5**: Honchkrow (Lv45; Dark/Flying; OHKO'd by Sirius's `Aura Sphere`).
   - **Outcome**: Defeated in Turns 35389-35400 (*"Ah man... / I wonder if Valora won though... / I guess she's the winner here... / Well, see you later, Asher"*; awards `₽4,600`), advancing Asher to the **Quarterfinals (Top 8)** against Sinnoh's **Lucas**.
+- **Quarterfinals (Top 8) — Ec. Finalist Lucas (Turns 35404-35415)**:
+  - **Pre-Battle Quote**: *"So we meet again, Asher... / You were pretty strong back on Route 2 already... however... / I have gotten much stronger by now! / Let me give you a taste of the power of a true Sinnohian Trainer!"*
+  - **Team (5 Pokémon, +1 Full Restore)**:
+    - **Pokémon 1**: Staraptor (♀, Lv46; Normal/Flying; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `1695 EXP`).
+    - **Pokémon 2**: Infernape (♂, Lv47; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `2104 EXP`).
+    - **Pokémon 3**: Gyarados (♀, Lv46; Water/Flying; Ability: Intimidate; Held Item: Leftovers; knows Dragon Dance; defeated by Sirius's `Dark Pulse` for `2109 EXP`).
+    - **Pokémon 4**: Porygon-Z (Lv46; Normal; Ability: Download; OHKO'd by Sirius's `Aura Sphere` for `1822 EXP`).
+    - **Pokémon 5**: Leafeon (♀, Lv46; Grass; OHKO'd by Sirius's `Aura Sphere` for `1813 EXP`; confirms Lv80 is the active level cap).
+  - **Outcome**: Swept `5-0` in Turns 35404-35415 (*"Again?! / Agh... I guess history really does repeat itself.."*; awards `₽4,700`), advancing Asher to the **Semifinals (Top 4)**.
 
 <hr>
 
