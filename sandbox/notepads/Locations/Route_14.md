@@ -59,7 +59,8 @@
   - **Team (3 Pokémon, +1 Hyper Potion)**:
     - **Pokémon 1**: Roserade (♀, Lv41; Grass/Poison; knows Sweet Scent; defeated by Sirius's `Bulldoze` for `1791 EXP`).
     - **Pokémon 2**: Donphan (♀, Lv41; Ground; Ability: Sturdy; knows Scary Face; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1660 EXP`).
-    - **Pokémon 3**: Ninetales (♀, Lv41; Fire; knows Confuse Ray).
+    - **Pokémon 3**: Ninetales (♀, Lv41; Fire; knows Confuse Ray; OHKO'd by Sirius's `Bulldoze` for `1563 EXP`).
+  - **Outcome**: Defeated in Turns 34778-34788 (*"Wow"*; awards `₽2,460`).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
