@@ -149,3 +149,8 @@
       - **Pokémon 2**: Camerupt (♀, Lv44; Fire/Ground; OHKO'd by Sirius's `Bulldoze` for `1650 EXP`).
       - **Pokémon 3**: Darmanitan (♂, Lv44; Fire; OHKO'd by Sirius's `Bulldoze` for `1584 EXP`).
     - **Outcome**: Defeated in Turns 35167-35176 (*"Wow"*; awards `₽880`).
+  - **Hiker Dusty (`15, 22` on Western Span of Overhead Wooden Bridge, Facing Down)**:
+    - **Pre-Battle Quote**: *"Ohoho, another adventurer?"*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Drampa (♀, Lv45; Normal/Dragon; OHKO'd by Sirius's `Mach Punch` for `1638 EXP`).
+    - **Outcome**: Defeated in Turns 35178-35180.
