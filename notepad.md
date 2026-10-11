@@ -2340,7 +2340,11 @@
   - Uncollected item sprites observed on upper ledges: a gold item ball at `(17, 25)` above the downward-facing one-way ledges (`16-18, 26` and `19-21, 27`, observed Turn 35154), a purple spray bottle at `(22, 21)`, and an item sprite at `(34, 21)` north of the overhead wooden bridge (observed Turn 35157).
 - **Southeastern Double Staircases & Eastern Ridge (`cols 28-37, rows 20-36`)**:
   - Surfing from `(29, 30)` onto `(29, 31)` via `(26, 31 -> 26, 36)` and dismounting onto `(28, 36)` leads to `(30, 35)`, where pressing `Right 6` climbs both 3-tile side-facing wooden staircases (`32, 34-36` and `35, 33-35`) onto the eastern ridge at `(36, 33)` (verified Turns 35158-35159).
-  - **Female Cooltrainer (`37, 31`, Facing Left)**: Pre-battle quote: *"The one who reaches the top is me!"* (encountered at `36, 31` in Turn 35159).
+  - **Cooltrainer♀ Beki (`37, 31`, Facing Left)**:
+    - **Pre-Battle Quote**: *"The one who reaches the top is me!"*
+    - **Team (1 Pokémon)**:
+      - **Pokémon 1**: Sylveon (♂, Lv45; Fairy; OHKO'd by Sirius's `Meteor Mash` for `1773 EXP`).
+    - **Outcome**: Defeated in Turns 35159-35163.
 
 <hr>
 
@@ -3209,7 +3213,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 222), Attack (C+, 209), Defense (A-, 202), Sp. Atk (C-, 195), Sp. Def (E, 132), Speed (C-, 137)
-- **Current Condition**: 167/222 HP, Healthy (`Meteor Mash 3/10`, `Bulldoze 13/20`, `Aura Sphere 0/20`, `Mach Punch 13/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 167/222 HP, Healthy (`Meteor Mash 2/10`, `Bulldoze 13/20`, `Aura Sphere 0/20`, `Mach Punch 13/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv77 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
