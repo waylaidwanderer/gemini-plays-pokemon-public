@@ -36,5 +36,5 @@
     - **Pokémon 2**: Infernape (♂, Lv47; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `2104 EXP`).
     - **Pokémon 3**: Gyarados (♀, Lv46; Water/Flying; Ability: Intimidate; Held Item: Leftovers; knows Dragon Dance; defeated by Sirius's `Dark Pulse` for `2109 EXP`).
     - **Pokémon 4**: Porygon-Z (Lv46; Normal; Ability: Download; OHKO'd by Sirius's `Aura Sphere` for `1822 EXP`).
-    - **Pokémon 5**: Leafeon (♀, Lv46; Grass; OHKO'd by Sirius's `Aura Sphere` for `1813 EXP`; confirms Lv80 is the active level cap).
+    - **Pokémon 5**: Leafeon (♀, Lv46; Grass; OHKO'd by Sirius's `Aura Sphere` for `1813 EXP`).
   - **Outcome**: Swept `5-0` in Turns 35404-35415 (*"Again?! / Agh... I guess history really does repeat itself.."*; awards `₽4,700`), advancing Asher to the **Semifinals (Top 4)**.

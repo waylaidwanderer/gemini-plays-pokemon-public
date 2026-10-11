@@ -669,7 +669,7 @@
     - **Pokémon 2**: Infernape (♂, Lv47; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `2104 EXP`).
     - **Pokémon 3**: Gyarados (♀, Lv46; Water/Flying; Ability: Intimidate; Held Item: Leftovers; knows Dragon Dance; defeated by Sirius's `Dark Pulse` for `2109 EXP`).
     - **Pokémon 4**: Porygon-Z (Lv46; Normal; Ability: Download; OHKO'd by Sirius's `Aura Sphere` for `1822 EXP`).
-    - **Pokémon 5**: Leafeon (♀, Lv46; Grass; OHKO'd by Sirius's `Aura Sphere` for `1813 EXP`; confirms Lv80 is the active level cap).
+    - **Pokémon 5**: Leafeon (♀, Lv46; Grass; OHKO'd by Sirius's `Aura Sphere` for `1813 EXP`).
   - **Outcome**: Swept `5-0` in Turns 35404-35415 (*"Again?! / Agh... I guess history really does repeat itself.."*; awards `₽4,700`), advancing Asher to the **Semifinals (Top 4)**.
 
 <hr>
@@ -3361,12 +3361,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv80
+- **Level**: Lv81
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 230), Attack (C+, 217), Defense (A-, 210), Sp. Atk (C-, 202), Sp. Def (E, 137), Speed (C-, 143)
-- **Current Condition**: 230/230 HP, Healthy (`Dark Pulse 13/15`, `Return 20/20`, `Aura Sphere 16/20`, `Mach Punch 30/30`; restored to 230/230 HP and cured of Burn with a Full Restore at `(8, 21)` before the Quarterfinal match against Lucas in Turn 35403)
-- **EXP**: Lv80 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 233), Attack (C+, 220), Defense (A-, 212), Sp. Atk (C-, 205), Sp. Def (E, 139), Speed (C-, 144)
+- **Current Condition**: 233/233 HP, Healthy (`Dark Pulse 15/15`, `Return 19/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`; leveled up to Lv81 defeating Valora's Lv47 Clefable in the Semifinals in Turn 35420)
+- **EXP**: Lv81 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
   - Slot 2: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; taught via infinite-use TM27 replacing Bulldoze in Turn 35244; can be swapped with TM10 Dark Pulse / TM23 Iron Tail / TM39 Rock Tomb at any time to refill PP)
