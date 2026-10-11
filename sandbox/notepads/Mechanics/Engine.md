@@ -44,7 +44,7 @@
   - **Page 2 Quests**:
     6. Lost Eevee (Paused at Explorer `42, 12` in Destino Mine 1F in Turn 32613 after auditing all accessible tiles of 1F, 2F, and the Inner Den; frees the single active quest slot for Route 12 and Jarro Town until western Destino City unlocks)
     7. Kaboom (Completed in Turn 32170 — found the lost Dynamite in the southwestern sand patch at Route 6 `27, 34`, defeated the ambushing Lv20 Gible, and delivered the Dynamite to the Coworker at Route 6 `43, 19` to blast open the collapsed Route 6 mine entrance at `44, 18-19`; rewarded **Rocky Helmet**)
-    8. Valentines Gift (Active — accepted from the boy in blue overalls at Route 12 Main `16, 75` in Turn 32745; objective is to find 3 missing flowers [standard Poké Ball sprites] across Route 12, with `Flower 3` collected at `18, 47` into Key Items Pocket in Turn 32835)
+    8. Valentines Gift (Active — accepted from the boy in blue overalls at Route 12 Main `16, 75` in Turn 32745; objective is to find 3 missing flowers [standard Poké Ball sprites] across Route 12, with `Flower 3` collected at `18, 47` in Turn 32835 and `Flower 2` collected at `10, 109` in Turn 36038 into Key Items Pocket)
     9. Angry Cubone Kid (Provider located at Jarro Town `22, 15` in front of the fenced Cubone pen `23, 13`; observed Turn 32928)
     10. Push it! (Provider: Sailor located at Galinor City `54, 41` in the shipping container yard; observed Turn 33043)
   - **Page 3 Quests**:

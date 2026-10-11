@@ -1334,6 +1334,7 @@
 - **Spearow**: Encountered at Lv17 (♀, Normal/Flying) at `(22, 44)` and Lv18 (♀) at `(29, 14)` in the tall grass on Route 12 Main (verified Turns 32834 & 32884).
 ## Trainers, Landmarks & Items (Route 12 Main)
 - **Side-Quest Provider NPC (`16, 75` — Quest #8 "Valentines Gift")**: Chubby boy in blue overalls standing on the upper cliff plateau at `(16, 75)` (reached via the overhead bridge `35, 69 -> 18, 69` and western path `13, 70-73 -> 14, 73 -> 15, 74-75`). Accepting his quest (*"I made a bonquet of different flowers for the girl I like, but on my way to Amor City to visit her, wind made my flowers fly away... I think there is six missing... I'll look for three, I will leave the other three to you!"*, Turn 32745) tasks the player with finding 3 missing flowers (`Flower 1`, `Flower 2`, `Flower 3`, which use standard red/white Poké Ball item sprites):
+  - **Flower 2 (`10, 109`)**: Standard Poké Ball sprite in the southwestern cliff nook (`accessed from 10, 108 via 14, 107 -> 14, 105 -> 11, 105 -> 11, 107 -> 10, 107 -> 10, 108`; collected into Key Items Pocket in Turn 36038, alongside **Hyper Potion x1** from the spray-bottle sprite at `18, 108` in Turn 36037).
   - **Flower 3 (`18, 47`)**: Standard Poké Ball sprite tucked in the tree nook south of the `(16, 43-45)` side-facing staircase (collected from `18, 46` into Key Items Pocket in Turn 32835).
 - **Link Cable (`23, 10` — Yellow/Orange Capsule Sprite)**: Tucked behind the rock cones `(21, 10)`, `(22, 10)`, and `(22, 11)` (collected from `24, 10` into Items Pocket in Turn 32884 via `row 10` behind the passable tree canopy at `27-28, 10`).
 - **Wandering Gentleman NPC (`13, 14` -> `14, 13`)**: Non-hostile hat-wearing NPC at the top of the `(12-14, 17-18)` staircase (*"At this altitude there aren't many people living around... However, there is this one town nearby... Jarro Town I think."*, verified Turn 32872).
@@ -3519,7 +3520,7 @@
   - **Page 2 Quests**:
     6. Lost Eevee (Paused at Explorer `42, 12` in Destino Mine 1F in Turn 32613 after auditing all accessible tiles of 1F, 2F, and the Inner Den; frees the single active quest slot for Route 12 and Jarro Town until western Destino City unlocks)
     7. Kaboom (Completed in Turn 32170 — found the lost Dynamite in the southwestern sand patch at Route 6 `27, 34`, defeated the ambushing Lv20 Gible, and delivered the Dynamite to the Coworker at Route 6 `43, 19` to blast open the collapsed Route 6 mine entrance at `44, 18-19`; rewarded **Rocky Helmet**)
-    8. Valentines Gift (Active — accepted from the boy in blue overalls at Route 12 Main `16, 75` in Turn 32745; objective is to find 3 missing flowers [standard Poké Ball sprites] across Route 12, with `Flower 3` collected at `18, 47` into Key Items Pocket in Turn 32835)
+    8. Valentines Gift (Active — accepted from the boy in blue overalls at Route 12 Main `16, 75` in Turn 32745; objective is to find 3 missing flowers [standard Poké Ball sprites] across Route 12, with `Flower 3` collected at `18, 47` in Turn 32835 and `Flower 2` collected at `10, 109` in Turn 36038 into Key Items Pocket)
     9. Angry Cubone Kid (Provider located at Jarro Town `22, 15` in front of the fenced Cubone pen `23, 13`; observed Turn 32928)
     10. Push it! (Provider: Sailor located at Galinor City `54, 41` in the shipping container yard; observed Turn 33043)
   - **Page 3 Quests**:
