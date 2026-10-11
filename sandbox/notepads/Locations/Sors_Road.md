@@ -188,3 +188,6 @@
       - **Pokémon 2**: Gorebyss (♀, Lv44; Water; knows Dive and Psychic; defeated by Sirius's `Bulldoze` for `1677 EXP`).
       - **Pokémon 3**: Meganium (♂, Lv45; Grass; knows Body Slam; 2HKO'd by Sirius's `Mach Punch` for `2005 EXP`).
     - **Outcome**: Defeated in Turns 35221-35235 (*"Oh no."*; awards `₽2,700`).
+  - **Upper Green-Grass Plateau Staircase (`32-34, 22-23` -> `33, 21`)**:
+    - Climbs north from `(33, 24)` onto the upper green-grass plateau (`33, 21`).
+    - Features a gold item ball at `(30, 19)` below a rugged rock at `(30, 17)`, a northbound wooden staircase at `(39-40, 17-18)`, and **Cooltrainer♂ Futa** at `(37, 21)` facing `Up` (uses Toxicroak ♂ Lv44 and Hitmonchan ♂ Lv45; verified Turns 35238-35252).
