@@ -203,3 +203,10 @@
     - **Team (1 Pokémon, +1 Hyper Potion)**:
       - **Pokémon 1**: Slaking (♀, Lv45; Normal; Ability: Truant; knows Counter and Slash; defeated by Baron's Poison Point + Sirius's `Return` for `2025 EXP`).
     - **Outcome**: Defeated in Turns 35266-35278 (`"."`; awards `₽1,800`).
+  - **Hiker Bernie (`31, 13`, Facing Down)**:
+    - **Pre-Battle Quote**: *"The wind is very strong up here!"*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Stunfisk (♀, Lv44; Ground/Electric; Ability: Static; knows Discharge and Endure; 2HKO'd by Sirius's `Aura Sphere` for `1555 EXP`).
+      - **Pokémon 2**: Donphan (♀, Lv45; Ground; Ability: Sturdy; knows Magnitude; 2HKO'd by Sirius's `Aura Sphere` for `1822 EXP`).
+      - **Pokémon 3**: Rapidash (♀, Lv45; Fire; OHKO'd by Sirius's `Aura Sphere` for `1851 EXP`).
+    - **Outcome**: Defeated in Turns 35286-35295 (awards `₽1,800`).
