@@ -2192,6 +2192,10 @@
 - **Cabin 2 (`9, 4` <-> `34, 8`, Turns 35711-35714)**:
   - Unlocked by stepping `Up` into `(9, 4)` with the **C. Room Key**.
   - Inside at `(33, 4)` (interacted from `33, 5` facing `Up`), Asher recovers his confiscated **Poké Balls and PokéDex** (`"Asher: Yes! All of my stuff is here! / Alright, let's pick them up and let's get out of here!"`).
+- **The Leaking Cargo Ship & Crate-Alignment Switch (`9, 6`, Turns 35716-35719)**:
+  - Stepping onto `(9, 6)` after recovering Asher's Pokémon and PokéDex triggers a panic where the Team Siara Grunts rush out of the ship.
+  - **Frio** (`11, 6`) reveals that the Cargo Ship is leaking and sinking right before reaching Team Siara HQ, and that there is an emergency leak-slowing switch on a higher level in the **Cargo Area** (`20, 16`) that can only be reached by crossing on top of the cargo crates.
+  - Asher recalls seeing a wall switch labeled `"cargo"` at **`(9, 4)`** on the **Upper Cargo Balcony (`20, 10`)** that can align the crates in the Cargo Area below.
 
 <hr>
 
@@ -3302,6 +3306,10 @@
   - Untying Asher's ropes and returning his **HuPhone** (which has no signal aboard the ship), Frio explained that Asher's **PokéDex and Poké Balls** are kept in the next room, which is locked with a key (**C. Room Key**), and joined Asher in disguise to help him find the key and sneak off the ship once it docks.
 - **Recovering Asher's Belongings Aboard the Cargo Ship (`20, 10` -> `7, 7` & `9, 4` -> `33, 5`, Turns 35707-35714)**:
   - Following the Team Siara Grunt who locked Cabin 2 (`9, 4`) and went to chill in the Cargo Area, Asher entered the upper balcony doorway (`20, 10 -> 7, 5`), snuck behind the grunt (`6, 8`) to grab the **C. Room Key** from the table (`8, 7`), unlocked Cabin 2 (`9, 4 -> 34, 8`), and recovered his **Poké Balls and PokéDex** from the table at `(33, 4)`.
+- **The Sinking Cargo Ship & Emergency Switch (`9, 6`, Turns 35716-35719)**:
+  - As Asher stepped out of Cabin 2 (`9, 6`) with his recovered Pokémon and PokéDex, Team Siara Grunts rushed past in a panic to abandon ship.
+  - **Frio** (`11, 6`) informed Asher that the Cargo Ship is leaking and sinking just short of **Team Siara HQ**, and explained that an emergency switch to slow the leak sits on a higher level inside the **Cargo Area** (`20, 16`), reachable only by crossing on top of the cargo crates.
+  - Asher remembered spotting a `"cargo"` switch on the wall (`9, 4`) of the **Upper Cargo Balcony** (`20, 10`) where he snatched the key, realizing they can use it to align the crates and reach the emergency switch.
 
 <hr>
 

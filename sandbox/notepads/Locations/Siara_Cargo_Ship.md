@@ -21,3 +21,7 @@
 - **Cabin 2 (`9, 4` <-> `34, 8`, Turns 35711-35714)**:
   - Unlocked by stepping `Up` into `(9, 4)` with the **C. Room Key**.
   - Inside at `(33, 4)` (interacted from `33, 5` facing `Up`), Asher recovers his confiscated **Poké Balls and PokéDex** (`"Asher: Yes! All of my stuff is here! / Alright, let's pick them up and let's get out of here!"`).
+- **The Leaking Cargo Ship & Crate-Alignment Switch (`9, 6`, Turns 35716-35719)**:
+  - Stepping onto `(9, 6)` after recovering Asher's Pokémon and PokéDex triggers a panic where the Team Siara Grunts rush out of the ship.
+  - **Frio** (`11, 6`) reveals that the Cargo Ship is leaking and sinking right before reaching Team Siara HQ, and that there is an emergency leak-slowing switch on a higher level in the **Cargo Area** (`20, 16`) that can only be reached by crossing on top of the cargo crates.
+  - Asher recalls seeing a wall switch labeled `"cargo"` at **`(9, 4)`** on the **Upper Cargo Balcony (`20, 10`)** that can align the crates in the Cargo Area below.
