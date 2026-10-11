@@ -444,3 +444,7 @@
   - **Returning the Green Gem to Solare Island & The Echoing Voice (`14, 15` in Solare Island Inner Shrine, Turns 36320-36321)**:
     - Navigating across the northern sea route from **Galinor City Beach** (`13, 32 -> 12, 0` <-> Solare Island `41, 59`) to the **Solare Island Inner Shrine** (`14, 15`), Asher placed the **Green Gem** back into the shrine altar (`14, 14`).
     - Immediately, an **Echoing Voice** called out to Asher: *"Asher... asher... The box will show the path... The fight is drawing closer and closer... Find the box to lead your path... N...north..."*, prompting Asher to search the **northern side of Solare Island** for the box.
+- **Northern Side of Solare Island & The Light Beam Box (`6, 3` in Solare Island Forest <-> `13, 15` -> `13, 8`, Turns 36327-36331)**:
+  - After returning the **Green Gem** to the Solare Island Inner Shrine altar (`14, 14`), the five Team Siara Grunts blocking the Northwest Forest Archway (`5-6, 3-4`) are gone.
+  - Stepping north into `(6, 3)` warps to `(13, 15)` on the **Northern Side of Solare Island**.
+  - Walking north along `column 13` onto `(13, 8)` before the ancient box at `(13, 6)` activates the box, firing a blue beam of light pointing toward the **Ancient Hupestian Ruins** in **Jarro Town**.
