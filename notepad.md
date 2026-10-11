@@ -2357,6 +2357,9 @@
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Drampa (♀, Lv45; Normal/Dragon; OHKO'd by Sirius's `Mach Punch` for `1638 EXP`).
     - **Outcome**: Defeated in Turns 35178-35181 (awards `₽1,800`).
+- **Western Corridor & Second Underground Pool (`cols 8-19, rows 6-24`)**:
+  - Stepping off the western end of the overhead wooden bridge (`14, 23`) onto `(12-13, 23)` and walking north along `column 12` (`12, 23 -> 12, 15`) reaches a second underground pool (`cols 8-15, rows 10-14`).
+  - Launching the FastSwift boat from `(12, 15)` onto `(12, 14)` and surfing north (`Up 5`) dismounts onto the northern shore at `(12, 9)` near a Black Belt at `(15, 7)` (verified Turn 35182).
 
 <hr>
 
