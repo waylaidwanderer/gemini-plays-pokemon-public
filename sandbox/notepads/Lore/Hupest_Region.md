@@ -447,4 +447,5 @@
 - **Northern Side of Solare Island & The Light Beam Box (`6, 3` in Solare Island Forest <-> `13, 15` -> `13, 8`, Turns 36327-36331)**:
   - After returning the **Green Gem** to the Solare Island Inner Shrine altar (`14, 14`), the five Team Siara Grunts blocking the Northwest Forest Archway (`5-6, 3-4`) are gone.
   - Stepping north into `(6, 3)` warps to `(13, 15)` on the **Northern Side of Solare Island**.
-  - Walking north along `column 13` onto `(13, 8)` before the ancient box at `(13, 6)` activates the box, firing a blue beam of light pointing toward the **Ancient Hupestian Ruins** in **Jarro Town**.
+  - Walking north along `column 13` onto `(13, 8)` before the ancient box at `(13, 6)` activates the box, firing a blue beam of light pointing toward the **Ancient Hupestian Ruins** in **Jarro Town** (*"Isn't that around Jarro Town? The Ancient Hupestian Ruins! / Siara must be heading up to the mountain's peak! / If that 'angel' is somewhere, it is gonna be there... I gotta hurry!"*).
+  - **Unlocking the HuPhone `Soaring` App (Turn 36331)**: Completing the Northern Solare Island box cutscene permanently adds **`Soaring`** to the **HuPhone** menu (*"Soaring has been added to your HuPhone's menu! / Just choose the option 'Soaring' to call Latias!"*).
