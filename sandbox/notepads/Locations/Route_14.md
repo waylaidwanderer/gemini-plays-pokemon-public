@@ -82,12 +82,13 @@
   - **Upper Plateau Routing (`39, 21` & `44, 21 -> 44, 14`)**: The short staircase at `(39, 21 -> 39, 18)` leads only to a small enclosed overlook (`38-40, 18-19`), whereas the tall staircase at `(44, 21 -> 44, 14)` leads to the northern upper ridge (`row 14`), where walking west along `row 14` (`44, 14 -> 33, 14`) connects to the northern entrance of the overhead bridge (`cols 32-34, rows 16-27`), and a Poké Ball item sprite is visible in the northeastern trees at `(49, 10)` (verified Turns 34835-34837).
   - **PKMN Trainer Silver (`33, 21` on Overhead Bridge)**:
     - **Pre-Battle Dialogue**: *"You there! / What a coincidence... / I'm also going to the Eclipse Square to see which moron wins... / Hey, Asher... / What about a quick rematch? / I can't let that loss go!"*
-    - **Team (5 Pokémon, +1 Full Restore)**:
+    - **Team (5 Pokémon, +2 Full Restores)**:
       - **Pokémon 1**: Weavile (♀, Lv41; Dark/Ice; knows Low Kick; defeated by Sirius for `1572 EXP`, leveling Sirius to Lv73).
       - **Pokémon 2**: Gengar (♂, Lv42; Ghost/Poison; Ability: Cursed Body; Held Item: Black Sludge; knows Will-O-Wisp, Focus Blast, and Protect; defeated by Sirius for `1710 EXP`).
       - **Pokémon 3**: Crobat (♂, Lv41; Poison/Flying; Held Item: Black Sludge; knows Brave Bird; defeated by Sirius for `1791 EXP`).
-      - **Pokémon 4**: Magnezone (Lv42; Electric/Steel; knows Iron Defense and Thunderbolt).
-      - **Pokémon 5**: Feraligatr (in progress).
+      - **Pokémon 4**: Magnezone (Lv42; Electric/Steel; knows Iron Defense, Thunderbolt, and Energy Ball; defeated by Sirius for `1899 EXP`).
+      - **Pokémon 5**: Feraligatr (♂, Lv42; Water; Held Item: Life Orb; knows Liquidation; defeated by Sirius for `1890 EXP`).
+    - **Outcome**: Defeated in Turns 34839-34873 (*"H-how?! / I lost twice in a row?!"*; awards `₽4,704`).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
