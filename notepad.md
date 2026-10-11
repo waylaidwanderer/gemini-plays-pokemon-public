@@ -1428,6 +1428,11 @@
     - **Pokémon 2**: Hippowdon (♂, Lv40; Ground; Ability: Sand Stream; OHKO'd by Sirius's `Aura Sphere` for `1576 EXP`).
     - **Pokémon 3**: Lunatone (Lv40; Rock/Psychic; OHKO'd by Sirius's `Aura Sphere` for `1285 EXP`).
   - **Outcome**: Defeated in Turns 34604-34609 (awards `₽2,400`).
+## Route 14 River (`cols 27-31, rows 4-18`)
+- **Upstream Rock Barrier (`27, 6`, `28, 5`, `29, 4`)**: Launching the FastSwift boat from `(32, 7)` onto `(31, 7)` and surfing north to `(30, 5)` reveals a diagonal line of river rocks at `(27, 6)`, `(28, 5)`, and `(29, 4)` and curved shoreline at `(30, 4)` that completely block upstream passage beyond `row 5` (verified Turns 34611-34612).
+- **Downstream Passage Under the Wooden Bridge (`column 29`, `rows 5-15`)**: Surfing south along `column 29` passes directly underneath the overhead wooden river bridge (`rows 10-12`) into the downstream section, where a female Swimmer is stationed at `(29, 15)` (verified Turns 34612-34613).
+- **Wild Surfing Encounters**:
+  - **Bruxish** (Lv30, ♀; Water/Psychic; knows Psywave, Aqua Jet, Crunch; encountered at `29, 13` in Turn 34613).
 
 <hr>
 
@@ -2804,7 +2809,7 @@
 - **Key Items Pocket (Audited Turn 34460)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835), and **Ec Card** (collected at Undersea Lab B4F West `11, 18` in Turn 34460; unlocks Floor `5F`/`B5F` on the lab elevator).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 34420)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x8** (used 1 testing capture on wild Lv40 Eclipsed Pikachu at Undersea Lab B2F `38, 8` in Turn 34395; collected 1 at B3F Machine Room `32, 14` in Turn 34420), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **80** (fulfills Task 2 of Professor Elm's Research!).
+- **Poké Balls Pocket (Audited Turn 34620)**: Contains **Poké Ball x3**, **Great Ball x0**, **Ultra Ball x3** (used 1 testing capture on wild Lv40 Eclipsed Pikachu at Undersea Lab B2F `38, 8` in Turn 34395; collected 1 at B3F Machine Room `32, 14` in Turn 34420; used 5 on wild Lv30 Bruxish at Route 14 `29, 13` in Turns 34615-34619), **Dive Ball x0**, **Net Ball x0**, and **Luxury Ball x1** (collected at Aur Factory Western Section `13, 25` in Turn 33848). Total Owned species in PokéDex: **80** (completed Task 2 of Professor Elm's Research in Turn 34586).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
@@ -2933,7 +2938,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 203), Attack (C+, 191), Defense (A-, 184), Sp. Atk (C-, 177), Sp. Def (E, 121), Speed (C-, 126)
-- **Current Condition**: 203/203 HP, Healthy (healed at Destino City Pokémon Center in Turn 34587)
+- **Current Condition**: 21/203 HP, Healthy (in battle with wild Lv30 Bruxish at Route 14 `29, 13`)
 - **EXP**: Lv70 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304; reached Lv69 defeating PKMN Trainer ???'s Sceptile in Undersea Lab B5F in Turn 34486; reached Lv70 defeating Gladion's Zoroark in Round 8 Finals in Turn 34570)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
