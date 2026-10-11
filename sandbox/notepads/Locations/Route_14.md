@@ -28,10 +28,11 @@
 ## Southwestern Riverbank & Upper Bridge Loop (`cols 9-28, rows 18-39`)
 - **Southern River Staircase (`21-23, 35-38`)**: Side-facing wooden river staircase on the western bank south of the second overhead wooden bridge. Approaching along `row 37` (`24, 37 -> Left 3`) steps onto `(21, 36)` and `(20, 36)` (verified Turns 34735-34736).
 - **Southwestern Trail (`20, 35 -> 14, 35 -> 12, 30`)**: Runs west along `row 35` below the horizontal ridge (`17-20, 34`) to `(14, 35)` and north along `column 12` to `(12, 30)`, with a purple item bottle sprite visible at `(9, 25)` and an east-facing one-way return ledge at `(20, 18-20)` (verified Turns 34721-34738).
-- **Cooltrainer♀ Spencer (`10, 30`, Facing Right)**:
+- **Cooltrainer♀ Spencer (`10, 30` -> `11, 30`, Facing Right)**:
   - **Pre-Battle Quote**: *"You surfed down the river? / Wow, you must be quite something!"*
   - **Team (1 Pokémon)**:
-    - **Pokémon 1**: Druddigon (♂, Lv43; Dragon).
+    - **Pokémon 1**: Druddigon (♂, Lv43; Dragon; Ability: Rough Skin; OHKO'd by Sirius's `Meteor Mash` for `1566 EXP`).
+  - **Outcome**: Defeated in Turns 34738-34742 (`"."`; awards `₽2,580`).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
