@@ -57,3 +57,6 @@
     - **Pokémon 5**: Swampert (♂, Lv49; Water/Ground; OHKO'd by Sirius's `Aura Sphere` for `2205 EXP`).
     - **Pokémon 6**: Ferrothorn (♀, Lv48; Grass/Steel; OHKO'd by Sirius's `Aura Sphere` for `1758 EXP`).
   - **Outcome**: Swept `6-0` in Turns 35427-35442 (*"... / w-what...? / I... I... I lost? / No... that... that's impossible..."*), crowning Asher **Champion of the Eclipse Tournament**.
+- **Championship Celebration & Morning After (`18, 21` -> Inizio Isle `6, 4`, Turns 35443-35451)**:
+  - Following Asher's `6-0` victory over Frio in the Grand Finals, **Valora**, **Dad (Jackson)**, and **Professor Ivo** joined Asher on the stage (`18, 21`) to celebrate his Championship win while **Dawn**, **Lucas**, and **Barry** watched from across the court.
+  - **Frio** (`19, 21`) shook Asher's hand, admitted Asher's undeniable strength as a fellow Eclipser, and stammered a reluctant *"thank you"* before Professor Ivo suggested everyone get some rest, transitioning to the next morning in Asher's bedroom on **Inizio Isle** (`6, 4`).
