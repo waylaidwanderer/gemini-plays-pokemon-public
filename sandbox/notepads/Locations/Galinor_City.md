@@ -19,3 +19,12 @@
 - **Galinor City Pokémon Center (`28, 58`, exits to `28, 59`)**: Located immediately west of the Galinor Metro Station on the southern boulevard.
 - **Western Boulevard Signboard (`24-25, 59`)**: Interacted from `(25, 60)`, reads verbatim: *"Galinor Metro Station / ---> / Route 9 / <---"* (verified Turn 33924).
 - **Southwestern Avenue (`cols 18-19, rows 60-75`) & Route 13 Border (`14-15, 86` <-> Route 13 `14-15, 0`)**: Following `column 18` south to `(18, 75)` and `column 14` south from `(14, 75)` transitions seamlessly at `(14, 86)` onto **Route 13** `(14, 0)` (verified Turn 33927).
+## Central, Southeastern & Western Districts (Audited Turns 36259-36288)
+- **Central Boulevard Houses & NPCs (`rows 56-61`)**:
+  - **Sailor (`33, 59-60`)**: *"Galinor, the beach city... You can tell from my sailor outfit. But this is actually just a costume!"*
+  - **Jogger Boy (`25-26, 60-61`)**: *"I usually jog 5 laps around this block everyday... Fitness is key to life!"*
+  - **Flat at `(35, 56)` (via post gap at `36, 58`, interior exit `24, 9`)**: Single Fisherman at `(19, 5)`.
+  - **Flat at `(42, 58)` (interior exit `41, 9`)**: Two Black Belts arguing in a foreign language at `(40, 5-6)`.
+  - **House at `(20, 57)` (interior exit `3, 9`)**: Old Woman at `(2, 6)`.
+- **Southeastern Alley & TM05 (`54, 63`)**: Walking south along `column 48` to `(48, 63)` and east along `row 63` to `(53, 63)` leads to a shady man in a grey cap at **`(54, 63)`**, who gifts **TM05** into the TM Case.
+- **Western Avenue (`cols 7-10, rows 38-75`)**: Connects `(9, 59)` north past the apartment at `(9, 44)` (empty interior `6, 8`) along `columns 7-8` into Northwestern Galinor City.
