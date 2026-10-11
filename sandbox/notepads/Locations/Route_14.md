@@ -103,6 +103,7 @@
       - **Pokémon 1**: Porygon-Z (Lv42; Normal; knows Thunder Wave; defeated by Sirius for `1665 EXP`).
       - **Pokémon 2**: Exploud (♂, Lv43; Normal; knows Uproar; defeated by Sirius for `1695 EXP`).
     - **Outcome**: Defeated in Turns 34904-34907 (*"Maybe I can."*; awards `₽2,580`).
+  - **Upper Terrace Item (`49, 10`)**: Reached from `(54, 19)` via `(54, 14 -> 52, 14 -> 52, 12 -> 50, 12 -> 50, 11 -> 49, 11)` facing `Up`; contains a **Nest Ball** (collected in Turn 34909).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
