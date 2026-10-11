@@ -2183,7 +2183,9 @@
 - **Interior Red Mat (`9, 8`), Cabin 3 (`14, 4` <-> `45, 8`), & Eastern Hallway (`cols 15-17, rows 5-11+`)**:
   - Red mat at `(9, 8)` sits south of `(9, 4)`.
   - **Cabin 3 (`14, 4` <-> `45, 8`)**: Unlocked cabin containing **Heart Scale x1** at `(47, 6)` (collected Turn 35703) and an open book at `(47, 7)`.
-  - **Eastern Hallway (`cols 15-17, rows 5-11+`)**: Continues south toward the cargo area where the grunt with the Master Key headed.
+  - **Eastern Hallway (`cols 15-17, rows 5-16+`)**:
+    - Continues south from `(16, 5)` to `(16, 11)`, where an upper metal doorway sits to the east at **`(20, 10)`**.
+    - South of `(16, 11)`, a metal staircase (`cols 15-17, rows 14-16`) descends to a lower corridor with a second metal doorway at **`(20, 16)`** and a wall sign at `(22, 16)`.
 
 <hr>
 
