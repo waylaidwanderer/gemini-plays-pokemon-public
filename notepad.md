@@ -641,6 +641,11 @@
 - **Eclipse Tournament Finals Building (`20, 5`, Cutscene Trigger at `20, 6`)**:
   - Grand pillared building at the northern end of the central promenade (`20, 5`).
   - Stepping onto `(20, 6)` triggers a reunion cutscene with **Valora** (`21, 6`), **Dad (Jackson)** (`20, 8`), and **Professor Ivo** (`20, 9`) before entering the Finals venue (verified Turn 35370).
+- **Eclipse Square Finals Lobby (`21, 15` Exit Mat <-> Eclipse Square `20, 6`)**:
+  - **Pokémon Center Counter (`cols 10-15, rows 8-10`)**: Nurse Joy at `(13, 9)` (interacted from `13, 11` facing `Up`); PC terminal at `(15, 10-11)`.
+  - **Eclipse Square Metro Station Entrance (`17, 9`)**: Escalator marked with `"M"` connecting to the Hupest Metro Line (`E.S.` station).
+  - **Central Finals Staircase (`cols 20-22, rows 7-8`)**: Leads up to the **Top 16 Ceremony** and Finals Arena.
+  - **Eastern Lobby & PokéMart Counter (`cols 23-29, rows 8-10`)**: Features a trainer at `(23, 9)` with a **Typhlosion** at `(24, 9)`, and an Explorer PokéMart clerk at `(27, 9)` (interacted from `27, 11` facing `Up`).
 
 <hr>
 
