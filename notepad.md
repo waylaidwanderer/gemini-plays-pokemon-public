@@ -254,6 +254,36 @@
   - Keeping his promise from Mulberry Town, Frio reveals that the underwater Location 3 signal is an old, abandoned **undersea laboratory of Team Siara** located below sea level close to **Maple Town**.
   - When Asher asks Frio to join forces against Team Siara since Frio hates them more than anything, Frio refuses to get involved with Marie, Team Siara's experiments, or that undersea lab ever again (`"No! I'm not getting involved... I'm done with them! With that woman, with their experiments, with that damn Lab! I'm off now..."`) and departs.
   - Immediately afterward, Asher receives an urgent HuPhone text message from **Professor Ivo**: *"Asher! Quick pick up Valora and come here quick! We are on a small isle from Maple to the south, this is urgent!"*. Asher finds Valora and fast-travels directly to **`(43, 15)`** at the southern shoreline stairs of **Maple Town**.
+## Round 8 Arena & Eclipse Tournament Round Eight (`20, 26` -> `4, 14` -> `14, 14`)
+- **Round 8 Arena Entrance (`20, 26` in Lower Arena Ring)**: Unguarded after receiving the Round 8 HuPhone summons on the Small Offshore Isle (`36, 42`, Turn 34507); stepping `Down` through `(20, 26)` warps to the 8-trainer Round 8 Bracket Screen (`7, 17`, verified Turn 34548).
+- **Round 8 Bracket**:
+  - **Left Side**: **Asher** vs. **Cooltrainer Quentin** (Match 1) and **Scientist** vs. **Cooltrainer Lola** (Match 2; won by Lola).
+  - **Right Side**: **Gladion (from Alola)** vs. **Hiker** (Match 3; won by Gladion) and **Expert Bert** vs. **Gentleman** (Match 4; won by Bert).
+- **Match 1 (Quarterfinals — Cooltrainer Quentin)**:
+  - **Pre-Battle Quote**: *"Ohohoho, the last round! I'm gonna make it to the finals! / I wanna have a movie made of my spectacular carrier!"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Luxray (♂, Lv39; Electric; OHKO'd by Sirius's `Aura Sphere` for `1620 EXP`).
+    - **Pokémon 2**: Toxicroak (♂, Lv39; Poison/Fighting; OHKO'd by Sirius's `Bulldoze` for `1437 EXP`).
+    - **Pokémon 3**: Talonflame (♀, Lv40; Fire/Flying; knows Nature Power; 2HKO'd by Sirius's `Aura Sphere` for `1500 EXP`).
+    - **Pokémon 4**: Cacturne (♀, Lv40; Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1516 EXP`).
+  - **Outcome**: Defeated in Turns 34551-34558 (*"Nooo!"*; awards `₽2,400`).
+- **Match 2 (Semifinals — Cooltrainer Lola)**:
+  - **Pre-Battle Quote**: *"Finally... / A worthy opponent"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Gastrodon (♂, Lv39; Water/Ground; OHKO'd by Sirius's `Aura Sphere`).
+    - **Pokémon 2**: Delphox (♀, Lv40; Fire/Psychic; OHKO'd by Sirius's `Bulldoze` for `1791 EXP`).
+    - **Pokémon 3**: Ampharos (♂, Lv39; Electric; OHKO'd by Sirius's `Bulldoze` for `1620 EXP`).
+    - **Pokémon 4**: Lilligant (♀, Lv40; Grass; OHKO'd by Sirius's `Aura Sphere` for `1440 EXP`).
+  - **Outcome**: Defeated in Turns 34559-34566 (*"Impossible... / H-how?!"*; awards `₽2,400`), while Alola's **Gladion** defeated Expert Bert on the opposite side of the bracket.
+- **Match 3 (Round Eight Finals — PKMN Trainer Gladion)**:
+  - **Pre-Battle Quote**: *"What does a Pokémon Trainer really need to be successful? / I guess everyone might have their own answer. / But for me... I want the strongest rival for myself! / My name is Gladion! / I came from the Alola Region to participate and make my partner stronger than anyone. / All I have to do is avoid making any more mistakes... / After all, I have Silvally with me."*
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Crobat (♀, Lv40; Poison/Flying; OHKO'd by Sirius's `Meteor Mash` [+1 Attack boost] for `1747 EXP`).
+    - **Pokémon 2**: Zoroark (♂, Lv40; Dark; OHKO'd by Sirius's `Aura Sphere` for `1533 EXP`, leveling Sirius to Lv70).
+    - **Pokémon 3**: Lucario (♂, Lv40; Fighting/Steel; OHKO'd by Sirius's `Aura Sphere` for `1576 EXP`).
+    - **Pokémon 4**: Charizard (♂, Lv41; Fire/Flying; Held Item: Sitrus Berry; knows Fire Blast; 2HKO'd by Sirius's `Aura Sphere` for `1836 EXP`).
+    - **Pokémon 5**: Silvally (Lv42; Normal; OHKO'd by Sirius's `Aura Sphere` for `1980 EXP`).
+  - **Outcome**: Defeated in Turns 34568-34577 (*"Looks like after I made it all all this way... I still lost... / Hmph... It's not like me to slip up like that. / I've got to keep fighting stronger opponents. / Maybe one day we can fight again, Asher"*; awards `₽4,704`), crowning Asher winner of his Round 8 group and qualifying him for the Eclipse Tournament Finals.
 
 <hr>
 
@@ -2637,6 +2667,11 @@
   - Stepping out of the B5F Inner Chamber triggered an epilogue scene outside on the Small Offshore Isle: Colen Champion **Micah** assured his female colleague over the phone that Asher's group are allies heavily involved against Team Siara and teleported back to **Light Island** in the **Colen Region** to prepare plans with his team.
   - Moments later, **Frio** arrived outside the Location 3 cave entrance (`36, 42`), forced himself to overcome his trauma (*"Here I am again... Just thinking of this place makes me feel devastated... Argh! Keep it together Frio! Don't scare quit now!"*), and walked inside (`36, 40`).
   - Exiting the cave to `(36, 42)`, Asher received a HuPhone text message from the **Amor Battle Center** summoning him to **Round Eight of the Eclipse Tournament**—the final traditional round before the Finals.
+## Eclipse Tournament Round Eight — Victory Over Alola's Gladion & Qualification for the Finals
+- **Round Eight Bracket & Matches (Turns 34548-34578)**: Inside the Amor City Battle Centre's Round 8 Arena (`20, 26` in the Lower Arena Ring), Asher competed in an 8-trainer single-elimination bracket on the holographic cyber-arena stage, with the host announcing that everyone who clears Round 8 will be featured in the Finals:
+  1. **Quarterfinals**: Defeated **Cooltrainer Quentin** (Luxray Lv39, Toxicroak Lv39, Talonflame Lv40, Cacturne Lv40).
+  2. **Semifinals**: Defeated **Cooltrainer Lola** (Gastrodon Lv39, Delphox Lv40, Ampharos Lv39, Lilligant Lv40), while Alola's **Gladion** defeated Expert Bert on the opposite side of the bracket.
+  3. **Round Eight Finals**: Defeated **PKMN Trainer Gladion** from the Alola Region (Crobat Lv40, Zoroark Lv40, Lucario Lv40, Charizard Lv41, Silvally Lv42) to win his Round Eight group and officially qualify for the Eclipse Tournament Finals.
 
 <hr>
 
@@ -2862,12 +2897,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv69
+- **Level**: Lv70
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 200), Attack (C+, 188), Defense (A-, 181), Sp. Atk (C-, 175), Sp. Def (E, 119), Speed (C-, 124)
-- **Current Condition**: 200/200 HP, Healthy (healed at Maple Town Pokémon Center in Turn 34521)
-- **EXP**: Lv69 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304; reached Lv69 defeating PKMN Trainer ???'s Sceptile in Undersea Lab B5F in Turn 34486)
+- **Stats (IV Grades)**: HP (C, 203), Attack (C+, 191), Defense (A-, 184), Sp. Atk (C-, 177), Sp. Def (E, 121), Speed (C-, 126)
+- **Current Condition**: 126/203 HP, Healthy
+- **EXP**: Lv70 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304; reached Lv69 defeating PKMN Trainer ???'s Sceptile in Undersea Lab B5F in Turn 34486; reached Lv70 defeating Gladion's Zoroark in Round 8 Finals in Turn 34570)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)

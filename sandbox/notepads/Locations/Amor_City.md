@@ -252,3 +252,33 @@
   - Keeping his promise from Mulberry Town, Frio reveals that the underwater Location 3 signal is an old, abandoned **undersea laboratory of Team Siara** located below sea level close to **Maple Town**.
   - When Asher asks Frio to join forces against Team Siara since Frio hates them more than anything, Frio refuses to get involved with Marie, Team Siara's experiments, or that undersea lab ever again (`"No! I'm not getting involved... I'm done with them! With that woman, with their experiments, with that damn Lab! I'm off now..."`) and departs.
   - Immediately afterward, Asher receives an urgent HuPhone text message from **Professor Ivo**: *"Asher! Quick pick up Valora and come here quick! We are on a small isle from Maple to the south, this is urgent!"*. Asher finds Valora and fast-travels directly to **`(43, 15)`** at the southern shoreline stairs of **Maple Town**.
+## Round 8 Arena & Eclipse Tournament Round Eight (`20, 26` -> `4, 14` -> `14, 14`)
+- **Round 8 Arena Entrance (`20, 26` in Lower Arena Ring)**: Unguarded after receiving the Round 8 HuPhone summons on the Small Offshore Isle (`36, 42`, Turn 34507); stepping `Down` through `(20, 26)` warps to the 8-trainer Round 8 Bracket Screen (`7, 17`, verified Turn 34548).
+- **Round 8 Bracket**:
+  - **Left Side**: **Asher** vs. **Cooltrainer Quentin** (Match 1) and **Scientist** vs. **Cooltrainer Lola** (Match 2; won by Lola).
+  - **Right Side**: **Gladion (from Alola)** vs. **Hiker** (Match 3; won by Gladion) and **Expert Bert** vs. **Gentleman** (Match 4; won by Bert).
+- **Match 1 (Quarterfinals — Cooltrainer Quentin)**:
+  - **Pre-Battle Quote**: *"Ohohoho, the last round! I'm gonna make it to the finals! / I wanna have a movie made of my spectacular carrier!"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Luxray (♂, Lv39; Electric; OHKO'd by Sirius's `Aura Sphere` for `1620 EXP`).
+    - **Pokémon 2**: Toxicroak (♂, Lv39; Poison/Fighting; OHKO'd by Sirius's `Bulldoze` for `1437 EXP`).
+    - **Pokémon 3**: Talonflame (♀, Lv40; Fire/Flying; knows Nature Power; 2HKO'd by Sirius's `Aura Sphere` for `1500 EXP`).
+    - **Pokémon 4**: Cacturne (♀, Lv40; Grass/Dark; OHKO'd by Sirius's `Mach Punch` for `1516 EXP`).
+  - **Outcome**: Defeated in Turns 34551-34558 (*"Nooo!"*; awards `₽2,400`).
+- **Match 2 (Semifinals — Cooltrainer Lola)**:
+  - **Pre-Battle Quote**: *"Finally... / A worthy opponent"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Gastrodon (♂, Lv39; Water/Ground; OHKO'd by Sirius's `Aura Sphere`).
+    - **Pokémon 2**: Delphox (♀, Lv40; Fire/Psychic; OHKO'd by Sirius's `Bulldoze` for `1791 EXP`).
+    - **Pokémon 3**: Ampharos (♂, Lv39; Electric; OHKO'd by Sirius's `Bulldoze` for `1620 EXP`).
+    - **Pokémon 4**: Lilligant (♀, Lv40; Grass; OHKO'd by Sirius's `Aura Sphere` for `1440 EXP`).
+  - **Outcome**: Defeated in Turns 34559-34566 (*"Impossible... / H-how?!"*; awards `₽2,400`), while Alola's **Gladion** defeated Expert Bert on the opposite side of the bracket.
+- **Match 3 (Round Eight Finals — PKMN Trainer Gladion)**:
+  - **Pre-Battle Quote**: *"What does a Pokémon Trainer really need to be successful? / I guess everyone might have their own answer. / But for me... I want the strongest rival for myself! / My name is Gladion! / I came from the Alola Region to participate and make my partner stronger than anyone. / All I have to do is avoid making any more mistakes... / After all, I have Silvally with me."*
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Crobat (♀, Lv40; Poison/Flying; OHKO'd by Sirius's `Meteor Mash` [+1 Attack boost] for `1747 EXP`).
+    - **Pokémon 2**: Zoroark (♂, Lv40; Dark; OHKO'd by Sirius's `Aura Sphere` for `1533 EXP`, leveling Sirius to Lv70).
+    - **Pokémon 3**: Lucario (♂, Lv40; Fighting/Steel; OHKO'd by Sirius's `Aura Sphere` for `1576 EXP`).
+    - **Pokémon 4**: Charizard (♂, Lv41; Fire/Flying; Held Item: Sitrus Berry; knows Fire Blast; 2HKO'd by Sirius's `Aura Sphere` for `1836 EXP`).
+    - **Pokémon 5**: Silvally (Lv42; Normal; OHKO'd by Sirius's `Aura Sphere` for `1980 EXP`).
+  - **Outcome**: Defeated in Turns 34568-34577 (*"Looks like after I made it all all this way... I still lost... / Hmph... It's not like me to slip up like that. / I've got to keep fighting stronger opponents. / Maybe one day we can fight again, Asher"*; awards `₽4,704`), crowning Asher winner of his Round 8 group and qualifying him for the Eclipse Tournament Finals.
