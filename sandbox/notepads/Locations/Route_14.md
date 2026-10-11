@@ -112,7 +112,7 @@
       - **Pokémon 1**: Snorlax (♂, Lv43; Normal; knows Rollout; defeated by Sirius for `1419 EXP`, leveling Sirius to Lv74).
     - **Outcome**: Defeated in Turns 34919-34924 (awards `₽2,580`).
   - **PKMN Trainer Barry (`97, 23`, Triggered at `97, 21` on Staircase)**:
-    - **Upper Terrace Overview (`cols 92-98, rows 15-19`)**: At the top of the `(96-98, 20-21)` staircase stands an Explorer/Ranger NPC at `(96, 18-19)` in front of a mountain cabin at `(92-94, 15-16)` (observed Turn 34927).
+    - **Upper Terrace Overview (`cols 90-101, rows 15-19`)**: At the top of the `(96-98, 20-21)` staircase stands a wandering Explorer NPC (`95-97, 17-19`), a mountain cabin at `(90-93, 15-17; door at 91, 17)`, a cave entrance to **Sors Road** at `(97, 16)`, and a wooden signpost at `(100, 16)` (interacted from `100, 17`, reading verbatim: *"Sors Road"*, verified Turn 34971).
     - **Pre-Battle Dialogue**: *"Heeeey! / It's you again! / I'm still kind of salty I lost back there you know... / My friends are both in the Finals, so they will most likely face you. / I'm kind of curious who they will be fighting against... / Can I see it for myself?"*
     - **Team (5 Pokémon)**:
       - **Pokémon 1**: Staraptor (♂/♀, Lv42; Normal/Flying; Ability: Intimidate / Reckless; knows Brave Bird and ExtremeSpeed; OHKO'd by Sirius's `Aura Sphere` for `1548 EXP`).
