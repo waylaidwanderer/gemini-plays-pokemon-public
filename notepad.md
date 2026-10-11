@@ -2240,6 +2240,16 @@
 - **Chamber 2 — Prison Cells Hub (`cols 15-23, rows 4-6`)**:
   - Wall sign at `(23, 3)` reads *"Prison Cells"*.
   - Left blue teleporter pad at `(16, 5)` (`<-> 11, 5`), bottom purple exit mat at `(19, 6)` (`<-> Side Room 35, 7`, which holds **Full Restore x1** at `38, 3`, collected Turn 35774), and right blue teleporter pad at `(22, 5)`.
+## Prison Cells Sector (`19, 21` Teleporter <-> Chamber 2 `22, 5`, Turns 35776-35786)
+- **Two Grunts Cutscene (`20, 23`, Turn 35777)**: Stepping to `(20, 23)` triggers a scene where two **Team Siara Grunts** at the security desk (`18, 28-29`) discuss locking **Valora** up and selling her Pokémon before heading to the **lounge** via the `(19, 21)` teleporter to rest.
+- **Cell Layout**:
+  - **Northeast Cell (`cols 31-34, rows 17-22`)**: Open at `col 33`; contains an inactive dark teal pad at `(33, 18)`.
+  - **Southeast Cell (`cols 31-34, rows 27-32`)**: Open at `col 32`; empty with an inactive dark teal pad.
+  - **North-Central Cell (`cols 24-27, rows 17-22`)**: Locked (`25-26, 22-23`); contains a golden item ball at `(24, 17)` and an inactive dark teal pad at `(26, 18)`.
+  - **South-Central Cell (`cols 24-27, rows 27-32`)**: Open at `col 25`; empty with an inactive dark teal pad at `(26, 31)`.
+  - **North-West Cell (`cols 12-13, rows 27-28`)**: Locked.
+  - **South-West Cell (`cols 12-13, rows 31-36`)**: Open; empty with an inactive dark teal pad at `(12, 36)`.
+  - **Far-West North Cell (`cols 4-7, rows 24-28`, Valora's Cell)**: Locked (`5-6, 27-28`). Approaching `(5, 28)` triggers a reunion scene with **Valora** (`5, 26`), where Asher realizes the cell requires a key and resolves to track down the two grunts who went to the **lounge** (`Turns 35785-35786`).
 
 <hr>
 
@@ -3364,6 +3374,9 @@
   - Asher broke up their argument, reminding them that **Valora** is held captive inside Team Siara's base and that Team Siara now has all three orbs, and both **Frio** and **Micah** joined Asher (`54, 10`) to find a way into **Team Siara HQ**.
 - **Siara HQ Entrance Hall — Splitting Up to Rescue Valora & Recover the Three Gems (`10, 8`, Turn 35768)**:
   - Riding the subterranean forest elevator (`39, 12`) down into **Team Siara HQ** (`10, 8`), **Colen Champion Micah** and **Frio** split up from Asher: Micah (remarking *"Are you the one who perhaps saved this planet once already?"*) takes Frio to locate where the three stolen orbs/gems are kept, while Frio directs Asher east toward the **prison cells** to rescue **Valora** and warns him to avoid being noticed.
+- **Finding Valora in the Prison Cells (`19, 21` -> `5, 28`, Turns 35776-35786)**:
+  - Warping into the **Prison Cells** sector (`19, 21`), Asher overheard two **Team Siara Grunts** by the security desk bragging about locking **Valora** up and planning to sell her powerful Pokémon before heading to the **lounge** to rest.
+  - Locating Valora inside the locked northwestern cell (`5, 26`), Asher promised to return right away with the cell key from the two grunts in the lounge.
 
 <hr>
 

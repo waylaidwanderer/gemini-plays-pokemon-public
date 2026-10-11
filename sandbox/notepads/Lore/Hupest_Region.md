@@ -422,3 +422,6 @@
   - Asher broke up their argument, reminding them that **Valora** is held captive inside Team Siara's base and that Team Siara now has all three orbs, and both **Frio** and **Micah** joined Asher (`54, 10`) to find a way into **Team Siara HQ**.
 - **Siara HQ Entrance Hall — Splitting Up to Rescue Valora & Recover the Three Gems (`10, 8`, Turn 35768)**:
   - Riding the subterranean forest elevator (`39, 12`) down into **Team Siara HQ** (`10, 8`), **Colen Champion Micah** and **Frio** split up from Asher: Micah (remarking *"Are you the one who perhaps saved this planet once already?"*) takes Frio to locate where the three stolen orbs/gems are kept, while Frio directs Asher east toward the **prison cells** to rescue **Valora** and warns him to avoid being noticed.
+- **Finding Valora in the Prison Cells (`19, 21` -> `5, 28`, Turns 35776-35786)**:
+  - Warping into the **Prison Cells** sector (`19, 21`), Asher overheard two **Team Siara Grunts** by the security desk bragging about locking **Valora** up and planning to sell her powerful Pokémon before heading to the **lounge** to rest.
+  - Locating Valora inside the locked northwestern cell (`5, 26`), Asher promised to return right away with the cell key from the two grunts in the lounge.
