@@ -86,3 +86,5 @@
     - **Pokémon 2**: Eelektross (♀, Lv43; Electric; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1768 EXP`).
     - **Pokémon 3**: Klefki (♂, Lv44; Steel/Fairy; Ability: Prankster; knows SmokeScreen; OHKO'd by Sirius's `Aura Sphere` for `1555 EXP`).
   - **Outcome**: Defeated in Turns 35089-35096 (*"Ah, now it makes sense."*; awards `₽2,640`).
+- **Upper Mountain Pass Routing (`cols 20-54, rows 7-15`)**:
+  - From the top of the 4-tile northern wooden staircase at `(20-23, 12-13)`, the trail runs east along `row 11` (`21, 11 -> 27, 11 -> 40, 11`), steps around the 2x2 boulder (`41-42, 10-11`) via `row 12` (`40, 12 -> 44, 12 -> 44, 11 -> 48, 11`), and descends along `column 48` (`48, 11 -> 48, 14`) into the eastern tall grass patch (`cols 43-53, rows 12-15`, verified Turns 35079-35099).
