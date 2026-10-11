@@ -3339,7 +3339,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 230), Attack (C+, 217), Defense (A-, 210), Sp. Atk (C-, 202), Sp. Def (E, 137), Speed (C-, 143)
-- **Current Condition**: 230/230 HP, Healthy (`Dark Pulse 15/15`, `Return 8/20`, `Aura Sphere 10/20`, `Mach Punch 1/30`; healed to full 230/230 HP and taught TM10 Dark Pulse over depleted Meteor Mash at Sors Road Upper Exterior `18, 9` in Turns 35343-35347)
+- **Current Condition**: 230/230 HP, Healthy (`Dark Pulse 15/15`, `Return 20/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`; fully healed and checkpoint registered at Eclipse Square Finals Lobby `13, 11` in Turn 35378)
 - **EXP**: Lv80 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
