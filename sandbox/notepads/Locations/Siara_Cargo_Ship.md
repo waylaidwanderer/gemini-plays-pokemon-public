@@ -15,3 +15,6 @@
   - **Eastern Hallway (`cols 15-17, rows 5-16+`)**:
     - Continues south from `(16, 5)` to `(16, 11)`, where an upper metal doorway sits to the east at **`(20, 10)`**.
     - South of `(16, 11)`, a metal staircase (`cols 15-17, rows 14-16`) descends to a lower corridor with a second metal doorway at **`(20, 16)`** and a wall sign at `(22, 16)`.
+- **Upper Cargo Balcony (`20, 10` <-> `7, 4`, Turns 35707-35709)**:
+  - Entering `(20, 10)` warps to `(7, 5)` on an upper balcony overlooking a **Team Siara Grunt** at `(6, 8)` (the grunt who locked `9, 4` and came to the cargo area to chill).
+  - Stepping `Down` from `(7, 5)` triggers a stealth cutscene where Asher walks to `(7, 7)`, quietly grabs the **C. Room Key** (`Key Items Pocket`) from the table at `(8, 7)` behind the grunt's back (`"Alright, here's the key... / Now slowly... / Asher found one C. Room Key!"`), and automatically sneaks back out to `(20, 11)`.
