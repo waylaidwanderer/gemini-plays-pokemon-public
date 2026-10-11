@@ -47,3 +47,13 @@
     - **Pokémon 4**: Primarina (♂, Lv48; Water/Fairy; OHKO'd by Sirius's `Return` for `2139 EXP`).
     - **Pokémon 5**: Roserade (♀, Lv47; Grass/Poison; OHKO'd by Sirius's `Return` for `2053 EXP`).
   - **Outcome**: Swept `5-0` in Turns 35418-35424 (*"Oh my... / Thank you, Asher"*; awards `₽4,800`), advancing Asher to the **Grand Finals**.
+- **Grand Finals — Ec. Finalist Frio (Turns 35427-35442)**:
+  - **Pre-Battle Dialogue**: *"Asher: So the day has finally come... After the incident back in Sovio... This is our second fight... / Frio: Hey... Looks like you made it... I'm glad... You really are an interesting Trainer, I gotta hand you that.. Maybe I am underestimating you... Maybe... Heh... no... As I said before... I'll be the one who will make you lose the tournament!"*
+  - **Team (6 Pokémon, +1 Full Restore)**:
+    - **Pokémon 1**: Talonflame (♂, Lv48; Fire/Flying; defeated by Sirius's `Dark Pulse` for `1800 EXP`).
+    - **Pokémon 2**: Zoroark (♂, Lv48; Dark; OHKO'd by Sirius's `Aura Sphere` for `1840 EXP`).
+    - **Pokémon 3**: Eclipsed Garchomp (♂, Lv49; resists Fighting; Ability: Rough Skin; Held Item: Rocky Helmet; knows Earthquake and signature move `Eclite Blade`; defeated by Sirius's `Aura Sphere` + `Return` + `Dark Pulse` for `2289 EXP`).
+    - **Pokémon 4**: Electivire (♂, Lv48; Electric; OHKO'd by Sirius's `Aura Sphere` for `2046 EXP`).
+    - **Pokémon 5**: Swampert (♂, Lv49; Water/Ground; OHKO'd by Sirius's `Aura Sphere` for `2205 EXP`).
+    - **Pokémon 6**: Ferrothorn (♀, Lv48; Grass/Steel; OHKO'd by Sirius's `Aura Sphere` for `1758 EXP`).
+  - **Outcome**: Swept `6-0` in Turns 35427-35442 (*"... / w-what...? / I... I... I lost? / No... that... that's impossible..."*), crowning Asher **Champion of the Eclipse Tournament**.

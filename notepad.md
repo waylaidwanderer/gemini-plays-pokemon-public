@@ -680,6 +680,16 @@
     - **Pokémon 4**: Primarina (♂, Lv48; Water/Fairy; OHKO'd by Sirius's `Return` for `2139 EXP`).
     - **Pokémon 5**: Roserade (♀, Lv47; Grass/Poison; OHKO'd by Sirius's `Return` for `2053 EXP`).
   - **Outcome**: Swept `5-0` in Turns 35418-35424 (*"Oh my... / Thank you, Asher"*; awards `₽4,800`), advancing Asher to the **Grand Finals**.
+- **Grand Finals — Ec. Finalist Frio (Turns 35427-35442)**:
+  - **Pre-Battle Dialogue**: *"Asher: So the day has finally come... After the incident back in Sovio... This is our second fight... / Frio: Hey... Looks like you made it... I'm glad... You really are an interesting Trainer, I gotta hand you that.. Maybe I am underestimating you... Maybe... Heh... no... As I said before... I'll be the one who will make you lose the tournament!"*
+  - **Team (6 Pokémon, +1 Full Restore)**:
+    - **Pokémon 1**: Talonflame (♂, Lv48; Fire/Flying; defeated by Sirius's `Dark Pulse` for `1800 EXP`).
+    - **Pokémon 2**: Zoroark (♂, Lv48; Dark; OHKO'd by Sirius's `Aura Sphere` for `1840 EXP`).
+    - **Pokémon 3**: Eclipsed Garchomp (♂, Lv49; resists Fighting; Ability: Rough Skin; Held Item: Rocky Helmet; knows Earthquake and signature move `Eclite Blade`; defeated by Sirius's `Aura Sphere` + `Return` + `Dark Pulse` for `2289 EXP`).
+    - **Pokémon 4**: Electivire (♂, Lv48; Electric; OHKO'd by Sirius's `Aura Sphere` for `2046 EXP`).
+    - **Pokémon 5**: Swampert (♂, Lv49; Water/Ground; OHKO'd by Sirius's `Aura Sphere` for `2205 EXP`).
+    - **Pokémon 6**: Ferrothorn (♀, Lv48; Grass/Steel; OHKO'd by Sirius's `Aura Sphere` for `1758 EXP`).
+  - **Outcome**: Swept `6-0` in Turns 35427-35442 (*"... / w-what...? / I... I... I lost? / No... that... that's impossible..."*), crowning Asher **Champion of the Eclipse Tournament**.
 
 <hr>
 
@@ -3145,6 +3155,11 @@
   - Inside the Finals Lobby, **Dawn** and **Valora** introduced themselves, with Valora stepping protectively between Dawn and Asher when Dawn greeted Asher excitedly.
   - Dawn proposed a bet to Valora: whoever advances further in the Finals will win a full day with Asher (*"Whoever gets further now in the Finals, will win a day with Asher! How does that sound?"*), which Valora accepted (*"Don't worry Asher! I'll win her little game!"*) before the loudspeaker summoned all competitors to the arena for the **Top 16 Ceremony** and spectators to the auditorium.
 - **Colen Champion Micah Joins the Spectators (`21, 3` on Upper Mezzanine, Turns 35382-35384)**: Approaching the Finals Arena entrance archway (`21, 3`), Asher was greeted by **Micah**, Champion of the Colen Region, who arrived to watch Asher compete in the Finals after their battle in the undersea lab. Asher told Micah that Dad and Professor Ivo were looking for seats in the auditorium, and Micah wished Asher good luck before heading west toward the spectator seating.
+## Eclipse Tournament Finals — Victories Over Dawn, Lucas, Valora & Frio
+- **Round of 16 (Top 16)**: Defeated Sinnoh's **Dawn** (`Spiritomb♀ Lv45`, `Glaceon♂ Lv45`, `Lucario Lv45`, `Torterra♀ Lv46`, `Honchkrow Lv45`) in Turns 35389-35400.
+- **Quarterfinals (Top 8)**: Swept Sinnoh's **Lucas** (`Staraptor♀ Lv46`, `Infernape♂ Lv47`, `Gyarados♀ Lv46`, `Porygon-Z Lv46`, `Leafeon♀ Lv46`) `5-0` in Turns 35404-35415.
+- **Semifinals (Top 4)**: Swept **Valora** (`Clefable♀ Lv47`, `Gardevoir♀ Lv47`, `Ampharos♂ Lv47`, `Primarina♂ Lv48`, `Roserade♀ Lv47`) `5-0` in Turns 35418-35424; Valora happily claimed her wagered day with Asher for outlasting Dawn.
+- **Grand Finals**: Swept fellow Eclipser **Frio** (`Talonflame♂ Lv48`, `Zoroark♂ Lv48`, **Eclipsed Garchomp♂ Lv49** [knowing `Eclite Blade`], `Electivire♂ Lv48`, `Swampert♂ Lv49`, `Ferrothorn♀ Lv48`) `6-0` in Turns 35427-35442 to win the **Eclipse Tournament Championship**.
 
 <hr>
 
@@ -3374,7 +3389,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 233), Attack (C+, 220), Defense (A-, 212), Sp. Atk (C-, 205), Sp. Def (E, 139), Speed (C-, 144)
-- **Current Condition**: 233/233 HP, Healthy (`Dark Pulse 15/15`, `Return 19/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`; leveled up to Lv81 defeating Valora's Lv47 Clefable in the Semifinals in Turn 35420)
+- **Current Condition**: 134/233 HP, Healthy (`Dark Pulse 15/15`, `Return 20/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`; swept Ec. Finalist Frio 6-0 in the Grand Finals of the Eclipse Tournament in Turns 35427-35442)
 - **EXP**: Lv81 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
