@@ -1464,6 +1464,8 @@
     - **Pokémon 1**: Drifblim (♀, Lv41; Ghost/Flying; OHKO'd by Sirius's `Meteor Mash` [+1 Attack] for `1528 EXP`).
     - **Pokémon 2**: Blissey (♀, Lv42; Normal; knows Protect; OHKO'd by Sirius's `Mach Punch` for `2295 EXP`).
     - **Pokémon 3**: Wailord (♂, Lv42; Water; OHKO'd by Sirius's `Aura Sphere` for `1809 EXP`, leveling Sirius to Lv72).
+    - **Pokémon 4**: Wormadam (♀, Lv41; Plant Cloak, Bug/Grass; knows Protect and Signal Beam; 2HKO'd by Sirius's `Mach Punch` for `1299 EXP`).
+  - **Outcome**: Defeated in Turns 34762-34776 (*"I see... / Hehe your power truly is remarkable"*; awards `₽4,704`). Post-battle, Cheryl remarks *"You've got a lot going for you so make sure to win the Finals!"* and departs east along `row 25`.
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
