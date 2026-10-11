@@ -91,9 +91,10 @@
     - **Outcome**: Defeated in Turns 34839-34873 (*"H-how?! / I lost twice in a row?!"*; awards `₽4,704`).
   - **Cooltrainer♀ Gina (`38, 30` -> `38, 31`, Rotating `Down`/`Right`)**:
     - **Pre-Battle Quote**: *"Nono! / I'm the one going to the top!"*
-    - **Team (2 Pokémon)**:
+    - **Team (3 Pokémon, +1 Hyper Potion)**:
       - **Pokémon 1**: Golem (♂, Lv41; Rock/Ground; knows Stealth Rock; defeated by Sirius for `1554 EXP`).
-      - **Pokémon 2**: Conkeldurr (♂, Lv42; Fighting; knows Bulk Up and Scary Face).
+      - **Pokémon 2**: Conkeldurr (♂, Lv42; Fighting; knows Bulk Up and Scary Face; defeated by Sirius).
+      - **Pokémon 3**: Mudsdale (♂, Lv42; Ground; Ability: Stamina; knows HiHorsepower).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
