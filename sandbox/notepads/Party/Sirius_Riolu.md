@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 222), Attack (C+, 209), Defense (A-, 202), Sp. Atk (C-, 195), Sp. Def (E, 132), Speed (C-, 137)
-- **Current Condition**: 167/222 HP, Healthy (`Meteor Mash 4/10`, `Bulldoze 13/20`, `Aura Sphere 0/20`, `Mach Punch 13/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 167/222 HP, Healthy (`Meteor Mash 3/10`, `Bulldoze 13/20`, `Aura Sphere 0/20`, `Mach Punch 13/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv77 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

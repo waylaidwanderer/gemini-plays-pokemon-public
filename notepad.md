@@ -2328,6 +2328,13 @@
   - From `(29, 6)`, walking west along `rows 7-8` past Hiker Gerald (`26, 6`) and the 2x2 boulder (`22-23, 5-6`) reaches the western upper platform (`cols 15-21, rows 4-9`) and the **Floor Ladder** whose warp tile is at `(17, 6)` (warping down to `10, 44` in **Sors Road B1F**, verified Turns 35140-35143).
 ## Sors Road B1F (`10, 44` <-> Sors Road Upper Cavern `17, 6`)
 - **Southwestern Ladder Landing (`10, 44`)**: Wall ladder at `(10, 43)` returns to Sors Road Upper Cavern (`17, 6`). Features an Old Man / Expert at `(10, 46-47)` and an underground body of water to the east (`cols 15+`).
+- **Underground River Channel (`cols 15-22, rows 30-47`)**:
+  - Launching the FastSwift boat from `(19, 48)` facing `Up` onto `(19, 47)` and surfing along `column 18` (`18, 47 -> 18, 40`) and `column 20` (`20, 40 -> 20, 35`) passes the Swimmer and Spheal at `(19, 43-44)`.
+- **Swimmer♀ Judy (`21, 35`)**:
+  - **Pre-Battle Quote**: *"One more lap!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Primarina (♂, Lv45; Water/Fairy; OHKO'd by Sirius's `Meteor Mash` for `2005 EXP`).
+  - **Outcome**: Defeated in Turns 35149-35151.
 
 <hr>
 
@@ -3196,7 +3203,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 222), Attack (C+, 209), Defense (A-, 202), Sp. Atk (C-, 195), Sp. Def (E, 132), Speed (C-, 137)
-- **Current Condition**: 167/222 HP, Healthy (`Meteor Mash 4/10`, `Bulldoze 13/20`, `Aura Sphere 0/20`, `Mach Punch 13/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 167/222 HP, Healthy (`Meteor Mash 3/10`, `Bulldoze 13/20`, `Aura Sphere 0/20`, `Mach Punch 13/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv77 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
