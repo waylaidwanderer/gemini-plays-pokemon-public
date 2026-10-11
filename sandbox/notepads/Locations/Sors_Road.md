@@ -223,3 +223,10 @@
       - **Pokémon 1**: Exeggutor (♂, Lv45; Grass/Psychic; defeated by Sirius's `Return` for `2043 EXP`).
     - **Outcome**: Defeated in Turns 35305-35309 (*"Yup."*; awards `₽3,960`).
     - **Southwestern Staircase (`16-18, 22-23`)**: Descends from `(18, 21)` to `(18, 24 -> 14, 24)` to loop around the right-facing one-way ledge at `(15, 17-18)` toward the northwestern staircase at `(12, 16)`.
+  - **Hiker Ned (`9, 17`, Facing Down)**:
+    - **Location**: Directly west of the 3-tile-wide northwestern staircase (`10-12, 15-16`).
+    - **Team (2 Pokémon)**: Includes Kangaskhan (♀, Lv45; Normal; OHKO'd by Sirius's `Aura Sphere`).
+    - **Outcome**: Defeated in Turns 35313-35316.
+  - **Northwestern Upper Plateau (`cols 7-20, rows 8-15`)**:
+    - Reached by climbing the 3-tile-wide wooden staircase at `(10-12, 15-16)` to `(11, 15)` and following `column 8` north (`8, 14 -> 8, 9`) between the western boulders and the tall grass.
+    - The 2x2 brown boulder at `(13-14, 9-10)` is solid on both rows and is bypassed along `row 8` (`12, 8 -> 17, 8`) toward the rotating Hiker at `(18, 10)` and the **Upper Cave Entrance** at `(19, 8)`.
