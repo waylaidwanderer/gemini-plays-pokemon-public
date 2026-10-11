@@ -366,3 +366,6 @@
   1. **Quarterfinals**: Defeated **Cooltrainer Quentin** (Luxray Lv39, Toxicroak Lv39, Talonflame Lv40, Cacturne Lv40).
   2. **Semifinals**: Defeated **Cooltrainer Lola** (Gastrodon Lv39, Delphox Lv40, Ampharos Lv39, Lilligant Lv40), while Alola's **Gladion** defeated Expert Bert on the opposite side of the bracket.
   3. **Round Eight Finals**: Defeated **PKMN Trainer Gladion** from the Alola Region (Crobat Lv40, Zoroark Lv40, Lucario Lv40, Charizard Lv41, Silvally Lv42) to win his Round Eight group and officially qualify for the Eclipse Tournament Finals.
+- **Post-Round-8 Announcement — Finals on Eclipse Square via Route 14 (`19, 25`, Turns 34579-34582)**:
+  - Stepping onto `(19, 25)` in the Lower Arena Ring triggers the Host's PA announcement concluding Round 8 and summoning all finalists and spectators to **Eclipse Square** via **Route 14**.
+  - A cutscene in the upper lobby shows that Sinnoh's **Lucas** and **Dawn** also qualified for the Finals (with **Barry** accompanying them to watch) while **Frio** stands silently nearby.

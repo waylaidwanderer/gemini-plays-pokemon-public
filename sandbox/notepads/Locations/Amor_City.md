@@ -282,3 +282,6 @@
     - **Pokémon 4**: Charizard (♂, Lv41; Fire/Flying; Held Item: Sitrus Berry; knows Fire Blast; 2HKO'd by Sirius's `Aura Sphere` for `1836 EXP`).
     - **Pokémon 5**: Silvally (Lv42; Normal; OHKO'd by Sirius's `Aura Sphere` for `1980 EXP`).
   - **Outcome**: Defeated in Turns 34568-34577 (*"Looks like after I made it all all this way... I still lost... / Hmph... It's not like me to slip up like that. / I've got to keep fighting stronger opponents. / Maybe one day we can fight again, Asher"*; awards `₽4,704`), crowning Asher winner of his Round 8 group and qualifying him for the Eclipse Tournament Finals.
+- **Post-Round-8 Finals Announcement & Cutscene (`19, 25` in Lower Arena Ring, Turns 34579-34582)**:
+  - Stepping onto `(19, 25)` after winning Round 8 triggers a PA announcement from the Host declaring that the final qualifying round of the Eclipse Tournament has officially ended and instructing all finalists and spectators to head to **Eclipse Square** (accessible on foot via **Route 14** from northeastern Amor City).
+  - In the upper Tournament Arena Lobby (`14, 15`), **Barry** congratulates **Lucas** and **Dawn** on making it to the Finals alongside Asher (calling Asher *"a beast"* after losing to him in Round 5), while **Frio** listens silently nearby (`"..."`) before Lucas, Dawn, and Barry set off toward Route 14 and Eclipse Square.
