@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 225), Attack (C+, 212), Defense (A-, 204), Sp. Atk (C-, 197), Sp. Def (E, 134), Speed (C-, 139)
-- **Current Condition**: 110/225 HP, Healthy (`Meteor Mash 0/10`, `Bulldoze 7/20`, `Aura Sphere 0/20`, `Mach Punch 10/30`; leveled up to Lv78 defeating Black Belt Arnold's Heracross at Sors Road B1F `15, 8` in Turn 35189; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 225/225 HP, Healthy (`Meteor Mash 0/10`, `Bulldoze 7/20`, `Aura Sphere 0/20`, `Mach Punch 6/30`; healed to full 225/225 HP with a Hyper Potion at Sors Road B1F `24, 3` in Turn 35198 and defeated Cooltrainer Smith and Cooltrainer Nino in Turns 35200-35207; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv78 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

@@ -163,6 +163,7 @@
     - **Pokémon 1**: Heracross (♂, Lv44; Bug/Fighting; knows Close Combat; OHKO'd by Sirius's `Meteor Mash` for `1885 EXP`, leveling Sirius to Lv78).
     - **Pokémon 2**: Scrafty (♂, Lv45; Dark/Fighting; Ability: Intimidate; knows Scary Face; 2HKO'd by Sirius's `Mach Punch` for `1648 EXP`).
   - **Outcome**: Defeated in Turns 35186-35194 (*"Oh wait.."*; awards `₽3,240`).
+  - **Western Wall Boundary (`8-9, 8`)**: Walking west from `(15, 8)` along `row 8` terminates at the solid western cavern wall at `(8-9, 8)` (verified Turn 35219).
 - **Northern Ledge & Staircase to Exit Archway (`cols 17-31, rows 3-11`)**:
   - From `(15, 8)`, walking `Right 2, Up 5, Right 7` reaches `(24, 3)` at the top of the northern wooden staircases (`cols 23-25, rows 4-5` and `rows 8-9`).
 - **Cooltrainer♂ Smith (`24, 7`, Rotating)**:
@@ -177,5 +178,6 @@
     - **Pokémon 1**: Serperior (♀, Lv45; Grass; knows Coil; 2HKO'd by Sirius's `Mach Punch` for `2005 EXP`).
   - **Outcome**: Defeated in Turns 35205-35208 (*"My confidence"*; awards `₽2,700`).
 - **Northeastern Exit Archway (`29, 7` <-> Sors Road Upper Exterior Canyon `54, 27`)**:
-  - Stepping `Up` into `(29, 7)` warps outside to `(54, 27)` in an enclosed pocket canyon on the upper Sors Road Exterior map (`cols 47-66, rows 25-32`).
+  - Stepping `Up` into `(29, 7)` warps outside to `(54, 27)` on the upper green-grass Sors Road Exterior canyon map (`cols 0-66, rows 25-32`).
   - **Timer Ball (`59, 31`)**: Reached from `(54, 27)` via `(54, 28 -> 58, 28 -> 58, 31)` facing `Right` (collected in Turn 35216).
+  - **Westbound Canyon Trail (`54, 27 -> 49, 28 -> 47, 29`)**: Continues west along `row 29` past a Female Cooltrainer in the tall grass at `(45, 27)` (verified Turn 35220).
