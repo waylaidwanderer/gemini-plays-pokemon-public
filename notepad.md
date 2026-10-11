@@ -1259,8 +1259,12 @@
 - **Signpost (`20, 22`, Interacted from `20, 23` Facing `Up`, Turn 36350)**: Reads verbatim: *"Make sure to wear proper clothing! Temperature can get extremely low!"*
 - **Wild Pokémon (Snowy Tall Grass)**:
   - **Abomasnow** (♀, Lv42; Grass/Ice; Ability: Snow Warning; caught in 1st Ultra Ball at `11, 29` in Turn 36354, nicknamed **Taiga**, transferred to Box 4 as **95th Owned species**).
-- **Western Snow-Grass Corridor (`16, 24 -> 11, 24 -> 11, 32`, Turns 36351-36355)**:
-  - Because the pine tree trunks at `(16-17, 28)` and `(20-21, 29)` and the cliff wall at `(24, 24-25)` block direct eastbound passage from `(18, 22)` to the `(25, 20-23)` staircase, walk west along `row 24` (`18, 24 -> 11, 24`, across the passable tree tops at `14-15, 24` and `12-13, 25`) and south along `column 11` (`11, 24 -> 11, 32`).
+  - **Piloswine** (♂, Lv37; Ice/Ground; knows `Icy Wind`; caught in 2nd Ultra Ball at `14, 35` in Turn 36359, nicknamed **Tusk**, transferred to Box 4 as **96th Owned species**).
+- **Western Snow-Grass Corridor (`16, 24 -> 11, 24 -> 11, 32 -> 12, 34 -> 18, 35`, Turns 36351-36361)**:
+  - Because the pine tree trunks at `(16-17, 28)` and `(20-21, 29)` and the cliff wall at `(24, 24-25)` block direct eastbound passage from `(18, 22)` to the `(25, 20-23)` staircase, walk west along `row 24` (`18, 24 -> 11, 24`, across the passable tree tops at `14-15, 24` and `12-13, 25`), south along `column 11` (`11, 24 -> 11, 32`), and east via `(12, 32 -> 12, 34 -> 14, 35 -> 18, 35)`.
+- **Observed Trainers & Staircases**:
+  - **Female Team Siara Grunt (`18, 34`, facing `Down`)**: Stands west of the southern northbound wooden staircase (`cols 19-21, rows 32-34`).
+  - **Female Team Siara Grunt (`24, 26`)**: Stands south of the eastern northbound wooden staircase (`25, 20-23`).
 
 <hr>
 
