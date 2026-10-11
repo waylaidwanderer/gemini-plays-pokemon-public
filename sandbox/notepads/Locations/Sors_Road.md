@@ -114,4 +114,10 @@
     - **Pokémon 3**: Simipour (♂, Lv44; Water; 2HKO'd by Sirius's `Mach Punch` for `1639 EXP`).
   - **Outcome**: Defeated in Turns 35120-35128 (*"Now I see..."*; awards `₽880`).
 ## Sors Road Upper Cavern (`29, 6` <-> Sors Road Exterior `33, 17`)
-- **Northern Entrance (`29, 5` -> `29, 6`)**: Connects back to Sors Road Exterior at `(33, 18)`. Features an Explorer/Hiker at `(26, 6)` facing `Down`.
+- **Northern Entrance (`29, 5` -> `29, 6`)**: Connects back to Sors Road Exterior at `(33, 18)`.
+- **Hiker Gerald (`26, 6`, Facing Down)**:
+  - **Pre-Battle Quote**: *"Going deeper?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Throh (♂, Lv44; Fighting; OHKO'd by Sirius's `Meteor Mash` for `1536 EXP`).
+    - **Pokémon 2**: Steelix (♀, Lv44; Steel/Ground; knows Crunch; 2HKO'd by Sirius's `Bulldoze` for `1848 EXP`).
+  - **Outcome**: Defeated in Turns 35131-35136.
