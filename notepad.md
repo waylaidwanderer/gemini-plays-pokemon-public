@@ -2309,6 +2309,13 @@
 - **Central Cliff Gap (`43, 21`) & Western Cave Approach (`cols 33-45, rows 17-25`)**:
   - From the base of the eastern staircase (`55, 22`), walking west along `row 22` to `(44, 22)` and stepping `Up 1` to `(44, 21)` passes through the 1-tile cliff gap at `(43, 21)` onto `(40-42, 21)` above the 4-step southern staircase (`40-41, 22-25`).
   - From `(40, 21)`, walking north to `(40, 19)` and west along `row 19` (`40, 19 -> 33, 19`) bypasses the stationary `Down`-facing Cooltrainer at `(36, 21)` and leads directly to the **Sors Road Upper Cave Entrance** at `(33, 17-18)` (verified Turns 35118-35120).
+- **Biker Alex (`36, 21` -> `36, 20`, Rotating)**:
+  - **Pre-Battle Quote**: *"Wanna go back in? / Come on this weather is nothing!"*
+  - **Team (3 Pokémon, +1 Hyper Potion)**:
+    - **Pokémon 1**: Vaporeon (♂, Lv43; Water; defeated by Sirius's `Mach Punch` + sandstorm for `1806 EXP`).
+    - **Pokémon 2**: Floatzel (♂, Lv44; Water; OHKO'd by Sirius's `Mach Punch` for `1630 EXP`).
+    - **Pokémon 3**: Simipour (♂, Lv44; Water; 2HKO'd by Sirius's `Mach Punch` for `1639 EXP`).
+  - **Outcome**: Defeated in Turns 35120-35128 (*"Now I see..."*).
 
 <hr>
 
@@ -3177,7 +3184,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 222), Attack (C+, 209), Defense (A-, 202), Sp. Atk (C-, 195), Sp. Def (E, 132), Speed (C-, 137)
-- **Current Condition**: 174/222 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 15/20`, `Aura Sphere 0/20`, `Mach Punch 19/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 174/222 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 15/20`, `Aura Sphere 0/20`, `Mach Punch 13/30`; leveled up to Lv77 defeating Hiker Isaac's Bronzong at Sors Road Exterior `50, 22` in Turn 35113; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv77 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
