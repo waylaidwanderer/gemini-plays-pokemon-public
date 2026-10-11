@@ -18,7 +18,7 @@
 - **Female Cooltrainer (`33, 27`, Observed Turn 34640)**: Stationed in the tall grass patch on the southern section of the eastern riverbank (`cols 31-35, rows 24-28`), reached via the 2-tile wide southbound tall-grass corridor along `columns 36-37` (`rows 10+`, verified Turn 34683).
 - **Wild Grass Encounters**:
   - **Amoonguss** (Lv32, ♂; Grass/Poison; knows Sweet Scent; caught at `38, 8` in Ultra Ball in Turn 34691 and nicknamed "Morel", bringing Owned PokéDex species to 82).
-  - **Unfezant** (Lv32, ♂; Normal/Flying; knows Air Cutter; encountered at `37, 8` in Turn 34701).
+  - **Unfezant** (Lv32, ♂; Normal/Flying; knows Air Cutter; caught at `37, 8` in Ultra Ball in Turn 34704 and nicknamed "Plume", bringing Owned PokéDex species to 84).
 ## Route 14 River (`cols 27-31, rows 4-18`)
 - **Upstream Rock Barrier (`27, 6`, `28, 5`, `29, 4`)**: Launching the FastSwift boat from `(32, 7)` onto `(31, 7)` and surfing north to `(30, 5)` reveals a diagonal line of river rocks at `(27, 6)`, `(28, 5)`, and `(29, 4)` and curved shoreline at `(30, 4)` that completely block upstream passage beyond `row 5` (verified Turns 34611-34612).
 - **Downstream Passage Under the Wooden Bridge (`column 29`, `rows 5-28`)**: Surfing south along `column 29` passes directly underneath the overhead wooden river bridge (`rows 10-12`) into the downstream section, which terminates at a solid cliff wall along `row 29` (`cols 25-29`) with no southern landing (verified Turns 34612-34613 & 34640).
