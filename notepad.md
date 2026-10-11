@@ -690,7 +690,12 @@
   - **Eastern Lower Magma Level Junction (`38, 14`) & Coworker Andrew (`41, 14` -> `39, 14`)**:
     - Reached via `(34, 10 -> 34, 11 -> 38, 11 -> 38, 14)` past Hiker Nolan (`35, 10`).
     - Branches to a **wooden wall ladder ascending at `(44, 15)`** (`rungs at 44, 12-16`) and a **southbound path** continuing along `columns 40-44, rows 15-17+`.
-    - **Coworker Andrew (`41, 14` -> `39, 14`, 3 Pokémon)**: Initiated battle in Turn 35610.
+    - **Coworker Andrew (`41, 14` -> `39, 14`)**:
+      - **Team (3 Pokémon)**:
+        - **Pokémon 1**: Scizor (♀, Lv48; Bug/Steel; OHKO'd by Sirius's `Aura Sphere` for `2056 EXP`).
+        - **Pokémon 2**: Conkeldurr (♂, Lv49; Fighting; OHKO'd by Sirius's `Aura Sphere` for `2026 EXP`).
+        - **Pokémon 3**: Metang (Lv48; Steel/Psychic; OHKO'd by Sirius's `Dark Pulse` for `1573 EXP`).
+      - **Outcome**: Defeat quote: *"This place does seem safe..."* (verified Turns 35610-35616).
 
 <hr>
 
