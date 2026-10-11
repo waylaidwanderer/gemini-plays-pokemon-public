@@ -7,11 +7,16 @@
 
 ## Snowy Mountain Exterior (`18, 22` Cavern Exit)
 - **Signpost (`20, 22`, Interacted from `20, 23` Facing `Up`, Turn 36350)**: Reads verbatim: *"Make sure to wear proper clothing! Temperature can get extremely low!"*
+- **Overworld & Battle Mechanics**:
+  - **Snowy Tall Grass Movement (Verified Turn 36369)**: Unlike standard green tall grass, snowy tall-grass tiles on Mt. Nit Exterior do NOT have a turn-in-place delay; pressing a new D-Pad direction turns and steps immediately on the first press.
+  - **Permanent Hail Weather (Verified Turns 36365 & 36374)**: Triggers `"It started to hail!"` at battle start and automatically plays `"Hail continues to fall." -> "<Player Pokémon> is pelted by Hail!" -> "Foe <Pokémon> is pelted by Hail!"` (`auto-advancing without button presses`) after every mid-battle send-out.
 - **Wild Pokémon (Snowy Tall Grass)**:
   - **Abomasnow** (♀, Lv42; Grass/Ice; Ability: Snow Warning; caught in 1st Ultra Ball at `11, 29` in Turn 36354, nicknamed **Taiga**, transferred to Box 4 as **95th Owned species**).
   - **Piloswine** (♂, Lv37; Ice/Ground; knows `Icy Wind`; caught in 2nd Ultra Ball at `14, 35` in Turn 36359, nicknamed **Tusk**, transferred to Box 4 as **96th Owned species**).
 - **Western Snow-Grass Corridor (`16, 24 -> 11, 24 -> 11, 32 -> 12, 34 -> 18, 35`, Turns 36351-36361)**:
   - Because the pine tree trunks at `(16-17, 28)` and `(20-21, 29)` and the cliff wall at `(24, 24-25)` block direct eastbound passage from `(18, 22)` to the `(25, 20-23)` staircase, walk west along `row 24` (`18, 24 -> 11, 24`, across the passable tree tops at `14-15, 24` and `12-13, 25`), south along `column 11` (`11, 24 -> 11, 32`), and east via `(12, 32 -> 12, 34 -> 14, 35 -> 18, 35)`.
-- **Observed Trainers & Staircases**:
-  - **Female Team Siara Grunt (`18, 34`, facing `Down`)**: Stands west of the southern northbound wooden staircase (`cols 19-21, rows 32-34`). Pre-battle quote: *"We are the guard unit, we are not letting you pass!"*; uses **Eclipsed Bastiodon** (`♂, Lv50`, 2HKO'd by Sirius's `Dark Pulse` for `1852 EXP`) and **Eclipsed Rampardos** (`♂, Lv50`, OHKO'd by Sirius's `Dark Pulse` for `1852 EXP`, leveling Sirius to Lv86; defeated Turns 36362-36367).
-  - **Female Team Siara Grunt (`24, 26`)**: Stands south of the eastern northbound wooden staircase (`25, 20-23`).
+- **Trainers & Staircases**:
+  - **Female Team Siara Grunt #1 (`18, 34`, facing `Down`)**: Stands west of the southern northbound wooden staircase (`cols 19-21, rows 32-34`). Pre-battle quote: *"We are the guard unit, we are not letting you pass!"*; uses **Eclipsed Bastiodon** (`♂, Lv50`, 2HKO'd by Sirius's `Dark Pulse` for `1852 EXP`) and **Eclipsed Rampardos** (`♂, Lv50`, OHKO'd by Sirius's `Dark Pulse` for `1852 EXP`, leveling Sirius to Lv86; defeated Turns 36362-36367).
+  - **Path from `(18, 35)` to `(25, 27)` (Verified Turns 36367-36370)**: Walk `Right 2` to `(20, 35)`, `Up 3` up the `(19-21, 32-34)` staircase to `(20, 32)` (below the snow sapling at `20, 31`), `Right 1` to `(21, 32)`, `Up 1` to `(21, 31)`, `Right 2` to `(23, 31)` (below the snow sapling at `22, 30`), `Up 2` to `(23, 29)`, `Right 2` to `(25, 29)`, and `Up 2` to `(25, 27)`.
+  - **Female Team Siara Grunt #2 (`24, 27`, facing `Right`)**: Pre-battle quote: *"To the summit? / Nah ah!"*; uses **Alakazam** (`♀, Lv49`, Psychic; OHKO'd by Sirius's `Dark Pulse` for `1953 EXP`), **Bronzong** (`Lv49`, Steel/Psychic; OHKO'd by Sirius's `Dark Pulse` for `1837 EXP`), and **Reuniclus** (`♀, Lv50`, Psychic; OHKO'd by Sirius's `Dark Pulse` for `2100 EXP`; defeat quote `"..."`, defeated Turns 36371-36377).
+  - **Team Siara Grunt #3 (`27, 25`, facing `Left`)**: Guards the approach to the eastern northbound wooden staircase (`25-26, 20-23`).
