@@ -73,3 +73,9 @@
     - **Pokémon 2**: Machamp (♀, Lv43; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1777 EXP`, leveling Sirius to Lv76).
     - **Pokémon 3**: Gigalith (♀, Lv43; Rock; OHKO'd by Sirius's `Aura Sphere` for `1630 EXP`).
   - **Outcome**: Defeated in Turns 35073-35079 (`"."`; awards `₽1,720`).
+- **Cooltrainer♂ Isaac (`30, 9` -> `28, 9`, Rotating)**:
+  - **Pre-Battle Quote**: *"Oi, to the summit?"*
+  - **Team (2 Pokémon)**:
+    - **Pokémon 1**: Swalot (♀, Lv43; Poison; knows Rock Throw; defeated by Sirius's `Bulldoze` + sandstorm for `1548 EXP`).
+    - **Pokémon 2**: Drapion (♂, Lv44; Poison/Dark; OHKO'd by Sirius's `Bulldoze` for `1650 EXP`).
+  - **Outcome**: Defeated in Turns 35083-35088 (*"Yeah I thought so"*; awards `₽2,640`).
