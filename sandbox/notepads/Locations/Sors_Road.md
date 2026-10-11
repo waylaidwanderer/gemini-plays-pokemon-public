@@ -171,3 +171,8 @@
     - **Pokémon 1**: Houndoom (♀, Lv44; Dark/Fire; OHKO'd by Sirius's `Mach Punch` for `1923 EXP`).
     - **Pokémon 2**: Aggron (♂, Lv45; Steel/Rock; OHKO'd by Sirius's `Mach Punch` for `1975 EXP`).
   - **Outcome**: Defeated in Turns 35199-35204 (`"..."`; awards `₽2,700`).
+- **Cooltrainer♀ Nino (`29, 11` -> `27, 11`, Rotating)**:
+  - **Pre-Battle Quote**: *"You and me, we fight now!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Serperior (♀, Lv45; Grass; knows Coil; 2HKO'd by Sirius's `Mach Punch` for `2005 EXP`).
+  - **Outcome**: Defeated in Turns 35205-35208 (*"My confidence"*; awards `₽2,700`).
