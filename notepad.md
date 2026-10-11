@@ -2241,6 +2241,14 @@
       - **Pokémon 2**: Excadrill (♀, Lv44; Ground/Steel; OHKO'd by Sirius's `Mach Punch` for `1677 EXP`).
     - **Outcome**: Defeated in Turns 35003-35007 (*"No way..."*).
   - **Northbound Wooden Staircase (`cols 32-34, rows 23-24`)**: Leads north onto the upper terrace (`33, 21-22`).
+- **Upper Terrace (`cols 29-45+, rows 16-22`)**:
+  - **Black Belt Nikolas (`33, 19` -> `33, 21`, Facing Down)**:
+    - **Pre-Battle Quote**: *"A deep breath before a big fight. / That's key to stay calm..."*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Primeape (♀, Lv43; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1372 EXP`).
+      - **Pokémon 2**: Hariyama (♂, Lv44; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1695 EXP`).
+      - **Pokémon 3**: Emboar (♂, Lv43; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1915 EXP`).
+    - **Outcome**: Defeated in Turns 35008-35012 (*"What?!!"*; awards `₽3,096`).
 
 <hr>
 
