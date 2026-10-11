@@ -180,4 +180,11 @@
 - **Northeastern Exit Archway (`29, 7` <-> Sors Road Upper Exterior Canyon `54, 27`)**:
   - Stepping `Up` into `(29, 7)` warps outside to `(54, 27)` on the upper green-grass Sors Road Exterior canyon map (`cols 0-66, rows 25-32`).
   - **Timer Ball (`59, 31`)**: Reached from `(54, 27)` via `(54, 28 -> 58, 28 -> 58, 31)` facing `Right` (collected in Turn 35216).
-  - **Westbound Canyon Trail (`54, 27 -> 49, 28 -> 47, 29`)**: Continues west along `row 29` past a Female Cooltrainer in the tall grass at `(45, 27)` (verified Turn 35220).
+  - **Westbound Canyon Trail (`54, 27 -> 49, 28 -> 47, 29 -> 40, 27`)**: Continues west along `row 29` past Cooltrainer Miku at `(45, 27)` (verified Turn 35220).
+  - **Cooltrainer♀ Miku (`45, 27` -> `45, 28`, Facing Down)**:
+    - **Pre-Battle Quote**: *"Be careful not to fall!"*
+    - **Team (3 Pokémon, +1 Hyper Potion)**:
+      - **Pokémon 1**: Tangrowth (♂, Lv44; Grass; knows Screech, Giga Drain, and Nature Power [Stun Spore]; defeated by Sirius for `1762 EXP`).
+      - **Pokémon 2**: Gorebyss (♀, Lv44; Water; knows Dive and Psychic; defeated by Sirius's `Bulldoze` for `1677 EXP`).
+      - **Pokémon 3**: Meganium (♂, Lv45; Grass; knows Body Slam; 2HKO'd by Sirius's `Mach Punch` for `2005 EXP`).
+    - **Outcome**: Defeated in Turns 35221-35235 (*"Oh no."*; awards `₽2,700`).

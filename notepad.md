@@ -2383,7 +2383,14 @@
 - **Northeastern Exit Archway (`29, 7` <-> Sors Road Upper Exterior Canyon `54, 27`)**:
   - Stepping `Up` into `(29, 7)` warps outside to `(54, 27)` on the upper green-grass Sors Road Exterior canyon map (`cols 0-66, rows 25-32`).
   - **Timer Ball (`59, 31`)**: Reached from `(54, 27)` via `(54, 28 -> 58, 28 -> 58, 31)` facing `Right` (collected in Turn 35216).
-  - **Westbound Canyon Trail (`54, 27 -> 49, 28 -> 47, 29`)**: Continues west along `row 29` past a Female Cooltrainer in the tall grass at `(45, 27)` (verified Turn 35220).
+  - **Westbound Canyon Trail (`54, 27 -> 49, 28 -> 47, 29 -> 40, 27`)**: Continues west along `row 29` past Cooltrainer Miku at `(45, 27)` (verified Turn 35220).
+  - **Cooltrainer♀ Miku (`45, 27` -> `45, 28`, Facing Down)**:
+    - **Pre-Battle Quote**: *"Be careful not to fall!"*
+    - **Team (3 Pokémon, +1 Hyper Potion)**:
+      - **Pokémon 1**: Tangrowth (♂, Lv44; Grass; knows Screech, Giga Drain, and Nature Power [Stun Spore]; defeated by Sirius for `1762 EXP`).
+      - **Pokémon 2**: Gorebyss (♀, Lv44; Water; knows Dive and Psychic; defeated by Sirius's `Bulldoze` for `1677 EXP`).
+      - **Pokémon 3**: Meganium (♂, Lv45; Grass; knows Body Slam; 2HKO'd by Sirius's `Mach Punch` for `2005 EXP`).
+    - **Outcome**: Defeated in Turns 35221-35235 (*"Oh no."*; awards `₽2,700`).
 
 <hr>
 
@@ -3252,7 +3259,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 225), Attack (C+, 212), Defense (A-, 204), Sp. Atk (C-, 197), Sp. Def (E, 134), Speed (C-, 139)
-- **Current Condition**: 225/225 HP, Healthy (`Meteor Mash 0/10`, `Bulldoze 7/20`, `Aura Sphere 0/20`, `Mach Punch 6/30`; healed to full 225/225 HP with a Hyper Potion at Sors Road B1F `24, 3` in Turn 35198 and defeated Cooltrainer Smith and Cooltrainer Nino in Turns 35200-35207; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 123/225 HP, Paralyzed (`Meteor Mash 0/10`, `Bulldoze 1/20`, `Aura Sphere 0/20`, `Mach Punch 1/30`; defeated Cooltrainer Miku at Sors Road Upper Exterior Canyon `45, 29` in Turns 35221-35235; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv78 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
