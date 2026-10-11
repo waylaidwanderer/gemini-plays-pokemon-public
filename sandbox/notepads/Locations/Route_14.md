@@ -77,7 +77,8 @@
   - **Cooltrainer♂ Lenny (`36, 22` -> `36, 23`, Facing Down)**:
     - **Pre-Battle Quote**: *"The cliff are so steep!"*
     - **Team (1 Pokémon, +1 Hyper Potion)**:
-      - **Pokémon 1**: Altaria (♀, Lv43; Dragon/Flying; knows Dragon Dance and Dragon Pulse).
+      - **Pokémon 1**: Altaria (♀, Lv43; Dragon/Flying; knows Dragon Dance, Cotton Guard, and Dragon Pulse; defeated by Sirius for `1731 EXP`).
+    - **Outcome**: Defeated in Turns 34827-34832 (*"I think I'm gonna fall"*; awards `₽2,580`).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
