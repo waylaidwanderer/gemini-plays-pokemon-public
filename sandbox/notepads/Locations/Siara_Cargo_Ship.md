@@ -32,3 +32,6 @@
   - **Cutscene with Micah's Sceptile (`14, 8` on Lower Cabin Deck, Turns 35731-35733)**: Walking east to `(13, 8)` triggers a scene where Colen Champion **Micah's Sceptile** emerges from the middle cabin (`15, 6`). Realizing Micah is sinking Team Siara's Cargo Ship without knowing Asher is aboard, Asher asks Sceptile to tell Micah to hold off so they can buy time to stop the leakage, and Sceptile runs off to alert Micah while Frio rejoins Asher.
   - **Lower Deck Eastern Cabin (`20, 6` <-> `35, 29`, Turn 35736)**: Contains **Ultra Ball x1** at `(38, 25)` (collected Turn 35736).
   - **Lower Deck Middle Cabin (`15, 6` <-> `20, 29`) & Western Cabin (`10, 6` <-> `5, 29`, Turns 35738-35741)**: Middle cabin is empty; Western cabin contains **Full Restore x1** on the left table at `(3, 27)` (collected Turn 35741).
+  - **Cargo Area Crate Bridge (`23, 10` Red Mat <-> `60, 24` Doorway, Turns 35742-35744)**:
+    - Stepping `Down` off the red mat at `(23, 10)` on the Lower Cabin Deck warps to `(60, 25)` on the southeastern walkway of the flooded Cargo Area.
+    - Walking west to `(55, 25)` and north along the aligned green cargo crates (`cols 53-56, rows 20 -> 10`) yields **TM42 (Facade)** from the golden item ball at `(54, 16)` (collected Turn 35744).
