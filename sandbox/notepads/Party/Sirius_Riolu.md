@@ -4,12 +4,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv84
+- **Level**: Lv85
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 241), Attack (C+, 228), Defense (A-, 220), Sp. Atk (C-, 212), Sp. Def (E, 144), Speed (C-, 150)
-- **Current Condition**: 236/241 HP, Healthy (`Dark Pulse 9/15`, `Return 16/20`, `Aura Sphere 13/20`, `Mach Punch 29/30`; cured Burn and restored to full HP with a Full Restore at Siara HQ `23, 12` in Turn 35827)
-- **EXP**: Lv84 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 244), Attack (C+, 231), Defense (A-, 223), Sp. Atk (C-, 214), Sp. Def (E, 146), Speed (C-, 152)
+- **Current Condition**: 224/244 HP, Healthy (`Dark Pulse 7/15`, `Return 14/20`, `Aura Sphere 11/20`, `Mach Punch 28/30`)
+- **EXP**: Lv85 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
   - Slot 2: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; taught via infinite-use TM27 replacing Bulldoze in Turn 35244; can be swapped with TM10 Dark Pulse / TM23 Iron Tail / TM39 Rock Tomb at any time to refill PP)
