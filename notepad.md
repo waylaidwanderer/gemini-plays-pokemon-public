@@ -2305,7 +2305,10 @@
 ## Team Siara HQ Exterior — The Soul Dew & Summoning Latias (`42, 15` -> `43, 15`, Turns 35887-35893)
 - **Pinpointing the Tremor (`42, 15`)**: Outside the Siara HQ elevator (`37, 12`), **Colen Champion Micah** (`41, 14`) informed **Asher**, **Valora** (`40, 15`), and **Frio** (`41, 16`) that the seismic activity originated from **Northern Hupest**—which Frio immediately identified as the **Ancient Hupestian Ruins** in **Jarro Town**.
 - **The Soul Dew & Calling Latias**: When Asher and Frio noted that the three gem shrines are too far apart to return the **Green Gem**, **Yellow Gem**, and **Purple Gem** on foot in time, Micah entrusted Asher with the **Soul Dew** (`Items Pocket`, Turn 35890) and explained the nature of **Legendary Pokémon**—sentient, one-of-a-kind beings that cannot simply be caught, but choose to join trainers who prove themselves worthy.
-- **Proving Worth to Latias (`44, 15`)**: Focusing with the **Soul Dew**, Asher called the Legendary Pokémon **Latias** (`44, 15`), which descended and landed before him. Micah and Frio explained that Asher must battle and defeat Latias (`43, 15` facing `44, 15`) to prove his strength and worthiness so Latias will lend them its power.
+- **Proving Worth to Latias & Flying to Solare Island (`43, 15` -> `44, 15`, Turns 35893-35898)**:
+  - Focusing with the **Soul Dew**, Asher called the Legendary Pokémon **Latias** (`44, 15`), which descended and landed before him.
+  - After Asher defeated **Legendary PKMN Latias** (`Lv50`, Dragon/Psychic; knows Surf; 2HKO'd by Sirius's `Dark Pulse` for `2260 EXP`), Latias allowed Asher to ride on her back (`44, 15`).
+  - **Splitting the Three Gems**: **Colen Champion Micah** and **Frio** took two of the gems to return them to Aur Factory and the Undersea Lab (with Frio escorting **Valora** back to the mainland so she could call **Dad [Jackson]** and **Professor Ivo**), while Asher flew on **Latias** to **Solare Island**—the farthest shrine—to return the remaining gem before regrouping with everyone at the **Ancient Hupestian Ruins** in **Jarro Town**.
 
 <hr>
 
@@ -3444,10 +3447,11 @@
     - Interacting with the central console (`13, 5`) dispensed the drained **Green Gem**, **Yellow Gem**, and **Purple Gem** into Asher's Key Items Pocket.
     - Frio connected the three gems to the **Hupestian Ruins** prophecy (*"The angel lashed her anger out... three shining stars..."*), warning that draining the gems had awakened the ancient entity for Marie's strange Poké Ball and that the three gems must be returned to their original shrines.
     - When a distant tremor shook the facility, **Colen Champion Micah** teleported outside to call his team and locate the tremor's source, and Asher, Valora, and Frio warped to the **Siara HQ Entrance Hall** (`10, 9`) to follow him outside (`10, 5`).
-  - **The Soul Dew & Summoning Latias Outside Siara HQ (`42, 15`, Turns 35887-35893)**:
+  - **The Soul Dew, Summoning Latias & Flight to Solare Island (`42, 15` -> `44, 15`, Turns 35887-35898)**:
     - Outside the Siara HQ elevator (`37, 12 -> 42, 15`), **Colen Champion Micah** revealed that his team traced the seismic activity to **Northern Hupest**—the **Ancient Hupestian Ruins** in Jarro Town.
     - To return the **Green Gem**, **Yellow Gem**, and **Purple Gem** to their three distant shrines quickly enough, Micah gave Asher the **Soul Dew** (`Items Pocket`), explaining that Legendary Pokémon choose to join trainers who prove themselves worthy.
-    - Focusing with the Soul Dew, Asher summoned the Legendary Pokémon **Latias** (`44, 15`), which landed before him waiting for Asher to prove his strength in battle.
+    - Focusing with the Soul Dew, Asher summoned the Legendary Pokémon **Latias** (`44, 15`) and defeated her (`Lv50`) in a trial of strength, earning her trust to ride on her back.
+    - **Dividing the Three Shrines**: Micah and Frio took two of the gems to return them to their shrines (with Frio bringing Valora back to the mainland to call Dad and Professor Ivo), while Asher flew on **Latias** to **Solare Island** with the third gem before everyone regroups at the **Ancient Hupestian Ruins** in **Jarro Town**.
 
 <hr>
 
