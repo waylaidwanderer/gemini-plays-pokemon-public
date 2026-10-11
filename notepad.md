@@ -2324,6 +2324,8 @@
     - **Pokémon 1**: Throh (♂, Lv44; Fighting; OHKO'd by Sirius's `Meteor Mash` for `1536 EXP`).
     - **Pokémon 2**: Steelix (♀, Lv44; Steel/Ground; knows Crunch; 2HKO'd by Sirius's `Bulldoze` for `1848 EXP`).
   - **Outcome**: Defeated in Turns 35131-35137 (*"R-right"*; awards `₽1,760`).
+- **Western Upper Platform & Floor Ladder (`17, 5`)**:
+  - From `(29, 6)`, walking west along `rows 7-8` past Hiker Gerald (`26, 6`) and the 2x2 boulder (`22-23, 5-6`) reaches the western upper platform (`cols 15-21, rows 4-9`) and the **Floor Ladder** at `(17, 5)` (verified Turns 35140-35142).
 
 <hr>
 
