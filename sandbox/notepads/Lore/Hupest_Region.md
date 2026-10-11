@@ -369,3 +369,6 @@
 - **Post-Round-8 Announcement — Finals on Eclipse Square via Route 14 (`19, 25`, Turns 34579-34582)**:
   - Stepping onto `(19, 25)` in the Lower Arena Ring triggers the Host's PA announcement concluding Round 8 and summoning all finalists and spectators to **Eclipse Square** via **Route 14**.
   - A cutscene in the upper lobby shows that Sinnoh's **Lucas** and **Dawn** also qualified for the Finals (with **Barry** accompanying them to watch) while **Frio** stands silently nearby.
+- **Route 14 River Bridge — Reunion with Valora (`26, 11`, Turns 34600-34601)**:
+  - Crossing onto the wooden river bridge on Route 14 (`26, 11`), Asher reunited with **Valora** (`29, 11`), who happily shared that she also won her Round Eight group to qualify for the Finals and that Professor Ivo gave them the green light to head to **Eclipse Square** while Team Siara is quiet.
+  - Insisting he wouldn't let her make such a long journey alone, Asher invited Valora to travel together, and she gladly joined him for the trek to Eclipse Square.

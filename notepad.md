@@ -1418,7 +1418,7 @@
 - **Eastern Connection**: Leads toward **Hupestian Ruins / Mt. Nit** and **Eclipse Square** (host venue of the Eclipse Tournament Finals).
 ## Western Forest Clearing & River Bridge (`cols 9-30, rows 6-16`)
 - **Western Signboard (`22-23, 10`)**: Interacted from `(22, 11)`, reads verbatim: *"Route 14 / The trail to Victory"* (verified Turn 34599).
-- **Wooden River Bridge (`cols 26-29, rows 10-12`)**: Spans a north-south river (`cols 27-29`), with a trainer stationed at `(29, 11)` facing `Right`.
+- **Wooden River Bridge — Reunion with Valora (`26, 11`, Turns 34600-34601)**: Stepping onto `(26, 11)` on the wooden river bridge (`cols 26-32, rows 10-12`) prompts **Valora** (`29, 11`) to turn and greet Asher (`27, 11`), sharing that she also cleared Round Eight to reach the Finals and that Professor Ivo told her they can head to **Eclipse Square** since Team Siara is low on activity. Asher insists on accompanying her for the long journey (`"I checked the map and it's a huge journey, so I wouldn't even let you go alone!"`), and a flustered Valora (`"Hehe... Is that so? Alrighty then! Let's go!"`) joins Asher at `(26, 11)`.
 
 <hr>
 
@@ -2692,6 +2692,9 @@
 - **Post-Round-8 Announcement — Finals on Eclipse Square via Route 14 (`19, 25`, Turns 34579-34582)**:
   - Stepping onto `(19, 25)` in the Lower Arena Ring triggers the Host's PA announcement concluding Round 8 and summoning all finalists and spectators to **Eclipse Square** via **Route 14**.
   - A cutscene in the upper lobby shows that Sinnoh's **Lucas** and **Dawn** also qualified for the Finals (with **Barry** accompanying them to watch) while **Frio** stands silently nearby.
+- **Route 14 River Bridge — Reunion with Valora (`26, 11`, Turns 34600-34601)**:
+  - Crossing onto the wooden river bridge on Route 14 (`26, 11`), Asher reunited with **Valora** (`29, 11`), who happily shared that she also won her Round Eight group to qualify for the Finals and that Professor Ivo gave them the green light to head to **Eclipse Square** while Team Siara is quiet.
+  - Insisting he wouldn't let her make such a long journey alone, Asher invited Valora to travel together, and she gladly joined him for the trek to Eclipse Square.
 
 <hr>
 
