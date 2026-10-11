@@ -72,7 +72,12 @@
     - **Pokémon 3**: Yanmega (♂, Lv41; Bug/Flying; OHKO'd by Sirius's `Meteor Mash` for `1581 EXP`).
     - **Pokémon 4**: Vespiquen (♀, Lv41; Bug/Flying; Ability: Pressure; Held Item: Leftovers; knows Air Slash, Bug Buzz, and Roost; defeated by Sirius for `1458 EXP`).
     - **Pokémon 5**: Scizor (♂, Lv42; Bug/Steel; knows Swords Dance and Bullet Punch; defeated by Sirius for `1800 EXP`).
-  - **Outcome**: Defeated in Turns 34794-34824 (*"Darn... / I gotta try harder if I want to be the greatest Bug Type user..."*).
+  - **Outcome**: Defeated in Turns 34794-34824 (*"Darn... / I gotta try harder if I want to be the greatest Bug Type user..."*; post-battle, Aaron shares that his goal is to join the Sinnoh Elite Four and hopes watching Asher in the Finals will inspire him before departing east, verified Turn 34825).
+- **Overhead Bridge (`cols 32-34, rows 20-27`), Eastern Staircase (`cols 38-40, rows 20-21`), & Southern Ridge Items (`35, 26` & `38, 29`)**:
+  - **Cooltrainer♂ Lenny (`36, 22` -> `36, 23`, Facing Down)**:
+    - **Pre-Battle Quote**: *"The cliff are so steep!"*
+    - **Team (1 Pokémon, +1 Hyper Potion)**:
+      - **Pokémon 1**: Altaria (♀, Lv43; Dragon/Flying; knows Dragon Dance and Dragon Pulse).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
