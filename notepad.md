@@ -1437,7 +1437,14 @@
   - **Scolipede** (Lv34, ♂; Bug/Poison; knows Agility; caught at `36, 13` in Ultra Ball in Turn 34729 and nicknamed "Chitin", bringing Owned PokéDex species to 87).
 ## Route 14 River (`cols 27-31, rows 4-18`)
 - **Upstream Rock Barrier (`27, 6`, `28, 5`, `29, 4`)**: Launching the FastSwift boat from `(32, 7)` onto `(31, 7)` and surfing north to `(30, 5)` reveals a diagonal line of river rocks at `(27, 6)`, `(28, 5)`, and `(29, 4)` and curved shoreline at `(30, 4)` that completely block upstream passage beyond `row 5` (verified Turns 34611-34612).
-- **Downstream Passage & Second Overhead Wooden Bridge (`column 27-29`, `rows 5-35+`)**: Surfing south along `column 29` passes underneath the northern wooden bridge (`rows 10-12`) to `(28, 26)`, where the river channel shifts slightly west to `columns 25-27` and passes underneath a **second overhead wooden bridge** at `rows 31-33` (verified Turn 34733).
+- **Downstream Passage & Second Overhead Wooden Bridge (`column 27-29`, `rows 5-38`)**: Surfing south along `column 29` passes underneath the northern wooden bridge (`rows 10-12`) to `(28, 26)`, where the river channel shifts slightly west to `columns 25-27` and passes underneath a **second overhead wooden bridge** at `rows 31-33` (verified Turn 34733) to the southern river staircase at `(21-23, 35-38)` (dismounting via `row 37` onto `21, 36` -> `20, 36`, verified Turns 34735-34736).
+## Southwestern Riverbank & Upper Bridge Loop (`cols 9-28, rows 18-39`)
+- **Southern River Staircase (`21-23, 35-38`)**: Side-facing wooden river staircase on the western bank south of the second overhead wooden bridge. Approaching along `row 37` (`24, 37 -> Left 3`) steps onto `(21, 36)` and `(20, 36)` (verified Turns 34735-34736).
+- **Southwestern Trail (`20, 35 -> 14, 35 -> 12, 30`)**: Runs west along `row 35` below the horizontal ridge (`17-20, 34`) to `(14, 35)` and north along `column 12` to `(12, 30)`, with a purple item bottle sprite visible at `(9, 25)` and an east-facing one-way return ledge at `(20, 18-20)` (verified Turns 34721-34738).
+- **Cooltrainer♀ Spencer (`10, 30`, Facing Right)**:
+  - **Pre-Battle Quote**: *"You surfed down the river? / Wow, you must be quite something!"*
+  - **Team (1 Pokémon)**:
+    - **Pokémon 1**: Druddigon (♂, Lv43; Dragon).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
@@ -2961,12 +2968,12 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 205), Attack (C+, 193), Defense (A-, 187), Sp. Atk (C-, 180), Sp. Def (E, 122), Speed (C-, 127)
-- **Current Condition**: 114/205 HP, Healthy (at Route 14 `28, 26`)
+- **Current Condition**: 91/205 HP, Healthy (in battle with Cooltrainer Spencer at Route 14 `12, 30`)
 - **EXP**: Lv71 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304; reached Lv69 defeating PKMN Trainer ???'s Sceptile in Undersea Lab B5F in Turn 34486; reached Lv70 defeating Gladion's Zoroark in Round 8 Finals in Turn 34570; reached Lv71 defeating Swimmer Luis's Sharpedo on Route 14 in Turn 34641)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
-  - Slot 3: Aura Sphere (Fighting, Special, 80 power, never misses, STAB, 20 PP; learned at Lv34 replacing Work Up)
+  - Slot 3: Aura Sphere (Fighting, Special, 80 power, never misses, STAB, 0/20 PP remaining after Turn 34644; learned at Lv34 replacing Work Up)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
 - **OT / ID**: Asher / 54592
