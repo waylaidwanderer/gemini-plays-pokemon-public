@@ -2393,7 +2393,13 @@
     - **Outcome**: Defeated in Turns 35221-35235 (*"Oh no."*; awards `₽2,700`).
   - **Upper Green-Grass Plateau Staircase (`32-34, 22-23` -> `33, 21`)**:
     - Climbs north from `(33, 24)` onto the upper green-grass plateau (`33, 21`).
-    - Features a gold item ball at `(30, 19)` below a rugged rock at `(30, 17)`, a northbound wooden staircase at `(39-40, 17-18)`, and **Cooltrainer♂ Futa** at `(37, 21)` facing `Up` (`"Damn, another Finalist!"` -> `"Yeah I'm sure you are one."`; uses Toxicroak ♂ Lv44 and Hitmonchan ♂ Lv45, both OHKO'd by Sirius's `Return`; awards `₽2,700`, verified Turns 35238-35252).
+    - Features a gold item ball at `(30, 19)` below a rugged rock at `(30, 17)`, a downward-facing one-way ledge at `(39-41, 18)` below the upper staircase (`39-41, 15-16`), and **Cooltrainer♂ Futa** at `(37, 21)` facing `Up` (`"Damn, another Finalist!"` -> `"Yeah I'm sure you are one."`; uses Toxicroak ♂ Lv44 and Hitmonchan ♂ Lv45, both OHKO'd by Sirius's `Return`; awards `₽2,700`, verified Turns 35238-35252).
+  - **Bug Catcher Lewis (`50, 21` -> `48, 21`, Facing Left)**:
+    - **Pre-Battle Quote**: *"You must be wondering what a bug catcher is doing out here... / Don't judge a book by its cover!"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Accelgor (♂, Lv44; Bug; OHKO'd by Sirius's `Return` for `1630 EXP`).
+      - **Pokémon 2**: Vikavolt (♂, Lv45; Bug/Electric; OHKO'd by Sirius's `Return` for `1879 EXP`, leveling Sirius to Lv79).
+    - **Outcome**: Defeated in Turns 35255-35260.
 
 <hr>
 
@@ -3258,12 +3264,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv78
+- **Level**: Lv79
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 225), Attack (C+, 212), Defense (A-, 204), Sp. Atk (C-, 197), Sp. Def (E, 134), Speed (C-, 139)
-- **Current Condition**: 225/225 HP, Healthy (`Meteor Mash 0/10`, `Return 20/20`, `Aura Sphere 0/20`, `Mach Punch 1/30`; healed to full 225/225 HP and cured of paralysis with a Full Restore at Sors Road Upper Exterior `33, 21` in Turn 35240, and taught infinite-use `TM27 (Return)` over `Bulldoze` in Slot 2 for `20/20 PP` in Turn 35244)
-- **EXP**: Lv78 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 228), Attack (C+, 215), Defense (A-, 207), Sp. Atk (C-, 200), Sp. Def (E, 136), Speed (C-, 141)
+- **Current Condition**: 218/228 HP, Healthy (`Meteor Mash 0/10`, `Return 16/20`, `Aura Sphere 0/20`, `Mach Punch 1/30`; leveled up to Lv79 defeating Bug Catcher Lewis's Vikavolt at Sors Road Upper Exterior `47, 21` in Turn 35259)
+- **EXP**: Lv79 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; taught via infinite-use TM27 replacing Bulldoze in Turn 35244; can be swapped with TM10 Dark Pulse / TM23 Iron Tail / TM39 Rock Tomb at any time to refill PP)
