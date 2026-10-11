@@ -3259,11 +3259,11 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 225), Attack (C+, 212), Defense (A-, 204), Sp. Atk (C-, 197), Sp. Def (E, 134), Speed (C-, 139)
-- **Current Condition**: 123/225 HP, Paralyzed (`Meteor Mash 0/10`, `Bulldoze 1/20`, `Aura Sphere 0/20`, `Mach Punch 1/30`; defeated Cooltrainer Miku at Sors Road Upper Exterior Canyon `45, 29` in Turns 35221-35235; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 225/225 HP, Healthy (`Meteor Mash 0/10`, `Return 20/20`, `Aura Sphere 0/20`, `Mach Punch 1/30`; healed to full 225/225 HP and cured of paralysis with a Full Restore at Sors Road Upper Exterior `33, 21` in Turn 35240, and taught infinite-use `TM27 (Return)` over `Bulldoze` in Slot 2 for `20/20 PP` in Turn 35244)
 - **EXP**: Lv78 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
-  - Slot 2: Bulldoze (Ground, Physical, 60 power, 100% acc, 20 PP; lowers target's Speed -1; learned at Lv36 replacing Force Palm in Turn 31742)
+  - Slot 2: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; taught via infinite-use TM27 replacing Bulldoze in Turn 35244; can be swapped with TM10 Dark Pulse / TM23 Iron Tail / TM39 Rock Tomb at any time to refill PP)
   - Slot 3: Aura Sphere (Fighting, Special, 80 power, never misses, STAB, 20 PP; learned at Lv34 replacing Work Up)
   - Slot 4: Mach Punch (Fighting, Physical, Priority +1, STAB, 30 PP)
   - *Declined / Replaced*: Counter (Physical Fighting, offered Lv12; declined), Quick Attack (Normal Priority +1, replaced at Lv20 by Force Palm), Nasty Plot (Status Dark, +2 Sp. Atk, offered Lv24; declined), Screech (Status Normal, -2 Def, offered Lv28; declined)
