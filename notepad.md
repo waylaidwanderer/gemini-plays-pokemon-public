@@ -1475,6 +1475,8 @@
     - **Pokémon 3**: Ninetales (♀, Lv41; Fire; knows Confuse Ray; OHKO'd by Sirius's `Bulldoze` for `1563 EXP`).
   - **Outcome**: Defeated in Turns 34778-34788 (*"Wow"*; awards `₽2,460`).
 - **Seamless Map Transition to Route 14 East (`70, 24` West <-> `0, 24` East)**: Walking east along `row 24` past `(65, 24)` transitions seamlessly at `x=70` onto `(0, 24)` in **Route 14 East** (verified Turn 34789).
+## Route 14 East (`cols 0+, rows 18-30`)
+- **Western Signboard (`9-10, 21`)**: Interacted from `(9, 22)`, reads verbatim: *"Eclipse Square / ----->"* (verified Turn 34790).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
