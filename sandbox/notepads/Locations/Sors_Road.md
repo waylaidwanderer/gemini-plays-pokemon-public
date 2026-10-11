@@ -112,4 +112,4 @@
     - **Pokémon 1**: Vaporeon (♂, Lv43; Water; defeated by Sirius's `Mach Punch` + sandstorm for `1806 EXP`).
     - **Pokémon 2**: Floatzel (♂, Lv44; Water; OHKO'd by Sirius's `Mach Punch` for `1630 EXP`).
     - **Pokémon 3**: Simipour (♂, Lv44; Water; 2HKO'd by Sirius's `Mach Punch` for `1639 EXP`).
-  - **Outcome**: Defeated in Turns 35120-35128 (*"Now I see..."*).
+  - **Outcome**: Defeated in Turns 35120-35128 (*"Now I see..."*; awards `₽880`).
