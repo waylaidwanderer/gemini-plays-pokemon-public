@@ -13,3 +13,5 @@
     - **Pokémon 1**: Conkeldurr (♂, Lv43; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1777 EXP`).
     - **Pokémon 2**: Lycanroc (♀, Lv43; Midday Form, Rock; OHKO'd by Sirius's `Aura Sphere` for `1566 EXP`).
   - **Outcome**: Defeated in Turns 34986-34989 (`"."`; awards `₽1,720`).
+- **Western Upper Ridge (`cols 3-15, rows 20-28`, reached via wooden ramp at `9-11, 24`)**:
+  - **Max Potion (`5, 20`)**: Collected from spray-bottle sprite at the northern end of the western upper ridge (`4, 25 -> 4, 21 -> 5, 21` facing `Up`) in Turn 34991.
