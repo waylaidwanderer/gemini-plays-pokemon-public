@@ -999,7 +999,7 @@
 
   - Cylindrical incubator apparatus at (18-19, 5-6): Interacting facing North from (19, 6) displays 'Better not mess with that machine.'
 
-  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?", verified post-tremor Turn 27080). After receiving the PokéDex in Azluf Town, speaking to her triggers a PokéDex progress check ("Ivo: Hey, Ashi, how's your PokéDex coming along?" -> "Ivo: Wow, you've registered 10 different species! Here, take this for your efforts!"), rewarding **Full Restore x1** at 10 Owned species (verified Turn 29012), **Max Revive x1** at 25 Owned species (verified Turn 30121), and **Destiny Knot x1** at 50 Owned species (verified Turn 31109) before repeating "Ivo: If you catch enough Pokémon I might give you some rewards...".
+  - Professor Ivo at (20, 6): Ambient dialogue ("Hey, Ashi, how's your new Pokémon?", verified post-tremor Turn 27080). After receiving the PokéDex in Azluf Town, speaking to her triggers a PokéDex progress check ("Ivo: Hey, Ashi, how's your PokéDex coming along?" -> "Ivo: Wow, you've registered 10 different species! Here, take this for your efforts!"), rewarding **Full Restore x1** at 10 Owned species (verified Turn 29012), **Max Revive x1** at 25 Owned species (verified Turn 30121), and **Destiny Knot x1** at 50 Owned species (verified Turn 31109) before repeating "Ivo: If you catch enough Pokémon I might give you some rewards..." (re-verified at 92 Owned species in Turn 36152).
 
   - Server tower at (23, 8-9): Inert decorative fixture.
 
