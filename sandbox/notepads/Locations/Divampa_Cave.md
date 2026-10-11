@@ -63,3 +63,6 @@
         - **Pokémon 2**: Conkeldurr (♂, Lv49; Fighting; OHKO'd by Sirius's `Aura Sphere` for `2026 EXP`).
         - **Pokémon 3**: Metang (Lv48; Steel/Psychic; OHKO'd by Sirius's `Dark Pulse` for `1573 EXP`).
       - **Outcome**: Defeat quote: *"This place does seem safe..."* (verified Turns 35610-35616).
+  - **Lower Magma Level Southeastern Plateau (`36, 26` Stairs), Nugget (`33, 27`), & Wall Ladder (`32, 23-24`)**:
+    - Reached by jumping south over the `(40-44, 22)` one-way ledge to `(42, 24)` and climbing the middle step (`36, 26`) of the 3-tile side-facing wooden staircase (`36, 25-27`).
+    - Golden item ball at `(33, 27)` yields **Nugget x1** (collected Turn 35633), and a wooden wall ladder ascends at `(32, 22-24)`.
