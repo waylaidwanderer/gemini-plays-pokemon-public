@@ -112,6 +112,8 @@
     - **Outcome**: Defeated in Turns 34919-34924 (awards `₽2,580`).
   - **PKMN Trainer Barry (`97, 23`, Triggered at `97, 21` on Staircase)**:
     - **Pre-Battle Dialogue**: *"Heeeey! / It's you again! / I'm still kind of salty I lost back there you know... / My friends are both in the Finals, so they will most likely face you. / I'm kind of curious who they will be fighting against... / Can I see it for myself?"*
+    - **Team (5 Pokémon)**:
+      - **Pokémon 1**: Staraptor (♂, Lv42; Normal/Flying; Ability: Intimidate; knows Brave Bird and ExtremeSpeed).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
