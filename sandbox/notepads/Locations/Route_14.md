@@ -17,7 +17,7 @@
   - **Outcome**: Defeated in Turns 34604-34609 (awards `₽2,400`).
 ## Route 14 River (`cols 27-31, rows 4-18`)
 - **Upstream Rock Barrier (`27, 6`, `28, 5`, `29, 4`)**: Launching the FastSwift boat from `(32, 7)` onto `(31, 7)` and surfing north to `(30, 5)` reveals a diagonal line of river rocks at `(27, 6)`, `(28, 5)`, and `(29, 4)` and curved shoreline at `(30, 4)` that completely block upstream passage beyond `row 5` (verified Turns 34611-34612).
-- **Downstream Passage Under the Wooden Bridge (`column 29`, `rows 5-18`)**: Surfing south along `column 29` passes directly underneath the overhead wooden river bridge (`rows 10-12`) into the downstream section (verified Turns 34612-34613).
+- **Downstream Passage Under the Wooden Bridge (`column 29`, `rows 5-28`)**: Surfing south along `column 29` passes directly underneath the overhead wooden river bridge (`rows 10-12`) into the downstream section, which terminates at a solid cliff wall along `row 29` (`cols 25-29`) with no southern landing (verified Turns 34612-34613 & 34640).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
@@ -26,5 +26,12 @@
     - **Pokémon 3**: Lumineon (♂, Lv40; Water; OHKO'd by Sirius's `Aura Sphere` for `1380 EXP`).
     - **Pokémon 4**: Pyukumuku (♂, Lv40; Water; Ability: Unaware; OHKO'd by Sirius's `Aura Sphere` for `1233 EXP`).
   - **Outcome**: Defeated in Turns 34634-34638 (*"Hmm... doesn't seem like it"*; awards `₽480`).
+- **Swimmer♂ Luis (`26, 26` -> `27, 26`, Facing Right)**:
+  - **Pre-Battle Quote**: *"Yooo! / Wanna have an aquatic fight?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Sharpedo (♀, Lv40; Water/Dark; OHKO'd by Sirius's `Aura Sphere` for `1500 EXP`, leveling Sirius to Lv71).
+    - **Pokémon 2**: Gyarados (♀, Lv40; Water/Flying; knows Scary Face; 2HKO'd by Sirius's `Aura Sphere` for `1833 EXP`).
+    - **Pokémon 3**: Muk (♂, Lv40; Poison; OHKO'd by Sirius's `Bulldoze` for `1345 EXP`).
+  - **Outcome**: Defeated in Turns 34640-34647 (*"Wow!"*).
 - **Wild Surfing Encounters**:
   - **Bruxish** (Lv30, ♀; Water/Psychic; knows Psywave, Aqua Jet, Crunch; caught at `29, 13` in Luxury Ball in Turn 34631 and nicknamed "Dazzle", bringing Owned PokéDex species to 81).

@@ -1430,7 +1430,7 @@
   - **Outcome**: Defeated in Turns 34604-34609 (awards `₽2,400`).
 ## Route 14 River (`cols 27-31, rows 4-18`)
 - **Upstream Rock Barrier (`27, 6`, `28, 5`, `29, 4`)**: Launching the FastSwift boat from `(32, 7)` onto `(31, 7)` and surfing north to `(30, 5)` reveals a diagonal line of river rocks at `(27, 6)`, `(28, 5)`, and `(29, 4)` and curved shoreline at `(30, 4)` that completely block upstream passage beyond `row 5` (verified Turns 34611-34612).
-- **Downstream Passage Under the Wooden Bridge (`column 29`, `rows 5-18`)**: Surfing south along `column 29` passes directly underneath the overhead wooden river bridge (`rows 10-12`) into the downstream section (verified Turns 34612-34613).
+- **Downstream Passage Under the Wooden Bridge (`column 29`, `rows 5-28`)**: Surfing south along `column 29` passes directly underneath the overhead wooden river bridge (`rows 10-12`) into the downstream section, which terminates at a solid cliff wall along `row 29` (`cols 25-29`) with no southern landing (verified Turns 34612-34613 & 34640).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
@@ -1439,6 +1439,13 @@
     - **Pokémon 3**: Lumineon (♂, Lv40; Water; OHKO'd by Sirius's `Aura Sphere` for `1380 EXP`).
     - **Pokémon 4**: Pyukumuku (♂, Lv40; Water; Ability: Unaware; OHKO'd by Sirius's `Aura Sphere` for `1233 EXP`).
   - **Outcome**: Defeated in Turns 34634-34638 (*"Hmm... doesn't seem like it"*; awards `₽480`).
+- **Swimmer♂ Luis (`26, 26` -> `27, 26`, Facing Right)**:
+  - **Pre-Battle Quote**: *"Yooo! / Wanna have an aquatic fight?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Sharpedo (♀, Lv40; Water/Dark; OHKO'd by Sirius's `Aura Sphere` for `1500 EXP`, leveling Sirius to Lv71).
+    - **Pokémon 2**: Gyarados (♀, Lv40; Water/Flying; knows Scary Face; 2HKO'd by Sirius's `Aura Sphere` for `1833 EXP`).
+    - **Pokémon 3**: Muk (♂, Lv40; Poison; OHKO'd by Sirius's `Bulldoze` for `1345 EXP`).
+  - **Outcome**: Defeated in Turns 34640-34647 (*"Wow!"*).
 - **Wild Surfing Encounters**:
   - **Bruxish** (Lv30, ♀; Water/Psychic; knows Psywave, Aqua Jet, Crunch; caught at `29, 13` in Luxury Ball in Turn 34631 and nicknamed "Dazzle", bringing Owned PokéDex species to 81).
 
@@ -2946,7 +2953,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 205), Attack (C+, 193), Defense (A-, 187), Sp. Atk (C-, 180), Sp. Def (E, 122), Speed (C-, 127)
-- **Current Condition**: 157/205 HP, Healthy (at Route 14 `28, 26`)
+- **Current Condition**: 114/205 HP, Healthy (at Route 14 `28, 26`)
 - **EXP**: Lv71 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304; reached Lv69 defeating PKMN Trainer ???'s Sceptile in Undersea Lab B5F in Turn 34486; reached Lv70 defeating Gladion's Zoroark in Round 8 Finals in Turn 34570; reached Lv71 defeating Swimmer Luis's Sharpedo on Route 14 in Turn 34641)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
