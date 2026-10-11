@@ -2231,7 +2231,7 @@
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Banette (♂, Lv43; Ghost; OHKO'd by Sirius's `Meteor Mash` for `1648 EXP`, leveling Sirius to Lv75).
       - **Pokémon 2**: Krookodile (♂, Lv44; Ground/Dark; OHKO'd by Sirius's `Mach Punch` for `1903 EXP`).
-    - **Outcome**: Defeated in Turns 34997-35002 (`"..."`).
+    - **Outcome**: Defeated in Turns 34997-35002 (`"..."`; awards `₽2,640`).
   - **Side-Facing Wooden Staircase (`28, 25-27`)**: Leads east onto the higher eastern ledge (`cols 29+`).
 
 <hr>
