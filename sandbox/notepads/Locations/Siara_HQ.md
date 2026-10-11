@@ -34,3 +34,12 @@
 - **Lounge Showdown & The Card Key (`19, 6` <-> `35, 7`, Turns 35790-35800)**:
   - Re-entering the Lounge (`35, 7`) after visiting Valora's cell triggers a confrontation with the two **Team Siara Grunts** (`34, 7` and `35, 6`), where Asher defeats the lead grunt (`Skuntank♂ Lv49`, `Hippowdon♂ Lv49`, `Toxicroak♂ Lv49`, `Drapion♂ Lv49`; awards `₽5,096`).
   - Interacting with the Poké Ball on the table at `(36, 5)` (from `36, 6` facing `Up`) recovers **Valora's Pokémon** and the **Card Key** (*"These are Valora's Pokémon and a Card Key! / With this I can open the door!"*).
+- **Unlocking Valora's Cell & Boss Battle with Siara Admin Flo (`5, 28` -> `5, 29`, Turns 35804-35818)**:
+  - Using the **Prison Key** on Valora's cell gate (`5, 27-28`) unlocks the door, and Asher reunites with **Valora** and returns her Pokémon.
+  - **Siara Admin Flo** (`7, 29`) arrives, broadcasts a facility-wide intruder alert over the PA (`"Asher, has infiltrated HQ!"`), and challenges Asher to a boss battle:
+    - **Team (5 Pokémon, +1 Full Restore)**:
+      - **Pokémon 1**: Garbodor (♀, Lv49; Poison; knows Toxic Spikes; 2HKO'd by Sirius's `Dark Pulse` for `1743 EXP`).
+      - **Pokémon 2**: Gliscor (♂, Lv49; Ground/Flying; knows Earthquake; defeated by Sirius's `Dark Pulse` for `1879 EXP`, leveling Sirius to Lv84).
+      - **Pokémon 3**: Salazzle (♀, Lv49; Poison/Fire; OHKO'd by Sirius's `Return` for `1764 EXP`).
+      - **Pokémon 4**: Volcarona (♂, Lv49; Bug/Fire; Ability: Flame Body; OHKO'd by Sirius's `Return`).
+      - **Pokémon 5**: Sceptile (♂, Lv50; Grass; OHKO'd by Sirius's `Aura Sphere` for `2227 EXP`).

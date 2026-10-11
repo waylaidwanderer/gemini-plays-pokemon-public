@@ -2253,6 +2253,15 @@
 - **Lounge Showdown & The Card Key (`19, 6` <-> `35, 7`, Turns 35790-35800)**:
   - Re-entering the Lounge (`35, 7`) after visiting Valora's cell triggers a confrontation with the two **Team Siara Grunts** (`34, 7` and `35, 6`), where Asher defeats the lead grunt (`Skuntank♂ Lv49`, `Hippowdon♂ Lv49`, `Toxicroak♂ Lv49`, `Drapion♂ Lv49`; awards `₽5,096`).
   - Interacting with the Poké Ball on the table at `(36, 5)` (from `36, 6` facing `Up`) recovers **Valora's Pokémon** and the **Card Key** (*"These are Valora's Pokémon and a Card Key! / With this I can open the door!"*).
+- **Unlocking Valora's Cell & Boss Battle with Siara Admin Flo (`5, 28` -> `5, 29`, Turns 35804-35818)**:
+  - Using the **Prison Key** on Valora's cell gate (`5, 27-28`) unlocks the door, and Asher reunites with **Valora** and returns her Pokémon.
+  - **Siara Admin Flo** (`7, 29`) arrives, broadcasts a facility-wide intruder alert over the PA (`"Asher, has infiltrated HQ!"`), and challenges Asher to a boss battle:
+    - **Team (5 Pokémon, +1 Full Restore)**:
+      - **Pokémon 1**: Garbodor (♀, Lv49; Poison; knows Toxic Spikes; 2HKO'd by Sirius's `Dark Pulse` for `1743 EXP`).
+      - **Pokémon 2**: Gliscor (♂, Lv49; Ground/Flying; knows Earthquake; defeated by Sirius's `Dark Pulse` for `1879 EXP`, leveling Sirius to Lv84).
+      - **Pokémon 3**: Salazzle (♀, Lv49; Poison/Fire; OHKO'd by Sirius's `Return` for `1764 EXP`).
+      - **Pokémon 4**: Volcarona (♂, Lv49; Bug/Fire; Ability: Flame Body; OHKO'd by Sirius's `Return`).
+      - **Pokémon 5**: Sceptile (♂, Lv50; Grass; OHKO'd by Sirius's `Aura Sphere` for `2227 EXP`).
 
 <hr>
 
@@ -3381,6 +3390,7 @@
   - Warping into the **Prison Cells** sector (`19, 21`), Asher overheard two **Team Siara Grunts** by the security desk bragging about locking **Valora** up and planning to sell her powerful Pokémon before heading to the **lounge** to rest.
   - Locating Valora inside the locked northwestern cell (`5, 26`), Asher promised to return right away with the cell key from the two grunts in the lounge.
   - Returning to the **Lounge** (`19, 6 -> 35, 7`), Asher defeated the Team Siara Grunt guarding the table (`Skuntank Lv49`, `Hippowdon Lv49`, `Toxicroak Lv49`, `Drapion Lv49`) and recovered **Valora's Pokémon** and the **Card Key** from `(36, 5)` (`Turns 35790-35800`).
+  - Unlocking Valora's cell (`5, 28`) with the **Prison Key** and returning her Pokémon, Asher was ambushed by **Siara Admin Flo** (`7, 29`), who placed Team Siara HQ on lockdown before Asher swept her 5-Pokémon team (`Garbodor Lv49`, `Gliscor Lv49`, `Salazzle Lv49`, `Volcarona Lv49`, `Sceptile Lv50`; `Turns 35804-35818`).
 
 <hr>
 
@@ -3610,7 +3620,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 241), Attack (C+, 228), Defense (A-, 220), Sp. Atk (C-, 212), Sp. Def (E, 144), Speed (C-, 150)
-- **Current Condition**: 180/241 HP, Healthy (`Dark Pulse 11/15`, `Return 19/20`, `Aura Sphere 16/20`, `Mach Punch 30/30`; PP restored to full when recovering Poké Balls aboard Siara Cargo Ship in Turn 35714)
+- **Current Condition**: 150/241 HP, Burned (`BRN` from Volcarona's Flame Body; `Dark Pulse 10/15`, `Return 17/20`, `Aura Sphere 16/20`, `Mach Punch 30/30`)
 - **EXP**: Lv84 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
