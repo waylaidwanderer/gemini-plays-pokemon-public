@@ -2275,7 +2275,7 @@
     - **Pokémon 1**: Gastrodon (♂, Lv43; Water/Ground; OHKO'd by Sirius's `Aura Sphere` for `1528 EXP`).
     - **Pokémon 2**: Machamp (♀, Lv43; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1777 EXP`, leveling Sirius to Lv76).
     - **Pokémon 3**: Gigalith (♀, Lv43; Rock; OHKO'd by Sirius's `Aura Sphere` for `1630 EXP`).
-  - **Outcome**: Defeated in Turns 35073-35078.
+  - **Outcome**: Defeated in Turns 35073-35079 (`"."`; awards `₽1,720`).
 
 <hr>
 
