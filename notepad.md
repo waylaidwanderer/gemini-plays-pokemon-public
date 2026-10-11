@@ -2282,6 +2282,13 @@
     - **Pokémon 1**: Swalot (♀, Lv43; Poison; knows Rock Throw; defeated by Sirius's `Bulldoze` + sandstorm for `1548 EXP`).
     - **Pokémon 2**: Drapion (♂, Lv44; Poison/Dark; OHKO'd by Sirius's `Bulldoze` for `1650 EXP`).
   - **Outcome**: Defeated in Turns 35083-35088 (*"Yeah I thought so"*; awards `₽2,640`).
+- **Cooltrainer♀ Grace (`38, 10`, Rotating)**:
+  - **Pre-Battle Quote**: *"Darn, how can you stand this weather?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Electabuzz (♂, Lv43; Electric; OHKO'd by Sirius's `Bulldoze` for `1437 EXP`).
+    - **Pokémon 2**: Eelektross (♀, Lv43; Electric; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1768 EXP`).
+    - **Pokémon 3**: Klefki (♂, Lv44; Steel/Fairy; Ability: Prankster; knows SmokeScreen; OHKO'd by Sirius's `Aura Sphere`).
+  - **Outcome**: Defeated in Turns 35089-35095.
 
 <hr>
 
@@ -3150,7 +3157,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 219), Attack (C+, 207), Defense (A-, 200), Sp. Atk (C-, 192), Sp. Def (E, 131), Speed (C-, 135)
-- **Current Condition**: 171/219 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 18/20`, `Aura Sphere 5/20`, `Mach Punch 20/30`; leveled up to Lv76 defeating Hiker Lukas's Machamp at Sors Road Exterior `21, 15` in Turn 35076; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 171/219 HP, Healthy (`Meteor Mash 5/10`, `Bulldoze 16/20`, `Aura Sphere 3/20`, `Mach Punch 20/30`; leveled up to Lv76 defeating Hiker Lukas's Machamp at Sors Road Exterior `21, 15` in Turn 35076; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv76 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304; reached Lv69 defeating PKMN Trainer ???'s Sceptile in Undersea Lab B5F in Turn 34486; reached Lv70 defeating Gladion's Zoroark in Round 8 Finals in Turn 34570; reached Lv71 defeating Swimmer Luis's Sharpedo on Route 14 in Turn 34641; reached Lv72 defeating Cheryl's Wailord on Route 14 in Turn 34770; reached Lv73 defeating Silver's Weavile on Route 14 East in Turn 34842; reached Lv74 defeating Cooltrainer's Snorlax on Route 14 East in Turn 34923; reached Lv75 defeating Cooltrainer Nora's Banette in Sors Road 1F in Turn 34998; reached Lv76 defeating Hiker Lukas's Machamp on Sors Road Exterior in Turn 35076)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)

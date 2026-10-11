@@ -79,3 +79,10 @@
     - **Pokémon 1**: Swalot (♀, Lv43; Poison; knows Rock Throw; defeated by Sirius's `Bulldoze` + sandstorm for `1548 EXP`).
     - **Pokémon 2**: Drapion (♂, Lv44; Poison/Dark; OHKO'd by Sirius's `Bulldoze` for `1650 EXP`).
   - **Outcome**: Defeated in Turns 35083-35088 (*"Yeah I thought so"*; awards `₽2,640`).
+- **Cooltrainer♀ Grace (`38, 10`, Rotating)**:
+  - **Pre-Battle Quote**: *"Darn, how can you stand this weather?"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Electabuzz (♂, Lv43; Electric; OHKO'd by Sirius's `Bulldoze` for `1437 EXP`).
+    - **Pokémon 2**: Eelektross (♀, Lv43; Electric; Ability: Levitate; OHKO'd by Sirius's `Aura Sphere` for `1768 EXP`).
+    - **Pokémon 3**: Klefki (♂, Lv44; Steel/Fairy; Ability: Prankster; knows SmokeScreen; OHKO'd by Sirius's `Aura Sphere`).
+  - **Outcome**: Defeated in Turns 35089-35095.
