@@ -14,3 +14,17 @@
   - **Central Finals Staircase (`cols 20-22, rows 7-8`)**: Leads up to the **Top 16 Ceremony** and Finals Arena.
   - **Eastern Lobby & PokéMart Counter (`cols 23-29, rows 8-10`)**: Features a trainer at `(23, 9)` with a **Typhlosion** at `(24, 9)`, and an Explorer PokéMart clerk at `(27, 9)` (interacted from `27, 11` facing `Up`).
   - **Upper Mezzanine & Finals Arena Entrance (`21, 1-2`, Cutscene Trigger at `21, 3`)**: Stepping onto `(21, 3)` before the red-curtained archway triggers a scene where Colen Champion **Micah** arrives to wish Asher good luck and heads west along the mezzanine to join Dad and Professor Ivo in the spectator auditorium (verified Turns 35382-35384).
+## Eclipse Tournament Finals (`17, 19` Ceremony Stage & `8, 21` -> `13, 21` Cyber-Arena)
+- **Top 16 Ceremony (`17, 19`, Turns 35386-35387)**:
+  - All 16 finalists stand facing the giant screen, with **Valora** to Asher's left, **Frio** to Asher's right, and **Dawn** and **Lucas** in the row behind them.
+  - The host announces that the Top 16 begins with randomized 1-on-1 matches to determine the Top 8, pairing **Asher vs. Dawn** in the final Round of 16 match.
+- **Finals Cyber-Arena Layout (`8, 21` -> `13, 21` -> `16, 21`, Verified Turns 35388-35389)**:
+  - Competitors materialize on the white teleporter pad at `(8, 21)`. Walking `Right 5` (`(8, 21) -> (13, 21)`) steps onto the white-outlined trainer box at `(13, 21)`, which walks both trainers onto the holographic battlefield (`16, 21`).
+- **Round of 16 (Top 16) — Ec. Finalist Dawn (Turns 35389-35400)**:
+  - **Pre-Battle Quote**: *"So the day has come... / Hehe, let's do this! / I need to win so I can spend that day with you hehe!"*
+  - **Team (5 Pokémon)**:
+    - **Pokémon 1**: Spiritomb (♀, Lv45; Ghost/Dark; Held Item: Figy Berry [confuses Spiritomb when triggered]; knows Will-O-Wisp; 2HKO'd by Sirius's `Dark Pulse` for `1638 EXP`).
+    - **Pokémon 2**: Glaceon (♂, Lv45; Ice; OHKO'd by Sirius's `Aura Sphere` for `1773 EXP`).
+    - **Pokémon 3**: Lucario (Lv45; Fighting/Steel; OHKO'd by Sirius's `Aura Sphere` for `1773 EXP`).
+    - **Pokémon 4**: Torterra (♀, Lv46; Grass/Ground; OHKO'd by Sirius's `Aura Sphere` for `2049 EXP`).
+    - **Pokémon 5**: Honchkrow (Lv45; Dark/Flying; OHKO'd by Sirius's `Aura Sphere`).
