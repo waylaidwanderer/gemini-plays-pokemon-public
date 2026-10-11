@@ -238,4 +238,5 @@
     - **Outcome**: Defeated in Turns 35323-35338.
 ## Sors Road Summit Tunnel (`9, 28` <-> Sors Road Upper Exterior `19, 7`)
 - **Southern Entrance (`9, 28`)**: Connects back to Sors Road Upper Exterior at `(19, 8)`.
-- **Cutscene with Frio (`9, 27` -> `9, 19`, Turns 35350-35352)**: Stepping north onto `(9, 27)` triggers a scene with **Frio** on the wooden bridge (`9, 16`), who tells Asher not to lose before the Final Battle and wishes him good luck before exiting north into **Eclipse Square**, placing Asher at `(9, 19)`.
+- **Cutscene with Frio (`9, 27` -> `9, 19`, Turns 35350-35352)**: Stepping north onto `(9, 27)` triggers a scene with **Frio** on the overhead wooden bridge (`9, 16`), who tells Asher not to lose before the Final Battle and wishes him good luck before jumping down and exiting north into **Eclipse Square**, placing Asher at `(9, 19)`.
+- **Under-Bridge Passage to Northern Exit Archway (`cols 8-10, rows 19 -> 11`, Verified Turn 35361)**: The northern exit archway (`8-10, 11`) is on the lower trench level (`Elevation 3`) underneath the overhead wooden bridge (`cols 7-11, rows 14-16`); walking straight north from `(9, 19)` (`9, 19 -> 9, 18 -> 9, 17 -> 9, 16 -> 9, 15 -> 9, 14 -> 9, 13 -> 9, 12 -> 9, 11`) passes directly under the wooden bridge and out into **Eclipse Square**.
