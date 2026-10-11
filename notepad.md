@@ -2432,7 +2432,13 @@
     - **Outcome**: Defeated in Turns 35313-35316.
   - **Northwestern Upper Plateau (`cols 7-20, rows 8-15`)**:
     - Reached by climbing the 3-tile-wide wooden staircase at `(10-12, 15-16)` to `(11, 15)` and following `column 8` north (`8, 14 -> 8, 9`) between the western boulders and the tall grass.
-    - The 2x2 brown boulder at `(13-14, 9-10)` is solid on both rows and is bypassed along `row 8` (`12, 8 -> 17, 8`) toward the rotating Hiker at `(18, 10)` and the **Upper Cave Entrance** at `(19, 8)`.
+    - The 2x2 brown boulder at `(13-14, 9-10)` is solid on both rows and is bypassed along `row 8` (`12, 8 -> 17, 8`) toward **Gentleman Hank** at `(18, 10)` and the **Upper Cave Entrance** at `(19, 8)`.
+  - **Gentleman Hank (`18, 10`, Rotating)**:
+    - **Pre-Battle Quote**: *"You are almost at the Eclipse Square... / Want to have a battle though?"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Dusknoir (♂, Lv45; Ghost; Ability: Pressure; knows Curse, Shadow Ball, and Confuse Ray; KO'd itself with a second Curse against Normal-type Quasar for `1012 EXP` each to Sirius and Quasar, leveling Quasar from Lv10 to Lv14).
+      - **Pokémon 2**: Charizard (♂, Lv46; Fire/Flying; OHKO'd by Sirius's `Return` for `2059 EXP`, leveling Sirius to Lv80).
+    - **Outcome**: Defeated in Turns 35323-35338.
 
 <hr>
 
@@ -3297,12 +3303,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv79
+- **Level**: Lv80
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 228), Attack (C+, 215), Defense (A-, 207), Sp. Atk (C-, 200), Sp. Def (E, 136), Speed (C-, 141)
-- **Current Condition**: 143/228 HP, Healthy (`Meteor Mash 0/10`, `Return 11/20`, `Aura Sphere 11/20`, `Mach Punch 1/30`; defeated Burglar Katy's Exeggutor at Sors Road Upper Exterior `18, 21` in Turns 35305-35309)
-- **EXP**: Lv79 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 230), Attack (C+, 217), Defense (A-, 210), Sp. Atk (C-, 202), Sp. Def (E, 137), Speed (C-, 143)
+- **Current Condition**: 88/230 HP, Healthy (`Meteor Mash 0/10`, `Return 8/20`, `Aura Sphere 10/20`, `Mach Punch 1/30`; defeated Gentleman Hank's Dusknoir and Charizard at Sors Road Upper Exterior `18, 9` in Turns 35324-35338)
+- **EXP**: Lv80 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
   - Slot 2: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; taught via infinite-use TM27 replacing Bulldoze in Turn 35244; can be swapped with TM10 Dark Pulse / TM23 Iron Tail / TM39 Rock Tomb at any time to refill PP)

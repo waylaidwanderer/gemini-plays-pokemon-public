@@ -229,4 +229,10 @@
     - **Outcome**: Defeated in Turns 35313-35316.
   - **Northwestern Upper Plateau (`cols 7-20, rows 8-15`)**:
     - Reached by climbing the 3-tile-wide wooden staircase at `(10-12, 15-16)` to `(11, 15)` and following `column 8` north (`8, 14 -> 8, 9`) between the western boulders and the tall grass.
-    - The 2x2 brown boulder at `(13-14, 9-10)` is solid on both rows and is bypassed along `row 8` (`12, 8 -> 17, 8`) toward the rotating Hiker at `(18, 10)` and the **Upper Cave Entrance** at `(19, 8)`.
+    - The 2x2 brown boulder at `(13-14, 9-10)` is solid on both rows and is bypassed along `row 8` (`12, 8 -> 17, 8`) toward **Gentleman Hank** at `(18, 10)` and the **Upper Cave Entrance** at `(19, 8)`.
+  - **Gentleman Hank (`18, 10`, Rotating)**:
+    - **Pre-Battle Quote**: *"You are almost at the Eclipse Square... / Want to have a battle though?"*
+    - **Team (2 Pokémon)**:
+      - **Pokémon 1**: Dusknoir (♂, Lv45; Ghost; Ability: Pressure; knows Curse, Shadow Ball, and Confuse Ray; KO'd itself with a second Curse against Normal-type Quasar for `1012 EXP` each to Sirius and Quasar, leveling Quasar from Lv10 to Lv14).
+      - **Pokémon 2**: Charizard (♂, Lv46; Fire/Flying; OHKO'd by Sirius's `Return` for `2059 EXP`, leveling Sirius to Lv80).
+    - **Outcome**: Defeated in Turns 35323-35338.
