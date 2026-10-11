@@ -2252,8 +2252,10 @@
   - **Eastern Terrace Items (`49, 19` & `50, 18`)**: A gold item ball and a purple spray bottle are located among the rocks at the eastern end of the southern terrace (`cols 46-51, rows 16-20`, observed in Turn 35014 filmstrip).
   - **Wooden Chasm Bridge (`cols 43-45, rows 9-16`)**: Connects the southern upper terrace (`44, 17`) north across the abyss to the northern platform (`44, 8`, verified Turn 35014).
 - **Northern Platform (`cols 36-50, rows 5-8`)**:
-  - **Gold Item Ball (`37, 6`)**: Located on the western side of the platform above the 1x2 rock cone at `(37, 7-8)`.
-  - **Northern Exit Archway (`44, 5`)**: Bright white doorway at the center of the northern wall.
+  - **Gold Item Ball (`37, 6`)**: Located on the western side of the platform above the 1x2 rock cone at `(37, 7)` (separated from the eastern bridge platform by an elevation seam at `38, 9-10`, verified Turn 35017; reached from the lower northern path at `14-16, 18`).
+  - **Northern Exit Archway (`44, 5` <-> Sors Road Exterior `15, 18`)**: Bright white doorway at the center of the northern wall; stepping `Up` into `(44, 5)` warps outside to `(15, 18)` on **Sors Road Exterior** (verified Turn 35018).
+## Sors Road Exterior — Snowy Mountain Pass (`cols 8-25+, rows 10-25+`)
+- **Southern Cave Entrance (`15, 17` -> `15, 18` <-> Sors Road 1F `44, 5`)**: Exits from the northern platform of Sors Road 1F onto a snowy mountain pass with tall grass at `cols 13-19, rows 20-22` and a northbound wooden staircase at `cols 19-21, rows 18-19` (observed Turn 35019).
 
 <hr>
 
