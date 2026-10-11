@@ -58,3 +58,11 @@
   - **Houndoom** (♀, Lv36; Dark/Fire; knows Feint Attack and Fire Fang; caught at `15, 21` in Ultra Ball in Turn 35036 and nicknamed "Hecate", bringing Owned PokéDex species to 89).
   - **Druddigon** (♂, Lv30; Dragon; knows Dragon Claw, Dragon Rage, and Slash; caught at `15, 21` in Ultra Ball in Turn 35044 and nicknamed "Fafnir", bringing Owned PokéDex species to 90).
   - **Claydol** (Lv35; Ground/Psychic; knows Reflect; caught at `16, 21` in Ultra Ball in Turn 35050 and nicknamed "Dogu", bringing Owned PokéDex species to 91).
+- **Hiker Jaxon (`19, 22` -> `19, 21`, Facing Up)**:
+  - **Pre-Battle Quote**: *"Isn't the storm up here annoying? / It's perfect for my Pokémon though!"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Golem (♀, Lv42; Rock/Ground; Ability: Sturdy; knows Earthquake; 2HKO'd by Sirius's `Mach Punch` for `1593 EXP`).
+    - **Pokémon 2**: Marowak (♂, Lv43; Ground; knows Endure; defeated by Sirius's `Aura Sphere` + `Mach Punch` for `1141 EXP`).
+    - **Pokémon 3**: Shuckle (♀, Lv42; Bug/Rock; Ability: Sturdy; knows Acupressure; defeated by Sirius's `Meteor Mash` + `Mach Punch` for `720 EXP`).
+    - **Pokémon 4**: Crustle (♂, Lv43; Bug/Rock; Ability: Shell Armor; knows Shell Smash; OHKO'd by Sirius's +1 Attack `Mach Punch`, leveling Sirius to Lv76).
+  - **Outcome**: Defeated in Turns 35059-35069.
