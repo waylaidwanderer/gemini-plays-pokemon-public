@@ -2249,6 +2249,11 @@
       - **Pokémon 2**: Hariyama (♂, Lv44; Fighting; OHKO'd by Sirius's `Aura Sphere` for `1695 EXP`).
       - **Pokémon 3**: Emboar (♂, Lv43; Fire/Fighting; OHKO'd by Sirius's `Aura Sphere` for `1915 EXP`).
     - **Outcome**: Defeated in Turns 35008-35012 (*"What?!!"*; awards `₽3,096`).
+  - **Eastern Terrace Items (`49, 19` & `50, 18`)**: A gold item ball and a purple spray bottle are located among the rocks at the eastern end of the southern terrace (`cols 46-51, rows 16-20`, observed in Turn 35014 filmstrip).
+  - **Wooden Chasm Bridge (`cols 43-45, rows 9-16`)**: Connects the southern upper terrace (`44, 17`) north across the abyss to the northern platform (`44, 8`, verified Turn 35014).
+- **Northern Platform (`cols 36-50, rows 5-8`)**:
+  - **Gold Item Ball (`37, 6`)**: Located on the western side of the platform above the 1x2 rock cone at `(37, 7-8)`.
+  - **Northern Exit Archway (`44, 5`)**: Bright white doorway at the center of the northern wall.
 
 <hr>
 
