@@ -47,3 +47,10 @@
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Probopass (♂, Lv49; Rock/Steel; Ability: Sturdy; knows Lock-On; defeated by Sirius's `Mach Punch` x2 for `1932 EXP`).
     - **Outcome**: Defeat quote: *"Man, I burned out.."*; awards `₽3,528` (verified Turns 35587-35591).
+  - **Hiker Nolan (`37, 10` -> `35, 10`, Lower Magma Level)**:
+    - **Pre-Battle Quote**: *"Aren't you boiling in all those clothes too?"*
+    - **Team (3 Pokémon)**:
+      - **Pokémon 1**: Marowak (♀, Lv48; Ground; OHKO'd by Sirius's `Aura Sphere` for `1275 EXP`).
+      - **Pokémon 2**: Houndoom (♀, Lv48; Dark/Fire; OHKO'd by Sirius's `Mach Punch` for `2097 EXP`).
+      - **Pokémon 3**: Magneton (Lv48; Electric/Steel; OHKO'd by Sirius's `Aura Sphere` for `1656 EXP`).
+    - **Outcome**: Defeat quote: *"Ahh, I'm gonna get cooked!"* (verified Turns 35601-35607).
