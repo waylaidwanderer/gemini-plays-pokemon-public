@@ -100,7 +100,9 @@
   - **Cooltrainer♀ Asui (`56, 19` -> `55, 19`, Facing Left)**:
     - **Pre-Battle Quote**: *"Hello... / I can't let you pass..."*
     - **Team (2 Pokémon)**:
-      - **Pokémon 1**: Porygon-Z (Lv42; Normal).
+      - **Pokémon 1**: Porygon-Z (Lv42; Normal; knows Thunder Wave; defeated by Sirius for `1665 EXP`).
+      - **Pokémon 2**: Exploud (♂, Lv43; Normal; knows Uproar; defeated by Sirius for `1695 EXP`).
+    - **Outcome**: Defeated in Turns 34904-34907 (*"Maybe I can."*; awards `₽2,580`).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:

@@ -1513,7 +1513,9 @@
   - **Cooltrainer♀ Asui (`56, 19` -> `55, 19`, Facing Left)**:
     - **Pre-Battle Quote**: *"Hello... / I can't let you pass..."*
     - **Team (2 Pokémon)**:
-      - **Pokémon 1**: Porygon-Z (Lv42; Normal).
+      - **Pokémon 1**: Porygon-Z (Lv42; Normal; knows Thunder Wave; defeated by Sirius for `1665 EXP`).
+      - **Pokémon 2**: Exploud (♂, Lv43; Normal; knows Uproar; defeated by Sirius for `1695 EXP`).
+    - **Outcome**: Defeated in Turns 34904-34907 (*"Maybe I can."*; awards `₽2,580`).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
@@ -3037,7 +3039,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 211), Attack (C+, 199), Defense (A-, 192), Sp. Atk (C-, 185), Sp. Def (E, 126), Speed (C-, 130)
-- **Current Condition**: 194/211 HP, Healthy, 0 PP across all 4 moves (in Slot 0 top-left after defeating Cooltrainer Gina at Route 14 East `38, 32` in Turn 34896; leveled up to Lv73 defeating Silver's Weavile in Turn 34842; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
+- **Current Condition**: 86/211 HP, Paralyzed (`PAR`), 0 PP across all 4 moves (in Slot 0 top-left after defeating Cooltrainer Asui at Route 14 East `54, 19` in Turn 34907; leveled up to Lv73 defeating Silver's Weavile in Turn 34842; in CFRU, `Struggle` deals typeless 50 BP physical damage with ~1/4 of damage dealt recoil, verified Turns 34819 & 34832)
 - **EXP**: Lv73 (evolved into Lucario at Lv30 during Mt. Gerhana training; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw on Route 12 Main in Turn 32681; reached Lv52 defeating Picnicker Gracie's Leafeon in Turn 32896 and declined Dragon Pulse; reached Lv53 defeating Silver's Crobat in Turn 32979; reached Lv54 in Turn 33091; reached Lv55 in Turn 33210; reached Lv56 in Turn 33381 and declined ExtremeSpeed in Turn 33383; reached Lv57 in Turn 33434; reached Lv58 in Turn 33585; reached Lv59 in Turn 33607; reached Lv60 in Turn 33685 and declined Close Combat in Turn 33687; reached Lv61 defeating Gangster Cony's Absol in Turn 33783; reached Lv62 defeating Scientist Albert's Manectric in Turn 33874; reached Lv63 defeating Riley's Metang in Turn 33896; reached Lv64 defeating Farmer Omar's Tauros in Turn 33965 and declined Flash Cannon in Turn 33966; reached Lv65 defeating Farmer Megan's Meganium in Turn 34018; reached Lv66 defeating Gentleman Leslie's Talonflame on Route 8 in Turn 34159; reached Lv67 defeating Gentleman Jonathan's Arcanine in Round 7 Quarterfinals in Turn 34276; reached Lv68 defeating Hugh's Samurott in Round 7 Finals in Turn 34304; reached Lv69 defeating PKMN Trainer ???'s Sceptile in Undersea Lab B5F in Turn 34486; reached Lv70 defeating Gladion's Zoroark in Round 8 Finals in Turn 34570; reached Lv71 defeating Swimmer Luis's Sharpedo on Route 14 in Turn 34641; reached Lv72 defeating Cheryl's Wailord on Route 14 in Turn 34770; reached Lv73 defeating Silver's Weavile on Route 14 East in Turn 34842)
 - **Moves**:
   - Slot 1: Meteor Mash (Steel, Physical, 90 power, 90% acc, STAB, 10 PP; 20% chance to raise Attack +1; learned at Lv48 replacing Metal Claw in Turn 32681)
