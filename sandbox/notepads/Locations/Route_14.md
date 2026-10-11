@@ -41,7 +41,8 @@
     - **Pokémon 2**: Gorebyss (♀, Lv40; Water; OHKO'd by Sirius's `Aura Sphere` for `1525 EXP`).
     - **Pokémon 3**: Clawitzer (♀, Lv41; Water; OHKO'd by Sirius's `Aura Sphere` for `877 EXP`).
     - **Pokémon 4**: Victreebel (♀, Lv41; Grass/Poison; OHKO'd by Sirius's `Meteor Mash` for `1677 EXP`).
-  - **Outcome**: Defeated in Turns 34749-34757 (*"You definitely are!"*).
+  - **Outcome**: Defeated in Turns 34749-34757 (*"You definitely are!"*; awards `₽2,460`).
+- **Eastern Sunken Pit (`cols 35-38, rows 29-34`)**: Reached via `(32, 32 -> 32, 27 -> 37, 27 -> 37, 31)` down the 3-tile-wide northern pit stairs (`36-38, 29`). Contains a gold item ball at `(35, 32)` holding a **Protector** (collected from `35, 31` facing `Down` in Turn 34758).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
