@@ -375,3 +375,6 @@
 - **Sors Road Entrance — Final Stretch to the Summit (`7, 33` in Sors Road 1F, Turns 34980-34982)**:
   - Entering **Sors Road** (`7, 33`), Valora realized they had reached the final stretch before the Finals, while Asher admitted having a bad feeling about Team Siara suddenly going off the radar.
   - Encouraging him not to worry about what hasn't happened yet (*"Let's get up to the summit and dominate the Finals!"*), Valora rejoined Asher to climb Sors Road to Eclipse Square.
+- **Sors Road Summit Tunnel — Frio's Encouragement Before the Finals (`9, 27` -> `9, 19`, Turns 35350-35352)**:
+  - Inside the final summit tunnel of Sors Road before the exit to **Eclipse Square**, **Frio** waited on the wooden bridge (`9, 16`) for Asher and Valora.
+  - Impressed that Asher made it up the mountain, Frio reminded him of his promise to be the one to defeat Asher in the tournament (*"After all this, I got a bit curious how much stronger you've become. So don't you dare lose before making it to the Final Battle! ... As an Eclipser it should be a no brainer to get to the Finals. I'll see you in the arena and... ... good luck"*) before stepping out through the northern exit archway into **Eclipse Square**.

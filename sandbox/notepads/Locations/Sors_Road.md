@@ -236,3 +236,6 @@
       - **Pokémon 1**: Dusknoir (♂, Lv45; Ghost; Ability: Pressure; knows Curse, Shadow Ball, and Confuse Ray; KO'd itself with a second Curse against Normal-type Quasar for `1012 EXP` each to Sirius and Quasar, leveling Quasar from Lv10 to Lv14).
       - **Pokémon 2**: Charizard (♂, Lv46; Fire/Flying; OHKO'd by Sirius's `Return` for `2059 EXP`, leveling Sirius to Lv80).
     - **Outcome**: Defeated in Turns 35323-35338.
+## Sors Road Summit Tunnel (`9, 28` <-> Sors Road Upper Exterior `19, 7`)
+- **Southern Entrance (`9, 28`)**: Connects back to Sors Road Upper Exterior at `(19, 8)`.
+- **Cutscene with Frio (`9, 27` -> `9, 19`, Turns 35350-35352)**: Stepping north onto `(9, 27)` triggers a scene with **Frio** on the wooden bridge (`9, 16`), who tells Asher not to lose before the Final Battle and wishes him good luck before exiting north into **Eclipse Square**, placing Asher at `(9, 19)`.
