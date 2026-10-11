@@ -2210,6 +2210,8 @@
     - Stepping from `(54, 10)` east across `(57-60, 10)` and north onto the **Emergency Switch Balcony** (`cols 56-60, rows 6-8`), the wall sign at `(57, 5)` reads *"Emergency Switch / Press in case of a leakage!"*.
     - Pressing the Emergency Switch at `(59, 5)` triggers *"EMERGENCY ALERT! EMERGENCY ALERT! / LEAKAGE DETECTED! LEAKAGE DETECTED!"* and a brief scene in **Hupest Sea** (*"Somewhere in the middle of the Hupest Sea..."*), pumping out the flooded water and returning Asher to **`(20, 21)`** in the drained Cargo Area.
   - **Drained Lower Cargo Area (`20, 16` <-> `7, 11`, Turns 35752-35753)**: After flipping the Emergency Switch (`59, 5`), the lower Cargo Area doorway at `(20, 16)` opens onto the drained purple grate floor (`7, 12`), where the northeastern item ball at `(18, 12)` yields **Dive Ball x1** (collected Turn 35752) and the southeastern golden item ball at `(18, 20)` yields **Water Stone x1** (collected Turn 35753).
+- **Landing at Team Siara HQ (`4, 9` -> `4, 10`, Turns 35754-35756)**:
+  - Stepping onto `(4, 9)` after flipping the Emergency Switch triggers **Frio** (`4, 8`) to announce that the ship has hit dry land at **Team Siara HQ** (*"It seems like we have hit dry land... / At their HQ most likely... / Come on, let's get out of here, we gotta hide somewhere"*), and Frio steps out the exit mat at `(4, 10)`.
 
 <hr>
 
@@ -3327,6 +3329,7 @@
 - **Micah's Sceptile & The Emergency Switch (`14, 8` & `59, 5`, Turns 35731-35748)**:
   - On the Lower Cabin Deck (`14, 8`), Colen Champion **Micah's Sceptile** emerged from the middle cabin (`15, 6`). Realizing Micah was attacking Team Siara's Cargo Ship without knowing Asher was aboard, Asher asked Sceptile to tell Micah to stop so they could buy time to contain the leak.
   - Crossing the aligned cargo crates from `(60, 25)` to the **Emergency Switch Balcony** (`59, 6`), Asher flipped the Emergency Switch (`59, 5`), triggering the ship's emergency containment system and pumping the water out of the Cargo Area (`"Somewhere in the middle of the Hupest Sea..."`).
+  - Returning to the ship's exit (`4, 9`), **Frio** confirmed they had hit dry land at **Team Siara HQ** and urged Asher to disembark and find a place to hide (`Turns 35754-35755`).
 
 <hr>
 

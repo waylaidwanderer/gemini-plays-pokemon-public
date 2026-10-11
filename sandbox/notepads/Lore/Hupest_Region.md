@@ -415,3 +415,4 @@
 - **Micah's Sceptile & The Emergency Switch (`14, 8` & `59, 5`, Turns 35731-35748)**:
   - On the Lower Cabin Deck (`14, 8`), Colen Champion **Micah's Sceptile** emerged from the middle cabin (`15, 6`). Realizing Micah was attacking Team Siara's Cargo Ship without knowing Asher was aboard, Asher asked Sceptile to tell Micah to stop so they could buy time to contain the leak.
   - Crossing the aligned cargo crates from `(60, 25)` to the **Emergency Switch Balcony** (`59, 6`), Asher flipped the Emergency Switch (`59, 5`), triggering the ship's emergency containment system and pumping the water out of the Cargo Area (`"Somewhere in the middle of the Hupest Sea..."`).
+  - Returning to the ship's exit (`4, 9`), **Frio** confirmed they had hit dry land at **Team Siara HQ** and urged Asher to disembark and find a place to hide (`Turns 35754-35755`).
