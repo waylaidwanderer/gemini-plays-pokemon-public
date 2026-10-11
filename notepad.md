@@ -3160,6 +3160,12 @@
 - **Quarterfinals (Top 8)**: Swept Sinnoh's **Lucas** (`Staraptor♀ Lv46`, `Infernape♂ Lv47`, `Gyarados♀ Lv46`, `Porygon-Z Lv46`, `Leafeon♀ Lv46`) `5-0` in Turns 35404-35415.
 - **Semifinals (Top 4)**: Swept **Valora** (`Clefable♀ Lv47`, `Gardevoir♀ Lv47`, `Ampharos♂ Lv47`, `Primarina♂ Lv48`, `Roserade♀ Lv47`) `5-0` in Turns 35418-35424; Valora happily claimed her wagered day with Asher for outlasting Dawn.
 - **Grand Finals**: Swept fellow Eclipser **Frio** (`Talonflame♂ Lv48`, `Zoroark♂ Lv48`, **Eclipsed Garchomp♂ Lv49** [knowing `Eclite Blade`], `Electivire♂ Lv48`, `Swampert♂ Lv49`, `Ferrothorn♀ Lv48`) `6-0` in Turns 35427-35442 to win the **Eclipse Tournament Championship**.
+- **Championship Celebration & Frio's Handshake (`18, 21`, Turns 35443-35448)**:
+  - On the Finals Arena stage (`18, 21`), **Valora**, **Dad (Jackson)**, and **Professor Ivo** joined Asher to congratulate him on winning the Eclipse Tournament Championship while **Dawn**, **Lucas**, and **Barry** watched from the other side of the arena.
+  - **Frio** (`19, 21`) shook Asher's hand, acknowledged his undeniable strength as a fellow Eclipser, and stammered a reluctant *"thank you"* before Professor Ivo suggested everyone rest up for the night.
+## Post-Championship Morning on Inizio Isle — Professor Ivo's Emergency Call (`6, 4` -> `7, 4`, Turns 35449-35451)
+- **Morning After the Finals**: The next morning on **Inizio Isle** (`6, 4`), **Dad (Jackson)** came upstairs (`8, 4`) to greet Asher as the new Champion and passed along an apology and congratulations from Colen Champion **Micah**, who had been called away on a mission before the Finals ended.
+- **Emergency Call from Lancio Town**: Dad's phone rang with a call from **Professor Ivo**; after listening with a shocked reaction at `(9, 4)`, Dad urgently told Asher: *"Asher, quick, get yourself together, we are going to Lancio!"*.
 
 <hr>
 
