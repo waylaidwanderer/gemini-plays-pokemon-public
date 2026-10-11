@@ -38,4 +38,4 @@
   - **Outcome**: Defeated in Turns 34640-34647 (*"Wow!"*).
 - **Wild Surfing Encounters**:
   - **Bruxish** (Lv30, ♀; Water/Psychic; knows Psywave, Aqua Jet, Crunch; caught at `29, 13` in Luxury Ball in Turn 34631 and nicknamed "Dazzle", bringing Owned PokéDex species to 81).
-  - **Sharpedo** (Lv30, ♀; Water/Dark; Ability: Speed Boost; knows Scary Face, Swagger, Ice Fang, Screech; encountered at `28, 19` in Turn 34648).
+  - **Sharpedo** (Lv30-33, ♀/♂; Water/Dark; Ability: Speed Boost; knows Scary Face, Swagger, Ice Fang, Screech; caught Lv33 ♂ at `29, 8` in Ultra Ball in Turn 34699 and nicknamed "Mako", bringing Owned PokéDex species to 83).
