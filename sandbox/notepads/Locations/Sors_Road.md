@@ -55,3 +55,4 @@
 - **Southern Cave Entrance (`15, 17` -> `15, 18` <-> Sors Road 1F `44, 5`)**: Exits from the northern platform of Sors Road 1F onto a snowy mountain pass with tall grass at `cols 13-19, rows 20-22` and a northbound wooden staircase at `cols 19-21, rows 18-19` (observed Turn 35019).
 - **Wild Grass Encounters**:
   - **Krokorok** (♀, Lv35; Ground/Dark; knows Swagger; caught at `16, 21` in Ultra Ball in Turn 35026 and nicknamed "Sobek", bringing Owned PokéDex species to 88).
+  - **Houndoom** (♀, Lv36; Dark/Fire; knows Feint Attack and Fire Fang; caught at `15, 21` in Ultra Ball in Turn 35036 and nicknamed "Hecate", bringing Owned PokéDex species to 89).
