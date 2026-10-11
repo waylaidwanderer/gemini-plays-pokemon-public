@@ -33,6 +33,11 @@
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Druddigon (♂, Lv43; Dragon; Ability: Rough Skin; OHKO'd by Sirius's `Meteor Mash` for `1566 EXP`).
   - **Outcome**: Defeated in Turns 34738-34742 (`"."`; awards `₽2,580`).
+- **Second Overhead Wooden Bridge (`cols 21-29, rows 31-33`)**: Reached via `(12, 27 -> 15, 22 -> 19, 22 -> 19, 32)`; crosses east over the downstream river channel to `(30-35, 31-33)` (verified Turns 34747-34748).
+- **Cooltrainer♀ Susie (`33, 28` -> `33, 30`, Facing Down)**:
+  - **Pre-Battle Quote**: *"There are so many Trainers going to the Eclipse Square... / Are you one of them?"*
+  - **Team (4 Pokémon)**:
+    - **Pokémon 1**: Exeggutor (♀, Lv40; Grass/Psychic).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
