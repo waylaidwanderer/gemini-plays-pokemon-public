@@ -90,7 +90,7 @@
 - **Elevator Doorway (`8, 18`)**: Connects to the facility elevator (`6, 15`).
 - **Breached Security Door (`7-9, 10-11`)**: Smashed open down the center (`col 8`); purple wall plaque at `(6, 10-11)` is blank.
 - **B5F Inner Chamber (`cols 5-11, rows 3-8`)**:
-  - **Third Gem Pedestal (`8, 3`)**: Stone formation holding the third gem.
+  - **Third Gem Pedestal (`8, 3`)**: Stone formation holding the third gem (verified inert post-Siara HQ in Turn 36186).
   - **Confrontation with Colen Champion Micah (`8, 6` -> `8, 5`, Turns 34477-34494)**:
     - Mistaking Asher and Jackson for Team Siara members after seeing them at Aur Factory, **Micah** (Champion of the Colen Region; uses `Staraptor♀ Lv40`, `Aggron♂ Lv41`, `Samurott♂ Lv41`, and `Sceptile♂ Lv42` holding Rocky Helmet) battled Asher at `(8, 7)` before learning that Asher, Jackson, Professor Ivo, and Valora are fighting against Team Siara.
     - Micah retrieved the **Third Gem** from the stone pedestal (`8, 3`) and entrusted it to **Professor Ivo**, who hurried back to her laboratory in Lancio Town to secure it before Micah departed to his team's base.
