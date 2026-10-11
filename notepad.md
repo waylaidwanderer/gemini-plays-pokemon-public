@@ -638,7 +638,8 @@
 - **1F Entrance Chamber (`cols 7-18+, rows 6-14+`)**: Volcanic red-rock cavern with magma vents, a 3-tile-wide wooden staircase (`cols 11-13, rows 9-10`), and a dark basalt path (`cols 11-13, rows 11+`).
 ## 1F Entrance Chamber & Professor Ivo's Volcanic Warning (`12, 11`, Turn 35513)
 - **HuPhone Call (`12, 11`)**: Stepping down the entrance stairs onto `(12, 11)` triggers a call from **Professor Ivo**, who warns Asher that **Divampa Cave** is known for its active volcanic activity and high temperatures (*"The temperature is said to be under the lethal value, but still if you feel weird, get out!"*), while Asher resolves to find the meeting point and save Valora.
-- **1F Eastern Cave Doorway (`22, 16` -> `34, 19` Magma Chamber)**: Reached via the two side-facing wooden staircases (`16, 15` and `19, 16`); warps to `(34, 19)` in the Magma Chamber where Sinnoh's **Buck** stands at `(36, 19)` and an Explorer stands at `(39, 20)` (verified Turn 35518).
+- **1F Floor Ladder (`10, 16`)**: Unexplored floor ladder located on the southwest side of the 1F Entrance Chamber (`observed Turn 35515`).
+- **1F Eastern Cave Doorway (`22, 16` -> `34, 19` Magma Chamber)**: Reached via the two side-facing wooden staircases (`16, 15` and `19, 16`); warps to `(34, 19)` in the Magma Chamber, where stepping onto `(35, 19)` triggers **Siara Admin Flo** at `(37, 19)` (`"Flo: We have been waiting for your arrival..."`) alongside an Explorer at `(40, 20)` (verified Turns 35518-35520).
 
 <hr>
 
