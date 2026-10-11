@@ -1,6 +1,7 @@
 # Solare Island
 
 ## Geography & Connections
+- **Southern Sea Border (`41, 59` <-> Galinor City Northwestern Sea `12, 0`, Verified Turn 36295)**: Seamless sea connection from **Galinor City Beach** (`13, 33 -> 12, 32 -> 12, 0`) onto the southern waters of **Solare Island** (`41, 59`) just southeast of the Southern Dock (`36, 52`).
 - **Southern Dock (`cols 35-37, rows 49-53`)**:
   - **Harry (`36, 52`)**: Guards the boat at the southern tip of the dock after sailing from the **Galinor Cargo Loading Bay** (`28, 19`). Speaking to Harry allows returning to the mainland (Galinor City) at any time (verified Turn 33061).
   - **Shoreline & Southern Staircase (`36, 45-48`)**: Grassy landing north of the dock with a stone staircase at `(35-37, 45)` leading north toward the Solare Island forest.

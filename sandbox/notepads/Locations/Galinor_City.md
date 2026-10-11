@@ -28,3 +28,7 @@
   - **House at `(20, 57)` (interior exit `3, 9`)**: Old Woman at `(2, 6)`.
 - **Southeastern Alley & TM05 (`54, 63`)**: Walking south along `column 48` to `(48, 63)` and east along `row 63` to `(53, 63)` leads to a shady man in a grey cap at **`(54, 63)`**, who gifts **TM05** into the TM Case.
 - **Western Avenue (`cols 7-10, rows 38-75`)**: Connects `(9, 59)` north past the apartment at `(9, 44)` (empty interior `6, 8`) along `columns 7-8` into Northwestern Galinor City.
+- **Galinor City Beach (`cols 7-21, rows 32-37`) & Northern Sea Route to Solare Island (`12, 32 -> 12, 0` <-> Solare Island `41, 59`, Verified Turns 36292-36295)**:
+  - Reached from `(9, 45)` outside the western apartment (`9, 44`) by walking east to `column 14` (`14, 45`, bypassing the wooden posts at `12-13, 44`) and north along `column 14` (`14, 45 -> 14, 33`).
+  - Red buoy posts along `column 14` (`14, 31`, `14, 28`, `14, 16`) block surfing east into the Cargo Loading Bay piers, while the beach shoreline at `(13, 33)` faces open water at `(13, 32)`.
+  - Launching FastSwift onto `(13, 32)` and surfing north along `column 12` (`12, 32 -> 12, 0`, west of the `13-17, 6-11` rock cluster) transitions seamlessly across the northern sea border onto **Solare Island** at `(41, 59)`.

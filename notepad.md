@@ -814,6 +814,10 @@
   - **House at `(20, 57)` (interior exit `3, 9`)**: Old Woman at `(2, 6)`.
 - **Southeastern Alley & TM05 (`54, 63`)**: Walking south along `column 48` to `(48, 63)` and east along `row 63` to `(53, 63)` leads to a shady man in a grey cap at **`(54, 63)`**, who gifts **TM05** into the TM Case.
 - **Western Avenue (`cols 7-10, rows 38-75`)**: Connects `(9, 59)` north past the apartment at `(9, 44)` (empty interior `6, 8`) along `columns 7-8` into Northwestern Galinor City.
+- **Galinor City Beach (`cols 7-21, rows 32-37`) & Northern Sea Route to Solare Island (`12, 32 -> 12, 0` <-> Solare Island `41, 59`, Verified Turns 36292-36295)**:
+  - Reached from `(9, 45)` outside the western apartment (`9, 44`) by walking east to `column 14` (`14, 45`, bypassing the wooden posts at `12-13, 44`) and north along `column 14` (`14, 45 -> 14, 33`).
+  - Red buoy posts along `column 14` (`14, 31`, `14, 28`, `14, 16`) block surfing east into the Cargo Loading Bay piers, while the beach shoreline at `(13, 33)` faces open water at `(13, 32)`.
+  - Launching FastSwift onto `(13, 32)` and surfing north along `column 12` (`12, 32 -> 12, 0`, west of the `13-17, 6-11` rock cluster) transitions seamlessly across the northern sea border onto **Solare Island** at `(41, 59)`.
 
 <hr>
 
@@ -2432,6 +2436,7 @@
 # Solare Island
 
 ## Geography & Connections
+- **Southern Sea Border (`41, 59` <-> Galinor City Northwestern Sea `12, 0`, Verified Turn 36295)**: Seamless sea connection from **Galinor City Beach** (`13, 33 -> 12, 32 -> 12, 0`) onto the southern waters of **Solare Island** (`41, 59`) just southeast of the Southern Dock (`36, 52`).
 - **Southern Dock (`cols 35-37, rows 49-53`)**:
   - **Harry (`36, 52`)**: Guards the boat at the southern tip of the dock after sailing from the **Galinor Cargo Loading Bay** (`28, 19`). Speaking to Harry allows returning to the mainland (Galinor City) at any time (verified Turn 33061).
   - **Shoreline & Southern Staircase (`36, 45-48`)**: Grassy landing north of the dock with a stone staircase at `(35-37, 45)` leading north toward the Solare Island forest.
