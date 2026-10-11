@@ -2279,6 +2279,8 @@
 - **Teleporter Pad (`4, 20` -> Teleporter Puzzle Room 1 `39, 5`, Turns 35844-35849)**:
   - Stepping onto the glowing blue teleporter pad at `(4, 20)` (south of the `6-8, 16` electric barrier) warps to `(39, 5)` in a small room (`cols 37-41, rows 4-8`) containing a control pillar at `(37, 5)`, a purple console at `(41, 5)`, and **Siara Grunt 4** at `(39, 7 -> 39, 6)` flanked by two blue teleporter pads at `(38, 7)` and `(40, 7)`.
   - **Siara Grunt 4 (`39, 7` -> `39, 6`)**: Pre-battle hint: *"Left or right? / Right back where you came from!"*; uses `Tentacruel♀ Lv50` (Water/Poison; OHKO'd by Sirius's `Return`) and `Drifblim♂ Lv50` (Ghost/Flying; OHKO'd by Sirius's `Dark Pulse` for `1863 EXP`); awards `₽5,200`.
+- **Teleporter Puzzle Room 2 (`38, 7` -> `39, 15`, Turn 35850)**:
+  - Stepping onto the Left teleporter pad at `(38, 7)` in Room 1 warps to `(39, 15)` in Room 2 (`cols 36-42, rows 13-18`), which contains a purple console at `(36, 15)`, a dual computer monitor at `(37-38, 13-14)`, a control pillar at `(41, 14)`, **Siara Grunt 5** at `(39, 14)` (`"Actually... I kinda got lost... / But you bumped right into me so..."`), and three glowing blue teleporter pads along `row 17` at `(37, 17)` (Left), `(39, 17)` (Middle), and `(41, 17)` (Right).
 
 <hr>
 
