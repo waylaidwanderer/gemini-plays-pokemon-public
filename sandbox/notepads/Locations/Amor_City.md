@@ -46,7 +46,7 @@
   - **Route 4 Gatehouse (`1, 7` <-> `15, 7`)**: Connects Route 4 North `(30, 16)` to Western Amor City at `(7, 33)` (verified Turns 31898-31900).
   - **Western Signboard (`11-12, 33`)**: Interacted from `(12, 34)`, reads verbatim: *"Amor City / The center of Hupest"* (verified Turn 31901).
   - **Western Amor City Pokémon Center (`23, 27`, exits to `23, 28`)**: Reached via `(16, 34 -> 17, 32 -> 23, 32 -> 23, 27)`; Nurse Joy at `(7, 2)` (counter at `7, 4`; healed and registered checkpoint in Turn 31904).
-  - **PiTaxi Operator & Pidgeot (`26, 27` & `27, 27`)**: Standing east of the Pokémon Center: *"The PiTaxi is not in service until the constructions finish..."* (verified Turn 31908).
+  - **PiTaxi Operator & Pidgeot (`26, 27` & `27, 27`)**: Standing east of the Pokémon Center: *"The PiTaxi is not in service until the constructions finish..."* (verified Turn 31908; re-verified unchanged post-Siara HQ in Turn 35936).
   - **Main Avenue Connection (`rows 29-30`)**: Upon arriving via Route 4 for Round 2, the `(53, 27)` construction roadblock is cleared, connecting `(26, 29)` directly east along `row 29` to the **Amor City Battle Centre** (`59, 24`, verified Turn 31910).
   - Stepping `Down` on the Battle Centre exit mat at `(10, 21)` warps outside to `(59, 25)` in Amor City (door at `59, 24`, verified Turn 27566-27567).
   - Signboard at `(56-57, 25)` interacted from `(57, 26)` reads verbatim: *"Amor Metro Station / Amor Battle Centre"* (verified Turn 27568).
