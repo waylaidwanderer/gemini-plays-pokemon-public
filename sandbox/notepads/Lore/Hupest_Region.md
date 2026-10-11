@@ -416,3 +416,7 @@
   - On the Lower Cabin Deck (`14, 8`), Colen Champion **Micah's Sceptile** emerged from the middle cabin (`15, 6`). Realizing Micah was attacking Team Siara's Cargo Ship without knowing Asher was aboard, Asher asked Sceptile to tell Micah to stop so they could buy time to contain the leak.
   - Crossing the aligned cargo crates from `(60, 25)` to the **Emergency Switch Balcony** (`59, 6`), Asher flipped the Emergency Switch (`59, 5`), triggering the ship's emergency containment system and pumping the water out of the Cargo Area (`"Somewhere in the middle of the Hupest Sea..."`).
   - Returning to the ship's exit (`4, 9`), **Frio** confirmed they had hit dry land at **Team Siara HQ** and urged Asher to disembark and find a place to hide (`Turns 35754-35755`).
+- **Team Siara HQ Exterior — Teaming Up with Frio & Colen Champion Micah (`54, 7` -> `54, 10`, Turns 35757-35762)**:
+  - Disembarking the Cargo Ship (`4, 10` -> `54, 7`) in a thunderstorm, Asher found **Frio** (`54, 9`) and **Colen Champion Micah** (`54, 11`), whose phone also had no signal.
+  - When Micah mistook Frio for a *"Siara pebble"*, Frio ditched his grunt disguise and argued with Micah for nearly sinking the ship while Asher and the third orb were aboard.
+  - Asher broke up their argument, reminding them that **Valora** is held captive inside Team Siara's base and that Team Siara now has all three orbs, and both **Frio** and **Micah** joined Asher (`54, 10`) to find a way into **Team Siara HQ**.
