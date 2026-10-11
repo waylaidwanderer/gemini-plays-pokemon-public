@@ -708,6 +708,9 @@
     - **Magma Chamber Western Floor Pit (`15-17, 18-21` -> Lower Magma Level `10, 16`)**: Stepping into `(17, 19)` beside Burglar Ronald (`18, 17`) drops Asher to `(10, 16)` on the Lower Magma Level plateau west of Cooltrainer Izzy (`13, 17`, verified Turn 35645).
     - **Magma Chamber Southwestern Floor Pit (`16-17, 23-24`)**: Unexplored pit north of Black Belt Calude (`20, 26`).
     - **Lower Magma Level Hiker (`28, 24`) & Central Lava Island Wall Ladders**: Hiker at `(28, 24)` below the `(29, 25-27)` one-way ledge; wall ladder at `(29, 14)` on the Lower Magma Level lava island (south of Engineer Wade `30, 8`) and wall ladder at `(28, 17)` on the Magma Chamber lava island (`with spray-bottle item at 26, 18`).
+## Divampa Cave Balcony (`12, 20` -> `12, 12`, Turns 35683-35690)
+- **Canyon & Balcony Layout (`12, 20 -> 12, 12`)**: Exiting the sunlit archway at `(25, 9)` in the Upper Basalt Chamber warps to `(12, 20)` in a narrow outdoor canyon leading north along `column 12` onto an ocean cliff balcony (`12, 12`), where **Team Siara's Cargo Ship** is docked at `(12, 8)`.
+- **Marie's Ambush (`12, 12`)**: Stepping onto `(12, 12)` triggers the confrontation with **Mom (Marie)** (`12, 10`), **Siara Admin Flo** (`12, 13`), and two **Team Siara Grunts** (`11, 12` and `13, 12`), who capture Asher and bring him aboard the **Team Siara Cargo Ship** (`6, 4`).
 
 <hr>
 
@@ -3261,6 +3264,9 @@
 ## Lancio Town — Marie's Ransom DVD, The Purple Gem & Mission to Divampa Cave (`3, 8` -> `3, 7`, Turns 35452-35456)
 - **Marie's Ransom Video**: In Professor Ivo's living room (`3, 8`), Ivo played an anonymous DVD addressed to Asher. On the recording, **Mom (Marie)** revealed that Team Siara had kidnapped **Valora** and demanded that Asher come **alone** to **Divampa Cave** with the third gem in exchange for Valora's life (*"If you want to save her, you better bring the gem, alone!"*).
 - **The Purple Gem & Route to Divampa Cave**: Despite knowing it is a trap, **Dad (Jackson)** trusted Asher's strength to defend himself, and **Professor Ivo** entrusted Asher with the **Purple Gem** (`Key Items Pocket`, Turn 35455) under one condition: *"Save her..."*, promising to assist Asher over his HuPhone. Checking his map, Asher noted that he can reach **Divampa Cave** by **surfing down the river on Route 4**.
+## Divampa Cave Balcony Ambush & Capture Aboard Team Siara's Cargo Ship (`12, 12` -> `6, 4`, Turns 35688-35691)
+- **The Balcony Ambush (`12, 12` on Divampa Cave Balcony)**: Emerging through the sunlit archway (`25, 9` in the Upper Basalt Chamber) onto the Divampa Cave balcony (`12, 20 -> 12, 12`), Asher confronted **Mom (Marie)** (`12, 10`) in front of the gangplank hatch (`12, 8`) of **Team Siara's Cargo Ship** docked against the ocean cliffside. When Asher demanded to see **Valora** before handing over the **Purple Gem**, Marie revealed Valora was aboard their Cargo Ship and signaled **Siara Admin Flo** (`12, 13`) and **two Team Siara Grunts** (`11, 12` and `13, 12`) to surround Asher 4-on-1.
+- **Captured as the Cargo Ship Sets Sail (`6, 4` Ship Cabin)**: Unable to fight all four at once, Asher was seized on Marie's orders (*"Take him inside, we are ready to set sail!"*), had his belongings taken, and was tied up with ropes inside a locked cabin (`6, 4`) aboard the departing **Team Siara Cargo Ship**.
 
 <hr>
 

@@ -75,3 +75,6 @@
     - **Magma Chamber Western Floor Pit (`15-17, 18-21` -> Lower Magma Level `10, 16`)**: Stepping into `(17, 19)` beside Burglar Ronald (`18, 17`) drops Asher to `(10, 16)` on the Lower Magma Level plateau west of Cooltrainer Izzy (`13, 17`, verified Turn 35645).
     - **Magma Chamber Southwestern Floor Pit (`16-17, 23-24`)**: Unexplored pit north of Black Belt Calude (`20, 26`).
     - **Lower Magma Level Hiker (`28, 24`) & Central Lava Island Wall Ladders**: Hiker at `(28, 24)` below the `(29, 25-27)` one-way ledge; wall ladder at `(29, 14)` on the Lower Magma Level lava island (south of Engineer Wade `30, 8`) and wall ladder at `(28, 17)` on the Magma Chamber lava island (`with spray-bottle item at 26, 18`).
+## Divampa Cave Balcony (`12, 20` -> `12, 12`, Turns 35683-35690)
+- **Canyon & Balcony Layout (`12, 20 -> 12, 12`)**: Exiting the sunlit archway at `(25, 9)` in the Upper Basalt Chamber warps to `(12, 20)` in a narrow outdoor canyon leading north along `column 12` onto an ocean cliff balcony (`12, 12`), where **Team Siara's Cargo Ship** is docked at `(12, 8)`.
+- **Marie's Ambush (`12, 12`)**: Stepping onto `(12, 12)` triggers the confrontation with **Mom (Marie)** (`12, 10`), **Siara Admin Flo** (`12, 13`), and two **Team Siara Grunts** (`11, 12` and `13, 12`), who capture Asher and bring him aboard the **Team Siara Cargo Ship** (`6, 4`).
