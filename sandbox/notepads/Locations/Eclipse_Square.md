@@ -28,3 +28,4 @@
     - **Pokémon 3**: Lucario (Lv45; Fighting/Steel; OHKO'd by Sirius's `Aura Sphere` for `1773 EXP`).
     - **Pokémon 4**: Torterra (♀, Lv46; Grass/Ground; OHKO'd by Sirius's `Aura Sphere` for `2049 EXP`).
     - **Pokémon 5**: Honchkrow (Lv45; Dark/Flying; OHKO'd by Sirius's `Aura Sphere`).
+  - **Outcome**: Defeated in Turns 35389-35400 (*"Ah man... / I wonder if Valora won though... / I guess she's the winner here... / Well, see you later, Asher"*; awards `₽4,600`), advancing Asher to the **Quarterfinals (Top 8)** against Sinnoh's **Lucas**.
