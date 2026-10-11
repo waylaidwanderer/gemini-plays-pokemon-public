@@ -33,7 +33,8 @@
 - **Higher Eastern Ledge (`cols 29-36, rows 25-28`)**:
   - **Cooltrainer♂ Hideo (`31, 25`, Facing Down)**:
     - **Pre-Battle Quote**: *"Hey hey hey! / A fellow finalist as I see!"*
-    - **Team (1 Pokémon)**:
+    - **Team (2 Pokémon)**:
       - **Pokémon 1**: Cofagrigus (♂, Lv43; Ghost; Ability: Mummy; OHKO'd by Sirius's `Meteor Mash` for `1557 EXP`).
-    - **Outcome**: Defeated in Turns 35003-35005.
+      - **Pokémon 2**: Excadrill (♀, Lv44; Ground/Steel; OHKO'd by Sirius's `Mach Punch` for `1677 EXP`).
+    - **Outcome**: Defeated in Turns 35003-35007 (*"No way..."*).
   - **Northbound Wooden Staircase (`cols 32-34, rows 23-24`)**: Leads north onto the upper terrace (`33, 21-22`).
