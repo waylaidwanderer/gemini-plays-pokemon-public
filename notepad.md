@@ -1371,6 +1371,7 @@
   - Two openings in the western wheat-field fence at `(21-22, 39-40)` and `(21-22, 43)` lead west to `columns 19-20`.
   - Heading south along `column 19` dead-ends at trees at `(19, 49)` with a continuous impassable fence along `column 20` (`20, 44-53`; verified Turns 33984-33986).
   - Heading north along `column 19` from `(19, 43)` reaches the wooden cliff staircase at `(17-19, 36-38)`, which climbs onto the western cliff plateau (`cols 12-19, rows 31-38`; verified Turns 33986-33988).
+- **Northbound Wheat-Field Return Route (`50, 49` -> `33, 30`, Verified Turns 34530-34534)**: From the southern Maple Town border (`50, 49`), walk `Left 1, Up 6` to `(49, 43)`, `Left 14` along the grass aisle `row 43` to `(35, 43)`, `Up 4` to `(35, 39)`, `Left 6` along the passable top-tip `row 39` to `(29, 39)`, `Up 1, Left 1, Up 6` up `column 28` to `(28, 32)`, `Right 5` along the passable top-tip `row 32` to `(33, 32)`, and `Up 2` to `(33, 30)` at the northern dirt road.
 
 <hr>
 
