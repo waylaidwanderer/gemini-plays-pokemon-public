@@ -2295,7 +2295,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Nidoqueen (♀, Lv43; Poison/Ground; OHKO'd by Sirius's `Bulldoze` for `1786 EXP`).
     - **Pokémon 2**: Rhydon (♂, Lv44; Ground/Rock; OHKO'd by Sirius's `Aura Sphere` for `1923 EXP`).
-  - **Outcome**: Defeated in Turns 35099-35104.
+  - **Outcome**: Defeated in Turns 35099-35105 (*"Oh."*; awards `₽1,760`).
 
 <hr>
 
