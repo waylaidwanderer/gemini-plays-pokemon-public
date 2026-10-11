@@ -2807,7 +2807,7 @@
     19. Pokédex!
     20. Marine Point Hunter
   - **Page 5 Quests**:
-    21. Hugh's Pokémon
+    21. Hugh's Pokémon (Special Quest — accepted from Hugh at Amor Department Store 2F `11, 7` in Turn 34675; Task: show Hugh a PokéDex with **150 species** registered to receive three rare Pokémon from Unova)
     22. Silver's Deal
     23. Back to the...
     24. Outcasts
