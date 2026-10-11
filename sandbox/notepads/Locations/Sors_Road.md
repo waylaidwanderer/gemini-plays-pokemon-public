@@ -142,3 +142,10 @@
     - **Team (1 Pokémon)**:
       - **Pokémon 1**: Sylveon (♂, Lv45; Fairy; OHKO'd by Sirius's `Meteor Mash` for `1773 EXP`).
     - **Outcome**: Defeated in Turns 35159-35164 (*"Darn it!"*; awards `₽2,700`).
+  - **Biker Ramon (`27, 24` on Overhead Wooden Bridge, Rotating)**:
+    - **Pre-Battle Quote**: *"Hey, don't fall of! / I gotta win first!"*
+    - **Team (3 Pokémon, +1 Hyper Potion)**:
+      - **Pokémon 1**: Torkoal (♂, Lv44; Fire; Ability: White Smoke; knows Iron Defense; defeated by Sirius's `Bulldoze` for `1518 EXP`).
+      - **Pokémon 2**: Camerupt (♀, Lv44; Fire/Ground; OHKO'd by Sirius's `Bulldoze` for `1650 EXP`).
+      - **Pokémon 3**: Darmanitan (♂, Lv44; Fire; OHKO'd by Sirius's `Bulldoze` for `1584 EXP`).
+    - **Outcome**: Defeated in Turns 35167-35175.
