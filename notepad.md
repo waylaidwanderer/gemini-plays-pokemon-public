@@ -1466,6 +1466,11 @@
     - **Pokémon 3**: Wailord (♂, Lv42; Water; OHKO'd by Sirius's `Aura Sphere` for `1809 EXP`, leveling Sirius to Lv72).
     - **Pokémon 4**: Wormadam (♀, Lv41; Plant Cloak, Bug/Grass; knows Protect and Signal Beam; 2HKO'd by Sirius's `Mach Punch` for `1299 EXP`).
   - **Outcome**: Defeated in Turns 34762-34776 (*"I see... / Hehe your power truly is remarkable"*; awards `₽4,704`). Post-battle, Cheryl remarks *"You've got a lot going for you so make sure to win the Finals!"* and departs east along `row 25`.
+## Eastern Riverbank & Mountain Approach (`cols 54+, rows 20-35`)
+- **Cooltrainer♀ Becky (`58, 23` -> `58, 24`, Facing Down)**:
+  - **Pre-Battle Quote**: *"Darn, Eclipse Square is so high up on the mountain!"*
+  - **Team (3 Pokémon)**:
+    - **Pokémon 1**: Roserade (Grass/Poison).
 - **Swimmer♀ Abigail (`29, 17`, Rotating)**:
   - **Pre-Battle Quote**: *"Isn't the water current too strong?"*
   - **Team (4 Pokémon)**:
