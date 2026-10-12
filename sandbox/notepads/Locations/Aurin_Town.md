@@ -22,7 +22,7 @@
   - **Outcome**: Defeated in Turns 33698-33706.
 - **Upper Cliffside & Collapsed Bridge Eastern Span (`cols 17-48, rows 8-18`, Verified Turns 33706-33714)**:
   - **Wooden Cliff Staircase (`40-42, 14-18`)**: Connects the lower meadow (`40-42, 19`) to the upper cliffside (`40-42, 14`).
-  - **Rugged Rock (`47, 12`)**: Blocks the narrow eastern cliff passage at `(47, 12)`.
+  - **Rugged Rock (`47, 12`)**: Blocks the narrow eastern cliff passage at `(47, 12)` (smashed with the Pickaxe in Turn 37420; leads to `48-50, 12` ending at an inert small rock at `51, 12`, verified Turn 37422).
   - **Eastern Bridge Span (`18-37, 11-13`)**: Extends west from `(38, 12)` across the bay to the western cliff island (`cols 8-17`).
   - **Black Belt Julio (`24, 13`, facing `Up` on the wooden bridge)**:
     - **Pre-Battle Quote**: *"Darn... the bridge has collapsed! / Be really careful!"*
