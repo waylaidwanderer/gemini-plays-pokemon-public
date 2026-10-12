@@ -21,7 +21,7 @@
 - **Trainer Tips Signboard (`24, 43`)**: Located in the tall grass at `(24, 43)` (interacted from `24, 44`, reads verbatim: *"Trainer Tips! / You can jump down from small ledges in order to take shortcuts!"*, verified Turn 32833).
 - **Burn Heal (`33, 46` — Spray Bottle Sprite)**: Located on the eastern nook of the middle-upper cliff terrace (`33, 46`, collected from `32, 46` in Turn 32830).
 - **X Special (`19, 19` — Capsule Sprite)**: Tucked to the right of the `(18, 19)` rock cone; reached by walking behind the passable top canopy of the pine tree at `(19, 20)` from `(18, 20)` and pressing `A` facing `Up` (collected in Turn 32870).
-- **Upper Rugged Rocks (`22, 20` & `23, 19`)**: Block the small eastern cliff nook at `(23, 20)` until rock-smashing equipment is obtained (observed Turn 32870).
+- **Upper Rugged Rocks (`22, 20` & `23, 19`)**: Smashed with the Pickaxe from `(23, 18)` and `(23, 20)` in Turns 37476-37477; verified that `(22-23, 20)` is an empty cliff-edge nook with no hidden items.
 - **Southbound Shortcut Staircase (`32-34, 88-89`) & One-Way Ledge (`32-34, 91`)**: Located on the southeastern edge of the middle terrace; leads south over a one-way ledge at `(32-34, 91)` back down to Bird Keeper Jett's terrace (verified Turn 32703).
 - **Rock Cones (`24, 104`, `34, 98`, `39, 98`, `20, 92`, `37, 68`, `16, 66`, `35, 62`, `11, 56`, `16, 54`, `36, 23`, `18, 19`, `22, 11`, & `37, 4`)**: Twelve are inert (Turns 32634, 32641, 32663, 32712, 32740, 32773, 32774, 32827, 32869, 32876, & 32900), while the rock cone at **`(35, 62)`** contains a hidden **Revive** (collected from `34, 62` in Turn 32758).
 - **Upper Eastern Ascent & Western Connecting Staircases (`rows 21-51`)**:
