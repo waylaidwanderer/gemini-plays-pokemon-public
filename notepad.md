@@ -565,7 +565,7 @@
   - **Aroma Lady Sabina (`22, 20`, beside the blue beach umbrella at `21, 21`)**: Pre-battle quote *"Don't you think this is the best place to pick tropical flowers?"*; uses Vileplume (`♀, Lv53`, Grass/Poison) and Bellossom (`♀, Lv53`, Grass; knows `Stun Spore`; defeated in Turns 36999-37003).
 - **Hupest Sky Map Markers on Cord Island (`cols 23-26, rows 17-19`, Verified Turn 37020)**:
   - **Purple Diamond (`25, 17`)**: Located on the north-central coast of Cord Island (`1 tile Left` of `26, 17`); prints `"You haven't unlocked this area for Soaring yet!"` until reached on foot (verified Turn 37021).
-  - **Red Square (`23, 18`, Cord Island)**: Located on the western coast of Cord Island (unlocked for Soaring at `34, 23` in Turn 36987).
+  - **Red Square (`23, 18`, Cord Island)**: Located on the western coast of Cord Island (unlocked for Soaring at `34, 23` in Turn 36987; lands at `36, 27` on the Cord Island Ferry Pier, verified Turn 37023).
   - **Blue Square (`25, 19`)**: Located on the southern coast of Cord Island; also prints `"You haven't unlocked this area for Soaring yet!"` (verified Turn 37022).
 - **Additional Cord Island East / Beach Landmarks (Observed Turns 36997 & 37005)**:
   - **Gated Spray-Bottle Item (`25, 14`)**: Purple spray-bottle item sprite on the eastern plateau of Cord Island East (`Route 18`), gated by a rugged rock at `(23, 13)`.
