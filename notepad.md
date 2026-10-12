@@ -1318,7 +1318,8 @@
   - An item ball sits on the higher northwestern cliff ledge at `(9, 43)` (observed from `14, 46` in Turn 36534).
   - Walking east via `(14, 46 -> 17, 46 -> 17, 48 -> 25, 48 -> 25, 50 -> 29, 50)` leads to **Female Team Siara Grunt #19 (`29, 51`, facing `Up`)**: Pre-battle quote: *"Hey! How are you still alive?!"*; uses **Volbeat** (`♂, Lv53`, Bug; OHKO'd by Sirius's `Return`) and **Jynx** (`♀, Lv53`, Ice/Psychic; OHKO'd by Sirius's `Return`; defeat quote `"Wow..."`, defeated Turns 36536-36541).
 - **Eastern Wooden Staircase (`32-35, 46-48`) & Team Siara Grunt #20 (`31, 45` -> `32, 45`, facing `Right`)**: Reached from `(29, 50)` via `Right 4, Up 5` (`29, 50 -> 33, 50 -> 33, 45`). Pre-battle quote: *"Brr..."*; uses **Pyroar** (`♂, Lv52`, Fire/Normal; OHKO'd by Sirius's `Mach Punch` for `1971 EXP`) and **Darmanitan** (`♀, Lv53`, Fire; OHKO'd by Sirius's `Return` for `1908 EXP`, leveling Sirius to Lv89; defeated Turns 36542-36548).
-- **North-Central Pine Corridor (`33, 45 -> 33, 38 -> 29, 38 -> 29, 35 -> 24, 35`, Verified Turns 36549-36551)**: From `(33, 45)`, walk `Up 7` (`33, 45 -> 33, 38`), `Left 4` across the passable top row of the `(32, 38-39)` rock cone to `(29, 38)`, `Up 3` to `(29, 35)`, and `Left 5` to `(24, 35)`.
+- **North-Central Pine Corridor (`33, 45 -> 33, 38 -> 29, 38 -> 29, 35 -> 24, 35 -> 24, 34 -> 15, 34`, Verified Turns 36549-36553)**: From `(33, 45)`, walk `Up 7` (`33, 45 -> 33, 38`), `Left 4` across the passable top row of the `(32, 38-39)` rock cone to `(29, 38)`, `Up 3` to `(29, 35)`, `Left 5` to `(24, 35)`, and `Up 1, Left 9` across the passable top row of the `(22-23, 34-36)` pine tree to `(15, 34)`.
+- **Female Team Siara Grunt #21 (`15, 37` -> `15, 35`, random-turning spinner)**: Pre-battle quote: *"Roger... / I'm sorry, but you stop here..."*; uses **Electrode** (`Lv53`, Electric, knows `Light Screen`; 2HKO'd by Sirius's `Aura Sphere` + `Mach Punch` for `1702 EXP`) and **Magneton** (`Lv53`, Electric/Steel; OHKO'd by Sirius's `Mach Punch` for `1828 EXP`; defeat quote `"."`, prize `₽5512`, defeated Turns 36553-36559).
 
 <hr>
 
@@ -3796,7 +3797,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 255), Attack (C+, 241), Defense (A-, 233), Sp. Atk (C-, 224), Sp. Def (E, 152), Speed (C-, 158)
-- **Current Condition**: 145/255 HP, Healthy (`Dark Pulse 10/15`, `Return 4/20`, `Aura Sphere 6/20`, `Mach Punch 26/30`)
+- **Current Condition**: 115/255 HP, Healthy (`Dark Pulse 10/15`, `Return 4/20`, `Aura Sphere 5/20`, `Mach Punch 24/30`)
 - **EXP**: Lv89 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
