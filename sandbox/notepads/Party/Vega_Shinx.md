@@ -4,10 +4,10 @@
 - **Species**: Luxio (Electric-type; evolved from Shinx at Lv15 in Turn 30885)
 - **Nickname**: Vega (named after Alpha Lyrae, the bright blue-white star of the Summer Triangle alongside Altair)
 - **Gender**: Female (♀)
-- **Level**: Lv18 (leveled up defeating Siara Admins Flo & Harry's Lv52 Eclipsed Vikavolt at Mt. Nit Summit Temple in Turn 36625; Stats: HP 53, Attack 35, Defense 26, Sp. Atk 26, Sp. Def 20, Speed 28; declined Bite at Lv18)
+- **Level**: Lv19 (leveled up defeating Siara Admins Flo & Harry's Lv52 Eclipsed Vikavolt and Lv52 Sceptile at Mt. Nit Summit Temple in Turns 36625-36629; Stats: HP 56, Attack 37, Defense 27, Sp. Atk 28, Sp. Def 21, Speed 29; declined Bite at Lv18)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 53/53 HP
+- **HP**: 56/56 HP
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
