@@ -1295,6 +1295,7 @@
 - **Team Siara Grunt #9 (`21, 21`, facing `Down`)**: Pre-battle quote: *"See that entrance? / Why don't you go back to that?"*; uses a 3-Eeveelution team: **Eclipsed Espeon** (`♂, Lv50`, OHKO'd by Sirius's `Return` for `2110 EXP`), **Eclipsed Umbreon** (defeated by Sirius's `Aura Sphere`), and **Eclipsed Sylveon** (`♂, Lv51`, 2x weak to `Dark Pulse`; OHKO'd by Sirius's `Return` for `2010 EXP`; defeated Turns 36446-36452).
 - **Female Team Siara Grunt #10 (`28, 20`, facing `Down`)**: Pre-battle quote: *"Oi, what are you doing here?! / Get out of here, now!"*; uses **Eclipsed Ursaring** (`♀, Lv51`, 2x weak to `Dark Pulse` and `Aura Sphere`; OHKO'd by Sirius's `Aura Sphere` for `2065 EXP`), **Piloswine** (`♀, Lv51`, OHKO'd by Sirius's `Aura Sphere` for `1747 EXP`), and **Beartic** (`♂, Lv51`, OHKO'd by Sirius's `Aura Sphere` for `1933 EXP`; prize `₽5304`, defeated Turns 36454-36458).
 - **Team Siara Grunt #11 (`35, 18` -> `35, 20`, facing `Down`)**: Pre-battle quote: *"Tch, an intruder? / Oh come on!"*; uses **Primeape** (`♂, Lv51`, OHKO'd by Sirius's `Return` for `1627 EXP`) and **Bewear** (`♂, Lv52`, 2x weak to `Dark Pulse` and `Aura Sphere`; OHKO'd by Sirius's `Aura Sphere` for `1950 EXP`; defeat quote `"For crying out loud"`, prize `₽5408`, defeated Turns 36459-36462).
+- **Female Team Siara Grunt #12 (`43, 15`, facing `Right`)**: Reached via `(34, 21 -> 34, 17 -> 37, 17 -> 37, 18 -> 42, 18 -> 43, 16)` across the eastbound wooden staircase (`42, 17-19`). Pre-battle quote: *"Trying to get higher huh? / Well sorry, you can't!"*; uses **Delcatty** (`♀, Lv51`, knows `Fake Out`; OHKO'd by Sirius's `Aura Sphere` for `1507 EXP`) and **Purugly** (`♀, Lv52`, knows `Fake Out`; OHKO'd by Sirius's `Aura Sphere` for `1759 EXP`, leveling Sirius to Lv88; defeat quote `"..."`, defeated Turns 36466-36471).
 
 <hr>
 
@@ -3768,11 +3769,11 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv87
+- **Level**: Lv88
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 250), Attack (C+, 236), Defense (A-, 227), Sp. Atk (C-, 219), Sp. Def (E, 149), Speed (C-, 154)
-- **Current Condition**: 220/250 HP, Healthy (`Dark Pulse 11/15`, `Return 17/20`, `Aura Sphere 14/20`, `Mach Punch 29/30`)
+- **Stats (IV Grades)**: HP (C, 252), Attack (C+, 239), Defense (A-, 231), Sp. Atk (C-, 222), Sp. Def (E, 151), Speed (C-, 156)
+- **Current Condition**: 187/252 HP, Healthy (`Dark Pulse 11/15`, `Return 14/20`, `Aura Sphere 8/20`, `Mach Punch 29/30`)
 - **EXP**: Lv85 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
