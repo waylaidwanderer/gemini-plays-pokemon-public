@@ -1336,7 +1336,10 @@
     3. **Zoroark♂ Lv52** (sent into the right-hand slot after Salazzle fainted on Turn 1; OHKO'd on Turn 2 by Sirius's `Return` in Turn 36596).
     4. **Eclipsed Crobat Lv52** (sent into the right-hand slot after Zoroark fainted on Turn 2; survived Sirius's `Return` in red HP and used **`Eclite Storm`** on Turn 3 and `Acrobatics` on Turn 4; knocked out on Turn 5 by Sirius's `Dark Pulse` for `1135 EXP` each in Turn 36610).
     5. **Sceptile♂ Lv52** (Grass; holds `Life Orb`; switched into the left-hand slot for `Lapras♀ Lv52` on Turn 4 to save Lapras from its own `Perish Song`; uses `Dark Pulse`, `Leaf Blade` [paralyzed by Flaaffy's `Static` in Turn 36618], and `Nasty Plot` [Turn 36626]; OHKO'd on Turn 8 by Sirius's `Return` for `1158 EXP` each in Turn 36628).
-    6. **Eclipsed Vikavolt♂ Lv52** (sent into the right-hand slot after Eclipsed Crobat fainted on Turn 5; 2HKO'd on Turns 6-7 by Lv89 Sirius's `Return` for `1086 EXP` each in Turns 36616-36623).
+    6. **Eclipsed Vikavolt♂ Lv52** (sent into the right-hand slot after Eclipsed Crobat fainted on Turn 5; 2HKO'd on Turns 6-7 by Lv89 Sirius's `Return` for `1086 EXP` each in Turns 36616-36623; defeat quotes `"Flo: Just what is this kid made out of?!"` / `"Harry: ... such a disappointment."`, prize `₽13,312`, defeated Turn 36635).
+- **Showdown with Team Siara Leader Marie (`15, 10`, Turns 36635-present)**:
+  - After Flo and Harry's defeat, **Valora** (`13, 13`), **Professor Ivo** (`15, 13`), and **Dad (Jackson)** (`17, 13`) arrive behind Micah (`14, 12`) and Frio (`16, 12`) as Flo and Harry break open the meteorite (`15, 7`) containing the sleeping ancient entity.
+  - Revealing that Asher inherited his Eclipser bloodline genes from her and that she adopted Frio as a tool after her divorce from Jackson, **Marie** challenges Asher at `(15, 10)`.
 
 <hr>
 
@@ -3580,6 +3583,14 @@
 ## Ancient Hupestian Ruins Reunion & The Breached Peak Passage (`14, 15` -> `14, 11`, Turns 36342-36345)
 - **Reunion with Dad, Valora & Professor Ivo (`14, 15`)**: Soaring on **Latias** to **Jarro Town** (`16, 6`) and entering the **Ancient Hupestian Ruins** (`36, 20` -> `14, 15`), Asher reunited with **Dad (Jackson)** (`13, 15`), **Valora** (`14, 14`), and **Professor Ivo** (`15, 15`) in front of the central Eklissi prophecy mural (`14, 11`), which had been breached open into a cave archway.
 - **Team Siara's March to the Peak**: Valora reported that an army of Team Siara grunts and helicopters had marched into the ruins toward the mountain's peak, and that **Colen Champion Micah** and **Frio** had already gone ahead to meet up around the summit. Dad, Valora, and Professor Ivo joined Asher (`14, 15`) to ascend through the breached passage (`14, 11`) toward the summit.
+
+## Mt. Nit Summit Temple — Confronting Marie, Siara Admins Flo & Harry, & The Sleeping Entity (`15, 11`, Turns 36588-36638)
+- **The Three Youths of the Prophecy (`15, 11`)**: Reaching the **Mt. Nit Summit Temple** after defeating 23 Team Siara guards across the mountain slopes and interior cavern, **Asher** (`15, 11`) stood alongside **Colen Champion Micah** (`14, 12`) and **Frio** (`16, 12`) before **Marie** (`15, 9`), **Siara Admin Flo** (`14, 9`), **Siara Admin Harry** (`16, 9`), two Team Siara Grunts (`13, 8` and `17, 8`), and a giant purple meteorite at the northern altar (`15, 5-7`) encasing the sleeping stone form of the ancient entity.
+- **Double Boss Battle Against Siara Admins Flo & Harry (Turns 36590-36635)**: While Marie stepped up to the altar (`15, 7`) and Micah and Frio held off the two grunts (`14, 11` and `16, 11`), Flo and Harry teamed up against Asher in a 6-Pokémon Double Battle (`Salazzle♀ Lv52`, `Lapras♀ Lv52`, `Zoroark♂ Lv52`, **Eclipsed Crobat Lv52**, `Sceptile♂ Lv52`, and **Eclipsed Vikavolt♂ Lv52**), which Asher won (`₽13,312`).
+- **Arrival of Dad, Professor Ivo & Valora & Marie's Eclipser Bloodline Confession (Turns 36635-36638)**:
+  - Following Flo and Harry's defeat, Marie ordered them to break the meteorite apart as **Valora** (`13, 13`), **Professor Ivo** (`15, 13`), and **Dad (Jackson)** (`17, 13`) arrived behind Micah and Frio.
+  - When Asher asked Marie why she was doing all of this, Marie revealed that **Asher inherited his Eclipser bloodline power directly from her genes** (*"How can you control Eclipsed Pokémon? Because of me of course! I am you mother, so it's natural you got some of my genes, son!"*).
+  - Marie admitted she didn't know about her Eclipser heritage until she met Jackson, and deciding she was too old to master it herself, she originally planned to train Asher as her descendant—and after the divorce adopted **Frio** as a replacement tool—before challenging Asher to stop her (*"Well then, son... If you think you can stop us... no... me, then come and try!"*).
 
 <hr>
 
