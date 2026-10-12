@@ -91,4 +91,6 @@
   - After Flo and Harry's defeat, **Valora** (`13, 13`), **Professor Ivo** (`15, 13`), and **Dad (Jackson)** (`17, 13`) arrive behind Micah (`14, 12`) and Frio (`16, 12`) as Flo and Harry break open the meteorite (`15, 7`) containing the sleeping ancient entity.
   - Revealing that Asher inherited his Eclipser bloodline genes from her and that she adopted Frio as a tool after her divorce from Jackson, **Marie** challenges Asher at `(15, 10)` (automatically restoring the player's entire 6-Pokémon party to 100% HP and PP before the battle):
     1. **Eclipsed Unfezant Lv52** (uses `Agility` and `LunarEclipse` [-1 Attack]; 2HKO'd by Sirius's `Return` in Turns 36639-36640).
-    2. **Eclipsed Heracross Lv53** (sent out second in Turn 36643).
+    2. **Eclipsed Heracross Lv53** (uses `Earthquake` and `Close Combat`; dropped to -2 Attack by Vega's `Baby-Doll Eyes` and 2HKO'd by Sirius's `Return` for `2271 EXP` in Turns 36643-36648).
+    3. **Eclipsed Houndoom Lv52** (uses `Flamethrower`; 2HKO'd by Sirius's `Return` for `2272 EXP` in Turns 36649-36651).
+    4. **Eclipsed Milotic** (sent out fourth in Turn 36652).
