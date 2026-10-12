@@ -487,7 +487,7 @@
   - **Southern Signboard (`19-20, 26`)**: Interacted from `(20, 27)` facing `Up`, reads verbatim: *"Chargy City / The city of shocks!"* (verified Turn 36718).
   - **Police Officers (`23-24, 26-27` & `10-11, 24-26`)**: Patrol the streets of Chargy City (*"Wait, don't tell me I look like a criminal?!"*, verified Turn 36718).
   - **Southbound Path to Colen Route 1 (`cols 15-18, rows 29-31+`)**: Leads south out of Chargy City toward **Colen Route 1** and **Bydan Town**.
-  - **Western Blue-Domed Building (`15, 25`) & Chargy City Pokémon Center (`15, 18`)**: Located along the western avenue (`cols 10-18`).
+  - **Western Blue-Domed Building (`15, 25`) & Chargy City Pokémon Center (`11, 18`)**: Located along the western avenue (`cols 10-18`; Nurse Joy at `7, 2` inside `11, 18` healed the party and registered the Chargy City checkpoint in Turn 36724).
 
 <hr>
 
@@ -497,9 +497,14 @@
 
 ## Geography & Connections
 - **Northern Entrance (`18-23, 0` <-> Chargy City `15-18, 32`)**: Seamless transition south of Chargy City.
+- **Patrolling Police Officer (`19-21, 8`, Verified Turns 36734-36735)**: Patrols the northern tall-grass patch (`"No suspicious activity here!"`, Turn 36734).
+
+## Visual & Battle Mechanics
+- **Ambient Purple Lighting Tint (Verified Turns 36741-36744)**: Colen Route 1 applies a purple ambient lighting filter to both the overworld and battle screen, causing standard green battle HUD HP bars (`100%` or chipped) to appear purple in battle while rendering normal green inside the untinted Party menu.
 
 ## Wild Pokémon (Tall Grass)
-- **Eclipsed Staraptor (`♂, Lv41`, purple Eclipse HP bar)**: Encountered at `(21, 5)` in Turn 36730; knows `Whirlwind`. Displays no Poké Ball icon despite standard Staraptor being owned, confirming Eclipsed forms have separate Pokédex ownership flags, and can be caught directly with standard Poké Balls (`Ultra Ball` shook twice at 100% HP in Turn 36732).
+- **Staraptor (`♂, Lv41`)**: Encountered at `(21, 5)` in Turn 36730; knows `Whirlwind`. Displays no Poké Ball icon in the Colen Region battle HUD until registered under the Colen regional check (`Ultra Ball` shook twice at 100% HP in Turn 36732).
+- **Scizor (`♂, Lv40`, Bug/Steel)**: Encountered at `(20, 12)` in Turns 36736-36746; knows `Fury Cutter`, `Slash`, and `Iron Defense`.
 
 <hr>
 
@@ -3775,7 +3780,7 @@
 - **Key Items Pocket (Audited Turn 35883 & Turn 35924)**: Contains **HuPhone**, **TM Case**, **Metro Pass**, **Eclipse Band**, **Fishing Rod**, **Rare Opal** (retained in Key Items after completing Quest #18), **Berry Pouch** (verified empty in Turn 35245), **Itemfinder** (rewarded at Route 4 `46, 13` for completing Quest #5 in Turn 31891; **Dynamite** was delivered to the Coworker at Route 6 `43, 19` in Turn 32170), **Flower 3** (collected at Route 12 Main `18, 47` for Quest #8 in Turn 32835), **Flower 2** (collected at Route 12 Main `10, 109` for Quest #8 in Turn 36038), **Ec Card** (collected at Undersea Lab B4F West `11, 18` in Turn 34460; unlocks Floor `5F`/`B5F` on the lab elevator), **C. Room Key** (snuck from the table at `8, 7` behind the sleeping/chilling grunt on the Upper Cargo Balcony of the Siara Cargo Ship in Turn 35709), **Prison Key** (obtained alongside Valora's Pokémon from the Lounge table at Siara HQ `36, 5` in Turn 35800), the three drained gems dispensed from the Siara HQ Machine Room console (`13, 5`) in Turn 35883 and subsequently returned to their three shrines (`Yellow Gem` and `Purple Gem` taken by Micah and Frio in Turn 35898; `Green Gem` returned by Asher to the Solare Island Inner Shrine altar `14, 14` in Turn 36320), **Ecla Ball** (picked up from `(15, 9)` at the Mt. Nit Summit Temple after absorbing Eclactus's energy in Turn 36680), and **Cord Ticket** (received in Hav's letter from Dad on Inizio Isle at `17, 18` in Turn 36702; flashed at Dis Bay for ferry passage to Cord Island).
 - **Repel Auto-Renewal Prompt**: When an active Repel expires on a step, the engine automatically displays: "Repel's effect wore off... Use another? Yes/No" (cursor defaults to Yes; pressing A immediately consumes and applies the next Repel without opening the Bag, verified Turn 27448).
 - **Bag Structure (Audited Turn 27862)**: Features 3 main horizontal pockets from left to right: **Items** (Pocket 1), **Key Items** (Pocket 2), and **Poké Balls** (Pocket 3; does not wrap around when pressing Right).
-- **Poké Balls Pocket (Audited Turn 36560)**: Contains **Ultra Ball x20** (collected 1 at Mt. Nit Upper Summit Slope `9, 43` in Turn 36560) and **Dive Ball x1** (collected at Siara Cargo Ship Lower Cargo Area `18, 12` in Turn 35752). Total Owned species in PokéDex: **98** (completed Task 2 of Professor Elm's Research in Turn 34586; Task 3 requires 100 species, and Hugh's Quest #21 requires 150 species).
+- **Poké Balls Pocket (Audited Turn 36744)**: Contains **Ultra Ball x15** (collected 1 at Mt. Nit Upper Summit Slope `9, 43` in Turn 36560; used 5 on Colen Route 1 in Turns 36732-36744) and **Dive Ball x1** (collected at Siara Cargo Ship Lower Cargo Area `18, 12` in Turn 35752). Total Owned species in PokéDex: **98** (completed Task 2 of Professor Elm's Research in Turn 34586; Task 3 requires 100 species, and Hugh's Quest #21 requires 150 species).
 - **Key Items Pocket (Audited Turn 27862)**:
   - **HuPhone** (registered to `[SELECT]`): *"A convenient smartphone that has many features to use."*
   - **TM Case**: *"A case that holds TMs and HMs. It is attached to the Bag's compartment for important items."*
@@ -3904,7 +3909,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Chargy City Pokémon Center in Turn 36724)
+- **Current Condition**: 246/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; verified Turn 36750)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
@@ -3930,7 +3935,7 @@
 - **Level**: Lv21 (leveled up defeating Siara Admins Flo & Harry's Lv52 Eclipsed Vikavolt, Lv52 Sceptile, and Lv52 Lapras at Mt. Nit Summit Temple in Turns 36625-36633; Stats: HP 61, Attack 40, Defense 29, Sp. Atk 30, Sp. Def 23, Speed 33; declined Bite at Lv18)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 61/61 HP (healed at Chargy City Pokémon Center in Turn 36724)
+- **HP**: 0/61 HP (FNT on Colen Route 1 in Turn 36745)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
