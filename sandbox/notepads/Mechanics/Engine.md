@@ -63,7 +63,7 @@
   - **Page 5 Quests**:
     21. Hugh's Pokémon (Special Quest — accepted from Hugh at Amor Department Store 2F `11, 7` in Turn 34675; Task: show Hugh a PokéDex with **150 species** registered to receive three rare Pokémon from Unova)
     22. Silver's Deal (Special Quest — **Completed in Turns 37324-37328**; accepted from Silver at Jarro Town `32, 12` behind the `31, 14` rugged rock in Turn 37324 and completed upon speaking to him again in Turns 37325-37328; rewarded **3 Poké Balls** [Johto starters transferred to PC, bringing Owned species to **105**])
-    23. Back to the...
+    23. Back to the... (Special Quest — **Accepted in Turn 37518** from PKMN Trainer Riley at Ancient Hupestian Ruins `8, 11` in Jarro Town; Riley registered **Celebi** as `Seen` in the Pokédex, gifted the **GS Ball** into Key Items Pocket, and tasked Asher with finding and gathering data on Celebi on *"an island with a lush forest"* [Solare Island])
     24. Outcasts
     25. The Mods of Cord
   - 'Quest Status': When a quest is active, displays the currently tracked quest status and system instructions. When no quest is active, displays 'You aren't doing any Quest at the moment!'.

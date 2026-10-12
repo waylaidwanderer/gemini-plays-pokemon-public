@@ -1141,6 +1141,7 @@
   - **Explorer (`35, 25`)**: Standing under the festival lanterns south of the ruins entrance (*"The Ancient Hupestian Ruins..."*, verified Turn 32939).
   - **Ancient Hupestian Ruins Signboard (`34, 21`) & Entrance (`36, 20-21`)**: Signboard at `(34, 21)` (interacted from `34, 22`) reads verbatim: *"Ancient Hupestian Ruins"* (verified Turns 32939-32940). Inside (`14, 18` exit mat; murals along `row 11` at `9, 11` [Left], `14, 11` [Center, which ends with *"I see small cracks on this wall."*], and `19, 11` [Right], verified via `latest_grid.png` Turns 35994-35995), Professor Ivo translated the three-part **Eklissi Prophecy** inscribed beneath the three wall murals before returning to her laboratory in Lancio Town (verified Turns 32941-32946). Stepping south onto `(36, 29)` afterward triggers the Round 4 HuPhone summons from the Amor Battle Center and fast-travels the player to `(25, 109)` on Route 12 Main (verified Turns 32948-32949).
   - **Post-Solare Island Reunion & Breached Central Wall (`14, 15` -> `14, 11`, Turns 36342-36345)**: Returning to the **Ancient Hupestian Ruins** after activating the Northern Solare Island light beam box triggers a reunion with **Dad**, **Valora**, and **Professor Ivo** at `(14, 15)` before the newly breached central archway at `(14, 11)` leading toward the mountain's peak.
+  - **Post-Game — PKMN Trainer Riley & Special Quest #23 ("Back to the...", `8, 11`, Accepted Turn 37518)**: In the post-game, Sinnoh's **Riley** stands in front of the Left Mural at `(8, 11)` with a sword speech-bubble icon. Speaking to him from `(8, 12)` initiates **Special Quest #23 ("Back to the...")**: Riley shows **Celebi** (the Mythical Time Travel Pokémon, registering it as `Seen` in the Pokédex), explains that Celebi was rumored to be spotted on *"an island with a lush forest"* (Solare Island), asks Asher to find Celebi and gather data on it, and gives Asher the **GS Ball** (`Key Items Pocket`, obtained from an old Poké Ball maker in a faraway region; verified Turns 37517-37520).
 
 <hr>
 
@@ -3911,7 +3912,7 @@
   - **Page 5 Quests**:
     21. Hugh's Pokémon (Special Quest — accepted from Hugh at Amor Department Store 2F `11, 7` in Turn 34675; Task: show Hugh a PokéDex with **150 species** registered to receive three rare Pokémon from Unova)
     22. Silver's Deal (Special Quest — **Completed in Turns 37324-37328**; accepted from Silver at Jarro Town `32, 12` behind the `31, 14` rugged rock in Turn 37324 and completed upon speaking to him again in Turns 37325-37328; rewarded **3 Poké Balls** [Johto starters transferred to PC, bringing Owned species to **105**])
-    23. Back to the...
+    23. Back to the... (Special Quest — **Accepted in Turn 37518** from PKMN Trainer Riley at Ancient Hupestian Ruins `8, 11` in Jarro Town; Riley registered **Celebi** as `Seen` in the Pokédex, gifted the **GS Ball** into Key Items Pocket, and tasked Asher with finding and gathering data on Celebi on *"an island with a lush forest"* [Solare Island])
     24. Outcasts
     25. The Mods of Cord
   - 'Quest Status': When a quest is active, displays the currently tracked quest status and system instructions. When no quest is active, displays 'You aren't doing any Quest at the moment!'.
