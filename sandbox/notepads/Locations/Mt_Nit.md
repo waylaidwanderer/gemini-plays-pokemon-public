@@ -93,4 +93,5 @@
     1. **Eclipsed Unfezant Lv52** (uses `Agility` and `LunarEclipse` [-1 Attack]; 2HKO'd by Sirius's `Return` in Turns 36639-36640).
     2. **Eclipsed Heracross Lv53** (uses `Earthquake` and `Close Combat`; dropped to -2 Attack by Vega's `Baby-Doll Eyes` and 2HKO'd by Sirius's `Return` for `2271 EXP` in Turns 36643-36648).
     3. **Eclipsed Houndoom Lv52** (uses `Flamethrower`; 2HKO'd by Sirius's `Return` for `2272 EXP` in Turns 36649-36651).
-    4. **Eclipsed Milotic** (sent out fourth in Turn 36652).
+    4. **Eclipsed Milotic Lv53** (uses `Terra Drain` and `Scald`; resists Fighting-type `Aura Sphere` [`0.5x`]; defeated by Sirius's `Return` + `Aura Sphere` + `Dark Pulse` for `2418 EXP` in Turns 36652-36655).
+    5. **Eclipsed Solrock** (sent out fifth in Turn 36655).
