@@ -487,3 +487,7 @@
 ## Post-Game — Inizio Isle Reunion, The Colen Investigation & The Cord Ticket (`17, 18`, Turns 36699-36704)
 - **Colen Champion Micah's Request (`17, 17`)**: Stepping outside Asher's house on **Inizio Isle** after the credits (`16, 17 -> 17, 17`), **Colen Champion Micah** congratulated Asher on the ceremony, expressed condolences over Frio's funeral, and invited Asher to travel to the **Colen Region** whenever available to help investigate thugs reported to be remaining members of **Team Void**.
 - **Hav's Letter & The Cord Ticket (`17, 18`)**: **Dad (Jackson)** stepped out of the house with an official letter addressed to the winner of the **Eclipse Tournament** from **Hav**, inviting Asher to **Cord Island** (which Micah noted is an island owned by a wealthy family) and enclosing the **Cord Ticket** (`Key Items Pocket`, Turn 36702), which can be flashed at **Dis Bay** to board a special ferry to **Cord Island**.
+- **Post-Game System Unlocks (`17, 18`, Turn 36704)**:
+  1. **Ancient Hupestian Ruins Soaring**: *"Ancient Hupestian Ruins has been added to available locations! Now you can soar there freely as you wish!"*
+  2. **Hupest Wilds**: *"Hupest Wilds is now an available area!"*
+  3. **Chargy City (Colen Region) Metro Access**: *"You can take the Metro now to Chargy City (in Colen)!"*
