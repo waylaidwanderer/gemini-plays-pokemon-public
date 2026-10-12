@@ -989,6 +989,9 @@
 - **Northern Grass Clearing (`cols 7-18, rows 1-13`)**: Features tall grass, blue flowers, rock cones (`9, 7` and `16, 9`), narrow trees (`8, 5`, `9, 9`, `14, 7`), and **Cooltrainer Mol (`12, 9`, spinner)**:
   - **Pre-Battle Quote**: *"The crater is pretty wide? / Why is it a crater?!"*
   - **Team (3 Pokémon)**: Azumarill (`♀, Lv51`, Water/Fairy), Alomomola (`♀, Lv51`, Water; `1803 EXP`), and Jellicent (`♂, Lv51`, Water/Ghost; `1836 EXP`; defeat quote: *"Diving head in huh."*; awards `₽3,060`, verified Turns 36939-36945).
+- **Lower Plateau (`cols 16-22, rows 15-26`) & Explorer Cole (`18, 21` -> `19, 21`, spinner)**:
+  - Reached by descending the wooden cliff staircase at `(20-21, 14-15)` onto `(20, 16)`.
+  - **Explorer Cole (`18, 21`)**: Pre-battle quote *"Hey hey hey, let's have a battle?"*; uses Torkoal (`♀, Lv53`, Fire; Drought; `1828 EXP`) and Emboar (`♂, Lv53`, Fire/Fighting; `2361 EXP`; defeated in Turns 36952-36956).
 
 <hr>
 
@@ -3986,7 +3989,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 19/20`, `Dark Pulse 13/15`, `Aura Sphere 19/20`, `Mach Punch 30/30`; healed at Aurin Town Pokémon Center in Turn 36893; used 1 `Dark Pulse` at Hupest Wilds `17, 19` in Turn 36921 and 1 `Return`, 1 `Aura Sphere`, 1 `Dark Pulse` against Cooltrainer Mol at `11, 9` in Turns 36940-36943)
+- **Current Condition**: 258/258 HP, Healthy (`Return 17/20`, `Dark Pulse 14/15`, `Aura Sphere 18/20`, `Mach Punch 30/30`; healed at Aurin Town Pokémon Center in Turn 36893; used 1 `Dark Pulse` at Hupest Wilds `17, 19` in Turn 36921, 3 `Return` at `56, 46` in Turns 36930-36932, and 2 `Aura Sphere` against Explorer Cole at `20, 21` in Turns 36953-36955)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)

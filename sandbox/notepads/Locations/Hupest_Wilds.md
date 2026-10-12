@@ -29,3 +29,6 @@
 - **Northern Grass Clearing (`cols 7-18, rows 1-13`)**: Features tall grass, blue flowers, rock cones (`9, 7` and `16, 9`), narrow trees (`8, 5`, `9, 9`, `14, 7`), and **Cooltrainer Mol (`12, 9`, spinner)**:
   - **Pre-Battle Quote**: *"The crater is pretty wide? / Why is it a crater?!"*
   - **Team (3 Pokémon)**: Azumarill (`♀, Lv51`, Water/Fairy), Alomomola (`♀, Lv51`, Water; `1803 EXP`), and Jellicent (`♂, Lv51`, Water/Ghost; `1836 EXP`; defeat quote: *"Diving head in huh."*; awards `₽3,060`, verified Turns 36939-36945).
+- **Lower Plateau (`cols 16-22, rows 15-26`) & Explorer Cole (`18, 21` -> `19, 21`, spinner)**:
+  - Reached by descending the wooden cliff staircase at `(20-21, 14-15)` onto `(20, 16)`.
+  - **Explorer Cole (`18, 21`)**: Pre-battle quote *"Hey hey hey, let's have a battle?"*; uses Torkoal (`♀, Lv53`, Fire; Drought; `1828 EXP`) and Emboar (`♂, Lv53`, Fire/Fighting; `2361 EXP`; defeated in Turns 36952-36956).
