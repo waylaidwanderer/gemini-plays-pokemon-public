@@ -36,3 +36,10 @@
     - **Northern Cave Archway (`55, 8`) & Western Ridge Path (`54, 12 -> 35, 11`)**:
       - Stepping north from `(60, 16)` through the walkable green bush `(60, 15)` via `(59, 15 -> 59, 11 -> 54, 11)` leads to a northern cave archway at **`(55, 8)`**.
       - Continuing west along `row 12` (`54, 12 -> 37, 12 -> 35, 11`) across the wooden platform (`42-44, 12-14`) leads to **Team Siara Grunt #8 (`34, 11`, facing `Down`)**: Pre-battle quote: *"I found one of our targets! / Engaging in combat!"*; uses **Eclipsed Jolteon** (`♂, Lv51`, OHKO'd by Sirius's `Return`) and **Eclipsed Azumarill** (`♀, Lv51`, OHKO'd by Sirius's `Return` for `1671 EXP`; defeat quote `"What the?!"`, defeated Turns 36436-36441).
+      - **Western Ridge & Shortcut Staircase (`35, 10 -> 23, 10 -> 17, 8 -> 15, 5`, Verified Turns 36441-36445)**:
+        - From `(35, 11)`, walking via `(35, 10 -> 30, 10)` and `Left 7` across the passable top of the `(28-29, 10-13)` stone pillar reaches `(23, 10)`, directly above the southbound shortcut staircase at `(19-20, 12-14)` (which drops down to the east-facing one-way ledge at `21, 14-15`).
+        - Walking `Up 2, Left 6` along the clear snow path (`23, 8 -> 17, 8`) and `Left 2, Up 3` (`15, 8 -> 15, 5`) enters the **Northwestern Cave Archway (`15, 5`)**, while the **Northeastern Cave Archway (`55, 8`)** remains an unexplored exterior branch.
+
+## Mt. Nit Interior Cavern (Northwestern Entrance `18, 19` <-> Exterior `15, 5`)
+- **Entrance (`18, 19`)**: Entered from the Northwestern Cave Archway (`15, 5`) on Mt. Nit Exterior (Turn 36445). No Hail weather indoors.
+- **Team Siara Grunt #9 (`21, 21`, facing `Down`)**: Pre-battle quote: *"See that entrance? / Why don't you go back to that?"*; uses a 3-Eeveelution team: **Eclipsed Espeon** (`♂, Lv50`, OHKO'd by Sirius's `Return` for `2110 EXP`), **Eclipsed Umbreon** (defeated by Sirius's `Aura Sphere`), and **Sylveon**.
