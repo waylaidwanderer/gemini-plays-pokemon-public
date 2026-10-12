@@ -3842,7 +3842,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 232/258 HP, Healthy (`Return 10/20`, `Dark Pulse 10/15`, `Aura Sphere 17/20`, `Mach Punch 30/30`)
+- **Current Condition**: 258/258 HP, Healthy (`Return 10/20`, `Dark Pulse 10/15`, `Aura Sphere 17/20`, `Mach Punch 30/30`)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
@@ -3868,7 +3868,7 @@
 - **Level**: Lv21 (leveled up defeating Siara Admins Flo & Harry's Lv52 Eclipsed Vikavolt, Lv52 Sceptile, and Lv52 Lapras at Mt. Nit Summit Temple in Turns 36625-36633; Stats: HP 61, Attack 40, Defense 29, Sp. Atk 30, Sp. Def 23, Speed 33; declined Bite at Lv18)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 61/61 HP
+- **HP**: 30/61 HP (revived at Mt. Nit Summit Temple in Turn 36675)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
