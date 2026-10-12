@@ -7,7 +7,7 @@
 - **Level**: Lv89
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 255), Attack (C+, 239), Defense (A-, 231), Sp. Atk (C-, 222), Sp. Def (E, 151), Speed (C-, 156)
+- **Stats (IV Grades)**: HP (C, 255), Attack (C+, 241), Defense (A-, 233), Sp. Atk (C-, 224), Sp. Def (E, 152), Speed (C-, 158)
 - **Current Condition**: 145/255 HP, Healthy (`Dark Pulse 10/15`, `Return 4/20`, `Aura Sphere 6/20`, `Mach Punch 26/30`)
 - **EXP**: Lv89 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
