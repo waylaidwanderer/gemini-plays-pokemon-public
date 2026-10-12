@@ -988,7 +988,7 @@
 - **Northern Entrance (`11-13, 0` <-> `59-61, 70`)**: Walking south along the purple dirt road at `columns 59-61` past `row 70` transitions seamlessly onto `(12, 0)` in the Southern Sector of the Hupest Wilds.
 - **Northern Grass Clearing (`cols 7-18, rows 1-13`)**: Features tall grass, blue flowers, rock cones (`9, 7` and `16, 9`), narrow trees (`8, 5`, `9, 9`, `14, 7`), and **Cooltrainer Mol (`12, 9`, spinner)**:
   - **Pre-Battle Quote**: *"The crater is pretty wide? / Why is it a crater?!"*
-  - **Team (3 Pokémon)**: Azumarill (`♀, Lv51`, Water/Fairy), Alomomola (`♀, Lv51`, Water; `1803 EXP`), and Jellicent (`♂, Lv51`, Water/Ghost; `1836 EXP`; defeated in Turns 36939-36944).
+  - **Team (3 Pokémon)**: Azumarill (`♀, Lv51`, Water/Fairy), Alomomola (`♀, Lv51`, Water; `1803 EXP`), and Jellicent (`♂, Lv51`, Water/Ghost; `1836 EXP`; defeat quote: *"Diving head in huh."*; awards `₽3,060`, verified Turns 36939-36945).
 
 <hr>
 
