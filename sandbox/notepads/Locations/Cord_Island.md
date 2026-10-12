@@ -11,3 +11,11 @@
 - **Cord Island Beach (`20-21, 15-16` Staircase -> `cols 15-28, rows 17-22`, Verified Turn 36998)**:
   - Signpost at `(22, 18)` (interacted from `22, 19`) reads verbatim: *"Cord Island Beach"*.
   - **Aroma Lady Sabina (`22, 20`, beside the blue beach umbrella at `21, 21`)**: Pre-battle quote *"Don't you think this is the best place to pick tropical flowers?"*; uses Vileplume (`♀, Lv53`, Grass/Poison) and Bellossom (`♀, Lv53`, Grass; knows `Stun Spore`; defeated in Turns 36999-37003).
+- **Hupest Sky Map Markers on Cord Island (`cols 23-26, rows 17-19`, Verified Turn 37020)**:
+  - **Purple Diamond (`25, 17`)**: Located on the north-central coast of Cord Island (`1 tile Left` of `26, 17`).
+  - **Red Square (`23, 18`)**: Located on the western coast of Cord Island.
+  - **Blue Square (`25, 19`)**: Located on the southern coast of Cord Island.
+- **Additional Cord Island East / Beach Landmarks (Observed Turns 36997 & 37005)**:
+  - **Gated Spray-Bottle Item (`25, 14`)**: Purple spray-bottle item sprite on the eastern plateau of Cord Island East (`Route 18`), gated by a rugged rock at `(23, 13)`.
+  - **Cooltrainer Male (`28, 18`)**: Standing in the eastern beach tall grass facing `Up`.
+  - **Swimmer Male (`18, 28`)**: Located in the southern ocean below Cord Island Beach.
