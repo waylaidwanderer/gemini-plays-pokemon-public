@@ -6,7 +6,7 @@
 
 ## Facilities & PokéMarts
 
-- **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center. Verified functional with clerk in Sovio City. (Note: Lancio Town Pokémon Center also features the northwest mezzanine escalator).
+- **PokéMarts Inside Pokémon Centers**: In the Hupest region, PokéMarts are integrated directly inside Pokémon Centers on the upper mezzanine floor! Reached via the blue carpeted stairs/escalator in the northwest corner of the center (`2, 0` on 1F <-> `5, 9` on mezzanine; on 1F, the left yellow/black pillar occupies `2-3, 4-6` with solid shadow collision at `4, 5-6`, so route between the counter and mezzanine stairs via `row 3-4` at `7, 4 <-> 4, 4 <-> 4, 3 <-> 2, 3 <-> 2, 0`, verified Turns 37192-37199). After earning all 8 Round badges, standard PokéMarts insert `Nest Ball ($1000)` and `Timer Ball ($1000)` above `Ultra Ball ($1200)` (`0: Poké Ball`, `1: Great Ball`, `2: Nest Ball`, `3: Timer Ball`, `4: Ultra Ball`), and pressing `Right` in the quantity selector increments quantity by `+10` (verified Turn 37197).
 
 - **Bulk Poké Ball Purchases & Premier Ball Mechanic**: In Pokémon Sors, purchasing 10 Poké Balls does NOT grant a bonus Premier Ball.
 
