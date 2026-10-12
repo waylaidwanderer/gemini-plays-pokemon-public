@@ -479,6 +479,7 @@
   - Stepping onto `(6, 18)` triggers a scene with **Colen Champion Micah** (`8, 18`), who explains that his family moved to Bydan Town after an incident in Hoenn (and that 90% of Colen's population consists of immigrants from West Hoenn).
   - After noting that **Professor Wattles** knew nothing about the current case, Micah receives an urgent call from **Looker** reporting that something is happening at the **Chargy Power Plant** in **Chargy City**.
   - Completing the scene permanently unlocks **Bydan Town** on the **Latias Soaring** sky map (`Turn 36769`).
+- **Bydan Town Signboard (`7-8, 17`, Verified Turn 36770)**: Interacted from `(7, 18)` facing `Up`, reads verbatim: *"Bydan Town / The place of new beginnings / Home of Micah, Colen's Champion"*
 
 <hr>
 
