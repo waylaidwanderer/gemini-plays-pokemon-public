@@ -992,6 +992,7 @@
 - **Lower Plateau (`cols 16-22, rows 15-26`) & Explorer Cole (`18, 21` -> `19, 21`, spinner)**:
   - Reached by descending the wooden cliff staircase at `(20-21, 14-15)` onto `(20, 16)`.
   - **Explorer Cole (`18, 21`)**: Pre-battle quote *"Hey hey hey, let's have a battle?"*; uses Torkoal (`♀, Lv53`, Fire; Drought; `1828 EXP`) and Emboar (`♂, Lv53`, Fire/Fighting; `2361 EXP`; defeated in Turns 36952-36956).
+  - The upper brown plateau terminates at a south-facing one-way ledge (`20-21, 32`) above an enclosed tree pocket (`cols 16-25, rows 33-36`) and solid cliff edges at `(22-23, 32-33)`, while the side-facing wooden staircase at `(22, 25-27)` (approached from `21, 26 -> Right`) descends east onto the lower coastal shoreline path (`cols 23-25, rows 25-32`).
 
 <hr>
 
