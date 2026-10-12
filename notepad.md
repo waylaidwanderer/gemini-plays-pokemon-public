@@ -1297,6 +1297,10 @@
 - **Team Siara Grunt #11 (`35, 18` -> `35, 20`, facing `Down`)**: Pre-battle quote: *"Tch, an intruder? / Oh come on!"*; uses **Primeape** (`♂, Lv51`, OHKO'd by Sirius's `Return` for `1627 EXP`) and **Bewear** (`♂, Lv52`, 2x weak to `Dark Pulse` and `Aura Sphere`; OHKO'd by Sirius's `Aura Sphere` for `1950 EXP`; defeat quote `"For crying out loud"`, prize `₽5408`, defeated Turns 36459-36462).
 - **Female Team Siara Grunt #12 (`43, 15`, facing `Right`)**: Reached via `(34, 21 -> 34, 17 -> 37, 17 -> 37, 18 -> 42, 18 -> 43, 16)` across the eastbound wooden staircase (`42, 17-19`). Pre-battle quote: *"Trying to get higher huh? / Well sorry, you can't!"*; uses **Delcatty** (`♀, Lv51`, knows `Fake Out`; OHKO'd by Sirius's `Aura Sphere` for `1507 EXP`) and **Purugly** (`♀, Lv52`, knows `Fake Out`; OHKO'd by Sirius's `Aura Sphere` for `1759 EXP`, leveling Sirius to Lv88; defeat quote `"..."`, defeated Turns 36466-36471).
 - **Team Siara Grunt #13 (`43, 11`, facing `Right`)**: Reached by walking north along the central dirt road (`44, 16 -> 44, 11`) below the northbound wooden staircase (`44-46, 7-8`). Pre-battle quote: *"..."*; uses **Stoutland** (`♂, Lv52`, Normal; OHKO'd by Sirius's `Aura Sphere` for `2395 EXP`) and **Furfrou** (`♀, Lv52`, Normal; OHKO'd by Sirius's `Aura Sphere` for `1837 EXP`; defeat quote `"."`, prize `₽5408`, defeated Turns 36473-36477).
+- **Cavern Landmarks & Upper Ridge (`Turns 36463-36478`)**:
+  - **Lower Archway (`39-40, 26`)**: Wide dark archway along the southern cliff face below Grunt #11 (`35, 20`).
+  - **Eastern Staircase (`48, 16-18`) & Wooden Bridge (`50-51, 13`)**: East of the central dirt road (`cols 44-45`), a second side-facing wooden staircase at `(48, 16-18)` leads to `cols 49-51`, where a rugged rock sits at `(50, 20)` and a wooden bridge spans east from `(50, 13)`.
+  - **Northbound Staircase (`44-46, 7-8`) & Sunlit Exit Archway (`50, 4`)**: Climbing `(44-46, 7-8)` to `(44, 6)` (with rugged rocks to the west at `37, 8` and `37, 11` and to the east at `50, 8`) leads to **Female Team Siara Grunt #14 (`50, 5`, facing `Down`)** standing directly in front of a sunlit exit archway at **`(50, 4)`**.
 
 <hr>
 
@@ -3775,7 +3779,7 @@
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 252), Attack (C+, 239), Defense (A-, 231), Sp. Atk (C-, 222), Sp. Def (E, 151), Speed (C-, 156)
 - **Current Condition**: 187/252 HP, Healthy (`Dark Pulse 11/15`, `Return 14/20`, `Aura Sphere 8/20`, `Mach Punch 29/30`)
-- **EXP**: Lv85 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **EXP**: Lv88 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
   - Slot 2: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; taught via infinite-use TM27 replacing Bulldoze in Turn 35244; can be swapped with TM10 Dark Pulse / TM23 Iron Tail / TM39 Rock Tomb at any time to refill PP)
