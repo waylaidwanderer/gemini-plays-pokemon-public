@@ -404,7 +404,7 @@
   - **Weezing (`♂, Lv25`, Poison)**: Encountered and caught at `(23, 16)` in Turns 37130-37133 (nicknamed **Miasma**, 101st Owned species in the Pokédex).
 ## Post-Game — Legendary Beast Raikou Encounter (`28, 16` on Aur Factory Northern Exterior Grounds, Turns 37134-37141)
 - **Trigger Tile (`28, 16`)**: During Task 4 of Special Quest #12 ("Elm's Research"), stepping east onto `(28, 16)` in the tall grass between Criminal Harry (`24, 15`) and Collector Daniel (`33, 15`) on the Northern Exterior Grounds of Aur Factory prompts: *"That must be Raikou! / Will you face it? Yes/No"*.
-- **Cutscene & Battle Details**: Selecting *Yes* causes **Raikou** (`Lv55`, Electric-type, Ability: `Pressure`; verified moveset: `Reflect`, `Thunder Fang`, `Spark`, and `Crunch`) to leap from the eastern grass to `(30, 16)` facing Asher with *"Raikou is taking up a battle stance..."*, triggering a wild encounter where Sirius's `Mach Punch` (`40 BP`) or `Dark Pulse` (`80 BP`) brings Raikou cleanly to ~30–35% yellow HP (caught in an Ultra Ball in Turn 37146 and nicknamed **Raijin**, 102nd Owned species in the Pokédex).
+- **Cutscene & Battle Details**: Selecting *Yes* causes **Raikou** (`Lv55`, Electric-type, Ability: `Pressure`; verified moveset: `Reflect`, `Thunder Fang`, `Spark`, and `Crunch`) to leap from the eastern grass to `(30, 16)` facing Asher with *"Raikou is taking up a battle stance..."*, triggering a wild encounter where Sirius's `Dark Pulse` (`80 BP`) brings Raikou cleanly to ~35% yellow HP (actively battling at `28, 16` in Turn 37179).
 
 <hr>
 
@@ -1902,7 +1902,7 @@
   - **Scolipede** (Lv34, ♂; Bug/Poison; knows Agility; caught at `36, 13` in Ultra Ball in Turn 34729 and nicknamed "Chitin", bringing Owned PokéDex species to 87).
 ## Route 14 River (`cols 27-31, rows 4-18`)
 - **Upstream Rock Barrier (`27, 6`, `28, 5`, `29, 4`)**: Launching the FastSwift boat from `(32, 7)` onto `(31, 7)` and surfing north to `(30, 5)` reveals a diagonal line of river rocks at `(27, 6)`, `(28, 5)`, and `(29, 4)` and curved shoreline at `(30, 4)` that completely block upstream passage beyond `row 5` (verified Turns 34611-34612).
-- **Downstream Passage & Second Overhead Wooden Bridge (`column 27-29`, `rows 5-38`)**: Surfing south along `column 29` passes underneath the northern wooden bridge (`rows 10-12`) to `(28, 26)`, where the river channel shifts slightly west to `columns 25-27` and passes underneath a **second overhead wooden bridge** at `rows 31-33` (verified Turn 34733) to the southern river staircase at `(21-23, 35-38)` (dismounting via `row 37` onto `21, 36` -> `20, 36`, verified Turns 34735-34736).
+- **Downstream Passage & Second Overhead Wooden Bridge (`column 27-29`, `rows 5-38`)**: Surfing south along `column 29` passes underneath the northern wooden bridge (`rows 10-12`) to `(28, 26)`, where the river channel shifts slightly west to `columns 25-27` and passes underneath a **second overhead wooden bridge** at `rows 31-33` (verified Turn 34733) to the southern river staircase at `(21-23, 35-38)` (dismounting via `row 37` onto `21, 37 -> 21, 36 -> 20, 36`, verified Turns 34735-34736 & 37179; note that sprites over water cast upside-down reflections 2 tiles south on the water, such as Swimmer Luis at `26, 26` reflecting at `26, 28`, verified Turn 37179).
 ## Southwestern Riverbank & Upper Bridge Loop (`cols 9-28, rows 18-39`)
 - **Southern River Staircase (`21-23, 35-38`)**: Side-facing wooden river staircase on the western bank south of the second overhead wooden bridge. Approaching along `row 37` (`24, 37 -> Left 3`) steps onto `(21, 36)` and `(20, 36)` (verified Turns 34735-34736).
 - **Southwestern Trail (`20, 35 -> 14, 35 -> 12, 30`)**: Runs west along `row 35` below the horizontal ridge (`17-20, 34`) to `(14, 35)` and north along `column 12` to `(12, 30)`, with a purple item bottle sprite visible at `(9, 25)` and an east-facing one-way return ledge at `(20, 18-20)` (verified Turns 34721-34738).
@@ -4055,7 +4055,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; full party healed by Nurse Joy at `(10, 6)` inside the Route 14 East Mountain Rest Cabin in Turn 37150 after catching Lv55 Raikou at Aur Factory `28, 16` in Turn 37146)
+- **Current Condition**: 98/258 HP, Paralyzed (`Return 20/20`, `Dark Pulse 14/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; actively battling Lv55 Raikou at Aur Factory `28, 16` in Turn 37179 while `Flaaffy` [0/50 HP] is in Slot 5 and `Vega` [0/61 HP] is in Slot 6)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
