@@ -722,7 +722,7 @@
     - **Pokémon 2**: Krokorok (♀, Lv25; Ground/Dark; Ability: Intimidate).
     - **Pokémon 3**: Durant (♂, Lv25; Bug/Steel).
   - **Outcome**: Defeat quote: *"This is awkwards."*; awards `₽2,600` (verified Turns 32370-32378).
-  - **Raised Plateau Item Sphere (`29, 21`)**: Reached via the wooden staircase at `(25, 22-23)` (`24, 23 -> 25, 22 -> 29, 22`); yields **Fire Stone x1** (collected Turn 32381).
+  - **Raised Plateau Item Sphere (`29, 21`)**: Reached via the wooden staircase at `(25, 22-23)` (`24, 23 -> 25, 22 -> 29, 22`); yields **Fire Stone x1** (collected Turn 32381). Note that when routing north along the western corridor from `(25, 30)` to `(30, 15)`, `column 24` (`24, 30 -> 24, 17`) bypasses the stalagmite at `(25, 20)`, and `row 17` (`24, 17 -> 30, 17`) passes between the `(27-29, 15-16)` mining machine and the `(28-33, 18-24)` raised plateau before stepping `Up 2` at `column 30` (`30, 17 -> 30, 15`) onto the overhead bridge row (verified Turns 37402-37403).
 - **Siara Grunt 6 (`21, 26`, facing East)**:
   - **Pre-Battle Quote**: *"These machines are actually really handy, I gotta give them that! / Not as handy as my Pokémon though when it comes to destroying kids!"*
   - **Team (1 Pokémon)**:
