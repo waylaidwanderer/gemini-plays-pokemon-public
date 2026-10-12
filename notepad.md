@@ -1278,6 +1278,8 @@
     - **Collision Mechanics**: The broken top row of the 2x4 ancient stone pillars (`36-37, 23`, `36-37, 27`, `41-42, 22`, `41-42, 28`, `45-46, 26`) and the top/middle canopy rows of the 2x3 snowy pine trees (`39-40, 23-24`, `43-44, 21-22`, `43-44, 27-28`) have passable overhead collision; only the bottom 2 rows of pillars and the bottom trunk row of pine trees are solid.
     - **Verified Path (`33, 24 -> 40, 27`)**: From `(33, 24)` below Grunt #4, walk `Right 2` to `(35, 24)`, `Up 2` to `(35, 22)`, `Right 4` to `(39, 22)`, `Down 2` through `(39, 23-24)`, `Left 1` to `(38, 24)`, `Down 2` to `(38, 26)`, `Right 2` to `(40, 26)`, and `Down 1` to `(40, 27)`.
     - **Female Team Siara Grunt #5 (`41, 27`, random-turning spinner)**: Pre-battle quote: *"These pillars... Hehe... / What if one falls on you?"*; uses **Tauros** (`♂, Lv50`, Normal; OHKO'd by Sirius's `Aura Sphere`), **Bouffalant** (`♀, Lv51`, Normal; OHKO'd by Sirius's `Aura Sphere`), **Rampardos** (`♂, Lv51`, Rock; OHKO'd by Sirius's `Aura Sphere` for `1890 EXP`), and **Aggron** (`♀, Lv50`, Steel/Rock; OHKO'd by Sirius's `Aura Sphere` for `2196 EXP`; defeat quote `"Argh!"`, prize `₽5304`, defeated Turns 36400-36408).
+    - **Path from `(40, 27)` to `(52, 25)` (Verified Turns 36409-36413)**: Walk `Down 1` to `(40, 28)`, `Right 3` across the broken pillar top (`41-42, 28`) to `(43, 28)`, `Up 2` to `(43, 26)`, `Right 3` to `(46, 26)`, `Down 1` to `(46, 27)`, `Right 6` across the wooden platform (`48-50, 27`) to `(52, 27)`, and `Up 2` to `(52, 25)`.
+    - **Female Team Siara Grunt #6 (`52, 24`, facing `Right`)**: Guards the northbound wooden staircase at `(53, 21-24)`. Pre-battle quote: *"All units, Asher has engaged in combat, he is in the area!"*; uses **Eclipsed Kingdra** (`♀, Lv51`, 2HKO'd by Sirius's `Dark Pulse` + priority `Mach Punch` for `2262 EXP`) and **Eclipsed Tentacruel** (`♂, Lv51`, OHKO'd by Sirius's physical `Return` for `2239 EXP`, leveling Sirius to Lv87; defeated Turns 36413-36418).
 
 <hr>
 
@@ -3750,11 +3752,11 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv86
+- **Level**: Lv87
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 247), Attack (C+, 231), Defense (A-, 223), Sp. Atk (C-, 214), Sp. Def (E, 146), Speed (C-, 152)
-- **Current Condition**: 197/247 HP, Healthy (`Dark Pulse 12/15`, `Return 20/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`)
+- **Stats (IV Grades)**: HP (C, 250), Attack (C+, 236), Defense (A-, 227), Sp. Atk (C-, 219), Sp. Def (E, 149), Speed (C-, 154)
+- **Current Condition**: 220/250 HP, Healthy (`Dark Pulse 11/15`, `Return 17/20`, `Aura Sphere 14/20`, `Mach Punch 29/30`)
 - **EXP**: Lv85 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)

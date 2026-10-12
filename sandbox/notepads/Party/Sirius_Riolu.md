@@ -4,11 +4,11 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv86
+- **Level**: Lv87
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 247), Attack (C+, 231), Defense (A-, 223), Sp. Atk (C-, 214), Sp. Def (E, 146), Speed (C-, 152)
-- **Current Condition**: 197/247 HP, Healthy (`Dark Pulse 12/15`, `Return 20/20`, `Aura Sphere 20/20`, `Mach Punch 30/30`)
+- **Stats (IV Grades)**: HP (C, 250), Attack (C+, 236), Defense (A-, 227), Sp. Atk (C-, 219), Sp. Def (E, 149), Speed (C-, 154)
+- **Current Condition**: 220/250 HP, Healthy (`Dark Pulse 11/15`, `Return 17/20`, `Aura Sphere 14/20`, `Mach Punch 29/30`)
 - **EXP**: Lv85 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
