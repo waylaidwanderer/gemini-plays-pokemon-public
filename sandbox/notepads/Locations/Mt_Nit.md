@@ -14,6 +14,7 @@
   - **Abomasnow** (♀, Lv42; Grass/Ice; Ability: Snow Warning; caught in 1st Ultra Ball at `11, 29` in Turn 36354, nicknamed **Taiga**, transferred to Box 4 as **95th Owned species**).
   - **Piloswine** (♂, Lv37; Ice/Ground; knows `Icy Wind`; caught in 2nd Ultra Ball at `14, 35` in Turn 36359, nicknamed **Tusk**, transferred to Box 4 as **96th Owned species**).
   - **Sneasel** (♂, Lv40; Ice/Dark; uses `Slash`; caught in 4th Ultra Ball at `38, 24` in Turn 36398, nicknamed **Kama**, transferred to Box 4 as **97th Owned species**).
+  - **Furfrou** (♂, Lv38; Normal; caught in 1st Ultra Ball at `49, 12` in Turn 36431, nicknamed **Baron**, transferred to Box 4 as **98th Owned species**).
 - **Western Snow-Grass Corridor (`16, 24 -> 11, 24 -> 11, 32 -> 12, 34 -> 18, 35`, Turns 36351-36361)**:
   - Because the pine tree trunks at `(16-17, 28)` and `(20-21, 29)` and the cliff wall at `(24, 24-25)` block direct eastbound passage from `(18, 22)` to the `(25, 20-23)` staircase, walk west along `row 24` (`18, 24 -> 11, 24`, across the passable tree tops at `14-15, 24` and `12-13, 25`), south along `column 11` (`11, 24 -> 11, 32`), and east via `(12, 32 -> 12, 34 -> 14, 35 -> 18, 35)`.
 - **Trainers & Staircases**:
