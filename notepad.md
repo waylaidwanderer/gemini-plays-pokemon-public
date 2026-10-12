@@ -510,7 +510,7 @@
   - **Western Blue-Domed Building (`15, 25`) & Chargy City Pokémon Center (`11, 18`)**: Located along the western avenue (`cols 10-18`; Nurse Joy at `7, 2` inside `11, 18` healed the party and registered the Chargy City checkpoint in Turn 36724).
   - **Western Roadblock (`3-4, 18-20`, Verified Turns 36800-36803)**: Two Police Officers at `(4, 19-20)` alongside a signboard at `(3-4, 18)` block the western exit of Chargy City (`"We are sorry but due to our investigation in the area..."`).
   - **Eastern Roadblock to Colen Route 2 (`37, 15-17`, Verified Turns 36795-36808)**: Three Police Officers block the eastern exit of Chargy City (`"Sorry, kid. Route 2 is currently closed due to investigations..."`), and the blue-domed buildings at `(28, 21)` and `(34, 14)` have closed doors.
-  - **Northbound Avenue to the Colen/Chargy Power Plant (`cols 27-28, rows 15 -> 0`, Verified Turn 36808)**: A 2-tile-wide paved road branches north at `columns 27-28` immediately east of the Chargy Metro Station (`23, 14`).
+  - **Street & Tree Island Layout (Verified Turns 36804-36815)**: Central pine trees occupy `cols 19-22, rows 17-25` (flanked by north-south streets at `cols 17-18` and `cols 23-24`), while pine trees line `row 14` (`cols 14-19` and `cols 27-30`) and the southeastern border (`cols 26-34, rows 23-31`).
 
 <hr>
 
