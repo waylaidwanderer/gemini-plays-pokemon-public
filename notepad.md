@@ -564,8 +564,8 @@
   - Signpost at `(22, 18)` (interacted from `22, 19`) reads verbatim: *"Cord Island Beach"*.
   - **Aroma Lady Sabina (`22, 20`, beside the blue beach umbrella at `21, 21`)**: Pre-battle quote *"Don't you think this is the best place to pick tropical flowers?"*; uses Vileplume (`♀, Lv53`, Grass/Poison) and Bellossom (`♀, Lv53`, Grass; knows `Stun Spore`; defeated in Turns 36999-37003).
 - **Hupest Sky Map Markers on Cord Island (`cols 23-26, rows 17-19`, Verified Turn 37020)**:
-  - **Purple Diamond (`25, 17`)**: Located on the north-central coast of Cord Island (`1 tile Left` of `26, 17`).
-  - **Red Square (`23, 18`)**: Located on the western coast of Cord Island.
+  - **Purple Diamond (`25, 17`)**: Located on the north-central coast of Cord Island (`1 tile Left` of `26, 17`); prints `"You haven't unlocked this area for Soaring yet!"` until reached on foot (verified Turn 37021).
+  - **Red Square (`23, 18`, Cord Island)**: Located on the western coast of Cord Island (unlocked for Soaring at `34, 23` in Turn 36987).
   - **Blue Square (`25, 19`)**: Located on the southern coast of Cord Island.
 - **Additional Cord Island East / Beach Landmarks (Observed Turns 36997 & 37005)**:
   - **Gated Spray-Bottle Item (`25, 14`)**: Purple spray-bottle item sprite on the eastern plateau of Cord Island East (`Route 18`), gated by a rugged rock at `(23, 13)`.
@@ -4044,7 +4044,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Paralyzed (`Return 18/20`, `Dark Pulse 15/15`, `Aura Sphere 19/20`, `Mach Punch 30/30`; healed at Dis Bay Pokémon Center in Turn 36981; used 2 `Return` and 1 `Aura Sphere` against Aroma Lady Sabina at `22, 19` in Turns 36999-37002)
+- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Destino City Pokémon Center in Turn 37022)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
