@@ -3566,6 +3566,7 @@
 - **Access**: Activated via SELECT button or through BAG Key Items pocket.
 - **Main App Menu**:
   1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
+  2. **Soaring**: Summons **Latias** and warps to `(17, 10)` on the Hupest Sky Map (`Down 1 -> A` from top of HuPhone menu; unlocked in Turn 36331).
   2. **World Map**: Interactive regional map viewer of Hupest navigated via D-pad (+Move). Dynamically displays location hover banners (e.g. Solare Island, Divampa Cave, Mulberry Town) in the top-left corner.
      - **Dynamic Banners**: Hovering over location nodes displays town/route names and subtitles in top-left (e.g., "Sovio City / Metro Station", "Amor City / Amor Dept.", "Route 4", "Route 16").
      - **Player Location Pin**: Asher's current position is tracked by a yellow pin with a black tip.
