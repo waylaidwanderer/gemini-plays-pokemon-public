@@ -43,3 +43,6 @@
   - **Psychic Vincent (`42, 31`, spinner in the tall grass)**:
     - **Pre-Battle Quote**: *"Be sure to cover your eyes because my Pokémon's sand is something else!"*
     - **Team (2 Pokémon)**: Gallade (`♂, Lv53`, Psychic/Fighting; knows `Protect`; `2361 EXP`) and Claydol (`Lv53`, Ground/Psychic; `2146 EXP`; defeat quote: *"Noooo!"*, verified Turns 36961-36966).
+- **Southern Jump Ledge (`41-42, 34` -> `41-42, 35`) & Exit to Dis Bay (`44-46, 48-49` <-> Dis Bay `16-18, 0`, Verified Turns 36976-36978)**:
+  - From `(41, 33)`, jumping `Down` over the `(41-42, 34)` one-way ledge lands on `(41, 35)` in the southern tall-grass clearing.
+  - Routing via `(41, 35 -> 41, 40 -> 44, 40 -> 45, 44 -> 45, 49)` between the pine trees reaches the paved road at `(44-46, 48-49)`, which transitions seamlessly onto `(17, 0)` in **Dis Bay**.
