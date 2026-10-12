@@ -2023,7 +2023,7 @@
   - **Sharpedo** (Lv30-33, ♀/♂; Water/Dark; Ability: Speed Boost; knows Scary Face, Swagger, Ice Fang, Screech; caught Lv33 ♂ at `29, 8` in Ultra Ball in Turn 34699 and nicknamed "Mako", bringing Owned PokéDex species to 83).
 ## Post-Game — Legendary Beast Suicune Encounter (`48, 26` on Third Wooden River Bridge of Route 14 West, Turns 37184-37185)
 - **Trigger Tile (`48, 26`)**: During Task 4 of Special Quest #12 ("Elm's Research"), stepping east onto **`(48, 26)`** on the **Third Wooden River Bridge (`cols 46-53, row 26`)** on Route 14 West prompts: *"That must be Suicune! / Will you face it? Yes/No"*.
-- **Cutscene & Battle Initiation**: Selecting *Yes* causes **Suicune** (`Lv55`, Water-type) to leap south from the river onto the bridge at `(50, 26)` facing Asher with *"Suicune is taking up a battle stance..."*, triggering a wild encounter.
+- **Cutscene & Battle Initiation**: Selecting *Yes* causes **Suicune** (`Lv55`, Water-type, Ability: `Pressure`; verified moveset: `Aurora Beam`, `Ice Fang`, `Mirror Coat`, and `Mist`) to leap south from the river onto the bridge at `(50, 26)` facing Asher with *"Suicune is taking up a battle stance..."*, triggering a wild encounter where Sirius's `Mach Punch` (`40 BP`) brings Suicune cleanly to ~42% yellow HP.
 
 <hr>
 
@@ -4058,7 +4058,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 167/258 HP, Paralyzed (`Return 20/20`, `Dark Pulse 14/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; actively battling Lv55 Raikou at Aur Factory `28, 16` in Turn 37185 while `Flaaffy` [0/50 HP] is in Slot 5 and `Vega` [0/61 HP] is in Slot 6)
+- **Current Condition**: 167/258 HP, Paralyzed (`Return 20/20`, `Dark Pulse 14/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; caught Lv55 Raikou at Aur Factory `28, 16` in Turn 37185 while `Flaaffy` [0/50 HP] is in Slot 5 and `Vega` [0/61 HP] is in Slot 6)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
