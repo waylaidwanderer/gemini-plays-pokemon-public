@@ -562,6 +562,7 @@
 - **Seamless Eastern Transition to Route 18 (`47, 16-18` on Cord Island Port <-> `0, 10-12` on Cord Island East / Route 18, Verified Turns 36986-36989)**: Walking east along `row 17` past `column 47` transitions seamlessly onto `(1, 11)` on the eastern route of Cord Island (banner: `Hupest Wilds`). Routing east via `(1, 11 -> 9, 11 -> 9, 10 -> 19, 10 -> 19, 15)` around the palm trees (`10-12, 11-13` and `16-18, 11-13`) reaches the wooden cliff staircase at `(19-20, 15-16)` descending to `(19, 17)` on **Cord Island Beach**.
 - **Cord Island Beach (`20-21, 15-16` Staircase -> `cols 15-28, rows 17-22`, Verified Turn 36998)**:
   - Signpost at `(22, 18)` (interacted from `22, 19`) reads verbatim: *"Cord Island Beach"*.
+  - **Aroma Lady Sabina (`22, 20`, beside the blue beach umbrella at `21, 21`)**: Pre-battle quote *"Don't you think this is the best place to pick tropical flowers?"*; uses Vileplume (`♀, Lv53`, Grass/Poison) and Bellossom (`♀, Lv53`, Grass; knows `Stun Spore`; defeated in Turns 36999-37003).
 
 <hr>
 
@@ -4035,7 +4036,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Dis Bay Pokémon Center in Turn 36981)
+- **Current Condition**: 258/258 HP, Paralyzed (`Return 18/20`, `Dark Pulse 15/15`, `Aura Sphere 19/20`, `Mach Punch 30/30`; healed at Dis Bay Pokémon Center in Turn 36981; used 2 `Return` and 1 `Aura Sphere` against Aroma Lady Sabina at `22, 19` in Turns 36999-37002)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
