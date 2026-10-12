@@ -973,6 +973,9 @@
 - **Cooltrainer Preston (`17, 17` -> `17, 18`, facing `Down` at the eastern end of the `row 19` corridor)**:
   - **Pre-Battle Quote**: *"Have we met or not? / Well, nice to meet you anyway!"*
   - **Team (1 Pokémon)**: Reuniclus (`♂, Lv53`, Psychic; OHKO'd by Sirius's `Dark Pulse` in Turn 36921).
+- **Eastern Cliff Staircase (`35, 16-18`) & Eastern Plateau (`cols 36-46, rows 10-26`, Verified Turns 36921-36922)**:
+  - Approaching the side-facing wooden cliff staircase along `row 17` (`34, 17 -> Right`) climbs onto the eastern cliff plateau at `(36, 16)`.
+  - Features an Explorer/Ruin Maniac at `(38, 12)` facing `Down`, a northern branch along `cols 40-41`, and a southern bare-cliff corridor via `(39, 19 -> 40, 20 -> 41, 20 -> Down)`.
 
 <hr>
 
