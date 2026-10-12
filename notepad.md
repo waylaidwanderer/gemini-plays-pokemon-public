@@ -344,6 +344,7 @@
 - **Aur Factory Gatehouse (`14, 3-5` -> `14, 0` <-> `14, 39` in Aur Factory, Verified Turns 33751-33754)**:
   - **Parasol Lady (`13, 5`)**: *"Pokémon are acting so weird in the old factory's area!"* (verified Turn 33752).
   - Walking north through the open gatehouse doorway (`14, 4 -> 14, 0`) transitions seamlessly onto `(14, 39)` in **Aur Factory**.
+- **Eastern Double Staircase & Road to Hupest Wilds (`40, 20 -> 44, 19 -> row 18`, Verified Turns 36908-36909)**: Approaching the eastern side-facing wooden staircases along `row 20` (`40, 20 -> Right 4`) climbs onto the eastern plateau at `(44, 19)`, where `rows 18-19` run east past the ground pit (`46-47, 15-17`) toward the **Hupest Wilds (`Wild Area`)**.
 
 <hr>
 
