@@ -1313,6 +1313,10 @@
 - **Path from `(29, 56)` to `(18, 61)` (Verified Turns 36519-36521)**: Walk `Left 5` to `(24, 56)`, `Down 2` to `(24, 58)`, `Left 5` across the walkable dark-green bushes (`20-24, 58`) to `(19, 58)`, and `Down 3, Left 1` to `(18, 61)`.
 - **Female Team Siara Grunt #17 (`18, 60`, facing `Down`)**: Pre-battle quote: *"So close and yet so far..."*; uses **Vanilluxe** (`♂, Lv52`, Ice; OHKO'd by Sirius's `Mach Punch` for `2239 EXP`) and **Cryogonal** (`Lv52`, Ice; OHKO'd by Sirius's `Mach Punch` for `2005 EXP`; defeat quote `"Noo!"`, defeated Turns 36522-36527).
 - **Western Wooden Staircase (`8-10, 56-57`, Verified Turns 36527-36529)**: Reached from `(18, 61)` via `Left 4, Up 3` to `(14, 58)`, `Left 4` across the passable top row of the `(12-13, 58-61)` stone pillar (`12-13, 58`) to `(10, 58)`, and `Up 4, Left 1, Up 4` (`10, 58 -> 10, 54 -> 9, 54 -> 9, 50`).
+- **Team Siara Grunt #18 (`11, 49` -> `11, 50`, facing `Down`)**: Reached from `(9, 50)` via `Down 1, Right 2` to `(11, 51)`. Pre-battle quote: *"Man this is cold, but my cut will be huge if I take you down!"*; uses **Vileplume** (`♂, Lv53`, Grass/Poison; OHKO'd by Sirius's `Return` for `2089 EXP`, defeated Turns 36531-36533).
+- **Central Terrace Path (`11, 51 -> 14, 46 -> 17, 46 -> 17, 48 -> 25, 48 -> 25, 50 -> 29, 50`, Verified Turns 36533-36535)**:
+  - An item ball sits on the higher northwestern cliff ledge at `(9, 43)` (observed from `14, 46` in Turn 36534).
+  - Walking east via `(14, 46 -> 17, 46 -> 17, 48 -> 25, 48 -> 25, 50 -> 29, 50)` leads to **Female Team Siara Grunt #19 (`29, 51`, facing `Up`)**: Pre-battle quote: *"Hey! How are you still alive?!"*; uses **Volbeat** (`♂, Lv53`, Bug; OHKO'd by Sirius's `Return`) and a second Pokémon (OHKO'd by Sirius's `Return`; defeat quote `"Wow..."`, defeated Turns 36536-36541).
 
 <hr>
 
@@ -3790,7 +3794,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 252), Attack (C+, 239), Defense (A-, 231), Sp. Atk (C-, 222), Sp. Def (E, 151), Speed (C-, 156)
-- **Current Condition**: 180/252 HP, Healthy (`Dark Pulse 10/15`, `Return 11/20`, `Aura Sphere 6/20`, `Mach Punch 29/30`)
+- **Current Condition**: 157/252 HP, Healthy (`Dark Pulse 10/15`, `Return 8/20`, `Aura Sphere 6/20`, `Mach Punch 27/30`)
 - **EXP**: Lv88 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
