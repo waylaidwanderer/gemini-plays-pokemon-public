@@ -1329,10 +1329,12 @@
 - **Southern Entrance (`15, 21-22`)**: Seamless transition at the top of the wooden summit walkway (`19, 0`).
 - **Point-of-No-Return Prompt (`15, 19`, Verified Turn 36588)**: Stepping onto `(15, 19)` prints `"There is no turning back from here now... / Am I really ready? Yes/No"`. Selecting **Yes** walks Asher north to `(15, 11)` between **Colen Champion Micah** (`14, 12`) and **Frio** (`16, 12`) before **Siara Admin Flo** (`14, 9`), **Marie** (`15, 9`), **Siara Admin Harry** (`16, 9`), two Team Siara Grunts (`13, 8` and `17, 8`), and the ancient cocoon/crystal at the northern altar (`15, 5-6`).
 - **Double Boss Battle — Siara Admins Flo & Harry (`15, 11`, Turns 36590-present)**:
+  - Stepping past the point-of-no-return prompt at `(15, 19)` automatically restores the player's entire party to 100% HP and PP.
   - While Marie steps up to the altar (`15, 7`) and Micah and Frio hold off the two grunts (`14, 11` and `16, 11`), **Siara Admins Flo & Harry** team up against Asher in a **6-Pokémon Double Battle**:
     1. **Salazzle♀ Lv52** (Poison/Fire; right-hand opponent slot / default target; OHKO'd on Turn 1 by Sirius's `Return` for `936 EXP` each to Sirius and Baron in Turn 36594).
-    2. **Lapras♀ Lv52** (Water/Ice; left-hand opponent slot; uses `Perish Song` on Turn 1).
-    3. **Zoroark♂ Lv52** (sent into the right-hand slot immediately after Salazzle fainted on Turn 1).
+    2. **Lapras♀ Lv52** (Water/Ice; left-hand opponent slot; uses `Perish Song` on Turn 1 and `Scald` on Turn 2).
+    3. **Zoroark♂ Lv52** (sent into the right-hand slot after Salazzle fainted on Turn 1; OHKO'd on Turn 2 by Sirius's `Return` in Turn 36596).
+    4. **Eclipsed Crobat Lv52** (sent into the right-hand slot after Zoroark fainted on Turn 2; survived Sirius's `Return` in red HP and used **`Eclite Storm`** on Turn 3, knocking out Baron in Turn 36600).
 
 <hr>
 
