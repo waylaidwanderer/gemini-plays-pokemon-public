@@ -476,3 +476,8 @@
   - **Defeating Eclactus the Deity (`15, 9` -> `15, 10`, Turns 36683-36687)**:
     - Stepping up to `(15, 9)` to fulfill Frio's final wish, Asher challenged **Eclactus the Deity** (`Lv65 Eclactus`, featuring a 2-layer purple/green HP bar and the signature move `Orbit Crash`, and weak to Fighting-type moves).
     - With three super-effective STAB `Aura Spheres` from **Sirius (Lv90 Lucario)** (`3550 EXP`), Asher defeated **Eclactus**, causing Eclactus to vanish in a blinding flash and be sealed back inside the purple meteorite (`15, 5-7`).
+  - **Marie's Repentance & Disbandment of Team Siara (`14, 11`, Turns 36688-36691)**:
+    - After Professor Ivo confirmed the energy readings had vanished and Colen Champion Micah reported that all wild Eclipsed Pokémon across Hupest had reverted to normal, Asher and Jackson confronted **Marie** (`13, 11`).
+    - Asher urged his mother to honor Frio's sacrifice for the world and listen to her son for once (*"He gave his life for the world you also live in... Eclipsing isn't meant to be used as a tool of dominance! ... Don't go against his final will... Listen to your son, for once..."*).
+    - Moved by Asher's words and Frio's death, Marie apologized (*"I... understand now... I'm sorry... son... For not being the mother you needed."*), ordered Flo and Harry to gather the executives for an urgent meeting, **officially disbanded Team Siara**, and **turned herself in to the police** while the grunts and admins went on with their lives.
+    - Three days later, Frio was officially declared deceased.
