@@ -7,7 +7,7 @@
 - **Level**: Lv21 (leveled up defeating Siara Admins Flo & Harry's Lv52 Eclipsed Vikavolt, Lv52 Sceptile, and Lv52 Lapras at Mt. Nit Summit Temple in Turns 36625-36633; Stats: HP 61, Attack 40, Defense 29, Sp. Atk 30, Sp. Def 23, Speed 33; declined Bite at Lv18)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 30/61 HP (revived at Mt. Nit Summit Temple in Turn 36675)
+- **HP**: 61/61 HP (healed at Chargy City Pokémon Center in Turn 36724)
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
