@@ -3623,7 +3623,8 @@
     - After Professor Ivo confirmed the energy readings had vanished and Colen Champion Micah reported that all wild Eclipsed Pokémon across Hupest had reverted to normal, Asher and Jackson confronted **Marie** (`13, 11`).
     - Asher urged his mother to honor Frio's sacrifice for the world and listen to her son for once (*"He gave his life for the world you also live in... Eclipsing isn't meant to be used as a tool of dominance! ... Don't go against his final will... Listen to your son, for once..."*).
     - Moved by Asher's words and Frio's death, Marie apologized (*"I... understand now... I'm sorry... son... For not being the mother you needed."*), ordered Flo and Harry to gather the executives for an urgent meeting, **officially disbanded Team Siara**, and **turned herself in to the police** while the grunts and admins went on with their lives.
-    - Three days later, Frio was officially declared deceased.
+    - Three days later, Frio was officially declared deceased, with his heroic sacrifice destined to go down in history books.
+    - The **Eclipse Tournament** result announcement ceremony was officially held, with **Asher** placing 1st overall, followed by **Valora** (2nd) and **Lucas** (3rd), as peace returned to the Hupest Region and Asher's team was inducted into the **Hall of Fame** (`Turn 36692`).
 
 <hr>
 
