@@ -89,4 +89,6 @@
     6. **Eclipsed Vikavolt♂ Lv52** (sent into the right-hand slot after Eclipsed Crobat fainted on Turn 5; 2HKO'd on Turns 6-7 by Lv89 Sirius's `Return` for `1086 EXP` each in Turns 36616-36623; defeat quotes `"Flo: Just what is this kid made out of?!"` / `"Harry: ... such a disappointment."`, prize `₽13,312`, defeated Turn 36635).
 - **Showdown with Team Siara Leader Marie (`15, 10`, Turns 36635-present)**:
   - After Flo and Harry's defeat, **Valora** (`13, 13`), **Professor Ivo** (`15, 13`), and **Dad (Jackson)** (`17, 13`) arrive behind Micah (`14, 12`) and Frio (`16, 12`) as Flo and Harry break open the meteorite (`15, 7`) containing the sleeping ancient entity.
-  - Revealing that Asher inherited his Eclipser bloodline genes from her and that she adopted Frio as a tool after her divorce from Jackson, **Marie** challenges Asher at `(15, 10)`.
+  - Revealing that Asher inherited his Eclipser bloodline genes from her and that she adopted Frio as a tool after her divorce from Jackson, **Marie** challenges Asher at `(15, 10)` (automatically restoring the player's entire 6-Pokémon party to 100% HP and PP before the battle):
+    1. **Eclipsed Unfezant Lv52** (uses `Agility` and `LunarEclipse` [-1 Attack]; 2HKO'd by Sirius's `Return` in Turns 36639-36640).
+    2. **Eclipsed Heracross Lv53** (sent out second in Turn 36643).
