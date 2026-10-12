@@ -62,7 +62,7 @@
     20. Marine Point Hunter
   - **Page 5 Quests**:
     21. Hugh's Pokémon (Special Quest — accepted from Hugh at Amor Department Store 2F `11, 7` in Turn 34675; Task: show Hugh a PokéDex with **150 species** registered to receive three rare Pokémon from Unova)
-    22. Silver's Deal (Special Quest — **Completed in Turns 37326-37327**; accepted from Silver at Jarro Town `32, 12` behind the `31, 14` rugged rock in Turn 37324 and completed immediately upon speaking to him again in Turn 37326; rewarded **3 Poké Balls** [Johto starters transferred to PC, bringing Owned species to **106**])
+    22. Silver's Deal (Special Quest — **Completed in Turns 37382-37384**; accepted from Silver at Jarro Town `32, 12` behind the `31, 14` rugged rock in Turn 37382 and completed upon speaking to him again in Turns 37383-37384; rewarded **3 Poké Balls** [Johto starters transferred to PC, bringing Owned species to **107**])
     23. Back to the...
     24. Outcasts
     25. The Mods of Cord
