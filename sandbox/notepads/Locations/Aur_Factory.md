@@ -32,7 +32,8 @@
   - **Pre-Battle Quote**: *"Tch, what is this? / Now anyone can just venture around?"*
   - **Team (3 Pokémon)**: Crabominable (♀, Lv35; Fighting/Ice; `1252 EXP`), Cloyster (♂, Lv35; Water/Ice), and Weavile (♂, Lv35; Dark/Ice; `1342 EXP`).
   - **Outcome**: Defeated in Turns 33818-33822 (`"Oh."`; awards `₽2,520`).
-## Aur Factory Western / Lower Section (`12, 14 -> 12, 15` Exterior Pit Ladder -> `10, 36`)
+## Aur Factory Western / Lower Section (`12, 14 -> 12, 15` Exterior Pit Ladder <-> `9, 34 -> 10, 36`)
+- **Exit Wall Ladder (`9, 34` <-> Exterior `12, 14`)**: Located 1 tile Left and 2 tiles Up from `(10, 36)` on the western sand patch (`9, 36 -> Up 2 -> 9, 34`, verified Turn 37062).
 - **The Gang Leader's Deal (`10, 36`, Turns 33824-33826)**:
   - Descending the northwestern exterior ground pit ladder (`12, 14 -> 12, 15`) onto `(10, 36)` triggers a cutscene where **Dad (Jackson)** is negotiating with the local gang leader (`Man`, a Black Belt at `12, 35`) and two Gangsters.
   - Recognizing Asher's name and reputation as a skilled Pokémon Trainer, the gang leader offers a deal: gather **3 Scrap Metals** from the more dangerous locations around the factory ruins, and he will grant Dad and Asher a free pass through his territory.
