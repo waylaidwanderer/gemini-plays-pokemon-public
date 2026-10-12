@@ -40,4 +40,6 @@
 - **Eastern Shore Landing (`38, 27-28`), Cliff Staircase (`41, 25-27`), & Eastern Brown Plateau (`cols 35-44, rows 22-32`, Verified Turns 36958-36960)**:
   - Surfing east across the pond along `row 27` (`33, 27 -> 38, 27`) dismounts onto the eastern shore at `(38, 27-28)`.
   - Approaching the side-facing wooden cliff staircase along `row 26` (`38, 26 -> 40, 26 -> Right`) climbs onto the eastern brown plateau at `(42, 25-27)`.
-  - Features a spinner **Psychic Male** at `(42, 31)` in the tall grass (`cols 39-44, rows 26-32`) and extends west along `rows 31-32` (`cols 35-41`).
+  - **Psychic Vincent (`42, 31`, spinner in the tall grass)**:
+    - **Pre-Battle Quote**: *"Be sure to cover your eyes because my Pokémon's sand is something else!"*
+    - **Team (2 Pokémon)**: Gallade (`♂, Lv53`, Psychic/Fighting; knows `Protect`; `2361 EXP`) and Claydol (`Lv53`, Ground/Psychic; `2146 EXP`; defeat quote: *"Noooo!"*, verified Turns 36961-36966).
