@@ -1345,7 +1345,7 @@
     3. **Eclipsed Houndoom Lv52** (uses `Flamethrower`; 2HKO'd by Sirius's `Return` for `2272 EXP` in Turns 36649-36651).
     4. **Eclipsed Milotic Lv53** (uses `Terra Drain` and `Scald`; resists Fighting-type `Aura Sphere` [`0.5x`]; defeated by Sirius's `Return` + `Aura Sphere` + `Dark Pulse` for `2418 EXP` in Turns 36652-36655).
     5. **Eclipsed Solrock Lv53** (holds `Sitrus Berry`; uses `Eclite Edge` and `Reflect`; retains Rock typing [resisting Normal `0.5x`]; defeated by Sirius's `Dark Pulse` + `Return` + `Aura Sphere` in Turns 36656-36659).
-    6. **Eclipsed Haxorus Lv54** (uses `Swords Dance`; defeated by Sirius's `Dark Pulse` in Turns 36660-36663, defeating Team Siara Leader Marie!).
+    6. **Eclipsed Haxorus Lv54** (uses `Swords Dance`; defeated by Sirius's `Dark Pulse` for `2521 EXP` in Turns 36660-36663, leveling Sirius to Lv90 and defeating Team Siara Leader Marie [defeat quote: `"N... no... how could he... / My own son... Noooo! Argh!"`]).
 
 <hr>
 
@@ -3827,12 +3827,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv89
+- **Level**: Lv90
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 255), Attack (C+, 241), Defense (A-, 233), Sp. Atk (C-, 224), Sp. Def (E, 152), Speed (C-, 158)
-- **Current Condition**: 255/255 HP, Healthy (`Return 14/20`, `Dark Pulse 14/15`, `Aura Sphere 19/20`, `Mach Punch 30/30`)
-- **EXP**: Lv89 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
+- **Current Condition**: 232/258 HP, Healthy (`Return 10/20`, `Dark Pulse 10/15`, `Aura Sphere 17/20`, `Mach Punch 30/30`)
+- **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
   - Slot 2: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; refilled to 15/15 PP via TM10 in Turn 36585)
