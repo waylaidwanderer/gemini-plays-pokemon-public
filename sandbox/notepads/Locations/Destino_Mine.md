@@ -8,7 +8,7 @@
 - **Diglett**: Encountered at Lv18 (♀, Ground) on 1F at `(47, 14)` (caught in a Great Ball, nicknamed **Gaia**, as 60th Owned species in Turns 32217-32221).
 - **Klink**: Encountered at Lv17 (Steel) on 1F at `(50, 45)` (already owned; verified Turn 32230).
 - **Trapinch**: Encountered at Lv14 (♀, Ground) on 1F at `(42, 49)` (caught in a Poké Ball, nicknamed **Dune**, and transferred to Box 2 as 61st Owned species in Turns 32245-32248).
-- **Golett**: Encountered at Lv17 (Ground/Ghost; knows Rollout and Astonish) in the Main Entrance Cavern at `(44, 9)` (caught in an Ultra Ball, nicknamed **Talos**, and transferred to the PC as 106th Owned species in Turns 37370-37376).
+- **Golett**: Encountered at Lv17 (Ground/Ghost; knows Rollout, Defense Curl, and Pound) in the Main Entrance Cavern at `(44, 9)` and on 1F at `(20, 34)` (caught in an Ultra Ball, nicknamed **Talos**, and transferred to the PC as 108th Owned species in Turns 37416-37418).
 ## Main Entrance Cavern (`cols 40-54, rows 4-14`)
 - **Valora Cutscene (`47, 9`, Turns 32203-32204)**: Stepping south onto `(47, 9)` from the entrance (`47, 8`) triggers Asher and Valora to deduce that Team Siara must have gone deeper into the mine.
 - **Landmarks & NPCs**:
