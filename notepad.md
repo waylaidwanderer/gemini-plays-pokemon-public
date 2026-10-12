@@ -508,6 +508,7 @@
   - **Police Officers (`23-24, 26-27` & `10-11, 24-26`)**: Patrol the streets of Chargy City (*"Wait, don't tell me I look like a criminal?!"*, verified Turn 36718).
   - **Southbound Path to Colen Route 1 (`cols 15-18, rows 29-31+`)**: Leads south out of Chargy City toward **Colen Route 1** and **Bydan Town**.
   - **Western Blue-Domed Building (`15, 25`) & Chargy City Pokémon Center (`11, 18`)**: Located along the western avenue (`cols 10-18`; Nurse Joy at `7, 2` inside `11, 18` healed the party and registered the Chargy City checkpoint in Turn 36724).
+  - **Eastern Roadblock to Colen Route 2 (`37, 15-17`, Verified Turns 36795-36797)**: Three Police Officers block the eastern exit of Chargy City (`"Sorry, kid. Route 2 is currently closed due to investigations..."`), and the adjacent blue building at `(34, 14)` is locked.
 
 <hr>
 
