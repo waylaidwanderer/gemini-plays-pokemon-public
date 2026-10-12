@@ -37,3 +37,7 @@
   - Launching FastSwift east from `(24, 29)` onto `(25, 29)` accesses the eastern bay.
   - **Northern Wooden Pier (`31-33, 19-22`)**: Dismounting at `(31, 22)` and routing via `(31, 21 -> 32, 21)` behind the Fisherman at `(32, 22)` collects **Full Restore x1** from the purple spray-bottle sprite at `(32, 20)` (Turn 36967).
   - **Southeastern Landing (`31, 31 -> 32, 31 -> 33, 31-32`)**: Surfing down `column 30` to `(30, 31)` and pressing `Right` lands on `(32, 31)` -> `(33, 31-32)` east of two rugged rocks (`31, 34` and `32, 35`) guarding a golden item ball at `(31, 35)`.
+- **Eastern Shore Landing (`38, 27-28`), Cliff Staircase (`41, 25-27`), & Eastern Brown Plateau (`cols 35-44, rows 22-32`, Verified Turns 36958-36960)**:
+  - Surfing east across the pond along `row 27` (`33, 27 -> 38, 27`) dismounts onto the eastern shore at `(38, 27-28)`.
+  - Approaching the side-facing wooden cliff staircase along `row 26` (`38, 26 -> 40, 26 -> Right`) climbs onto the eastern brown plateau at `(42, 25-27)`.
+  - Features a spinner **Psychic Male** at `(42, 31)` in the tall grass (`cols 39-44, rows 26-32`) and extends west along `rows 31-32` (`cols 35-41`).
