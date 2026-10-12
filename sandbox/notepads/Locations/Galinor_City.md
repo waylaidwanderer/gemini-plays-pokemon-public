@@ -7,7 +7,7 @@
 - **Eastern Arrival Cutscene (`47, 47`, Turn 33041)**: Stepping west onto `(47, 47)` triggers a cutscene with **Valora** and a HuPhone text message from **Dad** instructing Asher and Valora to find **Harry** waiting for them at the **Cargo Loading Bay**.
 - **Cargo Container Yard (`cols 43-59, rows 35-45`)**:
   - **Police Officer (`46, 41-43`, patrolling)**: Patrols the central cobblestone avenue (`cols 46-48`).
-  - **Quest #10 Provider ("Push it!", `54, 41`)**: Sailor with a side-quest icon standing among the green shipping containers at `(54, 41)` (reached via `row 35-36 -> col 55 -> 55, 41`; explains that he was unloading containers and lost the key to one of them, which he thinks he dropped on **Route 11**, accepted Turn 37335).
+  - **Quest #10 Provider ("Push it!", `54, 41`, Completed in Turn 37347)**: Sailor with a side-quest icon standing among the green shipping containers at `(54, 41)` (reached via `row 36 -> col 55 -> 55, 41`; explains that he was unloading containers and lost the key to one of them, which he dropped on **Route 11** at `65, 33`, accepted Turn 37335; returning the **Cargo Key** in Turn 37347 completes Quest #10 and rewards the **Push Knuckle** into the Key Items Pocket to push extremely heavy objects around).
 - **Galinor Cargo Loading Bay (`48, 32` Signboard & `cols 46-48, rows 15-31` Bridge)**:
   - **Signboard (`48, 32`)**: Interacted from `(48, 33)`, reads verbatim: *"Galinor Cargo Loading Bay"* (verified Turn 33044).
   - **Wooden Bridge (`cols 46-48, rows 15-31`)**: Connects north from `(47, 32)` across the channel onto the northern headland (`47, 12`), where a dirt path runs west along `rows 11-12`.
