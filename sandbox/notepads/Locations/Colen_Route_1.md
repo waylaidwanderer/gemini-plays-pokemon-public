@@ -14,7 +14,7 @@
 ## Wild Pokémon (Tall Grass)
 - **Staraptor (`♂, Lv41`)**: Encountered at `(21, 5)` in Turn 36730; knows `Whirlwind`. Displays no Poké Ball icon in the Colen Region battle HUD until registered under the Colen regional check (`Ultra Ball` shook twice at 100% HP in Turn 36732).
 - **Scizor (`♂, Lv40`, Bug/Steel)**: Encountered at `(20, 12)` in Turns 36736-36746; knows `Fury Cutter`, `Slash`, and `Iron Defense`.
-- **Cherrim (`♂, Lv43`, Grass)**: Encountered at `(22, 15)` in Turn 36833; knows `Solar Beam`.
+- **Cherrim (`♂, Lv43`, Grass)**: Encountered and caught at `(22, 15)` in Turns 36833-36841 (nicknamed Sakura; 99th Owned species); knows `Solar Beam` and `Take Down`.
 
 ## Colen Region World Map Topology (Verified Turns 36817 & 36830)
 - **Chargy City**: Northern red square hub (`10, 5` on the Colen Sky Road; must be approached from `10, 6` below because `11, 5 -> 10, 5` is blocked by a river cliff border, verified Turns 36822-36826).
