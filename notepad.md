@@ -403,6 +403,9 @@
 - **Wild Pokémon (Lower Section Tall Grass)**:
   - **Meowstic (`♂, Lv27`, Psychic)**: Encountered and caught at `(13, 33)` in Turns 37027-37033 (nicknamed **Psi**, 101st Owned species in the Pokédex); knows `Disarming Voice`.
   - **Gurdurr (`♂, Lv26`, Fighting)**: Encountered and caught at `(14, 10)` in Turns 37052-37056 (nicknamed **Rebar**, 102nd Owned species in the Pokédex); knows `Rock Throw`.
+## Post-Game — Legendary Beast Raikou Encounter (`28, 16` on Aur Factory Northern Exterior Grounds, Turns 37061-37063)
+- **Trigger Tile (`28, 16`)**: During Task 4 of Special Quest #12 ("Elm's Research"), stepping east onto `(28, 16)` in the tall grass between Criminal Harry (`24, 15`) and Collector Daniel (`33, 15`) on the Northern Exterior Grounds of Aur Factory prompts: *"That must be Raikou! / Will you face it? Yes/No"*.
+- **Cutscene & Battle Initiation**: Selecting *Yes* causes **Raikou** to leap from the eastern grass to `(30, 16)` facing Asher with the message *"Raikou is taking up a battle stance..."*.
 
 <hr>
 
