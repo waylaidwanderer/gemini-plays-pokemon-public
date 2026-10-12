@@ -560,6 +560,8 @@
   - Interacting with the signboard at `(39-40, 15)` from `(39, 16)` reads verbatim: *"Due to renovation, the Battle Marine will be unavailable!"*
   - Green shipping containers stand at `(30-32, 16-20)`, `(31-33, 12-15)`, and `(37-39, 10-14)`, with a rugged rock at `(29, 16)` and a solid northern treeline along `rows 10-11` (`cols 28-42`).
 - **Seamless Eastern Transition to Route 18 (`47, 16-18` on Cord Island Port <-> `0, 10-12` on Cord Island East / Route 18, Verified Turn 36993)**: Walking east along the sandy path at `row 16-18` past `column 47` transitions seamlessly onto `(0, 10)` on the eastern route of Cord Island (banner: `Hupest Wilds`).
+- **Cord Island Beach (`20-21, 15-16` Staircase -> `cols 15-28, rows 17-22`, Verified Turn 36998)**:
+  - Signpost at `(22, 18)` (interacted from `22, 19`) reads verbatim: *"Cord Island Beach"*.
 
 <hr>
 
