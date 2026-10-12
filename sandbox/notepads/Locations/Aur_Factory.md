@@ -39,7 +39,7 @@
 - **Lower & Upper Staircases (`16-18, 31-33` & `16-18, 22-25`)**:
   - From `(10, 36)`, walking east along `row 36` bypasses the gang leader (`12, 35`) and reaches the lower staircase (`16-18, 31-33`).
   - **Furnace Alcove (`cols 19-24, rows 26-29`)**: Reached via the 1-tile gap at `(19, 30 -> 19, 29)`; contains an old furnace (`21-22, 26-27`, `"I wonder what these were used for back in the day..."`) and an indoor rugged rock at `(24, 29)`.
-  - Routing along `column 15` (`15, 30 -> 15, 26 -> 17, 26`) reaches the upper staircase (`16-18, 22-25`) to the northern terrace (`rows 18-23`).
+  - Routing north along `column 14` (`14, 34 -> 14, 26 -> 17, 26`, passing between the two blue oil drums at `13, 28` and `15, 29`, since the lower staircase `17, 31-33` only leads to the Furnace Alcove and is walled off on the north/west by `16-17, 28` and `15, 29`) reaches the upper staircase (`16-18, 22-25`) to the northern terrace (`rows 18-23`).
 - **Northern Terrace (`cols 2-24, rows 18-26`, Verified Turns 33832-33839)**:
   - **Narrow Stone Pillar (`8, 24 -> 8, 25`)**: Connects `(8, 23)` south to `(8, 25)` directly in front of the Gold Item Ball at `(8, 26)` containing **Scrap Metal** (#1 of 3, collected into Key Items Pocket in Turn 33835).
   - **Western Stone Beam (`3-4, 21`)**: Walkable grey stone beam across `row 21` connecting `(5, 21)` west across the pit to `(2, 21)` below the Gold Item Ball at `(2, 19)` containing **Scrap Metal** (#2 of 3, collected into Key Items Pocket in Turn 33841; `(3-4, 19-20)` are solid pit collision).
