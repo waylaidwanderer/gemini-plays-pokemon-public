@@ -33,3 +33,7 @@
   - Reached by descending the wooden cliff staircase at `(20-21, 14-15)` onto `(20, 16)`.
   - **Explorer Cole (`18, 21`)**: Pre-battle quote *"Hey hey hey, let's have a battle?"*; uses Torkoal (`♀, Lv53`, Fire; Drought; `1828 EXP`) and Emboar (`♂, Lv53`, Fire/Fighting; `2361 EXP`; defeated in Turns 36952-36956).
   - The upper brown plateau terminates at a south-facing one-way ledge (`20-21, 32`) above an enclosed tree pocket (`cols 16-25, rows 33-36`) and solid cliff edges at `(22-23, 32-33)`, while the side-facing wooden staircase at `(22, 25-27)` (approached from `21, 26 -> Right`) descends east onto the lower coastal shoreline path (`cols 23-25, rows 25-32`).
+- **Eastern Bay & Northern Pier (`cols 25-37, rows 19-33`, Verified Turns 36964-36968)**:
+  - Launching FastSwift east from `(24, 29)` onto `(25, 29)` accesses the eastern bay.
+  - **Northern Wooden Pier (`31-33, 19-22`)**: Dismounting at `(31, 22)` and routing via `(31, 21 -> 32, 21)` behind the Fisherman at `(32, 22)` collects **Full Restore x1** from the purple spray-bottle sprite at `(32, 20)` (Turn 36967).
+  - **Southeastern Landing (`31, 31 -> 32, 31 -> 33, 31-32`)**: Surfing down `column 30` to `(30, 31)` and pressing `Right` lands on `(32, 31)` -> `(33, 31-32)` east of two rugged rocks (`31, 34` and `32, 35`) guarding a golden item ball at `(31, 35)`.
