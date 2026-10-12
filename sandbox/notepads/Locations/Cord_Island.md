@@ -21,3 +21,6 @@
   - **Swimmer Male (`18, 28`)**: Located in the southern ocean below Cord Island Beach.
 - **Northern Roadblock to Battle Marine (`37-38, 3`, Verified Turn 37032)**: Two construction workers flanked by blue `H` barriers (`36, 3` and `39, 3`) block the northern road (`"I'm sorry, but we need to wait until it's confirmed that this area is safe for people!"`).
 - **Eastern Plateau Item Ball (`50, 8`, Observed Turn 37033)**: Golden item ball located at `(50, 8)` east of the `(44-49, 7-13)` pine trees.
+- **Far-Eastern Beach Staircase (`43-45, 15-16`) & Psychic Edwin (`46, 19` -> `46, 18`, Verified Turns 37034-37042)**:
+  - Descending the staircase at `(43-45, 15-16)` reaches the far-eastern beach (`cols 42-52, rows 17+`).
+  - **Psychic Edwin (`46, 19`, spinner)**: Pre-battle quote *"You! Isn't it hard to run in the sand?"*; uses Gardevoir (`♀, Lv53`, Psychic/Fairy; `2361 EXP`), Grumpig (`♀, Lv53`, Psychic; `1861 EXP`), Gothitelle (`♀, Lv53`, Psychic; `2226 EXP`), and Beheeyem (`♂, Lv53`, Psychic; `1930 EXP`; defeated in Turns 37036-37042).

@@ -575,6 +575,9 @@
   - **Swimmer Male (`18, 28`)**: Located in the southern ocean below Cord Island Beach.
 - **Northern Roadblock to Battle Marine (`37-38, 3`, Verified Turn 37032)**: Two construction workers flanked by blue `H` barriers (`36, 3` and `39, 3`) block the northern road (`"I'm sorry, but we need to wait until it's confirmed that this area is safe for people!"`).
 - **Eastern Plateau Item Ball (`50, 8`, Observed Turn 37033)**: Golden item ball located at `(50, 8)` east of the `(44-49, 7-13)` pine trees.
+- **Far-Eastern Beach Staircase (`43-45, 15-16`) & Psychic Edwin (`46, 19` -> `46, 18`, Verified Turns 37034-37042)**:
+  - Descending the staircase at `(43-45, 15-16)` reaches the far-eastern beach (`cols 42-52, rows 17+`).
+  - **Psychic Edwin (`46, 19`, spinner)**: Pre-battle quote *"You! Isn't it hard to run in the sand?"*; uses Gardevoir (`♀, Lv53`, Psychic/Fairy; `2361 EXP`), Grumpig (`♀, Lv53`, Psychic; `1861 EXP`), Gothitelle (`♀, Lv53`, Psychic; `2226 EXP`), and Beheeyem (`♂, Lv53`, Psychic; `1930 EXP`; defeated in Turns 37036-37042).
 
 <hr>
 
@@ -4048,7 +4051,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Destino City Pokémon Center in Turn 37022)
+- **Current Condition**: 258/258 HP, Paralyzed (`Return 16/20`, `Dark Pulse 13/15`, `Aura Sphere 19/20`, `Mach Punch 30/30`; healed at Dis Bay Pokémon Center in Turn 36981; used 2 `Return` and 1 `Aura Sphere` against Aroma Lady Sabina at `22, 19` in Turns 36999-37002, and 2 `Return` and 2 `Dark Pulse` against Psychic Edwin at `46, 17` in Turns 37037-37041)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
