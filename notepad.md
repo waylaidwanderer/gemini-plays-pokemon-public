@@ -1682,7 +1682,7 @@
   - **Pre-Battle Quote**: *"These cliffs... / They are very steep, perfect for me!"*
   - **Team (1 Pokémon)**:
     - **Pokémon 1**: Nidoking (♂, Lv27; Poison/Ground).
-  - **Outcome**: Defeat quote: *"Oh no, I slipped"*; awards `₽1,080` (verified Turns 32648-32650).
+  - **Outcome**: Defeat quote: *"Oh no, I slipped"*; awards `₽1,080` (verified Turns 32648-32650). Note: the pine tree cluster at `(19-23, 92-98)` above Hiker Carlton is solid; route around it via `row 100` (`24, 100 -> 17, 100`) south of Hiker Carlton and north along `column 17` (`17, 100 -> 17, 89`) past Cooltrainer Albert (`16, 92`).
 - **Cooltrainer Albert (`16, 92`, facing East)**:
   - **Pre-Battle Quote**: *"Yooo, wanna get higher on the mountain? Too bad!"*
   - **Team (3 Pokémon)**:
