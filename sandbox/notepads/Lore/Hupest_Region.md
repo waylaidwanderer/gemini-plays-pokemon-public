@@ -491,3 +491,11 @@
   1. **Ancient Hupestian Ruins Soaring**: *"Ancient Hupestian Ruins has been added to available locations! Now you can soar there freely as you wish!"*
   2. **Hupest Wilds**: *"Hupest Wilds is now an available area!"*
   3. **Chargy City (Colen Region) Metro Access**: *"You can take the Metro now to Chargy City (in Colen)!"*
+
+## Post-Game — Ancient Hupestian Ruins, Riley's GS Ball & The Celebi Time-Travel Event (Turns 37517-37555)
+- **PKMN Trainer Riley & The GS Ball (`8, 11` in Ancient Hupestian Ruins)**: In the post-game, Sinnoh's **Riley** appears in front of the Left Mural at `(8, 11)` inside the Ancient Hupestian Ruins and initiates **Special Quest #23 ("Back to the...")**, showing Asher **Celebi** (the Mythical Time Travel Pokémon), gifting him the **GS Ball** (which Riley obtained from an old Poké Ball maker in a faraway region), and asking him to gather data on Celebi on an island with a lush forest (**Solare Island**).
+- **Summoning Celebi & Time Travel to Sovio City (`13, 9` on Northern Side of Solare Island)**:
+  - Stepping onto `(13, 9)` before the ancient shrine box on the Northern Side of Solare Island prompts Asher to place the **GS Ball** (`13, 8`), summoning **Celebi**.
+  - After Asher records Celebi's data, Celebi engulfs Asher in a blinding white flash and transports him back in time to **"Sovio City — A few hours before Valora's abduction"**.
+  - **Frio's Secret Infiltration**: In the past, Asher witnesses **Frio** eavesdrop on two Team Siara Grunts looking for Valora's house on Marie's orders. Realizing Valora is their target, Frio lures one grunt into an alley, knocks him out to take his uniform (despite it being a size too small), and intentionally misleads the second grunt in the wrong direction to buy time for Valora—revealing how Frio infiltrated Team Siara and boarded their Cargo Ship to rescue Asher.
+  - **Celebi Joins Asher**: Returning Asher to the present at `(13, 9)` on the Northern Side of Solare Island, **Celebi** voluntarily joins Asher's team/PC Storage (becoming Asher's **110th Owned species**).
