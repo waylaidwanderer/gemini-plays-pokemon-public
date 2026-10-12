@@ -12,7 +12,7 @@
   - Walking south along `column 16` (`16, 18 -> 16, 22 -> 19, 23 -> 24, 20`) reaches the central shoreline (`24, 23`), where FastSwift can be launched onto `(24, 24)` (`with a Swimmer Female at 23, 28`) to surf east around the `(25, 21-22)` tree onto `(29, 22)`.
 - **Cooltrainer Preston (`17, 17` -> `17, 18`, facing `Down` at the eastern end of the `row 19` corridor)**:
   - **Pre-Battle Quote**: *"Have we met or not? / Well, nice to meet you anyway!"*
-  - **Team (1 Pokémon)**: Reuniclus (`♂, Lv53`, Psychic; OHKO'd by Sirius's `Dark Pulse` for `2226 EXP` in Turn 36921).
+  - **Team (1 Pokémon)**: Reuniclus (`♂, Lv53`, Psychic; OHKO'd by Sirius's `Dark Pulse` for `2226 EXP` in Turn 36921; defeat quote: *"No way"*; awards `₽3,180`, verified Turn 36922).
 - **Eastern Cliff Staircase (`35, 16-18`) & Eastern Plateau (`cols 36-46, rows 10-26`, Verified Turns 36921-36922)**:
   - Approaching the side-facing wooden cliff staircase along `row 17` (`34, 17 -> Right`) climbs onto the eastern cliff plateau at `(36, 16)`.
   - Features an Explorer/Ruin Maniac at `(38, 12)` facing `Down`, a northern branch along `cols 40-41`, and a southern bare-cliff corridor via `(39, 19 -> 40, 20 -> 41, 21 -> 43, 22 -> 45, 22)` leading to the southern descending staircase at `(44-46, 24-25)`.
