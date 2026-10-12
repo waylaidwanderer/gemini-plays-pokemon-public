@@ -1305,7 +1305,7 @@
     - **Cave Obstacle Overhead Collision**: Both 1x2 cave stalagmites (e.g. `33, 9-10`, `27, 8-9`) and 2x2 cave rock cones (e.g. `30-31, 9-10`, `28-29, 10-11`) have passable overhead collision on their top row (`row 1`) and solid collision on their bottom row (`row 2`, verified Turn 36506).
     - West of Grunt #13 (`43, 11`), passing between the rugged rocks at `(37, 8)` and `(37, 11)` via `(37, 9-10)` leads onto the western upper ridge (`cols 11-36`).
     - **Team Siara Grunt #14 (`32, 10`, facing `Down`)**: Reached via `(36, 10 -> 36, 11 -> 32, 11)`. Pre-battle quote: *"Surprise attack!"*; uses **Leavanny** (`♀, Lv52`, Bug/Grass; OHKO'd by Sirius's `Return` for `2172 EXP`) and **Whimsicott** (`♀, Lv52`, Grass/Fairy; OHKO'd by Sirius's `Return` for `1872 EXP`; defeated Turns 36499-36504).
-    - **Female Team Siara Grunt #15 (`27, 11`, facing `Up`)**: Reached from `(32, 11)` via `(34, 11 -> 34, 9 -> 28, 9 -> 28, 10 -> 27, 10)` across the passable stalagmite tip (`33, 9`) and 2x2 rock cone tops (`30-31, 9` and `28, 10`). Pre-battle quote: *"Don't you think these rocks are perfect for an ambush?"*; uses 1 Pokémon.
+    - **Female Team Siara Grunt #15 (`27, 11`, facing `Up`)**: Reached from `(32, 11)` via `(34, 11 -> 34, 9 -> 28, 9 -> 28, 10 -> 27, 10)` across the passable stalagmite tip (`33, 9`) and 2x2 rock cone tops (`30-31, 9` and `28, 10`). Pre-battle quote: *"Don't you think these rocks are perfect for an ambush?"*; uses **Gothitelle** (`♂, Lv53`, Psychic; OHKO'd by Sirius's `Dark Pulse` for `2226 EXP`; defeat quote `"Darn!"`, prize `₽5512`, defeated Turns 36506-36509).
 
 <hr>
 
