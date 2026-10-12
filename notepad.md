@@ -972,7 +972,7 @@
   - Walking south along `column 16` (`16, 18 -> 16, 22 -> 19, 23 -> 24, 20`) reaches the central shoreline (`24, 23`), where FastSwift can be launched onto `(24, 24)` (`with a Swimmer Female at 23, 28`) to surf east around the `(25, 21-22)` tree onto `(29, 22)`.
 - **Cooltrainer Preston (`17, 17` -> `17, 18`, facing `Down` at the eastern end of the `row 19` corridor)**:
   - **Pre-Battle Quote**: *"Have we met or not? / Well, nice to meet you anyway!"*
-  - **Team (1 Pokémon)**: Reuniclus (`♂, Lv53`, Psychic; OHKO'd by Sirius's `Dark Pulse` in Turn 36921).
+  - **Team (1 Pokémon)**: Reuniclus (`♂, Lv53`, Psychic; OHKO'd by Sirius's `Dark Pulse` for `2226 EXP` in Turn 36921).
 - **Eastern Cliff Staircase (`35, 16-18`) & Eastern Plateau (`cols 36-46, rows 10-26`, Verified Turns 36921-36922)**:
   - Approaching the side-facing wooden cliff staircase along `row 17` (`34, 17 -> Right`) climbs onto the eastern cliff plateau at `(36, 16)`.
   - Features an Explorer/Ruin Maniac at `(38, 12)` facing `Down`, a northern branch along `cols 40-41`, and a southern bare-cliff corridor via `(39, 19 -> 40, 20 -> 41, 20 -> Down)`.
@@ -3973,7 +3973,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Aurin Town Pokémon Center in Turn 36893)
+- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 14/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Aurin Town Pokémon Center in Turn 36893; used 1 `Dark Pulse` at Hupest Wilds `17, 19` in Turn 36921)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
