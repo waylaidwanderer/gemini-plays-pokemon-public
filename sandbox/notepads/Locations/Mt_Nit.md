@@ -95,4 +95,4 @@
     3. **Eclipsed Houndoom Lv52** (uses `Flamethrower`; 2HKO'd by Sirius's `Return` for `2272 EXP` in Turns 36649-36651).
     4. **Eclipsed Milotic Lv53** (uses `Terra Drain` and `Scald`; resists Fighting-type `Aura Sphere` [`0.5x`]; defeated by Sirius's `Return` + `Aura Sphere` + `Dark Pulse` for `2418 EXP` in Turns 36652-36655).
     5. **Eclipsed Solrock Lv53** (holds `Sitrus Berry`; uses `Eclite Edge` and `Reflect`; retains Rock typing [resisting Normal `0.5x`]; defeated by Sirius's `Dark Pulse` + `Return` + `Aura Sphere` in Turns 36656-36659).
-    6. **Eclipsed Haxorus Lv54** (sent out sixth in Turn 36660).
+    6. **Eclipsed Haxorus Lv54** (uses `Swords Dance`; defeated by Sirius's `Dark Pulse` in Turns 36660-36663, defeating Team Siara Leader Marie!).
