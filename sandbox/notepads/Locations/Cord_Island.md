@@ -2,7 +2,7 @@
 
 ## Geography & Connections
 - **Cord Island Ferry Pier (`36, 27` <-> Dis Bay `18, 22`, Verified Turn 36986)**: Reached by presenting the **Cord Ticket** to the Sailor at `(18, 23)` on the Dis Bay middle pier. The Sailor on Cord Island stands at `(37, 27)` south of a green shipping container (`35-36, 24-26`), with `column 34` leading north off the pier onto Cord Island.
-- **Eastern Sandbar Item Ball (`43, 27`, Verified Turn 37008)**: Because the seamless map border between Cord Island Port (`47, 16`) and Cord Island East (`0, 10`) has a coordinate offset of `x_port = x_east + 48, y_port = y_east + 6`, surfing west from Cord Island Beach `(7, 23 -> 6, 21 -> Left 10)` along `y_east = 21` crosses directly onto the sandbar at `(44, 27)` (`y_port = 27`), collecting **TM47** from `(43, 27)` (Turn 37008).
+- **Eastern Sandbar Item Ball (`43, 27`, Verified Turn 37008)**: Because the seamless map border between Cord Island Port (`47, 16`) and Cord Island East (`0, 10`) has a coordinate offset of `x_port = x_east + 48, y_port = y_east + 6`, surfing west from Cord Island Beach `(7, 23 -> 6, 21 -> Left 10)` along `y_east = 21` crosses directly onto the sandbar at `(44, 27)` (`y_port = 27`), collecting **TM47 (Steel Wing)** from `(43, 27)` (Turns 37008-37009).
 - **Cord Island Soaring Unlock (`34, 23`, Verified Turn 36987)**: Stepping north onto `(34, 23)` at the top of the Cord Island ferry pier displays `"Cord Island has been added to available locations!"`, unlocking **Cord Island** for Latias Soaring.
 - **Southern Cargo Yard & Renovation Signboard (`39-40, 15`, Verified Turns 36989-36990)**:
   - Interacting with the signboard at `(39-40, 15)` from `(39, 16)` reads verbatim: *"Due to renovation, the Battle Marine will be unavailable!"*
