@@ -19,3 +19,6 @@
 - **Southeastern Cove (`45, 28-30`), Wooden Piers (`44-45, 38-40` & `47-48, 37-39`), & Eastern Peninsula (`col 50`, Verified Turns 36923-36925)**:
   - Descending the staircase at `(44-46, 24-25)` reaches the southeastern cove (`45, 28-30`), where launching FastSwift at `(45, 30) -> (45, 31)` and surfing south reaches the wooden pier at `(44-45, 38-40)`.
   - Launching FastSwift east from `(45, 40)` across `(46-48, 40)` dismounts onto the eastern peninsula at `(49, 40)`, bypassing the Swimmer Female at `(42, 43)` and connecting to the southbound path along `column 50`.
+- **Black Belt Gregory (`56, 45`, facing `Down` above the `row 46` tall grass)**:
+  - **Pre-Battle Quote**: *"You look tired... / Perfect for me!"*
+  - **Team (1 Pokémon)**: Kommo-o (`♂, Lv53`, Dragon/Fighting; knows `Iron Defense`; `2475 EXP`; defeated in Turns 36929-36933).

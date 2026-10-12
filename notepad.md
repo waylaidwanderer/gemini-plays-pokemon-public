@@ -979,6 +979,9 @@
 - **Southeastern Cove (`45, 28-30`), Wooden Piers (`44-45, 38-40` & `47-48, 37-39`), & Eastern Peninsula (`col 50`, Verified Turns 36923-36925)**:
   - Descending the staircase at `(44-46, 24-25)` reaches the southeastern cove (`45, 28-30`), where launching FastSwift at `(45, 30) -> (45, 31)` and surfing south reaches the wooden pier at `(44-45, 38-40)`.
   - Launching FastSwift east from `(45, 40)` across `(46-48, 40)` dismounts onto the eastern peninsula at `(49, 40)`, bypassing the Swimmer Female at `(42, 43)` and connecting to the southbound path along `column 50`.
+- **Black Belt Gregory (`56, 45`, facing `Down` above the `row 46` tall grass)**:
+  - **Pre-Battle Quote**: *"You look tired... / Perfect for me!"*
+  - **Team (1 Pokémon)**: Kommo-o (`♂, Lv53`, Dragon/Fighting; knows `Iron Defense`; `2475 EXP`; defeated in Turns 36929-36933).
 
 <hr>
 
@@ -3976,7 +3979,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 14/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Aurin Town Pokémon Center in Turn 36893; used 1 `Dark Pulse` at Hupest Wilds `17, 19` in Turn 36921)
+- **Current Condition**: 258/258 HP, Healthy (`Return 17/20`, `Dark Pulse 14/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Aurin Town Pokémon Center in Turn 36893; used 1 `Dark Pulse` at Hupest Wilds `17, 19` in Turn 36921 and 3 `Return` at `56, 46` in Turns 36930-36932)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
