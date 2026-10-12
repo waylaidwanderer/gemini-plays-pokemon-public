@@ -1350,6 +1350,7 @@
   - Following Marie's defeat, the sleeping statue inside the summit meteorite (`15, 7`) awakens into **Eclactus, The Angel of Destruction** (the deity of pure Eclipse Energy that destroyed the Eclissi Empire and fell to Earth 300 years ago, sealed by the power of the three gems).
   - When Marie throws the strange Poké Ball (`15, 9`) at Eclactus, Eclactus blasts her to `(13, 11)`, but the Poké Ball absorbs Eclactus's radiating energy—allowing the **Three Gems** to work again once Asher approaches Eclactus, while **Colen Champion Micah** teleports away to stop wild Pokémon from randomly Eclipsing across Hupest (`Turns 36666-36668`).
   - **Frio's Sacrifice & Obtaining the Ecla Ball (`15, 10`, Turns 36676-36681)**: Stepping onto `(15, 10)` triggers **Frio** to shove Asher back and expend his own life energy at `(15, 9)` to force **Eclactus**'s aura down so Asher can fight it. After Frio thanks Asher and Valora for teaching him trust and collapses at `(17, 11)`, Asher steps up to `(15, 10)` and picks up the **Ecla Ball** (`Key Items Pocket`) from `(15, 9)`.
+  - **Final Boss Battle — Eclactus the Deity (`15, 9`, Turns 36683-36687)**: Interacting with **Eclactus** at `(15, 8)` from `(15, 9)` and selecting **Yes** automatically restores the player's entire party to 100% HP and PP and initiates the boss battle against **Eclactus the Deity** (`Lv65 Eclactus`, 2-phase purple + standard HP bar, uses `Orbit Crash`, `2x` weak to Fighting-type moves despite neutral Fight-menu box color; defeated in 3 turns by Lv90 Sirius's STAB `Aura Sphere` for `3550 EXP`, sealing Eclactus back into the summit meteorite).
 
 <hr>
 
@@ -3614,6 +3615,9 @@
     - Channeling his life energy through Eclipsing in a blinding purple flash, Frio successfully lowered Eclactus's aura so Asher—the stronger Eclipser—would remain able to fight, but the extreme life-energy drain broke Frio's body apart as he staggered to `(17, 11)`.
     - Recalling the cynical words about friendship he spoke when he and Asher first met in the Sovio Sewers, Frio told Asher and Valora that they had shown him **trust** for the first time in his life (*"So trust me... Asher... And... I'm... sorry for everything!"*) before collapsing motionless in Valora's arms (`Turns 36677-36680`).
     - Stepping back up to `(15, 10)` before Eclactus, Asher picked up the strange purple Poké Ball (`15, 9`), obtaining the **Ecla Ball** (`Key Items Pocket`, Turn 36680).
+  - **Defeating Eclactus the Deity (`15, 9` -> `15, 10`, Turns 36683-36687)**:
+    - Stepping up to `(15, 9)` to fulfill Frio's final wish, Asher challenged **Eclactus the Deity** (`Lv65 Eclactus`, featuring a 2-layer purple/green HP bar and the signature move `Orbit Crash`, and weak to Fighting-type moves).
+    - With three super-effective STAB `Aura Spheres` from **Sirius (Lv90 Lucario)** (`3550 EXP`), Asher defeated **Eclactus**, causing Eclactus to vanish in a blinding flash and be sealed back inside the purple meteorite (`15, 5-7`).
 
 <hr>
 
