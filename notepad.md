@@ -966,7 +966,8 @@
 
 ## Key Events & Landmarks
 - **Latias Joins Asher (`2, 15` -> `3, 15`, Turns 36909-36912)**: Stepping east onto `(2, 15)` at the entrance to the **Hupest Wilds** triggers a post-game cutscene where the Legendary Pokémon **Latias** materializes at `(4, 15)` (`"Huh? It's Latias! / What is it doing here? / It's looking at Asher's Poké Ball. Wait, maybe it wants to join me?! / Asher: Do you want to join me? / Latias poked Asher's Poké Ball... / Latias has joined Asher!"`), recruiting **Latias** into the PC Box as Asher's **100th Owned species** in the PokéDex.
-- **Entrance Signboard (`4-5, 14`) & Northern Staircase (`7-9, 12-14`)**: Located immediately east of `(3, 15)`.
+- **Entrance Signboard (`4-5, 14`, Verified Turn 36912)**: Interacted from `(4, 15)` facing `Up`, reads verbatim: *"Hupest Wilds / The wild life of the Region!"*
+- **Northern Staircase (`7-9, 12-14`)**: Located immediately east of `(4, 15)`.
 
 <hr>
 
