@@ -1332,7 +1332,7 @@
   - Stepping past the point-of-no-return prompt at `(15, 19)` automatically restores the player's entire party to 100% HP and PP.
   - While Marie steps up to the altar (`15, 7`) and Micah and Frio hold off the two grunts (`14, 11` and `16, 11`), **Siara Admins Flo & Harry** team up against Asher in a **6-Pokémon Double Battle**:
     1. **Salazzle♀ Lv52** (Poison/Fire; right-hand opponent slot / default target; OHKO'd on Turn 1 by Sirius's `Return` for `936 EXP` each to Sirius and Baron in Turn 36594).
-    2. **Lapras♀ Lv52** (Water/Ice; left-hand opponent slot; uses `Perish Song` on Turn 1 and `Scald` on Turn 2 & Turn 3; switched out on Turn 4 to escape its own `Perish Song`, re-entered on Turn 7 after Eclipsed Vikavolt fainted, and was paralyzed by Vega's `Spark` in Turn 36627).
+    2. **Lapras♀ Lv52** (Water/Ice; holds `Chople Berry`; left-hand opponent slot; uses `Perish Song` on Turn 1 and `Scald` on Turn 2 & Turn 3; switched out on Turn 4 to escape its own `Perish Song`, re-entered on Turn 7 after Eclipsed Vikavolt fainted, was paralyzed by Vega's `Spark` in Turn 36627, and was OHKO'd from ~80% HP through its Chople Berry by Sirius's `Aura Sphere` for `1219 EXP` each in Turn 36632).
     3. **Zoroark♂ Lv52** (sent into the right-hand slot after Salazzle fainted on Turn 1; OHKO'd on Turn 2 by Sirius's `Return` in Turn 36596).
     4. **Eclipsed Crobat Lv52** (sent into the right-hand slot after Zoroark fainted on Turn 2; survived Sirius's `Return` in red HP and used **`Eclite Storm`** on Turn 3 and `Acrobatics` on Turn 4; knocked out on Turn 5 by Sirius's `Dark Pulse` for `1135 EXP` each in Turn 36610).
     5. **Sceptile♂ Lv52** (Grass; holds `Life Orb`; switched into the left-hand slot for `Lapras♀ Lv52` on Turn 4 to save Lapras from its own `Perish Song`; uses `Dark Pulse`, `Leaf Blade` [paralyzed by Flaaffy's `Static` in Turn 36618], and `Nasty Plot` [Turn 36626]; OHKO'd on Turn 8 by Sirius's `Return` for `1158 EXP` each in Turn 36628).
@@ -3814,7 +3814,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 255), Attack (C+, 241), Defense (A-, 233), Sp. Atk (C-, 224), Sp. Def (E, 152), Speed (C-, 158)
-- **Current Condition**: 225/255 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 4/20`, `Mach Punch 24/30`)
+- **Current Condition**: 255/255 HP, Healthy (`Return 14/20`, `Dark Pulse 14/15`, `Aura Sphere 19/20`, `Mach Punch 30/30`)
 - **EXP**: Lv89 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
@@ -3837,10 +3837,10 @@
 - **Species**: Luxio (Electric-type; evolved from Shinx at Lv15 in Turn 30885)
 - **Nickname**: Vega (named after Alpha Lyrae, the bright blue-white star of the Summer Triangle alongside Altair)
 - **Gender**: Female (♀)
-- **Level**: Lv19 (leveled up defeating Siara Admins Flo & Harry's Lv52 Eclipsed Vikavolt and Lv52 Sceptile at Mt. Nit Summit Temple in Turns 36625-36629; Stats: HP 56, Attack 37, Defense 27, Sp. Atk 28, Sp. Def 21, Speed 29; declined Bite at Lv18)
+- **Level**: Lv21 (leveled up defeating Siara Admins Flo & Harry's Lv52 Eclipsed Vikavolt, Lv52 Sceptile, and Lv52 Lapras at Mt. Nit Summit Temple in Turns 36625-36633; Stats: HP 61, Attack 40, Defense 29, Sp. Atk 30, Sp. Def 23, Speed 33; declined Bite at Lv18)
 - **Ability**: Intimidate (Cuts the foe's Attack stat upon entering battle; verified Turn 28053)
 - **Caught**: Route 2 at `(53, 26)` in standard Poké Ball (Turns 28052-28059)
-- **HP**: 56/56 HP
+- **HP**: 61/61 HP
 - **Moves**:
   - Slot 1: Spark (Electric, Physical, STAB; learned at Lv12)
   - Slot 2: Leer (Normal, Status; learned at Lv5)
