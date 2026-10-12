@@ -345,6 +345,7 @@
   - **Parasol Lady (`13, 5`)**: *"Pokémon are acting so weird in the old factory's area!"* (verified Turn 33752).
   - Walking north through the open gatehouse doorway (`14, 4 -> 14, 0`) transitions seamlessly onto `(14, 39)` in **Aur Factory**.
 - **Eastern Double Staircase & Road to Hupest Wilds (`40, 20 -> 44, 19 -> row 18`, Verified Turns 36908-36909)**: Approaching the eastern side-facing wooden staircases along `row 20` (`40, 20 -> Right 4`) climbs onto the eastern plateau at `(44, 19)`, where `rows 18-19` run east past the ground pit (`46-47, 15-17`) toward the **Hupest Wilds (`Wild Area`)**.
+- **Diagonal Cliff Staircase to Hupest Wilds (`40, 20 -> 42, 18` -> `50, 18` <-> `0, 15` in Hupest Wilds, Verified Turns 36907-36908)**: Located east of the four pine trees (`cols 30-37, rows 22-24`). Walking `Right` from `(38, 20)` across `(40, 20 -> 42, 18)` climbs the diagonal wooden cliff staircase onto the Eastern Aurin Town plateau (`43-50, 17-18`, which features a 2x3 rebar pit at `45-46, 15-17` and a northern branch at `cols 47-48`), and continuing east past `column 50` transitions seamlessly onto `(0, 15)` in **Hupest Wilds**.
 
 <hr>
 
@@ -953,6 +954,18 @@
   - Stepping north onto `(5, 7)` triggers a cutscene with **Professor Ivo** (`5, 4`), **Dad (Jackson)** (`3, 5`), and **Valora** (`6, 6`).
   - Professor Ivo notes that despite the lab being at least 10 years old, the electricity is still running. Dad repairs the jammed elevator panel at `(4, 4)`, and Ivo, Dad, and Valora enter the elevator doorway at `(5, 4)`.
   - Stepping `Up` into `(5, 4)` enters the **Abandoned Undersea Laboratory Elevator** (`6, 15`), which automatically prompts: *"Choose the floor you would like to enter!"* (`5F`, `4F`, `3F`, `2F`, `1F`).
+
+<hr>
+
+<h1><code>Locations/Hupest_Wilds</code></h1>
+
+# Hupest Wilds (Wild Area)
+
+## Geography & Connections
+- **Western Entrance (`0, 14-15` <-> Aurin Town `50, 17-18`, Verified Turn 36908)**: Reached from Aurin Town by climbing the diagonal wooden cliff staircase at `(40, 20 -> 42, 18)` onto the Eastern Aurin Town plateau (`43-50, 17-18`) and walking east past `column 50`, which transitions seamlessly onto `(0, 15)` in **Hupest Wilds**.
+
+## Key Events & Landmarks
+- **Latias Cutscene (`2, 15`, Turn 36908-36909)**: Stepping east onto `(2, 15)` at the entrance to **Hupest Wilds** triggers a post-game cutscene where the Legendary Pokémon **Latias** materializes at `(3, 15)` in front of Asher (`"Huh? It's Latias!"`).
 
 <hr>
 
