@@ -84,4 +84,6 @@
     1. **Salazzle♀ Lv52** (Poison/Fire; right-hand opponent slot / default target; OHKO'd on Turn 1 by Sirius's `Return` for `936 EXP` each to Sirius and Baron in Turn 36594).
     2. **Lapras♀ Lv52** (Water/Ice; left-hand opponent slot; uses `Perish Song` on Turn 1 and `Scald` on Turn 2).
     3. **Zoroark♂ Lv52** (sent into the right-hand slot after Salazzle fainted on Turn 1; OHKO'd on Turn 2 by Sirius's `Return` in Turn 36596).
-    4. **Eclipsed Crobat Lv52** (sent into the right-hand slot after Zoroark fainted on Turn 2; survived Sirius's `Return` in red HP and used **`Eclite Storm`** on Turn 3, knocking out Baron in Turn 36600).
+    4. **Eclipsed Crobat Lv52** (sent into the right-hand slot after Zoroark fainted on Turn 2; survived Sirius's `Return` in red HP and used **`Eclite Storm`** on Turn 3 and `Acrobatics` on Turn 4; knocked out on Turn 5 by Sirius's `Dark Pulse` for `1135 EXP` each in Turn 36610).
+    5. **Sceptile♂ Lv52** (Grass; holds `Life Orb`; switched into the left-hand slot for `Lapras♀ Lv52` on Turn 4 to save Lapras from its own `Perish Song`; uses `Dark Pulse` and `Leaf Blade`).
+    6. **Eclipsed Vikavolt♂ Lv52** (sent into the right-hand slot after Eclipsed Crobat fainted on Turn 5; takes ~58% HP from Lv89 Sirius's `Return`).
