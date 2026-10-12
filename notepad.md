@@ -1348,6 +1348,7 @@
     6. **Eclipsed Haxorus Lv54** (uses `Swords Dance`; defeated by Sirius's `Dark Pulse` for `2521 EXP` in Turns 36660-36663, leveling Sirius to Lv90 and defeating Team Siara Leader Marie [defeat quote: `"N... no... how could he... / My own son... Noooo! Argh!"`]).
 - **Awakening of Eclactus, The Angel of Destruction (`15, 7`, Turns 36664-present)**:
   - Following Marie's defeat, the sleeping statue inside the summit meteorite (`15, 7`) awakens into **Eclactus, The Angel of Destruction** (the deity of pure Eclipse Energy that destroyed the Eclissi Empire and fell to Earth 300 years ago, sealed by the power of the three gems).
+  - When Marie throws the strange Poké Ball (`15, 9`) at Eclactus, Eclactus blasts her to `(13, 11)`, but the Poké Ball absorbs Eclactus's radiating energy—allowing the **Three Gems** to work again once Asher approaches Eclactus, while **Colen Champion Micah** teleports away to stop wild Pokémon from randomly Eclipsing across Hupest (`Turns 36666-36668`).
 
 <hr>
 
@@ -3602,7 +3603,11 @@
 - **Defeating Team Siara Leader Marie & The Awakening of Eclactus (`15, 10`, Turns 36638-36666)**:
   - Asher defeated **Team Siara Leader Marie**'s 6-Pokémon Eclipsed team (`Eclipsed Unfezant Lv52`, `Eclipsed Heracross Lv53`, `Eclipsed Houndoom Lv52`, `Eclipsed Milotic Lv53`, `Eclipsed Solrock Lv53`, and `Eclipsed Haxorus Lv54`).
   - Immediately afterward, the stone form inside the summit meteorite (`15, 7`) awakened in a blinding purple flash into **Eclactus, The Angel of Destruction**—the deity made of pure Eclipse Energy that wiped out the Eclissi Empire 4,000 years ago and fell to Earth in the meteorite 300 years ago.
-  - Marie revealed that the **Three Gems** (`"3 shining stars..."`) possessed the power that kept Eclactus calm and sealed at the summit for centuries, and prepared to capture/control Eclactus (*"And now... to the main attraction!"*).
+  - Marie revealed that the **Three Gems** (`"3 shining stars..."`) possessed the power that kept Eclactus calm and sealed at the summit for centuries, and threw her strange purple Poké Ball (`15, 9`) to capture Eclactus (*"And now... to the main attraction!"*).
+  - **The Failed Capture & The Strange Poké Ball's Energy Absorption (`Turns 36666-36668`)**:
+    - Roaring (`"GRRRAAAAOOOOOH!"`), **Eclactus** rejected the capture and blasted Marie back to `(13, 11)` (*"ARGH! Why didn't it work?!! My ultimate creation..."*).
+    - **Frio** (`16, 11`) noticed that the strange Poké Ball (`15, 9`) had absorbed all of the energy radiating from Eclactus, meaning the **Three Gems** can work again to seal Eclactus away if they get closer to it (*"The Pokéball absorbed all of the energy coming from that thing! That means the Gems can work again! All we have to do is get closer to it so that the Gems will seal it away again!"*).
+    - Receiving urgent reports of wild Pokémon randomly Eclipsing across the Hupest Region, **Colen Champion Micah** (`14, 12`) teleported away to handle the regional incidents while Asher and Frio prepared to approach Eclactus.
 
 <hr>
 
