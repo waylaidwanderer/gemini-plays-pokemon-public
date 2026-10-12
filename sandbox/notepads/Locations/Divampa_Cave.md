@@ -45,7 +45,7 @@
     - **Team (2 Pokémon)**:
       - **Pokémon 1**: Arcanine (♀, Lv48; Fire; Ability: Intimidate; OHKO'd by Sirius's `Aura Sphere` for `2190 EXP`).
       - **Pokémon 2**: Klinklang (Lv49; Steel; OHKO'd by Sirius's `Aura Sphere` for `2037 EXP`, leveling Sirius to Lv83).
-    - **Outcome**: Defeated in Turns 35578-35583.
+    - **Outcome**: Defeated in Turns 35578-35583. Note: `row 15` (`17, 15 <-> 21, 15`) is the open east-west passage across the passable top tile of the `(18, 15-16)` rock cone above Burglar Ronald and south of the `(19-20, 13-14)` boulder (verified Turn 37105).
   - **Scientist Elliot (`25, 10`, Magma Chamber)**:
     - **Pre-Battle Quote**: *"I'm researching the capabilities of lava as an energy resource..."*
     - **Team (1 Pokémon)**:
