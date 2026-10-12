@@ -7,8 +7,8 @@
 
 ## Snowy Mountain Exterior (`18, 22` Cavern Exit)
 - **Signpost (`20, 22`, Interacted from `20, 23` Facing `Up`, Turn 36350)**: Reads verbatim: *"Make sure to wear proper clothing! Temperature can get extremely low!"*
-- **Overworld & Battle Mechanics**:
-  - **Snowy Tall Grass Movement (Verified Turn 36369)**: Unlike standard green tall grass, snowy tall-grass tiles on Mt. Nit Exterior do NOT have a turn-in-place delay; pressing a new D-Pad direction turns and steps immediately on the first press.
+  - **Overworld & Battle Mechanics**:
+  - **Snowy Tall Grass & Green Bush Movement (Verified Turns 36369 & 36427)**: Unlike standard green tall grass, snowy tall-grass tiles on Mt. Nit Exterior do NOT have a turn-in-place delay; pressing a new D-Pad direction turns and steps immediately on the first press. Furthermore, the dark-green bush tiles (`60, 15`, `59, 16`, `57, 13`, `38, 23`, `39, 27`, `42, 26`, `44, 25`) are **walkable tall-grass encounter tiles** (rustling when stepped on) rather than solid obstacles.
   - **Permanent Hail Weather (Verified Turns 36365 & 36374)**: Triggers `"It started to hail!"` at battle start and automatically plays `"Hail continues to fall." -> "<Player Pokémon> is pelted by Hail!" -> "Foe <Pokémon> is pelted by Hail!"` (`auto-advancing without button presses`) after every mid-battle send-out.
 - **Wild Pokémon (Snowy Tall Grass)**:
   - **Abomasnow** (♀, Lv42; Grass/Ice; Ability: Snow Warning; caught in 1st Ultra Ball at `11, 29` in Turn 36354, nicknamed **Taiga**, transferred to Box 4 as **95th Owned species**).
