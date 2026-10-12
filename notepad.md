@@ -1294,6 +1294,7 @@
 - **Entrance (`18, 19`)**: Entered from the Northwestern Cave Archway (`15, 5`) on Mt. Nit Exterior (Turn 36445). No Hail weather indoors.
 - **Team Siara Grunt #9 (`21, 21`, facing `Down`)**: Pre-battle quote: *"See that entrance? / Why don't you go back to that?"*; uses a 3-Eeveelution team: **Eclipsed Espeon** (`♂, Lv50`, OHKO'd by Sirius's `Return` for `2110 EXP`), **Eclipsed Umbreon** (defeated by Sirius's `Aura Sphere`), and **Eclipsed Sylveon** (`♂, Lv51`, 2x weak to `Dark Pulse`; OHKO'd by Sirius's `Return` for `2010 EXP`; defeated Turns 36446-36452).
 - **Female Team Siara Grunt #10 (`28, 20`, facing `Down`)**: Pre-battle quote: *"Oi, what are you doing here?! / Get out of here, now!"*; uses **Eclipsed Ursaring** (`♀, Lv51`, 2x weak to `Dark Pulse` and `Aura Sphere`; OHKO'd by Sirius's `Aura Sphere` for `2065 EXP`), **Piloswine** (`♀, Lv51`, OHKO'd by Sirius's `Aura Sphere` for `1747 EXP`), and **Beartic** (`♂, Lv51`, OHKO'd by Sirius's `Aura Sphere` for `1933 EXP`; prize `₽5304`, defeated Turns 36454-36458).
+- **Team Siara Grunt #11 (`35, 18` -> `35, 20`, facing `Down`)**: Pre-battle quote: *"Tch, an intruder? / Oh come on!"*; uses **Primeape** (`♂, Lv51`, OHKO'd by Sirius's `Return` for `1627 EXP`) and **Bewear** (`♂, Lv52`, 2x weak to `Dark Pulse` and `Aura Sphere`; OHKO'd by Sirius's `Aura Sphere` for `1950 EXP`; defeat quote `"For crying out loud"`, prize `₽5408`, defeated Turns 36459-36462).
 
 <hr>
 
