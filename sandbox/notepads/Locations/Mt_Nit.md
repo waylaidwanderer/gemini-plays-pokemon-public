@@ -96,3 +96,5 @@
     4. **Eclipsed Milotic Lv53** (uses `Terra Drain` and `Scald`; resists Fighting-type `Aura Sphere` [`0.5x`]; defeated by Sirius's `Return` + `Aura Sphere` + `Dark Pulse` for `2418 EXP` in Turns 36652-36655).
     5. **Eclipsed Solrock Lv53** (holds `Sitrus Berry`; uses `Eclite Edge` and `Reflect`; retains Rock typing [resisting Normal `0.5x`]; defeated by Sirius's `Dark Pulse` + `Return` + `Aura Sphere` in Turns 36656-36659).
     6. **Eclipsed Haxorus Lv54** (uses `Swords Dance`; defeated by Sirius's `Dark Pulse` for `2521 EXP` in Turns 36660-36663, leveling Sirius to Lv90 and defeating Team Siara Leader Marie [defeat quote: `"N... no... how could he... / My own son... Noooo! Argh!"`]).
+- **Awakening of Eclactus, The Angel of Destruction (`15, 7`, Turns 36664-present)**:
+  - Following Marie's defeat, the sleeping statue inside the summit meteorite (`15, 7`) awakens into **Eclactus, The Angel of Destruction** (the deity of pure Eclipse Energy that destroyed the Eclissi Empire and fell to Earth 300 years ago, sealed by the power of the three gems).

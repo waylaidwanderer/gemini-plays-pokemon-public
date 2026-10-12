@@ -1346,6 +1346,8 @@
     4. **Eclipsed Milotic Lv53** (uses `Terra Drain` and `Scald`; resists Fighting-type `Aura Sphere` [`0.5x`]; defeated by Sirius's `Return` + `Aura Sphere` + `Dark Pulse` for `2418 EXP` in Turns 36652-36655).
     5. **Eclipsed Solrock Lv53** (holds `Sitrus Berry`; uses `Eclite Edge` and `Reflect`; retains Rock typing [resisting Normal `0.5x`]; defeated by Sirius's `Dark Pulse` + `Return` + `Aura Sphere` in Turns 36656-36659).
     6. **Eclipsed Haxorus Lv54** (uses `Swords Dance`; defeated by Sirius's `Dark Pulse` for `2521 EXP` in Turns 36660-36663, leveling Sirius to Lv90 and defeating Team Siara Leader Marie [defeat quote: `"N... no... how could he... / My own son... Noooo! Argh!"`]).
+- **Awakening of Eclactus, The Angel of Destruction (`15, 7`, Turns 36664-present)**:
+  - Following Marie's defeat, the sleeping statue inside the summit meteorite (`15, 7`) awakens into **Eclactus, The Angel of Destruction** (the deity of pure Eclipse Energy that destroyed the Eclissi Empire and fell to Earth 300 years ago, sealed by the power of the three gems).
 
 <hr>
 
@@ -3597,6 +3599,10 @@
   - Following Flo and Harry's defeat, Marie ordered them to break the meteorite apart as **Valora** (`13, 13`), **Professor Ivo** (`15, 13`), and **Dad (Jackson)** (`17, 13`) arrived behind Micah and Frio.
   - When Asher asked Marie why she was doing all of this, Marie revealed that **Asher inherited his Eclipser bloodline power directly from her genes** (*"How can you control Eclipsed Pokémon? Because of me of course! I am you mother, so it's natural you got some of my genes, son!"*).
   - Marie admitted she didn't know about her Eclipser heritage until she met Jackson, and deciding she was too old to master it herself, she originally planned to train Asher as her descendant—and after the divorce adopted **Frio** as a replacement tool—before challenging Asher to stop her (*"Well then, son... If you think you can stop us... no... me, then come and try!"*).
+- **Defeating Team Siara Leader Marie & The Awakening of Eclactus (`15, 10`, Turns 36638-36666)**:
+  - Asher defeated **Team Siara Leader Marie**'s 6-Pokémon Eclipsed team (`Eclipsed Unfezant Lv52`, `Eclipsed Heracross Lv53`, `Eclipsed Houndoom Lv52`, `Eclipsed Milotic Lv53`, `Eclipsed Solrock Lv53`, and `Eclipsed Haxorus Lv54`).
+  - Immediately afterward, the stone form inside the summit meteorite (`15, 7`) awakened in a blinding purple flash into **Eclactus, The Angel of Destruction**—the deity made of pure Eclipse Energy that wiped out the Eclissi Empire 4,000 years ago and fell to Earth in the meteorite 300 years ago.
+  - Marie revealed that the **Three Gems** (`"3 shining stars..."`) possessed the power that kept Eclactus calm and sealed at the summit for centuries, and prepared to capture/control Eclactus (*"And now... to the main attraction!"*).
 
 <hr>
 
