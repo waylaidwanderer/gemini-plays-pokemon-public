@@ -827,7 +827,7 @@
     - **Outcome**: Defeat quote: *"Ahh, I'm gonna get cooked!"* (verified Turns 35601-35607).
   - **Eastern Lower Magma Level Junction (`38, 14`) & Coworker Andrew (`41, 14` -> `39, 14`)**:
     - Reached via `(34, 10 -> 34, 11 -> 38, 11 -> 38, 14)` past Hiker Nolan (`35, 10`).
-    - Branches to a **wooden wall ladder ascending at `(44, 15)`** (`rungs at 44, 12-16`) and a **southbound path** continuing along `columns 40-44, rows 15-17+`.
+    - Branches to a **wooden wall ladder ascending at `(44, 16)`** (`rungs drawn across the cliff wall at 44, 12-15, which has a solid cliff edge blocking movement between row 15 and row 16 across cols 41-45; must be approached along row 16 via 40, 15 -> 40, 16 -> 44, 16 -> Up`, verified Turn 37091) and a **southbound path** continuing along `columns 40-44, rows 16-17+`.
     - **Coworker Andrew (`41, 14` -> `39, 14`)**:
       - **Team (3 Pokémon)**:
         - **Pokémon 1**: Scizor (♀, Lv48; Bug/Steel; OHKO'd by Sirius's `Aura Sphere` for `2056 EXP`).
