@@ -8,7 +8,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 188/258 HP, Paralyzed (`Return 20/20`, `Dark Pulse 14/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; actively battling Lv55 Raikou at Aur Factory `28, 16` in Turn 37182 while `Flaaffy` [0/50 HP] is in Slot 5 and `Vega` [0/61 HP] is in Slot 6)
+- **Current Condition**: 248/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 29/30`; full party healed by Nurse Joy inside the Route 14 East Mountain Rest Cabin in Turn 37150; actively battling Lv55 Suicune at Route 14 West `48, 26` in Turn 37186)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
