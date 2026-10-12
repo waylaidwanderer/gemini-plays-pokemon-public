@@ -608,7 +608,7 @@
   - At the western edge of the upper dirt plaza (`36, 23`), stepping `Left` from `(36, 23)` onto `(35, 23)` warps down the diagonal stone staircase to `(30, 26)` on the lower plaza (where a wandering Sailor patrols `29-30, 28-30`), leading east along `rows 29-31` to the main **Destino Mine** entrance at **`(39, 28)`** (flanked by a miner at `40, 30` saying *"We miners work hard everyday to dig up resources."* and a wooden signpost at `41, 30` reading verbatim: *"Destino Mine"*, verified Turns 32198-32201).
   - **Lower Plaza Residential House (`25, 30` <-> Interior `5, 51`)**: Reached via the `row 31` sidewalk (`28, 31 -> 25, 31 -> 25, 30`); interior features a woman at `(6, 48)` (*"Hehe... / Bird is the word! / Everyone knows bird is the word"*) and decorative non-enterable stairs at `(1-2, 47)` (verified Turns 32569-32570).
 - **Western Destino City (`cols 0-35, rows 18-21`)**:
-  - **Professor Elm's Apartment (`33, 18` <-> `5, 9`)**: **Professor Elm** from the Johto region is seated at `(6, 6)` (interacted from `5, 6`) and provides **Special Quest #12 ("Elm's Research")**. Task 1 (`60 species caught`) rewards a **Pokémon Egg** (Turn 33007), Task 2 (`80 species caught`) rewards a second **Pokémon Egg** (Turn 34586), Task 3 (`100 species caught`) rewards a third **Pokémon Egg** (completed Turn 37016), and Task 4 (`locate and gather data on Raikou in Aur Factory, Entei in Divampa Cave, and Suicune on Route 14`, assigned Turn 37122) was **completed in Turn 37264** (*"You found all three of them?! Wow, thank you so much! / Asher completed the Quest! / All this data... They are gonna be a ton of help! Thank you!"*).
+  - **Professor Elm's Apartment (`33, 18` <-> `5, 9`)**: **Professor Elm** from the Johto region is seated at `(6, 6)` (interacted from `5, 6`) and provides **Special Quest #12 ("Elm's Research")**. Task 1 (`60 species caught`) rewards a **Pokémon Egg** (Turn 33007), Task 2 (`80 species caught`) rewards a second **Pokémon Egg** (Turn 34586), and Task 3 (`100 species caught`) rewards a third **Pokémon Egg** (completed Turn 37016). Speaking to Professor Elm again post-game in Turn 37122 assigns Task 4: locate and gather data on **Raikou** (caught at Aur Factory `28, 16` in Turn 37185), **Suicune** (caught at Route 14 West `48, 26` in Turn 37249), and **Entei** (encountered at Divampa Cave Balcony `36, 14` in Turn 37277).
   - **Western Apartment (`23, 18` <-> `5, 23`)**: Empty 1F interior with decorative stairs (verified Turn 33004).
   - **Gentleman (`25, 21`)**: *"Back in my day this city used to be even richer! / Then all this fancy technology came and coal became less important!"* (verified Turn 33002).
   - **Route 11 Signboard (`15-16, 19`)**: Interacted from `(17, 19)`, reads verbatim: *"Route 11 / <-------"* (verified Turn 33010).
@@ -3907,7 +3907,7 @@
     20. Marine Point Hunter
   - **Page 5 Quests**:
     21. Hugh's Pokémon (Special Quest — accepted from Hugh at Amor Department Store 2F `11, 7` in Turn 34675; Task: show Hugh a PokéDex with **150 species** registered to receive three rare Pokémon from Unova)
-    22. Silver's Deal
+    22. Silver's Deal (Special Quest — **Completed in Turns 37326-37327**; accepted from Silver at Jarro Town `32, 12` behind the `31, 14` rugged rock in Turn 37324 and completed immediately upon speaking to him again in Turn 37326; rewarded **3 Poké Balls** [Johto starters transferred to PC, bringing Owned species to **106**])
     23. Back to the...
     24. Outcasts
     25. The Mods of Cord
