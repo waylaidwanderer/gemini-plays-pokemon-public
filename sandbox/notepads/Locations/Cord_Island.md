@@ -19,3 +19,5 @@
   - **Gated Spray-Bottle Item (`25, 14`)**: Purple spray-bottle item sprite on the eastern plateau of Cord Island East (`Route 18`), gated by a rugged rock at `(23, 13)`.
   - **Cooltrainer Male (`28, 18`)**: Standing in the eastern beach tall grass facing `Up`.
   - **Swimmer Male (`18, 28`)**: Located in the southern ocean below Cord Island Beach.
+- **Northern Roadblock to Battle Marine (`37-38, 3`, Verified Turn 37032)**: Two construction workers flanked by blue `H` barriers (`36, 3` and `39, 3`) block the northern road (`"I'm sorry, but we need to wait until it's confirmed that this area is safe for people!"`).
+- **Eastern Plateau Item Ball (`50, 8`, Observed Turn 37033)**: Golden item ball located at `(50, 8)` east of the `(44-49, 7-13)` pine trees.
