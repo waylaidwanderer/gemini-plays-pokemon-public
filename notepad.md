@@ -1317,6 +1317,7 @@
 - **Central Terrace Path (`11, 51 -> 14, 46 -> 17, 46 -> 17, 48 -> 25, 48 -> 25, 50 -> 29, 50`, Verified Turns 36533-36535)**:
   - An item ball sits on the higher northwestern cliff ledge at `(9, 43)` (observed from `14, 46` in Turn 36534).
   - Walking east via `(14, 46 -> 17, 46 -> 17, 48 -> 25, 48 -> 25, 50 -> 29, 50)` leads to **Female Team Siara Grunt #19 (`29, 51`, facing `Up`)**: Pre-battle quote: *"Hey! How are you still alive?!"*; uses **Volbeat** (`♂, Lv53`, Bug; OHKO'd by Sirius's `Return`) and **Jynx** (`♀, Lv53`, Ice/Psychic; OHKO'd by Sirius's `Return`; defeat quote `"Wow..."`, defeated Turns 36536-36541).
+- **Eastern Wooden Staircase (`32-35, 46-48`) & Team Siara Grunt #20 (`31, 45` -> `32, 45`, facing `Right`)**: Reached from `(29, 50)` via `Right 4, Up 5` (`29, 50 -> 33, 50 -> 33, 45`). Pre-battle quote: *"Brr..."*; uses **Pyroar** (`♂, Lv52`, Fire/Normal; OHKO'd by Sirius's `Mach Punch` for `1971 EXP`) and **Darmanitan** (`♀, Lv53`, Fire; OHKO'd by Sirius's `Return` for `1908 EXP`, leveling Sirius to Lv89; defeated Turns 36542-36548).
 
 <hr>
 
@@ -3790,12 +3791,12 @@
 - **Species**: Lucario (Fighting/Steel; evolved from Riolu via high friendship + daytime level-up at Lv30 in Mt. Gerhana 1F, verified Turn 30857)
 - **Nickname**: Sirius (Officially renamed from default Riolu via Sovio Name Rater)
 - **Gender**: Male (♂)
-- **Level**: Lv88
+- **Level**: Lv89
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
-- **Stats (IV Grades)**: HP (C, 252), Attack (C+, 239), Defense (A-, 231), Sp. Atk (C-, 222), Sp. Def (E, 151), Speed (C-, 156)
-- **Current Condition**: 157/252 HP, Healthy (`Dark Pulse 10/15`, `Return 8/20`, `Aura Sphere 6/20`, `Mach Punch 27/30`)
-- **EXP**: Lv88 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
+- **Stats (IV Grades)**: HP (C, 255), Attack (C+, 239), Defense (A-, 231), Sp. Atk (C-, 222), Sp. Def (E, 151), Speed (C-, 156)
+- **Current Condition**: 145/255 HP, Healthy (`Dark Pulse 10/15`, `Return 4/20`, `Aura Sphere 6/20`, `Mach Punch 26/30`)
+- **EXP**: Lv89 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Dark Pulse (Dark, Special, 80 power, 100% acc, 15 PP; 20% chance to flinch; taught via infinite-use TM10 replacing depleted Meteor Mash in Turn 35347; can be swapped with TM23 Iron Tail / TM08 Payback / TM03 Water Pulse / TM39 Rock Tomb at any time to refill PP)
   - Slot 2: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; taught via infinite-use TM27 replacing Bulldoze in Turn 35244; can be swapped with TM10 Dark Pulse / TM23 Iron Tail / TM39 Rock Tomb at any time to refill PP)
