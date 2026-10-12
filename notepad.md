@@ -558,8 +558,8 @@
 - **Cord Island Soaring Unlock (`34, 23`, Verified Turn 36987)**: Stepping north onto `(34, 23)` at the top of the Cord Island ferry pier displays `"Cord Island has been added to available locations!"`, unlocking **Cord Island** for Latias Soaring.
 - **Southern Cargo Yard & Renovation Signboard (`39-40, 15`, Verified Turns 36989-36990)**:
   - Interacting with the signboard at `(39-40, 15)` from `(39, 16)` reads verbatim: *"Due to renovation, the Battle Marine will be unavailable!"*
-  - Green shipping containers stand at `(30-32, 16-20)`, `(31-33, 12-15)`, and `(37-39, 10-14)`, with a rugged rock at `(29, 16)` and a solid northern treeline along `rows 10-11` (`cols 28-42`).
-- **Seamless Eastern Transition to Route 18 (`47, 16-18` on Cord Island Port <-> `0, 10-12` on Cord Island East / Route 18, Verified Turn 36993)**: Walking east along the sandy path at `row 16-18` past `column 47` transitions seamlessly onto `(0, 10)` on the eastern route of Cord Island (banner: `Hupest Wilds`).
+  - Green shipping containers stand at `(30-32, 16-20)`, `(31-33, 12-15)`, and `(37-39, 10-14)`, with a rugged rock at `(29, 16)`, a solid western/northern treeline (`cols 23-28`, `rows 10-11`), a patrolling Sailor along `column 39` (`rows 16-19`), and a stationary Sailor at `(32, 20)` facing the container (*"Phew these sure are heavy... / What in the world could there be in these..."*, verified Turns 36984-36985).
+- **Seamless Eastern Transition to Route 18 (`47, 16-18` on Cord Island Port <-> `0, 10-12` on Cord Island East / Route 18, Verified Turns 36986-36989)**: Walking east along `row 17` past `column 47` transitions seamlessly onto `(1, 11)` on the eastern route of Cord Island (banner: `Hupest Wilds`). Routing east via `(1, 11 -> 9, 11 -> 9, 10 -> 19, 10 -> 19, 15)` around the palm trees (`10-12, 11-13` and `16-18, 11-13`) reaches the wooden cliff staircase at `(19-20, 15-16)` descending to `(19, 17)` on **Cord Island Beach**.
 - **Cord Island Beach (`20-21, 15-16` Staircase -> `cols 15-28, rows 17-22`, Verified Turn 36998)**:
   - Signpost at `(22, 18)` (interacted from `22, 19`) reads verbatim: *"Cord Island Beach"*.
 
