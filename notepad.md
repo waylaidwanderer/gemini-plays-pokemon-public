@@ -981,11 +981,12 @@
   - Launching FastSwift east from `(45, 40)` across `(46-48, 40)` dismounts onto the eastern peninsula at `(49, 40)`, bypassing the Swimmer Female at `(42, 43)` and connecting to the southbound path along `column 50`.
 - **Black Belt Gregory (`56, 45`, facing `Down` above the `row 46` tall grass)**:
   - **Pre-Battle Quote**: *"You look tired... / Perfect for me!"*
-  - **Team (1 Pokémon)**: Kommo-o (`♂, Lv53`, Dragon/Fighting; knows `Iron Defense`; `2475 EXP`; defeated in Turns 36929-36933).
-## Hupest Wilds Southern Sector (`11-13, 0` <-> Northern Sector `59-61, 70`, Entered Turn 36937)
-- **Northern Entrance (`11-13, 0` <-> `59-61, 70`)**: Walking south along the dirt road at `columns 59-61` past `row 70` transitions seamlessly onto `(11, 1)` in the Southern Sector of the Hupest Wilds.
-- **Northern Grass Clearing (`cols 7-17, rows 1-11`)**: Features tall grass, blue flowers, rock cones (`9, 7` and `16, 9`), narrow trees (`7, 6`, `8, 10`, `14, 7`), and a Cooltrainer Male at `(12, 9)` facing `Down`.
-- **Seamless Southern Transition (`59-61, 70` in Hupest Wilds North <-> `11-13, 0` in Hupest Wilds South, Verified Turn 36942)**: Walking south along the purple dirt road at `(60, 68-70)` transitions seamlessly onto `(12, 0)` in the southern sector of the Hupest Wilds.
+  - **Team (1 Pokémon)**: Kommo-o (`♂, Lv53`, Dragon/Fighting; knows `Iron Defense`; `2475 EXP`; defeat quote: *"Okay, not tired at all"*; awards `₽3,816`, verified Turns 36929-36934).
+- **Southeastern Peninsula Route (`56, 46 -> 60, 70`, Verified Turns 36936-36942)**:
+  - From `(56, 46)`, step `Down` to `(56, 50)`, `Left` along `row 50` to `(53, 50)`, `Down` along `column 53` to `(53, 59)`, `Right` along `row 59` to `(58, 59)`, `Down` along `column 58` to `(58, 67)`, `Right` to `(60, 67)`, and `Down` along the purple dirt road (`60, 68-70`) into the Southern Sector (`12, 0`).
+## Hupest Wilds Southern Sector (`11-13, 0` <-> Northern Sector `59-61, 70`, Entered Turn 36942)
+- **Northern Entrance (`11-13, 0` <-> `59-61, 70`)**: Walking south along the purple dirt road at `columns 59-61` past `row 70` transitions seamlessly onto `(12, 0)` in the Southern Sector of the Hupest Wilds.
+- **Northern Grass Clearing (`cols 7-18, rows 1-13`)**: Features tall grass, blue flowers, rock cones (`9, 7` and `16, 9`), narrow trees (`8, 5`, `9, 9`, `14, 7`), and a Cooltrainer Male at `(12, 9)` facing `Left`.
 
 <hr>
 
