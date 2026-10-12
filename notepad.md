@@ -1292,7 +1292,7 @@
 
 ## Mt. Nit Interior Cavern (Northwestern Entrance `18, 19` <-> Exterior `15, 5`)
 - **Entrance (`18, 19`)**: Entered from the Northwestern Cave Archway (`15, 5`) on Mt. Nit Exterior (Turn 36445). No Hail weather indoors.
-- **Team Siara Grunt #9 (`21, 21`, facing `Down`)**: Pre-battle quote: *"See that entrance? / Why don't you go back to that?"*; uses a 3-Eeveelution team: **Eclipsed Espeon** (`♂, Lv50`, OHKO'd by Sirius's `Return` for `2110 EXP`), **Eclipsed Umbreon** (defeated by Sirius's `Aura Sphere`), and **Sylveon**.
+- **Team Siara Grunt #9 (`21, 21`, facing `Down`)**: Pre-battle quote: *"See that entrance? / Why don't you go back to that?"*; uses a 3-Eeveelution team: **Eclipsed Espeon** (`♂, Lv50`, OHKO'd by Sirius's `Return` for `2110 EXP`), **Eclipsed Umbreon** (defeated by Sirius's `Aura Sphere`), and **Eclipsed Sylveon** (`♂, Lv51`, 2x weak to `Dark Pulse`; OHKO'd by Sirius's `Return` for `2010 EXP`; defeated Turns 36446-36452).
 
 <hr>
 
@@ -3580,7 +3580,7 @@
 - **Main App Menu**:
   1. **Item Storage**: Launches portable PC terminal (contains Item Storage, Mailbox, Turn Off).
   2. **Soaring**: Summons **Latias** and warps to `(17, 10)` on the Hupest Sky Map (`Down 1 -> A` from top of HuPhone menu; unlocked in Turn 36331).
-  2. **World Map**: Interactive regional map viewer of Hupest navigated via D-pad (+Move). Dynamically displays location hover banners (e.g. Solare Island, Divampa Cave, Mulberry Town) in the top-left corner.
+  3. **World Map**: Interactive regional map viewer of Hupest navigated via D-pad (+Move). Dynamically displays location hover banners (e.g. Solare Island, Divampa Cave, Mulberry Town) in the top-left corner.
      - **Dynamic Banners**: Hovering over location nodes displays town/route names and subtitles in top-left (e.g., "Sovio City / Metro Station", "Amor City / Amor Dept.", "Route 4", "Route 16").
      - **Player Location Pin**: Asher's current position is tracked by a yellow pin with a black tip.
      - **Interactivity & Fast Travel**: Node interaction with button 'A' is inert; no fast travel or town info cards exist. The World Map functions strictly as a regional topological reference.
