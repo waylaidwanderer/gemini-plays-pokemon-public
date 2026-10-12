@@ -1349,6 +1349,7 @@
 - **Awakening of Eclactus, The Angel of Destruction (`15, 7`, Turns 36664-present)**:
   - Following Marie's defeat, the sleeping statue inside the summit meteorite (`15, 7`) awakens into **Eclactus, The Angel of Destruction** (the deity of pure Eclipse Energy that destroyed the Eclissi Empire and fell to Earth 300 years ago, sealed by the power of the three gems).
   - When Marie throws the strange Poké Ball (`15, 9`) at Eclactus, Eclactus blasts her to `(13, 11)`, but the Poké Ball absorbs Eclactus's radiating energy—allowing the **Three Gems** to work again once Asher approaches Eclactus, while **Colen Champion Micah** teleports away to stop wild Pokémon from randomly Eclipsing across Hupest (`Turns 36666-36668`).
+  - **Frio's Sacrifice & Obtaining the Ecla Ball (`15, 10`, Turns 36676-36681)**: Stepping onto `(15, 10)` triggers **Frio** to shove Asher back and expend his own life energy at `(15, 9)` to force **Eclactus**'s aura down so Asher can fight it. After Frio thanks Asher and Valora for teaching him trust and collapses at `(17, 11)`, Asher steps up to `(15, 10)` and picks up the **Ecla Ball** (`Key Items Pocket`) from `(15, 9)`.
 
 <hr>
 
@@ -3608,6 +3609,11 @@
     - Roaring (`"GRRRAAAAOOOOOH!"`), **Eclactus** rejected the capture and blasted Marie back to `(13, 11)` (*"ARGH! Why didn't it work?!! My ultimate creation..."*).
     - **Frio** (`16, 11`) noticed that the strange Poké Ball (`15, 9`) had absorbed all of the energy radiating from Eclactus, meaning the **Three Gems** can work again to seal Eclactus away if they get closer to it (*"The Pokéball absorbed all of the energy coming from that thing! That means the Gems can work again! All we have to do is get closer to it so that the Gems will seal it away again!"*).
     - Receiving urgent reports of wild Pokémon randomly Eclipsing across the Hupest Region, **Colen Champion Micah** (`14, 12`) teleported away to handle the regional incidents while Asher and Frio prepared to approach Eclactus.
+  - **Frio's Sacrifice & The Ecla Ball (`15, 10` -> `17, 11` -> `15, 10`, Turns 36676-36681)**:
+    - When Asher stepped forward onto `(15, 10)`, **Frio** shoved him back and stepped up to `(15, 9)` himself (*"Stand back... I got this... I have a plan!"*), reasoning that because Eclactus is made purely of Eclipse Energy, his Eclipser power could force Eclactus to let its aura down and create an opening to fight it.
+    - Channeling his life energy through Eclipsing in a blinding purple flash, Frio successfully lowered Eclactus's aura so Asher—the stronger Eclipser—would remain able to fight, but the extreme life-energy drain broke Frio's body apart as he staggered to `(17, 11)`.
+    - Recalling the cynical words about friendship he spoke when he and Asher first met in the Sovio Sewers, Frio told Asher and Valora that they had shown him **trust** for the first time in his life (*"So trust me... Asher... And... I'm... sorry for everything!"*) before collapsing motionless in Valora's arms (`Turns 36677-36680`).
+    - Stepping back up to `(15, 10)` before Eclactus, Asher picked up the strange purple Poké Ball (`15, 9`), obtaining the **Ecla Ball** (`Key Items Pocket`, Turn 36680).
 
 <hr>
 
