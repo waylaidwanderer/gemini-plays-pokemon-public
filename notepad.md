@@ -717,6 +717,7 @@
 ## Geography & Connections
 - **Northern Entrance (`16-18, 0` <-> Hupest Wilds South `44-46, 49`, Verified Turn 36978)**: Seamless transition south of the Hupest Wilds.
 - **Dis Bay Soaring & Metro Unlock (`17, 7`, Verified Turn 36979)**: Stepping south onto `(17, 7)` along the northern entrance road displays `"Dis Bay has been added to available locations!"`, unlocking **Dis Bay** for Latias Soaring (`27, 16` on the Hupest Sky Map) and Hupest Metro Line travel (`7: Dis Bay`).
+- **Dis Bay Pokémon Center (`22, 8`, Verified Turn 36981)**: Nurse Joy at `(7, 2)` (counter at `7, 4`); healed party and registered checkpoint in Turn 36981. Features the PokéMart mezzanine stairs in the northwest corner (`2, 1`).
 
 <hr>
 
@@ -4013,7 +4014,7 @@
 - **Nature**: Relaxed (+Def, -Speed)
 - **Ability**: Steadfast (evolved from Quick Feet Riolu; verified Turn 31668)
 - **Stats (IV Grades)**: HP (C, 258), Attack (C+, 244), Defense (A-, 235), Sp. Atk (C-, 227), Sp. Def (E, 154), Speed (C-, 160)
-- **Current Condition**: 258/258 HP, Healthy (`Return 15/20`, `Dark Pulse 13/15`, `Aura Sphere 18/20`, `Mach Punch 30/30`; healed at Aurin Town Pokémon Center in Turn 36893; used 2 `Return` and 1 `Dark Pulse` against Psychic Vincent at `42, 30` in Turns 36962-36965)
+- **Current Condition**: 258/258 HP, Healthy (`Return 20/20`, `Dark Pulse 15/15`, `Aura Sphere 20/20`, `Mach Punch 30/30`; healed at Dis Bay Pokémon Center in Turn 36981)
 - **EXP**: Lv90 (evolved into Lucario at Lv30 in Mt. Gerhana; declined Fire Punch at Lv32; learned Aura Sphere at Lv34; learned Bulldoze at Lv36; declined Swords Dance at Lv40; declined Low Sweep at Lv44; learned Meteor Mash at Lv48 replacing Metal Claw; declined Dragon Pulse at Lv52; declined ExtremeSpeed at Lv56; declined Close Combat at Lv60; declined Flash Cannon at Lv64)
 - **Moves**:
   - Slot 1: Return (Normal, Physical, 102 power at max friendship, 100% acc, 20 PP; refilled to 20/20 PP via TM27 in Turn 36586)
