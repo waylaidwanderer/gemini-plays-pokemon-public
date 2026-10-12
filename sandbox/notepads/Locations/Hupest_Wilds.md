@@ -22,3 +22,6 @@
 - **Black Belt Gregory (`56, 45`, facing `Down` above the `row 46` tall grass)**:
   - **Pre-Battle Quote**: *"You look tired... / Perfect for me!"*
   - **Team (1 Pokémon)**: Kommo-o (`♂, Lv53`, Dragon/Fighting; knows `Iron Defense`; `2475 EXP`; defeated in Turns 36929-36933).
+## Hupest Wilds Southern Sector (`11-13, 0` <-> Northern Sector `59-61, 70`, Entered Turn 36937)
+- **Northern Entrance (`11-13, 0` <-> `59-61, 70`)**: Walking south along the dirt road at `columns 59-61` past `row 70` transitions seamlessly onto `(11, 1)` in the Southern Sector of the Hupest Wilds.
+- **Northern Grass Clearing (`cols 7-17, rows 1-11`)**: Features tall grass, blue flowers, rock cones (`9, 7` and `16, 9`), narrow trees (`7, 6`, `8, 10`, `14, 7`), and a Cooltrainer Male at `(12, 9)` facing `Down`.
