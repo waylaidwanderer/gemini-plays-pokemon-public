@@ -2021,6 +2021,8 @@
 - **Wild Surfing Encounters**:
   - **Bruxish** (Lv30, ♀; Water/Psychic; knows Psywave, Aqua Jet, Crunch; caught at `29, 13` in Luxury Ball in Turn 34631 and nicknamed "Dazzle", bringing Owned PokéDex species to 81).
   - **Sharpedo** (Lv30-33, ♀/♂; Water/Dark; Ability: Speed Boost; knows Scary Face, Swagger, Ice Fang, Screech; caught Lv33 ♂ at `29, 8` in Ultra Ball in Turn 34699 and nicknamed "Mako", bringing Owned PokéDex species to 83).
+## Post-Game — Legendary Beast Suicune Encounter (`48, 26` on Third Wooden River Bridge of Route 14 West, Turn 37184)
+- **Trigger Tile (`48, 26`)**: During Task 4 of Special Quest #12 ("Elm's Research"), stepping east onto **`(48, 26)`** on the **Third Wooden River Bridge (`cols 46-53, row 26`)** on Route 14 West prompts: *"That must be Suicune! / Will you face it? Yes/No"*.
 
 <hr>
 
