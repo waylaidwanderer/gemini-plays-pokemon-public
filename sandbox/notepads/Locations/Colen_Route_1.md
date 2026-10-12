@@ -21,4 +21,4 @@
 - **Colen Route 12 & Col Mansion**: Western road and green square landmark (`7, 4` on the Colen Sky Road) west-northwest of Chargy City.
 - **Colen Route 1 & Bydan Town**: Central north-south route connecting Chargy City to Bydan Town (`11, 9` on the Colen Sky Road).
 - **Shoray City**: Southern red square city located south of Colen Route 1 and the central lake.
-- **Ursaring (`♂, Lv41`, Normal)**: Encountered at `(18, 19)` in Turn 36843.
+- **Ursaring (`♂, Lv41`, Normal)**: Encountered at `(18, 19)` in Turns 36843-36854; knows `Slash`, `Baby-Doll Eyes`, and `Sweet Scent`.
