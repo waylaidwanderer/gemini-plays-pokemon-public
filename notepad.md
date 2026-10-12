@@ -970,8 +970,9 @@
 - **Central Corridor & Shoreline (`cols 8-32, rows 15-24`, Verified Turns 36915-36920)**:
   - From the base of the western staircase (`8, 14`), walking south to `(8, 18)` and east along `row 18` (`8, 18 -> 16, 18`) passes south of a pine tree (`14-15, 15-17`) and west of a Cooltrainer Male at `(17, 17)` facing `Down`.
   - Walking south along `column 16` (`16, 18 -> 16, 22 -> 19, 23 -> 24, 20`) reaches the central shoreline (`24, 23`), where FastSwift can be launched onto `(24, 24)` (`with a Swimmer Female at 23, 28`) to surf east around the `(25, 21-22)` tree onto `(29, 22)`.
-- **Cooltrainer Male (`17, 17` -> `17, 18`, facing `Down` at the eastern end of the `row 19` corridor)**:
+- **Cooltrainer Preston (`17, 17` -> `17, 18`, facing `Down` at the eastern end of the `row 19` corridor)**:
   - **Pre-Battle Quote**: *"Have we met or not? / Well, nice to meet you anyway!"*
+  - **Team (1 Pokémon)**: Reuniclus (`♂, Lv53`, Psychic; OHKO'd by Sirius's `Dark Pulse` in Turn 36921).
 
 <hr>
 
