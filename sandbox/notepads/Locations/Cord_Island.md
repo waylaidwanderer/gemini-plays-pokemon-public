@@ -16,7 +16,7 @@
   - **Red Square (`23, 18`, Cord Island)**: Located on the western coast of Cord Island (unlocked for Soaring at `34, 23` in Turn 36987; lands at `36, 27` on the Cord Island Ferry Pier, verified Turn 37023).
   - **Blue Square (`25, 19`)**: Located on the southern coast of Cord Island; also prints `"You haven't unlocked this area for Soaring yet!"` (verified Turn 37022).
 - **Additional Cord Island East / Beach Landmarks (Observed Turns 36997 & 37005)**:
-  - **Gated Spray-Bottle Item (`25, 14`)**: Purple spray-bottle item sprite on the eastern plateau of Cord Island East (`Route 18`), gated by a rugged rock at `(23, 13)`.
+  - **Gated Spray-Bottle Item (`27, 12` — PP Up, Verified Turn 37443)**: Purple spray-bottle item sprite on the upper plateau of Cord Island East (`Route 18`), gated by the rugged rock at `(25, 12)` (smashed with the Pickaxe from `24, 12` in Turn 37443, yielding **PP Up x1** from `27, 12`).
   - **Cooltrainer Male (`28, 18`)**: Standing in the eastern beach tall grass facing `Up`.
   - **Swimmer Male (`18, 28`)**: Located in the southern ocean below Cord Island Beach.
 - **Northern Roadblock to Battle Marine (`37-38, 3`, Verified Turn 37032)**: Two construction workers flanked by blue `H` barriers (`36, 3` and `39, 3`) block the northern road (`"I'm sorry, but we need to wait until it's confirmed that this area is safe for people!"`).
