@@ -976,6 +976,9 @@
 - **Eastern Cliff Staircase (`35, 16-18`) & Eastern Plateau (`cols 36-46, rows 10-26`, Verified Turns 36921-36922)**:
   - Approaching the side-facing wooden cliff staircase along `row 17` (`34, 17 -> Right`) climbs onto the eastern cliff plateau at `(36, 16)`.
   - Features an Explorer/Ruin Maniac at `(38, 12)` facing `Down`, a northern branch along `cols 40-41`, and a southern bare-cliff corridor via `(39, 19 -> 40, 20 -> 41, 21 -> 43, 22 -> 45, 22)` leading to the southern descending staircase at `(44-46, 24-25)`.
+- **Southeastern Cove (`45, 28-30`), Wooden Piers (`44-45, 38-40` & `47-48, 37-39`), & Eastern Peninsula (`col 50`, Verified Turns 36923-36925)**:
+  - Descending the staircase at `(44-46, 24-25)` reaches the southeastern cove (`45, 28-30`), where launching FastSwift at `(45, 30) -> (45, 31)` and surfing south reaches the wooden pier at `(44-45, 38-40)`.
+  - Launching FastSwift east from `(45, 40)` across `(46-48, 40)` dismounts onto the eastern peninsula at `(49, 40)`, bypassing the Swimmer Female at `(42, 43)` and connecting to the southbound path along `column 50`.
 
 <hr>
 
