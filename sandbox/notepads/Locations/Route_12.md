@@ -43,7 +43,7 @@
   - **Team (2 Pokémon)**:
     - **Pokémon 1**: Togetic (♂, Lv26; Fairy/Flying).
     - **Pokémon 2**: Skarmory (♀, Lv26; Steel/Flying; knows Air Cutter).
-  - **Outcome**: Defeat quote: *"Nooooo!"*; awards `₽624` (verified Turns 32642-32645).
+  - **Outcome**: Defeat quote: *"Nooooo!"*; awards `₽624` (verified Turns 32642-32645). Note: the main northbound ascent from `(26, 105)` goes east past Hiker Calum (`29, 104`) to `col 37`, climbs the `(36-38, 96-97)` staircase onto Bird Keeper Jett's terrace, loops west past Bird Keeper Jett around the top of the `(29-30, 96-102)` cliff wall, and descends south along `cols 25-27` to `(24, 100)` below Hiker Carlton (`22, 99`, verified Turn 37529).
 - **Hiker Carlton (`22, 99`, facing South)**:
   - **Pre-Battle Quote**: *"These cliffs... / They are very steep, perfect for me!"*
   - **Team (1 Pokémon)**:
