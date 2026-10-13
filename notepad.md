@@ -105,8 +105,8 @@
   - **Outcome**: Defeat quote: *"I guess you really were my final opponent... / Not just in this round but in the whole tournament... how shocking."*; awards `₽2,912` and crowns Asher winner of his Round 3 group (verified Turns 32542-32553).
 - **Post-Round-3 Cutscene Trigger (`11, 11` in Tournament Arena Lobby, Turns 32554-32556)**: Stepping north onto `(11, 11)` after winning Round 3 triggers Professor Ivo's HuPhone text message inviting Asher to meet her in **Jarro Town** via **Route 12** (reached through the most northerly tunnel in Amor City).
 ## Amor City Northern Sector (`18, 0` South <-> `18, 39` North) & Route 12 Gatehouse (`6, 12`)
-- **Seamless Map Transition (`18, 0` <-> `18, 39`)**: Walking north along `column 18` past the Route 6 turnoff (`18, 7`) in Amor City South transitions seamlessly at `(18, 0)` onto `(18, 39)` in **Amor City North** (verified Turns 32623-32624).
-- **Northern Amor City Pokémon Center (`23, 31`)**: Located on the east side of `column 18` in Amor City North, south of a four-way street intersection at `(18, 26-27)` (observed Turn 32625).
+- **Seamless Map Transition (`18-19, 0` South <-> `18-19, 43` North)**: Walking north along `columns 18-19` past the Route 6 turnoff (`18, 7`) in Amor City South transitions seamlessly at `(18-19, 0)` onto `(18-19, 43)` in **Amor City North** (verified Turns 32623-32624 & 38523-38524).
+- **Northern Amor City Pokémon Center (`23, 32`, exits to `23, 33`)**: Located on the east side of `column 18` in Amor City North, south of a four-way street intersection at `(18, 26-27)` (verified enterable with standard Pokémon Center layout and no post-game quest NPCs in Turn 38522).
 - **Route 12 Signboard (`11-12, 12`) & Route 12 Gatehouse (`7, 12` -> `6, 12`)**:
   - At the northern end of `column 18` (`18, 12-13`), a westbound street runs along `rows 12-13` (`cols 7-18`).
   - Wooden signboard at `(11-12, 12)` (interacted from `11, 13`) reads verbatim: *"Route 12 / <-------"* (verified Turn 32628).
