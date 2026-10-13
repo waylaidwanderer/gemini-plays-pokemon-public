@@ -6,13 +6,13 @@
 - **Northern Rock Clusters (`28-30, 4-5` & `27-29, 6-7`)**: Brown ocean rock formations just south of the Maple Town channel border (`27, 0`), with a clear vertical sea lane along `column 26` (verified Turn 34317).
 - **Northern Swimmers**:
   - **Male Swimmer (`21, 8`)**: Stationed west of the northern rock cluster (observed Turn 34317).
-  - **Female Swimmer (`31-32, 7`)**: Swims horizontally east of the northern rock cluster (observed Turn 34317).
+  - **Swimmer♀ Anya (`31, 7` -> `32, 10`, Defeated Turn 38465)**: Swims horizontally east of the northern rock cluster; uses **Gastrodon** (`♂, Lv39`, Water/Ground; OHKO'd by Sirius's `Return` for `1528 EXP`) and **Seismitoad** (`♂, Lv39`, Water/Ground; OHKO'd by Sirius's `Return`, leveling Sirius to Lv94; awards `₽468`).
 - **Central Sandbar (`cols 19-28, rows 12-16`)**:
   - **Single Tall Grass Tile (`21, 13`)**: Located near the northwest curve of the sandbar.
   - **Fisherman 1 (`26, 14`)**: Faces north at the eastern notch of the sandbar (cannot be spoken to directly from the water tile `26, 13` without dismounting onto land, verified Turn 34319).
   - **Fisherman 2 (`20, 15`)**: Faces south near the western edge of the sandbar (observed Turn 34319).
   - **Small Rock (`27, 15`)**: Located on the southeastern tip of the sandbar.
-- **Eastern Grassy Sandbar (`34, 15-17`)**: Features a red item ball at `(34, 16)` inside a small patch of grass (observed Turn 34321).
+- **Eastern Grassy Sandbar (`34-36, 15-18`) — Dive Ball (`35, 16`, Collected Turn 38467)**: Reached by surfing south down `column 31` (`31, 11 -> 31, 15`) west of the sea rocks (`32, 13-14`) and `Right 3` onto `(34, 15)`; the red item ball on the tall-grass tile at **`(35, 16)`** yields **Dive Ball x1** (put in the Poké Balls Pocket). Launching FastSwift from `(36, 16)` facing `Right` onto `(37, 16)` accesses the eastern sea channel around the island at `cols 41+`.
 - **Mid-Sea Rock Gap (`cols 26-28, rows 23-27`)**:
   - **Swimmer♂ Avery (`26, 23`)**:
     - **Pre-Battle Quote**: *"Swift! Swift faster!"*

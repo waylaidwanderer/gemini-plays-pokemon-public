@@ -966,13 +966,13 @@
 - **Northern Rock Clusters (`28-30, 4-5` & `27-29, 6-7`)**: Brown ocean rock formations just south of the Maple Town channel border (`27, 0`), with a clear vertical sea lane along `column 26` (verified Turn 34317).
 - **Northern Swimmers**:
   - **Male Swimmer (`21, 8`)**: Stationed west of the northern rock cluster (observed Turn 34317).
-  - **Female Swimmer (`31-32, 7`)**: Swims horizontally east of the northern rock cluster (observed Turn 34317).
+  - **Swimmer♀ Anya (`31, 7` -> `32, 10`, Defeated Turn 38465)**: Swims horizontally east of the northern rock cluster; uses **Gastrodon** (`♂, Lv39`, Water/Ground; OHKO'd by Sirius's `Return` for `1528 EXP`) and **Seismitoad** (`♂, Lv39`, Water/Ground; OHKO'd by Sirius's `Return`, leveling Sirius to Lv94; awards `₽468`).
 - **Central Sandbar (`cols 19-28, rows 12-16`)**:
   - **Single Tall Grass Tile (`21, 13`)**: Located near the northwest curve of the sandbar.
   - **Fisherman 1 (`26, 14`)**: Faces north at the eastern notch of the sandbar (cannot be spoken to directly from the water tile `26, 13` without dismounting onto land, verified Turn 34319).
   - **Fisherman 2 (`20, 15`)**: Faces south near the western edge of the sandbar (observed Turn 34319).
   - **Small Rock (`27, 15`)**: Located on the southeastern tip of the sandbar.
-- **Eastern Grassy Sandbar (`34, 15-17`)**: Features a red item ball at `(34, 16)` inside a small patch of grass (observed Turn 34321).
+- **Eastern Grassy Sandbar (`34-36, 15-18`) — Dive Ball (`35, 16`, Collected Turn 38467)**: Reached by surfing south down `column 31` (`31, 11 -> 31, 15`) west of the sea rocks (`32, 13-14`) and `Right 3` onto `(34, 15)`; the red item ball on the tall-grass tile at **`(35, 16)`** yields **Dive Ball x1** (put in the Poké Balls Pocket). Launching FastSwift from `(36, 16)` facing `Right` onto `(37, 16)` accesses the eastern sea channel around the island at `cols 41+`.
 - **Mid-Sea Rock Gap (`cols 26-28, rows 23-27`)**:
   - **Swimmer♂ Avery (`26, 23`)**:
     - **Pre-Battle Quote**: *"Swift! Swift faster!"*
@@ -1262,7 +1262,7 @@
   - **Eastern House (`25, 23`, interior exit mat at `21-22, 10`)**: Contains a male Farmer at `(19-20, 5)`, a female Farmer at `(23, 5)`, a wandering Meowth/Persian (`16-19, 5-6`), and a decorative northern wall staircase graphic (`18, 2-3`; verified non-warping in Turn 34086).
   - **Western House (`15, 23`, interior exit mat at `6, 10`)**: Reached from the central avenue via the log fence gap at `(18, 24)` -> `(17, 24)` -> walkable wheat top-tips `(17, 25) -> (15, 25)` -> `(15, 24) -> (15, 23)` (bypassing the solid wheat stalk at `16, 22-24`). Contains a wandering female Farmer at `(5-6, 4-5)` with a Meowth (`1, 7`) and an Eevee (`3, 6`; verified Turns 34083-34084).
   - **Southeastern Road (`cols 20-26, rows 25-26`)**: Branches east from `(20, 25-26)` south of the Eastern House and terminates at trees (`27-30, 17-27`).
-  - **Southern Shoreline Cliff Staircase (`15-17, 29`) & Sea Channel (`cols 41-46, rows 18-40`)**: South of the continuous `row 27` fence in the southern courtyard (`19, 26`), a wooden cliff staircase at `(15-17, 29)` descends to the southern sea (`row 30+`, verified Turn 38457). In the southeastern sea channel launched from `(43, 17 -> 43, 18)`, the western cliff wall along `column 36` terminates at `(36, 31)` above a sea rock at `(36, 32)`, opening a westward water passage at `row 33+` (observed Turn 38460).
+  - **Southern Shoreline Cliff Staircase (`15-17, 29`) & Sea Channel (`cols 41-46, rows 18-40`, Verified Turn 38461)**: South of the continuous `row 27` fence in the southern courtyard (`19, 26`), the wooden cliff staircase at `(15-17, 29)` is purely decorative scenery, as a ring of ocean rocks at `cols 30-36, rows 30-36` seals off the southern water west of `column 35`.
 - **Townsfolk & NPCs**:
   - **Female Farmer (`16-17, 18`)**: *"Maple Town provides a huge portion of Hupest's food supplies"* (verified Turn 34071).
   - **Male Farmer (`9-10, 15-16`)**: *"Only the best of quality here, when it comes to the crops."* (verified Turn 34073).
