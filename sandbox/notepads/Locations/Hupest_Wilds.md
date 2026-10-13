@@ -36,7 +36,7 @@
 - **Eastern Bay & Northern Pier (`cols 25-37, rows 19-33`, Verified Turns 36964-36968)**:
   - Launching FastSwift east from `(24, 29)` onto `(25, 29)` accesses the eastern bay.
   - **Northern Wooden Pier (`31-33, 19-22`)**: Dismounting at `(31, 22)` and routing via `(31, 21 -> 32, 21)` behind the Fisherman at `(32, 22)` collects **Full Restore x1** from the purple spray-bottle sprite at `(32, 20)` (Turn 36967).
-  - **Southeastern Landing (`31, 31 -> 32, 31 -> 33, 31-32`)**: Surfing down `column 30` to `(30, 31)` and pressing `Right` lands on `(32, 31)` -> `(33, 31-32)` east of two rugged rocks (`31, 34` and `32, 35`) guarding a golden item ball at `(31, 35)`.
+  - **Southeastern Landing (`31, 31 -> 31, 32`)**: Surfing down `column 30` to `(30, 31)`, pressing `Right` onto `(31, 31)`, and pressing `Down` dismounts onto `(31, 32)` on the lower grass ledge (separated by a solid cliff wall from the `31, 34` and `32, 35` rugged rocks, which sit on the western extension of the Eastern Brown Plateau and are reached by climbing the `41, 25-27` cliff staircase and routing `42, 29 -> 41, 31 -> 37, 31 -> 37, 34 -> 32, 34`). Note: tall-grass tiles in Hupest Wilds have no turn-in-place delay (verified Turn 38584).
 - **Eastern Shore Landing (`38, 27-28`), Cliff Staircase (`41, 25-27`), & Eastern Brown Plateau (`cols 35-44, rows 22-32`, Verified Turns 36958-36960)**:
   - Surfing east across the pond along `row 27` (`33, 27 -> 38, 27`) dismounts onto the eastern shore at `(38, 27-28)`.
   - Approaching the side-facing wooden cliff staircase along `row 26` (`38, 26 -> 40, 26 -> Right`) climbs onto the eastern brown plateau at `(42, 25-27)`.
