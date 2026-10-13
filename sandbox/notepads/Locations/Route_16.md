@@ -35,3 +35,4 @@
   - A small sandbar with a rock at `(86, 22)` spans `(85-89, 21-24)`.
   - **Wild Surf Encounters**: Wild **Wishiwashi** (Solo Form; encountered at `86, 25` in Turn 33645).
   - **Seamless Transition to Eastern Map (`89, 25` <-> `6, 25`, Turn 33648)**: Surfing east past `column 89` transitions seamlessly onto `(6, 25)` of the rainy eastern bay / Aurin Town approaches map.
+- **Southwestern Pond Alcove & Revive (`19, 25`, Collected Turn 38529)**: Walking south through the tall grass along `column 18` (`18, 21 -> 18, 25`) reaches a purple spray-bottle sprite at **`(19, 25)`** yielding **Revive x1** (while the pond at `cols 20-25, rows 19-25` is enclosed by pine trees on the south and shoreline on the east).
