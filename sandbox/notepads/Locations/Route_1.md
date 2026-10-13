@@ -38,3 +38,4 @@
 
 ## Wild Encounters
 - Wooper (Lv3), Starly (Lv3), Nidoran♀ (Lv3), Nidoran♂ (Lv2), Pidgey (Lv2), Mareep (Lv3), Weedle (Lv2), Bidoof (Lv2), Caterpie (Lv2), Rattata (Lv3), Pichu (Lv3), Cleffa (Lv4).
+- **Post-Game Traversal Audit (Verified Turns 38552-38561)**: Traversed Route 1 from Lancio Town (`0, 46`) through the Southern Bypass, Cypress Bypass, Sand Highway, Route 1 Cottage (`37, 24`), Northwest Clearing, Northern Red Rock Meadow (`35, 7`), and Northeast Meadow (`41, 10`), confirming no new post-game quest NPCs on Route 1 (and observing an enclosed decorative pond at `cols 42-45, rows 42-43` southeast of the Sand Highway).
