@@ -11,9 +11,9 @@
   - **Shuckle** (♀, Lv32; Bug/Rock; caught at `6, 32` in Ultra Ball in Turn 37758 and nicknamed "Nectar", bringing Hupest Owned species to 120).
   - **Graveler** (♀, Lv37-38; Rock/Ground; knows Rock Blast, Stealth Rock, Bulldoze, and Self-Destruct; caught Lv38 ♀ at `7, 31` in Timer Ball in Turn 37793 and nicknamed "Granite", bringing Hupest Owned species to 125).
   - **Dusclops** (♂, Lv34; Ghost; knows Confuse Ray and Will-O-Wisp; caught at `8, 32` in Ultra Ball in Turn 37767 and nicknamed "Charon", bringing Hupest Owned species to 122).
-  - **Lampent** (♀/♂, Lv33-36; Ghost/Fire; knows Flame Burst; caught Lv33 ♀ at `7, 32` in Ultra Ball in Turn 37774 and nicknamed "Lumiere", bringing Hupest Owned species to 123).
+  - **Lampent** (♀/♂, Lv33-36; Ghost/Fire; knows Flame Burst and Memento [self-KOing on Turn 1, observed Turn 38000]; caught Lv33 ♀ at `7, 32` in Ultra Ball in Turn 37774 and nicknamed "Lumiere", bringing Hupest Owned species to 123).
   - **Pupitar** (♂, Lv30; Rock/Ground; knows Thrash and Rock Slide; caught at `8, 31` in Timer Ball in Turn 37785 and nicknamed "Basalt", bringing Hupest Owned species to 124).
-  - **Rhyhorn** (♀, Lv34-36; Ground/Rock; encountered at `7, 31` in Turn 37853).
+  - **Rhyhorn** (♀/♂, Lv34-36; Ground/Rock; knows Rock Blast, Bulldoze, and Rock Climb; encountered at `7, 31` in Turn 37853).
   - **Steelix** (♀, Lv30-32; Steel/Ground; Ability: Sturdiness; knows Rock Blast; encountered at `8, 31` in Turn 37860).
   - **Lunatone** (Lv36; Rock/Psychic; nighttime spawn caught at `8, 31` in Ultra Ball in Turn 38043 and nicknamed "Selene", bringing Hupest Owned species to 136; knows Psychic and Rock Slide).
 - **Entrance Cutscene with Valora (`7, 33`, Turns 34980-34982)**: Stepping north from `(7, 34)` onto `(7, 33)` triggers a conversation with **Valora** (`8, 33`), where Asher expresses unease that Team Siara suddenly went off the radar and Valora encourages him to climb to the summit and dominate the Finals before rejoining him at `(7, 33)`.
