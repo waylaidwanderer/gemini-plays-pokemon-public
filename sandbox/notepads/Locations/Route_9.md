@@ -41,3 +41,4 @@
 - **Tall Grass (`cols 1-8, rows 27-36` & `cols 13-18, rows 19-32`)**:
   - **Linoone** (♀, Lv28; Normal; knows Fury Swipes; caught at full HP in 2 Ultra Balls at `15, 22` in Turn 34212, nicknamed **Vector** and transferred to Box 3 in Turn 34213, bringing Owned species to **77**).
   - **Vigoroth** (♂, Lv27; Normal; caught at full HP in 1 Ultra Ball at `16, 22` in Turn 34217, nicknamed **Tempo** and transferred to Box 3 in Turn 34218, bringing Owned species to **78**).
+- **Eastern Plateau Spur & Nugget (`36, 22`, Collected Turn 38510)**: Walking south and east from the top of the northeastern staircase (`27, 19 -> 31, 20 -> 31, 22 -> 35, 22`) reaches a golden item ball at **`(36, 22)`** yielding **Nugget x1**, with a narrow cliff ledge continuing east along `row 23` (`35, 23 -> 39+, 23`).
