@@ -5,7 +5,7 @@
 - **Northern/Eastern Exit**: Leads toward **Eclipse Square** (host venue of the Eclipse Tournament Finals).
 ## Sors Road 1F — Southern Entrance Chamber (`cols 1-20+, rows 25-36`)
 - **Wild Cave Encounters**:
-  - **Lairon** (♂, Lv35; Steel/Rock; caught at `6, 32` in Ultra Ball in Turn 37742 and nicknamed "Ferrum", bringing Hupest Owned species to 117).
+  - **Lairon** (♂, Lv35; Steel/Rock; caught at `6, 32` in Ultra Ball in Turn 37742 and nicknamed "Ferrum", bringing Hupest Owned species to 117; verified in Turn 37915 to be holding a wild **Eclite Shard**).
   - **Solrock** (Lv37; Rock/Psychic; knows Stone Edge; caught at `6, 32` in Ultra Ball in Turn 37746 and nicknamed "Helios", bringing Hupest Owned species to 118).
   - **Bronzong** (Lv38; Steel/Psychic; caught at `7, 32` in Ultra Ball in Turn 37754 and nicknamed "Dotaku", bringing Hupest Owned species to 119).
   - **Shuckle** (♀, Lv32; Bug/Rock; caught at `6, 32` in Ultra Ball in Turn 37758 and nicknamed "Nectar", bringing Hupest Owned species to 120).
