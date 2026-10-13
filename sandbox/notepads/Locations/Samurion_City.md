@@ -12,7 +12,7 @@
   - **North (`cols 27-29, rows 65-73`)**: Passes underneath an overhead pagoda bridge (`cols 26-30, row 68-69`, where a uniformed officer stands at `27, 68`) between two red pagoda towers (`20-25, 65-72` and `31-36, 65-72`) and ascends a grand wooden staircase (`cols 27-29, rows 66-58`) into the main city (verified Turns 31556-31558).
 
 ## Southern Residential Block & Pokémon Center Plaza (`cols 21-36, rows 46-59`)
-- **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)` (`latest_grid.png` Turn 31559).
+- **Southern Residential Houses**: Four traditional shoji-door residences flank the central avenue (`cols 27-29`) at `(25, 58)`, `(31, 58)`, `(25, 54)`, and `(31, 54)` (`latest_grid.png` Turn 31559; verified in Turn 38407 to be non-enterable stacked decorative facades sitting directly on the `row 58` cliff edge).
   - **Male Resident (`27, 53`)**: *"Are you from somewhere foreign? Because it looks like it. / Samurion is well known for its unique culture after all!"* (verified Turn 31559).
   - **Female Resident (`27, 52`)**: *"Isn't the architecture so beautiful?"* (verified Turn 31559).
 - **Samurion City Pokémon Center (`23, 47`) & Town Signboard (`26, 48`)**: Located on the western side of the central avenue northwest of `(28, 50)`, with a wooden signboard at `(26, 48)` (interacted from `26, 49`, reading verbatim: *"Samurion City / The city of Culture"*, verified Turn 31574). Opposite on the eastern side of the avenue sits the **Samurion Dojo (`31, 47`)**, flanked by a wooden dojo signboard (`33-34, 48`) and straw-hat NPC (`36, 48`).
