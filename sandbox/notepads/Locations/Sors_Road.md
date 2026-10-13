@@ -10,6 +10,7 @@
   - **Bronzong** (Lv38; Steel/Psychic; caught at `7, 32` in Ultra Ball in Turn 37754 and nicknamed "Dotaku", bringing Hupest Owned species to 119).
   - **Shuckle** (♀, Lv32; Bug/Rock; caught at `6, 32` in Ultra Ball in Turn 37758 and nicknamed "Nectar", bringing Hupest Owned species to 120).
   - **Graveler** (♀, Lv37; Rock/Ground; knows Rock Blast, Stealth Rock, and Self-Destruct; observed at `7, 32` in Turn 37761).
+  - **Dusclops** (♂, Lv34; Ghost; knows Confuse Ray and Will-O-Wisp; caught at `8, 32` in Ultra Ball in Turn 37767 and nicknamed "Charon", bringing Hupest Owned species to 122).
 - **Entrance Cutscene with Valora (`7, 33`, Turns 34980-34982)**: Stepping north from `(7, 34)` onto `(7, 33)` triggers a conversation with **Valora** (`8, 33`), where Asher expresses unease that Team Siara suddenly went off the radar and Valora encourages him to climb to the summit and dominate the Finals before rejoining him at `(7, 33)`.
 - **Wandering Explorer NPC (`14-16, 30-32`)**: Talks about Sors Road; not a trainer.
 - **Overhead Wooden Bridge (`cols 16-18, rows 24-28`)**: `column 17` (`17, 29 -> 17, 22`) passes north underneath the overhead bridge into the central ground corridor (`rows 20-22`), while `16, 27-28` and `18, 27-28` are solid bridge support pillars (verified Turn 34985).
