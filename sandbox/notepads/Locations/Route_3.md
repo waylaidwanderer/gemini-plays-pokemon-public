@@ -8,4 +8,4 @@
 - **Terrain & Landmarks**:
   - **Northern Signpost (`48-49, 12`)**: Decorative wooden signpost north of the eastern tall grass patch (`cols 46-52, rows 13-20`; verified inert to `A` interaction at `48-49, 13` in Turn 38417).
   - **Pine Tree Canopy Collision**: Like Mt. Nit, the top canopy row of 2x3 pine trees on Route 3 (e.g. `40-41, 28` and `34-35, 29`) is passable on foot (verified Turns 38421-38422).
-  - **Central Wooden Staircase (`33-34, 19-20`)**: Climbs north from `(33-34, 21)` onto an elevated rocky plateau.
+  - **Central Wooden Staircase (`33-34, 19-20` & `32-34, 16-17`)**: Climbs north from `(33-34, 21)` onto the elevated northern plateau (`cols 12-34, rows 10-15`), which runs west along `row 11` (`28, 11 -> 15, 10`) to a Pickaxe-smashable **rugged rock at `(14, 10)`** (smashed in Turn 38426) and a side-facing wooden staircase (`11, 9-11`, entered at `row 10` from the east) leading down to **TM46 (Acrobatics)** at **`(10, 13)`** (collected Turn 38427).
