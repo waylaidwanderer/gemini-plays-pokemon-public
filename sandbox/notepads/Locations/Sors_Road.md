@@ -15,7 +15,7 @@
   - **Pupitar** (♂, Lv30; Rock/Ground; knows Thrash and Rock Slide; caught at `8, 31` in Timer Ball in Turn 37785 and nicknamed "Basalt", bringing Hupest Owned species to 124).
   - **Rhyhorn** (♀, Lv34-36; Ground/Rock; encountered at `7, 31` in Turn 37853).
   - **Steelix** (♀, Lv30-32; Steel/Ground; Ability: Sturdiness; knows Rock Blast; encountered at `8, 31` in Turn 37860).
-  - **Lunatone** (Lv36; Rock/Psychic; nighttime spawn encountered at `8, 31` in Turn 38038; knows Psychic).
+  - **Lunatone** (Lv36; Rock/Psychic; nighttime spawn caught at `8, 31` in Ultra Ball in Turn 38043 and nicknamed "Selene", bringing Hupest Owned species to 136; knows Psychic and Rock Slide).
 - **Entrance Cutscene with Valora (`7, 33`, Turns 34980-34982)**: Stepping north from `(7, 34)` onto `(7, 33)` triggers a conversation with **Valora** (`8, 33`), where Asher expresses unease that Team Siara suddenly went off the radar and Valora encourages him to climb to the summit and dominate the Finals before rejoining him at `(7, 33)`.
 - **Wandering Explorer NPC (`14-16, 30-32`)**: Talks about Sors Road; not a trainer.
 - **Overhead Wooden Bridge (`cols 16-18, rows 24-28`)**: `column 17` (`17, 29 -> 17, 22`) passes north underneath the overhead bridge into the central ground corridor (`rows 20-22`), while `16, 27-28` and `18, 27-28` are solid bridge support pillars (verified Turn 34985).
