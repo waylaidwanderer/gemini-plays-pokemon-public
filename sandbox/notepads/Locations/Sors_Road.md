@@ -9,7 +9,7 @@
   - **Solrock** (Lv37; Rock/Psychic; knows Stone Edge; caught at `6, 32` in Ultra Ball in Turn 37746 and nicknamed "Helios", bringing Hupest Owned species to 118).
   - **Bronzong** (Lv38; Steel/Psychic; caught at `7, 32` in Ultra Ball in Turn 37754 and nicknamed "Dotaku", bringing Hupest Owned species to 119).
   - **Shuckle** (♀, Lv32; Bug/Rock; caught at `6, 32` in Ultra Ball in Turn 37758 and nicknamed "Nectar", bringing Hupest Owned species to 120).
-  - **Graveler** (♀, Lv37; Rock/Ground; knows Rock Blast, Stealth Rock, and Self-Destruct; observed at `7, 32` in Turn 37761).
+  - **Graveler** (♀, Lv37-38; Rock/Ground; knows Rock Blast, Stealth Rock, Bulldoze, and Self-Destruct; caught Lv38 ♀ at `7, 31` in Timer Ball in Turn 37793 and nicknamed "Granite", bringing Hupest Owned species to 125).
   - **Dusclops** (♂, Lv34; Ghost; knows Confuse Ray and Will-O-Wisp; caught at `8, 32` in Ultra Ball in Turn 37767 and nicknamed "Charon", bringing Hupest Owned species to 122).
   - **Lampent** (♀, Lv33; Ghost/Fire; knows Flame Burst; caught at `7, 32` in Ultra Ball in Turn 37774 and nicknamed "Lumiere", bringing Hupest Owned species to 123).
   - **Pupitar** (♂, Lv30; Rock/Ground; knows Thrash and Rock Slide; caught at `8, 31` in Timer Ball in Turn 37785 and nicknamed "Basalt", bringing Hupest Owned species to 124).
