@@ -1073,6 +1073,7 @@
 
 ## 1F Living Room
 - **Layout**: Stairs up at (3, 4); wide-screen TV at (7, 3)-(9, 4); front door exit is at (10, 10) with doormat at (10, 9).
+- **Post-Game — Dad (Jackson) at `(10, 6)` (Verified Turns 37643-37644)**: In the post-game, Dad stands in the living room at `(10, 6)` and shares heartfelt dialogue: *"Hey, son! Everything okay? / We've been through quite a lot in the past few days... / Especially you... / I... I didn't want to put you through all this. / However... it was inevitable for things to turn out this way... / Even though this was a rough journey for you, you still held on. / And that makes me more proud than anything else. / Your mother's in jail now, she can't hurt anyone anymore. / If you want to talk, you know you can tell me how you feel..."*.
 - **Verified Collisions**:
   - Bookshelf at (5, 4) is solid; bypass via row 5.
 
