@@ -168,3 +168,4 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) are decorative exterior with solid collision and no accessible entrance.
+- **Post-Game Surface Audit (Verified Turns 38478-38485)**: Confirmed no new post-game quest NPCs on the surface of Sovio City, including inside the terrace apartment at `(49, 14)` (Nana and granddaughter), down the eastern tan-brick alley at `cols 57-59, rows 22-29` from the Celebi flashback (which terminates at a trash can `57, 31` and pine tree `58-59, 30-31`), and at `Rocky` (`24, 17`, which remains inert to the Push Knuckle).

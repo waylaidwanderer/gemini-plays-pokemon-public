@@ -288,6 +288,7 @@
 - **Post-Round-8 Finals Announcement & Cutscene (`19, 25` in Lower Arena Ring, Turns 34579-34582)**:
   - Stepping onto `(19, 25)` after winning Round 8 triggers a PA announcement from the Host declaring that the final qualifying round of the Eclipse Tournament has officially ended and instructing all finalists and spectators to head to **Eclipse Square** (accessible on foot via **Route 14** from northeastern Amor City).
   - In the upper Tournament Arena Lobby (`14, 15`), **Barry** congratulates **Lucas** and **Dawn** on making it to the Finals alongside Asher (calling Asher *"a beast"* after losing to him in Round 5), while **Frio** listens silently nearby (`"..."`) before Lucas, Dawn, and Barry set off toward Route 14 and Eclipse Square.
+- **Post-Game Amor City North Traversal (Verified Turns 38516-38518)**: Confirmed `column 86` is continuous from `(86, 43)` north to `(86, 10)`, two Police Officers stand side-by-side at `(72, 28)` and `(73, 28)`, and the east-west boulevard along `rows 26-27` runs continuously from `(86, 26)` to `(18, 27)`.
 
 <hr>
 
@@ -3290,6 +3291,7 @@
 ## North-Central Commercial/Residential Block
 
 - **Building at (32-37, 8-12)**: Tan building with wooden siding between Pokémon Center and west avenue. Facade shutters at (34-35, 12) are decorative exterior with solid collision and no accessible entrance.
+- **Post-Game Surface Audit (Verified Turns 38478-38485)**: Confirmed no new post-game quest NPCs on the surface of Sovio City, including inside the terrace apartment at `(49, 14)` (Nana and granddaughter), down the eastern tan-brick alley at `cols 57-59, rows 22-29` from the Celebi flashback (which terminates at a trash can `57, 31` and pine tree `58-59, 30-31`), and at `Rocky` (`24, 17`, which remains inert to the Push Knuckle).
 
 <hr>
 
