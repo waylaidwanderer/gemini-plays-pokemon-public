@@ -29,7 +29,7 @@
 
 ## Visible Field Items
 
-- **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); requires Surf.
+- **Poké Ball Item 1 (Golden Ball at 38, 4)**: Located on northern grass strip (row 4). Verified isolated on foot: eastern corridor blocked by solid pond bank/house collision at (39, 7); western bank blocked by stationary Old Man & Woman at (32-33, 8); surfing the pond via FastSwift from `(36, 9 -> 36, 8)` confirms the northern dirt pond rim (`35-38, 4-5`) has solid cliff collision and cannot be dismounted onto from the water (verified Turn 37596).
 
 ## Professor Ivo's Pokémon Laboratory (Interior)
 
