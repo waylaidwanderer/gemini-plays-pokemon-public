@@ -6,6 +6,7 @@
 ## Sors Road 1F — Southern Entrance Chamber (`cols 1-20+, rows 25-36`)
 - **Wild Cave Encounters**:
   - **Lairon** (♂, Lv35; Steel/Rock; caught at `6, 32` in Ultra Ball in Turn 37742 and nicknamed "Ferrum", bringing Hupest Owned species to 117).
+  - **Solrock** (Lv37; Rock/Psychic; knows Stone Edge; caught at `6, 32` in Ultra Ball in Turn 37746 and nicknamed "Helios", bringing Hupest Owned species to 118).
 - **Entrance Cutscene with Valora (`7, 33`, Turns 34980-34982)**: Stepping north from `(7, 34)` onto `(7, 33)` triggers a conversation with **Valora** (`8, 33`), where Asher expresses unease that Team Siara suddenly went off the radar and Valora encourages him to climb to the summit and dominate the Finals before rejoining him at `(7, 33)`.
 - **Wandering Explorer NPC (`14-16, 30-32`)**: Talks about Sors Road; not a trainer.
 - **Overhead Wooden Bridge (`cols 16-18, rows 24-28`)**: `column 17` (`17, 29 -> 17, 22`) passes north underneath the overhead bridge into the central ground corridor (`rows 20-22`), while `16, 27-28` and `18, 27-28` are solid bridge support pillars (verified Turn 34985).
