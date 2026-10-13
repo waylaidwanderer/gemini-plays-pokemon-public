@@ -1,6 +1,6 @@
 ## Status Conditions & Overworld Poison Mechanics
 
-- **Overworld Poison Damage**: Overworld poison damage is completely DISABLED in Pokémon Sors v1.3 (aligns with Gen 5+ / CFRU engine rules).
+- **Overworld Poison Damage & In-Battle End-of-Turn Status Damage**: Overworld poison damage is completely DISABLED in Pokémon Sors v1.3 (aligns with Gen 5+ / CFRU engine rules). In battle, end-of-turn status damage (`Burn` / `Poison`, dealing `1/8 max HP` per turn) ticks even on turns where the active opponent faints before sending out the next Pokémon (verified Turns 38636-38647).
 
 - **Turn-in-Place Mechanic**: On normal ground (roads, floors, water, and short grass), there is NO turn-in-place mechanic on foot; pressing a D-Pad direction turns and steps forward in a single press unless blocked by terrain collision. **Tall-Grass Exception (Verified Turn 36136)**: When standing on a **tall-grass tile**, pressing a D-Pad direction different from the player's current facing direction turns the player in place on the first press (allowing in-place spinning for wild encounters) and steps forward on the second press.
 
