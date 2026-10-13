@@ -8,7 +8,7 @@
 - **Southern Pagoda Plaza Crossroads (`28-29, 74-75`)**:
   - **East (`cols 30-35, rows 74-75`)**: Connects to the Mt. Gerhana exit staircase (`37, 74`).
   - **West (`cols 21-27, rows 74-75`)**: Leads to a westbound wooden staircase at `(19, 73-75)` ascending onto a western mountain terrace (`cols 17-18, rows 71-78`).
-  - **South (`cols 27-29, rows 76-79`)**: Pink sand avenue extending south (with a lower mountain staircase visible at `32, 77` connecting east to `cols 40-43`).
+  - **South (`cols 27-29, rows 76-83` <-> Route 3 `51-53, 0`, Verified Turn 38409)**: Pink sand canyon avenue extending south past the lower mountain staircase at `(32, 77)` and transitioning seamlessly at `(28, 83)` onto **Route 3** (`52, 0`).
   - **North (`cols 27-29, rows 65-73`)**: Passes underneath an overhead pagoda bridge (`cols 26-30, row 68-69`, where a uniformed officer stands at `27, 68`) between two red pagoda towers (`20-25, 65-72` and `31-36, 65-72`) and ascends a grand wooden staircase (`cols 27-29, rows 66-58`) into the main city (verified Turns 31556-31558).
 
 ## Southern Residential Block & Pokémon Center Plaza (`cols 21-36, rows 46-59`)
