@@ -2,7 +2,8 @@
 
 ## Geography & Connections
 - **North / Northeast (`52, 0` <-> Samurion City `28, 83`, Verified Turn 38409)**: Seamless northern canyon road connecting the Southern Pagoda Outskirts of **Samurion City** (`28, 74 -> 28, 83`) onto the northeastern entrance of **Route 3** at `(52, 0)`.
-- **West**: Coastal trail leading toward **Azluf Town**.
+- **West (`0, 19` Route 3 East <-> `70, 19` Route 3 West, Verified Turn 38434)**: Surfing west from the western shoreline of Route 3 East (`20, 20 -> 19, 20` and across the `3-10, 20-23` sandbar via `4, 20 -> 4, 19`) transitions at `x=0` onto **Route 3 West** (`70, 19`).
+  - **Route 3 West Locked Island House (`27, 16`, Verified Turns 38436-38437)**: Reached by surfing west across Route 3 West to `(34, 18)` and climbing the two side-facing wooden staircases (`33, 16-18` and `30, 15-17`, entered at `row 17` and `row 16`); interacting with the door at `(27, 16)` from `(27, 17)` displays verbatim: *"The door is locked... / Maybe a key can open it!"*.
 - **Wild Pokémon Encounters**:
   - **Seedot** (Lv3-6; Grass; encountered at `51, 16` in Turn 38410).
 - **Terrain & Landmarks**:
