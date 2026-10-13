@@ -970,7 +970,7 @@
 - **Central Sandbar (`cols 19-28, rows 12-16`)**:
   - **Single Tall Grass Tile (`21, 13`)**: Located near the northwest curve of the sandbar.
   - **Fisherman 1 (`26, 14`)**: Faces north at the eastern notch of the sandbar (cannot be spoken to directly from the water tile `26, 13` without dismounting onto land, verified Turn 34319).
-  - **Fisherman 2 (`20, 15`)**: Faces south near the western edge of the sandbar (observed Turn 34319).
+  - **Fisherman Glenn (`20, 15`, Defeated Turn 38475)**: Faces south near the western edge of the Central Sandbar; uses **Wailord** (`♀, Lv39`, Water; OHKO'd by Sirius's `Return`) and **Golisopod** (`♀, Lv39`, Bug/Water; OHKO'd by Sirius's `Return` for `1554 EXP`; awards `₽1,404`).
   - **Small Rock (`27, 15`)**: Located on the southeastern tip of the sandbar.
 - **Eastern Grassy Sandbar (`34-36, 15-18`) — Dive Ball (`35, 16`, Collected Turn 38467) & Eastern Island (`cols 41-50, rows 15-21`, Verified Turns 38468-38471)**: Reached by surfing south down `column 31` (`31, 11 -> 31, 15`) west of the sea rocks (`32, 13-14`) and `Right 3` onto `(34, 15)`; the red item ball on the tall-grass tile at **`(35, 16)`** yields **Dive Ball x1** (put in the Poké Balls Pocket). Launching FastSwift from `(36, 16)` facing `Right` onto `(37, 16)` and surfing `Right 3, Up 3, Right 5` to `(45, 13)` reaches the northbound wooden staircase at `(44-45, 15)` onto the Eastern Island (`cols 41-50, rows 15-21`; Itemfinder scan at `45, 20` in Turn 38470 confirmed no hidden items). On the western side of Hupest Sea (`19, 11`), a continuous rock reef along `columns 14-18` forms the western map boundary (verified Turn 38471).
 - **Mid-Sea Rock Gap (`cols 26-28, rows 23-27`)**:
