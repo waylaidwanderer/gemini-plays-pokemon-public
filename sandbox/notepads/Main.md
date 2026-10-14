@@ -6,7 +6,7 @@
 - **Text Speed:** FAST
 - **Inventory:** Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 29 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 28 — Mud Shot, Rock Tomb, Rock Smash, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life, Flash)
 
