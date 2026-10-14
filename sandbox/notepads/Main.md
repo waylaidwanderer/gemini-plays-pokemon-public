@@ -25,3 +25,4 @@
 - **Clearing NPC Dialogue Safely:** When facing an NPC, use `B` (not `A`) to advance and close the final text box so extra presses cannot accidentally re-initiate dialogue.
 - **Pokémon Center Healing Sequence:** Nurse Joy has 3 opening lines before `[YES / NO]` appears; press `A` **4 times** (`A, sleep 1000, A, sleep 1000, A, sleep 1000, A, sleep 6500`), then press `B` 4 times (`B, sleep 1000` x4) to clear her closing dialogue safely.
 - **Trainer Mid-Battle Faint Sequence (With 2+ Party Pokémon):** Requires **4 `B` presses** (`B` #1: fainted, `B` #2: EXP gain, `B` #3: trainer about to use next Pokémon, `B` #4: selects `No` on `"Will ORION change POKéMON?"`), followed by `sleep 4500` for the next Pokémon send-out.
+- **Berry Tree Harvesting Sequence:** Requires **3 `A` presses** (`A` #1: found berries, `A` #2: opens `[YES / NO]` prompt, `A` #3: confirms `YES` to pick berries), followed by `sleep 3500` and `B` x 3.

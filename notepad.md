@@ -81,6 +81,15 @@
 - **Pokémon Center Door:** `(20, 16)` (exiting steps to `(20, 17)`)
 - **Petalburg Gym Door:** `(15, 8)` (exiting steps to `(15, 9)`; interior entrance mat is `(4, 111)`, Norman is 4 tiles north at `(4, 107)`).
 - **Wally Tutorial Event:** Completed on Turn 107–108, unlocking the western exit of Petalburg City into Route 104 South.
+- **West Exit (to Route 104 South):** `(0, 12)` (Scott's cutscene at `(4, 12)` completed on Turn 110).
+
+## Route 104 South
+- **East Entrance (from Petalburg City):** `(34, 62)`
+- **Beach Bypass Route (Zero Tall Grass):**
+  - `(34, 62)` -> `Left` 6 to `(28, 62)` -> `Down` 9 via east beach steps `(28, 70)` to `(28, 71)`.
+  - `Left` 6 to `(22, 71)` -> `Up` 8 to `(22, 63)` -> `Left` 3 to `(19, 63)` -> `Up` 4 to `(19, 59)` -> `Left` 2 to `(17, 59)` -> `Up` 6 via west beach steps `(17, 54)` to `(17, 53)` (in front of Mr. Briney's Cottage).
+  - From `(17, 53)`, walk `Right` 5 to `(22, 53)` and `Up` 10 along `x = 22` to `(22, 43)` (Oran Berry tree at `(22, 41)`, Pecha Berry tree at `(24, 41)`).
+  - From `(22, 43)`, walk `Left` 11 along `y = 43` to `(11, 43)` (Lady Cindy at `(11, 44)`), then `Up` 5 along `x = 11` into **Petalburg Woods** at `(11, 38)`.
 
 <hr>
 
@@ -113,5 +122,6 @@
 - **Clearing NPC Dialogue Safely:** When facing an NPC, use `B` (not `A`) to advance and close the final text box so extra presses cannot accidentally re-initiate dialogue.
 - **Pokémon Center Healing Sequence:** Nurse Joy has 3 opening lines before `[YES / NO]` appears; press `A` **4 times** (`A, sleep 1000, A, sleep 1000, A, sleep 1000, A, sleep 6500`), then press `B` 4 times (`B, sleep 1000` x4) to clear her closing dialogue safely.
 - **Trainer Mid-Battle Faint Sequence (With 2+ Party Pokémon):** Requires **4 `B` presses** (`B` #1: fainted, `B` #2: EXP gain, `B` #3: trainer about to use next Pokémon, `B` #4: selects `No` on `"Will ORION change POKéMON?"`), followed by `sleep 4500` for the next Pokémon send-out.
+- **Berry Tree Harvesting Sequence:** Requires **3 `A` presses** (`A` #1: found berries, `A` #2: opens `[YES / NO]` prompt, `A` #3: confirms `YES` to pick berries), followed by `sleep 3500` and `B` x 3.
 
 <hr>
