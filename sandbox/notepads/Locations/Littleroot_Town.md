@@ -20,3 +20,7 @@
 
 ## Northern Exit to Route 101
 - **North Road:** `x = 10` (or `x = 11`), walking north from `y = 9` to `y = 0` transitions into Route 101.
+
+## Professor Birch's Pokémon Lab
+- **Exterior Door:** `(7, 16)` in Littleroot Town (exiting steps to `(7, 17)`)
+- **Interior Center Aisle:** `x = 6` from `y = 5` (Professor Birch at `(6, 4)`) straight south to the exit mat at `(6, 12)`.
