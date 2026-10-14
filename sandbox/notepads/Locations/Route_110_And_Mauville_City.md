@@ -36,4 +36,4 @@
   - **Mauville Gym Interior:**
     - Entrance doormat at `(4, 20)`..`(5, 20)`.
     - **Battle Girl Vivian `(1, 16)`** (facing Up — `Meditite Lv. 17`, `Meditite Lv. 17`) [Defeated via side-talk from `(2, 16)`].
-    - **Guitarist Kirk `(1, 13)`** (facing Down) guards `(1, 15)` on the path to **Switch #1 `(0, 15)`**.
+    - **Guitarist Kirk `(1, 13)`** (facing Down — `Electrike Lv. 17`, `Voltorb Lv. 17`) guards `(1, 15)` on the path to **Switch #1 `(0, 15)`** [Defeated].

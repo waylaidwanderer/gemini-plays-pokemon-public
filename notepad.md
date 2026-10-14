@@ -271,7 +271,7 @@
   - **Mauville Gym Interior:**
     - Entrance doormat at `(4, 20)`..`(5, 20)`.
     - **Battle Girl Vivian `(1, 16)`** (facing Up — `Meditite Lv. 17`, `Meditite Lv. 17`) [Defeated via side-talk from `(2, 16)`].
-    - **Guitarist Kirk `(1, 13)`** (facing Down) guards `(1, 15)` on the path to **Switch #1 `(0, 15)`**.
+    - **Guitarist Kirk `(1, 13)`** (facing Down — `Electrike Lv. 17`, `Voltorb Lv. 17`) guards `(1, 15)` on the path to **Switch #1 `(0, 15)`** [Defeated].
 
 <hr>
 
@@ -280,12 +280,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,735 | **Badges:** 2 (Stone Badge, Knuckle Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,279 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike
 - **Text Speed:** FAST
 - **Inventory:** Super Potion x1, Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM47 (Steel Wing)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 24 — Mud Shot, Rock Tomb, Mud-Slap, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 25 — Mud Shot, Rock Tomb, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life, Flash)
 
