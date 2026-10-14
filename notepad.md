@@ -357,7 +357,7 @@
   - From `(18, 50)`, walk `Left` 3 to `(15, 50)`, `Up` 3 up the stairs at `(14..15, 49)` to `(15, 47)`, `Left` 4 to `(11, 47)`, `Down` 7 along `x = 11` to `(11, 54)`, `Right` 3 to `(14, 54)`, `Down` 1 to `(14, 55)`, `Right` 1 to `(15, 55)`, `Down` 4 along `x = 15` to `(15, 59)`, and `Right` 11 along `y = 59` to `(26, 59)` (note: `(18, 54)` in the lower grassy canyon has **Pokémaniac Steve `(20, 56)`** facing Down into a Rock Smash boulder at `(20, 57)` and ends at `y = 58`).
   - From `(26, 59)`, climb `Up` 3 up the stairs at `(25..26, 57)` to `(26, 56)`, walk `Right` 2 to `(28, 56)`, and walk `Down` 15 along `x = 28` (past **Kindler Bernie `(30, 58)` -> `(29, 58)`** — `Slugma Lv. 18`, `Wingull Lv. 18` [Defeated & Registered]) to `(28, 71)`.
   - At `(28, 71)`, step `Right` 2 to `(30, 71)` and side-talk **Hiker Lucas `(30, 72)`** (`Geodude Lv. 18`, `Numel Lv. 18` [Defeated]) for a 1v1 Single Battle, then step to `(28, 72)` to battle **Picnicker Angelina `(26, 72)` -> `(27, 72)`** (`Lombre Lv. 18`, `Marill Lv. 18` [Defeated]).
-  - From `(28, 72)`, walk `Down` 1 to `(28, 73)`, `Left` 3 to `(25, 73)`, `Up` 2 to `(25, 71)`, and `Left` 3 up the stairs at `(24..25, 71)` to `(22, 71)`.
+  - From `(28, 72)`, walk `Down` 1 to `(28, 73)`, `Left` 4 to `(24, 73)`, `Up` 7 along `x = 24` up the double vertical staircases (`(24..25, 71)` and `(24..25, 68)`) to `(24, 66)`, and `Left` along `y = 66` toward Meteor Falls.
 
 <hr>
 
