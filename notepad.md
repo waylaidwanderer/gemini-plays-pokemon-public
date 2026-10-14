@@ -8,7 +8,7 @@
 
 ## Trainers
 1. Youngster Calvin: [DEFEATED]
-   - Location: (33, 16), facing North.
+   - Location: (33, 15), facing West/North.
    - Team: Poochyena Lv 5 (defeated by Sage's Absorb).
    - Reward: ¥80, EXP.
 
