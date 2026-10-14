@@ -109,7 +109,7 @@
 ## Route 104 North
 - **South Entrance (from Petalburg Woods `(14, 5)`):** `(10, 29)`
 - **Eastbound Path to Wooden Bridge:**
-  - From `(10, 29)`, walk `Up` 4 to `(10, 25)`, `Right` 7 to `(17, 25)`, `Up` 1 to `(17, 24)` (bypasses NPC at `(20, 25)`), and `Right` 7 to `(24, 24)` (Lass Haley at `(28, 24)` — Lotad Lv. 6, Shroomish Lv. 6 [Defeated]).
+  - From `(10, 29)`, walk `Up` 4 to `(10, 25)`, `Right` 7 to `(17, 25)`, `Up` 1 to `(17, 24)` (Rich Boy Winston at `(20, 25)` — Zigzagoon Lv. 7 [Defeated]), and `Right` 7 to `(24, 24)` (Lass Haley at `(28, 24)` — Lotad Lv. 6, Shroomish Lv. 6 [Defeated]).
   - From `(24, 24)`, step `Down` 1 to `(24, 25)`, `Right` 4 to `(28, 25)`, `Up` 3 to `(28, 22)`, and `Right` 2 onto the wooden bridge at `(30, 22)`.
 - **Wooden Bridge & Northbound Path to Rustboro City:**
   - Walk `Up` 6 along the eastern bridge (`(30, 22)` -> `(30, 16)`), `Left` 5 across the horizontal bridge section (`(30, 16)` -> `(25, 16)`, passing Twins Gina & Mia at `(27, 15)` and `(28, 15)` — Seedot Lv. 6, Lotad Lv. 6 [Defeated]), and `Up` 12 (`(25, 16)` -> `(25, 4)`).
