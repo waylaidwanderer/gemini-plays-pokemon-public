@@ -35,11 +35,18 @@
 ## Progression Checklist - Phase 3 (Active)
 1. [x] Receive Running Shoes from Mom outside player's house.
 2. [x] Travel north through Route 101 to Oldale Town.
-3. [ ] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
-4. [ ] Catch wild Pokémon on Route 102 with Poké Balls.
+3. [x] Head west from Oldale Town onto Route 102 (footprint sketcher path now unblocked).
+4. [ ] Catch wild Pokémon on Route 102 with Poké Balls (target: Zigzagoon for Pickup, Ralts, or Lotad).
 5. [ ] Battle Route 102 trainers for EXP and prize money.
 6. [ ] Arrive in Petalburg City and visit Petalburg Gym to speak with Dad (Norman).
 7. [ ] Help Wally catch a Ralts.
+
+## Route 102 Overview
+- East entrance: Connected to Oldale Town at (48, 10).
+- West exit: Leads directly into Petalburg City.
+- Key Wild Pokémon: Ralts, Lotad, Seedot, Zigzagoon (Pickup), Wurmple, Poochyena.
+- Trainers: Youngster Calvin, Bug Catcher Rick, Youngster Allen, Lass Tiana.
+- Items: Oran/Pecha berry trees, Potion.
 
 ## Route 103 Topology & Layout
 - South connects to Oldale Town.
