@@ -17,6 +17,7 @@
 - `Locations/Route_104_And_Rustboro_City`: Coordinates, trainer statuses, and routing for Route 104 North, Rustboro City, Route 116, and Rusturf Tunnel.
 - `Locations/Dewford_Town`: Coordinates, trainer statuses, and routing for Dewford Town, Dewford Gym, Route 106, and Granite Cave.
 - `Locations/Route_109_And_Slateport_City`: Coordinates, trainer statuses, and routing for Route 109 and Slateport City.
+- `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
 
 ## Mechanics & Harness Notes
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**

@@ -231,6 +231,15 @@
 
 <hr>
 
+<h1><code>Locations/Route_110_And_Mauville_City</code></h1>
+
+# Route 110 & Mauville City — Coordinates & Routing
+
+## Route 110
+- **South Entrance (from Slateport City `(18, 0)`):** `(18, 99)` (white fence at `x = 18..22, y = 93`; step `Left` 2 at `(18, 94)` to `(16, 94)` to follow the dirt road north).
+
+<hr>
+
 <h1><code>Main</code></h1>
 
 # Main Notepad — Pokémon Emerald Version
@@ -252,6 +261,7 @@
 - `Locations/Route_104_And_Rustboro_City`: Coordinates, trainer statuses, and routing for Route 104 North, Rustboro City, Route 116, and Rusturf Tunnel.
 - `Locations/Dewford_Town`: Coordinates, trainer statuses, and routing for Dewford Town, Dewford Gym, Route 106, and Granite Cave.
 - `Locations/Route_109_And_Slateport_City`: Coordinates, trainer statuses, and routing for Route 109 and Slateport City.
+- `Locations/Route_110_And_Mauville_City`: Coordinates, trainer statuses, and routing for Route 110 and Mauville City.
 
 ## Mechanics & Harness Notes
 - **Naming Screen Grid (7 cols x 4 rows, Select = toggle case, Start = jump to OK):**
