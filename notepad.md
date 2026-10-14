@@ -274,6 +274,7 @@
     - **Guitarist Kirk `(1, 13)`** (facing Down — `Electrike Lv. 17`, `Voltorb Lv. 17`) guards `(1, 15)` on the path to **Switch #1 `(0, 15)`** [Defeated].
     - **Switch #3 `(3, 9)`:** Stepping on `(3, 9)` toggles the blue barriers at `(1, 11)..(2, 11)`, `(4, 14)..(5, 14)`, `(4, 7)..(5, 7)`, and `(6, 9)` ON, opens the pink barriers at `(3, 12)` and `(4, 11)..(5, 11)`, and rotates **Youngster Ben `(5, 10)`** (`Zigzagoon Lv. 17`, `Gulpin Lv. 17`) to face Left [Defeated].
     - **Electric Pole Collision & Puzzle Solution:** The 2-tile-tall electric poles are only solid on their base tiles (`y = 14, 11, 8, 5`); their pointed top spires (`y = 13, 10, 7, 4`, such as `(3, 13)` and `(6, 10)`) are walkable overhead tiles unless a vertical barrier covers them. From the initial Gym state, step on **Switch #1 `(0, 15)`** (Pink State), walk via `(4, 14)` onto **Switch #2 `(4, 12)`** (Blue State), walk straight up `(4, 11)..(4, 9)` and step onto **Switch #3 `(3, 9)`** (Pink State, opening `(4, 7)..(5, 7)`), then step `Right` to `(4, 9)` and walk `Up` to **Gym Leader Wattson**.
+    - **Gym Leader Wattson `(5, 2)`:** `Voltorb Lv. 20`, `Electrike Lv. 20`, `Magneton Lv. 22`, `Manectric Lv. 24` (holds Sitrus Berry) [Defeated & Registered — **Dynamo Badge** and **TM34 (Shock Wave)** obtained].
 
 <hr>
 
@@ -282,10 +283,10 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,551 | **Badges:** 2 (Stone Badge, Knuckle Badge)
-- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** ~$6,300 | **Badges:** 3 (Stone Badge, Knuckle Badge, Dynamo Badge)
+- **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call), Mach Bike, Rock Smash (Overworld)
 - **Text Speed:** FAST
-- **Inventory:** Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM47 (Steel Wing)
+- **Inventory:** Great Ball x2, Poké Ball x2, Itemfinder, Mach Bike, HM01 (Cut), HM05 (Flash), HM06 (Rock Smash), TM08 (Bulk Up), TM34 (Shock Wave), TM47 (Steel Wing)
 - **Party:**
   1. ATRITON (Marshtomp, Male, Lv. 27 — Mud Shot, Rock Tomb, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
