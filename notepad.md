@@ -238,6 +238,9 @@
 ## Route 110
 - **South Entrance (from Slateport City `(18, 0)`):** `(18, 99)` (white fence at `x = 18..22, y = 93`; step `Left` 2 at `(18, 94)` to `(16, 94)` and walk `Up` 4 to `(16, 90)`).
 - **Seaside Cycling Road South Gatehouse:** Doors at `(16, 88)` and `(19, 88)` (exiting `(16, 88)` steps to `(16, 89)`). From `(16, 89)`, walk `Left` 6 along `y = 89` to `(10, 89)` and `Up` 4 along `x = 10` to `(10, 85)`, where **Prof. Birch** appears and registers himself in the PokéNav Match Call.
+- **Trainers:**
+  - Pokéfan Isabel `(10, 76)` — Plusle Lv. 14, Minun Lv. 14 [Defeated & Registered]
+  - Pokéfan Kaleb `(7, 76)` — Plusle Lv. 14, Minun Lv. 14
 
 <hr>
 
@@ -246,12 +249,12 @@
 # Main Notepad — Pokémon Emerald Version
 
 ## Trainer & Party Info
-- **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,775 | **Badges:** 2 (Stone Badge, Knuckle Badge)
+- **Name:** ORION (Boy / Brendan sprite) | **Money:** $4,895 | **Badges:** 2 (Stone Badge, Knuckle Badge)
 - **Key Features Unlocked:** Pokédex, Running Shoes, PokéNav (Match Call)
 - **Text Speed:** FAST
 - **Inventory:** Great Ball x2, Poké Ball x2, HM01 (Cut), HM05 (Flash), TM08 (Bulk Up), TM39 (Rock Tomb), TM47 (Steel Wing)
 - **Party:**
-  1. ATRITON (Marshtomp, Male, Lv. 21 — Mud Shot, Growl, Mud-Slap, Water Gun)
+  1. ATRITON (Marshtomp, Male, Lv. 22 — Mud Shot, Growl, Mud-Slap, Water Gun)
   2. OBERON (Silcoon, Male, Lv. 8 — Tackle, String Shot, Poison Sting, Harden)
   3. GAIA (Nincada, Female, Lv. 8 — Scratch, Harden, Leech Life, Flash)
 
