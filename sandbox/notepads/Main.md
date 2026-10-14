@@ -4,7 +4,7 @@
 - **Name:** ORION (Boy / Brendan sprite)
 - **Text Speed:** FAST
 - **Inventory:** Potion x1 (withdrawn from bedroom PC)
-- **Party:** None yet (heading to Route 101 to choose starter)
+- **Party:** TRITON (Mudkip, Male, Lv. 5 — Tackle, Growl)
 
 ## Notepad Index
 - `Locations/Littleroot_Town`: Coordinates and interaction details for Player's House, Rival May's House, and Northern Exit.
