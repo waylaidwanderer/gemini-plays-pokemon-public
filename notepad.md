@@ -44,11 +44,11 @@
 
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
-- Starter: Treecko (Level 8, Male), Nickname: SAGE
+- Starter: Treecko (Level 9, Male), Nickname: SAGE
 - Status: Navigating Route 102; Youngster Calvin defeated, currently battling Bug Catcher Rick.
 
 ## Party
-1. SAGE (Treecko ♂, Level 8) - Moves: Pound, Leer, Absorb. HP: 22/26.
+1. SAGE (Treecko ♂, Level 9) - Moves: Pound, Leer, Absorb. HP: 22/28.
 
 ## Bag Highlights
 - Potion x1 (1 promo Potion used to heal Sage to full HP)
