@@ -29,3 +29,4 @@
 - **West Entrance (from Rustboro City `(39, 11)`):** `(0, 11)`
 - **Eastbound Path toward Rusturf Tunnel:**
   - From `(1, 11)`, walk `Right` 3 to `(4, 11)`, `Up` 4 to `(4, 7)`, `Right` 4 along `y = 7` to `(8, 7)`, `Up` 3 to `(8, 4)`, and `Right` 4 along `y = 4` to `(12, 4)` (Youngster Joey at `(12, 7)` — Machop Lv. 9 [Defeated]).
+  - From `(12, 4)`, walk `Right` 2 to `(14, 4)`, `Down` 5 to `(14, 9)`, `Right` 6 along `y = 9` to `(20, 9)`, `Down` 4 to `(20, 13)`, and `Right` 2 to `(22, 13)` (School Kid Karen at `(22, 16)` — Shroomish Lv. 9 [Defeated]).
