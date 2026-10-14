@@ -2,7 +2,7 @@
 
 ## Trainer & Party Info
 - **Name:** ORION (Boy / Brendan sprite) | **Money:** $3,300
-- **Key Features Unlocked:** Pokédex
+- **Key Features Unlocked:** Pokédex, Running Shoes
 - **Text Speed:** FAST
 - **Inventory:** Potion x1, Poké Ball x5
 - **Party:** ATRITON (Mudkip, Male, Lv. 7 — Tackle, Growl, Mud-Slap)
