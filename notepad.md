@@ -5,7 +5,7 @@
 ## Game: Pokémon Emerald Version
 - Protagonist: Female (May), Name: JADE
 - Starter: Treecko (Level 6, Male), Nickname: SAGE
-- Status: Heal complete! Exiting Pokémon Center to meet Mart clerk for free Potion.
+- Status: Exited Pokémon Center (HP 22/22). Locating Mart clerk on east side of Oldale Town for free Potion.
 
 ## Party
 1. SAGE (Treecko ♂, Level 6) - Moves: Pound, Leer, Absorb. HP: 22/22.
